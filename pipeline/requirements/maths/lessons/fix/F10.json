@@ -1,0 +1,2007 @@
+[
+ {
+  "skill": {
+   "id": "mens-equate-volumes",
+   "title": "Solve recasting, displacement and flow problems",
+   "level": "OL",
+   "input": "equal-volume situation",
+   "output": "unknown dimension or time"
+  },
+  "errors": [
+   "2020-ordinary-p2-q9#(b)(ii) step 3: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q8#(a)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up an equation",
+      "lines": [
+       {
+        "text": "The water that dropped is a cylinder of radius 5 cm whose volume equals the sphere, $36\\pi$."
+       },
+       {
+        "tex": "\\pi r^2 h &= 36\\pi"
+       },
+       {
+        "tex": "\\pi (5)^2 h &= 36\\pi"
+       },
+       {
+        "tex": "25\\pi h &= 36\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "h &= \\frac{36\\pi}{25\\pi}"
+       },
+       {
+        "tex": "&= \\frac{36}{25}"
+       },
+       {
+        "tex": "&= 1.44"
+       }
+      ]
+     }
+    ],
+    "final": "h = 1.44 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Equate the rise in water to the volume of the ice",
+      "lines": [
+       {
+        "text": "The volume of water that rises is a cylinder of radius 3.5 and height $h$. It equals the volume of 3 ice cubes."
+       },
+       {
+        "tex": "\\pi (3.5)^2 h &= 3\\left(\\frac{9\\pi}{2}\\right)"
+       },
+       {
+        "tex": "\\pi (3.5)^2 h &= \\frac{27\\pi}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by pi",
+      "lines": [
+       {
+        "tex": "(3.5)^2 h &= \\frac{27}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "h &= \\frac{27}{2(3.5)^2}"
+       },
+       {
+        "tex": "h &= \\frac{27}{24.5}"
+       },
+       {
+        "tex": "h &\\approx 1.102"
+       },
+       {
+        "tex": "h &\\approx 1.1"
+       }
+      ]
+     }
+    ],
+    "final": "h = 1.1 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the cone volume equal to the hemisphere volume",
+      "lines": [
+       {
+        "text": "The cone has radius $21$ and height $h_c$."
+       },
+       {
+        "tex": "\\frac{1}{3}\\pi (21)^2 h_c &= 6174\\pi"
+       },
+       {
+        "tex": "\\frac{1}{3}\\pi (441) h_c &= 6174\\pi"
+       },
+       {
+        "tex": "147\\pi h_c &= 6174\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 147 pi",
+      "lines": [
+       {
+        "tex": "h_c &= \\frac{6174\\pi}{147\\pi}"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Add the height of the hemisphere",
+      "lines": [
+       {
+        "text": "The hemisphere is $21$ cm deep (its radius)."
+       },
+       {
+        "tex": "h &= 42 + 21"
+       },
+       {
+        "tex": "&= 63"
+       }
+      ]
+     }
+    ],
+    "final": "h = 63 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Equate the water raised to the seats' volume",
+      "lines": [
+       {
+        "text": "The water rises by a cylinder of radius $1.2$ m and height $h$, with volume equal to the seats: $0.375$ m$^3$."
+       },
+       {
+        "tex": "\\pi r^2 h &= 0.375"
+       },
+       {
+        "tex": "\\pi (1.2)^2 h &= 0.375"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by the other factors",
+      "lines": [
+       {
+        "tex": "h &= \\frac{0.375}{\\pi (1.2)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round to 2 decimal places",
+      "lines": [
+       {
+        "tex": "h &= 0.0829"
+       },
+       {
+        "tex": "h &\\approx 0.08 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "h = 0.08 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q5#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Volume of the cone",
+      "lines": [
+       {
+        "tex": "V &= \\frac{1}{3}\\pi r^2 h"
+       },
+       {
+        "tex": "&= \\frac{1}{3}\\pi (7)^2 (12)"
+       },
+       {
+        "tex": "&= \\frac{1}{3}\\pi (49)(12)"
+       },
+       {
+        "tex": "&= \\frac{588}{3}\\pi"
+       },
+       {
+        "tex": "&= 196\\pi"
+       },
+       {
+        "tex": "&\\approx 615.75 \\text{ cm}^3"
+       }
+      ]
+     },
+     {
+      "title": "Convert the flow rate to cm³ per minute",
+      "lines": [
+       {
+        "text": "$1$ litre $= 1000\\ \\text{cm}^3$, so $0.5$ litres $= 500\\ \\text{cm}^3$ per minute."
+       }
+      ]
+     },
+     {
+      "title": "Divide the volume by the rate",
+      "lines": [
+       {
+        "tex": "t &= \\frac{196\\pi}{500}"
+       },
+       {
+        "tex": "&\\approx 1.2315 \\text{ minutes}"
+       }
+      ]
+     },
+     {
+      "title": "Convert minutes to seconds",
+      "lines": [
+       {
+        "tex": "t &= \\frac{196\\pi}{500} \\times 60"
+       },
+       {
+        "tex": "&\\approx 73.89 \\text{ seconds}"
+       },
+       {
+        "tex": "&\\approx 74 \\text{ seconds}"
+       }
+      ]
+     }
+    ],
+    "final": "74 \\text{ seconds}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q7#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Volume of water entering per second",
+      "lines": [
+       {
+        "text": "Each second the water forms a cylinder of radius 0.8 cm and length 2.5 cm."
+       },
+       {
+        "tex": "\\text{volume per second} &= \\pi r^2 \\times 2.5"
+       },
+       {
+        "tex": "&= \\pi (0.8)^2 (2.5)"
+       },
+       {
+        "tex": "&= 1.6\\pi"
+       },
+       {
+        "tex": "&= 5.0265"
+       }
+      ]
+     },
+     {
+      "title": "Time to fill 65.2 cm³",
+      "lines": [
+       {
+        "tex": "\\text{time} &= \\frac{65.2}{5.0265}"
+       },
+       {
+        "tex": "&= 12.97"
+       },
+       {
+        "tex": "&= 13"
+       }
+      ]
+     }
+    ],
+    "final": "13\\text{ seconds}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q8#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "h, the unknown height",
+     "2": "the volume to match, 36π"
+    },
+    "steps": [
+     {
+      "ask": "The water forms a cylinder with the same volume as the sphere. Which letter is the unknown height, and what does the cylinder's volume equal?",
+      "title": "Set up an equation",
+      "lines": [
+       {
+        "text": "The water that dropped is a cylinder of radius 5 cm whose volume equals the sphere, $\\hl{2}{36\\pi}$."
+       },
+       {
+        "tex": "\\pi r^2 \\hl{1}{h} &= \\hl{2}{36\\pi}"
+       },
+       {
+        "tex": "\\pi (5)^2 \\hl{1}{h} &= \\hl{2}{36\\pi}"
+       },
+       {
+        "tex": "25\\pi \\hl{1}{h} &= \\hl{2}{36\\pi}"
+       }
+      ]
+     },
+     {
+      "ask": "Both sides have π. What can you divide both sides by to get h on its own?",
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h} &= \\frac{\\hl{2}{36\\pi}}{25\\pi}"
+       },
+       {
+        "tex": "&= \\frac{36}{25}"
+       },
+       {
+        "tex": "&= \\hl{1}{1.44}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{h} = \\hl{1}{1.44 \\text{ cm}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q9#(b)(ii)",
+    "note": "What changed: the water rise is matched to three ice cubes instead of one sphere, so the known volume is three cubes' worth. The method is the same: equate the two volumes, then solve for h.",
+    "legend": {
+     "1": "h, the unknown height of the rise",
+     "2": "the volume to match, the three ice cubes"
+    },
+    "steps": [
+     {
+      "ask": "The water rise forms a cylinder of unknown height. What volume must it equal, given the three ice cubes?",
+      "title": "Equate the rise in water to the volume of the ice",
+      "lines": [
+       {
+        "text": "The volume of water that rises is a cylinder of radius 3.5 and height $\\hl{1}{h}$. It equals the volume of 3 ice cubes."
+       },
+       {
+        "tex": "\\pi (3.5)^2 \\hl{1}{h} &= \\hl{2}{3\\left(\\frac{9\\pi}{2}\\right)}"
+       },
+       {
+        "tex": "\\pi (3.5)^2 \\hl{1}{h} &= \\hl{2}{\\frac{27\\pi}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "Both sides have a factor of π. What do you do to both sides to remove it?",
+      "title": "Divide both sides by pi",
+      "lines": [
+       {
+        "tex": "(3.5)^2 \\hl{1}{h} &= \\hl{2}{\\frac{27}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "Divide by the number multiplying h, then evaluate and round to one decimal place.",
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h} &= \\frac{27}{2(3.5)^2}"
+       },
+       {
+        "tex": "\\hl{1}{h} &= \\frac{27}{24.5}"
+       },
+       {
+        "tex": "\\hl{1}{h} &\\approx 1.102"
+       },
+       {
+        "tex": "\\hl{1}{h} &\\approx \\hl{1}{1.1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{h} = \\hl{1}{1.1 \\text{ cm}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q5#(b)",
+    "note": "What changed: the unknown is now a time, so the volume is divided by a flow rate instead of being matched to another shape. The rate has to be converted to cm³ per minute first.",
+    "legend": {
+     "1": "t, the time to fill the cone",
+     "2": "V, the volume of the cone",
+     "3": "the flow rate, 500 cm³ per minute"
+    },
+    "steps": [
+     {
+      "ask": "The question asks for a time. What volume has to be filled, and what shape is it?",
+      "title": "Volume of the cone",
+      "lines": [
+       {
+        "tex": "\\hl{2}{V} &= \\frac{1}{3}\\pi r^2 h"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{1}{3}\\pi (7)^2 (12)}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{1}{3}\\pi (49)(12)}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{588}{3}\\pi}"
+       },
+       {
+        "tex": "&= \\hl{2}{196\\pi}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{615.75 \\text{ cm}^3}"
+       }
+      ]
+     },
+     {
+      "ask": "The flow is given per minute, but the volume is in cm³. How many cm³ are in one litre?",
+      "title": "Convert the flow rate to cm³ per minute",
+      "lines": [
+       {
+        "text": "$1$ litre $= 1000\\ \\text{cm}^3$, so $0.5$ litres $= \\hl{3}{500\\ \\text{cm}^3}$ per minute."
+       }
+      ]
+     },
+     {
+      "ask": "Time is the volume divided by the rate. Which of the two numbers goes on top?",
+      "title": "Divide the volume by the rate",
+      "lines": [
+       {
+        "tex": "\\hl{1}{t} &= \\frac{\\hl{2}{196\\pi}}{\\hl{3}{500}}"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{1.2315 \\text{ minutes}}"
+       }
+      ]
+     },
+     {
+      "ask": "The answer is in minutes, but the question asks for seconds. What do you multiply the minutes by?",
+      "title": "Convert minutes to seconds",
+      "lines": [
+       {
+        "tex": "\\hl{1}{t} &= \\frac{\\hl{2}{196\\pi}}{\\hl{3}{500}} \\times 60"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{73.89 \\text{ seconds}}"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{74 \\text{ seconds}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{74 \\text{ seconds}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-eq-centre-radius",
+   "title": "Write/interpret (x − h)² + (y − k)² = r²",
+   "level": "OL",
+   "input": "centre and radius (or equation)",
+   "output": "equation (or centre, radius)"
+  },
+  "errors": [
+   "2015-ordinary-p2-q3#(c) step 2: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q4#(c)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute the centre and radius into the circle equation",
+      "lines": [
+       {
+        "tex": "(x-h)^2 + (y-k)^2 &= r^2"
+       },
+       {
+        "tex": "(x-5)^2 + (y-4)^2 &= \\left(4\\sqrt{2}\\right)^2"
+       },
+       {
+        "tex": "(x-5)^2 + (y-4)^2 &= 32"
+       }
+      ]
+     }
+    ],
+    "final": "(x-5)^2 + (y-4)^2 = 32"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q3#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the equation of a circle",
+      "lines": [
+       {
+        "text": "A circle with centre $(h,k)$ and radius $r$ has equation $(x-h)^2+(y-k)^2=r^2$. Here $h=3$, $k=-4$, $r=7$."
+       },
+       {
+        "tex": "(x-3)^2 + (y-(-4))^2 &= 7^2"
+       },
+       {
+        "tex": "(x-3)^2 + (y+4)^2 &= 49"
+       }
+      ]
+     }
+    ],
+    "final": "(x-3)^2+(y+4)^2=49"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q3#(c)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the radius",
+      "lines": [
+       {
+        "text": "The radius is the distance from the centre $(-4, 3)$ to the point $(3, 4)$."
+       },
+       {
+        "tex": "r &= \\sqrt{(3-(-4))^2 + (4-3)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{7^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\sqrt{49 + 1}"
+       },
+       {
+        "tex": "&= \\sqrt{50}"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "tex": "(x-h)^2 + (y-k)^2 &= r^2"
+       },
+       {
+        "tex": "(x+4)^2 + (y-3)^2 &= (\\sqrt{50})^2"
+       },
+       {
+        "tex": "(x+4)^2 + (y-3)^2 &= 50"
+       }
+      ]
+     }
+    ],
+    "final": "(x+4)^2 + (y-3)^2 = 50"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q3#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the equation of a circle with centre (h, k) and radius r",
+      "lines": [
+       {
+        "tex": "(x-h)^2 + (y-k)^2 &= r^2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute h = 2, k = −3 and r = 4",
+      "lines": [
+       {
+        "tex": "(x-2)^2 + (y-(-3))^2 &= 4^2"
+       },
+       {
+        "tex": "(x-2)^2 + (y+3)^2 &= 4^2"
+       }
+      ]
+     }
+    ],
+    "final": "(x-2)^2 + (y+3)^2 = 4^2"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q4#(d)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the circle equation with centre (3, 10) and radius 5",
+      "lines": [
+       {
+        "tex": "(x - h)^2 + (y - k)^2 &= r^2"
+       },
+       {
+        "tex": "(x - 3)^2 + (y - 10)^2 &= 5^2"
+       },
+       {
+        "tex": "(x - 3)^2 + (y - 10)^2 &= 25"
+       }
+      ]
+     },
+     {
+      "title": "Optional: expand into the general form",
+      "lines": [
+       {
+        "tex": "x^2 - 6x + 9 + y^2 - 20y + 100 &= 25"
+       },
+       {
+        "tex": "x^2 + y^2 - 6x - 20y + 84 &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "(x - 3)^2 + (y - 10)^2 = 25"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q4#(a)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Compare with the circle equation",
+      "lines": [
+       {
+        "text": "A circle with centre $(h,k)$ and radius $r$ has equation $(x-h)^2 + (y-k)^2 = r^2$."
+       },
+       {
+        "text": "$(x-1)^2 + (y+4)^2 = 25$ matches this with $h = 1$, $k = -4$ and $r^2 = 25$."
+       }
+      ]
+     },
+     {
+      "title": "Read off the centre and radius",
+      "lines": [
+       {
+        "text": "Centre $= (1, -4)$."
+       },
+       {
+        "text": "Radius $= \\sqrt{25} = 5$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre } (1, -4),\\ \\text{radius } 5"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q3#(b)",
+    "note": null,
+    "legend": {
+     "1": "the centre, h and k",
+     "2": "the radius, r and r²"
+    },
+    "steps": [
+     {
+      "ask": "Which values from the question go into the standard equation for the centre and radius?",
+      "title": "Write the equation of a circle",
+      "lines": [
+       {
+        "text": "A circle with centre $\\hl{1}{(h,k)}$ and radius $\\hl{2}{r}$ has equation $(x-\\hl{1}{h})^2+(y-\\hl{1}{k})^2=\\hl{2}{r^2}$. Here $\\hl{1}{h=3}$, $\\hl{1}{k=-4}$, $\\hl{2}{r=7}$."
+       },
+       {
+        "tex": "(x-\\hl{1}{3})^2 + (y-\\hl{1}{(-4)})^2 &= \\hl{2}{7^2}"
+       },
+       {
+        "tex": "(x-\\hl{1}{3})^2 + (y+\\hl{1}{4})^2 &= \\hl{2}{49}"
+       }
+      ]
+     }
+    ],
+    "final": "(x-\\hl{1}{3})^2+(y+\\hl{1}{4})^2=\\hl{2}{49}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q4#(c)",
+    "note": "The radius is now a surd, 4√2, so the right-hand side needs squaring: (4√2)² = 32. The centre and the method stay the same.",
+    "legend": {
+     "1": "the centre, h and k",
+     "2": "the radius, r and r²"
+    },
+    "steps": [
+     {
+      "ask": "The radius is 4√2. What do you get when you square it for the right-hand side?",
+      "title": "Substitute the centre and radius into the circle equation",
+      "lines": [
+       {
+        "tex": "(x-\\hl{1}{h})^2 + (y-\\hl{1}{k})^2 &= \\hl{2}{r^2}"
+       },
+       {
+        "tex": "(x-\\hl{1}{5})^2 + (y-\\hl{1}{4})^2 &= \\hl{2}{\\left(4\\sqrt{2}\\right)^2}"
+       },
+       {
+        "tex": "(x-\\hl{1}{5})^2 + (y-\\hl{1}{4})^2 &= \\hl{2}{32}"
+       }
+      ]
+     }
+    ],
+    "final": "(x-\\hl{1}{5})^2 + (y-\\hl{1}{4})^2 = \\hl{2}{32}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q3#(c)",
+    "note": "The radius is not given this time. Find it first as the distance from the centre to a point, then write the equation with r² = 50.",
+    "legend": {
+     "1": "the centre, (−4, 3)",
+     "2": "the radius, r and r²"
+    },
+    "steps": [
+     {
+      "ask": "The radius is the distance from the centre to a point on the circle. Which formula gives a distance between two points?",
+      "title": "Find the radius",
+      "lines": [
+       {
+        "text": "The radius is the distance from the centre $\\hl{1}{(-4, 3)}$ to the point $(3, 4)$."
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\sqrt{(3-\\hl{1}{(-4)})^2 + (4-\\hl{1}{3})^2}"
+       },
+       {
+        "tex": "&= \\sqrt{7^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\sqrt{49 + 1}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\sqrt{50}}"
+       }
+      ]
+     },
+     {
+      "ask": "Now you know r. Put the centre and r² into the standard equation, watching the signs of the centre.",
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "tex": "(x-h)^2 + (y-k)^2 &= \\hl{2}{r^2}"
+       },
+       {
+        "tex": "(x+\\hl{1}{4})^2 + (y-\\hl{1}{3})^2 &= \\hl{2}{(\\sqrt{50})^2}"
+       },
+       {
+        "tex": "(x+\\hl{1}{4})^2 + (y-\\hl{1}{3})^2 &= \\hl{2}{50}"
+       }
+      ]
+     }
+    ],
+    "final": "(x+\\hl{1}{4})^2 + (y-\\hl{1}{3})^2 = \\hl{2}{50}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-from-conditions",
+   "title": "Find a circle's equation from conditions",
+   "level": "HL",
+   "input": "e.g. three points, centre on a line, touches an axis",
+   "output": "g, f, c"
+  },
+  "errors": [
+   "2017-higher-p2-q4#(a) step 3: ask must contain a question, not only a command",
+   "2016-higher-p2-q2#(b) step 3: ask must contain a question, not only a command",
+   "2016-higher-p2-q2#(b) step 4: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the centre and use the point (1, 4)",
+      "lines": [
+       {
+        "text": "The centre is on the $x$-axis, so let it be $(h, 0)$. The point $(1,4)$ is $5$ units from the centre."
+       },
+       {
+        "tex": "(1-h)^2 + (4-0)^2 &= 5^2"
+       },
+       {
+        "tex": "(1-h)^2 + 16 &= 25"
+       },
+       {
+        "tex": "(1-h)^2 &= 9"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "text": "Take the square root of both sides: $1 - h = 3$ or $1 - h = -3$."
+       },
+       {
+        "tex": "h &= -2 \\text{ or } h = 4"
+       }
+      ]
+     },
+     {
+      "title": "Write both equations",
+      "lines": [
+       {
+        "text": "Each circle has radius $5$, so use $(x-h)^2 + y^2 = 25$."
+       },
+       {
+        "tex": "c_1: \\quad (x+2)^2 + y^2 &= 25"
+       },
+       {
+        "tex": "c_2: \\quad (x-4)^2 + y^2 &= 25"
+       }
+      ]
+     }
+    ],
+    "final": "c_1: (x+2)^2 + y^2 = 25, \\quad c_2: (x-4)^2 + y^2 = 25"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q4#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the general circle equation, substitute A(0, 0)",
+      "lines": [
+       {
+        "text": "A circle through three points has the form $x^2+y^2+2gx+2fy+c=0$."
+       },
+       {
+        "tex": "x^2+y^2+2gx+2fy+c &= 0"
+       },
+       {
+        "tex": "0+0+2g(0)+2f(0)+c &= 0"
+       },
+       {
+        "tex": "c &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute B(6.5, 0) to find g",
+      "lines": [
+       {
+        "tex": "6.5^2+0^2+2g(6.5)+2f(0) &= 0"
+       },
+       {
+        "tex": "42.25+13g &= 0"
+       },
+       {
+        "tex": "13g &= -42.25"
+       },
+       {
+        "tex": "g &= -3.25"
+       }
+      ]
+     },
+     {
+      "title": "Substitute C(10, 7) to find f",
+      "lines": [
+       {
+        "tex": "10^2+7^2+2(-3.25)(10)+2f(7) &= 0"
+       },
+       {
+        "tex": "100+49-65+14f &= 0"
+       },
+       {
+        "tex": "84+14f &= 0"
+       },
+       {
+        "tex": "14f &= -84"
+       },
+       {
+        "tex": "f &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Write out the equation",
+      "lines": [
+       {
+        "tex": "x^2+y^2+2(-3.25)x+2(-6)y+0 &= 0"
+       },
+       {
+        "tex": "x^2+y^2-6.5x-12y &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "x^2+y^2-6.5x-12y=0"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Describe the circle using its radius r",
+      "lines": [
+       {
+        "text": "The circle touches both axes in the first quadrant, so the centre is $(r, r)$ and the radius is $r$."
+       }
+      ]
+     },
+     {
+      "title": "Distance from centre to tangent equals the radius",
+      "lines": [
+       {
+        "text": "Use $\\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $(r, r)$ and $3x - 4y + 6 = 0$."
+       },
+       {
+        "tex": "\\frac{|3r - 4r + 6|}{\\sqrt{3^2 + (-4)^2}} &= r"
+       },
+       {
+        "tex": "\\frac{|6 - r|}{5} &= r"
+       },
+       {
+        "tex": "|6 - r| &= 5r"
+       }
+      ]
+     },
+     {
+      "title": "Remove the modulus and solve",
+      "lines": [
+       {
+        "tex": "6 - r &= 5r \\quad\\text{or}\\quad 6 - r = -5r"
+       },
+       {
+        "text": "The second case gives $r = -\\frac{3}{2}$, which is rejected because a radius cannot be negative."
+       },
+       {
+        "tex": "6 - r &= 5r"
+       },
+       {
+        "tex": "6 &= 6r"
+       },
+       {
+        "tex": "r &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "text": "Centre $(1, 1)$ and radius $1$."
+       },
+       {
+        "tex": "(x - 1)^2 + (y - 1)^2 &= 1^2"
+       },
+       {
+        "tex": "(x - 1)^2 + (y - 1)^2 &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "(x - 1)^2 + (y - 1)^2 = 1"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Set up the distance from C to the tangent",
+      "lines": [
+       {
+        "text": "The centre is $C(-g, -f)$. The radius $5$ equals the perpendicular distance from $C$ to $l: 3x + 4y - 21 = 0$."
+       },
+       {
+        "text": "Use $D = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $x_1 = -g$, $y_1 = -f$."
+       },
+       {
+        "tex": "5 &= \\frac{|3(-g) + 4(-f) - 21|}{\\sqrt{3^2 + 4^2}}"
+       },
+       {
+        "tex": "5 &= \\frac{|-3g - 4f - 21|}{5}"
+       },
+       {
+        "tex": "25 &= |-3g - 4f - 21|"
+       }
+      ]
+     },
+     {
+      "title": "Remove the modulus (two cases)",
+      "lines": [
+       {
+        "tex": "-3g - 4f - 21 &= 25 \\quad \\text{or} \\quad -3g - 4f - 21 = -25"
+       },
+       {
+        "tex": "3g + 4f &= -46 \\quad \\text{or} \\quad 3g + 4f = 4"
+       }
+      ]
+     },
+     {
+      "title": "Use the fact that C lies on XC",
+      "lines": [
+       {
+        "text": "$C(-g, -f)$ is on the line $x - 7y + 43 = 0$ from part (a)."
+       },
+       {
+        "tex": "-g + 7f + 43 &= 0"
+       },
+       {
+        "tex": "g &= 7f + 43"
+       }
+      ]
+     },
+     {
+      "title": "Solve for one circle using 3g + 4f = -46",
+      "lines": [
+       {
+        "text": "Take $3g + 4f = -46$ and substitute $g = 7f + 43$."
+       },
+       {
+        "tex": "3(7f + 43) + 4f &= -46"
+       },
+       {
+        "tex": "21f + 129 + 4f &= -46"
+       },
+       {
+        "tex": "25f &= -175"
+       },
+       {
+        "tex": "f &= -7"
+       },
+       {
+        "tex": "g &= 7(-7) + 43"
+       },
+       {
+        "tex": "g &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "text": "The centre is $(-g, -f) = (6, 7)$ and the radius is $5$."
+       },
+       {
+        "tex": "(x - 6)^2 + (y - 7)^2 &= 5^2"
+       },
+       {
+        "tex": "(x - 6)^2 + (y - 7)^2 &= 25"
+       },
+       {
+        "text": "The other case, $3g + 4f = 4$, gives $g = 8$, $f = -5$ and the circle $(x+8)^2 + (y-5)^2 = 25$."
+       }
+      ]
+     }
+    ],
+    "final": "(x - 6)^2 + (y - 7)^2 = 25"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q5#(c)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Relate $|AB|$ to the radius of $s$",
+      "lines": [
+       {
+        "text": "The radii to $A$ and $B$ are perpendicular to the parallel tangents, so both centres lie on $AB$."
+       },
+       {
+        "text": "Let the radius of $s$ be $r$. Then $t$ has radius $3r$, and $AB$ is the diameter of $s$ plus the diameter of $t$."
+       },
+       {
+        "tex": "|AB| &= 2r + 6r"
+       },
+       {
+        "tex": "&= 8r"
+       }
+      ]
+     },
+     {
+      "title": "Find $|AB|$ using $A(-2, 1)$ and $B(6, 13)$",
+      "lines": [
+       {
+        "tex": "|AB| &= \\sqrt{(6 + 2)^2 + (13 - 1)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{64 + 144}"
+       },
+       {
+        "tex": "&= \\sqrt{208}"
+       },
+       {
+        "tex": "&= 4\\sqrt{13}"
+       }
+      ]
+     },
+     {
+      "title": "Find the radius of $s$",
+      "lines": [
+       {
+        "tex": "8r &= 4\\sqrt{13}"
+       },
+       {
+        "tex": "r &= \\frac{\\sqrt{13}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the centre of $s$",
+      "lines": [
+       {
+        "text": "The centre of $s$ is $\\frac{1}{8}$ of the way from $A$ to $B$, because $r = \\frac{1}{8}|AB|$."
+       },
+       {
+        "tex": "h &= -2 + \\frac{1}{8}(8)"
+       },
+       {
+        "tex": "&= -1"
+       },
+       {
+        "tex": "k &= 1 + \\frac{1}{8}(12)"
+       },
+       {
+        "tex": "&= 2.5"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of $s$",
+      "lines": [
+       {
+        "text": "Use $(x - h)^2 + (y - k)^2 = r^2$ with $r^2 = \\frac{13}{4}$."
+       },
+       {
+        "tex": "(x + 1)^2 + (y - 2.5)^2 &= \\left(\\frac{\\sqrt{13}}{2}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{13}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "(x + 1)^2 + (y - 2.5)^2 = \\frac{13}{4}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q4#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the y-coordinate of the centre",
+      "lines": [
+       {
+        "text": "$(a, 3)$ and $(a, -5)$ have the same $x$-coordinate, so they are the ends of a vertical chord. The centre is level with the midpoint of that chord."
+       },
+       {
+        "tex": "k &= \\frac{3 + (-5)}{2}"
+       },
+       {
+        "tex": "&= \\frac{-2}{2}"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation with centre (h, -1)",
+      "lines": [
+       {
+        "text": "The radius is $\\sqrt{20}$, so $r^2 = 20$."
+       },
+       {
+        "tex": "(x - h)^2 + (y + 1)^2 &= 20"
+       }
+      ]
+     },
+     {
+      "title": "Substitute (8, 1) to find h",
+      "lines": [
+       {
+        "tex": "(8 - h)^2 + (1 + 1)^2 &= 20"
+       },
+       {
+        "tex": "(8 - h)^2 + 4 &= 20"
+       },
+       {
+        "tex": "(8 - h)^2 &= 16"
+       },
+       {
+        "tex": "8 - h &= 4 \\text{ or } 8 - h = -4"
+       },
+       {
+        "tex": "h &= 4 \\text{ or } h = 12"
+       }
+      ]
+     },
+     {
+      "title": "Reject the value of h that does not fit the diagram",
+      "lines": [
+       {
+        "text": "Substitute $(a, 3)$ into the circle equation to see what $a$ must be."
+       },
+       {
+        "tex": "(a - h)^2 + (3 + 1)^2 &= 20"
+       },
+       {
+        "tex": "(a - h)^2 &= 4"
+       },
+       {
+        "tex": "a &= h + 2 \\text{ or } a = h - 2"
+       },
+       {
+        "text": "If $h = 12$, then $a = 14$ or $a = 10$, but $0 < a < 5$, so $h = 12$ is rejected."
+       },
+       {
+        "text": "If $h = 4$, then $a = 2$ (or $6$), and $a = 2$ satisfies $0 < a < 5$. So $h = 4$."
+       }
+      ]
+     },
+     {
+      "title": "State the equation of the circle",
+      "lines": [
+       {
+        "tex": "(x - 4)^2 + (y + 1)^2 &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "(x - 4)^2 + (y + 1)^2 = 20"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2017-higher-p2-q4#(a)",
+    "note": null,
+    "legend": {
+     "1": "g, from the term 2gx",
+     "2": "f, from the term 2fy",
+     "3": "c, the constant term"
+    },
+    "steps": [
+     {
+      "ask": "A circle through three points has general form x² + y² + 2gx + 2fy + c = 0. Which point is easiest to substitute first?",
+      "title": "Write the general circle equation, substitute A(0, 0)",
+      "lines": [
+       {
+        "text": "A circle through three points has the form $x^2+y^2+2\\hl{1}{g}x+2\\hl{2}{f}y+\\hl{3}{c}=0$."
+       },
+       {
+        "tex": "x^2+y^2+2\\hl{1}{g}x+2\\hl{2}{f}y+\\hl{3}{c} &= 0"
+       },
+       {
+        "tex": "0+0+2\\hl{1}{g}(0)+2\\hl{2}{f}(0)+\\hl{3}{c} &= 0"
+       },
+       {
+        "tex": "\\hl{3}{c} &= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "Which of the other points has y = 0, so that the f term drops out?",
+      "title": "Substitute B(6.5, 0) to find g",
+      "lines": [
+       {
+        "tex": "6.5^2+0^2+2\\hl{1}{g}(6.5)+2\\hl{2}{f}(0) &= 0"
+       },
+       {
+        "tex": "42.25+13\\hl{1}{g} &= 0"
+       },
+       {
+        "tex": "13\\hl{1}{g} &= -42.25"
+       },
+       {
+        "tex": "\\hl{1}{g} &= \\hl{1}{-3.25}"
+       }
+      ]
+     },
+     {
+      "ask": "g is now known. Substitute the last point, using that value of g, to find f.",
+      "title": "Substitute C(10, 7) to find f",
+      "lines": [
+       {
+        "tex": "10^2+7^2+2(\\hl{1}{-3.25})(10)+2\\hl{2}{f}(7) &= 0"
+       },
+       {
+        "tex": "100+49-65+14\\hl{2}{f} &= 0"
+       },
+       {
+        "tex": "84+14\\hl{2}{f} &= 0"
+       },
+       {
+        "tex": "14\\hl{2}{f} &= -84"
+       },
+       {
+        "tex": "\\hl{2}{f} &= \\hl{2}{-6}"
+       }
+      ]
+     },
+     {
+      "ask": "Put g, f and c back into the general form. What is the equation?",
+      "title": "Write out the equation",
+      "lines": [
+       {
+        "tex": "x^2+y^2+2(\\hl{1}{-3.25})x+2(\\hl{2}{-6})y+\\hl{3}{0} &= 0"
+       },
+       {
+        "tex": "x^2+y^2-6.5x-12y &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "x^2+y^2-6.5x-12y=0",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q2#(b)",
+    "note": "Same general form and centre (−g, −f) as problem 1, but the radius 5 is now given and the circle touches a line, so the distance from the centre to that line replaces the third point. The method gives two circles; the step shows the first in full and notes the second.",
+    "legend": {
+     "1": "g, so the centre is (−g, −f)",
+     "2": "f, so the centre is (−g, −f)",
+     "4": "the radius, 5"
+    },
+    "steps": [
+     {
+      "ask": "Which distance formula links the centre to the line l, and what must it equal?",
+      "title": "Set up the distance from C to the tangent",
+      "lines": [
+       {
+        "text": "The centre is $C(-\\hl{1}{g}, -\\hl{2}{f})$. The radius $\\hl{4}{5}$ equals the perpendicular distance from $C$ to $l: 3x + 4y - 21 = 0$."
+       },
+       {
+        "text": "Use $D = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $x_1 = -\\hl{1}{g}$, $y_1 = -\\hl{2}{f}$."
+       },
+       {
+        "tex": "\\hl{4}{5} &= \\frac{|3(-\\hl{1}{g}) + 4(-\\hl{2}{f}) - 21|}{\\sqrt{3^2 + 4^2}}"
+       },
+       {
+        "tex": "\\hl{4}{5} &= \\frac{|-3\\hl{1}{g} - 4\\hl{2}{f} - 21|}{5}"
+       },
+       {
+        "tex": "25 &= |-3\\hl{1}{g} - 4\\hl{2}{f} - 21|"
+       }
+      ]
+     },
+     {
+      "ask": "The absolute value gives two cases. What does each case say about 3g + 4f?",
+      "title": "Remove the modulus (two cases)",
+      "lines": [
+       {
+        "tex": "-3\\hl{1}{g} - 4\\hl{2}{f} - 21 &= 25 \\quad \\text{or} \\quad -3\\hl{1}{g} - 4\\hl{2}{f} - 21 = -25"
+       },
+       {
+        "tex": "3\\hl{1}{g} + 4\\hl{2}{f} &= -46 \\quad \\text{or} \\quad 3\\hl{1}{g} + 4\\hl{2}{f} = 4"
+       }
+      ]
+     },
+     {
+      "ask": "C lies on the line from part (a). Substitute the coordinates of C to get g in terms of f.",
+      "title": "Use the fact that C lies on XC",
+      "lines": [
+       {
+        "text": "$C(-\\hl{1}{g}, -\\hl{2}{f})$ is on the line $x - 7y + 43 = 0$ from part (a)."
+       },
+       {
+        "tex": "-\\hl{1}{g} + 7\\hl{2}{f} + 43 &= 0"
+       },
+       {
+        "tex": "\\hl{1}{g} &= 7\\hl{2}{f} + 43"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute g into 3g + 4f = −46 and solve for f. Then find g.",
+      "title": "Solve for one circle using 3g + 4f = -46",
+      "lines": [
+       {
+        "text": "Take $3\\hl{1}{g} + 4\\hl{2}{f} = -46$ and substitute $\\hl{1}{g} = 7\\hl{2}{f} + 43$."
+       },
+       {
+        "tex": "3(7\\hl{2}{f} + 43) + 4\\hl{2}{f} &= -46"
+       },
+       {
+        "tex": "21\\hl{2}{f} + 129 + 4\\hl{2}{f} &= -46"
+       },
+       {
+        "tex": "25\\hl{2}{f} &= -175"
+       },
+       {
+        "tex": "\\hl{2}{f} &= \\hl{2}{-7}"
+       },
+       {
+        "tex": "\\hl{1}{g} &= 7(\\hl{2}{-7}) + 43"
+       },
+       {
+        "tex": "\\hl{1}{g} &= \\hl{1}{-6}"
+       }
+      ]
+     },
+     {
+      "ask": "With g and f known, what are the centre and the radius, and what is the equation?",
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "text": "The centre is $(-\\hl{1}{g}, -\\hl{2}{f}) = (6, 7)$ and the radius is $\\hl{4}{5}$."
+       },
+       {
+        "tex": "(x - 6)^2 + (y - 7)^2 &= \\hl{4}{5}^2"
+       },
+       {
+        "tex": "(x - 6)^2 + (y - 7)^2 &= 25"
+       },
+       {
+        "text": "The other case, $3\\hl{1}{g} + 4\\hl{2}{f} = 4$, gives $\\hl{1}{g} = 8$, $\\hl{2}{f} = -5$ and the circle $(x+8)^2 + (y-5)^2 = 25$."
+       }
+      ]
+     }
+    ],
+    "final": "(x - 6)^2 + (y - 7)^2 = 25",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q3#(b)",
+    "note": "Problem 2 had two unknowns, g and f. Here the circle touches both axes, so the centre is (r, r) and the radius r is the only unknown, and the same distance-to-line method gives one equation.",
+    "legend": {
+     "4": "the radius r, which is also the centre's x and y"
+    },
+    "steps": [
+     {
+      "ask": "Where is the centre of a circle that touches both axes in the first quadrant?",
+      "title": "Describe the circle using its radius r",
+      "lines": [
+       {
+        "text": "The circle touches both axes in the first quadrant, so the centre is $(\\hl{4}{r}, \\hl{4}{r})$ and the radius is $\\hl{4}{r}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which distance formula gives the distance from the centre to the line 3x − 4y + 6 = 0, and what must it equal?",
+      "title": "Distance from centre to tangent equals the radius",
+      "lines": [
+       {
+        "text": "Use $\\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $(\\hl{4}{r}, \\hl{4}{r})$ and $3x - 4y + 6 = 0$."
+       },
+       {
+        "tex": "\\frac{|3\\hl{4}{r} - 4\\hl{4}{r} + 6|}{\\sqrt{3^2 + (-4)^2}} &= \\hl{4}{r}"
+       },
+       {
+        "tex": "\\frac{|6 - \\hl{4}{r}|}{5} &= \\hl{4}{r}"
+       },
+       {
+        "tex": "|6 - \\hl{4}{r}| &= 5\\hl{4}{r}"
+       }
+      ]
+     },
+     {
+      "ask": "The modulus gives two cases. Which case could give a negative radius?",
+      "title": "Remove the modulus and solve",
+      "lines": [
+       {
+        "tex": "6 - \\hl{4}{r} &= 5\\hl{4}{r} \\quad\\text{or}\\quad 6 - \\hl{4}{r} = -5\\hl{4}{r}"
+       },
+       {
+        "text": "The second case gives $\\hl{4}{r} = -\\frac{3}{2}$, which is rejected because a radius cannot be negative."
+       },
+       {
+        "tex": "6 - \\hl{4}{r} &= 5\\hl{4}{r}"
+       },
+       {
+        "tex": "6 &= 6\\hl{4}{r}"
+       },
+       {
+        "tex": "\\hl{4}{r} &= \\hl{4}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "Put the centre (1, 1) and the radius into the circle formula. What do you get?",
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "text": "Centre $(1, 1)$ and radius $\\hl{4}{1}$."
+       },
+       {
+        "tex": "(x - 1)^2 + (y - 1)^2 &= \\hl{4}{1}^2"
+       },
+       {
+        "tex": "(x - 1)^2 + (y - 1)^2 &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "(x - 1)^2 + (y - 1)^2 = 1",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-divide-ratio",
+   "title": "Divide a segment internally in a ratio",
+   "level": "HL",
+   "input": "two points, ratio m : n",
+   "output": "((nx₁ + mx₂)/(m + n), (ny₁ + my₂)/(m + n))"
+  },
+  "errors": [
+   "2021-higher-p2-q2#(c)(ii) step 4: ask must contain a question, not only a command",
+   "2024-higher-p2-q6#(a) step 4: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2015-higher-p2-q4#(b)(i)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the ratio in which $K$ divides $[AB]$",
+      "lines": [
+       {
+        "text": "Let $A(1,-6)$ be the centre of $s$. Its radius is $3r$ and the radius of $c$ is $r$, where $r=2\\sqrt{10}$."
+       },
+       {
+        "text": "$K$ is $r$ from $B$, so $|KB|=r$ and $|AK|=3r-r=2r$."
+       },
+       {
+        "text": "So $|AK|:|KB| = 2:1$, and $K$ is the point dividing $[AB]$ in the ratio $2:1$."
+       }
+      ]
+     },
+     {
+      "title": "Use the section formula for the $x$-co-ordinate",
+      "lines": [
+       {
+        "tex": "x_K &= \\frac{2(7)+1(1)}{2+1}"
+       },
+       {
+        "tex": "&= \\frac{15}{3}"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Use the section formula for the $y$-co-ordinate",
+      "lines": [
+       {
+        "tex": "y_K &= \\frac{2(12)+1(-6)}{2+1}"
+       },
+       {
+        "tex": "&= \\frac{18}{3}"
+       },
+       {
+        "tex": "&= 6"
+       }
+      ]
+     }
+    ],
+    "final": "K = (5, 6)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q3#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the ratio $2:1$",
+      "lines": [
+       {
+        "text": "$|AG|:|GP|=2:1$, so $G$ divides $[AP]$ in the ratio $2:1$."
+       },
+       {
+        "text": "Let $P=(x,y)$. Then $G=\\left(\\frac{1\\cdot 0+2x}{3},\\ \\frac{1\\cdot 6+2y}{3}\\right)$, and $G=\\left(\\frac23,\\frac43\\right)$."
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "\\frac{2x}{3} &= \\frac23"
+       },
+       {
+        "tex": "2x &= 2"
+       },
+       {
+        "tex": "x &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $y$",
+      "lines": [
+       {
+        "tex": "\\frac{2y+6}{3} &= \\frac43"
+       },
+       {
+        "tex": "2y+6 &= 4"
+       },
+       {
+        "tex": "2y &= -2"
+       },
+       {
+        "tex": "y &= -1"
+       }
+      ]
+     }
+    ],
+    "final": "P = (1,\\,-1)"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q2#(c)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find B",
+      "lines": [
+       {
+        "text": "$[AB]$ is horizontal, so $B$ has the same $y$-coordinate as $A$, and the $x$-coordinate is 33 more."
+       },
+       {
+        "tex": "B &= (4 + 33,\\ 2)"
+       },
+       {
+        "tex": "&= (37,\\ 2)"
+       }
+      ]
+     },
+     {
+      "title": "Find the ratio for E",
+      "lines": [
+       {
+        "text": "$[DE]$ is parallel to $[AB]$, so $|CE| : |EB| = |CD| : |DA| = 1 : 2$."
+       }
+      ]
+     },
+     {
+      "title": "Find the x-coordinate of E",
+      "lines": [
+       {
+        "tex": "x_E &= \\frac{2(16) + 1(37)}{2+1}"
+       },
+       {
+        "tex": "&= \\frac{69}{3}"
+       },
+       {
+        "tex": "&= 23"
+       }
+      ]
+     },
+     {
+      "title": "Find the y-coordinate of E",
+      "lines": [
+       {
+        "tex": "y_E &= \\frac{2(11) + 1(2)}{2+1}"
+       },
+       {
+        "tex": "&= \\frac{24}{3}"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     }
+    ],
+    "final": "B(37, 2), \\; E(23, 8)"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q2#(a)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the section formula",
+      "lines": [
+       {
+        "text": "Dividing $[AB]$ in the ratio $4:1$ gives $C = \\frac{1\\cdot A + 4\\cdot B}{4+1}$ (the 1 goes with $A$, the 4 with $B$)."
+       }
+      ]
+     },
+     {
+      "title": "Find the x-coordinate",
+      "lines": [
+       {
+        "tex": "x_C &= \\frac{1(8) + 4(-1)}{4+1}"
+       },
+       {
+        "tex": "&= \\frac{8 - 4}{5}"
+       },
+       {
+        "tex": "&= \\frac{4}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Find the y-coordinate",
+      "lines": [
+       {
+        "tex": "y_C &= \\frac{1(-4) + 4(3)}{4+1}"
+       },
+       {
+        "tex": "&= \\frac{-4 + 12}{5}"
+       },
+       {
+        "tex": "&= \\frac{8}{5}"
+       }
+      ]
+     },
+     {
+      "title": "State the point",
+      "lines": [
+       {
+        "text": "$C = \\left(\\frac{4}{5}, \\frac{8}{5}\\right)$."
+       }
+      ]
+     }
+    ],
+    "final": "C = \\left(\\frac{4}{5}, \\frac{8}{5}\\right)"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q6#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the section formula for the x-coordinate",
+      "lines": [
+       {
+        "text": "Let $B = (x_2, y_2)$. $C$ divides $[AB]$ in the ratio $1:3$, so $C = \\left(\\frac{1x_2 + 3x_1}{1+3}, \\frac{1y_2 + 3y_1}{1+3}\\right)$ with $A = (x_1, y_1) = (1, 13)$."
+       },
+       {
+        "tex": "6 &= \\frac{1(x_2) + 3(1)}{1 + 3}"
+       },
+       {
+        "tex": "6 &= \\frac{x_2 + 3}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x_2",
+      "lines": [
+       {
+        "tex": "24 &= x_2 + 3"
+       },
+       {
+        "tex": "x_2 &= 21"
+       }
+      ]
+     },
+     {
+      "title": "Set up the section formula for the y-coordinate",
+      "lines": [
+       {
+        "tex": "11 &= \\frac{1(y_2) + 3(13)}{1 + 3}"
+       },
+       {
+        "tex": "11 &= \\frac{y_2 + 39}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y_2",
+      "lines": [
+       {
+        "tex": "44 &= y_2 + 39"
+       },
+       {
+        "tex": "y_2 &= 5"
+       },
+       {
+        "text": "So $B = (21, 5)$."
+       }
+      ]
+     }
+    ],
+    "final": "B = (21, 5)"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2022-higher-p2-q2#(a)",
+    "note": null,
+    "legend": {
+     "1": "the ratio parts (weights)",
+     "2": "the point found (its coordinates)"
+    },
+    "steps": [
+     {
+      "ask": "Which endpoint gets the 4 and which gets the 1 in the section formula?",
+      "title": "Write the section formula",
+      "lines": [
+       {
+        "text": "Dividing $[AB]$ in the ratio $\\hl{1}{4}:\\hl{1}{1}$ gives $\\hl{2}{C} = \\frac{\\hl{1}{1}\\cdot A + \\hl{1}{4}\\cdot B}{\\hl{1}{4+1}}$ (the 1 goes with $A$, the 4 with $B$)."
+       }
+      ]
+     },
+     {
+      "ask": "Put the x-coordinates of A and B into the formula with the weights. What is $x_C$?",
+      "title": "Find the x-coordinate",
+      "lines": [
+       {
+        "tex": "\\hl{2}{x_C} &= \\frac{\\hl{1}{1}(8) + \\hl{1}{4}(-1)}{\\hl{1}{4+1}}"
+       },
+       {
+        "tex": "&= \\frac{8 - 4}{5}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{4}{5}}"
+       }
+      ]
+     },
+     {
+      "ask": "Repeat for the y-coordinates. Which weight goes with which y-value?",
+      "title": "Find the y-coordinate",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y_C} &= \\frac{\\hl{1}{1}(-4) + \\hl{1}{4}(3)}{\\hl{1}{4+1}}"
+       },
+       {
+        "tex": "&= \\frac{-4 + 12}{5}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{8}{5}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you write the two coordinates together as one point?",
+      "title": "State the point",
+      "lines": [
+       {
+        "text": "$\\hl{2}{C = \\left(\\frac{4}{5}, \\frac{8}{5}\\right)}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{C = \\left(\\frac{4}{5}, \\frac{8}{5}\\right)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q2#(c)(ii)",
+    "note": "The ratio is not given this time, so you work it out from the parallel line before using the same formula.",
+    "legend": {
+     "1": "the ratio parts (weights)",
+     "2": "the point found (its coordinates)"
+    },
+    "steps": [
+     {
+      "ask": "What does a horizontal segment tell you about the y-values of its two ends?",
+      "title": "Find B",
+      "lines": [
+       {
+        "text": "$[AB]$ is horizontal, so $B$ has the same $y$-coordinate as $A$, and the $x$-coordinate is 33 more."
+       },
+       {
+        "tex": "B &= (4 + 33,\\ 2)"
+       },
+       {
+        "tex": "&= (37,\\ 2)"
+       }
+      ]
+     },
+     {
+      "ask": "Since [DE] is parallel to [AB], which two lengths are in the same ratio as CE : EB?",
+      "title": "Find the ratio for E",
+      "lines": [
+       {
+        "text": "$[DE]$ is parallel to $[AB]$, so $|CE| : |EB| = |CD| : |DA| = \\hl{1}{1} : \\hl{1}{2}$."
+       }
+      ]
+     },
+     {
+      "ask": "Use the section formula for the x-coordinate. Which weight goes with which x-value?",
+      "title": "Find the x-coordinate of E",
+      "lines": [
+       {
+        "tex": "\\hl{2}{x_E} &= \\frac{\\hl{1}{2}(16) + \\hl{1}{1}(37)}{\\hl{1}{2+1}}"
+       },
+       {
+        "tex": "&= \\frac{69}{3}"
+       },
+       {
+        "tex": "&= \\hl{2}{23}"
+       }
+      ]
+     },
+     {
+      "ask": "Repeat for the y-coordinate, using the same weights.",
+      "title": "Find the y-coordinate of E",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y_E} &= \\frac{\\hl{1}{2}(11) + \\hl{1}{1}(2)}{\\hl{1}{2+1}}"
+       },
+       {
+        "tex": "&= \\frac{24}{3}"
+       },
+       {
+        "tex": "&= \\hl{2}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "B(37, 2), \\; \\hl{2}{E(23, 8)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q6#(a)",
+    "note": "The ratio 1:3 is given again, but B is the unknown endpoint, so you solve the section formula backwards for its coordinates.",
+    "legend": {
+     "1": "the ratio parts (weights)",
+     "2": "the point found (its coordinates)"
+    },
+    "steps": [
+     {
+      "ask": "C divides [AB] with B unknown. Which endpoint gets the 1 and which gets the 3?",
+      "title": "Set up the section formula for the x-coordinate",
+      "lines": [
+       {
+        "text": "Let $\\hl{2}{B} = (x_2, y_2)$. $C$ divides $[AB]$ in the ratio $\\hl{1}{1}:\\hl{1}{3}$, so $C = \\left(\\frac{\\hl{1}{1}x_2 + \\hl{1}{3}x_1}{\\hl{1}{1+3}}, \\frac{\\hl{1}{1}y_2 + \\hl{1}{3}y_1}{\\hl{1}{1+3}}\\right)$ with $A = (x_1, y_1) = (1, 13)$."
+       },
+       {
+        "tex": "6 &= \\frac{\\hl{1}{1}(x_2) + \\hl{1}{3}(1)}{\\hl{1}{1 + 3}}"
+       },
+       {
+        "tex": "6 &= \\frac{x_2 + 3}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "The fraction is on the right. What do you do to clear it, and then what is x₂?",
+      "title": "Solve for x_2",
+      "lines": [
+       {
+        "tex": "24 &= x_2 + 3"
+       },
+       {
+        "tex": "\\hl{2}{x_2} &= \\hl{2}{21}"
+       }
+      ]
+     },
+     {
+      "ask": "Set up the same formula for the y-coordinates. Which weight goes with which y-value?",
+      "title": "Set up the section formula for the y-coordinate",
+      "lines": [
+       {
+        "tex": "11 &= \\frac{\\hl{1}{1}(y_2) + \\hl{1}{3}(13)}{\\hl{1}{1 + 3}}"
+       },
+       {
+        "tex": "11 &= \\frac{y_2 + 39}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Clear the fraction and solve for y₂. Then write B as a point.",
+      "title": "Solve for y_2",
+      "lines": [
+       {
+        "tex": "44 &= y_2 + 39"
+       },
+       {
+        "tex": "\\hl{2}{y_2} &= \\hl{2}{5}"
+       },
+       {
+        "text": "So $\\hl{2}{B = (21, 5)}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{B = (21, 5)}",
+    "graph": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,2513 @@
+[
+ {
+  "skill": {
+   "id": "log-laws",
+   "title": "Apply the laws of logs",
+   "level": "HL",
+   "input": "log expression",
+   "output": "single log or value"
+  },
+  "errors": [
+   "2016-higher-p1-q4#(b)(i) step 2: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "text": "$\\log_a \\frac{m}{n} = \\log_a m - \\log_a n$."
+       },
+       {
+        "tex": "\\log_a \\frac{8}{3} &= \\log_a 8 - \\log_a 3"
+       }
+      ]
+     },
+     {
+      "title": "Write 8 as a power of 2 and use the power rule",
+      "lines": [
+       {
+        "tex": "\\log_a 8 - \\log_a 3 &= \\log_a 2^3 - \\log_a 3"
+       },
+       {
+        "tex": "&= 3\\log_a 2 - \\log_a 3"
+       }
+      ]
+     },
+     {
+      "title": "Replace log_a 2 by p and log_a 3 by q",
+      "lines": [
+       {
+        "tex": "&= 3p - q"
+       }
+      ]
+     }
+    ],
+    "final": "3p - q"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Take log base 5 of both sides",
+      "lines": [
+       {
+        "tex": "\\log_5 y &= \\log_5 (5x^2)"
+       }
+      ]
+     },
+     {
+      "title": "Split the product into two logs",
+      "lines": [
+       {
+        "text": "Use $\\log (AB) = \\log A + \\log B$."
+       },
+       {
+        "tex": "\\log_5 y &= \\log_5 5 + \\log_5 x^2"
+       }
+      ]
+     },
+     {
+      "title": "Simplify each log",
+      "lines": [
+       {
+        "text": "$\\log_5 5 = 1$ and $\\log_5 x^2 = 2\\log_5 x$."
+       },
+       {
+        "tex": "\\log_5 y &= 1 + 2\\log_5 x"
+       },
+       {
+        "text": "Comparing with $\\log_5 y = a + b\\log_5 x$ gives $a=1$ and $b=2$."
+       }
+      ]
+     }
+    ],
+    "final": "a = 1, \\quad b = 2"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(e)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the values",
+      "lines": [
+       {
+        "text": "$A = 80$ (the first exam) and $B = 47$ (the exam after two years)."
+       },
+       {
+        "text": "$t$ is in months: $2 \\text{ years} = 24 \\text{ months}$, so $t + 1 = 25$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula from (i)",
+      "lines": [
+       {
+        "tex": "c &= \\frac{\\log_{10} 80 - \\log_{10} 47}{\\log_{10}(24+1)}"
+       },
+       {
+        "tex": "&= \\frac{\\log_{10} 80 - \\log_{10} 47}{\\log_{10} 25}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round to 3 decimal places",
+      "lines": [
+       {
+        "tex": "&= 0.1652\\ldots"
+       },
+       {
+        "tex": "&\\approx 0.165"
+       }
+      ]
+     }
+    ],
+    "final": "c = 0.165"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(e)(i)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Take log base 10 of both sides",
+      "lines": [
+       {
+        "tex": "A &= B(t+1)^c"
+       },
+       {
+        "tex": "\\log_{10} A &= \\log_{10}\\left[B(t+1)^c\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Split the product into a sum",
+      "lines": [
+       {
+        "text": "$\\log(xy) = \\log x + \\log y$."
+       },
+       {
+        "tex": "\\log_{10} A &= \\log_{10} B + \\log_{10}(t+1)^c"
+       }
+      ]
+     },
+     {
+      "title": "Bring the power down",
+      "lines": [
+       {
+        "text": "$\\log(x^n) = n\\log x$."
+       },
+       {
+        "tex": "\\log_{10} A &= \\log_{10} B + c\\log_{10}(t+1)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "\\log_{10} A - \\log_{10} B &= c\\log_{10}(t+1)"
+       },
+       {
+        "tex": "c &= \\frac{\\log_{10} A - \\log_{10} B}{\\log_{10}(t+1)}"
+       }
+      ]
+     }
+    ],
+    "final": "c = \\frac{\\log_{10} A - \\log_{10} B}{\\log_{10}(t+1)}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q5#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Bring down the power of 5",
+      "lines": [
+       {
+        "text": "Law of logs: $\\ln A^n = n\\ln A$."
+       },
+       {
+        "tex": "\\ln\\left[(e^3 p)^5\\right] &= 5\\ln(e^3 p)"
+       }
+      ]
+     },
+     {
+      "title": "Split the product into two logs",
+      "lines": [
+       {
+        "text": "Law of logs: $\\ln(AB) = \\ln A + \\ln B$."
+       },
+       {
+        "tex": "5\\ln(e^3 p) &= 5\\left(\\ln e^3 + \\ln p\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify ln of e cubed",
+      "lines": [
+       {
+        "text": "$\\ln e^3 = 3\\ln e = 3$."
+       },
+       {
+        "tex": "5\\left(\\ln e^3 + \\ln p\\right) &= 5(3 + \\ln p)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out",
+      "lines": [
+       {
+        "tex": "5(3 + \\ln p) &= 15 + 5\\ln p"
+       }
+      ]
+     }
+    ],
+    "final": "15 + 5\\ln p"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "tex": "\\log_a \\frac{9a^2}{16} &= \\log_a 9a^2 - \\log_a 16"
+       }
+      ]
+     },
+     {
+      "title": "Write 9a^2 and 16 as powers",
+      "lines": [
+       {
+        "text": "$9a^2 = (3a)^2$ and $16 = 2^4$."
+       },
+       {
+        "tex": "\\log_a 9a^2 - \\log_a 16 &= \\log_a (3a)^2 - \\log_a 2^4"
+       }
+      ]
+     },
+     {
+      "title": "Use the power rule",
+      "lines": [
+       {
+        "tex": "&= 2\\log_a 3a - 4\\log_a 2"
+       }
+      ]
+     },
+     {
+      "title": "Split 3a using the product rule",
+      "lines": [
+       {
+        "tex": "&= 2\\log_a 3 + 2\\log_a a - 4\\log_a 2"
+       }
+      ]
+     },
+     {
+      "title": "Replace with p and q",
+      "lines": [
+       {
+        "text": "$\\log_a a = 1$, $\\log_a 3 = q$ and $\\log_a 2 = p$."
+       },
+       {
+        "tex": "&= 2q + 2(1) - 4p"
+       },
+       {
+        "tex": "&= 2q + 2 - 4p"
+       }
+      ]
+     }
+    ],
+    "final": "2q + 2 - 4p"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the index brought down (the 3 in 2³)",
+     "2": "the basic logs, log_a 2 and log_a 3, now p and q"
+    },
+    "steps": [
+     {
+      "ask": "The argument of the log is a fraction. Which log law splits it?",
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "text": "$\\log_a \\frac{m}{n} = \\log_a m - \\log_a n$."
+       },
+       {
+        "tex": "\\log_a \\frac{8}{3} &= \\log_a 8 - \\log_a 3"
+       }
+      ]
+     },
+     {
+      "ask": "8 is a power of 2. Write it that way and bring its index to the front.",
+      "title": "Write 8 as a power of 2 and use the power rule",
+      "lines": [
+       {
+        "tex": "\\log_a 8 - \\log_a 3 &= \\log_a 2^\\hl{1}{3} - \\log_a 3"
+       },
+       {
+        "tex": "&= \\hl{1}{3}\\hl{2}{\\log_a 2} - \\hl{2}{\\log_a 3}"
+       }
+      ]
+     },
+     {
+      "ask": "Which logs in the expression are the ones the question calls p and q?",
+      "title": "Replace log_a 2 by p and log_a 3 by q",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{3}\\hl{2}{p} - \\hl{2}{q}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{3}\\hl{2}{p} - \\hl{2}{q}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+    "note": "The argument is now a product, $5x^2$, not a fraction, so you use the product rule and then the power rule. The answer is written in the form a + b log₅ x, as the question asks, and the same laws are used.",
+    "legend": {
+     "1": "the index brought down (the 2 in x²)",
+     "2": "the basic log, log_5 5 = 1"
+    },
+    "steps": [
+     {
+      "ask": "Take log base 5 of both sides of y = 5x². What does the left side become?",
+      "title": "Take log base 5 of both sides",
+      "lines": [
+       {
+        "tex": "\\log_5 y &= \\log_5 (5x^2)"
+       }
+      ]
+     },
+     {
+      "ask": "The argument 5x² is a product. Which rule splits it into two logs?",
+      "title": "Split the product into two logs",
+      "lines": [
+       {
+        "text": "Use $\\log (AB) = \\log A + \\log B$."
+       },
+       {
+        "tex": "\\log_5 y &= \\hl{2}{\\log_5 5} + \\log_5 x^\\hl{1}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What is log base 5 of 5? And what does the square on x become?",
+      "title": "Simplify each log",
+      "lines": [
+       {
+        "text": "$\\log_5 5 = 1$ and $\\log_5 x^2 = 2\\log_5 x$."
+       },
+       {
+        "tex": "\\log_5 y &= \\hl{2}{1} + \\hl{1}{2}\\log_5 x"
+       },
+       {
+        "text": "Comparing with $\\log_5 y = a + b\\log_5 x$ gives $a=1$ and $b=2$."
+       }
+      ]
+     }
+    ],
+    "final": "a = \\hl{2}{1}, \\quad b = \\hl{1}{2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(ii)",
+    "note": "The fraction now has $9a^2$ on top, so you also split $9a^2$ into $(3a)^2$ and $16$ into $2^4$ before using the rules. The replacements for p and q stay the same.",
+    "legend": {
+     "1": "the index brought down (the 2 in (3a)² and the 4 in 2⁴)",
+     "2": "the basic logs: log_a 2, log_a 3 and log_a a"
+    },
+    "steps": [
+     {
+      "ask": "The argument is a fraction. Which rule gives a difference of two logs?",
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "tex": "\\log_a \\frac{9a^2}{16} &= \\log_a 9a^2 - \\log_a 16"
+       }
+      ]
+     },
+     {
+      "ask": "Can you write $9a^2$ as a square and $16$ as a power of 2?",
+      "title": "Write 9a^2 and 16 as powers",
+      "lines": [
+       {
+        "text": "$9a^2 = (3a)^2$ and $16 = 2^4$."
+       },
+       {
+        "tex": "\\log_a 9a^2 - \\log_a 16 &= \\log_a (3a)^\\hl{1}{2} - \\log_a 2^\\hl{1}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Which rule brings an index in front of its log?",
+      "title": "Use the power rule",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{2}\\log_a 3a - \\hl{1}{4}\\hl{2}{\\log_a 2}"
+       }
+      ]
+     },
+     {
+      "ask": "3a is a product inside a log. Which rule splits it, and what are the two pieces?",
+      "title": "Split 3a using the product rule",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{2}\\hl{2}{\\log_a 3} + \\hl{1}{2}\\hl{2}{\\log_a a} - \\hl{1}{4}\\hl{2}{\\log_a 2}"
+       }
+      ]
+     },
+     {
+      "ask": "Which logs are p and q, and what is log base a of a?",
+      "title": "Replace with p and q",
+      "lines": [
+       {
+        "text": "$\\log_a a = 1$, $\\log_a 3 = q$ and $\\log_a 2 = p$."
+       },
+       {
+        "tex": "&= \\hl{1}{2}\\hl{2}{q} + \\hl{1}{2}(\\hl{2}{1}) - \\hl{1}{4}\\hl{2}{p}"
+       },
+       {
+        "tex": "&= \\hl{1}{2}\\hl{2}{q} + 2 - \\hl{1}{4}\\hl{2}{p}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{2}\\hl{2}{q} + 2 - \\hl{1}{4}\\hl{2}{p}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "log-solve-exponential",
+   "title": "Solve aˣ = b by taking logs",
+   "level": "HL",
+   "input": "aˣ = b",
+   "output": "x"
+  },
+  "errors": [
+   "2016-higher-p1-q8#(b)(iii) step 2: ask has LaTeX outside $…$"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute y = 1295 into the javelin formula",
+      "lines": [
+       {
+        "tex": "1295 &= 15.9803(x - 3.8)^{1.04}"
+       },
+       {
+        "tex": "\\frac{1295}{15.9803} &= (x - 3.8)^{1.04}"
+       },
+       {
+        "tex": "81.0373 &= (x - 3.8)^{1.04}"
+       }
+      ]
+     },
+     {
+      "title": "Let z = x − 3.8 and take logs of both sides",
+      "lines": [
+       {
+        "tex": "z^{1.04} &= 81.0373"
+       },
+       {
+        "tex": "1.04\\log z &= \\log 81.0373"
+       },
+       {
+        "tex": "\\log z &= \\frac{\\log 81.0373}{1.04}"
+       },
+       {
+        "tex": "z &= 68.4343"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "x - 3.8 &= 68.4343"
+       },
+       {
+        "tex": "x &= 72.2343"
+       },
+       {
+        "tex": "x &= 72.23"
+       }
+      ]
+     }
+    ],
+    "final": "72.23 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q8#(b)(iii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the time in seconds",
+      "lines": [
+       {
+        "tex": "2\\text{ min } 1.84\\text{ s} &= 2(60) + 1.84"
+       },
+       {
+        "tex": "&= 121.84\\text{ s}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into y = a(b − x)^c",
+      "lines": [
+       {
+        "tex": "1087 &= 0.11193(254 - 121.84)^c"
+       },
+       {
+        "tex": "1087 &= 0.11193(132.16)^c"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the power and take logs",
+      "lines": [
+       {
+        "tex": "\\frac{1087}{0.11193} &= (132.16)^c"
+       },
+       {
+        "tex": "9711.426 &= (132.16)^c"
+       },
+       {
+        "tex": "\\log 9711.426 &= c\\log 132.16"
+       },
+       {
+        "tex": "c &= \\frac{\\log 9711.426}{\\log 132.16}"
+       },
+       {
+        "tex": "c &= 1.88"
+       }
+      ]
+     }
+    ],
+    "final": "c = 1.88"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(d)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write an equation in k using t = 1",
+      "lines": [
+       {
+        "text": "The beginning of 2011 is $t = 1$."
+       },
+       {
+        "tex": "q(1) &= 3.9 e^{k(1)} \\times 10^6"
+       },
+       {
+        "tex": "3.9 e^{k} \\times 10^6 &= 3\\,709\\,795"
+       }
+      ]
+     },
+     {
+      "title": "Isolate e^k",
+      "lines": [
+       {
+        "tex": "3.9 e^{k} &= 3.709795"
+       },
+       {
+        "tex": "e^{k} &= \\frac{3.709795}{3.9}"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs to solve for k",
+      "lines": [
+       {
+        "tex": "k &= \\ln\\left(\\frac{3.709795}{3.9}\\right)"
+       },
+       {
+        "tex": "k &\\approx -0.0499999"
+       },
+       {
+        "tex": "k &\\approx -0.05 \\text{ (2 decimal places)}"
+       }
+      ]
+     }
+    ],
+    "final": "k = -0.05"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(e)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set p(t) equal to q(t)",
+      "lines": [
+       {
+        "tex": "1.1 e^{0.1t} \\times 10^6 &= 3.9 e^{-0.05t} \\times 10^6"
+       },
+       {
+        "tex": "1.1 e^{0.1t} &= 3.9 e^{-0.05t}"
+       }
+      ]
+     },
+     {
+      "title": "Collect the powers of e on one side",
+      "lines": [
+       {
+        "tex": "\\frac{e^{0.1t}}{e^{-0.05t}} &= \\frac{3.9}{1.1}"
+       },
+       {
+        "text": "Divide powers of the same base by subtracting the indices."
+       },
+       {
+        "tex": "e^{0.1t - (-0.05t)} &= \\frac{3.9}{1.1}"
+       },
+       {
+        "tex": "e^{0.15t} &= \\frac{3.9}{1.1}"
+       },
+       {
+        "tex": "e^{0.15t} &= \\frac{39}{11}"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs and solve for t",
+      "lines": [
+       {
+        "tex": "0.15t &= \\ln\\frac{39}{11}"
+       },
+       {
+        "tex": "t &= \\frac{\\ln\\frac{39}{11}}{0.15}"
+       },
+       {
+        "tex": "t &\\approx 8.44 \\text{ years}"
+       },
+       {
+        "text": "$t = 8.44$ lies between $t = 8$ (start of 2018) and $t = 9$ (start of 2019), so it is during 2018."
+       }
+      ]
+     }
+    ],
+    "final": "2018"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q1#(d)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the inequality",
+      "lines": [
+       {
+        "tex": "1-\\left(\\frac45\\right)^n &> 0.99"
+       },
+       {
+        "tex": "\\left(\\frac45\\right)^n &< 0.01"
+       }
+      ]
+     },
+     {
+      "title": "Take logs of both sides",
+      "lines": [
+       {
+        "tex": "n\\ln\\left(\\frac45\\right) &< \\ln(0.01)"
+       },
+       {
+        "text": "$\\ln\\left(\\frac45\\right)$ is negative, so dividing by it reverses the inequality."
+       },
+       {
+        "tex": "n &> \\frac{\\ln(0.01)}{\\ln(0.8)}"
+       },
+       {
+        "tex": "n &> 20.64"
+       }
+      ]
+     },
+     {
+      "title": "Check the nearest whole numbers",
+      "lines": [
+       {
+        "tex": "\\left(\\frac45\\right)^{20} &= 0.0115 > 0.01"
+       },
+       {
+        "tex": "\\left(\\frac45\\right)^{21} &= 0.0092 < 0.01"
+       },
+       {
+        "text": "The smallest whole $n$ that works is 21."
+       }
+      ]
+     }
+    ],
+    "final": "n = 21"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(a)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set N(t) = 790",
+      "lines": [
+       {
+        "tex": "450e^{0.065t} &= 790"
+       },
+       {
+        "tex": "e^{0.065t} &= \\frac{790}{450}"
+       },
+       {
+        "tex": "e^{0.065t} &= \\frac{79}{45}"
+       }
+      ]
+     },
+     {
+      "title": "Take the natural log of both sides",
+      "lines": [
+       {
+        "tex": "0.065t &= \\ln\\left(\\frac{79}{45}\\right)"
+       },
+       {
+        "text": "$\\ln e^{x} = x$."
+       }
+      ]
+     },
+     {
+      "title": "Divide by 0.065",
+      "lines": [
+       {
+        "tex": "t &= \\frac{\\ln(79/45)}{0.065}"
+       },
+       {
+        "tex": "&\\approx 8.659"
+       },
+       {
+        "tex": "&\\approx 8.7"
+       }
+      ]
+     }
+    ],
+    "final": "t = 8.7 \\text{ hours}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the power of e, e^{0.065t}",
+     "2": "the value the power equals",
+     "3": "the unknown, t"
+    },
+    "steps": [
+     {
+      "ask": "Put N(t) = 790 in. What do you divide by to get the power of e on its own?",
+      "title": "Set N(t) = 790",
+      "lines": [
+       {
+        "tex": "450\\hl{1}{e^{0.065t}} &= 790"
+       },
+       {
+        "tex": "\\hl{1}{e^{0.065t}} &= \\hl{2}{\\frac{790}{450}}"
+       },
+       {
+        "tex": "\\hl{1}{e^{0.065t}} &= \\hl{2}{\\frac{79}{45}}"
+       }
+      ]
+     },
+     {
+      "ask": "Take the natural log of both sides. What does ln do to e raised to a power?",
+      "title": "Take the natural log of both sides",
+      "lines": [
+       {
+        "tex": "0.065\\hl{3}{t} &= \\ln\\left(\\hl{2}{\\frac{79}{45}}\\right)"
+       },
+       {
+        "text": "$\\ln e^{x} = x$."
+       }
+      ]
+     },
+     {
+      "ask": "Divide both sides by 0.065. What is t equal to?",
+      "title": "Divide by 0.065",
+      "lines": [
+       {
+        "tex": "\\hl{3}{t} &= \\frac{\\ln(79/45)}{0.065}"
+       },
+       {
+        "tex": "&\\approx 8.659"
+       },
+       {
+        "tex": "&\\approx 8.7"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{t} = 8.7 \\text{ hours}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(d)",
+    "note": "This model has a factor of 10⁶ and a constant 3.9, and k comes out negative, rounded to 2 decimal places. The method is the same: isolate the power of e, then take natural logs.",
+    "legend": {
+     "1": "the power of e, e^k",
+     "2": "the value the power equals",
+     "3": "the unknown, k"
+    },
+    "steps": [
+     {
+      "ask": "Put t = 1 into the model. What does the exponent become in terms of k?",
+      "title": "Write an equation in k using t = 1",
+      "lines": [
+       {
+        "text": "The beginning of 2011 is $t = 1$."
+       },
+       {
+        "tex": "q(1) &= 3.9 \\hl{1}{e^{k(1)}} \\times 10^6"
+       },
+       {
+        "tex": "3.9 \\hl{1}{e^{k}} \\times 10^6 &= \\hl{2}{3\\,709\\,795}"
+       }
+      ]
+     },
+     {
+      "ask": "What must you divide both sides by to get the power of e on its own?",
+      "title": "Isolate e^k",
+      "lines": [
+       {
+        "tex": "3.9 \\hl{1}{e^{k}} &= \\hl{2}{3.709795}"
+       },
+       {
+        "tex": "\\hl{1}{e^{k}} &= \\hl{2}{\\frac{3.709795}{3.9}}"
+       }
+      ]
+     },
+     {
+      "ask": "Undo the e with natural logs. What is k, to 2 decimal places?",
+      "title": "Take natural logs to solve for k",
+      "lines": [
+       {
+        "tex": "\\hl{3}{k} &= \\ln\\left(\\hl{2}{\\frac{3.709795}{3.9}}\\right)"
+       },
+       {
+        "tex": "\\hl{3}{k} &\\approx -0.0499999"
+       },
+       {
+        "tex": "\\hl{3}{k} &\\approx -0.05 \\text{ (2 decimal places)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{k} = -0.05",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q8#(b)(iii)",
+    "note": "The base is now 132.16 instead of e, so the logs are ordinary logs and c comes out of the power as a factor. The time must first be converted from minutes and seconds into seconds.",
+    "legend": {
+     "1": "the power, (132.16)^c",
+     "2": "the value the power equals",
+     "3": "the unknown, c"
+    },
+    "steps": [
+     {
+      "ask": "How many seconds are in 2 minutes, and what do you add to that?",
+      "title": "Write the time in seconds",
+      "lines": [
+       {
+        "tex": "2\\text{ min } 1.84\\text{ s} &= 2(60) + 1.84"
+       },
+       {
+        "tex": "&= 121.84\\text{ s}"
+       }
+      ]
+     },
+     {
+      "ask": "Put the time into y = a(b − x)^c. What does the bracket become?",
+      "title": "Substitute into y = a(b − x)^c",
+      "lines": [
+       {
+        "tex": "1087 &= 0.11193(254 - 121.84)^c"
+       },
+       {
+        "tex": "1087 &= 0.11193\\hl{1}{(132.16)^c}"
+       }
+      ]
+     },
+     {
+      "ask": "Divide to get the power on its own. Which log brings the c down?",
+      "title": "Isolate the power and take logs",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\frac{1087}{0.11193}} &= \\hl{1}{(132.16)^c}"
+       },
+       {
+        "tex": "\\hl{2}{9711.426} &= \\hl{1}{(132.16)^c}"
+       },
+       {
+        "tex": "\\log \\hl{2}{9711.426} &= \\hl{3}{c}\\log 132.16"
+       },
+       {
+        "tex": "\\hl{3}{c} &= \\frac{\\log 9711.426}{\\log 132.16}"
+       },
+       {
+        "tex": "\\hl{3}{c} &= 1.88"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{c} = 1.88",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-definite",
+   "title": "Evaluate a definite integral",
+   "level": "HL",
+   "input": "∫ₐᵇ f(x) dx",
+   "output": "number"
+  },
+  "errors": [
+   "2015-higher-p1-q3#(b)(i), (ii) step 3: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2023-higher-p1-q10#(e)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the integral",
+      "lines": [
+       {
+        "tex": "V &= \\int_0^h \\frac{x^2 c^2}{h^2}\\,dx"
+       },
+       {
+        "text": "$\\frac{c^2}{h^2}$ is a constant, so take it outside the integral."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\int_0^h x^2\\,dx"
+       }
+      ]
+     },
+     {
+      "title": "Integrate $x^2$",
+      "lines": [
+       {
+        "text": "Add 1 to the power and divide by the new power."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\left[ \\frac{x^3}{3} \\right]_0^h"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\left( \\frac{h^3}{3} - \\frac{0^3}{3} \\right)"
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\times \\frac{h^3}{3}"
+       },
+       {
+        "tex": "&= \\frac{c^2 h}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "V = \\frac{c^2 h}{3}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the area as an integral",
+      "lines": [
+       {
+        "text": "The area under $h'(x)$ from $0$ to $A$ equals $\\ln 3$."
+       },
+       {
+        "tex": "\\int_0^A \\frac{1}{2x+3}\\,dx &= \\ln 3"
+       }
+      ]
+     },
+     {
+      "title": "Integrate and substitute the limits",
+      "lines": [
+       {
+        "tex": "\\left[\\tfrac{1}{2}\\ln(2x+3)\\right]_0^A &= \\ln 3"
+       },
+       {
+        "tex": "\\tfrac{1}{2}\\left(\\ln(2A+3) - \\ln 3\\right) &= \\ln 3"
+       }
+      ]
+     },
+     {
+      "title": "Combine the logs",
+      "lines": [
+       {
+        "tex": "\\tfrac{1}{2}\\ln\\left(\\frac{2A+3}{3}\\right) &= \\ln 3"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= 2\\ln 3"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= \\ln 9"
+       }
+      ]
+     },
+     {
+      "title": "Remove the logs and solve",
+      "lines": [
+       {
+        "tex": "\\frac{2A+3}{3} &= 9"
+       },
+       {
+        "tex": "2A + 3 &= 27"
+       },
+       {
+        "tex": "2A &= 24"
+       },
+       {
+        "tex": "A &= 12"
+       }
+      ]
+     }
+    ],
+    "final": "A = 12"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q2#(b)(i)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the area as an integral",
+      "lines": [
+       {
+        "text": "Region $K$ lies between $x = 0$ and $x = 2$."
+       },
+       {
+        "tex": "\\int_0^2 (ax^2 + bx + c)\\,dx &= 538"
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "\\left[\\frac{ax^3}{3} + \\frac{bx^2}{2} + cx\\right]_0^2 &= 538"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "text": "At $x = 0$ every term is $0$, so only $x = 2$ matters."
+       },
+       {
+        "tex": "\\frac{a(2^3)}{3} + \\frac{b(2^2)}{2} + c(2) &= 538"
+       },
+       {
+        "tex": "\\frac{8a}{3} + 2b + 2c &= 538"
+       }
+      ]
+     },
+     {
+      "title": "Simplify to the given equation",
+      "lines": [
+       {
+        "tex": "8a + 6b + 6c &= 1614"
+       },
+       {
+        "tex": "4a + 3b + 3c &= 807"
+       }
+      ]
+     }
+    ],
+    "final": "4a + 3b + 3c = 807"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q6#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate b e^(bx)",
+      "lines": [
+       {
+        "text": "$b$ is a constant. $\\int e^{bx}\\,dx = \\frac1b e^{bx}$."
+       },
+       {
+        "tex": "\\int_0^b b e^{bx}\\,dx &= \\left[b \\cdot \\frac1b e^{bx}\\right]_0^b"
+       },
+       {
+        "tex": "&= \\left[e^{bx}\\right]_0^b"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= e^{b \\cdot b} - e^{b \\cdot 0}"
+       },
+       {
+        "tex": "&= e^{b^2} - 1"
+       }
+      ]
+     },
+     {
+      "title": "Set equal to e and solve",
+      "lines": [
+       {
+        "tex": "e^{b^2} - 1 &= e"
+       },
+       {
+        "tex": "e^{b^2} &= e + 1"
+       },
+       {
+        "text": "Take natural logs of both sides."
+       },
+       {
+        "tex": "b^2 &= \\ln(e + 1)"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "$b$ is positive, so reject the negative root."
+       },
+       {
+        "tex": "b &= \\sqrt{\\ln(e + 1)}"
+       },
+       {
+        "tex": "b &\\approx 1.15"
+       }
+      ]
+     }
+    ],
+    "final": "b = \\sqrt{\\ln(e + 1)} \\approx 1.15"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q3#(c)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Integrate $e^{5x}$",
+      "lines": [
+       {
+        "text": "$\\int e^{ax}\\,dx = \\frac{1}{a}e^{ax}$, so with $a = 5$:"
+       },
+       {
+        "tex": "\\int_0^k e^{5x}\\,dx &= \\left[\\frac{1}{5}e^{5x}\\right]_0^k"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits and set equal to 9",
+      "lines": [
+       {
+        "tex": "\\frac{1}{5}e^{5k} - \\frac{1}{5}e^{5(0)} &= 9"
+       },
+       {
+        "text": "$e^0 = 1$."
+       },
+       {
+        "tex": "\\frac{1}{5}e^{5k} - \\frac{1}{5} &= 9"
+       }
+      ]
+     },
+     {
+      "title": "Isolate $e^{5k}$",
+      "lines": [
+       {
+        "text": "Multiply both sides by 5."
+       },
+       {
+        "tex": "e^{5k} - 1 &= 45"
+       },
+       {
+        "text": "Add 1 to both sides."
+       },
+       {
+        "tex": "e^{5k} &= 46"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs and solve for $k$",
+      "lines": [
+       {
+        "tex": "5k &= \\ln 46"
+       },
+       {
+        "tex": "k &= \\frac{\\ln 46}{5}"
+       },
+       {
+        "text": "This is in the form $\\frac{\\ln a}{b}$ with $a = 46$, $b = 5$."
+       }
+      ]
+     }
+    ],
+    "final": "k = \\frac{\\ln 46}{5}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q3#(b)(i), (ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "\\int_3^9 (-x^2 + 12x - 27)\\,dx &= \\left[\\frac{-x^3}{3} + \\frac{12x^2}{2} - 27x\\right]_3^9"
+       },
+       {
+        "tex": "&= \\left[-\\frac{x^3}{3} + 6x^2 - 27x\\right]_3^9"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate at x = 9",
+      "lines": [
+       {
+        "tex": "F(9) &= -\\frac{729}{3} + 6(81) - 27(9)"
+       },
+       {
+        "tex": "&= -243 + 486 - 243"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate at x = 3",
+      "lines": [
+       {
+        "tex": "F(3) &= -\\frac{27}{3} + 6(9) - 27(3)"
+       },
+       {
+        "tex": "&= -9 + 54 - 81"
+       },
+       {
+        "tex": "&= -36"
+       }
+      ]
+     },
+     {
+      "title": "Subtract: upper limit minus lower limit",
+      "lines": [
+       {
+        "tex": "\\int_3^9 f(x)\\,dx &= F(9) - F(3)"
+       },
+       {
+        "tex": "&= 0 - (-36)"
+       },
+       {
+        "tex": "&= 36"
+       }
+      ]
+     },
+     {
+      "title": "Find the error and divide by the exact area",
+      "lines": [
+       {
+        "text": "The exact area is 36 and the trapezoidal estimate is 35, so the error is $36 - 35 = 1$."
+       },
+       {
+        "tex": "\\text{Percentage error} &= \\frac{1}{36} \\times 100"
+       },
+       {
+        "tex": "&= 2.7\\dot{7}"
+       },
+       {
+        "tex": "&\\approx 2.8\\%"
+       }
+      ]
+     }
+    ],
+    "final": "36;\\quad 2.8\\%"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2023-higher-p1-q10#(e)(i)",
+    "note": null,
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the value of the integral"
+    },
+    "steps": [
+     {
+      "ask": "The volume is the integral of the cross-section. Which part of the integrand is constant with respect to x?",
+      "title": "Set up the integral",
+      "lines": [
+       {
+        "tex": "V &= \\int_0^h \\hl{1}{\\frac{x^2 c^2}{h^2}}\\,dx"
+       },
+       {
+        "text": "$\\frac{c^2}{h^2}$ is a constant, so take it outside the integral."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\int_0^h \\hl{1}{x^2}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of x²?",
+      "title": "Integrate $x^2$",
+      "lines": [
+       {
+        "text": "Add 1 to the power and divide by the new power."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\hl{2}{\\left[ \\frac{x^3}{3} \\right]_0^h}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute the upper limit h, then the lower limit 0, and subtract. What do you get?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\hl{2}{\\left( \\frac{h^3}{3} - \\frac{0^3}{3} \\right)}"
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\times \\frac{h^3}{3}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{c^2 h}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{V = \\frac{c^2 h}{3}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q3#(b)(i), (ii)",
+    "note": "The integrand is now −x² + 12x − 27 with limits 3 and 9, not a single power from 0. The method is the same: find the antiderivative, then upper limit minus lower limit.",
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the value of the integral"
+    },
+    "steps": [
+     {
+      "ask": "What is the antiderivative of −x² + 12x − 27, term by term?",
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "\\int_3^9 \\hl{1}{(-x^2 + 12x - 27)}\\,dx &= \\hl{2}{\\left[\\frac{-x^3}{3} + \\frac{12x^2}{2} - 27x\\right]_3^9}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\left[-\\frac{x^3}{3} + 6x^2 - 27x\\right]_3^9}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute x = 9 into the antiderivative. What do you get?",
+      "title": "Evaluate at x = 9",
+      "lines": [
+       {
+        "tex": "\\hl{2}{F(9)} &= -\\frac{729}{3} + 6(81) - 27(9)"
+       },
+       {
+        "tex": "&= -243 + 486 - 243"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Now substitute x = 3 into the same antiderivative.",
+      "title": "Evaluate at x = 3",
+      "lines": [
+       {
+        "tex": "\\hl{2}{F(3)} &= -\\frac{27}{3} + 6(9) - 27(3)"
+       },
+       {
+        "tex": "&= -9 + 54 - 81"
+       },
+       {
+        "tex": "&= -36"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract the lower-limit value from the upper-limit value. What do you get?",
+      "title": "Subtract: upper limit minus lower limit",
+      "lines": [
+       {
+        "tex": "\\int_3^9 \\hl{1}{f(x)}\\,dx &= \\hl{2}{F(9)} - \\hl{2}{F(3)}"
+       },
+       {
+        "tex": "&= 0 - (-36)"
+       },
+       {
+        "tex": "&= \\hl{3}{36}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide the error by to get a percentage?",
+      "title": "Find the error and divide by the exact area",
+      "lines": [
+       {
+        "text": "The exact area is 36 and the trapezoidal estimate is 35, so the error is $\\hl{3}{36} - 35 = 1$."
+       },
+       {
+        "tex": "\\text{Percentage error} &= \\frac{1}{\\hl{3}{36}} \\times 100"
+       },
+       {
+        "tex": "&= 2.7\\dot{7}"
+       },
+       {
+        "tex": "&\\approx 2.8\\%"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{36};\\quad 2.8\\%",
+    "graph": {
+     "f": "-x**2 + 12*x - 27",
+     "box": [
+      1,
+      11,
+      11,
+      -17
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 3,
+       "y": 0,
+       "name": "start (3, 0)"
+      },
+      {
+       "x": 9,
+       "y": 0,
+       "name": "end (9, 0)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+    "note": "The integrand is now 1/(2x+3), a reciprocal, and the upper limit A is unknown, so the answer comes from logs. The method is still integrate between the limits, then set the result equal to the given value.",
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the value of the integral"
+    },
+    "steps": [
+     {
+      "ask": "Which function is integrated from 0 to A, and what must that integral equal?",
+      "title": "Set up the area as an integral",
+      "lines": [
+       {
+        "text": "The area under $\\hl{1}{h'(x)}$ from $0$ to $A$ equals $\\hl{3}{\\ln 3}$."
+       },
+       {
+        "tex": "\\int_0^A \\hl{1}{\\frac{1}{2x+3}}\\,dx &= \\hl{3}{\\ln 3}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of 1/(2x+3)? Substitute A and 0 into it.",
+      "title": "Integrate and substitute the limits",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\left[\\tfrac{1}{2}\\ln(2x+3)\\right]_0^A} &= \\hl{3}{\\ln 3}"
+       },
+       {
+        "tex": "\\hl{2}{\\tfrac{1}{2}\\left(\\ln(2A+3) - \\ln 3\\right)} &= \\hl{3}{\\ln 3}"
+       }
+      ]
+     },
+     {
+      "ask": "What rule combines the two logarithms into one?",
+      "title": "Combine the logs",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\tfrac{1}{2}\\ln\\left(\\frac{2A+3}{3}\\right)} &= \\hl{3}{\\ln 3}"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= 2\\ln 3"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= \\ln 9"
+       }
+      ]
+     },
+     {
+      "ask": "If the logs of two expressions are equal, what can you say about the expressions? Then solve for A.",
+      "title": "Remove the logs and solve",
+      "lines": [
+       {
+        "tex": "\\frac{2A+3}{3} &= 9"
+       },
+       {
+        "tex": "2A + 3 &= 27"
+       },
+       {
+        "tex": "2A &= 24"
+       },
+       {
+        "tex": "A &= 12"
+       }
+      ]
+     }
+    ],
+    "final": "A = 12",
+    "graph": {
+     "f": "1/(2*x + 3)",
+     "box": [
+      -0.5,
+      0.5,
+      13,
+      -0.02
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 0.3333,
+       "name": "start (0, 1/3)"
+      },
+      {
+       "x": 12,
+       "y": 0.037,
+       "name": "end (12, 1/27)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-equate-coefficients",
+   "title": "Equate coefficients of identical polynomials",
+   "level": "HL",
+   "input": "identity with unknown constants",
+   "output": "values of the constants"
+  },
+  "errors": [
+   "2019-higher-p1-q1#(a) step 4: ask must contain a question, not only a command",
+   "2019-higher-p1-q1#(a) step 5: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Simplify the first fraction",
+      "lines": [
+       {
+        "text": "Expand $(n+3)!$ as $(n+3)(n+2)(n+1)!$ and cancel."
+       },
+       {
+        "tex": "\\frac{(n+3)!}{(n+1)!} &= \\frac{(n+3)(n+2)(n+1)!}{(n+1)!}"
+       },
+       {
+        "tex": "&= (n+3)(n+2)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the second fraction",
+      "lines": [
+       {
+        "text": "Expand $(n+2)!$ as $(n+2)(n+1)!$ and cancel."
+       },
+       {
+        "tex": "\\frac{(n+2)!}{(n+1)!} &= \\frac{(n+2)(n+1)!}{(n+1)!}"
+       },
+       {
+        "tex": "&= n+2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply and expand",
+      "lines": [
+       {
+        "tex": "\\text{Product} &= (n+3)(n+2)(n+2)"
+       },
+       {
+        "tex": "&= (n^2 + 5n + 6)(n+2)"
+       },
+       {
+        "tex": "&= n^3 + 2n^2 + 5n^2 + 10n + 6n + 12"
+       },
+       {
+        "tex": "&= n^3 + 7n^2 + 16n + 12"
+       }
+      ]
+     },
+     {
+      "title": "Match coefficients with the given form",
+      "lines": [
+       {
+        "text": "Matching the coefficients of each power of $n$ gives the values."
+       }
+      ]
+     }
+    ],
+    "final": "a = 1,\\ b = 7,\\ c = 16,\\ d = 12"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q1#(a)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "(2x+1)(x^2+px+4) &= 2x(x^2+px+4) + 1(x^2+px+4)"
+       },
+       {
+        "tex": "&= 2x^3 + 2px^2 + 8x + x^2 + px + 4"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 2x^3 + (2p+1)x^2 + (8+p)x + 4"
+       }
+      ]
+     },
+     {
+      "title": "Read off the two coefficients",
+      "lines": [
+       {
+        "text": "The coefficient of $x^2$ is $2p+1$ and the coefficient of $x$ is $8+p$."
+       }
+      ]
+     },
+     {
+      "title": "Use \"coefficient of x is twice coefficient of x²\"",
+      "lines": [
+       {
+        "tex": "8+p &= 2(2p+1)"
+       },
+       {
+        "tex": "8+p &= 4p+2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for p",
+      "lines": [
+       {
+        "tex": "8-2 &= 4p-p"
+       },
+       {
+        "tex": "6 &= 3p"
+       },
+       {
+        "tex": "p &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "p = 2"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q1#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "(i) Substitute x = -1",
+      "lines": [
+       {
+        "tex": "3(-1)^2 + 2(-1) + 5 &= 3(1) - 2 + 5"
+       },
+       {
+        "tex": "&= 3 - 2 + 5"
+       },
+       {
+        "tex": "&= 6"
+       },
+       {
+        "text": "Since $6 \\ne 0$, $x = -1$ is not a solution."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Expand the product",
+      "lines": [
+       {
+        "tex": "(x+1)(ax+b) + c &= ax^2 + bx + ax + b + c"
+       },
+       {
+        "tex": "&= ax^2 + (a+b)x + b + c"
+       }
+      ]
+     },
+     {
+      "title": "Equate to 3x^2 + 2x + 5",
+      "lines": [
+       {
+        "tex": "ax^2 + (a+b)x + (b+c) &= 3x^2 + 2x + 5"
+       },
+       {
+        "text": "Compare coefficients of $x^2$, $x$ and the constants."
+       }
+      ]
+     },
+     {
+      "title": "Coefficient of x^2",
+      "lines": [
+       {
+        "tex": "a &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Coefficient of x",
+      "lines": [
+       {
+        "tex": "a + b &= 2"
+       },
+       {
+        "tex": "3 + b &= 2"
+       },
+       {
+        "tex": "b &= -1"
+       }
+      ]
+     },
+     {
+      "title": "Constant term",
+      "lines": [
+       {
+        "tex": "b + c &= 5"
+       },
+       {
+        "tex": "-1 + c &= 5"
+       },
+       {
+        "tex": "c &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "c = 6"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q3#(c)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Let g(x) be a linear expression",
+      "lines": [
+       {
+        "text": "$15x^2$ divided by $-3x$ gives a term in $x$, so $g(x) = Ax + B$."
+       },
+       {
+        "tex": "(2-3x)(Ax+B) &= 15x^2 - 22x + 8"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "2Ax + 2B - 3Ax^2 - 3Bx &= 15x^2 - 22x + 8"
+       }
+      ]
+     },
+     {
+      "title": "Compare the constant terms",
+      "lines": [
+       {
+        "tex": "2B &= 8"
+       },
+       {
+        "tex": "B &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Compare the x² terms",
+      "lines": [
+       {
+        "tex": "-3A &= 15"
+       },
+       {
+        "tex": "A &= -5"
+       }
+      ]
+     },
+     {
+      "title": "Write g(x)",
+      "lines": [
+       {
+        "tex": "g(x) &= -5x + 4"
+       }
+      ]
+     }
+    ],
+    "final": "g(x) = -5x + 4"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q3#(c)",
+    "note": null,
+    "legend": {
+     "1": "the unknown constants",
+     "2": "the x² term",
+     "3": "the x term",
+     "4": "the constant term"
+    },
+    "steps": [
+     {
+      "ask": "If g(x) times (2 − 3x) gives a quadratic, what kind of expression must g(x) be?",
+      "title": "Let g(x) be a linear expression",
+      "lines": [
+       {
+        "text": "$\\hl{2}{15x^2}$ divided by $-3x$ gives a term in $x$, so $g(x) = \\hl{1}{Ax + B}$."
+       },
+       {
+        "tex": "(2-3x)(\\hl{1}{Ax+B}) &= \\hl{2}{15x^2} - \\hl{3}{22x} + \\hl{4}{8}"
+       }
+      ]
+     },
+     {
+      "ask": "Multiply out both brackets. Which products give an x² term?",
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "\\hl{3}{2Ax} + \\hl{4}{2B} - \\hl{2}{3Ax^2} - \\hl{3}{3Bx} &= \\hl{2}{15x^2} - \\hl{3}{22x} + \\hl{4}{8}"
+       }
+      ]
+     },
+     {
+      "ask": "Which terms in each side have no x? Set those equal.",
+      "title": "Compare the constant terms",
+      "lines": [
+       {
+        "tex": "\\hl{4}{2B} &= \\hl{4}{8}"
+       },
+       {
+        "tex": "\\hl{1}{B} &= \\hl{1}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Now match the x² terms on both sides. What does that give for A?",
+      "title": "Compare the x² terms",
+      "lines": [
+       {
+        "tex": "\\hl{2}{-3A} &= \\hl{2}{15}"
+       },
+       {
+        "tex": "\\hl{1}{A} &= \\hl{1}{-5}"
+       }
+      ]
+     },
+     {
+      "ask": "Put A and B into g(x). What is g(x)?",
+      "title": "Write g(x)",
+      "lines": [
+       {
+        "tex": "g(x) &= \\hl{1}{-5}x + \\hl{1}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "g(x) = \\hl{1}{-5}x + \\hl{1}{4}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q1#(c)(i), (ii)",
+    "note": "This time there are three unknowns, a, b and c, and the right side is a full quadratic. The method is the same: expand, then compare each power of x.",
+    "legend": {
+     "1": "the unknown constants",
+     "2": "the x² term",
+     "3": "the x term",
+     "4": "the constant term"
+    },
+    "steps": [
+     {
+      "ask": "Put x = −1 into the left side. What do you get?",
+      "title": "(i) Substitute x = -1",
+      "lines": [
+       {
+        "tex": "3(-1)^2 + 2(-1) + 5 &= 3(1) - 2 + 5"
+       },
+       {
+        "tex": "&= 3 - 2 + 5"
+       },
+       {
+        "tex": "&= 6"
+       },
+       {
+        "text": "Since $6 \\ne 0$, $x = -1$ is not a solution."
+       }
+      ]
+     },
+     {
+      "ask": "Expand (x + 1)(ax + b) and add c. Which products give x²?",
+      "title": "(ii) Expand the product",
+      "lines": [
+       {
+        "tex": "(x+1)(ax+b) + c &= \\hl{2}{ax^2} + \\hl{3}{bx + ax} + \\hl{4}{b + c}"
+       },
+       {
+        "tex": "&= \\hl{2}{ax^2} + \\hl{3}{(a+b)x} + \\hl{4}{b + c}"
+       }
+      ]
+     },
+     {
+      "ask": "What must match on the two sides for each power of x?",
+      "title": "Equate to 3x^2 + 2x + 5",
+      "lines": [
+       {
+        "tex": "\\hl{2}{ax^2} + \\hl{3}{(a+b)x} + \\hl{4}{(b+c)} &= \\hl{2}{3x^2} + \\hl{3}{2x} + \\hl{4}{5}"
+       },
+       {
+        "text": "Compare coefficients of $x^2$, $x$ and the constants."
+       }
+      ]
+     },
+     {
+      "ask": "Match the x² terms. What is a?",
+      "title": "Coefficient of x^2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\hl{1}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute a into the x terms. What equation gives b?",
+      "title": "Coefficient of x",
+      "lines": [
+       {
+        "tex": "\\hl{3}{a + b} &= \\hl{3}{2}"
+       },
+       {
+        "tex": "\\hl{3}{3 + b} &= \\hl{3}{2}"
+       },
+       {
+        "tex": "\\hl{1}{b} &= \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Which constant equation contains c, and what is b?",
+      "title": "Constant term",
+      "lines": [
+       {
+        "tex": "\\hl{4}{b + c} &= \\hl{4}{5}"
+       },
+       {
+        "tex": "\\hl{4}{-1 + c} &= \\hl{4}{5}"
+       },
+       {
+        "tex": "\\hl{1}{c} &= \\hl{1}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{c} = \\hl{1}{6}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q1#(a)",
+    "note": "The product is now (2x+1) times a quadratic with an unknown p, and the condition relates two coefficients instead of matching a given polynomial. The method is the same: expand, collect like terms, then compare.",
+    "legend": {
+     "1": "the unknown constant",
+     "2": "the x² term",
+     "3": "the x term"
+    },
+    "steps": [
+     {
+      "ask": "Expand (2x + 1)(x² + px + 4). Which terms will be x² terms?",
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "(2x+1)(x^2+px+4) &= 2x(x^2+px+4) + 1(x^2+px+4)"
+       },
+       {
+        "tex": "&= 2x^3 + 2px^2 + 8x + x^2 + px + 4"
+       }
+      ]
+     },
+     {
+      "ask": "Gather the terms with the same power of x. What is the coefficient of x²?",
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 2x^3 + \\hl{2}{(2p+1)x^2} + \\hl{3}{(8+p)x} + 4"
+       }
+      ]
+     },
+     {
+      "ask": "Which two coefficients does the question's condition compare?",
+      "title": "Read off the two coefficients",
+      "lines": [
+       {
+        "text": "The coefficient of $x^2$ is $\\hl{2}{2p+1}$ and the coefficient of $x$ is $\\hl{3}{8+p}$."
+       }
+      ]
+     },
+     {
+      "ask": "Turn 'the x coefficient is twice the x² coefficient' into an equation.",
+      "title": "Use \"coefficient of x is twice coefficient of x²\"",
+      "lines": [
+       {
+        "tex": "\\hl{3}{8+p} &= 2\\hl{2}{(2p+1)}"
+       },
+       {
+        "tex": "\\hl{3}{8+p} &= 4p+2"
+       }
+      ]
+     },
+     {
+      "ask": "Collect the terms in p on one side and solve.",
+      "title": "Solve for p",
+      "lines": [
+       {
+        "tex": "8-2 &= 4p-p"
+       },
+       {
+        "tex": "6 &= 3p"
+       },
+       {
+        "tex": "\\hl{1}{p} &= \\hl{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{p} = \\hl{1}{2}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-addition-rule",
+   "title": "Apply the addition rule",
+   "level": "HL",
+   "input": "P(A), P(B), P(A ∩ B)",
+   "output": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)"
+  },
+  "errors": [
+   "2024-higher-p2-q2#(b) step 2: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2024-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use mutually exclusive events",
+      "lines": [
+       {
+        "text": "Mutually exclusive events cannot happen together."
+       },
+       {
+        "tex": "P(A \\cap B) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Use the addition rule",
+      "lines": [
+       {
+        "tex": "P(A \\cup B) &= P(A) + P(B) - P(A \\cap B)"
+       },
+       {
+        "tex": "&= 0.1 + 0.4 - 0"
+       },
+       {
+        "tex": "&= 0.5"
+       }
+      ]
+     }
+    ],
+    "final": "P(A \\cap B) = 0,\\; P(A \\cup B) = 0.5"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q2#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Link the complement to the union",
+      "lines": [
+       {
+        "text": "To make $(C \\cup D)'$ as large as possible, make $P(C \\cup D)$ as small as possible."
+       },
+       {
+        "tex": "P(C \\cup D) &= P(C) + P(D) - P(C \\cap D)"
+       },
+       {
+        "tex": "&= 0.5 + 0.7 - P(C \\cap D)"
+       }
+      ]
+     },
+     {
+      "title": "Make the overlap as big as possible",
+      "lines": [
+       {
+        "text": "$P(C \\cap D)$ cannot be bigger than $P(C) = 0.5$. This happens when $C$ lies inside $D$."
+       },
+       {
+        "tex": "P(C \\cup D)_{\\min} &= 1.2 - 0.5"
+       },
+       {
+        "tex": "&= 0.7"
+       }
+      ]
+     },
+     {
+      "title": "Take the complement",
+      "lines": [
+       {
+        "tex": "P[(C \\cup D)^{\\prime}]_{\\max} &= 1 - 0.7"
+       },
+       {
+        "tex": "&= 0.3"
+       }
+      ]
+     }
+    ],
+    "final": "0.3"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q3#(a)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find P(A ∪ C) from the diagram",
+      "lines": [
+       {
+        "text": "$A \\cup C$ is everything in $A$ or $C$: the regions $60$ (all of $A$), $16$ and $41$."
+       },
+       {
+        "tex": "P(A \\cup C) &= \\frac{60 + 16 + 41}{240}"
+       },
+       {
+        "tex": "&= \\frac{117}{240}"
+       }
+      ]
+     },
+     {
+      "title": "Find P(A), P(C) and P(A ∩ C)",
+      "lines": [
+       {
+        "text": "$C$ contains $13 + 6 + 16 + 41 = 76$ people."
+       },
+       {
+        "tex": "P(A) &= \\frac{60}{240}"
+       },
+       {
+        "tex": "P(C) &= \\frac{76}{240}"
+       },
+       {
+        "text": "$A \\cap C$ contains $13 + 6 = 19$ people."
+       },
+       {
+        "tex": "P(A \\cap C) &= \\frac{19}{240}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into P(A) + P(C) - P(A ∩ C)",
+      "lines": [
+       {
+        "tex": "P(A) + P(C) - P(A \\cap C) &= \\frac{60 + 76 - 19}{240}"
+       },
+       {
+        "tex": "&= \\frac{117}{240}"
+       },
+       {
+        "text": "This equals $P(A \\cup C)$, so the formula is verified."
+       }
+      ]
+     }
+    ],
+    "final": "P(A \\cup C) = \\frac{117}{240} = P(A) + P(C) - P(A \\cap C)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q3#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the complement rule",
+      "lines": [
+       {
+        "text": "The probabilities of an event and of its opposite add to 1."
+       },
+       {
+        "tex": "P(\\text{not blue}) &= 1 - 0.7"
+       },
+       {
+        "tex": "&= 0.3"
+       }
+      ]
+     }
+    ],
+    "final": "0.3"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q1#(c)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the probabilities that are given",
+      "lines": [
+       {
+        "tex": "\\text{Sum} &= 0.14 + 0.15 + 0.18 + 0.15 + 0.12 + 0.1"
+       },
+       {
+        "tex": "&= 0.84"
+       }
+      ]
+     },
+     {
+      "title": "All the probabilities add up to 1",
+      "lines": [
+       {
+        "tex": "P(\\text{Tue}) &= 1 - 0.84"
+       },
+       {
+        "tex": "&= 0.16"
+       }
+      ]
+     }
+    ],
+    "final": "0.16"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find each probability from the colour spinner",
+      "lines": [
+       {
+        "tex": "P(\\text{red}) &= \\frac{1}{4}"
+       },
+       {
+        "tex": "P(\\text{yellow}) &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Add, since red and yellow cannot both happen",
+      "lines": [
+       {
+        "tex": "P(\\text{red or yellow}) &= \\frac{1}{4} + \\frac{1}{4}"
+       },
+       {
+        "tex": "&= \\frac{2}{4}"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{2}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "P(red), the first probability",
+     "2": "P(yellow), the second probability",
+     "4": "P(red or yellow), the union"
+    },
+    "steps": [
+     {
+      "ask": "Read P(red) and P(yellow) from the spinner. What fraction of the spinner is each?",
+      "title": "Find each probability from the colour spinner",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(\\text{red})} &= \\hl{1}{\\frac{1}{4}}"
+       },
+       {
+        "tex": "\\hl{2}{P(\\text{yellow})} &= \\hl{2}{\\frac{1}{4}}"
+       }
+      ]
+     },
+     {
+      "ask": "Red and yellow cannot both happen. What do you do to their two probabilities to get the chance of either?",
+      "title": "Add, since red and yellow cannot both happen",
+      "lines": [
+       {
+        "tex": "\\hl{4}{P(\\text{red or yellow})} &= \\hl{1}{\\frac{1}{4}} + \\hl{2}{\\frac{1}{4}}"
+       },
+       {
+        "tex": "&= \\frac{2}{4}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{1}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\frac{1}{2}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q2#(b)",
+    "note": "The rule is now written in full, with a P(A ∩ B) term. The events are still mutually exclusive, so that term is 0 and you still just add the two probabilities.",
+    "legend": {
+     "1": "P(A), the first probability",
+     "2": "P(B), the second probability",
+     "3": "P(A ∩ B), the overlap",
+     "4": "P(A ∪ B), the union"
+    },
+    "steps": [
+     {
+      "ask": "What does mutually exclusive tell you about P(A and B)?",
+      "title": "Use mutually exclusive events",
+      "lines": [
+       {
+        "text": "Mutually exclusive events cannot happen together."
+       },
+       {
+        "tex": "\\hl{3}{P(A \\cap B)} &= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "Write the addition rule for P(A or B) with its three terms. Then put in the values you know.",
+      "title": "Use the addition rule",
+      "lines": [
+       {
+        "tex": "\\hl{4}{P(A \\cup B)} &= \\hl{1}{P(A)} + \\hl{2}{P(B)} - \\hl{3}{P(A \\cap B)}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.1} + \\hl{2}{0.4} - \\hl{3}{0}"
+       },
+       {
+        "tex": "&= \\hl{4}{0.5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{P(A \\cap B)} = \\hl{3}{0},\\; \\hl{4}{P(A \\cup B)} = \\hl{4}{0.5}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q3#(a)(ii)",
+    "note": "Now the events can happen together, so P(A ∩ C) is not 0 and has to be subtracted. The addition rule is the same; only the overlap changes.",
+    "legend": {
+     "1": "P(A), the first probability",
+     "2": "P(C), the second probability",
+     "3": "P(A ∩ C), the overlap",
+     "4": "P(A ∪ C), the union"
+    },
+    "steps": [
+     {
+      "ask": "Which parts of the diagram are inside A or C? Count them and divide by the total.",
+      "title": "Find P(A ∪ C) from the diagram",
+      "lines": [
+       {
+        "text": "$A \\cup C$ is everything in $A$ or $C$: the regions $60$ (all of $A$), $16$ and $41$."
+       },
+       {
+        "tex": "\\hl{4}{P(A \\cup C)} &= \\hl{4}{\\frac{60 + 16 + 41}{240}}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{117}{240}}"
+       }
+      ]
+     },
+     {
+      "ask": "Find each single probability first. Which region is in both A and C?",
+      "title": "Find P(A), P(C) and P(A ∩ C)",
+      "lines": [
+       {
+        "text": "$C$ contains $13 + 6 + 16 + 41 = 76$ people."
+       },
+       {
+        "tex": "\\hl{1}{P(A)} &= \\hl{1}{\\frac{60}{240}}"
+       },
+       {
+        "tex": "\\hl{2}{P(C)} &= \\hl{2}{\\frac{76}{240}}"
+       },
+       {
+        "text": "$A \\cap C$ contains $13 + 6 = 19$ people."
+       },
+       {
+        "tex": "\\hl{3}{P(A \\cap C)} &= \\hl{3}{\\frac{19}{240}}"
+       }
+      ]
+     },
+     {
+      "ask": "Put your values for P(A), P(C) and P(A ∩ C) into the formula. What do you get?",
+      "title": "Substitute into P(A) + P(C) - P(A ∩ C)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(A)} + \\hl{2}{P(C)} - \\hl{3}{P(A \\cap C)} &= \\hl{4}{\\frac{60 + 76 - 19}{240}}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{117}{240}}"
+       },
+       {
+        "text": "This equals $\\hl{4}{P(A \\cup C)}$, so the formula is verified."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{P(A \\cup C)} = \\hl{4}{\\frac{117}{240}} = \\hl{1}{P(A)} + \\hl{2}{P(C)} - \\hl{3}{P(A \\cap C)}",
+    "graph": null
+   }
+  ]
+ }
+]

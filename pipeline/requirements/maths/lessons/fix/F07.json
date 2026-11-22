@@ -1,0 +1,2303 @@
+[
+ {
+  "skill": {
+   "id": "inf-z-test",
+   "title": "Perform a two-tailed z-test of a population mean",
+   "level": "HL",
+   "input": "H₀ μ, x̄, σ, n",
+   "output": "z statistic vs ±1.96; conclusion"
+  },
+  "errors": [
+   "2015-higher-p2-q2#(b) step 1: ask must contain a question, not only a command",
+   "2022-higher-p2-q5#(b) step 1: ask must contain a question, not only a command",
+   "2022-higher-p2-q5#(b) step 4: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the p-value to find z",
+      "lines": [
+       {
+        "text": "The test is for a change in either direction, so it is two-tailed."
+       },
+       {
+        "tex": "0.024 &= 2\\big(1 - P(Z \\le |z|)\\big)"
+       },
+       {
+        "tex": "1 - P(Z \\le |z|) &= 0.012"
+       },
+       {
+        "tex": "P(Z \\le |z|) &= 0.988"
+       },
+       {
+        "text": "The tables give $|z| = 2.26$. The sample mean is lower than $87.3$, so $z = -2.26$."
+       }
+      ]
+     },
+     {
+      "title": "Use the z-score formula for a sample mean",
+      "lines": [
+       {
+        "text": "For a sample of 100 the standard error is $\\dfrac{12}{\\sqrt{100}} = 1.2$."
+       },
+       {
+        "tex": "-2.26 &= \\frac{\\bar{x} - 87.3}{12/\\sqrt{100}}"
+       },
+       {
+        "tex": "-2.26 &= \\frac{\\bar{x} - 87.3}{1.2}"
+       },
+       {
+        "tex": "\\bar{x} - 87.3 &= -2.712"
+       },
+       {
+        "tex": "\\bar{x} &= 84.588"
+       },
+       {
+        "tex": "&\\approx 84.6"
+       }
+      ]
+     }
+    ],
+    "final": "84.6 \\text{ km/h}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$: the mean weight of carry-on luggage has not changed ($\\mu = 12$ kg)."
+       },
+       {
+        "text": "$H_1$: the mean weight of carry-on luggage has changed ($\\mu \\ne 12$ kg)."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "tex": "z &= \\frac{\\bar{x} - \\mu}{\\sigma / \\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{13.1 - 12}{4.5 / \\sqrt{80}}"
+       },
+       {
+        "tex": "&= \\frac{1.1}{0.5031}"
+       },
+       {
+        "tex": "&= 2.186"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the critical value and conclude",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "2.186 &> 1.96"
+       },
+       {
+        "text": "$z$ is outside $-1.96 \\le z \\le 1.96$, so reject $H_0$. There is evidence that the mean weight of carry-on luggage has changed."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean weight of carry-on luggage has changed}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "tex": "H_0:\\ \\mu &= 94"
+       },
+       {
+        "text": "The null hypothesis $H_0$: the mean spend is $\\text{€}94$ (the supermarket is right)."
+       },
+       {
+        "tex": "H_1:\\ \\mu &\\ne 94"
+       },
+       {
+        "text": "The alternative hypothesis $H_1$: the mean spend is not $\\text{€}94$."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $z = \\dfrac{\\bar{x} - \\mu}{s / \\sqrt{n}}$."
+       },
+       {
+        "tex": "z &= \\frac{90.45 - 94}{20.73 / \\sqrt{100}}"
+       },
+       {
+        "tex": "&= \\frac{-3.55}{2.073}"
+       },
+       {
+        "tex": "&= -1.71"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the 5% critical values",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "-1.96 &< -1.71 < 1.96"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$z$ lies between $-1.96$ and $1.96$, so we do not reject $H_0$. There is not enough evidence to reject $H_0$ (the claim of $\\text{€}94$)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Do not reject } H_0\\ (z = -1.71).\\ \\text{There is not enough evidence to reject } H_0 \\text{ (the claim of } \\text{€}94\\text{).}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q9#(a)(iii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "The population mean was $\\text{€}39\\,400$. We test whether it has changed (either direction), so the test is two-tailed."
+       },
+       {
+        "tex": "H_0:\\ \\mu &= 39400"
+       },
+       {
+        "tex": "H_1:\\ \\mu &\\ne 39400"
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "The sample has $n = 1000$ and $\\bar{x} = 38\\,280$; $\\sigma = 12\\,920$."
+       },
+       {
+        "tex": "z &= \\frac{\\bar{x} - \\mu}{\\sigma/\\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{38280 - 39400}{12920/\\sqrt{1000}}"
+       },
+       {
+        "tex": "&= \\frac{-1120}{12920/\\sqrt{1000}}"
+       },
+       {
+        "tex": "&= \\frac{-1120}{408.57}"
+       },
+       {
+        "tex": "&\\approx -2.74"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the 5% critical values",
+      "lines": [
+       {
+        "text": "At the $5\\%$ level, two-tailed, the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "-2.74 &< -1.96"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "lines": [
+       {
+        "text": "$z$ lies outside $[-1.96, 1.96]$, so the result is significant. Reject $H_0$."
+       },
+       {
+        "text": "There is evidence that the mean annual income of full-time workers has changed since the national data were published."
+       }
+      ]
+     }
+    ],
+    "final": "z = -2.74 < -1.96\\text{, so reject } H_0\\text{: the mean income has changed}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q5#(b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "We test whether the mean differs from the 2019 figure in either direction, so the test is two-tailed."
+       },
+       {
+        "tex": "H_0: \\mu &= 20.79"
+       },
+       {
+        "text": "Null hypothesis: the mean monthly spend has not changed."
+       },
+       {
+        "tex": "H_1: \\mu &\\neq 20.79"
+       },
+       {
+        "text": "Alternative hypothesis: the mean monthly spend has changed."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $z = \\dfrac{\\bar{x} - \\mu}{\\sigma/\\sqrt{n}}$ with $\\bar{x} = 22.16$, $\\sigma = 8.12$ (the sample standard deviation) and $n = 500$."
+       },
+       {
+        "tex": "z &= \\frac{22.16 - 20.79}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "z &= \\frac{1.37}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "z &\\approx 3.7726"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the critical value",
+      "lines": [
+       {
+        "text": "At the 5% level, two-tailed, the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "3.7726 &> 1.96"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion and reason",
+      "lines": [
+       {
+        "text": "Conclusion: reject $H_0$. The mean monthly spend has changed."
+       },
+       {
+        "text": "Reason: $z = 3.7726$ lies outside $-1.96 \\le z \\le 1.96$, so the result is significant at the 5% level."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean monthly spend has changed, since } 3.7726 > 1.96"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q10#(c)(i), (ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the test statistic (z-score) for country Y",
+      "lines": [
+       {
+        "text": "For country Y: $\\bar{x} = 403$, $\\mu = 400$, $s = 70.6$, $n = 2724$."
+       },
+       {
+        "tex": "z &= \\frac{\\bar{x} - \\mu}{s / \\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{403 - 400}{70.6 / \\sqrt{2724}}"
+       },
+       {
+        "tex": "&= 2.2178\\ldots"
+       },
+       {
+        "tex": "&\\approx 2.22"
+       }
+      ]
+     },
+     {
+      "title": "Look up the probability below this z-score",
+      "lines": [
+       {
+        "tex": "P(z < 2.22) &= 0.9868"
+       }
+      ]
+     },
+     {
+      "title": "Find the p-value for a two-tailed test",
+      "lines": [
+       {
+        "text": "The alternative hypothesis is \"not 400\", so both tails count. Double the tail area."
+       },
+       {
+        "tex": "p &= 2(1 - 0.9868)"
+       },
+       {
+        "tex": "&= 2(0.0132)"
+       },
+       {
+        "tex": "&= 0.0264"
+       }
+      ]
+     },
+     {
+      "title": "Compare with 5% and state the conclusion",
+      "lines": [
+       {
+        "text": "$p = 0.0264 < 0.05$, so reject the null hypothesis."
+       },
+       {
+        "text": "The mean score for country Y is significantly different from 400."
+       }
+      ]
+     }
+    ],
+    "final": "z = 2.22,\\quad p = 0.0264;\\ \\text{the mean score for country Y is significantly different from 400}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(c)",
+    "note": null,
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the hypothesised mean μ",
+     "3": "the sample mean x̄",
+     "4": "the critical value 1.96"
+    },
+    "steps": [
+     {
+      "ask": "The question asks whether the mean has changed. What do H₀ and H₁ say?",
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$: the mean weight of carry-on luggage has not changed ($\\mu = \\hl{2}{12}$ kg)."
+       },
+       {
+        "text": "$H_1$: the mean weight of carry-on luggage has changed ($\\mu \\ne \\hl{2}{12}$ kg)."
+       }
+      ]
+     },
+     {
+      "ask": "Standardise the sample mean against the hypothesised mean, using σ/√n. What goes on top, and what on the bottom?",
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "tex": "\\hl{1}{z} &= \\frac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{\\sigma / \\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{3}{13.1} - \\hl{2}{12}}{4.5 / \\sqrt{80}}"
+       },
+       {
+        "tex": "&= \\frac{1.1}{0.5031}"
+       },
+       {
+        "tex": "&= \\hl{1}{2.186}"
+       }
+      ]
+     },
+     {
+      "ask": "Compare the test statistic with the two-tailed 5% critical values. Is it inside or outside them?",
+      "title": "Compare with the critical value and conclude",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm \\hl{4}{1.96}$."
+       },
+       {
+        "tex": "\\hl{1}{2.186} &> \\hl{4}{1.96}"
+       },
+       {
+        "text": "$\\hl{1}{z}$ is outside $-\\hl{4}{1.96} \\le \\hl{1}{z} \\le \\hl{4}{1.96}$, so reject $H_0$. There is evidence that the mean weight of carry-on luggage has changed."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean weight of carry-on luggage has changed}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(b)",
+    "note": "Only the result changes: the sample mean of €90.45 is close enough to €94 that z = -1.71 lies inside ±1.96, so H₀ is not rejected. The steps are the same as problem 1.",
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the hypothesised mean μ",
+     "3": "the sample mean x̄",
+     "4": "the critical value 1.96"
+    },
+    "steps": [
+     {
+      "ask": "The supermarket claims a mean spend of €94. Write H₀, then H₁ for a change in either direction.",
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "tex": "H_0:\\ \\mu &= \\hl{2}{94}"
+       },
+       {
+        "text": "The null hypothesis $H_0$: the mean spend is $\\text{€}\\hl{2}{94}$ (the supermarket is right)."
+       },
+       {
+        "tex": "H_1:\\ \\mu &\\ne \\hl{2}{94}"
+       },
+       {
+        "text": "The alternative hypothesis $H_1$: the mean spend is not $\\text{€}\\hl{2}{94}$."
+       }
+      ]
+     },
+     {
+      "ask": "Standardise the sample mean against the claimed mean of €94. Which mean goes on top, and what goes on the bottom?",
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $\\hl{1}{z} = \\dfrac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{s / \\sqrt{n}}$."
+       },
+       {
+        "tex": "\\hl{1}{z} &= \\frac{\\hl{3}{90.45} - \\hl{2}{94}}{20.73 / \\sqrt{100}}"
+       },
+       {
+        "tex": "&= \\frac{-3.55}{2.073}"
+       },
+       {
+        "tex": "&= \\hl{1}{-1.71}"
+       }
+      ]
+     },
+     {
+      "ask": "Where does z sit compared with the two-tailed 5% critical values?",
+      "title": "Compare with the 5% critical values",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm \\hl{4}{1.96}$."
+       },
+       {
+        "tex": "-\\hl{4}{1.96} &< \\hl{1}{-1.71} < \\hl{4}{1.96}"
+       }
+      ]
+     },
+     {
+      "ask": "Does z fall inside the critical values? What does that mean for the claim of €94?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$\\hl{1}{z}$ lies between $-\\hl{4}{1.96}$ and $\\hl{4}{1.96}$, so we do not reject $H_0$. There is not enough evidence to reject $H_0$ (the claim of $\\text{€}\\hl{2}{94}$)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Do not reject } H_0\\ (\\hl{1}{z = -1.71}).\\ \\text{There is not enough evidence to reject } H_0 \\text{ (the claim of } \\text{€}\\hl{2}{94}\\text{).}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q5#(b)",
+    "note": "Only the result changes: this sample mean of 22.16 is well above 20.79, so z is large and positive and H₀ is rejected. The steps and the two-tailed test stay the same as problem 2.",
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the hypothesised mean μ",
+     "3": "the sample mean x̄",
+     "4": "the critical value 1.96"
+    },
+    "steps": [
+     {
+      "ask": "Write H₀ and H₁ for a change in either direction from the 2019 mean of 20.79.",
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "We test whether the mean differs from the 2019 figure in either direction, so the test is two-tailed."
+       },
+       {
+        "tex": "H_0: \\mu &= \\hl{2}{20.79}"
+       },
+       {
+        "text": "Null hypothesis: the mean monthly spend has not changed."
+       },
+       {
+        "tex": "H_1: \\mu &\\neq \\hl{2}{20.79}"
+       },
+       {
+        "text": "Alternative hypothesis: the mean monthly spend has changed."
+       }
+      ]
+     },
+     {
+      "ask": "Which quantity is the standard error here, and how does it enter the z formula?",
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $\\hl{1}{z} = \\dfrac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{\\sigma/\\sqrt{n}}$ with $\\bar{x} = \\hl{3}{22.16}$, $\\sigma = 8.12$ (the sample standard deviation) and $n = 500$."
+       },
+       {
+        "tex": "\\hl{1}{z} &= \\frac{\\hl{3}{22.16} - \\hl{2}{20.79}}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "\\hl{1}{z} &= \\frac{1.37}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "\\hl{1}{z} &\\approx \\hl{1}{3.7726}"
+       }
+      ]
+     },
+     {
+      "ask": "Compare the z-score with the two-tailed 5% critical values. Is it inside or outside?",
+      "title": "Compare with the critical value",
+      "lines": [
+       {
+        "text": "At the 5% level, two-tailed, the critical values are $\\pm \\hl{4}{1.96}$."
+       },
+       {
+        "tex": "\\hl{1}{3.7726} &> \\hl{4}{1.96}"
+       }
+      ]
+     },
+     {
+      "ask": "State the decision in words first, then the reason in terms of the z-score and the critical value.",
+      "title": "State the conclusion and reason",
+      "lines": [
+       {
+        "text": "Conclusion: reject $H_0$. The mean monthly spend has changed."
+       },
+       {
+        "text": "Reason: $\\hl{1}{z = 3.7726}$ lies outside $-\\hl{4}{1.96} \\le \\hl{1}{z} \\le \\hl{4}{1.96}$, so the result is significant at the 5% level."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean monthly spend has changed, since } \\hl{1}{3.7726} > \\hl{4}{1.96}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-empirical-rule",
+   "title": "Make decisions with the empirical rule",
+   "level": "OL",
+   "input": "μ, σ",
+   "output": "68% / 95% / 99.7% ranges"
+  },
+  "errors": [
+   "2020-ordinary-p2-q3#(b)(i) step 1: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(d)(i)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the Empirical Rule",
+      "lines": [
+       {
+        "text": "About 95% of values lie within 2 standard deviations of the mean: $\\bar{x} \\pm 2\\sigma$."
+       },
+       {
+        "tex": "166.7 - 2(8.9) &\\le h \\le 166.7 + 2(8.9)"
+       },
+       {
+        "tex": "148.9 &\\le h \\le 184.5"
+       }
+      ]
+     }
+    ],
+    "final": "148.9 \\le h \\le 184.5"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(b)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the boundaries one standard deviation from the mean",
+      "lines": [
+       {
+        "text": "The shaded area runs from $\\mu - \\sigma$ to $\\mu + \\sigma$, with $\\mu = 480$ and $\\sigma = 90$."
+       },
+       {
+        "tex": "A &= 480 - 90"
+       },
+       {
+        "tex": "&= 390"
+       },
+       {
+        "tex": "B &= 480 + 90"
+       },
+       {
+        "tex": "&= 570"
+       }
+      ]
+     }
+    ],
+    "final": "A = 390,\\ B = 570"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q5#(a)(ii), (iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "(ii) Scores between 70 and 130",
+      "lines": [
+       {
+        "text": "$70 = 100 - 2(15)$ and $130 = 100 + 2(15)$, so this is within 2 standard deviations of the mean."
+       },
+       {
+        "text": "The Empirical Rule says about 95% of values lie within 2 standard deviations."
+       },
+       {
+        "tex": "P(70 < X < 130) &= 0.95"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Scores between 85 and 115",
+      "lines": [
+       {
+        "text": "$85 = 100 - 15$ and $115 = 100 + 15$, so this is within 1 standard deviation of the mean."
+       },
+       {
+        "text": "The Empirical Rule says about 68% of values lie within 1 standard deviation."
+       },
+       {
+        "tex": "\\text{Number} &= 0.68 \\times 1200"
+       },
+       {
+        "tex": "&= 816"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(ii) } 0.95 \\qquad \\text{(iii) } 816 \\text{ people}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(c)(iii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the interval within one standard deviation",
+      "lines": [
+       {
+        "text": "Add and subtract the standard deviation from the mean."
+       },
+       {
+        "tex": "112 - 51 &= 61"
+       },
+       {
+        "tex": "112 + 51 &= 163"
+       },
+       {
+        "text": "So the interval is $[61, 163]$."
+       }
+      ]
+     },
+     {
+      "title": "List the countries outside the interval",
+      "lines": [
+       {
+        "text": "Meat values below 61 are Macedonia (56) and Poland (54). The value above 163 is Switzerland (254)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Macedonia, Poland and Switzerland}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(b)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the Empirical Rule",
+      "lines": [
+       {
+        "text": "About $68\\%$ of values lie within one standard deviation of the mean."
+       }
+      ]
+     },
+     {
+      "title": "Find 68% of the candidates",
+      "lines": [
+       {
+        "tex": "\\text{Candidates} &= 68\\% \\times 6500"
+       },
+       {
+        "tex": "&= 4420"
+       }
+      ]
+     }
+    ],
+    "final": "4420"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "text": "By the empirical rule, 95% of values lie within $2\\sigma$ of the mean, so the range is $\\mu - 2\\sigma$ to $\\mu + 2\\sigma$."
+       },
+       {
+        "text": "The mean is halfway between the ends of the range."
+       },
+       {
+        "tex": "\\mu &= \\frac{147.9 + 178.7}{2}"
+       },
+       {
+        "tex": "&= \\frac{326.6}{2}"
+       },
+       {
+        "tex": "&= 163.3"
+       }
+      ]
+     },
+     {
+      "title": "Find the standard deviation",
+      "lines": [
+       {
+        "text": "The top of the range is $\\mu + 2\\sigma$."
+       },
+       {
+        "tex": "2\\sigma &= 178.7 - 163.3"
+       },
+       {
+        "tex": "2\\sigma &= 15.4"
+       },
+       {
+        "tex": "\\sigma &= 7.7"
+       }
+      ]
+     }
+    ],
+    "final": "\\mu = 163.3 \\text{ cm},\\ \\sigma = 7.7 \\text{ cm}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(d)(i)",
+    "note": null,
+    "legend": {
+     "1": "the mean (μ or x̄)",
+     "2": "the standard deviation σ",
+     "3": "the ends of the range"
+    },
+    "steps": [
+     {
+      "ask": "Which number of standard deviations either side of the mean holds about 95% of values?",
+      "title": "Use the Empirical Rule",
+      "lines": [
+       {
+        "text": "About 95% of values lie within 2 standard deviations of the mean: $\\hl{1}{\\bar{x}} \\pm 2\\hl{2}{\\sigma}$."
+       },
+       {
+        "tex": "\\hl{1}{166.7} - 2(\\hl{2}{8.9}) &\\le h \\le \\hl{1}{166.7} + 2(\\hl{2}{8.9})"
+       },
+       {
+        "tex": "\\hl{3}{148.9} &\\le h \\le \\hl{3}{184.5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{148.9} \\le h \\le \\hl{3}{184.5}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(b)(i)",
+    "note": "The shaded region is only one standard deviation either side of the mean, not two, so the range is narrower. The same method applies: mean plus or minus the standard deviation.",
+    "legend": {
+     "1": "the mean (μ or x̄)",
+     "2": "the standard deviation σ",
+     "3": "the ends of the range"
+    },
+    "steps": [
+     {
+      "ask": "Work out the two ends of the range that lies one standard deviation either side of the mean.",
+      "title": "Find the boundaries one standard deviation from the mean",
+      "lines": [
+       {
+        "text": "The shaded area runs from $\\hl{1}{\\mu} - \\hl{2}{\\sigma}$ to $\\hl{1}{\\mu} + \\hl{2}{\\sigma}$, with $\\mu = \\hl{1}{480}$ and $\\sigma = \\hl{2}{90}$."
+       },
+       {
+        "tex": "\\hl{3}{A} &= \\hl{1}{480} - \\hl{2}{90}"
+       },
+       {
+        "tex": "&= \\hl{3}{390}"
+       },
+       {
+        "tex": "\\hl{3}{B} &= \\hl{1}{480} + \\hl{2}{90}"
+       },
+       {
+        "tex": "&= \\hl{3}{570}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{A = 390},\\ \\hl{3}{B = 570}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(a)",
+    "note": "This time the range is given and you work backwards to the mean and standard deviation. The rule is the same read in reverse: the mean is halfway between the ends, and 2σ is the distance from the mean to either end.",
+    "legend": {
+     "1": "the mean (μ or x̄)",
+     "2": "the standard deviation σ",
+     "3": "the ends of the range"
+    },
+    "steps": [
+     {
+      "ask": "If 95% lies within two standard deviations of the mean, how is the mean related to the two ends of the range?",
+      "title": "Find the mean",
+      "lines": [
+       {
+        "text": "By the empirical rule, 95% of values lie within $2\\hl{2}{\\sigma}$ of the mean, so the range is $\\hl{1}{\\mu} - 2\\hl{2}{\\sigma}$ to $\\hl{1}{\\mu} + 2\\hl{2}{\\sigma}$."
+       },
+       {
+        "text": "The mean is halfway between the ends of the range."
+       },
+       {
+        "tex": "\\hl{1}{\\mu} &= \\frac{\\hl{3}{147.9} + \\hl{3}{178.7}}{2}"
+       },
+       {
+        "tex": "&= \\frac{326.6}{2}"
+       },
+       {
+        "tex": "&= \\hl{1}{163.3}"
+       }
+      ]
+     },
+     {
+      "ask": "Use the top end of the range to find σ. What do you subtract from what?",
+      "title": "Find the standard deviation",
+      "lines": [
+       {
+        "text": "The top of the range is $\\hl{1}{\\mu} + 2\\hl{2}{\\sigma}$."
+       },
+       {
+        "tex": "2\\hl{2}{\\sigma} &= \\hl{3}{178.7} - \\hl{1}{163.3}"
+       },
+       {
+        "tex": "2\\hl{2}{\\sigma} &= 15.4"
+       },
+       {
+        "tex": "\\hl{2}{\\sigma} &= \\hl{2}{7.7}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{\\mu = 163.3} \\text{ cm},\\ \\hl{2}{\\sigma = 7.7} \\text{ cm}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-double",
+   "title": "Apply double/half angle formulae (6, 11–16)",
+   "level": "HL",
+   "input": "2A or A in terms of 2A",
+   "output": "value / rewritten expression"
+  },
+  "errors": [
+   "2018-higher-p2-q4#(b) step 2: ask must contain a question, not only a command",
+   "2016-higher-p2-q3#(b) step 1: ask must contain a question, not only a command",
+   "2016-higher-p2-q3#(b) step 2: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p2-q4#(a)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Start from the addition formula",
+      "lines": [
+       {
+        "text": "Use $\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B$ with $A = B = \\theta$."
+       },
+       {
+        "tex": "\\cos 2\\theta &= \\cos(\\theta+\\theta)"
+       },
+       {
+        "tex": "&= \\cos\\theta\\cos\\theta - \\sin\\theta\\sin\\theta"
+       },
+       {
+        "tex": "&= \\cos^2\\theta - \\sin^2\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Replace cos² using sin² + cos² = 1",
+      "lines": [
+       {
+        "text": "Since $\\sin^2\\theta + \\cos^2\\theta = 1$, we have $\\cos^2\\theta = 1 - \\sin^2\\theta$."
+       },
+       {
+        "tex": "\\cos 2\\theta &= (1 - \\sin^2\\theta) - \\sin^2\\theta"
+       },
+       {
+        "tex": "&= 1 - 2\\sin^2\\theta"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos 2\\theta = 1 - 2\\sin^2\\theta"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the half-angle formula for cos squared",
+      "lines": [
+       {
+        "text": "From $\\cos 2\\theta = 2\\cos^2\\theta - 1$ we get $\\cos^2\\theta = \\frac{1}{2}(1 + \\cos 2\\theta)$."
+       },
+       {
+        "tex": "\\cos^2\\theta &= \\frac{1}{2}(1 + \\cos 2\\theta)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute cos 2θ = 1/9",
+      "lines": [
+       {
+        "tex": "\\cos^2\\theta &= \\frac{1}{2}\\left(1 + \\frac{1}{9}\\right)"
+       },
+       {
+        "tex": "&= \\frac{1}{2}\\left(\\frac{10}{9}\\right)"
+       },
+       {
+        "tex": "&= \\frac{5}{9}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "text": "Take both the positive and negative roots."
+       },
+       {
+        "tex": "\\cos\\theta &= \\pm\\sqrt{\\frac{5}{9}}"
+       },
+       {
+        "tex": "\\cos\\theta &= \\pm\\frac{\\sqrt{5}}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos\\theta = \\pm\\frac{\\sqrt{5}}{3}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q4#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use a right-angled triangle for $\\cos A = \\frac{y}{2}$",
+      "lines": [
+       {
+        "text": "Cosine is adjacent over hypotenuse, so take adjacent $= y$ and hypotenuse $= 2$."
+       },
+       {
+        "text": "Let the opposite side be $z$. By Pythagoras:"
+       },
+       {
+        "tex": "2^2 &= y^2 + z^2"
+       },
+       {
+        "tex": "z^2 &= 4 - y^2"
+       },
+       {
+        "tex": "z &= \\sqrt{4 - y^2}"
+       }
+      ]
+     },
+     {
+      "title": "Write $\\sin A$",
+      "lines": [
+       {
+        "text": "Sine is opposite over hypotenuse."
+       },
+       {
+        "tex": "\\sin A &= \\frac{\\sqrt{4 - y^2}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Use the double angle formula",
+      "lines": [
+       {
+        "text": "$\\sin 2A = 2\\sin A\\cos A$."
+       },
+       {
+        "tex": "\\sin 2A &= 2\\left(\\frac{\\sqrt{4 - y^2}}{2}\\right)\\left(\\frac{y}{2}\\right)"
+       },
+       {
+        "tex": "&= \\frac{y\\sqrt{4 - y^2}}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\sin 2A = \\frac{y\\sqrt{4 - y^2}}{2}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the width and height of the rectangle",
+      "lines": [
+       {
+        "text": "The rectangle is symmetric about both axes, so width is $2x$ and height is $2y$."
+       },
+       {
+        "tex": "2x &= 10\\cos\\theta"
+       },
+       {
+        "tex": "2y &= 10\\sin\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Multiply width by height",
+      "lines": [
+       {
+        "tex": "A(\\theta) &= (10\\cos\\theta)(10\\sin\\theta)"
+       },
+       {
+        "tex": "&= 100\\cos\\theta\\sin\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Use the double angle formula",
+      "lines": [
+       {
+        "text": "$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$."
+       },
+       {
+        "tex": "&= 50 \\times 2\\sin\\theta\\cos\\theta"
+       },
+       {
+        "tex": "&= 50\\sin 2\\theta"
+       }
+      ]
+     }
+    ],
+    "final": "A(\\theta) = 50\\sin 2\\theta"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q4#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the formula with A = θ/2",
+      "lines": [
+       {
+        "text": "If $A = \\frac{\\theta}{2}$ then $2A = \\theta$."
+       },
+       {
+        "tex": "\\cos\\theta &= \\cos^2\\frac{\\theta}{2} - \\sin^2\\frac{\\theta}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find cos(θ/2) from a right-angled triangle",
+      "lines": [
+       {
+        "text": "$\\sin\\frac{\\theta}{2} = \\frac{1}{\\sqrt{5}}$: opposite side $1$, hypotenuse $\\sqrt{5}$."
+       },
+       {
+        "tex": "\\text{adjacent}^2 &= (\\sqrt{5})^2 - 1^2"
+       },
+       {
+        "tex": "&= 4"
+       },
+       {
+        "text": "So the adjacent side is $2$. Since $0 \\le \\frac{\\theta}{2} \\le \\frac{\\pi}{2}$, the cosine is positive."
+       },
+       {
+        "tex": "\\cos\\frac{\\theta}{2} &= \\frac{2}{\\sqrt{5}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "\\cos\\theta &= \\left(\\frac{2}{\\sqrt{5}}\\right)^2 - \\left(\\frac{1}{\\sqrt{5}}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{4}{5} - \\frac{1}{5}"
+       },
+       {
+        "tex": "&= \\frac{3}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos\\theta = \\frac{3}{5}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q2#(c)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace $\\sin 2t$",
+      "lines": [
+       {
+        "text": "Use the double angle formula $\\sin 2t = 2\\sin t \\cos t$."
+       },
+       {
+        "tex": "\\sin t &= 2\\sin t \\cos t"
+       }
+      ]
+     },
+     {
+      "title": "Move everything to one side and factorise",
+      "lines": [
+       {
+        "text": "Do not divide by $\\sin t$, as that would lose the solutions where $\\sin t = 0$."
+       },
+       {
+        "tex": "\\sin t - 2\\sin t \\cos t &= 0"
+       },
+       {
+        "tex": "\\sin t\\,(1 - 2\\cos t) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve $\\sin t = 0$",
+      "lines": [
+       {
+        "text": "One factor must be zero. Sine is zero at the start, middle and end of the range."
+       },
+       {
+        "tex": "\\sin t &= 0"
+       },
+       {
+        "tex": "t &= 0^\\circ,\\ 180^\\circ,\\ 360^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Solve $1 - 2\\cos t = 0$",
+      "lines": [
+       {
+        "tex": "1 - 2\\cos t &= 0"
+       },
+       {
+        "tex": "-2\\cos t &= -1"
+       },
+       {
+        "tex": "\\cos t &= \\frac{1}{2}"
+       },
+       {
+        "text": "Cosine is positive in the first and fourth quadrants; the reference angle is $60^\\circ$."
+       },
+       {
+        "tex": "t &= 60^\\circ,\\ 300^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Combine all solutions",
+      "lines": [
+       {
+        "tex": "t &= 0^\\circ,\\ 60^\\circ,\\ 180^\\circ,\\ 300^\\circ,\\ 360^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "t = 0^\\circ, 60^\\circ, 180^\\circ, 300^\\circ, 360^\\circ"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2021-higher-p2-q4#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the given ratio, sin(θ/2)",
+     "2": "the ratio you work out, cos(θ/2)",
+     "3": "the answer, cos θ"
+    },
+    "steps": [
+     {
+      "ask": "Which double-angle formula for cos θ uses only the cos and sin of half the angle?",
+      "title": "Use the formula with A = θ/2",
+      "lines": [
+       {
+        "text": "If $A = \\frac{\\theta}{2}$ then $2A = \\theta$."
+       },
+       {
+        "tex": "\\hl{3}{\\cos\\theta} &= \\hl{2}{\\cos^2\\frac{\\theta}{2}} - \\hl{1}{\\sin^2\\frac{\\theta}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "Sine gives you the opposite side and the hypotenuse. How do you find the adjacent side?",
+      "title": "Find cos(θ/2) from a right-angled triangle",
+      "lines": [
+       {
+        "text": "$\\hl{1}{\\sin\\frac{\\theta}{2} = \\frac{1}{\\sqrt{5}}}$: opposite side $1$, hypotenuse $\\sqrt{5}$."
+       },
+       {
+        "tex": "\\text{adjacent}^2 &= (\\sqrt{5})^2 - 1^2"
+       },
+       {
+        "tex": "&= 4"
+       },
+       {
+        "text": "So the adjacent side is $2$. Since $0 \\le \\frac{\\theta}{2} \\le \\frac{\\pi}{2}$, the cosine is positive."
+       },
+       {
+        "tex": "\\hl{2}{\\cos\\frac{\\theta}{2}} &= \\frac{2}{\\sqrt{5}}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute the two squared values into the formula. What do you get?",
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\cos\\theta} &= \\hl{2}{\\left(\\frac{2}{\\sqrt{5}}\\right)^2} - \\hl{1}{\\left(\\frac{1}{\\sqrt{5}}\\right)^2}"
+       },
+       {
+        "tex": "&= \\frac{4}{5} - \\frac{1}{5}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{3}{5}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\cos\\theta} = \\hl{3}{\\frac{3}{5}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q4#(b)",
+    "note": "The given value is now a triangle with side y, so the answer is an expression in y rather than a number. The steps are the same: find the missing side, then use sin 2A = 2 sin A cos A.",
+    "legend": {
+     "1": "the given ratio, cos A = y/2",
+     "2": "the ratio you work out, sin A",
+     "3": "the answer, sin 2A"
+    },
+    "steps": [
+     {
+      "ask": "Cosine is adjacent over hypotenuse. Which Pythagoras relation finds the opposite side?",
+      "title": "Use a right-angled triangle for $\\cos A = \\frac{y}{2}$",
+      "lines": [
+       {
+        "text": "Cosine is adjacent over hypotenuse, so take adjacent $= \\hl{1}{y}$ and hypotenuse $= 2$."
+       },
+       {
+        "text": "Let the opposite side be $z$. By Pythagoras:"
+       },
+       {
+        "tex": "2^2 &= y^2 + z^2"
+       },
+       {
+        "tex": "z^2 &= 4 - y^2"
+       },
+       {
+        "tex": "z &= \\sqrt{4 - y^2}"
+       }
+      ]
+     },
+     {
+      "ask": "Write sin A as opposite over hypotenuse, using the side you just found.",
+      "title": "Write $\\sin A$",
+      "lines": [
+       {
+        "text": "Sine is opposite over hypotenuse."
+       },
+       {
+        "tex": "\\hl{2}{\\sin A} &= \\frac{\\sqrt{4 - y^2}}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Which double-angle formula links sin 2A to sin A and cos A?",
+      "title": "Use the double angle formula",
+      "lines": [
+       {
+        "text": "$\\hl{3}{\\sin 2A} = 2\\hl{2}{\\sin A}\\hl{1}{\\cos A}$."
+       },
+       {
+        "tex": "\\hl{3}{\\sin 2A} &= 2\\hl{2}{\\left(\\frac{\\sqrt{4 - y^2}}{2}\\right)}\\hl{1}{\\left(\\frac{y}{2}\\right)}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{y\\sqrt{4 - y^2}}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\sin 2A} = \\hl{3}{\\frac{y\\sqrt{4 - y^2}}{2}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q3#(b)",
+    "note": "Cos 2θ is now given as a number, not from a triangle, so you rearrange the formula to get cos²θ. The method is the same idea, and the square root gives both signs.",
+    "legend": {
+     "1": "the given ratio, cos 2θ = 1/9",
+     "2": "the ratio you work out, cos²θ",
+     "3": "the answer, cos θ"
+    },
+    "steps": [
+     {
+      "ask": "Rearrange cos 2θ = 2cos²θ − 1 so that cos²θ is on its own.",
+      "title": "Use the half-angle formula for cos squared",
+      "lines": [
+       {
+        "text": "From $\\hl{1}{\\cos 2\\theta} = 2\\hl{2}{\\cos^2\\theta} - 1$ we get $\\hl{2}{\\cos^2\\theta} = \\frac{1}{2}(1 + \\hl{1}{\\cos 2\\theta})$."
+       },
+       {
+        "tex": "\\hl{2}{\\cos^2\\theta} &= \\frac{1}{2}(1 + \\hl{1}{\\cos 2\\theta})"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute the given value for cos 2θ and simplify the fraction.",
+      "title": "Substitute cos 2θ = 1/9",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\cos^2\\theta} &= \\frac{1}{2}\\left(1 + \\hl{1}{\\frac{1}{9}}\\right)"
+       },
+       {
+        "tex": "&= \\frac{1}{2}\\left(\\frac{10}{9}\\right)"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{5}{9}}"
+       }
+      ]
+     },
+     {
+      "ask": "Taking a square root gives how many values? Does the question allow both signs?",
+      "title": "Take the square root",
+      "lines": [
+       {
+        "text": "Take both the positive and negative roots."
+       },
+       {
+        "tex": "\\hl{3}{\\cos\\theta} &= \\pm\\sqrt{\\hl{2}{\\frac{5}{9}}}"
+       },
+       {
+        "tex": "\\hl{3}{\\cos\\theta} &= \\hl{3}{\\pm\\frac{\\sqrt{5}}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\cos\\theta} = \\hl{3}{\\pm\\frac{\\sqrt{5}}{3}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-3d",
+   "title": "Solve 3D trigonometry problems",
+   "level": "HL",
+   "input": "3D context (pyramid, mast, box)",
+   "output": "lengths/angles via right/non-right triangles"
+  },
+  "errors": [
+   "2017-higher-p2-q9#(b) step 3: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(d)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute $|CT|$ into the result of (a)",
+      "lines": [
+       {
+        "tex": "|TE| &= \\sqrt{3}\\,|CT|"
+       },
+       {
+        "tex": "&= \\sqrt{3} \\times 5.3033"
+       },
+       {
+        "tex": "&= 9.1856"
+       },
+       {
+        "tex": "&= 9.2 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|TE| = 9.2 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Show $|OB| = 3\\sqrt{2}$ m",
+      "lines": [
+       {
+        "text": "The diagonals of a square are equal, bisect each other and meet at $90^\\circ$, so $|OA| = |OB|$ and $\\angle AOB = 90^\\circ$."
+       },
+       {
+        "text": "In the right-angled triangle $AOB$ the hypotenuse is $|AB| = 6$."
+       },
+       {
+        "tex": "|OB|^2 + |OB|^2 &= 6^2"
+       },
+       {
+        "tex": "2|OB|^2 &= 36"
+       },
+       {
+        "tex": "|OB|^2 &= 18"
+       },
+       {
+        "tex": "|OB| &= \\sqrt{18}"
+       },
+       {
+        "tex": "&= \\sqrt{9 \\times 2}"
+       },
+       {
+        "tex": "&= 3\\sqrt{2} \\text{ m}"
+       }
+      ]
+     },
+     {
+      "title": "Find $|OP|$ using triangle $POB$",
+      "lines": [
+       {
+        "text": "$P$ is directly above $O$, so $\\angle POB = 90^\\circ$. The hypotenuse is $|PB| = 11$."
+       },
+       {
+        "tex": "|OB|^2 + |OP|^2 &= |PB|^2"
+       },
+       {
+        "tex": "\\left(3\\sqrt{2}\\right)^2 + |OP|^2 &= 11^2"
+       },
+       {
+        "tex": "18 + |OP|^2 &= 121"
+       },
+       {
+        "tex": "|OP|^2 &= 103"
+       },
+       {
+        "tex": "|OP| &= \\sqrt{103} \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|OB| = 3\\sqrt{2} \\text{ m},\\quad |OP| = \\sqrt{103} \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(b)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find $|DT|$ with Pythagoras",
+      "lines": [
+       {
+        "text": "$D$ is due north of $C$ and $T$ is due east of $C$, so the angle at $C$ in triangle $DCT$ is $90^\\circ$."
+       },
+       {
+        "tex": "|DT|^2 &= 15^2 + |CT|^2"
+       },
+       {
+        "tex": "&= 225 + |CT|^2"
+       },
+       {
+        "tex": "|DT| &= \\sqrt{225 + |CT|^2}"
+       }
+      ]
+     },
+     {
+      "title": "Use tan 30° in triangle $DET$",
+      "lines": [
+       {
+        "tex": "\\tan 30^\\circ &= \\frac{|TE|}{|DT|}"
+       },
+       {
+        "tex": "\\frac{1}{\\sqrt{3}} &= \\frac{|TE|}{|DT|}"
+       },
+       {
+        "tex": "|TE| &= \\frac{|DT|}{\\sqrt{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $|DT|$",
+      "lines": [
+       {
+        "tex": "|TE| &= \\frac{\\sqrt{225 + |CT|^2}}{\\sqrt{3}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{225 + |CT|^2}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "|TE| = \\sqrt{\\frac{225 + |CT|^2}{3}}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(c)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Equate the two expressions for $|TE|$",
+      "lines": [
+       {
+        "tex": "\\sqrt{3}\\,|CT| &= \\sqrt{\\frac{225 + |CT|^2}{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides and clear the fraction",
+      "lines": [
+       {
+        "tex": "3|CT|^2 &= \\frac{225 + |CT|^2}{3}"
+       },
+       {
+        "tex": "9|CT|^2 &= 225 + |CT|^2"
+       }
+      ]
+     },
+     {
+      "title": "Isolate $|CT|$",
+      "lines": [
+       {
+        "tex": "8|CT|^2 &= 225"
+       },
+       {
+        "tex": "|CT|^2 &= \\frac{225}{8}"
+       },
+       {
+        "tex": "|CT| &= \\sqrt{\\frac{225}{8}}"
+       },
+       {
+        "tex": "&= 5.3033"
+       },
+       {
+        "tex": "&= 5.3 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|CT| = 5.3 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q4#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the diagonal of one face",
+      "lines": [
+       {
+        "text": "Let the side of the cube be $x$. A face is a square, so use Pythagoras."
+       },
+       {
+        "tex": "d^2 &= x^2 + x^2"
+       },
+       {
+        "tex": "d &= \\sqrt{2}\\,x"
+       }
+      ]
+     },
+     {
+      "title": "Find the diagonal of the cube",
+      "lines": [
+       {
+        "text": "The cube's diagonal is the hypotenuse of a right-angled triangle with sides $x$ and the face diagonal $\\sqrt{2}x$."
+       },
+       {
+        "tex": "D^2 &= x^2 + (\\sqrt{2}\\,x)^2"
+       },
+       {
+        "tex": "&= 3x^2"
+       },
+       {
+        "tex": "D &= \\sqrt{3}\\,x"
+       }
+      ]
+     },
+     {
+      "title": "Set up the triangle at the centre",
+      "lines": [
+       {
+        "text": "The diagonals cross at the centre, and each is halved there. Two half-diagonals, each $\\frac{\\sqrt{3}x}{2}$, and one cube edge $x$ form a triangle with angle $A$ opposite the edge."
+       },
+       {
+        "text": "Cosine rule: $a^2 = b^2 + c^2 - 2bc\\cos A$ with $a = x$ and $b = c = \\frac{\\sqrt{3}x}{2}$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the cosine rule",
+      "lines": [
+       {
+        "tex": "x^2 &= \\left(\\frac{\\sqrt{3}x}{2}\\right)^2 + \\left(\\frac{\\sqrt{3}x}{2}\\right)^2 - 2\\left(\\frac{\\sqrt{3}x}{2}\\right)\\left(\\frac{\\sqrt{3}x}{2}\\right)\\cos A"
+       },
+       {
+        "tex": "x^2 &= \\frac{3x^2}{4} + \\frac{3x^2}{4} - \\frac{3x^2}{2}\\cos A"
+       },
+       {
+        "tex": "x^2 &= \\frac{3x^2}{2} - \\frac{3x^2}{2}\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Solve for cos A",
+      "lines": [
+       {
+        "tex": "\\frac{3x^2}{2}\\cos A &= \\frac{3x^2}{2} - x^2"
+       },
+       {
+        "tex": "\\frac{3x^2}{2}\\cos A &= \\frac{x^2}{2}"
+       },
+       {
+        "tex": "\\cos A &= \\frac{1}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos A = \\frac{1}{3}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "ground distance |OB|",
+     "2": "vertical height |OP|",
+     "3": "slant edge |PB| = 11 m"
+    },
+    "steps": [
+     {
+      "ask": "Which triangle here is right-angled at O, and which theorem gives |OB|?",
+      "title": "Show $|OB| = 3\\sqrt{2}$ m",
+      "lines": [
+       {
+        "text": "The diagonals of a square are equal, bisect each other and meet at $90^\\circ$, so $|OA| = \\hl{1}{|OB|}$ and $\\angle AOB = 90^\\circ$."
+       },
+       {
+        "text": "In the right-angled triangle $AOB$ the hypotenuse is $|AB| = 6$."
+       },
+       {
+        "tex": "\\hl{1}{|OB|^2} + \\hl{1}{|OB|^2} &= 6^2"
+       },
+       {
+        "tex": "2\\hl{1}{|OB|^2} &= 36"
+       },
+       {
+        "tex": "\\hl{1}{|OB|^2} &= 18"
+       },
+       {
+        "tex": "\\hl{1}{|OB|} &= \\sqrt{18}"
+       },
+       {
+        "tex": "&= \\sqrt{9 \\times 2}"
+       },
+       {
+        "tex": "&= 3\\sqrt{2} \\text{ m}"
+       }
+      ]
+     },
+     {
+      "ask": "Which triangle stands upright? Which theorem links |OP|, |OB| and |PB|?",
+      "title": "Find $|OP|$ using triangle $POB$",
+      "lines": [
+       {
+        "text": "$P$ is directly above $O$, so $\\angle POB = 90^\\circ$. The hypotenuse is $\\hl{3}{|PB|} = \\hl{3}{11}$."
+       },
+       {
+        "tex": "\\hl{1}{|OB|^2} + \\hl{2}{|OP|^2} &= \\hl{3}{|PB|^2}"
+       },
+       {
+        "tex": "\\hl{1}{\\left(3\\sqrt{2}\\right)^2} + \\hl{2}{|OP|^2} &= \\hl{3}{11^2}"
+       },
+       {
+        "tex": "\\hl{1}{18} + \\hl{2}{|OP|^2} &= \\hl{3}{121}"
+       },
+       {
+        "tex": "\\hl{2}{|OP|^2} &= 103"
+       },
+       {
+        "tex": "\\hl{2}{|OP|} &= \\sqrt{103} \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{|OB|} = 3\\sqrt{2} \\text{ m},\\quad \\hl{2}{|OP|} = \\sqrt{103} \\text{ m}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(b)",
+    "note": "Changed from the pyramid: this is a mast with a 30° angle, so a tangent ratio links the height |TE| to the ground distance |DT|. What stays the same: Pythagoras still builds the ground line first.",
+    "legend": {
+     "1": "ground distances |CT| and |DT|",
+     "2": "height |TE|",
+     "4": "the 30° angle"
+    },
+    "steps": [
+     {
+      "ask": "Which triangle lies flat on the ground with a right angle at C? Which theorem gives |DT|²?",
+      "title": "Find $|DT|$ with Pythagoras",
+      "lines": [
+       {
+        "text": "$D$ is due north of $C$ and $T$ is due east of $C$, so the angle at $C$ in triangle $DCT$ is $90^\\circ$."
+       },
+       {
+        "tex": "\\hl{1}{|DT|^2} &= 15^2 + \\hl{1}{|CT|^2}"
+       },
+       {
+        "tex": "&= 225 + \\hl{1}{|CT|^2}"
+       },
+       {
+        "tex": "\\hl{1}{|DT|} &= \\sqrt{225 + \\hl{1}{|CT|^2}}"
+       }
+      ]
+     },
+     {
+      "ask": "The angle at D is 30°. Which ratio links the height |TE| to |DT|?",
+      "title": "Use tan 30° in triangle $DET$",
+      "lines": [
+       {
+        "tex": "\\tan \\hl{4}{30^\\circ} &= \\frac{\\hl{2}{|TE|}}{\\hl{1}{|DT|}}"
+       },
+       {
+        "tex": "\\frac{1}{\\sqrt{3}} &= \\frac{\\hl{2}{|TE|}}{\\hl{1}{|DT|}}"
+       },
+       {
+        "tex": "\\hl{2}{|TE|} &= \\frac{\\hl{1}{|DT|}}{\\sqrt{3}}"
+       }
+      ]
+     },
+     {
+      "ask": "Put your expression for |DT| from step 1 into the equation from step 2.",
+      "title": "Substitute $|DT|$",
+      "lines": [
+       {
+        "tex": "\\hl{2}{|TE|} &= \\frac{\\hl{1}{\\sqrt{225 + |CT|^2}}}{\\sqrt{3}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{225 + \\hl{1}{|CT|^2}}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{|TE|} = \\sqrt{\\frac{225 + \\hl{1}{|CT|^2}}{3}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(c)",
+    "note": "Same mast and the same symbols as the last problem. The change: instead of writing |TE| in terms of |CT|, you set the two expressions equal and solve for |CT| itself.",
+    "legend": {
+     "1": "ground distance |CT|"
+    },
+    "steps": [
+     {
+      "ask": "There are now two expressions for |TE|. What happens when you set them equal?",
+      "title": "Equate the two expressions for $|TE|$",
+      "lines": [
+       {
+        "tex": "\\sqrt{3}\\,\\hl{1}{|CT|} &= \\sqrt{\\frac{225 + \\hl{1}{|CT|^2}}{3}}"
+       }
+      ]
+     },
+     {
+      "ask": "What step removes the square root and the fraction?",
+      "title": "Square both sides and clear the fraction",
+      "lines": [
+       {
+        "tex": "3\\hl{1}{|CT|^2} &= \\frac{225 + \\hl{1}{|CT|^2}}{3}"
+       },
+       {
+        "tex": "9\\hl{1}{|CT|^2} &= 225 + \\hl{1}{|CT|^2}"
+       }
+      ]
+     },
+     {
+      "ask": "Gather all the |CT|² terms on one side. What is left to do?",
+      "title": "Isolate $|CT|$",
+      "lines": [
+       {
+        "tex": "8\\hl{1}{|CT|^2} &= 225"
+       },
+       {
+        "tex": "\\hl{1}{|CT|^2} &= \\frac{225}{8}"
+       },
+       {
+        "tex": "\\hl{1}{|CT|} &= \\sqrt{\\frac{225}{8}}"
+       },
+       {
+        "tex": "&= 5.3033"
+       },
+       {
+        "tex": "&= 5.3 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{|CT|} = 5.3 \\text{ m}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-elevation",
+   "title": "Solve heights-and-distances problems",
+   "level": "JC",
+   "input": "angles of elevation/depression + a distance",
+   "output": "height or distance"
+  },
+  "errors": [
+   "2016-higher-p2-q7#(a)(ii) step 2: ask must contain a question, not only a command",
+   "2025-higher-p2-q8#(c)(ii) step 2: ask must contain a question, not only a command"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q8#(d)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the tangent ratio",
+      "lines": [
+       {
+        "text": "49 m is opposite the angle and $d$ is adjacent. At first, $d$ is in metres."
+       },
+       {
+        "tex": "\\tan 1.2^\\circ &= \\frac{49}{d}"
+       },
+       {
+        "tex": "d &= \\frac{49}{\\tan 1.2^\\circ}"
+       },
+       {
+        "tex": "d &\\approx 2339.2 \\text{ m}"
+       }
+      ]
+     },
+     {
+      "title": "Convert metres to kilometres",
+      "lines": [
+       {
+        "tex": "d &= \\frac{2339.2}{1000}"
+       },
+       {
+        "tex": "d &\\approx 2.34 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "d = 2.34 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q7#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use tan in the right-angled triangle BAC",
+      "lines": [
+       {
+        "text": "The angle of elevation is $\\angle BCA = 50^\\circ$. $|AB|$ is opposite it and $|AC| = 1.95$ is adjacent."
+       },
+       {
+        "tex": "\\tan 50^\\circ &= \\frac{|AB|}{1.95}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for AB",
+      "lines": [
+       {
+        "tex": "|AB| &= 1.95 \\tan 50^\\circ"
+       },
+       {
+        "tex": "&= 1.95(1.19175)"
+       },
+       {
+        "tex": "&= 2.3239"
+       },
+       {
+        "tex": "&\\approx 2.3\\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 2.3\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q9#(e)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the angle PSH",
+      "lines": [
+       {
+        "text": "$P$ is the incentre, so $[SP]$ bisects $\\angle HSG$."
+       },
+       {
+        "tex": "|\\angle PSH| &= \\frac{30.75}{2}"
+       },
+       {
+        "tex": "&= 15.375^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find |PS| using the right-angled triangle at the tangent point",
+      "lines": [
+       {
+        "text": "The radius $11.3$ is perpendicular to $[SH]$, so it is opposite $\\angle PSH$, and $|PS|$ is the hypotenuse."
+       },
+       {
+        "tex": "\\sin 15.375^\\circ &= \\frac{11.3}{|PS|}"
+       },
+       {
+        "tex": "|PS| &= \\frac{11.3}{\\sin 15.375^\\circ}"
+       },
+       {
+        "tex": "&= 42.62"
+       }
+      ]
+     },
+     {
+      "title": "Use the angle of elevation to find the pole height",
+      "lines": [
+       {
+        "text": "$[ST]$ is vertical and $|PS|$ is horizontal, so the angle at $P$ is in a right-angled triangle $PST$."
+       },
+       {
+        "tex": "\\tan 14^\\circ &= \\frac{|ST|}{|PS|}"
+       },
+       {
+        "tex": "|ST| &= 42.62 \\tan 14^\\circ"
+       },
+       {
+        "tex": "&= 10.626"
+       },
+       {
+        "tex": "&\\approx 10.6 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "10.6 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q7#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the angle at O in triangle ROP",
+      "lines": [
+       {
+        "text": "The angles in triangle $ROP$ add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle POR| &= 180 - 87 - 88"
+       },
+       {
+        "tex": "&= 5^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the sine rule to find |RO|",
+      "lines": [
+       {
+        "text": "$|RO|$ is opposite the $87^\\circ$ angle and $|RP| = 20$ is opposite the $5^\\circ$ angle."
+       },
+       {
+        "tex": "\\frac{|RO|}{\\sin 87^\\circ} &= \\frac{20}{\\sin 5^\\circ}"
+       },
+       {
+        "tex": "|RO| &= \\frac{20\\sin 87^\\circ}{\\sin 5^\\circ}"
+       },
+       {
+        "tex": "&= 229.16\\ \\text{m}"
+       }
+      ]
+     },
+     {
+      "title": "Use tangent in triangle ROH to find |OH|",
+      "lines": [
+       {
+        "text": "The angle of elevation at $R$ is $17^\\circ$, and $|OH|$ is opposite it."
+       },
+       {
+        "tex": "\\tan 17^\\circ &= \\frac{|OH|}{|RO|}"
+       },
+       {
+        "tex": "|OH| &= |RO| \\tan 17^\\circ"
+       },
+       {
+        "tex": "&= 229.16 \\times \\tan 17^\\circ"
+       },
+       {
+        "tex": "&\\approx 70\\ \\text{m}"
+       }
+      ]
+     }
+    ],
+    "final": "|OH| = 70\\ \\text{m}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q8#(c)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up an equation using the 22° triangle",
+      "lines": [
+       {
+        "text": "Let $y = h - 1.25$ be the height of the top of the tower above the level of Ally's eye."
+       },
+       {
+        "text": "In the right-angled triangle with hypotenuse $x = 25.5$, $y$ is opposite the $22^\\circ$ angle."
+       },
+       {
+        "tex": "\\sin 22^\\circ &= \\frac{y}{25.5}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $y$",
+      "lines": [
+       {
+        "tex": "y &= 25.5 \\sin 22^\\circ"
+       },
+       {
+        "tex": "&= 9.55\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Add 1.25 m to get the total height $h$",
+      "lines": [
+       {
+        "tex": "h &= y + 1.25"
+       },
+       {
+        "tex": "&= 9.55\\ldots + 1.25"
+       },
+       {
+        "tex": "&= 10.80\\ldots"
+       },
+       {
+        "tex": "&\\approx 10.8 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "h = 10.8 \\text{ m}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2016-higher-p2-q7#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the angle of elevation, 50°",
+     "2": "the flat distance |AC| = 1.95",
+     "3": "the height |AB|"
+    },
+    "steps": [
+     {
+      "ask": "The angle is at C, and the height is opposite it. Which ratio uses the opposite and adjacent sides?",
+      "title": "Use tan in the right-angled triangle BAC",
+      "lines": [
+       {
+        "text": "The angle of elevation is $\\hl{1}{\\angle BCA} = \\hl{1}{50^\\circ}$. $\\hl{3}{|AB|}$ is opposite it and $\\hl{2}{|AC|} = \\hl{2}{1.95}$ is adjacent."
+       },
+       {
+        "tex": "\\tan \\hl{1}{50^\\circ} &= \\frac{\\hl{3}{|AB|}}{\\hl{2}{1.95}}"
+       }
+      ]
+     },
+     {
+      "ask": "Rearrange the ratio to get the height on its own.",
+      "title": "Solve for AB",
+      "lines": [
+       {
+        "tex": "\\hl{3}{|AB|} &= \\hl{2}{1.95} \\tan \\hl{1}{50^\\circ}"
+       },
+       {
+        "tex": "&= \\hl{2}{1.95}(1.19175)"
+       },
+       {
+        "tex": "&= 2.3239"
+       },
+       {
+        "tex": "&\\approx 2.3\\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{|AB|} = 2.3\\text{ m}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q8#(d)",
+    "note": "Changed from the first problem: now the flat distance d is the unknown, so the ratio is rearranged to divide by the tangent. The answer is then converted from metres to kilometres. The triangle and the angle stay the same.",
+    "legend": {
+     "1": "the angle, 1.2°",
+     "2": "the flat distance d",
+     "3": "the height, 49 m"
+    },
+    "steps": [
+     {
+      "ask": "The 49 m is opposite the angle and d is adjacent. Which ratio links them?",
+      "title": "Set up the tangent ratio",
+      "lines": [
+       {
+        "text": "49 m is opposite the angle and $\\hl{2}{d}$ is adjacent. At first, $\\hl{2}{d}$ is in metres."
+       },
+       {
+        "tex": "\\tan \\hl{1}{1.2^\\circ} &= \\frac{\\hl{3}{49}}{\\hl{2}{d}}"
+       },
+       {
+        "tex": "\\hl{2}{d} &= \\frac{\\hl{3}{49}}{\\tan \\hl{1}{1.2^\\circ}}"
+       },
+       {
+        "tex": "\\hl{2}{d} &\\approx 2339.2 \\text{ m}"
+       }
+      ]
+     },
+     {
+      "ask": "The question wants kilometres, not metres. What do you divide by?",
+      "title": "Convert metres to kilometres",
+      "lines": [
+       {
+        "tex": "\\hl{2}{d} &= \\frac{2339.2}{1000}"
+       },
+       {
+        "tex": "\\hl{2}{d} &\\approx 2.34 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{d} = 2.34 \\text{ km}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q8#(c)(ii)",
+    "note": "Changed from the last problem: the 25.5 m line is now the slant (hypotenuse), so the sine ratio is used instead of tangent. The eye height of 1.25 m is then added to find the total height h.",
+    "legend": {
+     "1": "the angle, 22°",
+     "3": "the height above eye level, y",
+     "4": "the slant line x = 25.5"
+    },
+    "steps": [
+     {
+      "ask": "The 25.5 m line is the hypotenuse. Which ratio uses it and the side opposite the 22° angle?",
+      "title": "Set up an equation using the 22° triangle",
+      "lines": [
+       {
+        "text": "Let $\\hl{3}{y} = h - 1.25$ be the height of the top of the tower above the level of Ally's eye."
+       },
+       {
+        "text": "In the right-angled triangle with hypotenuse $\\hl{4}{x} = \\hl{4}{25.5}$, $\\hl{3}{y}$ is opposite the $\\hl{1}{22^\\circ}$ angle."
+       },
+       {
+        "tex": "\\sin \\hl{1}{22^\\circ} &= \\frac{\\hl{3}{y}}{\\hl{4}{25.5}}"
+       }
+      ]
+     },
+     {
+      "ask": "Solve for y, the height above eye level.",
+      "title": "Solve for $y$",
+      "lines": [
+       {
+        "tex": "\\hl{3}{y} &= \\hl{4}{25.5} \\sin \\hl{1}{22^\\circ}"
+       },
+       {
+        "tex": "&= 9.55\\ldots"
+       }
+      ]
+     },
+     {
+      "ask": "y is measured from Ally's eye. What must you add to get the total height h?",
+      "title": "Add 1.25 m to get the total height $h$",
+      "lines": [
+       {
+        "tex": "h &= \\hl{3}{y} + 1.25"
+       },
+       {
+        "tex": "&= 9.55\\ldots + 1.25"
+       },
+       {
+        "tex": "&= 10.80\\ldots"
+       },
+       {
+        "tex": "&\\approx 10.8 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "h = 10.8 \\text{ m}",
+    "graph": null
+   }
+  ]
+ }
+]
