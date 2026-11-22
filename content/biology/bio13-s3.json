@@ -44,11 +44,11 @@
     },
     {
       "h": "Buffers, foam, equilibration and the control",
-      "b": "Four ideas are used in every investigation: a buffer to hold pH steady, washing-up liquid to make the oxygen measurable, a waiting time so the mixture reaches the right temperature, and a control to prove the enzyme is responsible.",
+      "b": "Four ideas recur across the investigations: a buffer to hold pH steady, washing-up liquid to make the oxygen measurable in the foam methods, a waiting time so the mixture reaches the right temperature, and a control to prove the enzyme is responsible.",
       "points": [
         "A buffer is a solution that keeps the pH constant even when acids or alkalis are produced or added.",
         "A buffer at pH 7 (or at the enzyme's optimum) is added in every investigation except the pH investigation, so that pH is a controlled variable (kept the same each time).",
-        "A drop of washing-up liquid traps the oxygen released by catalase as a foam, so its volume can be read in a graduated cylinder; the same amount is added every time.",
+        "In the foam methods, a drop of washing-up liquid traps the oxygen released by catalase as a foam, so its volume can be read in a graduated cylinder; the same amount is added every time.",
         "Reaching temperature (equilibration): the enzyme and the substrate are placed in the same water bath, in separate containers, for about 5 minutes before they are mixed, so the reaction starts at the chosen temperature.",
         "A control in each investigation uses enzyme that has been boiled (denatured), or distilled water in place of the enzyme, with everything else the same.",
         "The control shows that the oxygen (or the loss of starch) is caused by the enzyme and not by the substrate breaking down on its own."
@@ -97,7 +97,7 @@
     },
     {
       "h": "Investigation: substrate concentration, results and explanation",
-      "b": "The results follow a typical curve: a steep rise, then a plateau. Each part has its own explanation, and the plateau is the part students most often get wrong.",
+      "b": "The results follow a typical curve: a steep rise, then a plateau. Each part has its own explanation, and the plateau is caused by saturation of the active sites, not by the enzyme being denatured or used up.",
       "points": [
         "Expected results: no oxygen at 0%; at low concentrations the rate rises steeply, roughly in proportion to concentration; at high concentrations it rises less and levels off into a plateau. The boiled-enzyme control gives little or no oxygen.",
         "The rise is explained by collisions: more substrate molecules in the same volume means more collisions with active sites (the part of the enzyme where the substrate binds) per second, so more enzyme–substrate complexes form and more product is made per minute.",
