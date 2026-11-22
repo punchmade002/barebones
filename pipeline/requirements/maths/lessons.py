@@ -251,12 +251,58 @@ def jobs():
     return {j['skill']['id']: j for f in sorted((WORK / 'in').glob('L*.json')) for j in json.loads(f.read_text())}
 
 
-def outputs():
-    """Lessons by skill: first-pass out/L*.json, replaced by fix-round fixed/F*.json where one exists."""
+def outputs(reviewed=True):
+    """Lessons by skill: first pass out/L*.json, replaced by fix-round fixed/F*.json, then by Sonnet-reviewed
+    reviewed/R*.json where the reviewer rewrote it (problems not null) and the rewrite passes check_lesson."""
     outs = {}
     for f in sorted((WORK / 'out').glob('L*.json')) + sorted((WORK / 'fixed').glob('F*.json')):
         outs.update({o['skill']: o for o in json.loads(f.read_text())})
+    if reviewed:
+        js = jobs()
+        for f in sorted((WORK / 'reviewed').glob('R*.json')):
+            for o in json.loads(f.read_text()):
+                if o.get('problems') and o['skill'] in js and not check_lesson(js[o['skill']], o):
+                    outs[o['skill']] = o
     return outs
+
+
+def review_pack(cap=55_000, most=10):
+    """Pack every lesson with its unused candidates into review/Rnn.json for a Sonnet reviewer (REVIEW.md)."""
+    outs, js = outputs(reviewed=False), jobs()
+    d = WORK / 'review'
+    d.mkdir(exist_ok=True)
+    (WORK / 'reviewed').mkdir(exist_ok=True)
+    batches, cur, size = [], [], 0
+    for sid, job in js.items():
+        used = {p['part'] for p in outs[sid]['problems']}
+        item = dict(skill=job['skill'], lesson=outs[sid]['problems'],
+                    other_candidates=[c for c in job['candidates'] if c['part'] not in used])
+        n = len(json.dumps(item, ensure_ascii=False))
+        if cur and (size + n > cap or len(cur) == most):
+            batches.append(cur)
+            cur, size = [], 0
+        cur.append(item)
+        size += n
+    batches.append(cur)
+    for i, b in enumerate(batches, 1):
+        (d / f'R{i:02}.json').write_text(json.dumps(b, ensure_ascii=False, indent=1))
+    print(f'{len(js)} lessons → {len(batches)} review batches in {d}')
+
+
+def review_report():
+    """Verdicts from reviewed/R*.json, and rewrites the checker rejected (those keep the earlier version)."""
+    js, verdicts, rejected = jobs(), {}, {}
+    for f in sorted((WORK / 'reviewed').glob('R*.json')):
+        for o in json.loads(f.read_text()):
+            verdicts[o['skill']] = o.get('verdict')
+            if o.get('problems'):
+                errs = check_lesson(js[o['skill']], o) if o['skill'] in js else ['unknown skill']
+                if errs:
+                    rejected[o['skill']] = errs
+    missing = [s for s in js if s not in verdicts]
+    from collections import Counter
+    print('verdicts', dict(Counter(verdicts.values())), '| rejected rewrites', len(rejected), '| not reviewed', len(missing))
+    return dict(rejected=rejected, missing=missing)
 
 
 def check():
@@ -332,4 +378,5 @@ def fix():
 
 
 if __name__ == '__main__':
-    {'pack': pack, 'check': check, 'assemble': assemble, 'fix': fix}[sys.argv[1]]()
+    {'pack': pack, 'check': check, 'assemble': assemble, 'fix': fix,
+     'review': review_pack, 'report': lambda: print(json.dumps(review_report(), indent=1))}[sys.argv[1]]()

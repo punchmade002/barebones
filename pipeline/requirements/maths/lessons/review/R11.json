@@ -1,0 +1,2408 @@
+[
+ {
+  "skill": {
+   "id": "stat-charts",
+   "title": "Draw bar, pie, line plot, histogram and stem-and-leaf",
+   "level": "JC",
+   "input": "data set",
+   "output": "correct graph"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(v)",
+    "note": null,
+    "legend": {
+     "1": "the angle of each sector",
+     "2": "the check total, 360°"
+    },
+    "steps": [
+     {
+      "ask": "Where does the first sector start, and which way do you turn the protractor?",
+      "title": "Draw the sectors one after another",
+      "lines": [
+       {
+        "text": "Start from the radius at the end of the renewable sector (the $\\hl{1}{22^\\circ}$ line)."
+       },
+       {
+        "text": "Using a protractor, measure each angle anticlockwise and draw a radius: oil $\\hl{1}{151^\\circ}$, solid fuel $\\hl{1}{47^\\circ}$, gas $\\hl{1}{86^\\circ}$, then electricity $\\hl{1}{54^\\circ}$."
+       },
+       {
+        "text": "The angles add to $22 + 151 + 47 + 86 + 54 = \\hl{2}{360^\\circ}$, so the last radius closes back onto the starting line."
+       },
+       {
+        "text": "Label each sector with its energy type."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pie chart with sectors } \\hl{1}{22^\\circ}, \\hl{1}{151^\\circ}, \\hl{1}{47^\\circ}, \\hl{1}{86^\\circ}, \\hl{1}{54^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(ii)",
+    "note": "What changed: the pie chart used angles, but this histogram uses the percentages directly as bar heights, with a fixed width and no gaps. What stays the same: the values come from the percentages in the table.",
+    "legend": {
+     "1": "the height of each bar, a percentage",
+     "3": "the width of each bar",
+     "4": "where the first bar starts"
+    },
+    "steps": [
+     {
+      "ask": "What must you know about each bar, and where does the first bar start?",
+      "title": "Draw a bar for each class",
+      "lines": [
+       {
+        "text": "Each bar has width $\\hl{3}{5}$ cm, starting at $\\hl{4}{145}$, with no gaps. The heights are the percentages from Table 2."
+       },
+       {
+        "text": "Heights: $\\hl{1}{3,\\ 9.6,\\ 16,\\ 22.4,\\ 25,\\ 16.2,\\ 5.8,\\ 2}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Histogram drawn}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q1#(a)",
+    "note": "The histogram had percentages to draw as bars. This time the data is a list of raw ages, so each age is split into a tens stem and a units leaf, and the check counts every value.",
+    "legend": {
+     "2": "the check total, 28 values"
+    },
+    "steps": [
+     {
+      "ask": "Which digit of each age is the stem, and which is the leaf?",
+      "title": "Sort the ages by their tens digit",
+      "lines": [
+       {
+        "text": "The stem is the tens digit and the leaf is the units digit. Go through the 28 ages in order and put each leaf on its stem."
+       },
+       {
+        "text": "Stem 1: 18, 19, 18. Stem 2: 21, 21, 22, 20. Stem 3: 32, 35, 33, 34, 39, 33, 34."
+       },
+       {
+        "text": "Stem 4: 41, 43, 42, 49, 43. Stem 5: 57, 54, 58, 55, 57. Stem 6: 64, 63, 65, 63."
+       }
+      ]
+     },
+     {
+      "ask": "Once every leaf sits on its stem, how should each row look before you check the count?",
+      "title": "Write each stem in increasing order",
+      "lines": [
+       {
+        "text": "Put the leaves in order, smallest first, on each row."
+       },
+       {
+        "text": "Check: $3+4+7+5+5+4 = \\hl{2}{28}$ leaves, one for every employee."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{See the completed diagram}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Subtract the other sources from 100%",
+      "lines": [
+       {
+        "text": "The percentages for Denmark add up to 100. Add the five given values."
+       },
+       {
+        "tex": "r &= 100 - (31 + 11 + 13 + 12 + 13)"
+       },
+       {
+        "tex": "r &= 100 - 80"
+       },
+       {
+        "tex": "r &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "20\\%"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the renewable column with Ireland",
+      "lines": [
+       {
+        "text": "Ireland used $6\\%$ renewable energy. Look for countries below 6: Cyprus 5, Luxembourg 4, Malta 2, Netherlands 4."
+       },
+       {
+        "text": "Bulgaria (8) and France (7) are above 6, so they do not count. Denmark is also excluded because its renewable value from (b)(i) is 20, which is above 6."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cyprus, Luxembourg, Malta, Netherlands}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(b)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find a country with 0% in the gas column",
+      "lines": [
+       {
+        "text": "Cyprus and Malta both show 0 for gas, so either is correct."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cyprus (or Malta)}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-correlation-calc",
+   "title": "Calculate the correlation coefficient (calculator)",
+   "level": "HL",
+   "input": "bivariate data",
+   "output": "r"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(a)",
+    "note": null,
+    "legend": {
+     "1": "the x values, speeds",
+     "2": "the y values, fuel consumption",
+     "3": "the correlation coefficient, r"
+    },
+    "steps": [
+     {
+      "ask": "Which values go in as x and which as y, before the calculator gives r?",
+      "title": "Use the statistics mode on the calculator",
+      "lines": [
+       {
+        "text": "Enter the speeds as the $\\hl{1}{x}$ values and the fuel consumption as the $\\hl{2}{y}$ values."
+       },
+       {
+        "text": "Read off the correlation coefficient $\\hl{3}{r}$."
+       },
+       {
+        "tex": "\\hl{3}{r} &= \\hl{3}{-0.957}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{r} = \\hl{3}{-0.957}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q1#(b), (c)",
+    "note": "What changed: the data is about two swim tests, and r is positive, so the answer must also be explained in words. What stays the same: enter the two lists in statistics mode and read r.",
+    "legend": {
+     "1": "the x values, initial test",
+     "2": "the y values, re-test",
+     "3": "the correlation coefficient, r"
+    },
+    "steps": [
+     {
+      "ask": "Looking at each student, does everyone improve, and are the gains the same size?",
+      "title": "Compare the two tests",
+      "lines": [
+       {
+        "text": "Every student swam further in the re-test than in the initial test, so everyone improved."
+       },
+       {
+        "text": "The improvements were not equal: 22 m rose by 3 m, but 61 m rose by 289 m."
+       },
+       {
+        "text": "The points curve upwards, not along a straight line, so the stronger swimmers improved by much more than the weaker ones."
+       }
+      ]
+     },
+     {
+      "ask": "Which values go in as x and which as y, and what does the calculator give you?",
+      "title": "Find r with the calculator",
+      "lines": [
+       {
+        "text": "Enter the initial test distances as $\\hl{1}{x}$ and the re-test distances as $\\hl{2}{y}$ in statistics mode, then read the correlation coefficient."
+       },
+       {
+        "tex": "r &= \\hl{3}{0.91451\\ldots}"
+       },
+       {
+        "tex": "r &\\approx \\hl{3}{0.9145}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The better swimmers improved more;}\\; r = \\hl{3}{0.9145}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(v), (b)",
+    "note": "What changed: the calculator is replaced by the formula, with the sums worked out by hand. What stays the same: r measures the same thing, found from the same data points.",
+    "legend": {
+     "1": "the x values, city",
+     "2": "the y values, motorway",
+     "3": "the correlation coefficient, r"
+    },
+    "steps": [
+     {
+      "ask": "Which letter is city and which is motorway, and which sums does the formula need?",
+      "title": "Find the sums needed",
+      "lines": [
+       {
+        "text": "Let $\\hl{1}{x}$ be city and $\\hl{2}{y}$ be motorway, with $n = 8$ cars."
+       },
+       {
+        "tex": "\\sum x &= 172, \\quad \\sum y = 257"
+       },
+       {
+        "tex": "\\sum xy &= 5722, \\quad \\sum x^2 = 3900, \\quad \\sum y^2 = 8461"
+       }
+      ]
+     },
+     {
+      "ask": "What do you need in the top of the formula before you can divide?",
+      "title": "Evaluate the top of the formula",
+      "lines": [
+       {
+        "text": "$r = \\dfrac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}$"
+       },
+       {
+        "tex": "n\\sum xy - \\sum x \\sum y &= 8(5722) - (172)(257)"
+       },
+       {
+        "tex": "&= 45776 - 44204"
+       },
+       {
+        "tex": "&= 1572"
+       }
+      ]
+     },
+     {
+      "ask": "The bottom has two brackets under one square root. What do you work out inside each?",
+      "title": "Evaluate the bottom of the formula",
+      "lines": [
+       {
+        "tex": "n\\sum x^2 - (\\sum x)^2 &= 8(3900) - 172^2"
+       },
+       {
+        "tex": "&= 1616"
+       },
+       {
+        "tex": "n\\sum y^2 - (\\sum y)^2 &= 8(8461) - 257^2"
+       },
+       {
+        "tex": "&= 1639"
+       }
+      ]
+     },
+     {
+      "ask": "Divide the top by the square root. What do you get, and how many decimal places?",
+      "title": "Calculate r",
+      "lines": [
+       {
+        "tex": "r &= \\hl{3}{\\frac{1572}{\\sqrt{1616 \\times 1639}}}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.9659\\ldots}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.966}"
+       }
+      ]
+     },
+     {
+      "ask": "Why would a straight-line measure give a value close to 0 for a curved pattern?",
+      "title": "Explain why r can be close to 0 in part (b)",
+      "lines": [
+       {
+        "text": "The correlation coefficient measures how well the points fit a straight line. These points follow a quadratic (U-shaped) curve, which is symmetrical, so no straight line fits them and $r_{FS}$ is close to 0."
+       }
+      ]
+     }
+    ],
+    "final": "r = \\hl{3}{0.966};\\ \\text{correlation measures linear relationships, and this data is quadratic}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2023-higher-p2-q5#(a)(i), (ii), (iii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "(i) List the red cubes and find their total",
+      "lines": [
+       {
+        "text": "Red cubes per trial (A to G): $0, 3, 2, 2, 4, 5, 1$."
+       },
+       {
+        "tex": "\\sum x &= 0 + 3 + 2 + 2 + 4 + 5 + 1"
+       },
+       {
+        "tex": "&= 17"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the mean",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{\\sum x}{n} = \\frac{17}{7}"
+       },
+       {
+        "tex": "&= 2.42\\ldots"
+       },
+       {
+        "tex": "&= 2.4"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the sum of the squares of the red values",
+      "lines": [
+       {
+        "tex": "\\sum x^2 &= 0^2 + 3^2 + 2^2 + 2^2 + 4^2 + 5^2 + 1^2"
+       },
+       {
+        "tex": "&= 0 + 9 + 4 + 4 + 16 + 25 + 1"
+       },
+       {
+        "tex": "&= 59"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the variance",
+      "lines": [
+       {
+        "text": "Use $\\sigma^2 = \\dfrac{\\sum x^2}{n} - \\bar{x}^2$."
+       },
+       {
+        "tex": "\\sigma^2 &= \\frac{59}{7} - \\left(\\frac{17}{7}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{413}{49} - \\frac{289}{49}"
+       },
+       {
+        "tex": "&= \\frac{124}{49}"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the standard deviation",
+      "lines": [
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{124}{49}}"
+       },
+       {
+        "tex": "&= 1.59\\ldots"
+       },
+       {
+        "tex": "&= 1.6"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Set up the correlation calculation",
+      "lines": [
+       {
+        "text": "Let $x$ be the red cubes and $y$ the green cubes, with $n = 7$. Green cubes per trial: $4, 2, 0, 3, 0, 0, 2$."
+       },
+       {
+        "tex": "\\sum y &= 4 + 2 + 0 + 3 + 0 + 0 + 2"
+       },
+       {
+        "tex": "&= 11"
+       },
+       {
+        "tex": "\\sum y^2 &= 16 + 4 + 0 + 9 + 0 + 0 + 4"
+       },
+       {
+        "tex": "&= 33"
+       },
+       {
+        "tex": "\\sum xy &= 0(4) + 3(2) + 2(0) + 2(3) + 4(0) + 5(0) + 1(2)"
+       },
+       {
+        "tex": "&= 0 + 6 + 0 + 6 + 0 + 0 + 2"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Substitute into the correlation formula",
+      "lines": [
+       {
+        "text": "Use $\\sum x = 17$, $\\sum x^2 = 59$, $\\sum y = 11$, $\\sum y^2 = 33$, $\\sum xy = 14$."
+       },
+       {
+        "tex": "r &= \\frac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}"
+       },
+       {
+        "tex": "&= \\frac{7(14) - (17)(11)}{\\sqrt{\\left(7(59) - 17^2\\right)\\left(7(33) - 11^2\\right)}}"
+       },
+       {
+        "tex": "&= \\frac{98 - 187}{\\sqrt{(413 - 289)(231 - 121)}}"
+       },
+       {
+        "tex": "&= \\frac{-89}{\\sqrt{124 \\times 110}}"
+       },
+       {
+        "tex": "&= \\frac{-89}{\\sqrt{13640}}"
+       },
+       {
+        "tex": "&= -0.76204\\ldots"
+       },
+       {
+        "tex": "&= -0.762"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Explain why the correlation is negative",
+      "lines": [
+       {
+        "text": "Each trial picks exactly $5$ cubes, so the red, green and blue counts always add to $5$."
+       },
+       {
+        "text": "If a trial has more red cubes, there is less room for green cubes, so fewer green cubes are likely."
+       },
+       {
+        "text": "As the number of red cubes increases, the number of green cubes tends to decrease, so the correlation coefficient is negative."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{mean} = 2.4, \\quad \\sigma = 1.6, \\quad r = -0.762"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-grouped-mean",
+   "title": "Estimate the mean of grouped data",
+   "level": "OL",
+   "input": "grouped frequency table",
+   "output": "mean via mid-interval values"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the mid-interval value, x",
+     "2": "the frequency, f",
+     "3": "the sum of fx",
+     "4": "the sum of f, the total frequency"
+    },
+    "steps": [
+     {
+      "ask": "What is the middle value of a class that runs from 145 to 150?",
+      "title": "Find the mid-interval values",
+      "lines": [
+       {
+        "text": "The mid-interval value is halfway between the ends of each class, e.g. $\\frac{145+150}{2} = \\hl{1}{147.5}$."
+       },
+       {
+        "tex": "\\hl{1}{x} &= 147.5, 152.5, 157.5, 162.5, 167.5, 172.5, 177.5, 182.5"
+       }
+      ]
+     },
+     {
+      "ask": "What do you do with each frequency and its mid-value before you add anything?",
+      "title": "Multiply each frequency by its mid-value",
+      "lines": [
+       {
+        "tex": "\\hl{2}{15} \\times \\hl{1}{147.5} &= 2212.5"
+       },
+       {
+        "tex": "\\hl{2}{48} \\times \\hl{1}{152.5} &= 7320"
+       },
+       {
+        "tex": "\\hl{2}{80} \\times \\hl{1}{157.5} &= 12600"
+       },
+       {
+        "tex": "\\hl{2}{112} \\times \\hl{1}{162.5} &= 18200"
+       },
+       {
+        "tex": "\\hl{2}{125} \\times \\hl{1}{167.5} &= 20937.5"
+       },
+       {
+        "tex": "\\hl{2}{81} \\times \\hl{1}{172.5} &= 13972.5"
+       },
+       {
+        "tex": "\\hl{2}{29} \\times \\hl{1}{177.5} &= 5147.5"
+       },
+       {
+        "tex": "\\hl{2}{10} \\times \\hl{1}{182.5} &= 1825"
+       }
+      ]
+     },
+     {
+      "ask": "Which two totals do you need before you can divide?",
+      "title": "Add up the products and the frequencies",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\sum fx} &= 82215"
+       },
+       {
+        "tex": "\\hl{4}{\\sum f} &= 500"
+       }
+      ]
+     },
+     {
+      "ask": "Which total goes on top and which on the bottom to get the mean?",
+      "title": "Divide to find the mean",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{\\sum fx}{\\sum f}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{3}{82215}}{\\hl{4}{500}}"
+       },
+       {
+        "tex": "&= 164.43 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "164.43 \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q7#(a)(iv)",
+    "note": "What changed: the frequencies are percentages rather than counts, so they add to 100 and the total is divided by 100. What stays the same: each class is replaced by its mid-value, and the products are added.",
+    "legend": {
+     "1": "the mid-interval value, x",
+     "2": "the percentage (the frequency)",
+     "3": "the sum of fx"
+    },
+    "steps": [
+     {
+      "ask": "How do you find the middle of a class that runs from 15 to 25?",
+      "title": "Find the mid-interval value of each group",
+      "lines": [
+       {
+        "text": "Mid-value = (lower end + upper end) $\\div 2$."
+       },
+       {
+        "tex": "\\frac{15 + 25}{2} &= \\hl{1}{20}"
+       },
+       {
+        "tex": "\\frac{25 + 35}{2} &= \\hl{1}{30}"
+       },
+       {
+        "tex": "\\frac{35 + 45}{2} &= \\hl{1}{40}"
+       },
+       {
+        "tex": "\\frac{45 + 55}{2} &= \\hl{1}{50}"
+       },
+       {
+        "tex": "\\frac{55 + 65}{2} &= \\hl{1}{60}"
+       }
+      ]
+     },
+     {
+      "ask": "Each class has a percentage and a mid-value. What do you do with each pair, and what do you divide the total by?",
+      "title": "Multiply each mid-value by its percentage and add",
+      "lines": [
+       {
+        "text": "The percentages add to 100, so divide the total by 100."
+       },
+       {
+        "tex": "\\text{Mean} &= \\frac{(\\hl{2}{24} \\times \\hl{1}{20}) + (\\hl{2}{27} \\times \\hl{1}{30}) + (\\hl{2}{25} \\times \\hl{1}{40}) + (\\hl{2}{16} \\times \\hl{1}{50}) + (\\hl{2}{8} \\times \\hl{1}{60})}{100}"
+       },
+       {
+        "tex": "&= \\frac{480 + 810 + 1000 + 800 + 480}{100}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{3}{3570}}{100}"
+       },
+       {
+        "tex": "&= 35.7"
+       }
+      ]
+     }
+    ],
+    "final": "35.7 \\text{ years}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(c)",
+    "note": "What changed: the frequencies are counts again, but the mean is given and one frequency, k, is unknown. What stays the same: each mid-value is multiplied by its frequency, and the mean is the sum of fx over the sum of f.",
+    "legend": {
+     "1": "the mid-interval value, x",
+     "2": "the frequency, here the unknown k",
+     "3": "the sum of fx",
+     "4": "the sum of f, the total frequency"
+    },
+    "steps": [
+     {
+      "ask": "What do you do with the two ends of each class to get its middle?",
+      "title": "Find the mid-interval value of each class",
+      "lines": [
+       {
+        "text": "Add the ends of each interval and halve: $24$–$30$ gives $\\hl{1}{27}$, $30$–$36$ gives $\\hl{1}{33}$, $36$–$42$ gives $\\hl{1}{39}$."
+       },
+       {
+        "text": "$42$–$48$ gives $\\hl{1}{45}$, $48$–$54$ gives $\\hl{1}{51}$, $54$–$60$ gives $\\hl{1}{57}$."
+       }
+      ]
+     },
+     {
+      "ask": "One frequency is unknown. How do you write it, and what do you multiply it by?",
+      "title": "Find the sum of (mid-value × frequency)",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\sum fx} &= 27(4) + 33(5) + 39(9) + 45(\\hl{2}{k}) + 51(4) + 57(2)"
+       },
+       {
+        "tex": "&= 108 + 165 + 351 + 45k + 204 + 114"
+       },
+       {
+        "tex": "&= \\hl{3}{942 + 45k}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you add up to get the total number of people?",
+      "title": "Find the total number of people",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\sum f} &= 4 + 5 + 9 + \\hl{2}{k} + 4 + 2"
+       },
+       {
+        "tex": "&= \\hl{4}{k + 24}"
+       }
+      ]
+     },
+     {
+      "ask": "The mean is given. How does that turn into an equation in k?",
+      "title": "Set mean = 40.4 and solve for k",
+      "lines": [
+       {
+        "text": "The mean is $\\hl{3}{\\sum fx}$ divided by $\\hl{4}{\\sum f}$."
+       },
+       {
+        "tex": "\\frac{\\hl{3}{942 + 45k}}{\\hl{4}{k + 24}} &= 40.4"
+       },
+       {
+        "tex": "942 + 45k &= 40.4(k + 24)"
+       },
+       {
+        "tex": "942 + 45k &= 40.4k + 969.6"
+       },
+       {
+        "tex": "45k - 40.4k &= 969.6 - 942"
+       },
+       {
+        "tex": "4.6k &= 27.6"
+       },
+       {
+        "tex": "\\hl{2}{k} &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{k} = 6",
+    "graph": null
+   }
+  ],
+  "other_candidates": []
+ },
+ {
+  "skill": {
+   "id": "stat-line-best-fit",
+   "title": "Draw a line of best fit by eye and predict",
+   "level": "HL",
+   "input": "scatter plot",
+   "output": "line, equation, prediction"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(b)",
+    "note": null,
+    "legend": {
+     "1": "a point the line passes through",
+     "2": "the slope"
+    },
+    "steps": [
+     {
+      "ask": "Each point is a (speed, fuel) pair. Which value goes across the page and which goes up?",
+      "title": "Plot the seven points",
+      "lines": [
+       {
+        "text": "Each point is (speed, fuel consumption): (40, 21), (48, 16), (56, 18), (64, 16), (88, 13), (96, 11), (112, 9)."
+       }
+      ]
+     },
+     {
+      "ask": "Where should the line go so the points balance on each side of it?",
+      "title": "Draw the line of best fit by eye",
+      "lines": [
+       {
+        "text": "The points slope downward, with about as many above the line as below."
+       },
+       {
+        "text": "The mean point is $\\hl{1}{(72,\\ 14.9)}$, and the slope is about $\\hl{2}{-0.15}$, so the line runs from about $\\hl{1}{(40,\\ 19.7)}$ to $\\hl{1}{(112,\\ 8.9)}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Line of best fit drawn through the plotted points}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(i), (ii)",
+    "note": "What changed: the points are cars with city and motorway values, and they rise from left to right rather than fall. What stays the same: plot each pair, then draw one straight line through the middle by eye.",
+    "legend": {
+     "1": "a point the line passes through"
+    },
+    "steps": [
+     {
+      "ask": "Car G has a city value and a motorway value. Which one goes across the page?",
+      "title": "Plot car G",
+      "lines": [
+       {
+        "text": "Car G has city 30 and motorway 40, so plot the point $(30, 40)$ and label it G."
+       }
+      ]
+     },
+     {
+      "ask": "Car H is plotted the same way. Where does it sit compared with car G?",
+      "title": "Plot car H",
+      "lines": [
+       {
+        "text": "Car H has city 17 and motorway 30, so plot the point $(17, 30)$ and label it H."
+       }
+      ]
+     },
+     {
+      "ask": "Where should one straight line go so that points sit on both sides of it?",
+      "title": "Draw the line of best fit by eye",
+      "lines": [
+       {
+        "text": "Draw one straight line through the middle of the points, with some points above it and some below, rising from left to right."
+       },
+       {
+        "text": "The line shown passes through $\\hl{1}{(20, 31)}$ and $\\hl{1}{(50, 61)}$."
+       }
+      ]
+     }
+    ],
+    "final": "G(30, 40),\\ H(17, 30)\\text{ and a line of best fit}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(iii), (iv)",
+    "note": "What changed: the line is now used to predict, not drawn. What stays the same: the same line, read by going across and then along the axes.",
+    "legend": {
+     "3": "a value read off the line"
+    },
+    "steps": [
+     {
+      "ask": "Starting from a city value of 20, which way do you go to reach the line, and which axis do you read?",
+      "title": "Estimate the motorway value for K",
+      "lines": [
+       {
+        "text": "K has city 20. Go up from 20 on the city axis to the line of best fit, then across to the motorway axis. This reads about 31."
+       }
+      ]
+     },
+     {
+      "ask": "Starting from a motorway value of 60, which way do you go to reach the line?",
+      "title": "Estimate the city value for L",
+      "lines": [
+       {
+        "text": "L has motorway 60. Go across from 60 on the motorway axis to the line of best fit, then down to the city axis. This reads about 49."
+       }
+      ]
+     },
+     {
+      "ask": "Is each value inside the range of the data, or beyond it?",
+      "title": "Decide which estimate to trust",
+      "lines": [
+       {
+        "text": "K is more reliable. A city value of 20 lies inside the range of the data (15 to 30), so the estimate is interpolation."
+       },
+       {
+        "text": "L is well beyond all of the given data points, so the line is being extended into a region with no evidence (extrapolation)."
+       }
+      ]
+     }
+    ],
+    "final": "K \\approx \\hl{3}{31},\\ L \\approx \\hl{3}{49};\\ \\text{more confident in K, as L is well beyond the data}",
+    "graph": null
+   }
+  ],
+  "other_candidates": []
+ },
+ {
+  "skill": {
+   "id": "stat-quartiles-iqr",
+   "title": "Find quartiles and the interquartile range",
+   "level": "OL",
+   "input": "data set",
+   "output": "Q₁, Q₂, Q₃, IQR"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q1#(b)",
+    "note": null,
+    "legend": {
+     "2": "the lower quartile, Q₁",
+     "3": "the upper quartile, Q₃",
+     "4": "the interquartile range"
+    },
+    "steps": [
+     {
+      "ask": "The values are already in order. How many go in the lower half, and which ones?",
+      "title": "Split the 12 ranked values into a lower and upper half",
+      "lines": [
+       {
+        "text": "There are 12 values, so the lower half is the first 6: $42, 64, 93, 94, 114, 114$."
+       }
+      ]
+     },
+     {
+      "ask": "Q1 is a median. For six values, which two sit in the middle?",
+      "title": "Find Q1 as the median of the lower half",
+      "lines": [
+       {
+        "text": "The median of 6 values is the mean of the 3rd and 4th values: $93$ and $94$."
+       },
+       {
+        "tex": "\\hl{2}{Q_1} &= \\frac{93+94}{2}"
+       },
+       {
+        "tex": "&= \\frac{187}{2}"
+       },
+       {
+        "tex": "&= \\hl{2}{93.5} \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "ask": "The IQR measures the middle half. Which two quartiles do you subtract?",
+      "title": "Subtract to get the interquartile range",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{IQR}} &= \\hl{3}{Q_3} - \\hl{2}{Q_1}"
+       },
+       {
+        "tex": "&= \\hl{3}{183} - \\hl{2}{93.5}"
+       },
+       {
+        "tex": "&= \\hl{4}{89.5} \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{Q_1} = \\hl{2}{93.5} \\text{ mm}, \\quad \\hl{4}{\\text{IQR}} = \\hl{4}{89.5} \\text{ mm}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(a)(i), (ii)",
+    "note": "What changed: one age, x, is missing, so the median is used first to find it. What stays the same: each quartile is the median of a half, and the IQR is Q3 minus Q1.",
+    "legend": {
+     "1": "the median",
+     "2": "the lower quartile, Q₁",
+     "3": "the upper quartile, Q₃",
+     "4": "the interquartile range"
+    },
+    "steps": [
+     {
+      "ask": "With 12 ages, which two values does the median come from?",
+      "title": "Write the median using the middle two values",
+      "lines": [
+       {
+        "text": "There are 12 ages, so the median is the mean of the 6th and 7th values. These are $x$ and $18$."
+       },
+       {
+        "tex": "\\hl{1}{\\text{Median}} &= \\frac{x + 18}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you get x on its own from this fraction?",
+      "title": "Set the median equal to 17.5 and solve",
+      "lines": [
+       {
+        "tex": "\\frac{x + 18}{2} &= \\hl{1}{17.5}"
+       },
+       {
+        "tex": "x + 18 &= 35"
+       },
+       {
+        "tex": "x &= 17"
+       }
+      ]
+     },
+     {
+      "ask": "Which two of the top six ages give the upper quartile?",
+      "title": "Find Q3 from the top six ages",
+      "lines": [
+       {
+        "text": "With $x = 17$ the top six ages are $18, 18, 19, 22, 25, 30$. $\\hl{3}{Q_3}$ is the median of these, the mean of the 3rd and 4th."
+       },
+       {
+        "tex": "\\hl{3}{Q_3} &= \\frac{19 + 22}{2}"
+       },
+       {
+        "tex": "&= \\frac{41}{2}"
+       },
+       {
+        "tex": "&= \\hl{3}{20.5}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the IQR made from, and which two quartiles give it?",
+      "title": "Work out the interquartile range",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{IQR}} &= \\hl{3}{Q_3} - \\hl{2}{Q_1}"
+       },
+       {
+        "tex": "&= \\hl{3}{20.5} - \\hl{2}{13}"
+       },
+       {
+        "tex": "&= \\hl{4}{7.5}"
+       }
+      ]
+     }
+    ],
+    "final": "x = 17, \\quad \\hl{4}{\\text{IQR}} = \\hl{4}{7.5}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(e)",
+    "note": "What changed: all eight values are unknown, so the median, both quartiles, the mean and the range each give an equation to solve in turn. What stays the same: the quartiles are medians of halves, and the IQR is Q3 minus Q1.",
+    "legend": {
+     "1": "the median",
+     "2": "the lower quartile, Q₁",
+     "3": "the upper quartile, Q₃",
+     "4": "the interquartile range"
+    },
+    "steps": [
+     {
+      "ask": "With 8 numbers, which two values give the median?",
+      "title": "Use the median",
+      "lines": [
+       {
+        "text": "With 8 numbers the median is the mean of $D$ and $E$."
+       },
+       {
+        "tex": "\\frac{D + E}{2} &= \\hl{1}{12.5}"
+       },
+       {
+        "tex": "D + E &= 25"
+       }
+      ]
+     },
+     {
+      "ask": "Which four values does the lower quartile come from, and which two are its middle?",
+      "title": "Use the lower quartile",
+      "lines": [
+       {
+        "text": "The lower quartile is the median of $A, B, C, D$, which is the mean of $B$ and $C$."
+       },
+       {
+        "tex": "\\frac{B + C}{2} &= \\hl{2}{7.5}"
+       },
+       {
+        "tex": "B + C &= 15"
+       }
+      ]
+     },
+     {
+      "ask": "The IQR links the two quartiles. How can it help you find the upper quartile?",
+      "title": "Use the interquartile range",
+      "lines": [
+       {
+        "text": "The upper quartile is the mean of $F$ and $G$."
+       },
+       {
+        "tex": "\\hl{3}{Q_3} - \\hl{2}{7.5} &= \\hl{4}{12}"
+       },
+       {
+        "tex": "\\hl{3}{Q_3} &= \\hl{3}{19.5}"
+       },
+       {
+        "tex": "\\frac{F + G}{2} &= \\hl{3}{19.5}"
+       },
+       {
+        "tex": "F + G &= 39"
+       },
+       {
+        "tex": "F + 23 &= 39"
+       },
+       {
+        "tex": "F &= 16"
+       }
+      ]
+     },
+     {
+      "ask": "The mean is given. What total do all eight values add up to?",
+      "title": "Use the mean",
+      "lines": [
+       {
+        "tex": "A + B + C + D + E + F + G + H &= 8 \\times 13.5"
+       },
+       {
+        "tex": "A + B + C + D + E + F + G + H &= 108"
+       },
+       {
+        "tex": "A + H + 15 + 25 + 16 + 23 &= 108"
+       },
+       {
+        "tex": "A + H + 79 &= 108"
+       },
+       {
+        "tex": "A + H &= 29"
+       }
+      ]
+     },
+     {
+      "ask": "Which two letters are the largest and smallest, and what does their range say?",
+      "title": "Use the range",
+      "lines": [
+       {
+        "tex": "H - A &= 21"
+       },
+       {
+        "tex": "2H &= 29 + 21"
+       },
+       {
+        "tex": "H &= 25"
+       },
+       {
+        "tex": "A &= 29 - 25"
+       },
+       {
+        "tex": "A &= 4"
+       }
+      ]
+     },
+     {
+      "ask": "D and E add to 25. Which pairs fit the ordering rules?",
+      "title": "Split D + E and B + C",
+      "lines": [
+       {
+        "text": "$D + E = 25$ with $D < E$ and a gap of at least 2: $D = 12, E = 13$ fails (gap 1) and $D = 10, E = 15$ fails because $F = 16$ is only 1 above 15. So $D = 11$, $E = 14$."
+       },
+       {
+        "text": "$B + C = 15$ with $C \\le 9$ (a gap of at least 2 below $D = 11$) and $B \\ge 6$ (a gap of at least 2 above $A = 4$): $B = 6$, $C = 9$. (B = 7, C = 8 is not allowed because $C$ must be at least 2 more than $B$, so $C \\ge B + 2$. With $B + C = 15$ this gives $B \\le 6.5$, and with $B \\ge 6$ this forces $B = 6$.)"
+       }
+      ]
+     },
+     {
+      "ask": "All eight values are now known. Which box does each one go in?",
+      "title": "Complete the boxes",
+      "lines": [
+       {
+        "text": "The completed boxes are shown in the figure."
+       }
+      ]
+     }
+    ],
+    "final": "A=4,\\ B=6,\\ C=9,\\ D=11,\\ E=14,\\ F=16,\\ G=23,\\ H=25",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the smallest and largest possible heights",
+      "lines": [
+       {
+        "text": "The tallest girl is at most $185$ cm and the shortest is at least $145$ cm."
+       },
+       {
+        "tex": "\\text{Range} &= 185 - 145"
+       },
+       {
+        "tex": "&= 40 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "40 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Range = highest minus lowest",
+      "lines": [
+       {
+        "text": "Highest rainfall is 155 mm (2003). Lowest is 47 mm (2006)."
+       },
+       {
+        "tex": "\\text{Range} &= 155 - 47"
+       },
+       {
+        "tex": "&= 108 \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "title": "Year of highest rainfall",
+      "lines": [
+       {
+        "text": "The largest rainfall value, 155 mm, is in 2003."
+       }
+      ]
+     },
+     {
+      "title": "Year of least sunshine",
+      "lines": [
+       {
+        "text": "The smallest sunshine value, 124 hours, is in 2002."
+       }
+      ]
+     }
+    ],
+    "final": "108 \\text{ mm}, \\ 2003, \\ 2002"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the maximum, minimum and range for Fish",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 177"
+       },
+       {
+        "tex": "\\text{Minimum} &= 59"
+       },
+       {
+        "tex": "\\text{Range} &= 177 - 59"
+       },
+       {
+        "tex": "&= 118"
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum, minimum and range for Milk, Cheese and Eggs",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 175"
+       },
+       {
+        "tex": "\\text{Minimum} &= 65"
+       },
+       {
+        "tex": "\\text{Range} &= 175 - 65"
+       },
+       {
+        "tex": "&= 110"
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum, minimum and range for Fruits, Vegetables and Potatoes",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 172"
+       },
+       {
+        "tex": "\\text{Minimum} &= 48"
+       },
+       {
+        "tex": "\\text{Range} &= 172 - 48"
+       },
+       {
+        "tex": "&= 124"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Fish } 177, 59, 118;\\ \\text{Milk } 175, 65, 110;\\ \\text{Fruit } 172, 48, 124"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-scatter-correlation",
+   "title": "Read scatter plots and correlation",
+   "level": "OL",
+   "input": "bivariate data/plot",
+   "output": "strength and direction; match r to plot; correlation ≠ causation"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the value of r chosen",
+     "2": "values ruled out by the plot"
+    },
+    "steps": [
+     {
+      "ask": "Which way do the points run, and how close are they to a straight line? What does that rule out?",
+      "title": "Judge the strength and direction from the scatter plot",
+      "lines": [
+       {
+        "text": "The points rise from bottom left to top right, so the correlation is positive. This rules out $\\hl{2}{-0.6}$."
+       },
+       {
+        "text": "They lie close to a straight line, so the correlation is strong. This rules out $\\hl{2}{0.2}$."
+       },
+       {
+        "text": "So $\\hl{1}{0.9}$ is the best choice."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{0.9}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(iii)",
+    "note": "The context changes from rainfall and heights to dogs' weights on two days, and there is one more wrong value to rule out. The method is the same: direction first, then strength, then choose r.",
+    "legend": {
+     "1": "the value of r chosen",
+     "2": "values ruled out by the plot"
+    },
+    "steps": [
+     {
+      "ask": "Do the points rise or fall, and how closely do they follow a line? Which values of r does that rule out?",
+      "title": "Pick the value of r from the data",
+      "lines": [
+       {
+        "text": "Dogs that are heavier on Day X tend to be heavier on Day Y, so the points rise from left to right."
+       },
+       {
+        "text": "So the correlation is positive, which rules out $\\hl{2}{-0.9}$ and $\\hl{2}{-0.2}$."
+       },
+       {
+        "text": "The points lie close to a straight line, so the correlation is strong. $\\hl{2}{0.2}$ is too weak, so $\\hl{1}{r = 0.9}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{r = 0.9}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(f)(ii)",
+    "note": "The direction flips: sunshine falls as rainfall rises, so r is negative and the answer is -0.6. There is only one value to tick, so no values are ruled out this time.",
+    "legend": {
+     "1": "the value of r chosen"
+    },
+    "steps": [
+     {
+      "ask": "As rainfall goes up, which way does sunshine go, and so what sign must r have?",
+      "title": "Read the pattern of the points",
+      "lines": [
+       {
+        "text": "As rainfall goes up, sunshine tends to go down, so the correlation is negative."
+       },
+       {
+        "text": "The points are fairly close to a downward line, so it is moderate to strong. Tick $\\hl{1}{-0.6}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{-0.6}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(f)(i)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Plot each remaining (rainfall, sunshine) pair",
+      "lines": [
+       {
+        "text": "Each year gives one point: rainfall across, sunshine up. The four plotted points are 2001 to 2004."
+       },
+       {
+        "text": "2005: (94, 173). 2006: (47, 239). 2007: (149, 159)."
+       },
+       {
+        "text": "2008: (134, 168). 2009: (94, 228). 2010: (84, 205)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{six points plotted as shown}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(b)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Plot each male as (height, arm span)",
+      "lines": [
+       {
+        "text": "Height goes on the horizontal axis and arm span on the vertical axis."
+       },
+       {
+        "text": "The eight males are $(168, 169)$, $(147, 150)$, $(134, 121)$, $(177, 176)$, $(172, 170)$, $(160, 163)$, $(152, 151)$ and $(153, 151)$."
+       },
+       {
+        "text": "Mark each one as a filled dot at that position."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Eight male points plotted}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(b)(iii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Say what 0.9 means in context",
+      "lines": [
+       {
+        "text": "There is a strong positive linear relationship between height and arm span."
+       },
+       {
+        "text": "Taller people are very likely to have a longer arm span."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Strong positive linear relationship}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-sd",
+   "title": "Calculate standard deviation (calculator)",
+   "level": "OL",
+   "input": "data set or frequency table",
+   "output": "σ"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(c)(ii)",
+    "note": null,
+    "legend": {
+     "2": "the standard deviation, σ"
+    },
+    "steps": [
+     {
+      "ask": "Which setting on the calculator takes a list of values and gives σ?",
+      "title": "Use the calculator in statistics mode",
+      "lines": [
+       {
+        "text": "Enter the 13 Meat values into the calculator and read off the population standard deviation $\\hl{2}{\\sigma}$."
+       },
+       {
+        "tex": "\\hl{2}{\\sigma} &\\approx \\hl{2}{50.99}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{51}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\text{€}51}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(ii)",
+    "note": "This time the calculator is not used: the total, the mean and the sum of squares are worked out by hand before σ. The answer is still σ, and the mean is now marked as its own slot.",
+    "legend": {
+     "1": "the mean, μ",
+     "2": "the standard deviation, σ"
+    },
+    "steps": [
+     {
+      "ask": "What is the total of the ten heart rates?",
+      "title": "Add the heart rates after exercise",
+      "lines": [
+       {
+        "tex": "\\sum x &= 71+81+79+108+91+83+102+113+118+87"
+       },
+       {
+        "tex": "&= 933"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide the total by to get the mean?",
+      "title": "Divide by the number of values to find the mean",
+      "lines": [
+       {
+        "text": "There are $n = 10$ values."
+       },
+       {
+        "tex": "\\hl{1}{\\mu} &= \\frac{\\sum x}{n}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{933}{10}}"
+       },
+       {
+        "tex": "&= \\hl{1}{93.3}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you square each value and add the squares?",
+      "title": "Square each value and add",
+      "lines": [
+       {
+        "tex": "\\sum x^2 &= 71^2+81^2+79^2+108^2+91^2+83^2+102^2+113^2+118^2+87^2"
+       },
+       {
+        "tex": "&= 5041+6561+6241+11664+8281+6889+10404+12769+13924+7569"
+       },
+       {
+        "tex": "&= 89343"
+       }
+      ]
+     },
+     {
+      "ask": "How do you get the variance from the mean of the squares and the mean?",
+      "title": "Find the variance",
+      "lines": [
+       {
+        "text": "Use $\\sigma^2 = \\frac{\\sum x^2}{n} - \\hl{1}{\\mu^2}$."
+       },
+       {
+        "tex": "\\sigma^2 &= \\frac{89343}{10} - \\hl{1}{93.3^2}"
+       },
+       {
+        "tex": "&= 8934.3 - \\hl{1}{8704.89}"
+       },
+       {
+        "tex": "&= 229.41"
+       }
+      ]
+     },
+     {
+      "ask": "What is the last step to turn the variance into σ?",
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\sigma} &= \\sqrt{229.41}"
+       },
+       {
+        "tex": "&= \\hl{2}{15.146}"
+       },
+       {
+        "tex": "&= \\hl{2}{15.1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Mean} = \\hl{1}{93.3}, \\quad \\hl{2}{\\sigma} = \\hl{2}{15.1}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(e)",
+    "note": "The data are rainfall values and the answer is in mm. The method changes: each value's distance from the mean is squared and added, rather than using the sum-of-squares shortcut.",
+    "legend": {
+     "1": "the mean, μ",
+     "2": "the standard deviation, σ"
+    },
+    "steps": [
+     {
+      "ask": "What is the mean of the ten rainfall values? Add them first.",
+      "title": "Find the mean of the rainfall",
+      "lines": [
+       {
+        "tex": "\\text{Sum} &= 72+133+155+101+94+47+149+134+94+84"
+       },
+       {
+        "tex": "&= 1063"
+       },
+       {
+        "tex": "\\hl{1}{\\mu} &= \\hl{1}{\\frac{1063}{10}}"
+       },
+       {
+        "tex": "&= \\hl{1}{106.3}"
+       }
+      ]
+     },
+     {
+      "ask": "How far is each value from the mean, and what do you do with each distance before adding?",
+      "title": "Square each difference from the mean",
+      "lines": [
+       {
+        "tex": "(72 - \\hl{1}{106.3})^2 &= 1176.49"
+       },
+       {
+        "tex": "(133 - \\hl{1}{106.3})^2 &= 712.89"
+       },
+       {
+        "tex": "(155 - \\hl{1}{106.3})^2 &= 2371.69"
+       },
+       {
+        "tex": "(101 - \\hl{1}{106.3})^2 &= 28.09"
+       },
+       {
+        "tex": "(94 - \\hl{1}{106.3})^2 &= 151.29"
+       },
+       {
+        "tex": "(47 - \\hl{1}{106.3})^2 &= 3516.49"
+       },
+       {
+        "tex": "(149 - \\hl{1}{106.3})^2 &= 1823.29"
+       },
+       {
+        "tex": "(134 - \\hl{1}{106.3})^2 &= 767.29"
+       },
+       {
+        "tex": "(94 - \\hl{1}{106.3})^2 &= 151.29"
+       },
+       {
+        "tex": "(84 - \\hl{1}{106.3})^2 &= 497.29"
+       }
+      ]
+     },
+     {
+      "ask": "What is the total of the ten squared differences?",
+      "title": "Add the squares",
+      "lines": [
+       {
+        "tex": "\\sum (x-\\hl{1}{\\mu})^2 &= 1176.49+712.89+2371.69+28.09+151.29+3516.49+1823.29+767.29+151.29+497.29"
+       },
+       {
+        "tex": "&= 11196.1"
+       }
+      ]
+     },
+     {
+      "ask": "Divide the sum by n. What is the next step to get σ?",
+      "title": "Divide by n and take the square root",
+      "lines": [
+       {
+        "tex": "\\sigma^2 &= \\frac{11196.1}{10}"
+       },
+       {
+        "tex": "&= 1119.61"
+       },
+       {
+        "tex": "\\hl{2}{\\sigma} &= \\sqrt{1119.61}"
+       },
+       {
+        "tex": "&= \\hl{2}{33.46}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{33.5 \\text{ mm}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{33.5 \\text{ mm}}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(d)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the spreads",
+      "lines": [
+       {
+        "text": "The girls' standard deviation ($7.7$ cm) is smaller than the boys' ($8.9$ cm), so the girls' heights are less spread out and closer to their mean. The boys' heights vary more."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Girls' heights are less spread out}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q4#(c)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "Range = largest value $-$ smallest value."
+       },
+       {
+        "tex": "\\text{Range} &= 113 - 82"
+       },
+       {
+        "tex": "&= 31"
+       }
+      ]
+     },
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{104 + 82 + 94 + 113 + 98 + 105}{6}"
+       },
+       {
+        "tex": "&= \\frac{596}{6}"
+       },
+       {
+        "tex": "&= \\frac{298}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the standard deviation formula",
+      "lines": [
+       {
+        "text": "$\\sigma = \\sqrt{\\dfrac{\\sum (x - \\bar{x})^2}{n}}$ with $n = 6$. You can also read $\\sigma$ straight from a calculator."
+       },
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{(104 - \\bar{x})^2 + (82 - \\bar{x})^2 + (94 - \\bar{x})^2 + (113 - \\bar{x})^2 + (98 - \\bar{x})^2 + (105 - \\bar{x})^2}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\left(\\frac{14}{3}\\right)^2 + \\left(-\\frac{52}{3}\\right)^2 + \\left(-\\frac{16}{3}\\right)^2 + \\left(\\frac{41}{3}\\right)^2 + \\left(-\\frac{4}{3}\\right)^2 + \\left(\\frac{17}{3}\\right)^2}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{196}{9} + \\frac{2704}{9} + \\frac{256}{9} + \\frac{1681}{9} + \\frac{16}{9} + \\frac{289}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{196 + 2704 + 256 + 1681 + 16 + 289}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{5142}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{857}{9}}"
+       },
+       {
+        "tex": "&= 9.758\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Round to 1 decimal place",
+      "lines": [
+       {
+        "tex": "\\sigma &\\approx 9.8"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Range} = 31, \\quad \\sigma = 9.8"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q1#(a)(ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add up the 12 values",
+      "lines": [
+       {
+        "tex": "\\sum x &= 114+42+186+93+64+94+224+129+148+180+114+203"
+       },
+       {
+        "tex": "&= 1591"
+       }
+      ]
+     },
+     {
+      "title": "Work out the mean",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{1591}{12}"
+       },
+       {
+        "tex": "&= 132.58..."
+       },
+       {
+        "tex": "&= 133 \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "title": "Square each value and add them up",
+      "lines": [
+       {
+        "text": "Squares: $114^2=12996$, $42^2=1764$, $186^2=34596$, $93^2=8649$, $64^2=4096$, $94^2=8836$, $224^2=50176$, $129^2=16641$, $148^2=21904$, $180^2=32400$, $114^2=12996$, $203^2=41209$."
+       },
+       {
+        "tex": "\\sum x^2 &= 12996+1764+34596+8649+4096+8836+50176+16641+21904+32400+12996+41209"
+       },
+       {
+        "tex": "&= 246263"
+       }
+      ]
+     },
+     {
+      "title": "Use the standard deviation formula",
+      "lines": [
+       {
+        "text": "Use $\\sigma = \\sqrt{\\frac{\\sum x^2}{n} - \\bar{x}^2}$ with $n = 12$ and the unrounded mean."
+       },
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{246263}{12} - \\left(\\frac{1591}{12}\\right)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{20521.92 - 17578.34}"
+       },
+       {
+        "tex": "&= \\sqrt{2943.58}"
+       },
+       {
+        "tex": "&= 54.25..."
+       },
+       {
+        "tex": "&= 54 \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Mean} = 133 \\text{ mm}, \\quad \\text{Standard deviation} = 54 \\text{ mm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-ci-mean",
+   "title": "Construct a 95% confidence interval for a mean (large sample)",
+   "level": "HL",
+   "input": "x̄, σ (or s), n",
+   "output": "x̄ ± 1.96 σ/√n"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(a)",
+    "note": null,
+    "legend": {
+     "1": "the sample mean, x̄",
+     "2": "the margin of error",
+     "3": "the ends of the interval"
+    },
+    "steps": [
+     {
+      "ask": "What multiplier does a 95% interval use?",
+      "title": "Choose the formula",
+      "lines": [
+       {
+        "text": "A 95% confidence interval for the mean is $\\hl{1}{\\bar{x}} \\pm 1.96 \\dfrac{s}{\\sqrt{n}}$, with $\\hl{1}{\\bar{x}} = \\hl{1}{90.45}$, $s = 20.73$, $n = 100$."
+       }
+      ]
+     },
+     {
+      "ask": "What is s divided by the square root of n, and what do you get when you multiply it by 1.96?",
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "\\hl{2}{1.96 \\times \\frac{20.73}{\\sqrt{100}}} &= \\hl{2}{1.96 \\times \\frac{20.73}{10}}"
+       },
+       {
+        "tex": "&= \\hl{2}{1.96 \\times 2.073}"
+       },
+       {
+        "tex": "&= \\hl{2}{4.063}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you subtract the margin from the mean, and when you add it?",
+      "title": "Add and subtract the margin from the mean",
+      "lines": [
+       {
+        "tex": "\\hl{1}{90.45} - \\hl{2}{4.063} &= \\hl{3}{86.387}"
+       },
+       {
+        "tex": "&= \\hl{3}{86.39}"
+       },
+       {
+        "tex": "\\hl{1}{90.45} + \\hl{2}{4.063} &= \\hl{3}{94.513}"
+       },
+       {
+        "tex": "&= \\hl{3}{94.51}"
+       }
+      ]
+     }
+    ],
+    "final": "\\left(\\hl{3}{\\text{€}86.39},\\ \\hl{3}{\\text{€}94.51}\\right)",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q9#(b)",
+    "note": "The numbers are much larger (mean 26 974, s = 5120, n = 400), so the margin runs into the hundreds. The steps are the same as the first problem, and the answer is written with inequality signs.",
+    "legend": {
+     "1": "the sample mean, x̄",
+     "2": "the margin of error",
+     "3": "the ends of the interval"
+    },
+    "steps": [
+     {
+      "ask": "What does the interval centre on, and what is added and subtracted from it?",
+      "title": "Write the 95% confidence interval",
+      "lines": [
+       {
+        "text": "Use $\\hl{1}{\\bar{x}} \\pm 1.96\\dfrac{s}{\\sqrt{n}}$ with $\\hl{1}{\\bar{x}} = \\hl{1}{26\\,974}$, $s = 5120$ and $n = 400$."
+       },
+       {
+        "tex": "\\text{Interval} &= \\hl{1}{26974} \\pm \\hl{2}{1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)}"
+       }
+      ]
+     },
+     {
+      "ask": "How is the margin built from 1.96, s and the square root of n?",
+      "title": "Work out the margin of error",
+      "lines": [
+       {
+        "tex": "\\hl{2}{E} &= \\hl{2}{1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)}"
+       },
+       {
+        "tex": "&= \\hl{2}{1.96\\left(\\frac{5120}{20}\\right)}"
+       },
+       {
+        "tex": "&= \\hl{2}{1.96 \\times 256}"
+       },
+       {
+        "tex": "&= \\hl{2}{501.76}"
+       }
+      ]
+     },
+     {
+      "ask": "Once you have the margin, how do you find the lower and upper ends?",
+      "title": "Find the two ends of the interval",
+      "lines": [
+       {
+        "tex": "\\text{Lower} &= \\hl{1}{26974} - \\hl{2}{501.76}"
+       },
+       {
+        "tex": "&= \\hl{3}{26472.24}"
+       },
+       {
+        "tex": "\\text{Upper} &= \\hl{1}{26974} + \\hl{2}{501.76}"
+       },
+       {
+        "tex": "&= \\hl{3}{27475.76}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{26472.24} \\le \\mu \\le \\hl{3}{27475.76}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(b)(i)",
+    "note": "The spread is now a known σ rather than the sample s, so the standard error is σ over the square root of n. The steps are the same as before, with the lower and upper ends worked out as separate steps.",
+    "legend": {
+     "1": "the sample mean, x̄",
+     "2": "the margin of error",
+     "3": "the ends of the interval"
+    },
+    "steps": [
+     {
+      "ask": "What is the standard error of the mean, in terms of σ and n?",
+      "title": "Write the confidence interval formula",
+      "lines": [
+       {
+        "text": "A $95\\%$ confidence interval uses $1.96$ standard errors."
+       },
+       {
+        "tex": "\\hl{1}{\\bar{x}} &\\pm 1.96\\frac{\\sigma}{\\sqrt{n}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply 1.96 by σ over the square root of n?",
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "text": "$\\hl{1}{\\bar{x}} = \\hl{1}{3.74}$, $\\sigma = 0.36$, $n = 64$."
+       },
+       {
+        "tex": "\\hl{2}{1.96 \\times \\frac{0.36}{\\sqrt{64}}} &= \\hl{2}{1.96 \\times \\frac{0.36}{8}}"
+       },
+       {
+        "tex": "&= \\hl{2}{1.96 \\times 0.045}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.0882}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you take the margin away from the mean?",
+      "title": "Find the lower limit",
+      "lines": [
+       {
+        "tex": "\\hl{1}{3.74} - \\hl{2}{0.0882} &= \\hl{3}{3.6518}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you add the margin to the mean?",
+      "title": "Find the upper limit",
+      "lines": [
+       {
+        "tex": "\\hl{1}{3.74} + \\hl{2}{0.0882} &= \\hl{3}{3.8282}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{3.6518} \\le \\mu \\le \\hl{3}{3.8282}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2025-higher-p2-q10#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the 95% confidence interval formula",
+      "lines": [
+       {
+        "text": "For country X: $\\bar{x} = 387$, $s = 66.2$, $n = 2161$. For 95% the multiplier is 1.96."
+       },
+       {
+        "tex": "\\bar{x} &\\pm 1.96\\,\\frac{s}{\\sqrt{n}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the values",
+      "lines": [
+       {
+        "tex": "&= 387 \\pm 1.96\\left(\\frac{66.2}{\\sqrt{2161}}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Work out the margin of error",
+      "lines": [
+       {
+        "tex": "\\frac{66.2}{\\sqrt{2161}} &= 1.424\\ldots"
+       },
+       {
+        "tex": "1.96 \\times 1.424\\ldots &= 2.79\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Find the lower endpoint",
+      "lines": [
+       {
+        "tex": "387 - 2.79\\ldots &= 384.2088\\ldots"
+       },
+       {
+        "tex": "&\\approx 384.2"
+       }
+      ]
+     },
+     {
+      "title": "Find the upper endpoint",
+      "lines": [
+       {
+        "tex": "387 + 2.79\\ldots &= 389.7912\\ldots"
+       },
+       {
+        "tex": "&\\approx 389.8"
+       }
+      ]
+     }
+    ],
+    "final": "384.2 < \\mu < 389.8"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-ci-proportion",
+   "title": "Construct a 95% confidence interval for a proportion",
+   "level": "HL",
+   "input": "p̂, n",
+   "output": "p̂ ± 1.96√(p̂(1 − p̂)/n)"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2022-higher-p2-q5#(a)(iii)",
+    "note": null,
+    "legend": {
+     "1": "the sample proportion, p̂",
+     "2": "the margin of error",
+     "3": "the ends of the interval"
+    },
+    "steps": [
+     {
+      "ask": "What multiplier does a 95% interval use?",
+      "title": "Write the formula for a 95% interval",
+      "lines": [
+       {
+        "text": "Use $\\hl{1}{\\hat{p}} \\pm \\hl{2}{1.96\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}}$ with $\\hl{1}{\\hat{p}} = \\hl{1}{0.3375}$ and $n = 400$."
+       }
+      ]
+     },
+     {
+      "ask": "What do you get for p̂(1 − p̂) over n, and then its square root?",
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "\\hl{2}{1.96\\sqrt{\\frac{0.3375(1-0.3375)}{400}}} &= \\hl{2}{1.96\\sqrt{\\frac{0.22359375}{400}}}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{0.04633}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you take the margin away from p̂?",
+      "title": "Lower end of the interval",
+      "lines": [
+       {
+        "tex": "\\hl{1}{0.3375} - \\hl{2}{0.04633} &\\approx \\hl{3}{0.2912}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you add the margin to p̂?",
+      "title": "Upper end of the interval",
+      "lines": [
+       {
+        "tex": "\\hl{1}{0.3375} + \\hl{2}{0.04633} &\\approx \\hl{3}{0.3838}"
+       }
+      ]
+     }
+    ],
+    "final": "[\\hl{3}{0.2912},\\ \\hl{3}{0.3838}]",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(a)(ii)",
+    "note": "This time the sample proportion is worked out first from the count, 324 out of 400, before it goes into the formula. The margin and the two ends are found the same way as in the first problem.",
+    "legend": {
+     "1": "the sample proportion, p̂",
+     "2": "the margin of error",
+     "3": "the ends of the interval"
+    },
+    "steps": [
+     {
+      "ask": "How do you turn 324 out of 400 into a proportion?",
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\hat{p}} &= \\hl{1}{\\frac{324}{400}}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.81}"
+       }
+      ]
+     },
+     {
+      "ask": "What formula gives the 95% interval, and which values go into it?",
+      "title": "Write the 95% confidence interval",
+      "lines": [
+       {
+        "text": "The interval is $\\hl{1}{\\hat{p}} \\pm \\hl{2}{1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}}$, with $\\hl{1}{\\hat{p}} = \\hl{1}{0.81}$ and $n = 400$."
+       },
+       {
+        "tex": "\\hl{2}{\\text{margin}} &= \\hl{2}{1.96\\sqrt{\\frac{0.81 \\times 0.19}{400}}}"
+       },
+       {
+        "tex": "&= \\hl{2}{1.96\\sqrt{0.00038475}}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{1.96 \\times 0.019615}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{0.038445}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you subtract the margin from p̂, and when you add it?",
+      "title": "Add and subtract the margin",
+      "lines": [
+       {
+        "tex": "\\hl{1}{0.81} - \\hl{2}{0.038445} \\le p &\\le \\hl{1}{0.81} + \\hl{2}{0.038445}"
+       },
+       {
+        "tex": "\\hl{3}{0.771555} \\le p &\\le \\hl{3}{0.848445}"
+       },
+       {
+        "tex": "\\hl{3}{0.77} \\le p &\\le \\hl{3}{0.85}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0.77} \\le p \\le \\hl{3}{0.85}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(a)(i)",
+    "note": "Now the standard error is worked out as its own step before the margin, which is 1.96 times it. The steps split the same formula into smaller moves, and the answer is written with strict inequalities.",
+    "legend": {
+     "1": "the sample proportion, p̂",
+     "2": "the margin of error",
+     "3": "the ends of the interval",
+     "4": "the standard error"
+    },
+    "steps": [
+     {
+      "ask": "How do you turn 174 out of 800 into a proportion?",
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\hat{p}} &= \\hl{1}{\\frac{174}{800}}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.2175}"
+       }
+      ]
+     },
+     {
+      "ask": "What expression gives the standard error of a proportion, using p̂ and n?",
+      "title": "Find the standard error",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{SE}} &= \\hl{4}{\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\sqrt{\\frac{(0.2175)(0.7825)}{800}}}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\sqrt{0.00021274}}"
+       },
+       {
+        "tex": "&= \\hl{4}{0.014586}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply the standard error by to get the margin for 95%?",
+      "title": "Find the margin of error at 95%",
+      "lines": [
+       {
+        "text": "For a 95% interval the multiplier is $1.96$."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Margin}} &= \\hl{2}{1.96 \\times 0.014586}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.02859}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you subtract the margin from p̂, and when you add it?",
+      "title": "Subtract and add the margin to the proportion",
+      "lines": [
+       {
+        "tex": "\\hl{1}{0.2175} - \\hl{2}{0.02859} &= \\hl{3}{0.18891}"
+       },
+       {
+        "tex": "\\hl{1}{0.2175} + \\hl{2}{0.02859} &= \\hl{3}{0.24609}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0.1889} < p < \\hl{3}{0.2461}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the radius of the 95% confidence interval",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= 0.01568"
+       }
+      ]
+     },
+     {
+      "title": "Divide by 1.96 and square both sides",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= \\frac{0.01568}{1.96}"
+       },
+       {
+        "tex": "\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= 0.008"
+       },
+       {
+        "tex": "\\frac{\\hat{p}(1-\\hat{p})}{2500} &= 0.000064"
+       }
+      ]
+     },
+     {
+      "title": "Form a quadratic in p-hat",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1-\\hat{p}) &= 0.16"
+       },
+       {
+        "tex": "\\hat{p} - \\hat{p}^2 &= 0.16"
+       },
+       {
+        "tex": "\\hat{p}^2 - \\hat{p} + 0.16 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve with the quadratic formula",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{1 \\pm \\sqrt{1 - 4(0.16)}}{2}"
+       },
+       {
+        "tex": "\\hat{p} &= \\frac{1 \\pm \\sqrt{0.36}}{2}"
+       },
+       {
+        "tex": "\\hat{p} &= \\frac{1 \\pm 0.6}{2}"
+       },
+       {
+        "tex": "\\hat{p} &= 0.8 \\text{ or } 0.2"
+       }
+      ]
+     },
+     {
+      "title": "Reject the value outside the range",
+      "lines": [
+       {
+        "text": "We are told $0.5 < \\hat{p} \\le 1$, so $\\hat{p} = 0.2$ is rejected."
+       },
+       {
+        "tex": "\\hat{p} &= \\frac{4}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hat{p} = \\frac{4}{5}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{350}{800}"
+       },
+       {
+        "tex": "&= 0.4375"
+       },
+       {
+        "tex": "&= 43.75\\%"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the margin of error",
+      "lines": [
+       {
+        "text": "The 95% confidence interval is $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$, with margin of error 3.54%."
+       },
+       {
+        "tex": "\\text{Lower} &= 43.75 - 3.54"
+       },
+       {
+        "tex": "&= 40.21"
+       },
+       {
+        "tex": "\\text{Upper} &= 43.75 + 3.54"
+       },
+       {
+        "tex": "&= 47.29"
+       }
+      ]
+     }
+    ],
+    "final": "40.21\\% < p < 47.29\\%"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{762}{1000}"
+       },
+       {
+        "tex": "&= 0.762"
+       },
+       {
+        "tex": "&= 76.2\\%"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the margin of error",
+      "lines": [
+       {
+        "text": "The 95% confidence interval is $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$, using $3.2\\%$ from part (i)."
+       },
+       {
+        "tex": "\\text{Lower} &= 76.2 - 3.2"
+       },
+       {
+        "tex": "&= 73.0"
+       },
+       {
+        "tex": "\\text{Upper} &= 76.2 + 3.2"
+       },
+       {
+        "tex": "&= 79.4"
+       }
+      ]
+     }
+    ],
+    "final": "73\\% \\le \\mu \\le 79.4\\%"
+   }
+  ]
+ }
+]

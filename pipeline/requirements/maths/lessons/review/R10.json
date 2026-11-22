@@ -1,0 +1,2486 @@
+[
+ {
+  "skill": {
+   "id": "seq-arith-sum",
+   "title": "Sum n terms of an arithmetic series",
+   "level": "OL",
+   "input": "a, d, n",
+   "output": "Sₙ = n/2 [2a + (n − 1)d]"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2021-ordinary-p1-q9#(a)(iii)",
+    "note": null,
+    "legend": {
+     "1": "first term a",
+     "2": "common difference d",
+     "3": "number of terms n"
+    },
+    "steps": [
+     {
+      "ask": "Which formula gives the sum of n terms, and which of a, d and n does the question give?",
+      "title": "Use the sum formula with a = 1, d = 1 and n = 20",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{\\hl{3}{n}}{2}\\left[2\\hl{1}{a} + (\\hl{3}{n}-1)\\hl{2}{d}\\right]"
+       },
+       {
+        "tex": "S_{20} &= \\frac{\\hl{3}{20}}{2}\\left[2(\\hl{1}{1}) + (\\hl{3}{20}-1)(\\hl{2}{1})\\right]"
+       },
+       {
+        "tex": "&= 10\\left[2 + 19\\right]"
+       },
+       {
+        "tex": "&= 10(21)"
+       },
+       {
+        "tex": "&= 210"
+       }
+      ]
+     }
+    ],
+    "final": "S_{20} = 210",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q6#(b)",
+    "note": "This time a and d are not given, so you find them from the list of terms first. The sum formula and the substitution are the same as before.",
+    "legend": {
+     "1": "first term a",
+     "2": "common difference d",
+     "3": "number of terms n"
+    },
+    "steps": [
+     {
+      "ask": "The question gives the terms, not a and d. How do you find a and d from a list?",
+      "title": "Write down a and d",
+      "lines": [
+       {
+        "text": "The terms go 4, 9, 14, so $\\hl{1}{a} = \\hl{1}{4}$ and $\\hl{2}{d} = 9 - 4 = \\hl{2}{5}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which formula gives the sum, and what do you substitute for a, d and n?",
+      "title": "Substitute into the sum formula",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{\\hl{3}{n}}{2}\\left[2\\hl{1}{a} + (\\hl{3}{n}-1)\\hl{2}{d}\\right]"
+       },
+       {
+        "tex": "S_{50} &= \\frac{\\hl{3}{50}}{2}\\left[2(\\hl{1}{4}) + (\\hl{3}{50}-1)(\\hl{2}{5})\\right]"
+       },
+       {
+        "tex": "&= 25\\left[8 + (49)(\\hl{2}{5})\\right]"
+       },
+       {
+        "tex": "&= 25\\left[8 + 245\\right]"
+       },
+       {
+        "tex": "&= 25(253)"
+       },
+       {
+        "tex": "&= 6325"
+       }
+      ]
+     }
+    ],
+    "final": "S_{50} = 6325",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q8#(b)(iv), (v)",
+    "note": "This time the numbers come from a real-life context and d is the decimal 1.5. The same formula is used.",
+    "legend": {
+     "1": "first term a",
+     "2": "common difference d",
+     "3": "number of terms n"
+    },
+    "steps": [
+     {
+      "ask": "Which sum formula uses a, d and n, and what does each letter stand for here?",
+      "title": "Write the sum formula",
+      "lines": [
+       {
+        "text": "The sum of the first $\\hl{3}{n}$ terms of an arithmetic sequence is $S_n = \\frac{\\hl{3}{n}}{2}[2\\hl{1}{a} + (\\hl{3}{n}-1)\\hl{2}{d}]$."
+       },
+       {
+        "tex": "S_n &= \\frac{\\hl{3}{n}}{2}\\left[2(\\hl{1}{6}) + (\\hl{3}{n}-1)(\\hl{2}{1.5})\\right]"
+       }
+      ]
+     },
+     {
+      "ask": "Which value of n does the question ask for, and where does it go in the formula?",
+      "title": "Substitute n = 10",
+      "lines": [
+       {
+        "tex": "S_{10} &= \\frac{\\hl{3}{10}}{2}\\left[2(\\hl{1}{6}) + (\\hl{3}{10}-1)(\\hl{2}{1.5})\\right]"
+       },
+       {
+        "tex": "&= 5\\left[12 + 9(\\hl{2}{1.5})\\right]"
+       },
+       {
+        "tex": "&= 5\\left[12 + 13.5\\right]"
+       },
+       {
+        "tex": "&= 5(25.5)"
+       },
+       {
+        "tex": "&= 127.5 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "S_n = \\frac{\\hl{3}{n}}{2}\\left[2(\\hl{1}{6}) + (\\hl{3}{n}-1)(\\hl{2}{1.5})\\right], \\quad S_{10} = 127.5 \\ \\text{km}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p1-q7#(d)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 30 into S_n",
+      "lines": [
+       {
+        "tex": "S_{30} &= \\frac{3(30)^2 + 7(30)}{2}"
+       },
+       {
+        "tex": "&= \\frac{3(900) + 210}{2}"
+       },
+       {
+        "tex": "&= \\frac{2700 + 210}{2}"
+       },
+       {
+        "tex": "&= \\frac{2910}{2}"
+       },
+       {
+        "tex": "&= 1455"
+       }
+      ]
+     }
+    ],
+    "final": "1455\\text{ tiles}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(vi)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 37 into S_n",
+      "lines": [
+       {
+        "tex": "S_{37} &= \\frac{37}{2}\\left[250(37) - 8250\\right]"
+       },
+       {
+        "tex": "&= \\frac{37}{2}\\left[9250 - 8250\\right]"
+       },
+       {
+        "tex": "&= \\frac{37}{2}(1000)"
+       },
+       {
+        "tex": "&= 18500"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}18500"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(v)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the formula for the sum of n terms",
+      "lines": [
+       {
+        "text": "$S_n = \\frac{n}{2}\\left[2a + (n-1)d\\right]$ with $a = -4000$ and $d = 250$."
+       },
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[2(-4000) + (n-1)(250)\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Simplify inside the bracket",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[-8000 + 250n - 250\\right]"
+       },
+       {
+        "tex": "S_n &= \\frac{n}{2}\\left[250n - 8250\\right]"
+       }
+      ]
+     }
+    ],
+    "final": "S_n = \\frac{n}{2}\\left[250n - 8250\\right]"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-nth",
+   "title": "Find the nth term of a geometric sequence",
+   "level": "HL",
+   "input": "a, r (or terms)",
+   "output": "Tₙ = arⁿ⁻¹"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r",
+     "3": "term number n"
+    },
+    "steps": [
+     {
+      "ask": "Which term is being asked for, and which value of n goes into the formula?",
+      "title": "Substitute n = 25 into the formula",
+      "lines": [
+       {
+        "tex": "T_n &= \\hl{1}{45}(\\hl{2}{0.9})^{\\hl{3}{n}-1}"
+       },
+       {
+        "tex": "T_{25} &= \\hl{1}{45}(\\hl{2}{0.9})^{\\hl{3}{25}-1}"
+       },
+       {
+        "tex": "&= \\hl{1}{45}(\\hl{2}{0.9})^{24}"
+       }
+      ]
+     },
+     {
+      "ask": "What does your calculator give for the power, and how should you round the answer?",
+      "title": "Evaluate and round",
+      "lines": [
+       {
+        "tex": "&= 3.5894..."
+       },
+       {
+        "tex": "&= 3.6"
+       }
+      ]
+     }
+    ],
+    "final": "3.6\\ \\text{cm}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(d)(ii)",
+    "note": "This time the sequence starts at step 0, so the exponent is n, not n − 1. The rest of the method is the same.",
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r",
+     "3": "term number n"
+    },
+    "steps": [
+     {
+      "ask": "What is the first term here, and which exponent does step n get?",
+      "title": "Write the perimeter at step n",
+      "lines": [
+       {
+        "text": "A geometric sequence with first term 3 (step 0) and ratio $\\hl{2}{\\frac{3}{2}}$."
+       },
+       {
+        "tex": "P_n &= \\hl{1}{3}\\hl{2}{\\left(\\frac{3}{2}\\right)}^n"
+       }
+      ]
+     },
+     {
+      "ask": "Which step does the question ask for, and where does that number go?",
+      "title": "Substitute n = 35",
+      "lines": [
+       {
+        "tex": "P_{35} &= \\hl{1}{3}\\hl{2}{\\left(\\frac{3}{2}\\right)}^{\\hl{3}{35}}"
+       },
+       {
+        "tex": "&\\approx 4\\,368\\,329"
+       }
+      ]
+     }
+    ],
+    "final": "4\\,368\\,329 \\text{ units}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q5#(b)",
+    "note": "This time the ratio is not given, so you find it from two terms, and the answer has a plus and a minus. The rest of the method is the same.",
+    "legend": {
+     "1": "known term G₇ (in place of a)",
+     "2": "common ratio r"
+    },
+    "steps": [
+     {
+      "ask": "Count the steps from G₇ to G₁₁. What does each step multiply by?",
+      "title": "Relate G11 to G7",
+      "lines": [
+       {
+        "text": "$G_{11}$ is $\\hl{1}{G_7}$ multiplied by $\\hl{2}{r}$ four times."
+       },
+       {
+        "tex": "\\hl{1}{G_7} \\cdot \\hl{2}{r^4} &= G_{11}"
+       },
+       {
+        "tex": "\\hl{1}{6}\\hl{2}{r^4} &= \\frac{3}{8}"
+       }
+      ]
+     },
+     {
+      "ask": "What operation gets r⁴ on its own, and what undoes a power of 4?",
+      "title": "Solve for r",
+      "lines": [
+       {
+        "tex": "\\hl{2}{r^4} &= \\frac{3}{8} \\div \\hl{1}{6}"
+       },
+       {
+        "tex": "&= \\frac{3}{48}"
+       },
+       {
+        "tex": "&= \\frac{1}{16}"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\pm\\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{r} = \\frac{1}{2} \\text{ or } \\hl{2}{r} = -\\frac{1}{2}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(b)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the pattern",
+      "lines": [
+       {
+        "text": "The numbers of black triangles are 1, 3, 9, 27, and each is 3 times the one before."
+       },
+       {
+        "tex": "1, 3, 9, 27 &= 3^0, 3^1, 3^2, 3^3"
+       },
+       {
+        "text": "Step $n$ has $3^n$ black triangles."
+       }
+      ]
+     }
+    ],
+    "final": "3^n"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(d)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the pattern for the perimeter",
+      "lines": [
+       {
+        "text": "Each black triangle has half the side length, but there are 3 times as many, so the total perimeter is multiplied by $\\frac{3}{2}$ each step."
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 3/2 at each step",
+      "lines": [
+       {
+        "tex": "\\text{Step 1: } 3\\times\\frac{3}{2} &= \\frac{9}{2}"
+       },
+       {
+        "tex": "\\text{Step 2: } \\frac{9}{2}\\times\\frac{3}{2} &= \\frac{27}{4}"
+       },
+       {
+        "tex": "\\text{Step 3: } \\frac{27}{4}\\times\\frac{3}{2} &= \\frac{81}{8}"
+       },
+       {
+        "tex": "\\text{Step 4: } \\frac{81}{8}\\times\\frac{3}{2} &= \\frac{243}{16}"
+       }
+      ]
+     }
+    ],
+    "final": "3,\\ \\tfrac{9}{2},\\ \\tfrac{27}{4},\\ \\tfrac{81}{8},\\ \\tfrac{243}{16}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply by 0.9 for each new swing",
+      "lines": [
+       {
+        "text": "Each swing is 90% of the one before, so $T_n = 45(0.9)^{n-1}$."
+       },
+       {
+        "tex": "T_2 &= 45(0.9)"
+       },
+       {
+        "tex": "&= 40.5"
+       },
+       {
+        "tex": "&= \\frac{81}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the length of swing 4",
+      "lines": [
+       {
+        "tex": "T_4 &= 45(0.9)^3"
+       },
+       {
+        "tex": "&= 32.805"
+       },
+       {
+        "tex": "&= \\frac{6561}{200}"
+       }
+      ]
+     },
+     {
+      "title": "Find the length of swing 5",
+      "lines": [
+       {
+        "tex": "T_5 &= 45(0.9)^4"
+       },
+       {
+        "tex": "&= 29.5245"
+       },
+       {
+        "tex": "&= \\frac{59049}{2000}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{81}{2} = 40.5,\\ \\frac{6561}{200} = 32.805,\\ \\frac{59049}{2000} = 29.5245"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-sum",
+   "title": "Sum n terms of a geometric series",
+   "level": "HL",
+   "input": "a, r, n",
+   "output": "Sₙ = a(1 − rⁿ)/(1 − r)"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r"
+    },
+    "steps": [
+     {
+      "ask": "What must you multiply by to get from one term to the next? Find that, and the first term.",
+      "title": "Spot the geometric series",
+      "lines": [
+       {
+        "text": "The lengths removed are $\\frac13, \\frac29, \\frac4{27}, \\dots$, a geometric series."
+       },
+       {
+        "tex": "\\hl{1}{a} &= \\hl{1}{\\frac{1}{3}}"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{2/9}{1/3} = \\hl{2}{\\frac{2}{3}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula uses a, r and n? Put your a and r into it.",
+      "title": "Substitute into the sum formula",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"
+       },
+       {
+        "tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n\\right)}{1-\\hl{2}{\\frac{2}{3}}}"
+       },
+       {
+        "tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n\\right)}{\\frac{1}{3}}"
+       },
+       {
+        "tex": "S_n &= 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n"
+       }
+      ]
+     }
+    ],
+    "final": "S_n = 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^n",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q7#(a)",
+    "note": "This time the terms are sphere volumes and the ratio 1.75 is bigger than 1, so 1 − r is negative. The sum formula is used the same way.",
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r",
+     "3": "number of terms n"
+    },
+    "steps": [
+     {
+      "ask": "Which formula gives the volume of a sphere, and what is the radius of sphere A?",
+      "title": "Find the volume of sphere A",
+      "lines": [
+       {
+        "text": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$, and $r = 3$."
+       },
+       {
+        "tex": "V_A &= \\frac{4}{3}\\pi (3)^3"
+       },
+       {
+        "tex": "&= \\frac{4}{3}\\pi (27)"
+       },
+       {
+        "tex": "&= \\hl{1}{36\\pi}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you divide one volume by the one before? What kind of sequence is that?",
+      "title": "Recognise a geometric sequence",
+      "lines": [
+       {
+        "text": "Each volume is $\\hl{2}{1.75}$ times the one before, so the volumes form a GP with $\\hl{1}{a} = \\hl{1}{36\\pi}$, $\\hl{2}{r} = \\hl{2}{1.75}$ and $\\hl{3}{n} = \\hl{3}{5}$."
+       },
+       {
+        "tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula fits, and what do a, r and n become here?",
+      "title": "Substitute into the sum formula",
+      "lines": [
+       {
+        "tex": "S_5 &= \\frac{\\hl{1}{36\\pi}(1 - \\hl{2}{1.75}^5)}{1 - \\hl{2}{1.75}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{36\\pi}(1 - 16.4130859375)}{-0.75}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{36\\pi}(-15.4130859375)}{-0.75}"
+       },
+       {
+        "tex": "&\\approx 2324.24"
+       },
+       {
+        "tex": "&\\approx 2324"
+       }
+      ]
+     }
+    ],
+    "final": "2324 \\text{ cm}^3",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q4#(b)",
+    "note": "This time r is the letter ω and n is a letter, so the answer comes from the fact that ωⁿ = 1, not from numbers. The sum formula is used the same way.",
+    "legend": {
+     "1": "first term a (here 1)",
+     "2": "common ratio r (here ω)",
+     "3": "number of terms n"
+    },
+    "steps": [
+     {
+      "ask": "What is the first term here, and what do you multiply by to get the next term?",
+      "title": "Write down a and r for the geometric series",
+      "lines": [
+       {
+        "tex": "S &= 1+\\omega+\\omega^2+\\cdots+\\omega^{n-1}"
+       },
+       {
+        "text": "This is geometric with first term $\\hl{1}{a}=\\hl{1}{1}$, common ratio $\\hl{2}{r}=\\hl{2}{\\omega}$ and $\\hl{3}{n}$ terms."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula fits, and what does the question tell you about ωⁿ?",
+      "title": "Use the sum formula and substitute",
+      "lines": [
+       {
+        "tex": "S &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{1}(1-\\hl{2}{\\omega}^n)}{1-\\hl{2}{\\omega}}"
+       },
+       {
+        "text": "Since $\\hl{2}{\\omega}^n=1$, replace $\\hl{2}{\\omega}^n$ with 1."
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{1}(1-1)}{1-\\hl{2}{\\omega}}"
+       },
+       {
+        "tex": "&= \\frac{0}{1-\\hl{2}{\\omega}}"
+       },
+       {
+        "text": "$\\hl{2}{\\omega}\\ne 1$, so the denominator is not zero."
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     }
+    ],
+    "final": "S = 0",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the fractions over a common denominator",
+      "lines": [
+       {
+        "tex": "\\frac{1}{3}-\\frac{1}{9}+\\frac{1}{27}-\\frac{1}{81} &= \\frac{27}{81}-\\frac{9}{81}+\\frac{3}{81}-\\frac{1}{81}"
+       },
+       {
+        "tex": "&= \\frac{20}{81}"
+       }
+      ]
+     },
+     {
+      "title": "Show that this point is never removed",
+      "lines": [
+       {
+        "text": "After step 3 the segment $\\left[\\frac{18}{81}, \\frac{21}{81}\\right]$ remains. Step 4 removes its middle third $\\left(\\frac{19}{81}, \\frac{20}{81}\\right)$, leaving $\\left[\\frac{20}{81}, \\frac{21}{81}\\right]$."
+       },
+       {
+        "text": "So $\\frac{20}{81}$ is an end-point of a segment. End-points are never removed, so it is in the Cantor Set."
+       }
+      ]
+     }
+    ],
+    "final": "\\tfrac{20}{81}\\text{ is an end-point of a segment, so it is never removed}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q9#(c)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Work out what is left from each injection",
+      "lines": [
+       {
+        "text": "Each day the amount from an injection is multiplied by $0.6$ (it decreases by 40%)."
+       },
+       {
+        "text": "$15$ is the amount from the 4th injection, just given."
+       },
+       {
+        "text": "$15(0.6)$ is the amount left from the 3rd injection, given 1 day ago."
+       },
+       {
+        "text": "$15(0.6)^2$ is the amount left from the 2nd injection, given 2 days ago."
+       },
+       {
+        "text": "$15(0.6)^3$ is the amount left from the 1st injection, given 3 days ago."
+       }
+      ]
+     },
+     {
+      "title": "Add the four amounts",
+      "lines": [
+       {
+        "tex": "\\text{Total} &= 15 + 15(0.6) + 15(0.6)^2 + 15(0.6)^3"
+       }
+      ]
+     }
+    ],
+    "final": "15 + 15(0.6) + 15(0.6)^2 + 15(0.6)^3"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the total distance as a sum",
+      "lines": [
+       {
+        "text": "The ball falls 2 m first. After that, each bounce height is travelled twice (up and down) before the 5th hit."
+       },
+       {
+        "tex": "D &= 2 + 2\\left(\\frac{3}{2} + \\frac{9}{8} + \\frac{27}{32} + \\frac{81}{128}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Write the fractions over 128",
+      "lines": [
+       {
+        "tex": "\\frac{3}{2} + \\frac{9}{8} + \\frac{27}{32} + \\frac{81}{128} &= \\frac{192}{128} + \\frac{144}{128} + \\frac{108}{128} + \\frac{81}{128}"
+       },
+       {
+        "tex": "&= \\frac{525}{128}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute back and simplify",
+      "lines": [
+       {
+        "tex": "D &= 2 + 2 \\times \\frac{525}{128}"
+       },
+       {
+        "tex": "&= 2 + \\frac{525}{64}"
+       },
+       {
+        "tex": "&= \\frac{128}{64} + \\frac{525}{64}"
+       },
+       {
+        "tex": "&= \\frac{653}{64}"
+       },
+       {
+        "tex": "&= 10\\frac{13}{64}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{653}{64} = 10\\frac{13}{64}\\text{ m}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-sum-infinity",
+   "title": "Sum an infinite geometric series",
+   "level": "HL",
+   "input": "a, r with |r| < 1",
+   "output": "S∞ = a/(1 − r)"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2016-higher-p1-q9#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r"
+    },
+    "steps": [
+     {
+      "ask": "Which formula gives the sum to infinity, and what must be true of r for it to work?",
+      "title": "Use the sum to infinity",
+      "lines": [
+       {
+        "text": "The ratio $\\hl{2}{r} = \\hl{2}{\\frac12}$ is between $-1$ and $1$, so the sum to infinity exists."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{\\hl{1}{a}}{1-\\hl{2}{r}}"
+       },
+       {
+        "tex": "S_\\infty &= \\frac{\\hl{1}{4}}{1-\\hl{2}{\\frac{1}{2}}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{4}}{\\frac12}"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     }
+    ],
+    "final": "8 \\text{ units}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q9#(e)",
+    "note": "The amount is now a decimal ratio, 0.6, and the question is about a dose in mg. The check on r and the formula stay the same.",
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r"
+    },
+    "steps": [
+     {
+      "ask": "Does this series have a sum to infinity? Check the size of the ratio first.",
+      "title": "Use the sum to infinity formula",
+      "lines": [
+       {
+        "text": "This applies because $|\\hl{2}{r}| = \\hl{2}{0.6} < 1$, with $\\hl{1}{a} = \\hl{1}{15}$."
+       },
+       {
+        "tex": "S_{\\infty} &= \\frac{\\hl{1}{a}}{1 - \\hl{2}{r}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{15}}{1 - \\hl{2}{0.6}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{15}}{0.4}"
+       },
+       {
+        "tex": "&= 37.5"
+       }
+      ]
+     }
+    ],
+    "final": "37.5 \\text{ mg}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(b)(iii)",
+    "note": "This time a and r are not given, so you find them from the series first, and r is negative. The check on r and the formula stay the same, but 1 − r is now bigger than 1.",
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r"
+    },
+    "steps": [
+     {
+      "ask": "How do you find r from two consecutive terms, and what must be true of its size?",
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\hl{1}{\\frac{1}{3}}"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{-1/9}{1/3} = \\hl{2}{-\\frac{1}{3}}"
+       },
+       {
+        "text": "$|\\hl{2}{r}| = \\hl{2}{\\frac13} < 1$, so the sum to infinity exists."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum to infinity formula fits, and what does 1 − r become when r is negative?",
+      "title": "Substitute into the sum to infinity",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\frac{\\hl{1}{a}}{1-\\hl{2}{r}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{\\frac{1}{3}}}{1-\\hl{2}{\\left(-\\frac{1}{3}\\right)}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{\\frac{1}{3}}}{1+\\frac{1}{3}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{\\frac{1}{3}}}{\\frac{4}{3}}"
+       },
+       {
+        "tex": "&= \\frac{1}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{4}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2019-higher-p1-q7#(a)(iii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the sum to infinity",
+      "lines": [
+       {
+        "text": "Since $|r| = \\frac23 < 1$, the sum to infinity exists."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1-r}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{1}{3}}{1-\\frac{2}{3}}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{1}{3}}{\\frac{1}{3}}"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     }
+    ],
+    "final": "1"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the sum to infinity of a geometric series",
+      "lines": [
+       {
+        "text": "The bounce heights form a geometric series with $a = \\frac{3}{2}$ and $r = \\frac{3}{4}$. Since $|r| < 1$, it has a sum to infinity."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1 - r}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{3}{2}}{1 - \\frac{3}{4}}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{3}{2}}{\\frac{1}{4}}"
+       },
+       {
+        "tex": "&= 6"
+       }
+      ]
+     },
+     {
+      "title": "Add the first drop and double the series",
+      "lines": [
+       {
+        "tex": "D &= 2 + 2(6)"
+       },
+       {
+        "tex": "&= 2 + 12"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     }
+    ],
+    "final": "14\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the angles as a geometric series",
+      "lines": [
+       {
+        "text": "Each angle is 90% of the one before, so the angles are $26, 26(0.9), 26(0.9)^2, \\dots$ with $a = 26$ and $r = 0.9$."
+       },
+       {
+        "text": "$|r| < 1$, so the series has a sum to infinity."
+       },
+       {
+        "tex": "S_\\infty &= \\frac{a}{1-r}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute and evaluate",
+      "lines": [
+       {
+        "tex": "S_\\infty &= \\frac{26}{1-0.9}"
+       },
+       {
+        "tex": "&= \\frac{26}{0.1}"
+       },
+       {
+        "tex": "&= 260"
+       }
+      ]
+     }
+    ],
+    "final": "260^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-geo-unknown-n",
+   "title": "Find the number of terms needed in a geometric series",
+   "level": "HL",
+   "input": "a, r, target term/sum",
+   "output": "n via logs"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+    "note": null,
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r",
+     "3": "number of terms n",
+     "4": "target value"
+    },
+    "steps": [
+     {
+      "ask": "What is the nth term formula, and what length do you want it to equal?",
+      "title": "Set the arc length equal to 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{45}(\\hl{2}{0.9})^{\\hl{3}{n}-1} &= \\hl{4}{2}"
+       },
+       {
+        "tex": "(\\hl{2}{0.9})^{\\hl{3}{n}-1} &= \\frac{\\hl{4}{2}}{\\hl{1}{45}}"
+       }
+      ]
+     },
+     {
+      "ask": "The unknown is in the power. What does taking a log do to a power?",
+      "title": "Take logs to bring down the power",
+      "lines": [
+       {
+        "tex": "\\hl{3}{n}-1 &= \\log_{\\hl{2}{0.9}}\\left(\\frac{\\hl{4}{2}}{\\hl{1}{45}}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "Once you have n − 1, what do you still need to do to find n?",
+      "title": "Evaluate n",
+      "lines": [
+       {
+        "tex": "\\hl{3}{n}-1 &= 29.5510..."
+       },
+       {
+        "tex": "\\hl{3}{n} &= 30.5510..."
+       }
+      ]
+     },
+     {
+      "ask": "Swings are numbered in whole numbers. Which swing is the first one under 2 cm?",
+      "title": "Choose the first whole swing",
+      "lines": [
+       {
+        "text": "$\\hl{3}{n}$ must be a whole number and $T_{30}$ is still more than 2, so the first swing under 2 cm is the next one."
+       },
+       {
+        "tex": "p &= 31"
+       }
+      ]
+     }
+    ],
+    "final": "p = 31",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q9#(a)(i)",
+    "note": "This time the sum of the first n distances is given, not one term, so the sum formula is needed. Solving for n stays the same.",
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r",
+     "3": "number of terms n",
+     "4": "target value"
+    },
+    "steps": [
+     {
+      "ask": "Each distance is a fixed multiple of the one before. What is the first distance, and what is that multiple?",
+      "title": "Spot the pattern in the distances",
+      "lines": [
+       {
+        "text": "The distances are $\\hl{1}{4}, 2, 1, \\frac12, \\frac14, \\dots$, each half the one before, so this is a geometric sequence."
+       },
+       {
+        "tex": "\\hl{1}{a} &= \\hl{1}{4}"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{2}{\\hl{1}{4}}"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\hl{2}{\\frac{1}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "The sum of the first n distances is given. Which formula gives that sum?",
+      "title": "Use the sum of n terms and set it equal to 7.9375",
+      "lines": [
+       {
+        "tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^n)}{1-\\hl{2}{r}}"
+       },
+       {
+        "tex": "S_n &= \\frac{\\hl{1}{4}\\left(1-\\hl{2}{\\left(\\frac12\\right)}^n\\right)}{1-\\hl{2}{\\frac12}}"
+       },
+       {
+        "tex": "S_n &= 8\\left(1-\\frac{1}{2^n}\\right)"
+       },
+       {
+        "tex": "8\\left(1-\\frac{1}{2^n}\\right) &= \\hl{4}{7.9375}"
+       }
+      ]
+     },
+     {
+      "ask": "Rearrange to get the power on its own. What power of 2 gives that number?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "1-\\frac{1}{2^n} &= 0.9921875"
+       },
+       {
+        "tex": "\\frac{1}{2^n} &= 0.0078125"
+       },
+       {
+        "tex": "\\frac{1}{2^n} &= \\frac{1}{128}"
+       },
+       {
+        "tex": "2^n &= 128"
+       },
+       {
+        "tex": "\\hl{3}{n} &= 7"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{7} \\text{ stages}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(e)(ii)",
+    "note": "This time the term must be less than a target, so you test whole values of n instead of solving an equation. The nth term is found the same way.",
+    "legend": {
+     "1": "first term a",
+     "2": "common ratio r",
+     "3": "number of terms n",
+     "4": "target value"
+    },
+    "steps": [
+     {
+      "ask": "How do you find the first term a₁ from the two values in the question?",
+      "title": "Find the first term",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a_1} &= p - p_1"
+       },
+       {
+        "tex": "&= 0.75 - 0.7"
+       },
+       {
+        "tex": "&= \\hl{1}{0.05}"
+       }
+      ]
+     },
+     {
+      "ask": "What formula gives the nth term from the first term and the common ratio?",
+      "title": "Write the nth term",
+      "lines": [
+       {
+        "tex": "a_n &= \\hl{1}{0.05}\\hl{2}{\\left(\\tfrac{1}{5}\\right)}^{\\hl{3}{n}-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Put n = 6 into the nth term. Is the answer less than the target?",
+      "title": "Test n = 6",
+      "lines": [
+       {
+        "tex": "a_6 &= \\hl{1}{0.05} \\times \\hl{2}{0.2}^5"
+       },
+       {
+        "tex": "&= 0.000016"
+       },
+       {
+        "text": "This is not less than $\\hl{4}{0.00001}$."
+       }
+      ]
+     },
+     {
+      "ask": "If n = 6 is not enough, which whole number do you try next?",
+      "title": "Test n = 7",
+      "lines": [
+       {
+        "tex": "a_7 &= \\hl{1}{0.05} \\times \\hl{2}{0.2}^6"
+       },
+       {
+        "tex": "&= 0.0000032"
+       },
+       {
+        "text": "This is less than $\\hl{4}{0.00001}$, so the smallest $\\hl{3}{n}$ is $\\hl{3}{7}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{n} = \\hl{3}{7}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q4#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the common ratio",
+      "lines": [
+       {
+        "text": "The percentages form a geometric sequence with first term $a = 95$."
+       },
+       {
+        "tex": "r &= \\frac{42.75}{95}"
+       },
+       {
+        "tex": "&= \\frac{9}{20}"
+       }
+      ]
+     },
+     {
+      "title": "Write the inequality for the nth day",
+      "lines": [
+       {
+        "tex": "T_n &= ar^{n-1}"
+       },
+       {
+        "tex": "95\\left(\\frac{9}{20}\\right)^{n-1} &< 0.01"
+       },
+       {
+        "tex": "\\left(\\frac{9}{20}\\right)^{n-1} &< \\frac{0.01}{95}"
+       }
+      ]
+     },
+     {
+      "title": "Take logs of both sides",
+      "lines": [
+       {
+        "tex": "(n-1)\\log\\left(\\frac{9}{20}\\right) &< \\log\\left(\\frac{0.01}{95}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $\\log\\left(\\frac{9}{20}\\right)$, which is negative",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality."
+       },
+       {
+        "tex": "n-1 &> \\frac{\\log\\left(\\frac{0.01}{95}\\right)}{\\log\\left(\\frac{9}{20}\\right)}"
+       },
+       {
+        "tex": "n-1 &> 11.47"
+       },
+       {
+        "tex": "n &> 12.47"
+       }
+      ]
+     },
+     {
+      "title": "Choose the first whole day",
+      "lines": [
+       {
+        "text": "$n$ must be a whole number, so the first day is the next whole number above $12.47$, which is day 13."
+       },
+       {
+        "text": "The marking scheme prints \"12th day\", but its own working gives $n > 12.47$, so the first day below 0.01% is day 13."
+       }
+      ]
+     }
+    ],
+    "final": "n > 12.47 \\text{, so the first day is day } 13"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(a)(iv)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Keep doubling every 5 days",
+      "lines": [
+       {
+        "text": "Start at day 15 with $1500$ cases and double each time the day goes up by 5."
+       },
+       {
+        "tex": "\\text{Day } 15 &= 1500"
+       },
+       {
+        "tex": "\\text{Day } 20 &= 3000"
+       },
+       {
+        "tex": "\\text{Day } 25 &= 6000"
+       },
+       {
+        "tex": "\\text{Day } 30 &= 12000"
+       },
+       {
+        "tex": "\\text{Day } 35 &= 24000"
+       },
+       {
+        "tex": "\\text{Day } 40 &= 48000"
+       },
+       {
+        "tex": "\\text{Day } 45 &= 96000"
+       }
+      ]
+     },
+     {
+      "title": "Take one more day",
+      "lines": [
+       {
+        "text": "On day 45 there are $96000$ cases, which is still under $100000$."
+       },
+       {
+        "text": "Cases grow by about $15\\%$ a day (doubling in 5 days), so day 46 is about $110000$, which is over $100000$."
+       }
+      ]
+     }
+    ],
+    "final": "t = 46"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-limits",
+   "title": "Find limits of sequences by inspection and limit rules",
+   "level": "HL",
+   "input": "sequence",
+   "output": "limit"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2023-higher-p1-q2#(b)",
+    "note": null,
+    "legend": {
+     "1": "a term that tends to 0 as n → ∞",
+     "2": "the limit, the answer"
+    },
+    "steps": [
+     {
+      "ask": "What can you do with the limit of a sum of three terms?",
+      "title": "Take the limit of each term separately",
+      "lines": [
+       {
+        "tex": "\\lim_{n\\to\\infty}\\left[\\frac{n}{n+1} + \\frac{n+1000}{n} + \\left(\\frac{1}{3}\\right)^n\\right] &= \\lim_{n\\to\\infty}\\frac{n}{n+1} + \\lim_{n\\to\\infty}\\frac{n+1000}{n} + \\lim_{n\\to\\infty}\\left(\\frac{1}{3}\\right)^n"
+       }
+      ]
+     },
+     {
+      "ask": "What could you divide the top and bottom of each fraction by to see what happens as n gets large?",
+      "title": "Divide top and bottom of the first two fractions by n",
+      "lines": [
+       {
+        "tex": "\\lim_{n\\to\\infty}\\frac{n}{n+1} &= \\lim_{n\\to\\infty}\\frac{1}{1 + \\hl{1}{\\frac{1}{n}}}"
+       },
+       {
+        "tex": "\\lim_{n\\to\\infty}\\frac{n+1000}{n} &= \\lim_{n\\to\\infty}\\left(1 + \\hl{1}{\\frac{1000}{n}}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "As n gets very large, what does each term like 1/n tend to? What about (1/3) raised to the power n?",
+      "title": "Let n tend to infinity",
+      "lines": [
+       {
+        "text": "As $n \\to \\infty$: $\\hl{1}{\\frac{1}{n}} \\to 0$, $\\hl{1}{\\frac{1000}{n}} \\to 0$ and $\\hl{1}{\\left(\\frac{1}{3}\\right)^n} \\to 0$."
+       },
+       {
+        "tex": "&= \\frac{1}{1+\\hl{1}{0}} + (1 + \\hl{1}{0}) + \\hl{1}{0}"
+       },
+       {
+        "tex": "&= 1 + 1 + 0"
+       },
+       {
+        "tex": "&= \\hl{2}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q10#(d)(iii)",
+    "note": "Changed from problem 1: one fraction in t with t² on top, instead of a sum of fractions in n. Same idea: divide every term by the power of t on the bottom, then let the terms with t in the bottom tend to 0.",
+    "legend": {
+     "1": "a term that tends to 0 as t → ∞",
+     "2": "the limit, the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which power of t could you divide every term on the top by to make the bottom simpler?",
+      "title": "Split into three fractions",
+      "lines": [
+       {
+        "text": "Divide each term of the numerator by $4t^2$."
+       },
+       {
+        "tex": "Q_\\infty &= \\lim_{t\\to\\infty}\\frac{t^2 + 2t + 1}{4t^2}"
+       },
+       {
+        "tex": "&= \\lim_{t\\to\\infty}\\left(\\frac{t^2}{4t^2} + \\frac{2t}{4t^2} + \\frac{1}{4t^2}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "Cancel the powers of t in each fraction. What is left?",
+      "title": "Simplify each fraction",
+      "lines": [
+       {
+        "tex": "Q_\\infty &= \\lim_{t\\to\\infty}\\left(\\frac{1}{4} + \\hl{1}{\\frac{1}{2t}} + \\hl{1}{\\frac{1}{4t^2}}\\right)"
+       }
+      ]
+     },
+     {
+      "ask": "As t gets very large, which terms tend to 0, and what is left?",
+      "title": "Take the limit",
+      "lines": [
+       {
+        "text": "As $t\\to\\infty$, $\\hl{1}{\\frac{1}{2t}}\\to 0$ and $\\hl{1}{\\frac{1}{4t^2}}\\to 0$."
+       },
+       {
+        "tex": "Q_\\infty &= \\frac{1}{4} + \\hl{1}{0} + \\hl{1}{0}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{1}{4}}"
+       }
+      ]
+     }
+    ],
+    "final": "Q_\\infty = \\hl{2}{\\frac{1}{4}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(c)(ii)",
+    "note": "Changed from problem 2: there is no algebra now, just one power of a fraction whose base is between -1 and 1. Same idea: the term that tends to 0 gives the limit.",
+    "legend": {
+     "1": "a term that tends to 0 as n → ∞",
+     "2": "the limit, the answer"
+    },
+    "steps": [
+     {
+      "ask": "Look at the base of the power. What happens to a power of a number between -1 and 1 as n gets large?",
+      "title": "Take the limit as n tends to infinity",
+      "lines": [
+       {
+        "text": "The fraction remaining at step $n$ is $\\hl{1}{\\left(\\frac{3}{4}\\right)^n}$, and $\\frac{3}{4}$ is between $-1$ and $1$."
+       },
+       {
+        "tex": "\\lim_{n\\to\\infty}\\hl{1}{\\left(\\frac{3}{4}\\right)^n} &= \\hl{2}{0}"
+       },
+       {
+        "text": "The fraction remaining tends to $\\hl{2}{0}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{0}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(d)(ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace p_{n+1} and p_n by p",
+      "lines": [
+       {
+        "tex": "p &= 0.6 + 0.2p"
+       }
+      ]
+     },
+     {
+      "title": "Solve for p",
+      "lines": [
+       {
+        "tex": "p - 0.2p &= 0.6"
+       },
+       {
+        "tex": "0.8p &= 0.6"
+       },
+       {
+        "tex": "p &= \\frac{0.6}{0.8}"
+       },
+       {
+        "tex": "&= 0.75"
+       }
+      ]
+     }
+    ],
+    "final": "p = 0.75"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(d)(iii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Area",
+      "lines": [
+       {
+        "text": "From (c)(ii) the fraction remaining tends to 0, so the total area of the black triangles tends to 0."
+       },
+       {
+        "tex": "\\text{Area} &\\to 0"
+       }
+      ]
+     },
+     {
+      "title": "Perimeter",
+      "lines": [
+       {
+        "text": "The perimeter is multiplied by $\\frac{3}{2} > 1$ each step, so it keeps growing."
+       },
+       {
+        "tex": "\\text{Perimeter} &\\to \\infty"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Area} \\to 0 \\text{ and perimeter} \\to \\infty"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-pattern",
+   "title": "Continue and generalise a pattern",
+   "level": "OL",
+   "input": "terms or diagrams of a pattern",
+   "output": "next terms; nth term in algebraic form"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(e)",
+    "note": null,
+    "legend": {
+     "1": "the rule, the formula for the nth term"
+    },
+    "steps": [
+     {
+      "ask": "What kind of numbers are the totals for patterns 1, 2 and 3, and how does each relate to its pattern number?",
+      "title": "Spot the pattern in the totals",
+      "lines": [
+       {
+        "text": "The totals are square numbers."
+       },
+       {
+        "tex": "T_1 &= 4 = 2^2"
+       },
+       {
+        "tex": "T_2 &= 9 = 3^2"
+       },
+       {
+        "tex": "T_3 &= 16 = 4^2"
+       },
+       {
+        "text": "The square is always one more than the pattern number."
+       },
+       {
+        "tex": "T_n &= \\hl{1}{(n+1)^2}"
+       }
+      ]
+     }
+    ],
+    "final": "T_n = \\hl{1}{(n+1)^2}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q9#(b)(i)",
+    "note": "Changed from problem 1: the pattern is sticks and the rule is adding 4 each time, so you find the next terms rather than a formula. Same idea: find the rule from the terms and use it to keep going.",
+    "legend": {
+     "1": "the rule, the amount added each time",
+     "2": "the answer, the term asked for"
+    },
+    "steps": [
+     {
+      "ask": "How much does the number of sticks change from one pattern to the next?",
+      "title": "Continue the pattern up to pattern 10",
+      "lines": [
+       {
+        "text": "The sequence $3, 7, 11, \\dots$ goes up by $\\hl{1}{4}$ each time, so pattern 6 has $23$ sticks."
+       },
+       {
+        "tex": "\\text{Pattern 7} &= 23 + \\hl{1}{4} = 27"
+       },
+       {
+        "tex": "\\text{Pattern 8} &= 27 + \\hl{1}{4} = 31"
+       },
+       {
+        "tex": "\\text{Pattern 9} &= 31 + \\hl{1}{4} = 35"
+       },
+       {
+        "tex": "\\text{Pattern 10} &= 35 + \\hl{1}{4} = \\hl{2}{39}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{39}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(i)",
+    "note": "Changed from problem 2: the terms are money (euros) and negative, from a loss. Same idea: a fixed amount is added each time, and each term comes from the one before.",
+    "legend": {
+     "1": "the rule, the amount added each time",
+     "2": "the answer, the term asked for"
+    },
+    "steps": [
+     {
+      "ask": "What is added to the loss each month? Use that to find the months asked for.",
+      "title": "Add 250 each month",
+      "lines": [
+       {
+        "text": "The loss falls by €250 each month, so each month's profit is €250 more than the month before."
+       },
+       {
+        "tex": "T_3 &= -3750 + \\hl{1}{250}"
+       },
+       {
+        "tex": "&= \\hl{2}{-3500}"
+       },
+       {
+        "tex": "T_5 &= -3250 + \\hl{1}{250}"
+       },
+       {
+        "tex": "&= \\hl{2}{-3000}"
+       },
+       {
+        "tex": "T_6 &= -3000 + \\hl{1}{250}"
+       },
+       {
+        "tex": "&= \\hl{2}{-2750}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{-3500},\\ \\hl{2}{-3000},\\ \\hl{2}{-2750}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2025-ordinary-p1-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Join every pair of dots",
+      "lines": [
+       {
+        "text": "Pattern 3 has 4 dots. Each pair of dots is joined by a line segment."
+       },
+       {
+        "text": "Draw the 4 sides of the square and the 2 diagonals. That is 6 line segments."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{4 dots joined by 6 line segments}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Spot how each pattern grows",
+      "lines": [
+       {
+        "text": "Pattern 1 has 2 rows, pattern 2 has 3 rows, pattern 3 has 4 rows."
+       },
+       {
+        "text": "So pattern 4 has 5 rows. Row $k$ has $k$ black triangles pointing up, with $k-1$ white triangles pointing down between them."
+       }
+      ]
+     },
+     {
+      "title": "Draw the rows of pattern 4",
+      "lines": [
+       {
+        "text": "Rows from the top: 1 black; 2 black and 1 white; 3 black and 2 white; 4 black and 3 white; 5 black and 4 white."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pattern 4: 5 rows, 15 black and 10 white triangles}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q7#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot how each pattern grows",
+      "lines": [
+       {
+        "text": "Pattern $n$ has a top row of $n+2$ tiles and a leg of $n$ tiles hanging below each end."
+       },
+       {
+        "text": "Pattern 3 has 5 on top and legs of 3, so pattern 4 has 6 on top and legs of 4."
+       }
+      ]
+     },
+     {
+      "title": "Draw pattern 4",
+      "lines": [
+       {
+        "text": "Add one tile to the top row and one tile to the bottom of each leg. The new pattern is drawn in blue."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pattern 4: top row of 6 tiles, a leg of 4 tiles at each end}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-quadratic",
+   "title": "Find the nth term of a quadratic sequence",
+   "level": "OL",
+   "input": "terms with constant second difference",
+   "output": "Tₙ = an² + bn + c"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2016-ordinary-p1-q5#(b)",
+    "note": null,
+    "legend": {
+     "1": "the given value of a term, U₁ or U₂",
+     "2": "the unknown coefficient, b or c"
+    },
+    "steps": [
+     {
+      "ask": "Put n = 1 into the formula. What must the formula equal, and what equation does that give?",
+      "title": "Substitute n = 1",
+      "lines": [
+       {
+        "text": "$U_1 = \\hl{1}{13}$."
+       },
+       {
+        "tex": "1^2 + \\hl{2}{b}(1) + \\hl{2}{c} &= \\hl{1}{13}"
+       },
+       {
+        "tex": "1 + \\hl{2}{b} + \\hl{2}{c} &= \\hl{1}{13}"
+       },
+       {
+        "tex": "\\hl{2}{b} + \\hl{2}{c} &= 12"
+       }
+      ]
+     },
+     {
+      "ask": "Do the same with n = 2. What equation do you get?",
+      "title": "Substitute n = 2",
+      "lines": [
+       {
+        "text": "$U_2 = \\hl{1}{15}$."
+       },
+       {
+        "tex": "2^2 + \\hl{2}{b}(2) + \\hl{2}{c} &= \\hl{1}{15}"
+       },
+       {
+        "tex": "4 + 2\\hl{2}{b} + \\hl{2}{c} &= \\hl{1}{15}"
+       },
+       {
+        "tex": "2\\hl{2}{b} + \\hl{2}{c} &= 11"
+       }
+      ]
+     },
+     {
+      "ask": "You now have two equations in b and c. What could you subtract to remove c?",
+      "title": "Subtract the equations to find b",
+      "lines": [
+       {
+        "text": "Subtract $\\hl{2}{b} + \\hl{2}{c} = 12$ from $2\\hl{2}{b} + \\hl{2}{c} = 11$."
+       },
+       {
+        "tex": "(2\\hl{2}{b} + \\hl{2}{c}) - (\\hl{2}{b} + \\hl{2}{c}) &= 11 - 12"
+       },
+       {
+        "tex": "\\hl{2}{b} &= 11 - 12"
+       },
+       {
+        "tex": "\\hl{2}{b} &= -1"
+       }
+      ]
+     },
+     {
+      "ask": "Put b back into one of your equations. What is c?",
+      "title": "Substitute b = -1 into b + c = 12",
+      "lines": [
+       {
+        "tex": "-1 + \\hl{2}{c} &= 12"
+       },
+       {
+        "tex": "\\hl{2}{c} &= 12 + 1"
+       },
+       {
+        "tex": "\\hl{2}{c} &= 13"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{b = -1},\\; \\hl{2}{c = 13}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(f)",
+    "note": "Changed from problem 1: a and b are already given in the formula, so only c is unknown and one substitution is enough. Same idea: put n = 1 in, since that term is known, and solve for the unknown.",
+    "legend": {
+     "1": "the given value of the term at n = 1",
+     "2": "the unknown coefficient, c"
+    },
+    "steps": [
+     {
+      "ask": "Pattern 1 is the first term. What does the formula give when n = 1, and what must it equal?",
+      "title": "Substitute n = 1 into the formula",
+      "lines": [
+       {
+        "text": "Pattern 1 has 3 black triangles, so $B_1 = \\hl{1}{3}$."
+       },
+       {
+        "tex": "B_1 &= \\tfrac{1}{2}(1)^2 + \\tfrac{3}{2}(1) + \\hl{2}{c}"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2} + \\tfrac{3}{2} + \\hl{2}{c}"
+       },
+       {
+        "tex": "&= 2 + \\hl{2}{c}"
+       }
+      ]
+     },
+     {
+      "ask": "Once only c is left in the equation, how do you get c on its own?",
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "2 + \\hl{2}{c} &= \\hl{1}{3}"
+       },
+       {
+        "tex": "\\hl{2}{c} &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{c = 1}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q9#(b)(vi)",
+    "note": "Changed from problem 2: the numbers are decimals (0.5) and the context is line segments. Same idea: n = 1 gives one equation with the one unknown, b.",
+    "legend": {
+     "1": "the given value of the term at n = 1, T(1) = 1",
+     "2": "the unknown coefficient, b"
+    },
+    "steps": [
+     {
+      "ask": "Pattern 1 has one line segment. What does T(n) give when n = 1?",
+      "title": "Substitute n = 1 into T(n)",
+      "lines": [
+       {
+        "text": "Pattern 1 has 1 line segment, so $T(1) = \\hl{1}{1}$."
+       },
+       {
+        "tex": "0.5(1)^2 + \\hl{2}{b}(1) &= \\hl{1}{1}"
+       },
+       {
+        "tex": "0.5 + \\hl{2}{b} &= \\hl{1}{1}"
+       }
+      ]
+     },
+     {
+      "ask": "Get b on its own. What do you subtract from both sides?",
+      "title": "Solve for b",
+      "lines": [
+       {
+        "tex": "\\hl{2}{b} &= 1 - 0.5"
+       },
+       {
+        "tex": "&= 0.5"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{b = 0.5}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(c)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the numbers of black triangles",
+      "lines": [
+       {
+        "tex": "&3,\\ 6,\\ 10,\\ 15,\\ 21"
+       }
+      ]
+     },
+     {
+      "title": "Find the first differences",
+      "lines": [
+       {
+        "tex": "6 - 3 &= 3"
+       },
+       {
+        "tex": "10 - 6 &= 4"
+       },
+       {
+        "tex": "15 - 10 &= 5"
+       },
+       {
+        "tex": "21 - 15 &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Find the second differences",
+      "lines": [
+       {
+        "tex": "4 - 3 &= 1"
+       },
+       {
+        "tex": "5 - 4 &= 1"
+       },
+       {
+        "tex": "6 - 5 &= 1"
+       },
+       {
+        "text": "The second difference is constant (always 1), so the sequence is quadratic."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{second difference constant } (=1),\\ \\text{so quadratic}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(h)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find which pattern has 625 triangles",
+      "lines": [
+       {
+        "tex": "(n+1)^2 &= 625"
+       },
+       {
+        "text": "$625 = 25^2$ and $n+1$ is positive."
+       },
+       {
+        "tex": "n + 1 &= 25"
+       },
+       {
+        "tex": "n &= 24"
+       }
+      ]
+     },
+     {
+      "title": "Find the black triangles in pattern 24",
+      "lines": [
+       {
+        "tex": "B_{24} &= \\tfrac{1}{2}(24)^2 + \\tfrac{3}{2}(24) + 1"
+       },
+       {
+        "tex": "&= 288 + 36 + 1"
+       },
+       {
+        "tex": "&= 325"
+       }
+      ]
+     },
+     {
+      "title": "Find the white triangles",
+      "lines": [
+       {
+        "tex": "W_{24} &= 625 - 325"
+       },
+       {
+        "tex": "&= 300"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Black} = 325,\\ \\text{White} = 300"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q4#(c)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the total as grey plus white",
+      "lines": [
+       {
+        "tex": "T_n &= (n + 1)^2 + 2"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "(n + 1)^2 + 2 &= n^2 + 2n + 1 + 2"
+       },
+       {
+        "tex": "&= n^2 + 2n + 3"
+       }
+      ]
+     },
+     {
+      "title": "Compare with n² + bn + c",
+      "lines": [
+       {
+        "text": "$n^2 + bn + c = n^2 + 2n + 3$, so $b = 2$ and $c = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "b = 2,\\ c = 3"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-averages",
+   "title": "Find mean, median and mode (incl. frequency tables)",
+   "level": "JC",
+   "input": "data set or frequency table",
+   "output": "mean, median, mode"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q3#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "the total of all the values",
+     "2": "the answer, the mean"
+    },
+    "steps": [
+     {
+      "ask": "How many numbers are there, and what do you do with their total to get the mean?",
+      "title": "Add the numbers and divide by 7",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{17 + 8 + 9 + 8 + 14 + 11 + 28}{7}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{95}}{7}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{13.6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{13.6}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(b)",
+    "note": "Changed from problem 1: the 16 values are given as a stem-and-leaf plot, so you total them stem by stem before dividing. Same idea: the mean is the total divided by the number of values.",
+    "legend": {
+     "1": "the total of all the values",
+     "2": "the answer, the mean"
+    },
+    "steps": [
+     {
+      "ask": "The values are grouped by stem. How could you total each row before adding everything?",
+      "title": "Add up all 16 waiting times",
+      "lines": [
+       {
+        "text": "Add the values stem by stem."
+       },
+       {
+        "tex": "\\text{Sum} &= (5+8) + (12+12+12+13) + (20+24+25+27) + (30+31+32+34+34) + 44"
+       },
+       {
+        "tex": "&= 13 + 49 + 96 + 161 + 44"
+       },
+       {
+        "tex": "&= \\hl{1}{363}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide the total by to get the mean?",
+      "title": "Divide by the number of patients",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{\\hl{1}{363}}{16}"
+       },
+       {
+        "tex": "&= 22.6875"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{22.7}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{22.7}\\text{ minutes}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q7#(a)(iii)",
+    "note": "Changed from problem 2: the measure is now the median, read from a table of percentages, not the mean of a list. Same idea: you still add the values up, here as a running total, and compare it with a target.",
+    "legend": {
+     "1": "the running total of the percentages",
+     "2": "the answer, the age group of the median"
+    },
+    "steps": [
+     {
+      "ask": "The median is where the cumulative percentage passes the half-way mark. How could you add the percentages from the youngest group?",
+      "title": "The median is at the 50% mark",
+      "lines": [
+       {
+        "text": "Add up the percentages from the youngest group until the total passes 50."
+       },
+       {
+        "tex": "24 &< 50"
+       },
+       {
+        "tex": "24 + 27 &= \\hl{1}{51}"
+       },
+       {
+        "tex": "\\hl{1}{51} &> 50"
+       },
+       {
+        "text": "The 50% mark is reached in the second group."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{25 \\text{ to } 35 \\text{ age group}}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Interpret the median",
+      "lines": [
+       {
+        "text": "The median is the middle value. Half of the 500 girls (250 girls) are shorter than $164.5$ cm and half are taller."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Half the girls are shorter than } 164.5 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add the seven yearly totals and divide by 7",
+      "lines": [
+       {
+        "tex": "m &= \\frac{2779 + 3100 + 3175 + 3104 + 2825 + 2580 + 2547}{7}"
+       },
+       {
+        "tex": "m &= \\frac{20110}{7}"
+       },
+       {
+        "tex": "m &\\approx 2872.857"
+       },
+       {
+        "tex": "m &\\approx 2872.9"
+       }
+      ]
+     }
+    ],
+    "final": "2872.9 \\text{ kilotonnes}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Mean of the Remain values",
+      "lines": [
+       {
+        "text": "Mean $= \\dfrac{\\sum x}{n}$, with $n = 6$ age groups."
+       },
+       {
+        "tex": "\\text{Remain mean} &= \\frac{73+62+52+44+43+40}{6}"
+       },
+       {
+        "tex": "&= \\frac{314}{6}"
+       },
+       {
+        "tex": "&= 52.33"
+       }
+      ]
+     },
+     {
+      "title": "Mean of the Leave values",
+      "lines": [
+       {
+        "tex": "\\text{Leave mean} &= \\frac{27+38+48+56+57+60}{6}"
+       },
+       {
+        "tex": "&= \\frac{286}{6}"
+       },
+       {
+        "tex": "&= 47.67"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Remain} = 52.33\\%,\\ \\text{Leave} = 47.67\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-back-to-back",
+   "title": "Compare data sets with back-to-back stem-and-leaf plots",
+   "level": "OL",
+   "input": "two data sets",
+   "output": "plot and comparison of centre/spread"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "the stem, the whole kg part",
+     "2": "the leaf, the digit after the decimal point"
+    },
+    "steps": [
+     {
+      "ask": "A weight like 6.0 kg has two parts. Which one is the stem and which is the leaf?",
+      "title": "Split each weight into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the whole number of kg. The leaf is the digit after the decimal point."
+       },
+       {
+        "text": "The key $\\hl{1}{6} | \\hl{2}{0} = 6.0$ kg means the stem 6 and leaf 0 give 6.0 kg."
+       }
+      ]
+     },
+     {
+      "ask": "Take the stems one at a time. Which Day X weights fall under stem 5?",
+      "title": "List the Day X leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.5, 4.9 so leaves 5, 9."
+       },
+       {
+        "text": "Stem 5: 5.3, 5.3, 5.5, 5.7 so leaves 3, 3, 5, 7."
+       },
+       {
+        "text": "Stem 6: 6.7, 6.9 so leaves 7, 9."
+       },
+       {
+        "text": "Stem 7: 7.3, 7.4 so leaves 3, 4. Stem 8: no leaves."
+       }
+      ]
+     },
+     {
+      "ask": "Repeat for Day Y. Which Day Y weights fall under stem 7?",
+      "title": "List the Day Y leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.8 so leaf 8."
+       },
+       {
+        "text": "Stem 5: 5.4, 5.5 so leaves 4, 5."
+       },
+       {
+        "text": "Stem 6: 6.0, 6.1, 6.3 so leaves 0, 1, 3."
+       },
+       {
+        "text": "Stem 7: 7.0, 7.6, 7.9 so leaves 0, 6, 9. Stem 8: 8.1 so leaf 1."
+       }
+      ]
+     },
+     {
+      "ask": "Which leaf goes next to the stem on each side: the smallest or the largest?",
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Day X leaves on the left of the stem and Day Y leaves on the right, smallest next to the stem."
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each dog."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Back-to-back stem-and-leaf plot as drawn}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "note": "Changed from problem 1: the values are whole numbers running into rows 10 and 11, so the stems are tens and hundreds. Same idea: each leaf is one units digit placed on its row.",
+    "legend": {
+     "2": "the leaf, the units digit"
+    },
+    "steps": [
+     {
+      "ask": "For a number like 83, which digit is its stem and which is its leaf?",
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "ask": "Which values go in row 6, and what leaves do they give?",
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $\\hl{2}{0}, \\hl{2}{5}, \\hl{2}{7}, \\hl{2}{8}$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $\\hl{2}{0}, \\hl{2}{6}, \\hl{2}{7}$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $\\hl{2}{3}, \\hl{2}{8}, \\hl{2}{9}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which rows do the after-exercise values go in, and what are their units digits?",
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $\\hl{2}{2}, \\hl{2}{8}$. $113, 118$ in row 11 as leaves $\\hl{2}{3}, \\hl{2}{8}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(ii)",
+    "note": "Changed from problem 2: you read a finished plot to compare the two data sets (the same dogs as problem 1) rather than building it. Same idea: each side of the plot is one data set, read by its stems.",
+    "legend": {
+     "1": "the stem, the whole kg part"
+    },
+    "steps": [
+     {
+      "ask": "Look at where each day's stems and leaves sit. Which day has the higher weights?",
+      "title": "Compare the two sides of the plot",
+      "lines": [
+       {
+        "text": "Day X: weights run from 4.5 kg to 7.4 kg, with most leaves on $\\hl{1}{\\text{stems 5 and 6}}$."
+       },
+       {
+        "text": "Day Y: weights run from 4.8 kg to 8.1 kg, with more leaves on $\\hl{1}{\\text{stems 6, 7 and 8}}$."
+       },
+       {
+        "text": "Each dog's Day Y weight is above its Day X weight, so the weights have increased."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The weights of the dogs increased from Day X to Day Y.}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the 175 to 180 bars",
+      "lines": [
+       {
+        "text": "Answer: Yes. Girls: $5.8\\%$. Boys: about $11.5\\%$."
+       },
+       {
+        "text": "Both samples have 500 students, so percentages compare numbers directly. $2 \\times 5.8 = 11.6 \\approx 11.5$, so about twice as many boys."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Yes}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iv)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the tall groups",
+      "lines": [
+       {
+        "text": "Answer: No. Take tall to mean 175 cm or more."
+       },
+       {
+        "text": "Girls: $5.8\\% + 2\\% = 7.8\\%$. Boys: about $11.5\\% + 9.3\\% = 20.8\\%$. A larger percentage of boys are tall, so there are more tall boys than tall girls."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{No}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}"
+   }
+  ]
+ }
+]

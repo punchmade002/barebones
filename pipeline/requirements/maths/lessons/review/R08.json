@@ -1,0 +1,2357 @@
+[
+ {
+  "skill": {
+   "id": "alg-rearrange",
+   "title": "Rearrange a formula",
+   "level": "OL",
+   "input": "formula + new subject",
+   "output": "subject = expression"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the subject, R",
+     "2": "the factors on R: P, 5252, T"
+    },
+    "steps": [
+     {
+      "ask": "Which letter must be on its own? What is dividing it, and what do you do to both sides to get rid of that?",
+      "title": "Multiply both sides by 5252",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P} &= \\frac{\\hl{1}{R} \\times \\hl{2}{T}}{\\hl{2}{5252}}"
+       },
+       {
+        "tex": "\\hl{2}{5252P} &= \\hl{1}{R} \\times \\hl{2}{T}"
+       }
+      ]
+     },
+     {
+      "ask": "R is still multiplied by T on the right. What operation leaves R on its own?",
+      "title": "Divide both sides by T",
+      "lines": [
+       {
+        "tex": "\\hl{1}{R} &= \\frac{\\hl{2}{5252P}}{\\hl{2}{T}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{R} = \\frac{\\hl{2}{5252P}}{\\hl{2}{T}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q9#(b)(i)",
+    "note": "The subject d is now inside a square root, so the first move is to square both sides. The factor g and the last division stay the same as in problem 1.",
+    "legend": {
+     "1": "the subject, d",
+     "2": "the factor on d, g"
+    },
+    "steps": [
+     {
+      "ask": "The subject d is inside a square root. What undoes a square root?",
+      "title": "Square both sides to remove the square root",
+      "lines": [
+       {
+        "tex": "s &= \\sqrt{\\hl{2}{g} \\times \\hl{1}{d}}"
+       },
+       {
+        "tex": "s^2 &= \\hl{2}{g} \\times \\hl{1}{d}"
+       }
+      ]
+     },
+     {
+      "ask": "d is still multiplied by g. What do you do to get d on its own?",
+      "title": "Divide both sides by g",
+      "lines": [
+       {
+        "tex": "\\hl{1}{d} &= \\frac{s^2}{\\hl{2}{g}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{d} = \\frac{s^2}{\\hl{2}{g}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q9#(e)(ii)",
+    "note": "The subject h is now cubed and sits in a fraction, so the last undo is a cube root instead of a square root. The factor P is still divided out, as before.",
+    "legend": {
+     "1": "the subject, h (cubed)",
+     "2": "the factor on h, P"
+    },
+    "steps": [
+     {
+      "ask": "The subject h is in the bottom of a fraction and is cubed. What is the first move to bring h cubed up?",
+      "title": "Multiply both sides by h cubed",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P} &= \\frac{M}{\\hl{1}{h^3}}"
+       },
+       {
+        "tex": "\\hl{2}{P}\\hl{1}{h^3} &= M"
+       }
+      ]
+     },
+     {
+      "ask": "P is multiplied onto h cubed. What leaves h cubed on its own?",
+      "title": "Divide both sides by P",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h^3} &= \\frac{M}{\\hl{2}{P}}"
+       }
+      ]
+     },
+     {
+      "ask": "h cubed is on its own now. What undoes a power of 3?",
+      "title": "Take the cube root of both sides",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h} &= \\sqrt[3]{\\frac{M}{\\hl{2}{P}}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{h} = \\sqrt[3]{\\frac{M}{\\hl{2}{P}}}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p1-q8#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the perimeter of the rectangle",
+      "lines": [
+       {
+        "text": "A rectangle has two lengths $x$ and two widths $y$, and the fencing is $21$ m."
+       },
+       {
+        "tex": "2x + 2y &= 21"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 2",
+      "lines": [
+       {
+        "tex": "x + y &= 10.5"
+       }
+      ]
+     },
+     {
+      "title": "Subtract x from both sides",
+      "lines": [
+       {
+        "tex": "y &= 10.5 - x"
+       }
+      ]
+     }
+    ],
+    "final": "y = 10.5 - x"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q7#(a)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply both sides by S + 10",
+      "lines": [
+       {
+        "tex": "C &= \\frac{1000}{S + 10}"
+       },
+       {
+        "tex": "C(S + 10) &= 1000"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "CS + 10C &= 1000"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 10C from both sides",
+      "lines": [
+       {
+        "tex": "CS &= 1000 - 10C"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by C",
+      "lines": [
+       {
+        "tex": "S &= \\frac{1000 - 10C}{C}"
+       }
+      ]
+     }
+    ],
+    "final": "S = \\frac{1000 - 10C}{C}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q10#(d)(i)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Make n the subject",
+      "lines": [
+       {
+        "tex": "t &= 2n + 1"
+       },
+       {
+        "tex": "t - 1 &= 2n"
+       },
+       {
+        "tex": "\\frac{t-1}{2} &= n"
+       },
+       {
+        "tex": "n &= \\frac{t-1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "n = \\frac{t-1}{2}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-addition-rule",
+   "title": "Apply the addition rule",
+   "level": "HL",
+   "input": "P(A), P(B), P(A ∩ B)",
+   "output": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "P(red), the first probability",
+     "2": "P(yellow), the second probability",
+     "4": "P(red or yellow), the union"
+    },
+    "steps": [
+     {
+      "ask": "Read P(red) and P(yellow) from the spinner. What fraction of the spinner is each?",
+      "title": "Find each probability from the colour spinner",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(\\text{red})} &= \\hl{1}{\\frac{1}{4}}"
+       },
+       {
+        "tex": "\\hl{2}{P(\\text{yellow})} &= \\hl{2}{\\frac{1}{4}}"
+       }
+      ]
+     },
+     {
+      "ask": "Red and yellow cannot both happen. What do you do to their two probabilities to get the chance of either?",
+      "title": "Add, since red and yellow cannot both happen",
+      "lines": [
+       {
+        "tex": "\\hl{4}{P(\\text{red or yellow})} &= \\hl{1}{\\frac{1}{4}} + \\hl{2}{\\frac{1}{4}}"
+       },
+       {
+        "tex": "&= \\frac{2}{4}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{1}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\frac{1}{2}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q2#(b)",
+    "note": "The rule is now written in full, with a P(A ∩ B) term. The events are still mutually exclusive, so that term is 0 and you still just add the two probabilities.",
+    "legend": {
+     "1": "P(A), the first probability",
+     "2": "P(B), the second probability",
+     "3": "P(A ∩ B), the overlap",
+     "4": "P(A ∪ B), the union"
+    },
+    "steps": [
+     {
+      "ask": "What does mutually exclusive tell you about P(A and B)?",
+      "title": "Use mutually exclusive events",
+      "lines": [
+       {
+        "text": "Mutually exclusive events cannot happen together."
+       },
+       {
+        "tex": "\\hl{3}{P(A \\cap B)} &= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "What are the three terms of the addition rule for P(A or B)? Which values can you put in already?",
+      "title": "Use the addition rule",
+      "lines": [
+       {
+        "tex": "\\hl{4}{P(A \\cup B)} &= \\hl{1}{P(A)} + \\hl{2}{P(B)} - \\hl{3}{P(A \\cap B)}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.1} + \\hl{2}{0.4} - \\hl{3}{0}"
+       },
+       {
+        "tex": "&= \\hl{4}{0.5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{P(A \\cap B)} = \\hl{3}{0},\\; \\hl{4}{P(A \\cup B)} = \\hl{4}{0.5}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q3#(a)(ii)",
+    "note": "Now the events can happen together, so P(A ∩ C) is not 0 and has to be subtracted. The addition rule is the same; only the overlap changes.",
+    "legend": {
+     "1": "P(A), the first probability",
+     "2": "P(C), the second probability",
+     "3": "P(A ∩ C), the overlap",
+     "4": "P(A ∪ C), the union"
+    },
+    "steps": [
+     {
+      "ask": "Which parts of the diagram are inside A or C? Count them and divide by the total.",
+      "title": "Find P(A ∪ C) from the diagram",
+      "lines": [
+       {
+        "text": "$A \\cup C$ is everything in $A$ or $C$: the regions $60$ (all of $A$), $16$ and $41$."
+       },
+       {
+        "tex": "\\hl{4}{P(A \\cup C)} &= \\hl{4}{\\frac{60 + 16 + 41}{240}}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{117}{240}}"
+       }
+      ]
+     },
+     {
+      "ask": "Find each single probability first. Which region is in both A and C?",
+      "title": "Find P(A), P(C) and P(A ∩ C)",
+      "lines": [
+       {
+        "text": "$C$ contains $13 + 6 + 16 + 41 = 76$ people."
+       },
+       {
+        "tex": "\\hl{1}{P(A)} &= \\hl{1}{\\frac{60}{240}}"
+       },
+       {
+        "tex": "\\hl{2}{P(C)} &= \\hl{2}{\\frac{76}{240}}"
+       },
+       {
+        "text": "$A \\cap C$ contains $13 + 6 = 19$ people."
+       },
+       {
+        "tex": "\\hl{3}{P(A \\cap C)} &= \\hl{3}{\\frac{19}{240}}"
+       }
+      ]
+     },
+     {
+      "ask": "Put your values for P(A), P(C) and P(A ∩ C) into the formula. What do you get?",
+      "title": "Substitute into P(A) + P(C) - P(A ∩ C)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(A)} + \\hl{2}{P(C)} - \\hl{3}{P(A \\cap C)} &= \\hl{4}{\\frac{60 + 76 - 19}{240}}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{117}{240}}"
+       },
+       {
+        "text": "This equals $\\hl{4}{P(A \\cup C)}$, so the formula is verified."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{P(A \\cup C)} = \\hl{4}{\\frac{117}{240}} = \\hl{1}{P(A)} + \\hl{2}{P(C)} - \\hl{3}{P(A \\cap C)}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2024-higher-p2-q2#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Link the complement to the union",
+      "lines": [
+       {
+        "text": "To make $(C \\cup D)'$ as large as possible, make $P(C \\cup D)$ as small as possible."
+       },
+       {
+        "tex": "P(C \\cup D) &= P(C) + P(D) - P(C \\cap D)"
+       },
+       {
+        "tex": "&= 0.5 + 0.7 - P(C \\cap D)"
+       }
+      ]
+     },
+     {
+      "title": "Make the overlap as big as possible",
+      "lines": [
+       {
+        "text": "$P(C \\cap D)$ cannot be bigger than $P(C) = 0.5$. This happens when $C$ lies inside $D$."
+       },
+       {
+        "tex": "P(C \\cup D)_{\\min} &= 1.2 - 0.5"
+       },
+       {
+        "tex": "&= 0.7"
+       }
+      ]
+     },
+     {
+      "title": "Take the complement",
+      "lines": [
+       {
+        "tex": "P[(C \\cup D)^{\\prime}]_{\\max} &= 1 - 0.7"
+       },
+       {
+        "tex": "&= 0.3"
+       }
+      ]
+     }
+    ],
+    "final": "0.3"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q3#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the complement rule",
+      "lines": [
+       {
+        "text": "The probabilities of an event and of its opposite add to 1."
+       },
+       {
+        "tex": "P(\\text{not blue}) &= 1 - 0.7"
+       },
+       {
+        "tex": "&= 0.3"
+       }
+      ]
+     }
+    ],
+    "final": "0.3"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q1#(c)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the probabilities that are given",
+      "lines": [
+       {
+        "tex": "\\text{Sum} &= 0.14 + 0.15 + 0.18 + 0.15 + 0.12 + 0.1"
+       },
+       {
+        "tex": "&= 0.84"
+       }
+      ]
+     },
+     {
+      "title": "All the probabilities add up to 1",
+      "lines": [
+       {
+        "tex": "P(\\text{Tue}) &= 1 - 0.84"
+       },
+       {
+        "tex": "&= 0.16"
+       }
+      ]
+     }
+    ],
+    "final": "0.16"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-arrangement-restrictions",
+   "title": "Count arrangements with restrictions",
+   "level": "OL",
+   "input": "objects + condition (together, at ends, even…)",
+   "output": "number of arrangements"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2023-ordinary-p2-q3#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "ways to fill the fixed ends, M and a vowel",
+     "2": "ways to arrange the middle letters",
+     "3": "total arrangements"
+    },
+    "steps": [
+     {
+      "ask": "Which positions have a rule? How many letters can go in each of them?",
+      "title": "Fix the first and last letters",
+      "lines": [
+       {
+        "text": "The first letter must be M: 1 way. The last letter is a vowel (A, O, I or E): 4 ways."
+       }
+      ]
+     },
+     {
+      "ask": "After the two ends are filled, how many letters are left in the middle, and how many ways can they be arranged?",
+      "title": "Arrange the other 5 letters in the middle",
+      "lines": [
+       {
+        "text": "After using M and one vowel, 5 letters remain, giving $\\hl{2}{5!}$ ways."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Ways}} &= \\hl{1}{1} \\times \\hl{2}{5!} \\times \\hl{1}{4}"
+       },
+       {
+        "tex": "&= \\hl{2}{120} \\times \\hl{1}{4}"
+       },
+       {
+        "tex": "&= \\hl{3}{480}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{480}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q3#(a)(ii)",
+    "note": "The restriction is now a block, 2018, that must stay together, not a letter fixed at each end. The method is the same: count the places for the restricted part, then multiply by the free choices.",
+    "legend": {
+     "1": "places for the block 2018",
+     "2": "free choices for the 2 digits left",
+     "3": "total codes"
+    },
+    "steps": [
+     {
+      "ask": "Where can the block 2018 start in a six-digit code? Count those starting places.",
+      "title": "Place the block 2018 in the code",
+      "lines": [
+       {
+        "text": "Treat 2018 as a block of four digits. In a six-digit code it can start in position 1, 2 or 3, so there are 3 positions."
+       },
+       {
+        "text": "The 2 remaining digits are free, with 10 choices each."
+       }
+      ]
+     },
+     {
+      "ask": "How many choices are there for each of the two free digits? Multiply those with the block positions.",
+      "title": "Multiply",
+      "lines": [
+       {
+        "tex": "\\hl{1}{3} \\times \\hl{2}{10 \\times 10} &= \\hl{1}{3} \\times \\hl{2}{10^2}"
+       },
+       {
+        "tex": "&= \\hl{3}{300}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{300}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q10#(b)(ii)",
+    "note": "The restriction is now that the digit 2 must appear, with no repeats, so the 2 goes in one of 4 positions. As before, count the choices for the placed part, then multiply by the choices for the other places.",
+    "legend": {
+     "1": "places for the 2",
+     "2": "choices for the other 3 places",
+     "3": "total codes"
+    },
+    "steps": [
+     {
+      "ask": "Where can the 2 be? For the other three places, how many digits can be used with no repeats?",
+      "title": "Count the codes that contain a 2",
+      "lines": [
+       {
+        "text": "The 2 can go in any of 4 positions."
+       },
+       {
+        "text": "The other 3 places are filled from the remaining 8 digits, with no repeats."
+       },
+       {
+        "tex": "\\hl{2}{8 \\times 7 \\times 6} &= \\hl{2}{336}"
+       }
+      ]
+     },
+     {
+      "ask": "How many places can the 2 take? Multiply that by your count from the last step.",
+      "title": "Multiply by the number of positions for the 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{4} \\times \\hl{2}{336} &= \\hl{3}{1344}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{1344}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2023-higher-p2-q10#(b)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the choices digit by digit",
+      "lines": [
+       {
+        "text": "No digit repeats, so each place has one fewer choice than the last."
+       },
+       {
+        "text": "First digit has 9 choices, second 8, third 7, fourth 6."
+       },
+       {
+        "tex": "\\text{Codes} &= 9 \\times 8 \\times 7 \\times 6"
+       },
+       {
+        "tex": "&= 3024"
+       }
+      ]
+     }
+    ],
+    "final": "3024"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q10#(c)(ii), (iii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(ii) Count choices when the first is red and the fifth is not red",
+      "lines": [
+       {
+        "text": "Light 1 must be red: $1$ choice. Light 5 is not red: $2$ choices (G or O). Lights 2, 3, 4 are free: $3$ choices each."
+       },
+       {
+        "tex": "\\text{patterns} &= 1 \\times 3 \\times 3 \\times 3 \\times 2"
+       },
+       {
+        "tex": "&= 1 \\times 3^3 \\times 2"
+       },
+       {
+        "tex": "&= 54"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Count choices when no two consecutive lights match",
+      "lines": [
+       {
+        "text": "Light 1 can be any colour: $3$ choices. Each later light must differ from the one before it: $2$ choices each."
+       },
+       {
+        "tex": "\\text{patterns} &= 3 \\times 2 \\times 2 \\times 2 \\times 2"
+       },
+       {
+        "tex": "&= 48"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(ii) } 54 \\qquad \\text{(iii) } 48"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-bernoulli-3",
+   "title": "Solve problems with up to 3 Bernoulli trials",
+   "level": "OL",
+   "input": "p, up to 3 trials",
+   "output": "probability of the outcomes asked for"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2023-ordinary-p2-q4#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "P(score), p = 0.7",
+     "2": "P(miss), 1 − p = 0.3",
+     "3": "number of orders, 3",
+     "4": "total probability"
+    },
+    "steps": [
+     {
+      "ask": "What is the chance of a miss? Use it with the chance of a score for one exact order of throws.",
+      "title": "Find the probability of one arrangement",
+      "lines": [
+       {
+        "text": "Missing a throw has probability $1 - \\hl{1}{0.7} = \\hl{2}{0.3}$. Take scoring, scoring, missing (SSF)."
+       },
+       {
+        "tex": "P(\\text{SSF}) &= \\hl{1}{0.7} \\times \\hl{1}{0.7} \\times \\hl{2}{0.3}"
+       },
+       {
+        "tex": "&= 0.147"
+       }
+      ]
+     },
+     {
+      "ask": "In how many orders can the single miss fall? Multiply that count by the probability of one order.",
+      "title": "Count the arrangements",
+      "lines": [
+       {
+        "text": "The one miss can be in 3 places: SSF, SFS or FSS. Each has probability $0.147$."
+       },
+       {
+        "tex": "\\hl{4}{P(\\text{exactly 2})} &= \\hl{3}{3} \\times 0.147"
+       },
+       {
+        "tex": "&= \\hl{4}{0.441}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{0.441}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q10#(c)",
+    "note": "The question asks for exactly one of the three adults to jog, not two, and the chances are now 0.2 and 0.8. The method is the same: find one order, then multiply by the number of orders.",
+    "legend": {
+     "1": "P(jog), p = 0.2",
+     "2": "P(not jog), 1 − p = 0.8",
+     "3": "number of orders, 3",
+     "4": "total probability of exactly one"
+    },
+    "steps": [
+     {
+      "ask": "What are the chances of jog and of not jog? What is the chance of one exact order: jog, not, not?",
+      "title": "Find the probability of one arrangement",
+      "lines": [
+       {
+        "text": "$P(\\text{jog}) = \\hl{1}{0.2}$ and $P(\\text{not jog}) = \\hl{2}{0.8}$. One arrangement is jog, not, not."
+       },
+       {
+        "tex": "P(\\text{J, N, N}) &= (\\hl{1}{0.2})(\\hl{2}{0.8})(\\hl{2}{0.8})"
+       }
+      ]
+     },
+     {
+      "ask": "In how many orders can the one jogger appear? Multiply that count by the probability of one order.",
+      "title": "Count the arrangements",
+      "lines": [
+       {
+        "text": "The jogger can be the first, second or third adult, so there are 3 arrangements."
+       },
+       {
+        "tex": "\\hl{4}{P(\\text{exactly one})} &= \\hl{3}{3}(\\hl{1}{0.2})(\\hl{2}{0.8})(\\hl{2}{0.8})"
+       },
+       {
+        "tex": "&= \\hl{3}{3}(0.128)"
+       },
+       {
+        "tex": "&= \\hl{4}{0.384}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{0.384}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q1#(b)(ii)",
+    "note": "The chances are now fractions, 1/8 and 7/8, and exactly two of the three play, not one. The method is the same: count the orders, then multiply by the chance of one order.",
+    "legend": {
+     "1": "P(play), p = 1/8",
+     "2": "P(not play), 1 − p = 7/8",
+     "3": "number of orders, 3",
+     "4": "total probability"
+    },
+    "steps": [
+     {
+      "ask": "Exactly two play and one does not. In how many different orders can the non-player appear?",
+      "title": "Count the ways two of the three play",
+      "lines": [
+       {
+        "text": "Exactly two play tennis and one does not. The non-player can be first, second or third, so there are 3 orders, each with the same probability."
+       }
+      ]
+     },
+     {
+      "ask": "What is the chance of one particular order? Multiply that by your count of orders.",
+      "title": "Find the probability of one order and multiply by 3",
+      "lines": [
+       {
+        "tex": "\\hl{4}{P} &= \\hl{3}{3} \\left( \\hl{1}{\\frac{1}{8}} \\times \\hl{1}{\\frac{1}{8}} \\times \\hl{2}{\\frac{7}{8}} \\right)"
+       },
+       {
+        "tex": "&= \\hl{3}{3} \\times \\frac{7}{512}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{21}{512}}"
+       },
+       {
+        "tex": "&\\approx \\hl{4}{0.04101}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\frac{21}{512}} \\approx \\hl{4}{0.04101}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q2#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Subtract from 1",
+      "lines": [
+       {
+        "text": "The probabilities of success and failure add to 1."
+       },
+       {
+        "tex": "P(\\text{not knock}) &= 1 - 0.34"
+       },
+       {
+        "tex": "&= 0.66"
+       }
+      ]
+     }
+    ],
+    "final": "0.66"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q3#(c)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "List the ways to get exactly two blue",
+      "lines": [
+       {
+        "text": "Write B for blue eyes and N for not blue. The three orders are BBN, BNB and NBB."
+       }
+      ]
+     },
+     {
+      "title": "Find the probability of one order",
+      "lines": [
+       {
+        "text": "Each order has two blue and one not blue, so each has the same probability."
+       },
+       {
+        "tex": "0.7 \\times 0.7 \\times 0.3 &= 0.147"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the 3 orders",
+      "lines": [
+       {
+        "tex": "3 \\times 0.147 &= 0.441"
+       }
+      ]
+     }
+    ],
+    "final": "0.441"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-binomial",
+   "title": "Find the probability of k successes in n trials",
+   "level": "HL",
+   "input": "n, k, p",
+   "output": "ⁿCₖ pᵏ(1 − p)ⁿ⁻ᵏ (incl. \"at least\")"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2024-higher-p2-q7#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "p, probability of using the pool, 1/5",
+     "2": "1 − p, probability of not using it, 4/5",
+     "3": "n, number of customers, 6",
+     "4": "probability of exactly 2"
+    },
+    "steps": [
+     {
+      "ask": "What are the two outcomes for each customer, and how many customers are there?",
+      "title": "Identify the binomial set-up",
+      "lines": [
+       {
+        "text": "Each customer either used the pool (probability $\\hl{1}{\\frac{1}{5}}$) or did not (probability $\\hl{2}{\\frac{4}{5}}$)."
+       },
+       {
+        "text": "We want 2 successes in 6 trials, so $n = \\hl{3}{6}$, $r = 2$."
+       }
+      ]
+     },
+     {
+      "ask": "Which formula gives the probability of exactly 2 successes? Put in n, p and 1 − p.",
+      "title": "Substitute into the binomial formula",
+      "lines": [
+       {
+        "tex": "\\hl{4}{P(2)} &= \\binom{\\hl{3}{6}}{2}\\left(\\hl{1}{\\frac{1}{5}}\\right)^2\\left(\\hl{2}{\\frac{4}{5}}\\right)^4"
+       },
+       {
+        "tex": "&= 15 \\times \\frac{1}{25} \\times \\frac{256}{625}"
+       },
+       {
+        "tex": "&= \\hl{4}{\\frac{768}{3125}}"
+       },
+       {
+        "tex": "&= \\hl{4}{0.24576}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\frac{768}{3125}} = \\hl{4}{0.24576}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q1#(a)",
+    "note": "Changed: the chances are decimals, 0.15 and 0.85, and the question asks for exactly 1 left footed out of 11, not exactly 2 out of 6. The binomial formula is the same.",
+    "legend": {
+     "1": "p, probability of left footed, 0.15",
+     "2": "1 − p, probability of not, 0.85",
+     "3": "n, number of trials, 11",
+     "4": "probability of exactly 1"
+    },
+    "steps": [
+     {
+      "ask": "Which probability is a success, and which is a failure? How many positions can the one success take?",
+      "title": "Use the binomial formula with n = 11, p = 0.15",
+      "lines": [
+       {
+        "text": "Exactly 1 left footed means 1 success and 10 failures, in any of 11 positions."
+       },
+       {
+        "tex": "\\hl{4}{P(1)} &= \\binom{\\hl{3}{11}}{1}(\\hl{1}{0.15})^1(\\hl{2}{0.85})^{10}"
+       },
+       {
+        "tex": "&= \\hl{3}{11} \\times \\hl{1}{0.15} \\times \\hl{2}{0.85}^{10}"
+       },
+       {
+        "tex": "&= \\hl{4}{0.3248\\ldots}"
+       },
+       {
+        "tex": "&\\approx \\hl{4}{0.325}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{0.325}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q9#(b)",
+    "note": "Changed: the question asks for 2 or more, not exactly one, so it is quicker to take the chances of 0 and 1 away from 1. The binomial formula is still used for each of them.",
+    "legend": {
+     "1": "p, probability of diabetes, 0.067",
+     "2": "1 − p, probability of no diabetes, 0.933",
+     "3": "n, number of people, 5",
+     "4": "probability of 2 or more"
+    },
+    "steps": [
+     {
+      "ask": "What is the chance that a person does not have diabetes?",
+      "title": "Choose the model and find the other probability",
+      "lines": [
+       {
+        "text": "Each person either has diabetes (probability 0.067) or not. Use the binomial formula with $n = \\hl{3}{5}$."
+       },
+       {
+        "text": "It is easier to find $\\hl{4}{P(2 \\text{ or more})} = 1 - P(0) - P(1)$."
+       },
+       {
+        "tex": "\\hl{2}{P(\\text{no diabetes})} &= 1 - \\hl{1}{0.067}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.933}"
+       }
+      ]
+     },
+     {
+      "ask": "Use zero successes out of 5 in the binomial formula. Which probability goes with the people who do not have diabetes?",
+      "title": "Find P(0)",
+      "lines": [
+       {
+        "tex": "P(0) &= \\binom{\\hl{3}{5}}{0}(\\hl{2}{0.933})^5"
+       },
+       {
+        "tex": "&= 0.706982\\ldots"
+       }
+      ]
+     },
+     {
+      "ask": "Use one success out of 5 in the binomial formula. Which probability is the success, and how many ways can it happen?",
+      "title": "Find P(1)",
+      "lines": [
+       {
+        "tex": "P(1) &= \\binom{\\hl{3}{5}}{1}(\\hl{2}{0.933})^4(\\hl{1}{0.067})"
+       },
+       {
+        "tex": "&= 0.253847\\ldots"
+       }
+      ]
+     },
+     {
+      "ask": "What is left of the whole probability after the chances of 0 and 1 are taken away?",
+      "title": "Subtract from 1",
+      "lines": [
+       {
+        "tex": "\\hl{4}{P(2 \\text{ or more})} &= 1 - \\left(0.706982\\ldots + 0.253847\\ldots\\right)"
+       },
+       {
+        "tex": "&= 1 - 0.960829\\ldots"
+       },
+       {
+        "tex": "&= 0.039171\\ldots"
+       },
+       {
+        "tex": "&\\approx \\hl{4}{0.0392}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{0.0392}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2020-higher-p2-q6#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split into Joe and the other five",
+      "lines": [
+       {
+        "text": "Joe passes: probability $\\frac{1}{4}$."
+       },
+       {
+        "text": "Exactly 2 of the other 5 pass: choose which 2 ($\\binom{5}{2}$ ways), 2 pass and 3 fail."
+       },
+       {
+        "tex": "P &= \\binom{5}{2}\\left(\\frac{1}{4}\\right)^2\\left(\\frac{3}{4}\\right)^3 \\times \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "&= 10 \\times \\frac{1}{16} \\times \\frac{27}{64} \\times \\frac{1}{4}"
+       },
+       {
+        "tex": "&= \\frac{270}{4096}"
+       },
+       {
+        "tex": "&= \\frac{135}{2048}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{135}{2048}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q10#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the complement",
+      "lines": [
+       {
+        "text": "\"At least one\" is the opposite of \"none\"."
+       },
+       {
+        "tex": "P(\\text{at least one}) &= 1 - P(\\text{none are O-neg})"
+       }
+      ]
+     },
+     {
+      "title": "Calculate",
+      "lines": [
+       {
+        "tex": "P(\\text{none are O-neg}) &= (0.92)^5"
+       },
+       {
+        "tex": "P(\\text{at least one}) &= 1 - (0.92)^5"
+       },
+       {
+        "tex": "&= 0.34091\\ldots"
+       },
+       {
+        "tex": "&= 0.3409"
+       }
+      ]
+     }
+    ],
+    "final": "0.3409"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q1#(c)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the remaining ten players",
+      "lines": [
+       {
+        "text": "The goalkeeper is left footed, so 10 players remain, each left footed with probability 0.15."
+       },
+       {
+        "text": "At least 8 right footed out of 10 means 0, 1 or 2 left footed."
+       }
+      ]
+     },
+     {
+      "title": "Find P(0), P(1) and P(2)",
+      "lines": [
+       {
+        "tex": "P(0) &= 0.85^{10}"
+       },
+       {
+        "tex": "&= 0.1969\\ldots"
+       },
+       {
+        "tex": "P(1) &= \\binom{10}{1}(0.15)(0.85)^9"
+       },
+       {
+        "tex": "&= 0.3474\\ldots"
+       },
+       {
+        "tex": "P(2) &= \\binom{10}{2}(0.15)^2(0.85)^8"
+       },
+       {
+        "tex": "&= 0.2759\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Add the three probabilities",
+      "lines": [
+       {
+        "tex": "P(\\text{at least 8 right}) &= 0.1969 + 0.3474 + 0.2759"
+       },
+       {
+        "tex": "&= 0.8202"
+       },
+       {
+        "tex": "&\\approx 0.82"
+       }
+      ]
+     }
+    ],
+    "final": "0.82"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-conditional",
+   "title": "Apply conditional probability and the general multiplication rule",
+   "level": "HL",
+   "input": "P(A ∩ B), P(B) (or table)",
+   "output": "P(A|B); note P(A|B) ≠ P(B|A)"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2020-higher-p2-q5#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "P(A and B), the joint probability",
+     "2": "P(A), the given event",
+     "3": "P(B|A), the answer"
+    },
+    "steps": [
+     {
+      "ask": "The question asks for the chance of B given A. Which formula connects it to P(A ∩ B) and P(A)?",
+      "title": "Write the conditional probability formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(B|A)} &= \\frac{\\hl{1}{P(A \\cap B)}}{\\hl{2}{P(A)}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which two numbers from the question go into the top and bottom of that formula?",
+      "title": "Substitute and simplify",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(B|A)} &= \\frac{\\hl{1}{\\frac{1}{2}}}{\\hl{2}{\\frac{3}{4}}}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{1}{2}} \\times \\frac{4}{3}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{2}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{P(B|A)} = \\hl{3}{\\frac{2}{3}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q8#(b)(iii)",
+    "note": "This time the numerator is not given, so you must add two outcomes to find P(R ∩ L) first. The formula and the three slots stay the same.",
+    "legend": {
+     "1": "P(R and L), the joint probability",
+     "2": "P(L), the given event",
+     "3": "P(R|L), the answer"
+    },
+    "steps": [
+     {
+      "ask": "The question asks for the chance of R given L. Which formula connects it to P(R ∩ L) and P(L)?",
+      "title": "Write the conditional probability formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(R \\mid L)} &= \\frac{\\hl{1}{P(R \\cap L)}}{\\hl{2}{P(L)}}"
+       }
+      ]
+     },
+     {
+      "ask": "The top of the fraction is not given. Which outcomes are in both R and L, and how do you combine them?",
+      "title": "Find $P(R \\cap L)$",
+      "lines": [
+       {
+        "text": "Add the two outcomes with $R$ and $L$."
+       },
+       {
+        "tex": "\\hl{1}{P(R \\cap L)} &= \\frac{1}{12} + \\frac{1}{30}"
+       },
+       {
+        "tex": "&= \\frac{5}{60} + \\frac{2}{60}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{7}{60}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put P(R ∩ L) and P(L) into the formula and simplify?",
+      "title": "Substitute and simplify",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(R \\mid L)} &= \\frac{\\hl{1}{\\frac{7}{60}}}{\\hl{2}{\\frac{17}{80}}}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{7}{60}} \\times \\frac{80}{17}"
+       },
+       {
+        "tex": "&= \\frac{560}{1020}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{28}{51}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{P(R \\mid L)} = \\hl{3}{\\frac{28}{51}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q7#(c)",
+    "note": "The numbers now come as rates in a story, so the numerator is a product of two given rates. The formula and the three slots stay the same.",
+    "legend": {
+     "1": "P(new and booked), the joint probability",
+     "2": "P(booked), the given event",
+     "3": "P(new|booked), the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which two numbers from the question combine to give the chance of using the old system and booking?",
+      "title": "Find the probability of booking through the old system",
+      "lines": [
+       {
+        "tex": "P(\\text{old and booked}) &= 0.45 \\times \\frac{1}{3}"
+       },
+       {
+        "tex": "&= 0.15"
+       }
+      ]
+     },
+     {
+      "ask": "Which two numbers from the question give the chance of using the new system and booking?",
+      "title": "Find the probability of booking through the new system",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(\\text{new and booked})} &= 0.55 \\times \\frac{2}{5}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.22} = \\frac{11}{50}"
+       }
+      ]
+     },
+     {
+      "ask": "How do the two routes of booking combine into the total chance of booking?",
+      "title": "Find the probability that a person booked",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P(\\text{booked})} &= 0.15 + \\hl{1}{0.22}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.37} = \\frac{37}{100}"
+       }
+      ]
+     },
+     {
+      "ask": "Which joint probability goes on top, and which booked probability goes on the bottom?",
+      "title": "Use conditional probability",
+      "lines": [
+       {
+        "text": "We want $\\hl{3}{P(\\text{new} \\mid \\text{booked})} = \\dfrac{\\hl{1}{P(\\text{new and booked})}}{\\hl{2}{P(\\text{booked})}}$."
+       },
+       {
+        "tex": "\\hl{3}{P(\\text{new} \\mid \\text{booked})} &= \\frac{\\hl{1}{11/50}}{\\hl{2}{37/100}}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{22}{37}}"
+       },
+       {
+        "tex": "&= 0.5945\\ldots \\approx \\hl{3}{59\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{59\\%}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(d)(i)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split by the result of throw n",
+      "lines": [
+       {
+        "text": "Success on throw $n+1$ happens after a success on throw $n$ (then $0.8$) or after a failure (then $0.6$)."
+       },
+       {
+        "tex": "p_{n+1} &= 0.8\\,p_n + 0.6(1 - p_n)"
+       },
+       {
+        "tex": "&= 0.8\\,p_n + 0.6 - 0.6\\,p_n"
+       },
+       {
+        "tex": "&= 0.6 + 0.2\\,p_n"
+       }
+      ]
+     }
+    ],
+    "final": "p_{n+1} = 0.6 + 0.2\\,p_n"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(d)(ii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the total who played on all three days",
+      "lines": [
+       {
+        "text": "These are the four 3rd June PLAY boxes."
+       },
+       {
+        "tex": "186624 + 12960 + 12960 + 900 &= 213444"
+       }
+      ]
+     },
+     {
+      "title": "Find those who lost on 1st or 2nd June (or both)",
+      "lines": [
+       {
+        "text": "This is everyone except the win-then-win path, so leave out $186624$."
+       },
+       {
+        "tex": "12960 + 12960 + 900 &= 26820"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability",
+      "lines": [
+       {
+        "tex": "P &= \\frac{26820}{213444}"
+       },
+       {
+        "tex": "&= \\frac{745}{5929}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{745}{5929}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q9#(a)(iii), (iv)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add the two positive outcomes (part iii)",
+      "lines": [
+       {
+        "text": "A positive result comes from someone with diabetes or someone without it."
+       },
+       {
+        "tex": "P(\\text{positive}) &= 0.0663 + 0.0728"
+       },
+       {
+        "tex": "&= 0.1391"
+       }
+      ]
+     },
+     {
+      "title": "Write the conditional probability (part iv)",
+      "lines": [
+       {
+        "text": "We want the chance of diabetes given a positive test, so divide by the total chance of a positive test."
+       },
+       {
+        "tex": "P(\\text{diabetes} \\mid \\text{positive}) &= \\frac{P(\\text{diabetes and positive})}{P(\\text{positive})}"
+       },
+       {
+        "tex": "&= \\frac{0.0663}{0.1391}"
+       }
+      ]
+     },
+     {
+      "title": "Divide and round",
+      "lines": [
+       {
+        "tex": "\\frac{0.0663}{0.1391} &= 0.47663\\ldots"
+       },
+       {
+        "tex": "&\\approx 0.4766"
+       }
+      ]
+     }
+    ],
+    "final": "P(\\text{positive}) = 0.1391, \\quad P(\\text{diabetes} \\mid \\text{positive}) = 0.4766"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-counting-principle",
+   "title": "List outcomes and apply the fundamental principle of counting",
+   "level": "JC",
+   "input": "multi-stage choice",
+   "output": "total number of outcomes"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q1#(a)",
+    "note": null,
+    "legend": {
+     "1": "choices for one place or stage",
+     "2": "total number of passwords"
+    },
+    "steps": [
+     {
+      "ask": "All six positions can hold any digit. How many choices does each position have if digits can repeat?",
+      "title": "Count the choices for each digit",
+      "lines": [
+       {
+        "text": "Each of the 6 positions can be any digit from 0 to 9, and digits may repeat, so each position has 10 choices."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Number of passwords}} &= \\hl{1}{10} \\times \\hl{1}{10} \\times \\hl{1}{10} \\times \\hl{1}{10} \\times \\hl{1}{10} \\times \\hl{1}{10}"
+       },
+       {
+        "tex": "&= \\hl{2}{10^6}"
+       },
+       {
+        "tex": "&= \\hl{2}{1\\,000\\,000}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{1\\,000\\,000}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q1#(a)(i)",
+    "note": "Each stage now has a different number of choices (4, 6 and 8) instead of the same ten digits repeated. The method of multiplying the choices at each stage stays the same.",
+    "legend": {
+     "1": "choices for one place or stage",
+     "2": "total number of meals"
+    },
+    "steps": [
+     {
+      "ask": "Each course is picked separately. How many options are there for each of the three courses?",
+      "title": "Multiply the number of choices",
+      "lines": [
+       {
+        "text": "Each course is chosen independently, so multiply the numbers of choices."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Meals}} &= \\hl{1}{4} \\times \\hl{1}{6} \\times \\hl{1}{8}"
+       },
+       {
+        "tex": "&= \\hl{2}{192}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{192}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q1#(b)(i), (ii)",
+    "note": "This question asks for at least one zero, so it is easiest to count the opposite, no zero, and subtract from 1. The choices at each place and the total of one million stay the same.",
+    "legend": {
+     "1": "choices for one place or stage",
+     "2": "total number of passwords",
+     "3": "P(at least one zero), the answer",
+     "4": "passwords with no zero"
+    },
+    "steps": [
+     {
+      "ask": "Zero is no longer allowed. How many choices does each position have now?",
+      "title": "Count the passwords with no zero",
+      "lines": [
+       {
+        "text": "With no zero allowed, each position has 9 choices (the digits 1 to 9)."
+       },
+       {
+        "tex": "\\hl{4}{\\text{No zero}} &= \\hl{1}{9} \\times \\hl{1}{9} \\times \\hl{1}{9} \\times \\hl{1}{9} \\times \\hl{1}{9} \\times \\hl{1}{9}"
+       },
+       {
+        "tex": "&= \\hl{4}{9^6}"
+       },
+       {
+        "tex": "&= \\hl{4}{531\\,441}"
+       }
+      ]
+     },
+     {
+      "ask": "This asks for at least one zero, which is awkward to count directly. What is the opposite event, and how does it give the probability?",
+      "title": "Find the probability of at least one zero",
+      "lines": [
+       {
+        "text": "\"At least one zero\" is the opposite of \"no zero\"."
+       },
+       {
+        "tex": "\\hl{3}{P(\\text{at least one zero})} &= 1 - P(\\text{no zero})"
+       },
+       {
+        "tex": "&= 1 - \\frac{\\hl{4}{531\\,441}}{\\hl{2}{1\\,000\\,000}}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{468\\,559}{1\\,000\\,000}}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.468559}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{9^6} = \\hl{4}{531\\,441}, \\quad \\hl{3}{P} = \\hl{3}{\\frac{468\\,559}{1\\,000\\,000}} = \\hl{3}{0.468559}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q3#(b)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply the number of choices in each group",
+      "lines": [
+       {
+        "text": "Ben picks one subject from each group, so the choices multiply."
+       },
+       {
+        "tex": "3 \\times 4 \\times 5 &= 60"
+       }
+      ]
+     }
+    ],
+    "final": "60"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q10#(b)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the five markers in a new order",
+      "lines": [
+       {
+        "text": "Start at $A$, visit each of $B, C, D, E, F$ once only, and finish at $A$. Choose any order that is not the example."
+       },
+       {
+        "text": "For example: $A, D, C, F, B, E, A$."
+       }
+      ]
+     }
+    ],
+    "final": "A,\\ D,\\ C,\\ F,\\ B,\\ E,\\ A"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q1#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write an equation for the number of meals",
+      "lines": [
+       {
+        "text": "Let $x$ be the number of desserts still available."
+       },
+       {
+        "tex": "4 \\times 6 \\times x &= 120"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "24x &= 120"
+       },
+       {
+        "tex": "x &= \\frac{120}{24}"
+       },
+       {
+        "tex": "x &= 5"
+       }
+      ]
+     }
+    ],
+    "final": "5 \\text{ desserts}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-equally-likely",
+   "title": "Find a probability with equally likely outcomes",
+   "level": "JC",
+   "input": "sample space + event",
+   "output": "favourable/total"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2016-ordinary-p2-q1#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "favourable outcomes",
+     "2": "total equally likely outcomes",
+     "3": "the probability"
+    },
+    "steps": [
+     {
+      "ask": "Probability is favourable over total. Which numbers from the question go on top and on the bottom?",
+      "title": "Write the probability as a fraction",
+      "lines": [
+       {
+        "text": "$P = \\dfrac{\\text{number who own both}}{\\text{number surveyed}}$"
+       },
+       {
+        "tex": "\\hl{3}{P} &= \\frac{\\hl{1}{64}}{\\hl{2}{168}}"
+       }
+      ]
+     },
+     {
+      "ask": "What common factor divides both the top and the bottom?",
+      "title": "Simplify the fraction",
+      "lines": [
+       {
+        "text": "Divide the top and bottom by 8."
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{8}{21}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{8}{21}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q5#(b)",
+    "note": "The event is now boys or pupils not studying chemistry, which joins two groups, so you add parts of the table without counting anyone twice. Favourable over total is still the method.",
+    "legend": {
+     "1": "favourable outcomes",
+     "2": "total equally likely outcomes",
+     "3": "the probability"
+    },
+    "steps": [
+     {
+      "ask": "The event is boys or pupils not studying chemistry. Which parts of the table make that up without counting anyone twice?",
+      "title": "Count the pupils who are boys or do not study chemistry",
+      "lines": [
+       {
+        "text": "Pupils who study chemistry: $6 + 9 = 15$, so $24 - 15 = 9$ do not."
+       },
+       {
+        "text": "Boys: 10. Girls who do not study chemistry: $14 - 9 = 5$."
+       },
+       {
+        "tex": "\\hl{1}{\\text{Favourable}} &= 10 + 5"
+       },
+       {
+        "tex": "&= \\hl{1}{15}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the favourable count divided by the total number of pupils, and can it be simplified?",
+      "title": "Probability = favourable over total",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P} &= \\frac{\\hl{1}{15}}{\\hl{2}{24}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{\\hl{1}{15}}{\\hl{2}{24}} = \\hl{3}{\\frac{5}{8}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q1#(a)(iii)",
+    "note": "The outcomes are now the 36 pairs from two dice, and the event is five different totals, so you add five counts. Favourable over total is still the method.",
+    "legend": {
+     "1": "favourable outcomes",
+     "2": "total equally likely outcomes",
+     "3": "the probability"
+    },
+    "steps": [
+     {
+      "ask": "Which totals are prime, and how many outcomes does each one have in the table?",
+      "title": "Count the totals that are prime numbers",
+      "lines": [
+       {
+        "text": "The primes up to 12 are 2, 3, 5, 7 and 11. Their counts in the table are 1, 2, 4, 6 and 2."
+       }
+      ]
+     },
+     {
+      "ask": "How do you combine the favourable counts, and what is the total number of equally likely outcomes?",
+      "title": "Divide favourable outcomes by 36",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(\\text{prime})} &= \\frac{\\hl{1}{1+2+4+6+2}}{\\hl{2}{36}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{15}}{\\hl{2}{36}}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{5}{12}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{5}{12}}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q1#(c)(i)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the teenagers",
+      "lines": [
+       {
+        "text": "Teenagers are under 20. The stem 1 row has three ages: 18, 18 and 19."
+       },
+       {
+        "tex": "P(\\text{teenager}) &= \\frac{3}{28}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{3}{28}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q1#(a)(ii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the totals of 7 and of 11",
+      "lines": [
+       {
+        "text": "In the completed table there are 36 equally likely outcomes. A total of 7 appears 6 times and a total of 11 appears 2 times."
+       }
+      ]
+     },
+     {
+      "title": "Divide favourable outcomes by 36",
+      "lines": [
+       {
+        "tex": "P(7 \\text{ or } 11) &= \\frac{6+2}{36}"
+       },
+       {
+        "tex": "&= \\frac{8}{36}"
+       },
+       {
+        "tex": "&= \\frac{2}{9}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2}{9}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q1#(b)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the outcomes with left foot",
+      "lines": [
+       {
+        "text": "Left foot goes with each of the 4 colours, so 4 outcomes out of 16."
+       }
+      ]
+     },
+     {
+      "title": "Write the probability",
+      "lines": [
+       {
+        "tex": "P(\\text{left foot}) &= \\frac{4}{16}"
+       },
+       {
+        "tex": "&= \\frac{1}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{4}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-expected-value",
+   "title": "Calculate expected value and judge fairness",
+   "level": "OL",
+   "input": "outcomes with probabilities/payoffs",
+   "output": "E(X) = Σ x P(x); fair or not"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2024-ordinary-p2-q9#(c)",
+    "note": null,
+    "legend": {
+     "1": "the outcome, x (sales)",
+     "2": "its probability, P(x)",
+     "3": "the expected value, E(x)"
+    },
+    "steps": [
+     {
+      "ask": "Expected value weights each outcome by its probability. What do you do with each sales figure, and then with the results?",
+      "title": "Write down the expected value formula",
+      "lines": [
+       {
+        "text": "Multiply each sales figure by its probability and add."
+       }
+      ]
+     },
+     {
+      "ask": "Which sales figure goes with which probability in the formula, and what is the total?",
+      "title": "Substitute",
+      "lines": [
+       {
+        "tex": "\\hl{3}{E} &= \\hl{1}{150}(\\hl{2}{0.3}) + \\hl{1}{200}(\\hl{2}{0.45}) + \\hl{1}{450}(\\hl{2}{0.25})"
+       },
+       {
+        "tex": "&= 45 + 90 + 112.5"
+       },
+       {
+        "tex": "&= \\hl{3}{247.5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\text{€}247.50}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q10#(d)",
+    "note": "The values are not given directly: you must first work out each cost from €6 per class. The formula and the slots stay the same.",
+    "legend": {
+     "1": "the outcome, x (cost in euro)",
+     "2": "its probability, P(x)",
+     "3": "the expected value, E(x)"
+    },
+    "steps": [
+     {
+      "ask": "Each class costs €6. What does each number of classes cost?",
+      "title": "Find the cost for each outcome",
+      "lines": [
+       {
+        "text": "0 classes cost €0. 52 classes cost $6 \\times 52 = $ €312. 104 classes cost $6 \\times 104 = $ €624."
+       }
+      ]
+     },
+     {
+      "ask": "Which symbol stands for the expected value, and what are you summing over?",
+      "title": "Use the expected value formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{E(x)} &= \\sum \\hl{1}{x}\\,\\hl{2}{P(x)}"
+       }
+      ]
+     },
+     {
+      "ask": "Which cost goes with which probability, and what is the total?",
+      "title": "Substitute the costs and probabilities",
+      "lines": [
+       {
+        "tex": "\\hl{3}{E(x)} &= \\hl{1}{0}(\\hl{2}{0.3}) + \\hl{1}{312}(\\hl{2}{0.6}) + \\hl{1}{624}(\\hl{2}{0.1})"
+       },
+       {
+        "tex": "&= 0 + 187.2 + 62.4"
+       },
+       {
+        "tex": "&= \\hl{3}{249.6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\text{€}249.60}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q10#(d)",
+    "note": "You must also decide whether the game is fair, so compare E(x) with the €1 cost to play. The formula and the slots stay the same.",
+    "legend": {
+     "1": "the outcome, x (amount won)",
+     "2": "its probability, P(x)",
+     "3": "the expected value, E(x)",
+     "4": "the cost to play"
+    },
+    "steps": [
+     {
+      "ask": "Expected value combines each amount with its probability. How do you write that as a sum?",
+      "title": "Write the expected value formula",
+      "lines": [
+       {
+        "text": "Expected value is the sum of each amount multiplied by its probability."
+       },
+       {
+        "tex": "\\hl{3}{E(x)} &= \\sum \\hl{1}{x} \\, \\hl{2}{P(x)}"
+       }
+      ]
+     },
+     {
+      "ask": "Which amount goes with which probability in the sum?",
+      "title": "Substitute the amounts and probabilities",
+      "lines": [
+       {
+        "tex": "\\hl{3}{E(x)} &= \\hl{1}{1}(\\hl{2}{0.3}) + \\hl{1}{0.5}(\\hl{2}{0.2}) + \\hl{1}{0}(\\hl{2}{0.4}) + \\hl{1}{5}(\\hl{2}{0.1})"
+       }
+      ]
+     },
+     {
+      "ask": "What is each product, and what do you get when you add them?",
+      "title": "Multiply each term, then add",
+      "lines": [
+       {
+        "tex": "&= 0.3 + 0.1 + 0 + 0.5"
+       },
+       {
+        "tex": "&= \\hl{3}{0.90}"
+       }
+      ]
+     },
+     {
+      "ask": "Compare the expected value with the cost to play. What must be true for a game to be fair?",
+      "title": "Compare with the cost to play",
+      "lines": [
+       {
+        "text": "Jena pays 1 euro to play, but her expected winnings are only 0.90 euro."
+       },
+       {
+        "text": "The expected value is not equal to the cost, so the game is not fair."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{E(x) = \\text{€}0.90} < \\hl{4}{\\text{€}1}\\text{, so the game is not fair}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p2-q1#(c)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply the number of babies by P(Tuesday)",
+      "lines": [
+       {
+        "tex": "\\text{Expected} &= 1300 \\times 0.16"
+       },
+       {
+        "tex": "&= 208"
+       }
+      ]
+     }
+    ],
+    "final": "208"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q7#(d)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply each number of shots by its probability",
+      "lines": [
+       {
+        "text": "The expected value is the sum of (probability $\\times$ number of shots) for each row."
+       },
+       {
+        "tex": "E &= 6(0.1) + 5(0.2) + 3(0.4) + 1(0.7)"
+       },
+       {
+        "tex": "&= 0.6 + 1 + 1.2 + 0.7"
+       },
+       {
+        "tex": "&= 3.5"
+       }
+      ]
+     }
+    ],
+    "final": "3.5 \\text{ goals}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q3#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "(i) Find each probability",
+      "lines": [
+       {
+        "text": "The spinner is unbiased, so each probability is the sector angle divided by the full turn, $360^\\circ$."
+       },
+       {
+        "tex": "P(\\text{red}) &= \\frac{72}{360}"
+       },
+       {
+        "tex": "&= \\frac{1}{5}"
+       },
+       {
+        "tex": "P(\\text{orange}) &= \\frac{30}{360}"
+       },
+       {
+        "tex": "&= \\frac{1}{12}"
+       },
+       {
+        "tex": "P(\\text{yellow}) &= \\frac{45}{360}"
+       },
+       {
+        "tex": "&= \\frac{1}{8}"
+       },
+       {
+        "tex": "P(\\text{green}) &= \\frac{90}{360}"
+       },
+       {
+        "tex": "&= \\frac{1}{4}"
+       },
+       {
+        "tex": "P(\\text{blue}) &= \\frac{60}{360}"
+       },
+       {
+        "tex": "&= \\frac{1}{6}"
+       },
+       {
+        "tex": "P(\\text{indigo}) &= \\frac{18}{360}"
+       },
+       {
+        "tex": "&= \\frac{1}{20}"
+       },
+       {
+        "tex": "P(\\text{violet}) &= \\frac{45}{360}"
+       },
+       {
+        "tex": "&= \\frac{1}{8}"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Multiply each prize by its probability",
+      "lines": [
+       {
+        "text": "The expected value is the sum of (prize $\\times$ probability)."
+       },
+       {
+        "tex": "E(X) &= 20\\left(\\frac{1}{5}\\right) + 60\\left(\\frac{1}{12}\\right) + 24\\left(\\frac{1}{8}\\right) + 8\\left(\\frac{1}{4}\\right) + 42\\left(\\frac{1}{6}\\right) + 90\\left(\\frac{1}{20}\\right) + 48\\left(\\frac{1}{8}\\right)"
+       },
+       {
+        "tex": "&= 4 + 5 + 3 + 2 + 7 + 4.5 + 6"
+       },
+       {
+        "tex": "&= 31.5"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}31.50"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-factorial",
+   "title": "Count arrangements of n distinct objects",
+   "level": "OL",
+   "input": "n",
+   "output": "n!"
+  },
+  "lesson": [
+   {
+    "part": "maths-pp-2023-ordinary-p2-q3#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "choices for one place (the factors)",
+     "2": "total number of arrangements"
+    },
+    "steps": [
+     {
+      "ask": "All seven letters are different. How many choices are there for the first place, then the second, and so on?",
+      "title": "Arrange all 7 different letters",
+      "lines": [
+       {
+        "text": "CAMOGIE has 7 different letters, so there are $\\hl{2}{7!}$ arrangements."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Ways}} &= \\hl{2}{7!}"
+       },
+       {
+        "tex": "&= \\hl{1}{7} \\times \\hl{1}{6} \\times \\hl{1}{5} \\times \\hl{1}{4} \\times \\hl{1}{3} \\times \\hl{1}{2} \\times \\hl{1}{1}"
+       },
+       {
+        "tex": "&= \\hl{2}{5040}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{5040}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(d)",
+    "note": "The objects are now nine cats each getting a pen, not seven letters, so the product is bigger. The method and the slots stay the same.",
+    "legend": {
+     "1": "choices for one place (the factors)",
+     "2": "total number of arrangements"
+    },
+    "steps": [
+     {
+      "ask": "Each cat gets a different pen. How many pens can the first cat choose from, and how many can the next cat choose?",
+      "title": "Count the ways to fill the pens",
+      "lines": [
+       {
+        "text": "9 choices of pen for the first cat, 8 for the second, 7 for the third, and so on down to 1 for the last."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Arrangements}} &= \\hl{1}{9} \\times \\hl{1}{8} \\times \\hl{1}{7} \\times \\hl{1}{6} \\times \\hl{1}{5} \\times \\hl{1}{4} \\times \\hl{1}{3} \\times \\hl{1}{2} \\times \\hl{1}{1}"
+       },
+       {
+        "tex": "&= \\hl{2}{362\\,880}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{9!} = \\hl{2}{362\\,880}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q10#(b)(ii), (iii)",
+    "note": "This time only two of the five markers are visited, so the product stops after two factors instead of going down to 1. The choices at each step are counted the same way.",
+    "legend": {
+     "1": "choices for one place (the factors)",
+     "2": "total number of arrangements"
+    },
+    "steps": [
+     {
+      "ask": "Each marker is visited once in the route. How many choices are there at each step of the route through all five?",
+      "title": "Count the routes through all five markers",
+      "lines": [
+       {
+        "text": "There are 5 choices for the first marker, 4 for the second, and so on, with each marker used once."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Routes}} &= \\hl{1}{5} \\times \\hl{1}{4} \\times \\hl{1}{3} \\times \\hl{1}{2} \\times \\hl{1}{1}"
+       },
+       {
+        "tex": "&= \\hl{2}{5!}"
+       },
+       {
+        "tex": "&= \\hl{2}{120}"
+       }
+      ]
+     },
+     {
+      "ask": "This time only two markers are visited. How many factors do you need, and where do you stop?",
+      "title": "Count the routes through two markers",
+      "lines": [
+       {
+        "text": "There are 5 choices for the first marker and 4 for the second."
+       },
+       {
+        "tex": "\\hl{2}{\\text{Routes}} &= \\hl{1}{5} \\times \\hl{1}{4}"
+       },
+       {
+        "tex": "&= \\hl{2}{20}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{120} \\text{ and } \\hl{2}{20}",
+    "graph": null
+   }
+  ],
+  "other_candidates": [
+   {
+    "part": "maths-pp-2025-higher-p2-q9#(c)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the ways to pair up one fixed group A",
+      "lines": [
+       {
+        "text": "Fix the 10 people in group A. The first person can pair with any of the 10 people in B."
+       },
+       {
+        "text": "The next person has 9 choices left, then 8, and so on down to 1."
+       },
+       {
+        "tex": "\\text{pairings} &= 10 \\times 9 \\times 8 \\times \\cdots \\times 1"
+       },
+       {
+        "tex": "&= 10!"
+       },
+       {
+        "tex": "&= 3\\,628\\,800"
+       }
+      ]
+     }
+    ],
+    "final": "10! = 3\\,628\\,800"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q9#(d)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Fix the 8 people in group X",
+      "lines": [
+       {
+        "text": "Count the ways to give each person in X a pair from the 16 people in Y, for one fixed group X."
+       }
+      ]
+     },
+     {
+      "title": "Line up the 16 people in Y",
+      "lines": [
+       {
+        "text": "Arrange the 16 people of Y in a row in any order. The first two go to the first person in X, the next two to the second, and so on."
+       },
+       {
+        "tex": "\\text{arrangements} &= 16!"
+       }
+      ]
+     },
+     {
+      "title": "Remove the order within each pair",
+      "lines": [
+       {
+        "text": "Swapping the two people in a pair gives the same pairing. There are 8 pairs, each counted 2 times."
+       },
+       {
+        "tex": "\\text{pairings} &= \\frac{16!}{2^8}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "\\frac{16!}{2^8} &= \\frac{20\\,922\\,789\\,888\\,000}{256}"
+       },
+       {
+        "tex": "&= 81\\,729\\,648\\,000"
+       },
+       {
+        "tex": "&= 8.1729648 \\times 10^{10}"
+       }
+      ]
+     },
+     {
+      "title": "Round to 3 decimal places",
+      "lines": [
+       {
+        "tex": "&\\approx 8.173 \\times 10^{10}"
+       }
+      ]
+     }
+    ],
+    "final": "8.173 \\times 10^{10}"
+   }
+  ]
+ }
+]
