@@ -1,6 +1,79 @@
 {
+ "cx-arithmetic": [
+  "2018-ordinary-p1-q2#(a) step 1: ask must contain a question, not only a command"
+ ],
+ "cx-modulus": [
+  "2022-ordinary-p1-q1#(c) step 1: ask must contain a question, not only a command"
+ ],
+ "diff-related-rates": [
+  "2016-higher-p1-q7#(a)(i) step 3: ask must contain a question, not only a command"
+ ],
+ "diff-slope-tangent": [
+  "2023-ordinary-p1-q4#(b)(ii) step 3: ask must contain a question, not only a command",
+  "2020-ordinary-p1-q6#(a)(iii) step 2: ask must contain a question, not only a command"
+ ],
+ "diff-stationary": [
+  "2015-ordinary-p1-q4#(b) step 2: ask must contain a question, not only a command",
+  "2023-ordinary-p1-q6#(a)(ii) step 2: ask must contain a question, not only a command"
+ ],
+ "diff-chain": [
+  "2025-higher-p1-q3#(a) step 2: ask must contain a question, not only a command",
+  "2019-higher-p1-q8#(c) step 2: ask must contain a question, not only a command"
+ ],
+ "diff-exponential": [
+  "2017-higher-p1-q7#(g) step 2: ask must contain a question, not only a command",
+  "2020-higher-p1-q9#(c) step 2: ask must contain a question, not only a command"
+ ],
+ "diff-first-principles": [
+  "2022-higher-p1-q6#(a) step 2: ask must contain a question, not only a command",
+  "2024-higher-p1-q4#(a) step 1: ask must contain a question, not only a command",
+  "2024-higher-p1-q4#(a) step 2: ask must contain a question, not only a command"
+ ],
+ "diff-product": [
+  "2019-higher-p1-q3#(c) step 4: ask must contain a question, not only a command"
+ ],
+ "fin-average-rate": [
+  "2023-ordinary-p1-q5#(b)(ii) step 2: ask must contain a question, not only a command",
+  "2023-higher-p1-q7#(g) step 3: ask must contain a question, not only a command"
+ ],
+ "fin-compound-interest": [
+  "2017-ordinary-p1-q1#(b) step 4: ask must contain a question, not only a command"
+ ],
+ "fin-costing": [
+  "2015-ordinary-p2-q8#(b)(iii) step 2: ask must contain a question, not only a command",
+  "2023-ordinary-p1-q8#(d) step 2: ask must contain a question, not only a command"
+ ],
+ "fin-depreciation": [
+  "2024-ordinary-p1-q1#(a)(i), (ii) step 2: ask must contain a question, not only a command",
+  "2017-ordinary-p1-q1#(a) step 2: ask must contain a question, not only a command"
+ ],
+ "fin-mortgage": [
+  "2020-higher-p1-q5#(a) step 3: ask must contain a question, not only a command"
+ ],
+ "fn-compare-graphs": [
+  "2016-ordinary-p1-q9#(b) step 1: ask must contain a question, not only a command"
+ ],
+ "fn-graph-cubic": [
+  "2019-ordinary-p1-q3#(a)(i) step 3: ask must contain a question, not only a command",
+  "2019-ordinary-p1-q3#(a)(i) step 4: ask must contain a question, not only a command",
+  "2019-ordinary-p1-q3#(a)(i) step 6: ask must contain a question, not only a command",
+  "2021-higher-p1-q8#(a)(ii) step 2: ask must contain a question, not only a command",
+  "2021-higher-p1-q8#(a)(ii) step 4: ask must contain a question, not only a command"
+ ],
  "fn-graph-exponential": [
+  "2025-ordinary-p1-q7#(d)(i), (ii) step 1: ask must contain a question, not only a command",
+  "2025-ordinary-p1-q7#(d)(i), (ii) step 2: ask must contain a question, not only a command",
+  "2025-ordinary-p1-q7#(d)(i), (ii) step 3: ask must contain a question, not only a command",
+  "2023-ordinary-p1-q9#(b)(i), (ii) step 1: ask must contain a question, not only a command",
+  "2023-ordinary-p1-q9#(b)(i), (ii) step 2: ask must contain a question, not only a command",
+  "2023-ordinary-p1-q9#(b)(i), (ii) step 4: ask must contain a question, not only a command",
+  "2023-ordinary-p1-q9#(b)(i), (ii) step 8: ask must contain a question, not only a command",
   "2015-ordinary-p1-q9#(a)(iii): no \\hl marks"
+ ],
+ "fn-graph-linear": [
+  "2019-higher-p1-q2#(a)(i) step 1: ask must contain a question, not only a command",
+  "2018-higher-p1-q7#(d) step 2: ask must contain a question, not only a command",
+  "2023-ordinary-p2-q1#(c)(i), (ii) step 1: ask must contain a question, not only a command"
  ],
  "fn-solve-graphically": [
   "2019-ordinary-p1-q3#(a)(ii): its solution talks about the marking scheme; choose another candidate",
@@ -9,8 +82,30 @@
  "ind-hidden-quadratic": [
   "2016-higher-p1-q3#(b): note has LaTeX outside $…$"
  ],
+ "log-laws": [
+  "2016-higher-p1-q4#(b)(i) step 2: ask must contain a question, not only a command"
+ ],
  "log-solve-exponential": [
   "2016-higher-p1-q8#(b)(iii) step 2: ask has LaTeX outside $…$"
+ ],
+ "int-definite": [
+  "2015-higher-p1-q3#(b)(i), (ii) step 3: ask must contain a question, not only a command"
+ ],
+ "alg-equate-coefficients": [
+  "2019-higher-p1-q1#(a) step 4: ask must contain a question, not only a command",
+  "2019-higher-p1-q1#(a) step 5: ask must contain a question, not only a command"
+ ],
+ "prob-addition-rule": [
+  "2024-higher-p2-q2#(b) step 2: ask must contain a question, not only a command"
+ ],
+ "prob-independence-test": [
+  "2022-higher-p2-q1#(a)(ii) step 3: ask must contain a question, not only a command"
+ ],
+ "prob-kth-success": [
+  "2023-higher-p2-q1#(b) step 4: ask must contain a question, not only a command"
+ ],
+ "seq-geo-unknown-n": [
+  "2015-higher-p2-q8#(e)(ii) step 2: ask must contain a question, not only a command"
  ],
  "stat-back-to-back": [
   "2022-ordinary-p2-q7#(a)(ii): no \\hl marks"

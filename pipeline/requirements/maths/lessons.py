@@ -184,6 +184,8 @@ def check_lesson(job, out):
         for k, (a, b) in enumerate(zip(pr['steps'], c['steps'])):
             if not (a.get('ask') or '').strip():
                 errs.append(f'{tag} step {k + 1}: missing ask')
+            elif '?' not in a['ask']:
+                errs.append(f'{tag} step {k + 1}: ask must contain a question, not only a command')
             elif bare_tex(a['ask']):
                 errs.append(f'{tag} step {k + 1}: ask has LaTeX outside $…$')
             if norm(a.get('title')) != norm(b['title']):
