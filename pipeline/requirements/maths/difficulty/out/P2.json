@@ -1,0 +1,942 @@
+[
+ {
+  "chapter": "maths8",
+  "skills": [
+   {
+    "id": "circ-point-position",
+    "grade": "Beginner",
+    "why": "Substitute and compare with r²"
+   },
+   {
+    "id": "circ-eq-origin",
+    "grade": "Beginner",
+    "why": "Direct x²+y²=r² substitution"
+   },
+   {
+    "id": "circ-eq-centre-radius",
+    "grade": "Beginner",
+    "why": "Direct formula, with sign handling"
+   },
+   {
+    "id": "circ-line-origin",
+    "grade": "Intermediate",
+    "why": "Substitute line into circle, solve quadratic"
+   },
+   {
+    "id": "circ-chord-length",
+    "grade": "Intermediate",
+    "why": "Right triangle from centre, then Pythagoras"
+   },
+   {
+    "id": "circ-tangent-at-point",
+    "grade": "Intermediate",
+    "why": "Radius slope, perpendicular slope, line equation"
+   },
+   {
+    "id": "circ-general-form",
+    "grade": "Intermediate",
+    "why": "Complete the square to extract centre, radius"
+   },
+   {
+    "id": "circ-tangent-length",
+    "grade": "Intermediate",
+    "why": "Pythagoras with radius and centre distance"
+   },
+   {
+    "id": "circ-tangent-test",
+    "grade": "Intermediate",
+    "why": "Distance from centre to line equals radius"
+   },
+   {
+    "id": "circ-line-general",
+    "grade": "Advanced",
+    "why": "General circle, substitution, quadratic, awkward algebra"
+   },
+   {
+    "id": "circ-touching",
+    "grade": "Advanced",
+    "why": "Compare centre distance with radii sum or difference"
+   },
+   {
+    "id": "circ-common-chord",
+    "grade": "Advanced",
+    "why": "Subtract circle equations, then intersect"
+   },
+   {
+    "id": "circ-tangents-from-point",
+    "grade": "Advanced",
+    "why": "Unknown slope from distance condition, two solutions"
+   },
+   {
+    "id": "circ-from-conditions",
+    "grade": "Advanced",
+    "why": "Simultaneous equations for g, f, c from conditions"
+   }
+  ]
+ },
+ {
+  "chapter": "maths9",
+  "skills": [
+   {
+    "id": "line-midpoint",
+    "grade": "Beginner",
+    "why": "Average the coordinates"
+   },
+   {
+    "id": "line-slope",
+    "grade": "Beginner",
+    "why": "Rise over run formula"
+   },
+   {
+    "id": "line-point-on",
+    "grade": "Beginner",
+    "why": "Substitute coordinates, set to zero"
+   },
+   {
+    "id": "line-distance",
+    "grade": "Beginner",
+    "why": "Distance formula applied directly"
+   },
+   {
+    "id": "line-equation",
+    "grade": "Beginner",
+    "why": "Slope then point-slope formula"
+   },
+   {
+    "id": "line-collinear",
+    "grade": "Beginner",
+    "why": "Compare two slopes"
+   },
+   {
+    "id": "line-intersection",
+    "grade": "Intermediate",
+    "why": "Solve two equations simultaneously"
+   },
+   {
+    "id": "line-parallel-perp",
+    "grade": "Intermediate",
+    "why": "Compare slopes, then build a line"
+   },
+   {
+    "id": "line-linear-model",
+    "grade": "Intermediate",
+    "why": "Build and interpret a line in context"
+   },
+   {
+    "id": "line-area-triangle",
+    "grade": "Intermediate",
+    "why": "Formula with careful coordinates, familiar exam form"
+   },
+   {
+    "id": "line-unknown-coefficient",
+    "grade": "Intermediate",
+    "why": "Slope condition leads to equation in unknown"
+   },
+   {
+    "id": "line-divide-ratio",
+    "grade": "Intermediate",
+    "why": "Ratio formula applied with care"
+   },
+   {
+    "id": "line-perp-distance",
+    "grade": "Intermediate",
+    "why": "Formula with line rearranged to general form"
+   },
+   {
+    "id": "line-angle-between",
+    "grade": "Intermediate",
+    "why": "Two slopes, tan formula, inverse tan"
+   },
+   {
+    "id": "line-from-distance",
+    "grade": "Advanced",
+    "why": "Unknown slope, distance condition, quadratic solving"
+   }
+  ]
+ },
+ {
+  "chapter": "maths15",
+  "skills": [
+   {
+    "id": "geo-thm1",
+    "grade": "Beginner",
+    "why": "One-step angle fact"
+   },
+   {
+    "id": "geo-thm4",
+    "grade": "Beginner",
+    "why": "Angles sum to 180 directly"
+   },
+   {
+    "id": "geo-thm3",
+    "grade": "Beginner",
+    "why": "Direct angle equality"
+   },
+   {
+    "id": "geo-thm5",
+    "grade": "Beginner",
+    "why": "Direct angle equality"
+   },
+   {
+    "id": "geo-thm2",
+    "grade": "Beginner",
+    "why": "Equal base angles, one move"
+   },
+   {
+    "id": "geo-thm6",
+    "grade": "Beginner",
+    "why": "Exterior angle rule applied directly"
+   },
+   {
+    "id": "geo-transformations",
+    "grade": "Beginner",
+    "why": "Apply a symmetry or translation directly"
+   },
+   {
+    "id": "geo-thm7",
+    "grade": "Beginner",
+    "why": "Compare sides and angles qualitatively"
+   },
+   {
+    "id": "geo-thm8",
+    "grade": "Beginner",
+    "why": "Compare sums of side lengths"
+   },
+   {
+    "id": "geo-thm14",
+    "grade": "Beginner",
+    "why": "Pythagoras applied directly"
+   },
+   {
+    "id": "geo-thm15",
+    "grade": "Beginner",
+    "why": "Check a²+b²=c²"
+   },
+   {
+    "id": "geo-cor3",
+    "grade": "Beginner",
+    "why": "Right angle in semicircle, one step"
+   },
+   {
+    "id": "geo-congruence",
+    "grade": "Beginner",
+    "why": "Match the correct congruence condition"
+   },
+   {
+    "id": "geo-enlargement",
+    "grade": "Beginner",
+    "why": "Scale factor applied to lengths"
+   },
+   {
+    "id": "geo-thm9",
+    "grade": "Beginner",
+    "why": "Opposite sides and angles equal"
+   },
+   {
+    "id": "geo-thm10",
+    "grade": "Beginner",
+    "why": "Diagonals bisect; needs congruence idea"
+   },
+   {
+    "id": "geo-cor4",
+    "grade": "Beginner",
+    "why": "Converse of semicircle angle"
+   },
+   {
+    "id": "geo-thm17",
+    "grade": "Beginner",
+    "why": "Diagonal halves parallelogram area"
+   },
+   {
+    "id": "geo-thm18",
+    "grade": "Beginner",
+    "why": "Base times height formula"
+   },
+   {
+    "id": "geo-thm16",
+    "grade": "Intermediate",
+    "why": "Area reasoning between shapes on same base"
+   },
+   {
+    "id": "geo-thm20",
+    "grade": "Intermediate",
+    "why": "Right angle at tangent point, then angle sum"
+   },
+   {
+    "id": "geo-cor1",
+    "grade": "Intermediate",
+    "why": "Congruent triangles give equal halves"
+   },
+   {
+    "id": "geo-thm11",
+    "grade": "Intermediate",
+    "why": "Proportional intercepts on transversals"
+   },
+   {
+    "id": "geo-thm13",
+    "grade": "Intermediate",
+    "why": "Set up ratios of corresponding sides"
+   },
+   {
+    "id": "geo-thm21",
+    "grade": "Intermediate",
+    "why": "Perpendicular bisects chord, then Pythagoras"
+   },
+   {
+    "id": "geo-similar-triangles",
+    "grade": "Intermediate",
+    "why": "Identify similar triangles, set up proportion"
+   },
+   {
+    "id": "geo-thm12",
+    "grade": "Intermediate",
+    "why": "Proportional division by parallel line"
+   },
+   {
+    "id": "geo-enlargement-centre",
+    "grade": "Intermediate",
+    "why": "Work backwards to centre and scale factor"
+   },
+   {
+    "id": "geo-cor6",
+    "grade": "Intermediate",
+    "why": "Common tangent reasoning, less familiar"
+   },
+   {
+    "id": "geo-cor5",
+    "grade": "Intermediate",
+    "why": "Cyclic quadrilateral angles, multi-step diagrams"
+   },
+   {
+    "id": "geo-thm19",
+    "grade": "Intermediate",
+    "why": "Angle at centre reasoning in varied diagrams"
+   },
+   {
+    "id": "geo-cor2",
+    "grade": "Intermediate",
+    "why": "Same-arc angles in unfamiliar circle diagrams"
+   },
+   {
+    "id": "geo-prove-thm11",
+    "grade": "Advanced",
+    "why": "Formal proof using congruence and parallelograms"
+   },
+   {
+    "id": "geo-prove-thm12",
+    "grade": "Advanced",
+    "why": "Proof building on theorem 11"
+   },
+   {
+    "id": "geo-prove-thm13",
+    "grade": "Advanced",
+    "why": "Longest proof, builds on theorem 12"
+   },
+   {
+    "id": "geo-cuts",
+    "grade": "Advanced",
+    "why": "Long reasoned chain combining many theorems"
+   }
+  ]
+ },
+ {
+  "chapter": "maths16",
+  "skills": [
+   {
+    "id": "con-8",
+    "grade": "Beginner",
+    "why": "Mark off a length with compass"
+   },
+   {
+    "id": "con-1",
+    "grade": "Beginner",
+    "why": "Single routine compass construction"
+   },
+   {
+    "id": "con-9",
+    "grade": "Beginner",
+    "why": "Protractor construction"
+   },
+   {
+    "id": "con-15",
+    "grade": "Beginner",
+    "why": "Right angles and given sides"
+   },
+   {
+    "id": "con-2",
+    "grade": "Beginner",
+    "why": "Single routine compass construction"
+   },
+   {
+    "id": "con-10",
+    "grade": "Beginner",
+    "why": "Three compass arcs"
+   },
+   {
+    "id": "con-11",
+    "grade": "Beginner",
+    "why": "Draw angle and two sides"
+   },
+   {
+    "id": "con-12",
+    "grade": "Beginner",
+    "why": "Draw side and two angles"
+   },
+   {
+    "id": "con-3",
+    "grade": "Beginner",
+    "why": "Compass construction, slightly more steps"
+   },
+   {
+    "id": "con-4",
+    "grade": "Beginner",
+    "why": "Compass construction, slightly more steps"
+   },
+   {
+    "id": "con-5",
+    "grade": "Beginner",
+    "why": "Compass construction, slightly more steps"
+   },
+   {
+    "id": "con-13",
+    "grade": "Beginner",
+    "why": "Right angle plus hypotenuse arc"
+   },
+   {
+    "id": "con-14",
+    "grade": "Beginner",
+    "why": "Right angle plus given side"
+   },
+   {
+    "id": "con-6",
+    "grade": "Beginner",
+    "why": "Uses parallels to divide a segment"
+   },
+   {
+    "id": "con-18",
+    "grade": "Beginner",
+    "why": "Equilateral triangle by compass"
+   },
+   {
+    "id": "con-20",
+    "grade": "Beginner",
+    "why": "Parallel sides construction"
+   },
+   {
+    "id": "con-16",
+    "grade": "Intermediate",
+    "why": "Perpendicular bisectors then circle"
+   },
+   {
+    "id": "con-17",
+    "grade": "Intermediate",
+    "why": "Angle bisectors then circle"
+   },
+   {
+    "id": "con-19",
+    "grade": "Intermediate",
+    "why": "Perpendicular to radius at point"
+   },
+   {
+    "id": "con-21",
+    "grade": "Intermediate",
+    "why": "Medians via midpoints, several steps"
+   },
+   {
+    "id": "logic-terms",
+    "grade": "Intermediate",
+    "why": "Understand proof vocabulary and terms"
+   },
+   {
+    "id": "con-7",
+    "grade": "Intermediate",
+    "why": "General division needs repeated steps"
+   },
+   {
+    "id": "con-22",
+    "grade": "Intermediate",
+    "why": "Altitudes constructed, several steps"
+   },
+   {
+    "id": "num-construct-root2-3",
+    "grade": "Intermediate",
+    "why": "Combine Pythagoras with a perpendicular construction"
+   },
+   {
+    "id": "logic-terms-hl",
+    "grade": "Advanced",
+    "why": "Abstract logic: converse, contrapositive, equivalence"
+   }
+  ]
+ },
+ {
+  "chapter": "maths20",
+  "skills": [
+   {
+    "id": "prob-relative-frequency",
+    "grade": "Beginner",
+    "why": "Divide frequency by trials"
+   },
+   {
+    "id": "prob-counting-principle",
+    "grade": "Beginner",
+    "why": "List outcomes, multiply choices"
+   },
+   {
+    "id": "prob-sample-space",
+    "grade": "Beginner",
+    "why": "Systematic listing of outcomes"
+   },
+   {
+    "id": "prob-equally-likely",
+    "grade": "Beginner",
+    "why": "Favourable over total"
+   },
+   {
+    "id": "prob-factorial",
+    "grade": "Beginner",
+    "why": "n! for distinct objects"
+   },
+   {
+    "id": "prob-venn",
+    "grade": "Beginner",
+    "why": "Read and fill a Venn diagram"
+   },
+   {
+    "id": "prob-independent",
+    "grade": "Beginner",
+    "why": "Multiply independent probabilities"
+   },
+   {
+    "id": "prob-npr",
+    "grade": "Beginner",
+    "why": "Formula applied directly"
+   },
+   {
+    "id": "prob-addition-rule",
+    "grade": "Intermediate",
+    "why": "Formula using Venn intersection"
+   },
+   {
+    "id": "prob-tree",
+    "grade": "Intermediate",
+    "why": "Multiply along branches, add paths"
+   },
+   {
+    "id": "prob-ncr",
+    "grade": "Intermediate",
+    "why": "Formula with calculator, unordered selection"
+   },
+   {
+    "id": "prob-independence-test",
+    "grade": "Intermediate",
+    "why": "Check P(A and B) equals P(A)P(B)"
+   },
+   {
+    "id": "prob-expected-value",
+    "grade": "Intermediate",
+    "why": "Sum of value times probability, interpret fairness"
+   },
+   {
+    "id": "prob-arrangement-restrictions",
+    "grade": "Intermediate",
+    "why": "Split into cases or fix positions"
+   },
+   {
+    "id": "prob-bernoulli-3",
+    "grade": "Intermediate",
+    "why": "Enumerate success patterns with a tree"
+   },
+   {
+    "id": "prob-first-success",
+    "grade": "Intermediate",
+    "why": "Failures then success, powers of q"
+   },
+   {
+    "id": "prob-conditional",
+    "grade": "Intermediate",
+    "why": "Reduced sample space, general multiplication rule"
+   },
+   {
+    "id": "prob-selection-restrictions",
+    "grade": "Intermediate",
+    "why": "Combine selections with conditions"
+   },
+   {
+    "id": "prob-binomial",
+    "grade": "Intermediate",
+    "why": "Choose k, powers, combine several skills"
+   },
+   {
+    "id": "prob-without-replacement",
+    "grade": "Advanced",
+    "why": "Changing probabilities, conditional chains, long cases"
+   },
+   {
+    "id": "prob-kth-success",
+    "grade": "Advanced",
+    "why": "Binomial on n-1 trials then success"
+   }
+  ]
+ },
+ {
+  "chapter": "maths22",
+  "skills": [
+   {
+    "id": "stat-data-types",
+    "grade": "Beginner",
+    "why": "Classify by type"
+   },
+   {
+    "id": "stat-populations-samples",
+    "grade": "Beginner",
+    "why": "Definitions and simple judgement"
+   },
+   {
+    "id": "stat-averages",
+    "grade": "Beginner",
+    "why": "Routine calculation"
+   },
+   {
+    "id": "stat-charts",
+    "grade": "Beginner",
+    "why": "Routine drawing of standard charts"
+   },
+   {
+    "id": "stat-srs-bias",
+    "grade": "Beginner",
+    "why": "Describe random selection, spot bias"
+   },
+   {
+    "id": "stat-study-types",
+    "grade": "Beginner",
+    "why": "Identify study types"
+   },
+   {
+    "id": "stat-quartiles-iqr",
+    "grade": "Beginner",
+    "why": "Order data and locate quartiles"
+   },
+   {
+    "id": "stat-scatter-correlation",
+    "grade": "Beginner",
+    "why": "Read direction and strength"
+   },
+   {
+    "id": "stat-outliers",
+    "grade": "Beginner",
+    "why": "Apply 1.5 IQR style test"
+   },
+   {
+    "id": "stat-grouped-mean",
+    "grade": "Beginner",
+    "why": "Midpoints times frequencies"
+   },
+   {
+    "id": "stat-choose-display",
+    "grade": "Beginner",
+    "why": "Match data type to display"
+   },
+   {
+    "id": "stat-distribution-shape",
+    "grade": "Beginner",
+    "why": "Describe skew and symmetry"
+   },
+   {
+    "id": "stat-back-to-back",
+    "grade": "Beginner",
+    "why": "Compare two plots using centre and spread"
+   },
+   {
+    "id": "stat-plan-collect",
+    "grade": "Intermediate",
+    "why": "Open-ended design of a plan"
+   },
+   {
+    "id": "stat-sd",
+    "grade": "Intermediate",
+    "why": "Calculator procedure and interpretation"
+   },
+   {
+    "id": "stat-percentiles",
+    "grade": "Intermediate",
+    "why": "Interpret relative standing"
+   },
+   {
+    "id": "stat-sampling-methods-hl",
+    "grade": "Intermediate",
+    "why": "Define and compare sampling methods in words"
+   },
+   {
+    "id": "stat-correlation-calc",
+    "grade": "Intermediate",
+    "why": "Calculator procedure and interpretation"
+   },
+   {
+    "id": "stat-line-best-fit",
+    "grade": "Intermediate",
+    "why": "Draw by eye, read predictions"
+   },
+   {
+    "id": "stat-outlier-effect",
+    "grade": "Intermediate",
+    "why": "Reason about effect on mean, sd, median"
+   },
+   {
+    "id": "stat-compare-hl",
+    "grade": "Intermediate",
+    "why": "Reasoned comparison of centre and spread"
+   }
+  ]
+ },
+ {
+  "chapter": "maths23",
+  "skills": [
+   {
+    "id": "inf-sampling-variability",
+    "grade": "Beginner",
+    "why": "Conceptual recognition"
+   },
+   {
+    "id": "inf-margin-of-error",
+    "grade": "Beginner",
+    "why": "Apply 1/√n formula"
+   },
+   {
+    "id": "inf-histogram",
+    "grade": "Beginner",
+    "why": "Read distribution from histogram"
+   },
+   {
+    "id": "inf-interpret",
+    "grade": "Intermediate",
+    "why": "Link analysis back to context"
+   },
+   {
+    "id": "inf-hypothesis-concept",
+    "grade": "Intermediate",
+    "why": "State hypotheses in words"
+   },
+   {
+    "id": "inf-hypothesis-moe",
+    "grade": "Intermediate",
+    "why": "Compare margin of error, conclude in context"
+   },
+   {
+    "id": "inf-sampling-distribution",
+    "grade": "Intermediate",
+    "why": "Standard error and normal probability combined"
+   },
+   {
+    "id": "inf-ci-proportion",
+    "grade": "Intermediate",
+    "why": "Formula applied with z-value"
+   },
+   {
+    "id": "inf-ci-mean",
+    "grade": "Intermediate",
+    "why": "Formula with standard error and mean"
+   },
+   {
+    "id": "inf-z-test",
+    "grade": "Advanced",
+    "why": "Multi-step test with hypotheses and conclusion"
+   },
+   {
+    "id": "inf-p-value",
+    "grade": "Advanced",
+    "why": "Tail probabilities, interpretation against significance"
+   },
+   {
+    "id": "inf-confidence-width",
+    "grade": "Advanced",
+    "why": "Reason about changes in several variables"
+   }
+  ]
+ },
+ {
+  "chapter": "maths24",
+  "skills": [
+   {
+    "id": "stat-z-score",
+    "grade": "Intermediate",
+    "why": "One formula, some interpretation"
+   },
+   {
+    "id": "stat-empirical-rule",
+    "grade": "Intermediate",
+    "why": "Apply 68-95-99.7 rule to decisions"
+   },
+   {
+    "id": "stat-normal-prob",
+    "grade": "Intermediate",
+    "why": "Standardise then read tables"
+   },
+   {
+    "id": "stat-normal-inverse",
+    "grade": "Intermediate",
+    "why": "Reverse table lookup, solve for unknown"
+   }
+  ]
+ },
+ {
+  "chapter": "maths25",
+  "skills": [
+   {
+    "id": "trig-radians",
+    "grade": "Beginner",
+    "why": "Convert and apply radian measure"
+   },
+   {
+    "id": "trig-unit-circle",
+    "grade": "Intermediate",
+    "why": "Extend ratios to all angles, quadrants"
+   },
+   {
+    "id": "trig-pythag-identity",
+    "grade": "Intermediate",
+    "why": "Identity used directly"
+   },
+   {
+    "id": "trig-exact-values",
+    "grade": "Intermediate",
+    "why": "Recall surd values, use quadrant signs"
+   },
+   {
+    "id": "trig-solve-basic",
+    "grade": "Intermediate",
+    "why": "Inverse trig, quadrants, multiple solutions"
+   },
+   {
+    "id": "trig-graph",
+    "grade": "Intermediate",
+    "why": "Sketch standard curves, key features"
+   },
+   {
+    "id": "trig-derive-1",
+    "grade": "Intermediate",
+    "why": "Unit circle plus Pythagoras"
+   },
+   {
+    "id": "trig-compound",
+    "grade": "Intermediate",
+    "why": "Select formula, combine exact values"
+   },
+   {
+    "id": "trig-solve-general",
+    "grade": "Intermediate",
+    "why": "General solution with radians and integer n"
+   },
+   {
+    "id": "trig-graph-abc",
+    "grade": "Intermediate",
+    "why": "Read amplitude, period, shift from equations"
+   },
+   {
+    "id": "trig-derive-2",
+    "grade": "Intermediate",
+    "why": "Derivation from area formula"
+   },
+   {
+    "id": "trig-solve-quadratic",
+    "grade": "Intermediate",
+    "why": "Rewrite as quadratic, solve, then solve trig"
+   },
+   {
+    "id": "trig-products-sums",
+    "grade": "Advanced",
+    "why": "Formula choice and manipulation"
+   },
+   {
+    "id": "trig-double",
+    "grade": "Advanced",
+    "why": "Many formulae, algebraic manipulation"
+   },
+   {
+    "id": "trig-derive-3",
+    "grade": "Advanced",
+    "why": "Derivation with coordinates and identity"
+   },
+   {
+    "id": "trig-prove-identity",
+    "grade": "Advanced",
+    "why": "Open-ended proofs combining many formulae"
+   },
+   {
+    "id": "trig-derive-4",
+    "grade": "Advanced",
+    "why": "Distance formula derivation, long algebra"
+   },
+   {
+    "id": "trig-derive-5",
+    "grade": "Advanced",
+    "why": "Substitution into derived formula"
+   },
+   {
+    "id": "trig-derive-7",
+    "grade": "Advanced",
+    "why": "Uses complementary angles and formula 4"
+   },
+   {
+    "id": "trig-derive-6",
+    "grade": "Advanced",
+    "why": "Substitution into formula 5"
+   },
+   {
+    "id": "trig-derive-9",
+    "grade": "Advanced",
+    "why": "Combines two derived formulae"
+   }
+  ]
+ },
+ {
+  "chapter": "maths26",
+  "skills": [
+   {
+    "id": "trig-ratios-right",
+    "grade": "Beginner",
+    "why": "SOH CAH TOA directly"
+   },
+   {
+    "id": "trig-pythagoras",
+    "grade": "Beginner",
+    "why": "Pythagoras in 2D context"
+   },
+   {
+    "id": "trig-elevation",
+    "grade": "Intermediate",
+    "why": "Draw diagram, choose ratio"
+   },
+   {
+    "id": "trig-area-triangle",
+    "grade": "Intermediate",
+    "why": "Formula once angle identified"
+   },
+   {
+    "id": "trig-sine-rule",
+    "grade": "Intermediate",
+    "why": "Choose pairs, solve for side or angle"
+   },
+   {
+    "id": "trig-cosine-rule",
+    "grade": "Intermediate",
+    "why": "Choose version, rearrange for angle"
+   },
+   {
+    "id": "trig-triangle-problems",
+    "grade": "Intermediate",
+    "why": "Choose among rules across several steps"
+   },
+   {
+    "id": "trig-sine-ambiguous",
+    "grade": "Advanced",
+    "why": "Two possible triangles, unfamiliar case"
+   },
+   {
+    "id": "trig-3d",
+    "grade": "Advanced",
+    "why": "Unfamiliar 3D diagrams, multi-stage chains"
+   }
+  ]
+ }
+]
