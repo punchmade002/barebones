@@ -6,76 +6,116 @@
   "notes": [
     {
       "h": "Classification and the ranks of the hierarchy",
+      "b": "There are millions of kinds of living thing, so biologists sort them into groups the way a library sorts books into sections, shelves and titles. The groups sit inside one another in a fixed set of levels.",
       "points": [
         "Classification is the grouping of organisms according to their shared characteristics. Taxonomy is the science of naming, describing and classifying organisms.",
-        "Organisms are placed in a hierarchy of ranks (taxa), from broadest to narrowest: domain, kingdom, phylum, class, order, family, genus, species. Moving down the ranks, each group has fewer members, which share more features and are more closely related.",
-        "Worked example, human: domain Eukarya, kingdom Animalia, phylum Chordata, class Mammalia, order Primates, family Hominidae, genus Homo, species Homo sapiens.",
-        "A species is a group of organisms with similar features that can interbreed to produce fertile offspring. A horse and a donkey can mate, but their offspring, a mule, is infertile, so they are different species.",
-        "Limitation of the species definition: it cannot be applied to organisms that reproduce only asexually (e.g. bacteria) or to fossils.",
-        "Binomial nomenclature: every species has a two-part scientific name, the genus name (capital first letter) followed by the species name (lower case), printed in italics or underlined when handwritten. Examples: Homo sapiens (human), Escherichia coli (a gut bacterium), Rhizopus stolonifer (black bread mould).",
+        "Organisms are placed in a hierarchy of ranks (taxa, the levels of grouping), from broadest to narrowest: domain, kingdom, phylum, class, order, family, genus, species.",
+        "Moving down the ranks, each group has fewer members, which share more features and are more closely related. This is why two species in the same genus are far more alike than two in the same kingdom.",
+        "Worked example, human: domain Eukarya, kingdom Animalia, phylum Chordata, class Mammalia, order Primates, family Hominidae, genus Homo, species Homo sapiens."
+      ],
+      "tip": "You may be asked to list the ranks in order, so learn them from broadest (domain) to narrowest (species). The human worked example is a good way to practise the order."
+    },
+    {
+      "h": "Species and binomial nomenclature",
+      "b": "The species is the smallest rank, so it needs a clear definition and a universal name. Every species gets a two-part scientific name, which is called binomial nomenclature.",
+      "points": [
+        "A species is a group of organisms with similar features that can interbreed to produce fertile offspring (young that can themselves reproduce). A horse and a donkey can mate, but their offspring, a mule, is infertile, so they are different species.",
+        "Limitation of the species definition: it cannot be applied to organisms that reproduce only asexually (e.g. bacteria), because they do not interbreed at all, or to fossils, because dead organisms cannot be tested for interbreeding.",
+        "Binomial nomenclature: every species has a two-part scientific name, the genus name (capital first letter) followed by the species name (lower case), printed in italics or underlined when handwritten.",
+        "Examples of binomial names: Homo sapiens (human), Escherichia coli (a gut bacterium), Rhizopus stolonifer (black bread mould).",
         "The Swedish botanist Carl Linnaeus introduced binomial nomenclature; his Species Plantarum (1753) used it for all plants.",
-        "Species in the same genus are closely related. The lion (Panthera leo) and tiger (Panthera tigris) share the genus Panthera."
-      ]
+        "Species in the same genus are closely related, which is why they share the first part of their name. The lion (Panthera leo) and tiger (Panthera tigris) share the genus Panthera."
+      ],
+      "tip": "When explaining binomial nomenclature, say what each part is: the genus name has a capital letter and the species name is lower case, both in italics or underlined. Never write Homo Sapiens with a capital S."
     },
     {
       "h": "Prokaryotic and eukaryotic as a means of classifying",
+      "b": "Before sorting living things into kingdoms, biologists ask one basic question about their cells: is there a nucleus (the compartment that holds the DNA) or not? The answer splits cellular life into two big groups.",
       "points": [
-        "The first division of cellular life is by cell type. Prokaryotic cells have no nucleus and no membrane-bound organelles. Eukaryotic cells have a nucleus surrounded by a membrane, and membrane-bound organelles. Cell structure in detail is in “Prokaryotic and eukaryotic cells”.",
+        "The first division of cellular life is by cell type. Prokaryotic cells have no nucleus and no membrane-bound organelles (the small working parts of a cell). Eukaryotic cells have a nucleus surrounded by a membrane, and membrane-bound organelles. There is more on this in Prokaryotic and eukaryotic cells.",
         "Two kingdoms are prokaryotic, Bacteria and Archaea, each forming its own domain. Four kingdoms are eukaryotic, Protista, Fungi, Plantae and Animalia, all in the domain Eukarya.",
-        "The distinction became clear only once the electron microscope showed cell interiors."
-      ]
+        "The distinction became clear only once the electron microscope showed cell interiors, because the details inside prokaryotic and eukaryotic cells are too small to see with a light microscope."
+      ],
+      "tip": "Use the nucleus as your first test: no nucleus means Bacteria or Archaea, and a nucleus means one of the four eukaryotic kingdoms."
     },
     {
-      "h": "The six kingdoms",
-      "b": "The six kingdoms differ in cell type, number of cells, cell wall, nutrition, storage carbohydrate and example. The features of each kingdom are given below.",
+      "h": "The prokaryotic kingdoms: Bacteria and Archaea",
+      "b": "Both prokaryotic kingdoms are single-celled with no nucleus, so they are told apart mainly by the chemistry of their cell walls. Each is described by cell type, number of cells, cell wall, nutrition and examples.",
       "points": [
-        "Bacteria: prokaryotic and unicellular, with cell walls of peptidoglycan. Bacteria are autotrophic (photosynthetic or chemosynthetic) or heterotrophic (saprophytic or parasitic), and reproduce by binary fission. Examples: Escherichia coli, Lactobacillus (used to make yoghurt) and Streptococcus.",
-        "Archaea: prokaryotic and unicellular, with cell walls that have no peptidoglycan. Many live in extreme environments. Examples: methanogens in cattle digestive systems, and Halobacterium in salt lakes.",
-        "Protista: eukaryotic and mostly unicellular, though some are multicellular algae such as seaweeds (kelp). They have no tissues of the kind found in plants and animals. Some are photosynthetic (algae) and some are heterotrophic.",
+        "Bacteria: prokaryotic and unicellular, with cell walls of peptidoglycan (a mesh of sugars and amino acids). They reproduce by binary fission (one cell splits into two).",
+        "Bacterial nutrition varies. Bacteria are autotrophic (make their own food), either photosynthetic or chemosynthetic, or heterotrophic (take in food made by others), either saprophytic (feeding on dead matter) or parasitic (feeding on a living host).",
+        "Bacteria examples: Escherichia coli, Lactobacillus (used to make yoghurt) and Streptococcus.",
+        "Archaea: prokaryotic and unicellular, with cell walls that have no peptidoglycan. This difference in cell wall is one way of telling them apart from bacteria. Many live in extreme environments.",
+        "Archaea examples: methanogens (methane-producing archaea) in cattle digestive systems, and Halobacterium in salt lakes."
+      ],
+      "tip": "Bacteria are the kingdom most often asked about, so be able to give the features (prokaryotic, unicellular, peptidoglycan wall, binary fission) and an example. Use Archaea, never Monera, as a kingdom name."
+    },
+    {
+      "h": "The eukaryotic kingdoms: Protista, Fungi, Plantae and Animalia",
+      "b": "The four eukaryotic kingdoms all have a nucleus. They are separated by how many cells they have, what their cell walls are made of, how they get food and how they store carbohydrate.",
+      "points": [
+        "Protista: eukaryotic and mostly unicellular, though some are multicellular algae such as seaweeds (kelp). They have no tissues (groups of similar cells doing one job) of the kind found in plants and animals. Some are photosynthetic (algae) and some are heterotrophic.",
         "Protista includes eukaryotes that do not belong in the other three eukaryotic kingdoms. Examples: Amoeba, Paramecium, Plasmodium (causes malaria) and Phytophthora infestans (causes potato blight, which caused the Great Famine in Ireland, 1845–1849).",
-        "Fungi: eukaryotic and mostly multicellular, made of thread-like hyphae forming a mycelium, though yeasts are unicellular. They have no chlorophyll and cell walls of chitin.",
-        "Fungi are heterotrophic: they secrete enzymes onto food and absorb the products, living as saprophytes or parasites. They store carbohydrate as glycogen and reproduce by spores. Examples: Rhizopus (bread mould), yeast (Saccharomyces cerevisiae), mushrooms and Penicillium.",
-        "Plantae: eukaryotic and multicellular, with cell walls of cellulose and chloroplasts. They are autotrophic by photosynthesis, store carbohydrate as starch, and mostly do not move. Examples: mosses, ferns, conifers, and flowering plants such as the daisy and oak.",
-        "Animalia: eukaryotic and multicellular, with no cell walls. They are heterotrophic, taking in (ingesting) food, and store carbohydrate as glycogen. Most can move and have nerves and muscles. Examples: sponges, earthworms, insects, fish and mammals.",
-        "Viruses are not in any kingdom or domain, because they are not cells (see “Viruses”)."
+        "Fungi: eukaryotic and mostly multicellular, made of thread-like hyphae forming a mycelium (a tangled mass of threads), though yeasts are unicellular. They have no chlorophyll, so they cannot photosynthesise, and their cell walls are made of chitin.",
+        "Fungi are heterotrophic: they secrete enzymes onto food and absorb the digested products, living as saprophytes or parasites. They store carbohydrate as glycogen and reproduce by spores. Examples: Rhizopus (bread mould), yeast (Saccharomyces cerevisiae), mushrooms and Penicillium.",
+        "Plantae: eukaryotic and multicellular, with cell walls of cellulose and chloroplasts (where photosynthesis happens). They are autotrophic by photosynthesis, store carbohydrate as starch, and mostly do not move. Examples: mosses, ferns, conifers, and flowering plants such as the daisy and oak.",
+        "Animalia: eukaryotic and multicellular, with no cell walls. They are heterotrophic, taking in (ingesting) food, and store carbohydrate as glycogen. Most can move and have nerves and muscles. Examples: sponges, earthworms, insects, fish and mammals."
+      ],
+      "tip": "Fungi are not plants: they have no chlorophyll, chitin walls (not cellulose) and store glycogen (not starch). Fungi and bacteria are the kingdoms examiners ask about most, so give cell type, wall, nutrition and an example. Phytophthora is a protist, not a fungus."
+    },
+    {
+      "h": "Viruses: outside the kingdoms",
+      "b": "Classification by kingdom and domain only works for things made of cells. Viruses fall outside it.",
+      "points": [
+        "Viruses are not in any kingdom or domain, because they are not cells. There is more on this in Viruses."
       ]
     },
     {
       "h": "Phylogeny",
+      "b": "Grouping by appearance can mislead, so modern classification also asks which organisms share a recent ancestor. This evolutionary family-tree approach is called phylogeny.",
       "points": [
         "Phylogeny is the evolutionary history of a group of organisms. Phylogenetic classification groups organisms by how closely related they are by descent from common ancestors, rather than by appearance alone.",
-        "A phylogenetic tree shows these relationships. Each branch point (node) represents a common ancestor, and the closer two species’ branches join, the more recent their common ancestor and the more closely related they are.",
-        "Species in the same genus share a very recent common ancestor; genera in the same family share an older one.",
-        "Example: the lion and tiger (genus Panthera) are more closely related to each other than either is to the domestic cat (Felis catus), but all three are in the cat family (Felidae). The dog (Canis familiaris, also written Canis lupus familiaris) is in a different family, Canidae, and all four are in the order Carnivora.",
-        "Diagram: a phylogenetic tree for lion, tiger, domestic cat and dog, with the nodes for genus Panthera, family Felidae and order Carnivora labelled.",
-        "Evidence used to work out phylogeny includes shared anatomical structures with the same basic plan, e.g. the five-digit limb of mammals, birds, reptiles and amphibians; embryology; and fossils. Each type of evidence for evolution is in “Evolution: The Origins of Life”.",
-        "The most powerful evidence is comparison of DNA base sequences and protein amino-acid sequences: the fewer the differences, the more closely related the organisms.",
-        "Appearance can mislead. Whales and dolphins look like fish but are mammals: they breathe air with lungs, are warm-blooded and feed their young on milk."
-      ]
+        "A phylogenetic tree shows these relationships. Each branch point (node) represents a common ancestor, and the closer two species' branches join, the more recent their common ancestor and the more closely related they are.",
+        "Species in the same genus share a very recent common ancestor; genera in the same family share an older one. This is how the ranks of the hierarchy reflect evolutionary history.",
+        "Example: the lion and tiger (genus Panthera) are more closely related to each other than either is to the domestic cat (Felis catus), but all three are in the cat family (Felidae).",
+        "The dog (Canis familiaris, also written Canis lupus familiaris) is in a different family, Canidae, and all four animals are in the order Carnivora.",
+        "Evidence used to work out phylogeny includes shared anatomical structures with the same basic plan, e.g. the five-digit limb of mammals, birds, reptiles and amphibians; embryology (the study of early development); and fossils. There is more on this in Evolution: The Origins of Life.",
+        "The most powerful evidence is comparison of DNA base sequences and protein amino-acid sequences: the fewer the differences, the more closely related the organisms, because less time has passed for differences to build up.",
+        "Appearance can mislead. Whales and dolphins look like fish but are mammals: they breathe air with lungs, are warm-blooded and feed their young on milk.",
+        "Diagram: a phylogenetic tree for lion, tiger, domestic cat and dog, with the nodes for genus Panthera, family Felidae and order Carnivora labelled."
+      ],
+      "tip": "If you are given a phylogenetic tree, read it by the nodes: the nearer two branches join, the more recent their common ancestor. Be ready to use genus and species in your answer, as in the lion and tiger example."
     },
     {
       "h": "How classification systems have changed",
+      "b": "Classification is not fixed. Each time scientists gained a new tool for looking at living things, the groupings were redrawn, which is why you will meet different numbers of kingdoms in the history of the subject.",
       "points": [
         "Early systems had two kingdoms, plants and animals. Linnaeus, in the 18th century, classified organisms by visible features.",
         "Microscopes revealed single-celled organisms that fitted neither kingdom. In 1866 Ernst Haeckel proposed a third kingdom, Protista.",
-        "In 1969 Robert Whittaker proposed five kingdoms: Monera, Protista, Fungi, Plantae and Animalia. Fungi were separated from plants because they have chitin walls, no chlorophyll and absorb their food. Monera held all the prokaryotes.",
-        "rRNA sequencing by Carl Woese showed that prokaryotes form two very different groups. This gave three domains (1990) and the six kingdoms used in this course, with Monera split into Bacteria and Archaea. Detail is in “Domains of life”.",
+        "In 1969 Robert Whittaker proposed five kingdoms: Monera, Protista, Fungi, Plantae and Animalia. Monera held all the prokaryotes.",
+        "Fungi were separated from plants in Whittaker's system because they have chitin walls, no chlorophyll and absorb their food.",
+        "rRNA sequencing (reading the sequence of a molecule found in ribosomes) by Carl Woese showed that prokaryotes form two very different groups. This gave three domains (1990).",
+        "The six kingdoms used in this course followed, with Monera split into Bacteria and Archaea. There is more on this in Domains of life.",
         "Systems change because new technology provides new evidence, e.g. the light microscope, the electron microscope, biochemistry and DNA sequencing. Classification is revised to reflect evolutionary relationships more accurately. It is a model that scientists keep testing and improving."
-      ]
+      ],
+      "tip": "To explain why classification systems change, link a new technology to the new evidence it gave and the revision that followed. Monera belongs only to this historical system; today's kingdoms are the six."
     },
     {
       "h": "Emerging evidence",
+      "b": "DNA sequencing, reading the order of bases in an organism's DNA, is now the strongest tool for classification. It is still moving organisms between groups and adding new ones.",
       "points": [
         "DNA sequencing and whole-genome comparisons are now the main evidence for classification, and have moved many organisms. Phytophthora (potato blight) was long classed as a fungus because it grows as threads. Its DNA and its cellulose cell walls show that it belongs with the protists (water moulds).",
         "DNA evidence placed the giant panda in the bear family.",
         "Environmental DNA sequencing, which sequences all the DNA in a soil or water sample, has revealed huge numbers of microorganisms that have never been grown in a laboratory. These add new branches to the tree of life.",
-        "Asgard archaea were first described in 2015 from DNA in sediment near the Loki’s Castle hydrothermal vents in the Arctic Ocean. They share many genes with eukaryotes.",
-        "Some scientists argue that eukaryotes arose from within the archaea, which would mean only two primary domains. This is still debated.",
+        "Asgard archaea were first reported in 2015 from DNA in sediment near the Loki's Castle hydrothermal vents in the Arctic Ocean. They share many genes with eukaryotes.",
+        "Some scientists argue that eukaryotes arose from within the archaea, which would mean only two primary domains. This is still debated, so classification remains a work in progress.",
         "DNA barcoding uses a short standard gene sequence to identify species quickly, e.g. to identify species from tiny samples or to detect mislabelled food."
-      ]
+      ],
+      "tip": "Phytophthora is the standard example of an organism moved by DNA evidence: older Irish textbooks put it with the fungi, but it is a protist. Say so, and give the DNA and cellulose cell walls as the reasons."
     },
     {
       "h": "The dichotomous key: definition and worked example",
+      "b": "A dichotomous key is a tool for naming an unknown organism by answering a series of either/or questions about what you can see. The worked key below identifies six invertebrates (animals without backbones).",
       "points": [
         "A dichotomous key identifies an organism by a series of steps. Each step gives a choice between two contrasting statements (a couplet) about a visible feature. Each statement leads either to a name or to the number of the next couplet.",
         "Worked example: a key to six invertebrates.",
@@ -83,30 +123,43 @@
         "2. Three pairs of legs → ladybird (an insect); more than three pairs of legs → go to 3.",
         "3. Four pairs of legs → spider; seven pairs of legs → woodlouse.",
         "4. Shell present → snail; no visible shell → go to 5.",
-        "5. Body divided into rings (segments) → earthworm; body not divided into rings → slug.",
-        "Using the key: an animal with eight legs goes 1 (legs present) → 2 (more than three pairs) → 3 (four pairs) → spider.",
-        "Write the route for one more organism: the slug goes 1 → 4 → 5 → slug."
-      ]
+        "5. Body divided into rings (segments) → earthworm; body not divided into rings → slug."
+      ],
+      "tip": "Learn the six-invertebrate key as given. Insects have three pairs of legs, spiders four and woodlice seven, so count the legs before you start."
+    },
+    {
+      "h": "Using a key",
+      "b": "To use a key, start at couplet 1 and follow the numbers until you reach a name. Practise tracing a route for each organism so you can do it in the exam.",
+      "points": [
+        "Using the key: an animal with eight legs goes 1 (legs present) → 2 (more than three pairs) → 3 (four pairs) → spider. Eight legs means four pairs, which is why it ends at spider.",
+        "Write the route for one more organism: the slug goes 1 → 4 → 5 → slug, because it has no legs, no visible shell and a body that is not divided into rings."
+      ],
+      "tip": "Exam questions ask you to use a key or write the route as a chain of couplet numbers, as in 1 → 4 → 5 → slug. Check the feature in each couplet before moving on."
     },
     {
       "h": "Constructing a key and classifying an unknown organism",
+      "b": "You may have to build a key of your own, or use the features of the kingdoms to place an unknown organism. Both rely on picking features that give a clear yes or no.",
       "points": [
         "To construct a key, list the organisms, choose a feature that splits them into two groups, and keep splitting each group in two until each organism is on its own.",
-        "Use features that are easy to observe and do not vary between individuals or seasons, e.g. number of legs, not size or colour.",
-        "A key for n organisms needs n − 1 couplets.",
-        "To classify an unknown organism to a kingdom, use the features in order. Does it have a nucleus? If not, it is a bacterium or an archaeon, separated by cell-wall chemistry or rRNA. If it has a nucleus, is it multicellular with tissues? What is its cell wall made of? Is it autotrophic or heterotrophic?",
+        "Use features that are easy to observe and do not vary between individuals or seasons, e.g. number of legs, not size or colour, because size and colour change with age and season and would give unreliable answers.",
+        "A key for n organisms needs n − 1 couplets. For example, the six-invertebrate key above has five couplets.",
+        "To classify an unknown organism to a kingdom, use the features in order. Does it have a nucleus? If not, it is a bacterium or an archaeon, separated by cell-wall chemistry or rRNA.",
+        "If it has a nucleus, ask further questions. Is it multicellular with tissues? What is its cell wall made of? Is it autotrophic or heterotrophic?",
         "Worked example: a newly found organism is eukaryotic, is made of hyphae with chitin walls, and absorbs food from dead leaves. It is in the kingdom Fungi."
-      ]
+      ],
+      "tip": "When constructing a key, choose observable features that do not vary, such as number of legs rather than size or colour. When asked to place an unknown organism, work through the kingdom features in order and justify each step."
     },
     {
       "h": "Why classification is important",
+      "b": "Classification is more than tidy labelling. It makes biology easier to study, communicate and apply to health, farming and conservation.",
       "points": [
         "It organises the enormous diversity of life into manageable groups, making it easier to study and to find information.",
-        "Scientific names are universal and unique, which avoids the confusion of common names. The “robin” of Europe (Erithacus rubecula) and the “robin” of North America (Turdus migratorius) are different species in different genera.",
+        "Scientific names are universal and unique, which avoids the confusion of common names. The robin of Europe (Erithacus rubecula) and the robin of North America (Turdus migratorius) are different species in different genera.",
         "It shows evolutionary relationships, so features of a new organism can be predicted from its relatives. For example, relatives of a plant that produces a useful drug may produce similar compounds.",
-        "Health: correctly identifying a pathogen decides the treatment. A bacterial infection may respond to an antibiotic, but a fungal or viral one will not.",
-        "Agriculture and the environment: identifying pests, invasive species and endangered species is needed for control and conservation, and for measuring biodiversity."
-      ]
+        "Health: correctly identifying a pathogen (a disease-causing organism) decides the treatment. A bacterial infection may respond to an antibiotic, but a fungal or viral one will not.",
+        "Agriculture and the environment: identifying pests, invasive species and endangered species is needed for control and conservation, and for measuring biodiversity (the variety of living things in an area)."
+      ],
+      "tip": "To outline the importance of classification, give several separate points, each with a reason or example, such as universal scientific names, predicting features from relatives and choosing the right treatment for an infection."
     }
   ],
   "keyTerms": [

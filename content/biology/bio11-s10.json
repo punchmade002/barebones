@@ -6,46 +6,51 @@
   "notes": [
     {
       "h": "Human chromosomes",
+      "b": "Whether a person is female or male depends on one pair of chromosomes out of 23. Knowing what that pair looks like in each sex is the starting point for working out how sex is inherited.",
       "points": [
-        "The numbers are taught in “Chromosome structure and genes”: 46 chromosomes in 23 pairs, 22 pairs of autosomes (the same in both sexes) and one pair of sex chromosomes, which decide the person's sex.",
-        "Females have two X chromosomes (XX); males have one X and one Y (XY).",
-        "The X is a large chromosome carrying roughly 800–900 protein-coding genes.",
+        "A human body cell has 46 chromosomes in 23 pairs: 22 pairs of autosomes (the chromosomes that are the same in both sexes) and one pair of sex chromosomes, which decide the person's sex. There is more on this in Chromosome structure and genes.",
+        "Females have two X chromosomes (XX); males have one X and one Y (XY). Every body cell carries this pair, not just the gametes (sex cells).",
+        "The X is a large chromosome carrying roughly 800–900 protein-coding genes, so it carries many genes for the body generally.",
         "The Y is much smaller and carries well under 100 genes, most of them concerned with male development and sperm production.",
-        "A karyotype is a photograph or diagram of a cell's chromosomes arranged in their pairs by size; it shows the sex chromosomes as XX or XY.",
+        "A karyotype is a photograph or diagram of a cell's chromosomes arranged in their pairs by size; it shows the sex chromosomes as XX or XY, so the sex of the person can be read straight from it.",
         "Diagram: a simplified karyotype of 22 numbered autosome pairs plus the sex-chromosome pair, with a female (XX) and a male (XY) version of pair 23, the Y drawn clearly smaller than the X."
-      ]
+      ],
+      "tip": "If asked to name the sex chromosomes of a male and a female, answer XY for a male and XX for a female. Remember that every body cell has two sex chromosomes; only gametes have one."
     },
     {
       "h": "Gametes and the cross",
+      "b": "Body cells have two sex chromosomes, but gametes are made by meiosis (the cell division that halves the chromosome number), so each gamete gets only one. Writing out which gametes each parent makes lets you model the cross and predict the sexes of the children.",
       "points": [
-        "Gametes are haploid, with 23 chromosomes: 22 autosomes and one sex chromosome.",
-        "All of a woman's eggs carry an X (23,X).",
+        "Gametes are haploid (they have half the usual chromosome number), with 23 chromosomes: 22 autosomes and one sex chromosome.",
+        "All of a woman's eggs carry an X (23,X), because she has only X chromosomes to pass on.",
         "A man's sperm carry either an X (23,X) or a Y (23,Y), in equal numbers, because the X and Y separate into different cells in meiosis.",
-        "Parents' phenotypes: female × male.",
-        "Parents' genotypes: XX × XY.",
+        "Parents' phenotypes (what they are): female × male.",
+        "Parents' genotypes (their sex chromosomes): XX × XY.",
         "Gametes: X × X, Y.",
-        "Punnett square: XX, XX / XY, XY (or 2 × 1: XX, XY).",
-        "Offspring genotypes: 1 XX : 1 XY.",
-        "Offspring phenotypes: 1 female : 1 male (50% each).",
+        "Punnett square (a grid showing every possible gamete combination): XX, XX / XY, XY (or 2 × 1: XX, XY). Offspring genotypes: 1 XX : 1 XY. Offspring phenotypes: 1 female : 1 male (50% each).",
         "Diagram: the Punnett square of this cross, with the mother's egg (X) on one side and the father's sperm (X and Y) on the other, each box labelled with genotype and sex."
-      ]
+      ],
+      "tip": "Exams ask you to use a genetic cross to show how sex is determined and to explain why a boy and a girl are equally likely. Set it out in full: phenotypes, genotypes, gametes, Punnett square, offspring ratio."
     },
     {
       "h": "What decides the sex of a child",
+      "b": "The cross shows that every egg is the same but sperm come in two kinds. So the result of fertilisation, when a sperm and egg fuse, depends on which sperm wins.",
       "points": [
         "The sex of a child is decided at fertilisation by the sperm: an X-carrying sperm gives a girl (XX); a Y-carrying sperm gives a boy (XY).",
-        "So the father's gamete decides the sex; the mother always gives an X.",
-        "Every pregnancy has an independent 1 in 2 chance of a girl or a boy, whatever the sex of earlier children.",
-        "Across a large population the sex ratio is close to 1 : 1.",
+        "So the father's gamete decides the sex; the mother always gives an X, so her egg cannot make the difference.",
+        "Every pregnancy has an independent 1 in 2 chance of a girl or a boy, whatever the sex of earlier children, because each fertilisation is a fresh chance event.",
+        "Across a large population the sex ratio is close to 1 : 1, because X and Y sperm are made in equal numbers.",
         "A boy receives his X from his mother and his Y from his father; a girl receives one X from each parent.",
-        "This is why X-linked traits pass from mother to son; see “Sex-linked traits”."
-      ]
+        "This is why X-linked traits (traits carried by genes on the X) pass from mother to son. There is more on this in Sex-linked traits."
+      ],
+      "tip": "If asked why the father determines the sex of the child, say that the father's sperm may carry X or Y while the mother's egg always carries X. Previous children never change the 50% chance for the next child."
     },
     {
       "h": "How the Y chromosome causes maleness",
+      "b": "Having XY or XX is only the start. The Y chromosome carries a particular gene that sets an embryo on the male path, and without it development follows the female path.",
       "points": [
         "The Y chromosome carries the SRY gene (sex-determining region of the Y).",
-        "In an XY embryo, from about the sixth to seventh week of development, SRY switches on the development of the undifferentiated gonads into testes.",
+        "In an XY embryo, from about the sixth to seventh week of development, SRY switches on the development of the undifferentiated gonads (gonads that have not yet become either testes or ovaries) into testes.",
         "The testes then make testosterone, which brings about the development of the male reproductive system.",
         "In an XX embryo, with no Y and so no SRY, the gonads develop into ovaries and the female reproductive system develops.",
         "So it is the presence of a Y (SRY), not the number of X chromosomes, that makes the embryo male."

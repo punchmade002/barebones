@@ -6,47 +6,83 @@
   "notes": [
     {
       "h": "Definitions and units",
+      "b": "Biologists sort all cells into two types, depending on whether the DNA is enclosed in a nucleus. The names themselves tell you the difference, and you need the units to talk about how big cells are.",
       "points": [
-        "Prokaryotic cell: a cell with no nucleus and no membrane-bound organelles. Its DNA lies free in the cytoplasm. “Pro” means before and “karyon” means kernel or nucleus. Bacteria and archaea are prokaryotes.",
-        "Eukaryotic cell: a cell whose DNA is enclosed in a nucleus surrounded by a double membrane (the nuclear envelope), and which has membrane-bound organelles such as mitochondria. “Eu” means true. Protists, fungi, plants and animals are eukaryotes.",
-        "Units: 1 mm = 1000 µm (micrometres); 1 µm = 1000 nm (nanometres). Cell sizes are given in µm."
-      ]
+        "A prokaryotic cell has no nucleus and no membrane-bound organelles (compartments wrapped in their own membrane). Its DNA lies free in the cytoplasm, the jelly-like fluid that fills the cell. “Pro” means before and “karyon” means kernel or nucleus. Bacteria and archaea are prokaryotes.",
+        "A eukaryotic cell has its DNA enclosed in a nucleus surrounded by a double membrane (the nuclear envelope), and it has membrane-bound organelles such as mitochondria. “Eu” means true, so eukaryote means “true nucleus”. Protists, fungi, plants and animals are eukaryotes.",
+        "Cells are far too small for millimetres to be a handy unit, so their sizes are given in micrometres. 1 mm = 1000 µm (micrometres) and 1 µm = 1000 nm (nanometres). Cell sizes are given in µm."
+      ],
+      "tip": "Define a prokaryote by what it lacks (a nucleus and membrane-bound organelles) and a eukaryote by what it has. A past question asked whether prokaryotic cells contain a nucleus: they do not."
     },
     {
       "h": "Features the two cell types share",
+      "b": "Prokaryotic and eukaryotic cells look very different, but both are living cells that must do the same basic jobs. So they share a core set of features.",
       "points": [
-        "Both have a cell membrane that controls what enters and leaves the cell, and cytoplasm where many reactions take place.",
-        "Both have ribosomes for making proteins, and DNA as the genetic material, using the same genetic code.",
-        "Both respire and use ATP.",
-        "These shared features suggest that all cells evolved from a common ancestor."
-      ]
+        "Both have a cell membrane that controls what enters and leaves the cell, and cytoplasm, the fluid where many of the cell's reactions take place.",
+        "Both have ribosomes (the tiny structures that make proteins), and both use DNA as the genetic material, reading it with the same genetic code.",
+        "Both respire, releasing energy from food, and both use ATP (the molecule cells use to carry energy) as the energy currency.",
+        "These shared features suggest that all cells evolved from a common ancestor, because such an unusual set of identical features is unlikely to have arisen separately."
+      ],
+      "tip": "Prokaryotes do have DNA, ribosomes, a cell membrane and cytoplasm. The commonest mistake is saying they have no DNA or no ribosomes; they lack only a nucleus and membrane-bound organelles."
     },
     {
-      "h": "Comparing the structure of the two cell types",
+      "h": "Comparing nucleus and DNA",
+      "b": "The most important difference between the two cell types is how the DNA is stored. This affects where the DNA sits, what shape it has and what it is packed with.",
       "points": [
-        "Nucleus: prokaryotes have none. Their DNA is concentrated in a region of the cytoplasm called the nucleoid. Eukaryotes have a nucleus with a nuclear envelope and nuclear pores.",
-        "DNA: prokaryotes have one circular chromosome, which in bacteria is not wound around histone proteins. They often also have small extra rings of DNA called plasmids, which can carry genes such as antibiotic resistance. Eukaryotes have several linear chromosomes made of DNA wound around histone proteins.",
-        "Plasmids are found in prokaryotes (and in yeast), not in all eukaryotes.",
-        "Membrane-bound organelles: prokaryotes have none, so no mitochondria, no chloroplasts and no other membrane-bound organelles. Respiration and, in photosynthetic bacteria, photosynthesis take place on the cell membrane or on infoldings of it. Eukaryotes have mitochondria, and plants and algae also have chloroplasts.",
-        "Mitochondria and chloroplasts contain their own small circular DNA and 70S ribosomes, like a prokaryote.",
-        "Ribosomes: both have them, but prokaryotic ribosomes are smaller (70S) than those in eukaryotic cytoplasm (80S). Many antibiotics work by blocking 70S ribosomes, so they harm bacteria and not human cells.",
+        "Nucleus: prokaryotes have none. Their DNA is concentrated in a region of the cytoplasm called the nucleoid, which has no membrane around it. Eukaryotes have a true nucleus with a nuclear envelope and nuclear pores (small channels through the envelope).",
+        "Number and shape of chromosomes: prokaryotes have one circular chromosome (a closed loop of DNA). Eukaryotes have several linear chromosomes (DNA with two ends).",
+        "Packaging: eukaryotic DNA is wound around histone proteins, which help to pack it. In bacteria the circular chromosome is not wound around histone proteins.",
+        "Prokaryotes often also have plasmids, small extra rings of DNA separate from the main chromosome. Plasmids can carry genes such as antibiotic resistance, which is why resistance can spread between bacteria.",
+        "Plasmids are found in prokaryotes (and in yeast), not in all eukaryotes, so do not say that eukaryotes have none or that all have them."
+      ],
+      "tip": "Never call the nucleoid a nucleus: the nucleoid is just a region of cytoplasm with no membrane. Also, plasmids belong to prokaryotes (and yeast), not to all eukaryotes."
+    },
+    {
+      "h": "Comparing organelles and ribosomes",
+      "b": "Eukaryotic cells divide their work between membrane-bound organelles, whereas prokaryotes have to do everything without them. Ribosomes are the one structure both have, but they differ in size.",
+      "points": [
+        "Membrane-bound organelles: prokaryotes have none, so no mitochondria, no chloroplasts and no other membrane-bound organelles. Eukaryotes have mitochondria, and plants and algae also have chloroplasts.",
+        "Without organelles, prokaryotes carry out respiration and, in photosynthetic bacteria, photosynthesis on the cell membrane or on infoldings of it (folds of the membrane that increase its area).",
+        "Mitochondria and chloroplasts contain their own small circular DNA and 70S ribosomes, like a prokaryote. This is one more way these organelles resemble prokaryotic cells.",
+        "Ribosomes: both cell types have them, but prokaryotic ribosomes are smaller (70S) than those in eukaryotic cytoplasm (80S). The S number is a measure of size.",
+        "Many antibiotics work by blocking 70S ribosomes, so they stop bacteria making proteins and harm bacteria but not human cells, which use 80S ribosomes in their cytoplasm."
+      ],
+      "tip": "Exam answers on organelles should say prokaryotes have no mitochondria or chloroplasts, not that they cannot respire: respiration happens on the cell membrane. Organelle functions are not needed here, only their names."
+    },
+    {
+      "h": "Comparing size, cell wall and organisation",
+      "b": "The remaining differences are about the whole cell: how big it is, what surrounds it, and how the organism is built and reproduces.",
+      "points": [
         "Size: prokaryotic cells are small, most about 1–10 µm long. Eukaryotic cells are usually about 10–100 µm, so they are roughly ten times larger in length.",
         "Cell wall: almost all prokaryotes have one, made of peptidoglycan in bacteria. Among eukaryotes, plant cells have cellulose walls, fungal cells have chitin walls, and animal cells have none.",
-        "Some prokaryotes have extra outer structures: a capsule (slime layer) for protection, and a flagellum for movement. The full bacterial cell is in “Microorganisms”.",
-        "Organisation: prokaryotes are almost all unicellular and divide by binary fission. Eukaryotes can be unicellular or multicellular and divide by mitosis, detail in “Cell Division and Cancer”.",
+        "Some prokaryotes have extra outer structures: a capsule (slime layer) for protection, and a flagellum, a whip-like tail, for movement. There is more on the full bacterial cell in Microorganisms.",
+        "Organisation: prokaryotes are almost all unicellular (made of a single cell) and divide by binary fission, in which one cell splits in two. Eukaryotes can be unicellular or multicellular and divide by mitosis.",
         "Examples: prokaryotes are bacteria and archaea. Eukaryotes are protists, fungi, plants and animals."
-      ]
+      ],
+      "tip": "Past questions asked for differences between the two cell types and for an example of each. Give paired differences (a feature of prokaryotes, then the same feature in eukaryotes) and name bacteria for prokaryotes and, for example, plants or animals for eukaryotes."
     },
     {
-      "h": "Seeing the cells with light and electron microscopes",
+      "h": "Light and electron microscope images of the cells",
+      "b": "How a cell looks in a micrograph (a photograph taken through a microscope) depends on the microscope, because a light microscope cannot show very small structures but an electron microscope can. Knowing what each shows lets you identify a cell.",
       "points": [
         "Under a light microscope at ×400, a bacterium appears as a tiny dot, rod or spiral with no visible internal structure. It is too small (about 1–10 µm) for the light microscope to show its parts.",
-        "Under a light microscope, eukaryotic cells show the nucleus (especially when stained), the cytoplasm and the cell membrane as a line. Plant cells also show the cell wall, a large vacuole and chloroplasts.",
-        "Electron micrographs show what the light microscope cannot. In prokaryotes they show the nucleoid, ribosomes as tiny dots, plasmids and the layers of the wall. In eukaryotes they show the double nuclear envelope and its pores, the internal membranes of mitochondria and chloroplasts, and ribosomes.",
-        "To tell the cell type from a micrograph, check for a nucleus: if present, the cell is eukaryotic. Check the scale bar or stated magnification to estimate size: about 1–10 µm suggests prokaryotic.",
-        "For a eukaryote, look for membrane-bound organelles, then for a cell wall, large vacuole and chloroplasts (plant) or their absence (animal). Plant and animal cells are compared in “Structures and organelles of animal and plant cells”.",
-        "Diagram: side-by-side labelled diagrams of a generalised prokaryotic cell (cell wall, cell membrane, cytoplasm, nucleoid with circular DNA, plasmid, ribosomes, capsule and flagellum) and a eukaryotic animal cell (cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, mitochondria, ribosomes), drawn to show the eukaryotic cell much larger."
-      ]
+        "Under a light microscope, eukaryotic cells show the nucleus (especially when stained), the cytoplasm and the cell membrane as a line. Plant cells also show the cell wall, a large vacuole (a fluid-filled sac) and chloroplasts.",
+        "Electron micrographs show what the light microscope cannot. In prokaryotes they show the nucleoid, ribosomes as tiny dots, plasmids and the layers of the wall.",
+        "In eukaryotes, electron micrographs show the double nuclear envelope and its pores, the internal membranes of mitochondria and chloroplasts, and ribosomes.",
+        "Diagram: side-by-side labelled diagrams of a generalised prokaryotic cell (cell wall, cell membrane, cytoplasm, nucleoid with circular DNA, plasmid, ribosomes, capsule, flagellum) and a eukaryotic animal cell (cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, mitochondria, ribosomes), with the eukaryotic cell drawn much larger."
+      ],
+      "tip": "A past question asked students to name structures shown in an electron micrograph of a cell. Name only what the image shows, such as the nucleoid, ribosomes or double nuclear envelope. How the microscopes work is not needed here."
+    },
+    {
+      "h": "Identifying the cell type from a micrograph",
+      "b": "You may be given a micrograph and asked whether the cell is prokaryotic or eukaryotic, and to justify the answer. Work through the same checks in order.",
+      "points": [
+        "1. Check for a nucleus. If one is present, the cell is eukaryotic, because only eukaryotes enclose their DNA in a nucleus.",
+        "2. Check the scale bar or stated magnification to estimate size. A cell of about 1–10 µm suggests a prokaryote, since eukaryotic cells are usually about 10–100 µm.",
+        "3. Look for membrane-bound organelles, which only eukaryotes have.",
+        "4. For a eukaryote, look for a cell wall, a large vacuole and chloroplasts, which mean a plant cell, or their absence, which suggests an animal cell. There is more on this in Structures and organelles of animal and plant cells."
+      ],
+      "tip": "Justify your answer with the visible evidence: say which feature you can identify (for example a nucleus present, or a size of about 1–10 µm) and what it shows, not just the cell type."
     }
   ],
   "keyTerms": [

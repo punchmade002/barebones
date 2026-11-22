@@ -6,54 +6,94 @@
   "notes": [
     {
       "h": "What minerals are",
+      "b": "Living things are built mostly from carbon-based molecules, but they also need a small supply of simple chemical elements. These are the minerals, and they are taken in from the environment because the organism cannot make them.",
       "points": [
-        "Minerals are inorganic elements, usually taken in as ions dissolved in water, that organisms need in small amounts for normal functioning. Organisms cannot make them. Animals get them from food and drink; plants absorb them as ions dissolved in soil water through their root hairs.",
-        "Some minerals are built into biomolecules or structures: iron in haemoglobin, magnesium in chlorophyll, phosphorus in phospholipids, DNA and ATP, sulfur in some amino acids, iodine in thyroxine, and calcium (as calcium phosphate) in bone and teeth.",
-        "Many minerals are not built into biomolecules. They work as free ions in body fluids, e.g. sodium (Na⁺), potassium (K⁺), chloride (Cl⁻) and calcium (Ca²⁺) ions.",
-        "Minerals differ from vitamins: minerals are inorganic elements, while vitamins are organic compounds (see “Vitamins”). Neither supplies energy."
-      ]
+        "Minerals are inorganic elements (not carbon-based compounds), usually taken in as ions dissolved in water, that organisms need in small amounts for normal functioning. Organisms cannot make them.",
+        "Animals get minerals from food and drink. Plants absorb them as ions dissolved in soil water through their root hairs, the tiny extensions of root cells that give a large surface area for absorption.",
+        "Some minerals are built into biomolecules or structures: iron in haemoglobin (the oxygen-carrying protein of red blood cells), magnesium in chlorophyll, phosphorus in phospholipids, DNA and ATP, sulfur in some amino acids, iodine in thyroxine, and calcium (as calcium phosphate) in bone and teeth.",
+        "Many minerals are not built into biomolecules. They work as free ions in body fluids, such as sodium (Na⁺), potassium (K⁺), chloride (Cl⁻) and calcium (Ca²⁺) ions, so the mineral itself does the job.",
+        "Minerals differ from vitamins: minerals are inorganic elements, while vitamins are organic compounds. Neither supplies energy, so neither can replace carbohydrates, lipids or proteins as a fuel."
+      ],
+      "tip": "Never call minerals organic and never say they give energy. The specification says minerals are 'not necessarily' built into biomolecules, so say that some are (iron in haemoglobin) and some are not (free Na⁺ and K⁺ ions), not that none are."
     },
     {
       "h": "Roles of minerals in the body",
+      "b": "Minerals do far more than build bones. Even when they are not part of a larger molecule, ions dissolved in body fluids keep chemical conditions steady and switch key processes on and off.",
       "points": [
-        "pH balance: phosphate and hydrogencarbonate ions act as buffers in cells and blood. They take up or release hydrogen ions so that pH stays almost constant; blood is kept at about pH 7.4. This matters because enzymes work only in a narrow pH range.",
-        "Regulation of enzyme systems: many enzymes need a mineral ion to work, as a cofactor or activator. Magnesium ions are needed by many enzymes that use ATP, zinc is part of many enzymes, and chloride ions activate salivary amylase.",
-        "Without its ion an enzyme is inactive, so mineral levels help control metabolic pathways.",
-        "Nerve impulse transfer: a nerve impulse travels as sodium ions move into and potassium ions move out of the neuron through channel proteins. Calcium ions entering the end of a neuron trigger the release of neurotransmitter at the synapse (detail in “The Nervous System”).",
-        "Muscle contraction: calcium ions released inside a muscle fibre after a nerve impulse arrives allow actin and myosin to interact, so the muscle contracts (detail in “The Musculoskeletal System”).",
-        "Other roles: osmoregulation, where sodium and chloride ions in body fluids affect the movement of water by osmosis (see “Water”); structure, where calcium and phosphate form bones and teeth; oxygen transport, through iron; and blood clotting, which needs calcium."
-      ]
+        "pH balance: phosphate and hydrogencarbonate ions act as buffers (chemicals that resist pH change) in cells and blood. They take up or release hydrogen ions so that pH stays almost constant; blood is kept at about pH 7.4. This matters because enzymes work only in a narrow pH range.",
+        "Regulation of enzyme systems: many enzymes need a mineral ion to work, acting as a cofactor or activator (a helper that the enzyme needs). Magnesium ions are needed by many enzymes that use ATP, zinc is part of many enzymes, and chloride ions activate salivary amylase.",
+        "Without its ion an enzyme is inactive, so the level of a mineral helps control which metabolic pathways (chains of enzyme-controlled reactions) can run.",
+        "Nerve impulse transfer: a nerve impulse travels as sodium ions move into and potassium ions move out of the neuron (nerve cell) through channel proteins, which are pores in the cell membrane. There is more on this in The Nervous System.",
+        "Calcium ions entering the end of a neuron trigger the release of neurotransmitter, the chemical messenger that carries the signal across the synapse (the gap between neurons).",
+        "Muscle contraction: after a nerve impulse arrives, calcium ions are released inside a muscle fibre (a muscle cell). They allow the proteins actin and myosin to interact, so the muscle contracts. There is more on this in The Musculoskeletal System.",
+        "Osmoregulation: sodium and chloride ions in body fluids affect the movement of water by osmosis, so they help control how much water is in cells and fluids.",
+        "Other roles: structure, where calcium and phosphate form bones and teeth; oxygen transport, through iron in haemoglobin; and blood clotting, which needs calcium."
+      ],
+      "tip": "Examiners now ask you to explain the roles of named ions in nerve impulses and muscle contraction. Say sodium goes in and potassium goes out for the impulse, and calcium triggers neurotransmitter release at the synapse and the interaction of actin and myosin in muscle. Keep it to a sentence or two each."
     },
     {
-      "h": "Named minerals in humans: roles, sources and deficiency",
+      "h": "Calcium and iron in humans: roles, sources and deficiency",
+      "b": "Each mineral the body needs has a job, a set of foods that supply it, and a deficiency disease when it runs short. Calcium and iron are the two most commonly examined.",
       "points": [
-        "Calcium forms bones and teeth as calcium phosphate. Its absorption needs vitamin D (see “Vitamins”).",
-        "Calcium sources: milk, cheese, yoghurt, green leafy vegetables, and tinned fish eaten with the bones, e.g. sardines.",
-        "Calcium deficiency weakens bones. The rickets and osteoporosis linked to low vitamin D are covered in “Vitamins”.",
-        "Iron is part of haemoglobin, the red blood cell protein described in “Metabolic roles and nutritional sources”.",
-        "Iron sources: red meat, liver, eggs, green leafy vegetables such as spinach, beans and lentils, and fortified breakfast cereals.",
-        "Vitamin C helps the gut absorb iron from plant foods (see “Vitamins”).",
-        "Iron deficiency causes anaemia: too little haemoglobin, so tiredness, weakness and pale skin. Women who menstruate need more iron than men.",
-        "Sodium is needed for nerve impulses and controls water balance in body fluids.",
-        "Sodium sources: table salt, processed foods, crisps, bacon and cheese. Most people take in more than they need, and excess salt is linked to high blood pressure.",
-        "Potassium works with sodium in nerve impulses and muscle function, and controls fluid balance inside cells. Sources: bananas, potatoes, vegetables, fruit and milk.",
-        "Iodine is needed to make the hormone thyroxine in the thyroid gland, which controls metabolic rate (detail in “The Endocrine System”).",
-        "Iodine sources: seafood, seaweed, milk and iodised salt. Deficiency causes goitre, a swollen thyroid gland, and a low metabolic rate.",
-        "Phosphorus, as phosphate, forms part of bones and teeth, ATP, DNA, RNA and phospholipids, and helps buffer pH (see “Roles of minerals in the body”). Sources: milk, cheese, meat, fish, eggs and nuts.",
-        "Magnesium is needed for bones, activates many enzymes, and is needed for muscle and nerve function. Sources: green leafy vegetables, nuts and wholegrain cereals.",
-        "Fluoride hardens tooth enamel, making it more resistant to decay. Sources: fluoridated public water, as in Ireland, toothpaste and tea."
-      ]
+        "Calcium forms bones and teeth as calcium phosphate, and is needed for muscle contraction, nerve transmission and blood clotting. Its absorption needs vitamin D.",
+        "Calcium sources: milk, cheese, yoghurt, green leafy vegetables, and tinned fish eaten with the bones, such as sardines, because the soft bones are rich in calcium.",
+        "Calcium deficiency weakens bones, because there is too little calcium to build and maintain them. This shows as rickets in children (linked to low vitamin D) and as a risk of osteoporosis, brittle bones, in later life.",
+        "Iron is part of haemoglobin, which carries oxygen in red blood cells.",
+        "Iron sources: red meat, liver, eggs, green leafy vegetables such as spinach, beans and lentils, and fortified breakfast cereals (cereals with iron added).",
+        "Vitamin C helps the gut absorb iron from plant foods, so eating vitamin C-rich foods alongside plant sources of iron improves the supply.",
+        "Iron deficiency causes anaemia: too little haemoglobin, so the blood carries less oxygen. This causes tiredness, weakness and pale skin.",
+        "Women who menstruate need more iron than men, because they lose iron-containing blood each month."
+      ],
+      "tip": "Exams ask for a food source of a named mineral (calcium, iron) and for a deficiency disease. For iron, name anaemia and link it to too little haemoglobin. Rickets and the role of vitamin D belong to the vitamins notes, so mention them only briefly."
+    },
+    {
+      "h": "Sodium and potassium in humans: roles, sources and excess",
+      "b": "Sodium and potassium work as a pair. They are free ions on either side of cell membranes, and the balance between them drives nerve signals and fluid balance.",
+      "points": [
+        "Sodium is needed for nerve impulses and controls water balance in body fluids, because water follows sodium by osmosis.",
+        "Sodium sources: table salt, processed foods, crisps, bacon and cheese.",
+        "Most people take in more sodium than they need, and excess salt is linked to high blood pressure.",
+        "Potassium works with sodium in nerve impulses and muscle function, and controls fluid balance inside cells, whereas sodium mainly controls the fluid outside them.",
+        "Potassium sources: bananas, potatoes, vegetables, fruit and milk."
+      ],
+      "tip": "A common exam link is salt to high blood pressure. Say that most people eat more sodium than they need, and name processed foods, crisps or bacon as high-salt sources."
+    },
+    {
+      "h": "Iodine and fluoride in humans: roles, sources and deficiency",
+      "b": "Some minerals are needed for one specific job. Iodine is needed to make a hormone, and fluoride protects the teeth.",
+      "points": [
+        "Iodine is needed to make the hormone thyroxine in the thyroid gland, a gland in the neck. Thyroxine controls metabolic rate, the rate at which the body's chemical reactions run. There is more on this in The Endocrine System.",
+        "Iodine sources: seafood, seaweed, milk and iodised salt (table salt with iodine added).",
+        "Iodine deficiency causes goitre, a swollen thyroid gland, and a low metabolic rate, because without iodine the body cannot make enough thyroxine.",
+        "Fluoride hardens tooth enamel, the outer layer of the tooth, making it more resistant to decay.",
+        "Fluoride sources: fluoridated public water, as in Ireland, toothpaste and tea."
+      ],
+      "tip": "Goitre is the standard answer for a deficiency disease linked to iodine. Explain it as a swollen thyroid gland and link it to the lack of iodine needed to make thyroxine."
+    },
+    {
+      "h": "Phosphorus and magnesium in humans: roles and sources",
+      "b": "Phosphorus and magnesium each turn up in many places in the body, so they have several roles. Both are found in bone and both help enzymes and nerves work.",
+      "points": [
+        "Phosphorus, as phosphate, forms part of bones and teeth, ATP (the cell's energy carrier), DNA, RNA and phospholipids (the lipids of cell membranes), and helps buffer pH, as phosphate ions do in cells and blood.",
+        "Phosphorus sources: milk, cheese, meat, fish, eggs and nuts.",
+        "Magnesium is needed for bones, activates many enzymes, and is needed for muscle and nerve function.",
+        "Magnesium sources: green leafy vegetables, nuts and wholegrain cereals."
+      ],
+      "tip": "When asked for the role of a mineral, give one clear job. For phosphorus, bones and teeth or ATP and DNA; for magnesium, activating enzymes or muscle and nerve function. Do not give daily intake figures."
     },
     {
       "h": "Minerals in plants",
+      "b": "Plants cannot eat, so they take every mineral they need from the soil. Each one has a job, and a shortage shows up quickly in how the plant looks.",
       "points": [
-        "Plants absorb minerals from soil water as ions through root hairs, often by active transport. The minerals then travel up the xylem in the water stream (see “Water”).",
-        "Nitrogen, absorbed as nitrate, is needed to make amino acids, proteins and nucleic acids (see “Biomolecules and metabolism”). A shortage gives stunted growth and yellow leaves. How nitrogen reaches the soil is covered in “Nutrient Cycling”.",
-        "Magnesium is part of chlorophyll. A shortage causes yellowing leaves, with less chlorophyll and so less photosynthesis.",
+        "Plants absorb minerals from soil water as ions through root hairs, often by active transport (using energy to move ions into the root against a concentration gradient). The minerals then travel up the xylem, the water-carrying tubes, in the water stream.",
+        "Nitrogen, absorbed as nitrate, is needed to make amino acids, proteins and nucleic acids. A shortage gives stunted growth and yellow leaves. There is more on how nitrogen reaches the soil in Nutrient Cycling.",
+        "Magnesium is part of chlorophyll, the green pigment that traps light for photosynthesis. A shortage causes yellowing leaves, with less chlorophyll and so less photosynthesis.",
         "Phosphate is needed for ATP, DNA and phospholipids, and for root growth.",
         "Calcium forms calcium pectate, which holds neighbouring plant cell walls together.",
-        "Farmers add minerals, mainly nitrogen, phosphorus and potassium, to soil in fertilisers. Excess fertiliser washed into rivers and lakes causes eutrophication (detail in “Nutrient Cycling”)."
-      ]
+        "Farmers add minerals, mainly nitrogen, phosphorus and potassium, to soil in fertilisers, so that crops have enough for healthy growth.",
+        "Excess fertiliser washed into rivers and lakes causes eutrophication, an over-enrichment of the water with nutrients that harms the ecosystem."
+      ],
+      "tip": "Exams ask you to name a mineral needed by plants and one needed by animals and give the role of each. For plants, nitrate gives proteins and nucleic acids, and magnesium gives chlorophyll. For animals, use calcium for bones or iron for haemoglobin."
     }
   ],
   "keyTerms": [

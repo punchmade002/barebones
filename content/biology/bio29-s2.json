@@ -6,67 +6,114 @@
   "notes": [
     {
       "h": "The circulatory system and why it is needed",
+      "b": "Every cell in your body needs a steady supply of oxygen and nutrients and a way to get rid of wastes. The circulatory system is the transport network that does this for all of them.",
       "points": [
-        "The human circulatory system consists of the heart, a pump; blood vessels, a closed network of arteries, capillaries and veins; and blood, the transport medium. It is a closed system: blood stays inside the vessels, and materials leave or enter it only across capillary walls.",
-        "In a large, many-celled animal, diffusion alone is far too slow to move materials between the exchange surfaces (lungs, gut and kidneys) and the cells deep in the body. The circulatory system carries materials quickly by mass flow, so that every cell is within a short diffusion distance of a capillary.",
-        "Materials transported: oxygen (lungs to all cells); carbon dioxide (cells to lungs); digested nutrients such as glucose, amino acids, vitamins and minerals (small intestine to liver to cells); urea (liver to kidneys); hormones (endocrine glands to target organs); water and salts; antibodies and white blood cells (to sites of infection); clotting factors and platelets; and heat (from active organs such as the liver and muscles to the whole body and the skin)."
-      ]
+        "The human circulatory system has three parts: the heart, a pump; the blood vessels, a closed network of tubes made up of arteries, capillaries and veins; and the blood, the transport medium that carries the materials.",
+        "It is a closed system: blood stays inside the vessels, and materials leave or enter it only across the thin walls of the capillaries (the tiniest vessels, which pass right alongside the cells).",
+        "In a large, many-celled animal, diffusion (the slow, random spreading of molecules) alone is far too slow to move materials between the exchange surfaces (lungs, gut and kidneys) and cells deep in the body.",
+        "The circulatory system solves this by carrying materials quickly by mass flow (the whole liquid moving together), so every cell is within a short diffusion distance of a capillary.",
+        "Materials transported: oxygen (lungs to all cells); carbon dioxide (cells to lungs); digested nutrients such as glucose, amino acids, vitamins and minerals (small intestine to liver to cells); urea (liver to kidneys); hormones (endocrine glands to target organs); water and salts.",
+        "Also transported: antibodies and white blood cells (to sites of infection); clotting factors and platelets (which seal wounds); and heat, carried from active organs such as the liver and muscles to the whole body and the skin."
+      ],
+      "tip": "If asked why a large animal needs a circulatory system, say that diffusion alone is too slow over long distances and the system uses mass flow to bring every cell close to a capillary."
     },
     {
       "h": "The double circulation",
+      "b": "Humans have two circuits joined at the heart rather than one loop. Blood goes to the lungs, comes back to the heart, and is then sent out to the rest of the body.",
       "points": [
-        "Humans have a double circulation: in one complete circuit of the body, blood passes through the heart twice. The pulmonary circuit runs heart to lungs to heart, and the systemic circuit runs heart to body organs to heart. The right side of the heart pumps the pulmonary circuit and the left side pumps the systemic circuit (see ‘Investigation: the heart’).",
-        "Pulmonary circuit, step by step: 1. Deoxygenated blood is pumped by the right ventricle into the pulmonary artery.",
-        "2. The pulmonary artery divides into a branch to each lung.",
-        "3. In the lung capillaries the blood picks up oxygen and loses CO₂ (see ‘Gas exchange and the breathing mechanism’).",
-        "4. Oxygenated blood returns in the pulmonary veins to the left atrium.",
-        "Systemic circuit, step by step: 1. Oxygenated blood passes from the left atrium through the bicuspid valve to the left ventricle.",
-        "2. The left ventricle pumps it into the aorta.",
-        "3. Arteries branching from the aorta carry it to every organ, where it passes through capillaries, giving up oxygen and nutrients and collecting CO₂ and wastes.",
-        "4. Deoxygenated blood returns through veins to the superior and inferior venae cavae and into the right atrium.",
-        "5. It passes through the tricuspid valve to the right ventricle, and the pulmonary circuit begins again.",
+        "Humans have a double circulation: in one complete circuit of the body, blood passes through the heart twice. This does not mean two hearts; it is one heart with two sides.",
+        "The pulmonary circuit (pulmonary means 'of the lungs') runs heart to lungs to heart. The systemic circuit runs heart to body organs to heart.",
+        "The right side of the heart pumps the pulmonary circuit and the left side pumps the systemic circuit. There is more on the chambers in Investigation: the heart.",
         "Full route of a red blood cell: vena cava, right atrium, tricuspid valve, right ventricle, semilunar valve, pulmonary artery, lung capillaries, pulmonary vein, left atrium, bicuspid valve, left ventricle, semilunar valve, aorta, artery, arteriole, capillaries of an organ, venule, vein, vena cava.",
-        "Advantages of a double circulation: (a) blood returning from the lungs has lost much of its pressure in the lung capillaries, and returning it to the heart lets it be pumped out again at high pressure, so it reaches all the body organs quickly; (b) the two circuits can run at different pressures, high in the systemic circuit to drive blood through the many organs and lower in the pulmonary circuit, so the thin-walled lung capillaries are not damaged and fluid is not forced into the alveoli; (c) the septum keeps oxygenated and deoxygenated blood separate, so the blood reaching the organs is fully oxygenated. Together these deliver oxygen fast enough for the high respiration rate of a warm-blooded, active animal.",
-        "Diagram: a schematic of the double circulation. Draw the heart as four boxes (right atrium and ventricle, left atrium and ventricle), with the lungs above and the body organs below. Add arrows for the pulmonary artery, pulmonary veins, aorta and venae cavae. Shade oxygenated blood red and deoxygenated blood blue, and label the pulmonary circuit and the systemic circuit."
+        "Diagram: a schematic of the double circulation. Heart as four boxes, lungs above, body organs below. Labels: right and left atrium and ventricle, pulmonary artery, pulmonary veins, aorta, venae cavae, pulmonary circuit, systemic circuit. Shade oxygenated blood red and deoxygenated blood blue."
+      ],
+      "tip": "Questions often ask you to trace a red blood cell from a named vein, such as the vena cava, to the aorta. Learn the full route as a chain and name every valve in order."
+    },
+    {
+      "h": "The pulmonary circuit, step by step",
+      "b": "The pulmonary circuit has one job: to send blood that has given up its oxygen to the lungs to collect more. It starts at the right side of the heart.",
+      "points": [
+        "1. Deoxygenated blood (blood low in oxygen) is pumped by the right ventricle (the lower right chamber, which pumps blood out of the heart) into the pulmonary artery.",
+        "2. The pulmonary artery divides into a branch to each lung, so both lungs receive blood.",
+        "3. In the lung capillaries the blood picks up oxygen and loses CO₂, because oxygen diffuses in from the air in the alveoli (air sacs) and CO₂ diffuses out. There is more on this in Gas exchange and the breathing mechanism.",
+        "4. Oxygenated blood returns in the pulmonary veins to the left atrium (the upper left chamber, which receives blood coming into the heart)."
+      ],
+      "tip": "Don't call the pulmonary vein deoxygenated or the pulmonary artery oxygenated. Arteries carry blood away from the heart and veins carry it towards the heart, whatever the oxygen content."
+    },
+    {
+      "h": "The systemic circuit, step by step",
+      "b": "The systemic circuit takes oxygenated blood from the left side of the heart to every organ and brings it back. Its steps follow on from the pulmonary circuit.",
+      "points": [
+        "1. Oxygenated blood passes from the left atrium through the bicuspid valve (the one-way valve between the left atrium and left ventricle) to the left ventricle.",
+        "2. The left ventricle pumps it into the aorta, the body's largest artery.",
+        "3. Arteries branching from the aorta carry it to every organ, where it passes through capillaries, giving up oxygen and nutrients and collecting CO₂ and wastes.",
+        "4. Deoxygenated blood returns through veins to the superior and inferior venae cavae (the large veins bringing blood from the upper and lower body) and into the right atrium.",
+        "5. It passes through the tricuspid valve (the one-way valve between the right atrium and right ventricle) to the right ventricle, and the pulmonary circuit begins again."
       ]
+    },
+    {
+      "h": "Advantages of a double circulation",
+      "b": "A double circulation is better than a single loop for an active, warm-blooded animal. Passing the blood through the heart twice solves two problems: lost pressure and the risk of damage to the lungs.",
+      "points": [
+        "(a) Blood returning from the lungs has lost much of its pressure in the lung capillaries. Returning it to the heart lets it be pumped out again at high pressure, so it reaches all the body organs quickly.",
+        "(b) The two circuits can run at different pressures: high in the systemic circuit, to drive blood through the many organs, and lower in the pulmonary circuit.",
+        "The lower pulmonary pressure matters because the lung capillaries are thin-walled, so they are not damaged and fluid is not forced into the alveoli (the air sacs of the lungs).",
+        "(c) The septum (the wall dividing the two sides of the heart) keeps oxygenated and deoxygenated blood separate, so the blood reaching the organs is fully oxygenated.",
+        "Together these deliver oxygen fast enough for the high respiration rate of a warm-blooded, active animal."
+      ],
+      "tip": "When asked for the advantages of a double circulation, give them as separate points (a pressure boost, different pressures in the two circuits, and no mixing of blood), each with its reason."
     },
     {
       "h": "Pathways to the organs",
+      "b": "Blood reaches each organ along its own named artery and leaves along its own named vein. Knowing these names lets you describe the route to any organ.",
       "points": [
         "A circulation pathway is the route from the heart to one organ and back. Each organ is supplied by an artery that branches from the aorta and is drained by a vein that joins a vena cava, and each is usually named after the organ.",
         "Lungs (pulmonary pathway): the pulmonary artery, from the right ventricle, carries deoxygenated blood; the pulmonary veins, to the left atrium, carry oxygenated blood. In adults these are the only artery carrying deoxygenated blood and the only veins carrying oxygenated blood.",
-        "Head and brain: the carotid arteries, in the neck, supply it, and the jugular veins drain it to the superior vena cava.",
-        "Arms: the subclavian arteries and veins.",
-        "Kidneys: the renal arteries bring blood containing urea to be filtered, and the renal veins return filtered blood, low in urea, to the inferior vena cava (filtration is in ‘The urinary system’).",
-        "Legs: the iliac arteries and veins.",
-        "Heart muscle: the coronary arteries and cardiac veins (detail in ‘Heartbeat’).",
-        "Liver and gut: the liver receives blood from two vessels, the hepatic artery (oxygenated blood from the aorta) and the hepatic portal vein (nutrient-rich blood from the gut). Blood leaves the liver in the hepatic vein, which joins the inferior vena cava (see ‘The hepatic portal system’).",
-        "Diagram: a simple plan of the body’s main vessels showing the heart, lungs, head, arms, liver, gut, kidneys and legs, with the aorta and venae cavae and each organ’s named artery and vein, including the hepatic artery, hepatic portal vein and hepatic vein."
-      ]
+        "Head and brain: the carotid arteries, in the neck, supply it, and the jugular veins drain it to the superior vena cava. Arms: the subclavian arteries and veins. Legs: the iliac arteries and veins.",
+        "Kidneys: the renal arteries bring blood containing urea to be filtered, and the renal veins return filtered blood, low in urea, to the inferior vena cava. There is more on this in The urinary system.",
+        "Heart muscle: the coronary arteries and cardiac veins, which supply the heart's own muscle with blood.",
+        "Liver and gut: the liver receives blood from two vessels, the hepatic artery (oxygenated blood from the aorta) and the hepatic portal vein (nutrient-rich blood from the gut). Blood leaves the liver in the hepatic vein, which joins the inferior vena cava.",
+        "Diagram: a simple plan of the body's main vessels showing the heart, lungs, head, arms, liver, gut, kidneys and legs, with the aorta and venae cavae and each organ's named artery and vein, including the hepatic artery, hepatic portal vein and hepatic vein."
+      ],
+      "tip": "Questions ask you to name the vessel carrying blood from a named organ, or blood rich in nutrients, or with little CO₂. Students often confuse the hepatic artery, hepatic portal vein and hepatic vein, so learn what each carries and where."
     },
     {
       "h": "The hepatic portal system",
+      "b": "Most veins take blood straight back towards the heart. The vein from the gut is unusual because it detours through the liver first, so the liver gets the first chance to deal with what has just been absorbed.",
       "points": [
         "A portal system is a vein that carries blood from one capillary network to a second capillary network, instead of straight back to the heart. Blood therefore passes through two sets of capillaries between leaving the heart and returning to it.",
-        "The hepatic portal vein collects blood from the capillaries in the villi of the small intestine, and from the walls of the stomach and large intestine, and carries it to a second set of capillaries, the sinusoids, in the liver. After a meal this blood is rich in glucose, amino acids and other absorbed nutrients.",
-        "Why it matters: absorbed water-soluble nutrients, and any absorbed toxins or drugs, reach the liver before the rest of the body, so the liver can process them and keep the composition of the blood reaching the body steady. The liver’s processes and the villi are described in ‘Absorption, transport and storage’.",
+        "The hepatic portal vein collects blood from the capillaries in the villi (the tiny finger-like folds of the small intestine wall), and from the walls of the stomach and large intestine.",
+        "It carries this blood to a second set of capillaries, the sinusoids, in the liver. After a meal this blood is rich in glucose, amino acids and other absorbed nutrients.",
+        "Absorbed water-soluble nutrients, and any absorbed toxins or drugs, reach the liver before the rest of the body, so the liver can process them and keep the composition of the blood reaching the body steady. There is more on this in Absorption, transport and storage.",
         "The hepatic portal vein carries deoxygenated blood, because it has already passed through the gut capillaries, so the liver gets its oxygen from the hepatic artery."
-      ]
+      ],
+      "tip": "If asked why the hepatic portal vein is unusual, say it joins two capillary networks (gut and liver). It is still a vein because it carries blood towards the heart, by way of the liver. It runs from the gut to the liver; the hepatic vein is the one that leaves the liver."
     },
     {
       "h": "Links with the other body systems",
+      "b": "The circulatory system works as the delivery service for every other system. Each system either puts materials into the blood or takes materials out of it, and you can model these exchanges.",
       "points": [
-        "Breathing system: in the lung capillaries the blood takes up oxygen and releases CO₂. The circulatory system carries oxygen to every respiring cell and carries CO₂ back. Without circulation, the gas exchanged in the lungs could not reach the tissues.",
-        "Digestive system: absorbed nutrients enter the blood capillaries of the villi (fats enter lacteals) and are carried by the hepatic portal vein to the liver and then to all cells. The blood also supplies the gut wall with the oxygen it needs for active absorption.",
-        "Urinary system: the renal arteries bring blood containing urea, excess water and salts to the kidneys, which filter it. The kidneys regulate the water and salt content of the blood, and so its volume (see ‘The urinary system’).",
-        "Endocrine system: hormones are secreted directly into the blood and carried to target organs, for example insulin from the pancreas to the liver and ADH from the pituitary to the kidneys. Adrenaline, carried in the blood, increases heart rate (see ‘Glands, locations and hormones’).",
-        "Immune system: blood carries white blood cells and antibodies to sites of infection, and platelets and clotting factors seal wounds (see ‘Blood’ and ‘Innate and adaptive immunity’).",
-        "Musculoskeletal system: red bone marrow makes the blood cells. Active muscles receive extra blood, carrying oxygen and glucose, and contracting skeletal muscles squeeze veins, helping to return blood to the heart (see ‘Blood vessels’).",
-        "Nervous system: the medulla oblongata adjusts the heart rate and the diameter of arterioles, so blood is sent where it is needed (see ‘Heartbeat’). The brain itself needs a constant blood supply of oxygen and glucose.",
-        "Temperature regulation: blood carries heat from active organs, and widening or narrowing of the skin arterioles controls heat loss (see ‘Homeostasis as a stimulus-response model’).",
-        "Diagram: a labelled flow diagram modelling these interactions, with the heart and blood at the centre and arrows to and from the lungs, gut and liver, kidneys, endocrine glands, muscles and brain. Label each arrow with the materials transferred: O₂, CO₂, nutrients, urea, hormones and heat. One limitation of the model is that it shows what moves but not the structure of the vessels or the rates of transfer, and it treats each organ as one box.",
-        "Worked example: during exercise, muscles respire faster, so breathing rate rises to take in more O₂ and remove more CO₂ (see ‘CO₂ as a controlling factor in breathing’). Heart rate rises and the arterioles to the muscles widen, so more blood reaches them, while the arterioles to the gut narrow. Heat from the muscles is carried to the skin and lost."
-      ]
+        "Breathing system: in the lung capillaries the blood takes up oxygen and releases CO₂. The circulatory system carries oxygen to every respiring cell and carries CO₂ back, so without circulation the gas exchanged in the lungs could not reach the tissues.",
+        "Digestive system: absorbed nutrients enter the blood capillaries of the villi (fats enter lacteals, small vessels in the villi) and are carried by the hepatic portal vein to the liver and then to all cells. The blood also supplies the gut wall with the oxygen it needs for active absorption.",
+        "Urinary system: the renal arteries bring blood containing urea, excess water and salts to the kidneys, which filter it. The kidneys regulate the water and salt content of the blood, and so its volume.",
+        "Endocrine system: hormones are secreted directly into the blood and carried to target organs, for example insulin from the pancreas to the liver and ADH from the pituitary to the kidneys. Adrenaline, carried in the blood, increases heart rate.",
+        "Immune system: blood carries white blood cells and antibodies to sites of infection, and platelets and clotting factors seal wounds.",
+        "Musculoskeletal system: red bone marrow makes the blood cells. Active muscles receive extra blood, carrying oxygen and glucose, and contracting skeletal muscles squeeze veins, helping to return blood to the heart.",
+        "Nervous system: the medulla oblongata (the part of the brain that controls automatic functions) adjusts the heart rate and the diameter of arterioles (small arteries), so blood is sent where it is needed. The brain itself needs a constant blood supply of oxygen and glucose.",
+        "Temperature regulation: blood carries heat from active organs, and widening or narrowing of the skin arterioles controls heat loss."
+      ],
+      "tip": "Exams ask how the circulatory system interacts with the breathing, digestive and urinary systems. For each one, name where the exchange happens and what is carried: O₂ and CO₂ at the lungs, nutrients at the villi, urea at the kidneys."
+    },
+    {
+      "h": "Modelling the interactions between body systems",
+      "b": "A model is a simplified picture that shows how the systems connect. A flow diagram with the heart and blood at the centre makes it clear which materials travel where.",
+      "points": [
+        "Diagram: a labelled flow diagram modelling these interactions, with the heart and blood at the centre and arrows to and from the lungs, gut and liver, kidneys, endocrine glands, muscles and brain. Label each arrow with the materials transferred: O₂, CO₂, nutrients, urea, hormones and heat.",
+        "One limitation of the model is that it shows what moves but not the structure of the vessels or the rates of transfer, and it treats each organ as one box.",
+        "Worked example: during exercise, muscles respire faster, so breathing rate rises to take in more O₂ and remove more CO₂. There is more on this in CO₂ as a controlling factor in breathing.",
+        "In the same example, heart rate rises and the arterioles to the muscles widen, so more blood reaches them, while the arterioles to the gut narrow. Heat from the muscles is carried to the skin and lost."
+      ],
+      "tip": "When asked to model the interactions, label every arrow with the material it carries, and be ready to state one limitation: the model does not show vessel structure or rates of transfer."
     }
   ],
   "keyTerms": [

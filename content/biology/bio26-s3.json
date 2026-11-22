@@ -6,56 +6,70 @@
   "notes": [
     {
       "h": "Why water balance must be controlled (Higher Level only)",
+      "b": "The water content of the body is never constant on its own: we take water in and lose it all day. Osmoregulation (keeping the water and solute balance of the body fluids steady) stops these swings from harming our cells.",
       "points": [
-        "Osmoregulation (defined in Water) in humans is mainly done by the kidneys, by changing how much water is reabsorbed from the collecting ducts. The concentration of the blood plasma is the variable being controlled.",
+        "Osmoregulation in humans is mainly done by the kidneys, which change how much water is reabsorbed (taken back into the blood) from the collecting ducts, the final tubes that carry urine out of the kidney. The variable being controlled is the concentration of the blood plasma.",
         "Water is gained from drink, food and respiration, and lost in urine, sweat, breath (as water vapour) and faeces. Gains and losses change from hour to hour, so the kidney must adjust the urine to match.",
-        "If the blood becomes too concentrated, body cells lose water by osmosis and shrink; if it becomes too dilute, cells gain water and swell. Either upsets cell function, especially in the brain."
-      ]
+        "If the blood becomes too concentrated, body cells lose water by osmosis (the movement of water from a dilute region to a more concentrated one) and shrink. If it becomes too dilute, cells gain water and swell. Either upsets cell function, especially in the brain."
+      ],
+      "tip": "Be clear that the thing being kept steady is the concentration of the blood plasma, and that the kidneys do the adjusting by changing how much water they reabsorb."
     },
     {
       "h": "ADH and the collecting duct (Higher Level only)",
+      "b": "The kidney needs a message telling it how much water to save. That message is a hormone, ADH, which changes how leaky the collecting duct wall is to water.",
       "points": [
-        "ADH stands for antidiuretic hormone. Diuresis is the production of a large volume of dilute urine, so ADH works against it and reduces urine volume. ADH is released from the pituitary gland (see Glands, locations and hormones).",
-        "The target cells are the cells lining the collecting ducts and the last part of the distal convoluted tubule. ADH binds to receptors on these cells and causes water channel proteins, called aquaporins, to be inserted into their membranes, so the duct wall becomes more permeable to water. Channel proteins are described in Metabolic roles and nutritional sources.",
-        "Because the collecting duct passes through the salty medulla (see The nephron), water moves out of the more permeable duct by osmosis into the medulla and is carried away in the blood capillaries. More ADH means more water reabsorbed, less water left in the duct, and a small volume of concentrated urine.",
-        "Less ADH means fewer water channels, a less permeable duct wall, less water reabsorbed, and a large volume of dilute urine.",
-        "ADH changes water reabsorption only; it does not change the amount of salt or urea excreted."
-      ]
+        "ADH stands for antidiuretic hormone. Diuresis is the production of a large volume of dilute urine, so ADH works against it and reduces urine volume. ADH is released from the pituitary gland, a small gland at the base of the brain.",
+        "The target cells (the cells that respond to the hormone) line the collecting ducts and the last part of the distal convoluted tubule.",
+        "ADH binds to receptors on these cells, which causes water channel proteins, called aquaporins, to be inserted into their membranes. This makes the duct wall more permeable to water.",
+        "The collecting duct passes through the salty medulla (the inner region of the kidney), so water moves out of the more permeable duct by osmosis into the medulla and is carried away in the blood capillaries.",
+        "More ADH means more water reabsorbed, less water left in the duct, and a small volume of concentrated urine.",
+        "Less ADH means fewer water channels, so the duct wall is less permeable and less water is reabsorbed. A large volume of dilute urine is the result.",
+        "ADH changes water reabsorption only. It does not change the amount of salt or urea (the waste made from the breakdown of proteins) excreted. There is more on channel proteins in Metabolic roles and nutritional sources."
+      ],
+      "tip": "More ADH means less urine, and students often reverse this, so state the direction every time. ADH does not pump water: it makes the duct more permeable, and water leaves by osmosis because the medulla is salty. Exams ask you to name the part of the nephron ADH acts on (the collecting duct) and the gland that releases it (the pituitary)."
     },
     {
       "h": "Feedback when the body is short of water (Higher Level only)",
+      "b": "When the blood becomes too concentrated, the body responds in a fixed sequence that saves water and brings the concentration back to normal. Follow the steps in order.",
       "points": [
-        "1. Stimulus: the water concentration of the blood falls (its solute concentration rises), e.g. after heavy sweating, not drinking enough, eating salty food, or diarrhoea.",
-        "2. Receptors: osmoreceptors, special cells in the hypothalamus of the brain, detect the change.",
+        "1. Stimulus: the water concentration of the blood falls (its solute concentration rises), for example after heavy sweating, not drinking enough, eating salty food, or diarrhoea.",
+        "2. Receptors: osmoreceptors, special cells in the hypothalamus of the brain that detect the concentration of the blood, notice the change.",
         "3. The hypothalamus causes the pituitary gland to release more ADH into the blood.",
         "4. ADH travels in the blood to the kidneys.",
         "5. The collecting ducts become more permeable to water, so more water is reabsorbed into the blood.",
         "6. A small volume of concentrated, dark-yellow urine is produced.",
-        "7. The water concentration of the blood rises back towards normal, and ADH release falls again: this is negative feedback.",
-        "At the same time the hypothalamus triggers thirst, so the person drinks more. Drinking is the only way to replace lost water; the kidneys can only reduce further loss."
-      ]
+        "7. The water concentration of the blood rises back towards normal, and ADH release falls again. This is negative feedback, because the response reverses the original change.",
+        "At the same time the hypothalamus triggers thirst, so the person drinks more. Drinking is the only way to replace lost water, because the kidneys can only reduce further loss."
+      ],
+      "tip": "Exams ask you to explain how ADH secretion is an example of negative feedback: say that the change (blood too concentrated) triggers a response (more ADH, more water reabsorbed) that brings the concentration back to normal and switches the response off."
     },
     {
       "h": "Feedback when the body has too much water (Higher Level only)",
+      "b": "The same system works in reverse when the blood becomes too dilute. The kidney then lets more water go, so the concentration returns to normal.",
       "points": [
         "1. Stimulus: after drinking a large volume of water, the water concentration of the blood rises (it becomes more dilute).",
         "2. The hypothalamus detects the change.",
         "3. The pituitary releases less ADH.",
-        "4. The collecting ducts become less permeable to water, so less water is reabsorbed.",
-        "5. A large volume of dilute, pale urine is produced.",
-        "6. The blood's water concentration falls back to normal and ADH release returns to its usual level."
-      ]
+        "4. The collecting ducts become less permeable to water, because fewer water channels are present in their walls.",
+        "5. Less water is reabsorbed, so more stays in the duct.",
+        "6. A large volume of dilute, pale urine is produced.",
+        "7. The blood's water concentration falls back to normal and ADH release returns to its usual level."
+      ],
+      "tip": "ADH is released when the blood is too concentrated (short of water), not when there is too much water. Less ADH gives more, paler urine."
     },
     {
       "h": "Examples of ADH in action (Higher Level only)",
+      "b": "Everyday situations change the concentration of the blood, and ADH release changes with them. Each example below follows the same chain from blood concentration to urine volume.",
       "points": [
         "On a hot day or during exercise, much water is lost in sweat, so more ADH is released and the urine is small in volume and dark.",
-        "A high salt intake raises the solute concentration of the blood, so more ADH is released, more water is reabsorbed and a smaller volume of urine is produced; the extra salt is excreted in this smaller volume, and the person also feels thirsty.",
-        "Alcohol reduces the release of ADH, so the collecting ducts reabsorb less water and a large volume of dilute urine is produced; this causes dehydration, which contributes to the headache and thirst of a hangover."
-      ]
+        "A high salt intake raises the solute concentration of the blood, so more ADH is released, more water is reabsorbed and a smaller volume of urine is produced. The extra salt is excreted in this smaller volume, and the person also feels thirsty.",
+        "Alcohol reduces the release of ADH, so the collecting ducts reabsorb less water and a large volume of dilute urine is produced. This causes dehydration (loss of body water), which contributes to the headache and thirst of a hangover."
+      ],
+      "tip": "Exams ask you to state and explain the effect of a high salt intake or of sweating on urine volume. Give the chain: blood more concentrated, more ADH, more water reabsorbed, smaller volume of urine."
     },
     {
       "h": "Water balance feedback loop (Higher Level only)",
+      "b": "The two feedback responses can be drawn as one negative-feedback loop around the normal blood water concentration. Drawing it shows that every change is pushed back towards normal.",
       "points": [
         "Diagram: a negative-feedback loop for water balance, with normal blood water concentration at the centre. One branch shows the water concentration falling, the hypothalamus detecting it, the pituitary releasing more ADH, the collecting ducts becoming more permeable, more water being reabsorbed, a small volume of concentrated urine being produced, and the concentration returning to normal. The other branch shows the water concentration rising, less ADH, less permeable collecting ducts, less water reabsorbed, a large volume of dilute urine, and a return to normal. Optionally add a small sketch of a collecting duct passing through the salty medulla with arrows for water leaving by osmosis."
       ]

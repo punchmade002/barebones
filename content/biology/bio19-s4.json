@@ -6,50 +6,59 @@
   "notes": [
     {
       "h": "Impulses along a chain of neurons",
-      "b": "A nerve impulse passes along a chain of neurons from receptor to effector.",
+      "b": "A nerve impulse (a signal carried by nerve cells, called neurons) rarely travels through just one neuron. It passes along a chain of neurons from receptor to effector, and the signal changes form along the way.",
       "points": [
-        "The chain runs receptor, sensory neuron, interneuron or interneurons, motor neuron, effector.",
-        "Within a neuron the impulse is electrical: a wave of electrical change along the membrane, caused by ions moving in and out of the neuron.",
-        "Between neurons the impulse is passed on chemically, across a synapse."
-      ]
+        "The chain runs receptor (detects the stimulus), sensory neuron (carries the signal towards the central nervous system), interneuron or interneurons (link neurons inside the central nervous system), motor neuron (carries the signal outwards), effector (the muscle or gland that responds).",
+        "Within a single neuron the impulse is electrical: a wave of electrical change along the membrane, caused by ions (charged particles) moving in and out of the neuron.",
+        "Between neurons the impulse is passed on chemically, across a synapse (the junction between two neurons). So the signal is electrical inside each neuron and chemical in the gaps between them."
+      ],
+      "tip": "Keep the electrical part simple: say ions moving in and out across the membrane, and no more. Questions on this topic do not ask for membrane voltages or pumps."
     },
     {
       "h": "The synapse",
-      "b": "A synapse is the junction between two neurons, or between a neuron and an effector such as a muscle fibre.",
+      "b": "The neurons in a chain do not physically touch, so something must carry the signal from one to the next. That job is done at the synapse, using a chemical messenger.",
       "points": [
-        "The two cells do not touch; a tiny gap called the synaptic cleft separates them.",
-        "The neuron before the cleft is the presynaptic neuron; the one after it is the postsynaptic neuron.",
-        "The presynaptic axon ends in a swollen synaptic knob containing mitochondria and vesicles of neurotransmitter.",
+        "A synapse is the junction between two neurons, or between a neuron and an effector such as a muscle fibre (a single muscle cell).",
+        "The two cells do not touch; a tiny gap called the synaptic cleft separates them, which is why the electrical impulse cannot simply carry on across.",
+        "The neuron before the cleft is the presynaptic neuron; the one after it is the postsynaptic neuron. Pre means before and post means after.",
+        "The presynaptic axon (the long fibre of the neuron) ends in a swollen synaptic knob containing mitochondria, which supply energy, and vesicles (small membrane sacs) of neurotransmitter.",
         "A neurotransmitter is a chemical released by a neuron that carries the impulse across a synapse.",
         "Examples of neurotransmitters are acetylcholine, noradrenaline, dopamine and serotonin."
-      ]
+      ],
+      "tip": "Definitions of synapse and neurotransmitter are asked directly, and you may be asked to name a neurotransmitter. Learn the wording above and any one of the four examples."
     },
     {
       "h": "Drawing a synapse",
+      "b": "A labelled synapse diagram is a common exam task, and it also shows you where each part sits relative to the cleft.",
       "points": [
         "Diagram: synapse labelling presynaptic neuron, synaptic knob, mitochondria, vesicles, neurotransmitter molecules, synaptic cleft, receptor proteins on the postsynaptic membrane, postsynaptic neuron, and an arrow for the direction of the impulse."
-      ]
+      ],
+      "tip": "You may be asked for the function of the vesicles or of the cleft as well as to label them: vesicles hold neurotransmitter, and the cleft is the gap the neurotransmitter diffuses across."
     },
     {
       "h": "How the impulse crosses the synapse",
+      "b": "Crossing the cleft is a sequence of steps in which the electrical impulse is converted into a chemical signal and then back into an electrical one. Learn the steps in order.",
       "points": [
         "1. The impulse arrives at the synaptic knob.",
         "2. This causes calcium ions (Ca²⁺) to move into the knob.",
         "3. The calcium ions trigger vesicles to move to the presynaptic membrane, fuse with it and release neurotransmitter into the cleft.",
-        "4. The neurotransmitter diffuses across the cleft.",
-        "5. It binds to specific receptor proteins on the postsynaptic membrane; each receptor fits only its own neurotransmitter.",
+        "4. The neurotransmitter diffuses across the cleft. The gap is tiny, so this is quick.",
+        "5. It binds to specific receptor proteins on the postsynaptic membrane; each receptor fits only its own neurotransmitter, like a key in a lock.",
         "6. Binding opens ion channels in the postsynaptic membrane, ions move in, and a new impulse starts in the postsynaptic neuron if enough neurotransmitter binds.",
-        "Mitochondria in the knob supply ATP for making and releasing neurotransmitter."
-      ]
+        "Mitochondria in the knob supply ATP (the cell's energy currency) for making and releasing neurotransmitter."
+      ],
+      "tip": "When describing how an impulse passes across a synapse, give the stages in order and name calcium ions, vesicles, diffusion and receptors. Do not say the impulse itself jumps the gap: the neurotransmitter crosses, not the impulse."
     },
     {
       "h": "Roles of synapses",
+      "b": "Synapses are not just gaps to cross. Because the signal is chemical, they control how signals travel and which ones get through.",
       "points": [
-        "Impulses cross in one direction only, because only the presynaptic side has vesicles and only the postsynaptic side has receptors.",
+        "Impulses cross in one direction only, because only the presynaptic side has vesicles and only the postsynaptic side has receptors. The neurotransmitter therefore cannot send a signal backwards.",
         "A weak stimulus may release too little neurotransmitter to start a new impulse, so synapses filter out unimportant signals.",
         "One neuron can synapse with many others, so impulses can be spread to many cells or combined from many cells.",
-        "Many drugs act at synapses; this is described in Conduction across the synaptic cleft and its disruption."
-      ]
+        "Many drugs act at synapses, since the chemical step can be altered. There is more on this in Conduction across the synaptic cleft and its disruption."
+      ],
+      "tip": "To explain why impulses travel in one direction only, link both sides: vesicles are only in the presynaptic knob and receptors are only on the postsynaptic membrane."
     }
   ],
   "keyTerms": [

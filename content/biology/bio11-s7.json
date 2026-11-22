@@ -6,81 +6,96 @@
   "notes": [
     {
       "h": "Gregor Mendel and his pea experiments (Higher Level only)",
+      "b": "Genetics began with one man breeding pea plants in a monastery garden. Mendel worked out the basic rules of inheritance long before anyone knew about genes, chromosomes or DNA.",
       "points": [
         "Gregor Mendel (1822–1884) was an Augustinian friar, later abbot, at the monastery of St Thomas in Brno (then Brünn, in the Austrian Empire; now in the Czech Republic).",
         "He bred garden pea plants (Pisum sativum) between 1856 and 1863, presented his results in 1865 and published them in 1866.",
         "His work was largely ignored until 1900, when it was rediscovered independently by other botanists, including Hugo de Vries and Carl Correns.",
-        "He worked before chromosomes, meiosis or DNA were understood, and called the units of inheritance “factors” (now genes, and their versions alleles)."
-      ]
+        "He worked before chromosomes, meiosis (the cell division that makes gametes) or DNA were understood, so he called the units of inheritance “factors”. We now call them genes, and their different versions alleles."
+      ],
+      "tip": "Mendel discovered the rules of inheritance. Do not say he discovered DNA or invented genetics, because he knew nothing of genes, chromosomes or meiosis."
     },
     {
       "h": "Why peas suited the work (Higher Level only)",
+      "b": "Mendel's choice of organism was part of why his experiments worked. Garden peas had four features that made clean, countable results possible.",
       "points": [
-        "Peas had many varieties with clear contrasting forms of a trait (e.g. tall or dwarf, with nothing in between).",
-        "Peas normally self-pollinate, so true-breeding lines were available.",
-        "They can be cross-pollinated by hand: the anthers of one flower are removed and its stigma is dusted with pollen from another.",
-        "They grow quickly and produce many seeds, giving large numbers to count."
-      ]
+        "Peas had many varieties with clear contrasting forms of a trait (for example tall or dwarf, with nothing in between), so every offspring could be sorted into one group or the other.",
+        "Peas normally self-pollinate (a flower pollinates itself), so true-breeding lines were available. True-breeding means offspring always look like their parents, generation after generation.",
+        "They can be cross-pollinated by hand: the anthers (pollen-producing parts) of one flower are removed and its stigma (the pollen-receiving part) is dusted with pollen from another. This lets the experimenter choose the parents.",
+        "They grow quickly and produce many seeds, giving large numbers to count, which is needed to see clear ratios."
+      ],
+      "tip": "If asked why Mendel chose peas, give the features and the benefit of each: contrasting forms, true-breeding lines, hand cross-pollination, and fast growth with many seeds."
     },
     {
       "h": "Mendel's seven traits and method (Higher Level only)",
+      "b": "Mendel's results were trusted because his method was careful and quantitative. He followed simple, clear-cut traits and treated inheritance as something to be counted and calculated.",
       "points": [
         "The seven traits he studied, dominant form first: seed shape (round / wrinkled), seed colour (yellow / green), flower colour (purple / white), pod shape (inflated / constricted), pod colour (green / yellow), flower position (axial, along the stem / terminal, at the tip), stem length (tall / dwarf).",
-        "He started with true-breeding parents and studied one trait at a time, then two.",
-        "He counted large numbers of offspring and recorded results over several generations (P, F1, F2).",
-        "He used mathematics (ratios) to analyse the results and repeated each cross for several traits."
-      ]
+        "He started with true-breeding parents and studied one trait at a time, then two. Looking at one trait at a time kept the results simple enough to interpret.",
+        "He counted large numbers of offspring, because small samples can give misleading ratios by chance.",
+        "He recorded results over several generations: P (the parents), F1 (their offspring) and F2 (the offspring of the F1 crossed with each other).",
+        "He used mathematics (ratios) to analyse the results, and repeated each cross for several traits to check that the pattern held."
+      ],
+      "tip": "To explain why his method was successful, list the features: true-breeding parents, one trait at a time, large numbers, several generations, ratios, and repeats for several traits."
     },
     {
       "h": "Mendel's key results (Higher Level only)",
+      "b": "Mendel's crosses gave the same pattern every time. That pattern led him to the idea that each trait is controlled by two factors, one of which can hide the other.",
       "points": [
-        "Crossing true-breeding tall with true-breeding dwarf gave an F1 that was all tall.",
+        "Crossing true-breeding tall with true-breeding dwarf gave an F1 that was all tall; none were dwarf and none were in between.",
         "Self-pollinating the F1 gave an F2 of tall and dwarf in about 3 : 1.",
-        "F2 figures: 787 tall : 277 dwarf (2.84 : 1); 5474 round : 1850 wrinkled seeds (2.96 : 1); 6022 yellow : 2001 green seeds (3.01 : 1).",
+        "F2 figures: 787 tall : 277 dwarf (2.84 : 1); 5474 round : 1850 wrinkled seeds (2.96 : 1); 6022 yellow : 2001 green seeds (3.01 : 1). Large numbers bring the ratio very close to 3 : 1.",
         "The dwarf trait disappeared in the F1 and reappeared in the F2, so the dwarf “factor” must have been present, hidden, in the F1.",
         "He concluded that each plant has two factors for each trait, one from each parent, and that one (dominant) can mask the other (recessive)."
-      ]
+      ],
+      "tip": "Exams ask you to relate the laws to cross results, so know that a tall × dwarf cross gives an all-tall F1 and a 3 : 1 F2, and what the hidden reappearing trait shows."
     },
     {
       "h": "The Law of Segregation (Higher Level only)",
+      "b": "Mendel's first law explains the 3 : 1 ratio. It is about the two alleles of a single gene, and what happens to them when gametes (sex cells) are made.",
       "points": [
         "Statement: “The two alleles (factors) of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene.”",
         "Shorter accepted form: “Inherited traits are controlled by pairs of factors (alleles), which separate during gamete formation.”",
-        "A heterozygous tall plant (Tt) forms two types of gamete, T and t, in equal numbers, so half the gametes carry T and half carry t.",
-        "Random fertilisation of these gametes in Tt × Tt gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, the 3 : 1 Mendel observed; the cross is worked in full in “Monohybrid crosses”.",
-        "Chromosome basis (Mendel did not know this): the two alleles of a gene lie at the same locus on the two chromosomes of a homologous pair.",
-        "In meiosis the homologous chromosomes separate into different cells, carrying one allele each into each gamete; meiosis itself is in “Mitosis and meiosis”.",
-        "Diagram: a diploid cell with one pair of homologous chromosomes, one carrying T and the other t (same position), dividing by meiosis into gametes, half with the T chromosome and half with the t chromosome; labels: homologous pair, allele T, allele t, locus, meiosis, gametes (haploid)."
-      ]
+        "A heterozygous tall plant (Tt, carrying two different alleles) forms two types of gamete, T and t, in equal numbers, so half the gametes carry T and half carry t.",
+        "Random fertilisation of these gametes in Tt × Tt gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, the 3 : 1 Mendel observed. There is more on this in Monohybrid crosses.",
+        "Chromosome basis (Mendel did not know this): the two alleles of a gene lie at the same locus (position) on the two chromosomes of a homologous pair, the matching pair of chromosomes, one from each parent.",
+        "In meiosis the homologous chromosomes separate into different cells, carrying one allele each into each gamete. This is why the alleles segregate.",
+        "Diagram: a diploid cell with one homologous pair, one chromosome carrying T and the other t at the same position, dividing by meiosis into gametes, half with T and half with t. Labels: homologous pair, allele T, allele t, locus, meiosis, gametes (haploid)."
+      ],
+      "tip": "Learn the standard wording, since it earns the marks, and say it is the two alleles of one gene that separate. Do not swap this with independent assortment. Do not call dominance a Mendel's Law."
     },
     {
       "h": "The Law of Independent Assortment (Higher Level only)",
+      "b": "Mendel's second law deals with two different genes at once. It says that how one gene's alleles are shared out into gametes does not affect how another gene's alleles are shared out.",
       "points": [
         "Statement: “When gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene.”",
         "Equivalent: “Each member of a pair of factors can combine randomly with either member of another pair.”",
-        "The law applies to genes on different chromosomes (unlinked genes).",
+        "The law applies to genes on different chromosomes (unlinked genes). Genes close together on the same chromosome tend to be inherited together and break this rule.",
         "A plant heterozygous for seed shape and seed colour (RrYy) forms four types of gamete, RY, Ry, rY and ry, in equal numbers (1/4 each).",
-        "Whether a gamete gets R or r has no effect on whether it gets Y or y.",
+        "This is because whether a gamete gets R or r has no effect on whether it gets Y or y.",
         "Chromosome basis: when homologous pairs line up in meiosis, the way one pair lines up is independent of the way another pair lines up.",
         "With R and Y on different chromosome pairs, half the cells put R with Y (giving RY and ry gametes) and half put R with y (giving Ry and rY gametes), so all four types are made in equal numbers.",
-        "Diagram: a cell with two pairs of homologous chromosomes (one long pair carrying R and r, one short pair carrying Y and y) shown in the two possible arrangements, each arrangement leading to two kinds of gamete: arrangement 1 → RY and ry; arrangement 2 → Ry and rY. Label: the two homologous pairs, alleles, the two equally likely arrangements, the four gamete types."
-      ]
+        "Diagram: a cell with two homologous pairs (a long pair carrying R and r, a short pair carrying Y and y) in the two possible arrangements. Arrangement 1 gives RY and ry; arrangement 2 gives Ry and rY. Labels: homologous pairs, alleles, two equally likely arrangements, four gamete types."
+      ],
+      "tip": "State that it is the alleles of different genes that assort independently, and add that this holds for genes on different chromosomes. Examiners expect you to link it to the 9 : 3 : 3 : 1 ratio."
     },
     {
       "h": "Evidence for independent assortment (Higher Level only)",
+      "b": "A dihybrid cross follows two traits at the same time. Mendel's results from one showed that the two traits were inherited independently of each other.",
       "points": [
         "Mendel's dihybrid cross: true-breeding round yellow × wrinkled green gave an F1 that was all round yellow.",
         "Self-pollinating the F1 gave an F2 of 315 round yellow : 108 round green : 101 wrinkled yellow : 32 wrinkled green (total 556), close to 9 : 3 : 3 : 1.",
-        "The new combinations (round green and wrinkled yellow) can only arise if the two genes are inherited independently.",
-        "The cross is worked in “Dihybrid crosses”."
-      ]
+        "The new combinations (round green and wrinkled yellow) can only arise if the two genes are inherited independently, because neither parent had those pairings of traits. There is more on this in Dihybrid crosses."
+      ],
+      "tip": "When relating the laws to results, link the 3 : 1 ratio to segregation and the 9 : 3 : 3 : 1 ratio to independent assortment."
     },
     {
       "h": "Mendel's legacy (Higher Level only)",
+      "b": "Mendel's biggest contribution was a new way of thinking about heredity. His laws still underpin how we predict the outcome of genetic crosses.",
       "points": [
         "Mendel showed that inheritance is particulate: traits are passed on by separate units that stay unchanged from generation to generation, rather than by blending of the parents' characteristics.",
-        "A blended trait could never reappear unchanged, as the dwarf trait did in the F2.",
-        "His laws are the basis of the predictions in “Benefits and limitations of Mendelian genetics”."
+        "A blended trait could never reappear unchanged, as the dwarf trait did in the F2, so the reappearance is evidence for separate units.",
+        "His laws are the basis of the predictions in Benefits and limitations of Mendelian genetics."
       ]
     }
   ],

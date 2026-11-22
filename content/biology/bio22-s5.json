@@ -6,84 +6,140 @@
   "notes": [
     {
       "h": "Origin of white blood cells (Higher Level only)",
+      "b": "The immune system is run by several different kinds of white blood cell, and they all start from the same place. Knowing where each type comes from and matures explains how the body learns to attack invaders but not itself.",
       "points": [
-        "White blood cells (leucocytes) are the cells of the immune system. Unlike red blood cells, they have a nucleus.",
-        "All white blood cells develop from stem cells in the red bone marrow.",
-        "They travel in the blood and lymph, and many leave the capillaries to enter the tissues where pathogens are.",
-        "There are two broad groups. Phagocytes (neutrophils and monocytes/macrophages) engulf pathogens. Lymphocytes (B cells, T cells and natural killer cells) are small cells with a large round nucleus filling most of the cell and little cytoplasm.",
+        "White blood cells (leucocytes) are the cells of the immune system. Unlike red blood cells, they have a nucleus, which holds the genes they need to make the proteins for their defensive jobs.",
+        "All white blood cells develop from stem cells (cells that can divide and become different cell types) in the red bone marrow, the soft tissue inside some bones.",
+        "They travel in the blood and lymph (the fluid that drains from tissues), and many leave the capillaries to enter the tissues, because that is where pathogens (disease-causing organisms) are found.",
+        "There are two broad groups. Phagocytes (neutrophils and monocytes/macrophages) engulf pathogens, taking them into the cell.",
+        "The second group is the lymphocytes (B cells, T cells and natural killer cells). These are small cells with a large round nucleus filling most of the cell and little cytoplasm.",
         "B lymphocytes mature in the bone marrow. T lymphocytes leave the marrow and mature in the thymus, a gland in the chest behind the breastbone (T for thymus).",
-        "During maturation, lymphocytes that would attack the body's own cells are removed, so mature lymphocytes respond only to non-self antigens."
-      ]
+        "During maturation, lymphocytes that would attack the body's own cells are removed, so mature lymphocytes respond only to non-self antigens (molecules on a pathogen's surface that the immune system recognises as foreign)."
+      ],
+      "tip": "Exams ask where B and T lymphocytes mature: B cells in the bone marrow, T cells in the thymus. Don't say B cells mature in the thymus."
     },
     {
       "h": "Monocytes (Higher Level only)",
+      "b": "Monocytes are the white blood cells that travel in the blood and then settle in tissues as macrophages. Macrophages are the body's general-purpose cleaners and also the link between the fast, general response and the specific one.",
       "points": [
-        "Monocytes are the largest white blood cells, with a large kidney- or bean-shaped nucleus.",
+        "Monocytes are the largest white blood cells, with a large kidney- or bean-shaped nucleus, which makes them easy to tell from lymphocytes under the microscope.",
         "They circulate in the blood for a few days, then move into tissues and develop into macrophages, which can live for months.",
-        "Macrophages carry out phagocytosis of pathogens, dead cells and debris (the stages are in Innate and adaptive immunity).",
-        "Macrophages are antigen-presenting cells: they display fragments of engulfed pathogens on their surface to activate helper T cells, so they link innate and adaptive immunity.",
-        "Macrophages release chemicals that cause inflammation and fever and attract other white blood cells.",
+        "Macrophages carry out phagocytosis (engulfing and digesting) of pathogens, dead cells and debris. There is more on the stages in Innate and adaptive immunity.",
+        "Macrophages are antigen-presenting cells: they display fragments of engulfed pathogens on their surface to activate helper T cells, so they link innate immunity (the fast, non-specific response) and adaptive immunity (the slower, specific one).",
+        "Macrophages release chemicals that cause inflammation and fever and attract other white blood cells to the site of infection.",
         "Diagram: a monocyte (large cell, kidney-shaped nucleus) beside a lymphocyte (small cell, large round nucleus, thin rim of cytoplasm). Label nucleus, cytoplasm and cell membrane."
-      ]
+      ],
+      "tip": "If asked to distinguish monocytes (macrophages) from lymphocytes, contrast their roles: macrophages engulf and present antigens, while lymphocytes are specific. Remember that macrophages engulf pathogens, and killer T cells do not."
     },
     {
       "h": "Natural killer cells (Higher Level only)",
+      "b": "Natural killer (NK) cells are a fast first line of attack against body cells that have gone wrong, either because a virus is hiding inside them or because they have become cancerous. They check cells for a missing marker rather than for a particular pathogen.",
       "points": [
         "Natural killer (NK) cells are lymphocytes of the innate system. They are not specific to one antigen and need no earlier exposure, so they act within hours of an infection, before B and T cells have responded.",
-        "Healthy body cells display normal self-marker (MHC) proteins on their surface.",
+        "Healthy body cells display normal self-marker (MHC) proteins on their surface, which tell the immune system the cell belongs to the body.",
         "Many virus-infected cells and cancer cells display fewer of these markers, or display stress molecules instead. NK cells kill cells showing this missing self pattern.",
-        "NK cells also kill cells coated with antibodies.",
+        "NK cells also kill cells coated with antibodies, the proteins that bind to antigens.",
         "NK cells release perforin, a protein that makes pores in the target cell's membrane, and enzymes called granzymes that enter through the pores and trigger the cell to self-destruct (apoptosis, programmed cell death).",
         "The dying cell breaks into fragments that macrophages engulf, so the virus inside is destroyed without spreading.",
-        "NK cells also release chemicals that activate macrophages."
-      ]
+        "NK cells also release chemicals that activate macrophages, which helps clear the fragments."
+      ],
+      "tip": "NK cells are lymphocytes but belong to the innate system. They are not T cells and have no antigen-specific receptors, so don't describe them as specific. A new topic on this specification is the role of NK cells."
     },
     {
       "h": "B lymphocytes (Higher Level only)",
+      "b": "B lymphocytes are the cells behind antibodies. Each B cell is committed to one antibody shape, so the body needs a huge range of B cells to cover many different antigens.",
       "points": [
-        "B lymphocytes carry antibody molecules in their membrane as receptors. Each B cell and its descendants make only one antibody shape.",
-        "B lymphocytes are responsible for antibody-mediated (humoral) immunity. Clonal selection, plasma cells and memory B cells are described in Innate and adaptive immunity.",
-        "Plasma cells, the antibody-secreting form of B cells, are larger than resting B cells, with extensive rough endoplasmic reticulum to make and secrete large amounts of antibody protein (see Structures and organelles of animal and plant cells).",
-        "Antibodies act on pathogens and toxins outside cells, in blood, tissue fluid and mucus, not on pathogens hidden inside cells."
-      ]
+        "B lymphocytes carry antibody molecules in their membrane as receptors, which let them bind a matching antigen. Each B cell and its descendants make only one antibody shape.",
+        "B lymphocytes are responsible for antibody-mediated (humoral) immunity, meaning protection by antibodies carried in body fluids. Clonal selection, plasma cells and memory B cells are taught in Innate and adaptive immunity.",
+        "Plasma cells, the antibody-secreting form of B cells, are larger than resting B cells, with extensive rough endoplasmic reticulum (a network of membranes studded with ribosomes) to make and secrete large amounts of antibody protein.",
+        "Antibodies act on pathogens and toxins outside cells, in blood, tissue fluid and mucus, not on pathogens hidden inside cells, because antibodies cannot get into body cells."
+      ],
+      "tip": "Exams ask you to describe the role of B lymphocytes: antibodies, made by plasma cells, against pathogens outside cells. T cells never make antibodies."
     },
     {
-      "h": "T lymphocytes (Higher Level only)",
+      "h": "T lymphocytes: what all T cells share, and helper T cells (Higher Level only)",
+      "b": "T lymphocytes are the cells that control and carry out cell-mediated immunity, the response that deals with infected body cells. Helper T cells are the coordinators that most of the adaptive response depends on.",
       "points": [
         "All T cells have T-cell receptors on their surface that recognise one antigen, but only when it is displayed on a cell's surface (presented), never as a free molecule.",
-        "T cells don't make antibodies.",
+        "T cells don't make antibodies. That is the job of plasma cells, which come from B cells.",
         "Helper T cells carry the surface marker CD4.",
-        "Helper T cells are the coordinators of the adaptive response, signalling with cytokines. Which cells they activate, and in what order, is described in Innate and adaptive immunity.",
-        "Almost every adaptive response depends on helper T cells, so HIV, which infects and destroys CD4 helper T cells, leaves the body unable to fight many infections (see Viruses: replication).",
-        "Killer T cells (cytotoxic T cells) carry the surface marker CD8.",
-        "Killer T cells bind to body cells displaying their matching antigen, such as virus-infected cells, cancer cells and cells of transplanted tissue, and kill them by releasing perforin and granzymes, which triggers apoptosis.",
-        "Killer T cells use the same killing method as NK cells, but only against cells showing their one specific antigen.",
-        "Each killer T cell can kill many target cells in turn.",
-        "Suppressor T cells, now usually called regulatory T cells, are the brakes of the immune system.",
-        "Suppressor T cells end a response once an infection is cleared (see Innate and adaptive immunity), and they suppress lymphocytes that react to the body's own antigens, helping to prevent autoimmune disease and allergy (autoimmune disease is described in Emerging diseases and society).",
-        "Memory T cells form from the clone of activated T cells and remain in the blood and lymph tissue for years or decades.",
-        "On re-exposure to the same antigen, memory T cells quickly produce new helper and killer T cells, giving a faster, stronger cell-mediated response. Memory B cells do the same for antibodies.",
-        "Memory cells are why vaccination works."
-      ]
+        "Helper T cells are the coordinators of the adaptive response, signalling with cytokines (chemical messengers between immune cells). Which cells they activate, and in what order, is taught in Innate and adaptive immunity.",
+        "Almost every adaptive response depends on helper T cells, so HIV, which infects and destroys CD4 helper T cells, leaves the body unable to fight many infections."
+      ],
+      "tip": "Helper T cells don't kill anything. Their role is to signal to and activate other cells. Name each type of T lymphocyte and give its role."
     },
     {
-      "h": "Comparing the roles of white blood cells (Higher Level only)",
+      "h": "Killer T cells (Higher Level only)",
+      "b": "Killer T cells deal with threats that antibodies cannot reach, because the pathogen is hidden inside a body cell. They destroy the whole infected cell.",
+      "points": [
+        "Killer T cells (cytotoxic T cells) carry the surface marker CD8.",
+        "Killer T cells bind to body cells displaying their matching antigen, such as virus-infected cells, cancer cells and cells of transplanted tissue.",
+        "They kill these cells by releasing perforin and granzymes, which triggers apoptosis (the cell's programmed self-destruction).",
+        "Killer T cells use the same killing method as NK cells, but only against cells showing their one specific antigen, whereas NK cells look for missing self-markers.",
+        "Each killer T cell can kill many target cells in turn."
+      ],
+      "tip": "Killer T cells don't engulf pathogens. They kill whole infected body cells, while macrophages are the cells that engulf."
+    },
+    {
+      "h": "Suppressor T cells and memory T cells (Higher Level only)",
+      "b": "An immune response needs brakes, and it needs a record of past infections. Suppressor T cells provide the brakes, and memory T cells provide the record that makes a second infection easier to fight.",
+      "points": [
+        "Suppressor T cells, now usually called regulatory T cells, are the brakes of the immune system.",
+        "Suppressor T cells end a response once an infection is cleared, so the body is not damaged by an immune response that carries on. The details are taught in Innate and adaptive immunity.",
+        "They also suppress lymphocytes that react to the body's own antigens, helping to prevent autoimmune disease (the body attacking its own tissues) and allergy.",
+        "Memory T cells form from the clone of activated T cells (the identical cells that divide from one activated T cell) and remain in the blood and lymph tissue for years or decades.",
+        "On re-exposure to the same antigen, memory T cells quickly produce new helper and killer T cells, giving a faster, stronger cell-mediated response. Memory B cells do the same for antibodies.",
+        "Memory cells are why vaccination works: the vaccine exposes you to the antigen safely, so memory cells are ready if the real pathogen arrives."
+      ],
+      "tip": "Use the specification's term suppressor T cell, and note once that it is now usually called a regulatory T cell. For memory cells, say they kill nothing but make a rapid future response possible."
+    },
+    {
+      "h": "Comparing white blood cells: innate or adaptive, and how each acts (Higher Level only)",
+      "b": "The outcome asks you to compare the roles of different white blood cells. The first comparison is between the fast, general innate cells and the slower, specific adaptive cells, and then between the ways each one destroys pathogens.",
       "points": [
         "Innate versus adaptive: monocytes, macrophages and NK cells are part of innate immunity, which is non-specific, acts quickly and has no memory.",
         "B and T lymphocytes are adaptive: they are specific to one antigen, slower on first exposure, and they form memory cells.",
         "Macrophages engulf and digest pathogens by phagocytosis. NK and killer T cells kill infected body cells by perforin and apoptosis.",
-        "B cells, as plasma cells, secrete antibodies. Helper T cells kill nothing themselves but signal to other cells. Suppressor T cells regulate the response. Memory cells kill nothing but enable a rapid future response.",
-        "Where the target is: antibodies from B cells act on pathogens and toxins outside cells; killer T and NK cells act on pathogens inside body cells by killing the cell; macrophages engulf free pathogens.",
-        "Recognition: B cells recognise free antigens with membrane antibodies; T cells recognise only antigens presented on cell surfaces; NK cells recognise missing or abnormal self-markers, not a specific antigen; macrophages recognise general features of pathogens and antibody-coated particles.",
+        "B cells, as plasma cells, secrete antibodies. Helper T cells kill nothing themselves but signal to other cells.",
+        "Suppressor T cells regulate the response. Memory cells kill nothing but enable a rapid future response."
+      ],
+      "tip": "Compare roles using the same headings each time (innate or adaptive, how it destroys pathogens, where the target is, how it recognises). Distinguish the roles of monocytes (macrophages) from those of lymphocytes."
+    },
+    {
+      "h": "Comparing white blood cells: target and recognition (Higher Level only)",
+      "b": "Cells also differ in what they attack and in how they recognise it. This explains why different cells are needed to cover both free pathogens and pathogens hidden inside body cells.",
+      "points": [
+        "Where the target is: antibodies from B cells act on pathogens and toxins outside cells, because antibodies cannot enter body cells.",
+        "Killer T and NK cells act on pathogens inside body cells by killing the cell. Macrophages engulf free pathogens.",
+        "Recognition: B cells recognise free antigens with membrane antibodies, while T cells recognise only antigens presented on cell surfaces.",
+        "NK cells recognise missing or abnormal self-markers, not a specific antigen.",
+        "Macrophages recognise general features of pathogens and antibody-coated particles, so they need no specific receptor for each pathogen."
+      ],
+      "tip": "A common error is to give T cells the antibody job or NK cells a specific antigen receptor. Check each cell's recognition method before you write it."
+    },
+    {
+      "h": "Summary of each white blood cell (Higher Level only)",
+      "b": "This list puts each cell side by side: whether it is innate or adaptive, whether it is specific, its main role, and where it matures. Use it to compare cells quickly.",
+      "points": [
         "Monocyte or macrophage: innate; non-specific; main role is phagocytosis and antigen presentation; matures in the bone marrow, then in tissues.",
         "NK cell: innate; non-specific; kills infected and cancer cells; matures in the bone marrow.",
         "B lymphocyte: adaptive; specific; main role is antibodies (via plasma cells) and memory; matures in the bone marrow.",
         "Helper T cell: adaptive; specific; activates B cells, killer T cells and macrophages (CD4); matures in the thymus.",
         "Killer T cell: adaptive; specific; kills infected, cancer and transplant cells (CD8); matures in the thymus.",
         "Suppressor T cell: adaptive; ends responses and prevents attack on self; matures in the thymus.",
-        "Memory B and T cells: adaptive; specific; long-lived, giving a fast secondary response.",
-        "Worked example, influenza in the airways: infected cells release interferons and NK cells kill some of them within hours; macrophages engulf viruses and present antigens; helper T cells are activated; killer T cells destroy infected cells while plasma cells release antibodies that neutralise free viruses; suppressor T cells end the response; memory cells remain, but because flu antigens change (see Viruses: replication), they may not recognise next year's strain."
-      ]
+        "Memory B and T cells: adaptive; specific; long-lived, giving a fast secondary response."
+      ],
+      "tip": "Be ready to say, for any named cell, whether it is innate or adaptive and where it matures. NK cells are innate, even though they are lymphocytes."
+    },
+    {
+      "h": "Cells working together: influenza in the airways (Higher Level only)",
+      "b": "In a real infection the cells act as a team in sequence. Influenza, a virus that infects the cells lining the airways, shows how the innate and adaptive cells combine.",
+      "points": [
+        "First, infected cells release interferons (chemical signals that warn neighbouring cells of a virus) and NK cells kill some of them within hours. Macrophages engulf viruses and present antigens, and helper T cells are activated.",
+        "Next, killer T cells destroy infected cells while plasma cells release antibodies that neutralise free viruses, so both hidden and free viruses are dealt with.",
+        "Finally, suppressor T cells end the response and memory cells remain. Because flu antigens change, memory cells may not recognise next year's strain."
+      ],
+      "tip": "In a compare question, give the order of events and say what each named cell does, without retelling the full cell-mediated sequence. There is more on the detail in Innate and adaptive immunity."
     }
   ],
   "keyTerms": [

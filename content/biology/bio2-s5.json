@@ -6,47 +6,66 @@
   "notes": [
     {
       "h": "Evaluating an investigation",
-      "b": "Evaluating judges how well the method answered the question and how far the data can be trusted, then says what should change. It is separate from the conclusion, which states what was found.",
+      "b": "Once the results are in, a scientist asks two questions: did the method really answer the question, and can the data be trusted? Evaluating means judging both, then saying what should change. It is a separate step from the conclusion, which only states what was found.",
       "points": [
-        "Strengths: say what worked and why, e.g. variables well controlled with a water bath and a buffer, enough replicates, a small range in repeat readings, and results that agree with other groups.",
-        "Limitations: identify specific weaknesses and their effect on the results, e.g. a variable that could not be controlled, too few values of the independent variable to locate an optimum, a small sample, an end-point judged by eye, or an anomaly that could not be repeated.",
-        "Name each source of error as random or systematic (the types are in Objectivity and data quality).",
-        "Confidence: state how confident you are in the conclusion and why, linking to the evidence, such as the spread of the data, the repeats and whether the test was fair.",
-        "Improvements must be specific and say how each one improves the data. “Use a colorimeter instead of judging the colour by eye, to remove a subjective judgement and reduce random error” is specific.",
-        "Further specific improvements: “test at 2 °C intervals between 30 °C and 50 °C to locate the optimum more precisely”; “use five replicates instead of two, to reduce the effect of natural variation”; “calibrate the balance against a known mass, to remove a systematic error”.",
-        "“Be more careful” or “do it again” earns nothing.",
-        "An evaluation can suggest a new question or an extension, e.g. testing the same enzyme at different pH values, or testing a different tissue. Investigation is iterative: results lead to a revised hypothesis or method."
-      ]
+        "Strengths: say what worked and why. For example, variables were well controlled with a water bath (keeps temperature steady) and a buffer (keeps pH steady), there were enough replicates (repeat runs), the repeat readings had a small range, and results agreed with other groups.",
+        "Limitations: identify specific weaknesses and say how each affected the results. Examples are a variable that could not be controlled, too few values of the independent variable (the thing you change) to locate an optimum (the best value), or a small sample.",
+        "Other limitations include an end-point judged by eye, which is subjective, and an anomaly (a result that does not fit the pattern) that could not be repeated, so its cause stays unknown.",
+        "Name each source of error as random or systematic. There is more on this in Objectivity and data quality.",
+        "Confidence: state how confident you are in the conclusion and why, linking to the evidence, such as the spread of the data, the repeats and whether the test was fair. Close, repeated values and a fair test justify more confidence.",
+        "Further work: an evaluation can suggest a new question or an extension, such as testing the same enzyme at different pH values, or testing a different tissue.",
+        "Investigation is iterative, meaning it goes round in cycles: results lead to a revised hypothesis or method, which is then tested again."
+      ],
+      "tip": "Don't write the conclusion again when asked to evaluate. The conclusion says what was found; the evaluation judges the method and the data."
+    },
+    {
+      "h": "Making improvements specific",
+      "b": "Saying a method was weak is only half the job. A good improvement names the change and says how it makes the data better, which is what earns the marks.",
+      "points": [
+        "Improvements must be specific and say how each one improves the data. “Use a colorimeter (an instrument that measures colour) instead of judging the colour by eye, to remove a subjective judgement and reduce random error” is specific.",
+        "“Test at 2 °C intervals between 30 °C and 50 °C to locate the optimum more precisely.” Smaller steps near the peak show where the best value lies, which a few widely spaced values cannot.",
+        "“Use five replicates instead of two, to reduce the effect of natural variation.” More repeats mean one odd result matters less to the average.",
+        "“Calibrate the balance against a known mass, to remove a systematic error.” Calibrating means checking an instrument against a known value, so a balance that always reads too high is corrected.",
+        "“Be more careful” or “do it again” earns nothing, because neither says what changes or how the data improves."
+      ],
+      "tip": "Exams ask you to suggest an improvement to a described method, or a source of error and how to reduce it. Name the change, then add 'to…' with its effect on the data."
     },
     {
       "h": "Reflecting on skills and thinking",
-      "b": "Reflection looks back at the investigator’s own decisions as well as at the data.",
+      "b": "Reflection looks back at the investigator’s own decisions as well as at the data. It asks what you did, why, and what you would do differently.",
       "points": [
         "Reflection covers why the question and hypothesis were chosen, how the method was planned, what problems arose and how they were solved, and what changed during the work and why.",
-        "An investigative log is a dated lab notebook that records plans, decisions, changes, raw data, problems and ideas as the work happens.",
+        "An investigative log is a dated lab notebook that records plans, decisions, changes, raw data (the readings as first recorded), problems and ideas as the work happens.",
         "A log makes reflection honest and specific, because it shows how the work actually unfolded rather than how it was meant to go.",
         "Good reflection identifies the skills used, such as planning, measuring, handling equipment, recording, analysing, working in a team and finding and using sources, and says which went well and which to improve next time.",
-        "An investigation that does not support its hypothesis, or gives unexpected results, is still valuable: explaining why is good scientific thinking."
+        "An investigation that does not support its hypothesis, or gives unexpected results, is still valuable, because explaining why is good scientific thinking."
       ]
     },
     {
       "h": "Applying skills to unfamiliar contexts",
-      "b": "Exam questions describe investigations the student has not done before. Use the same steps each time.",
+      "b": "Exam questions describe investigations you have not done before, with new organisms, equipment or data. The same seven steps work every time, so a new setting is never a new problem.",
       "points": [
-        "Step 1: find the question being asked.",
-        "Step 2: identify the independent variable (what was changed) and the dependent variable (what was measured).",
-        "Step 3: list the variables that should be controlled and how.",
-        "Step 4: suggest a suitable control.",
-        "Step 5: state a prediction using biological knowledge.",
-        "Step 6: read the data or graph for the trend and any anomaly.",
-        "Step 7: draw a conclusion, and give a limitation and an improvement.",
-        "Worked example, step 2: for “Does the length of time spent exercising affect pulse rate?”, the independent variable is exercise time (e.g. 0, 1, 2, 3 or 4 minutes of stepping), and the dependent variable is pulse rate in beats per minute, measured straight after exercise.",
-        "Worked example, step 3: the controlled variables are the type and pace of exercise, rest before starting, the way pulse is measured (same site, counted for the same time), and the time of day.",
-        "Worked example, step 4: the control is the resting pulse of participants with no exercise.",
-        "Worked example, sample: a larger group chosen at random gives more reliable results, because fitness, age and health vary between people.",
-        "Worked example, ethics: participants give informed consent and may withdraw at any time, and anyone with a health condition is excluded.",
-        "Worked example, prediction: pulse rate increases with exercise time. Pulse rate increases during exercise because respiring muscles need more oxygen and glucose, so the heart beats faster, and the increase may level off.",
+        "1. Find the question being asked.",
+        "2. Identify the independent variable (what was changed) and the dependent variable (what was measured).",
+        "3. List the variables that should be controlled (kept the same) and how.",
+        "4. Suggest a suitable control, a comparison set-up where the factor being tested is absent.",
+        "5. State a prediction using biological knowledge.",
+        "6. Read the data or graph for the trend and any anomaly.",
+        "7. Draw a conclusion, and give a limitation and an improvement.",
         "Transferable checks for any unfamiliar context: Is it a fair test? Is the sample big enough and random? Was there a control? Could a correlation have another cause? Are there ethical issues with the organisms or people used?"
+      ],
+      "tip": "New to this specification, expect questions set in unfamiliar contexts with stimulus material. They ask you to identify variables, suggest a control, interpret data and evaluate the method."
+    },
+    {
+      "h": "Worked example: exercise and pulse rate",
+      "b": "Here the seven steps are applied to the question “Does the length of time spent exercising affect pulse rate?”. Follow each step and see what it produces.",
+      "points": [
+        "Step 2, variables: the independent variable is exercise time (e.g. 0, 1, 2, 3 or 4 minutes of stepping). The dependent variable is pulse rate in beats per minute, measured straight after exercise.",
+        "Step 3, controlled variables: the type and pace of exercise, rest before starting, the way pulse is measured (same site, counted for the same time), and the time of day. Each could change pulse rate by itself.",
+        "Step 4, control: the resting pulse of participants with no exercise, which shows what pulse rate is without the factor being tested.",
+        "Sample: a larger group chosen at random gives more reliable results, because fitness, age and health vary between people.",
+        "Ethics: participants give informed consent and may withdraw at any time, and anyone with a health condition is excluded.",
+        "Step 5, prediction: pulse rate increases with exercise time. Respiring muscles need more oxygen and glucose, so the heart beats faster to deliver them, and the increase may level off."
       ]
     }
   ],

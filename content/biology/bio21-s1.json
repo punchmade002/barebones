@@ -6,96 +6,115 @@
   "notes": [
     {
       "h": "Stimulus and response",
+      "b": "Every living thing has to cope with a changing world, from a predator appearing to a drop in water supply. Detecting a change and reacting to it is called response, and it is the starting point for every system in this subsection.",
       "points": [
-        "Response is a characteristic of all living things: organisms detect stimuli, changes in their internal or external environment, and react to them in ways that help them survive.",
-        "The general pathway is stimulus → receptor (detects it) → coordinator (processes the information) → effector (a muscle or gland) → response."
-      ]
+        "Response is a characteristic of all living things: organisms detect stimuli (changes in their internal or external environment) and react to them in ways that help them survive.",
+        "The general pathway is stimulus → receptor (detects it) → coordinator (processes the information) → effector (a muscle or gland) → response.",
+        "In other words, a receptor notices the change, a coordinator decides what to do, and an effector carries it out, so the body reacts in a useful way rather than at random."
+      ],
+      "tip": "Learn the pathway in order, with a one-word job for each part: detects, processes, acts. Exams ask you to name the systems humans use to respond to stimuli."
     },
     {
       "h": "Nervous system",
+      "b": "The nervous system is the body's fast communication network. It links the places that detect changes to the places that act on them.",
       "points": [
-        "Receptors in the sense organs detect stimuli.",
-        "Neurons carry fast electrical impulses from the receptors to the brain and spinal cord.",
-        "The brain and spinal cord send impulses along neurons to muscles and glands, which act as effectors.",
-        "Nervous responses are fast and short-lived.",
-        "Diagram: a nervous pathway from receptor to coordinator to effector, labelling the sense organ, sensory neuron, brain and spinal cord, motor neuron and muscle or gland.",
-        "Covered in full in The Nervous System."
-      ]
+        "Receptors in the sense organs (such as the skin, eye and ear) detect stimuli. Here sense organs are named only as receptors, with no structure needed.",
+        "Neurons (nerve cells) carry fast electrical impulses from the receptors to the brain and spinal cord, which act as the coordinator.",
+        "The brain and spinal cord send impulses along neurons to muscles and glands, which act as effectors, so the body can respond.",
+        "Nervous responses are fast and short-lived, because electrical impulses travel quickly and stop as soon as the stimulus ends. There is more on this in The Nervous System.",
+        "Diagram: a nervous pathway from receptor to coordinator to effector. Label the sense organ, sensory neuron, brain and spinal cord, motor neuron and muscle or gland."
+      ],
+      "tip": "Keep the nervous system to a short outline here: receptors detect, neurons carry impulses to the brain and spinal cord, then on to muscles and glands. Say 'fast, short-lived' when speed is asked."
     },
     {
       "h": "Hormonal (endocrine) system",
+      "b": "The hormonal system is a second way of coordinating a response. Instead of electrical impulses along neurons, it uses chemical messengers carried in the blood.",
       "points": [
-        "Glands release hormones directly into the blood.",
-        "Hormones travel in the blood to the target organs that respond to them.",
-        "Hormonal responses are slower and longer-lasting than nervous responses.",
-        "Examples: adrenaline, released in danger; insulin, released after a meal.",
-        "Diagram: a gland releasing a hormone into a blood vessel, with an arrow to a target organ.",
-        "Covered in full in The Endocrine System."
-      ]
+        "Glands release hormones (chemical messengers) directly into the blood, rather than along neurons.",
+        "Hormones travel in the blood to the target organs, the organs that have the means to respond to them.",
+        "Hormonal responses are slower and longer-lasting than nervous responses, because a chemical has to be carried round the body in the blood and takes time to be cleared away.",
+        "Examples: adrenaline, released in danger, and insulin, released after a meal. There is more on this in The Endocrine System.",
+        "Diagram: a gland releasing a hormone into a blood vessel, with an arrow to a target organ. Label the gland, hormone, blood vessel and target organ."
+      ],
+      "tip": "Name adrenaline (danger) and insulin (after a meal) as hormone examples, and say 'slower, longer-lasting' when asked how hormonal responses differ from nervous ones."
     },
     {
       "h": "Musculoskeletal system",
+      "b": "Detecting a stimulus and deciding what to do achieves nothing unless the body moves. The musculoskeletal system, made of muscles and bones, does the moving.",
       "points": [
-        "Muscles are the effectors of most nervous responses.",
-        "Muscles contract and pull on bones at joints to move the body.",
-        "Example: withdrawing a hand from heat, carried out by muscles pulling on the bones of the arm.",
-        "Diagram: a muscle attached to a bone across a joint, labelling the bone, the joint and the muscle.",
-        "Covered in full in The Musculoskeletal System."
-      ]
+        "Muscles are the effectors of most nervous responses, so most nerve impulses to effectors end at a muscle.",
+        "Muscles contract (shorten) and pull on bones at joints, the places where bones meet, to move the body.",
+        "Example: withdrawing a hand from heat, carried out by muscles pulling on the bones of the arm. There is more on this in The Musculoskeletal System.",
+        "Diagram: a muscle attached to a bone across a joint. Label the bone, the joint and the muscle."
+      ],
+      "tip": "Link this system back to the response pathway: it is the effector. Use the hand-withdrawing-from-heat example when asked how a response is carried out."
     },
     {
       "h": "Immune system",
+      "b": "Some stimuli are not changes in temperature or danger from outside but invaders inside the body. The immune system is the response system that deals with them.",
       "points": [
-        "The immune system responds to pathogens and other foreign antigens.",
-        "White blood cells engulf bacteria or produce antibodies against foreign antigens.",
-        "Covered in full in Immunity."
-      ]
+        "The immune system responds to pathogens (disease-causing organisms) and other foreign antigens (molecules the body recognises as not its own).",
+        "White blood cells respond in two ways: they engulf bacteria, or they produce antibodies (proteins made against a specific foreign antigen). There is more on this in Immunity."
+      ],
+      "tip": "When asked to name the systems humans use to respond, include the immune system alongside nervous, hormonal and musculoskeletal."
     },
     {
       "h": "How the systems work together",
+      "b": "Responses rarely use just one system. A single danger can involve the nervous, hormonal and musculoskeletal systems one after another.",
       "points": [
-        "In danger, the nervous system stimulates the adrenal glands to release adrenaline.",
-        "Adrenaline prepares the muscles for action.",
-        "The musculoskeletal system carries out the movement."
-      ]
+        "In danger, the nervous system stimulates the adrenal glands (hormone-releasing glands) to release adrenaline, so a nerve signal triggers a hormone response.",
+        "Adrenaline prepares the muscles for action, so the body is ready to act.",
+        "The musculoskeletal system then carries out the movement, as the effector."
+      ],
+      "tip": "Use this danger sequence as your worked example if asked how systems cooperate: nervous system, then adrenal glands and adrenaline, then muscles and movement."
     },
     {
       "h": "Responses in plants",
       "b": "Plants have no nervous system or muscles. They respond more slowly, mainly through chemicals and through their structure.",
-      "points": []
+      "points": [
+        "Because plants cannot run away from danger, their protection depends on features built into their structure and on chemicals they make."
+      ],
+      "tip": "Exams ask why plants need protective adaptations. The reason is that they cannot move away from danger."
     },
     {
       "h": "Anatomical adaptations in plants",
+      "b": "An anatomical adaptation is a feature of a plant's structure that protects it. These features work against grazing animals, insects and pathogens (disease-causing organisms).",
       "points": [
-        "Thorns, spines and prickles deter grazing animals: holly leaves have spines, brambles have prickles and cacti have spines.",
-        "A thick waxy cuticle and bark form barriers to pathogens and to water loss.",
-        "Stinging hairs inject irritants, as in nettles.",
+        "Thorns, spines and prickles deter grazing animals, since they make the plant painful to eat: holly leaves have spines, brambles have prickles and cacti have spines.",
+        "A thick waxy cuticle (a waterproof layer on the surface) and bark form barriers to pathogens and to water loss, so microbes find it hard to get in and water stays inside.",
+        "Stinging hairs inject irritants into anything that touches them, as in nettles.",
         "Hairy leaves deter insects.",
         "Diagram: a labelled leaf showing the waxy cuticle and a spiny leaf margin, such as holly."
-      ]
+      ],
+      "tip": "If asked for one anatomical protection, give a named example with its effect, such as holly leaves with spines deterring grazing animals."
     },
     {
       "h": "Chemical adaptations in plants",
+      "b": "Plants also protect themselves by making chemicals. Some make a plant unpleasant or poisonous to eat, and others fight infection.",
       "points": [
-        "Toxic or bad-tasting chemicals deter herbivores: nicotine in tobacco, caffeine in tea and coffee plants, and tannins in oak leaves.",
-        "Nettle stings contain histamine and formic acid.",
+        "Toxic or bad-tasting chemicals deter herbivores (plant-eating animals): nicotine in tobacco, caffeine in tea and coffee plants, and tannins in oak leaves.",
+        "Nettle stings contain histamine and formic acid, which is why the stinging hairs of nettles act as both an anatomical and a chemical defence.",
         "Some plants produce antimicrobial chemicals when infected, which limit the spread of a pathogen."
-      ]
+      ],
+      "tip": "If asked for one chemical way plants protect themselves, name the chemical and the plant, for example nicotine in tobacco or tannins in oak leaves."
     },
     {
       "h": "Responses to changing conditions",
+      "b": "Plants also react to changes in their surroundings. Some of these responses are slow and some are quick.",
       "points": [
-        "Guard cells close the stomata when water is short, reducing water loss (detail in Transport in Plants).",
-        "The sensitive plant, Mimosa pudica, folds its leaves rapidly when touched."
+        "Guard cells (the pair of cells around each stoma, or leaf pore) close the stomata when water is short, reducing water loss. There is more on this in Transport in Plants.",
+        "The sensitive plant, Mimosa pudica, folds its leaves rapidly when touched, a fast response by a plant."
       ]
     },
     {
       "h": "Comparing human and plant responses",
+      "b": "Putting the two side by side shows why plants rely on protective adaptations: they lack the fast, mobile responses that humans have.",
       "points": [
-        "Speed: human responses can be fast, through nerves; plant responses are generally slower.",
-        "Mechanism: humans use nerves and hormones; plants use chemicals and their structure.",
+        "Speed: human responses can be fast, through nerves, whereas plant responses are generally slower.",
+        "Mechanism: humans use nerves and hormones, whereas plants use chemicals and their structure.",
         "Protection: plants cannot move away from danger, so their protective adaptations matter more."
-      ]
+      ],
+      "tip": "To explain why plants need protective adaptations, say that they cannot move away from danger, so structure and chemicals have to protect them."
     }
   ],
   "keyTerms": [

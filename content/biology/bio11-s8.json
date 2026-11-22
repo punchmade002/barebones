@@ -6,109 +6,120 @@
   "notes": [
     {
       "h": "What a dihybrid cross is (Higher Level only)",
+      "b": "A monohybrid cross follows one gene. A dihybrid cross follows two genes at once, which is how you predict offspring when two traits are inherited together.",
       "points": [
         "A dihybrid cross follows the inheritance of two different traits (two genes) at the same time, e.g. seed shape and seed colour in peas.",
-        "“Unlinked” means the two genes are on different chromosomes, so they assort independently and every combination of their alleles is equally likely in the gametes.",
-        "Genes on the same chromosome are covered in “Linkage”.",
-        "Key for the worked examples: R = round seed, r = wrinkled; Y = yellow seed, y = green.",
-        "A genotype always has two letters for each gene (four letters in all), written with the two alleles of one gene together and the dominant first: RrYy, not RYry."
-      ]
+        "“Unlinked” means the two genes are on different chromosomes, so they assort independently (are sorted into gametes without affecting each other) and every combination of their alleles is equally likely in the gametes. There is more on genes on the same chromosome in Linkage.",
+        "Key for the worked examples: R = round seed, r = wrinkled; Y = yellow seed, y = green. Capital letters are dominant alleles (the version that shows when present), lower case are recessive.",
+        "A genotype always has two letters for each gene (four letters in all), written with the two alleles of one gene together and the dominant first: RrYy, not RYry. Keeping each gene's pair together stops you mixing the genes up."
+      ],
+      "tip": "Always write genotypes as RrYy, with each gene's two alleles together and the dominant allele first."
     },
     {
       "h": "Working out the gametes (Higher Level only)",
+      "b": "Before you can fill in a Punnett square you need the gametes (sex cells) each parent can make. This is a short method you can use on any two-gene genotype.",
       "points": [
         "Each gamete gets one allele of each gene, so every gamete has two letters, one for each gene; never two of the same gene: RY, not Rr.",
         "Method: pair each allele of the first gene with each allele of the second gene.",
-        "For RrYy: R with Y, R with y, r with Y, r with y, giving RY, Ry, rY, ry, in equal numbers (the Law of Independent Assortment).",
-        "The number of gamete types depends on how many genes are heterozygous: RRYY gives one type (RY); RRYy gives two (RY, Ry); Rryy gives two (Ry, ry).",
-        "RrYy gives four (RY, Ry, rY, ry); rryy gives one (ry)."
-      ]
+        "For RrYy: R with Y, R with y, r with Y, r with y, giving RY, Ry, rY, ry, in equal numbers. This equal mixing is the Law of Independent Assortment: the alleles of one gene are sorted into gametes independently of the other gene.",
+        "The number of gamete types depends on how many genes are heterozygous (have two different alleles): RRYY gives one type (RY); RRYy gives two (RY, Ry); Rryy gives two (Ry, ry).",
+        "RrYy, heterozygous for both genes, gives four (RY, Ry, rY, ry); rryy gives one (ry). Write each different gamete once, however many times it could be made."
+      ],
+      "tip": "Questions ask you to give the gametes of a two-gene genotype. Each gamete has exactly one letter per gene (RY), never both alleles of one gene (Rr) and never four letters."
     },
     {
       "h": "P to F1 (Higher Level only)",
+      "b": "The first step in Mendel's style of cross is to breed two pure lines together. The offspring, the F1 (first filial) generation, are all identical, which sets up the F2.",
       "points": [
-        "Parents' phenotypes: round yellow × wrinkled green (both true-breeding).",
-        "Parents' genotypes: RRYY × rryy.",
-        "Gametes: RY × ry.",
-        "F1 genotype: all RrYy.",
-        "F1 phenotype: all round yellow (both dominant traits)."
-      ]
+        "Parents' phenotypes (the visible traits): round yellow × wrinkled green (both true-breeding, meaning homozygous, so they always pass on the same alleles).",
+        "Parents' genotypes: RRYY × rryy, so each parent is homozygous for both genes.",
+        "Gametes: RY × ry, because each parent has only one type of gamete.",
+        "F1 genotype: all RrYy, as every offspring gets one dominant and one recessive allele of each gene.",
+        "F1 phenotype: all round yellow (both dominant traits), because the dominant alleles hide the recessive ones."
+      ],
+      "tip": "Set out each cross in order: parents' phenotypes, parents' genotypes, gametes, offspring genotypes, offspring phenotypes."
     },
     {
       "h": "F1 × F1 to F2 (Higher Level only)",
+      "b": "Crossing two F1 plants is the core dihybrid cross. Both parents are heterozygous for both genes, so each makes four types of gamete and the Punnett square (a grid showing every possible gamete pairing) is 4 × 4.",
       "points": [
-        "Parents (F1): round yellow × round yellow.",
-        "Genotypes: RrYy × RrYy.",
+        "Parents (F1): round yellow × round yellow. Genotypes: RrYy × RrYy, so both are heterozygous for both genes.",
         "Gametes: RY, Ry, rY, ry × RY, Ry, rY, ry.",
-        "Punnett square: 4 × 4 = 16 boxes, each a 1/16 chance.",
-        "Punnett square, row by row (gametes RY, Ry, rY, ry across the top and down the side):",
-        "Row 1 (gamete RY): RRYY, RRYy, RrYY, RrYy.",
-        "Row 2 (gamete Ry): RRYy, RRyy, RrYy, Rryy.",
-        "Row 3 (gamete rY): RrYY, RrYy, rrYY, rrYy.",
-        "Row 4 (gamete ry): RrYy, Rryy, rrYy, rryy.",
-        "F2 genotypes (nine kinds): 1 RRYY, 2 RRYy, 2 RrYY, 4 RrYy, 1 RRyy, 2 Rryy, 1 rrYY, 2 rrYy, 1 rryy (total 16)."
-      ]
+        "Punnett square: 4 × 4 = 16 boxes, each a 1/16 chance, because every gamete pairing is equally likely.",
+        "Punnett square, row by row (gametes RY, Ry, rY, ry across the top and down the side). Row 1 (gamete RY): RRYY, RRYy, RrYY, RrYy. Row 2 (gamete Ry): RRYy, RRyy, RrYy, Rryy.",
+        "Row 3 (gamete rY): RrYY, RrYy, rrYY, rrYy. Row 4 (gamete ry): RrYy, Rryy, rrYy, rryy.",
+        "F2 genotypes (nine kinds): 1 RRYY, 2 RRYy, 2 RrYY, 4 RrYy, 1 RRyy, 2 Rryy, 1 rrYY, 2 rrYy, 1 rryy (total 16). Count repeated genotypes from the squares to get these numbers."
+      ],
+      "tip": "Give the nine genotypes as one list; the phenotype ratio is what examiners usually want. Show the full 16-box square when asked for a genetic cross."
     },
     {
       "h": "F2 phenotypes and the 9 : 3 : 3 : 1 ratio (Higher Level only)",
+      "b": "The 16 boxes contain nine genotypes but only four phenotypes, because a dominant allele hides the recessive one. Counting those phenotypes gives the famous dihybrid ratio.",
       "points": [
         "F2 phenotypes: 9 round yellow (at least one R and at least one Y) : 3 round green (at least one R, yy) : 3 wrinkled yellow (rr, at least one Y) : 1 wrinkled green (rryy).",
-        "The ratio 9 : 3 : 3 : 1 is the signature of a dihybrid F2 with two unlinked genes, each with complete dominance.",
-        "Mendel's F2 counts, close to this ratio, are in “Mendel's Laws”."
-      ]
+        "The ratio 9 : 3 : 3 : 1 is the signature of a dihybrid F2 with two unlinked genes, each with complete dominance (the heterozygote looks the same as the dominant homozygote). There is more on Mendel's F2 counts, close to this ratio, in Mendel's Laws."
+      ],
+      "tip": "If asked to explain 9 : 3 : 3 : 1, say both parents were heterozygous for both genes, the genes are unlinked, and dominance is complete. Do not apply this ratio to other crosses. Students list the 16 boxes correctly but miscount phenotypes: R_Y_ means at least one dominant allele of each gene."
     },
     {
       "h": "Why new combinations appear (Higher Level only)",
+      "b": "Look at the F2 phenotypes against the original parents. Some combinations of traits appear that neither the P nor the F1 plants showed.",
       "points": [
         "Two of the four F2 phenotypes (round green and wrinkled yellow) are new combinations, found in neither the P nor the F1 generation.",
-        "They appear because the genes assort independently, and they are a source of variation in offspring.",
+        "They appear because the genes assort independently, so any seed shape allele can end up with any seed colour allele. They are a source of variation in offspring.",
         "Diagram: the full 4 × 4 Punnett square of the F1 × F1 cross, with gametes labelled on both sides, and the boxes coloured or marked by phenotype (9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green)."
       ]
     },
     {
       "h": "Checking with multiplied probabilities (Higher Level only)",
+      "b": "A 16-box square is slow and easy to miscount. Because the two genes are independent, you can work out each gene separately and multiply, which gives a quick check.",
       "points": [
         "Because the genes are independent, the dihybrid result is the two monohybrid results multiplied.",
-        "Rr × Rr gives 3/4 round and 1/4 wrinkled; Yy × Yy gives 3/4 yellow and 1/4 green.",
+        "Rr × Rr gives 3/4 round and 1/4 wrinkled; Yy × Yy gives 3/4 yellow and 1/4 green, so each gene is treated as its own monohybrid cross.",
         "So round yellow = 3/4 × 3/4 = 9/16, round green = 3/4 × 1/4 = 3/16, wrinkled yellow = 3/16, wrinkled green = 1/4 × 1/4 = 1/16.",
         "Use this to check a Punnett square; show the full square in an exam answer when asked for a genetic cross."
-      ]
+      ],
+      "tip": "Use the multiplication as a quick check on your square, but still draw the full square when the question asks for a genetic cross."
     },
     {
       "h": "Dihybrid test cross: double heterozygote × double homozygous recessive (Higher Level only)",
+      "b": "A test cross crosses an individual showing the dominant traits with one that is homozygous recessive for both genes. The recessive parent makes only one type of gamete, so the offspring reveal exactly which gametes the other parent makes.",
       "points": [
         "Round yellow (RrYy) × wrinkled green (rryy) is the dihybrid test cross.",
-        "Gametes: RY, Ry, rY, ry × ry.",
+        "Gametes: RY, Ry, rY, ry × ry, because rryy can only make ry.",
         "Offspring genotypes: RrYy, Rryy, rrYy, rryy (1 : 1 : 1 : 1).",
-        "Phenotypes: 1 round yellow : 1 round green : 1 wrinkled yellow : 1 wrinkled green (25% each).",
-        "A 1 : 1 : 1 : 1 result shows that the dominant-looking parent was heterozygous for both genes and that the genes assort independently.",
-        "The same cross with linked genes is in “Linkage”.",
+        "Phenotypes: 1 round yellow : 1 round green : 1 wrinkled yellow : 1 wrinkled green (25% each), because each of the four gametes has a 1/4 chance.",
+        "A 1 : 1 : 1 : 1 result shows that the dominant-looking parent was heterozygous for both genes and that the genes assort independently. There is more on the same cross with linked genes in Linkage.",
         "The same pattern with other traits: in peas with tall (T) dominant to dwarf (t) and yellow (Y) dominant to green (y), TtYy × ttyy gives 1 tall yellow (TtYy) : 1 tall green (Ttyy) : 1 dwarf yellow (ttYy) : 1 dwarf green (ttyy)."
-      ]
+      ],
+      "tip": "Exams ask you to give the genotypes, phenotypes and ratio of a double heterozygote × double homozygous recessive cross. The answer is 1 : 1 : 1 : 1, and the same method works for any pair of traits."
     },
     {
       "h": "Dihybrid cross: double heterozygote × single heterozygote (Higher Level only)",
+      "b": "Not every cross has two double heterozygotes. Here one parent is heterozygous for only one gene, so it makes just two gamete types and the square is 4 × 2.",
       "points": [
-        "Round yellow × round green: RrYy × Rryy.",
+        "Round yellow × round green: RrYy × Rryy, so the second parent is homozygous recessive for colour and heterozygous for shape.",
         "Gametes: RY, Ry, rY, ry × Ry, ry.",
         "Punnett square: 4 × 2 = 8 boxes; column Ry: RRYy, RRyy, RrYy, Rryy; column ry: RrYy, Rryy, rrYy, rryy.",
         "Phenotypes: 3 round yellow : 3 round green : 1 wrinkled yellow : 1 wrinkled green (3 : 3 : 1 : 1).",
-        "Check: 3/4 round × 1/2 yellow = 3/8 round yellow."
-      ]
+        "Check: 3/4 round × 1/2 yellow = 3/8 round yellow, matching the 3 round yellow out of 8 boxes."
+      ],
+      "tip": "Count the gamete types first to know the size of the square. This cross gives 3 : 3 : 1 : 1, not 9 : 3 : 3 : 1."
     },
     {
       "h": "Dihybrid cross with incomplete dominance (Higher Level only)",
+      "b": "When one gene shows incomplete dominance, the heterozygote has a blend in between the two homozygotes. This changes the phenotype count but the method for crossing two genes stays the same.",
       "points": [
         "Snapdragons: tall (T) is dominant to dwarf (t); red (R) and white (W) flower colour show incomplete dominance (RW = pink).",
-        "Parents' phenotypes: homozygous dwarf red × tall pink (heterozygous for height).",
-        "Parents' genotypes: ttRR × TtRW.",
-        "Gametes: tR × TR, TW, tR, tW.",
+        "Parents' phenotypes: homozygous dwarf red × tall pink (heterozygous for height). Parents' genotypes: ttRR × TtRW.",
+        "Gametes: tR × TR, TW, tR, tW, because the ttRR parent can only make tR while the TtRW parent makes four types.",
         "Offspring: TtRR (tall, red), TtRW (tall, pink), ttRR (dwarf, red), ttRW (dwarf, pink), in a 1 : 1 : 1 : 1 ratio.",
-        "So 50% of the offspring have pink flowers and 50% are tall.",
+        "So 50% of the offspring have pink flowers (two of four genotypes) and 50% are tall.",
         "To the second generation: TTRR × ttWW gives an F1 of all TtRW (tall pink).",
         "F1 × F1 gives 3 tall red : 6 tall pink : 3 tall white : 1 dwarf red : 2 dwarf pink : 1 dwarf white (out of 16).",
-        "These are found by multiplying 3/4 tall and 1/4 dwarf by 1/4 red, 1/2 pink and 1/4 white."
-      ]
+        "These are found by multiplying 3/4 tall and 1/4 dwarf by 1/4 red, 1/2 pink and 1/4 white, because the two genes are independent."
+      ],
+      "tip": "Exams give descriptions such as homozygous tall, red, ask for the parents' genotypes and offspring, and may ask for the percentage with a stated phenotype. Use RW for pink, as heterozygotes show the blend."
     }
   ],
   "keyTerms": [

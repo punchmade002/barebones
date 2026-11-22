@@ -6,80 +6,97 @@
   "notes": [
     {
       "h": "Neurons and their types",
-      "b": "A neuron, or nerve cell, is the basic unit of the nervous system; it carries electrochemical nerve impulses.",
+      "b": "Your body has to pass information quickly between receptors (cells that detect changes), the brain and spinal cord, and muscles and glands. Neurons are the cells that do this job, and there are three types, each with its own role.",
       "points": [
-        "Neurons are long and thin, so a single cell can connect distant parts of the body.",
-        "Sensory neurons carry impulses from receptors to the CNS.",
-        "Motor neurons carry impulses from the CNS to effectors.",
-        "Interneurons, also called relay or connector neurons, carry impulses between neurons within the CNS."
-      ]
+        "A neuron, or nerve cell, is the basic unit of the nervous system; it carries electrochemical nerve impulses (tiny electrical-and-chemical signals that travel along the cell).",
+        "Neurons are long and thin, so a single cell can connect distant parts of the body, for example the skin of the foot and the spinal cord.",
+        "Sensory neurons carry impulses from receptors (cells that detect a stimulus) to the CNS (the central nervous system: brain and spinal cord).",
+        "Motor neurons carry impulses from the CNS to effectors (muscles or glands, which carry out the response).",
+        "Interneurons, also called relay or connector neurons, carry impulses between neurons within the CNS, so they link the incoming and outgoing pathways."
+      ],
+      "tip": "Name the type of neuron by the direction of its impulse: towards the CNS is sensory, away from the CNS to an effector is motor, and within the CNS is an interneuron."
     },
     {
       "h": "Cell body, dendrites and axon",
+      "b": "Every neuron is built from the same three main regions: a cell body, branched dendrites that receive signals, and an axon that sends them on. The shape of each region suits its job.",
       "points": [
-        "The cell body contains the nucleus and most of the cytoplasm and organelles, keeping the cell alive.",
-        "The cell body makes the neurotransmitter and the proteins the neuron needs.",
+        "The cell body contains the nucleus and most of the cytoplasm and organelles, which keeps the cell alive.",
+        "The cell body also makes the neurotransmitter (the chemical that passes the signal to the next cell) and the proteins the neuron needs.",
         "Dendrites are short, branched extensions that receive impulses from other neurons or receptors and carry them towards the cell body.",
-        "Branching lets one neuron receive signals from many others.",
+        "Branching gives dendrites a large surface, so one neuron can receive signals from many others.",
         "The axon is a long single fibre that carries impulses away from the cell body.",
-        "The axon's length lets impulses reach distant effectors."
-      ]
+        "The axon's length lets impulses reach distant effectors, for example a muscle in the foot."
+      ],
+      "tip": "Examiners ask for the function of the dendrites or the axon. For dendrites say they receive impulses and carry them towards the cell body; for the axon say it carries impulses away from the cell body."
     },
     {
       "h": "Myelin sheath and Schwann cells",
+      "b": "Many axons are wrapped in a fatty coat that makes impulses travel faster. Fast conduction matters because the body must respond quickly, for example when you pull your hand from something hot.",
       "points": [
-        "The myelin sheath is a fatty insulating layer around many axons.",
+        "The myelin sheath is a fatty insulating layer around many axons, so the impulse does not leak away along the way.",
         "It speeds up the impulse, which jumps between the small gaps in the sheath called nodes of Ranvier.",
-        "Schwann cells are cells that wrap around the axon in the PNS, their membrane forming the myelin sheath."
-      ]
+        "Schwann cells are cells that wrap around the axon in the PNS (the peripheral nervous system: the nerves outside the brain and spinal cord), their membrane forming the myelin sheath."
+      ],
+      "tip": "Link myelin to speed and to the nodes of Ranvier. Schwann cells form myelin in the PNS only, so do not say they make it in the CNS. Be ready to state the function of the Schwann cell."
     },
     {
       "h": "Axon terminals and neurotransmitter vesicles",
+      "b": "At its far end an axon has to hand the impulse on to the next cell, whether another neuron, a muscle or a gland. The axon terminals are built for this hand-over.",
       "points": [
         "The axon ends in swollen synaptic knobs, also called axon terminals.",
-        "Neurotransmitter vesicles are tiny sacs in the synaptic knobs that store neurotransmitter.",
-        "The neurotransmitter is released to pass the impulse to the next cell; release itself is described in Neurotransmission."
-      ]
+        "Neurotransmitter vesicles are tiny sacs in the synaptic knobs that store neurotransmitter, so a supply is ready to be released.",
+        "The neurotransmitter is released to pass the impulse to the next cell. There is more on this in Neurotransmission."
+      ],
+      "tip": "If asked for the function of the vesicles, say they store neurotransmitter, which is released to pass the impulse to the next cell."
     },
     {
       "h": "Motor neurons",
+      "b": "A motor neuron carries the command from the CNS out to an effector. Its structure is arranged to collect many inputs inside the CNS and then send one signal a long way out.",
       "points": [
         "A motor neuron has its cell body at one end, inside the CNS, with many dendrites.",
-        "It has one long axon, which ends in axon terminals on a muscle or gland.",
-        "Its many dendrites receive input from many interneurons."
-      ]
+        "Its many dendrites receive input from many interneurons, so one motor neuron can combine signals from many sources.",
+        "It has one long axon, which ends in axon terminals on a muscle or gland, so the axon reaches the effector wherever it lies in the body."
+      ],
+      "tip": "When comparing neurons, state where the cell body is: at one end, inside the CNS, for a motor neuron."
     },
     {
       "h": "Sensory neurons",
+      "b": "A sensory neuron brings information in from a receptor to the CNS. It has a different layout from a motor neuron, with its cell body off to one side.",
       "points": [
-        "A sensory neuron has a long fibre, the dendron, which carries impulses from the receptor to the cell body.",
-        "Its cell body sits to one side of the fibre, in a ganglion outside the CNS.",
+        "A sensory neuron has a long fibre, the dendron, which carries impulses from the receptor to the cell body. A dendron is not the same as a dendrite, which is short and branched.",
+        "Its cell body sits to one side of the fibre, in a ganglion (a cluster of cell bodies) outside the CNS.",
         "A shorter axon carries the impulse on into the CNS.",
-        "The long dendron reaches from a receptor, e.g. in the skin of the foot, to the spinal cord.",
+        "The long dendron reaches from a receptor, for example in the skin of the foot, to the spinal cord.",
         "The cell body lies off the main pathway, so it does not slow the impulse."
-      ]
+      ],
+      "tip": "Use the words dendrite and dendron correctly: dendron is the long fibre of a sensory neuron. A typical comparison of sensory and motor neurons asks about cell body position and direction of the impulse."
     },
     {
       "h": "Interneurons",
+      "b": "Between the sensory and motor neurons sits a third type that links them. Interneurons make the CNS a network rather than a set of separate wires.",
       "points": [
-        "Interneurons are short, with many branched connections.",
+        "Interneurons are short, with many branched connections, so each can link with many other neurons.",
         "They are found only in the CNS.",
         "They connect sensory neurons to motor neurons and link many neurons together."
       ]
     },
     {
       "h": "Drawing a motor and a sensory neuron",
+      "b": "You are often asked to label a neuron diagram or to say which type is shown. Practise drawing both types so that you can place every part and show the direction of the impulse.",
       "points": [
         "Diagram: a motor neuron and a sensory neuron, labelling cell body, nucleus, dendrites, dendron (sensory), axon, myelin sheath, Schwann cell, node of Ranvier, axon terminals, neurotransmitter vesicles, and an arrow for the direction of the impulse."
-      ]
+      ],
+      "tip": "To name the type, look for the cell body: at the end of the neuron with many dendrites means motor; off to one side of a long fibre means sensory. The impulse arrow points from dendrites or dendron towards the axon terminals."
     },
     {
       "h": "Multiple sclerosis",
+      "b": "The importance of myelin shows when it is damaged. Multiple sclerosis is a disease in which this happens.",
       "points": [
-        "Multiple sclerosis (MS) is an autoimmune disease in which the body's immune system damages the myelin sheath in the CNS.",
-        "Damaged myelin slows or blocks impulses.",
+        "Multiple sclerosis (MS) is an autoimmune disease (the immune system attacks the body's own tissue) in which the body's immune system damages the myelin sheath in the CNS.",
+        "Damaged myelin slows or blocks impulses, because the insulation that lets them jump between the nodes of Ranvier is lost.",
         "Symptoms include problems with movement, balance and vision."
-      ]
+      ],
+      "tip": "Say that MS damages the myelin sheath in the CNS and that this slows or blocks impulses; the immune system is the cause."
     }
   ],
   "keyTerms": [

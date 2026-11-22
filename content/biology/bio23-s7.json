@@ -6,141 +6,217 @@
   "notes": [
     {
       "h": "What prenatal and postnatal care is for",
+      "b": "Pregnancy and the first weeks of a baby's life are when many problems can start, and when many can be caught and treated. Health services therefore care for the mother and baby both before and after the birth.",
       "points": [
-        "Prenatal (antenatal) care is the health care of a pregnant woman and her developing baby before birth.",
+        "Prenatal (antenatal) care is the health care of a pregnant woman and her developing baby before birth, so it covers the whole of pregnancy.",
         "Postnatal care is the care of the mother and baby after birth, usually for the first six weeks.",
-        "Its aims are to keep mother and baby healthy, to find problems early, when they can be treated or managed, and to give the parents information to make decisions.",
+        "Its aims are to keep mother and baby healthy, to find problems early, when they can be treated or managed, and to give the parents information to make decisions."
+      ],
+      "tip": "Exams ask you to distinguish antenatal from postnatal care. Say antenatal is before birth and postnatal is after birth, and give a different example of each."
+    },
+    {
+      "h": "Screening tests and diagnostic tests",
+      "b": "Care in pregnancy and after birth uses two kinds of test that are easy to mix up. Screening sorts people into higher and lower risk, while diagnosis gives the answer for one person.",
+      "points": [
         "A screening test is offered to everyone in a group, such as all pregnant women or all newborns, to find those at higher risk of a condition.",
-        "A screening test is quick, cheap and safe, but it is not certain.",
+        "A screening test is quick, cheap and safe, but it is not certain, so it can only say that a condition is more or less likely.",
         "A diagnostic test confirms whether a person actually has the condition; it is more accurate and may carry some risk.",
-        "A positive screening result leads to a diagnostic test.",
-        "The same distinction is used for cancer in “Causes, prevention and treatment of cancer”."
-      ]
+        "A positive screening result leads to a diagnostic test, because the screen only raises a suspicion that must then be confirmed.",
+        "The same distinction is used for cancer. There is more on this in Causes, prevention and treatment of cancer."
+      ],
+      "tip": "Never call a screening test a diagnosis. Say screening finds people at higher risk and is not certain, while a diagnostic test confirms the condition."
     },
     {
-      "h": "Monitoring the mother's health",
+      "h": "Blood tests at the booking visit",
+      "b": "At the first visit early in pregnancy, called the booking visit, the mother's blood is tested. The results show what she needs for a safe pregnancy and what could affect the baby.",
       "points": [
-        "At the first (booking) visit early in pregnancy, the mother's blood is tested for her blood group and Rhesus factor.",
-        "A Rhesus-negative mother carrying a Rhesus-positive baby may be given anti-D injections to protect this and later babies (see “Blood”).",
-        "The booking bloods also test haemoglobin, to detect anaemia, which is common in pregnancy and is treated with iron.",
-        "Immunity to rubella is checked at booking.",
-        "Infections that can pass to the baby are tested for, including HIV, hepatitis B and syphilis, so that treatment can greatly reduce the chance of passing them on.",
+        "The mother's blood is tested for her blood group and Rhesus factor. A Rhesus-negative mother carrying a Rhesus-positive baby may be given anti-D injections to protect this and later babies. There is more on this in Blood.",
+        "Haemoglobin (the oxygen-carrying pigment in red blood cells) is tested to detect anaemia, which is common in pregnancy and is treated with iron.",
+        "Immunity to rubella is checked at booking, because rubella infection in pregnancy can harm the baby.",
+        "Infections that can pass to the baby are tested for, including HIV, hepatitis B and syphilis, so that treatment can greatly reduce the chance of passing them on."
+      ],
+      "tip": "If asked what is tested at the first visit, list blood group and Rhesus factor, haemoglobin, rubella immunity and infections such as HIV, hepatitis B and syphilis. Give anti-D as the protection for a Rhesus-negative mother, in one phrase."
+    },
+    {
+      "h": "Checks at every visit: blood pressure and urine",
+      "b": "Two simple measurements are repeated at every antenatal visit, because some serious pregnancy conditions develop gradually and show up first in blood pressure or in the urine.",
+      "points": [
         "At every visit her blood pressure is measured and her urine tested.",
-        "High blood pressure with protein in the urine is a sign of pre-eclampsia, a condition in pregnancy that can be dangerous to mother and baby; she is monitored closely and the baby may be delivered early.",
-        "Glucose in the urine, or a raised blood glucose in a glucose tolerance test, may show gestational diabetes, diabetes that develops in pregnancy.",
-        "Gestational diabetes can make the baby grow too large; it is managed by diet and, if needed, insulin.",
-        "Advice and prevention: take folic acid, a B vitamin, daily from before conception until the 12th week, which reduces the risk of neural tube defects such as spina bifida (see “Vitamins”).",
-        "Advice and prevention: do not smoke or drink alcohol, eat a balanced diet, and take medicines only on medical advice (see “Pregnancy” for substances that cross the placenta).",
-        "Advice and prevention: avoid foods that may carry harmful microorganisms, for example unpasteurised cheese and pâté, which can carry Listeria bacteria, and undercooked meat, which can carry Toxoplasma.",
-        "Vaccines in pregnancy: the flu vaccine and the whooping cough (pertussis) vaccine are recommended.",
-        "The mother's antibodies cross the placenta, so the baby is protected from whooping cough in the first weeks of life, before it can be vaccinated itself (passive immunity; see “Acquired immunity, prevention and treatment”)."
-      ]
+        "High blood pressure with protein in the urine is a sign of pre-eclampsia, a condition in pregnancy that can be dangerous to mother and baby. She is monitored closely and the baby may be delivered early.",
+        "Glucose in the urine, or a raised blood glucose in a glucose tolerance test, may show gestational diabetes, which is diabetes that develops in pregnancy.",
+        "Gestational diabetes can make the baby grow too large. It is managed by diet and, if needed, insulin."
+      ],
+      "tip": "Learn the pairings: high blood pressure plus protein in the urine means pre-eclampsia, and glucose in the urine or a raised result in a glucose tolerance test means gestational diabetes."
     },
     {
-      "h": "Monitoring the foetus",
+      "h": "Advice and prevention during pregnancy",
+      "b": "Much of antenatal care is advice, because what the mother eats, drinks, takes and catches can reach the baby. Following it prevents harm rather than treating it afterwards.",
       "points": [
-        "Ultrasound scanning sends high-frequency sound waves into the body; their echoes from tissues of different density form a moving image on a screen.",
-        "Ultrasound uses no ionising radiation, unlike X-rays, which are avoided in pregnancy, so it is regarded as safe for mother and foetus.",
-        "A dating scan early in pregnancy, around 11–14 weeks, confirms the pregnancy, the number of babies and the expected date of delivery, and checks for an ectopic pregnancy.",
+        "Take folic acid, a B vitamin, daily from before conception until the 12th week, which reduces the risk of neural tube defects (faults in the developing spine and brain) such as spina bifida. There is more on this in Vitamins.",
+        "Do not smoke or drink alcohol, eat a balanced diet, and take medicines only on medical advice, because some substances cross the placenta to the baby.",
+        "Avoid foods that may carry harmful microorganisms, for example unpasteurised cheese and pâté, which can carry Listeria bacteria.",
+        "Avoid undercooked meat, which can carry Toxoplasma, a parasite that can infect the baby."
+      ],
+      "tip": "Folic acid is the classic answer: daily from before conception to week 12, to reduce neural tube defects such as spina bifida. Pair each food warning with its organism, Listeria for unpasteurised cheese and pâté and Toxoplasma for undercooked meat."
+    },
+    {
+      "h": "Vaccines in pregnancy",
+      "b": "A mother can be vaccinated during pregnancy to protect herself and, through the placenta, her newborn baby, who is too young to be vaccinated yet.",
+      "points": [
+        "The flu vaccine and the whooping cough (pertussis) vaccine are recommended in pregnancy.",
+        "The mother's antibodies cross the placenta, so the baby is protected from whooping cough in the first weeks of life, before it can be vaccinated itself. This is passive immunity, meaning protection from antibodies made by someone else. There is more on this in Acquired immunity, prevention and treatment."
+      ],
+      "tip": "Explain the protection in two steps: the mother makes antibodies after the vaccine, and these cross the placenta to the baby."
+    },
+    {
+      "h": "How ultrasound scanning works",
+      "b": "Ultrasound is the main way to look at a baby before birth without touching it. It is a good example of technology improving prenatal care.",
+      "points": [
+        "Ultrasound scanning sends high-frequency sound waves into the body. Their echoes from tissues of different density form a moving image on a screen.",
+        "Ultrasound uses no ionising radiation, unlike X-rays, which are avoided in pregnancy, so it is regarded as safe for mother and foetus."
+      ],
+      "tip": "Ultrasound is sound, not X-rays and not radiation. Say it uses high-frequency sound waves and that no ionising radiation is involved."
+    },
+    {
+      "h": "What ultrasound scans are used for",
+      "b": "Scans are done at different stages of pregnancy, and each is timed to answer particular questions.",
+      "points": [
+        "A dating scan early in pregnancy, around 11–14 weeks, confirms the pregnancy, the number of babies and the expected date of delivery, and checks for an ectopic pregnancy (one that develops outside the uterus).",
         "An anomaly scan at about 20 weeks checks the baby's organs, for example the heart, spine, brain and kidneys, and its growth, and the position of the placenta.",
         "Later scans check growth and the baby's position before birth.",
-        "Finding a problem such as a heart defect before birth allows the birth to be planned in a hospital ready to treat the baby at once.",
+        "Finding a problem such as a heart defect before birth allows the birth to be planned in a hospital ready to treat the baby at once."
+      ],
+      "tip": "If asked to describe one antenatal test, ultrasound is a safe choice. Give what it is (sound waves), when it is done (dating scan about 11–14 weeks, anomaly scan about 20 weeks) and what it can detect."
+    },
+    {
+      "h": "Monitoring the baby during labour",
+      "b": "Labour is the time when a baby is most at risk of not getting enough oxygen, so its condition is watched closely.",
+      "points": [
         "During labour the baby's heart rate and the mother's contractions are monitored, for example by a cardiotocograph (CTG).",
-        "This means that signs that the baby is short of oxygen are noticed, and the birth can be speeded up, for example by Caesarean section (see “Pregnancy”)."
+        "This means that signs that the baby is short of oxygen are noticed, and the birth can be speeded up, for example by Caesarean section (delivery through a cut in the abdomen and uterus). There is more on this in Pregnancy."
       ]
     },
     {
-      "h": "Genetic screening and diagnosis before birth",
+      "h": "Genetic screening before birth",
+      "b": "Some conditions are inherited or caused by an extra chromosome. Genetic screening estimates the chance that a baby is affected, and carries no risk to the pregnancy.",
       "points": [
-        "Genetic screening tests for genetic conditions, or for carriers of them.",
-        "Before or during pregnancy, couples with a family history of an inherited condition, for example cystic fibrosis, can have carrier testing to find out their chance of having an affected child (Punnett squares in “Genetic Inheritance”; the cystic fibrosis mutation in “Mutations”).",
-        "Chromosome conditions such as Down syndrome (trisomy 21) are screened for (see “Mutations”).",
+        "Genetic screening tests for genetic conditions, or for carriers of them (people who carry a gene for a condition without having it). There is more on this in Genetic Inheritance.",
+        "Before or during pregnancy, couples with a family history of an inherited condition, for example cystic fibrosis, can have carrier testing to find out their chance of having an affected child.",
+        "Chromosome conditions such as Down syndrome (trisomy 21, where a person has an extra copy of chromosome 21) are screened for.",
         "The combined test uses an ultrasound measurement of the fluid at the back of the baby's neck (nuchal translucency) together with a blood test of the mother, at about 11–14 weeks.",
         "The combined test gives the chance, a probability, of Down syndrome, taking the mother's age into account.",
         "Non-invasive prenatal testing (NIPT), from about 10 weeks, tests a sample of the mother's blood for small fragments of DNA from the placenta that circulate in it.",
-        "NIPT is a much more accurate screening test for trisomy 21, 18 and 13, but a positive result still needs a diagnostic test.",
-        "Neither the combined test nor NIPT harms the pregnancy.",
-        "Diagnostic tests take cells from the baby's side of the pregnancy so its chromosomes or DNA can be examined, for example as a karyotype (methods in “Generating a DNA profile” and “DNA sequencing”).",
+        "NIPT is a much more accurate screening test for trisomy 21, 18 and 13, but a positive result still needs a diagnostic test, because it is still screening.",
+        "Neither the combined test nor NIPT harms the pregnancy, since each uses only an ultrasound scan and a blood sample from the mother."
+      ],
+      "tip": "The combined test and NIPT are screening tests, not diagnostic ones. For NIPT say the DNA comes from the placenta, not from the baby's blood, and that a positive result needs a diagnostic test."
+    },
+    {
+      "h": "Diagnostic tests before birth",
+      "b": "When screening shows a raised chance of a condition, a diagnostic test can confirm it. These tests take cells from the baby's side of the pregnancy, so the baby's own chromosomes or DNA can be examined.",
+      "points": [
+        "Diagnostic tests take cells from the baby's side of the pregnancy so its chromosomes or DNA can be examined, for example as a karyotype (a picture of all the chromosomes arranged in pairs). There is more on this in Generating a DNA profile.",
         "Chorionic villus sampling (CVS), at about 11–14 weeks, takes a sample of placental tissue with a fine needle through the abdomen or a thin tube through the cervix.",
         "Amniocentesis, from about 15 weeks, uses a fine needle guided by ultrasound to take a sample of amniotic fluid, which contains cells shed by the foetus.",
         "CVS and amniocentesis both give a definite result, but both carry a small risk of miscarriage, well under 1 in 100, so they are offered only when the chance of a condition is raised.",
-        "Preimplantation genetic testing: in IVF, one or a few cells are taken from each early embryo and tested for a known serious genetic condition, and only unaffected embryos are placed in the uterus.",
-        "IVF is in “Fertility control and infertility”, and the ethical questions in “Ethics of genetic technologies”."
-      ]
+        "Preimplantation genetic testing: in IVF (fertilisation outside the body), one or a few cells are taken from each early embryo and tested for a known serious genetic condition, and only unaffected embryos are placed in the uterus."
+      ],
+      "tip": "CVS and amniocentesis are diagnostic, so they give a definite result, but each carries a small risk of miscarriage. Learn what each samples (placental tissue and amniotic fluid) and when it is done (about 11–14 weeks and from about 15 weeks)."
     },
     {
-      "h": "Postnatal checks and screening",
+      "h": "Checks on the newborn baby",
+      "b": "Right after birth, and in the first days, the baby is checked quickly for problems that need action straight away or that can be treated if found early.",
       "points": [
         "Apgar score: at one minute and five minutes after birth, the baby is scored 0, 1 or 2 on each of five signs: heart rate, breathing, muscle tone, reflex response and skin colour, for a maximum of 10.",
         "A low Apgar score shows that the baby needs help, for example with breathing.",
-        "Vitamin K is offered to every newborn, usually by injection, to prevent a rare but serious bleeding disorder (why newborns need it is in “Vitamins”).",
-        "A full physical examination of the newborn checks, for example, the heart, the hips for hip dysplasia (a loose or dislocated hip joint, treatable if found early), the eyes and, in boys, whether the testes have descended (see “The male reproductive system”).",
-        "Newborn hearing screening is offered to all babies in Ireland, so deafness is found early and language development can be supported.",
-        "Later postnatal care records weight, length and head size on growth charts.",
+        "Vitamin K is offered to every newborn, usually by injection, to prevent a rare but serious bleeding disorder. There is more on this in Vitamins.",
+        "A full physical examination of the newborn checks, for example, the heart, the hips for hip dysplasia (a loose or dislocated hip joint, treatable if found early), the eyes and, in boys, whether the testes have descended.",
+        "Newborn hearing screening is offered to all babies in Ireland, so deafness is found early and language development can be supported."
+      ],
+      "tip": "For the Apgar score, remember the five signs (heart rate, breathing, muscle tone, reflex response, skin colour), each scored 0 to 2 at 1 and 5 minutes, for a maximum of 10."
+    },
+    {
+      "h": "Later postnatal care",
+      "b": "Care does not stop after the first examination. In the following weeks the baby's growth and the mother's recovery and wellbeing are both followed.",
+      "points": [
+        "Weight, length and head size are recorded on growth charts, so a baby who is growing poorly is noticed early.",
         "A public health nurse visits the family at home in the first weeks.",
         "The mother's recovery and her mental health are checked, because postnatal depression is common and treatable.",
-        "Breastfeeding is supported (benefits in “Hormones in reproduction” and “Acquired immunity, prevention and treatment”).",
+        "Breastfeeding is supported. There is more on this in Hormones in reproduction.",
         "The baby's routine vaccinations begin at 2 months of age."
       ]
     },
     {
       "h": "The heel-prick test: how and when it is done",
+      "b": "The heel-prick test is Ireland's main postnatal screening test. It looks for rare, serious conditions in a baby who looks completely healthy.",
       "points": [
         "Every baby born in Ireland is offered newborn bloodspot screening, the heel-prick test, with the parents' consent.",
         "When the baby is 3 to 5 days old (72–120 hours after birth), a midwife or public health nurse pricks the baby's heel and places drops of blood on a special card.",
         "The card is sent to the national screening laboratory at Children's Health Ireland at Temple Street, Dublin.",
         "The conditions screened for are rare and serious, and show no signs at birth, but early treatment prevents or greatly reduces lasting harm.",
-        "A positive screen leads to diagnostic tests.",
+        "A positive screen leads to diagnostic tests, because the heel-prick test is a screening test.",
         "The test is done at 3–5 days because by then the baby has been feeding on milk for a few days, so a substance that the baby cannot break down, such as phenylalanine in PKU, has had time to build up in the blood to a detectable level.",
-        "Testing too early can miss it."
-      ]
+        "Testing too early can miss the condition, because the substance has not yet built up."
+      ],
+      "tip": "The heel-prick test is postnatal, not antenatal, and it is a blood test on the baby, not a genetic test of the parents. Be ready to explain why 3–5 days: the baby has had milk, so the substance has built up."
     },
     {
-      "h": "Conditions found by the heel-prick test",
+      "h": "Phenylketonuria (PKU)",
+      "b": "PKU is the condition the heel-prick test was first developed for. It is a clear example of a serious inherited condition that is controlled by diet if it is found in the first days of life.",
       "points": [
-        "Phenylketonuria (PKU) has been screened for in Ireland since the 1960s. It is the condition for which the blood-spot test was first developed, by Robert Guthrie in the USA; the card is often called a Guthrie card.",
-        "The test measures phenylalanine in the blood spot; a high level shows the baby cannot convert phenylalanine (the cause is in “Enzymes as catalysts”).",
+        "PKU has been screened for in Ireland since the 1960s. It is the condition for which the blood-spot test was first developed, by Robert Guthrie in the USA; the card is often called a Guthrie card.",
+        "The test measures phenylalanine (an amino acid from protein in food) in the blood spot; a high level shows the baby cannot convert phenylalanine. There is more on this in Enzymes as catalysts.",
         "PKU is inherited as a recessive condition.",
-        "Treatment for PKU is a special diet low in phenylalanine, which means restricting high-protein foods and using special protein substitutes, from the first weeks of life and continued for life.",
+        "Treatment is a special diet low in phenylalanine, which means restricting high-protein foods and using special protein substitutes, from the first weeks of life and continued for life.",
         "The sweetener aspartame contains phenylalanine, which is why food labels warn people with PKU.",
         "Treated early, children with PKU develop normally; untreated, phenylalanine builds up and causes severe intellectual disability.",
-        "Women with PKU need very strict diet control before and during pregnancy, because high phenylalanine harms the developing foetus.",
-        "Cystic fibrosis is also screened for by the heel-prick test (cause and mutation in “Mutations”).",
+        "Women with PKU need very strict diet control before and during pregnancy, because high phenylalanine harms the developing foetus."
+      ],
+      "tip": "A common exam question asks for a newborn test, the condition it detects and the treatment. Answer: the heel-prick test, PKU, and a low-phenylalanine diet for life. Treatment is diet, not medicine or enzyme injections."
+    },
+    {
+      "h": "Other conditions found by the heel-prick test",
+      "b": "Three other serious conditions are on the Irish heel-prick screen. Each looks normal at birth, and each can be treated if found early.",
+      "points": [
+        "Cystic fibrosis is also screened for by the heel-prick test. There is more on this in Mutations.",
         "A raised level of a protein made by the pancreas in the blood spot is followed by DNA testing of the same spot for common CFTR mutations.",
-        "Early diagnosis allows early treatment: physiotherapy to clear mucus, antibiotics, pancreatic enzymes with food, and newer drugs, which improve growth and lung health.",
-        "Congenital hypothyroidism: the baby's thyroid gland makes too little thyroxine (see “Glands, locations and hormones”).",
-        "Untreated, congenital hypothyroidism causes poor growth and intellectual disability.",
+        "Early diagnosis of cystic fibrosis allows early treatment: physiotherapy to clear mucus, antibiotics, pancreatic enzymes with food, and newer drugs, which improve growth and lung health.",
+        "Congenital hypothyroidism: the baby's thyroid gland makes too little thyroxine, the hormone that controls growth and development. Untreated, it causes poor growth and intellectual disability.",
         "Treatment for congenital hypothyroidism is a daily dose of thyroxine by mouth, which allows normal development.",
-        "Classical galactosaemia: the baby cannot break down galactose, one of the two sugars in lactose (milk sugar; see “Structures of biomolecules”), because an enzyme in the pathway is missing.",
-        "Galactose builds up as soon as the baby drinks milk and can quickly cause serious illness.",
-        "Treatment is a diet free of lactose and galactose, for example a soya-based formula instead of breast or cow's milk.",
+        "Classical galactosaemia: the baby cannot break down galactose, one of the two sugars in lactose (milk sugar), because an enzyme in the pathway is missing.",
+        "Galactose builds up as soon as the baby drinks milk and can quickly cause serious illness. Treatment is a diet free of lactose and galactose, for example a soya-based formula instead of breast or cow's milk.",
         "The heel-prick programme also screens for a small number of other rare inherited conditions."
-      ]
+      ],
+      "tip": "Match each condition to its treatment: PKU to a low-phenylalanine diet, congenital hypothyroidism to thyroxine, and galactosaemia to a lactose- and galactose-free diet."
     },
     {
       "h": "Benefits of modern technology before birth and for newborns",
+      "b": "Scans, blood tests and screening mean that problems are found when they can still be managed. This is the main way technology has improved prenatal and postnatal care.",
       "points": [
         "Problems in the mother, such as anaemia, pre-eclampsia, gestational diabetes and infections, are found early and managed.",
         "Problems in the baby, such as growth problems, heart and other defects, and the baby's position, are also found early and managed.",
         "Pregnancy and birth are now far safer for mothers and babies than in the past.",
         "Newborn screening prevents intellectual disability and early death in PKU, galactosaemia and congenital hypothyroidism.",
         "Newborn screening gives children with cystic fibrosis early treatment.",
-        "Parents and doctors can plan the birth and treatment in advance."
-      ]
+        "Parents and doctors can plan the birth and treatment in advance, for example by choosing a hospital that is ready to treat the baby at once."
+      ],
+      "tip": "When asked to appreciate or evaluate the impact of technology, give benefits and limitations. For benefits, name a technology, say what it finds and say what that allows, such as early treatment or a planned birth."
     },
     {
       "h": "Technology after birth",
+      "b": "Technology also helps once the baby is born, especially for babies born too early. Premature babies are not ready to cope without support.",
       "points": [
-        "Neonatal intensive care allows many premature babies to survive.",
+        "Neonatal intensive care (specialist care for newborns) allows many premature babies to survive.",
         "Incubators keep the baby warm and protected from infection.",
         "Ventilators help the baby breathe.",
-        "Surfactant, a substance that stops the air sacs in the lungs collapsing, can be given into the lungs; premature lungs lack it.",
-        "Phototherapy, using blue light, breaks down bilirubin in babies with jaundice.",
-        "These treatments link to the late maturing of the lungs (see “Pregnancy”)."
+        "Surfactant, a substance that stops the air sacs in the lungs collapsing, can be given into the lungs, because premature lungs lack it.",
+        "Phototherapy, using blue light, breaks down bilirubin (a yellow substance that builds up in the blood) in babies with jaundice.",
+        "These treatments link to the late maturing of the lungs. There is more on this in Pregnancy."
       ]
     },
     {
-      "h": "Limits and costs",
+      "h": "Limits and costs of modern technology",
+      "b": "Technology brings problems as well as benefits. A full evaluation also covers the errors, risks, costs and difficult choices it creates.",
       "points": [
         "No screening test is perfect: a false positive causes anxiety and further tests, and a false negative gives false reassurance.",
         "Screening gives a chance, not a certainty, which can be hard to understand.",
@@ -148,14 +224,15 @@
         "Finding a condition that cannot be treated can leave parents with difficult decisions.",
         "Equipment, staff and intensive care are expensive, so access is unequal between and within countries.",
         "Some very premature babies who survive have long-term health problems."
-      ]
+      ],
+      "tip": "Pair each limitation with the technology it belongs to: false results with screening, miscarriage risk with CVS and amniocentesis, and cost and unequal access with intensive care."
     },
     {
       "h": "Ethical points",
       "b": "These are arguments to weigh; no side is taken.",
       "points": [
-        "Parents have the right to information about their pregnancy and to decide whether to have tests (informed consent; see the principles in “Science, scientists and society”).",
-        "Genetic tests raise questions about who can see the results and how they are stored (detail in “Ethics of genetic technologies”).",
+        "Parents have the right to information about their pregnancy and to decide whether to have tests (informed consent). There is more on this in Science, scientists and society.",
+        "Genetic tests raise questions about who can see the results and how they are stored.",
         "Some people with disabilities and their families argue that screening for conditions such as Down syndrome can send a negative message about people living with them.",
         "Others argue that information from screening lets families prepare.",
         "Newborn blood-spot cards contain the baby's DNA, which raises questions about how long they are stored and who may use them."

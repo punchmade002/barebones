@@ -6,117 +6,153 @@
   "notes": [
     {
       "h": "Overview of the big ideas",
+      "b": "Biology covers an enormous range of material, but a few big ideas keep turning up. Learning to use them as tools lets you explain almost any living thing or event, whichever chapter it comes from.",
       "points": [
-        "A biological phenomenon is any observable event or feature of living things, e.g. a person sweating on a hot day, bread going mouldy, or a population of rabbits crashing. Explaining it means giving its causes and mechanism, not just describing it.",
-        "Biologists explain phenomena using a small number of big ideas that apply across all of biology: systems; interdependence; the unity and diversity of life; form fits function; and the transfer of information, matter and energy. The most important further idea is evolution by natural selection, which explains both unity and diversity.",
-        "Evolution is the unifying explanation. All living things share common ancestors, so they share features (unity). Natural selection acting on variation in different environments has produced adaptations and many species (diversity). This is taught in “The theory of evolution by natural selection”."
-      ]
+        "A biological phenomenon is any observable event or feature of living things, e.g. a person sweating on a hot day, bread going mouldy, or a population of rabbits crashing.",
+        "Explaining a phenomenon means giving its causes and mechanism (how it happens, step by step), not just describing what you can see. A description says what happened; an explanation says why and how.",
+        "Biologists explain phenomena using a small number of big ideas that apply across all of biology: systems; interdependence; the unity and diversity of life; form fits function; and the transfer of information, matter and energy.",
+        "The most important further idea is evolution by natural selection, which explains both unity and diversity. The list of big ideas is open-ended, and evolution is the one that ties the others together.",
+        "Evolution is the unifying explanation. All living things share common ancestors, so they share features (unity). Natural selection acting on variation in different environments has produced adaptations and many species (diversity)."
+      ],
+      "tip": "Exams give you a described phenomenon, often with stimulus material, and ask you to explain it using one or more of these named ideas. Name the idea you are using and then give the cause, not just a description."
     },
     {
       "h": "Systems",
+      "b": "A living thing is not a pile of separate parts. It is a set of parts that work together, and thinking of it as a system explains why a problem in one part can show up somewhere else.",
       "points": [
         "A system is a set of interacting parts that work together as a whole. A system has inputs and outputs, and its behaviour depends on how the parts interact, not just on the parts themselves.",
-        "Properties that appear only from the interactions of parts are called emergent properties. For example, consciousness arises from interacting neurons, not from any single neuron.",
-        "Biological systems exist at every level of organisation: molecules, organelles, cells, tissues, organs, organ systems, organisms, populations, communities, ecosystems and the biosphere. The levels from cell to organism are taught in “Levels of organisation”.",
-        "Examples: the circulatory system, in which the heart, vessels and blood together transport materials (see “Circulation”); the digestive system; the nervous system; an ecosystem, in which living and non-living parts interact; and a cell, whose organelles work together.",
-        "Systems are regulated by feedback. Negative feedback reverses a change and keeps the system stable, e.g. the control of blood glucose and of thyroxine (see “Homeostasis as a stimulus-response model”).",
-        "Systems thinking means looking at how a change in one part affects others. For example, a fall in red blood cell count (anaemia) reduces oxygen delivery, so cells respire less aerobically, causing tiredness. Organ systems also depend on each other: breathing supplies oxygen, which the circulatory system transports to respiring cells."
-      ]
+        "Properties that appear only from the interactions of parts are called emergent properties. For example, consciousness arises from interacting neurons (nerve cells), not from any single neuron.",
+        "Biological systems exist at every level of organisation: molecules, organelles (the working parts inside a cell), cells, tissues, organs, organ systems, organisms, populations, communities, ecosystems and the biosphere (all life on Earth together).",
+        "Examples: the circulatory system, in which the heart, vessels and blood together transport materials; the digestive system; the nervous system; an ecosystem, in which living and non-living parts interact; and a cell, whose organelles work together.",
+        "Systems are regulated by feedback. Negative feedback reverses a change and keeps the system stable, e.g. the control of blood glucose and of thyroxine (a hormone). There is more on this in Homeostasis as a stimulus-response model.",
+        "Systems thinking means looking at how a change in one part affects others. For example, a fall in red blood cell count (anaemia) reduces oxygen delivery, so cells respire less aerobically (using oxygen), causing tiredness.",
+        "Organ systems also depend on each other. Breathing supplies oxygen, which the circulatory system transports to respiring cells, so a fault in either system affects the same cells."
+      ],
+      "tip": "When explaining a phenomenon, follow the change from one part to the next (cause to effect) instead of stopping at the first part affected."
     },
     {
       "h": "Interdependence",
+      "b": "No organism lives alone. Each depends on other organisms and on its non-living surroundings, so a change to one reaches others, sometimes in surprising ways.",
       "points": [
         "Interdependence means that organisms depend on each other and on their non-living environment, so a change to one affects others.",
-        "Between organisms: feeding relationships in food webs, where removing a predator can let its prey increase and overgraze (see “Energy and nutrient transfer”); pollination of flowers by insects, which get nectar (see “Flower structure and pollination”); seed dispersal by animals (see “Fruit and seed dispersal”); and decomposers recycling nutrients that plants need (see “The carbon cycle” and “The nitrogen cycle”).",
-        "Nitrogen-fixing bacteria live in the root nodules of legumes such as clover. The gut microbiome and its human host also depend on each other (see “The microbiome”).",
-        "Between organisms and the environment: plants depend on light, water, CO₂ and minerals. Photosynthesis and respiration link organisms through the carbon cycle: producers release the oxygen that consumers use, and consumers release the CO₂ that producers use.",
-        "Within an organism: organ systems depend on each other. Muscles need the nervous system to stimulate them, and the circulatory system to supply glucose and oxygen."
-      ]
+        "Feeding relationships in food webs are an example: removing a predator can let its prey increase and overgraze (eat too much of what they feed on).",
+        "Pollination of flowers by insects is an example: the insects get nectar, and the flowers get their pollen carried to other flowers. Seed dispersal by animals is another.",
+        "Decomposers recycle nutrients that plants need, so plants depend on them for the minerals they take up. This is part of the carbon and nitrogen cycles.",
+        "Nitrogen-fixing bacteria live in the root nodules (small swellings on the roots) of legumes such as clover. The gut microbiome (the community of microbes in the gut) and its human host also depend on each other.",
+        "Between organisms and the environment, plants depend on light, water, CO₂ and minerals.",
+        "Photosynthesis and respiration link organisms through the carbon cycle: producers release the oxygen that consumers use, and consumers release the CO₂ that producers use.",
+        "Within an organism, organ systems depend on each other. Muscles need the nervous system to stimulate them, and the circulatory system to supply glucose and oxygen."
+      ],
+      "tip": "Always say what depends on what and what changes when one side is removed. There is more on pollination in Flower structure and pollination."
     },
     {
       "h": "Unity of life",
+      "b": "Living things look wildly different, yet at the cellular and molecular level they share the same basic features. That sameness is evidence that they all descend from a common ancestor.",
       "points": [
         "Unity means that all living things share basic features, which is evidence that they share a common ancestor.",
-        "All living things are made of cells, with a phospholipid membrane, cytoplasm and ribosomes.",
-        "All use DNA as their genetic material. The genetic code is almost universal: the same codons code for the same amino acids in nearly all organisms. This is why a human gene can be expressed in bacteria in genetic engineering.",
-        "All use ATP to transfer energy, all build proteins from the same set of 20 amino acids, and all use enzymes.",
-        "All show the characteristics of life (see “Characteristics of living things”)."
-      ]
+        "All living things are made of cells, with a phospholipid membrane (the thin surface layer around the cell), cytoplasm (the jelly-like contents) and ribosomes (the structures that build proteins).",
+        "All use DNA as their genetic material. The genetic code is almost universal: the same codons (three-base units of the code) code for the same amino acids in nearly all organisms.",
+        "Because the code is shared, a human gene can be expressed (used to make its protein) in bacteria in genetic engineering. This is why the same code is read correctly in both.",
+        "All use ATP to transfer energy, all build proteins from the same set of 20 amino acids, and all use enzymes (biological catalysts).",
+        "All show the characteristics of life, the set of features that define a living thing."
+      ],
+      "tip": "If asked what is meant by the unity of life, give several shared features and say that sharing them points to a common ancestor."
     },
     {
       "h": "Diversity of life",
+      "b": "If life shares so much, why are there so many different kinds? Diversity is the other half of the picture, and it has identifiable causes.",
       "points": [
-        "Diversity means the great variety of living things, at the levels of genes (variation within a species), species, and ecosystems (biodiversity; see “Biosphere, ecosystems, habitats and biodiversity”).",
-        "Causes: mutation creates new alleles; sexual reproduction, through meiosis and random fertilisation, shuffles them into new combinations (see “Variation”); natural selection in different environments favours different adaptations; and populations that are separated can become new species.",
-        "Biologists organise diversity by classification into three domains (Bacteria, Archaea and Eukaryota) and six kingdoms, based increasingly on genetic evidence (see “Domains of life” and “Classification”).",
-        "Unity and diversity are explained together by evolution: shared ancestry gives unity, and adaptation and speciation give diversity. For example, the forelimbs of humans, bats and whales have the same set of bones, which shows unity from a common ancestor, but different shapes for grasping, flying and swimming, which shows diversity from adaptation (see “Evidence for evolution”)."
-      ]
+        "Diversity means the great variety of living things, at the levels of genes (variation within a species), species, and ecosystems (biodiversity).",
+        "Mutation (a change in DNA) creates new alleles (versions of a gene), which is where new variation first comes from.",
+        "Sexual reproduction, through meiosis (the cell division that makes gametes) and random fertilisation, shuffles alleles into new combinations. There is more on this in Variation.",
+        "Natural selection in different environments favours different adaptations, so populations in different places change in different directions. Populations that are separated can become new species.",
+        "Biologists organise diversity by classification into three domains (Bacteria, Archaea and Eukaryota) and six kingdoms, based increasingly on genetic evidence.",
+        "Unity and diversity are explained together by evolution: shared ancestry gives unity, and adaptation and speciation (the formation of new species) give diversity.",
+        "For example, the forelimbs of humans, bats and whales have the same set of bones, which shows unity from a common ancestor. They have different shapes for grasping, flying and swimming, which shows diversity from adaptation."
+      ],
+      "tip": "A question on unity and diversity wants both halves and the link: shared ancestry accounts for unity, and variation plus natural selection in different environments accounts for diversity."
     },
     {
       "h": "Form fits function",
+      "b": "In living things, the shape or structure of a part (its form) matches the job it does (its function). Spotting that match, and saying how it works, is one of the most reliable ways to explain a feature.",
       "points": [
-        "Form fits function means that the structure of a molecule, cell, organ or organism suits the job it does. Natural selection explains why: individuals whose structures did the job better survived and reproduced more. Adaptations do not arise because organisms need them; variation already exists, and natural selection favours the better-adapted individuals.",
-        "Molecules: an enzyme’s active site has a shape complementary to its substrate, so it catalyses one reaction (see “Enzymes as catalysts”). The DNA double helix, with complementary base pairs, allows accurate copying.",
-        "Cells: red blood cells are biconcave discs with no nucleus, giving a large surface area and more room for haemoglobin to carry oxygen (see “Blood”). Neurons have long axons and a myelin sheath that carry impulses quickly over long distances (see “Neurons”). Root hair cells have long extensions that increase the surface area for absorbing water and minerals. Sperm cells have a tail for swimming and many mitochondria to supply energy. Guard cells change shape to open and close stomata.",
-        "Tissues and organs: alveoli have walls one cell thick, a moist lining, a large total surface area and a rich blood supply, for fast gas exchange (see “Gas exchange and the breathing mechanism”). Villi in the small intestine increase the surface area for absorption (see “Absorption, transport and storage”).",
-        "Arteries have thick, muscular, elastic walls to withstand high pressure, while veins have thinner walls and valves to stop backflow (see “Blood vessels”). Xylem vessels are hollow, dead tubes strengthened with lignin to carry water (see “Plant structures for transport”).",
-        "The left ventricle has a thicker muscular wall than the right because it pumps blood all round the body.",
-        "Exam technique: always link a named feature to its function with “so” or “which allows”, e.g. “the alveolar wall is one cell thick, so oxygen diffuses only a short distance”."
-      ]
+        "Form fits function means that the structure of a molecule, cell, organ or organism suits the job it does. Natural selection explains why: individuals whose structures did the job better survived and reproduced more.",
+        "Adaptations do not arise because organisms need them. Variation already exists, and natural selection favours the better-adapted individuals.",
+        "Molecules: an enzyme’s active site (the part where the reaction happens) has a shape complementary to its substrate, so it catalyses one reaction. The DNA double helix, with complementary base pairs, allows accurate copying.",
+        "Red blood cells are biconcave discs with no nucleus, giving a large surface area and more room for haemoglobin to carry oxygen. Neurons have long axons and a myelin sheath that carry impulses quickly over long distances.",
+        "Root hair cells have long extensions that increase the surface area for absorbing water and minerals. Sperm cells have a tail for swimming and many mitochondria to supply energy. Guard cells change shape to open and close stomata (the pores in leaves).",
+        "Alveoli (the air sacs in the lungs) have walls one cell thick, a moist lining, a large total surface area and a rich blood supply, for fast gas exchange. Villi in the small intestine increase the surface area for absorption.",
+        "Arteries have thick, muscular, elastic walls to withstand high pressure, while veins have thinner walls and valves to stop backflow. Xylem vessels are hollow, dead tubes strengthened with lignin to carry water.",
+        "The left ventricle has a thicker muscular wall than the right because it pumps blood all round the body."
+      ],
+      "tip": "Always link a named feature to its function with “so” or “which allows”, e.g. “the alveolar wall is one cell thick, so oxygen diffuses only a short distance”. Never say organisms develop adaptations because they need them."
     },
     {
       "h": "Transfer of information",
+      "b": "Living things run on instructions and signals. Information is passed between generations, between cells and around the body.",
       "points": [
-        "Genetic information passes from DNA to RNA to protein, so genes control traits (see “Genes, proteins and traits”).",
-        "Information passes from parent to offspring through gametes (see “Key concepts of information transfer” in the Genetic Inheritance chapter), and from cell to daughter cells by DNA replication and mitosis.",
+        "Genetic information passes from DNA to RNA to protein, so genes control traits. There is more on this in Genes, proteins and traits.",
+        "Information passes from parent to offspring through gametes (sex cells), and from cell to daughter cells by DNA replication (copying the DNA) and mitosis (the division that makes identical cells).",
         "Information is also transferred within the body by nerve impulses, which are fast, and by hormones, which are slower.",
-        "Between cells, information is transferred by chemical signals, e.g. neurotransmitters."
-      ]
+        "Between cells, information is transferred by chemical signals, e.g. neurotransmitters (chemicals that cross the gap between neurons)."
+      ],
+      "tip": "Say what carries the information (DNA, gametes, impulses, hormones or a chemical signal) and compare speed where it matters, nerves fast and hormones slower."
     },
     {
       "h": "Transfer of matter",
+      "b": "Living things are built from atoms that are not made new. The same atoms are passed around again and again.",
       "points": [
-        "Matter is not created or destroyed but is recycled. Atoms of carbon, nitrogen and other elements cycle between organisms and the environment through feeding, excretion, death and decomposition (see “The carbon cycle” and “The nitrogen cycle”).",
-        "Within organisms, matter is taken in (digestion and absorption, gas exchange, and root uptake), transported (in blood, xylem and phloem), and built into new molecules (anabolism) or broken down (catabolism)."
-      ]
+        "Matter is not created or destroyed but is recycled. Atoms of carbon, nitrogen and other elements cycle between organisms and the environment through feeding, excretion, death and decomposition.",
+        "Within organisms, matter is taken in by digestion and absorption, gas exchange and root uptake.",
+        "Matter is then transported in blood, xylem and phloem, and built into new molecules (anabolism) or broken down (catabolism)."
+      ],
+      "tip": "Matter is recycled, so use the word cycle for it. There is more on the cycles in The carbon cycle and The nitrogen cycle."
     },
     {
       "h": "Transfer of energy",
+      "b": "Energy behaves differently from matter. It enters ecosystems from the Sun, moves through living things and leaves as heat, so it must be constantly resupplied.",
       "points": [
         "Energy flows through living systems in one direction and is not recycled. Light energy from the Sun is converted to chemical energy in glucose by photosynthesis.",
-        "Respiration releases that energy and stores it in ATP, which transfers it to cell activities (see “ATP”).",
-        "At each step some energy is lost as heat, so energy decreases at each feeding level of a food chain. This limits food chains to a few links (see “Energy and nutrient transfer”).",
+        "Respiration releases that energy and stores it in ATP, which transfers it to cell activities.",
+        "At each step some energy is lost as heat, so energy decreases at each feeding level of a food chain. This limits food chains to a few links.",
         "Contrast: matter cycles, whereas energy flows through the system and is lost as heat.",
-        "Diagram: a simple ecosystem diagram, with energy as a one-way arrow from the Sun through producers, consumers and decomposers, with heat-loss arrows at each level, and matter (carbon) as a loop returning from decomposers to the air and soil and back to producers."
-      ]
+        "Diagram: a simple ecosystem. Energy as a one-way arrow from the Sun through producers, consumers and decomposers, with heat-loss arrows at each level. Matter (carbon) as a loop from decomposers to air and soil and back to producers."
+      ],
+      "tip": "Exams ask you to distinguish the transfer of matter from the transfer of energy in an ecosystem. Say energy is transferred and eventually lost as heat, never that it is recycled or used up."
     },
     {
       "h": "Using the ideas together",
+      "b": "Most real questions need more than one idea. This five-step method gives a reliable way to build a full explanation.",
       "points": [
-        "1. Describe the phenomenon precisely.",
+        "1. Describe the phenomenon precisely, so you know exactly what you are explaining.",
         "2. Choose the ideas that apply. More than one usually does.",
         "3. Explain the mechanism step by step, naming the structures and processes involved.",
-        "4. Link structure to function, and cause to effect.",
+        "4. Link structure to function, and cause to effect, using words such as “so” and “which allows”.",
         "5. If asked, use evolution to explain why the feature exists."
-      ]
+      ],
+      "tip": "A strong answer names the ideas it uses and gives a cause for each step, instead of just describing the phenomenon."
     },
     {
       "h": "Worked example: breathing and heart rate during exercise",
+      "b": "Why do breathing and heart rate rise when you exercise? Four of the big ideas combine to explain it.",
       "points": [
         "Transfer of energy: muscles need more ATP, so they respire faster.",
         "Transfer of matter: more oxygen must be supplied and more CO₂ removed.",
-        "Systems and interdependence: the breathing, circulatory and muscular systems work together. The brain detects the rise in CO₂ in the blood and increases the breathing rate, a feedback response (the detail of CO₂ control is in “CO₂ as a controlling factor in breathing”).",
-        "Form fits function: alveoli and capillaries suit fast exchange."
-      ]
+        "Systems and interdependence: the breathing, circulatory and muscular systems work together. The brain detects the rise in CO₂ in the blood and increases the breathing rate, a feedback response.",
+        "Form fits function: alveoli and capillaries (the smallest blood vessels) suit fast exchange. There is more on CO₂ control in CO₂ as a controlling factor in breathing."
+      ],
+      "tip": "Name each idea, then give its link in the chain: muscles need ATP, so more oxygen is needed, so more CO₂ is made, so breathing and heart rate rise."
     },
     {
       "h": "Worked example: removing a top predator",
+      "b": "Why can removing a top predator (an animal at the top of a food chain) reduce plant diversity? Follow the change through the food web.",
       "points": [
-        "Interdependence: the predator’s prey, e.g. a herbivore, increases.",
-        "Transfer of matter and energy: more energy flows to the herbivores, which eat more of the producers.",
+        "Interdependence: the predator’s prey, e.g. a herbivore, increases because fewer are eaten.",
+        "Transfer of matter and energy: more energy flows to the herbivores, which eat more of the producers (the plants).",
         "Systems: one change spreads through the food web.",
         "Diversity: the plants that the herbivores prefer decline, so species diversity can fall."
-      ]
+      ],
+      "tip": "Explain it as a chain of cause and effect, with each step leading to the next, and finish by saying what happens to diversity."
     }
   ],
   "keyTerms": [

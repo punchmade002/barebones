@@ -6,111 +6,180 @@
   "notes": [
     {
       "h": "The immune system and its two parts",
-      "b": "Immunity is the body's ability to resist infection by pathogens. The immune system works by telling self from non-self.",
+      "b": "Immunity is the body's ability to resist infection by pathogens (disease-causing organisms such as bacteria and viruses). The immune system does this by telling self from non-self, and it has two parts that work at different speeds.",
       "points": [
         "The immune system consists of physical and chemical barriers, white blood cells (made from stem cells in the bone marrow), the lymphatic system (lymph nodes, spleen and thymus) and defence proteins in the blood, such as antibodies and complement.",
-        "The body's own cells carry their own marker molecules on their surface, which the immune system normally ignores; foreign cells and molecules are attacked.",
+        "The body's own cells carry their own marker molecules on their surface, which the immune system normally ignores, so foreign cells and molecules, which lack these markers, are attacked.",
         "Innate immunity, also called non-specific immunity, is present from birth, acts against any pathogen in the same way and acts within minutes to hours.",
         "Adaptive immunity, also called acquired or specific immunity, develops during life after exposure to a particular pathogen and acts against that pathogen only.",
-        "Adaptive immunity takes days to develop the first time, and it remembers the pathogen.",
-        "Innate defences are found in all animals and in plants; adaptive immunity, with antibodies and lymphocytes, is found only in vertebrates."
-      ]
+        "Adaptive immunity takes days to develop the first time, but it remembers the pathogen, which is why a later infection is dealt with much faster.",
+        "Innate defences are found in all animals and in plants; adaptive immunity, with antibodies and lymphocytes (the white blood cells that run it), is found only in vertebrates."
+      ],
+      "tip": "Exams ask you to distinguish specific from non-specific defence and to explain the term immunity. Say innate is the same response to every pathogen, adaptive is aimed at one pathogen and remembers it."
     },
     {
-      "h": "First line of defence: barriers",
+      "h": "First line of defence: physical barriers",
+      "b": "The best way to deal with a pathogen is to stop it getting in. Skin and the linings of the body's openings form physical barriers that block or trap microorganisms before they can cause infection.",
       "points": [
-        "Skin is a tough outer layer of dead, keratin-filled cells that pathogens can't easily cross.",
+        "Skin is a tough outer layer of dead, keratin-filled cells (keratin is a tough protein) that pathogens can't easily cross.",
         "Oil (sebum) from skin glands makes the surface slightly acidic, which slows bacterial growth.",
         "Breaks in the skin are sealed by blood clotting, which stops blood loss and blocks pathogen entry.",
-        "Mucous membranes line the breathing, digestive, urinary and reproductive tracts. Their sticky mucus traps microorganisms and dust.",
-        "In the trachea and bronchi, cilia beat the mucus up to the throat, where it is swallowed or coughed out.",
-        "Coughing and sneezing are reflexes that expel irritants.",
-        "Hydrochloric acid in the stomach, at about pH 2, kills most microorganisms swallowed with food.",
-        "Lysozyme, an enzyme in tears, saliva and mucus, breaks down bacterial cell walls.",
-        "The acidic conditions in the vagina inhibit many pathogens.",
-        "Harmless microorganisms living on the skin and in the gut and vagina, the normal microbiota, compete with pathogens for space and nutrients (see The microbiome)."
-      ]
+        "Mucous membranes line the breathing, digestive, urinary and reproductive tracts. Their sticky mucus traps microorganisms and dust, so these don't reach the cells beneath.",
+        "In the trachea and bronchi (the main airways to the lungs), cilia (tiny hair-like projections) beat the mucus up to the throat, where it is swallowed or coughed out.",
+        "Coughing and sneezing are reflexes (automatic responses) that expel irritants, so trapped microorganisms are blown out of the airways."
+      ],
+      "tip": "When asked to describe general defences, name the barrier and say how it works: skin is a keratin barrier, mucus traps microorganisms and cilia sweep them out."
     },
     {
-      "h": "Second line of defence: when pathogens get in",
+      "h": "First line of defence: chemical barriers and the normal microbiota",
+      "b": "Some barriers work by chemistry rather than by physically blocking entry. Acids and enzymes kill or inhibit microorganisms, and harmless resident microorganisms add a living defence of their own.",
       "points": [
-        "Phagocytosis: phagocytes are white blood cells that engulf and digest pathogens.",
-        "Neutrophils are the most numerous white blood cells and the first to arrive. Macrophages, formed from monocytes (see White blood cells), are larger and longer-lived.",
-        "Stage 1: the phagocyte is attracted by chemicals released by pathogens and damaged cells.",
-        "Stage 2: it binds the pathogen.",
-        "Stage 3: it surrounds the pathogen with extensions of its membrane and takes it into a vesicle.",
-        "Stage 4: digestive enzymes are released into the vesicle and break the pathogen down.",
-        "Stage 5: the harmless products are absorbed or released.",
-        "Diagram: the stages of phagocytosis in four sketches: a phagocyte approaching a bacterium; membrane extensions surrounding it; the bacterium enclosed in a vesicle; the bacterium being digested. Label phagocyte, nucleus, bacterium, vesicle and digestive enzymes.",
-        "Inflammation: damaged cells and mast cells release histamine and other chemicals, which widen local blood vessels and make capillaries leakier.",
-        "More blood flow brings phagocytes and defence proteins, and fluid leaks into the tissue, giving redness, heat, swelling and pain at the site.",
-        "Pus is a mixture of dead phagocytes, pathogens and tissue fluid.",
-        "Fever: chemicals released by white blood cells reset the temperature set point in the hypothalamus upwards (see Homeostasis as a stimulus-response model), raising body temperature.",
-        "A higher temperature slows the reproduction of many pathogens and speeds up the reactions of the immune system.",
-        "Complement, a group of blood proteins, coats pathogens so that phagocytes engulf them more easily, and it can punch holes in bacterial membranes, bursting them.",
-        "Interferons are proteins released by virus-infected cells that make neighbouring cells resist virus replication.",
-        "Natural killer cells also act in the innate response (see White blood cells).",
-        "Plants have innate defences only: physical barriers (cuticle, bark and cell walls), protective chemicals, and the death of infected cells to wall off a pathogen (see Structures and systems for response)."
-      ]
+        "Hydrochloric acid in the stomach, at about pH 2, kills most microorganisms swallowed with food.",
+        "Lysozyme, an enzyme in tears, saliva and mucus, breaks down bacterial cell walls, so the bacteria burst or die.",
+        "The acidic conditions in the vagina inhibit many pathogens.",
+        "Harmless microorganisms living on the skin and in the gut and vagina, the normal microbiota, compete with pathogens for space and nutrients, which leaves pathogens less room to establish an infection. There is more on this in The microbiome."
+      ],
+      "tip": "Lysozyme and acid are named in exam questions on general defences. Say lysozyme breaks down bacterial cell walls, and give the stomach acid as hydrochloric acid at about pH 2."
     },
     {
-      "h": "Antigens and antibodies",
+      "h": "Second line of defence: phagocytosis",
+      "b": "If a pathogen gets past the barriers, the innate response moves on to cells that destroy it. Phagocytes find the invader, swallow it and digest it in a process called phagocytosis.",
+      "points": [
+        "Phagocytes are white blood cells that engulf and digest pathogens, and the process is called phagocytosis.",
+        "Neutrophils are the most numerous white blood cells and the first to arrive at an infection. Macrophages, formed from monocytes (another type of white blood cell), are larger and longer-lived.",
+        "1. The phagocyte is attracted to the pathogen by chemicals released by pathogens and damaged cells.",
+        "2. It binds the pathogen.",
+        "3. It surrounds the pathogen with extensions of its membrane and takes it into a vesicle (a small membrane-bound sac inside the cell).",
+        "4. Digestive enzymes are released into the vesicle and break the pathogen down.",
+        "5. The harmless products are absorbed or released.",
+        "Diagram: the stages of phagocytosis in four sketches: a phagocyte approaching a bacterium; membrane extensions surrounding it; the bacterium enclosed in a vesicle; the bacterium being digested. Label phagocyte, nucleus, bacterium, vesicle and digestive enzymes."
+      ],
+      "tip": "Examiners ask how a phagocyte destroys bacteria. Give the stages in order: attracted, binds, engulfs into a vesicle, digestive enzymes break it down, products absorbed or released. Say digestive enzymes in vesicles, not lysosomes."
+    },
+    {
+      "h": "Second line of defence: inflammation and fever",
+      "b": "Inflammation and fever are whole-body or whole-area responses that bring more defences to an infection and make conditions harder for the pathogen. The signs you notice when you are ill are the immune system at work.",
+      "points": [
+        "Inflammation: damaged cells and mast cells (cells in tissues that release signals when damaged) release histamine and other chemicals, which widen local blood vessels and make capillaries leakier.",
+        "More blood flow brings phagocytes and defence proteins to the site, and fluid leaks into the tissue, giving redness, heat, swelling and pain at the site.",
+        "Pus is a mixture of dead phagocytes, pathogens and tissue fluid.",
+        "Fever: chemicals released by white blood cells reset the temperature set point in the hypothalamus (the brain region that controls body temperature) upwards, raising body temperature. There is more on this in Homeostasis as a stimulus-response model.",
+        "A higher temperature slows the reproduction of many pathogens and speeds up the reactions of the immune system, so fever helps the body fight infection."
+      ],
+      "tip": "For inflammation, link cause and effect: histamine widens vessels and makes capillaries leakier, which explains the redness, heat, swelling and pain."
+    },
+    {
+      "h": "Second line of defence: defence proteins, natural killer cells and plants",
+      "b": "Besides phagocytes, the innate response uses proteins in the blood and released by infected cells. Plants have no adaptive immunity, so their innate defences have to do all the work.",
+      "points": [
+        "Complement, a group of blood proteins, coats pathogens so that phagocytes engulf them more easily, and it can punch holes in bacterial membranes, bursting them.",
+        "Interferons are proteins released by virus-infected cells that make neighbouring cells resist virus replication, so the infection is slowed before it spreads.",
+        "Natural killer cells also act in the innate response, in addition to phagocytes and defence proteins.",
+        "Plants have innate defences only: physical barriers (cuticle, bark and cell walls), protective chemicals, and the death of infected cells to wall off a pathogen. There is more on this in Structures and systems for response."
+      ],
+      "tip": "Interferons belong to virus-infected cells and protect their neighbours. Complement coats pathogens for phagocytes and bursts bacterial membranes."
+    },
+    {
+      "h": "Antigens",
+      "b": "Adaptive immunity depends on recognising a particular pathogen. The molecules it recognises are called antigens, and the immune system's ability to tell them apart from the body's own molecules is what makes the response specific.",
       "points": [
         "An antigen is a molecule, usually a protein or polysaccharide on the surface of a pathogen or on a toxin it releases, that the immune system recognises as foreign.",
         "Antigens trigger a specific immune response, including antibody production.",
-        "Each pathogen carries several antigens. The body's own cell markers are self antigens, which are normally tolerated.",
+        "Each pathogen carries several antigens, so more than one kind of antibody can be made against it. The body's own cell markers are self antigens, which are normally tolerated, so the body doesn't attack itself."
+      ],
+      "tip": "Don't swap antigen and antibody: an antigen is the foreign molecule, an antibody is the body's protein. Exams ask you to explain the terms antigen, antibody, pathogen and immunity."
+    },
+    {
+      "h": "Antibody structure and specificity",
+      "b": "An antibody is the body's protein that matches one antigen. Its Y shape and the shape of its tips explain why each antibody works against only one antigen.",
+      "points": [
         "An antibody, also called an immunoglobulin, is a Y-shaped protein made by plasma cells, which are derived from B lymphocytes. It binds to one specific antigen.",
-        "An antibody has four polypeptide chains, two long heavy chains and two short light chains, held together by disulfide bonds.",
+        "An antibody has four polypeptide chains (chains of amino acids), two long heavy chains and two short light chains, held together by disulfide bonds.",
         "The tips of the two arms are the variable regions, which differ between antibodies and form two identical antigen-binding sites. The rest of the molecule is the constant region, which is the same in all antibodies of a class.",
-        "Specificity: the shape of the antigen-binding site is complementary to the shape of one antigen, so each antibody binds only that antigen, like a key in a lock (compare enzyme specificity in Enzyme structure and specificity).",
-        "Diagram: an antibody as a Y shape, labelled heavy chain, light chain, variable region, antigen-binding site (two), constant region and disulfide bonds, with an antigen fitting one binding site.",
+        "Specificity: the shape of the antigen-binding site is complementary to the shape of one antigen, so each antibody binds only that antigen, like a key in a lock. There is more on this in Enzyme structure and specificity.",
+        "Diagram: an antibody as a Y shape, labelled heavy chain, light chain, variable region, antigen-binding site (two), constant region and disulfide bonds, with an antigen fitting one binding site."
+      ],
+      "tip": "Drawing an antibody is a past exam question. Draw the Y with four chains and label the two identical binding sites at the tips of the variable regions. Antibiotics are drugs that kill bacteria, not antibodies. Antibodies come from plasma cells, not T cells or phagocytes."
+    },
+    {
+      "h": "How antibodies destroy or disable pathogens",
+      "b": "Once antibodies have bound to an antigen, they can stop the pathogen in four different ways. The Y shape matters again here, because the two arms bind the antigen while the stem is recognised by other defences.",
+      "points": [
         "Agglutination: because each antibody has two binding sites, antibodies link pathogens together into clumps that can't spread and are easily engulfed.",
         "Neutralisation: antibodies cover the parts of viruses that attach to cells, or bind to toxins (antitoxins), so that they can't act.",
         "Opsonisation: antibodies coat pathogens, marking them for phagocytes, which have receptors for the antibody's constant region.",
-        "Complement activation: antibodies activate complement, which bursts bacterial cells."
+        "Complement activation: antibodies activate complement (the blood proteins of the innate response), which bursts bacterial cells."
       ]
     },
     {
-      "h": "How B lymphocytes make and remember antibodies",
+      "h": "How B lymphocytes make antibodies: clonal selection",
+      "b": "The body can't know in advance which pathogen it will meet, so it keeps a huge variety of B cells ready. Only the ones that fit the invader are chosen to multiply, a process called clonal selection.",
       "points": [
         "Lymphocytes are the white blood cells of adaptive immunity, and there are two main kinds.",
-        "B lymphocytes (B cells) produce antibodies, the antibody-mediated or humoral response, acting on pathogens and toxins in blood and tissue fluid.",
-        "T lymphocytes (T cells) act directly on infected body cells in the cell-mediated response, described in the block on that response.",
+        "B lymphocytes (B cells) produce antibodies. This is the antibody-mediated or humoral response, acting on pathogens and toxins in blood and tissue fluid.",
+        "T lymphocytes (T cells) act directly on infected body cells in the cell-mediated response, a Higher Level topic dealt with in the blocks below.",
         "Clonal selection: the body has millions of different B cells, each with one type of antibody fixed in its membrane as a receptor, made before any infection.",
         "When a pathogen enters, only the B cells whose receptors fit its antigen bind to it. These are selected and, with chemical signals from helper T cells, divide rapidly by mitosis to form a clone of identical cells.",
-        "The clone differentiates into plasma cells and memory B cells.",
+        "The clone differentiates (becomes specialised) into plasma cells and memory B cells.",
         "Plasma cells secrete large amounts of the matching antibody into the blood, thousands of molecules per second, for a few days, and then die.",
-        "Memory cells stay in the body for years, ready to respond to the same antigen.",
-        "Primary response, on first exposure: there is a delay of several days, often about a week, while matching B cells are selected and cloned. Antibody levels rise slowly and stay fairly low.",
-        "During the primary response the person may become ill.",
-        "Secondary response, on later exposure to the same antigen: memory cells recognise it at once and quickly produce many plasma cells, so antibodies appear within a few days, reach a much higher level and last longer.",
-        "The pathogen is usually destroyed before symptoms appear, so the person is immune. This is the basis of vaccination (see Acquired immunity, prevention and treatment).",
-        "Diagram: a graph of antibody concentration (y-axis) against time in days (x-axis), with a first exposure giving a small, slow primary peak and a second exposure giving a faster, much taller, longer secondary peak. Label both exposures, the lag phase, and the primary and secondary responses."
-      ]
+        "Memory cells stay in the body for years, ready to respond to the same antigen."
+      ],
+      "tip": "Antibodies are made by plasma cells, which come from B cells. Describe selection, cloning by mitosis, then differentiation into plasma cells and memory cells."
     },
     {
-      "h": "The cell-mediated immune response (Higher Level only)",
+      "h": "Primary and secondary immune responses",
+      "b": "The first time you meet a pathogen, the response is slow. A second meeting is much faster, because memory cells are already there. This difference is the reason you rarely get the same infection twice.",
+      "points": [
+        "Primary response, on first exposure: there is a delay of several days, often about a week, while matching B cells are selected and cloned. Antibody levels rise slowly and stay fairly low.",
+        "During the primary response the person may become ill, because the pathogen multiplies before enough antibodies are made.",
+        "Secondary response, on later exposure to the same antigen: memory cells recognise it at once and quickly produce many plasma cells, so antibodies appear within a few days, reach a much higher level and last longer.",
+        "The pathogen is usually destroyed before symptoms appear, so the person is immune. This is the basis of vaccination. There is more on this in Acquired immunity, prevention and treatment.",
+        "Diagram: a graph of antibody concentration (y-axis) against time in days (x-axis), with a first exposure giving a small, slow primary peak and a second exposure giving a faster, much taller, longer secondary peak. Label both exposures, the lag phase, and the primary and secondary responses."
+      ],
+      "tip": "Exams ask you to explain the role of memory cells and why a second infection by the same pathogen causes no illness. Say memory cells respond at once, making many plasma cells and antibodies before symptoms appear."
+    },
+    {
+      "h": "The cell-mediated response: why it is needed and how infection is detected (Higher Level only)",
+      "b": "Antibodies work in blood and tissue fluid, but some pathogens hide inside body cells. The cell-mediated response uses T cells to find and deal with those infected cells, and it begins with the cell showing that it is infected.",
       "points": [
         "The cell-mediated response is the part of adaptive immunity carried out by T lymphocytes acting directly on cells, not by antibodies.",
         "It is needed because antibodies can't reach pathogens inside body cells, such as viruses and some bacteria, for example the TB bacterium, which lives inside macrophages.",
         "It also destroys cancer cells and cells of transplanted organs, which is why transplant patients take drugs that suppress the immune system.",
         "Antigen presentation: an infected body cell displays fragments of the pathogen's antigens on its surface, held in its self-marker proteins (MHC proteins).",
         "Macrophages and other antigen-presenting cells that have engulfed a pathogen display its antigens in the same way.",
-        "T cells can't recognise free antigens, so this presentation is how they detect infection.",
+        "T cells can't recognise free antigens, so this presentation is how they detect infection."
+      ],
+      "tip": "Say why the response is needed: antibodies can't reach pathogens inside cells."
+    },
+    {
+      "h": "Helper T cells coordinate the response (Higher Level only)",
+      "b": "Helper T cells act as the managers of adaptive immunity. Once one is activated, it signals to the other cells that need to act, so it links the cell-mediated and antibody responses.",
+      "points": [
         "Activation of helper T cells: a helper T cell whose receptor fits the displayed antigen binds to the antigen-presenting cell and is activated. It divides to form a clone of helper T cells, as B cells do.",
         "Helper T cells coordinate the response by releasing chemical signals called cytokines.",
-        "Cytokines stimulate the matching killer T cells to divide, stimulate the matching B cells to divide into plasma cells and memory cells (B cells need this help to respond fully), and attract and activate macrophages.",
-        "Helper T cells therefore link the cell-mediated and antibody responses.",
-        "Killer T cells (cytotoxic T cells) of the clone bind to body cells displaying the antigen and kill them, destroying the pathogens inside before they can multiply.",
+        "Cytokines stimulate the matching killer T cells to divide.",
+        "Cytokines also stimulate the matching B cells to divide into plasma cells and memory cells, because B cells need this help to respond fully.",
+        "Cytokines also attract and activate macrophages, which increases phagocytosis at the infection.",
+        "Helper T cells therefore link the cell-mediated and antibody responses."
+      ],
+      "tip": "Past questions ask for the roles of helper T cells. Give the cytokine signals to killer T cells, B cells and macrophages."
+    },
+    {
+      "h": "Killer T cells, suppressor T cells and B cells in the response (Higher Level only)",
+      "b": "After helper T cells give the signal, the killer T cells destroy infected cells, the B cells add antibodies, and suppressor T cells end the response. Memory cells are left behind for next time.",
+      "points": [
+        "Killer T cells (cytotoxic T cells) of the clone bind to body cells displaying the antigen and kill them, destroying the pathogens inside before they can multiply. There is more on this in White blood cells.",
         "When the infection is cleared, suppressor T cells switch off the response by stopping the activity of killer T cells and B cells, so that healthy tissue isn't damaged.",
         "Memory T cells remain, so a second infection triggers a faster, larger cell-mediated response.",
         "Role of B lymphocytes: B cells act as antigen-presenting cells, taking in the antigen they bind and displaying it to helper T cells.",
         "The antibodies released by the plasma cells of B cells mark infected cells and pathogens for destruction.",
-        "Diagram: draw a flow diagram in this order: pathogen; antigen presented by a macrophage or infected cell; helper T cell activated and cloned; cytokines; killer T cells cloned and infected cells killed; B cells cloned into plasma cells that secrete antibodies; memory T and B cells formed; suppressor T cells end the response."
-      ]
+        "Diagram: draw a flow diagram in this order: pathogen; antigen presented by macrophage or infected cell; helper T cell activated and cloned; cytokines; killer T cells cloned, infected cells killed; B cells cloned into plasma cells, antibodies; memory T and B cells formed; suppressor T cells end response."
+      ],
+      "tip": "Past questions ask for the roles of B cells and of helper and killer T cells. Give each role separately: helper T cells signal, killer T cells kill infected cells, B cells make antibodies via plasma cells."
     },
     {
       "h": "Comparing innate and adaptive immunity",
+      "b": "The two systems differ in speed, specificity and memory, but they are not separate. A comparison of the two is a standard exam question, so learn each as a pair.",
       "points": [
         "Presence: innate immunity is present from birth, while adaptive immunity develops after exposure to a pathogen.",
         "Specificity: innate immunity is non-specific, giving the same response to every pathogen, while adaptive immunity is specific, with each response against one antigen.",
@@ -119,7 +188,8 @@
         "Mechanisms: innate immunity uses barriers, phagocytes (neutrophils and macrophages), inflammation, fever, complement, interferons and natural killer cells; adaptive immunity uses B and T lymphocytes and antibodies.",
         "Distribution: innate defences are found in all animals and in plants, while adaptive immunity is found only in vertebrates.",
         "The two systems work together: macrophages of the innate system present antigens to start the adaptive response, and antibodies of the adaptive system make phagocytosis and complement more effective."
-      ]
+      ],
+      "tip": "Exams ask you to distinguish specific from non-specific defence. Write paired points, innate against adaptive, on presence, specificity, memory and speed."
     }
   ],
   "keyTerms": [

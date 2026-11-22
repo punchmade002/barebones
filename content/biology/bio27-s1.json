@@ -6,75 +6,93 @@
   "notes": [
     {
       "h": "Human nutrition and the four stages",
+      "b": "Humans can't make their own food, so every meal has to be taken in, broken down and moved into the body before cells can use it. This happens in four stages: ingestion, digestion, absorption and egestion.",
       "points": [
-        "Humans are heterotrophs, obtaining food from other organisms, and omnivores: they eat both plant and animal material.",
-        "Ingestion is taking food into the body through the mouth.",
-        "Digestion is the breakdown of large, insoluble food molecules into small, soluble molecules that can be absorbed. It is both mechanical (physical breakdown into smaller pieces) and chemical (hydrolysis of large molecules by enzymes).",
-        "Digestion is necessary because large molecules such as starch, proteins and fats cannot pass through the wall of the gut or through cell membranes. Digestion converts them to small soluble molecules (glucose, amino acids, fatty acids and glycerol) that can be absorbed into the blood.",
-        "Cells use the absorbed molecules to build the body's own molecules or for respiration; this use is assimilation, detailed in Absorption, transport and storage.",
-        "Absorption is the passage of the small soluble products of digestion, with water, vitamins and minerals, through the wall of the gut into the blood or lymph, mainly in the small intestine.",
-        "Egestion is the removal of undigested and unabsorbed material, mainly dietary fibre, as faeces through the anus. Egestion is not excretion: faeces were never part of the body's metabolism (except bile pigments, see Chemical breakdown), whereas excretion removes metabolic waste (see Characteristics of living things)."
-      ]
+        "Humans are heterotrophs, meaning they obtain food from other organisms rather than making it. They are also omnivores: they eat both plant and animal material.",
+        "Ingestion is taking food into the body through the mouth, which is where every meal enters the gut.",
+        "Digestion is the breakdown of large, insoluble food molecules into small, soluble molecules that can be absorbed. It is both mechanical (physical breakdown into smaller pieces) and chemical (hydrolysis, the splitting of large molecules by enzymes).",
+        "Digestion is necessary because large molecules such as starch, proteins and fats cannot pass through the wall of the gut or through cell membranes. It converts them to small soluble molecules (glucose, amino acids, fatty acids and glycerol) that can be absorbed into the blood.",
+        "Cells then use the absorbed molecules to build the body's own molecules or for respiration. This use of absorbed molecules is called assimilation: for example, amino acids are built into proteins and glucose is respired to release energy.",
+        "Absorption is the passage of the small soluble products of digestion, together with water, vitamins and minerals, through the wall of the gut into the blood or lymph. It happens mainly in the small intestine.",
+        "Egestion is the removal of undigested and unabsorbed material, mainly dietary fibre, as faeces through the anus. This material is left over because the body cannot digest or absorb it.",
+        "Egestion is not excretion. Faeces were never part of the body's metabolism (the chemical reactions inside cells), except for bile pigments, whereas excretion removes metabolic waste made by cells."
+      ],
+      "tip": "Define ingestion, absorption and egestion separately, and if asked to distinguish egestion from excretion, say faeces were never part of metabolism. For why digestion is necessary, say the molecules are too large to pass through the gut wall or cell membranes."
     },
     {
       "h": "The alimentary canal",
+      "b": "The alimentary canal, or gut, is the pathway food follows through the body. Its muscular wall and lining are built to move food along and to protect the gut itself.",
       "points": [
         "The alimentary canal, or gut, is a continuous muscular tube from the mouth to the anus. Food passes in order through the mouth, pharynx (throat), oesophagus, stomach, small intestine, large intestine, rectum and anus.",
-        "The gut wall contains two layers of smooth muscle, circular and longitudinal, which move food along by peristalsis (detail in Mechanical breakdown). Its inner lining makes mucus, which lubricates food and protects the lining from digestive enzymes and acid.",
-        "Sphincters are rings of muscle that control movement between parts, for example at the entrance and exit of the stomach (the exit one is the pyloric sphincter) and at the anus."
-      ]
+        "The gut wall contains two layers of smooth muscle, circular and longitudinal, which move food along by peristalsis (waves of muscle contraction that push food onwards).",
+        "The inner lining of the gut makes mucus. Mucus lubricates the food so it slides along, and protects the lining from digestive enzymes and acid, which would otherwise damage the gut's own cells.",
+        "Sphincters are rings of muscle that control movement between parts of the gut, for example at the entrance and exit of the stomach (the exit one is the pyloric sphincter) and at the anus."
+      ],
+      "tip": "Learn the organs in order, mouth to anus, since questions ask you to name parts of the gut and their sequence."
     },
     {
       "h": "Mouth, oesophagus and stomach",
+      "b": "The first three organs prepare food and carry it onwards. The mouth breaks it up and starts starch digestion, the oesophagus transports it, and the stomach stores and churns it while starting protein digestion.",
       "points": [
-        "The mouth is where food is ingested and chewed by the teeth and mixed with saliva from three pairs of salivary glands; the tongue shapes it into a ball, the bolus, and pushes it back for swallowing. Starch digestion begins here.",
-        "The oesophagus, or gullet, is a muscular tube that carries food by peristalsis from the pharynx, down through the chest behind the trachea and through the diaphragm, to the stomach. No digestion or absorption happens in it.",
-        "During swallowing the epiglottis covers the entrance to the trachea so that food goes down the oesophagus (breathing detail in Gas exchange and the breathing mechanism).",
-        "The stomach is a J-shaped muscular bag in the upper left of the abdomen, just below the diaphragm. It stores food for a few hours, churns it with gastric juice (acid and a protease) into a thick liquid called chyme, kills most bacteria in food, and begins protein digestion.",
-        "The pyloric sphincter releases chyme a little at a time into the small intestine."
-      ]
+        "The mouth is where food is ingested and chewed by the teeth, then mixed with saliva from three pairs of salivary glands. The tongue shapes it into a ball, the bolus, and pushes it back for swallowing. Starch digestion begins here.",
+        "The oesophagus, or gullet, is a muscular tube that carries food by peristalsis from the pharynx, down through the chest behind the trachea (windpipe) and through the diaphragm (the sheet of muscle below the lungs), to the stomach. No digestion or absorption happens in it.",
+        "During swallowing the epiglottis (a flap) covers the entrance to the trachea, so food goes down the oesophagus and not into the lungs.",
+        "The stomach is a J-shaped muscular bag in the upper left of the abdomen, just below the diaphragm. It stores food for a few hours, which means a meal can be eaten quickly and released to the intestine gradually.",
+        "The stomach churns food with gastric juice (acid and a protease, an enzyme that digests protein) into a thick liquid called chyme. The acid kills most bacteria in food, and protein digestion begins here.",
+        "The pyloric sphincter at the stomach's exit releases chyme a little at a time into the small intestine."
+      ],
+      "tip": "When asked for the role of the stomach, give storage, churning into chyme, killing bacteria and beginning protein digestion. Remember the oesophagus does no digestion or absorption."
     },
     {
       "h": "Small intestine, large intestine, rectum and anus",
+      "b": "After the stomach, chyme enters the small intestine, where digestion is finished and most absorption happens. What is left passes to the large intestine, which recovers water and stores the waste until it leaves the body.",
       "points": [
         "The small intestine is the longest part of the gut, coiled in the abdomen. Its first part, the duodenum, receives bile from the liver and pancreatic juice from the pancreas, and most chemical digestion happens there.",
-        "The later parts, the jejunum and the ileum, complete digestion and absorb most digested food and water through millions of villi.",
-        "The large intestine is wider but shorter than the small intestine. Its parts are the caecum, with the appendix attached, the colon and the rectum.",
-        "The appendix is a small dead-end tube with no digestive role in humans.",
-        "The colon absorbs water and some minerals from the remaining material, and is home to many bacteria (detail in Absorption, transport and storage and The microbiome).",
-        "The rectum is the last part of the large intestine, which stores faeces until egestion.",
-        "The anus is the opening at the end of the gut, closed by sphincter muscles; the outer sphincter is under voluntary control, so egestion can be delayed."
-      ]
+        "The later parts, the jejunum and the ileum, complete digestion and absorb most digested food and water through millions of villi (tiny finger-like projections of the lining that give a large surface for absorption).",
+        "The large intestine is wider but shorter than the small intestine; \"large\" refers to its width, not its length. Its parts are the caecum, with the appendix attached, the colon and the rectum.",
+        "The appendix is a small dead-end tube with no digestive role in humans, so food is not digested in it.",
+        "The colon absorbs water and some minerals from the remaining material, and is home to many bacteria. It is not an excretory organ, because what leaves is egested, not excreted.",
+        "The rectum is the last part of the large intestine, which stores faeces until egestion, so waste does not have to leave the body continuously.",
+        "The anus is the opening at the end of the gut, closed by sphincter muscles. The outer sphincter is under voluntary control, so egestion can be delayed until it is convenient."
+      ],
+      "tip": "Exams ask you to name two parts of the small intestine and two parts of the large intestine. Don't give the appendix a digestive role, and don't call the large intestine excretory."
     },
     {
       "h": "Associated glands and organs",
+      "b": "Some organs help digestion without food ever entering them. They make secretions that reach the gut through ducts (narrow tubes), so they are called associated organs.",
       "points": [
         "The salivary glands are three pairs, around the mouth and below the jaw, releasing saliva into the mouth through ducts. Saliva contains water, mucus and the enzyme salivary amylase.",
-        "The liver is the largest internal organ, in the upper right of the abdomen just below the diaphragm. Its digestive role is to make bile. It also receives the absorbed products of digestion through the hepatic portal vein, stores glycogen and deaminates amino acids (detail in Absorption, transport and storage).",
-        "The gallbladder is a small sac under the liver that stores and concentrates bile, and squeezes it through the bile duct into the duodenum when fatty food arrives there. It makes no bile itself.",
+        "The liver is the largest internal organ, in the upper right of the abdomen just below the diaphragm. Its digestive role is to make bile.",
+        "The liver also receives the absorbed products of digestion through the hepatic portal vein (the vein carrying blood from the gut to the liver), stores glycogen and deaminates amino acids (removes their nitrogen-containing part).",
+        "The gallbladder is a small sac under the liver that stores and concentrates bile. It squeezes bile through the bile duct into the duodenum when fatty food arrives there. It makes no bile itself.",
         "The pancreas is a soft, pinkish gland behind the stomach, lying in the curve of the duodenum. It makes pancreatic juice, which contains enzymes for starch, protein and fat and sodium hydrogencarbonate, and this flows through the pancreatic duct into the duodenum.",
-        "The pancreas is also an endocrine gland making insulin (see Glands, locations and hormones), so it has both ducted (exocrine) and ductless (endocrine) roles.",
+        "The pancreas is also an endocrine gland (a ductless gland that releases hormones into the blood) making insulin, so it has both ducted (exocrine) and ductless (endocrine) roles.",
         "The liver, gallbladder and pancreas are associated organs: food never passes through them, and their secretions reach the gut through ducts. Food does pass through the mouth, stomach and intestines."
-      ]
+      ],
+      "tip": "The liver makes bile and the gallbladder only stores it; mixing these up loses marks. Never draw food passing through the liver, gallbladder or pancreas."
     },
     {
       "h": "Diagram of the alimentary canal",
+      "b": "A labelled diagram shows how the gut and its associated organs sit in relation to each other. Getting the positions right matters as much as the labels.",
       "points": [
-        "Diagram: the human alimentary canal and its associated glands, front view, labelled mouth, salivary glands, tongue, oesophagus, diaphragm, liver, gallbladder, bile duct, stomach, pyloric sphincter, pancreas, pancreatic duct, duodenum, ileum, caecum, appendix, colon, rectum and anus. Draw the gut as one continuous tube, with the liver above the stomach on the body's right, the gallbladder under the liver, and the pancreas in the loop of the duodenum."
-      ]
+        "Diagram: alimentary canal and associated glands, front view, as one continuous tube. Labels: mouth, salivary glands, tongue, oesophagus, diaphragm, liver (above stomach, body's right), gallbladder (under liver), bile duct, stomach, pyloric sphincter, pancreas (in duodenum's loop), pancreatic duct, duodenum, ileum, caecum, appendix, colon, rectum, anus."
+      ],
+      "tip": "Questions ask you to draw and label the gut with its associated glands, so practise naming two glands, two parts of the small intestine and two parts of the large intestine on it."
     },
     {
       "h": "Summary of the journey through the gut",
+      "b": "Following one mouthful from start to finish pulls the stages of nutrition together. Each part of the gut has its own main job.",
       "points": [
         "Mouth: ingestion; mechanical and chemical digestion begin.",
-        "Oesophagus: transport of food to the stomach.",
+        "Oesophagus: transport of food to the stomach, because the mouth and stomach are too far apart for food to move unaided.",
         "Stomach: storage and churning; protein digestion begins.",
         "Duodenum: most chemical digestion, with bile and pancreatic juice.",
         "Ileum: digestion is completed and absorption takes place.",
-        "Colon: absorption of water.",
+        "Colon: absorption of water, so the remaining waste becomes more solid.",
         "Rectum: storage of faeces.",
-        "Anus: egestion."
-      ]
+        "Anus: egestion, the removal of faeces from the body."
+      ],
+      "tip": "If asked for the role of a named organ, give its stage of nutrition: the stomach stores and begins protein digestion, the colon absorbs water, and the anus egests faeces."
     }
   ],
   "keyTerms": [

@@ -6,76 +6,96 @@
   "notes": [
     {
       "h": "Giving information: recall and description",
+      "b": "Every outcome in the Biology specification begins with an action verb, and the verb tells you how much to say and in what way. These eight verbs ask you to pick out, summarise or picture something, without yet having to argue a case. The meanings below are quoted from the specification's glossary.",
       "points": [
         "Identify: “recognise patterns, facts, or details; provide an answer from a number of possibilities; recognize and state briefly a distinguishing fact or feature”. Example: identify the location of the major glands in the endocrine system. Taught in “Glands, locations and hormones”.",
-        "Outline: “give the main points; restrict to essentials”. Example: outline the concept of a microbiome. Taught in “The microbiome”.",
+        "Outline: “give the main points; restrict to essentials”. This means a short answer with the key points only, and no extra detail. Example: outline the concept of a microbiome. Taught in “The microbiome”.",
         "Describe: “develop a detailed picture or image of, for example a structure or a process, using words or diagrams where appropriate; produce a plan, simulation or model”. Example: describe the basic structure and function of a DNA and RNA nucleotide. Taught in “Nucleotides, DNA and RNA”.",
-        "Illustrate: “use examples to describe something”. Example: illustrate and state Mendel's Laws. Taught in “Mendel's Laws”.",
-        "Classify: “group things based on common characteristics”. Example: identify and classify living things using classification principles, e.g. with a key. Taught in “Classification”.",
-        "Organise: “arrange; to systematise or methodise”. Example: organise and communicate research and investigative findings. Taught in “Communicating results”.",
-        "Recognise: “identify facts, characteristics or concepts that are critical (relevant/appropriate) to the understanding of a situation, event, process or phenomenon”. Example: recognise questions appropriate for scientific investigation. Taught in “Questioning and predicting”.",
-        "Appreciate: “recognise the meaning of, have a practical understanding of”. Example: appreciate the impact of modern technology on monitoring mother and foetus. Taught in “Prenatal and postnatal care”."
-      ]
+        "Illustrate: “use examples to describe something”. So the examples carry the description, and a bare statement is not enough. Example: illustrate and state Mendel's Laws. Taught in “Mendel's Laws”.",
+        "Classify: “group things based on common characteristics”. You sort items into groups according to what they share. Example: identify and classify living things using classification principles, e.g. with a key. Taught in “Classification”.",
+        "Organise: “arrange; to systematise or methodise”. This means putting information into an orderly system so that it can be communicated clearly. Example: organise and communicate research and investigative findings. Taught in “Communicating results”.",
+        "Recognise: “identify facts, characteristics or concepts that are critical (relevant/appropriate) to the understanding of a situation, event, process or phenomenon”. You pick out what matters, not everything. Example: recognise questions appropriate for scientific investigation. Taught in “Questioning and predicting”.",
+        "Appreciate: “recognise the meaning of, have a practical understanding of”. So you should understand why something matters in practice. Example: appreciate the impact of modern technology on monitoring mother and foetus. Taught in “Prenatal and postnatal care”."
+      ],
+      "tip": "A question beginning with one of these verbs asks for facts or a picture of something, so give them directly. Don't pad an outline with detail, and don't stop at one line when asked to describe."
     },
     {
       "h": "Giving reasons: explanation and application",
+      "b": "These seven verbs go beyond saying what something is. Each one asks you to link facts to causes, evidence, rules or models, so the reason has to appear in your answer.",
       "points": [
-        "Explain: “give a detailed account including reasons or causes”. Example: explain how reliability, accuracy, precision, error, fairness and safety have been considered in an investigation. Taught in “Designing and conducting investigations”.",
-        "Relate: “associate, giving reasons”. Example: relate the structures of the male and female reproductive systems to their functions. Taught in “The male reproductive system”.",
-        "Justify: “give valid reasons or evidence to support an answer or conclusion”. Example: draw and justify conclusions. Taught in “Producing and analysing data”.",
-        "Apply: “select and use information and/or knowledge and understanding to explain a given situation or real circumstances”. Example: apply learning and skills to solving problems in unfamiliar contexts. Taught in “Reflecting on investigations”.",
-        "Use: “apply knowledge or rules to put theory into practice”. Example: use a genome database to search for alleles that cause genetic diseases. Taught in “Bioinformatics: genome databases”.",
-        "Predict: “give an expected result of an event; explain a new event based on observations or information using logical connections between pieces of information”. Example: use models to predict the behaviour of a system. Taught in “Models”.",
+        "Explain: “give a detailed account including reasons or causes”. So an explanation always contains a because. Example: explain how reliability, accuracy, precision, error, fairness and safety have been considered in an investigation. Taught in “Designing and conducting investigations”.",
+        "Relate: “associate, giving reasons”. You connect two things and say why they are connected. Example: relate the structures of the male and female reproductive systems to their functions. Taught in “The male reproductive system”.",
+        "Justify: “give valid reasons or evidence to support an answer or conclusion”. So you defend your answer with reasons or evidence. Example: draw and justify conclusions. Taught in “Producing and analysing data”.",
+        "Apply: “select and use information and/or knowledge and understanding to explain a given situation or real circumstances”. You choose the relevant knowledge and use it on the case in front of you. Example: apply learning and skills to solving problems in unfamiliar contexts. Taught in “Reflecting on investigations”.",
+        "Use: “apply knowledge or rules to put theory into practice”. So you carry out a task with what you know. Example: use a genome database to search for alleles that cause genetic diseases. Taught in “Bioinformatics: genome databases”.",
+        "Predict: “give an expected result of an event; explain a new event based on observations or information using logical connections between pieces of information”. Your forecast must follow logically from the information given. Example: use models to predict the behaviour of a system. Taught in “Models”.",
         "Model: “represent an idea, structure, process or system through a variety of means such as words, diagrams, equations, physical models or simulations; use models to describe, explain, make predictions and solve problems, recognising that all models have limitations”. Example: model the carbon cycle. Taught in “The carbon cycle”."
-      ]
+      ],
+      "tip": "Explain, relate and justify all need reasons, so use words like because and so. When a question asks you to apply knowledge, use the information given in the question rather than writing a general answer."
     },
     {
       "h": "Breaking down: analysis and comparison",
+      "b": "These six verbs ask you to take information apart, look for patterns and relationships, or set items side by side. Questions with these verbs often give you data, graphs or two items to work with.",
       "points": [
         "Analyse: “study or examine something in detail, break down in order to bring out the essential elements or structure; identify parts and relationships, and to interpret information to reach conclusions”. Example: critically analyse data to identify patterns and relationships. Taught in “Producing and analysing data”.",
         "Interpret: “use knowledge and understanding to recognise trends and draw conclusions from given information”. It is used in questions that give graphs or tables of data and ask for the trends or conclusions they show.",
-        "Consider: “describe patterns in data; use knowledge and understanding to interpret patterns; make predictions and check reliability”. Example: consider the evidence for evolution. Taught in “Evidence for evolution”.",
+        "Consider: “describe patterns in data; use knowledge and understanding to interpret patterns; make predictions and check reliability”. So you describe the pattern, say what it means, and judge how far it can be trusted. Example: consider the evidence for evolution. Taught in “Evidence for evolution”.",
         "Compare: “give an account of the similarities and (or) differences between two (or more) items or situations, referring to both (all) of them throughout”. Example: compare the use of pyramids of numbers and pyramids of biomass (Higher Level outcome). Taught in “Pyramids of biomass”.",
-        "Distinguish: “make the differences between two or more concepts or items clear”. Example: distinguish between bacteria and fungi in terms of structure, nutrition and cellular nature. Taught in “Bacteria and fungi”.",
+        "Distinguish: “make the differences between two or more concepts or items clear”. So the answer is about differences only. Example: distinguish between bacteria and fungi in terms of structure, nutrition and cellular nature. Taught in “Bacteria and fungi”.",
         "Examine: “consider an argument or concept in a way that uncovers the assumptions and relationships of the issue”. Example: examine the role of infectious agents, environmental factors and genetic susceptibility in cancers. Taught in “Causes, prevention and treatment of cancer”."
-      ]
+      ],
+      "tip": "For compare, refer to both items throughout, for example by giving the point for each in the same sentence, rather than describing one and then the other. For interpret, use the trend in the data given."
     },
     {
       "h": "Making judgements",
+      "b": "These five verbs ask for an opinion or a verdict, but never an unsupported one. Each wants evidence behind the judgement, and most want you to say where the evidence falls short.",
       "points": [
-        "Discuss: “offer a considered, balanced review that includes a range of arguments, factors or hypotheses; opinions or conclusions should be presented clearly and supported by appropriate evidence”. Example: discuss the importance of microorganisms in industries. Taught in “Microorganisms in industry”.",
-        "Evaluate (data): “collect and examine data to make judgments and appraisals; describe how evidence supports or does not support a conclusion in an inquiry or investigation; identify the limitations of data in conclusions; make judgments about the ideas, solutions or methods”. Example: evaluate primary or secondary data on the effects of human activity on species diversity. Taught in “Investigation: human activity and species diversity”.",
-        "Evaluate (ethical judgement): “collect and examine evidence to make judgments and appraisals; describe how evidence supports or does not support a judgement; identify the limitations of evidence in conclusions; make judgments about the ideas, solutions or methods”. Example: evaluate ethical and sustainability issues associated with the cycling of nutrients. Taught in “Ethics and sustainability of nutrient cycling”.",
-        "Review: “re-examine deliberately or critically, usually with a view to approval or dissent; to analyse results for the purpose of giving an opinion”. Example: review the skills and thinking used in an investigation. Taught in “Reflecting on investigations”.",
-        "Reflect: “consider in order to correct or improve”. Example: reflect on the skills and thinking used in an investigation. Taught in “Reflecting on investigations”."
-      ]
+        "Discuss: “offer a considered, balanced review that includes a range of arguments, factors or hypotheses; opinions or conclusions should be presented clearly and supported by appropriate evidence”. So give more than one side. Example: discuss the importance of microorganisms in industries. Taught in “Microorganisms in industry”.",
+        "Evaluate (data): “collect and examine data to make judgments and appraisals; describe how evidence supports or does not support a conclusion in an inquiry or investigation; identify the limitations of data in conclusions; make judgments about the ideas, solutions or methods”. Example: evaluate primary or secondary data on the effects of human activity on species diversity.",
+        "That data example is taught in “Investigation: human activity and species diversity”.",
+        "Evaluate (ethical judgement): “collect and examine evidence to make judgments and appraisals; describe how evidence supports or does not support a judgement; identify the limitations of evidence in conclusions; make judgments about the ideas, solutions or methods”. Example: evaluate ethical and sustainability issues associated with the cycling of nutrients.",
+        "That ethical example is taught in “Ethics and sustainability of nutrient cycling”.",
+        "Review: “re-examine deliberately or critically, usually with a view to approval or dissent; to analyse results for the purpose of giving an opinion”. So you look again, then give an opinion. Example: review the skills and thinking used in an investigation. Taught in “Reflecting on investigations”.",
+        "Reflect: “consider in order to correct or improve”. The purpose is to find what to change next time. Example: reflect on the skills and thinking used in an investigation. Taught in “Reflecting on investigations”."
+      ],
+      "tip": "The specification gives evaluate two entries, one for data and one for an ethical judgement, so check which kind of evidence the question is about. In either case say how the evidence supports the judgement and what its limitations are."
     },
     {
-      "h": "Finding out: investigating and practical work",
+      "h": "Finding out: investigating and researching",
+      "b": "These four verbs are about asking questions and establishing facts. They differ in how deep and how systematic the search is.",
       "points": [
-        "Investigate: “observe, study, or make a detailed and systematic examination, in order to establish facts and reach new conclusions”. Example: investigate factors affecting the growth of microorganisms. Taught in “Investigation: growth of microorganisms”.",
-        "Explore: “observe, study, in order to establish facts”. Example: explore the role of microbiomes in human health and in nutrient cycling in soils. Taught in “The microbiome”.",
-        "Research: “inquire specifically, using involved and critical investigation”. Example: research the use of enzymes in industries. Taught in “Industrial enzymes”.",
-        "Pose: “put forward for consideration”. Example: pose testable hypotheses. Taught in “Questioning and predicting”.",
-        "Plan: “devise or project a method or a course of action”. Example: design, plan and conduct investigations. Taught in “Designing and conducting investigations”.",
-        "Design: “conceive, create and execute according to plan”. Example: design, plan and conduct investigations. Taught in “Designing and conducting investigations”.",
-        "Conduct: “perform an activity”. Example: design, plan and conduct investigations. Taught in “Designing and conducting investigations”.",
-        "Measure: “quantify changes in systems by reading a measuring tool”. Example: measure abiotic factors such as temperature, aspect, wind speed and slope in a habitat. Taught in “Abiotic factors”.",
-        "Produce: “bring into existence by intellectual or creative ability”. Example: produce and select qualitative and quantitative data. Taught in “Producing and analysing data”."
-      ]
+        "Investigate: “observe, study, or make a detailed and systematic examination, in order to establish facts and reach new conclusions”. So it is the most thorough of the four. Example: investigate factors affecting the growth of microorganisms. Taught in “Investigation: growth of microorganisms”.",
+        "Explore: “observe, study, in order to establish facts”. It has the same aim as investigate but with no demand for a detailed, systematic examination or new conclusions. Example: explore the role of microbiomes in human health and in nutrient cycling in soils. Taught in “The microbiome”.",
+        "Research: “inquire specifically, using involved and critical investigation”. So you look into a specific question, and you assess what you find critically. Example: research the use of enzymes in industries. Taught in “Industrial enzymes”.",
+        "Pose: “put forward for consideration”. You offer a question or hypothesis for others to weigh up. Example: pose testable hypotheses. Taught in “Questioning and predicting”."
+      ],
+      "tip": "Explore and investigate both aim to establish facts, but only investigate calls for a detailed, systematic examination that reaches new conclusions."
+    },
+    {
+      "h": "Practical work: planning, doing and producing",
+      "b": "These five verbs cover the practical side of science, from devising a method to carrying it out and recording results. Plan, design and conduct share one example in the specification because they are stages of the same task.",
+      "points": [
+        "Plan: “devise or project a method or a course of action”. So you work out what you will do before doing it. Example: design, plan and conduct investigations. Taught in “Designing and conducting investigations”.",
+        "Design: “conceive, create and execute according to plan”. Here the idea, the creation and the carrying out all follow one plan. Example: design, plan and conduct investigations. Taught in “Designing and conducting investigations”.",
+        "Conduct: “perform an activity”. This is the doing itself, such as running the investigation. Example: design, plan and conduct investigations. Taught in “Designing and conducting investigations”.",
+        "Measure: “quantify changes in systems by reading a measuring tool”. So the result is a number read from an instrument. Example: measure abiotic factors such as temperature, aspect, wind speed and slope in a habitat. Taught in “Abiotic factors”.",
+        "Produce: “bring into existence by intellectual or creative ability”. You create something new, such as a set of data. Example: produce and select qualitative and quantitative data. Taught in “Producing and analysing data”."
+      ],
+      "tip": "Measure means reading a measuring tool, so give a value with its unit rather than a description."
     },
     {
       "h": "Confusable verbs compared",
-      "b": "Each pair is told apart by the quoted meanings above.",
+      "b": "Some verbs sound alike but ask for different amounts or kinds of answer. Each pair is told apart by the quoted meanings above, so knowing the difference helps you pitch an answer at the right depth.",
       "points": [
-        "Outline or describe: outline gives the main points only, restricted to essentials; describe gives a detailed picture, in words or diagrams.",
-        "Describe or explain: describe says what something is or what happens; explain adds the reasons or causes.",
+        "Outline or describe: outline gives the main points only, restricted to essentials, so it is brief; describe gives a detailed picture, in words or diagrams.",
+        "Describe or explain: describe says what something is or what happens; explain adds the reasons or causes, so it needs the why as well.",
         "Compare or distinguish: compare refers to both items throughout and may give similarities as well as differences; distinguish makes only the differences clear.",
         "Discuss or evaluate: discuss gives a balanced review of a range of arguments, supported by evidence; evaluate goes further, judging how far the evidence supports a conclusion, stating its limitations, and making a judgement.",
         "Evaluate (data) or evaluate (ethical judgement): the first judges data from an inquiry or investigation and its limitations; the second judges the evidence for an ethical judgement and its limitations.",
         "Explore or investigate: both observe and study to establish facts; investigate is a detailed, systematic examination that reaches new conclusions.",
         "Review or reflect: review re-examines critically to give an opinion of approval or dissent; reflect considers in order to correct or improve."
-      ]
+      ],
+      "tip": "Before you answer, check whether the verb asks for the what (describe), the why (explain) or a judgement (evaluate), because the verb sets how deep your answer needs to go."
     }
   ],
   "keyTerms": [

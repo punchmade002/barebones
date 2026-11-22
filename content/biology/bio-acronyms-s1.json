@@ -6,81 +6,97 @@
   "notes": [
     {
       "h": "Energy and electron carriers",
+      "b": "Cells run on energy that is passed around in small packets, and on carrier molecules that shuttle electrons (tiny charged particles that carry energy) from one stage of a process to the next. These abbreviations name the main carriers and the enzyme that makes ATP.",
       "points": [
-        "ATP (adenosine triphosphate): the cell's main energy-transfer molecule, made of adenine, ribose and three phosphate groups. Breaking off the end phosphate releases energy for cell processes. Taught in “ATP”.",
-        "ADP (adenosine diphosphate): the molecule left when ATP loses its end phosphate. Respiration and photosynthesis join ADP and inorganic phosphate (Pi) back into ATP. Taught in “ATP”.",
-        "ATP synthase: the enzyme that makes ATP from ADP and phosphate, driven by a flow of protons through it. Introduced in “ATP”; its role in membranes is in “The mitochondrion's internal structure and ATP synthase” and “The chloroplast's internal structure”.",
-        "NAD⁺ (nicotinamide adenine dinucleotide): the electron carrier of respiration. It accepts electrons and a proton to become NADH, which carries them to the electron transport chain. Taught in “NAD⁺ and NADP⁺” (Higher Level only).",
-        "NADP⁺ (nicotinamide adenine dinucleotide phosphate): the electron carrier of photosynthesis. It accepts electrons and a proton in the light-dependent reactions to become NADPH, which carries them to the light-independent reactions. Taught in “NAD⁺ and NADP⁺” and “The light-dependent reactions” (Higher Level only).",
-        "Acetyl CoA (acetyl coenzyme A): the two-carbon compound formed from pyruvate, releasing one CO₂, in the mitochondrion. It enters the citric acid cycle. Taught in “Second-stage process” (Higher Level only)."
-      ]
+        "ATP (adenosine triphosphate): the cell's main energy-transfer molecule, made of adenine, ribose and three phosphate groups. Breaking off the end phosphate releases energy for cell processes, so ATP works like a rechargeable battery.",
+        "ADP (adenosine diphosphate): the molecule left when ATP loses its end phosphate. Respiration and photosynthesis join ADP and inorganic phosphate (Pi, a free phosphate group) back into ATP, which recharges the battery.",
+        "ATP synthase: the enzyme that makes ATP from ADP and phosphate, driven by a flow of protons (hydrogen ions) through it. There is more on this in The mitochondrion's internal structure and ATP synthase.",
+        "NAD⁺ (nicotinamide adenine dinucleotide): the electron carrier of respiration. It accepts electrons and a proton to become NADH, which carries them to the electron transport chain (the series of carriers that uses those electrons to drive ATP production). (Higher Level only)",
+        "NADP⁺ (nicotinamide adenine dinucleotide phosphate): the electron carrier of photosynthesis. It accepts electrons and a proton in the light-dependent reactions (the first stage, which needs light) to become NADPH, which carries them to the light-independent reactions (the second stage, which builds sugar). (Higher Level only)",
+        "Acetyl CoA (acetyl coenzyme A): the two-carbon compound formed from pyruvate, releasing one CO₂, in the mitochondrion. It then enters the citric acid cycle (the ring of reactions in respiration that releases more CO₂ and loads carriers). (Higher Level only)"
+      ],
+      "tip": "Examiners ask for the full name of ATP and for the function of a molecule given by its abbreviation. NADH and NADPH are the loaded forms and NAD⁺ and NADP⁺ the unloaded forms, and respiration uses NAD⁺ while photosynthesis uses NADP⁺, so do not swap them."
     },
     {
       "h": "Nucleic acids",
+      "b": "Nucleic acids store genetic information and use it to build proteins. DNA holds the instructions, and three types of RNA help turn them into proteins.",
       "points": [
-        "DNA (deoxyribonucleic acid): the double-stranded nucleic acid, with the sugar deoxyribose and the bases A, T, C and G, that stores genetic information. Taught in “Nucleotides, DNA and RNA”.",
-        "RNA (ribonucleic acid): the usually single-stranded nucleic acid, with the sugar ribose and the bases A, U, C and G, that uses the information in DNA to make proteins. Taught in “Nucleotides, DNA and RNA”.",
-        "mRNA (messenger RNA): carries a copy of a gene from the nucleus to a ribosome. Named in “Nucleotides, DNA and RNA”; its role is in “Transcription and translation”.",
-        "tRNA (transfer RNA): brings a specific amino acid to the ribosome, matching its anticodon to a codon on mRNA. Named in “Nucleotides, DNA and RNA”; its structure and role are in “Transcription and translation” (Higher Level only for structure and role).",
-        "rRNA (ribosomal RNA): the RNA that, with proteins, forms ribosomes. Named in “Nucleotides, DNA and RNA”; its role is in “Transcription and translation”.",
-        "The bases: A is adenine; T is thymine (DNA only); C is cytosine; G is guanine; U is uracil (RNA only). Base pairing is A–T and C–G in DNA, and A–U in RNA. Taught in “Nucleotides, DNA and RNA”."
-      ]
+        "DNA (deoxyribonucleic acid): the double-stranded nucleic acid, with the sugar deoxyribose and the bases A, T, C and G, that stores genetic information, so it acts as the cell's instruction book.",
+        "RNA (ribonucleic acid): the usually single-stranded nucleic acid, with the sugar ribose and the bases A, U, C and G, that uses the information in DNA to make proteins.",
+        "mRNA (messenger RNA): carries a copy of a gene from the nucleus to a ribosome (the structure where proteins are made), so the DNA itself never has to leave the nucleus.",
+        "tRNA (transfer RNA): brings a specific amino acid to the ribosome, matching its anticodon to a codon on mRNA (a codon is a three-base code word on mRNA, and the anticodon is the matching three bases on tRNA). (Higher Level only for structure and role)",
+        "rRNA (ribosomal RNA): the RNA that, with proteins, forms ribosomes. There is more on this in Transcription and translation.",
+        "The bases: A is adenine; T is thymine (DNA only); C is cytosine; G is guanine; U is uracil (RNA only). Base pairing is A–T and C–G in DNA, and A–U in RNA, because uracil takes the place of thymine in RNA."
+      ],
+      "tip": "Examiners ask for the full name of DNA and the function of each type of RNA given by its abbreviation. Remember that thymine is found only in DNA and uracil only in RNA."
     },
     {
       "h": "Hormones",
+      "b": "Hormones are chemical messengers carried in the blood. Most of these four are made or released by the pituitary, a small gland at the base of the brain, and each acts on a target organ.",
       "points": [
-        "TSH (thyroid-stimulating hormone): a pituitary hormone that stimulates the thyroid gland to release thyroxine. Taught in “Glands, locations and hormones”.",
-        "FSH (follicle-stimulating hormone): a pituitary hormone that stimulates a follicle in the ovary to develop an egg and make oestrogen, and stimulates sperm production in the testes. Taught in “Glands, locations and hormones”, with its levels in “The menstrual cycle” and “Hormones in reproduction” (Higher Level only).",
-        "LH (luteinising hormone): a pituitary hormone whose surge causes ovulation and the formation of the corpus luteum. In males it stimulates testosterone production. Taught in “Glands, locations and hormones”, “The menstrual cycle” and “Hormones in reproduction” (Higher Level only).",
-        "ADH (antidiuretic hormone): made in the hypothalamus and released by the pituitary, it makes the kidney's collecting ducts reabsorb more water, giving less, more concentrated urine. Taught in “Glands, locations and hormones” and “ADH and osmoregulation” (Higher Level only)."
-      ]
+        "TSH (thyroid-stimulating hormone): a pituitary hormone that stimulates the thyroid gland to release thyroxine, so the pituitary controls how much thyroxine enters the blood.",
+        "FSH (follicle-stimulating hormone): a pituitary hormone that stimulates a follicle (a fluid-filled sac in the ovary) to develop an egg and make oestrogen, and stimulates sperm production in the testes. (Higher Level only)",
+        "LH (luteinising hormone): a pituitary hormone whose surge causes ovulation (release of the egg) and the formation of the corpus luteum (the structure left in the ovary after ovulation). In males it stimulates testosterone production. (Higher Level only)",
+        "ADH (antidiuretic hormone): made in the hypothalamus and released by the pituitary, it makes the kidney's collecting ducts reabsorb more water, giving less, more concentrated urine. There is more on this in ADH and osmoregulation. (Higher Level only)"
+      ],
+      "tip": "Examiners ask for the full name of ADH, FSH or LH and the function of the hormone. Take care with ADH: it is made in the hypothalamus but released from the pituitary."
     },
     {
       "h": "Body systems and immunity",
+      "b": "The nervous system is split into two parts by where its structures lie. The immune system includes white blood cells that attack cells that have gone wrong.",
       "points": [
-        "CNS (central nervous system): the brain and spinal cord. Taught in “CNS and PNS”.",
-        "PNS (peripheral nervous system): all the nerves outside the brain and spinal cord, carrying messages to and from the CNS. Taught in “CNS and PNS”.",
-        "NK cells (natural killer cells): white blood cells of the innate immune system that kill virus-infected cells and cancer cells. Taught in “White blood cells” (Higher Level only)."
+        "CNS (central nervous system): the brain and spinal cord, which together process information and decide the response.",
+        "PNS (peripheral nervous system): all the nerves outside the brain and spinal cord, carrying messages to and from the CNS, so it links the body's sense organs and muscles to the brain.",
+        "NK cells (natural killer cells): white blood cells of the innate immune system (the quick, non-specific defence present from birth) that kill virus-infected cells and cancer cells. (Higher Level only)"
       ]
     },
     {
       "h": "Reproduction and health",
+      "b": "These four terms are medical techniques and conditions linked to reproduction, from helping couples conceive to protecting a baby's health.",
       "points": [
-        "IVF (in vitro fertilisation): eggs are fertilised by sperm outside the body, in a dish, and an early embryo is placed in the uterus. Taught in “Fertility control and infertility”.",
-        "ICSI (intracytoplasmic sperm injection): a single sperm is injected directly into an egg's cytoplasm in the laboratory. It is used when sperm cannot fertilise an egg on their own. Taught in “Fertility control and infertility”.",
-        "STI (sexually transmitted infection): an infection passed from person to person by sexual contact. Condoms reduce the risk. Taught in “Fertility control and infertility”.",
-        "PKU (phenylketonuria): an inherited disorder in which the body cannot break down the amino acid phenylalanine, which builds up and damages the brain. Newborn babies are screened for it, and it is controlled by a low-phenylalanine diet. Taught in “Prenatal and postnatal care”."
-      ]
+        "IVF (in vitro fertilisation): eggs are fertilised by sperm outside the body, in a dish, and an early embryo is placed in the uterus, where it can implant and develop.",
+        "ICSI (intracytoplasmic sperm injection): a single sperm is injected directly into an egg's cytoplasm in the laboratory. It is used when sperm cannot fertilise an egg on their own.",
+        "STI (sexually transmitted infection): an infection passed from person to person by sexual contact. Condoms reduce the risk because they act as a barrier to body fluids.",
+        "PKU (phenylketonuria): an inherited disorder in which the body cannot break down the amino acid phenylalanine, which builds up and damages the brain. Newborn babies are screened for it, and it is controlled by a low-phenylalanine diet. There is more on this in Prenatal and postnatal care."
+      ],
+      "tip": "Examiners ask for the full names of abbreviations such as ICSI, IVF and PKU. Learn ICSI's full name carefully, as it is long."
     },
     {
       "h": "Techniques, microscopes and databases",
+      "b": "Biologists use special instruments and laboratory methods to look at cells and copy DNA, and free online databases to look up genetic information.",
       "points": [
-        "SEM (scanning electron microscope): an electron microscope that scans a beam of electrons across a metal-coated specimen, giving a detailed three-dimensional image of its surface. Taught in “Microscopy”. SEM images are used as secondary data in “Investigation: plant and animal cells”.",
-        "PCR (polymerase chain reaction): a laboratory method that makes millions of copies of a chosen section of DNA by repeated cycles of heating and cooling, with DNA polymerase. Taught in “Generating a DNA profile” (Higher Level only).",
-        "NCBI (National Center for Biotechnology Information): a United States public body whose free online databases hold DNA sequences, genomes and scientific papers. Taught in “Bioinformatics: genome databases”.",
-        "OMIM (Online Mendelian Inheritance in Man): a free online catalogue of human genes and genetic disorders, and of the alleles that cause them. Taught in “Bioinformatics: genome databases”."
-      ]
+        "SEM (scanning electron microscope): an electron microscope that scans a beam of electrons across a metal-coated specimen, giving a detailed three-dimensional image of its surface. SEM images are used as secondary data (data collected by someone else) in Investigation: plant and animal cells.",
+        "PCR (polymerase chain reaction): a laboratory method that makes millions of copies of a chosen section of DNA by repeated cycles of heating and cooling, with DNA polymerase (the enzyme that builds new DNA). There is more on this in Generating a DNA profile. (Higher Level only)",
+        "NCBI (National Center for Biotechnology Information): a United States public body whose free online databases hold DNA sequences, genomes and scientific papers.",
+        "OMIM (Online Mendelian Inheritance in Man): a free online catalogue of human genes and genetic disorders, and of the alleles (versions of a gene) that cause them. There is more on this in Bioinformatics: genome databases."
+      ],
+      "tip": "Examiners ask for the full name of PCR. Use the US spelling Center when giving the name of the NCBI."
     },
     {
       "h": "Ecology, disease and symbols",
+      "b": "Some abbreviations stand for measurements rather than molecules or machines. They give a number that sums up how a disease spreads, how diverse a habitat is, or how acidic a solution is.",
       "points": [
-        "R₀ (basic reproduction number): the average number of people that one infected person infects in a population with no immunity and no control measures. Above 1 the disease spreads; below 1 it dies out. Taught in “Emergence and spread of infectious disease”.",
-        "Ds (Simpson's diversity index): a measure of species diversity, Ds = 1 − Σn(n − 1) / N(N − 1), where n is the number of organisms of one species and N the total of all species. It runs from 0 to 1, and the closer to 1, the more diverse. Taught in “Simpson's Diversity Index” (Higher Level only).",
-        "pH: a measure of how acidic or alkaline a solution is, on a scale of 0 to 14. 7 is neutral, below 7 is acidic and above 7 is alkaline. Each enzyme has an optimum pH. Taught in “Investigation: rate of enzyme activity”."
-      ]
+        "R₀ (basic reproduction number): the average number of people that one infected person infects in a population with no immunity and no control measures. Above 1 the disease spreads; below 1 it dies out.",
+        "Ds (Simpson's diversity index): a measure of species diversity, Ds = 1 − Σn(n − 1) / N(N − 1), where n is the number of organisms of one species and N the total of all species. (Higher Level only)",
+        "Ds runs from 0 to 1, and the closer to 1, the more diverse the habitat, so a higher value means more species with more even numbers. (Higher Level only)",
+        "pH: a measure of how acidic or alkaline a solution is, on a scale of 0 to 14. 7 is neutral, below 7 is acidic and above 7 is alkaline. Each enzyme has an optimum pH, the pH at which it works best."
+      ],
+      "tip": "Give R₀ only as the number in a population with no immunity and no control measures, and do not confuse it with a reproduction number for a population that has some immunity."
     },
     {
       "h": "Chemical formulas used in the notes",
+      "b": "A chemical formula is shorthand showing which atoms a substance contains, with the small number giving how many of each. These are the formulas that appear throughout the Biology notes.",
       "points": [
-        "CO₂ carbon dioxide; O₂ oxygen; H₂O water; C₆H₁₂O₆ glucose. Taught in “Photosynthesis as an anabolic process” and “Respiration as a catabolic process”.",
-        "CH₄ methane, a greenhouse gas made by microorganisms in anaerobic conditions. Taught in “The carbon cycle” and “Climate change and biological strategies”.",
-        "N₂ nitrogen gas; NH₄⁺ ammonium; NO₃⁻ nitrate; N₂O nitrous oxide. Taught in “The nitrogen cycle”, with nitrous oxide as a greenhouse gas in “Climate change and biological strategies”."
+        "CO₂ carbon dioxide; O₂ oxygen; H₂O water; C₆H₁₂O₆ glucose. These are the main substances in photosynthesis and respiration. There is more on this in Photosynthesis as an anabolic process and Respiration as a catabolic process.",
+        "CH₄ methane, a greenhouse gas made by microorganisms in anaerobic conditions (conditions without oxygen), such as in waterlogged soil.",
+        "N₂ nitrogen gas; NH₄⁺ ammonium; NO₃⁻ nitrate; N₂O nitrous oxide. These are the forms of nitrogen in the nitrogen cycle, and nitrous oxide is also a greenhouse gas."
       ]
     },
     {
       "h": "Assessment",
+      "b": "One abbreviation names the body that runs the state exams you will sit.",
       "points": [
-        "SEC (State Examinations Commission): the body that sets and marks the written examination and the Biology in Practice Investigation. Taught in “The Biology in Practice Investigation”."
+        "SEC (State Examinations Commission): the body that sets and marks the written examination and the Biology in Practice Investigation."
       ]
     }
   ],

@@ -6,143 +6,204 @@
   "notes": [
     {
       "h": "Overview: where the reproductive hormones come from",
+      "b": "Reproduction is run by chemical messengers (hormones) carried in the blood. Three places make nearly all of them, and in pregnancy a fourth organ joins in.",
       "points": [
-        "Reproduction is controlled by hormones from three places: the pituitary gland at the base of the brain, the testes and the ovaries.",
-        "The pituitary gland at the base of the brain makes oxytocin and prolactin, and also the hormones that stimulate the gonads.",
-        "The testes make testosterone, and the ovaries make oestrogen and progesterone; in pregnancy the placenta also makes oestrogen and progesterone.",
-        "The locations of these glands and hormones are given in “Glands, locations and hormones”.",
-        "Prolactin is made by the pituitary gland, and its main role is to stimulate milk production in the breasts."
-      ]
+        "Reproduction is controlled by hormones from three places: the pituitary gland at the base of the brain, the testes (the male gonads, which make sperm) and the ovaries (the female gonads, which make eggs).",
+        "The pituitary gland makes oxytocin and prolactin, and also the hormones that stimulate the gonads, which is how the brain controls the testes and ovaries.",
+        "The testes make testosterone, and the ovaries make oestrogen and progesterone. In pregnancy the placenta (the organ that links mother and foetus) also makes oestrogen and progesterone.",
+        "Prolactin is made by the pituitary gland, and its main role is to stimulate milk production in the breasts. There is more on where each gland sits in Glands, locations and hormones."
+      ],
+      "tip": "Learn the source of each hormone: pituitary for oxytocin and prolactin, testes for testosterone, ovaries for oestrogen and progesterone, with the placenta adding the last two in pregnancy."
     },
     {
       "h": "Puberty",
+      "b": "Puberty is the changeover from child to adult body. A hormone signal from the brain switches the reproductive system on.",
       "points": [
-        "Puberty is the stage, usually in the early teens, when the reproductive organs mature and become able to produce gametes, and the secondary sexual characteristics develop.",
+        "Puberty is the stage, usually in the early teens, when the reproductive organs mature and become able to produce gametes (sperm or eggs), and the secondary sexual characteristics develop. These are the body changes, apart from the reproductive organs themselves, that mark a person as male or female.",
         "Puberty typically begins between about 8 and 13 in girls, and between about 9 and 14 in boys.",
-        "It begins when the brain signals the pituitary to increase its release of the hormones that stimulate the gonads.",
-        "As a result the testes begin to make much more testosterone, and the ovaries much more oestrogen (Higher Level detail is in the Higher Level section on the pituitary's gonad-stimulating hormones).",
-        "Testosterone at puberty starts sperm production, causes growth of the penis and testes, and causes the male secondary sexual characteristics (see “Glands, locations and hormones”); it also increases sex drive.",
-        "Oestrogen at puberty causes growth of the uterus and vagina and the female secondary sexual characteristics (see “Glands, locations and hormones”).",
-        "Oestrogen, with progesterone, starts the menstrual cycles; the first period is called menarche."
-      ]
+        "It begins when the brain signals the pituitary to increase its release of the hormones that stimulate the gonads (the testes and ovaries). There is more on these pituitary hormones in the Higher Level block on the gonad-stimulating hormones.",
+        "As a result the testes begin to make much more testosterone, and the ovaries much more oestrogen. It is these sex hormones that cause the changes of puberty.",
+        "Testosterone at puberty starts sperm production, causes growth of the penis and testes, and causes the male secondary sexual characteristics. It also increases sex drive.",
+        "Oestrogen at puberty causes growth of the uterus (womb) and vagina, preparing the body for pregnancy, and the female secondary sexual characteristics.",
+        "Oestrogen, working with progesterone, starts the menstrual cycles, so a girl becomes able to ovulate and conceive; the first period is called menarche."
+      ],
+      "tip": "Exams ask you to name the hormone behind the secondary sexual characteristics in males (testosterone) or females (oestrogen), and to define a secondary sexual characteristic."
     },
     {
       "h": "Sperm and egg production",
+      "b": "Once puberty has started the gametes, hormones keep them coming. The pattern differs between the sexes: continuous in men, monthly in women.",
       "points": [
-        "Testosterone is needed throughout adult life for sperm production in the seminiferous tubules, and to maintain the male reproductive organs and secondary sexual characteristics.",
-        "Its level stays fairly steady from day to day, so sperm are made continuously (see “Fertility control and infertility” for continuous fertility).",
-        "Control of this production by the pituitary is in the Higher Level section on the pituitary's gonad-stimulating hormones.",
-        "Egg production: each month hormones cause one follicle to mature and release its egg, and prepare the endometrium; the levels and feedback are described in “The menstrual cycle”."
-      ]
+        "Testosterone is needed throughout adult life for sperm production in the seminiferous tubules (the coiled tubes inside the testes where sperm are made), and to maintain the male reproductive organs and secondary sexual characteristics.",
+        "Testosterone is made by the interstitial cells between the tubules, not by the tubules themselves, which make sperm.",
+        "Its level stays fairly steady from day to day, so sperm are made continuously rather than in a cycle, which is why men stay fertile from day to day.",
+        "Egg production: each month hormones cause one follicle (a fluid-filled sac holding a developing egg) to mature and release its egg, and prepare the endometrium (the lining of the uterus). There is more on the hormone levels and feedback in The menstrual cycle."
+      ],
+      "tip": "Don't mix up the structures: sperm are made in the seminiferous tubules, but testosterone comes from the interstitial cells."
     },
     {
-      "h": "Implantation and pregnancy",
+      "h": "Implantation and hCG",
+      "b": "After fertilisation the embryo has to bury itself in the uterus lining (implantation) and the lining must then be kept, not shed. Two hormones make this possible.",
       "points": [
         "Progesterone prepares the endometrium for implantation: it keeps it thick, spongy and well supplied with blood vessels, and makes its glands secrete nutrients for the early embryo before the placenta forms.",
-        "Without high progesterone, implantation cannot succeed.",
+        "Without high progesterone, implantation cannot succeed, because the embryo would have no suitable lining to attach to or feed from.",
         "hCG (human chorionic gonadotrophin) is a hormone made by the outer cells of the embryo from implantation.",
-        "hCG keeps the corpus luteum alive and secreting progesterone, so the endometrium is not shed and menstruation stops.",
-        "Home pregnancy tests detect hCG in urine.",
+        "hCG keeps the corpus luteum (the structure left in the ovary after ovulation) alive and secreting progesterone, so the endometrium is not shed and menstruation stops. Home pregnancy tests detect hCG in urine, using a monoclonal-antibody test."
+      ],
+      "tip": "If asked why menstruation stops in pregnancy, name hCG keeping the corpus luteum making progesterone, so the endometrium is maintained and not shed."
+    },
+    {
+      "h": "The placenta takes over: progesterone in pregnancy",
+      "b": "The corpus luteum cannot support a whole pregnancy, so the placenta takes over hormone production. Progesterone from it then keeps the pregnancy going in several ways.",
+      "points": [
         "From about the end of the third month the placenta takes over from the corpus luteum, making large amounts of progesterone and oestrogen for the rest of pregnancy; the corpus luteum then breaks down.",
-        "Progesterone during pregnancy maintains the endometrium and so the placenta.",
+        "Progesterone during pregnancy maintains the endometrium and so the placenta, which is attached to it.",
         "Progesterone keeps the muscle of the uterus relaxed, so it does not contract and expel the foetus early.",
-        "Progesterone keeps the cervical mucus plug thick, prepares the milk-producing glands of the breasts, and (with oestrogen) prevents further ovulation and menstruation.",
-        "Oestrogen during pregnancy drives the growth of the foetus: it stimulates growth of the muscle of the uterus so it enlarges with the growing foetus, and increases blood flow to the uterus and placenta.",
-        "Oestrogen also develops the milk ducts of the breasts.",
+        "Progesterone keeps the cervical mucus plug (the mucus that seals the cervix, the neck of the uterus) thick, and prepares the milk-producing glands of the breasts.",
+        "Progesterone, with oestrogen, prevents further ovulation and menstruation during pregnancy."
+      ],
+      "tip": "The hormone that maintains the endometrium in pregnancy is progesterone. Also remember it is progesterone, not oestrogen, that prevents contractions."
+    },
+    {
+      "h": "Oestrogen in pregnancy and the level pattern",
+      "b": "Oestrogen supports the growth of the foetus by building up the mother's tissues, and late in pregnancy it prepares her body for birth.",
+      "points": [
+        "Oestrogen during pregnancy drives the growth of the foetus: it stimulates growth of the muscle of the uterus so it enlarges with the growing foetus, and increases blood flow to the uterus and placenta, which supplies the foetus.",
+        "Oestrogen also develops the milk ducts of the breasts, so they are ready to carry milk after birth.",
         "Late in pregnancy oestrogen makes the uterus muscle more sensitive to oxytocin, preparing it for labour.",
-        "Progesterone and oestrogen rise steadily to very high levels by late pregnancy, far above their levels in the menstrual cycle, and fall sharply after the placenta is delivered."
+        "Level summary: progesterone and oestrogen rise steadily to very high levels by late pregnancy, far above their levels in the menstrual cycle, and fall sharply after the placenta is delivered."
       ]
     },
     {
-      "h": "Birth",
+      "h": "Birth: oxytocin and the change in hormone balance",
+      "b": "Birth needs the powerful uterus muscle to contract strongly. A shift in hormone balance and the hormone oxytocin make this happen.",
       "points": [
         "Near the end of pregnancy the balance of hormones changes: oestrogen's effects increase relative to progesterone's, so the uterus muscle becomes more responsive to oxytocin and begins to contract.",
-        "Oxytocin is made in the hypothalamus and released by the pituitary into the blood.",
-        "Oxytocin causes the muscle of the uterus to contract strongly in labour.",
-        "Positive feedback in birth, step 1: the baby's head presses on and stretches the cervix.",
-        "Step 2: stretch receptors in the cervix send nerve impulses to the brain.",
-        "Step 3: the pituitary releases more oxytocin.",
-        "Step 4: stronger contractions push the head harder against the cervix, stretching it more.",
-        "Step 5: the cycle repeats, building up until the baby is born, which removes the stimulus.",
-        "A nervous and a hormonal pathway work together here (see “Nervous vs hormonal coordination”); positive feedback is defined in “Homeostasis as a stimulus-response model”.",
+        "Oxytocin is made in the hypothalamus (a part of the brain just above the pituitary) and released by the pituitary into the blood.",
+        "Oxytocin causes the muscle of the uterus to contract strongly in labour, the process of giving birth."
+      ],
+      "tip": "The hormone that causes contractions in labour is oxytocin."
+    },
+    {
+      "h": "Birth: the positive feedback loop",
+      "b": "Labour speeds itself up. Each contraction causes more oxytocin, which causes stronger contractions, a pattern called positive feedback, where a change leads to more of the same change.",
+      "points": [
+        "1. The baby's head presses on and stretches the cervix.",
+        "2. Stretch receptors in the cervix send nerve impulses to the brain.",
+        "3. The pituitary releases more oxytocin.",
+        "4. Stronger contractions push the head harder against the cervix, stretching it more.",
+        "5. The cycle repeats, building up until the baby is born, which removes the stimulus (the stretching), so the loop stops.",
+        "A nervous pathway (the impulses) and a hormonal pathway (oxytocin in the blood) work together here. There is more on this in Nervous vs hormonal coordination.",
+        "Diagram: the positive feedback loop as a cycle: baby's head stretches cervix → nerve impulses to brain → pituitary releases oxytocin → uterus contracts more strongly → back to the start; birth ends the loop."
+      ],
+      "tip": "Explaining positive feedback in birth is a set exam topic: give the loop in order and say birth ends it. Do not call it negative feedback, and it is not homeostasis."
+    },
+    {
+      "h": "After the birth: oxytocin and synthetic oxytocin",
+      "b": "Oxytocin's work does not stop when the baby arrives. It also helps the uterus recover, and doctors use a man-made version of it.",
+      "points": [
         "After the birth, oxytocin keeps the uterus contracting, which expels the placenta and closes the blood vessels at its attachment site, reducing bleeding.",
-        "Oxytocin also helps the uterus shrink back towards its normal size.",
-        "Synthetic oxytocin is given by drip in hospital to start (induce) or speed up labour, and to reduce bleeding after birth.",
-        "Diagram: the positive feedback loop of the birth steps as a cycle: baby's head stretches cervix → nerve impulses to brain → pituitary releases oxytocin → uterus contracts more strongly → back to the start; birth ends the loop."
+        "Oxytocin also helps the uterus shrink back towards its normal size, because its contractions squeeze the muscle smaller.",
+        "Synthetic oxytocin is given by drip in hospital to start (induce) or speed up labour, and to reduce bleeding after birth."
       ]
     },
     {
-      "h": "Colostrum and milk",
+      "h": "Making milk: prolactin",
+      "b": "The breasts are prepared during pregnancy, but milk only starts once the placenta has gone. The hormone that actually makes milk is prolactin.",
       "points": [
         "During pregnancy, oestrogen and progesterone develop the breasts' ducts and milk glands, and prolactin rises.",
-        "The high levels of oestrogen and progesterone stop milk being produced.",
+        "The high levels of oestrogen and progesterone stop milk being produced, even though prolactin is already rising.",
         "When the placenta is delivered, oestrogen and progesterone fall sharply, so prolactin can act and milk production begins.",
-        "Prolactin stimulates the milk glands to produce milk.",
+        "Prolactin stimulates the milk glands to produce milk, which is why it is called the milk-making hormone.",
         "Suckling by the baby stimulates nerve endings in the nipple, causing the pituitary to release more prolactin, so the more the baby feeds, the more milk is made: supply matches demand.",
-        "Oxytocin causes the milk to be released (“let-down”, or milk ejection): suckling triggers oxytocin release, which makes muscle cells around the milk glands contract and squeeze milk into the ducts and out of the nipple.",
-        "Prolactin makes milk; oxytocin releases it.",
+        "While a mother breastfeeds frequently, high prolactin suppresses ovulation, so periods often do not return for some months; this is not reliable contraception. There is more on this in Fertility control and infertility."
+      ],
+      "tip": "Prolactin stimulates milk production. Examiners ask which hormone does this, so do not swap it with oxytocin."
+    },
+    {
+      "h": "Releasing milk: oxytocin let-down",
+      "b": "Making milk is not the same as delivering it. Oxytocin does the second job, so a feed needs both hormones.",
+      "points": [
+        "Oxytocin causes the milk to be released (called let-down, or milk ejection).",
+        "Suckling triggers oxytocin release, which makes muscle cells around the milk glands contract and squeeze milk into the ducts and out of the nipple.",
+        "Prolactin makes milk; oxytocin releases it."
+      ],
+      "tip": "Keep the two straight: prolactin makes milk, oxytocin releases it. Swapping them loses the mark."
+    },
+    {
+      "h": "Colostrum and mature milk",
+      "b": "The first milk a baby gets is different from the milk that follows. It is tuned to protect a newborn rather than to fatten it.",
+      "points": [
         "Colostrum is the first milk, produced for the first few days after birth.",
         "Colostrum is a small volume of thick, yellowish fluid, richer in protein and antibodies than later milk and lower in fat and sugar.",
-        "Colostrum gives the newborn passive immunity (see “Acquired immunity, prevention and treatment”).",
-        "Over the following days and weeks it changes to mature milk, with more fat and lactose for energy and growth.",
-        "While a mother breastfeeds frequently, high prolactin suppresses ovulation, so periods often do not return for some months; this is not reliable contraception (see “Fertility control and infertility”)."
+        "Its antibodies give the newborn passive immunity, which means protection made by the mother rather than by the baby's own immune system. There is more on this in Acquired immunity, prevention and treatment.",
+        "Over the following days and weeks it changes to mature milk, with more fat and lactose (milk sugar) for energy and growth."
       ]
     },
     {
       "h": "Menopause",
+      "b": "A woman's fertility does not last for life. Menopause is the point where the ovaries stop responding, and the fall in hormones has effects across the body.",
       "points": [
         "Menopause is the end of a woman's menstrual cycles and of her fertility, confirmed when she has had no period for 12 months.",
         "It usually happens between about 45 and 55 years of age.",
-        "Cause: the ovaries run out of follicles that can respond, so ovulation stops and the ovaries make much less oestrogen and progesterone.",
-        "Without these hormones the endometrium is no longer built up, and periods stop.",
+        "Cause: the ovaries run out of follicles that can respond, so ovulation stops and the ovaries make much less oestrogen and progesterone. It is not simply that the eggs are used up by ovulation, because most follicles degenerate without ever ovulating.",
+        "Without these hormones the endometrium is no longer built up, so there is nothing to shed and periods stop.",
         "Effects of falling oestrogen in the short term: hot flushes and night sweats, mood changes and poorer sleep, and vaginal dryness.",
         "Effects of falling oestrogen in the longer term: loss of bone density, raising the risk of osteoporosis (brittle bones), and a rise in the risk of heart disease.",
-        "Hormone replacement therapy (HRT) is in “Hormonal manipulation”.",
-        "Men have no equivalent of the menopause: testosterone falls only slowly with age, and many men can produce sperm into old age, although sperm numbers and quality decline."
-      ]
+        "Men have no equivalent of the menopause: testosterone falls only slowly with age, and many men can produce sperm into old age, although sperm numbers and quality decline.",
+        "There is more on hormone replacement therapy (HRT) in Hormonal manipulation."
+      ],
+      "tip": "To explain what menopause is and why it happens, say cycles and fertility end, because the ovaries run out of follicles that can respond and oestrogen and progesterone fall."
     },
     {
       "h": "Roles and levels of each hormone",
       "b": "One bullet per hormone: its gland, its roles and how its level changes through life.",
       "points": [
-        "Testosterone (testes; small amounts also in females): male development before birth (see “Sex determination”), puberty, sperm production and sex drive.",
+        "Testosterone (testes; small amounts also in females): male development before birth, puberty, sperm production and sex drive. There is more on development before birth in Sex determination.",
         "Testosterone level: low in childhood, rises sharply at puberty, high and fairly steady in adult men, and declines slowly in later life.",
         "Oestrogen (ovaries; placenta in pregnancy): female puberty, repair and thickening of the endometrium each cycle, growth of the uterus and breast ducts in pregnancy, preparing the uterus for oxytocin, and keeping bones strong.",
         "Oestrogen level: low in childhood, rises at puberty, rises and falls each cycle, very high in pregnancy, and falls at menopause.",
         "Progesterone (corpus luteum; placenta in pregnancy): maintains the endometrium for implantation and pregnancy, relaxes the uterus muscle, prepares the milk glands and prevents ovulation in pregnancy.",
         "Progesterone level: high only in the second half of each cycle; very high in pregnancy; falls sharply at birth; very low after menopause.",
-        "Oxytocin (made in the hypothalamus, released by the pituitary): contractions of the uterus in labour and after birth, and milk let-down.",
-        "Oxytocin level: rises sharply during labour and with each feed.",
-        "Prolactin (pituitary): milk production.",
-        "Prolactin level: rises during pregnancy, stays high while breastfeeding, rising further with each feed, and falls when breastfeeding stops.",
-        "The pituitary hormones that stimulate the gonads, with their roles and levels, are covered in the Higher Level section on the pituitary's gonad-stimulating hormones."
-      ]
+        "Oxytocin (made in the hypothalamus, released by the pituitary): contractions of the uterus in labour and after birth, and milk let-down. Its level rises sharply during labour and with each feed.",
+        "Prolactin (pituitary): milk production. Its level rises during pregnancy, stays high while breastfeeding, rising further with each feed, and falls when breastfeeding stops."
+      ],
+      "tip": "Exams ask for both the roles and the levels, so learn each hormone's pattern across a lifetime. The pituitary hormones that stimulate the gonads are in the Higher Level block."
     },
     {
       "h": "FSH and LH in males and females (Higher Level only)",
+      "b": "FSH and LH are the two pituitary hormones that stimulate the gonads. In males they hold testosterone steady through negative feedback, and in females they drive the monthly cycle.",
       "points": [
         "At puberty the hypothalamus, the part of the brain above the pituitary, signals the pituitary to increase its release of FSH and LH.",
         "In males these hormones stimulate the testes to make sperm and testosterone; in females they stimulate follicles to develop and the ovaries to make oestrogen, starting the cycles.",
-        "In males, FSH stimulates sperm production in the seminiferous tubules, working with testosterone.",
+        "In males, FSH stimulates sperm production in the seminiferous tubules, working with testosterone, so without FSH sperm output falls.",
         "In males, LH (sometimes called interstitial-cell-stimulating hormone in males) stimulates the interstitial cells of the testes to secrete testosterone.",
         "Male negative feedback: when testosterone in the blood rises, it inhibits the release of LH and FSH from the pituitary, so less testosterone is made; when testosterone falls, LH rises again.",
         "This keeps testosterone and sperm production steady and continuous, unlike the female cycle.",
-        "Example: men who take anabolic steroids (synthetic testosterone; see “Hormonal manipulation”) have high testosterone-like levels, which switch off their own LH and FSH, so their testes shrink and sperm production falls.",
-        "In females, FSH stimulates follicle development and oestrogen production, and the LH surge causes ovulation and forms the corpus luteum; the levels and feedback through the month are in “The menstrual cycle”.",
+        "Example: men who take anabolic steroids (synthetic testosterone) have high testosterone-like levels, which switch off their own LH and FSH, so their testes shrink and sperm production falls. There is more on this in Hormonal manipulation.",
+        "In females, FSH stimulates follicle development and oestrogen production, and the LH surge causes ovulation and forms the corpus luteum."
+      ],
+      "tip": "Exams ask for a function of FSH and of LH in the male or female, and how testosterone level is kept steady: say negative feedback on LH and FSH from the pituitary."
+    },
+    {
+      "h": "FSH and LH through life (Higher Level only)",
+      "b": "FSH and LH levels follow the state of the ovaries and the other hormones. When oestrogen and progesterone are high they stay low, and when these hormones are lost they rise.",
+      "points": [
         "In pregnancy, high progesterone and oestrogen keep FSH and LH low, so no follicles develop and no ovulation happens.",
         "While breastfeeding, high prolactin also suppresses FSH and LH.",
         "After the menopause, FSH and LH rise to high levels, because the ovaries no longer make enough oestrogen and progesterone to inhibit them; a high FSH level in the blood is a sign of the menopause.",
         "Levels summary: FSH and LH are low in childhood and rise at puberty.",
         "In men FSH and LH are fairly steady; in women they vary through each cycle, with an LH surge at ovulation.",
-        "In women FSH and LH are low in pregnancy and while breastfeeding, and high after the menopause."
+        "In women FSH and LH are low in pregnancy and while breastfeeding, and high after the menopause. The levels and feedback through the month are in The menstrual cycle."
       ]
     },
     {
       "h": "Modelling the control system (Higher Level only)",
+      "b": "A model shows how a control centre, a hormone, a target organ and feedback fit together. You can then use it to predict what happens when one part changes.",
       "points": [
         "A model of hormonal control shows, in order: the control centre (hypothalamus and pituitary), the hormone released, the target organ, the hormone or effect the target produces, and the feedback, with − for inhibition and + for stimulation.",
-        "Diagram: two flow charts side by side. Male: hypothalamus → pituitary → FSH and LH → testes → sperm and testosterone, with a “−” arrow from testosterone back to the pituitary. Female: hypothalamus → pituitary → FSH and LH → ovary → follicle, oestrogen, corpus luteum, progesterone → endometrium, with “−” arrows from progesterone (and oestrogen) to the pituitary and a “+” arrow from high oestrogen to the LH surge.",
-        "Use the model to predict effects: blocking testosterone's feedback raises LH; giving steady oestrogen and progesterone, as in the pill, keeps FSH and LH low."
+        "Use the model to predict effects: blocking testosterone's feedback raises LH; giving steady oestrogen and progesterone, as in the pill, keeps FSH and LH low.",
+        "Diagram: two flow charts side by side, male then female. Male: hypothalamus → pituitary → FSH and LH → testes → sperm and testosterone, with a “−” arrow from testosterone back to the pituitary.",
+        "Female flow chart: hypothalamus → pituitary → FSH and LH → ovary → follicle, oestrogen, corpus luteum, progesterone → endometrium, with “−” arrows from progesterone (and oestrogen) to the pituitary and a “+” arrow from high oestrogen to the LH surge."
       ]
     }
   ],

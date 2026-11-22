@@ -6,67 +6,75 @@
   "notes": [
     {
       "h": "What a chromosome is",
-      "b": "A chromosome is DNA together with protein, and it carries genes in a fixed linear order.",
+      "b": "A chromosome is DNA together with protein, and it carries genes in a fixed linear order. Knowing what it is made of, how it looks in a resting and a dividing cell, and how big it is explains why cells need to pack their DNA.",
       "points": [
-        "A chromosome is a single, very long molecule of DNA together with proteins. It is found in the nucleus of a eukaryotic cell and carries many genes in a fixed linear order along its length.",
-        "Chromatin is the name for the DNA and protein material of the chromosomes when the cell is not dividing. The chromosomes are then long, thin and uncoiled, spread through the nucleus, and cannot be seen as separate threads.",
-        "Before a cell divides, the chromatin coils and folds up tightly (condenses), so each chromosome becomes short and thick and is visible under the light microscope when stained. Chromatin and chromosomes are the same material in two states.",
-        "Human body cells are diploid, with 46 chromosomes in 23 pairs: 22 pairs of autosomes and one pair of sex chromosomes, XX in females and XY in males. How the sex chromosomes determine sex is covered in “Sex determination”.",
-        "Homologous chromosomes are the two chromosomes of a pair. They are the same length, have the centromere in the same position and carry the same genes at the same positions, with one chromosome of each pair coming from each parent.",
-        "The chromosome number is fixed for a species (46 in humans); a different number does not mean a more complex organism.",
-        "The human genome, one set of 23 chromosomes, is about 3 billion base pairs. The DNA in one human body cell, stretched out, would be about 2 m long, yet it fits in a nucleus a few micrometres across.",
-        "Prokaryotes differ: a bacterial cell has one circular chromosome in the cytoplasm, not wound around histones, plus plasmids (see “Prokaryotic and eukaryotic cells”)."
-      ]
+        "A chromosome is a single, very long molecule of DNA together with proteins. It is found in the nucleus of a eukaryotic cell (a cell with a nucleus) and carries many genes in a fixed linear order along its length.",
+        "Chromatin is the name for the DNA and protein material of the chromosomes when the cell is not dividing. The chromosomes are then long, thin and uncoiled, spread through the nucleus, so they cannot be seen as separate threads.",
+        "Before a cell divides, the chromatin coils and folds up tightly (condenses), so each chromosome becomes short and thick and is visible under the light microscope when stained. In other words, chromatin and chromosomes are the same material in two states.",
+        "Human body cells are diploid (two sets of chromosomes), with 46 chromosomes in 23 pairs: 22 pairs of autosomes (chromosomes that are not sex chromosomes) and one pair of sex chromosomes, XX in females and XY in males. There is more on this in Sex determination.",
+        "Homologous chromosomes are the two chromosomes of a pair. They are the same length, have the centromere (the narrowed region of the chromosome) in the same position and carry the same genes at the same positions, with one chromosome of each pair coming from each parent.",
+        "The chromosome number is fixed for a species (46 in humans); a different number does not mean a more complex organism, so you cannot judge complexity by counting chromosomes.",
+        "The human genome (all the DNA in one set of 23 chromosomes) is about 3 billion base pairs. The DNA in one human body cell, stretched out, would be about 2 m long, yet it fits in a nucleus a few micrometres across, which is why DNA must be packed.",
+        "Prokaryotes (bacteria) differ: a bacterial cell has one circular chromosome in the cytoplasm, not wound around histones (the packing proteins of eukaryotes), plus plasmids (small extra rings of DNA)."
+      ],
+      "tip": "Say a chromosome is made of DNA and protein, found in the nucleus, and not that it is 'made of genes'. Examiners also ask you to distinguish chromatin from chromosomes (same material, uncoiled versus condensed) and to give the human numbers: 46 in a body cell and 23 in a gamete."
     },
     {
       "h": "Histones and how DNA is packed (Higher Level only)",
-      "b": "Histones are the proteins that pack eukaryotic DNA into a small space.",
+      "b": "Histones are the proteins that pack eukaryotic DNA into a small space. Without them, about 2 m of DNA per cell could not fit in the nucleus or be moved safely when the cell divides.",
       "points": [
         "Histones are small proteins around which the DNA of a eukaryotic chromosome is wound. They are positively charged, while the phosphate groups of the DNA backbone are negatively charged, so DNA binds tightly to them.",
         "The DNA wraps nearly twice around a core of eight histone proteins, forming a bead called a nucleosome. Nucleosomes are joined by short stretches of linker DNA, like beads on a string.",
         "The string of nucleosomes coils and loops further, and before division it condenses into the visible chromosome.",
         "Histones do three jobs: they pack a very long DNA molecule into a small nucleus, they protect the DNA and keep it untangled during division, and they help control which genes can be read.",
-        "DNA wound tightly around histones cannot be reached by the enzymes that read genes, so those genes are switched off; loosely packed regions are active.",
-        "Chemical changes to histones are one of the epigenetic mechanisms described in “Genetic and epigenetic mechanisms”.",
+        "DNA wound tightly around histones cannot be reached by the enzymes that read genes, so those genes are switched off; loosely packed regions are active, which means their genes can be read.",
+        "Chemical changes to histones are one of the epigenetic mechanisms (ways of switching genes on or off without changing the DNA sequence). There is more on this in Genetic and epigenetic mechanisms.",
         "Diagram: DNA double helix wound around histone cores to form nucleosomes, then the coiled chromatin fibre, then a condensed chromosome; label DNA, histone, nucleosome, chromatin and chromosome."
-      ]
+      ],
+      "tip": "Explain the charge link: positive histones attract the negative phosphate groups of DNA, so the two bind tightly. When asked for the roles of histones, give all three: packing, protection and control of gene reading."
     },
     {
       "h": "Chromatids and the centromere (Higher Level only)",
+      "b": "Before a cell divides it copies its DNA, so each chromosome ends up as two joined copies. Chromatids and the centromere are the names for those copies and for the point that holds them together.",
       "points": [
-        "Before a cell divides, each chromosome's DNA is copied (see “DNA replication and mitosis in the cell cycle”). The two identical copies stay joined together; each copy is a chromatid.",
-        "A replicated chromosome therefore consists of two identical sister chromatids, each containing one complete DNA molecule with the same genes and the same alleles.",
-        "The centromere is the constricted region of a chromosome where the two sister chromatids are held together. Spindle fibres attach at the centromere during division and pull the chromatids apart to opposite poles (see “Mitosis and meiosis”).",
+        "Before a cell divides, each chromosome's DNA is copied, a process called replication. The two identical copies stay joined together; each copy is a chromatid. There is more on this in DNA replication and mitosis in the cell cycle.",
+        "A replicated chromosome therefore consists of two identical sister chromatids, each containing one complete DNA molecule with the same genes and the same alleles (versions of a gene).",
+        "The centromere is the constricted (narrowed) region of a chromosome where the two sister chromatids are held together. Spindle fibres (protein threads that move chromosomes in division) attach at the centromere and pull the chromatids apart to opposite poles of the cell.",
         "Once separated, each chromatid is a chromosome in its own right.",
-        "The centromere is in a fixed position for each chromosome, dividing it into two arms of equal or different length. Its position, together with length and banding pattern, is used to identify each chromosome.",
+        "The centromere is in a fixed position for each chromosome, dividing it into two arms of equal or different length, so it is not always in the middle. Its position, together with length and banding pattern, is used to identify each chromosome.",
         "Before replication, a chromosome is one DNA molecule and one chromatid. After replication it is still one chromosome but has two chromatids, the X shape usually drawn; the two arms of the X are chromatids, not separate chromosomes.",
-        "Homologous chromosomes may carry different alleles, whereas sister chromatids are identical copies of each other.",
-        "Diagram: an unreplicated chromosome (single rod) beside a replicated chromosome (X shape); label chromatid, sister chromatids, centromere, arm, and a gene locus marked as a band at the same position on both chromatids. Optionally add a homologous pair of replicated chromosomes, with the same locus marked on each, labelled homologous chromosomes."
-      ]
+        "Homologous chromosomes (a pair, one from each parent) may carry different alleles, whereas sister chromatids are identical copies of each other, so they always carry identical alleles.",
+        "Diagram: an unreplicated chromosome (single rod) beside a replicated chromosome (X shape); label chromatid, sister chromatids, centromere, arm, and a gene locus marked as a band at the same position on both chromatids. Optionally add a homologous pair of replicated chromosomes, same locus marked on each, labelled homologous chromosomes."
+      ],
+      "tip": "When you draw a chromosome, show two sister chromatids joined at a labelled centromere. Don't call each arm of the X a chromosome, and don't confuse sister chromatids (identical copies) with homologous chromosomes (one from each parent)."
     },
     {
       "h": "The role of a gene",
+      "b": "A gene is the unit of heredity, the piece of information that is passed on from cell to cell and parent to offspring. Genes sit at fixed places on chromosomes and, through the proteins they code for, control traits.",
       "points": [
-        "A gene is a section of DNA on a chromosome that codes for a protein (see “Genes, proteins and traits”).",
+        "A gene is a section of DNA on a chromosome that codes for a protein. This means a chromosome is not simply a string of genes: genes are sections of its DNA.",
         "Each gene has a fixed position on a particular chromosome, called its locus (plural loci). The locus of a gene is the same in every member of a species.",
-        "A gene is the unit of heredity. It carries the information to make one protein, although some genes code instead for RNA molecules that are used directly, such as ribosomal RNA and transfer RNA.",
-        "Through the protein it codes for, a gene controls a trait. The gene is copied and passed to daughter cells in division and to offspring in gametes.",
+        "A gene carries the information to make one protein, although some genes code instead for RNA molecules that are used directly, such as ribosomal RNA and transfer RNA. So not every gene codes for a protein.",
+        "Through the protein it codes for, a gene controls a trait (a characteristic of the organism). The gene is copied and passed to daughter cells in division and to offspring in gametes (sex cells).",
         "Humans have about 20,000 protein-coding genes spread across the 23 kinds of chromosome; each chromosome carries hundreds to thousands of genes.",
-        "Because homologous chromosomes carry the same genes, a body cell has two copies of each autosomal gene. These may be the same or different versions, called alleles (see “Key concepts of information transfer”)."
-      ]
+        "Because homologous chromosomes carry the same genes, a body cell has two copies of each autosomal gene. These may be the same or different versions, called alleles. There is more on this in Key concepts of information transfer."
+      ],
+      "tip": "Define a locus as the fixed position of a gene on a chromosome, and explain the role of a gene in three parts: it codes for a protein, controls a trait, and is passed on in division and gametes."
     },
     {
       "h": "Coding and non-coding DNA",
+      "b": "Most of the DNA in a human cell does not code for protein. Separating the small coding part from the large non-coding part shows that a chromosome is far more than a list of protein recipes.",
       "points": [
         "Coding DNA is DNA whose base sequence is used to make a protein: the protein-coding parts of genes. Only about 1–2% of human DNA is coding DNA.",
-        "Non-coding DNA is all DNA that does not code for protein, about 98% of the human genome.",
-        "Regulatory sequences beside genes act as switches, controlling when, where and how much a gene is expressed.",
-        "Genes for functional RNA (rRNA and tRNA) are non-coding DNA, as are introns, the non-coding sections within genes, which are copied but removed from the mRNA before it is used to make protein.",
+        "Non-coding DNA is all DNA that does not code for protein, about 98% of the human genome. It includes several kinds of sequence, listed in the next points.",
+        "Regulatory sequences beside genes act as switches, controlling when, where and how much a gene is expressed (used to make its product).",
+        "Genes for functional RNA (rRNA and tRNA) are non-coding DNA, as are introns, the non-coding sections within genes, which are copied into mRNA but removed before it is used to make protein.",
         "Repeated sequences, such as the DNA at centromeres and at the ends of chromosomes (telomeres), protect the chromosome and help it divide correctly. Some non-coding DNA has a function that is still unknown.",
-        "Non-coding DNA was once called “junk DNA”, but much of it is now known to have functions, especially in regulating genes. Changes in regulatory DNA can change a trait without changing any protein.",
-        "Repeated non-coding sequences vary greatly in length between people, which is why they are used in DNA profiling.",
+        "Non-coding DNA was once called 'junk DNA', but much of it is now known to have functions, especially in regulating genes. Changes in regulatory DNA can change a trait without changing any protein.",
+        "Repeated non-coding sequences vary greatly in length between people, which is why they are used in DNA profiling (identifying individuals from their DNA).",
         "Diagram: a stretch of a chromosome's DNA drawn as a line, with two genes shown as boxes (each with a regulatory region at one end and coding sections separated by an intron), and the DNA between genes labelled non-coding; label gene, coding DNA, non-coding DNA, regulatory sequence and intron."
-      ]
+      ],
+      "tip": "Distinguish coding from non-coding DNA with the percentages: about 1–2% codes for protein and about 98% does not. Don't say non-coding DNA is all junk, because much of it regulates genes."
     }
   ],
   "keyTerms": [

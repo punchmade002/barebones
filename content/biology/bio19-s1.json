@@ -6,70 +6,90 @@
   "notes": [
     {
       "h": "The two divisions of the nervous system",
-      "b": "The nervous system detects stimuli and coordinates responses by carrying nerve impulses.",
+      "b": "The nervous system detects stimuli (changes in the surroundings or inside the body) and coordinates responses by carrying nerve impulses. To do this it is split into two divisions: one that makes decisions and one that carries messages.",
       "points": [
-        "The central nervous system (CNS) is the brain and spinal cord.",
-        "The peripheral nervous system (PNS) is all the nerves outside the CNS.",
-        "The CNS receives information, processes it and sends out instructions.",
-        "The PNS carries impulses between the CNS and the rest of the body.",
-        "A neuron is a nerve cell; a nerve is a bundle of many neuron fibres wrapped in connective tissue.",
-        "A nerve impulse is an electrochemical signal travelling along a neuron."
-      ]
+        "The central nervous system (CNS) is the brain and spinal cord, the control centre of the body.",
+        "The peripheral nervous system (PNS) is all the nerves outside the CNS, so it reaches every part of the body.",
+        "The CNS receives information, processes it and sends out instructions, which is why it is the part that decides what to do.",
+        "The PNS carries impulses between the CNS and the rest of the body, so it is the communication line that links the CNS to receptors and effectors.",
+        "A neuron is a nerve cell; a nerve is a bundle of many neuron fibres wrapped in connective tissue, so one nerve carries many separate signals at once.",
+        "A nerve impulse is an electrochemical signal travelling along a neuron, which is how information moves around the body."
+      ],
+      "tip": "You may be asked to name the two parts of the CNS (brain and spinal cord) and to distinguish the CNS from the PNS. Say that the CNS processes information, while the PNS carries it to and from the CNS."
     },
     {
-      "h": "Fibres and cell bodies in the PNS",
+      "h": "Sensory and motor neurons in the PNS",
+      "b": "Information has to travel into the CNS and instructions have to travel out again. The PNS does both jobs using two kinds of neuron, and its fibres run through the body bundled in nerves.",
       "points": [
-        "Sensory neurons carry impulses from receptors to the CNS.",
-        "Motor neurons carry impulses from the CNS to effectors, which are muscles and glands.",
-        "Nerve fibres of the PNS run through the body inside nerves.",
-        "Humans have 31 pairs of spinal nerves, which leave the spinal cord between the vertebrae.",
-        "Each spinal nerve joins the cord by two roots.",
+        "Sensory neurons carry impulses from receptors (cells that detect stimuli) to the CNS, so the CNS learns what is happening.",
+        "Motor neurons carry impulses from the CNS to effectors, which are muscles and glands, so the CNS's instructions produce a response such as a movement or a secretion.",
+        "Nerve fibres of the PNS run through the body inside nerves, which carry them to almost every tissue.",
+        "Humans have 31 pairs of spinal nerves, which leave the spinal cord between the vertebrae (the bones of the backbone).",
+        "Each spinal nerve joins the cord by two roots, short branches that attach it to the spinal cord, so sensory and motor fibres enter and leave by separate routes.",
         "The dorsal (back) root carries sensory fibres into the spinal cord.",
-        "The ventral (front) root carries motor fibres out of the spinal cord.",
-        "Sensory neuron cell bodies lie in the dorsal root ganglion, a swelling on the dorsal root just outside the spinal cord.",
-        "Motor neuron cell bodies lie in the grey matter of the CNS.",
-        "Interneurons lie entirely within the CNS."
+        "The ventral (front) root carries motor fibres out of the spinal cord."
       ]
     },
     {
-      "h": "Structure and functions of the spinal cord",
-      "b": "The spinal cord runs from the base of the brain down the back, inside the vertebral column, which protects it.",
+      "h": "Where the cell bodies are found",
+      "b": "A neuron's cell body (the part containing the nucleus) can sit in different places depending on the type of neuron. Knowing where each type lies tells you which part of the nervous system it belongs to.",
       "points": [
-        "In transverse section, a central canal lies at the centre of the cord.",
+        "Sensory neuron cell bodies lie in the dorsal root ganglion, a swelling on the dorsal root just outside the spinal cord.",
+        "Motor neuron cell bodies lie in the grey matter of the CNS, inside the cord, and their fibres leave through the ventral root.",
+        "Interneurons (neurons that link one neuron to another) lie entirely within the CNS, so they never leave the brain or spinal cord."
+      ],
+      "tip": "A common question asks where the cell bodies of sensory and motor neurons are found. Sensory: dorsal root ganglion, outside the cord. Motor: grey matter of the CNS."
+    },
+    {
+      "h": "Functions of the spinal cord",
+      "b": "The spinal cord runs from the base of the brain down the back, inside the vertebral column, which protects it. It is the main route between the brain and the rest of the body.",
+      "points": [
+        "The spinal cord relays impulses between the body and the brain, so sensory information travels up to the brain and instructions travel back down.",
+        "It carries out spinal reflexes, which are fast automatic responses, such as the withdrawal reflex when you touch something painful. There is more on this in The reflex action."
+      ]
+    },
+    {
+      "h": "Structure of the spinal cord in section",
+      "b": "Cut straight across (a transverse section), the spinal cord shows a clear pattern of grey and white tissue around a central canal. The two tissues differ because they are made of different parts of neurons.",
+      "points": [
+        "A central canal, containing cerebrospinal fluid (a watery fluid that cushions the CNS), lies at the centre of the cord.",
         "Around the canal is an H- or butterfly-shaped core of grey matter.",
         "White matter surrounds the grey matter.",
-        "Grey matter is made of cell bodies and unmyelinated interneurons.",
-        "White matter is made of myelinated axons; it is white because myelin is fatty.",
+        "Grey matter is made of cell bodies and unmyelinated interneurons (interneurons without a fatty myelin sheath), which is why it looks grey.",
+        "White matter is made of myelinated axons (long fibres coated in myelin); it is white because myelin is fatty.",
         "In the brain the arrangement is reversed: the cerebral cortex is grey matter on the outside, with white matter beneath.",
-        "The spinal cord relays impulses between the body and the brain.",
-        "It carries out spinal reflexes, such as the withdrawal reflex described in The reflex action.",
         "Diagram: transverse section of the spinal cord labelling central canal, grey matter, white matter, dorsal root, dorsal root ganglion, ventral root and spinal nerve."
-      ]
+      ],
+      "tip": "Exams ask you to label a transverse section of the spinal cord and say where grey and white matter are and what each contains. Grey matter is inside and holds cell bodies and interneurons; white matter is outside and holds myelinated axons."
     },
     {
       "h": "Protecting the CNS",
-      "b": "The CNS is protected by bone, membranes and fluid.",
+      "b": "The brain and spinal cord are soft and easily damaged, and nerve tissue does not repair well. They are protected by bone, membranes and fluid.",
       "points": [
-        "The brain is protected by the skull (cranium).",
-        "The spinal cord is protected by the vertebrae.",
+        "The brain is protected by the skull (cranium), a rigid bony case.",
+        "The spinal cord is protected by the vertebrae, which form a bony tunnel around it.",
         "Three membranes, the meninges, surround the brain and spinal cord.",
         "Cerebrospinal fluid lies between the inner meninges and fills the brain's cavities and the central canal.",
-        "Cerebrospinal fluid cushions the CNS against shock and supplies it with nutrients.",
+        "Cerebrospinal fluid cushions the CNS against shock, so a knock to the head or back is absorbed, and it supplies the CNS with nutrients.",
         "Meningitis is inflammation of the meninges, usually caused by bacterial or viral infection."
-      ]
+      ],
+      "tip": "Be ready to give the function of cerebrospinal fluid (cushioning against shock and supplying nutrients) or of the meninges (membranes surrounding and protecting the brain and cord)."
     },
     {
       "h": "Cerebrum",
+      "b": "The cerebrum is the part of the brain responsible for conscious activity, which is why it is the biggest part.",
       "points": [
         "The cerebrum is the largest part of the brain, divided into left and right cerebral hemispheres joined by the corpus callosum.",
         "The cerebral cortex, its outer layer, is grey matter deeply folded to increase its surface area, and so the number of neurons.",
-        "Each cerebral hemisphere controls the opposite side of the body.",
-        "The cerebrum controls voluntary movement and interprets the senses.",
+        "Each cerebral hemisphere controls the opposite side of the body, so the left hemisphere controls the right side and vice versa.",
+        "The cerebrum controls voluntary movement (movement you choose to make) and interprets the senses.",
         "It also governs memory, thought, language, intelligence and personality."
-      ]
+      ],
+      "tip": "Link structure to function: the folded cortex gives a large surface area, so room for more neurons, which suits the cerebrum's complex jobs."
     },
     {
       "h": "Cerebellum",
+      "b": "Smooth, accurate movement needs a part of the brain dedicated to coordinating it. That is the cerebellum.",
       "points": [
         "The cerebellum lies at the back of the brain, below the cerebrum, and also has a folded surface.",
         "It coordinates muscular movement and controls balance and posture."
@@ -77,25 +97,30 @@
     },
     {
       "h": "Medulla oblongata",
+      "b": "Some vital actions must carry on without you thinking about them, even during sleep. The medulla oblongata controls these.",
       "points": [
         "The medulla oblongata lies at the base of the brain, where it joins the spinal cord.",
-        "It controls involuntary actions, including breathing rate, heart rate and blood pressure.",
+        "It controls involuntary actions (those that happen without conscious control), including breathing rate, heart rate and blood pressure.",
         "It controls reflexes such as swallowing, coughing and sneezing."
       ]
     },
     {
       "h": "Hypothalamus",
+      "b": "The hypothalamus is a small region that keeps conditions in the body steady and connects the nervous system to the hormone system.",
       "points": [
         "The hypothalamus lies below the cerebrum and above the pituitary gland, to which it is connected.",
-        "It controls homeostasis: body temperature, water balance, hunger and thirst. Feedback loops are covered in Homeostasis.",
-        "It links the nervous and hormonal systems by controlling the pituitary gland. The hormones of the pituitary are covered in The Endocrine System."
-      ]
+        "It controls homeostasis (keeping the internal environment steady): body temperature, water balance, hunger and thirst. There is more on this in Homeostasis.",
+        "It links the nervous and hormonal systems by controlling the pituitary gland, so nerve signals can lead to hormone release."
+      ],
+      "tip": "Exams ask for the function of named brain parts. For the hypothalamus, give homeostasis (temperature, water balance, hunger, thirst) and control of the pituitary."
     },
     {
       "h": "Drawing the brain",
+      "b": "Questions often ask you to label the brain, so know where each part sits relative to the others.",
       "points": [
         "Diagram: vertical section of the brain labelling cerebrum, cerebral cortex, corpus callosum, cerebellum, medulla oblongata, hypothalamus and pituitary gland, with the spinal cord continuing below."
-      ]
+      ],
+      "tip": "Label a diagram of the brain and give the function of each named part: cerebrum, cerebellum, medulla and hypothalamus."
     }
   ],
   "keyTerms": [

@@ -6,55 +6,71 @@
   "notes": [
     {
       "h": "Mitosis: genetic information stays the same",
+      "b": "When a cell divides, its genetic information has to go somewhere. In mitosis the information is passed on unchanged, so the new cells are exact genetic copies of the cell they came from.",
       "points": [
-        "Mitosis is nuclear division that produces two nuclei, each with the same number of chromosomes as the parent nucleus and genetically identical to it. A diploid cell gives two diploid cells (2n to 2n); a haploid cell, in organisms that have haploid stages, gives haploid cells (n to n).",
-        "Every chromosome is copied exactly before mitosis. During mitosis the two identical copies of each chromosome are separated, so each new nucleus receives one copy of every chromosome. Homologous chromosomes do not pair up. How the copying and the separation relate is in 'DNA replication and mitosis in the cell cycle'.",
-        "Cells produced by mitosis from one parent cell form a clone: a group of genetically identical cells or organisms. Mitosis on its own produces no genetic variation; the only source of difference is a rare mistake in copying, a mutation."
-      ]
+        "Mitosis is nuclear division (division of the nucleus, which holds the chromosomes) that produces two nuclei, each with the same number of chromosomes as the parent nucleus and genetically identical to it.",
+        "A diploid cell (one with two sets of chromosomes) gives two diploid cells (2n to 2n). A haploid cell (one with a single set), in organisms that have haploid stages, gives haploid cells (n to n).",
+        "Every chromosome is copied exactly before mitosis. During mitosis the two identical copies of each chromosome are separated, so each new nucleus receives one copy of every chromosome. This is one division giving two daughter cells.",
+        "Homologous chromosomes (the matching pair, one from each parent) do not pair up in mitosis. There is more on this in 'DNA replication and mitosis in the cell cycle'.",
+        "Cells produced by mitosis from one parent cell form a clone: a group of genetically identical cells or organisms.",
+        "Mitosis on its own produces no genetic variation, because the information is copied exactly. The only source of difference is a rare mistake in copying, called a mutation."
+      ],
+      "tip": "In mitosis it is copies of each chromosome that separate, not homologous chromosomes. Don't say mitosis 'causes some variation': the only exception is a mutation."
     },
     {
       "h": "Meiosis: genetic information is varied",
+      "b": "Sexual reproduction needs cells with half the usual number of chromosomes, and it also produces variety. Meiosis does both: it halves the chromosome number and shuffles the genetic information, so no two cells are alike.",
       "points": [
         "Meiosis is nuclear division that halves the chromosome number, producing four haploid nuclei from one diploid nucleus (2n to n). It involves two divisions, one after the other, after the DNA has been copied once.",
         "In the first division, homologous chromosomes pair up and then separate, one of each pair going to each new cell, so each cell receives one complete set. In the second division the two copies of each chromosome separate.",
-        "The four cells differ from each other and from the parent because the homologous pairs line up and separate independently of one another (random, or independent, assortment). Each gamete therefore receives a random mixture of maternal and paternal chromosomes. With 23 pairs, one person can make 2²³ (more than 8 million) different combinations of chromosomes in their gametes. This underlies the independent assortment described in 'Mendel's Laws'.",
-        "Homologous chromosomes can also exchange matching segments during the first division (crossing over), mixing their alleles further.",
-        "Random fertilisation adds further variation, since any one of a huge number of different sperm may fuse with any one of a huge number of different eggs. Variation from sexual reproduction and its role in evolution are in 'Variation'.",
-        "Meiosis keeps the chromosome number constant across generations: gametes are haploid, so the zygote formed at fertilisation is diploid (n + n = 2n). Without meiosis the number would double every generation."
-      ]
+        "The four cells differ from each other and from the parent because the homologous pairs line up and separate independently of one another (random, or independent, assortment). Each gamete (sex cell) therefore receives a random mixture of maternal and paternal chromosomes.",
+        "With 23 pairs, one person can make 2²³ (more than 8 million) different combinations of chromosomes in their gametes. This is the basis of Mendel's Law of Independent Assortment. There is more on this in 'Mendel's Laws'.",
+        "Homologous chromosomes can also exchange matching segments during the first division (crossing over), mixing their alleles (versions of a gene) further.",
+        "Random fertilisation adds further variation, since any one of a huge number of different sperm may fuse with any one of a huge number of different eggs. So offspring of sexual reproduction differ from their parents and from each other, except identical twins.",
+        "Meiosis keeps the chromosome number constant across generations: gametes are haploid, so the zygote (the cell formed at fertilisation) is diploid (n + n = 2n). Without meiosis the number would double every generation."
+      ],
+      "tip": "Meiosis makes four cells, not two, and they are haploid, not 'half a chromosome'. If asked why meiosis is important, give both variation and halving the chromosome number. If asked why offspring vary, use independent assortment and random fertilisation."
     },
     {
       "h": "Roles in unicellular organisms",
+      "b": "A unicellular organism is a single cell, so when it divides it is reproducing. Mitosis gives it a fast way to reproduce, and meiosis gives some of them a way to add variation.",
       "points": [
-        "In unicellular eukaryotes such as Amoeba and yeast, mitosis followed by division of the cell is asexual reproduction: one organism becomes two genetically identical organisms (in yeast, by budding).",
-        "Asexual reproduction is fast, needs only one parent and passes on a successful set of genes unchanged, so a population can grow quickly when conditions are good. But all the offspring are alike, so one change in conditions, such as a new disease, can affect them all.",
-        "Some unicellular eukaryotes also reproduce sexually, using meiosis to produce varied haploid cells, often when conditions become poor. For example, starved diploid yeast cells undergo meiosis to form four haploid spores, which can survive harsh conditions. The variation makes it more likely that some offspring survive a changed environment.",
-        "Prokaryotes (bacteria) have neither mitosis nor meiosis. They copy their single circular chromosome and divide by binary fission (see 'Prokaryotic and eukaryotic cells')."
-      ]
+        "In unicellular eukaryotes (organisms made of one cell with a nucleus) such as Amoeba and yeast, mitosis followed by division of the cell is asexual reproduction: one organism becomes two genetically identical organisms. In yeast this happens by budding.",
+        "Asexual reproduction is fast, needs only one parent and passes on a successful set of genes unchanged, so a population can grow quickly when conditions are good.",
+        "The drawback is that all the offspring are alike, so one change in conditions, such as a new disease, can affect them all.",
+        "Some unicellular eukaryotes also reproduce sexually, using meiosis to produce varied haploid cells, often when conditions become poor. For example, starved diploid yeast cells undergo meiosis to form four haploid spores, which can survive harsh conditions.",
+        "The variation from meiosis makes it more likely that some offspring survive a changed environment.",
+        "Prokaryotes (bacteria, which have no nucleus) have neither mitosis nor meiosis. They copy their single circular chromosome and divide by binary fission. There is more on this in 'Prokaryotic and eukaryotic cells'."
+      ],
+      "tip": "Exams ask for a function of mitosis in single-celled organisms: asexual reproduction. Don't give binary fission as an example of mitosis, because bacteria don't do mitosis."
     },
     {
       "h": "Roles in multicellular organisms",
+      "b": "A multicellular organism uses mitosis to build and maintain its body, and meiosis only to make cells for sexual reproduction. Keeping these jobs separate matters for what offspring inherit.",
       "points": [
-        "Mitosis for growth: a multicellular organism develops from a single cell, the zygote, by repeated mitosis, so every body cell has the same genetic information as the zygote. In plants, growth by mitosis is concentrated at the tips of roots and shoots (meristems).",
-        "Mitosis for repair and replacement: cells that wear out or are damaged are replaced, e.g. when a cut heals, when skin cells and the cells lining the gut are replaced, and when new blood cells are made in the bone marrow (stem cells there divide by mitosis).",
+        "Mitosis for growth: a multicellular organism develops from a single cell, the zygote, by repeated mitosis, so every body cell has the same genetic information as the zygote.",
+        "In plants, growth by mitosis is concentrated at the tips of roots and shoots (regions called meristems).",
+        "Mitosis for repair and replacement: cells that wear out or are damaged are replaced, for example when a cut heals, when skin cells and the cells lining the gut are replaced, and when new blood cells are made in the bone marrow (stem cells there divide by mitosis).",
         "Mitosis for asexual reproduction: some multicellular organisms, including many plants, also reproduce asexually by mitosis, producing clones of the parent. Methods of asexual reproduction in plants are not on the specification.",
-        "Meiosis for sexual reproduction takes place only in the reproductive organs. In humans it happens in the testes (forming sperm) and the ovaries (forming eggs) (see 'Gametes and fertilisation'). In flowering plants it happens in the anthers and the ovules, leading to the pollen grains and the egg cell.",
-        "Because body cells are made by mitosis and gametes by meiosis, a change to the DNA of a body cell, such as a skin cell, is not passed to offspring, but a change in a cell that gives rise to gametes can be (see 'Mutations')."
-      ]
+        "Meiosis for sexual reproduction takes place only in the reproductive organs. In humans it happens in the testes (forming sperm) and the ovaries (forming eggs). In flowering plants it happens in the anthers and the ovules, leading to the pollen grains and the egg cell.",
+        "Because body cells are made by mitosis and gametes by meiosis, a change to the DNA of a body cell, such as a skin cell, is not passed to offspring. A change in a cell that gives rise to gametes can be. There is more on this in 'Mutations'."
+      ],
+      "tip": "Exams ask for a function of mitosis in multicellular organisms (growth, repair or replacement) and where meiosis happens in humans or plants. Name the testes and ovaries, or the anthers and ovules, not 'the reproductive system'. Meiosis never happens in body cells."
     },
     {
       "h": "Mitosis and meiosis compared",
+      "b": "Both divisions share machinery but do different jobs. Comparing them point by point shows how mitosis keeps information the same and meiosis varies it.",
       "points": [
-        "Similarities: both are nuclear divisions of eukaryotic cells; both follow DNA replication in interphase; both use a spindle to separate chromosomes; both are followed by cytokinesis.",
-        "Number of divisions: mitosis has one; meiosis has two.",
-        "Number of cells produced: mitosis gives two; meiosis gives four.",
-        "Chromosome number: mitosis keeps it the same (2n to 2n); meiosis halves it (2n to n).",
-        "Genetic make-up of the cells produced: mitosis gives cells identical to each other and to the parent; meiosis gives cells that differ from each other and from the parent.",
-        "Homologous chromosomes: they do not pair in mitosis; in meiosis they pair and then separate.",
+        "Similarities: both are nuclear divisions of eukaryotic cells; both follow DNA replication (copying of the DNA) in interphase (the period between divisions); both use a spindle (a structure of fibres) to separate chromosomes; both are followed by cytokinesis (division of the cytoplasm).",
+        "Number of divisions and cells: mitosis has one division and gives two cells; meiosis has two divisions and gives four cells.",
+        "Chromosome number: mitosis keeps it the same (2n to 2n); meiosis halves it (2n to n), so its cells are haploid.",
+        "Genetic make-up of the cells produced: mitosis gives cells identical to each other and to the parent; meiosis gives cells that differ from each other and from the parent. Homologous chromosomes do not pair in mitosis; in meiosis they pair and then separate.",
         "Where it happens: mitosis in body cells throughout the organism; meiosis only in the reproductive organs (testes, ovaries, anthers and ovules).",
-        "Role: mitosis serves growth, repair, replacement and asexual reproduction in both unicellular and multicellular organisms; meiosis produces gametes or spores for sexual reproduction, giving variation and keeping the chromosome number constant across generations.",
-        "Diagram: two simple flow diagrams side by side for a cell with 2n = 4 (one long and one short homologous pair, the two parents' chromosomes shaded differently). Mitosis: arrow to two cells, each with 2n = 4 and the same shading as the parent. Meiosis: arrow to four cells, each with n = 2, showing different combinations of shaded chromosomes. Label diploid, haploid and homologous pair."
-      ]
+        "Role of meiosis: it produces gametes or spores for sexual reproduction, giving variation and keeping the chromosome number constant across generations.",
+        "Role in unicellular and multicellular organisms: mitosis serves growth, repair, replacement and asexual reproduction in both.",
+        "Diagram: two flow diagrams for a cell with 2n = 4 (one long, one short homologous pair, parents' chromosomes shaded differently). Mitosis: two cells, 2n = 4, same shading as the parent. Meiosis: four cells, n = 2, different shadings. Label diploid, haploid, homologous pair."
+      ],
+      "tip": "Exams ask for differences between mitosis and meiosis. Give each difference as a pair, such as two cells against four, or identical against varied, rather than describing only one process."
     }
   ],
   "keyTerms": [

@@ -6,35 +6,51 @@
   "notes": [
     {
       "h": "What DNA replication is",
+      "b": "Before a cell divides, it has to copy its DNA, the molecule that carries its genetic instructions. This copying is called DNA replication, and it is what lets one cell become two with the same instructions.",
       "points": [
         "DNA replication is the process by which a DNA molecule makes an exact copy of itself, giving two identical DNA molecules.",
-        "In eukaryotic cells it happens in the nucleus during interphase, before the cell divides; it is the DNA-synthesis part of the cell cycle (see 'The cell cycle'). Every chromosome in the nucleus is copied once, and only once, per cycle.",
+        "In eukaryotic cells (cells with a nucleus) it happens in the nucleus during interphase, the growing phase before the cell divides. It is the DNA-synthesis part of the cell cycle, the repeating sequence of events in a dividing cell.",
+        "Every chromosome in the nucleus is copied once, and only once, per cell cycle, so the DNA is doubled exactly one time before each division.",
         "Replication is needed because a cell that divides must give each daughter cell a complete and identical set of genetic instructions. Without replication each daughter cell would receive only half the DNA."
-      ]
+      ],
+      "tip": "If asked when and where replication happens, answer in the nucleus during interphase, before the cell divides. If asked why it is necessary before division, say each daughter cell needs a complete, identical set of DNA, and without replication each would get only half. There is more on the cycle itself in The cell cycle."
     },
     {
       "h": "How DNA is replicated",
+      "b": "A DNA molecule is a double helix (a twisted ladder) made of two strands held together by pairs of bases. Replication works by pulling the two strands apart and using each one as a pattern for a new partner strand. Follow the steps in order.",
       "points": [
-        "1. Enzymes unwind the double helix and separate (unzip) the two strands by breaking the weak hydrogen bonds between the base pairs. The strong bonds of each sugar–phosphate backbone are not broken, so each strand stays intact.",
-        "2. Each separated single strand acts as a template (pattern) for building a new strand.",
+        "1. Enzymes (proteins that speed up reactions) unwind the double helix and separate, or unzip, the two strands by breaking the weak hydrogen bonds between the base pairs. The strong bonds of each sugar–phosphate backbone are not broken, so each strand stays intact.",
+        "2. Each separated single strand acts as a template (pattern) for building a new strand, because its exposed bases decide which nucleotides can attach.",
         "3. Free DNA nucleotides in the nucleus line up against the exposed bases of each template strand by complementary base pairing: A pairs with T, and C pairs with G.",
         "4. Enzymes join the new nucleotides to each other to form a new sugar–phosphate backbone, making a complementary strand; hydrogen bonds form between the new and old bases.",
-        "5. Each new DNA molecule winds back into a double helix. The result is two DNA molecules, each made of one original (parent) strand and one new strand, which is why replication is described as semi-conservative (the evidence is in 'Modelling DNA replication and information flow').",
-        "Because base pairing is fixed, each new strand is an exact complement of its template, so both new molecules have the same base sequence as the original. For example, a section of DNA with one strand ATTGCA and the other strand TAACGT separates: ATTGCA is a template for a new TAACGT, and TAACGT is a template for a new ATTGCA, giving two molecules identical to the original.",
-        "Enzymes make replication fast and accurate; they also check the new strands and correct most mistakes. A rare uncorrected mistake changes the base sequence, which is a mutation (detail in 'Mutations').",
-        "Diagram: a short section of DNA (about four base pairs) drawn as a ladder, showing the parent molecule, the strands separating with free nucleotides pairing with the exposed bases, and two daughter molecules each with one old strand (drawn dark) and one new strand (drawn light). Label parent strand, new strand, hydrogen bonds broken, free nucleotide, complementary base pair and enzyme."
-      ]
+        "5. Each new DNA molecule winds back into a double helix. The result is two DNA molecules, each made of one original (parent) strand and one new strand.",
+        "This is why replication is described as semi-conservative: half of each new molecule is conserved from the parent. There is more on the evidence for this in Modelling DNA replication and information flow."
+      ],
+      "tip": "Say that replication breaks hydrogen bonds between bases, not the sugar–phosphate backbone, and that it happens in interphase and makes two DNA molecules, not two cells."
+    },
+    {
+      "h": "Why the two new DNA molecules are identical",
+      "b": "Replication has to be accurate, because any error is passed on to every daughter cell. Fixed base pairing and checking enzymes are what keep the copies exact.",
+      "points": [
+        "Because base pairing is fixed, each new strand is an exact complement of its template, so both new molecules have the same base sequence as the original.",
+        "For example, a section of DNA with one strand ATTGCA and the other strand TAACGT separates: ATTGCA is a template for a new TAACGT, and TAACGT is a template for a new ATTGCA, giving two molecules identical to the original.",
+        "Enzymes make replication fast and accurate; they also check the new strands and correct most mistakes. A rare uncorrected mistake changes the base sequence, which is a mutation (a change in the DNA).",
+        "Diagram: a short section of DNA (about four base pairs) as a ladder: parent molecule, strands separating with free nucleotides pairing, two daughter molecules each with one old strand (dark) and one new strand (light). Label parent strand, new strand, hydrogen bonds broken, free nucleotide, complementary base pair, enzyme."
+      ],
+      "tip": "To give the complementary strand on a given template, swap each base for its partner (A with T, C with G) and never use U, which is only used when RNA is made."
     },
     {
       "h": "The role of replication and mitosis in the cell cycle",
+      "b": "Replication copies the DNA, but copying alone does not make two cells. Mitosis (the division of the nucleus) and cytokinesis (the division of the rest of the cell) then share the copies out, so each new cell ends up with a full set.",
       "points": [
         "Replication in interphase doubles the DNA. Afterwards each chromosome consists of two identical copies joined together, so the cell temporarily has twice the normal amount of DNA. A human cell still has 46 chromosomes, but each one is double.",
         "Mitosis then separates the two copies of every chromosome, sending one copy to each end of the cell, so each daughter nucleus receives one copy of every chromosome: 46 chromosomes in each human daughter cell, with the same number and the same genes as the parent.",
         "Cytokinesis then divides the cell, so the amount of DNA in each daughter cell returns to the amount in the parent cell before replication. Each daughter cell can then grow and repeat the cycle.",
-        "Replication and mitosis together keep the genetic information the same in every cell of a multicellular organism, and pass identical copies to offspring in asexual reproduction (roles in 'Mitosis and meiosis').",
-        "Order matters: replication must be complete before mitosis begins, which the cell checks, and it happens only once per cycle. Otherwise daughter cells would get missing or extra DNA. When this control fails, cells can be damaged or become cancerous (see 'Cancer').",
-        "Diagram: a graph of the amount of DNA per cell (y-axis, in arbitrary units) against time (x-axis) over two cell cycles. The amount is steady at one level in early interphase, rises to double during DNA replication, stays at double until the end of mitosis, then drops back to the original level at cytokinesis. Label interphase, DNA replication, mitosis and cytokinesis."
-      ]
+        "Replication and mitosis together keep the genetic information the same in every cell of a multicellular organism, and pass identical copies to offspring in asexual reproduction. There is more on these roles in Mitosis and meiosis.",
+        "Order matters: replication must be complete before mitosis begins, which the cell checks, and it happens only once per cycle. Otherwise daughter cells would get missing or extra DNA. When this control fails, cells can be damaged or become cancerous.",
+        "Diagram: a graph of DNA per cell (y-axis, arbitrary units) against time (x-axis) over two cell cycles. DNA is steady at one level in early interphase, rises to double during replication, stays double until the end of mitosis, then drops back at cytokinesis. Label interphase, DNA replication, mitosis, cytokinesis."
+      ],
+      "tip": "Exams can ask you to read a graph of DNA per cell: it rises during replication in interphase and falls back at cytokinesis. Remember the chromosome number stays at 46 after replication; it is each chromosome that becomes double, written as two identical copies joined together."
     }
   ],
   "keyTerms": [

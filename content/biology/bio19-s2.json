@@ -6,67 +6,77 @@
   "notes": [
     {
       "h": "Stimulus, receptor and effector",
-      "b": "A reflex begins with a stimulus that a receptor detects and ends with a response from an effector.",
+      "b": "Every reflex, and every nervous response, is built from the same three parts: something that triggers it, something that detects it and something that acts. A reflex begins with a stimulus that a receptor detects and ends with a response from an effector.",
       "points": [
-        "A stimulus is a change in the internal or external environment that can be detected.",
-        "A receptor detects the stimulus.",
-        "An effector, a muscle or a gland, carries out the response."
-      ]
+        "A stimulus is a change in the internal or external environment that can be detected, such as heat on the skin or an object approaching the eye.",
+        "A receptor detects the stimulus. It is a cell or nerve ending that is sensitive to that particular type of change, and it starts the impulse.",
+        "An effector, a muscle or a gland, carries out the response. A muscle responds by contracting; a gland responds by secreting."
+      ],
+      "tip": "You may be asked to name the effector in a given reflex. It is always the muscle or gland that carries out the response, not the nerve that signals it."
     },
     {
       "h": "What a reflex action is",
+      "b": "Some situations need a response so quickly that there is no time to think. A reflex action is the body's built-in solution: a response that is fixed and does not wait for a decision.",
       "points": [
-        "A reflex action is a rapid, automatic, involuntary response to a stimulus, happening without conscious thought.",
-        "Reflexes protect the body from harm, e.g. pulling a hand from a hot object or blinking when something approaches the eye.",
-        "Reflexes also maintain posture and normal body functions; coughing and sneezing clear the airways.",
-        "Reflexes are inborn, so they are not learned.",
-        "The same stimulus always produces the same response."
-      ]
+        "A reflex action is a rapid, automatic, involuntary response to a stimulus, happening without conscious thought. Involuntary means you do not choose it or control it.",
+        "Reflexes protect the body from harm, for example pulling a hand from a hot object or blinking when something approaches the eye, so damage is limited before you even notice.",
+        "Reflexes also maintain posture and normal body functions; coughing and sneezing clear the airways, for example.",
+        "Reflexes are inborn, so they are not learned. You are born able to do them.",
+        "The same stimulus always produces the same response, which is what makes a reflex automatic and predictable."
+      ],
+      "tip": "A common question is to define a reflex action and give one example with its benefit. Include rapid, automatic and involuntary, then link the example to protection. Do not call learned automatic actions, such as riding a bike, reflexes."
     },
     {
       "h": "The reflex arc",
-      "b": "The reflex arc is the pathway an impulse follows in a reflex action.",
+      "b": "A reflex works because the nerve pathway involved is short and fixed. The reflex arc is the pathway an impulse (the electrical signal carried by nerve cells) follows in a reflex action.",
       "points": [
-        "The pathway runs receptor, sensory neuron, interneuron in the grey matter of the spinal cord, motor neuron, effector.",
-        "The sensory neuron enters the spinal cord through the dorsal root; its cell body lies in the dorsal root ganglion.",
-        "The motor neuron leaves the spinal cord through the ventral root.",
+        "The pathway runs receptor, sensory neuron, interneuron in the grey matter of the spinal cord, motor neuron, effector. The sensory neuron carries the impulse in, the motor neuron carries it out, and the interneuron connects them.",
+        "The sensory neuron enters the spinal cord through the dorsal root (the back root of the spinal nerve); its cell body lies in the dorsal root ganglion, a swelling on that root.",
+        "The motor neuron leaves the spinal cord through the ventral root (the front root), carrying the impulse out to the effector.",
         "Diagram: reflex arc drawn through a transverse section of the spinal cord, labelling receptor in the skin, sensory neuron, dorsal root ganglion, interneuron, grey matter, white matter, motor neuron, ventral root and effector muscle, with arrows showing the direction of the impulse."
-      ]
+      ],
+      "tip": "Exams ask you to draw or label a reflex arc, name the neuron types in order, and say where the interneuron is: in the grey matter of the spinal cord. Put arrows on your diagram showing the direction of the impulse."
     },
     {
       "h": "The withdrawal reflex, step by step",
-      "b": "Example: touching a hot object.",
+      "b": "Touching a hot object shows the whole reflex arc at work. Follow the impulse from the finger to the muscle that pulls the hand away.",
       "points": [
-        "1. Pain and heat receptors in the skin of the finger are stimulated.",
+        "1. Pain and heat receptors in the skin of the finger are stimulated by the hot object.",
         "2. An impulse travels along a sensory neuron to the spinal cord.",
-        "3. It passes across a synapse to an interneuron in the grey matter.",
+        "3. It passes across a synapse (the tiny gap between two neurons) to an interneuron in the grey matter.",
         "4. It passes across a synapse to a motor neuron.",
         "5. The motor neuron carries the impulse to the biceps, the effector.",
         "6. The biceps contracts and the hand is pulled away from the object."
-      ]
+      ],
+      "tip": "In this example the receptor is in the skin and the effector is the biceps muscle. Write the neurons in order: sensory, interneuron, motor. For the synapses, say only that the impulse passes across a synapse."
     },
     {
       "h": "Speed and the brain",
+      "b": "A reflex is faster than a voluntary action because of the route it takes. The brain is not left out, though: it is told what happened a moment later.",
       "points": [
-        "The impulse takes a short route through the spinal cord, crossing few synapses.",
+        "The impulse takes a short route through the spinal cord, crossing few synapses. Each synapse adds a small delay, so fewer synapses means a faster response.",
         "It does not wait for a decision by the brain, which is why reflexes are rapid.",
         "Interneurons also carry impulses up the spinal cord to the brain, so pain is felt just after the hand has moved.",
-        "The brain can sometimes override a reflex, e.g. when a person holds on to a hot plate to avoid dropping it."
-      ]
+        "The brain can sometimes override a reflex, for example when a person holds on to a hot plate to avoid dropping it."
+      ],
+      "tip": "If asked why a reflex is faster than a voluntary action, give the short route, the few synapses and no wait for a decision by the brain. Do not say reflexes bypass the brain completely, because the brain is informed afterwards."
     },
     {
       "h": "The knee-jerk reflex",
+      "b": "The knee-jerk (patellar) reflex is the simplest reflex arc, because it leaves out the interneuron. It is a useful contrast with the withdrawal reflex.",
       "points": [
-        "Tapping the tendon below the kneecap stretches the thigh muscle.",
-        "The sensory neuron synapses directly with the motor neuron in the spinal cord, with no interneuron.",
-        "The leg kicks; doctors use this reflex to test the nervous system."
-      ]
+        "Tapping the tendon below the kneecap stretches the thigh muscle, which is the stimulus.",
+        "The sensory neuron synapses directly with the motor neuron in the spinal cord, with no interneuron, so the pathway has only one synapse.",
+        "The leg kicks. Doctors use this reflex to test the nervous system, because a normal response shows the reflex pathway is working."
+      ],
+      "tip": "Remember the knee-jerk reflex has no interneuron: the sensory neuron synapses directly with the motor neuron. This is the key point to state if you are asked to compare it with the withdrawal reflex."
     },
     {
       "h": "Reflexes controlled by the brain",
+      "b": "Not every reflex passes through the spinal cord. Some are controlled by the brain instead, but they are still rapid, automatic and involuntary.",
       "points": [
         "Some reflexes are controlled by the brain rather than the spinal cord.",
-        "Examples are the pupil narrowing in bright light and blinking."
+        "Examples are blinking, coughing, sneezing and the pupil narrowing in bright light."
       ]
     }
   ],

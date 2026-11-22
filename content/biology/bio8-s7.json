@@ -5,85 +5,116 @@
   "syllabusRef": "1.2.5",
   "notes": [
     {
-      "h": "Planning the investigation",
+      "h": "Planning the investigation: aim, hypothesis, variables and controls",
+      "b": "Food tests are a fair, planned investigation, not just a set of recipes. Before testing anything you decide what you are trying to find out, what you predict, and what you will change, measure and keep the same.",
       "points": [
-        "Aim: to find out which nutrients (starch, reducing sugar, protein and lipid) are present in a range of food samples. Qualitative means recording whether a nutrient is present or absent, from a colour change or other observation, not how much of it there is.",
-        "Hypothesis, e.g.: “Potato contains starch but not lipid; milk contains reducing sugar (lactose), protein and lipid.” Students predict the result for each food from what it is.",
-        "Independent variable: the food sample tested. Dependent variable: the result of each test, the colour or observation, recorded as present or absent.",
-        "Controlled variables: the volume of food solution and of reagent, the concentration of the reagents, the water-bath temperature and heating time for Benedict's, and clean apparatus for every test to avoid carry-over.",
-        "Controls for every test: a negative control of distilled water in place of the food, which shows the colour when the nutrient is absent; and a positive control of a known pure sample, such as starch solution, glucose solution, egg-white (albumen) solution or vegetable oil, which shows the colour when the nutrient is present. Results for the foods are judged against these.",
+        "Aim: to find out which nutrients (starch, reducing sugar, protein and lipid) are present in a range of food samples. The investigation is qualitative, which means you record whether a nutrient is present or absent, from a colour change or other observation, not how much of it there is.",
+        "Hypothesis, e.g.: “Potato contains starch but not lipid; milk contains reducing sugar (lactose), protein and lipid.” Students predict the result for each food from what the food is, so the results can later support or contradict the prediction.",
+        "Independent variable (the one you change): the food sample tested. Dependent variable (the one you observe): the result of each test, the colour or observation, recorded as present or absent.",
+        "Controlled variables (kept the same so the test is fair): the volume of food solution and of reagent, the concentration of the reagents, the water-bath temperature and heating time for Benedict's, and clean apparatus for every test to avoid carry-over from one sample to the next.",
+        "Every test needs two controls. A negative control uses distilled water in place of the food and shows the colour when the nutrient is absent.",
+        "A positive control uses a known pure sample, such as starch solution, glucose solution, egg-white (albumen) solution or vegetable oil, and shows the colour when the nutrient is present.",
+        "Results for the foods are judged against these controls, so you can tell a real colour change from the reagent's starting colour, and know the test itself is working."
+      ],
+      "tip": "Exams ask you to name a control for a food test and explain its purpose. Say what the control shows (the colour with no nutrient, or the colour with the nutrient) and that the food results are compared with it."
+    },
+    {
+      "h": "Food samples, equipment and reagents",
+      "b": "Choose foods that you expect to be rich in each nutrient, and gather the equipment and reagents (the chemicals that react with a nutrient to give a visible result) before you start.",
+      "points": [
         "Example food samples: potato, bread, rice or flour (starch); glucose, honey, grapes, fruit juice and milk (reducing sugar); egg white, milk, meat or cheese (protein); butter, vegetable oil, nuts, crisps and cheese (lipid); and table sugar, which gives a negative Benedict's result.",
-        "Equipment: test tubes and rack, test-tube holder, droppers, graduated pipettes or syringes, spotting tile, mortar and pestle or knife and chopping board, beaker of distilled water, filter funnel and filter paper, hot water bath (a beaker of near-boiling water from a kettle, or an electric water bath) with thermometer, brown paper, labels, safety glasses and gloves.",
-        "Reagents: iodine solution (iodine dissolved in potassium iodide), Benedict's solution, biuret reagent (or sodium hydroxide solution and dilute copper sulfate solution) and Sudan III stain.",
-        "Preparing the samples, step 1: crush or grind a solid food with a little distilled water using a mortar and pestle.",
-        "Preparing the samples, step 2: add more water, stir, and filter or let the solid settle, then use the liquid food solution for the tests.",
-        "Preparing the samples, step 3: test liquid foods such as milk and juice directly, or dilute them. Step 4: label each tube with the food and the test."
+        "Equipment: test tubes and rack, test-tube holder, droppers, graduated pipettes or syringes (to measure equal volumes), spotting tile, mortar and pestle or knife and chopping board, beaker of distilled water, filter funnel and filter paper.",
+        "Also needed: a hot water bath (a beaker of near-boiling water from a kettle, or an electric water bath) with a thermometer, brown paper, labels, safety glasses and gloves.",
+        "Reagents: iodine solution (iodine dissolved in potassium iodide), Benedict's solution, biuret reagent (or sodium hydroxide solution and dilute copper sulfate solution) and Sudan III stain."
+      ]
+    },
+    {
+      "h": "Preparing the food samples",
+      "b": "Most tests work on a liquid, so solid foods must first be turned into a food solution. This preparation is common to all the tests.",
+      "points": [
+        "1. Crush or grind a solid food with a little distilled water using a mortar and pestle. Crushing breaks open the cells so the nutrients can mix into the water.",
+        "2. Add more water, stir, and filter or let the solid settle, then use the liquid food solution for the tests.",
+        "3. Test liquid foods such as milk and juice directly, or dilute them.",
+        "4. Label each tube with the food and the test, so the results cannot be mixed up."
       ]
     },
     {
       "h": "Test for starch: iodine",
+      "b": "Starch is the carbohydrate plants store, and iodine solution is the quickest way to detect it. It needs no heating and gives a result at once.",
       "points": [
-        "Method, step 1: place a few drops of food solution, or a small piece of solid food, on a white spotting tile, or place 2 cm³ of food solution in a test tube.",
+        "Method, step 1: place a few drops of food solution, or a small piece of solid food, on a white spotting tile, or place 2 cm³ of food solution in a test tube. The white tile makes the colour easy to see.",
         "Step 2: add a few drops of iodine solution. Step 3: observe the colour at once. No heating is needed.",
         "Step 4: repeat with water as the negative control and starch solution as the positive control.",
         "Result: iodine solution is yellow-brown (orange-brown) at the start. It turns blue-black if starch is present and stays yellow-brown if starch is absent."
-      ]
+      ],
+      "tip": "Learn the colours exactly: yellow-brown to blue-black. Not “black”, not “purple”, and the starting colour is not “red” or “clear”. Exams also ask whether heat is needed: for iodine it is not."
     },
     {
       "h": "Test for reducing sugar: Benedict's",
+      "b": "Some sugars can react chemically with Benedict's solution and others cannot. This test detects the ones that can, and it is the one food test that needs heat.",
       "points": [
-        "A reducing sugar is one that can reduce (give electrons to) the blue copper(II) ions in Benedict's solution. Glucose, fructose, galactose, maltose and lactose are reducing sugars; sucrose is not (sugar structures are in “Structures of biomolecules”).",
+        "A reducing sugar is one that can reduce (give electrons to) the blue copper(II) ions in Benedict's solution. Glucose, fructose, galactose, maltose and lactose are reducing sugars; sucrose is not.",
         "Method, step 1: place 2 cm³ of food solution in a test tube. Step 2: add an equal volume, 2 cm³, of Benedict's solution and mix; the mixture is blue.",
-        "Step 3: place the tube in a hot water bath (near boiling, at least about 80 °C) for about 5 minutes. Never heat the tube directly in a Bunsen flame.",
-        "Step 4: observe the colour. Step 5: run water as the negative control and glucose solution as the positive control, in the same water bath at the same time.",
-        "Result: if a reducing sugar is present, the blue solution turns green, then yellow, then orange, and finally a brick-red precipitate forms. It stays blue if no reducing sugar is present.",
-        "The reducing sugar reduces blue copper(II) ions to copper(I) oxide, the brick-red precipitate. The colour reached gives a rough idea of how much sugar is present: green for a little, brick red for a lot. This is the basis of “Investigation: reducing sugars, quantitatively”.",
+        "Step 3: place the tube in a hot water bath (near boiling, at least about 80 °C) for about 5 minutes. Never heat the tube directly in a Bunsen flame, because the liquid can spurt out.",
+        "Step 4: observe the colour. Step 5: run water as the negative control and glucose solution as the positive control, in the same water bath at the same time so the conditions are identical.",
+        "Result: if a reducing sugar is present, the blue solution turns green, then yellow, then orange, and finally a brick-red precipitate (solid particles) forms. It stays blue if no reducing sugar is present.",
+        "The reducing sugar reduces blue copper(II) ions to copper(I) oxide, the brick-red precipitate. The colour reached gives a rough idea of how much sugar is present: green for a little, brick red for a lot. There is more on this in Investigation: reducing sugars, quantitatively.",
         "Fehling's test is an alternative: equal volumes of Fehling's solutions A and B are mixed with the sample and heated in a water bath. A blue mixture turns to a brick-red precipitate if a reducing sugar is present.",
         "Extension: sucrose stays blue. To show it is made of reducing sugars, boil a sucrose solution with a few drops of dilute hydrochloric acid to hydrolyse it to glucose and fructose. Neutralise with sodium hydrogencarbonate until fizzing stops, then do the Benedict's test: it now turns brick red."
-      ]
+      ],
+      "tip": "Benedict's is the test that must be heated, in a water bath; iodine, biuret and Sudan III are not heated. In a “describe the test” answer include the equal volumes, the water bath and the colour sequence ending in brick red. Say “reducing sugar”, not “all sugars” and not “glucose only”."
     },
     {
       "h": "Test for protein: biuret",
+      "b": "Biuret detects the bonds that join amino acids together in a protein. Like iodine, it works at room temperature with no heating.",
       "points": [
         "Method, step 1: place 2 cm³ of food solution in a test tube. Step 2: add 2 cm³ of sodium hydroxide solution and mix (or add biuret reagent, which already contains it).",
         "Step 3: add a few drops of dilute copper sulfate solution, one drop at a time, shaking gently. Step 4: leave for a few minutes and observe. No heating is needed.",
         "Step 5: run water as the negative control and egg-white solution as the positive control.",
-        "Result: the blue colour turns purple (violet or lilac) if protein is present, and stays blue if protein is absent. The copper ions react with the peptide bonds in the protein, so the test detects peptide bonds, not single amino acids."
-      ]
+        "Result: the blue colour turns purple (violet or lilac) if protein is present, and stays blue if protein is absent. The copper ions react with the peptide bonds (the links between amino acids) in the protein, so the test detects peptide bonds, not single amino acids."
+      ],
+      "tip": "The protein result is purple (violet), not “blue-black”; blue-black belongs to the iodine test for starch. The start colour is blue, so a blue tube means no protein."
     },
     {
       "h": "Tests for lipid: grease-spot and Sudan III",
+      "b": "Lipids (fats and oils) do not dissolve in water, and two simple tests use this. They are alternatives, so you can use either one.",
       "points": [
         "Grease-spot (brown paper) test, method: rub a small amount of food on a piece of brown paper, or place a drop of liquid food on it. Place a drop of water on another part of the paper as a control.",
         "Leave the paper to dry, or warm it gently away from flames, then hold it up to the light.",
-        "Grease-spot result: a translucent, greasy spot that does not disappear when the paper dries shows that lipid is present. The water spot also looks translucent at first but disappears as it dries, which is why the paper must dry before the result is judged.",
+        "Grease-spot result: a translucent (see-through), greasy spot that does not disappear when the paper dries shows that lipid is present. The water spot also looks translucent at first but disappears as it dries, which is why the paper must dry before the result is judged.",
         "Sudan III test, method: place 2 cm³ of food solution, or a little crushed food in 2 cm³ of water, in a test tube. Add a few drops of Sudan III, a red dye that dissolves in lipid but not in water.",
         "Shake gently and leave to stand for a minute. Run water as the negative control and vegetable oil in water as the positive control.",
         "Sudan III result: if lipid is present, a red-stained oily layer forms on top of the water, because lipid is less dense than water and does not mix with it. With no lipid, the dye spreads through the water or settles as red specks, with no red oily layer."
-      ]
+      ],
+      "tip": "When describing the grease-spot test, say you let the paper dry before judging, because water also leaves a temporary translucent spot. Never heat the brown paper over a flame."
     },
     {
       "h": "Safety",
+      "b": "Several reagents here are corrosive, harmful or flammable, and the Benedict's test uses near-boiling water. Safe practice is part of any investigation.",
       "points": [
         "Wear safety glasses throughout. Sodium hydroxide (biuret test) is corrosive and especially harmful to the eyes. Benedict's and copper sulfate solutions are harmful if swallowed or splashed. Wash any splash off the skin with plenty of water.",
         "Heat Benedict's tests only in a water bath, never directly over a flame, because the liquid can boil suddenly and spurt out of the tube. Use a test-tube holder, point the tube away from people, and take care with near-boiling water.",
         "Sudan III stain is usually dissolved in ethanol, an alcohol that is highly flammable, so keep it away from flames. Do not warm brown paper near a flame.",
         "Iodine solution stains skin and clothes; wear gloves if possible.",
         "Never taste or eat food in the laboratory. Be aware of food allergies (e.g. to nuts) among the class. Clean up spills and wash hands after the practical."
-      ]
+      ],
+      "tip": "Link each hazard to its reason: sodium hydroxide is corrosive, ethanol is flammable, and heating a tube directly can make it spurt, which is why a water bath is used."
     },
     {
       "h": "Recording results and conclusion",
+      "b": "Your observations are the primary data (results you collected yourself). A clear table lets you compare every food with the controls and draw a conclusion from the evidence.",
       "points": [
         "Record primary data in a results table: one row per food and one column per test, recording the colour observed and whether the nutrient is present or absent (or + or −). Include the control rows.",
         "Expected results: potato shows starch; glucose, honey and grapes show reducing sugar; table sugar is Benedict's negative, as sucrose is non-reducing; egg white shows protein; vegetable oil and butter show lipid; milk shows reducing sugar, protein and lipid; distilled water is negative for all tests.",
         "Conclusion: state which nutrients each food contains, supported by the results compared with the controls, and say whether this supports the hypothesis. The tests show presence only, not the amount."
-      ]
+      ],
+      "tip": "Exams give a table of food-test results and ask which nutrients a food contains. Match each colour to its test (for example blue-black means starch, purple means protein, brick red means reducing sugar) and name the nutrient."
     },
     {
       "h": "Sources of error and limitations",
+      "b": "Food tests are simple, so small mistakes easily give a wrong result. Knowing the common errors, and how to reduce them, makes the conclusion more reliable.",
       "points": [
-        "Colour judgements are subjective. Compare each tube with the controls against a white background, and have two people check the result.",
+        "Colour judgements are subjective, so different people may see different shades. Compare each tube with the controls against a white background, and have two people check the result.",
         "Coloured foods, such as dark fruit juice, can mask a colour change. Dilute or filter them, or use a control of the food without the reagent.",
         "Contamination: reusing a dropper or test tube can carry a nutrient from one sample to another, giving a false positive.",
         "A very small amount of nutrient may not give a visible change, which is a false negative. Some nutrients are inside cells, so the food must be well crushed.",

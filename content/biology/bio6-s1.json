@@ -5,56 +5,103 @@
   "syllabusRef": "1.1.2",
   "notes": [
     {
-      "h": "Structure of a virus",
-      "b": "A virus is a tiny, non-cellular particle. It can reproduce only inside a living host cell, so it is an obligate intracellular parasite.",
+      "h": "What a virus is",
+      "b": "A virus is far simpler than any cell. It is a tiny, non-cellular particle (not made of cells) built of nucleic acid inside a protein coat, and it cannot do anything much until it gets inside a living cell.",
       "points": [
-        "Nucleic acid core: either DNA or RNA, never both. It carries the genes (instructions) for making new virus particles, and may be single- or double-stranded.",
-        "Protein coat (capsid): made of many repeating protein subunits (capsomeres). It protects the nucleic acid. Its proteins attach to specific receptor molecules on the surface of the host cell, which is why each virus infects only particular species and particular cell types (host specificity).",
-        "Envelope (some viruses only, e.g. influenza virus and HIV): an outer lipid membrane taken from the host cell’s membrane as the virus leaves, studded with viral proteins (spikes) that help the virus attach to and enter new cells.",
-        "Viruses have no cytoplasm, no ribosomes, no cell membrane of their own and almost no enzymes. They must use the host cell’s ribosomes, enzymes, ATP and raw materials to make copies of themselves; replication is covered in “Viruses: replication”.",
-        "Size: most viruses are about 20–300 nm across, much smaller than a bacterium (about 1–10 µm). They pass through filters that trap bacteria and can be seen only with an electron microscope.",
-        "Shapes: rod-shaped or helical (e.g. tobacco mosaic virus); many-sided or polyhedral (e.g. adenovirus); spherical and enveloped (e.g. influenza virus); complex, with a head and tail (bacteriophages, which infect bacteria).",
-        "Diagram: a bacteriophage labelled head (protein coat), nucleic acid (DNA) inside the head, tail and tail fibres; and an enveloped virus labelled envelope, spike proteins, protein coat and RNA."
-      ]
+        "A virus can reproduce only inside a living host cell (the cell it infects), so it is an obligate intracellular parasite: it must live inside cells and cannot survive and multiply on its own.",
+        "Viruses have no cytoplasm, no ribosomes (the structures that build proteins), no cell membrane of their own and almost no enzymes.",
+        "Because of this, a virus must use the host cell's ribosomes, enzymes, ATP (the cell's energy carrier) and raw materials to make copies of itself. There is more on this in Viruses: replication."
+      ],
+      "tip": "A virus is not a bacterium and not a very small cell. Never give a virus organelles or a membrane of its own: if it has an envelope, that was taken from the host."
     },
     {
-      "h": "Is a virus living? Evidence on each side",
-      "b": "Viruses are hard to classify because they show some features of living things and lack others.",
+      "h": "Parts of a virus and what each does",
+      "b": "Every virus has the same basic plan: a core of genetic information wrapped in protein, and in some viruses an extra outer layer. Each part has its own job.",
       "points": [
-        "Features of living things that viruses show: they contain genetic material (DNA or RNA) using the same genetic code as cells.",
+        "Nucleic acid core: either DNA or RNA, never both. It carries the genes (instructions) for making new virus particles, and it may be single- or double-stranded.",
+        "Protein coat (capsid): made of many repeating protein subunits (capsomeres). It protects the nucleic acid inside it.",
+        "The proteins of the coat attach to specific receptor molecules on the surface of the host cell, a bit like a key fitting a lock. This is why each virus infects only particular species and particular cell types (host specificity).",
+        "Envelope (some viruses only, e.g. influenza virus and HIV): an outer lipid membrane (a layer of fats) taken from the host cell's membrane as the virus leaves the cell.",
+        "The envelope is studded with viral proteins called spikes, which help the virus attach to and enter new cells."
+      ],
+      "tip": "If asked what a virus is made of, give nucleic acid (DNA or RNA, never both) and a protein coat. Questions also ask you to name the kind of entity that contains only one type of nucleic acid: the answer is a virus."
+    },
+    {
+      "h": "Size and shapes of viruses, with a diagram",
+      "b": "Viruses are extremely small and come in a few characteristic shapes, which is useful for recognising and naming them.",
+      "points": [
+        "Size: most viruses are about 20–300 nm across, much smaller than a bacterium (about 1–10 µm). This is why they pass through filters that trap bacteria.",
+        "Because they are so small, viruses can be seen only with an electron microscope, not with a light microscope.",
+        "Rod-shaped or helical viruses, e.g. tobacco mosaic virus.",
+        "Many-sided or polyhedral viruses, e.g. adenovirus.",
+        "Spherical and enveloped viruses, e.g. influenza virus.",
+        "Complex viruses with a head and tail: bacteriophages, which are the viruses that infect bacteria.",
+        "Diagram: draw a bacteriophage and label head (protein coat), nucleic acid (DNA) inside the head, tail, tail fibres. Then draw an enveloped virus and label envelope, spike proteins, protein coat, RNA."
+      ],
+      "tip": "Past papers ask you to draw and label a virus. Put the nucleic acid inside the protein coat, and only add an envelope and spikes if you are drawing an enveloped virus."
+    },
+    {
+      "h": "Is a virus living? Evidence that it is",
+      "b": "Viruses are hard to classify because they show some features of living things and lack others. First, the features that make them look alive.",
+      "points": [
+        "They contain genetic material (DNA or RNA) that uses the same genetic code as cells, so their genes are read in the same way.",
         "They reproduce, making many copies of themselves, but only inside a host cell.",
-        "They show heredity, passing genes to new viruses, and they mutate and evolve by natural selection. For example, new strains of influenza appear every year, so the flu vaccine is updated.",
-        "Their structure is highly organised.",
-        "Features of living things that viruses lack: they are not made of cells (they are acellular), so they do not fit the cell theory.",
-        "They have no metabolism of their own, with no respiration, nutrition or excretion; they do not grow and do not respond to stimuli.",
-        "They cannot reproduce outside a host cell, and outside a host they are inert particles.",
-        "Some viruses can be crystallised like a chemical and remain infectious afterwards: Wendell Stanley crystallised tobacco mosaic virus in 1935.",
-        "Conclusion: viruses are usually described as on the border between living and non-living. Most biologists do not count them as living organisms, so they are not placed in any of the three domains or six kingdoms (see “Classification”). Others argue that a virus is alive only while it is inside a host cell, using the cell’s machinery."
-      ]
+        "They show heredity, passing genes on to new viruses.",
+        "They mutate and evolve by natural selection. For example, new strains of influenza appear every year, which is why the flu vaccine is updated.",
+        "Their structure is highly organised."
+      ],
+      "tip": "Questions ask for reasons why viruses are or are not considered living. Give at least two reasons on the side you choose, and finish with a conclusion."
     },
     {
-      "h": "Medical importance",
+      "h": "Is a virus living? Evidence that it is not, and the conclusion",
+      "b": "Against that evidence, viruses lack many of the features that all cells have. Weighing both sides gives the conclusion examiners expect.",
       "points": [
-        "Viruses cause many human diseases: common cold (rhinoviruses), influenza (flu), measles, mumps, chickenpox, COVID-19 (caused by SARS-CoV-2), AIDS (caused by HIV, which destroys helper T cells of the immune system) and hepatitis B.",
-        "Some viruses cause cancer. Human papillomavirus (HPV) causes most cervical cancers, and a vaccine against HPV protects against them; detail is in “Cell Division and Cancer”.",
-        "Antibiotics do not work against viruses, because antibiotics target structures and processes that viruses do not have, such as bacterial cell walls and ribosomes.",
-        "Viral infections are treated with antiviral drugs, which are fewer and more specific, and are prevented by vaccination and hygiene; detail is in “Immunity”.",
-        "Misusing antibiotics for viral infections contributes to antibiotic resistance in bacteria.",
-        "Useful medical roles: vaccines are made from weakened or inactivated viruses or from viral proteins.",
-        "Harmless modified viruses are used as vectors to carry genes into human cells in gene therapy and in some vaccines. Some COVID-19 vaccines used a harmless adenovirus to carry the gene for a coronavirus spike protein.",
-        "Bacteriophages can be used to kill bacteria that are resistant to antibiotics (phage therapy)."
-      ]
+        "They are not made of cells (they are acellular), so they do not fit the cell theory, which says living things are made of cells.",
+        "They have no metabolism (chemical reactions) of their own: no respiration, no nutrition and no excretion.",
+        "They do not grow and do not respond to stimuli.",
+        "They cannot reproduce outside a host cell, and outside a host they are inert particles, meaning they do nothing.",
+        "Some viruses can be crystallised like a chemical and remain infectious afterwards. Wendell Stanley crystallised tobacco mosaic virus in 1935.",
+        "Conclusion: viruses are usually described as on the border between living and non-living. Most biologists do not count them as living organisms, so they are not placed in any of the three domains or six kingdoms. There is more on this in Classification.",
+        "Others argue that a virus is alive only while it is inside a host cell, using the cell's machinery."
+      ],
+      "tip": "Whichever view you take, say that viruses show some features of life and lack others. A one-sided answer with no conclusion loses marks on a discuss question."
     },
     {
-      "h": "Economic importance",
+      "h": "Medical importance: viruses that cause disease",
+      "b": "Viruses cause some of the most common and most serious human diseases. Their biology also explains why some usual treatments fail.",
+      "points": [
+        "Viruses cause many human diseases: common cold (rhinoviruses), influenza (flu), measles, mumps, chickenpox, COVID-19 (caused by SARS-CoV-2), AIDS and hepatitis B.",
+        "AIDS is caused by HIV, which destroys helper T cells of the immune system (the white blood cells that coordinate the body's defence).",
+        "Some viruses cause cancer. Human papillomavirus (HPV) causes most cervical cancers, and a vaccine against HPV protects against them. There is more on this in Cell Division and Cancer.",
+        "Antibiotics do not work against viruses, because antibiotics target structures and processes that viruses do not have, such as bacterial cell walls and ribosomes.",
+        "Viral infections are treated with antiviral drugs, which are fewer and more specific than antibiotics, and are prevented by vaccination and hygiene.",
+        "Misusing antibiotics for viral infections contributes to antibiotic resistance in bacteria, since the bacteria are exposed to the drug for no benefit."
+      ],
+      "tip": "If asked to name a viral disease and say why antibiotics do not treat it, name the disease (for example influenza) and say that viruses lack the cell walls and ribosomes that antibiotics attack."
+    },
+    {
+      "h": "Medical importance: useful roles of viruses",
+      "b": "Although viruses cause disease, scientists have turned their features to medical use. This is one source of the beneficial uses that exam questions ask for.",
+      "points": [
+        "Vaccines are made from weakened or inactivated viruses or from viral proteins, which train the immune system without causing the disease.",
+        "Harmless modified viruses are used as vectors (carriers) to deliver genes into human cells, in gene therapy and in some vaccines.",
+        "For example, some COVID-19 vaccines used a harmless adenovirus to carry the gene for a coronavirus spike protein.",
+        "Bacteriophages can be used to kill bacteria that are resistant to antibiotics. This is called phage therapy."
+      ],
+      "tip": "A past paper asks for a beneficial use of viruses. Vaccines, gene-therapy vectors and phage therapy each answer it, so state one clearly with a short reason."
+    },
+    {
+      "h": "Economic importance: costs and benefits",
+      "b": "Viruses affect money as well as health. They damage farming and cost society a great deal, yet they are also used as tools and in industry.",
       "points": [
         "Plant viruses reduce crop yields, e.g. tobacco mosaic virus (tobacco, tomatoes), potato viruses, and barley yellow dwarf virus in cereals, which is spread by aphids.",
         "Animal viruses such as foot-and-mouth disease (cattle, sheep and pigs) and avian influenza (bird flu, poultry) lead to culling of infected herds and flocks, bans on exports and movement restrictions.",
         "Costs to society: health-care costs, lost working days and, in a pandemic, the closure of businesses, schools and travel, e.g. COVID-19 from 2020.",
         "Economic benefits: viruses are used as tools in genetic engineering, as vectors that carry genes into cells.",
-        "Viruses are used in biological control of pests: myxoma virus was released in Australia in 1950 to control rabbits.",
+        "Viruses are used in biological control of pests (using a living organism to reduce a pest). Myxoma virus was released in Australia in 1950 to control rabbits.",
         "Vaccine production is a major pharmaceutical industry."
-      ]
+      ],
+      "tip": "For importance, give both harmful and useful examples. Name a specific virus and its effect, for example culling after foot-and-mouth disease, rather than writing in general terms."
     }
   ],
   "keyTerms": [

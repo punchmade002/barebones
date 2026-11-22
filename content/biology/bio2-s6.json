@@ -6,55 +6,64 @@
   "notes": [
     {
       "h": "The scientific report",
-      "b": "A report is organised in standard sections so that a reader can follow the investigation and repeat it.",
+      "b": "A report is organised in standard sections so that a reader can follow the investigation and repeat it. Each section answers one question a reader would ask, from why you did it to what you found and how far it can be trusted.",
       "points": [
-        "Sections in order: title; aim or question; hypothesis and prediction; background (the biological theory behind the hypothesis, with sources); equipment and materials; method; risk assessment and ethical considerations; results (tables and graphs); analysis (calculations, patterns and anomalies); conclusion; evaluation (limitations, sources of error and improvements); and references.",
-        "The method is written as numbered steps with exact quantities, concentrations, times and temperatures, usually in the past tense and impersonal style, e.g. “10 cm³ of hydrogen peroxide was added”, with enough detail for someone else to reproduce it.",
-        "A scientific paper written for other scientists begins with an abstract: a short summary of the aim, method, main results and conclusion, so that readers can decide quickly whether it is relevant.",
-        "Results sections present data and do not explain them. Explanation belongs in the analysis and the conclusion."
-      ]
+        "Sections in order: title; aim or question; hypothesis and prediction; background (the biological theory behind the hypothesis, with sources); equipment and materials; method; risk assessment and ethical considerations.",
+        "The sections after that, in order: results (tables and graphs); analysis (calculations, patterns and anomalies, meaning results that do not fit the pattern); conclusion; evaluation (limitations, sources of error and improvements); and references.",
+        "The method is written as numbered steps with exact quantities, concentrations, times and temperatures, so that someone else can reproduce it. It is usually in the past tense and impersonal style, e.g. “10 cm³ of hydrogen peroxide was added”.",
+        "A scientific paper written for other scientists begins with an abstract: a short summary of the aim, method, main results and conclusion. This lets readers decide quickly whether the paper is relevant to them.",
+        "Results sections present data and do not explain them, so the reader can judge the evidence before being told what it means. Explanation belongs in the analysis and the conclusion."
+      ],
+      "tip": "You may be asked to identify the sections of a scientific report, so learn the order. If a question asks where an explanation belongs, the answer is the analysis and conclusion, not the results."
     },
     {
       "h": "Fit for purpose and audience",
-      "b": "The same findings are communicated differently depending on who will read them and why: the audience’s background knowledge, what they need to know, and what they will do with it.",
+      "b": "The same findings are communicated differently depending on who will read them and why: the audience's background knowledge, what they need to know, and what they will do with it. A format that suits scientists can confuse the public, so you choose the format and the level of detail to match the reader.",
       "points": [
-        "Scientists and examiners need a full report or paper, with technical terms used precisely, full data, methods and limitations, and references.",
-        "The general public needs plain language, with technical terms explained or avoided, the main finding and why it matters given first, and simple graphs or infographics.",
-        "The general public also needs uncertainty stated honestly, without exaggeration. Formats include a poster, article, presentation, video, infographic and social media post.",
-        "Decision-makers, e.g. a school board, a council or a health service, need a short summary of the evidence, its reliability and its implications, with recommendations.",
-        "A poster or presentation is selective: a clear title, the question, a brief method, one or two key graphs and the conclusion, with little text. A full report includes everything."
-      ]
+        "Scientists and examiners need a full report or paper. Technical terms are used precisely, and full data, methods, limitations and references are included, so the reader can check and repeat the work.",
+        "The general public needs plain language, with technical terms explained or avoided. The main finding and why it matters come first, because these readers will not work through the detail. Use simple graphs or infographics (pictures that present data at a glance).",
+        "The general public also needs uncertainty stated honestly, without exaggeration. Suitable formats include a poster, article, presentation, video, infographic and social media post.",
+        "Decision-makers, e.g. a school board, a council or a health service, need a short summary of the evidence, its reliability and its implications, with recommendations, because they must decide what to do rather than check the method.",
+        "A poster or presentation is selective: a clear title, the question, a brief method, one or two key graphs and the conclusion, with little text. A full report includes everything, which is why it suits readers who need to check the work."
+      ],
+      "tip": "Expect questions asking you to choose and justify a way to present given data to a named audience, or to rewrite a technical finding for the public. Name the audience, say what they need, then match the format and language to it."
     },
     {
       "h": "Scientific terminology",
+      "b": "Science only works as communication if every term means the same thing to every reader. Using exact words, symbols and units removes ambiguity and makes your results reproducible.",
       "points": [
-        "Use precise scientific terms with their correct meanings, e.g. “independent variable”, “control”, “precise”, “accurate”, “reliable” and “anomalous”, which are defined in the other notes on this chapter.",
-        "Use biological terms precisely: write “denatured” rather than “killed” for an enzyme, and “osmosis” rather than “soaking up water”.",
-        "Use SI units and their symbols consistently: g and kg, cm³ and dm³, °C, s and min, and mm and µm. Write a unit with every quantity.",
-        "Write scientific names of organisms in binomial form, with the genus in capital letters and the species in lower-case letters, in italics in print or underlined by hand, e.g. Homo sapiens.",
-        "Avoid vague words such as “a lot”, “it worked” or “the results were good”. State what changed, by how much and in which direction."
-      ]
+        "Use precise scientific terms with their correct meanings, e.g. “independent variable” (the factor you change), “control” (the comparison set-up), “precise” (close repeat values), “accurate” (close to the true value), “reliable” (repeatable) and “anomalous” (not fitting the pattern). There is more on these in the other notes on this chapter.",
+        "Use biological terms precisely: write “denatured” (its shape changed so it no longer works) rather than “killed” for an enzyme, since enzymes are not alive. Write “osmosis” rather than “soaking up water”.",
+        "Use SI units (the international standard units) and their symbols consistently: g and kg, cm³ and dm³, °C, s and min, and mm and µm. Write a unit with every quantity, because a number without a unit cannot be interpreted.",
+        "Write scientific names of organisms in binomial form (two-part names). The genus takes a capital letter and the species a lower-case letter, in italics in print or underlined by hand, e.g. Homo sapiens: genus Homo, species sapiens.",
+        "Avoid vague words such as “a lot”, “it worked” or “the results were good”, because they give the reader nothing to check. State what changed, by how much and in which direction."
+      ],
+      "tip": "When rewriting a vague sentence, add the quantity, the unit and the direction of change. For scientific names, remember the capital on the genus only and the italics or underlining."
     },
     {
       "h": "Representations",
+      "b": "A representation is the form in which results or ideas are shown, such as a table, graph, diagram or photograph. Each form shows something different well, so the best one depends on the point you want the audience to take away.",
       "points": [
-        "Choose the representation that best shows the point to the audience. A table gives exact values; a graph shows a trend or comparison (graph types are in Producing and analysing data).",
-        "A labelled diagram shows apparatus or a structure; a flow chart shows the steps of a method or process; a photograph records a result, e.g. a colour change or colonies on an agar plate.",
-        "A diagram of apparatus is drawn in two dimensions as a cross-section, in pencil. Ruled label lines touch the part labelled and do not cross.",
-        "Biological drawings use clear single lines with no shading, labels to the side, and a title with magnification or scale where relevant.",
-        "Every table, graph and figure has a title or caption and is referred to in the text."
-      ]
+        "A table gives exact values, whereas a graph shows a trend or comparison at a glance. There is more on graph types in Producing and analysing data.",
+        "A labelled diagram shows apparatus or a structure. A flow chart shows the steps of a method or process in order. A photograph records a result, e.g. a colour change or colonies on an agar plate (the jelly on which microbes are grown).",
+        "A diagram of apparatus is drawn in two dimensions as a cross-section (as if the apparatus were cut through), in pencil. Ruled label lines touch the part labelled and do not cross, so each label is clearly linked to one part.",
+        "Biological drawings use clear single lines with no shading, labels to the side, and a title with magnification or scale where relevant, so that the size of the real structure can be worked out.",
+        "Every table, graph and figure has a title or caption and is referred to in the text, so the reader knows what it shows and when to look at it."
+      ],
+      "tip": "When asked to choose a representation, say what it shows best (exact values, trend, apparatus, steps or a record of a result) and tie that to the audience. In drawings, marks go for single clean lines, ruled non-crossing label lines and a title."
     },
     {
       "h": "Integrity in communicating",
+      "b": "Readers trust a report only if it is honest and its sources can be traced. Integrity means reporting what you actually found, giving credit for other people's work, and claiming no more than your evidence supports.",
       "points": [
-        "Report all results honestly, including anomalies and results that do not support the hypothesis, and state the limitations.",
+        "Report all results honestly, including anomalies and results that do not support the hypothesis, and state the limitations. Leaving them out would mislead the reader.",
         "Acknowledge every source by citing it in the text and giving a reference list. A reference gives at least the author or organisation, the year, the title and where it was published.",
-        "For a website, the reference gives the web address and the date it was accessed.",
+        "For a website, the reference gives the web address and the date it was accessed, because web pages can change or be removed.",
         "Do not exaggerate findings. A small school investigation cannot show that something is true in general, and communication to the public should not overstate certainty.",
-        "Digital tools support communication: spreadsheets record, process and graph data; presentation and word-processing software produce reports and posters; and data loggers collect and display data.",
-        "The specification’s digital technology section names using digital technology to collect, record, analyse and display data, and to develop investigative research, communication and report-writing skills."
-      ]
+        "Digital tools support communication: spreadsheets record, process and graph data; presentation and word-processing software produce reports and posters; and data loggers (devices that measure and store readings automatically) collect and display data.",
+        "The specification's digital technology section names using digital technology to collect, record, analyse and display data, and to develop investigative research, communication and report-writing skills."
+      ],
+      "tip": "Exams ask why scientists publish their results: to share knowledge and allow others to check them. For a reference, give author or organisation, year, title and where published, plus web address and access date for a website."
     }
   ],
   "keyTerms": [

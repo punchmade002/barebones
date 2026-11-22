@@ -6,84 +6,100 @@
   "notes": [
     {
       "h": "What homeostasis is",
-      "b": "Homeostasis is the maintenance of a relatively constant internal environment despite changes in external or internal conditions. The internal environment is the tissue fluid and blood around the cells.",
+      "b": "Homeostasis is the maintenance of a relatively constant internal environment despite changes in external or internal conditions. The internal environment is the tissue fluid and blood around the cells, so it is the conditions the cells actually live in that are kept steady.",
       "points": [
         "Factors kept constant include body temperature, blood glucose concentration, water and salt balance, blood pH and carbon dioxide level.",
-        "Enzymes work best within a narrow range of temperature and pH.",
-        "If the concentration of the fluid around a cell changes, the cell gains or loses water by osmosis.",
+        "Enzymes (the proteins that speed up the body's chemical reactions) work best within a narrow range of temperature and pH, so a drift outside that range slows or stops reactions.",
+        "If the concentration of the fluid around a cell changes, the cell gains or loses water by osmosis (the movement of water across a membrane), which can swell or shrink it.",
         "Steady conditions let cells function whatever the conditions outside the body.",
         "Values fluctuate slightly around a set point (normal level) rather than staying perfectly fixed; for example, normal core body temperature is about 37 °C."
-      ]
+      ],
+      "tip": "If asked to define homeostasis, include both parts: a relatively constant internal environment, and despite changes in external or internal conditions. If asked why it matters, give the three reasons: enzymes, osmosis and steady cell function."
     },
     {
       "h": "Components of a homeostatic control system",
+      "b": "Every homeostatic response follows the same chain: something changes, the change is detected, a decision is made and the body acts. Learning the five named parts lets you analyse any example, however unfamiliar.",
       "points": [
-        "Stimulus: a change away from the set point.",
-        "Receptor: detects the change.",
-        "Control centre: compares the change with the set point and sends instructions. It is often in the brain, e.g. the hypothalamus, or in a gland.",
-        "Effector: a muscle or gland that carries out the response.",
-        "Response: returns the factor towards the set point.",
+        "Stimulus: a change away from the set point, such as the body getting too hot.",
+        "Receptor: detects the change, because the body can only respond to a change it can sense.",
+        "Control centre: compares the change with the set point and sends instructions. It is often in the brain, e.g. the hypothalamus (a region at the base of the brain), or in a gland.",
+        "Effector: a muscle or gland that carries out the response, because these are the tissues able to act on the instructions.",
+        "Response: what the effector does, which returns the factor towards the set point.",
         "In vertebrates, the control centre is linked to receptors and effectors by nervous pathways (neurons, fast) and hormonal pathways (hormones in the blood, slower)."
-      ]
+      ],
+      "tip": "Exams give you a described process and ask you to identify the receptor, control centre and effector. Work through the chain in order: what is detected, what compares it with the set point, what carries out the response."
     },
     {
       "h": "Negative feedback",
+      "b": "Negative feedback is the way homeostatic systems are kept stable. The word negative means the response works against the change that triggered it, like a thermostat switching the heating off once a room is warm enough.",
       "points": [
-        "In negative feedback, the response reverses the original change.",
-        "Once the factor returns to normal, the stimulus is removed and the response stops.",
-        "Because the response stops at the set point, the factor oscillates close to it.",
+        "In negative feedback, the response reverses the original change: a rise is followed by a fall, and a fall by a rise.",
+        "Once the factor returns to normal, the stimulus is removed and the response stops, so the body does not overcorrect.",
+        "Because the response stops at the set point, the factor oscillates (swings slightly above and below) close to it rather than moving far away.",
         "Diagram: a negative-feedback loop of set point, change, receptor, control centre, effector, response and back towards the set point, with a second branch for a change in the opposite direction."
-      ]
+      ],
+      "tip": "Exams ask you to explain negative feedback using an example, and thyroxine and TSH is a common one. State that the response reverses the change and stops when the factor is back to normal."
     },
     {
       "h": "Positive feedback (contrast)",
+      "b": "Positive feedback is the opposite of negative feedback, and knowing it helps you see what makes homeostasis special.",
       "points": [
-        "Positive feedback: the response increases the original change, e.g. oxytocin causes stronger and stronger contractions during labour.",
-        "Positive feedback is rare and is not used in homeostasis."
+        "Positive feedback: the response increases the original change, so the change keeps growing, e.g. oxytocin (a hormone) causes stronger and stronger contractions during labour.",
+        "Positive feedback is rare and is not used in homeostasis, because it pushes a factor further from the set point instead of holding it steady."
       ]
     },
     {
       "h": "Worked example: body temperature (mainly nervous)",
+      "b": "Body temperature is the clearest example of a nervous control system. The hypothalamus is the temperature control centre, and it works with receptors and effectors that respond within seconds to heat or cold.",
       "points": [
         "Stimulus and receptors: receptors in the hypothalamus detect blood temperature, and receptors in the skin detect skin temperature.",
         "Control centre: the hypothalamus compares the temperature with the set point.",
-        "Too hot, effector 1: sweat glands produce sweat, which cools the skin as it evaporates.",
-        "Too hot, effector 2: arterioles in the skin widen (vasodilation), so more blood flows near the surface and loses heat.",
-        "Too cold, effector 1: muscles shiver, releasing heat from respiration.",
-        "Too cold, effector 2: arterioles in the skin narrow (vasoconstriction), reducing heat loss.",
+        "Too hot, effector 1: sweat glands produce sweat, which cools the skin as it evaporates (evaporation takes heat from the skin).",
+        "Too hot, effector 2: arterioles (small arteries) in the skin widen (vasodilation), so more blood flows near the surface and loses heat.",
+        "Too cold, effector 1: muscles shiver, releasing heat from respiration, which warms the body.",
+        "Too cold, effector 2: arterioles in the skin narrow (vasoconstriction), so less blood flows near the surface, reducing heat loss.",
         "Behaviour changes, such as adding clothes or seeking shelter, also help restore the temperature."
-      ]
+      ],
+      "tip": "Questions on overheating or cooling do not need skin structure. Name sweat glands and skin arterioles as the effectors, and say whether the arterioles widen or narrow and what that does to heat loss."
     },
     {
       "h": "Worked example: blood glucose (hormonal)",
+      "b": "Blood glucose is kept steady by a hormone rather than by neurons. A hormone is a chemical messenger carried in the blood, so this pathway is slower than the nervous one.",
       "points": [
-        "Stimulus: blood glucose rises after a meal.",
-        "Receptor: cells of the pancreas detect the rise.",
-        "Response: the pancreas releases insulin.",
-        "Effect: cells take up glucose, and the liver stores it as glycogen.",
-        "Glucose falls back to normal, so less insulin is released.",
-        "In type 1 diabetes this feedback fails because too little insulin is made."
-      ]
+        "Stimulus: blood glucose rises after a meal, because glucose from digested food enters the blood.",
+        "Receptor: cells of the pancreas (a gland beside the stomach) detect the rise.",
+        "Response: the pancreas releases insulin, the hormone that lowers blood glucose.",
+        "Effect: cells take up glucose, and the liver stores it as glycogen (a storage carbohydrate made from glucose).",
+        "Glucose falls back to normal, so less insulin is released. This is negative feedback.",
+        "In type 1 diabetes this feedback fails because too little insulin is made, so blood glucose stays high."
+      ],
+      "tip": "The specification names insulin only, so do not bring glucagon into your answer. Label stimulus, receptor, effector and response using the pancreas, insulin, cells and liver."
     },
     {
       "h": "Worked example: thyroxine (feedback on the hormone itself)",
+      "b": "In this example the hormone controls its own level. The level of thyroxine (a hormone made by the thyroid gland) is detected, and the thyroxine itself switches off the signal that makes more of it. This makes it a standard example of negative feedback.",
       "points": [
         "Stimulus: thyroxine falls below normal in the blood.",
-        "Receptors: the hypothalamus and pituitary gland detect the low level.",
-        "Response: the pituitary releases TSH, and the thyroid releases thyroxine.",
-        "High thyroxine inhibits the release of TSH by the pituitary, so thyroxine production falls."
-      ]
+        "Receptors: the hypothalamus and pituitary gland (a gland at the base of the brain) detect the low level.",
+        "Response: the pituitary releases TSH (thyroid-stimulating hormone), and TSH makes the thyroid release thyroxine.",
+        "High thyroxine inhibits the release of TSH by the pituitary, so thyroxine production falls. This is why the level does not keep rising."
+      ],
+      "tip": "Exams use thyroxine and TSH to test negative feedback. Say that low thyroxine leads to TSH release and more thyroxine, and that high thyroxine inhibits TSH release. Do not name other hypothalamic hormones."
     },
     {
       "h": "Worked example: water balance (hormonal)",
+      "b": "The body must also keep the water concentration of the blood steady, which it does through a hormone released from the pituitary gland.",
       "points": [
-        "The hypothalamus detects the water concentration of the blood, and the pituitary adjusts the release of ADH.",
-        "ADH changes how much water the kidneys reabsorb; the nephron detail is in The Urinary System."
+        "The hypothalamus detects the water concentration of the blood, and the pituitary adjusts the release of ADH (antidiuretic hormone).",
+        "ADH changes how much water the kidneys reabsorb (take back into the blood). There is more on this in The Urinary System."
       ]
     },
     {
       "h": "Worked example: breathing rate",
-      "b": "A rise in blood carbon dioxide is detected by the brain, which increases the breathing rate. The control of breathing is covered in The Breathing System."
+      "b": "A rise in blood carbon dioxide is detected by the brain, which increases the breathing rate. Faster breathing removes carbon dioxide from the blood, which returns its level towards the set point. There is more on this in The Breathing System.",
+      "points": [
+        "Carbon dioxide level is one of the factors kept constant, and it is controlled by negative feedback: the brain detects a rise and increases the breathing rate."
+      ]
     }
   ],
   "keyTerms": [

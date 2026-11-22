@@ -6,96 +6,134 @@
   "notes": [
     {
       "h": "Gametes and meiosis",
+      "b": "Gametes are the cells that carry genes from one generation to the next, and they are made by a special kind of cell division. Knowing where this division happens, and which cells do it, is the starting point for sperm and egg production.",
       "points": [
-        "A gamete is a haploid sex cell. In humans the haploid number is 23 (n = 23).",
-        "Sperm and eggs are made by meiosis, so each carries one chromosome of each pair, and each gamete is genetically different (see “Mitosis and meiosis”).",
-        "At fertilisation two haploid gametes fuse to give a diploid zygote with 46 chromosomes (2n = 46).",
-        "Meiosis happens only in the gonads: in the seminiferous tubules of the testes (sperm) and in the ovaries (eggs).",
-        "The cells that undergo meiosis are diploid; every other cell in the body divides by mitosis."
-      ]
+        "A gamete is a haploid sex cell, meaning it has only one chromosome of each pair. In humans the haploid number is 23 (n = 23).",
+        "Sperm and eggs are made by meiosis (the cell division that halves the chromosome number), so each gamete carries one chromosome of each pair, and each gamete is genetically different from the others. There is more on this in Mitosis and meiosis.",
+        "At fertilisation two haploid gametes fuse to give a diploid zygote (the first cell of a new individual, with both chromosomes of each pair) with 46 chromosomes (2n = 46).",
+        "Meiosis happens only in the gonads (the organs that make gametes): in the seminiferous tubules (the coiled tubes inside the testes) for sperm, and in the ovaries for eggs.",
+        "The cells that undergo meiosis are diploid. Every other cell in the body divides by mitosis, which keeps the chromosome number the same."
+      ],
+      "tip": "If asked which type of cell division produces gametes, the answer is meiosis. If asked how many chromosomes a human sperm or egg has, the answer is 23, half the 46 of an ordinary body cell."
     },
     {
       "h": "Sperm production",
+      "b": "Unlike eggs, sperm are made continuously, in huge numbers, from puberty onwards. The process happens in the testes and finishes in a storage tube beside them.",
       "points": [
         "Sperm production begins at puberty and then continues every day throughout a man's life, though it declines in old age.",
-        "Many millions of sperm are made each day in the walls of the seminiferous tubules, from diploid cells that first multiply by mitosis and then divide by meiosis.",
+        "Many millions of sperm are made each day in the walls of the seminiferous tubules, from diploid cells that first multiply by mitosis (which keeps a supply of cells available) and then divide by meiosis.",
         "Each cell that completes meiosis gives four sperm, all of equal size.",
-        "Half the sperm carry an X chromosome and half carry a Y (see “Sex determination”).",
-        "The new sperm move into the epididymis, where they are stored and mature, becoming able to swim (see “The male reproductive system”).",
+        "Half the sperm carry an X chromosome and half carry a Y, because the dividing cell has one X and one Y. There is more on this in Sex determination.",
+        "The new sperm move into the epididymis (a coiled tube on the back of each testis), where they are stored and mature, becoming able to swim.",
         "It takes about two to three months for a sperm to be produced and matured, so a change in lifestyle or health affects sperm only after some weeks.",
-        "Production needs the lower temperature of the scrotum and hormones, including testosterone (control in “Hormones in reproduction”)."
-      ]
+        "Production needs the lower temperature of the scrotum (the sac that holds the testes outside the body) and the hormones FSH and testosterone."
+      ],
+      "tip": "Remember that one meiosis gives four sperm of equal size, half X and half Y. Hormonal control of sperm production is dealt with in Hormones in reproduction, so keep your answer here to the cell divisions and the conditions needed."
     },
     {
-      "h": "Egg production",
+      "h": "Egg production before birth and from puberty",
+      "b": "Egg production runs on a very different timetable from sperm production. A girl's eggs begin forming before she is born, and she never makes more.",
       "points": [
-        "Egg production starts before birth: while a girl is a foetus, her ovaries form all the immature eggs she will ever have, each inside a follicle.",
-        "Each of these eggs begins meiosis but stops part-way.",
-        "A baby girl is born with about one to two million immature eggs; most degenerate, and only about 400–500 are ever released in her life.",
-        "No new eggs are made after birth.",
-        "From puberty, usually one follicle each month develops fully and releases its egg at ovulation (the monthly cycle is in “The menstrual cycle”).",
-        "Meiosis continues around ovulation but is completed only if a sperm enters the egg.",
+        "Egg production starts before birth: while a girl is a foetus (an unborn baby), her ovaries form all the immature eggs she will ever have, each inside a follicle (a small fluid-filled sac of cells that nourishes the egg).",
+        "Each of these eggs begins meiosis but stops part-way, and stays paused for years.",
+        "A baby girl is born with about one to two million immature eggs. Most degenerate (break down), and only about 400–500 are ever released in her life.",
+        "No new eggs are made after birth, which is why the supply is fixed.",
+        "From puberty, usually one follicle each month develops fully and releases its egg at ovulation (the release of an egg from the ovary). The monthly cycle is dealt with in The menstrual cycle.",
+        "Meiosis continues around ovulation but is completed only if a sperm enters the egg, so an egg that is never fertilised never finishes meiosis."
+      ],
+      "tip": "Examiners can ask you to compare egg and sperm production. Contrast the timing: eggs begin to form before birth and no new ones are made after birth, while sperm are made continuously from puberty."
+    },
+    {
+      "h": "Unequal division and the ageing of eggs",
+      "b": "Meiosis in the ovary does not split the cell evenly, and the eggs it makes are as old as the woman herself. Both facts matter for the early embryo and for fertility.",
+      "points": [
         "Division in egg production is unequal: almost all the cytoplasm goes to one cell, the egg, and the other products are tiny cells called polar bodies, which degenerate.",
-        "So one cell undergoing meiosis gives one egg, not four. The egg keeps a large store of cytoplasm, food reserves and organelles for the early embryo.",
-        "Because the eggs are as old as the woman, they age with her: in older women more eggs have errors in chromosome separation, which is why the risk of conditions such as Down syndrome rises with the mother's age (see “Mutations”).",
-        "Fertility also falls with age because of these egg changes (see “Fertility control and infertility”)."
-      ]
+        "So one cell undergoing meiosis gives one egg, not four.",
+        "This unequal split gives the egg a large store of cytoplasm, food reserves and organelles (the small working structures inside a cell) to support the early embryo.",
+        "Because the eggs are as old as the woman, they age with her. In older women more eggs have errors in chromosome separation, which is why the risk of conditions such as Down syndrome rises with the mother's age. There is more on this in Mutations.",
+        "Fertility also falls with age because of these egg changes."
+      ],
+      "tip": "State the contrast clearly: one meiosis gives one egg plus polar bodies, but four sperm. You do not need the names of the stages of meiosis for this."
     },
     {
-      "h": "Sperm and egg structure",
+      "h": "Sperm structure and function",
+      "b": "A sperm has one job, to carry the father's haploid nucleus to the egg. Every part of its structure helps it do that, so it is small, streamlined and powered for swimming.",
       "points": [
-        "Sperm: a very small, mobile cell, about 0.05 mm long.",
-        "The sperm head contains the haploid nucleus (23 chromosomes) and, at its tip, the acrosome, a cap containing enzymes that digest a path through the layers around the egg.",
-        "The sperm middle piece is packed with mitochondria that release energy (ATP) by aerobic respiration to power the tail.",
-        "The sperm tail is a flagellum that beats to make it swim. The sperm has very little cytoplasm, which keeps it small and streamlined.",
-        "Egg (ovum): one of the largest cells in the body, about 0.1 mm across, just visible to the naked eye; it cannot move by itself.",
-        "The egg contains a haploid nucleus (23 chromosomes, always including an X), a large volume of cytoplasm with food reserves and many mitochondria, and a cell membrane.",
-        "Around the egg is a thick, clear, jelly-like coat called the zona pellucida, and an outer layer of follicle cells."
-      ]
+        "A sperm is a very small, mobile cell, about 0.05 mm long.",
+        "The head contains the haploid nucleus (23 chromosomes) and, at its tip, the acrosome, a cap containing enzymes that digest a path through the layers around the egg.",
+        "The middle piece is packed with mitochondria that release energy (ATP) by aerobic respiration (respiration using oxygen) to power the tail.",
+        "The tail is a flagellum (a whip-like tail) that beats to make the sperm swim.",
+        "A sperm has very little cytoplasm, which keeps it small and streamlined for swimming.",
+        "Diagram: a sperm cell. Label the head, acrosome, nucleus, middle piece, mitochondria and tail."
+      ],
+      "tip": "If asked why the middle piece has many mitochondria, say they release energy by aerobic respiration to power the tail for swimming. A sperm with a faulty tail swims poorly, which is one structural cause of male infertility."
+    },
+    {
+      "h": "Egg structure and function",
+      "b": "The egg has a different job from the sperm. It cannot move, so its structure is built to supply and protect the new life once a sperm arrives.",
+      "points": [
+        "The egg (ovum) is one of the largest cells in the body, about 0.1 mm across, just visible to the naked eye. It cannot move by itself.",
+        "It contains a haploid nucleus (23 chromosomes, always including an X), a cell membrane, and a large volume of cytoplasm holding food reserves and many mitochondria, which feed and power the early embryo.",
+        "Around the egg is a thick, clear, jelly-like coat called the zona pellucida, and outside that an outer layer of follicle cells.",
+        "Diagram: an egg, drawn much larger than the sperm. Label the nucleus, cytoplasm, cell membrane, zona pellucida (jelly coat) and follicle cells."
+      ],
+      "tip": "When you draw both gametes, draw the egg much larger than the sperm and label every part the question lists."
     },
     {
       "h": "Comparing sperm and egg",
+      "b": "Sperm and eggs are both haploid gametes, but their differences follow from their jobs: the sperm travels and delivers, and the egg stores food and waits. Compare them in pairs, one feature at a time.",
       "points": [
-        "Size: sperm are tiny, about 0.05 mm long; the egg is far larger, about 0.1 mm across, with a far greater volume.",
-        "Movement: the sperm swims with its tail; the egg is moved by cilia in the fallopian tube.",
-        "Numbers: millions of sperm per ejaculation; usually one egg a month.",
-        "Cytoplasm and food: sperm have almost none; the egg is a large store.",
-        "Sex chromosome: a sperm carries an X or a Y; the egg always carries an X.",
-        "Production: sperm are made continuously from puberty, four per meiosis; eggs begin to form before birth, one per meiosis.",
-        "Diagram: a sperm cell labelled head, acrosome, nucleus, middle piece, mitochondria and tail; and an egg labelled nucleus, cytoplasm, cell membrane, zona pellucida (jelly coat) and follicle cells. Draw the egg much larger than the sperm."
-      ]
+        "Size: sperm are tiny, about 0.05 mm long, while the egg is far larger, about 0.1 mm across, with a far greater volume.",
+        "Movement: the sperm swims with its tail, but the egg cannot swim and is moved along the fallopian tube by cilia (tiny hair-like structures lining the tube).",
+        "Numbers: there are millions of sperm per ejaculation, but usually one egg a month.",
+        "Cytoplasm and food: sperm have almost none, but the egg is a large store.",
+        "Sex chromosome: a sperm carries an X or a Y, but the egg always carries an X.",
+        "Production: sperm are made continuously from puberty, four per meiosis, while eggs begin to form before birth, one per meiosis."
+      ],
+      "tip": "Compare questions need a feature on each side: do not just describe the sperm and then the egg. Pair them up, for example tail for swimming against cilia moving the egg."
     },
     {
       "h": "From intercourse to the egg",
+      "b": "Fertilisation needs sperm and egg to meet in the right place at the right time. Only a tiny fraction of sperm survive the journey, and the timing is tight because both gametes live for a limited time.",
       "points": [
-        "During intercourse semen is ejaculated into the top of the vagina, near the cervix.",
+        "During intercourse semen (the fluid containing the sperm) is ejaculated into the top of the vagina, near the cervix (the neck of the uterus).",
         "Sperm swim through the cervical mucus, which is easiest to pass around ovulation when it is thin, then through the uterus and into the fallopian tubes, helped by contractions of the uterus.",
-        "Only a few hundred of the millions of sperm reach the egg; most die in the acidic vagina, are blocked by mucus, or go into the tube with no egg.",
+        "Only a few hundred of the millions of sperm reach the egg. Most die in the acidic vagina, are blocked by mucus, or go into the tube with no egg.",
         "Sperm can survive up to about five days in the female tract.",
         "An egg survives only about 12–24 hours after ovulation.",
-        "So intercourse in the five days before ovulation, or on the day of ovulation, can lead to fertilisation (used in “Fertility control and infertility”)."
+        "So intercourse in the five days before ovulation, or on the day of ovulation, can lead to fertilisation, because live sperm and a live egg are then present together."
       ]
     },
     {
-      "h": "Fertilisation",
+      "h": "Fertilisation: definition and steps",
+      "b": "Fertilisation is more than a sperm touching an egg. It is the fusion of two nuclei, and it happens in a set order that stops more than one sperm getting in.",
       "points": [
         "Fertilisation is the fusion of the haploid nucleus of a sperm with the haploid nucleus of an egg to form a diploid zygote.",
         "In humans it normally takes place in the upper part of a fallopian tube, within a day of ovulation.",
-        "Step 1: sperm reach the egg and push between the follicle cells.",
-        "Step 2: the acrosome of a sperm releases its enzymes, which digest a path through the zona pellucida (the acrosome reaction).",
-        "Step 3: the membrane of one sperm fuses with the egg's membrane, and the sperm's nucleus enters the egg; the tail is left outside.",
-        "Step 4: at once the egg's outer layer changes and the zona pellucida hardens, so no other sperm can enter; this ensures the zygote receives only one set of chromosomes from the father.",
-        "Step 5: the egg completes its meiosis.",
-        "Step 6: the sperm nucleus and egg nucleus fuse, giving a zygote with 46 chromosomes in 23 pairs, one of each pair from each parent.",
-        "At fertilisation the sex of the child is decided by whether the sperm carries an X or a Y (see “Sex determination”).",
-        "The zygote receives its mitochondria from the egg only (see “Nuclear and non-nuclear inheritance”).",
-        "Fertilisation restores the diploid number and combines genetic material from two parents, so the offspring is genetically unique; with meiosis, this is a source of variation.",
-        "Fertilisation starts the development of the embryo. The zygote begins to divide by mitosis as it moves down the tube (continued in “Pregnancy”).",
+        "1. Sperm reach the egg and push between the follicle cells.",
+        "2. The acrosome of a sperm releases its enzymes, which digest a path through the zona pellucida. This is called the acrosome reaction.",
+        "3. The membrane of one sperm fuses with the egg's membrane, and the sperm's nucleus enters the egg. The tail is left outside, so the sperm's mitochondria stay out.",
+        "4. At once the egg's outer layer changes and the zona pellucida hardens, so no other sperm can enter. This ensures the zygote receives only one set of chromosomes from the father.",
+        "5. The egg completes its meiosis.",
+        "6. The sperm nucleus and egg nucleus fuse, giving a zygote with 46 chromosomes in 23 pairs, one of each pair from each parent."
+      ],
+      "tip": "Define fertilisation as fusion of the nuclei, not just a sperm entering or touching the egg. If asked where it happens, say the fallopian tube, not the uterus."
+    },
+    {
+      "h": "Sex, mitochondria and what fertilisation achieves",
+      "b": "Fertilisation settles several things at once: the child's sex, where its mitochondria come from, and the start of a new genetically unique individual.",
+      "points": [
+        "At fertilisation the sex of the child is decided by whether the sperm carries an X or a Y, because the egg always carries an X. The zygote receives its mitochondria from the egg only. There is more on this in Sex determination and in Nuclear and non-nuclear inheritance.",
+        "Fertilisation restores the diploid number, which would otherwise halve in every generation.",
+        "It combines genetic material from two parents, so the offspring is genetically unique. Together with meiosis, this is a source of variation.",
+        "Fertilisation starts the development of the embryo. The zygote begins to divide by mitosis as it moves down the tube. There is more on this in Pregnancy.",
         "Diagram: a sequence showing a sperm entering an egg (the acrosome digesting the zona pellucida), the sperm nucleus inside the egg, and the two nuclei fusing to form the zygote. Label the sperm nucleus, egg nucleus, zona pellucida, zygote, n and 2n."
-      ]
+      ],
+      "tip": "A sperm's X or Y decides the sex, since the egg always carries an X. Do not say the mother decides the sex. The sperm's mitochondria power swimming but are not passed on."
     },
     {
       "h": "Twins",
+      "b": "Twins can arise in two different ways, and the difference explains why some twins are genetically identical and others are not.",
       "points": [
         "Identical twins come from one zygote that splits into two embryos early in development, so they have the same genes.",
         "Non-identical (fraternal) twins come from two eggs released at the same time and fertilised by two different sperm, so they are no more alike genetically than other brothers and sisters."

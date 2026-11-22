@@ -5,72 +5,114 @@
   "syllabusRef": "2.5.6",
   "notes": [
     {
-      "h": "Fertile periods",
+      "h": "Fertile periods in males and females",
+      "b": "Fertility is the ability to produce offspring, but it is not available all the time in everyone. Males and females differ because sperm production runs continuously while egg release happens once per cycle.",
       "points": [
-        "Fertility is the ability to produce offspring. A fertile period is the time during which intercourse can lead to pregnancy.",
-        "Males are continuously fertile: from puberty, sperm are made every day for the rest of life, declining slowly in old age, and every ejaculation contains millions of sperm (see “Gametes and fertilisation”).",
-        "Females are cyclically fertile: from puberty to menopause, usually one egg is released per cycle, and it survives only about 12–24 hours, while sperm can survive up to about five days.",
-        "So the fertile window in each cycle is about six days: the five days before ovulation and the day of ovulation.",
-        "In a regular 28-day cycle this is roughly days 9 to 14, but because ovulation day varies (see “The menstrual cycle”), the window cannot be predicted exactly from the calendar alone.",
-        "Female fertility also changes over a lifetime: it is highest in the twenties and falls with age, more steeply after about 35, because the number and quality of the remaining eggs decline (see “Gametes and fertilisation”).",
-        "Female fertility ends at the menopause (see “Hormones in reproduction”)."
+        "A fertile period is the time during which intercourse can lead to pregnancy.",
+        "Males are continuously fertile: from puberty, sperm are made every day for the rest of life, declining slowly in old age, and every ejaculation (release of semen) contains millions of sperm. This is why a man is fertile on any day.",
+        "Females are cyclically fertile: from puberty to menopause, usually one egg is released per cycle (ovulation), so fertility comes in a short window once each cycle rather than every day.",
+        "The egg survives only about 12–24 hours after release, while sperm can survive up to about five days in the female body.",
+        "So the fertile window in each cycle is about six days: the five days before ovulation, when sperm already present can wait for the egg, and the day of ovulation.",
+        "In a regular 28-day cycle this is roughly days 9 to 14, but because the day of ovulation varies from woman to woman and cycle to cycle, the window cannot be predicted exactly from the calendar alone."
+      ],
+      "tip": "If you are asked to explain why males are continuously fertile and females cyclically fertile, contrast daily sperm production with one egg per cycle. To identify the fertile period from cycle information, count the five days before ovulation plus the day of ovulation."
+    },
+    {
+      "h": "Female fertility over a lifetime",
+      "b": "A woman's fertility is not the same at every age. It follows the state of her eggs, which she is born with and which do not renew.",
+      "points": [
+        "Female fertility is highest in the twenties and falls with age, more steeply after about 35, because the number and quality of the remaining eggs decline.",
+        "Female fertility ends at the menopause, the time of life when ovulation and periods stop for good. There is more on this in Hormones in reproduction."
       ]
     },
     {
       "h": "Contraception: what it is",
+      "b": "Contraception means stopping a pregnancy from starting. Every method blocks one step on the route from egg release to implantation, and methods differ in how reliable they are and in what else they protect against.",
       "points": [
         "Contraception is the deliberate prevention of pregnancy.",
-        "Methods work by preventing ovulation, by preventing sperm from reaching the egg (preventing fertilisation), or by preventing implantation.",
+        "Methods work in one of three ways: by preventing ovulation, by preventing sperm from reaching the egg (preventing fertilisation), or by preventing implantation, the embedding of the embryo in the lining of the uterus.",
         "Methods are grouped as natural, mechanical (barrier), surgical and chemical (hormonal and spermicidal).",
         "Effectiveness with perfect use: the male condom is about 98% effective; the pill, the implant, the coils and sterilisation are each more than 99% effective.",
-        "With typical, real-life use, methods that depend on the user remembering or using them correctly every time, namely natural methods, condoms and the pill, fail more often.",
-        "Long-acting methods, namely the implant, coils and sterilisation, stay above 99% effective with typical use.",
-        "Only condoms, male and female, protect against sexually transmitted infections (STIs).",
+        "With typical, real-life use, methods that depend on the user remembering or using them correctly every time, namely natural methods, condoms and the pill, fail more often, because people forget or make mistakes.",
+        "Long-acting methods, namely the implant, coils and sterilisation, stay above 99% effective with typical use, because there is nothing to remember.",
+        "Only condoms, male and female, protect against sexually transmitted infections (STIs), because they stop body fluids passing between partners.",
         "People using another method need condoms as well to reduce the risk of STIs."
-      ]
+      ],
+      "tip": "Be ready to name one natural, one mechanical, one surgical and one chemical method and say how each works. The method that also protects against STIs is the condom, and no other method does."
     },
     {
-      "h": "Natural methods",
+      "h": "Natural methods: abstinence and fertility awareness",
+      "b": "Natural methods use no drugs or devices. They rely on behaviour: avoiding intercourse altogether, or avoiding it on the days when pregnancy is possible.",
       "points": [
         "Abstinence, not having intercourse, is the only method that is completely effective against pregnancy and STIs.",
-        "Fertility awareness (natural family planning): the couple avoid intercourse during the fertile window, found by combining signs.",
-        "Sign 1, the calendar (rhythm) method: recording cycle lengths to estimate when ovulation happens.",
-        "Sign 2, body temperature: measured each morning before getting up, it rises by a small amount, a few tenths of a degree Celsius, just after ovulation and stays up for the rest of the cycle, because of progesterone.",
-        "Sign 3, cervical mucus: it becomes thin, clear, stretchy and slippery around ovulation.",
-        "Home kits that detect the hormone surge before ovulation in urine can also be used (see “The menstrual cycle”).",
-        "Advantages of natural methods: no drugs, devices or side effects, and they are acceptable to people whose religious beliefs rule out artificial contraception, for example the teaching of the Catholic Church.",
-        "Limits of natural methods: they need training, daily records and regular cycles, and are much less reliable with typical use.",
-        "Natural methods are hard to use after childbirth, when breastfeeding or near the menopause, and give no protection against STIs.",
-        "Withdrawal of the penis before ejaculation is unreliable, because some sperm may be released before ejaculation.",
-        "Breastfeeding delays ovulation but is not reliable contraception (see “Hormones in reproduction”)."
+        "Fertility awareness (natural family planning): the couple avoid intercourse during the fertile window, which they find by combining several signs.",
+        "Sign 1, the calendar (rhythm) method: recording cycle lengths over time to estimate when ovulation happens.",
+        "Sign 2, body temperature: measured each morning before getting up, it rises by a small amount, a few tenths of a degree Celsius, just after ovulation and stays up for the rest of the cycle, because of the hormone progesterone.",
+        "Sign 3, cervical mucus (the fluid made by the cervix, the neck of the uterus): it becomes thin, clear, stretchy and slippery around ovulation.",
+        "Home kits that detect the hormone surge before ovulation in urine can also be used, giving a warning that ovulation is near. There is more on this in The menstrual cycle."
       ]
     },
     {
-      "h": "Mechanical (barrier and device) methods",
+      "h": "Natural methods: advantages and limits",
+      "b": "Natural methods appeal to some people but are demanding to use and fail more often than other methods in real life. Knowing both sides lets you discuss them fairly.",
+      "points": [
+        "Advantages of natural methods: no drugs, devices or side effects, and they are acceptable to people whose religious beliefs rule out artificial contraception, for example the teaching of the Catholic Church, which accepts only natural methods.",
+        "Limits of natural methods: they need training, daily records and regular cycles, and are much less reliable with typical use.",
+        "Natural methods are hard to use after childbirth, when breastfeeding or near the menopause, because cycles are then irregular. They also give no protection against STIs.",
+        "Withdrawal of the penis before ejaculation is unreliable, because some sperm may be released before ejaculation.",
+        "Breastfeeding delays ovulation but is not reliable contraception, because ovulation can return without warning."
+      ]
+    },
+    {
+      "h": "Mechanical methods: condoms, diaphragm and cap",
+      "b": "Barrier methods put a physical block between sperm and egg. They are the only group that includes protection against STIs, because they also stop body fluids passing between partners.",
       "points": [
         "Male condom: a thin latex, or non-latex, sheath placed over the erect penis that collects the semen, so sperm cannot enter the vagina.",
         "The male condom also blocks the exchange of body fluids, so it reduces the spread of STIs, including HIV.",
         "The male condom is cheap, widely available and has no hormones; it can tear or slip, and must be put on before any contact.",
         "Female condom: a soft pouch placed in the vagina that lines it and collects semen; it also protects against STIs.",
-        "Diaphragm or cap: a dome of soft silicone placed over the cervix before intercourse, used with a spermicide and left in for several hours afterwards; it does not protect well against STIs.",
+        "Diaphragm or cap: a dome of soft silicone placed over the cervix before intercourse, used with a spermicide (a sperm-killing chemical) and left in for several hours afterwards; it does not protect well against STIs."
+      ],
+      "tip": "Condoms, male and female, are the only contraceptives that protect against STIs. The pill, coils, sterilisation and natural methods do not."
+    },
+    {
+      "h": "Mechanical methods: the copper coil",
+      "b": "The copper coil is a device rather than a barrier, but it is grouped with mechanical methods because it is a physical object placed in the body. It works without hormones.",
+      "points": [
         "Copper coil (copper intrauterine device, IUD): a small T-shaped device with copper, placed in the uterus by a doctor or nurse.",
-        "Copper is toxic to sperm and eggs, preventing fertilisation, and it changes the endometrium so an embryo is unlikely to implant.",
+        "Copper is toxic to sperm and eggs, preventing fertilisation, and it changes the endometrium (the lining of the uterus) so an embryo is unlikely to implant.",
         "The copper coil lasts for 5–10 years, contains no hormones, and can be removed at any time with a quick return to fertility.",
         "The copper coil can also be used as emergency contraception if fitted within five days.",
         "The copper coil can make periods heavier, and gives no protection against STIs.",
-        "It is grouped as mechanical because it is a device; the hormonal coil is in the chemical block."
-      ]
+        "It is grouped as mechanical because it is a device; the hormonal coil is in the chemical methods."
+      ],
+      "tip": "Do not call the copper coil hormonal, and do not call the hormonal coil (IUS) copper."
     },
     {
-      "h": "Surgical methods",
+      "h": "Surgical methods: vasectomy",
+      "b": "Sterilisation is a permanent operation that blocks the tubes gametes travel along. In men this is vasectomy, which stops sperm joining the semen without changing anything else about the man.",
       "points": [
-        "Vasectomy (male sterilisation): under local anaesthetic, each vas deferens is cut and tied or sealed, so sperm cannot leave the testes (see “The male reproductive system”).",
+        "Vasectomy (male sterilisation): under local anaesthetic, each vas deferens (the tube carrying sperm from the testis) is cut and tied or sealed, so sperm cannot leave the testes. There is more on this in The male reproductive system.",
         "After a vasectomy the man still ejaculates semen, because the fluids come from glands that are untouched; his testosterone and sex drive are unaffected.",
         "The sperm that are still made are broken down and reabsorbed.",
-        "A vasectomy is not effective at once, because sperm remain in the ducts beyond the cut; semen tests are needed after some weeks to confirm there are no sperm.",
-        "Tubal ligation (female sterilisation): each fallopian tube is cut, tied or blocked with a clip, usually by keyhole surgery under general anaesthetic, so the egg and sperm cannot meet.",
+        "A vasectomy is not effective at once, because sperm remain in the ducts beyond the cut; semen tests are needed after some weeks to confirm there are no sperm."
+      ],
+      "tip": "A vasectomy does not stop ejaculation or testosterone production, and it is not effective immediately."
+    },
+    {
+      "h": "Surgical methods: tubal ligation",
+      "b": "Female sterilisation works on the same principle as vasectomy: the tubes are blocked so egg and sperm cannot meet. Unlike vasectomy, it works straight away.",
+      "points": [
+        "Tubal ligation (female sterilisation): each fallopian tube, the tube that carries the egg from the ovary to the uterus, is cut, tied or blocked with a clip, usually by keyhole surgery under general anaesthetic, so the egg and sperm cannot meet.",
         "After tubal ligation ovulation and the menstrual cycle continue as before, because the egg is reabsorbed.",
-        "Tubal ligation is effective at once.",
+        "Tubal ligation is effective at once."
+      ],
+      "tip": "Tubal ligation does not stop periods or ovulation."
+    },
+    {
+      "h": "Surgical methods: use and limits",
+      "b": "Sterilisation suits some people very well and others badly. The key issue is that it is meant to be permanent.",
+      "points": [
         "Sterilisation is very effective and permanent, with nothing to remember, but it should be treated as irreversible: reversal is difficult and often fails.",
         "Sterilisation carries the small risks of any surgery, and gives no protection against STIs.",
         "It suits people who are sure they want no more children.",
@@ -78,52 +120,85 @@
       ]
     },
     {
-      "h": "Chemical methods",
+      "h": "Chemical methods: the pill",
+      "b": "Chemical methods use hormones or sperm-killing chemicals. The pill is the best known: it is taken by mouth every day and uses synthetic versions of the body's own reproductive hormones.",
       "points": [
-        "The combined pill contains synthetic oestrogen and progesterone and prevents ovulation (how, in “Hormonal manipulation”); it also thickens the cervical mucus so sperm cannot pass.",
-        "The combined pill is taken daily, usually with a break or dummy pills each month, during which a withdrawal bleed happens.",
-        "The progestogen-only pill (synthetic progesterone only) works mainly by thickening the cervical mucus, and in some types also stops ovulation; it suits women who cannot take oestrogen.",
+        "The combined pill contains synthetic oestrogen and progesterone and prevents ovulation; the detail of how is in Hormonal manipulation. It also thickens the cervical mucus so sperm cannot pass.",
+        "The combined pill is taken daily, usually with a break or dummy pills each month, during which a withdrawal bleed (a bleed like a period) happens.",
+        "The progestogen-only pill (synthetic progesterone only) works mainly by thickening the cervical mucus, and in some types also stops ovulation; it suits women who cannot take oestrogen."
+      ]
+    },
+    {
+      "h": "Chemical methods: long-acting hormonal methods",
+      "b": "Some hormonal methods release their hormone slowly over months or years, so the user has nothing to remember daily. This is why they stay above 99% effective in real life.",
+      "points": [
         "Long-acting hormonal methods release a synthetic progesterone continuously.",
         "The implant is a small flexible rod placed under the skin of the upper arm, lasting about 3 years.",
         "The injection is given every few months.",
         "The hormonal coil (intrauterine system, IUS) is placed in the uterus and lasts several years; it thickens the cervical mucus and thins the endometrium.",
-        "The contraceptive patch and vaginal ring release oestrogen and progesterone, like the combined pill.",
-        "Emergency hormonal pills, taken as soon as possible after unprotected intercourse, work mainly by delaying ovulation; one type works within 3 days and another within 5 days.",
-        "The copper coil fitted within 5 days is the most effective emergency method (see the mechanical methods). Emergency pills are not for regular use.",
-        "Spermicides are chemicals in a gel or cream that kill sperm; they are not reliable alone and are used with a diaphragm or cap.",
+        "The contraceptive patch and vaginal ring release oestrogen and progesterone, like the combined pill."
+      ]
+    },
+    {
+      "h": "Chemical methods: emergency contraception and spermicides",
+      "b": "Some chemical methods are used after the event or alongside another method rather than as a regular choice.",
+      "points": [
+        "Emergency hormonal pills, taken as soon as possible after unprotected intercourse, work mainly by delaying ovulation, so there is no egg for sperm to meet; one type works within 3 days and another within 5 days.",
+        "The copper coil fitted within 5 days is the most effective emergency method. Emergency pills are not for regular use.",
+        "Spermicides are chemicals in a gel or cream that kill sperm; they are not reliable alone and are used with a diaphragm or cap."
+      ]
+    },
+    {
+      "h": "Chemical methods: benefits and limits of hormonal contraception",
+      "b": "Hormonal methods are very effective and have extra health benefits, but they act on the whole body, so they also carry side effects and risks.",
+      "points": [
         "Hormonal methods are very effective; periods often become lighter, more regular and less painful.",
         "The combined pill lowers the risk of cancers of the ovary and of the endometrium (womb).",
         "Hormonal methods can cause side effects, for example headaches, mood changes and irregular bleeding with progesterone-only methods.",
         "The combined pill slightly raises the risk of blood clots (deep vein thrombosis) and stroke, especially in smokers and women over 35, so it is not prescribed to everyone.",
         "Hormonal methods give no protection against STIs.",
         "The pill must be taken correctly every day; vomiting or some medicines can stop it working."
+      ],
+      "tip": "Do not re-explain how the pill blocks ovulation unless asked. State that it prevents ovulation and thickens cervical mucus, then give one benefit and one risk."
+    },
+    {
+      "h": "Sexually transmitted infections: types and effects",
+      "b": "Some infections spread mainly through sexual contact, and some of them damage the reproductive system. This links contraception to infertility.",
+      "points": [
+        "An STI (sexually transmitted infection) is an infection passed on mainly by sexual contact.",
+        "Bacterial STIs are chlamydia, gonorrhoea and syphilis, which are treated with antibiotics.",
+        "Viral STIs are HIV, genital herpes, human papillomavirus (HPV, which causes genital warts and most cervical cancers) and hepatitis B, which can be controlled but is not usually cured. There is more on pathogens in Pathogens.",
+        "Chlamydia and gonorrhoea often cause no symptoms, especially in women, but can spread to the uterus and fallopian tubes, causing pelvic inflammatory disease, which scars and blocks the tubes.",
+        "Blocked tubes from pelvic inflammatory disease are a major preventable cause of female infertility, because the egg and sperm can no longer meet, and they raise the risk of ectopic pregnancy (a pregnancy that starts outside the uterus).",
+        "In men chlamydia and gonorrhoea can inflame the epididymis, the coiled tube on the testis where sperm mature and are stored."
       ]
     },
     {
       "h": "Preventing sexually transmitted infections",
+      "b": "Because many STIs cause no symptoms and can damage fertility, prevention combines protection during sex, testing and treatment, and vaccination.",
       "points": [
-        "An STI (sexually transmitted infection) is an infection passed on mainly by sexual contact.",
-        "Bacterial STIs are chlamydia, gonorrhoea and syphilis, which are treated with antibiotics.",
-        "Viral STIs are HIV, genital herpes, human papillomavirus (HPV, which causes genital warts and most cervical cancers) and hepatitis B, which can be controlled but is not usually cured.",
-        "Pathogens are described in “Pathogens”.",
-        "Chlamydia and gonorrhoea often cause no symptoms, especially in women, but can spread to the uterus and fallopian tubes, causing pelvic inflammatory disease, which scars and blocks the tubes.",
-        "Blocked tubes from pelvic inflammatory disease are a major preventable cause of female infertility, and they raise the risk of ectopic pregnancy (see “The female reproductive system”).",
-        "In men chlamydia and gonorrhoea can inflame the epididymis.",
         "Prevention: correct use of condoms every time, and fewer sexual partners.",
-        "Prevention: regular testing and treatment of infected people and their partners breaks the chain of transmission, because many infected people have no symptoms.",
-        "Prevention: vaccination against HPV (see “Causes, prevention and treatment of cancer”) and hepatitis B.",
-        "For HIV, anti-HIV drugs taken before possible exposure (pre-exposure prophylaxis, PrEP), and treatment of people with HIV, which reduces their virus to levels at which it is not passed on sexually.",
-        "Gonorrhoea is becoming resistant to antibiotics, which makes prevention more important (resistance in “Emergence and spread of infectious disease”)."
+        "Prevention: regular testing and treatment of infected people and their partners breaks the chain of transmission, because many infected people have no symptoms and would otherwise pass the infection on without knowing.",
+        "Prevention: vaccination against HPV and hepatitis B. There is more on HPV in Causes, prevention and treatment of cancer.",
+        "For HIV, anti-HIV drugs taken before possible exposure (pre-exposure prophylaxis, PrEP) lower the risk of infection.",
+        "Treatment of people with HIV reduces their virus to levels at which it is not passed on sexually.",
+        "Gonorrhoea is becoming resistant to antibiotics (the drugs no longer kill it), which makes prevention more important."
       ]
     },
     {
-      "h": "Freezing eggs",
+      "h": "Freezing eggs: the process",
+      "b": "Egg freezing (oocyte cryopreservation) lets a woman store her eggs while they are still young and healthy, to be used later. It uses a series of steps similar to the start of IVF.",
       "points": [
-        "Egg freezing (oocyte cryopreservation) preserves fertility for later.",
-        "Step 1: hormone injections stimulate the ovaries to mature several eggs at once.",
-        "Step 2: the eggs are collected with a fine needle through the vaginal wall, guided by ultrasound, under sedation.",
-        "Step 3: the eggs are frozen very rapidly (vitrification), so that ice crystals, which would damage the cells, do not form, and they are stored in liquid nitrogen at −196 °C.",
-        "Step 4: later the eggs are thawed and fertilised by IVF or ICSI (below).",
+        "1. Hormone injections stimulate the ovaries to mature several eggs at once, rather than the usual one.",
+        "2. The eggs are collected with a fine needle through the vaginal wall, guided by ultrasound, under sedation.",
+        "3. The eggs are frozen very rapidly (vitrification), so that ice crystals, which would damage the cells, do not form, and they are stored in liquid nitrogen at −196 °C.",
+        "4. Later the eggs are thawed and fertilised by IVF (fertilisation in a dish) or by ICSI (one sperm injected into an egg)."
+      ]
+    },
+    {
+      "h": "Freezing eggs: uses and limits",
+      "b": "Egg freezing preserves fertility but cannot promise a baby. Who uses it, and why it is not a guarantee, are the points to know.",
+      "points": [
         "Uses: before cancer treatment, because chemotherapy or radiotherapy can destroy the eggs in the ovaries, or by women who wish to delay having children.",
         "Sperm, and embryos made in IVF, can also be frozen; sperm freezing is offered to men before cancer treatment.",
         "Limits: success depends strongly on the woman's age when the eggs are frozen, since younger eggs have fewer chromosome errors and survive freezing better.",
@@ -133,27 +208,43 @@
     },
     {
       "h": "Infertility and its causes",
+      "b": "Infertility is common, and its causes can lie with the man, the woman, both, or neither. Finding the cause decides which treatment is suitable.",
       "points": [
         "Infertility is the failure to become pregnant after 12 months of regular unprotected intercourse.",
         "The World Health Organization estimated in 2023 that about 1 in 6 people worldwide experience infertility at some point in their lives.",
-        "Causes are found in the man, the woman, both, or neither, which is called unexplained infertility.",
-        "Male causes: low sperm count; sperm that swim poorly or are abnormally shaped, for example with a faulty tail.",
-        "Male causes: a blockage of the epididymis or vas deferens, for example after infection or vasectomy; undescended testes; and low testosterone or low pituitary hormones.",
-        "Male causes: lifestyle and environmental factors that reduce sperm production, such as smoking, heavy drinking, obesity, anabolic steroids (see “Hormonal manipulation”) and overheating of the testes.",
-        "Male infertility is diagnosed by semen analysis, which tests sperm count, movement and shape under the microscope.",
-        "Female cause: failure to ovulate, caused by a hormone imbalance, for example polycystic ovary syndrome (PCOS), or by being very underweight or overweight.",
-        "Female cause: blocked or damaged fallopian tubes, for example after pelvic inflammatory disease from an STI.",
-        "Female cause: endometriosis, in which tissue like the endometrium grows outside the uterus and can cause scarring around the tubes and ovaries.",
-        "Female causes also include problems of the uterus or cervical mucus, and age.",
+        "Causes are found in the man, the woman, both, or neither, which is called unexplained infertility."
+      ],
+      "tip": "Exams ask you to give a cause of male infertility and of female infertility, and a treatment for each."
+    },
+    {
+      "h": "Male causes of infertility",
+      "b": "Male infertility usually comes down to too few sperm, sperm that cannot do their job, or sperm that cannot get out. Lifestyle can also reduce sperm production.",
+      "points": [
+        "Low sperm count (too few sperm in the semen), and sperm that swim poorly or are abnormally shaped, for example with a faulty tail, reduce the chance that one reaches the egg.",
+        "A blockage of the epididymis or vas deferens, for example after infection or vasectomy, stops sperm leaving the testes.",
+        "Undescended testes (testes that have not moved down into the scrotum) and low testosterone or low pituitary hormones are also male causes.",
+        "Lifestyle and environmental factors reduce sperm production, such as smoking, heavy drinking, obesity, anabolic steroids and overheating of the testes. There is more on steroids in Hormonal manipulation.",
+        "Male infertility is diagnosed by semen analysis, which tests sperm count, movement and shape under the microscope."
+      ]
+    },
+    {
+      "h": "Female causes of infertility",
+      "b": "Female infertility arises when no egg is released, when egg and sperm cannot meet, or when the uterus cannot support an embryo.",
+      "points": [
+        "Failure to ovulate, caused by a hormone imbalance, for example polycystic ovary syndrome (PCOS), or by being very underweight or overweight, means no egg is released.",
+        "Blocked or damaged fallopian tubes, for example after pelvic inflammatory disease from an STI, stop egg and sperm meeting.",
+        "Endometriosis is a condition in which tissue like the endometrium grows outside the uterus and can cause scarring around the tubes and ovaries.",
+        "Female causes also include problems of the uterus or cervical mucus, and age, because egg number and quality fall.",
         "Female infertility is diagnosed by blood hormone tests, ultrasound of the ovaries and uterus, and tests that show whether the tubes are open."
       ]
     },
     {
-      "h": "Stimulating ovulation",
+      "h": "Treating infertility: stimulating ovulation",
+      "b": "If the problem is that a woman does not release eggs regularly, the treatment is to make her ovaries release them. This is a first step before more complex techniques.",
       "points": [
         "Stimulating ovulation is for women who do not ovulate regularly, for example because of PCOS.",
         "Fertility drugs, as tablets or injections, cause the ovaries to mature and release eggs.",
-        "The woman is monitored by ultrasound to see how many follicles develop, and intercourse or insemination is timed to ovulation.",
+        "The woman is monitored by ultrasound to see how many follicles (the fluid-filled sacs in the ovary that each contain an egg) develop, and intercourse or insemination is timed to ovulation.",
         "Risk: more than one egg may be released, so twins or triplets are more likely.",
         "Risk: the ovaries can over-respond (ovarian hyperstimulation syndrome), becoming swollen and painful, which is occasionally serious.",
         "Lifestyle change, for example weight loss, can restore ovulation in some women."
@@ -161,92 +252,123 @@
     },
     {
       "h": "How ovulation-stimulating drugs work (Higher Level only)",
+      "b": "Fertility drugs work by acting on the same hormone system that controls the menstrual cycle, either by boosting the brain's signals to the ovaries or by supplying them directly.",
       "points": [
-        "Some fertility tablets block oestrogen's negative feedback on the brain and pituitary, so the pituitary releases more FSH and LH, which stimulate follicle development and ovulation (feedback in “The menstrual cycle”).",
+        "Some fertility tablets block oestrogen's negative feedback on the brain and pituitary, so the pituitary releases more FSH and LH, which stimulate follicle development and ovulation. There is more on feedback in The menstrual cycle.",
         "Injected fertility drugs contain FSH, often with LH, and act directly on the ovaries to make follicles develop.",
         "A final injection of a hormone that acts like LH triggers the eggs' final maturation and ovulation, imitating the LH surge.",
         "The same injections are used to stimulate the ovaries in IVF and egg freezing."
       ]
     },
     {
-      "h": "Artificial insemination",
+      "h": "Treating infertility: artificial insemination",
+      "b": "Artificial insemination helps when the sperm have trouble reaching the egg. It puts sperm into the uterus by hand, so more of them start closer to the egg.",
       "points": [
         "Artificial insemination, or intrauterine insemination (IUI): semen from the partner or a donor is collected, the sperm are washed and concentrated, and they are placed directly into the uterus through the cervix with a thin tube, at the time of ovulation.",
-        "This places many active sperm close to the fallopian tubes.",
-        "It is used for a mildly low sperm count or poor motility, cervical mucus that blocks sperm, difficulty with intercourse, and single women or female couples using donor sperm.",
-        "The woman's fallopian tubes must be open.",
+        "This places many active sperm close to the fallopian tubes, where fertilisation happens.",
+        "It is used for a mildly low sperm count or poor motility (swimming), cervical mucus that blocks sperm, difficulty with intercourse, and single women or female couples using donor sperm.",
+        "The woman's fallopian tubes must be open, because the sperm still have to travel along them to meet the egg.",
         "The same technique is widely used in farming, for example to breed cattle from selected bulls."
-      ]
+      ],
+      "tip": "Artificial insemination puts sperm, not eggs, into the uterus, and it needs open fallopian tubes."
     },
     {
-      "h": "In vitro fertilisation (IVF)",
+      "h": "Treating infertility: in vitro fertilisation (IVF)",
+      "b": "IVF takes fertilisation out of the body. Eggs and sperm are brought together in the laboratory, and the resulting embryo is then placed in the uterus.",
       "points": [
         "IVF means “in glass”, that is, fertilisation outside the body.",
-        "Step 1: hormone injections stimulate the ovaries to mature several eggs.",
-        "Step 2: the eggs are collected with a needle guided by ultrasound.",
-        "Step 3: the eggs are mixed with sperm in a dish in the laboratory, where fertilisation takes place.",
-        "Step 4: the embryos are grown in an incubator for 2–5 days, up to the blastocyst stage (see “Pregnancy”).",
-        "Step 5: usually one, sometimes two, embryos are placed in the uterus through the cervix with a thin tube.",
-        "Step 6: a pregnancy test about two weeks later shows whether an embryo has implanted.",
-        "Spare good-quality embryos can be frozen for later attempts.",
-        "IVF is used for blocked or damaged fallopian tubes, unexplained infertility, endometriosis, failure of other treatments, and couples needing preimplantation genetic testing (see “Prenatal and postnatal care”).",
+        "1. Hormone injections stimulate the ovaries to mature several eggs.",
+        "2. The eggs are collected with a needle guided by ultrasound.",
+        "3. The eggs are mixed with sperm in a dish in the laboratory, where fertilisation takes place.",
+        "4. The embryos are grown in an incubator for 2–5 days, up to the blastocyst stage (a ball of cells ready to implant). There is more on this in Pregnancy.",
+        "5. Usually one, sometimes two, embryos are placed in the uterus through the cervix with a thin tube.",
+        "6. A pregnancy test about two weeks later shows whether an embryo has implanted.",
+        "Spare good-quality embryos can be frozen for later attempts."
+      ],
+      "tip": "In IVF, fertilisation happens in the dish, not in the uterus, and it is the embryo, not the egg, that is transferred. Exam questions ask you to describe the steps in order."
+    },
+    {
+      "h": "IVF: who it is for, and its history",
+      "b": "IVF is used when simpler treatments will not work or are unsuitable. It was developed in the twentieth century and is now widely used.",
+      "points": [
+        "IVF is used for blocked or damaged fallopian tubes, unexplained infertility, endometriosis, failure of other treatments, and couples needing preimplantation genetic testing (checking embryos for a genetic condition before transfer). There is more on this in Prenatal and postnatal care.",
         "History: the first baby conceived by IVF, Louise Brown, was born in England on 25 July 1978, after work by the scientist Robert Edwards and the gynaecologist Patrick Steptoe.",
         "Edwards was awarded the Nobel Prize in Physiology or Medicine in 2010.",
         "Millions of babies have since been born by IVF worldwide."
       ]
     },
     {
-      "h": "Intracytoplasmic sperm injection (ICSI)",
+      "h": "Treating infertility: intracytoplasmic sperm injection (ICSI)",
+      "b": "ICSI is a version of IVF designed for severe male infertility. Instead of leaving sperm to fertilise the egg in the dish, the laboratory places one sperm inside the egg.",
       "points": [
         "ICSI is the same as IVF except that in step 3 a single sperm is chosen and injected directly into the cytoplasm of each egg with a very fine glass needle, under a microscope.",
         "Because the sperm does not have to swim to or enter the egg itself, ICSI overcomes severe male infertility.",
         "ICSI is used for very low sperm count, sperm that cannot swim or cannot penetrate the egg, and previous failure of fertilisation in IVF.",
         "ICSI is also used when sperm are taken directly from the testis or epididymis by a needle, for example after a vasectomy or a blockage.",
-        "ICSI is also used with frozen eggs (see the block on freezing eggs above)."
-      ]
+        "ICSI is also used with frozen eggs, which are thawed before the sperm is injected."
+      ],
+      "tip": "ICSI stands for intracytoplasmic sperm injection: the sperm goes into the cytoplasm, not just into the cell. ICSI is a form of IVF, not an alternative to it."
     },
     {
       "h": "Drawing IVF and ICSI",
+      "b": "A flow chart shows IVF and ICSI together, because they share every step except how the egg is fertilised.",
       "points": [
         "Diagram: a flow chart of IVF with ICSI as a branch: stimulate ovaries → collect eggs → (IVF: mix eggs and sperm in a dish | ICSI: inject one sperm into each egg) → grow embryos for 2–5 days → transfer an embryo to the uterus → pregnancy test."
       ]
     },
     {
-      "h": "Contraception: arguments for and against",
+      "h": "Contraception: arguments for",
+      "b": "Discussing contraception means weighing benefits against drawbacks. The benefits range from the individual to the whole planet.",
       "points": [
-        "For: contraception lets people choose whether and when to have children and how many, and to space pregnancies, which improves the health of mothers and babies.",
-        "For: it prevents unintended pregnancy, including in teenagers.",
-        "For: condoms reduce the spread of STIs, including HIV, a major public-health benefit.",
-        "For: hormonal methods can treat heavy or painful periods, and the combined pill lowers the risk of ovarian and endometrial cancer.",
-        "For: at a global scale, access to contraception slows population growth, reducing pressure on food, water and habitats (a sustainability link; see “The cross-cutting themes”).",
-        "Against: hormonal methods have side effects and, for some women, a small increased risk of blood clots.",
-        "Against: no method except condoms prevents STIs, so a person relying on the pill may still catch one.",
-        "Against: user-dependent methods often fail in real life.",
-        "Against: sterilisation is effectively irreversible and may be regretted.",
-        "Against: some people object to artificial contraception on religious or moral grounds.",
-        "Against: synthetic oestrogen from the pill, along with natural oestrogens, passes through sewage treatment into rivers, where it has been linked to the feminisation of male fish, an environmental effect."
+        "Contraception lets people choose whether and when to have children and how many, and to space pregnancies, which improves the health of mothers and babies.",
+        "It prevents unintended pregnancy, including in teenagers.",
+        "Condoms reduce the spread of STIs, including HIV, a major public-health benefit.",
+        "Hormonal methods can treat heavy or painful periods, and the combined pill lowers the risk of ovarian and endometrial cancer.",
+        "At a global scale, access to contraception slows population growth, reducing pressure on food, water and habitats. This is a sustainability link; there is more on this in The cross-cutting themes."
+      ],
+      "tip": "When asked to discuss contraception, give a biological reason with each point, not just a statement."
+    },
+    {
+      "h": "Contraception: arguments against",
+      "b": "Contraception also has drawbacks, some medical, some personal, and one environmental.",
+      "points": [
+        "Hormonal methods have side effects and, for some women, a small increased risk of blood clots.",
+        "No method except condoms prevents STIs, so a person relying on the pill may still catch one.",
+        "User-dependent methods often fail in real life, because they must be used correctly every time.",
+        "Sterilisation is effectively irreversible and may be regretted.",
+        "Some people object to artificial contraception on religious or moral grounds.",
+        "Synthetic oestrogen from the pill, along with natural oestrogens, passes through sewage treatment into rivers, where it has been linked to the feminisation of male fish, an environmental effect."
       ]
     },
     {
-      "h": "Infertility treatment: arguments for and against",
+      "h": "Infertility treatment: arguments for",
+      "b": "Treatments for infertility bring benefits that are both personal and medical. Each argument rests on the biology of the technique.",
       "points": [
-        "For: it allows people with infertility to have a child who is genetically their own, relieving much distress.",
-        "For: ICSI lets many men with very few or poorly swimming sperm become fathers.",
-        "For: egg and sperm freezing preserve fertility for people having cancer treatment.",
-        "For: preimplantation testing in IVF lets couples who carry a serious genetic condition avoid passing it on.",
-        "For: donor eggs or sperm allow people without their own gametes to have children.",
-        "For: research in IVF has increased understanding of fertilisation and early development.",
-        "Against: stimulating ovulation and transferring more than one embryo raise the chance of twins and triplets, which are more often born premature and underweight and carry more risk for the mother; this is why single-embryo transfer is now favoured.",
-        "Against: ovarian hyperstimulation can be dangerous.",
-        "Against: success rates per cycle are limited and fall sharply with the woman's age, so treatment can mean repeated cycles with much stress and cost, and unequal access for those who cannot pay.",
-        "Against: ICSI bypasses the natural selection of sperm, so a genetic cause of the father's infertility, for example some changes on the Y chromosome, can be passed to a son.",
-        "Against: spare frozen embryos raise questions about how long they are stored and whether they may be used in research or discarded (see “Ethics of genetic technologies”).",
-        "Against: children conceived with donor gametes may want to know their genetic origins, which raises questions about donor anonymity.",
-        "Against: treatment allows parenthood at older ages, when pregnancy carries more risk, for example a higher chance of chromosome conditions (see “Mutations”)."
+        "It allows people with infertility to have a child who is genetically their own, relieving much distress.",
+        "ICSI lets many men with very few or poorly swimming sperm become fathers.",
+        "Egg and sperm freezing preserve fertility for people having cancer treatment.",
+        "Preimplantation testing in IVF lets couples who carry a serious genetic condition avoid passing it on.",
+        "Donor eggs or sperm allow people without their own gametes to have children.",
+        "Research in IVF has increased understanding of fertilisation and early development."
+      ],
+      "tip": "Questions may ask you to discuss a named treatment. Pick the one you know best, such as IVF or ICSI, and give both a benefit and a limit."
+    },
+    {
+      "h": "Infertility treatment: arguments against",
+      "b": "Infertility treatments also raise health, cost and ethical concerns. Some are risks to mother and baby, others are questions of fairness and identity.",
+      "points": [
+        "Stimulating ovulation and transferring more than one embryo raise the chance of twins and triplets, which are more often born premature and underweight and carry more risk for the mother; this is why single-embryo transfer is now favoured.",
+        "Ovarian hyperstimulation can be dangerous.",
+        "Success rates per cycle are limited and fall sharply with the woman's age, so treatment can mean repeated cycles with much stress and cost, and unequal access for those who cannot pay.",
+        "ICSI bypasses the natural selection of sperm, so a genetic cause of the father's infertility, for example some changes on the Y chromosome, can be passed to a son.",
+        "Spare frozen embryos raise questions about how long they are stored and whether they may be used in research or discarded. There is more on this in Ethics of genetic technologies.",
+        "Children conceived with donor gametes may want to know their genetic origins, which raises questions about donor anonymity.",
+        "Treatment allows parenthood at older ages, when pregnancy carries more risk, for example a higher chance of chromosome conditions."
       ]
     },
     {
       "h": "Egg freezing: arguments for and against",
+      "b": "Egg freezing gives women more control over timing but is not a guarantee. Weigh the benefits against the limits.",
       "points": [
         "For: it preserves a woman's own eggs before cancer treatment.",
         "For: it gives women more choice over when to have children.",

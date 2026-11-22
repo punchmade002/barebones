@@ -5,20 +5,43 @@
   "syllabusRef": "2.5.7",
   "notes": [
     {
-      "h": "Adaptations of insect- and wind-pollinated flowers",
-      "b": "Each point gives the insect-pollinated flower first and the wind-pollinated flower second. The flower parts are named as in Flower structure and pollination.",
+      "h": "Attracting insects or not: petals, scent, nectar and flower shape",
+      "b": "A flower's structure follows from how its pollen travels. Insects must be lured in and rewarded, so insect-pollinated flowers advertise; the wind needs no persuading, so wind-pollinated flowers drop the advertising. Each point gives the insect-pollinated flower first and the wind-pollinated flower second, and the flower parts are named as in Flower structure and pollination.",
       "points": [
-        "Petals: insect-pollinated flowers have large, brightly coloured petals, often with nectar guides, to attract insects; wind-pollinated flowers have small, green or dull petals, or none, as there is no animal to attract and petals would block pollen in the wind.",
-        "Scent and nectar: insect-pollinated flowers are usually scented and have nectaries that produce nectar as a reward; wind-pollinated flowers have no scent and no nectaries.",
-        "Position of anthers: insect-pollinated anthers are inside the flower, held firmly on short or stiff filaments where a visiting insect brushes against them; wind-pollinated anthers hang outside the flower on long, thin, flexible filaments, loosely attached and often swinging freely, so the wind shakes pollen out.",
-        "Stigma: insect-pollinated stigmas are small, sticky and inside the flower, where the insect's body touches them; wind-pollinated stigmas are large, feathery (branched) and hang outside the flower, giving a big surface area to catch pollen from the air.",
-        "Amount of pollen: insect-pollinated flowers produce relatively small amounts, because insects carry pollen directly from flower to flower; wind-pollinated flowers produce very large amounts, because most pollen carried by the wind never reaches a stigma of the same species.",
-        "Pollen grains: insect pollen grains are larger, often with a sticky or oily coat and a rough or spiky surface that clings to insect hairs; wind pollen grains are small, light, dry and smooth, so they are carried easily and far by the wind and don't clump.",
-        "Flowers as a whole: insect-pollinated flowers are usually showy, single or in visible clusters; wind-pollinated flowers are small and inconspicuous, often in catkins or spikes held high above the leaves. Many wind-pollinated trees, e.g. hazel, flower before their leaves open, so the leaves don't block the pollen.",
-        "Examples: insect-pollinated plants include buttercup, wallflower, foxglove and primrose; wind-pollinated plants include grasses (e.g. ryegrass), hazel, oak, birch and plantain.",
-        "Diagram: side-by-side labelled drawings of an insect-pollinated flower (a half-flower of buttercup or wallflower, showing the large petal, nectary, anther inside the flower and small sticky stigma) and a wind-pollinated grass flower (feathery stigmas and anthers on long filaments hanging outside small green bracts). Label the bracts only as bracts (small green scales).",
+        "Petals: insect-pollinated flowers have large, brightly coloured petals, often with nectar guides (markings that lead the insect towards the nectar), to attract insects.",
+        "Wind-pollinated flowers have small, green or dull petals, or none, because there is no animal to attract and large petals would block pollen in the wind.",
+        "Scent and nectar: insect-pollinated flowers are usually scented and have nectaries (the glands that produce nectar, a sugary liquid), so the insect is rewarded for visiting.",
+        "Wind-pollinated flowers have no scent and no nectaries, because there is no visitor to reward.",
+        "Flowers as a whole: insect-pollinated flowers are usually showy, single or in visible clusters, so that insects can spot them.",
+        "Wind-pollinated flowers are small and inconspicuous, often in catkins (dangling spikes of tiny flowers) or spikes held high above the leaves, where the wind can reach them.",
+        "Many wind-pollinated trees, e.g. hazel, flower before their leaves open, so the leaves don't block the pollen.",
+        "Examples: insect-pollinated plants include buttercup, wallflower, foxglove and primrose; wind-pollinated plants include grasses (e.g. ryegrass), hazel, oak, birch and plantain."
+      ],
+      "tip": "If a diagram shows a flower with large coloured petals and a scent, give those reasons for insect pollination. Don't use dandelion as an insect-pollinated example, or wheat as a wind-pollinated one, and pine is not a flowering plant."
+    },
+    {
+      "h": "Catching and releasing pollen: anthers and stigma",
+      "b": "The anther (the pollen-producing part of the stamen, held up on a stalk called the filament) and the stigma (the sticky or feathery top of the carpel that receives pollen) are positioned to suit the carrier. Insects touch the flower's parts; the wind blows past them.",
+      "points": [
+        "Position of anthers: insect-pollinated anthers are inside the flower, held firmly on short or stiff filaments where a visiting insect brushes against them, so pollen rubs onto its body.",
+        "Wind-pollinated anthers hang outside the flower on long, thin, flexible filaments, loosely attached and often swinging freely, so the wind shakes pollen out.",
+        "Stigma: insect-pollinated stigmas are small, sticky and inside the flower, where the insect's body touches them and pollen sticks to them.",
+        "Wind-pollinated stigmas are large, feathery (branched) and hang outside the flower, giving a big surface area to catch pollen from the air.",
+        "Diagram: side-by-side labelled drawings of a buttercup or wallflower half-flower (large petal, nectary, anther inside, small sticky stigma) and a wind-pollinated grass flower (feathery stigmas, anthers on long filaments hanging outside small green bracts). Label bracts only as bracts (small green scales)."
+      ],
+      "tip": "Feathery stigmas belong to wind-pollinated flowers such as grasses, and sticky stigmas to insect-pollinated flowers. Don't give 'sticky' as the main feature of a wind-pollinated stigma."
+    },
+    {
+      "h": "Pollen: how much and what kind",
+      "b": "The pollen itself also differs. Insects deliver pollen accurately, whereas the wind scatters it at random, and the grains are built for the different journeys.",
+      "points": [
+        "Amount of pollen: insect-pollinated flowers produce relatively small amounts, because insects carry pollen directly from flower to flower.",
+        "Wind-pollinated flowers produce very large amounts, because most pollen carried by the wind never reaches a stigma of the same species, so many grains are needed for a few to land.",
+        "Pollen grains: insect pollen grains are larger, often with a sticky or oily coat and a rough or spiky surface that clings to insect hairs.",
+        "Wind pollen grains are small, light, dry and smooth, so they are carried easily and far by the wind and don't clump together.",
         "Diagram: an insect pollen grain (larger, with a spiky or sculptured surface) drawn beside a wind pollen grain (smaller and smooth), as seen under the microscope."
-      ]
+      ],
+      "tip": "To explain why wind-pollinated plants make so much pollen, say that most grains never reach a stigma of the same species. Wind pollen is light and smooth, not sticky or heavy; insect pollen is not light and dry."
     },
     {
       "h": "Investigation: aim, hypothesis and planning",
@@ -26,13 +49,18 @@
       "points": [
         "Aim: to compare the structures of an insect-pollinated flower and a wind-pollinated flower, and relate each structure to its function in pollination.",
         "Example hypothesis: “The insect-pollinated flower will have larger, coloured petals, nectaries and a sticky stigma inside the flower; the wind-pollinated flower will have small or no petals, anthers and feathery stigmas hanging outside the flower, and smaller, smoother pollen grains.”",
-        "What differs and what is recorded: the factor being compared is the method of pollination (insect or wind). Qualitative features recorded are colour, scent, presence of nectar, whether the stigma is sticky or feathery, whether anthers and stigma are inside or outside the flower, and pollen surface. Quantitative features recorded are the number of each part, the lengths of filaments and styles, petal size and pollen grain diameter.",
-        "Keeping the comparison fair: use fully open, mature flowers in which the anthers are shedding pollen; examine several flowers of each species (at least three) and average the measurements; measure every flower in the same way, with the same instruments and microscope magnification.",
-        "Equipment: fresh insect-pollinated flowers (e.g. buttercup or wallflower) and wind-pollinated flowers (e.g. a flowering grass, or hazel catkins in late winter); white tile; scalpel or sharp blade; forceps; mounted needle; hand lens (×10) or stereo (dissecting) microscope; ruler (mm) or graph paper; microscope slides and coverslips; dropper with water; compound light microscope; clear sticky tape; gloves; pencil and paper."
-      ]
+        "What differs and what is recorded: the factor being compared is the method of pollination (insect or wind). Qualitative features (recorded in words) are colour, scent, presence of nectar, whether the stigma is sticky or feathery, whether anthers and stigma are inside or outside the flower, and pollen surface.",
+        "Quantitative features (measured as numbers) are the number of each part, the lengths of filaments and styles, petal size and pollen grain diameter.",
+        "Keeping the comparison fair: use fully open, mature flowers in which the anthers are shedding pollen, so every flower is at the same stage. Examine several flowers of each species (at least three) and average the measurements, to reduce the effect of one unusual flower.",
+        "Measure every flower in the same way, with the same instruments and microscope magnification, so the two types can be compared fairly.",
+        "Equipment: fresh insect-pollinated flowers (e.g. buttercup or wallflower) and wind-pollinated flowers (e.g. a flowering grass, or hazel catkins in late winter); white tile; scalpel or sharp blade; forceps; mounted needle; hand lens (×10) or stereo (dissecting) microscope; ruler (mm) or graph paper.",
+        "Also needed: microscope slides and coverslips; dropper with water; compound light microscope; clear sticky tape; gloves; pencil and paper."
+      ],
+      "tip": "Don't invent an independent variable that you change, or a control group; no factor is changed here. You do need to describe how the comparison is kept fair."
     },
     {
       "h": "Investigation: method",
+      "b": "The method moves from the whole flower, to its separated parts, to the pollen under the microscope, and repeats everything for the second flower type.",
       "points": [
         "1. Examine each whole flower with the hand lens. Record its colour, size and whether it has a scent. Note whether the anthers and stigmas are inside the flower or hang outside it.",
         "2. Remove the parts of the insect-pollinated flower from the outside in, using forceps, laying each ring (sepals, petals, stamens, carpels) in order on the white tile. Count the parts in each ring and record them.",
@@ -40,14 +68,16 @@
         "4. Measure the length of the filaments, style and petals with a ruler (or on graph paper) for each flower. Repeat for at least three flowers of each species and calculate the means.",
         "5. Repeat steps 1 to 4 with the wind-pollinated flower, using the stereo microscope for the small grass flowers. Note the bracts, the long hanging filaments and the feathery stigmas.",
         "6. Cut a vertical section of the insect-pollinated flower with the scalpel on the tile (a half-flower) and draw it, labelled.",
-        "7. Pollen: tap a ripe anther over a drop of water on a clean slide, or press clear sticky tape onto the anther and stick the tape on a slide. Add a coverslip and examine under the light microscope at low, then high, power. Draw a few grains of each type at the same magnification and compare their size and surface; estimate their diameter (e.g. against the field of view or an eyepiece scale). Note how easily pollen comes off the anther and whether it clumps (sticky) or spreads (dry).",
-        "8. Record all observations and measurements in a results table, and make labelled drawings with the magnification stated."
-      ]
+        "7. Pollen: tap a ripe anther over a drop of water on a clean slide, or press clear sticky tape onto the anther and stick the tape on a slide. Add a coverslip and examine under the light microscope at low, then high, power.",
+        "8. Draw a few grains of each type at the same magnification and compare their size and surface; estimate their diameter (e.g. against the field of view or an eyepiece scale). Note how easily pollen comes off the anther and whether it clumps (sticky) or spreads (dry)."
+      ],
+      "tip": "If asked to describe how to compare the two flower types, include the pollen step: slide, coverslip, low then high power, and drawings at the same magnification. Finish by recording everything in a results table and making labelled drawings with the magnification stated."
     },
     {
       "h": "Investigation: safety",
+      "b": "Scalpels, pollen, some plants and glass slides each carry a risk, so the practical needs a precaution for each.",
       "points": [
-        "Cut away from the body on a white tile with a sharp scalpel; carry and store blades safely.",
+        "Cut away from the body on a white tile with a sharp scalpel; carry and store blades safely, so nobody is cut.",
         "Pollen can trigger hay fever or asthma. Students with pollen allergies should avoid handling wind-pollinated flowers or wear a mask and gloves, and the room should be ventilated.",
         "Some plants are poisonous or irritant: foxglove is poisonous if eaten, and buttercup sap can irritate the skin. Wear gloves, don't put plant material near the mouth, and wash hands after the practical.",
         "Collect only common plants, with the landowner's permission; don't pick protected or rare wild flowers.",
@@ -56,30 +86,38 @@
     },
     {
       "h": "Investigation: results",
+      "b": "Recording results in a table puts the two flowers side by side, so each difference can be seen and then explained.",
       "points": [
         "Results table: one column for each species (insect-pollinated and wind-pollinated), with rows for petal colour and size, scent, nectaries, number of stamens, filament length, anther position, stigma type and position, style length, amount of pollen released, and pollen size and surface.",
-        "Expected primary data for the insect-pollinated flower: large coloured petals, nectaries, scent, anthers on short or stiff filaments inside the flower, a small sticky stigma, and larger, sticky, spiky or sculptured pollen grains.",
+        "Expected primary data (collected by you) for the insect-pollinated flower: large coloured petals, nectaries, scent, anthers on short or stiff filaments inside the flower, a small sticky stigma, and larger, sticky, spiky or sculptured pollen grains.",
         "Expected primary data for the wind-pollinated flower: small green bracts or no petals, no nectar or scent, anthers dangling outside the flower on long filaments that shed clouds of dry pollen when tapped, feathery stigmas outside the flower, and smaller, smooth, dry pollen grains."
-      ]
+      ],
+      "tip": "The expected results match the adaptations in the first three blocks, so if you can name the features of each flower type you can predict the table."
     },
     {
       "h": "Investigation: conclusion and secondary data",
+      "b": "A conclusion links what was seen to why it matters for pollination, and secondary data add evidence the class could not collect itself.",
       "points": [
-        "Conclusion: relate each observed structure to its function, using the adaptations in the first block. For example, the feathery stigma of the grass gives a large surface to catch airborne pollen, and the sticky stigma of the buttercup collects pollen rubbed off an insect's body. State whether the results support the hypothesis.",
-        "Secondary data used to support the conclusions: scanning electron micrographs (SEM images) of pollen grains, which show surface detail that a light microscope can't resolve, such as spikes and ridges on insect pollen and smooth surfaces on grass pollen; published pollen counts, which show the huge numbers of grass pollen grains in the air in early summer; labelled diagrams and descriptions of other species in textbooks or plant identification guides.",
-        "Primary data are collected by the student through observing and measuring; secondary data are collected by others (see Producing and analysing data)."
-      ]
+        "Conclusion: relate each observed structure to its function, using the adaptations above. For example, the feathery stigma of the grass gives a large surface to catch airborne pollen, and the sticky stigma of the buttercup collects pollen rubbed off an insect's body. State whether the results support the hypothesis.",
+        "Secondary data used to support the conclusions: scanning electron micrographs (SEM images) of pollen grains, which show surface detail that a light microscope can't resolve, such as spikes and ridges on insect pollen and smooth surfaces on grass pollen.",
+        "Other secondary data: published pollen counts, which show the huge numbers of grass pollen grains in the air in early summer; and labelled diagrams and descriptions of other species in textbooks or plant identification guides.",
+        "Primary data are collected by the student through observing and measuring; secondary data are collected by others. There is more on this in Producing and analysing data."
+      ],
+      "tip": "When asked for a conclusion, link each structure to its function and say whether the hypothesis is supported."
     },
     {
       "h": "Investigation: sources of error and limitations",
+      "b": "Every practical has weaknesses. Each limitation below has a matching improvement, and you should be able to give both.",
       "points": [
         "Only a few flowers of one or two species are examined, so the results may not represent all insect- or wind-pollinated plants; examine more flowers and more species, and compare with secondary data.",
         "Flowers at different stages (bud, open, withering) differ in size and pollen release; use flowers at the same stage.",
         "Grass flowers are very small, so measurements with a ruler are imprecise; use a stereo microscope or graph paper.",
-        "Pollen size estimated against the field of view is approximate; a calibrated eyepiece scale gives more precise sizes. The light microscope can't show fine surface detail, hence the use of SEM images.",
-        "Judgements of colour, scent and stickiness are qualitative and subjective; have two people record them.",
+        "Pollen size estimated against the field of view is approximate; a calibrated eyepiece scale gives more precise sizes.",
+        "The light microscope can't show fine surface detail, hence the use of SEM images.",
+        "Judgements of colour, scent and stickiness are qualitative and subjective, because different people judge differently; have two people record them.",
         "Damage during dissection can break parts or knock off pollen; handle flowers gently with forceps."
-      ]
+      ],
+      "tip": "Keep the comparison fair by using the same stage of flower and the same method for every flower, and remember the comparison needs no control group."
     }
   ],
   "keyTerms": [

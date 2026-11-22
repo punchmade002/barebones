@@ -6,94 +6,147 @@
   "notes": [
     {
       "h": "Active and passive immunity",
+      "b": "Acquired immunity is the specific (adaptive) protection a person has against one particular pathogen. It can be obtained in two basic ways, depending on who makes the antibodies, and each way can be natural or artificial.",
       "points": [
-        "Active immunity: the person's own immune system makes antibodies and memory cells in response to an antigen.",
-        "Active immunity takes days to weeks to develop, but it is long-lasting, often for years or for life, because memory cells remain.",
-        "Passive immunity: ready-made antibodies from another person or animal are given to the person.",
+        "Active immunity: the person's own immune system makes antibodies and memory cells (long-lived cells that remember the pathogen) in response to an antigen, the molecule on a pathogen that the immune system recognises as foreign.",
+        "Active immunity takes days to weeks to develop, because the body has to build its response from scratch. It is long-lasting, often for years or for life, because memory cells remain.",
+        "Passive immunity: ready-made antibodies from another person or animal are given to the person, so their own immune system does none of the work.",
         "Passive immunity gives immediate protection but is short-lived, lasting weeks to a few months, because the antibodies are gradually broken down and no memory cells are made.",
-        "A later infection with the same pathogen triggers a primary response, as if for the first time.",
+        "Because passive immunity leaves no memory cells, a later infection with the same pathogen triggers a primary response (the slow first-time response), as if for the first time.",
         "Natural immunity comes from normal life events such as infection, pregnancy and breastfeeding.",
         "Artificial immunity comes from deliberate medical intervention, such as vaccines and antibody injections."
-      ]
+      ],
+      "tip": "Passive immunity is a temporary way of acquiring specific immunity, so never call it innate. Exams ask you to distinguish active from passive, and natural from artificial, with an example of each, and to explain why passive immunity is short-lived: the antibodies break down and there are no memory cells."
     },
     {
       "h": "The four ways immunity is acquired",
+      "b": "Combining active or passive with natural or artificial gives four routes to acquired immunity. Each has a typical example, and comparing active with passive is a standard exam question.",
       "points": [
         "Active natural immunity, by infection: catching a disease and recovering leaves memory cells against that pathogen. For example, most people who have had chickenpox or measles don't get them again.",
         "Active artificial immunity, by vaccination: a vaccine stimulates the immune system to make antibodies and memory cells without causing the disease, for example the MMR vaccine against measles, mumps and rubella.",
-        "Passive natural immunity, from the mother: antibodies (IgG) cross the placenta into the fetus during pregnancy.",
-        "After birth, breast milk, especially the first milk (colostrum), contains antibodies, mainly IgA, that protect the baby's gut and breathing passages.",
-        "This passive protection lasts for the newborn's first few months, while its own immune system develops.",
+        "Passive natural immunity, from the mother: antibodies (IgG, the main antibody type in blood) cross the placenta into the fetus during pregnancy, so the baby is born with protection it did not make.",
+        "After birth, breast milk, especially the first milk (colostrum), contains antibodies, mainly IgA, that protect the baby's gut and breathing passages, where many infections enter.",
+        "This passive protection lasts for the newborn's first few months, while its own immune system develops. The baby does not make its own memory cells from breast milk.",
         "Passive artificial immunity, by donor transfer of antibodies: an injection of antibodies collected from donors (human immunoglobulin) or from immunised animals gives instant protection when there is no time for active immunity to develop.",
         "Examples of passive artificial immunity: tetanus immunoglobulin for an unvaccinated person with a dirty wound; rabies immunoglobulin after a bite from a possibly rabid animal; hepatitis B immunoglobulin for babies born to infected mothers; antivenom, made in horses or sheep, for snake bites.",
         "Active immunity uses the person's own antibodies and memory cells, starts slowly and lasts long. Passive immunity uses donor antibodies, starts immediately, forms no memory and is short-lived. Active immunity is used for prevention in advance; passive immunity is used for emergency protection or to protect newborns."
-      ]
+      ],
+      "tip": "To explain why a breastfed baby has some immunity, say that antibodies from the mother (IgG across the placenta, IgA in colostrum and milk) are passive natural immunity. Antibody booster injections in the specification mean donor antibodies, which are passive, so keep them separate from vaccine boosters, which are active."
     },
     {
-      "h": "Vaccination",
+      "h": "How vaccination works",
+      "b": "Vaccination gives active immunity without the danger of catching the disease. It works by letting the immune system practise on a harmless version of the pathogen.",
       "points": [
-        "A vaccine contains antigens of a pathogen in a form that can't cause disease. Vaccines contain antigens, not antibodies.",
+        "A vaccine contains antigens of a pathogen in a form that can't cause disease. Vaccines contain antigens, not antibodies, which is why they produce active immunity.",
         "Given by injection, or by mouth or nasal spray, a vaccine triggers a primary response, so memory cells form.",
-        "A later infection meets a fast, strong secondary response, and the disease doesn't develop (see Innate and adaptive immunity).",
-        "Live attenuated vaccines contain a weakened pathogen that reproduces only slightly, e.g. MMR, and BCG against TB.",
-        "Inactivated vaccines contain a killed pathogen, e.g. the injected polio vaccine and most injected flu vaccines.",
-        "Toxoid vaccines contain an inactivated toxin, e.g. tetanus and diphtheria vaccines.",
-        "Subunit vaccines contain only a purified antigen, often made by genetically modified cells, e.g. the hepatitis B and HPV vaccines.",
-        "mRNA vaccines contain the genetic instructions for a pathogen protein, which the body's cells use to make the antigen, e.g. some COVID-19 vaccines.",
-        "Viral vector vaccines use a harmless virus that carries an antigen gene (see Viruses).",
+        "A later infection meets a fast, strong secondary response (the quicker, bigger response of memory cells), and the disease doesn't develop. There is more on this in Innate and adaptive immunity."
+      ],
+      "tip": "If asked what a vaccine contains or the biological basis of vaccination, say antigens (never antibodies), a primary response and memory cells, then a fast, strong secondary response on real infection."
+    },
+    {
+      "h": "Types of vaccine",
+      "b": "Vaccines differ in what form of the pathogen they contain. Each type is a different way of presenting an antigen safely, and each has typical examples.",
+      "points": [
+        "Live attenuated vaccines contain a weakened pathogen that reproduces only slightly, so the immune system sees a realistic infection that causes little or no illness, e.g. MMR, and BCG against TB.",
+        "Inactivated vaccines contain a killed pathogen, which cannot reproduce at all, e.g. the injected polio vaccine and most injected flu vaccines.",
+        "Toxoid vaccines contain an inactivated toxin (a harmful chemical made by a bacterium), so the body learns to neutralise the toxin, e.g. tetanus and diphtheria vaccines.",
+        "Subunit vaccines contain only a purified antigen, not the whole pathogen, often made by genetically modified cells, e.g. the hepatitis B and HPV vaccines.",
+        "mRNA vaccines contain the genetic instructions (messenger RNA) for a pathogen protein, which the body's cells use to make the antigen themselves, e.g. some COVID-19 vaccines.",
+        "Viral vector vaccines use a harmless virus that carries an antigen gene into body cells, which then make the antigen. There is more on this in Viruses."
+      ],
+      "tip": "Learn one example for each type: MMR and BCG, injected polio, tetanus and diphtheria toxoids, hepatitis B and HPV, and some COVID-19 vaccines for mRNA."
+    },
+    {
+      "h": "Booster doses and herd immunity",
+      "b": "A single dose may not give lasting protection, and a vaccinated person is not the only one who benefits. Boosters strengthen the individual's immunity, and herd immunity protects the whole community.",
+      "points": [
         "Booster doses: a second or later dose of the same vaccine produces a secondary response, raising antibody levels and the number of memory cells, so immunity lasts longer, e.g. tetanus boosters.",
-        "A vaccine booster is active immunity; an injection of donor antibodies is passive.",
+        "A vaccine booster is active immunity, because the person makes their own antibodies; an injection of donor antibodies is passive.",
         "Herd immunity: when a high enough proportion of a population is immune, a pathogen can't find enough susceptible hosts to keep spreading, so people who can't be vaccinated are protected indirectly.",
         "People who can't be vaccinated include newborns, people with weakened immune systems and people allergic to a vaccine component.",
-        "The proportion needed depends on how infectious the disease is (calculated in Emergence and spread of infectious disease).",
+        "The proportion needed depends on how infectious the disease is. The calculation is in Emergence and spread of infectious disease."
+      ],
+      "tip": "Examiners can test whether you know that a vaccine booster is active and donor antibodies are passive. For herd immunity, explain that the pathogen cannot find enough susceptible hosts, so the unvaccinated are protected."
+    },
+    {
+      "h": "Jenner, smallpox and weighing up vaccines",
+      "b": "Vaccination began as an observation tested in an experiment, and it has since removed a human disease from the world. Like any medical measure it has benefits and some concerns.",
+      "points": [
         "In 1796 Edward Jenner showed that infecting a boy, James Phipps, with cowpox, a mild disease, protected him from smallpox. The word vaccine comes from vacca, Latin for cow.",
         "Worldwide vaccination led the World Health Organization to declare smallpox eradicated in 1980, the first human disease to be eradicated.",
         "Benefits: vaccines prevent illness, disability and death, are cheaper than treatment, and protect others through herd immunity.",
-        "Concerns: rare side effects, most of them mild, e.g. a sore arm or a low fever. Live vaccines are not given to people with weakened immune systems.",
-        "Misinformation lowers uptake, and outbreaks follow when coverage falls (the MMR case is in Evaluating evidence)."
-      ]
+        "Concerns: rare side effects, most of them mild, e.g. a sore arm or a low fever.",
+        "Live vaccines are not given to people with weakened immune systems, because even a weakened pathogen could cause disease in them.",
+        "Misinformation lowers uptake, and outbreaks follow when coverage falls, because herd immunity is lost. The MMR case is in Evaluating evidence."
+      ],
+      "tip": "For the nature of science, give Jenner, 1796, James Phipps, cowpox and smallpox, and the 1980 eradication. Evaluation answers need benefits and concerns as paired points."
     },
     {
-      "h": "Strategies to prevent microbial disease",
+      "h": "Preventing disease: hygiene, water and food",
+      "b": "Prevention is better than cure, so many strategies work by breaking the chain of transmission before a pathogen reaches a person. These three cut off the commonest routes: contact, water and food.",
       "points": [
-        "Hygiene: handwashing with soap removes and kills microorganisms on the hands, breaking transmission by contact (the Semmelweis case is in The nature of scientific knowledge).",
-        "Covering coughs and sneezes and cleaning surfaces also reduce transmission.",
+        "Hygiene: handwashing with soap removes and kills microorganisms on the hands, breaking transmission by contact. The Semmelweis case is in The nature of scientific knowledge.",
+        "Covering coughs and sneezes and cleaning surfaces also reduce transmission, because they stop droplets and contaminated surfaces passing pathogens on.",
         "Clean water and sanitation: treating drinking water by filtering and chlorination, and safely disposing of sewage, stops the spread of waterborne diseases such as cholera.",
         "Food safety: cooking food thoroughly kills pathogens, e.g. Salmonella in chicken.",
         "Food safety: refrigeration slows the growth of pathogens.",
         "Food safety: pasteurisation heats milk to about 72 °C for 15 seconds and then cools it quickly, killing pathogens without spoiling the milk.",
-        "Food safety: avoiding cross-contamination between raw and cooked food.",
-        "Vaccination: vaccines given before exposure protect the vaccinated person and, through herd immunity, others (the vaccine types are described in the Vaccination block above).",
-        "Vector control: insecticide-treated bed nets, insecticide spraying and draining standing water reduce the mosquitoes that carry malaria; controlling ticks reduces Lyme disease.",
-        "Barrier methods: condoms reduce the spread of sexually transmitted infections such as HIV.",
-        "Blood safety: donated blood is screened for HIV and hepatitis viruses, and needles are sterile and used once.",
-        "Sterilisation: autoclaving, which uses steam under pressure at 121 °C, kills microorganisms and spores on equipment.",
-        "Disinfectants and antiseptics are used on surfaces and skin.",
-        "Aseptic technique in surgery prevents wound infection.",
-        "Isolation separates people who are ill. Quarantine separates people, or animals and plants, who may have been exposed until it is clear they are not infected.",
-        "Contact tracing finds people who have been exposed to a case. Population-level use of isolation and quarantine is described in Emerging diseases and society.",
-        "In plants and farm animals: resistant varieties and breeds, certified disease-free seed and stock, crop rotation, fungicide sprays (e.g. against potato blight), and good animal housing and hygiene.",
-        "Prion diseases are prevented by keeping prions out of feed and food (see Pathogens)."
-      ]
+        "Food safety: avoiding cross-contamination between raw and cooked food stops pathogens moving from raw food, which may carry them, to food that will not be cooked again."
+      ],
+      "tip": "When asked for ways to prevent the spread of infection, give each strategy with how it works and an example, such as chlorination for cholera or cooking for Salmonella."
     },
     {
-      "h": "Strategies to treat microbial disease",
+      "h": "Preventing disease: vaccines, vectors, barriers and blood safety",
+      "b": "Other strategies target the carrier of a disease or the route of entry into the body. Each one is matched to how a particular disease spreads.",
+      "points": [
+        "Vaccination: vaccines given before exposure protect the vaccinated person and, through herd immunity, others. The vaccine types are in the vaccination blocks above.",
+        "Vector control (a vector is an organism that carries a pathogen between hosts): insecticide-treated bed nets, insecticide spraying and draining standing water reduce the mosquitoes that carry malaria; controlling ticks reduces Lyme disease.",
+        "Barrier methods: condoms reduce the spread of sexually transmitted infections such as HIV by stopping body fluids passing between partners.",
+        "Blood safety: donated blood is screened for HIV and hepatitis viruses, and needles are sterile and used once, so blood-borne pathogens are not passed from one person to another."
+      ],
+      "tip": "Match each strategy to the disease it controls: bed nets, spraying and draining water for malaria, tick control for Lyme disease, condoms for HIV."
+    },
+    {
+      "h": "Preventing disease: sterilisation, isolation and protecting plants and farm animals",
+      "b": "Pathogens also spread through equipment, between sick and healthy people, and among crops and livestock. These strategies deal with each of those.",
+      "points": [
+        "Sterilisation: autoclaving, which uses steam under pressure at 121 °C, kills microorganisms and spores (tough resting forms of bacteria) on equipment.",
+        "Disinfectants and antiseptics are used on surfaces and skin, to kill or inhibit microorganisms there.",
+        "Aseptic technique (working so that no microorganisms are introduced) in surgery prevents wound infection.",
+        "Isolation separates people who are ill. Quarantine separates people, or animals and plants, who may have been exposed until it is clear they are not infected.",
+        "Contact tracing finds people who have been exposed to a case. Population-level use of isolation and quarantine is in Emerging diseases and society.",
+        "In plants and farm animals: resistant varieties and breeds, certified disease-free seed and stock, crop rotation, fungicide sprays (e.g. against potato blight), and good animal housing and hygiene.",
+        "Prion diseases (diseases caused by infectious misfolded proteins) are prevented by keeping prions out of feed and food. There is more on this in Pathogens."
+      ],
+      "tip": "Do not mix up the terms: isolation is for people who are ill, quarantine is for those who may have been exposed. Give the autoclave conditions as steam under pressure at 121 °C."
+    },
+    {
+      "h": "Treating disease: antibiotics",
+      "b": "Once an infection is established, drugs can treat it. Antibiotics are the main treatment for bacterial disease because bacterial cells differ from human cells in ways a drug can exploit.",
       "points": [
         "Antibiotics are chemicals, originally made by microorganisms, that kill bacteria or stop them growing, without harming human cells.",
         "Antibiotics work because they target structures that bacteria have and human cells lack.",
-        "Penicillin stops bacteria building their peptidoglycan cell wall, so growing bacteria burst.",
-        "Tetracycline and streptomycin bind to bacterial 70S ribosomes and stop protein synthesis; human cytoplasmic ribosomes are 80S.",
-        "Antibiotics have no effect on viruses.",
+        "Penicillin stops bacteria building their peptidoglycan cell wall (the strong mesh around a bacterial cell), so growing bacteria burst.",
+        "Tetracycline and streptomycin bind to bacterial 70S ribosomes and stop protein synthesis; human cytoplasmic ribosomes are 80S, so human cells are not harmed.",
+        "Antibiotics have no effect on viruses, because viruses have no cell wall or ribosomes of their own for the drugs to target.",
         "Responsible antibiotic use: take antibiotics only when prescribed for a bacterial infection, take the full course as directed, and never share them.",
-        "Unnecessary use selects for resistant bacteria (detail in Emergence and spread of infectious disease).",
-        "Antiviral drugs interfere with a stage of virus replication inside the host cell, so each is specific to one virus or a few (examples and how they act are in Viruses: replication).",
+        "Unnecessary use selects for resistant bacteria, because those that survive the drug go on to reproduce. The detail is in Emergence and spread of infectious disease."
+      ],
+      "tip": "To explain why antibiotics don't treat viral diseases, say that they target bacterial structures such as the cell wall and 70S ribosomes, which viruses lack. Say bacterial populations become resistant by selection, not that bacteria become immune."
+    },
+    {
+      "h": "Treating disease: antivirals, other drugs, antibodies and supportive care",
+      "b": "Different pathogens need different drugs, and some treatments simply help the body fight on. The drug type must match the type of pathogen.",
+      "points": [
+        "Antiviral drugs interfere with a stage of virus replication inside the host cell, so each is specific to one virus or a few. Examples and how they act are in Viruses: replication.",
         "There are far fewer antivirals than antibiotics, because viruses use the host cell's own machinery, which a drug must not damage.",
         "Antifungal drugs target structures of fungal cells, e.g. clotrimazole cream for athlete's foot and thrush.",
         "Antiprotozoal drugs treat protist infections, e.g. artemisinin-based drugs for malaria.",
         "Anthelmintics kill parasitic worms, e.g. ivermectin.",
         "Monoclonal antibodies, which are identical antibodies made in the laboratory against one antigen, are used to treat some infections and cancers.",
         "Supportive treatment: rest, fluids and rehydration, e.g. oral rehydration solution of water, salts and sugar for cholera, and reducing fever, while the immune system clears the infection."
-      ]
+      ],
+      "tip": "Antibiotics do not work on viruses or fungi, so name the correct drug class for the pathogen: antifungal for fungi, antiprotozoal for protists, anthelmintic for worms."
     }
   ],
   "keyTerms": [

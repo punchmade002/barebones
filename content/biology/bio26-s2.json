@@ -6,72 +6,89 @@
   "notes": [
     {
       "h": "Structure of the nephron (Higher Level only)",
+      "b": "Urine is made by tiny tubes called nephrons, so you need to know the parts of one in the order the fluid flows through them. Each part has its own job, and its position in the kidney is part of the answer.",
       "points": [
-        "A nephron is the kidney's functional unit: one of the microscopic tubules where blood is filtered and urine is formed. Its wall is one cell thick throughout.",
-        "Bowman's capsule is the cup-shaped, double-walled closed end of the nephron, in the cortex, wrapped around the glomerulus. Its inner wall is made of special cells with gaps between them, so filtered fluid passes easily into the space inside the capsule.",
-        "The proximal convoluted tubule (PCT) is the first, long, coiled section after the capsule, in the cortex. Proximal means nearer the capsule.",
-        "The loop of Henle is a long U-shaped loop that dips down into the medulla, with a descending limb going down and an ascending limb coming back up to the cortex.",
-        "The distal convoluted tubule (DCT) is the second coiled section, back in the cortex; distal means further from the capsule. It empties into a collecting duct.",
-        "The collecting duct is a tube shared by many nephrons that runs down through the medulla, through a pyramid, and opens into the renal pelvis. It is needed to explain water reabsorption and ADH; some textbooks do not count it as part of the nephron."
-      ]
+        "A nephron is one of the about one million microscopic tubules in each kidney. It is the kidney's functional unit (the smallest part that does the kidney's job), where blood is filtered and urine is formed. Its wall is one cell thick throughout.",
+        "Bowman's capsule is the cup-shaped, double-walled closed end of the nephron, in the cortex (the outer layer of the kidney), wrapped around the glomerulus (a capillary knot). Its inner wall is made of special cells with gaps between them, so filtered fluid passes easily into the capsule's inner space.",
+        "The proximal convoluted tubule (PCT) is the first, long, coiled (convoluted) section after the capsule, in the cortex. Proximal means nearer the capsule.",
+        "The loop of Henle is a long U-shaped loop that dips down into the medulla (the inner part of the kidney), with a descending limb going down and an ascending limb coming back up to the cortex.",
+        "The distal convoluted tubule (DCT) is the second coiled section, back in the cortex. Distal means further from the capsule. It empties into a collecting duct.",
+        "The collecting duct is a tube shared by many nephrons that runs down through the medulla, through a pyramid, and opens into the renal pelvis (the funnel that collects urine).",
+        "The syllabus does not list the collecting duct, but it is needed to explain water reabsorption and ADH. Some textbooks do not count it as part of the nephron."
+      ],
+      "tip": "Keep the glomerulus (the capillary knot) and Bowman's capsule (the cup around it) apart, because students often swap them. Remember the capsule, PCT and DCT are in the cortex and the loop is in the medulla."
     },
     {
       "h": "Blood supply of the nephron (Higher Level only)",
+      "b": "A nephron works because blood is brought right up against it. The blood vessels are arranged so that pressure builds up for filtering, and so that the tubule is wrapped in a second set of capillaries (the smallest blood vessels) to take back what it reabsorbs.",
       "points": [
-        "A branch of the renal artery divides into arterioles. The afferent arteriole (afferent means carrying towards) brings blood to each nephron and divides into the glomerulus, a knot of capillaries inside Bowman's capsule.",
-        "The capillaries of the glomerulus rejoin to form the efferent arteriole (efferent means carrying away), which is narrower than the afferent arteriole.",
-        "Because blood enters the glomerulus through a wider vessel than it leaves by, pressure builds up inside the glomerulus; this high pressure drives filtration.",
-        "The glomerulus is unusual: it is a capillary network lying between two arterioles, not between an arteriole and a venule.",
-        "The efferent arteriole branches into a second capillary network that surrounds the PCT, loop of Henle and DCT closely. Substances reabsorbed from the tubule pass into these capillaries, which also supply the tubule cells with oxygen and glucose for respiration (they need ATP for active transport) and carry away their carbon dioxide.",
-        "These capillaries join into venules, then into a branch of the renal vein, which carries the filtered blood back to the circulation.",
+        "A branch of the renal artery (the artery that brings blood to the kidney) divides into arterioles (small arteries). The afferent arteriole (afferent means carrying towards) brings blood to each nephron and divides into the glomerulus, a knot of capillaries inside Bowman's capsule.",
+        "The capillaries of the glomerulus rejoin to form the efferent arteriole (efferent means carrying away), which is narrower than the afferent arteriole. The afferent is the wider one, so do not say the efferent is wider.",
+        "Because blood enters the glomerulus through a wider vessel than it leaves by, pressure builds up inside the glomerulus, like water backing up behind a narrowed nozzle. This high pressure drives filtration.",
+        "The glomerulus is unusual because it is a capillary network lying between two arterioles, not between an arteriole and a venule (a small vein) as capillaries normally do.",
+        "The efferent arteriole then branches into a second capillary network that surrounds the PCT, loop of Henle and DCT closely. Substances reabsorbed from the tubule pass into these capillaries, so they must be close to the tubule.",
+        "These capillaries also supply the tubule cells with oxygen and glucose for respiration, because the cells need ATP for active transport, and they carry away the cells' carbon dioxide.",
+        "The capillaries join into venules, then into a branch of the renal vein, which carries the filtered blood back to the circulation.",
         "Diagram: one nephron with its blood supply, labelled afferent arteriole, glomerulus, efferent arteriole, Bowman's capsule, proximal convoluted tubule, descending limb, loop of Henle, ascending limb, distal convoluted tubule, collecting duct, capillary network around the tubules, branch of renal artery and branch of renal vein; draw a line marking the boundary between cortex and medulla, with the capsule, PCT and DCT above it and the loop and most of the collecting duct below; mark arrows for filtration (glomerulus into capsule) and reabsorption (tubule into capillaries)."
-      ]
+      ],
+      "tip": "Exams ask you to explain why blood in the glomerulus is under high pressure and why that matters: wide afferent, narrow efferent, and the pressure drives filtration. They also ask why there are many capillaries around the tubules, and to draw and label a nephron with its blood supply."
     },
     {
       "h": "Filtration in the glomerulus and Bowman's capsule (Higher Level only)",
+      "b": "The first step in making urine is filtration. It happens in the glomerulus and capsule, where pressure forces fluid out of the blood without checking whether the body needs it.",
       "points": [
-        "Filtration, also called ultrafiltration or filtration under pressure, is the forcing of small molecules out of the blood by the high pressure in the glomerulus, through the pores in the capillary walls and the inner wall of Bowman's capsule, into the capsule.",
-        "Substances that pass into the filtrate are water, glucose, amino acids, salts (e.g. sodium and chloride ions), urea, vitamins and some hormones.",
+        "Filtration, also called ultrafiltration or filtration under pressure, is the forcing of small molecules out of the blood by the high pressure in the glomerulus. They pass through the pores in the capillary walls and the inner wall of Bowman's capsule, into the capsule.",
+        "Substances that pass into the filtrate (the fluid that enters the capsule) are water, glucose, amino acids, salts (e.g. sodium and chloride ions), urea (the waste made from breaking down amino acids), vitamins and some hormones.",
         "Substances that are not filtered and stay in the blood are red and white blood cells, platelets and plasma proteins, because they are too large to pass through.",
         "Filtration is not selective: it sorts molecules by size only, so useful substances such as glucose and amino acids are filtered out with the waste. The glomerular filtrate therefore has the same composition as blood plasma minus the proteins.",
-        "Scale: the kidneys filter about 180 litres of fluid a day but produce only about 1.5 litres of urine, so about 99% of the filtrate is reabsorbed; this is why reabsorption is essential.",
-        "Structure suits filtration: the thin, porous capillary walls and the inner wall of the capsule let fluid through easily, and the many capillaries in each glomerulus, with about a million glomeruli in the kidney, give a large filtering surface."
-      ]
+        "Scale: the kidneys filter about 180 litres of fluid a day but produce only about 1.5 litres of urine, so about 99% of the filtrate is reabsorbed (taken back into the blood); this is why reabsorption is essential.",
+        "Structure suits filtration: the wide afferent and narrow efferent arteriole raise the pressure, and the capillary wall and the capsule's inner wall are thin and porous, so fluid passes through easily.",
+        "The many capillaries in each glomerulus, with about a million glomeruli in the kidney, give a large filtering surface, so a large volume of fluid can be filtered every day."
+      ],
+      "tip": "Do not say glucose is not filtered: it is filtered, then reabsorbed. For the substances not filtered, name blood cells, platelets and plasma proteins and say they are too large. Filtration goes from the glomerulus into the capsule."
     },
     {
       "h": "Reabsorption in the proximal convoluted tubule (Higher Level only)",
+      "b": "Filtration lets everything small through, so the body has to take back what it wants. Most of this reabsorption happens in the PCT, whose structure is built for the job.",
       "points": [
         "Reabsorption is the return of useful substances from the filtrate into the blood in the capillaries around the tubule. It is selective: the body keeps what it needs.",
         "The PCT is the main site of reabsorption: all the glucose and all the amino acids, most of the salts (about two-thirds of the sodium) and most of the water (about two-thirds) are reabsorbed here.",
-        "Glucose, amino acids and sodium ions are taken up by active transport, using ATP; water follows by osmosis; some urea diffuses back into the blood.",
-        "The PCT is long and coiled, which gives time and surface area for reabsorption, and its cells have microvilli on the side facing the filtrate, greatly increasing the surface area.",
-        "The PCT cells have many mitochondria to supply ATP for active transport; the tubule is closely surrounded by capillaries; and its wall is one cell thick, so the distance to the blood is short.",
+        "Glucose, amino acids and sodium ions are taken up by active transport, which uses ATP (the cell's energy currency) to move them into the cells. Water follows by osmosis, and some urea diffuses back into the blood.",
+        "Water is always reabsorbed passively by osmosis; it is never actively pumped. Only salts, glucose and amino acids are reabsorbed actively in the PCT.",
+        "The PCT is long and coiled, which gives time and surface area for reabsorption. Its cells have microvilli (tiny finger-like projections) on the side facing the filtrate, greatly increasing the surface area.",
+        "The PCT cells have many mitochondria to supply ATP for active transport. The tubule is closely surrounded by capillaries, and its wall is one cell thick, so the distance to the blood is short.",
         "The carriers in the PCT can reabsorb glucose only up to a limit. In untreated diabetes the blood glucose is so high that more glucose is filtered than the PCT can reabsorb, so glucose appears in the urine."
-      ]
+      ],
+      "tip": "If asked where glucose is reabsorbed and by what process, say the PCT, by active transport. Say that water follows by osmosis. Do not say water is actively pumped."
     },
     {
       "h": "Loop of Henle, distal tubule and collecting duct (Higher Level only)",
+      "b": "After the PCT, the rest of the nephron fine-tunes the filtrate. The loop of Henle makes the medulla salty, and this lets the collecting duct take back more water.",
       "points": [
         "The ascending limb of the loop of Henle pumps salts (sodium and chloride ions) out into the tissue fluid of the medulla, and its wall does not let water through. This makes the medulla very salty, with the highest solute concentration deep in the medulla.",
         "The descending limb lets water through, so water leaves it by osmosis into the salty medulla and is reabsorbed into the blood. The main job of the loop is to create this salty medulla, which lets the collecting duct reabsorb water later.",
         "In the DCT more salts and water are reabsorbed, with the amounts adjusted to the body's needs.",
         "The DCT also secretes some substances from the blood into the filtrate, such as hydrogen ions (to control blood pH), potassium ions and some drugs. Secretion is the opposite direction to reabsorption.",
-        "In the collecting duct, as it passes down through the salty medulla, water leaves by osmosis and is reabsorbed into the blood. How much water is reabsorbed is controlled by ADH (detail in ADH and osmoregulation).",
+        "In the collecting duct, as it passes down through the salty medulla, water leaves by osmosis and is reabsorbed into the blood, so the urine becomes more concentrated. How much water is reabsorbed is controlled by ADH, a hormone. There is more on this in ADH and osmoregulation.",
         "What remains in the collecting duct is urine: water, urea, excess salts and other wastes. Urine then drains into the renal pelvis."
-      ]
+      ],
+      "tip": "Remember the two limbs differ: the ascending limb pumps out salt and is impermeable to water, while the descending limb is permeable to water. Secretion goes from the blood into the filtrate, the reverse of reabsorption."
     },
     {
       "h": "Comparing plasma, filtrate and urine (Higher Level only)",
+      "b": "Comparing the composition of blood plasma, glomerular filtrate and urine shows what each part of the nephron has done. Each difference between them has one explanation.",
       "points": [
         "Protein is present in plasma but absent from the filtrate and urine, because it is too large to be filtered.",
-        "Glucose and amino acids are present in plasma and filtrate at the same concentration but absent from urine, because all of them are reabsorbed in the PCT.",
-        "Urea is at the same concentration in plasma and filtrate, because it is freely filtered; it is much more concentrated in urine, because most of the water is reabsorbed but most of the urea is not.",
-        "Salts are similar in plasma and filtrate; in urine the amount varies with intake, because salt reabsorption is adjusted.",
+        "Glucose and amino acids are present in plasma and filtrate at the same concentration, because filtration lets them through freely. They are absent from urine, because all of them are reabsorbed in the PCT.",
+        "Urea is at the same concentration in plasma and filtrate, because it is freely filtered. It is much more concentrated in urine, because most of the water is reabsorbed but most of the urea is not.",
+        "Salts are similar in plasma and filtrate. In urine the amount varies with intake, because salt reabsorption is adjusted.",
         "Skill: given a data table of plasma, filtrate and urine, explain each difference. Absent from the filtrate means not filtered (too large); absent from the urine means reabsorbed; more concentrated in the urine means water was reabsorbed and the substance was not."
-      ]
+      ],
+      "tip": "Data tables of plasma, filtrate and urine (protein, glucose, urea) are a topic examiners use. For each substance, find where it first disappears or changes, then give the matching reason."
     },
     {
       "h": "Summary of the nephron (Higher Level only)",
+      "b": "Following the fluid from the glomerulus to the renal pelvis, each part of the nephron does one main job.",
       "points": [
         "Glomerulus and Bowman's capsule: filtration under pressure.",
         "Proximal convoluted tubule: reabsorption of all glucose and amino acids, most salts and most water.",
