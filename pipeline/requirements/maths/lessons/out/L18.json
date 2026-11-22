@@ -1,0 +1,344 @@
+[
+ {"skill": "seq-arith-sum", "problems": [
+  {"part": "maths-pp-2021-ordinary-p1-q9#(a)(iii)", "note": null,
+   "legend": {"1": "first term a", "2": "common difference d", "3": "number of terms n"},
+   "steps": [
+    {"ask": "Which formula gives the sum of n terms, and which of a, d and n does the question give?",
+     "title": "Use the sum formula with a = 1, d = 1 and n = 20",
+     "lines": [
+      {"tex": "S_n &= \\frac{\\hl{3}{n}}{2}\\left[2\\hl{1}{a} + (\\hl{3}{n}-1)\\hl{2}{d}\\right]"},
+      {"tex": "S_{20} &= \\frac{\\hl{3}{20}}{2}\\left[2(\\hl{1}{1}) + (\\hl{3}{20}-1)(\\hl{2}{1})\\right]"},
+      {"tex": "&= 10\\left[2 + 19\\right]"},
+      {"tex": "&= 10(21)"},
+      {"tex": "&= 210"}
+     ]}
+   ],
+   "final": "S_{20} = 210",
+   "graph": null},
+  {"part": "maths-pp-2021-ordinary-p1-q6#(b)", "note": "This time a and d are not given, so you find them from the list of terms first. The sum formula and the substitution are the same as before.",
+   "legend": {"1": "first term a", "2": "common difference d", "3": "number of terms n"},
+   "steps": [
+    {"ask": "The question gives the terms, not a and d. How do you find a and d from a list?",
+     "title": "Write down a and d",
+     "lines": [
+      {"text": "The terms go 4, 9, 14, so $\\hl{1}{a} = \\hl{1}{4}$ and $\\hl{2}{d} = 9 - 4 = \\hl{2}{5}$."}
+     ]},
+    {"ask": "Which formula gives the sum, and what do you substitute for a, d and n?",
+     "title": "Substitute into the sum formula",
+     "lines": [
+      {"tex": "S_n &= \\frac{\\hl{3}{n}}{2}\\left[2\\hl{1}{a} + (\\hl{3}{n}-1)\\hl{2}{d}\\right]"},
+      {"tex": "S_{50} &= \\frac{\\hl{3}{50}}{2}\\left[2(\\hl{1}{4}) + (\\hl{3}{50}-1)(\\hl{2}{5})\\right]"},
+      {"tex": "&= 25\\left[8 + (49)(\\hl{2}{5})\\right]"},
+      {"tex": "&= 25\\left[8 + 245\\right]"},
+      {"tex": "&= 25(253)"},
+      {"tex": "&= 6325"}
+     ]}
+   ],
+   "final": "S_{50} = 6325",
+   "graph": null},
+  {"part": "maths-pp-2024-ordinary-p1-q8#(b)(iv), (v)", "note": "This time the numbers come from a real-life context and d is the decimal 1.5. The same formula is used.",
+   "legend": {"1": "first term a", "2": "common difference d", "3": "number of terms n"},
+   "steps": [
+    {"ask": "Which sum formula uses a, d and n, and what does each letter stand for here?",
+     "title": "Write the sum formula",
+     "lines": [
+      {"text": "The sum of the first $\\hl{3}{n}$ terms of an arithmetic sequence is $S_n = \\frac{\\hl{3}{n}}{2}[2\\hl{1}{a} + (\\hl{3}{n}-1)\\hl{2}{d}]$."},
+      {"tex": "S_n &= \\frac{\\hl{3}{n}}{2}\\left[2(\\hl{1}{6}) + (\\hl{3}{n}-1)(\\hl{2}{1.5})\\right]"}
+     ]},
+    {"ask": "Which value of n does the question ask for, and where does it go in the formula?",
+     "title": "Substitute n = 10",
+     "lines": [
+      {"tex": "S_{10} &= \\frac{\\hl{3}{10}}{2}\\left[2(\\hl{1}{6}) + (\\hl{3}{10}-1)(\\hl{2}{1.5})\\right]"},
+      {"tex": "&= 5\\left[12 + 9(\\hl{2}{1.5})\\right]"},
+      {"tex": "&= 5\\left[12 + 13.5\\right]"},
+      {"tex": "&= 5(25.5)"},
+      {"tex": "&= 127.5 \\text{ km}"}
+     ]}
+   ],
+   "final": "S_n = \\frac{\\hl{3}{n}}{2}\\left[2(\\hl{1}{6}) + (\\hl{3}{n}-1)(\\hl{2}{1.5})\\right], \\quad S_{10} = 127.5 \\ \\text{km}",
+   "graph": null}
+ ]},
+ {"skill": "seq-geo-nth", "problems": [
+  {"part": "maths-pp-2021-higher-p1-q7#(a)(ii)", "note": null,
+   "legend": {"1": "first term a", "2": "common ratio r", "3": "term number n"},
+   "steps": [
+    {"ask": "Which term is being asked for, and which value of n goes into the formula?",
+     "title": "Substitute n = 25 into the formula",
+     "lines": [
+      {"tex": "T_n &= \\hl{1}{45}(\\hl{2}{0.9})^{\\hl{3}{n}-1}"},
+      {"tex": "T_{25} &= \\hl{1}{45}(\\hl{2}{0.9})^{\\hl{3}{25}-1}"},
+      {"tex": "&= \\hl{1}{45}(\\hl{2}{0.9})^{24}"}
+     ]},
+    {"ask": "What does your calculator give for the power, and how should you round the answer?",
+     "title": "Evaluate and round",
+     "lines": [
+      {"tex": "&= 3.5894..."},
+      {"tex": "&= 3.6"}
+     ]}
+   ],
+   "final": "3.6\\ \\text{cm}",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p1-q9#(d)(ii)", "note": "This time the sequence starts at step 0, so the exponent is n, not n − 1. The rest of the method is the same.",
+   "legend": {"1": "first term a", "2": "common ratio r", "3": "term number n"},
+   "steps": [
+    {"ask": "What is the first term here, and which exponent does step n get?",
+     "title": "Write the perimeter at step n",
+     "lines": [
+      {"text": "A geometric sequence with first term $\\hl{1}{3}$ (step 0) and ratio $\\hl{2}{\\frac{3}{2}}$."},
+      {"tex": "P_n &= \\hl{1}{3}\\hl{2}{\\left(\\frac{3}{2}\\right)}^{\\hl{3}{n}}"}
+     ]},
+    {"ask": "Which step does the question ask for, and where does that number go?",
+     "title": "Substitute n = 35",
+     "lines": [
+      {"tex": "P_{35} &= \\hl{1}{3}\\hl{2}{\\left(\\frac{3}{2}\\right)}^{\\hl{3}{35}}"},
+      {"tex": "&\\approx 4\\,368\\,329"}
+     ]}
+   ],
+   "final": "4\\,368\\,329 \\text{ units}",
+   "graph": null},
+  {"part": "maths-pp-2024-higher-p1-q5#(b)", "note": "This time the ratio is not given, so you find it from two terms, and the answer has a plus and a minus. The rest of the method is the same.",
+   "legend": {"1": "known term G₇ (in place of a)", "2": "common ratio r"},
+   "steps": [
+    {"ask": "Count the steps from G₇ to G₁₁. What does each step multiply by?",
+     "title": "Relate G11 to G7",
+     "lines": [
+      {"text": "$G_{11}$ is $\\hl{1}{G_7}$ multiplied by $\\hl{2}{r}$ four times."},
+      {"tex": "\\hl{1}{G_7} \\cdot \\hl{2}{r^4} &= G_{11}"},
+      {"tex": "\\hl{1}{6}\\hl{2}{r^4} &= \\frac{3}{8}"}
+     ]},
+    {"ask": "What operation gets r⁴ on its own, and what undoes a power of 4?",
+     "title": "Solve for r",
+     "lines": [
+      {"tex": "\\hl{2}{r^4} &= \\frac{3}{8} \\div \\hl{1}{6}"},
+      {"tex": "&= \\frac{3}{48}"},
+      {"tex": "&= \\frac{1}{16}"},
+      {"tex": "\\hl{2}{r} &= \\pm\\frac{1}{2}"}
+     ]}
+   ],
+   "final": "\\hl{2}{r} = \\frac{1}{2} \\text{ or } \\hl{2}{r} = -\\frac{1}{2}",
+   "graph": null}
+ ]},
+ {"skill": "seq-geo-sum", "problems": [
+  {"part": "maths-pp-2019-higher-p1-q7#(a)(ii)", "note": null,
+   "legend": {"1": "first term a", "2": "common ratio r", "3": "number of terms n"},
+   "steps": [
+    {"ask": "What must you multiply by to get from one term to the next? Find that, and the first term.",
+     "title": "Spot the geometric series",
+     "lines": [
+      {"text": "The lengths removed are $\\frac13, \\frac29, \\frac4{27}, \\dots$, a geometric series."},
+      {"tex": "\\hl{1}{a} &= \\hl{1}{\\frac{1}{3}}"},
+      {"tex": "\\hl{2}{r} &= \\frac{2/9}{1/3} = \\hl{2}{\\frac{2}{3}}"}
+     ]},
+    {"ask": "Which sum formula uses a, r and n? Put your a and r into it.",
+     "title": "Substitute into the sum formula",
+     "lines": [
+      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"},
+      {"tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}\\right)}{1-\\hl{2}{\\frac{2}{3}}}"},
+      {"tex": "S_n &= \\frac{\\hl{1}{\\frac{1}{3}}\\left(1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}\\right)}{\\frac{1}{3}}"},
+      {"tex": "S_n &= 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}"}
+     ]}
+   ],
+   "final": "S_n = 1-\\hl{2}{\\left(\\frac{2}{3}\\right)}^{\\hl{3}{n}}",
+   "graph": null},
+  {"part": "maths-pp-2018-higher-p2-q7#(a)", "note": "This time the terms are sphere volumes and the ratio 1.75 is bigger than 1, so 1 − r is negative. The sum formula is used the same way.",
+   "legend": {"1": "first term a", "2": "common ratio r", "3": "number of terms n"},
+   "steps": [
+    {"ask": "Which formula gives the volume of a sphere, and what is the radius of sphere A?",
+     "title": "Find the volume of sphere A",
+     "lines": [
+      {"text": "The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$, and $r = 3$."},
+      {"tex": "V_A &= \\frac{4}{3}\\pi (3)^3"},
+      {"tex": "&= \\frac{4}{3}\\pi (27)"},
+      {"tex": "&= \\hl{1}{36\\pi}"}
+     ]},
+    {"ask": "What do you get when you divide one volume by the one before? What kind of sequence is that?",
+     "title": "Recognise a geometric sequence",
+     "lines": [
+      {"text": "Each volume is $\\hl{2}{1.75}$ times the one before, so the volumes form a GP with $\\hl{1}{a} = \\hl{1}{36\\pi}$, $\\hl{2}{r} = \\hl{2}{1.75}$ and $\\hl{3}{n} = \\hl{3}{5}$."},
+      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"}
+     ]},
+    {"ask": "Which sum formula fits, and what do a, r and n become here?",
+     "title": "Substitute into the sum formula",
+     "lines": [
+      {"tex": "S_5 &= \\frac{\\hl{1}{36\\pi}(1 - \\hl{2}{1.75}^{\\hl{3}{5}})}{1 - \\hl{2}{1.75}}"},
+      {"tex": "&= \\frac{\\hl{1}{36\\pi}(1 - 16.4130859375)}{-0.75}"},
+      {"tex": "&= \\frac{\\hl{1}{36\\pi}(-15.4130859375)}{-0.75}"},
+      {"tex": "&\\approx 2324.24"},
+      {"tex": "&\\approx 2324"}
+     ]}
+   ],
+   "final": "2324 \\text{ cm}^3",
+   "graph": null},
+  {"part": "maths-pp-2015-higher-p1-q4#(b)", "note": "This time r is the letter ω and n is a letter, so the answer comes from the fact that ωⁿ = 1, not from numbers. The sum formula is used the same way.",
+   "legend": {"1": "first term a (here 1)", "2": "common ratio r (here ω)", "3": "number of terms n"},
+   "steps": [
+    {"ask": "What is the first term here, and what do you multiply by to get the next term?",
+     "title": "Write down a and r for the geometric series",
+     "lines": [
+      {"tex": "S &= 1+\\omega+\\omega^2+\\cdots+\\omega^{n-1}"},
+      {"text": "This is geometric with first term $\\hl{1}{a}=\\hl{1}{1}$, common ratio $\\hl{2}{r}=\\hl{2}{\\omega}$ and $\\hl{3}{n}$ terms."}
+     ]},
+    {"ask": "Which sum formula fits, and what does the question tell you about ωⁿ?",
+     "title": "Use the sum formula and substitute",
+     "lines": [
+      {"tex": "S &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"},
+      {"tex": "&= \\frac{\\hl{1}{1}(1-\\hl{2}{\\omega}^{\\hl{3}{n}})}{1-\\hl{2}{\\omega}}"},
+      {"text": "Since $\\hl{2}{\\omega}^{\\hl{3}{n}}=1$, replace $\\hl{2}{\\omega}^{\\hl{3}{n}}$ with 1."},
+      {"tex": "&= \\frac{\\hl{1}{1}(1-1)}{1-\\hl{2}{\\omega}}"},
+      {"tex": "&= \\frac{0}{1-\\hl{2}{\\omega}}"},
+      {"text": "$\\hl{2}{\\omega}\\ne 1$, so the denominator is not zero."},
+      {"tex": "&= 0"}
+     ]}
+   ],
+   "final": "S = 0",
+   "graph": null}
+ ]},
+ {"skill": "seq-geo-sum-infinity", "problems": [
+  {"part": "maths-pp-2016-higher-p1-q9#(a)(ii)", "note": null,
+   "legend": {"1": "first term a", "2": "common ratio r"},
+   "steps": [
+    {"ask": "Which formula gives the sum to infinity, and what must be true of r for it to work?",
+     "title": "Use the sum to infinity",
+     "lines": [
+      {"text": "The ratio $\\hl{2}{r} = \\hl{2}{\\frac12}$ is between $-1$ and $1$, so the sum to infinity exists."},
+      {"tex": "S_\\infty &= \\frac{\\hl{1}{a}}{1-\\hl{2}{r}}"},
+      {"tex": "S_\\infty &= \\frac{\\hl{1}{4}}{1-\\hl{2}{\\frac{1}{2}}}"},
+      {"tex": "&= \\frac{\\hl{1}{4}}{\\frac{1}{2}}"},
+      {"tex": "&= 8"}
+     ]}
+   ],
+   "final": "8 \\text{ units}",
+   "graph": null},
+  {"part": "maths-pp-2022-higher-p1-q9#(e)", "note": "The amount is now a decimal ratio, 0.6, and the question is about a dose in mg. The check on r and the formula stay the same.",
+   "legend": {"1": "first term a", "2": "common ratio r"},
+   "steps": [
+    {"ask": "Does this series have a sum to infinity? Check the size of the ratio first.",
+     "title": "Use the sum to infinity formula",
+     "lines": [
+      {"text": "This applies because $|\\hl{2}{r}| = \\hl{2}{0.6} < 1$, with $\\hl{1}{a} = \\hl{1}{15}$."},
+      {"tex": "S_{\\infty} &= \\frac{\\hl{1}{a}}{1 - \\hl{2}{r}}"},
+      {"tex": "&= \\frac{\\hl{1}{15}}{1 - \\hl{2}{0.6}}"},
+      {"tex": "&= \\frac{\\hl{1}{15}}{0.4}"},
+      {"tex": "&= 37.5"}
+     ]}
+   ],
+   "final": "37.5 \\text{ mg}",
+   "graph": null},
+  {"part": "maths-pp-2019-higher-p1-q7#(b)(iii)", "note": "This time a and r are not given, so you find them from the series first, and r is negative. The check on r and the formula stay the same, but 1 − r is now bigger than 1.",
+   "legend": {"1": "first term a", "2": "common ratio r"},
+   "steps": [
+    {"ask": "How do you find r from two consecutive terms, and what must be true of its size?",
+     "title": "Identify the geometric series",
+     "lines": [
+      {"tex": "\\hl{1}{a} &= \\hl{1}{\\frac{1}{3}}"},
+      {"tex": "\\hl{2}{r} &= \\frac{-1/9}{1/3} = \\hl{2}{-\\frac{1}{3}}"},
+      {"text": "$|\\hl{2}{r}| = \\hl{2}{\\frac13} < 1$, so the sum to infinity exists."}
+     ]},
+    {"ask": "Which sum to infinity formula fits, and what does 1 − r become when r is negative?",
+     "title": "Substitute into the sum to infinity",
+     "lines": [
+      {"tex": "S_\\infty &= \\frac{\\hl{1}{a}}{1-\\hl{2}{r}}"},
+      {"tex": "&= \\frac{\\hl{1}{\\frac{1}{3}}}{1-\\hl{2}{\\left(-\\frac{1}{3}\\right)}}"},
+      {"tex": "&= \\frac{\\hl{1}{\\frac{1}{3}}}{1+\\frac{1}{3}}"},
+      {"tex": "&= \\frac{\\hl{1}{\\frac{1}{3}}}{\\frac{4}{3}}"},
+      {"tex": "&= \\frac{1}{4}"}
+     ]}
+   ],
+   "final": "\\frac{1}{4}",
+   "graph": null}
+ ]},
+ {"skill": "seq-geo-unknown-n", "problems": [
+  {"part": "maths-pp-2021-higher-p1-q7#(a)(iv)", "note": null,
+   "legend": {"1": "first term a", "2": "common ratio r", "3": "number of terms n", "4": "target value"},
+   "steps": [
+    {"ask": "What is the nth term formula, and what length do you want it to equal?",
+     "title": "Set the arc length equal to 2",
+     "lines": [
+      {"tex": "\\hl{1}{45}(\\hl{2}{0.9})^{\\hl{3}{n}-1} &= \\hl{4}{2}"},
+      {"tex": "(\\hl{2}{0.9})^{\\hl{3}{n}-1} &= \\frac{\\hl{4}{2}}{\\hl{1}{45}}"}
+     ]},
+    {"ask": "The unknown is in the power. What does taking a log do to a power?",
+     "title": "Take logs to bring down the power",
+     "lines": [
+      {"tex": "\\hl{3}{n}-1 &= \\log_{\\hl{2}{0.9}}\\left(\\frac{\\hl{4}{2}}{\\hl{1}{45}}\\right)"}
+     ]},
+    {"ask": "Once you have n − 1, what do you still need to do to find n?",
+     "title": "Evaluate n",
+     "lines": [
+      {"tex": "\\hl{3}{n}-1 &= 29.5510..."},
+      {"tex": "\\hl{3}{n} &= 30.5510..."}
+     ]},
+    {"ask": "Swings are numbered in whole numbers. Which swing is the first one under 2 cm?",
+     "title": "Choose the first whole swing",
+     "lines": [
+      {"text": "$\\hl{3}{n}$ must be a whole number and $T_{30}$ is still more than 2, so the first swing under 2 cm is the next one."},
+      {"tex": "p &= 31"}
+     ]}
+   ],
+   "final": "p = 31",
+   "graph": null},
+  {"part": "maths-pp-2016-higher-p1-q9#(a)(i)", "note": "This time the sum of the first n distances is given, not one term, so the sum formula is needed. Solving for n stays the same.",
+   "legend": {"1": "first term a", "2": "common ratio r", "3": "number of terms n", "4": "target value"},
+   "steps": [
+    {"ask": "Each distance is a fixed multiple of the one before. What is the first distance, and what is that multiple?",
+     "title": "Spot the pattern in the distances",
+     "lines": [
+      {"text": "The distances are $\\hl{1}{4}, 2, 1, \\frac12, \\frac14, \\dots$, each half the one before, so this is a geometric sequence."},
+      {"tex": "\\hl{1}{a} &= \\hl{1}{4}"},
+      {"tex": "\\hl{2}{r} &= \\frac{2}{\\hl{1}{4}}"},
+      {"tex": "\\hl{2}{r} &= \\hl{2}{\\frac{1}{2}}"}
+     ]},
+    {"ask": "The sum of the first n distances is given. Which formula gives that sum?",
+     "title": "Use the sum of n terms and set it equal to 7.9375",
+     "lines": [
+      {"tex": "S_n &= \\frac{\\hl{1}{a}(1-\\hl{2}{r}^{\\hl{3}{n}})}{1-\\hl{2}{r}}"},
+      {"tex": "S_n &= \\frac{\\hl{1}{4}\\left(1-\\hl{2}{\\left(\\frac12\\right)}^{\\hl{3}{n}}\\right)}{1-\\hl{2}{\\frac12}}"},
+      {"tex": "S_n &= 8\\left(1-\\frac{1}{2^{\\hl{3}{n}}}\\right)"},
+      {"tex": "8\\left(1-\\frac{1}{2^{\\hl{3}{n}}}\\right) &= \\hl{4}{7.9375}"}
+     ]},
+    {"ask": "Rearrange to get the power on its own. What power of 2 gives that number?",
+     "title": "Solve for n",
+     "lines": [
+      {"tex": "1-\\frac{1}{2^{\\hl{3}{n}}} &= 0.9921875"},
+      {"tex": "\\frac{1}{2^{\\hl{3}{n}}} &= 0.0078125"},
+      {"tex": "\\frac{1}{2^{\\hl{3}{n}}} &= \\frac{1}{128}"},
+      {"tex": "2^{\\hl{3}{n}} &= 128"},
+      {"tex": "\\hl{3}{n} &= 7"}
+     ]}
+   ],
+   "final": "\\hl{3}{7} \\text{ stages}",
+   "graph": null},
+  {"part": "maths-pp-2015-higher-p2-q8#(e)(ii)", "note": "This time the term must be less than a target, so you test whole values of n instead of solving an equation. The nth term is found the same way.",
+   "legend": {"1": "first term a", "2": "common ratio r", "3": "number of terms n", "4": "target value"},
+   "steps": [
+    {"ask": "How do you find the first term a₁ from the two values in the question?",
+     "title": "Find the first term",
+     "lines": [
+      {"tex": "\\hl{1}{a_1} &= p - p_1"},
+      {"tex": "&= 0.75 - 0.7"},
+      {"tex": "&= \\hl{1}{0.05}"}
+     ]},
+    {"ask": "Write the nth term using the first term and the ratio.",
+     "title": "Write the nth term",
+     "lines": [
+      {"tex": "a_n &= \\hl{1}{0.05}\\hl{2}{\\left(\\tfrac{1}{5}\\right)}^{\\hl{3}{n}-1}"}
+     ]},
+    {"ask": "Put n = 6 into the nth term. Is the answer less than the target?",
+     "title": "Test n = 6",
+     "lines": [
+      {"tex": "a_6 &= \\hl{1}{0.05} \\times \\hl{2}{0.2}^5"},
+      {"tex": "&= 0.000016"},
+      {"text": "This is not less than $\\hl{4}{0.00001}$."}
+     ]},
+    {"ask": "If n = 6 is not enough, which whole number do you try next?",
+     "title": "Test n = 7",
+     "lines": [
+      {"tex": "a_7 &= \\hl{1}{0.05} \\times \\hl{2}{0.2}^6"},
+      {"tex": "&= 0.0000032"},
+      {"text": "This is less than $\\hl{4}{0.00001}$, so the smallest $\\hl{3}{n}$ is $\\hl{3}{7}$."}
+     ]}
+   ],
+   "final": "\\hl{3}{n} = \\hl{3}{7}",
+   "graph": null}
+ ]}
+]
