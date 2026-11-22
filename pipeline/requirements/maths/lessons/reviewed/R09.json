@@ -1,0 +1,729 @@
+[
+ {
+  "skill": "prob-independence-test",
+  "verdict": "fixed",
+  "issues": "Problem 3 legend reworded to match problems 1 and 2.",
+  "problems": [
+   {
+    "part": "maths-pp-2020-higher-p2-q5#(a)(ii)",
+    "note": null,
+    "legend": {
+     "1": "P(A) and P(B), the single probabilities",
+     "2": "P(A ∩ B), the joint probability",
+     "3": "the verdict: independent or not"
+    },
+    "steps": [
+     {
+      "ask": "Which formula links P(A ∪ B) with P(A), P(B) and P(A ∩ B)? Rearrange it to find P(B).",
+      "title": "Find P(B) from the union formula",
+      "lines": [
+       {
+        "tex": "P(A \\cup B) &= \\hl{1}{P(A)} + \\hl{1}{P(B)} - \\hl{2}{P(A \\cap B)}"
+       },
+       {
+        "tex": "\\frac{11}{12} &= \\hl{1}{\\frac{3}{4}} + \\hl{1}{P(B)} - \\hl{2}{\\frac{1}{2}}"
+       },
+       {
+        "tex": "\\hl{1}{P(B)} &= \\frac{11}{12} - \\hl{1}{\\frac{3}{4}} + \\hl{2}{\\frac{1}{2}}"
+       },
+       {
+        "tex": "&= \\frac{11}{12} - \\frac{9}{12} + \\frac{6}{12}"
+       },
+       {
+        "tex": "&= \\frac{8}{12} = \\hl{1}{\\frac{2}{3}}"
+       }
+      ]
+     },
+     {
+      "ask": "What must P(A) × P(B) equal for the events to be independent? Work that product out and compare it with P(A ∩ B).",
+      "title": "Test the condition for independence",
+      "lines": [
+       {
+        "text": "$A$ and $B$ are independent if $\\hl{1}{P(A)} \\times \\hl{1}{P(B)} = \\hl{2}{P(A \\cap B)}$."
+       },
+       {
+        "tex": "\\hl{1}{P(A)} \\times \\hl{1}{P(B)} &= \\hl{1}{\\frac{3}{4}} \\times \\hl{1}{\\frac{2}{3}}"
+       },
+       {
+        "tex": "&= \\frac{6}{12}"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       },
+       {
+        "text": "This equals $\\hl{2}{P(A \\cap B)} = \\hl{2}{\\frac{1}{2}}$, so the condition holds."
+       },
+       {
+        "text": "Conclusion: $A$ and $B$ are independent."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{P(B)} = \\hl{1}{\\frac{2}{3}},\\ \\hl{1}{P(A)}\\hl{1}{P(B)} = \\hl{2}{P(A \\cap B)} \\Rightarrow \\hl{3}{\\text{independent}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q3#(a)(iii)",
+    "note": "The probabilities are no longer given: you build P(A ∩ B) and P(B) from counts in a diagram. The test itself is the same as before.",
+    "legend": {
+     "1": "P(A) and P(B), the single probabilities",
+     "2": "P(A ∩ B), the joint probability",
+     "3": "the verdict: independent or not"
+    },
+    "steps": [
+     {
+      "ask": "Write the test for independence in your copy. Which two quantities does it compare?",
+      "title": "State the test for independence",
+      "lines": [
+       {
+        "text": "$A$ and $B$ are independent if $\\hl{2}{P(A \\cap B)} = \\hl{1}{P(A)} \\times \\hl{1}{P(B)}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which regions lie in both A and B, and what is the total number of people?",
+      "title": "Find P(A ∩ B)",
+      "lines": [
+       {
+        "text": "$A \\cap B$ contains the regions $18$ and $6$."
+       },
+       {
+        "tex": "\\hl{2}{P(A \\cap B)} &= \\frac{18 + 6}{240}"
+       },
+       {
+        "tex": "&= \\frac{24}{240}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{1}{10}}"
+       }
+      ]
+     },
+     {
+      "ask": "Read P(A) and P(B) from the diagram. What fraction of the 240 people is in each group?",
+      "title": "Find P(A) and P(B)",
+      "lines": [
+       {
+        "text": "$B$ contains $18 + 6 + 16 + 56 = 96$ people."
+       },
+       {
+        "tex": "\\hl{1}{P(A)} &= \\hl{1}{\\frac{1}{4}}"
+       },
+       {
+        "tex": "\\hl{1}{P(B)} &= \\frac{96}{240}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{2}{5}}"
+       }
+      ]
+     },
+     {
+      "ask": "Multiply P(A) by P(B). Does the product match P(A ∩ B) from the earlier step?",
+      "title": "Multiply P(A) and P(B)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(A)} \\times \\hl{1}{P(B)} &= \\hl{1}{\\frac{1}{4}} \\times \\hl{1}{\\frac{2}{5}}"
+       },
+       {
+        "tex": "&= \\frac{2}{20}"
+       },
+       {
+        "tex": "&= \\frac{1}{10}"
+       }
+      ]
+     },
+     {
+      "ask": "Does the product equal the joint probability? What does that tell you about A and B?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "Answer: yes. $\\hl{2}{P(A \\cap B)} = \\hl{2}{\\frac{1}{10}} = \\hl{1}{P(A)} \\times \\hl{1}{P(B)}$, so $A$ and $B$ are independent."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\text{Yes, }} \\hl{2}{P(A \\cap B)} = \\hl{2}{\\frac{1}{10}} = \\hl{1}{P(A)} \\times \\hl{1}{P(B)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q1#(a)(ii)",
+    "note": "The answer is now no, because the joint probability is not equal to the product. The test and steps are the same as before, but the counts are larger and rounded to decimals.",
+    "legend": {
+     "1": "P(A) and P(B), the single probabilities",
+     "2": "P(A ∩ B), the joint probability",
+     "3": "the verdict: independent or not"
+    },
+    "steps": [
+     {
+      "ask": "Write the test for independence for O and U in your copy. Which two quantities does it compare?",
+      "title": "State the test for independence",
+      "lines": [
+       {
+        "text": "$O$ and $U$ are independent if $\\hl{1}{P(O)}\\times \\hl{1}{P(U)} = \\hl{2}{P(O \\cap U)}$."
+       }
+      ]
+     },
+     {
+      "ask": "Each probability is a count divided by the total. What is the total, and which count goes with O and which with U?",
+      "title": "Find P(O) and P(U)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(O)} &= \\hl{1}{\\frac{8576}{22\\,714}}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.3776\\ldots}"
+       },
+       {
+        "tex": "\\hl{1}{P(U)} &= \\hl{1}{\\frac{15\\,707}{22\\,714}}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.6915\\ldots}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply the two single probabilities, and what will you compare that result with next?",
+      "title": "Multiply P(O) and P(U)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(O)}\\times \\hl{1}{P(U)} &= \\hl{1}{0.3776} \\times \\hl{1}{0.6915}"
+       },
+       {
+        "tex": "&= 0.2611\\ldots"
+       }
+      ]
+     },
+     {
+      "ask": "Which count gives students who are both 24 or older and undergraduates? Divide it by the total.",
+      "title": "Find P(O and U)",
+      "lines": [
+       {
+        "text": "Students who are 24 or older and undergraduates: $2922$."
+       },
+       {
+        "tex": "\\hl{2}{P(O \\cap U)} &= \\hl{2}{\\frac{2922}{22\\,714}}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.1286\\ldots}"
+       }
+      ]
+     },
+     {
+      "ask": "Is the joint probability equal to the product? What does your answer mean for O and U?",
+      "title": "Compare and conclude",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P(O \\cap U)} = \\hl{2}{0.1286} &\\neq 0.2611 = \\hl{1}{P(O)}\\times \\hl{1}{P(U)}"
+       },
+       {
+        "text": "Conclusion: the events $O$ and $U$ are not independent."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{O \\text{ and } U \\text{ are not independent}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "prob-independent",
+  "verdict": "fixed",
+  "issues": "Problem 3 note now mentions the complement chance.",
+  "problems": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q3#(b)",
+    "note": null,
+    "legend": {
+     "1": "P(A) or P(B), the probability of one event",
+     "2": "P(A and B), the probability both happen"
+    },
+    "steps": [
+     {
+      "ask": "The two people act independently. Do you add or multiply their two probabilities to find the chance both are blue?",
+      "title": "Multiply, since the two people are independent",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P(\\text{both blue})} &= \\hl{1}{0.7} \\times \\hl{1}{0.7}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.49}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{0.49}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q4#(a)(i)",
+    "note": "Same method with three throws instead of two: multiply one probability for each throw, because the throws are independent.",
+    "legend": {
+     "1": "P(A) or P(B), the probability of one event",
+     "2": "P(A and B), the probability both happen"
+    },
+    "steps": [
+     {
+      "ask": "The throws are independent and all three must score. Do you add or multiply the three chances?",
+      "title": "Multiply the three independent probabilities",
+      "lines": [
+       {
+        "text": "Each throw scores with probability $\\hl{1}{0.7}$, and the throws are independent."
+       },
+       {
+        "tex": "\\hl{2}{P(\\text{SSS})} &= \\hl{1}{0.7} \\times \\hl{1}{0.7} \\times \\hl{1}{0.7}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.343}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{0.343}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q1#(b)(i)",
+    "note": "Four people now instead of three, and the probabilities are fractions. One new idea: three people do not play tennis, so you use the 'not' chance for them. The rule is the same: multiply one probability for each person.",
+    "legend": {
+     "1": "P(A) or P(B), the probability of one event",
+     "2": "P(A and B), the probability both happen"
+    },
+    "steps": [
+     {
+      "ask": "For each of the four people, what is the chance they play tennis, and what is the chance they do not?",
+      "title": "List the probability for each person",
+      "lines": [
+       {
+        "text": "The first three people do not play tennis, with probability $\\hl{1}{\\frac{7}{8}}$ each. The fourth plays, with probability $\\hl{1}{\\frac{1}{8}}$."
+       }
+      ]
+     },
+     {
+      "ask": "The four choices are independent. How do you combine the four probabilities to get the chance of this exact pattern?",
+      "title": "Multiply the four probabilities",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P} &= \\hl{1}{\\frac{7}{8}} \\times \\hl{1}{\\frac{7}{8}} \\times \\hl{1}{\\frac{7}{8}} \\times \\hl{1}{\\frac{1}{8}}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{343}{4096}}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{0.08374}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{343}{4096}} \\approx \\hl{2}{0.08374}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "prob-kth-success",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "prob-ncr",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "prob-sample-space",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "prob-tree",
+  "verdict": "fixed",
+  "issues": "Reordered so the single-path 3-stage problem comes before the one that adds paths; notes rewritten.",
+  "problems": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q7#(a)(i), (ii)",
+    "note": null,
+    "legend": {
+     "1": "a branch probability",
+     "2": "a path probability (product of branches)"
+    },
+    "steps": [
+     {
+      "ask": "The two branches from the start add to 1. What is the lose branch for match 1?",
+      "title": "Find the probability of losing the first match",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(\\text{lose first})} &= 1 - \\hl{1}{0.6}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.4}"
+       }
+      ]
+     },
+     {
+      "ask": "The branches from each point add to 1. What is the chance of losing match 2?",
+      "title": "Find the probability of losing the second match",
+      "lines": [
+       {
+        "text": "The matches are independent, so the second-match branches are the same after a win or a loss."
+       },
+       {
+        "tex": "\\hl{1}{P(\\text{lose second})} &= 1 - \\hl{1}{0.7}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.3}"
+       },
+       {
+        "text": "Write $\\hl{1}{0.7}$ and $\\hl{1}{0.3}$ on the second-match branches in the gaps that are empty."
+       }
+      ]
+     },
+     {
+      "ask": "Each outcome is a path through two branches. How do you get the chance of the whole path (Win, Lose)?",
+      "title": "Multiply along the branches for each outcome",
+      "lines": [
+       {
+        "text": "Multiply the two branch probabilities for each outcome. (Win, Win) $= \\hl{2}{0.42}$ and (Lose, Lose) $= \\hl{2}{0.12}$ are already given."
+       },
+       {
+        "tex": "\\hl{2}{P(\\text{Win, Lose})} &= \\hl{1}{0.6} \\times \\hl{1}{0.3}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.18}"
+       },
+       {
+        "tex": "\\hl{2}{P(\\text{Lose, Win})} &= \\hl{1}{0.4} \\times \\hl{1}{0.7}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.28}"
+       },
+       {
+        "text": "The four outcomes add to $\\hl{2}{0.42} + \\hl{2}{0.18} + \\hl{2}{0.28} + \\hl{2}{0.12} = 1$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{0.4},\\; \\hl{1}{0.3},\\; \\hl{1}{0.7} \\text{ on the branches; } \\hl{2}{0.18},\\; \\hl{2}{0.28} \\text{ in the final column}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(a)",
+    "note": "Changed: three stages instead of two, and the branch chances are given in the question (the later throws are 0.8 after a success). Only one path is needed, so nothing is added. The method is the same: multiply the branches along the path.",
+    "legend": {
+     "1": "a branch probability",
+     "2": "a path probability (product of branches)"
+    },
+    "steps": [
+     {
+      "ask": "Read the three branch chances from the question. Which chance applies to each throw?",
+      "title": "Write down the three probabilities",
+      "lines": [
+       {
+        "text": "First throw: $\\hl{1}{0.7}$. Second throw after a success: $\\hl{1}{0.8}$. Third throw after a success: $\\hl{1}{0.8}$."
+       },
+       {
+        "tex": "\\hl{2}{P(S,S,S)} &= \\hl{1}{0.7} \\times \\hl{1}{0.8} \\times \\hl{1}{0.8}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.448}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{0.448}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q1#(b)",
+    "note": "Changed: the tree now has three stages with equally likely choices, and the answer adds two paths that both end in a VIP ticket on Wednesday. The method stays the same: multiply along each path, then add the paths that match the event.",
+    "legend": {
+     "1": "a branch probability",
+     "2": "a path probability (product of branches)",
+     "3": "the probability of the event (sum of paths)"
+    },
+    "steps": [
+     {
+      "ask": "Count the choices at each stage. How many equally likely outcomes does the tree have?",
+      "title": "Complete the tree diagram",
+      "lines": [
+       {
+        "text": "Under Stalls (S), add Monday, Wednesday and Friday. At the end of every day, add V (VIP) and O (show only). This gives $2 \\times 3 \\times 2 = 12$ equally likely outcomes."
+       }
+      ]
+     },
+     {
+      "ask": "Take one branch at each stage. What is the chance of this one full path?",
+      "title": "Find the probability of Balcony, Wednesday, VIP",
+      "lines": [
+       {
+        "text": "All choices are equally likely, so Balcony is $\\hl{1}{\\frac12}$, Wednesday is $\\hl{1}{\\frac13}$ and VIP is $\\hl{1}{\\frac12}$. Multiply along the branches."
+       },
+       {
+        "tex": "\\hl{2}{P(BWV)} &= \\hl{1}{\\frac{1}{2}} \\times \\hl{1}{\\frac{1}{3}} \\times \\hl{1}{\\frac{1}{2}}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{1}{12}}"
+       }
+      ]
+     },
+     {
+      "ask": "Stalls replaces Balcony as the first branch. Does that change the chance of the path?",
+      "title": "Find the probability of Stalls, Wednesday, VIP",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P(SWV)} &= \\hl{1}{\\frac{1}{2}} \\times \\hl{1}{\\frac{1}{3}} \\times \\hl{1}{\\frac{1}{2}}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{1}{12}}"
+       }
+      ]
+     },
+     {
+      "ask": "Two different paths end in a VIP ticket on Wednesday. How do you combine their chances?",
+      "title": "Add the two ways to get a VIP ticket on Wednesday",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(\\text{VIP on Wednesday})} &= \\hl{2}{\\frac{1}{12}} + \\hl{2}{\\frac{1}{12}}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{2}{12}}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{1}{6}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{1}{6}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "prob-venn",
+  "verdict": "fixed",
+  "issues": "Replaced the Ford/Renault table (not a Venn) with a probability read from the same Venn as problem 1; problem 3 note updated.",
+  "problems": [
+   {
+    "part": "maths-pp-2024-ordinary-p2-q9#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the total in the diagram",
+     "2": "the overlap, both events (V ∩ C)",
+     "3": "the event the question asks for (count or probability)"
+    },
+    "steps": [
+     {
+      "ask": "Some customers bought neither. What do you do with the total of 100 to find those who bought at least one?",
+      "title": "Find how many bought vanilla or a cone",
+      "lines": [
+       {
+        "text": "$45$ bought neither, so the rest bought at least one."
+       },
+       {
+        "tex": "\\hl{1}{100} - 45 &= \\hl{3}{55}"
+       }
+      ]
+     },
+     {
+      "ask": "Adding the two circles counts the overlap twice. How much must you take back, using the 55 you found?",
+      "title": "Find the overlap",
+      "lines": [
+       {
+        "text": "Adding $V$ and $C$ counts the overlap twice, so subtract the total."
+       },
+       {
+        "tex": "42 + 37 - \\hl{3}{55} &= \\hl{2}{24}"
+       }
+      ]
+     },
+     {
+      "ask": "The overlap sits inside both circles. How much of each circle is outside it?",
+      "title": "Find the parts of each circle outside the overlap",
+      "lines": [
+       {
+        "tex": "42 - \\hl{2}{24} &= \\hl{3}{18}"
+       },
+       {
+        "tex": "37 - \\hl{2}{24} &= \\hl{3}{13}"
+       }
+      ]
+     }
+    ],
+    "final": "V \\text{ only } \\hl{3}{18}, \\; V \\cap C = \\hl{2}{24}, \\; C \\text{ only } \\hl{3}{13}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q9#(b)(ii)",
+    "note": "Same diagram as before, but the answer is now a probability: read one region of the diagram and divide it by the total of 100.",
+    "legend": {
+     "1": "the total in the diagram",
+     "3": "the event the question asks for (count or probability)"
+    },
+    "steps": [
+     {
+      "ask": "Which part of the diagram is a cone that is not vanilla, and how many customers is that out of the total?",
+      "title": "Pick out a cone with a flavour other than vanilla",
+      "lines": [
+       {
+        "text": "This is the part of $C$ outside $V$: $\\hl{3}{13}$ customers out of $\\hl{1}{100}$."
+       },
+       {
+        "tex": "\\hl{3}{P} &= \\hl{3}{\\frac{13}{100}}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.13}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{13}{100}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q1#(a)(iii)",
+    "note": "Changed: a new diagram (cats and dogs), and the answer is the count owning exactly one animal, which means adding two regions, written as a percentage of 168. The method is the same: read the regions, add what the question asks for, and divide by the total.",
+    "legend": {
+     "3": "the event the question asks for (count or probability)"
+    },
+    "steps": [
+     {
+      "ask": "One animal only means one circle without the overlap. Which two regions do you add?",
+      "title": "Count the people who own one animal only",
+      "lines": [
+       {
+        "text": "One animal only means cats only plus dogs only."
+       },
+       {
+        "tex": "\\hl{3}{\\text{One only}} &= 37 + 48"
+       },
+       {
+        "tex": "&= \\hl{3}{85}"
+       }
+      ]
+     },
+     {
+      "ask": "The total is 168. What fraction of the 168 is the answer, and how do you show it as a percentage?",
+      "title": "Write it as a percentage of 168",
+      "lines": [
+       {
+        "tex": "\\text{Percentage} &= \\hl{3}{\\frac{85}{168}} \\times 100"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{50.5952}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{50.6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{50.6}\\%",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "prob-without-replacement",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "seq-arith-nth",
+  "verdict": "fixed",
+  "issues": "Renumbered colour slots so none is skipped (term found = 1, first term a = 2).",
+  "problems": [
+   {
+    "part": "maths-pp-2018-ordinary-p1-q7#(a)",
+    "note": null,
+    "legend": {
+     "1": "the term found, Tₙ",
+     "2": "the first term, a"
+    },
+    "steps": [
+     {
+      "ask": "The description gives the first row and how each row changes. Which numbers are a and d?",
+      "title": "Recognise the arithmetic sequence",
+      "lines": [
+       {
+        "text": "The first row has 28 seats and each row adds 1, so $a = \\hl{2}{28}$ and $d = 1$. The $n$th term is $T_n = a + (n-1)d$."
+       },
+       {
+        "tex": "\\hl{1}{T_{10}} &= \\hl{2}{28} + (10-1)(1)"
+       },
+       {
+        "tex": "&= \\hl{2}{28} + 9"
+       },
+       {
+        "tex": "&= \\hl{1}{37}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{37}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q7#(c)(ii)",
+    "note": "Changed: the rule Tₙ = 3n + 2 is given directly, so there is no a or d to find first. The method is the same: put in n and work out the value.",
+    "legend": {
+     "1": "the term found, Tₙ"
+    },
+    "steps": [
+     {
+      "ask": "Put n = 20 into the rule and work out the value. What do you get?",
+      "title": "Substitute n = 20 into T_n = 3n + 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{T_{20}} &= 3(20) + 2"
+       },
+       {
+        "tex": "&= 60 + 2"
+       },
+       {
+        "tex": "&= \\hl{1}{62}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{62}\\text{ tiles}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(iii)",
+    "note": "Changed: the rule is now a cost in euros with a negative constant term, so the answer is a money amount. The method is the same: put in n and simplify.",
+    "legend": {
+     "1": "the term found, Tₙ"
+    },
+    "steps": [
+     {
+      "ask": "Put n = 25 into the rule. What does the rule give in euros?",
+      "title": "Substitute n = 25 into T_n",
+      "lines": [
+       {
+        "tex": "\\hl{1}{T_{25}} &= 250(25) - 4250"
+       },
+       {
+        "tex": "&= 6250 - 4250"
+       },
+       {
+        "tex": "&= \\hl{1}{2000}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{1}{2000}",
+    "graph": null
+   }
+  ]
+ }
+]

@@ -1,0 +1,822 @@
+[
+ {
+  "skill": "fin-error",
+  "verdict": "fixed",
+  "issues": "Marked the estimate, true value and error in problems 2 and 3 so slots 1-4 match problem 1; reworded problem 1 first ask so it does not give the subtraction.",
+  "problems": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q8#(a)(iv)",
+    "note": null,
+    "legend": {
+     "1": "estimated (measured) value",
+     "2": "true (intended) value",
+     "3": "the error (difference)",
+     "4": "percentage error"
+    },
+    "steps": [
+     {
+      "ask": "How do you find the error from the two values? Which value is the intended one?",
+      "title": "Percentage error = error ÷ intended value × 100",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Error}} &= \\hl{1}{260} - \\hl{2}{250}"
+       },
+       {
+        "tex": "&= \\hl{3}{10}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the error as a fraction of the intended value? Then turn it into a percentage.",
+      "title": "Divide by the intended amount and multiply by 100",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{3}{10}}{\\hl{2}{250}} \\times 100 &= \\hl{4}{4}"
+       },
+       {
+        "tex": "&= \\hl{4}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{4\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q6#(b)(ii)",
+    "note": "This uses the same formula as the first problem, but the values are decimal areas and the actual value (31.8) goes in the denominator. The answer is rounded to 2 decimal places instead of a whole number.",
+    "legend": {
+     "1": "estimated (measured) value",
+     "2": "true (intended) value",
+     "3": "the error (difference)",
+     "4": "percentage error"
+    },
+    "steps": [
+     {
+      "ask": "The formula divides by the actual value. Which of the two areas is the actual one?",
+      "title": "Write the percentage error formula",
+      "lines": [
+       {
+        "text": "Percentage error is the error divided by the actual value, times 100."
+       },
+       {
+        "tex": "\\hl{4}{\\text{error}} &= \\frac{\\hl{1}{\\text{estimate}} - \\hl{2}{\\text{actual}}}{\\hl{2}{\\text{actual}}} \\times 100"
+       }
+      ]
+     },
+     {
+      "ask": "Put the two areas into the formula. Which one is the estimate?",
+      "title": "Substitute the two areas",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{error}} &= \\frac{\\hl{1}{32.1} - \\hl{2}{31.8}}{\\hl{2}{31.8}} \\times 100"
+       }
+      ]
+     },
+     {
+      "ask": "Work out the top of the fraction first. What is the difference between the two areas?",
+      "title": "Work out the numerator",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{error}} &= \\frac{\\hl{3}{0.3}}{\\hl{2}{31.8}} \\times 100"
+       }
+      ]
+     },
+     {
+      "ask": "Divide, multiply by 100, then round as the question asks. How many decimal places?",
+      "title": "Calculate and round to 2 decimal places",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\text{error}} &\\approx \\hl{4}{0.9434}"
+       },
+       {
+        "tex": "&\\approx \\hl{4}{0.94}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{0.94\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q7#(c)",
+    "note": "The percentage error is given and the true value is the unknown, so the formula is rearranged to find V instead of being used forwards. The rest of the method is like the first two problems.",
+    "legend": {
+     "2": "true (intended) value",
+     "3": "the error (difference)",
+     "4": "percentage error"
+    },
+    "steps": [
+     {
+      "ask": "Write 16.3% as a decimal. What does the error divided by the true value equal?",
+      "title": "Write the percentage error as a decimal",
+      "lines": [
+       {
+        "text": "Percentage error is the error divided by the true value, times 100. Let $\\hl{2}{V}$ be the true value."
+       },
+       {
+        "tex": "\\frac{\\hl{3}{1.50}}{\\hl{2}{V}} \\times 100 &= \\hl{4}{16.3}"
+       },
+       {
+        "tex": "\\frac{\\hl{3}{1.50}}{\\hl{2}{V}} &= \\hl{4}{0.163}"
+       }
+      ]
+     },
+     {
+      "ask": "Rearrange so V is on its own. Which operations undo the multiplication and the division?",
+      "title": "Solve for V",
+      "lines": [
+       {
+        "tex": "\\hl{3}{1.50} &= \\hl{4}{0.163}\\hl{2}{V}"
+       },
+       {
+        "tex": "\\hl{2}{V} &= \\frac{\\hl{3}{1.50}}{\\hl{4}{0.163}}"
+       },
+       {
+        "tex": "&= \\hl{2}{9.2025\\ldots}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\text{€}9.20}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\text{€}9.20}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-income-tax",
+  "verdict": "fixed",
+  "issues": "Marked the gross wage and total deductions in the percentage step of problem 2.",
+  "problems": [
+   {
+    "part": "maths-pp-2019-ordinary-p1-q1#(b)",
+    "note": null,
+    "legend": {
+     "1": "gross pay",
+     "2": "total deductions",
+     "3": "net pay"
+    },
+    "steps": [
+     {
+      "ask": "What do you need to add together before anything comes off the gross wage?",
+      "title": "Add the income tax and the health insurance",
+      "lines": [
+       {
+        "tex": "\\hl{2}{7290 + 1500} &= \\hl{2}{\\text{€}8790}"
+       }
+      ]
+     },
+     {
+      "ask": "Take the total deductions off the gross wage. What is left?",
+      "title": "Subtract from the gross wage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{40000} - \\hl{2}{8790} &= \\hl{3}{\\text{€}31210}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\text{€}31210}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q6#(c)(i), (ii)",
+    "note": "Same idea as the net pay problem, but there are three deductions to add (tax, USC and PRSI) and the answer is also written as a percentage of the gross wage. Both answers come from the same total.",
+    "legend": {
+     "1": "gross pay",
+     "2": "total deductions",
+     "4": "a percentage (share of gross or tax rate)"
+    },
+    "steps": [
+     {
+      "ask": "Which three deductions does the question list? Add them together.",
+      "title": "Add her three deductions",
+      "lines": [
+       {
+        "text": "The deductions are income tax, USC and PRSI."
+       },
+       {
+        "tex": "\\hl{2}{234 + 59.11 + 18} &= \\hl{2}{311.11}"
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of her gross wage is the total? Change that into a percentage.",
+      "title": "Write the deductions as a percentage of her gross wage",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{2}{311.11}}{\\hl{1}{1550}} \\times 100 &= \\hl{4}{20.07\\ldots}"
+       },
+       {
+        "tex": "&\\approx \\hl{4}{20.1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } \\hl{2}{\\text{€}311.11} \\quad \\text{(ii) } \\hl{4}{20.1\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q10#(b)(iii)",
+    "note": "The unknown is now the income rather than the tax, so the tax is set equal to the credit and solved as an equation instead of being added up. The only percentage used is the 20% rate.",
+    "legend": {
+     "1": "gross pay",
+     "4": "a percentage (share of gross or tax rate)"
+    },
+    "steps": [
+     {
+      "ask": "Tax is 20% of the income. When is no tax paid? Write that as an equation.",
+      "title": "Set the tax credit equal to the tax at 20%",
+      "lines": [
+       {
+        "text": "Tax is $\\hl{4}{0.2} \\times$ income, and the credit takes off $3550$. No tax is paid when they are equal."
+       },
+       {
+        "tex": "\\hl{4}{0.2} \\times \\hl{1}{\\text{income}} &= 3550"
+       }
+      ]
+     },
+     {
+      "ask": "Undo the 20% to get the income on its own. What do you do to both sides?",
+      "title": "Divide both sides by 0.2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{income}} &= \\frac{3550}{0.2}"
+       },
+       {
+        "tex": "&= \\hl{1}{17\\,750}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{17\\,750}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-mortgage",
+  "verdict": "fixed",
+  "issues": "Problem 3 marked 1+i factors as the rate; now only i is marked, and P, i, t marked in the substitutions of problems 2 and 3.",
+  "problems": [
+   {
+    "part": "maths-pp-2015-higher-p1-q6#(b)",
+    "note": null,
+    "legend": {
+     "1": "loan amount, P",
+     "2": "rate per payment, i (decimal)",
+     "3": "number of payments (t or n)",
+     "4": "repayment per payment, A"
+    },
+    "steps": [
+     {
+      "ask": "Write down the repayment formula. What is the monthly rate as a decimal, and how many monthly payments are there in 10 years?",
+      "title": "Write the repayment formula and its values",
+      "lines": [
+       {
+        "tex": "\\hl{4}{A} &= \\hl{1}{P}\\left[\\frac{i(1+i)^t}{(1+i)^t - 1}\\right]"
+       },
+       {
+        "text": "$\\hl{1}{P=80\\,000}$, $\\hl{2}{i=0.0035}$, and $\\hl{3}{t=10\\times 12=120}$ months."
+       }
+      ]
+     },
+     {
+      "ask": "Put the loan and the values from the last step into the formula. Which value goes where?",
+      "title": "Substitute the values",
+      "lines": [
+       {
+        "tex": "\\hl{4}{A} &= \\hl{1}{80\\,000}\\left[\\frac{0.0035(1.0035)^{120}}{(1.0035)^{120} - 1}\\right]"
+       }
+      ]
+     },
+     {
+      "ask": "Work out the power of (1 + i) first, then the fraction. What do you get?",
+      "title": "Evaluate the power and then the fraction",
+      "lines": [
+       {
+        "tex": "(1.0035)^{\\hl{3}{120}} &= 1.520846"
+       },
+       {
+        "tex": "\\hl{4}{A} &= \\hl{1}{80\\,000}\\left[\\frac{0.0035 \\times 1.520846}{1.520846 - 1}\\right]"
+       },
+       {
+        "tex": "&= \\hl{1}{80\\,000}\\left[\\frac{0.00532296}{0.520846}\\right]"
+       },
+       {
+        "tex": "&= \\hl{4}{817.59}"
+       },
+       {
+        "tex": "&\\approx \\hl{4}{\\text{€}818}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\text{€}818}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q5#(a)",
+    "note": "The rate is given as a percentage, so it must be changed to a decimal (0.00287) first. The term is 25 years, so there are 300 monthly payments; the formula itself is the same as the first problem.",
+    "legend": {
+     "1": "loan amount, P",
+     "2": "rate per payment, i (decimal)",
+     "3": "number of payments (t or n)",
+     "4": "repayment per payment, A"
+    },
+    "steps": [
+     {
+      "ask": "Write down the amortisation formula. Which letter stands for the loan, the monthly rate and the number of months?",
+      "title": "Write down the amortisation formula",
+      "lines": [
+       {
+        "text": "$\\hl{1}{P}$ is the loan, $\\hl{2}{i}$ the monthly rate and $\\hl{3}{n}$ the number of months."
+       },
+       {
+        "tex": "\\hl{4}{A} &= \\frac{P\\,i\\,(1+i)^n}{(1+i)^n - 1}"
+       }
+      ]
+     },
+     {
+      "ask": "Turn the percentage into a decimal. How many months are in 25 years?",
+      "title": "Find i and n",
+      "lines": [
+       {
+        "text": "$i = 0.287\\% = \\hl{2}{0.00287}$."
+       },
+       {
+        "text": "$\\hl{3}{n = 25 \\times 12 = 300}$ months."
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put the loan, rate and number of months into the formula? Work out the top and bottom separately before dividing.",
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "\\hl{4}{A} &= \\frac{\\hl{1}{250000}(\\hl{2}{0.00287})(1.00287)^{\\hl{3}{300}}}{(1.00287)^{\\hl{3}{300}} - 1}"
+       },
+       {
+        "tex": "\\hl{4}{A} &= \\frac{717.5 \\times 2.36261}{1.36261}"
+       },
+       {
+        "tex": "\\hl{4}{A} &= \\frac{1695.17}{1.36261}"
+       }
+      ]
+     },
+     {
+      "ask": "Divide on a calculator. How many decimal places should a euro answer have?",
+      "title": "Evaluate with a calculator",
+      "lines": [
+       {
+        "tex": "\\hl{4}{A} &= \\hl{4}{\\text{€}1244.06}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\text{€}1244.06}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q8#(b)(v)",
+    "note": "The yearly rate is spread over 52 weeks, so the weekly rate has to be worked out from (1 + i)⁵² = 1.085 before the formula can be used. The formula and substitution are otherwise the same as the first problem.",
+    "legend": {
+     "1": "loan amount, P",
+     "2": "rate per payment, i (decimal)",
+     "3": "number of payments (t or n)",
+     "4": "repayment per payment, A"
+    },
+    "steps": [
+     {
+      "ask": "The 8.5% is a yearly rate spread over 52 weeks. What weekly factor, raised to the power 52, gives 1.085?",
+      "title": "Find the weekly interest rate",
+      "lines": [
+       {
+        "text": "An APR of 8.5% multiplies a balance by $1.085$ over 52 weeks, so $(1+\\hl{2}{i})^{52} = 1.085$."
+       },
+       {
+        "tex": "(1+\\hl{2}{i})^{52} &= 1.085"
+       },
+       {
+        "tex": "1+\\hl{2}{i} &= 1.085^{\\frac{1}{52}}"
+       },
+       {
+        "tex": "\\hl{2}{1+i} &\\approx 1.00157"
+       },
+       {
+        "tex": "\\hl{2}{i} &\\approx \\hl{2}{0.00157}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute the loan, the weekly rate and the number of weeks into the formula. How many weeks are in 3 years?",
+      "title": "Substitute P = 5000, i = 0.00157 and t = 156 into the formula",
+      "lines": [
+       {
+        "tex": "\\hl{4}{A} &= \\frac{P\\, i (1+i)^t}{(1+i)^t - 1}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{5000}(\\hl{2}{0.00157})(1.00157)^{\\hl{3}{156}}}{(1.00157)^{\\hl{3}{156}} - 1}"
+       },
+       {
+        "tex": "&\\approx \\hl{4}{36.16}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{\\text{€}36.16}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-percentages",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fin-profit-margin",
+  "verdict": "fixed",
+  "issues": "Reworded two asks that gave away the divisor, corrected problem 3 note (different, algebraic problem; no better candidate), aligned legend wording.",
+  "problems": [
+   {
+    "part": "maths-pp-2025-ordinary-p1-q6#(a)(i), (ii)",
+    "note": null,
+    "legend": {
+     "1": "the cost price (or starting price, p)",
+     "2": "the selling price",
+     "3": "the profit (or the difference between two prices)",
+     "4": "the percentage asked (margin or mark-up)"
+    },
+    "steps": [
+     {
+      "ask": "If the selling price is cost plus 25%, what single number do you multiply the cost by?",
+      "title": "Find the multiplier for a 25% profit",
+      "lines": [
+       {
+        "text": "The selling price is 100% of the cost plus the 25% profit, so it is 125% of the cost."
+       },
+       {
+        "tex": "1 + 0.25 &= 1.25"
+       }
+      ]
+     },
+     {
+      "ask": "What number do you multiply the cost of €90 by to get the selling price?",
+      "title": "Work out the selling price",
+      "lines": [
+       {
+        "tex": "\\text{Selling price} &= \\hl{1}{90} \\times 1.25"
+       },
+       {
+        "tex": "&= \\text{€}\\hl{2}{112.50}"
+       }
+      ]
+     },
+     {
+      "ask": "How much more is the selling price than the cost?",
+      "title": "Write down the profit",
+      "lines": [
+       {
+        "tex": "\\text{Profit} &= \\hl{2}{112.50} - \\hl{1}{90}"
+       },
+       {
+        "tex": "&= \\text{€}\\hl{3}{22.50}"
+       }
+      ]
+     },
+     {
+      "ask": "Margin is measured against one of the two prices. Which one, and what do you do with the profit?",
+      "title": "Find the margin as a percentage of the selling price",
+      "lines": [
+       {
+        "text": "Margin is the profit divided by the selling price, times 100."
+       },
+       {
+        "tex": "\\text{Margin} &= \\frac{\\hl{3}{22.50}}{\\hl{2}{112.50}} \\times 100"
+       },
+       {
+        "tex": "&= \\hl{4}{20\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Selling price} = \\text{€}\\hl{2}{112.50},\\ \\text{profit} = \\text{€}\\hl{3}{22.50},\\ \\text{margin} = \\hl{4}{20\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q8#(f)",
+    "note": "Changed from working forwards from a cost to working backwards from a margin given on the selling price. So a selling price of 100 is picked first, and the mark-up is profit over cost, not over selling price.",
+    "legend": {
+     "1": "the cost price (or starting price, p)",
+     "2": "the selling price",
+     "3": "the profit (or the difference between two prices)",
+     "4": "the percentage asked (margin or mark-up)"
+    },
+    "steps": [
+     {
+      "ask": "Which selling price makes 18% easy to work out? Then how do you get the cost price from it?",
+      "title": "Pick a selling price of 100",
+      "lines": [
+       {
+        "text": "Margin is profit as a percentage of the selling price. Let the selling price be 100."
+       },
+       {
+        "tex": "\\text{profit} &= 18\\% \\text{ of } \\hl{2}{100}"
+       },
+       {
+        "tex": "&= \\hl{3}{18}"
+       },
+       {
+        "tex": "\\text{cost price} &= \\hl{2}{100} - \\hl{3}{18}"
+       },
+       {
+        "tex": "&= \\hl{1}{82}"
+       }
+      ]
+     },
+     {
+      "ask": "Mark-up and margin are measured against different prices. Which price do you compare the profit with this time?",
+      "title": "Mark up is profit as a percentage of cost price",
+      "lines": [
+       {
+        "tex": "\\text{mark up} &= \\frac{\\hl{3}{18}}{\\hl{1}{82}} \\times 100"
+       },
+       {
+        "tex": "&= \\hl{4}{21.95}"
+       },
+       {
+        "text": "To the nearest percent, the mark up is $\\hl{4}{22\\%}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{22\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q10#(d)",
+    "note": "This one is mostly algebra with no numbers: 10% off means multiplying by 0.9, and r is a fixed amount taken off. You write each price in terms of p, subtract, then simplify.",
+    "legend": {
+     "1": "the cost price (or starting price, p)",
+     "3": "the profit (or the difference between two prices)"
+    },
+    "steps": [
+     {
+      "ask": "Which comes first in Option 1, the 10% reduction or taking off r? Write Option 1 in terms of p.",
+      "title": "Price for Option 1",
+      "lines": [
+       {
+        "text": "Reduce by 10% means multiply by $0.9$. Then subtract $r$."
+       },
+       {
+        "tex": "\\text{Option 1} &= 0.9\\hl{1}{p} - r"
+       }
+      ]
+     },
+     {
+      "ask": "Option 2 does the two steps in the other order. What gets multiplied by 0.9 this time?",
+      "title": "Price for Option 2",
+      "lines": [
+       {
+        "text": "Subtract $r$ first, then multiply by $0.9$."
+       },
+       {
+        "tex": "\\text{Option 2} &= 0.9(\\hl{1}{p} - r)"
+       },
+       {
+        "tex": "&= 0.9\\hl{1}{p} - 0.9r"
+       }
+      ]
+     },
+     {
+      "ask": "How do the two prices differ? Subtract one from the other and simplify.",
+      "title": "Compare the two prices",
+      "lines": [
+       {
+        "tex": "\\text{Option 1} - \\text{Option 2} &= (0.9\\hl{1}{p} - r) - (0.9\\hl{1}{p} - 0.9r)"
+       },
+       {
+        "tex": "&= -r + 0.9r"
+       },
+       {
+        "tex": "&= \\hl{3}{-0.1r}"
+       },
+       {
+        "text": "Since $r > 0$, the difference is negative, so Option 1 costs less for every $\\hl{1}{p}$ and $r$. Tick Option 1."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Option 1 is cheaper: } 0.9\\hl{1}{p} - r < 0.9\\hl{1}{p} - 0.9r",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-rate-conversion",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fin-solve-rate-time",
+  "verdict": "fixed",
+  "issues": "Replaced problem 3 (log/repayment-formula rearrangement, a different method) with the 2023 fourth-root part, which uses the same roots method.",
+  "problems": [
+   {
+    "part": "maths-pp-2020-ordinary-p1-q7#(b)",
+    "note": null,
+    "legend": {
+     "1": "the growth factor, 1.331",
+     "2": "the rate r, as a decimal",
+     "3": "the answer, as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "What expression in r must be cubed to give 1.331?",
+      "title": "Write the growth factor for 3 years",
+      "lines": [
+       {
+        "text": "An increase of $33.1\\%$ means the investment becomes $\\hl{1}{1.331}$ times the original. With $\\hl{2}{r}$ as a decimal, the growth factor over 3 years is $(1+\\hl{2}{r})^3$."
+       },
+       {
+        "tex": "(1 + \\hl{2}{r})^3 &= \\hl{1}{1.331}"
+       }
+      ]
+     },
+     {
+      "ask": "What undoes cubing, and what does it do to 1.331?",
+      "title": "Take the cube root of both sides",
+      "lines": [
+       {
+        "tex": "1 + \\hl{2}{r} &= \\sqrt[3]{\\hl{1}{1.331}}"
+       },
+       {
+        "tex": "1 + \\hl{2}{r} &= 1.1"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\hl{2}{0.1}"
+       }
+      ]
+     },
+     {
+      "ask": "The question asks for a percentage. What do you do to the decimal r?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{2}{r} &= \\hl{2}{0.1} \\times 100 = \\hl{3}{10\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{r} = \\hl{3}{10\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q1#(c)",
+    "note": "Changed from being given the growth factor to being given the start and end amounts, so the factor has to be worked out by dividing first. The rate stays in slot 2 and the answer as a percentage in slot 3.",
+    "legend": {
+     "1": "the growth factor",
+     "2": "the rate r, as a decimal",
+     "3": "the answer, as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "What does €25 000 become after 3 years at rate r? Write it with r.",
+      "title": "Write the compound interest formula",
+      "lines": [
+       {
+        "text": "Let $\\hl{2}{r}$ be the yearly rate as a decimal. After 3 years, €25 000 grows to $25000(1 + \\hl{2}{r})^3$."
+       },
+       {
+        "tex": "25000(1 + \\hl{2}{r})^3 &= 26530.2"
+       }
+      ]
+     },
+     {
+      "ask": "To get (1 + r)³ on its own, what do you do to both sides?",
+      "title": "Divide both sides by 25 000",
+      "lines": [
+       {
+        "tex": "(1 + \\hl{2}{r})^3 &= \\frac{26530.2}{25000}"
+       },
+       {
+        "tex": "&= \\hl{1}{1.061208}"
+       }
+      ]
+     },
+     {
+      "ask": "What undoes a cube, applied to both sides?",
+      "title": "Take the cube root of both sides",
+      "lines": [
+       {
+        "tex": "1 + \\hl{2}{r} &= \\sqrt[3]{\\hl{1}{1.061208}}"
+       },
+       {
+        "tex": "&= 1.02"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract 1 from the bracket. What is r now, and what does the question ask for?",
+      "title": "Subtract 1 and convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{2}{r} &= \\hl{2}{0.02}"
+       },
+       {
+        "tex": "&= \\hl{3}{2\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{r} = \\hl{3}{2\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q1#(c)",
+    "note": "Changed from Problem 2: 4 years instead of 3, so you take the fourth root, and the rate sits in the formula as r/100 (a percentage) rather than as a decimal. The steps are the same: divide, take the root, subtract 1.",
+    "legend": {
+     "1": "the growth factor, 1.331",
+     "2": "the rate r, as a decimal",
+     "3": "the answer, as a percentage"
+    },
+    "steps": [
+     {
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "F &= P\\left(1 + \\hl{2}{\\frac{r}{100}}\\right)^t"
+       },
+       {
+        "tex": "370\\,000 &= 265\\,000\\left(1 + \\hl{2}{\\frac{r}{100}}\\right)^4"
+       }
+      ],
+      "ask": "Put the starting price, the final price and the number of years into the formula. Which letter is the unknown?"
+     },
+     {
+      "title": "Isolate the bracket",
+      "lines": [
+       {
+        "text": "Divide both sides by $265\\,000$."
+       },
+       {
+        "tex": "\\left(1 + \\hl{2}{\\frac{r}{100}}\\right)^4 &= \\hl{1}{\\frac{370\\,000}{265\\,000}}"
+       },
+       {
+        "text": "Take the fourth root of both sides (the positive root, as the price is growing)."
+       },
+       {
+        "tex": "1 + \\hl{2}{\\frac{r}{100}} &= \\sqrt[4]{\\hl{1}{\\frac{370\\,000}{265\\,000}}}"
+       },
+       {
+        "tex": "1 + \\hl{2}{\\frac{r}{100}} &= 1.08702\\ldots"
+       }
+      ],
+      "ask": "To get the bracket on its own, what do you do to both sides, and then what undoes a power of 4?"
+     },
+     {
+      "title": "Solve for r",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\frac{r}{100}} &= 1.08702\\ldots - 1"
+       },
+       {
+        "tex": "r &= 100 \\times 0.08702\\ldots"
+       },
+       {
+        "tex": "r &\\approx \\hl{3}{8.7}"
+       }
+      ],
+      "ask": "The bracket holds r ÷ 100. How do you get r from it, and how should you round?"
+     }
+    ],
+    "final": "\\hl{3}{r = 8.7\\%}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-units",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fn-compare-graphs",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fn-evaluate",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]
