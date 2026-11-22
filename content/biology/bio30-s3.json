@@ -6,73 +6,111 @@
   "notes": [
     {
       "h": "Sources of carbon dioxide",
+      "b": "Photosynthesis needs a steady supply of carbon dioxide (CO₂), the raw material the plant builds sugar from. A leaf cell has two places to get it from: the air around the plant and its own respiring cells.",
       "points": [
-        "A photosynthesising leaf gets CO₂ from two sources: the air outside, entering through the stomata, and the plant's own respiring cells.",
+        "A photosynthesising leaf gets CO₂ from two sources: the air outside, entering through the stomata (the tiny pores in the leaf surface), and the plant's own respiring cells.",
         "The air contains only about 0.04% CO₂, so a leaf must exchange large volumes of air to get enough. This is why it has many stomata and a large internal surface.",
-        "Every living plant cell respires all the time, day and night, releasing CO₂ from its mitochondria (see Respiration as a catabolic process).",
-        "In the light, the CO₂ released by a mesophyll cell's own mitochondria, and by neighbouring cells, can be used directly by its chloroplasts without ever leaving the leaf.",
-        "Aquatic plants take in CO₂ dissolved in the water (see Photosynthesis as an anabolic process)."
-      ]
+        "Every living plant cell respires all the time, day and night, releasing CO₂ from its mitochondria (the organelles where respiration takes place). Plants do not respire only at night.",
+        "In the light, the CO₂ released by a mesophyll cell's own mitochondria, and by neighbouring cells, can be used directly by its chloroplasts without ever leaving the leaf. Mesophyll cells are the photosynthesising cells inside the leaf.",
+        "Aquatic plants take in CO₂ dissolved in the water around them."
+      ],
+      "tip": "If asked for the source of the CO₂ used in photosynthesis, give both: the air (through the stomata) and the plant's own respiration. Don't say plants respire only at night, or that they photosynthesise instead of respiring."
     },
     {
       "h": "How CO₂ reaches the chloroplasts",
+      "b": "CO₂ has to get from the outside air into the chloroplasts (the green organelles where photosynthesis happens), and it does so in a series of steps with no pump involved. Each step is just movement down a concentration gradient, meaning from where there is more CO₂ to where there is less.",
       "points": [
         "1. Photosynthesis uses CO₂ in the chloroplasts, so the CO₂ concentration inside the leaf falls below that of the outside air, setting up a concentration gradient.",
         "2. CO₂ diffuses in through the open stomata, from the higher concentration outside to the lower concentration inside.",
-        "3. It diffuses through the air spaces of the spongy mesophyll to the mesophyll cells.",
+        "3. It diffuses through the air spaces of the spongy mesophyll (the loosely packed layer of cells in the lower leaf) to the mesophyll cells.",
         "4. It dissolves in the thin film of water on the moist cell walls, because gases can only enter cells in solution.",
-        "5. It diffuses across the cell wall, cell membrane and cytoplasm into the chloroplasts, where it is used in the light-independent stage. The gradient is kept up because CO₂ is used as fast as it arrives.",
-        "CO₂ moves through the plant by diffusion only, through the air spaces and across moist cell surfaces. It is not carried in the xylem or phloem, and no energy is used to move it.",
-        "A thin leaf, with a large surface area, many stomata, a network of air spaces and moist mesophyll cell walls with a large total surface, all speed up the diffusion of CO₂.",
-        "Stomata control the entry of CO₂: they open in the light, when CO₂ is needed. The CO₂ concentration inside the leaf also helps control whether they open or close, as explained in CO₂ as a controlling factor in plant stomata.",
-        "Diagram: a transverse section of part of a leaf, showing arrows for CO₂ diffusing in through a stoma, through the air spaces and into a palisade cell's chloroplast, and arrows for oxygen and water vapour diffusing out; plus a short arrow from a mitochondrion to a chloroplast in the same cell, labelled CO₂ from respiration."
-      ]
+        "5. It diffuses across the cell wall, cell membrane and cytoplasm into the chloroplasts, where it is used in the light-independent stage (the part of photosynthesis that builds sugar from CO₂). The gradient is kept up because CO₂ is used as fast as it arrives.",
+        "Diagram: a transverse section of part of a leaf, with arrows for CO₂ diffusing in through a stoma, through the air spaces and into a palisade cell's chloroplast, and for oxygen and water vapour diffusing out; plus a short arrow from a mitochondrion to a chloroplast, labelled CO₂ from respiration."
+      ],
+      "tip": "Exams ask you to name the substances that pass through the stomata: CO₂ in, and oxygen and water vapour out. Learn the five stages in order, and remember the step where CO₂ dissolves in water on the cell wall."
+    },
+    {
+      "h": "Diffusion only, and the leaf features that speed it up",
+      "b": "Because CO₂ moves only by diffusion, a leaf is built to make that diffusion fast and short. Stomata also act as the gates that decide when CO₂ can enter.",
+      "points": [
+        "CO₂ moves through the plant by diffusion only, through the air spaces and across moist cell surfaces. It is not carried in the xylem or phloem (the plant's water and food-carrying tubes), and no energy is used to move it.",
+        "A thin leaf (so the distance to travel is short), a large surface area, many stomata, a network of air spaces and moist mesophyll cell walls with a large total surface all speed up the diffusion of CO₂.",
+        "Stomata control the entry of CO₂: they open in the light, when CO₂ is needed. At Higher Level, the CO₂ concentration inside the leaf also helps control whether they open or close. There is more on this in CO₂ as a controlling factor in plant stomata."
+      ],
+      "tip": "Exams ask for the role of stomata in photosynthesis: entry of CO₂ and exit of oxygen. Don't say CO₂ travels in the xylem or phloem; it diffuses through air spaces."
     },
     {
       "h": "Gas exchange by day and by night",
+      "b": "Photosynthesis and respiration both happen in a leaf, and they swap the same gases in opposite directions. Which one wins depends on how much light there is, so the net gas exchange changes through the day.",
       "points": [
         "In bright light, photosynthesis is faster than respiration. The leaf uses more CO₂ than its cells produce, so there is a net uptake of CO₂ through the stomata and a net release of oxygen.",
-        "In darkness there is no photosynthesis, only respiration. The plant takes in oxygen and gives out CO₂, through stomata that are mostly closed, through the cuticle in small amounts, and through lenticels.",
-        "At dawn and dusk, in dim light, the rate of photosynthesis equals the rate of respiration, the compensation point (see Investigation: rate of photosynthesis). All the CO₂ produced by respiration is used in photosynthesis, so there is no net exchange of CO₂ or oxygen with the air.",
-        "Non-green parts, such as roots, woody stems and the inside of fruits and tubers, only respire. They take in oxygen and release CO₂ by diffusion: roots to the air spaces in the soil, and woody stems through lenticels (see Plant structures for transport).",
-        "The oxygen made in photosynthesis is a photosynthetic product too. It is used in the plant's own respiration, and the excess diffuses out through the stomata (see Photosynthesis as an anabolic process)."
-      ]
+        "In darkness there is no photosynthesis, only respiration. The plant takes in oxygen and gives out CO₂, through stomata that are mostly closed, through the cuticle (the waxy surface layer) in small amounts, and through lenticels (small pores in woody stems).",
+        "At dawn and dusk, in dim light, the rate of photosynthesis equals the rate of respiration, a point called the compensation point. All the CO₂ produced by respiration is used in photosynthesis, so there is no net exchange of CO₂ or oxygen with the air.",
+        "Non-green parts, such as roots, woody stems and the inside of fruits and tubers, only respire because they do not photosynthesise. They take in oxygen and release CO₂ by diffusion: roots to the air spaces in the soil, and woody stems through lenticels.",
+        "The oxygen made in photosynthesis is a photosynthetic product too. It is used in the plant's own respiration, and the excess diffuses out through the stomata."
+      ],
+      "tip": "Be ready to say which way CO₂ and oxygen move in bright light, in darkness and at the compensation point. Plants respire day and night, so the difference is that in light photosynthesis hides the CO₂ released by respiration."
     },
     {
       "h": "Translocation: transport of photosynthetic products in the phloem",
+      "b": "The sugar made in a leaf is needed all over the plant, in places that cannot photosynthesise. Translocation is how it gets there, carried in the phloem by a flow that goes from where the sugar is made to where it is used.",
       "points": [
-        "Translocation is the transport of dissolved food made in photosynthesis, mainly sucrose and also amino acids, through the phloem sieve tubes from one part of the plant to another.",
-        "Sucrose is the form in which sugar is carried (the reasons are in Photosynthesis as an anabolic process).",
-        "Amino acids are made in the leaves from sugars and the nitrates brought up in the xylem. They are carried in the phloem to growing regions, where they are used to make proteins.",
+        "Translocation is the transport of dissolved food made in photosynthesis, mainly sucrose and also amino acids, through the phloem sieve tubes (the living tubes of the phloem) from one part of the plant to another.",
+        "Sucrose is the form in which sugar is carried, not glucose. Starch is never transported; it is stored, and must be converted to sucrose before it can move.",
+        "Amino acids (the building blocks of proteins) are made in the leaves from sugars and the nitrates brought up in the xylem. They are carried in the phloem to growing regions, where they are used to make proteins.",
         "A source is a part of the plant where sucrose is made or released into the phloem. This is mainly the photosynthesising leaves, and also storage organs when their stores are being used.",
-        "A sink is a part where sucrose is used or stored. Sinks include growing shoot and root tips, which use it in respiration and to make cellulose for new cell walls; developing flowers, fruits and seeds; the roots; and storage organs, where sucrose is converted to starch, as in potato tubers in summer.",
+        "A sink is a part where sucrose is used or stored. Sinks include growing shoot and root tips, which use it in respiration and to make cellulose for new cell walls, and developing flowers, fruits and seeds.",
+        "Other sinks are the roots and storage organs, where sucrose is converted to starch, as in potato tubers in summer."
+      ],
+      "tip": "Exams ask you to name the tissue that carries the products of photosynthesis (phloem) and the form of sugar carried (sucrose), and to explain the terms source and sink."
+    },
+    {
+      "h": "Direction of flow, changing roles and energy in translocation",
+      "b": "Because sources and sinks are in different places and can swap roles, phloem flow is not fixed in one direction. It is also driven by a living, energy-using process, which sets it apart from water movement in the xylem.",
+      "points": [
         "Because sinks can be above or below the leaves, phloem transport goes both up and down the plant, at different times in different sieve tubes.",
-        "A potato tuber is a sink while it fills with starch in summer, and a source the next spring, when its starch is converted back to sucrose and carried to the growing new shoots.",
-        "Translocation needs energy. At the source, companion cells use ATP to load sucrose actively into the sieve tubes (see Plant structures for transport). So translocation happens only in living phloem and stops if the phloem is killed, for example by heat.",
-        "Pressure-flow model, steps 1 and 2: loading sucrose at the source makes the sap in the sieve tubes there very concentrated, and water enters the sieve tubes from the nearby xylem by osmosis, raising the pressure.",
-        "Pressure-flow model, steps 3 and 4: at the sink, sucrose is removed from the sieve tubes into the cells that use or store it, so water leaves and the pressure there is lower. The sap flows along the sieve tubes, through the sieve plates, from the high-pressure source to the low-pressure sink, carrying the dissolved sucrose and amino acids with it.",
-        "Diagram: a simple plant outline with a leaf labelled source, and a root tip, a fruit and a storage organ labelled sink, with arrows in the phloem showing sucrose moving both up and down from the leaf. Beside it, a sketch of a sieve tube between a source cell and a sink cell, with arrows for sucrose loaded in, water entering by osmosis, flow along the tube and sucrose unloaded."
-      ]
+        "A part can change role. A potato tuber is a sink while it fills with starch in summer, and a source the next spring, when its starch is converted back to sucrose and carried to the growing new shoots.",
+        "Translocation needs energy: at the source, companion cells (the cells beside the sieve tubes) use ATP to load sucrose actively into the sieve tubes. So it happens only in living phloem and stops if the phloem is killed, for example by heat.",
+        "There is more on this in Plant structures for transport."
+      ],
+      "tip": "Be ready to explain why phloem transport goes in both directions. Students often reverse this: phloem transport is active and needs ATP and living cells, while xylem transport of water is passive."
+    },
+    {
+      "h": "How the sap flows: the pressure-flow model",
+      "b": "Once sucrose is in the sieve tubes, something must push the sap along. The pressure-flow model explains this as a pressure difference between the source and the sink, set up by moving sucrose in and out and by water following it by osmosis (water moving into a more concentrated solution).",
+      "points": [
+        "1. Loading sucrose at the source makes the sap in the sieve tubes there very concentrated.",
+        "2. Water enters the sieve tubes from the nearby xylem by osmosis, because the concentrated sap draws it in, raising the pressure.",
+        "3. At the sink, sucrose is removed from the sieve tubes into the cells that use or store it, so water leaves and the pressure there is lower.",
+        "4. The sap flows along the sieve tubes, through the sieve plates (the perforated walls between sieve tube cells), from the high-pressure source to the low-pressure sink, carrying the dissolved sucrose and amino acids with it.",
+        "Diagram: a plant outline with a leaf labelled source, and a root tip, a fruit and a storage organ labelled sink, with phloem arrows for sucrose moving up and down. Beside it, a sieve tube between source and sink cells: sucrose loaded, water entering by osmosis, flow, sucrose unloaded."
+      ],
+      "tip": "Describe the flow as high pressure at the source and low pressure at the sink, and say how each pressure arises: sucrose loaded in and water entering by osmosis at the source, sucrose removed and water leaving at the sink."
     },
     {
       "h": "Evidence that phloem carries food",
+      "b": "We can't watch sucrose moving inside a sieve tube, so the idea that the phloem carries food rests on experiments and observations. Three pieces of evidence all point to the phloem rather than the xylem.",
       "points": [
         "Ringing, or girdling: removing a complete ring of bark from a woody stem removes the phloem, which lies just inside the bark, but leaves the xylem, the wood, intact.",
-        "The bark just above the ring swells as sugars build up there, and the tissues below the ring, including the roots, are starved of food. The leaves above do not wilt at first, because the xylem still carries water up. If the roots run out of food, the whole tree dies.",
+        "The bark just above the ring swells as sugars build up there, and the tissues below the ring, including the roots, are starved of food. If the roots run out of food, the whole tree dies.",
+        "The leaves above the ring do not wilt at first, because the xylem still carries water up.",
         "Animals that strip a ring of bark from trees, such as deer, rabbits and grey squirrels, can kill them in this way. Foresters protect young trees with tree guards.",
         "Aphids are small insects that feed by pushing their needle-like mouthparts into a single sieve tube. The sap that flows into them is rich in sucrose and amino acids.",
         "If an aphid's body is cut away, the sap keeps oozing out of its mouthparts, which shows that the sap is under pressure in the sieve tube.",
         "Radioactive tracers: if a leaf is given CO₂ containing radioactive carbon (¹⁴CO₂), the radioactive carbon soon appears in sucrose, first in the phloem of the leaf, then in the phloem of the stem and in the sinks, and not in the xylem."
-      ]
+      ],
+      "tip": "For ringing, state both effects: swelling above the ring and starvation below it, and that the leaves don't wilt at first because the xylem is intact. Name the phloem as the tissue removed, to show you know which tissue carries food."
     },
     {
       "h": "Water, minerals and food compared",
+      "b": "Plants move three different kinds of material by three different mechanisms. Comparing them side by side shows where students most often mix them up.",
       "points": [
         "What moves: water and minerals move in the xylem; sucrose and amino acids move in the phloem; CO₂ and oxygen move by diffusion through air spaces, in neither tissue.",
         "Direction: xylem moves water upwards only; phloem moves food up or down, from source to sink; CO₂ moves down its concentration gradient, into the leaf by day and out of it at night.",
         "Driving force: for water, evaporation from the leaves (the transpiration pull), helped at Higher Level by root pressure; for sucrose, active loading at the source and the pressure difference between source and sink; for CO₂, diffusion down a concentration gradient.",
         "Energy used by the plant: none to lift water, which is driven by the sun's energy; ATP for loading sucrose and for absorbing minerals; none for CO₂ diffusion."
-      ]
+      ],
+      "tip": "Phloem transport is active (it needs ATP and living cells) while xylem transport of water is passive. Students often reverse this, so check which you've written."
     }
   ],
   "keyTerms": [

@@ -6,235 +6,313 @@
   "notes": [
     {
       "h": "Growth and how it is measured",
+      "b": "Before testing what helps or harms microorganisms, you need to know what counts as growth and how to put a number on it. Every investigation in this subsection measures growth in one of the ways below.",
       "points": [
-        "Growth of a microbial population means an increase in the number of cells (bacteria and yeasts dividing) or in the size of the mycelium (moulds), not the growth of one cell.",
-        "A colony is a visible mass of cells on a solid medium, grown by repeated division from a single cell or spore.",
-        "Bacterial colonies are usually small, round, shiny or matt spots; mould colonies are fuzzy and spread outwards.",
-        "Counting colonies estimates how many living cells were on the plate.",
-        "Count the colonies on each plate if they are separate.",
-        "Measure the diameter of a mould colony with a ruler under the base of the plate.",
-        "Estimate the percentage of the plate's surface covered, using a grid of squares drawn on the base.",
-        "In liquid broth cultures, measure the cloudiness (turbidity) with a colorimeter, since cloudier broth has more cells and absorbs more light.",
-        "For yeast, count cells with a microscope and a counting chamber, or measure the CO₂ produced.",
-        "Microorganisms need a source of nutrients (for energy and raw materials), water, a suitable temperature and pH and, for most, oxygen.",
-        "Harmful chemicals and high external solute concentrations inhibit growth; each of these factors is tested below."
-      ]
+        "Growth of a microbial population means an increase in the number of cells (bacteria and yeasts dividing) or in the size of the mycelium (the mass of thread-like filaments that makes up a mould), not the growth of one cell.",
+        "A colony is a visible mass of cells on a solid medium (a jelly-like surface the cells grow on), grown by repeated division from a single cell or spore. Counting colonies therefore estimates how many living cells were on the plate.",
+        "Bacterial colonies are usually small, round, shiny or matt spots; mould colonies are fuzzy and spread outwards. This difference in appearance helps you tell which organism has grown.",
+        "On plates, count the colonies on each plate if they are separate, or measure the diameter of a mould colony with a ruler under the base of the plate.",
+        "Alternatively, estimate the percentage of the plate's surface covered, using a grid of squares drawn on the base. This works when colonies have merged and cannot be counted.",
+        "In liquid broth cultures, measure the cloudiness (turbidity) with a colorimeter, an instrument that measures how much light passes through. Cloudier broth has more cells and absorbs more light.",
+        "For yeast, count cells with a microscope and a counting chamber (a slide marked with a grid of known volume), or measure the CO₂ produced.",
+        "Microorganisms need a source of nutrients (for energy and raw materials), water, a suitable temperature and pH and, for most, oxygen. Each of these is one factor tested later in this subsection.",
+        "Harmful chemicals and high external solute concentrations (a lot of dissolved salt or sugar outside the cells) inhibit growth, so these are tested too."
+      ],
+      "tip": "Growth means more cells, not bigger cells. If a question asks what 'growth' means for a microorganism, say an increase in cell number (or mycelium size for moulds)."
     },
     {
-      "h": "Aseptic technique",
+      "h": "Aseptic technique: principles and preparation",
+      "b": "Microorganisms are everywhere: in the air, on skin and on benches. Aseptic technique is how you grow only the organism you chose, without letting it or any contaminant spread.",
       "points": [
         "Aseptic technique is the set of procedures that keep unwanted microorganisms out of cultures, so that only the intended organism grows and results are valid.",
         "Aseptic technique also keeps the cultured microorganisms from escaping onto people and surfaces, for safety.",
-        "Any culture may contain or become contaminated with harmful microorganisms, so every culture is treated as a possible pathogen.",
-        "Before starting: tie back long hair, cover cuts with a waterproof plaster, wash hands with soap and water, and wipe the bench with disinfectant.",
-        "Do not eat, drink or touch the face during the practical.",
-        "Sterilise all equipment and media before use: nutrient agar, broths and glassware are heated in an autoclave (or pressure cooker) at 121 °C for 15 minutes, which kills all microorganisms, including bacterial endospores.",
-        "Plastic Petri dishes are bought pre-sterilised and sealed.",
-        "Inoculating loop: heat the wire loop in the hottest part of a Bunsen flame until it glows red-hot, before and after every use, to kill any microorganisms on it.",
+        "Any culture may contain or become contaminated with harmful microorganisms, so every culture is treated as a possible pathogen (a microorganism that causes disease).",
+        "Before starting: tie back long hair, cover cuts with a waterproof plaster, wash hands with soap and water, and wipe the bench with disinfectant. Each step reduces the microorganisms that could get into the culture or onto you.",
+        "Do not eat, drink or touch the face during the practical, because this could carry cultured microorganisms into your mouth or eyes.",
+        "Sterilise all equipment and media before use: nutrient agar, broths and glassware are heated in an autoclave (or pressure cooker) at 121 °C for 15 minutes, which kills all microorganisms, including bacterial endospores (tough resting cells that survive ordinary heat).",
+        "Plastic Petri dishes (the shallow lidded dishes that hold the agar) are bought pre-sterilised and sealed, because plastic would melt in an autoclave."
+      ],
+      "tip": "Exams ask why aseptic technique is used. Give both reasons: it keeps contaminants out so the results are valid, and it keeps the cultured organisms in so people stay safe."
+    },
+    {
+      "h": "Aseptic technique at the bench",
+      "b": "Once equipment is sterile, the risk is airborne microorganisms and anything that touches the culture. These bench habits deal with both.",
+      "points": [
+        "Inoculating loop (a wire loop used to transfer microorganisms): heat it in the hottest part of a Bunsen flame until it glows red-hot, before and after every use, to kill any microorganisms on it.",
         "Let the loop cool for a few seconds, without putting it down, before touching the culture, so that the heat does not kill the microorganisms being transferred.",
         "Work close to a lit Bunsen burner: the rising hot air carries airborne microorganisms upwards and away from the open plates and bottles.",
-        "When opening a culture bottle or tube, hold the cap in the little finger and never put it down on the bench.",
+        "When opening a culture bottle or tube, hold the cap in the little finger and never put it down on the bench, because the bench could contaminate the inside of the cap.",
         "Pass the neck of the bottle briefly through the flame after opening and before closing it, to kill microorganisms at the mouth and create an upward air current.",
         "Open a Petri dish lid only slightly, tilted up like a clam shell, and for as short a time as possible, so that airborne microorganisms do not land on the agar."
-      ]
+      ],
+      "tip": "If asked why the loop is flamed, say it kills microorganisms on the wire. Flame it red-hot, then let it cool before touching the culture so it does not kill the cells you are transferring."
     },
     {
       "h": "Safety, incubation and disposal",
+      "b": "After inoculating (putting the microorganism onto the plate), the plate must be closed, labelled, incubated (kept warm to let growth happen) and finally disposed of safely. Each rule here has a reason.",
       "points": [
-        "After inoculating, secure the lid to the base with two or four short strips of sticky tape, not sealed all the way round, so that oxygen can still enter.",
-        "Sealing the lid fully would make conditions anaerobic, which would favour the growth of harmful anaerobic bacteria.",
+        "After inoculating, secure the lid to the base with two or four short strips of sticky tape, not sealed all the way round, so that oxygen can still enter. Sealing the lid fully would make conditions anaerobic (without oxygen), which would favour the growth of harmful anaerobic bacteria.",
         "Label the base, not the lid (which could be swapped), around the edge with name, date and treatment.",
         "Incubate plates upside down, lid at the bottom, so that condensation forming on the lid does not drip onto the agar and spread the colonies, and the agar does not dry out.",
         "Incubate school cultures at about 25 °C, never at 37 °C, because body temperature favours the growth of microorganisms that are pathogenic to humans.",
-        "Never open plates after incubation: examine and count colonies through the closed lid.",
-        "Never culture samples from the human body, toilets or animal waste.",
-        "Disposal: put used plates and cultures into an autoclave bag and autoclave them before putting them in the bin, or soak them in strong disinfectant.",
-        "Disinfect the bench again and wash hands thoroughly at the end.",
+        "Never open plates after incubation: examine and count colonies through the closed lid. Never culture samples from the human body, toilets or animal waste, because these are likely to contain pathogens.",
+        "Disposal: put used plates and cultures into an autoclave bag and autoclave them (121 °C, 15 minutes) before putting them in the bin, or soak them in strong disinfectant. Disinfect the bench again and wash hands thoroughly at the end.",
         "Spills: cover with paper towels soaked in disinfectant, leave for the time stated on the disinfectant, then clear up wearing gloves, and tell the teacher.",
-        "Ethanol, used to sterilise a glass spreader, is highly flammable: keep the beaker of ethanol away from the Bunsen flame.",
-        "Pass the spreader through the flame only briefly, to burn off the ethanol, holding it pointing down."
-      ]
+        "Ethanol, used to sterilise a glass spreader, is highly flammable: keep the beaker of ethanol away from the Bunsen flame. Pass the spreader through the flame only briefly, to burn off the ethanol, holding it pointing down."
+      ],
+      "tip": "Tape, don't fully seal, the lid; label the base, not the lid; incubate upside down at about 25 °C. Exams ask why plates are taped and incubated upside down and how cultures are disposed of, so give the reason for each."
     },
     {
-      "h": "Media and preparing plates",
+      "h": "Culture media and suitable microorganisms",
+      "b": "A culture medium is the food and water the microorganisms grow on or in. Choosing the right one, and a safe organism, is the first step of every investigation.",
       "points": [
-        "A culture medium supplies microorganisms with nutrients and water.",
-        "Nutrient agar contains agar, a jelly extracted from seaweed, which sets solid and which most microorganisms cannot digest.",
+        "A culture medium supplies microorganisms with nutrients and water. Nutrient agar contains agar, a jelly extracted from seaweed, which sets solid and which most microorganisms cannot digest, so the surface stays firm while they grow.",
         "Nutrient agar also contains nutrients such as meat or yeast extract and peptone (partly digested protein), giving amino acids, sugars, vitamins and minerals.",
         "Nutrient broth is the same as nutrient agar without the agar, so it is liquid.",
         "Fungi such as yeasts and moulds grow better on malt agar or potato dextrose agar, which are sugar-rich and slightly acidic.",
-        "Pouring a plate, step 1: melt the sterile agar in its bottle in a boiling water bath.",
-        "Pouring a plate, step 2: cool the agar to about 50 °C, which is still liquid and cool enough not to kill an organism added to it (agar sets as it cools below about 40 °C).",
-        "Pouring a plate, step 3: flame the neck of the bottle.",
-        "Pouring a plate, step 4: lift the Petri dish lid slightly and pour in enough agar to cover the base (about 15–20 cm³).",
-        "Pouring a plate, step 5: replace the lid, swirl gently and leave on a level surface to set.",
-        "Streaking: draw the flamed, cooled loop, dipped in the culture, across the agar in a zigzag to get separate colonies.",
-        "Spreading: spread a set volume (e.g. 0.1 cm³) of a culture or diluted suspension evenly with a sterile glass spreader to make a lawn covering the whole plate; a lawn is needed for the antibacterial test (see the investigation of antibacterial and antifungal chemicals below).",
         "Suitable microorganisms are baker's yeast suspended in sterile water or sugar solution, moulds such as Rhizopus from bread, or non-pathogenic bacterial cultures supplied for schools.",
-        "The source of the microorganism must be known, so the risk is low.",
-        "Diagram: a Petri dish after inoculation, with the base labelled with name, date and treatment and the lid held with two short strips of tape, shown upside down in the incubator; and a flamed inoculating loop held in a Bunsen flame."
-      ]
+        "The source of the microorganism must be known, so the risk is low."
+      ],
+      "tip": "For fungi, name malt agar or potato dextrose agar; for general bacterial growth, nutrient agar. Know that agar is the setting agent and the nutrients come from the extracts and peptone."
+    },
+    {
+      "h": "Pouring and inoculating plates",
+      "b": "A poured plate is a layer of sterile agar in a Petri dish. How you then put the microorganisms on it depends on what you want to see: separate colonies or an even covering.",
+      "points": [
+        "Pouring a plate, step 1: melt the sterile agar in its bottle in a boiling water bath.",
+        "Step 2: cool the agar to about 50 °C, which is still liquid and cool enough not to kill an organism added to it (agar sets as it cools below about 40 °C).",
+        "Step 3: flame the neck of the bottle, to kill microorganisms at the mouth.",
+        "Step 4: lift the Petri dish lid slightly and pour in enough agar to cover the base (about 15–20 cm³).",
+        "Step 5: replace the lid, swirl gently and leave on a level surface to set.",
+        "Streaking: draw the flamed, cooled loop, dipped in the culture, across the agar in a zigzag. This thins the cells out along the line, so they form separate colonies.",
+        "Spreading: spread a set volume (e.g. 0.1 cm³) of a culture or diluted suspension evenly with a sterile glass spreader to make a lawn (growth covering the whole plate). A lawn is needed for the antibacterial test. There is more on this in the antibacterial and antifungal investigation below.",
+        "Diagram: a Petri dish after inoculation, shown upside down in the incubator. Labels: base labelled with name, date and treatment, lid held with two short strips of tape. Beside it, a flamed inoculating loop held in a Bunsen flame."
+      ],
+      "tip": "Keep the order straight: melt, cool to about 50 °C, flame the neck, pour, then swirl and set. Pouring much hotter would kill an organism added to the agar; much cooler and the agar starts to set."
     },
     {
       "h": "General plan for every factor",
+      "b": "All six factor investigations below follow one plan: change one thing, keep everything else the same, and compare against controls. Learn this plan once and you can design any of them.",
       "points": [
-        "Aim: to investigate how a named factor affects the growth of a named microorganism.",
-        "Each investigation changes one factor, the independent variable, and measures growth after a fixed time; the dependent variable is colony count, colony diameter, percentage cover or turbidity.",
-        "Controlled variables: the same microorganism, culture and volume of inoculum on every plate; the same medium and volume of agar; and the same incubation time.",
+        "Aim: to investigate how a named factor affects the growth of a named microorganism. Each investigation changes one factor, the independent variable, and measures growth after a fixed time; the dependent variable is colony count, colony diameter, percentage cover or turbidity.",
+        "Controlled variables (kept the same so the test is fair): the same microorganism, culture and volume of inoculum (the amount of culture added) on every plate; the same medium and volume of agar; and the same incubation time.",
         "Also controlled, except when it is the factor tested: the same temperature, pH, nutrient level and water availability, and the same method of measuring.",
-        "Uninoculated control: an uninoculated plate (sterile medium only) is incubated with the others.",
-        "No growth on the uninoculated plate shows that the medium and technique were sterile, so any growth on the test plates came from the inoculum.",
-        "A reference plate with normal conditions (e.g. normal pH, no added salt, or a water disc in the antibacterial test) is compared with the tested conditions.",
-        "Replicates: set up at least three plates for each value of the factor and calculate the mean, so that one contaminated or unusual plate does not mislead.",
-        "Worked example: colony counts of 42, 38 and 46 at 25 °C give a mean of 126 ÷ 3 = 42 colonies.",
-        "Record results in a table: value of the factor, growth on each replicate, and the mean.",
-        "Plot a bar chart for categories or a line graph for a continuous factor, with mean growth on the y-axis.",
-        "Conclusion: describe the trend in the mean results and say whether they support the hypothesis.",
-        "Explain the results using the biology given for each factor, and compare them with secondary data."
-      ]
+        "Uninoculated control: an uninoculated plate (sterile medium only) is incubated with the others. No growth on it shows that the medium and technique were sterile, so any growth on the test plates came from the inoculum.",
+        "A reference plate with normal conditions (e.g. normal pH, no added salt, or a water disc in the antibacterial test) is compared with the tested conditions, so you can tell what the factor changed.",
+        "Replicates: set up at least three plates for each value of the factor and calculate the mean, so that one contaminated or unusual plate does not mislead. Worked example: colony counts of 42, 38 and 46 at 25 °C give a mean of 126 ÷ 3 = 42 colonies.",
+        "Record results in a table: value of the factor, growth on each replicate, and the mean. Plot a bar chart for categories or a line graph for a continuous factor, with mean growth on the y-axis.",
+        "Conclusion: describe the trend in the mean results and say whether they support the hypothesis. Explain the results using the biology given for each factor, and compare them with secondary data."
+      ],
+      "tip": "The uninoculated plate is the control for sterility; the water disc is the control in the disc test. Don't call the uninoculated plate a 'negative result'. Exams also ask how to keep temperature and pH constant: use an incubator or water bath, and a buffer."
     },
     {
-      "h": "Investigation: effect of temperature",
+      "h": "Investigation: effect of temperature, method",
+      "b": "Temperature changes how fast the chemical reactions inside cells run. This investigation compares growth at several temperatures, and tests high temperatures by heating the culture before plating.",
       "points": [
-        "Hypothesis: “Growth increases with temperature up to an optimum, then decreases.”",
+        "Hypothesis: “Growth increases with temperature up to an optimum, then decreases.” The optimum is the temperature at which growth is fastest.",
         "Independent variable: temperature, i.e. about 4 °C, 15 °C, 20 °C and 25 °C, plus 40 °C, 60 °C and 80 °C for the heated cultures.",
         "Step 1: inoculate identical plates with the same volume of the same culture, e.g. yeast.",
         "Step 2: incubate sets of three at about 4 °C (refrigerator), 15 °C, 20 °C (room) and 25 °C (incubator) for the same time, e.g. 2–3 days.",
         "Step 3: count the colonies or measure colony diameter.",
-        "Step 4: to test high temperatures safely, heat tubes of the culture in water baths at 40 °C, 60 °C and 80 °C (or boil one) for 10 minutes before plating them.",
-        "Step 5: incubate all the plates at 25 °C.",
-        "Expected result: little or no growth at 4 °C.",
-        "Expected result: growth increases with temperature over the range tested.",
-        "Expected result: cultures heated to about 60 °C or more grow poorly or not at all.",
-        "Explanation: growth depends on enzyme-controlled reactions, and at low temperatures molecules move slowly, so reactions and growth are slow.",
-        "Cold does not kill the cells: growth resumes when they are warmed, which is why refrigerated food still goes off slowly and frozen food starts to go off when thawed.",
-        "Above the optimum, enzymes and other proteins are denatured, so cells die (enzyme detail in “Investigation: rate of enzyme activity”).",
-        "Bacterial endospores survive higher temperatures than active cells."
-      ]
+        "Step 4: to test high temperatures safely, heat tubes of the culture in water baths at 40 °C, 60 °C and 80 °C (or boil one) for 10 minutes before plating them. Heating the culture first avoids incubating dangerously warm plates.",
+        "Step 5: incubate all the plates at 25 °C, so that the only difference between them is the heat treatment."
+      ],
+      "tip": "Exams ask how to hold temperature constant during an experiment: use an incubator or a water bath."
     },
     {
-      "h": "Investigation: effect of pH",
+      "h": "Investigation: effect of temperature, results and explanation",
+      "b": "The results fit a pattern: slow growth when cold, faster when warmer, and death when too hot. The explanation comes from enzymes, the proteins that control the reactions in cells.",
+      "points": [
+        "Expected result: little or no growth at 4 °C. Growth increases with temperature over the range tested. Cultures heated to about 60 °C or more grow poorly or not at all.",
+        "Explanation: growth depends on enzyme-controlled reactions, and at low temperatures molecules move slowly, so reactions and growth are slow.",
+        "Cold does not kill the cells: growth resumes when they are warmed, which is why refrigerated food still goes off slowly and frozen food starts to go off when thawed.",
+        "Above the optimum, enzymes and other proteins are denatured (their shape is permanently changed so they stop working), so cells die. There is more on this in Investigation: rate of enzyme activity.",
+        "Bacterial endospores survive higher temperatures than active cells, so heating that kills the active cells may leave endospores alive."
+      ],
+      "tip": "Refrigeration slows growth but doesn't kill microorganisms; boiling kills active cells but not all endospores. Only autoclaving kills endospores."
+    },
+    {
+      "h": "Investigation: effect of pH, method",
+      "b": "pH measures how acidic or alkaline a solution is (7 is neutral). This investigation grows bacteria on agar made up at different pH values to find the range they prefer.",
       "points": [
         "Hypothesis: “Bacteria grow best at about neutral pH and poorly in strongly acidic or alkaline conditions.”",
         "Independent variable: the pH of the agar or broth, e.g. 3, 5, 7, 9 and 11.",
-        "Step 1: make nutrient agar (or broth) at different pH values, e.g. 3, 5, 7, 9 and 11, by adding buffer solutions (or dilute acid or alkali, checked with a pH meter) before pouring.",
+        "Step 1: make nutrient agar (or broth) at different pH values, e.g. 3, 5, 7, 9 and 11, by adding buffer solutions (which hold the pH steady) or dilute acid or alkali, checked with a pH meter, before pouring.",
         "Step 2: inoculate each with the same volume of culture.",
         "Step 3: incubate all at the same temperature for the same time.",
-        "Step 4: measure growth.",
+        "Step 4: measure growth."
+      ],
+      "tip": "Exams ask how to keep pH constant during an experiment: use a buffer."
+    },
+    {
+      "h": "Investigation: effect of pH, results and explanation",
+      "b": "Bacteria and fungi prefer different pH ranges, and the reason lies in the proteins that run the cell. The same effect is used to preserve food.",
+      "points": [
         "Expected result: most bacteria grow best near neutral pH (about pH 6–8) and little in strongly acidic conditions.",
-        "Expected result: fungi such as yeasts and moulds tolerate, and often grow best in, slightly acidic conditions (about pH 5–6).",
-        "Repeating the investigation with a fungus and a bacterium shows this difference.",
+        "Fungi such as yeasts and moulds tolerate, and often grow best in, slightly acidic conditions (about pH 5–6). Repeating the investigation with a fungus and a bacterium shows this difference.",
         "Explanation: pH outside the optimum changes the charges on enzymes and other proteins, so their shape changes and they work slowly or are denatured.",
-        "Acid conditions are used to preserve food, e.g. pickling in vinegar.",
+        "Acid conditions are used to preserve food, e.g. pickling in vinegar, because few microorganisms grow well at low pH.",
         "Yogurt keeps longer because the lactic acid made by its bacteria lowers the pH."
       ]
     },
     {
-      "h": "Investigation: effect of nutrients",
+      "h": "Investigation: effect of nutrients, method",
+      "b": "Nutrients are the food a microorganism uses for energy and to build new cells. This investigation compares media with and without nutrients, or with increasing amounts of sugar.",
       "points": [
         "Hypothesis: “Microorganisms grow more when more nutrients are available, until another factor limits growth.”",
         "Independent variable: the nutrient content of the medium, e.g. plain agar compared with nutrient agar, or glucose at 0%, 1%, 2% and 5% for yeast.",
         "Step 1: compare plain agar (agar and water only, no nutrients) with nutrient agar; or use broths (or agar) with increasing concentrations of glucose, e.g. 0%, 1%, 2%, 5%, for yeast.",
         "Step 2: inoculate each with the same volume of yeast culture.",
         "Step 3: incubate all the plates together at the same temperature.",
-        "Step 4: measure growth by colony count or percentage cover.",
-        "Expected result: little or no growth on plain agar.",
-        "Expected result: growth increases with nutrient concentration and then levels off, as another factor, such as space or the build-up of wastes, becomes limiting.",
-        "Expected result: at very high sugar concentrations, growth falls again (see the investigation of external solute concentration below).",
-        "Explanation: nutrients supply the energy, released by respiration of sugars, and the raw materials for new cells, i.e. sugars, amino acids, minerals such as nitrate and phosphate, and vitamins.",
-        "Variation: starch agar shows that only microorganisms that secrete amylase can use starch.",
-        "Flooding the plate with iodine after incubation leaves a clear zone around such colonies, where the starch has been digested."
+        "Step 4: measure growth by colony count or percentage cover."
       ]
     },
     {
-      "h": "Investigation: effect of water",
+      "h": "Investigation: effect of nutrients, results and explanation",
+      "b": "More food means more growth, but only up to a point. The results also show a link forward to the solute investigation, because very high sugar is harmful.",
+      "points": [
+        "Expected result: little or no growth on plain agar, because there is nothing for the cells to use.",
+        "Growth increases with nutrient concentration and then levels off, as another factor, such as space or the build-up of wastes, becomes limiting (the one that stops growth rising further).",
+        "At very high sugar concentrations, growth falls again. There is more on this in Investigation: effect of external solute concentration.",
+        "Explanation: nutrients supply the energy, released by respiration of sugars, and the raw materials for new cells, i.e. sugars, amino acids, minerals such as nitrate and phosphate, and vitamins.",
+        "Variation: starch agar shows that only microorganisms that secrete amylase (the enzyme that digests starch) can use starch.",
+        "Flooding the plate with iodine after incubation leaves a clear zone around such colonies, where the starch has been digested. The rest of the plate turns dark because iodine stains starch."
+      ]
+    },
+    {
+      "h": "Investigation: effect of water, method",
+      "b": "This investigation uses bread and mould instead of agar plates. It tests whether mould needs moisture by comparing dried bread with moistened bread.",
       "points": [
         "Hypothesis: “Moulds grow only on food that is moist.”",
         "Independent variable: the water content of the bread, dried compared with moistened.",
-        "Step 1: take slices of the same bread (without preservatives); dry some fully in an oven at a low temperature and moisten others with the same volume of sterile water.",
+        "Step 1: take slices of the same bread (without preservatives, which would inhibit growth); dry some fully in an oven at a low temperature and moisten others with the same volume of sterile water.",
         "Step 2: expose each slice to the air of the same room for the same time, e.g. 30 minutes, so that mould spores land on it.",
         "Step 3: seal each in a clear plastic bag or sealed dish and label it.",
         "Step 4: keep all in the same warm, dark place, about 25 °C, for 5–7 days.",
         "Step 5: estimate the percentage cover of mould on each, using a transparent grid of squares held over the bag, e.g. 37 of 100 squares covered = 37%.",
-        "Do not open the bags.",
+        "Do not open the bags, because the spores released could be breathed in."
+      ]
+    },
+    {
+      "h": "Investigation: effect of water, results and explanation",
+      "b": "Water is essential for life, and microorganisms are no exception. The result explains why drying is an old way of keeping food.",
+      "points": [
         "Expected result: mould grows on the moist bread and not, or very little, on the dried bread.",
-        "Explanation: microorganisms need water because their enzymes work only in solution, nutrients are absorbed in solution after extracellular digestion, and water is needed for cells to grow and divide.",
+        "Explanation: microorganisms need water because their enzymes work only in solution, nutrients are absorbed in solution after extracellular digestion (digestion outside the cell), and water is needed for cells to grow and divide.",
         "Dried foods, e.g. dried fruit, pasta, powdered milk and cereals, keep for a long time for this reason.",
         "Safety: mould spores can trigger allergies and asthma, so keep the bags sealed throughout and dispose of them unopened."
       ]
     },
     {
-      "h": "Investigation: effect of external solute concentration",
+      "h": "Investigation: effect of external solute concentration, method",
+      "b": "A solute is something dissolved in water, such as salt or sugar. This investigation adds increasing amounts of solute to the agar to see what happens to growth.",
       "points": [
         "Hypothesis: “Growth decreases as the concentration of salt (or sugar) outside the cells increases.”",
         "Independent variable: the concentration of sodium chloride (salt), e.g. 0%, 2%, 5%, 10% or 20%, or of sucrose (sugar).",
         "Step 1: make nutrient agar containing increasing concentrations of sodium chloride (e.g. 0%, 2%, 5%, 10%, 20%) or of sucrose.",
         "Step 2: inoculate each with the same volume of bacterial culture.",
         "Step 3: incubate all the plates together for the same time.",
-        "Step 4: measure growth by colony count or colony diameter.",
-        "Expected result: growth decreases as the solute concentration rises, with little or no growth at the highest concentrations.",
-        "Explanation: when the solution outside a cell has a higher solute concentration, and so lower water concentration, than the cytoplasm, water leaves the cell by osmosis.",
-        "The cell then loses water, its enzymes cannot work, and it stops growing or dies.",
-        "In a very dilute solution water enters the cell, but the bacterial or fungal cell wall stops the cell bursting.",
-        "This is the basis of preserving food with salt (salted fish and bacon) and sugar (jam) (see “Osmosis in food preservation and plant health”; osmosis is explained in “Diffusion, osmosis and active transport”)."
+        "Step 4: measure growth by colony count or colony diameter."
       ]
     },
     {
-      "h": "Investigation: effect of antibacterial and antifungal chemicals: method",
+      "h": "Investigation: effect of external solute concentration, results and explanation",
+      "b": "Salt and sugar slow growth because of what they do to water movement across the cell surface. This is the basis of salting and sugaring food.",
+      "points": [
+        "Expected result: growth decreases as the solute concentration rises, with little or no growth at the highest concentrations.",
+        "Explanation: when the solution outside a cell has a higher solute concentration, and so lower water concentration, than the cytoplasm, water leaves the cell by osmosis (the movement of water across a membrane towards the more concentrated solution).",
+        "The cell then loses water, its enzymes cannot work, and it stops growing or dies.",
+        "In a very dilute solution water enters the cell, but the bacterial or fungal cell wall stops the cell bursting.",
+        "This is the basis of preserving food with salt (salted fish and bacon) and sugar (jam). There is more on this in Osmosis in food preservation and plant health."
+      ],
+      "tip": "Keep the osmosis explanation short: higher outside solute concentration, so water leaves the cells, so enzymes fail and growth stops."
+    },
+    {
+      "h": "Antibacterial and antifungal chemicals: types and aim",
+      "b": "Some chemicals stop microorganisms growing. Knowing which type acts on which group, and what the investigation sets out to show, comes before the method.",
       "points": [
         "Antibacterial chemicals kill bacteria or stop them growing: antibiotics (e.g. penicillin, streptomycin), antiseptics (used on living tissue, e.g. on skin) and disinfectants (used on surfaces and objects).",
         "Antifungal chemicals, e.g. the antifungal creams used for athlete's foot, or fungicides, act on fungi.",
-        "Antibiotics do not affect fungi, and antifungals generally do not affect bacteria, because the two groups have different structures (see “Bacteria and fungi”).",
+        "Antibiotics do not affect fungi, and antifungals generally do not affect bacteria, because the two groups have different structures. There is more on this in Bacteria and fungi.",
         "Hypothesis: “Different antiseptics (or antibiotics) inhibit the growth of a bacterium to different extents.”",
-        "Independent variable: the antibacterial or antifungal chemical on each disc; dependent variable: the diameter of the clear zone around the disc.",
+        "Independent variable: the antibacterial or antifungal chemical on each disc; dependent variable: the diameter of the clear zone around the disc."
+      ],
+      "tip": "Antibiotics act on bacteria, not fungi or viruses."
+    },
+    {
+      "h": "Investigation: antibacterial and antifungal chemicals, disc method",
+      "b": "In the disc diffusion method, paper discs soaked in chemicals are placed on a lawn of bacteria. Wherever the chemical stops growth, a clear zone appears around the disc.",
+      "points": [
         "Step 1: spread a set volume of the culture evenly over a nutrient agar plate with a sterile spreader, to make a lawn.",
         "Step 2: using sterile forceps (flamed and cooled), dip paper discs of the same size (e.g. 6 mm, cut with a hole punch and sterilised) in each chemical for the same time, drain them, and place them on the lawn, well spaced.",
-        "Step 3: include a control disc dipped in sterile distilled water.",
-        "Ready-made antibiotic discs, or a multi-disc with several antibiotics on one ring, can be used instead.",
+        "Step 3: include a control disc dipped in sterile distilled water. Ready-made antibiotic discs, or a multi-disc with several antibiotics on one ring, can be used instead.",
         "Step 4: tape and label the plate.",
         "Step 5: incubate upside down at about 25 °C for 2–3 days.",
         "Step 6: measure the diameter of the clear zone around each disc with a ruler on the base of the plate.",
         "For an antifungal chemical, make a lawn of yeast on malt agar and use discs of the antifungal, with a water control and, to show the difference in antibacterial and antifungal action, an antibiotic disc.",
-        "Diagram: a lawn plate with four discs, each labelled with its chemical, showing clear zones of inhibition of different sizes and none around the water control."
+        "Diagram: a lawn plate with four discs. Labels: each disc's chemical, clear zones of inhibition of different sizes, and no zone around the water control."
       ]
     },
     {
-      "h": "Investigation: antibacterial and antifungal chemicals: results and worked calculation",
+      "h": "Antibacterial and antifungal chemicals: results and explanation",
+      "b": "The clear zones are the result. Their size tells you how well each chemical works, and the way they form explains why.",
       "points": [
         "Expected result: a clear zone, the zone of inhibition, forms around discs whose chemical stops the bacterium growing.",
-        "Expected result: there is no clear zone around the water control.",
-        "The larger the zone, the more effective the chemical is against that organism at that concentration.",
+        "There is no clear zone around the water control, which shows that the disc and the water alone do not stop growth.",
+        "The larger the zone, the more effective the chemical is against that organism at that concentration. In other words, the bacterium is more sensitive to it.",
         "On the yeast lawn, the antifungal gives a clear zone and the antibiotic gives none.",
-        "Worked calculation: a clear zone of diameter 18 mm around a 6 mm disc.",
-        "Radius = 9 mm; area of the zone = π r² = 3.14 × 9 × 9 ≈ 254 mm².",
-        "Subtracting the disc (radius 3 mm, area ≈ 28 mm²) gives a clear area of about 226 mm².",
-        "Areas let zones be compared fairly, because doubling the diameter quadruples the area.",
         "The chemical diffuses outwards from the disc into the agar, so its concentration falls with distance; bacteria cannot grow where the concentration is high enough to kill or inhibit them.",
         "A zone's size also depends on how fast the chemical diffuses, so it is a guide to strength, not an exact measure.",
         "A bacterium that grows right up to an antibiotic disc is resistant to that antibiotic.",
-        "In hospitals the same test is used to find which antibiotic will work against the bacterium from a patient (see “Emergence and spread of infectious disease”)."
+        "In hospitals the same test is used to find which antibiotic will work against the bacterium from a patient. There is more on this in Emergence and spread of infectious disease."
+      ],
+      "tip": "A larger zone of inhibition means the bacterium is more sensitive to that chemical, not that the chemical 'grew' anything. Exams ask you to interpret zones, so compare zone sizes and link each to effectiveness."
+    },
+    {
+      "h": "Worked calculation: area of a zone of inhibition",
+      "b": "Comparing zone areas, not just diameters, is fairer. Here is the calculation for a clear zone of diameter 18 mm around a 6 mm disc.",
+      "points": [
+        "Radius = 9 mm; area of the zone = π r² = 3.14 × 9 × 9 ≈ 254 mm².",
+        "Subtracting the disc (radius 3 mm, area ≈ 28 mm²) gives a clear area of about 226 mm², which is the area where bacteria were actually stopped from growing.",
+        "Areas let zones be compared fairly, because doubling the diameter quadruples the area."
       ]
     },
     {
-      "h": "Secondary data and applications in food preservation",
+      "h": "Secondary data",
+      "b": "Your own results are primary data. A good conclusion also checks them against data collected by other people.",
       "points": [
         "Secondary data are results collected by others, e.g. other class groups, textbooks, published research or food-safety guidance.",
         "Conclusions must be supported by both primary and secondary data: compare your own results with the class's pooled results and with published findings.",
-        "Published findings include that most human pathogens grow best near body temperature and neutral pH, and that most bacteria grow little below refrigerator temperature.",
+        "Published findings include that most human pathogens grow best near body temperature and neutral pH, and that most bacteria grow little below refrigerator temperature."
+      ],
+      "tip": "Exams expect you to use secondary data to support conclusions. Say whether your results agree with the pooled class results or published findings, and what that suggests."
+    },
+    {
+      "h": "Applications in food preservation",
+      "b": "Each factor you investigated is used to keep food safe. Preserving food means stopping microorganisms growing, either by killing them or by making conditions unsuitable.",
+      "points": [
         "Temperature: refrigeration and freezing slow or stop growth but do not kill microorganisms.",
         "Heat: pasteurisation, heating milk briefly to a temperature below boiling and then cooling it quickly, kills most microorganisms.",
         "Sterilisation: canning and ultra-heat treatment (UHT) heat food enough to sterilise it, and sealing keeps microorganisms out.",
-        "Water: drying removes water.",
-        "Solute: salting and sugaring use high solute concentration.",
-        "pH: pickling uses low pH.",
+        "Water: drying removes water, which microorganisms need for their enzymes to work.",
+        "Solute: salting and sugaring use high solute concentration, which draws water out of microbial cells.",
+        "pH: pickling uses low pH."
+      ],
+      "tip": "Exams ask about applications to food preservation. For each method, name the factor it controls and say what that does to growth."
+    },
+    {
+      "h": "Applications: chemicals, oxygen, health and industry",
+      "b": "The remaining factors give further preservation methods and wider uses in hygiene and in industry.",
+      "points": [
         "Chemicals: chemical preservatives inhibit growth.",
-        "Oxygen: vacuum packing removes oxygen, slowing aerobic microorganisms.",
-        "Health and hygiene: antiseptics on wounds and skin, disinfectants on surfaces, and aseptic technique in surgery (see “Acquired immunity, prevention and treatment”).",
-        "Industry: bioreactors are kept at the optimum conditions found by such investigations to maximise growth (see “Microorganisms in industry”)."
+        "Oxygen: vacuum packing removes oxygen, slowing aerobic microorganisms (those that need oxygen to grow).",
+        "Health and hygiene: antiseptics on wounds and skin, disinfectants on surfaces, and aseptic technique in surgery. There is more on this in Acquired immunity, prevention and treatment.",
+        "Industry: bioreactors (vessels in which microorganisms are grown on a large scale) are kept at the optimum conditions found by such investigations to maximise growth."
       ]
     },
     {
       "h": "Sources of error",
+      "b": "Every fault below can make results unreliable. Each has a simple fix, and examiners like you to name both the error and the fix.",
       "points": [
         "Contamination by airborne or skin microorganisms gives colonies of a different appearance; check with the uninoculated control, and repeat with better aseptic technique.",
         "Unequal inoculum, i.e. different volumes or numbers of cells, on different plates; use a measured volume from a well-mixed culture.",

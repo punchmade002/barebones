@@ -8,18 +8,25 @@
       "h": "The heartbeat and the pacemaker",
       "b": "The heart does not wait for instructions to beat. A small patch of muscle in its own wall sets the pace and sends a wave of electrical signals that makes the chambers contract in the right order.",
       "points": [
-        "A heartbeat is one contraction and relaxation of the heart muscle, pumping blood out of the ventricles (the two lower chambers) into the arteries. An adult heart beats about 70 times a minute at rest, a normal resting range being about 60 to 100, and it does so every minute of life.",
+        "A heartbeat is one contraction and relaxation of the heart muscle, pumping blood out of the ventricles (the two lower chambers) into the arteries.",
+        "An adult heart beats about 70 times a minute at rest, a normal resting range being about 60 to 100, and it does so every minute of life.",
         "Cardiac muscle (heart muscle) is myogenic: the beat starts within the heart muscle itself, without a nerve impulse. This is why a heart removed for transplant keeps beating for a time if it is supplied with oxygenated fluid.",
         "The pacemaker is the sinoatrial node (SA node), a small patch of specialised cardiac muscle in the wall of the right atrium (an upper chamber), near where the superior vena cava (the large vein from the upper body) enters.",
-        "The SA node produces electrical impulses at regular intervals by itself. Each impulse starts one heartbeat, so the SA node sets the rate of the heartbeat.",
-        "How the impulse spreads: 1. The impulse from the SA node spreads across the walls of both atria, so the atria contract together, pushing blood into the ventricles.",
+        "The SA node produces electrical impulses at regular intervals by itself. Each impulse starts one heartbeat, so the SA node sets the rate of the heartbeat."
+      ],
+      "tip": "If asked to name the pacemaker and give its location, answer the SA node in the wall of the right atrium, not the left and not the brain. To explain how it controls the heartbeat, say it makes impulses by itself and each impulse starts one beat."
+    },
+    {
+      "h": "How the impulse spreads through the heart",
+      "b": "The impulse from the SA node does not reach every part at once. It travels in a set route with a built-in pause, which makes the atria contract first and the ventricles second.",
+      "points": [
+        "1. The impulse from the SA node spreads across the walls of both atria, so the atria contract together, pushing blood into the ventricles.",
         "2. A layer of non-conducting tissue between the atria and the ventricles stops the impulse passing straight to the ventricles, so the ventricles cannot contract too early.",
         "3. The impulse reaches the atrioventricular node (AV node), at the base of the right atrium near the septum (the wall between the two sides of the heart). The AV node delays it for a fraction of a second, giving the atria time to empty into the ventricles.",
         "4. The AV node passes the impulse down conducting fibres in the septum (the bundle of His) to the apex (the pointed lower tip of the heart), and then up through the ventricle walls (Purkinje fibres).",
         "5. The ventricles contract from the apex upwards, squeezing blood up into the aorta and pulmonary artery, the two arteries leaving the heart. The atria therefore contract before the ventricles, and the two sides beat together.",
         "Diagram: a front-view outline of the heart showing the SA node in the wall of the right atrium, the AV node near the septum, the conducting fibres down the septum and up the ventricle walls, with arrows for the spread of the impulse."
-      ],
-      "tip": "If asked to name the pacemaker and give its location, answer the SA node in the wall of the right atrium, not the left and not the brain. To explain how it controls the heartbeat, say it makes impulses by itself and each impulse starts one beat."
+      ]
     },
     {
       "h": "Control of heart rate",
@@ -46,17 +53,28 @@
         "2. Press lightly with the index and middle fingers, not the thumb, which has its own pulse, on the radial artery.",
         "3. Count the beats for 30 seconds and double the number to give beats per minute, or count for a full 60 seconds.",
         "4. Repeat three times and take the mean, which reduces the effect of any one miscount.",
-        "Exercise and pulse, a standard class investigation with primary data (data you collect yourself): measure the resting pulse; exercise, for example with step-ups for two minutes; then measure the pulse at once and every minute until it returns to the resting value. The pulse rises during exercise and falls gradually afterwards.",
-        "The time taken to return to the resting rate, the recovery time, is shorter in fitter people, who also tend to have a lower resting pulse because each beat pumps more blood.",
-        "Variables for the exercise investigation: the independent variable (the one you change) is activity level (rest, or after exercise); the dependent variable (the one you measure) is pulse rate in beats per minute. Controlled variables are the type, duration and intensity of the exercise, the same person, the same counting method and the same posture."
+        "If asked what the pulse is, say it is a wave in the artery wall, not blood flowing past your finger."
       ],
-      "tip": "If asked what the pulse is, say it is a wave in the artery wall, not blood flowing past your finger. Also remember that pulse rate equals heart rate, and that you use the fingers, never the thumb."
+      "tip": "Remember that pulse rate equals heart rate, that veins have no pulse, and that you use the fingers, never the thumb."
+    },
+    {
+      "h": "Investigation: exercise and pulse",
+      "b": "Exercise makes the muscles need more oxygen, so the heart speeds up. Measuring the pulse before and after exercise shows this, and how quickly it recovers shows how fit someone is.",
+      "points": [
+        "This is a standard class investigation with primary data (data you collect yourself). Measure the resting pulse; exercise, for example with step-ups for two minutes; then measure the pulse at once and every minute until it returns to the resting value.",
+        "The pulse rises during exercise and falls gradually afterwards. The time taken to return to the resting rate, the recovery time, is shorter in fitter people.",
+        "Fitter people also tend to have a lower resting pulse, because each beat pumps more blood.",
+        "Independent variable (the one you change): activity level (rest, or after exercise). Dependent variable (the one you measure): pulse rate in beats per minute.",
+        "Controlled variables (kept the same): the type, duration and intensity of the exercise, the same person, the same counting method and the same posture."
+      ],
+      "tip": "For the effect of exercise on pulse rate, give the rise during exercise and the gradual fall afterwards, and name the independent and dependent variables correctly."
     },
     {
       "h": "Blood pressure",
       "b": "Blood only flows round the body because the ventricles push it with force. That force, pressing on the walls of the vessels, is blood pressure, and when it stays too high it harms the body.",
       "points": [
-        "Blood pressure is the force that the blood exerts on the walls of the blood vessels, produced by the contraction of the ventricles. It is highest in the aorta and large arteries, falls as blood passes through the arterioles (small arteries) and capillaries, and is lowest in the veins and venae cavae.",
+        "Blood pressure is the force that the blood exerts on the walls of the blood vessels, produced by the contraction of the ventricles.",
+        "Pressure is highest in the aorta and large arteries, falls as blood passes through the arterioles (small arteries) and capillaries, and is lowest in the veins and venae cavae.",
         "Measurement: a sphygmomanometer, or blood pressure monitor, uses an inflatable cuff on the upper arm over the brachial artery. Pressure is given in millimetres of mercury (mmHg).",
         "Pressure is given as two numbers: the higher pressure, when the ventricles contract, and the lower pressure, when the heart relaxes between beats. A healthy young adult at rest has a value of about 120/80 mmHg.",
         "Blood pressure rises naturally during exercise or stress and falls during sleep. High blood pressure, or hypertension, means a resting value consistently at or above about 140/90 mmHg.",

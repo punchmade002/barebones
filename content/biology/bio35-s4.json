@@ -6,67 +6,87 @@
   "notes": [
     {
       "h": "What DNA sequencing is and its scale (Higher Level only)",
+      "b": "DNA is a long chain of four bases, and the order of those bases carries the genetic information. Sequencing is the technique that reads that order directly.",
       "points": [
-        "DNA sequencing is working out the exact order of the bases (A, T, C, G) along a piece of DNA.",
-        "DNA profiling only compares fragment lengths; sequencing reads every base.",
-        "The human genome contains about 3 billion base pairs and about 20,000 protein-coding genes.",
-        "The Human Genome Project (1990–2003; see “Science as a global enterprise”) produced the first reference sequence.",
-        "The first complete, gap-free human sequence, including the repeated regions that had been impossible to read, was published in 2022."
-      ]
+        "DNA sequencing is working out the exact order of the bases (A, T, C, G) along a piece of DNA, so the result is a string of letters such as TACCGTAG.",
+        "DNA profiling only compares fragment lengths, giving a banding pattern; sequencing reads every base, so it gives far more detailed information.",
+        "The human genome (all of a person's DNA) contains about 3 billion base pairs and about 20,000 protein-coding genes, which shows how large a job reading it is.",
+        "The Human Genome Project (1990–2003) produced the first reference sequence, a standard human sequence that others could be compared with. There is more on this in Science as a global enterprise.",
+        "The first complete, gap-free human sequence was published in 2022. It included the repeated regions that had been impossible to read before."
+      ],
+      "tip": "Exams ask you to distinguish sequencing from profiling. Say that sequencing reads the order of every base, while profiling only compares fragment lengths."
     },
     {
       "h": "Chain termination: the principle (Higher Level only)",
+      "b": "The standard method copies the DNA many times and stops each copy at a different point, so the copies form a ladder of fragments. Reading the ladder in order gives the sequence. This is the chain-termination method, and the steps below run from preparation to reading.",
       "points": [
-        "The method is the chain-termination method, developed by Frederick Sanger in 1977 (Sanger sequencing).",
+        "The method was developed by Frederick Sanger in 1977, and is called chain-termination or Sanger sequencing.",
         "Sanger won the Nobel Prize in Chemistry twice: in 1958 for working out the amino-acid sequence of insulin, and in 1980 (shared) for DNA sequencing.",
-        "1. Many copies of the DNA to be sequenced are made (e.g. by PCR) and separated into single strands; each strand is the template.",
-        "2. The template is mixed with a primer (which binds at the start of the region to be read), DNA polymerase, a large supply of the four normal nucleotides, and a small amount of each of four modified “terminator” nucleotides.",
+        "1. Many copies of the DNA to be sequenced are made (e.g. by PCR, which copies DNA in a machine) and separated into single strands. Each single strand is the template, the strand that will be copied.",
+        "2. The template is mixed with a primer (a short piece of DNA that binds at the start of the region to be read) and DNA polymerase (the enzyme that builds new DNA).",
+        "Also added are a large supply of the four normal nucleotides, and a small amount of each of four modified “terminator” nucleotides.",
         "A terminator nucleotide can be added to a growing strand like a normal one, but it lacks the chemical group needed to attach the next nucleotide, so once it is added the strand can grow no further.",
         "3. DNA polymerase builds new strands complementary to the template. At each position it usually adds a normal nucleotide, but occasionally, by chance, it adds a terminator, and that strand stops there.",
-        "Because there are millions of template copies, strands stop at every possible position.",
+        "Because there are millions of template copies, strands stop at every possible position, so every length of fragment is made.",
         "4. The result is a collection of DNA fragments of every length, each one nucleotide shorter than the next, and each ending in a terminator that shows which base is at its last position."
-      ]
+      ],
+      "tip": "Say that terminators are added by chance, in a small proportion at each position, which is why every length is made. Do not say the polymerase chooses to stop."
     },
     {
       "h": "Separating and reading the fragments (Higher Level only)",
+      "b": "The fragments now need to be sorted by length and their end bases identified. Once they are lined up from shortest to longest, the sequence can be read off in order.",
       "points": [
-        "5. The terminators are identified. In Sanger’s original method four separate reactions were run, each with only one kind of terminator (A, T, C or G), and run in four lanes of a gel.",
+        "5. The terminators are identified. In Sanger’s original method four separate reactions were run, each with only one kind of terminator (A, T, C or G), and loaded in four lanes of a gel, so the lane tells you the base.",
         "In the modern automated method each of the four terminators carries a different coloured fluorescent dye, so one reaction is enough and a laser reads the colour of each fragment.",
-        "6. The fragments are separated by gel electrophoresis (in a thin capillary tube in modern machines). The gel must separate fragments that differ by a single nucleotide; the shortest move furthest.",
-        "7. The sequence is read from the shortest fragment to the longest (from the bottom of the gel, furthest from the wells, upwards): the last base of each successive fragment gives the next base of the new strand. The template’s sequence is the complement of this.",
-        "Diagram: a four-lane gel labelled A, C, G, T at the top (wells, negative electrode), bands at different heights, an arrow up the side labelled “read from the bottom (shortest fragment) to the top”, and the sequence written beside it; label wells, lanes, bands, shortest and longest fragment, + and − electrodes. Also, beside it, a short template with the set of growing strands each stopped one base later than the last."
-      ]
+        "6. The fragments are separated by gel electrophoresis (in a thin capillary tube in modern machines). The gel must separate fragments that differ by a single nucleotide in length, and the shortest move furthest.",
+        "7. The sequence is read from the shortest fragment to the longest, which on a gel means from the bottom (furthest from the wells) upwards. The last base of each successive fragment gives the next base of the new strand.",
+        "The bands give the new strand, which is copied from the template. The template’s sequence is therefore the complement of what you read.",
+        "Diagram: four-lane gel, lanes labelled A, C, G, T; label wells, lanes, bands, + and − electrodes, shortest and longest fragment; arrow “read from bottom (shortest) to top”, sequence beside it. Beside it, a short template with growing strands, each stopped one base later."
+      ],
+      "tip": "Always read from the shortest fragment (bottom, furthest from the wells) to the longest. Reading top-down gives the sequence backwards. Also say whether your answer is the new strand or the template."
     },
     {
       "h": "Reading a sequencing gel: method (Higher Level only)",
+      "b": "Exam questions give you a picture of a gel and ask for the base sequence. The method is a fixed routine: start at the bottom and work upwards, one band at a time.",
       "points": [
-        "1. Find the band nearest the bottom (furthest from the wells); its lane gives the first base of the new strand.",
+        "1. Find the band nearest the bottom (furthest from the wells), because it is the shortest fragment. Its lane gives the first base of the new strand.",
         "2. Move up one band at a time, whichever lane it is in, writing down the lane letter each time.",
-        "3. Stop at the top band.",
-        "4. To give the template, write the complementary base for each (A↔T, C↔G)."
-      ]
+        "3. Stop at the top band, which is the longest fragment and gives the last base.",
+        "4. To give the template, write the complementary base for each (A↔T, C↔G), because the new strand was built to match the template."
+      ],
+      "tip": "Questions may ask for the new strand or the template. Read the question and give the correct one, using A↔T and C↔G for the complement."
     },
     {
       "h": "Worked example: reading a sequencing gel (Higher Level only)",
+      "b": "Here is the method applied to a gel with eight bands, followed by the same information as it appears on an automated machine.",
       "points": [
         "A gel has bands at eight heights. From the bottom up, the bands are in lanes T, A, C, C, G, T, A, G.",
-        "So the new strand reads TACCGTAG, and the template strand is ATGGCATC.",
+        "So the new strand reads TACCGTAG, and the template strand is ATGGCATC, found by swapping each base for its complement.",
         "Lane by lane: lane A has bands at positions 2 and 7 from the bottom; lane C at 3 and 4; lane G at 5 and 8; lane T at 1 and 6.",
-        "The shortest fragment (position 1) is one nucleotide longer than the primer; each band above is one nucleotide longer than the one below.",
-        "Automated output: the machine prints a trace of coloured peaks, one colour per base, in order of fragment length, with the base letter above each peak; it is read left to right in the same way."
+        "The shortest fragment (position 1) is one nucleotide longer than the primer; each band above is one nucleotide longer than the one below, so the position number is the fragment’s length in steps.",
+        "Automated output: the machine prints a trace of coloured peaks, one colour per base, in order of fragment length, with the base letter above each peak. It is read left to right in the same way, because the shortest fragments come first."
+      ],
+      "tip": "Check your answer by counting: eight bands give eight bases. Then write the complement base by base for the template."
+    },
+    {
+      "h": "Modern sequencing (Higher Level only)",
+      "b": "The original method reads one stretch of DNA at a time and is slow. Newer methods do the same job on a huge scale, which has changed how much DNA can be read.",
+      "points": [
+        "Newer (next-generation) methods sequence millions of short DNA fragments at the same time, then use computers to assemble the overlapping fragments into the full sequence.",
+        "They are far faster and cheaper than the original method, so whole genomes are now sequenced routinely.",
+        "The huge amount of data is stored and analysed in genome databases. There is more on this in Bioinformatics: genome databases."
       ]
     },
     {
-      "h": "Modern sequencing and its uses (Higher Level only)",
+      "h": "Uses of DNA sequencing (Higher Level only)",
+      "b": "Knowing the exact base order of DNA is useful in medicine, research and public health. Each use below depends on comparing a sequence with another one.",
       "points": [
-        "Newer (next-generation) methods sequence millions of short DNA fragments at the same time and use computers to assemble the overlapping fragments into the full sequence.",
-        "They are far faster and cheaper than the original method, so whole genomes are now sequenced routinely.",
-        "The huge amount of data is stored and analysed in genome databases (see “Bioinformatics: genome databases”).",
-        "Finding point mutations and diagnosing genetic diseases (see “Mutations”).",
-        "Choosing cancer drugs by sequencing a tumour’s DNA (see “Causes, prevention and treatment of cancer”).",
-        "Comparing the DNA of different species to work out evolutionary relationships and classification (see “Classification”).",
-        "Identifying and tracking pathogens: the genome of the virus that causes COVID-19 was sequenced and shared online in January 2020 (see “Science as a global enterprise”)."
-      ]
+        "Finding point mutations (changes to a single base) and diagnosing genetic diseases, because the sequence shows exactly which base has changed.",
+        "Choosing cancer drugs by sequencing a tumour’s DNA, so that treatment can match the changes found in that tumour.",
+        "Comparing the DNA of different species to work out evolutionary relationships and classification, since more similar sequences suggest closer relatives.",
+        "Identifying and tracking pathogens (disease-causing organisms): the genome of the virus that causes COVID-19 was sequenced and shared online in January 2020."
+      ],
+      "tip": "If asked for a use of sequencing, give one specific use with its reason, such as diagnosing a genetic disease by finding the changed base."
     }
   ],
   "keyTerms": [

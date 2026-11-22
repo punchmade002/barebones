@@ -6,114 +6,151 @@
   "notes": [
     {
       "h": "How to discuss an ethical issue",
+      "b": "Genetic technologies raise questions that experiments cannot answer, so exam answers need a method for reasoning about them. Follow the same five steps every time and you will always cover both sides and reach a conclusion.",
       "points": [
-        "1. Say what the technology does and what is new about it.",
+        "1. Say what the technology does and what is new about it, so that the reader knows exactly what is being judged.",
         "2. Identify who is affected: the person tested or treated, relatives, future children, society, other species, and the environment.",
-        "3. Give arguments for and against, linking each to a principle: autonomy and consent, doing good (beneficence), avoiding harm (non-maleficence), justice and fairness, privacy, and the precautionary principle (see “Science, scientists and society”).",
-        "4. Say what rules or safeguards exist or could be added.",
-        "5. Reach a justified conclusion.",
-        "Ethics is decided by reasoning about values informed by evidence: science says what can be done and with what risks, not whether it should be done."
-      ]
+        "3. Give arguments for and against, linking each to a principle: autonomy and consent (people decide for themselves, with full information), doing good (beneficence), avoiding harm (non-maleficence), justice and fairness, privacy, and the precautionary principle.",
+        "The precautionary principle means taking care when the risks are unknown. There is more on these principles in “Science, scientists and society”.",
+        "4. Say what rules or safeguards exist or could be added, such as laws, consent procedures or ethics committees.",
+        "5. Reach a justified conclusion, which means a decision that follows from the arguments you have given.",
+        "Ethics is decided by reasoning about values informed by evidence: science says what can be done and with what risks, not whether it should be done. This is why two people can agree on the science and still disagree on the ethics."
+      ],
+      "tip": "Every discussion needs arguments on both sides and a conclusion. Never just say “weigh the benefits against the costs” without naming them."
     },
     {
       "h": "Genetic data: what is special about it",
+      "b": "Genetic data is the information in a person’s DNA, for example a genome sequence or a test result. It raises ethical problems that ordinary personal data does not, for three reasons.",
       "points": [
-        "Genetic data is permanent: it cannot be changed like a password.",
-        "It identifies a person, it predicts some future health risks, and it is shared with relatives, so one person’s test reveals information about family members who did not consent.",
+        "Genetic data is permanent: it cannot be changed like a password, so once it is leaked the damage cannot be undone.",
+        "It identifies a person, and it predicts some future health risks, so it is both highly personal and potentially harmful if misused.",
+        "It is shared with relatives, so one person’s test reveals information about family members who did not consent.",
         "Under the EU’s General Data Protection Regulation (GDPR, applying since 2018), genetic data is a special category of personal data with extra protection."
-      ]
+      ],
+      "tip": "Use these three features (permanent, identifying and predictive, shared with relatives) as the reasons behind your arguments in any question on access to genetic data."
     },
     {
       "h": "Genetic data: health and research",
+      "b": "Researchers can learn far more about disease when they can study many people’s genomes alongside their health records. This benefit has to be set against the risks to the people who donate their data.",
       "points": [
-        "For: large databases of genomes and health records (biobanks) speed research into the causes and treatments of disease, and allow faster diagnosis of rare diseases (see “Bioinformatics: genome databases”).",
-        "Against: there is a risk of data leaks, or of re-identification of people from “anonymous” data.",
-        "Against: people must give informed consent and know how their data will be used and shared.",
-        "Against: questions arise about who profits from discoveries made with donated data."
+        "For: large databases of genomes and health records (biobanks) speed research into the causes and treatments of disease, and allow faster diagnosis of rare diseases. There is more on this in “Bioinformatics: genome databases”.",
+        "Against: there is a risk of data leaks, or of re-identification of people from “anonymous” data, because a genome is so distinctive that removing a name does not always hide who it belongs to.",
+        "Against: people must give informed consent and know how their data will be used and shared, otherwise their autonomy is not respected.",
+        "Against: questions arise about who profits from discoveries made with donated data, since the donors usually receive nothing."
       ]
     },
     {
       "h": "Genetic data: insurance and employment",
+      "b": "Insurers and employers would like to know about a person’s health risks. Genetic data could give them that knowledge, which is why laws now limit its use.",
       "points": [
         "Risk: insurers or employers could charge more or refuse people with a high genetic risk. This would be unjust, because people don’t choose their genes, and fear of it could stop people having useful tests.",
         "In Ireland the Disability Act 2005 prohibits the use of genetic test results in insurance, pensions, mortgages and employment.",
         "In the USA the Genetic Information Nondiscrimination Act (2008) protects against discrimination in health insurance and employment.",
-        "Argument on the other side: insurers say that if customers know their risk and insurers don’t, pricing becomes unfair."
-      ]
+        "Argument on the other side: insurers say that if customers know their risk and insurers don’t, pricing becomes unfair, because people at high risk could buy cover cheaply."
+      ],
+      "tip": "A good answer on access to genetic data gives the argument against insurer access (injustice, people avoiding tests) and the insurers’ side, then names the Irish law."
     },
     {
       "h": "Genetic data: forensics and national DNA databases",
+      "b": "Police can store DNA profiles (the pattern of a person’s DNA used to identify them) from crime scenes and from people they arrest. This helps solve crimes but puts a great deal of personal information in state hands.",
       "points": [
         "For: national DNA databases solve crimes, including old cases, and clear innocent people.",
         "Ireland’s database was set up under the Criminal Justice (Forensic Evidence and DNA Database System) Act 2014.",
         "Against: privacy, especially when profiles are kept of people who were arrested but never convicted.",
         "In S and Marper v United Kingdom (2008), the European Court of Human Rights ruled that the UK’s keeping of the DNA of people not convicted of any crime breached their right to privacy.",
-        "Against: groups that are policed more heavily are over-represented on databases.",
-        "Against: a match can be given too much weight in court (see “DNA profiling”)."
-      ]
+        "Against: groups that are policed more heavily are over-represented on databases, so they are more likely to be matched or wrongly suspected.",
+        "Against: a match can be given too much weight in court. There is more on this in “DNA profiling”."
+      ],
+      "tip": "Keep the ethics of DNA profiling (identifying people, here) separate from the ethics of DNA testing for disease alleles, which come in the DNA testing blocks below."
     },
     {
       "h": "Genetic data: ancestry tests and police access",
+      "b": "Millions of people send DNA to companies to learn about their ancestry. That data can be used for purposes the customer never intended, and it also exposes their relatives.",
       "points": [
-        "People send DNA to companies for ancestry tests, and may upload it to public genealogy websites.",
+        "People send DNA to companies for ancestry tests, and may upload it to public genealogy websites so that they can find relatives.",
         "In 2018 police in California identified the “Golden State Killer”, Joseph James DeAngelo, by matching crime-scene DNA with distant relatives who had uploaded their DNA to such a website.",
-        "For: serious crimes were solved. Against: the relatives never consented to police use of their DNA.",
+        "For: serious crimes were solved. Against: the relatives never consented to police use of their DNA, which shows how one person’s upload can expose others.",
         "Company data can be hacked or sold: in 2023 a data breach at the testing company 23andMe exposed the ancestry information of millions of customers."
       ]
     },
     {
       "h": "Genetic data: industry, patents and justice",
+      "b": "Developing genetic tests and treatments is expensive, and companies protect their investment with patents (legal rights to be the only seller of an invention). The question is whether a part of the human body can be owned.",
       "points": [
         "For: companies invest in genetic tests and treatments and need patents to recover the cost.",
         "Against: patenting human genes lets one company control testing and set high prices.",
-        "In 2013 the US Supreme Court ruled, in the case against Myriad Genetics, which held patents on the BRCA1 and BRCA2 genes (see “Causes, prevention and treatment of cancer”), that naturally occurring human DNA cannot be patented. After this, other laboratories began offering BRCA tests.",
-        "Justice: benefits from the genetic resources of poorer countries (e.g. crop varieties, local plants) should be shared with them."
+        "In 2013 the US Supreme Court ruled, in the case against Myriad Genetics, which held patents on the BRCA1 and BRCA2 genes (genes linked to breast cancer risk), that naturally occurring human DNA cannot be patented.",
+        "After this ruling, other laboratories began offering BRCA tests, so patent control had been keeping testing limited. There is more on BRCA genes in “Causes, prevention and treatment of cancer”.",
+        "Justice: benefits from the genetic resources of poorer countries (e.g. crop varieties, local plants) should be shared with them, rather than all the profit going to the companies that develop them."
       ]
     },
     {
       "h": "Genetic data: agriculture",
+      "b": "Genetic data is also collected on crops and farm animals, and the same questions of access and ownership arise.",
       "points": [
-        "For: genetic data on crops and livestock speeds the breeding of higher-yielding, disease-resistant varieties.",
-        "Against: control of seed varieties and their genetic data by a few large companies, and loss of traditional varieties."
+        "For: genetic data on crops and livestock speeds the breeding of higher-yielding, disease-resistant varieties, because breeders can pick out useful alleles quickly.",
+        "Against: control of seed varieties and their genetic data by a few large companies, and loss of traditional varieties, which could leave farmers dependent and food supplies less varied."
       ]
     },
     {
-      "h": "GM crops",
+      "h": "GM crops: the case for",
+      "b": "A GM (genetically modified) crop has had a gene from another organism added to its DNA. Supporters see this as a way to grow more food with less damage to the environment.",
       "points": [
-        "For: higher yields and less crop loss.",
-        "For: Bt crops need less insecticide spraying, which protects farm workers and other insects (see “Genetic engineering”).",
-        "For: crops can be modified for drought or salt tolerance, or for added nutrition (Golden Rice and vitamin A deficiency). They could help feed a growing population on less land.",
-        "Major scientific bodies have found approved GM foods to be as safe to eat as their conventional equivalents.",
-        "Against: genes can spread in pollen to wild relatives or to non-GM and organic crops nearby (gene flow).",
-        "Against: weeds have evolved resistance to the herbicide glyphosate where herbicide-tolerant crops are sprayed repeatedly, and some insect pests have evolved resistance to Bt toxins (natural selection; see “The theory of evolution by natural selection”).",
-        "Against: large areas of a single crop reduce biodiversity.",
-        "Against: patented seed must be bought each year, making farmers dependent on companies.",
-        "Against: consumers have a right to choose, so the EU requires food containing more than 0.9% GM material to be labelled.",
-        "Against: some people object that GM is unnatural (“playing God”).",
-        "Golden Rice: supporters say opposition has delayed a way to save children’s sight and lives. Opponents say vitamin A deficiency is better tackled by a more varied diet and supplements, and that its approval in the Philippines has been challenged in court."
+        "Higher yields and less crop loss, because the crop resists pests or disease or tolerates harsh conditions.",
+        "Bt crops (which make a natural insecticide, the Bt toxin) need less insecticide spraying, which protects farm workers and other insects. There is more on this in “Genetic engineering”.",
+        "Crops can be modified for drought or salt tolerance, or for added nutrition, such as Golden Rice, which is designed to help tackle vitamin A deficiency.",
+        "GM crops could help feed a growing population on less land.",
+        "Major scientific bodies have found approved GM foods to be as safe to eat as their conventional equivalents."
+      ],
+      "tip": "Don’t say GM food is dangerous, and don’t say it is proven safe in every case. State that approved GM foods have been found as safe as conventional ones, then give the arguments on each side."
+    },
+    {
+      "h": "GM crops: the case against",
+      "b": "The objections to GM crops are mostly about the environment, farmers’ independence and people’s right to choose, rather than about eating the food.",
+      "points": [
+        "Genes can spread in pollen to wild relatives or to non-GM and organic crops nearby, a process called gene flow.",
+        "Weeds have evolved resistance to the herbicide glyphosate where herbicide-tolerant crops are sprayed repeatedly, and some insect pests have evolved resistance to Bt toxins. This is natural selection: resistant individuals survive and pass on their alleles. There is more on this in “The theory of evolution by natural selection”.",
+        "Large areas of a single crop reduce biodiversity, because fewer kinds of plant and animal can live there.",
+        "Patented seed must be bought each year, making farmers dependent on companies.",
+        "Consumers have a right to choose, so the EU requires food containing more than 0.9% GM material to be labelled.",
+        "Some people object that GM is unnatural (“playing God”)."
       ]
+    },
+    {
+      "h": "GM crops: Golden Rice",
+      "b": "Golden Rice is the best-known example of a GM crop designed to help people directly, and it shows both sides of the debate clearly.",
+      "points": [
+        "Supporters say opposition has delayed a way to save children’s sight and lives, because vitamin A deficiency can cause blindness and death.",
+        "Opponents say vitamin A deficiency is better tackled by a more varied diet and supplements.",
+        "Its approval in the Philippines has been challenged in court."
+      ],
+      "tip": "Use Golden Rice as your named example in a GM crops question, and give both the supporters’ and the opponents’ arguments."
     },
     {
       "h": "GM animals",
+      "b": "Animals can also be genetically modified, either to produce more food or to help medical research. Animals feel pain and can escape, so the issues differ from those for crops.",
       "points": [
-        "For: faster-growing food animals such as AquAdvantage salmon (see “Genetic engineering”) need less feed per kilogram of food.",
-        "For: GM animals model human diseases in medical research.",
-        "Against: animal welfare (the 3Rs; see “Science, scientists and society”).",
-        "Against: risk to wild populations if GM fish escape and breed.",
+        "For: faster-growing food animals such as AquAdvantage salmon need less feed per kilogram of food. There is more on this in “Genetic engineering”.",
+        "For: GM animals model human diseases in medical research, so treatments can be studied before they are tried in people.",
+        "Against: animal welfare, judged using the 3Rs (replace, reduce, refine animal use). There is more on this in “Science, scientists and society”.",
+        "Against: risk to wild populations if GM fish escape and breed, because their modified genes could spread.",
         "Against: public unease about eating GM animals."
       ]
     },
     {
       "h": "Gene therapy and gene editing in humans",
+      "b": "Gene therapy and gene editing change the DNA of a person’s own body cells (somatic cells, those that are not eggs or sperm) to treat disease. Because the change is not inherited, the ethical issues are fewer than for germline editing.",
       "points": [
-        "For: these can treat or cure serious genetic diseases, e.g. the CRISPR treatment for sickle-cell disease approved in the UK in 2023 (see “Genetic engineering”).",
-        "For: the changes are in the patient’s body cells only, so only a consenting patient is affected.",
+        "For: these can treat or cure serious genetic diseases, e.g. the CRISPR treatment for sickle-cell disease approved in the UK in 2023. There is more on this in “Genetic engineering”.",
+        "For: the changes are in the patient’s body cells only, so only a consenting patient is affected and nothing is passed on to children.",
         "Against: long-term risks are not yet known, including edits at the wrong place in the genome.",
         "Against: treatments are extremely expensive, so access is unequal (justice)."
-      ]
+      ],
+      "tip": "Somatic changes are not inherited, but germline changes are. Say clearly which one you are discussing."
     },
     {
       "h": "Germline editing in humans",
+      "b": "Germline editing changes eggs, sperm or embryos (the germline). Every cell of the resulting person carries the change, and so do their descendants, which makes it far more controversial than somatic therapy.",
       "points": [
         "Changes to eggs, sperm or embryos would be passed to all future generations, who cannot consent.",
         "In November 2018 the scientist He Jiankui announced in China the birth of twin girls whose embryos he had edited with CRISPR to try to make them resistant to HIV.",
@@ -126,7 +163,7 @@
     },
     {
       "h": "Mitochondrial donation",
-      "b": "The technique is described in “Nuclear and non-nuclear inheritance”; the UK permitted it by law in 2015.",
+      "b": "Some serious diseases are caused by faulty mitochondrial DNA, which a child inherits from the mother’s egg. Mitochondrial donation replaces the faulty mitochondria with a donor’s healthy ones; the UK permitted it by law in 2015. There is more on the technique in “Nuclear and non-nuclear inheritance”.",
       "points": [
         "For: it lets a woman with a mitochondrial disease have a genetically related child free of that disease.",
         "For: the donor contributes only the mitochondrial DNA (37 genes), not the nuclear DNA that determines the child’s characteristics.",
@@ -134,99 +171,139 @@
         "Against: long-term safety is still being studied.",
         "Against: questions arise about the donor’s relationship to the child (the “three-parent baby”).",
         "Against: some fear it is a step towards other germline changes."
-      ]
+      ],
+      "tip": "Mitochondrial donation counts as a germline change even though it doesn’t edit a gene."
     },
     {
       "h": "DNA testing: diagnosis and carrier testing",
+      "b": "DNA testing looks for disease alleles in a person’s DNA, unlike DNA profiling, which identifies people. The ethics depend on what the test is for, so each kind is taken in turn, starting with the most straightforward.",
       "points": [
         "For: diagnostic testing confirms a diagnosis so that treatment can start.",
-        "For: carrier testing (e.g. for cystic fibrosis, common in Ireland) informs people’s choices before having children (see “Benefits and limitations of Mendelian genetics”).",
+        "For: carrier testing (finding out whether a healthy person carries one copy of a recessive disease allele, e.g. for cystic fibrosis, common in Ireland) informs people’s choices before having children. There is more on this in “Benefits and limitations of Mendelian genetics”.",
         "Against: a positive result may reveal that relatives are also carriers, raising questions about whether and how to tell them."
       ]
     },
     {
       "h": "DNA testing: predictive testing for late-onset disease",
+      "b": "Predictive testing finds out whether a healthy person will develop a disease later in life. It is most controversial when the disease has no cure.",
       "points": [
-        "Huntington’s disease is an example of a late-onset disease with no cure. It is dominant, so a child of an affected parent has a 1 in 2 risk.",
+        "Huntington’s disease is an example of a late-onset disease (one that appears in adulthood) with no cure. It is dominant, so a child of an affected parent has a 1 in 2 risk.",
         "For: predictive testing gives certainty, and the chance to plan life, career and family.",
         "Against: a positive result may cause great distress, and many people at risk choose not to be tested.",
         "Against: the right not to know (autonomy) must be respected.",
-        "Testing children is usually delayed until they can decide for themselves.",
-        "Genetic counselling before and after testing is essential."
-      ]
+        "Testing children is usually delayed until they can decide for themselves, because they cannot give informed consent and cannot be helped by knowing early.",
+        "Genetic counselling before and after testing is essential, so that people understand the choices and are supported with the result."
+      ],
+      "tip": "Huntington’s disease is a good named example for predictive testing. Make sure you include the right not to know."
     },
     {
       "h": "DNA testing: risk alleles and reproduction",
+      "b": "Some alleles only raise the chance of disease rather than guaranteeing it, and tests can also be done on embryos. Both create hard choices.",
       "points": [
-        "Testing for risk alleles (e.g. BRCA1 and BRCA2; see “Causes, prevention and treatment of cancer”): a positive result gives a raised risk, not certainty, so people face hard decisions about preventive surgery.",
-        "A negative result may give false reassurance.",
-        "Prenatal tests on the foetus and newborn screening are covered in “Prenatal and postnatal care”.",
-        "Preimplantation genetic diagnosis (PGD) tests embryos made by IVF (see “Fertility control and infertility”) so that only embryos without a serious disease allele are implanted.",
+        "Testing for risk alleles (e.g. BRCA1 and BRCA2): a positive result gives a raised risk, not certainty, so people face hard decisions about preventive surgery. There is more on this in “Causes, prevention and treatment of cancer”.",
+        "A negative result may give false reassurance, because the person can still develop the disease for other reasons.",
+        "Preimplantation genetic diagnosis (PGD) tests embryos made by IVF (in vitro fertilisation, fertilising eggs outside the body) so that only embryos without a serious disease allele are implanted. Prenatal tests on the foetus and newborn screening belong to “Prenatal and postnatal care”.",
         "For: parents avoid passing on a serious disease.",
         "Against: unused embryos are destroyed, which some people believe is wrong because an embryo has the moral status of a person.",
-        "Against: there is worry about choosing embryos for non-medical traits (sex, appearance), and concern that it devalues the lives of people living with the condition."
-      ]
+        "Against: there is worry about choosing embryos for non-medical traits (sex, appearance).",
+        "Against: concern that it devalues the lives of people living with the condition."
+      ],
+      "tip": "Exams ask about embryo testing. Give the benefit (avoiding a serious disease) and at least two objections, such as the destruction of unused embryos and choosing non-medical traits."
     },
     {
       "h": "DNA testing: direct-to-consumer tests",
+      "b": "Some companies sell genetic tests straight to the public, online, without a doctor’s involvement.",
       "points": [
-        "For: tests bought online are cheap and convenient, and respect autonomy.",
+        "For: tests bought online are cheap and convenient, and respect autonomy because people choose to find out for themselves.",
         "Against: results given without counselling may be misunderstood, and accuracy varies.",
         "Against: they may reveal unexpected family relationships, e.g. that a parent is not the biological parent.",
-        "Against: data privacy (see the ancestry tests and police access, above)."
+        "Against: data privacy, because the company holds the customer’s permanent genetic data. The ancestry tests and police access block above gives an example."
       ]
     },
     {
-      "h": "Stem cells: types and therapeutic uses",
+      "h": "Stem cells: types and sources",
+      "b": "Stem cells are the body’s raw material for growing and repairing tissue. Their ethics depend on where they come from, so first learn the types and what each can become.",
       "points": [
-        "A stem cell is an unspecialised cell that can divide by mitosis to make more stem cells, and can differentiate into specialised cell types (see “Levels of organisation”).",
+        "A stem cell is an unspecialised cell that can divide by mitosis to make more stem cells, and can differentiate (become specialised) into specialised cell types. There is more on this in “Levels of organisation”.",
         "Embryonic stem cells, from the inner cell mass of an embryo about five days old (a blastocyst), are pluripotent: they can become any type of body cell.",
         "Adult (tissue) stem cells, e.g. in bone marrow, skin and the lining of the gut, are multipotent: they can become only a few related cell types. Bone-marrow stem cells give rise to the blood cells.",
         "Induced pluripotent stem (iPS) cells are adult body cells (e.g. skin cells) reprogrammed in the laboratory, by switching on a few genes, to behave like embryonic stem cells.",
         "Shinya Yamanaka first made iPS cells (in mice) in 2006, and shared the 2012 Nobel Prize in Physiology or Medicine with John Gurdon.",
-        "iPS cells avoid the use of embryos and, made from a patient’s own cells, would not be rejected by the immune system.",
-        "Therapeutic uses: bone-marrow (stem-cell) transplants already treat leukaemia and some other blood disorders (see “Causes, prevention and treatment of cancer”).",
+        "iPS cells avoid the use of embryos and, made from a patient’s own cells, would not be rejected by the immune system, because the cells are recognised as the patient’s own."
+      ],
+      "tip": "Pluripotent (embryonic and iPS cells) and multipotent (adult stem cells) are easy to swap. Pluripotent cells can become any cell type; multipotent cells only a few related ones."
+    },
+    {
+      "h": "Stem cells: therapeutic uses",
+      "b": "Because stem cells can replace lost or damaged cells, they are used or being tested as treatments for many conditions.",
+      "points": [
+        "Bone-marrow (stem-cell) transplants already treat leukaemia and some other blood disorders. There is more on this in “Causes, prevention and treatment of cancer”.",
         "Skin grown from stem cells treats severe burns.",
         "Stem-cell treatments are being tested in clinical trials for conditions where cells are lost, e.g. Parkinson’s disease, type 1 diabetes, spinal cord injury, heart damage and some forms of blindness.",
         "Stem cells grown into tissues are used to test new drugs and to study diseases."
-      ]
+      ],
+      "tip": "If asked for a therapeutic use of stem cells, give a specific one such as bone-marrow transplants for leukaemia or skin grafts for burns."
     },
     {
       "h": "Cloning",
+      "b": "A clone is a genetically identical copy. The same laboratory method can be used for two very different purposes, depending on whether the embryo is allowed to grow into an animal.",
       "points": [
         "A clone is a genetically identical copy.",
         "Reproductive cloning makes a whole organism by somatic cell nuclear transfer: the nucleus of a body cell is put into an egg cell whose own nucleus has been removed, the egg is stimulated to divide into an embryo, and the embryo is placed in a surrogate mother.",
-        "Dolly the sheep was born on 5 July 1996 at the Roslin Institute near Edinburgh, Scotland. She was the first mammal cloned from an adult body cell (a cell from the udder).",
+        "Dolly the sheep was born on 5 July 1996 at the Roslin Institute near Edinburgh, Scotland. She was the first mammal cloned from an adult body cell (a cell from the udder), not an embryo cell.",
         "Dolly was one success from 277 attempts, and died in 2003 aged six.",
-        "Therapeutic cloning uses the same method to make an early embryo only to obtain embryonic stem cells that match the patient; the embryo is not implanted.",
+        "Therapeutic cloning uses the same method to make an early embryo only to obtain embryonic stem cells that match the patient; the embryo is not implanted, so no baby is produced.",
         "Diagram: somatic cell nuclear transfer as a flow diagram: body cell from adult A → nucleus removed; egg from female B → its nucleus removed; nucleus of A inserted into the empty egg → embryo; then two arrows: implanted in surrogate mother → clone of A (reproductive cloning), or grown in the laboratory → embryonic stem cells → specialised cells for the patient (therapeutic cloning)."
+      ],
+      "tip": "Therapeutic cloning does not produce a baby; reproductive cloning does. Dolly was not the first cloned animal of any kind, only the first mammal cloned from an adult cell. Don’t confuse cloning with genetic engineering."
+    },
+    {
+      "h": "Embryonic stem cells: the ethical issues",
+      "b": "Embryonic stem cells are the most promising kind, but getting them means destroying an embryo. This is the central disagreement in the stem-cell debate.",
+      "points": [
+        "For: they have the potential to treat many serious diseases and relieve great suffering (beneficence).",
+        "For: the embryos used are often spare embryos from IVF that would otherwise be discarded.",
+        "Against: obtaining the cells destroys an embryo, which those who believe life begins at fertilisation regard as killing a human being.",
+        "Against: there is concern about creating embryos for research."
       ]
     },
     {
-      "h": "Stem cells and cloning: the ethical issues",
+      "h": "Adult and iPS stem cells: the ethical issues",
+      "b": "Adult stem cells and iPS cells largely avoid the embryo issue, but they have their own concerns.",
       "points": [
-        "Embryonic stem cells, for: they have the potential to treat many serious diseases and relieve great suffering (beneficence).",
-        "Embryonic stem cells, for: the embryos used are often spare embryos from IVF that would otherwise be discarded.",
-        "Embryonic stem cells, against: obtaining the cells destroys an embryo, which those who believe life begins at fertilisation regard as killing a human being.",
-        "Embryonic stem cells, against: there is concern about creating embryos for research.",
-        "Adult and iPS cells largely avoid the embryo issue, but have their own concerns: iPS cells may carry a risk of tumours.",
+        "iPS cells may carry a risk of tumours.",
         "Unproven “stem-cell clinics” sell untested, expensive and sometimes harmful treatments to desperate patients.",
-        "Consent is needed from donors of cells and tissues.",
-        "Reproductive cloning in animals, for: copying valuable farm animals or conserving endangered species.",
-        "Reproductive cloning in animals, against: low success rates, many failed pregnancies and animal suffering, and clones’ health problems (animal welfare).",
+        "Consent is needed from donors of cells and tissues."
+      ]
+    },
+    {
+      "h": "Reproductive cloning: the ethical issues",
+      "b": "Reproductive cloning produces a living animal or, in principle, a person. The arguments differ a great deal between animals and humans.",
+      "points": [
+        "In animals, for: copying valuable farm animals or conserving endangered species.",
+        "In animals, against: low success rates, many failed pregnancies and animal suffering, and clones’ health problems (animal welfare).",
         "Reproductive cloning in humans is almost universally rejected, because of the risk of serious abnormality, the clone’s identity and individuality, and the use of people as means to an end.",
         "It is prohibited by the Charter of Fundamental Rights of the European Union.",
-        "Research fraud has also damaged trust in this field (the Hwang Woo-suk case, see “Science as a global enterprise”).",
-        "Therapeutic cloning, for: it produces stem cells that exactly match the patient, so there is no rejection.",
-        "Therapeutic cloning, against: embryos are created to be destroyed.",
-        "Therapeutic cloning, against: it needs many donated eggs, and egg donation carries health risks and could exploit poor women if they are paid.",
-        "Therapeutic cloning, against: it may make reproductive cloning easier."
+        "Research fraud has also damaged trust in this field (the Hwang Woo-suk case). There is more on this in “Science as a global enterprise”."
       ]
+    },
+    {
+      "h": "Therapeutic cloning: the ethical issues",
+      "b": "Therapeutic cloning aims to make stem cells genetically matched to a patient, but it raises the embryo issue again and adds a new problem about eggs.",
+      "points": [
+        "For: it produces stem cells that exactly match the patient, so there is no rejection.",
+        "Against: embryos are created to be destroyed.",
+        "Against: it needs many donated eggs, and egg donation carries health risks and could exploit poor women if they are paid.",
+        "Against: it may make reproductive cloning easier."
+      ],
+      "tip": "In a question on stem cells and cloning, distinguish embryonic from adult stem cells and reproductive from therapeutic cloning, then give arguments on both sides and a conclusion."
     },
     {
       "h": "Bringing it together",
+      "b": "The separate issues above keep returning to the same few principles, which is why they make a good checklist for any new genetic technology.",
       "points": [
-        "Common threads in all these issues: consent (including that of relatives and future generations, who cannot consent); privacy of permanent, shared genetic information; fair access to expensive technologies (justice); the precautionary principle where long-term effects are unknown; and the need for laws and independent ethics committees to keep up with fast-changing technology."
+        "Common threads in all these issues: consent (including that of relatives and future generations, who cannot consent); privacy of permanent, shared genetic information; and fair access to expensive technologies (justice).",
+        "Two more threads: the precautionary principle where long-term effects are unknown, and the need for laws and independent ethics committees to keep up with fast-changing technology."
       ]
     }
   ],

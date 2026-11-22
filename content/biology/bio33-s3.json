@@ -6,182 +6,302 @@
   "notes": [
     {
       "h": "Why microorganisms are used in industry",
+      "b": "Industry needs living things that work fast, cheaply and in a controlled space. Microorganisms (bacteria, yeasts and other fungi, and microscopic organisms such as protists) fit that need better than any plant or animal.",
       "points": [
         "Biotechnology is the use of living organisms or their parts, such as cells and enzymes, to make useful products or provide services.",
-        "Microorganisms are the most used organisms in biotechnology.",
-        "Microorganisms reproduce very rapidly: some bacteria divide every 20 minutes in ideal conditions, so large amounts of product are made quickly.",
-        "They can be grown on cheap nutrients, including waste materials from other industries, e.g. whey from cheese-making and molasses from sugar refining.",
-        "They can be grown in any climate or season in a controlled vessel that takes little space.",
-        "They carry out a huge range of chemical reactions at low temperatures and normal pressure, saving energy compared with chemical manufacture.",
-        "They are easy to modify genetically, so they can be made to produce human proteins (see “Genetic engineering”).",
-        "Many secrete their products into the medium, which makes the products easier to collect.",
-        "Products are either the cells themselves (e.g. yeast for baking, mycoprotein for food), substances the cells make (e.g. ethanol, antibiotics, enzymes, insulin), or changes the cells make to a material (e.g. milk to yogurt, slurry to biogas, sewage treatment)."
+        "Microorganisms are the most used organisms in biotechnology, for the six reasons that follow.",
+        "They reproduce very rapidly: some bacteria divide every 20 minutes in ideal conditions, so large amounts of product are made quickly.",
+        "They can be grown on cheap nutrients, including waste materials from other industries, such as whey from cheese-making and molasses (the dark syrup left over) from sugar refining.",
+        "They can be grown in any climate or season, in a controlled vessel that takes little space, so production does not depend on the weather or on farmland.",
+        "They carry out a huge range of chemical reactions at low temperatures and normal pressure, which saves energy compared with chemical manufacture.",
+        "They are easy to modify genetically, so they can be made to produce human proteins. There is more on this in Genetic engineering.",
+        "Many secrete their products into the medium (the liquid they grow in), which makes the products easier to collect."
+      ],
+      "tip": "A common question asks you to name a product made by a microorganism in industry. Have a few ready from the later blocks, such as ethanol, penicillin, insulin or mycoprotein."
+    },
+    {
+      "h": "The three kinds of industrial product",
+      "b": "What a company gets out of a microorganism falls into three groups. Being able to say which group an example belongs to makes it easy to give a named example in an answer.",
+      "points": [
+        "The cells themselves are the product, for example yeast for baking and mycoprotein (protein from a fungus) for food.",
+        "Substances the cells make are the product, for example ethanol, antibiotics, enzymes and insulin.",
+        "Changes the cells make to a material are the product, for example milk turned to yogurt, slurry (animal waste) turned to biogas, and sewage treatment."
       ]
     },
     {
-      "h": "Bioreactors",
+      "h": "Bioreactors: the vessel and what goes in",
+      "b": "To get useful amounts of product, microorganisms are grown in a purpose-built vessel where every condition can be controlled. The first half of the design is the vessel itself and how food, oxygen and mixing reach the cells.",
       "points": [
-        "A bioreactor, or fermenter, is a vessel in which microorganisms, cells or enzymes are grown or used on a large scale under carefully controlled conditions to make a product (enzyme bioreactors are in “Industrial enzymes”).",
-        "The vessel is made of stainless steel: it is strong, does not corrode, and is easy to sterilise with steam.",
-        "Inlets allow sterile nutrient medium and the inoculum, a pure starter culture, to enter the vessel.",
-        "A sterile air supply is bubbled in at the bottom through a sparger, giving oxygen to aerobic microorganisms; the air is filtered so that no contaminating microorganisms enter.",
-        "A motor-driven stirrer (impeller) keeps the cells, nutrients and oxygen evenly mixed and spreads heat.",
-        "A water jacket, or cooling coils, with cold water flowing through it removes the heat released by the microorganisms' respiration, keeping the temperature at the optimum.",
+        "A bioreactor, or fermenter, is a vessel in which microorganisms, cells or enzymes are grown or used on a large scale under carefully controlled conditions to make a product. There is more on enzyme bioreactors in Industrial enzymes.",
+        "The vessel is made of stainless steel because it is strong, does not corrode, and is easy to sterilise with steam.",
+        "Inlets allow sterile nutrient medium and the inoculum, a pure starter culture of the microorganism, to enter the vessel.",
+        "A sterile air supply is bubbled in at the bottom through a sparger (a device that breaks the air into fine bubbles), giving oxygen to aerobic microorganisms. The air is filtered so that no contaminating microorganisms enter.",
+        "A motor-driven stirrer (impeller) keeps the cells, nutrients and oxygen evenly mixed, so no cell is starved, and it spreads heat evenly.",
+        "A water jacket, or cooling coils, with cold water flowing through it removes the heat released by the microorganisms' respiration, keeping the temperature at the optimum (the best temperature for growth)."
+      ],
+      "tip": "If asked what a bioreactor is, give both parts of the idea: a vessel used on a large scale, and carefully controlled conditions. For any part you name, also give its function."
+    },
+    {
+      "h": "Bioreactors: monitoring, outlets and the diagram",
+      "b": "The second half of the design keeps conditions steady while the culture grows and lets the product out. A computer watches the sensors, so the conditions stay at the optimum without constant manual checking.",
+      "points": [
         "Probes monitor temperature, pH, dissolved oxygen and foam level, and are linked to a computer.",
-        "Inlets for acid or alkali correct the pH.",
-        "A gas outlet releases CO₂ and excess air.",
+        "Inlets for acid or alkali correct the pH when the probes show it drifting from the optimum.",
+        "A gas outlet releases CO₂ (made by the cells' respiration) and excess air.",
         "An outlet at the base, the harvest tap, removes the culture and product.",
-        "Before use, the vessel, pipes and medium are sterilised with steam, so that no contaminating microorganisms compete with the culture, use up nutrients or spoil the product.",
-        "This is aseptic technique on an industrial scale.",
-        "Downstream processing: the product is separated from the cells and medium by filtering or centrifuging, then purified, concentrated and packaged.",
-        "If the product is inside the cells, the cells are first broken open.",
         "Diagram: a labelled bioreactor showing the vessel, nutrient and inoculum inlets, sterile air inlet and sparger, stirrer and motor, water jacket with cold water in and warm water out, temperature, pH and oxygen probes, acid/alkali inlet, gas outlet and harvest outlet."
+      ],
+      "tip": "You may be asked to draw and label a bioreactor. Each label needs to be in the right place, and it helps to add a few words on what each part does."
+    },
+    {
+      "h": "Keeping a bioreactor sterile, and downstream processing",
+      "b": "A bioreactor must contain only the chosen microorganism, and once the product is made it still has to be separated and purified before it can be used.",
+      "points": [
+        "Before use, the vessel, pipes and medium are sterilised with steam, so that no contaminating microorganisms compete with the culture, use up nutrients or spoil the product.",
+        "This is aseptic technique (working so that unwanted microorganisms are kept out) on an industrial scale.",
+        "Downstream processing is everything done after the product is made: it is separated from the cells and medium by filtering or centrifuging (spinning at high speed), then purified, concentrated and packaged.",
+        "If the product is inside the cells, the cells are first broken open so that it can be released."
       ]
     },
     {
-      "h": "Pharmaceutical industry",
+      "h": "Pharmaceutical industry: antibiotics",
+      "b": "The pharmaceutical industry makes medicines, and microorganisms are the source of many of them. Antibiotics were the first big example and are still among the most important.",
       "points": [
-        "Antibiotics are chemicals made by microorganisms that kill or inhibit bacteria.",
-        "Penicillin is made by the fungus Penicillium; Alexander Fleming discovered its effect in 1928, and Howard Florey and Ernst Chain purified it and showed it cured infections from 1940 (see “Science, scientists and society”).",
-        "Penicillium is now grown in bioreactors, using strains selected and mutated to give far more penicillin than the original.",
-        "Streptomycin, tetracycline and many other antibiotics are made by soil bacteria of the genus Streptomyces.",
-        "The gene for human insulin is inserted into bacteria (E. coli) or yeast, which are grown in bioreactors; the insulin is then extracted and purified.",
+        "Antibiotics are chemicals made by microorganisms that kill or inhibit bacteria. They do not work on viruses.",
+        "Penicillin is made by the fungus Penicillium, not a bacterium. Alexander Fleming discovered its effect in 1928, and Howard Florey and Ernst Chain purified it and showed it cured infections from 1940.",
+        "Penicillium is now grown in bioreactors, using strains selected and mutated to give far more penicillin than the original, which makes large-scale production possible.",
+        "Streptomycin, tetracycline and many other antibiotics are made by soil bacteria of the genus Streptomyces."
+      ],
+      "tip": "Remember that penicillin comes from a fungus (Penicillium) while streptomycin comes from bacteria (Streptomyces). Antibiotics do not work against viruses."
+    },
+    {
+      "h": "Pharmaceutical industry: insulin, other medicines and vaccines",
+      "b": "Genetic engineering lets bacteria and yeast make human medicines that once had to be taken from other sources. Vaccines also depend on microorganisms grown in culture.",
+      "points": [
+        "The gene for human insulin is inserted into bacteria (E. coli) or yeast, which are grown in bioreactors. The insulin is then extracted and purified.",
         "Human insulin was the first genetically engineered medicine approved for use, in 1982.",
-        "Before that, people with diabetes injected insulin extracted from the pancreases of pigs and cattle, which was in shorter supply and caused allergic reactions in some people (see “Genetic engineering”).",
+        "Before that, people with diabetes injected insulin extracted from the pancreases of pigs and cattle, which was in shorter supply and caused allergic reactions in some people.",
         "Human growth hormone, for children who make too little, is made by genetically modified bacteria.",
-        "The hepatitis B vaccine is made by genetically modified yeast, which produces a hepatitis B virus surface protein (the antigen) without the virus.",
-        "Other vaccines contain killed or weakened microorganisms grown in culture (see “Acquired immunity, prevention and treatment”)."
-      ]
+        "The hepatitis B vaccine is made by genetically modified yeast, which produces a hepatitis B virus surface protein (the antigen, the part the immune system learns to recognise) without the virus.",
+        "Other vaccines contain killed or weakened microorganisms grown in culture. There is more on this in Acquired immunity, prevention and treatment."
+      ],
+      "tip": "For insulin, name the microorganism (E. coli or yeast) and say the human gene is inserted. How the gene is inserted is not needed here."
     },
     {
       "h": "Medical uses",
+      "b": "In hospitals and clinics, microorganisms and the enzymes and toxins they make are used to diagnose disease and to treat it.",
       "points": [
         "Diagnosis: the enzyme glucose oxidase, made by the fungus Aspergillus niger, is used in the test strips with which people with diabetes measure their blood glucose.",
-        "Diagnosis: Taq polymerase, a heat-stable enzyme from the bacterium Thermus aquaticus, which lives in hot springs, is used in PCR.",
-        "PCR detects pathogens, e.g. in COVID-19 tests, and is used in DNA profiling (see “Generating a DNA profile”).",
-        "Treatment: faecal microbiota transplant, in which gut microorganisms from a healthy donor are placed in a patient's gut, is used to treat repeated infections with the bacterium Clostridioides difficile that antibiotics have failed to clear (see “The microbiome”).",
-        "Treatment: probiotics, live microorganisms taken as food or supplements, are used to try to restore gut microorganisms after antibiotics; the evidence is mixed (see “The microbiome”).",
-        "Treatment: the toxin of the bacterium Clostridium botulinum, in tiny purified doses (botulinum toxin, “Botox”), relaxes overactive muscles and is used to treat some muscle spasms and other conditions.",
-        "Medicines and vaccines are made in the pharmaceutical industry, so the medical uses here are those in diagnosis and treatment in hospitals and clinics."
-      ]
+        "Diagnosis: Taq polymerase, a heat-stable enzyme from the bacterium Thermus aquaticus, which lives in hot springs, is used in PCR (a method that copies DNA) because it is not destroyed by the high temperatures PCR needs.",
+        "PCR detects pathogens, for example in COVID-19 tests, and is used in DNA profiling.",
+        "Treatment: faecal microbiota transplant, in which gut microorganisms from a healthy donor are placed in a patient's gut, is used to treat repeated infections with the bacterium Clostridioides difficile that antibiotics have failed to clear.",
+        "Treatment: probiotics, live microorganisms taken as food or supplements, are used to try to restore gut microorganisms after antibiotics; the evidence is mixed.",
+        "Treatment: the toxin of the bacterium Clostridium botulinum, in tiny purified doses (botulinum toxin, Botox), relaxes overactive muscles and is used to treat some muscle spasms and other conditions.",
+        "Medicines and vaccines are made in the pharmaceutical industry, so the medical uses here are those in diagnosis and treatment in hospitals and clinics. The two headings overlap."
+      ],
+      "tip": "Glucose oxidase and Taq polymerase are enzymes from microorganisms; you only need to name their source and use here. For a discussion answer, either the pharmaceutical or the medical heading is acceptable."
     },
     {
-      "h": "Agricultural industry",
+      "h": "Agricultural industry: crops and plant growth",
+      "b": "Soil microorganisms can feed crops, protect them from insects and even carry new genes into them. Each use cuts the need for chemicals or improves the crop.",
       "points": [
-        "Nitrogen fixation: seeds of legumes such as clover, peas and beans can be coated with nitrogen-fixing bacteria (Rhizobium) before sowing.",
-        "The crop then forms root nodules and needs less nitrogen fertiliser (mutualism in “Biotic factors and relationships”).",
-        "Biological pest control: the soil bacterium Bacillus thuringiensis (Bt) makes a protein that is toxic to the larvae of certain insects, e.g. caterpillars, but harmless to humans and most other animals.",
-        "Bt is sprayed on crops as a biopesticide.",
-        "The Bt toxin gene has been put into some genetically modified crops, e.g. Bt maize, which then make their own insecticide.",
-        "Genetic modification of plants: the soil bacterium Agrobacterium tumefaciens naturally transfers part of a plasmid into plant cells.",
-        "Biotechnologists use Agrobacterium as a vector to insert useful genes into crop plants (see “Genetic engineering”).",
+        "Nitrogen fixation (turning nitrogen gas from the air into a form plants can use): seeds of legumes such as clover, peas and beans can be coated with nitrogen-fixing bacteria (Rhizobium) before sowing.",
+        "The crop then forms root nodules and needs less nitrogen fertiliser. This is mutualism, a partnership in which both organisms benefit.",
+        "Biological pest control: the soil bacterium Bacillus thuringiensis (Bt) makes a protein that is toxic to the larvae of certain insects, for example caterpillars, but harmless to humans and most other animals.",
+        "Bt is sprayed on crops as a biopesticide (a pesticide made from a living organism).",
+        "The Bt toxin gene has been put into some genetically modified crops, for example Bt maize, which then make their own insecticide.",
+        "Genetic modification of plants: the soil bacterium Agrobacterium tumefaciens naturally transfers part of a plasmid (a small ring of DNA) into plant cells.",
+        "Biotechnologists use Agrobacterium as a vector (a carrier) to insert useful genes into crop plants."
+      ],
+      "tip": "Learn one named bacterium for each use: Rhizobium for nitrogen fixation, Bacillus thuringiensis for pest control and Agrobacterium tumefaciens for putting genes into plants. How a gene is put into a plasmid is not needed here."
+    },
+    {
+      "h": "Agricultural industry: silage, biogas and compost",
+      "b": "Farms produce large amounts of plant and animal waste. Microorganisms turn these into winter feed, energy and soil improver.",
+      "points": [
         "Silage: grass stored airtight, in a pit covered with plastic or in wrapped bales, is fermented by lactic acid bacteria, which convert its sugars to lactic acid.",
-        "The low pH stops other microorganisms rotting the silage, so it keeps as winter feed for cattle and sheep; silage-making is widespread on Irish farms.",
+        "The low pH stops other microorganisms rotting the silage, so it keeps as winter feed for cattle and sheep. Silage-making is widespread on Irish farms.",
         "Anaerobic digestion: animal slurry, food waste and crop waste are broken down by microorganisms in sealed tanks without oxygen.",
-        "Methane-producing microorganisms (archaea) produce biogas, which is mainly methane and is burned for heat or electricity; the remaining digestate is spread as fertiliser.",
-        "Composting: aerobic decomposition of plant waste by bacteria and fungi produces compost, which returns humus and minerals to soil."
+        "Methane-producing microorganisms (archaea, a group of single-celled organisms) produce biogas, which is mainly methane and is burned for heat or electricity. The remaining digestate is spread as fertiliser.",
+        "Composting: aerobic decomposition (breakdown using oxygen) of plant waste by bacteria and fungi produces compost, which returns humus and minerals to soil."
       ]
     },
     {
-      "h": "Food production industry",
+      "h": "Food production industry: bread, beer and wine",
+      "b": "Yeast is a fungus that ferments sugar, which means it breaks it down without oxygen to make ethanol and CO₂. Bakers and brewers use the two products for different purposes.",
       "points": [
         "Bread: baker's yeast (Saccharomyces cerevisiae) ferments sugars in dough, producing CO₂, which makes the dough rise.",
-        "The ethanol evaporates during baking (see “Respiration as a catabolic process”).",
-        "Beer and wine: yeast ferments the sugars in malted barley (beer) or grape juice (wine) to ethanol and CO₂, under anaerobic conditions.",
-        "Yogurt: milk is pasteurised, cooled and inoculated with lactic acid bacteria, e.g. Lactobacillus and Streptococcus species.",
-        "The inoculated milk is incubated warm, at about 40–45 °C, for several hours.",
-        "The bacteria ferment lactose to lactic acid, which lowers the pH, making the milk proteins thicken and giving the sour taste.",
-        "The low pH also preserves the yogurt.",
-        "Cheese: lactic acid bacteria sour the milk, and rennet clots it into curds; chymosin, the main ingredient of rennet, is now mostly made by genetically modified microorganisms (see “Industrial enzymes”).",
-        "Bacteria and moulds ripen the cheese and develop its flavour; the blue veins of blue cheeses are the mould Penicillium roqueforti.",
-        "Mycoprotein: the fungus Fusarium venenatum is grown in large continuous fermenters on glucose and mineral salts.",
-        "Its hyphae are harvested, heated and pressed to make mycoprotein, sold as Quorn, a high-protein, high-fibre, low-fat meat substitute.",
+        "The ethanol made in the dough evaporates during baking.",
+        "Beer and wine: yeast ferments the sugars in malted barley (beer) or grape juice (wine) to ethanol and CO₂, under anaerobic conditions (without oxygen)."
+      ],
+      "tip": "Only the products of fermentation are needed here: CO₂ for bread, and ethanol and CO₂ for beer and wine. The steps of fermentation belong to a different topic."
+    },
+    {
+      "h": "Food production industry: yogurt and cheese",
+      "b": "Lactic acid bacteria ferment the sugar in milk to lactic acid. The acid changes the milk's texture and taste, and it also helps to keep the food from spoiling.",
+      "points": [
+        "Yogurt: milk is pasteurised (heated to kill unwanted microorganisms), cooled and inoculated with lactic acid bacteria, for example Lactobacillus and Streptococcus species.",
+        "The inoculated milk is incubated warm, at about 40–45 °C, for several hours, which is the temperature range that suits these bacteria.",
+        "The bacteria ferment lactose (the sugar in milk) to lactic acid, which lowers the pH, making the milk proteins thicken and giving the sour taste.",
+        "The low pH also preserves the yogurt, because few spoilage microorganisms grow in acid.",
+        "Cheese: lactic acid bacteria sour the milk, and rennet clots it into curds (the solid part of milk). Chymosin, the main ingredient of rennet, is now mostly made by genetically modified microorganisms.",
+        "Bacteria and moulds ripen the cheese and develop its flavour; the blue veins of blue cheeses are the mould Penicillium roqueforti."
+      ],
+      "tip": "A yogurt answer is worth more if you give the order: pasteurise, inoculate, incubate warm, then lactose is fermented to lactic acid, which lowers the pH."
+    },
+    {
+      "h": "Food production industry: mycoprotein and other foods",
+      "b": "Microorganisms are grown as food themselves, and they also make flavourings and preservatives.",
+      "points": [
+        "Mycoprotein: the fungus Fusarium venenatum is grown in large continuous fermenters (vessels fed continuously) on glucose and mineral salts.",
+        "Its hyphae (the thread-like cells of a fungus) are harvested, heated and pressed to make mycoprotein, sold as Quorn, a high-protein, high-fibre, low-fat meat substitute.",
         "Vinegar is made when bacteria (Acetobacter) oxidise the ethanol in wine, cider or beer to acetic (ethanoic) acid.",
         "Soy sauce is made by fermenting soya beans and wheat with the mould Aspergillus oryzae.",
         "Citric acid, a flavouring and preservative in soft drinks, is made by the mould Aspergillus niger."
-      ]
+      ],
+      "tip": "Mycoprotein is a good example of the cells themselves being the product, and of continuous culture."
     },
     {
       "h": "Other industries",
+      "b": "Microorganisms are also used outside medicine and food, wherever waste has to be broken down or a fuel made.",
       "points": [
-        "Sewage treatment: in the secondary stage, aerobic bacteria and protists in aerated tanks (activated sludge) feed on the organic matter in sewage, so the water can be returned to rivers without causing oxygen depletion; the sludge can be anaerobically digested to biogas.",
-        "Bioremediation: microorganisms that break down pollutants, e.g. bacteria that digest oil, are used to clean up oil spills and contaminated land.",
-        "Biofuels: yeast ferments sugars from crops, e.g. sugar cane or maize, to ethanol, which is blended with petrol (see “Climate change and biological strategies”)."
+        "Sewage treatment: in the secondary stage, aerobic bacteria and protists in aerated tanks (activated sludge) feed on the organic matter in sewage, so the water can be returned to rivers without causing oxygen depletion. The sludge can be anaerobically digested to biogas.",
+        "Bioremediation (using living organisms to clean up pollution): microorganisms that break down pollutants, for example bacteria that digest oil, are used to clean up oil spills and contaminated land.",
+        "Biofuels: yeast ferments sugars from crops, for example sugar cane or maize, to ethanol, which is blended with petrol. There is more on this in Climate change and biological strategies."
       ]
     },
     {
-      "h": "Discussing the importance of microorganisms in industry",
+      "h": "Importance of microorganisms in industry: health",
+      "b": "When you are asked to discuss importance, give benefits and limits side by side. In health, microorganisms have transformed treatment, but they have also created a serious problem.",
       "points": [
-        "Health, for: antibiotics have made most bacterial infections curable and have made surgery much safer.",
-        "Health, for: insulin, vaccines and other medicines from microorganisms are cheap, pure and available in large amounts.",
-        "Health, for: human insulin from microorganisms avoids reliance on animal pancreases and the reactions some people had to animal insulin.",
-        "Health, against: overuse of antibiotics in medicine and in farm animals has selected for resistant bacteria, so some antibiotics no longer work (see “Emergence and spread of infectious disease”).",
-        "Health, against: new antibiotics are expensive and slow to develop.",
-        "Food and agriculture, for: fermentation preserves food and creates many foods.",
-        "Food and agriculture, for: mycoprotein and other microbial protein need far less land and water than livestock.",
-        "Food and agriculture, for: biopesticides and Rhizobium inoculants reduce the use of chemical pesticides and fertilisers, and silage gives winter feed.",
-        "Food and agriculture, against: genetically modified microorganisms and crops raise concerns about safety, the environment and who controls the technology (see “Ethics of genetic technologies”).",
-        "Food and agriculture, against: insects can evolve resistance to the Bt toxin, and some people object to GM ingredients.",
-        "Environment and economy, for: microorganisms turn wastes, such as whey, slurry, sewage and food waste, into useful products, reducing pollution.",
-        "Environment and economy, for: biogas and bioethanol are renewable energy, and biological processes run at low temperatures, using less energy than chemical manufacture.",
-        "Environment and economy, for: biotechnology and pharmaceutical manufacturing are major employers and exporters in Ireland.",
-        "Environment and economy, against: bioreactors need sterile conditions, energy for stirring and cooling, and careful disposal of waste culture.",
-        "Environment and economy, against: contamination of a batch can waste the whole product, and growing crops for biofuel uses land that could grow food.",
-        "Judgement: on balance, microorganisms are essential to modern medicine, food production and waste treatment, and their importance is growing as biotechnology replaces fossil-fuel-based chemical processes (see “The cross-cutting themes” on health, sustainability and technology).",
-        "This judgement holds provided that antibiotic use and genetic modification are regulated."
+        "For: antibiotics have made most bacterial infections curable and have made surgery much safer.",
+        "For: insulin, vaccines and other medicines from microorganisms are cheap, pure and available in large amounts.",
+        "For: human insulin from microorganisms avoids reliance on animal pancreases and the reactions some people had to animal insulin.",
+        "Against: overuse of antibiotics in medicine and in farm animals has selected for resistant bacteria, so some antibiotics no longer work. There is more on this in Emergence and spread of infectious disease.",
+        "Against: new antibiotics are expensive and slow to develop, so resistant bacteria cannot easily be replaced with new treatments."
+      ],
+      "tip": "Exams ask you to discuss the importance of microorganisms in industry with named examples. Pair each benefit with a limit and name the example, such as penicillin or insulin."
+    },
+    {
+      "h": "Importance of microorganisms in industry: food and agriculture",
+      "b": "Microorganisms help farmers and food producers, but the genetic technology involved raises concerns for some people.",
+      "points": [
+        "For: fermentation preserves food and creates many foods.",
+        "For: mycoprotein and other microbial protein need far less land and water than livestock.",
+        "For: biopesticides and Rhizobium inoculants reduce the use of chemical pesticides and fertilisers, and silage gives winter feed.",
+        "Against: genetically modified microorganisms and crops raise concerns about safety, the environment and who controls the technology. There is more on this in Ethics of genetic technologies.",
+        "Against: insects can evolve resistance to the Bt toxin, and some people object to GM (genetically modified) ingredients."
       ]
     },
     {
-      "h": "The growth curve and its phases (Higher Level only)",
+      "h": "Importance of microorganisms in industry: environment and economy",
+      "b": "Microorganisms can reduce pollution and energy use, but running them at industrial scale has costs of its own.",
+      "points": [
+        "For: microorganisms turn wastes, such as whey, slurry, sewage and food waste, into useful products, reducing pollution.",
+        "For: biogas and bioethanol are renewable energy, and biological processes run at low temperatures, using less energy than chemical manufacture.",
+        "For: biotechnology and pharmaceutical manufacturing are major employers and exporters in Ireland.",
+        "Against: bioreactors need sterile conditions, energy for stirring and cooling, and careful disposal of waste culture.",
+        "Against: contamination of a batch can waste the whole product, and growing crops for biofuel uses land that could grow food."
+      ]
+    },
+    {
+      "h": "Importance of microorganisms in industry: overall judgement",
+      "b": "A good discussion ends with a judgement. It weighs the benefits against the limits and gives a conclusion that depends on a stated condition.",
+      "points": [
+        "On balance, microorganisms are essential to modern medicine, food production and waste treatment, and their importance is growing as biotechnology replaces fossil-fuel-based chemical processes. There is more on this in The cross-cutting themes, on health, sustainability and technology.",
+        "This judgement holds provided that antibiotic use and genetic modification are regulated, because the main limits are antibiotic resistance and the concerns about GM organisms."
+      ]
+    },
+    {
+      "h": "What a growth curve shows (Higher Level only)",
+      "b": "When microorganisms are put into fresh medium, their numbers do not rise steadily. A growth curve records what actually happens over time, and the shape of the curve is the key to getting the best yield of a product.",
       "points": [
         "A growth curve shows how the number of living cells in a population of microorganisms changes over time when they are grown in a closed system: a fixed volume of medium, with no nutrients added and no wastes removed (batch culture).",
-        "The number of cells is usually plotted as a logarithm, log₁₀ of the number of cells, because numbers rise from thousands to billions; on a log scale the exponential phase is a straight line.",
-        "Diagram: a growth curve with log number of living cells on the y-axis and time on the x-axis, with the five phases labelled in order: lag, log (exponential), stationary, decline (death) and survival.",
+        "The number of cells is usually plotted as a logarithm, log₁₀ of the number of cells, because numbers rise from thousands to billions; on a log scale the exponential phase (the steep rise) is a straight line.",
+        "Diagram: a growth curve with log number of living cells on the y-axis and time on the x-axis, with the five phases labelled in order: lag, log (exponential), stationary, decline (death) and survival."
+      ],
+      "tip": "Past papers asked you to draw and label a bacterial growth curve and explain each phase. The survival phase is the fifth phase named in the specification, so include it after decline. The curve is for a closed (batch) culture."
+    },
+    {
+      "h": "Lag and log phases (Higher Level only)",
+      "b": "The curve begins with a pause and then a rapid rise. These two phases show what the cells need to get started and how fast they can grow when conditions are ideal.",
+      "points": [
         "Lag phase: little or no increase in cell number.",
         "During the lag phase the cells adjust to the new medium: they take in water and nutrients, switch on genes, make the enzymes needed to use the nutrients present, and grow in size before dividing.",
         "The lag phase is longer if the new conditions differ greatly from those the cells came from.",
         "Log (exponential) phase: the cells divide at their maximum rate, as nutrients are plentiful and wastes are low.",
-        "The number doubles in each generation time, e.g. every 20–30 minutes, so the population grows exponentially.",
-        "This is when the cells grow fastest and make most of the products linked to growth, the primary metabolites (see primary metabolites below).",
-        "Stationary phase: the rate of cell division equals the rate of cell death, so the number of living cells stays constant.",
+        "The number doubles in each generation time (the time for a population to double), for example every 20–30 minutes, so the population grows exponentially.",
+        "This is when the cells grow fastest and make most of the products linked to growth, the primary metabolites. Primary metabolites include ethanol made by yeast and the cells themselves as mycoprotein."
+      ],
+      "tip": "Do not say that nothing happens in the lag phase. The cells are making enzymes and growing, but they are not yet dividing."
+    },
+    {
+      "h": "Stationary, decline and survival phases (Higher Level only)",
+      "b": "Growth cannot go on for ever in a closed system. As nutrients run out and waste builds up, the curve levels off, falls, and then flattens at a low level.",
+      "points": [
+        "Stationary phase: the rate of cell division equals the rate of cell death, so the number of living cells stays constant. Cells are still dividing and dying; the population has not simply stopped.",
         "The stationary phase is caused by nutrients running out, toxic waste products such as acids and ethanol building up, oxygen possibly running short, and changes in pH.",
-        "Many microorganisms make secondary metabolites, such as antibiotics, in this phase; some bacteria form endospores.",
+        "Many microorganisms make secondary metabolites, such as antibiotics, in this phase; some bacteria form endospores (tough resting cells that resist harsh conditions).",
         "Decline (death) phase: the death rate is greater than the rate of division, so the number of living cells falls, because nutrients are exhausted and wastes are at toxic levels.",
         "Dead cells may break open in the decline phase.",
         "Survival phase: a small number of cells survive for a long time, with the number falling only slowly or levelling off.",
         "Cells survive the survival phase by forming endospores (in some bacteria), by becoming inactive, or by using nutrients released from dead cells that have broken open."
-      ]
+      ],
+      "tip": "In the stationary phase, say that division equals death. Do not write that growth has stopped. Give the causes: nutrients running out and toxic wastes building up."
     },
     {
       "h": "Growth-curve calculations (Higher Level only)",
+      "b": "Because the log phase is exponential, the number of cells can be worked out from the number of generations. The same idea works backwards to find the generation time.",
       "points": [
         "Number of cells after n generations of the log phase = starting number × 2ⁿ.",
         "Worked example: one bacterium dividing every 20 minutes, for 2 hours: n = 120 ÷ 20 = 6 generations; number = 1 × 2⁶ = 64 cells.",
         "Worked example: with 1000 starting cells and a generation time of 30 minutes, after 3 hours: n = 6, number = 1000 × 64 = 64 000.",
         "Working out generation time from a graph or table: in the log phase the number rose from 1 × 10⁴ to 8 × 10⁴ cells in 90 minutes.",
         "8 = 2³, so there were 3 generations in 90 minutes; generation time = 90 ÷ 3 = 30 minutes.",
-        "Reading a log-scale graph: each step of 1 on a log₁₀ axis is a tenfold increase, e.g. from log 4 = 10 000 cells to log 5 = 100 000 cells."
-      ]
+        "Reading a log-scale graph: each step of 1 on a log₁₀ axis is a tenfold increase, for example from log 4 = 10 000 cells to log 5 = 100 000 cells."
+      ],
+      "tip": "Exams may ask for calculations of cell numbers or generation time. First find the number of generations, n, by dividing the total time by the generation time, then use 2ⁿ."
     },
     {
-      "h": "Batch and continuous culture and increasing yields (Higher Level only)",
+      "h": "Batch culture (Higher Level only)",
+      "b": "Industry can run a bioreactor in two ways. In batch culture the culture goes through every phase of the growth curve and is then harvested all at once.",
       "points": [
         "Batch culture: the bioreactor is filled with a fixed amount of sterile medium, inoculated, and left to grow for a set time, with temperature, pH and oxygen controlled.",
         "In batch culture nothing is added except air, acid or alkali, and nothing is removed until the end, when the whole contents are harvested.",
         "The vessel is then emptied, cleaned and sterilised for the next batch, and the population passes through the lag, log and stationary phases.",
-        "Batch culture advantages: it is simpler to set up and control, and if a batch is contaminated only that batch is lost; it is best for products made in the stationary phase.",
-        "Batch culture disadvantages: the vessel is idle while being emptied, cleaned and refilled, and for much of each run the cells are not in the log phase, so output per vessel is lower.",
-        "Primary metabolites are substances the cells make as part of normal growth, mostly in the log phase, e.g. ethanol by yeast, amino acids, enzymes, and the cells themselves as mycoprotein.",
-        "Secondary metabolites are not needed for growth and are made mainly in the stationary phase, e.g. the antibiotic penicillin.",
+        "Advantages: it is simpler to set up and control, and if a batch is contaminated only that batch is lost; it is best for products made in the stationary phase.",
+        "Disadvantages: the vessel is idle while being emptied, cleaned and refilled, and for much of each run the cells are not in the log phase, so output per vessel is lower."
+      ],
+      "tip": "Exams ask you to describe batch and continuous culture. Give the set-up (what is added and removed, and when) and then an advantage and disadvantage of each."
+    },
+    {
+      "h": "Primary and secondary metabolites (Higher Level only)",
+      "b": "Metabolites are the substances cells make. Which phase of the growth curve gives the most product depends on the kind of metabolite wanted.",
+      "points": [
+        "Primary metabolites are substances the cells make as part of normal growth, mostly in the log phase, for example ethanol by yeast, amino acids, enzymes, and the cells themselves as mycoprotein.",
+        "Secondary metabolites are not needed for growth and are made mainly in the stationary phase, for example the antibiotic penicillin."
+      ]
+    },
+    {
+      "h": "Continuous culture (Higher Level only)",
+      "b": "Continuous culture avoids the stop-and-start of batch culture by feeding the vessel and draining it at the same time. This holds the cells at their fastest-growing stage.",
+      "points": [
         "Continuous culture: fresh sterile nutrient medium is added continuously, and culture (cells, medium and product) is removed at the same rate, so the volume stays constant.",
-        "Nutrients never run out and wastes do not build up, so the population is held in the log phase for weeks.",
-        "Continuous culture advantages: high output from a smaller vessel, no idle time between batches, and a steady, uniform product.",
-        "Continuous culture disadvantages: it is harder to control; if contamination enters, a long run is lost; mutations can arise over many generations; and it suits only products made during growth, e.g. mycoprotein.",
+        "Nutrients never run out and wastes do not build up, so the population is held in the log phase for weeks. In continuous culture the population does not reach the stationary phase.",
+        "Advantages: high output from a smaller vessel, no idle time between batches, and a steady, uniform product.",
+        "Disadvantages: it is harder to control; if contamination enters, a long run is lost; mutations can arise over many generations; and it suits only products made during growth, for example mycoprotein."
+      ]
+    },
+    {
+      "h": "Using growth curves to increase yields (Higher Level only)",
+      "b": "Knowing the phases of the growth curve lets a producer take steps to get more product from each run. Each step matches one phase of the curve.",
+      "points": [
         "Shorten the lag phase by inoculating with a large volume of actively growing cells taken from the log phase of a culture grown in the same medium and at the same temperature, so the cells do not need to adjust.",
         "Keep the log phase going as long as possible by holding temperature, pH and oxygen at the optimum with the probes, and by supplying fresh nutrients and removing wastes (continuous culture, for primary metabolites).",
-        "Harvest at the right phase: primary metabolites at the end of the log phase or continuously, and secondary metabolites, e.g. penicillin, in batch culture during the stationary phase, before the decline phase reduces yield.",
-        "Delay the stationary and decline phases by removing toxic products, e.g. ethanol, or by adding nutrients gradually (fed-batch culture, a batch to which nutrients are added during the run)."
-      ]
+        "Harvest at the right phase: primary metabolites at the end of the log phase or continuously, and secondary metabolites, for example penicillin, in batch culture during the stationary phase, before the decline phase reduces yield.",
+        "Delay the stationary and decline phases by removing toxic products, for example ethanol, or by adding nutrients gradually (fed-batch culture, a batch to which nutrients are added during the run)."
+      ],
+      "tip": "A new question type on this specification asks how knowledge of the growth curve is used to increase yields. Link each step to a phase, and match the harvest phase to the product."
     }
   ],
   "keyTerms": [

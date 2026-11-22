@@ -6,73 +6,96 @@
   "notes": [
     {
       "h": "Population curves and their terms (Higher Level only)",
+      "b": "Ecologists track how many individuals of a species live in an area over time, and a graph is the simplest way to show the pattern. Two terms, biotic potential and environmental resistance, explain why population curves take the shapes they do.",
       "points": [
-        "A population curve is a graph of population size (number of individuals, on the y-axis) against time (on the x-axis). It is a model of how a population changes, used to explain and predict the effects of limiting factors (see “Models”).",
-        "Biotic potential is the maximum rate at which a population could grow with unlimited resources and no limiting factors.",
-        "Environmental resistance is the combined effect of all the limiting factors, such as food shortage, predation, disease, competition, lack of space and harsh conditions, that stop a population reaching its biotic potential."
-      ]
+        "A population curve is a graph of population size (number of individuals, on the y-axis) against time (on the x-axis). It is a model of how a population changes, used to explain and predict the effects of limiting factors (things that restrict growth). More in Models.",
+        "Biotic potential is the maximum rate at which a population could grow with unlimited resources and no limiting factors. It is the growth a species would achieve if nothing held it back.",
+        "Environmental resistance is the combined effect of all the limiting factors, such as food shortage, predation, disease, competition, lack of space and harsh conditions. Together they stop a population reaching its biotic potential."
+      ],
+      "tip": "Learn the two terms as a pair: biotic potential is what the population could do, and environmental resistance is what stops it."
     },
     {
       "h": "J-shaped curve (Higher Level only)",
+      "b": "When a species meets conditions with nothing holding it back, its numbers do not rise steadily. They take off, and the graph takes a J shape. The catch is that this cannot last.",
       "points": [
-        "A J-shaped curve shows exponential growth. When resources are unlimited and there is little environmental resistance, the population grows at an ever-increasing rate, because each new generation adds more breeders, e.g. 2, 4, 8, 16, 32. The curve starts slowly, with few breeders, and then rises ever more steeply.",
-        "Conditions for J-shaped growth: a new habitat with plenty of food and space, few competitors, and no predators or diseases. This often happens when a species arrives in a new area, or after a sudden large supply of nutrients.",
-        "J-shaped growth cannot continue. Resources eventually run out, or the population damages its environment, and the population usually crashes suddenly in a boom and bust. It often falls below the carrying capacity because the habitat has been damaged.",
-        "Algal bloom: an algal bloom in a lake enriched with phosphate and nitrate grows explosively in warm, still weather and then dies back, with the decomposing algae using up oxygen. The blue-green algal bloom on Lough Neagh in 2023 is an example (the eutrophication process is in “Ethics and sustainability of nutrient cycling”).",
-        "Zebra mussel: its rapid spread through Lough Derg after it arrived in the 1990s, with no native predators or competitors adapted to it.",
-        "Rabbits introduced to Australia in 1859, which, with abundant food and few predators, grew into plague numbers.",
+        "A J-shaped curve shows exponential growth. When resources are unlimited and there is little environmental resistance, the population grows at an ever-increasing rate, because each new generation adds more breeders, e.g. 2, 4, 8, 16, 32.",
+        "The curve starts slowly, with few breeders, and then rises ever more steeply. It never levels off: a curve that does level off is an S-curve.",
+        "Conditions for J-shaped growth are a new habitat with plenty of food and space, few competitors, and no predators or diseases. This often happens when a species arrives in a new area, or after a sudden large supply of nutrients.",
+        "J-shaped growth cannot continue. Resources eventually run out, or the population damages its environment, so the population usually crashes suddenly in a boom and bust. It often falls below the carrying capacity (the population the habitat can support) because the habitat has been damaged.",
+        "Algal bloom: in a lake enriched with phosphate and nitrate, algae grow explosively in warm, still weather and then die back, the decomposing algae using up oxygen. The blue-green algal bloom on Lough Neagh in 2023 is an example. There is more in Ethics and sustainability of nutrient cycling.",
+        "Zebra mussel: its rapid spread through Lough Derg after it arrived in the 1990s is an example, because it met no native predators or competitors adapted to it.",
+        "Rabbits introduced to Australia in 1859 are another example. With abundant food and few predators, they grew into plague numbers.",
         "Diagram: a J-shaped curve of population size against time, rising slowly and then steeply, with a sudden vertical crash at the end; labelled “exponential growth”, “resources unlimited” and “crash”."
-      ]
+      ],
+      "tip": "A J-curve doesn't level off. If a question's graph levels off, it is an S-curve. For the diagram, remember the crash at the end and all three labels."
     },
     {
-      "h": "S-shaped (sigmoid) curve (Higher Level only)",
+      "h": "S-shaped (sigmoid) curve: the four phases (Higher Level only)",
+      "b": "Real environments have limited resources, so growth cannot stay exponential. The result is an S-shaped (sigmoid) curve, which passes through four phases as environmental resistance builds up.",
       "points": [
         "An S-shaped (sigmoid) curve shows the growth of a population in an environment with limited resources. It has four phases.",
         "Lag phase: slow growth at first, because there are few individuals to breed, they may still be settling in or reaching breeding age, and they are spread out.",
         "Exponential (log) phase: rapid growth, because resources are plentiful and there are now many breeders, so births greatly exceed deaths.",
-        "Deceleration (transitional) phase: growth slows as resources begin to run short and density-dependent factors increase. These are competition for food and space, predation, disease and the build-up of waste. The death rate rises and the birth rate falls.",
-        "Stationary (plateau) phase: the population levels off at the carrying capacity (K), where births plus immigration equal deaths plus emigration. Births do not stop; they are balanced by deaths. In nature the population fluctuates up and down around K rather than staying exactly level, because there is a time lag between a change in numbers and its effect on resources. For example, a large population overgrazes, then falls, and then the food recovers.",
-        "Examples: yeast cells growing in a flask of sugar solution.",
-        "Examples: a population colonising a new habitat, e.g. grey squirrels spreading into a woodland, which rise rapidly and then level off when food (seeds and nuts) limits them.",
-        "Examples: barnacles settling on a newly cleared rock, which fill the space and then stop increasing.",
-        "The growth curves of microorganisms in culture, with their decline and survival phases, and their use in industry, are covered in “Microorganisms in industry”.",
+        "Deceleration (transitional) phase: growth slows as resources begin to run short and density-dependent factors (factors that act more strongly as the population gets more crowded) increase. These are competition for food and space, predation, disease and the build-up of waste. The death rate rises and the birth rate falls.",
+        "Stationary (plateau) phase: the population levels off at the carrying capacity (K), where births plus immigration equal deaths plus emigration. Births do not stop; they are balanced by deaths.",
+        "In nature the population fluctuates up and down around K rather than staying exactly level, because there is a time lag between a change in numbers and its effect on resources. For example, a large population overgrazes, then falls, and then the food recovers."
+      ],
+      "tip": "Exams ask you to draw and label an S-curve and to name and explain each phase. If asked why a population levels off, say that births are balanced by deaths at K, not that births have stopped, and name the density-dependent factors."
+    },
+    {
+      "h": "S-curve examples and diagram (Higher Level only)",
+      "b": "Any population that starts small in a place with limited resources should follow an S-curve. Three examples show this, from a lab flask to a woodland to a rock shore.",
+      "points": [
+        "Yeast cells growing in a flask of sugar solution follow an S-curve, because the sugar is a fixed supply that eventually limits them.",
+        "A population colonising a new habitat follows an S-curve, e.g. grey squirrels spreading into a woodland. They rise rapidly and then level off when food (seeds and nuts) limits them.",
+        "Barnacles settling on a newly cleared rock fill the space and then stop increasing, because space is the limiting factor. There is more on microbial growth curves in culture, and their use in industry, in Microorganisms in industry.",
         "Diagram: an S-shaped curve with the four phases labelled (lag, exponential, deceleration, stationary), a horizontal dashed line labelled “carrying capacity (K)”, small oscillations about K, and the gap between the J-curve and the S-curve labelled “environmental resistance”."
-      ]
+      ],
+      "tip": "Mark carrying capacity on your graph as a horizontal dashed line labelled K at the plateau, and show small oscillations around it."
     },
     {
       "h": "J- and S-shaped curves compared (Higher Level only)",
+      "b": "The two curves differ in one thing: how much environmental resistance acts on the population. Everything else in the table follows from that.",
       "points": [
         "Resources: unlimited for the J-curve; limited for the S-curve.",
         "Environmental resistance: little until the crash for the J-curve; increasing as the population grows for the S-curve.",
         "Growth: ever faster until a crash for the J-curve; fast at first, then slowing to zero for the S-curve.",
         "End point: a crash, often below K, for the J-curve; a stable population around K for the S-curve.",
         "Typical of: invasive species, pests and blooms for the J-curve; established populations in balance with their environment for the S-curve."
-      ]
+      ],
+      "tip": "Exams ask you to distinguish between the two curves and give the conditions for each. Pair your points: resources, resistance, growth, end point."
     },
     {
       "h": "Changing carrying capacity in Irish ecosystems (Higher Level only)",
+      "b": "Carrying capacity (K) is not a fixed number. When a limiting factor changes, K moves, and the population follows it to a new plateau on its S-curve.",
       "points": [
-        "When a limiting factor improves, K rises and the curve rises to a new, higher plateau. Rewetting a drained bog restores breeding habitat for bog species. A large crop of beech nuts or acorns, a mast year, raises the number of squirrels and wood mice that a woodland can support the following year.",
-        "When a limiting factor worsens, K falls and the population declines to a new, lower plateau, or to extinction if K falls to zero. Drainage of wet grassland and bogs has lowered the carrying capacity for breeding curlew so far that the population has collapsed (see “Biodiversity loss and conservation”).",
+        "When a limiting factor improves, K rises and the curve rises to a new, higher plateau. Rewetting a drained bog restores breeding habitat for bog species.",
+        "A large crop of beech nuts or acorns, a mast year, raises the number of squirrels and wood mice that a woodland can support the following year, because food is the limiting factor.",
+        "When a limiting factor worsens, K falls and the population declines to a lower plateau, or to extinction if K falls to zero. Drainage of wet grassland and bogs has lowered K for breeding curlew so far that the population has collapsed. There is more in Biodiversity loss and conservation.",
         "The arrival of grey squirrels and squirrelpox has lowered K for red squirrels in eastern Ireland.",
         "A new predator, or the recovery of a predator, lowers K for its prey. The recovery of the pine marten has reduced grey squirrel populations in the midlands, which in turn has allowed red squirrel numbers to rise towards a higher K.",
-        "Removing a predator can let a prey population overshoot K. Without wolves, deer in Co. Wicklow increase until they overbrowse. The damaged vegetation then lowers the K of the habitat for deer and for other species, and culling holds them below this level.",
-        "Density-independent events cause sudden falls at any population size, after which the population climbs back along an S-shaped curve. For example, a severe winter kills many wrens and other small birds, whose numbers then recover over the following years."
-      ]
+        "Removing a predator can let prey overshoot K. Without wolves, deer in Co. Wicklow increase until they overbrowse (damage vegetation by eating too much). The damaged vegetation then lowers the K of the habitat for deer and for other species, and culling holds them below this level.",
+        "Density-independent events (acting whatever the density) cause sudden falls at any population size, after which the population climbs back along an S-shaped curve. For example, a severe winter kills many wrens and other small birds, whose numbers then recover over following years."
+      ],
+      "tip": "When asked how K varies in Irish ecosystems, name the limiting factor that changed, say whether K rose or fell, and describe the new plateau with a named example."
     },
     {
       "h": "Predator–prey cycles (Higher Level only)",
+      "b": "Predators and their prey limit each other, so their numbers move together in repeating cycles rather than settling at one level.",
       "points": [
         "Predator and prey populations rise and fall in linked cycles, with the predator peak following the prey peak. More prey gives more food for predators, so predators increase; then the prey decrease, the predators starve and decrease, and the prey recover.",
         "Classic example: the snowshoe hare and the lynx in Canada, from fur-trade records (Hudson's Bay Company) kept over many decades. An Irish link is fox and rabbit numbers.",
         "Diagram: (a) a curve that plateaus at K1 and, after a habitat change, falls to a lower plateau K2, labelled “habitat loss lowers carrying capacity”; (b) linked predator and prey curves, with the predator curve lower and lagging behind the prey curve."
-      ]
+      ],
+      "tip": "Exams ask you to interpret predator–prey graphs. Identify which curve is the predator: it is the lower one, and its peak comes after the prey peak."
     },
     {
       "h": "Human population (Higher Level only)",
+      "b": "Humans are subject to the same rules as other species. Our numbers show how raising carrying capacity can drive J-shaped growth, and how a failing resource can cause a crash.",
       "points": [
-        "The world's human population has shown J-shaped growth over the last few centuries, because farming, medicine, sanitation and technology have repeatedly raised the carrying capacity of the Earth for humans, though growth is now slowing in many countries. Whether it will level off along an S-curve depends on birth rates and on resources such as food, water and energy.",
-        "Ireland illustrates a crash when a key resource fails. The population of Ireland reached about 8.2 million in the 1841 census, with many people depending on the potato. Potato blight from 1845 caused the Great Famine, and death and emigration reduced the population sharply (link to “Variation”)."
+        "The world's human population has shown J-shaped growth over the last few centuries, because farming, medicine, sanitation and technology have repeatedly raised the carrying capacity of the Earth for humans, though growth is now slowing in many countries.",
+        "Whether it will level off along an S-curve depends on birth rates and on resources such as food, water and energy.",
+        "Ireland illustrates a crash when a key resource fails. The population of Ireland reached about 8.2 million in the 1841 census, with many people depending on the potato. Potato blight from 1845 caused the Great Famine, and death and emigration reduced the population sharply. There is more in Variation."
       ]
     }
   ],
