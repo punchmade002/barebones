@@ -41,7 +41,7 @@
         "6. The fragments are separated by gel electrophoresis (in a thin capillary tube in modern machines). The gel must separate fragments that differ by a single nucleotide in length, and the shortest move furthest.",
         "7. The sequence is read from the shortest fragment to the longest, which on a gel means from the bottom (furthest from the wells) upwards. The last base of each successive fragment gives the next base of the new strand.",
         "The bands give the new strand, which is copied from the template. The template’s sequence is therefore the complement of what you read.",
-        "Diagram: four-lane gel, lanes labelled A, C, G, T; label wells, lanes, bands, + and − electrodes, shortest and longest fragment; arrow “read from bottom (shortest) to top”, sequence beside it. Beside it, a short template with growing strands, each stopped one base later."
+        "Diagram: four-lane gel, lanes labelled A, C, G, T at the top, with the wells at the top at the negative electrode; label wells, lanes, bands, + and − electrodes, shortest and longest fragment; arrow “read from bottom (shortest) to top”, sequence beside it. Beside it, a short template with growing strands, each stopped one base later."
       ],
       "tip": "Always read from the shortest fragment (bottom, furthest from the wells) to the longest. Reading top-down gives the sequence backwards. Also say whether your answer is the new strand or the template."
     },

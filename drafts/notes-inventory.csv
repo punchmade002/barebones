@@ -1,167 +1,167 @@
 subject,loId,subsection,blocks,points,introParas,words,wordsPerPoint,fleschEase,fkGrade,hardWordPct,explainPct,examplePct,diagramPlaceholders,xrefs,semicolonPct,keyTerms,questions
-biology,bio-acronyms-s1,Acronyms and key terms,9,34,0,1107,32.6,42.8,10.6,20.6,0.0,0.0,0,0,23.5,34,3
-biology,bio-acronyms-s2,Action verbs,6,42,1,1278,29.7,30.0,11.9,28.9,11.9,7.1,0,0,45.2,35,3
-biology,bio1-s1,The nature of scientific knowledge,13,64,1,1640,25.2,45.2,10.8,20.4,6.3,4.8,1,0,6.2,12,3
-biology,bio1-s2,Science as a global enterprise,6,40,0,1342,33.5,38.9,11.9,19.1,7.7,7.7,1,2,15.0,10,3
-biology,bio1-s3,Recognising bias and evaluating sources,7,42,1,1268,29.5,44.4,10.7,21.4,7.1,7.1,0,0,14.3,11,3
-biology,bio10-s1,"Nucleotides, DNA and RNA",5,36,0,943,26.2,53.3,9.9,15.5,3.0,9.1,3,3,38.9,10,3
-biology,bio10-s2,"Genes, proteins and traits",5,18,0,680,37.8,47.2,11.0,19.6,5.9,29.4,1,9,0.0,7,3
-biology,bio10-s3,The genetic code,4,23,0,734,31.9,60.2,8.6,13.1,9.1,13.6,1,4,8.7,8,3
-biology,bio11-s1,Chromosome structure and genes,5,37,2,1107,28.4,46.1,11.5,19.1,5.9,5.9,3,2,21.6,13,3
-biology,bio11-s10,Sex determination,4,27,0,435,16.1,59.4,9.0,14.5,8.0,0.0,2,0,22.2,4,3
-biology,bio11-s11,Sex-linked traits,12,66,0,1011,15.3,49.8,9.7,18.5,3.1,0.0,2,0,21.2,4,3
-biology,bio11-s12,Benefits and limitations of Mendelian genetics,7,39,0,872,22.4,35.8,13.1,23.9,0.0,10.3,0,1,12.8,4,3
-biology,bio11-s2,Key concepts of information transfer,6,42,1,1208,28.1,44.9,11.2,21.5,12.5,5.0,2,3,14.3,17,3
-biology,bio11-s3,Nuclear and non-nuclear inheritance,4,43,2,1184,26.3,37.0,13.3,20.9,9.5,4.8,1,1,34.9,5,3
-biology,bio11-s4,Genetic and epigenetic mechanisms,10,73,1,1893,25.6,45.9,11.6,18.1,6.9,2.8,1,3,15.1,5,3
-biology,bio11-s5,Monohybrid crosses,15,79,2,1053,13.0,58.4,8.2,17.6,2.6,0.0,1,2,8.9,8,3
-biology,bio11-s6,Incomplete dominance,9,40,1,479,11.7,59.6,7.6,17.3,5.1,0.0,1,0,5.0,3,3
-biology,bio11-s7,Mendel's Laws,8,39,0,853,21.9,49.0,11.6,16.9,2.7,0.0,2,0,15.4,4,3
-biology,bio11-s8,Dihybrid crosses,10,56,0,754,13.5,71.7,6.5,10.5,3.6,0.0,1,1,14.3,4,3
-biology,bio11-s9,Linkage,6,32,0,617,19.3,49.0,11.1,18.2,0.0,0.0,2,0,25.0,3,3
-biology,bio12-s1,Variation,4,31,1,1050,32.8,37.5,12.3,24.9,6.9,17.2,2,3,25.8,10,3
-biology,bio12-s2,The theory of evolution by natural selection,8,49,2,1434,28.1,35.4,13.0,23.3,8.3,8.3,1,8,26.5,10,3
-biology,bio12-s3,Evidence for evolution,9,63,0,1811,28.7,40.9,12.4,21.2,8.6,8.6,5,6,19.0,10,3
-biology,bio12-s4,The importance of the theory,5,37,0,1077,29.1,32.1,14.5,23.5,5.4,10.8,0,7,10.8,7,3
-biology,bio13-s1,Enzymes as catalysts,5,54,0,1303,24.1,43.2,12.5,16.7,9.8,3.9,3,2,16.7,8,3
-biology,bio13-s2,Enzyme structure and specificity,4,42,0,1034,24.6,49.1,11.8,15.3,2.5,10.0,2,0,31.0,7,3
-biology,bio13-s3,Investigation: rate of enzyme activity,9,131,0,3513,26.8,45.9,11.7,18.6,5.7,0.0,8,1,28.2,8,4
-biology,bio13-s4,Industrial enzymes,9,77,0,1720,22.3,35.7,13.1,21.7,5.3,9.2,1,5,27.3,8,3
+biology,bio-acronyms-s1,Acronyms and key terms,9,35,9,1405,31.9,44.0,11.9,17.8,5.7,2.9,0,0,11.4,34,3
+biology,bio-acronyms-s2,Action verbs,7,44,7,1824,35.8,42.0,10.4,23.5,18.2,11.4,0,0,43.2,35,3
+biology,bio1-s1,The nature of scientific knowledge,18,77,18,2332,24.5,51.0,9.7,18.5,14.5,13.2,1,1,5.2,12,3
+biology,bio1-s2,Science as a global enterprise,6,45,6,1667,32.7,44.5,11.1,16.7,11.4,6.8,1,1,13.3,10,3
+biology,bio1-s3,Recognising bias and evaluating sources,7,44,7,1621,31.8,49.5,10.2,18.0,22.7,9.1,0,1,11.4,11,3
+biology,bio10-s1,"Nucleotides, DNA and RNA",8,42,8,1331,26.6,57.5,9.4,13.9,7.7,7.7,3,0,31.0,10,3
+biology,bio10-s2,"Genes, proteins and traits",5,25,5,1004,33.5,56.7,10.1,13.6,20.8,25.0,1,0,0.0,7,3
+biology,bio10-s3,The genetic code,4,27,4,952,30.7,62.2,8.5,11.9,15.4,11.5,1,0,3.7,8,3
+biology,bio11-s1,Chromosome structure and genes,5,37,5,1420,33.8,50.1,11.2,16.9,14.7,5.9,3,0,21.6,13,3
+biology,bio11-s10,Sex determination,4,25,4,696,24.0,59.6,9.5,12.9,21.7,0.0,2,0,20.0,4,3
+biology,bio11-s11,Sex-linked traits,15,68,15,1581,19.0,52.3,9.5,17.6,22.7,3.0,2,0,11.8,4,3
+biology,bio11-s12,Benefits and limitations of Mendelian genetics,9,44,9,1409,26.6,42.5,11.9,20.9,15.9,22.7,0,1,6.8,4,3
+biology,bio11-s2,Key concepts of information transfer,7,44,7,1485,29.1,47.2,11.1,20.1,21.4,9.5,2,0,9.1,17,3
+biology,bio11-s3,Nuclear and non-nuclear inheritance,7,46,7,1599,30.2,42.7,11.8,19.6,15.6,6.7,1,0,28.3,5,3
+biology,bio11-s4,Genetic and epigenetic mechanisms,11,74,11,2322,27.3,49.4,10.5,17.7,15.1,9.6,1,2,6.8,5,3
+biology,bio11-s5,Monohybrid crosses,15,79,15,1779,18.9,58.4,9.0,15.3,34.6,3.8,1,0,5.1,8,3
+biology,bio11-s6,Incomplete dominance,9,41,9,846,16.9,56.2,8.9,18.2,15.0,0.0,1,0,4.9,3,3
+biology,bio11-s7,Mendel's Laws,8,39,8,1213,25.8,52.0,10.6,16.2,13.5,2.7,2,1,10.3,4,3
+biology,bio11-s8,Dihybrid crosses,10,48,10,1295,22.3,62.6,8.4,12.6,19.1,0.0,1,0,16.7,4,3
+biology,bio11-s9,Linkage,6,30,6,949,26.4,49.7,10.8,17.5,21.4,0.0,2,0,13.3,3,3
+biology,bio12-s1,Variation,8,40,8,1480,30.8,42.4,11.5,22.8,23.7,15.8,2,1,15.0,10,3
+biology,bio12-s2,The theory of evolution by natural selection,11,58,11,1945,28.2,39.9,12.2,21.4,17.5,14.0,1,0,15.5,10,3
+biology,bio12-s3,Evidence for evolution,15,77,15,2323,25.2,46.8,11.0,20.1,8.3,16.7,5,0,10.4,10,3
+biology,bio12-s4,The importance of the theory,7,41,7,1443,30.1,38.7,12.5,22.7,17.1,17.1,0,0,0.0,7,3
+biology,bio13-s1,Enzymes as catalysts,11,57,11,1804,26.5,49.1,11.2,15.6,11.1,18.5,3,0,10.5,8,3
+biology,bio13-s2,Enzyme structure and specificity,7,42,7,1331,27.2,49.7,11.4,15.3,10.0,15.0,2,0,33.3,7,3
+biology,bio13-s3,Investigation: rate of enzyme activity,22,136,22,4266,27.0,49.6,11.0,17.2,10.2,0.8,8,1,24.3,8,4
+biology,bio13-s4,Industrial enzymes,15,78,15,2222,23.9,43.4,11.1,20.1,13.0,10.4,1,0,5.1,8,3
 biology,bio14-s1,Photosynthesis as an anabolic process,7,45,7,1495,28.8,57.2,9.2,14.3,22.7,6.8,1,0,4.4,7,3
 biology,bio14-s2,Investigation: rate of photosynthesis,13,74,13,2412,27.7,56.3,9.3,14.5,19.4,9.7,2,2,2.7,6,3
 biology,bio14-s3,The light-dependent reactions,5,33,5,1086,28.6,53.0,10.1,17.4,21.9,6.2,1,0,18.2,7,3
 biology,bio14-s4,The light-independent reactions,3,18,3,657,31.3,61.6,8.1,14.8,23.5,0.0,1,0,5.6,5,3
 biology,bio14-s5,The chloroplast's internal structure,4,24,4,1044,37.3,49.0,11.4,16.6,13.6,18.2,2,0,0.0,7,3
-biology,bio15-s1,Respiration as a catabolic process,5,37,0,1038,28.1,44.1,10.8,22.6,5.6,13.9,1,2,18.9,9,3
-biology,bio15-s2,Investigation: conditions for fermentation,11,54,0,1712,31.7,51.3,9.8,17.5,11.3,0.0,1,2,16.7,7,3
-biology,bio15-s3,First-stage process,3,20,0,642,32.1,50.3,9.2,21.8,10.5,21.1,1,2,10.0,6,3
-biology,bio15-s4,Second-stage process,4,24,0,981,40.9,56.6,9.0,16.1,13.0,4.3,1,2,4.2,6,3
-biology,bio15-s5,The mitochondrion's internal structure and ATP synthase,5,32,0,1171,36.6,50.1,10.4,15.8,0.0,13.8,3,0,28.1,8,3
-biology,bio16-s1,The cell cycle,5,38,0,1171,30.8,51.0,10.7,17.2,8.6,8.6,3,0,23.7,12,3
-biology,bio16-s2,Mitosis and meiosis,5,27,0,947,35.1,38.8,12.5,22.6,7.7,15.4,1,1,37.0,8,3
-biology,bio16-s3,DNA replication and mitosis in the cell cycle,3,17,0,656,38.6,48.3,11.1,16.2,13.3,6.7,2,0,17.6,5,3
-biology,bio16-s4,Cancer,6,36,0,1219,33.9,52.1,10.1,15.4,8.6,5.7,1,0,22.2,8,3
-biology,bio16-s5,"Causes, prevention and treatment of cancer",9,57,0,2547,44.7,45.7,11.2,18.1,10.5,1.8,0,4,24.6,10,3
-biology,bio17-s1,Modelling DNA replication and information flow,4,51,1,1087,20.9,49.5,10.4,17.6,4.2,2.1,3,0,7.8,12,3
-biology,bio17-s2,Transcription and translation,7,68,2,1416,20.2,55.1,9.6,17.0,0.0,4.6,3,0,17.6,13,3
-biology,bio17-s3,Mutations,8,82,0,1895,23.1,42.7,13.0,19.6,4.9,6.2,1,3,28.0,14,3
-biology,bio18-s1,The musculoskeletal system as a system for response,7,53,2,1151,20.9,51.3,10.6,13.6,1.9,5.8,1,3,5.7,9,3
-biology,bio18-s2,The axial skeleton,6,47,1,1103,23.0,62.2,9.3,10.1,4.5,2.3,3,0,10.6,8,3
-biology,bio18-s3,The appendicular skeleton,9,52,1,1251,23.6,61.5,9.7,10.2,2.0,0.0,2,1,13.5,8,3
-biology,bio18-s4,Muscles and joints,6,53,0,1279,24.1,53.7,10.7,15.7,2.0,15.7,2,0,9.4,10,3
-biology,bio19-s1,CNS and PNS,9,45,3,643,13.4,52.2,9.2,16.2,2.3,4.7,2,3,4.4,8,3
-biology,bio19-s2,The reflex action,7,27,3,425,14.2,60.9,7.5,12.7,0.0,0.0,1,0,11.1,7,2
-biology,bio19-s3,Neurons,9,31,1,449,14.0,56.4,8.8,12.9,0.0,0.0,1,1,3.2,9,2
-biology,bio19-s4,Neurotransmission,5,20,2,354,16.1,39.9,10.8,21.8,5.3,0.0,1,1,20.0,7,2
-biology,bio19-s5,Conduction across the synaptic cleft and its disruption,12,39,2,556,13.6,34.7,11.1,25.2,2.6,5.3,1,2,10.3,8,3
-biology,bio19-s6,Dopamine and endorphins,11,25,0,365,14.6,43.2,10.9,24.1,0.0,8.0,0,2,8.0,7,2
-biology,bio2-s1,Questioning and predicting,4,34,3,1096,29.6,34.6,13.0,25.8,6.1,3.0,1,7,11.8,7,3
-biology,bio2-s2,Designing and conducting investigations,7,56,3,1620,27.5,40.4,12.4,21.0,7.3,9.1,1,3,14.3,18,3
-biology,bio2-s3,Objectivity and data quality,4,35,4,977,25.1,36.5,12.7,20.7,11.8,8.8,1,2,5.7,13,3
-biology,bio2-s4,Producing and analysing data,8,60,1,1426,23.4,57.1,8.6,17.5,3.4,1.7,2,2,5.0,17,3
-biology,bio2-s5,Reflecting on investigations,3,27,3,706,23.5,50.4,10.3,18.4,11.1,7.4,0,0,3.7,5,3
-biology,bio2-s6,Communicating results,5,25,2,708,26.2,40.4,11.9,19.8,4.0,4.0,0,0,16.0,5,3
-biology,bio2-s7,The Biology in Practice Investigation,11,48,3,1307,25.6,29.2,14.3,24.3,0.0,0.0,0,1,25.0,5,3
-biology,bio20-s1,"Glands, locations and hormones",10,43,2,659,14.6,40.9,10.9,22.9,0.0,4.8,1,1,23.3,9,3
-biology,bio20-s2,Hormonal manipulation,5,22,1,425,18.5,38.2,11.8,23.5,4.5,13.6,0,0,0.0,9,2
-biology,bio21-s1,Structures and systems for response,11,38,1,483,12.4,46.7,9.7,20.1,0.0,0.0,4,5,7.9,9,2
-biology,bio21-s2,Homeostasis as a stimulus-response model,9,36,2,538,14.2,47.9,9.7,19.5,5.7,5.7,1,0,5.6,8,3
-biology,bio21-s3,Nervous vs hormonal coordination,4,13,1,290,20.7,32.9,13.5,24.1,7.7,7.7,0,0,53.8,7,2
-biology,bio22-s1,Pathogens,8,72,7,1432,18.1,45.3,10.9,19.3,5.6,11.1,0,10,15.3,8,3
-biology,bio22-s2,Innate and adaptive immunity,7,81,1,1743,21.3,36.4,12.8,23.8,7.8,3.9,4,7,6.2,10,3
-biology,bio22-s3,"Acquired immunity, prevention and treatment",5,66,0,1294,19.6,31.1,12.6,26.7,6.1,9.1,0,5,7.6,8,3
-biology,bio22-s4,Viruses: replication,8,67,0,1482,22.1,46.3,11.4,18.2,4.8,9.5,4,3,3.0,9,3
-biology,bio22-s5,White blood cells,6,51,0,1140,22.4,41.5,11.8,21.9,2.0,2.0,1,6,19.6,9,3
-biology,bio22-s6,Emergence and spread of infectious disease,10,92,0,1979,21.5,43.5,11.4,21.3,3.3,3.3,1,5,2.2,10,3
-biology,bio22-s7,Emerging diseases and society,5,70,0,1670,23.9,34.5,13.1,23.5,7.1,4.3,0,7,7.1,9,3
-biology,bio23-s1,The male reproductive system,7,50,2,1135,21.8,42.4,12.2,17.4,8.2,0.0,1,1,12.0,18,3
-biology,bio23-s2,The female reproductive system,8,56,3,1178,20.0,42.6,11.9,21.6,3.7,1.9,2,0,25.0,15,3
-biology,bio23-s3,Gametes and fertilisation,8,57,0,1178,20.7,54.2,10.3,14.9,3.6,1.8,2,0,24.6,14,3
-biology,bio23-s4,The menstrual cycle,6,59,1,1352,22.5,44.5,12.3,18.6,3.6,1.8,3,0,16.9,15,3
-biology,bio23-s5,Pregnancy,7,75,0,1676,22.3,48.1,11.9,16.2,6.8,5.5,2,0,12.0,22,3
-biology,bio23-s6,Hormones in reproduction,10,90,1,1854,20.4,36.2,13.2,22.5,2.3,0.0,2,3,22.2,16,3
-biology,bio23-s7,Prenatal and postnatal care,11,101,1,2007,19.7,47.2,11.5,17.9,6.9,16.8,0,2,11.9,23,3
-biology,bio23-s8,Fertility control and infertility,18,161,0,3044,18.9,39.1,12.4,20.8,8.8,8.2,2,4,12.4,29,3
-biology,bio24-s1,Flower structure and pollination,5,37,4,1286,31.4,49.8,10.1,15.3,0.0,2.9,3,0,21.6,20,3
-biology,bio24-s2,Investigation: insect- and wind-pollinated plants,7,40,2,1454,34.6,44.1,11.9,14.2,2.6,5.3,2,2,57.5,8,3
-biology,bio24-s3,Seeds,5,25,0,803,32.1,55.1,9.4,16.2,8.7,8.7,2,3,28.0,15,3
-biology,bio24-s4,Fruit and seed dispersal,8,27,1,778,27.8,59.5,9.1,15.0,7.7,7.7,1,1,18.5,9,3
-biology,bio25-s1,"Diffusion, osmosis and active transport",6,32,0,1448,45.2,44.1,11.8,17.7,17.2,24.1,3,2,43.8,21,3
-biology,bio25-s2,Osmosis in food preservation and plant health,5,24,0,846,35.2,53.9,9.8,15.1,20.8,8.3,0,1,25.0,9,3
-biology,bio25-s3,Investigation: rate of osmosis,9,68,0,2041,30.0,58.3,8.4,15.6,14.9,1.5,1,2,19.1,9,3
-biology,bio26-s1,The urinary system,11,67,0,1328,19.8,53.8,10.0,13.2,6.2,0.0,2,6,19.4,14,3
-biology,bio26-s2,The nephron,7,42,0,1246,29.7,45.2,12.2,17.8,19.5,4.9,1,0,26.2,14,3
-biology,bio26-s3,ADH and osmoregulation,6,26,0,694,26.7,53.7,9.1,15.9,4.0,0.0,1,3,19.2,7,3
-biology,bio27-s1,The digestive system,7,37,0,965,26.1,45.7,11.3,19.2,5.6,5.6,1,2,13.5,15,3
-biology,bio27-s2,Mechanical breakdown,7,32,0,954,29.8,49.9,11.2,15.1,0.0,0.0,3,5,40.6,16,3
-biology,bio27-s3,Chemical breakdown,9,52,0,1468,28.2,43.4,12.1,17.8,8.0,2.0,2,5,32.7,14,3
-biology,bio27-s4,"Absorption, transport and storage",8,34,0,1007,29.6,48.5,11.1,17.0,9.1,0.0,1,8,17.6,12,3
-biology,bio27-s5,Diet,18,71,0,2078,29.3,47.8,11.5,16.7,1.4,5.6,0,17,15.5,15,3
-biology,bio28-s1,Gas exchange and the breathing mechanism,8,57,1,1769,30.5,52.1,10.1,15.4,1.9,3.7,3,3,8.8,9,3
-biology,bio28-s2,CO₂ as a controlling factor in breathing,4,23,0,877,38.1,54.8,10.2,14.4,9.5,14.3,2,0,4.3,11,3
-biology,bio29-s1,Investigation: the heart,7,48,0,2165,45.1,54.8,10.3,14.0,17.4,4.3,2,2,22.9,11,3
-biology,bio29-s2,Circulation,5,39,0,1445,37.1,46.6,11.7,17.1,8.3,5.6,3,1,10.3,11,3
-biology,bio29-s3,Heartbeat,6,34,0,1463,43.0,54.8,10.4,14.8,12.5,6.2,2,2,11.8,14,3
-biology,bio29-s4,Blood,8,51,0,2073,40.6,53.0,10.0,15.5,14.6,10.4,3,3,15.7,17,3
-biology,bio29-s5,Blood vessels,6,33,0,1150,34.8,59.8,9.0,13.0,16.7,3.3,3,0,30.3,10,3
-biology,bio3-s1,Evaluating evidence,7,43,2,1285,28.6,47.9,10.3,18.8,11.6,2.3,0,0,7.0,12,3
-biology,bio3-s2,"Science, scientists and society",9,65,0,1684,25.9,36.7,12.0,23.9,3.1,7.7,0,0,4.6,12,3
-biology,bio3-s3,The cross-cutting themes,7,40,2,950,22.6,31.7,12.8,27.1,2.5,15.0,0,0,7.5,8,3
-biology,bio30-s1,Plant structures for transport,9,69,0,1953,28.3,60.5,9.6,11.4,1.6,0.0,6,4,17.4,21,3
-biology,bio30-s2,Transport of water and minerals,8,57,1,1859,32.1,58.3,9.9,10.9,9.1,3.6,2,4,15.8,16,3
-biology,bio30-s3,Transport of CO₂ and photosynthetic products,6,40,0,1343,33.6,58.4,10.2,11.9,13.2,7.9,2,7,15.0,7,3
-biology,bio30-s4,CO₂ as a controlling factor in plant stomata,4,20,0,797,39.9,52.6,10.5,15.8,15.0,0.0,0,2,10.0,8,3
-biology,bio30-s5,Investigation: rate of transpiration,16,101,1,2992,29.3,60.4,8.5,13.1,11.1,7.1,2,6,7.9,13,3
-biology,bio31-s1,"Biosphere, ecosystems, habitats and biodiversity",6,28,0,1039,37.1,40.8,12.0,19.8,7.4,7.4,1,1,17.9,15,3
-biology,bio31-s10,The niche,8,44,0,1057,24.0,53.8,9.9,16.7,0.0,6.8,0,2,6.8,9,3
-biology,bio31-s2,Biodiversity loss and conservation,14,73,0,2332,31.9,43.8,11.0,19.1,5.5,11.0,0,0,6.8,18,3
-biology,bio31-s3,Investigation: human activity and species diversity,12,60,0,1578,26.3,48.8,9.8,17.9,10.2,6.8,1,1,6.7,16,3
-biology,bio31-s4,Simpson's Diversity Index,7,34,0,767,22.6,64.5,6.4,13.3,2.9,0.0,0,1,17.6,6,3
-biology,bio31-s5,Carrying capacity and limiting factors,5,26,0,1090,41.9,47.7,10.1,17.9,8.0,32.0,1,1,3.8,11,3
-biology,bio31-s6,Population curves,7,36,0,1169,32.5,47.1,11.2,18.2,18.2,12.1,3,1,25.0,12,3
-biology,bio31-s7,Energy and nutrient transfer,6,46,0,1451,31.5,53.1,9.7,18.1,13.6,15.9,2,0,8.7,14,3
-biology,bio31-s8,Pyramids of numbers,4,26,0,815,31.3,55.5,10.1,15.5,16.7,16.7,2,0,7.7,5,3
-biology,bio31-s9,Pyramids of biomass,6,27,0,903,33.4,53.8,10.2,16.5,20.0,4.0,2,0,7.4,5,3
-biology,bio32-s1,Collection and identification,10,103,2,2558,24.4,59.4,9.5,12.2,11.0,6.0,3,2,18.4,12,3
-biology,bio32-s2,Surveys,12,105,5,2254,20.5,55.9,9.3,13.8,3.9,2.9,3,0,13.3,16,3
-biology,bio32-s3,Abiotic factors,10,109,1,2447,22.2,57.8,9.4,12.6,6.5,3.7,1,0,16.5,18,3
-biology,bio32-s4,Biotic factors and relationships,6,82,1,2048,24.7,50.6,10.3,16.5,5.0,6.2,2,2,22.0,20,3
-biology,bio33-s1,Bacteria and fungi,8,101,0,1929,19.1,41.7,11.5,22.5,3.1,9.2,3,2,22.8,27,3
-biology,bio33-s2,Investigation: growth of microorganisms,14,171,0,3120,18.2,50.2,10.2,17.7,7.7,4.1,2,2,10.5,14,3
-biology,bio33-s3,Microorganisms in industry,11,124,0,2663,21.5,38.8,12.5,21.3,3.3,4.1,2,1,12.1,20,3
-biology,bio33-s4,The microbiome,10,117,0,2147,18.4,41.3,11.4,21.6,2.6,4.3,0,2,2.6,18,3
-biology,bio34-s1,The carbon cycle,7,42,2,1280,29.1,43.6,12.2,17.2,2.4,4.9,1,3,14.3,10,3
-biology,bio34-s2,The nitrogen cycle,7,41,2,1179,27.4,36.4,12.4,24.9,10.0,7.5,1,6,14.6,9,3
-biology,bio34-s3,Ethics and sustainability of nutrient cycling,5,57,2,1718,29.1,42.5,12.2,18.0,8.9,3.6,1,1,7.0,8,3
-biology,bio34-s4,Climate change and biological strategies,6,90,3,2399,25.8,44.5,11.4,17.3,6.7,5.6,1,5,3.3,11,3
-biology,bio35-s1,Genetic engineering,8,63,1,1567,24.5,41.8,12.0,21.3,4.9,1.6,2,2,17.5,22,3
-biology,bio35-s2,DNA profiling,6,41,0,1076,26.2,49.3,11.2,17.7,2.5,0.0,1,1,24.4,10,3
-biology,bio35-s3,Generating a DNA profile,9,62,1,1378,21.9,54.8,9.4,15.2,6.8,3.4,3,1,11.3,15,3
-biology,bio35-s4,DNA sequencing,6,34,0,796,23.4,59.5,8.8,13.8,3.0,3.0,1,0,26.5,10,3
-biology,bio35-s5,Bioinformatics: genome databases,8,54,2,1272,22.7,43.9,11.2,21.5,1.9,0.0,0,2,24.1,13,3
-biology,bio35-s6,Investigation: DNA-profile patterns,7,54,3,1542,27.1,66.8,7.9,11.1,1.9,1.9,1,1,31.5,10,3
-biology,bio35-s7,Ethics of genetic technologies,21,119,1,2255,18.8,46.0,10.8,18.8,4.2,2.5,1,2,5.0,16,3
-biology,bio4-s1,Models,7,47,2,1725,35.2,51.4,9.7,15.7,11.1,8.9,2,0,8.5,10,3
-biology,bio4-s2,Explaining biological phenomena,12,54,0,1514,28.0,40.3,11.6,22.4,5.7,7.5,1,0,11.1,9,3
-biology,bio5-s1,Characteristics of living things,6,46,1,1156,24.6,44.8,10.1,22.3,2.2,4.3,0,1,10.9,14,3
-biology,bio5-s2,Levels of organisation,7,48,2,818,16.4,51.2,9.2,17.2,8.5,0.0,1,1,6.2,10,3
-biology,bio6-s1,Viruses,4,30,2,789,24.7,40.5,11.6,22.4,3.4,13.8,1,1,20.0,9,3
-biology,bio6-s2,Domains of life,7,33,1,697,20.5,35.1,11.8,25.3,0.0,6.2,1,0,9.1,9,3
-biology,bio6-s3,Classification,9,58,1,1562,26.5,41.5,10.6,23.8,7.0,5.3,1,1,13.8,10,3
-biology,bio7-s1,Prokaryotic and eukaryotic cells,4,24,0,653,27.2,42.5,10.7,23.7,0.0,13.0,1,0,4.2,9,3
-biology,bio7-s2,Microscopy,7,54,0,1273,23.6,54.3,9.0,18.3,3.8,1.9,1,1,1.9,11,3
-biology,bio7-s3,Structures and organelles of animal and plant cells,7,52,0,1497,28.8,52.4,9.5,19.3,2.1,4.3,5,0,3.8,10,3
-biology,bio7-s4,Investigation: plant and animal cells,8,58,0,1341,23.1,62.4,7.6,15.2,3.5,1.8,1,2,3.4,9,3
-biology,bio8-s1,Biomolecules and metabolism,5,24,0,568,23.7,34.3,12.1,24.1,0.0,4.3,1,1,29.2,9,3
-biology,bio8-s2,Structures of biomolecules,11,54,0,1460,27.0,46.9,10.4,18.8,2.1,4.2,6,2,16.7,8,3
-biology,bio8-s3,Metabolic roles and nutritional sources,7,41,0,1049,25.6,42.9,10.7,20.7,5.0,10.0,1,6,4.9,7,3
-biology,bio8-s4,Minerals,4,31,0,764,24.6,47.5,10.1,17.3,3.2,3.2,0,4,9.7,6,3
-biology,bio8-s5,Vitamins,6,34,0,991,29.1,47.9,10.2,19.1,5.9,11.8,0,0,17.6,7,3
-biology,bio8-s6,Water,7,31,0,736,23.7,46.6,10.4,18.5,10.0,10.0,1,0,9.7,6,3
-biology,bio8-s7,Investigation: food tests,8,48,0,1483,30.9,58.8,9.3,12.8,4.3,6.4,1,0,14.6,6,3
-biology,bio8-s8,"Investigation: reducing sugars, quantitatively",9,47,0,1320,28.1,53.2,9.8,15.8,17.4,4.3,1,1,10.6,6,3
-biology,bio9-s1,ATP,8,37,1,949,25.0,49.1,10.8,17.6,11.4,11.4,2,5,10.8,10,3
-biology,bio9-s2,NAD⁺ and NADP⁺,4,25,3,703,25.1,45.6,11.0,21.5,4.2,0.0,1,1,32.0,8,3
+biology,bio15-s1,Respiration as a catabolic process,5,35,5,1250,31.2,44.8,10.7,22.1,14.7,14.7,1,1,20.0,9,3
+biology,bio15-s2,Investigation: conditions for fermentation,11,64,11,2179,29.1,52.3,9.8,17.3,12.7,0.0,1,1,14.1,7,3
+biology,bio15-s3,First-stage process,5,24,5,832,28.7,47.8,9.8,21.8,17.4,17.4,1,0,12.5,6,3
+biology,bio15-s4,Second-stage process,4,28,4,1149,35.9,54.9,9.6,16.5,11.1,3.7,1,0,3.6,6,3
+biology,bio15-s5,The mitochondrion's internal structure and ATP synthase,7,39,7,1407,30.6,50.6,10.2,16.3,0.0,11.1,3,0,23.1,8,3
+biology,bio16-s1,The cell cycle,7,44,7,1493,29.3,55.5,9.7,16.2,7.3,19.5,3,0,13.6,12,3
+biology,bio16-s2,Mitosis and meiosis,5,34,5,1221,31.3,43.5,11.5,21.1,9.1,15.2,1,0,14.7,8,3
+biology,bio16-s3,DNA replication and mitosis in the cell cycle,4,20,4,842,35.1,52.2,10.2,15.3,22.2,5.6,2,0,10.0,5,3
+biology,bio16-s4,Cancer,7,51,7,1558,26.9,56.1,9.3,14.2,14.0,4.0,1,0,0.0,8,3
+biology,bio16-s5,"Causes, prevention and treatment of cancer",14,81,14,2987,31.4,50.0,10.2,16.9,7.4,1.2,0,0,8.6,10,3
+biology,bio17-s1,Modelling DNA replication and information flow,8,48,8,1566,28.0,55.5,9.8,14.5,17.8,2.2,3,0,2.1,12,3
+biology,bio17-s2,Transcription and translation,11,69,11,1965,24.6,59.6,8.9,14.6,9.1,6.1,3,0,11.6,13,3
+biology,bio17-s3,Mutations,15,85,15,2528,25.3,47.9,11.9,17.7,14.3,6.0,1,1,21.2,14,3
+biology,bio18-s1,The musculoskeletal system as a system for response,9,55,9,1548,24.2,57.8,9.2,11.8,7.4,5.6,1,1,5.5,9,3
+biology,bio18-s2,The axial skeleton,7,45,7,1396,26.8,66.2,8.6,8.8,7.3,2.4,4,0,4.4,8,3
+biology,bio18-s3,The appendicular skeleton,9,47,9,1687,30.1,63.7,9.4,9.7,6.7,0.0,2,0,12.8,8,3
+biology,bio18-s4,Muscles and joints,11,54,11,1734,26.7,56.9,10.3,13.9,1.9,17.3,2,0,9.3,10,3
+biology,bio19-s1,CNS and PNS,11,45,11,1143,20.4,55.3,9.9,13.4,2.3,7.0,2,0,4.4,8,3
+biology,bio19-s2,The reflex action,7,27,7,764,22.5,60.7,8.3,11.8,3.8,15.4,1,0,11.1,7,2
+biology,bio19-s3,Neurons,9,32,9,901,22.0,59.3,9.3,10.7,3.2,9.7,1,0,3.1,9,2
+biology,bio19-s4,Neurotransmission,5,21,5,603,23.2,48.4,10.2,16.7,5.0,10.0,1,0,14.3,7,2
+biology,bio19-s5,Conduction across the synaptic cleft and its disruption,12,37,12,1043,21.3,39.4,11.4,21.2,13.9,5.6,1,0,5.4,8,3
+biology,bio19-s6,Dopamine and endorphins,11,32,11,955,22.2,47.0,11.1,20.4,28.1,9.4,0,0,6.2,7,2
+biology,bio2-s1,Questioning and predicting,6,38,6,1452,33.0,38.2,12.6,23.7,21.6,5.4,1,0,5.3,7,3
+biology,bio2-s2,Designing and conducting investigations,11,62,11,2062,28.2,44.2,12.0,18.9,21.3,16.4,1,0,12.9,18,3
+biology,bio2-s3,Objectivity and data quality,6,37,6,1258,29.3,39.1,13.1,18.3,25.0,27.8,1,0,2.7,13,3
+biology,bio2-s4,Producing and analysing data,11,62,11,2019,27.7,58.1,8.7,15.9,18.3,3.3,2,0,3.2,17,3
+biology,bio2-s5,Reflecting on investigations,5,31,5,928,25.8,57.3,9.0,15.7,12.9,12.9,0,0,0.0,5,3
+biology,bio2-s6,Communicating results,5,26,5,1072,34.6,48.8,10.8,15.5,26.9,3.8,0,0,11.5,5,3
+biology,bio2-s7,The Biology in Practice Investigation,12,53,12,1893,29.1,38.0,13.2,20.7,9.4,9.4,0,0,11.3,5,3
+biology,bio20-s1,"Glands, locations and hormones",11,48,11,1220,20.7,45.1,11.4,19.3,0.0,6.4,1,0,27.1,9,3
+biology,bio20-s2,Hormonal manipulation,5,28,5,796,24.1,44.1,11.4,20.2,10.7,17.9,0,0,0.0,9,2
+biology,bio21-s1,Structures and systems for response,11,36,11,1011,21.5,51.0,10.0,16.6,12.5,3.1,4,1,0.0,9,2
+biology,bio21-s2,Homeostasis as a stimulus-response model,9,37,9,1023,22.2,52.2,10.1,15.3,19.4,8.3,1,0,2.7,8,3
+biology,bio21-s3,Nervous vs hormonal coordination,4,17,4,602,28.7,39.6,13.3,18.8,17.6,11.8,0,0,41.2,7,2
+biology,bio22-s1,Pathogens,14,70,14,1822,21.7,51.2,10.1,17.2,10.0,11.4,0,1,14.3,8,3
+biology,bio22-s2,Innate and adaptive immunity,15,83,15,2423,24.7,41.9,11.8,22.0,10.1,3.8,4,0,4.8,10,3
+biology,bio22-s3,"Acquired immunity, prevention and treatment",11,67,11,1908,24.5,37.1,12.0,23.8,17.9,9.0,0,0,7.5,8,3
+biology,bio22-s4,Viruses: replication,10,67,10,1967,25.5,49.8,11.0,16.5,11.1,9.5,4,0,3.0,9,3
+biology,bio22-s5,White blood cells,11,60,11,1751,24.7,47.6,10.9,18.8,6.8,1.7,1,0,11.7,9,3
+biology,bio22-s6,Emergence and spread of infectious disease,22,96,22,2837,24.0,48.4,10.6,19.3,10.5,3.2,1,0,2.1,10,3
+biology,bio22-s7,Emerging diseases and society,14,72,14,2287,26.6,40.1,12.3,21.1,13.9,4.2,0,0,4.2,9,3
+biology,bio23-s1,The male reproductive system,9,48,9,1462,25.6,49.9,11.3,14.8,19.1,0.0,1,0,10.4,18,3
+biology,bio23-s2,The female reproductive system,10,58,10,1696,24.9,50.3,10.9,18.3,12.5,3.6,2,0,20.7,15,3
+biology,bio23-s3,Gametes and fertilisation,11,60,11,1730,24.4,61.2,8.7,13.2,8.8,1.8,3,0,0.0,14,3
+biology,bio23-s4,The menstrual cycle,15,62,15,1846,24.0,53.1,10.2,16.3,10.2,1.7,3,0,12.9,15,3
+biology,bio23-s5,Pregnancy,17,75,17,2361,25.7,56.0,10.2,14.2,11.0,4.1,2,0,13.3,22,3
+biology,bio23-s6,Hormones in reproduction,17,88,17,2500,23.8,44.9,11.3,19.8,7.0,0.0,2,1,15.9,16,3
+biology,bio23-s7,Prenatal and postnatal care,20,98,20,2711,23.0,53.4,10.2,16.0,14.3,18.4,0,1,4.1,23,3
+biology,bio23-s8,Fertility control and infertility,33,162,33,4189,21.5,45.5,11.1,18.7,15.0,8.8,2,1,11.1,29,3
+biology,bio24-s1,Flower structure and pollination,7,45,7,1652,31.8,53.4,9.6,14.0,12.2,4.9,4,0,11.1,20,3
+biology,bio24-s2,Investigation: insect- and wind-pollinated plants,9,53,9,1748,28.2,47.3,11.1,14.1,11.8,3.9,2,1,30.2,8,3
+biology,bio24-s3,Seeds,5,31,5,1076,29.9,59.3,8.7,14.8,13.8,6.9,2,0,9.7,15,3
+biology,bio24-s4,Fruit and seed dispersal,8,33,8,1025,25.0,62.9,8.6,13.6,9.4,6.2,1,1,15.2,9,3
+biology,bio25-s1,"Diffusion, osmosis and active transport",8,44,8,1795,34.5,49.4,10.7,16.7,19.5,19.5,3,0,20.5,21,3
+biology,bio25-s2,Osmosis in food preservation and plant health,5,34,5,1137,29.2,55.6,9.9,14.3,17.6,8.8,0,0,11.8,9,3
+biology,bio25-s3,Investigation: rate of osmosis,15,89,15,2606,25.1,58.9,8.5,14.8,21.6,2.3,1,0,15.7,9,3
+biology,bio26-s1,The urinary system,12,66,12,1895,24.3,57.7,9.2,12.2,12.5,1.6,2,0,1.5,14,3
+biology,bio26-s2,The nephron,7,46,7,1667,31.5,50.8,10.8,16.6,22.2,4.4,1,0,10.9,14,3
+biology,bio26-s3,ADH and osmoregulation,6,29,6,947,27.1,57.2,8.5,13.4,10.7,3.6,1,0,0.0,7,3
+biology,bio27-s1,The digestive system,7,41,7,1347,28.1,51.1,10.3,17.0,12.5,7.5,1,0,7.3,15,3
+biology,bio27-s2,Mechanical breakdown,7,40,7,1398,29.7,58.8,9.1,13.3,8.1,2.7,3,0,7.5,16,3
+biology,bio27-s3,Chemical breakdown,10,67,10,1895,24.6,51.5,10.1,16.4,9.2,1.5,2,1,4.5,14,3
+biology,bio27-s4,"Absorption, transport and storage",8,39,8,1438,30.6,52.9,10.5,15.4,18.4,0.0,1,2,15.4,12,3
+biology,bio27-s5,Diet,18,85,18,2776,27.0,54.8,9.7,15.2,8.2,5.9,0,0,8.2,15,3
+biology,bio28-s1,Gas exchange and the breathing mechanism,12,74,12,2212,25.7,55.7,9.4,13.9,9.9,4.2,3,1,1.4,9,3
+biology,bio28-s2,CO₂ as a controlling factor in breathing,5,30,5,1118,31.9,58.6,9.3,13.4,10.7,10.7,2,0,3.3,11,3
+biology,bio29-s1,Investigation: the heart,11,71,11,2608,31.8,58.0,9.6,13.4,11.6,2.9,2,2,18.3,11,3
+biology,bio29-s2,Circulation,9,50,9,1889,32.0,53.7,10.3,14.8,8.5,6.4,3,0,10.0,11,3
+biology,bio29-s3,Heartbeat,8,51,8,1843,31.2,59.1,9.6,12.9,12.2,6.1,2,0,3.9,14,3
+biology,bio29-s4,Blood,12,76,12,2421,27.5,57.1,9.1,14.3,11.0,8.2,3,0,6.6,17,3
+biology,bio29-s5,Blood vessels,6,42,6,1428,29.8,60.9,9.0,11.7,17.9,2.6,3,0,23.8,10,3
+biology,bio3-s1,Evaluating evidence,7,48,7,1742,31.7,53.1,9.8,16.6,20.8,2.1,0,0,6.2,12,3
+biology,bio3-s2,"Science, scientists and society",9,63,9,2275,31.6,40.7,11.6,21.6,11.1,20.6,0,0,4.8,12,3
+biology,bio3-s3,The cross-cutting themes,11,49,11,1491,24.9,40.2,11.8,22.3,12.2,14.3,0,1,2.0,8,3
+biology,bio30-s1,Plant structures for transport,11,71,11,2574,31.4,63.7,9.3,10.0,10.8,0.0,6,0,15.5,21,3
+biology,bio30-s2,Transport of water and minerals,11,65,11,2422,31.9,59.7,9.8,10.1,12.7,4.8,2,0,13.8,16,3
+biology,bio30-s3,Transport of CO₂ and photosynthetic products,9,45,9,1777,32.9,62.4,9.3,11.0,16.3,7.0,2,1,13.3,7,3
+biology,bio30-s4,CO₂ as a controlling factor in plant stomata,4,28,4,1014,31.7,55.1,10.3,14.5,17.9,0.0,0,0,7.1,8,3
+biology,bio30-s5,Investigation: rate of transpiration,19,111,19,3807,29.3,60.0,8.7,12.7,23.9,6.4,2,3,8.1,13,3
+biology,bio31-s1,"Biosphere, ecosystems, habitats and biodiversity",6,30,6,1319,36.6,47.2,10.9,18.1,24.1,10.3,1,0,3.3,15,3
+biology,bio31-s10,The niche,10,54,10,1583,24.7,58.5,9.3,14.3,5.7,7.5,1,1,1.9,9,3
+biology,bio31-s2,Biodiversity loss and conservation,17,99,17,2924,25.2,44.9,11.0,18.5,11.1,21.2,0,0,4.0,18,3
+biology,bio31-s3,Investigation: human activity and species diversity,13,71,13,2152,25.6,52.7,9.4,16.3,12.9,5.7,1,0,4.2,16,3
+biology,bio31-s4,Simpson's Diversity Index,7,38,7,1110,24.7,64.6,6.9,12.2,10.5,2.6,0,1,15.8,6,3
+biology,bio31-s5,Carrying capacity and limiting factors,7,44,7,1428,28.0,48.7,10.4,16.7,16.3,25.6,1,1,2.3,11,3
+biology,bio31-s6,Population curves,8,40,8,1512,31.5,51.0,10.3,16.9,27.0,10.8,3,0,22.5,12,3
+biology,bio31-s7,Energy and nutrient transfer,7,48,7,1716,31.2,55.4,9.3,17.2,17.4,15.2,2,0,4.2,14,3
+biology,bio31-s8,Pyramids of numbers,4,30,4,1081,31.8,56.2,10.1,15.5,21.4,35.7,2,0,3.3,5,3
+biology,bio31-s9,Pyramids of biomass,7,32,7,1263,32.4,54.1,10.3,16.1,26.7,3.3,2,0,9.4,5,3
+biology,bio32-s1,Collection and identification,19,111,19,3215,24.7,61.9,8.8,12.1,15.7,15.7,3,5,0.9,12,3
+biology,bio32-s2,Surveys,15,100,15,2797,24.3,54.8,10.0,14.0,12.4,23.7,3,0,12.0,16,3
+biology,bio32-s3,Abiotic factors,19,111,19,3245,25.0,58.2,9.5,12.6,16.4,5.5,1,0,15.3,18,3
+biology,bio32-s4,Biotic factors and relationships,20,89,20,2692,24.7,57.0,9.2,14.5,11.5,6.9,2,1,15.7,20,3
+biology,bio33-s1,Bacteria and fungi,15,95,15,2400,21.8,47.9,10.3,20.5,6.5,9.8,3,0,18.9,27,3
+biology,bio33-s2,Investigation: growth of microorganisms,25,154,25,4151,23.2,53.3,9.8,16.4,15.8,4.6,2,0,9.1,14,3
+biology,bio33-s3,Microorganisms in industry,26,126,26,3622,23.8,44.2,11.8,19.4,8.1,17.7,2,0,7.1,20,3
+biology,bio33-s4,The microbiome,23,115,23,2916,21.1,48.0,10.3,18.9,7.0,4.3,0,0,1.7,18,3
+biology,bio34-s1,The carbon cycle,8,45,8,1634,30.8,50.2,10.8,15.2,9.1,6.8,1,3,15.6,10,3
+biology,bio34-s2,The nitrogen cycle,10,44,10,1515,28.1,44.8,10.7,22.4,14.0,9.3,1,0,9.1,9,3
+biology,bio34-s3,Ethics and sustainability of nutrient cycling,15,74,15,2171,24.4,50.8,10.4,16.0,9.6,4.1,1,0,4.1,8,3
+biology,bio34-s4,Climate change and biological strategies,16,90,16,2824,26.6,52.1,10.1,14.8,13.5,6.7,1,0,2.2,11,3
+biology,bio35-s1,Genetic engineering,12,65,12,1950,25.3,47.6,10.9,18.9,14.3,11.1,2,0,4.6,22,3
+biology,bio35-s2,DNA profiling,12,48,12,1615,26.9,54.6,9.9,16.2,19.1,4.3,1,0,16.7,10,3
+biology,bio35-s3,Generating a DNA profile,12,66,12,1872,24.0,58.6,9.0,13.4,17.5,3.2,3,1,7.6,15,3
+biology,bio35-s4,DNA sequencing,7,36,7,1189,27.7,63.5,8.3,11.2,20.0,5.7,1,0,11.1,10,3
+biology,bio35-s5,Bioinformatics: genome databases,10,59,10,1590,23.0,47.8,10.5,19.7,6.8,13.6,0,1,11.9,13,3
+biology,bio35-s6,Investigation: DNA-profile patterns,10,60,10,2053,29.3,67.8,7.9,10.4,18.6,3.4,1,1,26.7,10,3
+biology,bio35-s7,Ethics of genetic technologies,27,126,27,3419,22.3,50.2,10.3,17.1,18.4,4.0,1,0,2.4,16,3
+biology,bio4-s1,Models,10,62,10,2309,32.1,53.6,9.7,14.5,18.3,8.3,2,1,6.5,10,3
+biology,bio4-s2,Explaining biological phenomena,12,66,12,1949,25.0,49.1,10.0,19.7,6.2,7.7,1,0,4.5,9,3
+biology,bio5-s1,Characteristics of living things,11,54,11,1634,25.1,48.2,9.9,20.8,5.6,7.4,0,0,1.9,14,3
+biology,bio5-s2,Levels of organisation,7,47,7,1183,21.9,55.6,9.0,15.3,15.2,2.2,1,0,4.3,10,3
+biology,bio6-s1,Viruses,8,43,8,1110,21.8,50.2,9.8,19.0,11.9,14.3,1,0,0.0,9,3
+biology,bio6-s2,Domains of life,7,34,7,1125,27.4,40.7,11.5,22.5,15.2,6.1,1,0,8.8,9,3
+biology,bio6-s3,Classification,13,67,13,2216,27.7,46.2,10.3,20.7,15.2,6.1,1,1,11.9,10,3
+biology,bio7-s1,Prokaryotic and eukaryotic cells,7,31,7,1083,28.5,48.3,10.2,21.2,6.7,10.0,1,0,0.0,9,3
+biology,bio7-s2,Microscopy,10,56,10,1643,24.9,57.6,8.7,16.5,7.3,1.8,1,1,1.8,11,3
+biology,bio7-s3,Structures and organelles of animal and plant cells,10,64,10,2022,27.3,53.2,10.0,18.1,6.8,15.3,5,1,1.6,10,3
+biology,bio7-s4,Investigation: plant and animal cells,9,57,9,1800,27.3,62.2,8.2,14.5,5.4,1.8,1,3,3.5,9,3
+biology,bio8-s1,Biomolecules and metabolism,5,27,5,845,26.4,41.0,11.2,22.0,15.4,11.5,1,0,29.6,9,3
+biology,bio8-s2,Structures of biomolecules,11,62,11,1926,26.4,50.3,9.9,17.2,8.9,7.1,6,1,14.5,8,3
+biology,bio8-s3,Metabolic roles and nutritional sources,8,49,8,1339,23.5,45.4,10.8,18.4,8.3,25.0,1,1,0.0,7,3
+biology,bio8-s4,Minerals,7,42,7,1235,25.2,52.1,10.1,14.7,16.7,7.1,0,1,4.8,6,3
+biology,bio8-s5,Vitamins,7,40,7,1333,28.4,50.9,9.8,17.6,17.5,12.5,0,0,10.0,7,3
+biology,bio8-s6,Water,7,34,7,1123,27.4,50.8,10.3,16.0,27.3,9.1,1,0,8.8,6,3
+biology,bio8-s7,Investigation: food tests,10,52,10,1857,30.0,60.9,8.7,12.2,7.8,5.9,1,1,11.5,6,3
+biology,bio8-s8,"Investigation: reducing sugars, quantitatively",10,54,10,1807,28.2,54.7,9.4,15.6,24.5,17.0,1,0,7.4,6,3
+biology,bio9-s1,ATP,8,37,8,1253,27.8,54.0,10.0,16.3,11.4,17.1,2,0,8.1,10,3
+biology,bio9-s2,NAD⁺ and NADP⁺,5,27,5,927,29.0,51.7,10.0,18.9,11.5,0.0,1,0,22.2,8,3
 business,ch0-s1,"1. Developing research questions, managing information and acknowledging sources",7,31,7,801,21.1,47.0,11.1,17.7,6.5,22.6,0,0,0.0,9,3
 business,ch0-s2,2. Project planning,7,29,7,759,21.1,49.2,11.0,17.5,6.9,37.9,0,0,0.0,8,3
 business,ch0-s3,"3. Analysing, evaluating and presenting findings",7,31,7,778,20.5,52.3,10.1,17.2,0.0,38.7,0,0,0.0,9,3

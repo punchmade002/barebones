@@ -20,7 +20,7 @@
     biology: [
       "./bio-content.js?v=3",
       "./biology-test-questions.js?v=2",
-      "./biology-notes.js?v=4",
+      "./biology-notes.js?v=5",
     ],
     chemistry: [
       "./chemistry-content.js?v=5",

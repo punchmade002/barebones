@@ -22,7 +22,8 @@
         "The curve starts slowly, with few breeders, and then rises ever more steeply. It never levels off: a curve that does level off is an S-curve.",
         "Conditions for J-shaped growth are a new habitat with plenty of food and space, few competitors, and no predators or diseases. This often happens when a species arrives in a new area, or after a sudden large supply of nutrients.",
         "J-shaped growth cannot continue. Resources eventually run out, or the population damages its environment, so the population usually crashes suddenly in a boom and bust. It often falls below the carrying capacity (the population the habitat can support) because the habitat has been damaged.",
-        "Algal bloom: in a lake enriched with phosphate and nitrate, algae grow explosively in warm, still weather and then die back, the decomposing algae using up oxygen. The blue-green algal bloom on Lough Neagh in 2023 is an example. There is more in Ethics and sustainability of nutrient cycling.",
+        "Algal bloom: in a lake enriched with phosphate and nitrate, algae grow explosively in warm, still weather and then die back, the decomposing algae using up oxygen. The blue-green algal bloom on Lough Neagh in 2023 is an example.",
+        "The nutrient enrichment behind a bloom is called eutrophication. There is more in Ethics and sustainability of nutrient cycling.",
         "Zebra mussel: its rapid spread through Lough Derg after it arrived in the 1990s is an example, because it met no native predators or competitors adapted to it.",
         "Rabbits introduced to Australia in 1859 are another example. With abundant food and few predators, they grew into plague numbers.",
         "Diagram: a J-shaped curve of population size against time, rising slowly and then steeply, with a sudden vertical crash at the end; labelled “exponential growth”, “resources unlimited” and “crash”."
@@ -44,18 +45,18 @@
     },
     {
       "h": "S-curve examples and diagram (Higher Level only)",
-      "b": "Any population that starts small in a place with limited resources should follow an S-curve. Three examples show this, from a lab flask to a woodland to a rock shore.",
+      "b": "An S-curve is the pattern for a population in an environment with limited resources, because the limited supply eventually holds it back. Three examples show this, from a lab flask to a woodland to a rock shore.",
       "points": [
         "Yeast cells growing in a flask of sugar solution follow an S-curve, because the sugar is a fixed supply that eventually limits them.",
         "A population colonising a new habitat follows an S-curve, e.g. grey squirrels spreading into a woodland. They rise rapidly and then level off when food (seeds and nuts) limits them.",
-        "Barnacles settling on a newly cleared rock fill the space and then stop increasing, because space is the limiting factor. There is more on microbial growth curves in culture, and their use in industry, in Microorganisms in industry.",
+        "Barnacles settling on a newly cleared rock fill the space and then stop increasing, because space is the limiting factor. There is more on microbial growth curves in culture, with their decline and survival phases, and their use in industry, in Microorganisms in industry.",
         "Diagram: an S-shaped curve with the four phases labelled (lag, exponential, deceleration, stationary), a horizontal dashed line labelled “carrying capacity (K)”, small oscillations about K, and the gap between the J-curve and the S-curve labelled “environmental resistance”."
       ],
       "tip": "Mark carrying capacity on your graph as a horizontal dashed line labelled K at the plateau, and show small oscillations around it."
     },
     {
       "h": "J- and S-shaped curves compared (Higher Level only)",
-      "b": "The two curves differ in one thing: how much environmental resistance acts on the population. Everything else in the table follows from that.",
+      "b": "The two curves differ in how much environmental resistance acts on the population, and that depends on how limited the resources are. Each row of the table compares one consequence.",
       "points": [
         "Resources: unlimited for the J-curve; limited for the S-curve.",
         "Environmental resistance: little until the crash for the J-curve; increasing as the population grows for the S-curve.",

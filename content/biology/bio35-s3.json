@@ -29,7 +29,7 @@
         "Step 3: DNA is insoluble in cold ethanol, so it comes out of solution (precipitates) and can be collected. Salt helps the DNA strands clump together.",
         "Forensic laboratories use the same principles (break cells, remove protein, purify DNA) with purified kits, because crime-scene samples are tiny and need careful handling."
       ],
-      "tip": "Hair roots and white blood cells work, but cut hair shafts and mature red blood cells do not, because they lack a nucleus. Examiners like that distinction."
+      "tip": "Hair roots and white blood cells work, but cut hair shafts and mature red blood cells do not, because they lack a nucleus, and the nucleus is where the DNA is."
     },
     {
       "h": "School extraction of DNA from onion: steps 1 to 5 (Higher Level only)",
@@ -90,7 +90,7 @@
         "Step 2, annealing: cool to about 55 °C (usually between 50 and 65 °C, depending on the primers). The primers bind (anneal) by complementary base pairing to their matching sequences on each single strand.",
         "Step 3, extension: heat to about 72 °C, the optimum temperature of Taq polymerase. Taq polymerase adds nucleotides to the end of each primer, complementary to the template strand, building a new strand.",
         "Each double-stranded region becomes two.",
-        "Diagram: the PCR cycle as three stages in a circle: DNA at 95 °C → separated strands; primers binding at 55 °C; extension at 72 °C → two copies; “cycle repeats, doubling each time”. Labels: template strand, primer, nucleotides, Taq polymerase, new strand, three temperatures."
+        "Diagram: the PCR cycle as three stages in a circle: DNA at 95 °C → separated strands; primers binding at 55 °C; extension at 72 °C → two copies; “cycle repeats, doubling the DNA each time” (1 → 2 → 4 → 8). Labels: template strand, primer, nucleotides, Taq polymerase, new strand, three temperatures."
       ],
       "tip": "The order is hot, cool, warm: 95 °C, 55 °C, 72 °C. Students often put annealing last or swap the temperatures, so link each temperature to its job."
     },

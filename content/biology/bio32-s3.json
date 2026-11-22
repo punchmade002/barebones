@@ -20,7 +20,7 @@
     },
     {
       "h": "Air (climatic) factors: light and temperature",
-      "b": "Air factors describe the climate around the organisms. Light and temperature are the two that most strongly affect where plants and animals live, and each has its own instrument.",
+      "b": "Air factors describe the climate around the organisms. Light and temperature both affect plant growth and animal activity, and each has its own instrument.",
       "points": [
         "Light intensity is the energy for photosynthesis (how plants make food), so it affects plant growth and which plants can grow in shade; it also affects animal activity.",
         "Light intensity is measured with a light meter (lux meter), in lux.",
@@ -61,7 +61,7 @@
     },
     {
       "h": "Edaphic (soil) factors: soil temperature and pH",
-      "b": "Soil factors are called edaphic. Soil temperature and pH are the quickest to measure, and both help decide which plants and soil animals can live in a place.",
+      "b": "Soil factors are called edaphic. Soil temperature and pH both help decide which plants and soil organisms can live in a place, and each is measured on a small soil sample or with a probe.",
       "points": [
         "Soil temperature affects root growth, germination and the activity of soil organisms and decomposers (organisms that break down dead material).",
         "Push a soil thermometer or temperature probe into the soil to a set depth (e.g. 10 cm), leave it for a minute or two to settle, and read it in °C.",
@@ -137,7 +137,7 @@
     },
     {
       "h": "Aquatic factors: temperature, oxygen and pH",
-      "b": "In water, the amount of dissolved oxygen is often the key factor, and it is closely tied to temperature. Water pH is also measured.",
+      "b": "In water, temperature, dissolved oxygen and pH are measured. Temperature matters for oxygen because cold water holds more of it.",
       "points": [
         "Water temperature is measured with a thermometer or probe in °C, at a set depth. It affects how much oxygen water holds (cold water holds more) and the activity of aquatic organisms.",
         "Dissolved oxygen is measured with an oxygen meter (probe), in mg per litre, or with a chemical test kit.",

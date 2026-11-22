@@ -36,7 +36,7 @@
         "For: large databases of genomes and health records (biobanks) speed research into the causes and treatments of disease, and allow faster diagnosis of rare diseases. There is more on this in “Bioinformatics: genome databases”.",
         "Against: there is a risk of data leaks, or of re-identification of people from “anonymous” data, because a genome is so distinctive that removing a name does not always hide who it belongs to.",
         "Against: people must give informed consent and know how their data will be used and shared, otherwise their autonomy is not respected.",
-        "Against: questions arise about who profits from discoveries made with donated data, since the donors usually receive nothing."
+        "Against: questions arise about who profits from discoveries made with donated data, because the people who donated it may not share in the benefit."
       ]
     },
     {
@@ -65,7 +65,7 @@
     },
     {
       "h": "Genetic data: ancestry tests and police access",
-      "b": "Millions of people send DNA to companies to learn about their ancestry. That data can be used for purposes the customer never intended, and it also exposes their relatives.",
+      "b": "People send DNA to companies to learn about their ancestry. That data can be used for purposes the customer never intended, and it also exposes their relatives.",
       "points": [
         "People send DNA to companies for ancestry tests, and may upload it to public genealogy websites so that they can find relatives.",
         "In 2018 police in California identified the “Golden State Killer”, Joseph James DeAngelo, by matching crime-scene DNA with distant relatives who had uploaded their DNA to such a website.",
@@ -106,7 +106,7 @@
     },
     {
       "h": "GM crops: the case against",
-      "b": "The objections to GM crops are mostly about the environment, farmers’ independence and people’s right to choose, rather than about eating the food.",
+      "b": "Opponents of GM crops raise concerns about the environment, farmers’ independence, people’s right to choose, and whether it is right to modify living things.",
       "points": [
         "Genes can spread in pollen to wild relatives or to non-GM and organic crops nearby, a process called gene flow.",
         "Weeds have evolved resistance to the herbicide glyphosate where herbicide-tolerant crops are sprayed repeatedly, and some insect pests have evolved resistance to Bt toxins. This is natural selection: resistant individuals survive and pass on their alleles. There is more on this in “The theory of evolution by natural selection”.",
@@ -118,7 +118,7 @@
     },
     {
       "h": "GM crops: Golden Rice",
-      "b": "Golden Rice is the best-known example of a GM crop designed to help people directly, and it shows both sides of the debate clearly.",
+      "b": "Golden Rice is an example of a GM crop designed to improve health, and it shows both sides of the debate clearly.",
       "points": [
         "Supporters say opposition has delayed a way to save children’s sight and lives, because vitamin A deficiency can cause blindness and death.",
         "Opponents say vitamin A deficiency is better tackled by a more varied diet and supplements.",
@@ -259,7 +259,7 @@
     },
     {
       "h": "Embryonic stem cells: the ethical issues",
-      "b": "Embryonic stem cells are the most promising kind, but getting them means destroying an embryo. This is the central disagreement in the stem-cell debate.",
+      "b": "Embryonic stem cells can become any type of body cell, but getting them means destroying an embryo. This is why they are ethically controversial.",
       "points": [
         "For: they have the potential to treat many serious diseases and relieve great suffering (beneficence).",
         "For: the embryos used are often spare embryos from IVF that would otherwise be discarded.",

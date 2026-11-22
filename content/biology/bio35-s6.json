@@ -101,7 +101,8 @@
         "Man X: 13 and 16; 6 and 9; 15 only. Man Y: 16 and 17; 7 and 8; 11 and 15. Man Z: 12 and 16; 9 and 10; 13 and 14.",
         "Analysis: the child’s maternal bands are 10 (locus 1), 9 (locus 2) and 12 (locus 3), all present in the mother. So the paternal bands must be 16, 9 and 15.",
         "Man X has 16, 9 and 15, so he cannot be excluded. Man Y has no 9 at locus 2, so he is excluded. Man Z has no 15 at locus 3, so he is excluded. Conclusion: man X is very likely the biological father.",
-        "Diagram: a gel for the paternity case, lanes for ladder, mother, child, X, Y and Z; join each of the child’s bands by a line to the matching band in the mother or man X. Labels: wells, ladder, maternal band, paternal band."
+        "Diagram: a gel for the paternity case, lanes for ladder, mother, child, X, Y and Z; join each of the child’s bands by a line to the matching band in the mother or man X. Labels: wells, ladder, maternal band, paternal band.",
+        "The forensic case can be drawn the same way."
       ],
       "tip": "Always remove the mother’s bands first. Don’t compare a man’s bands with all of the child’s bands, because half of them came from the mother. One missing paternal band is enough to exclude a man."
     },
