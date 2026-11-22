@@ -111,34 +111,20 @@
   "2022-ordinary-p2-q7#(a)(ii): no \\hl marks"
  ],
  "inf-margin-of-error": [
-  "no output"
- ],
- "inf-p-value": [
-  "no output"
- ],
- "inf-sampling-distribution": [
-  "no output"
+  "2018-ordinary-p2-q9#(b)(i) step 1: ask must contain a question, not only a command"
  ],
  "inf-z-test": [
-  "no output"
+  "2015-higher-p2-q2#(b) step 1: ask must contain a question, not only a command",
+  "2022-higher-p2-q5#(b) step 1: ask must contain a question, not only a command",
+  "2022-higher-p2-q5#(b) step 4: ask must contain a question, not only a command"
  ],
  "stat-empirical-rule": [
-  "no output"
- ],
- "stat-normal-inverse": [
-  "no output"
- ],
- "stat-normal-prob": [
-  "no output"
- ],
- "stat-z-score": [
-  "no output"
- ],
- "trig-compound": [
-  "no output"
+  "2020-ordinary-p2-q3#(b)(i) step 1: ask must contain a question, not only a command"
  ],
  "trig-double": [
-  "no output"
+  "2018-higher-p2-q4#(b) step 2: ask must contain a question, not only a command",
+  "2016-higher-p2-q3#(b) step 1: ask must contain a question, not only a command",
+  "2016-higher-p2-q3#(b) step 2: ask must contain a question, not only a command"
  ],
  "trig-graph": [
   "no output"
@@ -156,34 +142,18 @@
   "no output"
  ],
  "trig-3d": [
-  "no output"
- ],
- "trig-area-triangle": [
-  "no output"
- ],
- "trig-cosine-rule": [
-  "no output"
+  "2017-higher-p2-q9#(b) step 3: ask must contain a question, not only a command"
  ],
  "trig-elevation": [
-  "no output"
- ],
- "trig-pythagoras": [
-  "no output"
- ],
- "trig-ratios-right": [
-  "no output"
- ],
- "trig-sine-rule": [
-  "no output"
+  "2016-higher-p2-q7#(a)(ii) step 2: ask must contain a question, not only a command",
+  "2025-higher-p2-q8#(c)(ii) step 2: ask must contain a question, not only a command"
  ],
  "ineq-linear": [
-  "no output"
+  "2025-ordinary-p1-q3#(b) step 1: ask must contain a question, not only a command"
  ],
  "ineq-modulus": [
-  "no output"
- ],
- "quad-complete-square": [
-  "no output"
+  "2025-higher-p1-q1#(a) step 1: ask must contain a question, not only a command",
+  "2020-higher-p1-q1#(b) step 2: ask must contain a question, not only a command"
  ],
  "quad-discriminant": [
   "no output"
@@ -230,20 +200,8 @@
  "mens-nets": [
   "no output"
  ],
- "mens-perimeter-area": [
-  "no output"
- ],
- "mens-surface-area": [
-  "no output"
- ],
- "mens-trapezoidal": [
-  "no output"
- ],
- "mens-volume": [
-  "no output"
- ],
  "circ-eq-centre-radius": [
-  "no output"
+  "2015-ordinary-p2-q3#(c) step 2: ask must contain a question, not only a command"
  ],
  "circ-eq-origin": [
   "no output"
@@ -288,12 +246,6 @@
   "no output"
  ],
  "line-perp-distance": [
-  "no output"
- ],
- "line-point-on": [
-  "no output"
- ],
- "line-slope": [
   "no output"
  ]
 }
