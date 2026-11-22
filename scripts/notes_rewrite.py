@@ -2,6 +2,7 @@
 """Rewrite existing subsection notes to course-outlines/NOTES_STANDARD.md, one agent per subsection.
 
     python3 scripts/notes_rewrite.py prep biology            # brief + one job file per subsection still to do
+    python3 scripts/notes_rewrite.py prep biology bio7-s2    # the same for one subsection
     python3 scripts/notes_rewrite.py check biology bio7-s2   # check <loId>.new.json; apply it if it has no errors
     python3 scripts/notes_rewrite.py report biology          # re-check every applied rewrite against its old notes
 
@@ -65,7 +66,7 @@ def is_done(notes: list) -> bool:
     return any(isinstance(n, dict) and n.get("tip") for n in notes)
 
 
-def prep(subject: str) -> list[str]:
+def prep(subject: str, only: str = "") -> list[str]:
     out = work(subject)
     out.mkdir(parents=True, exist_ok=True)
     (out / "BRIEF.md").write_text(brief(subject))
@@ -73,6 +74,8 @@ def prep(subject: str) -> list[str]:
     for path in sorted((ROOT / "content" / subject).glob("*.json")):
         data = json.loads(path.read_text())
         lo = data["loId"]
+        if only and lo != only:
+            continue
         package = ROOT / "course-outlines" / "packages" / subject / f"{lo}.md"
         if is_done(data["notes"]) or not package.exists():
             continue
@@ -246,7 +249,7 @@ if __name__ == "__main__":
     self_test()
     cmd, subject, *rest = sys.argv[1:] + [""] * (2 - len(sys.argv[1:]))
     if cmd == "prep":
-        todo = prep(subject)
+        todo = prep(subject, rest[0] if rest else "")
         print(f"{len(todo)} job(s) in {work(subject).relative_to(ROOT)}")
         print(json.dumps(todo))
     elif cmd == "check" and rest:
