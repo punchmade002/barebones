@@ -39,6 +39,12 @@ def bank_parts():
             m = re.match(r'\(([a-h])\)', p['label'])
             img = crops.get(key, {}).get('parts', {}).get(m.group(1)) if m else None
             out[f"{q['id']}#{p['label']}"] = dict(q=q, p=p, image=img or q['images'][0])
+    # written practice problems (practice.py) for skills with too few exam parts: typed question, no crop
+    practice = HERE / 'practice-bank.json'
+    for pid, pr in (json.loads(practice.read_text()) if practice.exists() else {}).items():
+        out[pid] = dict(q=dict(id=pid, source='Practice problem', level=pr['level'], year=None, images=[]),
+                        p=dict(label='', marks=pr['marks'], workedSolution=dict(pr['workedSolution'], svg=pr.get('diagram'))),
+                        image=None, question=pr['question'], skill=pr['skill'])
     return out
 
 
@@ -48,6 +54,9 @@ def ready():
     for pid, t in tags.items():
         if t['primary'] and SKIP_YEAR not in pid:
             by.setdefault(t['primary'], []).append(pid)
+    for pid, src in bank_parts().items():
+        if src.get('skill'):
+            by.setdefault(src['skill'], []).append(pid)
     return {s: ps for s, ps in by.items() if len(ps) >= 3}
 
 
@@ -91,8 +100,13 @@ assert unmark('\\hl{2}{x} &= \\frac{\\hl{3}{-17}}{\\hl{2}{5}}') == 'x &= \\frac{
 assert unmark('$\\hl{4}{f\'\'(1) = 6 > 0}$, so min') == "$f''(1) = 6 > 0$, so min"
 
 
-def pack():
+def pack(prefix='L'):
+    """prefix N packs only skills with no lesson yet (new ones from practice-bank.json), into their own
+    in/NNN.json files, so the existing L batches and their outputs are never renumbered or overwritten."""
     parts, skills = bank_parts(), ready()
+    if prefix == 'N':
+        done = outputs()
+        skills = {s: v for s, v in skills.items() if s not in done}
     (WORK / 'in').mkdir(parents=True, exist_ok=True)
     (WORK / 'out').mkdir(exist_ok=True)
     jobs = []
@@ -103,6 +117,7 @@ def pack():
                                                      len(parts[pid]['p']['workedSolution']['steps']), pid))
         jobs.append(dict(skill=dict(id=sid, title=s['title'], level=s['level'], input=s['input'], output=s['output']),
                          candidates=[dict(part=pid, level=parts[pid]['q']['level'], year=parts[pid]['q']['year'],
+                                          **({'question': parts[pid]['question']} if parts[pid].get('question') else {}),
                                           marks=parts[pid]['p']['marks'],
                                           steps=[dict(title=st['title'], lines=[{k: v for k, v in ln.items() if k in ('tex', 'text')}
                                                                                 for ln in st['lines']])
@@ -110,7 +125,7 @@ def pack():
                                           final=parts[pid]['p']['workedSolution']['finalAnswer'])
                                      for pid in cands[:MAX_CANDIDATES]]))
     for n in range(0, len(jobs), PER_BATCH):
-        (WORK / 'in' / f'L{n // PER_BATCH + 1:02}.json').write_text(json.dumps(jobs[n:n + PER_BATCH], ensure_ascii=False, indent=1))
+        (WORK / 'in' / f'{prefix}{n // PER_BATCH + 1:02}.json').write_text(json.dumps(jobs[n:n + PER_BATCH], ensure_ascii=False, indent=1))
     print(f'{len(jobs)} skills → {(len(jobs) + PER_BATCH - 1) // PER_BATCH} batches in {WORK / "in"}')
 
 
@@ -248,14 +263,14 @@ def check_lesson(job, out):
 
 
 def jobs():
-    return {j['skill']['id']: j for f in sorted((WORK / 'in').glob('L*.json')) for j in json.loads(f.read_text())}
+    return {j['skill']['id']: j for f in sorted((WORK / 'in').glob('*.json')) for j in json.loads(f.read_text())}
 
 
 def outputs(reviewed=True):
     """Lessons by skill: first pass out/L*.json, replaced by fix-round fixed/F*.json, then by Sonnet-reviewed
     reviewed/R*.json where the reviewer rewrote it (problems not null) and the rewrite passes check_lesson."""
     outs = {}
-    for f in sorted((WORK / 'out').glob('L*.json')) + sorted((WORK / 'fixed').glob('F*.json')):
+    for f in sorted((WORK / 'out').glob('*.json')) + sorted((WORK / 'fixed').glob('F*.json')):
         outs.update({o['skill']: o for o in json.loads(f.read_text())})
     if reviewed:
         js = jobs()
@@ -343,12 +358,12 @@ def assemble():
             if g:
                 f_ = parse_f(g['f'])
                 g = dict(g, f=sp.jscode(f_), df=sp.jscode(sp.diff(f_, X)))
-            target = ROOT / src['image']
-            if not target.exists():
+            target = ROOT / src['image'] if src['image'] else None
+            if target and not target.exists():
                 target.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy(WORKTREE / src['image'], target)
             probs.append(dict(source=q['source'].replace('LC Maths ', 'LC ').replace(' — ', ' · '),
-                              part=p['label'], marks=p['marks'], image=src['image'], note=pr.get('note'),
+                              part=p['label'], marks=p['marks'], image=src['image'], question=src.get('question'), note=pr.get('note'),
                               legend=pr['legend'], steps=deep(pr['steps'], brace_scripts), final=brace_scripts(pr['final']),
                               svg=p['workedSolution'].get('svg'), graph=g))
         s = SKILLS[sid]
@@ -378,5 +393,5 @@ def fix():
 
 
 if __name__ == '__main__':
-    {'pack': pack, 'check': check, 'assemble': assemble, 'fix': fix,
+    {'pack': lambda: pack(*sys.argv[2:3]), 'check': check, 'assemble': assemble, 'fix': fix,
      'review': review_pack, 'report': lambda: print(json.dumps(review_report(), indent=1))}[sys.argv[1]]()

@@ -1,0 +1,206 @@
+{
+ "higher": [
+  {
+   "tip": "Always differentiate and then write $f'(x) = 0$. With no differentiation you get zero, and writing $f'(x) = 0$ is itself worth marks.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2015,
+     "label": "(c)",
+     "quote": "Differentiation equals 0"
+    },
+    {
+     "year": 2020,
+     "label": "(b)",
+     "quote": "No Credit: No differentiation"
+    },
+    {
+     "year": 2020,
+     "label": "(a)(iii)",
+     "quote": "No Credit: No differentiation"
+    },
+    {
+     "year": 2019,
+     "label": "(e)",
+     "quote": "If calculus is not used then award no credit"
+    }
+   ]
+  },
+  {
+   "tip": "Finding $x$ is not the end. Put it back into the original function to get the $y$-value and give the full turning point.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2020,
+     "label": "(b)",
+     "quote": "High Partial Credit: Turning points found"
+    },
+    {
+     "year": 2017,
+     "label": "(b)",
+     "quote": "One of Max/Min must be identified for full credit"
+    },
+    {
+     "year": 2022,
+     "label": "(d)",
+     "quote": "Finds greatest value of"
+    }
+   ]
+  },
+  {
+   "tip": "Say whether it is a max or a min and back it up, for example with $f''(x)$, or with values on each side. Guessing by trial and error only earns full marks if you show points on each side.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2017,
+     "label": "(b)",
+     "quote": "One of Max/Min must be identified for full credit"
+    },
+    {
+     "year": 2016,
+     "label": "(a)(i)",
+     "quote": "must show points on each side of max point"
+    },
+    {
+     "year": 2021,
+     "label": "(b)(ii)",
+     "quote": "no further justification that it is the max"
+    }
+   ]
+  },
+  {
+   "tip": "Even a messy attempt earns marks. A correct derivative that is not simplified still gets most of the marks, and you also score for a correct $x$-value even if you stop there.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2018,
+     "label": "(e)(ii)",
+     "quote": "Differentiation correct but un-simplified"
+    },
+    {
+     "year": 2020,
+     "label": "(b)",
+     "quote": "Any relevant differentiation"
+    },
+    {
+     "year": 2016,
+     "label": "(a)(i)",
+     "quote": "any correct differentiation"
+    }
+   ]
+  },
+  {
+   "tip": "Check your final answer is in the form asked. Wrong rounding costs a mark, and if the equation gives two $t$ values, say which one is outside the allowed range.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2025,
+     "label": "(e)(ii)",
+     "quote": "Incorrect or no rounding"
+    },
+    {
+     "year": 2023,
+     "label": "(c)",
+     "quote": "written down and not explicitly excluded"
+    }
+   ]
+  }
+ ],
+ "ordinary": [
+  {
+   "tip": "You must differentiate. Solving the original function or using no calculus gets zero, and even correct differentiation on its own earns some marks.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2021,
+     "label": "(c)",
+     "quote": "If differentiation is not used, award zero marks"
+    },
+    {
+     "year": 2016,
+     "label": "(d)(iii)",
+     "quote": "Must have calculus in (d)(ii) to get any marks"
+    },
+    {
+     "year": 2022,
+     "label": "(a)(iv)",
+     "quote": "there must be some correct differentiation in order to award any credit"
+    },
+    {
+     "year": 2018,
+     "label": "(c)",
+     "quote": "any effort at differentiation"
+    }
+   ]
+  },
+  {
+   "tip": "After differentiating, set the derivative equal to $0$ and solve for $x$. Write the '$= 0$' explicitly, because it is a step the marks are tied to.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2016,
+     "label": "(d)(iii)",
+     "quote": "Lets their derivative = 0"
+    },
+    {
+     "year": 2025,
+     "label": "(b)(i), (ii)",
+     "quote": "Equates derivative to zero"
+    },
+    {
+     "year": 2024,
+     "label": "(b)",
+     "quote": "Three steps involved in solution"
+    }
+   ]
+  },
+  {
+   "tip": "Then find the $y$-value by putting your $x$ back into the original function. The question usually wants both, and you still get this mark using your own $x$.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2025,
+     "label": "(b)(i), (ii)",
+     "quote": "Finds the maximum value"
+    },
+    {
+     "year": 2024,
+     "label": "(b)",
+     "quote": "Three steps involved in solution"
+    },
+    {
+     "year": 2020,
+     "label": "(c)(ii)",
+     "quote": "with candidates value from (c)(ii)"
+    }
+   ]
+  },
+  {
+   "tip": "If the question lets you find the turning point from a graph, a correct graphical answer can earn full marks. Only do this if calculus is not demanded.",
+   "confidence": "repeated",
+   "sources": [
+    {
+     "year": 2015,
+     "label": "(b)",
+     "quote": "Accept correct turning point found graphically for full marks"
+    },
+    {
+     "year": 2017,
+     "label": "(b)",
+     "quote": "Accept correct turning point found graphically for full marks"
+    }
+   ]
+  },
+  {
+   "tip": "Do not solve the function itself equal to $0$ when asked for the turning point. That gets zero; you need the derivative equal to $0$.",
+   "confidence": "once",
+   "sources": [
+    {
+     "year": 2023,
+     "label": "(a)(ii)",
+     "quote": "Zero marks for solving"
+    }
+   ]
+  }
+ ]
+}

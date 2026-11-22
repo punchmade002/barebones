@@ -1,0 +1,538 @@
+{
+ "practice-circ-chord-length-1": {
+  "question": "A circle has centre $O$ and radius $13$ cm.\nA chord $AB$ is $5$ cm from $O$.\nFind $|AB|$.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Draw the right-angled triangle",
+     "lines": [
+      {
+       "text": "The perpendicular from $O$ to the chord meets $AB$ at its midpoint $M$, so $OMB$ has a right angle at $M$."
+      },
+      {
+       "tex": "|OB| &= 13",
+       "sym": "13",
+       "new": true
+      },
+      {
+       "tex": "|OM| &= 5",
+       "sym": "5",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Find half the chord with Pythagoras",
+     "lines": [
+      {
+       "tex": "|MB|^2 &= 13^2 - 5^2",
+       "sym": "13**2-5**2",
+       "new": true
+      },
+      {
+       "tex": "&= 169 - 25",
+       "sym": "169-25"
+      },
+      {
+       "tex": "&= 144",
+       "sym": "144"
+      },
+      {
+       "tex": "|MB| &= 12",
+       "sym": "sqrt(144)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Double it to get the chord",
+     "lines": [
+      {
+       "tex": "|AB| &= 2 \\times 12",
+       "sym": "2*12",
+       "new": true
+      },
+      {
+       "tex": "&= 24",
+       "sym": "24"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "|AB| = 24\\text{ cm}"
+  },
+  "finalSym": "24",
+  "answerSym": "2*sqrt(13**2-5**2)",
+  "skill": "circ-chord-length"
+ },
+ "practice-circ-chord-length-2": {
+  "question": "A circular window has radius $17$ cm.\nA straight bar across the window is a chord of length $30$ cm.\nHow far is the bar from the centre of the window?",
+  "level": "ordinary",
+  "marks": 10,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Find half the chord",
+     "lines": [
+      {
+       "text": "The perpendicular from the centre to the bar bisects it, giving a right-angled triangle with hypotenuse $17$."
+      },
+      {
+       "tex": "\\tfrac{1}{2}(30) &= 15",
+       "sym": "30/2",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Use Pythagoras",
+     "lines": [
+      {
+       "tex": "d^2 &= 17^2 - 15^2",
+       "sym": "17**2-15**2",
+       "new": true
+      },
+      {
+       "tex": "&= 289 - 225",
+       "sym": "289-225"
+      },
+      {
+       "tex": "&= 64",
+       "sym": "64"
+      }
+     ]
+    },
+    {
+     "title": "Take the square root",
+     "lines": [
+      {
+       "tex": "d &= \\sqrt{64}",
+       "sym": "sqrt(64)",
+       "new": true
+      },
+      {
+       "tex": "&= 8",
+       "sym": "8"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "d = 8\\text{ cm}"
+  },
+  "finalSym": "8",
+  "answerSym": "sqrt(17**2-(30/2)**2)",
+  "skill": "circ-chord-length"
+ },
+ "practice-cx-polar-1": {
+  "question": "Write $z = -1 + i\\sqrt{3}$ in polar form $r(\\cos\\theta + i\\sin\\theta)$, with $0 \\le \\theta < 2\\pi$.",
+  "level": "higher",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Find the modulus",
+     "lines": [
+      {
+       "tex": "r &= \\sqrt{(-1)^2 + (\\sqrt{3})^2}",
+       "sym": "sqrt((-1)**2+(sqrt(3))**2)",
+       "new": true
+      },
+      {
+       "tex": "&= \\sqrt{4}",
+       "sym": "sqrt(4)"
+      },
+      {
+       "tex": "&= 2",
+       "sym": "2"
+      }
+     ]
+    },
+    {
+     "title": "Find the argument",
+     "lines": [
+      {
+       "text": "The real part is negative and the imaginary part is positive, so $z$ is in the second quadrant."
+      },
+      {
+       "tex": "\\tan\\alpha &= \\frac{\\sqrt{3}}{1} = \\sqrt{3}",
+       "sym": "Eq(tan(alpha), sqrt(3))",
+       "new": true
+      },
+      {
+       "tex": "\\alpha &= \\frac{\\pi}{3}",
+       "sym": "pi/3",
+       "new": true
+      },
+      {
+       "tex": "\\theta &= \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}",
+       "sym": "pi-pi/3",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Write in polar form",
+     "lines": [
+      {
+       "tex": "z &= 2\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)",
+       "sym": "2*(cos(2*pi/3)+I*sin(2*pi/3))",
+       "new": true
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "z = 2\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)"
+  },
+  "finalSym": "2*(cos(2*pi/3)+I*sin(2*pi/3))",
+  "answerSym": "Abs(-1+sqrt(3)*I)*(cos(arg(-1+sqrt(3)*I))+I*sin(arg(-1+sqrt(3)*I)))",
+  "skill": "cx-polar"
+ },
+ "practice-cx-polar-2": {
+  "question": "Write $w = -\\sqrt{3} - i$ in the form $r(\\cos\\theta + i\\sin\\theta)$, where $0 \\le \\theta < 2\\pi$.",
+  "level": "higher",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Find the modulus",
+     "lines": [
+      {
+       "tex": "r &= \\sqrt{(-\\sqrt{3})^2 + (-1)^2}",
+       "sym": "sqrt((-sqrt(3))**2+(-1)**2)",
+       "new": true
+      },
+      {
+       "tex": "&= \\sqrt{4}",
+       "sym": "sqrt(4)"
+      },
+      {
+       "tex": "&= 2",
+       "sym": "2"
+      }
+     ]
+    },
+    {
+     "title": "Find the argument",
+     "lines": [
+      {
+       "text": "Both parts are negative, so $w$ is in the third quadrant."
+      },
+      {
+       "tex": "\\tan\\alpha &= \\frac{1}{\\sqrt{3}}",
+       "sym": "Eq(tan(alpha), 1/sqrt(3))",
+       "new": true
+      },
+      {
+       "tex": "\\alpha &= \\frac{\\pi}{6}",
+       "sym": "pi/6",
+       "new": true
+      },
+      {
+       "tex": "\\theta &= \\pi + \\frac{\\pi}{6} = \\frac{7\\pi}{6}",
+       "sym": "pi+pi/6",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Write in polar form",
+     "lines": [
+      {
+       "tex": "w &= 2\\left(\\cos\\frac{7\\pi}{6} + i\\sin\\frac{7\\pi}{6}\\right)",
+       "sym": "2*(cos(7*pi/6)+I*sin(7*pi/6))",
+       "new": true
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "w = 2\\left(\\cos\\frac{7\\pi}{6} + i\\sin\\frac{7\\pi}{6}\\right)"
+  },
+  "finalSym": "2*(cos(7*pi/6)+I*sin(7*pi/6))",
+  "answerSym": "Abs(-sqrt(3)-I)*(cos(arg(-sqrt(3)-I)+2*pi)+I*sin(arg(-sqrt(3)-I)+2*pi))",
+  "skill": "cx-polar"
+ },
+ "practice-diff-second-1": {
+  "question": "$f(x) = x^4 - 2x^3 + 5x$.\nFind $f''(x)$.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Differentiate once",
+     "lines": [
+      {
+       "tex": "f'(x) &= 4x^3 - 6x^2 + 5",
+       "sym": "4*x**3-6*x**2+5",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Differentiate again",
+     "lines": [
+      {
+       "tex": "f''(x) &= 12x^2 - 12x",
+       "sym": "12*x**2-12*x",
+       "new": true
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "f''(x) = 12x^2 - 12x"
+  },
+  "finalSym": "12*x**2-12*x",
+  "answerSym": "diff(x**4-2*x**3+5*x, x, 2)",
+  "skill": "diff-second"
+ },
+ "practice-diff-second-2": {
+  "question": "$f(x) = 2x^3 - 9x^2 + 12x + 1$.\nFind the value of $x$ for which $f''(x) = 0$.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Find $f'(x)$",
+     "lines": [
+      {
+       "tex": "f'(x) &= 6x^2 - 18x + 12",
+       "sym": "6*x**2-18*x+12",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Find $f''(x)$",
+     "lines": [
+      {
+       "tex": "f''(x) &= 12x - 18",
+       "sym": "12*x-18",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Set $f''(x) = 0$ and solve",
+     "lines": [
+      {
+       "tex": "12x - 18 &= 0",
+       "sym": "Eq(12*x-18,0)",
+       "new": true
+      },
+      {
+       "tex": "12x &= 18",
+       "sym": "Eq(12*x,18)"
+      },
+      {
+       "tex": "x &= \\frac{3}{2}",
+       "sym": "Eq(x,Rational(3,2))"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "x = \\frac{3}{2}"
+  },
+  "finalSym": "Rational(3,2)",
+  "answerSym": "solve(Eq(diff(2*x**3-9*x**2+12*x+1, x, 2),0),x)[0]",
+  "skill": "diff-second"
+ },
+ "practice-diff-second-3": {
+  "question": "A particle moves in a straight line. Its distance from a point $O$ after $t$ seconds is\n$s = t^3 - 6t^2 + 4t$ metres.\nThe acceleration is $\\dfrac{d^2s}{dt^2}$. Find the acceleration when $t = 4$.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Find the velocity",
+     "lines": [
+      {
+       "tex": "\\frac{ds}{dt} &= 3t^2 - 12t + 4",
+       "sym": "3*t**2-12*t+4",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Find the acceleration",
+     "lines": [
+      {
+       "tex": "\\frac{d^2s}{dt^2} &= 6t - 12",
+       "sym": "6*t-12",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Substitute $t = 4$",
+     "lines": [
+      {
+       "tex": "6(4) - 12 &= 24 - 12",
+       "sym": "6*4-12",
+       "new": true
+      },
+      {
+       "tex": "&= 12",
+       "sym": "12"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "12\\text{ m/s}^2"
+  },
+  "finalSym": "12",
+  "answerSym": "diff(t**3-6*t**2+4*t, t, 2).subs(t,4)",
+  "skill": "diff-second"
+ },
+ "practice-geo-thm19-1": {
+  "question": "$A$, $B$ and $C$ are points on a circle with centre $O$.\n$B$ lies on the major arc $AC$.\n$|\\angle AOC| = 110^\\circ$.\nFind $|\\angle ABC|$, giving a reason.",
+  "level": "higher",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Identify the arc",
+     "lines": [
+      {
+       "text": "$\\angle AOC$ is the angle at the centre and $\\angle ABC$ is the angle at the circumference, both standing on the arc $AC$."
+      }
+     ]
+    },
+    {
+     "title": "Apply Theorem 19",
+     "lines": [
+      {
+       "text": "The angle at the centre is twice the angle at the circumference on the same arc."
+      },
+      {
+       "tex": "|\\angle ABC| &= \\frac{1}{2}|\\angle AOC|",
+       "sym": "Eq(abc, aoc/2)",
+       "new": true
+      },
+      {
+       "tex": "&= \\frac{1}{2}(110^\\circ)",
+       "sym": "110/2",
+       "new": true
+      },
+      {
+       "tex": "&= 55^\\circ",
+       "sym": "55"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "|\\angle ABC| = 55^\\circ"
+  },
+  "finalSym": "55",
+  "answerSym": "110/2",
+  "skill": "geo-thm19"
+ },
+ "practice-geo-thm19-2": {
+  "question": "$P$, $Q$ and $R$ are points on a circle with centre $O$.\n$|\\angle PRQ| = 35^\\circ$.\nFind $|\\angle OPQ|$, giving reasons.",
+  "level": "higher",
+  "marks": 10,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Apply Theorem 19",
+     "lines": [
+      {
+       "text": "The angle at the centre is twice the angle at the circumference on the same arc $PQ$."
+      },
+      {
+       "tex": "|\\angle POQ| &= 2 \\times 35^\\circ",
+       "sym": "2*35",
+       "new": true
+      },
+      {
+       "tex": "&= 70^\\circ",
+       "sym": "70"
+      }
+     ]
+    },
+    {
+     "title": "Use the isosceles triangle",
+     "lines": [
+      {
+       "text": "$|OP| = |OQ|$ because both are radii, so triangle $OPQ$ is isosceles and $|\\angle OPQ| = |\\angle OQP|$."
+      },
+      {
+       "tex": "2|\\angle OPQ| &= 180^\\circ - 70^\\circ",
+       "sym": "180-70",
+       "new": true
+      },
+      {
+       "tex": "&= 110^\\circ",
+       "sym": "110"
+      }
+     ]
+    },
+    {
+     "title": "Solve for the angle",
+     "lines": [
+      {
+       "tex": "|\\angle OPQ| &= \\frac{110^\\circ}{2}",
+       "sym": "110/2",
+       "new": true
+      },
+      {
+       "tex": "&= 55^\\circ",
+       "sym": "55"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "|\\angle OPQ| = 55^\\circ"
+  },
+  "finalSym": "55",
+  "answerSym": "(180-2*35)/2",
+  "skill": "geo-thm19"
+ },
+ "practice-geo-thm19-3": {
+  "question": "$A$, $B$ and $C$ are points on a circle with centre $O$.\n$B$ lies on the minor arc $AC$.\n$|\\angle AOC| = 140^\\circ$.\nFind $|\\angle ABC|$, giving a reason.",
+  "level": "higher",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Find the reflex angle at the centre",
+     "lines": [
+      {
+       "text": "$B$ is on the minor arc, so the arc that $\\angle ABC$ stands on is the major arc $AC$. The angle at the centre on that arc is the reflex angle $AOC$."
+      },
+      {
+       "tex": "\\text{reflex } \\angle AOC &= 360^\\circ - 140^\\circ",
+       "sym": "360-140",
+       "new": true
+      },
+      {
+       "tex": "&= 220^\\circ",
+       "sym": "220"
+      }
+     ]
+    },
+    {
+     "title": "Apply Theorem 19",
+     "lines": [
+      {
+       "text": "The angle at the circumference is half the angle at the centre on the same arc."
+      },
+      {
+       "tex": "|\\angle ABC| &= \\frac{1}{2}(220^\\circ)",
+       "sym": "220/2",
+       "new": true
+      },
+      {
+       "tex": "&= 110^\\circ",
+       "sym": "110"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "|\\angle ABC| = 110^\\circ"
+  },
+  "finalSym": "110",
+  "answerSym": "(360-140)/2",
+  "skill": "geo-thm19"
+ }
+}
