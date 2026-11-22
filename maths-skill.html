@@ -135,6 +135,13 @@ button { font: inherit; cursor: pointer; }
 .chapter a { display: flex; justify-content: space-between; gap: 12px; padding: 7px 12px; border-radius: 8px; color: var(--ink); text-decoration: none; background: rgba(255,255,255,.7); }
 .chapter a:hover { background: #fff; box-shadow: 0 2px 10px rgba(60,40,20,.08); }
 .chapter .lvl { font-family: var(--mono); font-size: 0.7rem; color: var(--muted); align-self: center; }
+.chapter .tags { display: flex; gap: 12px; align-items: center; flex-shrink: 0; }
+.grade { display: inline-flex; align-items: center; gap: 6px; font-size: 0.72rem; font-weight: 700; color: #4a4540; white-space: nowrap; }
+.grade .dots { display: inline-flex; gap: 3px; }
+.grade i { width: 7px; height: 7px; border-radius: 50%; border: 1.5px solid var(--ink); }
+.grade i.on { background: var(--ink); }
+.top .grade { align-self: center; }
+@media (max-width: 640px) { .chapter .grade { font-size: 0; gap: 0; } }
 </style>
 </head>
 <body>
@@ -156,6 +163,10 @@ const inline = s => String(s ?? '').split(/\$([^$]+)\$/).map((bit, i) => (i % 2 
 const slotsIn = step => new Set([...JSON.stringify(step.lines).matchAll(/\\\\hl\{(\d)\}/g)].map(m => m[1]));
 const link = (n, text) => LESSONS[n.id] ? `<a href="?skill=${encodeURIComponent(n.id)}">${text}</a>` : text;
 const app = document.getElementById('app');
+// difficulty: filled dots out of 3 plus the word, so it never relies on colour
+const GRADES = ['Beginner', 'Intermediate', 'Advanced'];
+const gradeTag = g => GRADES.includes(g)
+  ? `<span class="grade" title="${g}"><span class="dots" aria-hidden="true">${GRADES.map((_, k) => `<i class="${k <= GRADES.indexOf(g) ? 'on' : ''}"></i>`).join('')}</span>${g}</span>` : '';
 
 const LESSON = LESSONS[new URLSearchParams(location.search).get('skill')];
 
@@ -163,12 +174,13 @@ const LESSON = LESSONS[new URLSearchParams(location.search).get('skill')];
 function renderIndex() {
   const by = {};
   for (const l of Object.values(LESSONS)) (by[l.chapter] ||= []).push(l);
+  for (const c in by) by[c].sort((a, b) => (a.rank ?? 1e9) - (b.rank ?? 1e9));   // easiest first (difficulty.json)
   const order = Object.keys(CHAPTERS).filter(c => by[c]);
   document.title = 'Maths skills';
   app.innerHTML = `<section class="index"><h1>Maths skills</h1>
     <p>${Object.keys(LESSONS).length} skills, each taught through a real exam part with two backups.</p>
     ${order.map(c => `<div class="chapter"><h2>${esc(CHAPTERS[c])}</h2><ul>${by[c].map(l =>
-      `<li><a href="?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="lvl">${l.level}</span></a></li>`).join('')}</ul></div>`).join('')}
+      `<li><a href="?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="tags">${gradeTag(l.grade)}<span class="lvl">${l.level}</span></span></a></li>`).join('')}</ul></div>`).join('')}
   </section>`;
 }
 
@@ -191,7 +203,7 @@ function header() {
     ? `<button class="linkish" data-act="nec" aria-expanded="${state.showNec}">Necessary skills (${LESSON.necessary.length})</button>` : '';
   const list = state.showNec && first ? `<div class="nec"><p>This skill is built from these. If a line loses you, the gap is usually one of them.</p><ul>${
     LESSON.necessary.map(n => `<li class="${n.depth > 1 ? 'deep' : ''}">${link(n, esc(n.title))} <span class="lvl">${n.level}</span></li>`).join('')}</ul></div>` : '';
-  return `<a class="back" href="?">← All skills</a><header class="top"><h1>${esc(LESSON.title)}</h1><span class="where">${where}</span>${nec}</header>${list}`;
+  return `<a class="back" href="?">← All skills</a><header class="top"><h1>${esc(LESSON.title)}</h1>${gradeTag(LESSON.grade)}<span class="where">${where}</span>${nec}</header>${list}`;
 }
 
 function legendHtml(p, found) {
