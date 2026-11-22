@@ -1,0 +1,488 @@
+{
+ "cx-divide": [
+  "no output"
+ ],
+ "cx-modulus": [
+  "no output"
+ ],
+ "num-ratio-proportion": [
+  "no output"
+ ],
+ "num-sci-notation": [
+  "no output"
+ ],
+ "diff-increasing": [
+  "no output"
+ ],
+ "diff-inflection": [
+  "no output"
+ ],
+ "diff-optimisation": [
+  "no output"
+ ],
+ "diff-rates-of-change": [
+  "no output"
+ ],
+ "diff-related-rates": [
+  "no output"
+ ],
+ "diff-slope-tangent": [
+  "no output"
+ ],
+ "diff-stationary": [
+  "no output"
+ ],
+ "diff-chain": [
+  "no output"
+ ],
+ "diff-exponential": [
+  "no output"
+ ],
+ "diff-first-principles": [
+  "no output"
+ ],
+ "diff-log": [
+  "no output"
+ ],
+ "diff-poly": [
+  "no output"
+ ],
+ "diff-product": [
+  "no output"
+ ],
+ "diff-trig": [
+  "no output"
+ ],
+ "fin-average-rate": [
+  "no output"
+ ],
+ "fin-compound-interest": [
+  "no output"
+ ],
+ "fin-costing": [
+  "no output"
+ ],
+ "fin-depreciation": [
+  "no output"
+ ],
+ "fin-error": [
+  "no output"
+ ],
+ "fin-income-tax": [
+  "no output"
+ ],
+ "fin-mortgage": [
+  "no output"
+ ],
+ "fin-percentages": [
+  "no output"
+ ],
+ "fin-profit-margin": [
+  "no output"
+ ],
+ "fin-rate-conversion": [
+  "no output"
+ ],
+ "fin-solve-rate-time": [
+  "no output"
+ ],
+ "fin-units": [
+  "no output"
+ ],
+ "fn-compare-graphs": [
+  "no output"
+ ],
+ "fn-evaluate": [
+  "no output"
+ ],
+ "fn-graph-cubic": [
+  "no output"
+ ],
+ "fn-graph-exponential": [
+  "no output"
+ ],
+ "fn-graph-linear": [
+  "no output"
+ ],
+ "fn-graph-quadratic": [
+  "no output"
+ ],
+ "fn-solve-graphically": [
+  "no output"
+ ],
+ "fn-transformations": [
+  "no output"
+ ],
+ "geo-congruence": [
+  "no output"
+ ],
+ "geo-cor3": [
+  "no output"
+ ],
+ "geo-enlargement": [
+  "no output"
+ ],
+ "geo-enlargement-centre": [
+  "no output"
+ ],
+ "geo-similar-triangles": [
+  "no output"
+ ],
+ "geo-thm14": [
+  "no output"
+ ],
+ "geo-thm2": [
+  "no output"
+ ],
+ "geo-thm20": [
+  "no output"
+ ],
+ "geo-thm4": [
+  "no output"
+ ],
+ "geo-thm9": [
+  "no output"
+ ],
+ "geo-transformations": [
+  "no output"
+ ],
+ "con-21": [
+  "no output"
+ ],
+ "ind-hidden-quadratic": [
+  "no output"
+ ],
+ "ind-solve-equation": [
+  "no output"
+ ],
+ "log-laws": [
+  "no output"
+ ],
+ "log-solve": [
+  "no output"
+ ],
+ "log-solve-exponential": [
+  "no output"
+ ],
+ "int-area-between": [
+  "no output"
+ ],
+ "int-average-value": [
+  "no output"
+ ],
+ "int-definite": [
+  "no output"
+ ],
+ "alg-equate-coefficients": [
+  "no output"
+ ],
+ "alg-evaluate": [
+  "no output"
+ ],
+ "alg-rearrange": [
+  "no output"
+ ],
+ "prob-addition-rule": [
+  "no output"
+ ],
+ "prob-arrangement-restrictions": [
+  "no output"
+ ],
+ "prob-bernoulli-3": [
+  "no output"
+ ],
+ "prob-binomial": [
+  "no output"
+ ],
+ "prob-conditional": [
+  "no output"
+ ],
+ "prob-counting-principle": [
+  "no output"
+ ],
+ "prob-equally-likely": [
+  "no output"
+ ],
+ "prob-expected-value": [
+  "no output"
+ ],
+ "prob-factorial": [
+  "no output"
+ ],
+ "prob-independence-test": [
+  "no output"
+ ],
+ "prob-independent": [
+  "no output"
+ ],
+ "prob-kth-success": [
+  "no output"
+ ],
+ "prob-ncr": [
+  "no output"
+ ],
+ "prob-sample-space": [
+  "no output"
+ ],
+ "prob-tree": [
+  "no output"
+ ],
+ "prob-venn": [
+  "no output"
+ ],
+ "prob-without-replacement": [
+  "no output"
+ ],
+ "seq-arith-find-ad": [
+  "no output"
+ ],
+ "seq-arith-nth": [
+  "no output"
+ ],
+ "seq-arith-sum": [
+  "no output"
+ ],
+ "seq-geo-nth": [
+  "no output"
+ ],
+ "seq-geo-sum": [
+  "no output"
+ ],
+ "seq-geo-sum-infinity": [
+  "no output"
+ ],
+ "seq-geo-unknown-n": [
+  "no output"
+ ],
+ "seq-limits": [
+  "no output"
+ ],
+ "seq-pattern": [
+  "no output"
+ ],
+ "seq-quadratic": [
+  "no output"
+ ],
+ "stat-averages": [
+  "no output"
+ ],
+ "stat-back-to-back": [
+  "no output"
+ ],
+ "stat-charts": [
+  "no output"
+ ],
+ "stat-correlation-calc": [
+  "no output"
+ ],
+ "stat-grouped-mean": [
+  "no output"
+ ],
+ "stat-line-best-fit": [
+  "no output"
+ ],
+ "stat-quartiles-iqr": [
+  "no output"
+ ],
+ "stat-scatter-correlation": [
+  "no output"
+ ],
+ "stat-sd": [
+  "no output"
+ ],
+ "inf-ci-mean": [
+  "no output"
+ ],
+ "inf-ci-proportion": [
+  "no output"
+ ],
+ "inf-hypothesis-moe": [
+  "no output"
+ ],
+ "inf-margin-of-error": [
+  "no output"
+ ],
+ "inf-p-value": [
+  "no output"
+ ],
+ "inf-sampling-distribution": [
+  "no output"
+ ],
+ "inf-z-test": [
+  "no output"
+ ],
+ "stat-empirical-rule": [
+  "no output"
+ ],
+ "stat-normal-inverse": [
+  "no output"
+ ],
+ "stat-normal-prob": [
+  "no output"
+ ],
+ "stat-z-score": [
+  "no output"
+ ],
+ "trig-compound": [
+  "no output"
+ ],
+ "trig-double": [
+  "no output"
+ ],
+ "trig-graph": [
+  "no output"
+ ],
+ "trig-graph-abc": [
+  "no output"
+ ],
+ "trig-solve-basic": [
+  "no output"
+ ],
+ "trig-solve-general": [
+  "no output"
+ ],
+ "trig-unit-circle": [
+  "no output"
+ ],
+ "trig-3d": [
+  "no output"
+ ],
+ "trig-area-triangle": [
+  "no output"
+ ],
+ "trig-cosine-rule": [
+  "no output"
+ ],
+ "trig-elevation": [
+  "no output"
+ ],
+ "trig-pythagoras": [
+  "no output"
+ ],
+ "trig-ratios-right": [
+  "no output"
+ ],
+ "trig-sine-rule": [
+  "no output"
+ ],
+ "ineq-linear": [
+  "no output"
+ ],
+ "ineq-modulus": [
+  "no output"
+ ],
+ "quad-complete-square": [
+  "no output"
+ ],
+ "quad-discriminant": [
+  "no output"
+ ],
+ "quad-form-from-roots": [
+  "no output"
+ ],
+ "quad-solve-factor": [
+  "no output"
+ ],
+ "quad-solve-formula": [
+  "no output"
+ ],
+ "sim-linear-2": [
+  "no output"
+ ],
+ "sim-linear-3": [
+  "no output"
+ ],
+ "sim-linear-quadratic": [
+  "no output"
+ ],
+ "eq-linear": [
+  "no output"
+ ],
+ "eq-linear-fractions": [
+  "no output"
+ ],
+ "eq-surd": [
+  "no output"
+ ],
+ "eq-word-problem": [
+  "no output"
+ ],
+ "mens-arc-sector": [
+  "no output"
+ ],
+ "mens-composite": [
+  "no output"
+ ],
+ "mens-equate-volumes": [
+  "no output"
+ ],
+ "mens-nets": [
+  "no output"
+ ],
+ "mens-perimeter-area": [
+  "no output"
+ ],
+ "mens-surface-area": [
+  "no output"
+ ],
+ "mens-trapezoidal": [
+  "no output"
+ ],
+ "mens-volume": [
+  "no output"
+ ],
+ "circ-eq-centre-radius": [
+  "no output"
+ ],
+ "circ-eq-origin": [
+  "no output"
+ ],
+ "circ-from-conditions": [
+  "no output"
+ ],
+ "circ-point-position": [
+  "no output"
+ ],
+ "circ-tangent-at-point": [
+  "no output"
+ ],
+ "circ-touching": [
+  "no output"
+ ],
+ "line-angle-between": [
+  "no output"
+ ],
+ "line-area-triangle": [
+  "no output"
+ ],
+ "line-distance": [
+  "no output"
+ ],
+ "line-divide-ratio": [
+  "no output"
+ ],
+ "line-equation": [
+  "no output"
+ ],
+ "line-intersection": [
+  "no output"
+ ],
+ "line-linear-model": [
+  "no output"
+ ],
+ "line-midpoint": [
+  "no output"
+ ],
+ "line-parallel-perp": [
+  "no output"
+ ],
+ "line-perp-distance": [
+  "no output"
+ ],
+ "line-point-on": [
+  "no output"
+ ],
+ "line-slope": [
+  "no output"
+ ]
+}

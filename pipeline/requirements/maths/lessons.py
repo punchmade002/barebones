@@ -152,6 +152,14 @@ def check_graph(g):
     return errs
 
 
+def bare_tex(s):
+    """Prose (ask, note) is shown as text with $…$ rendered: a bare z_2 or \\sqrt prints literally."""
+    return bool(re.search(r'[_^\\]', re.sub(r'\$[^$]*\$', '', s)))
+
+
+assert bare_tex('Which is z_2?') and not bare_tex('Which is $z_2$, the root of $\\sqrt{3}$?')
+
+
 def check_lesson(job, out):
     errs, cands = [], {c['part']: c for c in job['candidates']}
     probs = out.get('problems', [])
@@ -165,6 +173,8 @@ def check_lesson(job, out):
         tag = pr['part'].split('maths-pp-')[-1]
         if n and not (pr.get('note') or '').strip():
             errs.append(f'{tag}: backup needs a "what\'s different" note')
+        if bare_tex(pr.get('note') or ''):
+            errs.append(f'{tag}: note has LaTeX outside $…$')
         if len(pr.get('steps', [])) != len(c['steps']):
             errs.append(f'{tag}: has {len(pr.get("steps", []))} steps, bank has {len(c["steps"])}')
             continue
@@ -172,6 +182,8 @@ def check_lesson(job, out):
         for k, (a, b) in enumerate(zip(pr['steps'], c['steps'])):
             if not (a.get('ask') or '').strip():
                 errs.append(f'{tag} step {k + 1}: missing ask')
+            elif bare_tex(a['ask']):
+                errs.append(f'{tag} step {k + 1}: ask has LaTeX outside $…$')
             if norm(a.get('title')) != norm(b['title']):
                 errs.append(f'{tag} step {k + 1}: title changed')
             if len(a.get('lines', [])) != len(b['lines']):

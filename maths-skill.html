@@ -216,12 +216,12 @@ function render() {
     const done = state.shown === p.steps.length;
     const found = new Set(p.steps.slice(0, state.shown).flatMap(s => [...slotsIn(s)]));
     // part crops (pipeline/rebuild/maths_part_crops.py): question header and stem, then only this part
-    const question = `<div class="part">Part ${esc(p.part)}</div>
+    const question = `${p.part ? `<div class="part">Part ${esc(p.part)}</div>` : ''}
       <figure class="pasted" style="margin:0"><a href="${esc(p.image)}" target="_blank" rel="noopener" title="Open full size"><img src="${esc(p.image)}" alt="${esc(p.source)}, part ${esc(p.part)}"></a>
       <figcaption><span>${esc(p.source)}</span><span>${p.marks ? p.marks + ' marks · ' : ''}tap to enlarge</span></figcaption></figure>`;
     let work = '';
     if (!state.started) {
-      work = `<div class="start"><p><b>Copybook first.</b> Do part ${esc(p.part)} in your copy, every line, the way you would in the exam.</p>
+      work = `<div class="start"><p><b>Copybook first.</b> Do ${p.part ? 'part ' + esc(p.part) : 'it'} in your copy, every line, the way you would in the exam.</p>
         <div class="row"><button class="btn btn-primary" data-act="start">I've tried it: walk me through</button>
         <button class="btn btn-plain" data-act="got">I got it right</button></div></div>`;
     } else {
@@ -281,7 +281,8 @@ function drawGraph(p, found) {
       { strokeColor: sl.line ? C[sl.line] : pencil, strokeWidth: 2.2, fixed: true, highlight: false }));
   const span = g.box[2] - g.box[0];
   // start the dot away from the answers, so the student has to move it there
-  const x0 = keepX ?? (pts.length ? (pts[0].x - g.box[0] > span / 2 ? g.box[0] + 0.2 * span : g.box[0] + 0.8 * span) : g.box[0] + 0.7 * span);
+  const far = t => Math.min(...pts.map(pt => Math.abs(g.box[0] + t * span - pt.x)), span);
+  const x0 = keepX ?? g.box[0] + span * [0.15, 0.3, 0.5, 0.7, 0.85].reduce((a, b) => (far(b) > far(a) ? b : a));
   const glider = board.create('glider', [x0, f(x0), curve], { name: '', size: 6, fillColor: C[1], strokeColor: '#fff', strokeWidth: 2, showInfobox: false });
   if (g.tangent) slotEls[1].push(board.create('tangent', [glider], { strokeColor: C[1], strokeWidth: 2, highlight: false }));
   const out = document.getElementById('readout'), xFound = has(sl.x) || has(sl.y);
