@@ -6,104 +6,127 @@
   "notes": [
     {
       "h": "Addition reactions",
+      "b": "Organic reactions fall into five types, and the first is addition. It is the characteristic reaction of compounds with a carbon-carbon double bond, because the double bond can open up to take on new atoms.",
       "points": [
         "An addition reaction is one in which two or more molecules react to form a single molecule.",
-        "Atoms add across a double (or triple) bond, so an unsaturated compound becomes saturated and there is only one product.",
-        "Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane.",
-        "Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.",
+        "Atoms add across a double (or triple) bond, so an unsaturated compound (one with a C=C or C≡C bond) becomes saturated (only single bonds) and there is only one product.",
+        "Ethene and bromine: CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, giving 1,2-dibromoethane. Bromine water changes from orange (red-brown) to colourless, which is the test for unsaturation.",
         "Ethene and chlorine: CH₂=CH₂ + Cl₂ → CH₂ClCH₂Cl, giving 1,2-dichloroethane.",
         "Ethene and hydrogen chloride: CH₂=CH₂ + HCl → CH₃CH₂Cl, giving chloroethane.",
         "Ethene and water: CH₂=CH₂ + H₂O → CH₃CH₂OH, giving ethanol; this is the industrial route to ethanol.",
-        "Ethene and hydrogen with a nickel catalyst: CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.",
-        "Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions; see below."
-      ]
+        "Ethene and hydrogen with a nickel catalyst (a substance that speeds up the reaction without being used up): CH₂=CH₂ + H₂ → CH₃CH₃, giving ethane; this is hydrogenation.",
+        "Addition polymerisation, e.g. ethene to poly(ethene), is a series of addition reactions, because each monomer (small molecule) adds on to the growing chain. It is taught in full later in this subsection."
+      ],
+      "tip": "Define addition as atoms adding across a multiple bond to give one product, not as 'adding a reagent'. Alkanes do not undergo addition; alkenes do. You may be asked to name the reaction type for ethene + bromine."
     },
     {
       "h": "Substitution reactions",
+      "b": "In a substitution reaction one atom or group is swapped for another, so two reactants give two products. Alkanes, which have no double bond to add across, react this way.",
       "points": [
         "A substitution reaction is one in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms; two reactants give two products.",
         "Chlorination of an alkane in ultraviolet light: CH₄ + Cl₂ → CH₃Cl + HCl, where a hydrogen atom is replaced by a chlorine atom.",
         "Ethane gives chloroethane in the same way: C₂H₆ + Cl₂ → C₂H₅Cl + HCl.",
-        "Esterification: a carboxylic acid and an alcohol give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
-        "In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol.",
+        "Esterification: a carboxylic acid (contains –COOH) and an alcohol (contains –OH) give an ester and water, catalysed by H⁺ from concentrated sulfuric acid, e.g. CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
+        "In esterification the –OH of the acid is replaced by the –OC₂H₅ group of the alcohol, which is why it counts as substitution.",
         "Esterification is classed as substitution; it is also called a condensation reaction, because water is lost as two molecules join.",
-        "Hydrolysis of an ester is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.",
-        "Alkanes react by substitution, not addition, because they have no double bond to add across."
-      ]
+        "Hydrolysis of an ester (splitting it using water or a base) is also a substitution: the –OR group is replaced by –OH (or by –O⁻ in base), e.g. CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.",
+        "Alkanes (saturated hydrocarbons) react by substitution, not addition, because they have no double bond to add across."
+      ],
+      "tip": "Condensation is not one of the five types; esterification is classed as substitution. You may be asked to classify esterification. Define substitution as one group replacing another, giving two products."
     },
     {
       "h": "Elimination reactions",
+      "b": "Elimination is the reverse of addition. A small molecule is stripped out of a larger one, and the larger molecule is left with a double bond.",
       "points": [
         "An elimination reaction is one in which a small molecule is removed from a larger molecule, leaving a double bond in the larger molecule.",
         "Dehydration of ethanol over heated aluminium oxide (a white solid, used as the catalyst): CH₃CH₂OH → CH₂=CH₂ + H₂O.",
         "Water is the small molecule removed, so this elimination is also called a dehydration.",
         "Propan-2-ol gives propene and water: CH₃CH(OH)CH₃ → CH₃CH=CH₂ + H₂O.",
-        "A haloalkane can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.",
-        "1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC.",
+        "A haloalkane (an alkane with a halogen atom such as Cl) can lose a hydrogen halide: CH₃CH₂Cl → CH₂=CH₂ + HCl.",
+        "1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC (the small molecule that is later joined into the polymer PVC).",
         "Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated."
-      ]
+      ],
+      "tip": "Elimination must leave a double bond. A reaction that simply removes atoms without forming a multiple bond is not elimination. You may be asked to define it, or to name the type for ethanol → ethene."
     },
     {
       "h": "Redox reactions",
+      "b": "Redox means reduction and oxidation happening together. In organic chemistry you can usually spot them by counting oxygen and hydrogen atoms.",
       "points": [
         "In organic chemistry, oxidation is the gain of oxygen or the loss of hydrogen.",
         "Reduction is the gain of hydrogen or the loss of oxygen.",
-        "Oxidation is also the loss of electrons and an increase in oxidation number; see \"Oxidation and reduction\".",
-        "Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate.",
-        "Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH.",
-        "Combustion is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O."
-      ]
+        "Oxidation is also the loss of electrons and an increase in oxidation number (the charge an atom would have if all its bonds were ionic). There is more on this in Oxidation and reduction.",
+        "Ethanol is oxidised to ethanal, which loses two H atoms, and then to ethanoic acid, which gains one O atom, using acidified potassium permanganate as the oxidising agent.",
+        "Ethanal is reduced to ethanol by hydrogen with a nickel catalyst: CH₃CHO + H₂ → CH₃CH₂OH. This is reduction because the molecule gains hydrogen.",
+        "Combustion (burning in oxygen) is a redox reaction in which the carbon and hydrogen are oxidised, e.g. CH₄ + 2O₂ → CO₂ + 2H₂O."
+      ],
+      "tip": "Classify each step of a scheme as oxidation or reduction by asking whether O or H was gained or lost. You may be asked to classify the conversion of ethanal to ethanol."
     },
     {
       "h": "Acid–base reactions",
+      "b": "An acid–base reaction is about a proton moving from one species to another. Carboxylic acids show this clearly, while alcohols are barely acidic.",
       "points": [
         "An acid–base reaction is a transfer of a proton (H⁺) from an acid to a base, as defined by Brønsted–Lowry.",
         "Carboxylic acids react with bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
         "Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
         "Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.",
         "Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.",
-        "Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; see \"Physical properties and acidity\"."
+        "Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂. There is more on this in Physical properties and acidity."
       ]
     },
     {
       "h": "Analysing a given reaction (Higher Level only)",
+      "b": "At Higher Level you must be able to look at an unfamiliar reaction and say which type or types it is. Work through the checks in a fixed order.",
       "points": [
         "Compare the molecules before and after: two reactants giving one product across a C=C bond is addition; one reactant giving two products with a new C=C bond is elimination; two reactants giving two products with one group swapped for another is substitution.",
         "Then check for redox, by asking whether the organic compound has gained or lost O or H (whether an oxidation number has changed), and for acid–base, by asking whether a proton has moved from an acid to a base.",
-        "One reaction can be of more than one type: hydrogenation of ethene is addition and reduction; esterification is substitution and condensation; base hydrolysis of an ester is substitution and acid–base.",
+        "One reaction can be of more than one type, so give every type that fits: hydrogenation of ethene is addition and reduction.",
+        "Esterification is substitution and condensation, and base hydrolysis of an ester is substitution and acid–base."
+      ],
+      "tip": "You may be asked to classify each step in a scheme, so name every type that fits and give your reason, for example the gain of hydrogen for reduction."
+    },
+    {
+      "h": "Bonds broken and formed in reactions (Higher Level only)",
+      "b": "Higher Level questions also ask which bonds break and form. A pi bond is the second, weaker bond of a C=C double bond, added to the stronger C–C sigma bond that is already there.",
+      "points": [
         "Dehydration of ethanol: a C–H bond and a C–O bond are broken and an O–H bond forms in the water; a C=C double bond forms, with a pi bond added to the existing C–C sigma bond.",
         "Addition of water to ethene: the pi bond of C=C and an O–H bond of water are broken; a C–H bond and a C–O bond are formed.",
         "Ethanol to ethanal is oxidation: an O–H bond and a C–H bond are broken and a C=O pi bond forms.",
         "Ethanal to ethanoic acid is oxidation by gain of an O atom: a C–H bond is replaced by C–OH.",
         "Reaction of a carboxylic acid with magnesium shows acidic behaviour but is a redox reaction: Mg is oxidised to Mg²⁺ and H⁺ is reduced to H₂.",
         "The reaction of sodium with ethanol is likewise a redox reaction."
-      ]
+      ],
+      "tip": "You may be asked for the bonds broken and formed in converting ethanol to ethene, or ethene to ethanol. List both the bonds broken and the bonds formed, and name the type of reaction."
     },
     {
       "h": "Polymers and monomers",
+      "b": "Many everyday plastics are built by joining huge numbers of small molecules into one very long molecule. The words polymer, monomer and repeating unit describe this.",
       "points": [
         "A polymer is a very large molecule, a macromolecule, made of many small units called monomers joined by covalent bonds in a long chain.",
         "A monomer is a small molecule that joins with many others to form a polymer; polymerisation is the reaction in which monomers join to form a polymer.",
         "The repeating unit is the part of the polymer whose repetition makes up the whole chain, apart from the ends.",
-        "Polymer chains contain thousands of repeating units, so their relative molecular masses are very large and vary from chain to chain.",
-        "Example: a poly(ethene) chain of Mr 28 000 contains about 28 000 ÷ 28 = 1000 ethene units.",
+        "Polymer chains contain thousands of repeating units, so their relative molecular masses (Mr, the mass of a molecule compared with the carbon-12 standard) are very large and vary from chain to chain.",
+        "Example: a poly(ethene) chain of Mr 28 000 contains about 28 000 ÷ 28 = 1000 ethene units, because the Mr of ethene is 28.",
         "Many plastics are polymers, and most addition polymers are made from monomers obtained from crude oil."
-      ]
+      ],
+      "tip": "Define polymer, monomer and repeating unit, and name the polymer formed from ethene (poly(ethene)). You may also be asked which compound in a scheme can be polymerised."
     },
     {
       "h": "How addition polymerisation works",
+      "b": "Monomers with a C=C double bond can join end to end because each double bond opens up, just as in an ordinary addition reaction. Repeating this thousands of times builds the chain.",
       "points": [
         "An addition polymer is formed when monomers containing a C=C double bond join by addition reactions; usually only one type of monomer is used.",
-        "In each addition the pi bond of C=C breaks, and the electrons form new C–C single bonds to neighbouring monomers, giving a long chain of carbon atoms, the backbone.",
-        "No other product is formed, so the polymer has the same empirical formula as the monomer.",
+        "In each addition the pi bond of C=C (the weaker, second bond of the double bond) breaks, and the electrons form new C–C single bonds to neighbouring monomers, giving a long chain of carbon atoms, the backbone.",
+        "No other product is formed, so the polymer has the same empirical formula (simplest whole-number ratio of atoms) as the monomer.",
         "General equation: n CH₂=CHX → –(CH₂–CHX)ₙ–, where X is H, Cl or C₆H₅.",
         "The polymer is saturated, with no C=C left, so unlike its monomer it does not decolourise bromine water.",
         "Drawing: show the monomer with its C=C; show the repeating unit with single bonds and a bond sticking out at each end.",
         "To draw two repeating units, show four backbone carbons in a row, with the side groups on alternate carbons and an open bond at each end; do not write atoms at the ends of the open bonds."
-      ]
+      ],
+      "tip": "The polymer has no C=C, because the monomer's double bond becomes a single bond in the chain, so never draw a double bond in the repeating unit. Side groups (Cl, C₆H₅) go on alternate carbon atoms of the chain."
     },
     {
       "h": "Poly(ethene)",
+      "b": "Poly(ethene) is the simplest addition polymer. How closely its chains pack decides whether it is soft and flexible or strong and rigid.",
       "points": [
         "The monomer is ethene, CH₂=CH₂, and the repeating unit is –CH₂–CH₂–; poly(ethene) is also called polythene or polyethylene.",
         "Low-density poly(ethene), LDPE, has branched chains that cannot pack closely, so it is soft and flexible.",
@@ -111,22 +134,26 @@
         "High-density poly(ethene), HDPE, has unbranched chains that pack closely, so it is stronger and more rigid, with a higher melting point.",
         "HDPE is used for milk crates, bottles, buckets, bowls, toys, pipes and car fuel tanks.",
         "Diagram: two repeating units of poly(ethene), –CH₂–CH₂–CH₂–CH₂–, with open end bonds."
-      ]
+      ],
+      "tip": "You may be asked to draw two repeating units of poly(ethene), or to compare it with polystyrene under monomer, structure, one property and two uses."
     },
     {
       "h": "Poly(chloroethene), PVC",
+      "b": "PVC is ethene with one hydrogen replaced by chlorine. The polar C–Cl bond gives it very different properties from poly(ethene).",
       "points": [
         "The monomer is chloroethene, also called vinyl chloride, CH₂=CHCl; the repeating unit is –CH₂–CHCl–.",
         "Poly(chloroethene) is also called polyvinyl chloride, PVC.",
-        "The polar C–Cl bonds give permanent dipole–dipole attractions between the chains, so rigid PVC is strong and rigid.",
+        "The polar C–Cl bonds (the shared electrons sit nearer the chlorine) give permanent dipole–dipole attractions between the chains, so rigid PVC is strong and rigid.",
         "Rigid PVC is used for window frames, doors, gutters, drainpipes, water pipes and bank cards.",
         "Adding plasticisers, small molecules that let the chains slide past each other, makes flexible PVC.",
         "Flexible PVC is used for electrical cable insulation, flooring and raincoats.",
         "Diagram: two repeating units of PVC, –CH₂–CHCl–CH₂–CHCl–, with open end bonds."
-      ]
+      ],
+      "tip": "Poly(chloroethene) is PVC; don't swap its monomer with polystyrene's. You may be asked to name the monomer, draw two repeating units, give two uses, and relate its properties to its structure."
     },
     {
       "h": "Poly(phenylethene), polystyrene",
+      "b": "Polystyrene is ethene with one hydrogen replaced by a large benzene ring (a ring of six carbon atoms). The bulk of that ring controls the properties.",
       "points": [
         "The monomer is phenylethene, also called styrene, C₆H₅CH=CH₂, which is ethene with one hydrogen replaced by a benzene ring; the repeating unit is –CH₂–CH(C₆H₅)–.",
         "The bulky benzene rings stop the chains moving past each other, so solid polystyrene is rigid and brittle.",
@@ -134,10 +161,12 @@
         "Expanded polystyrene is blown with gas into a foam, which makes it very light and a good thermal insulator.",
         "Expanded polystyrene is used for packaging, takeaway food boxes, ceiling tiles and building insulation.",
         "Diagram: two repeating units of polystyrene, with a benzene ring on alternate carbon atoms."
-      ]
+      ],
+      "tip": "Poly(phenylethene) is polystyrene; don't swap its monomer with PVC's. Relate its properties and uses to its structure, as questions on PVC and polystyrene ask."
     },
     {
       "h": "Applications: fuels, food production and household products",
+      "b": "Addition polymers are used everywhere because their properties suit the job. The same few polymers turn up in fuel systems, farming, food packaging and the home.",
       "points": [
         "Fuels: HDPE fuel tanks in cars are light, tough and do not corrode; plastic fuel cans and pipes are also used.",
         "Waste plastics can be burned for energy, or broken down by heating (pyrolysis) into liquid fuels.",
@@ -146,24 +175,43 @@
         "Food packaging: poly(ethene) film and bags and polystyrene trays keep food clean and moist and keep air out, so food lasts longer and less is wasted.",
         "Household products: buckets, bowls, bottles, bags, toys and containers are made from poly(ethene); pipes, gutters and window frames from PVC; insulation and packaging from polystyrene.",
         "These polymers suit their uses because they are cheap, light, waterproof, durable, easily moulded and unreactive, so they do not react with food, water, fuels or most chemicals."
-      ]
+      ],
+      "tip": "You may be asked for a use of a polymer, so link each use to a property, such as rigid PVC for pipes or expanded polystyrene for insulation."
     },
     {
-      "h": "Non-biodegradability and chemical stability (Higher Level only)",
+      "h": "Why addition polymers are non-biodegradable (Higher Level only)",
+      "b": "Biodegradability depends on whether living things can break a substance down. Addition polymers resist this because of their bonding.",
       "points": [
         "A substance is biodegradable if microorganisms, bacteria and fungi, can break it down into simple substances such as carbon dioxide and water.",
         "Addition polymers are non-biodegradable.",
         "The backbone of an addition polymer is a long chain of strong, non-polar C–C single bonds with C–H bonds around it.",
-        "Like an alkane, an addition polymer has no pi bonds and no polar functional group for a reagent to attack, so it is chemically stable and unreactive; see \"Groups of hydrocarbons and their properties\".",
-        "Microorganisms break down natural polymers, such as starch and proteins, with enzymes that attack specific polar linkages.",
-        "Addition polymers have no such linkages, so microorganisms have no enzymes able to break them down.",
+        "Like an alkane, an addition polymer has no pi bonds and no polar functional group (a reactive atom or group) for a reagent to attack, so it is chemically stable and unreactive. There is more on this in Groups of hydrocarbons and their properties.",
+        "Microorganisms break down natural polymers, such as starch and proteins, with enzymes (biological catalysts) that attack specific polar linkages.",
+        "Addition polymers have no such linkages, so microorganisms have no enzymes able to break them down."
+      ],
+      "tip": "Non-biodegradability comes from the strong, non-polar C–C and C–H bonds and the absence of functional groups, not from the polymer being 'too big'. A full answer gives these reasons and then an environmental consequence and a response."
+    },
+    {
+      "h": "Consequences of chemical stability (Higher Level only)",
+      "b": "The stability that makes addition polymers so useful is the same property that makes plastic waste a problem.",
+      "points": [
         "The same stability that makes addition polymers useful, being durable, waterproof and resistant to chemicals and decay, means they persist in the environment for hundreds of years.",
         "Consequences: plastic litter on land and in oceans, harm to wildlife that eats or becomes tangled in it, and filling of landfill sites.",
-        "Sunlight and wear break plastics into small fragments, called microplastics, rather than breaking them down chemically.",
-        "Responses include reducing use, reusing, and recycling; plastics are sorted by resin identification code, e.g. 2 for HDPE, 3 for PVC, 4 for LDPE and 6 for polystyrene.",
+        "Sunlight and wear break plastics into small fragments, called microplastics, rather than breaking them down chemically."
+      ],
+      "tip": "When asked for one environmental consequence, pick one from this list and state it clearly."
+    },
+    {
+      "h": "Responses to plastic waste (Higher Level only)",
+      "b": "Because plastics do not break down, society has to manage them: use less, recycle, burn for energy, or switch to polymers that can degrade.",
+      "points": [
+        "Responses include reducing use, reusing, and recycling.",
+        "Plastics are sorted for recycling by resin identification code, e.g. 2 for HDPE, 3 for PVC, 4 for LDPE and 6 for polystyrene.",
         "Incineration gives energy but releases CO₂, and burning PVC releases hydrogen chloride.",
-        "Biodegradable polymers with ester linkages, which microorganisms can hydrolyse, are being developed; poly(lactic acid), PLA, is made from plant starch and breaks down in industrial composting."
-      ]
+        "Biodegradable polymers with ester linkages, which microorganisms can hydrolyse (split using water), are being developed. These can break down because the ester linkage gives microorganisms something to attack.",
+        "Poly(lactic acid), PLA, is one example: it is made from plant starch and breaks down in industrial composting."
+      ],
+      "tip": "Mention PLA only as a biodegradable alternative. Condensation polymers such as nylon and polyesters are not required."
     }
   ],
   "keyTerms": [

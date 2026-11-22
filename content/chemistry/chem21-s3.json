@@ -6,65 +6,77 @@
   "notes": [
     {
       "h": "Average bond enthalpies used (Higher Level only)",
-      "b": "These are the only values to use in this subsection. Bond enthalpy itself is defined in “Bond enthalpy and energy change”.",
+      "b": "Bond enthalpy is the energy needed to break a particular covalent bond (a bond where atoms share electrons). Because the same type of bond varies slightly from molecule to molecule, tables give an average value for each, and these are the only values to use in this subsection. There is more on this in “Bond enthalpy and energy change”.",
       "points": [
-        "Single bonds (kJ mol⁻¹): C–H 412, C–C 348, O–H 463, H–H 436, Cl–Cl 242, H–Cl 431, C–Cl 338, C–Br 276, C–I 238.",
-        "Multiple bonds (kJ mol⁻¹): C=C 614, C≡C 839, O=O 498.",
+        "Single bonds (kJ mol⁻¹, kilojoules per mole of bonds broken): C–H 412, C–C 348, O–H 463, H–H 436, Cl–Cl 242, H–Cl 431, C–Cl 338, C–Br 276, C–I 238.",
+        "Multiple bonds (double and triple bonds, where atoms share two or three pairs of electrons), in kJ mol⁻¹: C=C 614, C≡C 839, O=O 498.",
         "Bonds in carbon dioxide and nitrogen (kJ mol⁻¹): C=O 799 (in CO₂), N≡N 945."
-      ]
+      ],
+      "tip": "Use the values given in the question or in the Formulae and Tables, and don't mix tables."
     },
     {
       "h": "Method (Higher Level only)",
+      "b": "To predict ΔH (the enthalpy change, the heat energy change of a reaction at constant pressure), picture the reaction as breaking every old bond and then making every new bond. Breaking bonds takes energy in; making bonds gives energy out. The method turns that picture into five steps and a shortcut.",
       "points": [
-        "Step 1: write the balanced equation and draw the full structural formula of every reactant and product, so that every bond can be seen.",
-        "Step 2: list the bonds broken in the reactants, multiplying by the coefficients in the equation, and add up their bond enthalpies (energy taken in).",
+        "Step 1: write the balanced equation and draw the full structural formula of every reactant and product (a diagram showing every atom and every bond), so that every bond can be seen.",
+        "Step 2: list the bonds broken in the reactants, multiplying by the coefficients (the numbers in front of formulae) in the equation, and add up their bond enthalpies (energy taken in).",
         "Step 3: list the bonds formed in the products in the same way and add up their bond enthalpies (energy released).",
-        "Step 4: ΔH = Σ(bond enthalpies of bonds broken) − Σ(bond enthalpies of bonds formed).",
-        "Step 5: a negative answer predicts an exothermic reaction, and a positive answer an endothermic one.",
-        "Shortcut: bonds that are unchanged, present in both reactants and products, can be left out of both sums; the answer is the same."
-      ]
+        "Step 4: ΔH = Σ(bond enthalpies of bonds broken) − Σ(bond enthalpies of bonds formed), where Σ means “the sum of”. Broken comes first because energy taken in counts as positive.",
+        "Step 5: a negative answer predicts an exothermic reaction (one that gives out heat), and a positive answer an endothermic one (one that takes in heat).",
+        "Shortcut: bonds that are unchanged, present in both reactants and products, can be left out of both sums; the answer is the same because they cancel."
+      ],
+      "tip": "ΔH is bonds broken minus bonds formed, not formed minus broken. Multiply by the coefficients and by the number of each bond in each molecule (CO₂ has two C=O; each H₂O has two O–H). Draw the structures, because bonds can't be counted from molecular formulae. This method applies only to covalent molecules, not to ionic compounds. Exams ask you to calculate ΔH for a given reaction and to state the values you used."
     },
     {
       "h": "Worked example 1: combustion of methane (Higher Level only)",
+      "b": "Combustion (burning in oxygen) of methane, the main gas in natural gas, is a good first example because it breaks and forms several different bond types. Here the water is gaseous (steam).",
       "points": [
         "Equation: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g); CH₄ has four C–H bonds, each O₂ has one O=O, each CO₂ has two C=O, and each H₂O has two O–H.",
         "Bonds broken: 4 × C–H = 4 × 412 = 1648 kJ; 2 × O=O = 2 × 498 = 996 kJ; total 2644 kJ.",
         "Bonds formed: 2 × C=O = 2 × 799 = 1598 kJ; 4 × O–H = 4 × 463 = 1852 kJ; total 3450 kJ.",
-        "ΔH = 2644 − 3450 = −806 kJ mol⁻¹: exothermic.",
-        "Comparison: the measured value for gaseous water is −802 kJ mol⁻¹, and the standard value (liquid water) is −890 kJ mol⁻¹.",
-        "The extra 88 kJ is released when 2 mol of steam condense (2 × 44 kJ), which is why the standard value is more negative."
-      ]
+        "ΔH = 2644 − 3450 = −806 kJ mol⁻¹: exothermic, because more energy is released making bonds than is taken in breaking them.",
+        "Comparison: the measured value for gaseous water is −802 kJ mol⁻¹, so the estimate is close. The standard value (measured with water as a liquid, the usual state at 25 °C) is −890 kJ mol⁻¹.",
+        "The extra 88 kJ is released when 2 mol of steam condense (2 × 44 kJ), which is why the standard value is more negative. The bond enthalpy estimate is for gaseous water."
+      ],
+      "tip": "Count each bond in each molecule, for example two C=O in CO₂, and multiply by the coefficient in the equation."
     },
     {
       "h": "Worked example 2: hydrogenation of ethene (Higher Level only)",
+      "b": "Hydrogenation means adding hydrogen across a double bond. In ethene (a hydrocarbon with a C=C double bond) most bonds don't change, so this example shows the shortcut in use.",
       "points": [
         "Equation: CH₂=CH₂(g) + H₂(g) → CH₃–CH₃(g).",
         "Bonds broken: C=C 614 + H–H 436 = 1050 kJ; the four C–H bonds of ethene are unchanged and are left out.",
-        "Bonds formed: C–C 348 + 2 × C–H 412 = 348 + 824 = 1172 kJ.",
-        "ΔH = 1050 − 1172 = −122 kJ mol⁻¹; the value from heats of formation is −137 kJ mol⁻¹ (see “Hess's law”)."
-      ]
+        "Bonds formed: C–C 348 + 2 × C–H 412 = 348 + 824 = 1172 kJ. The two new C–H bonds are the ones formed when hydrogen adds on, and the C=C becomes a single C–C.",
+        "ΔH = 1050 − 1172 = −122 kJ mol⁻¹; the value from heats of formation (calculated from the enthalpy changes of forming each substance from its elements) is −137 kJ mol⁻¹. There is more on this in “Hess's law”."
+      ],
+      "tip": "Draw the structures first, so you can see which bonds change and which can be left out."
     },
     {
       "h": "Worked example 3: hydrogen and chlorine (Higher Level only)",
+      "b": "This reaction involves only diatomic molecules (molecules made of two atoms of the same element), so the calculation is short and the answer can be checked against a measured value.",
       "points": [
         "Equation: H₂(g) + Cl₂(g) → 2HCl(g).",
         "Bonds broken: H–H 436 + Cl–Cl 242 = 678 kJ.",
         "Bonds formed: 2 × H–Cl = 2 × 431 = 862 kJ.",
         "ΔH = 678 − 862 = −184 kJ for 2 mol HCl.",
         "This is very close to the measured value of about −185 kJ (2 × −92.3), because these diatomic molecules' bond enthalpies are exact values, not averages."
-      ]
+      ],
+      "tip": "Multiply by the coefficient: the equation makes 2 mol of HCl, so there are two H–Cl bonds formed."
     },
     {
       "h": "Worked example 4: chlorination of methane (Higher Level only)",
+      "b": "Chlorination means replacing a hydrogen atom in a compound with a chlorine atom. Only one C–H bond is swapped, so only the bonds that change need to be counted.",
       "points": [
         "Equation: CH₄(g) + Cl₂(g) → CH₃Cl(g) + HCl(g).",
-        "Bonds broken (only those that change): C–H 412 + Cl–Cl 242 = 654 kJ.",
+        "Bonds broken (only those that change): C–H 412 + Cl–Cl 242 = 654 kJ. The other three C–H bonds in methane are unchanged, so they are left out.",
         "Bonds formed: C–Cl 338 + H–Cl 431 = 769 kJ.",
-        "ΔH = 654 − 769 = −115 kJ mol⁻¹."
-      ]
+        "ΔH = 654 − 769 = −115 kJ mol⁻¹, which is negative, so the reaction is predicted to be exothermic."
+      ],
+      "tip": "Quote each bond enthalpy you use, because exams ask you to state the values used."
     },
     {
       "h": "Why the answers are estimates (Higher Level only)",
+      "b": "A bond enthalpy calculation gives a prediction of ΔH, not an exact value. Knowing why it is approximate also lets you explain whether a reaction releases or absorbs energy.",
       "points": [
         "Average bond enthalpies are averages over many different molecules; the actual strength of a bond in a particular molecule is a little different, so the calculated ΔH is only an estimate.",
         "Bond enthalpies apply to substances in the gaseous state; if a reactant or product is a liquid or solid (e.g. liquid water), the enthalpy change of the change of state is not included, so the estimate differs from the standard value.",
@@ -74,14 +86,16 @@
     },
     {
       "h": "Trends in bond enthalpies (Higher Level only)",
+      "b": "The table values follow patterns that can be explained by bond type and atom size. These patterns are used to explain why one bond is stronger than another.",
       "points": [
         "Multiple bonds are stronger and shorter than single bonds between the same atoms: C–C 348 < C=C 614 < C≡C 839 kJ mol⁻¹.",
-        "A C=C bond is less than twice as strong as C–C, and C≡C less than three times as strong, because the second and third bonds are pi bonds.",
-        "Pi bonds are weaker than the sigma bond because sideways overlap of p orbitals is less effective than head-on overlap; see “Shapes: sigma and pi bonds”.",
-        "For bonds from carbon to the halogens, bond enthalpy falls down the group: C–Cl 338 > C–Br 276 > C–I 238 kJ mol⁻¹.",
-        "The halogen atom is larger for each step down the group, so the bond is longer and the shared electrons are further from the nuclei.",
-        "The N≡N bond (945 kJ mol⁻¹) is one of the strongest, explaining why N₂ is very unreactive."
-      ]
+        "A C=C bond is less than twice as strong as C–C, and C≡C less than three times as strong, because the second and third bonds are pi bonds, which are weaker than the first bond.",
+        "The first bond between two atoms is a sigma bond, formed by head-on overlap of orbitals (regions where electrons are found). Pi bonds are weaker because sideways overlap of p orbitals is less effective than head-on overlap.",
+        "For bonds from carbon to the halogens (the Group 17 elements), bond enthalpy falls down the group: C–Cl 338 > C–Br 276 > C–I 238 kJ mol⁻¹.",
+        "The halogen atom is larger for each step down the group, so the bond is longer and the shared electrons are further from the nuclei, which hold them less tightly.",
+        "The N≡N bond (945 kJ mol⁻¹) is one of the strongest, explaining why N₂ is very unreactive: a great deal of energy is needed to break it. There is more on this in “Shapes, bonding and isomerism”."
+      ],
+      "tip": "Exams ask why the C≡C bond enthalpy is less than three times the C–C value: say the extra bonds are pi bonds, which are weaker than the sigma bond. They also ask for a reason for the trend C–Cl > C–Br > C–I: the halogen atom gets larger, so the bond is longer and the shared electrons are further from the nuclei. The specification doesn't need sigma and pi bonds here beyond this explanation."
     }
   ],
   "keyTerms": [

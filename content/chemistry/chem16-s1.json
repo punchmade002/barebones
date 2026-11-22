@@ -6,160 +6,192 @@
   "notes": [
     {
       "h": "The method",
+      "b": "A redox titration is one where a measured volume of an oxidising agent (a substance that takes electrons) reacts with a reducing agent (a substance that gives electrons). It is solved with the same mole steps as an acid–base titration; only the source of the mole ratio changes.",
       "points": [
-        "Recap: the steps in “Solving acid–base volumetric problems” apply; write the balanced equation to get the mole ratio, calculate moles of the known solution with n = c × V (V in litres), convert to moles of the other substance using the mole ratio, divide by its volume, then convert units and allow for dilution.",
-        "The difference in redox problems: the mole ratio comes from the balanced redox equation, which may need to be balanced first; see “Balancing redox equations”.",
-        "The ratio can be checked from electrons: the moles of electrons gained by the oxidising agent equal the moles of electrons lost by the reducing agent.",
-        "Example: MnO₄⁻ gains 5 e⁻ and Fe²⁺ loses 1 e⁻, so 1 MnO₄⁻ reacts with 5 Fe²⁺.",
-        "Titration formula for redox: (V_ox × M_ox) ÷ n_ox = (V_red × M_red) ÷ n_red, where n_ox and n_red are the coefficients of the oxidising and reducing agents in the balanced equation.",
-        "Volumes can stay in cm³ because the units cancel, as in “Solving acid–base volumetric problems”.",
+        "Recap: write the balanced equation to get the mole ratio, calculate moles of the known solution with n = c × V (V in litres), convert to moles of the other substance using the mole ratio, divide by its volume, then convert units and allow for dilution.",
+        "These are the steps used in acid–base volumetric problems. Allowing for dilution means scaling back up when extra water was added, which lowered the concentration.",
+        "The difference in redox problems is that the mole ratio comes from the balanced redox equation (the same number of each atom and the same total charge on both sides), which may need to be balanced first. There is more on this in Balancing redox equations.",
+        "The ratio can be checked from electrons: the moles of electrons gained by the oxidising agent equal the moles of electrons lost by the reducing agent, because electrons are only transferred, never created or lost.",
+        "Example: MnO₄⁻ gains 5 e⁻ and Fe²⁺ loses 1 e⁻, so 1 MnO₄⁻ reacts with 5 Fe²⁺, because five Fe²⁺ are needed to supply the five electrons one MnO₄⁻ takes.",
+        "Titration formula for redox: (V_ox × M_ox) ÷ n_ox = (V_red × M_red) ÷ n_red, where V is volume, M is concentration in mol L⁻¹, and n_ox and n_red are the coefficients of the oxidising and reducing agents in the balanced equation.",
+        "Volumes can stay in cm³ in this formula because the units cancel, exactly as in acid–base volumetric problems.",
         "Worked example of the formula: 23.8 cm³ of KMnO₄ reacts with 25.0 cm³ of 0.100 M Fe²⁺, with n_ox = 1 and n_red = 5 (sample data).",
-        "M_ox = (25.0 × 0.100) ÷ (5 × 23.8) = 0.0210 mol L⁻¹."
-      ]
+        "M_ox = (25.0 × 0.100) ÷ (5 × 23.8) = 0.0210 mol L⁻¹, the concentration of the KMnO₄."
+      ],
+      "tip": "The mole ratio is rarely 1 : 1 in redox problems, so always take it from the balanced equation."
     },
     {
       "h": "Mole ratios to know",
+      "b": "These ratios turn up again and again in redox titrations. Each comes straight from a balanced equation, so learn the equation and the ratio together.",
       "points": [
-        "MnO₄⁻ : Fe²⁺ = 1 : 5, from MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.",
-        "I₂ : S₂O₃²⁻ = 1 : 2, from I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.",
-        "MnO₄⁻ : I₂ = 2 : 5, from 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.",
-        "MnO₄⁻ : S₂O₃²⁻ = 1 : 5 when iodine made from permanganate is titrated with thiosulfate, the combined ratio being 2 : 5 : 10 for MnO₄⁻ : I₂ : S₂O₃²⁻.",
+        "MnO₄⁻ : Fe²⁺ = 1 : 5, from MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Permanganate (MnO₄⁻) is the oxidising agent and iron(II) the reducing agent.",
+        "I₂ : S₂O₃²⁻ = 1 : 2, from I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻. Here thiosulfate (S₂O₃²⁻) is the reducing agent that uses up iodine.",
+        "MnO₄⁻ : I₂ = 2 : 5, from 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O, in which permanganate oxidises iodide (I⁻) to iodine.",
+        "MnO₄⁻ : S₂O₃²⁻ = 1 : 5 when iodine made from permanganate is titrated with thiosulfate. The combined ratio is 2 : 5 : 10 for MnO₄⁻ : I₂ : S₂O₃²⁻, because 2 MnO₄⁻ make 5 I₂, which use up 10 S₂O₃²⁻.",
         "Ammonium iron(II) sulfate supplies one Fe²⁺ per formula unit, so moles of (NH₄)₂SO₄·FeSO₄·6H₂O = moles of Fe²⁺.",
-        "Each Na₂S₂O₃·5H₂O supplies one S₂O₃²⁻.",
-        "Each I₂ is one mole whether it is written as I₂ or I₃⁻."
-      ]
+        "Each Na₂S₂O₃·5H₂O supplies one S₂O₃²⁻, so moles of the salt equal moles of thiosulfate ions.",
+        "Each I₂ is one mole whether it is written as I₂ or I₃⁻ (the form iodine takes when dissolved in iodide solution)."
+      ],
+      "tip": "For permanganate and thiosulfate through iodine, the ratio MnO₄⁻ : S₂O₃²⁻ is 1 : 5, reached through 2 : 5 : 10."
     },
     {
       "h": "Two-step (indirect) titrations",
+      "b": "Some substances can't be titrated directly. Instead they release a product that can be, so the calculation has to run back through two equations.",
       "points": [
-        "In an indirect titration, the substance being analysed first reacts with an excess of a reagent to release a product in proportion to it.",
-        "The product released is then titrated; for example, an oxidising agent added to excess iodide releases iodine, which is titrated with thiosulfate.",
-        "Work backwards through each equation in turn, starting from the titrant.",
-        "Step 1: divide the moles of thiosulfate by 2 to give the moles of iodine.",
+        "In an indirect titration, the substance being analysed (the analyte) first reacts with an excess of a reagent (more than enough, so the analyte is completely used up) to release a product in proportion to it.",
+        "The product released is then titrated with a solution of known concentration (the titrant). For example, an oxidising agent added to excess iodide releases iodine, which is titrated with thiosulfate.",
+        "Work backwards through each equation in turn, starting from the titrant, because the titrant is the only amount you measured directly.",
+        "Step 1: divide the moles of thiosulfate by 2 to give the moles of iodine, because I₂ : S₂O₃²⁻ = 1 : 2.",
         "Step 2: use the first equation to convert the moles of iodine to moles of the oxidising agent.",
         "The excess reagent, e.g. KI, doesn't need to be measured accurately, because it is not part of the calculation.",
-        "Only the analyte and the titrant must be measured exactly."
-      ]
+        "Only the analyte and the titrant must be measured exactly, since the moles you calculate depend only on them."
+      ],
+      "tip": "In iodine–thiosulfate problems, divide the moles of thiosulfate by 2 to get the moles of iodine."
     },
     {
       "h": "Scaling and varied units",
+      "b": "Titration data rarely give the answer in the form the question wants. You scale up from the small portion titrated, then convert moles into masses and percentages.",
       "points": [
-        "Scale from the portion titrated to the whole solution, e.g. × 10 for 25.0 cm³ out of 250 cm³.",
-        "Then divide by the number of tablets if several were dissolved.",
-        "Mass = moles × molar mass, and mg = g × 1000.",
-        "Ar(Fe) = 56 for iron.",
-        "M(FeSO₄) = 152 for iron(II) sulfate.",
-        "M(KMnO₄) = 158.",
-        "M(Na₂S₂O₃·5H₂O) = 248.",
-        "M((NH₄)₂SO₄·FeSO₄·6H₂O) = 392 for ammonium iron(II) sulfate.",
-        "A concentration in g L⁻¹ of a hydrated salt uses the molar mass of the hydrate, e.g. Na₂S₂O₃·5H₂O for thiosulfate solution.",
+        "Scale from the portion titrated to the whole solution, e.g. × 10 for 25.0 cm³ out of 250 cm³, because only a portion was run against the titrant.",
+        "Then divide by the number of tablets if several were dissolved, because the flask holds all of them together.",
+        "Mass = moles × molar mass (M, the mass of one mole in g mol⁻¹), and mg = g × 1000.",
         "Percentage by mass of a tablet = mass of the substance ÷ mass of the tablet × 100.",
-        "Percentage of the label value = measured mass ÷ stated mass × 100.",
+        "Percentage of the label value = measured mass ÷ stated mass × 100, which shows how close a tablet is to what its label claims.",
         "Concentration in g L⁻¹ = mol L⁻¹ × M.",
-        "%w/v = g L⁻¹ ÷ 10; see “Units of concentration”."
-      ]
+        "%w/v (grams of solute per 100 cm³ of solution) = g L⁻¹ ÷ 10. There is more on this in Units of concentration.",
+        "A concentration in g L⁻¹ of a hydrated salt (one with water locked into its crystals) uses the molar mass of the hydrate, e.g. Na₂S₂O₃·5H₂O for thiosulfate solution."
+      ],
+      "tip": "Don't forget the dilution or portion factor (× 10), and divide by the number of tablets."
+    },
+    {
+      "h": "Molar masses to use",
+      "b": "Exam answers are marked using whole-number relative atomic masses (Ar, the mass of an atom relative to carbon-12), as in the SEC Formulae and Tables. Use these values.",
+      "points": [
+        "Ar: H 1, C 12, N 14, O 16, Na 23, S 32, Cl 35.5, K 39, Mn 55, Fe 56, I 127. Use Ar(Fe) = 56 for iron.",
+        "M(FeSO₄) = 152 for iron(II) sulfate, and M(KMnO₄) = 158.",
+        "M(Na₂S₂O₃·5H₂O) = 248, which includes the five waters of crystallisation.",
+        "M((NH₄)₂SO₄·FeSO₄·6H₂O) = 392 for ammonium iron(II) sulfate, and M(I₂) = 254."
+      ],
+      "tip": "Use whole-number relative atomic masses, e.g. Fe 56, not 55.85. Elemental iron uses 56, but iron(II) sulfate uses 152."
     },
     {
       "h": "Good practice",
+      "b": "Careful technique and a sense check separate a correct answer from one that is slightly off. Redox titrations also have particular errors that push the result in a known direction.",
       "points": [
-        "Use the mean of concordant titres.",
+        "Use the mean of concordant titres (titres that agree closely), because averaging results that agree reduces the effect of random error.",
         "Give answers to three significant figures, with units.",
         "Check the answer is sensible: a tablet usually contains tens of milligrams of iron, not grams.",
-        "A percentage cannot exceed 100%.",
-        "Taking deep purple as the end point with KMnO₄ makes the titre too high, a systematic error.",
-        "Oxidation of Fe²⁺ by air before titration makes the iron result too low.",
-        "Random and systematic error are defined in “Measurement and error”."
+        "A percentage cannot exceed 100%, so a result above that signals a mistake.",
+        "Taking deep purple as the end point with KMnO₄ (the point where the reaction is complete) makes the titre too high, because extra permanganate has been added. This is a systematic error (one that shifts every result the same way).",
+        "Oxidation of Fe²⁺ by air before titration makes the iron result too low, because some Fe²⁺ has already been used up and less permanganate is needed. There is more on random and systematic error in Measurement and error."
       ]
     },
     {
       "h": "Unfamiliar contexts (Higher Level only)",
+      "b": "At Higher Level a redox titration may use a substance you have not met in class. The chemistry looks new, but the question supplies what you need and the same method applies.",
       "points": [
         "An unfamiliar redox problem may involve a reagent or product not studied before, e.g. hydrogen peroxide, hypochlorite in bleach, vitamin C or sodium oxalate (sodium ethanedioate, Na₂C₂O₄).",
         "The question gives the balanced equation or asks for it, and the same method applies.",
-        "1. Identify the oxidising and reducing agents.",
-        "2. Write or balance the equation, using oxidation numbers if needed.",
+        "1. Identify the oxidising and reducing agents (which substance takes electrons and which gives them).",
+        "2. Write or balance the equation, using oxidation numbers (the charge-like numbers that track electron transfer) if needed.",
         "3. List the data with units.",
-        "4. Plan the route through moles, including any two-step reaction and dilution, before calculating.",
-        "Example ratio: MnO₄⁻ : H₂O₂ = 2 : 5, from 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O.",
-        "Example ratio: MnO₄⁻ : C₂O₄²⁻ = 2 : 5, from 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O.",
-        "Example ratio: ClO⁻ : I₂ = 1 : 1, from ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O.",
-        "Example ratio: vitamin C : I₂ = 1 : 1, from C₆H₈O₆ + I₂ → C₆H₆O₆ + 2H⁺ + 2I⁻.",
+        "4. Plan the route through moles, including any two-step reaction and dilution, before calculating."
+      ],
+      "tip": "Higher Level exams set redox titrations in unfamiliar contexts, such as hypochlorite in bleach, hydrogen peroxide or vitamin C."
+    },
+    {
+      "h": "Example ratios from unfamiliar reactions (Higher Level only)",
+      "b": "Four reactions show how the ratio changes with the substance. In each case read the ratio from the coefficients of the balanced equation.",
+      "points": [
+        "MnO₄⁻ : H₂O₂ = 2 : 5, from 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O, where acidified permanganate oxidises hydrogen peroxide to oxygen.",
+        "MnO₄⁻ : C₂O₄²⁻ = 2 : 5, from 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O.",
+        "ClO⁻ : I₂ = 1 : 1, from ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O, because hypochlorite oxidises iodide to iodine in acid solution.",
+        "Vitamin C : I₂ = 1 : 1, from C₆H₈O₆ + I₂ → C₆H₆O₆ + 2H⁺ + 2I⁻."
+      ]
+    },
+    {
+      "h": "Vitamin C and sodium oxalate (Higher Level only)",
+      "b": "Vitamin C and sodium oxalate are two substances that exams may use in redox titrations. You need their formulae and one practical detail for each.",
+      "points": [
         "Vitamin C is ascorbic acid, C₆H₈O₆, with M = 176 g mol⁻¹; iodine oxidises it to dehydroascorbic acid, C₆H₆O₆.",
-        "Sodium oxalate is an alternative primary standard for KMnO₄.",
-        "The titration is done warm, at about 60 °C, because the reaction is slow at room temperature."
+        "Sodium oxalate is an alternative primary standard for KMnO₄, meaning a pure, stable solid that can be weighed accurately to make a solution of known concentration for standardising it.",
+        "The oxalate titration is done warm, at about 60 °C, because the reaction is slow at room temperature."
       ]
     },
     {
       "h": "Problem 1: standardising potassium manganate(VII)",
-      "b": "Each problem follows the method in “Solving redox volumetric problems”. All data are sample data.",
+      "b": "Standardising means finding the exact concentration of a solution by titrating it against one of known concentration. Here ammonium iron(II) sulfate, which can be weighed accurately, is used to standardise KMnO₄. The mean titre is the average volume run in from the burette, and all data in these worked problems are sample data.",
       "points": [
-        "Data: 9.80 g of ammonium iron(II) sulfate, (NH₄)₂SO₄·FeSO₄·6H₂O (M = 392), was dissolved in dilute sulfuric acid and made up to 250 cm³.",
-        "Data: 25.0 cm³ portions needed a mean titre of 24.0 cm³ of KMnO₄.",
-        "Equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, a 1 : 5 ratio.",
+        "Data: 9.80 g of ammonium iron(II) sulfate, (NH₄)₂SO₄·FeSO₄·6H₂O (M = 392), was dissolved in dilute sulfuric acid and made up to 250 cm³; 25.0 cm³ portions needed a mean titre of 24.0 cm³ of KMnO₄.",
+        "Equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O, a 1 : 5 ratio. The dilute sulfuric acid supplies the H⁺ in this equation.",
         "Moles of salt = 9.80 g ÷ 392 g mol⁻¹ = 0.0250 mol, in 250 cm³.",
-        "Concentration of Fe²⁺ = 0.0250 mol ÷ 0.250 L = 0.100 mol L⁻¹.",
+        "Concentration of Fe²⁺ = 0.0250 mol ÷ 0.250 L = 0.100 mol L⁻¹, because each formula unit gives one Fe²⁺.",
         "Moles Fe²⁺ in 25.0 cm³ = 0.100 mol L⁻¹ × 0.0250 L = 2.50 × 10⁻³ mol.",
-        "Moles MnO₄⁻ = 2.50 × 10⁻³ mol ÷ 5 = 5.00 × 10⁻⁴ mol.",
+        "Moles MnO₄⁻ = 2.50 × 10⁻³ mol ÷ 5 = 5.00 × 10⁻⁴ mol, using the 1 : 5 ratio.",
         "Concentration of KMnO₄ = 5.00 × 10⁻⁴ mol ÷ 0.0240 L = 0.0208 mol L⁻¹.",
         "In g L⁻¹: 0.0208 mol L⁻¹ × 158 g mol⁻¹ = 3.29 g L⁻¹."
-      ]
+      ],
+      "tip": "Exams ask you to standardise KMnO₄ against ammonium iron(II) sulfate and give its concentration in both mol L⁻¹ and g L⁻¹."
     },
     {
       "h": "Problem 2: iron(II) sulfate in tablets compared with the label",
+      "b": "Here the titration checks a tablet's label. You work from the titre back to the mass of iron(II) sulfate in one tablet and compare it with the stated value.",
       "points": [
-        "Data: five tablets, each labelled “200 mg iron(II) sulfate”, were dissolved in dilute sulfuric acid and made up to 250 cm³.",
-        "Data: 25.0 cm³ portions needed a mean titre of 12.9 cm³ of 0.0100 M KMnO₄.",
+        "Data: five tablets, each labelled “200 mg iron(II) sulfate”, were dissolved in dilute sulfuric acid and made up to 250 cm³; 25.0 cm³ portions needed a mean titre of 12.9 cm³ of 0.0100 M KMnO₄.",
         "Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0129 L = 1.29 × 10⁻⁴ mol.",
         "Moles Fe²⁺ in 25.0 cm³ = 5 × 1.29 × 10⁻⁴ mol = 6.45 × 10⁻⁴ mol, using MnO₄⁻ : Fe²⁺ = 1 : 5.",
-        "Moles Fe²⁺ in 250 cm³ = 6.45 × 10⁻⁴ mol × 10 = 6.45 × 10⁻³ mol.",
-        "Moles Fe²⁺ per tablet = 6.45 × 10⁻³ mol ÷ 5 = 1.29 × 10⁻³ mol.",
+        "Moles Fe²⁺ in 250 cm³ = 6.45 × 10⁻⁴ mol × 10 = 6.45 × 10⁻³ mol, because 25.0 cm³ is one tenth of the flask.",
+        "Moles Fe²⁺ per tablet = 6.45 × 10⁻³ mol ÷ 5 = 1.29 × 10⁻³ mol, because five tablets were dissolved.",
         "Mass of FeSO₄ per tablet = 1.29 × 10⁻³ mol × 152 g mol⁻¹ = 0.196 g = 196 mg.",
         "As a percentage of the label value: 196 mg ÷ 200 mg × 100 = 98.0%.",
         "Mass of elemental iron per tablet = 1.29 × 10⁻³ mol × 56 g mol⁻¹ = 0.0722 g = 72.2 mg."
-      ]
+      ],
+      "tip": "Elemental iron uses 56 but iron(II) sulfate uses 152. Exams ask for the moles of MnO₄⁻ in a titre, the moles of Fe²⁺ in a portion and in the whole flask, the mass of iron per tablet and the percentage of iron by mass."
     },
     {
       "h": "Problem 3: standardising sodium thiosulfate through iodine",
+      "b": "Thiosulfate is standardised in two steps. Permanganate first releases iodine from excess iodide, and the iodine is then titrated with the thiosulfate.",
       "points": [
-        "Data: 25.0 cm³ of 0.0200 M KMnO₄ was acidified and excess KI added; the iodine liberated needed a mean titre of 25.0 cm³ of sodium thiosulfate solution, using starch near the end point.",
+        "Data: 25.0 cm³ of 0.0200 M KMnO₄ was acidified and excess KI added; the iodine liberated (released) needed a mean titre of 25.0 cm³ of sodium thiosulfate solution, using starch (an indicator for iodine) near the end point.",
         "Equation: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.",
         "Equation: I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.",
         "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol.",
-        "Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol.",
+        "Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol, using MnO₄⁻ : I₂ = 2 : 5.",
         "Moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, the same as 5 × the moles of MnO₄⁻.",
         "Concentration of S₂O₃²⁻ = 2.50 × 10⁻³ mol ÷ 0.0250 L = 0.100 mol L⁻¹.",
         "In g L⁻¹ of Na₂S₂O₃·5H₂O: 0.100 mol L⁻¹ × 248 g mol⁻¹ = 24.8 g L⁻¹."
-      ]
+      ],
+      "tip": "The ratio MnO₄⁻ : S₂O₃²⁻ is 1 : 5, through 2 : 5 : 10. Exams ask for the concentration of iodine or thiosulfate."
     },
     {
       "h": "Problem 4: hypochlorite in household bleach (Higher Level only)",
+      "b": "Bleach contains hypochlorite (ClO⁻), which oxidises iodide to iodine. The iodine is then titrated with thiosulfate, and because the bleach was diluted first, the answer must be scaled back up.",
       "points": [
-        "Data: 25.0 cm³ of bleach was diluted to 250 cm³.",
-        "Data: 25.0 cm³ of the diluted bleach was added to excess KI and dilute sulfuric acid; the iodine liberated needed a mean titre of 18.4 cm³ of 0.100 M sodium thiosulfate.",
-        "Equation: ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O, so ClO⁻ : I₂ = 1 : 1.",
+        "Data: 25.0 cm³ of bleach was diluted to 250 cm³; 25.0 cm³ of the diluted bleach was added to excess KI and dilute sulfuric acid, and the iodine liberated needed a mean titre of 18.4 cm³ of 0.100 M sodium thiosulfate.",
+        "Equations: ClO⁻ + 2I⁻ + 2H⁺ → Cl⁻ + I₂ + H₂O, so ClO⁻ : I₂ = 1 : 1; and I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻.",
         "Moles S₂O₃²⁻ = 0.100 mol L⁻¹ × 0.0184 L = 1.84 × 10⁻³ mol.",
         "Moles I₂ = 1.84 × 10⁻³ mol ÷ 2 = 9.20 × 10⁻⁴ mol, using I₂ : S₂O₃²⁻ = 1 : 2; this equals the moles of ClO⁻ in 25.0 cm³ of diluted bleach.",
         "Diluted concentration = 9.20 × 10⁻⁴ mol ÷ 0.0250 L = 0.0368 mol L⁻¹.",
         "Original bleach = 0.0368 mol L⁻¹ × 10 = 0.368 mol L⁻¹, because the dilution factor is 250 ÷ 25.0 = 10.",
         "As sodium hypochlorite (NaOCl, M = 74.5): 0.368 mol L⁻¹ × 74.5 g mol⁻¹ = 27.4 g L⁻¹.",
         "As %w/v: 27.4 g L⁻¹ ÷ 10 = 2.74% w/v."
-      ]
+      ],
+      "tip": "The dilution factors in Problems 4 and 5 are 10 and 25 (250 ÷ 10.0), so work out the factor each time instead of assuming 10. Higher Level exams set unfamiliar contexts such as hypochlorite in bleach."
     },
     {
       "h": "Problem 5: hydrogen peroxide solution (Higher Level only)",
+      "b": "This problem reverses the usual roles. Permanganate still oxidises, but here it is the hydrogen peroxide that is oxidised, and the dilution factor is not 10.",
       "points": [
-        "Data: 10.0 cm³ of a hydrogen peroxide solution was diluted to 250 cm³.",
-        "Data: 25.0 cm³ portions, acidified with dilute sulfuric acid, needed a mean titre of 20.0 cm³ of 0.0200 M KMnO₄.",
+        "Data: 10.0 cm³ of a hydrogen peroxide solution was diluted to 250 cm³; 25.0 cm³ portions, acidified with dilute sulfuric acid, needed a mean titre of 20.0 cm³ of 0.0200 M KMnO₄.",
         "Equation: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O, so MnO₄⁻ : H₂O₂ = 2 : 5.",
-        "Here H₂O₂ is the reducing agent, with oxygen changing from −1 to 0.",
-        "The permanganate is still the oxidising agent.",
+        "Here H₂O₂ is the reducing agent, with oxygen changing from −1 to 0 as it is oxidised to O₂. The permanganate is still the oxidising agent.",
         "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0200 L = 4.00 × 10⁻⁴ mol.",
         "Moles H₂O₂ = 4.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.00 × 10⁻³ mol in 25.0 cm³.",
         "Diluted concentration = 1.00 × 10⁻³ mol ÷ 0.0250 L = 0.0400 mol L⁻¹.",
         "Dilution factor = 250 ÷ 10.0 = 25, so the original concentration = 0.0400 mol L⁻¹ × 25 = 1.00 mol L⁻¹.",
-        "In g L⁻¹ (H₂O₂ = 34 g mol⁻¹): 1.00 mol L⁻¹ × 34 g mol⁻¹ = 34.0 g L⁻¹.",
-        "As %w/v: 34.0 g L⁻¹ ÷ 10 = 3.40% w/v."
-      ]
+        "In g L⁻¹ (H₂O₂ = 34 g mol⁻¹): 1.00 mol L⁻¹ × 34 g mol⁻¹ = 34.0 g L⁻¹, and as %w/v: 34.0 g L⁻¹ ÷ 10 = 3.40% w/v."
+      ],
+      "tip": "In this problem the permanganate is still the oxidising agent; hydrogen peroxide acts as a reducing agent. The dilution factor is 25 (250 ÷ 10.0), not 10."
     }
   ],
   "keyTerms": [

@@ -6,99 +6,142 @@
   "notes": [
     {
       "h": "Self-ionisation of water",
-      "b": "Pure water contains a very small number of ions, produced when water molecules transfer protons to each other.",
+      "b": "Even perfectly pure water contains a very small number of ions, made when water molecules pass protons (hydrogen ions, H⁺) to each other. This is the starting point for understanding pH, because it fixes what 'neutral' means.",
       "points": [
-        "Pure water conducts electricity very slightly, so it must contain a small number of ions.",
-        "These ions come from the self-ionisation (auto-ionisation) of water, in which one water molecule donates a proton to another; this is a Brønsted–Lowry acid–base reaction: H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq).",
-        "In simplified form: H₂O(l) ⇌ H⁺(aq) + OH⁻(aq).",
-        "The equilibrium lies very far to the left: at 25 °C only about 2 in every 1000 million (1.8 × 10⁻⁹) water molecules are ionised at any moment.",
-        "In pure water each ionisation gives one H₃O⁺ and one OH⁻, so [H₃O⁺] = [OH⁻].",
-        "A solution is neutral when [H⁺] = [OH⁻], acidic when [H⁺] > [OH⁻], and basic (alkaline) when [H⁺] < [OH⁻]; even acidic solutions contain some OH⁻ and basic solutions contain some H⁺."
-      ]
+        "Pure water conducts electricity very slightly, so it must contain a small number of ions, since only moving charged particles can carry current through a liquid.",
+        "These ions come from the self-ionisation (auto-ionisation) of water, in which one water molecule donates a proton to another. This is a Brønsted–Lowry acid–base reaction (an acid gives a proton, a base accepts it): H₂O(l) + H₂O(l) ⇌ H₃O⁺(aq) + OH⁻(aq).",
+        "H₃O⁺ is the hydronium ion (a water molecule carrying an extra proton) and OH⁻ is the hydroxide ion. The double arrow shows an equilibrium, a reaction going both ways at the same rate so that amounts stay constant.",
+        "In simplified form: H₂O(l) ⇌ H⁺(aq) + OH⁻(aq). This is the same change with the proton written as H⁺ instead of showing it attached to a water molecule.",
+        "The equilibrium lies very far to the left, so almost all the water stays as molecules: at 25 °C only about 2 in every 1000 million (1.8 × 10⁻⁹) water molecules are ionised at any moment.",
+        "In pure water each ionisation gives one H₃O⁺ and one OH⁻, so [H₃O⁺] = [OH⁻]. Square brackets mean concentration in mol L⁻¹.",
+        "A solution is neutral when [H⁺] = [OH⁻], acidic when [H⁺] > [OH⁻], and basic (alkaline) when [H⁺] < [OH⁻]. Even acidic solutions contain some OH⁻ and basic solutions contain some H⁺."
+      ],
+      "tip": "You may be asked to write an equation for the self-ionisation of water and explain why pure water is neutral. Give the equation, then say each ionisation gives equal amounts of H⁺ and OH⁻."
     },
     {
       "h": "Deducing Kw (Higher Level only)",
+      "b": "Because water ionises only slightly, its equilibrium constant can be simplified into a single value, the ionic product of water, Kw. Work through it one step at a time.",
       "points": [
-        "Step 1: Write the equilibrium constant for H₂O ⇌ H⁺ + OH⁻: Kc = [H⁺][OH⁻] ÷ [H₂O].",
-        "Step 2: So little water ionises that [H₂O] is effectively constant: 1000 g of water per litre ÷ 18 g mol⁻¹ = 55.6 mol L⁻¹.",
+        "Step 1: Write the equilibrium constant (Kc, the ratio of product concentrations to reactant concentration at equilibrium) for H₂O ⇌ H⁺ + OH⁻: Kc = [H⁺][OH⁻] ÷ [H₂O].",
+        "Step 2: So little water ionises that [H₂O] is effectively constant, because almost every molecule is unchanged: 1000 g of water per litre ÷ 18 g mol⁻¹ = 55.6 mol L⁻¹.",
         "Step 3: Combine the two constants: Kc × [H₂O] = [H⁺][OH⁻]. This new constant is the ionic product of water, Kw.",
-        "Definition: Kw = [H₃O⁺][OH⁻], or in simplified form Kw = [H⁺][OH⁻]; it is the product of the hydrogen ion and hydroxide ion concentrations.",
+        "Definition: Kw = [H₃O⁺][OH⁻], or in simplified form Kw = [H⁺][OH⁻]; it is the product of the hydrogen ion and hydroxide ion concentrations in water or any dilute aqueous solution.",
         "At 25 °C, Kw = 1.0 × 10⁻¹⁴ (units mol² L⁻², often omitted)."
-      ]
+      ],
+      "tip": "Kw = [H⁺][OH⁻]. It is not [H⁺] + [OH⁻], and not [H⁺][OH⁻] ÷ [H₂O], because [H₂O] is constant and has been absorbed into the constant. You may be asked to define Kw and write its expression."
     },
     {
       "h": "Using Kw (Higher Level only)",
+      "b": "Kw links [H⁺] and [OH⁻] in every dilute aqueous solution. It explains why pure water has pH 7 and lets you find one concentration from the other.",
       "points": [
         "Pure water at 25 °C has [H⁺] = [OH⁻], so [H⁺]² = 1.0 × 10⁻¹⁴.",
         "Therefore [H⁺] = √(1.0 × 10⁻¹⁴) = 1.0 × 10⁻⁷ mol L⁻¹.",
         "So pH = −log₁₀(1.0 × 10⁻⁷) = 7.0, which is why pH 7 is neutral at 25 °C.",
         "Kw applies to every dilute aqueous solution, not just pure water: if [H⁺] rises, [OH⁻] falls so that the product stays 1.0 × 10⁻¹⁴ at 25 °C.",
         "Example: a solution with [H⁺] = 1.0 × 10⁻² mol L⁻¹ (pH 2) has [OH⁻] = 1.0 × 10⁻¹⁴ ÷ 1.0 × 10⁻² = 1.0 × 10⁻¹² mol L⁻¹.",
-        "Taking −log₁₀ of Kw = [H⁺][OH⁻] gives pH + pOH = 14 at 25 °C, where pOH = −log₁₀[OH⁻]; this is used for bases in “pH calculations”."
-      ]
+        "Taking −log₁₀ of Kw = [H⁺][OH⁻] gives pH + pOH = 14 at 25 °C, where pOH = −log₁₀[OH⁻]; this is used for bases. There is more on this in pH calculations and dissociation constants."
+      ],
+      "tip": "Exams ask you to show that the pH of pure water is 7 at 25 °C, and to calculate [OH⁻] from [H⁺] or from a pH using Kw. Set out the working: Kw ÷ [H⁺] with units."
     },
     {
-      "h": "Temperature dependence of Kw (Higher Level only)",
+      "h": "Why Kw changes with temperature (Higher Level only)",
+      "b": "Kw is an equilibrium constant, so it depends on temperature. The direction of the change follows from whether self-ionisation takes in or gives out heat.",
       "points": [
-        "Self-ionisation is endothermic in the forward direction (ΔH about +56 kJ mol⁻¹); it is the reverse of neutralisation, H⁺ + OH⁻ → H₂O, which is exothermic.",
-        "By Le Châtelier's principle, raising the temperature shifts the equilibrium to the right, the endothermic direction, producing more H⁺ and OH⁻, so Kw increases; cooling decreases Kw.",
-        "Like every equilibrium constant, Kw changes only with temperature; that is why Kw values are quoted with a temperature.",
+        "Self-ionisation is endothermic (it takes in heat) in the forward direction, with ΔH about +56 kJ mol⁻¹. It is the reverse of neutralisation, H⁺ + OH⁻ → H₂O, which is exothermic (gives out heat).",
+        "By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), raising the temperature shifts the equilibrium to the right, the endothermic direction. This produces more H⁺ and OH⁻, so Kw increases; cooling decreases Kw.",
+        "Like every equilibrium constant, Kw changes only with temperature; that is why Kw values are quoted with a temperature."
+      ],
+      "tip": "Explain the rise in Kw using the endothermic forward reaction. Don't say 'because the water evaporates' or 'because the particles move faster' alone."
+    },
+    {
+      "h": "Kw values and neutral pH at different temperatures (Higher Level only)",
+      "b": "Because Kw rises with temperature, the pH of pure water falls as it gets hotter, yet the water is still neutral. Neutral is defined by [H⁺] = [OH⁻], not by a fixed pH.",
+      "points": [
         "Kw at 0 °C is 1.1 × 10⁻¹⁵, giving a neutral pH of 7.48.",
         "Kw at 25 °C is 1.0 × 10⁻¹⁴, giving a neutral pH of 7.00.",
         "Kw at 50 °C is 5.5 × 10⁻¹⁴, giving a neutral pH of 6.63.",
         "Kw at 100 °C is 5.1 × 10⁻¹³, giving a neutral pH of 6.15.",
         "Hot pure water has a pH below 7 but is still neutral, because [H⁺] and [OH⁻] increase equally and stay equal; neutral means [H⁺] = [OH⁻], not pH = 7.",
-        "The neutral pH is therefore lower at higher temperatures and higher at lower temperatures."
-      ]
+        "The neutral pH is therefore lower at higher temperatures and higher at lower temperatures, so pH 7 is the neutral point only at 25 °C."
+      ],
+      "tip": "You may be asked to explain why the pH of pure water falls as temperature rises yet the water stays neutral. Water at pH 6.6 is not acidic: [H⁺] still equals [OH⁻]. The neutral pH is the square root of Kw, then −log₁₀."
     },
     {
       "h": "The pH scale",
+      "b": "Concentrations of H⁺ in solutions are often tiny numbers such as 0.0000001 mol L⁻¹. The pH scale turns them into easy numbers, usually between 0 and 14.",
       "points": [
         "pH is defined as pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen (hydronium) ions in mol L⁻¹.",
         "The scale was introduced by the Danish chemist Søren Sørensen in 1909, while working at the Carlsberg Laboratory in Copenhagen, as a convenient way to express very small [H⁺] values.",
         "At 25 °C, pH below 7 is acidic, pH 7 is neutral and pH above 7 is basic (alkaline); the lower the pH, the more acidic the solution.",
         "Where [H⁺] = 10⁻ˣ mol L⁻¹, the pH is x: for example, [H⁺] = 10⁻⁴ mol L⁻¹ gives pH 4.",
-        "The scale is logarithmic: a change of 1 pH unit is a tenfold change in [H⁺]; a solution of pH 3 has 10 times the [H⁺] of one of pH 4 and 100 times that of one of pH 5.",
-        "Stomach acid has a pH of about 1–2; lemon juice about 2–3; vinegar about 3.",
+        "The scale is logarithmic (each step multiplies by a fixed factor): a change of 1 pH unit is a tenfold change in [H⁺]. A solution of pH 3 has 10 times the [H⁺] of one of pH 4 and 100 times that of one of pH 5."
+      ],
+      "tip": "Use log₁₀, not ln, and don't forget the minus sign: pH = −log₁₀[H⁺]. One pH unit is a tenfold change in [H⁺], not a change of one. You may be asked to define pH and say whether a given pH is acidic, basic or neutral."
+    },
+    {
+      "h": "Typical pH values",
+      "b": "Putting numbers on familiar substances helps you judge whether a calculated pH is sensible. These values are approximate.",
+      "points": [
+        "Stomach acid has a pH of about 1–2; lemon juice about 2–3; vinegar about 3. These are acidic.",
         "Pure water has pH 7, and blood 7.35–7.45.",
-        "Baking soda solution has a pH of about 8–9; milk of magnesia about 10.5.",
-        "Household ammonia has a pH of about 11–12; oven cleaner (sodium hydroxide) about 13–14."
+        "Baking soda solution has a pH of about 8–9; milk of magnesia about 10.5. These are weakly basic.",
+        "Household ammonia has a pH of about 11–12; oven cleaner (sodium hydroxide) about 13–14. These are strongly basic."
       ]
     },
     {
       "h": "Converting between pH and [H⁺]",
+      "b": "Exam questions give you either [H⁺] or the pH and ask for the other. Each direction uses the same relationship, worked here with sample numbers.",
       "points": [
         "From [H⁺] to pH: pH = −log₁₀[H⁺]. For example, [H⁺] = 3.5 × 10⁻⁴ mol L⁻¹ gives pH = −log₁₀(3.5 × 10⁻⁴) = 3.46.",
-        "For example, [H⁺] = 7.1 × 10⁻⁷ mol L⁻¹ gives pH = 6.15, which is slightly acidic at 25 °C.",
-        "From pH to [H⁺]: [H⁺] = 10⁻ᵖᴴ, the antilog of −pH. For example, pH 3.7 gives [H⁺] = 10⁻³·⁷ = 2.00 × 10⁻⁴ mol L⁻¹.",
+        "For example, [H⁺] = 7.1 × 10⁻⁷ mol L⁻¹ gives pH = 6.15, which is slightly acidic at 25 °C because it is below 7.",
+        "From pH to [H⁺]: [H⁺] = 10⁻ᵖᴴ, the antilog (the reverse of log) of −pH. For example, pH 3.7 gives [H⁺] = 10⁻³·⁷ = 2.00 × 10⁻⁴ mol L⁻¹.",
         "For example, pH 8.6 gives [H⁺] = 10⁻⁸·⁶ = 2.51 × 10⁻⁹ mol L⁻¹.",
         "On a calculator, use the log key with a minus sign to find pH, and the 10ˣ key (or inverse log) with −pH to find [H⁺]; give pH to two decimal places unless the question asks otherwise."
-      ]
+      ],
+      "tip": "Exams ask you to calculate pH from [H⁺], and [H⁺] from pH. Check the sign: a pH between 0 and 14 means a small [H⁺], below 1 mol L⁻¹."
     },
     {
       "h": "Limitations of the pH scale",
+      "b": "The pH scale works well for the dilute aqueous solutions met in most experiments, but it breaks down outside them.",
       "points": [
         "It is normally used only between 0 and 14; very concentrated acids and alkalis go outside this range, where pH is not a convenient measure.",
-        "For example, 2.0 M HCl has pH −log₁₀(2.0) = −0.30.",
+        "For example, 2.0 M HCl has pH −log₁₀(2.0) = −0.30, a negative value.",
         "It is reliable only for dilute solutions; in concentrated solutions (above about 1 mol L⁻¹) the ions interact and the measured pH no longer matches −log₁₀ of the concentration.",
-        "It applies only to aqueous solutions.",
-        "pH 7 is neutral only at 25 °C (see “Self-ionisation of water”)."
-      ]
+        "It applies only to aqueous solutions (those with water as the solvent).",
+        "pH 7 is neutral only at 25 °C, because Kw and so the neutral pH change with temperature."
+      ],
+      "tip": "You may be asked to state limitations of the pH scale. Give the 0–14 range, dilute solutions only, and aqueous only."
     },
     {
-      "h": "Measuring pH",
+      "h": "Measuring pH with universal indicator and single indicators",
+      "b": "The simplest way to find a pH is with an indicator, a dye that changes colour with the pH of the solution. Indicators are quick but not precise.",
       "points": [
-        "Universal indicator (solution or paper): add a few drops to the solution, or dip in a strip of paper, and compare the colour with the colour chart; it gives the pH only approximately, to about the nearest whole unit.",
-        "The colours of universal indicator are given in “Categorising acids and bases”.",
-        "A pH meter (or pH sensor with a data-logger) uses a glass electrode probe that responds to [H⁺] and gives a digital reading, usually to 0.01 pH units.",
-        "Calibrate the meter before use: place the rinsed probe in buffer solutions of known pH (e.g. pH 4.00 and 7.00, or 7.00 and 10.00) and set the meter to read these values.",
-        "A buffer solution resists a change in pH when small amounts of acid or base are added, so its pH is reliably known.",
-        "Rinse the probe with deionised water between solutions and blot it dry gently, so one solution does not contaminate the next; store the bulb wet, as directed.",
-        "A pH meter gives a precise numerical value (e.g. 4.72) rather than an estimate.",
-        "A pH meter needs no judgement of colour, which varies from person to person and with lighting.",
-        "A pH meter works in coloured or cloudy solutions, where an indicator colour cannot be seen, and can record pH continuously (as in “pH titration curves”).",
+        "Universal indicator (solution or paper): add a few drops to the solution, or dip in a strip of paper, and compare the colour with the colour chart. It gives the pH only to about the nearest whole unit. There is more on its colours in Acids, bases and their reactions.",
         "Single indicators such as litmus, methyl orange and phenolphthalein show only whether the pH is above or below their colour-change range, not a pH value."
-      ]
+      ],
+      "tip": "Universal indicator is not used to find a titration end point, because it changes colour gradually."
+    },
+    {
+      "h": "Measuring pH with a pH meter",
+      "b": "A pH meter gives a numerical reading, but it must be calibrated (set against known values) and looked after to be accurate.",
+      "points": [
+        "A pH meter (or pH sensor with a data-logger, a device that records readings automatically) uses a glass electrode probe that responds to [H⁺] and gives a digital reading, usually to 0.01 pH units.",
+        "Calibrate the meter before use: place the rinsed probe in buffer solutions of known pH (e.g. pH 4.00 and 7.00, or 7.00 and 10.00) and set the meter to read these values.",
+        "A buffer solution resists a change in pH when small amounts of acid or base are added, so its pH is reliably known. This is why buffers, not water or an acid of supposedly known pH, are used to calibrate.",
+        "Rinse the probe with deionised water (water with dissolved ions removed) between solutions and blot it dry gently, so one solution does not contaminate the next; store the bulb wet, as directed."
+      ],
+      "tip": "Calibrate with buffer solutions, not with water or an acid of 'known' pH. You may be asked to describe calibration."
+    },
+    {
+      "h": "Why a pH meter is better than universal indicator",
+      "b": "Exams ask for reasons why a meter is preferred, so know each advantage and what it improves.",
+      "points": [
+        "A pH meter gives a precise numerical value (e.g. 4.72) rather than an estimate to the nearest whole unit.",
+        "A pH meter needs no judgement of colour, which varies from person to person and with lighting.",
+        "A pH meter works in coloured or cloudy solutions, where an indicator colour cannot be seen.",
+        "A pH meter can record pH continuously, which suits following a reaction over time, as in pH titration curves."
+      ],
+      "tip": "You may be asked to give two ways of measuring pH and to explain why a pH meter is better than universal indicator. Give two of these advantages."
     },
     {
       "h": "Practical: measuring the pH of everyday substances",
@@ -110,31 +153,53 @@
         "Step 3: Measure each sample with a calibrated pH meter, rinsing the probe between samples.",
         "Step 4: Repeat each reading.",
         "Use deionised water to dissolve or mix solids, because tap water may contain dissolved substances that change the pH.",
-        "Results: record both sets of readings in a table and rank the substances from most acidic to most basic.",
-        "The meter readings are more precise, and the two methods should agree to about one unit.",
-        "Safety: wear goggles; treat oven cleaner and other strong alkalis as corrosive (use gloves, small volumes, or omit them); do not taste any sample.",
-        "Sources of error: a probe that is not calibrated or not rinsed; a temperature different from the calibration temperature; misjudging indicator colours.",
         "Diagram: a pH probe in a beaker of sample, connected to a meter (or data-logger) showing a digital reading.",
         "Diagram: universal indicator paper beside its colour chart."
+      ],
+      "tip": "Describing how to measure the pH of a sample with a meter needs calibration, rinsing the probe, and repeating the reading."
+    },
+    {
+      "h": "Practical: results, safety and sources of error",
+      "b": "After the readings, rank the substances, compare the two methods and take care with hazards and errors.",
+      "points": [
+        "Results: record both sets of readings in a table and rank the substances from most acidic to most basic.",
+        "The meter readings are more precise, and the two methods should agree to about one unit, because universal indicator reads only to about the nearest whole unit.",
+        "Safety: wear goggles; treat oven cleaner and other strong alkalis as corrosive (use gloves, small volumes, or omit them); do not taste any sample.",
+        "Sources of error: a probe that is not calibrated or not rinsed; a temperature different from the calibration temperature; misjudging indicator colours."
       ]
     },
     {
-      "h": "Factors that affect pH (Higher Level only)",
-      "b": "The pH depends on the [H⁺] in the solution, which depends on how far the acid dissociates and on its concentration.",
+      "h": "Factors that affect pH: strength and concentration (Higher Level only)",
+      "b": "The pH depends on the [H⁺] in the solution, which depends on how far the acid dissociates (splits into ions) and on its concentration. A strong acid dissociates almost completely; a weak acid only partly, measured by its Ka (the acid dissociation constant).",
       "points": [
         "Tendency to dissociate: at the same concentration, a strong acid has a lower pH than a weak acid.",
         "For example, 0.10 M HCl has pH 1.00, but 0.10 M ethanoic acid (Ka 1.8 × 10⁻⁵) has pH 2.87, because the weak acid is only about 1% dissociated.",
         "Concentration: diluting an acid lowers [H⁺] and raises the pH.",
         "Diluting a strong acid ten times raises its pH by 1: 0.10 M HCl has pH 1.00 and 0.010 M HCl has pH 2.00.",
         "Diluting a weak acid ten times raises its pH by only about 0.5: 0.10 M ethanoic acid has pH 2.87 and 0.010 M has pH 3.37.",
-        "This is because [H⁺] depends on the square root of the concentration, and dilution makes a weak acid dissociate a larger fraction (see “Degree of dissociation”).",
-        "Temperature: Kw increases with temperature, so the pH of pure water and of neutral solutions falls, to 6.15 at 100 °C (see “Self-ionisation of water”).",
+        "This is because [H⁺] depends on the square root of the concentration, and dilution makes a weak acid dissociate a larger fraction. There is more on this in pH calculations and dissociation constants."
+      ],
+      "tip": "You may be asked to explain how concentration and strength affect pH, for instance why diluting hydrochloric acid ten times changes its pH by 1 but ethanoic acid's by only about 0.5. Give the strength effect, then the dilution effect for each."
+    },
+    {
+      "h": "Factors that affect pH: temperature (Higher Level only)",
+      "b": "Temperature changes pH because it changes Kw, Ka and Kb (the dissociation constants of water, weak acids and weak bases).",
+      "points": [
+        "Temperature: Kw increases with temperature, so the pH of pure water and of neutral solutions falls, to 6.15 at 100 °C.",
         "Ka and Kb also change with temperature, so the pH of weak acids and bases changes; Ka and Kb values are quoted at 25 °C.",
         "For a base, the pH also changes with temperature at fixed [OH⁻], because [H⁺] = Kw ÷ [OH⁻] and Kw changes.",
-        "For example, 0.010 M NaOH has pH 12.00 at 25 °C but about 11.3 at 50 °C.",
+        "For example, 0.010 M NaOH has pH 12.00 at 25 °C but about 11.3 at 50 °C, because Kw is larger at 50 °C so [H⁺] is larger."
+      ],
+      "tip": "You may be asked how temperature affects pH. Link it to Kw increasing with temperature."
+    },
+    {
+      "h": "pH measures acidity, not acid strength (Higher Level only)",
+      "b": "Strength and pH are different ideas. Strength is how far an acid dissociates; pH is the [H⁺] actually present, which also depends on concentration.",
+      "points": [
         "pH measures acidity (the [H⁺] in the solution), not the strength of the acid: a very dilute strong acid can have a higher pH than a concentrated weak acid.",
         "For example, 1.0 × 10⁻⁵ M HCl has pH 5.00, while 1.0 M ethanoic acid has pH 2.37."
-      ]
+      ],
+      "tip": "A strong acid doesn't always mean a low pH, because pH depends on concentration as well as strength."
     }
   ],
   "keyTerms": [

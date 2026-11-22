@@ -6,97 +6,114 @@
   "notes": [
     {
       "h": "Overview of water treatment",
+      "b": "Water taken from rivers, lakes or the ground is not safe to drink as it comes. Treatment is a series of steps, each removing a different problem, so that the water that reaches your tap is safe.",
       "points": [
-        "Drinking water must be free of harmful microorganisms and chemicals, and must be clear, colourless and odourless.",
-        "In Ireland, public water supplies are treated by Uisce Éireann (Irish Water) and must meet the limits in the EU Drinking Water Directive.",
+        "Drinking water must be free of harmful microorganisms (bacteria, viruses and other living things too small to see) and harmful chemicals, and must be clear, colourless and odourless.",
+        "In Ireland, public water supplies are treated by Uisce Éireann (Irish Water) and must meet the limits in the EU Drinking Water Directive (the European law that sets the maximum levels of contaminants).",
         "The usual order of treatment is screening, flocculation (coagulation), sedimentation, filtration (sand and, in some plants, microfiltration), disinfection (chlorination and/or UV), fluoridation and pH adjustment.",
-        "The exact steps depend on the source water.",
-        "The first steps remove suspended solids by physical means; the later steps kill microorganisms and adjust the chemistry of the water.",
+        "The exact steps depend on the source water, so a plant treating a clean source needs fewer steps than one treating a muddy river.",
+        "The first steps remove suspended solids (tiny solid particles carried along in the water) by physical means; the later steps kill microorganisms and adjust the chemistry of the water.",
         "Diagram: a flow diagram of a treatment plant showing the intake with screen, flocculation tank (aluminium sulfate added), sedimentation tank (sludge removed), sand filter beds, chlorine and/or UV unit, fluoride and pH adjustment, storage reservoir and distribution pipes."
-      ]
+      ],
+      "tip": "Learn the order of the stages, because the later ones depend on the earlier ones. Flocculation comes before sedimentation, because the flocculating agent makes the particles big enough to settle."
     },
     {
       "h": "Screening",
+      "b": "Screening is the first step. It removes the biggest objects before they can block or damage equipment further along.",
       "points": [
         "Water from a river or lake passes through metal screens (mesh) that remove large floating objects such as branches, leaves, plastic and fish.",
-        "No chemicals are added at the screening stage."
+        "No chemicals are added at the screening stage, because it is purely a physical straining of the water."
       ]
     },
     {
       "h": "Flocculation",
+      "b": "Very fine particles would stay suspended for days, so they cannot simply be left to settle. Flocculation (also called coagulation) is the chemical trick that makes them clump into pieces big enough to sink.",
       "points": [
         "Very small suspended particles (clay, silt and organic matter) don't settle because they are tiny and carry like, usually negative, charges that make them repel each other.",
-        "A flocculating agent (coagulant), usually aluminium sulfate, Al₂(SO₄)₃, is added and stirred in; iron salts and polyelectrolytes are also used.",
-        "The positive Al³⁺ ions neutralise the charges on the particles, so the particles clump together.",
-        "Aluminium hydroxide also forms as a sticky, jelly-like precipitate that traps the particles: Al₂(SO₄)₃(aq) + 3Ca(OH)₂(aq) → 2Al(OH)₃(s) + 3CaSO₄(aq).",
+        "A flocculating agent (coagulant, a chemical that makes particles clump), usually aluminium sulfate, Al₂(SO₄)₃, is added and stirred in; iron salts and polyelectrolytes (long-chain molecules with many charges) are also used.",
+        "The positive Al³⁺ ions neutralise the charges on the particles, so the particles no longer repel each other and clump together.",
+        "Aluminium hydroxide also forms as a sticky, jelly-like precipitate (an insoluble solid formed in a reaction) that traps the particles: Al₂(SO₄)₃(aq) + 3Ca(OH)₂(aq) → 2Al(OH)₃(s) + 3CaSO₄(aq).",
         "The particles join into larger clumps called flocs, which are heavy enough to settle."
-      ]
+      ],
+      "tip": "If asked for the purpose of adding a flocculating agent, say it makes the tiny particles clump into flocs big enough to settle. Remember that flocculation comes before sedimentation."
     },
     {
       "h": "Sedimentation",
+      "b": "Once flocculation has made the particles heavy, gravity can do the work of removing them. This step is called sedimentation (settling).",
       "points": [
-        "Water flows slowly through large settling tanks, where the flocs and other heavier particles sink to the bottom under gravity, removing most of the suspended matter.",
-        "The sludge that collects at the bottom is removed and disposed of, and the clearer water flows off the top."
-      ]
+        "Water flows slowly through large settling tanks, where the flocs and other heavier particles sink to the bottom under gravity, removing most of the suspended matter. The slow flow gives them time to sink.",
+        "The sludge (the thick mud of settled solids) that collects at the bottom is removed and disposed of, and the clearer water flows off the top."
+      ],
+      "tip": "Sedimentation is one of the stages you may be asked to describe or explain the purpose of. Link it to flocculation: the flocs are what settle."
     },
     {
       "h": "Filtration",
+      "b": "Sedimentation leaves behind the smaller particles that did not sink. Filtration strains these out, using sand in most plants and, in some plants, membranes as well.",
       "points": [
         "Sand filtration: water passes down through beds of sand on a layer of gravel, and the remaining small particles and flocs are trapped in the spaces between the sand grains.",
-        "The filters are cleaned regularly by backwashing, which pumps clean water up through the bed.",
-        "Microfiltration forces water through membranes with very small pores (about 0.1–10 µm), which remove fine particles, bacteria and protozoan parasites such as Cryptosporidium.",
-        "Microfiltration does not remove dissolved substances or most viruses."
-      ]
+        "The filters are cleaned regularly by backwashing, which pumps clean water up through the bed so that the trapped particles are flushed out and the filter does not clog.",
+        "Microfiltration forces water through membranes (thin sheets) with very small pores (about 0.1–10 µm), which remove fine particles, bacteria and protozoan parasites (single-celled organisms that cause disease) such as Cryptosporidium.",
+        "Microfiltration does not remove dissolved substances or most viruses, because these are smaller than the pores."
+      ],
+      "tip": "Filtration does not remove dissolved substances, so don't say it does. Chlorination does not remove particles either."
     },
     {
       "h": "Chlorination",
+      "b": "Filtering removes particles, but many microorganisms still get through. Chlorination is the disinfection step: adding chlorine to kill them.",
       "points": [
         "Chlorination kills disease-causing microorganisms (bacteria and viruses) so that the water is safe to drink.",
-        "Chlorine gas or sodium hypochlorite (NaOCl) is added.",
-        "Chlorine reacts with water to form hypochlorous acid, the main disinfectant: Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq).",
-        "Enough chlorine is added to leave a small residual of free chlorine (a few tenths of a mg L⁻¹), which keeps the water disinfected as it travels through the pipes to the tap.",
+        "Chlorine gas or sodium hypochlorite (NaOCl) is added. Chlorine reacts with water to form hypochlorous acid, the main disinfectant: Cl₂(g) + H₂O(l) ⇌ HOCl(aq) + HCl(aq).",
+        "Enough chlorine is added to leave a small residual of free chlorine (a few tenths of a mg L⁻¹, that is, a little left over after disinfection), which keeps the water disinfected as it travels through the pipes to the tap.",
         "Some organisms, especially Cryptosporidium, resist chlorine at the levels used, so another barrier (good filtration or UV) is needed.",
         "Too much chlorine gives an unpleasant taste and smell.",
-        "Chlorine reacts with organic matter in the water to form by-products such as trihalomethanes, whose levels are limited by law.",
-        "Removing organic matter first, by flocculation and filtration, keeps trihalomethane levels low."
-      ]
+        "Chlorine reacts with organic matter (material from plants and other living things) in the water to form by-products such as trihalomethanes, whose levels are limited by law.",
+        "Removing organic matter first, by flocculation and filtration, keeps trihalomethane levels low because there is less for the chlorine to react with."
+      ],
+      "tip": "Chlorination kills microorganisms. It does not remove hardness, chemicals or particles. If asked why water is disinfected and how, say it kills disease-causing microorganisms and that chlorine (as hypochlorous acid) does this."
     },
     {
       "h": "UV treatment",
+      "b": "Ultraviolet (UV) light is an alternative way to disinfect water. It works on organisms that chlorine struggles with, but it cannot protect the water once it is in the pipes.",
       "points": [
-        "The water flows past lamps that emit ultraviolet radiation, which damages the DNA of microorganisms so that they can't reproduce.",
-        "UV treatment is effective against Cryptosporidium.",
+        "The water flows past lamps that emit ultraviolet radiation, which damages the DNA (the genetic material) of microorganisms so that they can't reproduce.",
+        "UV treatment is effective against Cryptosporidium, which resists chlorine at the levels used.",
         "UV adds no chemicals and does not change the taste or smell of the water.",
-        "UV leaves no residual disinfectant in the pipes, so chlorine is still added afterwards.",
-        "The water must be clear first, because suspended particles can shield microorganisms from the UV; the lamps use electricity.",
+        "UV leaves no residual disinfectant in the pipes, so chlorine is still added afterwards to protect the water on its way to the tap.",
+        "The water must be clear first, because suspended particles can shield microorganisms from the UV; the lamps also use electricity.",
         "An outbreak of Cryptosporidium infection in Galway in 2007, from the city's water supply, led to UV treatment being installed at the treatment plant there."
-      ]
+      ],
+      "tip": "UV leaves no residual, so chlorine is still needed for the pipes. Say this if asked why both are used."
     },
     {
       "h": "Fluoridation",
+      "b": "Fluoridation is different from the other steps because it is added for dental health, not to make the water safe from germs or particles. A small amount of a fluoride compound is added to public supplies.",
       "points": [
         "A fluoride compound is added to public water supplies: usually hexafluorosilicic acid (H₂SiF₆) in Ireland, and sodium fluoride (NaF) elsewhere.",
-        "Fluoride helps prevent tooth decay: it is taken into tooth enamel, converting some of the hydroxyapatite into fluorapatite.",
-        "Fluorapatite is more resistant to attack by acids made by bacteria than hydroxyapatite is.",
+        "Fluoride helps prevent tooth decay: it is taken into tooth enamel (the hard outer layer of the tooth), converting some of the hydroxyapatite (the calcium mineral that enamel is made of) into fluorapatite.",
+        "Fluorapatite is more resistant to attack by acids made by bacteria than hydroxyapatite is, so the teeth decay less.",
         "Ireland has fluoridated public water supplies since the 1960s, under the Health (Fluoridation of Water Supplies) Act 1960.",
-        "The fluoride level is set at 0.6–0.8 mg L⁻¹ (p.p.m.), with a legal maximum of 0.8 mg L⁻¹ (since 2007).",
-        "Too much fluoride causes dental fluorosis, which shows as white flecks or brown staining of the teeth.",
+        "The fluoride level is set at 0.6–0.8 mg L⁻¹ (p.p.m., parts per million), with a legal maximum of 0.8 mg L⁻¹ (since 2007).",
+        "Too much fluoride causes dental fluorosis, which shows as white flecks or brown staining of the teeth. This is why the level is limited.",
         "Fluoridation is debated, and most European countries do not fluoridate water."
-      ]
+      ],
+      "tip": "If asked for the purpose of adding a fluoride compound, say it helps prevent tooth decay. Give the concentration in mg L⁻¹ or p.p.m."
     },
     {
       "h": "pH adjustment",
+      "b": "The last chemical step makes sure the water is neither too acidic nor too alkaline. pH is the scale that measures this, with 7 neutral, below 7 acidic and above 7 alkaline.",
       "points": [
         "The pH of drinking water must be kept within legal limits of 6.5–9.5, usually close to neutral or slightly alkaline.",
-        "If the water is too acidic (e.g. from peaty, upland areas), lime (calcium hydroxide, Ca(OH)₂, or calcium oxide, CaO) or sodium carbonate is added to raise the pH.",
-        "If the water is too alkaline, e.g. after lime has been added in treatment, sulfuric acid or carbon dioxide is added to lower the pH.",
-        "Acidic water corrodes metal pipes and dissolves lead and copper from household plumbing, which is a health risk.",
+        "If the water is too acidic (e.g. from peaty, upland areas), lime (calcium hydroxide, Ca(OH)₂, or calcium oxide, CaO) or sodium carbonate is added to raise the pH, because these are bases that neutralise acid.",
+        "If the water is too alkaline, e.g. after lime has been added in treatment, sulfuric acid or carbon dioxide is added to lower the pH, because these give acidic solutions.",
+        "Acidic water corrodes (slowly eats away) metal pipes and dissolves lead and copper from household plumbing, which is a health risk.",
         "Very alkaline water tastes bitter and leaves deposits.",
         "The pH also affects how well flocculation and chlorination work."
-      ]
+      ],
+      "tip": "Exams ask the purpose of adding calcium hydroxide or sulfuric acid, and the problem if the pH of an acidic supply was not adjusted. Say calcium hydroxide raises the pH and sulfuric acid lowers it, and that acidic water corrodes pipes and dissolves lead and copper."
     },
     {
       "h": "The impact of providing clean water",
+      "b": "Treatment is expensive, so it is worth asking what it achieves. Clean water has changed human health and still shapes lives around the world.",
       "points": [
         "Clean drinking water is one of the greatest public health advances: water-borne diseases such as cholera, typhoid and dysentery killed huge numbers of people in cities before treatment and disinfection.",
         "In 1854 John Snow traced a cholera outbreak in London to a contaminated water pump in Broad Street, an early piece of evidence that disease spreads through water.",
@@ -104,7 +121,7 @@
         "Contaminated water and poor sanitation cause many deaths from diarrhoeal disease, mostly of young children.",
         "Clean, safe water and sanitation for all is UN Sustainable Development Goal 6.",
         "Clean water brings benefits beyond health: less time is spent collecting water, often by women and girls; more children attend school; workers are healthier; and economies develop.",
-        "Costs: treatment uses energy and chemicals and produces sludge (see “Water contamination”), so treated water should not be wasted."
+        "Costs: treatment uses energy and chemicals and produces sludge, so treated water should not be wasted. There is more on this in Water contamination."
       ]
     }
   ],

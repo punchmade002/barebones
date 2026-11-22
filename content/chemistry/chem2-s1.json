@@ -6,117 +6,143 @@
   "notes": [
     {
       "h": "Early models: Dalton and Thomson",
-      "b": "These two models are background to the nuclear model. Each was accepted in its time and then replaced.",
+      "b": "A model of the atom is a picture scientists use to explain the evidence they have. These two early models are background to the nuclear model: each was accepted in its time and then replaced.",
       "points": [
-        "Dalton's atomic theory (John Dalton, 1803–1808): all matter is made of tiny indivisible particles called atoms.",
+        "Dalton's atomic theory (John Dalton, 1803–1808): all matter is made of tiny indivisible particles called atoms, which means that atoms cannot be split into anything smaller.",
         "Dalton's atoms of the same element are identical, atoms of different elements differ in mass, and atoms combine in simple whole-number ratios to form compounds.",
-        "Dalton's atoms are not created or destroyed in chemical reactions.",
-        "Thomson discovered the electron in 1897 using cathode rays: a negatively charged particle much lighter than an atom, present in all atoms, which showed that atoms are divisible.",
-        "Thomson's plum pudding model: the atom is a sphere of positive charge with negative electrons embedded in it, so the atom is neutral overall."
-      ]
+        "Dalton's atoms are not created or destroyed in chemical reactions, so a reaction only rearranges the atoms that were already there.",
+        "Thomson discovered the electron in 1897 using cathode rays (beams of particles given off in a glass tube from which the air has been removed). The electron is a negatively charged particle much lighter than an atom and present in all atoms, so atoms are divisible.",
+        "Thomson's plum pudding model: the atom is a sphere of positive charge with negative electrons embedded in it, like plums in a pudding, so the atom is neutral overall because the charges cancel."
+      ],
+      "tip": "The plum pudding model is Thomson's model, not the nuclear model, so don't mix the two up."
     },
     {
       "h": "The nuclear model and the gold-foil experiment",
-      "b": "The nuclear model came from scattering experiments, in which a beam of particles is fired at a target and the paths of the deflected particles are studied.",
+      "b": "The nuclear model came from a scattering experiment, in which a beam of particles is fired at a target and the paths of the deflected particles are studied. The results could not be explained by the plum pudding model.",
       "points": [
         "Gold-foil experiment (1909): Hans Geiger and Ernest Marsden, directed by Rutherford, fired a beam of alpha particles, which are small, fast, positively charged particles, at a very thin sheet of gold foil.",
-        "A fluorescent screen around the foil showed where the particles went after they hit the foil.",
+        "A fluorescent screen (a screen that gives off a flash of light where a particle hits it) was placed around the foil and showed where the particles went after they hit the foil.",
         "Observation: most particles passed straight through the foil, so most of the atom is empty space.",
-        "Observation: some particles were deflected through large angles, so there is a concentrated region of positive charge that repels them.",
+        "Observation: some particles were deflected through large angles, so there is a concentrated region of positive charge that repels them, because like charges repel.",
         "Observation: a very few particles bounced straight back, so this positive region is very small and very dense, containing almost all of the atom's mass.",
         "This positive region is the nucleus. Rutherford published the nuclear model in 1911: a tiny, dense, positively charged nucleus at the centre of the atom, with electrons moving around it in the mostly empty space outside.",
-        "Later work found that the nucleus contains protons and neutrons: Rutherford identified the proton, and Chadwick discovered the neutron in 1932 (see “Subatomic particles”).",
+        "Later work found that the nucleus contains protons (positively charged particles) and neutrons (particles with no charge): Rutherford identified the proton, and Chadwick discovered the neutron in 1932.",
         "Diagram: the gold-foil set-up, labelled with the alpha particle source, the beam, the gold foil and the fluorescent screen, and the paths of particles past the nuclei: straight through, deflected, and bounced back."
-      ]
+      ],
+      "tip": "If asked to describe the gold-foil experiment, give the set-up, then each of the three observations with the conclusion it leads to. Describe alpha particles only as small, fast, positively charged particles."
     },
     {
       "h": "The Bohr model",
-      "b": "Niels Bohr proposed energy levels in 1913 to explain why atoms emit light only at certain frequencies.",
+      "b": "Niels Bohr proposed energy levels in 1913 to explain why atoms emit light only at certain frequencies. His model keeps the nucleus but gives the electrons a definite arrangement around it.",
       "points": [
         "Electrons move around the nucleus in fixed circular orbits called energy levels (shells), each with a fixed energy.",
-        "An electron in a given energy level does not lose energy.",
+        "An electron in a given energy level does not lose energy, so it stays in that level rather than spiralling inwards.",
         "An electron can move to a higher energy level by absorbing a definite amount of energy.",
-        "When the electron falls back to a lower level, it emits light of a definite energy; this explains the lines in emission spectra (see “Energy levels and the hydrogen emission spectrum”).",
+        "When the electron falls back to a lower level, it emits light of a definite energy. This explains the lines in emission spectra (the separate coloured lines an element gives out when heated).",
         "Energy levels are numbered n = 1, 2, 3…, with n = 1 closest to the nucleus and lowest in energy.",
         "The energy levels hold up to 2, 8, 18… electrons."
-      ]
+      ],
+      "tip": "You may be asked to describe the Bohr model and state a limitation, or to compare it with the orbital model. The equation Em − En = hf and the hydrogen spectrum belong to a later subsection, not here."
     },
     {
       "h": "The orbital model (current model)",
       "b": "The orbital model is the current model. It describes where electrons are likely to be found, not the path they follow.",
       "points": [
         "Electrons do not follow fixed paths; they occupy orbitals, which are regions of space around the nucleus where there is a high probability of finding an electron.",
-        "Main energy levels are divided into sublevels, labelled s, p, d and f; each sublevel is made of orbitals, and each orbital holds up to two electrons (detail in “The current orbital model”).",
-        "The model developed from evidence that electrons behave as waves as well as particles.",
-        "It also rests on the principle that the exact position and the exact path of an electron cannot be known at the same time."
+        "Main energy levels are divided into sublevels, labelled s, p, d and f; each sublevel is made of orbitals, and each orbital holds up to two electrons. There is more on this in the later subsection on the orbital model.",
+        "The model developed from evidence that electrons behave as waves as well as particles, which a fixed circular path cannot describe.",
+        "It also rests on the principle that the exact position and the exact path of an electron cannot be known at the same time, which is why only probabilities can be given."
+      ],
+      "tip": "Don't say electrons in the orbital model orbit; say they occupy orbitals. For a comparison with the Bohr model, contrast fixed circular paths with regions of probability."
+    },
+    {
+      "h": "Assumptions and limitations: Dalton and plum pudding (Higher Level only)",
+      "b": "Each model rested on an assumption, and each had a limitation: evidence it could not explain. The first two models fail because the atom has parts and a structure they did not allow for.",
+      "points": [
+        "Dalton: assumed that atoms are indivisible and that all atoms of an element are identical.",
+        "Dalton: limited because subatomic particles (particles smaller than the atom) exist, and because isotopes show that atoms of the same element can differ in mass.",
+        "Plum pudding model: assumed that positive charge is spread through the atom.",
+        "Plum pudding model: limited because it cannot explain the large deflections and the particles that bounced back in the gold-foil experiment, which need a small, dense positive centre."
       ]
     },
     {
-      "h": "Assumptions and limitations of each model (Higher Level only)",
+      "h": "Assumptions and limitations: the nuclear model (Higher Level only)",
+      "b": "The nuclear model fixed the problem of the positive charge but said little about the electrons.",
       "points": [
-        "Dalton: assumed that atoms are indivisible and that all atoms of an element are identical.",
-        "Dalton: limited because subatomic particles exist, and because isotopes show that atoms of the same element can differ in mass.",
-        "Plum pudding model: assumed that positive charge is spread through the atom.",
-        "Plum pudding model: limited because it cannot explain the large deflections and the particles that bounced back in the gold-foil experiment.",
         "Nuclear model: assumed that electrons orbit the nucleus like planets.",
         "Nuclear model: limited because it does not say how electrons are arranged in the space around the nucleus.",
-        "Nuclear model: limited because a charged electron moving in a circle would be expected to lose energy and spiral into the nucleus.",
-        "Nuclear model: limited because it cannot explain line spectra.",
+        "Nuclear model: limited because a charged electron moving in a circle would be expected to lose energy and spiral into the nucleus, so the atom would not be stable.",
+        "Nuclear model: limited because it cannot explain line spectra (the separate lines of light an element emits)."
+      ]
+    },
+    {
+      "h": "Assumptions and limitations: Bohr and orbital models (Higher Level only)",
+      "b": "The Bohr model fixed the nuclear model's problems for hydrogen but not for other atoms. The orbital model is the best fit for the evidence, but it has its own limitation.",
+      "points": [
         "Bohr model: assumed that electrons move in fixed circular orbits with fixed energies.",
         "Bohr model: explains the spectrum of hydrogen, which has one electron, but not the spectra of atoms with more than one electron.",
         "Bohr model: does not account for sublevels or for the wave nature of electrons.",
         "Bohr model: treats the electron's exact path as known, but the exact position and path of an electron cannot be known at the same time.",
         "Orbital model: the best fit for the evidence available, but its limitation is that it is mathematical and abstract.",
         "Orbital model: gives probabilities of where an electron is found, not exact positions, and is hard to picture."
-      ]
+      ],
+      "tip": "A question may ask for one assumption and one limitation of the Bohr model, and how the orbital model overcomes the limitation. Use the wave nature of electrons and the idea that the exact position and path cannot be known together."
     },
     {
       "h": "Evaluating the models",
+      "b": "Scientists judge a model by how well it explains the evidence. Replaced models are not useless, because they still work for the things they explain well.",
       "points": [
         "Each model was accepted because it explained the evidence of its time, and was replaced or refined when new evidence did not fit.",
         "The Bohr model is still enough to explain flame colours and simple line spectra.",
         "The Bohr model's arrangement of electrons in shells, such as 2, 8, 8, is still used to predict bonding.",
         "The nuclear model still explains why atoms are mostly empty space."
-      ]
+      ],
+      "tip": "If asked why the Bohr model is still useful even though it has been replaced, give what it still explains: flame colours, simple line spectra and electron arrangements in shells."
     },
     {
       "h": "The three particles: mass, charge and location",
-      "b": "An atom is made of protons, neutrons and electrons. Relative mass and relative charge are compared with the proton.",
+      "b": "An atom is made of protons, neutrons and electrons. Their masses and charges are given relative to the proton (that is, as comparisons with it), because the real values are very small numbers.",
       "points": [
         "Proton: relative mass 1, relative charge +1, found in the nucleus.",
         "Neutron: relative mass 1, relative charge 0 (no charge), found in the nucleus.",
         "Electron: relative mass about 1/1840 of a proton, so negligible though not zero; relative charge −1; found outside the nucleus, in energy levels (orbitals)."
-      ]
+      ],
+      "tip": "A table of relative mass, relative charge and location for all three particles is a typical question. Don't say electrons have zero mass: their mass is very small. Say outside the nucleus, in energy levels (orbitals), not in orbits."
     },
     {
       "h": "Actual masses and charge",
+      "b": "The relative values hide the real sizes. The actual masses show how tiny the particles are and how much lighter the electron is.",
       "points": [
         "Actual masses: proton 1.6726 × 10⁻²⁷ kg; neutron 1.6749 × 10⁻²⁷ kg; electron 9.109 × 10⁻³¹ kg.",
-        "The proton and neutron have almost the same mass.",
-        "The charge on a proton is equal in size and opposite in sign to the charge on an electron."
+        "The proton and neutron have almost the same mass, which is why each is given a relative mass of 1.",
+        "The charge on a proton is equal in size and opposite in sign to the charge on an electron, so equal numbers of each cancel out."
       ]
     },
     {
       "h": "Structure and scale of the atom",
+      "b": "The particles are not spread evenly. The nucleus is tiny, yet it holds almost all the mass, and the rest of the atom is mostly empty.",
       "points": [
-        "Protons and neutrons, collectively called nucleons, make up the nucleus, which holds almost all of the atom's mass.",
+        "Protons and neutrons, collectively called nucleons, make up the nucleus, which holds almost all of the atom's mass because electrons are so light.",
         "The nucleus is tiny compared with the atom: an atom is about 10⁵ (100 000) times the diameter of its nucleus, so most of the atom is empty space.",
-        "A neutral atom has equal numbers of protons and electrons.",
-        "The number of protons identifies the element (see “Atomic number, mass number, relative atomic mass and isotopes”)."
+        "A neutral atom has equal numbers of protons and electrons, so the positive and negative charges cancel.",
+        "The number of protons identifies the element: every atom with 6 protons, for example, is carbon."
       ]
     },
     {
       "h": "Counting particles in atoms and ions (assumed)",
+      "b": "Exams ask you to state the numbers of protons, neutrons and electrons in an atom or ion. An ion is an atom that has lost or gained electrons, so it carries a charge. The number of protons never changes in an ion.",
       "points": [
-        "Number of protons = atomic number.",
-        "Number of neutrons = mass number − atomic number.",
+        "Number of protons = atomic number (the number of protons in the nucleus).",
+        "Number of neutrons = mass number − atomic number, where the mass number is the total of protons and neutrons.",
         "In a neutral atom, number of electrons = number of protons.",
         "A positive ion has lost electrons, so number of electrons = number of protons − charge, e.g. Na⁺ has 11 protons and 10 electrons.",
         "A negative ion has gained electrons, so number of electrons = number of protons + charge, e.g. Cl⁻ (chlorine-35) has 17 protons, 18 neutrons and 18 electrons; O²⁻ has 8 protons and 10 electrons."
-      ]
+      ],
+      "tip": "You may be asked for the number of protons, neutrons and electrons in a given atom or ion. Take the charge into account for ions, and only change the electrons."
     },
     {
       "h": "Discovery of the particles",
+      "b": "The three particles were found one at a time. The order of discovery follows how easy each is to detect.",
       "points": [
         "The electron was discovered by J. J. Thomson in 1897.",
         "The proton was identified by Rutherford about 1917–1919.",
@@ -126,36 +152,41 @@
     },
     {
       "h": "Atomic number and mass number",
+      "b": "Two whole numbers describe the nucleus of an atom. Together they give the number of each particle and are written beside the element's symbol.",
       "points": [
         "Atomic number (Z): the number of protons in the nucleus of an atom of an element.",
         "Each element has its own atomic number, and the periodic table is arranged in order of atomic number.",
         "Mass number (A): the total number of protons and neutrons in the nucleus of an atom.",
         "Number of neutrons = mass number − atomic number (A − Z).",
         "Nuclear notation writes the mass number at the top left and the atomic number at the bottom left of the element symbol, e.g. ²³₁₁Na has 11 protons, 12 neutrons and (as an atom) 11 electrons."
-      ]
+      ],
+      "tip": "Definitions of atomic number and mass number are asked for. Don't confuse the mass number, a whole number for one atom, with relative atomic mass."
     },
     {
       "h": "Isotopes",
+      "b": "Atoms of one element are not all identical. They can have different numbers of neutrons, and such atoms are called isotopes.",
       "points": [
         "Isotopes have the same atomic number, so the same number of protons, but different mass numbers because they have different numbers of neutrons.",
         "Hydrogen-1 (¹H) has no neutrons; hydrogen-2 (²H), called deuterium, has one neutron; hydrogen-3 (³H), called tritium, has two.",
         "Chlorine-35 (³⁵Cl) has 18 neutrons and chlorine-37 (³⁷Cl) has 20 neutrons.",
         "Carbon-12, carbon-13 and carbon-14 are isotopes of carbon.",
-        "Isotopes of an element have the same chemical properties because they have the same number of electrons and the same electron arrangement.",
-        "Isotopes have slightly different physical properties that depend on mass, such as density and rate of diffusion.",
+        "Isotopes of an element have the same chemical properties because they have the same number of electrons and the same electron arrangement, and electrons control how an atom reacts.",
+        "Isotopes have slightly different physical properties that depend on mass, such as density and rate of diffusion (how fast a gas spreads out).",
         "Isotopes are written by name and mass number, e.g. chlorine-35, or in nuclear notation, e.g. ³⁵₁₇Cl."
-      ]
+      ],
+      "tip": "Isotopes differ in neutrons, not protons or electrons. To explain why isotopes have the same chemical properties, refer to the same number of electrons and the same electron arrangement."
     },
     {
       "h": "Relative atomic mass",
+      "b": "Because an element's isotopes have different masses, one atom's mass number does not describe the element as a whole. Relative atomic mass is an average over its isotopes.",
       "points": [
         "Relative atomic mass (Ar): the average mass of the atoms of an element, taking account of the abundance of its isotopes, relative to one-twelfth of the mass of an atom of carbon-12.",
         "Carbon-12 is the standard: an atom of carbon-12 is defined as having a mass of exactly 12 units.",
-        "Ar has no units.",
+        "Ar has no units, because it compares masses.",
         "The mass number of a single isotope is always a whole number; Ar is a weighted average of the isotopes present, so it is usually not whole.",
-        "Chlorine is about 75.8% chlorine-35 and 24.2% chlorine-37, giving Ar(Cl) = 35.45 (quoted as 35.5 in school tables).",
-        "The calculation of Ar from isotopic abundance is in “Relative atomic mass from isotopic abundance”."
-      ]
+        "Chlorine is about 75.8% chlorine-35 and 24.2% chlorine-37, giving Ar(Cl) = 35.45 (quoted as 35.5 in school tables). There is more on calculating Ar from isotopic abundance in the later subsection on the mole."
+      ],
+      "tip": "Define relative atomic mass in full. To explain why chlorine's relative atomic mass is 35.5 rather than a whole number, say it is a weighted average of its isotopes."
     }
   ],
   "keyTerms": [
