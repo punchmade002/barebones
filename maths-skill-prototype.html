@@ -273,10 +273,11 @@ function render() {
       <div class="row"><button class="btn btn-plain" data-act="restart">Start this skill again</button></div></section>`;
   } else {
     const done = state.shown === p.steps.length;
-    const question = `<figure class="pasted" style="margin:0">${p.images.map((src, k) =>
+    // shortcut: crops are whole questions, so long ones bury the part; per-part crops are the real fix
+    const question = `<div class="part" style="margin:0 0 14px">Do part ${esc(p.part)}</div>
+      <figure class="pasted" style="margin:0">${p.images.map((src, k) =>
       `<img src="${src}" alt="Exam paper, ${esc(p.source)}, page ${k + 1}">`).join('')}
-      <figcaption><span>${esc(p.source)}</span><span>${p.marks} marks for this part</span></figcaption></figure>
-      <div class="part">Do part ${esc(p.part)}</div>`;
+      <figcaption><span>${esc(p.source)}</span><span>${p.marks} marks for this part</span></figcaption></figure>`;
     let work = '';
     if (!state.started) {
       work = `<div class="start"><p><b>Copybook first.</b> Do part ${esc(p.part)} in your copy, every line, the way you would in the exam.</p>
