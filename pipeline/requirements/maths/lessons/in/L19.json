@@ -1,0 +1,1071 @@
+[
+ {
+  "skill": {
+   "id": "seq-limits",
+   "title": "Find limits of sequences by inspection and limit rules",
+   "level": "HL",
+   "input": "sequence",
+   "output": "limit"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(c)(ii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Take the limit as n tends to infinity",
+      "lines": [
+       {
+        "text": "The fraction remaining at step $n$ is $\\left(\\frac{3}{4}\\right)^n$, and $\\frac{3}{4}$ is between $-1$ and $1$."
+       },
+       {
+        "tex": "\\lim_{n\\to\\infty}\\left(\\frac{3}{4}\\right)^n &= 0"
+       },
+       {
+        "text": "The fraction remaining tends to $0$."
+       }
+      ]
+     }
+    ],
+    "final": "0"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q8#(d)(ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace p_{n+1} and p_n by p",
+      "lines": [
+       {
+        "tex": "p &= 0.6 + 0.2p"
+       }
+      ]
+     },
+     {
+      "title": "Solve for p",
+      "lines": [
+       {
+        "tex": "p - 0.2p &= 0.6"
+       },
+       {
+        "tex": "0.8p &= 0.6"
+       },
+       {
+        "tex": "p &= \\frac{0.6}{0.8}"
+       },
+       {
+        "tex": "&= 0.75"
+       }
+      ]
+     }
+    ],
+    "final": "p = 0.75"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q9#(d)(iii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Area",
+      "lines": [
+       {
+        "text": "From (c)(ii) the fraction remaining tends to 0, so the total area of the black triangles tends to 0."
+       },
+       {
+        "tex": "\\text{Area} &\\to 0"
+       }
+      ]
+     },
+     {
+      "title": "Perimeter",
+      "lines": [
+       {
+        "text": "The perimeter is multiplied by $\\frac{3}{2} > 1$ each step, so it keeps growing."
+       },
+       {
+        "tex": "\\text{Perimeter} &\\to \\infty"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Area} \\to 0 \\text{ and perimeter} \\to \\infty"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Take the limit of each term separately",
+      "lines": [
+       {
+        "tex": "\\lim_{n\\to\\infty}\\left[\\frac{n}{n+1} + \\frac{n+1000}{n} + \\left(\\frac{1}{3}\\right)^n\\right] &= \\lim_{n\\to\\infty}\\frac{n}{n+1} + \\lim_{n\\to\\infty}\\frac{n+1000}{n} + \\lim_{n\\to\\infty}\\left(\\frac{1}{3}\\right)^n"
+       }
+      ]
+     },
+     {
+      "title": "Divide top and bottom of the first two fractions by n",
+      "lines": [
+       {
+        "tex": "\\lim_{n\\to\\infty}\\frac{n}{n+1} &= \\lim_{n\\to\\infty}\\frac{1}{1 + \\frac{1}{n}}"
+       },
+       {
+        "tex": "\\lim_{n\\to\\infty}\\frac{n+1000}{n} &= \\lim_{n\\to\\infty}\\left(1 + \\frac{1000}{n}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Let n tend to infinity",
+      "lines": [
+       {
+        "text": "As $n \\to \\infty$: $\\frac{1}{n} \\to 0$, $\\frac{1000}{n} \\to 0$ and $\\left(\\frac{1}{3}\\right)^n \\to 0$."
+       },
+       {
+        "tex": "&= \\frac{1}{1+0} + (1 + 0) + 0"
+       },
+       {
+        "tex": "&= 1 + 1 + 0"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q10#(d)(iii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split into three fractions",
+      "lines": [
+       {
+        "text": "Divide each term of the numerator by $4t^2$."
+       },
+       {
+        "tex": "Q_\\infty &= \\lim_{t\\to\\infty}\\frac{t^2 + 2t + 1}{4t^2}"
+       },
+       {
+        "tex": "&= \\lim_{t\\to\\infty}\\left(\\frac{t^2}{4t^2} + \\frac{2t}{4t^2} + \\frac{1}{4t^2}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify each fraction",
+      "lines": [
+       {
+        "tex": "Q_\\infty &= \\lim_{t\\to\\infty}\\left(\\frac{1}{4} + \\frac{1}{2t} + \\frac{1}{4t^2}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Take the limit",
+      "lines": [
+       {
+        "text": "As $t\\to\\infty$, $\\frac{1}{2t}\\to 0$ and $\\frac{1}{4t^2}\\to 0$."
+       },
+       {
+        "tex": "Q_\\infty &= \\frac{1}{4} + 0 + 0"
+       },
+       {
+        "tex": "&= \\frac{1}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "Q_\\infty = \\frac{1}{4}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-pattern",
+   "title": "Continue and generalise a pattern",
+   "level": "OL",
+   "input": "terms or diagrams of a pattern",
+   "output": "next terms; nth term in algebraic form"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(e)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the pattern in the totals",
+      "lines": [
+       {
+        "text": "The totals are square numbers."
+       },
+       {
+        "tex": "T_1 &= 4 = 2^2"
+       },
+       {
+        "tex": "T_2 &= 9 = 3^2"
+       },
+       {
+        "tex": "T_3 &= 16 = 4^2"
+       },
+       {
+        "text": "The square is always one more than the pattern number."
+       },
+       {
+        "tex": "T_n &= (n+1)^2"
+       }
+      ]
+     }
+    ],
+    "final": "T_n = (n+1)^2"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(b)(i)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add 250 each month",
+      "lines": [
+       {
+        "text": "The loss falls by €250 each month, so each month's profit is €250 more than the month before."
+       },
+       {
+        "tex": "T_3 &= -3750 + 250"
+       },
+       {
+        "tex": "&= -3500"
+       },
+       {
+        "tex": "T_5 &= -3250 + 250"
+       },
+       {
+        "tex": "&= -3000"
+       },
+       {
+        "tex": "T_6 &= -3000 + 250"
+       },
+       {
+        "tex": "&= -2750"
+       }
+      ]
+     }
+    ],
+    "final": "-3500,\\ -3000,\\ -2750"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Continue the pattern up to pattern 10",
+      "lines": [
+       {
+        "text": "The sequence $3, 7, 11, \\dots$ goes up by $4$ each time, so pattern 6 has $23$ sticks."
+       },
+       {
+        "tex": "\\text{Pattern 7} &= 23 + 4 = 27"
+       },
+       {
+        "tex": "\\text{Pattern 8} &= 27 + 4 = 31"
+       },
+       {
+        "tex": "\\text{Pattern 9} &= 31 + 4 = 35"
+       },
+       {
+        "tex": "\\text{Pattern 10} &= 35 + 4 = 39"
+       }
+      ]
+     }
+    ],
+    "final": "39"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Join every pair of dots",
+      "lines": [
+       {
+        "text": "Pattern 3 has 4 dots. Each pair of dots is joined by a line segment."
+       },
+       {
+        "text": "Draw the 4 sides of the square and the 2 diagonals. That is 6 line segments."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{4 dots joined by 6 line segments}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Spot how each pattern grows",
+      "lines": [
+       {
+        "text": "Pattern 1 has 2 rows, pattern 2 has 3 rows, pattern 3 has 4 rows."
+       },
+       {
+        "text": "So pattern 4 has 5 rows. Row $k$ has $k$ black triangles pointing up, with $k-1$ white triangles pointing down between them."
+       }
+      ]
+     },
+     {
+      "title": "Draw the rows of pattern 4",
+      "lines": [
+       {
+        "text": "Rows from the top: 1 black; 2 black and 1 white; 3 black and 2 white; 4 black and 3 white; 5 black and 4 white."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pattern 4: 5 rows, 15 black and 10 white triangles}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q7#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot how each pattern grows",
+      "lines": [
+       {
+        "text": "Pattern $n$ has a top row of $n+2$ tiles and a leg of $n$ tiles hanging below each end."
+       },
+       {
+        "text": "Pattern 3 has 5 on top and legs of 3, so pattern 4 has 6 on top and legs of 4."
+       }
+      ]
+     },
+     {
+      "title": "Draw pattern 4",
+      "lines": [
+       {
+        "text": "Add one tile to the top row and one tile to the bottom of each leg. The new pattern is drawn in blue."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pattern 4: top row of 6 tiles, a leg of 4 tiles at each end}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-quadratic",
+   "title": "Find the nth term of a quadratic sequence",
+   "level": "OL",
+   "input": "terms with constant second difference",
+   "output": "Tₙ = an² + bn + c"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(f)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 1 into the formula",
+      "lines": [
+       {
+        "text": "Pattern 1 has 3 black triangles, so $B_1 = 3$."
+       },
+       {
+        "tex": "B_1 &= \\tfrac{1}{2}(1)^2 + \\tfrac{3}{2}(1) + c"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2} + \\tfrac{3}{2} + c"
+       },
+       {
+        "tex": "&= 2 + c"
+       }
+      ]
+     },
+     {
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "2 + c &= 3"
+       },
+       {
+        "tex": "c &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "c = 1"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q9#(b)(vi)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 1 into T(n)",
+      "lines": [
+       {
+        "text": "Pattern 1 has 1 line segment, so $T(1) = 1$."
+       },
+       {
+        "tex": "0.5(1)^2 + b(1) &= 1"
+       },
+       {
+        "tex": "0.5 + b &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Solve for b",
+      "lines": [
+       {
+        "tex": "b &= 1 - 0.5"
+       },
+       {
+        "tex": "&= 0.5"
+       }
+      ]
+     }
+    ],
+    "final": "b = 0.5"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(c)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the numbers of black triangles",
+      "lines": [
+       {
+        "tex": "&3,\\ 6,\\ 10,\\ 15,\\ 21"
+       }
+      ]
+     },
+     {
+      "title": "Find the first differences",
+      "lines": [
+       {
+        "tex": "6 - 3 &= 3"
+       },
+       {
+        "tex": "10 - 6 &= 4"
+       },
+       {
+        "tex": "15 - 10 &= 5"
+       },
+       {
+        "tex": "21 - 15 &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Find the second differences",
+      "lines": [
+       {
+        "tex": "4 - 3 &= 1"
+       },
+       {
+        "tex": "5 - 4 &= 1"
+       },
+       {
+        "tex": "6 - 5 &= 1"
+       },
+       {
+        "text": "The second difference is constant (always 1), so the sequence is quadratic."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{second difference constant } (=1),\\ \\text{so quadratic}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(h)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find which pattern has 625 triangles",
+      "lines": [
+       {
+        "tex": "(n+1)^2 &= 625"
+       },
+       {
+        "text": "$625 = 25^2$ and $n+1$ is positive."
+       },
+       {
+        "tex": "n + 1 &= 25"
+       },
+       {
+        "tex": "n &= 24"
+       }
+      ]
+     },
+     {
+      "title": "Find the black triangles in pattern 24",
+      "lines": [
+       {
+        "tex": "B_{24} &= \\tfrac{1}{2}(24)^2 + \\tfrac{3}{2}(24) + 1"
+       },
+       {
+        "tex": "&= 288 + 36 + 1"
+       },
+       {
+        "tex": "&= 325"
+       }
+      ]
+     },
+     {
+      "title": "Find the white triangles",
+      "lines": [
+       {
+        "tex": "W_{24} &= 625 - 325"
+       },
+       {
+        "tex": "&= 300"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Black} = 325,\\ \\text{White} = 300"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q4#(c)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the total as grey plus white",
+      "lines": [
+       {
+        "tex": "T_n &= (n + 1)^2 + 2"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "(n + 1)^2 + 2 &= n^2 + 2n + 1 + 2"
+       },
+       {
+        "tex": "&= n^2 + 2n + 3"
+       }
+      ]
+     },
+     {
+      "title": "Compare with n² + bn + c",
+      "lines": [
+       {
+        "text": "$n^2 + bn + c = n^2 + 2n + 3$, so $b = 2$ and $c = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "b = 2,\\ c = 3"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q5#(b)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Substitute n = 1",
+      "lines": [
+       {
+        "text": "$U_1 = 13$."
+       },
+       {
+        "tex": "1^2 + b(1) + c &= 13"
+       },
+       {
+        "tex": "1 + b + c &= 13"
+       },
+       {
+        "tex": "b + c &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute n = 2",
+      "lines": [
+       {
+        "text": "$U_2 = 15$."
+       },
+       {
+        "tex": "2^2 + b(2) + c &= 15"
+       },
+       {
+        "tex": "4 + 2b + c &= 15"
+       },
+       {
+        "tex": "2b + c &= 11"
+       }
+      ]
+     },
+     {
+      "title": "Subtract the equations to find b",
+      "lines": [
+       {
+        "text": "Subtract $b + c = 12$ from $2b + c = 11$."
+       },
+       {
+        "tex": "(2b + c) - (b + c) &= 11 - 12"
+       },
+       {
+        "tex": "b &= 11 - 12"
+       },
+       {
+        "tex": "b &= -1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute b = -1 into b + c = 12",
+      "lines": [
+       {
+        "tex": "-1 + c &= 12"
+       },
+       {
+        "tex": "c &= 12 + 1"
+       },
+       {
+        "tex": "c &= 13"
+       }
+      ]
+     }
+    ],
+    "final": "b = -1,\\; c = 13"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-averages",
+   "title": "Find mean, median and mode (incl. frequency tables)",
+   "level": "JC",
+   "input": "data set or frequency table",
+   "output": "mean, median, mode"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Interpret the median",
+      "lines": [
+       {
+        "text": "The median is the middle value. Half of the 500 girls (250 girls) are shorter than $164.5$ cm and half are taller."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Half the girls are shorter than } 164.5 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q8#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add the seven yearly totals and divide by 7",
+      "lines": [
+       {
+        "tex": "m &= \\frac{2779 + 3100 + 3175 + 3104 + 2825 + 2580 + 2547}{7}"
+       },
+       {
+        "tex": "m &= \\frac{20110}{7}"
+       },
+       {
+        "tex": "m &\\approx 2872.857"
+       },
+       {
+        "tex": "m &\\approx 2872.9"
+       }
+      ]
+     }
+    ],
+    "final": "2872.9 \\text{ kilotonnes}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q7#(a)(iii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "The median is at the 50% mark",
+      "lines": [
+       {
+        "text": "Add up the percentages from the youngest group until the total passes 50."
+       },
+       {
+        "tex": "24 &< 50"
+       },
+       {
+        "tex": "24 + 27 &= 51"
+       },
+       {
+        "tex": "51 &> 50"
+       },
+       {
+        "text": "The 50% mark is reached in the second group."
+       }
+      ]
+     }
+    ],
+    "final": "25 \\text{ to } 35 \\text{ age group}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q3#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the numbers and divide by 7",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{17 + 8 + 9 + 8 + 14 + 11 + 28}{7}"
+       },
+       {
+        "tex": "&= \\frac{95}{7}"
+       },
+       {
+        "tex": "&\\approx 13.6"
+       }
+      ]
+     }
+    ],
+    "final": "13.6"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(b)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add up all 16 waiting times",
+      "lines": [
+       {
+        "text": "Add the values stem by stem."
+       },
+       {
+        "tex": "\\text{Sum} &= (5+8) + (12+12+12+13) + (20+24+25+27) + (30+31+32+34+34) + 44"
+       },
+       {
+        "tex": "&= 13 + 49 + 96 + 161 + 44"
+       },
+       {
+        "tex": "&= 363"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the number of patients",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{363}{16}"
+       },
+       {
+        "tex": "&= 22.6875"
+       },
+       {
+        "tex": "&\\approx 22.7"
+       }
+      ]
+     }
+    ],
+    "final": "22.7\\text{ minutes}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Mean of the Remain values",
+      "lines": [
+       {
+        "text": "Mean $= \\dfrac{\\sum x}{n}$, with $n = 6$ age groups."
+       },
+       {
+        "tex": "\\text{Remain mean} &= \\frac{73+62+52+44+43+40}{6}"
+       },
+       {
+        "tex": "&= \\frac{314}{6}"
+       },
+       {
+        "tex": "&= 52.33"
+       }
+      ]
+     },
+     {
+      "title": "Mean of the Leave values",
+      "lines": [
+       {
+        "tex": "\\text{Leave mean} &= \\frac{27+38+48+56+57+60}{6}"
+       },
+       {
+        "tex": "&= \\frac{286}{6}"
+       },
+       {
+        "tex": "&= 47.67"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Remain} = 52.33\\%,\\ \\text{Leave} = 47.67\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-back-to-back",
+   "title": "Compare data sets with back-to-back stem-and-leaf plots",
+   "level": "OL",
+   "input": "two data sets",
+   "output": "plot and comparison of centre/spread"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the 175 to 180 bars",
+      "lines": [
+       {
+        "text": "Answer: Yes. Girls: $5.8\\%$. Boys: about $11.5\\%$."
+       },
+       {
+        "text": "Both samples have 500 students, so percentages compare numbers directly. $2 \\times 5.8 = 11.6 \\approx 11.5$, so about twice as many boys."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Yes}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iv)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the tall groups",
+      "lines": [
+       {
+        "text": "Answer: No. Take tall to mean 175 cm or more."
+       },
+       {
+        "text": "Girls: $5.8\\% + 2\\% = 7.8\\%$. Boys: about $11.5\\% + 9.3\\% = 20.8\\%$. A larger percentage of boys are tall, so there are more tall boys than tall girls."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{No}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the two sides of the plot",
+      "lines": [
+       {
+        "text": "Day X: weights run from 4.5 kg to 7.4 kg, with most leaves on stems 5 and 6."
+       },
+       {
+        "text": "Day Y: weights run from 4.8 kg to 8.1 kg, with more leaves on stems 6, 7 and 8."
+       },
+       {
+        "text": "Each dog's Day Y weight is above its Day X weight, so the weights have increased."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The weights of the dogs increased from Day X to Day Y.}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $0, 5, 7, 8$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $0, 6, 7$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $3, 8, 9$."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $2, 8$. $113, 118$ in row 11 as leaves $3, 8$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Split each weight into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the whole number of kg. The leaf is the digit after the decimal point."
+       },
+       {
+        "text": "The key $6 | 0 = 6.0$ kg means the stem 6 and leaf 0 give 6.0 kg."
+       }
+      ]
+     },
+     {
+      "title": "List the Day X leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.5, 4.9 so leaves 5, 9."
+       },
+       {
+        "text": "Stem 5: 5.3, 5.3, 5.5, 5.7 so leaves 3, 3, 5, 7."
+       },
+       {
+        "text": "Stem 6: 6.7, 6.9 so leaves 7, 9."
+       },
+       {
+        "text": "Stem 7: 7.3, 7.4 so leaves 3, 4. Stem 8: no leaves."
+       }
+      ]
+     },
+     {
+      "title": "List the Day Y leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.8 so leaf 8."
+       },
+       {
+        "text": "Stem 5: 5.4, 5.5 so leaves 4, 5."
+       },
+       {
+        "text": "Stem 6: 6.0, 6.1, 6.3 so leaves 0, 1, 3."
+       },
+       {
+        "text": "Stem 7: 7.0, 7.6, 7.9 so leaves 0, 6, 9. Stem 8: 8.1 so leaf 1."
+       }
+      ]
+     },
+     {
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Day X leaves on the left of the stem and Day Y leaves on the right, smallest next to the stem."
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each dog."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Back-to-back stem-and-leaf plot as drawn}"
+   }
+  ]
+ }
+]

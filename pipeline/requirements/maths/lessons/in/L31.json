@@ -1,0 +1,1442 @@
+[
+ {
+  "skill": {
+   "id": "circ-eq-origin",
+   "title": "Write/interpret a circle with centre (0, 0)",
+   "level": "OL",
+   "input": "radius or point on circle",
+   "output": "x² + y² = r²"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p2-q2#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the circle formula with centre (0, 0)",
+      "lines": [
+       {
+        "text": "A circle with centre $(0,0)$ and radius $r$ has equation $x^2 + y^2 = r^2$."
+       },
+       {
+        "tex": "x^2 + y^2 &= 5^2"
+       },
+       {
+        "tex": "x^2 + y^2 &= 25"
+       }
+      ]
+     }
+    ],
+    "final": "x^2 + y^2 = 25"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q3#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read off the centre and radius",
+      "lines": [
+       {
+        "text": "$x^2 + y^2 = r^2$ is a circle with centre $(0, 0)$."
+       },
+       {
+        "tex": "r^2 &= 25"
+       },
+       {
+        "tex": "r &= \\sqrt{25}"
+       },
+       {
+        "tex": "r &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Scale the axes and draw the circle",
+      "lines": [
+       {
+        "text": "Use 1 unit per grid mark on both axes, from $-6$ to $6$."
+       },
+       {
+        "text": "The circle passes through $(5, 0)$, $(-5, 0)$, $(0, 5)$ and $(0, -5)$. Draw a smooth curve through these four points, centred on the origin."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Circle, centre } (0,0), \\text{ radius } 5"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q2#(b)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute P(-4, k) into the equation of the circle",
+      "lines": [
+       {
+        "tex": "(-4)^2 + k^2 &= 25"
+       },
+       {
+        "tex": "16 + k^2 &= 25"
+       },
+       {
+        "tex": "k^2 &= 9"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "$P$ is above the $x$-axis, so $k > 0$ and we reject $-3$."
+       },
+       {
+        "tex": "k &= 3"
+       }
+      ]
+     }
+    ],
+    "final": "k = 3"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q2#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read off the centre and radius",
+      "lines": [
+       {
+        "text": "A circle $x^2 + y^2 = r^2$ has its centre at the origin and radius $r$."
+       },
+       {
+        "tex": "x^2 + y^2 &= 25"
+       },
+       {
+        "tex": "r^2 &= 25"
+       },
+       {
+        "tex": "r &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Substitute (3, -4) into the equation",
+      "lines": [
+       {
+        "tex": "3^2 + (-4)^2 &= 9 + 16"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "text": "This equals the right-hand side, so $(3, -4)$ is on the circle $s$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre } (0, 0),\\ r = 5;\\ 3^2 + (-4)^2 = 25"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-from-conditions",
+   "title": "Find a circle's equation from conditions",
+   "level": "HL",
+   "input": "e.g. three points, centre on a line, touches an axis",
+   "output": "g, f, c"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the centre and use the point (1, 4)",
+      "lines": [
+       {
+        "text": "The centre is on the $x$-axis, so let it be $(h, 0)$. The point $(1,4)$ is $5$ units from the centre."
+       },
+       {
+        "tex": "(1-h)^2 + (4-0)^2 &= 5^2"
+       },
+       {
+        "tex": "(1-h)^2 + 16 &= 25"
+       },
+       {
+        "tex": "(1-h)^2 &= 9"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "text": "Take the square root of both sides: $1 - h = 3$ or $1 - h = -3$."
+       },
+       {
+        "tex": "h &= -2 \\text{ or } h = 4"
+       }
+      ]
+     },
+     {
+      "title": "Write both equations",
+      "lines": [
+       {
+        "text": "Each circle has radius $5$, so use $(x-h)^2 + y^2 = 25$."
+       },
+       {
+        "tex": "c_1: \\quad (x+2)^2 + y^2 &= 25"
+       },
+       {
+        "tex": "c_2: \\quad (x-4)^2 + y^2 &= 25"
+       }
+      ]
+     }
+    ],
+    "final": "c_1: (x+2)^2 + y^2 = 25, \\quad c_2: (x-4)^2 + y^2 = 25"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q4#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the general circle equation, substitute A(0, 0)",
+      "lines": [
+       {
+        "text": "A circle through three points has the form $x^2+y^2+2gx+2fy+c=0$."
+       },
+       {
+        "tex": "x^2+y^2+2gx+2fy+c &= 0"
+       },
+       {
+        "tex": "0+0+2g(0)+2f(0)+c &= 0"
+       },
+       {
+        "tex": "c &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute B(6.5, 0) to find g",
+      "lines": [
+       {
+        "tex": "6.5^2+0^2+2g(6.5)+2f(0) &= 0"
+       },
+       {
+        "tex": "42.25+13g &= 0"
+       },
+       {
+        "tex": "13g &= -42.25"
+       },
+       {
+        "tex": "g &= -3.25"
+       }
+      ]
+     },
+     {
+      "title": "Substitute C(10, 7) to find f",
+      "lines": [
+       {
+        "tex": "10^2+7^2+2(-3.25)(10)+2f(7) &= 0"
+       },
+       {
+        "tex": "100+49-65+14f &= 0"
+       },
+       {
+        "tex": "84+14f &= 0"
+       },
+       {
+        "tex": "14f &= -84"
+       },
+       {
+        "tex": "f &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Write out the equation",
+      "lines": [
+       {
+        "tex": "x^2+y^2+2(-3.25)x+2(-6)y+0 &= 0"
+       },
+       {
+        "tex": "x^2+y^2-6.5x-12y &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "x^2+y^2-6.5x-12y=0"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Describe the circle using its radius r",
+      "lines": [
+       {
+        "text": "The circle touches both axes in the first quadrant, so the centre is $(r, r)$ and the radius is $r$."
+       }
+      ]
+     },
+     {
+      "title": "Distance from centre to tangent equals the radius",
+      "lines": [
+       {
+        "text": "Use $\\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $(r, r)$ and $3x - 4y + 6 = 0$."
+       },
+       {
+        "tex": "\\frac{|3r - 4r + 6|}{\\sqrt{3^2 + (-4)^2}} &= r"
+       },
+       {
+        "tex": "\\frac{|6 - r|}{5} &= r"
+       },
+       {
+        "tex": "|6 - r| &= 5r"
+       }
+      ]
+     },
+     {
+      "title": "Remove the modulus and solve",
+      "lines": [
+       {
+        "tex": "6 - r &= 5r \\quad\\text{or}\\quad 6 - r = -5r"
+       },
+       {
+        "text": "The second case gives $r = -\\frac{3}{2}$, which is rejected because a radius cannot be negative."
+       },
+       {
+        "tex": "6 - r &= 5r"
+       },
+       {
+        "tex": "6 &= 6r"
+       },
+       {
+        "tex": "r &= 1"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "text": "Centre $(1, 1)$ and radius $1$."
+       },
+       {
+        "tex": "(x - 1)^2 + (y - 1)^2 &= 1^2"
+       },
+       {
+        "tex": "(x - 1)^2 + (y - 1)^2 &= 1"
+       }
+      ]
+     }
+    ],
+    "final": "(x - 1)^2 + (y - 1)^2 = 1"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Set up the distance from C to the tangent",
+      "lines": [
+       {
+        "text": "The centre is $C(-g, -f)$. The radius $5$ equals the perpendicular distance from $C$ to $l: 3x + 4y - 21 = 0$."
+       },
+       {
+        "text": "Use $D = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $x_1 = -g$, $y_1 = -f$."
+       },
+       {
+        "tex": "5 &= \\frac{|3(-g) + 4(-f) - 21|}{\\sqrt{3^2 + 4^2}}"
+       },
+       {
+        "tex": "5 &= \\frac{|-3g - 4f - 21|}{5}"
+       },
+       {
+        "tex": "25 &= |-3g - 4f - 21|"
+       }
+      ]
+     },
+     {
+      "title": "Remove the modulus (two cases)",
+      "lines": [
+       {
+        "tex": "-3g - 4f - 21 &= 25 \\quad \\text{or} \\quad -3g - 4f - 21 = -25"
+       },
+       {
+        "tex": "3g + 4f &= -46 \\quad \\text{or} \\quad 3g + 4f = 4"
+       }
+      ]
+     },
+     {
+      "title": "Use the fact that C lies on XC",
+      "lines": [
+       {
+        "text": "$C(-g, -f)$ is on the line $x - 7y + 43 = 0$ from part (a)."
+       },
+       {
+        "tex": "-g + 7f + 43 &= 0"
+       },
+       {
+        "tex": "g &= 7f + 43"
+       }
+      ]
+     },
+     {
+      "title": "Solve for one circle using 3g + 4f = -46",
+      "lines": [
+       {
+        "text": "Take $3g + 4f = -46$ and substitute $g = 7f + 43$."
+       },
+       {
+        "tex": "3(7f + 43) + 4f &= -46"
+       },
+       {
+        "tex": "21f + 129 + 4f &= -46"
+       },
+       {
+        "tex": "25f &= -175"
+       },
+       {
+        "tex": "f &= -7"
+       },
+       {
+        "tex": "g &= 7(-7) + 43"
+       },
+       {
+        "tex": "g &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of the circle",
+      "lines": [
+       {
+        "text": "The centre is $(-g, -f) = (6, 7)$ and the radius is $5$."
+       },
+       {
+        "tex": "(x - 6)^2 + (y - 7)^2 &= 5^2"
+       },
+       {
+        "tex": "(x - 6)^2 + (y - 7)^2 &= 25"
+       },
+       {
+        "text": "The other case, $3g + 4f = 4$, gives $g = 8$, $f = -5$ and the circle $(x+8)^2 + (y-5)^2 = 25$."
+       }
+      ]
+     }
+    ],
+    "final": "(x - 6)^2 + (y - 7)^2 = 25"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q5#(c)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Relate $|AB|$ to the radius of $s$",
+      "lines": [
+       {
+        "text": "The radii to $A$ and $B$ are perpendicular to the parallel tangents, so both centres lie on $AB$."
+       },
+       {
+        "text": "Let the radius of $s$ be $r$. Then $t$ has radius $3r$, and $AB$ is the diameter of $s$ plus the diameter of $t$."
+       },
+       {
+        "tex": "|AB| &= 2r + 6r"
+       },
+       {
+        "tex": "&= 8r"
+       }
+      ]
+     },
+     {
+      "title": "Find $|AB|$ using $A(-2, 1)$ and $B(6, 13)$",
+      "lines": [
+       {
+        "tex": "|AB| &= \\sqrt{(6 + 2)^2 + (13 - 1)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{64 + 144}"
+       },
+       {
+        "tex": "&= \\sqrt{208}"
+       },
+       {
+        "tex": "&= 4\\sqrt{13}"
+       }
+      ]
+     },
+     {
+      "title": "Find the radius of $s$",
+      "lines": [
+       {
+        "tex": "8r &= 4\\sqrt{13}"
+       },
+       {
+        "tex": "r &= \\frac{\\sqrt{13}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the centre of $s$",
+      "lines": [
+       {
+        "text": "The centre of $s$ is $\\frac{1}{8}$ of the way from $A$ to $B$, because $r = \\frac{1}{8}|AB|$."
+       },
+       {
+        "tex": "h &= -2 + \\frac{1}{8}(8)"
+       },
+       {
+        "tex": "&= -1"
+       },
+       {
+        "tex": "k &= 1 + \\frac{1}{8}(12)"
+       },
+       {
+        "tex": "&= 2.5"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of $s$",
+      "lines": [
+       {
+        "text": "Use $(x - h)^2 + (y - k)^2 = r^2$ with $r^2 = \\frac{13}{4}$."
+       },
+       {
+        "tex": "(x + 1)^2 + (y - 2.5)^2 &= \\left(\\frac{\\sqrt{13}}{2}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{13}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "(x + 1)^2 + (y - 2.5)^2 = \\frac{13}{4}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q4#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the y-coordinate of the centre",
+      "lines": [
+       {
+        "text": "$(a, 3)$ and $(a, -5)$ have the same $x$-coordinate, so they are the ends of a vertical chord. The centre is level with the midpoint of that chord."
+       },
+       {
+        "tex": "k &= \\frac{3 + (-5)}{2}"
+       },
+       {
+        "tex": "&= \\frac{-2}{2}"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation with centre (h, -1)",
+      "lines": [
+       {
+        "text": "The radius is $\\sqrt{20}$, so $r^2 = 20$."
+       },
+       {
+        "tex": "(x - h)^2 + (y + 1)^2 &= 20"
+       }
+      ]
+     },
+     {
+      "title": "Substitute (8, 1) to find h",
+      "lines": [
+       {
+        "tex": "(8 - h)^2 + (1 + 1)^2 &= 20"
+       },
+       {
+        "tex": "(8 - h)^2 + 4 &= 20"
+       },
+       {
+        "tex": "(8 - h)^2 &= 16"
+       },
+       {
+        "tex": "8 - h &= 4 \\text{ or } 8 - h = -4"
+       },
+       {
+        "tex": "h &= 4 \\text{ or } h = 12"
+       }
+      ]
+     },
+     {
+      "title": "Reject the value of h that does not fit the diagram",
+      "lines": [
+       {
+        "text": "Substitute $(a, 3)$ into the circle equation to see what $a$ must be."
+       },
+       {
+        "tex": "(a - h)^2 + (3 + 1)^2 &= 20"
+       },
+       {
+        "tex": "(a - h)^2 &= 4"
+       },
+       {
+        "tex": "a &= h + 2 \\text{ or } a = h - 2"
+       },
+       {
+        "text": "If $h = 12$, then $a = 14$ or $a = 10$, but $0 < a < 5$, so $h = 12$ is rejected."
+       },
+       {
+        "text": "If $h = 4$, then $a = 2$ (or $6$), and $a = 2$ satisfies $0 < a < 5$. So $h = 4$."
+       }
+      ]
+     },
+     {
+      "title": "State the equation of the circle",
+      "lines": [
+       {
+        "tex": "(x - 4)^2 + (y + 1)^2 &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "(x - 4)^2 + (y + 1)^2 = 20"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-point-position",
+   "title": "Decide whether a point is inside, on or outside a circle",
+   "level": "OL",
+   "input": "circle + point",
+   "output": "inside/on/outside"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q3#(b)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute A(-4, 3) into the left side",
+      "lines": [
+       {
+        "text": "$A$ is on $c$ if $x^2 + y^2 = 25$ when $x = -4$ and $y = 3$."
+       },
+       {
+        "tex": "(-4)^2 + 3^2 &= 16 + 9"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "text": "This equals the right-hand side, so $A$ is on $c$."
+       }
+      ]
+     }
+    ],
+    "final": "(-4)^2 + 3^2 = 25 \\;\\therefore\\; A \\text{ is on } c"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q3#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute the point into the left side of the equation",
+      "lines": [
+       {
+        "text": "A point is outside the circle if $(x-2)^2+(y+3)^2$ is greater than $r^2 = 16$."
+       },
+       {
+        "tex": "(3-2)^2 + (1+3)^2 &= 1^2 + 4^2"
+       },
+       {
+        "tex": "&= 1 + 16"
+       },
+       {
+        "tex": "&= 17"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the radius squared",
+      "lines": [
+       {
+        "tex": "17 &> 16"
+       },
+       {
+        "text": "The left side is bigger than $r^2$, so $(3,1)$ is outside $c$."
+       }
+      ]
+     }
+    ],
+    "final": "17 > 16 \\text{, so } (3,1) \\text{ is outside } c"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q2#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute (11, 10) into the left-hand side",
+      "lines": [
+       {
+        "text": "A point is on, inside or outside the circle depending on whether the left side equals, is less than, or is greater than $169$."
+       },
+       {
+        "tex": "&(11 - 4)^2 + (10 + 2)^2"
+       },
+       {
+        "tex": "&= 7^2 + 12^2"
+       },
+       {
+        "tex": "&= 49 + 144"
+       },
+       {
+        "tex": "&= 193"
+       }
+      ]
+     },
+     {
+      "title": "Compare with 169 and tick the box",
+      "lines": [
+       {
+        "text": "$193 > 169$, so the point is outside the circle."
+       },
+       {
+        "text": "Tick the box: (11, 10) is outside k."
+       }
+      ]
+     }
+    ],
+    "final": "(11, 10) \\text{ is outside } k"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q2#(a)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Test the point (0, 5)",
+      "lines": [
+       {
+        "tex": "0^2 + 5^2 &= 0 + 25"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "text": "So $(0, 5)$ is on the circle."
+       }
+      ]
+     },
+     {
+      "title": "Test the point (5, 0)",
+      "lines": [
+       {
+        "tex": "5^2 + 0^2 &= 25 + 0"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "text": "So $(5, 0)$ is on the circle."
+       }
+      ]
+     }
+    ],
+    "final": "(0, 5) \\text{ and } (5, 0)"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q4#(a)(ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute (9, 2) into the left-hand side",
+      "lines": [
+       {
+        "text": "Compare the result with $r^2 = 25$."
+       },
+       {
+        "tex": "(9 - 5)^2 + (2 + 3)^2 &= 4^2 + 5^2"
+       },
+       {
+        "tex": "&= 16 + 25"
+       },
+       {
+        "tex": "&= 41"
+       }
+      ]
+     },
+     {
+      "title": "Compare with 25",
+      "lines": [
+       {
+        "tex": "41 &> 25"
+       },
+       {
+        "text": "If the result is bigger than $r^2$, the point is outside the circle. If equal, it is on it; if smaller, inside."
+       }
+      ]
+     }
+    ],
+    "final": "(9, 2) \\text{ is outside } k"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q4#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute the point into the equation",
+      "lines": [
+       {
+        "text": "Put $x = 1$ and $y = k$ into the equation of $c$."
+       },
+       {
+        "tex": "(1 - 1)^2 + (k + 4)^2 &= 25"
+       },
+       {
+        "tex": "0 + (k + 4)^2 &= 25"
+       },
+       {
+        "tex": "(k + 4)^2 &= 25"
+       }
+      ]
+     },
+     {
+      "title": "Expand and collect terms",
+      "lines": [
+       {
+        "tex": "k^2 + 8k + 16 &= 25"
+       },
+       {
+        "tex": "k^2 + 8k - 9 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "lines": [
+       {
+        "tex": "(k - 1)(k + 9) &= 0"
+       },
+       {
+        "tex": "k - 1 = 0 \\quad &\\text{or} \\quad k + 9 = 0"
+       },
+       {
+        "tex": "k = 1 \\quad &\\text{or} \\quad k = -9"
+       }
+      ]
+     }
+    ],
+    "final": "k = 1 \\text{ or } k = -9"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-tangent-at-point",
+   "title": "Find the tangent at a point on a circle",
+   "level": "OL",
+   "input": "circle + point on it",
+   "output": "tangent ⟂ radius"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q4#(d)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the slope of the radius to A",
+      "lines": [
+       {
+        "text": "The radius goes from the centre $(5, 4)$ to $A(1, 8)$."
+       },
+       {
+        "tex": "m_r &= \\frac{8-4}{1-5}"
+       },
+       {
+        "tex": "&= \\frac{4}{-4}"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of the tangent",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius, so its slope is the negative reciprocal."
+       },
+       {
+        "tex": "m_T &= -\\frac{1}{m_r}"
+       },
+       {
+        "tex": "&= -\\frac{1}{-1}"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Find the equation through A(1, 8)",
+      "lines": [
+       {
+        "tex": "y - 8 &= 1(x-1)"
+       },
+       {
+        "tex": "y - 8 &= x - 1"
+       },
+       {
+        "tex": "0 &= x - 1 - y + 8"
+       },
+       {
+        "tex": "x - y + 7 &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "x - y + 7 = 0"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q4#(b)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the slope of the radius to A",
+      "lines": [
+       {
+        "text": "The centre is $(0,0)$ and $A = (3,-2)$."
+       },
+       {
+        "tex": "m_{\\text{radius}} &= \\frac{-2 - 0}{3 - 0}"
+       },
+       {
+        "tex": "&= -\\frac{2}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of the tangent",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius, so its slope is the negative reciprocal."
+       },
+       {
+        "tex": "m_t &= \\frac{3}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of the tangent",
+      "lines": [
+       {
+        "text": "Use $y - y_1 = m(x - x_1)$ with $A(3,-2)$ and $m = \\frac{3}{2}$."
+       },
+       {
+        "tex": "y - (-2) &= \\frac{3}{2}(x - 3)"
+       },
+       {
+        "tex": "y + 2 &= \\frac{3}{2}(x - 3)"
+       }
+      ]
+     },
+     {
+      "title": "Clear the fraction and collect terms",
+      "lines": [
+       {
+        "tex": "2y + 4 &= 3(x - 3)"
+       },
+       {
+        "tex": "2y + 4 &= 3x - 9"
+       },
+       {
+        "tex": "3x - 2y - 13 &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "3x - 2y - 13 = 0"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q9#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find where a vertical tangent touches the circle",
+      "lines": [
+       {
+        "text": "A line parallel to the $y$-axis has equation $x = k$. It is a tangent when it is one radius from the centre horizontally."
+       },
+       {
+        "text": "The centre has $x = 1$ and the radius is $12$, so $x = 1 + 12$ or $x = 1 - 12$."
+       },
+       {
+        "tex": "x &= 1 + 12 = 13"
+       },
+       {
+        "tex": "x &= 1 - 12 = -11"
+       }
+      ]
+     },
+     {
+      "title": "Choose the tangent in the first quadrant",
+      "lines": [
+       {
+        "text": "In the first quadrant $x > 0$, so $x = -11$ is rejected."
+       },
+       {
+        "tex": "l: x &= 13"
+       }
+      ]
+     }
+    ],
+    "final": "x = 13"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q4#(c)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the slope of the radius $[AB]$",
+      "lines": [
+       {
+        "text": "The tangent at $B$ is perpendicular to the radius $AB$, where $A(1,-6)$ and $B(7,12)$."
+       },
+       {
+        "tex": "m_{AB} &= \\frac{12-(-6)}{7-1}"
+       },
+       {
+        "tex": "&= \\frac{18}{6}"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of the tangent",
+      "lines": [
+       {
+        "text": "Perpendicular slopes multiply to $-1$, so the tangent has slope $-\\frac{1}{3}$."
+       },
+       {
+        "tex": "m_t &= -\\frac{1}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation of the tangent through $B(7,12)$",
+      "lines": [
+       {
+        "tex": "y-12 &= -\\frac{1}{3}(x-7)"
+       },
+       {
+        "tex": "3(y-12) &= -(x-7)"
+       },
+       {
+        "tex": "3y-36 &= -x+7"
+       },
+       {
+        "tex": "x+3y-36-7 &= 0"
+       },
+       {
+        "tex": "x+3y-43 &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "x+3y-43=0"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Identify the centre",
+      "lines": [
+       {
+        "tex": "(x-5)^2 + (y+2)^2 &= 20"
+       },
+       {
+        "text": "This has the form $(x-h)^2 + (y-k)^2 = r^2$, so the centre is $(5,-2)$."
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of the radius to the point of contact",
+      "lines": [
+       {
+        "text": "The radius to $(9,-4)$ is perpendicular to the tangent, so it is the normal."
+       },
+       {
+        "tex": "m_{\\text{normal}} &= \\frac{-4-(-2)}{9-5}"
+       },
+       {
+        "tex": "&= \\frac{-2}{4}"
+       },
+       {
+        "tex": "&= -\\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Use perpendicular slopes to find the tangent slope",
+      "lines": [
+       {
+        "text": "Perpendicular slopes multiply to $-1$."
+       },
+       {
+        "tex": "m_{\\text{tangent}} &= -1 \\div \\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "m_{\\text{tangent}} &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{slope} = 2"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q2#(a)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the slope of the radius to (-2, -5)",
+      "lines": [
+       {
+        "text": "The radius runs from the centre $(4, -2)$ to the point $(-2, -5)$."
+       },
+       {
+        "tex": "m_{\\text{radius}} &= \\frac{-5 - (-2)}{-2 - 4}"
+       },
+       {
+        "tex": "&= \\frac{-3}{-6}"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of the tangent",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius, so its slope is the negative reciprocal."
+       },
+       {
+        "tex": "m_{\\text{tangent}} &= -2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into y - y1 = m(x - x1)",
+      "lines": [
+       {
+        "tex": "y - (-5) &= -2(x - (-2))"
+       },
+       {
+        "tex": "y + 5 &= -2(x + 2)"
+       },
+       {
+        "tex": "y + 5 &= -2x - 4"
+       }
+      ]
+     },
+     {
+      "title": "Write in the form y = mx + c",
+      "lines": [
+       {
+        "text": "Subtract 5 from both sides."
+       },
+       {
+        "tex": "y &= -2x - 4 - 5"
+       },
+       {
+        "tex": "y &= -2x - 9"
+       }
+      ]
+     }
+    ],
+    "final": "y = -2x - 9"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-touching",
+   "title": "Decide whether circles touch internally or externally",
+   "level": "HL",
+   "input": "two circles",
+   "output": "|c₁c₂| = r₁ + r₂ or |r₁ − r₂|"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p2-q3#(b)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the line through the two centres",
+      "lines": [
+       {
+        "text": "Any circle touching $c$ externally at the same point as $s$ has its centre on the line through the centres of $c$ and $s$, beyond $s$."
+       },
+       {
+        "tex": "m &= \\frac{13 - 1}{7 - (-2)}"
+       },
+       {
+        "tex": "&= \\frac{12}{9}"
+       },
+       {
+        "tex": "&= \\frac{4}{3}"
+       },
+       {
+        "tex": "y - 1 &= \\frac{4}{3}(x + 2)"
+       }
+      ]
+     },
+     {
+      "title": "Pick a point on that line on the far side of s",
+      "lines": [
+       {
+        "text": "The touching point is $(4, 9)$, so the centre must have $x > 4$. Choose $x = 10$."
+       },
+       {
+        "tex": "y - 1 &= \\frac{4}{3}(10 + 2)"
+       },
+       {
+        "tex": "y - 1 &= 16"
+       },
+       {
+        "tex": "y &= 17"
+       }
+      ]
+     }
+    ],
+    "final": "(10, 17)"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q3#(b)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write circle c in centre-radius form",
+      "lines": [
+       {
+        "text": "Group the $x$ terms and the $y$ terms and move the constant across."
+       },
+       {
+        "tex": "x^2 + y^2 + 4x - 2y - 95 &= 0"
+       },
+       {
+        "tex": "x^2 + 4x + y^2 - 2y &= 95"
+       },
+       {
+        "text": "Complete the square: add $(4 \\div 2)^2 = 4$ and $(2 \\div 2)^2 = 1$ to both sides."
+       },
+       {
+        "tex": "x^2 + 4x + 4 + y^2 - 2y + 1 &= 95 + 4 + 1"
+       },
+       {
+        "tex": "(x+2)^2 + (y-1)^2 &= 100"
+       }
+      ]
+     },
+     {
+      "title": "Read off both centres and radii",
+      "lines": [
+       {
+        "text": "Circle $c$ has centre $(-2, 1)$ and radius $\\sqrt{100} = 10$."
+       },
+       {
+        "text": "Circle $s$, $(x-7)^2 + (y-13)^2 = 25$, has centre $(7, 13)$ and radius $5$."
+       }
+      ]
+     },
+     {
+      "title": "Compare the sum of the radii with the distance between centres",
+      "lines": [
+       {
+        "tex": "r_1 + r_2 &= 10 + 5"
+       },
+       {
+        "tex": "&= 15"
+       },
+       {
+        "tex": "d &= \\sqrt{(7-(-2))^2 + (13-1)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{9^2 + 12^2}"
+       },
+       {
+        "tex": "&= \\sqrt{81 + 144}"
+       },
+       {
+        "tex": "&= \\sqrt{225}"
+       },
+       {
+        "tex": "&= 15"
+       },
+       {
+        "text": "The distance between the centres equals $r_1 + r_2$, so the circles touch externally."
+       }
+      ]
+     }
+    ],
+    "final": "d = r_1 + r_2 = 15 \\text{, so the circles touch externally}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q5#(a)(ii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read off circle c",
+      "lines": [
+       {
+        "text": "Circle $c$ is $(x-2)^2 + (y+1)^2 = 72$, so its centre is $(2, -1)$."
+       },
+       {
+        "tex": "r_c &= \\sqrt{72}"
+       },
+       {
+        "tex": "&= \\sqrt{36 \\times 2}"
+       },
+       {
+        "tex": "&= 6\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the distance between the centres",
+      "lines": [
+       {
+        "text": "Centres: $(-2, 3)$ for $s$ and $(2, -1)$ for $c$."
+       },
+       {
+        "tex": "d &= \\sqrt{(2-(-2))^2 + (-1-3)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{16 + 16}"
+       },
+       {
+        "tex": "&= \\sqrt{32}"
+       },
+       {
+        "tex": "&= 4\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the difference between the radii",
+      "lines": [
+       {
+        "tex": "r_c - r_s &= 6\\sqrt{2} - 2\\sqrt{2}"
+       },
+       {
+        "tex": "&= 4\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "tex": "d &= 4\\sqrt{2} = r_c - r_s"
+       },
+       {
+        "text": "The distance between the centres equals the difference of the radii, so the circles touch internally."
+       }
+      ]
+     }
+    ],
+    "final": "d = r_c - r_s = 4\\sqrt{2}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q2#(b)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the translation from the centre of s to the touching point",
+      "lines": [
+       {
+        "text": "The centres and the touching point are on one straight line, with the touching point between them."
+       },
+       {
+        "tex": "(12 - 22,\\ 11 - 13) &= (-10, -2)"
+       }
+      ]
+     },
+     {
+      "title": "Halve it, since t has half the radius",
+      "lines": [
+       {
+        "tex": "\\tfrac{1}{2}(-10, -2) &= (-5, -1)"
+       }
+      ]
+     },
+     {
+      "title": "Move from the touching point by this amount",
+      "lines": [
+       {
+        "text": "The centre of $t$ is this far from $(12, 11)$, continuing in the same direction."
+       },
+       {
+        "tex": "(12 - 5,\\ 11 - 1) &= (7, 10)"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre of } t = (7, 10)"
+   }
+  ]
+ }
+]

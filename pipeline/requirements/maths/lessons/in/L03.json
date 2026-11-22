@@ -1,0 +1,1402 @@
+[
+ {
+  "skill": {
+   "id": "diff-inflection",
+   "title": "Find a point of inflection",
+   "level": "HL",
+   "input": "f(x)",
+   "output": "point where f″ = 0 and changes sign"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p1-q8#(b)(iii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set h''(x) = 0 to find the inflection point",
+      "lines": [
+       {
+        "tex": "0.006x - 0.24 &= 0"
+       },
+       {
+        "tex": "0.006x &= 0.24"
+       },
+       {
+        "tex": "x &= 40"
+       }
+      ]
+     },
+     {
+      "title": "Find the height at x = 40",
+      "lines": [
+       {
+        "tex": "h(40) &= 0.001(40)^3 - 0.12(40)^2 + 3.6(40) + 5"
+       },
+       {
+        "tex": "&= 64 - 192 + 144 + 5"
+       },
+       {
+        "tex": "&= 21"
+       }
+      ]
+     }
+    ],
+    "final": "21\\ \\text{m}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q7#(c)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the second derivative",
+      "lines": [
+       {
+        "tex": "f'(x) &= 0.0072x^2 + 0.036x"
+       },
+       {
+        "tex": "f''(x) &= 0.0144x + 0.036"
+       }
+      ]
+     },
+     {
+      "title": "Set f''(x) = 0 and solve",
+      "lines": [
+       {
+        "text": "A point of inflection occurs where $f''(x) = 0$."
+       },
+       {
+        "tex": "0.0144x + 0.036 &= 0"
+       },
+       {
+        "tex": "0.0144x &= -0.036"
+       },
+       {
+        "tex": "x &= -2.5"
+       },
+       {
+        "text": "$f''(x)$ is a line with positive slope, so it changes sign at $x = -2.5$."
+       }
+      ]
+     },
+     {
+      "title": "Find the y-coordinate",
+      "lines": [
+       {
+        "tex": "f(-2.5) &= 0.0024(-2.5)^3 + 0.018(-2.5)^2"
+       },
+       {
+        "tex": "&= -0.0375 + 0.1125"
+       },
+       {
+        "tex": "&= 0.075"
+       },
+       {
+        "text": "So the point of inflection is $(-2.5, 0.075)$."
+       }
+      ]
+     }
+    ],
+    "final": "(-2.5,\\ 0.075)"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q4#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the point of inflection: set f''(x) = 0",
+      "lines": [
+       {
+        "tex": "f'(x) &= 3x^2 - 18x + 15"
+       },
+       {
+        "tex": "f''(x) &= 6x - 18"
+       },
+       {
+        "tex": "6x - 18 &= 0"
+       },
+       {
+        "tex": "x &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the y-coordinate",
+      "lines": [
+       {
+        "tex": "f(3) &= 27 - 81 + 45 + 8"
+       },
+       {
+        "tex": "f(3) &= -1"
+       },
+       {
+        "text": "The point of inflection is $(3, -1)$."
+       }
+      ]
+     },
+     {
+      "title": "Test the point in g(x)",
+      "lines": [
+       {
+        "text": "Substitute $(3, -1)$ into $8x + y - 23$."
+       },
+       {
+        "tex": "8(3) + (-1) - 23 &= 24 - 1 - 23"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "So $(3,-1)$ lies on $g(x)$."
+       }
+      ]
+     }
+    ],
+    "final": "(3, -1) \\in g(x)"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q3#(b)(ii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate twice",
+      "lines": [
+       {
+        "tex": "f'(x) &= 6x^2 - 18x + 5"
+       },
+       {
+        "tex": "f''(x) &= 12x - 18"
+       }
+      ]
+     },
+     {
+      "title": "Set the second derivative to zero",
+      "lines": [
+       {
+        "text": "A point of inflection is where $f''(x) = 0$."
+       },
+       {
+        "tex": "12x - 18 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "12x &= 18"
+       },
+       {
+        "tex": "x &= \\frac{18}{12}"
+       },
+       {
+        "tex": "x &= \\frac{3}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{3}{2}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q8#(d)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the first derivative",
+      "lines": [
+       {
+        "text": "Chain rule, as in part (c)."
+       },
+       {
+        "tex": "f'(x) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-x)"
+       }
+      ]
+     },
+     {
+      "title": "Differentiate again with the product rule",
+      "lines": [
+       {
+        "text": "Take $u = -x$ and $v = \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}$, so $f''(x) = u'v + uv'$."
+       },
+       {
+        "tex": "f''(x) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-1) + (-x)\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-x)"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}\\left(-1 + x^2\\right)"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(x^2-1)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = −1 into f''(x)",
+      "lines": [
+       {
+        "tex": "f''(-1) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}(-1)^2}\\left((-1)^2-1\\right)"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}}(1-1)"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}}(0)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$f''(-1) = 0$, and $x^2-1$ changes sign at $x=-1$ (positive for $x < -1$, negative just after), so $f''$ changes sign."
+       },
+       {
+        "text": "Therefore $f(x)$ has a point of inflection at $B$, where $x = -1$."
+       }
+      ]
+     }
+    ],
+    "final": "f''(-1) = 0 \\text{, so there is a point of inflection at } B"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(d)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Points of inflection need the second derivative",
+      "lines": [
+       {
+        "text": "At a point of inflection $P''(t) = 0$, so find $P''(t)$."
+       }
+      ]
+     },
+     {
+      "title": "Find P''(t)",
+      "lines": [
+       {
+        "tex": "P'(t) &= -0.12(t+1)^{-1}"
+       },
+       {
+        "tex": "P''(t) &= -0.12 \\times \\left(-(t+1)^{-2}\\right)"
+       },
+       {
+        "tex": "&= \\frac{0.12}{(t+1)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Try to solve P''(t) = 0",
+      "lines": [
+       {
+        "tex": "\\frac{0.12}{(t+1)^2} &= 0"
+       },
+       {
+        "text": "Multiply both sides by $(t+1)^2$, which is positive on $0 \\le t \\le 12$."
+       },
+       {
+        "tex": "0.12 &= 0"
+       },
+       {
+        "text": "This is a contradiction, since $0.12 \\neq 0$. So $P''(t) \\neq 0$ for every $t$."
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "lines": [
+       {
+        "text": "$P''(t)$ is never zero, so the graph of $y = P(t)$ has no points of inflection."
+       }
+      ]
+     }
+    ],
+    "final": "P''(t) = \\frac{0.12}{(t+1)^2} \\neq 0 \\text{, so no points of inflection}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-optimisation",
+   "title": "Solve a max/min problem from a context",
+   "level": "OL",
+   "input": "verbal problem with a constraint",
+   "output": "optimal value and the quantity achieving it"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q8#(d)(i)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate the profit function",
+      "lines": [
+       {
+        "tex": "p &= 96x - 0.03x^2"
+       },
+       {
+        "tex": "\\frac{dp}{dx} &= 96 - 0.06x"
+       }
+      ]
+     },
+     {
+      "title": "Set the derivative equal to zero",
+      "lines": [
+       {
+        "text": "The maximum is where the slope is zero."
+       },
+       {
+        "tex": "96 - 0.06x &= 0"
+       },
+       {
+        "tex": "0.06x &= 96"
+       },
+       {
+        "tex": "x &= \\frac{96}{0.06}"
+       },
+       {
+        "tex": "x &= 1600"
+       }
+      ]
+     }
+    ],
+    "final": "1600 \\text{ barrels}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q8#(d)(iv)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the width when x = 5.25",
+      "lines": [
+       {
+        "tex": "y &= 10.5 - 5.25"
+       },
+       {
+        "tex": "&= 5.25"
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum area",
+      "lines": [
+       {
+        "tex": "A &= xy"
+       },
+       {
+        "tex": "&= 5.25 \\times 5.25"
+       },
+       {
+        "tex": "&= 27.5625"
+       },
+       {
+        "tex": "&\\approx 27.56"
+       }
+      ]
+     }
+    ],
+    "final": "27.56\\ \\text{m}^2"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q8#(e)(iii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the rate of change equal to 0",
+      "lines": [
+       {
+        "text": "The maximum is where the rate of change is zero."
+       },
+       {
+        "tex": "-3t^2 + 9t + 54 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Divide by −3 and factorise",
+      "lines": [
+       {
+        "tex": "t^2 - 3t - 18 &= 0"
+       },
+       {
+        "tex": "(t-6)(t+3) &= 0"
+       },
+       {
+        "tex": "t &= 6 \\text{ or } t = -3"
+       },
+       {
+        "text": "$t = -3$ is outside $0 \\le t \\le 9$, so $t = 6$."
+       }
+      ]
+     },
+     {
+      "title": "Find the amount at t = 6",
+      "lines": [
+       {
+        "tex": "C(6) &= -(6)^3 + 4.5(6)^2 + 54(6)"
+       },
+       {
+        "tex": "&= -216 + 162 + 324"
+       },
+       {
+        "tex": "&= 270"
+       }
+      ]
+     }
+    ],
+    "final": "270 \\text{ units}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q10#(a)(iii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set V'(t) = 0 for a maximum",
+      "lines": [
+       {
+        "tex": "41 - 6t &= 0"
+       },
+       {
+        "tex": "41 &= 6t"
+       },
+       {
+        "tex": "t &= \\frac{41}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Check that it is a maximum",
+      "lines": [
+       {
+        "tex": "V''(t) &= -6"
+       },
+       {
+        "text": "$V''(t) < 0$, so the volume is a maximum at $t = \\frac{41}{6}$."
+       }
+      ]
+     }
+    ],
+    "final": "t = \\frac{41}{6}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q9#(c)(iii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Set a'(x) = 0 to find x",
+      "lines": [
+       {
+        "tex": "a'(x) &= 0"
+       },
+       {
+        "tex": "12 - (\\pi+4)x &= 0"
+       },
+       {
+        "tex": "(\\pi+4)x &= 12"
+       },
+       {
+        "tex": "x &= \\frac{12}{\\pi+4}"
+       },
+       {
+        "text": "This is a maximum because $a''(x) = -(\\pi+4) < 0$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute x into the formula for y",
+      "lines": [
+       {
+        "tex": "y &= \\frac{12-(2+\\pi)\\left(\\frac{12}{\\pi+4}\\right)}{2}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{12(\\pi+4)}{\\pi+4}-\\frac{12(2+\\pi)}{\\pi+4}}{2}"
+       },
+       {
+        "tex": "&= \\frac{12(\\pi+4)-12(2+\\pi)}{2(\\pi+4)}"
+       },
+       {
+        "tex": "&= \\frac{12\\pi+48-24-12\\pi}{2(\\pi+4)}"
+       },
+       {
+        "tex": "&= \\frac{24}{2(\\pi+4)}"
+       },
+       {
+        "tex": "&= \\frac{12}{\\pi+4}"
+       }
+      ]
+     },
+     {
+      "title": "Compare x and y",
+      "lines": [
+       {
+        "text": "Both $x$ and $y$ equal $\\frac{12}{\\pi+4} \\approx 1.68$, so $y = x$: the area is greatest when the height of the rectangle equals the radius of the semicircle."
+       }
+      ]
+     }
+    ],
+    "final": "y = x"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q9#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate s with respect to t",
+      "lines": [
+       {
+        "text": "Use the chain rule: bring down the power $\\frac{1}{2}$, then multiply by the derivative of the bracket."
+       },
+       {
+        "tex": "s &= (1125t^2 - 2700t + 8100)^{\\frac{1}{2}}"
+       },
+       {
+        "tex": "\\frac{ds}{dt} &= \\frac{1}{2}(1125t^2 - 2700t + 8100)^{-\\frac{1}{2}}(2250t - 2700)"
+       },
+       {
+        "tex": "&= \\frac{2250t - 2700}{2\\sqrt{1125t^2 - 2700t + 8100}}"
+       }
+      ]
+     },
+     {
+      "title": "Set the derivative to zero",
+      "lines": [
+       {
+        "text": "The ships are closest when $\\frac{ds}{dt} = 0$, which needs the numerator to be zero."
+       },
+       {
+        "tex": "2250t - 2700 &= 0"
+       },
+       {
+        "tex": "2250t &= 2700"
+       },
+       {
+        "tex": "t &= \\frac{2700}{2250}"
+       },
+       {
+        "tex": "t &= 1.2"
+       },
+       {
+        "text": "This is a minimum: $\\frac{ds}{dt}$ changes from negative to positive at $t = 1.2$."
+       }
+      ]
+     },
+     {
+      "title": "Find the distance at t = 1.2",
+      "lines": [
+       {
+        "tex": "s &= \\sqrt{1125(1.2)^2 - 2700(1.2) + 8100}"
+       },
+       {
+        "tex": "&= \\sqrt{1620 - 3240 + 8100}"
+       },
+       {
+        "tex": "&= \\sqrt{6480}"
+       },
+       {
+        "tex": "&= 80.5"
+       }
+      ]
+     }
+    ],
+    "final": "t = 1.2\\text{ hours},\\ s = 80.5\\text{ km}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-rates-of-change",
+   "title": "Apply differentiation to rates of change",
+   "level": "OL",
+   "input": "quantity as a function of time",
+   "output": "rate, velocity, acceleration at a time"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p1-q8#(e)(ii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 4 into C'(t)",
+      "lines": [
+       {
+        "tex": "C'(4) &= -3(4)^2 + 9(4) + 54"
+       },
+       {
+        "tex": "&= -48 + 36 + 54"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     }
+    ],
+    "final": "42 \\text{ units per hour}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q8#(d)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate the profit function",
+      "lines": [
+       {
+        "tex": "P(x) &= 275x - x^2 - 2000"
+       },
+       {
+        "tex": "P'(x) &= 275 - 2x"
+       }
+      ]
+     },
+     {
+      "title": "Set the rate of change equal to 105",
+      "lines": [
+       {
+        "tex": "275 - 2x &= 105"
+       },
+       {
+        "tex": "-2x &= 105 - 275"
+       },
+       {
+        "tex": "-2x &= -170"
+       },
+       {
+        "tex": "x &= \\frac{-170}{-2}"
+       },
+       {
+        "tex": "x &= 85"
+       }
+      ]
+     }
+    ],
+    "final": "x = 85\\text{ km}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q8#(e)(iv)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 7 into C'(t)",
+      "lines": [
+       {
+        "tex": "C'(7) &= -3(7)^2 + 9(7) + 54"
+       },
+       {
+        "tex": "&= -147 + 63 + 54"
+       },
+       {
+        "tex": "&= -30"
+       }
+      ]
+     },
+     {
+      "title": "Explain",
+      "lines": [
+       {
+        "text": "$C'(7) = -30$ units per hour. The rate of change is negative, so the amount of the drug is decreasing after 7 hours."
+       }
+      ]
+     }
+    ],
+    "final": "C'(7) = -30 \\text{ units per hour, which is negative, so the amount is decreasing}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q7#(d)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute t = 4 into f'(t)",
+      "lines": [
+       {
+        "text": "The derivative $f'(t)$ is the velocity of the ball."
+       },
+       {
+        "tex": "f'(4) &= -8(4) + 16"
+       },
+       {
+        "tex": "&= -32 + 16"
+       },
+       {
+        "tex": "&= -16"
+       }
+      ]
+     },
+     {
+      "title": "Take the speed",
+      "lines": [
+       {
+        "text": "Speed is the size of the velocity, so ignore the minus sign (the ball is moving downwards)."
+       },
+       {
+        "tex": "\\text{speed} &= 16"
+       }
+      ]
+     }
+    ],
+    "final": "16 \\text{ m/s}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q7#(d)(iii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the velocity equal to -8",
+      "lines": [
+       {
+        "text": "The ball is descending, so its velocity is negative: $f'(t) = -8$."
+       },
+       {
+        "tex": "-8t + 16 &= -8"
+       }
+      ]
+     },
+     {
+      "title": "Solve for t",
+      "lines": [
+       {
+        "tex": "-8t &= -8 - 16"
+       },
+       {
+        "tex": "-8t &= -24"
+       },
+       {
+        "tex": "t &= \\frac{-24}{-8}"
+       },
+       {
+        "tex": "t &= 3"
+       }
+      ]
+     }
+    ],
+    "final": "t = 3 \\text{ seconds}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q7#(b)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Differentiate P(t)",
+      "lines": [
+       {
+        "text": "The derivative of a constant is $0$, and the derivative of $0.02t$ is $0.02$."
+       },
+       {
+        "tex": "P(t) &= 0.3 + 0.02t"
+       },
+       {
+        "tex": "P'(t) &= 0.02"
+       }
+      ]
+     },
+     {
+      "title": "Explain the meaning",
+      "lines": [
+       {
+        "text": "$P'(t)$ is the rate of change of the probability of rain with respect to time."
+       },
+       {
+        "text": "So the probability that it is raining in Waterville increases by $0.02$ (2%) every hour."
+       }
+      ]
+     }
+    ],
+    "final": "P'(t) = 0.02 \\text{: the probability of rain increases by } 0.02 \\text{ (2\\%) every hour}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-related-rates",
+   "title": "Solve connected rates of change",
+   "level": "HL",
+   "input": "formula linking variables + one known rate",
+   "output": "unknown rate via chain rule"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q7#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate the surface area of a sphere",
+      "lines": [
+       {
+        "tex": "A &= 4\\pi r^2"
+       },
+       {
+        "tex": "\\frac{dA}{dr} &= 8\\pi r"
+       }
+      ]
+     },
+     {
+      "title": "Use the chain rule with the result from part (i)",
+      "lines": [
+       {
+        "text": "$\\frac{dA}{dt} = \\frac{dA}{dr}\\times\\frac{dr}{dt}$, and $\\frac{dr}{dt} = \\frac{5}{32\\pi}$ when $r = 20$."
+       },
+       {
+        "tex": "\\frac{dA}{dt} &= 8\\pi(20)\\times\\frac{5}{32\\pi}"
+       },
+       {
+        "tex": "&= \\frac{800\\pi}{32\\pi}"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     }
+    ],
+    "final": "25 \\text{ cm}^2/\\text{s}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the rates",
+      "lines": [
+       {
+        "text": "The volume is increasing at $\\frac{dV}{dt} = 4\\times10^6$ cm³ per minute."
+       },
+       {
+        "tex": "V &= 0.1\\pi r^2"
+       },
+       {
+        "tex": "\\frac{dV}{dr} &= 0.2\\pi r"
+       }
+      ]
+     },
+     {
+      "title": "Substitute r = 50 m = 5000 cm",
+      "lines": [
+       {
+        "tex": "\\frac{dV}{dr} &= 0.2\\pi(5000)"
+       },
+       {
+        "tex": "&= 1000\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Use the chain rule",
+      "lines": [
+       {
+        "text": "$\\frac{dr}{dt} = \\frac{dr}{dV} \\times \\frac{dV}{dt}$, and $\\frac{dr}{dV}$ is the reciprocal of $\\frac{dV}{dr}$."
+       },
+       {
+        "tex": "\\frac{dr}{dt} &= \\frac{1}{1000\\pi} \\times 4\\times10^6"
+       },
+       {
+        "tex": "&= \\frac{4000}{\\pi}"
+       },
+       {
+        "tex": "&\\approx 1273.2"
+       }
+      ]
+     }
+    ],
+    "final": "1273.2\\ \\text{cm per minute}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q8#(c)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the area and differentiate",
+      "lines": [
+       {
+        "tex": "A &= \\pi r^2"
+       },
+       {
+        "tex": "\\frac{dA}{dr} &= 2\\pi r"
+       }
+      ]
+     },
+     {
+      "title": "Find dr/dt from part (b)",
+      "lines": [
+       {
+        "tex": "\\frac{dr}{dt} &= \\frac{4\\times10^6}{0.2\\pi r}"
+       }
+      ]
+     },
+     {
+      "title": "Use the chain rule for dA/dt",
+      "lines": [
+       {
+        "text": "$\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt}$"
+       },
+       {
+        "tex": "\\frac{dA}{dt} &= 2\\pi r \\times \\frac{4\\times10^6}{0.2\\pi r}"
+       },
+       {
+        "tex": "&= \\frac{2 \\times 4\\times10^6}{0.2}"
+       },
+       {
+        "tex": "&= 4\\times10^7"
+       },
+       {
+        "text": "The $r$ cancelled, so the rate is constant: $4\\times10^7$ cm² per minute."
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{dA}{dt} = 4\\times10^7\\ \\text{cm}^2\\text{ per minute}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q7#(a)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate the volume of a sphere",
+      "lines": [
+       {
+        "tex": "V &= \\frac{4}{3}\\pi r^3"
+       },
+       {
+        "tex": "\\frac{dV}{dr} &= 4\\pi r^2"
+       }
+      ]
+     },
+     {
+      "title": "Use the chain rule for the rate of change of the radius",
+      "lines": [
+       {
+        "text": "The rate given is $\\frac{dV}{dt} = 250$, so we need $\\frac{dr}{dt} = \\frac{dr}{dV}\\times\\frac{dV}{dt}$."
+       },
+       {
+        "tex": "\\frac{dr}{dt} &= \\frac{1}{4\\pi r^2}\\times 250"
+       }
+      ]
+     },
+     {
+      "title": "Substitute r = 20",
+      "lines": [
+       {
+        "tex": "\\frac{dr}{dt} &= \\frac{250}{4\\pi (20)^2}"
+       },
+       {
+        "tex": "&= \\frac{250}{1600\\pi}"
+       },
+       {
+        "tex": "&= \\frac{5}{32\\pi}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{5}{32\\pi} \\text{ cm/s}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q9#(a)(v)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Link the rates with the chain rule",
+      "lines": [
+       {
+        "text": "$F$ depends on $c$, and $c$ depends on $t$."
+       },
+       {
+        "tex": "\\frac{dF}{dt} &= \\frac{dF}{dc} \\times \\frac{dc}{dt}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the values from (a)(iii) and (a)(iv)",
+      "lines": [
+       {
+        "text": "From (a)(iii), $\\frac{dF}{dc}=2.8$ at $t=7$. From (a)(iv), $\\frac{dc}{dt}=\\frac{18}{t}$."
+       },
+       {
+        "tex": "\\frac{dF}{dt} &= 2.8 \\times \\frac{18}{t}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 7 and evaluate",
+      "lines": [
+       {
+        "tex": "\\frac{dF}{dt} &= 2.8 \\times \\frac{18}{7}"
+       },
+       {
+        "tex": "&= \\frac{50.4}{7}"
+       },
+       {
+        "tex": "&= 7.2"
+       }
+      ]
+     }
+    ],
+    "final": "7.2 \\text{ (litres per 10 000 km) per minute}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q9#(d)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the rates",
+      "lines": [
+       {
+        "text": "The volume is decreasing, so the rate is negative."
+       },
+       {
+        "tex": "\\frac{dV}{dt} &= -\\frac{1}{20}"
+       },
+       {
+        "tex": "V &= x^3"
+       },
+       {
+        "tex": "\\frac{dV}{dx} &= 3x^2"
+       }
+      ]
+     },
+     {
+      "title": "Find the side length when V = 1/64",
+      "lines": [
+       {
+        "tex": "x^3 &= \\frac{1}{64}"
+       },
+       {
+        "tex": "x &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Use the chain rule",
+      "lines": [
+       {
+        "tex": "\\frac{dx}{dt} &= \\frac{dV}{dt} \\div \\frac{dV}{dx}"
+       },
+       {
+        "tex": "&= -\\frac{1}{20} \\div 3x^2"
+       },
+       {
+        "tex": "&= -\\frac{1}{60x^2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 1/4",
+      "lines": [
+       {
+        "tex": "\\frac{dx}{dt} &= -\\frac{1}{60\\left(\\frac{1}{4}\\right)^2}"
+       },
+       {
+        "tex": "&= -\\frac{1}{\\frac{15}{4}}"
+       },
+       {
+        "tex": "&= -\\frac{4}{15}"
+       }
+      ]
+     }
+    ],
+    "final": "-\\frac{4}{15}\\ \\text{cm/sec}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-slope-tangent",
+   "title": "Find the slope and equation of a tangent",
+   "level": "OL",
+   "input": "f(x) and a point",
+   "output": "slope f′(a); tangent line"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-ordinary-p1-q6#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = 1 into f'(x)",
+      "lines": [
+       {
+        "text": "The slope of the tangent at $x = 1$ is $f'(1)$."
+       },
+       {
+        "tex": "f'(1) &= 12(1)^2 - 6(1) + 1"
+       },
+       {
+        "tex": "&= 12 - 6 + 1"
+       },
+       {
+        "tex": "&= 7"
+       }
+      ]
+     }
+    ],
+    "final": "7"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q6#(a)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the line through (1, -5) with slope 7",
+      "lines": [
+       {
+        "text": "Use $y - y_1 = m(x - x_1)$ with $m = 7$ and $(x_1, y_1) = (1, -5)$."
+       },
+       {
+        "tex": "y - (-5) &= 7(x - 1)"
+       },
+       {
+        "tex": "y + 5 &= 7(x - 1)"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange into the form ax + by + c = 0",
+      "lines": [
+       {
+        "tex": "y + 5 &= 7x - 7"
+       },
+       {
+        "tex": "0 &= 7x - 7 - y - 5"
+       },
+       {
+        "tex": "7x - y - 12 &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "7x - y - 12 = 0"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the slope at x = 2",
+      "lines": [
+       {
+        "text": "The slope of the tangent is $h'(2)$."
+       },
+       {
+        "tex": "h'(2) &= 3(2)^2 + 4(2) - 1"
+       },
+       {
+        "tex": "&= 12 + 8 - 1"
+       },
+       {
+        "tex": "&= 19"
+       }
+      ]
+     },
+     {
+      "title": "Use the point-slope formula",
+      "lines": [
+       {
+        "text": "With $m = 19$ and point $(2, 6)$: $y - y_1 = m(x - x_1)$."
+       },
+       {
+        "tex": "y - 6 &= 19(x - 2)"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange (optional)",
+      "lines": [
+       {
+        "tex": "y - 6 &= 19x - 38"
+       },
+       {
+        "tex": "0 &= 19x - y - 32"
+       }
+      ]
+     }
+    ],
+    "final": "19x - y - 32 = 0"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q4#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate each term",
+      "lines": [
+       {
+        "text": "Use $\\frac{d}{dx}(x^n) = nx^{n-1}$. The constant $-8$ differentiates to 0."
+       },
+       {
+        "tex": "f'(x) &= 3x^2 - 6x + 4"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 2 into f′(x)",
+      "lines": [
+       {
+        "tex": "f'(2) &= 3(2)^2 - 6(2) + 4"
+       },
+       {
+        "tex": "&= 12 - 12 + 4"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     },
+     {
+      "title": "State the slope",
+      "lines": [
+       {
+        "text": "The slope of the tangent at $(2, -4)$ is the value of $f'(2)$."
+       }
+      ]
+     }
+    ],
+    "final": "f'(x) = 3x^2 - 6x + 4, \\quad \\text{slope} = 4"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q4#(c)(ii)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the point and the slope",
+      "lines": [
+       {
+        "text": "The slope is $m = 3$ and the point is $(1, 7)$."
+       },
+       {
+        "tex": "y - y_1 &= m(x - x_1)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "lines": [
+       {
+        "tex": "y - 7 &= 3(x - 1)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "y - 7 &= 3x - 3"
+       }
+      ]
+     },
+     {
+      "title": "Add 7 to both sides",
+      "lines": [
+       {
+        "tex": "y &= 3x + 4"
+       }
+      ]
+     }
+    ],
+    "final": "y = 3x + 4"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q4#(a)(iii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Identify the point and the slope",
+      "lines": [
+       {
+        "text": "The point is $(5, g(5)) = (5, -57)$ from part (i). The slope is $g'(5) = 6$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the equation of a line",
+      "lines": [
+       {
+        "tex": "y - y_1 &= m(x - x_1)"
+       },
+       {
+        "tex": "y - (-57) &= 6(x - 5)"
+       },
+       {
+        "tex": "y + 57 &= 6(x - 5)"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "y + 57 &= 6x - 30"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange into the form ax + by + c = 0",
+      "lines": [
+       {
+        "text": "Move every term to the right-hand side."
+       },
+       {
+        "tex": "0 &= 6x - y - 87"
+       }
+      ]
+     }
+    ],
+    "final": "6x - y - 87 = 0"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1349 @@
+[
+ {
+  "skill": {
+   "id": "cx-divide",
+   "title": "Divide complex numbers",
+   "level": "OL",
+   "input": "z₁ / z₂",
+   "output": "a + bi via conjugate of denominator"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p1-q2#(b)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply top and bottom by the conjugate of the bottom",
+      "lines": [
+       {
+        "text": "The conjugate of $4 + 3i$ is $4 - 3i$."
+       },
+       {
+        "tex": "z_3 &= \\frac{-3 + 4i}{4 + 3i}"
+       },
+       {
+        "tex": "&= \\frac{(-3 + 4i)(4 - 3i)}{(4 + 3i)(4 - 3i)}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the top",
+      "lines": [
+       {
+        "tex": "(-3 + 4i)(4 - 3i) &= -12 + 9i + 16i - 12i^2"
+       },
+       {
+        "tex": "&= -12 + 25i - 12(-1)"
+       },
+       {
+        "tex": "&= 25i"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the bottom",
+      "lines": [
+       {
+        "tex": "(4 + 3i)(4 - 3i) &= 16 - 9i^2"
+       },
+       {
+        "tex": "&= 16 - 9(-1)"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     },
+     {
+      "title": "Divide",
+      "lines": [
+       {
+        "tex": "z_3 &= \\frac{25i}{25}"
+       },
+       {
+        "tex": "&= i"
+       }
+      ]
+     }
+    ],
+    "final": "z_3 = i"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q2#(b)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Multiply top and bottom by the conjugate of the bottom",
+      "lines": [
+       {
+        "text": "The conjugate of $1 + 2i$ is $1 - 2i$."
+       },
+       {
+        "tex": "v &= \\frac{15}{1+2i}"
+       },
+       {
+        "tex": "&= \\frac{15}{1+2i} \\times \\frac{1-2i}{1-2i}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the top",
+      "lines": [
+       {
+        "tex": "15(1-2i) &= 15 - 30i"
+       },
+       {
+        "tex": "&= 15 - 30i"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the bottom",
+      "lines": [
+       {
+        "tex": "(1+2i)(1-2i) &= 1 - 2i + 2i - 4i^2"
+       },
+       {
+        "tex": "&= 1 - 4i^2"
+       },
+       {
+        "text": "Use $i^2 = -1$."
+       },
+       {
+        "tex": "&= 1 + 4"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Divide each part of the top by 5",
+      "lines": [
+       {
+        "tex": "v &= \\frac{15 - 30i}{5}"
+       },
+       {
+        "tex": "&= \\frac{15}{5} - \\frac{30i}{5}"
+       },
+       {
+        "tex": "&= 3 - 6i"
+       }
+      ]
+     }
+    ],
+    "final": "3 - 6i"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q2#(d)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write w as a fraction",
+      "lines": [
+       {
+        "tex": "w &= \\frac{z_1}{z_2}"
+       },
+       {
+        "tex": "&= \\frac{1 + 3i}{2 - i}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply top and bottom by the conjugate of 2 − i",
+      "lines": [
+       {
+        "text": "The conjugate of $2 - i$ is $2 + i$."
+       },
+       {
+        "tex": "&= \\frac{(1 + 3i)(2 + i)}{(2 - i)(2 + i)}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the numerator",
+      "lines": [
+       {
+        "tex": "(1 + 3i)(2 + i) &= 2 + i + 6i + 3i^2"
+       },
+       {
+        "tex": "&= 2 + 7i - 3"
+       },
+       {
+        "tex": "&= -1 + 7i"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the denominator",
+      "lines": [
+       {
+        "tex": "(2 - i)(2 + i) &= 4 + 2i - 2i - i^2"
+       },
+       {
+        "tex": "&= 4 + 1"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Divide and write in the form a + bi",
+      "lines": [
+       {
+        "tex": "w &= \\frac{-1 + 7i}{5}"
+       },
+       {
+        "tex": "&= -\\frac{1}{5} + \\frac{7}{5}i"
+       }
+      ]
+     }
+    ],
+    "final": "w = -\\frac{1}{5} + \\frac{7}{5}i"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q2#(a)(iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute $z_1$ and $z_2$",
+      "lines": [
+       {
+        "tex": "z_3 &= \\frac{z_1}{z_2}"
+       },
+       {
+        "tex": "&= \\frac{3 - i}{-1 + 2i}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply top and bottom by the conjugate of the denominator",
+      "lines": [
+       {
+        "text": "The conjugate of $-1 + 2i$ is $-1 - 2i$."
+       },
+       {
+        "tex": "z_3 &= \\frac{(3 - i)(-1 - 2i)}{(-1 + 2i)(-1 - 2i)}"
+       }
+      ]
+     },
+     {
+      "title": "Expand the numerator",
+      "lines": [
+       {
+        "tex": "(3 - i)(-1 - 2i) &= -3 - 6i + i + 2i^2"
+       },
+       {
+        "tex": "&= -3 - 5i + 2i^2"
+       },
+       {
+        "text": "Use $i^2 = -1$."
+       },
+       {
+        "tex": "&= -3 - 5i - 2"
+       },
+       {
+        "tex": "&= -5 - 5i"
+       }
+      ]
+     },
+     {
+      "title": "Expand the denominator",
+      "lines": [
+       {
+        "tex": "(-1 + 2i)(-1 - 2i) &= 1 - 4i^2"
+       },
+       {
+        "tex": "&= 1 + 4"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Divide",
+      "lines": [
+       {
+        "tex": "z_3 &= \\frac{-5 - 5i}{5}"
+       },
+       {
+        "tex": "&= -1 - i"
+       }
+      ]
+     }
+    ],
+    "final": "z_3 = -1 - i"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q2#(c)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write z₄ as a fraction",
+      "lines": [
+       {
+        "tex": "z_4 &= \\frac{-2 + 3i}{-3 - 2i}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply top and bottom by the conjugate of the bottom",
+      "lines": [
+       {
+        "text": "The conjugate of $-3 - 2i$ is $-3 + 2i$."
+       },
+       {
+        "tex": "z_4 &= \\frac{(-2 + 3i)(-3 + 2i)}{(-3 - 2i)(-3 + 2i)}"
+       }
+      ]
+     },
+     {
+      "title": "Expand the top",
+      "lines": [
+       {
+        "tex": "(-2 + 3i)(-3 + 2i) &= 6 - 4i - 9i + 6i^2"
+       },
+       {
+        "tex": "&= 6 - 13i - 6"
+       },
+       {
+        "tex": "&= -13i"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bottom",
+      "lines": [
+       {
+        "tex": "(-3 - 2i)(-3 + 2i) &= 9 - 6i + 6i - 4i^2"
+       },
+       {
+        "tex": "&= 9 + 4"
+       },
+       {
+        "tex": "&= 13"
+       }
+      ]
+     },
+     {
+      "title": "Divide",
+      "lines": [
+       {
+        "tex": "z_4 &= \\frac{-13i}{13}"
+       },
+       {
+        "tex": "&= -i"
+       }
+      ]
+     }
+    ],
+    "final": "z_4 = 0 - i"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q3#(b)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Divide to find z₄",
+      "lines": [
+       {
+        "text": "$z_1 \\times z_4 = 29 + 3i$, so divide both sides by $z_1$."
+       },
+       {
+        "tex": "z_4 &= \\frac{29 + 3i}{3 - 4i}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply top and bottom by the conjugate 3 + 4i",
+      "lines": [
+       {
+        "tex": "z_4 &= \\frac{(29 + 3i)(3 + 4i)}{(3 - 4i)(3 + 4i)}"
+       }
+      ]
+     },
+     {
+      "title": "Expand the numerator",
+      "lines": [
+       {
+        "tex": "(29 + 3i)(3 + 4i) &= 87 + 116i + 9i + 12i^2"
+       },
+       {
+        "tex": "&= 87 + 125i + 12(-1)"
+       },
+       {
+        "tex": "&= 75 + 125i"
+       }
+      ]
+     },
+     {
+      "title": "Expand the denominator",
+      "lines": [
+       {
+        "tex": "(3 - 4i)(3 + 4i) &= 9 - 16i^2"
+       },
+       {
+        "tex": "&= 9 + 16"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term by 25",
+      "lines": [
+       {
+        "tex": "z_4 &= \\frac{75 + 125i}{25}"
+       },
+       {
+        "tex": "&= 3 + 5i"
+       }
+      ]
+     }
+    ],
+    "final": "z_4 = 3 + 5i"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-modulus",
+   "title": "Find the modulus as distance from the origin",
+   "level": "OL",
+   "input": "z = a + bi",
+   "output": "|z| = √(a² + b²)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-ordinary-p1-q3#(a)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the modulus formula |a + bi| = √(a² + b²)",
+      "lines": [
+       {
+        "tex": "|z_1| &= \\sqrt{3^2 + (-4)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{9 + 16}"
+       },
+       {
+        "tex": "&= \\sqrt{25}"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     }
+    ],
+    "final": "|z_1| = 5"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q1#(c)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Subtract z₃ from z₂",
+      "lines": [
+       {
+        "tex": "z_2 - z_3 &= (-5 + 3i) - (4 - 2i)"
+       },
+       {
+        "tex": "&= -5 + 3i - 4 + 2i"
+       },
+       {
+        "tex": "&= -9 + 5i"
+       }
+      ]
+     },
+     {
+      "title": "Find the modulus",
+      "lines": [
+       {
+        "text": "$|a + bi| = \\sqrt{a^2 + b^2}$."
+       },
+       {
+        "tex": "|z_2 - z_3| &= |-9 + 5i|"
+       },
+       {
+        "tex": "&= \\sqrt{(-9)^2 + 5^2}"
+       },
+       {
+        "tex": "&= \\sqrt{81 + 25}"
+       },
+       {
+        "tex": "&= \\sqrt{106}"
+       }
+      ]
+     }
+    ],
+    "final": "z_2 - z_3 = -9 + 5i, \\quad |z_2 - z_3| = \\sqrt{106}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q6#(b)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Work out the left-hand side",
+      "lines": [
+       {
+        "tex": "|z_1| \\times |z_2| \\times \\cos\\theta &= \\sqrt{10} \\times \\sqrt{10} \\times 0.8"
+       },
+       {
+        "tex": "&= 10 \\times 0.8"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     },
+     {
+      "title": "Work out the right-hand side",
+      "lines": [
+       {
+        "text": "From part (a): $a = 3$, $b = 1$, $c = 3$, $d = -1$."
+       },
+       {
+        "tex": "ac + bd &= 3(3) + 1(-1)"
+       },
+       {
+        "tex": "&= 9 - 1"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "Both sides equal 8, so they are equal."
+       },
+       {
+        "tex": "|z_1| \\times |z_2| \\times \\cos\\theta &= ac + bd"
+       }
+      ]
+     }
+    ],
+    "final": "|z_1| \\times |z_2| \\times \\cos\\theta = ac + bd"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q2#(c)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the conjugate of $z_1$",
+      "lines": [
+       {
+        "text": "Change the sign of the imaginary part."
+       },
+       {
+        "tex": "\\bar{z}_1 &= -3 - 4i"
+       }
+      ]
+     },
+     {
+      "title": "Subtract $z_2$",
+      "lines": [
+       {
+        "tex": "\\bar{z}_1 - z_2 &= (-3 - 4i) - (4 + 3i)"
+       },
+       {
+        "tex": "&= -3 - 4i - 4 - 3i"
+       },
+       {
+        "tex": "&= -7 - 7i"
+       }
+      ]
+     },
+     {
+      "title": "Find the modulus using $\\sqrt{a^2 + b^2}$",
+      "lines": [
+       {
+        "tex": "|\\bar{z}_1 - z_2| &= \\sqrt{(-7)^2 + (-7)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{49 + 49}"
+       },
+       {
+        "tex": "&= \\sqrt{98}"
+       },
+       {
+        "tex": "&= \\sqrt{49 \\times 2}"
+       },
+       {
+        "tex": "&= 7\\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "7\\sqrt{2}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q2#(a)(iv)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the modulus formula",
+      "lines": [
+       {
+        "text": "For $z = a + bi$, $|z| = \\sqrt{a^2 + b^2}$. Here $z_3 = 6 - 2i$, so $a = 6$ and $b = -2$."
+       },
+       {
+        "tex": "|z_3| &= \\sqrt{6^2 + (-2)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate under the root",
+      "lines": [
+       {
+        "tex": "&= \\sqrt{36 + 4}"
+       },
+       {
+        "tex": "&= \\sqrt{40}"
+       }
+      ]
+     },
+     {
+      "title": "Write in surd form",
+      "lines": [
+       {
+        "text": "$40 = 4 \\times 10$ and $\\sqrt{4} = 2$."
+       },
+       {
+        "tex": "&= \\sqrt{4 \\times 10}"
+       },
+       {
+        "tex": "&= 2\\sqrt{10}"
+       }
+      ]
+     }
+    ],
+    "final": "\\sqrt{40} = 2\\sqrt{10}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q2#(b)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Recall what the modulus means",
+      "lines": [
+       {
+        "text": "The modulus $|z|$ is the distance from the point to the origin."
+       }
+      ]
+     },
+     {
+      "title": "Compare the distances",
+      "lines": [
+       {
+        "text": "On the diagram, $z_5$ is the point furthest from the origin, so tick the $z_5$ box."
+       }
+      ]
+     },
+     {
+      "title": "Give the reason",
+      "lines": [
+       {
+        "text": "Reason: $z_5$ is the furthest point from the origin, so it has the largest modulus."
+       }
+      ]
+     }
+    ],
+    "final": "z_5 \\text{ (it is the furthest point from the origin)}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-ratio-proportion",
+   "title": "Use ratio and direct/inverse proportion",
+   "level": "JC",
+   "input": "quantities in proportion",
+   "output": "divided shares or unknown quantity"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-ordinary-p1-q5#(b)(i)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use time = distance ÷ speed",
+      "lines": [
+       {
+        "tex": "\\text{Time} &= \\frac{120}{180}"
+       },
+       {
+        "tex": "&= \\frac{2}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2}{3} \\text{ hour}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q10#(c)(iii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "See what dividing by a number less than 1 does",
+      "lines": [
+       {
+        "text": "The charge is $C = \\frac{20h + xh}{d}$. Dividing by $d$ with $d < 1$ makes the answer bigger."
+       },
+       {
+        "text": "For example, with $d = 0.5$, the charge is multiplied by 2:"
+       },
+       {
+        "tex": "\\frac{N}{0.5} &= 2N"
+       },
+       {
+        "text": "So the charge for the repair would increase."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The charge will increase}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q5#(a)(i)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the cost of one metre",
+      "lines": [
+       {
+        "text": "Divide the cost by the length."
+       },
+       {
+        "tex": "\\text{Cost per metre} &= \\frac{12\\,000}{240}"
+       },
+       {
+        "tex": "&= 50"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 320 metres",
+      "lines": [
+       {
+        "tex": "\\text{Cost} &= 50 \\times 320"
+       },
+       {
+        "tex": "&= 16\\,000"
+       }
+      ]
+     }
+    ],
+    "final": "€16\\,000"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q5#(a)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the total person-days of work",
+      "lines": [
+       {
+        "text": "The job needs the same amount of work however many people share it."
+       },
+       {
+        "tex": "6 \\times 8 &= 48"
+       }
+      ]
+     },
+     {
+      "title": "Divide among 4 people",
+      "lines": [
+       {
+        "tex": "\\text{Days} &= \\frac{48}{4}"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     }
+    ],
+    "final": "12 \\text{ days}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q7#(f)(i)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add up the ratio parts",
+      "lines": [
+       {
+        "text": "The ratio $3:1$ has $3 + 1 = 4$ parts."
+       },
+       {
+        "tex": "4 &= 3 + 1"
+       }
+      ]
+     },
+     {
+      "title": "Find the value of one part (children’s tickets)",
+      "lines": [
+       {
+        "tex": "\\frac{752}{4} &= 188"
+       }
+      ]
+     },
+     {
+      "title": "Find the adult tickets (3 parts)",
+      "lines": [
+       {
+        "tex": "188 \\times 3 &= 564"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Adult tickets} = 564, \\ \\text{Children’s tickets} = 188"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q10#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Write gold as a fraction of the weight",
+      "lines": [
+       {
+        "tex": "\\text{Percentage} &= \\frac{3}{8} \\times 100"
+       },
+       {
+        "tex": "&= 37.5"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Add up the ratio parts",
+      "lines": [
+       {
+        "tex": "15 + 4 + 1 &= 20"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Find the gold in 25 grams",
+      "lines": [
+       {
+        "text": "Gold is $15$ of the $20$ parts."
+       },
+       {
+        "tex": "\\text{Gold} &= \\frac{15}{20} \\times 25"
+       },
+       {
+        "tex": "&= 18.75"
+       }
+      ]
+     }
+    ],
+    "final": "37.5\\% \\text{ and } 18.75 \\text{ g}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-sci-notation",
+   "title": "Work in scientific notation",
+   "level": "OL",
+   "input": "numbers in a×10ⁿ form",
+   "output": "result in a×10ⁿ, 1 ≤ a < 10"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q2#(c)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Divide the mass of the Sun by the mass of the Earth",
+      "lines": [
+       {
+        "tex": "\\frac{1.99\\times 10^{30}}{5.97\\times 10^{24}} &= \\frac{1.99}{5.97}\\times 10^{6}"
+       },
+       {
+        "tex": "&= 333\\,333.3\\ldots"
+       },
+       {
+        "tex": "&= 333\\,333"
+       }
+      ]
+     }
+    ],
+    "final": "333\\,333"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write 165 billion as a number",
+      "lines": [
+       {
+        "text": "A billion is a thousand million, so it is $10^3 \\times 10^6$."
+       },
+       {
+        "tex": "165 \\text{ billion} &= 165 \\times 10^3 \\times 10^6"
+       },
+       {
+        "tex": "&= 165 \\times 10^9"
+       }
+      ]
+     },
+     {
+      "title": "Write 165 in the form a × 10ⁿ with 1 ≤ a < 10",
+      "lines": [
+       {
+        "tex": "165 \\times 10^9 &= 1.65 \\times 10^2 \\times 10^9"
+       },
+       {
+        "tex": "&= 1.65 \\times 10^{11}"
+       }
+      ]
+     }
+    ],
+    "final": "1.65 \\times 10^{11}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q9#(a)(iii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Atoms in 1 gram",
+      "lines": [
+       {
+        "tex": "197 \\text{ g} &= 6.02 \\times 10^{23} \\text{ atoms}"
+       },
+       {
+        "tex": "1 \\text{ g} &= \\frac{6.02 \\times 10^{23}}{197}"
+       }
+      ]
+     },
+     {
+      "title": "Atoms in 2.18 grams",
+      "lines": [
+       {
+        "tex": "2.18 \\text{ g} &= \\frac{6.02 \\times 10^{23}}{197} \\times 2.18"
+       },
+       {
+        "tex": "&= 6.6617 \\times 10^{21}"
+       },
+       {
+        "tex": "&\\approx 6.7 \\times 10^{21}"
+       }
+      ]
+     }
+    ],
+    "final": "6.7 \\times 10^{21}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q5#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write 1200 in the form a × 10ⁿ",
+      "lines": [
+       {
+        "text": "Move the decimal point so that $1 \\le a < 10$: three places, so $n = 3$."
+       },
+       {
+        "tex": "1200 &= 1.2 \\times 10^3"
+       }
+      ]
+     },
+     {
+      "title": "Write 0.27 in the form a × 10ⁿ",
+      "lines": [
+       {
+        "text": "Move the decimal point one place right to get $2.7$, so $n = -1$."
+       },
+       {
+        "tex": "0.27 &= 2.7 \\times 10^{-1}"
+       }
+      ]
+     }
+    ],
+    "final": "1.2 \\times 10^3, \\quad 2.7 \\times 10^{-1}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write 58 000 as a number between 1 and 10 times a power of 10",
+      "lines": [
+       {
+        "text": "Put the decimal point after the first digit: $5.8$. It moved 4 places, so the power is $4$."
+       },
+       {
+        "tex": "58\\,000 &= 5.8 \\times 10\\,000"
+       },
+       {
+        "tex": "&= 5.8 \\times 10^{4}"
+       }
+      ]
+     },
+     {
+      "title": "Write 0.036 as a number between 1 and 10 times a power of 10",
+      "lines": [
+       {
+        "text": "Put the decimal point after the first non-zero digit: $3.6$. It moved 2 places to the right, so the power is $-2$."
+       },
+       {
+        "tex": "0.036 &= 3.6 \\times \\frac{1}{100}"
+       },
+       {
+        "tex": "&= 3.6 \\times 10^{-2}"
+       }
+      ]
+     }
+    ],
+    "final": "58\\,000 = 5.8 \\times 10^{4},\\quad 0.036 = 3.6 \\times 10^{-2}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q6#(c)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the number of seconds in one year",
+      "lines": [
+       {
+        "tex": "60 \\times 60 &= 3600"
+       },
+       {
+        "tex": "3600 \\times 24 &= 86\\,400"
+       },
+       {
+        "tex": "86\\,400 \\times 365 &= 31\\,536\\,000"
+       }
+      ]
+     },
+     {
+      "title": "Use distance = speed × time",
+      "lines": [
+       {
+        "tex": "D &= S \\times T"
+       },
+       {
+        "tex": "&= 3 \\times 10^{5} \\times 31\\,536\\,000"
+       },
+       {
+        "tex": "&= 9\\,460\\,800\\,000\\,000"
+       }
+      ]
+     },
+     {
+      "title": "Write the answer in the form a × 10^n",
+      "lines": [
+       {
+        "text": "Move the decimal point 12 places to the left."
+       },
+       {
+        "tex": "&= 9.4608 \\times 10^{12}"
+       }
+      ]
+     }
+    ],
+    "final": "9.4608 \\times 10^{12}\\text{ km}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-increasing",
+   "title": "Decide whether a function is increasing or decreasing at a point",
+   "level": "OL",
+   "input": "f(x) + x value",
+   "output": "sign of f′(a)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q4#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find where the slope is negative",
+      "lines": [
+       {
+        "text": "$u'(x)$ is negative where the graph is going downhill."
+       },
+       {
+        "text": "The graph falls after its peak near $x = 5.5$, so $x = 8$ works. (The marking scheme accepts any $x > 5$.)"
+       }
+      ]
+     },
+     {
+      "title": "Draw the tangent at (4, 2)",
+      "lines": [
+       {
+        "text": "Mark $(4, 2)$. Draw a straight line touching the curve there without crossing it."
+       },
+       {
+        "text": "The line passes through $(2, 1)$ and $(6, 3)$."
+       }
+      ]
+     },
+     {
+      "title": "Find the slope of the tangent",
+      "lines": [
+       {
+        "text": "Slope $=\\frac{y_2 - y_1}{x_2 - x_1}$."
+       },
+       {
+        "tex": "u'(4) &\\approx \\frac{3 - 1}{6 - 2}"
+       },
+       {
+        "tex": "&= \\frac{2}{4}"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "x = 8 \\text{ (any } x > 5), \\quad u'(4) \\approx \\frac{1}{2}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q4#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Q: the graph slopes downwards",
+      "lines": [
+       {
+        "text": "The tangent at $Q$ goes down from left to right, so the slope is negative."
+       },
+       {
+        "text": "Q matches $g'(x) < 0$."
+       }
+      ]
+     },
+     {
+      "title": "P: the graph is at a turning point",
+      "lines": [
+       {
+        "text": "$P$ is the top of a hill, where the tangent is flat, so the slope is zero."
+       },
+       {
+        "text": "P matches $g'(x) = 0$."
+       }
+      ]
+     },
+     {
+      "title": "R: the graph slopes upwards",
+      "lines": [
+       {
+        "text": "The tangent at $R$ goes up from left to right, so the slope is positive."
+       },
+       {
+        "text": "R matches $g'(x) > 0$."
+       }
+      ]
+     },
+     {
+      "title": "Give a reason for P",
+      "lines": [
+       {
+        "text": "Reason: $P$ is a turning point, so the slope of the tangent is equal to zero."
+       }
+      ]
+     }
+    ],
+    "final": "Q: g'(x) < 0, \\quad P: g'(x) = 0, \\quad R: g'(x) > 0"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q8#(d)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute t = 30 into r'(t)",
+      "lines": [
+       {
+        "text": "The revenue is increasing when $r'(t) > 0$."
+       },
+       {
+        "tex": "r'(30) &= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{30\\pi}{26}\\right)"
+       },
+       {
+        "tex": "&= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{15\\pi}{13}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and conclude",
+      "lines": [
+       {
+        "text": "$\\frac{15\\pi}{13}$ is just over $\\pi$, so its sine is negative (about $-0.4647$). A negative times a negative is positive."
+       },
+       {
+        "tex": "r'(30) &= 402.164\\pi"
+       },
+       {
+        "tex": "&= 1263.44"
+       },
+       {
+        "text": "Since $r'(30) > 0$, the revenue is increasing 30 weeks after the beginning of July."
+       }
+      ]
+     }
+    ],
+    "final": "r'(30) \\approx 1263.44 > 0 \\text{, so the revenue is increasing}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q7#(e)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find v'(1) and decide what it says about the slope",
+      "lines": [
+       {
+        "tex": "v'(t) &= 2t^2 - 12t + 13"
+       },
+       {
+        "tex": "v'(1) &= 2(1)^2 - 12(1) + 13"
+       },
+       {
+        "tex": "&= 3"
+       },
+       {
+        "text": "$v'(1) = 3 > 0$, so the function is increasing at $t = 1$: the slope is positive. That rules out A and C."
+       }
+      ]
+     },
+     {
+      "title": "Find v''(1) and decide what it says about the curve",
+      "lines": [
+       {
+        "tex": "v''(t) &= 4t - 12"
+       },
+       {
+        "tex": "v''(1) &= 4(1) - 12"
+       },
+       {
+        "tex": "&= -8"
+       },
+       {
+        "text": "$v''(1) < 0$, so the slope is decreasing: the rate of increase is slowing (concave down). Of B and D, only B is rising and flattening, so the answer is B."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{B}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q8#(c)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the coordinates of C",
+      "lines": [
+       {
+        "text": "By symmetry, $C$ is the mirror image of $B\\left(-1, \\frac{1}{\\sqrt{2\\pi e}}\\right)$, so $C\\left(1, \\frac{1}{\\sqrt{2\\pi e}}\\right)$."
+       }
+      ]
+     },
+     {
+      "title": "Differentiate f(x)",
+      "lines": [
+       {
+        "text": "Chain rule: the derivative of $e^{u}$ is $e^{u}u'$, with $u = -\\frac{1}{2}x^2$ and $u' = -x$."
+       },
+       {
+        "tex": "f'(x) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-x)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 1 into f'(x)",
+      "lines": [
+       {
+        "tex": "f'(1) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}(1)^2}(-1)"
+       },
+       {
+        "tex": "&= -\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}}"
+       },
+       {
+        "tex": "&= -\\frac{1}{\\sqrt{2\\pi e}}"
+       },
+       {
+        "tex": "&\\approx -0.242"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$f'(1) < 0$, so $f(x)$ is decreasing at $C$."
+       }
+      ]
+     }
+    ],
+    "final": "f'(1) \\approx -0.242 < 0 \\text{, so } f(x) \\text{ is decreasing at } C"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1119 @@
+[
+ {
+  "skill": {
+   "id": "fn-compare-graphs",
+   "title": "Interpret f(x) = g(x) as a comparison of functions",
+   "level": "OL",
+   "input": "two functions/graphs",
+   "output": "intersections, regions where f > g"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2025-ordinary-p1-q7#(d)(iii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the two graphs at 1st March and 1st April",
+      "lines": [
+       {
+        "text": "On 1st March, Company A is at about €7.30 and P(2) = €3.33, so A is above B."
+       },
+       {
+        "text": "On 1st April, Company A is at about €2.30 and P(3) = €4.29, so A is below B."
+       },
+       {
+        "text": "The graphs swap order between those dates, so they must meet during March."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{March}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q9#(b)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find each charge for 2.5 hours",
+      "lines": [
+       {
+        "text": "Read both graphs at $h = 2.5$, or calculate."
+       },
+       {
+        "tex": "A(2.5) &= 30 + 9.5(2.5) = 53.75"
+       },
+       {
+        "tex": "B(2.5) &= 10(1.74)^{2.5} \\approx 39.94"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "Company B charges less, because its charge is lower than Company A's at $2.5$ hours."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Company B, as its charge is less at } 2\\tfrac{1}{2} \\text{ hours}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find where m(x) = 0",
+      "lines": [
+       {
+        "text": "$m(x) = 0$ where the graph of $m$ meets the $x$-axis."
+       },
+       {
+        "tex": "m(x) = 0 \\text{ at } x &= 1"
+       },
+       {
+        "tex": "\\text{and } x &= 4.5"
+       }
+      ]
+     },
+     {
+      "title": "Find where the two graphs cross",
+      "lines": [
+       {
+        "text": "The graphs of $k$ and $m$ cross at $x = 2$ and $x = 3.5$."
+       }
+      ]
+     },
+     {
+      "title": "Find where k(x) is less than m(x)",
+      "lines": [
+       {
+        "text": "Between $x = 2$ and $x = 3.5$ the graph of $m$ is above the graph of $k$."
+       },
+       {
+        "text": "Outside that range, $m$ is below $k$. Do not include the endpoints, because there $k(x) = m(x)$."
+       },
+       {
+        "tex": "k(x) < m(x) \\text{ for } 2 &< x < 3.5"
+       }
+      ]
+     }
+    ],
+    "final": "x = 1 \\text{ or } x = 4.5; \\quad 2 < x < 3.5"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q2#(a)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = 1.9 into g(x)",
+      "lines": [
+       {
+        "tex": "g(1.9) &= 4(1.9) + 1"
+       },
+       {
+        "tex": "&= 7.6 + 1"
+       },
+       {
+        "tex": "&= 8.6"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 1.9 into f(x)",
+      "lines": [
+       {
+        "tex": "f(1.9) &= 3^{1.9}"
+       },
+       {
+        "tex": "&= 8.06"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two values",
+      "lines": [
+       {
+        "tex": "8.06 &< 8.6"
+       },
+       {
+        "text": "So $f(1.9) < g(1.9)$."
+       }
+      ]
+     }
+    ],
+    "final": "f(1.9) = 8.06 < 8.6 = g(1.9)"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q8#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the two functions equal",
+      "lines": [
+       {
+        "tex": "C(t) &= S(t)"
+       },
+       {
+        "tex": "S(t) - 2.4 + 0.03t &= S(t)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel S(t) from both sides",
+      "lines": [
+       {
+        "tex": "-2.4 + 0.03t &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for t",
+      "lines": [
+       {
+        "tex": "0.03t &= 2.4"
+       },
+       {
+        "tex": "t &= \\frac{2.4}{0.03}"
+       },
+       {
+        "tex": "t &= 80"
+       }
+      ]
+     }
+    ],
+    "final": "t = 80 \\text{ days}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-evaluate",
+   "title": "Evaluate a function",
+   "level": "OL",
+   "input": "f(x) + input value or expression",
+   "output": "output"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q8#(d)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = 1600 into p",
+      "lines": [
+       {
+        "tex": "p &= 96(1600) - 0.03(1600)^2"
+       },
+       {
+        "tex": "&= 153\\,600 - 76\\,800"
+       },
+       {
+        "tex": "&= 76\\,800"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}76\\,800"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q4#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put x = 0 (the y-axis)",
+      "lines": [
+       {
+        "text": "Any point on the $y$-axis has $x = 0$."
+       },
+       {
+        "tex": "f(0) &= 0^3 + 0^2 - 2(0) + 7"
+       },
+       {
+        "tex": "&= 7"
+       }
+      ]
+     }
+    ],
+    "final": "(0, 7)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q7#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 0 into f(t)",
+      "lines": [
+       {
+        "text": "The ball is hit at time $t = 0$."
+       },
+       {
+        "tex": "f(0) &= -4(0)^2 + 16(0) + 1"
+       },
+       {
+        "tex": "&= 0 + 0 + 1"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     }
+    ],
+    "final": "1 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q5#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute $x = 0.67$",
+      "lines": [
+       {
+        "tex": "f(0.67) &= 3(0.67)^2 - 6(0.67) + 7"
+       },
+       {
+        "tex": "&= 3(0.4489) - 6(0.67) + 7"
+       },
+       {
+        "tex": "&= 1.3467 - 4.02 + 7"
+       },
+       {
+        "tex": "&= 4.3267"
+       },
+       {
+        "tex": "&\\approx 4.33"
+       }
+      ]
+     }
+    ],
+    "final": "f(0.67) = 4.33"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q10#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 0",
+      "lines": [
+       {
+        "tex": "h(0) &= -2(0)^2 + 5(0) + 1.2"
+       },
+       {
+        "tex": "&= 1.2"
+       }
+      ]
+     }
+    ],
+    "final": "1.2 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q10#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 2.4",
+      "lines": [
+       {
+        "tex": "h(2.4) &= -2(2.4)^2 + 5(2.4) + 1.2"
+       },
+       {
+        "tex": "&= -2(5.76) + 12 + 1.2"
+       },
+       {
+        "tex": "&= -11.52 + 12 + 1.2"
+       },
+       {
+        "tex": "&= 1.68"
+       }
+      ]
+     }
+    ],
+    "final": "1.68 \\text{ m}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-graph-cubic",
+   "title": "Graph a cubic function",
+   "level": "OL",
+   "input": "ax³ + bx² + cx + d, domain",
+   "output": "cubic curve"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p1-q8#(c)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Plot the ten points from the table",
+      "lines": [
+       {
+        "text": "Plot $(0,0)$, $(1,57.5)$, $(2,118)$, $(3,175.5)$, $(4,224)$, $(5,257.5)$, $(6,270)$, $(7,255.5)$, $(8,208)$ and $(9,121.5)$. Each point is the hours value across and the units value up."
+       }
+      ]
+     },
+     {
+      "title": "Join the points with a smooth curve",
+      "lines": [
+       {
+        "text": "The function is a cubic, so join the points with a smooth curve from $t = 0$ to $t = 9$. It rises to a peak near $t = 6$, then falls."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Smooth curve through the plotted points}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q3#(a)(i)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Substitute x = −1 into f(x)",
+      "lines": [
+       {
+        "tex": "f(-1) &= -(-1)^3 + 4(-1)^2 + (-1) - 2"
+       },
+       {
+        "tex": "&= 1 + 4 - 1 - 2"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 0 into f(x)",
+      "lines": [
+       {
+        "tex": "f(0) &= -(0)^3 + 4(0)^2 + 0 - 2"
+       },
+       {
+        "tex": "&= -2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 1 into f(x)",
+      "lines": [
+       {
+        "tex": "f(1) &= -(1)^3 + 4(1)^2 + 1 - 2"
+       },
+       {
+        "tex": "&= -1 + 4 + 1 - 2"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 2 into f(x)",
+      "lines": [
+       {
+        "tex": "f(2) &= -(2)^3 + 4(2)^2 + 2 - 2"
+       },
+       {
+        "tex": "&= -8 + 16 + 2 - 2"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     },
+     {
+      "title": "Check x = 3 and substitute x = 4",
+      "lines": [
+       {
+        "text": "The table gives $f(3) = 10$. For $x = 4$:"
+       },
+       {
+        "tex": "f(4) &= -(4)^3 + 4(4)^2 + 4 - 2"
+       },
+       {
+        "tex": "&= -64 + 64 + 4 - 2"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Complete the table",
+      "lines": [
+       {
+        "text": "$x$: $-1, 0, 1, 2, 3, 4$ gives $f(x)$: $2, -2, 2, 8, 10, 2$."
+       }
+      ]
+     },
+     {
+      "title": "Plot the points and join them with a smooth curve",
+      "lines": [
+       {
+        "text": "Plot $(-1, 2)$, $(0, -2)$, $(1, 2)$, $(2, 8)$, $(3, 10)$ and $(4, 2)$, then draw one smooth curve through them."
+       }
+      ]
+     }
+    ],
+    "final": "f(x) = 2, -2, 2, 8, 10, 2 \\text{ for } x = -1, 0, 1, 2, 3, 4"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use p = 3.6 and find h(0)",
+      "lines": [
+       {
+        "tex": "h(x) &= 0.001x^3 - 0.12x^2 + 3.6x + 5"
+       },
+       {
+        "text": "At $x = 0$ every term except the constant is zero, so $h(0) = 5$."
+       }
+      ]
+     },
+     {
+      "title": "Find h(20)",
+      "lines": [
+       {
+        "tex": "h(20) &= 0.001(20)^3 - 0.12(20)^2 + 3.6(20) + 5"
+       },
+       {
+        "tex": "&= 8 - 48 + 72 + 5"
+       },
+       {
+        "tex": "&= 37"
+       }
+      ]
+     },
+     {
+      "title": "Find h(30)",
+      "lines": [
+       {
+        "tex": "h(30) &= 0.001(30)^3 - 0.12(30)^2 + 3.6(30) + 5"
+       },
+       {
+        "tex": "&= 27 - 108 + 108 + 5"
+       },
+       {
+        "tex": "&= 32"
+       }
+      ]
+     },
+     {
+      "title": "Find h(50)",
+      "lines": [
+       {
+        "tex": "h(50) &= 0.001(50)^3 - 0.12(50)^2 + 3.6(50) + 5"
+       },
+       {
+        "tex": "&= 125 - 300 + 180 + 5"
+       },
+       {
+        "tex": "&= 10"
+       }
+      ]
+     },
+     {
+      "title": "Find h(70)",
+      "lines": [
+       {
+        "tex": "h(70) &= 0.001(70)^3 - 0.12(70)^2 + 3.6(70) + 5"
+       },
+       {
+        "tex": "&= 343 - 588 + 252 + 5"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Plot the points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0, 5)$, $(10, 30)$, $(20, 37)$, $(30, 32)$, $(40, 21)$, $(50, 10)$, $(60, 5)$, $(70, 12)$ and $(75, 21.875)$."
+       },
+       {
+        "text": "Join them with a smooth curve: it rises to a maximum near $x = 20$, falls to a minimum near $x = 60$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "h(0)=5,\\ h(20)=37,\\ h(30)=32,\\ h(50)=10,\\ h(70)=12"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-graph-exponential",
+   "title": "Graph an exponential function",
+   "level": "OL",
+   "input": "a·bˣ (and eˣ at HL)",
+   "output": "exponential curve"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q9#(a)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Name the curve",
+      "lines": [
+       {
+        "text": "A quantity that is multiplied by the same factor (0.8) every year follows an exponential curve."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Exponential}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q9#(a)(ii)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Plot the six points for Company A",
+      "lines": [
+       {
+        "text": "The points are (0, 30), (1, 39.5), (2, 49), (3, 58.5), (4, 68), (5, 77.5)."
+       },
+       {
+        "text": "They lie on a straight line, so join them with a ruler and label it A."
+       }
+      ]
+     },
+     {
+      "title": "Plot the six points for Company B",
+      "lines": [
+       {
+        "text": "The points are (0, 10), (1, 17.4), (2, 30.28), (3, 52.68), (4, 91.66), (5, 159.49)."
+       },
+       {
+        "text": "Join them with a smooth curve and label it B."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{A is a straight line, B is a rising curve}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(a)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read two values from the curve",
+      "lines": [
+       {
+        "text": "Choose a day on the curve and the day 5 days later."
+       },
+       {
+        "tex": "\\text{Day } 15 &\\approx 1500"
+       },
+       {
+        "tex": "\\text{Day } 20 &\\approx 3000"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two values",
+      "lines": [
+       {
+        "tex": "\\frac{3000}{1500} &= 2"
+       },
+       {
+        "text": "The number of cases doubles in about 5 days."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cases double from about 1500 to 3000 in 5 days}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q7#(d)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute m = 1 into P(m)",
+      "lines": [
+       {
+        "tex": "P(1) &= 2 \\times 1.29^{1}"
+       },
+       {
+        "tex": "&= 2.58"
+       }
+      ]
+     },
+     {
+      "title": "Substitute m = 3 into P(m)",
+      "lines": [
+       {
+        "tex": "P(3) &= 2 \\times 1.29^{3}"
+       },
+       {
+        "tex": "&= 4.29"
+       }
+      ]
+     },
+     {
+      "title": "Substitute m = 4 into P(m)",
+      "lines": [
+       {
+        "tex": "P(4) &= 2 \\times 1.29^{4}"
+       },
+       {
+        "tex": "&= 5.54"
+       }
+      ]
+     },
+     {
+      "title": "Substitute m = 5 into P(m)",
+      "lines": [
+       {
+        "tex": "P(5) &= 2 \\times 1.29^{5}"
+       },
+       {
+        "tex": "&= 7.14"
+       }
+      ]
+     },
+     {
+      "title": "Draw the graph of P(m)",
+      "lines": [
+       {
+        "text": "Plot the seven points: $(0, 2)$, $(1, 2.58)$, $(2, 3.33)$, $(3, 4.29)$, $(4, 5.54)$, $(5, 7.14)$, $(6, 9.22)$."
+       },
+       {
+        "text": "Join them with a smooth curve."
+       }
+      ]
+     }
+    ],
+    "final": "P(1) = 2.58,\\ P(3) = 4.29,\\ P(4) = 5.54,\\ P(5) = 7.14"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Find D(0)",
+      "lines": [
+       {
+        "tex": "D(0) &= 2100 \\times 1.18^0"
+       },
+       {
+        "tex": "&\\approx 2100.00"
+       },
+       {
+        "tex": "&\\approx 2100"
+       }
+      ]
+     },
+     {
+      "title": "Find D(1)",
+      "lines": [
+       {
+        "tex": "D(1) &= 2100 \\times 1.18^1"
+       },
+       {
+        "tex": "&\\approx 2478.00"
+       },
+       {
+        "tex": "&\\approx 2478"
+       }
+      ]
+     },
+     {
+      "title": "Use the value given for D(2)",
+      "lines": [
+       {
+        "text": "The table already gives $D(2) = 2924$."
+       }
+      ]
+     },
+     {
+      "title": "Find D(3)",
+      "lines": [
+       {
+        "tex": "D(3) &= 2100 \\times 1.18^3"
+       },
+       {
+        "tex": "&\\approx 3450.37"
+       },
+       {
+        "tex": "&\\approx 3450"
+       }
+      ]
+     },
+     {
+      "title": "Find D(4)",
+      "lines": [
+       {
+        "tex": "D(4) &= 2100 \\times 1.18^4"
+       },
+       {
+        "tex": "&\\approx 4071.43"
+       },
+       {
+        "tex": "&\\approx 4071"
+       }
+      ]
+     },
+     {
+      "title": "Find D(5)",
+      "lines": [
+       {
+        "tex": "D(5) &= 2100 \\times 1.18^5"
+       },
+       {
+        "tex": "&\\approx 4804.29"
+       },
+       {
+        "tex": "&\\approx 4804"
+       }
+      ]
+     },
+     {
+      "title": "Use the value given for D(6)",
+      "lines": [
+       {
+        "text": "The table already gives $D(6) = 5669$."
+       }
+      ]
+     },
+     {
+      "title": "Complete the table",
+      "lines": [
+       {
+        "text": "$t$: 0, 1, 2, 3, 4, 5, 6"
+       },
+       {
+        "text": "$D(t)$: 2100, 2478, 2924, 3450, 4071, 4804, 5669"
+       }
+      ]
+     },
+     {
+      "title": "Plot the points and draw the curve",
+      "lines": [
+       {
+        "text": "Plot each point $(t, D(t))$ on the grid."
+       },
+       {
+        "text": "Join the points with a smooth curve that rises more steeply as $t$ increases."
+       }
+      ]
+     }
+    ],
+    "final": "D(t) = 2100, 2478, 2924, 3450, 4071, 4804, 5669 \\text{ for } t = 0, \\ldots, 6"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q3#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Plot the points from the table",
+      "lines": [
+       {
+        "text": "Plot $(0, 2),\\ (0.5, 1.21),\\ (1, 0.74),\\ (\\ln 4, 0.5)$ for $f(x)$."
+       },
+       {
+        "text": "Plot $(0, 0),\\ (0.5, 0.65),\\ (1, 1.72),\\ (\\ln 4, 3)$ for $g(x)$. Note $\\ln 4 \\approx 1.39$."
+       }
+      ]
+     },
+     {
+      "title": "Join each set with a smooth curve and label",
+      "lines": [
+       {
+        "text": "Both are curves, not straight lines: $f$ falls from 2 and $g$ rises from 0. Label them $f(x)$ and $g(x)$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Smooth curves for } f(x) \\text{ and } g(x) \\text{ drawn on the grid}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-graph-linear",
+   "title": "Graph a linear function",
+   "level": "OL",
+   "input": "ax + b, domain",
+   "output": "straight-line graph"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-ordinary-p1-q8#(a)(iii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Draw the 30 minute stop at B",
+      "lines": [
+       {
+        "text": "B is at $(09{:}00,\\ 32)$. Stopping for 30 minutes keeps the distance at $32$ km until $09{:}30$."
+       },
+       {
+        "text": "Draw a horizontal line from $(09{:}00,\\ 32)$ to $(09{:}30,\\ 32)$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the journey home",
+      "lines": [
+       {
+        "text": "He leaves at $09{:}30$ and takes 1 hour, so he arrives home at $10{:}30$ with distance $0$."
+       },
+       {
+        "text": "Draw a straight line from $(09{:}30,\\ 32)$ to $(10{:}30,\\ 0)$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Horizontal line to } (09{:}30,\\ 32), \\text{ then a line to } (10{:}30,\\ 0)"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q7#(c)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Stays at the same level for 2 minutes",
+      "lines": [
+       {
+        "text": "From $x = 6$ to $x = 8$ the heart-rate stays at 169, so draw a horizontal line to $(8, 169)$."
+       }
+      ]
+     },
+     {
+      "title": "Decreases by 10 BPM each minute for 2 minutes",
+      "lines": [
+       {
+        "tex": "\\text{Drop} &= 10 \\times 2"
+       },
+       {
+        "tex": "&= 20"
+       },
+       {
+        "tex": "\\text{Heart-rate at } x = 10 &= 169 - 20"
+       },
+       {
+        "tex": "&= 149"
+       }
+      ]
+     },
+     {
+      "title": "Draw the second line",
+      "lines": [
+       {
+        "text": "Draw a straight line from $(8, 169)$ down to $(10, 149)$."
+       }
+      ]
+     }
+    ],
+    "final": "(6,169) \\to (8,169) \\to (10,149)"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q1#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the end points of the slope 2 segment",
+      "lines": [
+       {
+        "text": "Slope 2 means the line is $y - 2 = 2(x - 4)$. The range $-2 \\le y \\le 6$ fixes where the segment stops."
+       },
+       {
+        "tex": "y - 2 &= 2(x - 4)"
+       },
+       {
+        "tex": "y &= 2x - 6"
+       },
+       {
+        "text": "When $y = -2$: $-2 = 2x - 6$, so $x = 2$. When $y = 6$: $6 = 2x - 6$, so $x = 6$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the slope 2 segment",
+      "lines": [
+       {
+        "text": "Plot $(2, -2)$ and $(6, 6)$, then join them with a straight line through $(4, 2)$. It also passes through $(3, 0)$ and $(5, 4)$."
+       }
+      ]
+     },
+     {
+      "title": "Find the end points of the slope $-\\tfrac{2}{3}$ segment",
+      "lines": [
+       {
+        "text": "The line is $y - 2 = -\\tfrac{2}{3}(x - 4)$. The domain $-1 \\le x \\le 7$ fixes where the segment stops."
+       },
+       {
+        "tex": "y - 2 &= -\\frac{2}{3}(x - 4)"
+       },
+       {
+        "tex": "y &= -\\frac{2}{3}x + \\frac{14}{3}"
+       },
+       {
+        "text": "When $x = 7$: $y = 0$. When $x = -1$: $y = \\tfrac{16}{3} \\approx 5.33$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the slope $-\\tfrac{2}{3}$ segment",
+      "lines": [
+       {
+        "text": "From $(4, 2)$ go 3 right and 2 down to reach $(7, 0)$. Extend the line left to $x = -1$ (about $y = 5.33$)."
+       }
+      ]
+     }
+    ],
+    "final": "y = 2x - 6 \\text{ and } y = -\\tfrac{2}{3}x + \\tfrac{14}{3}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Plot the points from the table",
+      "lines": [
+       {
+        "text": "Plot $(1, 4)$, $(2, 8)$, $(3, 12)$, $(4, 16)$, $(5, 20)$ and $(6, 24)$."
+       }
+      ]
+     },
+     {
+      "title": "Join the points",
+      "lines": [
+       {
+        "text": "The points lie on a straight line through the origin, so draw the line from $(0, 0)$ to $(6, 24)$."
+       }
+      ]
+     }
+    ],
+    "final": "Straight line from (0, 0) to (6, 24)"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(d)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find two points on p(x) = 1.5x",
+      "lines": [
+       {
+        "text": "A straight line through the origin needs one more point; use $x = 40$ and $x = 70$."
+       },
+       {
+        "tex": "p(0) &= 1.5(0)"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "tex": "p(40) &= 1.5 \\times 40"
+       },
+       {
+        "tex": "&= 60"
+       },
+       {
+        "tex": "p(70) &= 1.5 \\times 70"
+       },
+       {
+        "tex": "&= 105"
+       }
+      ]
+     },
+     {
+      "title": "Draw the line",
+      "lines": [
+       {
+        "text": "Plot $(0, 0)$, $(40, 60)$ and $(70, 105)$ and join them with a straight line."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{line through } (0,0),\\ (40,60),\\ (70,105)"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q2#(a)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find two points on the line",
+      "lines": [
+       {
+        "text": "$g(x)=4x+1$ is a straight line, so two points are enough."
+       },
+       {
+        "tex": "g(0) &= 4(0) + 1 = 1"
+       },
+       {
+        "tex": "g(2) &= 4(2) + 1 = 9"
+       }
+      ]
+     },
+     {
+      "title": "Plot and join the points",
+      "lines": [
+       {
+        "text": "Plot $(0,1)$ and $(2,9)$ and draw a straight line through them, extending it across the grid."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Line through } (0,1) \\text{ and } (2,9)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1330 @@
+[
+ {
+  "skill": {
+   "id": "ind-hidden-quadratic",
+   "title": "Solve an exponential equation reducible to a quadratic",
+   "level": "HL",
+   "input": "a^(2x) + b·aˣ + c = 0",
+   "output": "x"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q3#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set f(x) equal to g(x) and clear the fraction",
+      "lines": [
+       {
+        "tex": "e^x - 1 &= \\frac{2}{e^x}"
+       },
+       {
+        "tex": "e^x(e^x - 1) &= 2"
+       },
+       {
+        "tex": "e^{2x} - e^x &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Treat it as a quadratic in e^x",
+      "lines": [
+       {
+        "text": "Let $y = e^x$, so $e^{2x} = y^2$."
+       },
+       {
+        "tex": "y^2 - y &= 2"
+       },
+       {
+        "tex": "y^2 - y - 2 &= 0"
+       },
+       {
+        "tex": "(y - 2)(y + 1) &= 0"
+       },
+       {
+        "tex": "y = 2 \\quad &\\text{or} \\quad y = -1"
+       }
+      ]
+     },
+     {
+      "title": "Reject the impossible value and solve for x",
+      "lines": [
+       {
+        "text": "$e^x$ is always positive, so $e^x = -1$ has no solution."
+       },
+       {
+        "tex": "e^x &= 2"
+       },
+       {
+        "tex": "x &= \\ln 2"
+       },
+       {
+        "tex": "x &\\approx 0.693"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\ln 2 \\approx 0.693"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q3#(b)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the equation in the form of part (i)",
+      "lines": [
+       {
+        "tex": "3^{2m+1} &= 35 - 8(3^m)"
+       },
+       {
+        "tex": "3 \\cdot 3^{2m} &= 35 - 8(3^m)"
+       },
+       {
+        "tex": "3(3^m)^2 &= 35 - 8(3^m)"
+       },
+       {
+        "tex": "3(3^m)^2 + 8(3^m) - 35 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Compare with part (i) using x = 3^m",
+      "lines": [
+       {
+        "text": "This is $3x^2 + 8x - 35 = 0$ with $x = 3^m$, so $3^m = \\frac{7}{3}$ or $3^m = -5$."
+       },
+       {
+        "text": "$3^m > 0$ for every real $m$, so $3^m = -5$ is rejected."
+       },
+       {
+        "tex": "3^m &= \\frac{7}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Take log base 3 of both sides",
+      "lines": [
+       {
+        "tex": "\\log_3 3^m &= \\log_3\\left(\\frac{7}{3}\\right)"
+       },
+       {
+        "tex": "m &= \\log_3\\left(\\frac{7}{3}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Split the log into the form log_3 p - q",
+      "lines": [
+       {
+        "tex": "m &= \\log_3 7 - \\log_3 3"
+       },
+       {
+        "tex": "&= \\log_3 7 - 1"
+       }
+      ]
+     }
+    ],
+    "final": "m = \\log_3 7 - 1"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q4#(b)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise the quadratic in y",
+      "lines": [
+       {
+        "tex": "5y^2 - 26y + 5 &= 0"
+       },
+       {
+        "tex": "(y - 5)(5y - 1) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Set each factor equal to zero",
+      "lines": [
+       {
+        "tex": "y - 5 &= 0 \\quad \\text{or} \\quad 5y - 1 = 0"
+       },
+       {
+        "tex": "y &= 5 \\quad \\text{or} \\quad y = \\frac{1}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Replace y with e^k",
+      "lines": [
+       {
+        "tex": "e^k &= 5 \\quad \\text{or} \\quad e^k = \\frac{1}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs to solve for k",
+      "lines": [
+       {
+        "tex": "k &= \\ln 5 \\quad \\text{or} \\quad k = \\ln \\frac{1}{5}"
+       },
+       {
+        "text": "Write $\\frac{1}{5} = 5^{-1}$ and use $\\ln(a^b) = b\\ln a$."
+       },
+       {
+        "tex": "k &= \\ln 5 \\quad \\text{or} \\quad k = -\\ln 5"
+       }
+      ]
+     }
+    ],
+    "final": "k = \\ln 5 \\ \\text{or} \\ k = -\\ln 5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ind-solve-equation",
+   "title": "Solve an exponential equation with a common base",
+   "level": "OL",
+   "input": "aᶠ⁽ˣ⁾ = aᵍ⁽ˣ⁾",
+   "output": "x"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write both sides as powers of 2",
+      "lines": [
+       {
+        "text": "$64 = 2 \\times 2 \\times 2 \\times 2 \\times 2 \\times 2$."
+       },
+       {
+        "tex": "2^{2x-1} &= 64"
+       },
+       {
+        "tex": "2^{2x-1} &= 2^6"
+       }
+      ]
+     },
+     {
+      "title": "Equate the powers",
+      "lines": [
+       {
+        "text": "The bases are equal, so the indices are equal."
+       },
+       {
+        "tex": "2x - 1 &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "2x &= 7"
+       },
+       {
+        "tex": "x &= \\frac{7}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{7}{2}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write both sides as powers of 2",
+      "lines": [
+       {
+        "text": "$8 = 2^3$, so $8^{2x} = (2^3)^{2x}$."
+       },
+       {
+        "tex": "2^{9x-1} &= 8^{2x}"
+       },
+       {
+        "tex": "2^{9x-1} &= (2^3)^{2x}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the indices on the right",
+      "lines": [
+       {
+        "text": "Use $(a^m)^n = a^{mn}$."
+       },
+       {
+        "tex": "2^{9x-1} &= 2^{6x}"
+       }
+      ]
+     },
+     {
+      "title": "Equate the indices",
+      "lines": [
+       {
+        "text": "The bases are equal, so the powers must be equal."
+       },
+       {
+        "tex": "9x - 1 &= 6x"
+       },
+       {
+        "tex": "9x - 6x &= 1"
+       },
+       {
+        "tex": "3x &= 1"
+       },
+       {
+        "tex": "x &= \\frac{1}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{1}{3}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q4#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write 128 as a power of 2 (part (i))",
+      "lines": [
+       {
+        "text": "Keep multiplying by 2 until you reach 128."
+       },
+       {
+        "tex": "2^1 &= 2"
+       },
+       {
+        "tex": "2^2 &= 4"
+       },
+       {
+        "tex": "2^3 &= 8"
+       },
+       {
+        "tex": "2^4 &= 16"
+       },
+       {
+        "tex": "2^5 &= 32"
+       },
+       {
+        "tex": "2^6 &= 64"
+       },
+       {
+        "tex": "2^7 &= 128"
+       },
+       {
+        "text": "So $128 = 2^7$, and $k = 7$."
+       }
+      ]
+     },
+     {
+      "title": "Write both sides of the equation with base 2 (part (ii))",
+      "lines": [
+       {
+        "tex": "2^{4x+1} &= 128"
+       },
+       {
+        "tex": "2^{4x+1} &= 2^7"
+       }
+      ]
+     },
+     {
+      "title": "Equate the powers",
+      "lines": [
+       {
+        "text": "The bases are the same, so the powers must be equal."
+       },
+       {
+        "tex": "4x + 1 &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "4x &= 6"
+       },
+       {
+        "tex": "x &= \\frac{6}{4}"
+       },
+       {
+        "tex": "&= 1.5"
+       }
+      ]
+     }
+    ],
+    "final": "128 = 2^7, \\quad x = 1.5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "log-laws",
+   "title": "Apply the laws of logs",
+   "level": "HL",
+   "input": "log expression",
+   "output": "single log or value"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "text": "$\\log_a \\frac{m}{n} = \\log_a m - \\log_a n$."
+       },
+       {
+        "tex": "\\log_a \\frac{8}{3} &= \\log_a 8 - \\log_a 3"
+       }
+      ]
+     },
+     {
+      "title": "Write 8 as a power of 2 and use the power rule",
+      "lines": [
+       {
+        "tex": "\\log_a 8 - \\log_a 3 &= \\log_a 2^3 - \\log_a 3"
+       },
+       {
+        "tex": "&= 3\\log_a 2 - \\log_a 3"
+       }
+      ]
+     },
+     {
+      "title": "Replace log_a 2 by p and log_a 3 by q",
+      "lines": [
+       {
+        "tex": "&= 3p - q"
+       }
+      ]
+     }
+    ],
+    "final": "3p - q"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Take log base 5 of both sides",
+      "lines": [
+       {
+        "tex": "\\log_5 y &= \\log_5 (5x^2)"
+       }
+      ]
+     },
+     {
+      "title": "Split the product into two logs",
+      "lines": [
+       {
+        "text": "Use $\\log (AB) = \\log A + \\log B$."
+       },
+       {
+        "tex": "\\log_5 y &= \\log_5 5 + \\log_5 x^2"
+       }
+      ]
+     },
+     {
+      "title": "Simplify each log",
+      "lines": [
+       {
+        "text": "$\\log_5 5 = 1$ and $\\log_5 x^2 = 2\\log_5 x$."
+       },
+       {
+        "tex": "\\log_5 y &= 1 + 2\\log_5 x"
+       },
+       {
+        "text": "Comparing with $\\log_5 y = a + b\\log_5 x$ gives $a=1$ and $b=2$."
+       }
+      ]
+     }
+    ],
+    "final": "a = 1, \\quad b = 2"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(e)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the values",
+      "lines": [
+       {
+        "text": "$A = 80$ (the first exam) and $B = 47$ (the exam after two years)."
+       },
+       {
+        "text": "$t$ is in months: $2 \\text{ years} = 24 \\text{ months}$, so $t + 1 = 25$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula from (i)",
+      "lines": [
+       {
+        "tex": "c &= \\frac{\\log_{10} 80 - \\log_{10} 47}{\\log_{10}(24+1)}"
+       },
+       {
+        "tex": "&= \\frac{\\log_{10} 80 - \\log_{10} 47}{\\log_{10} 25}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round to 3 decimal places",
+      "lines": [
+       {
+        "tex": "&= 0.1652\\ldots"
+       },
+       {
+        "tex": "&\\approx 0.165"
+       }
+      ]
+     }
+    ],
+    "final": "c = 0.165"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(e)(i)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Take log base 10 of both sides",
+      "lines": [
+       {
+        "tex": "A &= B(t+1)^c"
+       },
+       {
+        "tex": "\\log_{10} A &= \\log_{10}\\left[B(t+1)^c\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Split the product into a sum",
+      "lines": [
+       {
+        "text": "$\\log(xy) = \\log x + \\log y$."
+       },
+       {
+        "tex": "\\log_{10} A &= \\log_{10} B + \\log_{10}(t+1)^c"
+       }
+      ]
+     },
+     {
+      "title": "Bring the power down",
+      "lines": [
+       {
+        "text": "$\\log(x^n) = n\\log x$."
+       },
+       {
+        "tex": "\\log_{10} A &= \\log_{10} B + c\\log_{10}(t+1)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "\\log_{10} A - \\log_{10} B &= c\\log_{10}(t+1)"
+       },
+       {
+        "tex": "c &= \\frac{\\log_{10} A - \\log_{10} B}{\\log_{10}(t+1)}"
+       }
+      ]
+     }
+    ],
+    "final": "c = \\frac{\\log_{10} A - \\log_{10} B}{\\log_{10}(t+1)}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q5#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Bring down the power of 5",
+      "lines": [
+       {
+        "text": "Law of logs: $\\ln A^n = n\\ln A$."
+       },
+       {
+        "tex": "\\ln\\left[(e^3 p)^5\\right] &= 5\\ln(e^3 p)"
+       }
+      ]
+     },
+     {
+      "title": "Split the product into two logs",
+      "lines": [
+       {
+        "text": "Law of logs: $\\ln(AB) = \\ln A + \\ln B$."
+       },
+       {
+        "tex": "5\\ln(e^3 p) &= 5\\left(\\ln e^3 + \\ln p\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify ln of e cubed",
+      "lines": [
+       {
+        "text": "$\\ln e^3 = 3\\ln e = 3$."
+       },
+       {
+        "tex": "5\\left(\\ln e^3 + \\ln p\\right) &= 5(3 + \\ln p)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out",
+      "lines": [
+       {
+        "tex": "5(3 + \\ln p) &= 15 + 5\\ln p"
+       }
+      ]
+     }
+    ],
+    "final": "15 + 5\\ln p"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q4#(b)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split the fraction using the quotient rule",
+      "lines": [
+       {
+        "tex": "\\log_a \\frac{9a^2}{16} &= \\log_a 9a^2 - \\log_a 16"
+       }
+      ]
+     },
+     {
+      "title": "Write 9a^2 and 16 as powers",
+      "lines": [
+       {
+        "text": "$9a^2 = (3a)^2$ and $16 = 2^4$."
+       },
+       {
+        "tex": "\\log_a 9a^2 - \\log_a 16 &= \\log_a (3a)^2 - \\log_a 2^4"
+       }
+      ]
+     },
+     {
+      "title": "Use the power rule",
+      "lines": [
+       {
+        "tex": "&= 2\\log_a 3a - 4\\log_a 2"
+       }
+      ]
+     },
+     {
+      "title": "Split 3a using the product rule",
+      "lines": [
+       {
+        "tex": "&= 2\\log_a 3 + 2\\log_a a - 4\\log_a 2"
+       }
+      ]
+     },
+     {
+      "title": "Replace with p and q",
+      "lines": [
+       {
+        "text": "$\\log_a a = 1$, $\\log_a 3 = q$ and $\\log_a 2 = p$."
+       },
+       {
+        "tex": "&= 2q + 2(1) - 4p"
+       },
+       {
+        "tex": "&= 2q + 2 - 4p"
+       }
+      ]
+     }
+    ],
+    "final": "2q + 2 - 4p"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "log-solve",
+   "title": "Solve a log equation",
+   "level": "HL",
+   "input": "equation in logs",
+   "output": "x (reject invalid arguments)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(a)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Substitute x = 35 and t = 35.96",
+      "lines": [
+       {
+        "text": "$t(x) = k\\ln\\left(1-\\frac{x}{80}\\right)$ is the function in terms of $k$. Jack learns 35 wpm in 35.96 days."
+       },
+       {
+        "tex": "35.96 &= k\\ln\\left(1-\\frac{35}{80}\\right)"
+       },
+       {
+        "tex": "35.96 &= k\\ln\\left(\\frac{45}{80}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by the logarithm",
+      "lines": [
+       {
+        "tex": "k &= \\frac{35.96}{\\ln\\left(\\frac{45}{80}\\right)}"
+       },
+       {
+        "tex": "k &= -62.5"
+       },
+       {
+        "text": "This is $-62.5$ correct to 1 decimal place."
+       }
+      ]
+     }
+    ],
+    "final": "k = -62.5"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q6#(b)(ii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the equation",
+      "lines": [
+       {
+        "tex": "\\ln\\sqrt{x} &= 3.5"
+       }
+      ]
+     },
+     {
+      "title": "Remove the logarithm",
+      "lines": [
+       {
+        "text": "$\\ln A = k$ means $A = e^k$."
+       },
+       {
+        "tex": "\\sqrt{x} &= e^{3.5}"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "x &= \\left(e^{3.5}\\right)^2"
+       },
+       {
+        "tex": "x &= e^{7}"
+       }
+      ]
+     }
+    ],
+    "final": "x = e^{7}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q7#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 100",
+      "lines": [
+       {
+        "tex": "100 &= -62.5\\ln\\left(1-\\frac{x}{80}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Divide by −62.5",
+      "lines": [
+       {
+        "tex": "\\frac{100}{-62.5} &= \\ln\\left(1-\\frac{x}{80}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Remove the ln by raising e to both sides",
+      "lines": [
+       {
+        "tex": "e^{\\frac{100}{-62.5}} &= 1-\\frac{x}{80}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "\\frac{x}{80} &= 1-e^{-1.6}"
+       },
+       {
+        "tex": "x &= 80\\left(1-e^{-1.6}\\right)"
+       },
+       {
+        "tex": "x &\\approx 64"
+       }
+      ]
+     }
+    ],
+    "final": "x \\approx 64 \\text{ wpm}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q3#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Group the terms as in part (a)",
+      "lines": [
+       {
+        "tex": "g(x) &= 3x\\ln x - 9x + 4\\ln x - 12"
+       },
+       {
+        "tex": "&= 3x(\\ln x - 3) + 4(\\ln x - 3)"
+       }
+      ]
+     },
+     {
+      "title": "Take out the common bracket",
+      "lines": [
+       {
+        "tex": "&= (3x+4)(\\ln x - 3)"
+       }
+      ]
+     },
+     {
+      "title": "Set each factor equal to zero",
+      "lines": [
+       {
+        "text": "A product is zero when one of its factors is zero."
+       },
+       {
+        "tex": "3x + 4 &= 0"
+       },
+       {
+        "tex": "x &= -\\tfrac{4}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Solve the logarithm factor",
+      "lines": [
+       {
+        "tex": "\\ln x - 3 &= 0"
+       },
+       {
+        "tex": "\\ln x &= 3"
+       },
+       {
+        "tex": "x &= e^3"
+       },
+       {
+        "text": "$\\ln x$ only exists for $x>0$, so reject $x=-\\tfrac{4}{3}$."
+       }
+      ]
+     }
+    ],
+    "final": "x = e^3"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q10#(b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set P(t) equal to 0.55",
+      "lines": [
+       {
+        "tex": "0.82 - 0.12\\ln(t+1) &= 0.55"
+       }
+      ]
+     },
+     {
+      "title": "Isolate ln(t + 1)",
+      "lines": [
+       {
+        "text": "Subtract $0.82$ from both sides."
+       },
+       {
+        "tex": "-0.12\\ln(t+1) &= -0.27"
+       },
+       {
+        "text": "Divide both sides by $-0.12$."
+       },
+       {
+        "tex": "\\ln(t+1) &= \\frac{0.27}{0.12}"
+       },
+       {
+        "tex": "\\ln(t+1) &= 2.25"
+       }
+      ]
+     },
+     {
+      "title": "Remove the log by using e",
+      "lines": [
+       {
+        "text": "$\\ln x = y$ means $x = e^{y}$."
+       },
+       {
+        "tex": "t+1 &= e^{2.25}"
+       },
+       {
+        "tex": "t &= e^{2.25} - 1"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round",
+      "lines": [
+       {
+        "tex": "t &= 8.487\\ldots"
+       },
+       {
+        "tex": "t &\\approx 8.49 \\text{ hours}"
+       }
+      ]
+     }
+    ],
+    "final": "t = 8.49\\text{ hours}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q3#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace log₅ y using part (i)",
+      "lines": [
+       {
+        "text": "From part (i), $\\log_5 y = \\log_5 (5x^2)$."
+       },
+       {
+        "tex": "\\log_5 (5x^2) &= 2 + \\log_5\\left(\\frac{126}{25}x - 1\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Write 2 as a log and combine",
+      "lines": [
+       {
+        "text": "$2 = \\log_5 25$, and $\\log A + \\log B = \\log AB$."
+       },
+       {
+        "tex": "\\log_5 (5x^2) &= \\log_5 25 + \\log_5\\left(\\frac{126}{25}x - 1\\right)"
+       },
+       {
+        "tex": "\\log_5 (5x^2) &= \\log_5\\left[25\\left(\\frac{126}{25}x - 1\\right)\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Equate the arguments and form a quadratic",
+      "lines": [
+       {
+        "tex": "5x^2 &= 25\\left(\\frac{126}{25}x - 1\\right)"
+       },
+       {
+        "tex": "5x^2 &= 126x - 25"
+       },
+       {
+        "tex": "5x^2 - 126x + 25 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve for x",
+      "lines": [
+       {
+        "tex": "(5x - 1)(x - 25) &= 0"
+       },
+       {
+        "tex": "x &= \\frac{1}{5} \\text{ or } x = 25"
+       },
+       {
+        "text": "Both values keep $\\frac{126}{25}x - 1$ positive, so both are valid."
+       }
+      ]
+     },
+     {
+      "title": "Find y using y = 5x²",
+      "lines": [
+       {
+        "tex": "x = \\frac{1}{5}: \\quad y &= 5\\left(\\frac{1}{5}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{5}{25}"
+       },
+       {
+        "tex": "&= \\frac{1}{5}"
+       },
+       {
+        "tex": "x = 25: \\quad y &= 5(25)^2"
+       },
+       {
+        "tex": "&= 5 \\times 625"
+       },
+       {
+        "tex": "&= 3125"
+       }
+      ]
+     }
+    ],
+    "final": "y = \\frac{1}{5} \\text{ or } y = 3125"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "log-solve-exponential",
+   "title": "Solve aˣ = b by taking logs",
+   "level": "HL",
+   "input": "aˣ = b",
+   "output": "x"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute y = 1295 into the javelin formula",
+      "lines": [
+       {
+        "tex": "1295 &= 15.9803(x - 3.8)^{1.04}"
+       },
+       {
+        "tex": "\\frac{1295}{15.9803} &= (x - 3.8)^{1.04}"
+       },
+       {
+        "tex": "81.0373 &= (x - 3.8)^{1.04}"
+       }
+      ]
+     },
+     {
+      "title": "Let z = x − 3.8 and take logs of both sides",
+      "lines": [
+       {
+        "tex": "z^{1.04} &= 81.0373"
+       },
+       {
+        "tex": "1.04\\log z &= \\log 81.0373"
+       },
+       {
+        "tex": "\\log z &= \\frac{\\log 81.0373}{1.04}"
+       },
+       {
+        "tex": "z &= 68.4343"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "x - 3.8 &= 68.4343"
+       },
+       {
+        "tex": "x &= 72.2343"
+       },
+       {
+        "tex": "x &= 72.23"
+       }
+      ]
+     }
+    ],
+    "final": "72.23 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q8#(b)(iii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the time in seconds",
+      "lines": [
+       {
+        "tex": "2\\text{ min } 1.84\\text{ s} &= 2(60) + 1.84"
+       },
+       {
+        "tex": "&= 121.84\\text{ s}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into y = a(b − x)^c",
+      "lines": [
+       {
+        "tex": "1087 &= 0.11193(254 - 121.84)^c"
+       },
+       {
+        "tex": "1087 &= 0.11193(132.16)^c"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the power and take logs",
+      "lines": [
+       {
+        "tex": "\\frac{1087}{0.11193} &= (132.16)^c"
+       },
+       {
+        "tex": "9711.426 &= (132.16)^c"
+       },
+       {
+        "tex": "\\log 9711.426 &= c\\log 132.16"
+       },
+       {
+        "tex": "c &= \\frac{\\log 9711.426}{\\log 132.16}"
+       },
+       {
+        "tex": "c &= 1.88"
+       }
+      ]
+     }
+    ],
+    "final": "c = 1.88"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(d)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write an equation in k using t = 1",
+      "lines": [
+       {
+        "text": "The beginning of 2011 is $t = 1$."
+       },
+       {
+        "tex": "q(1) &= 3.9 e^{k(1)} \\times 10^6"
+       },
+       {
+        "tex": "3.9 e^{k} \\times 10^6 &= 3\\,709\\,795"
+       }
+      ]
+     },
+     {
+      "title": "Isolate e^k",
+      "lines": [
+       {
+        "tex": "3.9 e^{k} &= 3.709795"
+       },
+       {
+        "tex": "e^{k} &= \\frac{3.709795}{3.9}"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs to solve for k",
+      "lines": [
+       {
+        "tex": "k &= \\ln\\left(\\frac{3.709795}{3.9}\\right)"
+       },
+       {
+        "tex": "k &\\approx -0.0499999"
+       },
+       {
+        "tex": "k &\\approx -0.05 \\text{ (2 decimal places)}"
+       }
+      ]
+     }
+    ],
+    "final": "k = -0.05"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q7#(e)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set p(t) equal to q(t)",
+      "lines": [
+       {
+        "tex": "1.1 e^{0.1t} \\times 10^6 &= 3.9 e^{-0.05t} \\times 10^6"
+       },
+       {
+        "tex": "1.1 e^{0.1t} &= 3.9 e^{-0.05t}"
+       }
+      ]
+     },
+     {
+      "title": "Collect the powers of e on one side",
+      "lines": [
+       {
+        "tex": "\\frac{e^{0.1t}}{e^{-0.05t}} &= \\frac{3.9}{1.1}"
+       },
+       {
+        "text": "Divide powers of the same base by subtracting the indices."
+       },
+       {
+        "tex": "e^{0.1t - (-0.05t)} &= \\frac{3.9}{1.1}"
+       },
+       {
+        "tex": "e^{0.15t} &= \\frac{3.9}{1.1}"
+       },
+       {
+        "tex": "e^{0.15t} &= \\frac{39}{11}"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs and solve for t",
+      "lines": [
+       {
+        "tex": "0.15t &= \\ln\\frac{39}{11}"
+       },
+       {
+        "tex": "t &= \\frac{\\ln\\frac{39}{11}}{0.15}"
+       },
+       {
+        "tex": "t &\\approx 8.44 \\text{ years}"
+       },
+       {
+        "text": "$t = 8.44$ lies between $t = 8$ (start of 2018) and $t = 9$ (start of 2019), so it is during 2018."
+       }
+      ]
+     }
+    ],
+    "final": "2018"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q1#(d)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the inequality",
+      "lines": [
+       {
+        "tex": "1-\\left(\\frac45\\right)^n &> 0.99"
+       },
+       {
+        "tex": "\\left(\\frac45\\right)^n &< 0.01"
+       }
+      ]
+     },
+     {
+      "title": "Take logs of both sides",
+      "lines": [
+       {
+        "tex": "n\\ln\\left(\\frac45\\right) &< \\ln(0.01)"
+       },
+       {
+        "text": "$\\ln\\left(\\frac45\\right)$ is negative, so dividing by it reverses the inequality."
+       },
+       {
+        "tex": "n &> \\frac{\\ln(0.01)}{\\ln(0.8)}"
+       },
+       {
+        "tex": "n &> 20.64"
+       }
+      ]
+     },
+     {
+      "title": "Check the nearest whole numbers",
+      "lines": [
+       {
+        "tex": "\\left(\\frac45\\right)^{20} &= 0.0115 > 0.01"
+       },
+       {
+        "tex": "\\left(\\frac45\\right)^{21} &= 0.0092 < 0.01"
+       },
+       {
+        "text": "The smallest whole $n$ that works is 21."
+       }
+      ]
+     }
+    ],
+    "final": "n = 21"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q9#(a)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set N(t) = 790",
+      "lines": [
+       {
+        "tex": "450e^{0.065t} &= 790"
+       },
+       {
+        "tex": "e^{0.065t} &= \\frac{790}{450}"
+       },
+       {
+        "tex": "e^{0.065t} &= \\frac{79}{45}"
+       }
+      ]
+     },
+     {
+      "title": "Take the natural log of both sides",
+      "lines": [
+       {
+        "tex": "0.065t &= \\ln\\left(\\frac{79}{45}\\right)"
+       },
+       {
+        "text": "$\\ln e^{x} = x$."
+       }
+      ]
+     },
+     {
+      "title": "Divide by 0.065",
+      "lines": [
+       {
+        "tex": "t &= \\frac{\\ln(79/45)}{0.065}"
+       },
+       {
+        "tex": "&\\approx 8.659"
+       },
+       {
+        "tex": "&\\approx 8.7"
+       }
+      ]
+     }
+    ],
+    "final": "t = 8.7 \\text{ hours}"
+   }
+  ]
+ }
+]

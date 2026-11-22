@@ -1,0 +1,1277 @@
+[
+ {
+  "skill": {
+   "id": "stat-normal-inverse",
+   "title": "Work backwards from a normal probability",
+   "level": "HL",
+   "input": "probability + some of μ, σ, x",
+   "output": "z from tables → missing x, μ or σ"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p2-q9#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the z-value for the lowest 10%",
+      "lines": [
+       {
+        "text": "The tables give $P(z \\le 1.28) = 0.9$. By symmetry the value with $10\\%$ below it is $z = -1.28$."
+       }
+      ]
+     },
+     {
+      "title": "Convert back to an income",
+      "lines": [
+       {
+        "tex": "\\frac{x - 39400}{12920} &= -1.28"
+       },
+       {
+        "tex": "x - 39400 &= -1.28(12920)"
+       },
+       {
+        "tex": "x - 39400 &= -16537.6"
+       },
+       {
+        "tex": "x &= 39400 - 16537.6"
+       },
+       {
+        "tex": "x &= 22862.4"
+       },
+       {
+        "tex": "x &\\approx \\text{€}22\\,862"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}22\\,862"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the $z$-value for the top 1.5%",
+      "lines": [
+       {
+        "text": "If $1.5\\%$ are heavier, then $98.5\\%$ are lighter, so $P(z < Z) = 0.985$. From the tables, $Z = 2.17$."
+       },
+       {
+        "tex": "P(z < Z) &= 1 - 0.015"
+       },
+       {
+        "tex": "&= 0.985"
+       }
+      ]
+     },
+     {
+      "title": "Use the $z$-score formula and solve for the weight",
+      "lines": [
+       {
+        "tex": "\\frac{x - 63.5}{10} &= 2.17"
+       },
+       {
+        "tex": "x - 63.5 &= 21.7"
+       },
+       {
+        "tex": "x &= 85.2 \\text{ kg}"
+       }
+      ]
+     }
+    ],
+    "final": "x = 85.2 \\text{ kg}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q2#(a)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the shaded area as a probability",
+      "lines": [
+       {
+        "text": "The shaded area is everything to the left of $z_1$."
+       },
+       {
+        "tex": "P(z < z_1) &= 0.67"
+       }
+      ]
+     },
+     {
+      "title": "Look up 0.67 in the normal tables",
+      "lines": [
+       {
+        "text": "In the body of the table, $0.6700$ sits at $z = 0.44$."
+       },
+       {
+        "tex": "z_1 &= 0.44"
+       }
+      ]
+     }
+    ],
+    "final": "z_1 = 0.44"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(a)(iii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the z-score for the driver",
+      "lines": [
+       {
+        "text": "70% of speeds are higher, so 30% are lower: $P(Z < z) = 0.30$. The tables give $0.70$ at $z = 0.52$, so by symmetry $z = -0.52$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the z-score formula",
+      "lines": [
+       {
+        "tex": "-0.52 &= \\frac{x - 87.3}{12}"
+       },
+       {
+        "tex": "x - 87.3 &= -0.52 \\times 12"
+       },
+       {
+        "tex": "x - 87.3 &= -6.24"
+       },
+       {
+        "tex": "x &= 81.06"
+       },
+       {
+        "tex": "&\\approx 81"
+       }
+      ]
+     }
+    ],
+    "final": "81 \\text{ km/h}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q10#(a)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the z-score for the fastest 20%",
+      "lines": [
+       {
+        "text": "The fastest 20% have $P(z<-z_0)=0.2$, so by symmetry $P(z<z_0)=0.8$. The tables give $z_0=0.84$."
+       },
+       {
+        "text": "The time is below the mean, so $z=-0.84$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the z-score formula and solve for x",
+      "lines": [
+       {
+        "tex": "\\frac{x-225}{12} &= -0.84"
+       },
+       {
+        "tex": "x - 225 &= -0.84(12)"
+       },
+       {
+        "tex": "x - 225 &= -10.08"
+       },
+       {
+        "tex": "x &= 225 - 10.08"
+       },
+       {
+        "tex": "&= 214.92"
+       },
+       {
+        "tex": "&\\approx 215\\ \\text{seconds}"
+       }
+      ]
+     }
+    ],
+    "final": "215\\ \\text{seconds (214 also accepted)}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q2#(b)(ii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the z-score for the top 15%",
+      "lines": [
+       {
+        "tex": "P(z > z_1) &= 0.15"
+       },
+       {
+        "tex": "P(z < z_1) &= 1 - 0.15 = 0.85"
+       },
+       {
+        "text": "From the tables, $0.85$ gives $z = 1.04$ (the nearest entry is $0.8508$)."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the z-score formula",
+      "lines": [
+       {
+        "text": "English has mean 72 and standard deviation 10."
+       },
+       {
+        "tex": "1.04 &= \\frac{x - 72}{10}"
+       },
+       {
+        "tex": "10.4 &= x - 72"
+       },
+       {
+        "tex": "x &= 82.4"
+       }
+      ]
+     },
+     {
+      "title": "Round up to a whole mark",
+      "lines": [
+       {
+        "text": "82 is below 82.4, so it is not enough for an A. The least whole number mark is 83."
+       },
+       {
+        "tex": "x &= 83"
+       }
+      ]
+     }
+    ],
+    "final": "83"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-normal-prob",
+   "title": "Read probabilities from normal tables",
+   "level": "HL",
+   "input": "normal X, interval",
+   "output": "probability via z and tables (symmetry, 1 − P)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Say what the z-scores mean",
+      "lines": [
+       {
+        "text": "In the standard normal distribution, $P(-1.96 \\le Z \\le 1.96) = 0.95$."
+       },
+       {
+        "text": "So 95% of the data lies within 1.96 standard deviations of the mean. These are the cut-offs used for a 95% confidence interval and a 5% two-tailed test."
+       }
+      ]
+     }
+    ],
+    "final": "95\\%\\text{ of values lie between } z=-1.96 \\text{ and } z=1.96"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q9#(a)(i)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Standardise the income €60 000",
+      "lines": [
+       {
+        "text": "Here $\\mu = \\text{€}39\\,400$ and $\\sigma = \\text{€}12\\,920$. Use $z = \\dfrac{x - \\mu}{\\sigma}$."
+       },
+       {
+        "tex": "z &= \\frac{60000 - 39400}{12920}"
+       },
+       {
+        "tex": "&= \\frac{20600}{12920}"
+       },
+       {
+        "tex": "&\\approx 1.59"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability above this z-value",
+      "lines": [
+       {
+        "text": "From the tables, $P(z < 1.59) = 0.9441$."
+       },
+       {
+        "tex": "P(z > 1.59) &= 1 - P(z < 1.59)"
+       },
+       {
+        "tex": "&= 1 - 0.9441"
+       },
+       {
+        "tex": "&= 0.0559"
+       },
+       {
+        "tex": "&= 5.59\\%"
+       },
+       {
+        "tex": "&\\approx 5.6\\%"
+       }
+      ]
+     }
+    ],
+    "final": "5.6\\%"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Convert 95 km/h to a z-score",
+      "lines": [
+       {
+        "tex": "z &= \\frac{x - \\mu}{\\sigma}"
+       },
+       {
+        "tex": "&= \\frac{95 - 87.3}{12}"
+       },
+       {
+        "tex": "&= \\frac{7.7}{12}"
+       },
+       {
+        "tex": "&= 0.64167"
+       }
+      ]
+     },
+     {
+      "title": "Use the normal tables",
+      "lines": [
+       {
+        "text": "Round $z$ to $0.64$. From the tables, $P(Z \\le 0.64) = 0.7389$. We want speeds above 95, so subtract from 1."
+       },
+       {
+        "tex": "P(Z > 0.64) &= 1 - P(Z \\le 0.64)"
+       },
+       {
+        "tex": "&= 1 - 0.7389"
+       },
+       {
+        "tex": "&= 0.2611"
+       }
+      ]
+     }
+    ],
+    "final": "0.2611 \\ (26.11\\%)"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert 165 and 210 to z-scores",
+      "lines": [
+       {
+        "tex": "z_1 &= \\frac{165 - 176}{36}"
+       },
+       {
+        "tex": "&= -0.31"
+       },
+       {
+        "tex": "z_2 &= \\frac{210 - 176}{36}"
+       },
+       {
+        "tex": "&= 0.94"
+       }
+      ]
+     },
+     {
+      "title": "Write the probability as a difference",
+      "lines": [
+       {
+        "text": "We need $P(-0.31 < z < 0.94) = P(z < 0.94) - P(z < -0.31)$."
+       },
+       {
+        "text": "From the tables, $P(z < 0.94) = 0.8264$."
+       },
+       {
+        "text": "The tables only give positive $z$, so $P(z < -0.31) = 1 - P(z < 0.31) = 1 - 0.6217$."
+       },
+       {
+        "tex": "P(z < -0.31) &= 1 - 0.6217"
+       },
+       {
+        "tex": "&= 0.3783"
+       }
+      ]
+     },
+     {
+      "title": "Subtract and convert to a percentage",
+      "lines": [
+       {
+        "tex": "P &= 0.8264 - 0.3783"
+       },
+       {
+        "tex": "&= 0.4481"
+       },
+       {
+        "tex": "&= 44.81\\%"
+       }
+      ]
+     }
+    ],
+    "final": "44.81\\%"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q10#(a)(i)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the z-score for 240 seconds",
+      "lines": [
+       {
+        "text": "$z=\\dfrac{x-\\mu}{\\sigma}$ with $x=240$, $\\mu=225$, $\\sigma=12$."
+       },
+       {
+        "tex": "z &= \\frac{240-225}{12}"
+       },
+       {
+        "tex": "&= \\frac{15}{12}"
+       },
+       {
+        "tex": "&= 1.25"
+       }
+      ]
+     },
+     {
+      "title": "Use the tables for the area to the right",
+      "lines": [
+       {
+        "text": "The tables give the area to the left: $P(z<1.25)=0.8944$."
+       },
+       {
+        "tex": "P(z>1.25) &= 1 - P(z<1.25)"
+       },
+       {
+        "tex": "&= 1 - 0.8944"
+       },
+       {
+        "tex": "&= 0.1056"
+       }
+      ]
+     },
+     {
+      "title": "Write as a percentage",
+      "lines": [
+       {
+        "tex": "0.1056 \\times 100 &= 10.56\\%"
+       }
+      ]
+     }
+    ],
+    "final": "10.56\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-z-score",
+   "title": "Standardise a value",
+   "level": "HL",
+   "input": "x, μ, σ",
+   "output": "z = (x − μ)/σ; relative standing"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(a)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the z-score",
+      "lines": [
+       {
+        "tex": "z &= \\frac{x - \\mu}{\\sigma}"
+       },
+       {
+        "tex": "&= \\frac{3.5 - 3.87}{0.36}"
+       },
+       {
+        "tex": "&= -1.03"
+       }
+      ]
+     },
+     {
+      "title": "Use the normal tables with a positive z-score",
+      "lines": [
+       {
+        "text": "The tables give $P(z < 1.03) = 0.8485$. By symmetry, $P(z < -1.03) = 1 - P(z < 1.03)$."
+       },
+       {
+        "tex": "P(x < 3.5) &= P(z < -1.03)"
+       },
+       {
+        "tex": "&= 1 - P(z < 1.03)"
+       },
+       {
+        "tex": "&= 1 - 0.8485"
+       },
+       {
+        "tex": "&= 0.1515"
+       }
+      ]
+     }
+    ],
+    "final": "0.1515"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q7#(a)(i)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Convert 50 years to a z-score",
+      "lines": [
+       {
+        "text": "Use $z = \\dfrac{x - \\mu}{\\sigma}$ with $\\mu = 48.2$ and $\\sigma = 10.6$."
+       },
+       {
+        "tex": "z &= \\frac{50 - 48.2}{10.6}"
+       },
+       {
+        "tex": "z &= \\frac{1.8}{10.6}"
+       },
+       {
+        "tex": "z &= 0.1698\\ldots \\approx 0.17"
+       }
+      ]
+     },
+     {
+      "title": "Read the probability from the z-table",
+      "lines": [
+       {
+        "text": "Use the normal tables for the area to the left of $z = 0.17$."
+       },
+       {
+        "tex": "P(Z < 0.17) &= 0.5675"
+       }
+      ]
+     }
+    ],
+    "final": "0.5675 \\;(56.75\\%)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q8#(a)(i)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the mean and standard deviation",
+      "lines": [
+       {
+        "tex": "\\mu &= 63.5"
+       },
+       {
+        "tex": "\\sigma &= 10"
+       }
+      ]
+     },
+     {
+      "title": "Convert Mariska's weight to a $z$-score",
+      "lines": [
+       {
+        "tex": "z &= \\frac{x - \\mu}{\\sigma}"
+       },
+       {
+        "tex": "z &= \\frac{50 - 63.5}{10}"
+       },
+       {
+        "tex": "&= \\frac{-13.5}{10}"
+       },
+       {
+        "tex": "&= -1.35"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability of a greater weight",
+      "lines": [
+       {
+        "text": "By symmetry of the normal curve, $P(z > -1.35) = P(z < 1.35)$."
+       },
+       {
+        "tex": "P(z > -1.35) &= P(z < 1.35)"
+       },
+       {
+        "tex": "&= 0.9115"
+       },
+       {
+        "tex": "&= 91.15\\%"
+       }
+      ]
+     }
+    ],
+    "final": "91.15\\%"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q2#(b)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert each mark to a z-score",
+      "lines": [
+       {
+        "text": "Use $z = \\frac{x - \\mu}{\\sigma}$ to compare marks across exams."
+       },
+       {
+        "tex": "z_{\\text{Maths}} &= \\frac{65 - 70}{15}"
+       },
+       {
+        "tex": "&= \\frac{-5}{15}"
+       },
+       {
+        "tex": "&= -\\frac{1}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Do the same for English",
+      "lines": [
+       {
+        "tex": "z_{\\text{English}} &= \\frac{68 - 72}{10}"
+       },
+       {
+        "tex": "&= \\frac{-4}{10}"
+       },
+       {
+        "tex": "&= -\\frac{2}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Compare the z-scores",
+      "lines": [
+       {
+        "text": "A higher z-score means Mary is further above the class average. $-0.33$ is bigger than $-0.4$."
+       },
+       {
+        "tex": "-\\frac{1}{3} &> -\\frac{2}{5}"
+       },
+       {
+        "text": "So Mary did better in Maths, because her z-score there is higher (closer to the mean)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Maths, since } -\\frac{1}{3} > -\\frac{2}{5}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find Eileen's z-score",
+      "lines": [
+       {
+        "tex": "z &= \\frac{x - \\mu}{\\sigma}"
+       },
+       {
+        "tex": "&= \\frac{260 - 280}{90}"
+       },
+       {
+        "tex": "&= \\frac{-20}{90}"
+       },
+       {
+        "tex": "&= -0.222"
+       }
+      ]
+     },
+     {
+      "title": "Find the z-score of the 40th percentile",
+      "lines": [
+       {
+        "text": "40% of scores lie below it, so $P(Z < z) = 0.4$. By symmetry this is the negative of the z-score for 0.6, which is $z = -0.25$."
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "tex": "-0.222 &> -0.25"
+       },
+       {
+        "text": "Eileen's z-score is above the 40th percentile, so she can re-sit the test."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Eileen is eligible to re-sit}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q10#(a)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the z-score for 420",
+      "lines": [
+       {
+        "tex": "z &= \\frac{x - \\mu}{\\sigma}"
+       },
+       {
+        "tex": "&= \\frac{420 - 400}{60}"
+       },
+       {
+        "tex": "&= \\frac{20}{60}"
+       },
+       {
+        "tex": "&= \\frac{1}{3}"
+       },
+       {
+        "tex": "&\\approx 0.33"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability below this z-score",
+      "lines": [
+       {
+        "text": "Read $P(z < 0.33)$ from the normal distribution tables."
+       },
+       {
+        "tex": "P(z < 0.33) &= 0.6293"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability above 420",
+      "lines": [
+       {
+        "text": "The total area is 1, so the area above is 1 minus the area below."
+       },
+       {
+        "tex": "P(z > 0.33) &= 1 - P(z < 0.33)"
+       },
+       {
+        "tex": "&= 1 - 0.6293"
+       },
+       {
+        "tex": "&= 0.3707"
+       },
+       {
+        "tex": "&\\approx 0.37"
+       }
+      ]
+     }
+    ],
+    "final": "0.37"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-compound",
+   "title": "Apply compound angle formulae (4, 5, 7, 8, 9, 10)",
+   "level": "HL",
+   "input": "A ± B",
+   "output": "exact value / expansion"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-higher-p2-q4#(a)(i)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $A-B$ as a sum",
+      "lines": [
+       {
+        "tex": "\\tan(A-B) &= \\tan\\bigl(A + (-B)\\bigr)"
+       }
+      ]
+     },
+     {
+      "title": "Apply the formula for $\\tan(A+B)$",
+      "lines": [
+       {
+        "text": "Use $\\tan(A+B) = \\dfrac{\\tan A + \\tan B}{1 - \\tan A \\tan B}$ with $B$ replaced by $-B$."
+       },
+       {
+        "tex": "&= \\frac{\\tan A + \\tan(-B)}{1 - \\tan A\\,\\tan(-B)}"
+       }
+      ]
+     },
+     {
+      "title": "Use $\\tan(-B) = -\\tan B$",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\tan A - \\tan B}{1 - \\tan A\\,(-\\tan B)}"
+       },
+       {
+        "tex": "&= \\frac{\\tan A - \\tan B}{1 + \\tan A\\,\\tan B}"
+       }
+      ]
+     }
+    ],
+    "final": "\\tan(A-B) = \\dfrac{\\tan A - \\tan B}{1 + \\tan A \\tan B}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q4#(a)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $15^\\circ$ as a difference of known angles",
+      "lines": [
+       {
+        "tex": "\\tan 15^\\circ &= \\tan(60^\\circ - 45^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Use the formula from part (i)",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\tan 60^\\circ - \\tan 45^\\circ}{1 + \\tan 60^\\circ \\tan 45^\\circ}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the exact values",
+      "lines": [
+       {
+        "text": "$\\tan 60^\\circ = \\sqrt{3}$ and $\\tan 45^\\circ = 1$."
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{3} - 1}{1 + \\sqrt{3}\\times 1}"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}"
+       }
+      ]
+     },
+     {
+      "title": "Read off $a$",
+      "lines": [
+       {
+        "text": "This is the required form with $a = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "\\tan 15^\\circ = \\dfrac{\\sqrt{3}-1}{\\sqrt{3}+1}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split 75° into 30° + 45°",
+      "lines": [
+       {
+        "tex": "\\sin 75^\\circ &= \\sin(30^\\circ + 45^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Apply the formula from part (a)",
+      "lines": [
+       {
+        "tex": "&= \\sin 30^\\circ \\cos 45^\\circ + \\cos 30^\\circ \\sin 45^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the exact values",
+      "lines": [
+       {
+        "text": "$\\sin 30^\\circ = \\frac{1}{2}$, $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$, $\\sin 45^\\circ = \\cos 45^\\circ = \\frac{1}{\\sqrt{2}}$."
+       },
+       {
+        "tex": "&= \\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2}} + \\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{\\sqrt{2}}"
+       },
+       {
+        "tex": "&= \\frac{1}{2\\sqrt{2}} + \\frac{\\sqrt{3}}{2\\sqrt{2}}"
+       },
+       {
+        "tex": "&= \\frac{1 + \\sqrt{3}}{2\\sqrt{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Rationalise the denominator",
+      "lines": [
+       {
+        "text": "Multiply top and bottom by $\\sqrt{2}$."
+       },
+       {
+        "tex": "&= \\frac{(1 + \\sqrt{3})\\sqrt{2}}{2\\sqrt{2} \\times \\sqrt{2}}"
+       },
+       {
+        "tex": "&= \\frac{(1 + \\sqrt{3})\\sqrt{2}}{4}"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{2} + \\sqrt{6}}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "\\sin 75^\\circ = \\frac{\\sqrt{2} + \\sqrt{6}}{4}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-double",
+   "title": "Apply double/half angle formulae (6, 11–16)",
+   "level": "HL",
+   "input": "2A or A in terms of 2A",
+   "output": "value / rewritten expression"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p2-q4#(a)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Start from the addition formula",
+      "lines": [
+       {
+        "text": "Use $\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B$ with $A = B = \\theta$."
+       },
+       {
+        "tex": "\\cos 2\\theta &= \\cos(\\theta+\\theta)"
+       },
+       {
+        "tex": "&= \\cos\\theta\\cos\\theta - \\sin\\theta\\sin\\theta"
+       },
+       {
+        "tex": "&= \\cos^2\\theta - \\sin^2\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Replace cos² using sin² + cos² = 1",
+      "lines": [
+       {
+        "text": "Since $\\sin^2\\theta + \\cos^2\\theta = 1$, we have $\\cos^2\\theta = 1 - \\sin^2\\theta$."
+       },
+       {
+        "tex": "\\cos 2\\theta &= (1 - \\sin^2\\theta) - \\sin^2\\theta"
+       },
+       {
+        "tex": "&= 1 - 2\\sin^2\\theta"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos 2\\theta = 1 - 2\\sin^2\\theta"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the half-angle formula for cos squared",
+      "lines": [
+       {
+        "text": "From $\\cos 2\\theta = 2\\cos^2\\theta - 1$ we get $\\cos^2\\theta = \\frac{1}{2}(1 + \\cos 2\\theta)$."
+       },
+       {
+        "tex": "\\cos^2\\theta &= \\frac{1}{2}(1 + \\cos 2\\theta)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute cos 2θ = 1/9",
+      "lines": [
+       {
+        "tex": "\\cos^2\\theta &= \\frac{1}{2}\\left(1 + \\frac{1}{9}\\right)"
+       },
+       {
+        "tex": "&= \\frac{1}{2}\\left(\\frac{10}{9}\\right)"
+       },
+       {
+        "tex": "&= \\frac{5}{9}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "text": "Take both the positive and negative roots."
+       },
+       {
+        "tex": "\\cos\\theta &= \\pm\\sqrt{\\frac{5}{9}}"
+       },
+       {
+        "tex": "\\cos\\theta &= \\pm\\frac{\\sqrt{5}}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos\\theta = \\pm\\frac{\\sqrt{5}}{3}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q4#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use a right-angled triangle for $\\cos A = \\frac{y}{2}$",
+      "lines": [
+       {
+        "text": "Cosine is adjacent over hypotenuse, so take adjacent $= y$ and hypotenuse $= 2$."
+       },
+       {
+        "text": "Let the opposite side be $z$. By Pythagoras:"
+       },
+       {
+        "tex": "2^2 &= y^2 + z^2"
+       },
+       {
+        "tex": "z^2 &= 4 - y^2"
+       },
+       {
+        "tex": "z &= \\sqrt{4 - y^2}"
+       }
+      ]
+     },
+     {
+      "title": "Write $\\sin A$",
+      "lines": [
+       {
+        "text": "Sine is opposite over hypotenuse."
+       },
+       {
+        "tex": "\\sin A &= \\frac{\\sqrt{4 - y^2}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Use the double angle formula",
+      "lines": [
+       {
+        "text": "$\\sin 2A = 2\\sin A\\cos A$."
+       },
+       {
+        "tex": "\\sin 2A &= 2\\left(\\frac{\\sqrt{4 - y^2}}{2}\\right)\\left(\\frac{y}{2}\\right)"
+       },
+       {
+        "tex": "&= \\frac{y\\sqrt{4 - y^2}}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\sin 2A = \\frac{y\\sqrt{4 - y^2}}{2}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the width and height of the rectangle",
+      "lines": [
+       {
+        "text": "The rectangle is symmetric about both axes, so width is $2x$ and height is $2y$."
+       },
+       {
+        "tex": "2x &= 10\\cos\\theta"
+       },
+       {
+        "tex": "2y &= 10\\sin\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Multiply width by height",
+      "lines": [
+       {
+        "tex": "A(\\theta) &= (10\\cos\\theta)(10\\sin\\theta)"
+       },
+       {
+        "tex": "&= 100\\cos\\theta\\sin\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Use the double angle formula",
+      "lines": [
+       {
+        "text": "$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$."
+       },
+       {
+        "tex": "&= 50 \\times 2\\sin\\theta\\cos\\theta"
+       },
+       {
+        "tex": "&= 50\\sin 2\\theta"
+       }
+      ]
+     }
+    ],
+    "final": "A(\\theta) = 50\\sin 2\\theta"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q4#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the formula with A = θ/2",
+      "lines": [
+       {
+        "text": "If $A = \\frac{\\theta}{2}$ then $2A = \\theta$."
+       },
+       {
+        "tex": "\\cos\\theta &= \\cos^2\\frac{\\theta}{2} - \\sin^2\\frac{\\theta}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find cos(θ/2) from a right-angled triangle",
+      "lines": [
+       {
+        "text": "$\\sin\\frac{\\theta}{2} = \\frac{1}{\\sqrt{5}}$: opposite side $1$, hypotenuse $\\sqrt{5}$."
+       },
+       {
+        "tex": "\\text{adjacent}^2 &= (\\sqrt{5})^2 - 1^2"
+       },
+       {
+        "tex": "&= 4"
+       },
+       {
+        "text": "So the adjacent side is $2$. Since $0 \\le \\frac{\\theta}{2} \\le \\frac{\\pi}{2}$, the cosine is positive."
+       },
+       {
+        "tex": "\\cos\\frac{\\theta}{2} &= \\frac{2}{\\sqrt{5}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "\\cos\\theta &= \\left(\\frac{2}{\\sqrt{5}}\\right)^2 - \\left(\\frac{1}{\\sqrt{5}}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{4}{5} - \\frac{1}{5}"
+       },
+       {
+        "tex": "&= \\frac{3}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos\\theta = \\frac{3}{5}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q2#(c)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace $\\sin 2t$",
+      "lines": [
+       {
+        "text": "Use the double angle formula $\\sin 2t = 2\\sin t \\cos t$."
+       },
+       {
+        "tex": "\\sin t &= 2\\sin t \\cos t"
+       }
+      ]
+     },
+     {
+      "title": "Move everything to one side and factorise",
+      "lines": [
+       {
+        "text": "Do not divide by $\\sin t$, as that would lose the solutions where $\\sin t = 0$."
+       },
+       {
+        "tex": "\\sin t - 2\\sin t \\cos t &= 0"
+       },
+       {
+        "tex": "\\sin t\\,(1 - 2\\cos t) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve $\\sin t = 0$",
+      "lines": [
+       {
+        "text": "One factor must be zero. Sine is zero at the start, middle and end of the range."
+       },
+       {
+        "tex": "\\sin t &= 0"
+       },
+       {
+        "tex": "t &= 0^\\circ,\\ 180^\\circ,\\ 360^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Solve $1 - 2\\cos t = 0$",
+      "lines": [
+       {
+        "tex": "1 - 2\\cos t &= 0"
+       },
+       {
+        "tex": "-2\\cos t &= -1"
+       },
+       {
+        "tex": "\\cos t &= \\frac{1}{2}"
+       },
+       {
+        "text": "Cosine is positive in the first and fourth quadrants; the reference angle is $60^\\circ$."
+       },
+       {
+        "tex": "t &= 60^\\circ,\\ 300^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Combine all solutions",
+      "lines": [
+       {
+        "tex": "t &= 0^\\circ,\\ 60^\\circ,\\ 180^\\circ,\\ 300^\\circ,\\ 360^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "t = 0^\\circ, 60^\\circ, 180^\\circ, 300^\\circ, 360^\\circ"
+   }
+  ]
+ }
+]

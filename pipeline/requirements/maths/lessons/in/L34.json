@@ -1,0 +1,374 @@
+[
+ {
+  "skill": {
+   "id": "line-point-on",
+   "title": "Test whether a point is on a line; find intercepts",
+   "level": "OL",
+   "input": "line + point",
+   "output": "yes/no; axis intercepts"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p2-q9#(a)(i)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the point from the graph",
+      "lines": [
+       {
+        "text": "Read across to the $x$-value first, then up to the $y$-value. $F$ is 4 across and 1 up."
+       },
+       {
+        "tex": "F &= (4, 1)"
+       }
+      ]
+     }
+    ],
+    "final": "F = (4, 1)"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q8#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read each point from the grid",
+      "lines": [
+       {
+        "text": "Read across to the $x$-value, then up or down to the $y$-value. Write each as $(x, y)$."
+       },
+       {
+        "tex": "A &= (1, -2)"
+       },
+       {
+        "tex": "B &= (4, 2)"
+       },
+       {
+        "tex": "D &= (6, -6)"
+       },
+       {
+        "tex": "E &= (15, 6)"
+       }
+      ]
+     }
+    ],
+    "final": "A = (1,-2),\\ B = (4,2),\\ D = (6,-6),\\ E = (15,6)"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read the co-ordinates of T",
+      "lines": [
+       {
+        "text": "In $(x, y) = (-2, -5)$, the first number is the $x$-value: $2$ units to the left of the origin."
+       },
+       {
+        "text": "The second number is the $y$-value: $5$ units down."
+       },
+       {
+        "text": "Mark the point where these meet and label it $T$."
+       }
+      ]
+     }
+    ],
+    "final": "T(-2, -5) \\text{ plotted}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute x = -2 and y = -5 into x - y - 3",
+      "lines": [
+       {
+        "tex": "x - y - 3 &= (-2) - (-5) - 3"
+       },
+       {
+        "tex": "&= -2 + 5 - 3"
+       },
+       {
+        "tex": "&= 0"
+       },
+       {
+        "text": "The left side equals $0$, so $T$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "T \\in k"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Pick a value for x and find y",
+      "lines": [
+       {
+        "text": "Choose $x = 1$ and put it into $x - y - 3 = 0$."
+       },
+       {
+        "tex": "1 - y - 3 &= 0"
+       },
+       {
+        "tex": "-y - 2 &= 0"
+       },
+       {
+        "tex": "y &= -2"
+       }
+      ]
+     }
+    ],
+    "final": "(1, -2) \\in k"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q4#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read each point off the grid",
+      "lines": [
+       {
+        "text": "Go across to the $x$ value first, then up or down to the $y$ value."
+       },
+       {
+        "text": "$A$ is at $x = 6$, $y = 2$. $B$ is at $x = -2$, $y = -4$."
+       }
+      ]
+     }
+    ],
+    "final": "A = (6, 2),\\ B = (-2, -4)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "line-slope",
+   "title": "Find the slope from two points or an equation",
+   "level": "JC",
+   "input": "two points, or ax + by + c = 0",
+   "output": "m"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q4#(a)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the slope formula",
+      "lines": [
+       {
+        "text": "$A(-5,3)$ and $B(2,0)$. Slope $= \\frac{y_2-y_1}{x_2-x_1}$, taking $B$ as the second point."
+       },
+       {
+        "tex": "m &= \\frac{0-3}{2-(-5)}"
+       },
+       {
+        "tex": "&= \\frac{-3}{2+5}"
+       },
+       {
+        "tex": "&= -\\frac{3}{7}"
+       }
+      ]
+     }
+    ],
+    "final": "m = -\\frac{3}{7}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q1#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the coordinates of A and C",
+      "lines": [
+       {
+        "text": "From the diagram, $A = (-2, 0)$ and $C = (0, 3)$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the slope formula",
+      "lines": [
+       {
+        "tex": "m_{AC} &= \\frac{y_2 - y_1}{x_2 - x_1}"
+       },
+       {
+        "tex": "m_{AC} &= \\frac{3 - 0}{0 - (-2)}"
+       },
+       {
+        "tex": "&= \\frac{3}{0 + 2}"
+       },
+       {
+        "tex": "&= \\frac{3}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "m_{AC} = \\frac{3}{2}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q1#(a)(i)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the slope formula",
+      "lines": [
+       {
+        "text": "Slope $m = \\dfrac{y_2 - y_1}{x_2 - x_1}$ for points $(x_1, y_1)$ and $(x_2, y_2)$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute A(4, 2) and B(1, 8)",
+      "lines": [
+       {
+        "tex": "m &= \\frac{y_2 - y_1}{x_2 - x_1}"
+       },
+       {
+        "tex": "&= \\frac{8 - 2}{1 - 4}"
+       },
+       {
+        "tex": "&= \\frac{6}{-3}"
+       },
+       {
+        "tex": "&= -2"
+       }
+      ]
+     }
+    ],
+    "final": "m = -2"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute into the gradient formula",
+      "lines": [
+       {
+        "text": "Gradient as a percentage is $\\dfrac{|BC|}{|AC|} \\times 100$."
+       },
+       {
+        "tex": "\\text{Gradient} &= \\frac{24}{135} \\times 100"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round to the nearest percent",
+      "lines": [
+       {
+        "tex": "&= 17.78\\%"
+       },
+       {
+        "tex": "&\\approx 18\\%"
+       }
+      ]
+     }
+    ],
+    "final": "18\\%"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q2#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the slope formula",
+      "lines": [
+       {
+        "text": "Use $P(4, 2)$ as $(x_1, y_1)$ and $Q(8, 5)$ as $(x_2, y_2)$."
+       },
+       {
+        "tex": "m &= \\frac{y_2 - y_1}{x_2 - x_1}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the co-ordinates",
+      "lines": [
+       {
+        "tex": "m &= \\frac{5 - 2}{8 - 4}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "lines": [
+       {
+        "tex": "&= \\frac{3}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "m = \\frac{3}{4}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the gradient as a fraction",
+      "lines": [
+       {
+        "text": "A gradient of 12% means $\\dfrac{|BC|}{|AC|} = \\dfrac{12}{100}$. Let $x = |AC|$."
+       },
+       {
+        "tex": "\\frac{12}{100} &= \\frac{16}{x}"
+       }
+      ]
+     },
+     {
+      "title": "Cross-multiply",
+      "lines": [
+       {
+        "tex": "12x &= 100 \\times 16"
+       },
+       {
+        "tex": "12x &= 1600"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 12",
+      "lines": [
+       {
+        "tex": "x &= \\frac{1600}{12}"
+       },
+       {
+        "tex": "x &= 133.33"
+       },
+       {
+        "tex": "|AC| &\\approx 133 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|AC| = 133 \\text{ m}"
+   }
+  ]
+ }
+]

@@ -1,0 +1,1073 @@
+[
+ {
+  "skill": {
+   "id": "alg-rearrange",
+   "title": "Rearrange a formula",
+   "level": "OL",
+   "input": "formula + new subject",
+   "output": "subject = expression"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p1-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Square both sides to remove the square root",
+      "lines": [
+       {
+        "tex": "s &= \\sqrt{g \\times d}"
+       },
+       {
+        "tex": "s^2 &= g \\times d"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by g",
+      "lines": [
+       {
+        "tex": "d &= \\frac{s^2}{g}"
+       }
+      ]
+     }
+    ],
+    "final": "d = \\frac{s^2}{g}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q8#(a)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply both sides by 5252",
+      "lines": [
+       {
+        "tex": "P &= \\frac{R \\times T}{5252}"
+       },
+       {
+        "tex": "5252P &= R \\times T"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by T",
+      "lines": [
+       {
+        "tex": "R &= \\frac{5252P}{T}"
+       }
+      ]
+     }
+    ],
+    "final": "R = \\frac{5252P}{T}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q8#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the perimeter of the rectangle",
+      "lines": [
+       {
+        "text": "A rectangle has two lengths $x$ and two widths $y$, and the fencing is $21$ m."
+       },
+       {
+        "tex": "2x + 2y &= 21"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 2",
+      "lines": [
+       {
+        "tex": "x + y &= 10.5"
+       }
+      ]
+     },
+     {
+      "title": "Subtract x from both sides",
+      "lines": [
+       {
+        "tex": "y &= 10.5 - x"
+       }
+      ]
+     }
+    ],
+    "final": "y = 10.5 - x"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q9#(e)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply both sides by h cubed",
+      "lines": [
+       {
+        "tex": "P &= \\frac{M}{h^3}"
+       },
+       {
+        "tex": "Ph^3 &= M"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by P",
+      "lines": [
+       {
+        "tex": "h^3 &= \\frac{M}{P}"
+       }
+      ]
+     },
+     {
+      "title": "Take the cube root of both sides",
+      "lines": [
+       {
+        "tex": "h &= \\sqrt[3]{\\frac{M}{P}}"
+       }
+      ]
+     }
+    ],
+    "final": "h = \\sqrt[3]{\\frac{M}{P}}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q7#(a)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply both sides by S + 10",
+      "lines": [
+       {
+        "tex": "C &= \\frac{1000}{S + 10}"
+       },
+       {
+        "tex": "C(S + 10) &= 1000"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "CS + 10C &= 1000"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 10C from both sides",
+      "lines": [
+       {
+        "tex": "CS &= 1000 - 10C"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by C",
+      "lines": [
+       {
+        "tex": "S &= \\frac{1000 - 10C}{C}"
+       }
+      ]
+     }
+    ],
+    "final": "S = \\frac{1000 - 10C}{C}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q10#(d)(i)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Make n the subject",
+      "lines": [
+       {
+        "tex": "t &= 2n + 1"
+       },
+       {
+        "tex": "t - 1 &= 2n"
+       },
+       {
+        "tex": "\\frac{t-1}{2} &= n"
+       },
+       {
+        "tex": "n &= \\frac{t-1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "n = \\frac{t-1}{2}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-addition-rule",
+   "title": "Apply the addition rule",
+   "level": "HL",
+   "input": "P(A), P(B), P(A ∩ B)",
+   "output": "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-higher-p2-q2#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use mutually exclusive events",
+      "lines": [
+       {
+        "text": "Mutually exclusive events cannot happen together."
+       },
+       {
+        "tex": "P(A \\cap B) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Use the addition rule",
+      "lines": [
+       {
+        "tex": "P(A \\cup B) &= P(A) + P(B) - P(A \\cap B)"
+       },
+       {
+        "tex": "&= 0.1 + 0.4 - 0"
+       },
+       {
+        "tex": "&= 0.5"
+       }
+      ]
+     }
+    ],
+    "final": "P(A \\cap B) = 0,\\; P(A \\cup B) = 0.5"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q2#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Link the complement to the union",
+      "lines": [
+       {
+        "text": "To make $(C \\cup D)'$ as large as possible, make $P(C \\cup D)$ as small as possible."
+       },
+       {
+        "tex": "P(C \\cup D) &= P(C) + P(D) - P(C \\cap D)"
+       },
+       {
+        "tex": "&= 0.5 + 0.7 - P(C \\cap D)"
+       }
+      ]
+     },
+     {
+      "title": "Make the overlap as big as possible",
+      "lines": [
+       {
+        "text": "$P(C \\cap D)$ cannot be bigger than $P(C) = 0.5$. This happens when $C$ lies inside $D$."
+       },
+       {
+        "tex": "P(C \\cup D)_{\\min} &= 1.2 - 0.5"
+       },
+       {
+        "tex": "&= 0.7"
+       }
+      ]
+     },
+     {
+      "title": "Take the complement",
+      "lines": [
+       {
+        "tex": "P[(C \\cup D)^{\\prime}]_{\\max} &= 1 - 0.7"
+       },
+       {
+        "tex": "&= 0.3"
+       }
+      ]
+     }
+    ],
+    "final": "0.3"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q3#(a)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find P(A ∪ C) from the diagram",
+      "lines": [
+       {
+        "text": "$A \\cup C$ is everything in $A$ or $C$: the regions $60$ (all of $A$), $16$ and $41$."
+       },
+       {
+        "tex": "P(A \\cup C) &= \\frac{60 + 16 + 41}{240}"
+       },
+       {
+        "tex": "&= \\frac{117}{240}"
+       }
+      ]
+     },
+     {
+      "title": "Find P(A), P(C) and P(A ∩ C)",
+      "lines": [
+       {
+        "text": "$C$ contains $13 + 6 + 16 + 41 = 76$ people."
+       },
+       {
+        "tex": "P(A) &= \\frac{60}{240}"
+       },
+       {
+        "tex": "P(C) &= \\frac{76}{240}"
+       },
+       {
+        "text": "$A \\cap C$ contains $13 + 6 = 19$ people."
+       },
+       {
+        "tex": "P(A \\cap C) &= \\frac{19}{240}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into P(A) + P(C) - P(A ∩ C)",
+      "lines": [
+       {
+        "tex": "P(A) + P(C) - P(A \\cap C) &= \\frac{60 + 76 - 19}{240}"
+       },
+       {
+        "tex": "&= \\frac{117}{240}"
+       },
+       {
+        "text": "This equals $P(A \\cup C)$, so the formula is verified."
+       }
+      ]
+     }
+    ],
+    "final": "P(A \\cup C) = \\frac{117}{240} = P(A) + P(C) - P(A \\cap C)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q3#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the complement rule",
+      "lines": [
+       {
+        "text": "The probabilities of an event and of its opposite add to 1."
+       },
+       {
+        "tex": "P(\\text{not blue}) &= 1 - 0.7"
+       },
+       {
+        "tex": "&= 0.3"
+       }
+      ]
+     }
+    ],
+    "final": "0.3"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q1#(c)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the probabilities that are given",
+      "lines": [
+       {
+        "tex": "\\text{Sum} &= 0.14 + 0.15 + 0.18 + 0.15 + 0.12 + 0.1"
+       },
+       {
+        "tex": "&= 0.84"
+       }
+      ]
+     },
+     {
+      "title": "All the probabilities add up to 1",
+      "lines": [
+       {
+        "tex": "P(\\text{Tue}) &= 1 - 0.84"
+       },
+       {
+        "tex": "&= 0.16"
+       }
+      ]
+     }
+    ],
+    "final": "0.16"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find each probability from the colour spinner",
+      "lines": [
+       {
+        "tex": "P(\\text{red}) &= \\frac{1}{4}"
+       },
+       {
+        "tex": "P(\\text{yellow}) &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Add, since red and yellow cannot both happen",
+      "lines": [
+       {
+        "tex": "P(\\text{red or yellow}) &= \\frac{1}{4} + \\frac{1}{4}"
+       },
+       {
+        "tex": "&= \\frac{2}{4}"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{2}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-arrangement-restrictions",
+   "title": "Count arrangements with restrictions",
+   "level": "OL",
+   "input": "objects + condition (together, at ends, even…)",
+   "output": "number of arrangements"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-ordinary-p2-q3#(a)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Fix the first and last letters",
+      "lines": [
+       {
+        "text": "The first letter must be M: 1 way. The last letter is a vowel (A, O, I or E): 4 ways."
+       }
+      ]
+     },
+     {
+      "title": "Arrange the other 5 letters in the middle",
+      "lines": [
+       {
+        "text": "After using M and one vowel, 5 letters remain, giving $5!$ ways."
+       },
+       {
+        "tex": "\\text{Ways} &= 1 \\times 5! \\times 4"
+       },
+       {
+        "tex": "&= 120 \\times 4"
+       },
+       {
+        "tex": "&= 480"
+       }
+      ]
+     }
+    ],
+    "final": "480"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q10#(b)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the choices digit by digit",
+      "lines": [
+       {
+        "text": "No digit repeats, so each place has one fewer choice than the last."
+       },
+       {
+        "text": "First digit has 9 choices, second 8, third 7, fourth 6."
+       },
+       {
+        "tex": "\\text{Codes} &= 9 \\times 8 \\times 7 \\times 6"
+       },
+       {
+        "tex": "&= 3024"
+       }
+      ]
+     }
+    ],
+    "final": "3024"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q3#(a)(ii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Place the block 2018 in the code",
+      "lines": [
+       {
+        "text": "Treat 2018 as a block of four digits. In a six-digit code it can start in position 1, 2 or 3, so there are 3 positions."
+       },
+       {
+        "text": "The 2 remaining digits are free, with 10 choices each."
+       }
+      ]
+     },
+     {
+      "title": "Multiply",
+      "lines": [
+       {
+        "tex": "3 \\times 10 \\times 10 &= 3 \\times 10^2"
+       },
+       {
+        "tex": "&= 300"
+       }
+      ]
+     }
+    ],
+    "final": "300"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q10#(b)(ii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the codes that contain a 2",
+      "lines": [
+       {
+        "text": "The 2 can go in any of 4 positions."
+       },
+       {
+        "text": "The other 3 places are filled from the remaining 8 digits, with no repeats."
+       },
+       {
+        "tex": "8 \\times 7 \\times 6 &= 336"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the number of positions for the 2",
+      "lines": [
+       {
+        "tex": "4 \\times 336 &= 1344"
+       }
+      ]
+     }
+    ],
+    "final": "1344"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q10#(c)(ii), (iii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(ii) Count choices when the first is red and the fifth is not red",
+      "lines": [
+       {
+        "text": "Light 1 must be red: $1$ choice. Light 5 is not red: $2$ choices (G or O). Lights 2, 3, 4 are free: $3$ choices each."
+       },
+       {
+        "tex": "\\text{patterns} &= 1 \\times 3 \\times 3 \\times 3 \\times 2"
+       },
+       {
+        "tex": "&= 1 \\times 3^3 \\times 2"
+       },
+       {
+        "tex": "&= 54"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Count choices when no two consecutive lights match",
+      "lines": [
+       {
+        "text": "Light 1 can be any colour: $3$ choices. Each later light must differ from the one before it: $2$ choices each."
+       },
+       {
+        "tex": "\\text{patterns} &= 3 \\times 2 \\times 2 \\times 2 \\times 2"
+       },
+       {
+        "tex": "&= 48"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(ii) } 54 \\qquad \\text{(iii) } 48"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-bernoulli-3",
+   "title": "Solve problems with up to 3 Bernoulli trials",
+   "level": "OL",
+   "input": "p, up to 3 trials",
+   "output": "probability of the outcomes asked for"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q2#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Subtract from 1",
+      "lines": [
+       {
+        "text": "The probabilities of success and failure add to 1."
+       },
+       {
+        "tex": "P(\\text{not knock}) &= 1 - 0.34"
+       },
+       {
+        "tex": "&= 0.66"
+       }
+      ]
+     }
+    ],
+    "final": "0.66"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q1#(b)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the ways two of the three play",
+      "lines": [
+       {
+        "text": "Exactly two play tennis and one does not. The non-player can be first, second or third, so there are 3 orders, each with the same probability."
+       }
+      ]
+     },
+     {
+      "title": "Find the probability of one order and multiply by 3",
+      "lines": [
+       {
+        "tex": "P &= 3 \\left( \\frac{1}{8} \\times \\frac{1}{8} \\times \\frac{7}{8} \\right)"
+       },
+       {
+        "tex": "&= 3 \\times \\frac{7}{512}"
+       },
+       {
+        "tex": "&= \\frac{21}{512}"
+       },
+       {
+        "tex": "&\\approx 0.04101"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{21}{512} \\approx 0.04101"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q10#(c)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the probability of one arrangement",
+      "lines": [
+       {
+        "text": "$P(\\text{jog}) = 0.2$ and $P(\\text{not jog}) = 0.8$. One arrangement is jog, not, not."
+       },
+       {
+        "tex": "P(\\text{J, N, N}) &= (0.2)(0.8)(0.8)"
+       }
+      ]
+     },
+     {
+      "title": "Count the arrangements",
+      "lines": [
+       {
+        "text": "The jogger can be the first, second or third adult, so there are 3 arrangements."
+       },
+       {
+        "tex": "P(\\text{exactly one}) &= 3(0.2)(0.8)(0.8)"
+       },
+       {
+        "tex": "&= 3(0.128)"
+       },
+       {
+        "tex": "&= 0.384"
+       }
+      ]
+     }
+    ],
+    "final": "0.384"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q4#(a)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the probability of one arrangement",
+      "lines": [
+       {
+        "text": "Missing a throw has probability $1 - 0.7 = 0.3$. Take scoring, scoring, missing (SSF)."
+       },
+       {
+        "tex": "P(\\text{SSF}) &= 0.7 \\times 0.7 \\times 0.3"
+       },
+       {
+        "tex": "&= 0.147"
+       }
+      ]
+     },
+     {
+      "title": "Count the arrangements",
+      "lines": [
+       {
+        "text": "The one miss can be in 3 places: SSF, SFS or FSS. Each has probability $0.147$."
+       },
+       {
+        "tex": "P(\\text{exactly 2}) &= 3 \\times 0.147"
+       },
+       {
+        "tex": "&= 0.441"
+       }
+      ]
+     }
+    ],
+    "final": "0.441"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q3#(c)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "List the ways to get exactly two blue",
+      "lines": [
+       {
+        "text": "Write B for blue eyes and N for not blue. The three orders are BBN, BNB and NBB."
+       }
+      ]
+     },
+     {
+      "title": "Find the probability of one order",
+      "lines": [
+       {
+        "text": "Each order has two blue and one not blue, so each has the same probability."
+       },
+       {
+        "tex": "0.7 \\times 0.7 \\times 0.3 &= 0.147"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the 3 orders",
+      "lines": [
+       {
+        "tex": "3 \\times 0.147 &= 0.441"
+       }
+      ]
+     }
+    ],
+    "final": "0.441"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-binomial",
+   "title": "Find the probability of k successes in n trials",
+   "level": "HL",
+   "input": "n, k, p",
+   "output": "ⁿCₖ pᵏ(1 − p)ⁿ⁻ᵏ (incl. \"at least\")"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p2-q1#(a)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use the binomial formula with n = 11, p = 0.15",
+      "lines": [
+       {
+        "text": "Exactly 1 left footed means 1 success and 10 failures, in any of 11 positions."
+       },
+       {
+        "tex": "P(1) &= \\binom{11}{1}(0.15)^1(0.85)^{10}"
+       },
+       {
+        "tex": "&= 11 \\times 0.15 \\times 0.85^{10}"
+       },
+       {
+        "tex": "&= 0.3248\\ldots"
+       },
+       {
+        "tex": "&\\approx 0.325"
+       }
+      ]
+     }
+    ],
+    "final": "0.325"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q6#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split into Joe and the other five",
+      "lines": [
+       {
+        "text": "Joe passes: probability $\\frac{1}{4}$."
+       },
+       {
+        "text": "Exactly 2 of the other 5 pass: choose which 2 ($\\binom{5}{2}$ ways), 2 pass and 3 fail."
+       },
+       {
+        "tex": "P &= \\binom{5}{2}\\left(\\frac{1}{4}\\right)^2\\left(\\frac{3}{4}\\right)^3 \\times \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "&= 10 \\times \\frac{1}{16} \\times \\frac{27}{64} \\times \\frac{1}{4}"
+       },
+       {
+        "tex": "&= \\frac{270}{4096}"
+       },
+       {
+        "tex": "&= \\frac{135}{2048}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{135}{2048}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q10#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the complement",
+      "lines": [
+       {
+        "text": "\"At least one\" is the opposite of \"none\"."
+       },
+       {
+        "tex": "P(\\text{at least one}) &= 1 - P(\\text{none are O-neg})"
+       }
+      ]
+     },
+     {
+      "title": "Calculate",
+      "lines": [
+       {
+        "tex": "P(\\text{none are O-neg}) &= (0.92)^5"
+       },
+       {
+        "tex": "P(\\text{at least one}) &= 1 - (0.92)^5"
+       },
+       {
+        "tex": "&= 0.34091\\ldots"
+       },
+       {
+        "tex": "&= 0.3409"
+       }
+      ]
+     }
+    ],
+    "final": "0.3409"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q7#(b)(i)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the binomial set-up",
+      "lines": [
+       {
+        "text": "Each customer either used the pool (probability $\\frac{1}{5}$) or did not (probability $\\frac{4}{5}$)."
+       },
+       {
+        "text": "We want 2 successes in 6 trials, so $n = 6$, $r = 2$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the binomial formula",
+      "lines": [
+       {
+        "tex": "P(2) &= \\binom{6}{2}\\left(\\frac{1}{5}\\right)^2\\left(\\frac{4}{5}\\right)^4"
+       },
+       {
+        "tex": "&= 15 \\times \\frac{1}{25} \\times \\frac{256}{625}"
+       },
+       {
+        "tex": "&= \\frac{768}{3125}"
+       },
+       {
+        "tex": "&= 0.24576"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{768}{3125} = 0.24576"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q1#(c)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the remaining ten players",
+      "lines": [
+       {
+        "text": "The goalkeeper is left footed, so 10 players remain, each left footed with probability 0.15."
+       },
+       {
+        "text": "At least 8 right footed out of 10 means 0, 1 or 2 left footed."
+       }
+      ]
+     },
+     {
+      "title": "Find P(0), P(1) and P(2)",
+      "lines": [
+       {
+        "tex": "P(0) &= 0.85^{10}"
+       },
+       {
+        "tex": "&= 0.1969\\ldots"
+       },
+       {
+        "tex": "P(1) &= \\binom{10}{1}(0.15)(0.85)^9"
+       },
+       {
+        "tex": "&= 0.3474\\ldots"
+       },
+       {
+        "tex": "P(2) &= \\binom{10}{2}(0.15)^2(0.85)^8"
+       },
+       {
+        "tex": "&= 0.2759\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Add the three probabilities",
+      "lines": [
+       {
+        "tex": "P(\\text{at least 8 right}) &= 0.1969 + 0.3474 + 0.2759"
+       },
+       {
+        "tex": "&= 0.8202"
+       },
+       {
+        "tex": "&\\approx 0.82"
+       }
+      ]
+     }
+    ],
+    "final": "0.82"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q9#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose the model and find the other probability",
+      "lines": [
+       {
+        "text": "Each person either has diabetes (probability 0.067) or not. Use the binomial formula with $n = 5$."
+       },
+       {
+        "text": "It is easier to find $P(2 \\text{ or more}) = 1 - P(0) - P(1)$."
+       },
+       {
+        "tex": "P(\\text{no diabetes}) &= 1 - 0.067"
+       },
+       {
+        "tex": "&= 0.933"
+       }
+      ]
+     },
+     {
+      "title": "Find P(0)",
+      "lines": [
+       {
+        "tex": "P(0) &= \\binom{5}{0}(0.933)^5"
+       },
+       {
+        "tex": "&= 0.706982\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Find P(1)",
+      "lines": [
+       {
+        "tex": "P(1) &= \\binom{5}{1}(0.933)^4(0.067)"
+       },
+       {
+        "tex": "&= 0.253847\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Subtract from 1",
+      "lines": [
+       {
+        "tex": "P(2 \\text{ or more}) &= 1 - \\left(0.706982\\ldots + 0.253847\\ldots\\right)"
+       },
+       {
+        "tex": "&= 1 - 0.960829\\ldots"
+       },
+       {
+        "tex": "&= 0.039171\\ldots"
+       },
+       {
+        "tex": "&\\approx 0.0392"
+       }
+      ]
+     }
+    ],
+    "final": "0.0392"
+   }
+  ]
+ }
+]

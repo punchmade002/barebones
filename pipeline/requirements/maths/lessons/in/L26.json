@@ -1,0 +1,1119 @@
+[
+ {
+  "skill": {
+   "id": "trig-ratios-right",
+   "title": "Use sin, cos, tan in a right-angled triangle",
+   "level": "JC",
+   "input": "right triangle with a side and angle (or two sides)",
+   "output": "missing side or angle"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q9#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Choose the trig ratio",
+      "lines": [
+       {
+        "text": "In triangle $PQR$ the right angle is at $Q$, $|PR| = 120$ is the hypotenuse and $|QR|$ is opposite the 30° angle."
+       },
+       {
+        "tex": "\\sin 30^\\circ &= \\frac{|QR|}{120}"
+       },
+       {
+        "tex": "|QR| &= 120\\sin 30^\\circ"
+       },
+       {
+        "tex": "&= 120 \\times \\frac{1}{2}"
+       },
+       {
+        "tex": "&= 60"
+       }
+      ]
+     }
+    ],
+    "final": "|QR| = 60 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q8#(b)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Choose the sine ratio",
+      "lines": [
+       {
+        "text": "In triangle $PRQ$, $PR$ is opposite $\\alpha$ and $PQ$ is the hypotenuse."
+       },
+       {
+        "tex": "\\sin\\alpha &= \\frac{|PR|}{|PQ|}"
+       },
+       {
+        "tex": "&= \\frac{3.3}{6.5}"
+       }
+      ]
+     },
+     {
+      "title": "Find α with the calculator",
+      "lines": [
+       {
+        "tex": "\\alpha &= \\sin^{-1}\\left(\\frac{3.3}{6.5}\\right)"
+       },
+       {
+        "tex": "&= 30.51^\\circ"
+       },
+       {
+        "tex": "&\\approx 31^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\alpha = 31^\\circ"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q5#(a)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up a sine ratio",
+      "lines": [
+       {
+        "text": "Let $h$ be the distance A swims. It is the hypotenuse; the lake width $100$ m is opposite the $55^\\circ$ angle."
+       },
+       {
+        "tex": "\\sin 55^\\circ &= \\frac{100}{h}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "h &= \\frac{100}{\\sin 55^\\circ}"
+       },
+       {
+        "tex": "h &= 122.077"
+       },
+       {
+        "tex": "h &= 122"
+       }
+      ]
+     }
+    ],
+    "final": "122 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q5#(b)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up a sine ratio",
+      "lines": [
+       {
+        "text": "The lake width $100$ m is opposite $\\theta$ and the hypotenuse is $200$ m."
+       },
+       {
+        "tex": "\\sin\\theta &= \\frac{100}{200}"
+       },
+       {
+        "tex": "\\sin\\theta &= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "lines": [
+       {
+        "tex": "\\theta &= \\sin^{-1}\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "\\theta &= 30^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\theta = 30^\\circ"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q7#(a)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find h using triangle BCD",
+      "lines": [
+       {
+        "text": "Triangle $BCD$ has a right angle at $D$. $h$ is opposite the $45^\\circ$ angle and $y = 51.8$ is the hypotenuse."
+       },
+       {
+        "tex": "\\sin 45^\\circ &= \\frac{h}{51.8}"
+       },
+       {
+        "tex": "h &= 51.8 \\sin 45^\\circ"
+       },
+       {
+        "tex": "h &\\approx 36.628"
+       },
+       {
+        "tex": "h &\\approx 36.6"
+       }
+      ]
+     },
+     {
+      "title": "Find x using triangle ACD",
+      "lines": [
+       {
+        "text": "$h$ is opposite the $30^\\circ$ angle and $x$ is the hypotenuse."
+       },
+       {
+        "tex": "\\sin 30^\\circ &= \\frac{36.6}{x}"
+       },
+       {
+        "tex": "x &= \\frac{36.6}{\\sin 30^\\circ}"
+       },
+       {
+        "tex": "x &= 73.2"
+       }
+      ]
+     }
+    ],
+    "final": "h = 36.6 \\text{ m}, \\quad x = 73.2 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q9#(a)(iii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the distance flown in the air",
+      "lines": [
+       {
+        "text": "Let $h$ be the flight path from $L$. The ground distance $LE = 1250$ m is the side adjacent to the $14^\\circ$ angle."
+       },
+       {
+        "tex": "\\cos 14^\\circ &= \\frac{1250}{h}"
+       },
+       {
+        "tex": "h &= \\frac{1250}{\\cos 14^\\circ}"
+       },
+       {
+        "tex": "&= 1288.267"
+       },
+       {
+        "tex": "&= 1288"
+       }
+      ]
+     },
+     {
+      "title": "Add the distance on the runway",
+      "lines": [
+       {
+        "tex": "\\text{Total} &= 1250 + 1288"
+       },
+       {
+        "tex": "&= 2538"
+       }
+      ]
+     }
+    ],
+    "final": "2538 \\text{ m}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-sine-rule",
+   "title": "Apply the sine rule",
+   "level": "OL",
+   "input": "side–angle pairs",
+   "output": "missing side or angle"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q5#(a)(i)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use the sine rule in triangle BCD",
+      "lines": [
+       {
+        "text": "$|BC|$ is opposite the $42^\\circ$ angle, and $|BD| = 16$ is opposite the $110^\\circ$ angle."
+       },
+       {
+        "tex": "\\frac{|BC|}{\\sin 42^\\circ} &= \\frac{16}{\\sin 110^\\circ}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for |BC|",
+      "lines": [
+       {
+        "tex": "|BC| &= \\frac{16 \\sin 42^\\circ}{\\sin 110^\\circ}"
+       },
+       {
+        "tex": "&= 11.393\\ldots"
+       },
+       {
+        "tex": "&= 11.39 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|BC| = 11.39 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the sine rule for triangle ABC",
+      "lines": [
+       {
+        "text": "Side $y$ is opposite the $30^\\circ$ angle and the side $|AB| = 100$ is opposite the $105^\\circ$ angle."
+       },
+       {
+        "tex": "\\frac{y}{\\sin 30^\\circ} &= \\frac{100}{\\sin 105^\\circ}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "lines": [
+       {
+        "tex": "y &= \\frac{100 \\sin 30^\\circ}{\\sin 105^\\circ}"
+       },
+       {
+        "tex": "y &\\approx 51.7638"
+       },
+       {
+        "tex": "y &\\approx 51.8"
+       }
+      ]
+     }
+    ],
+    "final": "y = 51.8 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q9#(b)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the angle at C",
+      "lines": [
+       {
+        "tex": "|\\angle C| &= 180 - 47 - 97"
+       },
+       {
+        "tex": "&= 36"
+       }
+      ]
+     },
+     {
+      "title": "Use the sine rule",
+      "lines": [
+       {
+        "text": "$x = |BC|$ is opposite the $47^\\circ$ angle, and $260$ is opposite the $36^\\circ$ angle."
+       },
+       {
+        "tex": "\\frac{x}{\\sin 47^\\circ} &= \\frac{260}{\\sin 36^\\circ}"
+       },
+       {
+        "tex": "x &= \\frac{260 \\sin 47^\\circ}{\\sin 36^\\circ}"
+       },
+       {
+        "tex": "&= 323.506"
+       },
+       {
+        "tex": "&= 324"
+       }
+      ]
+     }
+    ],
+    "final": "|BC| = 324 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q9#(e)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the sine rule",
+      "lines": [
+       {
+        "text": "The side $|AB| = 3$ is opposite angle $C$. The side $|BC| = 4.65$ is opposite the $30^\\circ$ angle."
+       },
+       {
+        "tex": "\\frac{\\sin C}{3} &= \\frac{\\sin 30^\\circ}{4.65}"
+       },
+       {
+        "tex": "\\sin C &= \\frac{3 \\sin 30^\\circ}{4.65}"
+       },
+       {
+        "tex": "\\sin C &= \\frac{1.5}{4.65}"
+       },
+       {
+        "tex": "\\sin C &= \\frac{10}{31}"
+       }
+      ]
+     },
+     {
+      "title": "Take the inverse sine",
+      "lines": [
+       {
+        "tex": "C &= \\sin^{-1}\\left(\\frac{10}{31}\\right)"
+       },
+       {
+        "tex": "C &\\approx 18.819063^\\circ"
+       },
+       {
+        "tex": "C &\\approx 19^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle ACB| = 19^\\circ"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q6#(a)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the third angle",
+      "lines": [
+       {
+        "text": "Angles in a triangle add up to $180^\\circ$."
+       },
+       {
+        "tex": "180 - 65 - 63 &= 52"
+       }
+      ]
+     },
+     {
+      "title": "Write the sine rule",
+      "lines": [
+       {
+        "text": "$x$ is opposite the $52^\\circ$ angle and $10$ is opposite the $63^\\circ$ angle."
+       },
+       {
+        "tex": "\\frac{x}{\\sin 52^\\circ} &= \\frac{10}{\\sin 63^\\circ}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "text": "Multiply both sides by $\\sin 52^\\circ$."
+       },
+       {
+        "tex": "x &= \\frac{10 \\sin 52^\\circ}{\\sin 63^\\circ}"
+       },
+       {
+        "text": "With the calculator in degree mode, $10\\sin 52^\\circ \\approx 7.880$ and $\\sin 63^\\circ \\approx 0.8910$."
+       },
+       {
+        "tex": "x &= 8.84"
+       }
+      ]
+     }
+    ],
+    "final": "x = 8.84\\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q7#(b)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the angle at O",
+      "lines": [
+       {
+        "text": "Angles in a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "\\angle ROP &= 180 - (88 + 87)"
+       },
+       {
+        "tex": "&= 5^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Write the sine rule",
+      "lines": [
+       {
+        "text": "$|OR|$ is opposite the $87^\\circ$ angle, and $|RP| = 20$ is opposite the $5^\\circ$ angle. Let $x = |OR|$."
+       },
+       {
+        "tex": "\\frac{x}{\\sin 87^\\circ} &= \\frac{20}{\\sin 5^\\circ}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "x &= \\frac{20 \\sin 87^\\circ}{\\sin 5^\\circ}"
+       },
+       {
+        "tex": "x &= 229.16"
+       },
+       {
+        "tex": "|OR| &\\approx 229 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|OR| = 229 \\text{ m}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ineq-linear",
+   "title": "Solve a linear inequality",
+   "level": "OL",
+   "input": "ax + b ≤ k (and <, >, ≥), domain N/Z/R",
+   "output": "solution set on number line"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p1-q8#(c)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Test the breadth when the height is 6",
+      "lines": [
+       {
+        "text": "The height is $h = x$, so a height of 6 means $x = 6$. The breadth $10 - 2x$ must be positive."
+       },
+       {
+        "tex": "b &= 10 - 2(6)"
+       },
+       {
+        "tex": "&= 10 - 12"
+       },
+       {
+        "tex": "&= -2"
+       },
+       {
+        "text": "A breadth of $-2$ is impossible. Two squares of side 6 would need 12 units, but the sheet is only 10 wide."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Breadth } = -2 < 0, \\text{ so the box is impossible}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q3#(b)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Subtract 2 from both sides",
+      "lines": [
+       {
+        "tex": "2 - 3x &\\ge -6"
+       },
+       {
+        "tex": "-3x &\\ge -8"
+       }
+      ]
+     },
+     {
+      "title": "Divide by -3 and reverse the inequality",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality sign."
+       },
+       {
+        "tex": "x &\\le \\frac{8}{3}"
+       }
+      ]
+     },
+     {
+      "title": "List the natural numbers up to 8/3",
+      "lines": [
+       {
+        "text": "$\\frac{8}{3} = 2.67$, and $x \\in \\mathbb{N}$ means $x$ is a natural number: $1, 2, 3, \\ldots$"
+       },
+       {
+        "tex": "x &\\in \\{1, 2\\}"
+       },
+       {
+        "text": "The marking scheme also accepts $\\{0, 1, 2\\}$."
+       }
+      ]
+     }
+    ],
+    "final": "x = 1, 2"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "-254 + (n-1)(4) &> 0"
+       },
+       {
+        "tex": "-254 + 4n - 4 &> 0"
+       },
+       {
+        "tex": "4n - 258 &> 0"
+       }
+      ]
+     },
+     {
+      "title": "Isolate n",
+      "lines": [
+       {
+        "tex": "4n &> 258"
+       },
+       {
+        "tex": "n &> 64.5"
+       }
+      ]
+     },
+     {
+      "title": "n must be a whole number",
+      "lines": [
+       {
+        "text": "The smallest whole number greater than $64.5$ is $65$."
+       },
+       {
+        "tex": "n &= 65"
+       }
+      ]
+     }
+    ],
+    "final": "n = 65"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q10#(e)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write an inequality for Gold being cheaper",
+      "lines": [
+       {
+        "text": "Let $n$ be the number of classes. Silver costs €420 plus €6 per class. Gold costs €670."
+       },
+       {
+        "tex": "420 + 6n &> 670"
+       }
+      ]
+     },
+     {
+      "title": "Solve the inequality",
+      "lines": [
+       {
+        "tex": "6n &> 670 - 420"
+       },
+       {
+        "tex": "6n &> 250"
+       },
+       {
+        "tex": "n &> \\frac{250}{6}"
+       },
+       {
+        "tex": "n &> 41.66\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Round up to a whole number of classes",
+      "lines": [
+       {
+        "text": "$n$ must be a whole number greater than 41.66, so the least value is 42."
+       },
+       {
+        "tex": "n &= 42"
+       }
+      ]
+     }
+    ],
+    "final": "42 \\text{ classes}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q3#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Get the x terms together",
+      "lines": [
+       {
+        "tex": "2x + 4 &\\ge 6x - 8"
+       },
+       {
+        "tex": "2x - 6x + 4 &\\ge -8"
+       },
+       {
+        "tex": "-4x + 4 &\\ge -8"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 4 from both sides",
+      "lines": [
+       {
+        "tex": "-4x &\\ge -8 - 4"
+       },
+       {
+        "tex": "-4x &\\ge -12"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by −4",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality sign."
+       },
+       {
+        "tex": "x &\\le \\frac{-12}{-4}"
+       },
+       {
+        "tex": "x &\\le 3"
+       }
+      ]
+     }
+    ],
+    "final": "x \\le 3"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q6#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "2(3 - x) &< 8"
+       },
+       {
+        "tex": "6 - 2x &< 8"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 6 from both sides",
+      "lines": [
+       {
+        "tex": "-2x &< 2"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by -2",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality sign."
+       },
+       {
+        "tex": "x &> -1"
+       }
+      ]
+     },
+     {
+      "title": "Show the solution on the numberline",
+      "lines": [
+       {
+        "text": "Put an open circle at $-1$ (it is not included) and draw an arrow to the right."
+       }
+      ]
+     }
+    ],
+    "final": "x > -1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ineq-modulus",
+   "title": "Solve modulus inequalities",
+   "level": "HL",
+   "input": "|x − a| < b, |x − a| > b and combinations",
+   "output": "interval(s)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q2#(a)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split the modulus into two inequalities",
+      "lines": [
+       {
+        "text": "$|A| \\ge k$ means $A \\ge k$ or $A \\le -k$."
+       },
+       {
+        "tex": "|x - 4| &\\ge 2"
+       },
+       {
+        "tex": "x - 4 \\ge 2 \\quad &\\text{or} \\quad x - 4 \\le -2"
+       }
+      ]
+     },
+     {
+      "title": "Add 4 to both sides of each",
+      "lines": [
+       {
+        "tex": "x \\ge 6 \\quad &\\text{or} \\quad x \\le 2"
+       }
+      ]
+     }
+    ],
+    "final": "x \\le 2 \\text{ or } x \\ge 6"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q1#(a)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Rewrite the modulus as a double inequality",
+      "lines": [
+       {
+        "text": "$|A| \\le k$ means $A$ is between $-k$ and $k$."
+       },
+       {
+        "tex": "|x-3| &\\le 12"
+       },
+       {
+        "tex": "-12 \\le x - 3 &\\le 12"
+       }
+      ]
+     },
+     {
+      "title": "Add 3 to every part",
+      "lines": [
+       {
+        "tex": "-12 + 3 \\le x - 3 + 3 &\\le 12 + 3"
+       },
+       {
+        "tex": "-9 \\le x &\\le 15"
+       }
+      ]
+     }
+    ],
+    "final": "-9 \\le x \\le 15"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q2#(a)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute x = -3",
+      "lines": [
+       {
+        "tex": "|x + p| &= 5"
+       },
+       {
+        "tex": "|-3 + p| &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Split the modulus into two linear equations",
+      "lines": [
+       {
+        "text": "$|A| = 5$ means $A = 5$ or $A = -5$."
+       },
+       {
+        "tex": "-3 + p &= 5 \\quad \\text{or} \\quad -3 + p = -5"
+       }
+      ]
+     },
+     {
+      "title": "Solve each equation",
+      "lines": [
+       {
+        "tex": "p &= 5 + 3 = 8 \\quad \\text{or} \\quad p = -5 + 3 = -2"
+       }
+      ]
+     }
+    ],
+    "final": "p = 8 \\text{ or } p = -2"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q1#(a)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Split the modulus into two cases",
+      "lines": [
+       {
+        "text": "$|A| = 11$ means $A = 11$ or $A = -11$."
+       }
+      ]
+     },
+     {
+      "title": "Case 1: solve 5 + 3m = 11",
+      "lines": [
+       {
+        "tex": "5 + 3m &= 11"
+       },
+       {
+        "tex": "3m &= 6"
+       },
+       {
+        "tex": "m &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Case 2: solve 5 + 3m = −11",
+      "lines": [
+       {
+        "tex": "5 + 3m &= -11"
+       },
+       {
+        "tex": "3m &= -16"
+       },
+       {
+        "tex": "m &= -\\frac{16}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "m = 2 \\text{ or } m = -\\frac{16}{3}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Isolate the modulus",
+      "lines": [
+       {
+        "tex": "|2x+5| - 1 &\\le 0"
+       },
+       {
+        "tex": "|2x+5| &\\le 1"
+       }
+      ]
+     },
+     {
+      "title": "Rewrite as a double inequality",
+      "lines": [
+       {
+        "text": "$|A| \\le 1$ means $A$ is between $-1$ and $1$."
+       },
+       {
+        "tex": "-1 \\le 2x + 5 &\\le 1"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 5 from every part",
+      "lines": [
+       {
+        "tex": "-6 \\le 2x &\\le -4"
+       }
+      ]
+     },
+     {
+      "title": "Divide every part by 2",
+      "lines": [
+       {
+        "tex": "-3 \\le x &\\le -2"
+       }
+      ]
+     }
+    ],
+    "final": "-3 \\le x \\le -2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "quad-complete-square",
+   "title": "Express a quadratic in completed-square form",
+   "level": "HL",
+   "input": "ax² + bx + c",
+   "output": "a(x + p)² + q"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q1#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Factor out the coefficient of x squared",
+      "lines": [
+       {
+        "text": "Take out $a = 2$ so the $x^2$ term has coefficient 1."
+       },
+       {
+        "tex": "f(x) &= 2x^2 - 7x - 10"
+       },
+       {
+        "tex": "&= 2\\left(x^2 - \\frac{7}{2}x - 5\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Complete the square inside the bracket",
+      "lines": [
+       {
+        "text": "Halve the coefficient of $x$: $\\frac{1}{2}\\times\\left(-\\frac{7}{2}\\right) = -\\frac{7}{4}$. Square it to get $\\frac{49}{16}$."
+       },
+       {
+        "tex": "x^2 - \\frac{7}{2}x &= \\left(x - \\frac{7}{4}\\right)^2 - \\frac{49}{16}"
+       },
+       {
+        "tex": "f(x) &= 2\\left(\\left(x - \\frac{7}{4}\\right)^2 - \\frac{49}{16} - 5\\right)"
+       },
+       {
+        "tex": "&= 2\\left(\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{16}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the 2 back in",
+      "lines": [
+       {
+        "tex": "f(x) &= 2\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "f(x) = 2\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{8}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factor 5 out of the x terms",
+      "lines": [
+       {
+        "tex": "5x^2 + 20x - 12 &= 5(x^2 + 4x) - 12"
+       }
+      ]
+     },
+     {
+      "title": "Complete the square inside the bracket",
+      "lines": [
+       {
+        "text": "Half of 4 is 2, so $x^2 + 4x = (x+2)^2 - 2^2$."
+       },
+       {
+        "tex": "5(x^2 + 4x) - 12 &= 5\\left[(x+2)^2 - 4\\right] - 12"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the 5 and collect constants",
+      "lines": [
+       {
+        "tex": "5\\left[(x+2)^2 - 4\\right] - 12 &= 5(x+2)^2 - 20 - 12"
+       },
+       {
+        "tex": "&= 5(x+2)^2 - 32"
+       }
+      ]
+     }
+    ],
+    "final": "g(x) = 5(x+2)^2 - 32"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q5#(a)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate f(x)",
+      "lines": [
+       {
+        "tex": "f'(x) &= 6x^2 + 12x - 12"
+       }
+      ]
+     },
+     {
+      "title": "Take out the factor 6",
+      "lines": [
+       {
+        "tex": "&= 6(x^2 + 2x - 2)"
+       }
+      ]
+     },
+     {
+      "title": "Complete the square inside the bracket",
+      "lines": [
+       {
+        "text": "Half of the coefficient of $x$ is $1$, so add and subtract $1^2$."
+       },
+       {
+        "tex": "&= 6(x^2 + 2x + 1 - 1 - 2)"
+       },
+       {
+        "tex": "&= 6\\left[(x+1)^2 - 3\\right]"
+       },
+       {
+        "tex": "&= 6(x+1)^2 - 18"
+       }
+      ]
+     },
+     {
+      "title": "Compare with a(x + b)^2 + c",
+      "lines": [
+       {
+        "tex": "a &= 6, \\quad b = 1, \\quad c = -18"
+       }
+      ]
+     }
+    ],
+    "final": "a = 6, \\quad b = 1, \\quad c = -18"
+   }
+  ]
+ }
+]

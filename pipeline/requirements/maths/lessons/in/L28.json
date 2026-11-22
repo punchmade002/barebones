@@ -1,0 +1,1577 @@
+[
+ {
+  "skill": {
+   "id": "sim-linear-3",
+   "title": "Solve three linear equations in three unknowns",
+   "level": "HL",
+   "input": "three linear equations",
+   "output": "(x, y, z)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-higher-p1-q2#(b)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Label the equations",
+      "lines": [
+       {
+        "tex": "4a + 3b + 3c &= 807 \\quad (1)"
+       },
+       {
+        "tex": "28a + 9b + 3c &= 879 \\quad (2)"
+       },
+       {
+        "tex": "76a + 15b + 3c &= 663 \\quad (3)"
+       }
+      ]
+     },
+     {
+      "title": "Subtract (1) from (2) to remove c",
+      "lines": [
+       {
+        "tex": "(28a + 9b + 3c) - (4a + 3b + 3c) &= 879 - 807"
+       },
+       {
+        "tex": "24a + 6b &= 72 \\quad (4)"
+       }
+      ]
+     },
+     {
+      "title": "Subtract (2) from (3) to remove c",
+      "lines": [
+       {
+        "tex": "(76a + 15b + 3c) - (28a + 9b + 3c) &= 663 - 879"
+       },
+       {
+        "tex": "48a + 6b &= -216 \\quad (5)"
+       }
+      ]
+     },
+     {
+      "title": "Subtract (4) from (5) to remove b",
+      "lines": [
+       {
+        "tex": "(48a + 6b) - (24a + 6b) &= -216 - 72"
+       },
+       {
+        "tex": "24a &= -288"
+       },
+       {
+        "tex": "a &= -12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute a = -12 into (4)",
+      "lines": [
+       {
+        "tex": "24(-12) + 6b &= 72"
+       },
+       {
+        "tex": "-288 + 6b &= 72"
+       },
+       {
+        "tex": "6b &= 360"
+       },
+       {
+        "tex": "b &= 60"
+       }
+      ]
+     },
+     {
+      "title": "Substitute a = -12, b = 60 into (1)",
+      "lines": [
+       {
+        "tex": "4(-12) + 3(60) + 3c &= 807"
+       },
+       {
+        "tex": "-48 + 180 + 3c &= 807"
+       },
+       {
+        "tex": "132 + 3c &= 807"
+       },
+       {
+        "tex": "3c &= 675"
+       },
+       {
+        "tex": "c &= 225"
+       }
+      ]
+     }
+    ],
+    "final": "a = -12,\\; b = 60,\\; c = 225"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Label the equations",
+      "lines": [
+       {
+        "tex": "x + 2y &= 143 \\quad (1)"
+       },
+       {
+        "tex": "y + 3w &= -74 \\quad (2)"
+       },
+       {
+        "tex": "4x + 5w &= 4 \\quad (3)"
+       }
+      ]
+     },
+     {
+      "title": "Eliminate y from (1) and (2)",
+      "lines": [
+       {
+        "text": "Multiply (2) by $-2$ so the $y$ terms cancel when added to (1)."
+       },
+       {
+        "tex": "-2y - 6w &= 148 \\quad (2\\text{ times }-2)"
+       },
+       {
+        "text": "Add this to (1)."
+       },
+       {
+        "tex": "x - 6w &= 291 \\quad (4)"
+       }
+      ]
+     },
+     {
+      "title": "Eliminate x from (3) and (4)",
+      "lines": [
+       {
+        "text": "Multiply (4) by 4 so the $x$ terms match (3)."
+       },
+       {
+        "tex": "4x - 24w &= 1164 \\quad (5)"
+       },
+       {
+        "text": "Subtract (3) from (5)."
+       },
+       {
+        "tex": "4x - 24w - (4x + 5w) &= 1164 - 4"
+       },
+       {
+        "tex": "4x - 24w - 4x - 5w &= 1164 - 4"
+       },
+       {
+        "tex": "-29w &= 1160"
+       }
+      ]
+     },
+     {
+      "title": "Solve for w",
+      "lines": [
+       {
+        "tex": "w &= \\frac{1160}{-29}"
+       },
+       {
+        "tex": "w &= -40"
+       }
+      ]
+     },
+     {
+      "title": "Substitute w = -40 into (4) to find x",
+      "lines": [
+       {
+        "tex": "x - 6(-40) &= 291"
+       },
+       {
+        "tex": "x + 240 &= 291"
+       },
+       {
+        "tex": "x &= 51"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 51 into (1) to find y",
+      "lines": [
+       {
+        "tex": "51 + 2y &= 143"
+       },
+       {
+        "tex": "2y &= 92"
+       },
+       {
+        "tex": "y &= 46"
+       }
+      ]
+     }
+    ],
+    "final": "x = 51,\\ y = 46,\\ w = -40"
+   },
+   {
+    "part": "maths-pp-2018-higher-p1-q1#(a)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Label the equations and plan to eliminate y",
+      "lines": [
+       {
+        "text": "Call the equations (i), (ii) and (iii). Equation (iii) has no $y$, so eliminate $y$ from (i) and (ii) to get a second equation in $x$ and $z$."
+       },
+       {
+        "tex": "\\text{(i)}\\quad 2x + 3y - z &= -4"
+       },
+       {
+        "tex": "\\text{(ii)}\\quad 3x + 2y + 2z &= 14"
+       },
+       {
+        "tex": "\\text{(iii)}\\quad x - 3z &= -13"
+       }
+      ]
+     },
+     {
+      "title": "Multiply (i) by 2 and (ii) by -3",
+      "lines": [
+       {
+        "tex": "4x + 6y - 2z &= -8"
+       },
+       {
+        "tex": "-9x - 6y - 6z &= -42"
+       }
+      ]
+     },
+     {
+      "title": "Add the two equations to eliminate y",
+      "lines": [
+       {
+        "tex": "-5x - 8z &= -50"
+       }
+      ]
+     },
+     {
+      "title": "Multiply (iii) by 5",
+      "lines": [
+       {
+        "tex": "5x - 15z &= -65"
+       }
+      ]
+     },
+     {
+      "title": "Add to eliminate x and find z",
+      "lines": [
+       {
+        "tex": "-5x - 8z &= -50"
+       },
+       {
+        "tex": "5x - 15z &= -65"
+       },
+       {
+        "tex": "-23z &= -115"
+       },
+       {
+        "tex": "z &= \\frac{-115}{-23}"
+       },
+       {
+        "tex": "z &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Substitute z = 5 into (iii) to find x",
+      "lines": [
+       {
+        "tex": "x - 3(5) &= -13"
+       },
+       {
+        "tex": "x - 15 &= -13"
+       },
+       {
+        "tex": "x &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 2 and z = 5 into (i) to find y",
+      "lines": [
+       {
+        "tex": "2(2) + 3y - 5 &= -4"
+       },
+       {
+        "tex": "3y - 1 &= -4"
+       },
+       {
+        "tex": "3y &= -3"
+       },
+       {
+        "tex": "y &= -1"
+       }
+      ]
+     }
+    ],
+    "final": "x = 2,\\; y = -1,\\; z = 5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "sim-linear-quadratic",
+   "title": "Solve one linear and one order-2 equation",
+   "level": "OL",
+   "input": "linear (coefficient ±1) + quadratic",
+   "output": "intersection points"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q5#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Set g(x) equal to f(x)",
+      "lines": [
+       {
+        "tex": "x + 3 &= 5x - x^2"
+       }
+      ]
+     },
+     {
+      "title": "Move everything to one side",
+      "lines": [
+       {
+        "tex": "x^2 + x - 5x + 3 &= 0"
+       },
+       {
+        "tex": "x^2 - 4x + 3 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "(x-1)(x-3) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "x &= 1 \\text{ or } x = 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the y-co-ordinates using g(x) = x + 3",
+      "lines": [
+       {
+        "tex": "g(1) &= 1 + 3 = 4"
+       },
+       {
+        "tex": "g(3) &= 3 + 3 = 6"
+       }
+      ]
+     }
+    ],
+    "final": "A(1, 4),\\ B(3, 6)"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q4#(b)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Isolate $y$ in the linear equation",
+      "lines": [
+       {
+        "tex": "y + 5 &= 2x"
+       },
+       {
+        "tex": "y &= 2x - 5"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 &= 25"
+       },
+       {
+        "tex": "x^2 + (2x - 5)^2 &= 25"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "text": "$(2x - 5)^2 = (2x - 5)(2x - 5) = 4x^2 - 20x + 25$."
+       },
+       {
+        "tex": "x^2 + 4x^2 - 20x + 25 &= 25"
+       },
+       {
+        "tex": "5x^2 - 20x + 25 &= 25"
+       },
+       {
+        "tex": "5x^2 - 20x &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve for $x$",
+      "lines": [
+       {
+        "tex": "5x(x - 4) &= 0"
+       },
+       {
+        "tex": "x = 0 \\quad &\\text{or} \\quad x = 4"
+       }
+      ]
+     },
+     {
+      "title": "Find $y$ for each $x$ using $y = 2x - 5$",
+      "lines": [
+       {
+        "tex": "x = 0: \\quad y &= 2(0) - 5 = -5"
+       },
+       {
+        "tex": "x = 4: \\quad y &= 2(4) - 5 = 3"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (0, -5) \\text{ or } (4, 3)"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q4#(b)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Make $y$ the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "2x - y &= 7"
+       },
+       {
+        "tex": "y &= 2x - 7"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into $x^2 + y^2 = 49$",
+      "lines": [
+       {
+        "tex": "x^2 + (2x - 7)^2 &= 49"
+       },
+       {
+        "tex": "x^2 + 4x^2 - 28x + 49 &= 49"
+       },
+       {
+        "tex": "5x^2 - 28x + 49 &= 49"
+       },
+       {
+        "tex": "5x^2 - 28x &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve for $x$",
+      "lines": [
+       {
+        "tex": "x(5x - 28) &= 0"
+       },
+       {
+        "tex": "x &= 0 \\quad \\text{or} \\quad x = \\frac{28}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Find $y$ when $x = 0$",
+      "lines": [
+       {
+        "tex": "y &= 2(0) - 7"
+       },
+       {
+        "tex": "&= -7"
+       }
+      ]
+     },
+     {
+      "title": "Find $y$ when $x = \\frac{28}{5}$",
+      "lines": [
+       {
+        "tex": "y &= 2\\left(\\frac{28}{5}\\right) - 7"
+       },
+       {
+        "tex": "&= \\frac{56}{5} - \\frac{35}{5}"
+       },
+       {
+        "tex": "&= \\frac{21}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (0, -7) \\quad \\text{or} \\quad \\left(\\frac{28}{5}, \\frac{21}{5}\\right)"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q2#(b)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Make y the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "3x - y &= 4"
+       },
+       {
+        "tex": "y &= 3x - 4"
+       }
+      ]
+     },
+     {
+      "title": "Substitute y = 3x − 4 into the quadratic equation",
+      "lines": [
+       {
+        "tex": "4x^2 - 3xy &= 4"
+       },
+       {
+        "tex": "4x^2 - 3x(3x-4) &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Expand and collect into a quadratic equal to zero",
+      "lines": [
+       {
+        "tex": "4x^2 - 9x^2 + 12x &= 4"
+       },
+       {
+        "tex": "-5x^2 + 12x &= 4"
+       },
+       {
+        "tex": "-5x^2 + 12x - 4 &= 0"
+       },
+       {
+        "text": "Multiply both sides by $-1$ to make the $x^2$ term positive."
+       },
+       {
+        "tex": "5x^2 - 12x + 4 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve for x",
+      "lines": [
+       {
+        "tex": "(5x-2)(x-2) &= 0"
+       },
+       {
+        "tex": "5x - 2 &= 0 \\quad \\text{or} \\quad x - 2 = 0"
+       },
+       {
+        "tex": "x &= \\frac{2}{5} \\quad \\text{or} \\quad x = 2"
+       }
+      ]
+     },
+     {
+      "title": "Find y when x = 2/5",
+      "lines": [
+       {
+        "tex": "y &= 3x - 4"
+       },
+       {
+        "tex": "y &= 3\\left(\\frac{2}{5}\\right) - 4"
+       },
+       {
+        "tex": "y &= \\frac{6}{5} - \\frac{20}{5}"
+       },
+       {
+        "tex": "y &= -\\frac{14}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Find y when x = 2",
+      "lines": [
+       {
+        "tex": "y &= 3(2) - 4"
+       },
+       {
+        "tex": "y &= 6 - 4"
+       },
+       {
+        "tex": "y &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "\\left(\\frac{2}{5}, -\\frac{14}{5}\\right) \\text{ and } (2, 2)"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q3#(c)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write $y$ in terms of $x$",
+      "lines": [
+       {
+        "tex": "2x + y &= 5"
+       },
+       {
+        "tex": "y &= 5 - 2x"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into $x^2 + y^2 = 25$",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 &= 25"
+       },
+       {
+        "tex": "x^2 + (5-2x)^2 &= 25"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "(5-2x)^2 &= (5-2x)(5-2x)"
+       },
+       {
+        "tex": "&= 25 - 10x - 10x + 4x^2"
+       },
+       {
+        "tex": "&= 25 - 20x + 4x^2"
+       }
+      ]
+     },
+     {
+      "title": "Put it back into the equation and collect terms",
+      "lines": [
+       {
+        "tex": "x^2 + 25 - 20x + 4x^2 &= 25"
+       },
+       {
+        "tex": "5x^2 - 20x + 25 &= 25"
+       },
+       {
+        "tex": "5x^2 - 20x &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve for $x$",
+      "lines": [
+       {
+        "tex": "5x(x - 4) &= 0"
+       },
+       {
+        "text": "A product is zero when one factor is zero."
+       },
+       {
+        "tex": "x &= 0 \\text{ or } x = 4"
+       }
+      ]
+     },
+     {
+      "title": "Find $y$ for each value of $x$",
+      "lines": [
+       {
+        "text": "Use $y = 5 - 2x$."
+       },
+       {
+        "tex": "x = 0: \\quad y &= 5 - 2(0) = 5"
+       },
+       {
+        "tex": "x = 4: \\quad y &= 5 - 2(4) = -3"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (0, 5) \\text{ and } (4, -3)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q4#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Make x the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "x - 5y &= -13"
+       },
+       {
+        "tex": "x &= 5y - 13"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic equation",
+      "lines": [
+       {
+        "text": "Replace $x$ in $x^2 + y^2 = 13$ with $5y - 13$."
+       },
+       {
+        "tex": "(5y-13)^2 + y^2 &= 13"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "25y^2 - 130y + 169 + y^2 &= 13"
+       }
+      ]
+     },
+     {
+      "title": "Move everything to the left-hand side",
+      "lines": [
+       {
+        "tex": "25y^2 - 130y + 169 + y^2 - 13 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "26y^2 - 130y + 156 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Divide every term by 26",
+      "lines": [
+       {
+        "tex": "y^2 - 5y + 6 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "(y-2)(y-3) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "lines": [
+       {
+        "text": "One of the brackets must be zero."
+       },
+       {
+        "tex": "y &= 2 \\text{ or } y = 3"
+       }
+      ]
+     },
+     {
+      "title": "Find x for y = 2",
+      "lines": [
+       {
+        "tex": "x &= 5(2) - 13"
+       },
+       {
+        "tex": "&= -3"
+       }
+      ]
+     },
+     {
+      "title": "Find x for y = 3",
+      "lines": [
+       {
+        "tex": "x &= 5(3) - 13"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (-3, 2) \\text{ and } (2, 3)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "eq-linear",
+   "title": "Solve a linear equation",
+   "level": "OL",
+   "input": "ax + b = cx + d",
+   "output": "x"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p1-q9#(b)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set m(x) equal to 184",
+      "lines": [
+       {
+        "tex": "2.3x + 65.53 &= 184"
+       },
+       {
+        "tex": "2.3x &= 184 - 65.53"
+       },
+       {
+        "tex": "2.3x &= 118.47"
+       },
+       {
+        "tex": "x &= \\frac{118.47}{2.3}"
+       },
+       {
+        "tex": "x &= 51.5087\\ldots"
+       },
+       {
+        "tex": "x &\\approx 51.51"
+       }
+      ]
+     }
+    ],
+    "final": "x = 51.51\\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q9#(d)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the male and female heights equal",
+      "lines": [
+       {
+        "tex": "2.3x + 65.53 &= 2.5x + 54.13"
+       }
+      ]
+     },
+     {
+      "title": "Collect the x terms on one side",
+      "lines": [
+       {
+        "tex": "65.53 - 54.13 &= 2.5x - 2.3x"
+       },
+       {
+        "tex": "11.4 &= 0.2x"
+       },
+       {
+        "tex": "x &= \\frac{11.4}{0.2}"
+       },
+       {
+        "tex": "x &= 57"
+       }
+      ]
+     },
+     {
+      "title": "Find the height by putting x = 57 into m(x)",
+      "lines": [
+       {
+        "tex": "m(57) &= 2.3(57) + 65.53"
+       },
+       {
+        "tex": "&= 131.1 + 65.53"
+       },
+       {
+        "tex": "&= 196.63"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Femur} = 57\\text{ cm},\\ \\text{Height} = 196.63\\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q4#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "4(2x + 3) - 7 &= 3(x - 5)"
+       },
+       {
+        "tex": "8x + 12 - 7 &= 3(x - 5)"
+       },
+       {
+        "tex": "8x + 12 - 7 &= 3x - 15"
+       },
+       {
+        "tex": "8x + 5 &= 3x - 15"
+       }
+      ]
+     },
+     {
+      "title": "Collect the $x$ terms on one side and numbers on the other",
+      "lines": [
+       {
+        "tex": "8x - 3x &= -15 - 5"
+       },
+       {
+        "tex": "5x &= -20"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 5",
+      "lines": [
+       {
+        "tex": "x &= -4"
+       }
+      ]
+     }
+    ],
+    "final": "x = -4"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q4#(a)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "4(2x - 5) - 1 &= 3x + 7"
+       },
+       {
+        "tex": "8x - 20 - 1 &= 3x + 7"
+       },
+       {
+        "tex": "8x - 21 &= 3x + 7"
+       }
+      ]
+     },
+     {
+      "title": "Get the $x$ terms on one side and numbers on the other",
+      "lines": [
+       {
+        "text": "Subtract $3x$ from both sides and add $21$ to both sides."
+       },
+       {
+        "tex": "8x - 3x &= 7 + 21"
+       },
+       {
+        "tex": "5x &= 28"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 5",
+      "lines": [
+       {
+        "tex": "x &= \\frac{28}{5}"
+       },
+       {
+        "tex": "&= 5.6"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{28}{5} = 5.6"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p1-q9#(c)(ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set A(x) equal to 12 800",
+      "lines": [
+       {
+        "tex": "17\\,600 - 160x &= 12\\,800"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 17 600 from both sides",
+      "lines": [
+       {
+        "tex": "-160x &= 12\\,800 - 17\\,600"
+       },
+       {
+        "tex": "-160x &= -4800"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by −160",
+      "lines": [
+       {
+        "tex": "x &= \\frac{-4800}{-160}"
+       },
+       {
+        "tex": "x &= 30"
+       }
+      ]
+     }
+    ],
+    "final": "x = 30"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q10#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Substitute h = 3, x = 3.5 and d = 1.1",
+      "lines": [
+       {
+        "tex": "C &= \\frac{20(3) + (3.5)(3)}{1.1}"
+       },
+       {
+        "tex": "&= \\frac{60 + 10.5}{1.1}"
+       },
+       {
+        "tex": "&= \\frac{70.5}{1.1}"
+       },
+       {
+        "tex": "&= \\text{€}64.09"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Substitute C = 76, h = 4 and d = 1.2",
+      "lines": [
+       {
+        "tex": "\\frac{20(4) + 4x}{1.2} &= 76"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "80 + 4x &= 76 \\times 1.2"
+       },
+       {
+        "tex": "80 + 4x &= 91.2"
+       },
+       {
+        "tex": "4x &= 11.2"
+       },
+       {
+        "tex": "x &= 2.8"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) €}64.09 \\quad \\text{(ii) } x = 2.8"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "eq-linear-fractions",
+   "title": "Solve a linear equation with fractions",
+   "level": "OL",
+   "input": "equation with numeric denominators",
+   "output": "x"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q8#(b)(iii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every term by 6 to clear the fractions",
+      "lines": [
+       {
+        "tex": "\\frac{6h+5p}{3} - \\frac{6h+5p}{2} + h + p &= 2"
+       },
+       {
+        "tex": "2(6h+5p) - 3(6h+5p) + 6h + 6p &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "12h + 10p - 18h - 15p + 6h + 6p &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "(12h - 18h + 6h) + (10p - 15p + 6p) &= 12"
+       },
+       {
+        "tex": "0h + p &= 12"
+       },
+       {
+        "tex": "p &= 12"
+       }
+      ]
+     }
+    ],
+    "final": "p = 12"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q2#(a)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every term by the common denominator 12",
+      "lines": [
+       {
+        "text": "The denominators 2, 3 and 4 all divide into 12."
+       },
+       {
+        "tex": "\\frac{9x-6}{2} &= \\frac{3x-14}{3} + \\frac{9x}{4}"
+       },
+       {
+        "tex": "12\\left(\\frac{9x-6}{2}\\right) &= 12\\left(\\frac{3x-14}{3}\\right) + 12\\left(\\frac{9x}{4}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel each denominator",
+      "lines": [
+       {
+        "tex": "6(9x-6) &= 4(3x-14) + 3(9x)"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "54x - 36 &= 12x - 56 + 27x"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "54x - 36 &= 39x - 56"
+       },
+       {
+        "tex": "54x - 39x &= -56 + 36"
+       },
+       {
+        "tex": "15x &= -20"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 15",
+      "lines": [
+       {
+        "tex": "x &= -\\frac{20}{15}"
+       },
+       {
+        "tex": "x &= -\\frac{4}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "x = -\\frac{4}{3}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p1-q4#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every term by the common denominator 10",
+      "lines": [
+       {
+        "text": "The denominators are $5$, $2$ and $10$, so the lowest common denominator is $10$."
+       },
+       {
+        "tex": "\\frac{3x+1}{5} + \\frac{x-2}{2} &= \\frac{47}{10}"
+       },
+       {
+        "tex": "10 \\cdot \\frac{3x+1}{5} + 10 \\cdot \\frac{x-2}{2} &= 10 \\cdot \\frac{47}{10}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the denominators",
+      "lines": [
+       {
+        "tex": "2(3x+1) + 5(x-2) &= 47"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "6x + 2 + 5x - 10 &= 47"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "11x - 8 &= 47"
+       }
+      ]
+     },
+     {
+      "title": "Add 8 to both sides",
+      "lines": [
+       {
+        "tex": "11x &= 55"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 11",
+      "lines": [
+       {
+        "tex": "x &= 5"
+       }
+      ]
+     }
+    ],
+    "final": "x = 5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "eq-surd",
+   "title": "Solve an equation involving a square root",
+   "level": "HL",
+   "input": "√(f(x)) = g(x)",
+   "output": "x, extraneous roots rejected"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "x &= \\sqrt{x+6}"
+       },
+       {
+        "tex": "x^2 &= x+6"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange and factorise",
+      "lines": [
+       {
+        "tex": "x^2 - x - 6 &= 0"
+       },
+       {
+        "tex": "(x+2)(x-3) &= 0"
+       },
+       {
+        "tex": "x &= -2 \\text{ or } x = 3"
+       }
+      ]
+     },
+     {
+      "title": "Check both answers in the original equation",
+      "lines": [
+       {
+        "text": "Squaring can introduce a false answer, so test each one."
+       },
+       {
+        "tex": "x=-2:\\quad \\sqrt{-2+6} &= \\sqrt{4} = 2 \\ne -2"
+       },
+       {
+        "text": "$x=-2$ is rejected."
+       },
+       {
+        "tex": "x=3:\\quad \\sqrt{3+6} &= \\sqrt{9} = 3"
+       },
+       {
+        "text": "$x=3$ works."
+       }
+      ]
+     }
+    ],
+    "final": "x = 3"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q6#(a)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Collect the x terms on one side",
+      "lines": [
+       {
+        "tex": "x - \\sqrt{32} &= \\sqrt{128} - 5x"
+       },
+       {
+        "tex": "x + 5x &= \\sqrt{128} + \\sqrt{32}"
+       }
+      ]
+     },
+     {
+      "title": "Write each surd in the form a root 2",
+      "lines": [
+       {
+        "tex": "\\sqrt{128} &= \\sqrt{64 \\times 2} = 8\\sqrt{2}"
+       },
+       {
+        "tex": "\\sqrt{32} &= \\sqrt{16 \\times 2} = 4\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute and solve",
+      "lines": [
+       {
+        "tex": "x + 5x &= 8\\sqrt{2} + 4\\sqrt{2}"
+       },
+       {
+        "tex": "6x &= 12\\sqrt{2}"
+       },
+       {
+        "tex": "x &= \\frac{12\\sqrt{2}}{6}"
+       },
+       {
+        "tex": "x &= 2\\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "x = 2\\sqrt{2}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q9#(d)(ii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Get the square root on its own",
+      "lines": [
+       {
+        "tex": "\\frac{\\sqrt{100+d^2}}{0.343} &= \\frac{2d}{0.255}"
+       },
+       {
+        "tex": "\\sqrt{100+d^2} &= \\frac{2(0.343)d}{0.255}"
+       },
+       {
+        "tex": "\\sqrt{100+d^2} &= \\frac{686}{255}d"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "100 + d^2 &= \\left(\\frac{686}{255}\\right)^2 d^2"
+       },
+       {
+        "tex": "100 + d^2 &= 7.2371\\,d^2"
+       }
+      ]
+     },
+     {
+      "title": "Collect the d² terms",
+      "lines": [
+       {
+        "tex": "100 &= 7.2371\\,d^2 - d^2"
+       },
+       {
+        "tex": "100 &= 6.2371\\,d^2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for d",
+      "lines": [
+       {
+        "tex": "d^2 &= \\frac{100}{6.2371}"
+       },
+       {
+        "tex": "&= 16.03\\ldots"
+       },
+       {
+        "tex": "d &= \\sqrt{16.03\\ldots}"
+       },
+       {
+        "tex": "&\\approx 4.0\\ \\text{km}"
+       }
+      ]
+     }
+    ],
+    "final": "d \\approx 4.0\\ \\text{km}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q1#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "n - 3 &= \\sqrt{3n+1}"
+       },
+       {
+        "tex": "(n-3)^2 &= 3n + 1"
+       }
+      ]
+     },
+     {
+      "title": "Expand the bracket",
+      "lines": [
+       {
+        "tex": "n^2 - 6n + 9 &= 3n + 1"
+       }
+      ]
+     },
+     {
+      "title": "Collect everything on one side",
+      "lines": [
+       {
+        "tex": "n^2 - 6n + 9 - 3n - 1 &= 0"
+       },
+       {
+        "tex": "n^2 - 9n + 8 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "lines": [
+       {
+        "tex": "(n-8)(n-1) &= 0"
+       },
+       {
+        "tex": "n &= 8 \\text{ or } n = 1"
+       }
+      ]
+     },
+     {
+      "title": "Check both answers in the original equation",
+      "lines": [
+       {
+        "text": "Squaring can introduce a false solution, so test each value in $n-3=\\sqrt{3n+1}$."
+       },
+       {
+        "tex": "n = 1:\\quad 1 - 3 &= -2 \\text{ but } \\sqrt{3(1)+1} = 2"
+       },
+       {
+        "text": "The two sides differ, so $n = 1$ is rejected."
+       },
+       {
+        "tex": "n = 8:\\quad 8 - 3 &= 5 \\text{ and } \\sqrt{3(8)+1} = \\sqrt{25} = 5"
+       },
+       {
+        "text": "The two sides agree, so $n = 8$ is the solution."
+       }
+      ]
+     }
+    ],
+    "final": "n = 8"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q8#(e)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Move the fraction to the other side",
+      "lines": [
+       {
+        "tex": "\\frac{x}{6\\sqrt{x^2 + 4}} - \\frac{1}{12} &= 0"
+       },
+       {
+        "tex": "\\frac{x}{6\\sqrt{x^2 + 4}} &= \\frac{1}{12}"
+       }
+      ]
+     },
+     {
+      "title": "Get rid of the fractions",
+      "lines": [
+       {
+        "text": "Multiply both sides by $12\\sqrt{x^2 + 4}$."
+       },
+       {
+        "tex": "2x &= \\sqrt{x^2 + 4}"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides",
+      "lines": [
+       {
+        "tex": "4x^2 &= x^2 + 4"
+       }
+      ]
+     },
+     {
+      "title": "Collect the x² terms",
+      "lines": [
+       {
+        "text": "Subtract $x^2$ from both sides."
+       },
+       {
+        "tex": "3x^2 &= 4"
+       },
+       {
+        "tex": "x^2 &= \\frac{4}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "$x$ is a distance in $[0, 8]$, so reject the negative root."
+       },
+       {
+        "tex": "x &= \\frac{2}{\\sqrt{3}}"
+       },
+       {
+        "tex": "&\\approx 1.155 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "x \\approx 1.155 \\text{ km}"
+   }
+  ]
+ }
+]

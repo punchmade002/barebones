@@ -1,0 +1,741 @@
+[
+ {
+  "skill": {
+   "id": "geo-thm20",
+   "title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 20"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-higher-p2-q9#(d)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the radius as the height of triangle HSP",
+      "lines": [
+       {
+        "text": "A radius meets a tangent at $90^\\circ$, so the radius from $P$ to $[SH]$ is perpendicular to $[SH]$. It is the height of $\\triangle HSP$, with base $|SH| = 58$."
+       },
+       {
+        "tex": "\\text{Area} &= \\frac{1}{2}(58)(r)"
+       },
+       {
+        "tex": "&= 29r"
+       }
+      ]
+     }
+    ],
+    "final": "29r \\text{ m}^2"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q7#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Draw BT parallel to KH",
+      "lines": [
+       {
+        "text": "$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle."
+       },
+       {
+        "tex": "|TH| &= |BK| = r"
+       },
+       {
+        "tex": "|BT| &= |HK| = 8r"
+       },
+       {
+        "tex": "|AT| &= 4r - r"
+       },
+       {
+        "tex": "&= 3r"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in the right-angled triangle ATB",
+      "lines": [
+       {
+        "text": "$|\\angle ATB| = 90^{\\circ}$, so the hypotenuse is $[AB]$."
+       },
+       {
+        "tex": "|AB|^2 &= |AT|^2 + |BT|^2"
+       },
+       {
+        "tex": "\\left(20\\sqrt{73}\\right)^2 &= (3r)^2 + (8r)^2"
+       },
+       {
+        "tex": "400 \\times 73 &= 9r^2 + 64r^2"
+       },
+       {
+        "tex": "29200 &= 73r^2"
+       },
+       {
+        "tex": "r^2 &= 400"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "r &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "r = 20 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q5#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Show triangle ODC is equilateral",
+      "lines": [
+       {
+        "text": "$|CD| = \\frac{1}{2}|AB|$ and $|OB|$ is a radius, which is half the diameter, so $|CD| = |OB|$."
+       },
+       {
+        "text": "$|OC|$ and $|OD|$ are also radii, so all three sides of $\\triangle ODC$ are equal."
+       },
+       {
+        "text": "An equilateral triangle has all angles $60^\\circ$, so $|\\angle ODC| = 60^\\circ$."
+       }
+      ]
+     },
+     {
+      "title": "Use the parallel lines",
+      "lines": [
+       {
+        "text": "$CD \\parallel AB$, so the alternate angles are equal."
+       },
+       {
+        "tex": "|\\angle AOD| &= |\\angle ODC| = 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle at A in triangle AOD",
+      "lines": [
+       {
+        "text": "$|OA| = |OD|$ (radii), so $\\triangle AOD$ is isosceles and its base angles are equal."
+       },
+       {
+        "tex": "|\\angle OAD| &= \\frac{180 - 60}{2}"
+       },
+       {
+        "tex": "&= 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the tangent",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius (diameter) at the point of contact, so $|\\angle ABE| = 90^\\circ$."
+       },
+       {
+        "text": "In $\\triangle ABE$ the angles add to $180^\\circ$, and $|\\angle BAE| = |\\angle OAD| = 60^\\circ$."
+       },
+       {
+        "tex": "|\\angle BEA| &= 180 - 90 - 60"
+       },
+       {
+        "tex": "&= 30^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle BEA| = 30^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm4",
+   "title": "Apply Theorem 4: Angles in a triangle sum to 180°",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 4"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q8#(c)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the straight line PS",
+      "lines": [
+       {
+        "text": "$P$, $Q$ and $S$ lie on one straight line (and $\\alpha$ and $\\beta$ are on the same side), so $\\alpha + \\beta = 180^\\circ$."
+       },
+       {
+        "tex": "\\beta &= 180^\\circ - 31^\\circ"
+       },
+       {
+        "tex": "&= 149^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\beta = 149^\\circ"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the angles in triangle ABC",
+      "lines": [
+       {
+        "text": "The angles in a triangle add up to $180^\\circ$. At $A$ the angle is $30^\\circ$ and at $B$ it is $45^\\circ$."
+       },
+       {
+        "tex": "|\\angle BCA| &= 180^\\circ - 30^\\circ - 45^\\circ"
+       },
+       {
+        "tex": "|\\angle BCA| &= 105^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle BCA| = 105^\\circ"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q2#(a)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the angles of a triangle",
+      "lines": [
+       {
+        "text": "The angles of a triangle add to $180^\\circ$. The right angle is $90^\\circ$, so the other two angles add to $90^\\circ$."
+       },
+       {
+        "tex": "A + 2A &= 90"
+       },
+       {
+        "tex": "3A &= 90"
+       },
+       {
+        "tex": "A &= 30"
+       }
+      ]
+     }
+    ],
+    "final": "A = 30^\\circ"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q5#(a)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find A",
+      "lines": [
+       {
+        "text": "$A$ and the $60^\\circ$ angle are vertically opposite angles, so they are equal."
+       },
+       {
+        "tex": "|\\angle A| &= 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find B",
+      "lines": [
+       {
+        "text": "$B$, $A$ and $75^\\circ$ are the angles of the top triangle. The angles of a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle B| &= 180 - (75 + 60)"
+       },
+       {
+        "tex": "&= 180 - 135"
+       },
+       {
+        "tex": "&= 45^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle inside the bottom triangle at line k",
+      "lines": [
+       {
+        "text": "The $60^\\circ$ angle at $j$ corresponds to the $60^\\circ$ angle at $k$. The angle inside the bottom triangle is on a straight line with it."
+       },
+       {
+        "tex": "180 - 60 &= 120^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find C",
+      "lines": [
+       {
+        "text": "The angles of the bottom triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle C| &= 180 - (120 + 40)"
+       },
+       {
+        "tex": "&= 180 - 160"
+       },
+       {
+        "tex": "&= 20^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle A| = 60^\\circ, \\quad |\\angle B| = 45^\\circ, \\quad |\\angle C| = 20^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm9",
+   "title": "Apply Theorem 9: Parallelogram: opposite sides and opposite angles equal",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 9"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-ordinary-p2-q9#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the opposite sides of the parallelogram",
+      "lines": [
+       {
+        "text": "In $FBQT$, the side $[TQ]$ is parallel and equal to $[FB]$. $[FB]$ goes straight up 5 units, so $T$ is 5 units directly below $Q$."
+       },
+       {
+        "tex": "x_T &= -2"
+       },
+       {
+        "tex": "y_T &= 7 - 5"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Plot T",
+      "lines": [
+       {
+        "text": "Plot $T(-2, 2)$ and join $F$, $B$, $Q$ and $T$ to see the parallelogram."
+       }
+      ]
+     }
+    ],
+    "final": "T = (-2, 2)"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q6#(b)(i)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find α",
+      "lines": [
+       {
+        "text": "Opposite angles of a parallelogram are equal, so $\\alpha$ equals $|\\angle SPQ|$."
+       },
+       {
+        "tex": "\\alpha &= 115^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find β",
+      "lines": [
+       {
+        "text": "Adjacent angles of a parallelogram add to $180^\\circ$."
+       },
+       {
+        "tex": "\\beta &= 180^\\circ - 115^\\circ"
+       },
+       {
+        "tex": "&= 65^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\alpha = 115^\\circ, \\ \\beta = 65^\\circ"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q6#(c)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Recall what makes a parallelogram",
+      "lines": [
+       {
+        "text": "A parallelogram is a four-sided shape whose opposite sides are parallel and equal in length."
+       }
+      ]
+     },
+     {
+      "title": "Check a square against this",
+      "lines": [
+       {
+        "text": "A square has opposite sides parallel and equal in length."
+       },
+       {
+        "text": "So every square is a parallelogram: the statement is True."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{True}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q6#(b)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Opposite angles are equal: find x",
+      "lines": [
+       {
+        "text": "$(2x-30)^\\circ$ is opposite the $100^\\circ$ angle, so they are equal."
+       },
+       {
+        "tex": "2x - 30 &= 100"
+       },
+       {
+        "tex": "2x &= 130"
+       },
+       {
+        "tex": "x &= 65"
+       }
+      ]
+     },
+     {
+      "title": "Adjacent angles sum to 180°",
+      "lines": [
+       {
+        "text": "$(x+3y)^\\circ$ and $100^\\circ$ are adjacent angles, so they add to $180^\\circ$."
+       },
+       {
+        "tex": "x + 3y + 100 &= 180"
+       },
+       {
+        "tex": "x + 3y &= 80"
+       }
+      ]
+     },
+     {
+      "title": "Substitute x = 65 and solve for y",
+      "lines": [
+       {
+        "tex": "65 + 3y &= 80"
+       },
+       {
+        "tex": "3y &= 80 - 65"
+       },
+       {
+        "tex": "3y &= 15"
+       },
+       {
+        "tex": "y &= 5"
+       }
+      ]
+     }
+    ],
+    "final": "x = 65,\\ y = 5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-transformations",
+   "title": "Find images under translation, central symmetry, axial symmetry and rotation",
+   "level": "JC",
+   "input": "point/shape + transformation",
+   "output": "image; axes/centre of symmetry"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q2#(d)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the translation that takes U to V",
+      "lines": [
+       {
+        "tex": "U(4, 6) &\\to V(9, 7)"
+       },
+       {
+        "tex": "\\text{Horizontal move} &= 9 - 4 = 5"
+       },
+       {
+        "tex": "\\text{Vertical move} &= 7 - 6 = 1"
+       }
+      ]
+     },
+     {
+      "title": "Apply the same translation to Q",
+      "lines": [
+       {
+        "tex": "Q(1, 2) &\\to (1+5, 2+1)"
+       },
+       {
+        "tex": "S &= (6, 3)"
+       }
+      ]
+     }
+    ],
+    "final": "S = (6, 3)"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q4#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the translation that takes S to P",
+      "lines": [
+       {
+        "text": "$PQRS$ is a square, so $S \\to P$ is the same move as $R \\to Q$."
+       },
+       {
+        "tex": "S(-4, 11) &\\to P(2, 3)"
+       },
+       {
+        "text": "The $x$-co-ordinate goes up by $2 - (-4) = 6$ and the $y$-co-ordinate goes down by $11 - 3 = 8$."
+       }
+      ]
+     },
+     {
+      "title": "Apply the same translation to R",
+      "lines": [
+       {
+        "tex": "R(4, 17) &\\to (4 + 6,\\ 17 - 8)"
+       },
+       {
+        "tex": "&= (10, 9)"
+       }
+      ]
+     }
+    ],
+    "final": "Q(10, 9)"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q1#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find L using the symmetry about the y-axis",
+      "lines": [
+       {
+        "text": "$L$ is the reflection of $M(9, 1)$ in the $y$-axis, so $L = (-9, 1)$."
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the length of LM",
+      "lines": [
+       {
+        "text": "$L$ and $M$ have the same $y$-value, so the length is the difference in $x$-values."
+       },
+       {
+        "tex": "|LM| &= 9 - (-9)"
+       },
+       {
+        "tex": "&= 18"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Write the equation of LM",
+      "lines": [
+       {
+        "text": "Every point on $LM$ has $y = 1$, so the horizontal line is $y = 1$."
+       }
+      ]
+     }
+    ],
+    "final": "|LM| = 18, \\quad y = 1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "con-21",
+   "title": "Construction 21: Centroid of a triangle",
+   "level": "OL",
+   "input": "given points/lines/measurements",
+   "output": "accurate construction with construction lines shown"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q9#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Construct the midpoint D of [AB]",
+      "lines": [
+       {
+        "text": "Set the compass to more than half of $|AB|$. Put the point on $A$ and draw an arc above and below the line $AB$."
+       },
+       {
+        "text": "Keep the same compass width. Put the point on $B$ and draw two arcs that cross the first two arcs."
+       },
+       {
+        "text": "Join the two crossing points with a straight line. It meets $[AB]$ at its midpoint. Label this point $D$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the median from C",
+      "lines": [
+       {
+        "text": "A median joins a vertex to the midpoint of the opposite side. Join $C$ to $D$."
+       }
+      ]
+     },
+     {
+      "title": "Draw a second median",
+      "lines": [
+       {
+        "text": "Find the midpoint $E$ of $[BC]$ by measuring: $|BC| = 10$ cm, so $E$ is $5$ cm from $B$. (Or bisect $[BC]$ with arcs as before.)"
+       },
+       {
+        "text": "Join $A$ to $E$."
+       }
+      ]
+     },
+     {
+      "title": "Mark the centroid",
+      "lines": [
+       {
+        "text": "The medians cross at the centroid. Label this point $O$."
+       }
+      ]
+     }
+    ],
+    "final": "D \\text{ is the midpoint of } [AB] \\text{ and } O \\text{ is the centroid}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q6#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the midpoint of $[BC]$",
+      "lines": [
+       {
+        "text": "The centroid is where the three medians meet. A median joins a vertex to the midpoint of the opposite side."
+       },
+       {
+        "text": "Measure $|BC|=11.7$ cm and mark the midpoint at 5.85 cm from $B$. Call this midpoint $D$."
+       }
+      ]
+     },
+     {
+      "title": "Find the midpoint of $[AC]$",
+      "lines": [
+       {
+        "text": "Measure $|AC|=11.1$ cm and mark the midpoint at 5.55 cm from $A$. Call it $E$."
+       }
+      ]
+     },
+     {
+      "title": "Draw two medians",
+      "lines": [
+       {
+        "text": "Join $A$ to $D$ and $B$ to $E$. Two medians are enough, since all three pass through the same point."
+       },
+       {
+        "text": "The centroid $G$ is where $[AD]$ and $[BE]$ cross. The third median, from $C$ to the midpoint of $[AB]$, also passes through $G$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centroid } G \\text{ is where the medians cross}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q4#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Recall what the centroid is",
+      "lines": [
+       {
+        "text": "The centroid is the point where the three medians meet. A median joins a vertex to the midpoint of the opposite side, so two medians are enough."
+       }
+      ]
+     },
+     {
+      "title": "Find the midpoint of PQ",
+      "lines": [
+       {
+        "text": "Set the compass to more than half of $|PQ|$. Draw an arc above and below $PQ$ from $P$, then the same arcs from $Q$."
+       },
+       {
+        "text": "Join the two points where the arcs cross. This line cuts $PQ$ at its midpoint $M_1$. (Or measure $|PQ|$ and mark half of it.)"
+       }
+      ]
+     },
+     {
+      "title": "Find the midpoint of QR",
+      "lines": [
+       {
+        "text": "Repeat the arcs from $Q$ and $R$ and join the crossing points. This cuts $QR$ at its midpoint $M_2$."
+       }
+      ]
+     },
+     {
+      "title": "Draw two medians and mark the centroid",
+      "lines": [
+       {
+        "text": "Draw the line from $R$ to $M_1$ and the line from $P$ to $M_2$."
+       },
+       {
+        "text": "These medians cross at $G$, the centroid. A third median from $Q$ to the midpoint of $PR$ would pass through $G$ too."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centroid } G = \\text{intersection of the medians}"
+   }
+  ]
+ }
+]

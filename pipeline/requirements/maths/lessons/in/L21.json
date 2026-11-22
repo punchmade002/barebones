@@ -1,0 +1,1313 @@
+[
+ {
+  "skill": {
+   "id": "stat-scatter-correlation",
+   "title": "Read scatter plots and correlation",
+   "level": "OL",
+   "input": "bivariate data/plot",
+   "output": "strength and direction; match r to plot; correlation ≠ causation"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(f)(i)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Plot each remaining (rainfall, sunshine) pair",
+      "lines": [
+       {
+        "text": "Each year gives one point: rainfall across, sunshine up. The four plotted points are 2001 to 2004."
+       },
+       {
+        "text": "2005: (94, 173). 2006: (47, 239). 2007: (149, 159)."
+       },
+       {
+        "text": "2008: (134, 168). 2009: (94, 228). 2010: (84, 205)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{six points plotted as shown}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(f)(ii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the pattern of the points",
+      "lines": [
+       {
+        "text": "As rainfall goes up, sunshine tends to go down, so the correlation is negative."
+       },
+       {
+        "text": "The points are fairly close to a downward line, so it is moderate to strong. Tick $-0.6$."
+       }
+      ]
+     }
+    ],
+    "final": "-0.6"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(b)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Plot each male as (height, arm span)",
+      "lines": [
+       {
+        "text": "Height goes on the horizontal axis and arm span on the vertical axis."
+       },
+       {
+        "text": "The eight males are $(168, 169)$, $(147, 150)$, $(134, 121)$, $(177, 176)$, $(172, 170)$, $(160, 163)$, $(152, 151)$ and $(153, 151)$."
+       },
+       {
+        "text": "Mark each one as a filled dot at that position."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Eight male points plotted}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(b)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Judge the strength and direction from the scatter plot",
+      "lines": [
+       {
+        "text": "The points rise from bottom left to top right, so the correlation is positive. This rules out $-0.6$."
+       },
+       {
+        "text": "They lie close to a straight line, so the correlation is strong. This rules out $0.2$."
+       },
+       {
+        "text": "So $0.9$ is the best choice."
+       }
+      ]
+     }
+    ],
+    "final": "0.9"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q5#(b)(iii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Say what 0.9 means in context",
+      "lines": [
+       {
+        "text": "There is a strong positive linear relationship between height and arm span."
+       },
+       {
+        "text": "Taller people are very likely to have a longer arm span."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Strong positive linear relationship}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(iii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Pick the value of r from the data",
+      "lines": [
+       {
+        "text": "Dogs that are heavier on Day X tend to be heavier on Day Y, so the points rise from left to right."
+       },
+       {
+        "text": "So the correlation is positive, which rules out $-0.9$ and $-0.2$."
+       },
+       {
+        "text": "The points lie close to a straight line, so the correlation is strong. $0.2$ is too weak, so $r = 0.9$."
+       }
+      ]
+     }
+    ],
+    "final": "r = 0.9"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-sd",
+   "title": "Calculate standard deviation (calculator)",
+   "level": "OL",
+   "input": "data set or frequency table",
+   "output": "σ"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(d)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the spreads",
+      "lines": [
+       {
+        "text": "The girls' standard deviation ($7.7$ cm) is smaller than the boys' ($8.9$ cm), so the girls' heights are less spread out and closer to their mean. The boys' heights vary more."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Girls' heights are less spread out}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(c)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the calculator in statistics mode",
+      "lines": [
+       {
+        "text": "Enter the 13 Meat values into the calculator and read off the population standard deviation $\\sigma$."
+       },
+       {
+        "tex": "\\sigma &\\approx 50.99"
+       },
+       {
+        "tex": "&\\approx 51"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}51"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(e)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the mean of the rainfall",
+      "lines": [
+       {
+        "tex": "\\text{Sum} &= 72+133+155+101+94+47+149+134+94+84"
+       },
+       {
+        "tex": "&= 1063"
+       },
+       {
+        "tex": "\\mu &= \\frac{1063}{10}"
+       },
+       {
+        "tex": "&= 106.3"
+       }
+      ]
+     },
+     {
+      "title": "Square each difference from the mean",
+      "lines": [
+       {
+        "tex": "(72 - 106.3)^2 &= 1176.49"
+       },
+       {
+        "tex": "(133 - 106.3)^2 &= 712.89"
+       },
+       {
+        "tex": "(155 - 106.3)^2 &= 2371.69"
+       },
+       {
+        "tex": "(101 - 106.3)^2 &= 28.09"
+       },
+       {
+        "tex": "(94 - 106.3)^2 &= 151.29"
+       },
+       {
+        "tex": "(47 - 106.3)^2 &= 3516.49"
+       },
+       {
+        "tex": "(149 - 106.3)^2 &= 1823.29"
+       },
+       {
+        "tex": "(134 - 106.3)^2 &= 767.29"
+       },
+       {
+        "tex": "(94 - 106.3)^2 &= 151.29"
+       },
+       {
+        "tex": "(84 - 106.3)^2 &= 497.29"
+       }
+      ]
+     },
+     {
+      "title": "Add the squares",
+      "lines": [
+       {
+        "tex": "\\sum (x-\\mu)^2 &= 1176.49+712.89+2371.69+28.09+151.29+3516.49+1823.29+767.29+151.29+497.29"
+       },
+       {
+        "tex": "&= 11196.1"
+       }
+      ]
+     },
+     {
+      "title": "Divide by n and take the square root",
+      "lines": [
+       {
+        "tex": "\\sigma^2 &= \\frac{11196.1}{10}"
+       },
+       {
+        "tex": "&= 1119.61"
+       },
+       {
+        "tex": "\\sigma &= \\sqrt{1119.61}"
+       },
+       {
+        "tex": "&= 33.46"
+       },
+       {
+        "tex": "&\\approx 33.5 \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "33.5 \\text{ mm}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q4#(c)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "Range = largest value $-$ smallest value."
+       },
+       {
+        "tex": "\\text{Range} &= 113 - 82"
+       },
+       {
+        "tex": "&= 31"
+       }
+      ]
+     },
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{104 + 82 + 94 + 113 + 98 + 105}{6}"
+       },
+       {
+        "tex": "&= \\frac{596}{6}"
+       },
+       {
+        "tex": "&= \\frac{298}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the standard deviation formula",
+      "lines": [
+       {
+        "text": "$\\sigma = \\sqrt{\\dfrac{\\sum (x - \\bar{x})^2}{n}}$ with $n = 6$. You can also read $\\sigma$ straight from a calculator."
+       },
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{(104 - \\bar{x})^2 + (82 - \\bar{x})^2 + (94 - \\bar{x})^2 + (113 - \\bar{x})^2 + (98 - \\bar{x})^2 + (105 - \\bar{x})^2}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\left(\\frac{14}{3}\\right)^2 + \\left(-\\frac{52}{3}\\right)^2 + \\left(-\\frac{16}{3}\\right)^2 + \\left(\\frac{41}{3}\\right)^2 + \\left(-\\frac{4}{3}\\right)^2 + \\left(\\frac{17}{3}\\right)^2}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{196}{9} + \\frac{2704}{9} + \\frac{256}{9} + \\frac{1681}{9} + \\frac{16}{9} + \\frac{289}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{196 + 2704 + 256 + 1681 + 16 + 289}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{5142}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{857}{9}}"
+       },
+       {
+        "tex": "&= 9.758\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Round to 1 decimal place",
+      "lines": [
+       {
+        "tex": "\\sigma &\\approx 9.8"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Range} = 31, \\quad \\sigma = 9.8"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q1#(a)(ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add up the 12 values",
+      "lines": [
+       {
+        "tex": "\\sum x &= 114+42+186+93+64+94+224+129+148+180+114+203"
+       },
+       {
+        "tex": "&= 1591"
+       }
+      ]
+     },
+     {
+      "title": "Work out the mean",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{1591}{12}"
+       },
+       {
+        "tex": "&= 132.58..."
+       },
+       {
+        "tex": "&= 133 \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "title": "Square each value and add them up",
+      "lines": [
+       {
+        "text": "Squares: $114^2=12996$, $42^2=1764$, $186^2=34596$, $93^2=8649$, $64^2=4096$, $94^2=8836$, $224^2=50176$, $129^2=16641$, $148^2=21904$, $180^2=32400$, $114^2=12996$, $203^2=41209$."
+       },
+       {
+        "tex": "\\sum x^2 &= 12996+1764+34596+8649+4096+8836+50176+16641+21904+32400+12996+41209"
+       },
+       {
+        "tex": "&= 246263"
+       }
+      ]
+     },
+     {
+      "title": "Use the standard deviation formula",
+      "lines": [
+       {
+        "text": "Use $\\sigma = \\sqrt{\\frac{\\sum x^2}{n} - \\bar{x}^2}$ with $n = 12$ and the unrounded mean."
+       },
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{246263}{12} - \\left(\\frac{1591}{12}\\right)^2}"
+       },
+       {
+        "tex": "&= \\sqrt{20521.92 - 17578.34}"
+       },
+       {
+        "tex": "&= \\sqrt{2943.58}"
+       },
+       {
+        "tex": "&= 54.25..."
+       },
+       {
+        "tex": "&= 54 \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Mean} = 133 \\text{ mm}, \\quad \\text{Standard deviation} = 54 \\text{ mm}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Add the heart rates after exercise",
+      "lines": [
+       {
+        "tex": "\\sum x &= 71+81+79+108+91+83+102+113+118+87"
+       },
+       {
+        "tex": "&= 933"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the number of values to find the mean",
+      "lines": [
+       {
+        "text": "There are $n = 10$ values."
+       },
+       {
+        "tex": "\\mu &= \\frac{\\sum x}{n}"
+       },
+       {
+        "tex": "&= \\frac{933}{10}"
+       },
+       {
+        "tex": "&= 93.3"
+       }
+      ]
+     },
+     {
+      "title": "Square each value and add",
+      "lines": [
+       {
+        "tex": "\\sum x^2 &= 71^2+81^2+79^2+108^2+91^2+83^2+102^2+113^2+118^2+87^2"
+       },
+       {
+        "tex": "&= 5041+6561+6241+11664+8281+6889+10404+12769+13924+7569"
+       },
+       {
+        "tex": "&= 89343"
+       }
+      ]
+     },
+     {
+      "title": "Find the variance",
+      "lines": [
+       {
+        "text": "Use $\\sigma^2 = \\frac{\\sum x^2}{n} - \\mu^2$."
+       },
+       {
+        "tex": "\\sigma^2 &= \\frac{89343}{10} - 93.3^2"
+       },
+       {
+        "tex": "&= 8934.3 - 8704.89"
+       },
+       {
+        "tex": "&= 229.41"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "\\sigma &= \\sqrt{229.41}"
+       },
+       {
+        "tex": "&= 15.146"
+       },
+       {
+        "tex": "&= 15.1"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Mean} = 93.3, \\quad \\sigma = 15.1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-ci-mean",
+   "title": "Construct a 95% confidence interval for a mean (large sample)",
+   "level": "HL",
+   "input": "x̄, σ (or s), n",
+   "output": "x̄ ± 1.96 σ/√n"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Choose the formula",
+      "lines": [
+       {
+        "text": "A 95% confidence interval for the mean is $\\bar{x} \\pm 1.96 \\dfrac{s}{\\sqrt{n}}$, with $\\bar{x} = 90.45$, $s = 20.73$, $n = 100$."
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "1.96 \\times \\frac{20.73}{\\sqrt{100}} &= 1.96 \\times \\frac{20.73}{10}"
+       },
+       {
+        "tex": "&= 1.96 \\times 2.073"
+       },
+       {
+        "tex": "&= 4.063"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the margin from the mean",
+      "lines": [
+       {
+        "tex": "90.45 - 4.063 &= 86.387"
+       },
+       {
+        "tex": "&= 86.39"
+       },
+       {
+        "tex": "90.45 + 4.063 &= 94.513"
+       },
+       {
+        "tex": "&= 94.51"
+       }
+      ]
+     }
+    ],
+    "final": "\\left(\\text{€}86.39,\\ \\text{€}94.51\\right)"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q9#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the 95% confidence interval",
+      "lines": [
+       {
+        "text": "Use $\\bar{x} \\pm 1.96\\dfrac{s}{\\sqrt{n}}$ with $\\bar{x} = 26\\,974$, $s = 5120$ and $n = 400$."
+       },
+       {
+        "tex": "\\text{Interval} &= 26974 \\pm 1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Work out the margin of error",
+      "lines": [
+       {
+        "tex": "E &= 1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)"
+       },
+       {
+        "tex": "&= 1.96\\left(\\frac{5120}{20}\\right)"
+       },
+       {
+        "tex": "&= 1.96 \\times 256"
+       },
+       {
+        "tex": "&= 501.76"
+       }
+      ]
+     },
+     {
+      "title": "Find the two ends of the interval",
+      "lines": [
+       {
+        "tex": "\\text{Lower} &= 26974 - 501.76"
+       },
+       {
+        "tex": "&= 26472.24"
+       },
+       {
+        "tex": "\\text{Upper} &= 26974 + 501.76"
+       },
+       {
+        "tex": "&= 27475.76"
+       }
+      ]
+     }
+    ],
+    "final": "26472.24 \\le \\mu \\le 27475.76"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(b)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the confidence interval formula",
+      "lines": [
+       {
+        "text": "A $95\\%$ confidence interval uses $1.96$ standard errors."
+       },
+       {
+        "tex": "\\bar{x} &\\pm 1.96\\frac{\\sigma}{\\sqrt{n}}"
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "text": "$\\bar{x} = 3.74$, $\\sigma = 0.36$, $n = 64$."
+       },
+       {
+        "tex": "1.96 \\times \\frac{0.36}{\\sqrt{64}} &= 1.96 \\times \\frac{0.36}{8}"
+       },
+       {
+        "tex": "&= 1.96 \\times 0.045"
+       },
+       {
+        "tex": "&= 0.0882"
+       }
+      ]
+     },
+     {
+      "title": "Find the lower limit",
+      "lines": [
+       {
+        "tex": "3.74 - 0.0882 &= 3.6518"
+       }
+      ]
+     },
+     {
+      "title": "Find the upper limit",
+      "lines": [
+       {
+        "tex": "3.74 + 0.0882 &= 3.8282"
+       }
+      ]
+     }
+    ],
+    "final": "3.6518 \\le \\mu \\le 3.8282"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q10#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the 95% confidence interval formula",
+      "lines": [
+       {
+        "text": "For country X: $\\bar{x} = 387$, $s = 66.2$, $n = 2161$. For 95% the multiplier is 1.96."
+       },
+       {
+        "tex": "\\bar{x} &\\pm 1.96\\,\\frac{s}{\\sqrt{n}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the values",
+      "lines": [
+       {
+        "tex": "&= 387 \\pm 1.96\\left(\\frac{66.2}{\\sqrt{2161}}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Work out the margin of error",
+      "lines": [
+       {
+        "tex": "\\frac{66.2}{\\sqrt{2161}} &= 1.424\\ldots"
+       },
+       {
+        "tex": "1.96 \\times 1.424\\ldots &= 2.79\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Find the lower endpoint",
+      "lines": [
+       {
+        "tex": "387 - 2.79\\ldots &= 384.2088\\ldots"
+       },
+       {
+        "tex": "&\\approx 384.2"
+       }
+      ]
+     },
+     {
+      "title": "Find the upper endpoint",
+      "lines": [
+       {
+        "tex": "387 + 2.79\\ldots &= 389.7912\\ldots"
+       },
+       {
+        "tex": "&\\approx 389.8"
+       }
+      ]
+     }
+    ],
+    "final": "384.2 < \\mu < 389.8"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-ci-proportion",
+   "title": "Construct a 95% confidence interval for a proportion",
+   "level": "HL",
+   "input": "p̂, n",
+   "output": "p̂ ± 1.96√(p̂(1 − p̂)/n)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(a)(ii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{324}{400}"
+       },
+       {
+        "tex": "&= 0.81"
+       }
+      ]
+     },
+     {
+      "title": "Write the 95% confidence interval",
+      "lines": [
+       {
+        "text": "The interval is $\\hat{p} \\pm 1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$, with $\\hat{p} = 0.81$ and $n = 400$."
+       },
+       {
+        "tex": "\\text{margin} &= 1.96\\sqrt{\\frac{0.81 \\times 0.19}{400}}"
+       },
+       {
+        "tex": "&= 1.96\\sqrt{0.00038475}"
+       },
+       {
+        "tex": "&\\approx 1.96 \\times 0.019615"
+       },
+       {
+        "tex": "&\\approx 0.038445"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the margin",
+      "lines": [
+       {
+        "tex": "0.81 - 0.038445 \\le p &\\le 0.81 + 0.038445"
+       },
+       {
+        "tex": "0.771555 \\le p &\\le 0.848445"
+       },
+       {
+        "tex": "0.77 \\le p &\\le 0.85"
+       }
+      ]
+     }
+    ],
+    "final": "0.77 \\le p \\le 0.85"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(a)(i)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{174}{800}"
+       },
+       {
+        "tex": "&= 0.2175"
+       }
+      ]
+     },
+     {
+      "title": "Find the standard error",
+      "lines": [
+       {
+        "tex": "\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{(0.2175)(0.7825)}{800}}"
+       },
+       {
+        "tex": "&= \\sqrt{0.00021274}"
+       },
+       {
+        "tex": "&= 0.014586"
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error at 95%",
+      "lines": [
+       {
+        "text": "For a 95% interval the multiplier is $1.96$."
+       },
+       {
+        "tex": "\\text{Margin} &= 1.96 \\times 0.014586"
+       },
+       {
+        "tex": "&= 0.02859"
+       }
+      ]
+     },
+     {
+      "title": "Subtract and add the margin to the proportion",
+      "lines": [
+       {
+        "tex": "0.2175 - 0.02859 &= 0.18891"
+       },
+       {
+        "tex": "0.2175 + 0.02859 &= 0.24609"
+       }
+      ]
+     }
+    ],
+    "final": "0.1889 < p < 0.2461"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q5#(a)(iii)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the formula for a 95% interval",
+      "lines": [
+       {
+        "text": "Use $\\hat{p} \\pm 1.96\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}$ with $\\hat{p} = 0.3375$ and $n = 400$."
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.3375(1-0.3375)}{400}} &= 1.96\\sqrt{\\frac{0.22359375}{400}}"
+       },
+       {
+        "tex": "&\\approx 0.04633"
+       }
+      ]
+     },
+     {
+      "title": "Lower end of the interval",
+      "lines": [
+       {
+        "tex": "0.3375 - 0.04633 &\\approx 0.2912"
+       }
+      ]
+     },
+     {
+      "title": "Upper end of the interval",
+      "lines": [
+       {
+        "tex": "0.3375 + 0.04633 &\\approx 0.3838"
+       }
+      ]
+     }
+    ],
+    "final": "[0.2912,\\ 0.3838]"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the radius of the 95% confidence interval",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= 0.01568"
+       }
+      ]
+     },
+     {
+      "title": "Divide by 1.96 and square both sides",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= \\frac{0.01568}{1.96}"
+       },
+       {
+        "tex": "\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= 0.008"
+       },
+       {
+        "tex": "\\frac{\\hat{p}(1-\\hat{p})}{2500} &= 0.000064"
+       }
+      ]
+     },
+     {
+      "title": "Form a quadratic in p-hat",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1-\\hat{p}) &= 0.16"
+       },
+       {
+        "tex": "\\hat{p} - \\hat{p}^2 &= 0.16"
+       },
+       {
+        "tex": "\\hat{p}^2 - \\hat{p} + 0.16 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve with the quadratic formula",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{1 \\pm \\sqrt{1 - 4(0.16)}}{2}"
+       },
+       {
+        "tex": "\\hat{p} &= \\frac{1 \\pm \\sqrt{0.36}}{2}"
+       },
+       {
+        "tex": "\\hat{p} &= \\frac{1 \\pm 0.6}{2}"
+       },
+       {
+        "tex": "\\hat{p} &= 0.8 \\text{ or } 0.2"
+       }
+      ]
+     },
+     {
+      "title": "Reject the value outside the range",
+      "lines": [
+       {
+        "text": "We are told $0.5 < \\hat{p} \\le 1$, so $\\hat{p} = 0.2$ is rejected."
+       },
+       {
+        "tex": "\\hat{p} &= \\frac{4}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hat{p} = \\frac{4}{5}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{350}{800}"
+       },
+       {
+        "tex": "&= 0.4375"
+       },
+       {
+        "tex": "&= 43.75\\%"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the margin of error",
+      "lines": [
+       {
+        "text": "The 95% confidence interval is $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$, with margin of error 3.54%."
+       },
+       {
+        "tex": "\\text{Lower} &= 43.75 - 3.54"
+       },
+       {
+        "tex": "&= 40.21"
+       },
+       {
+        "tex": "\\text{Upper} &= 43.75 + 3.54"
+       },
+       {
+        "tex": "&= 47.29"
+       }
+      ]
+     }
+    ],
+    "final": "40.21\\% < p < 47.29\\%"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(a)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sample proportion",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{762}{1000}"
+       },
+       {
+        "tex": "&= 0.762"
+       },
+       {
+        "tex": "&= 76.2\\%"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract the margin of error",
+      "lines": [
+       {
+        "text": "The 95% confidence interval is $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$, using $3.2\\%$ from part (i)."
+       },
+       {
+        "tex": "\\text{Lower} &= 76.2 - 3.2"
+       },
+       {
+        "tex": "&= 73.0"
+       },
+       {
+        "tex": "\\text{Upper} &= 76.2 + 3.2"
+       },
+       {
+        "tex": "&= 79.4"
+       }
+      ]
+     }
+    ],
+    "final": "73\\% \\le \\mu \\le 79.4\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-hypothesis-moe",
+   "title": "Test a claim about a proportion using margin of error",
+   "level": "OL",
+   "input": "claimed p, p̂, n",
+   "output": "interval p̂ ± 1/√n; reject/fail to reject"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q7#(b)(iii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "The null hypothesis says nothing has changed from 65%."
+       },
+       {
+        "tex": "H_0: p &= 65\\%"
+       },
+       {
+        "tex": "H_1: p &\\ne 65\\%"
+       }
+      ]
+     },
+     {
+      "title": "Compare 65% with the confidence interval",
+      "lines": [
+       {
+        "tex": "65 &\\in [64.6,\\ 73.2]"
+       },
+       {
+        "text": "65% lies inside the 95% interval, so there is not enough evidence to reject $H_0$."
+       },
+       {
+        "text": "Conclusion: at the 5% level of significance, the Netflix share of the market has not changed."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Fail to reject } H_0: \\text{ the Netflix share has not changed}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q8#(c)(iii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the confidence interval",
+      "lines": [
+       {
+        "text": "The interval is $\\hat{p} \\pm \\dfrac{1}{\\sqrt{n}}$, with $\\hat{p} = 13\\%$ and margin of error $3.5\\%$."
+       },
+       {
+        "tex": "13 - 3.5 &= 9.5"
+       },
+       {
+        "tex": "13 + 3.5 &= 16.5"
+       },
+       {
+        "tex": "9.5 \\le p &\\le 16.5"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion and the reason",
+      "lines": [
+       {
+        "text": "Conclusion: there is evidence that the percentage of new cars that are electric in 2024 is different from 2023."
+       },
+       {
+        "text": "Reason: $19.2\\%$ is outside the interval $9.5\\%$ to $16.5\\%$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{There is evidence of a difference: } 19.2\\% \\text{ is outside } 9.5\\% \\text{ to } 16.5\\%"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(c)(iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "tex": "H_0 &: p = 53\\%"
+       },
+       {
+        "tex": "H_1 &: p \\ne 53\\%"
+       }
+      ]
+     },
+     {
+      "title": "Compare the claim with the confidence interval",
+      "lines": [
+       {
+        "text": "The 95% confidence interval is $45\\% < p < 51\\%$. The claimed value $53\\%$ is not inside it."
+       }
+      ]
+     },
+     {
+      "title": "Conclude in context",
+      "lines": [
+       {
+        "text": "Reject $H_0$ at the 5% level. There is evidence that the party's claim that 53% of the Irish population think the UK leaving the EU would hurt the Irish economy is false."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the party's claim is false}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "tex": "H_0 &: p = 40\\%"
+       },
+       {
+        "tex": "H_1 &: p \\ne 40\\%"
+       }
+      ]
+     },
+     {
+      "title": "Compare 40% with the confidence interval",
+      "lines": [
+       {
+        "text": "The 95% interval is $[32.5\\%, 37.5\\%]$. The value 40% is not inside it."
+       }
+      ]
+     },
+     {
+      "title": "Conclude in context",
+      "lines": [
+       {
+        "text": "Reject $H_0$. At the 5% level, the percentage of viewers who like the show is not 40%, so the executive's claim is rejected."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0: \\text{ the percentage who like the show is not } 40\\%"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q8#(b)(iii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "tex": "H_0 &: \\text{the level of support is } 50\\%"
+       },
+       {
+        "tex": "H_1 &: \\text{the level of support is not } 50\\%"
+       }
+      ]
+     },
+     {
+      "title": "Compare 50% with the confidence interval",
+      "lines": [
+       {
+        "text": "The 95% confidence interval from part (ii) is $[40.21\\%, 47.29\\%]$."
+       },
+       {
+        "tex": "50\\% &\\notin [40.21\\%, 47.29\\%]"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion and reason",
+      "lines": [
+       {
+        "text": "Reason: 50% is not inside the 95% confidence interval, so there is not enough evidence to support the newspaper claim."
+       },
+       {
+        "text": "Conclusion: reject $H_0$. The level of support for abolishing daylight saving time in the area is not 50%."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0:\\ 50\\% \\notin [40.21\\%, 47.29\\%]"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q3#(a)(iii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$: the percentage who believe it is safe is $80\\%$."
+       },
+       {
+        "text": "$H_1$: the percentage who believe it is safe is not $80\\%$."
+       }
+      ]
+     },
+     {
+      "title": "Compare 80% with the confidence interval",
+      "lines": [
+       {
+        "text": "The 95% confidence interval from part (ii) is $73\\%$ to $79.4\\%$."
+       },
+       {
+        "text": "$80\\%$ is not inside this interval."
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion in context",
+      "lines": [
+       {
+        "text": "Reject $H_0$ at the 5% level. There is sufficient evidence that the percentage of people who believe it is safe to give credit card details online is not $80\\%$."
+       },
+       {
+        "text": "Reason: $80\\%$ lies outside the 95% confidence interval."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the percentage is not } 80\\%\\text{, since } 80\\% \\text{ is outside } [73\\%, 79.4\\%]"
+   }
+  ]
+ }
+]

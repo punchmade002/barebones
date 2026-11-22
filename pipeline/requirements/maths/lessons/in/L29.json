@@ -1,0 +1,1301 @@
+[
+ {
+  "skill": {
+   "id": "eq-word-problem",
+   "title": "Form and solve an equation from a context",
+   "level": "OL",
+   "input": "verbal problem",
+   "output": "equation, solution, interpretation"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p1-q9#(c)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write an equation for the number of users",
+      "lines": [
+       {
+        "text": "Let $u$ be the number of users. Earnings = users $\\times$ 0.0012."
+       },
+       {
+        "tex": "1285.37 &= 0.0012u"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 0.0012",
+      "lines": [
+       {
+        "tex": "u &= \\frac{1285.37}{0.0012}"
+       },
+       {
+        "tex": "u &\\approx 1071141.67"
+       },
+       {
+        "tex": "u &\\approx 1071142"
+       }
+      ]
+     }
+    ],
+    "final": "1\\,071\\,142 \\text{ users}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q1#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the pay for the deliveries",
+      "lines": [
+       {
+        "text": "She is paid $\\text{€}2$ for each of her 5 deliveries."
+       },
+       {
+        "tex": "5 \\times \\text{€}2 &= \\text{€}10"
+       }
+      ]
+     },
+     {
+      "title": "Subtract this from the total pay",
+      "lines": [
+       {
+        "text": "What is left is the pay for the 2 hours worked."
+       },
+       {
+        "tex": "\\text{€}28 - \\text{€}10 &= \\text{€}18"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the 2 hours",
+      "lines": [
+       {
+        "tex": "\\text{€}18 \\div 2 &= \\text{€}9"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}9 \\text{ per hour}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q1#(b)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the pay for the hours",
+      "lines": [
+       {
+        "text": "The hourly rate is $\\text{€}9$, so $h$ hours pay:"
+       },
+       {
+        "tex": "\\text{Hours pay} &= 9h"
+       }
+      ]
+     },
+     {
+      "title": "Write the pay for the deliveries",
+      "lines": [
+       {
+        "text": "Each delivery pays $\\text{€}2$, so $d$ deliveries pay:"
+       },
+       {
+        "tex": "\\text{Delivery pay} &= 2d"
+       }
+      ]
+     },
+     {
+      "title": "Add the two amounts",
+      "lines": [
+       {
+        "tex": "w &= 9h + 2d"
+       }
+      ]
+     }
+    ],
+    "final": "w = 9h + 2d"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Take away the basic salary and the first commission",
+      "lines": [
+       {
+        "text": "Basic salary plus the commission on the first $\\text{€}1000$ is $\\text{€}350$, and $\\text{€}1160$ is more than this, so some sales were above $\\text{€}1000$."
+       },
+       {
+        "tex": "1160 - 150 - 200 &= 810"
+       },
+       {
+        "tex": "&= \\text{€}810"
+       }
+      ]
+     },
+     {
+      "title": "The remaining 810 is 30% of the sales above 1000",
+      "lines": [
+       {
+        "tex": "0.3x &= 810"
+       },
+       {
+        "tex": "x &= \\frac{810}{0.3}"
+       },
+       {
+        "tex": "x &= 2700"
+       }
+      ]
+     },
+     {
+      "title": "Add the first 1000 of sales",
+      "lines": [
+       {
+        "tex": "\\text{Total sales} &= 1000 + 2700"
+       },
+       {
+        "tex": "&= \\text{€}3700"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}3700"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q10#(c)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Decide which band the value is in",
+      "lines": [
+       {
+        "text": "The first €1000 costs €10, and a value of €10 000 costs €190, so €142.80 is in the middle band."
+       },
+       {
+        "text": "Let $V$ be the value. The cost is $10 + 2\\%$ of the excess over €1000."
+       }
+      ]
+     },
+     {
+      "title": "Write an equation",
+      "lines": [
+       {
+        "tex": "10 + 0.02(V - 1000) &= 142.80"
+       }
+      ]
+     },
+     {
+      "title": "Solve for V",
+      "lines": [
+       {
+        "tex": "0.02(V - 1000) &= 132.80"
+       },
+       {
+        "tex": "V - 1000 &= \\frac{132.80}{0.02}"
+       },
+       {
+        "tex": "V - 1000 &= 6640"
+       },
+       {
+        "tex": "V &= 7640"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}7640"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q9#(b)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the fuel cost per km for each car",
+      "lines": [
+       {
+        "text": "A litre costs €1.50 = 150 cent."
+       },
+       {
+        "tex": "\\text{Amanda: } \\frac{150}{15} &= 10 \\text{ cent per km}"
+       },
+       {
+        "tex": "\\text{Cathal: } \\frac{150}{10} &= 15 \\text{ cent per km}"
+       },
+       {
+        "text": "So Amanda pays €0.10 per km and Cathal pays €0.15 per km."
+       }
+      ]
+     },
+     {
+      "title": "Write the total cost of each car after k km",
+      "lines": [
+       {
+        "text": "Total cost = price of car + fuel cost. Let $k$ be the number of km."
+       },
+       {
+        "tex": "\\text{Amanda total} &= 25\\,000 + 0.10k"
+       },
+       {
+        "tex": "\\text{Cathal total} &= 22\\,500 + 0.15k"
+       }
+      ]
+     },
+     {
+      "title": "Set the two costs equal",
+      "lines": [
+       {
+        "tex": "25\\,000 + 0.10k &= 22\\,500 + 0.15k"
+       }
+      ]
+     },
+     {
+      "title": "Solve for k",
+      "lines": [
+       {
+        "text": "Collect the numbers on the left and the $k$ terms on the right."
+       },
+       {
+        "tex": "25\\,000 - 22\\,500 &= 0.15k - 0.10k"
+       },
+       {
+        "tex": "2500 &= 0.05k"
+       },
+       {
+        "tex": "k &= \\frac{2500}{0.05}"
+       },
+       {
+        "tex": "k &= 50\\,000"
+       }
+      ]
+     }
+    ],
+    "final": "50\\,000 \\text{ km}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "mens-arc-sector",
+   "title": "Find arc length and sector area",
+   "level": "OL",
+   "input": "r, angle (degrees or radians)",
+   "output": "arc length, sector area"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q8#(f)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the sector area formula",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\pi r^2 \\times \\frac{\\theta}{360}"
+       },
+       {
+        "tex": "&= \\pi(8)^2 \\times \\frac{31}{360}"
+       },
+       {
+        "tex": "&= \\frac{248\\pi}{45}"
+       },
+       {
+        "tex": "&= 17.3136"
+       },
+       {
+        "tex": "&\\approx 17.3 \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "17.3 \\text{ m}^2"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q8#(e)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the angle of the sector",
+      "lines": [
+       {
+        "text": "$|\\angle SQT| = 180^\\circ - 149^\\circ = 31^\\circ$, and the radius is 8 m."
+       }
+      ]
+     },
+     {
+      "title": "Use the arc length formula",
+      "lines": [
+       {
+        "tex": "\\text{Arc } TS &= 2\\pi r \\times \\frac{\\theta}{360}"
+       },
+       {
+        "tex": "&= 2\\pi(8) \\times \\frac{31}{360}"
+       },
+       {
+        "tex": "&= \\frac{62\\pi}{45}"
+       },
+       {
+        "tex": "&= 4.3284"
+       },
+       {
+        "tex": "&\\approx 4.3 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "4.3 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q9#(d)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the arc length (Mary)",
+      "lines": [
+       {
+        "text": "The arc is $\\frac{106}{360}$ of the circumference, with $r = 100$."
+       },
+       {
+        "tex": "\\text{Arc} &= 2\\pi r \\times \\frac{\\theta}{360}"
+       },
+       {
+        "tex": "&= 2\\pi (100) \\times \\frac{106}{360}"
+       },
+       {
+        "tex": "&= \\frac{530\\pi}{9}"
+       },
+       {
+        "tex": "&\\approx 185.0049"
+       },
+       {
+        "tex": "&\\approx 185"
+       }
+      ]
+     },
+     {
+      "title": "Subtract John's distance",
+      "lines": [
+       {
+        "text": "John sails the straight line $|ST| = 160$."
+       },
+       {
+        "tex": "\\text{Difference} &= 185 - 160"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     }
+    ],
+    "final": "25 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q9#(d)(iii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the area of sector RST",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\pi r^2 \\times \\frac{\\theta}{360}"
+       },
+       {
+        "tex": "&= \\pi (100)^2 \\times \\frac{106}{360}"
+       },
+       {
+        "tex": "&= \\frac{26500\\pi}{9}"
+       },
+       {
+        "tex": "&\\approx 9250.245"
+       }
+      ]
+     },
+     {
+      "title": "Divide by 25 km² per ship",
+      "lines": [
+       {
+        "tex": "\\text{Ships} &= \\frac{9250.245}{25}"
+       },
+       {
+        "tex": "&\\approx 370.01"
+       },
+       {
+        "tex": "&\\approx 370"
+       }
+      ]
+     }
+    ],
+    "final": "370 \\text{ ships}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the length of the arc",
+      "lines": [
+       {
+        "text": "Arc length $= 2\\pi r \\times \\frac{\\theta}{360}$ with $r = 10$ and $\\theta = 70$."
+       },
+       {
+        "tex": "l &= 2\\pi(10)\\left(\\frac{70}{360}\\right)"
+       },
+       {
+        "tex": "&= 12.217"
+       }
+      ]
+     },
+     {
+      "title": "Add the two straight 10 km legs",
+      "lines": [
+       {
+        "tex": "\\text{Total} &= 10 + 10 + 12.217"
+       },
+       {
+        "tex": "&= 32.217"
+       },
+       {
+        "tex": "&= 32.22"
+       }
+      ]
+     }
+    ],
+    "final": "32.22 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q6#(a)(iii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the arc length as a fraction of the circumference",
+      "lines": [
+       {
+        "text": "The arc $AD$ subtends $130^\\circ$ at the centre, out of $360^\\circ$ in a full turn."
+       },
+       {
+        "tex": "\\text{Arc} &= \\frac{130}{360} \\times 2\\pi r"
+       }
+      ]
+     },
+     {
+      "title": "Substitute r = 18",
+      "lines": [
+       {
+        "tex": "\\text{Arc} &= \\frac{130}{360} \\times 2\\pi(18)"
+       },
+       {
+        "tex": "&= \\frac{130}{360} \\times 36\\pi"
+       },
+       {
+        "tex": "&= 13\\pi"
+       }
+      ]
+     }
+    ],
+    "final": "13\\pi \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "mens-composite",
+   "title": "Find area/volume of compound solids",
+   "level": "OL",
+   "input": "solid made of several shapes",
+   "output": "total surface area/volume"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-ordinary-p2-q9#(a)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the height of the sheet",
+      "lines": [
+       {
+        "text": "The sheet is 16 cm high. The can is 10 cm high, and the remaining height holds one circle of diameter $2r$."
+       },
+       {
+        "tex": "10 + 2r &= 16"
+       },
+       {
+        "tex": "2r &= 6"
+       },
+       {
+        "tex": "r &= 3"
+       }
+      ]
+     }
+    ],
+    "final": "r = 3 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q10#(a)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Subtract the removed cylinder",
+      "lines": [
+       {
+        "text": "The removed cylinder has radius $14 \\div 2 = 7$ mm and height $5$ mm."
+       },
+       {
+        "tex": "V &= \\pi (9)^2 (5) - \\pi (7)^2 (5)"
+       },
+       {
+        "tex": "&= 405\\pi - 245\\pi"
+       },
+       {
+        "tex": "&= 160\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round",
+      "lines": [
+       {
+        "tex": "&\\approx 502.65"
+       },
+       {
+        "tex": "&\\approx 503"
+       }
+      ]
+     }
+    ],
+    "final": "503 \\text{ mm}^3"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q10#(a)(iv)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split the shape into a rectangle and two triangles",
+      "lines": [
+       {
+        "text": "$AF \\parallel CD$ and $|AF| = |CD| = 200$, and $AF \\perp AC$, so $ACDF$ is a rectangle with sides 200 m and 288 m."
+       },
+       {
+        "text": "Triangle $DEF$ has $|DE| = |BC|$, $|EF| = |AB|$ and $|DF| = |AC| = 288$, so it is congruent to triangle $ABC$ (SSS). The total area is the rectangle plus two triangles of area 14 095."
+       }
+      ]
+     },
+     {
+      "title": "Add the areas",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= 2(14\\,095) + (200 \\times 288)"
+       },
+       {
+        "tex": "&= 28\\,190 + 57\\,600"
+       },
+       {
+        "tex": "&= 85\\,790 \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "85\\,790 \\text{ m}^2"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q8#(c)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the volume of the cylinder",
+      "lines": [
+       {
+        "text": "The tanks have the same volume, $288\\pi$. Take away the two hemispherical ends."
+       },
+       {
+        "tex": "V_{\\text{cyl}} &= 288\\pi - 2(60.75\\pi)"
+       },
+       {
+        "tex": "&= 288\\pi - 121.5\\pi"
+       },
+       {
+        "tex": "&= 166.5\\pi"
+       },
+       {
+        "tex": "&\\approx 523 \\text{ m}^3"
+       }
+      ]
+     },
+     {
+      "title": "Use the cylinder volume formula",
+      "lines": [
+       {
+        "text": "The cylinder has radius $4.5$ and length $h$."
+       },
+       {
+        "tex": "\\pi r^2 h &= 166.5\\pi"
+       },
+       {
+        "tex": "\\pi (4.5)^2 h &= 166.5\\pi"
+       },
+       {
+        "tex": "20.25\\pi h &= 166.5\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "h &= \\frac{166.5\\pi}{20.25\\pi}"
+       },
+       {
+        "tex": "&= \\frac{166.5}{20.25}"
+       },
+       {
+        "tex": "&\\approx 8.22"
+       },
+       {
+        "tex": "&\\approx 8.2 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "h = 8.2 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q2#(c)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Area of the semi-circle (radius 5)",
+      "lines": [
+       {
+        "tex": "A_{\\text{semi}} &= \\frac{1}{2}\\pi r^2"
+       },
+       {
+        "tex": "&= \\frac{1}{2}\\pi (5)^2"
+       },
+       {
+        "tex": "&= \\frac{25\\pi}{2}"
+       },
+       {
+        "tex": "&\\approx 39.2699"
+       }
+      ]
+     },
+     {
+      "title": "Area of the triangle ABP",
+      "lines": [
+       {
+        "text": "The base is $|AB| = 10$ and the height is $k = 3$."
+       },
+       {
+        "tex": "A_{\\triangle} &= \\frac{1}{2} \\times 10 \\times 3"
+       },
+       {
+        "tex": "&= 15"
+       }
+      ]
+     },
+     {
+      "title": "Subtract the triangle from the semi-circle",
+      "lines": [
+       {
+        "tex": "A_{\\text{region}} &= 39.2699 - 15"
+       },
+       {
+        "tex": "&= 24.2699"
+       },
+       {
+        "tex": "&\\approx 24.27"
+       }
+      ]
+     }
+    ],
+    "final": "24.27 \\text{ square units}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q5#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the lengths of the right-angled triangle at corner B",
+      "lines": [
+       {
+        "text": "$|AB| = 7$ and $|AQ| = 5$, so $|QB| = 7 - 5 = 2$. The four corner triangles are congruent, each with legs 5 and 2."
+       },
+       {
+        "tex": "|QB| &= 7 - 5"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the area of one corner triangle",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\frac{1}{2}(5)(2)"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Subtract four triangles from the large square",
+      "lines": [
+       {
+        "tex": "\\text{Area of } PQRS &= 7 \\times 7 - 4(5)"
+       },
+       {
+        "tex": "&= 49 - 20"
+       },
+       {
+        "tex": "&= 29 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "29 \\text{ cm}^2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "mens-equate-volumes",
+   "title": "Solve recasting, displacement and flow problems",
+   "level": "OL",
+   "input": "equal-volume situation",
+   "output": "unknown dimension or time"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q8#(a)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up an equation",
+      "lines": [
+       {
+        "text": "The water that dropped is a cylinder of radius 5 cm whose volume equals the sphere, $36\\pi$."
+       },
+       {
+        "tex": "\\pi r^2 h &= 36\\pi"
+       },
+       {
+        "tex": "\\pi (5)^2 h &= 36\\pi"
+       },
+       {
+        "tex": "25\\pi h &= 36\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "h &= \\frac{36\\pi}{25\\pi}"
+       },
+       {
+        "tex": "&= \\frac{36}{25}"
+       },
+       {
+        "tex": "&= 1.44"
+       }
+      ]
+     }
+    ],
+    "final": "h = 1.44 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Equate the rise in water to the volume of the ice",
+      "lines": [
+       {
+        "text": "The volume of water that rises is a cylinder of radius 3.5 and height $h$. It equals the volume of 3 ice cubes."
+       },
+       {
+        "tex": "\\pi (3.5)^2 h &= 3\\left(\\frac{9\\pi}{2}\\right)"
+       },
+       {
+        "tex": "\\pi (3.5)^2 h &= \\frac{27\\pi}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by pi",
+      "lines": [
+       {
+        "tex": "(3.5)^2 h &= \\frac{27}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for h",
+      "lines": [
+       {
+        "tex": "h &= \\frac{27}{2(3.5)^2}"
+       },
+       {
+        "tex": "h &= \\frac{27}{24.5}"
+       },
+       {
+        "tex": "h &\\approx 1.102"
+       },
+       {
+        "tex": "h &\\approx 1.1"
+       }
+      ]
+     }
+    ],
+    "final": "h = 1.1 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the cone volume equal to the hemisphere volume",
+      "lines": [
+       {
+        "text": "The cone has radius $21$ and height $h_c$."
+       },
+       {
+        "tex": "\\frac{1}{3}\\pi (21)^2 h_c &= 6174\\pi"
+       },
+       {
+        "tex": "\\frac{1}{3}\\pi (441) h_c &= 6174\\pi"
+       },
+       {
+        "tex": "147\\pi h_c &= 6174\\pi"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 147 pi",
+      "lines": [
+       {
+        "tex": "h_c &= \\frac{6174\\pi}{147\\pi}"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Add the height of the hemisphere",
+      "lines": [
+       {
+        "text": "The hemisphere is $21$ cm deep (its radius)."
+       },
+       {
+        "tex": "h &= 42 + 21"
+       },
+       {
+        "tex": "&= 63"
+       }
+      ]
+     }
+    ],
+    "final": "h = 63 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Equate the water raised to the seats' volume",
+      "lines": [
+       {
+        "text": "The water rises by a cylinder of radius $1.2$ m and height $h$, with volume equal to the seats: $0.375$ m$^3$."
+       },
+       {
+        "tex": "\\pi r^2 h &= 0.375"
+       },
+       {
+        "tex": "\\pi (1.2)^2 h &= 0.375"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by the other factors",
+      "lines": [
+       {
+        "tex": "h &= \\frac{0.375}{\\pi (1.2)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round to 2 decimal places",
+      "lines": [
+       {
+        "tex": "h &= 0.0829"
+       },
+       {
+        "tex": "h &\\approx 0.08 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "h = 0.08 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q5#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Volume of the cone",
+      "lines": [
+       {
+        "tex": "V &= \\frac{1}{3}\\pi r^2 h"
+       },
+       {
+        "tex": "&= \\frac{1}{3}\\pi (7)^2 (12)"
+       },
+       {
+        "tex": "&= \\frac{1}{3}\\pi (49)(12)"
+       },
+       {
+        "tex": "&= \\frac{588}{3}\\pi"
+       },
+       {
+        "tex": "&= 196\\pi"
+       },
+       {
+        "tex": "&\\approx 615.75 \\text{ cm}^3"
+       }
+      ]
+     },
+     {
+      "title": "Convert the flow rate to cm³ per minute",
+      "lines": [
+       {
+        "text": "$1$ litre $= 1000\\ \\text{cm}^3$, so $0.5$ litres $= 500\\ \\text{cm}^3$ per minute."
+       }
+      ]
+     },
+     {
+      "title": "Divide the volume by the rate",
+      "lines": [
+       {
+        "tex": "t &= \\frac{196\\pi}{500}"
+       },
+       {
+        "tex": "&\\approx 1.2315 \\text{ minutes}"
+       }
+      ]
+     },
+     {
+      "title": "Convert minutes to seconds",
+      "lines": [
+       {
+        "tex": "t &= \\frac{196\\pi}{500} \\times 60"
+       },
+       {
+        "tex": "&\\approx 73.89 \\text{ seconds}"
+       },
+       {
+        "tex": "&\\approx 74 \\text{ seconds}"
+       }
+      ]
+     }
+    ],
+    "final": "74 \\text{ seconds}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q7#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Volume of water entering per second",
+      "lines": [
+       {
+        "text": "Each second the water forms a cylinder of radius 0.8 cm and length 2.5 cm."
+       },
+       {
+        "tex": "\\text{volume per second} &= \\pi r^2 \\times 2.5"
+       },
+       {
+        "tex": "&= \\pi (0.8)^2 (2.5)"
+       },
+       {
+        "tex": "&= 1.6\\pi"
+       },
+       {
+        "tex": "&= 5.0265"
+       }
+      ]
+     },
+     {
+      "title": "Time to fill 65.2 cm³",
+      "lines": [
+       {
+        "tex": "\\text{time} &= \\frac{65.2}{5.0265}"
+       },
+       {
+        "tex": "&= 12.97"
+       },
+       {
+        "tex": "&= 13"
+       }
+      ]
+     }
+    ],
+    "final": "13\\text{ seconds}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "mens-nets",
+   "title": "Draw and interpret nets of prisms, cylinders and cones",
+   "level": "OL",
+   "input": "solid",
+   "output": "net and its dimensions"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p1-q8#(a)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the dimensions from the diagram",
+      "lines": [
+       {
+        "text": "A square of side $x$ is cut from each corner, so $x$ is removed from both ends of each 10-unit side."
+       },
+       {
+        "tex": "l &= 10 - x - x"
+       },
+       {
+        "tex": "&= 10 - 2x"
+       },
+       {
+        "tex": "b &= 10 - 2x"
+       },
+       {
+        "text": "The height is the folded-up side of a cut-out square."
+       },
+       {
+        "tex": "h &= x"
+       }
+      ]
+     }
+    ],
+    "final": "l = 10 - 2x, \\quad b = 10 - 2x, \\quad h = x"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q8#(b)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the corners and faces of a cube",
+      "lines": [
+       {
+        "text": "A cube has 8 corners and 6 faces, so $C = 8$ and $F = 6$."
+       }
+      ]
+     },
+     {
+      "title": "Check the identity",
+      "lines": [
+       {
+        "tex": "C - E + F &= 8 - 12 + 6"
+       },
+       {
+        "tex": "&= -4 + 6"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "C = 8,\\ F = 6,\\ \\text{and } 8 - 12 + 6 = 2"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q10#(a)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Convert each length using the scale 1 : 10",
+      "lines": [
+       {
+        "text": "Divide each length by 10. A scale of 1 : 10 turns 10 cm into 1 cm."
+       },
+       {
+        "tex": "70 \\div 10 &= 7"
+       },
+       {
+        "tex": "30 \\div 10 &= 3"
+       },
+       {
+        "tex": "20 \\div 10 &= 2"
+       },
+       {
+        "text": "The box is 7 cm long, 3 cm wide and 2 cm high on the drawing. Each small square is 1 cm."
+       }
+      ]
+     },
+     {
+      "title": "Draw the net with six rectangles",
+      "lines": [
+       {
+        "text": "Draw a column 7 cm wide made of four rectangles, from top to bottom: $7 \\times 2$, $7 \\times 3$, $7 \\times 2$, $7 \\times 3$."
+       },
+       {
+        "text": "Add a $2 \\times 3$ rectangle to each side of the second rectangle, to make the two ends of the box."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Net of six rectangles: two } 7 \\times 3,\\ \\text{two } 7 \\times 2,\\ \\text{two } 2 \\times 3"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q8#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the height side of the rectangle",
+      "lines": [
+       {
+        "text": "An open cylinder unrolls into a rectangle. One side is the height of the cylinder."
+       },
+       {
+        "tex": "\\text{one side} &= 15 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Find the other side using the circumference",
+      "lines": [
+       {
+        "text": "The other side is the circumference of the circular base, $2\\pi r$ with $r = 5$."
+       },
+       {
+        "tex": "2\\pi r &= 2\\pi(5)"
+       },
+       {
+        "tex": "&= 10\\pi"
+       },
+       {
+        "tex": "&= 31.41\\ldots \\approx 31.4"
+       }
+      ]
+     }
+    ],
+    "final": "15 \\text{ cm by } 31.4 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q10#(a)(iii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the shape of the net",
+      "lines": [
+       {
+        "text": "Unrolled, the curved surface is a large sector (radius 50) with a smaller sector (radius 40) removed, both centred at $B$."
+       },
+       {
+        "text": "Radii are $|BE| = 40$ and $|BC| = 50$."
+       }
+      ]
+     },
+     {
+      "title": "Find the angle of the sector",
+      "lines": [
+       {
+        "text": "The arc of the small sector (radius 40) equals the base circumference ($r = 12$)."
+       },
+       {
+        "tex": "\\frac{\\theta}{360} \\cdot 2\\pi(40) &= 2\\pi(12)"
+       },
+       {
+        "tex": "\\frac{\\theta}{360} &= \\frac{2\\pi(12)}{2\\pi(40)}"
+       },
+       {
+        "tex": "&= \\frac{12}{40}"
+       },
+       {
+        "tex": "\\theta &= 360 \\times \\frac{12}{40}"
+       },
+       {
+        "tex": "&= 108"
+       }
+      ]
+     },
+     {
+      "title": "Draw the net",
+      "lines": [
+       {
+        "text": "From $B$, draw two radii $108^\\circ$ apart. Mark 40 cm and 50 cm along them."
+       },
+       {
+        "text": "Draw an arc of radius 40 and an arc of radius 50 between the radii, then join the ends."
+       },
+       {
+        "text": "The dashed lines from $B$ are construction lines, not part of the net."
+       }
+      ]
+     }
+    ],
+    "final": "\\theta = 108^\\circ,\\ \\text{radii } 40\\text{ cm and } 50\\text{ cm}"
+   }
+  ]
+ }
+]

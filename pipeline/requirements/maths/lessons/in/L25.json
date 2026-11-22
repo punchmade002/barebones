@@ -1,0 +1,1378 @@
+[
+ {
+  "skill": {
+   "id": "trig-3d",
+   "title": "Solve 3D trigonometry problems",
+   "level": "HL",
+   "input": "3D context (pyramid, mast, box)",
+   "output": "lengths/angles via right/non-right triangles"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(d)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute $|CT|$ into the result of (a)",
+      "lines": [
+       {
+        "tex": "|TE| &= \\sqrt{3}\\,|CT|"
+       },
+       {
+        "tex": "&= \\sqrt{3} \\times 5.3033"
+       },
+       {
+        "tex": "&= 9.1856"
+       },
+       {
+        "tex": "&= 9.2 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|TE| = 9.2 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Show $|OB| = 3\\sqrt{2}$ m",
+      "lines": [
+       {
+        "text": "The diagonals of a square are equal, bisect each other and meet at $90^\\circ$, so $|OA| = |OB|$ and $\\angle AOB = 90^\\circ$."
+       },
+       {
+        "text": "In the right-angled triangle $AOB$ the hypotenuse is $|AB| = 6$."
+       },
+       {
+        "tex": "|OB|^2 + |OB|^2 &= 6^2"
+       },
+       {
+        "tex": "2|OB|^2 &= 36"
+       },
+       {
+        "tex": "|OB|^2 &= 18"
+       },
+       {
+        "tex": "|OB| &= \\sqrt{18}"
+       },
+       {
+        "tex": "&= \\sqrt{9 \\times 2}"
+       },
+       {
+        "tex": "&= 3\\sqrt{2} \\text{ m}"
+       }
+      ]
+     },
+     {
+      "title": "Find $|OP|$ using triangle $POB$",
+      "lines": [
+       {
+        "text": "$P$ is directly above $O$, so $\\angle POB = 90^\\circ$. The hypotenuse is $|PB| = 11$."
+       },
+       {
+        "tex": "|OB|^2 + |OP|^2 &= |PB|^2"
+       },
+       {
+        "tex": "\\left(3\\sqrt{2}\\right)^2 + |OP|^2 &= 11^2"
+       },
+       {
+        "tex": "18 + |OP|^2 &= 121"
+       },
+       {
+        "tex": "|OP|^2 &= 103"
+       },
+       {
+        "tex": "|OP| &= \\sqrt{103} \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|OB| = 3\\sqrt{2} \\text{ m},\\quad |OP| = \\sqrt{103} \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(b)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find $|DT|$ with Pythagoras",
+      "lines": [
+       {
+        "text": "$D$ is due north of $C$ and $T$ is due east of $C$, so the angle at $C$ in triangle $DCT$ is $90^\\circ$."
+       },
+       {
+        "tex": "|DT|^2 &= 15^2 + |CT|^2"
+       },
+       {
+        "tex": "&= 225 + |CT|^2"
+       },
+       {
+        "tex": "|DT| &= \\sqrt{225 + |CT|^2}"
+       }
+      ]
+     },
+     {
+      "title": "Use tan 30° in triangle $DET$",
+      "lines": [
+       {
+        "tex": "\\tan 30^\\circ &= \\frac{|TE|}{|DT|}"
+       },
+       {
+        "tex": "\\frac{1}{\\sqrt{3}} &= \\frac{|TE|}{|DT|}"
+       },
+       {
+        "tex": "|TE| &= \\frac{|DT|}{\\sqrt{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $|DT|$",
+      "lines": [
+       {
+        "tex": "|TE| &= \\frac{\\sqrt{225 + |CT|^2}}{\\sqrt{3}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{225 + |CT|^2}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "|TE| = \\sqrt{\\frac{225 + |CT|^2}{3}}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q9#(c)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Equate the two expressions for $|TE|$",
+      "lines": [
+       {
+        "tex": "\\sqrt{3}\\,|CT| &= \\sqrt{\\frac{225 + |CT|^2}{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides and clear the fraction",
+      "lines": [
+       {
+        "tex": "3|CT|^2 &= \\frac{225 + |CT|^2}{3}"
+       },
+       {
+        "tex": "9|CT|^2 &= 225 + |CT|^2"
+       }
+      ]
+     },
+     {
+      "title": "Isolate $|CT|$",
+      "lines": [
+       {
+        "tex": "8|CT|^2 &= 225"
+       },
+       {
+        "tex": "|CT|^2 &= \\frac{225}{8}"
+       },
+       {
+        "tex": "|CT| &= \\sqrt{\\frac{225}{8}}"
+       },
+       {
+        "tex": "&= 5.3033"
+       },
+       {
+        "tex": "&= 5.3 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|CT| = 5.3 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q4#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the diagonal of one face",
+      "lines": [
+       {
+        "text": "Let the side of the cube be $x$. A face is a square, so use Pythagoras."
+       },
+       {
+        "tex": "d^2 &= x^2 + x^2"
+       },
+       {
+        "tex": "d &= \\sqrt{2}\\,x"
+       }
+      ]
+     },
+     {
+      "title": "Find the diagonal of the cube",
+      "lines": [
+       {
+        "text": "The cube's diagonal is the hypotenuse of a right-angled triangle with sides $x$ and the face diagonal $\\sqrt{2}x$."
+       },
+       {
+        "tex": "D^2 &= x^2 + (\\sqrt{2}\\,x)^2"
+       },
+       {
+        "tex": "&= 3x^2"
+       },
+       {
+        "tex": "D &= \\sqrt{3}\\,x"
+       }
+      ]
+     },
+     {
+      "title": "Set up the triangle at the centre",
+      "lines": [
+       {
+        "text": "The diagonals cross at the centre, and each is halved there. Two half-diagonals, each $\\frac{\\sqrt{3}x}{2}$, and one cube edge $x$ form a triangle with angle $A$ opposite the edge."
+       },
+       {
+        "text": "Cosine rule: $a^2 = b^2 + c^2 - 2bc\\cos A$ with $a = x$ and $b = c = \\frac{\\sqrt{3}x}{2}$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the cosine rule",
+      "lines": [
+       {
+        "tex": "x^2 &= \\left(\\frac{\\sqrt{3}x}{2}\\right)^2 + \\left(\\frac{\\sqrt{3}x}{2}\\right)^2 - 2\\left(\\frac{\\sqrt{3}x}{2}\\right)\\left(\\frac{\\sqrt{3}x}{2}\\right)\\cos A"
+       },
+       {
+        "tex": "x^2 &= \\frac{3x^2}{4} + \\frac{3x^2}{4} - \\frac{3x^2}{2}\\cos A"
+       },
+       {
+        "tex": "x^2 &= \\frac{3x^2}{2} - \\frac{3x^2}{2}\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Solve for cos A",
+      "lines": [
+       {
+        "tex": "\\frac{3x^2}{2}\\cos A &= \\frac{3x^2}{2} - x^2"
+       },
+       {
+        "tex": "\\frac{3x^2}{2}\\cos A &= \\frac{x^2}{2}"
+       },
+       {
+        "tex": "\\cos A &= \\frac{1}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos A = \\frac{1}{3}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-area-triangle",
+   "title": "Find the area of a triangle with ½ab sin C",
+   "level": "OL",
+   "input": "two sides + included angle",
+   "output": "area (or a missing side/angle from area)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q6#(a)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the area formula with the sine of the included angle",
+      "lines": [
+       {
+        "text": "Area of a parallelogram $= ab\\sin C$, with the two sides 9 and 5 and the angle 65° between them."
+       },
+       {
+        "tex": "\\text{Area} &= ab\\sin C"
+       },
+       {
+        "tex": "&= 9(5)\\sin 65^\\circ"
+       },
+       {
+        "tex": "&= 45(0.906307787)"
+       },
+       {
+        "tex": "&\\approx 40.78385042"
+       },
+       {
+        "tex": "&\\approx 40.78 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "40.78 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q5#(a)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the angle at B",
+      "lines": [
+       {
+        "tex": "|\\angle DBC| &= 180^\\circ - (42^\\circ + 110^\\circ)"
+       },
+       {
+        "tex": "&= 28^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the area formula",
+      "lines": [
+       {
+        "text": "Two sides and the angle between them: $|BC|$, $|BD|$ and $\\angle DBC$."
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"
+       },
+       {
+        "tex": "|\\triangle BCD| &= \\tfrac{1}{2}(16)(11.39)\\sin 28^\\circ"
+       },
+       {
+        "tex": "&= 42.778\\ldots"
+       },
+       {
+        "tex": "&= 42.78 \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "42.78 \\text{ m}^2"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q2#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the area formula for two sides and the angle between them",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the sides 8 and 12 and the angle 30°",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}(8)(12)\\sin 30^\\circ"
+       },
+       {
+        "text": "$\\sin 30^\\circ = \\tfrac12$."
+       },
+       {
+        "tex": "&= \\tfrac{1}{2}(8)(12)\\left(\\tfrac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 24"
+       }
+      ]
+     }
+    ],
+    "final": "24\\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q10#(b)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Area of triangle AOB using two sides and the angle",
+      "lines": [
+       {
+        "text": "Two sides are $|AO| = |BO| = 6$ and the angle between them is $72^\\circ$, so use $\\frac{1}{2}ab\\sin C$."
+       },
+       {
+        "tex": "\\text{Area} &= \\frac{1}{2}(6)(6)\\sin 72^\\circ"
+       },
+       {
+        "tex": "&= 17.119"
+       },
+       {
+        "tex": "&\\approx 17.1 \\text{ cm}^2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 5 for the pentagon",
+      "lines": [
+       {
+        "text": "The pentagon is made of five congruent triangles."
+       },
+       {
+        "tex": "\\text{Area of pentagon} &= 5 \\times 17.119"
+       },
+       {
+        "tex": "&= 85.595"
+       },
+       {
+        "tex": "&\\approx 85.6 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Triangle} = 17.1 \\text{ cm}^2,\\ \\text{Pentagon} = 85.6 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q8#(b)(iii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the area of triangle CEF",
+      "lines": [
+       {
+        "text": "Use $\\text{Area} = \\frac{1}{2}ab\\sin C$ with the sides $22$ and $11.8$ and the angle $110^\\circ$ between them."
+       },
+       {
+        "tex": "\\text{Area } CEF &= \\tfrac{1}{2}(22)(11.8)\\sin 110^\\circ"
+       },
+       {
+        "tex": "&= 129.8 \\sin 110^\\circ"
+       },
+       {
+        "tex": "&= 121.97"
+       }
+      ]
+     },
+     {
+      "title": "Double it, since CDEF is symmetrical about CE",
+      "lines": [
+       {
+        "tex": "\\text{Total area} &= 2 \\times 121.97"
+       },
+       {
+        "tex": "&= 243.94"
+       },
+       {
+        "tex": "&= 244"
+       }
+      ]
+     }
+    ],
+    "final": "244 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q7#(c)(i)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split the hexagon into 6 equal triangles",
+      "lines": [
+       {
+        "text": "A regular hexagon splits into 6 equal triangles with two sides of 8 km and an angle of $60^\\circ$ between them."
+       }
+      ]
+     },
+     {
+      "title": "Find the area of one triangle",
+      "lines": [
+       {
+        "tex": "A_1 &= \\frac{1}{2}(8)(8)\\sin 60^\\circ"
+       },
+       {
+        "tex": "A_1 &= 32 \\sin 60^\\circ"
+       },
+       {
+        "tex": "A_1 &\\approx 27.7128"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 6",
+      "lines": [
+       {
+        "tex": "A &= 6 \\times 27.7128"
+       },
+       {
+        "tex": "A &\\approx 166.28"
+       }
+      ]
+     }
+    ],
+    "final": "166.28 \\text{ km}^2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-cosine-rule",
+   "title": "Apply the cosine rule",
+   "level": "OL",
+   "input": "SAS (find side) or SSS (find angle)",
+   "output": "missing side or angle"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q9#(e)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the cosine rule",
+      "lines": [
+       {
+        "text": "Let $x = |BC|$. We know two sides $3$ and $7$ and the angle $30^\\circ$ between them."
+       },
+       {
+        "tex": "x^2 &= 3^2 + 7^2 - 2(3)(7)\\cos 30^\\circ"
+       },
+       {
+        "tex": "x^2 &= 9 + 49 - 42\\cos 30^\\circ"
+       },
+       {
+        "tex": "x^2 &= 58 - 42\\cos 30^\\circ"
+       },
+       {
+        "tex": "x^2 &\\approx 21.6269"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "x &= \\sqrt{21.6269}"
+       },
+       {
+        "tex": "x &\\approx 4.65047"
+       },
+       {
+        "tex": "x &\\approx 4.65 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|BC| = 4.65 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p1-q6#(b)(i)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the modulus of z_1 and z_2",
+      "lines": [
+       {
+        "tex": "|z_1| &= \\sqrt{3^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\sqrt{10}"
+       },
+       {
+        "text": "$|z_2| = \\sqrt{3^2+(-1)^2} = \\sqrt{10}$ as well."
+       }
+      ]
+     },
+     {
+      "title": "Find the distance between z_1 and z_2",
+      "lines": [
+       {
+        "text": "$z_1 = (3, 1)$ and $z_2 = (3, -1)$."
+       },
+       {
+        "tex": "|z_1 - z_2| &= \\sqrt{(3-3)^2 + (1-(-1))^2}"
+       },
+       {
+        "tex": "&= \\sqrt{0 + 4}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Use the cosine rule in the triangle with sides $|z_1|$, $|z_2|$ and 2",
+      "lines": [
+       {
+        "text": "The side opposite $\\theta$ is 2, so $\\cos\\theta = \\dfrac{|z_1|^2 + |z_2|^2 - 2^2}{2|z_1||z_2|}$."
+       },
+       {
+        "tex": "\\cos\\theta &= \\frac{10 + 10 - 4}{2\\sqrt{10}\\sqrt{10}}"
+       },
+       {
+        "tex": "&= \\frac{16}{20}"
+       },
+       {
+        "tex": "&= 0.8"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos\\theta = 0.8"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q5#(b)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the angle at D in triangle ABD",
+      "lines": [
+       {
+        "tex": "|\\angle BDA| &= 180^\\circ - (63^\\circ + 42^\\circ)"
+       },
+       {
+        "tex": "&= 75^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the cosine rule",
+      "lines": [
+       {
+        "text": "$|AD| = 10$ and $|BD| = 16$ enclose the $75^\\circ$ angle."
+       },
+       {
+        "tex": "|AB|^2 &= 10^2 + 16^2 - 2(10)(16)\\cos 75^\\circ"
+       },
+       {
+        "tex": "&= 273.178\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "|AB| &= \\sqrt{273.178}"
+       },
+       {
+        "tex": "&= 16.528\\ldots"
+       },
+       {
+        "tex": "&= 16.53 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 16.53 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write down the cosine rule",
+      "lines": [
+       {
+        "text": "Angle $110^\\circ$ is between $|CF|$ and $|EF|$, opposite $|CE|$."
+       },
+       {
+        "tex": "|CE|^2 &= 22^2 + 11.8^2 - 2(22)(11.8)\\cos 110^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Work out each part",
+      "lines": [
+       {
+        "tex": "|CE|^2 &= 484 + 139.24 - 519.2\\cos 110^\\circ"
+       },
+       {
+        "tex": "&= 623.24 - 519.2(-0.34202)"
+       },
+       {
+        "tex": "&= 623.24 + 177.58"
+       },
+       {
+        "tex": "&= 800.82"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "|CE| &= \\sqrt{800.82}"
+       },
+       {
+        "tex": "&= 28.30"
+       },
+       {
+        "tex": "&= 28.3"
+       }
+      ]
+     }
+    ],
+    "final": "|CE| = 28.3 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q10#(a)(iii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the cosine rule for the side opposite angle B",
+      "lines": [
+       {
+        "tex": "|AC|^2 &= |AB|^2 + |BC|^2 - 2|AB||BC|\\cos B"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the values",
+      "lines": [
+       {
+        "tex": "|AC|^2 &= 150^2 + 200^2 - 2(150)(200)\\cos 110^\\circ"
+       },
+       {
+        "tex": "&= 22\\,500 + 40\\,000 - 60\\,000\\cos 110^\\circ"
+       },
+       {
+        "tex": "&= 83\\,021.2086\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root and round to the nearest metre",
+      "lines": [
+       {
+        "tex": "|AC| &= \\sqrt{83\\,021.2086}"
+       },
+       {
+        "tex": "&= 288.13\\ldots"
+       },
+       {
+        "tex": "&\\approx 288 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "288 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q8#(d)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the cosine rule for triangle RQS",
+      "lines": [
+       {
+        "text": "We know $|RQ| = 5.6$, $|QS| = 8$ and the angle between them, $\\beta = 149^\\circ$."
+       },
+       {
+        "tex": "|RS|^2 &= |RQ|^2 + |QS|^2 - 2|RQ||QS|\\cos\\beta"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the values",
+      "lines": [
+       {
+        "tex": "|RS|^2 &= 5.6^2 + 8^2 - 2(5.6)(8)\\cos 149^\\circ"
+       },
+       {
+        "tex": "&= 31.36 + 64 - 89.6\\cos 149^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "text": "$\\cos 149^\\circ = -0.857167$, so the last term becomes positive."
+       },
+       {
+        "tex": "&= 31.36 + 64 + 76.8022"
+       },
+       {
+        "tex": "&= 172.162"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "|RS| &= \\sqrt{172.162}"
+       },
+       {
+        "tex": "&= 13.12"
+       },
+       {
+        "tex": "&\\approx 13 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|RS| = 13 \\text{ m}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-elevation",
+   "title": "Solve heights-and-distances problems",
+   "level": "JC",
+   "input": "angles of elevation/depression + a distance",
+   "output": "height or distance"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q8#(d)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the tangent ratio",
+      "lines": [
+       {
+        "text": "49 m is opposite the angle and $d$ is adjacent. At first, $d$ is in metres."
+       },
+       {
+        "tex": "\\tan 1.2^\\circ &= \\frac{49}{d}"
+       },
+       {
+        "tex": "d &= \\frac{49}{\\tan 1.2^\\circ}"
+       },
+       {
+        "tex": "d &\\approx 2339.2 \\text{ m}"
+       }
+      ]
+     },
+     {
+      "title": "Convert metres to kilometres",
+      "lines": [
+       {
+        "tex": "d &= \\frac{2339.2}{1000}"
+       },
+       {
+        "tex": "d &\\approx 2.34 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "d = 2.34 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q7#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use tan in the right-angled triangle BAC",
+      "lines": [
+       {
+        "text": "The angle of elevation is $\\angle BCA = 50^\\circ$. $|AB|$ is opposite it and $|AC| = 1.95$ is adjacent."
+       },
+       {
+        "tex": "\\tan 50^\\circ &= \\frac{|AB|}{1.95}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for AB",
+      "lines": [
+       {
+        "tex": "|AB| &= 1.95 \\tan 50^\\circ"
+       },
+       {
+        "tex": "&= 1.95(1.19175)"
+       },
+       {
+        "tex": "&= 2.3239"
+       },
+       {
+        "tex": "&\\approx 2.3\\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 2.3\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q9#(e)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the angle PSH",
+      "lines": [
+       {
+        "text": "$P$ is the incentre, so $[SP]$ bisects $\\angle HSG$."
+       },
+       {
+        "tex": "|\\angle PSH| &= \\frac{30.75}{2}"
+       },
+       {
+        "tex": "&= 15.375^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find |PS| using the right-angled triangle at the tangent point",
+      "lines": [
+       {
+        "text": "The radius $11.3$ is perpendicular to $[SH]$, so it is opposite $\\angle PSH$, and $|PS|$ is the hypotenuse."
+       },
+       {
+        "tex": "\\sin 15.375^\\circ &= \\frac{11.3}{|PS|}"
+       },
+       {
+        "tex": "|PS| &= \\frac{11.3}{\\sin 15.375^\\circ}"
+       },
+       {
+        "tex": "&= 42.62"
+       }
+      ]
+     },
+     {
+      "title": "Use the angle of elevation to find the pole height",
+      "lines": [
+       {
+        "text": "$[ST]$ is vertical and $|PS|$ is horizontal, so the angle at $P$ is in a right-angled triangle $PST$."
+       },
+       {
+        "tex": "\\tan 14^\\circ &= \\frac{|ST|}{|PS|}"
+       },
+       {
+        "tex": "|ST| &= 42.62 \\tan 14^\\circ"
+       },
+       {
+        "tex": "&= 10.626"
+       },
+       {
+        "tex": "&\\approx 10.6 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "10.6 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q7#(b)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the angle at O in triangle ROP",
+      "lines": [
+       {
+        "text": "The angles in triangle $ROP$ add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle POR| &= 180 - 87 - 88"
+       },
+       {
+        "tex": "&= 5^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the sine rule to find |RO|",
+      "lines": [
+       {
+        "text": "$|RO|$ is opposite the $87^\\circ$ angle and $|RP| = 20$ is opposite the $5^\\circ$ angle."
+       },
+       {
+        "tex": "\\frac{|RO|}{\\sin 87^\\circ} &= \\frac{20}{\\sin 5^\\circ}"
+       },
+       {
+        "tex": "|RO| &= \\frac{20\\sin 87^\\circ}{\\sin 5^\\circ}"
+       },
+       {
+        "tex": "&= 229.16\\ \\text{m}"
+       }
+      ]
+     },
+     {
+      "title": "Use tangent in triangle ROH to find |OH|",
+      "lines": [
+       {
+        "text": "The angle of elevation at $R$ is $17^\\circ$, and $|OH|$ is opposite it."
+       },
+       {
+        "tex": "\\tan 17^\\circ &= \\frac{|OH|}{|RO|}"
+       },
+       {
+        "tex": "|OH| &= |RO| \\tan 17^\\circ"
+       },
+       {
+        "tex": "&= 229.16 \\times \\tan 17^\\circ"
+       },
+       {
+        "tex": "&\\approx 70\\ \\text{m}"
+       }
+      ]
+     }
+    ],
+    "final": "|OH| = 70\\ \\text{m}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q8#(c)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up an equation using the 22° triangle",
+      "lines": [
+       {
+        "text": "Let $y = h - 1.25$ be the height of the top of the tower above the level of Ally's eye."
+       },
+       {
+        "text": "In the right-angled triangle with hypotenuse $x = 25.5$, $y$ is opposite the $22^\\circ$ angle."
+       },
+       {
+        "tex": "\\sin 22^\\circ &= \\frac{y}{25.5}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $y$",
+      "lines": [
+       {
+        "tex": "y &= 25.5 \\sin 22^\\circ"
+       },
+       {
+        "tex": "&= 9.55\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Add 1.25 m to get the total height $h$",
+      "lines": [
+       {
+        "tex": "h &= y + 1.25"
+       },
+       {
+        "tex": "&= 9.55\\ldots + 1.25"
+       },
+       {
+        "tex": "&= 10.80\\ldots"
+       },
+       {
+        "tex": "&\\approx 10.8 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "h = 10.8 \\text{ m}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-pythagoras",
+   "title": "Solve 2D problems with Pythagoras",
+   "level": "OL",
+   "input": "right-angled situation",
+   "output": "missing length"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q9#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Apply Pythagoras in triangle QRS",
+      "lines": [
+       {
+        "text": "The right angle is at $Q$, so $[RS]$ is the hypotenuse with $|RS| = 100$ (the radius), and $|RQ| = 60$."
+       },
+       {
+        "tex": "|RS|^2 &= |RQ|^2 + |QS|^2"
+       },
+       {
+        "tex": "100^2 &= 60^2 + |QS|^2"
+       },
+       {
+        "tex": "10000 &= 3600 + |QS|^2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for |QS|",
+      "lines": [
+       {
+        "tex": "|QS|^2 &= 10000 - 3600"
+       },
+       {
+        "tex": "&= 6400"
+       },
+       {
+        "tex": "|QS| &= \\sqrt{6400}"
+       },
+       {
+        "tex": "&= 80"
+       }
+      ]
+     }
+    ],
+    "final": "|QS| = 80 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q8#(c)(i)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Apply Pythagoras to the right-angled triangle",
+      "lines": [
+       {
+        "text": "The height 0.8 m and radius 1.3 m are the two shorter sides; $l$ is the hypotenuse."
+       },
+       {
+        "tex": "l^2 &= 0.8^2 + 1.3^2"
+       },
+       {
+        "tex": "l^2 &= 0.64 + 1.69"
+       },
+       {
+        "tex": "l^2 &= 2.33"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "tex": "l &= \\sqrt{2.33}"
+       },
+       {
+        "tex": "l &= 1.5264\\ldots"
+       },
+       {
+        "tex": "l &\\approx 1.53 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "l = 1.53 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q8#(a)(i)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the Theorem of Pythagoras",
+      "lines": [
+       {
+        "text": "$[GF]$ is the hypotenuse of the right-angled triangle $FHG$."
+       },
+       {
+        "tex": "|GF|^2 &= |GH|^2 + |FH|^2"
+       },
+       {
+        "tex": "&= 1.4^2 + 3^2"
+       },
+       {
+        "tex": "&= 1.96 + 9"
+       },
+       {
+        "tex": "&= 10.96"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "|GF| &= \\sqrt{10.96}"
+       },
+       {
+        "tex": "&= 3.3106"
+       },
+       {
+        "tex": "&= 3.3"
+       }
+      ]
+     }
+    ],
+    "final": "|GF| = 3.3 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q5#(b)(i)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Apply Pythagoras in triangle ABD",
+      "lines": [
+       {
+        "text": "The angle at $D$ is $90^\\circ$, so $[AB]$ is the hypotenuse."
+       },
+       {
+        "tex": "5^2 + |AD|^2 &= 9^2"
+       },
+       {
+        "tex": "25 + |AD|^2 &= 81"
+       },
+       {
+        "tex": "|AD|^2 &= 81 - 25"
+       },
+       {
+        "tex": "|AD|^2 &= 56"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "|AD| &= \\sqrt{56}"
+       },
+       {
+        "tex": "&= 7.483..."
+       },
+       {
+        "tex": "&= 7.5 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "|AD| = 7.5 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q8#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write Pythagoras for the right-angled triangle PRQ",
+      "lines": [
+       {
+        "text": "The right angle is at $R$, so $[PQ]$ is the hypotenuse."
+       },
+       {
+        "tex": "|PQ|^2 &= |PR|^2 + |RQ|^2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the lengths",
+      "lines": [
+       {
+        "tex": "6.5^2 &= 3.3^2 + |RQ|^2"
+       },
+       {
+        "tex": "42.25 &= 10.89 + |RQ|^2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for |RQ|",
+      "lines": [
+       {
+        "tex": "|RQ|^2 &= 42.25 - 10.89"
+       },
+       {
+        "tex": "|RQ|^2 &= 31.36"
+       },
+       {
+        "tex": "|RQ| &= \\sqrt{31.36}"
+       },
+       {
+        "tex": "&= 5.6 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "|RQ| = 5.6 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q9#(c)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Apply Pythagoras in triangle PQR",
+      "lines": [
+       {
+        "text": "$|PR| = 120$ is the hypotenuse and $|QR| = 60$."
+       },
+       {
+        "tex": "|PR|^2 &= |QR|^2 + |PQ|^2"
+       },
+       {
+        "tex": "120^2 &= 60^2 + |PQ|^2"
+       },
+       {
+        "tex": "14400 &= 3600 + |PQ|^2"
+       },
+       {
+        "tex": "|PQ|^2 &= 14400 - 3600"
+       },
+       {
+        "tex": "&= 10800"
+       }
+      ]
+     },
+     {
+      "title": "Find |PQ|",
+      "lines": [
+       {
+        "tex": "|PQ| &= \\sqrt{10800}"
+       },
+       {
+        "tex": "&\\approx 103.92"
+       }
+      ]
+     },
+     {
+      "title": "Subtract |QS| to find |PS|",
+      "lines": [
+       {
+        "text": "$S$ lies between $P$ and $Q$, so $|PS| = |PQ| - |QS|$."
+       },
+       {
+        "tex": "|PS| &= 103.92 - 80"
+       },
+       {
+        "tex": "&= 23.92"
+       },
+       {
+        "tex": "&\\approx 24 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "|PS| \\approx 24 \\text{ km}"
+   }
+  ]
+ }
+]

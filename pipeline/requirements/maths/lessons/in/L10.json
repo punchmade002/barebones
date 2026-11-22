@@ -1,0 +1,1054 @@
+[
+ {
+  "skill": {
+   "id": "geo-enlargement",
+   "title": "Construct and analyse an enlargement",
+   "level": "OL",
+   "input": "object, centre, scale factor k (0 < k < 1 or k > 1)",
+   "output": "image; k from lengths; area × k²"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q7#(b)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply the area by the scale factor squared",
+      "lines": [
+       {
+        "text": "Areas scale by $k^2$, because both length and width are multiplied by $k$."
+       },
+       {
+        "tex": "\\text{Area } PQR &= k^2 \\times \\text{Area } ABC"
+       },
+       {
+        "tex": "&= (1.5)^2 \\times 7.5"
+       },
+       {
+        "tex": "&= 2.25 \\times 7.5"
+       },
+       {
+        "tex": "&= 16.875 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "16.875 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q8#(c)(iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Divide the matching sides",
+      "lines": [
+       {
+        "text": "Scale factor = image length $\\div$ original length. $[DE]$ is the image of $[AB]$."
+       },
+       {
+        "tex": "k &= \\frac{|DE|}{|AB|}"
+       },
+       {
+        "tex": "&= \\frac{15}{5}"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     }
+    ],
+    "final": "k = 3"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q8#(c)(iv)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Areas scale by the square of the scale factor",
+      "lines": [
+       {
+        "text": "Lengths are multiplied by $k$, so areas are multiplied by $k^2$."
+       },
+       {
+        "tex": "\\text{Area } CDE &= k^2 \\times \\text{Area } CBA"
+       },
+       {
+        "tex": "&= 3^2 \\times 4"
+       },
+       {
+        "tex": "&= 9 \\times 4"
+       },
+       {
+        "tex": "&= 36"
+       }
+      ]
+     }
+    ],
+    "final": "36\\text{ square units}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q6#(b)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply the side by the scale factor",
+      "lines": [
+       {
+        "tex": "|QR| &= k \\times |EF|"
+       },
+       {
+        "tex": "&= 2.5 \\times 3"
+       },
+       {
+        "tex": "&= 7.5"
+       }
+      ]
+     }
+    ],
+    "final": "|QR| = 7.5 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p2-q6#(b)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Areas change by the scale factor squared",
+      "lines": [
+       {
+        "text": "Lengths are multiplied by $k$, so areas are multiplied by $k^2$."
+       },
+       {
+        "tex": "\\text{Area } PQR &= k^2 \\times \\text{Area } DEF"
+       },
+       {
+        "tex": "18.75 &= 2.5^2 \\times \\text{Area } DEF"
+       },
+       {
+        "tex": "18.75 &= 6.25 \\times \\text{Area } DEF"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 6.25",
+      "lines": [
+       {
+        "tex": "\\text{Area } DEF &= \\frac{18.75}{6.25}"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Area } DEF = 3 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q6#(b)(iii)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Square the scale factor for areas",
+      "lines": [
+       {
+        "text": "Areas change by $k^2$, where $k = 3.5$."
+       },
+       {
+        "tex": "k^2 &= 3.5^2"
+       },
+       {
+        "tex": "&= 12.25"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the area of ABC",
+      "lines": [
+       {
+        "tex": "\\text{Area } ADE &= 11 \\times k^2"
+       },
+       {
+        "tex": "&= 11 \\times 12.25"
+       },
+       {
+        "tex": "&= 134.75"
+       }
+      ]
+     }
+    ],
+    "final": "134.75 \\text{ units}^2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-enlargement-centre",
+   "title": "Find the centre and scale factor of an enlargement",
+   "level": "OL",
+   "input": "object and image",
+   "output": "centre (join corresponding points), k"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Join each vertex to its image",
+      "lines": [
+       {
+        "text": "In an enlargement, a point, its image and the centre lie on one straight line."
+       },
+       {
+        "text": "Use a ruler to draw a line through $A$ and $P$, a line through $B$ and $Q$, and a line through $C$ and $R$."
+       }
+      ]
+     },
+     {
+      "title": "Mark the centre",
+      "lines": [
+       {
+        "text": "Extend the lines until they meet. Their meeting point is the centre of enlargement."
+       },
+       {
+        "text": "Label this point $O$. It lies above and to the left of the two triangles."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Centre } O \\text{ constructed}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q7#(a)(ii), (iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Measure |OB| and |OQ|",
+      "lines": [
+       {
+        "text": "Measure with a ruler, in cm. The printed triangle has $|AB| = 5$ cm. Any answer within 5 mm is accepted."
+       },
+       {
+        "tex": "|OB| &\\approx 15 \\text{ cm}"
+       },
+       {
+        "tex": "|OQ| &\\approx 22.5 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Find the scale factor",
+      "lines": [
+       {
+        "text": "The scale factor is the image distance divided by the original distance."
+       },
+       {
+        "tex": "k &= \\frac{|OQ|}{|OB|}"
+       },
+       {
+        "tex": "&= \\frac{22.5}{15}"
+       },
+       {
+        "tex": "&= 1.5"
+       }
+      ]
+     }
+    ],
+    "final": "k = 1.5"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q5#(b)(i)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the distance from the centre to Q'",
+      "lines": [
+       {
+        "tex": "|XQ'| &= |XQ| + |QQ'|"
+       },
+       {
+        "tex": "&= 8 + 4"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Divide the image distance by the original distance",
+      "lines": [
+       {
+        "text": "The scale factor is the distance from the centre to the image point divided by the distance to the original point."
+       },
+       {
+        "tex": "k &= \\frac{|XQ'|}{|XQ|}"
+       },
+       {
+        "tex": "&= \\frac{12}{8}"
+       },
+       {
+        "tex": "&= 1.5"
+       }
+      ]
+     }
+    ],
+    "final": "k = 1.5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-similar-triangles",
+   "title": "Find lengths using similar triangles",
+   "level": "OL",
+   "input": "two equiangular triangles",
+   "output": "missing side via ratio"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q8#(b)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the height x of the removed top cone",
+      "lines": [
+       {
+        "text": "The small cone on top is similar to the whole cone, so corresponding sides are in the same ratio."
+       },
+       {
+        "tex": "\\frac{3}{7.5} &= \\frac{x}{47}"
+       },
+       {
+        "tex": "x &= \\frac{3 \\times 47}{7.5}"
+       },
+       {
+        "tex": "x &= 18.8"
+       }
+      ]
+     },
+     {
+      "title": "Subtract from the full height",
+      "lines": [
+       {
+        "tex": "k &= 47 - 18.8"
+       },
+       {
+        "tex": "k &= 28.2"
+       }
+      ]
+     }
+    ],
+    "final": "k = 28.2 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q9#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Divide the bigger side by the smaller side",
+      "lines": [
+       {
+        "text": "The scale factor is the length on the bigger table-top divided by the length on the smaller one."
+       },
+       {
+        "tex": "k &= \\frac{45}{36}"
+       },
+       {
+        "tex": "k &= 1.25"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the shortest side by the scale factor",
+      "lines": [
+       {
+        "tex": "\\text{Length} &= 25.5 \\times 1.25"
+       },
+       {
+        "tex": "&= 31.875"
+       },
+       {
+        "tex": "&\\approx 31.9 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "k = 1.25 \\text{ and } 31.9 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the scale factor for areas",
+      "lines": [
+       {
+        "text": "Areas are multiplied by $k^2$. The bigger area is $k^2$ times the smaller area."
+       },
+       {
+        "tex": "k^2 &= 1.25^2"
+       },
+       {
+        "tex": "&= 1.5625"
+       },
+       {
+        "tex": "724 &= 1.5625 \\times A"
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the smaller area",
+      "lines": [
+       {
+        "tex": "A &= \\frac{724}{1.5625}"
+       },
+       {
+        "tex": "A &= 463.36"
+       },
+       {
+        "tex": "A &\\approx 463 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "463 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q7#(c)(i), (ii), (iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "(i) Find |PQ|",
+      "lines": [
+       {
+        "text": "Each image length is $k$ times the original length."
+       },
+       {
+        "tex": "|PQ| &= k \\times |AB|"
+       },
+       {
+        "tex": "&= 1.5 \\times 5"
+       },
+       {
+        "tex": "&= 7.5 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Find |BC|",
+      "lines": [
+       {
+        "text": "Divide the image length by $k$ to get the original length."
+       },
+       {
+        "tex": "|BC| &= \\frac{|QR|}{k}"
+       },
+       {
+        "tex": "&= \\frac{8.7}{1.5}"
+       },
+       {
+        "tex": "&= 5.8 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Show the angles are equal using cosines",
+      "lines": [
+       {
+        "text": "Both triangles have a right angle ($A$ and $P$), so $\\cos$ is adjacent over hypotenuse."
+       },
+       {
+        "tex": "\\cos|\\angle ABC| &= \\frac{|AB|}{|BC|} = \\frac{5}{5.8}"
+       },
+       {
+        "tex": "\\cos|\\angle PQR| &= \\frac{|PQ|}{|QR|} = \\frac{7.5}{8.7}"
+       },
+       {
+        "tex": "&= \\frac{5}{5.8}"
+       },
+       {
+        "tex": "\\cos|\\angle ABC| &= \\cos|\\angle PQR|"
+       },
+       {
+        "text": "Both angles are acute, so $|\\angle ABC| = |\\angle PQR|$."
+       }
+      ]
+     }
+    ],
+    "final": "|PQ| = 7.5 \\text{ cm}, \\; |BC| = 5.8 \\text{ cm}, \\; |\\angle ABC| = |\\angle PQR|"
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p2-q6#(b)",
+    "level": "ordinary",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find |EG|",
+      "lines": [
+       {
+        "text": "$DE \\parallel FG$, so the sides of the triangles are in proportion."
+       },
+       {
+        "tex": "|EG| &= 30-12"
+       },
+       {
+        "tex": "|EG| &= 18"
+       }
+      ]
+     },
+     {
+      "title": "Write the ratio equality",
+      "lines": [
+       {
+        "tex": "\\frac{x}{5} &= \\frac{18}{12}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "12x &= 5 \\times 18"
+       },
+       {
+        "tex": "12x &= 90"
+       },
+       {
+        "tex": "x &= \\frac{90}{12}"
+       },
+       {
+        "tex": "x &= 7.5"
+       }
+      ]
+     }
+    ],
+    "final": "x = 7.5 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use similar triangles in the cone",
+      "lines": [
+       {
+        "text": "The cone has height 12 and radius 12. The water level is 6 cm below the vertex, so the small cone above it has height 6 and radius $|CD|$."
+       },
+       {
+        "tex": "\\frac{|CD|}{12} &= \\frac{6}{12}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the radius",
+      "lines": [
+       {
+        "tex": "|CD| &= 12 \\times \\frac{6}{12}"
+       },
+       {
+        "tex": "&= 6 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "|CD| = 6 \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm14",
+   "title": "Apply Theorem 14: Pythagoras",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 14"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Pythagoras on the cone",
+      "lines": [
+       {
+        "text": "The height, radius and slant height form a right-angled triangle with $l$ as the hypotenuse."
+       },
+       {
+        "tex": "l^2 &= h^2 + r^2"
+       },
+       {
+        "tex": "l^2 &= 4.5^2 + 2.25^2"
+       },
+       {
+        "tex": "l^2 &= 20.25 + 5.0625"
+       },
+       {
+        "tex": "l^2 &= 25.3125"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "l &= \\sqrt{25.3125}"
+       },
+       {
+        "tex": "l &= 5.03"
+       }
+      ]
+     }
+    ],
+    "final": "l = 5.03\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q9#(c)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up Pythagoras on half of the roof triangle",
+      "lines": [
+       {
+        "text": "The roof height is $8.5 - 7 = 1.5$ m and half the width is $12 \\div 2 = 6$ m. $d$ is the hypotenuse."
+       },
+       {
+        "tex": "d^2 &= 6^2 + 1.5^2"
+       },
+       {
+        "tex": "d^2 &= 36 + 2.25"
+       },
+       {
+        "tex": "d^2 &= 38.25"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "d &= \\sqrt{38.25}"
+       },
+       {
+        "tex": "d &\\approx 6.18465"
+       },
+       {
+        "tex": "d &\\approx 6.2 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "d = 6.2 \\text{ m}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q5#(b)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write Pythagoras' theorem",
+      "lines": [
+       {
+        "text": "The right angle is at $H$, so $GK$ is the hypotenuse."
+       },
+       {
+        "tex": "|GK|^2 &= |GH|^2 + |HK|^2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the lengths",
+      "lines": [
+       {
+        "tex": "30^2 &= 12^2 + |HK|^2"
+       },
+       {
+        "tex": "900 &= 144 + |HK|^2"
+       }
+      ]
+     },
+     {
+      "title": "Make |HK|^2 the subject",
+      "lines": [
+       {
+        "tex": "|HK|^2 &= 900 - 144"
+       },
+       {
+        "tex": "|HK|^2 &= 756"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root and round",
+      "lines": [
+       {
+        "text": "A length is positive, so only the positive root is used."
+       },
+       {
+        "tex": "|HK| &= \\sqrt{756}"
+       },
+       {
+        "tex": "|HK| &\\approx 27.5 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "|HK| = 27.5 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q4#(b)(ii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Pythagoras to find k",
+      "lines": [
+       {
+        "text": "The removed triangle has legs 20 and 20, and hypotenuse $2k$."
+       },
+       {
+        "tex": "(2k)^2 &= 20^2 + 20^2"
+       },
+       {
+        "tex": "4k^2 &= 400 + 400"
+       },
+       {
+        "tex": "4k^2 &= 800"
+       },
+       {
+        "tex": "k^2 &= 200"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "tex": "k &= \\sqrt{200}"
+       },
+       {
+        "tex": "&= 10\\sqrt{2}"
+       },
+       {
+        "tex": "&\\approx 14.14"
+       }
+      ]
+     },
+     {
+      "title": "Area of the square",
+      "lines": [
+       {
+        "tex": "4k^2 &= 4 \\times 200"
+       },
+       {
+        "tex": "&= 800"
+       }
+      ]
+     },
+     {
+      "title": "Area of the removed triangle",
+      "lines": [
+       {
+        "tex": "\\tfrac{1}{2} \\times 20 \\times 20 &= 200"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to get the shaded area",
+      "lines": [
+       {
+        "tex": "\\text{Shaded} &= 800 - 200"
+       },
+       {
+        "tex": "&= 600"
+       }
+      ]
+     }
+    ],
+    "final": "k \\approx 14.14, \\quad \\text{shaded area} = 600 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q6#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find |AJ| in kilometres",
+      "lines": [
+       {
+        "text": "214 m is $0.214$ km. Jack is that far above the surface, so $|AJ|$ is the radius plus $0.214$."
+       },
+       {
+        "tex": "|AJ| &= 6371+0.214"
+       },
+       {
+        "tex": "&= 6371.214 \\text{ km}"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in triangle AHJ",
+      "lines": [
+       {
+        "text": "The line of sight $[JH]$ is a tangent to the earth, so it is perpendicular to the radius $[AH]$. The right angle is at $H$."
+       },
+       {
+        "tex": "|JH|^2 &= |AJ|^2-|AH|^2"
+       },
+       {
+        "tex": "|JH| &= \\sqrt{6371.214^2-6371^2}"
+       },
+       {
+        "tex": "&\\approx 52.22"
+       },
+       {
+        "tex": "&\\approx 52 \\text{ km}"
+       }
+      ]
+     }
+    ],
+    "final": "|JH| = 52 \\text{ km}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q7#(b)(i)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up a right-angled triangle in the sphere",
+      "lines": [
+       {
+        "text": "The sphere has radius 12, so the centre is $12-6=6$ cm above $A$. The hypotenuse is the radius to $B$, which is 12 cm."
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "12^2 &= 6^2 + |AB|^2"
+       },
+       {
+        "tex": "144 &= 36 + |AB|^2"
+       },
+       {
+        "tex": "|AB|^2 &= 144 - 36"
+       },
+       {
+        "tex": "|AB|^2 &= 108"
+       },
+       {
+        "tex": "|AB| &= \\sqrt{108}"
+       },
+       {
+        "tex": "&= \\sqrt{36 \\times 3}"
+       },
+       {
+        "tex": "&= 6\\sqrt{3}"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 6\\sqrt{3} \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm2",
+   "title": "Apply Theorem 2: Isosceles triangle: equal sides ⇔ equal base angles",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 2"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q6#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the angle DOB on the straight line",
+      "lines": [
+       {
+        "text": "$A$, $O$ and $B$ lie on a straight line, so $|\\angle AOD|$ and $|\\angle DOB|$ add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle DOB| &= 180 - 130"
+       },
+       {
+        "tex": "&= 50"
+       }
+      ]
+     },
+     {
+      "title": "Use the isosceles triangle ODB",
+      "lines": [
+       {
+        "text": "$|OB| = |OD|$ (radii), so the base angles of triangle $ODB$ are equal. Both are $X$."
+       },
+       {
+        "text": "The angles in a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "2X &= 180 - 50"
+       },
+       {
+        "tex": "2X &= 130"
+       },
+       {
+        "tex": "X &= 65"
+       }
+      ]
+     }
+    ],
+    "final": "X = 65^\\circ"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q10#(a)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the base angle of triangle OBC",
+      "lines": [
+       {
+        "text": "$|OB| = |OC|$, so triangle $OBC$ is isosceles and its base angles are equal."
+       },
+       {
+        "text": "Angles in a triangle add to $180^\\circ$, and $|\\angle BOC| = 72^\\circ$."
+       },
+       {
+        "tex": "|\\angle OBC| &= \\frac{180 - 72}{2}"
+       },
+       {
+        "tex": "&= 54^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Double it to get the angle of the pentagon",
+      "lines": [
+       {
+        "text": "$OB$ splits angle $CBA$ into two equal angles, each $54^\\circ$."
+       },
+       {
+        "tex": "|\\angle CBA| &= 2 \\times 54"
+       },
+       {
+        "tex": "&= 108^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle CBA| = 108^\\circ"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q6#(b)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find α",
+      "lines": [
+       {
+        "text": "$|OW| = |OY|$ because they are radii, so triangle $OWY$ is isosceles."
+       },
+       {
+        "text": "The angles opposite equal sides are equal, so the angle at $Y$ equals the angle at $W$."
+       },
+       {
+        "tex": "\\alpha &= 52"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle YOW",
+      "lines": [
+       {
+        "text": "Angles in a triangle add to 180°."
+       },
+       {
+        "tex": "|\\angle YOW| &= 180 - 52 - 52"
+       },
+       {
+        "tex": "&= 76"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle YOX",
+      "lines": [
+       {
+        "text": "$W$, $O$ and $X$ lie on a straight line, so angles $YOW$ and $YOX$ add to 180°."
+       },
+       {
+        "tex": "|\\angle YOX| &= 180 - 76"
+       },
+       {
+        "tex": "&= 104"
+       }
+      ]
+     },
+     {
+      "title": "Find β",
+      "lines": [
+       {
+        "text": "$|OY| = |OX|$ because they are radii, so the two base angles of triangle $OYX$ are equal."
+       },
+       {
+        "tex": "2\\beta &= \\frac{180 - 104}{2}"
+       },
+       {
+        "tex": "2\\beta &= 38"
+       },
+       {
+        "tex": "\\beta &= 19"
+       }
+      ]
+     }
+    ],
+    "final": "\\alpha = 52,\\ \\beta = 19"
+   }
+  ]
+ }
+]
