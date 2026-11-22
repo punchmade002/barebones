@@ -35,7 +35,7 @@
     },
     {
       "h": "Osmosis",
-      "b": "Water is the most abundant substance in cells, and it crosses membranes by its own process. Osmosis is diffusion of water, and it explains why cells swell and shrink.",
+      "b": "Water crosses membranes by its own process, because it is a small molecule that moves in and out of cells all the time. Osmosis is diffusion of water, and it explains why cells swell and shrink.",
       "points": [
         "Osmosis is the net movement of water molecules from a region of higher water concentration (a dilute solution) to a region of lower water concentration (a more concentrated solution) across a semi-permeable (selectively permeable) membrane.",
         "Osmosis is a special case of diffusion: it is the diffusion of water only, and it happens only across a membrane that lets water through but holds back the solute. It is passive and needs no ATP.",
@@ -51,7 +51,7 @@
       "points": [
         "Three terms describe the solution outside a cell compared with the cell's contents. Hypotonic means more dilute than the cell, so water enters the cell; hypertonic means more concentrated than the cell, so water leaves it; isotonic means the same concentration, so there is no net movement.",
         "Animal cells in a hypotonic solution (e.g. pure water) gain water, swell and may burst, because they have no cell wall to hold them in. Red blood cells bursting is called haemolysis.",
-        "In a hypertonic solution animal cells lose water and shrink, and red blood cells become shrivelled and spiky (crenated). This is why body fluids must be kept isotonic with cells. There is more on this in Water.",
+        "In a hypertonic solution animal cells lose water and shrink, and red blood cells become shrivelled and spiky (crenated). This is why body fluids must be kept isotonic with cells (osmoregulation). There is more on this in Water.",
         "Plant cells in a hypotonic solution take water into the vacuole (the large water-filled sac in the cell). The cytoplasm is pushed against the cell wall, which resists further swelling, so the cell becomes turgid (firm) and doesn't burst. The pressure of the contents against the wall is turgor pressure.",
         "Plant cells in a hypertonic solution lose water from the vacuole. The cell becomes flaccid (soft), then the cytoplasm and cell membrane shrink away from the cell wall, which is called plasmolysis.",
         "The gap between wall and membrane fills with the outside solution, because the cell wall is fully permeable. Plasmolysis can be reversed (deplasmolysis) if the cell is put back into water before it is damaged.",
@@ -85,7 +85,7 @@
     },
     {
       "h": "The sodium–potassium pump",
-      "b": "The best-known carrier pump moves two ions in opposite directions at once. It is found in animal cells and is essential for nerves.",
+      "b": "This carrier pump moves two ions in opposite directions at once. It is found in animal cells and is essential for nerves.",
       "points": [
         "The sodium–potassium pump is a carrier protein in the membranes of animal cells, including nerve cells. It uses one ATP to pump three sodium ions (Na⁺) out of the cell and two potassium ions (K⁺) into it, both against their concentration gradients.",
         "It keeps Na⁺ high outside the cell and K⁺ high inside, which nerve cells need in order to carry impulses, and it helps control cell volume."
