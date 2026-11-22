@@ -6,87 +6,93 @@
   "notes": [
     {
       "h": "Badminton",
+      "b": "Badminton is a net game: players hit a shuttle (the feathered projectile) over a net with a racket. Each shot has a purpose, either to put the opponent under pressure or to buy yourself time.",
       "points": [
-        "Grips: forehand and backhand grips.",
-        "Ready position: a balanced stance, with the player returning to base after each shot.",
-        "In badminton the serve is hit below the waist and diagonally into the opposite service box.",
-        "High serve: hit deep to the back of the court.",
-        "Low serve: hit just over the net, to the front service line.",
+        "Grips: you use a forehand grip for shots on your racket-hand side and a backhand grip for shots on the other side, changing between them as the shuttle comes.",
+        "Ready position: a balanced stance, with the player returning to base (the central court position) after each shot, so they can reach a shot in any direction.",
+        "In badminton the serve is hit below the waist and diagonally into the opposite service box (the marked area the serve must land in).",
+        "High serve: hit deep to the back of the court. Low serve: hit just over the net, to the front service line, so the receiver has little time to attack it.",
         "Net shots: soft, tumbling shots played from near the net, which keep the shuttle low over the net so the opponent cannot attack it.",
-        "Clear: hit high and deep to the back of the court to gain time.",
-        "Drop shot: disguised as a clear, landing just over the net to draw the opponent forward.",
-        "Smash: steep and powerful, hit from a high contact point with the racket arm fully extended.",
-        "Tactics: move the opponent around the four corners of the court and attack the weaker side."
-      ]
+        "Clear: hit high and deep to the back of the court to gain time, because the shuttle is in the air for longer and you can recover your position.",
+        "Drop shot: disguised as a clear, landing just over the net to draw the opponent forward. Because it looks like a clear, the opponent moves back and is caught out.",
+        "Smash: steep and powerful, hit from a high contact point with the racket arm fully extended, so the shuttle is driven sharply downwards.",
+        "Tactics: move the opponent around the four corners of the court and attack the weaker side, so they are stretched and make errors."
+      ],
+      "tip": "If asked about the badminton serve, say it is hit below the waist and diagonally into the opposite service box. Net and wall games are common exam contexts, so be ready to analyse a shot or a tactic against a weaker side."
     },
     {
       "h": "Tennis",
+      "b": "Tennis is played over a net with strung rackets, and the grip you choose depends on the shot. Technique runs from the serve that starts each point to the shots that finish it.",
       "points": [
-        "Grips: continental grip for the serve and volley; eastern or semi-western grip for groundstrokes.",
-        "Serve: ball toss slightly in front, trophy position, contact at full stretch, with pronation.",
+        "Grips: continental grip for the serve and volley (a shot hit before the ball bounces); eastern or semi-western grip for groundstrokes (shots hit after the ball bounces).",
+        "Serve: ball toss slightly in front, trophy position (racket held back and up, like holding a trophy), contact at full stretch, with pronation (the forearm turning over through contact).",
         "Serve variations: flat, slice and kick.",
-        "Drives: forehand and backhand, with early preparation, a side-on stance, a low-to-high swing and a follow-through.",
-        "Volley: a short punch with a firm wrist, racket head up, moving forward.",
-        "Lob: hit high over a net player.",
-        "Smash: side-on, pointing at the ball and hit at full extension.",
-        "Tactics: serve and volley, baseline play, and attacking the weaker side.",
-        "Scoring: 15, 30, 40, game, with deuce and advantage."
-      ]
+        "Drives: forehand and backhand groundstrokes, with early preparation, a side-on stance, a low-to-high swing and a follow-through, so the swing is controlled and finishes the stroke fully.",
+        "Volley: a short punch with a firm wrist, racket head up, moving forward. A short punch is used because the ball is hit before it bounces, so there is little time.",
+        "Lob: hit high over a net player, so the ball passes over their head and they cannot reach it.",
+        "Smash: side-on, pointing at the ball and hit at full extension, an overhead shot played to finish the point.",
+        "Tactics: serve and volley (follow the serve to the net), baseline play (staying at the back of the court), and attacking the weaker side.",
+        "Scoring: 15, 30, 40, game, with deuce (40 each) and advantage."
+      ],
+      "tip": "Net and wall games, badminton and tennis especially, are common exam contexts. Be ready for questions on reaction time, agility, shot analysis, tactics against a weaker side and the scoring system, including 15, 30, 40, game, deuce and advantage."
     },
     {
       "h": "Table tennis",
+      "b": "Table tennis is a fast net game played on a table, so control of spin and placement matters more than power. The rules on the serve and scoring are exact and are worth knowing.",
       "points": [
-        "Grips: shake-hand or penhold.",
+        "Grips: shake-hand (held like a handshake) or penhold (held like a pen).",
         "Legal serve: the ball is tossed at least 16 cm up from an open palm and struck behind the end line.",
-        "Drives: forehand and backhand, with topspin, close to the table.",
-        "Push: backspin, soft, keeping the ball low.",
-        "Block: racket angled to absorb a fast attack close to the table.",
-        "Smash: a high ball hit flat and hard.",
-        "Tactics: vary spin and placement.",
+        "Drives: forehand and backhand, with topspin (forward spin on the ball), close to the table.",
+        "Push: backspin (backward spin on the ball), soft, keeping the ball low, so it is hard for the opponent to attack.",
+        "Block: racket angled to absorb a fast attack close to the table, using the opponent's own pace.",
+        "Smash: a high ball hit flat and hard, to finish the point.",
+        "Tactics: vary spin and placement, so the opponent cannot predict the next shot.",
         "Scoring: games to 11 points, won by two clear points."
-      ]
+      ],
+      "tip": "Learn the scoring and serve rules exactly: at least 16 cm from an open palm, struck behind the end line, and games to 11 won by two clear points. Questions on net and wall games can also ask about shot analysis and tactics."
     },
     {
       "h": "Volleyball",
+      "b": "Volleyball teams get three touches to send the ball back over the net, so each touch has a job. The usual pattern is a dig, then a set, then a spike.",
       "points": [
-        "Underarm serve: used by beginners.",
-        "Overarm serve: the floating serve has no spin and moves unpredictably.",
-        "Dig (forearm pass): forearms together to form a platform, with the legs bent.",
-        "Volleyball forearm pass power comes from the legs, not swinging the arms.",
-        "Set (volley): hands above the forehead in a triangle, contact made with the fingertips, and the legs and arms extended.",
-        "Spike: approach, a two-foot jump, high contact and a wrist snap.",
-        "Block: jump with the hands above the net and penetrate forward to stop the spike.",
+        "Serve: the underarm serve is used by beginners. In the overarm serve, the floating serve has no spin and moves unpredictably, which makes it hard to receive.",
+        "Dig (forearm pass): forearms together to form a platform, with the legs bent. Volleyball forearm pass power comes from the legs, not swinging the arms.",
+        "Set (volley): hands above the forehead in a triangle, contact made with the fingertips, and the legs and arms extended, to place the ball for the spike.",
+        "Spike: approach, a two-foot jump, high contact and a wrist snap, which drives the ball down hard into the opposing court.",
+        "Block: jump with the hands above the net and penetrate forward (reach over the net) to stop the spike.",
         "Tactics: a dig, set and spike sequence, using the three touches.",
-        "Rules: a maximum of three touches per side.",
-        "Rules: the same player may not touch the ball twice in a row, except after a block.",
-        "Scoring: rally scoring."
-      ]
+        "Rules: a maximum of three touches per side, and the same player may not touch the ball twice in a row, except after a block.",
+        "Scoring: rally scoring (a point is won on every rally, whoever served)."
+      ],
+      "tip": "For the forearm pass, say the power comes from the legs and not from swinging the arms. Be ready to state the touch rules: three touches per side, and no player touches twice in a row except after a block."
     },
     {
       "h": "Squash",
+      "b": "Squash is a wall game: both players share one court and hit the ball off the walls. Position matters as much as the shot, which is why the T is central.",
       "points": [
-        "Ready position: on the T.",
+        "Ready position: on the T (the junction of the lines at the centre of the court), from where every part of the court is easiest to reach.",
         "Serve: one foot in the service box; the ball hits the front wall above the service line and lands in the opposite back quarter.",
-        "Straight drive: along the side wall, hit to length, to the back of the court.",
-        "Volley: cut the ball off early, before it bounces.",
+        "Straight drive: along the side wall, hit to length, to the back of the court, so the opponent is pushed back.",
+        "Volley: cut the ball off early, before it bounces, so the opponent has less time.",
         "Boast: hit onto a side wall first, so the ball travels to the front wall.",
         "Lob: hit high to the back of the court.",
         "Tactics: dominate the T, hit to length, and move the opponent.",
-        "Rules: let and stroke rules for interference."
+        "Rules: let and stroke rules for interference (when a player gets in the way of the opponent's shot)."
       ]
     },
     {
       "h": "Handball (Gaelic handball)",
+      "b": "Gaelic handball is a wall game in which the ball is struck with the hand against the front wall. It is played on two court sizes, and one stroke depends on which court is used.",
       "points": [
+        "Courts: 60 x 30 feet and 40 x 20 feet.",
         "Underarm stroke: low, swinging upwards, side-on.",
-        "Overhand stroke: struck from above the shoulder, for power and kill shots.",
+        "Overhand stroke: struck from above the shoulder, for power and kill shots (shots that stay so low on the front wall that the opponent cannot return them).",
         "Back wall shot: played after the ball rebounds off the back wall.",
-        "Straight hit: struck from the short line.",
+        "Straight hit: struck from the short line (the line across the court that the serve must pass).",
         "Fly shot: struck before the ball bounces.",
         "Side-arm stroke: used only on the 40 x 20 court.",
         "Serve: the ball is bounced and struck so that it lands beyond the short line.",
-        "Courts: 60 x 30 feet and 40 x 20 feet.",
-        "Tactics: use both hands, play kill shots low on the front wall, and move the opponent."
+        "Tactics: use both hands, play kill shots low on the front wall, and move the opponent, so there is no weak side to attack."
       ]
     }
   ],
