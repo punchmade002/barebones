@@ -211,7 +211,7 @@
     },
     {
       "h": "Penicillin: discovery and action",
-      "b": "Penicillin was the first widely used antibiotic. Its discovery came from a mould, and it works by attacking bacteria specifically.",
+      "b": "Penicillin is an antibiotic. Its discovery came from a mould, and it works by attacking bacteria specifically.",
       "points": [
         "Alexander Fleming discovered in 1928 that the mould Penicillium killed bacteria.",
         "Howard Florey and Ernst Chain purified penicillin and showed around 1940 that it worked in patients.",
@@ -223,7 +223,7 @@
     },
     {
       "h": "Penicillin: structure and manufacture",
-      "b": "Penicillin's activity depends on one ring in its structure, and it is made by growing a mould rather than by building it from scratch.",
+      "b": "Penicillin has a key structural feature, the β-lactam ring, and it is made by growing a mould rather than by building it from scratch.",
       "points": [
         "Its key structural feature is a four-membered ring containing nitrogen and a C=O, the β-lactam ring, joined to a ring containing sulfur.",
         "Penicillin G is C₁₆H₁₈N₂O₄S and also contains a carboxylic acid group.",
@@ -247,7 +247,7 @@
       "b": "Taxol is an anti-cancer drug that comes from a tree. It is a very large molecule, which makes it hard to obtain.",
       "points": [
         "Taxol (paclitaxel) is an anti-cancer drug, used for example for ovarian, breast and lung cancers.",
-        "Taxol stops cancer cells dividing, so the cancer cannot spread by growth of new cells.",
+        "Taxol stops cancer cells dividing.",
         "Taxol was found in the bark of the Pacific yew tree (Taxus brevifolia) in a US plant-screening programme in the 1960s, and its structure was published in 1971.",
         "Taxol is a very large, complex molecule, C₄₇H₅₁NO₁₄, with many functional groups.",
         "Its functional groups include several ester groups, hydroxyl (–OH) groups, a ketone, an amide and three benzene rings."
@@ -262,7 +262,7 @@
         "Taxol can also be made by growing yew cells in fermentation tanks.",
         "Complete laboratory synthesis, first achieved in 1994, needs too many steps to be economic."
       ],
-      "tip": "Taxol is the usual case study for extraction versus laboratory synthesis. Don't invent step counts, yields or dates for syntheses."
+      "tip": "Taxol can be a case study for extraction versus laboratory synthesis. Don't invent step counts, yields or dates for syntheses."
     },
     {
       "h": "Opiates",

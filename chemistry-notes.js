@@ -706,7 +706,8 @@
      "Precision is also used for the smallest division an instrument can read, which is its resolution. A scale marked in 0.1 cm³ steps has a finer resolution than one marked in 1 cm³ steps.",
      "Results can be precise but not accurate, such as closely grouped readings that are all off the true value because a balance has not been zeroed (set to read 0 g with nothing on it).",
      "Results can be accurate on average but not precise, with readings scattered on either side of the true value so that the mean lands close to it.",
-     "Every instrument has an uncertainty, the amount by which a reading could be out. Typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.",
+     "Every instrument has an uncertainty, the amount by which a reading could be out.",
+     "Typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.",
      "Volumetric glassware (pipettes, burettes and volumetric flasks, made to deliver or hold one exact volume) is far more accurate than a measuring cylinder, which is why a pipette is used for accurate volumes.",
      "Significant figures (assumed knowledge): answers are reported to the same number of significant figures (the meaningful digits in a number) as the least precise measurement used, so the answer does not look more exact than the data. This is usually three in titration calculations."
     ],
@@ -716,8 +717,10 @@
     "b": "No measurement is perfect. Errors fall into two types that behave differently, and knowing which type you have tells you how to reduce it.",
     "h": "Errors",
     "points": [
-     "Random error is unpredictable variation that scatters readings above and below the true value. Examples are misjudging the end point of a titration (the moment the indicator changes colour), reading a meniscus (the curved surface of a liquid in glassware) and temperature fluctuations. It is reduced by repeating and averaging, because the highs and lows cancel out.",
-     "Systematic error is a consistent error that shifts all readings in the same direction. Examples are a balance that has not been zeroed, a thermometer that reads 1 °C high, heat lost to the surroundings in a calorimetry experiment (one that measures heat changes), and parallax always from the same angle.",
+     "Random error is unpredictable variation that scatters readings above and below the true value. It is reduced by repeating and averaging, because the highs and lows cancel out.",
+     "Examples of random error are misjudging the end point of a titration (the moment the indicator changes colour), reading a meniscus (the curved surface of a liquid in glassware) and temperature fluctuations.",
+     "Systematic error is a consistent error that shifts all readings in the same direction.",
+     "Examples of systematic error are a balance that has not been zeroed, a thermometer that reads 1 °C high, heat lost to the surroundings in a calorimetry experiment (one that measures heat changes), and parallax always from the same angle.",
      "Repeating does not reduce systematic error, because every repeat is wrong in the same way. It is reduced by calibrating the equipment (checking it against a known standard and adjusting it) or by improving the method.",
      "Parallax error occurs when a scale is read from an angle, which makes the liquid level appear to sit at a different mark. Read the bottom of the meniscus at eye level.",
      "Anomalous results (outliers, readings that do not fit the rest) caused by mistakes are identified and either repeated or excluded with a reason.",
@@ -1126,7 +1129,7 @@
     ]
    },
    {
-    "b": "Most people meet science through news, advertising and social media rather than through the original research. That makes it important to check what they say before believing it.",
+    "b": "News, advertising and social media often report science second-hand rather than as the original research. It is therefore important to check what they say before believing it.",
     "h": "Why media reports need evaluating",
     "points": [
      "News, advertising and social media may simplify, exaggerate or sensationalise (make more dramatic than the facts justify) science.",
@@ -1263,7 +1266,7 @@
     "h": "Three levels of representation",
     "points": [
      "The macroscopic (observable) level is what we see, measure and handle, for example ice melting, a solution changing colour, or gas bubbles forming. You need no special equipment to notice these changes.",
-     "The sub-microscopic (particulate) level is made up of atoms, ions (charged atoms), molecules (groups of atoms bonded together) and electrons, and how they move and rearrange. These particles cannot be seen with a light microscope, which is why the level is called sub-microscopic.",
+     "The sub-microscopic (particulate) level is made up of atoms, ions (charged particles), molecules (groups of atoms bonded together) and electrons, and how they move and rearrange. These particles cannot be seen with a light microscope, which is why the level is called sub-microscopic.",
      "The sub-microscopic level explains the observations at the macroscopic level: what we see happens because of what the particles do.",
      "The symbolic level uses formulae, equations, diagrams and graphs to represent the particles and the changes, so that a change can be written down in a short, exact form.",
      "Chemists move between the three levels: an explanation links what is seen to what the particles do, and writes it symbolically."
@@ -1350,7 +1353,7 @@
      "Students develop an evidence-based argument in response to the brief and submit a report in Year 2 (sixth year), in a format prescribed by the SEC.",
      "The specification envisages up to 20 hours of work; a separate document, “Guidelines to support the Chemistry in Practice Investigation”, covers organisation.",
      "Students give an authentic account of how the work unfolded, discuss the outcomes and say how they might revise the process. Engaging with the process matters more than a perfect answer, so an honest account of what went wrong is worth giving.",
-     "Experimental design, safety and measurement are part of the work. There is more on this in “Designing and conducting investigations” and “Measurement and error”."
+     "Experimental design is covered in more detail in “Questions, hypotheses and designing investigations”."
     ],
     "tip": "If asked to describe the two main parts of the work, give the scientific research from secondary sources and the experiment, with its hypothesis, primary data and conclusions."
    },
@@ -1507,7 +1510,7 @@
     "h": "Physical change",
     "points": [
      "A physical change is one in which no new substance is formed; the particles are not changed, only their arrangement or spacing.",
-     "A physical change is usually easily reversed and involves only a small energy change, because no bonds (the forces holding atoms together) are broken and remade.",
+     "A physical change is usually easily reversed and involves only a small energy change, because no new substance forms; only the arrangement or spacing of the particles changes.",
      "A change of state is always a physical change: melting, boiling, freezing and condensing only move the same particles further apart or closer together.",
      "Examples of physical change: melting ice, boiling water, dissolving sugar or salt in water, sublimation of iodine (solid turning straight to gas), crushing a solid and magnetising iron.",
      "The mass is unchanged in a physical change, because the same particles are present before and after."
@@ -1870,7 +1873,7 @@
     "tip": "Exams ask you to balance combustion equations. If you end up with a fraction, multiply every coefficient to clear it."
    },
    {
-    "b": "Exams also ask for balanced equations for reactions of metals with acids and water, neutralisation (an acid reacting with a base) and decomposition (one substance breaking down).",
+    "b": "These equations show a metal reacting with an acid, neutralisation (an acid reacting with a base), decomposition (one substance breaking down) and a metal reacting with water.",
     "h": "Worked examples: other reaction types",
     "points": [
      "Aluminium and hydrochloric acid (metal and acid): 2Al(s) + 6HCl(aq) → 2AlCl₃(aq) + 3H₂(g).",
@@ -2040,7 +2043,7 @@
      "Citric juices are acids: lemon juice contains citric acid, tastes sour and has a pH of about 2–3; orange juice has a pH of about 3–4.",
      "Antacids (medicines for excess stomach acid) are bases: they contain magnesium hydroxide, aluminium hydroxide, calcium carbonate or sodium hydrogencarbonate, and neutralise excess stomach acid.",
      "Toothpaste is mildly basic, so it neutralises the acids that bacteria in plaque (the film of bacteria on teeth) produce, which would otherwise attack tooth enamel (the hard outer layer of the tooth).",
-     "Baking soda (sodium hydrogencarbonate) is a weak base, so it is safe enough to use in cooking and as a mild remedy.",
+     "Baking soda (sodium hydrogencarbonate) is a weak base.",
      "Oven cleaner (sodium hydroxide) is a strong alkali, which is why it is corrosive and must be handled with care.",
      "Lemonade and cola are acids because they contain citric, carbonic or phosphoric acid."
     ],
@@ -2498,7 +2501,7 @@
     "b": "A titration answer can only be as good as the solution it is measured against. That is why one special type of substance, the primary standard, is used to fix the concentration.",
     "h": "Primary standards",
     "points": [
-     "A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly. There is more on this in Solutions and concentration.",
+     "A primary standard is a very pure, stable substance of known formula that can be weighed accurately and dissolved to give a standard solution directly. Its properties and the method for making up a standard solution are in Solutions and concentration.",
      "Acid–base primary standard: anhydrous sodium carbonate, Na₂CO₃ (anhydrous means it contains no water of crystallisation, so its formula and mass are exact).",
      "Redox primary standard: ammonium iron(II) sulfate, (NH₄)₂Fe(SO₄)₂·6H₂O. Redox titrations are ones where electrons are transferred, and this is mentioned here only as an example.",
      "Every result in volumetric analysis is only as accurate as the standard: an impure or unstable standard gives a wrong concentration, and so a wrong answer for the analyte."
@@ -2855,7 +2858,7 @@
     "b": "Sodium hydroxide is a hazardous chemical, and several slips in technique shift the result in a predictable direction.",
     "h": "Vinegar investigation: safety and errors",
     "points": [
-     "Safety: sodium hydroxide is corrosive, especially to the eyes, so wear goggles and use a pipette filler (never pipette by mouth).",
+     "Safety: sodium hydroxide is corrosive, especially to the eyes, so wear goggles and use a pipette filler.",
      "Not rinsing the burette with sodium hydroxide leaves water in it, which dilutes the solution, so the titre is too high and the result is too high.",
      "Overshooting the end point gives too large a titre, so the result is too high.",
      "An air bubble below the burette tap gives a wrong titre, because the reading then does not match the volume actually delivered.",
@@ -3326,7 +3329,7 @@
      "Rule 7: fluorine is always −1 in its compounds; the other halogens are −1 except when bonded to a more electronegative element (oxygen or fluorine).",
      "For example Cl is +1 in NaClO and Cl₂O, +5 in ClO₃⁻, and +7 in Cl₂O₇ and ClO₄⁻.",
      "Rule 8: in a compound of two non-metals not covered above, the more electronegative element takes its usual negative value and the other is calculated, for example CS₂: S = −2, so C = +4.",
-     "Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44."
+     "Pauling electronegativities (a scale of how strongly an atom attracts bonding electrons; see “Electronegativity and bond type”): H 2.20, Na 0.93, Ca 1.00, S 2.58, C 2.55, F 3.98, O 3.44."
     ],
     "tip": "Exams ask you to explain why hydrogen is −1 in metal hydrides and oxygen is +2 in OF₂, and these exceptions are asked often. In both cases, say which element is more electronegative and so takes the electrons. Peroxides give oxygen −1."
    },
@@ -4248,7 +4251,7 @@
     "tip": "Don't forget the dilution or portion factor (× 10), and divide by the number of tablets."
    },
    {
-    "b": "Exam answers are marked using whole-number relative atomic masses (Ar, the mass of an atom relative to carbon-12), as in the SEC Formulae and Tables. Use these values.",
+    "b": "Use whole-number relative atomic masses (Ar, the mass of an atom relative to carbon-12), as in the SEC Formulae and Tables. Use these values.",
     "h": "Molar masses to use",
     "points": [
      "Ar: H 1, C 12, N 14, O 16, Na 23, S 32, Cl 35.5, K 39, Mn 55, Fe 56, I 127. Use Ar(Fe) = 56 for iron.",
@@ -4363,7 +4366,7 @@
     "tip": "The dilution factors in Problems 4 and 5 are 10 and 25 (250 ÷ 10.0), so work out the factor each time instead of assuming 10. Higher Level exams set unfamiliar contexts such as hypochlorite in bleach."
    },
    {
-    "b": "This problem reverses the usual roles. Permanganate still oxidises, but here it is the hydrogen peroxide that is oxidised, and the dilution factor is not 10.",
+    "b": "Here hydrogen peroxide acts as the reducing agent, and the dilution factor is 25 rather than 10.",
     "h": "Problem 5: hydrogen peroxide solution (Higher Level only)",
     "points": [
      "Data: 10.0 cm³ of a hydrogen peroxide solution was diluted to 250 cm³; 25.0 cm³ portions, acidified with dilute sulfuric acid, needed a mean titre of 20.0 cm³ of 0.0200 M KMnO₄.",
@@ -4606,7 +4609,7 @@
     "tip": "Surface area is about particle size for the same mass of solid; more marble is a change in amount, not surface area. Exams ask why powdered solids react faster and what the conditions for a dust explosion are."
    },
    {
-    "b": "Raising the temperature is the most powerful way to speed up most reactions. Collision theory gives two reasons, and one matters far more than the other.",
+    "b": "Raising the temperature speeds up most reactions. Collision theory gives two reasons, and one matters far more than the other.",
     "h": "Temperature: why a rise speeds up reactions",
     "points": [
      "Raising the temperature increases the rate of almost all reactions.",
@@ -5530,7 +5533,7 @@
     "tip": "Exams ask you to find an equilibrium amount, mass or percentage decomposition from Kc (esterification; BrCl or HI decomposition). Substitute equilibrium amounts, never initial ones."
    },
    {
-    "b": "When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them can be real.",
+    "b": "When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them is physically possible (the other would need more of a reactant than is present).",
     "h": "Problem 5: equilibrium concentrations from Kc, quadratic (Higher Level only)",
     "points": [
      "Data: 1.00 mol H₂ and 2.00 mol I₂ are placed in a 1.00 L flask; Kc = 49.0 at this temperature, for H₂(g) + I₂(g) ⇌ 2HI(g).",
@@ -6303,7 +6306,7 @@
     "tip": "Sulfuric acid gives 2H⁺ per formula unit, so double its concentration before taking the log. Don't use √(Ka × c) for a strong acid."
    },
    {
-    "b": "Exam questions often give a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.",
+    "b": "Sometimes a question gives a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.",
     "h": "Strong acid from a mass (Higher Level only)",
     "points": [
      "Problem: 5.0 g of sulfuric acid (H₂SO₄ = 98 g mol⁻¹, its molar mass) is dissolved in water and made up to 250 cm³. Find the pH.",
@@ -6382,7 +6385,7 @@
     "tip": "Exams ask for the concentration of a strong acid with a given pH, for [OH⁻] in a solution of given pH, and for Ka from the pH and concentration of a weak acid."
    },
    {
-    "b": "Most marks are lost by choosing the wrong method or skipping a conversion, not by the algebra. Work through these checks before and after every pH calculation.",
+    "b": "Every pH calculation goes wrong if the wrong method is chosen or a conversion is skipped. Work through these checks before and after every pH calculation.",
     "h": "Good practice (Higher Level only)",
     "points": [
      "First decide: is the species an acid or a base, and is it strong or weak? For a strong species use the concentration directly; for a weak species use √(Ka × c) or √(Kb × c).",
@@ -6974,7 +6977,7 @@
   ],
   "notes": [
    {
-    "b": "Carbon is never used up. It moves continuously between stores (places where it is held) through natural processes, and the balance between those processes decides how much CO₂ is in the air.",
+    "b": "Carbon moves continuously between stores (places where it is held) through natural processes. The balance between sources and sinks decides how much CO₂ is in the air.",
     "h": "The carbon cycle: stores and processes",
     "points": [
      "Carbon is stored in the atmosphere (mainly as CO₂), in the oceans (dissolved CO₂, hydrogencarbonate and carbonate ions), in living things (carbohydrates, proteins and fats), in soils and peat, and in rocks (limestone and fossil fuels).",
@@ -7013,7 +7016,7 @@
     "tip": "To explain why atmospheric CO₂ has risen over the last 200 years, say that burning fossil fuels and removing sinks such as forests and peatlands have upset the balance that held CO₂ near 280 ppm before industrialisation."
    },
    {
-    "b": "Greenhouse gases in the atmosphere trap some of the heat the Earth radiates, keeping the lower atmosphere warm. The effect depends on the difference between the radiation arriving from the Sun and the radiation leaving the Earth.",
+    "b": "Greenhouse gases in the atmosphere trap some of the heat the Earth radiates, keeping the lower atmosphere warm.",
     "h": "The natural greenhouse effect",
     "points": [
      "Energy from the Sun reaches the Earth mainly as visible light (shorter wavelength), with some ultraviolet and near-infrared. The atmosphere is largely transparent to visible light, so it passes through.",
@@ -7040,7 +7043,7 @@
     "tip": "If asked to name a greenhouse gas and a gas that is not one, give for example CO₂ and N₂. To explain why N₂ and O₂ don't absorb IR, say their molecules have two identical atoms and so their vibration can't change the charge distribution. For CO₂ against water vapour, give water vapour's far greater abundance."
    },
    {
-    "b": "The natural greenhouse effect is what makes the Earth habitable. The scientific idea behind it was worked out by experiment in the nineteenth century.",
+    "b": "The natural greenhouse effect is what makes the Earth habitable, and experiments by John Tyndall in the nineteenth century showed which gases absorb heat radiation.",
     "h": "Significance of the natural greenhouse effect",
     "points": [
      "Without the natural greenhouse effect, the Earth's average surface temperature would be about −18 °C instead of about +15 °C, a difference of about 33 °C.",
@@ -7531,7 +7534,7 @@
     ]
    },
    {
-    "b": "Very fine particles would stay suspended for days, so they cannot simply be left to settle. Flocculation (also called coagulation) is the chemical trick that makes them clump into pieces big enough to sink.",
+    "b": "Very fine particles carry charges that keep them apart and suspended, so they cannot simply be left to settle. Flocculation (also called coagulation) is the chemical trick that makes them clump into pieces big enough to sink.",
     "h": "Flocculation",
     "points": [
      "Very small suspended particles (clay, silt and organic matter) don't settle because they are tiny and carry like, usually negative, charges that make them repel each other.",
@@ -7552,7 +7555,7 @@
     "tip": "Sedimentation is one of the stages you may be asked to describe or explain the purpose of. Link it to flocculation: the flocs are what settle."
    },
    {
-    "b": "Sedimentation leaves behind the smaller particles that did not sink. Filtration strains these out, using sand in most plants and, in some plants, membranes as well.",
+    "b": "Sedimentation leaves behind the smaller particles that did not sink. Filtration strains these out, using sand and, in some plants, membranes as well.",
     "h": "Filtration",
     "points": [
      "Sand filtration: water passes down through beds of sand on a layer of gravel, and the remaining small particles and flocs are trapped in the spaces between the sand grains.",
@@ -7617,7 +7620,7 @@
     "tip": "Exams ask the purpose of adding calcium hydroxide or sulfuric acid, and the problem if the pH of an acidic supply was not adjusted. Say calcium hydroxide raises the pH and sulfuric acid lowers it, and that acidic water corrodes pipes and dissolves lead and copper."
    },
    {
-    "b": "Treatment is expensive, so it is worth asking what it achieves. Clean water has changed human health and still shapes lives around the world.",
+    "b": "Treatment uses energy and chemicals, so it is worth asking what it achieves. Clean water has changed human health and still shapes lives around the world.",
     "h": "The impact of providing clean water",
     "points": [
      "Clean drinking water is one of the greatest public health advances: water-borne diseases such as cholera, typhoid and dysentery killed huge numbers of people in cities before treatment and disinfection.",
@@ -7715,7 +7718,7 @@
      "Electrons flow only through the external circuit (the wires and device outside the cell); in the electrolyte the charge is carried by ions.",
      "A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching, which would short-circuit the cell (let current bypass the device).",
      "Li⁺ ions move in and out of the layered structures of both electrodes without destroying them (a process called intercalation), so the cell can be charged and discharged many times.",
-     "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right), each on a current collector (a metal plate that connects the electrode to the circuit), with electrolyte between them and a separator in the middle, and an external circuit with a device; arrows show Li⁺ moving through the electrolyte and electrons moving through the external circuit, labelled for discharging (both towards the positive electrode) and charging (both towards the graphite)."
+     "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right) with a separator between them in the electrolyte, joined by an external circuit with a device; Li⁺ moves through the electrolyte and electrons through the circuit, towards the positive electrode on discharge and towards the graphite on charge."
     ],
     "tip": "The negative electrode holds lithium atoms stored in graphite, not a block of lithium metal. Electrons travel through the external circuit, never through the electrolyte, where ions carry the charge."
    },
@@ -7904,7 +7907,8 @@
      "Step 1: Choose a focused, answerable question that links course chemistry to one theme, for example “Should…?”, “How effective is…?” or “What are the benefits and risks of…?” A focused question keeps the research from becoming too wide to finish.",
      "Step 2: Identify the chemistry involved, such as reactions, equations and properties, so that the research explains why something happens and not only what happens.",
      "Step 3: Find a range of sources: peer-reviewed papers and reviews (articles checked by independent experts before publication), reports from scientific and government bodies (e.g. the IPCC, the EPA, the HSE, WHO and Uisce Éireann), textbooks, and reputable science journalism. Include sources with different viewpoints.",
-     "Step 4: Evaluate each source by asking who wrote it and what expertise they have, when it was written (is it current?), what evidence it gives (data and methods, or just opinion?), whether it was peer reviewed, and whether the author has a purpose or bias, e.g. funding, selling a product or campaigning.",
+     "Step 4: Evaluate each source by asking who wrote it and what expertise they have, when it was written (is it current?), and what evidence it gives (data and methods, or just opinion?).",
+     "Step 4 also asks whether the source was peer reviewed, and whether the author has a purpose or bias, e.g. funding, selling a product or campaigning.",
      "Step 5: Separate measured data from claims and opinion, compare like with like, and note uncertainties and where scientists disagree. Comparing like with like means the figures you set side by side were measured in the same way.",
      "Step 6: Weigh the evidence on each side, considering benefits, risks, costs and who is affected, locally and globally, now and in the future.",
      "Step 7: Reach a justified conclusion that answers the question, explain the chemistry behind it, state its limitations and suggest further research.",
@@ -7939,11 +7943,11 @@
     "tip": "A conclusion needs evidence on more than one side and a justified judgement. Say which way the weighing comes out and why."
    },
    {
-    "b": "This outline applies the stages to a sustainability question. Irish bogs store large amounts of carbon, and the chemistry of what happens to that carbon depends on whether the peat is wet or drained.",
+    "b": "This outline applies the stages to a sustainability question. The chemistry of what happens to the carbon in an Irish bog depends on whether the peat is wet or drained.",
     "h": "Worked outline: sustainability, rewetting peatlands",
     "points": [
      "Question: “Is rewetting drained Irish bogs an effective way to reduce greenhouse gas emissions?”",
-     "Chemistry: in waterlogged peat (partly decayed plant material), decay is very slow because oxygen is lacking, so carbon builds up in a carbon sink (a store that takes in more carbon than it releases). There is more on this in The natural greenhouse effect.",
+     "Chemistry: in waterlogged peat (partly decayed plant material), decay is very slow because oxygen is lacking, so carbon builds up in a carbon sink (a store that takes in more carbon than it releases). There is more on this in The natural greenhouse effect and The enhanced greenhouse effect.",
      "Chemistry: when bogs are drained, oxygen gets in and aerobic decay (decay by microorganisms that use oxygen) releases the stored carbon as CO₂.",
      "Chemistry: when the peat is rewetted, the CO₂ release stops, but anaerobic microorganisms (those that live without oxygen) produce some methane (CH₄), which is a stronger greenhouse gas per kg.",
      "Sources: EPA Ireland reports, and Bord na Móna and National Parks and Wildlife Service information.",
@@ -7986,7 +7990,7 @@
      "Issue: the energy use of UV lamps, and cost.",
      "Conclusion: UV is a valuable extra barrier but cannot fully replace chlorine, because a residual disinfectant is needed in the pipes. The reasoning must be shown."
     ],
-    "tip": "A conclusion is only worth marks to the extent it is justified, so show the reasoning from the evidence you weighed."
+    "tip": "A conclusion must be justified, so show the reasoning from the evidence you weighed."
    },
    {
     "b": "The syllabus asks you to see chemistry as something people do together, with effects well beyond the lab. Personal research is one way to appreciate that.",
@@ -8155,7 +8159,8 @@
     "h": "Activation energy and the processes that transfer heat",
     "points": [
      "Every reaction needs some energy to start breaking bonds, called the activation energy, even if it is exothermic overall. This is why a fuel such as methane does not burn until it is lit. There is more on this in Catalysis and energy profiles.",
-     "The processes the specification names all transfer energy as heat because of this balance of bond breaking and making: combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).",
+     "The processes the specification names all transfer energy as heat because of this balance of bond breaking and making.",
+     "They are combustion, neutralisation (an acid reacting with a base), thermal decomposition (breaking a compound down by heating), rusting of iron, photosynthesis (plants making glucose using sunlight) and respiration (cells releasing energy from glucose).",
      "Whether each one gives out or takes in heat depends on whether more energy is released making bonds or needed to break them."
     ],
     "tip": "Never say energy is used up when bonds are broken or made: it is transferred."
@@ -8437,7 +8442,7 @@
     "tip": "You may be asked to state the standard conditions for enthalpy changes and why they are needed. Standard conditions (25 °C) are not s.t.p. (0 °C)."
    },
    {
-    "b": "Any reaction that happens in solution can have its ΔH found by the same five steps used in the neutralisation experiment. The idea is to use the temperature change of a known mass of water or solution to find the heat, then scale to one mole.",
+    "b": "The neutralisation experiment and the zinc and copper(II) sulfate example below both follow the same five steps. The idea is to use the temperature change of a known mass of water or solution to find the heat, then scale to one mole.",
     "h": "Calculating ΔH by measurement",
     "points": [
      "Step 1: carry out the reaction in an insulated container (a polystyrene cup) with a known mass of water or solution, and measure the temperature change, ΔT.",
@@ -9073,7 +9078,7 @@
     "tip": "Exams ask you to describe a laboratory method of measuring the heat of combustion of a liquid such as methanol, including how to reduce heat losses and how to calculate the result."
    },
    {
-    "b": "A labelled diagram earns credit in a description of this experiment, so know every part and where it sits.",
+    "b": "The apparatus has several parts, and each one has a job in the method, so know every part and where it sits.",
     "h": "Investigation: diagram of the apparatus",
     "points": [
      "Diagram: a copper can of water held by a clamp above a spirit burner, a thermometer and stirrer in the water, a draught shield around the burner and can, the burner on a heat-proof mat, and a balance for weighing the burner."
@@ -9267,7 +9272,7 @@
   ],
   "notes": [
    {
-    "b": "Electrochemistry is the study of the link between chemical reactions and electricity. A redox reaction is one in which one substance loses electrons (oxidation) while another gains them (reduction), and this is the reaction behind every cell in this section.",
+    "b": "Electrochemistry is the study of the link between chemical reactions and electricity. A redox reaction is one in which one substance loses electrons (oxidation) while another gains them (reduction), and this is the reaction behind every cell below.",
     "h": "Electrochemical cells: the key ideas",
     "points": [
      "Redox reactions can produce electricity, in galvanic cells, and electricity can drive redox reactions, in electrolytic cells (cells that use an electric supply to force a reaction to happen).",
@@ -9333,8 +9338,7 @@
     "b": "Both types supply electricity from a redox reaction, but they differ in whether the reaction can be reversed. That one difference drives their cost, waste, storage and uses.",
     "h": "Comparing primary and secondary cells",
     "points": [
-     "Rechargeable: a primary cell cannot be; a secondary cell can.",
-     "Reaction: in a primary cell it is not readily reversible; in a secondary cell it is reversed by an external current.",
+     "Rechargeable: a primary cell cannot be, because its reaction is not readily reversible; a secondary cell can, because an external current reverses its reaction.",
      "Cost: primary cells are cheap to buy but replaced often; secondary cells are dearer to buy, and need a charger, but cheaper per use over their life.",
      "Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy. There is more on this in Fuel cells and sustainability.",
      "Storage: primary cells keep their charge for years on the shelf (low self-discharge, meaning little charge leaks away unused), so they suit emergency and low-drain devices; many secondary cells lose charge more quickly when stored.",
@@ -9345,7 +9349,7 @@
     "tip": "Exams ask for advantages and disadvantages of rechargeable cells and why secondary cells are more sustainable. Give the waste and raw-material point for sustainability, and use cost or storage as an advantage for each type."
    },
    {
-    "b": "The galvanic cell began with an accident in an anatomy lab and a disagreement about what it meant. Settling that disagreement produced the first battery.",
+    "b": "The galvanic cell grew out of Galvani's frog-leg experiments and Volta's disagreement with his explanation of them. Volta's work led to the first battery.",
     "h": "Origins of the galvanic cell",
     "points": [
      "Luigi Galvani, working in Bologna in the 1780s, found that a dissected frog's leg twitched when touched by two different metals at once.",
@@ -9362,7 +9366,7 @@
      "When zinc is put directly into copper(II) sulfate solution, zinc atoms give electrons straight to Cu²⁺ ions: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
      "Copper is deposited, the blue colour fades and the energy is released as heat, with no useful current; this is a displacement reaction (a more reactive metal pushes a less reactive one out of solution).",
      "A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.",
-     "This flow of electrons is an electric current.",
+     "This flow of electrons is an electric current, which is why separating the half-cells produces useful electricity.",
      "A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution."
     ],
     "tip": "If asked why no current flows when zinc is placed directly in copper(II) sulfate but one flows when the half-reactions are separated, say that directly the electrons pass straight between atoms and ions and the energy is lost as heat. Separated, they must go through the wire."
@@ -9387,7 +9391,7 @@
      "Copper electrode (cathode, positive, reduction): Cu²⁺(aq) + 2e⁻ → Cu(s). Copper(II) ions from the solution gain electrons and are deposited as copper.",
      "Overall cell reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), the same redox reaction as the direct displacement described above.",
      "Zinc is the reducing agent (it gives electrons away, so it reduces the other substance) and Cu²⁺ is the oxidising agent (it takes electrons, so it oxidises the zinc).",
-     "Electrons flow through the external wire from the zinc to the copper."
+     "Electrons flow through the external wire from the zinc to the copper, because zinc is the anode and is oxidised."
     ],
     "tip": "Exams ask you to draw and label this cell, identify the anode and cathode with their signs, write both half-equations and the overall equation, and show the direction of electron flow."
    },
@@ -9463,7 +9467,7 @@
      "Energy: a galvanic cell converts chemical energy to electrical energy; an electrolytic cell converts electrical energy to chemical energy.",
      "Reaction: a galvanic cell's reaction is spontaneous; an electrolytic cell's reaction is non-spontaneous and driven by the external supply.",
      "Signs: in a galvanic cell the anode is negative and the cathode positive; in an electrolytic cell the anode is positive and the cathode negative.",
-     "In both cells oxidation happens at the anode and reduction at the cathode.",
+     "In both cells oxidation happens at the anode and reduction at the cathode, because the anode is defined by oxidation, not by its sign.",
      "A galvanic cell needs two different electrodes in two half-cells, usually with a salt bridge; an electrolytic cell can use two identical inert electrodes in one electrolyte."
     ],
     "tip": "Compare the two under energy change, spontaneity and the sign of the anode. Oxidation is at the anode in both."
@@ -9702,7 +9706,7 @@
     "tip": "A fuel cell is not a battery that is recharged; it is refuelled. If you are asked to define a fuel cell or distinguish it from a chemical cell, say that the reactants are supplied continuously from outside and the products are continuously removed."
    },
    {
-    "b": "Despite the difference in how they are supplied, the two types of cell work on the same principle. Seeing that principle makes the comparison on the next block easier to follow.",
+    "b": "Despite the difference in how they are supplied, the two types of cell work on the same principle. Seeing that shared principle makes the differences between the two types easier to follow.",
     "h": "What chemical cells and fuel cells have in common",
     "points": [
      "Both are galvanic cells: each uses a spontaneous redox reaction (one that happens by itself) to drive electrons through an external circuit, the wires outside the cell.",
@@ -9802,7 +9806,8 @@
      "Limitations: hydrogen has a very low density, so it must be stored compressed at high pressure, or liquefied at very low temperature, in strong, heavy tanks.",
      "Limitations: there are few hydrogen refuelling stations, and platinum is scarce and expensive.",
      "Most hydrogen today is made from natural gas, which releases carbon dioxide; a fuel cell is only low-carbon overall when the hydrogen is made by electrolysis (splitting water using electricity) using renewable electricity.",
-     "Diagram: a PEM fuel cell with hydrogen in at the anode (−) and oxygen or air in at the cathode (+), the membrane between them with H⁺ moving across, an external circuit with a load and electrons flowing from anode to cathode, and water leaving from the cathode side; write the half-equations beside each electrode."
+     "Diagram: a PEM fuel cell with hydrogen in at the anode (−) and oxygen or air in at the cathode (+), and the membrane between them with H⁺ moving across.",
+     "Diagram: add an external circuit with a load and electrons flowing from anode to cathode, and water leaving from the cathode side; write the half-equations beside each electrode."
     ],
     "tip": "For advantages and disadvantages of hydrogen fuel cells in vehicles or buses, give two of each. Take advantages from the water-only product, quiet running, quick refuelling and continuous running, and disadvantages from storage, flammability, few refuelling stations, platinum cost and how the hydrogen is made."
    },
@@ -9836,7 +9841,9 @@
      "1. Choose one application and write a focused question that can be answered with evidence, e.g. “Are battery electric cars more sustainable than petrol cars in Ireland?”",
      "2. Explain the chemistry involved: the redox reactions, the type of cell (galvanic or electrolytic), and the electrode reactions where known.",
      "3. Gather evidence from a range of sources: textbooks, peer-reviewed articles (checked by other experts before publication), government and public agencies such as the Sustainable Energy Authority of Ireland, the Environmental Protection Agency and the International Energy Agency, manufacturers and news reports.",
-     "4. Judge each source by who wrote it and their expertise; whether it is peer-reviewed or official; how recent it is, as this technology changes quickly; whether the author gains from the conclusion, e.g. a company selling the product; whether it gives data and references rather than opinion; and whether other sources agree.",
+     "4. Judge each source by who wrote it and their expertise, and whether it is peer-reviewed or official, because these sources are checked.",
+     "4. Also judge how recent it is, as this technology changes quickly, and whether the author gains from the conclusion, e.g. a company selling the product.",
+     "4. Finally check whether it gives data and references rather than opinion, and whether other sources agree.",
      "5. Consider the whole life-cycle: raw materials and mining, manufacture, the source of electricity or fuel during use, lifetime, and disposal or recycling.",
      "6. Weigh the evidence on each side (environmental, economic, social and safety) and reach a justified conclusion, stating the conditions under which it holds.",
      "7. Present the findings with references, and evaluate the investigation: gaps in the evidence, conflicting sources, and what further research would help."
@@ -9892,7 +9899,7 @@
     ]
    },
    {
-    "b": "This outline asks whether hydrogen fuel cells should power public buses. It uses the hydrogen fuel cell from earlier in this section as its chemistry.",
+    "b": "This outline asks whether hydrogen fuel cells should power public buses. It uses the PEM hydrogen fuel cell described above as its chemistry.",
     "h": "Worked outline 3: fuel cells",
     "points": [
      "Question: should hydrogen fuel cells power public buses?",
@@ -10157,7 +10164,7 @@
     "tip": "For a calculation of the mass of carbon dioxide from burning methane, write the balanced equation first, then work out the moles of methane, then the moles and mass of carbon dioxide."
    },
    {
-    "b": "Burning fossil fuels adds carbon dioxide to the air, and the evidence shows its level and the average temperature rising. This block links the chemistry to the effects.",
+    "b": "Burning fossil fuels adds carbon dioxide to the air, and the evidence shows its level and the average temperature rising. The extra carbon dioxide traps heat, and that has effects on the climate and the oceans.",
     "h": "Option 1: climate change, evidence and effects",
     "points": [
      "Fossil carbon was locked away for millions of years. Burning it moves that carbon into the atmosphere far faster than the carbon cycle (the natural movement of carbon between air, oceans and living things) removes it, so atmospheric CO₂ rises.",
@@ -11014,7 +11021,7 @@
      "An expanded, or displayed, structural formula (a drawing of the structure) shows every atom and every bond as a line, e.g. butane drawn with four carbon atoms in a row, each hydrogen joined by its own line.",
      "A condensed structural formula shows the groups on each carbon in order without drawing the bonds: butane is CH₃CH₂CH₂CH₃ or CH₃(CH₂)₂CH₃, methylpropane is CH₃CH(CH₃)CH₃, and but-1-ene is CH₂=CHCH₂CH₃.",
      "Double and triple bonds are always shown in a condensed formula, so you can still see where they are even though single bonds are left out.",
-     "A 3D model shows the real spatial arrangement of the atoms (how they sit in space), which a flat expanded formula cannot: the expanded formula draws the bonds of methane at 90°, but in 3D they point to the corners of a tetrahedron (a four-cornered pyramid shape).",
+     "A 3D model shows the real spatial arrangement of the atoms (how they sit in space), which a flat expanded formula cannot: the expanded formula draws the bonds of methane at 90°, but in 3D they point to the corners of a tetrahedron (a triangular-based pyramid).",
      "Two flat drawings can show the same molecule: a four-carbon chain drawn bent or straight is still butane, and building the model shows whether two structures are identical."
     ],
     "tip": "You may be asked to write the condensed formula from an expanded structure, or the reverse. Remember that a drawing that is bent or straight does not change the molecule."
@@ -11239,7 +11246,8 @@
     "h": "Cis and trans isomers: physical properties (Higher Level only)",
     "points": [
      "cis-but-2-ene boils at 4 °C and trans-but-2-ene at 1 °C.",
-     "The cis molecule is slightly polar (it has a side with slightly more negative charge and a side with slightly more positive), because both CH₃ groups lie on one side, so it has dipole–dipole attractions as well as London forces; the symmetrical trans molecule is non-polar. This is why cis boils higher.",
+     "The cis molecule is slightly polar (it has a side with slightly more negative charge and a side with slightly more positive), because both CH₃ groups lie on one side, so it has dipole–dipole attractions as well as London forces.",
+     "The symmetrical trans molecule is non-polar, so it has only London forces; this is why cis boils higher than trans.",
      "The trans isomer has the higher melting point, −106 °C compared with −139 °C for cis, because its more symmetrical, straighter shape packs more closely in the solid."
     ]
    },
@@ -11385,7 +11393,7 @@
     "b": "Carbon is unusual because the same element can exist as very different solids, from the hardest natural substance to a soft slippery one. This is called allotropy, and it comes entirely from how the atoms are bonded together.",
     "h": "Allotropy",
     "points": [
-     "Allotropes are different physical forms of the same element in the same state, with the atoms bonded together in different ways. Here every allotrope is a solid made only of carbon atoms.",
+     "Allotropes are different physical forms of the same element in the same state, with the atoms bonded together in different ways. Here every allotrope is made only of carbon atoms.",
      "Carbon's allotropes are diamond, graphite, graphene and the fullerenes (hollow cage or tube molecules of carbon).",
      "Because they are all pure carbon, they have the same chemical properties: each burns in excess oxygen (more than enough oxygen for complete burning) to give only carbon dioxide, C(s) + O₂(g) → CO₂(g).",
      "This burning test is evidence that diamond and graphite are both forms of the same element, because two different elements would not give the same single product.",
@@ -11482,7 +11490,7 @@
     "tip": "Pencil lead is not the metal lead: it is graphite mixed with clay. Explain each use from a property, because a list of uses without reasons does not meet \"discuss\". You may be asked for a use of diamond and of graphite and why graphite is a lubricant."
    },
    {
-    "b": "Graphite is the one allotrope that conducts electricity and is also stable at high temperature, which makes it useful in electrical cells and in electrolysis (using electricity to split a compound).",
+    "b": "Graphite conducts electricity, has a very high melting point and is fairly unreactive, which makes it useful in electrical cells and in electrolysis (using electricity to split a compound).",
     "h": "Electrochemistry",
     "points": [
      "Graphite is used for electrodes (the conductors that carry current into or out of a solution or cell) because it conducts electricity, has a very high melting point and is fairly unreactive, e.g. in the electrolysis of solutions in laboratories and industry.",
@@ -11724,7 +11732,7 @@
     "tip": "The –COOH and –CHO carbon is carbon 1 and counts in the chain: CH₃CH₂COOH is propanoic acid, not ethanoic acid. Exams ask you to name formulae and to draw structures from names."
    },
    {
-    "b": "A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several are useful solvents and starting materials.",
+    "b": "A haloalkane is an alkane carrying one or more halogen atoms. They are named with the halogen as a prefix, and several have uses, as solvents, as an early anaesthetic and in making PVC.",
     "h": "Haloalkanes",
     "points": [
      "A haloalkane is an alkane in which one or more hydrogen atoms have been replaced by halogen atoms; a chloroalkane is a haloalkane that contains chlorine.",
@@ -11838,14 +11846,14 @@
     "tip": "In ester names the alcohol part comes first. CH₃COOCH₃ is methyl ethanoate and HCOOC₂H₅ is ethyl methanoate; they are isomers, not the same compound. Exams ask you to name the acid and alcohol an ester is made from."
    },
    {
-    "b": "Esters of the first few acids and alcohols are the ones to know, and their pleasant smells explain most of their uses.",
+    "b": "Esters of the first few acids and alcohols are the ones to know, and esters have a range of uses, from flavourings and perfumes to solvents.",
     "h": "Esters: examples and uses",
     "points": [
      "Esters of methanoic acid, for example, are methyl methanoate HCOOCH₃, ethyl methanoate HCOOCH₂CH₃ and propyl methanoate HCOOCH₂CH₂CH₃.",
      "Esters of ethanoic acid, for example, are methyl ethanoate CH₃COOCH₃, ethyl ethanoate CH₃COOCH₂CH₃ and propyl ethanoate CH₃COOCH₂CH₂CH₃.",
      "Esters of propanoic acid, for example, are methyl propanoate CH₃CH₂COOCH₃ and ethyl propanoate CH₃CH₂COOCH₂CH₃.",
      "Esters have sweet, fruity smells and give many fruits and flowers their scent.",
-     "Because of their smells, esters are used as food flavourings and in perfumes.",
+     "Esters are used as food flavourings and in perfumes.",
      "Ethyl ethanoate is used as a solvent in glues and in nail varnish remover.",
      "Fats and oils are esters of propane-1,2,3-triol (glycerol). There is more on this in Redox and acid–base reactions of organic compounds."
     ],
@@ -11929,7 +11937,7 @@
     "tip": "Isomers must have the same molecular formula, so check by counting atoms. Exams ask you to define structural isomers, to identify them in a list or reaction scheme, and to draw and name an isomer of a given compound."
    },
    {
-    "b": "Two further types of structural isomer keep the carbon skeleton but change where the functional group is, or which family the compound belongs to.",
+    "b": "Two further types of structural isomer: position isomers keep the same functional group but put it in a different place, and functional group isomers belong to different families.",
     "h": "Position and functional group isomers",
     "points": [
      "Position isomers have the same functional group in different positions: propan-1-ol and propan-2-ol (C₃H₈O).",
@@ -12105,7 +12113,7 @@
     "tip": "Exams ask you to explain why one compound boils higher than another, such as propanal against butane. Name the force each molecule has: London forces only for the alkane, dipole–dipole as well for the aldehyde."
    },
    {
-    "b": "Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind. This makes their boiling points the highest of the families.",
+    "b": "Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind.",
     "h": "Forces in alcohols and carboxylic acids (Higher Level only)",
     "points": [
      "Alcohols have a very polar O–H bond (O 3.44, H 2.20), so alcohol molecules hydrogen bond to each other as well as having London forces.",
@@ -12133,7 +12141,7 @@
     "h": "Isomers and ethanol against ethane (Higher Level only)",
     "points": [
      "Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers (different compounds with the same formula), both C₂H₄O₂, and have the same mass.",
-     "The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H. This is why their boiling points differ by 86 °C.",
+     "The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H.",
      "Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only."
     ],
     "tip": "Exams ask you to explain ethanoic acid against methyl methanoate, and ethanol against ethane. Name the hydrogen bonding in one and the lack of it in the other."
@@ -12257,7 +12265,7 @@
     "tip": "Exams ask you to explain, with diagrams, why ethanoic acid is much stronger than ethanol. For the alcohol side, say the charge sits on one oxygen with no resonance, and the alkyl group makes it worse."
    },
    {
-    "b": "Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Only a very reactive metal such as sodium can show their acidic O–H.",
+    "b": "Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Their acidic O–H shows up in the reaction with sodium metal.",
     "h": "Evidence that alcohols are weakly acidic (Higher Level only)",
     "points": [
      "Alcohols are neutral in water: they do not change the colour of indicators, do not react with sodium carbonate, and do not react to any useful extent with sodium hydroxide.",
@@ -12676,7 +12684,7 @@
     "tip": "Don't say aspirin causes no stomach irritation; it causes less than salicylic acid."
    },
    {
-    "b": "Penicillin was the first widely used antibiotic. Its discovery came from a mould, and it works by attacking bacteria specifically.",
+    "b": "Penicillin is an antibiotic. Its discovery came from a mould, and it works by attacking bacteria specifically.",
     "h": "Penicillin: discovery and action",
     "points": [
      "Alexander Fleming discovered in 1928 that the mould Penicillium killed bacteria.",
@@ -12688,7 +12696,7 @@
     "tip": "Antibiotics act on bacteria, not viruses."
    },
    {
-    "b": "Penicillin's activity depends on one ring in its structure, and it is made by growing a mould rather than by building it from scratch.",
+    "b": "Penicillin has a key structural feature, the β-lactam ring, and it is made by growing a mould rather than by building it from scratch.",
     "h": "Penicillin: structure and manufacture",
     "points": [
      "Its key structural feature is a four-membered ring containing nitrogen and a C=O, the β-lactam ring, joined to a ring containing sulfur.",
@@ -12713,7 +12721,7 @@
     "h": "Taxol: source and structure",
     "points": [
      "Taxol (paclitaxel) is an anti-cancer drug, used for example for ovarian, breast and lung cancers.",
-     "Taxol stops cancer cells dividing, so the cancer cannot spread by growth of new cells.",
+     "Taxol stops cancer cells dividing.",
      "Taxol was found in the bark of the Pacific yew tree (Taxus brevifolia) in a US plant-screening programme in the 1960s, and its structure was published in 1971.",
      "Taxol is a very large, complex molecule, C₄₇H₅₁NO₁₄, with many functional groups.",
      "Its functional groups include several ester groups, hydroxyl (–OH) groups, a ketone, an amide and three benzene rings."
@@ -12728,7 +12736,7 @@
      "Taxol can also be made by growing yew cells in fermentation tanks.",
      "Complete laboratory synthesis, first achieved in 1994, needs too many steps to be economic."
     ],
-    "tip": "Taxol is the usual case study for extraction versus laboratory synthesis. Don't invent step counts, yields or dates for syntheses."
+    "tip": "Taxol can be a case study for extraction versus laboratory synthesis. Don't invent step counts, yields or dates for syntheses."
    },
    {
     "b": "Opiates show how a small change to a molecule can change its effect completely. They are vital medicines and also dangerous drugs.",
@@ -12965,7 +12973,7 @@
      "1,2-dichloroethane loses HCl to give chloroethene (CH₂=CHCl), the monomer of PVC (the small molecule that is later joined into the polymer PVC).",
      "Elimination is the reverse of addition: one reactant gives two products, and a saturated compound becomes unsaturated."
     ],
-    "tip": "Elimination must leave a double bond. A reaction that simply removes atoms without forming a multiple bond is not elimination. You may be asked to define it, or to name the type for ethanol → ethene."
+    "tip": "Elimination must leave a double bond. A reaction that simply removes atoms without forming a multiple bond is not elimination. You may be asked to define it, or to name the type for the change from ethanol to ethene."
    },
    {
     "b": "Redox means reduction and oxidation happening together. In organic chemistry you can usually spot them by counting oxygen and hydrogen atoms.",
@@ -12989,7 +12997,7 @@
      "Carboxylic acids react with carbonates: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
      "Base hydrolysis of esters, including the saponification of fats to make soap, is classed by the specification as an acid–base reaction: the hydroxide ion is the base, and the carboxylic acid formed ends up as its salt.",
      "Alcohols are only very weakly acidic: ethanol is neutral to indicator and does not react with sodium carbonate.",
-     "Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂. There is more on this in Physical properties and acidity."
+     "Ethanol does release hydrogen with sodium, forming sodium ethoxide: 2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂; there is more on this in Physical properties and acidity."
     ]
    },
    {
@@ -14036,8 +14044,7 @@
     "points": [
      "Acidified potassium permanganate, KMnO₄ with dilute sulfuric acid, is a strong oxidising agent. It is reduced from purple MnO₄⁻ to almost colourless Mn²⁺: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
      "It oxidises primary alcohols to aldehydes and then to carboxylic acids: ethanol to ethanal to ethanoic acid, and propan-1-ol to propanal to propanoic acid. The purple colour fades as the permanganate is used up.",
-     "Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O.",
-     "It is built from the organic half-equation (the electron-losing half) C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻ and the permanganate half-equation, so that the electrons cancel.",
+     "Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O, built from the organic half-equation (the electron-losing half) C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻ and the permanganate half-equation, so that the electrons cancel.",
      "To stop at the aldehyde, distil it off as it forms (heating so it boils out of the mixture) and do not use the oxidising agent in excess.",
      "This works because ethanal boils at about 21 °C, well below ethanol at 78 °C, so it leaves before it can be oxidised further."
     ],
@@ -14099,7 +14106,7 @@
     "tip": "Exams ask for the equation for ethanol with sodium and why alcohols are weaker acids than carboxylic acids; both are taught in Physical properties and acidity."
    },
    {
-    "b": "An ester (the compound formed from an alcohol and a carboxylic acid) can be split again by water. Using a base for this makes the reaction go all the way, which is why it is an acid–base reaction.",
+    "b": "An ester (the compound formed from an alcohol and a carboxylic acid) can be split again by water. With a base the hydroxide ion acts as a base, so this is an acid–base reaction, and it goes all the way to completion.",
     "h": "Base hydrolysis of esters (Higher Level only)",
     "points": [
      "Hydrolysis is the breaking of a compound by reaction with water.",
@@ -14773,7 +14780,7 @@
     "b": "Ethene is made by dehydrating ethanol (removing the elements of water from it). This example follows the four steps for a reaction with a 1 : 1 ratio and shows the yield worked out from a mass and then from a gas volume.",
     "h": "Worked example: preparing ethene (sample data)",
     "points": [
-     "Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected. The equation is C₂H₅OH → C₂H₄ + H₂O. The preparation is in “Investigation: preparing ethene”.",
+     "Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected. The equation is C₂H₅OH → C₂H₄ + H₂O, and the preparation is in “Investigation: preparing ethene”.",
      "Moles of ethanol = 4.60 ÷ 46 = 0.100 mol (M of C₂H₅OH is 46 g mol⁻¹). The ratio is 1 : 1, so the theoretical yield is 0.100 mol of ethene.",
      "Theoretical mass of ethene = 0.100 × 28 = 2.80 g (M of C₂H₄ is 28 g mol⁻¹).",
      "Percentage yield = (1.96 ÷ 2.80) × 100 = 70.0%.",
@@ -14787,7 +14794,7 @@
     "h": "Worked example: preparing an ester (sample data)",
     "points": [
      "Question: 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst, and 5.72 g of pure ethyl ethanoate was obtained. The equation is CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
-     "Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol, so the theoretical yield is 0.100 mol of ethyl ethanoate (the ratio is 1 : 1).",
+     "Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol (M of CH₃COOH is 60 g mol⁻¹), so the theoretical yield is 0.100 mol of ethyl ethanoate (the ratio is 1 : 1).",
      "Theoretical mass = 0.100 × 88 = 8.80 g (M of CH₃COOC₂H₅ is 88 g mol⁻¹).",
      "Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%.",
      "The yield is well below 100% mainly because esterification (making an ester) is reversible and reaches equilibrium, a balance in which reactants and products are both present. The preparation is in “Tests, reaction schemes and preparing an ester”."
@@ -14811,7 +14818,7 @@
      "Question: what mass of ethanoic acid is needed to make 5.00 g of ethyl ethanoate if the yield is 65.0%?",
      "Because only 65.0% of the possible product is obtained, the theoretical yield needed is larger: 5.00 ÷ 0.650 = 7.69 g of ethyl ethanoate.",
      "Moles of ethyl ethanoate = 7.692 ÷ 88 = 0.08741 mol, which equals the moles of ethanoic acid needed, since the ratio is 1 : 1.",
-     "Mass of ethanoic acid = 0.08741 × 60 = 5.24 g.",
+     "Mass of ethanoic acid = 0.08741 × 60 = 5.24 g (M of CH₃COOH is 60 g mol⁻¹).",
      "To go from a percentage yield to an actual yield, use actual yield = theoretical yield × (percentage ÷ 100). For example, 15.0% of a theoretical 0.960 L of gas is 0.144 L, which is 144 cm³."
     ],
     "tip": "Exams ask you to calculate the actual mass or volume of product from a given percentage yield. Check that your answer is in the unit the question asks for, for example cm³ rather than L."
@@ -14901,7 +14908,7 @@
     "tip": "Examiners ask you to define limiting reagent and reagent in excess. Don't assume the reactant with fewer grams or fewer moles is limiting: compare against the mole ratio."
    },
    {
-    "b": "Every limiting reagent question follows the same five steps. Work through them in order and show each one, because the working is what is marked.",
+    "b": "Every limiting reagent question follows the same five steps. Work through them in order and show each one.",
     "h": "Finding the limiting reagent (Higher Level only)",
     "points": [
      "Step 1: Write the balanced equation, because the coefficients give the mole ratio in which the reactants combine.",
@@ -14992,7 +14999,7 @@
      "For a reversible reaction (one that can run in both directions and settles at an equilibrium), an excess of one reactant shifts the equilibrium to the right (Le Châtelier's principle) and increases the yield. An example is excess ethanol or ethanoic acid in making ethyl ethanoate.",
      "In analysis (finding how much of a substance is present), the reagent is added in excess so that the substance being measured reacts completely. Examples are excess silver nitrate in gravimetric analysis (weighing a solid product) and the excess acid in a back titration.",
      "A back titration adds a measured excess of one reagent, then titrates what is left over. There is more on this in Worked acid–base volumetric problems.",
-     "Drawback: the excess reagent is left in the product mixture and must be removed, for example excess KMnO₄ in the benzoic acid preparation, or excess NaOH, which would leave a soap caustic (harshly alkaline and irritating to skin). Unless recycled, it is wasted."
+     "Drawback: the excess reagent is left in the product mixture and must be removed, for example excess KMnO₄ in the benzoic acid preparation, or excess NaOH, which would leave a soap caustic (harshly alkaline and irritating to skin, as in Investigation: making soap). Unless recycled, it is wasted."
     ],
     "tip": "If asked why one reagent is used in excess, give the purpose (all of the other reagent reacts, so none is wasted and the yield is highest) and one example, and mention the drawback that the excess must be removed."
    }
@@ -15239,7 +15246,7 @@
      "The electrons fall back to lower levels and give out the energy as light.",
      "Each element has its own set of energy levels, so it gives out its own colours of light, which identifies the element."
     ],
-    "tip": "To explain why different metals give different colours, say each element has its own set of energy levels, so the light given out when electrons fall back is different for each. Also name the three steps: absorb energy, move up, fall back and emit light."
+    "tip": "To explain why different metals give different colours, say each element has its own set of energy levels, so the light given out when electrons fall back is different for each. Also name the steps in order: absorb energy, move up, then fall back and emit light."
    },
    {
     "b": "A flame test identifies a metal from the colour its salt gives to a flame. A fair test needs the right equipment, and everything except the metal kept the same.",
@@ -15621,7 +15628,7 @@
     "tip": "You may be asked to describe Döbereiner's triads with an example, and to describe Newlands' octaves. Give the lithium, sodium and potassium triad, and for Newlands say every eighth element is similar."
    },
    {
-    "b": "Dmitri Mendeleev produced the first table that chemists accepted. His success came from trusting a pattern enough to leave gaps and make predictions that were later confirmed.",
+    "b": "Dmitri Mendeleev produced a table that chemists came to accept as correct. His success came from trusting a pattern enough to leave gaps and make predictions that were later confirmed.",
     "h": "Mendeleev's periodic table (1869)",
     "points": [
      "Dmitri Mendeleev (1869) arranged the elements in order of increasing atomic weight (relative atomic mass), placing elements with similar properties in the same vertical column, called a group.",
@@ -16123,7 +16130,7 @@
     ]
    },
    {
-    "b": "With up to four pairs around the central atom, only five shapes are possible. Each depends on how many pairs are bonding and how many are lone.",
+    "b": "With up to four pairs around the central atom, these five shapes are the ones you need to know. Each depends on how many pairs are bonding and how many are lone.",
     "h": "The five shapes (Higher Level only)",
     "points": [
      "Two bonding pairs and no lone pairs: linear (a straight line), 180°, e.g. BeCl₂ (gas).",
@@ -16252,7 +16259,7 @@
      "A precipitate is an insoluble solid that forms when two solutions are mixed, which is why it appears as cloudiness or a coloured solid in the liquid.",
      "Effervescence is fizzing as a gas is given off."
     ],
-    "tip": "Say that tests need a minimum concentration, and that deionised water and clean tubes stop false results. Both are part of the syllabus statement for this investigation."
+    "tip": "Say that tests need a minimum concentration, and that deionised water and clean tubes stop false results."
    },
    {
     "b": "The cation in a salt is identified by a flame test, in which a sample of the salt is heated in a flame and the colour of the flame is observed. Each of the cations below gives its own colour.",
@@ -16557,7 +16564,7 @@
     ]
    },
    {
-    "b": "Putting the two types side by side shows that every difference comes back to the same cause: ionic compounds have strong attractions between ions, while covalent compounds have weak forces between molecules.",
+    "b": "Putting the two types side by side shows four paired differences, and each has its own reason: melting and boiling points depend on whether strong ionic attractions or only weak forces between molecules must be overcome, and conductivity depends on whether ions are free to move.",
     "h": "Comparing ionic and covalent compounds",
     "points": [
      "Melting and boiling points: ionic compounds are high; covalent compounds are low.",
@@ -16834,7 +16841,7 @@
     "tip": "Accounting for a trend means giving the reason, not just describing it. For the halogens, noble gases and alkanes the reason is stronger London forces from more electrons. For water the reason is hydrogen bonding."
    },
    {
-    "b": "Some bonds share electrons unequally, but that does not always make the whole molecule polar. Whether it does depends on the shape, which is stated here rather than worked out.",
+    "b": "Some bonds share electrons unequally, but that does not always make the whole molecule polar. Whether it does depends on the shape. The shapes named here are given; see “VSEPR theory” for how shapes are predicted.",
     "h": "Polar bonds and polar molecules (Higher Level only)",
     "points": [
      "A polar bond has an uneven share of electrons, giving a slightly positive end (δ+) and a slightly negative end (δ−).",
@@ -17182,8 +17189,8 @@
     "b": "The way outer electrons change across and down the table explains why elements are arranged in periods (rows) and groups (columns).",
     "h": "Electronic structure",
     "points": [
-     "Across a period, the number of outer electrons increases by one at each step, all in the same main energy level.",
-     "Down a group, the number of outer electrons stays the same, but a new main energy level is added each time.",
+     "Across a period, the number of outer electrons increases by one at each step, all in the same main energy level, which is why a period is one row.",
+     "Down a group, the number of outer electrons stays the same, so the elements react similarly, but a new main energy level is added each time, so the outer electrons are further out.",
      "The repeating pattern of outer-electron arrangements causes periodicity (the regular repeating of properties down the table): elements with the same outer arrangement fall in the same group."
     ],
     "tip": "Exams ask you to describe how electronic structure changes across a period and down a group, then use it to explain the reactivity trend down group 1."
@@ -17203,11 +17210,11 @@
     "h": "Chemical reactivity and the octet rule",
     "points": [
      "Atoms react to reach a full outer level of eight electrons (the octet rule), by losing, gaining or sharing electrons.",
-     "Metals react by losing electrons: reactivity increases down group 1 and group 2.",
+     "Metals react by losing electrons: reactivity increases down group 1 and group 2, because the outer electrons are further from the nucleus and more shielded.",
      "Across a period, metal reactivity decreases from group 1 to group 2 to group 13.",
-     "Non-metals react by gaining electrons: reactivity decreases down group 17.",
+     "Non-metals react by gaining electrons: reactivity decreases down group 17, because larger atoms attract an extra electron less strongly.",
      "Across a period, non-metal reactivity generally increases towards group 17.",
-     "Noble gases already have a full outer level and are unreactive."
+     "Noble gases already have a full outer level, so they have no need to gain or lose electrons and are unreactive."
     ],
     "tip": "Exams ask you to describe and explain the trends in reactivity down group 1 and group 17. Metal reactivity increases down a group, but halogen reactivity decreases."
    },
@@ -17226,7 +17233,7 @@
     "tip": "If asked how properties change across period 3, describe the move from metals to a metalloid to non-metals, and the melting point peak at silicon followed by a sharp fall."
    },
    {
-    "b": "These trends are Higher Level only and are explained in full below. Ionisation energy is the energy needed to remove an electron from an atom, and atomic radius is the size of the atom.",
+    "b": "These trends are Higher Level only. Ionisation energy is the energy needed to remove an electron from an atom, and atomic radius is the size of the atom.",
     "h": "Atomic radius and ionisation energy trends (Higher Level only)",
     "points": [
      "Atomic (covalent) radius decreases across a period and increases down a group.",
@@ -17256,7 +17263,7 @@
     "tip": "Exams ask you to explain why atomic radius decreases across a period but increases down a group. Use nuclear charge, energy levels and screening."
    },
    {
-    "b": "First ionisation energy measures how tightly an atom holds its outermost electron. The data below show the trends and the exceptions that the next block explains.",
+    "b": "First ionisation energy measures how tightly an atom holds its outermost electron. The data below show the trends, and a few elements break the pattern because of sublevel stability and electron pairing.",
     "h": "First ionisation energy (Higher Level only)",
     "points": [
      "First ionisation energy: the minimum energy needed to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state (lowest energy state): X(g) → X⁺(g) + e⁻. Its unit is kJ mol⁻¹.",
@@ -17493,7 +17500,7 @@
     "h": "Gas volume, density and the conversion route",
     "points": [
      "Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).",
-     "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M, because moles can only be found from a mass.",
+     "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.",
      "Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.",
      "Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.",
      "Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles."
@@ -17849,7 +17856,7 @@
     "tip": "Concentration is per litre of solution, not per litre of solvent. Use the final volume of the made-up solution in c = n ÷ V."
    },
    {
-    "b": "Two calculations cover most questions on this topic. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.",
+    "b": "Here are two calculations. One finds the concentration from a mass of solute, and the other works backwards from a concentration to the mass to weigh out. Convert cm³ to litres first by dividing by 1000.",
     "h": "Worked examples: concentration and mass needed",
     "points": [
      "Finding a concentration: 5.30 g of anhydrous sodium carbonate (Na₂CO₃, M = 106 g mol⁻¹) is dissolved. Anhydrous means it has no water of crystallisation. Moles: n = 5.30 ÷ 106 = 0.0500 mol.",
@@ -17898,7 +17905,7 @@
     "tip": "Exams ask you to describe how to make up a standard solution of sodium carbonate. Give the steps in order, starting with the mass calculated for the volume and concentration required."
    },
    {
-    "b": "The choice of glassware decides how accurate the final concentration is. Examiners also expect labelled diagrams of the apparatus in the method.",
+    "b": "The choice of glassware decides how accurate the final concentration is. The diagrams below show the apparatus used in the method.",
     "h": "Preparing a standard solution: glassware, precision and diagrams",
     "points": [
      "Precision and accuracy: the volumetric flask holds an accurately known volume, whereas a beaker or measuring cylinder is not accurate enough.",
@@ -18098,7 +18105,7 @@
      "A pure substance contains only one kind of particle (one element or one compound) and has fixed properties, such as a sharp melting point and boiling point (a single exact temperature, not a range).",
      "An element is a substance made of only one kind of atom; it cannot be split into simpler substances by chemical means (that is, by a chemical reaction), e.g. iron (Fe) and oxygen (O₂).",
      "A compound is a substance made of two or more different elements chemically combined (joined by bonds) in a fixed ratio, e.g. water (H₂O) and sodium chloride (NaCl).",
-     "A compound has properties that differ from those of its elements, and it can be separated into them only by a chemical reaction.",
+     "A compound has properties that differ from those of its elements, because the elements are bonded together, so it can be separated into them only by a chemical reaction.",
      "A molecule (a group of atoms joined together) can be of an element (O₂, N₂, Cl₂), where all the atoms are the same, or of a compound (H₂O, CO₂), where the atoms are different."
     ],
     "tip": "You may be asked to distinguish between an element, a compound and a mixture, or to classify substances. Give a definition and one example of each, and remember that air is a mixture, not a compound."
@@ -18129,8 +18136,8 @@
     "points": [
      "A compound has a fixed composition; a mixture has a variable composition.",
      "The elements in a compound are chemically combined; the substances in a mixture are not.",
-     "A compound has new properties; a mixture's components keep their own properties.",
-     "A compound can be separated only chemically; a mixture can be separated physically.",
+     "A compound has new properties because its elements are chemically combined; a mixture's components keep their own properties because they are not.",
+     "A compound can be separated only chemically, because its elements are bonded; a mixture can be separated physically, because nothing is bonded.",
      "Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.",
      "Diagram: particle diagrams of an element (single atoms and diatomic molecules, which are molecules of two atoms), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together)."
     ],
@@ -18141,7 +18148,7 @@
     "h": "The kinetic theory of matter",
     "points": [
      "The kinetic theory of matter states that all matter is made of particles that are in constant, random motion.",
-     "The particles have kinetic energy (energy of movement), and the higher the temperature, the faster they move.",
+     "The particles have kinetic energy (energy of movement), so the higher the temperature, the faster they move.",
      "The average kinetic energy of the particles is proportional to the temperature in kelvin (the temperature scale that starts at absolute zero), so doubling the kelvin temperature doubles the average kinetic energy.",
      "The evidence for the theory comes from effects we can see that are caused by particles we cannot see."
     ]
@@ -18155,7 +18162,13 @@
      "Step 1: Fill a small glass cell with smoke and cover it.",
      "Step 2: Light the cell from the side, so the smoke particles scatter light and show up.",
      "Step 3: View the cell through a microscope.",
-     "Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop.",
+     "Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop."
+    ]
+   },
+   {
+    "b": "The jiggling of the smoke is the evidence. It can be explained only if the air around the smoke is made of moving particles.",
+    "h": "Brownian motion: explanation",
+    "points": [
      "Explanation: the smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules; at any instant more molecules hit one side than the other, so the particle moves.",
      "The smoke particles are visible solid particles, not air molecules; they are moved by the invisible air molecules.",
      "Conclusion: the air is made of particles in constant, random motion, and the motion becomes more vigorous when the temperature is raised.",
@@ -18167,7 +18180,7 @@
     "b": "Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion. Gases show it clearly.",
     "h": "Diffusion of gases (investigation)",
     "points": [
-     "Diffusion needs no stirring or currents; it results from the random motion of the particles alone.",
+     "Diffusion needs no stirring or currents, because it results from the random motion of the particles alone.",
      "Bromine experiment: a few drops of liquid bromine are placed in a gas jar, giving brown vapour that spreads upwards through a second jar of air placed on top.",
      "The bromine jars are evenly coloured when the vapour has diffused through both jars, which shows the particles have spread out until evenly mixed.",
      "Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard (a ventilated cabinet that removes fumes) and gloves."
@@ -18180,7 +18193,7 @@
     "points": [
      "Method: cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid are placed at opposite ends of a long glass tube, which is sealed with stoppers.",
      "Observation: after a few minutes a white ring of ammonium chloride forms inside the tube where the two gases meet: NH₃(g) + HCl(g) → NH₄Cl(s).",
-     "The ring forms nearer the hydrochloric acid end of the tube.",
+     "The ring forms nearer the hydrochloric acid end of the tube, because the lighter ammonia travels further.",
      "Explanation: ammonia molecules (Mr 17, relative molecular mass) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.",
      "Safety: concentrated ammonia and hydrochloric acid give off irritant, corrosive fumes, so use a fume cupboard, goggles, gloves and tongs to handle the plugs.",
      "Diagram: the long tube with the ammonia plug at one end, the hydrochloric acid plug at the other, and the white ring closer to the hydrochloric acid end."
@@ -18342,7 +18355,7 @@
     "tip": "You are asked to interpret a heating curve and explain the flat sections. Say that the temperature is constant during a change of state even though heat is being supplied, because the energy is used to overcome forces between particles."
    },
    {
-    "b": "The kinetic theory is a model, a simplified picture of reality. The assumptions below are what the model takes to be true about gas particles.",
+    "b": "The kinetic theory is a model, a simplified picture of reality. Its assumptions and limitations show when it explains behaviour well and when it does not. The assumptions below are what the model takes to be true about particles.",
     "h": "Assumptions of the model (Higher Level only)",
     "points": [
      "Assumption: the particles are tiny spheres in constant, random motion.",

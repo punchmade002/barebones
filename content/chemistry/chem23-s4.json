@@ -12,7 +12,7 @@
         "An expanded, or displayed, structural formula (a drawing of the structure) shows every atom and every bond as a line, e.g. butane drawn with four carbon atoms in a row, each hydrogen joined by its own line.",
         "A condensed structural formula shows the groups on each carbon in order without drawing the bonds: butane is CH₃CH₂CH₂CH₃ or CH₃(CH₂)₂CH₃, methylpropane is CH₃CH(CH₃)CH₃, and but-1-ene is CH₂=CHCH₂CH₃.",
         "Double and triple bonds are always shown in a condensed formula, so you can still see where they are even though single bonds are left out.",
-        "A 3D model shows the real spatial arrangement of the atoms (how they sit in space), which a flat expanded formula cannot: the expanded formula draws the bonds of methane at 90°, but in 3D they point to the corners of a tetrahedron (a four-cornered pyramid shape).",
+        "A 3D model shows the real spatial arrangement of the atoms (how they sit in space), which a flat expanded formula cannot: the expanded formula draws the bonds of methane at 90°, but in 3D they point to the corners of a tetrahedron (a triangular-based pyramid).",
         "Two flat drawings can show the same molecule: a four-carbon chain drawn bent or straight is still butane, and building the model shows whether two structures are identical."
       ],
       "tip": "You may be asked to write the condensed formula from an expanded structure, or the reverse. Remember that a drawing that is bent or straight does not change the molecule."
@@ -237,7 +237,8 @@
       "b": "Cis and trans isomers react alike but differ in physical properties such as boiling point and melting point. The cause is the difference in polarity and in how the molecules pack.",
       "points": [
         "cis-but-2-ene boils at 4 °C and trans-but-2-ene at 1 °C.",
-        "The cis molecule is slightly polar (it has a side with slightly more negative charge and a side with slightly more positive), because both CH₃ groups lie on one side, so it has dipole–dipole attractions as well as London forces; the symmetrical trans molecule is non-polar. This is why cis boils higher.",
+        "The cis molecule is slightly polar (it has a side with slightly more negative charge and a side with slightly more positive), because both CH₃ groups lie on one side, so it has dipole–dipole attractions as well as London forces.",
+        "The symmetrical trans molecule is non-polar, so it has only London forces; this is why cis boils higher than trans.",
         "The trans isomer has the higher melting point, −106 °C compared with −139 °C for cis, because its more symmetrical, straighter shape packs more closely in the solid."
       ]
     },

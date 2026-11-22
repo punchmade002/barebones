@@ -65,7 +65,7 @@
     },
     {
       "h": "Molar masses to use",
-      "b": "Exam answers are marked using whole-number relative atomic masses (Ar, the mass of an atom relative to carbon-12), as in the SEC Formulae and Tables. Use these values.",
+      "b": "Use whole-number relative atomic masses (Ar, the mass of an atom relative to carbon-12), as in the SEC Formulae and Tables. Use these values.",
       "points": [
         "Ar: H 1, C 12, N 14, O 16, Na 23, S 32, Cl 35.5, K 39, Mn 55, Fe 56, I 127. Use Ar(Fe) = 56 for iron.",
         "M(FeSO₄) = 152 for iron(II) sulfate, and M(KMnO₄) = 158.",
@@ -180,7 +180,7 @@
     },
     {
       "h": "Problem 5: hydrogen peroxide solution (Higher Level only)",
-      "b": "This problem reverses the usual roles. Permanganate still oxidises, but here it is the hydrogen peroxide that is oxidised, and the dilution factor is not 10.",
+      "b": "Here hydrogen peroxide acts as the reducing agent, and the dilution factor is 25 rather than 10.",
       "points": [
         "Data: 10.0 cm³ of a hydrogen peroxide solution was diluted to 250 cm³; 25.0 cm³ portions, acidified with dilute sulfuric acid, needed a mean titre of 20.0 cm³ of 0.0200 M KMnO₄.",
         "Equation: 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O, so MnO₄⁻ : H₂O₂ = 2 : 5.",

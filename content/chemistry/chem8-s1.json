@@ -50,7 +50,7 @@
       "b": "Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.",
       "points": [
         "Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).",
-        "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M, because moles can only be found from a mass.",
+        "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.",
         "Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.",
         "Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.",
         "Conversion route: mass ⇄ moles ⇄ number of particles, and moles ⇄ gas volume; always go through moles."

@@ -19,7 +19,7 @@
     },
     {
       "h": "Finding the limiting reagent (Higher Level only)",
-      "b": "Every limiting reagent question follows the same five steps. Work through them in order and show each one, because the working is what is marked.",
+      "b": "Every limiting reagent question follows the same five steps. Work through them in order and show each one.",
       "points": [
         "Step 1: Write the balanced equation, because the coefficients give the mole ratio in which the reactants combine.",
         "Step 2: Convert the amount of each reactant to moles (from mass, from volume and concentration, or from gas volume), so that the reactants can be compared on the same footing.",
@@ -109,7 +109,7 @@
         "For a reversible reaction (one that can run in both directions and settles at an equilibrium), an excess of one reactant shifts the equilibrium to the right (Le Châtelier's principle) and increases the yield. An example is excess ethanol or ethanoic acid in making ethyl ethanoate.",
         "In analysis (finding how much of a substance is present), the reagent is added in excess so that the substance being measured reacts completely. Examples are excess silver nitrate in gravimetric analysis (weighing a solid product) and the excess acid in a back titration.",
         "A back titration adds a measured excess of one reagent, then titrates what is left over. There is more on this in Worked acid–base volumetric problems.",
-        "Drawback: the excess reagent is left in the product mixture and must be removed, for example excess KMnO₄ in the benzoic acid preparation, or excess NaOH, which would leave a soap caustic (harshly alkaline and irritating to skin). Unless recycled, it is wasted."
+        "Drawback: the excess reagent is left in the product mixture and must be removed, for example excess KMnO₄ in the benzoic acid preparation, or excess NaOH, which would leave a soap caustic (harshly alkaline and irritating to skin, as in Investigation: making soap). Unless recycled, it is wasted."
       ],
       "tip": "If asked why one reagent is used in excess, give the purpose (all of the other reagent reacts, so none is wasted and the yield is highest) and one example, and mention the drawback that the excess must be removed."
     }

@@ -25,7 +25,8 @@
         "Step 1: Choose a focused, answerable question that links course chemistry to one theme, for example “Should…?”, “How effective is…?” or “What are the benefits and risks of…?” A focused question keeps the research from becoming too wide to finish.",
         "Step 2: Identify the chemistry involved, such as reactions, equations and properties, so that the research explains why something happens and not only what happens.",
         "Step 3: Find a range of sources: peer-reviewed papers and reviews (articles checked by independent experts before publication), reports from scientific and government bodies (e.g. the IPCC, the EPA, the HSE, WHO and Uisce Éireann), textbooks, and reputable science journalism. Include sources with different viewpoints.",
-        "Step 4: Evaluate each source by asking who wrote it and what expertise they have, when it was written (is it current?), what evidence it gives (data and methods, or just opinion?), whether it was peer reviewed, and whether the author has a purpose or bias, e.g. funding, selling a product or campaigning.",
+        "Step 4: Evaluate each source by asking who wrote it and what expertise they have, when it was written (is it current?), and what evidence it gives (data and methods, or just opinion?).",
+        "Step 4 also asks whether the source was peer reviewed, and whether the author has a purpose or bias, e.g. funding, selling a product or campaigning.",
         "Step 5: Separate measured data from claims and opinion, compare like with like, and note uncertainties and where scientists disagree. Comparing like with like means the figures you set side by side were measured in the same way.",
         "Step 6: Weigh the evidence on each side, considering benefits, risks, costs and who is affected, locally and globally, now and in the future.",
         "Step 7: Reach a justified conclusion that answers the question, explain the chemistry behind it, state its limitations and suggest further research.",
@@ -61,10 +62,10 @@
     },
     {
       "h": "Worked outline: sustainability, rewetting peatlands",
-      "b": "This outline applies the stages to a sustainability question. Irish bogs store large amounts of carbon, and the chemistry of what happens to that carbon depends on whether the peat is wet or drained.",
+      "b": "This outline applies the stages to a sustainability question. The chemistry of what happens to the carbon in an Irish bog depends on whether the peat is wet or drained.",
       "points": [
         "Question: “Is rewetting drained Irish bogs an effective way to reduce greenhouse gas emissions?”",
-        "Chemistry: in waterlogged peat (partly decayed plant material), decay is very slow because oxygen is lacking, so carbon builds up in a carbon sink (a store that takes in more carbon than it releases). There is more on this in The natural greenhouse effect.",
+        "Chemistry: in waterlogged peat (partly decayed plant material), decay is very slow because oxygen is lacking, so carbon builds up in a carbon sink (a store that takes in more carbon than it releases). There is more on this in The natural greenhouse effect and The enhanced greenhouse effect.",
         "Chemistry: when bogs are drained, oxygen gets in and aerobic decay (decay by microorganisms that use oxygen) releases the stored carbon as CO₂.",
         "Chemistry: when the peat is rewetted, the CO₂ release stops, but anaerobic microorganisms (those that live without oxygen) produce some methane (CH₄), which is a stronger greenhouse gas per kg.",
         "Sources: EPA Ireland reports, and Bord na Móna and National Parks and Wildlife Service information.",
@@ -107,7 +108,7 @@
         "Issue: the energy use of UV lamps, and cost.",
         "Conclusion: UV is a valuable extra barrier but cannot fully replace chlorine, because a residual disinfectant is needed in the pipes. The reasoning must be shown."
       ],
-      "tip": "A conclusion is only worth marks to the extent it is justified, so show the reasoning from the evidence you weighed."
+      "tip": "A conclusion must be justified, so show the reasoning from the evidence you weighed."
     },
     {
       "h": "Chemistry as a human, collaborative endeavour",

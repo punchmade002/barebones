@@ -16,7 +16,7 @@
         "Electrons flow only through the external circuit (the wires and device outside the cell); in the electrolyte the charge is carried by ions.",
         "A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching, which would short-circuit the cell (let current bypass the device).",
         "Li⁺ ions move in and out of the layered structures of both electrodes without destroying them (a process called intercalation), so the cell can be charged and discharged many times.",
-        "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right), each on a current collector (a metal plate that connects the electrode to the circuit), with electrolyte between them and a separator in the middle, and an external circuit with a device; arrows show Li⁺ moving through the electrolyte and electrons moving through the external circuit, labelled for discharging (both towards the positive electrode) and charging (both towards the graphite)."
+        "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right) with a separator between them in the electrolyte, joined by an external circuit with a device; Li⁺ moves through the electrolyte and electrons through the circuit, towards the positive electrode on discharge and towards the graphite on charge."
       ],
       "tip": "The negative electrode holds lithium atoms stored in graphite, not a block of lithium metal. Electrons travel through the external circuit, never through the electrolyte, where ions carry the charge."
     },

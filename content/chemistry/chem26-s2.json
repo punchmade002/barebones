@@ -31,7 +31,7 @@
       "h": "Worked example: preparing ethene (sample data)",
       "b": "Ethene is made by dehydrating ethanol (removing the elements of water from it). This example follows the four steps for a reaction with a 1 : 1 ratio and shows the yield worked out from a mass and then from a gas volume.",
       "points": [
-        "Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected. The equation is C₂H₅OH → C₂H₄ + H₂O. The preparation is in “Investigation: preparing ethene”.",
+        "Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected. The equation is C₂H₅OH → C₂H₄ + H₂O, and the preparation is in “Investigation: preparing ethene”.",
         "Moles of ethanol = 4.60 ÷ 46 = 0.100 mol (M of C₂H₅OH is 46 g mol⁻¹). The ratio is 1 : 1, so the theoretical yield is 0.100 mol of ethene.",
         "Theoretical mass of ethene = 0.100 × 28 = 2.80 g (M of C₂H₄ is 28 g mol⁻¹).",
         "Percentage yield = (1.96 ÷ 2.80) × 100 = 70.0%.",
@@ -45,7 +45,7 @@
       "b": "An ester is made by refluxing (boiling with a condenser so vapour returns to the flask) a carboxylic acid with an alcohol and an acid catalyst (a substance that speeds up the reaction without being used up). Here the ethanol is in excess, so the ethanoic acid decides the theoretical yield.",
       "points": [
         "Question: 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst, and 5.72 g of pure ethyl ethanoate was obtained. The equation is CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
-        "Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol, so the theoretical yield is 0.100 mol of ethyl ethanoate (the ratio is 1 : 1).",
+        "Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol (M of CH₃COOH is 60 g mol⁻¹), so the theoretical yield is 0.100 mol of ethyl ethanoate (the ratio is 1 : 1).",
         "Theoretical mass = 0.100 × 88 = 8.80 g (M of CH₃COOC₂H₅ is 88 g mol⁻¹).",
         "Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%.",
         "The yield is well below 100% mainly because esterification (making an ester) is reversible and reaches equilibrium, a balance in which reactants and products are both present. The preparation is in “Tests, reaction schemes and preparing an ester”."
@@ -69,7 +69,7 @@
         "Question: what mass of ethanoic acid is needed to make 5.00 g of ethyl ethanoate if the yield is 65.0%?",
         "Because only 65.0% of the possible product is obtained, the theoretical yield needed is larger: 5.00 ÷ 0.650 = 7.69 g of ethyl ethanoate.",
         "Moles of ethyl ethanoate = 7.692 ÷ 88 = 0.08741 mol, which equals the moles of ethanoic acid needed, since the ratio is 1 : 1.",
-        "Mass of ethanoic acid = 0.08741 × 60 = 5.24 g.",
+        "Mass of ethanoic acid = 0.08741 × 60 = 5.24 g (M of CH₃COOH is 60 g mol⁻¹).",
         "To go from a percentage yield to an actual yield, use actual yield = theoretical yield × (percentage ÷ 100). For example, 15.0% of a theoretical 0.960 L of gas is 0.144 L, which is 144 cm³."
       ],
       "tip": "Exams ask you to calculate the actual mass or volume of product from a given percentage yield. Check that your answer is in the unit the question asks for, for example cm³ rather than L."

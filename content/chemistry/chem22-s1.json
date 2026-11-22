@@ -6,7 +6,7 @@
   "notes": [
     {
       "h": "Electrochemical cells: the key ideas",
-      "b": "Electrochemistry is the study of the link between chemical reactions and electricity. A redox reaction is one in which one substance loses electrons (oxidation) while another gains them (reduction), and this is the reaction behind every cell in this section.",
+      "b": "Electrochemistry is the study of the link between chemical reactions and electricity. A redox reaction is one in which one substance loses electrons (oxidation) while another gains them (reduction), and this is the reaction behind every cell below.",
       "points": [
         "Redox reactions can produce electricity, in galvanic cells, and electricity can drive redox reactions, in electrolytic cells (cells that use an electric supply to force a reaction to happen).",
         "A galvanic (voltaic) cell, also called a chemical cell, converts chemical energy into electrical energy using a spontaneous redox reaction, meaning one that happens by itself without any energy being supplied.",
@@ -71,8 +71,7 @@
       "h": "Comparing primary and secondary cells",
       "b": "Both types supply electricity from a redox reaction, but they differ in whether the reaction can be reversed. That one difference drives their cost, waste, storage and uses.",
       "points": [
-        "Rechargeable: a primary cell cannot be; a secondary cell can.",
-        "Reaction: in a primary cell it is not readily reversible; in a secondary cell it is reversed by an external current.",
+        "Rechargeable: a primary cell cannot be, because its reaction is not readily reversible; a secondary cell can, because an external current reverses its reaction.",
         "Cost: primary cells are cheap to buy but replaced often; secondary cells are dearer to buy, and need a charger, but cheaper per use over their life.",
         "Waste and resources: primary cells produce far more waste per unit of energy delivered; secondary cells reduce waste and the mining of raw materials, which makes rechargeable batteries a more sustainable use of energy. There is more on this in Fuel cells and sustainability.",
         "Storage: primary cells keep their charge for years on the shelf (low self-discharge, meaning little charge leaks away unused), so they suit emergency and low-drain devices; many secondary cells lose charge more quickly when stored.",
@@ -84,7 +83,7 @@
     },
     {
       "h": "Origins of the galvanic cell",
-      "b": "The galvanic cell began with an accident in an anatomy lab and a disagreement about what it meant. Settling that disagreement produced the first battery.",
+      "b": "The galvanic cell grew out of Galvani's frog-leg experiments and Volta's disagreement with his explanation of them. Volta's work led to the first battery.",
       "points": [
         "Luigi Galvani, working in Bologna in the 1780s, found that a dissected frog's leg twitched when touched by two different metals at once.",
         "Galvani believed the electricity came from the animal itself, which he called “animal electricity”.",
@@ -100,7 +99,7 @@
         "When zinc is put directly into copper(II) sulfate solution, zinc atoms give electrons straight to Cu²⁺ ions: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s).",
         "Copper is deposited, the blue colour fades and the energy is released as heat, with no useful current; this is a displacement reaction (a more reactive metal pushes a less reactive one out of solution).",
         "A galvanic cell separates the oxidation and the reduction into two half-cells, so the electrons must travel through an external wire from one to the other.",
-        "This flow of electrons is an electric current.",
+        "This flow of electrons is an electric current, which is why separating the half-cells produces useful electricity.",
         "A half-cell is an electrode dipping into a solution of its own ions, e.g. zinc in zinc sulfate solution."
       ],
       "tip": "If asked why no current flows when zinc is placed directly in copper(II) sulfate but one flows when the half-reactions are separated, say that directly the electrons pass straight between atoms and ions and the energy is lost as heat. Separated, they must go through the wire."
@@ -125,7 +124,7 @@
         "Copper electrode (cathode, positive, reduction): Cu²⁺(aq) + 2e⁻ → Cu(s). Copper(II) ions from the solution gain electrons and are deposited as copper.",
         "Overall cell reaction: Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), the same redox reaction as the direct displacement described above.",
         "Zinc is the reducing agent (it gives electrons away, so it reduces the other substance) and Cu²⁺ is the oxidising agent (it takes electrons, so it oxidises the zinc).",
-        "Electrons flow through the external wire from the zinc to the copper."
+        "Electrons flow through the external wire from the zinc to the copper, because zinc is the anode and is oxidised."
       ],
       "tip": "Exams ask you to draw and label this cell, identify the anode and cathode with their signs, write both half-equations and the overall equation, and show the direction of electron flow."
     },
@@ -201,7 +200,7 @@
         "Energy: a galvanic cell converts chemical energy to electrical energy; an electrolytic cell converts electrical energy to chemical energy.",
         "Reaction: a galvanic cell's reaction is spontaneous; an electrolytic cell's reaction is non-spontaneous and driven by the external supply.",
         "Signs: in a galvanic cell the anode is negative and the cathode positive; in an electrolytic cell the anode is positive and the cathode negative.",
-        "In both cells oxidation happens at the anode and reduction at the cathode.",
+        "In both cells oxidation happens at the anode and reduction at the cathode, because the anode is defined by oxidation, not by its sign.",
         "A galvanic cell needs two different electrodes in two half-cells, usually with a salt bridge; an electrolytic cell can use two identical inert electrodes in one electrolyte."
       ],
       "tip": "Compare the two under energy change, spontaneity and the sign of the anode. Oxidation is at the anode in both."

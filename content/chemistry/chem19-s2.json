@@ -19,7 +19,7 @@
     },
     {
       "h": "Strong acid from a mass (Higher Level only)",
-      "b": "Exam questions often give a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.",
+      "b": "Sometimes a question gives a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.",
       "points": [
         "Problem: 5.0 g of sulfuric acid (H₂SO₄ = 98 g mol⁻¹, its molar mass) is dissolved in water and made up to 250 cm³. Find the pH.",
         "Step 1: Concentration in g L⁻¹ = 5.0 ÷ 0.250 = 20 g L⁻¹, because 250 cm³ is 0.250 L.",
@@ -98,7 +98,7 @@
     },
     {
       "h": "Good practice (Higher Level only)",
-      "b": "Most marks are lost by choosing the wrong method or skipping a conversion, not by the algebra. Work through these checks before and after every pH calculation.",
+      "b": "Every pH calculation goes wrong if the wrong method is chosen or a conversion is skipped. Work through these checks before and after every pH calculation.",
       "points": [
         "First decide: is the species an acid or a base, and is it strong or weak? For a strong species use the concentration directly; for a weak species use √(Ka × c) or √(Kb × c).",
         "For any base, find [OH⁻] first, then convert to pH; do not put [OH⁻] into −log₁₀ and call the result pH.",

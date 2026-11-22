@@ -181,7 +181,7 @@
     },
     {
       "h": "Problem 5: equilibrium concentrations from Kc, quadratic (Higher Level only)",
-      "b": "When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them can be real.",
+      "b": "When the expression is not a perfect square, it rearranges to a quadratic equation (one containing x²) with two roots, and only one of them is physically possible (the other would need more of a reactant than is present).",
       "points": [
         "Data: 1.00 mol H₂ and 2.00 mol I₂ are placed in a 1.00 L flask; Kc = 49.0 at this temperature, for H₂(g) + I₂(g) ⇌ 2HI(g).",
         "Let x mol of H₂ react: at equilibrium H₂ = (1.00 − x), I₂ = (2.00 − x) and HI = 2x; as the volume is 1.00 L, these amounts are also the concentrations in mol L⁻¹.",

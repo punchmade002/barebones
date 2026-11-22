@@ -31,7 +31,7 @@
     },
     {
       "h": "Forces in alcohols and carboxylic acids (Higher Level only)",
-      "b": "Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind. This makes their boiling points the highest of the families.",
+      "b": "Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind.",
       "points": [
         "Alcohols have a very polar O–H bond (O 3.44, H 2.20), so alcohol molecules hydrogen bond to each other as well as having London forces.",
         "Carboxylic acids have both O–H and C=O in the –COOH group, so their molecules hydrogen bond strongly.",
@@ -58,7 +58,7 @@
       "b": "Two compounds can have the same mass, or even the same formula, and still boil at very different temperatures. The difference comes down to whether hydrogen bonding is possible.",
       "points": [
         "Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers (different compounds with the same formula), both C₂H₄O₂, and have the same mass.",
-        "The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H. This is why their boiling points differ by 86 °C.",
+        "The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H.",
         "Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only."
       ],
       "tip": "Exams ask you to explain ethanoic acid against methyl methanoate, and ethanol against ethane. Name the hydrogen bonding in one and the lack of it in the other."
@@ -183,7 +183,7 @@
     },
     {
       "h": "Evidence that alcohols are weakly acidic (Higher Level only)",
-      "b": "Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Only a very reactive metal such as sodium can show their acidic O–H.",
+      "b": "Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Their acidic O–H shows up in the reaction with sodium metal.",
       "points": [
         "Alcohols are neutral in water: they do not change the colour of indicators, do not react with sodium carbonate, and do not react to any useful extent with sodium hydroxide.",
         "Alcohols react with sodium metal, giving hydrogen gas and a salt, which is evidence of their acidic O–H.",

@@ -111,8 +111,8 @@
       "h": "Electronic structure",
       "b": "The way outer electrons change across and down the table explains why elements are arranged in periods (rows) and groups (columns).",
       "points": [
-        "Across a period, the number of outer electrons increases by one at each step, all in the same main energy level.",
-        "Down a group, the number of outer electrons stays the same, but a new main energy level is added each time.",
+        "Across a period, the number of outer electrons increases by one at each step, all in the same main energy level, which is why a period is one row.",
+        "Down a group, the number of outer electrons stays the same, so the elements react similarly, but a new main energy level is added each time, so the outer electrons are further out.",
         "The repeating pattern of outer-electron arrangements causes periodicity (the regular repeating of properties down the table): elements with the same outer arrangement fall in the same group."
       ],
       "tip": "Exams ask you to describe how electronic structure changes across a period and down a group, then use it to explain the reactivity trend down group 1."
@@ -132,11 +132,11 @@
       "b": "Atoms react because they are more stable with a full outer level. This explains why reactivity rises and falls in a pattern across and down the table.",
       "points": [
         "Atoms react to reach a full outer level of eight electrons (the octet rule), by losing, gaining or sharing electrons.",
-        "Metals react by losing electrons: reactivity increases down group 1 and group 2.",
+        "Metals react by losing electrons: reactivity increases down group 1 and group 2, because the outer electrons are further from the nucleus and more shielded.",
         "Across a period, metal reactivity decreases from group 1 to group 2 to group 13.",
-        "Non-metals react by gaining electrons: reactivity decreases down group 17.",
+        "Non-metals react by gaining electrons: reactivity decreases down group 17, because larger atoms attract an extra electron less strongly.",
         "Across a period, non-metal reactivity generally increases towards group 17.",
-        "Noble gases already have a full outer level and are unreactive."
+        "Noble gases already have a full outer level, so they have no need to gain or lose electrons and are unreactive."
       ],
       "tip": "Exams ask you to describe and explain the trends in reactivity down group 1 and group 17. Metal reactivity increases down a group, but halogen reactivity decreases."
     },
@@ -156,7 +156,7 @@
     },
     {
       "h": "Atomic radius and ionisation energy trends (Higher Level only)",
-      "b": "These trends are Higher Level only and are explained in full below. Ionisation energy is the energy needed to remove an electron from an atom, and atomic radius is the size of the atom.",
+      "b": "These trends are Higher Level only. Ionisation energy is the energy needed to remove an electron from an atom, and atomic radius is the size of the atom.",
       "points": [
         "Atomic (covalent) radius decreases across a period and increases down a group.",
         "First ionisation energy generally increases across a period and decreases down a group.",
@@ -186,7 +186,7 @@
     },
     {
       "h": "First ionisation energy (Higher Level only)",
-      "b": "First ionisation energy measures how tightly an atom holds its outermost electron. The data below show the trends and the exceptions that the next block explains.",
+      "b": "First ionisation energy measures how tightly an atom holds its outermost electron. The data below show the trends, and a few elements break the pattern because of sublevel stability and electron pairing.",
       "points": [
         "First ionisation energy: the minimum energy needed to completely remove the most loosely bound electron from a neutral gaseous atom in its ground state (lowest energy state): X(g) → X⁺(g) + e⁻. Its unit is kJ mol⁻¹.",
         "Period 2 first ionisation energies (kJ mol⁻¹): Li 520, Be 899, B 801, C 1086, N 1402, O 1314, F 1681, Ne 2081.",

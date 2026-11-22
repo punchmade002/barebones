@@ -22,8 +22,7 @@
       "points": [
         "Acidified potassium permanganate, KMnO₄ with dilute sulfuric acid, is a strong oxidising agent. It is reduced from purple MnO₄⁻ to almost colourless Mn²⁺: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
         "It oxidises primary alcohols to aldehydes and then to carboxylic acids: ethanol to ethanal to ethanoic acid, and propan-1-ol to propanal to propanoic acid. The purple colour fades as the permanganate is used up.",
-        "Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O.",
-        "It is built from the organic half-equation (the electron-losing half) C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻ and the permanganate half-equation, so that the electrons cancel.",
+        "Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O, built from the organic half-equation (the electron-losing half) C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻ and the permanganate half-equation, so that the electrons cancel.",
         "To stop at the aldehyde, distil it off as it forms (heating so it boils out of the mixture) and do not use the oxidising agent in excess.",
         "This works because ethanal boils at about 21 °C, well below ethanol at 78 °C, so it leaves before it can be oxidised further."
       ],
@@ -86,7 +85,7 @@
     },
     {
       "h": "Base hydrolysis of esters (Higher Level only)",
-      "b": "An ester (the compound formed from an alcohol and a carboxylic acid) can be split again by water. Using a base for this makes the reaction go all the way, which is why it is an acid–base reaction.",
+      "b": "An ester (the compound formed from an alcohol and a carboxylic acid) can be split again by water. With a base the hydroxide ion acts as a base, so this is an acid–base reaction, and it goes all the way to completion.",
       "points": [
         "Hydrolysis is the breaking of a compound by reaction with water.",
         "Esters can be hydrolysed by acid, which is reversible and is the reverse of esterification (making an ester from an acid and an alcohol), or by base.",

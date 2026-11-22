@@ -19,7 +19,7 @@
     },
     {
       "h": "What chemical cells and fuel cells have in common",
-      "b": "Despite the difference in how they are supplied, the two types of cell work on the same principle. Seeing that principle makes the comparison on the next block easier to follow.",
+      "b": "Despite the difference in how they are supplied, the two types of cell work on the same principle. Seeing that shared principle makes the differences between the two types easier to follow.",
       "points": [
         "Both are galvanic cells: each uses a spontaneous redox reaction (one that happens by itself) to drive electrons through an external circuit, the wires outside the cell.",
         "Both have an anode where the fuel or reducing agent (the substance that gives up electrons) is oxidised (negative), a cathode where the oxidising agent is reduced (positive), and an electrolyte (a liquid or solid that carries ions) that carries ions between them.",
@@ -118,7 +118,8 @@
         "Limitations: hydrogen has a very low density, so it must be stored compressed at high pressure, or liquefied at very low temperature, in strong, heavy tanks.",
         "Limitations: there are few hydrogen refuelling stations, and platinum is scarce and expensive.",
         "Most hydrogen today is made from natural gas, which releases carbon dioxide; a fuel cell is only low-carbon overall when the hydrogen is made by electrolysis (splitting water using electricity) using renewable electricity.",
-        "Diagram: a PEM fuel cell with hydrogen in at the anode (−) and oxygen or air in at the cathode (+), the membrane between them with H⁺ moving across, an external circuit with a load and electrons flowing from anode to cathode, and water leaving from the cathode side; write the half-equations beside each electrode."
+        "Diagram: a PEM fuel cell with hydrogen in at the anode (−) and oxygen or air in at the cathode (+), and the membrane between them with H⁺ moving across.",
+        "Diagram: add an external circuit with a load and electrons flowing from anode to cathode, and water leaving from the cathode side; write the half-equations beside each electrode."
       ],
       "tip": "For advantages and disadvantages of hydrogen fuel cells in vehicles or buses, give two of each. Take advantages from the water-only product, quiet running, quick refuelling and continuous running, and disadvantages from storage, flammability, few refuelling stations, platinum cost and how the hydrogen is made."
     },
@@ -152,7 +153,9 @@
         "1. Choose one application and write a focused question that can be answered with evidence, e.g. “Are battery electric cars more sustainable than petrol cars in Ireland?”",
         "2. Explain the chemistry involved: the redox reactions, the type of cell (galvanic or electrolytic), and the electrode reactions where known.",
         "3. Gather evidence from a range of sources: textbooks, peer-reviewed articles (checked by other experts before publication), government and public agencies such as the Sustainable Energy Authority of Ireland, the Environmental Protection Agency and the International Energy Agency, manufacturers and news reports.",
-        "4. Judge each source by who wrote it and their expertise; whether it is peer-reviewed or official; how recent it is, as this technology changes quickly; whether the author gains from the conclusion, e.g. a company selling the product; whether it gives data and references rather than opinion; and whether other sources agree.",
+        "4. Judge each source by who wrote it and their expertise, and whether it is peer-reviewed or official, because these sources are checked.",
+        "4. Also judge how recent it is, as this technology changes quickly, and whether the author gains from the conclusion, e.g. a company selling the product.",
+        "4. Finally check whether it gives data and references rather than opinion, and whether other sources agree.",
         "5. Consider the whole life-cycle: raw materials and mining, manufacture, the source of electricity or fuel during use, lifetime, and disposal or recycling.",
         "6. Weigh the evidence on each side (environmental, economic, social and safety) and reach a justified conclusion, stating the conditions under which it holds.",
         "7. Present the findings with references, and evaluate the investigation: gaps in the evidence, conflicting sources, and what further research would help."
@@ -209,7 +212,7 @@
     },
     {
       "h": "Worked outline 3: fuel cells",
-      "b": "This outline asks whether hydrogen fuel cells should power public buses. It uses the hydrogen fuel cell from earlier in this section as its chemistry.",
+      "b": "This outline asks whether hydrogen fuel cells should power public buses. It uses the PEM hydrogen fuel cell described above as its chemistry.",
       "points": [
         "Question: should hydrogen fuel cells power public buses?",
         "Chemistry: a fuel cell is a galvanic cell; at the anode H₂ → 2H⁺ + 2e⁻, and at the cathode O₂ + 4H⁺ + 4e⁻ → 2H₂O.",

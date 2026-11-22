@@ -22,7 +22,7 @@
         "A pure substance contains only one kind of particle (one element or one compound) and has fixed properties, such as a sharp melting point and boiling point (a single exact temperature, not a range).",
         "An element is a substance made of only one kind of atom; it cannot be split into simpler substances by chemical means (that is, by a chemical reaction), e.g. iron (Fe) and oxygen (O₂).",
         "A compound is a substance made of two or more different elements chemically combined (joined by bonds) in a fixed ratio, e.g. water (H₂O) and sodium chloride (NaCl).",
-        "A compound has properties that differ from those of its elements, and it can be separated into them only by a chemical reaction.",
+        "A compound has properties that differ from those of its elements, because the elements are bonded together, so it can be separated into them only by a chemical reaction.",
         "A molecule (a group of atoms joined together) can be of an element (O₂, N₂, Cl₂), where all the atoms are the same, or of a compound (H₂O, CO₂), where the atoms are different."
       ],
       "tip": "You may be asked to distinguish between an element, a compound and a mixture, or to classify substances. Give a definition and one example of each, and remember that air is a mixture, not a compound."
@@ -53,8 +53,8 @@
       "points": [
         "A compound has a fixed composition; a mixture has a variable composition.",
         "The elements in a compound are chemically combined; the substances in a mixture are not.",
-        "A compound has new properties; a mixture's components keep their own properties.",
-        "A compound can be separated only chemically; a mixture can be separated physically.",
+        "A compound has new properties because its elements are chemically combined; a mixture's components keep their own properties because they are not.",
+        "A compound can be separated only chemically, because its elements are bonded; a mixture can be separated physically, because nothing is bonded.",
         "Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.",
         "Diagram: particle diagrams of an element (single atoms and diatomic molecules, which are molecules of two atoms), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together)."
       ],
@@ -65,7 +65,7 @@
       "b": "The kinetic theory states that matter is particles in motion. We cannot see the particles, so the theory rests on effects we can see.",
       "points": [
         "The kinetic theory of matter states that all matter is made of particles that are in constant, random motion.",
-        "The particles have kinetic energy (energy of movement), and the higher the temperature, the faster they move.",
+        "The particles have kinetic energy (energy of movement), so the higher the temperature, the faster they move.",
         "The average kinetic energy of the particles is proportional to the temperature in kelvin (the temperature scale that starts at absolute zero), so doubling the kelvin temperature doubles the average kinetic energy.",
         "The evidence for the theory comes from effects we can see that are caused by particles we cannot see."
       ]
@@ -79,7 +79,13 @@
         "Step 1: Fill a small glass cell with smoke and cover it.",
         "Step 2: Light the cell from the side, so the smoke particles scatter light and show up.",
         "Step 3: View the cell through a microscope.",
-        "Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop.",
+        "Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop."
+      ]
+    },
+    {
+      "h": "Brownian motion: explanation",
+      "b": "The jiggling of the smoke is the evidence. It can be explained only if the air around the smoke is made of moving particles.",
+      "points": [
         "Explanation: the smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules; at any instant more molecules hit one side than the other, so the particle moves.",
         "The smoke particles are visible solid particles, not air molecules; they are moved by the invisible air molecules.",
         "Conclusion: the air is made of particles in constant, random motion, and the motion becomes more vigorous when the temperature is raised.",
@@ -91,7 +97,7 @@
       "h": "Diffusion of gases (investigation)",
       "b": "Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion. Gases show it clearly.",
       "points": [
-        "Diffusion needs no stirring or currents; it results from the random motion of the particles alone.",
+        "Diffusion needs no stirring or currents, because it results from the random motion of the particles alone.",
         "Bromine experiment: a few drops of liquid bromine are placed in a gas jar, giving brown vapour that spreads upwards through a second jar of air placed on top.",
         "The bromine jars are evenly coloured when the vapour has diffused through both jars, which shows the particles have spread out until evenly mixed.",
         "Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard (a ventilated cabinet that removes fumes) and gloves."
@@ -104,7 +110,7 @@
       "points": [
         "Method: cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid are placed at opposite ends of a long glass tube, which is sealed with stoppers.",
         "Observation: after a few minutes a white ring of ammonium chloride forms inside the tube where the two gases meet: NH₃(g) + HCl(g) → NH₄Cl(s).",
-        "The ring forms nearer the hydrochloric acid end of the tube.",
+        "The ring forms nearer the hydrochloric acid end of the tube, because the lighter ammonia travels further.",
         "Explanation: ammonia molecules (Mr 17, relative molecular mass) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.",
         "Safety: concentrated ammonia and hydrochloric acid give off irritant, corrosive fumes, so use a fume cupboard, goggles, gloves and tongs to handle the plugs.",
         "Diagram: the long tube with the ammonia plug at one end, the hydrochloric acid plug at the other, and the white ring closer to the hydrochloric acid end."
