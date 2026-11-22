@@ -6,127 +6,146 @@
   "notes": [
     {
       "h": "Investigation: generating a pH curve (Higher Level only)",
-      "b": "A pH curve uses primary data to show how pH changes as one solution is added to another.",
+      "b": "A pH curve is a graph of pH against the volume of one solution added to another. You build it from your own measurements (primary data), and it shows you where the reaction is complete and which indicator would signal that point.",
       "points": [
-        "Aim: to plot how the pH changes as an alkali is added to an acid, using primary data, and to use the curve to choose an indicator.",
-        "Calibrate the pH meter, or the pH sensor and data-logger, with buffer solutions of known pH.",
-        "Pipette 25.0 cm³ of the acid into a beaker on a magnetic stirrer, or into a beaker that is swirled; put the pH probe in and record the starting pH.",
-        "Add the alkali from a burette in 1 cm³ portions, recording the pH after each.",
-        "Near the equivalence point, add 0.1–0.2 cm³ portions, because the pH changes rapidly there; continue well past it.",
+        "Aim: to plot how the pH changes as an alkali is added to an acid, using primary data (results you measure yourself), and to use the curve to choose an indicator.",
+        "First calibrate the pH meter, or the pH sensor and data-logger (a device that records readings automatically), with buffer solutions of known pH, so that its readings can be trusted.",
+        "Pipette (measure accurately with a fixed-volume glass pipette) 25.0 cm³ of the acid into a beaker on a magnetic stirrer, or into a beaker that is swirled. Put the pH probe in and record the starting pH.",
+        "Add the alkali from a burette (a graduated tube with a tap) in 1 cm³ portions, recording the pH after each.",
+        "Near the equivalence point (the point where the acid and alkali have reacted in exactly the amounts in the equation), add 0.1–0.2 cm³ portions, because the pH changes rapidly there. Continue well past it.",
         "Plot pH on the y-axis against the volume of alkali added on the x-axis.",
         "The equivalence point is the midpoint of the steep, vertical section of the curve.",
         "Diagram: a burette above a beaker on a magnetic stirrer, with a pH probe connected to a pH meter or data-logger; label burette, beaker, stirrer, probe and meter."
-      ]
+      ],
+      "tip": "If you are asked to describe how to obtain a pH curve, give the calibration with buffers, the 1 cm³ portions with smaller portions near the equivalence point, the axes, and the equivalence point as the midpoint of the steep section."
     },
     {
       "h": "Shapes of pH curves (Higher Level only)",
-      "b": "Each curve is for 25 cm³ of acid with base added from a burette, using 0.1 mol L⁻¹ solutions throughout.",
+      "b": "The shape of a pH curve depends on whether the acid and the base are strong (fully ionised in water) or weak (only partly ionised). Each curve below is for 25 cm³ of acid with base added from a burette, using 0.1 mol L⁻¹ solutions throughout.",
       "points": [
         "Strong acid–strong base (HCl and NaOH): starts at about pH 1; rises slowly, then very steeply from about pH 3 to pH 11, with the equivalence point at pH 7; levels off near pH 13.",
-        "Weak acid–strong base (ethanoic acid and NaOH): starts higher, at about pH 3, with a gentler rise; the steep section is from about pH 7 to 11, with the equivalence point above pH 7 (about 8.7), because the ethanoate ion is a weak base.",
-        "Strong acid–weak base (HCl and aqueous ammonia): starts at about pH 1; the steep section is from about pH 3 to 7, with the equivalence point below pH 7 (about 5), because the ammonium ion is a weak acid; levels off around pH 9–10.",
+        "Weak acid–strong base (ethanoic acid and NaOH): starts higher, at about pH 3, because the acid is only partly ionised, with a gentler rise. The steep section is from about pH 7 to 11.",
+        "In that weak acid–strong base titration the equivalence point is above pH 7 (about 8.7), because the ethanoate ion formed is a weak base and makes the solution slightly alkaline.",
+        "Strong acid–weak base (HCl and aqueous ammonia): starts at about pH 1; the steep section is from about pH 3 to 7, and the curve levels off around pH 9–10.",
+        "In that strong acid–weak base titration the equivalence point is below pH 7 (about 5), because the ammonium ion formed is a weak acid and makes the solution slightly acidic.",
         "Weak acid–weak base (ethanoic acid and ammonia): has no steep section; the pH changes gradually through the equivalence point, at about pH 7.",
         "Diagram: the four curves sketched on pH–volume axes, with the steep sections and equivalence points marked, and the colour-change ranges of phenolphthalein and methyl orange shaded."
-      ]
+      ],
+      "tip": "The equivalence point is not always at pH 7, so don't mark it there unless both acid and base are strong. The steep section's range depends on concentration, so use the approximate values given. Exams ask you to sketch the curve for a named titration and mark the equivalence point."
     },
     {
       "h": "Choosing an indicator from the curve (Higher Level only)",
+      "b": "An indicator is a substance that changes colour over a particular pH range, and it is used to show when a titration has reached its end point. The curve tells you which indicator will change colour at the right moment.",
       "points": [
         "An indicator is suitable if its colour-change range lies completely within the steep section of the curve, so that one drop at the equivalence point changes its colour.",
         "Strong acid–strong base: phenolphthalein (pH 8.3–10) or methyl orange (pH 3.1–4.4); both ranges lie within the steep section.",
-        "Weak acid–strong base (e.g. vinegar with NaOH): phenolphthalein; methyl orange would change colour too early.",
+        "Weak acid–strong base (e.g. vinegar with NaOH): phenolphthalein; methyl orange would change colour too early, before the steep section is reached.",
         "Strong acid–weak base (e.g. HCl with sodium carbonate or ammonia): methyl orange; phenolphthalein would change colour too early, while the solution is still alkaline and before the equivalence point."
-      ]
+      ],
+      "tip": "To justify an indicator, say that its colour-change range lies within the steep section of the curve, then name the indicator that fits. Litmus is not used in titrations because its colour change is gradual."
     },
     {
       "h": "Weak acid–weak base: the issues (Higher Level only)",
+      "b": "Titrating a weak acid with a weak base is a problem case, because the curve has no steep section to signal the equivalence point. The specification asks you to know why.",
       "points": [
         "With no steep section, no indicator changes colour sharply at the equivalence point, so no indicator is suitable and the end point is unclear.",
-        "The curve has only a gentle point of inflection, which is hard to locate from the data, and small errors in pH readings move it a lot.",
+        "The curve has only a gentle point of inflection (the place where the curve changes its direction of bending), which is hard to locate from the data, and small errors in pH readings move it a lot.",
         "The equivalence point must instead be found from the curve itself, at the point of steepest slope, located with a pH meter and many small additions; or such titrations are avoided.",
-        "The specification limits this topic to monoprotic acids and bases with a single inflection point."
-      ]
+        "The specification limits this topic to monoprotic acids and bases (each able to give or accept only one H⁺ per molecule) with a single inflection point."
+      ],
+      "tip": "If asked why no indicator can be used for a weak acid–weak base titration, say that the curve has no steep section, so no indicator changes colour sharply at the equivalence point."
     },
     {
       "h": "Indicators as weak acids (Higher Level only)",
-      "b": "Many acid–base indicators are weak acids, so their colour depends on the position of an equilibrium.",
+      "b": "Many acid–base indicators are themselves weak acids, so their colour depends on the position of an equilibrium (a reversible reaction in which forward and backward rates are equal). Le Châtelier's principle tells you which way that equilibrium moves.",
       "points": [
-        "Many indicators are weak acids, written HIn, in which the undissociated molecule HIn and its conjugate base In⁻ have different colours.",
+        "Many indicators are weak acids, written HIn, in which the undissociated molecule HIn and its conjugate base In⁻ (the form left after HIn loses H⁺) have different colours.",
         "In water an equilibrium is set up: HIn(aq) ⇌ H⁺(aq) + In⁻(aq).",
         "Le Châtelier's principle: if a system at equilibrium is disturbed, it shifts to oppose the change.",
-        "Adding acid increases [H⁺], so the equilibrium shifts to the left: most of the indicator is HIn, and its colour is seen.",
-        "Adding base removes H⁺ (H⁺ + OH⁻ → H₂O), so the equilibrium shifts to the right: most of the indicator is In⁻, and its colour is seen.",
+        "Adding acid increases [H⁺] (the concentration of hydrogen ions), so the equilibrium shifts to the left: most of the indicator is HIn, and its colour is seen.",
+        "Adding base removes H⁺ (H⁺ + OH⁻ → H₂O), so the equilibrium shifts to the right to replace it: most of the indicator is In⁻, and its colour is seen.",
         "Phenolphthalein: HIn is colourless and In⁻ is pink.",
         "Methyl orange: HIn is red and In⁻ is yellow."
-      ]
+      ],
+      "tip": "Exams ask you to use Le Châtelier's principle to explain why an indicator changes colour. Don't say the indicator itself is acidic or basic in colour; the colour depends on which form, HIn or In⁻, is in excess. Ka of indicators is not required."
     },
     {
       "h": "Indicators as weak bases (Higher Level only)",
+      "b": "A few indicators are weak bases instead. The same reasoning applies, but now the shifting equilibrium involves hydroxide ions, OH⁻, rather than H⁺.",
       "points": [
         "A weak base indicator can be written InOH, with InOH and In⁺ having different colours: InOH(aq) ⇌ In⁺(aq) + OH⁻(aq).",
-        "Adding acid removes OH⁻, so the equilibrium shifts to the right and the In⁺ colour is seen.",
+        "Adding acid removes OH⁻, so the equilibrium shifts to the right to replace it and the In⁺ colour is seen.",
         "Adding base increases [OH⁻], so the equilibrium shifts to the left and the InOH colour is seen."
-      ]
+      ],
+      "tip": "Use the same Le Châtelier argument as for weak acid indicators, but track OH⁻ instead of H⁺: acid shifts the equilibrium right, base shifts it left."
     },
     {
       "h": "The colour-change range (Higher Level only)",
+      "b": "An indicator does not flip colour at a single pH. It changes gradually over a range, and each indicator has its own range, which is why the choice of indicator matters.",
       "points": [
         "The colour change happens over a range of about two pH units, centred on the pH at which [HIn] = [In⁻].",
-        "At the midpoint of the range both colours are present; methyl orange looks orange.",
+        "At the midpoint of the range both colours are present, because both forms are equally abundant; methyl orange looks orange (a mix of its red and yellow).",
         "Different indicators are weak acids of different strengths, so they change colour at different pH values: phenolphthalein at pH 8.3–10 and methyl orange at pH 3.1–4.4.",
-        "This is why the indicator must be chosen to match the titration; see “pH titration curves”.",
-        "Only a few drops of indicator are used, because the indicator is itself an acid and would react with some of the titrant."
-      ]
+        "This is why the indicator must be chosen to match the titration: its range has to fall within the steep section of that titration's curve.",
+        "Only a few drops of indicator are used, because the indicator is itself an acid and would react with some of the titrant (the solution added from the burette)."
+      ],
+      "tip": "Exams ask why only a few drops of indicator are used and why different indicators change colour at different pH values. Answer with the indicator being an acid that would react with titrant, and the indicators being weak acids of different strengths."
     },
     {
-      "h": "Aim and chemistry",
+      "h": "Vinegar investigation: aim and chemistry",
+      "b": "Vinegar is a solution of ethanoic acid, and its strength can be found by titration (adding a solution of known concentration from a burette until a reaction is just complete). The reaction used is a simple 1 : 1 neutralisation.",
       "points": [
-        "Aim: to find the concentration of ethanoic acid in a commercial vinegar by titration with a standard solution of sodium hydroxide.",
-        "Equation: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l), with a mole ratio of 1 : 1.",
-        "The sodium hydroxide must first be standardised, because it is not a primary standard; see “Primary standards and standard solutions”.",
+        "Aim: to find the concentration of ethanoic acid in a commercial vinegar by titration with a standard solution (one whose concentration is accurately known) of sodium hydroxide.",
+        "Equation: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l), with a mole ratio of 1 : 1, so moles of acid equal moles of NaOH at the equivalence point.",
+        "The sodium hydroxide must first be standardised (its concentration found by titrating it), because it is not a primary standard, meaning it cannot be weighed out to give an exactly known concentration.",
         "Commercial vinegar is typically about 4–6% ethanoic acid, often labelled 5%."
       ]
     },
     {
-      "h": "Method",
-      "b": "The rinsing and titration technique is as described in “Acid–base titrations”.",
+      "h": "Vinegar investigation: method",
+      "b": "The method has two parts: an accurate ten-fold dilution of the vinegar, then a titration of the diluted vinegar against sodium hydroxide. There is more on the rinsing and titration technique in the notes on acid–base titrations.",
       "points": [
-        "Dilute the vinegar ten times: pipette 25.0 cm³ of vinegar into a 250 cm³ volumetric flask, make up to the mark with deionised water and invert about 20 times.",
-        "Rinse the burette with deionised water, then with the standard sodium hydroxide solution, and fill it.",
+        "Dilute the vinegar ten times: pipette 25.0 cm³ of vinegar into a 250 cm³ volumetric flask (a flask with one mark for an exact volume), make up to the mark with deionised water and invert about 20 times to mix.",
+        "Rinse the burette with deionised water, then with the standard sodium hydroxide solution, and fill it. Rinsing with the solution itself stops leftover water diluting it.",
         "Rinse a pipette with deionised water, then with the diluted vinegar, and transfer 25.0 cm³ of diluted vinegar to a conical flask.",
         "Add two or three drops of phenolphthalein.",
-        "Titrate with the sodium hydroxide, swirling, until the solution turns a permanent pale pink; do a rough titration, then accurate titrations until two agree within 0.1 cm³.",
+        "Titrate with the sodium hydroxide, swirling, until the solution turns a permanent pale pink. Do a rough titration, then accurate titrations until two agree within 0.1 cm³.",
         "Diagram: a burette of sodium hydroxide above a conical flask of diluted vinegar with phenolphthalein on a white tile; and the 250 cm³ volumetric flask used for the dilution, labelled with the 25.0 cm³ pipette."
-      ]
+      ],
+      "tip": "Exams ask how the vinegar is diluted accurately and which indicator is used. Do not rinse the conical flask with vinegar, because that would add extra acid and change the amount you titrate."
     },
     {
-      "h": "Why each choice is made",
+      "h": "Vinegar investigation: why each choice is made",
+      "b": "Each step in the vinegar titration has a reason, and exams ask you to give it.",
       "points": [
-        "The vinegar is diluted because, undiluted, it would need a very large titre of 0.1 mol L⁻¹ sodium hydroxide, more than a burette holds.",
+        "The vinegar is diluted because, undiluted, it would need a very large titre (the volume of solution run in from the burette) of 0.1 mol L⁻¹ sodium hydroxide, more than a burette holds.",
         "Phenolphthalein is used because this is a weak acid–strong base titration, with the equivalence point in the alkaline region (about pH 8.7); methyl orange would change colour too soon.",
         "The sodium hydroxide is placed in the burette, so the colour change is from colourless to pink, which is easy to see.",
         "Brown or coloured vinegar makes the end point hard to see, so white (clear) vinegar is used."
-      ]
+      ],
+      "tip": "Exams ask why the vinegar is diluted, which indicator is used and why, and what the colour change is. The answer is phenolphthalein, not methyl orange."
     },
     {
-      "h": "Sample calculation (sample data)",
-      "b": "The steps convert a titre into a concentration, then into mass concentration and %w/v.",
+      "h": "Vinegar investigation: sample calculation (sample data)",
+      "b": "The steps convert a titre into a concentration, then into mass concentration and %w/v (grams of solute per 100 cm³ of solution). The numbers here are sample data.",
       "points": [
         "Mean titre: 20.8 cm³ of 0.100 mol L⁻¹ NaOH is needed for 25.0 cm³ of diluted vinegar.",
-        "Moles NaOH = 0.100 × 0.0208 = 2.08 × 10⁻³ mol, which equals the moles of ethanoic acid in 25.0 cm³ of diluted vinegar.",
+        "Moles NaOH = 0.100 × 0.0208 = 2.08 × 10⁻³ mol, which equals the moles of ethanoic acid in 25.0 cm³ of diluted vinegar, because the mole ratio is 1 : 1.",
         "Concentration of diluted vinegar = 2.08 × 10⁻³ mol ÷ 0.0250 L = 0.0832 mol L⁻¹.",
         "Concentration of original vinegar = 0.0832 × 10 = 0.832 mol L⁻¹, because the vinegar was diluted ten times.",
         "Mass concentration = 0.832 mol L⁻¹ × 60 g mol⁻¹ = 49.9 g L⁻¹, using M(CH₃COOH) = 60 g mol⁻¹.",
         "As %w/v: 49.9 g L⁻¹ ÷ 10 = 4.99% w/v, close to the 5% typical of vinegar."
-      ]
+      ],
+      "tip": "Remember the dilution factor of 10 when finding the original concentration. Exams ask for the concentration of ethanoic acid in the original vinegar in mol L⁻¹, g L⁻¹ and %w/v."
     },
     {
-      "h": "Safety and errors",
+      "h": "Vinegar investigation: safety and errors",
+      "b": "Sodium hydroxide is a hazardous chemical, and several slips in technique shift the result in a predictable direction.",
       "points": [
-        "Safety: sodium hydroxide is corrosive, especially to the eyes, so wear goggles and use a pipette filler.",
-        "Not rinsing the burette with sodium hydroxide dilutes it, so the titre is too high and the result is too high.",
+        "Safety: sodium hydroxide is corrosive, especially to the eyes, so wear goggles and use a pipette filler (never pipette by mouth).",
+        "Not rinsing the burette with sodium hydroxide leaves water in it, which dilutes the solution, so the titre is too high and the result is too high.",
         "Overshooting the end point gives too large a titre, so the result is too high.",
-        "An air bubble below the burette tap gives a wrong titre.",
+        "An air bubble below the burette tap gives a wrong titre, because the reading then does not match the volume actually delivered.",
         "Sodium hydroxide absorbs carbon dioxide from the air over time, changing its concentration, so it should be standardised just before use."
       ]
     }

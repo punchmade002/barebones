@@ -6,136 +6,169 @@
   "notes": [
     {
       "h": "Electronegativity",
-      "b": "Electronegativity measures how strongly an atom attracts the shared pair of electrons in a covalent bond. The continuum from ionic to non-polar covalent bonding is introduced in “Types of chemical bonding”.",
+      "b": "When two atoms share a pair of electrons in a covalent bond (a bond formed by sharing electrons), the pair is not always shared equally. Electronegativity tells you which atom pulls harder on it. There is more on the continuum from ionic to non-polar covalent bonding in “Types of chemical bonding”.",
       "points": [
-        "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond.",
-        "It is measured on the Pauling scale, on which fluorine, the most electronegative element, has the highest value of 3.98 (about 4); Pauling values have no units.",
+        "Electronegativity is the relative attraction that an atom in a molecule has for the shared pair of electrons in a covalent bond. The higher the value, the harder the atom pulls on the pair.",
+        "It is measured on the Pauling scale, on which fluorine, the most electronegative element, has the highest value of 3.98 (about 4). Pauling values are relative, so they have no units.",
         "Pauling values, highest to lowest: F 3.98; O 3.44; Cl 3.16; N 3.04; Br 2.96; I 2.66; S 2.58; C 2.55; H 2.20; P 2.19; Si 1.90; Al 1.61; Mg 1.31; Ca 1.00; Li 0.98; Na 0.93; K 0.82.",
-        "Non-metals have high electronegativities and metals have low ones."
-      ]
+        "Non-metals have high electronegativities and metals have low ones, so a non-metal bonded to a metal pulls the electrons strongly towards itself."
+      ],
+      "tip": "Electronegativity is a property of an atom in a bond. It is not the same as ionisation energy, which is taught in “Families and trends in the periodic table”. Use the one set of Pauling values above and don't mix in older rounded values such as O 3.5 or C 2.5."
     },
     {
       "h": "Trends across periods and down groups",
+      "b": "Electronegativity follows a pattern in the periodic table. Both halves of the pattern are explained by how close the bonding electrons are to the nucleus (the positive centre of the atom) and how much positive charge pulls on them.",
       "points": [
-        "Across a period (left to right) electronegativity increases, e.g. from Na 0.93 to Cl 3.16.",
-        "Across a period the nuclear charge increases while electrons are added to the same main energy level, so the atomic radius decreases.",
-        "Because the atomic radius decreases across a period, the nucleus attracts the bonding electrons more strongly.",
-        "Down a group electronegativity decreases, e.g. from F 3.98 to I 2.66.",
-        "Down a group each element has an extra energy level, so the atomic radius increases.",
-        "Inner electrons screen (shield) the outer electrons from the nucleus; the bonding electrons are further away and less strongly attracted, even though the nuclear charge is greater.",
-        "Noble gases are usually given no electronegativity value because they rarely form bonds."
-      ]
+        "Across a period (a row of the periodic table, left to right) electronegativity increases, for example from Na 0.93 to Cl 3.16.",
+        "Across a period the nuclear charge (the positive charge of the nucleus) increases while electrons are added to the same main energy level (shell), so the atomic radius (the size of the atom) decreases.",
+        "Because the atomic radius decreases across a period, the bonding electrons are closer to a more highly charged nucleus, so the nucleus attracts them more strongly.",
+        "Down a group (a column of the periodic table) electronegativity decreases, for example from F 3.98 to I 2.66.",
+        "Down a group each element has an extra energy level, so the atomic radius increases and the bonding electrons are further from the nucleus.",
+        "Inner electrons screen (shield) the outer electrons from the nucleus. The bonding electrons are therefore further away and less strongly attracted, even though the nuclear charge is greater.",
+        "Noble gases are usually given no electronegativity value because they rarely form bonds, so there is no shared pair to attract."
+      ],
+      "tip": "Exams ask you to define electronegativity and explain the trends across a period and down a group. For a trend down a group, such as group 17, give the extra energy level, the larger atomic radius and the screening by inner electrons."
     },
     {
       "h": "Predicting bond type: method and worked examples",
-      "b": "The difference in electronegativity between two bonded atoms predicts the bond type. The cut-offs below are guides, not sharp boundaries, because bonding is a continuum.",
+      "b": "The difference in electronegativity between two bonded atoms predicts the bond type: the larger the difference, the more ionic the bond. The cut-offs below are guides, not sharp boundaries, because bonding is a continuum (a smooth range from ionic to non-polar covalent).",
       "points": [
         "Step 1: Look up the Pauling electronegativity of each atom.",
         "Step 2: Subtract the smaller value from the larger to find the difference.",
         "Step 3: Compare the difference with the cut-offs below.",
-        "The larger the difference, the more ionic the bond.",
-        "A difference greater than 1.7 gives a mainly ionic bond, e.g. NaCl: 3.16 − 0.93 = 2.23.",
-        "A difference between about 0.4 and 1.7 gives a polar covalent bond, e.g. H–Cl: 3.16 − 2.20 = 0.96; O–H: 3.44 − 2.20 = 1.24.",
-        "A difference less than about 0.4 gives a non-polar (pure) covalent bond, e.g. C–H: 2.55 − 2.20 = 0.35.",
-        "A bond between identical atoms has a difference of zero and is non-polar, e.g. Cl–Cl: 3.16 − 3.16 = 0.",
+        "A difference greater than 1.7 gives a mainly ionic bond (electrons largely transferred from one atom to the other), for example NaCl: 3.16 − 0.93 = 2.23.",
+        "A difference between about 0.4 and 1.7 gives a polar covalent bond (a bond in which the shared pair is pulled unequally), for example H–Cl: 3.16 − 2.20 = 0.96; O–H: 3.44 − 2.20 = 1.24.",
+        "A difference less than about 0.4 gives a non-polar (pure) covalent bond, in which the pair is shared almost equally, for example C–H: 2.55 − 2.20 = 0.35.",
+        "A bond between identical atoms has a difference of zero, so the pair is shared equally and the bond is non-polar, for example Cl–Cl: 3.16 − 3.16 = 0.",
         "In a polar bond the more electronegative atom carries the partial negative charge (δ−) and the less electronegative atom carries the partial positive charge (δ+)."
-      ]
+      ],
+      "tip": "Exams ask you to use electronegativity values to predict the type of bond in given compounds, and to identify the δ− atom. Show the subtraction, then state the bond type. For example, KBr: 2.96 − 0.82 = 2.14, which is ionic."
     },
     {
       "h": "Ionic compounds",
+      "b": "Ionic compounds are made of oppositely charged ions packed in a lattice (a regular, repeating three-dimensional arrangement). Their properties follow from the strong attraction between those ions and from whether the ions can move.",
       "points": [
-        "Ionic compounds are solids at room temperature, e.g. sodium chloride and magnesium oxide.",
+        "Ionic compounds are solids at room temperature, for example sodium chloride and magnesium oxide.",
         "Sodium chloride melts at 801 °C and boils at 1413 °C.",
-        "The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions between oppositely charged ions throughout the lattice.",
-        "Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions.",
+        "The melting and boiling points are high because a lot of energy is needed to overcome the strong electrostatic attractions (attractions between opposite charges) between oppositely charged ions throughout the lattice.",
+        "Solid ionic compounds do not conduct electricity, because the ions are held in fixed positions and cannot carry charge.",
         "Molten ionic compounds, and ionic compounds dissolved in water, conduct electricity, because the ions are free to move and carry charge.",
-        "Many ionic compounds are soluble in water, because polar water molecules attract and surround the ions.",
-        "Ionic compounds are insoluble in non-polar solvents such as cyclohexane."
-      ]
+        "Many ionic compounds are soluble in water, because polar water molecules (molecules with a slightly positive end and a slightly negative end) attract and surround the ions.",
+        "Ionic compounds are insoluble in non-polar solvents such as cyclohexane, because non-polar molecules have no charged ends to attract the ions."
+      ],
+      "tip": "Exams ask you to give and explain two properties of ionic compounds, and to explain why sodium chloride has a high melting point and conducts only when molten or in solution. Never say “ionic compounds conduct” without the condition: solid ionic compounds do not conduct."
     },
     {
-      "h": "Covalent (molecular) compounds",
+      "h": "Covalent (molecular) compounds: state and melting points",
+      "b": "Covalent compounds are made of separate molecules. Because of this, melting or boiling them only has to separate one molecule from the next, which takes far less energy than melting an ionic lattice.",
       "points": [
-        "Many covalent compounds are gases or liquids at room temperature, e.g. methane, carbon dioxide and water.",
-        "Some covalent compounds are solids with low melting points, e.g. iodine and sugar.",
-        "Iodine sublimes on gentle heating and melts at 114 °C.",
+        "Many covalent compounds are gases or liquids at room temperature, for example methane, carbon dioxide and water.",
+        "Some covalent compounds are solids with low melting points, for example iodine and sugar.",
+        "Iodine sublimes (turns straight from solid to gas) on gentle heating and melts at 114 °C.",
         "Covalent compounds have low melting and boiling points, because only the weak forces between molecules have to be overcome.",
-        "The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C.",
+        "The covalent bonds inside the molecules do not break when a covalent substance melts or boils: methane boils at −162 °C."
+      ],
+      "tip": "When a molecular substance melts or boils, the covalent bonds do not break; only the forces between molecules are overcome. Exams ask you to explain why a covalent compound such as methane has a low boiling point."
+    },
+    {
+      "h": "Covalent (molecular) compounds: conductivity and solubility",
+      "b": "Whether a covalent compound conducts or dissolves depends on whether it has charged particles and on whether its molecules are polar (have a slightly positive end and a slightly negative end).",
+      "points": [
         "Covalent compounds do not conduct electricity, because there are no ions or free electrons to carry charge.",
         "Some covalent compounds, such as hydrogen chloride, form ions when they dissolve in water and then conduct.",
         "Non-polar molecules such as methane and iodine are insoluble or only slightly soluble in water, but dissolve in non-polar solvents.",
-        "Polar molecules such as ethanol, sugar and ammonia dissolve in water; see “Intermolecular forces and physical properties”.",
+        "Polar molecules such as ethanol, sugar and ammonia dissolve in water, because they can form hydrogen bonds with it. There is more on this in “Intermolecular forces and physical properties”.",
         "“Like dissolves like” sums up covalent solubility: polar molecules dissolve in water and non-polar molecules dissolve in non-polar solvents."
       ]
     },
     {
       "h": "Comparing ionic and covalent compounds",
+      "b": "Putting the two types side by side shows that every difference comes back to the same cause: ionic compounds have strong attractions between ions, while covalent compounds have weak forces between molecules.",
       "points": [
         "Melting and boiling points: ionic compounds are high; covalent compounds are low.",
         "Electrical conductivity: ionic compounds conduct when molten or dissolved; covalent compounds generally do not conduct.",
         "Solubility: ionic compounds are usually soluble in water; covalent compounds are usually soluble in non-polar solvents.",
         "State at room temperature: ionic compounds are solids; covalent compounds are often gases or liquids.",
+        "Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken. There is more on this in “Allotropes of Carbon. Hydrocarbons”."
+      ],
+      "tip": "Exams ask you to compare the electrical conductivity and boiling points of ionic and covalent compounds, explaining each difference. Give the difference and its reason: ions free to move or not, strong ionic attractions or weak forces between molecules."
+    },
+    {
+      "h": "Testing whether a substance contains ions",
+      "b": "A simple conductivity test shows whether a substance contains ions that are free to move. Ionic compounds pass the test when molten or dissolved.",
+      "points": [
         "Step 1: Melt the substance, or dissolve it in water.",
-        "Step 2: Dip two carbon electrodes into it, connected to a battery and a bulb (or an ammeter).",
+        "Step 2: Dip two carbon electrodes (the rods that carry current into the liquid) into it, connected to a battery and a bulb (or an ammeter, which measures current).",
         "Step 3: A lit bulb, or a current on the ammeter, shows that ions are present and free to carry charge.",
-        "Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker.",
-        "Exception: giant covalent substances such as diamond and graphite have very high melting points, because strong covalent bonds must be broken; see the chapter “Allotropes of Carbon. Hydrocarbons”."
+        "Diagram: a conductivity circuit with a battery, a bulb and two carbon electrodes dipping into a beaker of solution; label the battery, bulb, electrodes and beaker."
       ]
     },
     {
       "h": "Intramolecular bonding and intermolecular forces",
+      "b": "Two different kinds of attraction operate in a molecular substance: bonds inside each molecule and forces between molecules. Keeping them apart explains why melting and boiling are easy compared with breaking a molecule.",
       "points": [
         "Intramolecular bonding is the strong covalent bonding within a molecule, holding its atoms together.",
         "Intermolecular forces are the weaker forces of attraction between separate molecules.",
         "Intermolecular forces are much weaker than covalent bonds: boiling water overcomes the forces between H₂O molecules but does not break the O–H bonds.",
         "Van der Waals forces are the collective name for the intermolecular forces: London dispersion forces and permanent dipole–dipole forces (including hydrogen bonding).",
         "Diagram: two water molecules, with the O–H covalent bonds labelled “intramolecular” and the attraction between an H of one molecule and the O of the other labelled “intermolecular (hydrogen bond)”."
-      ]
+      ],
+      "tip": "Exams ask you to distinguish intramolecular bonding from intermolecular forces. Say that intramolecular bonds are the strong bonds within a molecule and intermolecular forces are the weaker attractions between molecules. Write “van der Waals forces”, not “van der Waal's”."
     },
     {
       "h": "London dispersion forces",
+      "b": "Even a molecule with no permanent charged ends still attracts its neighbours weakly. London dispersion forces are the intermolecular force that every molecule has.",
       "points": [
-        "London dispersion forces act between all molecules, and are the only intermolecular forces between non-polar molecules, e.g. H₂, Cl₂, CH₄ and noble gas atoms.",
-        "They arise because electrons are always moving: at any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole.",
-        "The temporary dipole induces a dipole in a neighbouring molecule, and the two attract.",
-        "London dispersion forces are the weakest intermolecular forces for small molecules, but they get stronger as molecules get larger and have more electrons."
-      ]
+        "London dispersion forces act between all molecules, and are the only intermolecular forces between non-polar molecules, for example H₂, Cl₂, CH₄ and noble gas atoms.",
+        "They arise because electrons are always moving: at any instant the electron cloud may be unevenly spread, giving a temporary (instantaneous) dipole (one side slightly negative, the other slightly positive).",
+        "The temporary dipole induces a dipole in a neighbouring molecule (pushes its electrons to one side), and the two attract.",
+        "London dispersion forces are the weakest intermolecular forces for small molecules, but they get stronger as molecules get larger and have more electrons, because a bigger electron cloud is easier to distort."
+      ],
+      "tip": "Exams ask how London dispersion forces arise. Explain the moving electrons, the temporary dipole, the induced dipole in the neighbour and the attraction between them."
     },
     {
       "h": "Permanent dipole–dipole forces",
+      "b": "Polar molecules have charged ends all the time, not just for an instant. This gives them an extra attraction on top of London dispersion forces.",
       "points": [
-        "A polar molecule has a permanent dipole: a δ+ end and a δ− end; see “Electronegativity and bond type”.",
-        "Dipole–dipole forces are attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring one, e.g. between HCl molecules (Hδ+–Clδ−).",
-        "Dipole–dipole forces are stronger than London dispersion forces between molecules of similar size."
-      ]
+        "A polar molecule has a permanent dipole: a δ+ end and a δ− end, which arises from polar bonds. There is more on this in “Electronegativity and bond type”.",
+        "Dipole–dipole forces are attractions between the δ+ end of one polar molecule and the δ− end of a neighbouring one, for example between HCl molecules (Hδ+–Clδ−).",
+        "Dipole–dipole forces are stronger than London dispersion forces between molecules of similar size, because the charged ends are permanent."
+      ],
+      "tip": "Dipole moments are not required, so don't define or calculate them."
     },
     {
       "h": "Hydrogen bonding",
+      "b": "Hydrogen bonding is the strongest of the intermolecular forces. It needs a hydrogen atom attached to one of three very electronegative atoms, F, O or N.",
       "points": [
         "A hydrogen bond is a particularly strong dipole–dipole attraction between a hydrogen atom bonded to a small, very electronegative atom (F, O or N) in one molecule and a lone pair on an F, O or N atom of a neighbouring molecule.",
+        "A lone pair is a pair of outer electrons on an atom that is not used in bonding, so it can attract the δ+ hydrogen of a neighbouring molecule.",
         "It is strong because the H–F, O–H and N–H bonds are very polar, leaving the small hydrogen atom strongly δ+.",
         "A hydrogen bond is between molecules, not a covalent bond to hydrogen.",
         "Hydrogen bonding needs H bonded directly to N, O or F: there is no hydrogen bonding between CH₄ molecules or in HCl.",
         "Examples: water (H₂O), ammonia (NH₃), hydrogen fluoride (HF), alcohols such as ethanol, and carboxylic acids.",
         "Hydrogen bonds are the strongest intermolecular forces.",
         "Diagram: water molecules with δ+ and δ− labelled, and hydrogen bonds drawn as dashed lines from H to the lone pair on O of the next molecule."
-      ]
+      ],
+      "tip": "Exams ask you to explain hydrogen bonding with water as an example, and to explain why it occurs between water molecules but not between methane molecules. Say that H must be bonded directly to N, O or F. Exams also ask you to name the strongest intermolecular force in a named substance."
     },
     {
       "h": "Ion–dipole forces (Higher Level only)",
+      "b": "When an ionic compound dissolves in water, the ions are pulled out of the lattice by the polar water molecules. The attraction between a full charge and a partial charge is called an ion–dipole force.",
       "points": [
         "An ion–dipole force is the attraction between an ion and the oppositely charged end of a polar molecule.",
         "When sodium chloride dissolves in water, the δ− oxygen ends of water molecules are attracted to Na⁺ ions and the δ+ hydrogen ends to Cl⁻ ions.",
         "The ions become surrounded by water molecules (hydrated).",
         "Ion–dipole forces are stronger than dipole–dipole forces; they explain why ionic compounds dissolve in polar solvents such as water.",
         "Diagram: a Na⁺ ion surrounded by water molecules with their O atoms pointing towards it, and a Cl⁻ ion surrounded by water molecules with their H atoms pointing towards it."
-      ]
+      ],
+      "tip": "Higher Level questions ask you to explain, in terms of ion–dipole forces, how sodium chloride dissolves in water. Give the definition, which end of water faces each ion, and that ion–dipole forces are stronger than dipole–dipole forces."
     },
     {
       "h": "Order of strength",
+      "b": "Putting the forces in order lets you predict which substance holds its molecules together most strongly, for molecules of similar size.",
       "points": [
         "For molecules of similar size, London dispersion forces are weaker than dipole–dipole forces, which are weaker than hydrogen bonds.",
-        "All intermolecular forces are much weaker than covalent and ionic bonds."
+        "All intermolecular forces are much weaker than covalent and ionic bonds, which is why melting or boiling a molecular substance leaves its molecules intact."
       ]
     }
   ],

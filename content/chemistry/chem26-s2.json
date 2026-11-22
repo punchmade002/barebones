@@ -6,81 +6,93 @@
   "notes": [
     {
       "h": "Definitions of yield",
+      "b": "When a chemist makes a substance, the amount collected is almost never the amount the equation predicts. Three linked terms describe the amount made, the amount that was possible, and how the two compare.",
       "points": [
-        "Yield: the amount of a product obtained from a reaction.",
-        "Theoretical yield: the maximum amount of product that could be formed from the given amounts of reactants, calculated from the balanced equation, assuming the reaction goes to completion and all of the limiting reactant becomes the desired product.",
-        "Actual yield: the amount of product actually obtained, measured in practice, in the laboratory or in industry.",
-        "Percentage yield = (actual yield ÷ theoretical yield) × 100; it measures how efficiently reactants are converted into the desired product.",
-        "The actual and theoretical yields must be in the same units: both grams, both moles, or both gas volumes at the same temperature and pressure."
-      ]
+        "Yield is the amount of a product obtained from a reaction.",
+        "Theoretical yield is the maximum amount of product that could be formed from the given amounts of reactants. It is calculated from the balanced equation, assuming the reaction goes to completion and all of the limiting reactant (the reactant that runs out first) becomes the desired product.",
+        "Actual yield is the amount of product actually obtained, measured in practice, in the laboratory or in industry. It is what you weigh or measure at the end, not what the equation predicts.",
+        "Percentage yield = (actual yield ÷ theoretical yield) × 100. It measures how efficiently reactants are converted into the desired product, so 100% would be perfect conversion.",
+        "The actual and theoretical yields must be in the same units: both grams, both moles, or both gas volumes at the same temperature and pressure. Gas volumes change with temperature and pressure, so a comparison is only fair under the same conditions."
+      ],
+      "tip": "Percentage yield is actual divided by theoretical, not the other way round. Never compare grams with moles: convert so both are in the same units. Exams ask you to define theoretical yield, actual yield and percentage yield."
     },
     {
       "h": "Method for theoretical and percentage yield (skills)",
+      "b": "Every yield question follows the same four steps. The theoretical yield comes from the equation and the amount of starting material; only the last step brings in what was actually collected.",
       "points": [
-        "Step 1: Write the balanced equation.",
-        "Step 2: Find the moles of the reactant that decides the amount of product, the one not in excess.",
-        "Step 3: Use the mole ratio to find the moles of product, then convert to grams or a gas volume: this is the theoretical yield.",
+        "Step 1: Write the balanced equation, because the coefficients (the numbers in front of each formula) give the mole ratio between reactant and product.",
+        "Step 2: Find the moles of the reactant that decides the amount of product, the one not in excess (excess means more than enough, so some is left over). Moles = mass ÷ molar mass.",
+        "Step 3: Use the mole ratio to find the moles of product, then convert to grams (or a gas volume). This is the theoretical yield.",
         "Step 4: Percentage yield = actual ÷ theoretical × 100."
-      ]
+      ],
+      "tip": "The theoretical yield is worked out from the reactant that is not in excess. Working out which reactant that is, when the question doesn't say, is Higher Level (Limiting reagents)."
     },
     {
       "h": "Worked example: preparing ethene (sample data)",
+      "b": "Ethene is made by dehydrating ethanol (removing the elements of water from it). This example follows the four steps for a reaction with a 1 : 1 ratio and shows the yield worked out from a mass and then from a gas volume.",
       "points": [
-        "Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected.",
-        "Equation: C₂H₅OH → C₂H₄ + H₂O; the preparation is in “Investigation: preparing ethene”.",
-        "Moles of ethanol = 4.60 ÷ 46 = 0.100 mol; the ratio is 1 : 1, so the theoretical yield is 0.100 mol of ethene.",
-        "Theoretical mass of ethene = 0.100 × 28 = 2.80 g.",
+        "Question: 4.60 g of ethanol was dehydrated to ethene and 1.96 g of ethene was collected. The equation is C₂H₅OH → C₂H₄ + H₂O. The preparation is in “Investigation: preparing ethene”.",
+        "Moles of ethanol = 4.60 ÷ 46 = 0.100 mol (M of C₂H₅OH is 46 g mol⁻¹). The ratio is 1 : 1, so the theoretical yield is 0.100 mol of ethene.",
+        "Theoretical mass of ethene = 0.100 × 28 = 2.80 g (M of C₂H₄ is 28 g mol⁻¹).",
         "Percentage yield = (1.96 ÷ 2.80) × 100 = 70.0%.",
-        "A gas yield can also be compared by volume: 0.100 mol of ethene is 2.24 L at STP.",
+        "A gas yield can also be compared by volume. One mole of gas occupies 22.4 L at STP (standard temperature and pressure), so 0.100 mol of ethene is 2.24 L at STP.",
         "If 1.50 L of ethene (at STP) were collected, the percentage yield would be (1.50 ÷ 2.24) × 100 = 67.0%."
-      ]
+      ],
+      "tip": "Exams ask you to calculate the percentage yield of an organic preparation, such as ethene, from given masses or volumes. Keep to one kind of unit: masses with masses, volumes with volumes."
     },
     {
       "h": "Worked example: preparing an ester (sample data)",
+      "b": "An ester is made by refluxing (boiling with a condenser so vapour returns to the flask) a carboxylic acid with an alcohol and an acid catalyst (a substance that speeds up the reaction without being used up). Here the ethanol is in excess, so the ethanoic acid decides the theoretical yield.",
       "points": [
-        "Question: 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst, and 5.72 g of pure ethyl ethanoate was obtained.",
-        "Equation: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
-        "Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol, so the theoretical yield is 0.100 mol of ethyl ethanoate.",
-        "Theoretical mass = 0.100 × 88 = 8.80 g.",
+        "Question: 6.00 g of ethanoic acid was refluxed with excess ethanol and an acid catalyst, and 5.72 g of pure ethyl ethanoate was obtained. The equation is CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O.",
+        "Moles of ethanoic acid = 6.00 ÷ 60 = 0.100 mol, so the theoretical yield is 0.100 mol of ethyl ethanoate (the ratio is 1 : 1).",
+        "Theoretical mass = 0.100 × 88 = 8.80 g (M of CH₃COOC₂H₅ is 88 g mol⁻¹).",
         "Percentage yield = (5.72 ÷ 8.80) × 100 = 65.0%.",
-        "The yield is well below 100% mainly because esterification is reversible and reaches equilibrium; the preparation is in “Investigation: preparing an ester”."
-      ]
+        "The yield is well below 100% mainly because esterification (making an ester) is reversible and reaches equilibrium, a balance in which reactants and products are both present. The preparation is in “Tests, reaction schemes and preparing an ester”."
+      ],
+      "tip": "Exams ask you to calculate the percentage yield of an organic preparation, and an ester is one of the examples. Base the theoretical yield on the reactant that is not in excess."
     },
     {
       "h": "Worked example: making aspirin (sample data)",
+      "b": "Aspirin is made from salicylic acid in a 1 : 1 ratio, so this is another single-step yield calculation. Here the product was dried and purified before weighing.",
       "points": [
-        "Aspirin (C₉H₈O₄, M = 180) is made from salicylic acid (C₇H₆O₃, M = 138); one mole of salicylic acid gives one mole of aspirin.",
+        "Aspirin (C₉H₈O₄, M = 180) is made from salicylic acid (C₇H₆O₃, M = 138). One mole of salicylic acid gives one mole of aspirin.",
         "Moles of salicylic acid = 2.76 ÷ 138 = 0.0200 mol, so the theoretical yield is 0.0200 mol of aspirin.",
         "Theoretical mass of aspirin = 0.0200 × 180 = 3.60 g.",
-        "2.52 g of dry, recrystallised aspirin was obtained, so the percentage yield = (2.52 ÷ 3.60) × 100 = 70.0%."
+        "2.52 g of dry, recrystallised aspirin was obtained (recrystallised means purified by dissolving and letting crystals form again). The percentage yield = (2.52 ÷ 3.60) × 100 = 70.0%."
       ]
     },
     {
       "h": "Working back from a yield (sample data)",
+      "b": "Sometimes the percentage yield is given and you must find how much reactant to start with, or how much product will actually be collected. The calculation runs in the opposite direction, so the theoretical yield must be found first.",
       "points": [
         "Question: what mass of ethanoic acid is needed to make 5.00 g of ethyl ethanoate if the yield is 65.0%?",
-        "Theoretical yield needed = 5.00 ÷ 0.650 = 7.69 g of ethyl ethanoate.",
+        "Because only 65.0% of the possible product is obtained, the theoretical yield needed is larger: 5.00 ÷ 0.650 = 7.69 g of ethyl ethanoate.",
         "Moles of ethyl ethanoate = 7.692 ÷ 88 = 0.08741 mol, which equals the moles of ethanoic acid needed, since the ratio is 1 : 1.",
         "Mass of ethanoic acid = 0.08741 × 60 = 5.24 g.",
-        "Actual yield = theoretical yield × (percentage ÷ 100); for example, 15.0% of a theoretical 0.960 L of gas is 0.144 L, which is 144 cm³."
-      ]
+        "To go from a percentage yield to an actual yield, use actual yield = theoretical yield × (percentage ÷ 100). For example, 15.0% of a theoretical 0.960 L of gas is 0.144 L, which is 144 cm³."
+      ],
+      "tip": "Exams ask you to calculate the actual mass or volume of product from a given percentage yield. Check that your answer is in the unit the question asks for, for example cm³ rather than L."
     },
     {
       "h": "Why the actual yield is less than the theoretical yield",
+      "b": "In practice the actual yield is almost always below the theoretical yield. There are several separate causes, some chemical and some to do with handling the product.",
       "points": [
-        "The reaction may not go to completion: many organic reactions are slow or reversible and reach equilibrium, e.g. esterification, so some reactant is left unconverted.",
-        "Side reactions form other, unwanted products from the same reactants; for example, some ethanol forms other products instead of ethene.",
-        "Product is lost during transfer, filtration, separation and purification; for example, some product stays dissolved in the solvent after recrystallisation, or sticks to glassware and filter paper.",
-        "The reactants may be impure, or a volatile product or reactant may evaporate.",
-        "A percentage yield above 100% means the product is impure or not fully dry, for example still containing water or solvent; the true yield can never exceed 100%."
-      ]
+        "The reaction may not go to completion. Many organic reactions are slow or reversible and reach equilibrium, for example esterification, so some reactant is left unconverted.",
+        "Side reactions form other, unwanted products from the same reactants. For example, some ethanol forms other products instead of ethene, so less ethene is made.",
+        "Product is lost during transfer, filtration, separation and purification. For example, some product stays dissolved in the solvent after recrystallisation, or sticks to glassware and filter paper.",
+        "The reactants may be impure, so less of the real reactant is present than the mass suggests. A volatile product or reactant (one that evaporates easily) may also be lost as vapour.",
+        "A percentage yield above 100% means the product is impure or not fully dry, for example still containing water or solvent. The true yield can never exceed 100%."
+      ],
+      "tip": "Exams ask you to give reasons why the actual yield is less than the theoretical yield, so learn several with an example each. A yield over 100% is a sign of an impure or wet product, not a better reaction."
     },
     {
       "h": "Why yield matters",
+      "b": "Yield is not just a number in an exam question. It decides how much a process costs and how much waste it creates, and in multi-step syntheses (making a compound through a series of reactions) the losses add up.",
       "points": [
-        "In industry, a higher percentage yield means less raw material, energy and cost per kilogram of product, and less waste to treat or dispose of; this links yield to sustainability.",
-        "Pharmaceuticals are made in many steps from simpler precursors, so a low yield at each step makes the overall yield very small (see “Organic compounds in pharmaceuticals”).",
-        "Overall yield of a multi-step synthesis = the product of the fractional yields of the steps; for example, two steps of 80% and 75% give 0.80 × 0.75 = 0.60, an overall yield of 60%."
+        "In industry, a higher percentage yield means less raw material, energy and cost per kilogram of product, and less waste to treat or dispose of. This links yield to sustainability (making products while using fewer resources and creating less waste).",
+        "Pharmaceuticals (medicines) are made in many steps from simpler precursors (the starting compounds), so a low yield at each step makes the overall yield very small. There is more on this in “Organic products and pharmaceuticals”.",
+        "Overall yield of a multi-step synthesis = the product of the fractional yields of the steps, because each step only has what the one before delivered. For example, two steps of 80% and 75% give 0.80 × 0.75 = 0.60, an overall yield of 60%."
       ]
     }
   ],

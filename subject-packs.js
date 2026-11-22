@@ -25,7 +25,7 @@
     chemistry: [
       "./chemistry-content.js?v=5",
       "./chemistry-test-questions.js?v=4",
-      "./chemistry-notes.js?v=3",
+      "./chemistry-notes.js?v=4",
     ],
     history: [
       "./history-test-questions.js?v=3",

@@ -5,175 +5,218 @@
   "syllabusRef": "4.3.1, 4.3.2",
   "notes": [
     {
-      "h": "The carbon cycle",
-      "b": "Carbon moves continuously between stores. The balance between sources and sinks decides how much CO₂ is in the air.",
+      "h": "The carbon cycle: stores and processes",
+      "b": "Carbon is never used up. It moves continuously between stores (places where it is held) through natural processes, and the balance between those processes decides how much CO₂ is in the air.",
       "points": [
         "Carbon is stored in the atmosphere (mainly as CO₂), in the oceans (dissolved CO₂, hydrogencarbonate and carbonate ions), in living things (carbohydrates, proteins and fats), in soils and peat, and in rocks (limestone and fossil fuels).",
-        "Photosynthesis removes CO₂ from the air: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g), powered by sunlight in green plants, algae and phytoplankton.",
-        "Respiration by plants, animals and microorganisms returns CO₂: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).",
-        "Decay, the breakdown of dead matter by microorganisms, also releases CO₂, and releases CH₄ where oxygen is absent.",
-        "CO₂ dissolves in the oceans and waterways: CO₂(g) ⇌ CO₂(aq), and CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq).",
-        "Marine organisms use carbonate to build calcium carbonate shells and skeletons, which over long periods form limestone.",
-        "Combustion of fuels releases CO₂, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l); natural sources also include forest fires and volcanic eruptions.",
-        "Peat forms from dead organisms buried over thousands of years, and coal, oil and natural gas form over millions of years; both are buried without enough oxygen for full decay, so they are long-term carbon stores.",
+        "Photosynthesis (the process in which plants build sugar from CO₂ and water) removes CO₂ from the air: 6CO₂(g) + 6H₂O(l) → C₆H₁₂O₆(aq) + 6O₂(g). It is powered by sunlight in green plants, algae and phytoplankton (microscopic floating ocean algae).",
+        "Respiration, the process in which living things use glucose and oxygen to release energy, returns CO₂ to the air. It happens in plants, animals and microorganisms: C₆H₁₂O₆(aq) + 6O₂(g) → 6CO₂(g) + 6H₂O(l).",
+        "Decay is the breakdown of dead matter by microorganisms. It also releases CO₂, and it releases CH₄ (methane) instead where oxygen is absent.",
+        "CO₂ dissolves in the oceans and waterways, so the water is also a store: CO₂(g) ⇌ CO₂(aq), and then CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq), where H₂CO₃ is carbonic acid.",
+        "Marine organisms use carbonate to build calcium carbonate shells and skeletons. Over long periods these deposits form limestone, which locks carbon away in rock."
+      ],
+      "tip": "If asked for a natural process that removes CO₂, give photosynthesis or dissolving in the oceans, and write the equation. If asked for processes that add it, give respiration or combustion."
+    },
+    {
+      "h": "The carbon cycle: combustion and fossil fuels",
+      "b": "Carbon also returns to the air by burning, and some carbon is held back for very long periods as fuels. This explains how the carbon in fossil fuels reaches the atmosphere.",
+      "points": [
+        "Combustion (burning) of fuels releases CO₂, for example CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l). Natural sources also include forest fires and volcanic eruptions.",
+        "Peat forms from dead organisms buried over thousands of years, while coal, oil and natural gas form over millions of years. In both cases the material is buried without enough oxygen to decay fully, so they are long-term carbon stores.",
+        "Burning coal, oil, natural gas or peat therefore returns carbon, stored for a very long time, to the atmosphere as CO₂.",
         "Diagram: the carbon cycle with atmospheric CO₂ at the centre and labelled arrows for photosynthesis, respiration, decay, combustion, dissolving in the oceans, formation of shells and limestone, and formation of fossil fuels."
-      ]
+      ],
+      "tip": "Exams ask how the carbon in fossil fuels reaches the atmosphere. Say that it is released as CO₂ when the fuel is burned (combustion)."
     },
     {
       "h": "Sources, sinks and balance",
+      "b": "Each part of the carbon cycle either adds CO₂ to the air or takes it out. When additions and removals match, the CO₂ level stays steady, and human activity has upset that match.",
       "points": [
-        "A carbon source adds more CO₂ to the atmosphere than it removes, e.g. burning fossil fuels, respiration, decay, volcanoes, and heating limestone in cement-making: CaCO₃(s) → CaO(s) + CO₂(g).",
-        "A carbon sink removes more carbon from the atmosphere than it releases, and stores it; examples are growing forests, the oceans, and undisturbed peatlands and wetlands.",
+        "A carbon source adds more CO₂ to the atmosphere than it removes, for example burning fossil fuels, respiration, decay, volcanoes, and heating limestone in cement-making: CaCO₃(s) → CaO(s) + CO₂(g).",
+        "A carbon sink removes more carbon from the atmosphere than it releases, and stores it. Examples are growing forests, the oceans, and undisturbed peatlands and wetlands (peat-forming bogs and marshy land).",
         "Waterlogged conditions in undisturbed peatlands and wetlands stop dead plant material from decaying, so the carbon stays stored.",
-        "Before industrialisation, natural sources and sinks were roughly in balance, so atmospheric CO₂ stayed fairly steady at about 280 ppm.",
-        "Burning fossil fuels moves carbon from long-term stores into the air far faster than sinks can absorb it.",
-        "Deforestation and draining peatlands both remove sinks and release stored carbon.",
+        "Before industrialisation (the growth of factories and large-scale fuel burning), natural sources and sinks were roughly in balance, so atmospheric CO₂ stayed fairly steady at about 280 ppm (parts per million by volume).",
+        "Burning fossil fuels moves carbon from long-term stores into the air far faster than sinks can absorb it. Deforestation (clearing forests) and draining peatlands both remove sinks and release stored carbon.",
         "As a result, atmospheric CO₂ has risen to about 420 ppm in the mid-2020s.",
         "CO₂ is a greenhouse gas, so a carbon cycle out of balance changes the climate. Natural changes in the cycle over thousands of years have caused past climate changes; the present change is human-influenced and much faster.",
-        "Sustainability means using resources so that they are not used up and the environment is not damaged for future generations. For carbon this means keeping emissions in balance with what sinks can absorb, e.g. by using renewable energy and protecting forests and peatlands."
-      ]
+        "Sustainability means using resources so that they are not used up and the environment is not damaged for future generations. For carbon this means keeping emissions in balance with what sinks can absorb, for example by using renewable energy and protecting forests and peatlands."
+      ],
+      "tip": "To explain why atmospheric CO₂ has risen over the last 200 years, say that burning fossil fuels and removing sinks such as forests and peatlands have upset the balance that held CO₂ near 280 ppm before industrialisation."
     },
     {
       "h": "The natural greenhouse effect",
-      "b": "Greenhouse gases in the atmosphere trap some of the heat the Earth radiates, keeping the lower atmosphere warm.",
+      "b": "Greenhouse gases in the atmosphere trap some of the heat the Earth radiates, keeping the lower atmosphere warm. The effect depends on the difference between the radiation arriving from the Sun and the radiation leaving the Earth.",
       "points": [
-        "Energy from the Sun reaches the Earth mainly as visible light, with some ultraviolet and near-infrared; the atmosphere is largely transparent to visible light, so it passes through.",
-        "About 30% of incoming solar radiation is reflected back to space by clouds, ice and the surface; the rest is absorbed and warms the land and oceans.",
-        "The warmed Earth radiates energy back out as longer-wavelength infrared (IR) radiation, which is heat.",
+        "Energy from the Sun reaches the Earth mainly as visible light (shorter wavelength), with some ultraviolet and near-infrared. The atmosphere is largely transparent to visible light, so it passes through.",
+        "About 30% of incoming solar radiation is reflected back to space by clouds, ice and the surface. The rest is absorbed and warms the land and oceans.",
+        "The warmed Earth radiates energy back out as longer-wavelength infrared (IR) radiation, which is heat. Remember that incoming radiation is mainly visible light and outgoing radiation is infrared.",
         "Greenhouse gases absorb some of this IR and re-emit it in all directions, including back down towards the surface, so heat is kept in the lower atmosphere for longer.",
-        "Warming of the Earth's surface and lower atmosphere by naturally occurring greenhouse gases is the natural greenhouse effect.",
+        "This warming of the Earth's surface and lower atmosphere by naturally occurring greenhouse gases is the natural greenhouse effect.",
         "The main natural greenhouse gases are water vapour, the largest contributor, and carbon dioxide, with smaller amounts of methane and dinitrogen oxide (N₂O); ozone also contributes.",
-        "The name is an analogy with a glass greenhouse, which lets sunlight in and keeps heat in; the analogy is not exact, because a real greenhouse works mainly by stopping warm air escaping.",
+        "The name is an analogy with a glass greenhouse, which lets sunlight in and keeps heat in. The analogy is not exact, because a real greenhouse works mainly by stopping warm air escaping.",
         "Diagram: the Sun, incoming short-wavelength radiation passing through the atmosphere, some reflected, IR emitted from the surface, some absorbed by a layer of greenhouse gases and re-emitted back down, and some escaping to space."
-      ]
+      ],
+      "tip": "Don't reverse the radiation: incoming is mainly visible light, outgoing is infrared. Say the gases re-emit IR in all directions, not that they reflect heat back. The greenhouse effect is not the ozone hole, and the ozone layer is not on the specification."
     },
     {
       "h": "Why some gases absorb infrared",
+      "b": "Not every gas in the air is a greenhouse gas. Whether a gas traps heat depends on the structure of its molecules.",
       "points": [
-        "Nitrogen (N₂, about 78% of dry air), oxygen (O₂, about 21%) and argon (about 0.9%) do not absorb IR radiation, so they are not greenhouse gases.",
+        "Nitrogen (N₂, about 78% of dry air), oxygen (O₂, about 21%) and argon (about 0.9%) do not absorb IR radiation, so they are not greenhouse gases even though they make up about 99% of dry air.",
         "A molecule absorbs IR when the energy makes its bonds vibrate (stretch or bend) in a way that changes how charge is spread across the molecule.",
-        "Molecules of two identical atoms (N₂, O₂) cannot do this, while H₂O, CO₂, CH₄ and N₂O, with three or more atoms and polar bonds, can.",
+        "Molecules of two identical atoms (N₂, O₂) cannot do this, while H₂O, CO₂, CH₄ and N₂O, with three or more atoms and polar bonds (bonds where the electrons are shared unequally), can.",
         "Water vapour contributes most to the natural greenhouse effect because it is by far the most abundant greenhouse gas.",
-        "The concentration of water vapour is set by temperature, through evaporation and condensation, not directly by human emissions."
-      ]
+        "The concentration of water vapour is set by temperature, through evaporation (liquid water turning to vapour) and condensation (vapour turning back to liquid), not directly by human emissions."
+      ],
+      "tip": "If asked to name a greenhouse gas and a gas that is not one, give for example CO₂ and N₂. To explain why N₂ and O₂ don't absorb IR, say their molecules have two identical atoms and so their vibration can't change the charge distribution. For CO₂ against water vapour, give water vapour's far greater abundance."
     },
     {
-      "h": "Significance",
+      "h": "Significance of the natural greenhouse effect",
+      "b": "The natural greenhouse effect is what makes the Earth habitable. The scientific idea behind it was worked out by experiment in the nineteenth century.",
       "points": [
         "Without the natural greenhouse effect, the Earth's average surface temperature would be about −18 °C instead of about +15 °C, a difference of about 33 °C.",
         "At −18 °C the oceans would freeze and life as we know it could not exist.",
         "The natural greenhouse effect keeps water liquid over most of the planet and evens out the difference between day and night temperatures.",
-        "The natural effect is essential and beneficial; the problem is the extra warming caused by increased greenhouse gas concentrations (see “The enhanced greenhouse effect”).",
-        "John Tyndall (1820–1893), born in Leighlinbridge, Co. Carlow, used experiments from 1859 at the Royal Institution in London to show which gases absorb heat radiation.",
-        "Tyndall's experiments laid the experimental foundation for understanding the greenhouse effect; the Tyndall National Institute in Cork is named after him."
-      ]
+        "The natural effect is essential and beneficial. The problem is the extra warming caused by increased greenhouse gas concentrations.",
+        "John Tyndall (1820–1893), born in Leighlinbridge, Co. Carlow, used experiments from 1859 at the Royal Institution in London to show which gases absorb heat radiation: water vapour and carbon dioxide do, while nitrogen and oxygen do not.",
+        "Tyndall's experiments laid the experimental foundation for understanding the greenhouse effect. The Tyndall National Institute in Cork is named after him."
+      ],
+      "tip": "To say why the greenhouse effect is essential for life, give the −18 °C against +15 °C figures and say that the oceans would freeze. Don't say Tyndall discovered or first described the greenhouse effect; say his experiments showed which gases absorb heat radiation."
     },
     {
       "h": "The enhanced greenhouse effect",
+      "b": "The natural greenhouse effect is beneficial, but human activity has added greenhouse gases to the air. The extra warming this causes is the enhanced greenhouse effect.",
       "points": [
         "The enhanced greenhouse effect is the extra warming of the Earth's surface and lower atmosphere caused by increased concentrations of greenhouse gases from human (anthropogenic) activities.",
-        "The main human activities are burning fossil fuels (for power generation, transport, heating and industry), deforestation and land-use change, agriculture (livestock and fertilisers), cement-making and landfill.",
-        "The resulting long-term rise in the Earth's average surface temperature is global warming; together with the other changes it causes, it is called climate change."
-      ]
+        "The main human activities are burning fossil fuels (for power generation, transport, heating and industry), deforestation and land-use change, agriculture (livestock and fertilisers), cement-making and landfill (waste buried in the ground).",
+        "The resulting long-term rise in the Earth's average surface temperature is global warming. Together with the other changes it causes, it is called climate change."
+      ],
+      "tip": "Exams ask you to name two human activities that have enhanced the greenhouse effect, or a greenhouse gas and an activity that has raised its level. Pair each gas with its activity, such as CO₂ with burning fossil fuels."
     },
     {
       "h": "Global warming potential",
-      "b": "Gases differ in how much they warm the Earth for the same mass emitted, so their greenhouse factors are compared as global warming potentials.",
+      "b": "Gases differ in how much they warm the Earth for the same mass emitted. To compare them, scientists use a number called the global warming potential.",
       "points": [
         "Gases differ in their greenhouse effect because they differ in how strongly each molecule absorbs infrared radiation, how abundant they are in the atmosphere, and how long they stay there (atmospheric lifetime).",
-        "The greenhouse factor of a gas is its global warming potential (GWP): the warming caused by emitting 1 kg (or 1 tonne) of the gas over a set period, usually 100 years, compared with the warming from the same mass of CO₂.",
-        "The GWP of CO₂ is 1 by definition.",
-        "100-year GWPs from the IPCC Fifth Assessment Report (AR5, 2013) are: CO₂ 1; methane (CH₄) 28; dinitrogen oxide (N₂O) 265.",
-        "The IPCC Sixth Assessment Report (AR6, 2021) gives slightly different values because the science is refined over time: CH₄ about 27–30, depending on whether the methane is of fossil origin.",
-        "The IPCC AR6 value for N₂O is 273; always state which report a GWP comes from.",
-        "A high GWP does not make a gas the most important: CO₂ has the lowest GWP of these gases, yet it causes most of the human-caused warming because far more of it is emitted and it stays in the atmosphere for centuries.",
+        "The greenhouse factor of a gas is its global warming potential (GWP): the warming caused by emitting 1 kg (or 1 tonne) of the gas over a set period, usually 100 years, compared with the warming from the same mass of CO₂. The GWP of CO₂ is 1 by definition.",
+        "100-year GWPs from the IPCC (the Intergovernmental Panel on Climate Change) Fifth Assessment Report (AR5, 2013) are: CO₂ 1; methane (CH₄) 28; dinitrogen oxide (N₂O) 265.",
+        "The IPCC Sixth Assessment Report (AR6, 2021) gives slightly different values because the science is refined over time: CH₄ about 27–30, depending on whether the methane is of fossil origin. The AR6 value for N₂O is 273.",
+        "Always state which report a GWP comes from, because the values differ between reports.",
+        "A high GWP does not make a gas the most important. CO₂ has the lowest GWP of these gases, yet it causes most of the human-caused warming because far more of it is emitted and it stays in the atmosphere for centuries.",
         "Emissions of different gases are compared as CO₂ equivalent, found by multiplying the mass of the gas by its GWP.",
         "Example: 5 tonnes of methane = 5 × 28 = 140 tonnes CO₂ equivalent (AR5 values)."
-      ]
+      ],
+      "tip": "If asked why different gases have different impacts, give two of the three reasons: how strongly a molecule absorbs IR, its abundance, and its atmospheric lifetime. GWP is per unit mass compared with CO₂; it is not the total contribution of a gas, so explain why CO₂ causes more warming than methane despite a GWP of 1."
     },
     {
-      "h": "The gases: sources and abundances",
+      "h": "The gases: carbon dioxide and methane",
+      "b": "Each greenhouse gas has its own sources and abundance. Abundance is given in ppm, parts per million of the air by volume, and compared with the pre-industrial level.",
       "points": [
         "Carbon dioxide comes from burning fossil fuels, deforestation and cement-making (CaCO₃ → CaO + CO₂).",
         "CO₂ is about 420 ppm in the mid-2020s, up from about 280 ppm before industrialisation, an increase of about 50%.",
-        "Much of the extra CO₂ stays in the atmosphere for centuries, and some for thousands of years.",
+        "Much of the extra CO₂ stays in the atmosphere for centuries, and some for thousands of years, which is why its effect builds up.",
         "Methane comes from ruminant livestock (cattle and sheep, which digest food in the stomach), manure, rice paddies, landfill sites, leaks from natural-gas wells and pipelines, and natural wetlands.",
-        "Methane is about 1.9 ppm, more than two and a half times the pre-industrial level of about 0.7 ppm, and its atmospheric lifetime is about 12 years.",
-        "Dinitrogen oxide (nitrous oxide, N₂O) comes mainly from nitrogen fertilisers and manure on soils; it is about 0.34 ppm, up from about 0.27 ppm.",
-        "N₂O stays in the atmosphere for over 100 years (AR5: about 121 years).",
+        "Methane is about 1.9 ppm, more than two and a half times the pre-industrial level of about 0.7 ppm, and its atmospheric lifetime is about 12 years."
+      ],
+      "tip": "Exams ask for the environmental effect of methane and for its sources apart from leaking gas pipes. Choose from livestock, manure, rice paddies, landfill sites and natural wetlands."
+    },
+    {
+      "h": "The gases: dinitrogen oxide and Ireland's emissions",
+      "b": "Dinitrogen oxide is a long-lived greenhouse gas tied to farming. Ireland's emissions show how these gases link to everyday activities.",
+      "points": [
+        "Dinitrogen oxide (nitrous oxide, N₂O) comes mainly from nitrogen fertilisers and manure on soils. It is about 0.34 ppm, up from about 0.27 ppm.",
+        "N₂O stays in the atmosphere for over 100 years (AR5: about 121 years), which is why it is such a potent, long-lived greenhouse gas.",
         "In Ireland agriculture is the largest single source of greenhouse gas emissions, over a third of the total, mainly methane from cattle and N₂O from fertilisers and manure.",
         "In Ireland energy, transport and heating produce most of the CO₂."
       ]
     },
     {
       "h": "Nitrogen and sulfur oxides",
+      "b": "Oxides of nitrogen and sulfur form when fuels burn. They matter in a different way from the main greenhouse gases: one group acts indirectly and the other actually cools the climate.",
       "points": [
         "NOx (nitrogen monoxide, NO, and nitrogen dioxide, NO₂) form when nitrogen and oxygen from air combine at the high temperatures in car engines and power stations: N₂(g) + O₂(g) → 2NO(g).",
-        "NO then reacts further with oxygen: 2NO(g) + O₂(g) → 2NO₂(g); lightning also forms NOx.",
-        "NOx are short-lived and are not important direct greenhouse gases; they act indirectly, mainly by helping to form ozone, a greenhouse gas, in the lower atmosphere.",
-        "NO₂ also causes acid rain and harms health.",
+        "NO then reacts further with oxygen: 2NO(g) + O₂(g) → 2NO₂(g). Lightning also forms NOx.",
+        "NOx are short-lived and are not important direct greenhouse gases. They act indirectly, mainly by helping to form ozone, a greenhouse gas, in the lower atmosphere.",
+        "NO₂ also causes acid rain (rain made acidic by dissolved pollutant gases) and harms health.",
         "NOx must not be confused with N₂O, the long-lived greenhouse gas from fertilisers.",
         "Sulfur oxides (SO₂ and SO₃) come from burning coal and oil that contain sulfur, S(s) + O₂(g) → SO₂(g), and from volcanoes.",
         "SO₂ forms tiny sulfate particles (aerosols) and droplets in the air that reflect sunlight, so their overall effect on climate is cooling, not warming.",
         "Sulfur oxides also cause acid rain."
-      ]
+      ],
+      "tip": "NOx (NO, NO₂) is not the same as N₂O. Don't call sulfur oxides strong greenhouse gases: their aerosols reflect sunlight and cool the climate overall, and their main harm is acid rain."
     },
     {
       "h": "Water vapour",
+      "b": "Water vapour is the most abundant greenhouse gas, but it behaves differently from the others because temperature, not human emissions, controls how much of it is in the air.",
       "points": [
-        "Water vapour is the most abundant greenhouse gas; its concentration is controlled by temperature, and it stays in the air for only days.",
+        "Water vapour is the most abundant greenhouse gas. Its concentration is controlled by temperature, and it stays in the air for only days.",
         "Because of its short stay in the air, human emissions don't change its concentration directly, and water vapour has no GWP.",
-        "Water vapour acts as a feedback: warming caused by CO₂ and other gases increases evaporation, and the extra water vapour traps more heat, amplifying the warming.",
+        "Water vapour acts as a feedback (a change that reinforces the original change): warming caused by CO₂ and other gases increases evaporation, and the extra water vapour traps more heat, amplifying the warming.",
         "Warmer air holds about 7% more water vapour for each °C of warming (Clausius–Clapeyron relation)."
-      ]
+      ],
+      "tip": "Water vapour has no GWP, so explain why (its short stay in the air and temperature-controlled concentration) rather than inventing a value."
     },
     {
       "h": "Evidence for the enhanced greenhouse effect",
+      "b": "Several independent kinds of measurement show that greenhouse gases have risen and that the planet has warmed. Together they support the conclusion that human activity is the cause.",
       "points": [
         "Continuous measurements at Mauna Loa, Hawaii, begun by Charles David Keeling in 1958 (the “Keeling curve”), show CO₂ rising every year, from about 315 ppm in 1958 to about 420 ppm.",
-        "Ice cores: air bubbles trapped in Antarctic ice show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation.",
+        "Ice cores (long cylinders of ice drilled from ice sheets): air bubbles trapped in Antarctic ice show that CO₂ stayed between about 180 and 300 ppm for the 800,000 years before industrialisation.",
         "Today's CO₂ level is far above that range, and the rise matches the growth in fossil-fuel use.",
-        "The global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900 (IPCC AR6), with most of the warming since the 1970s.",
-        "Recent years have been the warmest on record.",
+        "The global average surface temperature in 2011–2020 was about 1.1 °C higher than in 1850–1900 (IPCC AR6), with most of the warming since the 1970s. Recent years have been the warmest on record.",
         "Other observed changes include shrinking glaciers and Arctic sea ice, melting ice sheets and warming oceans.",
         "Sea level rose about 20 cm between 1901 and 2018 (IPCC AR6), from melting ice and the expansion of warmer water.",
-        "Climate models that include only natural factors (changes in the Sun and volcanoes) do not reproduce the warming since the mid-twentieth century; models that also include human greenhouse gas emissions do.",
+        "Climate models (computer simulations of the climate) that include only natural factors (changes in the Sun and volcanoes) do not reproduce the warming since the mid-twentieth century. Models that also include human greenhouse gas emissions do.",
         "The IPCC (AR6) concludes that it is unequivocal that human influence has warmed the atmosphere, ocean and land."
-      ]
+      ],
+      "tip": "To discuss the evidence, define the enhanced greenhouse effect first, then explain any three pieces of evidence, such as the Keeling curve, ice cores, rising temperatures or the climate models. Finish with the IPCC conclusion."
     },
     {
       "h": "Effects of the enhanced greenhouse effect",
+      "b": "Extra warming changes temperature, rainfall, the oceans and living things. The effects are linked: warmer air holds more water vapour, and the oceans absorb extra CO₂.",
       "points": [
-        "Global warming brings higher average temperatures, more frequent heatwaves, melting ice and rising sea levels that threaten low-lying coasts and countries, e.g. Bangladesh, the Netherlands and small island states.",
+        "Global warming brings higher average temperatures, more frequent heatwaves, melting ice and rising sea levels that threaten low-lying coasts and countries, for example Bangladesh, the Netherlands and small island states.",
         "A warmer atmosphere holds more water vapour, so the water cycle intensifies: heavier rainfall and more flooding in some regions, and longer droughts in others.",
         "More winter rain is expected in Ireland.",
         "Other effects include changes to ecosystems (species moving or becoming extinct, coral bleaching), threats to food and water supplies, and more extreme weather events."
-      ]
+      ],
+      "tip": "When asked for consequences of an increased greenhouse effect, give several linked effects: global warming and rising sea levels, changed rainfall and flooding or drought, and ocean acidification."
     },
     {
       "h": "Ocean acidification",
+      "b": "The oceans take up part of the CO₂ humans emit. This slows warming in the air, but the dissolved CO₂ makes the sea water less alkaline.",
       "points": [
         "The oceans absorb about a quarter of the CO₂ emitted by humans.",
-        "CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) ⇌ H⁺(aq) + HCO₃⁻(aq): the H⁺ concentration rises as CO₂ dissolves, and the pH falls.",
+        "CO₂(aq) + H₂O(l) ⇌ H₂CO₃(aq) ⇌ H⁺(aq) + HCO₃⁻(aq). The H⁺ concentration rises as CO₂ dissolves, so the pH falls.",
         "The average surface ocean pH has fallen by about 0.1, from about 8.2 to about 8.1, since pre-industrial times.",
-        "Ocean acidification lowers the pH but does not make the sea acidic; the pH stays above 7.",
+        "Ocean acidification lowers the pH but does not make the sea acidic, because the pH stays above 7.",
         "The extra H⁺ reacts with carbonate ions, H⁺ + CO₃²⁻ → HCO₃⁻, leaving less carbonate for shell-building organisms such as oysters, mussels, corals and some plankton.",
         "Acidified water can also dissolve calcium carbonate: CaCO₃(s) + CO₂(aq) + H₂O(l) → Ca²⁺(aq) + 2HCO₃⁻(aq)."
-      ]
+      ],
+      "tip": "Say that ocean acidification lowers the pH, not that the sea becomes acidic, because the pH stays above 7. Include the equations for CO₂ dissolving and for H⁺ reacting with carbonate."
     },
     {
-      "h": "Possible solutions",
+      "h": "Possible solutions: energy, transport, agriculture and land",
+      "b": "Reducing the enhanced greenhouse effect means cutting emissions of greenhouse gases and protecting carbon sinks. Each major source has its own response.",
       "points": [
         "Replace fossil fuels with renewable energy (wind, solar, hydroelectric and tidal), and improve energy efficiency by insulating buildings, using heat pumps and buying efficient appliances.",
-        "Transport: use public transport, cycling and walking; use electric vehicles charged from renewable electricity (see “The lithium-ion cell”); and use hydrogen fuel cells (see “The hydrogen fuel cell”).",
-        "Agriculture: use the right amount of fertiliser at the right time, use clover and other nitrogen-fixing crops, breed and feed livestock to produce less methane, and capture methane from manure in anaerobic digesters (biogas) for use as a fuel.",
-        "Land use: plant forests, stop deforestation, and protect and rewet peatlands so that they act as carbon sinks again.",
-        "Waste: reduce food waste, recycle, and capture landfill methane and burn it to generate electricity; the CO₂ produced has a much smaller warming effect than the methane would have.",
-        "Carbon capture and storage (CCS): CO₂ is captured from power-station or factory flue gases, compressed to a liquid, piped away and injected into deep rock formations such as depleted oil and gas fields.",
+        "Transport: use public transport, cycling and walking; use electric vehicles charged from renewable electricity; and use hydrogen fuel cells.",
+        "Agriculture: use the right amount of fertiliser at the right time, and use clover and other nitrogen-fixing crops.",
+        "Agriculture: breed and feed livestock to produce less methane, and capture methane from manure in anaerobic digesters (tanks where microorganisms break down waste without oxygen, giving biogas) for use as a fuel.",
+        "Land use: plant forests, stop deforestation, and protect and rewet peatlands so that they act as carbon sinks again."
+      ],
+      "tip": "To answer how humans could reduce atmospheric CO₂, or how to cut emissions from Irish agriculture and energy use, pick three methods from renewable energy, fertiliser use, livestock methane, forests and peatlands, and carbon capture."
+    },
+    {
+      "h": "Possible solutions: waste, capture and international action",
+      "b": "Some emissions can be captured or avoided in waste and industry, and governments set targets so that action is shared.",
+      "points": [
+        "Waste: reduce food waste, recycle, and capture landfill methane and burn it to generate electricity. The CO₂ produced has a much smaller warming effect than the methane would have.",
+        "Carbon capture and storage (CCS): CO₂ is captured from power-station or factory flue gases (the waste gases from the chimney), compressed to a liquid, piped away and injected into deep rock formations such as depleted oil and gas fields.",
         "Acid rain can be cut by reducing sulfur and NOx emissions: low-sulfur fuels, removing SO₂ from flue gases, and catalytic converters on cars.",
         "International and national action: the Paris Agreement (2015) aims to keep the rise in global temperature well below 2 °C above pre-industrial levels and to pursue efforts to limit it to 1.5 °C.",
         "Ireland's Climate Action and Low Carbon Development (Amendment) Act 2021 sets a 51% cut in emissions by 2030 (compared with 2018) and climate neutrality by 2050.",
-        "A carbon footprint is the total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity; individuals can reduce theirs through choices in travel, home heating, diet and consumption."
+        "A carbon footprint is the total greenhouse gas emissions, as CO₂ equivalent, caused by a person, organisation, product or activity. Individuals can reduce theirs through choices in travel, home heating, diet and consumption."
       ]
     }
   ],

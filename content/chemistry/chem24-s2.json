@@ -5,74 +5,122 @@
   "syllabusRef": "4.2.5, 4.2.12",
   "notes": [
     {
-      "h": "Forces between molecules in each family (Higher Level only)",
+      "h": "What melting and boiling overcome: intermolecular forces (Higher Level only)",
+      "b": "When a solid melts or a liquid boils, the molecules move apart from one another but stay intact. So the energy needed depends on the attractions between molecules, and three kinds of attraction matter for organic compounds.",
       "points": [
-        "Melting and boiling separate molecules, so they depend on the intermolecular forces, not on the covalent bonds inside the molecules.",
-        "The stronger the forces, the more energy is needed and the higher the melting and boiling points.",
-        "Alkanes and alkenes are non-polar, so they have London dispersion forces only.",
-        "Haloalkanes have a polar C–Cl bond (Cl 3.16, C 2.55), so they have permanent dipole–dipole forces as well as London forces.",
+        "Melting and boiling separate molecules, so they depend on the intermolecular forces (the attractions between separate molecules), not on the covalent bonds (shared electron pairs) inside the molecules.",
+        "The stronger the forces, the more energy is needed to pull the molecules apart, so the higher the melting and boiling points.",
+        "London dispersion forces are the weak attractions between all molecules, polar or not. They grow stronger as a molecule has more electrons and more surface.",
+        "Permanent dipole–dipole forces act between polar molecules. A polar bond is one where the shared electrons sit nearer the more electronegative atom (the atom that pulls harder on shared electrons), leaving one end δ+ and the other δ−.",
+        "Hydrogen bonding is a strong attraction between an H bonded to O, N or F and a lone pair (a non-bonding pair of outer electrons) on O, N or F of a neighbouring molecule. The order of strength is London forces only, then dipole–dipole, then hydrogen bonding."
+      ],
+      "tip": "Boiling doesn't break covalent bonds; it overcomes the forces between molecules. Say this whenever you are asked why a compound has a given boiling point."
+    },
+    {
+      "h": "Forces in alkanes, alkenes, haloalkanes, aldehydes, ketones and esters (Higher Level only)",
+      "b": "Which forces a compound has depends on its family, meaning the functional group (the atom or group that gives a family its properties) and whether that group has polar bonds. None of these families can hydrogen bond to its own molecules.",
+      "points": [
+        "Alkanes and alkenes (hydrocarbons, made only of C and H) are non-polar, so they have London dispersion forces only.",
+        "Haloalkanes (alkanes with a halogen such as Cl in place of an H) have a polar C–Cl bond (Cl 3.16, C 2.55 on the electronegativity scale), so they have permanent dipole–dipole forces as well as London forces.",
         "Haloalkanes cannot hydrogen bond, because they have no H bonded to O, N or F.",
-        "Aldehydes and ketones have a strongly polar C=O bond (Cδ+=Oδ−), giving dipole–dipole forces.",
+        "Aldehydes and ketones (compounds containing the C=O carbonyl group) have a strongly polar C=O bond (Cδ+=Oδ−), giving dipole–dipole forces.",
         "Aldehydes and ketones cannot hydrogen bond with each other, because their hydrogens are bonded to carbon, not oxygen.",
-        "Esters have polar C=O and C–O bonds, giving dipole–dipole forces, but no O–H, so there is no hydrogen bonding between ester molecules.",
+        "Esters have polar C=O and C–O bonds, giving dipole–dipole forces, but no O–H, so there is no hydrogen bonding between ester molecules."
+      ],
+      "tip": "Exams ask you to explain why one compound boils higher than another, such as propanal against butane. Name the force each molecule has: London forces only for the alkane, dipole–dipole as well for the aldehyde."
+    },
+    {
+      "h": "Forces in alcohols and carboxylic acids (Higher Level only)",
+      "b": "Alcohols and carboxylic acids both contain an O–H group, so unlike the families above they can hydrogen bond to their own kind. This makes their boiling points the highest of the families.",
+      "points": [
         "Alcohols have a very polar O–H bond (O 3.44, H 2.20), so alcohol molecules hydrogen bond to each other as well as having London forces.",
         "Carboxylic acids have both O–H and C=O in the –COOH group, so their molecules hydrogen bond strongly.",
-        "In the pure liquid, carboxylic acid molecules pair up as dimers held by two hydrogen bonds, the O–H of each molecule bonding to the C=O of the other.",
+        "In the pure liquid, carboxylic acid molecules pair up as dimers (two molecules joined together) held by two hydrogen bonds, the O–H of each molecule bonding to the C=O of the other.",
         "Diagram: two ethanoic acid molecules facing each other, with dashed hydrogen bonds from each O–H hydrogen to the C=O oxygen of the other molecule, forming a dimer."
-      ]
+      ],
+      "tip": "If you are asked why ethanoic acid boils higher than a compound of the same formula, a dimer diagram can be credited. Draw the dashed hydrogen bonds from each O–H hydrogen to the other molecule's C=O oxygen."
     },
     {
       "h": "Comparing compounds of similar size (Higher Level only)",
+      "b": "Size also affects boiling point, because bigger molecules have stronger London forces. To compare the type of force fairly, you need compounds with about the same relative molecular mass (Mr, the mass of a molecule compared with carbon-12).",
       "points": [
         "At similar relative molecular mass, so with similar London forces, boiling point depends on the type of intermolecular force: London forces only give the lowest boiling point, then dipole–dipole forces, then hydrogen bonding.",
         "Butane (Mr 58) boils at −1 °C, propanal (Mr 58) at 48 °C and propanone (Mr 58) at 56 °C.",
         "Methyl methanoate (Mr 60) boils at 32 °C, propan-1-ol (Mr 60) at 97 °C and ethanoic acid (Mr 60) at 118 °C.",
         "Propanal boils far higher than butane because its polar C=O gives dipole–dipole forces in addition to London forces.",
         "Propan-1-ol boils higher than propanal because its O–H groups form hydrogen bonds between molecules, which are stronger than dipole–dipole forces.",
-        "Ethanoic acid boils higher than propan-1-ol because each acid molecule has two oxygens taking part, and pairs of molecules form doubly hydrogen-bonded dimers, so more hydrogen bonding must be overcome.",
-        "Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers with the same formula, C₂H₄O₂, and the same mass.",
-        "The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H.",
-        "Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only."
-      ]
+        "Ethanoic acid boils higher than propan-1-ol because each acid molecule has two oxygens taking part, and pairs of molecules form doubly hydrogen-bonded dimers, so more hydrogen bonding must be overcome."
+      ],
+      "tip": "Compare boiling points only between molecules of similar size when you argue about the type of force; otherwise London forces from size can dominate. Exams ask propanal against butane and ethanoic acid against propan-1-ol."
     },
     {
-      "h": "Effect of molecular size (Higher Level only)",
+      "h": "Isomers and ethanol against ethane (Higher Level only)",
+      "b": "Two compounds can have the same mass, or even the same formula, and still boil at very different temperatures. The difference comes down to whether hydrogen bonding is possible.",
+      "points": [
+        "Ethanoic acid (bp 118 °C) and methyl methanoate (bp 32 °C) are isomers (different compounds with the same formula), both C₂H₄O₂, and have the same mass.",
+        "The acid hydrogen bonds to other acid molecules, but the ester cannot, as it has no O–H. This is why their boiling points differ by 86 °C.",
+        "Ethanol (bp 78 °C) boils far higher than ethane (bp −89 °C) because ethanol has hydrogen bonding, whereas ethane has London forces only."
+      ],
+      "tip": "Exams ask you to explain ethanoic acid against methyl methanoate, and ethanol against ethane. Name the hydrogen bonding in one and the lack of it in the other."
+    },
+    {
+      "h": "Effect of chain length on boiling point (Higher Level only)",
+      "b": "Within one family the functional group stays the same, so what changes boiling point is chain length. A homologous series (a family whose members differ by one CH₂ unit) shows this clearly.",
       "points": [
         "Within a homologous series, boiling point rises with chain length, because each extra CH₂ adds electrons and surface area, so London forces get stronger.",
         "Alcohols: methanol 65 °C; ethanol 78 °C; propan-1-ol 97 °C; butan-1-ol 117 °C; pentan-1-ol 138 °C; hexan-1-ol 157 °C, a rise of about 20 °C per CH₂.",
         "Carboxylic acids: methanoic acid 101 °C; ethanoic acid 118 °C; propanoic acid 141 °C; butanoic acid 164 °C.",
-        "Aldehydes: methanal −19 °C, a gas; ethanal 20 °C; propanal 48 °C; butanal 75 °C.",
+        "Aldehydes: methanal −19 °C, a gas; ethanal 20 °C; propanal 48 °C; butanal 75 °C."
+      ],
+      "tip": "Exams ask you to plot or read boiling points of a series against carbon number, state the trend, explain it and predict a value. The explanation is more electrons and surface area, so stronger London forces."
+    },
+    {
+      "h": "Chloroalkanes and the dilution of the functional group (Higher Level only)",
+      "b": "Haloalkanes follow the same trend, and adding halogens has its own effect. A longer chain also makes the families more alike.",
+      "points": [
         "Chloroalkanes: chloromethane −24 °C and chloroethane 12 °C are gases at room temperature.",
         "Chloroalkanes: 1-chloropropane 47 °C and 1-chlorobutane 78 °C are liquids.",
         "Adding more chlorines also raises the boiling point: CH₃Cl −24 °C; CH₂Cl₂ 40 °C; CHCl₃ 61 °C; CCl₄ 77 °C, because more electrons give stronger London forces.",
         "As the chain gets longer, the hydrocarbon part makes up more of the molecule, so the difference between families gets smaller, because the effect of the functional group is diluted."
-      ]
+      ],
+      "tip": "Not all chloroalkanes are liquids: chloromethane and chloroethane are gases at room temperature."
     },
     {
-      "h": "Effect of shape and branching (Higher Level only)",
+      "h": "Effect of shape and branching on boiling point (Higher Level only)",
+      "b": "Molecules with the same formula can have different shapes. A branched molecule is more compact than a straight chain, and that changes how strongly molecules attract one another.",
       "points": [
-        "Branched isomers have lower boiling points than straight-chain isomers, because they are more compact, with less surface contact between molecules, so London forces are weaker.",
-        "For alkanes, see \"Groups of hydrocarbons and their properties\".",
+        "Branched isomers have lower boiling points than straight-chain isomers, because they are more compact, with less surface contact between molecules, so London forces are weaker. There is more on this in Groups of hydrocarbons and their properties.",
         "Isomers of C₄H₉OH: butan-1-ol 117 °C; 2-methylpropan-1-ol 108 °C; butan-2-ol 99 °C; 2-methylpropan-2-ol 82 °C.",
-        "The more compact the molecule, and the more crowded the –OH, the lower the boiling point.",
-        "Step 1: from a table or graph of boiling point against number of carbons, describe the trend.",
+        "The more compact the molecule, and the more crowded the –OH, the lower the boiling point."
+      ],
+      "tip": "Use the four C₄H₉OH isomers as your example: the most compact one, 2-methylpropan-2-ol, has the lowest boiling point."
+    },
+    {
+      "h": "Skill: describing, explaining and predicting a boiling point trend (Higher Level only)",
+      "b": "Exams give a table or graph of boiling point against number of carbons and ask for the trend, the reason and a prediction. A fixed three-step method covers all three.",
+      "points": [
+        "Step 1: from a table or graph of boiling point against number of carbons, describe the trend, for example that boiling point rises as the number of carbons rises.",
         "Step 2: explain the trend in terms of chain length, London forces and the functional group.",
         "Step 3: predict the next member by continuing the trend, e.g. continuing the primary alcohols from butan-1-ol, 117 °C, gives about 138 °C for pentan-1-ol."
-      ]
+      ],
+      "tip": "Exams ask you to plot or interpret boiling points of a homologous series against carbon number, state and explain the trend, and predict a value."
     },
     {
       "h": "Melting points (Higher Level only)",
+      "b": "Melting also depends on intermolecular forces, but a solid is an ordered packing of molecules. So how neatly the molecules fit together matters too.",
       "points": [
         "Melting points depend on the intermolecular forces and also on how well the molecules pack together in the solid, so they follow trends less regularly than boiling points.",
         "Ethanoic acid melts at 17 °C, high for its size, because of strong hydrogen bonding.",
         "On a cold day, pure ethanoic acid freezes to an ice-like solid, so it is called glacial ethanoic acid.",
         "Compact, symmetrical molecules pack well and melt higher: 2-methylpropan-2-ol melts at about 25 °C, but butan-1-ol melts at −89 °C.",
-        "Cyclohexane melts at 6.5 °C, but hexane melts at −95 °C.",
-        "Ionic bonding gives far higher melting points: sodium ethanoate, an ionic salt of ethanoic acid, is a solid that melts at about 324 °C."
-      ]
+        "Cyclohexane (a ring of six carbons) melts at 6.5 °C, but hexane (the straight chain) melts at −95 °C, again because the compact ring packs better.",
+        "Ionic bonding (attraction between oppositely charged ions) gives far higher melting points: sodium ethanoate, an ionic salt of ethanoic acid, is a solid that melts at about 324 °C."
+      ],
+      "tip": "Exams ask you to explain the name glacial ethanoic acid: pure ethanoic acid melts at 17 °C because of strong hydrogen bonding, so on a cold day it freezes to an ice-like solid."
     },
     {
-      "h": "Solubility (Higher Level only)",
+      "h": "Solubility: like dissolves like, alcohols and carboxylic acids (Higher Level only)",
+      "b": "Whether a compound dissolves depends on whether it can attract the solvent (the liquid doing the dissolving) as strongly as it attracts itself. For water, that means hydrogen bonding.",
       "points": [
         "Like dissolves like: a compound dissolves in water if it can form hydrogen bonds with water molecules.",
         "Non-polar compounds dissolve in non-polar solvents such as cyclohexane, where London forces are similar.",
@@ -80,94 +128,152 @@
         "Lower carboxylic acids, from methanoic acid to butanoic acid, are also miscible with water, for the same reason.",
         "Solubility in water falls as the chain gets longer, because the non-polar hydrocarbon part cannot hydrogen bond and disrupts the hydrogen bonding of the water.",
         "Butan-1-ol is only partly soluble in water, and hexan-1-ol is only slightly soluble.",
-        "Longer chains dissolve better in non-polar solvents.",
+        "Longer chains dissolve better in non-polar solvents."
+      ],
+      "tip": "Exams ask why the lower alcohols and acids are soluble in water and why solubility falls with chain length. Give hydrogen bonding with water for the first, and the non-polar hydrocarbon part for the second."
+    },
+    {
+      "h": "Solubility of aldehydes, ketones and esters (Higher Level only)",
+      "b": "These families cannot hydrogen bond to their own molecules, yet small ones still dissolve in water. The reason is that water can hydrogen bond to them.",
+      "points": [
         "Small aldehydes and ketones, methanal, ethanal and propanone, are miscible with water: they have no O–H, but water molecules hydrogen bond to the lone pairs on their C=O oxygen.",
         "Propanone dissolves both polar and non-polar substances, so it is a useful solvent.",
         "Butanone is not fully miscible with water; only the smallest ketone, propanone, is.",
         "Small esters are slightly soluble in water for the same reason, as water hydrogen bonds to their oxygens: about 8 g of ethyl ethanoate dissolves in 100 g of water at room temperature.",
-        "Small esters dissolve well in organic solvents.",
+        "Small esters dissolve well in organic solvents."
+      ],
+      "tip": "Aldehydes, ketones and esters cannot hydrogen bond to each other, but can accept hydrogen bonds from water. This is why they are more soluble than their boiling points suggest. Remember that butanone is not fully miscible; only propanone is."
+    },
+    {
+      "h": "Solubility of hydrocarbons, haloalkanes, benzoic acid and carboxylate salts (Higher Level only)",
+      "b": "Compounds with no way to hydrogen bond with water stay out of it, while ionic compounds are pulled in by water's charges. These cases explain common solvents and a purification method.",
+      "points": [
         "Alkanes, alkenes, benzene and haloalkanes are insoluble in water, as they cannot hydrogen bond with it, but they dissolve in non-polar solvents.",
         "Haloalkanes are good solvents for grease and oil.",
-        "Benzoic acid is only slightly soluble in cold water because of its large non-polar benzene ring, but it is much more soluble in hot water, which allows it to be purified by recrystallisation; see \"Investigation: synthesising benzoic acid\".",
+        "Benzoic acid is only slightly soluble in cold water because of its large non-polar benzene ring, but it is much more soluble in hot water, which allows it to be purified by recrystallisation (dissolving in hot water, then cooling so pure crystals form).",
+        "There is more on this in Investigation: synthesising benzoic acid.",
         "Ionic salts of carboxylic acids, sodium ethanoate and sodium benzoate, are much more soluble in water than the acids, because their ions are attracted to water molecules (ion–dipole attraction)."
       ]
     },
     {
       "h": "The O–H bond and acidity (Higher Level only)",
+      "b": "Alcohols and carboxylic acids both contain an O–H group, yet carboxylic acids are far more acidic. To see why, first look at why an O–H hydrogen can be lost at all.",
       "points": [
         "An acid, in the Brønsted–Lowry sense, is a proton donor; both alcohols and carboxylic acids can donate the H⁺ of their O–H group.",
         "The O–H bond is polar because oxygen (3.44) is much more electronegative than hydrogen (2.20), so the shared electrons are pulled towards oxygen.",
-        "This leaves the hydrogen δ+, so it can be removed as H⁺ by a base.",
+        "This leaves the hydrogen δ+, so it can be removed as H⁺ by a base (a proton acceptor).",
         "C–H bonds are almost non-polar (C 2.55, H 2.20), so hydrogens bonded to carbon are not acidic.",
         "In ethanoic acid, CH₃COOH, only the hydrogen on oxygen is lost.",
-        "How acidic the O–H is depends mainly on how stable the negative ion (the conjugate base) left behind is.",
+        "How acidic the O–H is depends mainly on how stable the negative ion (the conjugate base, what is left after H⁺ leaves) is.",
         "The more stable the negative ion, the more easily H⁺ is lost and the stronger the acid."
-      ]
+      ],
+      "tip": "The acidic hydrogen is the one on oxygen; CH₃COOH is monoprotic, not tetraprotic. When comparing acids, argue from the stability of the negative ion left behind."
     },
     {
       "h": "Alcohols: very weak acids (Higher Level only)",
+      "b": "An alcohol can lose H⁺, but the ion it leaves behind is unstable. This is why alcohols are such weak acids.",
       "points": [
-        "An alcohol can lose H⁺ to form an alkoxide ion: R–OH ⇌ R–O⁻ + H⁺.",
-        "Ethanol gives the ethoxide ion, C₂H₅O⁻.",
-        "In the alkoxide ion the negative charge is concentrated on one oxygen atom, because it cannot be spread out by resonance.",
+        "An alcohol can lose H⁺ to form an alkoxide ion: R–OH ⇌ R–O⁻ + H⁺. Ethanol gives the ethoxide ion, C₂H₅O⁻.",
+        "In the alkoxide ion the negative charge is concentrated on one oxygen atom, because it cannot be spread out by resonance (sharing the charge over more than one atom).",
         "The alkoxide ion is therefore unstable and readily takes back H⁺.",
-        "The alkyl group is electron-releasing, pushing electron density towards the oxygen, which makes the negative charge on the alkoxide ion even less stable.",
-        "Alcohols are therefore weaker acids than water.",
+        "The alkyl group (a chain of carbons and hydrogens) is electron-releasing, pushing electron density towards the oxygen, which makes the negative charge on the alkoxide ion even less stable.",
+        "Alcohols are therefore weaker acids than water."
+      ],
+      "tip": "Exams ask you to explain, with diagrams, why ethanoic acid is much stronger than ethanol. For the alcohol side, say the charge sits on one oxygen with no resonance, and the alkyl group makes it worse."
+    },
+    {
+      "h": "Evidence that alcohols are weakly acidic (Higher Level only)",
+      "b": "Because the alkoxide ion is so unstable, alcohols behave as neutral in water. Only a very reactive metal such as sodium can show their acidic O–H.",
+      "points": [
         "Alcohols are neutral in water: they do not change the colour of indicators, do not react with sodium carbonate, and do not react to any useful extent with sodium hydroxide.",
         "Alcohols react with sodium metal, giving hydrogen gas and a salt, which is evidence of their acidic O–H.",
         "Equation: 2C₂H₅OH(l) + 2Na(s) → 2C₂H₅ONa + H₂(g), forming sodium ethoxide.",
         "The reaction of ethanol with sodium is gentler than the reaction of sodium with water, showing that ethanol is a weaker acid than water."
-      ]
+      ],
+      "tip": "To show the acidic nature of ethanol, use sodium and write the balanced equation. Don't use sodium carbonate: alcohols react with sodium but not with sodium carbonate or, usefully, with sodium hydroxide."
     },
     {
-      "h": "Carboxylic acids: resonance of the carboxylate ion (Higher Level only)",
+      "h": "Carboxylic acids: the carboxylate ion and resonance (Higher Level only)",
+      "b": "A carboxylic acid loses H⁺ much more easily than an alcohol, and the reason lies in the ion it leaves behind. Its negative charge is not stuck on one atom.",
       "points": [
         "A carboxylic acid loses H⁺ to form a carboxylate ion: RCOOH(aq) ⇌ RCOO⁻(aq) + H⁺(aq).",
         "Ethanoic acid gives the ethanoate ion: CH₃COOH ⇌ CH₃COO⁻ + H⁺.",
-        "In the carboxylate ion the negative charge is delocalised, shared over both oxygen atoms through the O–C–O group.",
-        "The carboxylate ion is a resonance hybrid of two structures, in each of which a different oxygen carries the negative charge.",
+        "In the carboxylate ion the negative charge is delocalised (spread out), shared over both oxygen atoms through the O–C–O group.",
+        "The carboxylate ion is a resonance hybrid (a blend) of two structures, in each of which a different oxygen carries the negative charge."
+      ],
+      "tip": "Don't say the carboxylate charge is on the carbon; it is shared between the two oxygens."
+    },
+    {
+      "h": "Carboxylic acids: evidence for resonance and why it makes them acidic (Higher Level only)",
+      "b": "Bond lengths show that the charge really is shared, and the sharing is what stabilises the ion. This is why a carboxylic acid is a much stronger acid than an alcohol.",
+      "points": [
         "The two C–O bonds in a carboxylate ion are the same length, between the length of a C–O single bond and that of a C=O double bond.",
         "In the acid itself, the C=O bond is shorter than the C–O bond.",
         "Spreading the charge over two oxygens stabilises the carboxylate ion.",
         "So a carboxylic acid loses H⁺ much more readily than an alcohol, whose alkoxide ion has no such stabilisation.",
         "Diagram: the two resonance structures of the ethanoate ion, CH₃–C(=O)–O⁻ ↔ CH₃–C(–O⁻)=O, joined by a double-headed arrow, and the hybrid drawn with a dashed bond over O–C–O and a charge of −½ on each oxygen."
-      ]
+      ],
+      "tip": "Exams ask you to explain, with a diagram, the acidic nature of the carboxylic acid group through resonance of the carboxylate ion. Draw both structures with the double-headed arrow, then the hybrid."
     },
     {
-      "h": "Carboxylic acids: inductive effects (Higher Level only)",
+      "h": "Carboxylic acids: the inductive effect in –COOH and with chlorine (Higher Level only)",
+      "b": "A second effect adds to resonance. Atoms in a molecule pull on electrons along the bonds, and this changes how easily the O–H hydrogen leaves.",
       "points": [
-        "The inductive effect is the pulling (or pushing) of electron density along sigma bonds by an atom or group, because of its electronegativity.",
+        "The inductive effect is the pulling (or pushing) of electron density along sigma bonds (the single bonds that join atoms) by an atom or group, because of its electronegativity.",
         "In the –COOH group, the electronegative oxygen of the C=O pulls electron density away from the O–H bond.",
         "This makes the O–H more polar and the hydrogen easier to lose than in an alcohol.",
         "Electron-withdrawing groups such as chlorine, attached to the carbon chain, pull electron density towards themselves.",
         "This spreads out the negative charge of the carboxylate ion and stabilises it, so the acid is stronger.",
-        "More chlorine atoms, or chlorine nearer the –COOH, give a stronger effect.",
+        "More chlorine atoms, or chlorine nearer the –COOH, give a stronger effect."
+      ],
+      "tip": "Electron-withdrawing groups make the acid stronger. Exams ask why a chlorine-substituted acid is stronger than ethanoic acid: more Cl atoms withdraw more electron density, stabilising the anion."
+    },
+    {
+      "h": "Carboxylic acids: alkyl groups and the order of acid strength (Higher Level only)",
+      "b": "Alkyl groups have the opposite effect to chlorine, so they weaken an acid. The Ka values (the acid dissociation constant: the larger the Ka, the stronger the acid) confirm the order.",
+      "points": [
         "Alkyl groups are electron-releasing; they push electron density towards the –COO⁻ group, destabilising it, so the acid is weaker.",
         "Methanoic acid, with H on the –COOH, is stronger than ethanoic acid, with CH₃ on the –COOH, which is slightly stronger than propanoic acid.",
         "Ka data at 25 °C: methanoic acid 1.8 × 10⁻⁴; ethanoic acid 1.8 × 10⁻⁵; propanoic acid 1.3 × 10⁻⁵.",
         "Ka data at 25 °C: chloroethanoic acid 1.4 × 10⁻³; trichloroethanoic acid about 0.2.",
         "Order of strength: CCl₃COOH > CH₂ClCOOH > HCOOH > CH₃COOH > CH₃CH₂COOH."
-      ]
+      ],
+      "tip": "Electron-releasing (alkyl) groups make the acid weaker. Exams ask why methanoic acid is stronger than ethanoic acid. Here the Ka values are only used for comparison."
     },
     {
-      "h": "Comparing acids and the evidence (Higher Level only)",
+      "h": "How weak is a carboxylic acid? A worked example (Higher Level only)",
+      "b": "Carboxylic acids are much more acidic than alcohols, but they are still weak acids. A weak acid dissociates (splits into H⁺ and its negative ion) only partly, and a short calculation shows how little.",
       "points": [
         "Carboxylic acids are weak acids, only partly dissociated.",
-        "Step 1: the degree of dissociation is approximately √(Ka ÷ concentration) = √(1.8 × 10⁻⁵ ÷ 0.1) = 0.013, so about 1.3% of 0.1 mol L⁻¹ ethanoic acid is dissociated.",
+        "Step 1: the degree of dissociation (the fraction of molecules that lose H⁺) is approximately √(Ka ÷ concentration) = √(1.8 × 10⁻⁵ ÷ 0.1) = 0.013, so about 1.3% of 0.1 mol L⁻¹ ethanoic acid is dissociated.",
         "Step 2: [H⁺] = 0.013 × 0.1 mol L⁻¹ = 1.3 × 10⁻³ mol L⁻¹.",
         "Step 3: pH = −log₁₀[H⁺] = −log₁₀(1.3 × 10⁻³) ≈ 2.9.",
         "Carboxylic acids are still far stronger acids than alcohols, because of the resonance-stabilised carboxylate ion and the inductive effect of the C=O.",
-        "Ethanol is a much weaker acid, with Ka of the order of 10⁻¹⁶ (pKa about 16), weaker than water.",
+        "Ethanol is a much weaker acid, with Ka of the order of 10⁻¹⁶ (pKa about 16), weaker than water."
+      ],
+      "tip": "Carboxylic acids are weak acids; stronger than alcohols does not mean strong. Full Ka calculations belong to pH calculations and dissociation constants."
+    },
+    {
+      "h": "Tests that tell an alcohol from a carboxylic acid (Higher Level only)",
+      "b": "The difference in acidity shows up in everyday reactions. Carboxylic acids give the typical reactions of an acid, and alcohols mostly do not.",
+      "points": [
         "Carboxylic acids show typical acid properties that alcohols do not: they turn blue litmus red, fizz with sodium carbonate giving carbon dioxide, and react with magnesium giving hydrogen.",
-        "Carboxylic acids are neutralised by sodium hydroxide, e.g. CH₃COOH + NaOH → CH₃COONa + H₂O.",
-        "Details of these tests are in \"Tests, reaction schemes and preparing an ester\".",
+        "Carboxylic acids are neutralised by sodium hydroxide, e.g. CH₃COOH + NaOH → CH₃COONa + H₂O. There is more on this in Tests, reaction schemes and preparing an ester.",
         "Sodium metal: an alcohol reacts, giving H₂; an acid reacts, giving H₂.",
         "Sodium hydroxide: an alcohol has no useful reaction; an acid is neutralised.",
         "Sodium carbonate: an alcohol does not react; an acid fizzes, giving CO₂.",
-        "Indicator: an alcohol is neutral; an acid is acidic.",
+        "Indicator: an alcohol is neutral; an acid is acidic."
+      ],
+      "tip": "Sodium metal reacts with both, so it can't tell them apart. Use sodium carbonate, which fizzes only with the acid."
+    },
+    {
+      "h": "Skill: explaining a difference in acidity (Higher Level only)",
+      "b": "Every acidity question has the same logic: the more stable the negative ion left behind, the stronger the acid. A two-step answer follows it.",
+      "points": [
         "Step 1 of explaining a difference in acidity: say which anion is more stable and why, referring to resonance and to electron-withdrawing or electron-releasing groups.",
         "Step 2 of explaining a difference in acidity: conclude which acid loses H⁺ more easily."
-      ]
+      ],
+      "tip": "Exams ask you to explain why a chlorine-substituted acid is stronger than ethanoic acid, or why methanoic acid is stronger than ethanoic acid. Follow the two steps, naming the anion each time."
     }
   ],
   "keyTerms": [

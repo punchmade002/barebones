@@ -6,107 +6,114 @@
   "notes": [
     {
       "h": "Matter is made of particles",
+      "b": "Everything around you, from air to iron, is matter. Chemistry starts from one idea: matter is built from particles too small to see, and how those particles are arranged decides whether something is a solid, a liquid or a gas.",
       "points": [
-        "All matter is made of tiny particles (atoms, molecules or ions) that are constantly moving, with spaces between them."
-      ]
-    },
-    {
-      "h": "The three states of matter",
-      "points": [
-        "Solid: the particles are packed closely in a fixed, regular arrangement and vibrate about fixed positions.",
-        "Liquid: the particles are close together but can move past each other.",
-        "Gas: the particles are far apart and move rapidly and randomly in all directions.",
+        "All matter is made of tiny particles (atoms, molecules or ions) that are constantly moving, with spaces between them.",
+        "Solid: the particles are packed closely in a fixed, regular arrangement and vibrate about fixed positions, so a solid keeps its shape.",
+        "Liquid: the particles are close together but can move past each other, so a liquid flows and takes the shape of its container.",
+        "Gas: the particles are far apart and move rapidly and randomly in all directions, so a gas spreads out to fill any space.",
         "Diagram: three boxes showing the particle arrangement in a solid, a liquid and a gas."
       ]
     },
     {
       "h": "Pure substances",
-      "b": "A pure substance is made of only one kind of particle, so it has fixed properties.",
+      "b": "A pure substance is made of only one kind of particle, so it has fixed properties. There are two kinds of pure substance: elements and compounds.",
       "points": [
-        "A pure substance contains only one kind of particle (one element or one compound) and has fixed properties, such as a sharp melting point and boiling point.",
-        "An element is a substance made of only one kind of atom; it cannot be split into simpler substances by chemical means, e.g. iron (Fe) and oxygen (O₂).",
-        "A compound is a substance made of two or more different elements chemically combined in a fixed ratio, e.g. water (H₂O) and sodium chloride (NaCl).",
+        "A pure substance contains only one kind of particle (one element or one compound) and has fixed properties, such as a sharp melting point and boiling point (a single exact temperature, not a range).",
+        "An element is a substance made of only one kind of atom; it cannot be split into simpler substances by chemical means (that is, by a chemical reaction), e.g. iron (Fe) and oxygen (O₂).",
+        "A compound is a substance made of two or more different elements chemically combined (joined by bonds) in a fixed ratio, e.g. water (H₂O) and sodium chloride (NaCl).",
         "A compound has properties that differ from those of its elements, and it can be separated into them only by a chemical reaction.",
-        "Molecules can be of elements (O₂, N₂, Cl₂) or of compounds (H₂O, CO₂)."
-      ]
+        "A molecule (a group of atoms joined together) can be of an element (O₂, N₂, Cl₂), where all the atoms are the same, or of a compound (H₂O, CO₂), where the atoms are different."
+      ],
+      "tip": "You may be asked to distinguish between an element, a compound and a mixture, or to classify substances. Give a definition and one example of each, and remember that air is a mixture, not a compound."
     },
     {
       "h": "Mixtures",
-      "b": "A mixture is two or more substances that are not chemically combined, so each keeps its own properties.",
+      "b": "A mixture is two or more substances that are not chemically combined, so each keeps its own properties. Mixtures are grouped by whether they look the same all the way through.",
       "points": [
-        "A mixture can have a variable composition, and its components keep their own properties.",
-        "A mixture can be separated by physical methods (see “Separation techniques”) and has no sharp melting or boiling point.",
-        "A homogeneous mixture has a uniform composition throughout and a single phase, e.g. salt solution, air and an alloy.",
+        "A mixture can have a variable composition (the amounts of each substance can change), and its components keep their own properties.",
+        "A mixture can be separated by physical methods (ones that need no chemical reaction), and it has no sharp melting or boiling point: it melts or boils over a range of temperatures. There is more on this in Using the kinetic theory: separation techniques.",
+        "A homogeneous mixture has a uniform composition throughout and a single phase (one visible part), e.g. salt solution, air and an alloy (a mixture of metals).",
         "A heterogeneous mixture is non-uniform, with visibly different parts or phases, e.g. sand and water, oil and water, and granite."
-      ]
+      ],
+      "tip": "Air is a mixture, not a compound, and an alloy is a homogeneous mixture. You may be asked to distinguish homogeneous from heterogeneous mixtures, so name the example and say whether it has one phase or visibly different parts."
     },
     {
       "h": "Testing purity",
+      "b": "Because a pure substance has a fixed melting point and a mixture does not, melting point can be used to check whether a sample is pure.",
       "points": [
-        "A pure substance has a sharp melting point that matches the data-book value.",
-        "Impurities lower the melting point and make the substance melt over a range of temperatures."
-      ]
+        "A pure substance has a sharp melting point that matches the data-book value (the accepted figure listed in reference tables).",
+        "Impurities lower the melting point and make the substance melt over a range of temperatures, so a low or spread-out melting point shows the sample is not pure."
+      ],
+      "tip": "If asked how melting point tests purity, say that a pure substance melts sharply at the data-book value, while impurities lower it and make it melt over a range."
     },
     {
       "h": "Comparing compounds and mixtures",
+      "b": "Compounds and mixtures both contain more than one element, so they are easy to confuse. The difference is whether the substances are chemically combined.",
       "points": [
         "A compound has a fixed composition; a mixture has a variable composition.",
         "The elements in a compound are chemically combined; the substances in a mixture are not.",
         "A compound has new properties; a mixture's components keep their own properties.",
         "A compound can be separated only chemically; a mixture can be separated physically.",
         "Energy is usually taken in or given out when a compound forms, whereas there is little energy change when a mixture is made.",
-        "Diagram: particle diagrams of an element (single atoms and diatomic molecules), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together)."
-      ]
+        "Diagram: particle diagrams of an element (single atoms and diatomic molecules, which are molecules of two atoms), a compound (identical molecules, each made of two kinds of atom) and a mixture (two kinds of particle mixed together)."
+      ],
+      "tip": "A question may ask for two differences between a compound and a mixture. Give each as a pair, for example fixed composition against variable composition."
     },
     {
       "h": "The kinetic theory of matter",
-      "b": "The kinetic theory states that matter is particles in motion. Effects we can see provide evidence for particles we cannot see.",
+      "b": "The kinetic theory states that matter is particles in motion. We cannot see the particles, so the theory rests on effects we can see.",
       "points": [
         "The kinetic theory of matter states that all matter is made of particles that are in constant, random motion.",
-        "The particles have kinetic energy, and the higher the temperature, the faster they move.",
-        "The average kinetic energy of the particles is proportional to the temperature in kelvin.",
+        "The particles have kinetic energy (energy of movement), and the higher the temperature, the faster they move.",
+        "The average kinetic energy of the particles is proportional to the temperature in kelvin (the temperature scale that starts at absolute zero), so doubling the kelvin temperature doubles the average kinetic energy.",
         "The evidence for the theory comes from effects we can see that are caused by particles we cannot see."
       ]
     },
     {
       "h": "Brownian motion (investigation)",
-      "b": "Brownian motion is the continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid.",
+      "b": "Brownian motion is the continuous, random, zig-zag movement of small visible particles suspended in a gas or liquid. It shows that the invisible particles around them are moving.",
       "points": [
-        "Robert Brown, a botanist, first observed Brownian motion in 1827, using pollen grains in water.",
+        "Robert Brown, a botanist (a scientist who studies plants), first observed Brownian motion in 1827, using pollen grains in water.",
         "Aim: to observe the motion of smoke particles in air as evidence for the kinetic theory.",
         "Step 1: Fill a small glass cell with smoke and cover it.",
-        "Step 2: Light the cell from the side.",
+        "Step 2: Light the cell from the side, so the smoke particles scatter light and show up.",
         "Step 3: View the cell through a microscope.",
         "Observation: the smoke particles appear as bright specks that jiggle about randomly and never stop.",
         "Explanation: the smoke particles are bombarded unevenly from all sides by fast-moving, invisible air molecules; at any instant more molecules hit one side than the other, so the particle moves.",
         "The smoke particles are visible solid particles, not air molecules; they are moved by the invisible air molecules.",
         "Conclusion: the air is made of particles in constant, random motion, and the motion becomes more vigorous when the temperature is raised.",
         "Diagram: a smoke cell lit from the side under a microscope, and the zig-zag path of one smoke particle."
-      ]
+      ],
+      "tip": "You may be asked what Brownian motion is and what it shows. Say the visible particles move because invisible molecules collide with them, and do not call the smoke particles molecules."
     },
     {
       "h": "Diffusion of gases (investigation)",
-      "b": "Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion.",
+      "b": "Diffusion is the spreading out of particles from a region of high concentration to a region of low concentration, until they are evenly mixed, as a result of their random motion. Gases show it clearly.",
       "points": [
         "Diffusion needs no stirring or currents; it results from the random motion of the particles alone.",
         "Bromine experiment: a few drops of liquid bromine are placed in a gas jar, giving brown vapour that spreads upwards through a second jar of air placed on top.",
-        "The bromine jars are evenly coloured when the vapour has diffused through both jars.",
-        "Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard and gloves."
-      ]
+        "The bromine jars are evenly coloured when the vapour has diffused through both jars, which shows the particles have spread out until evenly mixed.",
+        "Safety for bromine: bromine is toxic and corrosive, so use a fume cupboard (a ventilated cabinet that removes fumes) and gloves."
+      ],
+      "tip": "Diffusion does not need stirring or currents, so do not give those as the cause. You may be asked to describe an experiment that shows diffusion in gases, with observations and explanation."
     },
     {
       "h": "Ammonia and hydrogen chloride experiment",
+      "b": "This experiment shows that gases diffuse and that lighter gas particles diffuse faster than heavier ones. Two gases start at opposite ends of a tube and meet where they react.",
       "points": [
         "Method: cotton-wool plugs soaked in concentrated ammonia and concentrated hydrochloric acid are placed at opposite ends of a long glass tube, which is sealed with stoppers.",
         "Observation: after a few minutes a white ring of ammonium chloride forms inside the tube where the two gases meet: NH₃(g) + HCl(g) → NH₄Cl(s).",
         "The ring forms nearer the hydrochloric acid end of the tube.",
-        "Explanation: ammonia molecules (Mr 17) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.",
+        "Explanation: ammonia molecules (Mr 17, relative molecular mass) are lighter than hydrogen chloride molecules (Mr 36.5), so at the same temperature they diffuse faster and travel further before they meet.",
         "Safety: concentrated ammonia and hydrochloric acid give off irritant, corrosive fumes, so use a fume cupboard, goggles, gloves and tongs to handle the plugs.",
         "Diagram: the long tube with the ammonia plug at one end, the hydrochloric acid plug at the other, and the white ring closer to the hydrochloric acid end."
-      ]
+      ],
+      "tip": "You may be asked why the ammonium chloride ring forms nearer the hydrochloric acid end. Say that lighter ammonia molecules move faster at the same temperature, so they travel further. Do not give Graham's law or its equation, as calculations are not required."
     },
     {
       "h": "Diffusion in liquids",
+      "b": "Diffusion is not limited to gases. It also happens in liquids, but far more slowly.",
       "points": [
         "Diffusion also happens in liquids, e.g. a crystal of potassium manganate(VII) slowly colours still water purple.",
         "Diffusion is much slower in liquids than in gases, because the particles are closer together and collide more often."

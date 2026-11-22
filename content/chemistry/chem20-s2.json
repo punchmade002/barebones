@@ -6,107 +6,126 @@
   "notes": [
     {
       "h": "Water as a finite resource",
+      "b": "Water covers most of the planet, yet very little of it can be drunk or used. Contamination (pollution of water by unwanted substances) removes even more of that small share.",
       "points": [
-        "About 97.5% of the Earth's water is salt water in the oceans; only about 2.5% is fresh water.",
-        "Most fresh water is frozen in ice caps and glaciers or lies deep underground, so well under 1% is readily available in rivers, lakes and accessible groundwater.",
-        "Fresh water is constantly recycled by the water cycle, but the amount available in a place at a time is limited, and demand rises with population, farming and industry.",
-        "Contamination makes some of the available fresh water unusable.",
+        "About 97.5% of the Earth's water is salt water in the oceans, which is unsuitable for drinking or farming; only about 2.5% is fresh water.",
+        "Most fresh water is frozen in ice caps and glaciers or lies deep underground, so well under 1% is readily available in rivers, lakes and accessible groundwater (water held in rock and soil that can be reached by wells).",
+        "Fresh water is constantly recycled by the water cycle (evaporation, rainfall and run-off), but the amount available in a place at a time is limited, and demand rises with population, farming and industry.",
+        "Contamination makes some of the available fresh water unusable, so there is even less to share between all these demands."
+      ]
+    },
+    {
+      "h": "The energy and environmental cost of processing water",
+      "b": "Making water fit to drink, and cleaning it again after use, takes machinery, chemicals and electricity. Each of these has a cost to the energy supply and to the environment.",
+      "points": [
         "Processing water has an energy cost: pumping water from sources to treatment plants and on to homes, running treatment plants (mixing, filtration, UV lamps), and treating waste water before it returns to rivers.",
-        "Processing water also has an environmental impact: chemicals such as aluminium sulfate and chlorine are manufactured and transported, sludge must be disposed of, and abstraction lowers rivers and lakes.",
-        "Leaking pipes waste treated water and the energy used to treat it.",
-        "Making fresh water from sea water by desalination, e.g. by reverse osmosis, is possible but uses far more energy than treating fresh water.",
-        "Conserving water, by fixing leaks and using less, also saves energy and reduces emissions."
+        "Processing water also has an environmental impact: chemicals such as aluminium sulfate and chlorine are manufactured and transported, and sludge (the solid waste left after treatment) must be disposed of.",
+        "Abstraction (taking water out of a river or lake) lowers the level of rivers and lakes, which affects the living things that depend on them.",
+        "Leaking pipes waste treated water and the energy used to treat it, because water that is lost has already been pumped and cleaned.",
+        "Making fresh water from sea water by desalination (removing the dissolved salts), e.g. by reverse osmosis, is possible but uses far more energy than treating fresh water.",
+        "So conserving water, by fixing leaks and using less, also saves energy and reduces emissions."
       ]
     },
     {
       "h": "Dissolved oxygen and BOD",
+      "b": "Fish breathe oxygen that is dissolved in the water, and only a little dissolves. Pollution that feeds bacteria uses that oxygen up, and biochemical oxygen demand (BOD) is the measure of how much.",
       "points": [
-        "Fish and other aquatic life need oxygen dissolved in the water; clean water at 20 °C holds only about 9 mg L⁻¹ (9 p.p.m.) of dissolved oxygen, and warmer water holds less.",
-        "When organic matter (sewage, slurry, food waste or dead plants) enters water, aerobic bacteria break it down, using up dissolved oxygen.",
-        "Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days; it is measured in mg L⁻¹ (p.p.m.) of oxygen.",
-        "A high BOD means a lot of organic pollution: the oxygen is used up, fish die (a fish kill), and when the oxygen is gone anaerobic bacteria take over, producing foul-smelling gases such as hydrogen sulfide (H₂S) and methane.",
-        "Unpolluted river water has a BOD of only a few mg L⁻¹; raw domestic sewage has a BOD of a few hundred mg L⁻¹ (about 300).",
-        "Farm wastes such as silage effluent and slurry have a BOD in the thousands to tens of thousands of mg L⁻¹, so a small spill can kill a river."
-      ]
+        "Fish and other aquatic life need oxygen dissolved in the water; clean water at 20 °C holds only about 9 mg L⁻¹ (9 p.p.m., parts per million) of dissolved oxygen, and warmer water holds less.",
+        "When organic matter (material from living things, such as sewage, slurry, food waste or dead plants) enters water, aerobic bacteria (bacteria that use oxygen) break it down, using up dissolved oxygen.",
+        "Biochemical oxygen demand (BOD) is the amount of dissolved oxygen used up by biological (biochemical) action when a water sample is kept in the dark at 20 °C for five days. It is measured in mg L⁻¹ (p.p.m.) of oxygen.",
+        "A high BOD means a lot of organic pollution: the oxygen is used up and fish die (a fish kill). When the oxygen is gone, anaerobic bacteria (which live without oxygen) take over, producing foul-smelling gases such as hydrogen sulfide (H₂S) and methane.",
+        "Unpolluted river water has a BOD of only a few mg L⁻¹; raw domestic sewage (sewage that has had no treatment) has a BOD of a few hundred mg L⁻¹ (about 300).",
+        "Farm wastes such as silage effluent (the liquid that drains from stored fermented grass) and slurry (liquid animal manure) have a BOD in the thousands to tens of thousands of mg L⁻¹, so a small spill can kill a river."
+      ],
+      "tip": "BOD is not the amount of oxygen in the water. It is the amount used up by microorganisms over five days, and a high BOD means polluted water. Give these BOD values as orders of magnitude only, not as exact figures."
     },
     {
       "h": "Investigation: measuring biochemical oxygen demand",
-      "b": "The BOD test compares the dissolved oxygen in a sample before and after five days of bacterial activity.",
+      "b": "The BOD test compares the dissolved oxygen in a sample before and after five days of bacterial activity. The conditions are fixed so that the only thing using up oxygen is the bacteria and the results can be compared.",
       "points": [
         "The sample is kept in the dark because this prevents photosynthesis by algae and plants from adding oxygen.",
-        "The temperature is fixed at 20 °C because both the solubility of oxygen and the rate of bacterial activity depend on temperature.",
+        "The temperature is fixed at 20 °C because both the solubility of oxygen (how much dissolves in the water) and the rate of bacterial activity depend on temperature.",
         "The time is fixed at five days so that results are comparable.",
         "Step 1: Measure the dissolved oxygen in one bottle of the sample at the start.",
-        "Step 2: Fill a second bottle completely and seal it, then keep it in the dark at 20 °C for five days.",
+        "Step 2: Fill a second bottle completely and seal it, so no air can add oxygen, then keep it in the dark at 20 °C for five days.",
         "Step 3: Measure the dissolved oxygen in the second bottle after five days.",
-        "Step 4: The BOD is the difference between the two dissolved oxygen readings.",
-        "Diagram: two labelled BOD bottles, one for the initial dissolved oxygen measurement and one completely filled and sealed for incubation in the dark at 20 °C for five days."
-      ]
+        "Step 4: The BOD is the difference between the two dissolved oxygen readings, because that difference is the oxygen the bacteria used.",
+        "Diagram: two labelled BOD bottles, one for the initial dissolved oxygen measurement and one completely filled and sealed for incubation (keeping the sample under set conditions) in the dark at 20 °C for five days."
+      ],
+      "tip": "Exams ask you to define BOD and to say how the sample is stored and why. Learn the three conditions (dark, 20 °C, five days) with the reason for each. Give the principle of the test only; the method of measuring dissolved oxygen is not required."
     },
     {
       "h": "Sewage",
+      "b": "Sewage is waste water from toilets, kitchens and washing. If it is untreated or poorly treated, it harms a river in three different ways.",
       "points": [
-        "Untreated or poorly treated sewage contains organic matter, which has a high BOD and causes oxygen depletion.",
-        "Sewage also contains nitrates and phosphates, which cause eutrophication.",
+        "Untreated or poorly treated sewage contains organic matter, which has a high BOD and causes oxygen depletion (the water losing its dissolved oxygen).",
+        "Sewage also contains nitrates and phosphates, which cause eutrophication (an overgrowth of algae caused by too many nutrients).",
         "Sewage contains disease-causing microorganisms, including bacteria such as E. coli and those causing cholera and typhoid, as well as viruses and parasites.",
-        "Faecal contamination of drinking water or bathing water causes gastrointestinal illness; this is why sewage must be treated before discharge and drinking water disinfected."
-      ]
+        "Faecal contamination (contamination with human or animal faeces) of drinking water or bathing water causes gastrointestinal illness (illness of the stomach and gut); this is why sewage must be treated before discharge and drinking water disinfected."
+      ],
+      "tip": "If asked for problems caused by discharging untreated sewage into a river, cover all three: high BOD and oxygen loss, nitrates and phosphates causing eutrophication, and disease-causing microorganisms. The stages of sewage treatment are not required."
     },
     {
       "h": "Agricultural effluent",
+      "b": "Effluent means liquid waste that flows out into the environment. Farms produce several kinds, and each can reach rivers through spills or run-off (water washing over land into streams).",
       "points": [
         "Agricultural effluent includes animal slurry, silage effluent, milking-parlour washings and run-off of artificial fertilisers.",
-        "Slurry and silage effluent have a very high BOD and cause fish kills if they reach a river.",
+        "Slurry and silage effluent have a very high BOD, so they use up the dissolved oxygen and cause fish kills if they reach a river.",
         "Fertiliser and slurry run-off carry nitrates (NO₃⁻) and phosphates (PO₄³⁻) into water, causing eutrophication.",
         "Nitrate in drinking water is a health concern, especially for babies, because it can reduce the blood's ability to carry oxygen.",
         "The EU drinking-water limit for nitrate is 50 mg L⁻¹.",
-        "Pesticides washed off farmland can contaminate water and are toxic to aquatic life."
-      ]
+        "Pesticides (chemicals that kill pests) washed off farmland can contaminate water and are toxic to aquatic life."
+      ],
+      "tip": "When asked for the ions responsible for eutrophication and their sources, name nitrates and phosphates and link them to fertiliser and slurry run-off."
     },
     {
       "h": "Eutrophication",
-      "b": "Eutrophication is a chain of events that starts with added nutrients and can end with the death of fish.",
+      "b": "Eutrophication is the enrichment of water with nutrients, especially nitrates and phosphates, leading to excessive growth of algae and plants. It is a chain of events that starts with added nutrients and can end with the death of fish.",
       "points": [
         "Step 1: Nitrates and phosphates from fertiliser run-off, slurry, sewage and detergents enter a river or lake.",
-        "Step 2: Algae and aquatic plants grow rapidly, forming an algal bloom that covers the surface and blocks light from plants below.",
-        "Step 3: The algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply.",
-        "Living algae growing in light do not use up the oxygen; it is the bacteria decomposing them after they die that do.",
+        "Step 2: Algae and aquatic plants grow rapidly, forming an algal bloom (a thick layer of algae) that covers the surface and blocks light from plants below.",
+        "Step 3: The algae die and are decomposed by aerobic bacteria, which use up the dissolved oxygen, so the BOD rises sharply. Living algae growing in light do not use up the oxygen; the bacteria decomposing them after they die do.",
         "Step 4: Dissolved oxygen falls so low that fish and other animals die, and anaerobic bacteria then produce foul-smelling H₂S.",
-        "Some algal blooms, e.g. of cyanobacteria (“blue-green algae”), also produce toxins harmful to animals and people.",
-        "Prevention: controlled use of fertilisers, meaning the right amount at the right time and not before heavy rain, and buffer strips along rivers.",
+        "Some algal blooms, e.g. of cyanobacteria (\"blue-green algae\"), also produce toxins harmful to animals and people.",
+        "Prevention: controlled use of fertilisers, meaning the right amount at the right time and not before heavy rain (which would wash it into rivers), and buffer strips (strips of vegetation) along rivers.",
         "Prevention: proper storage of slurry and silage, removing phosphates and nitrates in sewage treatment, and phosphate-free detergents."
-      ]
+      ],
+      "tip": "You may be asked to define eutrophication, state a cause and give a harmful effect. Do not say the living algae use up the oxygen: it is the bacteria decomposing them when they die."
     },
     {
       "h": "Industrial effluent",
+      "b": "Factories and power stations discharge waste water that can harm water in several ways: poisoning it, changing its pH, using up its oxygen or heating it.",
       "points": [
         "Industrial effluent can contain toxic chemicals such as heavy metals, solvents and oils.",
-        "Industrial effluent can contain acids or alkalis that change the pH of the water.",
-        "Organic waste from industries such as breweries and food processing has a high BOD.",
-        "Thermal pollution: warm water from power stations and factories holds less dissolved oxygen.",
-        "Warm water also speeds up the metabolism, and so the oxygen demand, of organisms, so less oxygen is available.",
+        "Industrial effluent can contain acids or alkalis that change the pH of the water, which harms the organisms living in it.",
+        "Organic waste from industries such as breweries and food processing has a high BOD, because bacteria use oxygen to break it down.",
+        "Thermal pollution (pollution by heat): warm water from power stations and factories holds less dissolved oxygen.",
+        "Warm water also speeds up the metabolism (the chemical reactions of life), and so the oxygen demand, of organisms, so even less oxygen is available.",
         "Oil forms a film on the surface that stops oxygen dissolving and coats birds and animals."
       ]
     },
     {
       "h": "Heavy metals",
+      "b": "Heavy metals are dense metals whose ions are poisonous to living things. Their danger lies in how they act inside cells and in how they build up over time.",
       "points": [
         "Heavy metal ions such as lead (Pb²⁺), mercury (Hg²⁺) and cadmium (Cd²⁺) are toxic even at very low concentrations, in micrograms per litre.",
-        "Heavy metal ions bind to proteins, particularly to sulfur-containing (–SH) groups in enzymes, changing their shape and stopping them working.",
+        "Heavy metal ions bind to proteins, particularly to sulfur-containing (–SH) groups in enzymes (the proteins that speed up reactions in cells), changing their shape and stopping them working.",
         "Heavy metals damage the nervous system, kidneys and liver.",
         "They are cumulative poisons: the body can't excrete them easily, so they build up in tissues (bioaccumulation).",
         "Their concentration increases up a food chain (biomagnification), so top predators and people who eat fish are most at risk.",
-        "Heavy metal ions can be removed from water by precipitation as insoluble compounds, e.g. hydroxides or sulfides, followed by filtration, or by ion exchange."
-      ]
+        "Heavy metal ions can be removed from water by precipitation (turning them into a solid that forms in the water) as insoluble compounds, e.g. hydroxides or sulfides, followed by filtration, or by ion exchange (swapping the metal ions for harmless ions)."
+      ],
+      "tip": "To explain why Pb²⁺ and Hg²⁺ in water are a cause for concern, give toxicity at very low concentrations, binding to enzymes, and build-up in tissues and up the food chain. To remove lead from water, say precipitation as an insoluble compound then filtration, or ion exchange. Instrumental analysis such as AAS is not on the specification."
     },
     {
       "h": "Lead, mercury and cadmium",
+      "b": "Each of the three metals reaches water from a different source and harms the body in a particular way. Two Japanese disease outbreaks show what the harm can look like.",
       "points": [
-        "Lead comes from old lead pipes in houses built before about 1970, especially where the water is soft and acidic.",
+        "Lead comes from old lead pipes in houses built before about 1970, especially where the water is soft and acidic, because such water dissolves lead more readily.",
         "Lead damages the developing brain and nervous system of children, partly because Pb²⁺ takes the place of Ca²⁺.",
         "The EU drinking-water limit for lead is 10 µg L⁻¹ (0.010 mg L⁻¹).",
         "At Minamata, Japan, the Chisso Corporation's chemical factory discharged mercury compounds into the bay.",
-        "Methylmercury built up in fish and shellfish, and people who ate them suffered severe nervous-system damage, birth defects and deaths.",
+        "Methylmercury (an organic mercury compound) built up in fish and shellfish, and people who ate them suffered severe nervous-system damage, birth defects and deaths.",
         "The disease was called Minamata disease and was officially recognised in 1956.",
         "Cadmium comes from mining and some industries and damages the kidneys and bones.",
         "Itai-itai disease in Japan was caused by cadmium from mining, which reached river water used for rice fields."
@@ -114,30 +133,39 @@
     },
     {
       "h": "Microplastics",
+      "b": "Plastic that breaks into tiny pieces does not disappear; it spreads through water and into living things. These small pieces are called microplastics.",
       "points": [
         "Microplastics are pieces of plastic smaller than 5 mm.",
         "Primary microplastics are made small, e.g. microbeads once used in cosmetics and plastic pellets.",
         "Secondary microplastics form when larger plastic items break down, e.g. fibres from synthetic clothing in washing machines, tyre and road wear, packaging and bags.",
-        "Plastics are very unreactive and not biodegradable, so they persist for hundreds of years (see “Addition polymers”).",
-        "Microplastics are swallowed by plankton, shellfish and fish, blocking feeding and digestion, and they pass up the food chain.",
-        "Microplastics can carry adsorbed toxic chemicals.",
+        "Plastics are very unreactive and not biodegradable (bacteria cannot break them down), so they persist for hundreds of years. There is more on this in Addition polymers.",
+        "Microplastics are swallowed by plankton (tiny drifting organisms), shellfish and fish, blocking feeding and digestion, and they pass up the food chain.",
+        "Microplastics can carry adsorbed toxic chemicals (chemicals stuck to their surface).",
         "Microplastics are found in drinking water and food; their long-term effects on human health are still being researched."
       ]
     },
     {
-      "h": "Acidification",
+      "h": "Acid rain and other sources of acidification",
+      "b": "Acidification is the lowering of the pH of water. Gases from burning fuels dissolve in rain to make acids, and acidic waste water adds to the effect.",
       "points": [
         "Sulfur dioxide dissolves in rain: SO₂ + H₂O → H₂SO₃.",
         "Sulfur dioxide and oxygen form sulfuric acid in rain: 2SO₂ + O₂ + 2H₂O → 2H₂SO₄.",
         "Nitrogen dioxide forms nitric acid in rain: 4NO₂ + O₂ + 2H₂O → 4HNO₃.",
         "Acidic industrial and mine waste water also lowers the pH of rivers and lakes.",
-        "Normal rain is slightly acidic, with a pH of about 5.6, because of dissolved CO₂; acid rain has a lower pH.",
+        "Normal rain is slightly acidic, with a pH of about 5.6, because of dissolved CO₂; acid rain has a lower pH."
+      ]
+    },
+    {
+      "h": "Effects of acidification on aquatic life",
+      "b": "Low pH harms water life directly, through enzymes, and indirectly, by dissolving substances from rocks, shells and pipes.",
+      "points": [
         "Enzymes work only in a narrow pH range, so low pH disrupts enzyme activity and the balance of ions in organisms' cells.",
         "Fish eggs and young fish are most sensitive, and many fish can't survive below about pH 5.",
         "Acidic water dissolves aluminium compounds from soils and rocks; Al³⁺ ions damage fish gills so that fish can't take in oxygen.",
         "Acidic water dissolves the calcium carbonate shells of snails and shellfish: CaCO₃ + 2H⁺ → Ca²⁺ + H₂O + CO₂.",
         "In drinking water, acidic water dissolves lead and copper from pipes."
-      ]
+      ],
+      "tip": "For the effects of acidification on aquatic life, link low pH to disrupted enzymes and ion balance, aluminium damaging gills, and shells dissolving."
     }
   ],
   "keyTerms": [

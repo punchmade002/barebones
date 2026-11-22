@@ -6,100 +6,118 @@
   "notes": [
     {
       "h": "Physical and chemical properties",
+      "b": "Every substance can be described by what it looks like and does on its own, and by how it behaves when it reacts. Chemists split these descriptions into physical properties and chemical properties, and this split is the basis for telling the two kinds of change apart.",
       "points": [
-        "A physical property can be observed or measured without changing the substance into a new substance.",
-        "Physical properties include colour, state, density, melting point, boiling point, solubility, electrical conductivity and hardness.",
-        "A chemical property describes how a substance reacts to form new substances.",
-        "Chemical properties include flammability, reactivity with water, oxygen or acids, whether a substance is acidic or basic, and how it decomposes on heating."
+        "A physical property can be observed or measured without changing the substance into a new substance, so you can test it and still have the same material afterwards.",
+        "Physical properties include colour, state (solid, liquid or gas), density (mass per unit volume), melting point, boiling point, solubility (how well it dissolves), electrical conductivity (whether it carries a current) and hardness.",
+        "A chemical property describes how a substance reacts to form new substances, so it can only be found out by reacting the substance.",
+        "Chemical properties include flammability (whether it burns), reactivity with water, oxygen or acids, whether a substance is acidic or basic, and how it decomposes (breaks down into simpler substances) on heating."
       ]
     },
     {
       "h": "Physical change",
+      "b": "In a physical change the substance looks or behaves differently but is still the same substance. Only how its particles are arranged or spaced has altered.",
       "points": [
         "A physical change is one in which no new substance is formed; the particles are not changed, only their arrangement or spacing.",
-        "A physical change is usually easily reversed and involves only a small energy change.",
-        "A change of state is always a physical change.",
-        "Examples of physical change: melting ice, boiling water, dissolving sugar or salt in water, sublimation of iodine, crushing a solid and magnetising iron.",
-        "The mass is unchanged in a physical change."
-      ]
+        "A physical change is usually easily reversed and involves only a small energy change, because no bonds (the forces holding atoms together) are broken and remade.",
+        "A change of state is always a physical change: melting, boiling, freezing and condensing only move the same particles further apart or closer together.",
+        "Examples of physical change: melting ice, boiling water, dissolving sugar or salt in water, sublimation of iodine (solid turning straight to gas), crushing a solid and magnetising iron.",
+        "The mass is unchanged in a physical change, because the same particles are present before and after."
+      ],
+      "tip": "A change of state is always physical, so never call melting or boiling a chemical change. When asked to classify a change, give the reason too: no new substance formed, and it can be reversed."
     },
     {
       "h": "Chemical change",
+      "b": "In a chemical change the substances you start with are used up and different substances are made. This happens by rearranging atoms, so the product has properties of its own.",
       "points": [
-        "A chemical change, or chemical reaction, is one in which one or more new substances are formed, with different properties.",
+        "A chemical change, or chemical reaction, is one in which one or more new substances are formed, with different properties from the starting substances.",
         "In a chemical change bonds are broken and new bonds are made, so the atoms are rearranged into new particles.",
-        "A chemical change is usually difficult to reverse.",
-        "A chemical change usually involves a noticeable energy change.",
-        "Total mass is conserved in a chemical change too, if nothing escapes (see “Investigation: conservation of mass”)."
-      ]
+        "A chemical change is usually difficult to reverse, because the new substances have to be turned back into the originals by another reaction.",
+        "A chemical change usually involves a noticeable energy change, with heat or light given out or taken in, because breaking and making bonds changes the energy stored in the substances.",
+        "Total mass is conserved in a chemical change too, if nothing escapes, because the atoms are only rearranged. There is more on this in the investigation on conservation of mass below."
+      ],
+      "tip": "Exams ask you to distinguish a physical change from a chemical change with an example of each. State the key difference: a chemical change forms a new substance and a physical change does not."
     },
     {
       "h": "Signs of a chemical change",
+      "b": "Because a chemical change makes new substances, it often produces something you can see, hear, feel or smell. These are the signs to look for, but they are clues rather than proof.",
       "points": [
-        "A gas is given off (effervescence).",
-        "A precipitate forms.",
-        "A permanent colour change occurs.",
-        "The temperature changes.",
+        "A gas is given off (effervescence, which is fizzing or bubbling), showing a new gas has been made.",
+        "A precipitate forms, meaning an insoluble solid appears in a solution.",
+        "A permanent colour change occurs, since the new substance has a different colour from the old one.",
+        "The temperature changes, because the reaction gives out or takes in heat.",
         "Light is produced.",
         "A smell is produced.",
         "A colour change alone is not proof of a chemical change: dissolving copper sulfate in water gives a blue solution, which is a physical change."
-      ]
+      ],
+      "tip": "Exams ask you to give signs that a chemical reaction has occurred. Remember the trap that a colour change on its own is not enough; the copper sulfate solution is the example to use."
     },
     {
       "h": "Examples of chemical change",
+      "b": "These are the reactions to quote when asked to classify a change or give an example of a chemical change. In each one a new substance is formed.",
       "points": [
-        "Burning magnesium forms white magnesium oxide.",
+        "Burning magnesium forms white magnesium oxide, a new substance with light and heat given out.",
         "Rusting of iron.",
         "Cooking an egg.",
-        "Magnesium fizzing in hydrochloric acid.",
+        "Magnesium fizzing in hydrochloric acid, where the fizzing is gas being given off.",
         "Heating copper(II) carbonate decomposes it: the green solid forms black copper(II) oxide and carbon dioxide.",
-        "Neutralisation of an acid by a base, with the equations given in “Balancing equations”."
-      ]
+        "Neutralisation of an acid by a base is also a chemical change; the equations are given in the section on balancing equations."
+      ],
+      "tip": "A model classification answer gives a reason with each example. Iodine subliming is physical (no new substance, reversible), magnesium burning is chemical (new substance MgO, light and heat) and sugar dissolving in tea is physical (the sugar is recovered by evaporation)."
     },
     {
       "h": "Comparing physical and chemical change",
+      "b": "Put side by side, the two kinds of change differ on four points. The test is always whether a new substance has been made.",
       "points": [
         "No new substance is formed in a physical change, but a new substance is formed in a chemical change.",
         "A physical change is easily reversed; a chemical change is usually difficult to reverse.",
         "A physical change involves a small energy change; a chemical change usually involves a large energy change.",
         "Particles are unchanged in a physical change, but atoms are rearranged into new particles in a chemical change.",
-        "Borderline case: dissolving salt in water is a physical change, because evaporating the water recovers the salt unchanged, even though its ions are separated."
-      ]
+        "Borderline case: dissolving salt in water is a physical change, because evaporating the water recovers the salt unchanged, even though its ions (charged particles) are separated."
+      ],
+      "tip": "Exams ask you to classify given changes and give a reason. Use these paired points as your reasons, and use the salt example if you are unsure about dissolving."
     },
     {
       "h": "Law of conservation of mass",
+      "b": "Weighing reactions carefully showed that nothing is lost or gained in the total mass. This is one of the two laws behind all physical and chemical changes.",
       "points": [
-        "Law of conservation of mass: in a chemical reaction or physical change, matter is neither created nor destroyed, so the total mass of the products equals the total mass of the reactants.",
-        "Antoine Lavoisier established the law in the late 1700s (published 1789) by careful weighing of reactions in sealed vessels.",
-        "The number of moles or molecules may change in a reaction, but the mass does not."
-      ]
+        "Law of conservation of mass: in a chemical reaction or physical change, matter is neither created nor destroyed, so the total mass of the products (substances made) equals the total mass of the reactants (substances that react).",
+        "Antoine Lavoisier established the law in the late 1700s (published 1789) by careful weighing of reactions in sealed vessels, so that no gas could escape unnoticed.",
+        "The number of moles (the amount of substance, counted in particles) or molecules may change in a reaction, but the mass does not."
+      ],
+      "tip": "Mass is conserved, but the number of moles of molecules need not be. Exams ask you to state the law."
     },
     {
       "h": "Law of conservation of energy",
+      "b": "Energy follows a similar rule to mass. It can change form during a reaction, but the total stays the same.",
       "points": [
         "Law of conservation of energy: energy cannot be created or destroyed, only changed from one form to another.",
-        "When a fuel burns, chemical energy is changed to heat and light.",
-        "The total energy of a reaction and its surroundings stays the same."
+        "When a fuel burns, chemical energy (energy stored in the bonds of the fuel) is changed to heat and light.",
+        "The total energy of a reaction and its surroundings stays the same, so any energy lost by the reacting substances appears in the surroundings."
       ]
     },
     {
       "h": "Why the laws matter",
+      "b": "The two laws are not just facts to state; they explain two things chemists do every day.",
       "points": [
         "Both laws underpin all physical and chemical changes.",
-        "Conservation of atoms, and so of mass, is why chemical equations must be balanced.",
-        "Conservation of energy is why energy changes in reactions can be measured."
+        "Conservation of atoms, and so of mass, is why chemical equations must be balanced: there must be the same number of each kind of atom on both sides.",
+        "Conservation of energy is why energy changes in reactions can be measured: the heat given out or taken in is accounted for in the surroundings."
       ]
     },
     {
       "h": "Investigation: aim and hypothesis",
+      "b": "This experiment tests the law of conservation of mass using your own measurements (primary data). The idea is to weigh a reaction without letting anything escape.",
       "points": [
         "Aim: to verify, using primary data, that mass is conserved in a chemical reaction.",
         "Hypothesis: the total mass before and after the reaction will be the same, because atoms are only rearranged.",
         "Measured variable: the total mass of the stoppered apparatus before and after the reaction; no variable is changed on purpose."
-      ]
+      ],
+      "tip": "Exams ask you to describe an experiment to verify the law, state the results and explain them in terms of particles."
     },
     {
       "h": "Investigation: apparatus and method",
+      "b": "Two solutions that react to form a precipitate are kept apart inside a stoppered flask until the flask is tilted. Because the flask is sealed, any change in mass would show up on the balance.",
       "points": [
         "Apparatus: conical flask, small test tube, stopper, electronic balance (0.01 g), sodium chloride solution and silver nitrate solution.",
         "Diagram: a stoppered conical flask on a balance, containing sodium chloride solution, with a small test tube of silver nitrate solution standing upright inside; label the flask, stopper, test tube and both solutions.",
@@ -112,23 +130,28 @@
     },
     {
       "h": "Investigation: results and safety",
+      "b": "The reweighed flask gives the result, and the precautions come from the chemicals used.",
       "points": [
-        "Results: the mass before and after the reaction is the same, within the precision of the balance, so mass is conserved.",
+        "Results: the mass before and after the reaction is the same, within the precision of the balance (0.01 g), so mass is conserved.",
         "Safety: silver nitrate stains the skin and is an irritant, so wear gloves and goggles.",
         "Lead nitrate is not used in this method because it is toxic."
-      ]
+      ],
+      "tip": "Don't use lead nitrate in the method, because it is toxic."
     },
     {
       "h": "Open and closed systems",
+      "b": "Mass can seem to be lost if a gas is made and escapes. Comparing an open flask with a sealed one shows that the law still holds.",
       "points": [
         "In an open flask, marble chips (calcium carbonate) reacting with hydrochloric acid make the mass on the balance decrease: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g).",
         "The carbon dioxide escapes, so the apparent loss of mass is gas leaving the flask, not mass being destroyed.",
         "If the same reaction is done in a sealed flask, or with a balloon over the neck to trap the gas, the mass stays the same.",
         "When magnesium burns in air, the product is heavier than the magnesium, because oxygen from the air has combined with it: 2Mg + O₂ → 2MgO."
-      ]
+      ],
+      "tip": "A mass decrease in an open flask is not a failure of the law; gas escaped. Exams ask you to explain this for a carbonate and acid in an open flask, and how to change the experiment to show mass is conserved."
     },
     {
       "h": "Explaining with models",
+      "b": "Models let us explain why mass is conserved. All three below show the same idea: the same atoms are present before and after, just arranged differently.",
       "points": [
         "Particle model: in a reaction the atoms in the reactants are rearranged to form the products; no atoms are created or destroyed, so the total mass stays the same.",
         "A balanced equation is a symbolic model of conservation: the silver nitrate equation has 1 Ag, 1 N, 3 O, 1 Na and 1 Cl on each side.",

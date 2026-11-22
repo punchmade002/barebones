@@ -6,87 +6,118 @@
   "notes": [
     {
       "h": "Oxidation and reduction in organic compounds (Higher Level only)",
+      "b": "Organic chemists track redox (electron-transfer) changes by watching oxygen and hydrogen, because carbon compounds rarely show ions. This gives a simple ladder from alcohols up to carboxylic acids.",
       "points": [
-        "An organic compound is oxidised when it gains oxygen or loses hydrogen, and reduced when it gains hydrogen or loses oxygen.",
-        "The oxidation number of the carbon involved rises on oxidation and falls on reduction.",
-        "The oxidation ladder: primary alcohol to aldehyde to carboxylic acid; secondary alcohol to ketone. Each step is an oxidation, and the reverse is a reduction.",
-        "Equations may be written with [O] for oxygen from the oxidising agent: CH₃CH₂OH + [O] → CH₃CHO + H₂O, and CH₃CHO + [O] → CH₃COOH."
-      ]
+        "An organic compound is oxidised when it gains oxygen or loses hydrogen, and reduced when it gains hydrogen or loses oxygen. These are the quick tests to apply to any organic change.",
+        "The oxidation number of the carbon involved (the charge it would have if the bonds were fully ionic) rises on oxidation and falls on reduction, which matches the oxygen and hydrogen rule.",
+        "The oxidation ladder: primary alcohol (OH on a carbon with one other carbon attached) to aldehyde (–CHO) to carboxylic acid (–COOH); secondary alcohol (OH on a carbon with two other carbons attached) to ketone (C=O inside the chain).",
+        "Each step up the ladder is an oxidation, and the reverse of each step is a reduction.",
+        "Equations may be written with [O] for oxygen supplied by the oxidising agent (the substance that removes electrons or hydrogen), so the organic change is shown without the reagent: CH₃CH₂OH + [O] → CH₃CHO + H₂O, and CH₃CHO + [O] → CH₃COOH."
+      ],
+      "tip": "Learn the ladder as a picture: primary alcohol to aldehyde to carboxylic acid, and secondary alcohol to ketone. Questions ask which reagent and colour change carry out each step."
     },
     {
       "h": "Acidified potassium permanganate (Higher Level only)",
+      "b": "Potassium permanganate is a strong oxidising agent that shows its own progress by colour. In acid it removes hydrogen or adds oxygen to alcohols, so it carries organic compounds up the oxidation ladder.",
       "points": [
-        "Acidified potassium permanganate, KMnO₄ with dilute sulfuric acid, is a strong oxidising agent.",
-        "It is reduced from purple MnO₄⁻ to almost colourless Mn²⁺: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
-        "It oxidises primary alcohols to aldehydes and then to carboxylic acids: ethanol to ethanal to ethanoic acid, and propan-1-ol to propanal to propanoic acid. The purple colour fades.",
-        "Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O, using the organic half-equation C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻.",
-        "To stop at the aldehyde, the aldehyde is distilled off as it forms, since ethanal boils at about 21 °C, well below ethanol at 78 °C, and the oxidising agent is not in excess.",
-        "To make the acid, an excess of oxidising agent is used and the mixture is heated under reflux.",
+        "Acidified potassium permanganate, KMnO₄ with dilute sulfuric acid, is a strong oxidising agent. It is reduced from purple MnO₄⁻ to almost colourless Mn²⁺: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O.",
+        "It oxidises primary alcohols to aldehydes and then to carboxylic acids: ethanol to ethanal to ethanoic acid, and propan-1-ol to propanal to propanoic acid. The purple colour fades as the permanganate is used up.",
+        "Balanced example: 5C₂H₅OH + 2MnO₄⁻ + 6H⁺ → 5CH₃CHO + 2Mn²⁺ + 8H₂O.",
+        "It is built from the organic half-equation (the electron-losing half) C₂H₅OH → CH₃CHO + 2H⁺ + 2e⁻ and the permanganate half-equation, so that the electrons cancel.",
+        "To stop at the aldehyde, distil it off as it forms (heating so it boils out of the mixture) and do not use the oxidising agent in excess.",
+        "This works because ethanal boils at about 21 °C, well below ethanol at 78 °C, so it leaves before it can be oxidised further."
+      ],
+      "tip": "To stop at the aldehyde, distil it off as it forms with the oxidising agent not in excess. Acidified permanganate goes colourless (Mn²⁺), not brown."
+    },
+    {
+      "h": "Acidified permanganate: acids, secondary and tertiary alcohols (Higher Level only)",
+      "b": "Whether acidified permanganate reacts depends on how many hydrogens sit on the carbon bearing the oxygen. This decides how far each type of alcohol gets.",
+      "points": [
+        "To make the acid, use an excess of oxidising agent and heat under reflux (boiling with a condenser that returns the vapours to the flask), so the aldehyde stays in the mixture until it is oxidised to the acid.",
         "It oxidises secondary alcohols to ketones: propan-2-ol to propanone, CH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O.",
-        "It does not oxidise tertiary alcohols, such as 2-methylpropan-2-ol, or ketones: neither has a hydrogen on the carbon bearing the oxygen, and oxidation would need a C–C bond to break.",
+        "It does not oxidise tertiary alcohols (OH on a carbon with three other carbons attached), such as 2-methylpropan-2-ol, or ketones. Neither has a hydrogen on the carbon bearing the oxygen, and oxidation would need a C–C bond to break.",
         "Carboxylic acids are not oxidised further."
-      ]
+      ],
+      "tip": "To get the acid, use excess oxidising agent and heat under reflux. Permanganate oxidises primary and secondary alcohols and aldehydes."
     },
     {
       "h": "Basic potassium permanganate (Higher Level only)",
+      "b": "Permanganate behaves differently in alkaline conditions: it is reduced less far, so a different product and colour result. The alcohol is still oxidised up the ladder.",
       "points": [
-        "In basic (alkaline) solution, e.g. with sodium carbonate, permanganate is reduced to brown manganese(IV) oxide instead: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻.",
-        "The colour change is from purple to a brown precipitate.",
-        "It oxidises a primary alcohol to a carboxylic acid, which is present as its salt in the basic solution: phenylmethanol gives benzoate ions, which give benzoic acid on acidifying; see \"Investigation: synthesising benzoic acid\"."
-      ]
+        "In basic (alkaline) solution, e.g. with sodium carbonate, permanganate is reduced to brown manganese(IV) oxide instead of Mn²⁺: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻.",
+        "The colour change is from purple to a brown precipitate (an insoluble solid that forms in the solution).",
+        "It oxidises a primary alcohol to a carboxylic acid, which is present as its salt in the basic solution because the base neutralises it: phenylmethanol gives benzoate ions, which give benzoic acid on acidifying. There is more on this in Investigation: synthesising benzoic acid."
+      ],
+      "tip": "Acidified permanganate gives colourless Mn²⁺; basic permanganate gives a brown MnO₂ precipitate. Don't mix them up."
     },
     {
       "h": "Fehling's solution (Higher Level only)",
+      "b": "Fehling's solution is a gentler oxidising agent than permanganate. Because it only oxidises aldehydes, it can tell an aldehyde from a ketone or an alcohol.",
       "points": [
         "Fehling's solution is a mild oxidising agent containing Cu²⁺ ions.",
-        "It oxidises aldehydes to carboxylic acids, present as carboxylate salts in the alkaline reagent, and is itself reduced to brick-red copper(I) oxide, Cu₂O.",
-        "It does not oxidise ketones, and, being mild, it does not oxidise alcohols, so it is used to identify aldehydes; see \"Tests, reaction schemes and preparing an ester\"."
-      ]
+        "It oxidises aldehydes to carboxylic acids, present as carboxylate salts (the acid's anion) in the alkaline reagent, and is itself reduced to brick-red copper(I) oxide, Cu₂O.",
+        "It does not oxidise ketones, and, being mild, it does not oxidise alcohols, so it is used to identify aldehydes. There is more on this in Tests, reaction schemes and preparing an ester."
+      ],
+      "tip": "Fehling's solution oxidises aldehydes but not alcohols or ketones, whereas permanganate oxidises primary and secondary alcohols and aldehydes."
     },
     {
       "h": "Reduction with hydrogen and nickel (Higher Level only)",
+      "b": "Reduction is the reverse of the oxidation ladder: hydrogen gas with a nickel catalyst (a solid that speeds up the reaction without being used up) adds hydrogen to a double bond. It turns carbonyl compounds back into alcohols.",
       "points": [
         "Hydrogen gas with a nickel catalyst is the reducing agent: it adds hydrogen across a C=O or C=C double bond.",
         "Aldehydes are reduced to primary alcohols: CH₃CHO + H₂ → CH₃CH₂OH (ethanal to ethanol).",
         "Ketones are reduced to secondary alcohols: CH₃COCH₃ + H₂ → CH₃CH(OH)CH₃ (propanone to propan-2-ol).",
-        "Alkenes are reduced to alkanes: CH₂=CH₂ + H₂ → CH₃CH₃; this is also an addition reaction.",
-        "Hydrogenation of vegetable oils: oils contain many C=C bonds, and adding hydrogen over nickel converts some C=C to C–C, raising the melting point, so the liquid oil becomes a soft solid fat used in margarine.",
-        "The degree of hydrogenation sets how hard the product is."
-      ]
+        "Alkenes (hydrocarbons with a C=C bond) are reduced to alkanes: CH₂=CH₂ + H₂ → CH₃CH₃; this is also an addition reaction, because two molecules join to form one product.",
+        "Hydrogenation of vegetable oils: oils contain many C=C bonds (they are polyunsaturated), and adding hydrogen over nickel converts some C=C to C–C. This raises the melting point, so the liquid oil becomes a soft solid fat used in margarine.",
+        "The degree of hydrogenation (how many C=C bonds are converted) sets how hard the product is."
+      ],
+      "tip": "The reagent and catalyst for reducing ethanal to ethanol, or propanone to propan-2-ol, is hydrogen with nickel. Don't say it reduces carboxylic acids."
     },
     {
       "h": "Acid–base reactions of carboxylic acids and alcohols (Higher Level only)",
+      "b": "Carboxylic acids can give away a proton (H⁺), so they react like other acids with bases. Alcohols hold on to their proton much more tightly.",
       "points": [
-        "Carboxylic acids are weak acids that transfer a proton to bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
+        "Carboxylic acids are weak acids (only partly ionised in water) that transfer a proton to bases: CH₃COOH + NaOH → CH₃COONa + H₂O.",
         "With carbonates they give carbon dioxide: 2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂.",
         "With hydrogencarbonates they also give carbon dioxide: CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂.",
-        "Alcohols are far weaker acids than carboxylic acids, about as weak as water itself, so they do not react with sodium carbonate or usefully with sodium hydroxide; see \"Physical properties and acidity\"."
-      ]
+        "Alcohols are far weaker acids than carboxylic acids, about as weak as water itself, so they do not react with sodium carbonate or usefully with sodium hydroxide. There is more on this in Physical properties and acidity."
+      ],
+      "tip": "Exams ask for the equation for ethanol with sodium and why alcohols are weaker acids than carboxylic acids; both are taught in Physical properties and acidity."
     },
     {
       "h": "Base hydrolysis of esters (Higher Level only)",
+      "b": "An ester (the compound formed from an alcohol and a carboxylic acid) can be split again by water. Using a base for this makes the reaction go all the way, which is why it is an acid–base reaction.",
       "points": [
         "Hydrolysis is the breaking of a compound by reaction with water.",
-        "Esters can be hydrolysed by acid, which is reversible and is the reverse of esterification, or by base.",
-        "Base hydrolysis: heating an ester with sodium hydroxide gives the sodium salt of the carboxylic acid and the alcohol: CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH.",
-        "It is an acid–base reaction because the hydroxide ion acts as a base and the carboxylic acid formed is converted to its carboxylate ion.",
-        "This is why base hydrolysis goes to completion, while acid hydrolysis reaches an equilibrium.",
-        "Acidifying the product mixture converts the carboxylate salt back into the free carboxylic acid: CH₃COO⁻ + H⁺ → CH₃COOH."
+        "Esters can be hydrolysed by acid, which is reversible and is the reverse of esterification (making an ester from an acid and an alcohol), or by base.",
+        "Base hydrolysis: heating an ester with sodium hydroxide gives the sodium salt of the carboxylic acid and the alcohol: CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH (ethyl ethanoate to sodium ethanoate and ethanol).",
+        "It is an acid–base reaction because the hydroxide ion acts as a base and the carboxylic acid formed is converted to its carboxylate ion (the acid minus its H⁺).",
+        "This is why base hydrolysis goes to completion, while acid hydrolysis reaches an equilibrium (a balance in which reactants and products are both present).",
+        "Acidifying the product mixture (adding H⁺) converts the carboxylate salt back into the free carboxylic acid: CH₃COO⁻ + H⁺ → CH₃COOH."
+      ],
+      "tip": "Base hydrolysis gives the salt of the acid, not the free acid, until the mixture is acidified. Saponification is not reversible, unlike esterification."
+    },
+    {
+      "h": "Fats and oils: tri-esters (Higher Level only)",
+      "b": "Fats and oils are esters with three ester links, made from one glycerol and three fatty acids. Their structure explains why one is solid and the other liquid.",
+      "points": [
+        "Fats and oils are tri-esters, or triglycerides, of glycerol, propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH (an alcohol with three –OH groups), with three long-chain carboxylic acids called fatty acids. Stearic acid, octadecanoic acid, C₁₇H₃₅COOH, is an example.",
+        "Fats, mostly from animals, are solid at room temperature and contain mainly saturated chains (chains with only C–C single bonds).",
+        "Oils, mostly from plants, are liquid and contain more unsaturated chains with C=C bonds.",
+        "Diagram: a triglyceride, with a three-carbon glycerol backbone, each carbon joined through an ester group (–O–CO–) to a long hydrocarbon chain R; and the products, glycerol with three –OH groups and three RCOO⁻Na⁺ ions."
       ]
     },
     {
-      "h": "Fats and oils: tri-esters and saponification (Higher Level only)",
+      "h": "Saponification of fats and oils (Higher Level only)",
+      "b": "Heating a fat or oil with sodium hydroxide is base hydrolysis of all three ester links at once. It makes soap and glycerol.",
       "points": [
-        "Fats and oils are tri-esters, or triglycerides, of glycerol, propane-1,2,3-triol, HOCH₂CH(OH)CH₂OH, with three long-chain carboxylic acids called fatty acids.",
-        "Fats, mostly from animals, are solid at room temperature and contain mainly saturated chains.",
-        "Oils, mostly from plants, are liquid and contain more unsaturated chains with C=C bonds.",
         "Base hydrolysis of a fat or oil is called saponification, the process of soap-making: fat + 3NaOH → glycerol + 3 sodium salts of fatty acids (soap).",
         "Example: glyceryl tristearate reacts with sodium hydroxide: (C₁₇H₃₅COO)₃C₃H₅ + 3NaOH → 3C₁₇H₃₅COONa + C₃H₅(OH)₃, giving sodium stearate and glycerol.",
-        "The mole ratio of fat : NaOH : soap : glycerol is 1 : 3 : 3 : 1.",
+        "The mole ratio of fat : NaOH : soap : glycerol is 1 : 3 : 3 : 1, because each fat has three ester links and each needs one NaOH.",
         "Molar masses: glyceryl tristearate 890 g mol⁻¹, sodium stearate 306 g mol⁻¹ and glycerol 92 g mol⁻¹.",
-        "Glycerol, the co-product, is soluble in water and is used in cosmetics and medicines.",
-        "Diagram: a triglyceride, with a three-carbon glycerol backbone, each carbon joined through an ester group (–O–CO–) to a long hydrocarbon chain R; and the products, glycerol with three –OH groups and three RCOO⁻Na⁺ ions."
-      ]
+        "Glycerol, the co-product (the second product made alongside the soap), is soluble in water and is used in cosmetics and medicines."
+      ],
+      "tip": "Be ready to balance the equation for a fat with sodium hydroxide, using 3NaOH, and to name the co-product, glycerol."
     }
   ],
   "keyTerms": [
