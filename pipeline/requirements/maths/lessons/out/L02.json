@@ -1,0 +1,327 @@
+[
+ {"skill": "cx-divide", "problems": [
+  {"part": "maths-pp-2021-ordinary-p1-q2#(b)", "note": null,
+   "legend": {"1": "the conjugate of the bottom, 4 − 3i", "2": "the bottom, a real number (25)", "3": "the top, 25i", "4": "the answer, i"},
+   "steps": [
+    {"ask": "What do you multiply the top and bottom by, to get rid of i from the bottom?", "title": "Multiply top and bottom by the conjugate of the bottom",
+     "lines": [
+      {"text": "The conjugate of $4 + 3i$ is $\\hl{1}{4 - 3i}$."},
+      {"tex": "z_3 &= \\frac{-3 + 4i}{4 + 3i}"},
+      {"tex": "&= \\frac{(-3 + 4i)(\\hl{1}{4 - 3i})}{(4 + 3i)(\\hl{1}{4 - 3i})}"}
+     ]},
+    {"ask": "Expand the top like brackets. What is i² equal to?", "title": "Multiply out the top",
+     "lines": [
+      {"tex": "(-3 + 4i)(\\hl{1}{4 - 3i}) &= -12 + 9i + 16i - 12i^2"},
+      {"tex": "&= -12 + \\hl{3}{25i} - 12(-1)"},
+      {"tex": "&= \\hl{3}{25i}"}
+     ]},
+    {"ask": "Expand the bottom the same way. Should there still be an i in it?", "title": "Multiply out the bottom",
+     "lines": [
+      {"tex": "(4 + 3i)(\\hl{1}{4 - 3i}) &= 16 - 9i^2"},
+      {"tex": "&= 16 - 9(-1)"},
+      {"tex": "&= \\hl{2}{25}"}
+     ]},
+    {"ask": "Divide the top by the bottom. What do the numbers come to?", "title": "Divide",
+     "lines": [
+      {"tex": "z_3 &= \\frac{\\hl{3}{25i}}{\\hl{2}{25}}"},
+      {"tex": "&= \\hl{4}{i}"}
+     ]}
+   ],
+   "final": "z_3 = \\hl{4}{i}",
+   "graph": null},
+  {"part": "maths-pp-2024-ordinary-p1-q2#(b)", "note": "Changed from the first: the top is the real number 15 rather than a complex number, so only 15 has to be multiplied out against the conjugate. The bottom and the method (multiply by the conjugate, then divide) stay the same.",
+   "legend": {"1": "the conjugate of the bottom, 1 − 2i", "2": "the bottom, a real number (5)", "3": "the top, 15 − 30i", "4": "the answer, 3 − 6i"},
+   "steps": [
+    {"ask": "Which number do you multiply the top and bottom by, to remove i from the bottom?", "title": "Multiply top and bottom by the conjugate of the bottom",
+     "lines": [
+      {"text": "The conjugate of $1 + 2i$ is $\\hl{1}{1 - 2i}$."},
+      {"tex": "v &= \\frac{15}{1+2i}"},
+      {"tex": "&= \\frac{15}{1+2i} \\times \\frac{\\hl{1}{1-2i}}{\\hl{1}{1-2i}}"}
+     ]},
+    {"ask": "The top is 15 times a bracket. What do you get when you multiply 15 by each part?", "title": "Multiply out the top",
+     "lines": [
+      {"tex": "15(\\hl{1}{1-2i}) &= \\hl{3}{15 - 30i}"},
+      {"tex": "&= \\hl{3}{15 - 30i}"}
+     ]},
+    {"ask": "Expand the bottom like brackets. What is i² equal to, and what is the bottom now?", "title": "Multiply out the bottom",
+     "lines": [
+      {"tex": "(1+2i)(\\hl{1}{1-2i}) &= 1 - 2i + 2i - 4i^2"},
+      {"tex": "&= 1 - 4i^2"},
+      {"text": "Use $i^2 = -1$."},
+      {"tex": "&= 1 + 4"},
+      {"tex": "&= \\hl{2}{5}"}
+     ]},
+    {"ask": "Divide each part of the top by the real bottom number. What do you get?", "title": "Divide each part of the top by 5",
+     "lines": [
+      {"tex": "v &= \\frac{\\hl{3}{15 - 30i}}{\\hl{2}{5}}"},
+      {"tex": "&= \\frac{15}{\\hl{2}{5}} - \\frac{30i}{\\hl{2}{5}}"},
+      {"tex": "&= \\hl{4}{3 - 6i}"}
+     ]}
+   ],
+   "final": "\\hl{4}{3 - 6i}",
+   "graph": null},
+  {"part": "maths-pp-2016-ordinary-p1-q2#(d)", "note": "Changed from the second: the bottom is 2 − i, so its conjugate is 2 + i (the sign of the i flips), and the question names the division w = z₁ ÷ z₂, which the first step writes as a fraction. The method stays the same.",
+   "legend": {"1": "the conjugate of the bottom, 2 + i", "2": "the bottom, a real number (5)", "3": "the top, −1 + 7i", "4": "the answer, w"},
+   "steps": [
+    {"ask": "With w = z₁ ÷ z₂, which number goes on the top and which on the bottom?", "title": "Write w as a fraction",
+     "lines": [
+      {"tex": "w &= \\frac{z_1}{z_2}"},
+      {"tex": "&= \\frac{1 + 3i}{2 - i}"}
+     ]},
+    {"ask": "Which number do you multiply the top and bottom by, so that the bottom has no i left?", "title": "Multiply top and bottom by the conjugate of 2 − i",
+     "lines": [
+      {"text": "The conjugate of $2 - i$ is $\\hl{1}{2 + i}$."},
+      {"tex": "&= \\frac{(1 + 3i)(\\hl{1}{2 + i})}{(2 - i)(\\hl{1}{2 + i})}"}
+     ]},
+    {"ask": "Expand the top like brackets. What is i² equal to?", "title": "Multiply out the numerator",
+     "lines": [
+      {"tex": "(1 + 3i)(\\hl{1}{2 + i}) &= 2 + i + 6i + 3i^2"},
+      {"tex": "&= 2 + 7i - 3"},
+      {"tex": "&= \\hl{3}{-1 + 7i}"}
+     ]},
+    {"ask": "Expand the bottom. Is there any i left in it?", "title": "Multiply out the denominator",
+     "lines": [
+      {"tex": "(2 - i)(\\hl{1}{2 + i}) &= 4 + 2i - 2i - i^2"},
+      {"tex": "&= 4 + 1"},
+      {"tex": "&= \\hl{2}{5}"}
+     ]},
+    {"ask": "Divide the top by the bottom, one part at a time. What are the two parts?", "title": "Divide and write in the form a + bi",
+     "lines": [
+      {"tex": "w &= \\frac{\\hl{3}{-1 + 7i}}{\\hl{2}{5}}"},
+      {"tex": "&= \\hl{4}{-\\frac{1}{5} + \\frac{7}{5}i}"}
+     ]}
+   ],
+   "final": "w = \\hl{4}{-\\frac{1}{5} + \\frac{7}{5}i}",
+   "graph": null}
+ ]},
+ {"skill": "cx-modulus", "problems": [
+  {"part": "maths-pp-2020-ordinary-p1-q3#(a)(iii)", "note": null,
+   "legend": {"1": "the sum of squares, a² + b²", "2": "the modulus |z|"},
+   "steps": [
+    {"ask": "The modulus is the distance from the origin. Which formula gives it from a and b?", "title": "Use the modulus formula |a + bi| = √(a² + b²)",
+     "lines": [
+      {"tex": "\\hl{2}{|z_1|} &= \\sqrt{\\hl{1}{3^2 + (-4)^2}}"},
+      {"tex": "&= \\sqrt{\\hl{1}{9 + 16}}"},
+      {"tex": "&= \\sqrt{\\hl{1}{25}}"},
+      {"tex": "&= \\hl{2}{5}"}
+     ]}
+   ],
+   "final": "\\hl{2}{|z_1|} = \\hl{2}{5}",
+   "graph": null},
+  {"part": "maths-pp-2022-ordinary-p1-q1#(c)", "note": "Changed from the first: the number is not given directly. Subtract z₃ from z₂ first to get −9 + 5i, then use the same modulus formula.",
+   "legend": {"1": "the sum of squares, a² + b²", "2": "the modulus |z|", "3": "the difference z₂ − z₃, −9 + 5i"},
+   "steps": [
+    {"ask": "Subtract z₃ from z₂. Take care with the minus signs.", "title": "Subtract z₃ from z₂",
+     "lines": [
+      {"tex": "z_2 - z_3 &= (-5 + 3i) - (4 - 2i)"},
+      {"tex": "&= -5 + 3i - 4 + 2i"},
+      {"tex": "&= \\hl{3}{-9 + 5i}"}
+     ]},
+    {"ask": "Put the real and imaginary parts into the formula. What is under the root?", "title": "Find the modulus",
+     "lines": [
+      {"text": "$|a + bi| = \\sqrt{a^2 + b^2}$."},
+      {"tex": "|z_2 - z_3| &= |\\hl{3}{-9 + 5i}|"},
+      {"tex": "&= \\sqrt{\\hl{1}{(-9)^2 + 5^2}}"},
+      {"tex": "&= \\sqrt{\\hl{1}{81 + 25}}"},
+      {"tex": "&= \\hl{2}{\\sqrt{106}}"}
+     ]}
+   ],
+   "final": "z_2 - z_3 = \\hl{3}{-9 + 5i}, \\quad |z_2 - z_3| = \\hl{2}{\\sqrt{106}}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p1-q2#(a)(iv)", "note": "Changed from the second: this time the root does not come out whole, so the last step writes it as a surd: 40 = 4 × 10 and √4 = 2. The modulus formula and the sum of squares stay the same.",
+   "legend": {"1": "the sum of squares, a² + b²", "2": "the modulus |z|"},
+   "steps": [
+    {"ask": "Which numbers are a and b in z₃ = 6 − 2i? Put them into the formula.", "title": "Use the modulus formula",
+     "lines": [
+      {"text": "For $z = a + bi$, $|z| = \\sqrt{a^2 + b^2}$. Here $z_3 = 6 - 2i$, so $a = 6$ and $b = -2$."},
+      {"tex": "\\hl{2}{|z_3|} &= \\sqrt{\\hl{1}{6^2 + (-2)^2}}"}
+     ]},
+    {"ask": "Work out the squares and add them. What is under the root now?", "title": "Evaluate under the root",
+     "lines": [
+      {"tex": "&= \\sqrt{\\hl{1}{36 + 4}}"},
+      {"tex": "&= \\sqrt{\\hl{1}{40}}"}
+     ]},
+    {"ask": "The number under the root is not a perfect square. Can you split it into a perfect square times another number?", "title": "Write in surd form",
+     "lines": [
+      {"text": "$\\hl{1}{40} = 4 \\times 10$ and $\\sqrt{4} = 2$."},
+      {"tex": "&= \\sqrt{\\hl{1}{4 \\times 10}}"},
+      {"tex": "&= \\hl{2}{2\\sqrt{10}}"}
+     ]}
+   ],
+   "final": "\\sqrt{\\hl{1}{40}} = \\hl{2}{2\\sqrt{10}}",
+   "graph": null}
+ ]},
+ {"skill": "num-ratio-proportion", "problems": [
+  {"part": "maths-pp-2018-ordinary-p1-q7#(f)(i)", "note": null,
+   "legend": {"1": "the total being shared, 752", "2": "the number of parts, 4", "3": "the value of one part, 188", "4": "the answer asked for, 564"},
+   "steps": [
+    {"ask": "The ratio is 3:1. How many equal parts is the total split into?", "title": "Add up the ratio parts",
+     "lines": [
+      {"text": "The ratio $3:1$ has $3 + 1 = \\hl{2}{4}$ parts."},
+      {"tex": "\\hl{2}{4} &= 3 + 1"}
+     ]},
+    {"ask": "Divide the total by the number of parts. What is one part worth?", "title": "Find the value of one part (children’s tickets)",
+     "lines": [
+      {"tex": "\\frac{\\hl{1}{752}}{\\hl{2}{4}} &= \\hl{3}{188}"}
+     ]},
+    {"ask": "Adult tickets are 3 parts. How many tickets is that?", "title": "Find the adult tickets (3 parts)",
+     "lines": [
+      {"tex": "\\hl{3}{188} \\times 3 &= \\hl{4}{564}"}
+     ]}
+   ],
+   "final": "\\text{Adult tickets} = \\hl{4}{564}, \\ \\text{Children’s tickets} = \\hl{3}{188}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p1-q5#(a)(ii)", "note": "Changed from the first: this is inverse proportion, so the total work is found first (6 × 8 person-days) and then shared by the number of people, rather than split into ratio parts. The answer is still the total divided by a number.",
+   "legend": {"1": "the total work, 48 person-days", "2": "the number of people, 4", "4": "the answer, 12 days"},
+   "steps": [
+    {"ask": "Adding more people does not change the job. What quantity stays the same?", "title": "Find the total person-days of work",
+     "lines": [
+      {"text": "The job needs the same amount of work however many people share it."},
+      {"tex": "\\hl{1}{6 \\times 8} &= \\hl{1}{48}"}
+     ]},
+    {"ask": "Divide that total by the number of people. How many days does it take?", "title": "Divide among 4 people",
+     "lines": [
+      {"tex": "\\text{Days} &= \\frac{\\hl{1}{48}}{\\hl{2}{4}}"},
+      {"tex": "&= \\hl{4}{12}"}
+     ]}
+   ],
+   "final": "\\hl{4}{12} \\text{ days}",
+   "graph": null},
+  {"part": "maths-pp-2023-ordinary-p1-q5#(a)(i)", "note": "Changed from the second: this is direct proportion, so the cost goes up with the length. The total is divided to get the cost of one metre, and that is multiplied by the new length.",
+   "legend": {"1": "the total cost, 12 000", "2": "the number of metres", "3": "the cost of one metre, 50", "4": "the answer, cost of 320 metres"},
+   "steps": [
+    {"ask": "How do you find the cost of one metre from the cost of 240 metres?", "title": "Find the cost of one metre",
+     "lines": [
+      {"text": "Divide the cost by the length."},
+      {"tex": "\\text{Cost per metre} &= \\frac{\\hl{1}{12\\,000}}{\\hl{2}{240}}"},
+      {"tex": "&= \\hl{3}{50}"}
+     ]},
+    {"ask": "Now scale up to 320 metres. What do you multiply the cost of one metre by?", "title": "Multiply by 320 metres",
+     "lines": [
+      {"tex": "\\text{Cost} &= \\hl{3}{50} \\times \\hl{2}{320}"},
+      {"tex": "&= \\hl{4}{16\\,000}"}
+     ]}
+   ],
+   "final": "\\hl{4}{€16\\,000}",
+   "graph": null}
+ ]},
+ {"skill": "num-sci-notation", "problems": [
+  {"part": "maths-pp-2022-ordinary-p1-q5#(a)(i), (ii)", "note": null,
+   "legend": {"1": "a, between 1 and 10", "2": "the power of ten, 10ⁿ"},
+   "steps": [
+    {"ask": "Move the decimal point to get a number from 1 up to 10. How many places did it move?", "title": "Write 1200 in the form a × 10ⁿ",
+     "lines": [
+      {"text": "Move the decimal point so that $1 \\le a < 10$: three places, so $\\hl{2}{n = 3}$."},
+      {"tex": "1200 &= \\hl{1}{1.2} \\times \\hl{2}{10^3}"}
+     ]},
+    {"ask": "For 0.27, which way does the decimal point move, and what sign does the power get?", "title": "Write 0.27 in the form a × 10ⁿ",
+     "lines": [
+      {"text": "Move the decimal point one place right to get $\\hl{1}{2.7}$, so $\\hl{2}{n = -1}$."},
+      {"tex": "0.27 &= \\hl{1}{2.7} \\times \\hl{2}{10^{-1}}"}
+     ]}
+   ],
+   "final": "\\hl{1}{1.2} \\times \\hl{2}{10^3}, \\quad \\hl{1}{2.7} \\times \\hl{2}{10^{-1}}",
+   "graph": null},
+  {"part": "maths-pp-2016-ordinary-p2-q7#(a)", "note": "Changed from the first: the number is given in words (165 billion), so the first step turns it into a power of ten before the number is written as a × 10ⁿ. The two slots keep the same meaning.",
+   "legend": {"1": "a, between 1 and 10", "2": "the power of ten, 10ⁿ"},
+   "steps": [
+    {"ask": "A billion is a power of ten. What is it, and what do you multiply 165 by?", "title": "Write 165 billion as a number",
+     "lines": [
+      {"text": "A billion is a thousand million, so it is $10^3 \\times 10^6$."},
+      {"tex": "165 \\text{ billion} &= 165 \\times 10^3 \\times 10^6"},
+      {"tex": "&= 165 \\times 10^9"}
+     ]},
+    {"ask": "Write 165 as 1.65 times a power of ten. How do the powers of ten combine?", "title": "Write 165 in the form a × 10ⁿ with 1 ≤ a < 10",
+     "lines": [
+      {"tex": "165 \\times 10^9 &= \\hl{1}{1.65} \\times 10^2 \\times 10^9"},
+      {"tex": "&= \\hl{1}{1.65} \\times \\hl{2}{10^{11}}"}
+     ]}
+   ],
+   "final": "\\hl{1}{1.65} \\times \\hl{2}{10^{11}}",
+   "graph": null},
+  {"part": "maths-pp-2018-ordinary-p2-q9#(a)(iii)", "note": "Changed from the second: the number is now the result of a division and a multiplication, so the a × 10ⁿ form comes at the end and a is rounded. The a and 10ⁿ slots keep the same meaning; slots 3 and 4 mark the mass and the atoms in one gram.",
+   "legend": {"1": "a, between 1 and 10", "2": "the power of ten, 10ⁿ", "3": "the mass, 2.18 g", "4": "atoms in one gram"},
+   "steps": [
+    {"ask": "197 g holds 6.02 × 10²³ atoms. How do you find how many are in just 1 g?", "title": "Atoms in 1 gram",
+     "lines": [
+      {"tex": "197 \\text{ g} &= 6.02 \\times 10^{23} \\text{ atoms}"},
+      {"tex": "1 \\text{ g} &= \\hl{4}{\\frac{6.02 \\times 10^{23}}{197}}"}
+     ]},
+    {"ask": "Scale the number for 1 g up to 2.18 g. Then write it as a × 10ⁿ and round a. What do you get?", "title": "Atoms in 2.18 grams",
+     "lines": [
+      {"tex": "\\hl{3}{2.18} \\text{ g} &= \\hl{4}{\\frac{6.02 \\times 10^{23}}{197}} \\times \\hl{3}{2.18}"},
+      {"tex": "&= \\hl{1}{6.6617} \\times \\hl{2}{10^{21}}"},
+      {"tex": "&\\approx \\hl{1}{6.7} \\times \\hl{2}{10^{21}}"}
+     ]}
+   ],
+   "final": "\\hl{1}{6.7} \\times \\hl{2}{10^{21}}",
+   "graph": null}
+ ]},
+ {"skill": "diff-increasing", "problems": [
+  {"part": "maths-pp-2018-higher-p1-q8#(c)", "note": null,
+   "legend": {"1": "x at C (x = 1)", "2": "the slope as a decimal, about −0.242", "3": "the sign test: negative means decreasing"},
+   "steps": [
+    {"ask": "The curve is symmetric about the y-axis. What changes between B and C?", "title": "Find the coordinates of C",
+     "lines": [
+      {"text": "By symmetry, $C$ is the mirror image of $B\\left(-1, \\frac{1}{\\sqrt{2\\pi e}}\\right)$, so $C\\left(1, \\frac{1}{\\sqrt{2\\pi e}}\\right)$."}
+     ]},
+    {"ask": "The exponent is −x²/2. What is the derivative of e to a power u, and what is u′?", "title": "Differentiate f(x)",
+     "lines": [
+      {"text": "Chain rule: the derivative of $e^{u}$ is $e^{u}u'$, with $u = -\\frac{1}{2}x^2$ and $u' = -x$."},
+      {"tex": "f'(x) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}x^2}(-x)"}
+     ]},
+    {"ask": "Put x = 1 into f′(x). Is the answer above or below zero?", "title": "Substitute x = 1 into f'(x)",
+     "lines": [
+      {"tex": "f'(\\hl{1}{1}) &= \\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}(\\hl{1}{1})^2}(-1)"},
+      {"tex": "&= -\\frac{1}{\\sqrt{2\\pi}}e^{-\\frac{1}{2}}"},
+      {"tex": "&= -\\frac{1}{\\sqrt{2\\pi e}}"},
+      {"tex": "&\\approx \\hl{2}{-0.242}"}
+     ]},
+    {"ask": "The slope at C is negative. What does that say about whether f(x) is increasing or decreasing?", "title": "Conclude",
+     "lines": [
+      {"text": "$f'(\\hl{1}{1}) \\hl{3}{< 0}$, so $f(x)$ is decreasing at $C$."}
+     ]}
+   ],
+   "final": "f'(\\hl{1}{1}) \\approx \\hl{2}{-0.242} \\hl{3}{< 0} \\text{, so } f(x) \\text{ is decreasing at } C",
+   "graph": {"f": "exp(-x**2/2)/sqrt(2*pi)", "box": [-2.6, 0.5, 2.6, -0.1], "tangent": true, "points": [{"x": 1, "y": 0.242, "name": "C (1, 0.242)"}], "line": null, "slots": {"x": 1, "y": null, "line": null}}},
+  {"part": "maths-pp-2019-higher-p1-q8#(d)", "note": "Changed from the first: the derivative is already given, so there is no differentiating; the work is substituting into a trig function and reading its sign. The test is the same: increasing when the derivative is greater than 0.",
+   "legend": {"1": "t = 30, the input value", "2": "the rate, r′(30), as a decimal", "3": "the sign test: positive means increasing"},
+   "steps": [
+    {"ask": "Which value of t does the question ask about? Put it into r′(t).", "title": "Substitute t = 30 into r'(t)",
+     "lines": [
+      {"text": "The revenue is increasing when $r'(t) \\hl{3}{> 0}$."},
+      {"tex": "r'(\\hl{1}{30}) &= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{30\\pi}{26}\\right)"},
+      {"tex": "&= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{15\\pi}{13}\\right)"}
+     ]},
+    {"ask": "Is the sine of 15π/13 positive or negative? Then what sign does the minus in front give?", "title": "Evaluate and conclude",
+     "lines": [
+      {"text": "$\\frac{15\\pi}{13}$ is just over $\\pi$, so its sine is negative (about $-0.4647$). A negative times a negative is positive."},
+      {"tex": "r'(\\hl{1}{30}) &= \\hl{2}{402.164\\pi}"},
+      {"tex": "&= \\hl{2}{1263.44}"},
+      {"text": "Since $r'(\\hl{1}{30}) \\hl{3}{> 0}$, the revenue is increasing 30 weeks after the beginning of July."}
+     ]}
+   ],
+   "final": "r'(\\hl{1}{30}) \\approx \\hl{2}{1263.44} \\hl{3}{> 0} \\text{, so the revenue is increasing}",
+   "graph": null},
+  {"part": "maths-pp-2023-higher-p1-q7#(e)", "note": "Changed from the second: this part also uses the second derivative, to see whether the rate of increase is slowing or speeding up, which picks one graph. The substitution and the sign test are unchanged.",
+   "legend": {"1": "t = 1", "2": "the derivative value, v′(1) = 3", "3": "the sign test"},
+   "steps": [
+    {"ask": "Put t = 1 into v′(t). Is the answer positive or negative?", "title": "Find v'(1) and decide what it says about the slope",
+     "lines": [
+      {"tex": "v'(t) &= 2t^2 - 12t + 13"},
+      {"tex": "v'(\\hl{1}{1}) &= 2(\\hl{1}{1})^2 - 12(\\hl{1}{1}) + 13"},
+      {"tex": "&= \\hl{2}{3}"},
+      {"text": "$v'(\\hl{1}{1}) = \\hl{2}{3} \\hl{3}{> 0}$, so the function is increasing at $t = \\hl{1}{1}$: the slope is positive. That rules out A and C."}
+     ]},
+    {"ask": "Differentiate v′(t) again to get v″(t). Put t = 1 in. What sign is it?", "title": "Find v''(1) and decide what it says about the curve",
+     "lines": [
+      {"tex": "v''(t) &= 4t - 12"},
+      {"tex": "v''(\\hl{1}{1}) &= 4(\\hl{1}{1}) - 12"},
+      {"tex": "&= -8"},
+      {"text": "$v''(\\hl{1}{1}) \\hl{3}{< 0}$, so the slope is decreasing: the rate of increase is slowing (concave down). Of B and D, only B is rising and flattening, so the answer is B."}
+     ]}
+   ],
+   "final": "\\text{B}",
+   "graph": null}
+ ]}
+]
