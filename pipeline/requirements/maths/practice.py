@@ -45,7 +45,10 @@ def todo():
 def pack(only=None):
     need, parts, by = todo(), bank_parts(), exam_parts()
     tags = json.loads((HERE / 'skill-tags.json').read_text())
-    sids = [s for s in sorted(need, key=lambda s: (int(SKILLS[s]['chapter'][5:]), SKILLS[s].get('rank', 0))) if not only or s in only]
+    path = HERE / 'practice-bank.json'
+    done = {v['skill'] for v in json.loads(path.read_text()).values()} if path.exists() and not only else set()
+    sids = [s for s in sorted(need, key=lambda s: (int(SKILLS[s]['chapter'][5:]), SKILLS[s].get('rank', 0)))
+            if (not only or s in only) and s not in done]
     jobs = []
     for sid in sids:
         s = SKILLS[sid]

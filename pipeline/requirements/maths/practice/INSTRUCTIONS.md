@@ -20,6 +20,8 @@ For each skill write exactly `write` problems. They join the skill's real exam p
 - `answerSym`: the same answer worked out INDEPENDENTLY from the question's givens, in one SymPy expression, e.g. `solve(Eq(3*x**2 - 6*x - 9, 0), x)`, `diff(x**3 - 2*x, x, 2).subs(x, 1)`, `sqrt((5 - 1)**2 + (4 - 1)**2)`, `Abs(3 + 4*I)`. A checker evaluates it and it must equal `finalSym`. It catches a wrong set-up that the line checks can't.
 - `diagram` (optional): SVG string.
 
+**Proof skills** (prove, show that, derive, induction): the problem asks the student to prove a specific statement, in exam style ("Prove by induction that $1 + 3 + 5 + \dots + (2n - 1) = n^2$ for all $n \in \mathbb{N}$."). The worked solution is the proof, step by step, with `sym` on the algebra lines that can be checked (the inductive step's algebra, the expansion in a derivation). Set `finalSym` to `0` and `answerSym` to an expression that equals 0 exactly when the statement is true, e.g. `simplify(summation(2*k - 1, (k, 1, n)) - n**2)`, `simplify(sin(2*x) - 2*sin(x)*cos(x))`, or for divisibility a test case such as `Mod(7**5 - 1, 6)`.
+
 Before writing, solve each problem yourself a second way and make sure `answerSym` really computes the answer from the question, not from your working.
 
 Write /Users/gabrielwhelan/barebones/pipeline/requirements/maths/practice/out/BATCH.json: a JSON list, one object per input skill, in order:
