@@ -1,0 +1,1065 @@
+[
+ {
+  "skill": {
+   "id": "diff-stationary",
+   "title": "Find and classify turning points",
+   "level": "OL",
+   "input": "f(x)",
+   "output": "max/min points via f′ = 0 and f″"
+  },
+  "candidates_offered": [
+   "maths-pp-2016-ordinary-p1-q8#(d)(iii)",
+   "maths-pp-2020-ordinary-p1-q8#(c)(ii)",
+   "maths-pp-2022-ordinary-p1-q10#(a)(iv)",
+   "maths-pp-2023-ordinary-p1-q4#(a)(iv)",
+   "maths-pp-2023-ordinary-p1-q6#(a)(ii)",
+   "maths-pp-2015-ordinary-p1-q4#(b)"
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q4#(b)",
+    "note": null,
+    "legend": {
+     "1": "the slope, f′(x)",
+     "2": "x at the turning point",
+     "3": "y at the turning point"
+    },
+    "steps": [
+     {
+      "ask": "Turning points happen where the slope is zero. What expression gives the slope of f(x) at any x?",
+      "title": "Differentiate and set the derivative equal to zero",
+      "lines": [
+       {
+        "text": "At a turning point the slope is zero."
+       },
+       {
+        "tex": "f(x) &= -x^2 + 6x - 4"
+       },
+       {
+        "tex": "\\hl{1}{f'(x)} &= \\hl{1}{-2x + 6}"
+       },
+       {
+        "tex": "\\hl{1}{-2x + 6} &= \\hl{1}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "Solve that equation for x, one step at a time.",
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "-2x &= -6"
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "The turning point now has an x-value. What do you put into f(x) to get the y-value?",
+      "title": "Find the y-co-ordinate",
+      "lines": [
+       {
+        "tex": "f(\\hl{2}{3}) &= -(\\hl{2}{3})^2 + 6(\\hl{2}{3}) - 4"
+       },
+       {
+        "tex": "&= -9 + 18 - 4"
+       },
+       {
+        "tex": "&= \\hl{3}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "(\\hl{2}{3}, \\hl{3}{5})",
+    "graph": {
+     "f": "-x**2 + 6*x - 4",
+     "box": [
+      0,
+      6,
+      6,
+      -5
+     ],
+     "tangent": true,
+     "points": [
+      {
+       "x": 3,
+       "y": 5,
+       "name": "max (3, 5)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 2,
+      "y": 3,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q6#(a)(ii)",
+    "note": "The x² term is now positive, so the curve is U-shaped and the turning point is a minimum, not a maximum. Only x is asked here, so there is no y-value step. The method is the same.",
+    "legend": {
+     "1": "the slope, g′(x)",
+     "2": "x at the turning point"
+    },
+    "steps": [
+     {
+      "ask": "A U-shaped curve turns at its lowest point, where the slope is zero. What is the slope function of g(x)?",
+      "title": "Differentiate g(x)",
+      "lines": [
+       {
+        "text": "The graph of $g$ is a U-shape, so the minimum is where the slope is zero."
+       },
+       {
+        "tex": "g(x) &= x^2 + 8x - 6"
+       },
+       {
+        "tex": "\\hl{1}{g'(x)} &= \\hl{1}{2x + 8}"
+       }
+      ]
+     },
+     {
+      "ask": "Set that slope equal to zero and solve for x.",
+      "title": "Set the derivative equal to zero",
+      "lines": [
+       {
+        "tex": "\\hl{1}{2x + 8} &= \\hl{1}{0}"
+       },
+       {
+        "tex": "2x &= -8"
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{-4}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{x} = \\hl{2}{-4}",
+    "graph": {
+     "f": "x**2 + 8*x - 6",
+     "box": [
+      -9,
+      4,
+      1,
+      -24
+     ],
+     "tangent": true,
+     "points": [
+      {
+       "x": -4,
+       "y": -22,
+       "name": "min (-4, -22)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": 2,
+      "y": null,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2020-ordinary-p1-q8#(c)(ii)",
+    "note": "The function is now a depth in a real context, and its coefficients are fractions. It is still a minimum, the lowest point, and the same steps apply.",
+    "legend": {
+     "1": "the slope, h′(x)",
+     "2": "x at the lowest point"
+    },
+    "steps": [
+     {
+      "ask": "At the deepest point, what is the slope? Set h′(x) equal to it.",
+      "title": "Set h'(x) = 0 at the greatest depth",
+      "lines": [
+       {
+        "text": "At the lowest point of the graph the slope is zero."
+       },
+       {
+        "tex": "\\hl{1}{\\frac{1}{30}x - \\frac{1}{4}} &= \\hl{1}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "To isolate x, undo the multiplication by 1/30. What do you do to both sides?",
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "\\frac{1}{30}x &= \\frac{1}{4}"
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{\\frac{30}{4}}"
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{\\frac{15}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{x} = \\hl{2}{\\frac{15}{2}}\\text{ m}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-definite",
+   "title": "Evaluate a definite integral",
+   "level": "HL",
+   "input": "∫ₐᵇ f(x) dx",
+   "output": "number"
+  },
+  "candidates_offered": [
+   "maths-pp-2023-higher-p1-q10#(e)(i)",
+   "maths-pp-2020-higher-p1-q6#(b)(ii)",
+   "maths-pp-2022-higher-p1-q2#(b)(i)",
+   "maths-pp-2023-higher-p1-q6#(b)",
+   "maths-pp-2025-higher-p1-q3#(c)",
+   "maths-pp-2015-higher-p1-q3#(b)(i), (ii)"
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2023-higher-p1-q10#(e)(i)",
+    "note": null,
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the value of the integral"
+    },
+    "steps": [
+     {
+      "ask": "The volume is the integral of the cross-section. Which part of the integrand is constant with respect to x?",
+      "title": "Set up the integral",
+      "lines": [
+       {
+        "tex": "V &= \\int_0^h \\hl{1}{\\frac{x^2 c^2}{h^2}}\\,dx"
+       },
+       {
+        "text": "$\\frac{c^2}{h^2}$ is a constant, so take it outside the integral."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\int_0^h \\hl{1}{x^2}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of x²?",
+      "title": "Integrate $x^2$",
+      "lines": [
+       {
+        "text": "Add 1 to the power and divide by the new power."
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\hl{2}{\\left[ \\frac{x^3}{3} \\right]_0^h}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute the upper limit h, then the lower limit 0, and subtract. What do you get?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\hl{2}{\\left( \\frac{h^3}{3} - \\frac{0^3}{3} \\right)}"
+       },
+       {
+        "tex": "&= \\frac{c^2}{h^2} \\times \\frac{h^3}{3}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{c^2 h}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{V = \\frac{c^2 h}{3}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q3#(b)(i), (ii)",
+    "note": "The integrand is now −x² + 12x − 27 with limits 3 and 9, not a single power from 0. The method is the same: find the antiderivative, then upper limit minus lower limit.",
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the value of the integral"
+    },
+    "steps": [
+     {
+      "ask": "What is the antiderivative of −x² + 12x − 27, term by term?",
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "tex": "\\int_3^9 \\hl{1}{(-x^2 + 12x - 27)}\\,dx &= \\hl{2}{\\left[\\frac{-x^3}{3} + \\frac{12x^2}{2} - 27x\\right]_3^9}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\left[-\\frac{x^3}{3} + 6x^2 - 27x\\right]_3^9}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute x = 9 into the antiderivative. What do you get?",
+      "title": "Evaluate at x = 9",
+      "lines": [
+       {
+        "tex": "\\hl{2}{F(9)} &= -\\frac{729}{3} + 6(81) - 27(9)"
+       },
+       {
+        "tex": "&= -243 + 486 - 243"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Now substitute x = 3 into the same antiderivative.",
+      "title": "Evaluate at x = 3",
+      "lines": [
+       {
+        "tex": "\\hl{2}{F(3)} &= -\\frac{27}{3} + 6(9) - 27(3)"
+       },
+       {
+        "tex": "&= -9 + 54 - 81"
+       },
+       {
+        "tex": "&= -36"
+       }
+      ]
+     },
+     {
+      "ask": "Subtract the lower-limit value from the upper-limit value. What do you get?",
+      "title": "Subtract: upper limit minus lower limit",
+      "lines": [
+       {
+        "tex": "\\int_3^9 \\hl{1}{f(x)}\\,dx &= \\hl{2}{F(9)} - \\hl{2}{F(3)}"
+       },
+       {
+        "tex": "&= 0 - (-36)"
+       },
+       {
+        "tex": "&= \\hl{3}{36}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide the error by to get a percentage?",
+      "title": "Find the error and divide by the exact area",
+      "lines": [
+       {
+        "text": "The exact area is 36 and the trapezoidal estimate is 35, so the error is $\\hl{3}{36} - 35 = 1$."
+       },
+       {
+        "tex": "\\text{Percentage error} &= \\frac{1}{\\hl{3}{36}} \\times 100"
+       },
+       {
+        "tex": "&= 2.7\\dot{7}"
+       },
+       {
+        "tex": "&\\approx 2.8\\%"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{36};\\quad 2.8\\%",
+    "graph": {
+     "f": "-x**2 + 12*x - 27",
+     "box": [
+      1,
+      11,
+      11,
+      -17
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 3,
+       "y": 0,
+       "name": "start (3, 0)"
+      },
+      {
+       "x": 9,
+       "y": 0,
+       "name": "end (9, 0)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+    "note": "The integrand is now 1/(2x+3), a reciprocal, and the upper limit A is unknown, so the answer comes from logs. The method is still integrate between the limits, then set the result equal to the given value.",
+    "legend": {
+     "1": "the integrand",
+     "2": "the antiderivative, evaluated",
+     "3": "the value of the integral"
+    },
+    "steps": [
+     {
+      "ask": "Which function is integrated from 0 to A, and what must that integral equal?",
+      "title": "Set up the area as an integral",
+      "lines": [
+       {
+        "text": "The area under $\\hl{1}{h'(x)}$ from $0$ to $A$ equals $\\hl{3}{\\ln 3}$."
+       },
+       {
+        "tex": "\\int_0^A \\hl{1}{\\frac{1}{2x+3}}\\,dx &= \\hl{3}{\\ln 3}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the antiderivative of 1/(2x+3)? Substitute A and 0 into it.",
+      "title": "Integrate and substitute the limits",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\left[\\tfrac{1}{2}\\ln(2x+3)\\right]_0^A} &= \\hl{3}{\\ln 3}"
+       },
+       {
+        "tex": "\\hl{2}{\\tfrac{1}{2}\\left(\\ln(2A+3) - \\ln 3\\right)} &= \\hl{3}{\\ln 3}"
+       }
+      ]
+     },
+     {
+      "ask": "What rule combines the two logarithms into one?",
+      "title": "Combine the logs",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\tfrac{1}{2}\\ln\\left(\\frac{2A+3}{3}\\right)} &= \\hl{3}{\\ln 3}"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= 2\\ln 3"
+       },
+       {
+        "tex": "\\ln\\left(\\frac{2A+3}{3}\\right) &= \\ln 9"
+       }
+      ]
+     },
+     {
+      "ask": "If the logs of two expressions are equal, what can you say about the expressions? Then solve for A.",
+      "title": "Remove the logs and solve",
+      "lines": [
+       {
+        "tex": "\\frac{2A+3}{3} &= 9"
+       },
+       {
+        "tex": "2A + 3 &= 27"
+       },
+       {
+        "tex": "2A &= 24"
+       },
+       {
+        "tex": "A &= 12"
+       }
+      ]
+     }
+    ],
+    "final": "A = 12",
+    "graph": {
+     "f": "1/(2*x + 3)",
+     "box": [
+      -0.5,
+      0.5,
+      13,
+      -0.02
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": 0,
+       "y": 0.3333,
+       "name": "start (0, 1/3)"
+      },
+      {
+       "x": 12,
+       "y": 0.037,
+       "name": "end (12, 1/27)"
+      }
+     ],
+     "line": null,
+     "slots": {
+      "x": null,
+      "y": null,
+      "line": null
+     }
+    }
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-conditional",
+   "title": "Apply conditional probability and the general multiplication rule",
+   "level": "HL",
+   "input": "P(A ∩ B), P(B) (or table)",
+   "output": "P(A|B); note P(A|B) ≠ P(B|A)"
+  },
+  "candidates_offered": [
+   "maths-pp-2015-higher-p2-q8#(d)(i)",
+   "maths-pp-2020-higher-p2-q5#(a)(i)",
+   "maths-pp-2017-higher-p2-q8#(b)(iii)",
+   "maths-pp-2023-higher-p2-q8#(d)(ii)",
+   "maths-pp-2025-higher-p2-q9#(a)(iii), (iv)",
+   "maths-pp-2024-higher-p2-q7#(c)"
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2020-higher-p2-q5#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "P(A and B), the joint probability",
+     "2": "P(A), the given event",
+     "3": "P(B|A), the answer"
+    },
+    "steps": [
+     {
+      "ask": "The question asks for the chance of B given A. Which formula connects it to P(A ∩ B) and P(A)?",
+      "title": "Write the conditional probability formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(B|A)} &= \\frac{\\hl{1}{P(A \\cap B)}}{\\hl{2}{P(A)}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which two numbers from the question go into the top and bottom of that formula?",
+      "title": "Substitute and simplify",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(B|A)} &= \\frac{\\hl{1}{\\frac{1}{2}}}{\\hl{2}{\\frac{3}{4}}}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{1}{2}} \\times \\frac{4}{3}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{2}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{P(B|A)} = \\hl{3}{\\frac{2}{3}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-higher-p2-q8#(b)(iii)",
+    "note": "This time the numerator is not given, so you must add two outcomes to find P(R ∩ L) first. The formula and the three slots stay the same.",
+    "legend": {
+     "1": "P(R and L), the joint probability",
+     "2": "P(L), the given event",
+     "3": "P(R|L), the answer"
+    },
+    "steps": [
+     {
+      "ask": "The question asks for the chance of R given L. Which formula connects it to P(R ∩ L) and P(L)?",
+      "title": "Write the conditional probability formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(R \\mid L)} &= \\frac{\\hl{1}{P(R \\cap L)}}{\\hl{2}{P(L)}}"
+       }
+      ]
+     },
+     {
+      "ask": "The top of the fraction is not given. Which outcomes are in both R and L, and how do you combine them?",
+      "title": "Find $P(R \\cap L)$",
+      "lines": [
+       {
+        "text": "Add the two outcomes with $R$ and $L$."
+       },
+       {
+        "tex": "\\hl{1}{P(R \\cap L)} &= \\frac{1}{12} + \\frac{1}{30}"
+       },
+       {
+        "tex": "&= \\frac{5}{60} + \\frac{2}{60}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{7}{60}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put P(R ∩ L) and P(L) into the formula and simplify?",
+      "title": "Substitute and simplify",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P(R \\mid L)} &= \\frac{\\hl{1}{\\frac{7}{60}}}{\\hl{2}{\\frac{17}{80}}}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{7}{60}} \\times \\frac{80}{17}"
+       },
+       {
+        "tex": "&= \\frac{560}{1020}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{28}{51}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{P(R \\mid L)} = \\hl{3}{\\frac{28}{51}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q7#(c)",
+    "note": "The numbers now come as rates in a story, so the numerator is a product of two given rates. The formula and the three slots stay the same.",
+    "legend": {
+     "1": "P(new and booked), the joint probability",
+     "2": "P(booked), the given event",
+     "3": "P(new|booked), the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which two numbers from the question combine to give the chance of using the old system and booking?",
+      "title": "Find the probability of booking through the old system",
+      "lines": [
+       {
+        "tex": "P(\\text{old and booked}) &= 0.45 \\times \\frac{1}{3}"
+       },
+       {
+        "tex": "&= 0.15"
+       }
+      ]
+     },
+     {
+      "ask": "Which two numbers from the question give the chance of using the new system and booking?",
+      "title": "Find the probability of booking through the new system",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(\\text{new and booked})} &= 0.55 \\times \\frac{2}{5}"
+       },
+       {
+        "tex": "&= \\hl{1}{0.22} = \\frac{11}{50}"
+       }
+      ]
+     },
+     {
+      "ask": "How do the two routes of booking combine into the total chance of booking?",
+      "title": "Find the probability that a person booked",
+      "lines": [
+       {
+        "tex": "\\hl{2}{P(\\text{booked})} &= 0.15 + \\hl{1}{0.22}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.37} = \\frac{37}{100}"
+       }
+      ]
+     },
+     {
+      "ask": "Which joint probability goes on top, and which booked probability goes on the bottom?",
+      "title": "Use conditional probability",
+      "lines": [
+       {
+        "text": "We want $\\hl{3}{P(\\text{new} \\mid \\text{booked})} = \\dfrac{\\hl{1}{P(\\text{new and booked})}}{\\hl{2}{P(\\text{booked})}}$."
+       },
+       {
+        "tex": "\\hl{3}{P(\\text{new} \\mid \\text{booked})} &= \\frac{\\hl{1}{11/50}}{\\hl{2}{37/100}}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{22}{37}}"
+       },
+       {
+        "tex": "&= 0.5945\\ldots \\approx \\hl{3}{59\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{59\\%}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm9",
+   "title": "Apply Theorem 9: Parallelogram: opposite sides and opposite angles equal",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 9"
+  },
+  "candidates_offered": [
+   "maths-pp-2016-ordinary-p2-q9#(c)",
+   "maths-pp-2018-ordinary-p2-q6#(b)(i)",
+   "maths-pp-2023-ordinary-p2-q6#(c)",
+   "maths-pp-2023-ordinary-p2-q6#(b)"
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2018-ordinary-p2-q6#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the given 115° angle, copied to its opposite angle",
+     "2": "the unknown angle α or β",
+     "3": "180°, the sum of adjacent angles"
+    },
+    "steps": [
+     {
+      "ask": "α is opposite the angle SPQ. What do opposite angles of a parallelogram have in common?",
+      "title": "Find α",
+      "lines": [
+       {
+        "text": "Opposite angles of a parallelogram are equal, so $\\hl{2}{\\alpha}$ equals $\\hl{1}{|\\angle SPQ|}$."
+       },
+       {
+        "tex": "\\hl{2}{\\alpha} &= \\hl{1}{115^\\circ}"
+       }
+      ]
+     },
+     {
+      "ask": "β and the angle SPQ share a side. What do adjacent angles of a parallelogram add to?",
+      "title": "Find β",
+      "lines": [
+       {
+        "text": "Adjacent angles of a parallelogram add to $\\hl{3}{180^\\circ}$."
+       },
+       {
+        "tex": "\\hl{2}{\\beta} &= \\hl{3}{180^\\circ} - \\hl{1}{115^\\circ}"
+       },
+       {
+        "tex": "&= \\hl{2}{65^\\circ}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\alpha} = \\hl{1}{115^\\circ}, \\ \\hl{2}{\\beta} = \\hl{2}{65^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q6#(b)",
+    "note": "The angles are now expressions in x and y, so each rule gives an equation and you solve them one after the other. The two rules are the same as in problem 1.",
+    "legend": {
+     "1": "the given 100° angle",
+     "2": "the unknowns x and y",
+     "3": "180°, the sum of adjacent angles"
+    },
+    "steps": [
+     {
+      "ask": "(2x − 30)° is opposite the 100° angle. What do opposite angles of a parallelogram tell you?",
+      "title": "Opposite angles are equal: find x",
+      "lines": [
+       {
+        "text": "$(2\\hl{2}{x}-30)^\\circ$ is opposite the $\\hl{1}{100^\\circ}$ angle, so they are equal."
+       },
+       {
+        "tex": "2\\hl{2}{x} - 30 &= \\hl{1}{100}"
+       },
+       {
+        "tex": "2\\hl{2}{x} &= 130"
+       },
+       {
+        "tex": "\\hl{2}{x} &= \\hl{2}{65}"
+       }
+      ]
+     },
+     {
+      "ask": "(x + 3y)° and 100° are next to each other on one side. What do adjacent angles add to, and what does that give you for x + 3y?",
+      "title": "Adjacent angles sum to 180°",
+      "lines": [
+       {
+        "text": "$(\\hl{2}{x}+3\\hl{2}{y})^\\circ$ and $\\hl{1}{100^\\circ}$ are adjacent angles, so they add to $\\hl{3}{180^\\circ}$."
+       },
+       {
+        "tex": "\\hl{2}{x} + 3\\hl{2}{y} + \\hl{1}{100} &= \\hl{3}{180}"
+       },
+       {
+        "tex": "\\hl{2}{x} + 3\\hl{2}{y} &= 80"
+       }
+      ]
+     },
+     {
+      "ask": "x is known now. Which equation still has y in it, and how do you get y from it?",
+      "title": "Substitute x = 65 and solve for y",
+      "lines": [
+       {
+        "tex": "\\hl{2}{65} + 3\\hl{2}{y} &= 80"
+       },
+       {
+        "tex": "3\\hl{2}{y} &= 80 - \\hl{2}{65}"
+       },
+       {
+        "tex": "3\\hl{2}{y} &= 15"
+       },
+       {
+        "tex": "\\hl{2}{y} &= \\hl{2}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{x} = \\hl{2}{65},\\ \\hl{2}{y} = \\hl{2}{5}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q9#(c)",
+    "note": "There is no angle now. The parallelogram sits on a grid, and you find a missing corner with the same rule: opposite sides are equal and parallel, so [TQ] is a copy of [FB].",
+    "legend": {
+     "1": "the 5-unit side [FB], copied across",
+     "2": "the unknown corner T (its x and y values)"
+    },
+    "steps": [
+     {
+      "ask": "Which side is equal and parallel to [FB]? How far, and in which direction, is T from Q?",
+      "title": "Use the opposite sides of the parallelogram",
+      "lines": [
+       {
+        "text": "In $FBQT$, the side $[TQ]$ is parallel and equal to $\\hl{1}{[FB]}$. $\\hl{1}{[FB]}$ goes straight up 5 units, so $\\hl{2}{T}$ is 5 units directly below $Q$."
+       },
+       {
+        "tex": "\\hl{2}{x_T} &= -2"
+       },
+       {
+        "tex": "\\hl{2}{y_T} &= 7 - \\hl{1}{5}"
+       },
+       {
+        "tex": "&= \\hl{2}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Where does T sit now? Plot it and check the four corners form a parallelogram.",
+      "title": "Plot T",
+      "lines": [
+       {
+        "text": "Plot $\\hl{2}{T(-2, 2)}$ and join $F$, $B$, $Q$ and $T$ to see the parallelogram."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{T} = (\\hl{2}{-2}, \\hl{2}{2})",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-sd",
+   "title": "Calculate standard deviation (calculator)",
+   "level": "OL",
+   "input": "data set or frequency table",
+   "output": "σ"
+  },
+  "candidates_offered": [
+   "maths-pp-2015-ordinary-p2-q9#(d)(ii)",
+   "maths-pp-2019-ordinary-p2-q7#(c)(ii)",
+   "maths-pp-2018-ordinary-p2-q7#(e)",
+   "maths-pp-2022-ordinary-p2-q4#(c)",
+   "maths-pp-2025-ordinary-p2-q1#(a)(ii)",
+   "maths-pp-2024-ordinary-p2-q7#(a)(ii)"
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(c)(ii)",
+    "note": null,
+    "legend": {
+     "2": "the standard deviation, σ"
+    },
+    "steps": [
+     {
+      "ask": "Which setting on the calculator takes a list of values and gives σ?",
+      "title": "Use the calculator in statistics mode",
+      "lines": [
+       {
+        "text": "Enter the 13 Meat values into the calculator and read off the population standard deviation $\\hl{2}{\\sigma}$."
+       },
+       {
+        "tex": "\\hl{2}{\\sigma} &\\approx \\hl{2}{50.99}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{51}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\text{€}51}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(ii)",
+    "note": "This time the calculator is not used: the total, the mean and the sum of squares are worked out by hand before σ. The answer is still σ, and the mean is now marked as its own slot.",
+    "legend": {
+     "1": "the mean, μ",
+     "2": "the standard deviation, σ"
+    },
+    "steps": [
+     {
+      "ask": "What is the total of the ten heart rates?",
+      "title": "Add the heart rates after exercise",
+      "lines": [
+       {
+        "tex": "\\sum x &= 71+81+79+108+91+83+102+113+118+87"
+       },
+       {
+        "tex": "&= 933"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide the total by to get the mean?",
+      "title": "Divide by the number of values to find the mean",
+      "lines": [
+       {
+        "text": "There are $n = 10$ values."
+       },
+       {
+        "tex": "\\hl{1}{\\mu} &= \\frac{\\sum x}{n}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{933}{10}}"
+       },
+       {
+        "tex": "&= \\hl{1}{93.3}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you square each value and add the squares?",
+      "title": "Square each value and add",
+      "lines": [
+       {
+        "tex": "\\sum x^2 &= 71^2+81^2+79^2+108^2+91^2+83^2+102^2+113^2+118^2+87^2"
+       },
+       {
+        "tex": "&= 5041+6561+6241+11664+8281+6889+10404+12769+13924+7569"
+       },
+       {
+        "tex": "&= 89343"
+       }
+      ]
+     },
+     {
+      "ask": "How do you get the variance from the mean of the squares and the mean?",
+      "title": "Find the variance",
+      "lines": [
+       {
+        "text": "Use $\\sigma^2 = \\frac{\\sum x^2}{n} - \\hl{1}{\\mu^2}$."
+       },
+       {
+        "tex": "\\sigma^2 &= \\frac{89343}{10} - \\hl{1}{93.3^2}"
+       },
+       {
+        "tex": "&= 8934.3 - \\hl{1}{8704.89}"
+       },
+       {
+        "tex": "&= 229.41"
+       }
+      ]
+     },
+     {
+      "ask": "What is the last step to turn the variance into σ?",
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\sigma} &= \\sqrt{229.41}"
+       },
+       {
+        "tex": "&= \\hl{2}{15.146}"
+       },
+       {
+        "tex": "&= \\hl{2}{15.1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Mean} = \\hl{1}{93.3}, \\quad \\hl{2}{\\sigma} = \\hl{2}{15.1}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(e)",
+    "note": "The data are rainfall values and the answer is in mm. The method changes: each value's distance from the mean is squared and added, rather than using the sum-of-squares shortcut.",
+    "legend": {
+     "1": "the mean, μ",
+     "2": "the standard deviation, σ"
+    },
+    "steps": [
+     {
+      "ask": "What is the mean of the ten rainfall values? Add them first.",
+      "title": "Find the mean of the rainfall",
+      "lines": [
+       {
+        "tex": "\\text{Sum} &= 72+133+155+101+94+47+149+134+94+84"
+       },
+       {
+        "tex": "&= 1063"
+       },
+       {
+        "tex": "\\hl{1}{\\mu} &= \\hl{1}{\\frac{1063}{10}}"
+       },
+       {
+        "tex": "&= \\hl{1}{106.3}"
+       }
+      ]
+     },
+     {
+      "ask": "How far is each value from the mean, and what do you do with each distance before adding?",
+      "title": "Square each difference from the mean",
+      "lines": [
+       {
+        "tex": "(72 - \\hl{1}{106.3})^2 &= 1176.49"
+       },
+       {
+        "tex": "(133 - \\hl{1}{106.3})^2 &= 712.89"
+       },
+       {
+        "tex": "(155 - \\hl{1}{106.3})^2 &= 2371.69"
+       },
+       {
+        "tex": "(101 - \\hl{1}{106.3})^2 &= 28.09"
+       },
+       {
+        "tex": "(94 - \\hl{1}{106.3})^2 &= 151.29"
+       },
+       {
+        "tex": "(47 - \\hl{1}{106.3})^2 &= 3516.49"
+       },
+       {
+        "tex": "(149 - \\hl{1}{106.3})^2 &= 1823.29"
+       },
+       {
+        "tex": "(134 - \\hl{1}{106.3})^2 &= 767.29"
+       },
+       {
+        "tex": "(94 - \\hl{1}{106.3})^2 &= 151.29"
+       },
+       {
+        "tex": "(84 - \\hl{1}{106.3})^2 &= 497.29"
+       }
+      ]
+     },
+     {
+      "ask": "What is the total of the ten squared differences?",
+      "title": "Add the squares",
+      "lines": [
+       {
+        "tex": "\\sum (x-\\hl{1}{\\mu})^2 &= 1176.49+712.89+2371.69+28.09+151.29+3516.49+1823.29+767.29+151.29+497.29"
+       },
+       {
+        "tex": "&= 11196.1"
+       }
+      ]
+     },
+     {
+      "ask": "Divide the sum by n. What is the next step to get σ?",
+      "title": "Divide by n and take the square root",
+      "lines": [
+       {
+        "tex": "\\sigma^2 &= \\frac{11196.1}{10}"
+       },
+       {
+        "tex": "&= 1119.61"
+       },
+       {
+        "tex": "\\hl{2}{\\sigma} &= \\sqrt{1119.61}"
+       },
+       {
+        "tex": "&= \\hl{2}{33.46}"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{33.5 \\text{ mm}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{33.5 \\text{ mm}}",
+    "graph": null
+   }
+  ]
+ }
+]
