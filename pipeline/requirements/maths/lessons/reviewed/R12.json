@@ -1,0 +1,495 @@
+[
+ {
+  "skill": "inf-hypothesis-moe",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "inf-margin-of-error",
+  "verdict": "fixed",
+  "issues": "Swapped problem 3 (an interval-building part) for the margin-of-error part with n = 1200.",
+  "problems": [
+   {
+    "part": "maths-pp-2025-ordinary-p2-q8#(c)(i)",
+    "note": null,
+    "legend": {
+     "1": "the sample size n",
+     "2": "the margin of error as a decimal, 1/√n",
+     "3": "the margin of error as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "Which single quantity does the margin of error depend on? Write the formula that uses it.",
+      "title": "Use the margin of error formula",
+      "lines": [
+       {
+        "text": "The margin of error is $\\dfrac{1}{\\sqrt{\\hl{1}{n}}}$, with $\\hl{1}{n} = \\hl{1}{815}$."
+       },
+       {
+        "tex": "\\text{margin of error} &= \\frac{1}{\\sqrt{\\hl{1}{n}}}"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{\\hl{1}{815}}}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.035028\\ldots}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{3.5\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{margin of error} = \\hl{3}{3.5\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q9#(b)(i)",
+    "note": "The sample is bigger this time (n = 1560 instead of 815), so the margin of error is smaller, at 2.5%. The formula and the steps stay the same.",
+    "legend": {
+     "1": "the sample size n",
+     "2": "the margin of error as a decimal, 1/√n",
+     "3": "the margin of error as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "The sample size is different this time. What does the margin of error formula look like with n in it, and what is the new n?",
+      "title": "Use the margin of error formula",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\text{MOE}} &= \\frac{1}{\\sqrt{\\hl{1}{n}}}"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{\\hl{1}{1560}}}"
+       },
+       {
+        "tex": "&= \\hl{2}{0.025318}"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{2.5\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{2.5\\%}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(c)(i)",
+    "note": "The sample is larger again (n = 1200) and the answer is rounded to a whole percent, 3%, instead of one decimal place. The formula and the steps stay the same.",
+    "legend": {
+     "1": "the sample size n",
+     "2": "the margin of error as a decimal, 1/√n",
+     "3": "the margin of error as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "Put n = 1200 into the margin of error formula. What do you get as a percentage, and how far should you round it?",
+      "title": "Use the margin of error formula",
+      "lines": [
+       {
+        "text": "Margin of error $= \\dfrac{1}{\\sqrt{\\hl{1}{n}}}$ with $\\hl{1}{n} = \\hl{1}{1200}$."
+       },
+       {
+        "tex": "\\frac{1}{\\sqrt{\\hl{1}{1200}}} &= \\hl{2}{0.02887}"
+       },
+       {
+        "tex": "&= 2.887\\%"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{3\\%}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{3\\%}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-p-value",
+  "verdict": "fixed",
+  "issues": "Reordered so the negative-z problem comes second (one change from problem 1) and the given-p-value problem last; notes updated.",
+  "problems": [
+   {
+    "part": "maths-pp-2021-higher-p2-q8#(b)(ii)",
+    "note": null,
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the area in one tail",
+     "3": "the p-value",
+     "4": "the 5% significance level"
+    },
+    "steps": [
+     {
+      "ask": "The test is two-tailed. How does the p-value relate to the area beyond |z| in one tail?",
+      "title": "Find the two-tailed p-value",
+      "lines": [
+       {
+        "text": "Round $\\hl{1}{|z|}$ to $\\hl{1}{1.79}$. The test is two-tailed, so $\\hl{3}{p} = 2\\left[1 - P(z < \\hl{1}{1.79})\\right]$."
+       },
+       {
+        "text": "From the tables, $P(z < \\hl{1}{1.79}) = 0.9633$."
+       },
+       {
+        "tex": "\\hl{3}{p} &= 2(\\hl{2}{1 - 0.9633})"
+       },
+       {
+        "tex": "&= 2(\\hl{2}{0.0367})"
+       },
+       {
+        "tex": "&= \\hl{3}{0.0734}"
+       }
+      ]
+     },
+     {
+      "ask": "Compare the p-value with the 5% significance level. What does that tell you about H₀?",
+      "title": "Compare with the 5% level and conclude",
+      "lines": [
+       {
+        "text": "$\\hl{3}{0.0734} > \\hl{4}{0.05}$, so we do not reject the null hypothesis."
+       },
+       {
+        "text": "There is not enough evidence to say the news report's claim of 21 hours is incorrect."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{p = 0.0734}; \\text{ not enough evidence to reject the claim}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(c)",
+    "note": "The test statistic is negative this time, so the tail lies below -1.71 and you start from the lower tail. The doubling rule is the same as problem 1, and the answer is explained in words at the end.",
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the area in one tail",
+     "3": "the p-value",
+     "4": "the 5% significance level"
+    },
+    "steps": [
+     {
+      "ask": "The test is two-tailed and z is negative. Which tail area do you need, and how do you get it from the table?",
+      "title": "Find the probability in the tail",
+      "lines": [
+       {
+        "text": "Because the test is two-tailed, $\\hl{3}{p}$ is twice the area below $z = \\hl{1}{-1.71}$."
+       },
+       {
+        "tex": "P(z < \\hl{1}{-1.71}) &= 1 - P(z < \\hl{1}{1.71})"
+       },
+       {
+        "tex": "&= 1 - 0.9564"
+       },
+       {
+        "tex": "&= \\hl{2}{0.0436}"
+       }
+      ]
+     },
+     {
+      "ask": "One tail gives only half of what a two-tailed test needs. What do you do to the tail area?",
+      "title": "Double it for both tails",
+      "lines": [
+       {
+        "tex": "\\hl{3}{p} &= 2 \\times \\hl{2}{0.0436}"
+       },
+       {
+        "tex": "&= \\hl{3}{0.0872}"
+       }
+      ]
+     },
+     {
+      "ask": "Put the p-value into words: what chance does it describe, and is it small enough to reject H₀ at 5%?",
+      "title": "Explain what it represents",
+      "lines": [
+       {
+        "text": "If the true mean spend really were $\\text{€}94$, there would be about an 8.72% chance of getting a sample mean at least as far from $\\text{€}94$ as $\\text{€}90.45$ (that is, $\\text{€}90.45$ or less, or $\\text{€}97.55$ or more)."
+       },
+       {
+        "text": "Since $\\hl{3}{0.0872} > \\hl{4}{0.05}$, this is not unusual enough to reject $H_0$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{p = 0.0872}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q8#(b)(i)",
+    "note": "The p-value is given this time, so there is no calculation, only the comparison. It is below 0.05, so H₀ is rejected, the opposite of the first two problems.",
+    "legend": {
+     "3": "the p-value",
+     "4": "the 5% significance level"
+    },
+    "steps": [
+     {
+      "ask": "The p-value is already given. Is it smaller or larger than the significance level, and what does that mean for H₀?",
+      "title": "Compare the p-value with the significance level",
+      "lines": [
+       {
+        "text": "The significance level is 5%, which is $\\hl{4}{0.05}$."
+       },
+       {
+        "text": "The p-value $\\hl{3}{0.024}$ is less than $\\hl{4}{0.05}$, so we reject the null hypothesis that the average speed is unchanged."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The average speed has changed, because } \\hl{3}{p = 0.024} < \\hl{4}{0.05}.",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-sampling-distribution",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "inf-z-test",
+  "verdict": "fixed",
+  "issues": "Notes on problems 2 and 3 claimed only the result changed; now mention s vs σ and the new n.",
+  "problems": [
+   {
+    "part": "maths-pp-2020-higher-p2-q8#(c)",
+    "note": null,
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the hypothesised mean μ",
+     "3": "the sample mean x̄",
+     "4": "the critical value 1.96"
+    },
+    "steps": [
+     {
+      "ask": "The question asks whether the mean has changed. What do H₀ and H₁ say?",
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "$H_0$: the mean weight of carry-on luggage has not changed ($\\mu = \\hl{2}{12}$ kg)."
+       },
+       {
+        "text": "$H_1$: the mean weight of carry-on luggage has changed ($\\mu \\ne \\hl{2}{12}$ kg)."
+       }
+      ]
+     },
+     {
+      "ask": "Standardise the sample mean against the hypothesised mean, using σ/√n. What goes on top, and what on the bottom?",
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "tex": "\\hl{1}{z} &= \\frac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{\\sigma / \\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{3}{13.1} - \\hl{2}{12}}{4.5 / \\sqrt{80}}"
+       },
+       {
+        "tex": "&= \\frac{1.1}{0.5031}"
+       },
+       {
+        "tex": "&= \\hl{1}{2.186}"
+       }
+      ]
+     },
+     {
+      "ask": "Compare the test statistic with the two-tailed 5% critical values. Is it inside or outside them?",
+      "title": "Compare with the critical value and conclude",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm \\hl{4}{1.96}$."
+       },
+       {
+        "tex": "\\hl{1}{2.186} &> \\hl{4}{1.96}"
+       },
+       {
+        "text": "$\\hl{1}{z}$ is outside $-\\hl{4}{1.96} \\le \\hl{1}{z} \\le \\hl{4}{1.96}$, so reject $H_0$. There is evidence that the mean weight of carry-on luggage has changed."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean weight of carry-on luggage has changed}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q2#(b)",
+    "note": "The result flips: z = -1.71 lies inside ±1.96, so H₀ is not rejected. The steps are the same, but the formula uses the sample standard deviation s in place of σ.",
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the hypothesised mean μ",
+     "3": "the sample mean x̄",
+     "4": "the critical value 1.96"
+    },
+    "steps": [
+     {
+      "ask": "The supermarket claims a mean spend of €94. What are H₀ and H₁ if the test looks for a change in either direction?",
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "tex": "H_0:\\ \\mu &= \\hl{2}{94}"
+       },
+       {
+        "text": "The null hypothesis $H_0$: the mean spend is $\\text{€}\\hl{2}{94}$ (the supermarket is right)."
+       },
+       {
+        "tex": "H_1:\\ \\mu &\\ne \\hl{2}{94}"
+       },
+       {
+        "text": "The alternative hypothesis $H_1$: the mean spend is not $\\text{€}\\hl{2}{94}$."
+       }
+      ]
+     },
+     {
+      "ask": "Standardise the sample mean against the claimed mean of €94. Which mean goes on top, and what goes on the bottom?",
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $\\hl{1}{z} = \\dfrac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{s / \\sqrt{n}}$."
+       },
+       {
+        "tex": "\\hl{1}{z} &= \\frac{\\hl{3}{90.45} - \\hl{2}{94}}{20.73 / \\sqrt{100}}"
+       },
+       {
+        "tex": "&= \\frac{-3.55}{2.073}"
+       },
+       {
+        "tex": "&= \\hl{1}{-1.71}"
+       }
+      ]
+     },
+     {
+      "ask": "Where does z sit compared with the two-tailed 5% critical values?",
+      "title": "Compare with the 5% critical values",
+      "lines": [
+       {
+        "text": "At the 5% level (two-tailed) the critical values are $\\pm \\hl{4}{1.96}$."
+       },
+       {
+        "tex": "-\\hl{4}{1.96} &< \\hl{1}{-1.71} < \\hl{4}{1.96}"
+       }
+      ]
+     },
+     {
+      "ask": "Does z fall inside the critical values? What does that mean for the claim of €94?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "$\\hl{1}{z}$ lies between $-\\hl{4}{1.96}$ and $\\hl{4}{1.96}$, so we do not reject $H_0$. There is not enough evidence to reject $H_0$ (the claim of $\\text{€}\\hl{2}{94}$)."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Do not reject } H_0\\ (\\hl{1}{z = -1.71}).\\ \\text{There is not enough evidence to reject } H_0 \\text{ (the claim of } \\text{€}\\hl{2}{94}\\text{).}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q5#(b)",
+    "note": "z is large and positive (the sample mean 22.16 is well above 20.79), so H₀ is rejected, as in problem 1. The steps and two-tailed test are the same as problem 2, with n = 500 and a standard deviation of 8.12.",
+    "legend": {
+     "1": "the test statistic z",
+     "2": "the hypothesised mean μ",
+     "3": "the sample mean x̄",
+     "4": "the critical value 1.96"
+    },
+    "steps": [
+     {
+      "ask": "What are H₀ and H₁ for a change in either direction from the 2019 mean of 20.79?",
+      "title": "State the hypotheses",
+      "lines": [
+       {
+        "text": "We test whether the mean differs from the 2019 figure in either direction, so the test is two-tailed."
+       },
+       {
+        "tex": "H_0: \\mu &= \\hl{2}{20.79}"
+       },
+       {
+        "text": "Null hypothesis: the mean monthly spend has not changed."
+       },
+       {
+        "tex": "H_1: \\mu &\\neq \\hl{2}{20.79}"
+       },
+       {
+        "text": "Alternative hypothesis: the mean monthly spend has changed."
+       }
+      ]
+     },
+     {
+      "ask": "Which quantity is the standard error here, and how does it enter the z formula?",
+      "title": "Calculate the test statistic",
+      "lines": [
+       {
+        "text": "Use $\\hl{1}{z} = \\dfrac{\\hl{3}{\\bar{x}} - \\hl{2}{\\mu}}{\\sigma/\\sqrt{n}}$ with $\\bar{x} = \\hl{3}{22.16}$, $\\sigma = 8.12$ (the sample standard deviation) and $n = 500$."
+       },
+       {
+        "tex": "\\hl{1}{z} &= \\frac{\\hl{3}{22.16} - \\hl{2}{20.79}}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "\\hl{1}{z} &= \\frac{1.37}{8.12/\\sqrt{500}}"
+       },
+       {
+        "tex": "\\hl{1}{z} &\\approx \\hl{1}{3.7726}"
+       }
+      ]
+     },
+     {
+      "ask": "Compare the z-score with the two-tailed 5% critical values. Is it inside or outside?",
+      "title": "Compare with the critical value",
+      "lines": [
+       {
+        "text": "At the 5% level, two-tailed, the critical values are $\\pm \\hl{4}{1.96}$."
+       },
+       {
+        "tex": "\\hl{1}{3.7726} &> \\hl{4}{1.96}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the decision, and how does z compare with the critical value?",
+      "title": "State the conclusion and reason",
+      "lines": [
+       {
+        "text": "Conclusion: reject $H_0$. The mean monthly spend has changed."
+       },
+       {
+        "text": "Reason: $\\hl{1}{z = 3.7726}$ lies outside $-\\hl{4}{1.96} \\le \\hl{1}{z} \\le \\hl{4}{1.96}$, so the result is significant at the 5% level."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Reject } H_0\\text{: the mean monthly spend has changed, since } \\hl{1}{3.7726} > \\hl{4}{1.96}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-empirical-rule",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-normal-inverse",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-normal-prob",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-z-score",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "trig-compound",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]
