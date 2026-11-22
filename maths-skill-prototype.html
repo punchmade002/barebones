@@ -398,7 +398,7 @@ function drawGraph(p) {
   const out = document.getElementById('readout'), span = g.box[2] - g.box[0];
   // fingers can't land on x = 1 exactly, so a drop near a turning point snaps onto it
   glider.on('up', () => {
-    const near = g.points.find(pt => Math.abs(glider.X() - pt.x) < 0.05 * span);
+    const near = g.points.find(pt => Math.abs(glider.X() - pt.x) < 0.08 * span);
     if (near) { glider.moveTo([near.x, near.y]); board.update(); }
   });
   const update = () => {
