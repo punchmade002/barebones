@@ -6,104 +6,117 @@
   "notes": [
     {
       "h": "The titration method",
-      "b": "Work through the steps in order; each step produces the quantity the next step needs. Units are as defined in \"Solutions and concentration\".",
+      "b": "A titration (adding one solution from a burette into another until the reaction is exactly complete) gives volumes, and the calculation turns those volumes into a concentration. Work through the steps in order; each step produces the quantity the next step needs. There is more on units in Solutions and concentration.",
       "points": [
-        "Step 1: Write the balanced equation and note the mole ratio of the two reactants.",
-        "Step 2: Calculate the moles of the substance whose concentration and volume are both known, using n = c × V with V in litres (cm³ ÷ 1000).",
-        "Step 3: Use the mole ratio to find the moles of the other substance.",
-        "Step 4: Divide those moles by the volume of that solution in litres to get its concentration in mol L⁻¹.",
-        "Step 5: Convert to the units asked for: multiply the concentration in mol L⁻¹ by the molar mass in g mol⁻¹ to get g L⁻¹, then allow for any dilution.",
-        "To give %w/v, divide the value in g L⁻¹ by 10, because %w/v is grams of solute per 100 cm³ of solution."
-      ]
+        "Step 1: Write the balanced equation and note the mole ratio of the two reactants (the ratio of their coefficients), because this ratio links the amounts of the two substances.",
+        "Step 2: Calculate the moles of the substance whose concentration and volume are both known, using n = c × V (moles = concentration in mol L⁻¹ × volume), with V in litres (cm³ ÷ 1000).",
+        "Step 3: Use the mole ratio to find the moles of the other substance, since the equation tells you how many moles of one react with each mole of the other.",
+        "Step 4: Divide those moles by the volume of that solution in litres to get its concentration in mol L⁻¹, because concentration is moles per litre.",
+        "Step 5: Convert to the units asked for: multiply the concentration in mol L⁻¹ by the molar mass (mass of one mole) in g mol⁻¹ to get g L⁻¹, then allow for any dilution.",
+        "To give %w/v, divide the value in g L⁻¹ by 10, because %w/v is grams of solute (the dissolved substance) per 100 cm³ of solution."
+      ],
+      "tip": "Exams ask you to calculate a concentration from titration data, then convert it to g L⁻¹ and %w/v and allow for dilution. Convert cm³ to L when using n = c × V, and do not forget the mole ratio."
     },
     {
       "h": "The titration formula",
+      "b": "The five steps can be squeezed into a single equation. It saves time once you trust the method, and it gives exactly the same answer.",
       "points": [
-        "For the reaction aA + bB → products: (cA × VA) ÷ a = (cB × VB) ÷ b, where a and b are the coefficients in the balanced equation.",
-        "The volumes can be in cm³ on both sides, because the units cancel.",
+        "For the reaction aA + bB → products: (cA × VA) ÷ a = (cB × VB) ÷ b, where c is concentration, V is volume, and a and b are the coefficients (the numbers in front of each formula) in the balanced equation.",
+        "The volumes can be in cm³ on both sides, because the units cancel; the concentrations must be in the same units on both sides too.",
         "Example: for Na₂CO₃ + 2HCl, (c(Na₂CO₃) × V(Na₂CO₃)) ÷ 1 = (c(HCl) × V(HCl)) ÷ 2.",
         "The formula gives the same answer as the step-by-step method, so show the working whichever route is used."
-      ]
+      ],
+      "tip": "Keep cm³ on both sides of the titration formula, or convert to L when using n = c × V. Do not forget the mole ratio, for example 1 : 2 for Na₂CO₃ : HCl and 1 : 2 for H₂SO₄ : NaOH."
     },
     {
       "h": "Dilution factors",
+      "b": "Samples are often diluted (water added to make a weaker solution) or made up to a larger volume before titrating, so the titration does not measure the original sample directly. You must scale back up to get the original.",
       "points": [
-        "If a sample was diluted before titration, for example 25.0 cm³ made up to 250 cm³, the titration gives the diluted concentration.",
-        "Multiply the diluted concentration by the dilution factor to get the original concentration: 250 ÷ 25.0 = 10.",
-        "If a solid was dissolved and made up to a volume, the titration of a portion gives the moles in that portion only.",
+        "If a sample was diluted before titration, for example 25.0 cm³ made up to 250 cm³, the titration gives the diluted concentration, not the original one.",
+        "Multiply the diluted concentration by the dilution factor (how many times the volume was increased) to get the original concentration: 250 ÷ 25.0 = 10.",
+        "If a solid was dissolved and made up to a volume, the titration of a portion gives the moles in that portion only, because the rest of the solution was not used.",
         "Scale up by (total volume ÷ portion volume) to get the moles in the whole sample, for example × 10 for 25.0 cm³ out of 250 cm³."
-      ]
+      ],
+      "tip": "Don't forget the dilution factor: it is a trap in exam questions. Exams ask you to find a concentration after dilution."
     },
     {
       "h": "Good practice in calculations",
+      "b": "A correct method can still lose marks through poor data choice or careless presentation. These habits protect your answer.",
       "points": [
-        "Use the mean of the concordant titres, not the rough titre.",
+        "Use the mean (average) of the concordant titres (titres that agree closely), not the rough titre, because it is less precise (the quick first run that only shows roughly where the end point is).",
         "Give answers to three significant figures with units, matching the precision of the titration data.",
-        "Check the answer is sensible: a dilute laboratory solution is usually 0.01–2 M, and a % purity cannot exceed 100%."
+        "Check the answer is sensible: a dilute laboratory solution is usually 0.01–2 M (mol L⁻¹), and a % purity (the percentage of a sample that is the pure substance) cannot exceed 100%."
       ]
     },
     {
       "h": "Unfamiliar contexts (Higher Level only)",
+      "b": "At Higher Level the titration may be set in a situation you have not seen before. The chemistry is the same, so a clear plan through moles gets you through.",
       "points": [
         "An unfamiliar problem may involve an unusual substance, a back titration, finding a formula or percentage purity, or a substance used in everyday life; the same method applies.",
         "Read the question for the balanced equation, or write it yourself, then list the known quantities with units.",
-        "Plan the route through moles before calculating anything.",
-        "Back titration: an excess of a known amount of reagent is added to the sample, for example acid added to an insoluble antacid, and the excess is then titrated.",
-        "Moles that reacted with the sample = moles added − moles in excess.",
-        "Back titration is used when the sample is insoluble or reacts slowly."
-      ]
+        "Plan the route through moles before calculating anything, so you know which quantity leads to which.",
+        "Back titration: an excess (more than enough) of a known amount of reagent is added to the sample, for example acid added to an insoluble antacid (a tablet that neutralises stomach acid), and the excess is then titrated.",
+        "Moles that reacted with the sample = moles added − moles in excess, because whatever acid was not left over must have reacted with the sample.",
+        "Back titration is used when the sample is insoluble or reacts slowly, because such a sample cannot be titrated directly."
+      ],
+      "tip": "Unfamiliar contexts ask you to find the formula of a hydrated salt, the percentage purity of a sample, or the amount of a base in a tablet. For a back titration, be ready to explain what it is and when it is used."
     },
     {
       "h": "Problem 1: standardising hydrochloric acid",
-      "b": "Each problem follows the method above. All data are sample data.",
+      "b": "Standardising an acid means finding its exact concentration by titrating it against a solution of known concentration, here sodium carbonate. Each problem follows the method above. All data are sample data.",
       "points": [
-        "Data: 25.0 cm³ of 0.0500 M sodium carbonate was titrated with hydrochloric acid, using methyl orange.",
-        "Data: the mean titre of hydrochloric acid was 24.2 cm³.",
+        "Data: 25.0 cm³ of 0.0500 M sodium carbonate was titrated with hydrochloric acid, using methyl orange (an indicator that changes colour at the end point).",
+        "Data: the mean titre (the volume of acid run in from the burette) of hydrochloric acid was 24.2 cm³.",
         "Equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂.",
-        "Moles Na₂CO₃ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol.",
+        "Moles Na₂CO₃ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol, using n = c × V with V in litres.",
         "Moles HCl = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, since Na₂CO₃ : HCl = 1 : 2.",
         "Concentration of HCl = 2.50 × 10⁻³ mol ÷ 0.0242 L = 0.103 mol L⁻¹."
-      ]
+      ],
+      "tip": "Exams ask you to standardise an acid. Don't forget the mole ratio: here it is 1 : 2."
     },
     {
       "h": "Problem 2: ammonia in a household cleaner",
+      "b": "This problem adds a dilution step, so the titration result must be scaled up to find the strength of the original cleaner.",
       "points": [
-        "Data: 25.0 cm³ of a cleaner was diluted to 250 cm³.",
+        "Data: 25.0 cm³ of a cleaner was diluted to 250 cm³, so the dilution factor will be needed.",
         "Data: 25.0 cm³ of the diluted solution needed 21.5 cm³ of 0.100 M hydrochloric acid, using methyl orange.",
-        "Equation: NH₃ + HCl → NH₄Cl, a 1 : 1 reaction.",
-        "Moles HCl = 0.100 mol L⁻¹ × 0.0215 L = 2.15 × 10⁻³ mol, which equals the moles of NH₃ in 25.0 cm³ of diluted cleaner.",
-        "Diluted concentration = 2.15 × 10⁻³ mol ÷ 0.0250 L = 0.0860 mol L⁻¹.",
+        "Equation: NH₃ + HCl → NH₄Cl, a 1 : 1 reaction, so no ratio factor is needed.",
+        "Moles HCl = 0.100 mol L⁻¹ × 0.0215 L = 2.15 × 10⁻³ mol, which equals the moles of NH₃ in 25.0 cm³ of diluted cleaner because the ratio is 1 : 1.",
+        "Diluted concentration = 2.15 × 10⁻³ mol ÷ 0.0250 L = 0.0860 mol L⁻¹, because 25.0 cm³ is the volume that was titrated.",
         "Original concentration = 0.0860 mol L⁻¹ × 10 = 0.860 mol L⁻¹, because the dilution factor is 250 ÷ 25.0 = 10.",
-        "Mass concentration of ammonia = 0.860 mol L⁻¹ × 17 g mol⁻¹ = 14.6 g L⁻¹."
-      ]
+        "Mass concentration of ammonia = 0.860 mol L⁻¹ × 17 g mol⁻¹ = 14.6 g L⁻¹, using the molar mass of NH₃ (17 g mol⁻¹)."
+      ],
+      "tip": "This problem needs the scale factor of 10. Exams ask you to find a concentration after dilution."
     },
     {
       "h": "Problem 3: water of crystallisation in washing soda (Higher Level only)",
+      "b": "Washing soda crystals hold water inside the crystal (water of crystallisation), written Na₂CO₃·xH₂O, where x is unknown. Titrating the carbonate tells you how much Na₂CO₃ is in the crystals, and the rest of the mass must be water.",
       "points": [
         "Data: 3.58 g of washing soda crystals, Na₂CO₃·xH₂O, were dissolved and made up to 250 cm³.",
         "Data: 25.0 cm³ portions needed a mean titre of 25.0 cm³ of 0.100 M hydrochloric acid.",
-        "Moles HCl = 0.100 mol L⁻¹ × 0.0250 L = 2.50 × 10⁻³ mol.",
+        "Moles HCl = 0.100 mol L⁻¹ × 0.0250 L = 2.50 × 10⁻³ mol, using n = c × V.",
         "Moles Na₂CO₃ in 25.0 cm³ = 2.50 × 10⁻³ mol ÷ 2 = 1.25 × 10⁻³ mol, since Na₂CO₃ : HCl = 1 : 2.",
-        "Moles Na₂CO₃ in 250 cm³ = 1.25 × 10⁻³ mol × 10 = 1.25 × 10⁻² mol.",
-        "Mass of Na₂CO₃ = 1.25 × 10⁻² mol × 106 g mol⁻¹ = 1.325 g.",
-        "Mass of water = 3.58 g − 1.325 g = 2.255 g.",
-        "Moles of water = 2.255 g ÷ 18 g mol⁻¹ = 0.125 mol.",
+        "Moles Na₂CO₃ in 250 cm³ = 1.25 × 10⁻³ mol × 10 = 1.25 × 10⁻² mol, because only a tenth of the solution was titrated.",
+        "Mass of Na₂CO₃ = 1.25 × 10⁻² mol × 106 g mol⁻¹ = 1.325 g, using mass = moles × molar mass. Mass of water = 3.58 g − 1.325 g = 2.255 g.",
+        "Moles of water = 2.255 g ÷ 18 g mol⁻¹ = 0.125 mol, so that it can be compared with the moles of Na₂CO₃.",
         "Ratio of water to Na₂CO₃ = 0.125 ÷ 0.0125 = 10, so x = 10 and the formula is Na₂CO₃·10H₂O."
-      ]
+      ],
+      "tip": "Exams ask you to find x in a hydrated salt. This problem needs the scale factor of 10."
     },
     {
       "h": "Problem 4: a back titration of an antacid tablet (Higher Level only)",
+      "b": "Calcium carbonate in an antacid tablet cannot be titrated directly, so a back titration is used: add too much acid, then measure how much was left over. The tablet's share is the difference.",
       "points": [
         "Data: an antacid tablet containing calcium carbonate was added to 50.0 cm³ of 1.00 M hydrochloric acid, an excess.",
         "Data: when the tablet had reacted, the remaining acid needed 30.0 cm³ of 0.500 M sodium hydroxide.",
-        "Moles HCl added = 1.00 mol L⁻¹ × 0.0500 L = 0.0500 mol.",
+        "Moles HCl added = 1.00 mol L⁻¹ × 0.0500 L = 0.0500 mol, which is the starting amount before any is used up.",
         "Moles HCl in excess = moles NaOH, because they react 1 : 1; moles NaOH = 0.500 mol L⁻¹ × 0.0300 L = 0.0150 mol.",
         "Moles HCl that reacted with the tablet = 0.0500 mol − 0.0150 mol = 0.0350 mol.",
-        "Equation: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂.",
-        "Moles CaCO₃ = 0.0350 mol ÷ 2 = 0.0175 mol.",
+        "Equation: CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂. Moles CaCO₃ = 0.0350 mol ÷ 2 = 0.0175 mol.",
         "Mass of calcium carbonate per tablet = 0.0175 mol × 100 g mol⁻¹ = 1.75 g.",
         "A back titration is needed because calcium carbonate is insoluble and reacts too slowly to titrate directly."
-      ]
+      ],
+      "tip": "The moles that reacted with the tablet are the difference (moles added − moles in excess), not the titre. Exams ask you to find the amount of base in an antacid."
     }
   ],
   "keyTerms": [

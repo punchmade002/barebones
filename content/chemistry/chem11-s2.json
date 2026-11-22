@@ -6,122 +6,141 @@
   "notes": [
     {
       "h": "The Arrhenius theory",
-      "b": "Svante Arrhenius defined acids and bases by the ions they produce in water (1887).",
+      "b": "The first successful definition of acids and bases came from Svante Arrhenius in 1887, in his theory of electrolytic dissociation. He defined them by the ions they produce when dissolved in water.",
       "points": [
-        "An Arrhenius acid is a substance that dissociates in water to produce hydrogen ions (H⁺): HCl(aq) → H⁺(aq) + Cl⁻(aq).",
+        "An Arrhenius acid is a substance that dissociates (splits into ions) in water to produce hydrogen ions (H⁺): HCl(aq) → H⁺(aq) + Cl⁻(aq).",
         "An Arrhenius base is a substance that dissociates in water to produce hydroxide ions (OH⁻): NaOH(aq) → Na⁺(aq) + OH⁻(aq).",
-        "Neutralisation is the combination of hydrogen and hydroxide ions to form water: H⁺ + OH⁻ → H₂O."
-      ]
+        "Neutralisation (an acid and a base cancelling each other's properties) is the combination of hydrogen and hydroxide ions to form water: H⁺ + OH⁻ → H₂O."
+      ],
+      "tip": "Exams ask you to define an acid and a base according to each theory. For Arrhenius, say what the substance produces in water: H⁺ for an acid, OH⁻ for a base."
     },
     {
       "h": "Limitations of the Arrhenius theory",
+      "b": "The Arrhenius theory works well for simple cases like HCl and NaOH, but it breaks down as soon as a substance or reaction does not fit its water-and-ions picture. These gaps are why a wider theory was needed.",
       "points": [
-        "It applies only to aqueous solutions.",
-        "It cannot explain substances that act as bases but contain no hydroxide, such as ammonia (NH₃) and sodium carbonate.",
+        "It applies only to aqueous solutions (substances dissolved in water), so it says nothing about acids and bases in other solvents.",
+        "It cannot explain substances that act as bases but contain no hydroxide, such as ammonia (NH₃) and sodium carbonate, because it only allows a base to produce OH⁻ itself.",
         "It cannot explain acid–base reactions that happen without water, e.g. ammonia gas and hydrogen chloride gas reacting to form ammonium chloride: NH₃(g) + HCl(g) → NH₄Cl(s).",
-        "It ignores the role of water: a bare hydrogen ion does not exist in water; it bonds to a water molecule to form the hydronium ion, H₃O⁺."
-      ]
+        "It ignores the role of water: a bare hydrogen ion (a proton) does not exist in water; it bonds to a water molecule to form the hydronium ion, H₃O⁺."
+      ],
+      "tip": "If asked to explain why ammonia is a base according to Brønsted–Lowry but not Arrhenius, say that ammonia contains no OH⁻, so Arrhenius cannot count it as a base."
     },
     {
       "h": "The Brønsted–Lowry theory",
-      "b": "Johannes Brønsted and Thomas Lowry proposed this theory independently in 1923. It defines acids and bases by the transfer of a proton.",
+      "b": "Johannes Brønsted and Thomas Lowry proposed this theory independently in 1923. It defines acids and bases by the transfer of a proton, so it no longer depends on water or on OH⁻.",
       "points": [
-        "A proton is the same particle as a hydrogen ion, H⁺.",
+        "A proton is the same particle as a hydrogen ion, H⁺ (a hydrogen atom that has lost its electron, leaving just a proton).",
         "A Brønsted–Lowry acid is a proton donor; a Brønsted–Lowry base is a proton acceptor.",
         "An acid–base reaction is the transfer of a proton from an acid to a base.",
         "HCl(g) + H₂O(l) → H₃O⁺(aq) + Cl⁻(aq): HCl donates a proton, so it is the acid, and water accepts it, so it is the base.",
-        "NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq): ammonia accepts a proton, so it is the base, and water donates one, so it is the acid.",
+        "NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq): ammonia accepts a proton, so it is the base, and water donates one, so it is the acid. The ⇌ arrow means the reaction is reversible.",
         "Water can act as an acid or a base depending on what it reacts with, so it is described as amphoteric."
-      ]
+      ],
+      "tip": "A proton and a hydrogen ion are the same thing (H⁺). At this stage keep to proton donor and acceptor; conjugate pairs come later and are Higher Level."
     },
     {
       "h": "Why Brønsted–Lowry is more extensive",
-      "b": "A theory is more extensive if it explains a wider range of substances and reactions with fewer restrictions.",
+      "b": "A theory is more extensive if it explains a wider range of substances and reactions with fewer restrictions. Brønsted–Lowry does this by fixing each of the Arrhenius limitations.",
       "points": [
-        "It includes every Arrhenius acid and base, and more: the hydroxide ion is itself a proton acceptor.",
+        "It includes every Arrhenius acid and base, and more: the hydroxide ion is itself a proton acceptor, so it counts as a base.",
         "It explains bases with no OH⁻, such as ammonia, and the carbonate ion, which accepts a proton: CO₃²⁻ + H⁺ → HCO₃⁻.",
         "It applies to reactions without water, such as ammonia reacting with hydrogen chloride in the gas phase.",
         "It explains the role of water as a proton acceptor when it forms H₃O⁺, which the Arrhenius theory cannot describe.",
         "Acid: Arrhenius gives a substance that produces H⁺ in water; Brønsted–Lowry gives a proton donor, so the definition does not depend on water.",
         "Base: Arrhenius gives a substance that produces OH⁻ in water; Brønsted–Lowry gives a proton acceptor, so it covers bases such as ammonia.",
-        "Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent and in the absence of a solvent."
-      ]
+        "Scope: Arrhenius applies only to aqueous solutions; Brønsted–Lowry applies in any solvent (the liquid doing the dissolving) and in the absence of a solvent."
+      ],
+      "tip": "You may be asked to justify why Brønsted–Lowry is more extensive. Use the reaction of ammonia with hydrogen chloride gas as an example: it has no water and no OH⁻, yet it is an acid–base reaction. Lewis theory is not on the specification."
     },
     {
       "h": "Conjugate acid–base pairs (Higher Level only)",
+      "b": "Because a Brønsted–Lowry reaction passes a proton along, the acid and base each turn into a new species that can pass the proton back. These linked species are called conjugates.",
       "points": [
         "When an acid donates a proton, what is left can accept a proton back: it is the conjugate base of that acid.",
         "When a base accepts a proton, the species formed is the conjugate acid of that base.",
         "A conjugate acid–base pair is two species that differ by one proton (H⁺), e.g. HCl and Cl⁻; H₃O⁺ and H₂O; NH₄⁺ and NH₃.",
         "H₃O⁺ and OH⁻ are not a conjugate pair, because they differ by two protons.",
         "Every Brønsted–Lowry reaction has two conjugate pairs: acid₁ + base₂ ⇌ acid₂ + base₁."
-      ]
+      ],
+      "tip": "Conjugate pairs differ by exactly one H⁺: H₂O and OH⁻ are a pair; H₃O⁺ and OH⁻ are not. Be ready to explain the term conjugate pair."
     },
     {
       "h": "Identifying the species in an equation (Higher Level only)",
+      "b": "To label the acids, bases and conjugate pairs in any equation, follow the movement of the proton. These four steps work for every equation.",
       "points": [
-        "Step 1: For each reactant, see whether it loses or gains a proton in going to the products.",
-        "Step 2: The reactant that loses a proton is the acid; the reactant that gains a proton is the base.",
-        "Step 3: On the product side, the species formed from the base is its conjugate acid, and the species formed from the acid is its conjugate base.",
-        "Step 4: In a reversible reaction, the products act as an acid and a base in the reverse reaction."
-      ]
+        "1. For each reactant, check whether it loses or gains a proton in going to the products.",
+        "2. The reactant that loses a proton is the acid; the reactant that gains a proton is the base.",
+        "3. On the product side, the species formed from the base is its conjugate acid, and the species formed from the acid is its conjugate base.",
+        "4. In a reversible reaction (one that can run in both directions, shown by ⇌), the products act as an acid and a base in the reverse reaction."
+      ],
+      "tip": "The conjugate base of an acid is on the product side, not the other reactant. Exams ask you to identify the acids, bases and conjugate pairs in a given equation."
     },
     {
       "h": "Worked examples (Higher Level only)",
+      "b": "Each equation below is labelled using the four steps: find which reactant loses a proton, which gains one, then match each to its product. Notice that the same species can be an acid in one equation and a base in another.",
       "points": [
         "HCl + H₂O → H₃O⁺ + Cl⁻: HCl is the acid and H₂O is the base; the pairs are HCl/Cl⁻ and H₃O⁺/H₂O.",
         "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻: the acids are H₂O and NH₄⁺; the bases are NH₃ and OH⁻; the pairs are NH₄⁺/NH₃ and H₂O/OH⁻.",
         "CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺: the acids are CH₃COOH and H₃O⁺; the bases are H₂O and CH₃COO⁻; the pairs are CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O.",
-        "HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺: here HCO₃⁻ acts as an acid; the pairs are HCO₃⁻/CO₃²⁻ and H₃O⁺/H₂O.",
-        "HCO₃⁻ + H₃O⁺ ⇌ H₂CO₃ + H₂O: here HCO₃⁻ acts as a base; the pairs are H₂CO₃/HCO₃⁻ and H₃O⁺/H₂O.",
+        "HCO₃⁻ + H₂O ⇌ CO₃²⁻ + H₃O⁺: here HCO₃⁻ acts as an acid because it loses a proton; the pairs are HCO₃⁻/CO₃²⁻ and H₃O⁺/H₂O.",
+        "HCO₃⁻ + H₃O⁺ ⇌ H₂CO₃ + H₂O: here HCO₃⁻ acts as a base because it gains a proton; the pairs are H₂CO₃/HCO₃⁻ and H₃O⁺/H₂O.",
         "NH₃ + HCl → NH₄⁺ + Cl⁻ (no water involved): NH₃ is the base and HCl is the acid; the pairs are NH₄⁺/NH₃ and HCl/Cl⁻."
-      ]
+      ],
+      "tip": "For NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, a typical question asks for the two acids and the two conjugate pairs: the acids are H₂O and NH₄⁺, the pairs NH₄⁺/NH₃ and H₂O/OH⁻."
     },
     {
       "h": "Strength of conjugates and amphoteric species (Higher Level only)",
+      "b": "An acid and its conjugate base are linked like a see-saw: the stronger one is, the weaker the other. Some species can sit on either side, depending on what they react with.",
       "points": [
         "The stronger an acid, the weaker its conjugate base: HCl is a strong acid, so Cl⁻ is a very weak base that barely accepts protons.",
         "A weak acid has a relatively strong conjugate base: ethanoic acid is a weak acid, and the ethanoate ion (CH₃COO⁻) readily accepts a proton.",
-        "Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the examples above."
-      ]
+        "Water and the hydrogencarbonate ion are amphoteric (also called amphiprotic): each can act as either an acid or a base, depending on the reaction, as shown in the worked examples above."
+      ],
+      "tip": "To explain why the chloride ion is a very weak base but the ethanoate ion is a stronger one, link each to its acid: HCl is strong, ethanoic acid is weak. Water is amphoteric because it can act as an acid or a base."
     },
     {
       "h": "Strong and weak acids",
+      "b": "Strength describes how far an acid splits into ions (dissociates, or ionises) when it dissolves in water. This decides how many H⁺ ions it releases.",
       "points": [
         "A strong acid is completely dissociated (ionised) into ions in water, shown with a single arrow: HCl(aq) → H⁺(aq) + Cl⁻(aq).",
         "Strong acids include hydrochloric acid (HCl), nitric acid (HNO₃) and sulfuric acid (H₂SO₄).",
-        "A weak acid is only slightly dissociated in water: most molecules stay undissociated and an equilibrium is set up, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq).",
-        "Weak acids include ethanoic acid (vinegar), citric acid, carbonic acid (CO₂ in water) and most organic acids."
-      ]
+        "A weak acid is only slightly dissociated in water: most molecules stay undissociated and an equilibrium (a balance between the forward and reverse reactions) is set up, e.g. CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq).",
+        "Weak acids include ethanoic acid (vinegar), citric acid, carbonic acid (CO₂ in water) and most organic acids (acids built on carbon chains)."
+      ],
+      "tip": "Exams ask you to distinguish strong and weak acids with examples. Use the arrows: a single arrow for complete dissociation, ⇌ for slight dissociation."
     },
     {
       "h": "Strong and weak bases",
+      "b": "Bases have strength in the same way as acids: it depends on how fully they produce hydroxide ions in water.",
       "points": [
         "A strong base is completely dissociated in water, e.g. sodium hydroxide and potassium hydroxide: NaOH(aq) → Na⁺(aq) + OH⁻(aq).",
         "A weak base reacts only slightly with water to produce hydroxide ions, e.g. ammonia: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq)."
-      ]
+      ],
+      "tip": "Distinguish strong and weak bases with examples: sodium hydroxide for strong, ammonia for weak."
     },
     {
       "h": "Concentrated and dilute",
       "b": "Concentration describes how much acid or base is present; strength describes how far it dissociates. The two are separate properties.",
       "points": [
-        "Concentration is the amount of acid or base dissolved per litre of solution, measured in mol L⁻¹.",
+        "Concentration is the amount of acid or base dissolved per litre of solution, measured in mol L⁻¹ (moles per litre; a mole is a fixed counting amount of particles).",
         "A concentrated acid has a large amount of acid per litre, e.g. 10 M HCl; a dilute acid has a small amount per litre, e.g. 0.1 M HCl.",
         "A dilute strong acid, e.g. 0.01 M HCl, is still fully dissociated.",
         "A concentrated weak acid, e.g. glacial ethanoic acid, is still only slightly dissociated."
-      ]
+      ],
+      "tip": "Strong does not mean concentrated, and weak does not mean dilute. Don't do Ka or pH calculations here; those are Higher Level and belong in the pH chapter."
     },
     {
       "h": "Evidence that ethanoic acid is weaker than hydrochloric acid",
-      "b": "Compare 0.1 M hydrochloric acid with 0.1 M ethanoic acid, which have the same concentration.",
+      "b": "Compare 0.1 M hydrochloric acid with 0.1 M ethanoic acid, which have the same concentration. Any difference in behaviour must then come from strength, not concentration.",
       "points": [
-        "pH: 0.1 M hydrochloric acid has a pH of 1.0, while 0.1 M ethanoic acid has a pH of about 2.9, because it produces far fewer H⁺ ions.",
+        "pH (a scale measuring how acidic a solution is; lower means more H⁺): 0.1 M hydrochloric acid has a pH of 1.0, while 0.1 M ethanoic acid has a pH of about 2.9, because it produces far fewer H⁺ ions.",
         "Ethanoic acid has an acid dissociation constant (Ka) of 1.8 × 10⁻⁵, a small value showing that it is only slightly dissociated.",
         "Rate of reaction: magnesium ribbon fizzes much faster in 0.1 M hydrochloric acid than in 0.1 M ethanoic acid, because hydrogen ions are present at a higher concentration.",
-        "Conductivity: 0.1 M hydrochloric acid conducts electricity much better than 0.1 M ethanoic acid, because it contains more ions.",
+        "Conductivity: 0.1 M hydrochloric acid conducts electricity much better than 0.1 M ethanoic acid, because it contains more ions to carry the current.",
         "Equal volumes of the two acids at the same concentration neutralise the same amount of sodium hydroxide and give the same total volume of hydrogen with excess magnesium, because the weak acid's equilibrium shifts to release more H⁺ as H⁺ is used up.",
         "Safety: concentrated acids and alkalis are corrosive, so wear goggles and gloves; dilute an acid by adding it to water."
-      ]
+      ],
+      "tip": "To describe evidence, choose two of pH, rate with magnesium and conductivity, and say why each differs. The same-volume, same-concentration neutralisation point is a common exam trap: both acids need the same amount of base."
     }
   ],
   "keyTerms": [

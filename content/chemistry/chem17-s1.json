@@ -6,55 +6,73 @@
   "notes": [
     {
       "h": "What rate of reaction means",
+      "b": "Some reactions finish in a flash and others take years. Rate of reaction is the measure chemists use to say exactly how fast a reaction goes, and it is always a change per unit of time.",
       "points": [
-        "Rate of reaction is the change in concentration of a reactant or product per unit time.",
-        "When concentration is measured, rate is given in mol L⁻¹ s⁻¹ or mol L⁻¹ min⁻¹.",
+        "Rate of reaction is the change in concentration (the amount of substance per litre of solution) of a reactant (a substance used up) or a product (a substance formed) per unit time.",
+        "When concentration is measured, rate is given in mol L⁻¹ s⁻¹ or mol L⁻¹ min⁻¹, that is, moles per litre changing each second or each minute.",
         "When another quantity is followed, rate is that quantity per unit time, e.g. cm³ of gas per minute (cm³ min⁻¹) or grams of mass lost per second (g s⁻¹).",
-        "Rate can be followed by the disappearance of a reactant or the appearance of a product; the two are linked by the mole ratio in the balanced equation.",
-        "In 2H₂O₂(aq) → 2H₂O(l) + O₂(g), H₂O₂ is used up twice as fast, in moles, as O₂ is formed.",
+        "Rate can be followed by the disappearance of a reactant or the appearance of a product; the two are linked by the mole ratio (the ratio of the numbers in front of the formulas) in the balanced equation.",
+        "For example, in 2H₂O₂(aq) → 2H₂O(l) + O₂(g), H₂O₂ is used up twice as fast, in moles, as O₂ is formed, because the equation shows 2 mol H₂O₂ for every 1 mol O₂.",
         "A fast reaction has a large change in a short time; a slow reaction has a small change over a long time.",
-        "For the same amount of change, rate is proportional to 1/time (rate ∝ 1/time).",
-        "The factors that change the rate are concentration, surface area (particle size), temperature, a catalyst and, for reactions of gases, pressure; the nature of the reactants also matters. These are explained in “Collision theory”."
-      ]
+        "For the same amount of change, rate is proportional to 1/time (rate ∝ 1/time), so halving the time taken doubles the rate.",
+        "The factors that change the rate are concentration, surface area (particle size), temperature, a catalyst (a substance that changes the rate without being used up) and, for reactions of gases, pressure; the nature of the reactants also matters. There is more on this in “Collision theory”."
+      ],
+      "tip": "Rate is a change per unit time, not the time a reaction takes and not how much product is formed. If asked to define rate of reaction, give the change in concentration of a reactant or product per unit time."
     },
     {
-      "h": "Following a reaction in the laboratory",
+      "h": "Following a reaction: gas volume and mass loss",
+      "b": "To find a rate you need a property that changes as the reaction goes and that you can measure repeatedly. When a reaction gives off a gas, either the gas volume or the mass lost can be tracked.",
       "points": [
-        "Measure the volume of gas produced at regular time intervals, collected in a gas syringe or over water in an inverted graduated cylinder, e.g. oxygen from hydrogen peroxide.",
-        "When volume is measured, collect the gas in a graduated cylinder or gas syringe, not a gas jar.",
-        "Measure the loss in mass as a gas escapes, with the flask on an electronic balance.",
-        "A cotton-wool plug in the flask neck lets the gas out but stops acid spray being lost.",
+        "Measure the volume of gas produced at regular time intervals, collected in a gas syringe (a calibrated syringe that the gas pushes out) or over water in an inverted graduated cylinder, e.g. oxygen from hydrogen peroxide.",
+        "When volume is measured, collect the gas in a graduated cylinder or gas syringe, not a gas jar, because a gas jar has no scale to read the volume from.",
+        "Diagram: a flask joined by a delivery tube to a gas syringe, or to an inverted graduated cylinder full of water standing in a trough; label the flask, reactants, delivery tube and the gas collector.",
+        "Measure the loss in mass as a gas escapes, with the flask on an electronic balance, because the escaping gas carries mass away from the flask.",
+        "A cotton-wool plug in the flask neck lets the gas out but stops acid spray being lost, which would give a false mass loss.",
         "Equation for the mass-loss method: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g); the carbon dioxide escapes.",
-        "Measure the time for a fixed amount of reaction to happen, e.g. the time for a sulfur precipitate to hide a cross under the flask.",
+        "Diagram: a conical flask of calcium carbonate and hydrochloric acid, with a cotton-wool plug in its neck, standing on an electronic balance; label the flask, plug, balance and the CO₂ escaping."
+      ],
+      "tip": "When the volume of a gas is measured, collect it in a graduated cylinder or gas syringe, not a gas jar. If asked how to measure the rate of calcium carbonate with hydrochloric acid, the mass-loss method or the gas-volume method both answer it."
+    },
+    {
+      "h": "Following a reaction: time for a change and colour",
+      "b": "Not every reaction gives off a gas. Another way to follow a reaction is to time how long a fixed amount of change takes, or to watch a colour change.",
+      "points": [
+        "Measure the time for a fixed amount of reaction to happen, e.g. the time for a sulfur precipitate (a solid formed in a solution) to hide a cross under the flask.",
         "Equation for the cross method: Na₂S₂O₃(aq) + 2HCl(aq) → 2NaCl(aq) + SO₂(g) + S(s) + H₂O(l).",
-        "The sulfur precipitate is pale yellow; in the cross method, 1/time is used as the rate.",
+        "The sulfur precipitate is pale yellow; in the cross method, 1/time is used as the rate, because the same amount of sulfur forms to hide the cross in every run, so a shorter time means a faster rate.",
+        "Diagram: a conical flask of sodium thiosulfate solution standing on a paper marked with a cross, viewed from above; label the flask, the solution and the cross.",
         "Follow a colour change, by eye or with a light sensor, when a reactant or product is coloured.",
         "The method chosen must measure a property that changes as the reaction proceeds and can be measured quickly without disturbing the reaction."
-      ]
+      ],
+      "tip": "If asked why 1/time can stand for rate in the thiosulfate and hydrochloric acid reaction, say the same amount of sulfur forms each time, so a shorter time means a faster rate."
     },
     {
       "h": "How rate changes during a reaction",
+      "b": "A reaction does not run at one steady speed. Its rate falls as it goes, and the shape of a graph shows this.",
       "points": [
-        "The rate is greatest at the start, when the concentration of reactants is highest.",
+        "The rate is greatest at the start, when the concentration of reactants is highest, so there are the most particles available to react.",
         "As the reaction proceeds, reactants are used up, their concentration falls, and the rate decreases.",
-        "The reaction stops when the limiting reactant is used up; the rate is then zero.",
+        "The reaction stops when the limiting reactant (the reactant that runs out first) is used up; the rate is then zero.",
         "On a graph of product volume against time, the curve is steepest at the start, becomes less steep, and levels off to a horizontal line when the reaction is complete.",
-        "The gradient (steepness) of the curve at any point is the rate at that time.",
+        "The gradient (steepness) of the curve at any point is the rate at that time, so a steep curve means fast and a flat line means no reaction.",
         "On a graph of reactant concentration against time, the curve falls steeply at first and levels off; its gradient is negative, but the rate is quoted as a positive number.",
         "The final amount of product depends only on the amount of limiting reactant, not on how fast the reaction went.",
         "Diagram: graph of volume of gas (y-axis) against time (x-axis), a curve rising steeply from the origin, flattening, and becoming horizontal at the final volume; label “reaction fastest”, “slowing down” and “reaction complete”."
-      ]
+      ],
+      "tip": "Rate is not constant during a reaction; it falls as reactants are used up. If asked why a gas-volume graph is steepest at the start and then horizontal, explain both: reactants are at their highest concentration at the start, then the limiting reactant is used up."
     },
     {
       "h": "Why rate matters",
+      "b": "Controlling how fast a reaction goes is useful in industry, in the kitchen and in the body.",
       "points": [
         "Industry wants fast reactions, so that products are made quickly and economically.",
         "Slow reactions are also useful: food is kept in a fridge because the reactions that spoil it are slower at low temperature.",
-        "The rates of reactions in the body are controlled by enzymes; see “Catalysis and energy profiles”."
+        "The rates of reactions in the body are controlled by enzymes (biological catalysts). There is more on this in “Catalysis and energy profiles”."
       ]
     },
     {
       "h": "The collision theory",
+      "b": "Collision theory explains what has to happen at the level of particles for a reaction to take place. It is the idea behind every factor that changes rate.",
       "points": [
         "For a reaction to happen, the reacting particles (atoms, molecules or ions) must collide.",
         "Most collisions do not lead to reaction: the particles just bounce apart.",
@@ -62,25 +80,35 @@
         "Activation energy (Ea) is the minimum energy that colliding particles must have for a reaction to occur.",
         "An effective collision is one that results in the formation of products.",
         "The rate of a reaction depends on the number of effective collisions per second: anything that increases the number of collisions per second, or the fraction of collisions with energy at or above Ea, increases the rate."
+      ],
+      "tip": "Exams ask you to explain activation energy and effective collision. Define activation energy as the minimum energy colliding particles must have to react, and an effective collision as one that forms products."
+    },
+    {
+      "h": "Fast and slow reactions: examples",
+      "b": "Reactions range from instantaneous to almost undetectable. The syllabus asks for examples of both.",
+      "points": [
+        "Fast: mixing silver nitrate and sodium chloride solutions gives a white precipitate of silver chloride instantly.",
+        "Ionic equation (showing only the ions that react) for that reaction: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
+        "Other fast reactions: neutralisation of an acid by an alkali, the explosion of a hydrogen–oxygen mixture when ignited, and burning magnesium.",
+        "Slow: rusting of iron takes days to years.",
+        "Fermentation of glucose by yeast (the breakdown of glucose by yeast to make ethanol) takes days.",
+        "A mixture of hydrogen and oxygen at room temperature, without a spark or catalyst, shows no detectable reaction, even though it explodes when ignited."
       ]
     },
     {
-      "h": "Slow and fast reactions",
+      "h": "Why ionic reactions are fast and covalent ones slower",
+      "b": "Whether a reaction is fast or slow depends on its activation energy, which in turn depends on whether bonds must be broken first.",
       "points": [
-        "Fast: mixing silver nitrate and sodium chloride solutions gives a white precipitate of silver chloride instantly.",
-        "Ionic equation for that reaction: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
-        "Other fast reactions: neutralisation of an acid by an alkali, the explosion of a hydrogen–oxygen mixture when ignited, and burning magnesium.",
-        "Slow: rusting of iron takes days to years.",
-        "Fermentation of glucose by yeast takes days.",
-        "A mixture of hydrogen and oxygen at room temperature, without a spark or catalyst, shows no detectable reaction.",
         "Reactions between oppositely charged ions in solution are usually very fast: the ions are already free and attract each other, so no bonds need to be broken before they combine.",
         "Because no bonds need to be broken, the activation energy for reactions between oppositely charged ions is very low.",
-        "Reactions between covalent molecules are usually slower, because covalent bonds must be broken before new bonds can form, so the activation energy is higher.",
+        "Reactions between covalent molecules are usually slower, because covalent bonds (bonds formed by sharing electrons) must be broken before new bonds can form, so the activation energy is higher.",
         "A reaction with a high activation energy is slow at room temperature because few collisions have enough energy; a reaction with a low activation energy is fast."
-      ]
+      ],
+      "tip": "If asked why the reaction between silver nitrate and sodium chloride solutions is almost instantaneous, say the ions are free and oppositely charged, no bonds need to be broken, so the activation energy is very low."
     },
     {
       "h": "Concentration",
+      "b": "Concentration is the first factor that collision theory explains. More particles in the same space means more chances to collide.",
       "points": [
         "Increasing the concentration of a reactant in solution increases the number of particles per unit volume.",
         "The particles collide more often, so there are more collisions, and more effective collisions, per second, and the rate increases.",
@@ -89,58 +117,73 @@
     },
     {
       "h": "Surface area (particle size)",
+      "b": "For a solid, only the outside can react. Cutting a solid into smaller pieces exposes more of it without adding any more substance.",
       "points": [
-        "Only particles at the surface of a solid can collide with the other reactant.",
+        "Only particles at the surface of a solid can collide with the other reactant, so particles buried inside a lump cannot react until the surface is used up.",
         "Breaking a solid into smaller pieces or a powder increases the surface area exposed for the same mass, so there are more collisions per second and the rate increases.",
-        "Powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips.",
+        "For example, powdered calcium carbonate reacts faster with hydrochloric acid than the same mass of marble chips.",
         "Dust explosions: a very fine combustible powder spread in air has an enormous surface area and can burn so fast that it explodes.",
         "Dust explosions are a risk in flour mills, grain silos and coal mines.",
         "A dust explosion needs a combustible dust, finely divided and dry, dispersed in air (oxygen), in an enclosed space, with a source of ignition such as a spark or flame."
-      ]
+      ],
+      "tip": "Surface area is about particle size for the same mass of solid; more marble is a change in amount, not surface area. Exams ask why powdered solids react faster and what the conditions for a dust explosion are."
     },
     {
-      "h": "Temperature",
+      "h": "Temperature: why a rise speeds up reactions",
+      "b": "Raising the temperature is the most powerful way to speed up most reactions. Collision theory gives two reasons, and one matters far more than the other.",
       "points": [
         "Raising the temperature increases the rate of almost all reactions.",
         "For many reactions near room temperature the rate roughly doubles for each 10 °C rise; this is an approximate rule, not a law.",
-        "Reason 1: at a higher temperature particles have more kinetic energy and move faster, so they collide more often.",
+        "Reason 1: at a higher temperature particles have more kinetic energy (energy of movement) and move faster, so they collide more often.",
         "Reason 2: a much greater fraction of the collisions have energy equal to or greater than the activation energy, so a greater fraction of collisions are effective.",
         "Reason 2 is the more important: a 10 °C rise increases the number of collisions per second only slightly, but greatly increases the number of particles with energy at or above Ea.",
-        "Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it.",
+        "Raising the temperature does not change the activation energy; it changes how many particles have enough energy to overcome it."
+      ],
+      "tip": "Give both reasons and say which matters more: the greater fraction of collisions with energy at or above Ea, not just more collisions. A higher temperature does not lower the activation energy; only a catalyst does."
+    },
+    {
+      "h": "Temperature: the energy distribution graph",
+      "b": "Particles in a sample do not all have the same energy. A graph of how the energies are spread shows why a small temperature rise has such a large effect.",
+      "points": [
         "On a graph of number of particles against kinetic energy (a Maxwell–Boltzmann distribution), the curve is a skewed hump starting at the origin with a long tail to the right.",
         "The area under the curve to the right of Ea is the number of particles with enough energy to react.",
-        "At a higher temperature the curve is flatter, its peak moves to the right, and the area to the right of Ea is much larger.",
+        "At a higher temperature the curve is flatter, its peak moves to the right, and the area to the right of Ea is much larger, so many more collisions are effective.",
         "Diagram: two energy-distribution curves on the same axes at T₁ and a higher T₂, with Ea marked on the energy axis and the area beyond Ea shaded for each.",
-        "Everyday example: food keeps longer in a fridge or freezer, where the reactions that spoil it are slower (see “Rate of reaction”)."
+        "Everyday example: food keeps longer in a fridge or freezer, where the reactions that spoil it are slower because fewer particles have energy at or above Ea. There is more on this in “Rate of reaction”."
       ]
     },
     {
       "h": "Catalysts",
+      "b": "A catalyst speeds up a reaction without raising the temperature. It does this by changing the route the reaction takes.",
       "points": [
         "A catalyst is a substance that alters the rate of a chemical reaction but is itself chemically unchanged at the end of the reaction.",
         "A catalyst provides an alternative pathway for the reaction with a lower activation energy, so a greater fraction of collisions have energy at or above Ea and are effective, and the rate increases.",
-        "Types of catalysis, enzymes and energy profiles are covered in “Catalysis and energy profiles”."
+        "The catalyst is not used up, so a small amount can speed up the reaction again and again. There is more on types of catalysis, enzymes and energy profiles in “Catalysis and energy profiles”."
       ]
     },
     {
       "h": "Pressure, for reactions of gases",
+      "b": "Pressure is the last factor, and it only matters when gases are reacting.",
       "points": [
         "Increasing the pressure of a gas squeezes the same number of molecules into a smaller volume, which is the same as increasing its concentration.",
         "The molecules collide more often, so the rate increases.",
         "Pressure affects only reactions in which one or more reactants are gases; it has almost no effect on reactions in solution or between solids."
-      ]
+      ],
+      "tip": "Pressure only matters for gases, so don't give it as a factor for a reaction in solution or between solids."
     },
     {
       "h": "Limitations of the simple theory (Higher Level only)",
+      "b": "The simple collision theory leaves out some things. Orientation, surfaces that become full, and poisoned catalysts all explain why real reactions can behave differently.",
       "points": [
         "Collisions must be correctly oriented: even with enough energy, a collision is effective only if the reacting parts of the molecules face each other.",
         "Orientation is why only a small fraction of energetic collisions lead to reaction, especially for large molecules.",
         "Concentration may not always affect the rate: when a reaction takes place on a surface (a solid reactant or a solid catalyst) and every site on the surface is occupied, adding more of the other reactant cannot increase the number of reacting collisions, so the rate stays the same.",
-        "An enzyme-catalysed reaction speeds up as substrate concentration rises, but levels off when all the enzyme's active sites are occupied; further substrate has no effect.",
+        "For example, an enzyme-catalysed reaction speeds up as substrate (the substance the enzyme acts on) concentration rises, but levels off when all the enzyme's active sites (the places where the substrate binds) are occupied; further substrate has no effect.",
         "A catalyst can become saturated: it has a limited number of active sites, and when they are all in use, increasing the reactant concentration no longer increases the rate.",
         "A catalyst can be poisoned: a catalyst poison binds strongly to the active sites and blocks them, so the catalyst stops working.",
-        "The catalysts in a car's catalytic converter are poisoned by lead compounds, one reason leaded petrol was phased out where converters are used, and by sulfur and phosphorus compounds."
-      ]
+        "The catalysts in a car's catalytic converter (platinum, palladium and rhodium) are poisoned by lead compounds, one reason leaded petrol was phased out where converters are used, and by sulfur and phosphorus compounds."
+      ],
+      "tip": "Exams ask why not every collision leads to reaction (energy and orientation), and how a catalyst can be poisoned, using the catalytic converter. Name lead, sulfur and phosphorus compounds as the poisons."
     }
   ],
   "keyTerms": [
