@@ -152,6 +152,29 @@ def check_graph(g):
     return errs
 
 
+def brace_scripts(s):
+    """2^\\hl{2}{6} → 2^{\\hl{2}{6}}: a superscript takes one token, and \\hl expands to several."""
+    out, i = '', 0
+    for m in re.finditer(r'[\^_]\\hl\{\d\}\{', s):
+        if m.start() < i:
+            continue
+        depth, j = 1, m.end()
+        while j < len(s) and depth:
+            depth += {'{': 1, '}': -1}.get(s[j], 0)
+            j += 1
+        out += s[i:m.start() + 1] + '{' + s[m.start() + 1:j] + '}'
+        i = j
+    return out + s[i:]
+
+
+assert brace_scripts('2^\\hl{2}{6} + x_\\hl{1}{n}') == '2^{\\hl{2}{6}} + x_{\\hl{1}{n}}'
+
+
+def deep(v, f):
+    return {k: deep(x, f) for k, x in v.items()} if isinstance(v, dict) else [deep(x, f) for x in v] if isinstance(v, list) \
+        else f(v) if isinstance(v, str) else v
+
+
 def prose(s):
     """A text line may wrap words in $\\hl{n}{\\text{…}}$ to colour them; compare without those wrappers."""
     return re.sub(r'\\text\{([^{}]*)\}', r'\1', s).replace('$', '')
@@ -280,7 +303,7 @@ def assemble():
                 shutil.copy(WORKTREE / src['image'], target)
             probs.append(dict(source=q['source'].replace('LC Maths ', 'LC ').replace(' — ', ' · '),
                               part=p['label'], marks=p['marks'], image=src['image'], note=pr.get('note'),
-                              legend=pr['legend'], steps=pr['steps'], final=pr['final'],
+                              legend=pr['legend'], steps=deep(pr['steps'], brace_scripts), final=brace_scripts(pr['final']),
                               svg=p['workedSolution'].get('svg'), graph=g))
         s = SKILLS[sid]
         lessons[sid] = dict(id=sid, title=s['title'], level=s['level'], chapter=s['chapter'],
