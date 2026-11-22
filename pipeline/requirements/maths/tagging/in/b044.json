@@ -1,0 +1,384 @@
+[
+ {
+  "part": "maths-pp-2026-higher-p2-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Compare with the general circle equation\nThe general circle is $x^2 + y^2 + 2gx + 2fy + c = 0$, with centre $(-g, -f)$ and radius $\\sqrt{g^2 + f^2 - c}$.\n2g &= 4\ng &= 2\n2f &= -10\nf &= -5\nc &= -52\n## Write down the centre\n(-g, -f) &= (-2, 5)\n## Find the radius\nr &= \\sqrt{g^2 + f^2 - c}\nr &= \\sqrt{2^2 + (-5)^2 - (-52)}\nr &= \\sqrt{4 + 25 + 52}\nr &= \\sqrt{81}\nr &= 9\nANSWER: \\text{Centre } (-2, 5), \\quad \\text{radius } 9"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q5#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## (i) Choose values and write the equation\nAny numbers from 1 to 6 are allowed. Choose $h = 1$, $k = 1$, $r = 2$.\n(x - h)^2 + (y - k)^2 &= r^2\n(x - 1)^2 + (y - 1)^2 &= 2^2\n## (ii) Count the outcomes\nEach of the three dice has 6 possible values, and each different set $(h, k, r)$ gives a different circle.\n6 \\times 6 \\times 6 &= 216\nANSWER: (x-1)^2 + (y-1)^2 = 2^2 \\text{ (for example); } 216 \\text{ circles}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q5#(b)(iii), (iv)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## (iii) Condition for both axes to be tangents\nA circle with centre $(h, k)$ and radius $r$ touches the $x$-axis when $k = r$, and touches the $y$-axis when $h = r$.\nSo $h = k = r$, and there is one circle for each value from 1 to 6.\nh = k = r \\ &\\in \\{1, 2, 3, 4, 5, 6\\}\n\\text{number of circles} &= 6\n## (iv) Condition for the circle to lie inside the first quadrant\nThe circle misses both axes when $h > r$ and $k > r$. The values are at most 6, so $h$ and $k$ each take the values $r + 1, \\dots, 6$.\nThat gives $6 - r$ choices for $h$ and $6 - r$ choices for $k$, so $(6 - r)^2$ circles for each $r$.\n## Count the circles for each radius\nr = 1: \\ &5^2 = 25\nr = 2: \\ &4^2 = 16\nr = 3: \\ &3^2 = 9\nr = 4: \\ &2^2 = 4\nr = 5: \\ &1^2 = 1\nr = 6: \\ &0^2 = 0\n## Add the totals\n\\text{total} &= 25 + 16 + 9 + 4 + 1 + 0\n\\text{total} &= 55\nANSWER: \\text{(iii) } 6 \\quad \\text{(iv) } 55"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Use the identity with sin θ = 1/4\nThe identity $\\cos^2\\theta + \\sin^2\\theta = 1$ links $\\cos\\theta$ and $\\sin\\theta$.\n\\cos^2\\theta + \\sin^2\\theta &= 1\n\\cos^2\\theta + \\left(\\frac{1}{4}\\right)^2 &= 1\n## Isolate cos²θ\n\\cos^2\\theta + \\frac{1}{16} &= 1\n\\cos^2\\theta &= 1 - \\frac{1}{16}\n\\cos^2\\theta &= \\frac{15}{16}\n## Take the square root\n$\\theta$ is acute, so $\\cos\\theta$ is positive.\n\\cos\\theta &= \\sqrt{\\frac{15}{16}}\n\\cos\\theta &= \\frac{\\sqrt{15}}{4}\nANSWER: \\cos\\theta = \\frac{\\sqrt{15}}{4}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Write sin²x in terms of cos²x\n\\cos^2 x + \\sin^2 x &= 1\n\\sin^2 x &= 1 - \\cos^2 x\nSo each point of $\\sin^2 x$ is $1$ minus the height of $\\cos^2 x$ at the same $x$.\n## Find the start, middle and end points\nAt the start, $\\cos^2 x = 1$, so $\\sin^2 x = 1 - 1 = 0$.\nIn the middle, $\\cos^2 x = 0$, so $\\sin^2 x = 1 - 0 = 1$.\nAt the end, $\\cos^2 x = 1$, so $\\sin^2 x = 0$.\n## Draw and label the curve\nJoin the three points with a smooth curve: concave up (a minimum) at each end, rising to a maximum in the middle.\nThe two curves cross at height $\\frac{1}{2}$, one quarter and three quarters of the way along the domain.\nLabel the new curve $y = \\sin^2 x$.\nANSWER: y = \\sin^2 x \\text{ drawn as shown}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q6#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths16"
+  ],
+  "marks": 15,
+  "solution": "## Place P and Q on the unit circle\nLet $P$ and $Q$ be the points on the unit circle at angles $A$ and $B$ from the positive $x$-axis.\nP &= (\\cos A, \\sin A)\nQ &= (\\cos B, \\sin B)\n## Find |PQ|² using the distance formula\n|PQ|^2 &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2\n&= \\cos^2 A - 2\\cos A\\cos B + \\cos^2 B + \\sin^2 A - 2\\sin A\\sin B + \\sin^2 B\n&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2\\cos A\\cos B - 2\\sin A\\sin B\n## Simplify using cos²θ + sin²θ = 1\n|PQ|^2 &= 1 + 1 - 2\\cos A\\cos B - 2\\sin A\\sin B\n&= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B\n## Find |PQ|² using the cosine rule\nIn triangle $OPQ$, $|OP| = |OQ| = 1$ (radii) and the angle at $O$ is $A - B$.\n|PQ|^2 &= 1^2 + 1^2 - 2(1)(1)\\cos(A - B)\n&= 2 - 2\\cos(A - B)\n## Equate the two expressions for |PQ|²\n2 - 2\\cos(A - B) &= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B\n-2\\cos(A - B) &= -2\\cos A\\cos B - 2\\sin A\\sin B\n\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B\nANSWER: \\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use the area formula with the included angle\nThe angle $58^\\circ$ is between the sides $12$ and $20$.\n\\text{Area} &= \\frac{1}{2}ab\\sin C\n&= \\frac{1}{2}(12)(20)\\sin 58^\\circ\n## Evaluate and round\n&= 101.77\n&= 102\nANSWER: 102\\ \\text{cm}^2"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use the cosine rule for the side opposite 58°\nx^2 &= 12^2 + 20^2 - 2(12)(20)\\cos 58^\\circ\nx^2 &= 144 + 400 - 480\\cos 58^\\circ\nx^2 &= 289.64\n## Take the square root\nx &= \\sqrt{289.64}\nx &= 17.02\nx &= 17\n$x$ is a whole number, so $x = 17$.\nANSWER: x = 17"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the third angle\nThe angles of a triangle add to $180^\\circ$.\n\\text{Third angle} &= 180^\\circ - (34^\\circ + 59^\\circ)\n&= 87^\\circ\n## Write the sine rule\n$y$ is opposite $59^\\circ$ and $72$ is opposite $87^\\circ$.\n\\frac{y}{\\sin 59^\\circ} &= \\frac{72}{\\sin 87^\\circ}\n## Isolate y\ny &= \\frac{72\\sin 59^\\circ}{\\sin 87^\\circ}\n## Evaluate and round\ny &= 61.8\ny &= 62\n$y$ is a natural number, so $y = 62$.\nANSWER: y = 62"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q7#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Set up Pythagoras' theorem\nThe angle $A$ is between $n$ and $n + 5$, so $n + 10$ is the hypotenuse.\n(n + 10)^2 &= (n + 5)^2 + n^2\n## Expand and collect into a quadratic\nn^2 + 20n + 100 &= n^2 + 10n + 25 + n^2\nn^2 + 20n + 100 &= 2n^2 + 10n + 25\nn^2 - 10n - 75 &= 0\n## Factorise\n(n - 15)(n + 5) &= 0\n## Solve and reject the negative value\nn &= 15 \\text{ or } n = -5\n$n \\in \\mathbb{N}$, so $n = -5$ is rejected.\nn &= 15\nANSWER: n = 15"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q7#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Estimate the angle for very large n\nAs $n$ gets very big, $n$, $n + 5$ and $n + 10$ become almost equal in size.\nSo the triangle gets closer and closer to an equilateral triangle.\nEvery angle of an equilateral triangle is $60^\\circ$, so $A$ tends to $60^\\circ$.\nANSWER: 60^\\circ"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the smallest similar triangle\nA similar triangle has sides in the same ratio as $12 : 24 : 30$.\nDivide by the highest common factor, $6$: the ratio is $2 : 4 : 5$.\nSo the smallest such triangle has sides $2, 4, 5$.\n## List all the similar triangles\nEvery similar triangle has sides $2k, 4k, 5k$ for a whole number $k$.\nThe longest stick is at most $100$:\n5k &\\le 100\nk &\\le 20\nSo $k = 1, 2, \\dots, 20$ gives $20$ triangles, from $2, 4, 5$ up to $40, 80, 100$.\n## Exclude the given triangle\n$k = 6$ gives $12, 24, 30$, which is the original triangle, so it does not count.\n\\text{Number of triangles} &= 20 - 1\n&= 19\nANSWER: 19"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Choose the value of r\nThe points slope upwards from left to right, so the correlation is positive (increasing).\nThe points are fairly spread out around an upward trend, so the correlation is moderate, not close to $1$.\nThis rules out the negative values, $0.25$ (too weak) and $0.95$ (too strong). The closest value is $0.80$.\nANSWER: r = 0.80"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q8#(b)(i), (ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Plot the point P\nGo to $13$ on the daylight-hours axis and $10.7$ on the energy axis.\nMark this point and label it $P$.\n## Draw the line of best fit through P\nDraw a straight line through $P$ with about as many points above it as below it.\nThe line drawn here also passes through $(11, 6)$.\n## Read off the energy for 11 daylight hours\nFrom $11$ on the horizontal axis, go up to the line, then across to the energy axis.\nThe line is at $6$ kWh when there are $11$ daylight hours.\nANSWER: 6\\ \\text{kWh}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q8#(b)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope through P and the point from (iii)\nThe two points on the line are $(11, 6)$ and $(13, 10.7)$.\nm &= \\frac{y_2 - y_1}{x_2 - x_1}\n&= \\frac{10.7 - 6}{13 - 11}\n&= \\frac{4.7}{2}\n&= 2.35\n## Write the equation of the line through (11, 6)\ny - 6 &= 2.35(x - 11)\n## Rearrange into the form y = ax + b\ny - 6 &= 2.35x - 25.85\ny &= 2.35x - 25.85 + 6\ny &= 2.35x - 19.85\nANSWER: y = 2.35x - 19.85"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Use the complement\n'At least one' the same is the opposite of 'none the same'.\nP(\\text{at least one}) &= 1 - P(\\text{none the same})\n## Find P(none the same)\nLast week's $2$ panels are fixed. 'None the same' means both new panels come from the other $126$.\nP(\\text{none the same}) &= \\frac{\\binom{126}{2}}{\\binom{128}{2}}\n&= \\frac{126 \\times 125}{128 \\times 127}\n&= \\frac{7875}{8128}\n## Subtract from 1\nP(\\text{at least one}) &= 1 - \\frac{7875}{8128}\n&= \\frac{253}{8128}\n&= 0.031\nANSWER: 0.031"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q8#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find t for 28th March\n$21$st March is $t = 0$, so $28$th March is $7$ days later.\nt &= 7\n## Substitute t = 7 into H(t) (calculator in radians)\nH(7) &= 4.5\\sin\\left(\\frac{2\\pi}{365} \\times 7\\right) + 12\n&= 4.5\\sin\\left(\\frac{14\\pi}{365}\\right) + 12\n## Evaluate and round\n&= 12.54\nANSWER: H(7) = 12.54\\ \\text{hours}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q8#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 15,
+  "solution": "## Set H(t) = 8 and let A = 2πt/365\n4.5\\sin A + 12 &= 8\n4.5\\sin A &= -4\n\\sin A &= -\\frac{4}{4.5}\n&= -\\frac{8}{9}\n## Find the reference angle\n\\text{Ref}(A) &= \\sin^{-1}\\left(\\frac{8}{9}\\right)\n&= 1.0949\\ \\text{radians}\n## Find the first value of A and t\n$\\sin A$ is negative, so $A$ is in the third or fourth quadrant. The third quadrant gives the first value.\nA &= \\pi + 1.0949\n\\frac{2\\pi t}{365} &= \\pi + 1.0949\nt &= \\frac{365(\\pi + 1.0949)}{2\\pi}\nt &= 246.10\n## Find the second value of A and t\nThe fourth quadrant gives the second value.\nA &= 2\\pi - 1.0949\n\\frac{2\\pi t}{365} &= 2\\pi - 1.0949\nt &= \\frac{365(2\\pi - 1.0949)}{2\\pi}\nt &= 301.40\n## Choose the whole days\n$H(t) < 8$ between $t = 246.10$ and $t = 301.40$.\nThe first whole day after $246.10$ is $247$, and the last whole day before $301.40$ is $301$.\nANSWER: \\text{First day: } t = 247, \\quad \\text{last day: } t = 301"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Statement 1: the radii of k\nStatement 1 is given: $|PA| = |PB|$.\nReason: $A$ and $B$ are both points on circle $k$, so $PA$ and $PB$ are radii of $k$.\n## Statement 2: the common side\nStatement 2: $|PO| = |PO|$.\nReason: $PO$ is a side of both triangles, so it is a common side.\n## Statement 3: the right angles at A and B\nStatement 3: $|\\angle PAO| = |\\angle PBO| = 90^\\circ$.\nReason: $AD$ and $BC$ are tangents, and a tangent is perpendicular to the radius at the point of contact.\n## Conclusion: state the congruence\nTwo triangles with a right angle, a common hypotenuse ($PO$) and one other equal side ($PA = PB$, radii) are congruent.\nReason: RHS (right angle, hypotenuse, side). Also accepted: SSS, since $|AO| = |BO|$ by Pythagoras' theorem.\nANSWER: \\triangle POA \\cong \\triangle POB"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q9#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Set up a tan ratio in triangle POA\nThe angle at $A$ is $90^\\circ$, so $PA = 12$ is adjacent to $70^\\circ$ and $AO$ is opposite.\n\\tan 70^\\circ &= \\frac{|AO|}{12}\n## Isolate |AO|\n|AO| &= 12 \\tan 70^\\circ\n## Evaluate and round to 1 decimal place\n|AO| &= 32.96\\ldots\n|AO| &= 33.0 \\text{ cm}\nANSWER: |AO| = 33.0 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q9#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Use similar triangles to find |OD|\nTriangles $POA$ and $QOC$ are similar, so $|OD|$ and $|AO|$ are in the ratio of the radii $8 : 12$.\n|OD| &= \\frac{8}{12} \\times 33\n|OD| &= 22 \\text{ cm}\n## Find the two straight sections\n$|AD| = |AO| + |OD|$ and $|BC|$ is the same length by symmetry.\n|AD| + |BC| &= 2(33 + 22)\n|AD| + |BC| &= 110 \\text{ cm}\n## Find the major arc of circle k\n$\\angle APB = 2 \\times 70^\\circ = 140^\\circ$, so the major arc has angle $360^\\circ - 140^\\circ = 220^\\circ$.\n|AB|_{arc} &= \\frac{220}{360} \\times 2\\pi(12)\n|AB|_{arc} &= \\frac{44}{3}\\pi\n## Find the major arc of circle s\nThe triangles are similar, so $\\angle CQD = 140^\\circ$ and this major arc is also $220^\\circ$.\n|CD|_{arc} &= \\frac{220}{360} \\times 2\\pi(8)\n|CD|_{arc} &= \\frac{88}{9}\\pi\n## Add all four parts of the belt\n\\text{Total} &= 110 + \\frac{44}{3}\\pi + \\frac{88}{9}\\pi\n\\text{Total} &= 186.8\\ldots\n\\text{Total} &= 187 \\text{ cm}\nANSWER: 187 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Find j from the height of the sheet\nDown the 55 cm side: a height $x$, then $j$, then another height $x$.\nx + j + x &= 55\nj &= 55 - 2x\n## Find k from the width of the sheet\nAlong the 120 cm side: $x$, $k$, $x$, $k$.\nx + k + x + k &= 120\n2k &= 120 - 2x\nk &= 60 - x\n## Write the volume in terms of x\nThe box has length $k$, width $j$ and height $x$.\nV &= x \\times k \\times j\nV &= x(60 - x)(55 - 2x)\n## Multiply out the two brackets\n(60 - x)(55 - 2x) &= 60(55) - 60(2x) - x(55) + x(2x)\n&= 3300 - 120x - 55x + 2x^2\n&= 2x^2 - 175x + 3300\n## Multiply by x\nV &= x(2x^2 - 175x + 3300)\nV &= 2x^3 - 175x^2 + 3300x\nANSWER: V = 2x^3 - 175x^2 + 3300x"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Focus on the quarter circle only\nLeft of $A$, the top edge is made of straight segments, so the trapezoidal rule gives the exact area there. Only the quarter circle has an error.\nIts radius is $8.8$ m, and it covers two strips.\n## Find the actual area of the quarter circle\n\\text{Actual} &= \\frac{1}{4}\\pi(8.8)^2\n\\text{Actual} &= 60.82\\ldots \\text{ m}^2\n## Find the width of each strip\n$BC$ is split into 6 equal parts, and 2 of them make the radius $8.8$ m.\nh &= \\frac{8.8}{2}\nh &= 4.4 \\text{ m}\n## Find the middle height of the quarter circle\nAt $4.4$ m from the centre, the height $y$ satisfies Pythagoras with the radius $8.8$.\ny &= \\sqrt{8.8^2 - 4.4^2}\ny &= 7.621\\ldots \\text{ m}\n## Apply the trapezoidal rule to the quarter circle\nThe heights are $8.8$, $7.621$ and $0$.\n\\text{Estimate} &= \\frac{4.4}{2}\\left[8.8 + 0 + 2(7.621)\\right]\n\\text{Estimate} &= 52.89\\ldots \\text{ m}^2\n## Find the error\n\\text{Error} &= 60.82 - 52.89\n\\text{Error} &= 7.93\\ldots\n\\text{Error} &= 8 \\text{ m}^2\nANSWER: 8 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Identify the values\nx &= 50, \\quad \\mu = 46.02, \\quad \\sigma = 11.72\n## Find the z-score for 50\nz &= \\frac{x - \\mu}{\\sigma}\nz &= \\frac{50 - 46.02}{11.72}\nz &= 0.3396\\ldots\nz &= 0.34\n## Read P(Z < 0.34) from the tables\nP(Z < 0.34) &= 0.6331\n## Find the probability of spending more than 50\nTables give the area to the left, so subtract from 1.\nP(X > 50) &= P(Z > 0.34)\n&= 1 - P(Z < 0.34)\n&= 1 - 0.6331\n&= 0.3669\n## Convert to a percentage\n0.3669 \\times 100 &= 36.69\\%\n&\\approx 37\\%\nANSWER: 37\\%"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find the z-score with 0.9 to its left\nP(Z < k) &= 0.9\nIn the tables, $0.8997$ is the closest value to $0.9$, and it belongs to $z = 1.28$.\nk &= 1.28\n## Write the z-score formula for X\nHere $x = X$, $\\mu = 46.02$ and $\\sigma = 11.72$.\n\\frac{X - 46.02}{11.72} &= 1.28\n## Solve for X\nX - 46.02 &= 1.28 \\times 11.72\nX &= 46.02 + 1.28 \\times 11.72\nX &= 46.02 + 15.0016\nX &= 61.0216\n## Round to the nearest whole number\nX &\\approx 61\nANSWER: X = \\text{€}61"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q10#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## (i) Probability of a token on one roll\nA token comes from rolling a 5 or a 6, which is 2 faces out of 6.\nP(\\text{token}) &= \\frac{2}{6}\n&= \\frac{1}{3}\n## (ii) Write the probability of no token\nA first token on turn 5 means turns 1 to 4 give nothing, then turn 5 gives a token.\nP(\\text{nothing}) &= 1 - \\frac{1}{3}\n&= \\frac{2}{3}\n## (ii) Multiply the five turns\nP &= \\left(\\frac{2}{3}\\right)^4 \\times \\frac{1}{3}\n&= \\frac{16}{81} \\times \\frac{1}{3}\n&= \\frac{16}{243}\nANSWER: \\text{(i) } \\frac{1}{3}, \\quad \\text{(ii) } \\frac{16}{243}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q10#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Split into the two cases\nEach turn is a token with probability $\\frac{1}{3}$ and no token with probability $\\frac{2}{3}$. Use the binomial formula.\nP(4 \\text{ or more}) &= P(4) + P(5)\n## Find P(4)\nP(4) &= \\binom{5}{4}\\left(\\frac{1}{3}\\right)^4\\left(\\frac{2}{3}\\right)^1\n&= 5 \\times \\frac{1}{81} \\times \\frac{2}{3}\n&= \\frac{10}{243}\n## Find P(5)\nP(5) &= \\left(\\frac{1}{3}\\right)^5\n&= \\frac{1}{243}\n## Add the two probabilities\nP(4 \\text{ or more}) &= \\frac{10}{243} + \\frac{1}{243}\n&= \\frac{11}{243}\nANSWER: \\frac{11}{243}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q10#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Describe the tree diagram\nFirst roll: 1 to 4 (probability $\\frac{2}{3}$) gives 0 tokens. A 5 or 6 (probability $\\frac{1}{3}$) leads to the choice.\nTake the token with probability $p$: 1 token. Roll again with probability $1 - p$.\nSecond roll: 1 to 4 (probability $\\frac{2}{3}$) gives 0 tokens. A 5 or 6 (probability $\\frac{1}{3}$) gives 4 tokens.\n## Find the probability of getting 1 token\nRoll a 5 or 6, then take the token.\nP(1 \\text{ token}) &= \\frac{1}{3} \\times p\n&= \\frac{p}{3}\n## Find the probability of getting 4 tokens\nRoll a 5 or 6, roll again, then roll another 5 or 6.\nP(4 \\text{ tokens}) &= \\frac{1}{3} \\times (1 - p) \\times \\frac{1}{3}\n&= \\frac{1 - p}{9}\n## Form the expected value\nExpected value is each number of tokens times its probability, added up.\nE &= 1 \\times \\frac{p}{3} + 4 \\times \\frac{1 - p}{9}\n&= \\frac{3p}{9} + \\frac{4 - 4p}{9}\n&= \\frac{3p + 4 - 4p}{9}\n&= \\frac{4 - p}{9}\nANSWER: \\frac{4 - p}{9}"
+ },
+ {
+  "part": "maths-pp-2026-higher-p2-q10#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Compare the expected value at the two extremes\nThe expected value is $\\frac{4 - p}{9}$, which gets smaller as $p$ gets bigger.\np = 0: \\quad E &= \\frac{4 - 0}{9}\n&= \\frac{4}{9}\np = 1: \\quad E &= \\frac{4 - 1}{9}\n&= \\frac{3}{9}\n## Say what the player should do\n$p = 0$ means the player never takes the single token.\nSo after rolling a 5 or a 6, the player should always roll again.\nANSWER: \\text{Roll again after a 5 or a 6}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Add the two lunch costs\n34.6 + 28.9 &= 63.5\n## Add the 12% service charge\nAdding 12% means multiplying by $1.12$.\n63.5 \\times 1.12 &= 71.12\nANSWER: \\text{€}71.12"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q1#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find 18% of €22 600 for year 1\n22\\,600 \\times 0.18 &= 4068\n## Subtract to get the value after 1 year\n22\\,600 - 4068 &= 18\\,532\n## Find the value after year 2\nAfter an 18% fall the car is worth 82% of its value, so multiply by $0.82$.\n18\\,532 \\times 0.82 &= 15\\,196.24\nANSWER: \\text{(i) €}4068 \\quad \\text{(ii) €}15\\,196.24"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Substitute into the formula\n$F = 20\\,230$, $P = 28\\,000$ and $t = 2$.\n20\\,230 &= 28\\,000\\left(1 - \\frac{k}{100}\\right)^2\n## Divide both sides by 28 000\n\\left(1 - \\frac{k}{100}\\right)^2 &= \\frac{20\\,230}{28\\,000}\n\\left(1 - \\frac{k}{100}\\right)^2 &= 0.7225\n## Take the square root of both sides\nThe value is still positive, so $1 - \\frac{k}{100}$ is positive: take the positive root.\n1 - \\frac{k}{100} &= \\sqrt{0.7225}\n1 - \\frac{k}{100} &= 0.85\n## Solve for k\n\\frac{k}{100} &= 1 - 0.85\n\\frac{k}{100} &= 0.15\nk &= 0.15 \\times 100\nk &= 15\nANSWER: k = 15\\%"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Write the square as two brackets\n&(3x-5)^2 + 4x + 6\n&= (3x-5)(3x-5) + 4x + 6\n## Multiply out the brackets\n&= 9x^2 - 15x - 15x + 25 + 4x + 6\n## Collect like terms\n&= 9x^2 - 30x + 25 + 4x + 6\n&= 9x^2 - 26x + 31\nANSWER: 9x^2 - 26x + 31"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Identify a, b and c\nCompare $3x^2 - 4x - 5 = 0$ with $ax^2 + bx + c = 0$.\na &= 3\nb &= -4\nc &= -5\n## Write the quadratic formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n## Substitute a, b and c\nx &= \\frac{-(-4) \\pm \\sqrt{(-4)^2 - 4(3)(-5)}}{2(3)}\nx &= \\frac{4 \\pm \\sqrt{16 + 60}}{6}\nx &= \\frac{4 \\pm \\sqrt{76}}{6}\n## Evaluate the + root\nx &= \\frac{4 + \\sqrt{76}}{6}\nx &= 2.119\\ldots\nx &= 2.12\n## Evaluate the − root\nx &= \\frac{4 - \\sqrt{76}}{6}\nx &= -0.786\\ldots\nx &= -0.79\nANSWER: x = 2.12 \\text{ or } x = -0.79"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Put the left side over a common denominator\n\\frac{5}{x+3} - \\frac{5}{x-3} &= 6\n\\frac{5(x-3) - 5(x+3)}{(x+3)(x-3)} &= 6\n## Multiply both sides by (x + 3)(x − 3)\n5(x-3) - 5(x+3) &= 6(x+3)(x-3)\n## Multiply out the brackets\n5x - 15 - 5x - 15 &= 6(x^2 - 9)\n-30 &= 6x^2 - 54\n## Collect all terms on one side\n0 &= 6x^2 - 54 + 30\n6x^2 - 24 &= 0\n## Solve for x\n6x^2 &= 24\nx^2 &= 4\nx &= \\pm 2\nNeither value is $3$ or $-3$, so both are allowed.\nANSWER: x = 2 \\text{ or } x = -2"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Find how many lots of 500 g there are\nEach 500 g needs 25 minutes, so count the 500 g lots in 2200 g.\n\\frac{2200}{500} &= 4.4\n## Multiply by 25 minutes\n4.4 \\times 25 &= 110\nANSWER: 110 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Divide by the smallest prime, 2, until you cannot\n140 &= 2 \\times 70\n140 &= 2 \\times 2 \\times 35\n## Factorise 35 into primes\n$35 = 5 \\times 7$, and both are prime.\n140 &= 2 \\times 2 \\times 5 \\times 7\nANSWER: 140 = 2 \\times 2 \\times 5 \\times 7"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q3#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Turn each root into a factor\nIf $x = 3$ is a root, then $(x - 3)$ is a factor.\nIf $x = -7$ is a root, then $(x + 7)$ is a factor.\n\\text{Factor one} &= x - 3\n\\text{Factor two} &= x + 7\n## Multiply the factors together\n&(x - 3)(x + 7)\n&= x^2 + 7x - 3x - 21\n## Collect like terms\n&= x^2 + 4x - 21\n## Compare with x² + px + r\np &= 4\nr &= -21\nANSWER: p = 4, \\; r = -21"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Read z₁ from the diagram\nThe real part is the horizontal value and the imaginary part is the vertical value.\n$z_1$ is at $-2$ across and $3$ up.\nz_1 &= -2 + 3i\n## Read z₂ from the diagram\n$z_2$ is at $4$ across and $1$ up.\nz_2 &= 4 + i\nANSWER: z_1 = -2 + 3i, \\quad z_2 = 4 + i"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Replace i² with −1 in the second term\n&i(2 - i) + i^2(2 - i)\n&= i(2 - i) + (-1)(2 - i)\n## Multiply out the brackets\n&= 2i - i^2 - 2 + i\n## Replace i² with −1 again\n&= 2i + 1 - 2 + i\n## Collect real parts and imaginary parts\n&= -1 + 3i\nANSWER: -1 + 3i"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p1-q4#(c)(i), (ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Choose a value for u\n$u$ is right of the imaginary axis and at the same height as $A$, which is above the real axis.\nOne possible value has real part $1$ and imaginary part $3$.\nu &= 1 + 3i\n## Find the conjugate\nThe conjugate changes the sign of the imaginary part.\n\\bar{u} &= 1 - 3i\n## Plot ū on the diagram\n$\\bar{u}$ is the reflection of $u$ in the real axis: same distance to the right, same distance below.\nMark the point and label it $\\bar{u}$.\n## Add u and ū\n&u + \\bar{u}\n&= (1 + 3i) + (1 - 3i)\n&= 1 + 1 + 3i - 3i\n&= 2\n## Match the sum to a point on the diagram\nThe sum is real, so it lies on the real axis, twice as far right as the real part of $u$. That is $C$.\nANSWER: \\text{(i) } u = 1 + 3i \\quad \\text{(iii) } C"
+ }
+]

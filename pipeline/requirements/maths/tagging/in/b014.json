@@ -1,0 +1,379 @@
+[
+ {
+  "part": "maths-pp-2018-ordinary-p1-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read A, where the curve crosses the y-axis\n$A$ is on the $y$-axis at height 6.\nA &= (0, 6)\n## Read B and C, where the curve crosses the x-axis\n$B$ is at $x = -2$ and $C$ is at $x = 3$, both with $y = 0$.\nB &= (-2, 0)\nC &= (3, 0)\nANSWER: A = (0, 6),\\ B = (-2, 0),\\ C = (3, 0)"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Use the roots to write f(x) in factors\nThe curve crosses the $x$-axis at $-2$ and $3$, so $(x + 2)$ and $(x - 3)$ are factors. The curve opens downwards, so the leading coefficient is negative.\nf(x) &= -(x + 2)(x - 3)\n## Expand the brackets\nf(x) &= -(x^2 - 3x + 2x - 6)\n&= -(x^2 - x - 6)\n&= -x^2 + x + 6\n## Check with the point A\nf(0) &= -(0 + 2)(0 - 3)\n&= 6\nThis matches $A = (0, 6)$.\nANSWER: f(x) = -x^2 + x + 6"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q5#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate\nf(x) &= -x^2 + x + 6\nf^{\\prime}(x) &= -2x + 1\n## Set the derivative equal to zero\nAt a maximum the slope is zero.\n-2x + 1 &= 0\n-2x &= -1\nx &= \\frac{1}{2}\n## Find the y-value\nf\\left(\\frac{1}{2}\\right) &= -\\left(\\frac{1}{2}\\right)^2 + \\frac{1}{2} + 6\n&= -\\frac{1}{4} + \\frac{1}{2} + 6\n&= 6.25\n## Confirm it is a maximum\nf^{\\prime\\prime}(x) &= -2\n$f''(x) < 0$, so the point is a maximum.\nANSWER: (0.5,\\ 6.25)"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q6#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Expand (x + 5)(3x − 4)\n(x+5)(3x-4) &= 3x^2 - 4x + 15x - 20\n&= 3x^2 + 11x - 20\n## Expand −3(x² + 2)\n-3(x^2+2) &= -3x^2 - 6\n## Put the pieces back into the equation\n3x^2 + 11x - 20 - 3x^2 - 6 + 4 &= 0\n## Collect like terms\n11x - 22 &= 0\n## Solve for x\n11x &= 22\nx &= \\frac{22}{11}\nx &= 2\nANSWER: x = 2"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Multiply every term by the common denominator 2x(x + 3)\nThe denominators are $x+3$, $x$ and $2$, so the common denominator is $2x(x+3)$.\n2x(x+3)\\left(\\frac{5}{x+3} - \\frac{1}{x}\\right) &= \\frac{1}{2}\\,(2x)(x+3)\n## Cancel the denominators\n10x - 2(x+3) &= x(x+3)\n## Expand both sides\n10x - 2x - 6 &= x^2 + 3x\n8x - 6 &= x^2 + 3x\n## Move everything to one side\n0 &= x^2 + 3x - 8x + 6\nx^2 - 5x + 6 &= 0\n## Factorise and solve\n(x-2)(x-3) &= 0\nx &= 2 \\text{ or } x = 3\nBoth values are allowed, since neither is $-3$ or $0$.\nANSWER: x = 2 \\text{ or } x = 3"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Recognise the arithmetic sequence\nThe first row has 28 seats and each row adds 1, so $a = 28$ and $d = 1$. The $n$th term is $T_n = a + (n-1)d$.\nT_{10} &= 28 + (10-1)(1)\n&= 28 + 9\n&= 37\nANSWER: 37"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Set the last row equal to 50\nThe last row is the $n$th row, so $T_n = 50$ with $a = 28$, $d = 1$.\n28 + (n-1)(1) &= 50\n## Solve for n\n27 + n &= 50\nn &= 23\nANSWER: 23 \\text{ rows}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the sum formula\nThe seats form an arithmetic series with $n = 23$ rows, $a = 28$, $d = 1$.\nS_n &= \\frac{n}{2}\\left[2a + (n-1)d\\right]\n## Substitute\nS_{23} &= \\frac{23}{2}\\left[2(28) + (22)(1)\\right]\n## Simplify\n&= \\frac{23}{2}\\left[56 + 22\\right]\n&= \\frac{23}{2}(78)\n&= 23 \\times 39\n&= 897\nANSWER: 897 \\text{ seats}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q7#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the sum of the first n rows equal to 600\nThe first $n$ rows are full, so $S_n \\le 600$. Solve $S_n = 600$ first.\n\\frac{n}{2}\\left[2(28) + (n-1)(1)\\right] &= 600\n## Simplify the bracket\n\\frac{n}{2}(56 + n - 1) &= 600\n\\frac{n}{2}(n + 55) &= 600\n## Clear the fraction and expand\nn(n + 55) &= 1200\nn^2 + 55n &= 1200\nn^2 + 55n - 1200 &= 0\n## Use the quadratic formula\nHere $a = 1$, $b = 55$, $c = -1200$.\nn &= \\frac{-55 \\pm \\sqrt{55^2 - 4(1)(-1200)}}{2(1)}\nn &= \\frac{-55 \\pm \\sqrt{7825}}{2}\nn &\\approx 16.7 \\text{ or } n \\approx -71.7\nA number of rows cannot be negative, so $n \\approx 16.7$. Only complete rows are filled, so $n = 16$.\n## Find the seats in 16 rows\nS_{16} &= \\frac{16}{2}\\left[2(28) + (15)(1)\\right]\n&= 8(71)\n&= 568\n## Subtract to find the people in the next row\n600 - 568 &= 32\nANSWER: n = 16 \\text{ and } 32 \\text{ people in the next row}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q7#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Income from adult tickets\n276 \\times 25 &= 6900\nThat is $\\text{€}6900$.\n## Income from children’s tickets\n212 \\times 12 &= 2544\nThat is $\\text{€}2544$.\n## Add the two incomes\n6900 + 2544 &= 9444\nANSWER: \\text{€}9444"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q7#(f)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Add up the ratio parts\nThe ratio $3:1$ has $3 + 1 = 4$ parts.\n4 &= 3 + 1\n## Find the value of one part (children’s tickets)\n\\frac{752}{4} &= 188\n## Find the adult tickets (3 parts)\n188 \\times 3 &= 564\nANSWER: \\text{Adult tickets} = 564, \\ \\text{Children’s tickets} = 188"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q7#(f)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Let the children’s ticket cost x\nLet $x$ be the cost of a children’s ticket in euro. An adult ticket costs $2\\tfrac{1}{2}x = 2.5x$.\n## Write the total income as an equation\nThere are 188 children’s tickets and 564 adult tickets.\n188x + 564(2.5x) &= 17578\n## Multiply out the adult tickets\n188x + 1410x &= 17578\n## Collect and solve\n1598x &= 17578\nx &= \\frac{17578}{1598}\nx &= 11\nANSWER: \\text{€}11"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 4 into C(t)\nC(4) &= -(4)^3 + 4.5(4)^2 + 54(4)\n## Work out each term\n&= -64 + 4.5(16) + 216\n&= -64 + 72 + 216\n&= 224\nANSWER: C(4) = 224"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 2\nC(2) &= -(2)^3 + 4.5(2)^2 + 54(2)\n&= -8 + 18 + 108\n&= 118\n## Substitute t = 3\nC(3) &= -(3)^3 + 4.5(3)^2 + 54(3)\n&= -27 + 40.5 + 162\n&= 175.5\n## Substitute t = 5\nC(5) &= -(5)^3 + 4.5(5)^2 + 54(5)\n&= -125 + 112.5 + 270\n&= 257.5\n## Substitute t = 6\nC(6) &= -(6)^3 + 4.5(6)^2 + 54(6)\n&= -216 + 162 + 324\n&= 270\n## Substitute t = 7\nC(7) &= -(7)^3 + 4.5(7)^2 + 54(7)\n&= -343 + 220.5 + 378\n&= 255.5\n## Substitute t = 8\nC(8) &= -(8)^3 + 4.5(8)^2 + 54(8)\n&= -512 + 288 + 432\n&= 208\n## Substitute t = 9\nC(9) &= -(9)^3 + 4.5(9)^2 + 54(9)\n&= -729 + 364.5 + 486\n&= 121.5\nANSWER: C(2)=118,\\ C(3)=175.5,\\ C(5)=257.5,\\ C(6)=270,\\ C(7)=255.5,\\ C(8)=208,\\ C(9)=121.5"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Plot the ten points from the table\nPlot $(0,0)$, $(1,57.5)$, $(2,118)$, $(3,175.5)$, $(4,224)$, $(5,257.5)$, $(6,270)$, $(7,255.5)$, $(8,208)$ and $(9,121.5)$. Each point is the hours value across and the units value up.\n## Join the points with a smooth curve\nThe function is a cubic, so join the points with a smooth curve from $t = 0$ to $t = 9$. It rises to a peak near $t = 6$, then falls.\nANSWER: \\text{Smooth curve through the plotted points}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read the graph at t = 3.5\nGo up from $3.5$ on the horizontal axis to the curve, then across to the vertical axis.\nThe vertical axis reads about 200.\nANSWER: \\approx 200 \\text{ units}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Read the graph at C = 100\nGo across from $100$ on the vertical axis to the curve, then straight down to the horizontal axis.\nThe horizontal axis reads about $1.7$ hours, which is about 1 hour 42 minutes.\nThe marking scheme gives 1 hour 45 minutes; any reading close to the curve is accepted.\nANSWER: \\approx 1.7 \\text{ hours (about 1 hour 42 minutes)}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(e)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate each term\nUse $\\frac{d}{dt}\\left(at^n\\right) = nat^{n-1}$.\nC(t) &= -t^3 + 4.5t^2 + 54t\nC'(t) &= -3t^2 + 9t + 54\nANSWER: C'(t) = -3t^2 + 9t + 54"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(e)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 4 into C'(t)\nC'(4) &= -3(4)^2 + 9(4) + 54\n&= -48 + 36 + 54\n&= 42\nANSWER: 42 \\text{ units per hour}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(e)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Set the rate of change equal to 0\nThe maximum is where the rate of change is zero.\n-3t^2 + 9t + 54 &= 0\n## Divide by −3 and factorise\nt^2 - 3t - 18 &= 0\n(t-6)(t+3) &= 0\nt &= 6 \\text{ or } t = -3\n$t = -3$ is outside $0 \\le t \\le 9$, so $t = 6$.\n## Find the amount at t = 6\nC(6) &= -(6)^3 + 4.5(6)^2 + 54(6)\n&= -216 + 162 + 324\n&= 270\nANSWER: 270 \\text{ units}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q8#(e)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 7 into C'(t)\nC'(7) &= -3(7)^2 + 9(7) + 54\n&= -147 + 63 + 54\n&= -30\n## Explain\n$C'(7) = -30$ units per hour. The rate of change is negative, so the amount of the drug is decreasing after 7 hours.\nANSWER: C'(7) = -30 \\text{ units per hour, which is negative, so the amount is decreasing}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute d = 2000 and g = 9.8\ns &= \\sqrt{9.8 \\times 2000}\n&= \\sqrt{19600}\n&= 140\nANSWER: s = 140 \\text{ m/s}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Change the distance to metres\n400 \\text{ km} &= 400 \\times 1000 = 400\\,000 \\text{ m}\n## Time = distance ÷ speed\nt &= \\frac{400000}{140}\n&\\approx 2857.14 \\text{ seconds}\n## Change seconds to minutes\n2857.14 \\div 60 &\\approx 47.62 \\text{ minutes}\nTo the nearest minute this is 48 minutes.\nt &\\approx 48 \\text{ minutes}\nANSWER: 48 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Square both sides to remove the square root\ns &= \\sqrt{g \\times d}\ns^2 &= g \\times d\n## Divide both sides by g\nd &= \\frac{s^2}{g}\nANSWER: d = \\frac{s^2}{g}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Substitute s = 55 and g = 9.8 into d = s²/g\nd &= \\frac{55^2}{9.8}\n&= \\frac{3025}{9.8}\n## Calculate and round\n&\\approx 308.67\nd &\\approx 309 \\text{ m}\nANSWER: d = 309 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Add the die numbers for each empty cell\nEach total is the Die 1 number plus the Die 2 number.\n3 + 4 &= 7\n4 + 4 &= 8\n2 + 5 &= 7\n5 + 5 &= 10\n1 + 6 &= 7\n6 + 6 &= 12\nANSWER: \\text{Missing totals: } 7, 8, 7, 10, 7, 12"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the totals of 7 and of 11\nIn the completed table there are 36 equally likely outcomes. A total of 7 appears 6 times and a total of 11 appears 2 times.\n## Divide favourable outcomes by 36\nP(7 \\text{ or } 11) &= \\frac{6+2}{36}\n&= \\frac{8}{36}\n&= \\frac{2}{9}\nANSWER: \\frac{2}{9}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q1#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the totals that are prime numbers\nThe primes up to 12 are 2, 3, 5, 7 and 11. Their counts in the table are 1, 2, 4, 6 and 2.\n## Divide favourable outcomes by 36\nP(\\text{prime}) &= \\frac{1+2+4+6+2}{36}\n&= \\frac{15}{36}\n&= \\frac{5}{12}\nANSWER: \\frac{5}{12}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the cars that are not counted\nA car fails \"Ford or not red\" only if it is a Renault that is red. There are 4 of these.\n## Subtract them from the total\nP(\\text{Ford or not red}) &= \\frac{30-4}{30}\n&= \\frac{26}{30}\n&= \\frac{13}{15}\nANSWER: \\frac{13}{15}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the midpoint formula on P and R\n$V$ is the midpoint of $[PR]$, with $P(7, 10)$ and $R(11, 4)$.\nV &= \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)\n&= \\left(\\frac{7+11}{2}, \\frac{10+4}{2}\\right)\n&= \\left(\\frac{18}{2}, \\frac{14}{2}\\right)\n&= (9, 7)\nANSWER: V = (9, 7)"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope of UV\n$U(4, 6)$ and $V(9, 7)$.\nm_{UV} &= \\frac{y_2-y_1}{x_2-x_1}\n&= \\frac{7-6}{9-4}\n&= \\frac{1}{5}\n## Find the slope of QR\n$Q(1, 2)$ and $R(11, 4)$.\nm_{QR} &= \\frac{4-2}{11-1}\n&= \\frac{2}{10}\n&= \\frac{1}{5}\n## Compare the slopes\nBoth slopes equal $\\frac{1}{5}$, so $UV$ and $QR$ are parallel.\nANSWER: UV \\parallel QR"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Translate Q to the origin\nSubtract $Q(1, 2)$ from each point so that $Q$ becomes $(0, 0)$.\nP(7, 10) &\\to (7-1, 10-2) = (6, 8)\nR(11, 4) &\\to (11-1, 4-2) = (10, 2)\n## Use the area formula with the points (x1, y1) = (6, 8) and (x2, y2) = (10, 2)\n\\text{Area} &= \\frac{1}{2}\\left|x_1y_2 - x_2y_1\\right|\n&= \\frac{1}{2}\\left|(6)(2) - (10)(8)\\right|\n&= \\frac{1}{2}\\left|12 - 80\\right|\n&= \\frac{1}{2}\\left|-68\\right|\n&= \\frac{1}{2}(68)\n&= 34 \\text{ square units}\nANSWER: 34 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q2#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the translation that takes U to V\nU(4, 6) &\\to V(9, 7)\n\\text{Horizontal move} &= 9 - 4 = 5\n\\text{Vertical move} &= 7 - 6 = 1\n## Apply the same translation to Q\nQ(1, 2) &\\to (1+5, 2+1)\nS &= (6, 3)\nANSWER: S = (6, 3)"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q3#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## (i) Arrange all 7 letters\nAll 7 letters are different, so there are $7!$ arrangements.\n7! &= 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1\n&= 5040\n## (ii) Arrange 3 of the 7 letters\nThere are 7 choices for the first letter, 6 for the second and 5 for the third.\n7 \\times 6 \\times 5 &= 42 \\times 5\n&= 210\nANSWER: 5040 \\text{ and } 210"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q3#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## (i) Find each probability\nThe spinner is unbiased, so each probability is the sector angle divided by the full turn, $360^\\circ$.\nP(\\text{red}) &= \\frac{72}{360}\n&= \\frac{1}{5}\nP(\\text{orange}) &= \\frac{30}{360}\n&= \\frac{1}{12}\nP(\\text{yellow}) &= \\frac{45}{360}\n&= \\frac{1}{8}\nP(\\text{green}) &= \\frac{90}{360}\n&= \\frac{1}{4}\nP(\\text{blue}) &= \\frac{60}{360}\n&= \\frac{1}{6}\nP(\\text{indigo}) &= \\frac{18}{360}\n&= \\frac{1}{20}\nP(\\text{violet}) &= \\frac{45}{360}\n&= \\frac{1}{8}\n## (ii) Multiply each prize by its probability\nThe expected value is the sum of (prize $\\times$ probability).\nE(X) &= 20\\left(\\frac{1}{5}\\right) + 60\\left(\\frac{1}{12}\\right) + 24\\left(\\frac{1}{8}\\right) + 8\\left(\\frac{1}{4}\\right) + 42\\left(\\frac{1}{6}\\right) + 90\\left(\\frac{1}{20}\\right) + 48\\left(\\frac{1}{8}\\right)\n&= 4 + 5 + 3 + 2 + 7 + 4.5 + 6\n&= 31.5\nANSWER: \\text{€}31.50"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the midpoint of AB\nThe centre of a circle is the midpoint of a diameter.\n\\text{Centre} &= \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)\n&= \\left(\\frac{1+9}{2}, \\frac{8+0}{2}\\right)\n&= \\left(\\frac{10}{2}, \\frac{8}{2}\\right)\n&= (5, 4)\nANSWER: (5, 4)"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the distance from the centre (5, 4) to B(9, 0)\nr &= \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}\n&= \\sqrt{(9-5)^2 + (0-4)^2}\n&= \\sqrt{4^2 + (-4)^2}\n&= \\sqrt{16 + 16}\n&= \\sqrt{32}\n## Write the surd as p times the square root of q\n\\sqrt{32} &= \\sqrt{16 \\times 2}\n&= \\sqrt{16}\\,\\sqrt{2}\n&= 4\\sqrt{2}\nANSWER: 4\\sqrt{2}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q4#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Substitute the centre and radius into the circle equation\n(x-h)^2 + (y-k)^2 &= r^2\n(x-5)^2 + (y-4)^2 &= \\left(4\\sqrt{2}\\right)^2\n(x-5)^2 + (y-4)^2 &= 32\nANSWER: (x-5)^2 + (y-4)^2 = 32"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q4#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope of the radius to A\nThe radius goes from the centre $(5, 4)$ to $A(1, 8)$.\nm_r &= \\frac{8-4}{1-5}\n&= \\frac{4}{-4}\n&= -1\n## Find the slope of the tangent\nA tangent is perpendicular to the radius, so its slope is the negative reciprocal.\nm_T &= -\\frac{1}{m_r}\n&= -\\frac{1}{-1}\n&= 1\n## Find the equation through A(1, 8)\ny - 8 &= 1(x-1)\ny - 8 &= x - 1\n0 &= x - 1 - y + 8\nx - y + 7 &= 0\nANSWER: x - y + 7 = 0"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find the lengths of the right-angled triangle at corner B\n$|AB| = 7$ and $|AQ| = 5$, so $|QB| = 7 - 5 = 2$. The four corner triangles are congruent, each with legs 5 and 2.\n|QB| &= 7 - 5\n&= 2\n## Find the area of one corner triangle\n\\text{Area} &= \\frac{1}{2}(5)(2)\n&= 5\n## Subtract four triangles from the large square\n\\text{Area of } PQRS &= 7 \\times 7 - 4(5)\n&= 49 - 20\n&= 29 \\text{ cm}^2\nANSWER: 29 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q5#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## (i) Circumference of u (radius 4)\nC_u &= 2\\pi r\n&= 2\\pi(4)\n&= 8\\pi\n## (i) Circumference of v (radius 6)\nC_v &= 2\\pi(6)\n&= 12\\pi\n## (ii) Distance travelled by the rim of v\nIn non-slip contact, both rims move the same distance. Wheel $v$ makes 100 rotations.\n\\text{Distance} &= 100 \\times 12\\pi\n&= 1200\\pi\n## (ii) Divide by the circumference of u\n\\text{Rotations of } u &= \\frac{1200\\pi}{8\\pi}\n&= 150\nANSWER: C_u = 8\\pi \\text{ cm}, \\; C_v = 12\\pi \\text{ cm}, \\; u \\text{ makes } 150 \\text{ rotations}"
+ }
+]

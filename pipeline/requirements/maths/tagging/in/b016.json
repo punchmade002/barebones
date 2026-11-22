@@ -1,0 +1,358 @@
+[
+ {
+  "part": "maths-pp-2019-higher-p1-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the pattern in the lengths removed\nEach step removes the middle third of every remaining segment. The number of segments doubles and each is one third as long.\n\\text{Step 2} &= 2 \\times \\frac{1}{9}\n&= \\frac{2}{9}\n## Step 3: 4 segments, each of length 1/27\n\\text{Step 3} &= 4 \\times \\frac{1}{27}\n&= \\frac{4}{27}\n## Step 4: 8 segments, each of length 1/81\n\\text{Step 4} &= 8 \\times \\frac{1}{81}\n&= \\frac{8}{81}\n## Step 5: 16 segments, each of length 1/243\n\\text{Step 5} &= 16 \\times \\frac{1}{243}\n&= \\frac{16}{243}\nANSWER: \\text{Step 3: } \\tfrac{4}{27},\\ \\text{Step 4: } \\tfrac{8}{81},\\ \\text{Step 5: } \\tfrac{16}{243}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Spot the geometric series\nThe lengths removed are $\\frac13, \\frac29, \\frac4{27}, \\dots$, a geometric series.\na &= \\frac{1}{3}\nr &= \\frac{2/9}{1/3} = \\frac{2}{3}\n## Substitute into the sum formula\nS_n &= \\frac{a(1-r^n)}{1-r}\nS_n &= \\frac{\\frac{1}{3}\\left(1-\\left(\\frac{2}{3}\\right)^n\\right)}{1-\\frac{2}{3}}\nS_n &= \\frac{\\frac{1}{3}\\left(1-\\left(\\frac{2}{3}\\right)^n\\right)}{\\frac{1}{3}}\nS_n &= 1-\\left(\\frac{2}{3}\\right)^n\nANSWER: S_n = 1-\\left(\\frac{2}{3}\\right)^n"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q7#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Use the sum to infinity\nSince $|r| = \\frac23 < 1$, the sum to infinity exists.\nS_\\infty &= \\frac{a}{1-r}\n&= \\frac{\\frac{1}{3}}{1-\\frac{2}{3}}\n&= \\frac{\\frac{1}{3}}{\\frac{1}{3}}\n&= 1\nANSWER: 1"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find A from step 1\nStep 1 removes the open interval $\\left(\\frac13, \\frac23\\right)$, so the second segment starts at $\\frac23$.\nA &= \\frac{2}{3}\n## Find B, C and D from step 2\nStep 2 removes $\\left(\\frac19, \\frac29\\right)$ and $\\left(\\frac79, \\frac89\\right)$.\nB &= \\frac{2}{9}\nC &= \\frac{7}{9}\nD &= \\frac{8}{9}\n## Find E from step 3\nThe segment $\\left[\\frac{6}{27}, \\frac{9}{27}\\right]$ has length $\\frac{3}{27}$. Step 3 removes its middle third $\\left(\\frac{7}{27}, \\frac{8}{27}\\right)$, leaving $\\left[\\frac{6}{27}, \\frac{7}{27}\\right]$ on the left.\nE &= \\frac{6}{27}+\\frac{1}{27}\n&= \\frac{7}{27}\n## Find F from step 3\nThe segment $\\left[\\frac{24}{27}, 1\\right]$ has its middle third $\\left(\\frac{25}{27}, \\frac{26}{27}\\right)$ removed, leaving $\\left[\\frac{24}{27}, \\frac{25}{27}\\right]$ on the left.\nF &= \\frac{24}{27}+\\frac{1}{27}\n&= \\frac{25}{27}\nANSWER: A=\\tfrac23,\\ B=\\tfrac29,\\ C=\\tfrac79,\\ D=\\tfrac89,\\ E=\\tfrac7{27},\\ F=\\tfrac{25}{27}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Add the fractions over a common denominator\n\\frac{1}{3}-\\frac{1}{9}+\\frac{1}{27}-\\frac{1}{81} &= \\frac{27}{81}-\\frac{9}{81}+\\frac{3}{81}-\\frac{1}{81}\n&= \\frac{20}{81}\n## Show that this point is never removed\nAfter step 3 the segment $\\left[\\frac{18}{81}, \\frac{21}{81}\\right]$ remains. Step 4 removes its middle third $\\left(\\frac{19}{81}, \\frac{20}{81}\\right)$, leaving $\\left[\\frac{20}{81}, \\frac{21}{81}\\right]$.\nSo $\\frac{20}{81}$ is an end-point of a segment. End-points are never removed, so it is in the Cantor Set.\nANSWER: \\tfrac{20}{81}\\text{ is an end-point of a segment, so it is never removed}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q7#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Identify the geometric series\na &= \\frac{1}{3}\nr &= \\frac{-1/9}{1/3} = -\\frac{1}{3}\n$|r| = \\frac13 < 1$, so the sum to infinity exists.\n## Substitute into the sum to infinity\nS_\\infty &= \\frac{a}{1-r}\n&= \\frac{\\frac{1}{3}}{1-\\left(-\\frac{1}{3}\\right)}\n&= \\frac{\\frac{1}{3}}{1+\\frac{1}{3}}\n&= \\frac{\\frac{1}{3}}{\\frac{4}{3}}\n&= \\frac{1}{4}\nANSWER: \\frac{1}{4}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 20 into r(t)\nr(20) &= 22500\\cos\\left(\\frac{\\pi}{26}(20)\\right)+37500\n&= 22500\\cos\\left(\\frac{20\\pi}{26}\\right)+37500\nUse a calculator in radian mode.\n&= \\text{€}20658.51\n&\\approx \\text{€}20659\nANSWER: \\text{€}20659"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set r(t) = 26250 and isolate the cosine\n22500\\cos\\left(\\frac{\\pi}{26}t\\right)+37500 &= 26250\n22500\\cos\\left(\\frac{\\pi}{26}t\\right) &= -11250\n\\cos\\left(\\frac{\\pi}{26}t\\right) &= -\\frac{1}{2}\n## Find the angles in the first 52 weeks\nFor $0 \\le t \\le 52$, the angle $\\frac{\\pi}{26}t$ runs from $0$ to $2\\pi$. Cosine is $-\\frac12$ in the second and third quadrants.\n\\frac{\\pi}{26}t &= \\frac{2\\pi}{3} \\text{ or } \\frac{4\\pi}{3}\n## Solve for the first value of t\n\\frac{\\pi}{26}t &= \\frac{2\\pi}{3}\nt &= \\frac{2\\pi}{3}\\times\\frac{26}{\\pi}\nt &= \\frac{52}{3}\n## Solve for the second value of t\n\\frac{\\pi}{26}t &= \\frac{4\\pi}{3}\nt &= \\frac{4\\pi}{3}\\times\\frac{26}{\\pi}\nt &= \\frac{104}{3}\nANSWER: t = \\frac{52}{3} \\text{ and } t = \\frac{104}{3}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate using the chain rule\nThe derivative of $\\cos u$ is $-\\sin u$, multiplied by the derivative of the inside, $\\frac{\\pi}{26}$. The constant $37500$ differentiates to $0$.\nr(t) &= 22500\\cos\\left(\\frac{\\pi}{26}t\\right)+37500\nr'(t) &= 22500\\left[-\\sin\\left(\\frac{\\pi}{26}t\\right)\\right]\\left(\\frac{\\pi}{26}\\right)\n## Simplify the constant\nr'(t) &= -\\frac{22500\\pi}{26}\\sin\\left(\\frac{\\pi}{26}t\\right)\n&= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)\nANSWER: r'(t) = -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q8#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 30 into r'(t)\nThe revenue is increasing when $r'(t) > 0$.\nr'(30) &= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{30\\pi}{26}\\right)\n&= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{15\\pi}{13}\\right)\n## Evaluate and conclude\n$\\frac{15\\pi}{13}$ is just over $\\pi$, so its sine is negative (about $-0.4647$). A negative times a negative is positive.\nr'(30) &= 402.164\\pi\n&= 1263.44\nSince $r'(30) > 0$, the revenue is increasing 30 weeks after the beginning of July.\nANSWER: r'(30) \\approx 1263.44 > 0 \\text{, so the revenue is increasing}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q8#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 15,
+  "solution": "## Set r'(t) = 0 for a turning point\n-\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right) &= 0\n\\sin\\left(\\frac{\\pi}{26}t\\right) &= 0\n## Solve within the first 52 weeks\nFor $0 \\le t \\le 52$ the angle runs from $0$ to $2\\pi$, and sine is $0$ at $0$ and $\\pi$ (and $2\\pi$).\n\\frac{\\pi}{26}t &= 0 \\text{ or } \\pi\nt &= 0 \\text{ or } 26\n## Find the second derivative\nr'(t) &= -\\frac{11250\\pi}{13}\\sin\\left(\\frac{\\pi}{26}t\\right)\nr''(t) &= -\\frac{11250\\pi}{13}\\cos\\left(\\frac{\\pi}{26}t\\right)\\left(\\frac{\\pi}{26}\\right)\n&= -\\frac{5625\\pi^2}{169}\\cos\\left(\\frac{\\pi}{26}t\\right)\n## Test t = 0\nr''(0) &= -\\frac{5625\\pi^2}{169}\\cos(0)\n&= -\\frac{5625\\pi^2}{169}\nThis is negative, so $t = 0$ is a maximum.\n## Test t = 26\nr''(26) &= -\\frac{5625\\pi^2}{169}\\cos\\left(\\frac{\\pi}{26}(26)\\right)\n&= -\\frac{5625\\pi^2}{169}\\cos\\pi\n&= -\\frac{5625\\pi^2}{169}(-1)\n&= \\frac{5625\\pi^2}{169}\nThis is positive, so the revenue is at a minimum when $t = 26$ weeks.\nANSWER: t = 26"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Add up the outside edges\nThe window has a base of $2x$ (the diameter), two vertical sides of $y$, and a semicircular arc of length $\\frac12(2\\pi x)$. The dashed line is not part of the perimeter.\nP &= 2x + 2y + \\frac{1}{2}(2\\pi x)\n&= 2x + 2y + \\pi x\nANSWER: P = 2x + 2y + \\pi x"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Put P = 12 and make y the subject\n2x + 2y + \\pi x &= 12\n2y &= 12 - 2x - \\pi x\ny &= \\frac{12 - 2x - \\pi x}{2}\ny &= \\frac{12 - (2+\\pi)x}{2}\n## Find the range of x\nThe height $y$ cannot be negative, and the radius $x$ cannot be negative.\n12 - (2+\\pi)x &\\ge 0\n(2+\\pi)x &\\le 12\nx &\\le \\frac{12}{2+\\pi}\nSo $0 \\le x \\le \\frac{12}{2+\\pi}$.\nANSWER: y = \\frac{12-(2+\\pi)x}{2}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q9#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Complete the table: x = 0\ny &= \\frac{12-(2+\\pi)(0)}{2}\n&= \\frac{12}{2}\n&= 6\n## Complete the table: x = 12/(2+π)\ny &= \\frac{12-(2+\\pi)\\cdot\\frac{12}{2+\\pi}}{2}\n&= \\frac{12-12}{2}\n&= 0\n## Plot the two points and join them\nThe table gives $(0, 6)$ and $\\left(\\frac{12}{2+\\pi}, 0\\right) \\approx (2.33, 0)$. The function is linear, so join them with a straight line, drawn only for $0 \\le x \\le \\frac{12}{2+\\pi}$.\nANSWER: (0, 6) \\text{ and } \\left(\\frac{12}{2+\\pi}, 0\\right)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q9#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Read off the slope\ny &= \\frac{12-(2+\\pi)x}{2}\ny &= 6 - \\frac{2+\\pi}{2}x\nThe coefficient of $x$ is the slope.\nm &= -\\frac{2+\\pi}{2}\n&\\approx -2.57\n## Interpret the slope\nFor each extra 1 m in the radius of the semicircle, the height of the rectangle falls by about 2.57 m.\nANSWER: m \\approx -2.57"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q9#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Add the areas of the rectangle and semicircle\nThe rectangle is $2x$ wide and $y$ high. The semicircle has radius $x$.\na &= 2xy + \\frac{\\pi x^2}{2}\n## Substitute y and simplify\na &= 2x\\cdot\\frac{12-(2+\\pi)x}{2} + \\frac{\\pi x^2}{2}\n&= x\\left(12-(2+\\pi)x\\right) + \\frac{\\pi x^2}{2}\n&= 12x - 2x^2 - \\pi x^2 + \\frac{\\pi x^2}{2}\n&= \\frac{24x - 4x^2 - 2\\pi x^2}{2} + \\frac{\\pi x^2}{2}\n&= \\frac{24x - 4x^2 - 2\\pi x^2 + \\pi x^2}{2}\n&= \\frac{24x - (\\pi+4)x^2}{2}\nANSWER: a(x) = \\frac{24x - (\\pi+4)x^2}{2}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q9#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate term by term\na(x) &= 12x - \\frac{\\pi+4}{2}x^2\na'(x) &= 12 - \\frac{\\pi+4}{2}\\cdot 2x\n&= 12 - (\\pi+4)x\nANSWER: a'(x) = 12 - (\\pi+4)x"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q9#(c)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 15,
+  "solution": "## Set a'(x) = 0 to find x\na'(x) &= 0\n12 - (\\pi+4)x &= 0\n(\\pi+4)x &= 12\nx &= \\frac{12}{\\pi+4}\nThis is a maximum because $a''(x) = -(\\pi+4) < 0$.\n## Substitute x into the formula for y\ny &= \\frac{12-(2+\\pi)\\left(\\frac{12}{\\pi+4}\\right)}{2}\n&= \\frac{\\frac{12(\\pi+4)}{\\pi+4}-\\frac{12(2+\\pi)}{\\pi+4}}{2}\n&= \\frac{12(\\pi+4)-12(2+\\pi)}{2(\\pi+4)}\n&= \\frac{12\\pi+48-24-12\\pi}{2(\\pi+4)}\n&= \\frac{24}{2(\\pi+4)}\n&= \\frac{12}{\\pi+4}\n## Compare x and y\nBoth $x$ and $y$ equal $\\frac{12}{\\pi+4} \\approx 1.68$, so $y = x$: the area is greatest when the height of the rectangle equals the radius of the semicircle.\nANSWER: y = x"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q1#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Boy first, then girl\nThere are 20 students: 12 boys and 8 girls. After one is chosen, 19 remain.\nP(\\text{boy, girl}) &= \\frac{12}{20}\\times\\frac{8}{19}\n&= \\frac{96}{380}\n## Girl first, then boy\nP(\\text{girl, boy}) &= \\frac{8}{20}\\times\\frac{12}{19}\n&= \\frac{96}{380}\n## Add the two cases\nA boy and a girl in any order is either boy then girl, or girl then boy.\nP &= \\frac{96}{380} + \\frac{96}{380}\n&= \\frac{192}{380}\n&= \\frac{48}{95}\nANSWER: \\frac{48}{95}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q1#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write each probability\nStudents are not replaced, so the total drops by 1 each time. The boys left also drop with each boy chosen.\nP(\\text{1st boy}) &= \\frac{12}{20}\nP(\\text{2nd boy}) &= \\frac{11}{19}\nP(\\text{3rd boy}) &= \\frac{10}{18}\nP(\\text{4th girl}) &= \\frac{8}{17}\n## Multiply the four probabilities\nP &= \\frac{12}{20}\\times\\frac{11}{19}\\times\\frac{10}{18}\\times\\frac{8}{17}\n&= \\frac{12\\times 11\\times 10\\times 8}{20\\times 19\\times 18\\times 17}\n&= \\frac{10560}{116280}\n## Simplify by dividing top and bottom by 120\n&= \\frac{88}{969}\nANSWER: \\frac{88}{969}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Choose the questions from Section A\nQuestion 1 is compulsory, so choose 3 more from the other 6 questions.\n\\binom{6}{3} &= \\frac{6\\times 5\\times 4}{3\\times 2\\times 1}\n&= 20\n## Choose the questions from Section B\nChoose 4 from the 8 questions.\n\\binom{8}{4} &= \\frac{8\\times 7\\times 6\\times 5}{4\\times 3\\times 2\\times 1}\n&= 70\n## Multiply the two choices\nEach choice from Section A can go with each choice from Section B.\n\\binom{6}{3}\\times\\binom{8}{4} &= 20 \\times 70\n&= 1400\nANSWER: 1400"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of p\nUse the two intercepts $(a,0)$ and $(0,b)$ as points on the line.\nm &= \\frac{b-0}{0-a}\n&= -\\frac{b}{a}\n## Write the equation of p\nUse $y - y_1 = m(x - x_1)$ with the point $(a,0)$.\ny - 0 &= -\\frac{b}{a}(x - a)\n## Clear the fraction and rearrange\nay &= -b(x - a)\nay &= -bx + ab\nbx + ay &= ab\n## Divide every term by ab\n\\frac{bx}{ab} + \\frac{ay}{ab} &= \\frac{ab}{ab}\n\\frac{x}{a} + \\frac{y}{b} &= 1\nANSWER: \\frac{x}{a} + \\frac{y}{b} = 1"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q2#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the point-slope formula with A(6, 0)\nThe line has slope $m$ and passes through $(6,0)$.\ny - 0 &= m(x - 6)\ny &= m(x - 6)\nANSWER: y = m(x - 6)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q2#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths5",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Substitute y = m(x − 6) into k\nP lies on both lines, so substitute the equation of $l$ into $4x + 3y = 25$.\n4x + 3m(x - 6) &= 25\n4x + 3mx - 18m &= 25\n## Solve for x\n4x + 3mx &= 25 + 18m\nx(3m + 4) &= 25 + 18m\nx &= \\frac{25 + 18m}{3m + 4}\n## Substitute x back into y = m(x − 6)\ny &= m\\left(\\frac{25 + 18m}{3m + 4} - 6\\right)\n&= m \\times \\frac{25 + 18m - 6(3m + 4)}{3m + 4}\n&= m \\times \\frac{25 + 18m - 18m - 24}{3m + 4}\n&= \\frac{m}{3m + 4}\nANSWER: P\\left(\\frac{25 + 18m}{3m + 4},\\ \\frac{m}{3m + 4}\\right)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = −2 and y = k\n(-2 - 2)^2 + (k - 3)^2 &= 65\n16 + (k - 3)^2 &= 65\n## Isolate the squared bracket\n(k - 3)^2 &= 49\n## Take the square root of both sides\nRemember both the positive and negative roots.\nk - 3 &= \\pm 7\n## Solve for k\nk &= 3 + 7 \\quad\\text{or}\\quad k = 3 - 7\nk &= 10 \\quad\\text{or}\\quad k = -4\nANSWER: k = 10 \\text{ or } k = -4"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 15,
+  "solution": "## Describe the circle using its radius r\nThe circle touches both axes in the first quadrant, so the centre is $(r, r)$ and the radius is $r$.\n## Distance from centre to tangent equals the radius\nUse $\\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $(r, r)$ and $3x - 4y + 6 = 0$.\n\\frac{|3r - 4r + 6|}{\\sqrt{3^2 + (-4)^2}} &= r\n\\frac{|6 - r|}{5} &= r\n|6 - r| &= 5r\n## Remove the modulus and solve\n6 - r &= 5r \\quad\\text{or}\\quad 6 - r = -5r\nThe second case gives $r = -\\frac{3}{2}$, which is rejected because a radius cannot be negative.\n6 - r &= 5r\n6 &= 6r\nr &= 1\n## Write the equation of the circle\nCentre $(1, 1)$ and radius $1$.\n(x - 1)^2 + (y - 1)^2 &= 1^2\n(x - 1)^2 + (y - 1)^2 &= 1\nANSWER: (x - 1)^2 + (y - 1)^2 = 1"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Start from the addition formula\nUse $\\cos(A+B) = \\cos A\\cos B - \\sin A\\sin B$ with $A = B = \\theta$.\n\\cos 2\\theta &= \\cos(\\theta+\\theta)\n&= \\cos\\theta\\cos\\theta - \\sin\\theta\\sin\\theta\n&= \\cos^2\\theta - \\sin^2\\theta\n## Replace cos² using sin² + cos² = 1\nSince $\\sin^2\\theta + \\cos^2\\theta = 1$, we have $\\cos^2\\theta = 1 - \\sin^2\\theta$.\n\\cos 2\\theta &= (1 - \\sin^2\\theta) - \\sin^2\\theta\n&= 1 - 2\\sin^2\\theta\nANSWER: \\cos 2\\theta = 1 - 2\\sin^2\\theta"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Find the diagonal of one face\nLet the side of the cube be $x$. A face is a square, so use Pythagoras.\nd^2 &= x^2 + x^2\nd &= \\sqrt{2}\\,x\n## Find the diagonal of the cube\nThe cube's diagonal is the hypotenuse of a right-angled triangle with sides $x$ and the face diagonal $\\sqrt{2}x$.\nD^2 &= x^2 + (\\sqrt{2}\\,x)^2\n&= 3x^2\nD &= \\sqrt{3}\\,x\n## Set up the triangle at the centre\nThe diagonals cross at the centre, and each is halved there. Two half-diagonals, each $\\frac{\\sqrt{3}x}{2}$, and one cube edge $x$ form a triangle with angle $A$ opposite the edge.\nCosine rule: $a^2 = b^2 + c^2 - 2bc\\cos A$ with $a = x$ and $b = c = \\frac{\\sqrt{3}x}{2}$.\n## Substitute into the cosine rule\nx^2 &= \\left(\\frac{\\sqrt{3}x}{2}\\right)^2 + \\left(\\frac{\\sqrt{3}x}{2}\\right)^2 - 2\\left(\\frac{\\sqrt{3}x}{2}\\right)\\left(\\frac{\\sqrt{3}x}{2}\\right)\\cos A\nx^2 &= \\frac{3x^2}{4} + \\frac{3x^2}{4} - \\frac{3x^2}{2}\\cos A\nx^2 &= \\frac{3x^2}{2} - \\frac{3x^2}{2}\\cos A\n## Solve for cos A\n\\frac{3x^2}{2}\\cos A &= \\frac{3x^2}{2} - x^2\n\\frac{3x^2}{2}\\cos A &= \\frac{x^2}{2}\n\\cos A &= \\frac{1}{3}\nANSWER: \\cos A = \\frac{1}{3}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 15,
+  "solution": "## Recall what the orthocentre is\nThe orthocentre is the point where the three altitudes of a triangle meet. An altitude is a line from a vertex perpendicular to the opposite side.\n## Extend the sides of the triangle\nAngle $A$ is obtuse, so the altitudes from $C$ and $B$ land outside the triangle. Extend side $[BA]$ beyond $A$ and side $[CA]$ beyond $A$ (the light dashed lines).\n## Draw the altitude from C\nPut the compass point on $C$ and draw an arc cutting line $AB$ twice. From each of those two points draw equal arcs on the far side of $AB$ so they cross. Join $C$ to that crossing point: this line is perpendicular to $AB$.\n## Draw the altitude from B\nRepeat from $B$ with line $AC$ (extended). Join $B$ to the crossing point: this line is perpendicular to $AC$.\n## Label the orthocentre\nThe two altitudes meet below $A$. Mark that point and label it $O$. Show the arcs and lines used.\nANSWER: \\text{Orthocentre } O \\text{ is where the altitudes from } C \\text{ and } B \\text{ meet}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Show triangle ODC is equilateral\n$|CD| = \\frac{1}{2}|AB|$ and $|OB|$ is a radius, which is half the diameter, so $|CD| = |OB|$.\n$|OC|$ and $|OD|$ are also radii, so all three sides of $\\triangle ODC$ are equal.\nAn equilateral triangle has all angles $60^\\circ$, so $|\\angle ODC| = 60^\\circ$.\n## Use the parallel lines\n$CD \\parallel AB$, so the alternate angles are equal.\n|\\angle AOD| &= |\\angle ODC| = 60^\\circ\n## Find the angle at A in triangle AOD\n$|OA| = |OD|$ (radii), so $\\triangle AOD$ is isosceles and its base angles are equal.\n|\\angle OAD| &= \\frac{180 - 60}{2}\n&= 60^\\circ\n## Use the tangent\nA tangent is perpendicular to the radius (diameter) at the point of contact, so $|\\angle ABE| = 90^\\circ$.\nIn $\\triangle ABE$ the angles add to $180^\\circ$, and $|\\angle BAE| = |\\angle OAD| = 60^\\circ$.\n|\\angle BEA| &= 180 - 90 - 60\n&= 30^\\circ\nANSWER: |\\angle BEA| = 30^\\circ"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find P(F) and use independence\nP(F) &= \\frac{1}{4} + \\frac{1}{5}\n&= \\frac{9}{20}\nIndependent events satisfy $P(F \\cap S) = P(F) \\times P(S)$.\n\\frac{1}{5} &= \\frac{9}{20} \\times P(S)\n## Solve for P(S)\nP(S) &= \\frac{1}{5} \\times \\frac{20}{9}\n&= \\frac{4}{9}\n## Find x\n$P(S)$ is the overlap plus the part of $S$ outside $F$.\nx + \\frac{1}{5} &= \\frac{4}{9}\nx &= \\frac{4}{9} - \\frac{1}{5}\n&= \\frac{20}{45} - \\frac{9}{45}\n&= \\frac{11}{45}\n## Find y\nAll four regions of the Venn diagram add to 1.\n\\frac{1}{4} + \\frac{1}{5} + \\frac{11}{45} + y &= 1\ny &= 1 - \\frac{1}{4} - \\frac{1}{5} - \\frac{11}{45}\n&= \\frac{180}{180} - \\frac{45}{180} - \\frac{36}{180} - \\frac{44}{180}\n&= \\frac{55}{180}\n&= \\frac{11}{36}\nANSWER: x = \\frac{11}{45}, \\quad y = \\frac{11}{36}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Write the numbers of children in terms of n\nLet $n$ be the number of German children. There are twice as many Irish children.\n\\text{Irish} &= 2n\nAdd the 10 Spanish children to get the total.\n\\text{Total} &= n + 2n + 10\n&= 3n + 10\n## Write the probability of German then not German\nFirst child German: $\\frac{n}{3n+10}$. After one German leaves, $3n + 9$ children remain and $2n + 10$ of them are not German.\n\\frac{n}{3n + 10} \\times \\frac{2n + 10}{3n + 9} &= \\frac{1}{6}\n## Clear the fractions\n(3n+10)(3n+9) &= 9n^2 + 27n + 30n + 90\n&= 9n^2 + 57n + 90\nn(2n+10) &= 2n^2 + 10n\n\\frac{2n^2 + 10n}{9n^2 + 57n + 90} &= \\frac{1}{6}\n6(2n^2 + 10n) &= 9n^2 + 57n + 90\n12n^2 + 60n &= 9n^2 + 57n + 90\n## Solve the quadratic\n3n^2 + 3n - 90 &= 0\nn^2 + n - 30 &= 0\n(n + 6)(n - 5) &= 0\n$n$ is a number of children, so $n = -6$ is rejected.\nn &= 5\n## Find the total\n3n + 10 &= 3(5) + 10\n&= 25\nANSWER: 25 \\text{ children}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find |OD| from the diagram\n$|OB| = 90$ and $|DB| = 30$, so $D$ is 30 cm up from $B$ along $[OB]$.\n|OD| &= |OB| - |DB|\n&= 90 - 30\n&= 60\n## Use Pythagoras in the right-angled triangle ADO\n$[OB] \\perp [AC]$, so the angle at $D$ is $90^\\circ$ and $|OA| = 90$ is the hypotenuse.\n|AD|^2 + |OD|^2 &= |OA|^2\n|AD|^2 &= 90^2 - 60^2\n&= 8100 - 3600\n&= 4500\n## Take the square root and simplify\n|AD| &= \\sqrt{4500}\n&= \\sqrt{900 \\times 5}\n&= 30\\sqrt{5}\nANSWER: 30\\sqrt{5} \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Choose the ratio in triangle ADO\n$|OD|$ is adjacent to $\\angle DOA$ and $|OA|$ is the hypotenuse, so use cosine.\n\\cos(\\angle DOA) &= \\frac{|OD|}{|OA|}\n&= \\frac{60}{90}\n&= \\frac{2}{3}\n## Take the inverse cosine (calculator in radians)\n|\\angle DOA| &= \\cos^{-1}\\left(\\frac{2}{3}\\right)\n&= 0.8411\n&\\approx 0.84\nANSWER: 0.84 \\text{ radians}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q7#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle of the sector OAC\nThe sector $OAC$ has angle $\\angle AOC$, which is twice $\\angle DOA$. Work in metres: the radius is $0.9$ m.\n|\\angle AOC| &= 2(0.84)\n&= 1.68\n## Find the area of the sector\n\\text{Sector} &= \\frac{1}{2}r^2\\theta\n&= \\frac{1}{2}(0.9)^2(1.68)\n&= 0.6804 \\text{ m}^2\n## Find the area of triangle OAC\n$|AC| = 2|AD| = 60\\sqrt{5}$ cm $= 0.6\\sqrt{5}$ m, and $|OD| = 0.6$ m.\n\\text{Triangle} &= \\frac{1}{2}|AC||OD|\n&= \\frac{1}{2}(0.6\\sqrt{5})(0.6)\n&= 0.18\\sqrt{5}\n&= 0.4025 \\text{ m}^2\n## Subtract the triangle from the sector\nThe segment is the sector with the triangle $OAC$ removed.\n\\text{Segment} &= 0.6804 - 0.4025\n&= 0.2779\n&\\approx 0.28 \\text{ m}^2\nANSWER: 0.28 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q7#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the cross-section by the length\nThe trough has a uniform cross-section (the segment) and is $2.5$ m long.\n\\text{Volume} &= \\text{area} \\times \\text{length}\n&= 0.28 \\times 2.5\n&= 0.7 \\text{ m}^3\nANSWER: 0.7 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Split the sand into three solids\nThe upper half is a hemisphere, a cylinder and a cone, all with radius $1.25$ cm.\n## Volume of the hemisphere\nV_1 &= \\frac{2}{3}\\pi r^3\n&= \\frac{2}{3}\\pi (1.25)^3\n&= 4.0906\n## Volume of the cylinder (height 3.5)\nV_2 &= \\pi r^2 h\n&= \\pi (1.25)^2 (3.5)\n&= 17.1806\n## Volume of the cone (height 1.5)\nV_3 &= \\frac{1}{3}\\pi r^2 h\n&= \\frac{1}{3}\\pi (1.25)^2 (1.5)\n&= 2.4544\n## Add the three volumes\nV &= 4.0906 + 17.1806 + 2.4544\n&= 23.7256\n&\\approx 23.73\nANSWER: 23.73 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2019-higher-p2-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the volume of sand left\n98% has flowed out, so 2% is left, all in the cone.\nV_{\\text{left}} &= 0.02 \\times 23.73\n&= 0.4746\n## Use similar triangles to write r in terms of h\nThe sand surface cone has the same shape as the full cone (radius $1.25$, height $1.5$).\n\\frac{r}{h} &= \\frac{1.25}{1.5}\n&= \\frac{5}{6}\nr &= \\frac{5h}{6}\n## Write the cone volume in terms of h\nV &= \\frac{1}{3}\\pi r^2 h\n&= \\frac{1}{3}\\pi\\left(\\frac{5h}{6}\\right)^2 h\n&= \\frac{25\\pi h^3}{108}\n## Set the volume equal to 0.4746 and solve for h\n\\frac{25\\pi h^3}{108} &= 0.4746\nh^3 &= \\frac{0.4746 \\times 108}{25\\pi}\n&= 0.65262\nh &= \\sqrt[3]{0.65262}\n&= 0.8674\n&\\approx 0.87\nANSWER: h = 0.87 \\text{ cm}"
+ }
+]

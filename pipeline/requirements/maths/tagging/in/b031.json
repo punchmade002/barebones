@@ -1,0 +1,396 @@
+[
+ {
+  "part": "maths-pp-2023-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 15,
+  "solution": "## Write f(x) as a power\nf(x) &= (5x^2 + 7)^{-1}\n## Differentiate using the chain rule\nBring down the power, reduce it by 1, then multiply by the derivative of $5x^2 + 7$, which is $10x$.\nf'(x) &= -1(5x^2 + 7)^{-2}(10x)\n&= -10x(5x^2 + 7)^{-2}\n## Write with a positive power\n&= \\frac{-10x}{(5x^2 + 7)^2}\nANSWER: f'(x) = \\frac{-10x}{(5x^2 + 7)^2}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Name the two factors and differentiate each\n$g(x)$ is a product, so use the product rule with $u$ and $v$.\nu &= \\tan\\frac{x}{2}\n\\frac{du}{dx} &= \\frac12\\sec^2\\frac{x}{2}\nv &= \\ln x\n\\frac{dv}{dx} &= \\frac1x\n## Apply the product rule\n$g'(x) = u\\,\\frac{dv}{dx} + v\\,\\frac{du}{dx}$\ng'(x) &= \\tan\\frac{x}{2}\\cdot\\frac1x + \\ln x\\cdot\\frac12\\sec^2\\frac{x}{2}\n## Substitute x = π/2\ng'\\left(\\frac{\\pi}{2}\\right) &= \\tan\\frac{\\pi}{4}\\cdot\\frac{1}{\\pi/2} + \\ln\\frac{\\pi}{2}\\cdot\\frac12\\sec^2\\frac{\\pi}{4}\n## Evaluate the trig values\n$\\tan\\frac{\\pi}{4} = 1$ and $\\sec^2\\frac{\\pi}{4} = \\frac{1}{(1/\\sqrt{2})^2} = 2$.\n&= 1\\cdot\\frac{2}{\\pi} + \\ln\\frac{\\pi}{2}\\cdot\\frac12\\cdot 2\n&= \\frac{2}{\\pi} + \\ln\\frac{\\pi}{2}\nANSWER: g'\\left(\\frac{\\pi}{2}\\right) = \\frac{2}{\\pi} + \\ln\\frac{\\pi}{2}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q5#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## (i) Follow 3 through f, then through g\nIn the diagram, $f$ sends $3$ to the globe.\nf(3) &= \\text{globe}\n$g$ sends the globe to $w$.\ng(f(3)) &= g(\\text{globe}) = w\n## (ii) Show g is injective (one-to-one)\nThe three elements of $B$ (plane, globe, cloud) go to three different elements of $C$: $x$, $w$ and $z$.\nNo element of $C$ is used more than once, so $g$ is injective.\n## (ii) Show g is not surjective (not onto)\nThe element $y$ in $C$ has no arrow pointing to it.\nSo the range $\\{x, w, z\\}$ is not all of $C$, and $g$ is not surjective.\nANSWER: g(f(3)) = w"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q6#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set f(x) equal to g(x)\nx + 4 &= x^2 - 2\n## Move everything to one side\nSubtract $x + 4$ from both sides.\nx^2 - 2 - (x + 4) &= 0\nx^2 - x - 6 &= 0\n## Factorise the quadratic\n(x - 3)(x + 2) &= 0\n## Set each factor to zero\nx - 3 &= 0 \\text{ or } x + 2 = 0\nx &= 3 \\text{ or } x = -2\nANSWER: x = -2 \\text{ or } x = 3"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q6#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Find the height of the shaded strip\nBetween $x = -1$ and $x = 2$ the line $f$ is above the curve $g$ (the graphs only cross at $x = -2$ and $x = 3$). Area = integral of top minus bottom.\nf(x) - g(x) &= x + 4 - (x^2 - 2)\n&= x + 4 - x^2 + 2\n&= -x^2 + x + 6\n## Write the area as an integral\n\\text{Area} &= \\int_{-1}^{2} (-x^2 + x + 6)\\,dx\n## Integrate each term\n&= \\left[-\\frac{x^3}{3} + \\frac{x^2}{2} + 6x\\right]_{-1}^{2}\n## Substitute the limits (upper minus lower)\n&= \\left(-\\frac{2^3}{3} + \\frac{2^2}{2} + 6(2)\\right) - \\left(-\\frac{(-1)^3}{3} + \\frac{(-1)^2}{2} + 6(-1)\\right)\n&= \\left(-\\frac{8}{3} + 2 + 12\\right) - \\left(\\frac13 + \\frac12 - 6\\right)\n&= \\frac{34}{3} - \\left(-\\frac{31}{6}\\right)\n&= \\frac{68}{6} + \\frac{31}{6}\n&= \\frac{99}{6}\n&= \\frac{33}{2}\nANSWER: \\frac{33}{2} \\text{ units}^2"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Integrate b e^(bx)\n$b$ is a constant. $\\int e^{bx}\\,dx = \\frac1b e^{bx}$.\n\\int_0^b b e^{bx}\\,dx &= \\left[b \\cdot \\frac1b e^{bx}\\right]_0^b\n&= \\left[e^{bx}\\right]_0^b\n## Substitute the limits\n&= e^{b \\cdot b} - e^{b \\cdot 0}\n&= e^{b^2} - 1\n## Set equal to e and solve\ne^{b^2} - 1 &= e\ne^{b^2} &= e + 1\nTake natural logs of both sides.\nb^2 &= \\ln(e + 1)\n## Take the positive square root\n$b$ is positive, so reject the negative root.\nb &= \\sqrt{\\ln(e + 1)}\nb &\\approx 1.15\nANSWER: b = \\sqrt{\\ln(e + 1)} \\approx 1.15"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Passing A means t = 0, so find v(0)\nFiona is at point $A$ when $t=0$.\nv(0) &= \\frac{2}{3}(0)^3 - 6(0)^2 + 13(0) + 109\n&= 0 - 0 + 0 + 109\n&= 109\nANSWER: 109 \\text{ km/hour}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate v(t) to get the acceleration\nAcceleration is the rate of change of speed, so it is $v'(t)$.\nv'(t) &= \\frac{2}{3}(3t^2) - 6(2t) + 13\n&= 2t^2 - 12t + 13\n## Substitute t = 5 into v'(t)\nv'(5) &= 2(5)^2 - 12(5) + 13\n&= 2(25) - 60 + 13\n&= 50 - 60 + 13\n&= 3\nANSWER: 3 \\text{ km/hour per minute}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Maximum speed happens when v'(t) = 0\nv'(t) &= 0\n2t^2 - 12t + 13 &= 0\n## Use the quadratic formula with a = 2, b = -12, c = 13\nt &= \\frac{-(-12) \\pm \\sqrt{(-12)^2 - 4(2)(13)}}{2(2)}\n&= \\frac{12 \\pm \\sqrt{144 - 104}}{4}\n&= \\frac{12 \\pm \\sqrt{40}}{4}\n## Evaluate the two solutions\nt &= \\frac{12 + \\sqrt{40}}{4}\n&= 4.58\nt &= \\frac{12 - \\sqrt{40}}{4}\n&= 1.42\n## Reject the value outside the first 4 minutes\n$t = 4.58$ is outside $0 \\le t \\le 4$, so it is rejected. The only candidate is $t = 1.42$.\n## Check it is a maximum using v''(t)\nv''(t) &= 4t - 12\nv''(1.42) &= 4(1.42) - 12\n&= -6.32\n$v''(1.42) < 0$, so the speed is a maximum at $t = 1.42$.\nANSWER: t = 1.42 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\nAverage speed over $0 \\le t \\le 5$ is $\\frac{1}{5-0}$ times the integral of $v(t)$.\n\\text{average} &= \\frac{1}{5-0}\\int_0^5 \\left(\\frac{2}{3}t^3 - 6t^2 + 13t + 109\\right)dt\n## Integrate each term\n&= \\frac{1}{5}\\left[\\frac{2}{3}\\cdot\\frac{t^4}{4} - 6\\cdot\\frac{t^3}{3} + \\frac{13t^2}{2} + 109t\\right]_0^5\n&= \\frac{1}{5}\\left[\\frac{t^4}{6} - 2t^3 + \\frac{13t^2}{2} + 109t\\right]_0^5\n## Substitute the limits 5 and 0\n&= \\frac{1}{5}\\left[\\left(\\frac{5^4}{6} - 2(5)^3 + \\frac{13(5)^2}{2} + 109(5)\\right) - (0)\\right]\n&= \\frac{1}{5}\\left(\\frac{625}{6} - 250 + \\frac{325}{2} + 545\\right)\n&= \\frac{1}{5}\\left(\\frac{1685}{3}\\right)\n&= \\frac{337}{3}\n&= 112.33\nANSWER: 112.33 \\text{ km/hour}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q7#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Find v'(1) and decide what it says about the slope\nv'(t) &= 2t^2 - 12t + 13\nv'(1) &= 2(1)^2 - 12(1) + 13\n&= 3\n$v'(1) = 3 > 0$, so the function is increasing at $t = 1$: the slope is positive. That rules out A and C.\n## Find v''(1) and decide what it says about the curve\nv''(t) &= 4t - 12\nv''(1) &= 4(1) - 12\n&= -8\n$v''(1) < 0$, so the slope is decreasing: the rate of increase is slowing (concave down). Of B and D, only B is rising and flattening, so the answer is B.\nANSWER: \\text{B}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q7#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Fastest legal journey is at 100 km/hour\nThe minimum time is when she drives at the maximum speed for the whole 10 km.\n\\text{time} &= \\frac{\\text{distance}}{\\text{speed}}\n&= \\frac{10}{100}\n&= \\frac{1}{10} \\text{ hour}\n## Convert hours to minutes\n\\frac{1}{10} \\times 60 &= 6\nANSWER: 6 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q7#(g)",
+  "level": "higher",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Distance covered in the first 2 minutes\nd &= 120 \\times \\frac{2}{60}\n&= 4 \\text{ km}\n10 - 4 &= 6\nSo 6 km remain to get to $B$.\n## Total time for an average of 100 km/hour\n\\text{total time} &= \\frac{10}{100}\n&= \\frac{1}{10} \\text{ hour}\n&= 6 \\text{ minutes}\n6 - 2 &= 4\nSo the last 6 km take 4 minutes.\n## Average speed over the last 6 km\n\\text{speed} &= \\frac{6}{4/60}\n&= 90\n## Find the speed v at B\nConstant deceleration means the average speed is the mean of the starting speed 120 and the final speed $v$.\n\\frac{120 + v}{2} &= 90\n120 + v &= 180\nv &= 60\n## Deceleration over the 4 minutes\na &= \\frac{120 - 60}{4}\n&= 15\nANSWER: 15 \\text{ km/hour per minute}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Use the compound interest formula\nRate $2.4\\% = 0.024$, time 5 years.\nF &= 3000(1 + 0.024)^5\n&= 3000(1.024)^5\n&= 3377.70\nANSWER: \\text{€}3377.70"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q8#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## (i) Explain present value\nThe present value of €1000 in 1 year's time is the amount that should be invested today, at that interest rate, to grow to exactly €1000 in 1 year.\n## (ii) Write the compound interest formula for Chen\nLet $P$ be the amount Chen put in. After 6 years at $0.024$ per year:\n4000 &= P(1 + 0.024)^6\n4000 &= P(1.024)^6\n## Divide both sides by 1.024^6\nP &= \\frac{4000}{1.024^6}\n&= 3469.45\nANSWER: \\text{(i) amount to invest now to equal €1000 in 1 year; (ii) €3469.45}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Set the quarterly growth factor so that 4 quarters match one year\nLet $i$ be the quarterly rate. Four quarters of growth must equal the annual factor $1.024$.\n(1 + i)^4 &= 1.024\n## Take the fourth root and solve for i\n1 + i &= (1.024)^{\\frac{1}{4}}\ni &= (1.024)^{\\frac{1}{4}} - 1\n&= 0.005947\n## Convert to a percentage\n0.005947 \\times 100 &= 0.59\nANSWER: 0.59\\%"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q8#(d)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths13"
+  ],
+  "marks": 15,
+  "solution": "## (i) Each month's deposit grows by 1.0011 per month\n$0.11\\% = 0.0011$, so the monthly factor is $1.0011$.\nThe first deposit earns interest for 36 months, the second for 35 months, and so on. The last deposit earns interest for 1 month.\n## (i) Write the total as a series\n\\text{Total} &= A(1.0011)^{36} + A(1.0011)^{35} + \\cdots + A(1.0011)^2 + A(1.0011)\n## (ii) Reverse the order and take out A\n\\text{Total} &= A(1.0011) + A(1.0011)^2 + \\cdots + A(1.0011)^{35} + A(1.0011)^{36}\n&= A\\left[1.0011 + (1.0011)^2 + \\cdots + (1.0011)^{35} + (1.0011)^{36}\\right]\n## (ii) Identify the geometric series\nThe bracket is geometric with first term $a = 1.0011$, common ratio $r = 1.0011$ and $n = 36$ terms.\n## (ii) Use the sum formula and set the total to 12 000\nS_{36} &= \\frac{a(1 - r^n)}{1 - r}\n&= \\frac{1.0011\\left(1 - 1.0011^{36}\\right)}{1 - 1.0011}\n&= 36.742\nA(36.742) &= 12000\n## (ii) Solve for A\nA &= \\frac{12000}{36.742}\n&= 326.60\nANSWER: A = \\text{€}326.60"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q8#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write the expected value equation\nThe student price is $x - 5$. Multiply each price by its probability and add.\n11(0.52) + (x - 5)(0.15) + x(0.33) &= 13.85\n## Expand the brackets\n5.72 + 0.15x - 0.75 + 0.33x &= 13.85\n## Collect like terms\n4.97 + 0.48x &= 13.85\n0.48x &= 13.85 - 4.97\n0.48x &= 8.88\n## Divide both sides by 0.48\nx &= \\frac{8.88}{0.48}\n&= 18.5\nANSWER: x = \\text{€}18.50"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q8#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Pick a selling price of 100\nMargin is profit as a percentage of the selling price. Let the selling price be 100.\n\\text{profit} &= 18\\% \\text{ of } 100\n&= 18\n\\text{cost price} &= 100 - 18\n&= 82\n## Mark up is profit as a percentage of cost price\n\\text{mark up} &= \\frac{18}{82} \\times 100\n&= 21.95\nTo the nearest percent, the mark up is $22\\%$.\nANSWER: 22\\%"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q9#(a)(i), (ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths2"
+  ],
+  "marks": 15,
+  "solution": "## (i) List the factors of 2^4\nThe factors of $2^4$ are the powers of 2 from $2^0$ up to $2^4$.\nThey are $2^0, 2^1, 2^2, 2^3, 2^4$, that is $1, 2, 4, 8, 16$.\n## (ii) Count the factors of 3^7\nThe factors are $3^0, 3^1, 3^2, 3^3, 3^4, 3^5, 3^6, 3^7$.\nThat is 8 different factors.\n## (iii) Count the factors of 2^10 × 3^12\n$2^{10}$ and $3^{12}$ share no factors, so every factor is a factor of $2^{10}$ times a factor of $3^{12}$.\n$2^{10}$ has 11 factors ($2^0$ to $2^{10}$) and $3^{12}$ has 13 factors ($3^0$ to $3^{12}$).\n\\text{factors} &= (10 + 1)(12 + 1)\n&= 11 \\times 13\n&= 143\nANSWER: \\text{(i) } 1, 2, 4, 8, 16 \\quad \\text{(ii) } 8 \\quad \\text{(iii) } 143"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q9#(b)(i), (ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths9"
+  ],
+  "marks": 20,
+  "solution": "## Find y when x = 1 and x = 2\nEach pair must satisfy $xy = 12$, so $y = \\frac{12}{x}$.\ny &= \\frac{12}{1}\n&= 12\ny &= \\frac{12}{2}\n&= 6\n## Find y when x = 4 and x = 6\ny &= \\frac{12}{4}\n&= 3\ny &= \\frac{12}{6}\n&= 2\n## Fill in the missing x values\nThe pair $(x, 1)$ needs $x = 12$, and the pair $(x, 3)$ needs $x = 4$.\nThe table is: $x$ = 1, 2, 3, 4, 6, 12 and $y$ = 12, 6, 4, 3, 2, 1.\n## Plot the six points\nPlot $(1, 12)$, $(2, 6)$, $(3, 4)$ (already shown), $(4, 3)$, $(6, 2)$ and $(12, 1)$.\n## Draw the smooth curve y = 12/x for 1 ≤ x ≤ 12\nJoin the points with a smooth curve, not straight line segments.\nIt falls steeply near $x = 1$ and flattens out towards the $x$-axis, ending at $(12, 1)$.\nANSWER: y = \\frac{12}{x}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q9#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate y = 12/x\ny &= \\frac{12}{x}\n&= 12x^{-1}\n\\frac{dy}{dx} &= -12x^{-2}\n&= -\\frac{12}{x^2}\n## Find the slope of the tangent at x = p\nm &= -\\frac{12}{p^2}\n## Substitute the slope and the point into y - y1 = m(x - x1)\ny - \\frac{12}{p} &= -\\frac{12}{p^2}(x - p)\n## Multiply out the bracket and solve for y\ny - \\frac{12}{p} &= -\\frac{12}{p^2}x + \\frac{12p}{p^2}\ny - \\frac{12}{p} &= -\\frac{12}{p^2}x + \\frac{12}{p}\ny &= -\\frac{12}{p^2}x + \\frac{12}{p} + \\frac{12}{p}\ny &= -\\frac{12}{p^2}x + \\frac{24}{p}\nANSWER: y = -\\frac{12}{p^2}x + \\frac{24}{p}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q9#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the y-intercept (let x = 0)\ny &= -\\frac{12}{p^2}(0) + \\frac{24}{p}\n&= \\frac{24}{p}\nThe height of the triangle is $\\frac{24}{p}$.\n## Find the x-intercept (let y = 0)\n0 &= -\\frac{12}{p^2}x + \\frac{24}{p}\n\\frac{12}{p^2}x &= \\frac{24}{p}\nx &= \\frac{24}{p} \\times \\frac{p^2}{12}\nx &= 2p\nThe base of the triangle is $2p$.\n## Use area = ½ × base × height\n\\text{area} &= \\frac{1}{2}(2p)\\left(\\frac{24}{p}\\right)\n&= \\frac{48p}{2p}\n&= 24\nANSWER: k = 24"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q10#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the height of each rectangle\n$T_4$ has 4 rectangles of equal height that together cover the height of 8 units.\n\\text{height} &= 8 \\div 4\n&= 2\n## Find the width of each rectangle\nEach rectangle must be as wide as the triangle is at its bottom edge, so the widths come from similar triangles: 2, 1.5, 1 and 0.5 units.\nStack the rectangles with the widest at the bottom, so the sloping sides of the triangle just touch the bottom corners of each rectangle.\nANSWER: T_4 \\text{ has 4 rectangles, each 2 units high}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find the height of each rectangle\nh &= 8 \\div 3\n&= \\frac{8}{3}\n## Count the small triangles sticking out of the big triangle\nThe rectangles cover the big triangle plus a small triangle on each side of each rectangle.\n$T_3$ has 3 rectangles, so there are 6 small triangles. Their bases add up to the width 2 of the big triangle, so each base is $\\frac{2}{6}$.\n\\text{base} &= \\frac{2}{6}\n&= \\frac{1}{3}\n## Area of the 6 small triangles\n\\text{Area} &= 6 \\times \\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{8}{3}\n&= \\frac{8}{3}\n## Area of the big triangle\n\\text{Area} &= \\frac{1}{2} \\times 2 \\times 8\n&= 8\n## Add the two areas\n\\text{Total} &= \\frac{8}{3} + 8\n&= \\frac{8}{3} + \\frac{24}{3}\n&= \\frac{32}{3}\nThis is the required total area, in square units.\nANSWER: \\text{Total area} = \\frac{32}{3}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q10#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Find the height of each rectangle\nh &= \\frac{8}{n}\n## Count the small triangles and find their bases\n$T_n$ has $n$ rectangles, so there are $2n$ small triangles. Their bases add up to 2.\n\\text{base} &= \\frac{2}{2n}\n&= \\frac{1}{n}\n## Area of the $2n$ small triangles\n\\text{Area} &= 2n \\times \\frac{1}{2} \\times \\frac{1}{n} \\times \\frac{8}{n}\n&= \\frac{8}{n}\n## Add the area of the big triangle\nThe big triangle has area $\\frac{1}{2} \\times 2 \\times 8 = 8$.\n\\text{Total} &= \\frac{8}{n} + 8\n&= \\frac{8}{n} + \\frac{8n}{n}\n&= \\frac{8(n+1)}{n}\nANSWER: \\frac{8(n+1)}{n} = 8 + \\frac{8}{n}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q10#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths3",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Area of the triangle and the inequality\n\\text{Area} &= \\frac{1}{2} \\times 2 \\times 8\n&= 8\nWe need $A_n$ greater than $95\\%$ of 8.\n\\frac{8(n-1)}{n} &> 0.95(8)\n## Divide both sides by 8\n\\frac{n-1}{n} &> 0.95\n## Multiply both sides by $n$\n$n$ is a positive whole number, so the inequality sign stays the same.\nn - 1 &> 0.95n\n## Collect the $n$ terms\nn - 0.95n &> 1\n0.05n &> 1\nn &> 20\n## Choose the first whole number\n$n$ must be greater than 20, so the first whole number is 21.\nn &= 21\nANSWER: n = 21"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q10#(e)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Set up the integral\nV &= \\int_0^h \\frac{x^2 c^2}{h^2}\\,dx\n$\\frac{c^2}{h^2}$ is a constant, so take it outside the integral.\n&= \\frac{c^2}{h^2} \\int_0^h x^2\\,dx\n## Integrate $x^2$\nAdd 1 to the power and divide by the new power.\n&= \\frac{c^2}{h^2} \\left[ \\frac{x^3}{3} \\right]_0^h\n## Substitute the limits\n&= \\frac{c^2}{h^2} \\left( \\frac{h^3}{3} - \\frac{0^3}{3} \\right)\n&= \\frac{c^2}{h^2} \\times \\frac{h^3}{3}\n&= \\frac{c^2 h}{3}\nANSWER: V = \\frac{c^2 h}{3}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p1-q10#(e)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Write the chain rule\nWe want $\\frac{dS}{dt}$ and know $\\frac{dx}{dt}$, so link them through $x$.\n\\frac{dS}{dt} &= \\frac{dS}{dx} \\times \\frac{dx}{dt}\nThe rate at which $x$ increases is given.\n\\frac{dx}{dt} &= 3\n## Differentiate $S$ with respect to $x$\nS &= \\frac{c^2}{h^2} x^2\n\\frac{dS}{dx} &= \\frac{c^2}{h^2} (2x)\n&= \\frac{2c^2 x}{h^2}\n## Multiply by $\\frac{dx}{dt}$\n\\frac{dS}{dt} &= \\frac{2c^2 x}{h^2} \\times 3\n&= \\frac{6c^2 x}{h^2}\n## Substitute $x = \\frac{h}{2}$\n\\frac{dS}{dt} &= \\frac{6c^2 \\left(\\frac{h}{2}\\right)}{h^2}\n&= \\frac{3c^2 h}{h^2}\n&= \\frac{3c^2}{h}\nANSWER: \\frac{dS}{dt} = \\frac{3c^2}{h} \\text{ square units per second}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the probabilities of each amount\nThere are 12 equally likely sectors. Write $P(6)$ for landing on a €6 sector and $P(9)$ for a €9 sector.\nP(6) &= \\frac{5}{12}\nP(9) &= \\frac{3}{12}\n## Multiply the three independent spins\nEach spin is independent and the probabilities do not change.\nP(6, 9, 6) &= \\frac{5}{12} \\times \\frac{3}{12} \\times \\frac{5}{12}\n&= \\frac{75}{1728}\n&= 0.04340\\ldots\n&\\approx 0.0434\nANSWER: 0.0434"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the probabilities of success and failure\nA success is getting €9.\nP(\\text{success}) &= \\frac{3}{12}\n&= \\frac{1}{4}\nP(\\text{failure}) &= 1 - \\frac{1}{4}\n&= \\frac{3}{4}\n## Describe the event\nThe 3rd €9 comes on spin 8. So there are exactly 2 successes in the first 7 spins, then a success on spin 8.\nP &= \\binom{7}{2} \\left(\\frac{1}{4}\\right)^2 \\left(\\frac{3}{4}\\right)^5 \\times \\frac{1}{4}\n## Evaluate each part\n\\binom{7}{2} &= 21\n\\left(\\frac{1}{4}\\right)^2 &= \\frac{1}{16}\n\\left(\\frac{3}{4}\\right)^5 &= \\frac{243}{1024}\n## Multiply\nP &= 21 \\times \\frac{1}{16} \\times \\frac{243}{1024} \\times \\frac{1}{4}\n&= \\frac{5103}{65536}\n&= 0.07786\\ldots\n&\\approx 0.0779\nANSWER: 0.0779"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find which totals are €16 or more\nThe possible amounts are €0, €6 and €9. The biggest two-spin total other than 9 and 9 is 9 + 6 = 15, which is under €16.\nSo the total is €16 or more only when both spins give €9 (a total of €18).\n## Probability of two €9 spins\nP(9, 9) &= \\frac{1}{4} \\times \\frac{1}{4}\n&= \\frac{1}{16}\n## Use the complement\nP(\\text{less than } €16) &= 1 - \\frac{1}{16}\n&= \\frac{15}{16}\n&= 0.9375\nANSWER: \\frac{15}{16} = 0.9375"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths16"
+  ],
+  "marks": 10,
+  "solution": "## Start from the formula for $\\cos(A - B)$\nWe use the known formula, then turn sine into cosine.\n\\cos(A - B) &= \\cos A \\cos B + \\sin A \\sin B\n## Write the sine as a cosine\n$\\sin \\theta = \\cos(90^\\circ - \\theta)$ for any angle $\\theta$.\n\\sin(A+B) &= \\cos\\big(90^\\circ - (A+B)\\big)\n&= \\cos\\big((90^\\circ - A) - B\\big)\n## Use the $\\cos(A-B)$ formula\nApply it with $90^\\circ - A$ in place of $A$.\n&= \\cos(90^\\circ - A)\\cos B + \\sin(90^\\circ - A)\\sin B\n## Change back to sine and cosine of $A$\n$\\cos(90^\\circ - A) = \\sin A$ and $\\sin(90^\\circ - A) = \\cos A$.\n&= \\sin A \\cos B + \\cos A \\sin B\nSo $\\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B$, as required.\nANSWER: \\sin(A+B) = \\sin A \\cos B + \\cos A \\sin B"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Split 75° into 30° + 45°\n\\sin 75^\\circ &= \\sin(30^\\circ + 45^\\circ)\n## Apply the formula from part (a)\n&= \\sin 30^\\circ \\cos 45^\\circ + \\cos 30^\\circ \\sin 45^\\circ\n## Substitute the exact values\n$\\sin 30^\\circ = \\frac{1}{2}$, $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$, $\\sin 45^\\circ = \\cos 45^\\circ = \\frac{1}{\\sqrt{2}}$.\n&= \\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2}} + \\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{\\sqrt{2}}\n&= \\frac{1}{2\\sqrt{2}} + \\frac{\\sqrt{3}}{2\\sqrt{2}}\n&= \\frac{1 + \\sqrt{3}}{2\\sqrt{2}}\n## Rationalise the denominator\nMultiply top and bottom by $\\sqrt{2}$.\n&= \\frac{(1 + \\sqrt{3})\\sqrt{2}}{2\\sqrt{2} \\times \\sqrt{2}}\n&= \\frac{(1 + \\sqrt{3})\\sqrt{2}}{4}\n&= \\frac{\\sqrt{2} + \\sqrt{6}}{4}\nANSWER: \\sin 75^\\circ = \\frac{\\sqrt{2} + \\sqrt{6}}{4}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q2#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Replace $\\sin 2t$\nUse the double angle formula $\\sin 2t = 2\\sin t \\cos t$.\n\\sin t &= 2\\sin t \\cos t\n## Move everything to one side and factorise\nDo not divide by $\\sin t$, as that would lose the solutions where $\\sin t = 0$.\n\\sin t - 2\\sin t \\cos t &= 0\n\\sin t\\,(1 - 2\\cos t) &= 0\n## Solve $\\sin t = 0$\nOne factor must be zero. Sine is zero at the start, middle and end of the range.\n\\sin t &= 0\nt &= 0^\\circ,\\ 180^\\circ,\\ 360^\\circ\n## Solve $1 - 2\\cos t = 0$\n1 - 2\\cos t &= 0\n-2\\cos t &= -1\n\\cos t &= \\frac{1}{2}\nCosine is positive in the first and fourth quadrants; the reference angle is $60^\\circ$.\nt &= 60^\\circ,\\ 300^\\circ\n## Combine all solutions\nt &= 0^\\circ,\\ 60^\\circ,\\ 180^\\circ,\\ 300^\\circ,\\ 360^\\circ\nANSWER: t = 0^\\circ, 60^\\circ, 180^\\circ, 300^\\circ, 360^\\circ"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## Translate the triangle so one vertex is the origin\nSubtract $11$ from every $y$-coordinate. This moves $(0, 11)$ to the origin and keeps the area the same.\n(4, 6) &\\to (4, 6 - 11) = (4, -5)\n(-3, -1) &\\to (-3, -1 - 11) = (-3, -12)\n(0, 11) &\\to (0, 11 - 11) = (0, 0)\n## Write the area formula for a vertex at the origin\nFor vertices $(0,0)$, $(x_1, y_1)$, $(x_2, y_2)$:\n\\text{Area} &= \\frac{1}{2}\\left|x_1 y_2 - x_2 y_1\\right|\n## Substitute (4, -5) and (-3, -12)\n\\text{Area} &= \\frac{1}{2}\\left|4(-12) - (-3)(-5)\\right|\n&= \\frac{1}{2}\\left|-48 - 15\\right|\n&= \\frac{1}{2}\\left|-63\\right|\n&= \\frac{63}{2}\n&= 31.5\nANSWER: 31.5 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q3#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Write the midpoint formula for A(-1, k) and B(5, l)\n\\text{Midpoint} &= \\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right)\n## Substitute the coordinates\n\\text{Midpoint} &= \\left(\\frac{-1 + 5}{2},\\ \\frac{k + l}{2}\\right)\n## Simplify the x-coordinate\n\\frac{-1 + 5}{2} &= \\frac{4}{2}\n&= 2\n\\text{Midpoint} &= \\left(2,\\ \\frac{k + l}{2}\\right)\nANSWER: \\left(2,\\ \\frac{k + l}{2}\\right)"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q3#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of AB\nm_{AB} &= \\frac{l - k}{5 - (-1)}\n&= \\frac{l - k}{6}\n## Find the slope of the given bisector\nRearrange $3x + 2y - 14 = 0$ into the form $y = mx + c$.\n2y &= -3x + 14\ny &= -\\frac{3}{2}x + 7\nThe slope of the bisector is $-\\frac{3}{2}$.\n## Use perpendicular slopes to get Equation 1\nThe bisector is perpendicular to $AB$, so the product of their slopes is $-1$.\n\\frac{l - k}{6} \\times \\left(-\\frac{3}{2}\\right) &= -1\n-\\frac{3(l - k)}{12} &= -1\nl - k &= 4\n## Put the midpoint into the bisector for Equation 2\nThe midpoint $\\left(2, \\frac{k+l}{2}\\right)$ lies on the perpendicular bisector.\n3(2) + 2\\left(\\frac{k + l}{2}\\right) - 14 &= 0\n6 + (k + l) - 14 &= 0\nk + l &= 8\n## Solve the two equations\nAdd $l - k = 4$ and $l + k = 8$ to eliminate $k$.\n2l &= 12\nl &= 6\nSubstitute $l = 6$ into $l + k = 8$.\n6 + k &= 8\nk &= 2\nANSWER: l = 6, \\quad k = 2"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q4#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Compare with the standard circle equation\nA circle with centre $(a, b)$ and radius $r$ has equation $(x - a)^2 + (y - b)^2 = r^2$.\n(x - h)^2 + (y + 3)^2 &= 12\n(x - h)^2 + (y - (-3))^2 &= 12\n## Read off the centre\nHere $a = h$ and $b = -3$.\n\\text{Centre} &= (h, -3)\n## Find the radius\nr^2 &= 12\nr &= \\sqrt{12}\n&= \\sqrt{4 \\times 3}\n&= 2\\sqrt{3}\nANSWER: \\text{Centre} = (h, -3), \\quad \\text{Radius} = 2\\sqrt{3}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q4#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## Write the distance from a point to a line\nFor the line $ax + by + c = 0$ and the point $(x_1, y_1)$:\nd &= \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}\nHere $a = 1$, $b = -4$, $c = 7$, and the point is the centre $(h, -3)$.\n## Set the distance equal to 5\n\\frac{|h - 4(-3) + 7|}{\\sqrt{1^2 + (-4)^2}} &= 5\n\\frac{|h - 4(-3) + 7|}{\\sqrt{17}} &= 5\n\\frac{|h + 12 + 7|}{\\sqrt{17}} &= 5\n\\frac{|h + 19|}{\\sqrt{17}} &= 5\n## Multiply both sides by the square root\n|h + 19| &= 5\\sqrt{17}\n## Remove the modulus using both signs\n$|A| = k$ means $A = k$ or $A = -k$.\nh + 19 &= 5\\sqrt{17} \\text{ or } h + 19 = -5\\sqrt{17}\n## Subtract 19 in each case\nh &= 5\\sqrt{17} - 19 \\text{ or } h = -5\\sqrt{17} - 19\nANSWER: h = 5\\sqrt{17} - 19 \\text{ or } h = -5\\sqrt{17} - 19"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the y-coordinate of the centre\n$(a, 3)$ and $(a, -5)$ have the same $x$-coordinate, so they are the ends of a vertical chord. The centre is level with the midpoint of that chord.\nk &= \\frac{3 + (-5)}{2}\n&= \\frac{-2}{2}\n&= -1\n## Write the equation with centre (h, -1)\nThe radius is $\\sqrt{20}$, so $r^2 = 20$.\n(x - h)^2 + (y + 1)^2 &= 20\n## Substitute (8, 1) to find h\n(8 - h)^2 + (1 + 1)^2 &= 20\n(8 - h)^2 + 4 &= 20\n(8 - h)^2 &= 16\n8 - h &= 4 \\text{ or } 8 - h = -4\nh &= 4 \\text{ or } h = 12\n## Reject the value of h that does not fit the diagram\nSubstitute $(a, 3)$ into the circle equation to see what $a$ must be.\n(a - h)^2 + (3 + 1)^2 &= 20\n(a - h)^2 &= 4\na &= h + 2 \\text{ or } a = h - 2\nIf $h = 12$, then $a = 14$ or $a = 10$, but $0 < a < 5$, so $h = 12$ is rejected.\nIf $h = 4$, then $a = 2$ (or $6$), and $a = 2$ satisfies $0 < a < 5$. So $h = 4$.\n## State the equation of the circle\n(x - 4)^2 + (y + 1)^2 &= 20\nANSWER: (x - 4)^2 + (y + 1)^2 = 20"
+ }
+]

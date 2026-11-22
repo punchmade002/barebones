@@ -1,0 +1,440 @@
+[
+ {
+  "part": "maths-pp-2021-higher-p1-q5#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate f(x)\nf'(x) &= 6x^2 + 12x - 12\n## Take out the factor 6\n&= 6(x^2 + 2x - 2)\n## Complete the square inside the bracket\nHalf of the coefficient of $x$ is $1$, so add and subtract $1^2$.\n&= 6(x^2 + 2x + 1 - 1 - 2)\n&= 6\\left[(x+1)^2 - 3\\right]\n&= 6(x+1)^2 - 18\n## Compare with a(x + b)^2 + c\na &= 6, \\quad b = 1, \\quad c = -18\nANSWER: a = 6, \\quad b = 1, \\quad c = -18"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q5#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths3",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate g(x)\ng'(x) &= 36\n## Form the inequality f'(x) > g'(x)\n6x^2 + 12x - 12 &> 36\n## Rearrange to compare with zero\n6x^2 + 12x - 48 &> 0\nx^2 + 2x - 8 &> 0\n## Find the roots of the quadratic\n(x+4)(x-2) &> 0\nThe roots are $x = -4$ and $x = 2$.\n## Read off where the quadratic is positive\nThe graph of $x^2+2x-8$ is a U-shape, so it is positive outside the roots.\nx &< -4 \\quad \\text{or} \\quad x > 2\nANSWER: x < -4 \\text{ or } x > 2"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths25",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate h(x)\nUse the chain rule: the derivative of $\\sin(2x)$ is $2\\cos(2x)$.\nh'(x) &= 2 \\times 2\\cos(2x)\n&= 4\\cos(2x)\n## Find the slope of the tangent at x = π/6\nh'\\left(\\frac{\\pi}{6}\\right) &= 4\\cos\\left(2 \\times \\frac{\\pi}{6}\\right)\n&= 4\\cos\\left(\\frac{\\pi}{3}\\right)\n&= 4 \\times \\frac{1}{2}\n&= 2\n## Find the y-value of the point of contact\nh\\left(\\frac{\\pi}{6}\\right) &= 2\\sin\\left(\\frac{\\pi}{3}\\right)\n&= 2 \\times \\frac{\\sqrt{3}}{2}\n&= \\sqrt{3}\nThe point of contact is $\\left(\\frac{\\pi}{6}, \\sqrt{3}\\right)$ and the slope is $m = 2$.\n## Write the equation of the tangent\ny - \\sqrt{3} &= 2\\left(x - \\frac{\\pi}{6}\\right)\n## Put x = 0 to find where t cuts the y-axis\ny - \\sqrt{3} &= 2\\left(0 - \\frac{\\pi}{6}\\right)\ny - \\sqrt{3} &= -\\frac{\\pi}{3}\ny &= \\sqrt{3} - \\frac{\\pi}{3}\nk &= \\sqrt{3} - \\frac{\\pi}{3}\nk &= 0.6848\\ldots \\approx 0.68\nANSWER: k = 0.68"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Write h'(x) using its roots\nThe graph crosses the $x$-axis at $x=-1$ and $x=3$, so $(x+1)$ and $(x-3)$ are factors.\nh'(x) &= a(x+1)(x-3)\n&= a(x^2 - 2x - 3)\n## Use the point (0, 6) to find a\nThe graph crosses the $y$-axis at $6$, so $h'(0) = 6$.\n6 &= a(0 + 0 - 3)\n6 &= -3a\na &= -2\n## Substitute a = -2 and expand\nh'(x) &= -2(x^2 - 2x - 3)\n&= -2x^2 + 4x + 6\nANSWER: h'(x) = -2x^2 + 4x + 6"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Find where the slope function has its maximum\nThe slope of a tangent to $h(x)$ is $h'(x)$, so we need the maximum value of $h'(x)$. Differentiate $h'(x)$ and set it to zero.\nh''(x) &= -4x + 4\n-4x + 4 &= 0\n-4x &= -4\nx &= 1\n## Check that it is a maximum\nh'''(x) &= -4\n$h'''(x) < 0$, so this is a maximum.\n## Find the maximum slope\nh'(1) &= -2(1)^2 + 4(1) + 6\n&= -2 + 4 + 6\n&= 8\nANSWER: 8"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q6#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Integrate h'(x)\n$h(x)$ is the integral of $h'(x)$.\nh(x) &= \\int (-2x^2 + 4x + 6)\\,dx\n&= -\\frac{2x^3}{3} + \\frac{4x^2}{2} + 6x + C\n&= -\\frac{2x^3}{3} + 2x^2 + 6x + C\n## Use the point (0, -2) to find C\n-2 &= -\\frac{2(0)^3}{3} + 2(0)^2 + 6(0) + C\n-2 &= C\n## Write the equation\nh(x) &= -\\frac{2x^3}{3} + 2x^2 + 6x - 2\nANSWER: h(x) = -\\frac{2x^3}{3} + 2x^2 + 6x - 2"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Multiply by 0.9 for each new swing\nEach swing is 90% of the one before, so $T_n = 45(0.9)^{n-1}$.\nT_2 &= 45(0.9)\n&= 40.5\n&= \\frac{81}{2}\n## Find the length of swing 4\nT_4 &= 45(0.9)^3\n&= 32.805\n&= \\frac{6561}{200}\n## Find the length of swing 5\nT_5 &= 45(0.9)^4\n&= 29.5245\n&= \\frac{59049}{2000}\nANSWER: \\frac{81}{2} = 40.5,\\ \\frac{6561}{200} = 32.805,\\ \\frac{59049}{2000} = 29.5245"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 25 into the formula\nT_n &= 45(0.9)^{n-1}\nT_{25} &= 45(0.9)^{25-1}\n&= 45(0.9)^{24}\n## Evaluate and round\n&= 3.5894...\n&= 3.6\nANSWER: 3.6\\ \\text{cm}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q7#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Identify the series\nThe total distance after 40 swings is the sum of the first 40 arc lengths: a geometric series with $a = 45$ and $r = 0.9$.\nS_n &= \\frac{a(1-r^n)}{1-r}\n## Substitute n = 40\nS_{40} &= \\frac{45(1-0.9^{40})}{1-0.9}\n## Evaluate and round\n&= 443.3486...\n&= 443\nANSWER: 443\\ \\text{cm}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Set the arc length equal to 2\n45(0.9)^{n-1} &= 2\n(0.9)^{n-1} &= \\frac{2}{45}\n## Take logs to bring down the power\nn-1 &= \\log_{0.9}\\left(\\frac{2}{45}\\right)\n## Evaluate n\nn-1 &= 29.5510...\nn &= 30.5510...\n## Choose the first whole swing\n$n$ must be a whole number and $T_{30}$ is still more than 2, so the first swing under 2 cm is the next one.\np &= 31\nANSWER: p = 31"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Use the arc length formula\nLength 1 m is 100 cm, so the radius is $r = 100$ and the arc is $l = 45$.\nl &= 2\\pi r\\left(\\frac{\\theta}{360^\\circ}\\right)\n2\\pi(100)\\left(\\frac{\\theta}{360}\\right) &= 45\n## Solve for the angle\n\\theta &= \\frac{45 \\times 360}{200\\pi}\n&= 25.7831...\n&= 26^\\circ\nANSWER: \\theta = 26^\\circ"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the angles as a geometric series\nEach angle is 90% of the one before, so the angles are $26, 26(0.9), 26(0.9)^2, \\dots$ with $a = 26$ and $r = 0.9$.\n$|r| < 1$, so the series has a sum to infinity.\nS_\\infty &= \\frac{a}{1-r}\n## Substitute and evaluate\nS_\\infty &= \\frac{26}{1-0.9}\n&= \\frac{26}{0.1}\n&= 260\nANSWER: 260^\\circ"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q7#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Link distance to angle\nEach arc length is the radius times its angle, so the distance is in proportion to the angle. Half the total angle therefore gives half the total distance.\n## Find the total distance\nThe arcs form a geometric series with $a = 45$ and $r = 0.9$.\nS_\\infty &= \\frac{45}{1-0.9}\n&= \\frac{45}{0.1}\n&= 450\n## Halve it\n\\text{Distance} &= \\frac{450}{2}\n&= 225\nANSWER: 225\\ \\text{cm}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 10\nh(10) &= 0.001(10)^3 - 0.12(10)^2 + p(10) + 5\n&= 1 - 12 + 10p + 5\n&= 10p - 6\n## Use h(10) = 30\n10p - 6 &= 30\n10p &= 36\np &= 3.6\nANSWER: p = 3.6"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Use p = 3.6 and find h(0)\nh(x) &= 0.001x^3 - 0.12x^2 + 3.6x + 5\nAt $x = 0$ every term except the constant is zero, so $h(0) = 5$.\n## Find h(20)\nh(20) &= 0.001(20)^3 - 0.12(20)^2 + 3.6(20) + 5\n&= 8 - 48 + 72 + 5\n&= 37\n## Find h(30)\nh(30) &= 0.001(30)^3 - 0.12(30)^2 + 3.6(30) + 5\n&= 27 - 108 + 108 + 5\n&= 32\n## Find h(50)\nh(50) &= 0.001(50)^3 - 0.12(50)^2 + 3.6(50) + 5\n&= 125 - 300 + 180 + 5\n&= 10\n## Find h(70)\nh(70) &= 0.001(70)^3 - 0.12(70)^2 + 3.6(70) + 5\n&= 343 - 588 + 252 + 5\n&= 12\n## Plot the points and join them\nPlot $(0, 5)$, $(10, 30)$, $(20, 37)$, $(30, 32)$, $(40, 21)$, $(50, 10)$, $(60, 5)$, $(70, 12)$ and $(75, 21.875)$.\nJoin them with a smooth curve: it rises to a maximum near $x = 20$, falls to a minimum near $x = 60$, then rises again.\nANSWER: h(0)=5,\\ h(20)=37,\\ h(30)=32,\\ h(50)=10,\\ h(70)=12"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate term by term\nUse $\\frac{d}{dx}(x^n) = nx^{n-1}$ on each term; the constant 5 differentiates to 0.\nh(x) &= 0.001x^3 - 0.12x^2 + 3.6x + 5\nh'(x) &= 0.001(3x^2) - 0.12(2x) + 3.6\n&= 0.003x^2 - 0.24x + 3.6\nANSWER: h'(x) = 0.003x^2 - 0.24x + 3.6"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Show x = 20 is a turning point\nA turning point has $h'(x) = 0$.\nh'(20) &= 0.003(20)^2 - 0.24(20) + 3.6\n&= 1.2 - 4.8 + 3.6\n&= 0\n## Use the second derivative to test it\nh''(x) &= 0.006x - 0.24\nh''(20) &= 0.006(20) - 0.24\n&= 0.12 - 0.24\n&= -0.12\n$h''(20) < 0$, so $x = 20$ is a local maximum.\n## Check the ends of the domain\n$h(20) = 37$ is greater than $h(0) = 5$ and $h(75) = 21.875$, so it is the greatest height on $0 \\le x \\le 75$.\nANSWER: x = 20"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q8#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Set h''(x) = 0 to find the inflection point\n0.006x - 0.24 &= 0\n0.006x &= 0.24\nx &= 40\n## Find the height at x = 40\nh(40) &= 0.001(40)^3 - 0.12(40)^2 + 3.6(40) + 5\n&= 64 - 192 + 144 + 5\n&= 21\nANSWER: 21\\ \\text{m}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\n\\text{Average} &= \\frac{1}{75 - 0}\\int_0^{75} h(x)\\,dx\n## Integrate each term\nUse $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}$. The constant $C$ cancels between the limits, so it is left out.\n\\int h(x)\\,dx &= \\frac{0.001x^4}{4} - \\frac{0.12x^3}{3} + \\frac{3.6x^2}{2} + 5x\n&= 0.00025x^4 - 0.04x^3 + 1.8x^2 + 5x\n## Substitute the limits 75 and 0\n\\int_0^{75} h(x)\\,dx &= 0.00025(75)^4 - 0.04(75)^3 + 1.8(75)^2 + 5(75) - 0\n&= 7910.15625 - 16875 + 10125 + 375\n&= 1535.15625\n## Divide by 75\n\\text{Average} &= \\frac{1535.15625}{75}\n&= 20.46875\n&= 20.47\nANSWER: 20.47\\ \\text{m}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Use T = 95 at t = 0\nThe coffee starts at 95 °C, so $T(0) = 95$.\nAe^{-0.081(0)} + 20 &= 95\nAe^{0} + 20 &= 95\nAny number to the power 0 is 1, so $e^0 = 1$.\nA + 20 &= 95\nA &= 75\nANSWER: A = 75"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## See what happens as time goes on\nAs $t$ gets very large, $e^{-0.081t}$ gets closer and closer to 0.\nSo $75e^{-0.081t}$ approaches 0 and $T(t)$ approaches 20.\n## Interpret in context\n20 is the lowest temperature the coffee will cool to: the room temperature.\nANSWER: \\text{The temperature the coffee cools towards (room temperature, 20 °C)}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q9#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Find the temperature at t = 10\nT(10) &= 75e^{-0.081(10)} + 20\n&= 75e^{-0.81} + 20\n&= 53.364...\n## Subtract from the starting temperature\n\\text{Decrease} &= 95 - 53.364\n&= 41.636...\n&= 42\nANSWER: 42^\\circ\\text{C}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Set T(t) = 82\n75e^{-0.081t} + 20 &= 82\n75e^{-0.081t} &= 62\ne^{-0.081t} &= \\frac{62}{75}\n## Take natural logs of both sides\n$\\ln(e^k) = k$, so taking $\\ln$ removes the exponential.\n-0.081t &= \\ln\\left(\\frac{62}{75}\\right)\nt &= \\frac{\\ln(62/75)}{-0.081}\n## Evaluate and convert to seconds\nt &= 2.3500...\\text{ minutes}\n&= 2.3500 \\times 60 \\text{ seconds}\n&= 141 \\text{ seconds}\nANSWER: 2\\text{ minutes }21\\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate T(t)\nChain rule on $e^{-0.081t}$: the derivative is $-0.081e^{-0.081t}$. The constant 20 differentiates to 0.\nT(t) &= 75e^{-0.081t} + 20\nT'(t) &= 75(-0.081)e^{-0.081t}\n&= -6.075e^{-0.081t}\n## Set T'(t) = -4.05 and solve\n-6.075e^{-0.081t} &= -4.05\ne^{-0.081t} &= \\frac{4.05}{6.075}\n&= \\frac{2}{3}\n## Find the temperature\nPut $e^{-0.081t} = \\frac{2}{3}$ straight into $T(t)$.\nT &= 75\\left(\\frac{2}{3}\\right) + 20\n&= 50 + 20\n&= 70\nANSWER: 70^\\circ\\text{C}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Write down the rates\nThe volume is decreasing, so the rate is negative.\n\\frac{dV}{dt} &= -\\frac{1}{20}\nV &= x^3\n\\frac{dV}{dx} &= 3x^2\n## Find the side length when V = 1/64\nx^3 &= \\frac{1}{64}\nx &= \\frac{1}{4}\n## Use the chain rule\n\\frac{dx}{dt} &= \\frac{dV}{dt} \\div \\frac{dV}{dx}\n&= -\\frac{1}{20} \\div 3x^2\n&= -\\frac{1}{60x^2}\n## Substitute x = 1/4\n\\frac{dx}{dt} &= -\\frac{1}{60\\left(\\frac{1}{4}\\right)^2}\n&= -\\frac{1}{\\frac{15}{4}}\n&= -\\frac{4}{15}\nANSWER: -\\frac{4}{15}\\ \\text{cm/sec}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Set the volume equal to zero\n60 + 41t - 3t^2 &= 0\n-3t^2 + 41t + 60 &= 0\n3t^2 - 41t - 60 &= 0\n## Factorise and solve\n(3t + 4)(t - 15) &= 0\nt &= -\\frac{4}{3} \\text{ or } t = 15\n## Reject the negative time\nTime starts at day 0, so $t > 0$ and $t = -\\frac{4}{3}$ is rejected.\nANSWER: t = 15 \\text{ days}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate V(t)\nV'(t) &= 41 - 6t\n## Substitute t = 5\nV'(5) &= 41 - 6(5)\n&= 41 - 30\n&= 11\nANSWER: 11 \\text{ litres/day}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Set V'(t) = 0 for a maximum\n41 - 6t &= 0\n41 &= 6t\nt &= \\frac{41}{6}\n## Check that it is a maximum\nV''(t) &= -6\n$V''(t) < 0$, so the volume is a maximum at $t = \\frac{41}{6}$.\nANSWER: t = \\frac{41}{6}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 41/6 into V(t)\nV\\left(\\frac{41}{6}\\right) &= 60 + 41\\left(\\frac{41}{6}\\right) - 3\\left(\\frac{41}{6}\\right)^2\n&= 60 + \\frac{1681}{6} - \\frac{1681}{12}\n&= \\frac{2401}{12}\n&= 200.0833\\ldots\n&\\approx 200\nANSWER: 200 \\text{ litres}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Bound the sine term\nThe sine of any angle lies between $-1$ and $1$.\n-1 &\\le \\sin\\frac{\\pi t}{5} \\le 1\n## Add 1.5 to find the smallest value of I(t)\n0.5 &\\le 1.5 + \\sin\\frac{\\pi t}{5} \\le 2.5\nI(t) &\\ge 0.5 > 0\n## Relate this to the radius\n$r(t+1) = r(t) + I(t+1)$ and $I(t+1) > 0$, so $r(t+1) > r(t)$: the radius increases every year.\nANSWER: r(t+1) > r(t)"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Find I(5)\nI(5) &= 1.5 + \\sin\\frac{5\\pi}{5}\n&= 1.5 + \\sin\\pi\n&= 1.5\n## Find I(6)\nI(6) &= 1.5 + \\sin\\frac{6\\pi}{5}\n&= 0.9122\\ldots\n## Compare and explain\n0.9122 &< 1.5\nSo $I(6) < I(5)$. The tree grew less in year 6 than in year 5: it is still growing, but more slowly.\nANSWER: I(6) < I(5)"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Write r(2) in terms of r(0)\nr(2) &= r(1) + I(2)\n&= r(0) + I(1) + I(2)\n## Substitute r(0) = 10 and the formula for I(t)\n&= 10 + \\left(1.5 + \\sin\\frac{\\pi}{5}\\right) + \\left(1.5 + \\sin\\frac{2\\pi}{5}\\right)\n&= 13 + \\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5}\nSo $a = 13$, $b = 1$, $c = 2$.\nANSWER: r(2) = 13 + \\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p1-q10#(b)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths25",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write r(10) as r(0) plus ten yearly increases\nr(10) &= r(0) + I(1) + I(2) + \\cdots + I(10)\n&= 10 + 10(1.5) + \\left(\\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5} + \\cdots + \\sin\\frac{10\\pi}{5}\\right)\n## Show the sine terms add to zero\n$\\sin(\\pi + x) = -\\sin x$, so $\\sin\\frac{6\\pi}{5} = -\\sin\\frac{\\pi}{5}$, and similarly for the pairs 2 and 7, 3 and 8, 4 and 9.\nThe remaining terms are $\\sin\\pi = 0$ and $\\sin 2\\pi = 0$, so all the sine terms sum to 0.\n## Evaluate r(10)\nr(10) &= 10 + 15 + 0\n&= 25\n## Compare the two cylinder volumes\nV_1 &= \\pi (10)^2 h\nV_2 &= \\pi (25)^2 h\nV_2 &= kV_1\n\\pi (25)^2 h &= k\\pi (10)^2 h\n## Divide by \\pi h and solve for k\n625 &= 100k\nk &= 6.25\nANSWER: r(10) = 25 \\text{ cm}, \\; k = 6.25"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Use the binomial formula with n = 11, p = 0.15\nExactly 1 left footed means 1 success and 10 failures, in any of 11 positions.\nP(1) &= \\binom{11}{1}(0.15)^1(0.85)^{10}\n&= 11 \\times 0.15 \\times 0.85^{10}\n&= 0.3248\\ldots\n&\\approx 0.325\nANSWER: 0.325"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Split into cases\nLess than three left footed means 0, 1 or 2 left footed.\nP(<3) &= P(0) + P(1) + P(2)\n## Find P(0)\nP(0) &= 0.85^{11}\n&= 0.1673\\ldots\n## Find P(1)\nP(1) &= 11 \\times 0.15 \\times 0.85^{10}\n&= 0.3248\\ldots\n## Find P(2)\n$\\binom{11}{2} = 55$.\nP(2) &= 55 \\times 0.15^2 \\times 0.85^9\n&= 0.2866\\ldots\n## Add the three probabilities\nP(<3) &= 0.1673 + 0.3248 + 0.2866\n&= 0.7787\\ldots\n&\\approx 0.78\nANSWER: 0.78"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Set up the remaining ten players\nThe goalkeeper is left footed, so 10 players remain, each left footed with probability 0.15.\nAt least 8 right footed out of 10 means 0, 1 or 2 left footed.\n## Find P(0), P(1) and P(2)\nP(0) &= 0.85^{10}\n&= 0.1969\\ldots\nP(1) &= \\binom{10}{1}(0.15)(0.85)^9\n&= 0.3474\\ldots\nP(2) &= \\binom{10}{2}(0.15)^2(0.85)^8\n&= 0.2759\\ldots\n## Add the three probabilities\nP(\\text{at least 8 right}) &= 0.1969 + 0.3474 + 0.2759\n&= 0.8202\n&\\approx 0.82\nANSWER: 0.82"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Substitute the point into the line\n3k - 6\\left(\\frac{2k+2}{3}\\right) + 2 &= 0\n## Simplify and solve\n3k - 2(2k+2) + 2 &= 0\n3k - 4k - 4 + 2 &= 0\n-k - 2 &= 0\nk &= -2\nANSWER: k = -2"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Write s in terms of t using the first line\ns - 2t - 8 &= 0\ns &= 2t + 8\n## Use the distance from a point to a line formula\nDistance from $(s,t)$ to $4x + 3y + 6 = 0$ is 1.\n\\frac{|4s + 3t + 6|}{\\sqrt{4^2 + 3^2}} &= 1\n## Substitute s = 2t + 8\n\\frac{|4(2t+8) + 3t + 6|}{\\sqrt{4^2+3^2}} &= 1\n\\frac{|8t + 32 + 3t + 6|}{5} &= 1\n|11t + 38| &= 5\n## Remove the modulus and solve for t\n11t + 38 &= 5 \\text{ or } 11t + 38 = -5\nt &= -3 \\text{ or } t = -\\frac{43}{11}\n## Find s for each value of t\ns &= 2(-3) + 8\n&= 2\ns &= 2\\left(-\\frac{43}{11}\\right) + 8\n&= \\frac{2}{11}\nANSWER: (s, t) = (2, -3) \\text{ or } \\left(\\frac{2}{11}, -\\frac{43}{11}\\right)"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q2#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find |AC| with the distance formula\n|AC| &= \\sqrt{(16-4)^2 + (11-2)^2}\n&= \\sqrt{12^2 + 9^2}\n&= \\sqrt{225}\n&= 15\n## Use the ratio 2 : 1\n$|AD| : |DC| = 2 : 1$, so $|AD|$ is $\\frac{2}{3}$ of $|AC|$.\n|AD| &= \\frac{2}{3}(15)\n&= 10\nANSWER: |AD| = 10"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q2#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find B\n$[AB]$ is horizontal, so $B$ has the same $y$-coordinate as $A$, and the $x$-coordinate is 33 more.\nB &= (4 + 33,\\ 2)\n&= (37,\\ 2)\n## Find the ratio for E\n$[DE]$ is parallel to $[AB]$, so $|CE| : |EB| = |CD| : |DA| = 1 : 2$.\n## Find the x-coordinate of E\nx_E &= \\frac{2(16) + 1(37)}{2+1}\n&= \\frac{69}{3}\n&= 23\n## Find the y-coordinate of E\ny_E &= \\frac{2(11) + 1(2)}{2+1}\n&= \\frac{24}{3}\n&= 8\nANSWER: B(37, 2), \\; E(23, 8)"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Find half the chord, |DB|\nA line from the centre to the midpoint of a chord is perpendicular to the chord, so $CDB$ is a right-angled triangle with the right angle at $D$.\n|DB| &= \\frac{1}{2} \\times 4\\sqrt{3}\n&= 2\\sqrt{3}\n## Find |CD| using the distance formula\n|CD|^2 &= (3-1)^2 + (2-(-2))^2\n&= 2^2 + 4^2\n&= 20\n|CD| &= \\sqrt{20}\n&= 2\\sqrt{5}\n## Use Pythagoras in triangle CDB\nThe radius is $r = |CB|$, the hypotenuse of the right-angled triangle.\nr^2 &= |CD|^2 + |DB|^2\n&= (2\\sqrt{5})^2 + (2\\sqrt{3})^2\n&= 20 + 12\n&= 32\n## Take the square root and simplify\nr &= \\sqrt{32}\n&= \\sqrt{16 \\times 2}\n&= 4\\sqrt{2}\nANSWER: r = 4\\sqrt{2}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q3#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Write circle c in centre-radius form\nGroup the $x$ terms and the $y$ terms and move the constant across.\nx^2 + y^2 + 4x - 2y - 95 &= 0\nx^2 + 4x + y^2 - 2y &= 95\nComplete the square: add $(4 \\div 2)^2 = 4$ and $(2 \\div 2)^2 = 1$ to both sides.\nx^2 + 4x + 4 + y^2 - 2y + 1 &= 95 + 4 + 1\n(x+2)^2 + (y-1)^2 &= 100\n## Read off both centres and radii\nCircle $c$ has centre $(-2, 1)$ and radius $\\sqrt{100} = 10$.\nCircle $s$, $(x-7)^2 + (y-13)^2 = 25$, has centre $(7, 13)$ and radius $5$.\n## Compare the sum of the radii with the distance between centres\nr_1 + r_2 &= 10 + 5\n&= 15\nd &= \\sqrt{(7-(-2))^2 + (13-1)^2}\n&= \\sqrt{9^2 + 12^2}\n&= \\sqrt{81 + 144}\n&= \\sqrt{225}\n&= 15\nThe distance between the centres equals $r_1 + r_2$, so the circles touch externally.\nANSWER: d = r_1 + r_2 = 15 \\text{, so the circles touch externally}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q3#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the line through the two centres\nAny circle touching $c$ externally at the same point as $s$ has its centre on the line through the centres of $c$ and $s$, beyond $s$.\nm &= \\frac{13 - 1}{7 - (-2)}\n&= \\frac{12}{9}\n&= \\frac{4}{3}\ny - 1 &= \\frac{4}{3}(x + 2)\n## Pick a point on that line on the far side of s\nThe touching point is $(4, 9)$, so the centre must have $x > 4$. Choose $x = 10$.\ny - 1 &= \\frac{4}{3}(10 + 2)\ny - 1 &= 16\ny &= 17\nANSWER: (10, 17)"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q4#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths16"
+  ],
+  "marks": 10,
+  "solution": "## Start from the compound angle formula\nWe are given in the tables: $\\cos(A+B) = \\cos A \\cos B - \\sin A \\sin B$.\nThis is true for any angles, so put $B = A$.\n## Replace B with A\n\\cos(A + A) &= \\cos A \\cos A - \\sin A \\sin A\n\\cos 2A &= \\cos^2 A - \\sin^2 A\nANSWER: \\cos 2A = \\cos^2 A - \\sin^2 A"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q4#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Use the formula with A = θ/2\nIf $A = \\frac{\\theta}{2}$ then $2A = \\theta$.\n\\cos\\theta &= \\cos^2\\frac{\\theta}{2} - \\sin^2\\frac{\\theta}{2}\n## Find cos(θ/2) from a right-angled triangle\n$\\sin\\frac{\\theta}{2} = \\frac{1}{\\sqrt{5}}$: opposite side $1$, hypotenuse $\\sqrt{5}$.\n\\text{adjacent}^2 &= (\\sqrt{5})^2 - 1^2\n&= 4\nSo the adjacent side is $2$. Since $0 \\le \\frac{\\theta}{2} \\le \\frac{\\pi}{2}$, the cosine is positive.\n\\cos\\frac{\\theta}{2} &= \\frac{2}{\\sqrt{5}}\n## Substitute into the formula\n\\cos\\theta &= \\left(\\frac{2}{\\sqrt{5}}\\right)^2 - \\left(\\frac{1}{\\sqrt{5}}\\right)^2\n&= \\frac{4}{5} - \\frac{1}{5}\n&= \\frac{3}{5}\nANSWER: \\cos\\theta = \\frac{3}{5}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Find the reference angle\n$\\tan$ of the angle is $-\\sqrt{3}$. Ignoring the minus sign, $\\tan 60^\\circ = \\sqrt{3}$, so the reference angle is $60^\\circ$.\n## Find the range for B + 150°\n0^\\circ &\\le B \\le 360^\\circ\n0^\\circ + 150^\\circ &\\le B + 150^\\circ \\le 360^\\circ + 150^\\circ\n## Find angles between 150° and 510° with tan = −√3\nTangent is negative in the 2nd and 4th quadrants: $120^\\circ$, $300^\\circ$, $480^\\circ$. Only $300^\\circ$ and $480^\\circ$ lie in the range.\nB + 150^\\circ &= 300^\\circ\nB &= 150^\\circ\nB + 150^\\circ &= 480^\\circ\nB &= 330^\\circ\nANSWER: B = 150^\\circ \\text{ or } B = 330^\\circ"
+ }
+]

@@ -1,0 +1,385 @@
+[
+ {
+  "part": "maths-pp-2024-ordinary-p2-q5#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Find the mean\nThe normal curve is symmetric, so the mean is halfway between 7.2 and 8.4.\n\\mu &= \\frac{7.2 + 8.4}{2}\n&= \\frac{15.6}{2}\n&= 7.8\n## Find the standard deviation\nThe empirical rule says 68% lies within one standard deviation of the mean, so 8.4 is $\\mu + \\sigma$.\n\\sigma &= 8.4 - 7.8\n&= 0.6\n## Find the left-hand missing value\nThe left box is two standard deviations below the mean.\n\\mu - 2\\sigma &= 7.8 - 1.2\n&= 6.6\n## Find the right-hand missing value\nThe right box is two standard deviations above the mean.\n\\mu + 2\\sigma &= 7.8 + 1.2\n&= 9.0\nANSWER: 6.6,\\ 7.8,\\ 9.0"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q5#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Place 9 hours on the curve\nFrom part (i), 9.0 is $\\mu + 2\\sigma$.\n## Use the 95% rule\nThe empirical rule says 95% lies between $\\mu - 2\\sigma$ and $\\mu + 2\\sigma$.\n100 - 95 &= 5\n5% lies outside, split equally between the two tails.\n\\frac{5}{2} &= 2.5\n## Find the percentage below 9.0\nBelow 9.0 is the left tail (2.5%) plus the middle 95%.\n2.5 + 95 &= 97.5\n## Find the percentage of at least 9 hours\n100 - 97.5 &= 2.5\nANSWER: 2.5\\%"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q5#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## (i) Use the complement\nNot getting enough sleep is the opposite of getting enough, so the probabilities add to 1.\nP(\\text{not enough}) &= 1 - 0.1\n&= 0.9\n## (ii) List what must happen\nNot enough on night 1, not enough on night 2, then enough on night 3 (Tuesday).\n## (ii) Multiply the probabilities\nThe nights are independent, so multiply.\nP &= 0.9 \\times 0.9 \\times 0.1\n&= 0.81 \\times 0.1\n&= 0.081\nANSWER: \\text{(i) } 0.9, \\quad \\text{(ii) } 0.081"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q6#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 15,
+  "solution": "## Set up the bisector of angle Y\nPlace the compass point on $Y$ and draw one arc that crosses both sides $YX$ and $YZ$.\n## Find a second point on the bisector from Y\nKeep the same compass width. Put the point on each place where the arc crossed a side, and draw two small arcs that cross each other inside the triangle.\nDraw a straight line from $Y$ through the crossing point. This is the bisector of $\\angle XYZ$.\n## Bisect a second angle in the same way\nRepeat at $Z$: one arc across $ZY$ and $ZX$, then two crossing arcs, then a line from $Z$ through the crossing point.\nTwo bisectors are enough, because all three meet at the same point.\n## Mark the incentre\nThe incentre $I$ is where the bisectors cross. It is the centre of the circle that touches all three sides.\nANSWER: \\text{Incentre } I = \\text{ meeting point of the angle bisectors}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q6#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find the scale factor\n$[BC]$ maps to $[DE]$, so the scale factor is image length divided by object length.\nk &= \\frac{|DE|}{|BC|}\n&= \\frac{14}{4}\n&= 3.5\n## Find |AE|\n$[AE]$ is the image of $[AC]$, so multiply $|AC|$ by $k$.\n|AE| &= k \\times |AC|\n&= 3.5 \\times 6\n&= 21\n## Subtract |AC| to get |CE|\n$C$ lies on $[AE]$, so $|CE| = |AE| - |AC|$.\n|CE| &= |AE| - |AC|\n&= 21 - 6\n&= 15\nANSWER: |CE| = 15"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q6#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Square the scale factor for areas\nAreas change by $k^2$, where $k = 3.5$.\nk^2 &= 3.5^2\n&= 12.25\n## Multiply the area of ABC\n\\text{Area } ADE &= 11 \\times k^2\n&= 11 \\times 12.25\n&= 134.75\nANSWER: 134.75 \\text{ units}^2"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Put the stem for each value in its row\nThe stem is the tens (and hundreds) part. The leaf is the units digit.\nSort the leaves in each row so they increase moving away from the stem.\n## Fill in the before-exercise leaves (left side)\n$60, 65, 67, 68$ go in row 6 as leaves $0, 5, 7, 8$.\n$70, 76, 77$ go in row 7 as leaves $0, 6, 7$.\n$83, 88, 89$ go in row 8 as leaves $3, 8, 9$.\n## Fill in the after-exercise leaves (right side)\n$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9.\n$102, 108$ in row 10 as leaves $2, 8$. $113, 118$ in row 11 as leaves $3, 8$.\nANSWER: \\text{Completed back-to-back plot (see diagram)}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q7#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Add the heart rates after exercise\n\\sum x &= 71+81+79+108+91+83+102+113+118+87\n&= 933\n## Divide by the number of values to find the mean\nThere are $n = 10$ values.\n\\mu &= \\frac{\\sum x}{n}\n&= \\frac{933}{10}\n&= 93.3\n## Square each value and add\n\\sum x^2 &= 71^2+81^2+79^2+108^2+91^2+83^2+102^2+113^2+118^2+87^2\n&= 5041+6561+6241+11664+8281+6889+10404+12769+13924+7569\n&= 89343\n## Find the variance\nUse $\\sigma^2 = \\frac{\\sum x^2}{n} - \\mu^2$.\n\\sigma^2 &= \\frac{89343}{10} - 93.3^2\n&= 8934.3 - 8704.89\n&= 229.41\n## Take the square root\n\\sigma &= \\sqrt{229.41}\n&= 15.146\n&= 15.1\nANSWER: \\text{Mean} = 93.3, \\quad \\sigma = 15.1"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q7#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Compare the spread on each side of the plot\nBefore exercise the rates run from $60$ to $89$, a range of $29$.\nAfter exercise they run from $71$ to $118$, a range of $47$.\nThe after-exercise values are more spread out, so the standard deviation increased.\nANSWER: \\text{Increased: there is a greater spread in the data}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q7#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Read the scatter plot\nAs the heart rate before exercise goes up, the heart rate after exercise goes up.\nThe points lie close to a rising straight line, so there is strong positive correlation.\nA strong positive value is $0.9$. ($0.3$ would be a weak scatter, and the negatives would slope downwards).\nANSWER: r = 0.9 \\text{ (strong positive correlation)}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q7#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Use the margin of error formula\nMargin of error for a proportion is $\\frac{1}{\\sqrt{n}}$, with $n = 355$.\n\\text{Margin} &= \\frac{1}{\\sqrt{n}}\n&= \\frac{1}{\\sqrt{355}}\n&= 0.05307\n&= 5.307\\%\nTo 1 decimal place this is $5.3\\%$.\nANSWER: \\text{Margin of error} = 5.3\\%"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q7#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Divide the number who finished under 25 minutes by the sample size\n\\hat p &= \\frac{96}{355}\n&= 0.27042\n## Convert to a percentage\n\\text{Percentage} &= 0.27042 \\times 100\n&= 27.042\\%\n&= 27\\%\nANSWER: 27\\%"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q7#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Form the interval around the sample percentage\nThe claim is tested using $\\hat p \\pm \\frac{1}{\\sqrt{n}}$, with $\\hat p = 27\\%$ and margin $5.3\\%$.\n## Find the lower limit\n27 - 5.3 &= 21.7\n## Find the upper limit\n27 + 5.3 &= 32.3\n## Compare 24% with the interval\n21.7 &\\le p \\le 32.3\n$24\\%$ lies between $21.7\\%$ and $32.3\\%$.\n## State the conclusion and reason\nConclusion: there is no evidence of a change. The percentage of runners finishing under 25 minutes is not shown to have changed since 2019.\nReason: $24\\%$ is inside the interval, so it is within the confidence interval.\nANSWER: \\text{No change: } 24\\% \\text{ lies within } 21.7\\% \\le p \\le 32.3\\%"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use the Theorem of Pythagoras\n$[GF]$ is the hypotenuse of the right-angled triangle $FHG$.\n|GF|^2 &= |GH|^2 + |FH|^2\n&= 1.4^2 + 3^2\n&= 1.96 + 9\n&= 10.96\n## Take the square root\n|GF| &= \\sqrt{10.96}\n&= 3.3106\n&= 3.3\nANSWER: |GF| = 3.3 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use tangent in triangle FHG\nOpposite side to the angle is $|FH| = 3$ and the adjacent side is $|GH| = 1.4$.\n\\tan(\\angle FGH) &= \\frac{3}{1.4}\n## Find the angle\n\\angle FGH &= \\tan^{-1}\\left(\\frac{3}{1.4}\\right)\n&= 64.98^\\circ\n&= 65^\\circ\nANSWER: \\angle FGH = 65^\\circ"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q8#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the height of K\n$K$ is halfway up the sign, so $|KH| = 3 \\div 2 = 1.5$.\n## Find the angle KGH\n\\tan(\\angle KGH) &= \\frac{1.5}{1.4}\n\\angle KGH &= \\tan^{-1}\\left(\\frac{1.5}{1.4}\\right)\n&= 46.97^\\circ\n&= 47^\\circ\n## Compare with half of angle FGH\n\\tfrac{1}{2}(65^\\circ) &= 32.5^\\circ\n$47^\\circ \\ne 32.5^\\circ$, so Mairead is not correct.\nANSWER: \\text{No: } \\angle KGH = 47^\\circ \\ne 32.5^\\circ"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Write down the sine rule\n$\\theta$ is opposite $|AB| = 12$, and the angle $37^\\circ$ is opposite $|AC| = 10$.\n\\frac{12}{\\sin\\theta} &= \\frac{10}{\\sin 37^\\circ}\n## Rearrange for sin θ\n\\sin\\theta &= \\frac{12\\sin 37^\\circ}{10}\n&= 0.72218\n## Find the angle\nIn the diagram $\\theta$ is acute, so take the calculator value.\n\\theta &= \\sin^{-1}(0.72218)\n&= 46.23^\\circ\n&= 46^\\circ\nANSWER: \\theta = 46^\\circ"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Write down the cosine rule\nAngle $110^\\circ$ is between $|CF|$ and $|EF|$, opposite $|CE|$.\n|CE|^2 &= 22^2 + 11.8^2 - 2(22)(11.8)\\cos 110^\\circ\n## Work out each part\n|CE|^2 &= 484 + 139.24 - 519.2\\cos 110^\\circ\n&= 623.24 - 519.2(-0.34202)\n&= 623.24 + 177.58\n&= 800.82\n## Take the square root\n|CE| &= \\sqrt{800.82}\n&= 28.30\n&= 28.3\nANSWER: |CE| = 28.3 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q8#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the area of triangle CEF\nUse $\\text{Area} = \\frac{1}{2}ab\\sin C$ with the sides $22$ and $11.8$ and the angle $110^\\circ$ between them.\n\\text{Area } CEF &= \\tfrac{1}{2}(22)(11.8)\\sin 110^\\circ\n&= 129.8 \\sin 110^\\circ\n&= 121.97\n## Double it, since CDEF is symmetrical about CE\n\\text{Total area} &= 2 \\times 121.97\n&= 243.94\n&= 244\nANSWER: 244 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q9#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Count the choices for part (i)\nMultiply the number of options for each choice.\n7 \\times 4 \\times 2 &= 56\n## Add an extra flavour\n8 \\times 4 \\times 2 &= 64\n## Add an extra topping\n7 \\times 5 \\times 2 &= 70\n## Compare\n$70 > 64$, so an extra topping gives more choices.\nANSWER: \\text{(i) } 56 \\text{ choices; (ii) extra topping}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find how many bought vanilla or a cone\n$45$ bought neither, so the rest bought at least one.\n100 - 45 &= 55\n## Find the overlap\nAdding $V$ and $C$ counts the overlap twice, so subtract the total.\n42 + 37 - 55 &= 24\n## Find the parts of each circle outside the overlap\n42 - 24 &= 18\n37 - 24 &= 13\nANSWER: V \\text{ only } 18, \\; V \\cap C = 24, \\; C \\text{ only } 13"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Pick out a cone with a flavour other than vanilla\nThis is the part of $C$ outside $V$: $13$ customers out of $100$.\nP &= \\frac{13}{100}\n&= 0.13\nANSWER: \\frac{13}{100}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q9#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write down the expected value formula\nMultiply each sales figure by its probability and add.\n## Substitute\nE &= 150(0.3) + 200(0.45) + 450(0.25)\n&= 45 + 90 + 112.5\n&= 247.5\nANSWER: \\text{€}247.50"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q9#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle theta\nThe angles around the centre add to $360^\\circ$.\n\\theta &= 360 - 2(70)\n&= 360 - 140\n&= 220\n## Find the arc length\nThe arc is $\\frac{\\theta}{360}$ of the circumference $2\\pi r$.\ns &= \\frac{220}{360} \\times 2\\pi(20)\n&= 76.79\n&= 76.8\nANSWER: \\theta = 220^\\circ, \\quad s = 76.8 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q9#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use tangent in the right-angled triangle\nThe side $l$ is opposite the $70^\\circ$ angle and the radius $20$ is adjacent.\n\\tan 70^\\circ &= \\frac{l}{20}\n## Make l the subject\nl &= 20\\tan 70^\\circ\n&= 54.95\n&= 55\nANSWER: l = 55 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q10#(a)(i), (ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Convert miles to km\n121 \\text{ miles} &= 121 \\times 1.61\n&= 194.81 \\text{ km}\n## Convert one hour to seconds\n1 \\text{ hour} &= 60 \\times 60\n&= 3600 \\text{ seconds}\n## Change km to metres\n$1 \\text{ km} = 1000 \\text{ m}$.\n194.81 \\text{ km} &= 194.81 \\times 1000\n&= 194\\,810 \\text{ m}\n## Divide the metres by the seconds\n\\text{Speed} &= \\frac{194\\,810}{3600}\n&= 54.1139\n&= 54.11\nANSWER: 54.11 \\text{ m/s}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q10#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use the surface area of a sphere\n\\text{SA} &= 4\\pi r^2\n&= 4\\pi(3.27)^2\n&= 4\\pi(10.6929)\n&= 134.3709\n&= 134.37\nANSWER: 134.37 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q10#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the volume of the whole ball\nVolume of a sphere is $\\frac{4}{3}\\pi r^3$, with $r_1 = 3.4$.\nV_1 &= \\tfrac{4}{3}\\pi(3.4)^3\n&= 164.636\n## Find the volume of the air-filled centre\nV_2 &= \\tfrac{4}{3}\\pi(3.1)^3\n&= 124.788\n## Subtract to get the rubber layer\n\\text{Rubber} &= V_1 - V_2\n&= 164.636 - 124.788\n&= 39.848\n&= 39.85\nANSWER: 39.85 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q10#(d)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Show the height\nEach ball has diameter $2 \\times 3.4 = 6.8$ cm, and three balls sit one on top of the other.\nh &= 3 \\times 6.8\n&= 20.4\nSo $h = 20.4$ cm.\n## Find the volume of the cylinder\nThe cylinder radius equals the ball radius $3.4$.\nV &= \\pi r^2 h\n&= \\pi(3.4)^2(20.4)\n&= 740.86\n&= 741\nANSWER: V = 741 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q10#(d)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Find the dimensions of the box\nThe box is as wide as one ball, $6.8$ cm, in both directions. Its height is $20.4$ cm.\n## Find the area of each type of face\nThe top and bottom faces are $6.8 \\times 6.8$.\n6.8 \\times 6.8 &= 46.24\nThe four side faces are $6.8 \\times 20.4$.\n6.8 \\times 20.4 &= 138.72\n## Add up all six faces\n\\text{SA} &= 2(46.24) + 4(138.72)\n&= 92.48 + 554.88\n&= 647.36\nANSWER: 647.36 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Rewrite the modulus as a double inequality\n$|A| \\le k$ means $A$ is between $-k$ and $k$.\n|x-3| &\\le 12\n-12 \\le x - 3 &\\le 12\n## Add 3 to every part\n-12 + 3 \\le x - 3 + 3 &\\le 12 + 3\n-9 \\le x &\\le 15\nANSWER: -9 \\le x \\le 15"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Split the first bracket into its two terms\nMultiply the whole second bracket by $4x$, then by $-10\\sqrt{x}$.\n(4x - 10\\sqrt{x})(2x + 5\\sqrt{x} - 7) &= 4x(2x + 5\\sqrt{x} - 7) - 10\\sqrt{x}(2x + 5\\sqrt{x} - 7)\n## Multiply out $4x$ times the second bracket\n4x(2x + 5\\sqrt{x} - 7) &= 4x \\times 2x + 4x \\times 5\\sqrt{x} - 4x \\times 7\n&= 8x^2 + 20x\\sqrt{x} - 28x\n## Multiply out $-10\\sqrt{x}$ times the second bracket\n-10\\sqrt{x}(2x + 5\\sqrt{x} - 7) &= -20x\\sqrt{x} - 50\\sqrt{x}\\sqrt{x} + 70\\sqrt{x}\n$\\sqrt{x} \\times \\sqrt{x} = x$, so $-50\\sqrt{x}\\sqrt{x} = -50x$.\n&= -20x\\sqrt{x} - 50x + 70\\sqrt{x}\n## Add the two results and collect like terms\n&= 8x^2 + 20x\\sqrt{x} - 28x - 20x\\sqrt{x} - 50x + 70\\sqrt{x}\nThe $x\\sqrt{x}$ terms cancel, and $-28x - 50x = -78x$.\n&= 8x^2 - 78x + 70\\sqrt{x}\nANSWER: 8x^2 - 78x + 70\\sqrt{x}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths1",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Divide the cubic by the factor $(2x+3)$\nSince $(2x+3)$ is a factor, $4x^3 - 12x^2 - 7x + 30 = (2x+3)(ax^2 + bx + c)$.\nThe $x^3$ term: $2x \\times ax^2 = 4x^3$, so $a = 2$.\nThe constant term: $3 \\times c = 30$, so $c = 10$.\n4x^3 - 12x^2 - 7x + 30 &= (2x+3)(2x^2 + bx + 10)\n## Expand the right-hand side\n(2x+3)(2x^2 + bx + 10) &= 4x^3 + 2bx^2 + 20x + 6x^2 + 3bx + 30\n&= 4x^3 + (2b + 6)x^2 + (20 + 3b)x + 30\n## Compare the $x$ terms to find $b$\nThe $x$ term on the left of the cubic is $-7x$.\n20 + 3b &= -7\n3b &= -27\nb &= -9\n## Write the quadratic factor and set it to zero\n2x^2 - 9x + 10 &= 0\n## Factorise the quadratic\nFind two numbers with product $2 \\times 10 = 20$ and sum $-9$: they are $-4$ and $-5$.\n2x^2 - 9x + 10 &= 2x^2 - 4x - 5x + 10\n&= 2x(x - 2) - 5(x - 2)\n&= (2x - 5)(x - 2)\n## Solve the given factor $2x + 3 = 0$\n2x + 3 &= 0\nx &= -\\frac{3}{2}\n## Solve $2x - 5 = 0$\n2x - 5 &= 0\nx &= \\frac{5}{2}\n## Solve $x - 2 = 0$\nx - 2 &= 0\nx &= 2\nANSWER: x = -\\frac{3}{2}, \\quad x = \\frac{5}{2}, \\quad x = 2"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q2#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term separately\nThe derivative of the constant $6$ is $0$, and the derivative of $x^2$ is $2x$.\nFor $\\sin 4x$ use the chain rule: the derivative of $\\sin u$ is $\\cos u$, times the derivative of $u = 4x$, which is $4$.\nf'(x) &= 0 + 2x + 4\\cos 4x\n&= 2x + 4\\cos 4x\nANSWER: f'(x) = 2x + 4\\cos 4x"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q2#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of the tangent at $x = 0$\nThe slope of the tangent is $f'(0)$.\nf'(0) &= 2(0) + 4\\cos(4(0))\n&= 0 + 4\\cos 0\n$\\cos 0 = 1$.\n&= 4\n## Find the $y$-value at $x = 0$\nf(0) &= 6 + (0)^2 + \\sin(4(0))\n&= 6 + 0 + 0\n&= 6\nSo the point of contact is $(0, 6)$.\n## Substitute into $y - y_1 = m(x - x_1)$\ny - 6 &= 4(x - 0)\ny - 6 &= 4x\n## Rearrange into the form $ax + by + c = 0$\nMove $y$ and $-6$ to the other side so the right-hand side is $0$.\n0 &= 4x - y + 6\n4x - y + 6 &= 0\nANSWER: 4x - y + 6 = 0"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q2#(b)(i), (ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## (i) Find the slope of each segment\n$g'(x)$ is the slope of the graph. Find the slope of each line segment.\n\\text{First segment, } (0,0) \\text{ to } (3,1): \\quad m &= \\frac{1 - 0}{3 - 0}\n&= \\frac{1}{3}\n\\text{Second segment, } (3,1) \\text{ to } (4,4): \\quad m &= \\frac{4 - 1}{4 - 3}\n&= 3\nOnly the second segment has slope greater than $2$, so $g'(x) > 2$ for $3 < x \\le 4$.\n## (ii) Find $g(3)$ from the graph\nGo up from $x = 3$ to the graph at $(3, 1)$ (blue dashed line on the diagram). So $g(3) = 1$.\ng(3) &= 1\n## (ii) Find $g(1)$, the value of $g(g(3))$\nNow find $g(1)$. Go across from $(3, 1)$ to the line $y = x$ at $(1, 1)$. Go straight down to the graph at $(1, \\frac{1}{3})$, then across to the $y$-axis.\nThe first segment passes through $(0,0)$ with slope $\\frac{1}{3}$, so it has equation $y = \\frac{1}{3}x$.\ng(g(3)) &= g(1)\n&= \\frac{1}{3}(1)\n&= \\frac{1}{3}\n## (iii) Swap the $x$ and $y$ coordinates of key points\nReflecting in $y = x$ swaps each point $(x, y)$ to $(y, x)$.\n(0, 0) &\\to (0, 0)\n(3, 1) &\\to (1, 3)\n(4, 4) &\\to (4, 4)\n## (iii) Draw and label $g^{-1}$\nJoin $(0,0)$ to $(1,3)$, then $(1,3)$ to $(4,4)$, with straight lines.\nLabel the new graph $y = g^{-1}(x)$ (blue in the diagram).\nANSWER: 3 < x \\le 4, \\quad g(g(3)) = \\frac{1}{3}, \\quad g^{-1} \\text{ joins } (0,0),\\ (1,3),\\ (4,4)"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Identify the outer and inner functions\n$f(x) = u^{28}$ where $u = 3x^5 - 4$. Use the chain rule: $f'(x) = 28u^{27} \\times \\frac{du}{dx}$.\n## Differentiate the inner function\n\\frac{du}{dx} &= 15x^4\n## Multiply the two results together\nf'(x) &= 28(3x^5 - 4)^{27} \\times 15x^4\nANSWER: f'(x) = 28(3x^5 - 4)^{27}(15x^4)"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Choose the quotient rule parts\nu &= 3, \\quad u' = 0\nv &= 2x - 7, \\quad v' = 2\n## Substitute into the quotient rule\ng'(x) &= \\frac{v u' - u v'}{v^2}\n&= \\frac{(2x-7)(0) - (3)(2)}{(2x-7)^2}\n## Simplify the numerator\n&= \\frac{0 - 6}{(2x-7)^2}\n&= -\\frac{6}{(2x-7)^2}\n## Explain why there are no turning points\nA turning point needs $g'(x) = 0$, but the numerator is $-6$, which is never $0$.\nAlso $(2x-7)^2 > 0$ for every $x$ in the domain ($x \\ne 3.5$), so $g'(x) < 0$ always.\nSo $g'(x) \\ne 0$ for all $x$ in the domain: $g$ has no local maximum or minimum points.\nANSWER: g'(x) = -\\frac{6}{(2x-7)^2} < 0 \\text{ for all } x \\text{ in the domain, so there are no turning points}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q3#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths17"
+  ],
+  "marks": 15,
+  "solution": "## Integrate $e^{5x}$\n$\\int e^{ax}\\,dx = \\frac{1}{a}e^{ax}$, so with $a = 5$:\n\\int_0^k e^{5x}\\,dx &= \\left[\\frac{1}{5}e^{5x}\\right]_0^k\n## Substitute the limits and set equal to 9\n\\frac{1}{5}e^{5k} - \\frac{1}{5}e^{5(0)} &= 9\n$e^0 = 1$.\n\\frac{1}{5}e^{5k} - \\frac{1}{5} &= 9\n## Isolate $e^{5k}$\nMultiply both sides by 5.\ne^{5k} - 1 &= 45\nAdd 1 to both sides.\ne^{5k} &= 46\n## Take natural logs and solve for $k$\n5k &= \\ln 46\nk &= \\frac{\\ln 46}{5}\nThis is in the form $\\frac{\\ln a}{b}$ with $a = 46$, $b = 5$.\nANSWER: k = \\frac{\\ln 46}{5}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Multiply top and bottom by the conjugate of the denominator\nThe conjugate of $4-5i$ is $4+5i$. Multiplying top and bottom by it does not change the value.\n\\frac{2+3i}{4-5i} &= \\frac{2+3i}{4-5i}\\times\\frac{4+5i}{4+5i}\n&= \\frac{(2+3i)(4+5i)}{(4-5i)(4+5i)}\n## Expand the top line\n(2+3i)(4+5i) &= 8 + 10i + 12i + 15i^2\n&= 8 + 22i + 15i^2\nUse $i^2=-1$.\n&= 8 + 22i - 15\n&= -7 + 22i\n## Expand the bottom line\n(4-5i)(4+5i) &= 16 + 20i - 20i - 25i^2\n&= 16 - 25i^2\n&= 16 + 25\n&= 41\n## Write in the form a + bi\n\\frac{2+3i}{4-5i} &= \\frac{-7+22i}{41}\n&= -\\frac{7}{41} + \\frac{22}{41}i\nANSWER: -\\frac{7}{41} + \\frac{22}{41}i"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths10",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Apply de Moivre's theorem to the left side\nDe Moivre's theorem: $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$.\n(\\cos\\theta + i\\sin\\theta)^2 &= \\cos 2\\theta + i\\sin 2\\theta\n## Expand the square directly\n(\\cos\\theta + i\\sin\\theta)^2 &= (\\cos\\theta + i\\sin\\theta)(\\cos\\theta + i\\sin\\theta)\n&= \\cos^2\\theta + 2i\\cos\\theta\\sin\\theta + i^2\\sin^2\\theta\n## Replace i squared with minus 1\n(\\cos\\theta + i\\sin\\theta)^2 &= \\cos^2\\theta + 2i\\cos\\theta\\sin\\theta - \\sin^2\\theta\n&= (\\cos^2\\theta - \\sin^2\\theta) + i(2\\cos\\theta\\sin\\theta)\n## Equate the real parts\nBoth expressions equal $(\\cos\\theta + i\\sin\\theta)^2$, so their real parts are equal.\n\\cos 2\\theta + i\\sin 2\\theta &= (\\cos^2\\theta - \\sin^2\\theta) + i(2\\cos\\theta\\sin\\theta)\n\\cos 2\\theta &= \\cos^2\\theta - \\sin^2\\theta\nANSWER: \\cos 2\\theta = \\cos^2\\theta - \\sin^2\\theta"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q4#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 15,
+  "solution": "## Write -64i in polar form\n$-64i$ lies on the negative imaginary axis, 64 units below the origin.\nr &= 64\n\\theta &= \\frac{3\\pi}{2}\nz^6 &= 64\\left(\\cos\\left(\\frac{3\\pi}{2} + 2n\\pi\\right) + i\\sin\\left(\\frac{3\\pi}{2} + 2n\\pi\\right)\\right)\n## Take the sixth root using de Moivre's theorem\nRaise to the power $\\tfrac16$: divide each angle by 6 and take the sixth root of the modulus.\nz &= 64^{\\frac{1}{6}}\\left[\\cos\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right) + i\\sin\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right)\\right]\nThe sixth root of $64$ is $2$, because $2^6 = 64$.\n&= 2\\left[\\cos\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right) + i\\sin\\left(\\frac{3\\pi/2 + 2n\\pi}{6}\\right)\\right]\nDivide each term of the angle by $6$.\n\\frac{3\\pi/2 + 2n\\pi}{6} &= \\frac{3\\pi}{12} + \\frac{2n\\pi}{6}\n&= \\frac{\\pi}{4} + \\frac{n\\pi}{3}\nz &= 2\\left[\\cos\\left(\\frac{\\pi}{4} + \\frac{n\\pi}{3}\\right) + i\\sin\\left(\\frac{\\pi}{4} + \\frac{n\\pi}{3}\\right)\\right]\n## First root: n = 0\nz &= 2\\left(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}\\right)\n&= 2\\left(\\frac{\\sqrt{2}}{2} + \\frac{\\sqrt{2}}{2}i\\right)\n&= \\sqrt{2} + \\sqrt{2}i\n## Second root: n = 3\n\\frac{\\pi}{4} + \\frac{3\\pi}{3} &= \\frac{\\pi}{4} + \\pi\n&= \\frac{5\\pi}{4}\nz &= 2\\left(\\cos\\frac{5\\pi}{4} + i\\sin\\frac{5\\pi}{4}\\right)\n$\\cos\\frac{5\\pi}{4} = -\\frac{\\sqrt{2}}{2}$ and $\\sin\\frac{5\\pi}{4} = -\\frac{\\sqrt{2}}{2}$.\n&= 2\\left(-\\frac{\\sqrt{2}}{2} - \\frac{\\sqrt{2}}{2}i\\right)\n&= -\\sqrt{2} - \\sqrt{2}i\nANSWER: z = \\sqrt{2} + \\sqrt{2}i \\quad\\text{and}\\quad z = -\\sqrt{2} - \\sqrt{2}i"
+ }
+]

@@ -1,0 +1,329 @@
+[
+ {
+  "part": "maths-pp-2018-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 20,
+  "solution": "## Find the angles whose cosine is $-\\frac{\\sqrt{3}}{2}$\n$\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$, so the reference angle is $30^\\circ$.\nCosine is negative in the 2nd and 3rd quadrants.\n2x &= 180 - 30\n&= 150\n2x &= 180 + 30\n&= 210\n## Allow for $0^\\circ \\le x \\le 360^\\circ$\nIf $0 \\le x \\le 360$ then $0 \\le 2x \\le 720$, so add $360^\\circ$ to get the next turn.\n2x &= 150 + 360\n&= 510\n2x &= 210 + 360\n&= 570\n## Divide each value of $2x$ by 2\nx &= \\frac{150}{2}\n&= 75\nx &= \\frac{210}{2}\n&= 105\nx &= \\frac{510}{2}\n&= 255\nx &= \\frac{570}{2}\n&= 285\nANSWER: x = 75^\\circ,\\ 105^\\circ,\\ 255^\\circ,\\ 285^\\circ"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Use a right-angled triangle for $\\cos A = \\frac{y}{2}$\nCosine is adjacent over hypotenuse, so take adjacent $= y$ and hypotenuse $= 2$.\nLet the opposite side be $z$. By Pythagoras:\n2^2 &= y^2 + z^2\nz^2 &= 4 - y^2\nz &= \\sqrt{4 - y^2}\n## Write $\\sin A$\nSine is opposite over hypotenuse.\n\\sin A &= \\frac{\\sqrt{4 - y^2}}{2}\n## Use the double angle formula\n$\\sin 2A = 2\\sin A\\cos A$.\n\\sin 2A &= 2\\left(\\frac{\\sqrt{4 - y^2}}{2}\\right)\\left(\\frac{y}{2}\\right)\n&= \\frac{y\\sqrt{4 - y^2}}{2}\nANSWER: \\sin 2A = \\frac{y\\sqrt{4 - y^2}}{2}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Substitute $A(-2, 1)$ into the equation of $m$\nA point is on a line if its coordinates satisfy the equation.\n2x + 3y + 1 &= 2(-2) + 3(1) + 1\n&= -4 + 3 + 1\n&= 0\n## State the conclusion\nThe left side equals $0$, so $A$ is on $m$.\nANSWER: 2(-2) + 3(1) + 1 = 0"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of $m$ (and $n$)\n2x + 3y + 1 &= 0\n3y &= -2x - 1\ny &= -\\frac{2}{3}x - \\frac{1}{3}\nSo the slope of $m$ and $n$ is $-\\frac{2}{3}$.\n## Find the slope of $AB$\n$AB$ is perpendicular to $m$, so its slope is the negative reciprocal.\n\\text{slope of } AB &= \\frac{3}{2}\n## Find the equation of $AB$ through $A(-2, 1)$\ny - 1 &= \\frac{3}{2}(x - (-2))\n2(y - 1) &= 3(x + 2)\n2y - 2 &= 3x + 6\n0 &= 3x - 2y + 8\n## Solve $AB$ and $n$ together to find $B$\n3x - 2y + 8 &= 0\n2x + 3y - 51 &= 0\nMultiply the first equation by 3 and the second by 2.\n9x - 6y + 24 &= 0\n4x + 6y - 102 &= 0\nAdd the two equations.\n13x - 78 &= 0\nx &= 6\n## Find $y$ by substituting $x = 6$ into $3x - 2y + 8 = 0$\n3(6) - 2y + 8 &= 0\n26 - 2y &= 0\ny &= 13\nANSWER: B = (6, 13)"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q5#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Relate $|AB|$ to the radius of $s$\nThe radii to $A$ and $B$ are perpendicular to the parallel tangents, so both centres lie on $AB$.\nLet the radius of $s$ be $r$. Then $t$ has radius $3r$, and $AB$ is the diameter of $s$ plus the diameter of $t$.\n|AB| &= 2r + 6r\n&= 8r\n## Find $|AB|$ using $A(-2, 1)$ and $B(6, 13)$\n|AB| &= \\sqrt{(6 + 2)^2 + (13 - 1)^2}\n&= \\sqrt{64 + 144}\n&= \\sqrt{208}\n&= 4\\sqrt{13}\n## Find the radius of $s$\n8r &= 4\\sqrt{13}\nr &= \\frac{\\sqrt{13}}{2}\n## Find the centre of $s$\nThe centre of $s$ is $\\frac{1}{8}$ of the way from $A$ to $B$, because $r = \\frac{1}{8}|AB|$.\nh &= -2 + \\frac{1}{8}(8)\n&= -1\nk &= 1 + \\frac{1}{8}(12)\n&= 2.5\n## Write the equation of $s$\nUse $(x - h)^2 + (y - k)^2 = r^2$ with $r^2 = \\frac{13}{4}$.\n(x + 1)^2 + (y - 2.5)^2 &= \\left(\\frac{\\sqrt{13}}{2}\\right)^2\n&= \\frac{13}{4}\nANSWER: (x + 1)^2 + (y - 2.5)^2 = \\frac{13}{4}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Draw the diagram\nDraw triangle $ABC$. Draw $l$ parallel to $BC$, meeting $[AB]$ at $X$ and $[AC]$ at $Y$. The faint lines are the construction below.\n## State what is given\nTriangle $ABC$, and a line $l$ parallel to $[BC]$ cutting $[AB]$ at $X$ in the ratio $|AX| : |XB| = s : t$, where $s, t \\in \\mathbb{N}$.\n## State what is to be proved\n$l$ cuts $[AC]$ at $Y$ with $|AY| : |YC| = s : t$.\n## Construction\nDivide $[AB]$ into $s + t$ equal parts, with $s$ of them along $[AX]$ and $t$ of them along $[XB]$.\nThrough each point of division draw a line parallel to $[BC]$.\n## Proof\nBy a previous theorem, three or more parallel lines that cut off equal segments on one transversal cut off equal segments on every transversal.\nSo the parallel lines cut $[AC]$ into $s + t$ equal parts, with $s$ of them forming $[AY]$ and $t$ of them forming $[YC]$.\nLet $k$ be the length of one of these equal parts.\n|AY| : |YC| &= ks : kt\n&= s : t\nANSWER: |AY| : |YC| = s : t"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find $|XY|$ by Pythagoras in the right-angled triangle $AXY$\n|XY|^2 &= 4^2 + 3^2\n&= 25\n|XY| &= 5\n## Find $|ZC|$\n$XY \\parallel BC$ and $XZ \\parallel AC$, so $XYCZ$ is a parallelogram and opposite sides are equal.\n|ZC| &= |XY| = 5\n## Use the parallel lines to find $|BZ|$\n$XZ \\parallel AC$ cuts $[BA]$ and $[BC]$ in the same ratio, so $|BZ| : |ZC| = |BX| : |XA|$.\nSince $|AX| : |XB| = 1 : 2$ and $|AX| = 4$, we get $|XB| = 8$.\n\\frac{|BZ|}{5} &= \\frac{8}{4}\n|BZ| &= 10\nANSWER: |BZ| = 10 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the volume of sphere A\nThe volume of a sphere is $V = \\frac{4}{3}\\pi r^3$, and $r = 3$.\nV_A &= \\frac{4}{3}\\pi (3)^3\n&= \\frac{4}{3}\\pi (27)\n&= 36\\pi\n## Recognise a geometric sequence\nEach volume is $1.75$ times the one before, so the volumes form a GP with $a = 36\\pi$, $r = 1.75$ and $n = 5$.\nS_n &= \\frac{a(1-r^n)}{1-r}\n## Substitute into the sum formula\nS_5 &= \\frac{36\\pi(1 - 1.75^5)}{1 - 1.75}\n&= \\frac{36\\pi(1 - 16.4130859375)}{-0.75}\n&= \\frac{36\\pi(-15.4130859375)}{-0.75}\n&\\approx 2324.24\n&\\approx 2324\nANSWER: 2324 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius of sphere E\nThe surface area of a sphere is $4\\pi r^2$.\n4\\pi r^2 &= 503\nr^2 &= \\frac{503}{4\\pi}\nr &= \\sqrt{\\frac{503}{4\\pi}}\n&\\approx 6.33\n## Subtract the sphere from the total height\nThe sphere sits on top of the bar, so its diameter $2r$ is part of the $1.2$ m. Convert: $1.2 \\text{ m} = 120 \\text{ cm}$.\n\\text{Bar E} &= 120 - 2(6.33)\n&= 120 - 12.66\n&= 107.34\n&\\approx 107.3\nANSWER: 107.3 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the height of bar A\nA bar is a cylinder, so $V = \\pi r^2 h$ with $r = 1$.\n\\pi (1)^2 h &= 71.3\\pi\n\\pi h &= 71.3\\pi\nh &= 71.3\n## Find the common difference\nThe heights form an arithmetic sequence with $a = 71.3$ and, from part (i), $T_5 = 107.3$.\nT_5 &= a + 4d\n71.3 + 4d &= 107.3\n4d &= 36\nd &= 9\n## Add 9 each time\nB &= 71.3 + 9 = 80.3\nC &= 80.3 + 9 = 89.3\nD &= 89.3 + 9 = 98.3\nE &= 98.3 + 9 = 107.3\nANSWER: A = 71.3,\\ B = 80.3,\\ C = 89.3,\\ D = 98.3,\\ E = 107.3 \\text{ (cm)}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Count the divisions\n9 bars in a row have 8 equal gaps between them. The walls are $1.5$ m $= 150$ cm apart.\n## Subtract everything that is not a gap\nSubtract the two 20 cm spaces at the walls and the width of the 9 bars (each 2 cm wide).\n150 - 20 - 20 - 9(2) &= 150 - 40 - 18\n&= 92\n## Divide by the 8 gaps\n8g &= 92\ng &= \\frac{92}{8}\n&= 11.5\nANSWER: 11.5 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the radius of sphere B\nThe volume of sphere B is $1.75$ times that of sphere A.\nV_B &= 1.75 \\times 36\\pi\n&= 63\\pi\n\\frac{4}{3}\\pi r_B^3 &= 63\\pi\nr_B^3 &= 47.25\nr_B &= \\sqrt[3]{47.25}\n&\\approx 3.62\n## Find the horizontal gap between the centres\nEach bar has radius 1 cm and the gap between bars is $11.5$ cm (part (c)).\n|XY| &= 1 + 11.5 + 1\n&= 13.5\n## Find the vertical gap between the centres\nBar B is 9 cm taller than bar A. Each centre is a radius above its bar, so the difference is $9 + r_B - r_A$.\n|ZW| &= 9 + 3.62 - 3\n&= 9.62\n## Find the distance between the centres\nUse Pythagoras in the right-angled triangle.\n|TW| &= \\sqrt{13.5^2 + 9.62^2}\n&= \\sqrt{182.25 + 92.5444}\n&= \\sqrt{274.7944}\n&\\approx 16.577\n## Subtract the two radii\nThe rod runs between the surfaces, so remove $r_A$ and $r_B$ from the centre distance.\n\\text{Rod} &= 16.577 - 3 - 3.62\n&= 9.957\n&\\approx 10.0\nANSWER: 10.0 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24",
+   "maths23"
+  ],
+  "marks": 20,
+  "solution": "## Find the standard error of the sample mean\nFor samples of size $n$, the sample mean has mean $4.64$ and standard error $\\frac{\\sigma}{\\sqrt{n}}$.\n\\frac{\\sigma}{\\sqrt{n}} &= \\frac{0.12}{\\sqrt{10}}\n&\\approx 0.03795\n## Convert 4.6 to a z-score\nz_1 &= \\frac{4.6 - 4.64}{0.12/\\sqrt{10}}\n&= \\frac{-0.04}{0.03795}\n&\\approx -1.05\n## Convert 4.7 to a z-score\nz_2 &= \\frac{4.7 - 4.64}{0.12/\\sqrt{10}}\n&= \\frac{0.06}{0.03795}\n&\\approx 1.58\n## Use the normal tables\nP(4.6 < \\bar{x} < 4.7) &= P(-1.05 < z < 1.58)\nFrom the tables, $P(z < 1.58) = 0.9429$ and $P(z < 1.05) = 0.8531$, so $P(z < -1.05) = 1 - 0.8531$.\n&= 0.9429 - (1 - 0.8531)\n&= 0.9429 - 0.1469\n&= 0.796\nANSWER: 0.796"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 15,
+  "solution": "## Find the sample proportion\n\\hat{p} &= \\frac{324}{400}\n&= 0.81\n## Write the 95% confidence interval\nThe interval is $\\hat{p} \\pm 1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$, with $\\hat{p} = 0.81$ and $n = 400$.\n\\text{margin} &= 1.96\\sqrt{\\frac{0.81 \\times 0.19}{400}}\n&= 1.96\\sqrt{0.00038475}\n&\\approx 1.96 \\times 0.019615\n&\\approx 0.038445\n## Add and subtract the margin\n0.81 - 0.038445 \\le p &\\le 0.81 + 0.038445\n0.771555 \\le p &\\le 0.848445\n0.77 \\le p &\\le 0.85\nANSWER: 0.77 \\le p \\le 0.85"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Statement 1: Always true\nA higher confidence level needs a larger $z$-value, so the margin of error, and the interval, gets wider.\n## Statement 2: Sometimes true\n\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}\n$\\hat{p}(1-\\hat{p})$ increases as $\\hat{p}$ rises towards $0.5$ and then decreases, so the standard error does not always increase.\n## Statement 3: Always true\nWith $n$ fixed, the standard error is the square root of $\\hat{p}(1-\\hat{p})$ divided by $n$, so it rises whenever $\\hat{p}(1-\\hat{p})$ rises.\n## Statement 4: Never true\nIncreasing $n$ makes $\\frac{\\hat{p}(1-\\hat{p})}{n}$ smaller, so the standard error always decreases.\nANSWER: 1\\text{ Always},\\ 2\\text{ Sometimes},\\ 3\\text{ Always},\\ 4\\text{ Never}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q8#(b)(ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate to find the maximum\nLet $M = \\hat{p}(1-\\hat{p})$ and write it as a function of $\\hat{p}$.\nM &= \\hat{p} - \\hat{p}^2\n\\frac{dM}{d\\hat{p}} &= 1 - 2\\hat{p}\n## Set the derivative equal to zero\n1 - 2\\hat{p} &= 0\n2\\hat{p} &= 1\n\\hat{p} &= \\frac{1}{2}\n## Check it is a maximum\n\\frac{d^2M}{d\\hat{p}^2} &= -2\nThe second derivative is negative, so this is a maximum.\n## Find the maximum value\nM_{max} &= \\frac{1}{2} - \\left(\\frac{1}{2}\\right)^2\n&= \\frac{1}{2} - \\frac{1}{4}\n&= \\frac{1}{4}\n## Find the largest radius for n = 800\nThe radius is $1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$, which is largest when $\\hat{p}(1-\\hat{p}) = \\frac{1}{4}$.\nr &= 1.96\\sqrt{\\frac{1/4}{800}}\n&= 1.96\\sqrt{\\frac{1}{3200}}\n&\\approx 1.96 \\times 0.017678\n&\\approx 0.0346\nANSWER: \\tfrac{1}{4}; \\text{ radius} \\approx 0.0346 \\;(3.46\\%)"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Set up the present value of each payment\nThe first payment of $\\text{€}20\\,000$ is paid on the day of retirement. Then 25 more payments follow, each $1\\%$ larger. Each is discounted by $1.024$ per year.\nPV &= 20\\,000 + \\frac{20\\,000(1.01)}{1.024} + \\frac{20\\,000(1.01)^2}{1.024^2} + \\cdots + \\frac{20\\,000(1.01)^{25}}{1.024^{25}}\n## Factor out 20 000\nPV &= 20\\,000\\left[1 + \\frac{1.01}{1.024} + \\left(\\frac{1.01}{1.024}\\right)^2 + \\cdots + \\left(\\frac{1.01}{1.024}\\right)^{25}\\right]\n## Identify the geometric series\nThe terms inside the bracket form a GP. There are 26 terms, from power 0 to power 25.\na &= 1\nr &= \\frac{1.01}{1.024} = \\frac{505}{512}\nn &= 26\n## Use the sum formula\nS_{26} &= \\frac{1\\left(1 - \\left(\\frac{505}{512}\\right)^{26}\\right)}{1 - \\frac{505}{512}}\nPV &= 20\\,000 \\times S_{26}\n&= \\text{€}440\\,132.40\nANSWER: \\text{€}440\\,132.40"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Pick out the triangle COD\nIn triangle $COD$: $|OD| = 10$ is opposite the $15^\\circ$ angle, and $|CD| = 30$ is opposite $\\angle COD$. Let $x = |\\angle COD|$.\n## Use the sine rule\n\\frac{10}{\\sin 15^\\circ} &= \\frac{30}{\\sin x}\n\\sin x &= \\frac{30 \\sin 15^\\circ}{10}\n\\sin x &\\approx 0.77645\n## Take the inverse sine\nThe diagram shows $\\angle COD$ as an acute angle, so use the acute solution.\nx &= \\sin^{-1}(0.77645)\n&\\approx 51^\\circ\nANSWER: |\\angle COD| \\approx 51^\\circ"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q9#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the period\nThe crank returns to the same position after one full turn, so $f$ repeats every $2\\pi$ radians, which is $360^\\circ$.\n## Find the range\nThe largest $|CX|$ is $30$ (when $D$ is at $X$, $\\alpha = 0$). The smallest is $10$ (when $D$ is on the far side, $\\alpha = 180^\\circ$). So $f$ takes every value from $10$ to $30$.\nANSWER: \\text{Period} = 2\\pi\\ (360^\\circ),\\ \\text{Range} = [10, 30]"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q9#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find f(90°)\nWhen $\\alpha = 90^\\circ$, $OD$ is perpendicular to $OC$. Use Pythagoras in triangle $COD$ to find $|OC|$, then subtract the radius $10$ to get $|CX|$.\n|OC| &= \\sqrt{30^2 - 10^2}\n&= \\sqrt{800}\n&\\approx 28.28\nf(90^\\circ) &= 28.28 - 10\n&= 18.28\n## Find f(180°)\nWhen $\\alpha = 180^\\circ$, $C$, $O$ and $D$ lie in a line with $O$ between $C$ and $D$.\n|OC| &= 30 - 10\n&= 20\nf(180^\\circ) &= 20 - 10\n&= 10\n## Use symmetry for the other values\n$\\alpha = 270^\\circ$ mirrors $\\alpha = 90^\\circ$, so $f(270^\\circ) = 18.28$. $\\alpha = 360^\\circ$ is back at the start, so $f(360^\\circ) = 30$.\nANSWER: f(0^\\circ) = 30,\\ f(90^\\circ) = 18.28,\\ f(180^\\circ) = 10,\\ f(270^\\circ) = 18.28,\\ f(360^\\circ) = 30"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q9#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Set up the axes\nPut $\\alpha$ from $0^\\circ$ to $360^\\circ$ on the horizontal axis and $f(\\alpha)$ from $0$ to $30$ on the vertical axis.\n## Plot the five points from the table\nPlot $(0^\\circ, 30)$, $(90^\\circ, 18.28)$, $(180^\\circ, 10)$, $(270^\\circ, 18.28)$ and $(360^\\circ, 30)$.\n## Join them with a smooth curve\nThe curve starts at a maximum, falls to a minimum of $10$ at $180^\\circ$ and rises again, like an ordinary cosine wave.\nANSWER: \\text{Smooth curve through } (0^\\circ,30),\\ (90^\\circ,18.28),\\ (180^\\circ,10),\\ (270^\\circ,18.28),\\ (360^\\circ,30)"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q9#(b)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Look at how steep the graph is\nA 1 degree change in $\\alpha$ moves $C$ most where the graph of $f$ is steepest.\n## Compare the three diagrams\nIn Diagram 1, $D$ is near $\\alpha = 0^\\circ$, where the graph is almost flat (a maximum), so $C$ hardly moves. In Diagram 3, the graph is also flatter at $D$, so $C$ moves less than in Diagram 2.\nIn Diagram 2, $D$ is between these, on the steep part of the graph, so $C$ moves most. Equivalently, the closer $\\angle CDO$ is to a right angle, the more a small turn of the crank pushes or pulls the rod.\nANSWER: \\text{Diagram 2}"
+ },
+ {
+  "part": "maths-pp-2018-higher-p2-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Apply the cosine rule in triangle ABO\n$|AO| = 31 + r$ and $|BO| = r$. The $10^\\circ$ angle at $A$ is opposite $BO$.\nr^2 &= 36^2 + (31 + r)^2 - 2(36)(31 + r)\\cos 10^\\circ\n## Expand and simplify\nr^2 &= 1296 + 961 + 62r + r^2 - 2232\\cos 10^\\circ - 72r\\cos 10^\\circ\n0 &= 2257 + 62r - 2232\\cos 10^\\circ - 72r\\cos 10^\\circ\n0 &\\approx 2257 + 62r - 2198.09 - 70.906r\n0 &\\approx 58.91 - 8.906r\n## Solve for r\n8.906r &= 58.91\nr &= \\frac{58.91}{8.906}\n&\\approx 6.61\n&\\approx 7\nANSWER: r \\approx 7 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Contract A: find 2% of the sales\n0.02 \\times 400000 &= 8000\n&= 8000\n## Contract A: add the salary\n35000 + 8000 &= 43000\n## Contract B: find 3% of the sales\n0.03 \\times 400000 &= 12000\n&= 12000\n## Contract B: add the salary\n30000 + 12000 &= 42000\nANSWER: \\text{A: }\\text{€}43000,\\ \\text{B: }\\text{€}42000"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Take the salary off her earnings\nHer commission is what is left after the $\\text{€}35000$ salary.\n50000 - 35000 &= 15000\n## Commission is 2% of her sales\n0.02 x &= 15000\nx &= 15000 \\div 0.02\nx &= 750000\nANSWER: \\text{€}750000"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Let x be the total sales and set the earnings equal\nEarnings are salary plus commission.\n35000 + 0.02x &= 30000 + 0.03x\n## Subtract 30000 from both sides\n5000 + 0.02x &= 0.03x\n## Subtract 0.02x from both sides\n5000 &= 0.01x\n## Divide both sides by 0.01\nx &= 5000 \\div 0.01\nx &= 500000\nANSWER: \\text{€}500000"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 15,
+  "solution": "## Write z₃ as a subtraction\nz_3 &= z_1 - z_2\nz_3 &= (-2 + 3i) - (-3 - 2i)\n## Remove the brackets\nSubtracting $-3 - 2i$ changes both signs.\n&= -2 + 3i + 3 + 2i\n## Collect real and imaginary parts\n&= 1 + 5i\n## Plot each point as (real part, imaginary part)\n$z_1 = (-2, 3)$, $z_2 = (-3, -2)$ and $z_3 = (1, 5)$. Label each point.\nANSWER: z_3 = 1 + 5i"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Find the modulus of z₁\n$|a + bi| = \\sqrt{a^2 + b^2}$.\n|z_1| &= \\sqrt{(-2)^2 + 3^2}\n&= \\sqrt{4 + 9}\n&= \\sqrt{13}\n## Find the modulus of z₂\n|z_2| &= \\sqrt{(-3)^2 + (-2)^2}\n&= \\sqrt{9 + 4}\n&= \\sqrt{13}\n## Find the modulus of z₃\n|z_3| &= \\sqrt{1^2 + 5^2}\n&= \\sqrt{1 + 25}\n&= \\sqrt{26}\n## Compare the two sides\n|z_1| + |z_2| &= \\sqrt{13} + \\sqrt{13}\n&\\approx 7.21\n|z_3| &= \\sqrt{26} \\approx 5.10\n$7.21 \\ne 5.10$, so $\\sqrt{13} + \\sqrt{13} \\ne \\sqrt{26}$.\nANSWER: |z_3| \\ne |z_1| + |z_2|"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Write z₄ as a fraction\nz_4 &= \\frac{-2 + 3i}{-3 - 2i}\n## Multiply top and bottom by the conjugate of the bottom\nThe conjugate of $-3 - 2i$ is $-3 + 2i$.\nz_4 &= \\frac{(-2 + 3i)(-3 + 2i)}{(-3 - 2i)(-3 + 2i)}\n## Expand the top\n(-2 + 3i)(-3 + 2i) &= 6 - 4i - 9i + 6i^2\n&= 6 - 13i - 6\n&= -13i\n## Expand the bottom\n(-3 - 2i)(-3 + 2i) &= 9 - 6i + 6i - 4i^2\n&= 9 + 4\n&= 13\n## Divide\nz_4 &= \\frac{-13i}{13}\n&= -i\nANSWER: z_4 = 0 - i"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Identify a, b and c\n$2x^2 - 7x - 3 = 0$ has $a = 2$, $b = -7$, $c = -3$.\n## Write the quadratic formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n## Substitute a, b and c\nx &= \\frac{-(-7) \\pm \\sqrt{(-7)^2 - 4(2)(-3)}}{2(2)}\n## Simplify under the root and the bottom\nx &= \\frac{7 \\pm \\sqrt{49 + 24}}{4}\nx &= \\frac{7 \\pm \\sqrt{73}}{4}\n## Work out each root to 2 decimal places\nx &= \\frac{7 + \\sqrt{73}}{4} \\approx 3.89\nx &= \\frac{7 - \\sqrt{73}}{4} \\approx -0.39\nANSWER: x = 3.89 \\text{ or } x = -0.39"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Label the equations\n2a + 3b &= 15 \\quad (1)\n5a + b &= -8 \\quad (2)\n## Make the b terms cancel\nMultiply (1) by $-1$ and (2) by $3$.\n-2a - 3b &= -15 \\quad (3)\n15a + 3b &= -24 \\quad (4)\n## Add (3) and (4)\n13a &= -39\n## Divide both sides by 13\na &= -3\n## Substitute a = -3 into (2)\n5(-3) + b &= -8\n-15 + b &= -8\nb &= 7\n## Check in (1)\n2(-3) + 3(7) &= -6 + 21 = 15\nANSWER: a = -3,\\ b = 7"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Count the grey tiles in each stage\nStage 1 has $2 \\times 2 = 4$ grey tiles, stage 2 has $3 \\times 3 = 9$, stage 3 has $4 \\times 4 = 16$.\nThe grey tiles form a square with $n + 1$ tiles on each side.\n## Draw stage 4\nGrey: a $5 \\times 5$ square, so $5^2 = 25$ tiles.\nWhite: one tile on top of the right-hand column and one beside the bottom row.\nANSWER: \\text{Stage 4: } 5 \\times 5 \\text{ grey tiles, plus 2 white tiles}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Grey tiles\nGrey tiles $= (n + 1)^2$.\n(2 + 1)^2 &= 9\n(3 + 1)^2 &= 16\n(4 + 1)^2 &= 25\n(5 + 1)^2 &= 36\n## White tiles\nEvery stage has exactly 2 white tiles.\n## Totals\nTotal = grey + white.\n9 + 2 &= 11\n16 + 2 &= 18\n25 + 2 &= 27\n36 + 2 &= 38\nANSWER: \\text{Grey: } 9, 16, 25, 36;\\ \\text{White: } 2, 2, 2, 2, 2;\\ \\text{Total: } 11, 18, 27, 38"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q4#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write the total as grey plus white\nT_n &= (n + 1)^2 + 2\n## Expand the bracket\n(n + 1)^2 + 2 &= n^2 + 2n + 1 + 2\n&= n^2 + 2n + 3\n## Compare with n² + bn + c\n$n^2 + bn + c = n^2 + 2n + 3$, so $b = 2$ and $c = 3$.\nANSWER: b = 2,\\ c = 3"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p1-q4#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Set the total equal to 443\nn^2 + 2n + 3 &= 443\n## Subtract 443 from both sides\nn^2 + 2n - 440 &= 0\n## Factorise\nFind two numbers that multiply to $-440$ and add to $2$: $22$ and $-20$.\n(n + 22)(n - 20) &= 0\n## Solve for n\nn &= -22 \\text{ or } n = 20\nA stage number cannot be negative, so reject $n = -22$.\nANSWER: n = 20"
+ }
+]

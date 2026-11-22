@@ -1,0 +1,287 @@
+[
+ {
+  "part": "maths-pp-2026-ordinary-p2-q5#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Find the mode\nThe mode is the value that appears most often. In 8, 11, 15, 17, 20, 20, 23 the number 20 appears twice and every other number once.\n\\text{Mode} &= 20\n## Find the range\nRange is the largest value minus the smallest value.\n\\text{Range} &= 23 - 8\n&= 15\nANSWER: \\text{Mode} = 20, \\quad \\text{Range} = 15"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q5#(a)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## (ii) Find the median of the 7 numbers\nThe numbers are already in order. The median is the middle (4th) value of 7.\n\\text{Median} &= 17\n## (iii) Decide what happens with 8 numbers\nWith 8 numbers the median is the mean of the 4th and 5th values. For a median of 16, those two values must add to 32.\n## (iii) Try Seán guessing 15\nThe ordered list is 8, 11, 15, 15, 17, 20, 20, 23. The 4th value is 15 and the 5th is 17.\n\\text{Median} &= \\frac{15 + 17}{2}\n&= \\frac{32}{2}\n&= 16\n## (iii) Check other guesses\nIf the guess $g$ is between 15 and 17, the 4th and 5th values are $g$ and 17, so the median is $\\frac{g + 17}{2}$, which is more than 16. For example, a guess of 16 gives $\\frac{16 + 17}{2} = 16.5$, which is too big.\nIf the guess is 17 or more, the 4th value is 17, so the median is at least 17.\nSo the guess must be 15 or less. Tick \"Less than or equal to 15\".\nANSWER: \\text{(ii) } 17 \\qquad \\text{(iii) Seán's guess} \\le 15"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find each probability from its angle\nA full turn is $360^\\circ$. The lower half is $180^\\circ$ and the 60° and 120° sectors fill the upper half.\nP(\\text{win } X) &= \\frac{60}{360}\n&= \\frac{1}{6}\nP(\\text{win } 19) &= \\frac{120}{360}\n&= \\frac{1}{3}\nP(\\text{lose } 20) &= \\frac{180}{360}\n&= \\frac{1}{2}\n## Set the expected value equal to 0\nExpected value is the sum of each points value times its probability. Losing 20 points counts as $-20$.\n19 \\times \\tfrac{1}{3} + (-20) \\times \\tfrac{1}{2} + X \\times \\tfrac{1}{6} &= 0\n\\tfrac{19}{3} - 10 + \\tfrac{X}{6} &= 0\n## Multiply every term by 6 and solve\n38 - 60 + X &= 0\nX - 22 &= 0\nX &= 22\nANSWER: X = 22"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q6#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Measure the two lengths with a ruler\nPlace the ruler along [AB] and read off the length in cm.\n|AB| &= 4 \\text{ cm}\nPlace the ruler along [EF] and read off the length in cm.\n|EF| &= 10 \\text{ cm}\nANSWER: |AB| = 4 \\text{ cm}, \\quad |EF| = 10 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q6#(a)(ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15",
+   "maths16"
+  ],
+  "marks": 10,
+  "solution": "## Write the scale factor as a ratio of lengths\nScale factor is the enlarged length divided by the original length.\n\\text{scale factor} &= \\frac{|EF|}{|AB|}\n&= \\frac{10}{4}\n## Divide to get the scale factor\n&= 2.5\n## Draw the first line through H and D\nThe centre of enlargement lies on the line joining a point to its image.\n$H$ is the image of $D$, so draw a line from $H$ through $D$ and extend it down to $[EF]$.\n## Mark the centre of enlargement K\nThe line from $H$ through $D$ meets $[EF]$ at $K$. This is the centre of enlargement.\nCheck: $|KE| = 2.5 \\times |KA|$, so $K$ is where the lengths from $K$ are in the ratio $2.5 : 1$.\nANSWER: \\text{scale factor} = 2.5"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q6#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Use the fact that both points are on circle u\n$P$ and $Q$ are on the circle $u$, and $O$ is its centre.\nSo $[OP]$ and $[OQ]$ are both radii of $u$, and all radii of a circle are equal.\n|OP| &= |OQ|\nANSWER: |OP| = |OQ| \\text{ (both are radii of } u\\text{)}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q6#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find an angle the triangles share\n$S$ is on $[OP]$ and $R$ is on $[OQ]$, so the angle at $O$ is the same in both triangles.\n|\\angle QOP| &= |\\angle ROS| = 120^\\circ\nReason: common angle.\n## Show both triangles are isosceles\n$|OP| = |OQ|$ (radii of $u$), so $\\triangle OPQ$ is isosceles.\n$|OS| = |OR|$ (radii of $t$), so $\\triangle OSR$ is isosceles.\n## Find the base angles of each triangle\nAngles in a triangle add to $180^\\circ$, and the two base angles of an isosceles triangle are equal.\n|\\angle OPQ| &= \\frac{180^\\circ - 120^\\circ}{2}\n&= 30^\\circ\n|\\angle OSR| &= \\frac{180^\\circ - 120^\\circ}{2}\n&= 30^\\circ\n## State that the triangles are similar\nTwo angles are equal in both triangles: $120^\\circ$ and $30^\\circ$ (the third is also $30^\\circ$), so the triangles are equiangular.\n\\therefore \\quad \\triangle OPQ &\\text{ and } \\triangle OSR \\text{ are similar}\nANSWER: \\triangle OPQ \\text{ and } \\triangle OSR \\text{ are similar}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Compare with the circle centred at the origin\nA circle with centre $(0,0)$ and radius $r$ has equation $x^2 + y^2 = r^2$.\nx^2 + y^2 &= 72\nx^2 + y^2 &= r^2\n## Read off the centre and radius\nThere are no numbers added to $x$ or $y$ inside brackets, so the centre is the origin.\n\\text{Centre} &= (0, 0)\nr^2 &= 72\nr &= \\sqrt{72}\nANSWER: \\text{Centre } (0,0), \\text{ radius } \\sqrt{72}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q7#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Substitute (−4, 9) into x² + y²\nCompare $x^2 + y^2$ with $72$: if it is more than $72$ the point is outside, if less it is inside.\nx^2 + y^2 &= (-4)^2 + (9)^2\n&= 16 + 81\n&= 97\n## Compare with 72\n97 &> 72\n$97$ is greater than $r^2 = 72$, so the point is outside the circle. Tick \"outside $c$\".\nANSWER: \\text{Outside } c"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q7#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of AB\nSlope is $\\frac{y_2 - y_1}{x_2 - x_1}$ with $A(-4,9)$ and $B(0,12)$.\nm &= \\frac{12 - 9}{0 - (-4)}\n&= \\frac{3}{4}\n## Substitute the slope and point A into the line formula\nThe line formula is $y - y_1 = m(x - x_1)$.\ny - 9 &= \\frac{3}{4}(x - (-4))\ny - 9 &= \\frac{3}{4}(x + 4)\n## Clear the fraction\nMultiply both sides by $4$.\n4(y - 9) &= 3(x + 4)\n## Expand and write in the form ax + by + c = 0\n4y - 36 &= 3x + 12\n0 &= 3x - 4y + 48\n3x - 4y + 48 &= 0\nANSWER: 3x - 4y + 48 = 0"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q7#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8",
+   "maths5"
+  ],
+  "marks": 5,
+  "solution": "## Write x in terms of y from the line\nx + y &= 12\nx &= 12 - y\n## Substitute into the circle\nx^2 + y^2 &= 72\n(12 - y)^2 + y^2 &= 72\n## Expand and collect terms\n144 - 24y + y^2 + y^2 &= 72\n2y^2 - 24y + 144 &= 72\nSubtract $72$ from both sides.\n2y^2 - 24y + 72 &= 0\nDivide every term by $2$.\ny^2 - 12y + 36 &= 0\n## Factorise and solve\n(y - 6)^2 &= 0\ny &= 6\n## Find x and state the conclusion\nx &= 12 - 6\n&= 6\nThere is only one solution, $(6, 6)$, so the line touches the circle at exactly one point. The line $l$ is a tangent to $c$.\nANSWER: l \\text{ meets } c \\text{ at one point only, } (6,6), \\text{ so } l \\text{ is a tangent}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q7#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Write the equation of the circle s\nA circle with centre $(h, k)$ and radius $r$ has equation $(x-h)^2 + (y-k)^2 = r^2$.\n(x - 5)^2 + (y - (-10))^2 &= 10^2\n(x - 5)^2 + (y + 10)^2 &= 10^2\n(x - 5)^2 + (y + 10)^2 &= 100\n## Plot the centre\nMark the centre $(5, -10)$ on the diagram.\n## Plot four points 10 units from the centre\nGo $10$ units right, left, up and down from the centre.\n\\text{Points: } & (15, -10), (-5, -10), (5, 0), (5, -20)\n## Draw the circle through these points\nDraw a smooth circle through the four points. It touches the $x$-axis at $(5, 0)$ and the bottom of the grid at $(5, -20)$.\nANSWER: (x - 5)^2 + (y + 10)^2 = 100"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q7#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the highest point of circle u\n$u$ has centre $(-5, 0)$ and radius $10$, so its top is $10$ units above the centre.\ny_{\\text{top of } u} &= 0 + 10 = 10\n## Find the lowest point of circle t\n$t$ has centre $(0, 25)$ and radius $10$, so its bottom is $10$ units below the centre.\ny_{\\text{bottom of } t} &= 25 - 10 = 15\n## Choose a horizontal line between them\nAny line $y = k$ with $10 < k < 15$ passes between the circles without touching either. Choose $k = 12$.\ny &= 12\nANSWER: y = 12 \\text{ (any } y = k \\text{ with } 10 < k < 15\\text{)}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Write Pythagoras for the right angle at P\nIn the right-angled triangle $SPQ$, $[SQ]$ is the hypotenuse.\n|SQ|^2 &= |SP|^2 + |PQ|^2\n|SQ|^2 &= 25^2 + 60^2\n## Evaluate the squares and add\n|SQ|^2 &= 625 + 3600\n|SQ|^2 &= 4225\n## Take the square root\n|SQ| &= \\sqrt{4225}\n|SQ| &= 65 \\text{ m}\nANSWER: |SQ| = 65 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Choose the ratio from the triangle SRQ\nThe right angle is at $R$. Relative to $\\theta$, $[SR]$ is opposite and $[SQ]$ is the hypotenuse.\n\\sin\\theta &= \\frac{\\text{opposite}}{\\text{hypotenuse}}\n\\sin\\theta &= \\frac{45}{65}\n## Use inverse sine to find the angle\n\\theta &= \\sin^{-1}\\left(\\frac{45}{65}\\right)\n&= 43.813...^\\circ\nRound to 1 decimal place.\n&= 43.8^\\circ\nANSWER: \\theta = 43.8^\\circ"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Write the trapezoidal rule\nThe width of each strip is $h = 0.5$ km. The first and last widths are $0$ because the island comes to a point at each end.\n\\text{Area} &\\approx \\frac{h}{2}\\left[\\text{first} + \\text{last} + 2(\\text{sum of the rest})\\right]\n## Substitute the values\n\\text{Area} &\\approx \\frac{0.5}{2}\\left[0 + 0 + 2(1.2 + 1.5 + 1.3 + 0.9 + 0.8)\\right]\n## Add the middle widths\n&= 0.25\\left[2(5.7)\\right]\n## Multiply out\n&= 0.25(11.4)\n&= 2.85 \\text{ km}^2\nANSWER: 2.85 \\text{ km}^2"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q8#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle WXY\n$XY$ is perpendicular to $AB$, so the angle between $XY$ and $AB$ is $90^\\circ$.\n|\\angle WXY| &= 90^\\circ - 42^\\circ\n&= 48^\\circ\n## Find the angle XWY\nAngles in a triangle add to $180^\\circ$.\n|\\angle XWY| &= 180^\\circ - 65^\\circ - 48^\\circ\n&= 67^\\circ\n## Write the sine rule\nEach side is divided by the sine of the angle opposite it. $[XY]$ is opposite $67^\\circ$ and $[WX]$ is opposite $65^\\circ$.\n\\frac{|XY|}{\\sin 67^\\circ} &= \\frac{122}{\\sin 65^\\circ}\n## Solve for |XY|\nMultiply both sides by $\\sin 67^\\circ$.\n|XY| &= \\frac{122 \\sin 67^\\circ}{\\sin 65^\\circ}\n&= 123.9...\nRound to the nearest metre.\n&= 124 \\text{ m}\nANSWER: |XY| = 124 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q8#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the length of the curved edge\nThe arc is $\\frac{225}{360}$ of the circumference $2\\pi r$, with $r = 50$.\n\\text{Arc} &= \\frac{225}{360} \\times 2 \\times \\pi \\times 50\n&= 196.3495...\n## Add the two straight edges\nThe two straight edges are radii, each $50$ m long.\n\\text{Perimeter} &= 196.3495... + 2(50)\n&= 296.3495...\nRound to the nearest metre.\n&= 296 \\text{ m}\nANSWER: 296 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q8#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write the equation for doubled area\nArea of a sector is $\\frac{225}{360}\\pi r^2$. The new area is twice the old area, where the old radius is $50$ and the new radius is $r$.\n2\\left(\\frac{225}{360}\\right)\\pi(50^2) &= \\left(\\frac{225}{360}\\right)\\pi r^2\n## Cancel the common factor\nDivide both sides by $\\frac{225}{360}\\pi$.\n2(50^2) &= r^2\n2(2500) &= r^2\n5000 &= r^2\n## Take the square root\nr &= \\sqrt{5000}\n&= 70.71...\nRound to 1 decimal place.\n&= 70.7 \\text{ m}\nANSWER: r = 70.7 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Add up the 10 numbers\n\\sum x &= 10 + 5 + 10 + 11 + 10 + 12 + 9 + 10 + 12 + 13\n&= 102\n## Divide by 10 to find the mean\n\\bar{x} &= \\frac{102}{10}\n&= 10.2\n## Subtract the mean from each number and square\nThe standard deviation formula is $\\sigma = \\sqrt{\\frac{\\sum (x - \\bar{x})^2}{n}}$, with $n = 10$.\n\\sum (x-\\bar{x})^2 &= (-0.2)^2 + (-5.2)^2 + (-0.2)^2 + (0.8)^2 + (-0.2)^2 + (1.8)^2 + (-1.2)^2 + (-0.2)^2 + (1.8)^2 + (2.8)^2\n&= 0.04 + 27.04 + 0.04 + 0.64 + 0.04 + 3.24 + 1.44 + 0.04 + 3.24 + 7.84\n&= 43.6\n## Divide by 10 and take the square root\n\\sigma^2 &= \\frac{43.6}{10}\n&= 4.36\n\\sigma &= \\sqrt{4.36}\n&= 2.088...\nRound to 1 decimal place.\n&= 2.1\nANSWER: \\text{Mean} = 10.2, \\quad \\text{standard deviation} = 2.1"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find the cut-off two standard deviations below the mean\nA value more than $2$ standard deviations from the mean is an outlier.\n\\bar{x} - 2\\sigma &= 10.2 - 2(2.1)\n&= 10.2 - 4.2\n&= 6\n## Compare 5 with the cut-off\n5 &< 6\n$5$ is more than $2$ standard deviations below the mean, so tick \"5 is an outlier\".\nANSWER: 5 \\text{ is an outlier}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24",
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Use the Empirical Rule to find the standard deviation\nAbout $95\\%$ of values lie within $2$ standard deviations of the mean. So $14.2$ is $2\\sigma$ below the mean $17$.\n17 - 14.2 &= 2.8\n2\\sigma &= 2.8\n\\sigma &= 2.8 \\div 2\n\\sigma &= 1.4\n## Find H, two standard deviations above the mean\nH &= 17 + 2(1.4)\n&= 17 + 2.8\n&= 19.8\nANSWER: \\sigma = 1.4 \\text{ hours}, \\quad H = 19.8 \\text{ hours}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q9#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Write the margin of error formula\nFor a sample of size $n$, the margin of error is $\\frac{1}{\\sqrt{n}}$. Here $n = 540$.\n\\text{Margin of error} &= \\frac{1}{\\sqrt{n}}\n&= \\frac{1}{\\sqrt{540}}\n## Evaluate and convert to a percentage\n&= 0.0430...\nMultiply by $100$ to get a percentage.\n&= 0.0430... \\times 100\n&= 4.3033...\\%\nRound to 1 decimal place.\n&= 4.3\\%\nANSWER: \\text{Margin of error} = 4.3\\%"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q9#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Write the proportion as a fraction and a percentage\n\\text{Percentage} &= \\frac{350}{540} \\times 100\n## Evaluate and round\n&= 64.81...\nRound to the nearest percent.\n&= 65\\%\nANSWER: 65\\%"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q9#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Form the interval around the sample percentage\nThe sample percentage is $65\\%$ and the margin of error is $4.3\\%$. The interval is $65\\% \\pm 4.3\\%$.\n65 - 4.3 &= 60.7\n65 + 4.3 &= 69.3\n## State the interval\n60.7\\% &\\le p \\le 69.3\\%\n## Compare 67% with the interval and conclude\n60.7 &< 67 < 69.3\nConclusion: the percentage has not changed.\nReason: $67\\%$ is between $60.7\\%$ and $69.3\\%$, so we do not reject the claim that it is still $67\\%$.\nANSWER: \\text{The percentage has not changed, since } 67\\% \\text{ lies between } 60.7\\% \\text{ and } 69.3\\%"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q9#(c)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Test a larger sample size\nMargin of error is $\\frac{1}{\\sqrt{n}}$. A larger $n$ makes $\\sqrt{n}$ bigger, so the margin of error gets smaller. Try $n = 1000$.\n\\frac{1}{\\sqrt{1000}} &= 0.0316...\n&= 3.16\\%\n## Compare with 4.3%\n3.16\\% &< 4.3\\%\nThe margin of error is smaller, so the organisers should increase the sample size. Tick \"Increase\".\nANSWER: \\text{Increase the sample size}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q10#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the volume of the cone\nVolume of a cone is $\\frac{1}{3}\\pi r^2 h$ with $r = 2.8$ and $h = 13.4$.\nV_{\\text{cone}} &= \\frac{1}{3}\\pi (2.8)^2 (13.4)\n&= 110.014...\n## Find the volume of the hemisphere\nVolume of a hemisphere is $\\frac{2}{3}\\pi r^3$ with $r = 2.8$.\nV_{\\text{hemisphere}} &= \\frac{2}{3}\\pi (2.8)^3\n&= 45.976...\n## Add the two volumes\nV_{\\text{total}} &= 110.014... + 45.976...\n&= 155.99...\nRound to the nearest cm$^3$.\n&= 156 \\text{ cm}^3\nANSWER: 156 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q10#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write the volume of a cylinder for the new can\nVolume of a cylinder is $\\pi r^2 h$ with $r = 3$ and volume $393.4$.\n\\pi r^2 h &= 393.4\n\\pi (3^2)(h) &= 393.4\n9\\pi h &= 393.4\n## Divide by 9π to find h\nh &= \\frac{393.4}{9\\pi}\n&= 13.91...\nRound to 1 decimal place.\n&= 13.9 \\text{ cm}\nANSWER: h = 13.9 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q10#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the total surface area of the old can\nTotal surface area of a cylinder is $2\\pi r^2 + 2\\pi r h$, with $r = 3.3$ and $h = 11.5$.\n\\text{Old area} &= 2\\pi (3.3)^2 + 2\\pi (3.3)(11.5)\n&= 68.4239... + 238.4469...\n&= 306.8708... \\text{ cm}^2\n## Find the increase in surface area\nThe new can has surface area $318.6$ cm$^2$.\n\\text{Increase} &= 318.6 - 306.8708...\n&= 11.7292...\n## Write the increase as a percentage of the old area\nPercentage increase is the increase divided by the original, times $100$.\n\\% \\text{ increase} &= \\frac{11.7292...}{306.8708...} \\times 100\n&= 3.82...\nRound to 1 decimal place.\n&= 3.8\\%\nANSWER: 3.8\\%"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q10#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Old design: the diameter is 6.6 cm\nEach can needs a $6.6$ cm square of shelf, since its base is a circle of diameter $2 \\times 3.3$. Count whole cans only.\n62 \\div 6.6 &= 9.39...\nSo $9$ cans fit along the length.\n32 \\div 6.6 &= 4.84...\nSo $4$ rows fit in the depth.\n9 \\times 4 &= 36\n## New design: the diameter is 6 cm\nThe base diameter is $2 \\times 3 = 6$ cm.\n62 \\div 6 &= 10.33...\nSo $10$ cans fit along the length.\n32 \\div 6 &= 5.33...\nSo $5$ rows fit in the depth.\n10 \\times 5 &= 50\n## Find how many more cans fit\n50 - 36 &= 14\nANSWER: 14 \\text{ more cans}"
+ },
+ {
+  "part": "maths-pp-2026-ordinary-p2-q10#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the sugar in the 2021 recipe\n$30\\%$ less sugar means $70\\%$ of the original.\n\\text{Sugar in 2021} &= 35 \\times 0.7\n&= 24.5 \\text{ g}\n## Find the sugar in the 2025 recipe\nA further $20\\%$ reduction means $80\\%$ of the 2021 amount.\n\\text{Sugar in 2025} &= 24.5 \\times 0.8\n&= 19.6 \\text{ g per 330 ml}\n## Scale up from 330 ml to 500 ml\nThere is $\\frac{19.6}{330}$ g of sugar in each ml.\n\\text{Sugar in 500 ml} &= 500 \\times \\frac{19.6}{330}\n&= 29.6969...\nRound to 1 decimal place.\n&= 29.7 \\text{ g}\nANSWER: 29.7 \\text{ g}"
+ }
+]

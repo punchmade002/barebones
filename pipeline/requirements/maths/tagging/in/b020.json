@@ -1,0 +1,311 @@
+[
+ {
+  "part": "maths-pp-2020-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find the centre and radius of c\nCompare with $x^2 + y^2 + 2gx + 2fy + c = 0$: here $2g = -4$, $2f = 2$ and $c = -4$.\ng &= -2, \\quad f = 1\nThe centre is $(-g, -f)$, so $A = (2, -1)$.\nr &= \\sqrt{g^2 + f^2 - c}\n&= \\sqrt{4 + 1 + 4}\n&= 3\n## Find the distance from A to B\n|AB|^2 &= (5-2)^2 + (8-(-1))^2\n&= 9 + 81\n&= 90\n## Use Pythagoras in triangle ATB\nA tangent is perpendicular to the radius at the point of contact, so $\\angle ATB = 90^\\circ$.\n|BT|^2 &= |AB|^2 - |AT|^2\n&= 90 - 9\n&= 81\n|BT| &= 9\nANSWER: |BT| = 9"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 15,
+  "solution": "## Write the centre and use the point (1, 4)\nThe centre is on the $x$-axis, so let it be $(h, 0)$. The point $(1,4)$ is $5$ units from the centre.\n(1-h)^2 + (4-0)^2 &= 5^2\n(1-h)^2 + 16 &= 25\n(1-h)^2 &= 9\n## Solve for h\nTake the square root of both sides: $1 - h = 3$ or $1 - h = -3$.\nh &= -2 \\text{ or } h = 4\n## Write both equations\nEach circle has radius $5$, so use $(x-h)^2 + y^2 = 25$.\nc_1: \\quad (x+2)^2 + y^2 &= 25\nc_2: \\quad (x-4)^2 + y^2 &= 25\nANSWER: c_1: (x+2)^2 + y^2 = 25, \\quad c_2: (x-4)^2 + y^2 = 25"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Find the angles in triangle EFH\nThe angle of elevation $52^\\circ$ is $\\angle HFG$, so $\\angle EFH$ is on a straight line with it.\n|\\angle EFH| &= 180^\\circ - 52^\\circ\n&= 128^\\circ\n|\\angle FHE| &= 180^\\circ - 35^\\circ - 128^\\circ\n&= 17^\\circ\n## Use the sine rule to find |HF|\n\\frac{|HF|}{\\sin 35^\\circ} &= \\frac{6}{\\sin 17^\\circ}\n|HF| &= \\frac{6\\sin 35^\\circ}{\\sin 17^\\circ}\n&= 11.771\n## Find the angles in triangle HFG\nThe ground slopes at $5^\\circ$ and $GH$ is vertical, so $\\angle HGF = 90^\\circ + 5^\\circ$.\n|\\angle HGF| &= 95^\\circ\n|\\angle GHF| &= 180^\\circ - 95^\\circ - 52^\\circ\n&= 33^\\circ\n## Use the sine rule to find |FG|\nLet $x = |FG|$.\n\\frac{x}{\\sin 33^\\circ} &= \\frac{11.771}{\\sin 95^\\circ}\nx &= \\frac{11.771 \\sin 33^\\circ}{\\sin 95^\\circ}\n&= 6.44\nANSWER: |FG| = 6.44 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle between OD and OA\n$OA$ and $OB$ are tangents from $O$, so $OD$ bisects $\\angle BOA$. $C$ lies on line $OD$.\n|\\angle DOA| &= \\frac{60^\\circ}{2} = 30^\\circ\n## Find |OD| in terms of r\nThe radius to the point of contact on $OA$ is perpendicular to $OA$, giving a right-angled triangle with hypotenuse $|OD|$.\n\\sin 30^\\circ &= \\frac{r}{|OD|}\n\\frac{1}{2} &= \\frac{r}{|OD|}\n|OD| &= 2r\n## Find the radius of s\n$|OC|$ is $|OD|$ plus the radius $|DC| = r$.\n|OC| &= 2r + r\n&= 3r\n## Compare the areas\n\\text{Area of } c &= \\pi r^2\n\\text{Area of } s &= \\pi (3r)^2 = 9\\pi r^2\nk &= \\frac{9\\pi r^2}{\\pi r^2}\n&= 9\nANSWER: k = 9"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 15,
+  "solution": "## Find the reference angle for tan = 1/√3\nIgnore the minus sign first: $\\tan x = \\frac{1}{\\sqrt3}$ gives the reference angle.\n\\tan\\frac{\\pi}{6} &= \\frac{1}{\\sqrt{3}}\nThe value is negative, so $\\frac{\\theta}{2}$ is in the 2nd or 4th quadrant.\nSince $0 \\le \\theta \\le 4\\pi$, we need $0 \\le \\frac{\\theta}{2} \\le 2\\pi$.\n## Second quadrant angle\n\\frac{\\theta}{2} &= \\pi - \\frac{\\pi}{6}\n&= \\frac{5\\pi}{6}\n\\theta &= 2 \\times \\frac{5\\pi}{6}\n&= \\frac{5\\pi}{3}\n## Fourth quadrant angle\n\\frac{\\theta}{2} &= 2\\pi - \\frac{\\pi}{6}\n&= \\frac{11\\pi}{6}\n\\theta &= 2 \\times \\frac{11\\pi}{6}\n&= \\frac{11\\pi}{3}\nAdding another $2\\pi$ to $\\frac{\\theta}{2}$ goes past $2\\pi$, so there are no more solutions.\nANSWER: \\theta = \\frac{5\\pi}{3},\\ \\frac{11\\pi}{3}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the area of the triangle COA\nShaded area = sector $OAB$ minus triangle $COA$, so triangle $COA$ = sector $-$ 21.\n\\text{Sector} &= \\frac{1}{2}r^2\\theta\n&= \\frac{1}{2}(7)^2(1.2)\n&= 29.4\n\\text{Area of } \\triangle COA &= 29.4 - 21\n&= 8.4\n## Use the area formula to find |CO|\nTriangle $COA$ has sides $|CO|$ and $|OA| = 7$ with angle $1.2$ between them.\n\\frac{1}{2}|CO|(7)\\sin 1.2 &= 8.4\n3.5\\,|CO|\\sin 1.2 &= 8.4\n|CO| &= \\frac{8.4}{3.5\\sin 1.2}\n&= 2.5750\\ldots\n## Subtract from the radius\n$B$ and $O$ are 7 cm apart, and $C$ lies between them.\n|BC| &= 7 - |CO|\n&= 4.4250\\ldots\n&\\approx 4.4\nANSWER: |BC| = 4.4\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q5#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Write the conditional probability formula\nP(B|A) &= \\frac{P(A \\cap B)}{P(A)}\n## Substitute and simplify\nP(B|A) &= \\frac{\\frac{1}{2}}{\\frac{3}{4}}\n&= \\frac{1}{2} \\times \\frac{4}{3}\n&= \\frac{2}{3}\nANSWER: P(B|A) = \\frac{2}{3}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q5#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find P(B) from the union formula\nP(A \\cup B) &= P(A) + P(B) - P(A \\cap B)\n\\frac{11}{12} &= \\frac{3}{4} + P(B) - \\frac{1}{2}\nP(B) &= \\frac{11}{12} - \\frac{3}{4} + \\frac{1}{2}\n&= \\frac{11}{12} - \\frac{9}{12} + \\frac{6}{12}\n&= \\frac{8}{12} = \\frac{2}{3}\n## Test the condition for independence\n$A$ and $B$ are independent if $P(A) \\times P(B) = P(A \\cap B)$.\nP(A) \\times P(B) &= \\frac{3}{4} \\times \\frac{2}{3}\n&= \\frac{6}{12}\n&= \\frac{1}{2}\nThis equals $P(A \\cap B) = \\frac{1}{2}$, so the condition holds.\nConclusion: $A$ and $B$ are independent.\nANSWER: P(B) = \\frac{2}{3},\\ P(A)P(B) = P(A \\cap B) \\Rightarrow \\text{independent}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## List the sums for two spins\nThe spinner shows 1, 1, 2, 3, each with probability 1/4, so there are 16 equally likely outcomes.\nFirst spin 1 (twice as likely): second spin 1, 1, 2, 3 gives sums 2, 2, 3, 4.\nFirst spin 2: second spin 1, 1, 2, 3 gives sums 3, 3, 4, 5.\nFirst spin 3: second spin 1, 1, 2, 3 gives sums 4, 4, 5, 6.\n## Find the remainder on division by 3\nFirst spin 1 (appears in 2 rows): remainders 2, 2, 0, 1.\nFirst spin 2: remainders 0, 0, 1, 2.\nFirst spin 3: remainders 1, 1, 2, 0.\n## Count each remainder and compare\nRemainder 0 (Liam): 5 outcomes out of 16.\nRemainder 1 (Sorcha): 5 outcomes out of 16.\nRemainder 2 (Lee): 6 outcomes out of 16.\nThe chances are not all equal, so the game is not fair.\nANSWER: \\text{No: } P(\\text{Lee}) = \\tfrac{6}{16} \\ne \\tfrac{5}{16}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Probability of VW for each fuel type\nP(D \\cap VW) &= 0.3 \\times 0.7\n&= 0.21\nP(P \\cap VW) &= 0.6 \\times 0.25\n&= 0.15\nP(H \\cap VW) &= 0.1 \\times 0.09\n&= 0.009\n## Add the three cases\nP(VW) &= 0.21 + 0.15 + 0.009\n&= 0.369\nANSWER: P(VW) = 0.369"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q6#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Split into Joe and the other five\nJoe passes: probability $\\frac{1}{4}$.\nExactly 2 of the other 5 pass: choose which 2 ($\\binom{5}{2}$ ways), 2 pass and 3 fail.\nP &= \\binom{5}{2}\\left(\\frac{1}{4}\\right)^2\\left(\\frac{3}{4}\\right)^3 \\times \\frac{1}{4}\n## Evaluate\n&= 10 \\times \\frac{1}{16} \\times \\frac{27}{64} \\times \\frac{1}{4}\n&= \\frac{270}{4096}\n&= \\frac{135}{2048}\nANSWER: \\frac{135}{2048}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q6#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Split into cases\nTwo or fewer pass means 0, 1 or 2 pass, each with probability $\\frac12$.\nP(\\le 2) &= P(0) + P(1) + P(2)\n## No one passes\nP(0) &= \\left(\\frac{1}{2}\\right)^n\n&= \\frac{1}{2^n}\n## Exactly one passes\nP(1) &= \\binom{n}{1}\\left(\\frac{1}{2}\\right)^1\\left(\\frac{1}{2}\\right)^{n-1}\n&= n \\times \\frac{1}{2^n}\n## Exactly two pass\nP(2) &= \\binom{n}{2}\\left(\\frac{1}{2}\\right)^2\\left(\\frac{1}{2}\\right)^{n-2}\n&= \\frac{n(n-1)}{2} \\times \\frac{1}{2^n}\n&= \\frac{n(n-1)}{2^{n+1}}\n## Add over the common denominator 2^(n+1)\nP(\\le 2) &= \\frac{1}{2^n} + \\frac{n}{2^n} + \\frac{n(n-1)}{2^{n+1}}\n&= \\frac{2 + 2n + n(n-1)}{2^{n+1}}\n&= \\frac{2 + 2n + n^2 - n}{2^{n+1}}\n&= \\frac{n^2 + n + 2}{2^{n+1}}\n## Compare with the given form\nMatching $an^2 + bn + c$ with $n^2 + n + 2$ gives the values.\na &= 1,\\ b = 1,\\ c = 2\nANSWER: a = 1,\\ b = 1,\\ c = 2"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Use Pythagoras in the right-angled triangle\nThe slant height 9 cm is the hypotenuse; the radius 3.3 cm and the height $h$ are the other two sides.\n9^2 &= 3.3^2 + h^2\n81 &= 10.89 + h^2\nh^2 &= 81 - 10.89\nh^2 &= 70.11\n## Take the square root\nh &= \\sqrt{70.11}\nh &= 8.37\nANSWER: h = 8.37\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Use the curved surface area formula\n\\text{CSA} &= \\pi r l\n&= \\pi (3.3)(9)\n&= 29.7\\pi\n&= 93.31\nANSWER: 93.31\\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Circumference of the cup rim\nWhen the net is rolled up, the arc of the sector becomes the rim of the cup.\nC &= 2\\pi r\n&= 2\\pi (3.3)\n&= 6.6\\pi\n## Arc length of the sector (radius 9)\n\\text{arc} &= \\frac{\\theta}{360} \\times 2\\pi (9)\n&= \\frac{18\\pi\\theta}{360}\n&= \\frac{\\pi\\theta}{20}\n## Make the arc equal to the rim and solve for the angle\n\\frac{\\pi\\theta}{20} &= 6.6\\pi\n\\frac{\\theta}{20} &= 6.6\n\\theta &= 6.6 \\times 20\n\\theta &= 132\nANSWER: \\theta = 132^\\circ"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius at F using similar triangles\nThe small cone down to F is similar to the whole cup: its height is $8.37 - 1 = 7.37$ cm.\n\\frac{r}{7.37} &= \\frac{3.3}{8.37}\nr &= \\frac{3.3 \\times 7.37}{8.37}\nr &= 2.9057\n## Volume of the cone of water\nV &= \\frac{1}{3}\\pi r^2 h\n&= \\frac{1}{3}\\pi (2.9057)^2 (7.37)\n&= 65.16\n&= 65.2\nANSWER: 65.2\\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Volume of water entering per second\nEach second the water forms a cylinder of radius 0.8 cm and length 2.5 cm.\n\\text{volume per second} &= \\pi r^2 \\times 2.5\n&= \\pi (0.8)^2 (2.5)\n&= 1.6\\pi\n&= 5.0265\n## Time to fill 65.2 cm³\n\\text{time} &= \\frac{65.2}{5.0265}\n&= 12.97\n&= 13\nANSWER: 13\\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Link the radius r and the height h of the water\nLet $h$ be the height of the water cone. By similar triangles it has radius $r$ with the same ratio as the whole cup.\n\\frac{r}{h} &= \\frac{3.3}{8.37}\nr &= \\frac{3.3h}{8.37}\n## Put the volume equal to 60\nV &= \\frac{1}{3}\\pi r^2 h\n\\frac{1}{3}\\pi \\left(\\frac{3.3h}{8.37}\\right)^2 h &= 60\n\\frac{\\pi (3.3)^2 h^3}{3(8.37)^2} &= 60\n## Solve for h\nh^3 &= \\frac{60 \\times 8.37^2 \\times 3}{\\pi \\times 3.3^2}\nh^3 &= 368.59\nh &= \\sqrt[3]{368.59}\nh &= 7.169\n## Find the distance below the rim\nx &= 8.37 - 7.169\nx &= 1.2\nANSWER: x = 1.2\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 15,
+  "solution": "## Find the z-score for the top 25%\nThe top 25% starts where 75% of scores lie below, so $P(Z < z) = 0.75$. The tables give $z = 0.68$.\n## Substitute into the z-score formula\nz &= \\frac{x - \\mu}{\\sigma}\n\\frac{x - 280}{90} &= 0.68\nx - 280 &= 0.68 \\times 90\nx - 280 &= 61.2\nx &= 341.2\n## Round up to a whole mark\nMarks are whole numbers, and 341 is below the cut-off, so the minimum mark is 342.\nx &= 342\nANSWER: 342"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find Eileen's z-score\nz &= \\frac{x - \\mu}{\\sigma}\n&= \\frac{260 - 280}{90}\n&= \\frac{-20}{90}\n&= -0.222\n## Find the z-score of the 40th percentile\n40% of scores lie below it, so $P(Z < z) = 0.4$. By symmetry this is the negative of the z-score for 0.6, which is $z = -0.25$.\n## Compare\n-0.222 &> -0.25\nEileen's z-score is above the 40th percentile, so she can re-sit the test.\nANSWER: \\text{Eileen is eligible to re-sit}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths23",
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Say what the z-scores mean\nIn the standard normal distribution, $P(-1.96 \\le Z \\le 1.96) = 0.95$.\nSo 95% of the data lies within 1.96 standard deviations of the mean. These are the cut-offs used for a 95% confidence interval and a 5% two-tailed test.\nANSWER: 95\\%\\text{ of values lie between } z=-1.96 \\text{ and } z=1.96"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Write the radius of the 95% confidence interval\n1.96\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= 0.01568\n## Divide by 1.96 and square both sides\n\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= \\frac{0.01568}{1.96}\n\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{2500}} &= 0.008\n\\frac{\\hat{p}(1-\\hat{p})}{2500} &= 0.000064\n## Form a quadratic in p-hat\n\\hat{p}(1-\\hat{p}) &= 0.16\n\\hat{p} - \\hat{p}^2 &= 0.16\n\\hat{p}^2 - \\hat{p} + 0.16 &= 0\n## Solve with the quadratic formula\n\\hat{p} &= \\frac{1 \\pm \\sqrt{1 - 4(0.16)}}{2}\n\\hat{p} &= \\frac{1 \\pm \\sqrt{0.36}}{2}\n\\hat{p} &= \\frac{1 \\pm 0.6}{2}\n\\hat{p} &= 0.8 \\text{ or } 0.2\n## Reject the value outside the range\nWe are told $0.5 < \\hat{p} \\le 1$, so $\\hat{p} = 0.2$ is rejected.\n\\hat{p} &= \\frac{4}{5}\nANSWER: \\hat{p} = \\frac{4}{5}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## State the hypotheses\n$H_0$: the mean weight of carry-on luggage has not changed ($\\mu = 12$ kg).\n$H_1$: the mean weight of carry-on luggage has changed ($\\mu \\ne 12$ kg).\n## Calculate the test statistic\nz &= \\frac{\\bar{x} - \\mu}{\\sigma / \\sqrt{n}}\n&= \\frac{13.1 - 12}{4.5 / \\sqrt{80}}\n&= \\frac{1.1}{0.5031}\n&= 2.186\n## Compare with the critical value and conclude\nAt the 5% level (two-tailed) the critical values are $\\pm 1.96$.\n2.186 &> 1.96\n$z$ is outside $-1.96 \\le z \\le 1.96$, so reject $H_0$. There is evidence that the mean weight of carry-on luggage has changed.\nANSWER: \\text{Reject } H_0\\text{: the mean weight of carry-on luggage has changed}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths23",
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Convert the total weight to an average weight\nThe total is over 3000 kg exactly when the average of the 40 passengers is over $3000 \\div 40$.\n\\bar{x} &= \\frac{3000}{40}\n&= 75\n## Find the z-score of the sample mean\nFor means of samples of 40: $\\mu = 73$ and standard error $\\sigma/\\sqrt{n} = 12/\\sqrt{40}$.\nz &= \\frac{75 - 73}{12 / \\sqrt{40}}\n&= \\frac{2}{1.8974}\n&= 1.054\n## Find the probability\nFrom the tables, $P(Z < 1.054) = 0.8531$.\nP(Z > 1.054) &= 1 - P(Z < 1.054)\n&= 1 - 0.8531\n&= 0.1469\n&= 14.69\\%\nANSWER: 14.69\\%"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q8#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Use the median\nWith 8 numbers the median is the mean of $D$ and $E$.\n\\frac{D + E}{2} &= 12.5\nD + E &= 25\n## Use the lower quartile\nThe lower quartile is the median of $A, B, C, D$, which is the mean of $B$ and $C$.\n\\frac{B + C}{2} &= 7.5\nB + C &= 15\n## Use the interquartile range\nThe upper quartile is the mean of $F$ and $G$.\nQ_3 - 7.5 &= 12\nQ_3 &= 19.5\n\\frac{F + G}{2} &= 19.5\nF + G &= 39\nF + 23 &= 39\nF &= 16\n## Use the mean\nA + B + C + D + E + F + G + H &= 8 \\times 13.5\nA + B + C + D + E + F + G + H &= 108\nA + H + 15 + 25 + 16 + 23 &= 108\nA + H + 79 &= 108\nA + H &= 29\n## Use the range\nH - A &= 21\n2H &= 29 + 21\nH &= 25\nA &= 29 - 25\nA &= 4\n## Split D + E and B + C\n$D + E = 25$ with $D < E$ and a gap of at least 2: $D = 12, E = 13$ fails (gap 1) and $D = 10, E = 15$ fails because $F = 16$ is only 1 above 15. So $D = 11$, $E = 14$.\n$B + C = 15$ with $C \\le 9$ (a gap of at least 2 below $D = 11$) and $B \\ge 6$ (a gap of at least 2 above $A = 4$): $B = 6$, $C = 9$. (B = 7, C = 8 is not allowed because $C$ must be at least 2 more than $B$, so $C \\ge B + 2$. With $B + C = 15$ this gives $B \\le 6.5$, and with $B \\ge 6$ this forces $B = 6$.)\n## Complete the boxes\nThe completed boxes are shown in the figure.\nANSWER: A=4,\\ B=6,\\ C=9,\\ D=11,\\ E=14,\\ F=16,\\ G=23,\\ H=25"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Distance each ship has travelled in 30 minutes\n30 minutes is $\\frac{1}{2}$ hour, and distance = speed $\\times$ time.\n\\text{Ship A} &= 15 \\times \\tfrac{1}{2}\n&= 7.5\\text{ km}\n\\text{Ship B} &= 30 \\times \\tfrac{1}{2}\n&= 15\\text{ km}\n## Find the east-west gap between the ships\n90 - 7.5 &= 82.5\n## Use Pythagoras for the distance d\nThe gaps $82.5$ km and $15$ km are the two perpendicular sides of a right-angled triangle.\nd^2 &= 82.5^2 + 15^2\nd^2 &= 6806.25 + 225\nd^2 &= 7031.25\nd &= \\sqrt{7031.25}\nd &= 83.85\nANSWER: 83.85\\text{ km}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find both gaps after t hours\nShip A has moved $15t$ km east, so the east-west gap is $90 - 15t$. Ship B has moved $30t$ km south, so the north-south gap is $30t$.\n## Use Pythagoras\ns^2 &= (90 - 15t)^2 + (30t)^2\ns^2 &= 8100 - 2700t + 225t^2 + 900t^2\ns^2 &= 1125t^2 - 2700t + 8100\n## Take the square root\nDistance is positive, so take the positive root. Ship A reaches the line of Ship B at $t = 90 \\div 15 = 6$, which gives the domain $0 \\le t \\le 6$.\ns &= (1125t^2 - 2700t + 8100)^{\\frac{1}{2}}\nANSWER: s(t) = (1125t^2 - 2700t + 8100)^{\\frac{1}{2}}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate s with respect to t\nUse the chain rule: bring down the power $\\frac{1}{2}$, then multiply by the derivative of the bracket.\ns &= (1125t^2 - 2700t + 8100)^{\\frac{1}{2}}\n\\frac{ds}{dt} &= \\frac{1}{2}(1125t^2 - 2700t + 8100)^{-\\frac{1}{2}}(2250t - 2700)\n&= \\frac{2250t - 2700}{2\\sqrt{1125t^2 - 2700t + 8100}}\n## Set the derivative to zero\nThe ships are closest when $\\frac{ds}{dt} = 0$, which needs the numerator to be zero.\n2250t - 2700 &= 0\n2250t &= 2700\nt &= \\frac{2700}{2250}\nt &= 1.2\nThis is a minimum: $\\frac{ds}{dt}$ changes from negative to positive at $t = 1.2$.\n## Find the distance at t = 1.2\ns &= \\sqrt{1125(1.2)^2 - 2700(1.2) + 8100}\n&= \\sqrt{1620 - 3240 + 8100}\n&= \\sqrt{6480}\n&= 80.5\nANSWER: t = 1.2\\text{ hours},\\ s = 80.5\\text{ km}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the pay for the 45 basic hours\n\\text{Basic pay} &= 45 \\times 12.60\n&= 567\n## Find the commission on sales above €200\nOnly the sales above $\\text{€}200$ earn commission.\n\\text{Sales above } \\text{€}200 &= 350 - 200\n&= 150\n\\text{Commission} &= 22\\% \\text{ of } 150\n&= 0.22 \\times 150\n&= 33\n## Add basic pay and commission\n\\text{Gross pay} &= 567 + 33\n&= 600\nANSWER: \\text{€}600"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the pay for the 48 weekday hours\n51 hours include 3 on Sunday, so 48 hours are at the basic rate.\n48 \\times 12.60 &= 604.80\n## Find the pay for the 3 Sunday hours\n\\text{Sunday rate} &= 12.60 \\times 1.5\n&= 18.90\n\\text{Sunday pay} &= 3 \\times 18.90\n&= 56.70\n## Add to get the pay before commission\n604.80 + 56.70 &= 661.50\n## Find the commission paid\n\\text{Commission} &= 713.20 - 661.50\n&= 51.70\n## Find the sales above €200\nCommission is $22\\%$ of the sales above $\\text{€}200$, so divide by $0.22$.\n\\text{Sales above } \\text{€}200 &= 51.70 \\div 0.22\n&= 235\n## Add back the first €200 of sales\n\\text{Total sales} &= 235 + 200\n&= 435\nANSWER: \\text{€}435"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Tax the income up to the cut-off at 20%\n678 \\times 0.20 &= 135.60\n## Tax the income above the cut-off at 40%\n\\text{Income above cut-off} &= 713.20 - 678\n&= 35.20\n\\text{Tax at } 40\\% &= 35.20 \\times 0.40\n&= 14.08\n## Add to get the gross tax\n\\text{Gross tax} &= 135.60 + 14.08\n&= 149.68\n## Subtract the tax credit to get the net tax\n\\text{Net tax} &= 149.68 - 26\n&= 123.68\n## Subtract the net tax from the salary\n\\text{Net income} &= 713.20 - 123.68\n&= 589.52\nANSWER: \\text{€}589.52"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Multiply every term by the common denominator 12\nThe denominators 2, 3 and 4 all divide into 12.\n\\frac{9x-6}{2} &= \\frac{3x-14}{3} + \\frac{9x}{4}\n12\\left(\\frac{9x-6}{2}\\right) &= 12\\left(\\frac{3x-14}{3}\\right) + 12\\left(\\frac{9x}{4}\\right)\n## Cancel each denominator\n6(9x-6) &= 4(3x-14) + 3(9x)\n## Expand the brackets\n54x - 36 &= 12x - 56 + 27x\n## Collect like terms\n54x - 36 &= 39x - 56\n54x - 39x &= -56 + 36\n15x &= -20\n## Divide both sides by 15\nx &= -\\frac{20}{15}\nx &= -\\frac{4}{3}\nANSWER: x = -\\frac{4}{3}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Make y the subject of the linear equation\n3x - y &= 4\ny &= 3x - 4\n## Substitute y = 3x − 4 into the quadratic equation\n4x^2 - 3xy &= 4\n4x^2 - 3x(3x-4) &= 4\n## Expand and collect into a quadratic equal to zero\n4x^2 - 9x^2 + 12x &= 4\n-5x^2 + 12x &= 4\n-5x^2 + 12x - 4 &= 0\nMultiply both sides by $-1$ to make the $x^2$ term positive.\n5x^2 - 12x + 4 &= 0\n## Factorise and solve for x\n(5x-2)(x-2) &= 0\n5x - 2 &= 0 \\quad \\text{or} \\quad x - 2 = 0\nx &= \\frac{2}{5} \\quad \\text{or} \\quad x = 2\n## Find y when x = 2/5\ny &= 3x - 4\ny &= 3\\left(\\frac{2}{5}\\right) - 4\ny &= \\frac{6}{5} - \\frac{20}{5}\ny &= -\\frac{14}{5}\n## Find y when x = 2\ny &= 3(2) - 4\ny &= 6 - 4\ny &= 2\nANSWER: \\left(\\frac{2}{5}, -\\frac{14}{5}\\right) \\text{ and } (2, 2)"
+ }
+]

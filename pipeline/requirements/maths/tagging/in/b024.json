@@ -1,0 +1,377 @@
+[
+ {
+  "part": "maths-pp-2021-higher-p2-q5#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Set up the dimensions\nLet the sphere have radius $r$. The two cones share a base whose rim lies on the sphere and whose plane passes through the centre, so the base is a great circle of radius $r$ and its centre is the centre of the sphere.\nEach apex is on the sphere and on the axis through the base centre, which is the sphere's centre, so each cone has height $h = r$.\n## Find the volume of the two cones\nV_{\\text{sphere}} &= \\frac{4}{3}\\pi r^3\nV_{\\text{two cones}} &= 2 \\times \\frac{1}{3}\\pi r^2 h\n&= 2 \\times \\frac{1}{3}\\pi r^2 \\times r\n&= \\frac{2}{3}\\pi r^3\n## Subtract to find the remaining space\nV_{\\text{space}} &= \\frac{4}{3}\\pi r^3 - \\frac{2}{3}\\pi r^3\n&= \\frac{2}{3}\\pi r^3\n&= \\frac{1}{2} \\times \\frac{4}{3}\\pi r^3\n&= \\frac{1}{2} V_{\\text{sphere}}\nSo the remaining space is exactly half the volume of the sphere.\nANSWER: V_{\\text{space}} = \\frac{1}{2} V_{\\text{sphere}}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q5#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use the volume of the two cones\n\\frac{2}{3}\\pi r^3 &= \\frac{686}{3}\\pi\n2r^3 &= 686\nr^3 &= 343\nr &= \\sqrt[3]{343}\n&= 7\nANSWER: r = 7 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the head start of the first van\nThe second van leaves $1.75$ hours after the first.\n\\text{distance} &= 60 \\times 1.75\n&= 105 \\text{ km}\n## Let t be the second van's travel time and equate distances\nIn $t$ hours the first van travels $105 + 60t$ km and the second van travels $95t$ km. They are equal at the destination.\n105 + 60t &= 95t\n105 &= 95t - 60t\n105 &= 35t\nt &= \\frac{105}{35}\n&= 3\n## Add 3 hours to the second van's start time\nThe second van left at $9{:}00 + 1\\text{ h }45\\text{ min} = 10{:}45$.\n$10{:}45 + 3\\text{ h} = 13{:}45$.\nANSWER: 13{:}45"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 20,
+  "solution": "## Step A: write the Given and the To Prove\nDraw $\\triangle ABC$ and the smaller similar triangle $\\triangle A'B'C'$.\nGiven: $\\triangle ABC$ and $\\triangle A'B'C'$ are similar, so their angles are equal: $|\\angle A| = |\\angle A'|$, $|\\angle B| = |\\angle B'|$, $|\\angle C| = |\\angle C'|$.\nTo prove: $\\dfrac{|AB|}{|A'B'|} = \\dfrac{|BC|}{|B'C'|} = \\dfrac{|CA|}{|C'A'|}$.\n## Step B: construct a copy of A'B'C' inside ABC\nMark $B''$ on $[AB]$ so that $|AB''| = |A'B'|$.\nMark $C''$ on $[AC]$ so that $|AC''| = |A'C'|$.\nJoin $B''$ to $C''$.\n## Step C: show the copy is congruent to A'B'C'\n$|AB''| = |A'B'|$ (construction), $|\\angle A| = |\\angle A'|$ (given), $|AC''| = |A'C'|$ (construction).\nSo $\\triangle AB''C''$ is congruent to $\\triangle A'B'C'$. Reason: SAS.\n## Step D: show B''C'' is parallel to BC\nBy congruence, $|\\angle AB''C''| = |\\angle A'B'C'| = |\\angle ABC|$.\nThese are corresponding angles, so $B''C'' \\parallel BC$. Reason: corresponding angles are equal.\n## Step E: use the parallel line to get the ratios\nA line parallel to one side of a triangle divides the other two sides in the same ratio, so $\\dfrac{|AB|}{|AB''|} = \\dfrac{|AC|}{|AC''|}$.\nReplace $|AB''|$ by $|A'B'|$ and $|AC''|$ by $|A'C'|$ (construction): $\\dfrac{|AB|}{|A'B'|} = \\dfrac{|AC|}{|A'C'|}$.\nRepeat the argument starting from vertex $B$ (mark points on $[BA]$ and $[BC]$): $\\dfrac{|AB|}{|A'B'|} = \\dfrac{|BC|}{|B'C'|}$.\nHence $\\dfrac{|AB|}{|A'B'|} = \\dfrac{|BC|}{|B'C'|} = \\dfrac{|CA|}{|C'A'|}$.\nANSWER: \\dfrac{|AB|}{|A'B'|} = \\dfrac{|BC|}{|B'C'|} = \\dfrac{|CA|}{|C'A'|}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find two pairs of equal angles\n$PA \\parallel BR$, so $|\\angle HBQ| = |\\angle HAP|$. Reason: alternate angles.\n$|\\angle QHB| = |\\angle PHA|$. Reason: vertically opposite angles.\n## Conclude the triangles are similar\nTwo angles are equal, so $\\triangle AHP$ and $\\triangle BHQ$ are equiangular, hence similar.\n## Write the ratio of corresponding sides\n$A \\leftrightarrow B$ and $H \\leftrightarrow H$, so $AH$ corresponds to $BH$ and $AP$ corresponds to $BQ$.\nCorresponding sides of similar triangles are proportional: $\\dfrac{|AH|}{|HB|} = \\dfrac{|AP|}{|QB|}$.\n## Cross-multiply\nMultiply both sides by $|HB|\\,|QB|$: $|AH| \\times |QB| = |AP| \\times |HB|$.\nANSWER: |AH| \\times |QB| = |AP| \\times |HB|"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Convert the cycling time to hours\nt &= 1 + \\frac{12}{60}\n&= 1.2 \\text{ hours}\n## Find |BA| using distance = speed × time\n|BA| &= 25 \\times 1.2\n&= 30 \\text{ km}\n## Add the three sections\n\\text{Total} &= 4 + 30 + 28\n&= 62 \\text{ km}\nANSWER: 62 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Find the time spent running and swimming\nT &= 4.8 - 1.2\n&= 3.6 \\text{ hours}\n## Let x be the swimming speed and write the times\nLet $x$ km/h be the swimming speed. Running speed is $5.6x$ km/h.\nTime = distance ÷ speed, so swim time is $\\frac{4}{x}$ and run time is $\\frac{28}{5.6x}$.\n\\frac{28}{5.6x} + \\frac{4}{x} &= 3.6\n## Solve for x\n\\frac{5}{x} + \\frac{4}{x} &= 3.6\n\\frac{9}{x} &= 3.6\n9 &= 3.6x\nx &= \\frac{9}{3.6}\nx &= 2.5\nANSWER: 2.5 \\text{ km/h}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Write the cosine rule for the side opposite C\nThe side opposite $C$ is $|AB| = 30$, and the other two sides are $28$ and $4$.\n30^2 &= 28^2 + 4^2 - 2(28)(4)\\cos C\n## Rearrange for cos C\n900 &= 784 + 16 - 224\\cos C\n900 &= 800 - 224\\cos C\n224\\cos C &= 800 - 900\n\\cos C &= -\\frac{100}{224}\n## Find the angle\nC &= \\cos^{-1}\\left(-\\frac{100}{224}\\right)\n&= 116.5^\\circ\nANSWER: |\\angle ACB| = 116.5^\\circ"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use Area = ½ ab sin C with the sides 28 and 4\n\\text{Area} &= \\frac{1}{2}(28)(4)\\sin 116.5^\\circ\n&= 56 \\sin 116.5^\\circ\n&= 50.1 \\text{ km}^2\nANSWER: 50.1 \\text{ km}^2"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q7#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Use the area with base AB and height d\nThe shortest distance from $C$ to $AB$ is the perpendicular height $d$ on base $|AB| = 30$.\n\\frac{1}{2}(30)d &= 50.1\n15d &= 50.1\nd &= \\frac{50.1}{15}\nd &= 3.3 \\text{ km}\nANSWER: 3.3 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q7#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use tan in the right-angled triangle TAB\nThe angle at $B$ is $0.05^\\circ$, the side opposite is $|AT| = x$ and the adjacent side is $|AB| = 30$ km.\n\\tan 0.05^\\circ &= \\frac{x}{30}\nx &= 30 \\tan 0.05^\\circ\nx &= 0.0262 \\text{ km}\n## Convert to metres\nx &= 0.0262 \\times 1000\n&= 26 \\text{ m}\nANSWER: |AT| = 26 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find the z-score for the top 10%\nThe top 10% means 90% of students are below the cut-off, so $P(z < k) = 0.9$.\nIn the tables, $P(z < 1.28) = 0.8997$, the closest value to $0.9$, so $z = 1.28$.\n## Substitute into the z-score formula\n\\frac{x - 176}{36} &= 1.28\nx - 176 &= 1.28 \\times 36\nx - 176 &= 46.08\nx &= 222.08\n## Round up to a whole mark\nMarks are whole numbers and $222$ is below the cut-off, so the minimum is $223$.\nx &= 223\nANSWER: 223 \\text{ marks}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Convert 165 and 210 to z-scores\nz_1 &= \\frac{165 - 176}{36}\n&= -0.31\nz_2 &= \\frac{210 - 176}{36}\n&= 0.94\n## Write the probability as a difference\nWe need $P(-0.31 < z < 0.94) = P(z < 0.94) - P(z < -0.31)$.\nFrom the tables, $P(z < 0.94) = 0.8264$.\nThe tables only give positive $z$, so $P(z < -0.31) = 1 - P(z < 0.31) = 1 - 0.6217$.\nP(z < -0.31) &= 1 - 0.6217\n&= 0.3783\n## Subtract and convert to a percentage\nP &= 0.8264 - 0.3783\n&= 0.4481\n&= 44.81\\%\nANSWER: 44.81\\%"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths23",
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Use the z-score of a sample mean\n$z = \\dfrac{\\bar{x} - \\mu}{s/\\sqrt{n}}$ with $\\bar{x} = 19.8$, $\\mu = 21$, $s = 5.2$, $n = 60$.\nz &= \\frac{19.8 - 21}{5.2/\\sqrt{60}}\n&= \\frac{-1.2}{0.6713...}\n&= -1.787\nANSWER: z = -1.787"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Find the two-tailed p-value\nRound $|z|$ to $1.79$. The test is two-tailed, so $p = 2\\left[1 - P(z < 1.79)\\right]$.\nFrom the tables, $P(z < 1.79) = 0.9633$.\np &= 2(1 - 0.9633)\n&= 2(0.0367)\n&= 0.0734\n## Compare with the 5% level and conclude\n$0.0734 > 0.05$, so we do not reject the null hypothesis.\nThere is not enough evidence to say the news report's claim of 21 hours is incorrect.\nANSWER: p = 0.0734; \\text{ not enough evidence to reject the claim}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Three non-office keys, then an office key (no replacement)\nThere are $23 - 5 = 18$ non-office keys. Each key drawn is not put back, so the totals drop by one each time.\nP &= \\frac{18}{23} \\times \\frac{17}{22} \\times \\frac{16}{21} \\times \\frac{5}{20}\n&= \\frac{24480}{212520}\n&= 0.1152\nANSWER: 0.1152"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q8#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Probability of one particular order\nP(\\text{G, S, O}) &= \\frac{12}{23} \\times \\frac{6}{22} \\times \\frac{5}{21}\n&= \\frac{360}{10626}\n## Multiply by the number of orders\nThe three different keys can be drawn in $3! = 6$ orders, each with the same probability.\nP &= 6 \\times \\frac{360}{10626}\n&= \\frac{360}{1771}\n&= 0.2033\nANSWER: 0.2033"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle at B\nThe plane turns $20^\\circ$ south of east, so the interior angle at $B$ is $180^\\circ$ minus $20^\\circ$.\n|\\angle ABC| &= 180 - 20\n&= 160^\\circ\n## Use the sine rule to find |BC|\nThe side $|BC| = x$ is opposite the angle $8.57^\\circ$, and $|AC| = 1450$ is opposite $160^\\circ$.\n\\frac{1450}{\\sin 160^\\circ} &= \\frac{x}{\\sin 8.57^\\circ}\nx &= \\frac{1450 \\sin 8.57^\\circ}{\\sin 160^\\circ}\nx &= 631.7626\\ldots \\text{ km}\n## Convert the distance to a time\nTime is distance divided by speed.\n\\text{Time} &= \\frac{631.7626\\ldots}{420}\n&= 1.504\\ldots \\text{ hours}\n&= 90 \\text{ minutes}\nANSWER: 90 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the time to fly directly from A to C\n\\text{Time}_{AC} &= \\frac{1450}{420}\n&= 3.4523\\ldots \\text{ hours}\n## Find the total flying time in hours\nThe journey is $A \\to B$ (2 hours), $B \\to C$ (1.5 hours) and $C \\to A$.\n\\text{Total} &= 2 + 1.5 + 3.4523\\ldots\n&= 6.9523\\ldots \\text{ hours}\n## Convert the total time to seconds\n6.9523\\ldots \\times 3600 &= 25\\,028.57\\ldots \\text{ seconds}\n## Find the fuel needed\n\\text{Fuel} &= 3.8 \\times 25\\,028.57\\ldots\n&= 95\\,108.57\\ldots \\text{ litres}\n## Compare with the fuel capacity\n$95\\,108.57\\ldots < 100\\,000$, so the plane has enough fuel to complete the journey without refuelling.\nANSWER: 95\\,108.57 \\text{ litres} < 100\\,000 \\text{ litres}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q9#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the period\nFor $A\\sin(Bt)$ the period is $\\frac{2\\pi}{B}$. Here $B = 120\\pi$.\n\\text{Period} &= \\frac{2\\pi}{120\\pi}\n&= \\frac{1}{60} \\text{ seconds}\n## Find the range\nThe sine function lies between $-1$ and $1$, so $V(t)$ lies between $-110\\sqrt{2}$ and $110\\sqrt{2}$.\n\\text{Range} &= \\left[-110\\sqrt{2},\\ 110\\sqrt{2}\\right]\nANSWER: \\text{Period} = \\frac{1}{60},\\quad \\text{Range} = \\left[-110\\sqrt{2},\\ 110\\sqrt{2}\\right]"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q9#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Mark the key values on the axes\nThe period is $p = \\frac{1}{60}$, so the $t$-axis runs from $0$ to $\\frac{1}{60}$.\nThe maximum is $110\\sqrt{2}$ and the minimum is $-110\\sqrt{2}$.\n## Plot the key points of one sine cycle\nThe curve starts at the origin $(0, 0)$ and rises to its maximum a quarter of the way along, at $t = \\frac{1}{240}$.\nIt crosses the axis again at $t = \\frac{1}{120}$, reaches its minimum at $t = \\frac{1}{80}$ and returns to the axis at $t = \\frac{1}{60}$.\n## Indicate the period and range\nLabel the period $\\frac{1}{60}$ along the $t$-axis and the range $-110\\sqrt{2}$ to $110\\sqrt{2}$ on the $V$-axis.\nANSWER: \\text{One cycle of } V(t) \\text{ with period } \\tfrac{1}{60} \\text{ and range } \\left[-110\\sqrt{2},\\ 110\\sqrt{2}\\right]"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q9#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 6.67\nMake sure the calculator is in radian mode.\nV(6.67) &= 110\\sqrt{2}\\,\\sin(120\\pi \\times 6.67)\n&= 147.95\\ldots\nANSWER: 147.95 \\text{ Volts}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q9#(b)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Set the voltage equal to 110\n110\\sqrt{2}\\,\\sin(120\\pi t) &= 110\n\\sin(120\\pi t) &= \\frac{1}{\\sqrt{2}}\n## Solve for the angle\n$\\sin\\theta = \\frac{1}{\\sqrt{2}}$ when $\\theta = \\frac{\\pi}{4}$ (one solution).\n120\\pi t &= \\frac{\\pi}{4}\n## Divide both sides by 120π\nt &= \\frac{\\pi}{4 \\times 120\\pi}\nt &= \\frac{1}{480}\nANSWER: t = \\frac{1}{480} \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q9#(b)(v)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate V(t)\nThe rate of change is the derivative. Use the chain rule: the derivative of $\\sin(120\\pi t)$ is $120\\pi\\cos(120\\pi t)$.\nV(t) &= 110\\sqrt{2}\\,\\sin(120\\pi t)\nV'(t) &= 120\\pi \\times 110\\sqrt{2}\\,\\cos(120\\pi t)\n## Substitute t = 2\nV'(2) &= 120\\pi \\times 110\\sqrt{2}\\,\\cos(120\\pi \\times 2)\n&= 58\\,646.0\\ldots\nANSWER: 58\\,646 \\text{ Volts per second}"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Set up the situation\nThe tenth donor is the third O-negative, so exactly 2 of the first 9 are O-negative and the tenth is O-negative.\n$P(\\text{O-neg}) = \\frac{8}{100} = 0.08$ and $P(\\text{not O-neg}) = 0.92$.\n## Probability that exactly 2 of the first 9 are O-negative\nP(2 \\text{ of } 9) &= \\binom{9}{2}(0.08)^2(0.92)^7\n## Multiply by the probability the tenth is O-negative\nP &= \\binom{9}{2}(0.08)^2(0.92)^7 \\times 0.08\n&= 0.01028\\ldots\n&= 0.0103\nANSWER: 0.0103"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Use the complement\n\"At least one\" is the opposite of \"none\".\nP(\\text{at least one}) &= 1 - P(\\text{none are O-neg})\n## Calculate\nP(\\text{none are O-neg}) &= (0.92)^5\nP(\\text{at least one}) &= 1 - (0.92)^5\n&= 0.34091\\ldots\n&= 0.3409\nANSWER: 0.3409"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q10#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write the inequality for k donors\n1 - 0.92^k &> 0.97\n0.92^k &< 0.03\n## Solve using logs\nTake the log of both sides. Since $\\ln 0.92$ is negative, dividing by it reverses the inequality.\nk \\ln(0.92) &< \\ln(0.03)\nk &> \\frac{\\ln(0.03)}{\\ln(0.92)}\nk &> 42.05\\ldots\n## Round up to a whole number\n$k$ must be a whole number greater than $42.05\\ldots$, so the smallest value is 43.\nANSWER: 43"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the cost if the repair works\nProbability $0.8$, cost $\\text{€}70$.\n## Find the cost if the repair fails\nProbability $0.2$. The €70 repair is still charged, then a new part and labour are added.\n\\text{Cost} &= 70 + 150 + 80\n&= \\text{€}300\n## Calculate the expected value\nE &= 0.8(70) + 0.2(300)\n&= 56 + 60\n&= \\text{€}116\nANSWER: \\text{€}116"
+ },
+ {
+  "part": "maths-pp-2021-higher-p2-q10#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the average pay-out per customer\n\\text{Pay-out} &= 120\\,000(0.0001) + 40\\,000(0.002)\n&= 12 + 80\n&= \\text{€}92\n## Find the target profit per customer\n\\text{Profit} &= \\frac{900\\,000}{18\\,000}\n&= \\text{€}50\n## Add to get the premium\nPremium = average pay-out + profit per customer.\n\\text{Premium} &= 92 + 50\n&= \\text{€}142\nANSWER: \\text{€}142"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Write the price after VAT as 121%\nAdding 21% VAT means the new price is $100\\% + 21\\% = 121\\%$ of the old price.\n\\text{Price} &= \\frac{380}{100} \\times 121\n&= 3.8 \\times 121\n&= 459.8\nANSWER: \\text{€}459.80"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find 1% of the price\nThe increase of €130.20 is the 21% VAT.\n21\\% &= 130.20\n1\\% &= \\frac{130.20}{21}\n&= 6.20\n## Find 121% of the price\n121\\% &= 6.20 \\times 121\n&= 750.20\nANSWER: \\text{€}750.20"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find 1% of the price\nThe price €290.40 is 121% of the price before VAT.\n121\\% &= 290.40\n1\\% &= \\frac{290.40}{121}\n&= 2.40\n## Find the VAT: 21% of the original price\n21\\% &= 2.40 \\times 21\n&= 50.40\nANSWER: \\text{€}50.40"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q1#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the drop in the VAT rate\n23\\% - 21\\% &= 2\\%\n## Find the total price of the 30 computers before VAT\nThe €336 saved is 2% of the total price before VAT.\n2\\% &= 336\n1\\% &= \\frac{336}{2}\n&= 168\n100\\% &= 168 \\times 100\n&= 16800\n## Divide by 30 to find the price of one computer\n\\text{One computer} &= \\frac{16800}{30}\n&= 560\nANSWER: \\text{€}560"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Add the real parts and the imaginary parts\nz_1 + z_2 &= (-3 + 4i) + (4 + 3i)\n&= (-3 + 4) + (4 + 3)i\n&= 1 + 7i\n## Read off the points to plot\nReal part goes along the Re axis, imaginary part up the Im axis.\nz_1 &= -3 + 4i \\;\\Rightarrow\\; (-3, 4)\nz_2 &= 4 + 3i \\;\\Rightarrow\\; (4, 3)\nz_1 + z_2 &= 1 + 7i \\;\\Rightarrow\\; (1, 7)\n## Plot the three points and label each one\nMark a dot at each point and write its label beside it.\nANSWER: z_1 + z_2 = 1 + 7i"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Multiply top and bottom by the conjugate of the bottom\nThe conjugate of $4 + 3i$ is $4 - 3i$.\nz_3 &= \\frac{-3 + 4i}{4 + 3i}\n&= \\frac{(-3 + 4i)(4 - 3i)}{(4 + 3i)(4 - 3i)}\n## Multiply out the top\n(-3 + 4i)(4 - 3i) &= -12 + 9i + 16i - 12i^2\n&= -12 + 25i - 12(-1)\n&= 25i\n## Multiply out the bottom\n(4 + 3i)(4 - 3i) &= 16 - 9i^2\n&= 16 - 9(-1)\n&= 25\n## Divide\nz_3 &= \\frac{25i}{25}\n&= i\nANSWER: z_3 = i"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write down the conjugate of $z_1$\nChange the sign of the imaginary part.\n\\bar{z}_1 &= -3 - 4i\n## Subtract $z_2$\n\\bar{z}_1 - z_2 &= (-3 - 4i) - (4 + 3i)\n&= -3 - 4i - 4 - 3i\n&= -7 - 7i\n## Find the modulus using $\\sqrt{a^2 + b^2}$\n|\\bar{z}_1 - z_2| &= \\sqrt{(-7)^2 + (-7)^2}\n&= \\sqrt{49 + 49}\n&= \\sqrt{98}\n&= \\sqrt{49 \\times 2}\n&= 7\\sqrt{2}\nANSWER: 7\\sqrt{2}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Substitute $x = 4$ into the left-hand side\n4^2 - 2(4) - 8 &= 16 - 8 - 8\n&= 0\nThe left-hand side equals the right-hand side (0), so $x = 4$ is a solution.\nANSWER: x = 4 \\text{ is a solution}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Substitute $x = 5$ into the equation\n5^2 + a(5) + b &= 0\n25 + 5a + b &= 0\n5a + b &= -25\n## Substitute $x = -2$ into the equation\n(-2)^2 + a(-2) + b &= 0\n4 - 2a + b &= 0\n-2a + b &= -4\nMultiply both sides by $-1$.\n2a - b &= 4\n## Add the two equations to eliminate $b$\n(5a + b) + (2a - b) &= -25 + 4\n7a &= -21\na &= -3\n## Substitute $a = -3$ to find $b$\n5(-3) + b &= -25\n-15 + b &= -25\nb &= -10\nANSWER: a = -3, \\quad b = -10"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Identify $a$, $b$ and $c$\nCompare with $ax^2 + bx + c = 0$.\na &= 5\nb &= -2\nc &= -9\n## Substitute into the quadratic formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n&= \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(5)(-9)}}{2(5)}\n&= \\frac{2 \\pm \\sqrt{4 + 180}}{10}\n&= \\frac{2 \\pm \\sqrt{184}}{10}\n## Find the first solution\nx &= \\frac{2 + \\sqrt{184}}{10}\n&\\approx 1.56\n## Find the second solution\nx &= \\frac{2 - \\sqrt{184}}{10}\n&\\approx -1.16\nANSWER: x = 1.56 \\quad \\text{or} \\quad x = -1.16"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Multiply out the brackets\n4(2x + 3) - 7 &= 3(x - 5)\n8x + 12 - 7 &= 3(x - 5)\n8x + 12 - 7 &= 3x - 15\n8x + 5 &= 3x - 15\n## Collect the $x$ terms on one side and numbers on the other\n8x - 3x &= -15 - 5\n5x &= -20\n## Divide both sides by 5\nx &= -4\nANSWER: x = -4"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 20,
+  "solution": "## Make $y$ the subject of the linear equation\n2x - y &= 7\ny &= 2x - 7\n## Substitute into $x^2 + y^2 = 49$\nx^2 + (2x - 7)^2 &= 49\nx^2 + 4x^2 - 28x + 49 &= 49\n5x^2 - 28x + 49 &= 49\n5x^2 - 28x &= 0\n## Factorise and solve for $x$\nx(5x - 28) &= 0\nx &= 0 \\quad \\text{or} \\quad x = \\frac{28}{5}\n## Find $y$ when $x = 0$\ny &= 2(0) - 7\n&= -7\n## Find $y$ when $x = \\frac{28}{5}$\ny &= 2\\left(\\frac{28}{5}\\right) - 7\n&= \\frac{56}{5} - \\frac{35}{5}\n&= \\frac{21}{5}\nANSWER: (x, y) = (0, -7) \\quad \\text{or} \\quad \\left(\\frac{28}{5}, \\frac{21}{5}\\right)"
+ }
+]

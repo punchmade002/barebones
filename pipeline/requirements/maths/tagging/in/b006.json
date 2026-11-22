@@ -1,0 +1,385 @@
+[
+ {
+  "part": "maths-pp-2016-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the probability of each choice\nOne letter out of 26 is right, and each number is one out of 10.\nP(M, 3, 3) &= \\frac{1}{26}\\times\\frac{1}{10}\\times\\frac{1}{10}\n&= \\frac{1}{2600}\nANSWER: \\frac{1}{2600}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Probabilities of the events\nThere are $26 \\times 10 \\times 10 = 2600$ outcomes.\nJackpot: $\\frac{1}{2600}$. Letter and first number only: $1 \\times 1 \\times 9 = 9$ outcomes, so $\\frac{9}{2600}$. Letter and second number only: also $\\frac{9}{2600}$. Letter only: $1 \\times 9 \\times 9 = 81$ outcomes, so $\\frac{81}{2600}$.\n## Multiply payout by probability\n\\text{Jackpot: } x\\,P(x) &= 1000 \\times \\frac{1}{2600} = \\frac{1000}{2600}\n\\text{Letter, first number: } x\\,P(x) &= 50 \\times \\frac{9}{2600} = \\frac{450}{2600}\n\\text{Letter, second number: } x\\,P(x) &= 50 \\times \\frac{9}{2600} = \\frac{450}{2600}\n\\text{Letter only: } x\\,P(x) &= 50 \\times \\frac{81}{2600} = \\frac{4050}{2600}\n\\text{Fail to win: } x\\,P(x) &= 0\n## Add to find the expected payout\n\\sum x\\,P(x) &= \\frac{1000}{2600}+\\frac{450}{2600}+\\frac{450}{2600}+\\frac{4050}{2600}\n&= \\frac{5950}{2600}\n&\\approx 2.29\n## Compare with the €2 charge\nThe club pays out $\\text{€}2.29$ on average per play but takes in $\\text{€}2$.\n2 - 2.29 &= -0.29\nANSWER: \\text{Club loses } 29 \\text{ cent per play}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q6#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Write profit as revenue minus pay-out\nLet $x$ be the charge per play in euro. Average pay-out per play is $\\text{€}2.29$.\n600 &= 845(x - 2.29)\n## Solve for x\n\\frac{600}{845} &= x - 2.29\nx &= \\frac{600}{845} + 2.29\nx &\\approx 0.71 + 2.29\nx &= 3.00\nANSWER: \\text{€}3.00"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the diagonal CE of the rectangular base\n$CDEF$ is a rectangle with $|CD| = 2.5$ and $|CF| = |DE| = 3$, so $CE$ is the hypotenuse of a right-angled triangle.\n|CE|^2 &= 3^2 + 2.5^2\n&= 9 + 6.25\n&= 15.25\n|CE| &= \\sqrt{15.25}\n&\\approx 3.905\n## Halve the diagonal to get AC\n$A$ is where the diagonals cross, so it is the midpoint of $CE$.\n|AC| &= \\tfrac{1}{2}\\sqrt{15.25}\n&\\approx 1.9525\n&\\approx 1.95\\text{ m}\nANSWER: |AC| = 1.95\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use tan in the right-angled triangle BAC\nThe angle of elevation is $\\angle BCA = 50^\\circ$. $|AB|$ is opposite it and $|AC| = 1.95$ is adjacent.\n\\tan 50^\\circ &= \\frac{|AB|}{1.95}\n## Solve for AB\n|AB| &= 1.95 \\tan 50^\\circ\n&= 1.95(1.19175)\n&= 2.3239\n&\\approx 2.3\\text{ m}\nANSWER: |AB| = 2.3\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q7#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use Pythagoras in the right-angled triangle BAC\n$|AB| = 2.3$ and $|AC| = 1.95$ are the two shorter sides; $|BC|$ is the hypotenuse.\n|BC|^2 &= 1.95^2 + 2.3^2\n&= 3.8025 + 5.29\n&= 9.0925\n## Take the square root\n|BC| &= \\sqrt{9.0925}\n&\\approx 3.0154\n&\\approx 3\\text{ m}\nANSWER: |BC| = 3\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q7#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Identify the triangle BCD and its sides\n$A$ is the midpoint of both diagonals and $BA$ is vertical, so $|BD| = |BC| = 3$. Also $|CD| = 2.5$.\nLet $\\alpha = \\angle BCD$. It is opposite the side $BD$.\n## Write the cosine rule\nBelow, $c$ stands for $\\cos\\alpha$.\n|BD|^2 &= |BC|^2 + |CD|^2 - 2|BC||CD|\\cos\\alpha\n3^2 &= 3^2 + 2.5^2 - 2(3)(2.5)\\cos\\alpha\n9 &= 9 + 6.25 - 15\\cos\\alpha\n9 &= 15.25 - 15\\cos\\alpha\n## Solve for cos α\n15\\cos\\alpha &= 15.25 - 9\n15\\cos\\alpha &= 6.25\n\\cos\\alpha &= \\frac{6.25}{15}\n&= \\frac{1.25}{3}\n## Find the angle\n\\alpha &= \\cos^{-1}\\!\\left(\\frac{1.25}{3}\\right)\n&\\approx 65.4^\\circ\n&\\approx 65^\\circ\nANSWER: \\angle BCD = 65^\\circ"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q7#(a)(v)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Identify the four triangular faces\nFaces $BCD$ and $BEF$ are isosceles with sides $3, 3, 2.5$. The angle between the sides $2.5$ and $3$ is $\\angle BCD = 65^\\circ$.\nFaces $BCF$ and $BDE$ are equilateral with all sides $3$ (each has $|BC| = |CF| = |BF| = 3$), so each angle is $60^\\circ$.\nUse area $= \\tfrac{1}{2}ab\\sin C$ for each pair.\n## Total area of the four faces\nA &= 2\\left[\\tfrac{1}{2}(2.5)(3)\\sin 65^\\circ\\right] + 2\\left[\\tfrac{1}{2}(3)(3)\\sin 60^\\circ\\right]\n&= 2(3.75)(0.9063) + 2(4.5)(0.8660)\n&= 6.797 + 7.794\n&= 14.59\n&\\approx 15\\text{ m}^2\nANSWER: 15\\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find AC using tan 60°\n$|AB| = 3$ is opposite the $60^\\circ$ angle and $|CA|$ is adjacent.\n\\tan 60^\\circ &= \\frac{3}{|CA|}\n|CA| &= \\frac{3}{\\tan 60^\\circ}\n&= \\frac{3}{\\sqrt{3}}\n&= \\sqrt{3}\n## Double it to get the diagonal CE\n|CE| &= 2|CA|\n&= 2\\sqrt{3}\n## Use Pythagoras with the square of side x\nThe two sides of the square and the diagonal $CE$ form a right-angled triangle.\nx^2 + x^2 &= (2\\sqrt{3})^2\n2x^2 &= 12\nx^2 &= 6\nx &= \\sqrt{6}\nANSWER: \\sqrt{6}\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the period\nFor $\\cos(bt)$ the period is $\\dfrac{2\\pi}{b}$. Here $b = \\dfrac{\\pi}{6}$.\n\\text{Period} &= \\frac{2\\pi}{\\pi/6}\n&= 2\\pi \\times \\frac{6}{\\pi}\n&= 12\\text{ hours}\n## Find the range\n$\\cos$ always lies between $-1$ and $1$, so the $1.5\\cos(\\cdot)$ term lies between $-1.5$ and $1.5$.\n\\text{Minimum} &= 1.6 - 1.5\n&= 0.1\n\\text{Maximum} &= 1.6 + 1.5\n&= 3.1\nANSWER: \\text{Period} = 12\\text{ hours},\\quad \\text{Range} = [0.1,\\,3.1]\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Use the largest value of cos\nThe height is greatest when $\\cos\\left(\\dfrac{\\pi}{6}t\\right) = 1$, which happens at $t = 0$.\nh_{\\max} &= 1.6 + 1.5(1)\n&= 3.1\\text{ m}\nANSWER: 3.1\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate h(t)\nThe rate of change of height is $h'(t)$. The constant $1.6$ differentiates to $0$. Use the chain rule on $\\cos\\left(\\dfrac{\\pi}{6}t\\right)$.\nh'(t) &= 1.5\\left(-\\sin\\left(\\frac{\\pi}{6}t\\right)\\right)\\cdot\\frac{\\pi}{6}\n&= -\\frac{\\pi}{4}\\sin\\left(\\frac{\\pi}{6}t\\right)\n## Substitute t = 2\nh'(2) &= -\\frac{\\pi}{4}\\sin\\left(\\frac{2\\pi}{6}\\right)\n&= -\\frac{\\pi}{4}\\sin\\left(\\frac{\\pi}{3}\\right)\n&= -\\frac{\\pi}{4}\\times\\frac{\\sqrt{3}}{2}\n&\\approx -0.68\\text{ m/h}\n## Explain the answer\nThe rate is negative, so the height is falling. At $t = 2$ (2 a.m.) the tide is going out at $0.68$ m per hour.\nANSWER: h'(2) \\approx -0.68\\text{ m/h}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Find t for each time\n$t$ is the number of hours since midnight, so each 3-hour column adds 3 to $t$.\nt &= 0, 3, 6, 9, 12, 15, 18, 21, 24\n## Heights when cos = 1 (t = 0, 12, 24)\nh(0) &= 1.6 + 1.5\\cos\\left(0\\right)\n&= 1.6 + 1.5(1)\n&= 3.1\nh(12) &= 1.6 + 1.5\\cos\\left(2\\pi\\right)\n&= 1.6 + 1.5(1)\n&= 3.1\nh(24) &= 1.6 + 1.5\\cos\\left(4\\pi\\right)\n&= 1.6 + 1.5(1)\n&= 3.1\n## Heights when cos = −1 (t = 6, 18)\nh(6) &= 1.6 + 1.5\\cos\\left(\\pi\\right)\n&= 1.6 + 1.5(-1)\n&= 0.1\nh(18) &= 1.6 + 1.5\\cos\\left(3\\pi\\right)\n&= 1.6 + 1.5(-1)\n&= 0.1\n## Heights when cos = 0 (t = 3, 9, 15, 21)\nh(3) &= 1.6 + 1.5\\cos\\left(\\frac{\\pi}{2}\\right)\n&= 1.6 + 1.5(0)\n&= 1.6\nh(9) &= 1.6 + 1.5\\cos\\left(\\frac{3\\pi}{2}\\right)\n&= 1.6 + 1.5(0)\n&= 1.6\nh(15) &= 1.6 + 1.5\\cos\\left(\\frac{5\\pi}{2}\\right)\n&= 1.6 + 1.5(0)\n&= 1.6\nh(21) &= 1.6 + 1.5\\cos\\left(\\frac{7\\pi}{2}\\right)\n&= 1.6 + 1.5(0)\n&= 1.6\nANSWER: h = 3.1,\\ 1.6,\\ 0.1,\\ 1.6,\\ 3.1,\\ 1.6,\\ 0.1,\\ 1.6,\\ 3.1\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Plot the nine points from the table\nPlot $(t, h)$ using time on the horizontal axis and height on the vertical axis.\nThe points are $(0, 3.1)$, $(3, 1.6)$, $(6, 0.1)$, $(9, 1.6)$, $(12, 3.1)$, $(15, 1.6)$, $(18, 0.1)$, $(21, 1.6)$, $(24, 3.1)$.\n## Join the points with a smooth curve\nIt is a cosine wave: maximum $3.1$ at midnight, midday and the next midnight, minimum $0.1$ at 6 a.m. and 6 p.m. It crosses $1.6$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m.\nANSWER: \\text{Cosine curve through the nine points}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Read the low and high tide from the graph\nHigh tide is the highest point, $3.1$ m. Low tide is the lowest point, $0.1$ m.\n\\text{Difference} &= 3.1 - 0.1\n&= 3\\text{ m}\nANSWER: 3\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q8#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find when the loaded barge can enter\nLoaded, it needs at least $2$ m. Draw the line $h = 2$ on the graph. The rising curve meets it at about 9:30 a.m. on the curve from (d)(ii), so the barge enters then.\n## Find when the unloaded barge must leave\nUnloaded, it needs at least $1.5$ m. Draw the line $h = 1.5$. The falling curve meets it at about 15:08 (3:08 p.m.) on our curve, so the barge must leave before then. The marking scheme read 9:30 and 15:15 (5 h 45 min); readings close to the curve are accepted.\n## Subtract the times\n15{:}08 - 9{:}30 &= 5\\text{ h }38\\text{ min}\nANSWER: \\approx 5\\text{ h }38\\text{ min}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Standardise the income €60 000\nHere $\\mu = \\text{€}39\\,400$ and $\\sigma = \\text{€}12\\,920$. Use $z = \\dfrac{x - \\mu}{\\sigma}$.\nz &= \\frac{60000 - 39400}{12920}\n&= \\frac{20600}{12920}\n&\\approx 1.59\n## Find the probability above this z-value\nFrom the tables, $P(z < 1.59) = 0.9441$.\nP(z > 1.59) &= 1 - P(z < 1.59)\n&= 1 - 0.9441\n&= 0.0559\n&= 5.59\\%\n&\\approx 5.6\\%\nANSWER: 5.6\\%"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Find the z-value for the lowest 10%\nThe tables give $P(z \\le 1.28) = 0.9$. By symmetry the value with $10\\%$ below it is $z = -1.28$.\n## Convert back to an income\n\\frac{x - 39400}{12920} &= -1.28\nx - 39400 &= -1.28(12920)\nx - 39400 &= -16537.6\nx &= 39400 - 16537.6\nx &= 22862.4\nx &\\approx \\text{€}22\\,862\nANSWER: \\text{€}22\\,862"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q9#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths23",
+   "maths24"
+  ],
+  "marks": 15,
+  "solution": "## State the hypotheses\nThe population mean was $\\text{€}39\\,400$. We test whether it has changed (either direction), so the test is two-tailed.\nH_0:\\ \\mu &= 39400\nH_1:\\ \\mu &\\ne 39400\n## Calculate the test statistic\nThe sample has $n = 1000$ and $\\bar{x} = 38\\,280$; $\\sigma = 12\\,920$.\nz &= \\frac{\\bar{x} - \\mu}{\\sigma/\\sqrt{n}}\n&= \\frac{38280 - 39400}{12920/\\sqrt{1000}}\n&= \\frac{-1120}{12920/\\sqrt{1000}}\n&= \\frac{-1120}{408.57}\n&\\approx -2.74\n## Compare with the 5% critical values\nAt the $5\\%$ level, two-tailed, the critical values are $\\pm 1.96$.\n-2.74 &< -1.96\n## Write the conclusion\n$z$ lies outside $[-1.96, 1.96]$, so the result is significant. Reject $H_0$.\nThere is evidence that the mean annual income of full-time workers has changed since the national data were published.\nANSWER: z = -2.74 < -1.96\\text{, so reject } H_0\\text{: the mean income has changed}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Write the 95% confidence interval\nUse $\\bar{x} \\pm 1.96\\dfrac{s}{\\sqrt{n}}$ with $\\bar{x} = 26\\,974$, $s = 5120$ and $n = 400$.\n\\text{Interval} &= 26974 \\pm 1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)\n## Work out the margin of error\nE &= 1.96\\left(\\frac{5120}{\\sqrt{400}}\\right)\n&= 1.96\\left(\\frac{5120}{20}\\right)\n&= 1.96 \\times 256\n&= 501.76\n## Find the two ends of the interval\n\\text{Lower} &= 26974 - 501.76\n&= 26472.24\n\\text{Upper} &= 26974 + 501.76\n&= 27475.76\nANSWER: 26472.24 \\le \\mu \\le 27475.76"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Give a reason\nFarm size is not normally distributed, but the sampling distribution of the sample means from many large samples will be approximately normal (central limit theorem).\nSo normal-distribution methods, such as confidence intervals, can be used for the mean farm size.\nANSWER: \\text{The distribution of sample means will be normally distributed.}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Set the margin of error equal to 4.5%\nThe margin of error is $\\dfrac{1}{\\sqrt{n}}$, and $4.5\\% = 0.045$.\n\\frac{1}{\\sqrt{n}} &= 0.045\n## Solve for n\n\\sqrt{n} &= \\frac{1}{0.045}\nn &= \\left(\\frac{1}{0.045}\\right)^2\n&= 493.8\n&\\approx 494\nANSWER: n = 494"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the pay for the deliveries\nShe is paid $\\text{€}2$ for each of her 5 deliveries.\n5 \\times \\text{€}2 &= \\text{€}10\n## Subtract this from the total pay\nWhat is left is the pay for the 2 hours worked.\n\\text{€}28 - \\text{€}10 &= \\text{€}18\n## Divide by the 2 hours\n\\text{€}18 \\div 2 &= \\text{€}9\nANSWER: \\text{€}9 \\text{ per hour}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Write the pay for the hours\nThe hourly rate is $\\text{€}9$, so $h$ hours pay:\n\\text{Hours pay} &= 9h\n## Write the pay for the deliveries\nEach delivery pays $\\text{€}2$, so $d$ deliveries pay:\n\\text{Delivery pay} &= 2d\n## Add the two amounts\nw &= 9h + 2d\nANSWER: w = 9h + 2d"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Pay for the 6 weekday hours\n6 \\times 9 &= 54\n## Pay for the 12 weekday deliveries\n12 \\times 2 &= 24\n## Find the Sunday hourly rate\nTime and a half means $1.5$ times the normal rate.\n9 \\times 1.5 &= 13.5\n## Pay for the 5 Sunday hours\n5 \\times 13.5 &= 67.5\n## Write an equation for the total pay\nLet $d$ be the number of Sunday deliveries, paid $\\text{€}2$ each.\n54 + 24 + 67.5 + 2d &= 161.5\n78 + 67.5 + 2d &= 161.5\n145.5 + 2d &= 161.5\n## Solve for d\n2d &= 161.5 - 145.5\n2d &= 16\nd &= 8\nANSWER: d = 8 \\text{ deliveries}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Substitute z₁ and z₂\nz_3 &= z_1 + 2z_2\n&= (1 + 3i) + 2(2 - i)\n## Multiply out the bracket\n&= 1 + 3i + 4 - 2i\n## Collect real and imaginary parts\n&= 5 + i\nANSWER: z_3 = 5 + i"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Write each number as a point (Re, Im)\n$z_1 = 1 + 3i$ is the point $(1, 3)$.\n$z_2 = 2 - i$ is the point $(2, -1)$.\n$z_3 = 5 + i$ is the point $(5, 1)$.\n## Plot and label the points\nThe real part is read along the Re axis and the imaginary part up the Im axis.\nANSWER: z_1 = (1, 3),\\; z_2 = (2, -1),\\; z_3 = (5, 1)"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Find z₂ − z₃\nz_2 - z_3 &= (2 - i) - (5 + i)\n&= -3 - 2i\n## Find its modulus\n|z_2 - z_3| &= \\sqrt{(-3)^2 + (-2)^2}\n&= \\sqrt{9 + 4}\n&= \\sqrt{13}\n## Find z₁ + z₂\nz_1 + z_2 &= (1 + 3i) + (2 - i)\n&= 3 + 2i\n## Find its modulus\n|z_1 + z_2| &= \\sqrt{3^2 + 2^2}\n&= \\sqrt{9 + 4}\n&= \\sqrt{13}\n## Compare\nBoth moduli equal $\\sqrt{13}$, so the statement is true.\nANSWER: |z_2 - z_3| = \\sqrt{13} = |z_1 + z_2|"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q2#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write w as a fraction\nw &= \\frac{z_1}{z_2}\n&= \\frac{1 + 3i}{2 - i}\n## Multiply top and bottom by the conjugate of 2 − i\nThe conjugate of $2 - i$ is $2 + i$.\n&= \\frac{(1 + 3i)(2 + i)}{(2 - i)(2 + i)}\n## Multiply out the numerator\n(1 + 3i)(2 + i) &= 2 + i + 6i + 3i^2\n&= 2 + 7i - 3\n&= -1 + 7i\n## Multiply out the denominator\n(2 - i)(2 + i) &= 4 + 2i - 2i - i^2\n&= 4 + 1\n&= 5\n## Divide and write in the form a + bi\nw &= \\frac{-1 + 7i}{5}\n&= -\\frac{1}{5} + \\frac{7}{5}i\nANSWER: w = -\\frac{1}{5} + \\frac{7}{5}i"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Multiply out each bracket\n3(x - 7) + 5(x - 4) &= 15\n3x - 21 + 5x - 20 &= 15\n## Collect like terms\n8x - 41 &= 15\n## Add 41 to both sides\n8x &= 15 + 41\n8x &= 56\n## Divide both sides by 8\nx &= 7\nANSWER: x = 7"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Rearrange the second equation\n5a &= 25 + 2b\n5a - 2b &= 25\nCall the equations $4a + 3b = -3$ (1) and $5a - 2b = 25$ (2).\n## Multiply (1) by 2\n8a + 6b &= -6\n## Multiply (2) by 3\n15a - 6b &= 75\n## Add the two new equations to eliminate b\n8a + 6b + 15a - 6b &= -6 + 75\n23a &= 69\n## Divide both sides by 23\na &= 3\n## Substitute a = 3 into (1)\n4(3) + 3b &= -3\n12 + 3b &= -3\n3b &= -15\nb &= -5\nANSWER: a = 3,\\; b = -5"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 10,
+  "solution": "## Multiply out the bracket\n2(2x - 3) + 6x &< 25\n4x - 6 + 6x &< 25\n## Collect like terms\n10x - 6 &< 25\n## Add 6 to both sides\n10x &< 31\n## Divide both sides by 10\nx &< 3.1\n## List the natural numbers below 3.1\nSince $x \\in \\mathbb{N}$, the values are $1, 2, 3$.\nANSWER: x \\in \\{1, 2, 3\\}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Put x = 0 (the y-axis)\nAny point on the $y$-axis has $x = 0$.\nf(0) &= 0^3 + 0^2 - 2(0) + 7\n&= 7\nANSWER: (0, 7)"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 1 into f(x)\nf(1) &= 1^3 + 1^2 - 2(1) + 7\n&= 1 + 1 - 2 + 7\n&= 7\n## Compare with the point\n$f(1) = 7$, so the point $A(1, 7)$ is on the graph of $f$.\nANSWER: f(1) = 7"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q4#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate each term\nUse $\\frac{d}{dx}(x^n) = nx^{n-1}$; the derivative of a constant is $0$.\nf(x) &= x^3 + x^2 - 2x + 7\nf'(x) &= 3x^2 + 2x - 2\n## Substitute x = 1 to find the slope\nf'(1) &= 3(1)^2 + 2(1) - 2\n&= 3 + 2 - 2\n&= 3\nANSWER: f'(x) = 3x^2 + 2x - 2, \\quad \\text{slope} = 3"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q4#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the point and the slope\nThe slope is $m = 3$ and the point is $(1, 7)$.\ny - y_1 &= m(x - x_1)\n## Substitute\ny - 7 &= 3(x - 1)\n## Multiply out the bracket\ny - 7 &= 3x - 3\n## Add 7 to both sides\ny &= 3x + 4\nANSWER: y = 3x + 4"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q5#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Find the first differences\nSubtract each term from the next one.\n15 - 13 &= 2\n19 - 15 &= 4\n25 - 19 &= 6\n33 - 25 &= 8\n## Spot the pattern\nThe first differences are $2, 4, 6, 8$: they go up by $2$ each time, so the next ones are $10, 12, 14$.\n## Find U₆\nU_6 &= 33 + 10\n&= 43\n## Find U₇\nU_7 &= 43 + 12\n&= 55\n## Find U₈\nU_8 &= 55 + 14\n&= 69\n## Find the second differences\nThe first differences are $2, 4, 6, 8, 10, 12, 14$. Subtract each from the next one.\n4 - 2 &= 2\n6 - 4 &= 2\n8 - 6 &= 2\n10 - 8 &= 2\n12 - 10 &= 2\n14 - 12 &= 2\n## Conclude\nThe second differences are all $2$ (constant), so the pattern is quadratic.\nANSWER: U_6 = 43,\\; U_7 = 55,\\; U_8 = 69"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Substitute n = 1\n$U_1 = 13$.\n1^2 + b(1) + c &= 13\n1 + b + c &= 13\nb + c &= 12\n## Substitute n = 2\n$U_2 = 15$.\n2^2 + b(2) + c &= 15\n4 + 2b + c &= 15\n2b + c &= 11\n## Subtract the equations to find b\nSubtract $b + c = 12$ from $2b + c = 11$.\n(2b + c) - (b + c) &= 11 - 12\nb &= 11 - 12\nb &= -1\n## Substitute b = -1 into b + c = 12\n-1 + c &= 12\nc &= 12 + 1\nc &= 13\nANSWER: b = -1,\\; c = 13"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q5#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Identify a and d\nThe first term is $a = 12$ and the common difference is $d = 14 - 12 = 2$.\n## Write the formula for Tₙ\nT_n &= a + (n - 1)d\n&= 12 + (n - 1)(2)\n&= 12 + 2n - 2\n&= 10 + 2n\n## Substitute n = 30\nT_{30} &= 10 + 2(30)\n&= 10 + 60\n&= 70\nANSWER: T_n = 10 + 2n, \\quad T_{30} = 70"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q6#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the tax at 20% on the first part\nThe 20% rate applies to the first $\\text{€}1300$.\n0.2 \\times 1300 &= 260\n## Find the amount taxed at 40%\n1550 - 1300 &= 250\n## Find the tax at 40% on the remainder\n0.4 \\times 250 &= 100\n## Add the two amounts of tax\n260 + 100 &= 360\n## Subtract the tax credits\n360 - 126 &= 234\nANSWER: \\text{€}234"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the part of her wage taxed at 5.5%\nThe first $\\text{€}462$ and the next $\\text{€}214$ are taxed at lower rates; the rest is the balance.\n1550 - 462 - 214 &= 874\n## USC on the first 462 at 1%\n462 \\times 0.01 &= 4.62\n## USC on the next 214 at 3%\n214 \\times 0.03 &= 6.42\n## USC on the balance of 874 at 5.5%\n874 \\times 0.055 &= 48.07\n## Add the three amounts\n4.62 + 6.42 + 48.07 &= 59.11\nANSWER: \\text{€}59.11"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q6#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Add her three deductions\nThe deductions are income tax, USC and PRSI.\n234 + 59.11 + 18 &= 311.11\n## Write the deductions as a percentage of her gross wage\n\\frac{311.11}{1550} \\times 100 &= 20.07\\ldots\n&\\approx 20.1\nANSWER: \\text{(i) } \\text{€}311.11 \\quad \\text{(ii) } 20.1\\%"
+ }
+]

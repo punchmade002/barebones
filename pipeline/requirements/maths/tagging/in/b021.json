@@ -1,0 +1,445 @@
+[
+ {
+  "part": "maths-pp-2020-ordinary-p1-q3#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Multiply out z₃ = 2i z₂\nz_3 &= 2i(-2 + i)\n&= -4i + 2i^2\n## Replace i² with −1\nz_3 &= -4i + 2i^2\n&= -4i + 2(-1)\n&= -4i - 2\n&= -2 - 4i\n## Read off the points to plot\nEach $a + bi$ is the point $(a, b)$: real part across, imaginary part up.\n$z_1 = 3 - 4i$ is the point $(3, -4)$.\n$z_2 = -2 + i$ is the point $(-2, 1)$.\n$z_3 = -2 - 4i$ is the point $(-2, -4)$.\n## Plot and label the three points\nMark a dot at each point on the Argand diagram and label it $z_1$, $z_2$, $z_3$.\nANSWER: z_3 = -2 - 4i"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q3#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Use the modulus formula |a + bi| = √(a² + b²)\n|z_1| &= \\sqrt{3^2 + (-4)^2}\n&= \\sqrt{9 + 16}\n&= \\sqrt{25}\n&= 5\nANSWER: |z_1| = 5"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Divide to find z₄\n$z_1 \\times z_4 = 29 + 3i$, so divide both sides by $z_1$.\nz_4 &= \\frac{29 + 3i}{3 - 4i}\n## Multiply top and bottom by the conjugate 3 + 4i\nz_4 &= \\frac{(29 + 3i)(3 + 4i)}{(3 - 4i)(3 + 4i)}\n## Expand the numerator\n(29 + 3i)(3 + 4i) &= 87 + 116i + 9i + 12i^2\n&= 87 + 125i + 12(-1)\n&= 75 + 125i\n## Expand the denominator\n(3 - 4i)(3 + 4i) &= 9 - 16i^2\n&= 9 + 16\n&= 25\n## Divide each term by 25\nz_4 &= \\frac{75 + 125i}{25}\n&= 3 + 5i\nANSWER: z_4 = 3 + 5i"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q4#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Convert square feet to square metres\nSince $1\\text{ m} = 3.28\\text{ ft}$, we have $1\\text{ m}^2 = 3.28^2\\text{ ft}^2$. Divide the area in square feet by $3.28^2$.\n\\text{Area in m}^2 &= \\frac{10\\,000\\,000}{3.28^2}\n&= 929\\,506.2463...\n## Round to two significant figures\n&\\approx 930\\,000\n## Write in the form a × 10ⁿ\n930\\,000 &= 9.3 \\times 10^5\nANSWER: 9.3 \\times 10^5 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q4#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Find the litres of paint needed\nOne litre covers 5 square metres, so divide the area by 5.\n\\text{Litres} &= \\frac{930\\,000}{5}\n&= 186\\,000\n## Find the number of tins\nEach tin holds 25 litres, so divide the litres by 25.\n\\text{Tins} &= \\frac{186\\,000}{25}\n&= 7440\nANSWER: 7440 \\text{ tins}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write both sides as powers of 2\n$8 = 2^3$, so $8^{2x} = (2^3)^{2x}$.\n2^{9x-1} &= 8^{2x}\n2^{9x-1} &= (2^3)^{2x}\n## Multiply the indices on the right\nUse $(a^m)^n = a^{mn}$.\n2^{9x-1} &= 2^{6x}\n## Equate the indices\nThe bases are equal, so the powers must be equal.\n9x - 1 &= 6x\n9x - 6x &= 1\n3x &= 1\nx &= \\frac{1}{3}\nANSWER: x = \\frac{1}{3}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Factorise the quadratic\nFind two numbers that multiply to $-4$ and add to $-3$: they are $+1$ and $-4$.\nx^2 - 3x - 4 &= 0\n(x+1)(x-4) &= 0\n## Set each factor equal to zero\nx + 1 &= 0 \\quad \\text{or} \\quad x - 4 = 0\nx &= -1 \\quad \\text{or} \\quad x = 4\nANSWER: x = -1 \\text{ or } x = 4"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q5#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Use f(x) = −x² − x + 6\nSubstitute each x-value into $f(x)$; $f(-2) = 4$ is already given.\n## Substitute x = −4 into f(x)\nf(-4) &= -(-4)^2 - (-4) + 6\n&= -16 + 4 + 6\n&= -6\n## Substitute x = −3 into f(x)\nf(-3) &= -(-3)^2 - (-3) + 6\n&= -9 + 3 + 6\n&= 0\n## Substitute x = −1 into f(x)\nf(-1) &= -(-1)^2 - (-1) + 6\n&= -1 + 1 + 6\n&= 6\n## Substitute x = 0 into f(x)\nf(0) &= -0^2 - 0 + 6\n&= 0 - 0 + 6\n&= 6\n## Substitute x = 1 into f(x)\nf(1) &= -1^2 - 1 + 6\n&= -1 - 1 + 6\n&= 4\n## Substitute x = 2 into f(x)\nf(2) &= -2^2 - 2 + 6\n&= -4 - 2 + 6\n&= 0\nANSWER: f(-4)=-6,\\ f(-3)=0,\\ f(-2)=4,\\ f(-1)=6,\\ f(0)=6,\\ f(1)=4,\\ f(2)=0"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q5#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Plot the points from the table\nPlot $(-4,-6)$, $(-3,0)$, $(-2,4)$, $(-1,6)$, $(0,6)$, $(1,4)$ and $(2,0)$.\n## Join the points with a smooth curve\nThe graph is a downward-opening curve (the $x^2$ term is negative). It peaks between $x=-1$ and $x=0$, then falls on both sides.\nANSWER: \\text{Smooth curve through the seven points}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q5#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Work out the formula for g(x)\ng(x) &= -(x-2)^2 - (x-2) + 6\n&= -(x^2 - 4x + 4) - x + 2 + 6\n&= -x^2 + 3x + 4\n## Shift the graph of f two units to the right\n$g(x) = f(x-2)$ moves every point of $f$ two units right, so $(x, y)$ becomes $(x+2, y)$.\nThe points become $(-2,-6)$, $(-1,0)$, $(0,4)$, $(1,6)$, $(2,6)$, $(3,4)$ and $(4,0)$.\n## Plot and label g(x)\nPlot these seven points, join them with a smooth curve and label it $g(x)$. Label the first graph $f(x)$.\nANSWER: g(x) = -x^2 + 3x + 4"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q6#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate each term separately\nUse $\\frac{d}{dx}(ax^n) = nax^{n-1}$ on each term. The derivative of a constant is $0$.\nf(x) &= 4x^3 - 3x^2 + x - 7\n\\frac{d}{dx}(4x^3) &= 12x^2\n\\frac{d}{dx}(-3x^2) &= -6x\n\\frac{d}{dx}(x) &= 1\n\\frac{d}{dx}(-7) &= 0\n## Add the derivatives together\nf'(x) &= 12x^2 - 6x + 1 + 0\nf'(x) &= 12x^2 - 6x + 1\nANSWER: f'(x) = 12x^2 - 6x + 1"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q6#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 1 into f'(x)\nThe slope of the tangent at $x = 1$ is $f'(1)$.\nf'(1) &= 12(1)^2 - 6(1) + 1\n&= 12 - 6 + 1\n&= 7\nANSWER: 7"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q6#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Write the line through (1, -5) with slope 7\nUse $y - y_1 = m(x - x_1)$ with $m = 7$ and $(x_1, y_1) = (1, -5)$.\ny - (-5) &= 7(x - 1)\ny + 5 &= 7(x - 1)\n## Rearrange into the form ax + by + c = 0\ny + 5 &= 7x - 7\n0 &= 7x - 7 - y - 5\n7x - y - 12 &= 0\nANSWER: 7x - y - 12 = 0"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12",
+   "maths5"
+  ],
+  "marks": 5,
+  "solution": "## Use g(2) = 6 to get an equation in p and q\ng(2) &= 2(2)^2 + p(2) + q\n&= 8 + 2p + q\n8 + 2p + q &= 6\n2p + q &= -2\n## Differentiate g(x)\ng(x) &= 2x^2 + px + q\ng'(x) &= 4x + p\n## Use g'(3) = 9 to find p\ng'(3) &= 4(3) + p\n&= 12 + p\n12 + p &= 9\np &= -3\n## Substitute p = -3 into 2p + q = -2\n2(-3) + q &= -2\n-6 + q &= -2\nq &= 4\nANSWER: p = -3, \\quad q = 4"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q7#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Count the number of monthly repayments\nThree years is $3 \\times 12$ months.\n\\text{number of payments} &= 3 \\times 12\n&= 36\n## Multiply the repayment by the number of payments\n\\text{total} &= 443.66 \\times 36\n&= 15971.76\nANSWER: \\text{€}15\\,971.76"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q7#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the amount Pat borrows\nHe borrows the price of the car minus the trade-in allowance.\n\\text{borrowed} &= 32000 - 20000\n&= 12000\n## Write the repayment as a percentage of the loan\n\\frac{15971.76}{12000} \\times 100 &= 133.098\n&\\approx 133.1\\%\nANSWER: 133.1\\%"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Write the growth factor for 3 years\nAn increase of $33.1\\%$ means the investment becomes $1.331$ times the original. With $r$ as a decimal, the growth factor over 3 years is $(1+r)^3$.\n(1 + r)^3 &= 1.331\n## Take the cube root of both sides\n1 + r &= \\sqrt[3]{1.331}\n1 + r &= 1.1\nr &= 0.1\n## Convert to a percentage\nr &= 0.1 \\times 100 = 10\\%\nANSWER: r = 10\\%"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q7#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Apply 20% depreciation for 3 years\nLosing $20\\%$ each year leaves $80\\% = 0.8$ of the value each year.\n\\text{value} &= 32000(0.8)^3\n&= 32000 \\times 0.512\n&= 16384\nANSWER: \\text{€}16\\,384"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q7#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Form an equation for the original value x\nAfter 3 years at $20\\%$ depreciation, the value is $x(0.8)^3$.\nx(0.8)^3 &= 17920\n0.512x &= 17920\n## Divide both sides by 0.512\nx &= \\frac{17920}{0.512}\nx &= 35000\nANSWER: \\text{€}35\\,000"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find h(0), the height at the starting block\nThe swimmer is on the block when $x = 0$.\nh(0) &= \\frac{1}{60}(0)^2 - \\frac{1}{4}(0) + \\frac{3}{5}\n&= \\frac{3}{5}\nANSWER: \\frac{3}{5}\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 12 into h(x)\nh(12) &= \\frac{1}{60}(12)^2 - \\frac{1}{4}(12) + \\frac{3}{5}\n## Evaluate each term\n&= \\frac{144}{60} - 3 + \\frac{3}{5}\n&= \\frac{12}{5} - 3 + \\frac{3}{5}\n&= 0\n## State the conclusion\nSince $h(12) = 0$, the swimmer is on the surface of the water 12 m from the block.\nANSWER: h(12) = 0"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Set h(x) = 0 to find where she is at water level\n\\frac{1}{60}x^2 - \\frac{1}{4}x + \\frac{3}{5} &= 0\n## Multiply every term by 60 to clear the fractions\n60\\left(\\frac{1}{60}x^2\\right) - 60\\left(\\frac{1}{4}x\\right) + 60\\left(\\frac{3}{5}\\right) &= 0\nx^2 - 15x + 36 &= 0\n## Factorise the quadratic\nFind two numbers with product $36$ and sum $-15$: $-3$ and $-12$.\n(x - 3)(x - 12) &= 0\n## Solve for x\nx &= 3 \\quad \\text{or} \\quad x = 12\nThe swimmer enters the water at $x = 3$. The value $x = 12$ is where she resurfaces, as shown in part (b)(i).\nANSWER: x = 3\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term separately\n\\frac{d}{dx}\\left(\\frac{1}{60}x^2\\right) &= \\frac{2}{60}x = \\frac{1}{30}x\n\\frac{d}{dx}\\left(-\\frac{1}{4}x\\right) &= -\\frac{1}{4}\n\\frac{d}{dx}\\left(\\frac{3}{5}\\right) &= 0\n## Add the derivatives together\nh'(x) &= \\frac{1}{30}x - \\frac{1}{4}\nANSWER: h'(x) = \\frac{1}{30}x - \\frac{1}{4}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Set h'(x) = 0 at the greatest depth\nAt the lowest point of the graph the slope is zero.\n\\frac{1}{30}x - \\frac{1}{4} &= 0\n## Solve for x\n\\frac{1}{30}x &= \\frac{1}{4}\nx &= \\frac{30}{4}\nx &= \\frac{15}{2}\nANSWER: x = \\frac{15}{2}\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 7.5 into h(x)\nh(7.5) &= \\frac{1}{60}(7.5)^2 - \\frac{1}{4}(7.5) + \\frac{3}{5}\n&= \\frac{15}{16} - \\frac{15}{8} + \\frac{3}{5}\n&= -\\frac{15}{16} + \\frac{3}{5}\n&= -\\frac{75}{80} + \\frac{48}{80}\n&= -\\frac{27}{80}\n## Interpret the negative value as a depth\nA negative $h$ means below the water, so the greatest depth is $\\frac{27}{80}$ m.\nANSWER: \\frac{27}{80}\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Percentage increase from 50-100 m to 100-150 m\nPercentage increase $= \\frac{\\text{new} - \\text{old}}{\\text{old}} \\times 100$.\n\\frac{29.33 - 28.5}{28.5} \\times 100 &= \\frac{0.83}{28.5} \\times 100\n&\\approx 2.9\\%\n## Percentage increase from 100-150 m to 150-200 m\n\\frac{30.68 - 29.33}{29.33} \\times 100 &= \\frac{1.35}{29.33} \\times 100\n&\\approx 4.6\\%\nANSWER: 2.9\\%, \\quad 4.6\\%"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q8#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find his 50-100 m split time\nA $14.7\\%$ increase means multiplying by $1.147$.\n25.01 \\times 1.147 &= 28.68647\n&\\approx 28.686\n## Find his 100-150 m split time\nA $2.9\\%$ increase means multiplying by $1.029$.\n28.686 \\times 1.029 &= 29.517894\n&\\approx 29.518\n## Find his 150-200 m split time\nA $4.6\\%$ increase means multiplying by $1.046$.\n29.518 \\times 1.046 &= 30.875828\n&\\approx 30.876\n## Add the four split times\n\\text{total} &= 25.01 + 28.686 + 29.518 + 30.876\n&= 114.09 \\text{ s} = 1:54.09\n## Subtract Michael Phelps' time\nPhelps' time $1:53.36$ is $60 + 53.36 = 113.36$ seconds.\n114.09 - 113.36 &= 0.73\nANSWER: 0.73\\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find how the number of matchsticks grows\nPattern 1 has $3$ matchsticks and pattern 2 has $7$. Each new triangle added to the row needs $2$ more sticks, but the new pattern also adds a triangle pointing the other way, so $4$ sticks are added each time.\n7 - 3 &= 4\n## Add 4 each time to fill the table\n\\text{Pattern 3} &= 7 + 4 = 11\n\\text{Pattern 4} &= 11 + 4 = 15\n\\text{Pattern 5} &= 15 + 4 = 19\n\\text{Pattern 6} &= 19 + 4 = 23\nANSWER: 3,\\ 7,\\ 11,\\ 15,\\ 19,\\ 23"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Continue the pattern up to pattern 10\nThe sequence $3, 7, 11, \\dots$ goes up by $4$ each time, so pattern 6 has $23$ sticks.\n\\text{Pattern 7} &= 23 + 4 = 27\n\\text{Pattern 8} &= 27 + 4 = 31\n\\text{Pattern 9} &= 31 + 4 = 35\n\\text{Pattern 10} &= 35 + 4 = 39\nANSWER: 39"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Identify an arithmetic sequence\nThe terms increase by a constant $4$, so $T_n = a + (n-1)d$ with first term $a = 3$ and common difference $d = 4$.\n## Substitute and simplify\nT_n &= 3 + (n - 1)4\nT_n &= 3 + 4n - 4\nT_n &= 4n - 1\nANSWER: T_n = 4n - 1"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Set T_k = 147 and solve\n4k - 1 &= 147\n4k &= 148\nk &= 37\nANSWER: k = 37"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Use the sum formula for an arithmetic series\n$S_n = \\frac{n}{2}\\left[2a + (n-1)d\\right]$ with $a = 3$ and $d = 4$.\nS_n &= \\frac{n}{2}\\left[2(3) + (n - 1)4\\right]\n## Simplify inside the bracket\nS_n &= \\frac{n}{2}\\left[6 + 4n - 4\\right]\nS_n &= \\frac{n}{2}\\left[4n + 2\\right]\n## Multiply out\nS_n &= n(2n + 1)\nS_n &= 2n^2 + n\nANSWER: S_n = 2n^2 + n"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Set S_n = 820 and rearrange to a quadratic\n2n^2 + n &= 820\n2n^2 + n - 820 &= 0\n## Factorise and solve\n(2n + 41)(n - 20) &= 0\nn &= -\\frac{41}{2} \\quad \\text{or} \\quad n = 20\n## Reject the impossible solution\nThe number of patterns must be positive, so $n = -\\frac{41}{2}$ is rejected.\nn &= 20\nANSWER: n = 20\\text{ patterns}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find how the number of triangles grows\nPattern 1 has $1$ triangle and pattern 2 has $3$. Each pattern adds $2$ more triangles than the one before.\n3 - 1 &= 2\n## Add 2 each time to fill the table\n\\text{Pattern 3} &= 3 + 2 = 5\n\\text{Pattern 4} &= 5 + 2 = 7\n\\text{Pattern 5} &= 7 + 2 = 9\n\\text{Pattern 6} &= 9 + 2 = 11\nANSWER: 1,\\ 3,\\ 5,\\ 7,\\ 9,\\ 11"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p1-q9#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write the total area as a multiple of a sum\nThe triangle numbers $1, 3, 5, 7, \\dots$ form an arithmetic series with $a = 1$ and $d = 2$. Each triangle has area $4\\sqrt{3}$.\n\\text{area} &= 4\\sqrt{3}\\,(1 + 3 + 5 + 7 + \\cdots)\n## Find the sum of the first 15 terms\nS_{15} &= \\frac{15}{2}\\left[2(1) + (15 - 1)(2)\\right]\n&= \\frac{15}{2}\\left[2 + 28\\right]\n&= 7.5 \\times 30\n&= 225\n## Multiply by the area of one triangle\n\\text{area} &= 4\\sqrt{3} \\times 225\n&= 900\\sqrt{3}\n&\\approx 1558.85 \\approx 1559\nANSWER: 1559\\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the number of choices\nEach course is chosen independently, so multiply the numbers of choices.\n\\text{Meals} &= 4 \\times 6 \\times 8\n&= 192\nANSWER: 192"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write an equation for the number of meals\nLet $x$ be the number of desserts still available.\n4 \\times 6 \\times x &= 120\n## Solve for x\n24x &= 120\nx &= \\frac{120}{24}\nx &= 5\nANSWER: 5 \\text{ desserts}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q1#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## List the probability for each person\nThe first three people do not play tennis, with probability $\\frac{7}{8}$ each. The fourth plays, with probability $\\frac{1}{8}$.\n## Multiply the four probabilities\nP &= \\frac{7}{8} \\times \\frac{7}{8} \\times \\frac{7}{8} \\times \\frac{1}{8}\n&= \\frac{343}{4096}\n&\\approx 0.08374\nANSWER: \\frac{343}{4096} \\approx 0.08374"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q1#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the ways two of the three play\nExactly two play tennis and one does not. The non-player can be first, second or third, so there are 3 orders, each with the same probability.\n## Find the probability of one order and multiply by 3\nP &= 3 \\left( \\frac{1}{8} \\times \\frac{1}{8} \\times \\frac{7}{8} \\right)\n&= 3 \\times \\frac{7}{512}\n&= \\frac{21}{512}\n&\\approx 0.04101\nANSWER: \\frac{21}{512} \\approx 0.04101"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Write the distance formula\n$|AB| = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ with $A(4,6)$ and $B(-2,2)$.\n## Substitute the coordinates\n|AB| &= \\sqrt{(-2-4)^2 + (2-6)^2}\n&= \\sqrt{(-6)^2 + (-4)^2}\n## Square and add\n&= \\sqrt{36 + 16}\n&= \\sqrt{52}\n## Write in the form a root b\n$52 = 4 \\times 13$ and $\\sqrt{4} = 2$.\n&= \\sqrt{4 \\times 13}\n&= 2\\sqrt{13}\nANSWER: 2\\sqrt{13}"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q2#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the midpoint formula\nThe midpoint is $\\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$.\nD &= \\left( \\frac{4 + (-2)}{2}, \\frac{6 + 2}{2} \\right)\n&= \\left( \\frac{2}{2}, \\frac{8}{2} \\right)\n&= (1, 4)\nANSWER: D = (1, 4)"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q2#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope of DE\nParallel lines have equal slopes. $D(1,4)$ and $E(7,3)$.\nm_{DE} &= \\frac{3 - 4}{7 - 1}\n&= -\\frac{1}{6}\n## Find the slope of BC\n$B(-2,2)$ and $C(10,0)$.\nm_{BC} &= \\frac{0 - 2}{10 - (-2)}\n&= \\frac{-2}{12}\n&= -\\frac{1}{6}\n## Compare the slopes\nThe slopes are equal, so $DE$ is parallel to $BC$.\nANSWER: m_{DE} = m_{BC} = -\\frac{1}{6}, \\text{ so } DE \\parallel BC"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Translate C to the origin\nMove every point 10 units left. $x$ goes down by 10 and $y$ does not change, so $C$ becomes $(0,0)$.\n$A(4,6) \\to (-6,6)$ and $B(-2,2) \\to (-12,2)$.\n## Use the area formula\nWith one vertex at $(0,0)$, Area $= \\frac{1}{2}|x_1y_2 - x_2y_1|$.\n\\text{Area} &= \\frac{1}{2}\\left|(-6)(2) - (-12)(6)\\right|\n&= \\frac{1}{2}\\left|-12 + 72\\right|\n&= \\frac{1}{2}\\left|60\\right|\n&= 30\nANSWER: 30 \\text{ units}^2"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q3#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Use the margin of error formula\nMargin of error $= \\frac{1}{\\sqrt{n}}$ with $n = 1000$.\n\\text{Margin of error} &= \\frac{1}{\\sqrt{1000}}\n&\\approx 0.031622\n## Convert to a percentage\n&= 3.2\\%\nANSWER: 3.2\\%"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q3#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find the sample proportion\n\\hat{p} &= \\frac{762}{1000}\n&= 0.762\n&= 76.2\\%\n## Add and subtract the margin of error\nThe 95% confidence interval is $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$, using $3.2\\%$ from part (i).\n\\text{Lower} &= 76.2 - 3.2\n&= 73.0\n\\text{Upper} &= 76.2 + 3.2\n&= 79.4\nANSWER: 73\\% \\le \\mu \\le 79.4\\%"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q3#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## State the hypotheses\n$H_0$: the percentage who believe it is safe is $80\\%$.\n$H_1$: the percentage who believe it is safe is not $80\\%$.\n## Compare 80% with the confidence interval\nThe 95% confidence interval from part (ii) is $73\\%$ to $79.4\\%$.\n$80\\%$ is not inside this interval.\n## State the conclusion in context\nReject $H_0$ at the 5% level. There is sufficient evidence that the percentage of people who believe it is safe to give credit card details online is not $80\\%$.\nReason: $80\\%$ lies outside the 95% confidence interval.\nANSWER: \\text{Reject } H_0\\text{: the percentage is not } 80\\%\\text{, since } 80\\% \\text{ is outside } [73\\%, 79.4\\%]"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q3#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24",
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find the boundaries one standard deviation from the mean\nThe shaded area runs from $\\mu - \\sigma$ to $\\mu + \\sigma$, with $\\mu = 480$ and $\\sigma = 90$.\nA &= 480 - 90\n&= 390\nB &= 480 + 90\n&= 570\nANSWER: A = 390,\\ B = 570"
+ },
+ {
+  "part": "maths-pp-2020-ordinary-p2-q3#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths24",
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Use the Empirical Rule\nAbout $68\\%$ of values lie within one standard deviation of the mean.\n## Find 68% of the candidates\n\\text{Candidates} &= 68\\% \\times 6500\n&= 4420\nANSWER: 4420"
+ }
+]

@@ -1,0 +1,368 @@
+[
+ {
+  "part": "maths-pp-2024-ordinary-p1-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Substitute $x = 2$\n\\text{Expression} &= \\frac{3(2)+5}{10} - \\frac{1}{2+3}\n&= \\frac{6+5}{10} - \\frac{1}{5}\n&= \\frac{11}{10} - \\frac{1}{5}\n## Write over a common denominator and subtract\nThe common denominator is $10$, and $\\frac{1}{5} = \\frac{2}{10}$.\n&= \\frac{11}{10} - \\frac{2}{10}\n&= \\frac{9}{10}\nANSWER: \\frac{9}{10}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 20,
+  "solution": "## Differentiate $f(x)$\nUse the rule: the derivative of $ax^n$ is $anx^{n-1}$.\nf(x) &= 5x^2 - 20x + 2\nf'(x) &= 10x - 20\n## Set $f'(x) = 0$ to find the turning point\n10x - 20 &= 0\n10x &= 20\nx &= 2\n## Check it is a minimum\nDifferentiate again. A positive second derivative means a local minimum.\nf''(x) &= 10\n$10 > 0$, so $x = 2$ is a local minimum.\n## Find the $y$ co-ordinate by substituting $x = 2$ into $f(x)$\nf(2) &= 5(2)^2 - 20(2) + 2\n&= 5(4) - 40 + 2\n&= 20 - 40 + 2\n&= -18\nANSWER: (2, -18)"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q5#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Relate $g'(x)$ to the graph\n$g$ is a straight line, so $g'(x)$ is its slope, the same everywhere.\n## Read two points from the graph\nThe line passes through $(0, 1)$ and $(6, 5)$.\n## Use rise over run\nm &= \\frac{5 - 1}{6 - 0}\n&= \\frac{4}{6}\n&= \\frac{2}{3}\nANSWER: g'(x) = \\frac{2}{3}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q6#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Read k(2.5) from the graph\nGo up from $x = 2.5$ to the curve, then across to the $y$-axis (blue dashed lines).\nk(2.5) &\\approx 5.8\n## Draw the line y = 7\nDraw a horizontal line across at $y = 7$ until it meets the curve.\nThen go straight down to the $x$-axis. It lands at about $x = 1.9$.\n## Read off the values of x\n$k(x) \\le 7$ where the curve is on or below the line $y = 7$, which is to the right of the crossing.\nx &\\ge 1.9\nANSWER: k(2.5) \\approx 5.8, \\quad x \\ge 1.9"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q6#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write the Trapezoidal Rule\nThe strips are 1 unit wide, so $h = 1$. The rule is half the width times (first + last + twice the middle values).\nA &= \\frac{h}{2}\\left[y_0 + y_5 + 2(y_1 + y_2 + y_3 + y_4)\\right]\n## Substitute the values from the table\nA &= \\frac{1}{2}\\left[12 + 2.8 + 2(9 + 6.8 + 5.1 + 3.8)\\right]\n## Add the numbers inside the brackets\nA &= \\frac{1}{2}\\left[12 + 2.8 + 2(24.7)\\right]\n&= \\frac{1}{2}\\left[12 + 2.8 + 49.4\\right]\n&= \\frac{1}{2}(64.2)\n&= 32.1\nANSWER: A = 32.1 \\ \\text{units}^2"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q6#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Write the percentage error formula\nPercentage error is the error divided by the actual value, times 100.\n\\text{error} &= \\frac{\\text{estimate} - \\text{actual}}{\\text{actual}} \\times 100\n## Substitute the two areas\n\\text{error} &= \\frac{32.1 - 31.8}{31.8} \\times 100\n## Work out the numerator\n\\text{error} &= \\frac{0.3}{31.8} \\times 100\n## Calculate and round to 2 decimal places\n\\text{error} &\\approx 0.9434\n&\\approx 0.94\nANSWER: 0.94\\%"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q7#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths1"
+  ],
+  "marks": 10,
+  "solution": "## Find p(0)\np(0) &= 0^3 - 6(0)^2 + 6(0) + 20\n&= 20\n## Find p(1)\np(1) &= 1^3 - 6(1)^2 + 6(1) + 20\n&= 1 - 6 + 6 + 20\n&= 21\n## Find p(3)\np(3) &= 3^3 - 6(3)^2 + 6(3) + 20\n&= 27 - 54 + 18 + 20\n&= 11\n## Find p(5)\np(5) &= 5^3 - 6(5)^2 + 6(5) + 20\n&= 125 - 150 + 30 + 20\n&= 25\n## Complete the table\nThe table is $p(0) = 20$, $p(1) = 21$, $p(2) = 16$, $p(3) = 11$, $p(4) = 12$, $p(5) = 25$.\n## Plot the six points and join them\nPlot $(0, 20)$, $(1, 21)$, $(2, 16)$, $(3, 11)$, $(4, 12)$, $(5, 25)$ and join them with a smooth curve.\nThe curve rises a little, falls to a minimum near $t = 3.4$, then rises steeply.\nANSWER: p(0)=20,\\ p(1)=21,\\ p(3)=11,\\ p(5)=25"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q7#(a)(iii), (iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term of p(t)\nUse $\\frac{d}{dt}(t^n) = nt^{n-1}$. The derivative of a constant is $0$.\np'(t) &= 3t^2 - 12t + 6\n## Substitute t = 2 into p'(t)\np'(2) &= 3(2)^2 - 12(2) + 6\n&= 12 - 24 + 6\n&= -6\nANSWER: p'(t) = 3t^2 - 12t + 6, \\quad p'(2) = -6"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q7#(a)(v)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Say what p'(t) measures\n$p'(t)$ is the rate of change of the number of bacteria with respect to time.\n$p$ is in thousands and $t$ is in hours, so $p'$ is in thousands of bacteria per hour.\n## Interpret p'(4) = 6\np'(4) &= 6 \\text{ thousand per hour}\nThe value is positive, so the number of bacteria is increasing.\nANSWER: \\text{After 4 hours the bacteria are growing at a rate of 6000 per hour}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q7#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 1\nk(1) &= 3000 \\times 2.72^{0.5(1)}\n&= 3000 \\times 2.72^{0.5}\n&\\approx 4947.73\n&\\approx 4948\n## Substitute t = 2\nk(2) &= 3000 \\times 2.72^{0.5(2)}\n&= 3000 \\times 2.72^{1}\n&= 3000 \\times 2.72\n&= 8160\nANSWER: k(1) \\approx 4948, \\quad k(2) = 8160"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q7#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Set up the condition\nWe need the smallest whole number $n$ with $k(n) \\ge 35\\,000$. From part (i), $n = 1$ and $n = 2$ are too small.\n3000 \\times 2.72^{0.5n} &\\ge 35\\,000\n## Try n = 3\nk(3) &= 3000 \\times 2.72^{0.5(3)}\n&\\approx 13\\,457.8\nThis is less than $35\\,000$.\n## Try n = 4\nk(4) &= 3000 \\times 2.72^{0.5(4)}\n&= 3000 \\times 2.72^{2}\n&= 22\\,195.2\nThis is less than $35\\,000$.\n## Try n = 5\nk(5) &= 3000 \\times 2.72^{0.5(5)}\n&\\approx 36\\,605.3\nThis is more than $35\\,000$, so $n = 5$ is the first time the number reaches $35\\,000$.\nANSWER: n = 5"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read the graph at 08:00\nGo up from 08:00 on the time axis to the line, then across to the distance axis. Mark these guide lines on the diagram.\n\\text{distance} &\\approx 13 \\text{ km}\nANSWER: 13 \\ \\text{km}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Write the speed formula\nS &= \\frac{D}{T}\n## Find the distance from A to B\nD &= 32 - 20\n&= 12 \\text{ km}\n## Find the time from A to B\nA is at 08:30 and B is at 09:00, so the time is 30 minutes.\nT &= 30 \\text{ min} = 0.5 \\text{ hours}\n## Divide distance by time\nS &= \\frac{12}{0.5}\n&= 24\nANSWER: 24 \\ \\text{km/hour}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Draw the 30 minute stop at B\nB is at $(09{:}00,\\ 32)$. Stopping for 30 minutes keeps the distance at $32$ km until $09{:}30$.\nDraw a horizontal line from $(09{:}00,\\ 32)$ to $(09{:}30,\\ 32)$.\n## Draw the journey home\nHe leaves at $09{:}30$ and takes 1 hour, so he arrives home at $10{:}30$ with distance $0$.\nDraw a straight line from $(09{:}30,\\ 32)$ to $(10{:}30,\\ 0)$.\nANSWER: \\text{Horizontal line to } (09{:}30,\\ 32), \\text{ then a line to } (10{:}30,\\ 0)"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Add 1.5 km each week to complete the table\n7.5 + 1.5 &= 9\n9 + 1.5 &= 10.5\n10.5 + 1.5 &= 12\n12 + 1.5 &= 13.5\n## Identify the arithmetic sequence\nThe first term is $a = 6$ and the common difference is $d = 1.5$. Week $n$ is $T_n = a + (n-1)d$.\n## Substitute n = 100\nT_{100} &= 6 + (100 - 1)(1.5)\n&= 6 + 99(1.5)\n&= 6 + 148.5\n&= 154.5 \\text{ km}\nANSWER: 9,\\ 10.5,\\ 12,\\ 13.5; \\quad T_{100} = 154.5 \\ \\text{km}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Explain the problem with the pattern\nThe distance goes up by 1.5 km every week with no limit, so it grows forever.\nBy week 100 she would run $154.5$ km in a week, which is too far for a person to run.\nANSWER: \\text{The distance keeps growing, so she would eventually be running too far}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q8#(b)(iv), (v)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the sum formula\nThe sum of the first $n$ terms of an arithmetic sequence is $S_n = \\frac{n}{2}[2a + (n-1)d]$.\nS_n &= \\frac{n}{2}\\left[2(6) + (n-1)(1.5)\\right]\n## Substitute n = 10\nS_{10} &= \\frac{10}{2}\\left[2(6) + (10-1)(1.5)\\right]\n&= 5\\left[12 + 9(1.5)\\right]\n&= 5\\left[12 + 13.5\\right]\n&= 5(25.5)\n&= 127.5 \\text{ km}\nANSWER: S_n = \\frac{n}{2}\\left[2(6) + (n-1)(1.5)\\right], \\quad S_{10} = 127.5 \\ \\text{km}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q9#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 15,
+  "solution": "## Convert £59.50 to euro\n£0.85 is worth €1, so divide the sterling amount by 0.85.\n\\text{ticket} &= \\frac{59.50}{0.85}\n&= 70\n## Cost of 8 tickets before the discount\n8 \\times 70 &= 560\n## Take off the 20% discount\nA 20% discount means he pays $100\\% - 20\\% = 80\\%$, which is $0.8$.\n560 \\times 0.8 &= 448\nANSWER: \\text{(i) } \\text{€}70; \\quad \\text{(ii) } \\text{€}448"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the total grams of carbon for the flight\n\\text{total} &= 28\\,000 \\times 394\n&= 11\\,032\\,000 \\text{ g}\n## Divide by the number of passengers\n\\text{per passenger} &= \\frac{11\\,032\\,000}{244}\n&\\approx 45\\,213.11 \\text{ g}\n## Convert grams to kilograms\nThere are 1000 g in 1 kg, so divide by 1000.\n\\text{per passenger} &= \\frac{45\\,213.11}{1000}\n&\\approx 45.2131 \\text{ kg}\n## Round to 1 decimal place\n&\\approx 45.2 \\text{ kg}\nANSWER: 45.2 \\ \\text{kg}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q9#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 20\nA(20) &= 17\\,600 - 160(20)\n&= 17\\,600 - 3200\n&= 14\\,400\nANSWER: 14\\,400"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q9#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Set A(x) equal to 12 800\n17\\,600 - 160x &= 12\\,800\n## Subtract 17 600 from both sides\n-160x &= 12\\,800 - 17\\,600\n-160x &= -4800\n## Divide both sides by −160\nx &= \\frac{-4800}{-160}\nx &= 30\nANSWER: x = 30"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q9#(d)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Part (i): set the sales equal to 360 000\n15\\,000x - 150x^2 &= 360\\,000\n## Part (i): move everything to one side\n-150x^2 + 15\\,000x - 360\\,000 &= 0\n150x^2 - 15\\,000x + 360\\,000 &= 0\n## Part (i): divide every term by 150\nx^2 - 100x + 2400 &= 0\n## Part (ii): factorise\nWe need two numbers with product $2400$ and sum $-100$. These are $-40$ and $-60$.\n(x - 40)(x - 60) &= 0\n## Part (ii): set each factor to zero\nx - 40 &= 0\nx &= 40\nx - 60 &= 0\nx &= 60\nANSWER: x = 40 \\text{ or } x = 60"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q10#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Add up the deductions\n7650 + 1920 + 1407 &= 10\\,977\n## Subtract from the gross income\n\\text{net} &= 48\\,000 - 10\\,977\n&= 37\\,023\n## Write the net income as a percentage of gross\n\\frac{37\\,023}{48\\,000} \\times 100 &= 77.13\n&\\approx 77\nANSWER: \\text{(i) } 37\\,023; \\quad \\text{(ii) } 77\\%"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q10#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 15,
+  "solution": "## Part (i): tax on €34 000 at 20%\nAll of Olivia's income is within the first €40 000, so it is all taxed at 20%.\n34\\,000 \\times 0.2 &= 6800\n## Part (i): subtract the tax credit\n6800 - 3550 &= 3250\n## Part (i): net income\nNet income is gross income minus the tax paid.\n34\\,000 - 3250 &= 30\\,750\n## Part (ii): tax on the first €40 000\n40\\,000 \\times 0.2 &= 8000\n## Part (ii): tax on the balance at 40%\n(50\\,000 - 40\\,000) \\times 0.4 &= 4000\n## Part (ii): add the taxes and subtract the credit\n8000 + 4000 &= 12\\,000\n12\\,000 - 3550 &= 8450\nANSWER: \\text{(i) } 30\\,750; \\quad \\text{(ii) } 8450"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q10#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Set the tax credit equal to the tax at 20%\nTax is $0.2 \\times$ income, and the credit takes off $3550$. No tax is paid when they are equal.\n0.2 \\times \\text{income} &= 3550\n## Divide both sides by 0.2\n\\text{income} &= \\frac{3550}{0.2}\n&= 17\\,750\nANSWER: 17\\,750"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q10#(b)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the income that moves to the lower rate\n42\\,000 - 40\\,000 &= 2000\n## Find the saving on that income\nThis €2000 is now taxed at 20% instead of 40%, a difference of 20%.\n2000 \\times 0.2 &= 400\nANSWER: 400"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q10#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Part (i): total of the two bills\n1950 + 400 &= 2350\n## Part (i): substitute into the formula\nA &= 2350 \\times \\frac{120}{365} \\times 0.3\n&= \\frac{2350 \\times 120 \\times 0.3}{365}\n&= \\frac{84\\,600}{365}\n## Part (i): round to the nearest cent\n&\\approx 231.78\n## Part (ii): substitute into the formula\n2250 \\times \\frac{d}{365} \\times 0.3 &= 135\n## Part (ii): multiply the numbers on the left\n\\frac{675d}{365} &= 135\n## Part (ii): multiply both sides by 365\n675d &= 135 \\times 365\n675d &= 49\\,275\n## Part (ii): divide both sides by 675\nd &= \\frac{49\\,275}{675}\nd &= 73\nANSWER: \\text{(i) } 231.78; \\quad \\text{(ii) } 73 \\text{ days}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q1#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## List the seven known scores\nThe known scores are 91, 76, 82, 37, 42, 74 and 54.\n$X$ is the lowest score and $Y$ is the highest, so $X$ goes first and $Y$ goes last.\n## Put the known scores in order\nLowest to highest: 37, 42, 54, 74, 76, 82, 91.\nFull order: $X, 37, 42, 54, 74, 76, 82, 91, Y$.\n## Find the position of the median\nThere are 9 scores, so the median is the middle one.\n\\frac{9+1}{2} &= 5\n## Count to the 5th score\n$X$ is 1st, 37 is 2nd, 42 is 3rd, 54 is 4th and 74 is 5th.\n\\text{Median} &= 74\n## Explain what the median means\nFour scores are below 74 and four are above it, so half the students scored more than 74 and half scored less.\nANSWER: X, 37, 42, 54, 74, 76, 82, 91, Y;\\ \\text{Median} = 74 \\text{ (half scored more, half scored less)}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q1#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Write the range as a formula\nRange = highest score $-$ lowest score.\nY - X &= 61\nY &= X + 61\n## Find the largest possible X\nAll scores are different and $X$ is the lowest, so $X$ must be less than 37.\n$X$ is a whole number, so the largest value is 36.\nX &= 36\n## Find the matching Y\nY &= 36 + 61\nY &= 97\n97 is above 91, so $Y$ is still the highest score.\nANSWER: X = 36,\\ Y = 97"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Write the mean formula\nMean = sum of scores $\\div$ number of scores.\n\\frac{15 + 16 + 19 + t + 26}{5} &= 19.6\n## Add the known scores\n\\frac{76 + t}{5} &= 19.6\n## Multiply both sides by 5\n76 + t &= 19.6 \\times 5\n76 + t &= 98\n## Subtract 76 from both sides\nt &= 98 - 76\nt &= 22\nANSWER: t = 22"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Fill in the green row\nEach green card is numbered 1 to 7, so write G followed by the number.\nGreen row: G1, G2, G3, G4, G5, G6, G7.\n## Fill in the red row\nEach red card is numbered 1 to 7, so write R followed by the number.\nRed row: R1, R2, R3, R4, R5, R6, R7.\nThis gives 14 equally likely outcomes in total.\nANSWER: \\text{Green: G1 to G7;  Red: R1 to R7}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the even-numbered cards\nThe even numbers are 2, 4 and 6, and each appears in both colours.\n\\text{Even cards} &= 3 + 3\n&= 6\n## Write the probability\nProbability = favourable outcomes $\\div$ total outcomes.\nP(\\text{even}) &= \\frac{6}{14}\n&= \\frac{3}{7}\nANSWER: \\frac{3}{7}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q2#(c), (d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## (c) Count the cards left\nR5 is not replaced, so one card is gone.\n14 - 1 &= 13\n## (c) Count the green cards left\nR5 was red, so all 7 green cards are still there.\nP(\\text{green}) &= \\frac{7}{13}\n## (d) Count the cards left\nWhatever the first card is, one card is gone.\n14 - 1 &= 13\n## (d) Count the cards of the other colour\nSay the first card is G3. By symmetry, any first card gives the same count.\nThere are 7 red cards, but we need a different number from 3, so we remove R3.\n7 - 1 &= 6\n## (d) Write the probability\nP(\\text{different colour and number}) &= \\frac{6}{13}\nANSWER: \\text{(c) } \\frac{7}{13}, \\quad \\text{(d) } \\frac{6}{13}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q3#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## (i) Substitute x = 4 into the equation\nIf the point is on $l$, then $y = 1$ when $x = 4$.\ny &= \\frac{1}{2}(4) - 1\n## (i) Simplify\ny &= 2 - 1\ny &= 1\nThis matches the $y$-value of $(4, 1)$, so the point lies on $l$.\n## (ii) Find the point where x = 0\ny &= \\frac{1}{2}(0) - 1\ny &= -1\nPlot $(0, -1)$.\n## (ii) Find the point where x = 2\ny &= \\frac{1}{2}(2) - 1\ny &= 0\nPlot $(2, 0)$. The point $(4, 1)$ from part (i) is a third point.\n## (ii) Find the end point where x = −4\ny &= \\frac{1}{2}(-4) - 1\ny &= -2 - 1\ny &= -3\nPlot $(-4, -3)$.\n## (ii) Find the end point where x = 5\ny &= \\frac{1}{2}(5) - 1\ny &= 2.5 - 1\ny &= 1.5\nPlot $(5, 1.5)$.\n## (ii) Draw the line\nUse a ruler to join $(-4, -3)$ to $(5, 1.5)$, passing through $(0, -1)$, $(2, 0)$ and $(4, 1)$.\nANSWER: \\text{Line through } (-4,-3) \\text{ and } (5, 1.5)"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Slope 3\nLine $d$ rises steeply to the right, so it has the largest positive slope.\n$d$ matches 3.\n## Slope −1\nLine $a$ falls to the right, so its slope is negative.\n$a$ matches $-1$.\n## Slope 1/2\nLine $c$ rises gently to the right, so its slope is a small positive number.\n$c$ matches $\\frac{1}{2}$.\n## Slope 0\nLine $b$ is horizontal, so its slope is 0.\n$b$ matches 0.\nANSWER: 3 \\to d,\\; -1 \\to a,\\; \\tfrac{1}{2} \\to c,\\; 0 \\to b"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope\nSlope = rise $\\div$ run, using $(0, 6)$ and $(2, 9)$.\nm &= \\frac{9 - 6}{2 - 0}\n&= \\frac{3}{2}\n## Use the point-slope formula\nUse $y - y_1 = m(x - x_1)$ with the point $(0, 6)$.\ny - 6 &= \\frac{3}{2}(x - 0)\ny - 6 &= \\frac{3}{2}x\n## Add 6 to both sides\ny &= \\frac{3}{2}x + 6\nANSWER: y = \\frac{3}{2}x + 6"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q4#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Compare with the circle formula\nA circle with centre $(h, k)$ and radius $r$ has equation $(x - h)^2 + (y - k)^2 = r^2$.\n$(x - 5)^2$ gives $h = 5$.\n$(y + 3)^2 = (y - (-3))^2$ gives $k = -3$.\n## Find the radius\nr^2 &= 25\nr &= \\sqrt{25}\nr &= 5\nANSWER: \\text{Centre} = (5, -3),\\ \\text{Radius} = 5"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q4#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Substitute (9, 2) into the left-hand side\nCompare the result with $r^2 = 25$.\n(9 - 5)^2 + (2 + 3)^2 &= 4^2 + 5^2\n&= 16 + 25\n&= 41\n## Compare with 25\n41 &> 25\nIf the result is bigger than $r^2$, the point is outside the circle. If equal, it is on it; if smaller, inside.\nANSWER: (9, 2) \\text{ is outside } k"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Mark the centre\nPlot the centre $(4, -1)$.\n## Mark four points 3 units from the centre\nRight: $(7, -1)$. Left: $(1, -1)$. Up: $(4, 2)$. Down: $(4, -4)$.\n## Draw the circle\nPut the compass point on $(4, -1)$, open it to 3 units, and draw a full circle through those four points.\n(x - 4)^2 + (y + 1)^2 &= 9\nANSWER: (x - 4)^2 + (y + 1)^2 = 9"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p2-q4#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius\nThe $y$-axis ($x = 0$) is a tangent, so it touches the circle at its leftmost point.\nThe lowest point $(2, 1)$ is directly below the centre, so the centre has $x = 2$.\nThe radius is the distance from the centre to the tangent.\nr &= 2 - 0\nr &= 2\n## Find the centre\nThe centre is one radius directly above $(2, 1)$.\ny &= 1 + 2\ny &= 3\nThe centre is $(2, 3)$.\nANSWER: \\text{Radius} = 2,\\ \\text{Centre} = (2, 3)"
+ }
+]

@@ -1,0 +1,406 @@
+[
+ {
+  "part": "maths-pp-2025-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Factor 5 out of the x terms\n5x^2 + 20x - 12 &= 5(x^2 + 4x) - 12\n## Complete the square inside the bracket\nHalf of 4 is 2, so $x^2 + 4x = (x+2)^2 - 2^2$.\n5(x^2 + 4x) - 12 &= 5\\left[(x+2)^2 - 4\\right] - 12\n## Multiply out the 5 and collect constants\n5\\left[(x+2)^2 - 4\\right] - 12 &= 5(x+2)^2 - 20 - 12\n&= 5(x+2)^2 - 32\nANSWER: g(x) = 5(x+2)^2 - 32"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Bring down the power of 5\nLaw of logs: $\\ln A^n = n\\ln A$.\n\\ln\\left[(e^3 p)^5\\right] &= 5\\ln(e^3 p)\n## Split the product into two logs\nLaw of logs: $\\ln(AB) = \\ln A + \\ln B$.\n5\\ln(e^3 p) &= 5\\left(\\ln e^3 + \\ln p\\right)\n## Simplify ln of e cubed\n$\\ln e^3 = 3\\ln e = 3$.\n5\\left(\\ln e^3 + \\ln p\\right) &= 5(3 + \\ln p)\n## Multiply out\n5(3 + \\ln p) &= 15 + 5\\ln p\nANSWER: 15 + 5\\ln p"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q5#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths5",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## State the x value of a point on the y-axis\nEvery point on the $y$-axis has $x = 0$.\n## Find y from the linear equation\n2(0) - y &= 7\n-y &= 7\ny &= -7\n## Substitute (0, -7) into the other equation\nThe solution $(0,-7)$ must also satisfy $x^2 + y + 2y^2 = n$.\nn &= (0)^2 + (-7) + 2(-7)^2\n&= 0 - 7 + 2(49)\n&= -7 + 98\n&= 91\nANSWER: n = 91"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Write the binomial pattern for the first three terms\nIn $(a+b)^7$ the terms are $\\binom{7}{k}a^{7-k}b^k$ with $a=2p$, $b=3$ and $k=0,1,2$.\n(2p+3)^7 &= \\binom{7}{0}(2p)^7 + \\binom{7}{1}(2p)^6(3) + \\binom{7}{2}(2p)^5(3)^2 + \\cdots\n## First term\n\\binom{7}{0}(2p)^7 &= 1\\times 128p^7\n&= 128p^7\n## Second term\n\\binom{7}{1}(2p)^6(3) &= 7\\times 64p^6\\times 3\n&= 1344p^6\n## Third term\n$\\binom{7}{2} = \\frac{7\\times 6}{2} = 21$.\n\\binom{7}{2}(2p)^5(3)^2 &= 21\\times 32p^5\\times 9\n&= 6048p^5\n## Write the three terms together\n\\text{First 3 terms} &= 128p^7 + 1344p^6 + 6048p^5\nANSWER: 128p^7 + 1344p^6 + 6048p^5"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q6#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Use the discriminant for exactly one solution\nOne solution means $b^2 - 4ac = 0$. Here $a=6m$, $b=-4r$, $c=54m$.\n(-4r)^2 - 4(6m)(54m) &= 0\n## Simplify\n16r^2 - 1296m^2 &= 0\nDivide both sides by 16.\nr^2 - 81m^2 &= 0\n## Factorise the difference of two squares\n(r - 9m)(r + 9m) &= 0\nr = 9m \\;\\text{ or }\\; r &= -9m\n## Reject the negative value\n$r$ and $m$ are both positive, so $r = -9m$ is impossible.\nr &= 9m\nANSWER: r = 9m"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q6#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Substitute r = 9m into h(x) = 0\n6mx^2 - 4(9m)x + 54m &= 0\n6mx^2 - 36mx + 54m &= 0\n## Divide through by 6m\n$m > 0$, so dividing by $6m$ is allowed.\nx^2 - 6x + 9 &= 0\n## Factorise and solve\n(x - 3)^2 &= 0\nx &= 3\nANSWER: x = 3"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Find A(2) from the totals\n$A(n)$ is the extra silk added, so $A(2) = S(2) - S(1)$.\nA(2) &= 37.8 - 15.8\n&= 22\n## Find A(3) from the totals\nDo not assume the sequence is arithmetic yet. Use $A(3) = S(3) - S(2)$.\nA(3) &= 66 - 37.8\n&= 28.2\n## Write both values into the table\nThe table row for $A(n)$ reads $15.8$, $22$, $28.2$.\nANSWER: A(2) = 22,\\ A(3) = 28.2"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q7#(a)(ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the first term and common difference\nThe first term is $a = A(1) = 15.8$.\nd &= A(2) - A(1)\n&= 22 - 15.8\n&= 6.2\nCheck: $A(3) - A(2) = 28.2 - 22 = 6.2$, the same.\n## Substitute into the arithmetic sequence formula\nFor an arithmetic sequence, $A(n) = a + (n-1)d$.\nA(n) &= 15.8 + (n-1)(6.2)\n&= 15.8 + 6.2n - 6.2\n&= 6.2n + 9.6\n## Substitute n = 100\nA(100) &= 6.2(100) + 9.6\n&= 620 + 9.6\n&= 629.6\nANSWER: A(n) = 6.2n + 9.6,\\ A(100) = 629.6"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q7#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write the sum formula for an arithmetic series\n$S(n)$ is the sum of the first $n$ terms of $A$, with $a = 15.8$ and $d = 6.2$.\nS(n) &= \\frac{n}{2}\\big(2a + (n-1)d\\big)\n## Substitute a = 15.8 and d = 6.2\nS(n) &= \\frac{n}{2}\\big(2(15.8) + (n-1)(6.2)\\big)\n&= \\frac{n}{2}\\big(31.6 + 6.2n - 6.2\\big)\n## Simplify the bracket\nS(n) &= \\frac{n}{2}\\big(6.2n + 25.4\\big)\n## Multiply out\nS(n) &= 3.1n^2 + 12.7n\nANSWER: S(n) = 3.1n^2 + 12.7n"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q7#(a)(v)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Convert 10 m to centimetres and set up the equation\n$S(n)$ is in centimetres, and $10\\text{ m} = 1000\\text{ cm}$.\n3.1n^2 + 12.7n &= 1000\n3.1n^2 + 12.7n - 1000 &= 0\n## Substitute into the quadratic formula\nHere $a = 3.1$, $b = 12.7$, $c = -1000$.\nn &= \\frac{-12.7 \\pm \\sqrt{(12.7)^2 - 4(3.1)(-1000)}}{2(3.1)}\n&= \\frac{-12.7 \\pm \\sqrt{12561.29}}{6.2}\n## Take the positive root\n$n$ is a number of stages, so $n > 0$.\nn &= \\frac{-12.7 + 112.077}{6.2}\n&\\approx 16.03\n## Round up to a whole stage\n$n \\approx 16.03$ means Stage 16 is just under $10$ m ($S(16) = 996.8$ cm). The first stage over $10$ m is the next whole number, so $k \\in \\mathbb{N}$ gives:\nk &= 17\nANSWER: k = 17"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q7#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the common ratio\nIn a geometric sequence, $r = \\dfrac{O_2}{O_1}$.\nr &= \\frac{0.53}{0.5}\n&= 1.06\n## Find the length of O3\nO_3 &= r \\times O_2\n&= 1.06(0.53)\n&= 0.5618\n## Write the geometric series sum formula\nWith $a = 0.5$ and $r = 1.06$, the sum of the first $n$ terms is:\nS_n &= \\frac{a(r^n - 1)}{r - 1}\n## Substitute and simplify\nS_n &= \\frac{0.5(1.06^n - 1)}{1.06 - 1}\n&= \\frac{0.5(1.06^n - 1)}{0.06}\n&= \\frac{25(1.06^n - 1)}{3}\nANSWER: O_3 = 0.5618,\\ S_n = \\frac{25(1.06^n - 1)}{3}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q7#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Count the orbitals in k laps\nThere are $18$ orbitals in each lap, so $k$ laps contain $18k$ orbitals.\nThe total length is the sum of the first $18k$ orbitals, $S_{18k}$.\n## Replace n by 18k in the formula\nS_{18k} &= \\frac{0.5(1.06^{18k} - 1)}{1.06 - 1}\n&= \\frac{0.5(1.06^{18k} - 1)}{0.06}\n## Simplify the fraction\nS_{18k} &= \\frac{25(1.06^{18k} - 1)}{3}\nANSWER: \\frac{25(1.06^{18k} - 1)}{3}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Apply the 15% sale reduction\nA 15% reduction leaves $85\\%$ of the price, so multiply by $0.85$.\n870 \\times 0.85 &= 739.5\n&= 739.5\n## Apply the 10% loyalty reduction\nA 10% reduction leaves $90\\%$ of the reduced price, so multiply by $0.9$.\n739.5 \\times 0.9 &= 665.55\n&= 665.55\nANSWER: \\text{€}665.55"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the extra cost as an equation in d\nThe paddle costs $\\$95$. In euro, the actual cost is $\\dfrac{95}{d}$ and Jacob's expected cost is $\\dfrac{95}{1.183}$.\nThe actual cost is $\\text{€}1.02$ more.\n\\frac{95}{d} - \\frac{95}{1.183} &= 1.02\n## Multiply both sides by 1.183d to clear the fractions\n95(1.183) - 95d &= 1.02(1.183)d\n## Multiply out the numbers\n112.385 - 95d &= 1.20666d\n## Collect the d terms on one side\nAdd $95d$ to both sides.\n112.385 &= 1.20666d + 95d\n112.385 &= 96.20666d\n## Divide both sides by 96.20666\nd &= \\frac{112.385}{96.20666}\n&\\approx 1.168\nANSWER: d \\approx 1.168"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q8#(c), (d)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## (c) Find the kayak time from S to A\nUse time = distance $\\div$ speed. $|SA| = 2$ km at $6$ km/h.\n\\text{time}_{SA} &= \\frac{2}{6}\n## (c) Find the running time from A to F\n$|AF| = 8$ km at $12$ km/h.\n\\text{time}_{AF} &= \\frac{8}{12}\n## (c) Add the two times\n\\text{total} &= \\frac{2}{6} + \\frac{8}{12}\n&= \\frac{1}{3} + \\frac{2}{3}\n&= 1 \\text{ hour}\n## (d) Use Pythagoras to find the distance SF\nAngle $SAF$ is a right angle, so $|SF|$ is the hypotenuse.\n|SF|^2 &= 8^2 + 2^2\n&= 68\n## (d) Take the square root\n|SF| &= \\sqrt{68}\n&= 2\\sqrt{17}\n## (d) Find the direct kayak time in hours\nKayaking speed is $6$ km/h.\n\\text{time} &= \\frac{2\\sqrt{17}}{6}\n&= \\frac{\\sqrt{17}}{3}\n&\\approx 1.374 \\text{ hours}\n## (d) Convert to minutes\nMultiply hours by $60$.\n\\frac{\\sqrt{17}}{3} \\times 60 &\\approx 82.46\n&\\approx 82 \\text{ minutes}\nANSWER: \\text{(c) } 1\\text{ hour},\\ \\text{(d) } 82\\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q8#(e)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the kayak distance SB\nTriangle $SAB$ has a right angle at $A$, with $|SA| = 2$ and $|AB| = x$.\n|SB| &= \\sqrt{x^2 + 2^2}\n&= \\sqrt{x^2 + 4}\n## Find the kayak time\n\\text{time}_{SB} &= \\frac{\\sqrt{x^2 + 4}}{6}\n## Find the running distance and time\n|BF| &= 8 - x\n\\text{time}_{BF} &= \\frac{8 - x}{12}\n## Add the two times\nT &= \\frac{\\sqrt{x^2 + 4}}{6} + \\frac{8 - x}{12}\nANSWER: T = \\frac{\\sqrt{x^2 + 4}}{6} + \\frac{8 - x}{12}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q8#(e)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Move the fraction to the other side\n\\frac{x}{6\\sqrt{x^2 + 4}} - \\frac{1}{12} &= 0\n\\frac{x}{6\\sqrt{x^2 + 4}} &= \\frac{1}{12}\n## Get rid of the fractions\nMultiply both sides by $12\\sqrt{x^2 + 4}$.\n2x &= \\sqrt{x^2 + 4}\n## Square both sides\n4x^2 &= x^2 + 4\n## Collect the x² terms\nSubtract $x^2$ from both sides.\n3x^2 &= 4\nx^2 &= \\frac{4}{3}\n## Take the positive square root\n$x$ is a distance in $[0, 8]$, so reject the negative root.\nx &= \\frac{2}{\\sqrt{3}}\n&\\approx 1.155 \\text{ km}\nANSWER: x \\approx 1.155 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q8#(e)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Use the number of turning points\n$T'(x) = 0$ at only one value of $x$ in $[0, 8]$, so the graph has exactly one turning point.\nGraphs A and B each have a minimum followed by a maximum (two turning points), so reject them. The answer is C or D.\n## Find T(0) from part (c)\n$x = 0$ means kayak $S$ to $A$, then run $A$ to $F$.\nT(0) &= \\frac{\\sqrt{0^2 + 4}}{6} + \\frac{8 - 0}{12}\n&= 1 \\text{ hour}\n## Find T(8) from part (d)\n$x = 8$ means kayak straight from $S$ to $F$ (about $82$ minutes).\nT(8) &= \\frac{\\sqrt{8^2 + 4}}{6} + \\frac{8 - 8}{12}\n&= \\frac{\\sqrt{68}}{6}\n&\\approx 1.37 \\text{ hours}\n## Compare the end values\n$T(0) = 1 < 1.37 \\approx T(8)$, so the graph ends higher than it starts.\nOf C and D, the one that finishes above its starting height is D.\nANSWER: \\text{D}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Substitute c = 60 into F(c)\nF(60) &= 0.05(60)^2 - 8.5(60) + 800\n&= 0.05(3600) - 510 + 800\n&= 180 - 510 + 800\n&= 470\n## Substitute c = 110 into F(c)\nF(110) &= 0.05(110)^2 - 8.5(110) + 800\n&= 0.05(12100) - 935 + 800\n&= 605 - 935 + 800\n&= 470\n## Compare the two values\nBoth values equal 470, so the fuel consumption is the same at 60 km/hour and 110 km/hour.\nANSWER: F(60) = F(110) = 470"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q9#(a)(ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate F(c) with respect to c\nUse $\\frac{d}{dc}(ac^2)=2ac$, $\\frac{d}{dc}(bc)=b$ and the derivative of a constant is $0$.\nF(c) &= 0.05c^2 - 8.5c + 800\n\\frac{dF}{dc} &= 2(0.05)c - 8.5\n&= 0.1c - 8.5\n## Find the speed c when t = 7\nc &= 78 + 9\\ln(t^2)\n&= 78 + 9\\ln(7^2)\n&= 78 + 9\\ln(49)\n&= 113.026\\ldots\n## Substitute this speed into dF/dc\n\\frac{dF}{dc} &= 0.1c - 8.5\n&= 0.1(113.026) - 8.5\n&= 11.3026 - 8.5\n&= 2.8026\n&\\approx 2.8\nANSWER: \\frac{dF}{dc} = 0.1c - 8.5, \\quad \\frac{dF}{dc} \\approx 2.8 \\text{ when } t = 7"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q9#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate c using the chain rule\nFor $\\ln u$ with $u=t^2$: $\\frac{d}{dt}\\ln u = \\frac{1}{u}\\cdot\\frac{du}{dt}$, and $\\frac{du}{dt}=2t$.\n\\frac{dc}{dt} &= 9 \\cdot \\frac{1}{t^2} \\cdot 2t\n&= \\frac{18t}{t^2}\n## Cancel a factor of t\n\\frac{dc}{dt} &= \\frac{18t}{t^2}\n&= \\frac{18}{t}\nANSWER: \\frac{dc}{dt} = \\frac{18}{t}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q9#(a)(v)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Link the rates with the chain rule\n$F$ depends on $c$, and $c$ depends on $t$.\n\\frac{dF}{dt} &= \\frac{dF}{dc} \\times \\frac{dc}{dt}\n## Substitute the values from (a)(iii) and (a)(iv)\nFrom (a)(iii), $\\frac{dF}{dc}=2.8$ at $t=7$. From (a)(iv), $\\frac{dc}{dt}=\\frac{18}{t}$.\n\\frac{dF}{dt} &= 2.8 \\times \\frac{18}{t}\n## Substitute t = 7 and evaluate\n\\frac{dF}{dt} &= 2.8 \\times \\frac{18}{7}\n&= \\frac{50.4}{7}\n&= 7.2\nANSWER: 7.2 \\text{ (litres per 10 000 km) per minute}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q9#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Find v(1) using the first rule (0 ≤ t ≤ 4)\nv(1) &= 8e^{0.4(1)} - 8\n&= 3.935\\ldots\n&\\approx 3.9\n## Find v(3) using the first rule\nv(3) &= 8e^{0.4(3)} - 8\n&= 8e^{1.2} - 8\n&= 18.56\\ldots\n&\\approx 18.6\n## Find v(5) using the second rule (4 < t ≤ 8)\nv(5) &= -(5)^2 + 24(5) - 48.4\n&= -25 + 120 - 48.4\n&= 46.6\n## Find v(6) using the second rule\nv(6) &= -(6)^2 + 24(6) - 48.4\n&= -36 + 144 - 48.4\n&= 59.6\n## Complete the table\nThe missing values are $v(1)=3.9$, $v(3)=18.6$, $v(5)=46.6$ and $v(6)=59.6$.\n## Plot the nine points and join them\nPlot $(0,0)$, $(1,3.9)$, $(2,9.8)$, $(3,18.6)$, $(4,31.6)$, $(5,46.6)$, $(6,59.6)$, $(7,70.6)$ and $(8,79.6)$.\nJoin them with a smooth curve. Both rules give $v(4)\\approx 31.6$, so the two pieces meet at $t=4$.\nANSWER: 3.9,\\ 18.6,\\ 46.6,\\ 59.6 \\text{ and the graph drawn}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q9#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Write the average speed as an integral\nAverage value of $v$ on $[a,b]$ is $\\frac{1}{b-a}\\int_a^b v(t)\\,dt$. Here $a=4$, $b=8$.\n\\text{Average} &= \\frac{1}{8-4}\\int_4^8 (-t^2 + 24t - 48.4)\\,dt\n&= \\frac{1}{4}\\int_4^8 (-t^2 + 24t - 48.4)\\,dt\n## Integrate each term\nRaise each power by 1 and divide by the new power.\nG(t) &= -\\frac{t^3}{3} + 12t^2 - 48.4t\n## Evaluate G at the upper limit t = 8\nG(8) &= -\\frac{8^3}{3} + 12(8^2) - 48.4(8)\n&= -\\frac{512}{3} + 768 - 387.2\nWrite each term over the common denominator $15$: $387.2 = \\frac{1936}{5} = \\frac{5808}{15}$.\n&= -\\frac{2560}{15} + \\frac{11520}{15} - \\frac{5808}{15}\n&= \\frac{3152}{15}\n## Evaluate G at the lower limit t = 4\nG(4) &= -\\frac{4^3}{3} + 12(4^2) - 48.4(4)\n&= -\\frac{64}{3} + 192 - 193.6\nWrite each term over the common denominator $15$: $193.6 = \\frac{968}{5} = \\frac{2904}{15}$.\n&= -\\frac{320}{15} + \\frac{2880}{15} - \\frac{2904}{15}\n&= -\\frac{344}{15}\n## Subtract and divide by 4\n\\text{Average} &= \\frac{1}{4}\\left[G(8) - G(4)\\right]\n&= \\frac{1}{4}\\left[\\frac{3152}{15} - \\left(-\\frac{344}{15}\\right)\\right]\n&= \\frac{1}{4}\\times\\frac{3496}{15}\n&= \\frac{874}{15}\n&\\approx 58.27\n&\\approx 58.3\nANSWER: 58.3 \\text{ km/hour}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q10#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Spot the rule for the dots\nPattern 1 has dots where $|x|+|y|=1$. Pattern 2 has dots where $|x|+|y|=0$ or $2$.\nEach pattern moves one step from the last, so Pattern 4 has dots where $|x|+|y|$ is $0$, $2$ or $4$.\n## Count the dots at each distance\n$|x|+|y|=0$: 1 dot. $|x|+|y|=2$: 8 dots. $|x|+|y|=4$: 16 dots. In total 25 dots.\n9 are already drawn, so 16 must be added.\n## List the 16 missing dots\nWhere $|x|+|y|=2$: $(2,0)$, $(0,-2)$, $(1,1)$, $(1,-1)$, $(-1,-1)$.\nWhere $|x|+|y|=4$: $(4,0)$, $(0,-4)$, $(3,1)$, $(3,-1)$, $(-3,-1)$, $(1,3)$, $(1,-3)$, $(-1,-3)$, $(2,2)$, $(2,-2)$, $(-2,-2)$.\nANSWER: \\text{16 dots added to give the 25 dots of Pattern 4}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q10#(b), (c)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## (b) Work out which points are n units from the origin\nPattern $n$ has points with $|x|+|y|\\le n$ (and $|x|+|y|$ of the same parity as $n$).\nA point $2000$ units from $(0,0)$ along an axis has $|x|+|y|=2000$, so it is in Pattern 2000.\nA point off the axes is $2000$ units away only if $|x|+|y|>2000$, so it is not in Pattern 2000.\n## (b) Write down the 4 points\n&(2000,\\,0),\\ (-2000,\\,0),\\ (0,\\,2000),\\ (0,\\,-2000)\n## (c) Find when each diagonal point first appears\n$(1,1)$ has $|x|+|y|=2$, so it is in Pattern 2.\n$(2,2)$ has $|x|+|y|=4$, so it is in Pattern 4.\n$(3,3)$ has $|x|+|y|=6$, so it is in Pattern 6.\n$(4,4)$ has $|x|+|y|=8$, so it is in Pattern 8.\n## (c) State the smallest n\nPattern $n$ only reaches $|x|+|y|\\le n$, so $(4,4)$ cannot be in a pattern before Pattern 8.\nn &= 8\nANSWER: \\text{(b) } (2000,0),\\ (-2000,0),\\ (0,2000),\\ (0,-2000); \\quad \\text{(c) } n = 8"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q10#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Make n the subject\nt &= 2n + 1\nt - 1 &= 2n\n\\frac{t-1}{2} &= n\nn &= \\frac{t-1}{2}\nANSWER: n = \\frac{t-1}{2}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q10#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths2",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Replace n by (t − 1)/2\nQ(n) &= \\frac{(n+1)^2}{(2n+1)^2}\n&= \\frac{\\left(\\frac{t-1}{2}+1\\right)^2}{\\left(2\\cdot\\frac{t-1}{2}+1\\right)^2}\n## Simplify the numerator bracket\nWrite $1$ as $\\frac{2}{2}$ and add.\n&= \\frac{\\left(\\frac{t-1+2}{2}\\right)^2}{\\left(2\\cdot\\frac{t-1}{2}+1\\right)^2}\n&= \\frac{\\left(\\frac{t+1}{2}\\right)^2}{\\left(2\\cdot\\frac{t-1}{2}+1\\right)^2}\n## Simplify the denominator bracket\nThe 2 cancels with the denominator 2.\n&= \\frac{\\left(\\frac{t+1}{2}\\right)^2}{(t-1+1)^2}\n&= \\frac{\\left(\\frac{t+1}{2}\\right)^2}{t^2}\n## Square the fraction in the numerator\n&= \\frac{\\frac{(t+1)^2}{2^2}}{t^2}\n&= \\frac{\\frac{(t+1)^2}{4}}{t^2}\n&= \\frac{(t+1)^2}{4t^2}\n## Expand the numerator\n&= \\frac{t^2 + 2t + 1}{4t^2}\nANSWER: Q(n) = \\frac{t^2 + 2t + 1}{4t^2}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q10#(d)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Split into three fractions\nDivide each term of the numerator by $4t^2$.\nQ_\\infty &= \\lim_{t\\to\\infty}\\frac{t^2 + 2t + 1}{4t^2}\n&= \\lim_{t\\to\\infty}\\left(\\frac{t^2}{4t^2} + \\frac{2t}{4t^2} + \\frac{1}{4t^2}\\right)\n## Simplify each fraction\nQ_\\infty &= \\lim_{t\\to\\infty}\\left(\\frac{1}{4} + \\frac{1}{2t} + \\frac{1}{4t^2}\\right)\n## Take the limit\nAs $t\\to\\infty$, $\\frac{1}{2t}\\to 0$ and $\\frac{1}{4t^2}\\to 0$.\nQ_\\infty &= \\frac{1}{4} + 0 + 0\n&= \\frac{1}{4}\nANSWER: Q_\\infty = \\frac{1}{4}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p1-q10#(e)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths18",
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## (i) Count the dots in Pattern 1\nPattern 1 has dots at $(1,0)$, $(-1,0)$, $(0,1)$ and $(0,-1)$.\nH(1) &= 4\n## (ii) Check P(1): n = 1\nP(n) is the statement $H(n) = (n+1)^2$.\n(1+1)^2 &= 2^2\n&= 4\nThis equals $H(1)=4$, so P(1) is true.\n## State P(k): assume it is true for n = k\nAssume that for some $k\\in\\mathbb{N}$:\nH(k) &= (k+1)^2\n## State P(k+1): what we must prove\nReplace $k$ by $k+1$ in $H(k)=(k+1)^2$.\nH(k+1) &= \\left((k+1)+1\\right)^2\n## Use the given formula for H(k+1)\nH(k+1) &= H(k) + 2k + 3\nReplace $H(k)$ using P(k).\n&= (k+1)^2 + 2k + 3\n## Expand and simplify\n&= k^2 + 2k + 1 + 2k + 3\n&= k^2 + 4k + 4\n&= (k+2)^2\n&= \\left((k+1)+1\\right)^2\n## Write the conclusion\nThis is P(k+1), so P(k+1) is true whenever P(k) is true.\nP(1) is true, and P(k) true implies P(k+1) true. By induction, $H(n)=(n+1)^2$ for all $n\\in\\mathbb{N}$.\nANSWER: H(1) = 4 \\text{ and } H(n) = (n+1)^2 \\text{ for all } n \\in \\mathbb{N}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Substitute the point (p, 5) into the line\nA point on the line satisfies its equation, so put $x = p$ and $y = 5$.\n3(p) - 2(5) + 28 &= 0\n3p - 10 + 28 &= 0\n## Solve for p\n3p + 18 &= 0\n3p &= -18\np &= -6\nANSWER: p = -6"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of l\n$l$ is in the form $y = mx + c$, so the slope is the coefficient of $x$.\nm_l &= -\\frac{1}{3}\n## Rearrange h to find its slope\n2x - 5y + 10 &= 0\n5y &= 2x + 10\ny &= \\frac{2}{5}x + 2\nm_h &= \\frac{2}{5}\n## Substitute the slopes into the angle formula\nThe angle $\\theta$ between two lines satisfies $\\tan\\theta = \\pm\\dfrac{m_1 - m_2}{1 + m_1 m_2}$.\n\\tan\\theta &= \\pm\\frac{-\\frac{1}{3} - \\frac{2}{5}}{1 + \\left(-\\frac{1}{3}\\right)\\left(\\frac{2}{5}\\right)}\n## Simplify the fraction\n\\tan\\theta &= \\pm\\frac{-\\frac{11}{15}}{\\frac{13}{15}}\n\\tan\\theta &= \\pm\\frac{-11}{13}\n## Find the acute angle\nTake the positive value, since we want the acute angle.\n\\theta &= \\tan^{-1}\\left(\\frac{11}{13}\\right)\n\\theta &= 40.2\\ldots^\\circ\n\\theta &\\approx 40^\\circ\nANSWER: 40^\\circ"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## Write the area of the triangle in terms of a and b\nThe triangle has base $|a|$ and height $|b|$. The line has negative slope, so $a$ and $b$ have the same sign and $ab > 0$.\n\\frac{1}{2}ab &= 12\nab &= 24\na &= \\frac{24}{b}\n## Write the slope through A(a, 0) and B(0, b)\n\\frac{b - 0}{0 - a} &= -\\frac{2}{3}\n-\\frac{b}{a} &= -\\frac{2}{3}\n3b &= 2a\n## Substitute a = 24/b to find b\n3b &= 2\\left(\\frac{24}{b}\\right)\n3b &= \\frac{48}{b}\n3b^2 &= 48\nb^2 &= 16\nb &= \\pm 4\n## Find a for each value of b\nUse $a = \\dfrac{24}{b}$.\nb = 4 &\\Rightarrow a = 6\nb = -4 &\\Rightarrow a = -6\n## Write each line in the form y = mx + c\nThe slope is $-\\frac{2}{3}$ and the $y$-intercept is $b$, so $y = -\\frac{2}{3}x + b$.\n\\text{Line 1: } y &= -\\frac{2}{3}x + 4\n\\text{Line 2: } y &= -\\frac{2}{3}x - 4\nANSWER: y = -\\frac{2}{3}x + 4 \\text{ and } y = -\\frac{2}{3}x - 4"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q2#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Compare with the circle form (x - h)^2 + (y - k)^2 = r^2\nThe centre is $(h, k)$ and the radius is $r$.\n(x - 4)^2 + (y + 2)^2 &= 45\n(x - 4)^2 + (y - (-2))^2 &= 45\n## Read off the centre and radius\nSo $h = 4$ and $k = -2$, giving centre $(4, -2)$.\nr^2 &= 45\nr &= \\sqrt{45}\nr &= 3\\sqrt{5}\nANSWER: \\text{Centre} = (4, -2), \\quad \\text{Radius} = \\sqrt{45} = 3\\sqrt{5}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q2#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of the radius to (-2, -5)\nThe radius runs from the centre $(4, -2)$ to the point $(-2, -5)$.\nm_{\\text{radius}} &= \\frac{-5 - (-2)}{-2 - 4}\n&= \\frac{-3}{-6}\n&= \\frac{1}{2}\n## Find the slope of the tangent\nA tangent is perpendicular to the radius, so its slope is the negative reciprocal.\nm_{\\text{tangent}} &= -2\n## Substitute into y - y1 = m(x - x1)\ny - (-5) &= -2(x - (-2))\ny + 5 &= -2(x + 2)\ny + 5 &= -2x - 4\n## Write in the form y = mx + c\nSubtract 5 from both sides.\ny &= -2x - 4 - 5\ny &= -2x - 9\nANSWER: y = -2x - 9"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 15,
+  "solution": "## Find the centre of circle t\nFor $x^2 + y^2 + 2gx + 2fy + c = 0$ the centre is $(-g, -f)$.\nHere $2g = 28$ and $2f = -46$, so $g = 14$ and $f = -23$.\nThe centre is $(-14, 23)$.\n## Find the point where y = k touches the circle\nThe tangent $y = k$ is horizontal, so the radius to the point of contact is vertical.\nThe point of contact is directly below or above the centre, so it is $(-14, k)$.\n## Substitute (-14, k) into the equation of t\n(-14)^2 + k^2 + 28(-14) - 46k + k &= 0\n196 + k^2 - 392 - 46k + k &= 0\n## Collect terms into a quadratic\nk^2 - 45k - 196 &= 0\n## Factorise and solve\nTwo numbers that multiply to $-196$ and add to $-45$ are $-49$ and $4$.\n(k - 49)(k + 4) &= 0\nk &= 49 \\text{ or } k = -4\nANSWER: k = 49 \\text{ or } k = -4"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q3#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Add the four regions inside circle A\n$A$ contains the regions $23$, $18$, $6$ and $13$.\nP(A) &= \\frac{23 + 18 + 6 + 13}{240}\n&= \\frac{60}{240}\n## Simplify the fraction\n&= \\frac{1}{4}\nANSWER: P(A) = \\frac{1}{4}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q3#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find P(A ∪ C) from the diagram\n$A \\cup C$ is everything in $A$ or $C$: the regions $60$ (all of $A$), $16$ and $41$.\nP(A \\cup C) &= \\frac{60 + 16 + 41}{240}\n&= \\frac{117}{240}\n## Find P(A), P(C) and P(A ∩ C)\n$C$ contains $13 + 6 + 16 + 41 = 76$ people.\nP(A) &= \\frac{60}{240}\nP(C) &= \\frac{76}{240}\n$A \\cap C$ contains $13 + 6 = 19$ people.\nP(A \\cap C) &= \\frac{19}{240}\n## Substitute into P(A) + P(C) - P(A ∩ C)\nP(A) + P(C) - P(A \\cap C) &= \\frac{60 + 76 - 19}{240}\n&= \\frac{117}{240}\nThis equals $P(A \\cup C)$, so the formula is verified.\nANSWER: P(A \\cup C) = \\frac{117}{240} = P(A) + P(C) - P(A \\cap C)"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q3#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## State the test for independence\n$A$ and $B$ are independent if $P(A \\cap B) = P(A) \\times P(B)$.\n## Find P(A ∩ B)\n$A \\cap B$ contains the regions $18$ and $6$.\nP(A \\cap B) &= \\frac{18 + 6}{240}\n&= \\frac{24}{240}\n&= \\frac{1}{10}\n## Find P(A) and P(B)\n$B$ contains $18 + 6 + 16 + 56 = 96$ people.\nP(A) &= \\frac{1}{4}\nP(B) &= \\frac{96}{240}\n&= \\frac{2}{5}\n## Multiply P(A) and P(B)\nP(A) \\times P(B) &= \\frac{1}{4} \\times \\frac{2}{5}\n&= \\frac{2}{20}\n&= \\frac{1}{10}\n## Conclude\nAnswer: yes. $P(A \\cap B) = \\frac{1}{10} = P(A) \\times P(B)$, so $A$ and $B$ are independent.\nANSWER: \\text{Yes, } P(A \\cap B) = \\frac{1}{10} = P(A) \\times P(B)"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Read the two relevant numbers from the diagram\n$6$ people have been to all three countries and $67$ people have been to none.\n## Choose the order of the two people\nThe pair can be picked in two orders: all three then none, or none then all three. The people are not replaced, so the second fraction has denominator $239$.\nP(\\text{all three, then none}) &= \\frac{6}{240} \\times \\frac{67}{239}\nThe other order gives the same probability, so multiply by $2$.\n## Multiply by 2\nP &= 2 \\times \\frac{6}{240} \\times \\frac{67}{239}\n&= \\frac{2 \\times 6 \\times 67}{240 \\times 239}\n&= \\frac{804}{57360}\n## Simplify by dividing top and bottom by 12\n&= \\frac{67}{4780}\nANSWER: \\frac{67}{4780}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q4#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Write the median using the middle two values\nThere are 12 ages, so the median is the mean of the 6th and 7th values. These are $x$ and $18$.\n\\text{Median} &= \\frac{x + 18}{2}\n## Set the median equal to 17.5 and solve\n\\frac{x + 18}{2} &= 17.5\nx + 18 &= 35\nx &= 17\n## Find Q3 from the top six ages\nWith $x = 17$ the top six ages are $18, 18, 19, 22, 25, 30$. $Q_3$ is the median of these, the mean of the 3rd and 4th.\nQ_3 &= \\frac{19 + 22}{2}\n&= \\frac{41}{2}\n&= 20.5\n## Work out the interquartile range\n\\text{IQR} &= Q_3 - Q_1\n&= 20.5 - 13\n&= 7.5\nANSWER: x = 17, \\quad \\text{IQR} = 7.5"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Say how the mean is affected\nMaking the biggest number bigger increases the total (sum) of the 10 numbers.\nThe mean is the total divided by 10, so the mean increases as well.\n## Say how the median is affected\nFor 10 numbers the median depends only on the middle two values, the 5th and 6th biggest.\nThe biggest number is the 10th, so changing it does not change the 5th or 6th values. The median stays the same.\n## State the answer\nTick the box for the mean only.\nANSWER: \\text{the mean only}"
+ },
+ {
+  "part": "maths-pp-2025-higher-p2-q4#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the mid-interval value of each class\nAdd the ends of each interval and halve: $24$–$30$ gives $27$, $30$–$36$ gives $33$, $36$–$42$ gives $39$.\n$42$–$48$ gives $45$, $48$–$54$ gives $51$, $54$–$60$ gives $57$.\n## Find the sum of (mid-value × frequency)\n\\sum fx &= 27(4) + 33(5) + 39(9) + 45(k) + 51(4) + 57(2)\n&= 108 + 165 + 351 + 45k + 204 + 114\n&= 942 + 45k\n## Find the total number of people\n\\sum f &= 4 + 5 + 9 + k + 4 + 2\n&= k + 24\n## Set mean = 40.4 and solve for k\nThe mean is $\\sum fx$ divided by $\\sum f$.\n\\frac{942 + 45k}{k + 24} &= 40.4\n942 + 45k &= 40.4(k + 24)\n942 + 45k &= 40.4k + 969.6\n45k - 40.4k &= 969.6 - 942\n4.6k &= 27.6\nk &= 6\nANSWER: k = 6"
+ }
+]

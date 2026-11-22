@@ -1,0 +1,370 @@
+[
+ {
+  "part": "maths-pp-2020-higher-p1-q1#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Use the factor theorem\nIf $x+3$ is a factor of $f(x)$, then $x=-3$ is a root, so $f(-3)=0$.\n## Substitute x = −3 into f(x)\nf(-3) &= (-3)^2 + 5(-3) + p\n&= 9 - 15 + p\n&= p - 6\n## Set f(−3) = 0 and solve for p\np - 6 &= 0\np &= 6\nANSWER: p = 6"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q1#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Name the two roots\nThe roots differ by 3, so call them $\\alpha$ and $\\alpha+3$.\n## Use the sum of the roots to find alpha\nFor $x^2+5x+p$, the sum of the roots is $-5$.\n\\alpha + (\\alpha + 3) &= -5\n2\\alpha + 3 &= -5\n2\\alpha &= -8\n\\alpha &= -4\n## Use the product of the roots to find p\nThe roots are $-4$ and $-4+3=-1$. The product of the roots is $p$.\np &= (-4)(-1)\np &= 4\nANSWER: p = 4"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q1#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Write the condition for no x-axis crossing\nThe graph does not cross the $x$-axis when there are no real roots: $b^2-4ac<0$.\n## Substitute a = 1, b = 5, c = p\n5^2 - 4(1)(p) &< 0\n25 - 4p &< 0\n-4p &< -25\np &> 6.25\n## Pick the integers in the allowed range\n$p$ is an integer with $-3 \\le p \\le 8$, so $p$ must be above $6.25$ and at most $8$.\np &= 7 \\text{ or } p = 8\nANSWER: p = 7 \\text{ or } p = 8"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 5,
+  "solution": "## Isolate the modulus\n|2x+5| - 1 &\\le 0\n|2x+5| &\\le 1\n## Rewrite as a double inequality\n$|A| \\le 1$ means $A$ is between $-1$ and $1$.\n-1 \\le 2x + 5 &\\le 1\n## Subtract 5 from every part\n-6 \\le 2x &\\le -4\n## Divide every part by 2\n-3 \\le x &\\le -2\nANSWER: -3 \\le x \\le -2"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths10",
+   "maths5"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the first equation by i to find z₁\niz_1 &= -4 + 3i\ni(iz_1) &= i(-4 + 3i)\ni^2 z_1 &= -4i + 3i^2\nUse $i^2=-1$.\n-z_1 &= -4i - 3\nz_1 &= 3 + 4i\n## Substitute z₁ into the second equation\n3z_1 - z_2 &= 11 + 17i\n3(3 + 4i) - z_2 &= 11 + 17i\n9 + 12i - z_2 &= 11 + 17i\n## Solve for z₂\n-z_2 &= 11 + 17i - 9 - 12i\n-z_2 &= 2 + 5i\nz_2 &= -2 - 5i\nANSWER: z_1 = 3 + 4i, \\quad z_2 = -2 - 5i"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q2#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths10",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write the common ratio as a quotient\nIn a geometric sequence $r = T_2 \\div T_1$.\nr &= \\frac{5 - i}{3 + 2i}\n## Multiply top and bottom by the conjugate 3 − 2i\nr &= \\frac{5 - i}{3 + 2i} \\times \\frac{3 - 2i}{3 - 2i}\n## Expand the numerator and denominator\nr &= \\frac{15 - 10i - 3i + 2i^2}{9 - 6i + 6i - 4i^2}\nUse $i^2=-1$.\nr &= \\frac{15 - 13i - 2}{9 + 4}\nr &= \\frac{13 - 13i}{13}\nr &= 1 - i\nANSWER: r = 1 - i"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q2#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths10",
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Write the formula for the 9th term\n$T_n = ar^{n-1}$ with $a = 3 + 2i$ and $r = 1 - i$.\nT_9 &= ar^8\n&= (3 + 2i)(1 - i)^8\n## Write r in polar form\n$r = 1 - i$ is in the fourth quadrant, so its modulus and argument are:\n|r| &= \\sqrt{1^2 + 1^2}\n&= \\sqrt{2}\n$\\tan\\theta = -1$ in the fourth quadrant gives $\\theta = \\frac{7\\pi}{4}$.\nr &= \\sqrt{2}\\left(\\cos\\frac{7\\pi}{4} + i\\sin\\frac{7\\pi}{4}\\right)\n## Apply De Moivre's Theorem to r⁸\nRaise the modulus to the power 8 and multiply the argument by 8.\nr^8 &= (\\sqrt{2})^8\\left(\\cos\\frac{8 \\times 7\\pi}{4} + i\\sin\\frac{8 \\times 7\\pi}{4}\\right)\n&= 16(\\cos 14\\pi + i\\sin 14\\pi)\n&= 16(1 + 0i)\n&= 16\n## Multiply by a = 3 + 2i\nT_9 &= (3 + 2i)(16)\n&= 48 + 32i\nANSWER: T_9 = 48 + 32i"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Work out f(g(x))\nPut $g(x)$ in place of $x$ in $f(x) = 6x - 5$.\nf(g(x)) &= f\\left(\\frac{x+5}{6}\\right)\n&= 6\\left(\\frac{x+5}{6}\\right) - 5\n&= x + 5 - 5\n&= x\n## Work out g(f(x))\nPut $f(x)$ in place of $x$ in $g(x) = \\frac{x+5}{6}$.\ng(f(x)) &= g(6x - 5)\n&= \\frac{(6x - 5) + 5}{6}\n&= \\frac{6x}{6}\n&= x\n## Compare the two results\nBoth compositions simplify to $x$, so they are equal.\nANSWER: f(g(x)) = g(f(x)) = x \\text{, so yes they are equal}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Take log base 5 of both sides\n\\log_5 y &= \\log_5 (5x^2)\n## Split the product into two logs\nUse $\\log (AB) = \\log A + \\log B$.\n\\log_5 y &= \\log_5 5 + \\log_5 x^2\n## Simplify each log\n$\\log_5 5 = 1$ and $\\log_5 x^2 = 2\\log_5 x$.\n\\log_5 y &= 1 + 2\\log_5 x\nComparing with $\\log_5 y = a + b\\log_5 x$ gives $a=1$ and $b=2$.\nANSWER: a = 1, \\quad b = 2"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q3#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Replace log₅ y using part (i)\nFrom part (i), $\\log_5 y = \\log_5 (5x^2)$.\n\\log_5 (5x^2) &= 2 + \\log_5\\left(\\frac{126}{25}x - 1\\right)\n## Write 2 as a log and combine\n$2 = \\log_5 25$, and $\\log A + \\log B = \\log AB$.\n\\log_5 (5x^2) &= \\log_5 25 + \\log_5\\left(\\frac{126}{25}x - 1\\right)\n\\log_5 (5x^2) &= \\log_5\\left[25\\left(\\frac{126}{25}x - 1\\right)\\right]\n## Equate the arguments and form a quadratic\n5x^2 &= 25\\left(\\frac{126}{25}x - 1\\right)\n5x^2 &= 126x - 25\n5x^2 - 126x + 25 &= 0\n## Factorise and solve for x\n(5x - 1)(x - 25) &= 0\nx &= \\frac{1}{5} \\text{ or } x = 25\nBoth values keep $\\frac{126}{25}x - 1$ positive, so both are valid.\n## Find y using y = 5x²\nx = \\frac{1}{5}: \\quad y &= 5\\left(\\frac{1}{5}\\right)^2\n&= \\frac{5}{25}\n&= \\frac{1}{5}\nx = 25: \\quad y &= 5(25)^2\n&= 5 \\times 625\n&= 3125\nANSWER: y = \\frac{1}{5} \\text{ or } y = 3125"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 15,
+  "solution": "## Differentiate f(x)\nf(x) &= x^3 + kx^2 + 15x + 8\nf'(x) &= 3x^2 + 2kx + 15\n## Substitute x = 3 into f'(x)\nWe are told $f'(3) = -12$.\n3(3)^2 + 2k(3) + 15 &= -12\n27 + 6k + 15 &= -12\n6k + 42 &= -12\n## Solve for k\n6k &= -54\nk &= -9\nANSWER: k = -9"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the turning points: set f'(x) = 0\nf'(x) &= 3x^2 - 18x + 15\n3x^2 - 18x + 15 &= 0\nx^2 - 6x + 5 &= 0\n(x-1)(x-5) &= 0\nx &= 1 \\text{ or } x = 5\n## Find the y-coordinates\nf(1) &= 1 - 9 + 15 + 8 = 15\nf(5) &= 125 - 225 + 75 + 8 = -17\nThe turning points are $(1, 15)$ and $(5, -17)$.\n## Find the slope of g(x)\nm &= \\frac{-17 - 15}{5 - 1}\nm &= \\frac{-32}{4}\nm &= -8\n## Find the equation of the line\ny - 15 &= -8(x - 1)\ny - 15 &= -8x + 8\n8x + y - 23 &= 0\nANSWER: g(x):\\ 8x + y - 23 = 0"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q4#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the point of inflection: set f''(x) = 0\nf'(x) &= 3x^2 - 18x + 15\nf''(x) &= 6x - 18\n6x - 18 &= 0\nx &= 3\n## Find the y-coordinate\nf(3) &= 27 - 81 + 45 + 8\nf(3) &= -1\nThe point of inflection is $(3, -1)$.\n## Test the point in g(x)\nSubstitute $(3, -1)$ into $8x + y - 23$.\n8(3) + (-1) - 23 &= 24 - 1 - 23\n&= 0\nSo $(3,-1)$ lies on $g(x)$.\nANSWER: (3, -1) \\in g(x)"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Write down the amortisation formula\n$P$ is the loan, $i$ the monthly rate and $n$ the number of months.\nA &= \\frac{P\\,i\\,(1+i)^n}{(1+i)^n - 1}\n## Find i and n\n$i = 0.287\\% = 0.00287$.\n$n = 25 \\times 12 = 300$ months.\n## Substitute into the formula\nA &= \\frac{250000(0.00287)(1.00287)^{300}}{(1.00287)^{300} - 1}\nA &= \\frac{717.5 \\times 2.36261}{1.36261}\nA &= \\frac{1695.17}{1.36261}\n## Evaluate with a calculator\nA &= \\text{€}1244.06\nANSWER: \\text{€}1244.06"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Find the present value of each remaining repayment\nEach repayment is divided by $1.003$ once for every month from now until it is paid.\nAfter 11 years, $14 \\times 12 = 168$ repayments remain.\nThe first remaining repayment is 1 month away, the last is 168 months away.\n## Write down the series\n&\\frac{1771}{1.003} + \\frac{1771}{1.003^2} + \\cdots + \\frac{1771}{1.003^{167}} + \\frac{1771}{1.003^{168}}\n## Identify the geometric series\nFirst term $a = \\dfrac{1771}{1.003}$, common ratio $r = \\dfrac{1}{1.003}$, and $n = 168$ terms.\nS_{168} &= \\frac{a(r^{168} - 1)}{r - 1}\nS_{168} &= \\frac{\\frac{1771}{1.003}\\left[\\left(\\frac{1}{1.003}\\right)^{168} - 1\\right]}{\\frac{1}{1.003} - 1}\n## Evaluate with a calculator\nS_{168} &= \\text{€}233438.25\nANSWER: \\text{€}233438.25"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 15,
+  "solution": "## Multiply out f(x)\nf(x) &= (3x-5)(2x+4)\n&= 6x^2 + 12x - 10x - 20\n&= 6x^2 + 2x - 20\n## Find f(x + h)\nf(x+h) &= 6(x+h)^2 + 2(x+h) - 20\n&= 6(x^2 + 2hx + h^2) + 2x + 2h - 20\n&= 6x^2 + 12hx + 6h^2 + 2x + 2h - 20\n## Find f(x + h) - f(x)\nf(x+h) - f(x) &= 6x^2 + 12hx + 6h^2 + 2x + 2h - 20 - (6x^2 + 2x - 20)\n&= 12hx + 6h^2 + 2h\n## Divide by h\n\\frac{f(x+h) - f(x)}{h} &= \\frac{12hx + 6h^2 + 2h}{h}\n&= 12x + 6h + 2\n## Let h tend to 0\nf'(x) &= \\lim_{h \\to 0} \\left(12x + 6h + 2\\right)\nf'(x) &= 12x + 2\nANSWER: f'(x) = 12x + 2"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q6#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate the logarithm using the chain rule\n$\\dfrac{d}{dx}\\ln u = \\dfrac{1}{u}\\cdot\\dfrac{du}{dx}$ with $u = 2x+3$, so $\\dfrac{du}{dx} = 2$. The constant $C$ differentiates to 0.\nh'(x) &= \\frac{1}{2}\\left(\\frac{1}{2x+3}\\right)(2)\n&= \\frac{1}{2x+3}\nANSWER: h'(x) = \\frac{1}{2x+3}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Set up the area as an integral\nThe area under $h'(x)$ from $0$ to $A$ equals $\\ln 3$.\n\\int_0^A \\frac{1}{2x+3}\\,dx &= \\ln 3\n## Integrate and substitute the limits\n\\left[\\tfrac{1}{2}\\ln(2x+3)\\right]_0^A &= \\ln 3\n\\tfrac{1}{2}\\left(\\ln(2A+3) - \\ln 3\\right) &= \\ln 3\n## Combine the logs\n\\tfrac{1}{2}\\ln\\left(\\frac{2A+3}{3}\\right) &= \\ln 3\n\\ln\\left(\\frac{2A+3}{3}\\right) &= 2\\ln 3\n\\ln\\left(\\frac{2A+3}{3}\\right) &= \\ln 9\n## Remove the logs and solve\n\\frac{2A+3}{3} &= 9\n2A + 3 &= 27\n2A &= 24\nA &= 12\nANSWER: A = 12"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Add the next counting number each time\nEach triangular number is the previous one plus the term number.\nT_4 &= 6 + 4\n&= 10\nT_5 &= 10 + 5\n&= 15\nT_6 &= 15 + 6\n&= 21\nT_7 &= 21 + 7\n&= 28\nT_8 &= 28 + 8\n&= 36\nANSWER: T_4 = 10,\\ T_5 = 15,\\ T_6 = 21,\\ T_7 = 28,\\ T_8 = 36"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Set the formula equal to 1275\n\\frac{n(n+1)}{2} &= 1275\nn(n+1) &= 2550\nn^2 + n &= 2550\nn^2 + n - 2550 &= 0\n## Factorise and solve\n(n-50)(n+51) &= 0\nn &= 50 \\text{ or } n = -51\n$n$ must be a positive whole number, so reject $-51$.\nn &= 50\n## Answer in words\nYes. $n = 50$ is a whole number, so 1275 is the 50th triangular number, $T_{50}$.\nANSWER: \\text{Yes, } 1275 = T_{50}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Substitute the formula for T_n\nT_{n+1} &= \\frac{n(n+1)}{2} + (n+1)\n## Write over a common denominator of 2\n&= \\frac{n(n+1)}{2} + \\frac{2(n+1)}{2}\n&= \\frac{n(n+1) + 2(n+1)}{2}\n## Factor out (n + 1)\n&= \\frac{(n+1)(n+2)}{2}\nANSWER: \\frac{(n+1)(n+2)}{2}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Write the sum of the two consecutive terms\nT_{n+1} + T_n &= \\frac{(n+1)(n+2)}{2} + \\frac{n(n+1)}{2}\n## Combine and factor out (n + 1)\n&= \\frac{(n+1)\\big[(n+2) + n\\big]}{2}\n&= \\frac{(n+1)(2n+2)}{2}\n&= \\frac{2(n+1)(n+1)}{2}\n## Cancel the 2\n&= (n+1)^2\n$n+1 \\in \\mathbb{N}$, so the sum is a square $k^2$ with $k = n+1$.\nANSWER: T_{n+1} + T_n = (n+1)^2"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Use the result from (ii)\nThe sum of two consecutive triangular numbers is $(n+1)^2$.\n(n+1)^2 &= 12544\nn + 1 &= 112\nn &= 111\n## Find the smaller number, T_111\nT_{111} &= \\frac{111(112)}{2}\n&= \\frac{12432}{2}\n&= 6216\nANSWER: 6216"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths2",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute k = 3\nN_3 &= \\left(\\frac{(3+2\\sqrt{2})^3 - (3-2\\sqrt{2})^3}{4\\sqrt{2}}\\right)^2\n## Expand (3 + 2√2) squared\n(3+2\\sqrt{2})^2 &= 9 + 12\\sqrt{2} + 8\n&= 17 + 12\\sqrt{2}\n## Expand (3 + 2√2) cubed\n(3+2\\sqrt{2})^3 &= (17 + 12\\sqrt{2})(3 + 2\\sqrt{2})\n&= 51 + 34\\sqrt{2} + 36\\sqrt{2} + 48\n&= 99 + 70\\sqrt{2}\nChanging the sign of $\\sqrt{2}$ gives $(3-2\\sqrt{2})^3 = 99 - 70\\sqrt{2}$.\n## Subtract and divide\n(3+2\\sqrt{2})^3 - (3-2\\sqrt{2})^3 &= (99 + 70\\sqrt{2}) - (99 - 70\\sqrt{2})\n&= 140\\sqrt{2}\n\\frac{140\\sqrt{2}}{4\\sqrt{2}} &= 35\n## Square the result\nN_3 &= 35^2\n&= 1225\nANSWER: N_3 = 1225"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths18"
+  ],
+  "marks": 15,
+  "solution": "## Step P(1): test n = 1\n\\text{LHS} &= 1^2 = 1\n\\text{RHS} &= \\frac{1(1+1)(2(1)+1)}{6} = \\frac{1(2)(3)}{6} = 1\nLHS = RHS, so $P(1)$ is true.\n## Step P(k): assume true for n = k\nAssume $1^2 + 2^2 + \\cdots + k^2 = \\dfrac{k(k+1)(2k+1)}{6}$.\n## Step P(k+1): state what must be proved\nShow $1^2 + 2^2 + \\cdots + k^2 + (k+1)^2 = \\dfrac{(k+1)(k+2)(2k+3)}{6}$.\n\\text{RHS} &= \\frac{(k+1)((k+1)+1)(2(k+1)+1)}{6}\n&= \\frac{(k+1)(k+2)(2k+3)}{6}\n## Use P(k) on the left-hand side\nReplace $1^2 + \\cdots + k^2$ using the assumption $P(k)$.\n\\text{LHS} &= \\frac{k(k+1)(2k+1)}{6} + (k+1)^2\n&= \\frac{k(k+1)(2k+1) + 6(k+1)^2}{6}\n## Factor out (k + 1)\n&= \\frac{(k+1)\\big[k(2k+1) + 6(k+1)\\big]}{6}\n&= \\frac{(k+1)(2k^2 + k + 6k + 6)}{6}\n&= \\frac{(k+1)(2k^2 + 7k + 6)}{6}\n&= \\frac{(k+1)(k+2)(2k+3)}{6}\n&= \\text{RHS}\n## Conclude\n$P(k+1)$ is true whenever $P(k)$ is true, and $P(1)$ is true. So the formula is true for all $n \\in \\mathbb{N}$.\nANSWER: 1^2 + 2^2 + \\cdots + n^2 = \\frac{n(n+1)(2n+1)}{6}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Use right-angled triangle ratios with radius 5\n\\cos\\theta &= \\frac{x}{5}\nx &= 5\\cos\\theta\n\\sin\\theta &= \\frac{y}{5}\ny &= 5\\sin\\theta\n## Compare with (a cos θ, b sin θ)\n(x, y) &= (5\\cos\\theta,\\ 5\\sin\\theta)\nSo $a = 5$ and $b = 5$.\nANSWER: a = 5,\\ b = 5"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Write the width and height of the rectangle\nThe rectangle is symmetric about both axes, so width is $2x$ and height is $2y$.\n2x &= 10\\cos\\theta\n2y &= 10\\sin\\theta\n## Multiply width by height\nA(\\theta) &= (10\\cos\\theta)(10\\sin\\theta)\n&= 100\\cos\\theta\\sin\\theta\n## Use the double angle formula\n$\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$.\n&= 50 \\times 2\\sin\\theta\\cos\\theta\n&= 50\\sin 2\\theta\nANSWER: A(\\theta) = 50\\sin 2\\theta"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q8#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 15,
+  "solution": "## Differentiate A(θ)\nA(\\theta) &= 50\\sin 2\\theta\nA'(\\theta) &= 50\\cos 2\\theta \\times 2\n&= 100\\cos 2\\theta\n## Set the derivative to zero\n100\\cos 2\\theta &= 0\n\\cos 2\\theta &= 0\n## Solve for θ in the first quadrant\n$0 \\le \\theta \\le \\frac{\\pi}{2}$, so $0 \\le 2\\theta \\le \\pi$, and the only solution is $2\\theta = \\frac{\\pi}{2}$.\n2\\theta &= \\frac{\\pi}{2}\n\\theta &= \\frac{\\pi}{4}\n## Check that this is a maximum\nA''(\\theta) &= -200\\sin 2\\theta\nA''\\left(\\frac{\\pi}{4}\\right) &= -200\\sin\\frac{\\pi}{2}\n&= -200 < 0\nThe second derivative is negative, so this is a maximum.\n## Find the width and height at θ = π/4\n2x &= 2\\left(5\\cos\\frac{\\pi}{4}\\right) = 5\\sqrt{2}\n&= 5\\sqrt{2}\n2y &= 2\\left(5\\sin\\frac{\\pi}{4}\\right)\n&= 5\\sqrt{2}\nWidth and height are equal, so the rectangle with maximum area is a square.\nANSWER: \\theta = \\frac{\\pi}{4}, \\text{ width} = \\text{height} = 5\\sqrt{2}\\ \\Rightarrow\\ \\text{square}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q8#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the side lengths\n\\text{Max area} &= 5\\sqrt{2} \\times 5\\sqrt{2}\n&= 25 \\times 2\n&= 50\nANSWER: 50 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Write the rate we want as a chain rule\n$l$ is the person's distance from the streetlight. We need $\\frac{dx}{dt}$, and $\\frac{dl}{dt}$ is known.\n\\frac{dx}{dt} &= \\frac{dx}{dl} \\cdot \\frac{dl}{dt}\n## Use similar triangles to relate x and l\nThe person and the streetlight form similar triangles, so heights and bases are in proportion.\n\\frac{2}{5} &= \\frac{x}{l + x}\n2l + 2x &= 5x\n2l &= 3x\nx &= \\frac{2}{3}l\n## Find dx/dl\n\\frac{dx}{dl} &= \\frac{2}{3}\n## State dl/dt\nThe person walks towards the light at 1.5 m/s, so $l$ is getting smaller.\n\\frac{dl}{dt} &= -1.5\n## Substitute into the chain rule\n\\frac{dx}{dt} &= \\frac{2}{3} \\times (-1.5)\n&= -1\n## Interpret\nThe shadow is getting shorter at 1 m/s.\nANSWER: \\left|\\frac{dx}{dt}\\right| = 1 \\text{ m/s (shadow shortening)}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 4.5\nN(4.5) &= 450e^{0.065(4.5)}\n&= 450e^{0.2925}\n## Evaluate and round\n&\\approx 602.89\n&\\approx 603\nANSWER: 603 \\text{ bacteria}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set N(t) = 790\n450e^{0.065t} &= 790\ne^{0.065t} &= \\frac{790}{450}\ne^{0.065t} &= \\frac{79}{45}\n## Take the natural log of both sides\n0.065t &= \\ln\\left(\\frac{79}{45}\\right)\n$\\ln e^{x} = x$.\n## Divide by 0.065\nt &= \\frac{\\ln(79/45)}{0.065}\n&\\approx 8.659\n&\\approx 8.7\nANSWER: t = 8.7 \\text{ hours}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\nAverage over $[3, 12]$ is $\\frac{1}{12-3}\\int_3^{12} N(t)\\,dt$.\n\\text{Average} &= \\frac{1}{9}\\int_3^{12} 450e^{0.065t}\\,dt\n## Integrate\n$\\int e^{at}\\,dt = \\frac{1}{a}e^{at}$.\n&= \\frac{450}{9(0.065)}\\Big[e^{0.065t}\\Big]_3^{12}\n## Substitute the limits\n&= \\frac{450}{9(0.065)}\\left[e^{0.78} - e^{0.195}\\right]\n&\\approx 743.2\n&\\approx 743\nANSWER: 743 \\text{ bacteria}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate N(t)\n$\\frac{d}{dt}e^{at} = ae^{at}$.\nN'(t) &= 450e^{0.065t} \\times 0.065\n&= 29.25e^{0.065t}\n## Substitute t = 12\nN'(12) &= 29.25e^{0.065(12)}\n&= 29.25e^{0.78}\n&\\approx 63.8\n## Interpret\nAfter 12 hours the colony is growing at a rate of 63.8 bacteria per hour (about 64).\nANSWER: 63.8 \\text{ bacteria per hour}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths17",
+   "maths3"
+  ],
+  "marks": 5,
+  "solution": "## Set up the inequality for the rate\nN'(k) &= 29.25e^{0.065k} > 90\ne^{0.065k} &> \\frac{90}{29.25}\n## Take logs and solve\n0.065k &> \\ln\\left(\\frac{90}{29.25}\\right)\nk &> \\frac{\\ln(90/29.25)}{0.065}\nk &> 17.29\n## Choose the least whole number\n$k$ is a whole number greater than 17.29.\nk &= 18\nANSWER: k = 18"
+ },
+ {
+  "part": "maths-pp-2020-higher-p1-q9#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set the two colonies equal\n450e^{0.065t} &= 220e^{0.17t}\n## Collect the exponentials on one side\n\\frac{450}{220} &= \\frac{e^{0.17t}}{e^{0.065t}}\n\\frac{450}{220} &= e^{0.105t}\n## Take the natural log of both sides\n\\ln\\left(\\frac{450}{220}\\right) &= 0.105t\n## Divide by 0.105\nt &= \\frac{\\ln(450/220)}{0.105}\n&\\approx 6.82\n&\\approx 7\nANSWER: t = 7 \\text{ hours}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## Find the slope of BC\nSlope formula for $B(6,-12)$ and $C(-4,3)$.\nm &= \\frac{3-(-12)}{-4-6}\n&= \\frac{15}{-10}\n&= -\\frac{3}{2}\n## Find the equation of BC\nUse $y - y_1 = m(x - x_1)$ with the point $B(6,-12)$.\ny - (-12) &= -\\frac{3}{2}(x-6)\ny + 12 &= -\\frac{3}{2}x + 9\n2y + 24 &= -3x + 18\n3x + 2y + 6 &= 0\n## Perpendicular distance from A to BC\nUse $d = \\frac{|ax_1+by_1+c|}{\\sqrt{a^2+b^2}}$ with $A(2,-6)$ and $3x+2y+6=0$.\nd &= \\frac{|3(2) + 2(-6) + 6|}{\\sqrt{3^2+2^2}}\n&= \\frac{|6 - 12 + 6|}{\\sqrt{13}}\n&= \\frac{0}{\\sqrt{13}}\n&= 0\n## State the conclusion\nThe distance from $A$ to line $BC$ is $0$, so $A$ lies on line $BC$. Therefore $A$, $B$ and $C$ are collinear.\nANSWER: d = 0 \\text{, so } A, B, C \\text{ are collinear}"
+ },
+ {
+  "part": "maths-pp-2020-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slopes of a and b\nRearrange $x - 2y + 1 = 0$ into $y = mx + c$.\n2y &= x + 1\ny &= \\frac{1}{2}x + \\frac{1}{2}\nSo the slope of $a$ is $\\frac{1}{2}$. Line $b$ makes $60^\\circ$ with the positive $x$-axis.\nm_b &= \\tan 60^\\circ\n&= \\sqrt{3}\n## Substitute into the angle formula\nUse $\\tan\\theta = \\left|\\frac{m_1 - m_2}{1 + m_1 m_2}\\right|$ with $m_1 = \\sqrt{3}$ and $m_2 = \\frac{1}{2}$.\n\\tan\\theta &= \\left|\\frac{\\sqrt{3} - \\frac{1}{2}}{1 + \\sqrt{3}\\cdot\\frac{1}{2}}\\right|\n&= \\frac{2\\sqrt{3} - 1}{2 + \\sqrt{3}}\n## Rationalise the denominator\nMultiply top and bottom by $2 - \\sqrt{3}$.\n\\tan\\theta &= \\frac{(2\\sqrt{3} - 1)(2 - \\sqrt{3})}{(2+\\sqrt{3})(2-\\sqrt{3})}\n&= \\frac{4\\sqrt{3} - 6 - 2 + \\sqrt{3}}{4 - 3}\n&= 5\\sqrt{3} - 8\n## Find the angle\n\\theta &= \\tan^{-1}\\left(5\\sqrt{3} - 8\\right)\n&= 33.435^\\circ\nANSWER: \\theta = 33.435^\\circ"
+ }
+]

@@ -1,0 +1,335 @@
+[
+ {
+  "part": "maths-pp-2015-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Multiply each height by 3/4 to get the next\nEach bounce reaches $\\frac{3}{4}$ of the previous height, so multiply by $\\frac{3}{4}$ each time.\n\\text{Bounce 1} &= 2 \\times \\frac{3}{4}\n&= \\frac{6}{4}\n&= \\frac{3}{2}\n## Find bounce 2\n\\text{Bounce 2} &= \\frac{3}{2} \\times \\frac{3}{4}\n&= \\frac{9}{8}\n## Find bounce 3\n\\text{Bounce 3} &= \\frac{9}{8} \\times \\frac{3}{4}\n&= \\frac{27}{32}\n## Find bounce 4\n\\text{Bounce 4} &= \\frac{27}{32} \\times \\frac{3}{4}\n&= \\frac{81}{128}\nANSWER: \\frac{2}{1},\\ \\frac{3}{2},\\ \\frac{9}{8},\\ \\frac{27}{32},\\ \\frac{81}{128}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write the total distance as a sum\nThe ball falls 2 m first. After that, each bounce height is travelled twice (up and down) before the 5th hit.\nD &= 2 + 2\\left(\\frac{3}{2} + \\frac{9}{8} + \\frac{27}{32} + \\frac{81}{128}\\right)\n## Write the fractions over 128\n\\frac{3}{2} + \\frac{9}{8} + \\frac{27}{32} + \\frac{81}{128} &= \\frac{192}{128} + \\frac{144}{128} + \\frac{108}{128} + \\frac{81}{128}\n&= \\frac{525}{128}\n## Substitute back and simplify\nD &= 2 + 2 \\times \\frac{525}{128}\n&= 2 + \\frac{525}{64}\n&= \\frac{128}{64} + \\frac{525}{64}\n&= \\frac{653}{64}\n&= 10\\frac{13}{64}\nANSWER: \\frac{653}{64} = 10\\frac{13}{64}\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Use the sum to infinity of a geometric series\nThe bounce heights form a geometric series with $a = \\frac{3}{2}$ and $r = \\frac{3}{4}$. Since $|r| < 1$, it has a sum to infinity.\nS_\\infty &= \\frac{a}{1 - r}\n&= \\frac{\\frac{3}{2}}{1 - \\frac{3}{4}}\n&= \\frac{\\frac{3}{2}}{\\frac{1}{4}}\n&= 6\n## Add the first drop and double the series\nD &= 2 + 2(6)\n&= 2 + 12\n&= 14\nANSWER: 14\\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q2#",
+  "level": "higher",
+  "chapters": [
+   "maths1",
+   "maths4"
+  ],
+  "marks": 25,
+  "solution": "## Test x = 1 in f(x)\nTry small whole numbers. Let $f(x) = x^3 - 3x^2 - 9x + 11$.\nf(1) &= 1^3 - 3(1)^2 - 9(1) + 11\n&= 1 - 3 - 9 + 11\n&= 0\nSo $x = 1$ is a root and $(x - 1)$ is a factor.\n## Write the other factor with an unknown\nThe cubic has the form $(x-1)$ times a quadratic. The constant of the quadratic is $-11$, because $-1 \\times -11 = 11$.\n(x - 1)(x^2 + Ax - 11) &= x^3 - 3x^2 - 9x + 11\n## Expand the left-hand side\n(x - 1)(x^2 + Ax - 11) &= x^3 + Ax^2 - 11x - x^2 - Ax + 11\n&= x^3 + (A - 1)x^2 - (11 + A)x + 11\n## Compare the coefficients of x squared\nA - 1 &= -3\nA &= -2\nThe other factor is $x^2 - 2x - 11$.\n## Solve the quadratic with the formula\n$x^2 - 2x - 11 = 0$ does not factorise, so use $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$ with $a = 1$, $b = -2$, $c = -11$.\nx &= \\frac{-(-2) \\pm \\sqrt{(-2)^2 - 4(1)(-11)}}{2(1)}\n&= \\frac{2 \\pm \\sqrt{4 + 44}}{2}\n&= \\frac{2 \\pm \\sqrt{48}}{2}\n## Simplify the surd\n\\sqrt{48} &= \\sqrt{16} \\times \\sqrt{3}\n&= 4\\sqrt{3}\n## Divide through by 2\nx &= \\frac{2 \\pm 4\\sqrt{3}}{2}\n&= 1 \\pm 2\\sqrt{3}\nThe irrational solutions are $1 + 2\\sqrt{3}$ and $1 - 2\\sqrt{3}$, of the form $a + b\\sqrt{c}$ with $a = 1$, $b = \\pm 2$, $c = 3$.\nANSWER: x = 1,\\ 1 + 2\\sqrt{3},\\ 1 - 2\\sqrt{3}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q3#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 15,
+  "solution": "## Substitute x = 5\nf(5) &= -(5)^2 + 12(5) - 27\n&= -25 + 60 - 27\n&= 8\n## Substitute x = 6\nf(6) &= -(6)^2 + 12(6) - 27\n&= -36 + 72 - 27\n&= 9\n## Substitute x = 8\nf(8) &= -(8)^2 + 12(8) - 27\n&= -64 + 96 - 27\n&= 5\n## Substitute x = 9\nf(9) &= -(9)^2 + 12(9) - 27\n&= -81 + 108 - 27\n&= 0\n## Write the trapezoidal rule\nThe x-values are 1 apart, so $h = 1$. The first and last values are $y_1 = 0$ and $y_n = 0$.\nA &= \\frac{h}{2}\\left[y_1 + y_n + 2(y_2 + y_3 + \\cdots + y_{n-1})\\right]\n## Substitute the table values\nA &= \\frac{1}{2}\\left[0 + 0 + 2(5 + 8 + 9 + 8 + 5)\\right]\n&= \\frac{1}{2}\\left[2(35)\\right]\n&= 35\nANSWER: f(5) = 8,\\ f(6) = 9,\\ f(8) = 5,\\ f(9) = 0;\\quad 35\\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q3#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Integrate each term\n\\int_3^9 (-x^2 + 12x - 27)\\,dx &= \\left[\\frac{-x^3}{3} + \\frac{12x^2}{2} - 27x\\right]_3^9\n&= \\left[-\\frac{x^3}{3} + 6x^2 - 27x\\right]_3^9\n## Evaluate at x = 9\nF(9) &= -\\frac{729}{3} + 6(81) - 27(9)\n&= -243 + 486 - 243\n&= 0\n## Evaluate at x = 3\nF(3) &= -\\frac{27}{3} + 6(9) - 27(3)\n&= -9 + 54 - 81\n&= -36\n## Subtract: upper limit minus lower limit\n\\int_3^9 f(x)\\,dx &= F(9) - F(3)\n&= 0 - (-36)\n&= 36\n## Find the error and divide by the exact area\nThe exact area is 36 and the trapezoidal estimate is 35, so the error is $36 - 35 = 1$.\n\\text{Percentage error} &= \\frac{1}{36} \\times 100\n&= 2.7\\dot{7}\n&\\approx 2.8\\%\nANSWER: 36;\\quad 2.8\\%"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 15,
+  "solution": "## Substitute z2 and z3\n\\frac{2}{z_1} &= \\frac{1}{2+3i} + \\frac{1}{3-2i}\n## Add the two fractions\n&= \\frac{(3-2i)+(2+3i)}{(2+3i)(3-2i)}\n&= \\frac{5+i}{6-4i+9i-6i^2}\nUse $i^2=-1$.\n&= \\frac{5+i}{6+5i+6}\n&= \\frac{5+i}{12+5i}\n## Turn it upside down to find z1\n\\frac{2}{z_1} &= \\frac{5+i}{12+5i}\nz_1 &= \\frac{2(12+5i)}{5+i}\nMultiply top and bottom by the conjugate $5-i$.\n&= \\frac{2(12+5i)(5-i)}{(5+i)(5-i)}\n&= \\frac{2(60-12i+25i-5i^2)}{25-i^2}\n&= \\frac{2(65+13i)}{26}\n&= 5+i\nANSWER: z_1 = 5 + i"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths21",
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write down a and r for the geometric series\nS &= 1+\\omega+\\omega^2+\\cdots+\\omega^{n-1}\nThis is geometric with first term $a=1$, common ratio $r=\\omega$ and $n$ terms.\n## Use the sum formula and substitute\nS &= \\frac{a(1-r^n)}{1-r}\n&= \\frac{1(1-\\omega^n)}{1-\\omega}\nSince $\\omega^n=1$, replace $\\omega^n$ with 1.\n&= \\frac{1(1-1)}{1-\\omega}\n&= \\frac{0}{1-\\omega}\n$\\omega\\ne 1$, so the denominator is not zero.\n&= 0\nANSWER: S = 0"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Square both sides\nx &= \\sqrt{x+6}\nx^2 &= x+6\n## Rearrange and factorise\nx^2 - x - 6 &= 0\n(x+2)(x-3) &= 0\nx &= -2 \\text{ or } x = 3\n## Check both answers in the original equation\nSquaring can introduce a false answer, so test each one.\nx=-2:\\quad \\sqrt{-2+6} &= \\sqrt{4} = 2 \\ne -2\n$x=-2$ is rejected.\nx=3:\\quad \\sqrt{3+6} &= \\sqrt{9} = 3\n$x=3$ works.\nANSWER: x = 3"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Write the root as a power\nf(x) &= x - \\sqrt{x+6}\n&= x - (x+6)^{\\frac{1}{2}}\n## Differentiate term by term\nf'(x) &= 1 - \\frac{1}{2}(x+6)^{-\\frac{1}{2}}\n&= 1 - \\frac{1}{2\\sqrt{x+6}}\nANSWER: f'(x) = 1 - \\frac{1}{2\\sqrt{x+6}}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q5#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Set the derivative equal to zero\n1 - \\frac{1}{2\\sqrt{x+6}} &= 0\n\\frac{1}{2\\sqrt{x+6}} &= 1\n2\\sqrt{x+6} &= 1\n\\sqrt{x+6} &= \\frac{1}{2}\n## Square and solve for x\nx+6 &= \\frac{1}{4}\nx &= \\frac{1}{4} - 6\nx &= -\\frac{23}{4}\n## Find y at this value of x\ny &= x - \\sqrt{x+6}\n&= -\\frac{23}{4} - \\sqrt{\\frac{1}{4}}\n&= -\\frac{23}{4} - \\frac{1}{2}\n&= -\\frac{25}{4}\nANSWER: \\left(-\\frac{23}{4}, -\\frac{25}{4}\\right) = \\left(-5\\tfrac{3}{4}, -6\\tfrac{1}{4}\\right)"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q6#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Compound 0.35% monthly for 12 months\nF &= P(1+i)^t\n&= 1(1+0.0035)^{12}\n&= 1.042818\n## Read off the annual rate\n1.042818 - 1 &= 0.042818\n\\text{APR} &= 4.28\\%\n## Set the yearly growth equal to 12 monthly growths\n1.045 &= 1(1+i)^{12}\n## Take the 12th root\n1+i &= \\sqrt[12]{1.045}\n&= 1.0036748\ni &= 0.0036748\n&= 0.367\\%\nANSWER: 4.28\\% \\text{ and } 0.367\\%"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 15,
+  "solution": "## Write the repayment formula and its values\nA &= P\\left[\\frac{i(1+i)^t}{(1+i)^t - 1}\\right]\n$P=80\\,000$, $i=0.0035$, and $t=10\\times 12=120$ months.\n## Substitute the values\nA &= 80\\,000\\left[\\frac{0.0035(1.0035)^{120}}{(1.0035)^{120} - 1}\\right]\n## Evaluate the power and then the fraction\n(1.0035)^{120} &= 1.520846\nA &= 80\\,000\\left[\\frac{0.0035 \\times 1.520846}{1.520846 - 1}\\right]\n&= 80\\,000\\left[\\frac{0.00532296}{0.520846}\\right]\n&= 817.59\n&\\approx \\text{€}818\nANSWER: \\text{€}818"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Use the fact that O is the origin\nThe plane lands at $O(0, 0)$, so $f(0) = 0$.\n0 &= 0.0024(0)^3 + 0.018(0)^2 + c(0) + d\n0 &= d\nd &= 0\nANSWER: d = 0"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute the point P(-5, 0.15) with d = 0\n$P(-5, 0.15)$ is on the curve, so $f(-5) = 0.15$.\n0.0024(-5)^3 + 0.018(-5)^2 + c(-5) &= 0.15\n-0.3 + 0.45 - 5c &= 0.15\n0.15 - 5c &= 0.15\n## Solve for c\n-5c &= 0\nc &= 0\nANSWER: c = 0"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate with c = 0 and d = 0\nf(x) &= 0.0024x^3 + 0.018x^2\nf'(x) &= 0.0072x^2 + 0.036x\n## Substitute x = -4\nf'(-4) &= 0.0072(-4)^2 + 0.036(-4)\n&= 0.1152 - 0.144\n&= -0.0288\nANSWER: f'(-4) = -0.0288"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Relate the slope to the angle\nThe slope of the path at $x = -4$ is $\\tan\\theta$, where $\\theta$ is the angle to the horizontal.\nThe slope is negative because the plane is going down. Its size gives the angle of descent.\n\\tan\\theta &= 0.0288\n## Find the angle\n\\theta &= \\tan^{-1}(0.0288)\n&\\approx 1.6497^{\\circ}\n&\\approx 2^{\\circ}\nANSWER: 2^{\\circ}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Find the second derivative\nf'(x) &= 0.0072x^2 + 0.036x\nf''(x) &= 0.0144x + 0.036\n## Set f''(x) = 0 and solve\nA point of inflection occurs where $f''(x) = 0$.\n0.0144x + 0.036 &= 0\n0.0144x &= -0.036\nx &= -2.5\n$f''(x)$ is a line with positive slope, so it changes sign at $x = -2.5$.\n## Find the y-coordinate\nf(-2.5) &= 0.0024(-2.5)^3 + 0.018(-2.5)^2\n&= -0.0375 + 0.1125\n&= 0.075\nSo the point of inflection is $(-2.5, 0.075)$.\nANSWER: (-2.5,\\ 0.075)"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q7#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Write y and substitute -x - 5 into f\nIf $(x, y)$ is on the curve then $y = 0.0024x^3 + 0.018x^2$.\nf(-x-5) &= 0.0024(-x-5)^3 + 0.018(-x-5)^2\n## Expand the brackets\n(-x-5)^3 &= -x^3 - 15x^2 - 75x - 125\n(-x-5)^2 &= x^2 + 10x + 25\n## Substitute and multiply out\nf(-x-5) &= 0.0024(-x^3 - 15x^2 - 75x - 125) + 0.018(x^2 + 10x + 25)\n&= -0.0024x^3 - 0.036x^2 - 0.18x - 0.3 + 0.018x^2 + 0.18x + 0.45\n&= -0.0024x^3 - 0.018x^2 + 0.15\n&= -(0.0024x^3 + 0.018x^2) + 0.15\n&= -y + 0.15\n## Conclude\nSo $f(-x-5) = -y + 0.15$, which means $(-x-5,\\ -y+0.15)$ is on the curve.\nANSWER: f(-x-5) = -y + 0.15"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q7#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Set up the midpoint\nLet the image be $(a, b)$. The point of inflection $(-2.5, 0.075)$ is the midpoint of the point and its image.\n\\frac{-x-5+a}{2} &= -2.5\n\\frac{-y+0.15+b}{2} &= 0.075\n## Solve for a\n-x-5+a &= -5\na &= x\n## Solve for b\n-y+0.15+b &= 0.15\nb &= y\nANSWER: (x,\\ y)"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Multiply the rate by the number of minutes\nThe oil spills at $4\\times10^6$ cm³ per minute, so the volume is $4$ (in units of $10^6$ cm³) for each minute.\n1 \\text{ min}:\\ 4 \\times 1 &= 4\n2 \\text{ min}:\\ 4 \\times 2 &= 8\n3 \\text{ min}:\\ 4 \\times 3 &= 12\n4 \\text{ min}:\\ 4 \\times 4 &= 16\n5 \\text{ min}:\\ 4 \\times 5 &= 20\n6 \\text{ min}:\\ 4 \\times 6 &= 24\nANSWER: 4,\\ 8,\\ 12,\\ 16,\\ 20,\\ 24"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Plot the points from the table\nPlot $(1, 4)$, $(2, 8)$, $(3, 12)$, $(4, 16)$, $(5, 20)$ and $(6, 24)$.\n## Join the points\nThe points lie on a straight line through the origin, so draw the line from $(0, 0)$ to $(6, 24)$.\nANSWER: Straight line from (0, 0) to (6, 24)"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q8#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope and intercept\nThe graph is a straight line through $(0, 0)$ with slope equal to the rate, $4\\times10^6$.\nV(t) &= 4\\times10^6\\, t\nANSWER: V(t) = (4\\times10^6)\\,t"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use the volume of a cylinder\nThe slick is a cylinder of radius $r$ and height $h$, so $V = \\pi r^2 h$.\nThickness $h = 1$ mm $= 0.1$ cm.\nV &= \\pi r^2 (0.1)\n&= 0.1\\pi r^2\nANSWER: V = 0.1\\pi r^2\\ \\text{cm}^3"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Write down the rates\nThe volume is increasing at $\\frac{dV}{dt} = 4\\times10^6$ cm³ per minute.\nV &= 0.1\\pi r^2\n\\frac{dV}{dr} &= 0.2\\pi r\n## Substitute r = 50 m = 5000 cm\n\\frac{dV}{dr} &= 0.2\\pi(5000)\n&= 1000\\pi\n## Use the chain rule\n$\\frac{dr}{dt} = \\frac{dr}{dV} \\times \\frac{dV}{dt}$, and $\\frac{dr}{dV}$ is the reciprocal of $\\frac{dV}{dr}$.\n\\frac{dr}{dt} &= \\frac{1}{1000\\pi} \\times 4\\times10^6\n&= \\frac{4000}{\\pi}\n&\\approx 1273.2\nANSWER: 1273.2\\ \\text{cm per minute}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Write the area and differentiate\nA &= \\pi r^2\n\\frac{dA}{dr} &= 2\\pi r\n## Find dr/dt from part (b)\n\\frac{dr}{dt} &= \\frac{4\\times10^6}{0.2\\pi r}\n## Use the chain rule for dA/dt\n$\\frac{dA}{dt} = \\frac{dA}{dr} \\times \\frac{dr}{dt}$\n\\frac{dA}{dt} &= 2\\pi r \\times \\frac{4\\times10^6}{0.2\\pi r}\n&= \\frac{2 \\times 4\\times10^6}{0.2}\n&= 4\\times10^7\nThe $r$ cancelled, so the rate is constant: $4\\times10^7$ cm² per minute.\nANSWER: \\frac{dA}{dt} = 4\\times10^7\\ \\text{cm}^2\\text{ per minute}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q8#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Find the area when the slick reaches land\n1 km $= 1000$ m $= 10^5$ cm, so the radius is $r = 10^5$ cm.\nA &= \\pi(10^5)^2\n&= \\pi \\times 10^{10}\\ \\text{cm}^2\n## Use the constant rate from part (c)\nThe area grows by $4\\times10^7$ cm² each minute, starting from 0.\n4\\times10^7\\, t &= \\pi \\times 10^{10}\nt &= \\frac{\\pi \\times 10^{10}}{4\\times10^7}\nt &= 250\\pi\nt &\\approx 785.4\\ \\text{minutes}\n## Convert to hours\n\\frac{785.4}{60} &\\approx 13.09\n&\\approx 13\\ \\text{hours}\nANSWER: 13\\ \\text{hours}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 76 (calculator in radian mode)\nf(76) &= 12.25 + 4.75\\sin\\left(\\frac{2\\pi}{365}\\times 76\\right)\n&= 12.25 + 4.75\\sin(1.3083)\n&= 12.25 + 4.75(0.9657)\n&= 12.25 + 4.587\n&= 16.837\\ \\text{hours}\n## Convert to hours and minutes\n0.837 \\times 60 &\\approx 50\\ \\text{minutes}\nANSWER: 16\\ \\text{hours } 50\\ \\text{minutes}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set f(t) = 15 and isolate the sine\n12.25 + 4.75\\sin\\left(\\frac{2\\pi}{365}t\\right) &= 15\n4.75\\sin\\left(\\frac{2\\pi}{365}t\\right) &= 2.75\n\\sin\\left(\\frac{2\\pi}{365}t\\right) &= 0.5789\n## Take the inverse sine\n\\frac{2\\pi}{365}t &= \\sin^{-1}(0.5789)\n\\frac{2\\pi}{365}t &\\approx 0.6174\n## Solve for t\nt &= 0.6174 \\times \\frac{365}{2\\pi}\nt &\\approx 35.87\n## Convert to a date\n$t \\approx 36$ days after March 21st. March 21st plus 10 days is March 31st, plus 26 more days is April 26th.\nANSWER: \\text{April } 26\\text{th}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate term by term\nf(t) &= 12.25 + 4.75\\sin\\left(\\frac{2\\pi}{365}t\\right)\nThe derivative of $\\sin(kt)$ is $k\\cos(kt)$, with $k = \\frac{2\\pi}{365}$. The constant 12.25 differentiates to 0.\nf'(t) &= 4.75 \\times \\frac{2\\pi}{365}\\cos\\left(\\frac{2\\pi}{365}t\\right)\n## Simplify\nf'(t) &= \\frac{9.5\\pi}{365}\\cos\\left(\\frac{2\\pi}{365}t\\right)\nANSWER: f'(t) = \\frac{9.5\\pi}{365}\\cos\\left(\\frac{2\\pi}{365}t\\right)"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Set f'(t) = 0 for the maximum\n\\frac{9.5\\pi}{365}\\cos\\left(\\frac{2\\pi}{365}t\\right) &= 0\n\\cos\\left(\\frac{2\\pi}{365}t\\right) &= 0\n## Solve for t\nCosine is zero at $\\frac{\\pi}{2}$ and $\\frac{3\\pi}{2}$ in one year, so there are two solutions.\n\\frac{2\\pi}{365}t &= \\frac{\\pi}{2}\nt &= \\frac{365}{4} = 91.25\n\\frac{2\\pi}{365}t &= \\frac{3\\pi}{2}\nt &= \\frac{1095}{4} = 273.75\n## Find the length of the day at each solution\nf(91.25) &= 12.25 + 4.75\\sin\\frac{\\pi}{2}\n&= 12.25 + 4.75(1)\n&= 17\nf(273.75) &= 12.25 + 4.75\\sin\\frac{3\\pi}{2}\n&= 12.25 + 4.75(-1)\n&= 7.5\nThe larger value, 17 hours at $t = 91.25$, is the maximum; 7.5 hours at $t = 273.75$ is the minimum.\nANSWER: 17\\ \\text{hours}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p1-q9#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\nAverage value $= \\frac{1}{b-a}\\int_a^b f(t)\\,dt$ with $a = 0$ and $b = 184$.\n\\text{Average} &= \\frac{1}{184}\\int_0^{184}\\left(12.25 + 4.75\\sin\\left(\\frac{2\\pi}{365}t\\right)\\right)dt\n## Integrate\n$\\int \\sin(kt)\\,dt = -\\frac{1}{k}\\cos(kt)$, with $\\frac{1}{k} = \\frac{365}{2\\pi}$.\n\\text{Average} &= \\frac{1}{184}\\left[12.25t - 4.75 \\times \\frac{365}{2\\pi}\\cos\\left(\\frac{2\\pi}{365}t\\right)\\right]_0^{184}\n## Substitute the limits\n&= \\frac{1}{184}\\left[\\left(12.25(184) - 275.93\\cos\\left(\\frac{2\\pi}{365}\\times 184\\right)\\right) - \\left(0 - 275.93\\cos 0\\right)\\right]\n&= \\frac{1}{184}\\left[\\left(2254 + 275.84\\right) - \\left(0 - 275.93\\right)\\right]\n&= \\frac{1}{184}\\left[2529.84 - \\left(-275.93\\right)\\right]\n&= \\frac{1}{184}\\left[2529.84 + 275.93\\right]\n&= \\frac{1}{184}\\left[2805.77\\right]\n## Divide and convert\n&\\approx 15.25\\ \\text{hours}\n0.25 \\times 60 &\\approx 15\\ \\text{minutes}\nANSWER: 15\\ \\text{hours } 15\\ \\text{minutes}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Find the sum for each pair of dice\nEach cell is the sum of Die 1 (row) and Die 2 (column). For example, row 3, column 6 gives $3 + 6 = 9$.\n## Mark W or L\nA sum of 9 or more is a win (W). A sum of 8 or less is a loss (L).\nRow 1 and row 2 have no sum of 9 or more, so they are all L. Row 3 has a W only in column 6. Row 4 has W in columns 5 and 6. Row 5 has W in columns 4, 5 and 6. Row 6 has W in columns 3, 4, 5 and 6.\nANSWER: See the completed table: 10 wins (W) and 26 losses (L)."
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q1#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Count the wins in the table\nThere are 36 equally likely outcomes. Counting the W cells row by row gives $0 + 0 + 1 + 2 + 3 + 4 = 10$.\nP(\\text{win}) &= \\frac{10}{36}\n&= \\frac{5}{18}\n## Find the probability of a loss\nA throw is either a win or a loss.\nP(\\text{loss}) &= 1 - \\frac{5}{18}\n&= \\frac{13}{18}\n## Three losses in a row\nThe throws are independent, so multiply the three probabilities.\nP(\\text{LLL}) &= \\left(\\frac{13}{18}\\right)^3\n&= \\frac{2197}{5832}\n&= 0.3767\nANSWER: \\text{(i) } \\frac{5}{18} \\qquad \\text{(ii) } 0.3767"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Set up the situation\nThe third win is on throw 10. So throws 1 to 9 contain exactly 2 wins (and 7 losses), and throw 10 is a win.\nLet $p = \\frac{5}{18}$ be the probability of a win and $1 - p = \\frac{13}{18}$ the probability of a loss.\n## Count the ways to place the first 2 wins in 9 throws\n\\binom{9}{2} &= \\frac{9 \\times 8}{2}\n&= 36\n## Write the probability\nP &= \\binom{9}{2}\\left(\\frac{5}{18}\\right)^2\\left(\\frac{13}{18}\\right)^7 \\times \\frac{5}{18}\n&= 36\\left(\\frac{5}{18}\\right)^3\\left(\\frac{13}{18}\\right)^7\n## Evaluate\n\\left(\\frac{5}{18}\\right)^3 &= \\frac{125}{5832}\n\\left(\\frac{13}{18}\\right)^7 &= \\frac{62748517}{612220032}\nP &= 36 \\times \\frac{125}{5832} \\times \\frac{62748517}{612220032}\n&= 0.0791\nANSWER: 0.0791"
+ }
+]

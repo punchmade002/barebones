@@ -1,0 +1,376 @@
+[
+ {
+  "part": "maths-pp-2018-ordinary-p2-q6#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Draw the base AB\nUse a ruler to draw a line segment $[AB]$ exactly 10 cm long. Label the ends $A$ and $B$.\n## Construct the 60° angle at A\nPlace the protractor on $A$ with its zero line along $AB$. Mark 60° and draw a ray from $A$ through the mark.\n## Construct the 40° angle at B\nPlace the protractor on $B$ with its zero line along $BA$. Mark 40° and draw a ray from $B$ through the mark.\n## Label C and measure BC\nThe two rays cross at $C$. Label it. Measure $[BC]$ with a ruler, to 1 decimal place.\n|BC| &= 8.8 \\text{ cm}\nANSWER: |BC| = 8.8 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q6#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find α\nOpposite angles of a parallelogram are equal, so $\\alpha$ equals $|\\angle SPQ|$.\n\\alpha &= 115^\\circ\n## Find β\nAdjacent angles of a parallelogram add to $180^\\circ$.\n\\beta &= 180^\\circ - 115^\\circ\n&= 65^\\circ\nANSWER: \\alpha = 115^\\circ, \\ \\beta = 65^\\circ"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q6#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Match the first pair of sides\n$|PQ| = |SR|$ (opposite sides of a parallelogram are equal).\n## Match the angle between those sides\n$|\\angle PQR| = |\\angle RSP|$ (opposite angles of a parallelogram are equal).\n## Match the second pair of sides\n$|QR| = |PS|$ (opposite sides of a parallelogram are equal).\n## State the congruence\nTwo sides and the angle between them are equal in both triangles, so they are congruent by SAS.\nANSWER: \\triangle PQR \\equiv \\triangle RSP \\ \\text{(SAS)}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Range = highest minus lowest\nHighest rainfall is 155 mm (2003). Lowest is 47 mm (2006).\n\\text{Range} &= 155 - 47\n&= 108 \\text{ mm}\n## Year of highest rainfall\nThe largest rainfall value, 155 mm, is in 2003.\n## Year of least sunshine\nThe smallest sunshine value, 124 hours, is in 2002.\nANSWER: 108 \\text{ mm}, \\ 2003, \\ 2002"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Choose a year and give a reason\nAnswer: 2006.\nReason: 2006 had the least rainfall (47 mm) and the most sunshine (239 hours).\nANSWER: 2006"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Write the rainfall data in increasing order\n\\text{Ordered} &: 47, 72, 84, 94, 94, 101, 133, 134, 149, 155\n## Find the middle values\nThere are 10 values, so the median is the mean of the 5th and 6th.\n\\text{Median} &= \\frac{94 + 101}{2}\n&= \\frac{195}{2}\n&= 97.5 \\text{ mm}\nANSWER: 97.5 \\text{ mm}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Add the sunshine hours\n\\text{Sum} &= 169+124+180+173+173+239+159+168+228+205\n&= 1818\n## Divide by the number of years\n\\text{Mean} &= \\frac{1818}{10}\n&= 181.8 \\text{ hours}\nANSWER: 181.8 \\text{ hours}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find 5% of the mean\n0.05 \\times 181.8 &= 9.09\n&= 9.09\n## Find the upper limit\n181.8 + 9.09 &= 190.89\n## Find the lower limit\n181.8 - 9.09 &= 172.71\n## Pick the years inside the range\nSunshine between 172.71 and 190.89 hours: 2003 (180), 2004 (173) and 2005 (173).\nANSWER: 2003, \\ 2004, \\ 2005"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find the mean of the rainfall\n\\text{Sum} &= 72+133+155+101+94+47+149+134+94+84\n&= 1063\n\\mu &= \\frac{1063}{10}\n&= 106.3\n## Square each difference from the mean\n(72 - 106.3)^2 &= 1176.49\n(133 - 106.3)^2 &= 712.89\n(155 - 106.3)^2 &= 2371.69\n(101 - 106.3)^2 &= 28.09\n(94 - 106.3)^2 &= 151.29\n(47 - 106.3)^2 &= 3516.49\n(149 - 106.3)^2 &= 1823.29\n(134 - 106.3)^2 &= 767.29\n(94 - 106.3)^2 &= 151.29\n(84 - 106.3)^2 &= 497.29\n## Add the squares\n\\sum (x-\\mu)^2 &= 1176.49+712.89+2371.69+28.09+151.29+3516.49+1823.29+767.29+151.29+497.29\n&= 11196.1\n## Divide by n and take the square root\n\\sigma^2 &= \\frac{11196.1}{10}\n&= 1119.61\n\\sigma &= \\sqrt{1119.61}\n&= 33.46\n&\\approx 33.5 \\text{ mm}\nANSWER: 33.5 \\text{ mm}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(f)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Plot each remaining (rainfall, sunshine) pair\nEach year gives one point: rainfall across, sunshine up. The four plotted points are 2001 to 2004.\n2005: (94, 173). 2006: (47, 239). 2007: (149, 159).\n2008: (134, 168). 2009: (94, 228). 2010: (84, 205).\nANSWER: \\text{six points plotted as shown}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q7#(f)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Read the pattern of the points\nAs rainfall goes up, sunshine tends to go down, so the correlation is negative.\nThe points are fairly close to a downward line, so it is moderate to strong. Tick $-0.6$.\nANSWER: -0.6"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Write Pythagoras for the right-angled triangle PRQ\nThe right angle is at $R$, so $[PQ]$ is the hypotenuse.\n|PQ|^2 &= |PR|^2 + |RQ|^2\n## Substitute the lengths\n6.5^2 &= 3.3^2 + |RQ|^2\n42.25 &= 10.89 + |RQ|^2\n## Solve for |RQ|\n|RQ|^2 &= 42.25 - 10.89\n|RQ|^2 &= 31.36\n|RQ| &= \\sqrt{31.36}\n&= 5.6 \\text{ m}\nANSWER: |RQ| = 5.6 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Choose the sine ratio\nIn triangle $PRQ$, $PR$ is opposite $\\alpha$ and $PQ$ is the hypotenuse.\n\\sin\\alpha &= \\frac{|PR|}{|PQ|}\n&= \\frac{3.3}{6.5}\n## Find α with the calculator\n\\alpha &= \\sin^{-1}\\left(\\frac{3.3}{6.5}\\right)\n&= 30.51^\\circ\n&\\approx 31^\\circ\nANSWER: \\alpha = 31^\\circ"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Use the straight line PS\n$P$, $Q$ and $S$ lie on one straight line (and $\\alpha$ and $\\beta$ are on the same side), so $\\alpha + \\beta = 180^\\circ$.\n\\beta &= 180^\\circ - 31^\\circ\n&= 149^\\circ\nANSWER: \\beta = 149^\\circ"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Write the cosine rule for triangle RQS\nWe know $|RQ| = 5.6$, $|QS| = 8$ and the angle between them, $\\beta = 149^\\circ$.\n|RS|^2 &= |RQ|^2 + |QS|^2 - 2|RQ||QS|\\cos\\beta\n## Substitute the values\n|RS|^2 &= 5.6^2 + 8^2 - 2(5.6)(8)\\cos 149^\\circ\n&= 31.36 + 64 - 89.6\\cos 149^\\circ\n## Evaluate\n$\\cos 149^\\circ = -0.857167$, so the last term becomes positive.\n&= 31.36 + 64 + 76.8022\n&= 172.162\n## Take the square root\n|RS| &= \\sqrt{172.162}\n&= 13.12\n&\\approx 13 \\text{ m}\nANSWER: |RS| = 13 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find the angle of the sector\n$|\\angle SQT| = 180^\\circ - 149^\\circ = 31^\\circ$, and the radius is 8 m.\n## Use the arc length formula\n\\text{Arc } TS &= 2\\pi r \\times \\frac{\\theta}{360}\n&= 2\\pi(8) \\times \\frac{31}{360}\n&= \\frac{62\\pi}{45}\n&= 4.3284\n&\\approx 4.3 \\text{ m}\nANSWER: 4.3 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q8#(f)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use the sector area formula\n\\text{Area} &= \\pi r^2 \\times \\frac{\\theta}{360}\n&= \\pi(8)^2 \\times \\frac{31}{360}\n&= \\frac{248\\pi}{45}\n&= 17.3136\n&\\approx 17.3 \\text{ m}^2\nANSWER: 17.3 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Use the volume of a sphere\nV &= \\frac{4}{3}\\pi r^3\n&= \\frac{4}{3}\\pi(0.3)^3\n&= 0.113097\n&\\approx 0.113 \\text{ cm}^3\nANSWER: 0.113 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Multiply volume by 19.3 g per cm³\n\\text{Mass} &= 0.113 \\times 19.3\n&= 2.1809\n&\\approx 2.18 \\text{ g}\nANSWER: 2.18 \\text{ g}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q9#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Atoms in 1 gram\n197 \\text{ g} &= 6.02 \\times 10^{23} \\text{ atoms}\n1 \\text{ g} &= \\frac{6.02 \\times 10^{23}}{197}\n## Atoms in 2.18 grams\n2.18 \\text{ g} &= \\frac{6.02 \\times 10^{23}}{197} \\times 2.18\n&= 6.6617 \\times 10^{21}\n&\\approx 6.7 \\times 10^{21}\nANSWER: 6.7 \\times 10^{21}"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Use the margin of error formula\n\\text{MOE} &= \\frac{1}{\\sqrt{n}}\n&= \\frac{1}{\\sqrt{1560}}\n&= 0.025318\n&\\approx 2.5\\%\nANSWER: 2.5\\%"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find the sample proportion\n\\hat{p} &= \\frac{546}{1560}\n&= 0.35\nAs a percentage, $\\hat{p} = 35\\%$.\n## Add and subtract the margin of error\nThe 95% interval is $\\hat{p} \\pm \\text{MOE}$, which is $35\\% \\pm 2.5\\%$.\n35 - 2.5 &= 32.5\n35 + 2.5 &= 37.5\nANSWER: (32.5\\%, \\ 37.5\\%)"
+ },
+ {
+  "part": "maths-pp-2018-ordinary-p2-q9#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## State the hypotheses\nH_0 &: p = 40\\%\nH_1 &: p \\ne 40\\%\n## Compare 40% with the confidence interval\nThe 95% interval is $[32.5\\%, 37.5\\%]$. The value 40% is not inside it.\n## Conclude in context\nReject $H_0$. At the 5% level, the percentage of viewers who like the show is not 40%, so the executive's claim is rejected.\nANSWER: \\text{Reject } H_0: \\text{ the percentage who like the show is not } 40\\%"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths2",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Multiply out the brackets\n(2x+1)(x^2+px+4) &= 2x(x^2+px+4) + 1(x^2+px+4)\n&= 2x^3 + 2px^2 + 8x + x^2 + px + 4\n## Collect like terms\n&= 2x^3 + (2p+1)x^2 + (8+p)x + 4\n## Read off the two coefficients\nThe coefficient of $x^2$ is $2p+1$ and the coefficient of $x$ is $8+p$.\n## Use \"coefficient of x is twice coefficient of x²\"\n8+p &= 2(2p+1)\n8+p &= 4p+2\n## Solve for p\n8-2 &= 4p-p\n6 &= 3p\np &= 2\nANSWER: p = 2"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths4",
+   "maths2"
+  ],
+  "marks": 15,
+  "solution": "## Find a common denominator\nThe denominators are $2x+1$, $5$ and $3x-1$, so the common denominator is $5(2x+1)(3x-1)$.\n\\frac{3}{2x+1} + \\frac{2}{5} &= \\frac{2}{3x-1}\n## Multiply every term by the common denominator\n15(3x-1) + 2(2x+1)(3x-1) &= 10(2x+1)\n## Multiply out each side\n(2x+1)(3x-1) &= 6x^2 - 2x + 3x - 1\n&= 6x^2 + x - 1\n45x - 15 + 2(6x^2 + x - 1) &= 20x + 10\n45x - 15 + 12x^2 + 2x - 2 &= 20x + 10\n12x^2 + 47x - 17 &= 20x + 10\n## Rearrange to a quadratic equal to zero\n12x^2 + 27x - 27 &= 0\n4x^2 + 9x - 9 &= 0\n## Factorise and solve\n(x+3)(4x-3) &= 0\nx &= -3 \\text{ or } x = \\tfrac{3}{4}\nANSWER: x = -3 \\text{ or } x = \\tfrac{3}{4}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q2#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find two points on the line\n$g(x)=4x+1$ is a straight line, so two points are enough.\ng(0) &= 4(0) + 1 = 1\ng(2) &= 4(2) + 1 = 9\n## Plot and join the points\nPlot $(0,1)$ and $(2,9)$ and draw a straight line through them, extending it across the grid.\nANSWER: \\text{Line through } (0,1) \\text{ and } (2,9)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q2#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 1.9 into g(x)\ng(1.9) &= 4(1.9) + 1\n&= 7.6 + 1\n&= 8.6\n## Substitute x = 1.9 into f(x)\nf(1.9) &= 3^{1.9}\n&= 8.06\n## Compare the two values\n8.06 &< 8.6\nSo $f(1.9) < g(1.9)$.\nANSWER: f(1.9) = 8.06 < 8.6 = g(1.9)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths18"
+  ],
+  "marks": 15,
+  "solution": "## State what is to be proved\nLet $P(n)$ be the statement $3^n \\ge 4n+1$, for $n \\ge 2$.\n## Step 1: show P(2) is true\n3^2 &= 9\n4(2)+1 &= 9\n9 &\\ge 9\nSo $P(2)$ is true.\n## Step 2: assume P(k) is true\nAssume $3^k \\ge 4k+1$ for some $k \\ge 2$.\n## Step 3: write down what P(k+1) says\n3^{k+1} &\\ge 4(k+1) + 1\n3^{k+1} &\\ge 4k + 5\n## Multiply the assumption by 3\n3^k &\\ge 4k+1\n3 \\cdot 3^k &\\ge 3(4k+1)\n3^{k+1} &\\ge 12k + 3\n## Show 12k + 3 is at least 4k + 5\n(12k+3) - (4k+5) &= 8k - 2\n8k - 2 &\\ge 8(2) - 2 = 14 > 0\nSo $12k+3 > 4k+5$ for $k \\ge 2$.\n## Combine the inequalities\n3^{k+1} &\\ge 12k+3 > 4k+5\n3^{k+1} &\\ge 4k+5\nSo $P(k+1)$ is true whenever $P(k)$ is true.\n## Step 4: conclusion\n$P(2)$ is true, and $P(k)$ true implies $P(k+1)$ true. By induction, $P(n)$ is true for all $n \\ge 2$, $n \\in \\mathbb{N}$.\nANSWER: 3^n \\ge 4n+1 \\text{ for all } n \\ge 2,\\ n \\in \\mathbb{N}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Group the terms in pairs\n3xy - 9x + 4y - 12 &= (3xy - 9x) + (4y - 12)\n## Take out the common factor of each pair\n&= 3x(y-3) + 4(y-3)\n## Take out the common bracket\n&= (3x+4)(y-3)\nANSWER: (3x+4)(y-3)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Group the terms as in part (a)\ng(x) &= 3x\\ln x - 9x + 4\\ln x - 12\n&= 3x(\\ln x - 3) + 4(\\ln x - 3)\n## Take out the common bracket\n&= (3x+4)(\\ln x - 3)\n## Set each factor equal to zero\nA product is zero when one of its factors is zero.\n3x + 4 &= 0\nx &= -\\tfrac{4}{3}\n## Solve the logarithm factor\n\\ln x - 3 &= 0\n\\ln x &= 3\nx &= e^3\n$\\ln x$ only exists for $x>0$, so reject $x=-\\tfrac{4}{3}$.\nANSWER: x = e^3"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q3#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate $3x\\ln x$ with the product rule\nProduct rule: $\\frac{d}{dx}(uv) = u\\,v' + v\\,u'$ with $u=3x$, $v=\\ln x$.\ng'(x) &= 3x\\left(\\frac{1}{x}\\right) + 3\\ln x - 9 + 4\\left(\\frac{1}{x}\\right)\n## Simplify the derivative\n&= 3 + 3\\ln x - 9 + \\frac{4}{x}\n&= 3\\ln x - 6 + \\frac{4}{x}\n## Substitute x = e\ng'(e) &= 3\\ln e - 6 + \\frac{4}{e}\nSince $\\ln e = 1$:\n&= 3 - 6 + \\frac{4}{e}\n&= -3 + \\frac{4}{e}\n## Evaluate to 2 decimal places\n&= -1.53\nANSWER: g'(e) = -1.53"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 5,
+  "solution": "## Integrate each term: add 1 to the power, divide by the new power\nUse $\\int x^n\\,dx = \\frac{x^{n+1}}{n+1}$.\n\\int (4x^3 - 6x + 10)\\,dx &= \\frac{4x^4}{4} - \\frac{6x^2}{2} + 10x + C\n&= x^4 - 3x^2 + 10x + C\nANSWER: x^4 - 3x^2 + 10x + C"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q4#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths19",
+   "maths1"
+  ],
+  "marks": 10,
+  "solution": "## Integrate f'(x) to get f(x)\nf(x) &= \\int (6x^2 - 54x + 109)\\,dx\nf(x) &= 2x^3 - 27x^2 + 109x + C\n## Use the point A(2, 0) to find C\n$A(2,0)$ is on the graph, so $f(2) = 0$.\n2(2)^3 - 27(2)^2 + 109(2) + C &= 0\n2(8) - 27(4) + 218 + C &= 0\n16 - 108 + 218 + C &= 0\n126 + C &= 0\nC &= -126\n## Write f(x) with C = -126\nf(x) &= 2x^3 - 27x^2 + 109x - 126\nANSWER: f(x) = 2x^3 - 27x^2 + 109x - 126"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q4#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths1",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Use the known root x = 2 to get a factor\n$A(2,0)$ is on the graph, so $x = 2$ is a root and $(x-2)$ is a factor.\nB and C are where $f(x) = 0$. Split $f(x)$ so that every group contains $(x-2)$.\n## Factor (x - 2) out of the cubic\nf(x) &= 2x^3 - 27x^2 + 109x - 126\n&= 2x^2(x-2) - 23x^2 + 109x - 126\n&= 2x^2(x-2) - 23x(x-2) + 63x - 126\n&= 2x^2(x-2) - 23x(x-2) + 63(x-2)\n&= (x-2)(2x^2 - 23x + 63)\n## Factorise the quadratic\n2x^2 - 23x + 63 &= 2x^2 - 14x - 9x + 63\n&= 2x(x-7) - 9(x-7)\n&= (2x-9)(x-7)\n## Solve f(x) = 0\n(x-2)(2x-9)(x-7) &= 0\nx &= 2,\\ \\tfrac{9}{2},\\ 7\n$x = 2$ is point $A$, so $B$ and $C$ have $x = 4.5$ and $x = 7$ (B is left of C on the graph). Their $y$-coordinate is $0$.\nANSWER: B = \\left(\\tfrac{9}{2}, 0\\right), \\quad C = (7, 0)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Write down the other root\nThe coefficients $p, q$ are real, so complex roots come in conjugate pairs.\nThe other root is $3 - 2i$.\n## Sum of the roots gives p\nFor $z^2 + pz + q = 0$: sum of roots $= -p$.\n-p &= (3+2i) + (3-2i)\n-p &= 6\np &= -6\n## Product of the roots gives q\nProduct of roots $= q$.\nq &= (3+2i)(3-2i)\n&= 9 - 4i^2\n&= 9 + 4\n&= 13\nANSWER: p = -6, \\quad q = 13"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q5#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Find the modulus r\nr = |v| &= \\sqrt{2^2 + (2\\sqrt{3})^2}\n&= \\sqrt{4 + 12}\n&= 4\n## Find the argument\n$v = 2 - 2\\sqrt{3}\\,i$ is in the fourth quadrant (real part positive, imaginary part negative).\n\\tan\\alpha &= \\frac{2\\sqrt{3}}{2} = \\sqrt{3}\n\\alpha &= \\frac{\\pi}{3}\n\\theta &= 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}\n## Write v in polar form\nv &= 4\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)\nANSWER: v = 4\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q5#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Take the square root of v\n$w^2 = v$ means $w = \\pm v^{1/2}$.\nw &= \\pm\\left[4\\left(\\cos\\frac{5\\pi}{3} + i\\sin\\frac{5\\pi}{3}\\right)\\right]^{\\frac{1}{2}}\n## Apply De Moivre's theorem\n$\\left[r(\\cos\\theta + i\\sin\\theta)\\right]^{n} = r^n(\\cos n\\theta + i\\sin n\\theta)$. Here $n = \\tfrac12$: square-root the modulus and halve the angle.\nw &= \\pm\\, 4^{\\frac{1}{2}}\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)\n&= \\pm\\, 2\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)\n## Evaluate cos and sin\n\\cos\\frac{5\\pi}{6} &= -\\frac{\\sqrt{3}}{2}, \\quad \\sin\\frac{5\\pi}{6} = \\frac{1}{2}\nw &= \\pm\\, 2\\left(-\\frac{\\sqrt{3}}{2} + \\frac{1}{2}i\\right)\n&= \\pm\\left(-\\sqrt{3} + i\\right)\n## Write both values of w\nw &= -\\sqrt{3} + i \\quad\\text{or}\\quad w = \\sqrt{3} - i\nANSWER: w = -\\sqrt{3} + i \\ \\text{ or } \\ w = \\sqrt{3} - i"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q6#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Collect the x terms on one side\nx - \\sqrt{32} &= \\sqrt{128} - 5x\nx + 5x &= \\sqrt{128} + \\sqrt{32}\n## Write each surd in the form a root 2\n\\sqrt{128} &= \\sqrt{64 \\times 2} = 8\\sqrt{2}\n\\sqrt{32} &= \\sqrt{16 \\times 2} = 4\\sqrt{2}\n## Substitute and solve\nx + 5x &= 8\\sqrt{2} + 4\\sqrt{2}\n6x &= 12\\sqrt{2}\nx &= \\frac{12\\sqrt{2}}{6}\nx &= 2\\sqrt{2}\nANSWER: x = 2\\sqrt{2}"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q6#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths22",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Write each member of A in the form a root 2 times k\n\\sqrt{32k^2} &= \\sqrt{16 \\times 2}\\,k = 4\\sqrt{2}\\,k\n\\sqrt{50k^2} &= \\sqrt{25 \\times 2}\\,k = 5\\sqrt{2}\\,k\n\\sqrt{128k^2} &= \\sqrt{64 \\times 2}\\,k = 8\\sqrt{2}\\,k\n\\sqrt{98k^2} &= \\sqrt{49 \\times 2}\\,k = 7\\sqrt{2}\\,k\n## Put the set in order\nOrder smallest to largest: $4\\sqrt{2}k,\\ 5\\sqrt{2}k,\\ 7\\sqrt{2}k,\\ 8\\sqrt{2}k$.\n## Find the mean\n\\text{Mean} &= \\frac{4\\sqrt{2}k + 5\\sqrt{2}k + 7\\sqrt{2}k + 8\\sqrt{2}k}{4}\n&= \\frac{24\\sqrt{2}k}{4}\n&= 6\\sqrt{2}k\n## Find the median\nThere are 4 values, so the median is the average of the middle two.\n\\text{Median} &= \\frac{5\\sqrt{2}k + 7\\sqrt{2}k}{2}\n&= \\frac{12\\sqrt{2}k}{2}\n&= 6\\sqrt{2}k\n## Compare\nBoth equal $6\\sqrt{2}k$, so the mean equals the median.\nANSWER: \\text{Mean} = \\text{Median} = 6\\sqrt{2}k"
+ },
+ {
+  "part": "maths-pp-2019-higher-p1-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 10,
+  "solution": "## Assume the opposite\nSuppose $\\sqrt{2}$ is rational.\nThen $\\sqrt{2} = \\frac{p}{q}$ with $p, q$ integers having no common factor (the fraction is in simplest form).\n## Show p is even\n2 &= \\frac{p^2}{q^2}\n2q^2 &= p^2\n$p^2$ is even (it equals $2q^2$), so $p$ is even. (The square of an odd number is odd.)\nSo $p = 2k$ for some integer $k$.\n## Show q is even\n2q^2 &= (2k)^2\n2q^2 &= 4k^2\nq^2 &= 2k^2\n$q^2$ is even, so $q$ is even. So $q = 2m$ for some integer $m$.\n## Reach the contradiction\n\\sqrt{2} &= \\frac{p}{q} = \\frac{2k}{2m}\n$p$ and $q$ now have a common factor of $2$. This contradicts the assumption that they have no common factor.\nSo the assumption is false.\nANSWER: \\sqrt{2} \\text{ is not a rational number}"
+ }
+]

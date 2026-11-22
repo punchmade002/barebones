@@ -1,0 +1,404 @@
+[
+ {
+  "part": "maths-pp-2023-higher-p2-q5#(a)(i), (ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 20,
+  "solution": "## (i) List the red cubes and find their total\nRed cubes per trial (A to G): $0, 3, 2, 2, 4, 5, 1$.\n\\sum x &= 0 + 3 + 2 + 2 + 4 + 5 + 1\n&= 17\n## (i) Find the mean\n\\bar{x} &= \\frac{\\sum x}{n} = \\frac{17}{7}\n&= 2.42\\ldots\n&= 2.4\n## (i) Find the sum of the squares of the red values\n\\sum x^2 &= 0^2 + 3^2 + 2^2 + 2^2 + 4^2 + 5^2 + 1^2\n&= 0 + 9 + 4 + 4 + 16 + 25 + 1\n&= 59\n## (i) Find the variance\nUse $\\sigma^2 = \\dfrac{\\sum x^2}{n} - \\bar{x}^2$.\n\\sigma^2 &= \\frac{59}{7} - \\left(\\frac{17}{7}\\right)^2\n&= \\frac{413}{49} - \\frac{289}{49}\n&= \\frac{124}{49}\n## (i) Find the standard deviation\n\\sigma &= \\sqrt{\\frac{124}{49}}\n&= 1.59\\ldots\n&= 1.6\n## (ii) Set up the correlation calculation\nLet $x$ be the red cubes and $y$ the green cubes, with $n = 7$. Green cubes per trial: $4, 2, 0, 3, 0, 0, 2$.\n\\sum y &= 4 + 2 + 0 + 3 + 0 + 0 + 2\n&= 11\n\\sum y^2 &= 16 + 4 + 0 + 9 + 0 + 0 + 4\n&= 33\n\\sum xy &= 0(4) + 3(2) + 2(0) + 2(3) + 4(0) + 5(0) + 1(2)\n&= 0 + 6 + 0 + 6 + 0 + 0 + 2\n&= 14\n## (ii) Substitute into the correlation formula\nUse $\\sum x = 17$, $\\sum x^2 = 59$, $\\sum y = 11$, $\\sum y^2 = 33$, $\\sum xy = 14$.\nr &= \\frac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}\n&= \\frac{7(14) - (17)(11)}{\\sqrt{\\left(7(59) - 17^2\\right)\\left(7(33) - 11^2\\right)}}\n&= \\frac{98 - 187}{\\sqrt{(413 - 289)(231 - 121)}}\n&= \\frac{-89}{\\sqrt{124 \\times 110}}\n&= \\frac{-89}{\\sqrt{13640}}\n&= -0.76204\\ldots\n&= -0.762\n## (iii) Explain why the correlation is negative\nEach trial picks exactly $5$ cubes, so the red, green and blue counts always add to $5$.\nIf a trial has more red cubes, there is less room for green cubes, so fewer green cubes are likely.\nAs the number of red cubes increases, the number of green cubes tends to decrease, so the correlation coefficient is negative.\nANSWER: \\text{mean} = 2.4, \\quad \\sigma = 1.6, \\quad r = -0.762"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## 3 faces: the corners\nA cube with $3$ faces outside sits at a corner of the cuboid. A cuboid has $8$ corners.\n\\text{3 faces} &= 8\n## 2 faces: along the edges, not counting corners\nThere are $4$ edges of length $5$, $4$ of length $3$ and $4$ of length $4$. On each edge, remove the $2$ corner cubes.\n\\text{2 faces} &= 4(5 - 2) + 4(3 - 2) + 4(4 - 2)\n&= 4(3) + 4(1) + 4(2)\n&= 12 + 4 + 8\n&= 24\n## 1 face: the middle of each face\nOn each face, remove the border cubes, leaving a rectangle that is $2$ shorter in each direction. There are $2$ faces of each size.\n\\text{1 face} &= 2(5 - 2)(3 - 2) + 2(5 - 2)(4 - 2) + 2(3 - 2)(4 - 2)\n&= 2(3)(1) + 2(3)(2) + 2(1)(2)\n&= 6 + 12 + 4\n&= 22\nThis matches the value given in the table.\n## No faces: the hidden inside block\nRemove the outer layer from every direction. The inside block is $2$ shorter in each dimension.\n\\text{no faces} &= (5 - 2)(3 - 2)(4 - 2)\n&= 3 \\times 1 \\times 2\n&= 6\n## Check the total\n8 + 24 + 22 + 6 &= 60\n5 \\times 3 \\times 4 &= 60\nANSWER: \\text{3 faces: } 8, \\quad \\text{2 faces: } 24, \\quad \\text{1 face: } 22, \\quad \\text{no faces: } 6"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 5,
+  "solution": "## Decide whether the statement is true or false\n\"If and only if\" means the statement must work in both directions.\nVertically opposite angles are always equal, but equal angles need not be vertically opposite.\nSo the statement is false.\n## Justify with a counter-example\nIn an equilateral triangle all three angles are $60^\\circ$, so they are equal in size.\nThese angles are next to each other, not vertically opposite.\nSo equal angles are not always vertically opposite.\nANSWER: \\text{False}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q6#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths16"
+  ],
+  "marks": 15,
+  "solution": "## Show two angles of the triangles are equal\n$[GH]$ is parallel to $[AC]$, and $[BH]$ cuts across them.\n|\\angle EHD| &= |\\angle DBC| = \\theta\nReason: alternate angles.\n|\\angle EFD| &= \\theta\nReason: given.\n|\\angle EFD| &= |\\angle EHD|\n## Show the angles at E are equal\n|\\angle FED| &= 90^\\circ\nReason: angle of the rectangle.\n|\\angle HED| &= 90^\\circ\nReason: $F$, $E$, $H$ lie on a straight line, so $\\angle HED$ and $\\angle FED$ add to $180^\\circ$.\n|\\angle FED| &= |\\angle HED|\n## Show the angles at D are equal\nThe angles in each triangle add to $180^\\circ$, and two angles in $FED$ equal two angles in $HED$.\n|\\angle FDE| &= |\\angle HDE|\nReason: angles in a triangle sum to $180^\\circ$.\n## Show the triangles share a side\n|ED| &= |ED|\nReason: common side.\n## State the conclusion\nTriangles $FED$ and $HED$ are congruent by ASA (angle, side, angle: the angles at $E$ and $D$ with the common side $[ED]$).\n|FE| &= |EH|\nReason: corresponding sides of congruent triangles.\nANSWER: |FE| = |EH|"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q6#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Find |FE| using a parallelogram\n$[AF]$ is parallel to $[BH]$ (equal angles $\\theta$) and $[AB]$ is parallel to $[FH]$, so $ABHF$ is a parallelogram.\n|FH| &= |AB| = 20\nFrom part (i), $|FE| = |EH|$, so $|FE|$ is half of $|FH|$.\n|FE| &= \\frac{1}{2} \\times 20\n&= 10\n## Find |FG|\n$|GE| = |AC| = 20 + 30 = 50$.\n|FG| &= |GE| - |FE|\n&= 50 - 10\n&= 40\n## Set up a trigonometric equation in triangle AGF\n$|\\angle GFA| = \\theta$, $|AG|$ is opposite $\\theta$ and $|FG|$ is adjacent to $\\theta$.\n\\tan\\theta &= \\frac{|AG|}{|FG|}\n&= \\frac{90}{40}\n&= 2.25\n## Solve for the angle\n\\theta &= \\tan^{-1}(2.25)\n&= 66.04\\ldots^\\circ\n&\\approx 66^\\circ\nANSWER: \\theta = 66^\\circ"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Set up Pythagoras in the right-angled triangle\n$[AB]$ is the hypotenuse.\n|AC|^2 + 9^2 &= 70^2\n## Find |AC|\n|AC|^2 &= 70^2 - 9^2\n&= 4900 - 81\n&= 4819\n|AC| &= \\sqrt{4819}\n## Find the gradient as a percentage\n\\text{gradient} &= \\frac{|BC|}{|AC|} \\times 100\n&= \\frac{9}{\\sqrt{4819}} \\times 100\n&= 12.96\\ldots\n&\\approx 13\nANSWER: 13\\%"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle at O in triangle ROP\nThe angles in triangle $ROP$ add to $180^\\circ$.\n|\\angle POR| &= 180 - 87 - 88\n&= 5^\\circ\n## Use the sine rule to find |RO|\n$|RO|$ is opposite the $87^\\circ$ angle and $|RP| = 20$ is opposite the $5^\\circ$ angle.\n\\frac{|RO|}{\\sin 87^\\circ} &= \\frac{20}{\\sin 5^\\circ}\n|RO| &= \\frac{20\\sin 87^\\circ}{\\sin 5^\\circ}\n&= 229.16\\ \\text{m}\n## Use tangent in triangle ROH to find |OH|\nThe angle of elevation at $R$ is $17^\\circ$, and $|OH|$ is opposite it.\n\\tan 17^\\circ &= \\frac{|OH|}{|RO|}\n|OH| &= |RO| \\tan 17^\\circ\n&= 229.16 \\times \\tan 17^\\circ\n&\\approx 70\\ \\text{m}\nANSWER: |OH| = 70\\ \\text{m}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q7#(c), (d)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Part (c): find a, the minimum of V\n$\\cos$ is largest ($1$) when $V$ is smallest.\na &= 2 - 0.4(1)\n&= 1.6\n## Part (c): find b, the maximum of V\n$\\cos$ is smallest ($-1$) when $V$ is largest.\nb &= 2 - 0.4(-1)\n&= 2.4\n## Part (d): link V'(t) to breathing\n$V'(t)$ is the rate of change of the volume of air in the lungs.\nIf $V'(t) > 0$, the volume is increasing, so Olga is breathing in.\nIf $V'(t) < 0$, the volume is decreasing, so Olga is breathing out.\nANSWER: a = 1.6,\\ b = 2.4;\\ V'(t) > 0 \\text{ means breathing in},\\ V'(t) < 0 \\text{ means breathing out}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q7#(e)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Substitute t = 0.5 into V(t)\nSet the calculator to radian mode.\nV(0.5) &= 2 - 0.4\\cos\\left(\\frac{\\pi}{2} \\times 0.5\\right)\n&= 2 - 0.4\\cos\\left(\\frac{\\pi}{4}\\right)\n&= 1.7172\\ldots\n&\\approx 1.717\\ \\text{litres}\nANSWER: 1.717\\ \\text{litres}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q7#(e)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate V(t)\nThe derivative of $\\cos(kt)$ is $-k\\sin(kt)$, and the constant $2$ differentiates to $0$.\nV(t) &= 2 - 0.4\\cos\\left(\\frac{\\pi}{2}t\\right)\nV'(t) &= -0.4\\left(-\\sin\\left(\\frac{\\pi}{2}t\\right)\\right)\\frac{\\pi}{2}\n&= 0.2\\pi\\sin\\left(\\frac{\\pi}{2}t\\right)\n## Substitute t = 0.5\nV'(0.5) &= 0.2\\pi\\sin\\left(\\frac{\\pi}{2} \\times 0.5\\right)\n&= 0.2\\pi\\sin\\left(\\frac{\\pi}{4}\\right)\n&= 0.4442\\ldots\n&\\approx 0.444\\ \\text{litres/second}\nANSWER: 0.444\\ \\text{litres/second}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q7#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the maximum and minimum values\nBreathes in fully: maximum $3.6$. Breathes out fully: minimum $1.3$.\n## Find a, the midline\na &= \\frac{3.6 + 1.3}{2}\n&= 2.45\n## Find b, the amplitude\nTime $t$ starts when she has just breathed out fully, so $E$ starts at its minimum. A minimum at $t = 0$ means $b$ is negative.\n|b| &= \\frac{3.6 - 1.3}{2}\n&= 1.15\nb &= -1.15\n## Find c from the period\nAt rest, the period is $\\frac{2\\pi}{\\pi/2} = 4$ seconds. She breathes twice as often, so the period is $2$ seconds.\n\\frac{2\\pi}{c} &= 2\nc &= \\pi\n## Write the formula\nE(t) &= 2.45 - 1.15\\cos(\\pi t)\nANSWER: E(t) = 2.45 - 1.15\\cos(\\pi t)"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find the z-score\nz &= \\frac{x - \\mu}{\\sigma}\n&= \\frac{3.5 - 3.87}{0.36}\n&= -1.03\n## Use the normal tables with a positive z-score\nThe tables give $P(z < 1.03) = 0.8485$. By symmetry, $P(z < -1.03) = 1 - P(z < 1.03)$.\nP(x < 3.5) &= P(z < -1.03)\n&= 1 - P(z < 1.03)\n&= 1 - 0.8485\n&= 0.1515\nANSWER: 0.1515"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Write the confidence interval formula\nA $95\\%$ confidence interval uses $1.96$ standard errors.\n\\bar{x} &\\pm 1.96\\frac{\\sigma}{\\sqrt{n}}\n## Find the margin of error\n$\\bar{x} = 3.74$, $\\sigma = 0.36$, $n = 64$.\n1.96 \\times \\frac{0.36}{\\sqrt{64}} &= 1.96 \\times \\frac{0.36}{8}\n&= 1.96 \\times 0.045\n&= 0.0882\n## Find the lower limit\n3.74 - 0.0882 &= 3.6518\n## Find the upper limit\n3.74 + 0.0882 &= 3.8282\nANSWER: 3.6518 \\le \\mu \\le 3.8282"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## State the hypotheses\nH_0 &: \\mu = 3.87\nThe null hypothesis says Galway players have the same mean score as players in Ireland.\nH_1 &: \\mu \\neq 3.87\nThe alternative says the mean score is different.\n## Compare the Irish mean with the confidence interval\nFrom part (i), the $95\\%$ confidence interval for the Galway mean is $3.6518 \\le \\mu \\le 3.8282$.\nThe value $3.87$ is not inside this interval.\n## State the conclusion and reason\nReject $H_0$ at the $5\\%$ level.\nReason: $3.87$ is outside the $95\\%$ confidence interval, so Galway players have a different mean score.\nANSWER: \\text{Reject } H_0\\text{: Galway players have a different mean score}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Find the sample proportion and margin of error\nThe interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$.\n\\text{margin} &= 0.435 - 0.35\n&= 0.085\n## Find p-hat times (1 - p-hat)\n\\hat{p}(1 - \\hat{p}) &= 0.35 \\times 0.65\n&= 0.2275\n## Set up the margin of error equation\n1.96\\sqrt{\\frac{0.2275}{n}} &= 0.085\n## Solve for n\n\\sqrt{\\frac{0.2275}{n}} &= \\frac{0.085}{1.96}\n\\frac{0.2275}{n} &= \\left(\\frac{0.085}{1.96}\\right)^2\nn &= \\frac{0.2275}{\\left(\\frac{0.085}{1.96}\\right)^2}\n&= 120.96\\ldots\n&\\approx 121\nANSWER: n = 121"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q8#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Fill in the 1st June branches\n$80\\%$ win, so the lose proportion is $1 - 0.8 = 0.2$.\n360000 \\times 0.8 &= 288000\n360000 \\times 0.2 &= 72000\n## Find who plays on 2nd June\n$90\\%$ of winners play again and $25\\%$ of losers play again.\n288000 \\times 0.9 &= 259200\n72000 \\times 0.25 &= 18000\n## Split the 2nd June players into win and lose\nWinning is independent of the previous day, so each group wins with proportion $0.8$ and loses with $0.2$.\n259200 \\times 0.8 &= 207360\n259200 \\times 0.2 &= 51840\n18000 \\times 0.8 &= 14400\n18000 \\times 0.2 &= 3600\n## Find who plays on 3rd June\nUse $0.9$ after a win and $0.25$ after a loss.\n207360 \\times 0.9 &= 186624\n51840 \\times 0.25 &= 12960\n14400 \\times 0.9 &= 12960\n3600 \\times 0.25 &= 900\nANSWER: \\text{Tree completed as shown}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q8#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find the total who played on all three days\nThese are the four 3rd June PLAY boxes.\n186624 + 12960 + 12960 + 900 &= 213444\n## Find those who lost on 1st or 2nd June (or both)\nThis is everyone except the win-then-win path, so leave out $186624$.\n12960 + 12960 + 900 &= 26820\n## Find the probability\nP &= \\frac{26820}{213444}\n&= \\frac{745}{5929}\nANSWER: \\frac{745}{5929}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write the area of the square in terms of its side l\nArea of a square is side times side.\nl^2 &= 140\n## Take the square root\nl &= \\sqrt{140}\n&\\approx 11.83\n&\\approx 11.8\nANSWER: l = 11.8\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the area of one of the 6 triangles\nThe hexagon splits into 6 congruent equilateral triangles of side $x$.\n\\text{Area of one triangle} &= \\frac{140}{6}\n&= \\frac{70}{3}\n## Write the triangle area using the area formula\nArea $= \\frac12 ab\\sin C$, with $a = b = x$ and $C = 60^\\circ$.\n\\frac{1}{2}x^2 \\sin 60^\\circ &= \\frac{70}{3}\n\\frac{1}{2}x^2 \\cdot \\frac{\\sqrt{3}}{2} &= \\frac{70}{3}\n\\frac{\\sqrt{3}}{4}x^2 &= \\frac{70}{3}\n## Solve for x squared\nx^2 &= \\frac{70}{3} \\times \\frac{4}{\\sqrt{3}}\nx^2 &= \\frac{280}{3\\sqrt{3}}\n## Take the positive square root and round\nA length is positive, so we take the positive root.\nx &= \\sqrt{\\frac{280}{3\\sqrt{3}}}\n&\\approx 7.34\n&\\approx 7.3\nANSWER: x = 7.3\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q9#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Write the cosine rule in triangle ADE\n$\\alpha$ is the angle at $A$, opposite the side $|ED| = 4$.\n4^2 &= 6^2 + 8^2 - 2(6)(8)\\cos\\alpha\n16 &= 36 + 64 - 96\\cos\\alpha\n16 &= 100 - 96\\cos\\alpha\n## Solve for cos alpha\n96\\cos\\alpha &= 100 - 16\n96\\cos\\alpha &= 84\n\\cos\\alpha &= \\frac{84}{96}\n\\cos\\alpha &= \\frac{7}{8}\n## Take the inverse cosine\n\\alpha &= \\cos^{-1}\\left(\\frac{7}{8}\\right)\nANSWER: \\alpha = \\cos^{-1}\\left(\\frac{7}{8}\\right)"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q9#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find |AC| using the right-angled triangle ACD\n$|\\angle ADC| = 90^\\circ$, so $\\cos\\alpha = \\frac{|AD|}{|AC|}$.\n\\frac{8}{|AC|} &= \\frac{7}{8}\n|AC| &= \\frac{8 \\times 8}{7}\n|AC| &= \\frac{64}{7}\n## Find |CD| using Pythagoras in triangle ACD\n|CD| &= \\sqrt{|AC|^2 - |AD|^2}\n|CD| &= \\sqrt{\\left(\\frac{64}{7}\\right)^2 - 8^2}\n&= \\sqrt{\\frac{4096}{49} - \\frac{3136}{49}}\n&= \\sqrt{\\frac{960}{49}}\n&= \\frac{8\\sqrt{15}}{7}\n## Find the area of triangle ACD\nThe right angle is at $D$, so base $|AD|$ and height $|CD|$.\n\\text{Area}(ACD) &= \\frac{1}{2}(8)\\left(\\frac{8\\sqrt{15}}{7}\\right)\n&= \\frac{32\\sqrt{15}}{7}\n## Double it, since ABCD is symmetrical about AC\n\\text{Area}(ABCD) &= 2 \\times \\frac{32\\sqrt{15}}{7}\n&= \\frac{64\\sqrt{15}}{7}\n&\\approx 35.410\n&\\approx 35.41\nANSWER: \\text{Area} = 35.41\\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q9#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Place Q on the unit circle using the angle\n$|\\angle QOP| = 45^\\circ$ and $P = (-1, 0)$, so $OQ$ makes $135^\\circ$ with the positive $x$-axis.\nOn the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$.\nQ &= (\\cos 135^\\circ, \\sin 135^\\circ)\n## Find the x co-ordinate\n\\cos 135^\\circ &= -\\cos 45^\\circ\n&= -\\frac{1}{\\sqrt{2}}\n## Find the y co-ordinate\n\\sin 135^\\circ &= \\sin 45^\\circ\n&= \\frac{1}{\\sqrt{2}}\nANSWER: Q = \\left(-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q9#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the tangent at P\nThe radius $OP$ lies along the $x$-axis, so the tangent at $P(-1, 0)$ is vertical.\nx &= -1\n## Find the slope of the tangent at Q\nThe tangent is perpendicular to the radius $OQ$.\nm_{OQ} &= \\frac{\\frac{1}{\\sqrt{2}} - 0}{-\\frac{1}{\\sqrt{2}} - 0}\n&= -1\nm_{\\text{tangent}} &= 1\n## Write the equation of the tangent at Q\nUse $y - y_1 = m(x - x_1)$ with $Q\\left(-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)$.\ny - \\frac{1}{\\sqrt{2}} &= 1\\left(x + \\frac{1}{\\sqrt{2}}\\right)\ny &= x + \\frac{1}{\\sqrt{2}} + \\frac{1}{\\sqrt{2}}\ny &= x + \\frac{2}{\\sqrt{2}}\ny &= x + \\sqrt{2}\n## Find the centre, where the two tangents meet\nThe centre lies on both tangents, so put $x = -1$ into $y = x + \\sqrt{2}$.\ny &= -1 + \\sqrt{2}\n\\text{Centre} &= (-1,\\ -1 + \\sqrt{2})\n## Find the radius\n$P(-1, 0)$ is on $s$ and sits directly below the centre, so the radius is the distance from the centre to $P$.\nr &= (-1 + \\sqrt{2}) - 0\nr &= -1 + \\sqrt{2}\nANSWER: \\text{Centre} = (-1,\\ -1 + \\sqrt{2}),\\quad \\text{Radius} = -1 + \\sqrt{2}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Use similar triangles to set up an equation\nTriangles $BDE$ and $BAC$ are similar. Let $|BE| = x$, so $|BC| = x + 10$.\nCorresponding sides are in the same ratio: $|DE| = 12$ matches $|AC| = 15$.\n\\frac{x}{12} &= \\frac{x + 10}{15}\n## Solve for x\n15x &= 12(x + 10)\n15x &= 12x + 120\n15x - 12x &= 120\n3x &= 120\nx &= 40\nANSWER: |BE| = 40\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Find the lengths for the large and small cones\nLarge cone: radius $R = 15$, slant height $L = |BC| = 40 + 10 = 50$.\nSmall cone: radius $r = 12$, slant height $l = |BE| = 40$.\n## Curved area of the basin is large cone minus small cone\n\\text{Curved} &= \\pi R L - \\pi r l\n&= \\pi(15)(50) - \\pi(12)(40)\n&= 750\\pi - 480\\pi\n&= 270\\pi\n## Add the circular base\nThe basin has a base, so it counts in the total internal surface.\n\\text{Base} &= \\pi r^2\n&= \\pi(12)^2\n&= 144\\pi\n## Add the curved area and the base\n\\text{Total} &= 270\\pi + 144\\pi\n&= 414\\pi\n&\\approx 1300.6\nANSWER: \\text{Total internal surface area} = 1300.6\\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q10#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Identify the shape of the net\nUnrolled, the curved surface is a large sector (radius 50) with a smaller sector (radius 40) removed, both centred at $B$.\nRadii are $|BE| = 40$ and $|BC| = 50$.\n## Find the angle of the sector\nThe arc of the small sector (radius 40) equals the base circumference ($r = 12$).\n\\frac{\\theta}{360} \\cdot 2\\pi(40) &= 2\\pi(12)\n\\frac{\\theta}{360} &= \\frac{2\\pi(12)}{2\\pi(40)}\n&= \\frac{12}{40}\n\\theta &= 360 \\times \\frac{12}{40}\n&= 108\n## Draw the net\nFrom $B$, draw two radii $108^\\circ$ apart. Mark 40 cm and 50 cm along them.\nDraw an arc of radius 40 and an arc of radius 50 between the radii, then join the ends.\nThe dashed lines from $B$ are construction lines, not part of the net.\nANSWER: \\theta = 108^\\circ,\\ \\text{radii } 40\\text{ cm and } 50\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q10#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the choices digit by digit\nNo digit repeats, so each place has one fewer choice than the last.\nFirst digit has 9 choices, second 8, third 7, fourth 6.\n\\text{Codes} &= 9 \\times 8 \\times 7 \\times 6\n&= 3024\nANSWER: 3024"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q10#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the codes that contain a 2\nThe 2 can go in any of 4 positions.\nThe other 3 places are filled from the remaining 8 digits, with no repeats.\n8 \\times 7 \\times 6 &= 336\n## Multiply by the number of positions for the 2\n4 \\times 336 &= 1344\nANSWER: 1344"
+ },
+ {
+  "part": "maths-pp-2023-higher-p2-q10#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## List the sets of three different digits that can add up to a digit\nThe first three digits are different and add to the fourth digit, which is at most 9.\nThe smallest sum is $1 + 2 + 3 = 6$, so the fourth digit is 6 to 9.\n1 + 2 + 3 &= 6\n1 + 2 + 4 &= 7\n1 + 2 + 5 &= 8\n1 + 3 + 4 &= 8\n1 + 2 + 6 &= 9\n1 + 3 + 5 &= 9\n2 + 3 + 4 &= 9\nThere are 7 sets, and the fourth digit is always new because it is bigger than each of the three.\n## Count the orders for each set\nThe three digits can be arranged in $3!$ ways, and the fourth digit is fixed.\n3! &= 6\n## Multiply\n7 \\times 6 &= 42\nANSWER: 42"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Increase by 8% for 2020\nAn increase of 8% means multiply by $1.08$.\n\\text{Price at start of 2020} &= 240\\,000 \\times 1.08\n&= 259\\,200\n## Increase by a further 9% for 2021\nThe 9% is based on the 2020 price, so multiply $259\\,200$ by $1.09$.\n\\text{Price at start of 2021} &= 259\\,200 \\times 1.09\n&= 282\\,528\nANSWER: \\text{2020: } €259\\,200 \\qquad \\text{2021: } €282\\,528"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the increase in value\n\\text{Increase} &= 472\\,000 - 460\\,000\n&= 12\\,000\n## Write the increase as a percentage of the original value\nPercentage increase $= \\frac{\\text{increase}}{\\text{original}} \\times 100$.\n\\text{Percentage increase} &= \\frac{12\\,000}{460\\,000} \\times 100\n&= 2.608\\ldots\n&\\approx 2.6\\%\nANSWER: 2.6\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Substitute into the formula\nF &= P\\left(1 + \\frac{r}{100}\\right)^t\n370\\,000 &= 265\\,000\\left(1 + \\frac{r}{100}\\right)^4\n## Isolate the bracket\nDivide both sides by $265\\,000$.\n\\left(1 + \\frac{r}{100}\\right)^4 &= \\frac{370\\,000}{265\\,000}\nTake the fourth root of both sides (the positive root, as the price is growing).\n1 + \\frac{r}{100} &= \\sqrt[4]{\\frac{370\\,000}{265\\,000}}\n1 + \\frac{r}{100} &= 1.08702\\ldots\n## Solve for r\n\\frac{r}{100} &= 1.08702\\ldots - 1\nr &= 100 \\times 0.08702\\ldots\nr &\\approx 8.7\nANSWER: r = 8.7\\%"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q2#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Find the conjugate of z₁\n$z_1$ is at $(3, -3)$, so $z_1 = 3 - 3i$. The conjugate changes the sign of the imaginary part.\nz_1 &= 3 - 3i\n\\overline{z_1} &= 3 + 3i\n## Plot the conjugate\n$\\overline{z_1}$ is the reflection of $z_1$ in the real axis: plot it at $(3, 3)$ and label it $\\overline{z_1}$.\n## Plot z₂ and z₃\nReal part is the horizontal coordinate, imaginary part is the vertical coordinate.\nz_2 &= 5 + i \\quad\\rightarrow\\quad (5, 1)\nz_3 &= 6 - 2i \\quad\\rightarrow\\quad (6, -2)\nPlot both points and label them $z_2$ and $z_3$.\nANSWER: \\overline{z_1} = 3 + 3i \\text{ at } (3,3);\\; z_2 \\text{ at } (5,1);\\; z_3 \\text{ at } (6,-2)"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q2#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Substitute z₂ and z₃\n4z_2 - 5z_3 &= 4(5 + i) - 5(6 - 2i)\n## Expand the brackets\n&= 20 + 4i - 30 + 10i\n## Collect real and imaginary parts\n&= (20 - 30) + (4i + 10i)\n&= -10 + 14i\nANSWER: -10 + 14i"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q2#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Use the modulus formula\nFor $z = a + bi$, $|z| = \\sqrt{a^2 + b^2}$. Here $z_3 = 6 - 2i$, so $a = 6$ and $b = -2$.\n|z_3| &= \\sqrt{6^2 + (-2)^2}\n## Evaluate under the root\n&= \\sqrt{36 + 4}\n&= \\sqrt{40}\n## Write in surd form\n$40 = 4 \\times 10$ and $\\sqrt{4} = 2$.\n&= \\sqrt{4 \\times 10}\n&= 2\\sqrt{10}\nANSWER: \\sqrt{40} = 2\\sqrt{10}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Recall what the modulus means\nThe modulus $|z|$ is the distance from the point to the origin.\n## Compare the distances\nOn the diagram, $z_5$ is the point furthest from the origin, so tick the $z_5$ box.\n## Give the reason\nReason: $z_5$ is the furthest point from the origin, so it has the largest modulus.\nANSWER: z_5 \\text{ (it is the furthest point from the origin)}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Expand the bracket\n3(2x + 4) - 5 &= 3\n6x + 12 - 5 &= 3\n## Collect the numbers on the left\n6x + 7 &= 3\n## Move the numbers to the right-hand side\nSubtract $7$ from both sides.\n6x &= 3 - 7\n6x &= -4\n## Divide both sides by 6\nx &= \\frac{-4}{6}\nx &= -\\frac{2}{3}\nANSWER: x = -\\frac{2}{3}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q3#(b)(i), (ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths3"
+  ],
+  "marks": 5,
+  "solution": "## (i) Real numbers up to 2.8\n$x \\in \\mathbb{R}$ includes every point on the line. Put a closed dot at $2.8$ (because of $\\le$) and shade to the left with an arrow.\n## (ii) Integers up to 2.8\n$x \\in \\mathbb{Z}$ means whole numbers only. Put a dot on each of $-4, -3, -2, -1, 0, 1, 2$ and continue to the left with an arrow. Do not shade between the dots.\n## (iii) Natural numbers up to 2.8\n$x \\in \\mathbb{N}$ means $1, 2, 3, \\ldots$ (the scheme also accepts $0$). Only $1$ and $2$ are at most $2.8$, so put a dot on each of them and nothing else.\nANSWER: \\text{(i) shaded line to } 2.8;\\ \\text{(ii) dots } \\ldots,-1,0,1,2;\\ \\text{(iii) dots } 1, 2"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Tidy the first equation\nx - y + 1 &= 0\nx - y &= -1\n## Multiply it by 4 so the y-terms match\nThe second equation has $4y$, so multiply the first by $4$.\n4x - 4y &= -4\n## Add the equations to eliminate y\n(4x - 4y) + (2x + 4y) &= -4 + 19\n6x &= 15\n## Solve for x\nx &= \\frac{15}{6}\nx &= \\frac{5}{2}\n## Substitute x into x - y + 1 = 0\n\\frac{5}{2} - y + 1 &= 0\n\\frac{5}{2} + 1 &= y\ny &= \\frac{7}{2}\nANSWER: x = \\frac{5}{2},\\quad y = \\frac{7}{2}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q4#(a)(i), (ii), (iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths1"
+  ],
+  "marks": 10,
+  "solution": "## (i) Read off g(1.5)\nFind $x = 1.5$ on the horizontal axis, go straight up to the curve, then across to the $y$-axis.\ng(1.5) &= 2\n## (ii) Find x when g(x) = -6\nFind $y = -6$ on the vertical axis, go across to the curve (the left-hand part), then straight down to the $x$-axis.\nx &= -2.8\n## (iii) Count the real roots\nReal roots are where the curve crosses the $x$-axis. Tick the box for $1$ root.\nReason: the graph cuts the $x$-axis only once.\nANSWER: g(1.5) = 2;\\quad x = -2.8;\\quad \\text{1 real root (graph cuts the } x\\text{-axis only once)}"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q4#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Read the local maximum\nThe local maximum is the top of the hump on the left, at about $x = -1.6$ and $y = -1$.\n\\text{Local maximum} &\\approx (-1.6, -1)\n## Read the local minimum\nThe local minimum is the bottom of the dip near the $y$-axis, at about $x = 0.25$ and $y = -3.1$.\n\\text{Local minimum} &\\approx (0.25, -3.1)\nANSWER: \\text{Max } (-1.6, -1);\\quad \\text{Min } (0.25, -3.1)"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q4#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate each term\nUse $\\frac{d}{dx}(x^n) = nx^{n-1}$, and the derivative of a constant is $0$.\nh(x) &= x^3 + 2x^2 - x - 8\nh'(x) &= 3x^2 + 4x - 1 - 0\nh'(x) &= 3x^2 + 4x - 1\nANSWER: h'(x) = 3x^2 + 4x - 1"
+ },
+ {
+  "part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope at x = 2\nThe slope of the tangent is $h'(2)$.\nh'(2) &= 3(2)^2 + 4(2) - 1\n&= 12 + 8 - 1\n&= 19\n## Use the point-slope formula\nWith $m = 19$ and point $(2, 6)$: $y - y_1 = m(x - x_1)$.\ny - 6 &= 19(x - 2)\n## Rearrange (optional)\ny - 6 &= 19x - 38\n0 &= 19x - y - 32\nANSWER: 19x - y - 32 = 0"
+ }
+]

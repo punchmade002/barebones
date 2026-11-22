@@ -1,0 +1,377 @@
+[
+ {
+  "part": "maths-pp-2015-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Choose the formula\nA 95% confidence interval for the mean is $\\bar{x} \\pm 1.96 \\dfrac{s}{\\sqrt{n}}$, with $\\bar{x} = 90.45$, $s = 20.73$, $n = 100$.\n## Find the margin of error\n1.96 \\times \\frac{20.73}{\\sqrt{100}} &= 1.96 \\times \\frac{20.73}{10}\n&= 1.96 \\times 2.073\n&= 4.063\n## Add and subtract the margin from the mean\n90.45 - 4.063 &= 86.387\n&= 86.39\n90.45 + 4.063 &= 94.513\n&= 94.51\nANSWER: \\left(\\text{€}86.39,\\ \\text{€}94.51\\right)"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## State the hypotheses\nH_0:\\ \\mu &= 94\nThe null hypothesis $H_0$: the mean spend is $\\text{€}94$ (the supermarket is right).\nH_1:\\ \\mu &\\ne 94\nThe alternative hypothesis $H_1$: the mean spend is not $\\text{€}94$.\n## Calculate the test statistic\nUse $z = \\dfrac{\\bar{x} - \\mu}{s / \\sqrt{n}}$.\nz &= \\frac{90.45 - 94}{20.73 / \\sqrt{100}}\n&= \\frac{-3.55}{2.073}\n&= -1.71\n## Compare with the 5% critical values\nAt the 5% level (two-tailed) the critical values are $\\pm 1.96$.\n-1.96 &< -1.71 < 1.96\n## Conclude\n$z$ lies between $-1.96$ and $1.96$, so we do not reject $H_0$. There is not enough evidence to reject $H_0$ (the claim of $\\text{€}94$).\nANSWER: \\text{Do not reject } H_0\\ (z = -1.71).\\ \\text{There is not enough evidence to reject } H_0 \\text{ (the claim of } \\text{€}94\\text{).}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q2#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find the probability in the tail\nBecause the test is two-tailed, $p$ is twice the area below $z = -1.71$.\nP(z < -1.71) &= 1 - P(z < 1.71)\n&= 1 - 0.9564\n&= 0.0436\n## Double it for both tails\np &= 2 \\times 0.0436\n&= 0.0872\n## Explain what it represents\nIf the true mean spend really were $\\text{€}94$, there would be about an 8.72% chance of getting a sample mean at least as far from $\\text{€}94$ as $\\text{€}90.45$ (that is, $\\text{€}90.45$ or less, or $\\text{€}97.55$ or more).\nSince $0.0872 > 0.05$, this is not unusual enough to reject $H_0$.\nANSWER: p = 0.0872"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of l1\n3x - 4y - 12 &= 0\n4y &= 3x - 12\ny &= \\frac{3}{4}x - 3\nThe slope of $l_1$ is $\\dfrac{3}{4}$.\n## Find the slope of AB\nPerpendicular lines have slopes that multiply to $-1$, so the slope of $AB$ is the negative reciprocal of $\\frac{3}{4}$.\nm_{AB} &= -\\frac{4}{3}\n## Write the slope of AB using the points\nm_{AB} &= \\frac{t - (-1)}{7 - 4}\n&= \\frac{t + 1}{3}\n## Equate the two slopes and solve\n\\frac{t + 1}{3} &= -\\frac{4}{3}\nt + 1 &= -4\nt &= -5\nANSWER: t = -5"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Write the distance formula\nThe distance from $(x_1, y_1)$ to $ax + by + c = 0$ is $\\dfrac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$.\nHere $a = 3$, $b = -4$, $c = -12$ and $(x_1, y_1) = (10, k)$.\n## Substitute\nd &= \\frac{|3(10) - 4(k) - 12|}{\\sqrt{3^2 + (-4)^2}}\n&= \\frac{|30 - 4k - 12|}{\\sqrt{9 + 16}}\n&= \\frac{|18 - 4k|}{\\sqrt{25}}\n&= \\frac{|18 - 4k|}{5}\nANSWER: d = \\dfrac{|18 - 4k|}{5}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q3#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Distance from P to l2\nUse the same formula with $a = 5$, $b = 12$, $c = -20$.\nd_2 &= \\frac{|5(10) + 12(k) - 20|}{\\sqrt{5^2 + 12^2}}\n&= \\frac{|30 + 12k|}{\\sqrt{169}}\n&= \\frac{|30 + 12k|}{13}\n## Equate the distances\n$P$ is on a bisector, so it is the same distance from both lines.\n\\frac{|18 - 4k|}{5} &= \\frac{|30 + 12k|}{13}\n13|18 - 4k| &= 5|30 + 12k|\n## Case 1: the insides are equal\n13(18 - 4k) &= 5(30 + 12k)\n234 - 52k &= 150 + 60k\n84 &= 112k\nk &= \\frac{3}{4}\n## Case 2: the insides are opposite\n13(18 - 4k) &= -5(30 + 12k)\n234 - 52k &= -150 - 60k\n384 &= -8k\nk &= -48\nSo $k = \\frac{3}{4}$ or $k = -48$.\n## (ii) Distance from P to l1 when k = 3/4\nd &= \\frac{|18 - 4k|}{5}\n&= \\frac{|18 - 3|}{5}\n&= \\frac{15}{5}\n&= 3\nANSWER: k = \\dfrac{3}{4} \\text{ or } k = -48; \\quad d = 3"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Read the centre from the equation\nThe circle $(x-h)^2+(y-k)^2=r^2$ has centre $(h,k)$.\nHere $h=1$ and $k=-6$ (note $y+6=y-(-6)$), so the centre is $(1,-6)$.\n## Find the radius in the form $a\\sqrt{10}$\nr &= \\sqrt{360}\n&= \\sqrt{36 \\times 10}\n&= 6\\sqrt{10}\nANSWER: \\text{Centre } (1,-6), \\quad r = 6\\sqrt{10}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q4#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the ratio in which $K$ divides $[AB]$\nLet $A(1,-6)$ be the centre of $s$. Its radius is $3r$ and the radius of $c$ is $r$, where $r=2\\sqrt{10}$.\n$K$ is $r$ from $B$, so $|KB|=r$ and $|AK|=3r-r=2r$.\nSo $|AK|:|KB| = 2:1$, and $K$ is the point dividing $[AB]$ in the ratio $2:1$.\n## Use the section formula for the $x$-co-ordinate\nx_K &= \\frac{2(7)+1(1)}{2+1}\n&= \\frac{15}{3}\n&= 5\n## Use the section formula for the $y$-co-ordinate\ny_K &= \\frac{2(12)+1(-6)}{2+1}\n&= \\frac{18}{3}\n&= 6\nANSWER: K = (5, 6)"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q4#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius of $c$\nThe radius of $c$ is one-third the radius of $s$.\nr_c &= \\frac{6\\sqrt{10}}{3}\n&= 2\\sqrt{10}\n## Square the radius\nr_c^2 &= \\left(2\\sqrt{10}\\right)^2\n&= 4 \\times 10\n&= 40\n## Write the equation with centre $K(5,6)$\nUse $(x-h)^2+(y-k)^2=r^2$ with $h=5$, $k=6$ and $r^2=40$.\n(x-5)^2 + (y-6)^2 &= 40\nANSWER: (x-5)^2 + (y-6)^2 = 40"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q4#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope of the radius $[AB]$\nThe tangent at $B$ is perpendicular to the radius $AB$, where $A(1,-6)$ and $B(7,12)$.\nm_{AB} &= \\frac{12-(-6)}{7-1}\n&= \\frac{18}{6}\n&= 3\n## Find the slope of the tangent\nPerpendicular slopes multiply to $-1$, so the tangent has slope $-\\frac{1}{3}$.\nm_t &= -\\frac{1}{3}\n## Write the equation of the tangent through $B(7,12)$\ny-12 &= -\\frac{1}{3}(x-7)\n3(y-12) &= -(x-7)\n3y-36 &= -x+7\nx+3y-36-7 &= 0\nx+3y-43 &= 0\nANSWER: x+3y-43=0"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 15,
+  "solution": "## Write tan in terms of sin and cos\n\\tan(A+B) &= \\frac{\\sin(A+B)}{\\cos(A+B)}\n## Expand the compound angle formulae\nUse $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ and $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$.\n&= \\frac{\\sin A\\cos B+\\cos A\\sin B}{\\cos A\\cos B-\\sin A\\sin B}\n## Divide top and bottom by $\\cos A\\cos B$\n&= \\frac{\\dfrac{\\sin A\\cos B}{\\cos A\\cos B}+\\dfrac{\\cos A\\sin B}{\\cos A\\cos B}}{\\dfrac{\\cos A\\cos B}{\\cos A\\cos B}-\\dfrac{\\sin A\\sin B}{\\cos A\\cos B}}\n## Cancel common factors\n&= \\frac{\\dfrac{\\sin A}{\\cos A}+\\dfrac{\\sin B}{\\cos B}}{1-\\dfrac{\\sin A}{\\cos A}\\cdot\\dfrac{\\sin B}{\\cos B}}\n## Replace $\\frac{\\sin}{\\cos}$ by $\\tan$\n&= \\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}\nANSWER: \\tan(A+B) = \\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Find the angles whose sine is $\\frac{\\sqrt{3}}{2}$\nLet $\\theta=3x$. Since $0\\le x\\le 360$, we need $0\\le \\theta\\le 1080$.\n$\\sin\\theta=\\frac{\\sqrt{3}}{2}$ has reference angle $60^\\circ$. Sine is positive in the first and second quadrants, so $\\theta=60^\\circ$ or $\\theta=180^\\circ-60^\\circ=120^\\circ$.\nAdd $360^\\circ$ repeatedly to stay inside the range.\n3x &= 60^\\circ,\\ 120^\\circ,\\ 420^\\circ,\\ 480^\\circ,\\ 780^\\circ,\\ 840^\\circ\n## Divide each value by 3\nx &= 20^\\circ,\\ 40^\\circ,\\ 140^\\circ,\\ 160^\\circ,\\ 260^\\circ,\\ 280^\\circ\nANSWER: x = 20^\\circ,\\ 40^\\circ,\\ 140^\\circ,\\ 160^\\circ,\\ 260^\\circ,\\ 280^\\circ"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 5,
+  "solution": "## Find the midpoint of $[BC]$\nThe centroid is where the three medians meet. A median joins a vertex to the midpoint of the opposite side.\nMeasure $|BC|=11.7$ cm and mark the midpoint at 5.85 cm from $B$. Call this midpoint $D$.\n## Find the midpoint of $[AC]$\nMeasure $|AC|=11.1$ cm and mark the midpoint at 5.55 cm from $A$. Call it $E$.\n## Draw two medians\nJoin $A$ to $D$ and $B$ to $E$. Two medians are enough, since all three pass through the same point.\nThe centroid $G$ is where $[AD]$ and $[BE]$ cross. The third median, from $C$ to the midpoint of $[AB]$, also passes through $G$.\nANSWER: \\text{Centroid } G \\text{ is where the medians cross}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q6#(b) Diagram and Given",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Draw the diagram\nDraw three parallel lines through $A$ and $D$, through $B$ and $E$, and through $C$ and $F$.\nDraw one transversal cutting them at $A$, $B$, $C$ and another cutting them at $D$, $E$, $F$.\nMark $|AB|=|BC|$ with equal tick marks.\n## State what is given and what is to be proved\nGiven: $AD \\parallel BE \\parallel CF$, with $|AB|=|BC|$.\nTo prove: $|DE|=|EF|$.\nANSWER: |DE| = |EF|"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q6#(b) Construction",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Draw the first extra line\nThrough $A$, draw $AE' \\parallel DE$, cutting $BE$ at $E'$ and $CF$ at $F'$.\n## Draw the second extra line\nThrough $F'$, draw $F'B' \\parallel AB$, cutting $BE$ at $B'$ (see the blue dashed lines in the diagram).\nANSWER: AE' \\parallel DE, \\quad F'B' \\parallel AB"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q6#(b) Proof",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Show the sides are equal\n$BCF'B'$ is a parallelogram ($BB' \\parallel CF'$ and $B'F' \\parallel BC$ by construction), so $|B'F'|=|BC|$ (opposite sides of a parallelogram).\n$|BC|=|AB|$ (given), so $|B'F'|=|AB|$.\n## Show the angles are equal\n$|\\angle BAE'|=|\\angle E'F'B'|$ (alternate angles, $AB \\parallel F'B'$).\n$|\\angle AE'B|=|\\angle F'E'B'|$ (vertically opposite angles).\n## Use congruent triangles\n$\\triangle ABE'$ and $\\triangle F'B'E'$ are congruent (ASA), so $|AE'|=|F'E'|$.\n## Conclude\n$|AE'|=|DE|$ and $|F'E'|=|FE|$ (opposite sides of parallelograms $ADEE'$ and $E'EFF'$).\nTherefore $|DE|=|EF|$.\nANSWER: |DE| = |EF|"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Draw BT parallel to KH\n$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle.\n|TH| &= |BK| = r\n|BT| &= |HK| = 8r\n|AT| &= 4r - r\n&= 3r\n## Use Pythagoras in the right-angled triangle ATB\n$|\\angle ATB| = 90^{\\circ}$, so the hypotenuse is $[AB]$.\n|AB|^2 &= |AT|^2 + |BT|^2\n\\left(20\\sqrt{73}\\right)^2 &= (3r)^2 + (8r)^2\n400 \\times 73 &= 9r^2 + 64r^2\n29200 &= 73r^2\nr^2 &= 400\n## Take the positive square root\nA radius cannot be negative.\nr &= 20\nANSWER: r = 20 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q7#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Find the lengths in the quadrilateral\n|HK| = |BT| &= 8 \\times 20 = 160\n|TH| &= 20\n|AT| &= 3 \\times 20 = 60\n## Area of the rectangle BTHK\n\\text{Area} &= 160 \\times 20\n&= 3200\n## Area of the triangle ATB\n\\text{Area} &= \\tfrac{1}{2}(60)(160)\n&= 4800\n## Add the two areas\n|ABKH| &= 3200 + 4800\n&= 8000\nANSWER: 8000 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q7#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the angle in triangle ATB\n$\\angle HAB$ is the angle at $A$ in the right-angled triangle $ATB$.\n\\tan|\\angle HAB| &= \\frac{|BT|}{|AT|} = \\frac{160}{60}\n&= \\frac{8}{3}\n|\\angle HAB| &= \\tan^{-1}\\frac{8}{3}\n&\\approx 69.4439^{\\circ}\n## Double it, since AB bisects angle HAP\nThe figure is symmetrical about $AB$.\n|\\angle HAP| &= 2 \\times 69.4439^{\\circ}\n&\\approx 138.9^{\\circ}\nANSWER: 138.9^{\\circ}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q7#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Quadrilaterals ABKH and ABKQ\nThe part is symmetrical about $AB$, so $ABKH$ and $ABKQ$ have equal areas.\n2 \\times 8000 &= 16000\n## Sector of the large circle (radius 80)\nThe large sector is the part of the circle not inside angle $HAP$.\n\\text{Angle} &= 360^{\\circ} - 138.8879^{\\circ}\n&= 221.1121^{\\circ}\n\\text{Area} &= \\frac{221.1121}{360}\\pi(80)^2\n&\\approx 12349.23\n## Sector of the small circle (radius 20)\n$HA \\parallel KB$ (both perpendicular to $HK$), so $|\\angle ABK| = 180^{\\circ} - 69.4439^{\\circ} = 110.5561^{\\circ}$.\n|\\angle KBQ| &= 360^{\\circ} - 2(110.5561^{\\circ})\n&= 138.8878^{\\circ}\n\\text{Area} &= \\frac{138.8878}{360}\\pi(20)^2\n&\\approx 484.81\n## Add the areas and round\n\\text{Machine part} &= 16000 + 12349.23 + 484.81\n&\\approx 28834\nThe marking scheme gives 28833, from rounding the angles to 138.9° and 221.1° first.\nANSWER: 28834 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write down the three probabilities\nFirst throw: $0.7$. Second throw after a success: $0.8$. Third throw after a success: $0.8$.\nP(S,S,S) &= 0.7 \\times 0.8 \\times 0.8\n&= 0.448\nANSWER: 0.448"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write down the three probabilities\nFirst throw unsuccessful: $1 - 0.7 = 0.3$. Second throw unsuccessful after an unsuccessful throw: $1 - 0.6 = 0.4$. Third throw successful after an unsuccessful throw: $0.6$.\nP(U,U,S) &= 0.3 \\times 0.4 \\times 0.6\n&= 0.072\nANSWER: 0.072"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## List the ways to be successful on the third throw\nThe third throw is an S. The first two throws can be SS, SU, US or UU.\n## SSS and UUS\nP(S,S,S) &= 0.448\nP(U,U,S) &= 0.072\n## SUS\nAfter S the next is U with probability $0.2$; after U the next is S with probability $0.6$.\nP(S,U,S) &= 0.7 \\times 0.2 \\times 0.6\n&= 0.084\n## USS\nFirst is U ($0.3$), then S after U ($0.6$), then S after S ($0.8$).\nP(U,S,S) &= 0.3 \\times 0.6 \\times 0.8\n&= 0.144\n## Add the four probabilities\nP(\\text{S on third}) &= 0.448 + 0.084 + 0.144 + 0.072\n&= 0.748\nANSWER: 0.748"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Split by the result of throw n\nSuccess on throw $n+1$ happens after a success on throw $n$ (then $0.8$) or after a failure (then $0.6$).\np_{n+1} &= 0.8\\,p_n + 0.6(1 - p_n)\n&= 0.8\\,p_n + 0.6 - 0.6\\,p_n\n&= 0.6 + 0.2\\,p_n\nANSWER: p_{n+1} = 0.6 + 0.2\\,p_n"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Replace p_{n+1} and p_n by p\np &= 0.6 + 0.2p\n## Solve for p\np - 0.2p &= 0.6\n0.8p &= 0.6\np &= \\frac{0.6}{0.8}\n&= 0.75\nANSWER: p = 0.75"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(e)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write a_{n+1} using p_{n+1}\na_{n+1} &= p - p_{n+1}\n&= 0.75 - (0.6 + 0.2\\,p_n)\n&= 0.75 - 0.6 - 0.2\\,p_n\n&= 0.15 - 0.2\\,p_n\n&= 0.2(0.75 - p_n)\n&= 0.2\\,a_n\n## Form the ratio\n\\frac{a_{n+1}}{a_n} &= \\frac{0.2(0.75 - p_n)}{0.75 - p_n}\n&= \\frac{1}{5}\nThe ratio is the same constant for every $n$, so $a_n$ is geometric with common ratio $\\frac{1}{5}$.\nANSWER: \\frac{a_{n+1}}{a_n} = \\frac{1}{5}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(e)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Find the first term\na_1 &= p - p_1\n&= 0.75 - 0.7\n&= 0.05\n## Write the nth term\na_n &= 0.05\\left(\\tfrac{1}{5}\\right)^{n-1}\n## Test n = 6\na_6 &= 0.05 \\times 0.2^5\n&= 0.000016\nThis is not less than $0.00001$.\n## Test n = 7\na_7 &= 0.05 \\times 0.2^6\n&= 0.0000032\nThis is less than $0.00001$, so the smallest $n$ is $7$.\nANSWER: n = 7"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q8#(f)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## (i) Estimate the next throw\nAfter many throws his success rate settles at $p = 0.75$, whatever his earlier pattern.\nP(\\text{success}) &= 0.75\n## (ii) Why not Bernoulli trials\nBernoulli trials must be independent with the same probability each time. Here the probability of success on a throw depends on the result of the previous throw ($0.8$ or $0.6$), so the throws are not independent.\nANSWER: 0.75"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Make a right-angled triangle\nThe two tangent directions are symmetric about the line from Joan to the centre. That line splits $\\alpha$ into two equal angles. The tangent point is at a right angle to the radius, so the opposite side is the radius $15$ and the hypotenuse is $150$.\n\\sin\\frac{\\alpha}{2} &= \\frac{15}{150}\n&= 0.1\n## Find the half angle and double it\n\\frac{\\alpha}{2} &= \\sin^{-1}(0.1)\n&\\approx 5.7392^{\\circ}\n\\alpha &= 2 \\times 5.7392^{\\circ}\n&\\approx 11.5^{\\circ}\nANSWER: \\alpha = 11.5^{\\circ}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use the cosine rule in triangle ATH\nWe know two sides and the angle between them, so use $|AH|^2 = |TA|^2 + |TH|^2 - 2|TA||TH|\\cos T$.\n|AH|^2 &= 190^2 + 385^2 - 2(190)(385)\\cos 18^{\\circ}\n&= 36100 + 148225 - 146300\\cos 18^{\\circ}\n&= 184325 - 139139.57\n&= 45185.43\n## Square root\n|AH| &= \\sqrt{45185.43}\n&\\approx 212.57\n&\\approx 213 \\text{ m}\nANSWER: |AH| = 213 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q9#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Height of K is the height at t = 0\nThe ball is struck at $K$, when $t = 0$.\nh &= -6(0)^2 + 22(0) + 8\n&= 8\nANSWER: 8 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q9#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find when the ball lands (h = 0)\n-6t^2 + 22t + 8 &= 0\n3t^2 - 11t - 4 &= 0\n(3t + 1)(t - 4) &= 0\n$t = -\\frac{1}{3}$ is rejected because time cannot be negative.\nt &= 4\n## Find the horizontal distance OB\n|OB| &= 38 \\times 4\n&= 152\n## Find the angle of elevation of K from B\nIn the right-angled triangle $KOB$, $|KO| = 8$ and $|OB| = 152$.\n\\tan|\\angle KBO| &= \\frac{8}{152}\n&= \\frac{1}{19}\n|\\angle KBO| &= \\tan^{-1}\\frac{1}{19}\n&\\approx 3.01^{\\circ}\n&\\approx 3^{\\circ}\nANSWER: 3^{\\circ}"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q9#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use the angle of elevation\nIn the right-angled triangle $GDE$, $\\tan\\theta = \\frac{1}{2}$ and $\\tan\\theta = \\frac{h}{d}$.\n\\frac{h}{d} &= \\frac{1}{2}\nd &= 2h\n## Find CD along the tree\nThe tree $[CE]$ is $25$ m high and $[DE]$ is $h$ m of it.\n|CD| &= 25 - h\nANSWER: d = 2h, \\quad |CD| = 25 - h"
+ },
+ {
+  "part": "maths-pp-2015-higher-p2-q9#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Use Pythagoras in the right-angled triangle GDC\n$|GD|^2 + |CD|^2 = |GC|^2$ with $|GC| = 25$.\n(2h)^2 + (25 - h)^2 &= 25^2\n## Expand and simplify\n4h^2 + 625 - 50h + h^2 &= 625\n5h^2 - 50h + 625 &= 625\n5h^2 - 50h &= 0\n5h(h - 10) &= 0\n## Choose the valid solution\n$h = 0$ is rejected because the tree has height above $GD$.\nh &= 10\nANSWER: h = 10 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Multiply the euro amount by the rate\nEach euro buys $1.29, so multiply by the number of euro.\n\\text{Dollars} &= 2000 \\times 1.29\n&= 2580\nANSWER: \\$2580"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the two amounts as equal\n\\text{€}15\\,000 &= \\$21\\,000\n## Divide both sides by 15 000 to find the value of €1\n\\text{€}1 &= \\$\\frac{21\\,000}{15\\,000}\n&= \\$1.40\nANSWER: \\text{€}1 = \\$1.40"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Write both rates for €1\n\\text{€}1 &= \\$1.24\n\\text{€}1 &= \\text{£}0.83\n## Equate the two values of €1\n\\$1.24 &= \\text{£}0.83\n## Divide both sides by 1.24 to find the value of $1\n\\$1 &= \\text{£}\\frac{0.83}{1.24}\n&= \\text{£}0.6693\\ldots\n&= \\text{£}0.67\nANSWER: \\$1 = \\text{£}0.67"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 15,
+  "solution": "## Find each share as a fraction of the ticket cost\nEach person receives $\\frac{\\text{amount paid}}{50}$ of the prize.\n## John paid €25\n\\text{John} &= \\frac{25}{50}\\times 20\\,000\n&= \\text{€}10\\,000\n## Mary paid €15\n\\text{Mary} &= \\frac{15}{50}\\times 20\\,000\n&= \\text{€}6000\n## Eileen paid €10\n\\text{Eileen} &= \\frac{10}{50}\\times 20\\,000\n&= \\text{€}4000\nANSWER: \\text{John } \\text{€}10\\,000,\\ \\text{Mary } \\text{€}6000,\\ \\text{Eileen } \\text{€}4000"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q2#(b)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Use the circumference formula with the radius\nThe equator is a circle of radius 6378 km.\n\\text{Length} &= 2\\pi r\n&= 2\\pi(6378)\n&= 40\\,074.15\\ldots\n&= 40\\,074 \\text{ km}\n## Use the volume of a sphere\nV &= \\frac{4}{3}\\pi r^3\n&= \\frac{4}{3}\\pi(6378)^3\n## Write the answer in the form a × 10^n\n&= 1.0868\\ldots \\times 10^{12}\n&= 1.087 \\times 10^{12} \\text{ km}^3\nANSWER: 40\\,074 \\text{ km},\\ 1.087 \\times 10^{12} \\text{ km}^3"
+ },
+ {
+  "part": "maths-pp-2015-ordinary-p1-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Divide the mass of the Sun by the mass of the Earth\n\\frac{1.99\\times 10^{30}}{5.97\\times 10^{24}} &= \\frac{1.99}{5.97}\\times 10^{6}\n&= 333\\,333.3\\ldots\n&= 333\\,333\nANSWER: 333\\,333"
+ }
+]

@@ -1,0 +1,377 @@
+[
+ {
+  "part": "maths-pp-2024-higher-p2-q5#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Compare with the general circle equation\nThe general form is $x^2 + y^2 + 2gx + 2fy + c = 0$, with centre $(-g, -f)$ and radius $\\sqrt{g^2 + f^2 - c}$.\n2g &= 4 \\Rightarrow g = 2\n2f &= -6 \\Rightarrow f = -3\nc &= 5\n## Write down the centre\n\\text{Centre} &= (-g, -f)\n&= (-2, 3)\n## Find the radius\nr &= \\sqrt{g^2 + f^2 - c}\n&= \\sqrt{(2)^2 + (-3)^2 - 5}\n&= \\sqrt{4 + 9 - 5}\n&= \\sqrt{8}\n&= 2\\sqrt{2}\nANSWER: \\text{Centre} = (-2, 3), \\quad r = 2\\sqrt{2}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q5#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Read off circle c\nCircle $c$ is $(x-2)^2 + (y+1)^2 = 72$, so its centre is $(2, -1)$.\nr_c &= \\sqrt{72}\n&= \\sqrt{36 \\times 2}\n&= 6\\sqrt{2}\n## Find the distance between the centres\nCentres: $(-2, 3)$ for $s$ and $(2, -1)$ for $c$.\nd &= \\sqrt{(2-(-2))^2 + (-1-3)^2}\n&= \\sqrt{16 + 16}\n&= \\sqrt{32}\n&= 4\\sqrt{2}\n## Find the difference between the radii\nr_c - r_s &= 6\\sqrt{2} - 2\\sqrt{2}\n&= 4\\sqrt{2}\n## Conclude\nd &= 4\\sqrt{2} = r_c - r_s\nThe distance between the centres equals the difference of the radii, so the circles touch internally.\nANSWER: d = r_c - r_s = 4\\sqrt{2}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Write the centre using the vertical line\nThe centre lies on the vertical line $x = 9$, so the centre is $(9, k)$.\nBoth given points are on the circle, so each is the same distance from the centre.\n## Set the two distances equal\n\\sqrt{(9-7)^2 + (k-10)^2} &= \\sqrt{(12-9)^2 + (8-k)^2}\n(9-7)^2 + (k-10)^2 &= (12-9)^2 + (8-k)^2\n## Expand and solve for k\n4 + k^2 - 20k + 100 &= 9 + 64 - 16k + k^2\n104 - 20k &= 73 - 16k\n31 &= 4k\nk &= \\frac{31}{4}\nSo the centre is $\\left(9, \\frac{31}{4}\\right)$.\n## Find the radius\nUse the distance from the centre to $(7, 10)$.\nr &= \\sqrt{(9-7)^2 + \\left(\\frac{31}{4} - 10\\right)^2}\n&= \\sqrt{4 + \\left(-\\frac{9}{4}\\right)^2}\n&= \\sqrt{4 + \\frac{81}{16}}\n&= \\sqrt{\\frac{145}{16}}\n&= \\frac{\\sqrt{145}}{4}\n## Write the equation of the circle\nUse $(x-h)^2 + (y-k)^2 = r^2$ with $r^2 = \\frac{145}{16}$.\n(x-9)^2 + \\left(y - \\frac{31}{4}\\right)^2 &= \\frac{145}{16}\nANSWER: (x-9)^2 + \\left(y - \\frac{31}{4}\\right)^2 = \\frac{145}{16}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Set up the section formula for the x-coordinate\nLet $B = (x_2, y_2)$. $C$ divides $[AB]$ in the ratio $1:3$, so $C = \\left(\\frac{1x_2 + 3x_1}{1+3}, \\frac{1y_2 + 3y_1}{1+3}\\right)$ with $A = (x_1, y_1) = (1, 13)$.\n6 &= \\frac{1(x_2) + 3(1)}{1 + 3}\n6 &= \\frac{x_2 + 3}{4}\n## Solve for x_2\n24 &= x_2 + 3\nx_2 &= 21\n## Set up the section formula for the y-coordinate\n11 &= \\frac{1(y_2) + 3(13)}{1 + 3}\n11 &= \\frac{y_2 + 39}{4}\n## Solve for y_2\n44 &= y_2 + 39\ny_2 &= 5\nSo $B = (21, 5)$.\nANSWER: B = (21, 5)"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Rewrite the line in the form ax + by + c = 0\ny &= \\frac{4}{3}x - 11\n\\frac{4}{3}x - y - 11 &= 0\nSo $a = \\frac{4}{3}$, $b = -1$, $c = -11$.\n## Substitute (5, -2) into the distance formula\nThe distance from $(x_1, y_1)$ to $ax + by + c = 0$ is $\\dfrac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$.\nd &= \\frac{\\left|\\frac{4}{3}(5) + (-1)(-2) - 11\\right|}{\\sqrt{\\left(\\frac{4}{3}\\right)^2 + (-1)^2}}\n## Evaluate the numerator and denominator\nd &= \\frac{\\left|\\frac{20}{3} + 2 - 11\\right|}{\\sqrt{\\frac{16}{9} + 1}}\nd &= \\frac{\\left|-\\frac{7}{3}\\right|}{\\sqrt{\\frac{25}{9}}}\nd &= \\frac{\\frac{7}{3}}{\\frac{5}{3}}\nd &= \\frac{7}{5} = 1.4\nANSWER: 1.4 \\text{ units}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q6#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Count the pairs of points (order does not matter)\nChoose 2 points from 16, with order not mattering.\n\\binom{16}{2} &= \\frac{16 \\times 15}{2}\n&= 120\n(i) There are 120 different pairs.\n## Count the pairs that give a horizontal line\nA horizontal line joins two points in the same row. There are 4 rows, each with 4 points.\n\\text{pairs in one row} &= \\binom{4}{2} = 6\n\\text{pairs in 4 rows} &= 6 \\times 4 = 24\n## Write the probability\nP(\\text{horizontal}) &= \\frac{24}{120}\n&= \\frac{1}{5}\nANSWER: \\text{(i) } 120 \\text{ pairs;} \\quad \\text{(ii) } \\frac{1}{5}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Convert 50 years to a z-score\nUse $z = \\dfrac{x - \\mu}{\\sigma}$ with $\\mu = 48.2$ and $\\sigma = 10.6$.\nz &= \\frac{50 - 48.2}{10.6}\nz &= \\frac{1.8}{10.6}\nz &= 0.1698\\ldots \\approx 0.17\n## Read the probability from the z-table\nUse the normal tables for the area to the left of $z = 0.17$.\nP(Z < 0.17) &= 0.5675\nANSWER: 0.5675 \\;(56.75\\%)"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Find the z-value for the oldest 10%\nIf 10% are at least $A$ years old, then 90% are younger than $A$, so $P(Z < z) = 0.9$.\nFrom the tables, the z-value with area 0.9 is about $1.28$.\n## Write an equation in A\n1.28 &= \\frac{A - 48.2}{10.6}\n## Solve for A\n1.28 \\times 10.6 &= A - 48.2\n13.568 &= A - 48.2\nA &= 61.768\nA &\\approx 62\nANSWER: A = 62"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Identify the binomial set-up\nEach customer either used the pool (probability $\\frac{1}{5}$) or did not (probability $\\frac{4}{5}$).\nWe want 2 successes in 6 trials, so $n = 6$, $r = 2$.\n## Substitute into the binomial formula\nP(2) &= \\binom{6}{2}\\left(\\frac{1}{5}\\right)^2\\left(\\frac{4}{5}\\right)^4\n&= 15 \\times \\frac{1}{25} \\times \\frac{256}{625}\n&= \\frac{768}{3125}\n&= 0.24576\nANSWER: \\frac{768}{3125} = 0.24576"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Write the probability that none used the pool\nP(0) &= \\binom{n}{0}\\left(\\frac{1}{5}\\right)^0\\left(\\frac{4}{5}\\right)^n\n&= 1 \\times 1 \\times 0.8^n\n0.8^n &= 0.0047\n## Take logs of both sides\n\\ln(0.8^n) &= \\ln(0.0047)\nn \\ln(0.8) &= \\ln(0.0047)\nn &= \\frac{\\ln(0.0047)}{\\ln(0.8)}\nn &= 24.02\\ldots\n## Round to a whole number\n$n$ is a natural number, so $n = 24$.\nANSWER: n = 24"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Find the probability of booking through the old system\nP(\\text{old and booked}) &= 0.45 \\times \\frac{1}{3}\n&= 0.15\n## Find the probability of booking through the new system\nP(\\text{new and booked}) &= 0.55 \\times \\frac{2}{5}\n&= 0.22 = \\frac{11}{50}\n## Find the probability that a person booked\nP(\\text{booked}) &= 0.15 + 0.22\n&= 0.37 = \\frac{37}{100}\n## Use conditional probability\nWe want $P(\\text{new} \\mid \\text{booked}) = \\dfrac{P(\\text{new and booked})}{P(\\text{booked})}$.\nP(\\text{new} \\mid \\text{booked}) &= \\frac{11/50}{37/100}\n&= \\frac{22}{37}\n&= 0.5945\\ldots \\approx 59\\%\nANSWER: 59\\%"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q7#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## State the hypotheses\nNull hypothesis $H_0$: $p = 0.75$ (the percentage rating PK Hotels best has not changed).\nAlternative hypothesis $H_1$: $p \\ne 0.75$ (the percentage has changed).\n## Find the sample proportion\n\\hat{p} &= \\frac{765}{1000}\n\\hat{p} &= 0.765\n## Find the 95% confidence interval\nAt the 5% level the interval is $\\hat{p} \\pm \\dfrac{1}{\\sqrt{n}}$ with $n = 1000$.\n\\text{margin} &= \\frac{1}{\\sqrt{1000}}\n&= 0.0316\\ldots\n0.765 - 0.0316 &< p < 0.765 + 0.0316\n0.7334 &< p < 0.7966\n## State the conclusion and reason\nConclusion: fail to reject $H_0$. There is not enough evidence to say the percentage has changed.\nReason: $0.75$ lies inside the interval $0.7334 < p < 0.7966$.\nANSWER: \\text{Fail to reject } H_0 \\text{ since } 0.75 \\in (0.7334,\\, 0.7966)"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q8#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the height side of the rectangle\nAn open cylinder unrolls into a rectangle. One side is the height of the cylinder.\n\\text{one side} &= 15 \\text{ cm}\n## Find the other side using the circumference\nThe other side is the circumference of the circular base, $2\\pi r$ with $r = 5$.\n2\\pi r &= 2\\pi(5)\n&= 10\\pi\n&= 31.41\\ldots \\approx 31.4\nANSWER: 15 \\text{ cm by } 31.4 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Set up Pythagoras for the sphere's radius\nThe cylinder's top edge touches the sphere. The sphere's centre is at the middle of the cylinder, so it is 11 cm (half of 22) above the base.\nThe cylinder's radius is 6 cm. The sphere's radius $r$ is the hypotenuse of a right-angled triangle with sides 6 and 11.\nr^2 &= 6^2 + 11^2\n## Find r\nr^2 &= 36 + 121\nr^2 &= 157\nr &= \\sqrt{157}\n## Substitute into the volume of a sphere\nV &= \\frac{4}{3}\\pi r^3\n&= \\frac{4}{3}\\pi\\left(\\sqrt{157}\\right)^3\n&= 8240.206\\ldots\n&\\approx 8240.2 \\text{ cm}^3\nANSWER: 8240.2 \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q8#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 20,
+  "solution": "## (i) Explain why the angle CBD is 90 degrees\nThe diagram is symmetrical about $DC$, so $[CD]$ passes through the centre of the circle and is a diameter.\n$B$ is on the circle, so $\\angle CBD$ is an angle at the circumference standing on the diameter $[CD]$.\nThe angle in a semicircle is $90^\\circ$, so $|\\angle CBD| = 90^\\circ$.\n## (ii) Find the first pair of equal angles\nBy symmetry about $DC$, $[CD]$ is perpendicular to $[AB]$ at $E$.\n|\\angle CEB| &= 90^\\circ\n|\\angle DEB| &= 90^\\circ\nSo $|\\angle CEB| = |\\angle DEB|$ (both are $90^\\circ$).\n## Find the second pair of equal angles\nIn triangle $BCD$, $|\\angle CBD| = 90^\\circ$, so $|\\angle BCD|$ and $|\\angle BDC|$ add to $90^\\circ$.\nIn triangle $BED$, $|\\angle DEB| = 90^\\circ$, so $|\\angle DBE|$ and $|\\angle EDB|$ add to $90^\\circ$.\n|\\angle ECB| &= 90^\\circ - |\\angle EDB|\n|\\angle DBE| &= 90^\\circ - |\\angle EDB|\nSo $|\\angle ECB| = |\\angle DBE|$.\n## Find the third pair and conclude\nAngles in a triangle add to $180^\\circ$, so the remaining angles are equal: $|\\angle CBE| = |\\angle BDE|$.\nTriangles $BCE$ and $DBE$ have all three angles equal, so they are similar.\nANSWER: \\triangle BCE \\text{ and } \\triangle DBE \\text{ are similar (equiangular)}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q8#(c)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Find the length of ED\n$[CD]$ is a diameter of the sphere's circle, so $|CD| = 2 \\times 10 = 20$.\n|ED| &= |CD| - |CE|\n&= 20 - h\n## Write the ratio of corresponding sides\nIn the similar triangles, $|EB|$ corresponds to $|ED|$ and $|EC|$ corresponds to $|EB|$.\n\\frac{|EB|}{|ED|} &= \\frac{|EC|}{|EB|}\n\\frac{r}{20 - h} &= \\frac{h}{r}\n## Cross-multiply and expand\nr^2 &= h(20 - h)\nr^2 &= 20h - h^2\nANSWER: r^2 = 20h - h^2"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q8#(c)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Write the volume in terms of h and pi\nV &= \\frac{1}{3}\\pi r^2 h\nSubstitute $r^2 = 20h - h^2$.\nV &= \\frac{1}{3}\\pi(20h - h^2)h\n&= \\frac{1}{3}\\pi(20h^2 - h^3)\n## Differentiate with respect to h\n\\frac{dV}{dh} &= \\frac{1}{3}\\pi(40h - 3h^2)\n## Set the derivative equal to zero\nAt a maximum, $\\frac{dV}{dh} = 0$.\n\\frac{1}{3}\\pi(40h - 3h^2) &= 0\n40h - 3h^2 &= 0\nh(40 - 3h) &= 0\nh = 0 \\quad &\\text{or} \\quad h = \\frac{40}{3}\n## Choose the correct value\n$h = 0$ gives $V = 0$, which is not a maximum. So the maximum is at $h = \\frac{40}{3}$.\nCheck: $\\frac{d^2V}{dh^2} = \\frac{1}{3}\\pi(40 - 6h)$, which at $h = \\frac{40}{3}$ is $\\frac{1}{3}\\pi(-40) < 0$, so it is a maximum.\nANSWER: V = \\frac{1}{3}\\pi(20h^2 - h^3), \\quad h = \\frac{40}{3} \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Write the equation of a circle with centre (h, k)\nThe centre is $C(1, 17)$ and the radius is $12$.\n(x-h)^2 + (y-k)^2 &= r^2\n## Substitute h = 1, k = 17, r = 12\n(x-1)^2 + (y-17)^2 &= 12^2\n(x-1)^2 + (y-17)^2 &= 144\nANSWER: (x-1)^2 + (y-17)^2 = 144"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Substitute (a, 8) into the equation of s\nThe point lies on the circle, so its co-ordinates satisfy the equation.\n(a-1)^2 + (8-17)^2 &= 144\n(a-1)^2 + (-9)^2 &= 144\n(a-1)^2 + 81 &= 144\n## Isolate the squared bracket\n(a-1)^2 &= 144 - 81\n(a-1)^2 &= 63\n## Take the square root and use a > 0\na - 1 &= \\pm\\sqrt{63}\n$1 - \\sqrt{63}$ is negative, so it is rejected because $a > 0$.\na &= 1 + \\sqrt{63}\nANSWER: a = 1 + \\sqrt{63}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q9#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find the distance from P to the centre C\n$P$ is outside the circle, so the shortest distance to the stream is along the line $PC$: $|PC|$ minus the radius.\n|PC| &= \\sqrt{(10-1)^2 + (6-17)^2}\n&= \\sqrt{9^2 + (-11)^2}\n&= \\sqrt{81 + 121}\n&= \\sqrt{202}\n## Subtract the radius\n\\text{distance} &= \\sqrt{202} - 12\n&\\approx 2.2127 \\text{ units}\n## Convert to metres and round\nEach unit is $100$ metres.\n2.2127 \\times 100 &= 221.27\n&\\approx 221 \\text{ m}\nANSWER: 221 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find where a vertical tangent touches the circle\nA line parallel to the $y$-axis has equation $x = k$. It is a tangent when it is one radius from the centre horizontally.\nThe centre has $x = 1$ and the radius is $12$, so $x = 1 + 12$ or $x = 1 - 12$.\nx &= 1 + 12 = 13\nx &= 1 - 12 = -11\n## Choose the tangent in the first quadrant\nIn the first quadrant $x > 0$, so $x = -11$ is rejected.\nl: x &= 13\nANSWER: x = 13"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of w\nx - 3y &= 9\n-3y &= -x + 9\ny &= \\frac{1}{3}x - 3\nSo the slope of $w$ is $\\frac{1}{3}$.\n## Find the perpendicular slope\nPerpendicular slopes multiply to $-1$, so the new slope is $-1$ divided by $\\frac{1}{3}$.\nm &= -1 \\div \\frac{1}{3}\n&= -3\n## Write the line through P(10, 6) with slope −3\ny - 6 &= -3(x - 10)\ny - 6 &= -3x + 30\n3x + y &= 36\n## Multiply the perpendicular line by 3\nThis lets the $y$ terms cancel when added to $w$.\n3x + y &= 36\n9x + 3y &= 108\n## Add the equation of w to find x\n9x + 3y &= 108\nx - 3y &= 9\n10x &= 117\nx &= 11.7\n## Substitute x into w to find y\n11.7 - 3y &= 9\n-3y &= 9 - 11.7\n-3y &= -2.7\ny &= 0.9\n$0 \\le 0.9 \\le 8$, so this point is on the road segment.\nANSWER: (11.7,\\ 0.9)"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Convert the distance to units\nEach unit is $100$ m, so $1200$ m is $12$ units.\n1200 \\div 100 &= 12\n## Use the slope to set up a right-angled triangle\nThe slope of $w$ is $\\frac{1}{3}$: for every rise of $y$ there is a run of $3y$.\nThe distance travelled along $w$ (12 units) is the hypotenuse.\ny^2 + (3y)^2 &= 12^2\n## Solve for y with Pythagoras\ny^2 + 9y^2 &= 144\n10y^2 &= 144\ny^2 &= 14.4\ny &= \\sqrt{14.4}\n&\\approx 3.795\n## Find the x co-ordinate\nShe starts at $F(9, 0)$ and moves right by $3y$ and up by $y$.\nx &= 9 + 3\\sqrt{14.4}\n&\\approx 20.38\n## Round each value to 1 decimal place\nx &\\approx 20.4\ny &\\approx 3.8\nANSWER: (20.4,\\ 3.8)"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Use the fact that B and N are on the same arc\n$B$ and $N$ both lie on the arc of the sector with centre $O$, so $|OB| = |ON|$.\n## Find |ON| along the line NM\n$|MN| = 100$ (the height of the rectangle) and $|MO| = |QT| = 20$.\n|ON| &= |OM| + |MN|\n&= 20 + 100\n&= 120\n|OB| &= |ON| = 120 \\text{ cm}\nANSWER: |OB| = 120 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Identify the right-angled triangle BOT\n$OT$ is horizontal and $T$ is on the line $RQ$, so the angle at $T$ is $90^\\circ$.\n$|OT| = |MQ| = 180 \\div 2 = 90$, and the hypotenuse is $|OB| = 120$.\n## Use cosine\n$\\cos = \\dfrac{\\text{adjacent}}{\\text{hypotenuse}}$\n\\cos \\angle BOT &= \\frac{90}{120}\n&= \\frac{3}{4}\n## Find the angle\n\\angle BOT &= \\cos^{-1}\\left(\\frac{3}{4}\\right)\n&\\approx 41.41^\\circ\n&\\approx 41.4^\\circ\nANSWER: |\\angle BOT| = 41.4^\\circ"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q10#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle of the sector, |∠BOB'|\nBy symmetry about $NM$, the angle on each side of the horizontal through $O$ is $41.4^\\circ$. Angles on a straight line add to $180^\\circ$.\n|\\angle BOB'| &= 180 - 2(41.4)\n&= 97.2^\\circ\n## Find |OA| using the right-angled triangle\n$A$ is on $PQ$, which is $20$ cm above $O$, and $O$, $A$, $B$ are on one straight line.\n\\sin 41.4^\\circ &= \\frac{20}{|OA|}\n|OA| &= \\frac{20}{\\sin 41.4^\\circ}\n&\\approx 30.24\n## Find the area of the large sector OBB'\nSector area $= \\dfrac{\\theta}{360}\\pi r^2$.\n\\text{Area } OBB' &= \\frac{97.2}{360}\\pi(120)^2\n&\\approx 12\\,214.51\n## Find the area of the small sector OAA'\n\\text{Area } OAA' &= \\frac{97.2}{360}\\pi(30.24)^2\n&\\approx 775.67\n## Subtract the small sector from the large sector\n\\text{Area } ABB'A' &= 12\\,214.51 - 775.67\n&\\approx 11\\,438.84\n&\\approx 11\\,439 \\text{ cm}^2\nANSWER: 11\\,439 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Set up the Cosine Rule in triangle OEE'\n$|OE| = |OE'| = x$, the angle between them is $105^\\circ$, and the opposite side is $|EE'| = 180$.\nCosine Rule: $a^2 = b^2 + c^2 - 2bc\\cos A$.\n180^2 &= x^2 + x^2 - 2(x)(x)\\cos 105^\\circ\n## Collect the x² terms\n180^2 &= 2x^2 - 2x^2\\cos 105^\\circ\n180^2 &= x^2(2 - 2\\cos 105^\\circ)\n## Solve for x\nx^2 &= \\frac{180^2}{2 - 2\\cos 105^\\circ}\nx &= \\frac{180}{\\sqrt{2 - 2\\cos 105^\\circ}}\n&\\approx 113.44\n&\\approx 113.4 \\text{ cm}\nANSWER: |OE| = 113.4 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q10#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the choices for each light\nEach of the $5$ lights can be R, G or O, which is $3$ choices, and the choices are independent.\n\\text{patterns} &= 3 \\times 3 \\times 3 \\times 3 \\times 3\n&= 3^5\n&= 243\nANSWER: 243"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q10#(c)(ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## (ii) Count choices when the first is red and the fifth is not red\nLight 1 must be red: $1$ choice. Light 5 is not red: $2$ choices (G or O). Lights 2, 3, 4 are free: $3$ choices each.\n\\text{patterns} &= 1 \\times 3 \\times 3 \\times 3 \\times 2\n&= 1 \\times 3^3 \\times 2\n&= 54\n## (iii) Count choices when no two consecutive lights match\nLight 1 can be any colour: $3$ choices. Each later light must differ from the one before it: $2$ choices each.\n\\text{patterns} &= 3 \\times 2 \\times 2 \\times 2 \\times 2\n&= 48\nANSWER: \\text{(ii) } 54 \\qquad \\text{(iii) } 48"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q1#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the value after 1 year\nA 20% fall leaves 80% of the value, and $80\\% = 0.8$.\n\\text{Value after 1 year} &= 30000 \\times 0.8\n&= 24000\n## Find the value after 2 years\nTake 80% of the value after 1 year.\n\\text{Value after 2 years} &= 24000 \\times 0.8\n&= 19200\nANSWER: \\text{(i) } \\text{€}24\\,000, \\quad \\text{(ii) } \\text{€}19\\,200"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the VAT paid\n\\text{VAT} &= 4716 - 4500\n&= 216\n## Write the VAT as a percentage of the cost without VAT\n\\text{VAT rate} &= \\frac{216}{4500} \\times 100\n&= 4.8\nANSWER: 4.8\\%"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q1#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the new value as a percentage of the original\nAn increase of $12.5\\%$ means the new value is $112.5\\%$ of the original.\n112.5\\% &\\text{ of original} = 52875\n## Find 1% of the original\n1\\% &= \\frac{52875}{112.5}\n&= 470\n## Find 100% of the original\n100\\% &= 470 \\times 100\n&= 47000\nANSWER: \\text{€}47\\,000"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q2#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 10,
+  "solution": "## Read $z_1$ from the diagram\n$z_1$ is 4 across (real part) and 3 up (imaginary part).\nz_1 &= 4 + 3i\n## Read $z_2$ from the diagram\n$z_2$ is on the imaginary axis, so its real part is 0. It is 2 up.\nz_2 &= 0 + 2i\n## Read $z_3$ from the diagram\n$z_3$ is 2 to the left and 1 down.\nz_3 &= -2 - i\n## Find the modulus of $z_2$\n$|a + bi| = \\sqrt{a^2 + b^2}$.\n|z_2| &= \\sqrt{0^2 + 2^2}\n&= \\sqrt{4}\n&= 2\nANSWER: z_1 = 4+3i, \\quad z_2 = 2i, \\quad z_3 = -2-i, \\quad |z_2| = 2"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 15,
+  "solution": "## Multiply top and bottom by the conjugate of the bottom\nThe conjugate of $1 + 2i$ is $1 - 2i$.\nv &= \\frac{15}{1+2i}\n&= \\frac{15}{1+2i} \\times \\frac{1-2i}{1-2i}\n## Multiply out the top\n15(1-2i) &= 15 - 30i\n&= 15 - 30i\n## Multiply out the bottom\n(1+2i)(1-2i) &= 1 - 2i + 2i - 4i^2\n&= 1 - 4i^2\nUse $i^2 = -1$.\n&= 1 + 4\n&= 5\n## Divide each part of the top by 5\nv &= \\frac{15 - 30i}{5}\n&= \\frac{15}{5} - \\frac{30i}{5}\n&= 3 - 6i\nANSWER: 3 - 6i"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths10"
+  ],
+  "marks": 5,
+  "solution": "## Write down the conjugate of $w$\nThe conjugate changes the sign of the imaginary part.\n\\overline{w} &= 1 - 2i\n## Match it to the diagram\n$1 - 2i$ has the same real part as $w$ and lies the same distance below the real axis, so it is $w$ reflected in the real axis. That is point $C$.\nANSWER: \\text{Box } C \\text{ (the conjugate is the reflection of } w \\text{ in the real axis)}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the cost per block of Set A\n\\frac{12}{60} &= 0.2\n## Find the cost per block of Set B\n\\frac{28}{150} &= 0.1867\n## Compare the two costs\n$0.1867 < 0.2$, so each block in Set B costs less.\nANSWER: \\text{Set B}"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4"
+  ],
+  "marks": 5,
+  "solution": "## Identify $a$, $b$ and $c$\nCompare $3x^2 - 5x + 1 = 0$ with $ax^2 + bx + c = 0$.\na &= 3, \\quad b = -5, \\quad c = 1\n## Substitute into the quadratic formula\nx &= \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\n&= \\frac{-(-5) \\pm \\sqrt{(-5)^2 - 4(3)(1)}}{2(3)}\n&= \\frac{5 \\pm \\sqrt{25 - 12}}{6}\n&= \\frac{5 \\pm \\sqrt{13}}{6}\n## Find the first value of $x$\nx &= \\frac{5 + \\sqrt{13}}{6}\n&= 1.43426\n&\\approx 1.43\n## Find the second value of $x$\nx &= \\frac{5 - \\sqrt{13}}{6}\n&= 0.2324\n&\\approx 0.23\nANSWER: x = 0.23 \\text{ and } x = 1.43"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5"
+  ],
+  "marks": 15,
+  "solution": "## Write $y$ in terms of $x$\n2x + y &= 5\ny &= 5 - 2x\n## Substitute into $x^2 + y^2 = 25$\nx^2 + y^2 &= 25\nx^2 + (5-2x)^2 &= 25\n## Expand the bracket\n(5-2x)^2 &= (5-2x)(5-2x)\n&= 25 - 10x - 10x + 4x^2\n&= 25 - 20x + 4x^2\n## Put it back into the equation and collect terms\nx^2 + 25 - 20x + 4x^2 &= 25\n5x^2 - 20x + 25 &= 25\n5x^2 - 20x &= 0\n## Factorise and solve for $x$\n5x(x - 4) &= 0\nA product is zero when one factor is zero.\nx &= 0 \\text{ or } x = 4\n## Find $y$ for each value of $x$\nUse $y = 5 - 2x$.\nx = 0: \\quad y &= 5 - 2(0) = 5\nx = 4: \\quad y &= 5 - 2(4) = -3\nANSWER: (x, y) = (0, 5) \\text{ and } (4, -3)"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Multiply out the bracket\n4(2x - 5) - 1 &= 3x + 7\n8x - 20 - 1 &= 3x + 7\n8x - 21 &= 3x + 7\n## Get the $x$ terms on one side and numbers on the other\nSubtract $3x$ from both sides and add $21$ to both sides.\n8x - 3x &= 7 + 21\n5x &= 28\n## Divide both sides by 5\nx &= \\frac{28}{5}\n&= 5.6\nANSWER: x = \\frac{28}{5} = 5.6"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the number of parts Liam and Joan share\n\\text{Liam and Joan} &= 4 + 3\n&= 7 \\text{ parts}\n## Find the value of one part\n1 \\text{ part} &= \\frac{154}{7}\n&= 22\n## Find Martha's share of 5 parts\n\\text{Martha} &= 5 \\times 22\n&= 110\nANSWER: \\text{€}110"
+ },
+ {
+  "part": "maths-pp-2024-ordinary-p1-q4#(c)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write 128 as a power of 2 (part (i))\nKeep multiplying by 2 until you reach 128.\n2^1 &= 2\n2^2 &= 4\n2^3 &= 8\n2^4 &= 16\n2^5 &= 32\n2^6 &= 64\n2^7 &= 128\nSo $128 = 2^7$, and $k = 7$.\n## Write both sides of the equation with base 2 (part (ii))\n2^{4x+1} &= 128\n2^{4x+1} &= 2^7\n## Equate the powers\nThe bases are the same, so the powers must be equal.\n4x + 1 &= 7\n## Solve for $x$\n4x &= 6\nx &= \\frac{6}{4}\n&= 1.5\nANSWER: 128 = 2^7, \\quad x = 1.5"
+ }
+]

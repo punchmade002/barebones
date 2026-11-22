@@ -1,0 +1,415 @@
+[
+ {
+  "part": "maths-pp-2019-ordinary-p1-q9#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute m = 8 into the formula\nU(8) &= 3000(1.8)^8\n## Calculate and round to a whole number of users\n&\\approx 330598.8\n&\\approx 330599\nANSWER: 330\\,599 \\text{ users}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17",
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Multiply by 1.8 for one more month\nEach extra month multiplies the number of users by $1.8$, because $U(m+1) = 3000(1.8)^{m+1} = 1.8 \\times U(m)$.\n31493 \\times 1.8 &= 56687.4\n&\\approx 56687\nANSWER: 56\\,687 \\text{ users}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q9#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Multiply users by the earnings per user\n600000 \\times 0.0012 &= 720\n&= 720\nANSWER: \\text{€}720"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q9#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Write an equation for the number of users\nLet $u$ be the number of users. Earnings = users $\\times$ 0.0012.\n1285.37 &= 0.0012u\n## Divide both sides by 0.0012\nu &= \\frac{1285.37}{0.0012}\nu &\\approx 1071141.67\nu &\\approx 1071142\nANSWER: 1\\,071\\,142 \\text{ users}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q9#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Month 4: find the number of users\nU(4) &= 3000(1.8)^4\n&= 31492.8\n## Month 4: find the income\n31492.8 \\times 0.0012 &= 37.79136\n&\\approx 37.79\n## Month 4: subtract the €80 cost\n37.79 - 80 &= -42.21\nThe answer is negative, so Avril makes a loss of €42.21 in month 4.\n## Month 12: find the number of users\nU(12) &= 3000(1.8)^{12}\n&\\approx 3470494.14\n## Month 12: find the income\n3470494.144 \\times 0.0012 &\\approx 4164.59\n## Month 12: subtract the €80 cost\n4164.59 - 80 &= 4084.59\nThe answer is positive, so Avril makes a gain of €4084.59 in month 12.\nANSWER: \\text{Month 4: loss of €}42.21; \\text{ Month 12: gain of €}4084.59"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p1-q9#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Divide the pounds by the euros\n£55 costs €62.70, so £1 = €$\\frac{62.70}{55}$ and €1 = £$\\frac{55}{62.70}$.\n\\text{rate} &= \\frac{55}{62.70}\n&\\approx 0.8772\nANSWER: \\text{€}1 = \\text{£}0.8772"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Sort the ages by their tens digit\nThe stem is the tens digit and the leaf is the units digit. Go through the 28 ages in order and put each leaf on its stem.\nStem 1: 18, 19, 18. Stem 2: 21, 21, 22, 20. Stem 3: 32, 35, 33, 34, 39, 33, 34.\nStem 4: 41, 43, 42, 49, 43. Stem 5: 57, 54, 58, 55, 57. Stem 6: 64, 63, 65, 63.\n## Write each stem in increasing order\nPut the leaves in order, smallest first, on each row.\nCheck: $3+4+7+5+5+4 = 28$ leaves, one for every employee.\nANSWER: \\text{See the completed diagram}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Count the employees older than 40\nNo age is exactly 40, so the ages over 40 are every leaf in rows 4, 5 and 6.\n5 + 5 + 4 &= 14\n## Write as a percentage of 28\n\\frac{14}{28} \\times 100 &= 50\\%\nANSWER: 50\\%"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q1#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the teenagers\nTeenagers are under 20. The stem 1 row has three ages: 18, 18 and 19.\nP(\\text{teenager}) &= \\frac{3}{28}\nANSWER: \\frac{3}{28}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q1#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the thirties with an even age\nThe leaves 2, 4 and 4 on stem 3 are even: 32, 34, 34.\nP(\\text{thirties, even}) &= \\frac{3}{28}\n## Count the forties with an odd age\nThe leaves 1, 3, 3 and 9 on stem 4 are odd: 41, 43, 43, 49.\nP(\\text{forties, odd}) &= \\frac{4}{28}\n## Add, since the two groups cannot overlap\nP(\\text{either}) &= \\frac{3}{28} + \\frac{4}{28}\n&= \\frac{7}{28}\n&= \\frac{1}{4}\nANSWER: \\frac{7}{28} = \\frac{1}{4}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Write the slope formula\nUse $P(4, 2)$ as $(x_1, y_1)$ and $Q(8, 5)$ as $(x_2, y_2)$.\nm &= \\frac{y_2 - y_1}{x_2 - x_1}\n## Substitute the co-ordinates\nm &= \\frac{5 - 2}{8 - 4}\n## Simplify\n&= \\frac{3}{4}\nANSWER: m = \\frac{3}{4}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Substitute the slope and point P into the line formula\ny - y_1 &= m(x - x_1)\ny - 2 &= \\frac{3}{4}(x - 4)\n## Multiply both sides by 4\n4(y - 2) &= 3(x - 4)\n## Expand the brackets\n4y - 8 &= 3x - 12\n## Collect every term on one side\n0 &= 3x - 4y - 4\nANSWER: 3x - 4y - 4 = 0"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q2#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the perpendicular slope rule\nPerpendicular lines have slopes whose product is $-1$, so the perpendicular slope is the negative reciprocal.\nm_{\\perp} &= -\\frac{1}{3/4}\n&= -\\frac{4}{3}\nANSWER: -\\frac{4}{3}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q2#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Translate P to the origin\nSubtract $(4, 2)$ from every point so that $P$ becomes $(0, 0)$. The area does not change.\nP(4, 2) &\\to (0, 0)\nQ(8, 5) &\\to (4, 3)\nR(2, 11) &\\to (-2, 9)\n## Write the area formula for a triangle with a vertex at the origin\n\\text{Area} &= \\frac{1}{2}\\left|x_1 y_2 - x_2 y_1\\right|\n## Substitute $(4, 3)$ and $(-2, 9)$\n&= \\frac{1}{2}\\left|(4)(9) - (-2)(3)\\right|\n## Evaluate\n&= \\frac{1}{2}\\left|36 + 6\\right|\n&= \\frac{1}{2}(42)\n&= 21\nANSWER: 21 \\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Use the complement rule\nThe probabilities of an event and of its opposite add to 1.\nP(\\text{not blue}) &= 1 - 0.7\n&= 0.3\nANSWER: 0.3"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Multiply, since the two people are independent\nP(\\text{both blue}) &= 0.7 \\times 0.7\n&= 0.49\nANSWER: 0.49"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## List the ways to get exactly two blue\nWrite B for blue eyes and N for not blue. The three orders are BBN, BNB and NBB.\n## Find the probability of one order\nEach order has two blue and one not blue, so each has the same probability.\n0.7 \\times 0.7 \\times 0.3 &= 0.147\n## Multiply by the 3 orders\n3 \\times 0.147 &= 0.441\nANSWER: 0.441"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q3#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find the only order allowed\nThe first three people are not blue and the fourth is blue: NNNB.\n## Multiply the four probabilities\nP &= (0.3)^3 \\times 0.7\n&= 0.027 \\times 0.7\n&= 0.0189\nANSWER: 0.0189"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the translation that takes S to P\n$PQRS$ is a square, so $S \\to P$ is the same move as $R \\to Q$.\nS(-4, 11) &\\to P(2, 3)\nThe $x$-co-ordinate goes up by $2 - (-4) = 6$ and the $y$-co-ordinate goes down by $11 - 3 = 8$.\n## Apply the same translation to R\nR(4, 17) &\\to (4 + 6,\\ 17 - 8)\n&= (10, 9)\nANSWER: Q(10, 9)"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the midpoint of the diagonal PR\nThe centre of the circle is the centre of the square, which is the midpoint of $PR$.\n\\left(\\frac{x_1 + x_2}{2},\\ \\frac{y_1 + y_2}{2}\\right) &= \\left(\\frac{2 + 4}{2},\\ \\frac{3 + 17}{2}\\right)\n## Work out each co-ordinate\nx &= \\frac{2 + 4}{2}\n&= 3\ny &= \\frac{3 + 17}{2}\n&= 10\nANSWER: (3, 10)"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q4#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find the side length RS\n$RS$ is a side of the square, and the circle is inscribed in the square (it touches all four sides), so the diameter of the circle equals the side length $|RS|$.\n|RS| &= \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\n&= \\sqrt{(4 + 4)^2 + (17 - 11)^2}\n&= \\sqrt{64 + 36}\n&= \\sqrt{100}\n&= 10\n## Halve the diameter\nr &= \\frac{1}{2}(10)\n&= 5\nANSWER: 5 \\text{ units}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q4#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Write the circle equation with centre (3, 10) and radius 5\n(x - h)^2 + (y - k)^2 &= r^2\n(x - 3)^2 + (y - 10)^2 &= 5^2\n(x - 3)^2 + (y - 10)^2 &= 25\n## Optional: expand into the general form\nx^2 - 6x + 9 + y^2 - 20y + 100 &= 25\nx^2 + y^2 - 6x - 20y + 84 &= 0\nANSWER: (x - 3)^2 + (y - 10)^2 = 25"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Area of the large disc (radius 3)\nA_L &= \\pi (3)^2\n&= 9\\pi\n## Area of the removed disc (radius 2.5)\nA_S &= \\pi (2.5)^2\n&= 6.25\\pi\n## Subtract to get the area of the crescent\nA_C &= 9\\pi - 6.25\\pi\n&= 2.75\\pi\n&\\approx 8.64 \\text{ cm}^2\n## Circumference of the large disc\nP_L &= 2\\pi r = 2\\pi(3)\n&= 6\\pi\n## Circumference of the removed disc\nP_S &= 2\\pi(2.5)\n&= 5\\pi\n## Add them, since the crescent is bounded by both arcs\nP_C &= 6\\pi + 5\\pi\n&= 11\\pi\n&\\approx 34.56 \\text{ cm}\nANSWER: \\text{Area} = 8.64 \\text{ cm}^2, \\quad \\text{Perimeter} = 34.56 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Volume of the cone\nV &= \\frac{1}{3}\\pi r^2 h\n&= \\frac{1}{3}\\pi (7)^2 (12)\n&= \\frac{1}{3}\\pi (49)(12)\n&= \\frac{588}{3}\\pi\n&= 196\\pi\n&\\approx 615.75 \\text{ cm}^3\n## Convert the flow rate to cm³ per minute\n$1$ litre $= 1000\\ \\text{cm}^3$, so $0.5$ litres $= 500\\ \\text{cm}^3$ per minute.\n## Divide the volume by the rate\nt &= \\frac{196\\pi}{500}\n&\\approx 1.2315 \\text{ minutes}\n## Convert minutes to seconds\nt &= \\frac{196\\pi}{500} \\times 60\n&\\approx 73.89 \\text{ seconds}\n&\\approx 74 \\text{ seconds}\nANSWER: 74 \\text{ seconds}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q6#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 15,
+  "solution": "## Draw [PQ] 9 cm long\nUse a ruler to draw $[PQ]$ along the line, 9 cm from the marked point $P$.\n## Draw the 65° angle at P\nPlace the protractor at $P$ with its base on $[PQ]$ and mark 65°. Draw a line through the mark.\n## Mark S\nMeasure 5 cm along this line from $P$ and label the point $S$.\n## Find R using two arcs\nOpposite sides of a parallelogram are equal, so $|SR| = 9$ cm and $|QR| = 5$ cm.\nWith the compass at $S$, draw an arc of radius 9 cm. With the compass at $Q$, draw an arc of radius 5 cm. They cross at $R$.\n## Join up the parallelogram\nJoin $S$ to $R$ and $Q$ to $R$ and label the parallelogram $PQRS$. Keep all arcs and labels.\nANSWER: PQRS \\text{ with } |PQ|=|SR|=9,\\ |PS|=|QR|=5,\\ \\angle SPQ = 65^\\circ"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q6#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Use the area formula with the sine of the included angle\nArea of a parallelogram $= ab\\sin C$, with the two sides 9 and 5 and the angle 65° between them.\n\\text{Area} &= ab\\sin C\n&= 9(5)\\sin 65^\\circ\n&= 45(0.906307787)\n&\\approx 40.78385042\n&\\approx 40.78 \\text{ cm}^2\nANSWER: 40.78 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find α\n$|OW| = |OY|$ because they are radii, so triangle $OWY$ is isosceles.\nThe angles opposite equal sides are equal, so the angle at $Y$ equals the angle at $W$.\n\\alpha &= 52\n## Find the angle YOW\nAngles in a triangle add to 180°.\n|\\angle YOW| &= 180 - 52 - 52\n&= 76\n## Find the angle YOX\n$W$, $O$ and $X$ lie on a straight line, so angles $YOW$ and $YOX$ add to 180°.\n|\\angle YOX| &= 180 - 76\n&= 104\n## Find β\n$|OY| = |OX|$ because they are radii, so the two base angles of triangle $OYX$ are equal.\n2\\beta &= \\frac{180 - 104}{2}\n2\\beta &= 38\n\\beta &= 19\nANSWER: \\alpha = 52,\\ \\beta = 19"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Find the maximum, minimum and range for Fish\n\\text{Maximum} &= 177\n\\text{Minimum} &= 59\n\\text{Range} &= 177 - 59\n&= 118\n## Find the maximum, minimum and range for Milk, Cheese and Eggs\n\\text{Maximum} &= 175\n\\text{Minimum} &= 65\n\\text{Range} &= 175 - 65\n&= 110\n## Find the maximum, minimum and range for Fruits, Vegetables and Potatoes\n\\text{Maximum} &= 172\n\\text{Minimum} &= 48\n\\text{Range} &= 172 - 48\n&= 124\nANSWER: \\text{Fish } 177, 59, 118;\\ \\text{Milk } 175, 65, 110;\\ \\text{Fruit } 172, 48, 124"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 10,
+  "solution": "## Write the data in increasing order\nTake the Fruits, Vegetables and Potatoes column and list the 13 values from smallest to largest.\n\\text{Ordered} &: 48, 62, 77, 86, 95, 104, 111, 116, 125, 136, 137, 150, 172\n## Find the position of the median\nWith 13 values the median is the middle one.\n\\frac{13 + 1}{2} &= \\frac{14}{2}\n&= 7\nThe median is the 7th value in the ordered list.\n## Read off the median\n\\text{Median} &= 111\nANSWER: \\text{Median} = 111"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q7#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Add all 13 Meat values\n\\text{Sum} &= 132 + 117 + 106 + 63 + 56 + 111 + 157 + 54 + 85 + 131 + 254 + 78 + 112\n&= 1456\n## Divide by the number of countries\nThere are 13 countries.\n\\text{Mean} &= \\frac{1456}{13}\n&= 112\nANSWER: \\text{€}112"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q7#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Use the calculator in statistics mode\nEnter the 13 Meat values into the calculator and read off the population standard deviation $\\sigma$.\n\\sigma &\\approx 50.99\n&\\approx 51\nANSWER: \\text{€}51"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q7#(c)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Find the interval within one standard deviation\nAdd and subtract the standard deviation from the mean.\n112 - 51 &= 61\n112 + 51 &= 163\nSo the interval is $[61, 163]$.\n## List the countries outside the interval\nMeat values below 61 are Macedonia (56) and Poland (54). The value above 163 is Switzerland (254).\nANSWER: \\text{Macedonia, Poland and Switzerland}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q7#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Use the price index to convert each cost\nThe same items cost in proportion to the price index. Divide the Irish cost by the Irish index, then multiply by the Polish index.\n## Work out the Polish cost of Fish\n\\text{Poland} &= \\frac{31.32}{108} \\times 64\n&= 0.29 \\times 64\n&= 18.56\n## Work out the Polish cost of Milk, Cheese and Eggs\n\\text{Poland} &= \\frac{24.32}{128} \\times 65\n&= 0.19 \\times 65\n&= 12.35\n## Work out the Polish cost of Fruits, Vegetables and Potatoes\n\\text{Poland} &= \\frac{31.28}{136} \\times 62\n&= 0.23 \\times 62\n&= 14.26\n## Add the four Polish costs\n\\text{Total} &= 18.36 + 18.56 + 12.35 + 14.26\n&= 63.53\nANSWER: \\text{Fish } 18.56;\\ \\text{Milk } 12.35;\\ \\text{Fruit } 14.26;\\ \\text{Total } 63.53"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q8#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Substitute r = 3 into the sphere formula\nV &= \\frac{4}{3}\\pi r^3\n&= \\frac{4}{3}\\pi (3)^3\n&= \\frac{4}{3}\\pi (27)\n&= 36\\pi\nANSWER: 36\\pi \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q8#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Set up an equation\nThe water that dropped is a cylinder of radius 5 cm whose volume equals the sphere, $36\\pi$.\n\\pi r^2 h &= 36\\pi\n\\pi (5)^2 h &= 36\\pi\n25\\pi h &= 36\\pi\n## Solve for h\nh &= \\frac{36\\pi}{25\\pi}\n&= \\frac{36}{25}\n&= 1.44\nANSWER: h = 1.44 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q8#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the curved surface area\nThe cylinder has $r = 5$ and $h = 18$.\n\\text{CSA} &= 2\\pi r h\n&= 2\\pi (5)(18)\n&= 180\\pi\n## Find the area of the rectangle\n\\text{Area} &= 35 \\times 20\n&= 700\n## Subtract to find what is left\n\\text{Left over} &= 700 - 180\\pi\n&\\approx 700 - 565.49\n&\\approx 134.51\n&\\approx 134.5 \\text{ cm}^2\nANSWER: 134.5 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 10,
+  "solution": "## Substitute n = 800 into the margin of error formula\n\\text{Margin of error} &= \\frac{1}{\\sqrt{n}}\n&= \\frac{1}{\\sqrt{800}}\n&\\approx 0.035355\n## Write as a percentage\nMultiply by 100 and round to 2 decimal places.\n&\\approx 3.5355\\%\n&\\approx 3.54\\%\nANSWER: 3.54\\%"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## Find the sample proportion\n\\hat{p} &= \\frac{350}{800}\n&= 0.4375\n&= 43.75\\%\n## Add and subtract the margin of error\nThe 95% confidence interval is $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$, with margin of error 3.54%.\n\\text{Lower} &= 43.75 - 3.54\n&= 40.21\n\\text{Upper} &= 43.75 + 3.54\n&= 47.29\nANSWER: 40.21\\% < p < 47.29\\%"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q8#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 5,
+  "solution": "## State the hypotheses\nH_0 &: \\text{the level of support is } 50\\%\nH_1 &: \\text{the level of support is not } 50\\%\n## Compare 50% with the confidence interval\nThe 95% confidence interval from part (ii) is $[40.21\\%, 47.29\\%]$.\n50\\% &\\notin [40.21\\%, 47.29\\%]\n## State the conclusion and reason\nReason: 50% is not inside the 95% confidence interval, so there is not enough evidence to support the newspaper claim.\nConclusion: reject $H_0$. The level of support for abolishing daylight saving time in the area is not 50%.\nANSWER: \\text{Reject } H_0:\\ 50\\% \\notin [40.21\\%, 47.29\\%]"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 15,
+  "solution": "## Choose the trig ratio\nIn triangle $PQR$ the right angle is at $Q$, $|PR| = 120$ is the hypotenuse and $|QR|$ is opposite the 30° angle.\n\\sin 30^\\circ &= \\frac{|QR|}{120}\n|QR| &= 120\\sin 30^\\circ\n&= 120 \\times \\frac{1}{2}\n&= 60\nANSWER: |QR| = 60 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Apply Pythagoras in triangle QRS\nThe right angle is at $Q$, so $[RS]$ is the hypotenuse with $|RS| = 100$ (the radius), and $|RQ| = 60$.\n|RS|^2 &= |RQ|^2 + |QS|^2\n100^2 &= 60^2 + |QS|^2\n10000 &= 3600 + |QS|^2\n## Solve for |QS|\n|QS|^2 &= 10000 - 3600\n&= 6400\n|QS| &= \\sqrt{6400}\n&= 80\nANSWER: |QS| = 80 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Apply Pythagoras in triangle PQR\n$|PR| = 120$ is the hypotenuse and $|QR| = 60$.\n|PR|^2 &= |QR|^2 + |PQ|^2\n120^2 &= 60^2 + |PQ|^2\n14400 &= 3600 + |PQ|^2\n|PQ|^2 &= 14400 - 3600\n&= 10800\n## Find |PQ|\n|PQ| &= \\sqrt{10800}\n&\\approx 103.92\n## Subtract |QS| to find |PS|\n$S$ lies between $P$ and $Q$, so $|PS| = |PQ| - |QS|$.\n|PS| &= 103.92 - 80\n&= 23.92\n&\\approx 24 \\text{ km}\nANSWER: |PS| \\approx 24 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find |TS|\n$Q$ is the foot of the perpendicular from the centre $R$ to the chord $[ST]$, so it is the midpoint of $[ST]$.\n|TS| &= 2|QS|\n&= 2 \\times 80\n&= 160\n## Substitute into the cosine rule\nIn triangle $RST$: $|RS| = |RT| = 100$ and $|TS| = 160$, with $\\theta$ opposite $[TS]$.\n|TS|^2 &= |RT|^2 + |RS|^2 - 2|RT||RS|\\cos\\theta\n160^2 &= 100^2 + 100^2 - 2(100)(100)\\cos\\theta\n25600 &= 20000 - 20000\\cos\\theta\n## Solve for cos θ\n20000\\cos\\theta &= 20000 - 25600\n20000\\cos\\theta &= -5600\n\\cos\\theta &= -\\frac{5600}{20000}\n&= -\\frac{7}{25}\n## Find θ using inverse cosine\n\\theta &= \\cos^{-1}\\left(-\\frac{7}{25}\\right)\n&\\approx 106.26^\\circ\n&\\approx 106^\\circ\nANSWER: \\cos\\theta = -\\frac{7}{25},\\ \\theta = 106^\\circ"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the arc length (Mary)\nThe arc is $\\frac{106}{360}$ of the circumference, with $r = 100$.\n\\text{Arc} &= 2\\pi r \\times \\frac{\\theta}{360}\n&= 2\\pi (100) \\times \\frac{106}{360}\n&= \\frac{530\\pi}{9}\n&\\approx 185.0049\n&\\approx 185\n## Subtract John's distance\nJohn sails the straight line $|ST| = 160$.\n\\text{Difference} &= 185 - 160\n&= 25\nANSWER: 25 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2019-ordinary-p2-q9#(d)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the area of sector RST\n\\text{Area} &= \\pi r^2 \\times \\frac{\\theta}{360}\n&= \\pi (100)^2 \\times \\frac{106}{360}\n&= \\frac{26500\\pi}{9}\n&\\approx 9250.245\n## Divide by 25 km² per ship\n\\text{Ships} &= \\frac{9250.245}{25}\n&\\approx 370.01\n&\\approx 370\nANSWER: 370 \\text{ ships}"
+ }
+]

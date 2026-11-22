@@ -1,0 +1,330 @@
+[
+ {
+  "part": "maths-pp-2016-higher-p1-q5#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Use Pythagoras\nThe longest side, $5x - 9$, is the hypotenuse (opposite the right angle).\n(5x-9)^2 &= (x-1)^2 + (4x)^2\n## Expand both sides\n25x^2 - 90x + 81 &= x^2 - 2x + 1 + 16x^2\n25x^2 - 90x + 81 &= 17x^2 - 2x + 1\n## Collect all terms on one side\n8x^2 - 88x + 80 &= 0\n## Divide by 8\nx^2 - 11x + 10 &= 0\n## Factorise\n(x-1)(x-10) &= 0\nx = 1 \\text{ or } x &= 10\n## Reject x = 1\nIf $x = 1$, the side $x - 1$ would be 0, which is impossible.\nx &= 10\nANSWER: x = 10"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q5#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find the three sides when x = 10\nx - 1 &= 10 - 1 = 9\n4x &= 4(10) = 40\n5x - 9 &= 5(10) - 9 = 41\n## Check Pythagoras for 9, 40, 41\n9^2 + 40^2 &= 81 + 1600\n&= 1681\n41^2 &= 1681\nSince $9^2 + 40^2 = 41^2$, the sides 9, 40, 41 form a pythagorean triple.\nANSWER: 9^2 + 40^2 = 41^2"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q5#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Assume two inputs give the same output\n$f$ is injective if $f(a) = f(b)$ forces $a = b$.\nf(a) &= f(b)\n3a - 2 &= 3b - 2\n## Solve for a\n3a &= 3b\na &= b\nDifferent inputs always give different outputs, so $f$ is injective.\nANSWER: f(a) = f(b) \\Rightarrow a = b \\text{, so } f \\text{ is injective}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q5#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Write y = f(x)\ny &= 3x - 2\n## Swap x and y\nx &= 3y - 2\n## Solve for y\nx + 2 &= 3y\ny &= \\frac{x+2}{3}\n## Write the inverse\nf^{-1}(x) &= \\frac{x+2}{3}\nANSWER: f^{-1}(x) = \\frac{x+2}{3}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Expand f(x)\nf(x) &= (2x+4)^2\n&= 4x^2 + 16x + 16\n## Find f(x + h)\nf(x+h) &= 4(x+h)^2 + 16(x+h) + 16\n&= 4x^2 + 8hx + 4h^2 + 16x + 16h + 16\n## Subtract f(x)\nf(x+h) - f(x) &= (4x^2 + 8hx + 4h^2 + 16x + 16h + 16) - (4x^2 + 16x + 16)\n&= 8hx + 4h^2 + 16h\n## Divide by h\n\\frac{f(x+h) - f(x)}{h} &= \\frac{8hx + 4h^2 + 16h}{h}\n&= \\frac{h(8x + 4h + 16)}{h}\n&= 8x + 4h + 16\n## Let h tend to 0\nf'(x) &= \\lim_{h \\to 0} (8x + 4h + 16)\n&= 8x + 16\nANSWER: 8x + 16"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q6#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 15,
+  "solution": "## Set up the product rule\n$y = uv$ with $u = x$ and $v = \\sin\\left(\\frac{1}{x}\\right)$, so $\\frac{dy}{dx} = u\\frac{dv}{dx} + v\\frac{du}{dx}$.\n\\frac{du}{dx} &= 1\n## Differentiate v with the chain rule\nWrite $\\frac{1}{x} = x^{-1}$, which differentiates to $-\\frac{1}{x^2}$.\n\\frac{dv}{dx} &= \\cos\\left(\\frac{1}{x}\\right)\\left(-\\frac{1}{x^2}\\right)\n## Combine\n\\frac{dy}{dx} &= x\\cos\\left(\\frac{1}{x}\\right)\\left(-\\frac{1}{x^2}\\right) + \\sin\\left(\\frac{1}{x}\\right)(1)\n&= \\sin\\left(\\frac{1}{x}\\right) - \\frac{1}{x}\\cos\\left(\\frac{1}{x}\\right)\n## Substitute x = 4/pi\nWhen $x = \\frac{4}{\\pi}$, $\\frac{1}{x} = \\frac{\\pi}{4}$.\n\\frac{dy}{dx} &= \\sin\\frac{\\pi}{4} - \\frac{\\pi}{4}\\cos\\frac{\\pi}{4}\n## Evaluate in radians\nPut the calculator in radian mode.\n\\frac{dy}{dx} &= 0.7071 - 0.5554\n&\\approx 0.15\nANSWER: 0.15"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q7#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate the volume of a sphere\nV &= \\frac{4}{3}\\pi r^3\n\\frac{dV}{dr} &= 4\\pi r^2\n## Use the chain rule for the rate of change of the radius\nThe rate given is $\\frac{dV}{dt} = 250$, so we need $\\frac{dr}{dt} = \\frac{dr}{dV}\\times\\frac{dV}{dt}$.\n\\frac{dr}{dt} &= \\frac{1}{4\\pi r^2}\\times 250\n## Substitute r = 20\n\\frac{dr}{dt} &= \\frac{250}{4\\pi (20)^2}\n&= \\frac{250}{1600\\pi}\n&= \\frac{5}{32\\pi}\nANSWER: \\frac{5}{32\\pi} \\text{ cm/s}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q7#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate the surface area of a sphere\nA &= 4\\pi r^2\n\\frac{dA}{dr} &= 8\\pi r\n## Use the chain rule with the result from part (i)\n$\\frac{dA}{dt} = \\frac{dA}{dr}\\times\\frac{dr}{dt}$, and $\\frac{dr}{dt} = \\frac{5}{32\\pi}$ when $r = 20$.\n\\frac{dA}{dt} &= 8\\pi(20)\\times\\frac{5}{32\\pi}\n&= \\frac{800\\pi}{32\\pi}\n&= 25\nANSWER: 25 \\text{ cm}^2/\\text{s}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Set f(x) = 0 (the ball is on the ground)\n-x^2 + 10x &= 0\n## Factorise and solve\nx(-x + 10) &= 0\nx = 0 \\quad &\\text{or} \\quad -x + 10 = 0\nx &= 0 \\text{ or } x = 10\nANSWER: x = 0 \\text{ m} \\text{ or } x = 10 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\nThe ball is in the air from $x = 0$ to $x = 10$. Average height $= \\frac{1}{b-a}\\int_a^b f(x)\\,dx$.\n\\text{average} &= \\frac{1}{10-0}\\int_0^{10}(-x^2+10x)\\,dx\n## Integrate\n&= \\frac{1}{10}\\left[-\\frac{x^3}{3} + 5x^2\\right]_0^{10}\n## Substitute the limits\n&= \\frac{1}{10}\\left[\\left(-\\frac{1000}{3} + 500\\right) - 0\\right]\n&= \\frac{1}{10}\\times\\frac{500}{3}\n&= \\frac{50}{3}\nANSWER: \\frac{50}{3} \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate f(x)\nf(x) &= -0.274x^2 + 1.193x + 3.23\nf'(x) &= -0.548x + 1.193\n## Set f'(x) = 0 for the maximum and solve\n-0.548x + 1.193 &= 0\n-0.548x &= -1.193\nx &= \\frac{1.193}{0.548}\nx &= 2.177\n## Substitute x = 2.177 into f(x)\nf(2.177) &= -0.274(2.177)^2 + 1.193(2.177) + 3.23\n&= -1.2986 + 2.5972 + 3.23\n&= 4.529\nANSWER: 4.529 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the slope of the path at B\nThe slope at $x = 4.5$ is $f'(4.5)$, and slope $= \\tan\\theta$.\n\\tan\\theta &= f'(4.5)\n&= -0.548(4.5) + 1.193\n&= -2.466 + 1.193\n&= -1.273\n## Find the acute angle\nThe slope is negative because the ball is coming down, so take the positive value for the acute angle.\n\\theta &= \\tan^{-1}(1.273)\n&= 51.8^\\circ\n&\\approx 52^\\circ\nANSWER: 52^\\circ"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q8#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Find the translation that maps A onto C\nA(-0.5,\\ 2.565) &\\to C(0,\\ 2)\nx\\text{-shift} &= 0 - (-0.5) = 0.5\ny\\text{-shift} &= 2 - 2.565 = -0.565\n## Apply the translation to the maximum point (2.177, 4.529)\nUse the maximum height from part (i); the translation moves every point of the curve the same way.\nx &= 2.177 + 0.5\n&= 2.677\ny &= 4.529 - 0.565\n&= 3.964\nANSWER: (2.677,\\ 3.964)"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q8#(a)(iv)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Write g(x) in general form and use C(0, 2)\ng(x) &= ax^2 + bx + c\n$C(0,2)$ is on the curve, so $g(0) = 2$.\nc &= 2\n## Use B(4.5, 3.05), which is also on g(x)\n3.05 &= a(4.5)^2 + b(4.5) + 2\n3.05 - 2 &= 20.25a + 4.5b\n20.25a + 4.5b &= 1.05 \\quad \\text{(1)}\n## Use the maximum point at x = 2.677\nAt the maximum, $g'(x) = 0$.\ng'(x) &= 2ax + b\n2a(2.677) + b &= 0\n5.354a + b &= 0 \\quad \\text{(2)}\n## Solve (1) and (2) for a\nb &= -5.354a\n20.25a + 4.5(-5.354a) &= 1.05\n20.25a - 24.093a &= 1.05\n-3.843a &= 1.05\na &= \\frac{1.05}{-3.843}\na &= -0.273\n## Find b\nb &= -5.354(-0.273)\nb &= 1.462\n## Write the equation\ng(x) &= -0.273x^2 + 1.462x + 2\nANSWER: g(x) = -0.273x^2 + 1.462x + 2"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## 200 m race: a = 4.99087, b = 42.5, c = 1.81, x = 23.8\ny &= a(b - x)^c\ny &= 4.99087(42.5 - 23.8)^{1.81}\n&= 4.99087(18.7)^{1.81}\n&= 1000\n## Javelin: a = 15.9803, b = 3.8, c = 1.04, x = 58.2\ny &= a(x - b)^c\ny &= 15.9803(58.2 - 3.8)^{1.04}\n&= 15.9803(54.4)^{1.04}\n&= 1020\nANSWER: \\text{200 m: } 1000 \\text{ points; javelin: } 1020 \\text{ points}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Substitute y = 1295 into the javelin formula\n1295 &= 15.9803(x - 3.8)^{1.04}\n\\frac{1295}{15.9803} &= (x - 3.8)^{1.04}\n81.0373 &= (x - 3.8)^{1.04}\n## Let z = x − 3.8 and take logs of both sides\nz^{1.04} &= 81.0373\n1.04\\log z &= \\log 81.0373\n\\log z &= \\frac{\\log 81.0373}{1.04}\nz &= 68.4343\n## Solve for x\nx - 3.8 &= 68.4343\nx &= 72.2343\nx &= 72.23\nANSWER: 72.23 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q8#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Write the time in seconds\n2\\text{ min } 1.84\\text{ s} &= 2(60) + 1.84\n&= 121.84\\text{ s}\n## Substitute into y = a(b − x)^c\n1087 &= 0.11193(254 - 121.84)^c\n1087 &= 0.11193(132.16)^c\n## Isolate the power and take logs\n\\frac{1087}{0.11193} &= (132.16)^c\n9711.426 &= (132.16)^c\n\\log 9711.426 &= c\\log 132.16\nc &= \\frac{\\log 9711.426}{\\log 132.16}\nc &= 1.88\nANSWER: c = 1.88"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q9#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Spot the pattern in the distances\nThe distances are $4, 2, 1, \\frac12, \\frac14, \\dots$, each half the one before, so this is a geometric sequence.\na &= 4\nr &= \\frac{2}{4}\nr &= \\frac{1}{2}\n## Use the sum of n terms and set it equal to 7.9375\nS_n &= \\frac{a(1-r^n)}{1-r}\nS_n &= \\frac{4\\left(1-\\left(\\frac12\\right)^n\\right)}{1-\\frac12}\nS_n &= 8\\left(1-\\frac{1}{2^n}\\right)\n8\\left(1-\\frac{1}{2^n}\\right) &= 7.9375\n## Solve for n\n1-\\frac{1}{2^n} &= 0.9921875\n\\frac{1}{2^n} &= 0.0078125\n\\frac{1}{2^n} &= \\frac{1}{128}\n2^n &= 128\nn &= 7\nANSWER: 7 \\text{ stages}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q9#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Use the sum to infinity\nThe ratio $r = \\frac12$ is between $-1$ and $1$, so the sum to infinity exists.\nS_\\infty &= \\frac{a}{1-r}\nS_\\infty &= \\frac{4}{1-\\frac{1}{2}}\n&= \\frac{4}{\\frac12}\n&= 8\nANSWER: 8 \\text{ units}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q9#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Complete the table\nEach stage changes only one co-ordinate. Stages 1, 3, 5, 7, 9 change $x$; stages 2, 4, 6, 8 change $y$. The distance halves each stage, and the direction goes right, up, left, down.\nChange in $x$: $+4,\\ 0,\\ -1,\\ 0,\\ +\\frac14,\\ 0,\\ -\\frac{1}{16},\\ 0,\\ +\\frac{1}{64}$.\nChange in $y$: $0,\\ +2,\\ 0,\\ -\\frac12,\\ 0,\\ +\\frac18,\\ 0,\\ -\\frac{1}{32},\\ 0$.\n## Spot the two geometric series\nThe non-zero $x$ changes are $4, -1, \\frac14, -\\frac1{16}, \\dots$. First term $4$, each term is $-\\frac14$ of the last.\nr_x &= -1 \\div 4\nThe non-zero $y$ changes are $2, -\\frac12, \\frac18, -\\frac1{32}, \\dots$. First term $2$, common ratio $-\\frac14$ again.\n## Final x co-ordinate: sum to infinity of the x changes\nS_\\infty &= \\frac{4}{1-\\left(-\\frac14\\right)}\n&= \\frac{4}{\\frac54}\n&= \\frac{16}{5}\n## Final y co-ordinate: sum to infinity of the y changes\nS_\\infty &= \\frac{2}{1-\\left(-\\frac14\\right)}\n&= \\frac{2}{\\frac54}\n&= \\frac{8}{5}\nANSWER: \\left(\\frac{16}{5},\\ \\frac{8}{5}\\right) = (3.2,\\ 1.6)"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q9#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Apply the rules to G4 to get G5\nA female has two children in the next generation: a female (upper) and a male (lower). A male has just one: a female, straight across.\n## Continue each entry in G4\nThe upper Female in G4 gives a Female above and a Male below.\nThe Male in G4 gives one Female straight across.\nThe lower Female in G4 gives a Female and a Male as well.\n## Read off G5\nFrom top to bottom, G5 is: Female, Male, Female, Female, Male (5 bees).\nANSWER: G_5 = \\text{Female, Male, Female, Female, Male}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q9#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Read G4 and G5 from the diagram\n$G_4 = 3$ (three bees) and $G_5 = 5$ (five bees).\n## Find G6\nG_6 &= G_5 + G_4\n&= 5 + 3\n&= 8\n## Find G7\nG_7 &= G_6 + G_5\n&= 8 + 5\n&= 13\nANSWER: G_6 = 8,\\ G_7 = 13"
+ },
+ {
+  "part": "maths-pp-2016-higher-p1-q9#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths2",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Expand (1 + √5)³\n(1+\\sqrt5)^3 &= 1 + 3\\sqrt5 + 3(\\sqrt5)^2 + (\\sqrt5)^3\n&= 1 + 3\\sqrt5 + 15 + 5\\sqrt5\n&= 16 + 8\\sqrt5\n## Expand (1 − √5)³\n(1-\\sqrt5)^3 &= 1 - 3\\sqrt5 + 3(\\sqrt5)^2 - (\\sqrt5)^3\n&= 1 - 3\\sqrt5 + 15 - 5\\sqrt5\n&= 16 - 8\\sqrt5\n## Subtract to get the numerator\n(1+\\sqrt5)^3 - (1-\\sqrt5)^3 &= (16 + 8\\sqrt5) - (16 - 8\\sqrt5)\n&= 16\\sqrt5\n## Substitute n = 3 and simplify\nG_3 &= \\frac{16\\sqrt5}{2^3\\sqrt5}\n&= \\frac{16\\sqrt5}{8\\sqrt5}\n&= 2\nANSWER: G_3 = 2"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of AC\nUse $m = \\frac{y_2 - y_1}{x_2 - x_1}$ with $A(6, -2)$ and $C(-3, 4)$.\n\\text{Slope } AC &= \\frac{4 - (-2)}{-3 - 6}\n&= \\frac{6}{-9}\n&= -\\frac{2}{3}\n## Find the perpendicular slope\nPerpendicular slopes multiply to $-1$, so turn the slope upside down and change its sign.\n\\text{Perpendicular slope} &= \\frac{3}{2}\n## Write the line through B(5, 3)\ny - 3 &= \\frac{3}{2}(x - 5)\n2(y - 3) &= 3(x - 5)\n2y - 6 &= 3x - 15\n3x - 2y &= 9\nANSWER: 3x - 2y = 9"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Plan: intersect two altitudes\nThe orthocentre is where the altitudes meet. The altitude from $B$ is the line from part (a): $3x - 2y = 9$.\nFind a second altitude, from $C$ perpendicular to $AB$.\n## Find the slope of AB\n\\text{Slope } AB &= \\frac{3 - (-2)}{5 - 6}\n&= \\frac{5}{-1}\n&= -5\n## Find the perpendicular slope\n\\text{Perpendicular slope} &= \\frac{1}{5}\n## Write the altitude from C(-3, 4)\ny - 4 &= \\frac{1}{5}(x + 3)\n5(y - 4) &= x + 3\n5y - 20 &= x + 3\nx - 5y &= -23\n## Solve the two altitudes together\n3x - 2y &= 9\nx &= 5y - 23\nSubstitute $x = 5y - 23$ into $3x - 2y = 9$.\n3(5y - 23) - 2y &= 9\n15y - 69 - 2y &= 9\n13y &= 78\ny &= 6\nx &= 5(6) - 23\nx &= 7\nANSWER: (7, 6)"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Use the point-slope formula with X(-1, 6)\ny - 6 &= \\frac{1}{7}(x + 1)\n7(y - 6) &= x + 1\n7y - 42 &= x + 1\n## Move everything to one side\n0 &= x - 7y + 1 + 42\nx - 7y + 43 &= 0\nANSWER: x - 7y + 43 = 0"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths8",
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## Set up the distance from C to the tangent\nThe centre is $C(-g, -f)$. The radius $5$ equals the perpendicular distance from $C$ to $l: 3x + 4y - 21 = 0$.\nUse $D = \\frac{|ax_1 + by_1 + c|}{\\sqrt{a^2 + b^2}}$ with $x_1 = -g$, $y_1 = -f$.\n5 &= \\frac{|3(-g) + 4(-f) - 21|}{\\sqrt{3^2 + 4^2}}\n5 &= \\frac{|-3g - 4f - 21|}{5}\n25 &= |-3g - 4f - 21|\n## Remove the modulus (two cases)\n-3g - 4f - 21 &= 25 \\quad \\text{or} \\quad -3g - 4f - 21 = -25\n3g + 4f &= -46 \\quad \\text{or} \\quad 3g + 4f = 4\n## Use the fact that C lies on XC\n$C(-g, -f)$ is on the line $x - 7y + 43 = 0$ from part (a).\n-g + 7f + 43 &= 0\ng &= 7f + 43\n## Solve for one circle using 3g + 4f = -46\nTake $3g + 4f = -46$ and substitute $g = 7f + 43$.\n3(7f + 43) + 4f &= -46\n21f + 129 + 4f &= -46\n25f &= -175\nf &= -7\ng &= 7(-7) + 43\ng &= -6\n## Write the equation of the circle\nThe centre is $(-g, -f) = (6, 7)$ and the radius is $5$.\n(x - 6)^2 + (y - 7)^2 &= 5^2\n(x - 6)^2 + (y - 7)^2 &= 25\nThe other case, $3g + 4f = 4$, gives $g = 8$, $f = -5$ and the circle $(x+8)^2 + (y-5)^2 = 25$.\nANSWER: (x - 6)^2 + (y - 7)^2 = 25"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 15,
+  "solution": "## Write the sum-to-product formulas\n\\cos P + \\cos Q &= 2\\cos\\frac{P + Q}{2}\\cos\\frac{P - Q}{2}\n\\sin P - \\sin Q &= 2\\cos\\frac{P + Q}{2}\\sin\\frac{P - Q}{2}\n## Apply them with P = 7A and Q = A\n\\frac{\\cos 7A + \\cos A}{\\sin 7A - \\sin A} &= \\frac{2\\cos\\frac{7A + A}{2}\\cos\\frac{7A - A}{2}}{2\\cos\\frac{7A + A}{2}\\sin\\frac{7A - A}{2}}\n&= \\frac{2\\cos 4A\\cos 3A}{2\\cos 4A\\sin 3A}\n## Cancel the common factor\nDivide top and bottom by $2\\cos 4A$.\n&= \\frac{\\cos 3A}{\\sin 3A}\n&= \\cot 3A\nANSWER: \\frac{\\cos 7A + \\cos A}{\\sin 7A - \\sin A} = \\cot 3A"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Use the half-angle formula for cos squared\nFrom $\\cos 2\\theta = 2\\cos^2\\theta - 1$ we get $\\cos^2\\theta = \\frac{1}{2}(1 + \\cos 2\\theta)$.\n\\cos^2\\theta &= \\frac{1}{2}(1 + \\cos 2\\theta)\n## Substitute cos 2θ = 1/9\n\\cos^2\\theta &= \\frac{1}{2}\\left(1 + \\frac{1}{9}\\right)\n&= \\frac{1}{2}\\left(\\frac{10}{9}\\right)\n&= \\frac{5}{9}\n## Take the square root\nTake both the positive and negative roots.\n\\cos\\theta &= \\pm\\sqrt{\\frac{5}{9}}\n\\cos\\theta &= \\pm\\frac{\\sqrt{5}}{3}\nANSWER: \\cos\\theta = \\pm\\frac{\\sqrt{5}}{3}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q4#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Find a right angle in each triangle\n$[BD] \\perp [AC]$, so both triangles have a right angle at $B$.\n|\\angle ABD| &= |\\angle CBD| = 90^\\circ\n## Use the angle in a semicircle\nThe angle in a semicircle is a right angle, so $\\angle ADC$ is $90^\\circ$.\n|\\angle ADB| + |\\angle BDC| &= 90^\\circ\n## Use the angle sum in triangle DBC\nAngles in triangle $DBC$ add to $180^\\circ$ and $\\angle DBC = 90^\\circ$.\n|\\angle BDC| + |\\angle BCD| &= 90^\\circ\n## Compare the two equations\nBoth sums equal $90^\\circ$ and both contain $|\\angle BDC|$.\n|\\angle ADB| + |\\angle BDC| &= |\\angle BDC| + |\\angle BCD|\nSubtract $|\\angle BDC|$ from both sides.\n|\\angle ADB| &= |\\angle BCD|\n## State the conclusion\nTwo angles of $ABD$ equal two angles of $DBC$ ($90^\\circ$ at $B$, and $\\angle ADB = \\angle BCD$), so the triangles are equiangular, hence similar.\nANSWER: \\triangle ABD \\text{ and } \\triangle DBC \\text{ are similar}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q4#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Match corresponding sides of the similar triangles\n$A$ matches $D$, $B$ matches $B$, $D$ matches $C$, so $[AB]$ matches $[DB]$ and $[BD]$ matches $[BC]$.\n\\frac{|AB|}{|DB|} &= \\frac{|BD|}{|BC|}\n## Substitute the given lengths\n\\frac{x}{y} &= \\frac{y}{1}\ny^2 &= x\n## Take the square root\n$y$ is a length, so it is positive.\ny &= \\sqrt{x}\nANSWER: y = \\sqrt{x}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 5,
+  "solution": "## Set up the lengths from part (a)(ii)\nIn part (a)(ii) $|AB| = x$, $|BC| = 1$ gives $|BD| = \\sqrt{x}$. Let $x = |TU|$ in cm.\n## Extend [TU] by 1 cm\nExtend $[TU]$ beyond $U$ to a point $P$ with $|UP| = 1$ cm. Then $|TP| = |TU| + 1$.\n## Draw the semicircle on [TP]\nConstruct the midpoint of $[TP]$ with the perpendicular bisector (arcs from $T$ and $P$). Draw the circle with $[TP]$ as diameter.\n## Draw the perpendicular at U\nConstruct the perpendicular to $[TP]$ at $U$ and mark where it meets the circle. This length is $\\sqrt{|TU|}$ cm, since $T, U, P$ play the roles of $A, B, C$.\nANSWER: \\text{Perpendicular at } U \\text{ to the circle has length } \\sqrt{|TU|} \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q5#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## List the ways exactly two of them hit\nWay 1 is given: John and David hit, Mike misses. Swap which one misses to get the other two-hit ways.\n## Add the way all three hit\nWinning needs at least two hits, so all three hitting is the fourth way. This gives four ways in total.\nANSWER: \\text{Ways: (\\checkmark \\checkmark \\times ), (\\checkmark \\times \\checkmark ), (\\times \\checkmark \\checkmark ), (\\checkmark \\checkmark \\checkmark )}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q5#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write the probability of a hit and a miss\nP(\\text{John hits}) &= \\frac{1}{5},\\ P(\\text{John misses}) = \\frac{4}{5}\nP(\\text{David hits}) &= \\frac{1}{6},\\ P(\\text{David misses}) = \\frac{5}{6}\nP(\\text{Mike hits}) &= \\frac{1}{4},\\ P(\\text{Mike misses}) = \\frac{3}{4}\n## Way 1: John and David hit, Mike misses\nP(\\text{Way 1}) &= \\frac{1}{5}\\times\\frac{1}{6}\\times\\frac{3}{4}\n&= \\frac{3}{120}\n## Way 2: John and Mike hit, David misses\nP(\\text{Way 2}) &= \\frac{1}{5}\\times\\frac{5}{6}\\times\\frac{1}{4}\n&= \\frac{5}{120}\n## Way 3: David and Mike hit, John misses\nP(\\text{Way 3}) &= \\frac{4}{5}\\times\\frac{1}{6}\\times\\frac{1}{4}\n&= \\frac{4}{120}\n## Way 4: all three hit\nP(\\text{Way 4}) &= \\frac{1}{5}\\times\\frac{1}{6}\\times\\frac{1}{4}\n&= \\frac{1}{120}\n## Add the four ways\nThe ways cannot happen together, so add their probabilities.\nP(\\text{win}) &= \\frac{3}{120}+\\frac{5}{120}+\\frac{4}{120}+\\frac{1}{120}\n&= \\frac{13}{120}\nANSWER: \\frac{13}{120}"
+ },
+ {
+  "part": "maths-pp-2016-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write P(A) and P(B) from the diagram\nP(A) &= x + 0.1\nP(B) &= 0.1 + 0.3 = 0.4\n## Use the rule for independent events\n$A$ and $B$ are independent when $P(A \\cap B) = P(A) \\times P(B)$.\n0.1 &= (x + 0.1) \\times 0.4\n## Solve for x\n0.1 &= 0.4x + 0.04\n0.06 &= 0.4x\nx &= \\frac{0.06}{0.4}\nx &= 0.15\nANSWER: P(A) = x + 0.1,\\quad x = 0.15"
+ }
+]

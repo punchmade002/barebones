@@ -1,0 +1,374 @@
+[
+ {
+  "part": "maths-pp-2024-higher-p1-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Set the two common differences equal\nIn an arithmetic sequence $T_2 - T_1 = T_3 - T_2$.\n(5p-3) - (2p+1) &= (6p+7) - (5p-3)\n5p - 3 - 2p - 1 &= 6p + 7 - 5p + 3\n3p - 4 &= p + 10\n## Solve for p\n2p - 4 &= 10\n2p &= 14\np &= 7\nANSWER: p = 7"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Relate G11 to G7\n$G_{11}$ is $G_7$ multiplied by $r$ four times.\nG_7 \\cdot r^4 &= G_{11}\n6r^4 &= \\frac{3}{8}\n## Solve for r\nr^4 &= \\frac{3}{8} \\div 6\n&= \\frac{3}{48}\n&= \\frac{1}{16}\nr &= \\pm\\frac{1}{2}\nANSWER: r = \\frac{1}{2} \\text{ or } r = -\\frac{1}{2}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q5#(c)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths21"
+  ],
+  "marks": 20,
+  "solution": "## (i) Differentiate F0 to get F1\nUse $\\frac{d}{dx}x^k = kx^{k-1}$.\nF_1(x) &= 2024x^{2023}\n## (i) Differentiate F1 to get F2\nF_2(x) &= 2024 \\times 2023\\, x^{2022}\n## (ii) Spot the pattern in the power\nEach derivative lowers the power of $x$ by 1.\n\\text{power in } F_n &= 2024 - n\n## (ii) Find when F_n becomes a constant\nAt $n = 2024$ the power is $0$, so $F_{2024}$ is a constant (it equals $2024!$ times $x^0$).\nThe derivative of a constant is $0$, so $F_{2025} = 0$.\nEvery earlier $F_n$ still contains a power of $x$ with a non-zero coefficient, so it is not $0$ for $x>0$.\nANSWER: n = 2025"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Use the factor theorem\nIf $x-4$ is a factor of $h(x)$ then $h(4)=0$.\nh(4) &= 0\n## Substitute x = 4 and solve for b\n4^2 + 4b - 12 &= 0\n16 + 4b - 12 &= 0\n4b + 4 &= 0\n4b &= -4\nb &= -1\nANSWER: b = -1"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q6#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 1.2\nf(1.2) &= e^{9(1.2)}\n&= e^{10.8}\n## Evaluate and write in the form a × 10^n\n&= 49020.8\\ldots\n&= 4.9 \\times 10^4\nANSWER: 4.9 \\times 10^4"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q6#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Set up the equation\n\\ln\\sqrt{x} &= 3.5\n## Remove the logarithm\n$\\ln A = k$ means $A = e^k$.\n\\sqrt{x} &= e^{3.5}\n## Square both sides\nx &= \\left(e^{3.5}\\right)^2\nx &= e^{7}\nANSWER: x = e^{7}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q6#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Substitute f(x) into g\n$g$ takes the square root and then the natural log, so replace $x$ in $g$ by $e^{9x}$.\ng(f(x)) &= \\ln\\sqrt{e^{9x}}\n## Write the square root as a power\n&= \\ln\\left(e^{9x}\\right)^{\\frac{1}{2}}\n&= \\ln e^{\\frac{9x}{2}}\n## Cancel the log with the exponential\n$\\ln e^{k} = k$.\n&= \\frac{9x}{2}\nANSWER: g(f(x)) = \\frac{9x}{2}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Work out the tax at 20%\n\\text{Tax at 20\\%} &= 0.2 \\times 40000\n&= 8000\n## Find the amount taxed at 40%\n\\text{Remainder} &= 54000 - 40000\n&= 14000\n## Work out the tax at 40%\n\\text{Tax at 40\\%} &= 0.4 \\times 14000\n&= 5600\n## Add to get the gross tax\n\\text{Gross tax} &= 8000 + 5600\n&= 13600\n## Subtract the tax credit\nThe tax credit reduces the tax Fiadh has to pay.\n\\text{Tax payable} &= 13600 - 1775\n&= 11825\n## Subtract the tax from her salary\n\\text{Net pay} &= 54000 - 11825\n&= 42175\nANSWER: \\text{€}42\\,175"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q7#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths21"
+  ],
+  "marks": 15,
+  "solution": "## Write the monthly rate as a decimal\nEach month the debt grows by a factor of $1 + 0.00279 = 1.00279$.\n0.279\\% &= 0.00279\n## Present value of repayment 1\nA payment made after $n$ months is divided by $1.00279$ once for each month.\nPV_1 &= \\frac{1647.75}{1.00279}\n## Present value of repayment 2\nPV_2 &= \\frac{1647.75}{(1.00279)^2}\n## Present value of repayment 3\nPV_3 &= \\frac{1647.75}{(1.00279)^3}\n## Set up the amount borrowed as a sum\nThe loan equals the sum of the present values of all $25 \\times 12 = 300$ repayments.\nP &= \\frac{1647.75}{1.00279} + \\frac{1647.75}{(1.00279)^2} + \\cdots + \\frac{1647.75}{(1.00279)^{300}}\n## Identify the geometric series\nThis is a geometric series with $n = 300$, first term $a$ and common ratio $r$.\na &= \\frac{1647.75}{1.00279}\nr &= \\frac{1}{1.00279}\n## Substitute into the geometric sum formula\n$S_n = \\dfrac{a(1 - r^n)}{1 - r}$\nP &= \\frac{\\frac{1647.75}{1.00279}\\left[1 - \\left(\\frac{1}{1.00279}\\right)^{300}\\right]}{1 - \\frac{1}{1.00279}}\n## Evaluate and round\nP &= 334\\,562.61\\ldots\nP &\\approx 334\\,563\nANSWER: \\text{€}334\\,563"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q7#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths12",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate F(t)\nUse $\\dfrac{d}{dt}\\left(e^{kt}\\right) = k e^{kt}$.\nF(t) &= 5000 e^{0.04t}\nF'(t) &= 5000(0.04)e^{0.04t}\n&= 200 e^{0.04t}\n## Substitute t = 3.5\nF'(3.5) &= 200 e^{0.04(3.5)}\n&= 200 e^{0.14}\n&= 230.05\\ldots\n## Round to the nearest euro\nF'(3.5) &\\approx 230\nANSWER: \\text{€}230 \\text{ per year}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q7#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 10,
+  "solution": "## Write the average value as an integral\nAverage value over $[0, 5]$ is $\\dfrac{1}{5-0}\\int_0^5 F(t)\\,dt$.\n\\text{Average} &= \\frac{1}{5}\\int_0^5 5000 e^{0.04t}\\,dt\n## Integrate\nUse $\\int e^{kt}\\,dt = \\dfrac{e^{kt}}{k}$.\n&= \\frac{1}{5}(5000)\\left[\\frac{e^{0.04t}}{0.04}\\right]_0^5\n&= 1000\\left[\\frac{e^{0.04t}}{0.04}\\right]_0^5\n## Substitute the limits\n&= 1000\\left(\\frac{e^{0.04(5)}}{0.04} - \\frac{e^{0.04(0)}}{0.04}\\right)\n&= 1000\\left(\\frac{e^{0.2}}{0.04} - \\frac{1}{0.04}\\right)\n&= 25000\\left(e^{0.2} - 1\\right)\n## Evaluate and round\n&= 5535.07\\ldots\n&\\approx 5535\nANSWER: \\text{€}5535"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q7#(c)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths17",
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Find the yearly growth factor\nOver one year, $t$ increases by 1, so the account is multiplied by $e^{0.04}$.\n\\frac{F(1)}{F(0)} &= \\frac{5000e^{0.04}}{5000e^{0}}\n&= e^{0.04}\n&= 1.04081\\ldots\n## Convert the increase to a percentage\n\\text{AER} &= (1.04081 - 1) \\times 100\n&\\approx 4.08\\%\nANSWER: 4.08\\%"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q8#(a)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute x = 0\nReplace $x$ by each value, work out the bracket, cube it, then add 70.\nT(0) &= \\left(\\frac{0-240}{60}\\right)^3 + 70\n&= (-4)^3 + 70\n&= -64 + 70 = 6\n## Substitute x = 120\nT(120) &= \\left(\\frac{120-240}{60}\\right)^3 + 70\n&= (-2)^3 + 70\n&= -8 + 70 = 62\n## Substitute x = 180\nT(180) &= \\left(\\frac{180-240}{60}\\right)^3 + 70\n&= (-1)^3 + 70\n&= -1 + 70 = 69\n## Substitute x = 240\nT(240) &= \\left(\\frac{240-240}{60}\\right)^3 + 70\n&= 0^3 + 70 = 70\n## Substitute x = 300\nT(300) &= \\left(\\frac{300-240}{60}\\right)^3 + 70\n&= 1^3 + 70 = 71\n## Complete the table\nThe table is $x$: 0, 60, 120, 180, 240, 300, 360 and $T(x)$: 6, 43, 62, 69, 70, 71, 78.\n## Plot the points and join them\nPlot the seven points $(x, T(x))$. Join them with a smooth curve, not straight line segments.\nANSWER: 6,\\ 43,\\ 62,\\ 69,\\ 70,\\ 71,\\ 78"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q8#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Use the range of cosine\n$\\cos A$ is always between $-1$ and $1$.\nS_{\\max} &= 21 + 19(1)\n&= 40\n## Find the minimum\nS_{\\min} &= 21 + 19(-1)\n&= 2\nANSWER: \\text{Maximum} = 40,\\ \\text{Minimum} = 2"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q8#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Set the two functions equal\nC(t) &= S(t)\nS(t) - 2.4 + 0.03t &= S(t)\n## Cancel S(t) from both sides\n-2.4 + 0.03t &= 0\n## Solve for t\n0.03t &= 2.4\nt &= \\frac{2.4}{0.03}\nt &= 80\nANSWER: t = 80 \\text{ days}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q8#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths14",
+   "maths25"
+  ],
+  "marks": 15,
+  "solution": "## Look at the two parts of C(t)\n$C(t) = S(t) - 2.4 + 0.03t$. $S(t)$ is a cosine wave, so it repeats up and down.\n$-2.4 + 0.03t$ is a straight line with a positive slope $0.03$, so it increases steadily over time.\n## Compare with the graphs\nGraph J is a straight line only, so it has no wave. Graph K is a wave with no overall rise. Graph L is a wave that rises over time.\nAdding the rising line to the wave makes the wave drift upwards, so the graph is L.\nANSWER: \\text{Graph L}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q8#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths25"
+  ],
+  "marks": 10,
+  "solution": "## Set C'(t) = 0\nUse radians on the calculator.\n0.03 - \\frac{38\\pi}{365}\\sin\\left(\\frac{2\\pi t}{365}\\right) &= 0\n## Isolate the sine term\n\\frac{38\\pi}{365}\\sin\\left(\\frac{2\\pi t}{365}\\right) &= 0.03\n\\sin\\left(\\frac{2\\pi t}{365}\\right) &= \\frac{0.03(365)}{38\\pi}\n\\sin\\left(\\frac{2\\pi t}{365}\\right) &= 0.09172\\ldots\n## Take the inverse sine\nThe first time $C'(t)=0$ uses the smallest positive angle.\n\\frac{2\\pi t}{365} &= \\sin^{-1}(0.09172\\ldots)\n\\frac{2\\pi t}{365} &= 0.09185\\ldots\n## Solve for t\nt &= \\frac{0.09185(365)}{2\\pi}\nt &= 5.336\\ldots\nt &\\approx 5\nANSWER: t = 5 \\text{ days}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Write down the formula\nC &= \\frac{\\pi k^2}{3}(3R - k)\n## Substitute R = 13 and k = 4\nC &= \\frac{\\pi (4)^2}{3}\\left(3(13) - 4\\right)\n## Simplify the brackets\nC &= \\frac{16\\pi}{3}(39 - 4)\nC &= \\frac{16\\pi}{3}(35)\n## Multiply\nC &= \\frac{560\\pi}{3}\nANSWER: C = \\frac{560\\pi}{3}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q9#(b)(i), (ii)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths4"
+  ],
+  "marks": 10,
+  "solution": "## Put R = 8 and k = y into the cap formula\nC &= \\frac{\\pi y^2}{3}\\left(3(8) - y\\right)\nC &= \\frac{\\pi y^2}{3}(24 - y)\n## Set the volume equal to 36πy\n\\frac{\\pi y^2}{3}(24 - y) &= 36\\pi y\n## Divide both sides by π\n\\frac{y^2}{3}(24 - y) &= 36y\n## Divide both sides by y\nThis is allowed because $y > 0$.\n\\frac{y}{3}(24 - y) &= 36\n## Multiply both sides by 3\ny(24 - y) &= 108\n## Multiply out the bracket\n24y - y^2 &= 108\n## Rearrange into a quadratic equal to zero\ny^2 - 24y + 108 &= 0\n## Factorise\nTwo numbers that multiply to $108$ and add to $-24$ are $-6$ and $-18$.\n(y - 6)(y - 18) &= 0\n## Solve for y\ny &= 6 \\text{ or } y = 18\n## Reject the value that is too large\nThe sphere has radius $8$, so the height must satisfy $y \\le 8$. Reject $y = 18$.\nANSWER: y = 6"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Convert litres to cm³\n$1$ litre $= 1000\\ \\text{cm}^3$.\n3 \\text{ litres} &= 3000 \\text{ cm}^3\n## Set up the equation\n\\frac{\\pi}{12}x^3 &= 3000\n## Multiply both sides by 12\n\\pi x^3 &= 36000\n## Divide both sides by π\nx^3 &= \\frac{36000}{\\pi}\n## Take the cube root\nx &= \\sqrt[3]{\\frac{36000}{\\pi}}\nx &= 22.545\\ldots\n## Round to 1 decimal place\nx &\\approx 22.5\nANSWER: x = 22.5 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Write down what is given\nThe volume increases at $450\\ \\text{cm}^3$ per second.\n\\frac{dV}{dt} &= 450\n## Differentiate V with respect to x\nV &= \\frac{\\pi}{12}x^3\n\\frac{dV}{dx} &= \\frac{3\\pi}{12}x^2\n&= \\frac{\\pi}{4}x^2\n## Turn it upside down\n\\frac{dx}{dV} &= \\frac{4}{\\pi x^2}\n## Use the chain rule\nWe want $\\dfrac{dx}{dt}$, so link it to the two rates above.\n\\frac{dx}{dt} &= \\frac{dx}{dV} \\times \\frac{dV}{dt}\n## Substitute the two rates\n\\frac{dx}{dt} &= \\frac{4}{\\pi x^2} \\times 450\n&= \\frac{1800}{\\pi x^2}\n## Substitute x = 20\n\\frac{dx}{dt} &= \\frac{1800}{\\pi (20)^2}\n&= \\frac{1800}{400\\pi}\n&= 1.432\\ldots\n## Round to 1 decimal place\n\\frac{dx}{dt} &\\approx 1.4\nANSWER: 1.4 \\text{ cm per second}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q9#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths6",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Divide both sides by πr\nS &= \\pi r\\sqrt{r^2 + h^2}\n\\frac{S}{\\pi r} &= \\sqrt{r^2 + h^2}\n## Square both sides\n\\frac{S^2}{\\pi^2 r^2} &= r^2 + h^2\n## Subtract r² from both sides\nh^2 &= \\frac{S^2}{\\pi^2 r^2} - r^2\n## Write r² over the common denominator\nh^2 &= \\frac{S^2}{\\pi^2 r^2} - \\frac{\\pi^2 r^4}{\\pi^2 r^2}\n## Combine into one fraction\nh^2 &= \\frac{S^2 - \\pi^2 r^4}{\\pi^2 r^2}\n## Take the square root\n$h$ is a length, so it is positive.\nh &= \\sqrt{\\frac{S^2 - \\pi^2 r^4}{\\pi^2 r^2}}\nh &= \\frac{\\sqrt{S^2 - \\pi^2 r^4}}{\\pi r}\n## Match the required form\nThis is $\\dfrac{\\sqrt{S^2 - ar^n}}{br}$ with $a = \\pi^2$, $n = 4$ and $b = \\pi$.\nANSWER: h = \\frac{\\sqrt{S^2 - \\pi^2 r^4}}{\\pi r}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Substitute x = 15 into W(x)\nW(15) &= 0.667(15) + 1.5(15)^2 - 0.025(15)^3\n## Work out each term\nW(15) &= 10.005 + 1.5(225) - 0.025(3375)\n&= 10.005 + 337.5 - 84.375\n&= 263.13\n## Round to the nearest mm\nThe question asks for the nearest mm.\nW(15) &\\approx 263\nANSWER: 263\\text{ mm}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths12"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term of W(x)\nUse the rule: the derivative of $ax^n$ is $anx^{n-1}$.\nW(x) &= 0.667x + 1.5x^2 - 0.025x^3\nW'(x) &= 0.667(1) + 1.5(2x) - 0.025(3x^2)\n&= 0.667 + 3x - 0.075x^2\nANSWER: W'(x) = 0.667 + 3x - 0.075x^2"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths4",
+   "maths3",
+   "maths11"
+  ],
+  "marks": 10,
+  "solution": "## Write the inequality for P'(x) > 24\n1.1 + 2.73x - 0.078x^2 &> 24\n## Rearrange so one side is zero\nSubtract 24 from both sides.\n-0.078x^2 + 2.73x - 22.9 &> 0\nMultiply both sides by $-1$ and reverse the inequality sign.\n0.078x^2 - 2.73x + 22.9 &< 0\n## Find the roots with the quadratic formula\nSolve $0.078x^2 - 2.73x + 22.9 = 0$ with $a = 0.078$, $b = -2.73$, $c = 22.9$.\nx &= \\frac{2.73 \\pm \\sqrt{(2.73)^2 - 4(0.078)(22.9)}}{2(0.078)}\n&= \\frac{2.73 \\pm \\sqrt{7.4529 - 7.1448}}{0.156}\n&= \\frac{2.73 \\pm \\sqrt{0.3081}}{0.156}\nx &\\approx 21.06 \\text{ or } x \\approx 13.94\n## Choose the values between the roots\nThe graph of $0.078x^2 - 2.73x + 22.9$ opens upwards, so it is below zero between the roots.\n13.94 &< x < 21.06\n## Round each value to the nearest whole number\n14 &\\le x \\le 21\nANSWER: 14 \\le x \\le 21"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(c)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths19"
+  ],
+  "marks": 5,
+  "solution": "## Area under s(x) in the first quadrant\ns &= \\int_0^1 (2x - x^2)\\,dx\n&= \\left[x^2 - \\frac{x^3}{3}\\right]_0^1\n&= \\left(1 - \\frac{1}{3}\\right) - (0)\n&= \\frac{2}{3}\n## Area under c(x) in the first quadrant\nc &= \\int_0^1 x^2\\,dx\n&= \\left[\\frac{x^3}{3}\\right]_0^1\n&= \\frac{1}{3} - 0\n&= \\frac{1}{3}\n## Subtract to get the area between the curves\nIn the first quadrant the logo lies between $s(x)$ (above) and $c(x)$ (below).\ns - c &= \\frac{2}{3} - \\frac{1}{3}\n&= \\frac{1}{3}\n## Double for the whole logo\nThe logo is symmetric about the $y$-axis, so double the first-quadrant area.\n\\text{Area} &= 2\\left(\\frac{1}{3}\\right)\n&= \\frac{2}{3}\nANSWER: \\frac{2}{3}\\text{ square units}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(c)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Use the reflection in the y-axis\nReflecting in the $y$-axis replaces $x$ with $-x$, so $k(x) = s(-x)$.\nk(x) &= s(-x)\n&= 2(-x) - (-x)^2\n## Simplify k(x)\nk(x) &= -2x - x^2\n&= -x^2 - 2x + 0\n## Compare with k(x) = -x^2 + bx + c\n-x^2 + bx + c &= -x^2 - 2x + 0\nThe coefficients of $x$ match, and the constant terms match.\nb &= -2 \\text{ and } c = 0\nANSWER: b = -2,\\; c = 0"
+ },
+ {
+  "part": "maths-pp-2024-higher-p1-q10#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths13",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Price for Option 1\nReduce by 10% means multiply by $0.9$. Then subtract $r$.\n\\text{Option 1} &= 0.9p - r\n## Price for Option 2\nSubtract $r$ first, then multiply by $0.9$.\n\\text{Option 2} &= 0.9(p - r)\n&= 0.9p - 0.9r\n## Compare the two prices\n\\text{Option 1} - \\text{Option 2} &= (0.9p - r) - (0.9p - 0.9r)\n&= -r + 0.9r\n&= -0.1r\nSince $r > 0$, the difference is negative, so Option 1 costs less for every $p$ and $r$. Tick Option 1.\nANSWER: \\text{Option 1 is cheaper: } 0.9p - r < 0.9p - 0.9r"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q1#(a)(i), (ii), (iii)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Find a from the mode\nThe mode is the most common value. In the row for 3, the leaf 4 appears twice already (34, 34), as does 57.\nFor 34 to be the mode it must appear more often than 57, so the leaf $a$ must also be 4.\na &= 4\n## Find b and c from the range\nThe smallest value is $20 + b$ (first row) and the largest is $60 + c$ (last row).\n(60 + c) - (20 + b) &= 49\n40 + c - b &= 49\nc - b &= 9\n$b$ and $c$ are single digits, so the difference 9 needs $c = 9$ and $b = 0$.\nb &= 0 \\text{ and } c = 9\n## Find d from the median\nThere are 22 values, so the median is the mean of the 11th and 12th values.\nThe first 8 values are in rows 2 and 3, then 40, 41, then $40 + d$ is the 11th. The 12th is 45.\n\\frac{(40 + d) + 45}{2} &= 43.5\n(40 + d) + 45 &= 87\n85 + d &= 87\nd &= 2\nANSWER: a = 4,\\; b = 0,\\; c = 9,\\; d = 2"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q1#(b), (c)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Compare the two tests\nEvery student swam further in the re-test than in the initial test, so everyone improved.\nThe improvements were not equal: 22 m rose by 3 m, but 61 m rose by 289 m.\nThe points curve upwards, not along a straight line, so the stronger swimmers improved by much more than the weaker ones.\n## Find r with the calculator\nEnter the initial test distances as $x$ and the re-test distances as $y$ in statistics mode, then read the correlation coefficient.\nr &= 0.91451\\ldots\nr &\\approx 0.9145\nANSWER: \\text{The better swimmers improved more;}\\; r = 0.9145"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set up the expected value\nExpected winnings = sum of (prize × probability). The game is fair, so the expected winnings equal the €10 cost.\n(0)(0.3) + (2)(0.4) + (x-10)(0.28) + (x)(0.02) &= 10\n## Expand the brackets\n0.8 + 0.28x - 2.8 + 0.02x &= 10\n## Collect and solve\n0.3x - 2 &= 10\n0.3x &= 12\nx &= 40\nANSWER: x = 40"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Use mutually exclusive events\nMutually exclusive events cannot happen together.\nP(A \\cap B) &= 0\n## Use the addition rule\nP(A \\cup B) &= P(A) + P(B) - P(A \\cap B)\n&= 0.1 + 0.4 - 0\n&= 0.5\nANSWER: P(A \\cap B) = 0,\\; P(A \\cup B) = 0.5"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q2#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Link the complement to the union\nTo make $(C \\cup D)'$ as large as possible, make $P(C \\cup D)$ as small as possible.\nP(C \\cup D) &= P(C) + P(D) - P(C \\cap D)\n&= 0.5 + 0.7 - P(C \\cap D)\n## Make the overlap as big as possible\n$P(C \\cap D)$ cannot be bigger than $P(C) = 0.5$. This happens when $C$ lies inside $D$.\nP(C \\cup D)_{\\min} &= 1.2 - 0.5\n&= 0.7\n## Take the complement\nP[(C \\cup D)^{\\prime}]_{\\max} &= 1 - 0.7\n&= 0.3\nANSWER: 0.3"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q2#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Use the meaning of independent\nIndependent events would mean that rain makes no difference to whether I wear a coat.\nIf it is raining I am more likely to wear a coat than if it is not, so the events are not independent.\nANSWER: \\text{Rain makes a coat more likely, so } P(F \\mid E) \\ne P(F)"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Write the area formula for a parallelogram\nArea $= ab\\sin C$, where $a$ and $b$ are adjacent sides and $C$ is the angle between them.\n## Substitute the sides and the angle between them\n\\text{Area} &= |AB|\\,|BC|\\sin|\\angle ABC|\n&= (10)(13)\\sin 110^\\circ\n## Calculate and round to the nearest cm²\n&= 130\\sin 110^\\circ\n&= 122.16\\ldots\n&= 122\\ \\text{cm}^2\nANSWER: 122\\ \\text{cm}^2"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the reference angle\n\\cos(2X) &= \\frac{\\sqrt{3}}{2}\n2X &= \\cos^{-1}\\frac{\\sqrt{3}}{2} = 30^\\circ\n## Find all values of 2X between 0° and 720°\n$\\cos$ is positive in the 1st and 4th quadrants. Since $0^\\circ \\le X \\le 360^\\circ$, we need $0^\\circ \\le 2X \\le 720^\\circ$, which is two full turns.\nFirst turn: $2X = 30^\\circ$ or $360^\\circ - 30^\\circ = 330^\\circ$.\nSecond turn: add $360^\\circ$ to each, giving $390^\\circ$ and $690^\\circ$.\n2X &= 30^\\circ,\\ 330^\\circ,\\ 390^\\circ,\\ 690^\\circ\n## Divide each value by 2\nX &= 15^\\circ,\\ 165^\\circ,\\ 195^\\circ,\\ 345^\\circ\nANSWER: X = 15^\\circ,\\ 165^\\circ,\\ 195^\\circ,\\ 345^\\circ"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q3#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Set up the sine rule\n$|MK|$ is opposite $\\angle KLM = 25^\\circ$, and $|ML|$ is opposite $\\theta = \\angle LKM$.\n\\frac{\\sin\\theta}{|ML|} &= \\frac{\\sin|\\angle KLM|}{|MK|}\n\\frac{\\sin\\theta}{45} &= \\frac{\\sin 25^\\circ}{15\\sqrt{3}}\n## Solve for sin θ\n\\sin\\theta &= \\frac{45\\sin 25^\\circ}{15\\sqrt{3}}\n&= \\frac{45(0.4226\\ldots)}{15\\sqrt{3}}\n&= 0.73196\\ldots\n## Find both angles between 0° and 180°\nSine is positive in the 1st and 2nd quadrants, so there are two angles.\n\\theta &= \\sin^{-1}(0.73196) = 47.05^\\circ\n\\theta &= 180^\\circ - 47.05^\\circ = 132.95^\\circ\n## Round to the nearest degree\n\\theta &= 47^\\circ \\ \\text{or}\\ 133^\\circ\nANSWER: \\theta = 47^\\circ \\ \\text{or} \\ 133^\\circ"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 15,
+  "solution": "## Recall what the centroid is\nThe centroid is the point where the three medians meet. A median joins a vertex to the midpoint of the opposite side, so two medians are enough.\n## Find the midpoint of PQ\nSet the compass to more than half of $|PQ|$. Draw an arc above and below $PQ$ from $P$, then the same arcs from $Q$.\nJoin the two points where the arcs cross. This line cuts $PQ$ at its midpoint $M_1$. (Or measure $|PQ|$ and mark half of it.)\n## Find the midpoint of QR\nRepeat the arcs from $Q$ and $R$ and join the crossing points. This cuts $QR$ at its midpoint $M_2$.\n## Draw two medians and mark the centroid\nDraw the line from $R$ to $M_1$ and the line from $P$ to $M_2$.\nThese medians cross at $G$, the centroid. A third median from $Q$ to the midpoint of $PR$ would pass through $G$ too.\nANSWER: \\text{Centroid } G = \\text{intersection of the medians}"
+ },
+ {
+  "part": "maths-pp-2024-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Add a construction line\nDraw a line through $B$ parallel to $DF$.\nLabel $X$ where it meets $AD$, and $Y$ where it meets $CF$.\n## Show the triangles XBA and YBC are congruent\n$|AB| = |BC|$ ... given.\n$|\\angle XAB| = |\\angle BCY|$ ... alternate angles ($AD \\parallel CF$, transversal $AC$).\n$|\\angle XBA| = |\\angle CBY|$ ... vertically opposite angles.\nSo $\\triangle XBA \\equiv \\triangle YBC$ ... ASA.\n## Deduce that XB equals BY\n$|BX| = |BY|$ ... corresponding sides of congruent triangles.\n## Use the parallelogram DEBX\n$DEBX$ has $DE \\parallel XB$ (since $XB \\parallel DF$) and $DX \\parallel EB$ (since $AD \\parallel BE$).\nBoth pairs of opposite sides are parallel, so $DEBX$ is a parallelogram.\n$|DE| = |BX|$ ... opposite sides of a parallelogram.\n## Use the parallelogram EBYF in the same way\nSimilarly, $EBYF$ is a parallelogram, so $|EF| = |BY|$.\n## Put the results together\n$|DE| = |BX| = |BY| = |EF|$.\nSo $|DE| = |EF|$.\nANSWER: |DE| = |EF|"
+ }
+]

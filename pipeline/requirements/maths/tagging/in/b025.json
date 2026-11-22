@@ -1,0 +1,431 @@
+[
+ {
+  "part": "maths-pp-2021-ordinary-p1-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Substitute $x = 0.67$\nf(0.67) &= 3(0.67)^2 - 6(0.67) + 7\n&= 3(0.4489) - 6(0.67) + 7\n&= 1.3467 - 4.02 + 7\n&= 4.3267\n&\\approx 4.33\nANSWER: f(0.67) = 4.33"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths4",
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## Set $f(x)$ equal to 4 and rearrange\n3x^2 - 6x + 7 &= 4\n3x^2 - 6x + 3 &= 0\n## Factorise and solve\n3(x^2 - 2x + 1) &= 0\n3(x - 1)(x - 1) &= 0\n(x - 1)^2 &= 0\nx - 1 &= 0\nx &= 1\nANSWER: x = 1"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q5#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11",
+   "maths12"
+  ],
+  "marks": 10,
+  "solution": "## Differentiate $f(x)$\nf(x) &= 3x^2 - 6x + 7\nf'(x) &= 6x - 6\n## Set the derivative equal to 0 to find the turning point\n6x - 6 &= 0\n6x &= 6\nx &= 1\n## Find the $y$-co-ordinate\nf(1) &= 3(1)^2 - 6(1) + 7\n&= 3 - 6 + 7\n&= 4\n## Check that it is a minimum\nf''(x) &= 6\n$f''(1) = 6 > 0$, so the turning point is a local minimum.\nANSWER: (1, 4)"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q6#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Set the two common differences equal\nIn an arithmetic sequence, $T_2 - T_1 = T_3 - T_2$.\nk - (-5) &= 1 - k\nk + 5 &= 1 - k\n## Solve for k\nk + k &= 1 - 5\n2k &= -4\nk &= -2\n## Show the common difference is 3\nd &= k - (-5)\n&= -2 + 5\n&= 3\nANSWER: k = -2, \\quad d = 3"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q6#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write down a and d\nThe first term is $a = -5$ and the common difference is $d = 3$.\n## Use the formula for the nth term\nT_n &= a + (n-1)d\nT_{10} &= -5 + (10-1)(3)\n&= -5 + (9)(3)\n&= -5 + 27\n&= 22\nANSWER: T_{10} = 22"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q6#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Set the nth term equal to 247\nT_n &= a + (n-1)d\n-5 + (n-1)(3) &= 247\n## Solve for n\n-5 + 3n - 3 &= 247\n3n - 8 &= 247\n3n &= 255\nn &= 85\nANSWER: n = 85 \\text{ (the 85th term)}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Write down a and d\nThe terms go 4, 9, 14, so $a = 4$ and $d = 9 - 4 = 5$.\n## Substitute into the sum formula\nS_n &= \\frac{n}{2}\\left[2a + (n-1)d\\right]\nS_{50} &= \\frac{50}{2}\\left[2(4) + (50-1)(5)\\right]\n&= 25\\left[8 + (49)(5)\\right]\n&= 25\\left[8 + 245\\right]\n&= 25(253)\n&= 6325\nANSWER: S_{50} = 6325"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Add the three bands\nThe top rate starts once the first three bands are used up.\n12\\,012 + 8472 + 49\\,560 &= 20\\,484 + 49\\,560\n&= 70\\,044\nANSWER: \\text{€}70\\,044"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## USC on the first €12 012 at 0.5%\n0.5\\% \\text{ of } 12\\,012 &= \\frac{0.5}{100} \\times 12\\,012\n&= 60.06\n## USC on the next €8472 at 2%\n2\\% \\text{ of } 8472 &= \\frac{2}{100} \\times 8472\n&= 169.44\n## USC on the next €49 560 at 4.5%\n4.5\\% \\text{ of } 49\\,560 &= \\frac{4.5}{100} \\times 49\\,560\n&= 2230.20\n## Add the three amounts\n60.06 + 169.44 &= 229.50\n229.50 + 2230.20 &= 2459.70\nANSWER: \\text{€}2459.70"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## USC on the first two bands\nJohn earns more than $12\\,012 + 8472$, so the first two bands are full. From part (b):\n0.5\\% \\text{ of } 12\\,012 &= 60.06\n2\\% \\text{ of } 8472 &= 169.44\n## Find the income in the 4.5% band\n54\\,800 - (12\\,012 + 8472) &= 54\\,800 - 20\\,484\n&= 34\\,316\n## USC on €34 316 at 4.5%\n4.5\\% \\text{ of } 34\\,316 &= \\frac{4.5}{100} \\times 34\\,316\n&= 1544.22\n## Add the three amounts\n60.06 + 169.44 + 1544.22 &= 229.50 + 1544.22\n&= 1773.72\nANSWER: \\text{€}1773.72"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q7#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Subtract the USC on the first two bands\nMary pays more than $60.06 + 169.44$, so she is in the 4.5% band.\n1602.72 - (60.06 + 169.44) &= 1602.72 - 229.50\n&= 1373.22\n## Find the income taxed at 4.5%\nLet $x$ be the income in the 4.5% band.\n0.045x &= 1373.22\nx &= \\frac{1373.22}{0.045}\nx &= 30\\,516\n## Add the income in the lower bands\n\\text{Income} &= 12\\,012 + 8472 + 30\\,516\n&= 20\\,484 + 30\\,516\n&= 51\\,000\nANSWER: \\text{€}51\\,000"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q7#(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13",
+   "maths6"
+  ],
+  "marks": 15,
+  "solution": "## Find the USC paid at the top rate\nPatrick earns more than €70 044, so he pays the full USC from the first three bands: €2459.70 (part (b)).\n3496.18 - 2459.70 &= 1036.48\n## Find the income taxed at the top rate\n83\\,000 - 70\\,044 &= 12\\,956\n## Divide to find the rate\n\\text{Rate} &= \\frac{1036.48}{12\\,956} \\times 100\n&= 8\n&= 8\\%\nANSWER: 8\\%"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths2"
+  ],
+  "marks": 5,
+  "solution": "## Read the dimensions from the diagram\nA square of side $x$ is cut from each corner, so $x$ is removed from both ends of each 10-unit side.\nl &= 10 - x - x\n&= 10 - 2x\nb &= 10 - 2x\nThe height is the folded-up side of a cut-out square.\nh &= x\nANSWER: l = 10 - 2x, \\quad b = 10 - 2x, \\quad h = x"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q8#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths2"
+  ],
+  "marks": 10,
+  "solution": "## Write the volume as length times breadth times height\nV &= l \\times b \\times h\nV &= (10-2x)(10-2x)(x)\n## Multiply out the first two brackets\n(10-2x)(10-2x) &= 100 - 20x - 20x + 4x^2\n&= 100 - 40x + 4x^2\n## Multiply by x\nV &= x(100 - 40x + 4x^2)\n&= 100x - 40x^2 + 4x^3\n&= 4x^3 - 40x^2 + 100x\nANSWER: V(x) = 4x^3 - 40x^2 + 100x"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q8#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Test the breadth when the height is 6\nThe height is $h = x$, so a height of 6 means $x = 6$. The breadth $10 - 2x$ must be positive.\nb &= 10 - 2(6)\n&= 10 - 12\n&= -2\nA breadth of $-2$ is impossible. Two squares of side 6 would need 12 units, but the sheet is only 10 wide.\nANSWER: \\text{Breadth } = -2 < 0, \\text{ so the box is impossible}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q8#(d)(e)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 20,
+  "solution": "## Find V(0)\nV(0) &= 4(0)^3 - 40(0)^2 + 100(0)\n&= 0\n## Find V(1)\nV(1) &= 4(1)^3 - 40(1)^2 + 100(1)\n&= 4 - 40 + 100\n&= 64\n## Find V(1.5)\nV(1.5) &= 4(1.5)^3 - 40(1.5)^2 + 100(1.5)\n&= 13.5 - 90 + 150\n&= 73.5\n## Find V(2)\nV(2) &= 4(2)^3 - 40(2)^2 + 100(2)\n&= 32 - 160 + 200\n&= 72\n## Find V(2.5)\nV(2.5) &= 4(2.5)^3 - 40(2.5)^2 + 100(2.5)\n&= 62.5 - 250 + 250\n&= 62.5\n## Find V(3)\nV(3) &= 4(3)^3 - 40(3)^2 + 100(3)\n&= 108 - 360 + 300\n&= 48\n## Find V(3.5)\nV(3.5) &= 4(3.5)^3 - 40(3.5)^2 + 100(3.5)\n&= 171.5 - 490 + 350\n&= 31.5\n## Find V(4)\nV(4) &= 4(4)^3 - 40(4)^2 + 100(4)\n&= 256 - 640 + 400\n&= 16\n## Find V(5)\nV(5) &= 4(5)^3 - 40(5)^2 + 100(5)\n&= 500 - 1000 + 500\n&= 0\n## State the completed table\n$V(x)$ for $x = 0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5$ is $0,\\ 40.5,\\ 64,\\ 73.5,\\ 72,\\ 62.5,\\ 48,\\ 31.5,\\ 16,\\ 4.5,\\ 0$.\nThe values $V(0.5) = 40.5$ and $V(4.5) = 4.5$ were given in the table.\n## Plot the points and join them with a smooth curve\nPlot each pair $(x, V(x))$ from the table, then draw one smooth curve through all 11 points from $(0, 0)$ to $(5, 0)$.\nANSWER: \\text{Table completed and curve drawn (maximum near } (1.7, 74)\\text{)}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q8#(f)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 10,
+  "solution": "## (i) Find the maximum volume\nDraw a horizontal line level with the highest point of the curve and read across to the V axis.\nV_{\\max} &\\approx 74\n## (ii) Find x when the volume is 30\nDraw a horizontal line at $V = 30$. Where it crosses the curve, drop vertical lines down to the x axis.\nx &\\approx 0.35 \\text{ and } x \\approx 3.55\n## (iii) Find the volume when x = 2.8\nDraw a vertical line up from $x = 2.8$ to the curve, then across to the V axis.\nV(2.8) &\\approx 54\nCheck: $V(2.8) = 4(2.8)^3 - 40(2.8)^2 + 100(2.8)$.\nV(2.8) &= 87.808 - 313.6 + 280\n&= 54.208\n&\\approx 54\nANSWER: \\text{(i) } 74 \\quad \\text{(ii) } x = 0.35 \\text{ and } x = 3.55 \\quad \\text{(iii) } 54"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Spot how patterns 1, 2 and 3 grow\nPattern $n$ has one row of $n$ dots above $n$ rows of $n$ crosses.\nPattern 3 has 3 dots and a 3 by 3 block of crosses.\n## Draw pattern 4\nDraw 4 dots in a row, with a 4 by 4 block of crosses below.\n\\text{Crosses} &= 4 \\times 4\n&= 16\nANSWER: 4 \\text{ dots and } 16 \\text{ crosses}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Write down the number of dots in each pattern\nDots: 1, 2, 3, ... This is arithmetic with $a = 1$ and $d = 1$.\n## Use the formula for the nth term\nT_n &= a + (n-1)d\nT_n &= 1 + (n-1)(1)\n&= 1 + n - 1\n&= n\nANSWER: T_n = n"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Use the sum formula with a = 1, d = 1 and n = 20\nS_n &= \\frac{n}{2}\\left[2a + (n-1)d\\right]\nS_{20} &= \\frac{20}{2}\\left[2(1) + (20-1)(1)\\right]\n&= 10\\left[2 + 19\\right]\n&= 10(21)\n&= 210\nANSWER: S_{20} = 210"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 10,
+  "solution": "## Count the crosses in each pattern\nPattern $n$ has $n$ rows of $n$ crosses.\n\\text{Pattern 3: } 3 \\times 3 &= 9\n\\text{Pattern 4: } 4 \\times 4 &= 16\n\\text{Pattern 5: } 5 \\times 5 &= 25\n\\text{Pattern 6: } 6 \\times 6 &= 36\nThe completed table reads 1, 4, 9, 16, 25, 36.\n## Write the formula\n\\text{Crosses} &= n \\times n\n&= n^2\nANSWER: n^2"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(a)(v)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 12 into n squared\n12^2 &= 12 \\times 12\n&= 144\nANSWER: 144"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(a)(vi)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Find the number of dots and crosses in pattern 10\n\\text{Dots} &= 10\n\\text{Crosses} &= 10^2\n&= 100\n## Add them\n\\text{Total} &= 10 + 100\n&= 110\nANSWER: 110"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21"
+  ],
+  "marks": 5,
+  "solution": "## Substitute n = 1\nT_1 &= \\frac{1^2}{2} + b(1) + c\n&= \\frac{1}{2} + b + c\n## Substitute n = 2\nT_2 &= \\frac{2^2}{2} + b(2) + c\n&= \\frac{4}{2} + 2b + c\n&= 2 + 2b + c\nANSWER: T_1 = \\frac{1}{2} + b + c, \\quad T_2 = 2 + 2b + c"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q9#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Write an equation from each pattern\nPattern 1 has 1 cross, so $T_1 = 1$. Pattern 2 has 3 crosses, so $T_2 = 3$.\n\\frac{1}{2} + b + c &= 1\nb + c &= \\frac{1}{2}\n2 + 2b + c &= 3\n2b + c &= 1\n## Subtract the equations to find b\n(2b + c) - (b + c) &= 1 - \\frac{1}{2}\nb &= \\frac{1}{2}\n## Substitute b to find c\n\\frac{1}{2} + c &= \\frac{1}{2}\nc &= 0\nANSWER: b = \\frac{1}{2}, \\quad c = 0"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q10#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Convert the volume to litres\n\\text{Litres} &= 1\\,000\\,000 \\times 1000\n&= 10^9\n## Divide by the flow rate to find the time in seconds\n\\text{Time} &= \\frac{10^9}{250\\,000}\n&= 4000 \\text{ seconds}\n## Convert to minutes\n\\text{Time} &= \\frac{4000}{60}\n&\\approx 66.67 \\text{ minutes}\n&\\approx 67 \\text{ minutes}\nANSWER: 67 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q10#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Increase the flow by 10%\n250\\,000 \\times 1.1 &= 275\\,000 \\text{ litres per second}\n## Convert to cubic metres per second\n275\\,000 \\div 1000 &= 275 \\text{ m}^3\\text{ per second}\n## Multiply by the seconds in 24 hours\n\\text{Volume} &= 275 \\times 60 \\times 60 \\times 24\n&= 275 \\times 86\\,400\n&= 23\\,760\\,000\n## Write in the form a times 10 to the n\n&= 2.376 \\times 10^7\n&\\approx 2.38 \\times 10^7\nANSWER: 2.38 \\times 10^7 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q10#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find the distance of one circuit\nC &= 2\\pi r\n&= 2\\pi(0.5)\n&= \\pi \\text{ km}\n## Find the distance of 3 circuits\nD &= 3\\pi\n&\\approx 9.42 \\text{ km}\n## Divide by the speed to find the time\nT &= \\frac{D}{S}\nT &= \\frac{3\\pi}{6}\n&= \\frac{\\pi}{2} \\text{ hours}\n&\\approx 1.5708 \\text{ hours}\n## Convert to minutes\n\\text{Time} &= \\frac{\\pi}{2} \\times 60\n&= 30\\pi\n&\\approx 94.25 \\text{ minutes}\n&\\approx 94 \\text{ minutes}\nANSWER: 94 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q10#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths21",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Find her distance on day 5\nEach day she walks 1.15 times the day before. Day 5 is four increases after day 1.\n\\text{Distance} &= 3(1.15)^4\n&\\approx 5.2470 \\text{ km}\n## Divide by her speed to find the time\nT &= \\frac{D}{S}\nT &= \\frac{3(1.15)^4}{4}\n&\\approx 1.3118 \\text{ hours}\n## Convert to minutes\n\\text{Time} &= 1.3118 \\times 60\n&\\approx 78.7 \\text{ minutes}\n&\\approx 79 \\text{ minutes}\nANSWER: 79 \\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p1-q10#(b)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths6",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find their combined speed\nThey walk in opposite directions, so together they cover one full circuit before meeting again.\n\\text{Combined speed} &= 6 + 4\n&= 10 \\text{ km/h}\n## Find the time until they meet\nT &= \\frac{D}{S}\nT &= \\frac{\\pi}{10}\n&\\approx 0.314 \\text{ hours}\n## Find how far John walks in that time\nD &= 6 \\times \\frac{\\pi}{10}\n&= \\frac{3\\pi}{5} \\text{ km}\n&\\approx 1.885 \\text{ km}\n## Convert to metres\nD &= 1.885 \\times 1000\n&= 1885 \\text{ m}\nANSWER: 1885 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q1#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Count the outcomes of each spinner\nThe hand/foot spinner has 4 outcomes and the colour spinner has 4 outcomes.\n## Multiply to get the total\n\\text{Outcomes} &= 4 \\times 4\n&= 16\nANSWER: 16"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q1#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the outcomes with left foot\nLeft foot goes with each of the 4 colours, so 4 outcomes out of 16.\n## Write the probability\nP(\\text{left foot}) &= \\frac{4}{16}\n&= \\frac{1}{4}\nANSWER: \\frac{1}{4}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find each probability from the colour spinner\nP(\\text{red}) &= \\frac{1}{4}\nP(\\text{yellow}) &= \\frac{1}{4}\n## Add, since red and yellow cannot both happen\nP(\\text{red or yellow}) &= \\frac{1}{4} + \\frac{1}{4}\n&= \\frac{2}{4}\n&= \\frac{1}{2}\nANSWER: \\frac{1}{2}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q1#(c)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Find each probability\nP(\\text{right hand}) &= \\frac{1}{4}\nP(\\text{blue}) &= \\frac{1}{4}\n## Multiply, since \"and\" with separate spinners means multiply\nP(\\text{right hand and blue}) &= \\frac{1}{4} \\times \\frac{1}{4}\n&= \\frac{1}{16}\nANSWER: \\frac{1}{16}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q1#(c)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Use the rule for \"or\"\nP(\\text{RH or blue}) &= P(\\text{RH}) + P(\\text{blue}) - P(\\text{RH and blue})\nWe subtract the overlap, because right hand and blue is counted in both.\n## Substitute and work out\nP(\\text{RH or blue}) &= \\frac{1}{4} + \\frac{1}{4} - \\frac{1}{16}\n&= \\frac{4}{16} + \\frac{4}{16} - \\frac{1}{16}\n&= \\frac{7}{16}\nANSWER: \\frac{7}{16}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q2#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Subtract from 1\nThe probabilities of success and failure add to 1.\nP(\\text{not knock}) &= 1 - 0.34\n&= 0.66\nANSWER: 0.66"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q2#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## List the three attempts\nFirst time on the third attempt means fail, fail, then success.\n## Multiply the probabilities\nP &= 0.66 \\times 0.66 \\times 0.34\n&= 0.4356 \\times 0.34\n&= 0.148104\n&\\approx 0.148\nANSWER: 0.148"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find |AC| using Pythagoras in triangle ABC\nThe angle at $B$ is $90^\\circ$ because $ABCF$ is a square.\n|AC|^2 &= 2^2 + 2^2\n&= 4 + 4\n&= 8\n|AC| &= \\sqrt{8}\n&= 2\\sqrt{2}\n## Find the area of the large square ACDE\n\\text{Square} &= |AC|^2\n&= 8\n## Find the area of triangle ABC\nTriangle $ABC$ is half of the square $ABCF$.\n\\text{Triangle} &= \\frac{1}{2}(2 \\times 2)\n&= 2\n## Add the two areas\n\\text{Area} &= 8 + 2\n&= 10 \\text{ cm}^2\n## Add the five outer sides for the perimeter\n$AB = BC = 2$ and $CD = DE = EA = \\sqrt{8}$. The side $[AC]$ is inside the figure.\n\\text{Perimeter} &= 2 + 2 + 3\\sqrt{8}\n&= 4 + 3(2\\sqrt{2})\n&= 4 + 6\\sqrt{2}\n&\\approx 12.49 \\text{ cm}\nANSWER: \\text{Area} = 10\\text{ cm}^2,\\ \\text{Perimeter} \\approx 12.49\\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope from the two points\nm &= \\frac{y_2 - y_1}{x_2 - x_1}\n&= \\frac{-2 - 2}{0 - (-1)}\n&= \\frac{-4}{1}\n&= -4\n## Use the point A(-1, 2) in the line formula\ny - 2 &= -4(x - (-1))\ny - 2 &= -4(x + 1)\ny - 2 &= -4x - 4\ny &= -4x - 4 + 2\ny &= -4x - 2\nANSWER: y = -4x - 2"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q3#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 10,
+  "solution": "## Find the slope of l\n3x - 4y &= 5\n-4y &= -3x + 5\ny &= \\frac{3}{4}x - \\frac{5}{4}\nThe slope of $l$ is the coefficient of $x$, which is $\\frac{3}{4}$.\n## Turn it upside down and change the sign for the perpendicular slope\nm_k &= -\\frac{1}{3/4}\n&= -\\frac{4}{3}\n## Use the point P(6, -3) in the line formula\ny - (-3) &= -\\frac{4}{3}(x - 6)\n3(y + 3) &= -4(x - 6)\n3y + 9 &= -4x + 24\n## Rearrange into the form ax + by + c = 0\n4x + 3y + 9 &= 24\n4x + 3y - 15 &= 0\nANSWER: 4x + 3y - 15 = 0"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q3#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9",
+   "maths5"
+  ],
+  "marks": 10,
+  "solution": "## Multiply h by -4 so the y terms cancel\n2x - y &= 10\n-4(2x - y) &= -4(10)\n-8x + 4y &= -40\n## Add this to l\n3x - 4y &= 5\n(3x - 8x) + (-4y + 4y) &= 5 - 40\n-5x &= -35\nx &= 7\n## Substitute x = 7 into -8x + 4y = -40\n-8(7) + 4y &= -40\n-56 + 4y &= -40\n4y &= -40 + 56\n4y &= 16\ny &= 4\nANSWER: (7, 4)"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q4#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Read each point off the grid\nGo across to the $x$ value first, then up or down to the $y$ value.\n$A$ is at $x = 6$, $y = 2$. $B$ is at $x = -2$, $y = -4$.\nANSWER: A = (6, 2),\\ B = (-2, -4)"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q4#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the midpoint formula\nM &= \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)\nM &= \\left(\\frac{6 + (-2)}{2}, \\frac{2 + (-4)}{2}\\right)\n&= \\left(\\frac{4}{2}, \\frac{-2}{2}\\right)\n&= (2, -1)\nANSWER: (2, -1)"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q4#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Mark the centre\nThe centre of a circle with diameter $[AB]$ is the midpoint of $[AB]$, which is $C(2, -1)$.\n## Draw the circle with a compass\nPut the compass point on $C(2, -1)$ and open it until the pencil is on $A$.\nTurn the compass in a full circle. It also passes through $B$, since $|CB| = |CA|$.\nANSWER: \\text{Circle with centre } (2, -1) \\text{ through } A \\text{ and } B"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q4#(a)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius as the distance from C to A\nr &= \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\nr &= \\sqrt{(6 - 2)^2 + (2 - (-1))^2}\n&= \\sqrt{4^2 + 3^2}\n&= \\sqrt{16 + 9}\n&= \\sqrt{25}\n&= 5\n## Write the equation using centre (2, -1) and radius 5\n(x - h)^2 + (y - k)^2 &= r^2\n(x - 2)^2 + (y - (-1))^2 &= 5^2\n(x - 2)^2 + (y + 1)^2 &= 25\nANSWER: r = 5,\\ (x - 2)^2 + (y + 1)^2 = 25"
+ },
+ {
+  "part": "maths-pp-2021-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Substitute P(2, k) into the circle equation\n(x - 2)^2 + (y + 1)^2 &= 25\n(2 - 2)^2 + (k + 1)^2 &= 25\n0 + (k + 1)^2 &= 25\nk^2 + 2k + 1 &= 25\n## Solve the quadratic\nk^2 + 2k - 24 &= 0\n(k + 6)(k - 4) &= 0\nk = -6 \\ \\text{or} \\ k &= 4\n## Choose the value in the first quadrant\n$P$ is in the first quadrant, so $k > 0$ and $k = -6$ is rejected.\nk &= 4\n## Plot P(2, 4)\nGo to $x = 2$ and up to $y = 4$. This is the top of the circle, directly above $C$.\nANSWER: k = 4"
+ }
+]

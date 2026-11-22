@@ -1,0 +1,416 @@
+[
+ {
+  "part": "maths-pp-2016-ordinary-p1-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Increase by 2% in Year 1\nIncreasing by 2% means multiplying by $1.02$.\n8000 \\times 1.02 &= 8160\n## Increase by 3% in Year 2\n8160 \\times 1.03 &= 8404.8\n## Increase by 5% in Year 3\n8404.8 \\times 1.05 &= 8825.04\nANSWER: \\text{€}8825.04"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q7#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the compound interest formula\nCompound interest at 3.7% for 3 years multiplies by $1.037$ three times.\nF &= 8000(1.037)^3\n## Find the value after each year\n8000 \\times 1.037 &= 8296\n8296 \\times 1.037 &= 8602.952\n8602.952 \\times 1.037 &= 8921.26\nANSWER: \\text{€}8921.26"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Give one issue other than the interest rate\nOption 1 lets Paul take money out at the end of Year 1 or Year 2 without penalty, so it is more flexible.\nOption 2 locks the money in for the full 3 years.\nANSWER: \\text{Option 1 allows early access to the money}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q7#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Write the compound interest equation\nLet $x$ be the annual rate as a percentage.\n8000\\left(1 + \\frac{x}{100}\\right)^3 &= 9000\n## Divide both sides by 8000\n\\left(1 + \\frac{x}{100}\\right)^3 &= \\frac{9}{8}\n## Take the cube root of both sides\n1 + \\frac{x}{100} &= \\sqrt[3]{\\frac{9}{8}}\n1 + \\frac{x}{100} &= 1.04\n## Solve for x\n\\frac{x}{100} &= 0.04\nx &= 4\nANSWER: 4\\%"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q7#(e)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Substitute t = 12 into the formula\nOne year is $12$ months.\nv &= 8000 + 36(12) - 1.2(12)^2\n## Evaluate each term\n&= 8000 + 432 - 1.2(144)\n&= 8000 + 432 - 172.8\n&= 8259.2\nANSWER: \\text{€}8259.20"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q7#(e)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths13"
+  ],
+  "marks": 10,
+  "solution": "## Find the interest earned\n8259.20 - 8000 &= 259.20\n## Write the interest as a percentage of the amount invested\nr &= \\frac{259.20}{8000} \\times 100\n&= 3.24\nANSWER: r = 3.24\\%"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Write the perimeter of the rectangle\nA rectangle has two lengths $x$ and two widths $y$, and the fencing is $21$ m.\n2x + 2y &= 21\n## Divide both sides by 2\nx + y &= 10.5\n## Subtract x from both sides\ny &= 10.5 - x\nANSWER: y = 10.5 - x"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find y using y = 10.5 − x\ny &= 10.5 - 0 = 10.5\ny &= 10.5 - 1 = 9.5\ny &= 10.5 - 2 = 8.5\ny &= 10.5 - 3 = 7.5\ny &= 10.5 - 4 = 6.5\ny &= 10.5 - 5 = 5.5\ny &= 10.5 - 6 = 4.5\ny &= 10.5 - 7 = 3.5\ny &= 10.5 - 8 = 2.5\ny &= 10.5 - 9 = 1.5\ny &= 10.5 - 10 = 0.5\n## Find A using A = x × y\nA &= 0 \\times 10.5 = 0\nA &= 1 \\times 9.5 = 9.5\nA &= 2 \\times 8.5 = 17\nA &= 3 \\times 7.5 = 22.5\nA &= 4 \\times 6.5 = 26\nA &= 5 \\times 5.5 = 27.5\nA &= 6 \\times 4.5 = 27\nA &= 7 \\times 3.5 = 24.5\nA &= 8 \\times 2.5 = 20\nA &= 9 \\times 1.5 = 13.5\nA &= 10 \\times 0.5 = 5\nANSWER: \\text{y: } 10.5,\\,9.5,\\,8.5,\\,7.5,\\,6.5,\\,5.5,\\,4.5,\\,3.5,\\,2.5,\\,1.5,\\,0.5 \\quad \\text{A: } 0,\\,9.5,\\,17,\\,22.5,\\,26,\\,27.5,\\,27,\\,24.5,\\,20,\\,13.5,\\,5"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Plot the eleven points (x, A)\nUse the pairs from the table: (0, 0), (1, 9.5), (2, 17), (3, 22.5), (4, 26), (5, 27.5), (6, 27), (7, 24.5), (8, 20), (9, 13.5), (10, 5).\n## Join the points with a smooth curve\nThe graph of $A$ is a smooth curve that rises to a maximum near $x = 5$ and then falls.\nANSWER: \\text{Smooth curve through the eleven plotted points}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Read the maximum from the graph\nThe highest point of the curve is between $x = 5$ and $x = 5.5$.\nThere the area is about $27.5$ to $28\\ \\text{m}^2$.\nThe length is about $5$ m, so the width is $y = 10.5 - 5 = 5.5$ m.\nANSWER: A \\approx 27.5\\ \\text{m}^2,\\ \\text{length} \\approx 5\\ \\text{m},\\ \\text{width} \\approx 5.5\\ \\text{m}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Write the area formula\nA &= xy\n## Substitute y = 10.5 − x\nA &= x(10.5 - x)\n## Multiply out the bracket\nA &= 10.5x - x^2\nANSWER: A = 10.5x - x^2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths12",
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Differentiate each term with respect to x\nA &= 10.5x - x^2\n\\frac{dA}{dx} &= 10.5 - 2x\nANSWER: \\frac{dA}{dx} = 10.5 - 2x"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(d)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Set the derivative equal to zero\nThe maximum occurs where the slope is zero.\n10.5 - 2x &= 0\n## Solve for x\n2x &= 10.5\nx &= 5.25\nANSWER: x = 5.25\\ \\text{m}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q8#(d)(iv)",
+  "level": "ordinary",
+  "chapters": [
+   "maths11"
+  ],
+  "marks": 5,
+  "solution": "## Find the width when x = 5.25\ny &= 10.5 - 5.25\n&= 5.25\n## Find the maximum area\nA &= xy\n&= 5.25 \\times 5.25\n&= 27.5625\n&\\approx 27.56\nANSWER: 27.56\\ \\text{m}^2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q9#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Company A: substitute h = 0, 1, ..., 5 into A(h) = 30 + 9.5h\nA(0) &= 30 + 9.5(0) = 30\nA(1) &= 30 + 9.5(1) = 39.5\nA(2) &= 30 + 9.5(2) = 49\nA(3) &= 30 + 9.5(3) = 58.5\nA(4) &= 30 + 9.5(4) = 68\nA(5) &= 30 + 9.5(5) = 77.5\n## Company B: substitute h = 0, 1, ..., 5 into B(h) = 10(1.74)^h, rounding to the nearest cent\nB(0) &= 10(1.74)^{0} = 10\nB(1) &= 10(1.74)^{1} = 17.4\nB(2) &= 10(1.74)^{2} \\approx 30.28\nB(3) &= 10(1.74)^{3} \\approx 52.68\nB(4) &= 10(1.74)^{4} \\approx 91.66\nB(5) &= 10(1.74)^{5} \\approx 159.49\nANSWER: \\text{A: } 30,\\,39.5,\\,49,\\,58.5,\\,68,\\,77.5 \\quad \\text{B: } 10,\\,17.4,\\,30.28,\\,52.68,\\,91.66,\\,159.49"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q9#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 15,
+  "solution": "## Plot the six points for Company A\nThe points are (0, 30), (1, 39.5), (2, 49), (3, 58.5), (4, 68), (5, 77.5).\nThey lie on a straight line, so join them with a ruler and label it A.\n## Plot the six points for Company B\nThe points are (0, 10), (1, 17.4), (2, 30.28), (3, 52.68), (4, 91.66), (5, 159.49).\nJoin them with a smooth curve and label it B.\nANSWER: \\text{A is a straight line, B is a rising curve}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q9#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find each charge for 2.5 hours\nRead both graphs at $h = 2.5$, or calculate.\nA(2.5) &= 30 + 9.5(2.5) = 53.75\nB(2.5) &= 10(1.74)^{2.5} \\approx 39.94\n## Compare\nCompany B charges less, because its charge is lower than Company A's at $2.5$ hours.\nANSWER: \\text{Company B, as its charge is less at } 2\\tfrac{1}{2} \\text{ hours}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q9#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14"
+  ],
+  "marks": 5,
+  "solution": "## Find where the two graphs cross\nThe charges are the same where the graph of A meets the graph of B.\nRead the $h$ value of that crossing point from the graphs: it is just over $3$ hours.\nANSWER: h \\approx 3.2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p1-q9#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths14",
+   "maths17"
+  ],
+  "marks": 10,
+  "solution": "## Find Company A's charge at 6 hours\nA(6) &= 30 + 9.5(6)\n&= 30 + 57\n&= 87\n## Find Company B's charge at 6 hours\nB(6) &= 10(1.74)^6\n&\\approx 277.52\n## Subtract to find the difference\n277.52 - 87 &= 190.52\nANSWER: \\text{€}190.52"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q1#(a)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Put the people who own neither outside the circles\nThe question says 19 people own neither a cat nor a dog, so 19 goes inside the rectangle but outside both circles.\n## Subtract the known regions from 168\nThe four regions of the diagram add up to all 168 people. Subtract the three known regions to find cats only.\n\\text{Cats only} &= 168 - 19 - 64 - 48\n&= 149 - 64 - 48\n&= 85 - 48\n&= 37\nANSWER: \\text{Cats only} = 37,\\ \\text{neither} = 19"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q1#(a)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Write the probability as a fraction\n$P = \\dfrac{\\text{number who own both}}{\\text{number surveyed}}$\nP &= \\frac{64}{168}\n## Simplify the fraction\nDivide the top and bottom by 8.\n&= \\frac{8}{21}\nANSWER: \\frac{8}{21}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q1#(a)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Count the people who own one animal only\nOne animal only means cats only plus dogs only.\n\\text{One only} &= 37 + 48\n&= 85\n## Write it as a percentage of 168\n\\text{Percentage} &= \\frac{85}{168} \\times 100\n&\\approx 50.5952\n&\\approx 50.6\nANSWER: 50.6\\%"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q1#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Complete the tree diagram\nUnder Stalls (S), add Monday, Wednesday and Friday. At the end of every day, add V (VIP) and O (show only). This gives $2 \\times 3 \\times 2 = 12$ equally likely outcomes.\n## Find the probability of Balcony, Wednesday, VIP\nAll choices are equally likely, so Balcony is $\\frac12$, Wednesday is $\\frac13$ and VIP is $\\frac12$. Multiply along the branches.\nP(BWV) &= \\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{1}{2}\n&= \\frac{1}{12}\n## Find the probability of Stalls, Wednesday, VIP\nP(SWV) &= \\frac{1}{2} \\times \\frac{1}{3} \\times \\frac{1}{2}\n&= \\frac{1}{12}\n## Add the two ways to get a VIP ticket on Wednesday\nP(\\text{VIP on Wednesday}) &= \\frac{1}{12} + \\frac{1}{12}\n&= \\frac{2}{12}\n&= \\frac{1}{6}\nANSWER: \\frac{1}{6}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q2#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Write the area formula for two sides and the angle between them\n\\text{Area} &= \\tfrac{1}{2}ab\\sin C\n## Substitute the sides 8 and 12 and the angle 30°\n\\text{Area} &= \\tfrac{1}{2}(8)(12)\\sin 30^\\circ\n$\\sin 30^\\circ = \\tfrac12$.\n&= \\tfrac{1}{2}(8)(12)\\left(\\tfrac{1}{2}\\right)\n&= 24\nANSWER: 24\\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q2#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 20,
+  "solution": "## Pick the largest angle\nThe largest angle is opposite the longest side, 7 cm. Call it $A$, with the other sides 5 and 3.\n## Write the cosine rule for this angle\na^2 &= b^2 + c^2 - 2bc\\cos A\n## Substitute the three sides\n7^2 &= 5^2 + 3^2 - 2(5)(3)\\cos A\n49 &= 25 + 9 - 30\\cos A\n49 &= 34 - 30\\cos A\n## Solve for cos A\n15 &= -30\\cos A\n\\cos A &= -\\frac{1}{2}\n## Find the angle\nA &= \\cos^{-1}\\left(-\\tfrac{1}{2}\\right)\nA &= 120^\\circ\nANSWER: 120^\\circ"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q3#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Write the equation of a circle with centre (h, k) and radius r\n(x-h)^2 + (y-k)^2 &= r^2\n## Substitute h = 2, k = −3 and r = 4\n(x-2)^2 + (y-(-3))^2 &= 4^2\n(x-2)^2 + (y+3)^2 &= 4^2\nANSWER: (x-2)^2 + (y+3)^2 = 4^2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q3#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Mark the centre\nPlot the centre $(2, -3)$ on the grid.\n## Mark four points on the circle\nThe radius is 4 cm, so go 4 units from the centre in each direction: $(-2,-3)$, $(6,-3)$, $(2,1)$ and $(2,-7)$.\n## Draw the circle\nDraw a smooth round curve through those four points, keeping every point 4 units from the centre.\nANSWER: \\text{circle with centre } (2,-3) \\text{ and radius } 4"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q3#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Substitute the point into the left side of the equation\nA point is outside the circle if $(x-2)^2+(y+3)^2$ is greater than $r^2 = 16$.\n(3-2)^2 + (1+3)^2 &= 1^2 + 4^2\n&= 1 + 16\n&= 17\n## Compare with the radius squared\n17 &> 16\nThe left side is bigger than $r^2$, so $(3,1)$ is outside $c$.\nANSWER: 17 > 16 \\text{, so } (3,1) \\text{ is outside } c"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q3#(d)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths8"
+  ],
+  "marks": 5,
+  "solution": "## Find the side of the smallest square around the circle\nThe smallest four-sided figure that fits around a circle is a square with each side touching the circle, so its side is the diameter.\n\\text{Side} &= 2r\n&= 8\n## Find the area\n\\text{Area} &= 8 \\times 8\n&= 64\nANSWER: 64\\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q4#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 15,
+  "solution": "## Find the slope of l\nUse $m = \\dfrac{y_2 - y_1}{x_2 - x_1}$ with $A(4,5)$ and $B(2,0)$.\nm &= \\frac{0-5}{2-4}\n&= \\frac{-5}{-2}\n&= \\frac{5}{2}\n## Write the equation using the point A(4, 5)\nUse $y - y_1 = m(x - x_1)$.\ny - 5 &= \\frac{5}{2}(x-4)\n## Clear the fraction\n2(y-5) &= 5(x-4)\n2y - 10 &= 5x - 20\n## Move everything to one side\n0 &= 5x - 2y - 10\n5x - 2y - 10 &= 0\nANSWER: 5x - 2y - 10 = 0"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q4#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Find where the line crosses the y-axis\nPut $x = 0$ in $x + 2y = 8$.\n0 + 2y &= 8\ny &= 4\nThe line passes through $(0, 4)$.\n## Find where the line crosses the x-axis\nPut $y = 0$ in $x + 2y = 8$.\nx + 2(0) &= 8\nx &= 8\nThe line passes through $(8, 0)$.\n## Draw the line\nPlot $(0, 4)$ and $(8, 0)$ and join them with a straight line, extended across the grid.\nANSWER: \\text{line through } (0,4) \\text{ and } (8,0)"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q4#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths5",
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Write the two lines as equations\n$l$ is $5x - 2y - 10 = 0$, which is $5x - 2y = 10$. $k$ is $x + 2y = 8$.\n5x - 2y &= 10\nx + 2y &= 8\n## Add the equations to cancel y\nThe $y$ terms are $-2y$ and $+2y$, so adding removes $y$.\n6x &= 18\nx &= 3\n## Substitute x = 3 into x + 2y = 8\n3 + 2y &= 8\n2y &= 5\ny &= \\frac{5}{2}\nANSWER: l \\cap k = \\left(3,\\ 2\\tfrac{1}{2}\\right)"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q5#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 15,
+  "solution": "## Read the Week 1 data in order\nThere are 16 values: 5, 8, 12, 12, 12, 13, 20, 24, 25, 27, 30, 31, 32, 34, 34, 44.\n## Find the mode\nThe mode is the value that appears most often. 12 appears three times, more than any other value, so the mode is 12.\n## Find the median\nThere are 16 values, so the median is the mean of the 8th and 9th values. These are 24 and 25.\n\\text{Median} &= \\frac{24 + 25}{2}\n&= \\frac{49}{2}\n&= 24.5\nANSWER: \\text{Mode} = 12,\\ \\text{Median} = 24.5"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q5#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Add up all 16 waiting times\nAdd the values stem by stem.\n\\text{Sum} &= (5+8) + (12+12+12+13) + (20+24+25+27) + (30+31+32+34+34) + 44\n&= 13 + 49 + 96 + 161 + 44\n&= 363\n## Divide by the number of patients\n\\text{Mean} &= \\frac{363}{16}\n&= 22.6875\n&\\approx 22.7\nANSWER: 22.7\\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Put the Week 2 values in order\n6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values.\n## Group the values by stem\nStem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0.\n## Write the leaves on the left of the stem\nPut the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown.\nANSWER: \\text{Week 2 leaves added to the left of the stems}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q6#(a)(i), (ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16"
+  ],
+  "marks": 5,
+  "solution": "## Draw [AB] 7 cm long\nUse a ruler to draw a line 7 cm long. Label the ends $A$ and $B$.\n## Make a 50° angle at A\nPut the centre of the protractor on $A$ with its zero line along $[AB]$. Mark 50° and draw a line from $A$ through the mark.\n## Mark C 4.5 cm from A\nSet the compass to 4.5 cm. Put its point on $A$ and draw an arc across the 50° line. The arc meets the line at $C$.\n## Join B to C and measure\nJoin $B$ to $C$. Measure $[BC]$ with the ruler. It is 5.4 cm (to within 0.25 cm).\n## Add the two sides\n|AC| + |BC| &= 4.5 + 5.4\n&= 9.9\nANSWER: |BC| = 5.4 \\text{ cm}, \\quad |AC| + |BC| = 9.9 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q6#(b)",
+  "level": "ordinary",
+  "chapters": [
+   "maths16",
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Recall the rule for building a triangle\nA triangle can be constructed only if the two shorter sides add up to more than the longest side.\n## Test Triangle 1\n3.2 + 2.9 &= 6.1\n6.1 &> 5.4\n$6.1 > 5.4$, so the two short sides can reach. Triangle 1 can be constructed.\n## Test Triangle 2\n6 + 7 &= 13\n13 &< 15\n$13 < 15$, so the sides of length 6 and 7 are not long enough to reach the side of length 15.\nANSWER: \\text{Triangle 2, because } 6 + 7 < 15"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q6#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths26",
+   "maths4"
+  ],
+  "marks": 15,
+  "solution": "## Write Pythagoras' Theorem\nThe longest side $x+1$ is the hypotenuse.\n(x+1)^2 &= x^2 + 5^2\n## Expand the brackets\nx^2 + 2x + 1 &= x^2 + 5^2\nx^2 + 2x + 1 &= x^2 + 25\n## Subtract x² from both sides\n2x + 1 &= 25\n## Subtract 1 from both sides\n2x &= 24\n## Divide both sides by 2\nx &= 12\n## Check the sides 5, 12, 13\n5^2 + 12^2 &= 25 + 144\n&= 169\n&= 13^2\nANSWER: x = 12"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q7#(a)",
+  "level": "ordinary",
+  "chapters": [
+   "maths17"
+  ],
+  "marks": 15,
+  "solution": "## Write 165 billion as a number\nA billion is a thousand million, so it is $10^3 \\times 10^6$.\n165 \\text{ billion} &= 165 \\times 10^3 \\times 10^6\n&= 165 \\times 10^9\n## Write 165 in the form a × 10ⁿ with 1 ≤ a < 10\n165 \\times 10^9 &= 1.65 \\times 10^2 \\times 10^9\n&= 1.65 \\times 10^{11}\nANSWER: 1.65 \\times 10^{11}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q7#(b)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Halve the diameter\nr &= \\frac{18}{2}\n&= 9 \\text{ m}\nANSWER: r = 9 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q7#(b)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Substitute r = 9 into the volume of a sphere\nThe volume of a sphere is $V = \\frac{4}{3}\\pi r^3$.\nV &= \\frac{4}{3}\\pi (9)^3\n&= \\frac{4}{3}\\pi (729)\n&= \\frac{4 \\times 729}{3}\\pi\n&= \\frac{2916}{3}\\pi\n&= 972\\pi\n## Calculate and round\nV &= 3053.63 \\text{ m}^3\nANSWER: 3053.63 \\text{ m}^3"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q7#(c)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the area of 9 spheres\nThe surface area of a sphere is $4\\pi r^2$. There are 9 spheres, each with $r = 9$.\nA &= 9 \\times 4 \\times \\pi \\times 9^2\n&= 9 \\times 4 \\times \\pi \\times 81\n&= 2916\\pi\n&= 9160.88\n&\\approx 9161\nANSWER: 9161 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q7#(d)(i)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Find the curved area of 8 pipes\nThe curved surface area of a cylinder is $2\\pi r h$. There are 8 pipes with $r = 1.65$ and $h = 23$.\nA &= 8 \\times 2 \\times \\pi \\times 1.65 \\times 23\n&= 8 \\times 75.9\\pi\n&= 607.2\\pi\n&= 1907.57\n&\\approx 1908\nANSWER: 1908 \\text{ m}^2"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q7#(d)(ii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 15,
+  "solution": "## Find the area of one pipe\nThere are 12 pipes, so divide the total area by 12.\n\\text{Area of one pipe} &= \\frac{3170}{12}\n&= 264.17\n## Set up the curved area formula with r = 1.45\n2 \\times \\pi \\times 1.45 \\times h &= 264.17\n2.9\\pi h &= 264.17\n## Divide both sides by 2.9π\nh &= \\frac{264.17}{2.9\\pi}\nh &= 28.996\nh &\\approx 29\nANSWER: h = 29 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2016-ordinary-p2-q7#(d)(iii)",
+  "level": "ordinary",
+  "chapters": [
+   "maths7",
+   "maths13"
+  ],
+  "marks": 5,
+  "solution": "## Add the three areas\n\\text{Total area} &= 1908 + 3170 + 9161\n&= 14\\,239 \\text{ m}^2\n## Multiply by the cost per square metre\n\\text{Cost} &= 14\\,239 \\times \\text{€}70\n&= \\text{€}996\\,730\nANSWER: \\text{€}996\\,730"
+ }
+]

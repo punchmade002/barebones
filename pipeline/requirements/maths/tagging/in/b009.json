@@ -1,0 +1,384 @@
+[
+ {
+  "part": "maths-pp-2017-higher-p1-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths14"
+  ],
+  "marks": 20,
+  "solution": "## Mark the depth axis\nThe depth runs from the low tide of 1.7 m up to the high tide of 5.5 m, so scale the vertical axis from 0 to 6 m in steps of 1 m.\n## Find the time between high tides\nHigh tide is at 02:00 and again at 14:34. Measure the horizontal axis in hours after midnight, scaled in steps of 2 hours from 0 to 24.\n\\text{period} &= \\left(14 + \\frac{34}{60}\\right) - 2\n&\\approx 12.57 \\text{ hours}\n\\text{half the period} &= \\frac{12.57}{2}\n&\\approx 6.28 \\text{ hours}\n## Plot the key points\n$P$ is the first high tide at $(2, 5.5)$. Low tide is half a period later, at about 08:17 ($t \\approx 8.3$), with depth 1.7 m. The next high tide is at 14:34 ($t \\approx 14.6$) and the next low tide is at about 20:51 ($t \\approx 20.9$).\n## Join the points with a smooth cosine curve\nThe curve is like a cosine wave: it peaks at $P$, falls to the low tide, rises to the second high tide and falls again. It is centred on a depth of $\\frac{5.5 + 1.7}{2} = 3.6$ m.\nANSWER: \\text{Graph drawn with labelled and scaled axes, with } P(2,\\,5.5) \\text{ as a high tide}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q9#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths6"
+  ],
+  "marks": 10,
+  "solution": "## Use the highest and lowest depths\n$\\cos ct$ lies between $-1$ and $1$, so the depth lies between $a - b$ and $a + b$.\na + b &= 5.5\na - b &= 1.7\n## Add the equations to find a\n(a+b) + (a-b) &= 5.5 + 1.7\n2a &= 7.2\na &= 3.6\n## Substitute a = 3.6 to find b\n3.6 + b &= 5.5\nb &= 5.5 - 3.6\nb &= 1.9\nANSWER: a = 3.6, \\quad b = 1.9"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q9#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths25"
+  ],
+  "marks": 5,
+  "solution": "## Find the period\nThe period of $\\cos ct$ is $\\frac{2\\pi}{c}$. It is the time between two successive high tides: 02:00 to 14:34.\n\\text{period} &= 12\\frac{34}{60} \\text{ hours}\n## Solve for c\n\\frac{2\\pi}{c} &= 12\\frac{34}{60}\nc &= \\frac{2\\pi}{12\\frac{34}{60}}\nc &\\approx 0.49999\nc &\\approx 0.5 \\text{ (1 decimal place)}\nANSWER: c = 0.5"
+ },
+ {
+  "part": "maths-pp-2017-higher-p1-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths25",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Substitute the depth into f(t)\nUse $f(t) = 3.6 + 1.9\\cos(0.5t)$, with $t$ in hours from a high tide.\n5.2 &= 3.6 + 1.9\\cos(0.5t)\n1.6 &= 1.9\\cos(0.5t)\n\\cos(0.5t) &= \\frac{1.6}{1.9}\n## Use the inverse cosine to find t\n0.5t &= \\cos^{-1}\\left(\\frac{1.6}{1.9}\\right)\n0.5t &\\approx 0.5696\nt &\\approx 1.139 \\text{ hours}\n0.139 \\times 60 &\\approx 8 \\text{ minutes}\n## Apply this either side of the afternoon high tide\nThe depth is 5.2 m about 1 hour 8 minutes before and after a high tide. The afternoon high tide is at 14:34.\n14{:}34 - 1\\text{ h } 8\\text{ min} &= 13{:}26\n14{:}34 + 1\\text{ h } 8\\text{ min} &= 15{:}42\nANSWER: 13{:}26 \\text{ and } 15{:}42"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q1#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Write the probability for each day\nAnswers: $P(A)=\\frac15$. Does not answer: $P(N)=1-\\frac15=\\frac45$.\nDays 1 to 7 in order are $N, A, N, A, N, A, N$: three answers and four misses.\n## Multiply the seven probabilities\nP &= \\frac45\\times\\frac15\\times\\frac45\\times\\frac15\\times\\frac45\\times\\frac15\\times\\frac45\n&= \\left(\\frac45\\right)^4\\left(\\frac15\\right)^3\n&= \\frac{256}{625}\\times\\frac{1}{125}\n&= \\frac{256}{78125}\nANSWER: \\frac{256}{78125}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q1#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Split the seven days\nThe 4th answer is on day 7, so days 1 to 6 contain exactly 3 answers, and day 7 is an answer.\n## Count the ways to place 3 answers in 6 days\n\\binom{6}{3} &= \\frac{6\\times5\\times4}{3\\times2\\times1}\n&= 20\n## Multiply by the probabilities\nP &= \\binom{6}{3}\\left(\\frac15\\right)^3\\left(\\frac45\\right)^3\\times\\frac15\n&= 20\\times\\frac{1}{125}\\times\\frac{64}{125}\\times\\frac15\n&= \\frac{1280}{78125}\n&= \\frac{256}{15625}\nANSWER: \\frac{256}{15625}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q1#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Use the complement\n\"At least once\" is the opposite of \"never answers\".\nP(\\text{never answers}) &= \\left(\\frac45\\right)^n\n## Subtract from 1\nP(\\text{at least once}) &= 1 - \\left(\\frac45\\right)^n\nANSWER: 1-\\left(\\frac45\\right)^n"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q1#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths17"
+  ],
+  "marks": 5,
+  "solution": "## Set up the inequality\n1-\\left(\\frac45\\right)^n &> 0.99\n\\left(\\frac45\\right)^n &< 0.01\n## Take logs of both sides\nn\\ln\\left(\\frac45\\right) &< \\ln(0.01)\n$\\ln\\left(\\frac45\\right)$ is negative, so dividing by it reverses the inequality.\nn &> \\frac{\\ln(0.01)}{\\ln(0.8)}\nn &> 20.64\n## Check the nearest whole numbers\n\\left(\\frac45\\right)^{20} &= 0.0115 > 0.01\n\\left(\\frac45\\right)^{21} &= 0.0092 < 0.01\nThe smallest whole $n$ that works is 21.\nANSWER: n = 21"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q2#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Use the statistics mode on the calculator\nEnter the speeds as the $x$ values and the fuel consumption as the $y$ values.\nRead off the correlation coefficient $r$.\nr &= -0.957\nANSWER: r = -0.957"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q2#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Plot the seven points\nEach point is (speed, fuel consumption): (40, 21), (48, 16), (56, 18), (64, 16), (88, 13), (96, 11), (112, 9).\n## Draw the line of best fit by eye\nThe points slope downward, with about as many above the line as below.\nThe mean point is $(72,\\ 14.9)$, and the slope is about $-0.15$, so the line runs from about $(40,\\ 19.7)$ to $(112,\\ 8.9)$.\nANSWER: \\text{Line of best fit drawn through the plotted points}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q2#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths22"
+  ],
+  "marks": 5,
+  "solution": "## Read the slope as a rate of change\nThe slope is the change in fuel consumption (km/litre) for each 1 km/h change in speed.\nIt is negative, so fuel consumption falls as speed rises.\nA slope of $-0.15$ means each extra 1 km/h reduces the distance per litre by 0.15 km.\nANSWER: \\text{For each 1 km/h increase in speed, the car travels 0.15 km less per litre}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q2#(d)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find each journey time in hours\nTime $=$ distance $\\div$ speed.\nt_{\\text{Mary}} &= \\frac{260}{96}\nt_{\\text{Jane}} &= \\frac{260}{112}\n## Subtract the times\n\\frac{260}{96}-\\frac{260}{112} &= \\frac{65}{24}-\\frac{65}{28}\n&= \\frac{65}{168}\n&= 0.3869\\text{ hours}\n## Convert to minutes\n0.3869\\times60 &= 23.21\n&\\approx 23\\text{ minutes}\nANSWER: 23\\text{ minutes}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q2#(d)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths22",
+   "maths6"
+  ],
+  "marks": 5,
+  "solution": "## Read the fuel consumption from Table 1\nAt 96 km/h the car does 11 km/litre. At 112 km/h it does 9 km/litre.\n## Find the litres used on each journey\nLitres $=$ distance $\\div$ km per litre.\n\\text{Mary} &= \\frac{260}{11}\\text{ litres}\n\\text{Jane} &= \\frac{260}{9}\\text{ litres}\n## Find the extra cost\nPrice per litre: 132.9 cents $= \\text{€}1.329$.\n\\text{Extra} &= \\left(\\frac{260}{9}-\\frac{260}{11}\\right)\\times1.329\n&= \\text{€}6.98\nANSWER: \\text{€}6.98"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q3#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Use the ratio $2:1$\n$|AG|:|GP|=2:1$, so $G$ divides $[AP]$ in the ratio $2:1$.\nLet $P=(x,y)$. Then $G=\\left(\\frac{1\\cdot 0+2x}{3},\\ \\frac{1\\cdot 6+2y}{3}\\right)$, and $G=\\left(\\frac23,\\frac43\\right)$.\n## Solve for $x$\n\\frac{2x}{3} &= \\frac23\n2x &= 2\nx &= 1\n## Solve for $y$\n\\frac{2y+6}{3} &= \\frac43\n2y+6 &= 4\n2y &= -2\ny &= -1\nANSWER: P = (1,\\,-1)"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q3#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths9"
+  ],
+  "marks": 5,
+  "solution": "## Use the midpoint\n$AP$ is a median, so $P$ is the midpoint of $[BC]$.\nLet $B=(x,y)$. Then $\\left(\\frac{4+x}{2},\\ \\frac{2+y}{2}\\right)=(1,-1)$.\n## Solve for $x$\n\\frac{4+x}{2} &= 1\n4+x &= 2\nx &= -2\n## Solve for $y$\n\\frac{2+y}{2} &= -1\n2+y &= -2\ny &= -4\nANSWER: B = (-2,\\,-4)"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q3#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths9",
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Plan\nIf $AC\\perp BC$, then $AC$ is the altitude from $A$ and $BC$ is the altitude from $B$. They meet at $C$.\n## Find the slope of $AC$\nm_{AC} &= \\frac{2-6}{4-0}\n&= \\frac{-4}{4}\n&= -1\n## Find the slope of $BC$\nm_{BC} &= \\frac{2-(-4)}{4-(-2)}\n&= \\frac{6}{6}\n&= 1\n## Test for perpendicular lines\nm_{AC}\\times m_{BC} &= -1\\times1\n&= -1\nThe product of the slopes is $-1$, so $AC\\perp BC$.\n## Conclude\nThe altitude from $A$ is perpendicular to $BC$ through $A$, which is the line $AC$.\nThe altitude from $B$ is perpendicular to $AC$ through $B$, which is the line $BC$.\nThese two altitudes meet at $C$, so $C$ is the orthocentre.\nANSWER: C\\text{ is the orthocentre of }\\triangle ABC"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q4#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths8"
+  ],
+  "marks": 10,
+  "solution": "## Write the general circle equation, substitute A(0, 0)\nA circle through three points has the form $x^2+y^2+2gx+2fy+c=0$.\nx^2+y^2+2gx+2fy+c &= 0\n0+0+2g(0)+2f(0)+c &= 0\nc &= 0\n## Substitute B(6.5, 0) to find g\n6.5^2+0^2+2g(6.5)+2f(0) &= 0\n42.25+13g &= 0\n13g &= -42.25\ng &= -3.25\n## Substitute C(10, 7) to find f\n10^2+7^2+2(-3.25)(10)+2f(7) &= 0\n100+49-65+14f &= 0\n84+14f &= 0\n14f &= -84\nf &= -6\n## Write out the equation\nx^2+y^2+2(-3.25)x+2(-6)y+0 &= 0\nx^2+y^2-6.5x-12y &= 0\nANSWER: x^2+y^2-6.5x-12y=0"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q4#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths8"
+  ],
+  "marks": 15,
+  "solution": "## Find the three side lengths squared\nUse the distance formula $|PQ|^2=(x_2-x_1)^2+(y_2-y_1)^2$ on each side.\n|AB|^2 &= 6.5^2\n&= 42.25\n|AC|^2 &= 10^2+7^2\n&= 149\n|BC|^2 &= (10-6.5)^2+(7-0)^2\n&= 3.5^2+7^2\n&= 61.25\n## Use the cosine rule for the angle at C\nThe side opposite $\\angle BCA$ is $[AB]$, so $|AB|^2=|AC|^2+|BC|^2-2|AC||BC|\\cos C$.\n\\cos C &= \\frac{|AC|^2+|BC|^2-|AB|^2}{2|AC||BC|}\n&= \\frac{149+61.25-42.25}{2\\sqrt{149}\\sqrt{61.25}}\n&= \\frac{168}{2\\sqrt{149}\\sqrt{61.25}}\n&\\approx 0.8793\n## Find the angle\nC &= \\cos^{-1}(0.8793)\n&\\approx 28.44^\\circ\nANSWER: |\\angle BCA| = 28.44^\\circ"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q5#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths16"
+  ],
+  "marks": 10,
+  "solution": "## Find one pair of equal angles\n$FD \\perp AG$, so $|\\angle AEF|=90^\\circ$ and $|\\angle AED|=90^\\circ$.\nTherefore $|\\angle AEF|=|\\angle AED|$ (both right angles).\n## Find a second pair of equal angles\n$|\\angle FAE|+|\\angle EAD|=90^\\circ$, because $\\angle FAD$ is the right angle of the rectangle at $A$.\nIn $\\triangle AED$, the angle sum gives $|\\angle EAD|+|\\angle ADE|=90^\\circ$, since $|\\angle AED|=90^\\circ$.\nBoth equal $90^\\circ-|\\angle EAD|$, so $|\\angle FAE|=|\\angle ADE|$.\n## Conclude the triangles are similar\n$\\triangle AFE$ and $\\triangle DAE$ have two angles equal, so the third pair is equal too.\nThey are equiangular, so $\\triangle AFE$ and $\\triangle DAE$ are similar.\nANSWER: \\triangle AFE \\text{ and } \\triangle DAE \\text{ are similar}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q5#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find |AF| using Pythagoras in triangle AEF\n|AF|^2 &= 12^2+5^2\n&= 169\n|AF| &= 13\n## Match corresponding sides of the similar triangles\nIn $\\triangle AFE$ and $\\triangle DAE$, the right angles match, so $[AD]$ (opposite the right angle in $\\triangle DAE$) corresponds to $[AF]$ (opposite the right angle in $\\triangle AFE$), and $[AE]$ corresponds to $[FE]$.\n\\frac{|AD|}{13} &= \\frac{12}{5}\n## Solve for |AD|\n|AD| &= \\frac{12 \\times 13}{5}\n&= \\frac{156}{5}\n&= 31.2 \\text{ cm}\nANSWER: |AD| = 31.2 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q5#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 5,
+  "solution": "## Find |AG|\n|AG| &= |AE|+|EG|\n&= 12+27\n&= 39 \\text{ cm}\n## Match corresponding sides of triangles AFE and AGB\nBoth triangles have a right angle ($\\angle AEF$ and $\\angle ABG$) and share the angle at $A$. So $[AF]$ matches $[AG]$ and $[AE]$ matches $[AB]$.\n\\frac{|AG|}{|AF|} &= \\frac{|AB|}{|AE|}\n\\frac{39}{13} &= \\frac{|AB|}{12}\n## Solve for |AB|\n3 &= \\frac{|AB|}{12}\n|AB| &= 3 \\times 12\n&= 36 \\text{ cm}\nANSWER: |AB| = 36 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q5#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths15",
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Split GCDE into two triangles\nDraw $[DG]$. Then $GCDE$ is $\\triangle DCG$ plus $\\triangle GED$, and $\\angle GED=90^\\circ$.\n## Find |BG| and |CG|\n|BG|^2 &= |AG|^2-|AB|^2\n&= 1521-1296\n&= 225\n|BG| &= 15\n|CG| &= |BC|-|BG|\n&= 31.2-15\n&= 16.2\n## Find |ED| in triangle AED\n|ED|^2 &= |AD|^2-|AE|^2\n&= 973.44-144\n&= 829.44\n|ED| &= 28.8\n## Add the two areas\n\\text{Area } \\triangle DCG &= \\tfrac{1}{2}(36)(16.2)\n&= 291.6\n\\text{Area } \\triangle GED &= \\tfrac{1}{2}(27)(28.8)\n&= 388.8\n\\text{Area } GCDE &= 291.6+388.8\n&= 680.4 \\text{ cm}^2\nANSWER: 680.4 \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q6#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths15"
+  ],
+  "marks": 15,
+  "solution": "## Find |AJ| in kilometres\n214 m is $0.214$ km. Jack is that far above the surface, so $|AJ|$ is the radius plus $0.214$.\n|AJ| &= 6371+0.214\n&= 6371.214 \\text{ km}\n## Use Pythagoras in triangle AHJ\nThe line of sight $[JH]$ is a tangent to the earth, so it is perpendicular to the radius $[AH]$. The right angle is at $H$.\n|JH|^2 &= |AJ|^2-|AH|^2\n|JH| &= \\sqrt{6371.214^2-6371^2}\n&\\approx 52.22\n&\\approx 52 \\text{ km}\nANSWER: |JH| = 52 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q6#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26",
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Find the radius of circle s1\nThe radius $r$ of $s_1$ is horizontal, so it is the side adjacent to the $53^\\circ$ angle in a right-angled triangle with hypotenuse $6371$.\n\\cos 53^\\circ &= \\frac{r}{6371}\nr &= 6371 \\cos 53^\\circ\n&\\approx 3834.16 \\text{ km}\n## Find the length of the circle\nl &= 2\\pi r\n&= 2\\pi(3834.16)\n&\\approx 24091 \\text{ km}\nANSWER: 24091 \\text{ km}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q7#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 10,
+  "solution": "## Volume of the cylinder\nThe smallest cylinder has radius $R$ and height $2R$ (two cones of height $R$).\nV_{\\text{cyl}} &= \\pi R^2 (2R)\n&= 2\\pi R^3\n## Volume of one cone\nV_{\\text{cone}} &= \\frac{1}{3}\\pi R^2 (R)\n&= \\frac{1}{3}\\pi R^3\n## Subtract the two cones from the cylinder\nV_{\\text{space}} &= 2\\pi R^3 - 2\\left(\\frac{1}{3}\\pi R^3\\right)\n&= 2\\pi R^3 - \\frac{2}{3}\\pi R^3\n&= \\frac{4}{3}\\pi R^3\nThis is the volume of a sphere of radius $R$, as required.\nANSWER: \\frac{4}{3}\\pi R^3"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q7#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Set up a right-angled triangle in the sphere\nThe sphere has radius 12, so the centre is $12-6=6$ cm above $A$. The hypotenuse is the radius to $B$, which is 12 cm.\n## Use Pythagoras\n12^2 &= 6^2 + |AB|^2\n144 &= 36 + |AB|^2\n|AB|^2 &= 144 - 36\n|AB|^2 &= 108\n|AB| &= \\sqrt{108}\n&= \\sqrt{36 \\times 3}\n&= 6\\sqrt{3}\nANSWER: |AB| = 6\\sqrt{3} \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q7#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths15"
+  ],
+  "marks": 10,
+  "solution": "## Use similar triangles in the cone\nThe cone has height 12 and radius 12. The water level is 6 cm below the vertex, so the small cone above it has height 6 and radius $|CD|$.\n\\frac{|CD|}{12} &= \\frac{6}{12}\n## Solve for the radius\n|CD| &= 12 \\times \\frac{6}{12}\n&= 6 \\text{ cm}\nANSWER: |CD| = 6 \\text{ cm}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q7#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Water surface in the cylinder\nThis is a ring: a circle of radius 12 with a circle of radius 6 removed.\nA_{\\text{cyl}} &= \\pi(12)^2 - \\pi(6)^2\n&= 144\\pi - 36\\pi\n&= 108\\pi\n## Water surface in the sphere\nThis is a circle of radius $|AB| = 6\\sqrt{3}$.\nA_{\\text{sph}} &= \\pi(6\\sqrt{3})^2\n&= \\pi(36 \\times 3)\n&= 108\\pi\nBoth areas equal $108\\pi$ cm$^2$.\nANSWER: \\text{both areas} = 108\\pi \\text{ cm}^2"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q7#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths7"
+  ],
+  "marks": 5,
+  "solution": "## Water in the cylinder (depth 6 cm)\nV_1 &= \\pi(12)^2(6)\n&= 864\\pi\n## Volume of the cone to subtract\nThe solid part below the water is a big cone (radius 12, height 12) minus a small cone (radius 6, height 6).\nV_2 &= \\frac{1}{3}\\pi(12)^2(12) - \\frac{1}{3}\\pi(6)^2(6)\n&= 576\\pi - 72\\pi\n&= 504\\pi\n## Cavalieri: water in the sphere equals water in the cylinder space\nV &= 864\\pi - 504\\pi\n&= 360\\pi \\text{ cm}^3\nANSWER: 360\\pi \\text{ cm}^3"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(a)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 10,
+  "solution": "## Write down the mean and standard deviation\n\\mu &= 63.5\n\\sigma &= 10\n## Convert Mariska's weight to a $z$-score\nz &= \\frac{x - \\mu}{\\sigma}\nz &= \\frac{50 - 63.5}{10}\n&= \\frac{-13.5}{10}\n&= -1.35\n## Find the probability of a greater weight\nBy symmetry of the normal curve, $P(z > -1.35) = P(z < 1.35)$.\nP(z > -1.35) &= P(z < 1.35)\n&= 0.9115\n&= 91.15\\%\nANSWER: 91.15\\%"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(a)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths24"
+  ],
+  "marks": 5,
+  "solution": "## Find the $z$-value for the top 1.5%\nIf $1.5\\%$ are heavier, then $98.5\\%$ are lighter, so $P(z < Z) = 0.985$. From the tables, $Z = 2.17$.\nP(z < Z) &= 1 - 0.015\n&= 0.985\n## Use the $z$-score formula and solve for the weight\n\\frac{x - 63.5}{10} &= 2.17\nx - 63.5 &= 21.7\nx &= 85.2 \\text{ kg}\nANSWER: x = 85.2 \\text{ kg}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(a)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths23"
+  ],
+  "marks": 15,
+  "solution": "## State the hypotheses\n$H_0$: the mean weight has not changed, $\\mu = 63.5$ kg.\n$H_1$: the mean weight has changed, $\\mu \\ne 63.5$ kg.\nAt the 5% level (two-tailed), reject $H_0$ if $z$ is outside $-1.96$ to $1.96$.\n## Write down the sample data\n$n = 150$, $\\bar{x} = 62$, $s = \\sigma = 10$.\n## Find the standard error\n\\frac{\\sigma}{\\sqrt{n}} &= \\frac{10}{\\sqrt{150}}\n&= 0.8165\n## Calculate the test statistic\nz &= \\frac{\\bar{x} - \\mu}{\\sigma / \\sqrt{n}}\n&= \\frac{62 - 63.5}{\\frac{10}{\\sqrt{150}}}\n&= -1.8371\n## Compare with the critical values\n-1.96 < -1.8371 &< 1.96\n$z$ lies inside the acceptance region, so we do not reject $H_0$.\n## Conclusion in context\nThere is not enough evidence at the 5% level to say the mean weight of 15 year olds changed from 2015 to 2016.\nANSWER: \\text{Do not reject } H_0\\text{: the mean weight has not changed}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(b)(i)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 15,
+  "solution": "## Complete the first branches\nThe probabilities on the branches from one point add to 1.\nP(\\text{no } R) &= 1 - \\frac{1}{3}\n&= \\frac{2}{3}\n## Complete the traffic branches\nP(\\text{no } T \\mid R) &= 1 - \\frac{1}{2}\n&= \\frac{1}{2}\nP(\\text{no } T \\mid \\text{no } R) &= 1 - \\frac{1}{4}\n&= \\frac{3}{4}\n## Complete the late branches\nWhen it is raining and heavy traffic, $P(L) = \\frac{1}{2}$, so $P(\\text{no } L) = \\frac{1}{2}$.\nIn any other situation $P(L) = \\frac{1}{5}$, so $P(\\text{no } L) = 1 - \\frac{1}{5} = \\frac{4}{5}$.\nWhen it is not raining and no heavy traffic, $P(L) = \\frac{1}{8}$, so $P(\\text{no } L) = \\frac{7}{8}$.\n## Outcome: $R$, $T$, $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{1}{2} &= \\frac{1}{12}\n## Outcome: $R$, $T$, no $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{1}{2} &= \\frac{1}{12}\n## Outcome: $R$, no $T$, $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{1}{5} &= \\frac{1}{30}\n## Outcome: $R$, no $T$, no $L$\n\\frac{1}{3} \\times \\frac{1}{2} \\times \\frac{4}{5} &= \\frac{4}{30}\n## Outcome: no $R$, $T$, $L$\n\\frac{2}{3} \\times \\frac{1}{4} \\times \\frac{1}{5} &= \\frac{2}{60}\n## Outcome: no $R$, $T$, no $L$\n\\frac{2}{3} \\times \\frac{1}{4} \\times \\frac{4}{5} &= \\frac{8}{60}\n## Outcome: no $R$, no $T$, $L$\n\\frac{2}{3} \\times \\frac{3}{4} \\times \\frac{1}{8} &= \\frac{6}{96}\n## Outcome: no $R$, no $T$, no $L$\n\\frac{2}{3} \\times \\frac{3}{4} \\times \\frac{7}{8} &= \\frac{42}{96}\nANSWER: \\text{Completed tree diagram (blue entries added)}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(b)(ii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 10,
+  "solution": "## Add the outcomes that end in late\nP(L) &= \\frac{1}{12} + \\frac{1}{30} + \\frac{2}{60} + \\frac{6}{96}\nUse a common denominator of 480.\n&= \\frac{40}{480} + \\frac{16}{480} + \\frac{16}{480} + \\frac{30}{480}\n&= \\frac{102}{480}\n&= \\frac{17}{80}\nANSWER: P(L) = \\frac{17}{80}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q8#(b)(iii)",
+  "level": "higher",
+  "chapters": [
+   "maths20"
+  ],
+  "marks": 5,
+  "solution": "## Write the conditional probability formula\nP(R \\mid L) &= \\frac{P(R \\cap L)}{P(L)}\n## Find $P(R \\cap L)$\nAdd the two outcomes with $R$ and $L$.\nP(R \\cap L) &= \\frac{1}{12} + \\frac{1}{30}\n&= \\frac{5}{60} + \\frac{2}{60}\n&= \\frac{7}{60}\n## Substitute and simplify\nP(R \\mid L) &= \\frac{\\frac{7}{60}}{\\frac{17}{80}}\n&= \\frac{7}{60} \\times \\frac{80}{17}\n&= \\frac{560}{1020}\n&= \\frac{28}{51}\nANSWER: P(R \\mid L) = \\frac{28}{51}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q9#(a)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Use tan in the right-angled triangle $ECT$\nThe tree is vertical, so the angle at $T$ is $90^\\circ$. At $C$ the angle is $60^\\circ$, $|TE|$ is opposite and $|CT|$ is adjacent.\n\\tan 60^\\circ &= \\frac{|TE|}{|CT|}\n\\sqrt{3} &= \\frac{|TE|}{|CT|}\n## Make $|TE|$ the subject\n|TE| &= \\sqrt{3}\\,|CT|\nSo $a = 3$.\nANSWER: |TE| = \\sqrt{3}\\,|CT|"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q9#(b)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Find $|DT|$ with Pythagoras\n$D$ is due north of $C$ and $T$ is due east of $C$, so the angle at $C$ in triangle $DCT$ is $90^\\circ$.\n|DT|^2 &= 15^2 + |CT|^2\n&= 225 + |CT|^2\n|DT| &= \\sqrt{225 + |CT|^2}\n## Use tan 30° in triangle $DET$\n\\tan 30^\\circ &= \\frac{|TE|}{|DT|}\n\\frac{1}{\\sqrt{3}} &= \\frac{|TE|}{|DT|}\n|TE| &= \\frac{|DT|}{\\sqrt{3}}\n## Substitute $|DT|$\n|TE| &= \\frac{\\sqrt{225 + |CT|^2}}{\\sqrt{3}}\n&= \\sqrt{\\frac{225 + |CT|^2}{3}}\nANSWER: |TE| = \\sqrt{\\frac{225 + |CT|^2}{3}}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q9#(c)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Equate the two expressions for $|TE|$\n\\sqrt{3}\\,|CT| &= \\sqrt{\\frac{225 + |CT|^2}{3}}\n## Square both sides and clear the fraction\n3|CT|^2 &= \\frac{225 + |CT|^2}{3}\n9|CT|^2 &= 225 + |CT|^2\n## Isolate $|CT|$\n8|CT|^2 &= 225\n|CT|^2 &= \\frac{225}{8}\n|CT| &= \\sqrt{\\frac{225}{8}}\n&= 5.3033\n&= 5.3 \\text{ m}\nANSWER: |CT| = 5.3 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q9#(d)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Substitute $|CT|$ into the result of (a)\n|TE| &= \\sqrt{3}\\,|CT|\n&= \\sqrt{3} \\times 5.3033\n&= 9.1856\n&= 9.2 \\text{ m}\nANSWER: |TE| = 9.2 \\text{ m}"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q9#(e)",
+  "level": "higher",
+  "chapters": [
+   "maths26"
+  ],
+  "marks": 5,
+  "solution": "## Set up the right-angled triangle $FCT$\nThe bank is the straight line through $C$ and $F$, and $CT$ is perpendicular to it. When the tree falls and its top reaches the bank at $F$, $|FT| = |TE|$. Let $\\theta = \\angle FTC$.\n\\cos\\theta &= \\frac{|CT|}{|FT|}\n## Replace $|FT|$ with $|TE|$ and then with $\\sqrt{3}\\,|CT|$\n\\cos\\theta &= \\frac{|CT|}{|TE|}\n&= \\frac{|CT|}{\\sqrt{3}\\,|CT|}\n&= \\frac{1}{\\sqrt{3}}\n## Find the angle\n\\theta &= \\cos^{-1}\\left(\\frac{1}{\\sqrt{3}}\\right)\n&= 54.7^\\circ\nANSWER: \\theta = 54.7^\\circ"
+ },
+ {
+  "part": "maths-pp-2017-higher-p2-q9#(f)",
+  "level": "higher",
+  "chapters": [
+   "maths20",
+   "maths26"
+  ],
+  "marks": 10,
+  "solution": "## Find the angle in which the tree hits the bank\nThe tree hits the bank if it falls within $\\theta$ on either side of $TC$, an angle of $2\\theta$. All directions make $360^\\circ$.\nP &= \\frac{2\\theta}{360}\n&= \\frac{2(54.7)}{360}\n&= \\frac{109.4}{360}\n&= 0.3039\n## Convert to a percentage\nP &= 0.3039 \\times 100\n&= 30.4\\%\nANSWER: 30.4\\%"
+ }
+]
