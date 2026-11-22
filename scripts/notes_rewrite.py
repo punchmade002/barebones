@@ -43,7 +43,7 @@ def sections(md: str) -> dict[str, str]:
 
 def brief(subject: str) -> str:
     secs = sections(STANDARD.read_text())
-    keep = [secs[s] for s in BRIEF_SECTIONS[:3]] + [secs[f"Subject notes: {subject}"]] + [secs[s] for s in BRIEF_SECTIONS[3:]]
+    keep = [secs[s] for s in BRIEF_SECTIONS[:3]] + [secs.get(f"Subject notes: {subject}", "")] + [secs[s] for s in BRIEF_SECTIONS[3:]]  # geography has no subject section
     text = "\n".join(keep).replace(" Read one of them in full before writing.", "")
     return (
         "# Rewriting notes: the brief\n\n"
