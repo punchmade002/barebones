@@ -43,10 +43,15 @@ def pack():
     ev = evidence(skills)
     (WORK / 'in').mkdir(parents=True, exist_ok=True)
     (WORK / 'out').mkdir(exist_ok=True)
+    # a whole chapter goes to one grader (the paper most of its skills are on), so its order comes from one place
+    votes = {}
+    for s in skills.values():
+        votes.setdefault(s['chapter'], []).append(s['paper'])
+    home = {c: max(set(v), key=v.count) for c, v in votes.items()}
     for paper in (1, 2):
         chaps = {}
         for s in skills.values():
-            if s['paper'] == paper:
+            if home[s['chapter']] == paper:
                 chaps.setdefault(s['chapter'], []).append(dict(
                     id=s['id'], level=s['level'], title=s['title'], io=f"{s['input']} → {s['output']}",
                     example=s['example'], needs=s['prereqs'], exam=ev[s['id']]))
@@ -69,6 +74,9 @@ def problems(skills, grades, order):
             errs.append(f'{i}: ranked outside its chapter')
     for c, ids in order.items():
         pos = {i: n for n, i in enumerate(ids)}
+        g = [GRADES.index(grades[i]) for i in ids if grades.get(i) in GRADES]
+        if g != sorted(g):
+            errs.append(f'{c}: grades go down somewhere along the order')
         for i in ids:
             for p in skills.get(i, {}).get('prereqs', []):
                 if p in pos and pos[p] > pos[i]:
