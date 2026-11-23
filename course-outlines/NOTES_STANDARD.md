@@ -240,6 +240,44 @@ at a time**; the build warns about part-written chapters.
   `home-economics-exam-questions.js` as a fact source for what to teach, but write in your own
   words; never copy question or answer wording.
 
+## Subject notes: business
+
+- **Scope** is the subsection's entry in `course-outlines/business.md`: the NCCA Leaving
+  Certificate Business specification, first examined June 2027. Cover every "Syllabus" and
+  "Cover" item. Never teach content only the old 1996 syllabus had (ratios, contract law,
+  household management, the Applied Business Question; the outline's Appendix A4).
+- **Exam source:** the SEC 2025 sample papers, as summarised in the outline's "Exam" lines.
+  Every SEC paper from 1999 to 2026 is the old syllabus: a package may use one only as legacy
+  practice, and only on a topic this specification also has.
+- **No Higher Level only blocks.** The specification marks no outcome Higher Level only, so
+  never end a heading with " (Higher Level only)".
+- **The 7 Ps** are product/service, pricing, promotion, people, packaging, process and place.
+  Never teach "physical evidence" as a P.
+- **Glossary terms:** where the specification's Appendix 2 defines a term (the outline lists
+  them per chapter), the notes and keyTerms define it consistently with that definition. The
+  package quotes it.
+- **Cross-cutting themes:** every subsection includes the ethical, sustainability and digital
+  angle of its topic wherever the package gives one; the written exam assesses applying them.
+- **Real named examples only from the package.** Name Irish firms, agencies, schemes, Acts and
+  news stories only from the package's "Checked facts" table. Where it says "No checked example.
+  Do not name one.", explain the point without a name or use "a sample business".
+- **Figures that change** (tax and grant amounts, interest and inflation rates, the minimum
+  wage, thresholds, prices, market shares, staff numbers): explain how they work and leave the
+  amounts out, unless the package's "Checked facts" gives the figure with its date.
+- **Applied tools** (stakeholder mapping, the power-interest grid, Porter's five forces,
+  force-field analysis, cost-benefit analysis, SWOT, design thinking, the business model
+  canvas) use the "Skills" block type: what the tool is for, the steps numbered, and a worked
+  example from the package or labelled "sample business".
+- **Depth for the command words** (identify, outline, explain, analyse, discuss, evaluate; the
+  specification's Appendix 1): give enough distinct points on each topic to answer at
+  discuss or evaluate depth, three or four developed points, each with its effect on the
+  business or its stakeholders.
+- **Choices the specification sets** (three government policies for three sectors, one EU
+  regulation and one EU directive, a marketing mix for a product and for a service, leadership
+  styles): teach more than one option, as the package lists them.
+- **Cross-references:** refer to another subsection by its subject ("the notes on consumer
+  protection"), never by its id.
+
 ## Worked example (biology)
 
 The target standard is `content/biology/bio14-s1.json` (Ordinary and Higher Level) and
