@@ -1,0 +1,373 @@
+[
+ {
+  "skill": "seq-convergence-range",
+  "what": {
+   "say": [
+    "You give it a geometric series whose ratio $r$ contains $x$. It finds the interval of $x$ for which the series has a **sum to infinity**.",
+    "The key idea: a geometric series converges only when $|r| < 1$. So write $r$ in terms of $x$, then solve that modulus inequality."
+   ],
+   "in": "series with $r$ in terms of $x$",
+   "out": "interval of $x$"
+  },
+  "how": {
+   "higher": "Higher level has used it as a step inside a longer Paper 1 question (2018): the series is built from a quadratic, and you must use $|r| < 1$ to decide which value of $x$ gives a sum to infinity."
+  },
+  "example": {
+   "question": "The geometric series $1 + \\dfrac{x+1}{3} + \\left(\\dfrac{x+1}{3}\\right)^2 + \\cdots$ has a sum to infinity. Find the values of $x$ for which the series converges.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the ratio",
+      "say": "The ratio $\\hl{1}{r}$ is any term divided by the one before it. Here the first term is $1$, so $\\hl{1}{r}$ is the second term.",
+      "lines": [
+       {
+        "tex": "r &= \\dfrac{x+1}{3}",
+        "sym": "Eq(r,(x+1)/3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the convergence test",
+      "say": "A geometric series converges only when $|\\hl{1}{r}| < 1$. Put the ratio into that test.",
+      "lines": [
+       {
+        "text": "The test is $|r| < 1$."
+       },
+       {
+        "tex": "\\left|\\dfrac{x+1}{3}\\right| &= 1",
+        "sym": "Eq(Abs((x+1)/3),1)",
+        "new": true
+       },
+       {
+        "text": "This is the boundary. Solve it first, then take the values between."
+       }
+      ]
+     },
+     {
+      "title": "Remove the modulus",
+      "say": "$|A| < 3$ means $-3 < A < 3$. Multiply the inequality by $3$ so that the modulus is gone.",
+      "lines": [
+       {
+        "text": "$|x+1| < 3$ means $-3 < x + 1 < 3$."
+       },
+       {
+        "tex": "x + 1 &= \\hl{2}{-3} \\ \\text{or} \\ 3",
+        "sym": "Eq(x+1,-3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Subtract $1$ from every part of the inequality.",
+      "lines": [
+       {
+        "tex": "x &= \\hl{2}{-4} \\ \\text{or} \\ \\hl{2}{2}",
+        "sym": "Eq(x,-4)",
+        "new": true
+       },
+       {
+        "text": "The series converges for $\\hl{2}{-4} < x < \\hl{2}{2}$. The ends are not included, because $|r| = 1$ does not converge."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{2}{-4} < x < \\hl{2}{2}"
+   },
+   "finalSym": "[-4, 2]",
+   "answerSym": "solve(Eq(Abs((x+1)/3),1),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "If you work with more than one value of $x$, substitute each into the terms and test $|r| < 1$ to throw out the wrong one. Substitution to exclude a value earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(c)",
+       "quote": "Substitution used to exclude"
+      }
+     ]
+    },
+    {
+     "tip": "Identify the first term $a$ and the ratio $r$ of the series. This is a marked stage.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(c)",
+       "quote": "GP identified (a and r)"
+      }
+     ]
+    },
+    {
+     "tip": "Check $|r|$ before you use the sum formula. If $|r| > 1$ you get low partial credit at most.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(c)",
+       "quote": "Relevant substitution into correct formula"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "seq-derive-sum-infinity",
+  "what": {
+   "say": [
+    "You give it the formula for the sum of the first $n$ terms, $S_n$. It finds what $S_n$ settles down to as $n$ grows, which is $S_\\infty = \\dfrac{a}{1-r}$.",
+    "The key idea: when $|r| < 1$, the power $r^n$ shrinks to $0$. The only part of $S_n$ left is $\\dfrac{a}{1-r}$."
+   ],
+   "in": "$S_n$ formula",
+   "out": "$S_\\infty = \\dfrac{a}{1-r}$"
+  },
+  "how": {},
+  "example": {
+   "question": "The sum of the first $n$ terms of a geometric series is $S_n = \\dfrac{a(1-r^n)}{1-r}$. Use this to show that $6 + 3 + \\dfrac{3}{2} + \\cdots$ has a sum to infinity of $12$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a and r",
+      "say": "Read the first term $a$ and the ratio $r$ from the series.",
+      "lines": [
+       {
+        "tex": "a &= 6",
+        "sym": "Eq(a,6)",
+        "new": true
+       },
+       {
+        "tex": "r &= \\dfrac{3}{6} = \\dfrac{1}{2}",
+        "sym": "Eq(r,Rational(1,2))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write S_n",
+      "say": "Put $a = 6$ and $r = \\frac{1}{2}$ into the formula for $S_n$.",
+      "lines": [
+       {
+        "tex": "S_n &= \\dfrac{6\\left(1 - \\left(\\frac{1}{2}\\right)^n\\right)}{1 - \\frac{1}{2}}",
+        "sym": "Eq(S,6*(1-Rational(1,2)**n)/(1-Rational(1,2)))",
+        "new": true
+       },
+       {
+        "tex": "S_n &= 12\\left(1 - \\left(\\tfrac{1}{2}\\right)^n\\right)",
+        "sym": "Eq(S,12*(1-Rational(1,2)**n))"
+       }
+      ]
+     },
+     {
+      "title": "Let n grow",
+      "say": "As $n$ gets large, $\\left(\\frac{1}{2}\\right)^n$ gets closer and closer to $\\hl{1}{0}$, because the ratio is smaller than $1$.",
+      "lines": [
+       {
+        "text": "$\\left(\\frac{1}{2}\\right)^n \\to \\hl{1}{0}$ as $n \\to \\infty$."
+       }
+      ]
+     },
+     {
+      "title": "Take the limit",
+      "say": "Replace $\\left(\\frac{1}{2}\\right)^n$ by $\\hl{1}{0}$. What is left is the sum to infinity.",
+      "lines": [
+       {
+        "tex": "S_\\infty &= 12(1 - \\hl{1}{0})",
+        "sym": "Eq(S,12*(1-0))",
+        "new": true
+       },
+       {
+        "tex": "S_\\infty &= 12",
+        "sym": "Eq(S,12)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "S_\\infty = 12"
+   },
+   "finalSym": "12",
+   "answerSym": "limit(6*(1-Rational(1,2)**n)/(1-Rational(1,2)),n,oo)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "stat-data-types",
+  "what": {
+   "say": [
+    "You give it a description of a variable. It says whether the data is **categorical** (nominal or ordinal) or **numerical** (discrete or continuous).",
+    "The key idea: ask two questions. Is it a number you can do arithmetic with? If so, can it take any value in a range (continuous) or only separate values like whole numbers (discrete)?"
+   ],
+   "in": "variable description",
+   "out": "type of data"
+  },
+  "how": {
+   "ordinary": "Ordinary level tests it on Paper 2 as a short part of a statistics question: tick the type of data collected and give a reason, for example that height is numerical and continuous."
+  },
+  "example": {
+   "question": "A school collects data on its students. Classify each variable as categorical nominal, categorical ordinal, numerical discrete or numerical continuous. How many of the three are numerical?\n(i) Shoe size (whole and half sizes)\n(ii) Favourite subject\n(iii) Time taken to run 100 m",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Ask: is it a number?",
+      "say": "First ask if the data is a number you could add or average. If it is, it is **numerical**. If it is a label, it is **categorical**.",
+      "lines": [
+       {
+        "text": "Shoe size is a number. Time is a number. Favourite subject is a label."
+       }
+      ]
+     },
+     {
+      "title": "Sort the categorical one",
+      "say": "A label with no natural order is **nominal**. A label with an order, like small, medium, large, is **ordinal**.",
+      "lines": [
+       {
+        "text": "Favourite subject has no order, so it is categorical nominal."
+       }
+      ]
+     },
+     {
+      "title": "Sort the numerical ones",
+      "say": "Numerical data is **discrete** if it takes separate values you could list. It is **continuous** if any value in a range is possible.",
+      "lines": [
+       {
+        "text": "Shoe size: only $\\hl{1}{40}$, $\\hl{1}{40.5}$, $\\hl{1}{41}$, and so on. Separate values, so numerical discrete."
+       },
+       {
+        "text": "Time: any value like $\\hl{1}{12.4}$ or $\\hl{1}{12.43}$ seconds is possible, so numerical continuous."
+       }
+      ]
+     },
+     {
+      "title": "Count the numerical ones",
+      "say": "Shoe size and time are numerical. Favourite subject is not.",
+      "lines": [
+       {
+        "tex": "\\text{numerical} &= 1 + 1 = 2",
+        "sym": "Eq(n,1+1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{(i) numerical discrete; (ii) categorical nominal; (iii) numerical continuous; } 2 \\text{ numerical}"
+   },
+   "finalSym": "2",
+   "answerSym": "1+1"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Give a reason as well as ticking a box. Say that height is a number that can take an infinity of values, so it is continuous.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q9#(a)",
+       "quote": "can take an infinity of values"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "stat-populations-samples",
+  "what": {
+   "say": [
+    "You give it a description of a study. It names the **population** (everyone the question is about), the **sample** (the part actually studied) and says how far the conclusions reach.",
+    "The key idea: conclusions only apply to the population the sample was drawn from. A sample from one school cannot speak for all schools."
+   ],
+   "in": "study description",
+   "out": "population, sample, reach of conclusions"
+  },
+  "how": {
+   "ordinary": "Ordinary level has asked for it on Paper 2 (2022), as a 5-mark part: give one advantage and one disadvantage of sampling instead of asking everyone."
+  },
+  "example": {
+   "question": "A researcher asks 100 students in one Dublin school how many hours they sleep. She wants to know about all second-level students in Ireland. Name the population and the sample. Can she use the result for all Irish students? Give a reason.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the population",
+      "say": "The **population** is everyone the researcher wants to know about.",
+      "lines": [
+       {
+        "text": "Population: all second-level students in Ireland."
+       }
+      ]
+     },
+     {
+      "title": "Name the sample",
+      "say": "The **sample** is the group she actually asked.",
+      "lines": [
+       {
+        "text": "Sample: the $\\hl{1}{100}$ students in the one Dublin school."
+       }
+      ]
+     },
+     {
+      "title": "Judge the reach",
+      "say": "Ask if the sample is a fair picture of the whole population. One school in one city is not.",
+      "lines": [
+       {
+        "text": "The sample is $\\hl{1}{100}$ out of many thousands, all from one place."
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "Say what the result covers, and give the reason.",
+      "lines": [
+       {
+        "text": "No. The result only describes students in that school. Students elsewhere may sleep differently, so it should not be applied to all Irish students."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Population: all Irish second-level students. Sample: the 100 students. No, the sample is from one school only.}"
+   },
+   "finalSym": "100",
+   "answerSym": "100"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "When asked for an advantage or disadvantage of sampling, any valid one is accepted. Cheaper, faster or more practical works as an advantage. Not as accurate, or sampling bias, works as a disadvantage.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q10#(a)",
+       "quote": "any valid advantage"
+      }
+     ]
+    },
+    {
+     "tip": "Give both. One advantage or one disadvantage alone only earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q10#(a)",
+       "quote": "One advantage or one disadvantage"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

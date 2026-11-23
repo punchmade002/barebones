@@ -1,0 +1,441 @@
+[
+ {
+  "skill": "induction-inequality",
+  "what": {
+   "say": [
+    "You give it an inequality in $n$ and a starting value. It **proves** the inequality holds for every $n$ from that value on.",
+    "The key idea: show it is true for the first value, then show that if it is true for $n = k$ it must be true for $n = k+1$. The first value starts the chain and the step keeps it going."
+   ],
+   "in": "inequality in $n$, start value",
+   "out": "proof for all $n$"
+  },
+  "how": {
+   "higher": "Higher level only. It has come up as a 15-mark part of its own on Paper 1 (2019 Q2(b): prove $3^n \\ge 4n+1$ for $n \\ge 2$)."
+  },
+  "example": {
+   "question": "Prove by induction that $2^n > 2n$ for all $n \\ge 3$, $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test the first value",
+      "say": "Check the statement for the starting value $n = 3$.",
+      "lines": [
+       {
+        "tex": "P(3): \\quad 2^3 = 8 > 6 = 2(3)"
+       },
+       {
+        "text": "It is true for $n = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Assume it for k",
+      "say": "Assume the statement is true for $n = k$, where $k \\ge 3$. This is the fact you will use.",
+      "lines": [
+       {
+        "tex": "P(k): \\quad \\hl{1}{2^k > 2k}"
+       }
+      ]
+     },
+     {
+      "title": "State what to prove",
+      "say": "Write what $P(k+1)$ says. This is the target.",
+      "lines": [
+       {
+        "tex": "P(k+1): \\quad 2^{k+1} > 2(k+1) = 2k + 2"
+       }
+      ]
+     },
+     {
+      "title": "Use the assumption",
+      "say": "Multiply both sides of $\\hl{1}{2^k > 2k}$ by $2$. Then show $4k$ is at least $2k + 2$.",
+      "lines": [
+       {
+        "tex": "2^{k+1} &= 2 \\cdot 2^k",
+        "sym": "2*2**k",
+        "new": true
+       },
+       {
+        "tex": "&> 2(2k) = 4k"
+       },
+       {
+        "tex": "4k - (2k+2) &= 2k - 2",
+        "sym": "2*k-2",
+        "new": true
+       },
+       {
+        "text": "Since $k \\ge 3$, $2k - 2 > 0$, so $4k > 2k + 2$."
+       },
+       {
+        "tex": "\\text{So } 2^{k+1} > 4k > 2k + 2"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "State what you have shown. This line carries a mark.",
+      "lines": [
+       {
+        "text": "If true for $n = k$, then true for $n = k+1$. It is true for $n = 3$. Hence it is true for all $n \\ge 3$, $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2^n > 2n \\text{ for all } n \\ge 3"
+   },
+   "finalSym": "0",
+   "answerSym": "simplify(2**(k+1)-2*(k+1)-2*(2**k-2*k))-(2*k-2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write all three statements: the start value, $P(k)$ and $P(k+1)$. Each earns marks, and the order does not matter.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q2#(b)",
+       "quote": "in any order"
+      }
+     ]
+    },
+    {
+     "tip": "Missing one of the three statements costs marks quickly, so write each one out, even when it looks obvious.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q2#(b)",
+       "quote": "Any two of"
+      }
+     ]
+    },
+    {
+     "tip": "The key step is using $P(k)$ to prove $P(k+1)$. Show that line clearly.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q2#(b)",
+       "quote": "to prove Step"
+      }
+     ]
+    },
+    {
+     "tip": "Finish with a conclusion. Leaving it out loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q2#(b)",
+       "quote": "Omits conclusion but otherwise"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "proof-root2-irrational",
+  "what": {
+   "say": [
+    "You start by assuming $\\sqrt{2} = \\frac{p}{q}$ in lowest terms. The method shows this assumption **contradicts** itself, so $\\sqrt{2}$ cannot be rational.",
+    "The key idea: squaring gives $p^2 = 2q^2$, which forces $p$ and then $q$ to be even. Two even numbers share a factor $2$, and that breaks \"lowest terms\"."
+   ],
+   "in": "$\\sqrt{2} = \\frac{p}{q}$, lowest terms",
+   "out": "contradiction"
+  },
+  "how": {
+   "higher": "Higher level only. It has been a 10-mark part of its own on Paper 1 twice: 2019 Q6(b) and 2023 Q3(a)."
+  },
+  "example": {
+   "question": "Prove that $\\sqrt{3}$ is irrational.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Assume the opposite",
+      "say": "Assume $\\sqrt{3}$ is rational. Then it is a fraction in lowest terms, with $a$ and $b$ whole numbers that have no common factor.",
+      "lines": [
+       {
+        "tex": "\\sqrt{3} &= \\frac{a}{b}, \\quad \\text{HCF}(a, b) = 1"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides",
+      "say": "Square both sides and clear the fraction.",
+      "lines": [
+       {
+        "tex": "3 &= \\frac{a^2}{b^2}",
+        "sym": "a**2/b**2",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{a^2} &= 3b^2"
+       },
+       {
+        "text": "So $a^2$ is a multiple of $3$. Since $3$ is prime, $\\hl{1}{a}$ is a multiple of $3$."
+       }
+      ]
+     },
+     {
+      "title": "Write a as 3k",
+      "say": "Put $a = 3k$ and substitute into $a^2 = 3b^2$.",
+      "lines": [
+       {
+        "tex": "3b^2 &= (3k)^2",
+        "sym": "(3*k)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 9k^2",
+        "sym": "9*k**2"
+       },
+       {
+        "tex": "\\hl{2}{b^2} &= 3k^2",
+        "sym": "3*k**2",
+        "new": true
+       },
+       {
+        "text": "So $b^2$ is a multiple of $3$, and so $\\hl{2}{b}$ is a multiple of $3$."
+       }
+      ]
+     },
+     {
+      "title": "State the contradiction",
+      "say": "Both $a$ and $b$ are multiples of $3$, so they have a common factor $3$.",
+      "lines": [
+       {
+        "text": "This contradicts HCF$(a, b) = 1$. So the assumption was false, and $\\sqrt{3}$ is irrational."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\sqrt{3} \\text{ is irrational}"
+   },
+   "finalSym": "0",
+   "answerSym": "sqrt(3)**2-3"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Begin with the assumption, and say the fraction is in lowest terms. The contradiction later depends on it.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(b)",
+       "quote": "where p and q have no common factors (simplest form)"
+      }
+     ]
+    },
+    {
+     "tip": "Marks are given for showing the first number is even, then the second. Write each step, even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(b)",
+       "quote": "deduces that p is even or equivalent"
+      }
+     ]
+    },
+    {
+     "tip": "Show $q$ is even too, by writing it as $2m$ or an equivalent form.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(b)",
+       "quote": "q = 2m or equivalent deduced"
+      }
+     ]
+    },
+    {
+     "tip": "End by saying the common factor contradicts the assumption. Do not stop at \"both are even\".",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q3#(a)",
+       "quote": "contradicts the assumption that"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "int-reverse",
+  "what": {
+   "say": [
+    "You give it a function $f(x)$. It finds a function $F(x)$ whose **derivative** is $f(x)$, then adds $+c$.",
+    "The key idea: integrating undoes differentiating. Ask which expression you would differentiate to get $f(x)$, and check by differentiating your answer."
+   ],
+   "in": "$f(x)$",
+   "out": "$F(x) + c$"
+  },
+  "how": {},
+  "example": {
+   "question": "Find $\\int 8x^3 \\, dx$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Try a power of x",
+      "say": "The answer must differentiate to $8x^3$. Differentiating gives a power one lower, so try $x^4$.",
+      "lines": [
+       {
+        "tex": "\\frac{d}{dx}(x^4) &= 4x^3",
+        "sym": "4*x**3",
+        "new": true
+       },
+       {
+        "text": "This is close, but we need $8x^3$, which is twice as big."
+       }
+      ]
+     },
+     {
+      "title": "Fix the number",
+      "say": "Multiply by $2$ to double the result.",
+      "lines": [
+       {
+        "tex": "\\frac{d}{dx}(2x^4) &= 8x^3",
+        "sym": "8*x**3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the constant",
+      "say": "A constant disappears when you differentiate, so $2x^4 + 5$ also works, and so does $2x^4 - 7$. Add $\\hl{1}{c}$ to cover all of them.",
+      "lines": [
+       {
+        "tex": "\\frac{d}{dx}(2x^4 + \\hl{1}{c}) &= 8x^3",
+        "sym": "8*x**3"
+       },
+       {
+        "tex": "\\int 8x^3 \\, dx &= 2x^4 + \\hl{1}{c}",
+        "sym": "2*x**4+c",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x^4 + c"
+   },
+   "finalSym": "2*x**4+c",
+   "answerSym": "integrate(8*x**3,x)+c"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "int-power",
+  "what": {
+   "say": [
+    "You give it a sum of terms $kx^a$. It integrates each term and adds $+c$.",
+    "The key idea: for each term, **add 1** to the power, then **divide** by the new power. Turn roots and fractions into powers first."
+   ],
+   "in": "$\\sum kx^a$",
+   "out": "antiderivative $+ c$"
+  },
+  "how": {
+   "higher": "Higher level asks it directly as a 5-mark part on Paper 1 (2019 Q4(a), 2022 Q2(a)). It is also the first step inside definite integrals, areas between curves and average-value questions."
+  },
+  "example": {
+   "question": "Find $\\int \\left(6x^2 - 10x + 3\\sqrt{x}\\right) dx$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write roots as powers",
+      "say": "A root has to become a power before you can integrate it.",
+      "lines": [
+       {
+        "tex": "3\\sqrt{x} &= 3x^{\\frac{1}{2}}",
+        "sym": "3*x**Rational(1,2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "say": "For each term, add $1$ to the power and divide by the new power.",
+      "lines": [
+       {
+        "tex": "\\int 6x^2 \\, dx &= \\frac{6x^3}{3} = 2x^3",
+        "sym": "2*x**3",
+        "new": true
+       },
+       {
+        "tex": "\\int 10x \\, dx &= \\frac{10x^2}{2} = 5x^2",
+        "sym": "5*x**2",
+        "new": true
+       },
+       {
+        "tex": "\\int 3x^{\\frac{1}{2}} \\, dx &= \\frac{3x^{\\frac{3}{2}}}{\\frac{3}{2}} = 2x^{\\frac{3}{2}}",
+        "sym": "2*x**Rational(3,2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put it together",
+      "say": "Join the terms with their signs. Add $\\hl{1}{c}$ once, at the end.",
+      "lines": [
+       {
+        "tex": "\\int \\left(6x^2 - 10x + 3\\sqrt{x}\\right) dx &= 2x^3 - 5x^2 + 2x^{\\frac{3}{2}} + \\hl{1}{c}",
+        "sym": "2*x**3-5*x**2+2*x**Rational(3,2)+c",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x^3 - 5x^2 + 2x^{\\frac{3}{2}} + c"
+   },
+   "finalSym": "2*x**3-5*x**2+2*x**Rational(3,2)+c",
+   "answerSym": "integrate(6*x**2-10*x+3*sqrt(x),x)+c"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Always add $+c$ to an indefinite integral. Leaving it out costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q2#(a)",
+       "quote": "term missing"
+      }
+     ]
+    },
+    {
+     "tip": "Each term you integrate correctly earns credit. Work through every term, as each is a marked step.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q2#(a)",
+       "quote": "Integrates all 3 terms"
+      }
+     ]
+    },
+    {
+     "tip": "Even an incomplete attempt earns partial credit if some integration is correct, so write the integral down.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q4#(a)",
+       "quote": "Any relevant integration"
+      }
+     ]
+    },
+    {
+     "tip": "For a definite integral, show the integration. Without it you get no credit at all.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q9#(b)(iii)",
+       "quote": "Indication of integration is required to be awarded any credit"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
