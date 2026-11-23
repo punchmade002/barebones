@@ -1,0 +1,490 @@
+[
+ {
+  "skill": "diff-apply-hl",
+  "what": {
+   "say": [
+    "You give it a model that uses $e^x$, $\\ln x$ or trig, such as a temperature or a population. It finds the **rate of change** at a moment, or where the model is largest or smallest.",
+    "The key idea: the derivative is the rate. Differentiate the model first, then put the number in."
+   ],
+   "in": "model $f(t)$",
+   "out": "rate, max or min"
+  },
+  "how": {
+   "higher": "It turned up once in 2020, as a Paper 1 part: differentiate an exponential model and use the derivative to find when the growth passes a value."
+  },
+  "example": {
+   "question": "The temperature of a drink is $T = 70e^{-0.05t}$ degrees Celsius, $t$ minutes after it is poured. Find the rate at which the temperature is changing after $10$ minutes.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate the model",
+      "say": "A rate is a derivative. Differentiate $T$ with respect to $t$. The $e^{-0.05t}$ stays, and the $-0.05$ multiplies in front.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{T'(t)} &= 70 \\cdot (-0.05)e^{-0.05t}",
+        "sym": "70*(-0.05)*exp(-0.05*t)",
+        "new": true
+       },
+       {
+        "tex": "&= -3.5e^{-0.05t}",
+        "sym": "-3.5*exp(-0.05*t)"
+       }
+      ]
+     },
+     {
+      "title": "Put in the time",
+      "say": "You want the rate when $t = 10$. Put $10$ into $\\hl{1}{T'(t)}$.",
+      "lines": [
+       {
+        "tex": "T'(10) &= -3.5e^{-0.05(10)}",
+        "sym": "-3.5*exp(-0.05*10)",
+        "new": true
+       },
+       {
+        "tex": "&= -3.5e^{-0.5}",
+        "sym": "-3.5*exp(-0.5)"
+       },
+       {
+        "tex": "&\\approx -2.12",
+        "sym": "-2.12",
+        "new": true,
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Say what it means",
+      "say": "The answer is negative, so the temperature is falling. Give the unit.",
+      "lines": [
+       {
+        "text": "The drink is cooling at $2.12$ degrees Celsius per minute."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "-2.12"
+   },
+   "finalSym": "-3.5*exp(-0.5)",
+   "answerSym": "diff(70*exp(-0.05*t),t).subs(t,10)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the derivative before you substitute. The marks start when $N'(t)$ is stated.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q9#(d)",
+       "quote": "stated or indicated"
+      }
+     ]
+    },
+    {
+     "tip": "If you leave out the differentiation, you get no credit, even with a correct number from the model.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q9#(d)",
+       "quote": "No differentiation"
+      }
+     ]
+    },
+    {
+     "tip": "Write the derivative with the number fully put in, even if you stop there. That earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q9#(d)",
+       "quote": "Derivative fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "When you solve an exponential equation, take logs and write the equation in your unknown. That step is marked.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q9#(d)",
+       "quote": "taking logs handled correctly"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-poly",
+  "what": {
+   "say": [
+    "You give it a polynomial, such as $2x^3 - 5x^2 + 4$. It gives back $f'(x)$, the formula for the **slope** at any point.",
+    "The key idea: take each term on its own. Bring the power down to multiply, then take one off the power. A number on its own becomes $0$."
+   ],
+   "in": "$f(x)$",
+   "out": "$f'(x)$"
+  },
+  "how": {
+   "higher": "Higher level uses it all the time as a step inside bigger questions on Paper 1: finding a rate, a tangent slope or a turning point, and sometimes as a part of its own worth 5 marks.",
+   "ordinary": "Ordinary level asks for it on Paper 1 in most years, as a short part worth 5 or 10 marks that leads on to a slope, a tangent or a turning point."
+  },
+  "example": {
+   "question": "Differentiate $f(x) = 4x^3 - 3x^2 + 5x - 8$ and find the slope of the graph at $x = 2$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate each term",
+      "say": "Take one term at a time. Multiply by the power, then lower the power by one. Write down the derivative of the number term too.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f'(x)} &= 4(3x^2) - 3(2x) + 5(1) - 0",
+        "sym": "4*3*x**2-3*2*x+5",
+        "new": true
+       },
+       {
+        "text": "The $-8$ differentiates to $0$. Write that in: the marks need it shown."
+       },
+       {
+        "tex": "&= 12x^2 - 6x + 5",
+        "sym": "12*x**2-6*x+5"
+       }
+      ]
+     },
+     {
+      "title": "Put in x = 2",
+      "say": "The slope at $x = 2$ is $\\hl{1}{f'(2)}$. Put $2$ into the derivative.",
+      "lines": [
+       {
+        "tex": "f'(2) &= 12(2)^2 - 6(2) + 5",
+        "sym": "12*2**2-6*2+5",
+        "new": true
+       },
+       {
+        "tex": "&= 48 - 12 + 5",
+        "sym": "48-12+5"
+       },
+       {
+        "tex": "&= 41",
+        "sym": "41"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "41"
+   },
+   "finalSym": "41",
+   "answerSym": "diff(4*x**3-3*x**2+5*x-8,x).subs(x,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Differentiation must be used. If you do not differentiate, you get no credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(a)",
+       "quote": "No credit if differentiation is not"
+      }
+     ]
+    },
+    {
+     "tip": "You do not have to simplify the derivative. An unsimplified correct answer still gets full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(a)",
+       "quote": "Accept the answer in an unsimplified"
+      }
+     ]
+    },
+    {
+     "tip": "Even if you slip, differentiate the terms you can. One correct term earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(a)(ii)",
+       "quote": "Any term correctly differentiated"
+      }
+     ]
+    },
+    {
+     "tip": "Get every term right. Two correct terms earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q8#(b)(i)",
+       "quote": "correct differentiation of 2 terms"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write down the derivative of the number term. If it is not shown, those marks are not awarded.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q6#(a)(i)",
+       "quote": "differentiation of independent term must be explicit"
+      }
+     ]
+    },
+    {
+     "tip": "Get as many terms right as you can. Two terms correctly differentiated earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q6#(a)(i)",
+       "quote": "2 terms correctly differentiated"
+      }
+     ]
+    },
+    {
+     "tip": "Differentiate the terms you can. Any correct differentiation earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q4#(a)(ii)",
+       "quote": "Some correct differentiation"
+      }
+     ]
+    },
+    {
+     "tip": "If you go on to a tangent, finish by rearranging the line. Leaving it unrearranged loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q4#(a)(ii)",
+       "quote": "fails to rearrange equation of the line"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-second",
+  "what": {
+   "say": [
+    "You give it $f(x)$. It differentiates **twice** and gives $f''(x)$, the rate at which the slope is changing.",
+    "The key idea: just differentiate the derivative. The sign of $f''$ tells you whether a turning point is a maximum or a minimum."
+   ],
+   "in": "$f(x)$",
+   "out": "$f''(x)$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step in Paper 1 questions: to classify a turning point, or to find where a rate is changing fastest.",
+   "ordinary": "Ordinary level uses it rarely, in a Paper 1 part where the second derivative is set to $0$ to find a point."
+  },
+  "example": {
+   "question": "Find $f''(x)$ for $f(x) = x^3 - 6x^2 + 5x$, and find the value of $x$ for which $f''(x) = 0$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate once",
+      "say": "Differentiate $f(x)$ to get the first derivative.",
+      "lines": [
+       {
+        "tex": "f'(x) &= 3x^2 - 12x + 5",
+        "sym": "3*x**2-12*x+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Differentiate again",
+      "say": "Now differentiate the first derivative. That gives $\\hl{1}{f''(x)}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f''(x)} &= 6x - 12",
+        "sym": "6*x-12",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Set it to zero",
+      "say": "You want $f''(x) = 0$. Set $\\hl{1}{f''(x)}$ equal to $0$ and solve for $x$.",
+      "lines": [
+       {
+        "tex": "6x - 12 &= 0",
+        "sym": "6*x-12",
+        "new": true
+       },
+       {
+        "tex": "6x &= 12",
+        "sym": "6*x-12"
+       },
+       {
+        "tex": "\\hl{2}{x} &= 2",
+        "sym": "x-2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2"
+   },
+   "finalSym": "2",
+   "answerSym": "solve(diff(x**3-6*x**2+5*x,x,2),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say you are using the second derivative. Writing it down earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q10#(d)",
+       "quote": "Indicates second derivative"
+      }
+     ]
+    },
+    {
+     "tip": "Find the second derivative first. Finding it correctly earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q10#(d)",
+       "quote": "Finds 𝑃′′(𝑡)"
+      }
+     ]
+    },
+    {
+     "tip": "To find where a quantity changes fastest, set the second derivative to zero. State that step.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q7#(e)",
+       "quote": "Decreasing most quickly at"
+      }
+     ]
+    },
+    {
+     "tip": "When a quadratic gives two answers, say which one you keep. Writing both unexplained loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(c)",
+       "quote": "not explicitly excluded"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Differentiate with care. Any correct differentiation earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q3#(b)",
+       "quote": "Any correct differentiation"
+      }
+     ]
+    },
+    {
+     "tip": "Always use differentiation to find a turning point. Without it you get no marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q5#(c)",
+       "quote": "If differentiation is not used, award zero marks"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-rational-power",
+  "what": {
+   "say": [
+    "You give it a root or a reciprocal, like $\\sqrt{x}$ or $\\frac{1}{x^2}$. It gives back the derivative, using the same power rule as for $x^n$.",
+    "The key idea: first **rewrite** the root or fraction as a power of $x$. Then bring the power down and take one off it."
+   ],
+   "in": "$\\sqrt{x}$, $\\frac{1}{x^n}$",
+   "out": "$nx^{n-1}$"
+  },
+  "how": {
+   "higher": "It shows up inside Paper 1 questions on differentiation, as a part worth 5 marks, or as a step towards a turning point."
+  },
+  "example": {
+   "question": "Differentiate $f(x) = 4\\sqrt{x} + \\frac{3}{x^2}$ with respect to $x$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write as powers",
+      "say": "A root is a power of $\\frac{1}{2}$. A reciprocal is a negative power. Rewrite both so the rule applies.",
+      "lines": [
+       {
+        "tex": "f(x) &= 4\\sqrt{x} + \\frac{3}{x^2}",
+        "sym": "4*sqrt(x)+3/x**2"
+       },
+       {
+        "tex": "&= 4x^{1/2} + 3x^{-2}",
+        "sym": "4*sqrt(x)+3/x**2"
+       }
+      ]
+     },
+     {
+      "title": "Use the power rule",
+      "say": "Bring each power down to multiply. Then take one off each power to get $\\hl{1}{f'(x)}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f'(x)} &= 4\\left(\\tfrac{1}{2}\\right)x^{-1/2} + 3(-2)x^{-3}",
+        "sym": "2/sqrt(x)-6/x**3",
+        "new": true
+       },
+       {
+        "tex": "&= 2x^{-1/2} - 6x^{-3}",
+        "sym": "2/sqrt(x)-6/x**3"
+       }
+      ]
+     },
+     {
+      "title": "Write it back",
+      "say": "Turn the negative and fractional powers back into a root and a fraction.",
+      "lines": [
+       {
+        "tex": "&= \\frac{2}{\\sqrt{x}} - \\frac{6}{x^3}",
+        "sym": "2/sqrt(x)-6/x**3"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{2}{\\sqrt{x}} - \\frac{6}{x^3}"
+   },
+   "finalSym": "2/sqrt(x)-6/x**3",
+   "answerSym": "diff(4*sqrt(x)+3/x**2,x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Any correct differentiation earns partial credit, so rewrite as powers and differentiate what you can.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(a)",
+       "quote": "Some correct differentiation"
+      }
+     ]
+    },
+    {
+     "tip": "If you use the quotient rule, substitute carefully. A correct substitution earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(a)",
+       "quote": "Correct substitution into quotient rule"
+      }
+     ]
+    },
+    {
+     "tip": "A negative power in the answer is accepted. You need not turn it back into a fraction.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(a)",
+       "quote": "for full credit"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

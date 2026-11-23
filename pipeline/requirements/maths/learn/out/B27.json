@@ -245,8 +245,8 @@
     ],
     "finalAnswer": "a = 3,\\; b = 2"
    },
-   "finalSym": "{a:3,b:2}",
-   "answerSym": "solve([Eq(expand((a+b*I)*(1+I)).subs(I,0),1),Eq((expand((a+b*I)*(1+I))-expand((a+b*I)*(1+I)).subs(I,0)).subs(I,1),5)],[a,b])"
+   "finalSym": "[3,2]",
+   "answerSym": "linsolve([Eq(expand((a+b*I)*(1+I)).subs(I,0),1),Eq((expand((a+b*I)*(1+I))-expand((a+b*I)*(1+I)).subs(I,0)).subs(I,1),5)],[a,b]).args[0]"
   },
   "graph": null,
   "diagram": null,

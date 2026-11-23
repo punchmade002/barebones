@@ -1,0 +1,464 @@
+[
+ {
+  "skill": "diff-combined",
+  "what": {
+   "say": [
+    "You give it a function built from several pieces, like $e^{3x}\\cos 2x$. It gives back the **derivative**, simplified.",
+    "The key idea: spot the outer rule first (product or quotient). Then use the chain rule on each piece inside it."
+   ],
+   "in": "$e^{3x}\\cos 2x$",
+   "out": "simplified $f'(x)$"
+  },
+  "how": {},
+  "example": {
+   "question": "Differentiate $f(x) = e^{3x}\\cos 2x$ with respect to $x$. Write the answer in its simplest form.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split into two factors",
+      "say": "The function is a product. Call the first factor $u$ and the second $v$.",
+      "lines": [
+       {
+        "tex": "u &= e^{3x}",
+        "sym": "exp(3*x)",
+        "new": true
+       },
+       {
+        "tex": "v &= \\cos 2x",
+        "sym": "cos(2*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Differentiate each factor",
+      "say": "Each factor needs the chain rule. Differentiate the inside, then multiply by the derivative of the outside.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{u'} &= 3e^{3x}",
+        "sym": "3*exp(3*x)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{v'} &= -2\\sin 2x",
+        "sym": "-2*sin(2*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Apply the product rule",
+      "say": "The product rule says $f' = u'v + uv'$. Put in $\\hl{1}{u'}$ and $\\hl{2}{v'}$.",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\hl{1}{3e^{3x}}\\cos 2x + e^{3x}\\left(\\hl{2}{-2\\sin 2x}\\right)",
+        "sym": "3*exp(3*x)*cos(2*x)+exp(3*x)*(-2*sin(2*x))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Take out the common factor",
+      "say": "Both terms have $e^{3x}$. Take it out to simplify.",
+      "lines": [
+       {
+        "tex": "&= e^{3x}(3\\cos 2x - 2\\sin 2x)",
+        "sym": "exp(3*x)*(3*cos(2*x)-2*sin(2*x))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f'(x) = e^{3x}(3\\cos 2x - 2\\sin 2x)"
+   },
+   "finalSym": "exp(3*x)*(3*cos(2*x)-2*sin(2*x))",
+   "answerSym": "diff(exp(3*x)*cos(2*x),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-show-identity",
+  "what": {
+   "say": [
+    "You give it a function $y$ and an equation that links $y$, $y'$ and $y''$. It **shows** the equation is true.",
+    "The key idea: find $y'$ and $y''$, put all three into the left side, and simplify until it equals the right side."
+   ],
+   "in": "$y$ and a relation",
+   "out": "identity shown true"
+  },
+  "how": {},
+  "example": {
+   "question": "Show that $y = xe^{-2x}$ satisfies $y'' + 4y' + 4y = 0$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the first derivative",
+      "say": "Use the product rule on $xe^{-2x}$ to find $\\hl{1}{y'}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= e^{-2x} - 2xe^{-2x}",
+        "sym": "exp(-2*x)-2*x*exp(-2*x)",
+        "new": true
+       },
+       {
+        "tex": "&= e^{-2x}(1 - 2x)",
+        "sym": "exp(-2*x)*(1-2*x)"
+       }
+      ]
+     },
+     {
+      "title": "Find the second derivative",
+      "say": "Differentiate $\\hl{1}{y'}$ again to find $\\hl{2}{y''}$. It is a product again.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= -2e^{-2x}(1 - 2x) + e^{-2x}(-2)",
+        "sym": "-2*exp(-2*x)*(1-2*x)+exp(-2*x)*(-2)",
+        "new": true
+       },
+       {
+        "tex": "&= e^{-2x}(4x - 4)",
+        "sym": "exp(-2*x)*(4*x-4)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the left side",
+      "say": "Put $y$, $\\hl{1}{y'}$ and $\\hl{2}{y''}$ into $y'' + 4y' + 4y$.",
+      "lines": [
+       {
+        "tex": "y'' + 4y' + 4y &= \\hl{2}{e^{-2x}(4x-4)} + 4\\,\\hl{1}{e^{-2x}(1-2x)} + 4xe^{-2x}",
+        "sym": "exp(-2*x)*(4*x-4)+4*exp(-2*x)*(1-2*x)+4*x*exp(-2*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Simplify to zero",
+      "say": "Take out $e^{-2x}$ and collect the terms in the bracket.",
+      "lines": [
+       {
+        "tex": "&= e^{-2x}(4x - 4 + 4 - 8x + 4x)",
+        "sym": "exp(-2*x)*(4*x-4+4-8*x+4*x)"
+       },
+       {
+        "tex": "&= e^{-2x}(0) = 0",
+        "sym": "0"
+       },
+       {
+        "text": "The left side equals $0$, the right side. So the equation is satisfied."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "y'' + 4y' + 4y = 0"
+   },
+   "finalSym": "0",
+   "answerSym": "diff(x*exp(-2*x),x,2)+4*diff(x*exp(-2*x),x)+4*x*exp(-2*x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fin-percentages",
+  "what": {
+   "say": [
+    "You give it quantities. It finds a **percentage**, a percentage change, or the original amount.",
+    "The key idea: turn the percentage into a **multiplier**. An increase of $8\\%$ is $\\times 1.08$. To undo it, divide."
+   ],
+   "in": "quantities",
+   "out": "% change or original amount"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 1 money questions: successive reductions, tax and exchange rates, or a mark-up on the selling price.",
+   "ordinary": "Ordinary level asks for it directly in short parts on Paper 1 and Paper 2: a percentage of an amount, percentage change, or finding the original amount, worth 5 to 10 marks."
+  },
+  "example": {
+   "question": "The price of a bicycle was increased by $8\\%$. It now costs €486. Find the original price.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the new price as a percentage",
+      "say": "The original price is $100\\%$. After the increase the price is $100\\% + 8\\%$ of the original.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{100\\% + 8\\%} &= 108\\%",
+        "sym": "108",
+        "new": true
+       },
+       {
+        "text": "As a multiplier, $108\\%$ is $1.08$."
+       }
+      ]
+     },
+     {
+      "title": "Divide by the multiplier",
+      "say": "€486 is $\\hl{1}{1.08}$ times the original. To go back, divide by $\\hl{1}{1.08}$.",
+      "lines": [
+       {
+        "tex": "\\text{original} &= \\frac{486}{\\hl{1}{1.08}}",
+        "sym": "486/1.08",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{450}",
+        "sym": "450"
+       }
+      ]
+     },
+     {
+      "title": "Check the answer",
+      "say": "Increase $\\hl{2}{450}$ by $8\\%$ and see if you get €486.",
+      "lines": [
+       {
+        "tex": "8\\% \\text{ of } 450 &= 36",
+        "sym": "0.08*450",
+        "new": true
+       },
+       {
+        "tex": "450 + 36 &= 486",
+        "sym": "450+36",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}450"
+   },
+   "finalSym": "450",
+   "answerSym": "486/1.08"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show your working even though a correct answer alone can earn full marks. Partial credit goes for finding a relevant percentage of the amount.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q8#(a)",
+       "quote": "Finds a relevant percentage of 870"
+      }
+     ]
+    },
+    {
+     "tip": "Write each reduction as a multiplier and multiply them: $0.85$ then $0.9$. Finding the $85\\%$ or $90\\%$ of the amount earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q8#(a)",
+       "quote": "Finds 85% or 90% of 870"
+      }
+     ]
+    },
+    {
+     "tip": "For a mark-up question, write the cost price as a percentage of the selling price. Stating it earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(f)",
+       "quote": "states CP = 82% of SP"
+      }
+     ]
+    },
+    {
+     "tip": "In a tax question, work in steps: tax on each band, subtract from gross income, then deal with the tax credit. Each step has marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(a)",
+       "quote": "Consider the solution as involving 3 steps"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "A correct answer without work can earn full marks, but still show the steps. Writing $1.23$ as the multiplier earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q1#(a)(i)",
+       "quote": "Accept correct answer without work"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the percentage of the amount, for example $23\\%$ of the price, earns high partial credit even if you stop there.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q1#(a)(i)",
+       "quote": "Finds 23%"
+      }
+     ]
+    },
+    {
+     "tip": "For percentage change, subtract first, then divide by the original and multiply by $100$. The subtraction and the fraction are each worth marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q1#(b)",
+       "quote": "some correct subtraction or relevant fraction"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. Wrong or missing rounding loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q8#(f)",
+       "quote": "Apply F* if incorrect or no rounding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fin-units",
+  "what": {
+   "say": [
+    "You give it a quantity and a conversion factor. It gives back the same quantity in **new units**.",
+    "The key idea: change one unit at a time. Multiply when the new unit is smaller, divide when it is bigger."
+   ],
+   "in": "quantity + factor",
+   "out": "converted quantity"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 1 and Paper 2 problems: currency exchange, or speeds and times that need minutes, hours or kilometres.",
+   "ordinary": "Ordinary level asks for it in parts of its own worth 10 marks or more, on both papers: exchange rates, speed in metres per second, and kilometres to miles."
+  },
+  "example": {
+   "question": "A train travels at $72$ km/h. Express its speed in metres per second.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Change km to metres",
+      "say": "There are $1000$ metres in $1$ km. Multiply the distance by $\\hl{1}{1000}$.",
+      "lines": [
+       {
+        "tex": "72 \\text{ km} &= 72 \\times \\hl{1}{1000} \\text{ m}",
+        "sym": "72*1000",
+        "new": true
+       },
+       {
+        "tex": "&= 72\\,000 \\text{ m}",
+        "sym": "72000"
+       }
+      ]
+     },
+     {
+      "title": "Change hours to seconds",
+      "say": "There are $60 \\times 60$ seconds in $1$ hour. So $72\\,000$ m in $1$ hour is the same as $72\\,000$ m in $\\hl{2}{3600}$ s.",
+      "lines": [
+       {
+        "tex": "1 \\text{ hour} &= 60 \\times 60 = \\hl{2}{3600} \\text{ s}",
+        "sym": "60*60",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Divide distance by time",
+      "say": "Metres per second is the distance in metres divided by the time in seconds.",
+      "lines": [
+       {
+        "tex": "\\text{speed} &= \\frac{72\\,000}{\\hl{2}{3600}}",
+        "sym": "72000/3600",
+        "new": true
+       },
+       {
+        "tex": "&= 20 \\text{ m/s}",
+        "sym": "20"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "20 \\text{ m/s}"
+   },
+   "finalSym": "20",
+   "answerSym": "72*1000/3600"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Break an exchange-rate problem into steps: the cost at the rate you are told, the actual cost, then the rate you want. Each step earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q8#(b)",
+       "quote": "Finds actual cost (in €)"
+      }
+     ]
+    },
+    {
+     "tip": "Check the unit the answer is asked in. Time found in hours and not converted to minutes only earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q2#(d)(ii)",
+       "quote": "Answer in hours"
+      }
+     ]
+    },
+    {
+     "tip": "A wrong unit costs a mark. For example $\\frac{1}{10}$ of an hour left as it is, when minutes are wanted, loses one mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(f)",
+       "quote": "i.e. incorrect unit"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Convert one unit at a time. A speed question has separate steps: hours to seconds, then miles to km or metres.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q5#(b)",
+       "quote": "Convert hours to seconds"
+      }
+     ]
+    },
+    {
+     "tip": "Use the exchange rate in the right direction. Showing relevant use of the rate earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q9#(a)(i), (ii)",
+       "quote": "relevant use of the exchange rate"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. Failing to round loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q5#(b)",
+       "quote": "Apply F* if fails to round off"
+      }
+     ]
+    },
+    {
+     "tip": "Put units on your answer. Some parts accept a correct answer without them, but do not rely on it.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q10#(a)(i), (ii), (iii)",
+       "quote": "Accept correct answer without units"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
