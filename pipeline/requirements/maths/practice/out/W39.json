@@ -1,0 +1,578 @@
+[
+ {
+  "skill": "trig-derive-1",
+  "problems": [
+   {
+    "question": "$P$ is a point on the unit circle with centre $O$, in the first quadrant. $OP$ makes an angle $A$ with the positive $x$-axis, and $N$ is the foot of the perpendicular from $P$ to the $x$-axis.\nUse the definitions of $\\cos A$ and $\\sin A$ and Pythagoras' theorem to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Read off the sides of the triangle",
+       "lines": [
+        {
+         "text": "In right-angled triangle $ONP$, the hypotenuse $OP$ is a radius, so $OP = 1$."
+        },
+        {
+         "tex": "ON &= \\cos A"
+        },
+        {
+         "tex": "NP &= \\sin A"
+        }
+       ]
+      },
+      {
+       "title": "Apply Pythagoras",
+       "lines": [
+        {
+         "tex": "ON^2 + NP^2 &= OP^2"
+        },
+        {
+         "tex": "\\cos^2 A + \\sin^2 A &= 1^2"
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "tex": "\\cos^2 A + \\sin^2 A &= 1",
+         "sym": "Eq(cos(A)**2 + sin(A)**2, 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos^2 A + \\sin^2 A = 1"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(cos(pi/6)**2 + sin(pi/6)**2 - 1)"
+   },
+   {
+    "question": "A right-angled triangle has legs of length $a$ and $b$ and hypotenuse $c$. The angle $A$ is opposite the side of length $a$.\nUse the definitions of $\\sin A$ and $\\cos A$ and Pythagoras' theorem to prove that $\\cos^2 A + \\sin^2 A = 1$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the ratios",
+       "lines": [
+        {
+         "tex": "\\sin A &= \\frac{a}{c}"
+        },
+        {
+         "tex": "\\cos A &= \\frac{b}{c}"
+        }
+       ]
+      },
+      {
+       "title": "Square and add",
+       "lines": [
+        {
+         "tex": "\\cos^2 A + \\sin^2 A &= \\frac{b^2}{c^2} + \\frac{a^2}{c^2}"
+        },
+        {
+         "tex": "&= \\frac{a^2 + b^2}{c^2}",
+         "sym": "Eq(b**2/c**2 + a**2/c**2, (a**2 + b**2)/c**2)"
+        }
+       ]
+      },
+      {
+       "title": "Use Pythagoras",
+       "lines": [
+        {
+         "text": "Pythagoras gives $a^2 + b^2 = c^2$."
+        },
+        {
+         "tex": "\\cos^2 A + \\sin^2 A &= \\frac{c^2}{c^2}"
+        },
+        {
+         "tex": "&= 1",
+         "sym": "Eq(c**2/c**2, 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos^2 A + \\sin^2 A = 1"
+    },
+    "finalSym": "0",
+    "answerSym": "Rational(3, 5)**2 + Rational(4, 5)**2 - 1"
+   },
+   {
+    "question": "$P(x, y)$ is a point on the unit circle with centre $O$, with $x < 0$ and $y > 0$. $OP$ makes an angle $A$ with the positive $x$-axis, where $90^\\circ < A < 180^\\circ$.\nUsing the unit circle definitions of $\\cos A$ and $\\sin A$ and Pythagoras' theorem, prove that $\\cos^2 A + \\sin^2 A = 1$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "State the definitions",
+       "lines": [
+        {
+         "tex": "\\cos A &= x"
+        },
+        {
+         "tex": "\\sin A &= y"
+        }
+       ]
+      },
+      {
+       "title": "Make a right-angled triangle",
+       "lines": [
+        {
+         "text": "Let $N$ be the foot of the perpendicular from $P$ to the $x$-axis. Then $ON = -x$ (a length, since $x < 0$), $NP = y$ and $OP = 1$."
+        },
+        {
+         "tex": "(-x)^2 + y^2 &= 1^2"
+        }
+       ]
+      },
+      {
+       "title": "Remove the sign",
+       "lines": [
+        {
+         "tex": "(-x)^2 &= x^2",
+         "sym": "Eq((-x)**2, x**2)"
+        },
+        {
+         "tex": "x^2 + y^2 &= 1"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the definitions",
+       "lines": [
+        {
+         "tex": "\\cos^2 A + \\sin^2 A &= 1",
+         "sym": "Eq(cos(A)**2 + sin(A)**2, 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos^2 A + \\sin^2 A = 1"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(cos(2*pi/3)**2 + sin(2*pi/3)**2 - 1)"
+   }
+  ]
+ },
+ {
+  "skill": "trig-derive-2",
+  "problems": [
+   {
+    "question": "In triangle $ABC$ the sides opposite $A$, $B$, $C$ are $a$, $b$, $c$.\nUse the area formula $\\tfrac{1}{2}ab\\sin C$ to prove that $\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the area in two ways",
+       "lines": [
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}bc\\sin A"
+        },
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}ac\\sin B"
+        }
+       ]
+      },
+      {
+       "title": "Equate and cancel",
+       "lines": [
+        {
+         "tex": "\\tfrac{1}{2}bc\\sin A &= \\tfrac{1}{2}ac\\sin B"
+        },
+        {
+         "text": "Multiply by $2$ and divide by $c$."
+        },
+        {
+         "tex": "\\frac{\\tfrac{1}{2}bc\\sin A}{\\tfrac{1}{2}c} &= b\\sin A",
+         "sym": "Eq((b*c*sin(A)/2)/(c/2), b*sin(A))",
+         "new": true
+        },
+        {
+         "tex": "b\\sin A &= a\\sin B"
+        }
+       ]
+      },
+      {
+       "title": "Divide by $\\sin A\\sin B$",
+       "lines": [
+        {
+         "tex": "\\frac{b}{\\sin B} &= \\frac{a}{\\sin A}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B}"
+    },
+    "finalSym": "0",
+    "answerSym": "Rational(3, 5)/3 - Rational(4, 5)/4"
+   },
+   {
+    "question": "In triangle $ABC$ the sides opposite $A$, $B$, $C$ are $a$, $b$, $c$.\nUse the area formula $\\tfrac{1}{2}ab\\sin C$ to prove that $\\dfrac{b}{\\sin B} = \\dfrac{c}{\\sin C}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the area in two ways",
+       "lines": [
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"
+        },
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}ac\\sin B"
+        }
+       ]
+      },
+      {
+       "title": "Equate and cancel",
+       "lines": [
+        {
+         "tex": "\\tfrac{1}{2}ab\\sin C &= \\tfrac{1}{2}ac\\sin B"
+        },
+        {
+         "text": "Multiply by $2$ and divide by $a$."
+        },
+        {
+         "tex": "\\frac{\\tfrac{1}{2}ab\\sin C}{\\tfrac{1}{2}a} &= b\\sin C",
+         "sym": "Eq((a*b*sin(C)/2)/(a/2), b*sin(C))",
+         "new": true
+        },
+        {
+         "tex": "b\\sin C &= c\\sin B"
+        }
+       ]
+      },
+      {
+       "title": "Divide by $\\sin B\\sin C$",
+       "lines": [
+        {
+         "tex": "\\frac{b}{\\sin B} &= \\frac{c}{\\sin C}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{b}{\\sin B} = \\frac{c}{\\sin C}"
+    },
+    "finalSym": "0",
+    "answerSym": "4/(Rational(4, 5)) - 5/1"
+   },
+   {
+    "question": "In triangle $ABC$ the sides opposite $A$, $B$, $C$ are $a$, $b$, $c$.\nBy writing the area of the triangle in three ways, prove the sine rule: $\\dfrac{\\sin A}{a} = \\dfrac{\\sin B}{b} = \\dfrac{\\sin C}{c}$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the area in three ways",
+       "lines": [
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}bc\\sin A"
+        },
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}ac\\sin B"
+        },
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"
+        }
+       ]
+      },
+      {
+       "title": "Equate them",
+       "lines": [
+        {
+         "tex": "\\tfrac{1}{2}bc\\sin A &= \\tfrac{1}{2}ac\\sin B = \\tfrac{1}{2}ab\\sin C"
+        }
+       ]
+      },
+      {
+       "title": "Divide each by $\\tfrac{1}{2}abc$",
+       "lines": [
+        {
+         "tex": "\\frac{\\tfrac{1}{2}bc\\sin A}{\\tfrac{1}{2}abc} &= \\frac{\\sin A}{a}",
+         "sym": "Eq((b*c*sin(A)/2)/(a*b*c/2), sin(A)/a)",
+         "new": true
+        },
+        {
+         "tex": "\\frac{\\tfrac{1}{2}ac\\sin B}{\\tfrac{1}{2}abc} &= \\frac{\\sin B}{b}",
+         "sym": "Eq((a*c*sin(B)/2)/(a*b*c/2), sin(B)/b)",
+         "new": true
+        },
+        {
+         "tex": "\\frac{\\tfrac{1}{2}ab\\sin C}{\\tfrac{1}{2}abc} &= \\frac{\\sin C}{c}",
+         "sym": "Eq((a*b*sin(C)/2)/(a*b*c/2), sin(C)/c)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "tex": "\\frac{\\sin A}{a} &= \\frac{\\sin B}{b} = \\frac{\\sin C}{c}"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c}"
+    },
+    "finalSym": "0",
+    "answerSym": "Rational(5, 13)/5 - Rational(1, 13)/1"
+   }
+  ]
+ },
+ {
+  "skill": "trig-solve-quadratic",
+  "problems": [
+   {
+    "question": "Solve $2\\cos^2\\theta + \\cos\\theta - 1 = 0$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "2\\cos^2\\theta + \\cos\\theta - 1 &= 0",
+         "sym": "Eq(2*c**2 + c - 1, 0)",
+         "new": true
+        },
+        {
+         "tex": "(2\\cos\\theta - 1)(\\cos\\theta + 1) &= 0",
+         "sym": "Eq((2*c - 1)*(c + 1), 0)"
+        }
+       ]
+      },
+      {
+       "title": "Solve each factor",
+       "lines": [
+        {
+         "tex": "\\cos\\theta &= \\tfrac{1}{2}\\quad\\text{or}\\quad\\cos\\theta = -1",
+         "sym": "Or(Eq(c, Rational(1, 2)), Eq(c, -1))"
+        }
+       ]
+      },
+      {
+       "title": "Find the angles",
+       "lines": [
+        {
+         "text": "$\\cos\\theta = \\tfrac{1}{2}$: cosine is positive, so $\\theta = 60^\\circ$ or $360^\\circ - 60^\\circ = 300^\\circ$."
+        },
+        {
+         "text": "$\\cos\\theta = -1$: $\\theta = 180^\\circ$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\theta = 60^\\circ,\\ 180^\\circ,\\ 300^\\circ"
+    },
+    "finalSym": "[60, 180, 300]",
+    "answerSym": "[acos(Rational(1, 2))*180/pi, acos(-1)*180/pi, 360 - acos(Rational(1, 2))*180/pi]"
+   },
+   {
+    "question": "Solve $2\\sin^2\\theta + 3\\cos\\theta - 3 = 0$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Replace $\\sin^2\\theta$",
+       "lines": [
+        {
+         "text": "Use $\\sin^2\\theta = 1 - \\cos^2\\theta$."
+        },
+        {
+         "tex": "2(1 - \\cos^2\\theta) + 3\\cos\\theta - 3 &= 0",
+         "sym": "Eq(2*(1 - c**2) + 3*c - 3, 0)",
+         "new": true
+        },
+        {
+         "tex": "2\\cos^2\\theta - 3\\cos\\theta + 1 &= 0",
+         "sym": "Eq(2*c**2 - 3*c + 1, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "(2\\cos\\theta - 1)(\\cos\\theta - 1) &= 0",
+         "sym": "Eq((2*c - 1)*(c - 1), 0)"
+        },
+        {
+         "tex": "\\cos\\theta &= \\tfrac{1}{2}\\quad\\text{or}\\quad\\cos\\theta = 1",
+         "sym": "Or(Eq(c, Rational(1, 2)), Eq(c, 1))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the angles",
+       "lines": [
+        {
+         "text": "$\\cos\\theta = \\tfrac{1}{2}$: $\\theta = 60^\\circ$ or $300^\\circ$."
+        },
+        {
+         "text": "$\\cos\\theta = 1$: $\\theta = 0^\\circ$ or $360^\\circ$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\theta = 0^\\circ,\\ 60^\\circ,\\ 300^\\circ,\\ 360^\\circ"
+    },
+    "finalSym": "[0, 60, 300, 360]",
+    "answerSym": "[0, acos(Rational(1, 2))*180/pi, 360 - acos(Rational(1, 2))*180/pi, 360]"
+   },
+   {
+    "question": "Solve $2\\cos^2\\theta = 3\\sin\\theta$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Replace $\\cos^2\\theta$",
+       "lines": [
+        {
+         "text": "Use $\\cos^2\\theta = 1 - \\sin^2\\theta$."
+        },
+        {
+         "tex": "2(1 - \\sin^2\\theta) &= 3\\sin\\theta",
+         "sym": "Eq(2*(1 - s**2), 3*s)",
+         "new": true
+        },
+        {
+         "tex": "2\\sin^2\\theta + 3\\sin\\theta - 2 &= 0",
+         "sym": "Eq(2*s**2 + 3*s - 2, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "(2\\sin\\theta - 1)(\\sin\\theta + 2) &= 0",
+         "sym": "Eq((2*s - 1)*(s + 2), 0)"
+        },
+        {
+         "tex": "\\sin\\theta &= \\tfrac{1}{2}\\quad\\text{or}\\quad\\sin\\theta = -2",
+         "sym": "Or(Eq(s, Rational(1, 2)), Eq(s, -2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Reject and solve",
+       "lines": [
+        {
+         "text": "$\\sin\\theta = -2$ has no solution, since $-1 \\le \\sin\\theta \\le 1$."
+        },
+        {
+         "text": "$\\sin\\theta = \\tfrac{1}{2}$: sine is positive, so $\\theta = 30^\\circ$ or $180^\\circ - 30^\\circ = 150^\\circ$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\theta = 30^\\circ,\\ 150^\\circ"
+    },
+    "finalSym": "[30, 150]",
+    "answerSym": "[asin(Rational(1, 2))*180/pi, 180 - asin(Rational(1, 2))*180/pi]"
+   }
+  ]
+ },
+ {
+  "skill": "trig-products-sums",
+  "problems": [
+   {
+    "question": "Show that $\\dfrac{\\sin 5x + \\sin x}{\\cos 5x + \\cos x} = \\tan 3x$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the sum-to-product formulae",
+       "lines": [
+        {
+         "tex": "\\sin P + \\sin Q &= 2\\sin\\frac{P + Q}{2}\\cos\\frac{P - Q}{2}"
+        },
+        {
+         "tex": "\\cos P + \\cos Q &= 2\\cos\\frac{P + Q}{2}\\cos\\frac{P - Q}{2}"
+        }
+       ]
+      },
+      {
+       "title": "Apply them with $P = 5x$, $Q = x$",
+       "lines": [
+        {
+         "tex": "\\frac{\\sin 5x + \\sin x}{\\cos 5x + \\cos x} &= \\frac{2\\sin 3x\\cos 2x}{2\\cos 3x\\cos 2x}",
+         "sym": "Eq((sin(5*x) + sin(x))/(cos(5*x) + cos(x)), 2*sin(3*x)*cos(2*x)/(2*cos(3*x)*cos(2*x)))"
+        }
+       ]
+      },
+      {
+       "title": "Cancel the common factor",
+       "lines": [
+        {
+         "text": "Divide top and bottom by $2\\cos 2x$."
+        },
+        {
+         "tex": "\\frac{2\\sin 3x\\cos 2x}{2\\cos 3x\\cos 2x} &= \\frac{\\sin 3x}{\\cos 3x}",
+         "sym": "Eq(2*sin(3*x)*cos(2*x)/(2*cos(3*x)*cos(2*x)), sin(3*x)/cos(3*x))",
+         "new": true
+        },
+        {
+         "tex": "&= \\tan 3x",
+         "sym": "Eq(sin(3*x)/cos(3*x), tan(3*x))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{\\sin 5x + \\sin x}{\\cos 5x + \\cos x} = \\tan 3x"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(((sin(5*x) + sin(x))/(cos(5*x) + cos(x)) - tan(3*x)).rewrite(exp))"
+   },
+   {
+    "question": "Use a product-to-sum formula to find the exact value of $2\\sin 75^\\circ\\cos 15^\\circ$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the formula",
+       "lines": [
+        {
+         "tex": "2\\sin P\\cos Q &= \\sin(P + Q) + \\sin(P - Q)"
+        }
+       ]
+      },
+      {
+       "title": "Apply it with $P = 75^\\circ$, $Q = 15^\\circ$",
+       "lines": [
+        {
+         "tex": "2\\sin 75^\\circ\\cos 15^\\circ &= \\sin 90^\\circ + \\sin 60^\\circ",
+         "sym": "Eq(2*sin(75*pi/180)*cos(15*pi/180), sin(pi/2) + sin(pi/3))"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate",
+       "lines": [
+        {
+         "tex": "\\sin 90^\\circ + \\sin 60^\\circ &= 1 + \\frac{\\sqrt{3}}{2}",
+         "sym": "Eq(sin(pi/2) + sin(pi/3), 1 + sqrt(3)/2)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "1 + \\frac{\\sqrt{3}}{2}"
+    },
+    "finalSym": "1 + sqrt(3)/2",
+    "answerSym": "2*sin(75*pi/180)*cos(15*pi/180)"
+   }
+  ]
+ }
+]
