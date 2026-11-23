@@ -1,0 +1,236 @@
+[
+{"skill": "geo-thm11", "problems": [
+ {"part": "practice-geo-thm11-1", "note": null,
+  "legend": {"1": "|DE|, the known segment (4.5 cm)", "2": "|EF|, equal to |DE|", "3": "the answer, |DF|"},
+  "steps": [
+   {"ask": "The equal segments are on one transversal. What does Theorem 11 say about the other one?", "title": "Use Theorem 11", "lines": [
+     {"text": "Three parallel lines cutting equal segments on one transversal cut equal segments on any transversal. $|AB| = |BC|$, so $\\hl{1}{|DE|} = \\hl{2}{|EF|}$."},
+     {"tex": "\\hl{2}{|EF|} &= \\hl{1}{4.5} \\text{ cm}"}]},
+   {"ask": "How do you find the whole length |DF| from its two parts?", "title": "Add the segments", "lines": [
+     {"tex": "\\hl{3}{|DF|} &= \\hl{1}{|DE|} + \\hl{2}{|EF|}"},
+     {"tex": "&= \\hl{1}{4.5} + \\hl{2}{4.5}"},
+     {"tex": "&= \\hl{3}{9} \\text{ cm}"}]}
+  ],
+  "final": "\\hl{3}{9} \\text{ cm}",
+  "graph": null},
+ {"part": "practice-geo-thm11-2", "note": "Changed: the two segments are now expressions in x, and the question asks for x instead of |DF|. Same: Theorem 11 makes |DE| = |EF|, so you set the two expressions equal.",
+  "legend": {"1": "|DE|, the segment x + 6", "2": "|EF|, equal to |DE|", "3": "the answer, x"},
+  "steps": [
+   {"ask": "What does Theorem 11 tell you about |DE| and |EF|? What equation follows?", "title": "Use Theorem 11", "lines": [
+     {"text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $\\hl{1}{|DE|} = \\hl{2}{|EF|}$."},
+     {"tex": "\\hl{1}{x + 6} &= \\hl{2}{3x - 2}"}]},
+   {"ask": "What do you need to do to 2x to leave x on its own?", "title": "Solve for $x$", "lines": [
+     {"tex": "8 &= 2\\hl{3}{x}"},
+     {"tex": "\\hl{3}{x} &= 4"}]}
+  ],
+  "final": "\\hl{3}{x = 4}",
+  "graph": null},
+ {"part": "practice-geo-thm11-3", "note": "Changed: you now solve for x first, then use it to find |DE| and add the two segments to get |DF|. Same: Theorem 11 makes |DE| = |EF|.",
+  "legend": {"1": "|DE|, the segment 2x + 1", "2": "|EF|, equal to |DE|", "3": "the answer, |DF|", "4": "x, the value found in step 2"},
+  "steps": [
+   {"ask": "Which two segments does Theorem 11 make equal, and what equation does that give?", "title": "Use Theorem 11", "lines": [
+     {"text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $\\hl{1}{|DE|} = \\hl{2}{|EF|}$."},
+     {"tex": "\\hl{1}{2x + 1} &= \\hl{2}{5x - 8}"}]},
+   {"ask": "How do you get x on its own from $9 = 3x$?", "title": "Solve for $x$", "lines": [
+     {"tex": "9 &= 3\\hl{4}{x}"},
+     {"tex": "\\hl{4}{x} &= \\hl{4}{3}"}]},
+   {"ask": "Once x is known, how long is |DE|, and how does that give |DF|?", "title": "Find $|DF|$", "lines": [
+     {"tex": "\\hl{1}{|DE|} &= 2(\\hl{4}{3}) + 1"},
+     {"tex": "&= \\hl{1}{7} \\text{ cm}"},
+     {"tex": "\\hl{3}{|DF|} &= \\hl{1}{7} + \\hl{2}{7}"},
+     {"tex": "&= \\hl{3}{14} \\text{ cm}"}]}
+  ],
+  "final": "\\hl{3}{|DF| = 14} \\text{ cm}",
+  "graph": null}
+]},
+{"skill": "geo-thm12", "problems": [
+ {"part": "practice-geo-thm12-1", "note": null,
+  "legend": {"1": "|AD|, the part of [AB] next to A", "2": "|DB|, the other part of [AB]", "3": "|AE|, the part of [AC] next to A", "4": "|EC|, the answer"},
+  "steps": [
+   {"ask": "A line parallel to BC cuts both sides. What do you know about the two ratios it creates?", "title": "State the ratio (Theorem 12)", "lines": [
+     {"text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."},
+     {"tex": "\\frac{\\hl{1}{|AD|}}{\\hl{2}{|DB|}} &= \\frac{\\hl{3}{|AE|}}{\\hl{4}{|EC|}}"},
+     {"tex": "\\frac{\\hl{1}{6}}{\\hl{2}{4}} &= \\frac{\\hl{3}{9}}{\\hl{4}{|EC|}}"}]},
+   {"ask": "How can you clear the fractions so that |EC| is on its own?", "title": "Solve for $|EC|$", "lines": [
+     {"tex": "6\\hl{4}{|EC|} &= 36"},
+     {"tex": "\\hl{4}{|EC|} &= \\hl{4}{6}"}]}
+  ],
+  "final": "\\hl{4}{|EC| = 6} \\text{ cm}",
+  "graph": null},
+ {"part": "practice-geo-thm12-3", "note": "Changed: the unknown is now |AD| instead of |EC|, so x sits in the numerator. Same: the same ratio equation, then cross-multiply.",
+  "legend": {"1": "|AD|, the answer x", "2": "|DB|, 4 cm", "3": "|AE|, 9 cm", "4": "|EC|, 6 cm"},
+  "steps": [
+   {"ask": "A line parallel to BC cuts both sides. Which two ratios are equal?", "title": "State the ratio (Theorem 12)", "lines": [
+     {"text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."},
+     {"tex": "\\frac{\\hl{1}{|AD|}}{\\hl{2}{|DB|}} &= \\frac{\\hl{3}{|AE|}}{\\hl{4}{|EC|}}"},
+     {"tex": "\\frac{\\hl{1}{x}}{\\hl{2}{4}} &= \\frac{\\hl{3}{9}}{\\hl{4}{6}}"}]},
+   {"ask": "How do you clear the fractions so that x is on its own?", "title": "Solve for $x$", "lines": [
+     {"tex": "6\\hl{1}{x} &= 36"},
+     {"tex": "\\hl{1}{x} &= \\hl{1}{6}"}]}
+  ],
+  "final": "\\hl{1}{x = 6}",
+  "graph": null},
+ {"part": "practice-geo-thm12-2", "note": "Changed (two things): the ratio is given as 4 : 6 and |AC| = 15 cm, so you write |AE| as x and |EC| as 15 − x before cross-multiplying. Same: Theorem 12 makes the two ratios equal.",
+  "legend": {"1": "|AD|, ratio part 4", "2": "|DB|, ratio part 6", "3": "|AE|, the answer (x)", "4": "|EC|, 15 − x"},
+  "steps": [
+   {"ask": "Which two ratios are equal, and what do the 4 : 6 parts tell you?", "title": "Set up the ratio (Theorem 12)", "lines": [
+     {"text": "$DE \\parallel BC$, so $\\hl{3}{|AE|} : \\hl{4}{|EC|} = \\hl{1}{|AD|} : \\hl{2}{|DB|} = 4 : 6$ (Theorem 12)."},
+     {"text": "Let $\\hl{3}{|AE|} = \\hl{3}{x}$, so $\\hl{4}{|EC|} = \\hl{4}{15 - x}$."},
+     {"tex": "\\frac{\\hl{3}{x}}{\\hl{4}{15 - x}} &= \\frac{\\hl{1}{4}}{\\hl{2}{6}}"}]},
+   {"ask": "What do you get when you cross-multiply, and how do you collect the x terms?", "title": "Cross-multiply and solve", "lines": [
+     {"tex": "6\\hl{3}{x} &= \\hl{1}{4}(\\hl{4}{15 - x})"},
+     {"tex": "10\\hl{3}{x} &= 60"},
+     {"tex": "\\hl{3}{x} &= \\hl{3}{6}"}]}
+  ],
+  "final": "\\hl{3}{|AE| = 6} \\text{ cm}",
+  "graph": null}
+]},
+{"skill": "geo-thm20", "problems": [
+ {"part": "practice-geo-thm20-1", "note": null,
+  "legend": {"1": "the radius r, the answer", "2": "|OP| = 17, the hypotenuse", "3": "|TP| = 15, the tangent"},
+  "steps": [
+   {"ask": "What angle does a tangent make with the radius at the point of contact? Which side is then opposite that right angle?", "title": "Use Theorem 20", "lines": [
+     {"text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $\\hl{2}{[OP]}$ is the hypotenuse of triangle $OTP$."}]},
+   {"ask": "How do the squares of the two shorter sides relate to the square of the hypotenuse?", "title": "Use Pythagoras", "lines": [
+     {"tex": "\\hl{1}{|OT|}^2 + \\hl{3}{|TP|}^2 &= \\hl{2}{|OP|}^2"},
+     {"tex": "\\hl{1}{r}^2 + \\hl{3}{15}^2 &= \\hl{2}{17}^2"},
+     {"tex": "\\hl{1}{r}^2 + \\hl{3}{225} &= \\hl{2}{289}"},
+     {"tex": "\\hl{1}{r}^2 &= 64"}]},
+   {"ask": "$r^2 = 64$ has two square roots. Which one can a length be?", "title": "Take the positive square root", "lines": [
+     {"text": "A radius cannot be negative."},
+     {"tex": "\\hl{1}{r} &= \\hl{1}{8}"}]}
+  ],
+  "final": "\\hl{1}{r = 8} \\text{ cm}",
+  "graph": null},
+ {"part": "maths-pp-2015-higher-p2-q7#(a)", "note": "Changed: you build a rectangle to get the legs, which are 3r and 8r, so the Pythagoras equation is solved for r. Same: the radius is perpendicular to the tangent, then Pythagoras.",
+  "legend": {"1": "the radius r, the answer", "2": "|AB| = 20√73, the hypotenuse"},
+  "steps": [
+   {"ask": "What do the perpendicular radii BK and AH tell you about the angles of BTHK?", "title": "Draw BT parallel to KH", "lines": [
+     {"text": "$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle."},
+     {"tex": "|TH| &= \\hl{1}{|BK|} = \\hl{1}{r}"},
+     {"tex": "|BT| &= |HK| = 8\\hl{1}{r}"},
+     {"tex": "|AT| &= 4\\hl{1}{r} - \\hl{1}{r}"},
+     {"tex": "&= 3\\hl{1}{r}"}]},
+   {"ask": "Which side is opposite the right angle at T? How do the three sides fit together?", "title": "Use Pythagoras in the right-angled triangle ATB", "lines": [
+     {"text": "$|\\angle ATB| = 90^{\\circ}$, so the hypotenuse is $\\hl{2}{[AB]}$."},
+     {"tex": "\\hl{2}{|AB|}^2 &= |AT|^2 + |BT|^2"},
+     {"tex": "\\hl{2}{\\left(20\\sqrt{73}\\right)}^2 &= (3\\hl{1}{r})^2 + (8\\hl{1}{r})^2"},
+     {"tex": "\\hl{2}{400 \\times 73} &= 9\\hl{1}{r}^2 + 64\\hl{1}{r}^2"},
+     {"tex": "29200 &= 73\\hl{1}{r}^2"},
+     {"tex": "\\hl{1}{r}^2 &= 400"}]},
+   {"ask": "$r^2 = 400$ has two square roots. Which one can a length be?", "title": "Take the positive square root", "lines": [
+     {"text": "A radius cannot be negative."},
+     {"tex": "\\hl{1}{r} &= \\hl{1}{20}"}]}
+  ],
+  "final": "\\hl{1}{r = 20} \\text{ cm}",
+  "graph": null},
+ {"part": "maths-pp-2019-higher-p2-q9#(d)(i)", "note": "Changed: the radius is now the height of a triangle, and the answer is an area with r still in it, not a Pythagoras equation. Same: the radius is perpendicular to the tangent, which is what Theorem 20 gives.",
+  "legend": {"1": "the radius r (the height)"},
+  "steps": [
+   {"ask": "What angle does the radius make with the tangent at the point of contact? Which side can then be the height?", "title": "Use the radius as the height of triangle HSP", "lines": [
+     {"text": "A radius meets a tangent at $90^\\circ$, so the radius from $P$ to $[SH]$ is perpendicular to $[SH]$. It is the height of $\\triangle HSP$, with base $|SH| = 58$."},
+     {"tex": "\\text{Area} &= \\frac{1}{2}(58)(\\hl{1}{r})"},
+     {"tex": "&= 29\\hl{1}{r}"}]}
+  ],
+  "final": "29\\hl{1}{r} \\text{ m}^2",
+  "graph": null}
+]},
+{"skill": "geo-transformations", "problems": [
+ {"part": "maths-pp-2018-ordinary-p2-q2#(d)", "note": null,
+  "legend": {"1": "U, the start of the given move", "2": "V, its image", "3": "Q, the point to move", "4": "S, the answer (image of Q)"},
+  "steps": [
+   {"ask": "How far must U move horizontally and vertically to reach V?", "title": "Find the translation that takes U to V", "lines": [
+     {"tex": "\\hl{1}{U(4, 6)} &\\to \\hl{2}{V(9, 7)}"},
+     {"tex": "\\text{Horizontal move} &= 9 - 4 = 5"},
+     {"tex": "\\text{Vertical move} &= 7 - 6 = 1"}]},
+   {"ask": "What do you add to Q's co-ordinates to get its image?", "title": "Apply the same translation to Q", "lines": [
+     {"tex": "\\hl{3}{Q(1, 2)} &\\to (1+5, 2+1)"},
+     {"tex": "\\hl{4}{S} &= \\hl{4}{(6, 3)}"}]}
+  ],
+  "final": "\\hl{4}{S = (6, 3)}",
+  "graph": null},
+ {"part": "practice-geo-transformations-1", "note": "Changed: the start point and the point to move have negative co-ordinates, so some of the moves involve subtracting a negative. Same: find the translation from one pair of points, then apply it to a third point.",
+  "legend": {"1": "P, the start of the given move", "2": "Q, its image", "3": "R, the point to move", "4": "S, the answer (image of R)"},
+  "steps": [
+   {"ask": "How far do the x- and y-co-ordinates change from P to Q?", "title": "Find the translation that takes P to Q", "lines": [
+     {"tex": "\\hl{1}{P(-3, 4)} &\\to \\hl{2}{Q(2, -1)}"},
+     {"tex": "\\text{Horizontal move} &= 2 - (-3) = 5"},
+     {"tex": "\\text{Vertical move} &= -1 - 4 = -5"}]},
+   {"ask": "If you apply the same changes to R, what are its new co-ordinates?", "title": "Apply the same translation to R", "lines": [
+     {"tex": "\\hl{3}{R(-5, -2)} &\\to (-5 + 5,\\ -2 - 5)"},
+     {"tex": "\\hl{4}{S} &= \\hl{4}{(0, -7)}"}]}
+  ],
+  "final": "\\hl{4}{S = (0, -7)}",
+  "graph": null},
+ {"part": "maths-pp-2019-ordinary-p2-q4#(a)", "note": "Changed: you do not get R's move directly, so you use the square PQRS to say S to P is the same move as R to Q, then apply it to R. Same: find the translation, then apply it.",
+  "legend": {"1": "S, the start of the given move", "2": "P, its image", "3": "R, the point to move", "4": "Q, the answer (image of R)"},
+  "steps": [
+   {"ask": "In a square, which sides are parallel? What does that say about the move from S to P and the move from R to Q?", "title": "Find the translation that takes S to P", "lines": [
+     {"text": "$PQRS$ is a square, so $\\hl{1}{S} \\to \\hl{2}{P}$ is the same move as $\\hl{3}{R} \\to \\hl{4}{Q}$."},
+     {"tex": "\\hl{1}{S(-4, 11)} &\\to \\hl{2}{P(2, 3)}"},
+     {"text": "The $x$-co-ordinate goes up by $2 - (-4) = 6$ and the $y$-co-ordinate goes down by $11 - 3 = 8$."}]},
+   {"ask": "What do the move across and the move up or down do to R's co-ordinates?", "title": "Apply the same translation to R", "lines": [
+     {"tex": "\\hl{3}{R(4, 17)} &\\to (4 + 6,\\ 17 - 8)"},
+     {"tex": "&= \\hl{4}{(10, 9)}"}]}
+  ],
+  "final": "\\hl{4}{Q(10, 9)}",
+  "graph": null}
+]},
+{"skill": "logic-terms-hl", "problems": [
+ {"part": "practice-logic-terms-hl-1", "note": null,
+  "legend": {"1": "the number 2, the product being tested", "2": "(a − b)(a + b), the product of the factors"},
+  "steps": [
+   {"ask": "What equation would a and b satisfy if such positive integers existed?", "title": "Assume the opposite", "lines": [
+     {"text": "Assume that there are positive integers $a$ and $b$ with the following property."},
+     {"tex": "a^2 - b^2 &= \\hl{1}{2}"}]},
+   {"ask": "Can you rewrite the left-hand side as a product of two factors?", "title": "Factorise", "lines": [
+     {"tex": "\\hl{2}{(a - b)(a + b)} &= \\hl{1}{2}"}]},
+   {"ask": "The factors differ by an even number. What does that tell you about whether they are both odd or both even?", "title": "Compare the two factors", "lines": [
+     {"text": "The factors differ by an even number, so they are both even or both odd."},
+     {"tex": "(a + b) - (a - b) &= 2b"},
+     {"text": "The product is $\\hl{1}{2}$, which is even, so the factors cannot both be odd. Both are therefore even."}]},
+   {"ask": "If both factors are even, what must their product be a multiple of? Does 2 fit that?", "title": "State the contradiction", "lines": [
+     {"text": "If both factors are even, their product is a multiple of $4$. But the product is $\\hl{1}{2}$, which is not a multiple of $4$."},
+     {"text": "This is a contradiction, so the assumption is false. Therefore there are no such integers $a$ and $b$."}]}
+  ],
+  "final": "\\text{No such integers exist}",
+  "graph": null},
+ {"part": "practice-logic-terms-hl-2", "note": "Changed: the target number is 6 instead of 2. Same: both factors must be even, so their product must be a multiple of 4, which 6 is not.",
+  "legend": {"1": "the number 6, the product being tested", "2": "(a − b)(a + b), the product of the factors"},
+  "steps": [
+   {"ask": "If such a and b existed, which equation would they satisfy?", "title": "Assume the opposite", "lines": [
+     {"text": "Assume that there are positive integers $a$ and $b$ with the following property."},
+     {"tex": "a^2 - b^2 &= \\hl{1}{6}"}]},
+   {"ask": "What do you get if you rewrite $a^2 - b^2$ as a product of two factors?", "title": "Factorise", "lines": [
+     {"tex": "\\hl{2}{(a - b)(a + b)} &= \\hl{1}{6}"}]},
+   {"ask": "If the two factors differ by an even number, can one be odd and the other even?", "title": "Compare the two factors", "lines": [
+     {"text": "The factors differ by an even number, so they are both even or both odd."},
+     {"tex": "(a + b) - (a - b) &= 2b"},
+     {"text": "The product is $\\hl{1}{6}$, which is even, so the factors cannot both be odd. Both are therefore even."}]},
+   {"ask": "If both factors are even, what must their product be a multiple of? Is 6 one of those?", "title": "State the contradiction", "lines": [
+     {"text": "If both factors are even, their product is a multiple of $4$. But the product is $\\hl{1}{6}$, which is not a multiple of $4$."},
+     {"text": "This is a contradiction, so the assumption is false. Therefore there are no such integers $a$ and $b$."}]}
+  ],
+  "final": "\\text{No such integers exist}",
+  "graph": null},
+ {"part": "maths-pp-2022-higher-p2-q6#(c)", "note": "Changed: this is a circle-angle argument rather than algebra, comparing the angle at the centre with the angle at R. Same: assume the opposite, reason to a contradiction, then conclude.",
+  "legend": {"1": "∠POQ, the angle at the centre", "2": "∠PRQ, the angle at R on the circumference"},
+  "steps": [
+   {"ask": "What do you assume about where O sits, and which lines do you join to it?", "title": "Assume the opposite", "lines": [
+     {"text": "Assume that $O$ is inside the triangle $PQR$."},
+     {"text": "Join $P$ to $O$ and $Q$ to $O$."}]},
+   {"ask": "If O is inside the triangle, how large can the angle POQ be?", "title": "Bound the angle at the centre", "lines": [
+     {"text": "If $O$ is inside the triangle, $\\hl{1}{\\angle POQ}$ is an angle inside triangle $POQ$, so it is less than a straight angle."},
+     {"tex": "\\hl{1}{|\\angle POQ|} &< 180^\\circ"}]},
+   {"ask": "How is the angle at the centre related to the angle at R on the same arc PQ?", "title": "Compare with the angle at the circumference", "lines": [
+     {"text": "The angle at the centre is twice the angle at the circumference on the same arc $PQ$, so $\\hl{2}{|\\angle PRQ|}$ is half of $\\hl{1}{|\\angle POQ|}$."},
+     {"tex": "\\hl{2}{|\\angle PRQ|} &= \\frac{1}{2}\\hl{1}{|\\angle POQ|}"},
+     {"tex": "&< \\frac{1}{2}(180^\\circ) = 90^\\circ"}]},
+   {"ask": "What does the angle at R that you just worked out contradict?", "title": "State the contradiction", "lines": [
+     {"text": "But the angle at $R$ is greater than $90^\\circ$. This contradicts the result above, so the assumption is false."},
+     {"text": "Therefore $O$ cannot be inside the triangle $PQR$."}]}
+  ],
+  "final": "O \\text{ cannot be inside triangle } PQR",
+  "graph": null}
+]}
+]
