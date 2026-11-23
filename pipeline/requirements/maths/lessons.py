@@ -259,7 +259,8 @@ def check_lesson(job, out):
             errs.append(f'{tag}: final answer changed beyond adding \\hl marks')
         used |= set(re.findall(r'\\hl\{(\d)\}', pr.get('final', '')))
         legend = {str(k) for k in (pr.get('legend') or {})}
-        if not used:
+        has_maths = any('tex' in ln or '$' in ln.get('text', '') for st in c['steps'] for ln in st['lines']) or re.sub(r'\\text\{[^}]*\}', '', c['final']).strip()
+        if not used and has_maths:   # a words-only solution has nothing to colour
             errs.append(f'{tag}: no \\hl marks')
         if used - legend or used - {'1', '2', '3', '4'}:
             errs.append(f'{tag}: slots {sorted(used)} need a legend entry each (slots 1-4 only)')
