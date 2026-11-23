@@ -1,0 +1,498 @@
+[
+ {
+  "skill": "fin-estimate",
+  "what": {
+   "say": [
+    "You give it a calculation. It gives back a quick **estimate**, close to the real answer, that you can do in your head.",
+    "The key idea: round every number to one **significant figure** first. Then the sum is easy, and the answer shows if your calculator work is sensible."
+   ],
+   "in": "a calculation",
+   "out": "estimate and check"
+  },
+  "how": {
+   "higher": null,
+   "ordinary": "Ordinary level uses it as a short part on Paper 2, for example estimating a height or a number of times, worth 5 marks, and as a check inside longer measurement questions."
+  },
+  "example": {
+   "question": "A shop sells $19.8$ kg of cheese at $€6.10$ per kg.\n(a) Estimate the cost by rounding each number to one significant figure.\n(b) Calculate the exact cost.\n(c) Is your answer to (b) sensible?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Round each number",
+      "say": "Round each number to one significant figure. Keep the first digit that is not zero and round the rest.",
+      "lines": [
+       {
+        "tex": "19.8 &\\approx 20",
+        "sym": "20",
+        "new": true,
+        "approx": true
+       },
+       {
+        "tex": "6.10 &\\approx 6",
+        "sym": "6",
+        "new": true,
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply the rounded numbers",
+      "say": "Now multiply the easy numbers. This is the **estimate**.",
+      "lines": [
+       {
+        "tex": "\\text{estimate} &= 20 \\times 6",
+        "sym": "20*6",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{120}",
+        "sym": "120"
+       }
+      ]
+     },
+     {
+      "title": "Calculate exactly",
+      "say": "Use the original numbers. Multiply the weight by the price per kg.",
+      "lines": [
+       {
+        "tex": "\\text{cost} &= 19.8 \\times 6.10",
+        "sym": "Rational(198,10)*Rational(61,10)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{120.78}",
+        "sym": "Rational(12078,100)"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two",
+      "say": "Put the exact answer next to the estimate. They should be close.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{120.78} - \\hl{1}{120} &= 0.78",
+        "sym": "Rational(12078,100)-120",
+        "new": true
+       },
+       {
+        "text": "The difference is under €1. The exact cost of $\\hl{2}{€120.78}$ is sensible."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{estimate } €120, \\text{ exact cost } €120.78"
+   },
+   "finalSym": "Rational(12078,100)",
+   "answerSym": "Rational(198,10)*Rational(61,10)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show the working for your estimate. A wrong box ticked or a slightly wrong estimate still earns marks if your working is consistent with it.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q9#(a)",
+       "quote": "Incorrect box ticked but gives"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fin-profit-margin",
+  "what": {
+   "say": [
+    "You give it a cost price and a selling price. It finds the **profit**, the **mark-up** and the **margin**.",
+    "The key idea: profit is selling price minus cost price. Mark-up is that profit as a percentage of the **cost price**. Margin is the same profit as a percentage of the **selling price**."
+   ],
+   "in": "cost price and selling price",
+   "out": "profit, mark-up, margin"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 1 money questions, for example turning a margin of 18% into a mark-up of 22% (5 marks), or comparing two ways to write a percentage of a price (10 marks).",
+   "ordinary": "Ordinary level uses it in Paper 1 Question 6, where a mark-up gives a selling price and then the profit is found as a percentage of that selling price (10 marks)."
+  },
+  "example": {
+   "question": "A shop buys a bag for $€45$ and sells it for $€60$. Find (a) the profit, (b) the mark-up as a percentage of the cost price, (c) the margin as a percentage of the selling price.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the profit",
+      "say": "Profit is the selling price minus the cost price.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{profit}} &= 60 - 45",
+        "sym": "60-45",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{15}",
+        "sym": "15"
+       }
+      ]
+     },
+     {
+      "title": "Find the mark-up",
+      "say": "Mark-up divides the profit by the cost price. The cost price is the one the shop paid.",
+      "lines": [
+       {
+        "tex": "\\text{mark-up} &= \\frac{\\hl{1}{15}}{45} \\times 100",
+        "sym": "Rational(15,45)*100",
+        "new": true
+       },
+       {
+        "tex": "&\\approx \\hl{2}{33.3}\\%",
+        "sym": "Rational(100,3)",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Find the margin",
+      "say": "Margin divides the same profit by the selling price instead.",
+      "lines": [
+       {
+        "tex": "\\text{margin} &= \\frac{\\hl{1}{15}}{60} \\times 100",
+        "sym": "Rational(15,60)*100",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{25}\\%",
+        "sym": "25"
+       }
+      ]
+     },
+     {
+      "title": "Check the two",
+      "say": "The profit is the same in both. Only the number you divide by changes.",
+      "lines": [
+       {
+        "text": "Mark-up divides by $45$, the cost. Margin divides by $60$, the selling price."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{profit } €15, \\text{ mark-up } 33.3\\%, \\text{ margin } 25\\%"
+   },
+   "finalSym": "Tuple(15,Rational(100,3),25)",
+   "answerSym": "Tuple(60-45,Rational(60-45,45)*100,Rational(60-45,60)*100)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When a question gives a margin, write the cost price as a percentage of the selling price first. That earns credit before any mark-up is found.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(f)",
+       "quote": "Cost Price = 82% of Selling Price"
+      }
+     ]
+    },
+    {
+     "tip": "Do not test the answer with numbers you pick. Write each option using the letters in the question, because checking one set of values earns at most low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(d)",
+       "quote": "is given at most Low Partial Credit"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "If the question gives an answer without work, you can still get full marks for the first part, but show your work anyway so a slip does not lose the rest.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q6#(a)(i), (ii)",
+       "quote": "Accept correct answer without work for (i)"
+      }
+     ]
+    },
+    {
+     "tip": "In the second part, use your answer from the first. Using it is work of merit even when it is not fully correct.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q6#(a)(i), (ii)",
+       "quote": "use of answer from (i)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fin-compound-interest",
+  "what": {
+   "say": [
+    "You give it a starting amount $P$, a yearly rate and a number of years. It gives back the **final value** $F$.",
+    "The key idea: each year the amount is multiplied by the same number, $1 + i$. So after $t$ years you multiply $t$ times, which is $F = P(1 + i)^t$."
+   ],
+   "in": "$P$, $i$, $t$",
+   "out": "$F = P(1+i)^t$"
+  },
+  "how": {
+   "higher": "Higher level uses it as the first part of a Paper 1 money question (5 marks, for example $F = 3000(1 + 0.024)^3$), and then builds on it with present value and rates.",
+   "ordinary": "Ordinary level asks for it in Paper 1 almost every year, as a 5 or 10 mark part: the final value, the starting amount worked backwards, or the rate."
+  },
+  "example": {
+   "question": "Aoife invests $€7000$ at $2.5\\%$ per year compound interest for $3$ years. Find the value of her investment at the end of $3$ years, to the nearest cent.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "Each year the amount grows by the rate. Write the formula for $t$ years.",
+      "lines": [
+       {
+        "tex": "F &= P(1 + i)^t",
+        "sym": "P*(1+i)**t",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write down what you know",
+      "say": "Change $2.5\\%$ to a decimal. Then list the three values.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{i} &= 2.5\\% = 0.025",
+        "sym": "Rational(25,1000)",
+        "new": true
+       },
+       {
+        "text": "$P = 7000$ and $t = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put the numbers into the formula. Add $1$ to $\\hl{1}{i}$ first.",
+      "lines": [
+       {
+        "tex": "F &= 7000(1 + \\hl{1}{0.025})^3",
+        "sym": "7000*(1+Rational(25,1000))**3",
+        "new": true
+       },
+       {
+        "tex": "&= 7000(1.025)^3",
+        "sym": "7000*Rational(1025,1000)**3"
+       }
+      ]
+     },
+     {
+      "title": "Calculate",
+      "say": "Work out the power, then multiply. Round to the cent at the end.",
+      "lines": [
+       {
+        "tex": "F &= 7000 \\times 1.076890625",
+        "sym": "7000*Rational(1076890625,10**9)"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{7538.23}",
+        "sym": "Rational(753823,100)",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "€7538.23"
+   },
+   "finalSym": "Rational(753823,100)",
+   "answerSym": "round(7000*(1+Rational(25,10)/100)**3,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Even a part-way answer earns marks: change the rate to a decimal, or substitute into the formula.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(a)",
+       "quote": "finds 2.4% as a decimal"
+      }
+     ]
+    },
+    {
+     "tip": "Give a rate as a percentage. Leaving it as a decimal loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q8#(a)",
+       "quote": "Answer given as a decimal"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the formula out with every number substituted. Fully substituted earns high partial credit even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q7#(b)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the correct formula on its own earns marks, so start with it.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p1-q1#(b)",
+       "quote": "correct formula written"
+      }
+     ]
+    },
+    {
+     "tip": "The list method works too. Finding the amount year by year, with the correct amounts for most years, earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p1-q1#(b)",
+       "quote": "List Method"
+      }
+     ]
+    },
+    {
+     "tip": "For a part with only a short answer, it can be accepted without work, but a wrong answer with no work earns nothing. Show the calculation.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q9#(a)(i), (ii)",
+       "quote": "Accept correct answer without work for (i)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fin-depreciation",
+  "what": {
+   "say": [
+    "You give it a starting value $P$, a yearly rate of loss and a number of years. It gives back the **value** $F$ after those years.",
+    "The key idea: each year the value is multiplied by the same number, $1 - i$, because the car keeps $100\\% - i$ of what it was worth. So $F = P(1 - i)^t$."
+   ],
+   "in": "$P$, $i$, $t$",
+   "out": "$F = P(1-i)^t$"
+  },
+  "how": {
+   "higher": null,
+   "ordinary": "Ordinary level asks for it on Paper 1 in most years, as a 5 or 10 mark part: the value of a car after some years, often followed by a graph or a percentage loss."
+  },
+  "example": {
+   "question": "A van costs $€25\\,000$ new. It loses $10\\%$ of its value each year. Find the value of the van after $4$ years.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the yearly multiplier",
+      "say": "The van keeps $90\\%$ of its value each year. Write that as a decimal.",
+      "lines": [
+       {
+        "tex": "1 - \\hl{1}{i} &= 1 - 0.10",
+        "sym": "1-Rational(10,100)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{0.9}",
+        "sym": "Rational(9,10)"
+       }
+      ]
+     },
+     {
+      "title": "Write the formula",
+      "say": "Each year the value is multiplied by $\\hl{2}{0.9}$. After $t$ years that is $t$ times.",
+      "lines": [
+       {
+        "tex": "F &= P(1 - i)^t",
+        "sym": "P*(1-i)**t",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put in $P = 25\\,000$, the multiplier $\\hl{2}{0.9}$ and $t = 4$.",
+      "lines": [
+       {
+        "tex": "F &= 25\\,000(\\hl{2}{0.9})^4",
+        "sym": "25000*Rational(9,10)**4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Calculate",
+      "say": "Work out $0.9^4$, then multiply.",
+      "lines": [
+       {
+        "tex": "F &= 25\\,000 \\times 0.6561",
+        "sym": "25000*Rational(6561,10000)"
+       },
+       {
+        "tex": "&= \\hl{3}{€16\\,402.50}",
+        "sym": "Rational(32805,2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "€16\\,402.50"
+   },
+   "finalSym": "Rational(32805,2)",
+   "answerSym": "25000*(1-Rational(10,100))**4"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Write the depreciation formula down first. A correct formula on its own earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q9#(b)(i)",
+       "quote": "Correct depreciation formula"
+      }
+     ]
+    },
+    {
+     "tip": "In a formula you make up yourself, three things must be right: the starting value, the multiplier, and the power. Two correct earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q9#(b)(i)",
+       "quote": "2 elements of formula correct"
+      }
+     ]
+    },
+    {
+     "tip": "Writing $t$ down is marked as work of merit. Say how many years the question asks for.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q9#(b)(i)",
+       "quote": "writes t = 4"
+      }
+     ]
+    },
+    {
+     "tip": "Year by year works as a second method. List each year's value and keep going to the year asked for.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p1-q1#(a)",
+       "quote": "List Method"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

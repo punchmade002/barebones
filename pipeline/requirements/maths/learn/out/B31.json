@@ -1,0 +1,575 @@
+[
+ {
+  "skill": "diff-stationary",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$. It finds the points where the graph **turns**, and says which are peaks and which are dips.",
+    "The key idea: at a turning point the slope is zero, so solve $f'(x) = 0$. Then the sign of $f''(x)$ tells you the shape."
+   ],
+   "in": "$f(x)$",
+   "out": "max and min points"
+  },
+  "how": {
+   "higher": "Higher level uses it every year from 2015 to 2025, one to three parts a year, usually 5 to 15 marks and often inside a bigger question (a maximum value in context, a cubic with a tangent, a check of a claim about a minimum).",
+   "ordinary": "Ordinary level uses it in every year except 2019, usually a 10 or 15 mark part on Paper 1: differentiate, set the derivative to zero, then find the $y$-value."
+  },
+  "example": {
+   "question": "Find the turning points of $f(x) = x^3 - 12x + 5$, and say which is the maximum and which is the minimum.",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate and set to zero",
+      "say": "At a turning point the slope is zero. Differentiate, then set $\\hl{1}{f'(x)}$ equal to $0$.",
+      "lines": [
+       {
+        "tex": "f(x) &= x^3 - 12x + 5",
+        "sym": "x**3-12*x+5",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{f'(x)} &= 3x^2 - 12",
+        "sym": "3*x**2-12",
+        "new": true
+       },
+       {
+        "text": "Set $\\hl{1}{f'(x)} = 0$. Every term divides by 3. Do that first."
+       },
+       {
+        "tex": "x^2 - 4 &= 0",
+        "sym": "x**2-4",
+        "new": true
+       },
+       {
+        "tex": "x^2 &= 4",
+        "sym": "4",
+        "new": true
+       },
+       {
+        "text": "So $x = \\hl{2}{-2}$ or $x = \\hl{2}{2}$."
+       }
+      ]
+     },
+     {
+      "title": "Find the y-values",
+      "say": "Each $\\hl{2}{x}$ is only half of a point. Put it into the original $f(x)$, not the derivative, to get $\\hl{3}{y}$.",
+      "lines": [
+       {
+        "tex": "f(-2) &= (-2)^3 - 12(-2) + 5 = \\hl{3}{21}",
+        "sym": "21",
+        "new": true
+       },
+       {
+        "tex": "f(2) &= (2)^3 - 12(2) + 5 = \\hl{3}{-11}",
+        "sym": "-11",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Test with f''",
+      "say": "Differentiate again. If $f''(x)$ is negative the point is a **max**; if it is positive, a **min**.",
+      "lines": [
+       {
+        "tex": "f''(x) &= 6x",
+        "sym": "6*x",
+        "new": true
+       },
+       {
+        "tex": "f''(-2) &= 6(-2) = -12",
+        "sym": "-12",
+        "new": true
+       },
+       {
+        "text": "Negative, so $(-2, 21)$ is a **max**."
+       },
+       {
+        "tex": "f''(2) &= 6(2) = 12",
+        "sym": "12",
+        "new": true
+       },
+       {
+        "text": "Positive, so $(2, -11)$ is a **min**."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "max $(-2, 21)$, min $(2, -11)$"
+   },
+   "finalSym": "[-2, 2]",
+   "answerSym": "solve(diff(x**3-12*x+5,x),x)"
+  },
+  "graph": {
+   "f": "x**3 - 12*x + 5",
+   "box": [
+    -5,
+    35,
+    5,
+    -25
+   ],
+   "points": [
+    {
+     "x": -2,
+     "y": 21,
+     "name": "max (-2, 21)"
+    },
+    {
+     "x": 2,
+     "y": -11,
+     "name": "min (2, -11)"
+    }
+   ],
+   "slots": {
+    "x": 2,
+    "y": 3
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show that the derivative is zero, then justify the type. Finding $f'(x) = 0$ with no reason it is a max earns only part of the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q8#(b)(ii)",
+       "quote": "no further justification that it is the max"
+      }
+     ]
+    },
+    {
+     "tip": "Turning points are points, not just $x$-values. Finding both $x$ values is only mid credit; finish with the $y$-values.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q4#(b)",
+       "quote": "Turning points found"
+      }
+     ]
+    },
+    {
+     "tip": "If you do not differentiate, you get nothing for the part.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q8#(a)(iii)",
+       "quote": "No differentiation"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Use calculus. If you find the turning point without differentiating, you get zero marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q5#(c)",
+       "quote": "If differentiation is not used, award zero marks"
+      }
+     ]
+    },
+    {
+     "tip": "Write $f'(x) = 0$ as its own step. It is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q8#(b)(i), (ii)",
+       "quote": "Equates derivative to zero"
+      }
+     ]
+    },
+    {
+     "tip": "Solve $f'(x) = 0$, not $f(x) = 0$. Solving the original function earns zero.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q6#(a)(ii)",
+       "quote": "Zero marks for solving"
+      }
+     ]
+    },
+    {
+     "tip": "Finish with the $y$-value: put your $x$ back into the original function.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q8#(b)(i), (ii)",
+       "quote": "Finds the maximum value"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-inflection",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$. It finds the point where the graph changes from curving one way to curving the other: the **point of inflection**.",
+    "The key idea: at that point $f''(x) = 0$, and $f''$ changes sign either side of it."
+   ],
+   "in": "$f(x)$",
+   "out": "point of inflection"
+  },
+  "how": {
+   "higher": "Higher level asks it in six parts (2015, 2018, 2020, 2021, 2022, 2024), worth 5 or 10 marks, usually after turning points or a tangent, and sometimes to show a function has no inflection at all.",
+   "ordinary": "Ordinary level asked it once, in 2019 Q3(b), as a 5-mark part: find $f''(x)$ and set it equal to $0$."
+  },
+  "example": {
+   "question": "Find the point of inflection of $f(x) = x^3 - 9x^2 + 5x - 2$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find f''",
+      "say": "Differentiate twice. A point of inflection is where $\\hl{1}{f''(x)}$ is zero.",
+      "lines": [
+       {
+        "tex": "f(x) &= x^3 - 9x^2 + 5x - 2",
+        "sym": "x**3-9*x**2+5*x-2",
+        "new": true
+       },
+       {
+        "tex": "f'(x) &= 3x^2 - 18x + 5",
+        "sym": "3*x**2-18*x+5",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{f''(x)} &= 6x - 18",
+        "sym": "6*x-18",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve f'' = 0",
+      "say": "Set $\\hl{1}{f''(x)}$ equal to $0$ and solve for $\\hl{2}{x}$.",
+      "lines": [
+       {
+        "tex": "6x &= 18",
+        "sym": "18",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{2}{3}",
+        "sym": "3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the y-value",
+      "say": "Put $x = \\hl{2}{3}$ into the original $f(x)$ to get $\\hl{3}{y}$.",
+      "lines": [
+       {
+        "tex": "f(3) &= 27 - 81 + 15 - 2",
+        "sym": "-41",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{-41}",
+        "sym": "-41"
+       }
+      ]
+     },
+     {
+      "title": "Check the sign changes",
+      "say": "$f''(x) = 0$ is not enough on its own. Check that $f''$ has opposite signs either side of $x = 3$.",
+      "lines": [
+       {
+        "tex": "f''(2) &= 6(2) - 18 = -6",
+        "sym": "-6",
+        "new": true
+       },
+       {
+        "tex": "f''(4) &= 6(4) - 18 = 6",
+        "sym": "6",
+        "new": true
+       },
+       {
+        "text": "The sign changes from negative to positive, so $(3, -41)$ is a point of inflection."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "$(3, -41)$"
+   },
+   "finalSym": "3",
+   "answerSym": "solve(diff(x**3-9*x**2+5*x-2,x,2),x)"
+  },
+  "graph": {
+   "f": "x**3 - 9*x**2 + 5*x - 2",
+   "box": [
+    -1,
+    10,
+    8,
+    -90
+   ],
+   "points": [
+    {
+     "x": 3,
+     "y": -41,
+     "name": "inflection (3, -41)"
+    }
+   ],
+   "slots": {
+    "x": 2,
+    "y": 3
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Find $f''(x)$ properly. If a product or chain rule is needed and you skip it, the part is capped at mid credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q8#(d)",
+       "quote": "Note: if the product rule and chain rule are not applied in finding"
+      }
+     ]
+    },
+    {
+     "tip": "An $x$-value is not the answer. The point of inflection needs its $y$-value as well.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q4#(c)",
+       "quote": "Point of inflection found"
+      }
+     ]
+    },
+    {
+     "tip": "To show there is no point of inflection, show $f''(x)$ can never equal $0$, then say so.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q10#(d)",
+       "quote": "So, no points of inflection"
+      }
+     ]
+    },
+    {
+     "tip": "Where a part builds on earlier calculus, your working must use calculus to earn any credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q8#(b)(iii)",
+       "quote": "must involve calculus, or be based on calculus from"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-rates-of-change",
+  "what": {
+   "say": [
+    "You give it a quantity that changes with time, such as distance $s(t)$. It gives back how fast it is changing: the **rate**, which is the velocity for distance and the acceleration for velocity.",
+    "The key idea: a rate of change is a derivative. Differentiate, then put in the time."
+   ],
+   "in": "$s(t)$",
+   "out": "$v$ and $a$ at a time"
+  },
+  "how": {
+   "higher": "Higher level asks it in 2016, 2021, 2022 and 2023, as 5 to 15 mark parts inside long context questions (heart rate, volume, area, speed), often with an unit and a meaning to state.",
+   "ordinary": "Ordinary level asks it in 2017, 2018, 2019, 2023 and 2024, as 5 or 10 mark parts on Paper 1: differentiate, put in the time, then say what the answer means."
+  },
+  "example": {
+   "question": "A particle moves in a straight line. After $t$ seconds its distance from a point is $s = t^3 - 6t^2 + 5t$ metres. Find its velocity and its acceleration when $t = 4$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the velocity",
+      "say": "Velocity is the rate of change of distance. Differentiate $s$ with respect to $t$, then put in $t = 4$.",
+      "lines": [
+       {
+        "tex": "s &= t^3 - 6t^2 + 5t",
+        "sym": "t**3-6*t**2+5*t",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{v} &= \\frac{ds}{dt} = 3t^2 - 12t + 5",
+        "sym": "3*t**2-12*t+5",
+        "new": true
+       },
+       {
+        "tex": "v(4) &= 3(4)^2 - 12(4) + 5",
+        "sym": "3*16-12*4+5",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{5}",
+        "sym": "5"
+       },
+       {
+        "text": "Velocity: $5$ m/s."
+       }
+      ]
+     },
+     {
+      "title": "Find the acceleration",
+      "say": "Acceleration is the rate of change of velocity. Differentiate $\\hl{1}{v}$, then put in $t = 4$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{a} &= \\frac{dv}{dt} = 6t - 12",
+        "sym": "6*t-12",
+        "new": true
+       },
+       {
+        "tex": "a(4) &= 6(4) - 12",
+        "sym": "6*4-12",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{12}",
+        "sym": "12"
+       },
+       {
+        "text": "Acceleration: $12$ m/s$^2$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "velocity $5$ m/s, acceleration $12$ m/s$^2$"
+   },
+   "finalSym": "[5, 12]",
+   "answerSym": "[diff(t**3-6*t**2+5*t,t).subs(t,4), diff(t**3-6*t**2+5*t,t,2).subs(t,4)]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "You must differentiate. A correct answer reached without calculus can earn nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q10#(a)(ii)",
+       "quote": "differentiation must be used in order"
+      }
+     ]
+    },
+    {
+     "tip": "Put the unit on the rate. A correct number with no unit or a wrong unit loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q10#(a)(ii)",
+       "quote": "Correct answer but no or incorrect unit"
+      }
+     ]
+    },
+    {
+     "tip": "When asked what a rate means, say it in the words of the question: the rate at which the quantity is changing at that time.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q7#(c)",
+       "quote": "It is the rate at which"
+      }
+     ]
+    },
+    {
+     "tip": "A number is not enough: write the answer in context, with what is changing and how fast.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q8#(b)",
+       "quote": "correct numerical answer but not in context"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Explain the rate in context, with the unit: it is growing at that many per hour.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q7#(a)(v)",
+       "quote": "growing at a rate of 6000 per hour"
+      }
+     ]
+    },
+    {
+     "tip": "A negative rate means the quantity is decreasing. Say so.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p1-q8#(e)(ii)",
+       "quote": "Rate is negative so the amount of the drug is decreasing"
+      }
+     ]
+    },
+    {
+     "tip": "Write the derivative, $C'(t)$ or a similar form, before you substitute. It shows you meant to differentiate.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p1-q8#(e)(ii)",
+       "quote": "indication of differentiation"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-tangent-circle",
+  "what": {
+   "say": [
+    "You give it the equation of a circle and a point on it. It gives back the **slope** of the tangent at that point.",
+    "The key idea: differentiate both sides with respect to $x$, and treat $y$ as a function of $x$, so $y^2$ becomes $2y\\frac{dy}{dx}$."
+   ],
+   "in": "circle and point",
+   "out": "slope $\\frac{dy}{dx}$"
+  },
+  "how": {},
+  "example": {
+   "question": "The circle $x^2 + y^2 = 169$ contains the point $(5, 12)$. Find the slope of the tangent to the circle at that point.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate both sides",
+      "say": "Differentiate each term with respect to $x$. Because $y$ depends on $x$, the term $y^2$ gives $2y\\,\\hl{1}{\\frac{dy}{dx}}$.",
+      "lines": [
+       {
+        "text": "$\\frac{d}{dx}(x^2) = 2x$, $\\frac{d}{dx}(y^2) = 2y\\,\\hl{1}{\\frac{dy}{dx}}$, and $\\frac{d}{dx}(169) = 0$."
+       },
+       {
+        "tex": "2x + 2y\\,\\hl{1}{\\frac{dy}{dx}} &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the slope",
+      "say": "Get $\\hl{1}{\\frac{dy}{dx}}$ on its own.",
+      "lines": [
+       {
+        "tex": "2y\\,\\hl{1}{\\frac{dy}{dx}} &= -2x"
+       },
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{x}{y}",
+        "sym": "-x/y",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put in the point",
+      "say": "Now put in $x = 5$ and $y = 12$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{dy}{dx}} &= -\\frac{5}{12}",
+        "sym": "-Rational(5,12)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "$-\\dfrac{5}{12}$"
+   },
+   "finalSym": "-Rational(5,12)",
+   "answerSym": "idiff(x**2+y**2-169, y, x).subs({x:5, y:12})"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]
