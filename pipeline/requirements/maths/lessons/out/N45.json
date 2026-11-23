@@ -75,7 +75,7 @@
   "final": "\\hl{2}{24\\%}",
   "graph": null},
  {"part": "practice-stat-srs-bias-1", "note": "This sample is a simple random sample, so there is no bias to spot. The second step finds the chance of one student being picked (25 out of 300), not a percentage left out, so the calculation changes too.",
-  "legend": {"1": "the fraction in the group (left out, or chosen)", "2": "the percentage left out"},
+  "legend": {"1": "the fraction in the group (left out, or chosen)"},
   "steps": [
    {"ask": "Does every student have the same chance of being picked by the random number generator?", "title": "Say why the method is a simple random sample", "lines": [{"text": "Every student has the same chance of selection, so there is no bias."}]},
    {"ask": "How many of the 300 students are picked, and what fraction does that give?", "title": "Find the probability", "lines": [{"tex": "P &= \\hl{1}{\\frac{25}{300}} = \\hl{1}{\\frac{1}{12}}"}]}
