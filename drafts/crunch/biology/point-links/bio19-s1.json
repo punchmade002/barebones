@@ -1,0 +1,535 @@
+{
+ "bio19-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.0",
+    "strength": "essential",
+    "why": "defined relative to the CNS",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.0",
+    "strength": "helpful",
+    "why": "CNS as brain and spinal cord",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.5",
+    "strength": "essential",
+    "why": "nerve impulses",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.0.0",
+    "strength": "helpful",
+    "why": "CNS",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.4",
+    "strength": "helpful",
+    "why": "neuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.4",
+    "strength": "essential",
+    "why": "neuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.4",
+    "strength": "essential",
+    "why": "neuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.4",
+    "strength": "essential",
+    "why": "nerves as bundles of fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.1.2",
+    "strength": "helpful",
+    "why": "spinal nerves are nerves",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.1.3",
+    "strength": "essential",
+    "why": "spinal nerves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.1.4",
+    "strength": "essential",
+    "why": "roots of spinal nerve",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.1.4",
+    "strength": "essential",
+    "why": "roots of spinal nerve",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.1.5",
+    "strength": "essential",
+    "why": "dorsal root",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.1.6",
+    "strength": "essential",
+    "why": "ventral root",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.4.1",
+    "strength": "helpful",
+    "why": "grey matter",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.0.0",
+    "strength": "helpful",
+    "why": "CNS as brain and spinal cord",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.1.0",
+    "strength": "helpful",
+    "why": "sensory and motor impulses",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.3.0",
+    "strength": "helpful",
+    "why": "spinal cord function",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.4.0",
+    "strength": "helpful",
+    "why": "central canal position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.4.1",
+    "strength": "helpful",
+    "why": "surrounds the grey matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.4.1",
+    "strength": "essential",
+    "why": "grey matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.4.2",
+    "strength": "essential",
+    "why": "white matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.4.1",
+    "strength": "essential",
+    "why": "grey matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.4.1",
+    "strength": "essential",
+    "why": "grey and white matter layout",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.1.5",
+    "strength": "helpful",
+    "why": "dorsal root",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.3.b",
+    "strength": "helpful",
+    "why": "spinal cord in vertebral column",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s1.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.5.2",
+    "strength": "essential",
+    "why": "meninges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.5.3",
+    "strength": "essential",
+    "why": "cerebrospinal fluid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.5.2",
+    "strength": "essential",
+    "why": "meninges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.6.0",
+    "strength": "essential",
+    "why": "cerebrum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.6.0",
+    "strength": "essential",
+    "why": "cerebral hemispheres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.6.0",
+    "strength": "helpful",
+    "why": "cerebrum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.6.0",
+    "strength": "helpful",
+    "why": "cerebrum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.6.0",
+    "strength": "helpful",
+    "why": "position relative to cerebrum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.7.0",
+    "strength": "essential",
+    "why": "cerebellum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.3.b",
+    "strength": "helpful",
+    "why": "joins the spinal cord",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio19-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.8.0",
+    "strength": "essential",
+    "why": "medulla oblongata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.8.0",
+    "strength": "essential",
+    "why": "medulla oblongata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.6.0",
+    "strength": "helpful",
+    "why": "position below cerebrum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.9.0",
+    "strength": "essential",
+    "why": "hypothalamus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.9.0",
+    "strength": "essential",
+    "why": "hypothalamus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio19-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio19-s1.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio19-s1.6.0",
+    "strength": "helpful",
+    "why": "cerebrum",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.7.0",
+    "strength": "helpful",
+    "why": "cerebellum",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.8.0",
+    "strength": "helpful",
+    "why": "medulla oblongata",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.9.0",
+    "strength": "helpful",
+    "why": "hypothalamus",
+    "confidence": "high"
+   }
+  ]
+ }
+}

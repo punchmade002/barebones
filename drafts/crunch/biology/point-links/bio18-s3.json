@@ -1,0 +1,527 @@
+{
+ "bio18-s3.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s2.0.0",
+    "strength": "helpful",
+    "why": "axial skeleton parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.2",
+    "strength": "helpful",
+    "why": "bones as levers for muscles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.1.0",
+    "strength": "helpful",
+    "why": "shaft of a long bone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.2.3",
+    "strength": "helpful",
+    "why": "red marrow in spongy bone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.2.5",
+    "strength": "helpful",
+    "why": "yellow marrow in shafts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.0",
+    "strength": "helpful",
+    "why": "cartilage and joints",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.1",
+    "strength": "helpful",
+    "why": "tendons join muscle to bone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.1.2",
+    "strength": "helpful",
+    "why": "spongy bone and red marrow",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio18-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.0.0",
+    "strength": "helpful",
+    "why": "girdle definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.0.0",
+    "strength": "essential",
+    "why": "girdle definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s2.6.6",
+    "strength": "helpful",
+    "why": "sternum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.2.1",
+    "strength": "helpful",
+    "why": "clavicle shape and position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.2.1",
+    "strength": "essential",
+    "why": "clavicle-sternum joint",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.2.4",
+    "strength": "essential",
+    "why": "scapula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.2.4",
+    "strength": "essential",
+    "why": "scapula surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.2.4",
+    "strength": "essential",
+    "why": "scapula socket",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.0.0",
+    "strength": "helpful",
+    "why": "girdle definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s2.2.5",
+    "strength": "essential",
+    "why": "sacrum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.3.0",
+    "strength": "helpful",
+    "why": "hip bones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.3.0",
+    "strength": "essential",
+    "why": "pelvic girdle joined to sacrum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.3.0",
+    "strength": "essential",
+    "why": "pelvic girdle structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.3.3",
+    "strength": "essential",
+    "why": "deep hip socket",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.2.1",
+    "strength": "helpful",
+    "why": "protection function of bones",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio18-s3.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.3.0",
+    "strength": "helpful",
+    "why": "pelvic girdle structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.3.2",
+    "strength": "helpful",
+    "why": "rigid pelvic girdle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.2.7",
+    "strength": "essential",
+    "why": "shallow shoulder socket",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.4.0",
+    "strength": "helpful",
+    "why": "attachment comparison",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio18-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.2.7",
+    "strength": "essential",
+    "why": "shoulder ball-and-socket joint",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.5.0",
+    "strength": "helpful",
+    "why": "humerus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.5.1",
+    "strength": "essential",
+    "why": "elbow hinge joint",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.5.2",
+    "strength": "essential",
+    "why": "ulna",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.5.5",
+    "strength": "essential",
+    "why": "radius",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.5.6",
+    "strength": "essential",
+    "why": "radius rotation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.3.3",
+    "strength": "essential",
+    "why": "hip socket of pelvic girdle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.6.0",
+    "strength": "helpful",
+    "why": "femur",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.1",
+    "strength": "helpful",
+    "why": "tendons join muscle to bone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.6.3",
+    "strength": "essential",
+    "why": "patella in quadriceps tendon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.6.1",
+    "strength": "helpful",
+    "why": "knee joint with femur",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.6.5",
+    "strength": "helpful",
+    "why": "tibia",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s3.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.5.b",
+    "strength": "helpful",
+    "why": "arm bone layout",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio18-s3.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s3.7.0",
+    "strength": "essential",
+    "why": "limb plan pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s3.0.b",
+    "strength": "helpful",
+    "why": "axial and appendicular parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s3.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s2.0.0",
+    "strength": "essential",
+    "why": "axial skeleton parts",
+    "confidence": "high"
+   }
+  ]
+ }
+}
