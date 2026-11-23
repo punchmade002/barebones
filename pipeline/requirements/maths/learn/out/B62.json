@@ -212,7 +212,7 @@
     ],
     "finalAnswer": "x = 1"
    },
-   "finalSym": "[1]",
+   "finalSym": "1",
    "answerSym": "solveset(Eq(3**(2*x) + 6*3**x - 27, 0), x, Reals)"
   },
   "graph": null,
