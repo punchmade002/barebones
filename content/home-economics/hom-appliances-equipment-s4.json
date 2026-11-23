@@ -5,65 +5,118 @@
   "syllabusRef": "2.1.5",
   "notes": [
     {
-      "h": "Parts of heating appliances (kettle, toaster and iron)",
+      "h": "What a heating-element appliance does",
+      "b": "Some small appliances exist to make heat, and they all do it the same way: electricity is forced through a wire that resists it. Knowing which appliances work like this, and which use a motor, is the starting point for studying one.",
       "points": [
-        "Kettle: a body of plastic or stainless steel, a heating element in the base of the water vessel, a water level indicator and an on/off switch.",
-        "Kettle thermostat: a sensor that switches the element off when the water boils, so the kettle does not keep heating.",
-        "Toaster: nichrome heating elements on each side of the bread slots, a spring-loaded lever, a timer or bimetallic release that lifts the bread when toasting is complete, and a removable crumb tray.",
-        "Iron: a sole plate heated by an element, a thermostat dial for choosing the fabric temperature, a water tank and steam vents, with a heel rest for standing the iron safely."
-      ]
+        "A heating element is a coil or strip of high-resistance wire that gets hot when current flows through it, so electrical energy is converted into heat energy.",
+        "Examples of appliances with a heating element are the kettle, toaster, iron, electric grill, immersion heater, hairdryer (element plus a fan motor) and oven.",
+        "The kettle and the toaster have an element, not a motor, so they have no moving parts driven by electricity. A hairdryer is different because it has both an element and a fan motor.",
+        "Heat reaches the water or food in three ways: conduction (through metal in contact), convection (currents in water or air) and radiation (infrared from a toaster or grill element)."
+      ],
+      "tip": "If asked whether an appliance has an element or a motor, remember that the kettle and the toaster have an element. A hairdryer has both, so do not write that it has only one. For a study of an appliance, name the appliance first, then its parts."
     },
     {
-      "h": "Guidelines for use: kettle",
+      "h": "Parts of heating appliances: the kettle",
+      "b": "A kettle is the usual appliance chosen for a study, so you need to name its parts and say what each one does. The same parts also appear in a labelled diagram of a kettle in section.",
       "points": [
-        "Fill the kettle only between the minimum and maximum marks, and never above the maximum, since the element must be covered whenever it is switched on.",
-        "Switch off and unplug the kettle before filling it or cleaning it, and keep the flex away from hot surfaces and out of the reach of children.",
-        "Never immerse the base or the electrical parts in water; wipe the base with a damp cloth.",
-        "Use dry hands when handling the plug, and never plug in or switch on with wet hands.",
-        "Descale the kettle regularly, because limescale on the element slows boiling and increases energy use.",
-        "Do not use a kettle with a damaged flex, plug or body, and do not overload a socket with several appliances."
-      ]
+        "The body is made of plastic, stainless steel or glass (cool-touch or insulated, so the outside does not burn the user). The kettle also has a lid, a spout with a filter or limescale filter, and an insulated handle.",
+        "A water-level indicator shows the minimum and maximum marks, so the user fills the kettle to a safe level.",
+        "The heating element is usually in the base of the water vessel. A concealed or flat-plate element is easier to clean than an exposed coil.",
+        "The thermostat (a sensor) or steam switch cuts the power when the water boils, so the kettle does not keep heating. Automatic switch-off and boil-dry protection also stop it overheating.",
+        "The on/off switch usually has a light, which shows when the kettle is on.",
+        "A cordless (cord-free) kettle sits on a base unit that carries the flex and has contacts, so the flex is not attached to the kettle. This reduces the risk of a trailing flex or of pulling the kettle over, and the 360-degree base lets it be placed either way round.",
+        "The plug has a fuse (13 A for a kettle) and an earth wire, unless the appliance is double insulated.",
+        "Diagram: a labelled kettle in section showing the element, thermostat or steam switch, spout, level scale, handle, base and flex."
+      ],
+      "tip": "In a study of an appliance, name the kettle first, then its parts: body, lid, spout, level indicator, filter, insulated handle, switch, element, thermostat and plug or base."
     },
     {
-      "h": "Guidelines for use: toaster and iron",
+      "h": "Parts of heating appliances: the toaster and the iron",
+      "b": "The toaster and the iron also work by heating an element, but each has parts suited to its own job. Both are short study answers, so know the main parts of each.",
       "points": [
-        "Toaster: never insert metal objects into the slots, and unplug the toaster before removing jammed bread.",
+        "Toaster: nichrome heating elements sit on either side of the bread slots, so both sides of the bread are toasted at once.",
+        "Toaster: a spring-loaded lever lowers the bread, and a timer or bimetallic release lifts it when toasting is complete. A browning control sets how dark the toast is, and a removable crumb tray catches crumbs.",
+        "Iron: a sole plate (the flat metal base) is heated by the element, and a thermostat dial lets you choose the temperature for the fabric.",
+        "Iron: a steam iron also has a water tank and steam vents, and every iron has a heel rest for standing it safely and a cord guard to protect the flex."
+      ],
+      "tip": "When naming the release in a toaster, say a timer or bimetallic release, because not every toaster uses a bimetallic strip."
+    },
+    {
+      "h": "Guidelines for using and caring for a kettle",
+      "b": "Every kettle guideline protects the user from burns, electric shock or fire, or protects the kettle itself. Examiners want each guideline with its reason, so learn both together.",
+      "points": [
+        "Read the instructions first, and fill the kettle only between the minimum and maximum marks, never above the maximum. The element must be covered whenever it is switched on, and overfilling can spurt boiling water.",
+        "Close the lid, and do not run the kettle empty. Boil only the amount of water you need.",
+        "If the kettle is not cordless, switch off and unplug it before filling or cleaning it, so there is no live connection while water is being added.",
+        "Use dry hands when handling the plug, and never plug in or switch on with wet hands, because water conducts electricity and could cause a shock.",
+        "Never immerse the base or the electrical parts or plug in water; wipe the outside and the base with a damp cloth after unplugging and letting the kettle cool.",
+        "Keep the flex away from hot surfaces, out of the reach of children and not trailing over the edge of the worktop. Keep the kettle itself away from the edge of the worktop too.",
+        "Do not use a kettle with a damaged flex, plug or body, and do not overload a socket with several appliances. Handle the hot kettle by the handle, and beware of steam from the spout.",
+        "Descale regularly with a descaling solution or a vinegar or citric acid solution, rinsed well, because limescale on the element slows boiling and increases energy use. Wash the filter, and do not use abrasives on the element."
+      ],
+      "tip": "State each guideline with its reason, for example dry hands because of electric shock. Add descaling and unplugging to score well, and give around four guidelines with reasons for an Ordinary Level question on use, care and cleaning."
+    },
+    {
+      "h": "Guidelines for using a toaster and an iron",
+      "b": "Toasters and irons get hot and carry mains electricity, so the safe-use rules are about avoiding shocks, fires and burns. Give each rule with its reason.",
+      "points": [
+        "Toaster: never put a knife or any metal object into the slots, and unplug the toaster before removing stuck or jammed bread, because metal can touch the live element and give a shock.",
         "Toaster: empty the crumb tray regularly, since crumbs can catch fire or prevent the toaster working correctly.",
-        "Iron: select the temperature for the fabric before switching on, and begin with the lowest setting for delicate fabrics.",
-        "Iron: stand it on its heel rest when not in use, and never leave it switched on unattended.",
-        "Iron: unplug before filling the water tank, and keep the flex away from the sole plate."
-      ]
+        "Toaster: do not use it under a cupboard, and keep it away from curtains, so that nothing can catch fire.",
+        "Iron: choose the temperature for the fabric before switching on. Use the lowest setting for delicate fabrics and synthetics, and iron the least heat-resistant garments first while the iron is coolest.",
+        "Iron: stand it on its heel rest when not in use, and never leave it switched on and unattended.",
+        "Iron: unplug before filling the water tank, and keep the flex clear of the sole plate so it cannot melt. Store the iron only when it is cool."
+      ],
+      "tip": "Examiners expect guidelines with reasons: no metal in the toaster slots, unplug before removing stuck bread, an empty crumb tray, and unplugging an iron before filling the tank."
     },
     {
       "h": "Heat transfer in heating appliances",
+      "b": "The element makes the heat, but the heat still has to reach the water, bread or fabric. It does so by three routes, and each appliance uses a different mix of them.",
       "points": [
-        "Conduction: heat passes from the element through the metal of the kettle base or iron sole plate into the water or fabric.",
+        "Conduction: heat passes from the element through the metal of the kettle base or iron sole plate into the water or fabric, because metal carries heat well.",
         "Convection: water near the element becomes less dense and rises, while cooler water sinks, so currents circulate heat through the kettle.",
-        "Radiation: infrared radiation from the toaster elements heats the surface of the bread directly.",
-        "Boiling only the amount of water needed saves energy, because less water must be heated and less heat is wasted."
-      ]
+        "Radiation: infrared radiation from the toaster elements heats the surface of the bread directly, with no contact needed.",
+        "A kettle is more efficient than boiling water in a saucepan on a hob because less heat escapes. A microwave can also heat small amounts of water, but it is not interchangeable with a kettle."
+      ],
+      "tip": "For the working principle in the Higher exam, say that conduction and convection heat the water and that the thermostat switches off at boiling point."
     },
     {
       "h": "Electrical safety of heating appliances",
+      "b": "Heating appliances combine mains electricity with heat and often with water, so several safety devices protect the user. Each one guards against a different fault.",
       "points": [
-        "The live wire is fused in the plug; the earth wire connects the metal body to earth, so a fault current blows the fuse rather than leaving the body live.",
-        "A residual current device (RCD) cuts off the supply quickly when current leaks to earth, protecting the user from electric shock.",
+        "The live wire is fused in the plug, and the earth wire connects the metal body to earth, so a fault current blows the fuse rather than leaving the body live. The 13 A plug fuse is standard for a kettle.",
+        "Some appliances are double insulated instead, and these have no earth wire.",
+        "A residual current device (RCD), in the fuse board, cuts off the supply quickly when current leaks to earth, protecting the user from electric shock.",
         "A thermal cut-out opens the circuit if an appliance overheats, protecting against fire.",
-        "Cordless kettles have a base unit with contacts, so the flex is not attached to the kettle, reducing the risk of pulling it over or of a trailing flex hazard."
-      ]
+        "A thermostat switches the element off at the right temperature, for example when the water in a kettle boils."
+      ],
+      "tip": "When asked for electrical safety features, list the fuse in the plug, an earth wire or double insulation, the thermostat, the thermal cut-out and the RCD."
+    },
+    {
+      "h": "Energy efficiency of heating appliances",
+      "b": "Heating appliances have a high power, so they use a lot of energy whenever they are on. Small habits therefore make a real difference to how much energy is wasted.",
+      "points": [
+        "Boil only the water needed, because less water must be heated and less heat is wasted. Keep the lid closed so heat is not lost.",
+        "Descale to keep the element efficient, because scale insulates the element, so the kettle takes longer and uses more energy.",
+        "Choose a correctly sized kettle with a concealed element and automatic switch-off. Do not leave the toaster or iron switched on when not in use.",
+        "Energy in kWh = power in kW x time in hours. As an illustration only, a 2 kW kettle used for 0.1 hour uses 0.2 kWh.",
+        "Heating appliances have high power, so they use more energy than motor appliances when switched on."
+      ],
+      "tip": "For an energy efficiency point, give boiling only the water needed or descaling, with its reason. Use 2 kW only as a labelled example in a calculation, not as the power of a typical kettle."
     },
     {
       "h": "Heating element and thermostat: working principle (Higher Level only)",
       "b": "A heating element converts electrical energy into heat through its resistance to the current.",
       "points": [
-        "The heating effect: when current flows through a resistor, electrical energy is converted to heat at a rate equal to I²R, where I is the current and R is the resistance.",
-        "The element is made of nichrome, a nickel-chromium alloy with high resistance that does not oxidise quickly when hot.",
+        "The heating effect: when current flows through a resistor, electrical energy is converted to heat at a rate equal to I²R, where I is the current and R is the resistance. Power can also be written as V times I.",
+        "The element is made of nichrome, a nickel-chromium alloy with high resistance, a high melting point, and does not oxidise quickly when hot.",
         "Resistance depends on the length and thickness of the wire: resistance increases with length and decreases as the cross-sectional area increases.",
-        "The thermostat is a bimetallic strip made from two metals that expand at different rates; when heated the strip bends and opens the circuit at a set temperature.",
+        "The thermostat is a bimetallic strip made from two metals that expand at different rates; when heated the strip bends and opens the circuit at a set temperature. In a kettle, steam from the boiling water can trigger a bimetallic strip to switch it off.",
         "As the appliance cools, the strip straightens and closes the circuit, so the temperature is held between two switching points.",
         "The thermostat and the element are connected in series, so the element receives no current while the thermostat is open.",
         "Diagram: a circuit showing the 230 V supply, the bimetallic thermostat in series with the nichrome heating element, and the direction of heat transfer into the water or food."
-      ]
+      ],
+      "tip": "For Higher Level, say that current meets resistance in the element and produces heat, name nichrome and the bimetallic strip, and say the thermostat is in series. At Ordinary Level, say only that the element changes electricity into heat and the thermostat switches the kettle off at the right temperature."
     }
   ],
   "keyTerms": [

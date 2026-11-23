@@ -5,85 +5,118 @@
   "syllabusRef": "2.1.5",
   "notes": [
     {
-      "h": "Parts of a microwave oven and their functions",
+      "h": "What a microwave oven is and its types",
+      "b": "A microwave oven cooks, reheats and defrosts food using microwaves, a form of electromagnetic radiation (energy that travels as waves) made electrically inside the oven. It heats the food, not the air around it, which is why it is quick and uses less energy for small quantities.",
       "points": [
-        "Transformer: increases the domestic mains voltage of 230 V to the much higher voltage needed to drive the magnetron.",
-        "Magnetron: converts high-voltage electrical energy into microwave energy, at a frequency of about 2.45 GHz.",
+        "A conventional (solo) microwave is the basic type, used for cooking, reheating and defrosting food.",
+        "A microwave with a grill adds a grill element, so food can be browned and toasted, which a solo microwave cannot do.",
+        "A combination oven joins the microwave with a fan oven and grill, so it can brown, crisp and bake as well as use microwaves.",
+        "Flatbed models have no turntable."
+      ],
+      "tip": "For a full study, start by naming the type (conventional, grill or combination) and say what each can do."
+    },
+    {
+      "h": "Parts of a microwave oven and their functions",
+      "b": "Each part passes the energy on to the next: mains electricity is stepped up, turned into microwaves, guided into the oven and spread around the food. Learn the parts in that order.",
+      "points": [
+        "Transformer: increases the domestic mains voltage of 230 V to the much higher voltage the magnetron needs. It changes the voltage, not the frequency.",
+        "Magnetron: converts high-voltage electrical energy into microwave (electromagnetic) energy, at a frequency of about 2.45 GHz.",
         "Waveguide: a metal channel that carries the microwaves from the magnetron into the metal cooking cavity.",
-        "Turntable: a rotating glass plate that moves the food through the microwaves, so that it is heated more evenly.",
-        "Mode stirrer: a rotating metal blade or fan that scatters the microwaves around the cavity, so that they are not concentrated in one spot.",
-        "Metal cavity: reflects the microwaves so that they are contained in the oven and distributed around the food.",
-        "Door interlock: a switch that stops microwave production as soon as the door is opened.",
-        "Timer: stops the magnetron when the selected cooking time has elapsed.",
+        "Mode stirrer (stirrer fan): a rotating metal blade or fan that scatters the microwaves around the cavity, so they are not concentrated in one spot.",
+        "Turntable: a rotating glass plate that moves the food through areas of high and low microwave energy, so that it is heated more evenly.",
+        "Metal cavity: a metal-lined (enamelled steel) box that reflects the microwaves, so they stay in the oven and bounce around the food.",
+        "Door and safety: a glass door with a perforated metal screen, whose holes are much smaller than the wavelength, so microwaves cannot escape but you can see in. A safety seal surrounds the door, and a door interlock (a switch) stops microwave production as soon as the door is opened.",
+        "Controls and timer: you choose the power level and cooking time, and the timer stops the magnetron when the time has elapsed. A child lock, an interior light and a ventilation fan that cools the magnetron are also fitted.",
         "Diagram: a labelled cross-section of a microwave oven showing the transformer, magnetron, waveguide, mode stirrer, turntable, cavity and door interlock."
-      ]
+      ],
+      "tip": "Parts questions want one sentence each for the transformer, magnetron, waveguide and turntable. Say the transformer raises the voltage, never the frequency, and give the order the energy flows."
     },
     {
       "h": "How a microwave heats food",
+      "b": "The oven turns electricity into microwaves, delivers them to the food, and the food itself turns them into heat. The working principle follows the parts in order.",
       "points": [
         "1. The transformer raises the mains voltage, and the magnetron converts the electrical energy into microwaves when the oven is switched on.",
-        "2. The waveguide directs the microwaves into the cavity, where metal walls reflect them and the mode stirrer or turntable spreads them through the food.",
-        "3. Glass, ceramic, paper and most plastics let microwaves pass through; food absorbs them, and metal reflects them.",
-        "4. The microwaves penetrate the food to a depth of about 2 to 4 cm.",
-        "5. Water molecules are polar, so the rapidly alternating field makes them rotate and vibrate; the resulting friction produces heat.",
-        "6. Heat then moves towards the centre of the food by conduction, so thick food may not heat through evenly.",
-        "7. Water in the food is driven towards the surface, which prevents the surface from browning."
-      ]
+        "2. The waveguide directs the microwaves into the cavity, where metal walls reflect them and the mode stirrer or turntable spreads them through the food so it is hit evenly.",
+        "3. Glass, ceramic, paper and most plastics let microwaves pass through, food absorbs them (mainly the water, and also fats and sugars), and metal reflects them.",
+        "4. The penetration depth of microwaves in food is only a few centimetres, so they heat its outer layers.",
+        "5. Water molecules are polar (they have a positive and a negative end), so the rapidly alternating field makes them rotate and vibrate; the resulting friction produces heat.",
+        "6. Heat then moves towards the centre of the food by conduction, which is why thick food may not heat through evenly and why standing time is needed.",
+        "7. The oven switches off when the timer finishes or the door opens. Food does not become radioactive.",
+        "Food does not brown because its surface does not get hot enough: the evaporating water keeps the surface near 100 °C, and browning needs a higher temperature. A grill, a combination mode or a browning dish is needed to brown."
+      ],
+      "tip": "Do not say microwaves cook food from the inside out. They heat the outer few centimetres and conduction carries the heat inward. Give the molecules-vibrating explanation for a Higher answer."
     },
     {
-      "h": "Guidelines for use",
+      "h": "Guidelines for use and care",
+      "b": "Each guideline exists because of how microwaves behave, so give a reason with every one you write.",
       "points": [
-        "Use only containers labelled microwave-safe, such as glass, ceramic, paper or suitable plastic.",
-        "Never use metal containers, foil or metallic trim, because they reflect microwaves and can cause arcing and sparks.",
-        "Pierce the skins of potatoes, sausages and other foods with skins, so that steam can escape and the skin does not burst.",
-        "Arrange food in a circle with the thicker parts towards the outside, since the outer parts heat first.",
-        "Cover food to retain moisture and prevent splashing, leaving a vent for steam to escape.",
+        "Containers: use only containers labelled microwave-safe, such as glass, ceramic, paper or suitable plastic, because some plastics are not microwave-safe.",
+        "Never use metal containers, foil or dishes with metallic trim, because metal reflects microwaves and can cause arcing (sparks) and damage the oven.",
+        "Pierce the skins of potatoes, sausages, egg yolks, tomatoes and other foods with skins, so that steam can escape and the skin does not burst. Do not cook whole eggs in their shells, because steam pressure makes them burst.",
+        "Cut food into even pieces and arrange it in a circle with the thicker parts towards the outside, since the outer parts heat first. Do not pile food up.",
+        "Cover food (a lid or microwave-safe film with a vent) to retain moisture and prevent splashing, leaving a gap for steam to escape.",
         "Stir, turn or rearrange food during cooking so that heat spreads evenly through it.",
-        "Allow standing time after cooking, so that heat continues to conduct to the centre of the food.",
-        "Use the defrost setting or a lower power level for thawing frozen food.",
-        "Check that reheated food, especially poultry, minced meat and other high-risk food, is piping hot throughout.",
-        "Never run the oven empty, and keep the cavity, door seal and vents clean and undamaged.",
-        "Use oven gloves, and open covers away from the face to avoid steam burns."
+        "Timing: follow the times in the instructions and start with short times, adding more if needed. Allow standing time after cooking, so that heat continues to conduct to the centre of the food.",
+        "Use the defrost setting or a lower power level for thawing frozen food, turn and break up the food, and cook it straight after defrosting.",
+        "Check that reheated food, especially poultry, minced meat and other high-risk food, is piping hot throughout, to destroy bacteria."
+      ],
+      "tip": "Pick any three guidelines (such as containers, piercing skins, arranging food, stirring, covering, timing) and give a reason for each, for example metal reflects microwaves and causes sparks. Reheated food must be hot all through; that is all you need to say about reheating here."
+    },
+    {
+      "h": "Safety, care and choosing a microwave",
+      "b": "A microwave is simple and safe when used properly, and it lasts longer when it is kept clean and undamaged.",
+      "points": [
+        "Safety: never run the oven empty, and do not use it if the door, seal or hinges are damaged. Use oven gloves, open covers away from the face to avoid steam burns, stir liquids before use because they can overheat in the container, and keep children from using it unsupervised.",
+        "Care: unplug before cleaning, wipe the cavity, door seal and turntable with a damp cloth and mild detergent after spills, and do not use abrasives. Steam-cleaning with a bowl of water and lemon juice loosens food, and the vents must be kept clear.",
+        "When choosing a microwave, consider initial and running cost, wattage and capacity, type (solo, grill or combination), pre-set programmes and features, size and space, ease of cleaning, safety features, and the guarantee and after-sales service."
       ]
     },
     {
       "h": "Modern features",
+      "b": "Modern microwaves add controls that take the guesswork out of power and timing, and extra heating methods that fix the oven's main weakness, no browning.",
       "points": [
-        "Variable power settings allow delicate foods to be cooked at reduced power, and allow thawing at defrost power.",
+        "Variable power settings allow delicate foods to be cooked at reduced power, and allow thawing at defrost power. Inverter technology gives a steady low power.",
         "Auto weight defrost: the user enters the weight of the food and the oven sets the power and time.",
-        "Pre-set programmes for foods such as vegetables or popcorn remove the need to choose time and power manually.",
-        "A jet power or quick-reheat button heats food rapidly at full power.",
+        "Pre-set or sensor programmes for foods such as vegetables, popcorn or reheat remove the need to choose time and power manually. Sensor models detect steam from the food and adjust the cooking time automatically.",
+        "A jet power, quick-start or quick-reheat button heats food rapidly at full power.",
         "A temperature probe inserted into the food switches the oven off when the set internal temperature is reached.",
-        "A combination oven adds a grill or convection oven, so food can brown and crisp.",
-        "A child lock stops the oven being started by children, and a keep-warm setting holds cooked food at a low temperature.",
-        "Sensor models detect steam from the food and adjust the cooking time automatically.",
-        "A digital control panel, recipe memory and self-cleaning walls make the oven easier to operate and maintain.",
+        "A combination oven adds a grill or convection oven, so food can brown and crisp. A crisping dish and, in some models, a steam function are also available.",
+        "A child lock stops the oven being started by children, and a keep-warm setting holds cooked food at a low temperature. An interior light and low standby use are also features.",
+        "A digital control panel, display, clock, timer, memory settings and recipe memory, plus smart or app control, make the oven easier to operate. Self-cleaning or easy-clean walls make maintenance easier.",
         "Anti-bacterial linings reduce the build-up of bacteria inside the cavity."
-      ]
+      ],
+      "tip": "Modern features questions look for variable power, defrost, programmes and grill; say what each does for the user, not just its name."
     },
     {
-      "h": "Energy efficiency in use",
+      "h": "Energy efficiency and contribution to modern cooking",
+      "b": "A microwave suits modern life because it heats only the food, quickly. It also has limits, and a good evaluation gives both sides.",
       "points": [
         "Microwaves heat the food itself rather than the oven cavity, so no preheating is normally needed.",
-        "Cooking time is short, so less heat escapes into the room than from a conventional oven.",
-        "A microwave is efficient for small and medium portions, and for reheating and defrosting.",
+        "Cooking time is short, so less heat escapes into the room than from a conventional oven, and less energy is used for small and medium quantities.",
+        "A microwave is efficient for small and medium portions, and for reheating and defrosting, which saves time.",
         "A conventional oven may be more economical when several large dishes are cooked together.",
         "Matching the power and time to the quantity of food, and using residual standing heat, reduces energy waste.",
-        "Switch the oven fully off rather than leaving its display on standby, and choose a correctly sized, energy-rated model."
-      ]
+        "Switch the oven fully off rather than leaving its display on standby, and choose a correctly sized, energy-rated model.",
+        "Short cooking with little or no added water helps food keep colour, flavour and some nutrients, and no added fat is needed for many foods.",
+        "It suits busy lifestyles (reheating, ready meals, defrosting) and is simple and safe to use for children, older people and people living alone. The container can often serve as the serving dish, reducing washing-up.",
+        "Limits: it does not brown or crisp (unless combined with a grill), it can heat unevenly and overcook edges, and it is not good for large joints or for baking in the same way."
+      ],
+      "tip": "To evaluate its contribution, give four points (quick and energy efficient, retains colour and nutrients, good for reheating and busy lifestyles, safe and simple to use) and add a limit such as no browning."
     },
     {
       "h": "Underlying working principles (Higher Level only)",
       "b": "Microwaves are electromagnetic waves, and the microwave oven relies on electromagnetic induction in the transformer and on the electric field of the waves.",
       "points": [
+        "Microwaves have a frequency of about 2.45 GHz, which gives a wavelength of about 12 cm. They are non-ionising radiation, so they do not make food radioactive. The wavelength is the basis of the cavity size and the spacing of the waves in food.",
         "The transformer works by electromagnetic induction: an alternating current in the primary coil induces an alternating voltage in the secondary coil, and the voltage ratio equals the ratio of the turns in the two coils.",
-        "The transformer in a microwave oven is a step-up transformer, producing several kilovolts for the magnetron from the 230 V supply.",
-        "At 2.45 GHz the wavelength of the microwaves is about 12 cm, which is the basis of the cavity size and the spacing of the waves in food.",
-        "In the magnetron, electrons moving in a magnetic field set up oscillations in resonant cavities, and the oscillations are output as microwaves.",
-        "A polar molecule has a positive end and a negative end; the alternating electric field of the microwaves makes such molecules rotate back and forth, and friction between them converts this motion to heat.",
+        "It is a step-up transformer, because the secondary coil has more turns. It produces several kilovolts for the magnetron from the 230 V supply, and the high voltage is rectified before it is fed to the magnetron.",
+        "The magnetron is a vacuum tube. Electrons moving in a magnetic field set up oscillations in resonant cavities, and the oscillations are output as microwaves.",
+        "A polar molecule has a positive end and a negative end. Water, fat and sugar molecules are polar, so the alternating electric field of the microwaves, which reverses billions of times per second, makes them rotate back and forth; friction between them converts this motion to heat.",
+        "The metal screen in the door has holes of about 1 mm, much smaller than the wavelength, so the waves are reflected and do not leave the oven while you can still see in.",
         "The door interlock is a switch wired in series with the magnetron, so that microwave production stops when the door is opened.",
         "Diagram: a sketch of water molecules aligning with the alternating electric field, with arrows showing the direction of the field at two instants."
-      ]
+      ],
+      "tip": "For a Higher answer, name the polar molecules and say the field alternates, so the molecules rotate back and forth and friction produces heat. Say the transformer changes voltage by induction."
     }
   ],
   "keyTerms": [

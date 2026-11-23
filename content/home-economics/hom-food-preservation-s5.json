@@ -5,71 +5,99 @@
   "syllabusRef": "1.3.9",
   "notes": [
     {
-      "h": "Principle of chemical preservation",
-      "b": "Chemical preservatives either draw water out of food and micro-organisms, lower the pH of the food, or directly inhibit micro-organisms.",
+      "h": "How chemical preservation works",
+      "b": "Micro-organisms (bacteria, yeasts and moulds) need available water, a suitable acidity and working enzymes to grow. Chemical preservatives attack one or more of these, which is why preserved food keeps for much longer.",
       "points": [
-        "Sugar, salt and vinegar are the traditional home preservatives, and smoke was the traditional preservative for fish and meat.",
-        "Preservatives are used at concentrations that stop micro-organisms from growing; a low concentration may encourage their growth instead.",
-        "Permitted chemical preservatives are controlled in the EU under Regulation (EC) No 1333/2008 on food additives, which lists those allowed, the foods they may be used in and the maximum levels.",
-        "Permitted preservatives carry E numbers and must be named in the ingredients list on the label, under Regulation (EU) No 1169/2011 on food information to consumers."
-      ]
+        "Some preservatives draw water out of food and micro-organisms by osmosis (water moving out through a cell wall towards a stronger solution), so the organisms cannot multiply. Sugar and salt work this way.",
+        "Some lower the pH (make the food more acidic) so that most spoilage and food poisoning bacteria cannot grow. Vinegar and other acids work this way.",
+        "Some directly poison or inhibit micro-organisms or their enzymes, such as sulphur dioxide, benzoates, sorbates, nitrite and the chemicals in smoke. Others act as antioxidants (stopping oxygen damaging the food) or inhibit mould.",
+        "Sugar, salt, vinegar, smoke and alcohol are the traditional (natural) preservatives. Sugar, salt and vinegar are the traditional home preservatives, and smoke was the traditional preservative for fish and meat.",
+        "The permitted additive preservatives are sorbic acid, benzoic acid, sulphur dioxide and sulphites, and nitrites and nitrates.",
+        "Many chemical methods are combined with heat, as in jam and chutney, or with drying, as in smoked and salted fish. Using two methods together makes the food safer than either alone.",
+        "Fruit can also be preserved in alcohol, for example fruit kept in brandy or rum."
+      ],
+      "tip": "For each preservative, give how it works (osmosis, acidity or poisoning the organism) and one food example. Do not say vinegar draws out water: salt and sugar work by osmosis, vinegar by acidity."
     },
     {
       "h": "Sugar as a preservative",
+      "b": "A strong sugar solution holds on to water so tightly that micro-organisms cannot use it. This is why jam keeps in a sealed jar.",
       "points": [
         "At high concentration, sugar binds water and draws it out of microbial cells by osmosis, so the micro-organisms cannot multiply.",
-        "Sugar is the preservative in jam, marmalade, syrups and crystallised fruit.",
-        "Yeasts and moulds tolerate sugar better than most bacteria, so sugared products still need sealed, clean containers.",
-        "The Department of Health healthy eating guidelines advise limiting foods high in added sugar, since excess sugar is linked to tooth decay and excess energy intake."
-      ]
+        "Sugar is the preservative in jam, marmalade, syrups, crystallised and candied fruit and condensed milk.",
+        "The concentration must be high enough. Low-sugar jam can ferment or grow mould, so a strong sugar solution is essential.",
+        "Yeasts and moulds tolerate sugar better than most bacteria, so sugared products still need sealed, clean containers to keep them out.",
+        "Sugar also has other roles in jam: it forms a gel with pectin (the setting substance in fruit), and it adds sweetness and colour.",
+        "The Department of Health healthy eating guidelines advise limiting foods and drinks high in added sugar, since excess sugar is linked to tooth decay and excess energy intake. Preserves contain a lot of added sugar."
+      ],
+      "tip": "Exams ask which ingredient preserves jam: sugar, by osmosis. At Higher Level, add that sugar also helps the jam set and that too little sugar allows fermentation."
     },
     {
       "h": "Salt as a preservative",
+      "b": "Salt works like sugar, pulling water out of food and out of any micro-organisms on it. It has been used on fish and meat, but it has a health cost.",
       "points": [
-        "Salt draws water out of food and micro-organisms by osmosis, and it reduces the available water for enzyme action.",
-        "Dry salting: food is packed in salt, which draws out moisture; this method is used for salt cod and salt pork.",
-        "Brining: food is immersed in a strong salt solution, as used for olives and for brine pickles of vegetables.",
+        "Salt draws water out of food and micro-organisms by osmosis, and it makes the remaining water unavailable to organisms and to enzyme action.",
+        "Dry salting: the food is packed in salt, which draws out moisture. This method is used for salt cod, salt pork, bacon and salted herring.",
+        "Brining: the food is immersed or soaked in a strong salt solution, as used for olives, ham, pickled meat and brine pickles of vegetables such as cucumbers.",
+        "Curing combines salt with sodium nitrite or nitrate, and sometimes sugar, to preserve meat such as bacon, ham and corned beef. The nitrite inhibits Clostridium botulinum (a dangerous food poisoning bacterium) and keeps the meat pink.",
         "Salt-cured foods must be stored in cool, dry conditions, since moisture in the air can cause surface mould.",
-        "Excess salt raises blood pressure, and the Department of Health healthy eating guidelines advise reducing salt in the diet."
-      ]
+        "Salted foods need soaking or rinsing to remove the salt before they are used.",
+        "Excess salt (sodium) raises blood pressure, and salted and cured foods are high in sodium. The Department of Health healthy eating guidelines advise reducing salt in the diet."
+      ],
+      "tip": "Name the method with a food: dry salting (salt cod, bacon) or brining (olives, brine pickles). When asked for a disadvantage of salt preservation, give high sodium and its link to high blood pressure."
     },
     {
       "h": "Vinegar and acidity",
+      "b": "Vinegar does not dry food out. It preserves by making the food too acidic for most bacteria to survive, and it adds flavour at the same time.",
       "points": [
         "Vinegar is a dilute solution of acetic acid, which lowers the pH of food and inhibits most spoilage and food poisoning bacteria.",
-        "Vinegar pickling: vegetables such as onions, cucumbers and beetroot are packed in spiced vinegar, which acts as the preservative.",
-        "Vinegar also gives sharpness and flavour, and its effectiveness depends on its acetic acid strength."
-      ]
+        "Vinegar pickling: vegetables such as onions, cucumbers, beetroot and red cabbage, and also eggs, are packed in spiced vinegar, which acts as the preservative. It is also used in chutneys, relishes and sauces, sometimes with sugar and spices.",
+        "Vinegar also gives sharpness and flavour, and its effectiveness depends on its acetic acid strength. It must be strong enough that the water in the food does not dilute it.",
+        "Spiced vinegar, made cold or hot, is poured over vegetables packed into sterilised jars. Malt vinegar is the usual home choice.",
+        "Use non-metallic lids on jars of vinegar foods, because the acid corrodes metal and spoils the seal."
+      ],
+      "tip": "Vinegar preserves by acidity (lowering pH), not by drawing out water. A spoilage question on pickles or chutney often has the answer too little vinegar or a corroded metal lid."
     },
     {
       "h": "Chutney and pickles",
+      "b": "Chutney and pickle both rely on vinegar, but they are different products. Chutney is cooked down to a thick mixture, while pickle keeps its pieces whole in a liquid.",
       "points": [
-        "Chutney is made by cooking fruit and/or vegetables slowly with vinegar, sugar and spices until the mixture is thick.",
-        "Cooking destroys micro-organisms, while the vinegar and sugar prevent any survivors from growing.",
-        "Spices such as mustard seed, chilli and ginger add flavour to the finished product.",
-        "Chutney is poured hot into sterilised jars, sealed and stored in a cool, dark place; once opened it is kept in the fridge.",
-        "Pickles are vegetables preserved in vinegar or brine; vinegar pickles are covered with spiced vinegar and sugar and sealed."
-      ]
+        "Chutney is made by chopping fruit and/or vegetables (apples, tomatoes, onions, marrow, plums) and cooking them slowly with vinegar, sugar and spices until the mixture is thick. It needs no pectin, unlike jam.",
+        "Each ingredient has a job. The cooking destroys micro-organisms and enzymes, the vinegar (an acid) and sugar prevent any survivors from growing, and spices such as mustard seed, chilli and ginger add flavour.",
+        "Chutney method: 1. Sterilise the jars. 2. Prepare and chop the fruit and vegetables. 3. Cook slowly with vinegar, sugar and spices until thick and no liquid vinegar shows when a spoon is drawn across. 4. Pot into hot jars. 5. Seal with vinegar-proof lids and label.",
+        "Chutney is poured hot into sterilised jars, sealed and stored in a cool, dark place, where it matures and improves in flavour after weeks. Once opened it is kept in the fridge.",
+        "Pickles are raw, lightly cooked or brined vegetables, eggs or fruit packed whole or in pieces in vinegar or brine. Vinegar pickles are covered with spiced vinegar and sugar and sealed.",
+        "Chutney spoils if there is too little vinegar or sugar, if it is not cooked long enough, if jars or lids are not sterile or the seal is faulty, or if a metal lid is corroded by the vinegar."
+      ],
+      "tip": "Chutney is fruit or vegetables boiled with sugar, vinegar and spices, and sugar and vinegar are its preservatives. In a practical question, give each ingredient with its function, say that heat destroys organisms, and say the jars are sealed hot."
     },
     {
       "h": "Smoking",
+      "b": "Smoking preserves food by exposing it to smoke from smouldering wood, and it adds flavour and colour as well. It is used mostly on fish and meat, and also on cheese.",
       "points": [
-        "Smoking exposes food to smoke from burning wood; smoke contains phenols and organic acids that inhibit micro-organisms and oxidation.",
-        "Smoke dries the surface of the food, which slows micro-organism growth.",
-        "Cold smoking is carried out at a low temperature, below about 30 °C, so the food is flavoured and partly preserved but remains raw, as in smoked salmon.",
-        "Hot smoking cooks the food during smoking, giving a ready-to-eat product, as in smoked mackerel.",
-        "Smoking gives limited shelf life on its own, so smoked meat and fish are usually also salted or cured."
-      ]
+        "Food is exposed to smoke from smouldering wood (such as oak, beech or hickory) or sawdust. The smoke deposits chemicals (phenols, formaldehyde and organic acids) that inhibit micro-organisms and slow oxidation.",
+        "Smoke also dries the surface of the food, which slows micro-organism growth and gives flavour and colour.",
+        "Smoking is almost always combined with salting first, by brining or dry salting, because smoking gives limited shelf life on its own. Smoked meat and fish are usually also salted or cured.",
+        "Cold smoking is carried out at a low temperature, not exceeding about 27 °C, so the food is flavoured and partly preserved but not cooked and requires further cooking. Smoked salmon is an example.",
+        "Hot smoking raises the temperature gradually to about 80 °C, so the food is cooked as it is smoked and is ready to eat, as in smoked mackerel.",
+        "Smoking fish, in order: 1. Fillet and trim. 2. Brine or dry-salt. 3. Rinse and dry. 4. Smoke at the chosen temperature. 5. Cool.",
+        "Smoked foods have a limited shelf life unless chilled, and they are high in salt. Some smoke compounds (tars) are a health concern if eaten in large amounts."
+      ],
+      "tip": "For cold and hot smoking give how each is done, the temperature (27 °C and 80 °C) and whether further cooking is needed. Cold smoking does not cook the food, hot smoking does, and you should not advise eating raw smoked fish at home."
     },
     {
       "h": "Permitted chemical preservatives",
+      "b": "Besides the traditional preservatives, food manufacturers may add certain chemical preservatives. They are tightly controlled, and each one works best against particular organisms in particular foods.",
       "points": [
-        "Sorbic acid (E200) and potassium sorbate (E202) inhibit moulds and yeasts in foods such as cheese and baked goods.",
-        "Benzoic acid (E210) and sodium benzoate (E211) inhibit yeasts, moulds and bacteria in acidic foods such as soft drinks and fruit products.",
-        "Sulphur dioxide (E220) and sulphites inhibit micro-organisms and prevent browning in products such as dried fruit and wine.",
-        "Sodium nitrite (E250) and sodium nitrate (E251) are used in cured meat; nitrite inhibits Clostridium botulinum and gives cured meat its pink colour.",
-        "Preservatives can cause sensitivity reactions in some people, which is why they must be named on the label."
-      ]
+        "They are controlled in the EU by Regulation (EC) No 1333/2008 on food additives: only listed substances may be used, in listed foods, up to maximum levels. They are given E numbers (E200 to E299 are the preservatives) and are tested for safety by the European Food Safety Authority.",
+        "Sorbic acid (E200) and potassium sorbate (E202) inhibit moulds and yeasts in foods such as cheese, baked goods and soft drinks.",
+        "Benzoic acid (E210) and sodium benzoate (E211) inhibit yeasts, moulds and bacteria in acidic foods such as soft drinks, pickles and fruit products.",
+        "Sulphur dioxide (E220) and sulphites inhibit micro-organisms and prevent browning in products such as dried fruit, wine and fruit juice.",
+        "Sodium nitrite (E250) and sodium nitrate (E251) are used in cured meat. Nitrite inhibits Clostridium botulinum and gives cured meat its pink colour.",
+        "Under Regulation (EU) No 1169/2011 on food information to consumers, a preservative in the ingredients list is given with its function (\"preservative\") followed by its name or E number. Sulphur dioxide and sulphites above the stated level are among the 14 allergens that must be emphasised.",
+        "Benefits are longer shelf life, safety, less waste and lower cost. Concerns are that some people react to preservatives (asthmatics may react to sulphites), consumer preference for fewer additives, and high sodium in salt-based preservation.",
+        "An E number shows only that an additive is approved, not that it is natural or unsafe."
+      ],
+      "tip": "Match each preservative with a food example and what it does, for instance nitrite in cured meat against Clostridium botulinum. For advantages and disadvantages of preservatives, set shelf life and safety against sensitivity reactions and high salt."
     }
   ],
   "keyTerms": [
