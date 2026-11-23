@@ -1,0 +1,739 @@
+[
+  {
+    "skill": "int-trig",
+    "problems": [
+      {
+        "part": "maths-pp-2024-higher-p1-q3#(a)",
+        "note": null,
+        "legend": {
+          "1": "the constant a in the angle ax",
+          "2": "the factor 1/a, with its sign",
+          "3": "the trig function in the answer"
+        },
+        "steps": [
+          {
+            "ask": "What is the standard integral of cos ax? Write it down before you look.",
+            "title": "Use the rule for integrating cos(ax)",
+            "lines": [
+              {
+                "text": "$\\int \\cos ax \\, dx = \\hl{2}{\\frac{1}{a}}\\hl{3}{\\sin ax} + C$. Here $\\hl{1}{a} = \\hl{1}{6}$."
+              }
+            ]
+          },
+          {
+            "ask": "Put $a = 6$ into the rule. What does the integral of $\\cos 6x$ become?",
+            "title": "Write the integral",
+            "lines": [
+              {
+                "tex": "\\int \\cos \\hl{1}{6}x \\, dx &= \\hl{2}{\\frac{1}{6}}\\hl{3}{\\sin 6x} + C"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{2}{\\frac{1}{6}}\\hl{3}{\\sin 6x} + C",
+        "graph": null
+      },
+      {
+        "part": "practice-int-trig-1",
+        "note": "Changed from problem 1: the integrand is $\\sin 3x$ instead of $\\cos 6x$, so the rule gives a minus sign, and the integral is definite with limits. The steps for integrating a trig function are the same.",
+        "legend": {
+          "1": "the constant a in the angle ax",
+          "2": "the factor 1/a, with its sign",
+          "3": "the trig function in the answer"
+        },
+        "steps": [
+          {
+            "ask": "What is the integral of $\\sin ax$? Check the sign before you write it.",
+            "title": "Integrate $\\sin 3x$",
+            "lines": [
+              {
+                "text": "$\\int \\sin ax\\,dx = \\hl{2}{-\\frac{1}{a}}\\hl{3}{\\cos ax}$, here $\\hl{1}{a} = \\hl{1}{3}$."
+              },
+              {
+                "tex": "\\int_0^{\\pi/6} \\sin \\hl{1}{3}x\\,dx &= \\left[\\hl{2}{-\\tfrac{1}{3}}\\hl{3}{\\cos 3x}\\right]_0^{\\pi/6}"
+              }
+            ]
+          },
+          {
+            "ask": "Put the top limit and then the bottom limit into the answer. What does each part give?",
+            "title": "Substitute the limits",
+            "lines": [
+              {
+                "tex": "&= \\hl{2}{-\\tfrac{1}{3}}\\cos\\left(\\tfrac{\\pi}{2}\\right) + \\hl{2}{\\tfrac{1}{3}}\\cos 0"
+              },
+              {
+                "tex": "&= 0 + \\hl{2}{\\tfrac{1}{3}}"
+              },
+              {
+                "tex": "&= \\tfrac{1}{3}"
+              }
+            ]
+          }
+        ],
+        "final": "\\frac{1}{3}",
+        "graph": null
+      },
+      {
+        "part": "practice-int-trig-2",
+        "note": "Changed from problem 2: there are two terms, $4\\cos 2x$ and $-\\sin x$, so the rule is used twice and the results are added. The limits and the substitution steps stay the same.",
+        "legend": {
+          "1": "the constant a in the angle ax",
+          "2": "the factor 1/a, with its sign",
+          "3": "the trig function in the answer"
+        },
+        "steps": [
+          {
+            "ask": "The integral has two terms. What is the integral of each one?",
+            "title": "Integrate each term",
+            "lines": [
+              {
+                "text": "$\\int \\cos \\hl{1}{2}x\\,dx = \\hl{2}{\\frac{1}{2}}\\hl{3}{\\sin 2x}$ and $\\int \\sin x\\,dx = -\\cos x$."
+              },
+              {
+                "tex": "\\int_0^{\\pi/2} \\left(4\\cos \\hl{1}{2}x - \\sin x\\right)dx &= \\left[2\\hl{3}{\\sin 2x} + \\cos x\\right]_0^{\\pi/2}"
+              }
+            ]
+          },
+          {
+            "ask": "Put the top limit in first, then the bottom limit. What is each bracket?",
+            "title": "Substitute the limits",
+            "lines": [
+              {
+                "tex": "&= \\left(2\\sin\\pi + \\cos\\tfrac{\\pi}{2}\\right) - \\left(2\\sin 0 + \\cos 0\\right)"
+              },
+              {
+                "tex": "&= (0 + 0) - (0 + 1)"
+              },
+              {
+                "tex": "&= -1"
+              }
+            ]
+          }
+        ],
+        "final": "-1",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "int-trig-identity",
+    "problems": [
+      {
+        "part": "practice-int-trig-identity-1",
+        "note": null,
+        "legend": {
+          "1": "the angle inside each trig term",
+          "2": "the integral of one trig term",
+          "3": "the constant 1/2 from the formula"
+        },
+        "steps": [
+          {
+            "ask": "Which trig formula turns $\\cos^2$ into something you can integrate? Write it down.",
+            "title": "Use the half-angle formula",
+            "lines": [
+              {
+                "text": "$\\cos^2 A = \\dfrac{1 + \\cos 2A}{2}$. Here $A = 3x$, so $2A = \\hl{1}{6x}$."
+              },
+              {
+                "tex": "\\cos^2 3x &= \\frac{1 + \\cos \\hl{1}{6x}}{2}"
+              }
+            ]
+          },
+          {
+            "ask": "Put the formula into the integral. What do you now have to integrate?",
+            "title": "Write the integral with the formula",
+            "lines": [
+              {
+                "tex": "\\int \\cos^2 3x\\,dx &= \\int \\left(\\hl{3}{\\frac{1}{2}} + \\hl{3}{\\frac{1}{2}}\\cos \\hl{1}{6x}\\right) dx"
+              }
+            ]
+          },
+          {
+            "ask": "What is the integral of $\\cos 6x$? Remember the inner function.",
+            "title": "Integrate each term",
+            "lines": [
+              {
+                "text": "$\\int \\cos \\hl{1}{6x}\\,dx = \\hl{2}{\\dfrac{\\sin 6x}{6}}$."
+              },
+              {
+                "tex": "&= \\frac{x}{2} + \\hl{3}{\\frac{1}{2}}\\cdot\\hl{2}{\\frac{\\sin 6x}{6}} + c"
+              },
+              {
+                "tex": "&= \\frac{x}{2} + \\frac{\\sin 6x}{12} + c"
+              }
+            ]
+          }
+        ],
+        "final": "\\frac{x}{2} + \\frac{\\sin 6x}{12} + c",
+        "graph": null
+      },
+      {
+        "part": "practice-int-trig-identity-2",
+        "note": "Changed from problem 1: the product of sin and cos needs a different formula, the product-to-sum rule, which gives two sine terms instead of one cosine term. The steps after the formula are the same.",
+        "legend": {
+          "1": "the angle inside each trig term",
+          "2": "the integral of one trig term",
+          "3": "the constant 1/2 from the formula"
+        },
+        "steps": [
+          {
+            "ask": "Which formula turns a product of sin and cos into a sum? Write it down first.",
+            "title": "Use the product-to-sum formula",
+            "lines": [
+              {
+                "text": "$\\sin A\\cos B = \\tfrac{1}{2}\\left[\\sin(A+B) + \\sin(A-B)\\right]$. Here $A = 5x$ and $B = 3x$."
+              },
+              {
+                "tex": "\\sin 5x \\cos 3x &= \\hl{3}{\\frac{1}{2}}\\left[\\sin \\hl{1}{8x} + \\sin \\hl{1}{2x}\\right]"
+              }
+            ]
+          },
+          {
+            "ask": "Put the sum from the formula into the integral. What does the factor in front become?",
+            "title": "Write the integral with the formula",
+            "lines": [
+              {
+                "tex": "\\int \\sin 5x\\cos 3x\\,dx &= \\hl{3}{\\frac{1}{2}}\\int (\\sin \\hl{1}{8x} + \\sin \\hl{1}{2x})\\,dx"
+              }
+            ]
+          },
+          {
+            "ask": "What is the integral of $\\sin kx$? Use $k = 8$ for the first term and $k = 2$ for the second.",
+            "title": "Integrate each term",
+            "lines": [
+              {
+                "text": "$\\int \\sin kx\\,dx = -\\dfrac{\\cos kx}{k}$."
+              },
+              {
+                "tex": "&= \\hl{3}{\\frac{1}{2}}\\left[-\\hl{2}{\\frac{\\cos 8x}{8}} - \\hl{2}{\\frac{\\cos 2x}{2}}\\right] + c"
+              },
+              {
+                "tex": "&= -\\frac{\\cos 8x}{16} - \\frac{\\cos 2x}{4} + c"
+              }
+            ]
+          }
+        ],
+        "final": "-\\frac{\\cos 8x}{16} - \\frac{\\cos 2x}{4} + c",
+        "graph": null
+      },
+      {
+        "part": "practice-int-trig-identity-3",
+        "note": "Changed from problem 2: the expression is a squared sum, so it is expanded first, and the identities $\\sin^2 x + \\cos^2 x = 1$ and $2\\sin x\\cos x = \\sin 2x$ are used instead of the product formula. Integrating the sine term is the same as before.",
+        "legend": {
+          "1": "the angle inside each trig term",
+          "2": "the integral of one trig term"
+        },
+        "steps": [
+          {
+            "ask": "What do you get when you expand $(\\sin x + \\cos x)^2$? Write it out term by term.",
+            "title": "Expand the square",
+            "lines": [
+              {
+                "tex": "(\\sin x + \\cos x)^2 &= \\sin^2 x + 2\\sin x\\cos x + \\cos^2 x"
+              }
+            ]
+          },
+          {
+            "ask": "Which identities turn some of these terms into something simpler? Use them to rewrite the expression.",
+            "title": "Use the identities",
+            "lines": [
+              {
+                "text": "$\\sin^2 x + \\cos^2 x = 1$ and $2\\sin x\\cos x = \\sin \\hl{1}{2x}$."
+              },
+              {
+                "tex": "&= 1 + \\sin \\hl{1}{2x}"
+              }
+            ]
+          },
+          {
+            "ask": "What is the integral of $\\sin 2x$? Then what is the integral of the 1?",
+            "title": "Integrate each term",
+            "lines": [
+              {
+                "text": "$\\int \\sin \\hl{1}{2x}\\,dx = -\\hl{2}{\\dfrac{\\cos 2x}{2}}$."
+              },
+              {
+                "tex": "\\int (1 + \\sin \\hl{1}{2x})\\,dx &= x - \\hl{2}{\\frac{\\cos 2x}{2}} + c"
+              }
+            ]
+          }
+        ],
+        "final": "x - \\hl{2}{\\frac{\\cos 2x}{2}} + c",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "alg-add-subtract",
+    "problems": [
+      {
+        "part": "practice-alg-add-subtract-1",
+        "note": null,
+        "legend": {
+          "1": "the subtracted bracket after its signs are changed",
+          "2": "the linear terms (x), collected",
+          "3": "the number terms, collected"
+        },
+        "steps": [
+          {
+            "ask": "What happens to each sign inside the second bracket when you remove it?",
+            "title": "Remove the brackets, changing every sign in the second",
+            "lines": [
+              {
+                "tex": "(3x^2+2x-5)-(x^2-4x+3) &= 3x^2 + 2x - 5 \\hl{1}{- x^2 + 4x - 3}"
+              }
+            ]
+          },
+          {
+            "ask": "Which terms are like terms? Collect the x squared, the x and the number terms.",
+            "title": "Collect like terms",
+            "lines": [
+              {
+                "tex": "&= 2x^2 + \\hl{2}{6x} \\hl{3}{- 8}"
+              }
+            ]
+          }
+        ],
+        "final": "2x^2 + \\hl{2}{6x} \\hl{3}{- 8}",
+        "graph": null
+      },
+      {
+        "part": "practice-alg-add-subtract-2",
+        "note": "Changed from problem 1: there are three brackets and the first two are added, so only the last bracket has its signs changed. Collecting like terms is the same.",
+        "legend": {
+          "1": "the subtracted bracket after its signs are changed",
+          "2": "the linear terms (x), collected",
+          "3": "the number terms, collected"
+        },
+        "steps": [
+          {
+            "ask": "The last bracket has a minus in front. What happens to each of its terms?",
+            "title": "Remove the brackets, changing signs in the last one",
+            "lines": [
+              {
+                "tex": "&2x^2 - x + 4 + x^2 + 5x - 9 \\hl{1}{- 3x^2 + 2x - 1}"
+              }
+            ]
+          },
+          {
+            "ask": "Which terms are x squared? What do they add up to?",
+            "title": "Collect the $x^2$ terms",
+            "lines": [
+              {
+                "tex": "2x^2 + x^2 - 3x^2 &= 0"
+              }
+            ]
+          },
+          {
+            "ask": "Collect the x terms and the number terms separately. What is each total?",
+            "title": "Collect the $x$ terms and the numbers",
+            "lines": [
+              {
+                "tex": "-x + 5x + 2x &= \\hl{2}{6x}"
+              },
+              {
+                "tex": "4 - 9 - 1 &= \\hl{3}{-6}"
+              }
+            ]
+          },
+          {
+            "ask": "Put the x total and the number total together. What is the answer?",
+            "title": "Write the result",
+            "lines": [
+              {
+                "tex": "&= \\hl{2}{6x} \\hl{3}{- 6}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{2}{6x} \\hl{3}{- 6}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2015-ordinary-p1-q7#(g)",
+        "note": "Changed from problem 2: the subtracted bracket is now a squared total, $(n+1)^2$, which has to be expanded first, and the terms use n with fractions. Subtracting the bracket and collecting like terms are the same.",
+        "legend": {
+          "1": "the subtracted bracket after its signs are changed",
+          "2": "the linear terms (n), collected"
+        },
+        "steps": [
+          {
+            "ask": "What is $W_n$ in terms of $T_n$ and $B_n$? Rearrange the first equation.",
+            "title": "Use white = total − black",
+            "lines": [
+              {
+                "text": "$W_n + B_n = T_n$, so $W_n = T_n - B_n$, with $B_n = \\tfrac12 n^2 + \\tfrac32 n + 1$."
+              },
+              {
+                "tex": "W_n &= (n+1)^2 - \\left(\\tfrac{1}{2}n^2 + \\tfrac{3}{2}n + 1\\right)"
+              }
+            ]
+          },
+          {
+            "ask": "Expand the square $(n+1)^2$ first. Which terms are alike once the brackets are gone?",
+            "title": "Expand and simplify",
+            "lines": [
+              {
+                "tex": "W_n &= n^2 + 2n + 1 \\hl{1}{- \\tfrac{1}{2}n^2 - \\tfrac{3}{2}n - 1}"
+              },
+              {
+                "tex": "&= \\tfrac{1}{2}n^2 + \\hl{2}{\\tfrac{1}{2}n}"
+              }
+            ]
+          }
+        ],
+        "final": "W_n = \\tfrac{1}{2}n^2 + \\hl{2}{\\tfrac{1}{2}n}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "alg-binomial-expand",
+    "problems": [
+      {
+        "part": "practice-alg-binomial-expand-1",
+        "note": null,
+        "legend": {
+          "1": "the binomial coefficient, nCk",
+          "2": "the power of the variable in each term"
+        },
+        "steps": [
+          {
+            "ask": "What is the general term of $(a+b)^n$? What are a, b and n here?",
+            "title": "Write the binomial pattern with $a=2$, $b=-x$",
+            "lines": [
+              {
+                "text": "The terms are $\\binom{4}{k}2^{4-k}(-x)^k$ for $k=0,1,2,3,4$."
+              },
+              {
+                "tex": "(2-x)^4 &= \\hl{1}{\\binom{4}{0}}2^4 + \\hl{1}{\\binom{4}{1}}2^3(-x) + \\hl{1}{\\binom{4}{2}}2^2(-x)^2 + \\hl{1}{\\binom{4}{3}}2(-x)^3 + \\hl{1}{\\binom{4}{4}}(-x)^4"
+              }
+            ]
+          },
+          {
+            "ask": "What are the binomial coefficients when n = 4? Work each one out.",
+            "title": "Find the coefficients",
+            "lines": [
+              {
+                "text": "$\\binom{4}{0}=\\hl{1}{1},\\ \\binom{4}{1}=\\hl{1}{4},\\ \\binom{4}{2}=\\hl{1}{6},\\ \\binom{4}{3}=\\hl{1}{4},\\ \\binom{4}{4}=\\hl{1}{1}$."
+              },
+              {
+                "tex": "(2-x)^4 &= \\hl{1}{1}(16) + \\hl{1}{4}(8)(-\\hl{2}{x}) + \\hl{1}{6}(4)(\\hl{2}{x^2}) + \\hl{1}{4}(2)(-\\hl{2}{x^3}) + \\hl{1}{1}(\\hl{2}{x^4})"
+              }
+            ]
+          },
+          {
+            "ask": "Multiply each coefficient by its powers of 2 and x. What is each term?",
+            "title": "Multiply out each term",
+            "lines": [
+              {
+                "tex": "(2-x)^4 &= 16 - 32\\hl{2}{x} + 24\\hl{2}{x^2} - 8\\hl{2}{x^3} + \\hl{2}{x^4}"
+              }
+            ]
+          }
+        ],
+        "final": "16 - 32\\hl{2}{x} + 24\\hl{2}{x^2} - 8\\hl{2}{x^3} + \\hl{2}{x^4}",
+        "graph": null
+      },
+      {
+        "part": "maths-pp-2025-higher-p1-q6#(a)",
+        "note": "Changed from problem 1: this is $(2p+3)^7$ with $b=3$ positive, a power of 7, and only the first three terms are asked, so you stop after $k=2$. Finding each term's coefficient and powers is the same method.",
+        "legend": {
+          "1": "the binomial coefficient, nCk",
+          "2": "the power of the variable in each term"
+        },
+        "steps": [
+          {
+            "ask": "What is the general term of $(a+b)^7$? What are a and b here, and how many terms are needed?",
+            "title": "Write the binomial pattern for the first three terms",
+            "lines": [
+              {
+                "text": "In $(a+b)^7$ the terms are $\\binom{7}{k}a^{7-k}b^k$ with $a=2p$, $b=3$ and $k=0,1,2$."
+              },
+              {
+                "tex": "(2p+3)^7 &= \\hl{1}{\\binom{7}{0}}(2p)^7 + \\hl{1}{\\binom{7}{1}}(2p)^6(3) + \\hl{1}{\\binom{7}{2}}(2p)^5(3)^2 + \\cdots"
+              }
+            ]
+          },
+          {
+            "ask": "What is the binomial coefficient for k = 0, and what is the power of 2p?",
+            "title": "First term",
+            "lines": [
+              {
+                "tex": "\\hl{1}{\\binom{7}{0}}(2p)^7 &= \\hl{1}{1}\\times 128p^7"
+              },
+              {
+                "tex": "&= 128\\hl{2}{p^7}"
+              }
+            ]
+          },
+          {
+            "ask": "What is the coefficient for k = 1? What do you get from the powers of 2p and 3?",
+            "title": "Second term",
+            "lines": [
+              {
+                "tex": "\\hl{1}{\\binom{7}{1}}(2p)^6(3) &= \\hl{1}{7}\\times 64p^6\\times 3"
+              },
+              {
+                "tex": "&= 1344\\hl{2}{p^6}"
+              }
+            ]
+          },
+          {
+            "ask": "What is the coefficient for k = 2? Then what are the powers of 2p and 3?",
+            "title": "Third term",
+            "lines": [
+              {
+                "text": "$\\hl{1}{\\binom{7}{2}} = \\frac{7\\times 6}{2} = \\hl{1}{21}$."
+              },
+              {
+                "tex": "\\hl{1}{\\binom{7}{2}}(2p)^5(3)^2 &= \\hl{1}{21}\\times 32p^5\\times 9"
+              },
+              {
+                "tex": "&= 6048\\hl{2}{p^5}"
+              }
+            ]
+          },
+          {
+            "ask": "What do the three terms add up to?",
+            "title": "Write the three terms together",
+            "lines": [
+              {
+                "tex": "\\text{First 3 terms} &= 128\\hl{2}{p^7} + 1344\\hl{2}{p^6} + 6048\\hl{2}{p^5}"
+              }
+            ]
+          }
+        ],
+        "final": "128\\hl{2}{p^7} + 1344\\hl{2}{p^6} + 6048\\hl{2}{p^5}",
+        "graph": null
+      },
+      {
+        "part": "practice-alg-binomial-expand-2",
+        "note": "Changed from problem 2: this is a full expansion of $\\left(x+\\frac{1}{x}\\right)^5$, so there are six terms with negative powers of x. The coefficients and the method are the same, but the powers must be simplified with the laws of indices.",
+        "legend": {
+          "1": "the binomial coefficient, nCk",
+          "2": "the power of the variable in each term"
+        },
+        "steps": [
+          {
+            "ask": "What is the general term of $(a+b)^5$ with $a=x$ and $b=\\frac{1}{x}$? Write it down.",
+            "title": "Write the binomial pattern with $a=x$, $b=\\frac{1}{x}$",
+            "lines": [
+              {
+                "text": "The terms are $\\binom{5}{k}x^{5-k}\\left(\\frac{1}{x}\\right)^k$ for $k=0$ to $5$."
+              },
+              {
+                "tex": "\\left(x+\\frac1x\\right)^5 &= \\hl{1}{\\binom50} x^5 + \\hl{1}{\\binom51} x^4\\cdot\\frac1x + \\hl{1}{\\binom52} x^3\\cdot\\frac1{x^2} + \\hl{1}{\\binom53} x^2\\cdot\\frac1{x^3} + \\hl{1}{\\binom54} x\\cdot\\frac1{x^4} + \\hl{1}{\\binom55}\\cdot\\frac1{x^5}"
+              }
+            ]
+          },
+          {
+            "ask": "What are the binomial coefficients when n = 5? Write each one out.",
+            "title": "Find the coefficients",
+            "lines": [
+              {
+                "text": "$\\binom50=\\hl{1}{1},\\ \\binom51=\\hl{1}{5},\\ \\binom52=\\hl{1}{10},\\ \\binom53=\\hl{1}{10},\\ \\binom54=\\hl{1}{5},\\ \\binom55=\\hl{1}{1}$."
+              }
+            ]
+          },
+          {
+            "ask": "When you multiply two powers of x, what happens to the exponents?",
+            "title": "Simplify each power of $x$ using the laws of indices",
+            "lines": [
+              {
+                "text": "$x^4\\cdot x^{-1}=x^3$, $x^3\\cdot x^{-2}=x$, $x^2\\cdot x^{-3}=x^{-1}$, $x\\cdot x^{-4}=x^{-3}$."
+              },
+              {
+                "tex": "\\left(x+\\frac1x\\right)^5 &= \\hl{2}{x^5} + 5\\hl{2}{x^3} + 10\\hl{2}{x} + \\frac{10}{x} + \\frac{5}{x^3} + \\frac{1}{x^5}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{2}{x^5} + 5\\hl{2}{x^3} + 10\\hl{2}{x} + \\frac{10}{x} + \\frac{5}{x^3} + \\frac{1}{x^5}",
+        "graph": null
+      }
+    ]
+  },
+  {
+    "skill": "alg-binomial-term",
+    "problems": [
+      {
+        "part": "practice-alg-binomial-term-1",
+        "note": null,
+        "legend": {
+          "1": "the binomial coefficient, nCk",
+          "2": "the power k that gives the wanted term",
+          "3": "the answer, the value asked for"
+        },
+        "steps": [
+          {
+            "ask": "What are a, b and n in this expansion? Write the general term $T_{k+1}$.",
+            "title": "Write the general term",
+            "lines": [
+              {
+                "text": "In $(a+b)^n$ the term is $T_{k+1}=\\binom{n}{k}a^{n-k}b^k$. Here $a=2$, $b=3x$, $n=6$."
+              },
+              {
+                "tex": "T_{k+1} &= \\hl{1}{\\binom{6}{k}}2^{6-k}(3x)^k"
+              }
+            ]
+          },
+          {
+            "ask": "Which value of k gives the power of x that you want?",
+            "title": "Choose $k$ so the power of $x$ is 3",
+            "lines": [
+              {
+                "text": "$(3x)^k$ gives $x^k$, so $\\hl{2}{k}=\\hl{2}{3}$."
+              }
+            ]
+          },
+          {
+            "ask": "What is $\\binom{6}{3}$? What are $2^3$ and $3^3$?",
+            "title": "Evaluate the term",
+            "lines": [
+              {
+                "text": "$\\hl{1}{\\binom63}=\\frac{6\\times5\\times4}{3\\times2\\times1}=\\hl{1}{20}$."
+              },
+              {
+                "tex": "T_4 &= \\hl{1}{20}\\times 2^3\\times 3^3 x^3"
+              },
+              {
+                "tex": "&= \\hl{1}{20}\\times 8\\times 27\\, x^3"
+              },
+              {
+                "tex": "&= \\hl{3}{4320}x^3"
+              }
+            ]
+          },
+          {
+            "ask": "What number is the coefficient of $x^3$ in the term you found?",
+            "title": "State the coefficient",
+            "lines": [
+              {
+                "text": "The coefficient of $x^3$ is $\\hl{3}{4320}$."
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{4320}",
+        "graph": null
+      },
+      {
+        "part": "practice-alg-binomial-term-3",
+        "note": "Changed from problem 1: the expansion is $(1+ax)^5$ and the coefficient is given, so the unknown is $a$ and you solve an equation at the end. Finding the general term and the value of k are the same.",
+        "legend": {
+          "1": "the binomial coefficient, nCk",
+          "2": "the power k that gives the wanted term",
+          "3": "the answer, the value asked for"
+        },
+        "steps": [
+          {
+            "ask": "Which power of $ax$ gives $x^3$? Write the general term using $k$ for that power.",
+            "title": "Write the term in $x^3$",
+            "lines": [
+              {
+                "text": "Here $a$ is the constant in $b=ax$. The term is $\\hl{1}{\\binom{5}{k}}1^{5-k}(ax)^k$ with $\\hl{2}{k}=\\hl{2}{3}$."
+              },
+              {
+                "tex": "T_4 &= \\hl{1}{\\binom53} (ax)^3"
+              }
+            ]
+          },
+          {
+            "ask": "What is the binomial coefficient $\\binom{5}{3}$?",
+            "title": "Find the coefficient",
+            "lines": [
+              {
+                "tex": "\\hl{1}{\\binom53} &= \\hl{1}{10}"
+              },
+              {
+                "tex": "T_4 &= \\hl{1}{10}a^3x^3"
+              }
+            ]
+          },
+          {
+            "ask": "What equation do you get from setting the coefficient to 80, and how do you solve it for $a$?",
+            "title": "Set the coefficient equal to 80 and solve",
+            "lines": [
+              {
+                "tex": "\\hl{1}{10}a^3 &= 80"
+              },
+              {
+                "tex": "a^3 &= 8"
+              },
+              {
+                "tex": "a &= \\hl{3}{2}"
+              }
+            ]
+          }
+        ],
+        "final": "a = \\hl{3}{2}",
+        "graph": null
+      },
+      {
+        "part": "practice-alg-binomial-term-2",
+        "note": "Changed from problem 2: the unknown is now the power k, not a coefficient, and the term must have no x, so the power of x is set to zero. The general term and the binomial coefficients are the same.",
+        "legend": {
+          "1": "the binomial coefficient, nCk",
+          "2": "the power k that gives the wanted term",
+          "3": "the answer, the value asked for"
+        },
+        "steps": [
+          {
+            "ask": "What are a, b and n here? Write the general term using $k$.",
+            "title": "Write the general term",
+            "lines": [
+              {
+                "text": "Here $a=x^2$, $b=x^{-1}$, $n=6$."
+              },
+              {
+                "tex": "T_{k+1} &= \\hl{1}{\\binom{6}{k}}(x^2)^{6-k}(x^{-1})^k"
+              }
+            ]
+          },
+          {
+            "ask": "When you multiply powers of x, what happens to the exponents?",
+            "title": "Combine the powers of $x$ using the laws of indices",
+            "lines": [
+              {
+                "tex": "T_{k+1} &= \\hl{1}{\\binom{6}{k}}x^{12-2k}x^{-k}"
+              },
+              {
+                "tex": "&= \\hl{1}{\\binom{6}{k}}x^{12-3k}"
+              }
+            ]
+          },
+          {
+            "ask": "What power of x must the term have to be independent of x?",
+            "title": "Find $k$ for the term independent of $x$",
+            "lines": [
+              {
+                "text": "The power of $x$ must be 0."
+              },
+              {
+                "tex": "12 - 3\\hl{2}{k} &= 0"
+              },
+              {
+                "tex": "\\hl{2}{k} &= \\hl{2}{4}"
+              }
+            ]
+          },
+          {
+            "ask": "What is the binomial coefficient for this k, and what is the term?",
+            "title": "Evaluate the term",
+            "lines": [
+              {
+                "text": "$\\hl{1}{\\binom64}=\\hl{1}{\\binom62}=\\frac{6\\times5}{2}=\\hl{1}{15}$."
+              },
+              {
+                "tex": "T_5 &= \\hl{1}{15}x^0 = \\hl{3}{15}"
+              }
+            ]
+          }
+        ],
+        "final": "\\hl{3}{15}",
+        "graph": null
+      }
+    ]
+  }
+]

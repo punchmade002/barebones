@@ -1,0 +1,153 @@
+[
+{"skill":"diff-apply-hl","problems":[
+{"part":"maths-pp-2020-higher-p1-q9#(d)","note":null,
+"legend":{"1":"the rate, N′(k)","2":"the variable k","3":"the answer"},
+"steps":[
+{"ask":"The rate must be more than 90. How do you get $e^{0.065k}$ on its own?","title":"Set up the inequality for the rate","lines":[{"tex":"\\hl{1}{N'(k)} &= \\hl{1}{29.25e^{0.065k}} > 90"},{"tex":"e^{0.065k} &> \\frac{90}{29.25}"}]},
+{"ask":"Which function undoes e raised to a power, and what must you do to both sides of the inequality?","title":"Take logs and solve","lines":[{"tex":"0.065k &> \\ln\\left(\\frac{90}{29.25}\\right)"},{"tex":"\\hl{2}{k} &> \\frac{\\ln(90/29.25)}{0.065}"},{"tex":"\\hl{2}{k} &> 17.29"}]},
+{"ask":"Which whole numbers are greater than 17.29, and which one is the least?","title":"Choose the least whole number","lines":[{"text":"$\\hl{2}{k}$ is a whole number greater than 17.29."},{"tex":"\\hl{2}{k} &= \\hl{3}{18}"}]}
+],
+"final":"\\hl{2}{k} = \\hl{3}{18}",
+"graph":null},
+{"part":"practice-diff-apply-hl-1","note":"Changed from the first problem: the model is a cooling curve, so the exponent is negative, the rate is negative, and the question gives an exact rate value instead of an inequality. The steps are the same: differentiate, set the rate, then take logs.",
+"legend":{"1":"the rate, T′(t)","2":"the variable t","3":"the answer"},
+"steps":[
+{"ask":"What is the derivative of $e^{-0.1t}$ with respect to $t$?","title":"Differentiate to get the rate","lines":[{"tex":"\\hl{1}{T'(t)} &= \\hl{1}{-7e^{-0.1t}}"}]},
+{"ask":"The temperature falls at 3.5 degrees per minute. What equation does that give for the rate?","title":"Set the rate equal to $-3.5$","lines":[{"tex":"\\hl{1}{-7e^{-0.1t}} &= -3.5"},{"tex":"e^{-0.1t} &= \\frac{1}{2}"}]},
+{"ask":"How do you undo the e in $e^{-0.1t} = \\frac{1}{2}$, so that you can solve for t?","title":"Take natural logs and solve","lines":[{"tex":"-0.1t &= \\ln\\left(\\tfrac{1}{2}\\right) = -\\ln 2"},{"tex":"\\hl{2}{t} &= \\hl{3}{10\\ln 2}"}]}
+],
+"final":"\\hl{2}{t} = \\hl{3}{10\\ln 2 \\approx 6.93 \\text{ minutes}}",
+"graph":null},
+{"part":"practice-diff-apply-hl-2","note":"Changed from the second problem: the model is now t times an exponential, so the rate needs the product rule, and the question asks for the time of a maximum that you justify with a second derivative, not a rate value. Setting the rate to zero and solving for t stay the same.",
+"legend":{"1":"the rate, C′(t)","2":"the variable t","3":"the answer"},
+"steps":[
+{"ask":"The model is $t$ times an exponential. Which rule do you use, and what is the derivative of each part?","title":"Differentiate using the product rule","lines":[{"tex":"\\hl{1}{C'(t)} &= 12e^{-t/2} + 12t\\left(-\\tfrac{1}{2}\\right)e^{-t/2}"},{"tex":"&= \\hl{1}{12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right)}"}]},
+{"ask":"When is a product equal to zero, and can the exponential $e^{-t/2}$ ever be zero?","title":"Set $C'(t) = 0$","lines":[{"tex":"\\hl{1}{12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right)} &= 0"},{"text":"$e^{-t/2}$ is never $0$, so the bracket must be $0$."},{"tex":"1 - \\tfrac{t}{2} &= 0"},{"tex":"\\hl{2}{t} &= \\hl{3}{2}"}]},
+{"ask":"To tell a maximum from a minimum, what do you differentiate again, and what do you check at the turning point?","title":"Differentiate again to classify","lines":[{"tex":"C''(t) &= 12e^{-t/2}\\left(\\tfrac{t}{4} - 1\\right)"}]},
+{"ask":"What does a negative second derivative at a turning point tell you about it?","title":"Evaluate at $t = 2$","lines":[{"tex":"C''(2) &= -12e^{-1} < 0"},{"text":"$C''(2) < 0$, so $\\hl{2}{t} = \\hl{3}{2}$ gives a maximum."}]}
+],
+"final":"\\hl{2}{t} = \\hl{3}{2 \\text{ hours}}",
+"graph":{"f":"12*x*exp(-x/2)","box":[-0.5,10,10,-0.5],"tangent":true,"points":[{"x":2,"y":8.829,"name":"max (2, 8.83)"}],"line":null,"slots":{"x":2,"y":null,"line":null}}}
+]},
+{"skill":"diff-curve-sketch","problems":[
+{"part":"practice-diff-curve-sketch-1","note":null,
+"legend":{"1":"y at a turning point","2":"x at a turning point","3":"the slope, dy/dx","4":"second derivative test"},
+"steps":[
+{"ask":"What is the slope of the curve at any point, and how do you find it from y?","title":"Differentiate","lines":[{"tex":"y &= x^3 - 6x^2 + 9x"},{"tex":"\\hl{3}{\\frac{dy}{dx}} &= \\hl{3}{3x^2 - 12x + 9}"}]},
+{"ask":"What is the slope at a turning point, and what do you do with that to find x?","title":"Set $\\frac{dy}{dx} = 0$","lines":[{"tex":"\\hl{3}{3x^2 - 12x + 9} &= 0"},{"tex":"x^2 - 4x + 3 &= 0"},{"tex":"(x - 1)(x - 3) &= 0"},{"tex":"\\hl{2}{x} &= \\hl{2}{1} \\quad \\text{or} \\quad \\hl{2}{x} = \\hl{2}{3}"}]},
+{"ask":"What do you substitute into the equation of the curve to find the y-value for each x?","title":"Find the $y$-values","lines":[{"tex":"\\hl{2}{x} = \\hl{2}{1}: \\quad y &= 1 - 6 + 9 = \\hl{1}{4}"},{"tex":"\\hl{2}{x} = \\hl{2}{3}: \\quad y &= 27 - 54 + 27 = \\hl{1}{0}"}]},
+{"ask":"What does the sign of the second derivative tell you about a turning point? Find it at each x.","title":"Classify using the second derivative","lines":[{"tex":"\\hl{4}{\\frac{d^2y}{dx^2}} &= \\hl{4}{6x - 12}"},{"text":"At $\\hl{2}{x} = \\hl{2}{1}$: $\\hl{4}{6 - 12 = -6} < 0$, so $(\\hl{2}{1}, \\hl{1}{4})$ is a local maximum."},{"text":"At $\\hl{2}{x} = \\hl{2}{3}$: $\\hl{4}{18 - 12 = 6} > 0$, so $(\\hl{2}{3}, \\hl{1}{0})$ is a local minimum."}]}
+],
+"final":"\\text{Local max } (\\hl{2}{1}, \\hl{1}{4}); \\ \\text{local min } (\\hl{2}{3}, \\hl{1}{0})",
+"graph":{"f":"x**3 - 6*x**2 + 9*x","box":[-0.5,11,4.5,-7],"tangent":true,"points":[{"x":1,"y":4,"name":"max (1, 4)"},{"x":3,"y":0,"name":"min (3, 0)"}],"line":null,"slots":{"x":2,"y":1,"line":null}}},
+{"part":"maths-pp-2017-higher-p1-q5#(c)","note":"Changed from the first problem: no derivative is needed, because the turning-point y-values are given, and the answer is a range for the shift a. Comparing each turning-point y-value with the x-axis stays the same.",
+"legend":{"1":"y at a turning point"},
+"steps":[
+{"ask":"If you add $a$ to $f(x)$, where does the whole graph move? When can a cubic cross the $x$-axis only once?","title":"Think about the graph of $f(x) + a$","lines":[{"text":"Adding $a$ moves the graph of $f$ up (or down) by $a$. A cubic has only one real root when it crosses the $x$-axis once: either the local maximum is below the axis, or the local minimum is above it."}]},
+{"ask":"If the local maximum must lie below the x-axis, what must its y-value plus $a$ be?","title":"Local maximum below the $x$-axis","lines":[{"tex":"\\hl{1}{9} + a &< 0"},{"tex":"a &< -9"}]},
+{"ask":"If the local minimum must lie above the x-axis, what must its y-value plus $a$ be?","title":"Local minimum above the $x$-axis","lines":[{"tex":"\\hl{1}{-\\frac{100}{27}} + a &> 0"},{"tex":"a &> \\frac{100}{27}"}]}
+],
+"final":"a < -9 \\ \\text{ or } \\ a > \\frac{100}{27}",
+"graph":null},
+{"part":"maths-pp-2025-higher-p1-q8#(e)(iii)","note":"Changed from the first two: this is a context question that reads the shape of the graph of T′(x) and compares end values for a kayak-and-run route, not turning points of a formula, so there are no colour marks and the slots do not carry over.",
+"legend":{},
+"steps":[
+{"ask":"How many places in $[0, 8]$ does $T'(x) = 0$, and how many turning points does that give the graph?","title":"Use the number of turning points","lines":[{"text":"$T'(x) = 0$ at only one value of $x$ in $[0, 8]$, so the graph has exactly one turning point."},{"text":"Graphs A and B each have a minimum followed by a maximum (two turning points), so reject them. The answer is C or D."}]},
+{"ask":"What does $x = 0$ mean for the route, and what do you substitute into $T(x)$?","title":"Find T(0) from part (c)","lines":[{"text":"$x = 0$ means kayak $S$ to $A$, then run $A$ to $F$."},{"tex":"T(0) &= \\frac{\\sqrt{0^2 + 4}}{6} + \\frac{8 - 0}{12}"},{"tex":"&= 1 \\text{ hour}"}]},
+{"ask":"What route does $x = 8$ describe, and what do you substitute for $x$ in $T(x)$?","title":"Find T(8) from part (d)","lines":[{"text":"$x = 8$ means kayak straight from $S$ to $F$ (about $82$ minutes)."},{"tex":"T(8) &= \\frac{\\sqrt{8^2 + 4}}{6} + \\frac{8 - 8}{12}"},{"tex":"&= \\frac{\\sqrt{68}}{6}"},{"tex":"&\\approx 1.37 \\text{ hours}"}]},
+{"ask":"Which of the two end values is larger, and which graph finishes above its starting height?","title":"Compare the end values","lines":[{"text":"$T(0) = 1 < 1.37 \\approx T(8)$, so the graph ends higher than it starts."},{"text":"Of C and D, the one that finishes above its starting height is D."}]}
+],
+"final":"\\text{D}",
+"graph":null}
+]},
+{"skill":"diff-increasing-interval","problems":[
+{"part":"maths-pp-2022-higher-p1-q5#(b)(ii)","note":null,
+"legend":{"1":"the derivative, f′(x)","2":"the roots of f′(x) = 0","3":"the answer"},
+"steps":[
+{"ask":"What is the derivative of each term of $f(x)$? Use the power rule on $x^3$, $x^2$ and $x$.","title":"Differentiate f(x)","lines":[{"tex":"f(x) &= 2x^3 - 21x^2 + 40x + 63"},{"tex":"\\hl{1}{f'(x)} &= \\hl{1}{6x^2 - 42x + 40}"}]},
+{"ask":"For which sign of $f'(x)$ is $f$ decreasing, and what inequality does that give?","title":"Set up the inequality f'(x) < 0","lines":[{"tex":"\\hl{1}{6x^2 - 42x + 40} &< 0"}]},
+{"ask":"Which formula gives the roots of a quadratic, and what are a, b and c here?","title":"Find the roots of 6x² − 42x + 40 = 0","lines":[{"text":"Use the quadratic formula with $a = 6$, $b = -42$, $c = 40$."},{"tex":"x &= \\frac{42 \\pm \\sqrt{42^2 - 4(6)(40)}}{2(6)}"},{"tex":"&= \\frac{42 \\pm \\sqrt{804}}{12}"},{"tex":"x &\\approx \\hl{2}{1.137} \\quad \\text{or} \\quad x \\approx \\hl{2}{5.862}"}]},
+{"ask":"Between which two roots is the quadratic below the x-axis? Check the sign of $f'(x)$ there.","title":"Choose the range where f'(x) is negative","lines":[{"text":"The graph of $\\hl{1}{6x^2 - 42x + 40}$ is a U-shape, so it is negative between the roots."},{"tex":"\\hl{2}{1.137} &< x < \\hl{2}{5.862}"},{"tex":"\\hl{3}{1.14} &< x < \\hl{3}{5.86}"}]}
+],
+"final":"\\hl{3}{1.14 < x < 5.86}",
+"graph":null},
+{"part":"practice-diff-increasing-interval-1","note":"Changed from the first problem: the question asks where f is increasing (f′(x) > 0), and the roots are whole numbers found by factorising, not by the quadratic formula. Differentiating and reading the U-shape stay the same.",
+"legend":{"1":"the derivative, f′(x)","2":"the roots of f′(x) = 0","3":"the answer"},
+"steps":[
+{"ask":"What is the derivative of $2x^3 - 9x^2 + 12x$, term by term?","title":"Differentiate $f(x)$","lines":[{"tex":"f(x) &= 2x^3 - 9x^2 + 12x"},{"tex":"\\hl{1}{f'(x)} &= \\hl{1}{6x^2 - 18x + 12}"}]},
+{"ask":"For f to be increasing, what sign must $f'(x)$ have? Can you divide the inequality by a common factor first?","title":"Set up the inequality $f'(x) > 0$","lines":[{"tex":"\\hl{1}{6x^2 - 18x + 12} &> 0"},{"tex":"x^2 - 3x + 2 &> 0"},{"tex":"(x - 1)(x - 2) &> 0"}]},
+{"ask":"What values of x make the product $(x - 1)(x - 2)$ equal to zero?","title":"Find the roots","lines":[{"text":"$(x-1)(x-2) = 0$ gives two roots."},{"tex":"x &= \\hl{2}{1} \\quad \\text{or} \\quad x = \\hl{2}{2}"}]},
+{"ask":"Outside the two roots, is a U-shaped graph above or below the x-axis?","title":"Choose where $f'(x)$ is positive","lines":[{"text":"The graph of $x^2 - 3x + 2$ is a U-shape, so it is positive outside the roots."},{"tex":"x &< \\hl{2}{1} \\quad \\text{or} \\quad x > \\hl{2}{2}"}]}
+],
+"final":"\\hl{3}{x < 1 \\ \\text{ or } \\ x > 2}",
+"graph":null},
+{"part":"practice-diff-increasing-interval-2","note":"Changed from the second problem: the question asks where g is decreasing again, and the roots come straight from x² = 4, so no factorising or formula is needed. Differentiating and reading the U-shape stay the same.",
+"legend":{"1":"the derivative, g′(x)","2":"the roots of g′(x) = 0","3":"the answer"},
+"steps":[
+{"ask":"What is the derivative of $12x - x^3$, term by term?","title":"Differentiate $g(x)$","lines":[{"tex":"g(x) &= 12x - x^3"},{"tex":"\\hl{1}{g'(x)} &= \\hl{1}{12 - 3x^2}"}]},
+{"ask":"Where g is decreasing, what sign does $g'(x)$ have? What do you do to $12 - 3x^2$ to get $x^2$ on its own?","title":"Set up the inequality $g'(x) < 0$","lines":[{"tex":"\\hl{1}{12 - 3x^2} &< 0"},{"tex":"x^2 &> 4"}]},
+{"ask":"Which values of x make $x^2$ equal to 4? Outside those values, is $x^2$ greater or less than 4?","title":"Solve the inequality","lines":[{"text":"$x^2 = 4$ gives the roots $x = \\hl{2}{\\pm 2}$. The graph of $x^2 - 4$ is a U-shape, so it is positive outside the roots."},{"tex":"x &< \\hl{2}{-2} \\quad \\text{or} \\quad x > \\hl{2}{2}"}]}
+],
+"final":"\\hl{3}{x < -2 \\ \\text{ or } \\ x > 2}",
+"graph":{"f":"12*x - x**3","box":[-3.5,18,3.5,-18],"tangent":true,"points":[{"x":-2,"y":-16,"name":"(-2, -16)"},{"x":2,"y":16,"name":"(2, 16)"}],"line":null,"slots":{"x":2,"y":null,"line":null}}}
+]},
+{"skill":"diff-point-given-slope","problems":[
+{"part":"practice-diff-point-given-slope-1","note":null,
+"legend":{"1":"the slope of the tangent, dy/dx","2":"x at the point","3":"y at the point"},
+"steps":[
+{"ask":"How do you find the slope of a curve at any point from its equation?","title":"Differentiate to get the slope","lines":[{"tex":"y &= x^2 - 6x + 4"},{"tex":"\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{2x - 6}"}]},
+{"ask":"What equation in x do you get when the slope equals 2? Solve it.","title":"Set the slope equal to 2","lines":[{"tex":"\\hl{1}{2x - 6} &= \\hl{1}{2}"},{"tex":"2x &= 8"},{"tex":"\\hl{2}{x} &= \\hl{2}{4}"}]},
+{"ask":"Which x-value do you substitute into the original curve to find y?","title":"Find y at this x-value","lines":[{"tex":"y &= (\\hl{2}{4})^2 - 6(\\hl{2}{4}) + 4"},{"tex":"&= \\hl{3}{-4}"}]}
+],
+"final":"(\\hl{2}{4}, \\hl{3}{-4})",
+"graph":{"f":"x**2 - 6*x + 4","box":[0,12,7,-6],"tangent":true,"points":[{"x":4,"y":-4,"name":"(4, -4)"}],"line":null,"slots":{"x":2,"y":3,"line":null}}},
+{"part":"practice-diff-point-given-slope-2","note":"Changed from the first problem: the curve is a cubic, and the slope comes from the line y = −9x + 4 (its gradient is −9), so there are two points, not one. Differentiating, setting the slope equal and substituting for y stay the same.",
+"legend":{"1":"the slope of the tangent, dy/dx","2":"x at the point","3":"y at the point"},
+"steps":[
+{"ask":"In $y = mx + c$, which number is the slope? What must the tangent's slope equal?","title":"Find the slope of the line","lines":[{"text":"The line $y = -9x + 4$ has slope $\\hl{1}{-9}$, so the tangent has slope $\\hl{1}{-9}$."}]},
+{"ask":"What is $\\frac{dy}{dx}$ for this cubic? Differentiate each term.","title":"Differentiate the curve","lines":[{"tex":"y &= x^3 - 3x^2 - 9x + 2"},{"tex":"\\hl{1}{\\frac{dy}{dx}} &= \\hl{1}{3x^2 - 6x - 9}"}]},
+{"ask":"What equation in x do you get when the slope equals −9? How can you solve it?","title":"Set the slope equal to -9 and solve","lines":[{"tex":"\\hl{1}{3x^2 - 6x - 9} &= \\hl{1}{-9}"},{"tex":"3x^2 - 6x &= 0"},{"tex":"3x(x - 2) &= 0"},{"tex":"\\hl{2}{x} &= \\hl{2}{0} \\text{ or } \\hl{2}{x} = \\hl{2}{2}"}]},
+{"ask":"What do you substitute into the original curve for each x, to find its y-value?","title":"Find y for each x-value","lines":[{"tex":"\\hl{2}{x} = \\hl{2}{0}:\\quad y &= \\hl{3}{2}"},{"tex":"\\hl{2}{x} = \\hl{2}{2}:\\quad y &= 8 - 12 - 18 + 2"},{"tex":"&= \\hl{3}{-20}"}]}
+],
+"final":"(\\hl{2}{0}, \\hl{3}{2}) \\text{ and } (\\hl{2}{2}, \\hl{3}{-20})",
+"graph":{"f":"x**3 - 3*x**2 - 9*x + 2","box":[-2,9,4,-27],"tangent":true,"points":[{"x":0,"y":2,"name":"(0, 2)"},{"x":2,"y":-20,"name":"(2, -20)"}],"line":null,"slots":{"x":2,"y":3,"line":null}}},
+{"part":"maths-pp-2024-higher-p1-q3#(c)","note":"Changed from the second problem: the slope comes from a drawn straight line l, and the tangents are found by drawing and reading x-values from the graph, not by solving an equation. Finding the slope of the line and matching it to the tangent stay the same.",
+"legend":{"1":"the slope, m","2":"x at the point"},
+"steps":[
+{"ask":"How do you find the gradient of a straight line through two known points?","title":"Find the slope of l","lines":[{"text":"$l$ passes through $(6, 0)$ and $(10, 2)$."},{"tex":"\\hl{1}{m} &= \\frac{2 - 0}{10 - 6}"},{"tex":"&= \\hl{1}{\\frac{1}{2}}"}]},
+{"ask":"If the tangent to p is parallel to l, what must be true about their slopes?","title":"Translate the condition into a slope","lines":[{"text":"$l'(x) = \\hl{1}{\\frac{1}{2}}$ for every $x$, since $l$ is a straight line."},{"text":"So $p'(x) = l'(x)$ means the tangent to $p$ has slope $\\hl{1}{\\frac{1}{2}}$, parallel to $l$."}]},
+{"ask":"Where on the curve could a tangent have the slope of l, and how many such places are there?","title":"Draw the two parallel tangents","lines":[{"text":"Place a ruler along $l$ and slide it down and to the left until it just touches the curve near the lower left. Draw this tangent in blue."},{"text":"Slide it up and to the right until it just touches the curve near the maximum. Draw this second tangent in blue."}]},
+{"ask":"How do you read the x-value of a touching point from the graph?","title":"Read the x-values from the touching points","lines":[{"text":"Draw a vertical line from each touching point down to the x-axis and read off the values."},{"text":"The first touches at about $\\hl{2}{x} = \\hl{2}{2.2}$ and the second at about $\\hl{2}{x} = \\hl{2}{6.8}$."}]}
+],
+"final":"\\hl{2}{x} \\approx \\hl{2}{2.2} \\text{ and } \\hl{2}{x} \\approx \\hl{2}{6.8}",
+"graph":null}
+]},
+{"skill":"diff-sketch-derivative","problems":[
+{"part":"maths-pp-2022-higher-p1-q6#(c)","note":null,
+"legend":{"1":"the derivative, p′(x)","2":"x at a key point","3":"gradient value at that point"},
+"steps":[
+{"ask":"What is the gradient of p(x) at each turning point, and where is it steepest?","title":"Read the gradient of p(x) at key points","lines":[{"text":"The value of $\\hl{1}{p'(x)}$ is the gradient of $p(x)$."},{"text":"At $\\hl{2}{x} = \\hl{2}{1}$ and $\\hl{2}{x} = \\hl{2}{3}$, $p(x)$ has a turning point, so the gradient is $\\hl{3}{0}$: $p'(\\hl{2}{1}) = \\hl{3}{0}$ and $p'(\\hl{2}{3}) = \\hl{3}{0}$."},{"text":"$p(x)$ is steepest uphill at its inflection point $\\hl{2}{x} = \\hl{2}{2}$, where the gradient is at its maximum, so $p'(\\hl{2}{2}) = \\hl{3}{1}$."},{"text":"We are given $p'(\\hl{2}{0}) = \\hl{3}{-3}$."}]},
+{"ask":"What shape is the graph of $p'(x)$ if $p(x)$ is a cubic? Where is its line of symmetry?","title":"Use the shape of p'(x) to find the last point","lines":[{"text":"$p(x)$ is a cubic, so $\\hl{1}{p'(x)}$ is a quadratic: a U-shape upside down, with its peak at $(\\hl{2}{2}, \\hl{3}{1})$."},{"text":"A quadratic is symmetric about its peak, so $\\hl{2}{x} = \\hl{2}{4}$ matches $\\hl{2}{x} = \\hl{2}{0}$: $p'(\\hl{2}{4}) = \\hl{3}{-3}$."}]},
+{"ask":"Which points do you now have for $p'(x)$, and what smooth shape joins them?","title":"Plot the points and join them","lines":[{"text":"Plot $(\\hl{2}{0}, \\hl{3}{-3})$, $(\\hl{2}{1}, \\hl{3}{0})$, $(\\hl{2}{2}, \\hl{3}{1})$, $(\\hl{2}{3}, \\hl{3}{0})$ and $(\\hl{2}{4}, \\hl{3}{-3})$, then draw a smooth curve through them."}]}
+],
+"final":"\\text{Quadratic through } (\\hl{2}{0},\\hl{3}{-3}),\\ (\\hl{2}{1},\\hl{3}{0}),\\ (\\hl{2}{2},\\hl{3}{1}),\\ (\\hl{2}{3},\\hl{3}{0}),\\ (\\hl{2}{4},\\hl{3}{-3})",
+"graph":null},
+{"part":"practice-diff-sketch-derivative-1","note":"Changed from the first problem: f′ is not given but comes from differentiating a cubic, so its x-intercepts come from the turning points of f and its y-intercept from substituting x = 0 into f′. Reading where the graph of f′ crosses each axis stays the same.",
+"legend":{"1":"the derivative, f′","2":"x at a key point","3":"gradient value at that point"},
+"steps":[
+{"ask":"What is the slope of f at a turning point, and so what value does f′ take there?","title":"Turning points of $f$ give the roots of $f'$","lines":[{"text":"At a turning point the slope of $f$ is $\\hl{3}{0}$, so $f'(\\hl{2}{-1}) = \\hl{3}{0}$ and $f'(\\hl{2}{3}) = \\hl{3}{0}$."},{"text":"The graph of $\\hl{1}{f'}$ crosses the $x$-axis at $(\\hl{2}{-1}, \\hl{3}{0})$ and $(\\hl{2}{3}, \\hl{3}{0})$."}]},
+{"ask":"Where does a graph cross the y-axis, and which x-value do you substitute to find that point?","title":"Find the $y$-intercept of $f'$","lines":[{"tex":"\\hl{1}{f'(x)} &= \\hl{1}{3x^2 - 6x - 9}"},{"tex":"f'(\\hl{2}{0}) &= \\hl{3}{-9}"},{"text":"The graph of $\\hl{1}{f'}$ crosses the $y$-axis at $(\\hl{2}{0}, \\hl{3}{-9})$."}]}
+],
+"final":"(\\hl{2}{-1}, \\hl{3}{0}),\\ (\\hl{2}{3}, \\hl{3}{0}),\\ (\\hl{2}{0}, \\hl{3}{-9})",
+"graph":{"f":"3*x**2 - 6*x - 9","box":[-2,16,4,-14],"tangent":true,"points":[{"x":-1,"y":0,"name":"(-1, 0)"},{"x":3,"y":0,"name":"(3, 0)"},{"x":0,"y":-9,"name":"(0, -9)"}],"line":null,"slots":{"x":2,"y":3,"line":null}}},
+{"part":"practice-diff-sketch-derivative-2","note":"Changed from the second problem: the curve has no given turning points, so you must differentiate first, then find the minimum of f′ using its own derivative rather than reading a graph. Substituting into f′ to get the y-coordinate stays the same.",
+"legend":{"1":"the derivative, f′","2":"x at a key point","3":"gradient value at that point"},
+"steps":[
+{"ask":"What is the derivative of $x^3 - 6x^2 + 9x + 2$, term by term?","title":"Differentiate","lines":[{"tex":"\\hl{1}{f'(x)} &= \\hl{1}{3x^2 - 12x + 9}"}]},
+{"ask":"At the minimum of f′, what is the slope of f′? Which derivative must you find?","title":"Find the $x$-coordinate of the minimum of $f'$","lines":[{"text":"The minimum of $\\hl{1}{f'}$ is where its slope, $f''(x)$, is zero."},{"tex":"f''(x) &= 6x - 12"},{"tex":"6x - 12 &= 0"},{"tex":"\\hl{2}{x} &= \\hl{2}{2}"}]},
+{"ask":"What do you substitute into $f'(x)$ to get the y-coordinate of this minimum?","title":"Find the $y$-coordinate","lines":[{"tex":"f'(\\hl{2}{2}) &= 3(4) - 12(\\hl{2}{2}) + 9"},{"tex":"&= \\hl{3}{-3}"}]}
+],
+"final":"(\\hl{2}{2}, \\hl{3}{-3})",
+"graph":{"f":"3*x**2 - 12*x + 9","box":[-0.5,16,4.5,-4],"tangent":true,"points":[{"x":2,"y":-3,"name":"min (2, -3)"}],"line":null,"slots":{"x":2,"y":3,"line":null}}}
+]}
+]
