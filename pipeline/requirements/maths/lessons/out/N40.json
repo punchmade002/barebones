@@ -1,0 +1,329 @@
+[
+ {"skill": "fn-graph-log", "problems": [
+  {"part": "maths-pp-2018-higher-p1-q7#(c)", "note": null,
+   "legend": {"1": "the output at each x (t(x), y or f(x))"},
+   "steps": [
+    {"ask": "What do you get when you put x = 0 into t(x)? Then try x = 10, 20 and 30.", "title": "Substitute x = 0, 10, 20, 30 into t(x)", "lines": [
+      {"text": "Use $t(x) = -62.5\\ln\\left(1-\\frac{x}{80}\\right)$ and round each answer to a whole number."},
+      {"tex": "\\hl{1}{t(0)} &= -62.5\\ln(1)"},
+      {"tex": "&= \\hl{1}{0}"},
+      {"tex": "\\hl{1}{t(10)} &= -62.5\\ln\\left(1-\\frac{10}{80}\\right)"},
+      {"tex": "&\\approx \\hl{1}{8}"},
+      {"tex": "\\hl{1}{t(20)} &= -62.5\\ln\\left(1-\\frac{20}{80}\\right)"},
+      {"tex": "&\\approx \\hl{1}{18}"},
+      {"tex": "\\hl{1}{t(30)} &= -62.5\\ln\\left(1-\\frac{30}{80}\\right)"},
+      {"tex": "&\\approx \\hl{1}{29}"}
+    ]},
+    {"ask": "What is t(40), and what are the values for x = 50, 60 and 70?", "title": "Substitute x = 40, 50, 60, 70 into t(x)", "lines": [
+      {"tex": "\\hl{1}{t(40)} &= -62.5\\ln\\left(1-\\frac{40}{80}\\right)"},
+      {"tex": "&\\approx \\hl{1}{43}"},
+      {"tex": "\\hl{1}{t(50)} &= -62.5\\ln\\left(1-\\frac{50}{80}\\right)"},
+      {"tex": "&\\approx \\hl{1}{61}"},
+      {"tex": "\\hl{1}{t(60)} &= -62.5\\ln\\left(1-\\frac{60}{80}\\right)"},
+      {"tex": "&\\approx \\hl{1}{87}"},
+      {"tex": "\\hl{1}{t(70)} &= -62.5\\ln\\left(1-\\frac{70}{80}\\right)"},
+      {"tex": "&\\approx \\hl{1}{130}"}
+    ]},
+    {"ask": "Which value of t(x) goes with each x? List them in order.", "title": "Read off the completed table", "lines": [
+      {"text": "$x$: 0, 10, 20, 30, 40, 50, 60, 70."},
+      {"text": "$\\hl{1}{t(x)}$: 0, 8, 18, 29, 43, 61, 87, 130."}
+    ]},
+    {"ask": "Which points do you plot from the table, and how should they be joined?", "title": "Plot the points and join them with a smooth curve", "lines": [
+      {"text": "Plot each pair $(x, t(x))$, e.g. $(10, 8)$, $(40, 43)$, $(70, 130)$."},
+      {"text": "Join the points with a smooth curve starting at the origin."}
+    ]}
+   ],
+   "final": "\\hl{1}{t(x)}:\\ \\hl{1}{0},\\ \\hl{1}{8},\\ \\hl{1}{18},\\ \\hl{1}{29},\\ \\hl{1}{43},\\ \\hl{1}{61},\\ \\hl{1}{87},\\ \\hl{1}{130}",
+   "graph": {"f": "-62.5*log(1 - x/80)", "box": [-5, 150, 80, -10], "tangent": false, "points": [{"x": 10, "y": 8, "name": "(10, 8)"}, {"x": 40, "y": 43, "name": "(40, 43)"}, {"x": 70, "y": 130, "name": "(70, 130)"}], "line": null, "slots": {"x": null, "y": 1, "line": null}}
+  },
+  {"part": "practice-fn-graph-log-1", "note": "The base is now 3, and each y comes from index form instead of substitution. The method is still a table of values, one row for each x.",
+   "legend": {"1": "the output at each x (t(x), y or f(x))"},
+   "steps": [
+    {"ask": "What does y = log₃x mean as a power of 3?", "title": "Convert to index form", "lines": [
+      {"text": "$y = \\log_3 x$ means $x = 3^y$. Find the power of $3$ that gives each $x$."}
+    ]},
+    {"ask": "What power of 3 equals 1/9?", "title": "x = 1/9", "lines": [
+      {"tex": "3^y &= \\frac{1}{9}"},
+      {"tex": "&= 3^{-2}"},
+      {"tex": "\\hl{1}{y} &= \\hl{1}{-2}"}
+    ]},
+    {"ask": "What power of 3 gives 1, and what power gives 3?", "title": "x = 1 and x = 3", "lines": [
+      {"tex": "3^y &= 1 = 3^0 \\Rightarrow \\hl{1}{y = 0}"},
+      {"tex": "3^y &= 3 = 3^1 \\Rightarrow \\hl{1}{y = 1}"}
+    ]},
+    {"ask": "What power of 3 gives 9?", "title": "x = 9", "lines": [
+      {"tex": "3^y &= 9 = 3^2"},
+      {"tex": "\\hl{1}{y} &= \\hl{1}{2}"}
+    ]},
+    {"ask": "Which y goes with each x? List them in order.", "title": "Read off the table", "lines": [
+      {"text": "$x$: $\\frac19$, $1$, $3$, $9$. $\\hl{1}{y}$: $\\hl{1}{-2}$, $\\hl{1}{0}$, $\\hl{1}{1}$, $\\hl{1}{2}$."}
+    ]}
+   ],
+   "final": "\\hl{1}{y}:\\ \\hl{1}{-2},\\ \\hl{1}{0},\\ \\hl{1}{1},\\ \\hl{1}{2}",
+   "graph": {"f": "log(x)/log(3)", "box": [-0.5, 3.5, 10, -3.5], "tangent": false, "points": [{"x": 1, "y": 0, "name": "(1, 0)"}, {"x": 3, "y": 1, "name": "(3, 1)"}, {"x": 9, "y": 2, "name": "(9, 2)"}], "line": null, "slots": {"x": null, "y": 1, "line": null}}
+  },
+  {"part": "practice-fn-graph-log-3", "note": "The base is now 2 and there are five x values, including 2 and 32, so there are more index-form steps. The method is the same as problem 2.",
+   "legend": {"1": "the output at each x (t(x), y or f(x))"},
+   "steps": [
+    {"ask": "What does f(x) = log₂x mean as a power of 2?", "title": "Convert to index form", "lines": [
+      {"text": "$y = \\log_2 x$ means $x = 2^y$. Find the power of $2$ that gives each $x$."}
+    ]},
+    {"ask": "What power of 2 gives 1/8, and what power gives 1/2?", "title": "x = 1/8 and x = 1/2", "lines": [
+      {"tex": "2^y &= \\frac18 = 2^{-3}"},
+      {"tex": "\\hl{1}{y} &= \\hl{1}{-3}"},
+      {"tex": "2^y &= \\frac12 = 2^{-1}"},
+      {"tex": "\\hl{1}{y} &= \\hl{1}{-1}"}
+    ]},
+    {"ask": "What power of 2 gives 2, and what power gives 8?", "title": "x = 2 and x = 8", "lines": [
+      {"tex": "2^y &= 2 = 2^1"},
+      {"tex": "\\hl{1}{y} &= \\hl{1}{1}"},
+      {"tex": "2^y &= 8 = 2^3"},
+      {"tex": "\\hl{1}{y} &= \\hl{1}{3}"}
+    ]},
+    {"ask": "What power of 2 gives 32?", "title": "x = 32", "lines": [
+      {"tex": "2^y &= 32 = 2^5"},
+      {"tex": "\\hl{1}{y} &= \\hl{1}{5}"}
+    ]},
+    {"ask": "What is f(x) for each x? List them in order.", "title": "Read off the table", "lines": [
+      {"text": "$x$: $\\frac18$, $\\frac12$, $2$, $8$, $32$. $\\hl{1}{f(x)}$: $\\hl{1}{-3}$, $\\hl{1}{-1}$, $\\hl{1}{1}$, $\\hl{1}{3}$, $\\hl{1}{5}$."}
+    ]}
+   ],
+   "final": "\\hl{1}{f(x)}:\\ \\hl{1}{-3},\\ \\hl{1}{-1},\\ \\hl{1}{1},\\ \\hl{1}{3},\\ \\hl{1}{5}",
+   "graph": {"f": "log(x)/log(2)", "box": [-1, 6, 34, -4], "tangent": false, "points": [{"x": 0.5, "y": -1, "name": "(1/2, -1)"}, {"x": 2, "y": 1, "name": "(2, 1)"}, {"x": 8, "y": 3, "name": "(8, 3)"}, {"x": 32, "y": 5, "name": "(32, 5)"}], "line": null, "slots": {"x": null, "y": 1, "line": null}}
+  }
+ ]},
+ {"skill": "fn-injective-surjective", "problems": [
+  {"part": "maths-pp-2016-higher-p1-q5#(b)(i)", "note": null,
+   "legend": {"1": "the conclusion of the comparison (a = b, or b = 6)", "2": "the shared output, f(a) = f(b) or f(0)"},
+   "steps": [
+    {"ask": "If two inputs a and b give the same output, what equation do you get?", "title": "Assume two inputs give the same output", "lines": [
+      {"text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."},
+      {"tex": "\\hl{2}{f(a)} &= \\hl{2}{f(b)}"},
+      {"tex": "3a - 2 &= 3b - 2"}
+    ]},
+    {"ask": "Once you solve that equation, what do you know about a and b?", "title": "Solve for a", "lines": [
+      {"tex": "3a &= 3b"},
+      {"tex": "\\hl{1}{a} &= \\hl{1}{b}"},
+      {"text": "Different inputs always give different outputs, so $f$ is injective."}
+    ]}
+   ],
+   "final": "\\hl{2}{f(a) = f(b)} \\Rightarrow \\hl{1}{a = b} \\text{, so } f \\text{ is injective}",
+   "graph": null
+  },
+  {"part": "practice-fn-injective-surjective-2", "note": "Only the function changes, from 3a − 2 to x/3 + 4 with a fraction coefficient, so the steps are the same.",
+   "legend": {"1": "the conclusion of the comparison (a = b, or b = 6)", "2": "the shared output, f(a) = f(b) or f(0)"},
+   "steps": [
+    {"ask": "If two inputs a and b give the same output, what equation do you get?", "title": "Assume two inputs give the same output", "lines": [
+      {"text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."},
+      {"tex": "\\hl{2}{f(a)} &= \\hl{2}{f(b)}"},
+      {"tex": "\\frac{a}{3} + 4 &= \\frac{b}{3} + 4"}
+    ]},
+    {"ask": "Once you solve that equation, what do you know about a and b?", "title": "Solve for a", "lines": [
+      {"tex": "\\frac{a}{3} &= \\frac{b}{3}"},
+      {"tex": "\\hl{1}{a} &= \\hl{1}{b}"},
+      {"text": "Different inputs always give different outputs, so $f$ is injective."}
+    ]}
+   ],
+   "final": "\\hl{2}{f(a) = f(b)} \\Rightarrow \\hl{1}{a = b} \\text{, so } f \\text{ is injective}",
+   "graph": null
+  },
+  {"part": "practice-fn-injective-surjective-1", "note": "This one changes the method: you find a second input with the same output as f(0) to show f is not injective, instead of proving that equal outputs force equal inputs. It is the closest candidate that still asks about injectivity.",
+   "legend": {"1": "the conclusion of the comparison (a = b, or b = 6)", "2": "the shared output, f(a) = f(b) or f(0)"},
+   "steps": [
+    {"ask": "What do you get when you put x = 0 into f(x)?", "title": "Find $f(0)$", "lines": [
+      {"tex": "\\hl{2}{f(0)} &= 0^2 - 6(0) + 5 = 5"}
+    ]},
+    {"ask": "Which other input b gives the same output as f(0)?", "title": "Look for another input with the same output", "lines": [
+      {"text": "$f$ is injective only if $f(a) = f(b)$ forces $a = b$. Set $\\hl{2}{f(b)} = 5$."},
+      {"tex": "\\hl{2}{b^2 - 6b + 5} &= \\hl{2}{5}"},
+      {"tex": "b^2 - 6b &= 0"},
+      {"tex": "b(b - 6) &= 0"}
+    ]},
+    {"ask": "Which value of b is not 0, and what does the equation give for it?", "title": "Choose the value other than 0", "lines": [
+      {"tex": "b &= 0 \\text{ or } \\hl{1}{b = 6}"},
+      {"text": "Since $b \\neq 0$, $\\hl{1}{b = 6}$. Then $\\hl{2}{f(6)} = 36 - 36 + 5 = 5 = \\hl{2}{f(0)}$ with $6 \\neq 0$, so $f$ is not injective."}
+    ]}
+   ],
+   "final": "\\hl{1}{b = 6}",
+   "graph": null
+  }
+ ]},
+ {"skill": "fn-transformations", "problems": [
+  {"part": "maths-pp-2016-higher-p1-q8#(a)(iii)", "note": null,
+   "legend": {"1": "the image point (new coordinates)"},
+   "steps": [
+    {"ask": "How far must A move horizontally and vertically to reach C?", "title": "Find the translation that maps A onto C", "lines": [
+      {"tex": "A(-0.5,\\ 2.565) &\\to C(0,\\ 2)"},
+      {"tex": "x\\text{-shift} &= 0 - (-0.5) = 0.5"},
+      {"tex": "y\\text{-shift} &= 2 - 2.565 = -0.565"}
+    ]},
+    {"ask": "Where does the maximum point end up after the same move?", "title": "Apply the translation to the maximum point (2.177, 4.529)", "lines": [
+      {"text": "Use the maximum height from part (i); the translation moves every point of the curve the same way."},
+      {"tex": "x &= 2.177 + 0.5"},
+      {"tex": "&= 2.677"},
+      {"tex": "y &= 4.529 - 0.565"},
+      {"tex": "&= 3.964"}
+    ]}
+   ],
+   "final": "\\hl{1}{(2.677,\\ 3.964)}",
+   "graph": null
+  },
+  {"part": "practice-fn-transformations-1", "note": "The move is now given as g(x − 4) − 2 instead of worked out from two points, and it is applied to three points instead of one. The method is the same: shift each point, and shift the domain.",
+   "legend": {"1": "the image point (new coordinates)"},
+   "steps": [
+    {"ask": "Which way does x − 4 move the graph, and by how much?", "title": "Horizontal shift: g(x − 4) moves the graph right 4", "lines": [
+      {"text": "Replacing $x$ by $x - 4$ shifts every point 4 units right, so $(x, y)$ becomes $(x + 4, y)$."}
+    ]},
+    {"ask": "What must x − 4 lie between, and what does that give for x?", "title": "Find the new domain", "lines": [
+      {"text": "$g$ needs its input between $-1$ and $3$."},
+      {"tex": "-1 \\le x - 4 &\\le 3"},
+      {"tex": "3 \\le x &\\le 7"}
+    ]},
+    {"ask": "Where does each point go after the 2 is subtracted?", "title": "Vertical shift: subtracting 2 moves the graph down 2", "lines": [
+      {"text": "Every point then drops 2 units, so $(x, y)$ becomes $(x + 4, y - 2)$."},
+      {"tex": "(-1, 2) &\\to \\hl{1}{(3, 0)}"},
+      {"tex": "(0, -1) &\\to \\hl{1}{(4, -3)}"},
+      {"tex": "(3, 4) &\\to \\hl{1}{(7, 2)}"}
+    ]}
+   ],
+   "final": "\\hl{1}{(3, 0)},\\ \\hl{1}{(4, -3)},\\ \\hl{1}{(7, 2)}",
+   "graph": null
+  },
+  {"part": "maths-pp-2023-higher-p1-q2#(c)(i), (ii)", "note": "Two separate moves are applied to the same three points, first a vertical shift and then a horizontal one, and the domain is found for the horizontal move. It is still shifting points, so the method is the same.",
+   "legend": {"1": "the image point (new coordinates)"},
+   "steps": [
+    {"ask": "After subtracting 2, which coordinate of each point changes?", "title": "(i) g(x) − 2 moves the graph down 2", "lines": [
+      {"text": "Subtracting 2 from the output lowers every point by 2; the domain stays $-2 \\le x \\le 2$."},
+      {"tex": "(-2, 4) &\\to \\hl{1}{(-2, 2)}"},
+      {"tex": "(-1, 1) &\\to \\hl{1}{(-1, -1)}"},
+      {"tex": "(2, 3) &\\to \\hl{1}{(2, 1)}"}
+    ]},
+    {"ask": "Where does each point go when x is replaced by x + 3? Which way does it move?", "title": "(ii) g(x + 3) moves the graph left 3", "lines": [
+      {"text": "Adding 3 to the input shifts every point 3 units left."},
+      {"tex": "(-2, 4) &\\to \\hl{1}{(-5, 4)}"},
+      {"tex": "(-1, 1) &\\to \\hl{1}{(-4, 1)}"},
+      {"tex": "(2, 3) &\\to \\hl{1}{(-1, 3)}"}
+    ]},
+    {"ask": "What must x + 3 lie between for g to accept it, and what does that give for x?", "title": "Find the domain of g(x + 3)", "lines": [
+      {"text": "$g$ needs its input between $-2$ and $2$."},
+      {"tex": "-2 \\le x + 3 &\\le 2"},
+      {"tex": "-5 \\le x &\\le -1"}
+    ]}
+   ],
+   "final": "\\text{(i) } g(x) - 2 \\text{ is } g(x) \\text{ down 2; (ii) } g(x+3) \\text{ is } g(x) \\text{ left 3}",
+   "graph": null
+  }
+ ]},
+ {"skill": "geo-cor1", "problems": [
+  {"part": "practice-geo-cor1-1", "note": null,
+   "legend": {"1": "the matched angle or side (the answer)"},
+   "steps": [
+    {"ask": "What is the third angle of triangle ABC, if two of its angles are 35° and 70°?", "title": "Find $|\\angle ABC|$ in triangle $ABC$", "lines": [
+      {"text": "The angles of a triangle add to $180^\\circ$."},
+      {"tex": "\\hl{1}{|\\angle ABC|} &= 180 - 35 - 70"},
+      {"tex": "&= \\hl{1}{75^\\circ}"}
+    ]},
+    {"ask": "Which angle of the parallelogram matches ∠ABC when the diagonal splits it into two congruent triangles?", "title": "Use Corollary 1", "lines": [
+      {"text": "The diagonal $[AC]$ divides the parallelogram into two congruent triangles, $ABC$ and $CDA$, with $B$ matching $D$."},
+      {"text": "So the angles at $B$ and $D$ are equal."},
+      {"tex": "\\hl{1}{|\\angle ADC|} &= \\hl{1}{|\\angle ABC|} = \\hl{1}{75^\\circ}"}
+    ]}
+   ],
+   "final": "\\hl{1}{75^\\circ}",
+   "graph": null
+  },
+  {"part": "practice-geo-cor1-3", "note": "Same corollary and matched pair, but the matched angles are given as expressions in x, so you set them equal and solve for x. The answer is now x, not an angle.",
+   "legend": {"1": "the matched angle or side", "2": "the unknown x"},
+   "steps": [
+    {"ask": "What does Corollary 1 say about these two angles, and what equation follows?", "title": "Use Corollary 1", "lines": [
+      {"text": "The diagonal $[AC]$ divides the parallelogram into congruent triangles $ABC$ and $CDA$, with $C$ matching $A$."},
+      {"text": "So $|\\angle BCA| = |\\angle DAC|$."},
+      {"tex": "\\hl{1}{2x + 10} &= \\hl{1}{3x - 20}"}
+    ]},
+    {"ask": "What value of x makes the two expressions equal?", "title": "Solve for $x$", "lines": [
+      {"tex": "\\hl{2}{30} &= \\hl{2}{x}"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{30}"}
+    ]},
+    {"ask": "Does each expression give the same angle when you put x = 30 back in?", "title": "Check", "lines": [
+      {"text": "Each angle is $\\hl{1}{70^\\circ}$."},
+      {"tex": "\\hl{1}{2(30) + 10} &= \\hl{1}{70}"},
+      {"tex": "\\hl{1}{3(30) - 20} &= \\hl{1}{70}"}
+    ]}
+   ],
+   "final": "\\hl{2}{x = 30}",
+   "graph": null
+  },
+  {"part": "practice-geo-cor1-4", "note": "The matched quantities are now sides, |AB| and |CD|, so the equation comes from lengths, and one more step gives the length asked for.",
+   "legend": {"1": "the matched angle or side", "2": "the unknown x"},
+   "steps": [
+    {"ask": "Which two sides does Corollary 1 make equal, and what equation does that give?", "title": "Use Corollary 1", "lines": [
+      {"text": "The diagonal $[AC]$ divides the parallelogram into two congruent triangles, $ABC$ and $CDA$, with $B$ matching $D$ and $A$ matching $C$."},
+      {"text": "So the matching sides $[AB]$ and $[CD]$ are equal."},
+      {"tex": "\\hl{1}{3x - 4} &= \\hl{1}{x + 8}"}
+    ]},
+    {"ask": "What value of x satisfies that equation?", "title": "Solve for $x$", "lines": [
+      {"tex": "2x &= 12"},
+      {"tex": "\\hl{2}{x} &= \\hl{2}{6}"}
+    ]},
+    {"ask": "What is |CD| once you put x back in?", "title": "Find $|CD|$", "lines": [
+      {"tex": "\\hl{1}{|CD|} &= 6 + 8"},
+      {"tex": "&= \\hl{1}{14}"}
+    ]}
+   ],
+   "final": "\\hl{1}{14}",
+   "graph": null
+  }
+ ]},
+ {"skill": "geo-cor3", "problems": [
+  {"part": "maths-pp-2022-ordinary-p2-q6#(a)(i)", "note": null,
+   "legend": {"1": "the right angle at the circle (90°)"},
+   "steps": [
+    {"ask": "What do you know about an angle at the circle that stands on a diameter?", "title": "Use the angle in a semicircle", "lines": [
+      {"text": "$[AB]$ is a diameter, so the angle at $D$ on the circle is a right angle."},
+      {"tex": "\\hl{1}{|\\angle ADB|} &= \\hl{1}{90^\\circ}"}
+    ]}
+   ],
+   "final": "\\hl{1}{90^\\circ}",
+   "graph": null
+  },
+  {"part": "practice-geo-cor3-1", "note": "Same corollary for the right angle at C, then one extra step: the angles in triangle ABC add to 180°, which gives ∠ABC.",
+   "legend": {"1": "the right angle at the circle (90°)", "2": "the unknown angle being worked out"},
+   "steps": [
+    {"ask": "Which angle at C stands on the diameter [AB], and what size is it?", "title": "Use the angle in a semicircle", "lines": [
+      {"text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."},
+      {"tex": "\\hl{1}{|\\angle ACB|} &= \\hl{1}{90^\\circ}"}
+    ]},
+    {"ask": "Which angle of triangle ABC is still unknown, and what do the other two add to?", "title": "Angles in triangle ABC add to 180 degrees", "lines": [
+      {"tex": "\\hl{2}{|\\angle ABC|} &= 180 - \\hl{1}{90} - 38"},
+      {"tex": "&= \\hl{2}{52^\\circ}"}
+    ]}
+   ],
+   "final": "\\hl{2}{|\\angle ABC| = 52^\\circ}",
+   "graph": null
+  },
+  {"part": "maths-pp-2022-higher-p2-q6#(b)", "note": "Same corollary for the right angle at D, then three more steps: isosceles triangle ABD gives its base angles, equal angles on arc AD give ∠ACD, and the triangle sum gives ∠ADC. This is the furthest from problem 1.",
+   "legend": {"1": "the right angle at the circle (90°)", "2": "the unknown angle being worked out"},
+   "steps": [
+    {"ask": "What is the angle at D that stands on the diameter [AB]?", "title": "Use the angle in a semicircle", "lines": [
+      {"text": "$[AB]$ is a diameter, so the angle at $D$ in the semicircle is a right angle."},
+      {"tex": "\\hl{1}{|\\angle ADB|} &= \\hl{1}{90^\\circ}"}
+    ]},
+    {"ask": "Triangle ABD has a right angle at D and two equal sides. What are its base angles?", "title": "Use the isosceles triangle ABD", "lines": [
+      {"text": "Triangle $ABD$ is isosceles with the right angle at $D$, so $|AD| = |DB|$ and the two base angles are equal."},
+      {"tex": "\\hl{2}{|\\angle ABD|} &= \\frac{180 - 90}{2}"},
+      {"tex": "&= \\hl{2}{45^\\circ}"}
+    ]},
+    {"ask": "Which other angle stands on the same arc AD as ∠ABD?", "title": "Use angles standing on the same arc", "lines": [
+      {"text": "$\\angle ABD$ and $\\angle ACD$ both stand on the arc $AD$, so they are equal."},
+      {"tex": "\\hl{2}{|\\angle ACD|} &= \\hl{2}{45^\\circ}"}
+    ]},
+    {"ask": "What is the last angle of triangle ADC once you know the other two?", "title": "Angles in triangle ADC add to 180 degrees", "lines": [
+      {"tex": "\\hl{2}{|\\angle ADC|} &= 180 - 45 - 40"},
+      {"tex": "&= \\hl{2}{95^\\circ}"}
+    ]}
+   ],
+   "final": "\\hl{2}{|\\angle ADC| = 95^\\circ}",
+   "graph": null
+  }
+ ]}
+]
