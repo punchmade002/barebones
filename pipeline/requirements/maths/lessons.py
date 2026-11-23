@@ -275,18 +275,23 @@ def outputs(reviewed=True):
     reviewed/R*.json where the reviewer rewrote it (problems not null) and the rewrite passes check_lesson."""
     path = HERE / 'audit' / 'dropped.json'
     dropped = json.loads(path.read_text()) if path.exists() else {}
-    stale = lambda o: any(p.get('part') in dropped.get(o['skill'], ()) for p in o.get('problems') or [])
+    # rebuilt skills (audit/rebuilt.json) take only fixes/reviews numbered after the rebuild
+    path = HERE / 'audit' / 'rebuilt.json'
+    rebuilt = json.loads(path.read_text()) if path.exists() else {'skills': [], 'after': {}}
+    def stale(o, f):
+        old = o['skill'] in rebuilt['skills'] and int(f.stem[1:]) <= rebuilt['after'].get(f.stem[0], 0)
+        return old or any(p.get('part') in dropped.get(o['skill'], ()) for p in o.get('problems') or [])
     outs = {}
     for f in sorted((WORK / 'out').glob('*.json')):
         outs.update({o['skill']: o for o in json.loads(f.read_text())})
     # a fix or review only replaces a lesson if it still holds: no part the method audit dropped
     for f in sorted((WORK / 'fixed').glob('F*.json')):
-        outs.update({o['skill']: o for o in json.loads(f.read_text()) if not stale(o)})
+        outs.update({o['skill']: o for o in json.loads(f.read_text()) if not stale(o, f)})
     if reviewed:
         js = jobs()
         for f in sorted((WORK / 'reviewed').glob('R*.json')):
             for o in json.loads(f.read_text()):
-                if o.get('problems') and o['skill'] in js and not stale(o) and not check_lesson(js[o['skill']], o):
+                if o.get('problems') and o['skill'] in js and not stale(o, f) and not check_lesson(js[o['skill']], o):
                     outs[o['skill']] = o
     return outs
 

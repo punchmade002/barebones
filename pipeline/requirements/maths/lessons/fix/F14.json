@@ -1,0 +1,354 @@
+[
+ {
+  "skill": {
+   "id": "seq-verify-formula",
+   "title": "Verify and justify a formula from a number pattern",
+   "level": "HL",
+   "input": "pattern + proposed formula",
+   "output": "checked/justified formula"
+  },
+  "errors": [
+   "practice-seq-verify-formula-2: note has LaTeX outside $…$"
+  ],
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute the formula for T_n",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\frac{n(n+1)}{2} + (n+1)"
+       }
+      ]
+     },
+     {
+      "title": "Write over a common denominator of 2",
+      "lines": [
+       {
+        "tex": "&= \\frac{n(n+1)}{2} + \\frac{2(n+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1) + 2(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)(n+2)}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{(n+1)(n+2)}{2}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the sum of the two consecutive terms",
+      "lines": [
+       {
+        "tex": "T_{n+1} + T_n &= \\frac{(n+1)(n+2)}{2} + \\frac{n(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Combine and factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[(n+2) + n\\big]}{2}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n+2)}{2}"
+       },
+       {
+        "tex": "&= \\frac{2(n+1)(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the 2",
+      "lines": [
+       {
+        "tex": "&= (n+1)^2"
+       },
+       {
+        "text": "$n+1 \\in \\mathbb{N}$, so the sum is a square $k^2$ with $k = n+1$."
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} + T_n = (n+1)^2"
+   },
+   {
+    "part": "practice-seq-verify-formula-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that $1 + 4 + 7 + \\dots + (3n - 2) = \\frac{n(3n-1)}{2}$ for all $n \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Test the formula for $n = 1$",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1"
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{1(3-1)}{2} = 1"
+       },
+       {
+        "text": "LHS = RHS, so the formula is true for $n = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Assume it is true for $n = k$",
+      "lines": [
+       {
+        "text": "Assume $1 + 4 + \\dots + (3k-2) = \\frac{k(3k-1)}{2}$."
+       }
+      ]
+     },
+     {
+      "title": "Add the next term for $n = k + 1$",
+      "lines": [
+       {
+        "tex": "S_{k+1} &= \\frac{k(3k-1)}{2} + \\big(3(k+1) - 2\\big)"
+       },
+       {
+        "tex": "&= \\frac{k(3k-1) + 2(3k+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{3k^2 + 5k + 2}{2}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(3k+2)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the formula at $n = k + 1$",
+      "lines": [
+       {
+        "tex": "\\frac{(k+1)\\big(3(k+1)-1\\big)}{2} &= \\frac{(k+1)(3k+2)}{2}"
+       },
+       {
+        "text": "This matches, so true for $n=k$ implies true for $n=k+1$. By induction the formula holds for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "1 + 4 + \\dots + (3n-2) = \\frac{n(3n-1)}{2}"
+   },
+   {
+    "part": "practice-seq-verify-formula-2",
+    "level": "higher",
+    "year": null,
+    "question": "The sum of the first $n$ square numbers is $T_n = \\frac{n(n+1)(2n+1)}{6}$.\nThe next term is $T_{n+1} = T_n + (n+1)^2$.\nSubstitute the formula for $T_n$ and show that $T_{n+1} = \\frac{(n+1)(n+2)(2n+3)}{6}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute the formula for $T_n$",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\frac{n(n+1)(2n+1)}{6} + (n+1)^2"
+       }
+      ]
+     },
+     {
+      "title": "Write over a common denominator of 6",
+      "lines": [
+       {
+        "tex": "&= \\frac{n(n+1)(2n+1)}{6} + \\frac{6(n+1)^2}{6}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1)(2n+1) + 6(n+1)^2}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Factor out $(n+1)$",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[n(2n+1) + 6(n+1)\\big]}{6}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n^2 + 7n + 6)}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "2n^2 + 7n + 6 &= (n+2)(2n+3)"
+       },
+       {
+        "tex": "T_{n+1} &= \\frac{(n+1)(n+2)(2n+3)}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} = \\frac{(n+1)(n+2)(2n+3)}{6}"
+   }
+  ],
+  "lesson": [
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the given formula for T_n",
+     "2": "the simplified result, the formula for T_{n+1}"
+    },
+    "steps": [
+     {
+      "ask": "What is $T_{n+1}$ in terms of $T_n$, and what do you put in for $T_n$?",
+      "title": "Substitute the formula for T_n",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\hl{1}{\\frac{n(n+1)}{2}} + (n+1)"
+       }
+      ]
+     },
+     {
+      "ask": "How can you write $(n + 1)$ with a denominator of 2 so that both terms match?",
+      "title": "Write over a common denominator of 2",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\frac{n(n+1)}{2}} + \\frac{2(n+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1) + 2(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What factor do the two parts of the numerator have in common?",
+      "title": "Factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{\\frac{(n+1)(n+2)}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{(n+1)(n+2)}{2}}",
+    "graph": null
+   },
+   {
+    "part": "practice-seq-verify-formula-2",
+    "note": "The formula for T_n is now a cubic over 6, and the added term is (n + 1)², not n + 1. The steps are the same, with one extra step to factorise the quadratic.",
+    "legend": {
+     "1": "the given formula for T_n",
+     "2": "the simplified result, the formula for T_{n+1}"
+    },
+    "steps": [
+     {
+      "ask": "What do you add to the formula for $T_n$ to get $T_{n+1}$?",
+      "title": "Substitute the formula for $T_n$",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\hl{1}{\\frac{n(n+1)(2n+1)}{6}} + (n+1)^2"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply $(n+1)^2$ by to get a denominator of 6?",
+      "title": "Write over a common denominator of 6",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\frac{n(n+1)(2n+1)}{6}} + \\frac{6(n+1)^2}{6}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1)(2n+1) + 6(n+1)^2}{6}"
+       }
+      ]
+     },
+     {
+      "ask": "Which factor is common to both parts of the numerator?",
+      "title": "Factor out $(n+1)$",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[n(2n+1) + 6(n+1)\\big]}{6}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n^2 + 7n + 6)}{6}"
+       }
+      ]
+     },
+     {
+      "ask": "Can you find two brackets whose product is $2n^2 + 7n + 6$?",
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "2n^2 + 7n + 6 &= (n+2)(2n+3)"
+       },
+       {
+        "tex": "T_{n+1} &= \\hl{2}{\\frac{(n+1)(n+2)(2n+3)}{6}}"
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} = \\hl{2}{\\frac{(n+1)(n+2)(2n+3)}{6}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(ii)",
+    "note": "Two triangle-number formulas are added instead of one formula plus a term, and the answer is a square, (n + 1)². The steps stay the same: substitute, common denominator, factor out (n + 1), then cancel.",
+    "legend": {
+     "1": "the given formula for T_n",
+     "2": "the simplified result, (n + 1)²"
+    },
+    "steps": [
+     {
+      "ask": "What are $T_{n+1}$ and $T_n$ as formulas, and how do you add them?",
+      "title": "Write the sum of the two consecutive terms",
+      "lines": [
+       {
+        "tex": "T_{n+1} + T_n &= \\frac{(n+1)(n+2)}{2} + \\hl{1}{\\frac{n(n+1)}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the common factor of the two numerator parts once they are over one denominator?",
+      "title": "Combine and factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[(n+2) + n\\big]}{2}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n+2)}{2}"
+       },
+       {
+        "tex": "&= \\frac{2(n+1)(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What can you cancel from the top and bottom of the fraction?",
+      "title": "Cancel the 2",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{(n+1)^2}"
+       },
+       {
+        "text": "$n+1 \\in \\mathbb{N}$, so the sum is a square $k^2$ with $k = n+1$."
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} + T_n = \\hl{2}{(n+1)^2}",
+    "graph": null
+   }
+  ]
+ }
+]
