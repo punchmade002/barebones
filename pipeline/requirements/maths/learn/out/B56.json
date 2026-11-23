@@ -1,0 +1,264 @@
+[
+ {
+  "skill": "con-3",
+  "what": {
+   "say": [
+    "You give it a line $l$ and a point $P$ that is **not** on $l$. It draws the line through $P$ that meets $l$ at a right angle.",
+    "The key idea: two points on $l$ that are the same distance from $P$ are found by one arc. Any point the same distance from both of them lies on the perpendicular through $P$."
+   ],
+   "in": "line $l$ and point $P$ off $l$",
+   "out": "perpendicular to $l$ through $P$"
+  },
+  "how": {},
+  "example": {
+   "question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ perpendicular to $l$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Cut the line twice",
+      "say": "Put the compass point on $P$. Open it wider than the distance from $P$ to $l$. Draw an arc that cuts $l$ in two places. Call them $A$ and $B$.",
+      "lines": [
+       {
+        "text": "Now $|PA| = |PB|$, because both are the radius of the same arc."
+       }
+      ]
+     },
+     {
+      "title": "Cross two arcs",
+      "say": "Put the compass point on $A$ and draw an arc below $l$. Keep the same setting. Put the point on $B$ and draw a second arc that crosses the first. Call the crossing $Q$.",
+      "lines": [
+       {
+        "text": "Any setting works, as long as the two arcs cross."
+       }
+      ]
+     },
+     {
+      "title": "Join the points",
+      "say": "With the ruler, draw a straight line from $P$ to $Q$.",
+      "lines": [
+       {
+        "text": "This line meets $l$ at $90^\\circ$."
+       },
+       {
+        "text": "Leave every arc on the page. They are the construction lines."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "PQ \\perp l"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M20 110 L280 110\"/><path d=\"M90 110 A100 100 0 0 0 210 110\" stroke-dasharray=\"3 3\"/><path d=\"M120 195 A90 90 0 0 0 170 151\" stroke-dasharray=\"3 3\"/><path d=\"M180 195 A90 90 0 0 1 130 151\" stroke-dasharray=\"3 3\"/><path d=\"M150 30 L150 180\"/><text x=\"144\" y=\"24\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"80\" y=\"128\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"208\" y=\"128\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"156\" y=\"190\" fill=\"#1A1916\" stroke=\"none\">Q</text><text x=\"262\" y=\"128\" fill=\"#1A1916\" stroke=\"none\">l</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-5",
+  "what": {
+   "say": [
+    "You give it a line $l$ and a point $P$ not on $l$. It draws the line through $P$ that is **parallel** to $l$.",
+    "The key idea: copy an angle. If a line through $P$ makes the same angle with a transversal as $l$ does, the two lines are parallel (corresponding angles are equal)."
+   ],
+   "in": "line $l$ and point $P$",
+   "out": "line through $P$ parallel to $l$"
+  },
+  "how": {
+   "higher": "It appeared once, on Paper 2 in 2015, as the construction step inside a 5-mark part where a proof is set out (given, diagram, construction, proof)."
+  },
+  "example": {
+   "question": "Draw a line $l$ and mark a point $P$ above it. Construct the line through $P$ parallel to $l$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw a transversal",
+      "say": "Pick a point $A$ on $l$. With the ruler, draw a line through $A$ and $P$, and extend it beyond $P$.",
+      "lines": [
+       {
+        "text": "This line crosses $l$ and passes through $P$."
+       }
+      ]
+     },
+     {
+      "title": "Mark the angle at A",
+      "say": "Put the compass point on $A$ and draw an arc that cuts $l$ at $B$ and the transversal at $C$.",
+      "lines": [
+       {
+        "text": "Do not change the compass setting."
+       }
+      ]
+     },
+     {
+      "title": "Copy the arc at P",
+      "say": "Put the compass point on $P$. With the same setting, draw an arc that cuts the transversal at $D$. Measure the distance $|BC|$ with the compass.",
+      "lines": [
+       {
+        "text": "Then, with the point on $D$, mark that distance on the arc to find $E$, on the same side as $B$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the parallel",
+      "say": "With the ruler, draw a line through $P$ and $E$.",
+      "lines": [
+       {
+        "text": "The angle at $P$ equals the angle at $A$. They are corresponding angles, so $PE \\parallel l$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "PE \\parallel l"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M20 170 L280 170\"/><path d=\"M110 170 L216 11\"/><path d=\"M30 50 L280 50\"/><path d=\"M150 170 A40 40 0 0 0 132.2 136.7\" stroke-dasharray=\"3 3\"/><path d=\"M212.2 16.7 A40 40 0 0 1 230 50\" stroke-dasharray=\"3 3\"/><text x=\"176\" y=\"40\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"96\" y=\"188\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"148\" y=\"188\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"112\" y=\"134\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"216\" y=\"12\" fill=\"#1A1916\" stroke=\"none\">D</text><text x=\"234\" y=\"70\" fill=\"#1A1916\" stroke=\"none\">E</text><text x=\"262\" y=\"188\" fill=\"#1A1916\" stroke=\"none\">l</text><text x=\"262\" y=\"44\" fill=\"#1A1916\" stroke=\"none\">m</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks are given for a construction attempt, even if it is not complete, so always show your arcs and describe what you did.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q6#(b) Construction",
+       "quote": "Construction attempted (diagram and/or description)"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-13",
+  "what": {
+   "say": [
+    "You give it the length of the hypotenuse and the length of one other side. It draws the right-angled triangle.",
+    "The key idea: the hypotenuse is opposite the right angle. So draw the known side, make a right angle at its end, and swing an arc of the hypotenuse length from the other end."
+   ],
+   "in": "hypotenuse and one side",
+   "out": "right-angled triangle"
+  },
+  "how": {},
+  "example": {
+   "question": "Construct a right-angled triangle $ABC$ with $|AB| = 4$ cm, a right angle at $B$, and hypotenuse $|AC| = 7$ cm.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the known side",
+      "say": "With the ruler, draw a line segment $AB$ that is $4$ cm long.",
+      "lines": [
+       {
+        "text": "Mark $A$ and $B$ clearly."
+       }
+      ]
+     },
+     {
+      "title": "Make the right angle",
+      "say": "At $B$, construct the perpendicular to $AB$. Put the compass point on $B$ and cut $AB$ on both sides. Then draw two arcs of equal setting from those points so they cross above $B$. Draw a long line from $B$ through the crossing.",
+      "lines": [
+       {
+        "text": "You can use a set square here instead, but arcs show the method."
+       }
+      ]
+     },
+     {
+      "title": "Swing the hypotenuse",
+      "say": "Set the compass to $7$ cm on the ruler. Put the point on $A$ and draw an arc that cuts the perpendicular. Call the crossing $C$.",
+      "lines": [
+       {
+        "text": "The hypotenuse $AC$ is the longest side, so $C$ lies above $B$."
+       }
+      ]
+     },
+     {
+      "title": "Join and check",
+      "say": "With the ruler, join $A$ to $C$.",
+      "lines": [
+       {
+        "text": "Check that $|AC| = 7$ cm and the angle at $B$ is $90^\\circ$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Triangle } ABC \\text{ with } |AB| = 4 \\text{ cm},\\ |AC| = 7 \\text{ cm},\\ \\angle B = 90^\\circ"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M100 190 L200 190\"/><path d=\"M100 190 L200 46\"/><path d=\"M200 190 L200 30\"/><path d=\"M185 37 A175 175 0 0 1 215 58\" stroke-dasharray=\"3 3\"/><path d=\"M185 190 V175 H200\"/><text x=\"88\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"204\" y=\"204\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"206\" y=\"44\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"135\" y=\"208\" font-size=\"12\" fill=\"#1A1916\" stroke=\"none\">4 cm</text><text x=\"128\" y=\"108\" font-size=\"12\" fill=\"#1A1916\" stroke=\"none\">7 cm</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-14",
+  "what": {
+   "say": [
+    "You give it one side and one acute angle of a right-angled triangle. It draws the triangle.",
+    "The key idea: you build two lines from the ends of the known side, one at the given angle and one at $90^\\circ$. The triangle is closed where they meet."
+   ],
+   "in": "one side and an acute angle",
+   "out": "right-angled triangle"
+  },
+  "how": {},
+  "example": {
+   "question": "Construct a right-angled triangle $ABC$ with $|AB| = 5$ cm, a right angle at $B$, and $\\angle A = 50^\\circ$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the known side",
+      "say": "With the ruler, draw a line segment $AB$ that is $5$ cm long.",
+      "lines": [
+       {
+        "text": "Mark $A$ and $B$ clearly."
+       }
+      ]
+     },
+     {
+      "title": "Measure the angle at A",
+      "say": "Put the centre of the protractor on $A$ with its base along $AB$. Mark $50^\\circ$, then draw a long line from $A$ through the mark.",
+      "lines": [
+       {
+        "text": "Read from the zero that lies on $AB$."
+       }
+      ]
+     },
+     {
+      "title": "Make the right angle at B",
+      "say": "At $B$, construct the perpendicular to $AB$ with compass arcs. Draw a long line upward from $B$.",
+      "lines": [
+       {
+        "text": "You can use a set square here instead, but arcs show the method."
+       }
+      ]
+     },
+     {
+      "title": "Mark the third point",
+      "say": "The two long lines cross. Call the crossing $C$.",
+      "lines": [
+       {
+        "text": "The triangle $ABC$ has angles $50^\\circ$, $90^\\circ$ and $40^\\circ$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Triangle } ABC \\text{ with } |AB| = 5 \\text{ cm},\\ \\angle B = 90^\\circ,\\ \\angle A = 50^\\circ"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M70 190 L195 190\"/><path d=\"M70 190 L205 28\"/><path d=\"M195 190 L195 30\"/><path d=\"M100 190 A30 30 0 0 0 89.3 167\" stroke-dasharray=\"3 3\"/><path d=\"M180 190 V175 H195\"/><text x=\"104\" y=\"182\" font-size=\"12\" fill=\"#1A1916\" stroke=\"none\">50°</text><text x=\"58\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"199\" y=\"204\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"200\" y=\"40\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"120\" y=\"208\" font-size=\"12\" fill=\"#1A1916\" stroke=\"none\">5 cm</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

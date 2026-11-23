@@ -1,0 +1,816 @@
+[
+ {
+  "skill": "fn-graph-quadratic",
+  "what": {
+   "say": [
+    "You give it a quadratic, $f(x) = ax^2 + bx + c$. It draws the **parabola** and marks the roots, the turning point and the $y$-intercept.",
+    "The key idea: the graph is symmetric, so the turning point sits halfway between the two roots."
+   ],
+   "in": "$ax^2 + bx + c$",
+   "out": "parabola with roots and turning point"
+  },
+  "how": {
+   "higher": "Higher level asks for it only once in 2015 to 2025: in 2025 it is a 10 mark part on Paper 1 where you complete a table, plot the points and join them.",
+   "ordinary": "Ordinary level asks for it almost every year on Paper 1, usually as a part of its own worth 5 to 20 marks: complete a table, plot the points, join them with a smooth curve, then read values off your graph."
+  },
+  "example": {
+   "question": "Draw the graph of $f(x) = x^2 - 4x - 5$ for $-1 \\le x \\le 5$. Show where it crosses the axes and find its lowest point.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make a table of values",
+      "say": "Put each value of $x$ into $f(x)$ and write down the answer. Do the squares and brackets one at a time.",
+      "lines": [
+       {
+        "tex": "f(-1) &= (-1)^2 - 4(-1) - 5",
+        "sym": "(-1)**2-4*(-1)-5",
+        "new": true
+       },
+       {
+        "tex": "&= 0",
+        "sym": "0"
+       },
+       {
+        "tex": "f(0) &= 0^2 - 4(0) - 5",
+        "sym": "0**2-4*0-5",
+        "new": true
+       },
+       {
+        "tex": "&= -5",
+        "sym": "-5"
+       },
+       {
+        "tex": "f(1) &= 1^2 - 4(1) - 5",
+        "sym": "1**2-4*1-5",
+        "new": true
+       },
+       {
+        "tex": "&= -8",
+        "sym": "-8"
+       },
+       {
+        "text": "Do the same for $x = 2, 3, 4, 5$. The table gives $0, -5, -8, -9, -8, -5, 0$ for $x = -1$ to $5$."
+       }
+      ]
+     },
+     {
+      "title": "Find where it crosses the x-axis",
+      "say": "The graph crosses the $x$-axis where $f(x) = 0$. Set $f(x)$ equal to $0$ and factorise.",
+      "lines": [
+       {
+        "tex": "x^2 - 4x - 5 &= 0",
+        "sym": "x**2-4*x-5",
+        "new": true
+       },
+       {
+        "tex": "(x - 5)(x + 1) &= 0",
+        "sym": "(x-5)*(x+1)"
+       },
+       {
+        "tex": "x &= \\hl{1}{5} \\text{ or } x = \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "title": "Find the lowest point",
+      "say": "A parabola is symmetric. Its turning point is halfway between the roots $\\hl{1}{-1}$ and $\\hl{1}{5}$. Find the $\\hl{2}{x}$ value, then put it into $f(x)$ for the $\\hl{3}{y}$ value.",
+      "lines": [
+       {
+        "tex": "x &= \\frac{-1 + 5}{2}",
+        "sym": "(-1+5)/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{2}",
+        "sym": "2"
+       },
+       {
+        "tex": "f(2) &= 2^2 - 4(2) - 5",
+        "sym": "2**2-4*2-5",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{-9}",
+        "sym": "-9"
+       },
+       {
+        "text": "The $x^2$ term is positive, so the curve opens up and this is a minimum."
+       }
+      ]
+     },
+     {
+      "title": "Plot and join",
+      "say": "Plot the points from the table. Mark the roots $(-1, 0)$ and $(5, 0)$, the $y$-intercept $(0, -5)$ and the minimum $(\\hl{2}{2}, \\hl{3}{-9})$. Join them with one smooth curve, not straight lines.",
+      "lines": [
+       {
+        "text": "Use a pencil and draw the curve through every point."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{roots } -1 \\text{ and } 5,\\ y\\text{-intercept } -5,\\ \\text{minimum } (2, -9)"
+   },
+   "finalSym": "-9",
+   "answerSym": "-((-4)**2-4*1*(-5))/(4*1)"
+  },
+  "graph": {
+   "f": "x**2-4*x-5",
+   "box": [
+    -2,
+    5,
+    6,
+    -11
+   ],
+   "points": [
+    {
+     "x": -1,
+     "y": 0,
+     "name": "root (−1, 0)"
+    },
+    {
+     "x": 5,
+     "y": 0,
+     "name": "root (5, 0)"
+    },
+    {
+     "x": 0,
+     "y": -5,
+     "name": "y-intercept (0, −5)"
+    },
+    {
+     "x": 2,
+     "y": -9,
+     "name": "min (2, −9)"
+    }
+   ],
+   "slots": {
+    "x": 2,
+    "y": 3
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks are given for each table value and each plotted point, and the points must be joined. Fill in every entry, plot every point, then join them.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q9#(b)(i), (ii)",
+       "quote": "9 points plotted from the values in"
+      },
+      {
+       "part": "maths-pp-2025-higher-p1-q9#(b)(i), (ii)",
+       "quote": "points joined appropriately"
+      }
+     ]
+    },
+    {
+     "tip": "Round the table values as the question asks. Wrong rounding costs a mark even if the rest is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q9#(b)(i), (ii)",
+       "quote": "Apply a * once for incorrect rounding of"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Every table value and every plotted point is a separate mark, so fill in the whole table and plot every point.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q7#(b)(i), (ii)",
+       "quote": "An entry is a calculation or a plot"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p1-q8#(a)(ii), (iii)",
+       "quote": "6 values in table, 8 points plotted and the curve"
+      }
+     ]
+    },
+    {
+     "tip": "Join the plotted points with a smooth curve. Plotting them and leaving them unjoined, or joining them with a ruler, loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q7#(b)(i), (ii)",
+       "quote": "no joining or incorrect joined with a straight line"
+      },
+      {
+       "part": "maths-pp-2017-ordinary-p1-q8#(c)(ii)",
+       "quote": "6 correct plots but not joined"
+      }
+     ]
+    },
+    {
+     "tip": "Draw the curve right to the end of the grid or the axis. A good curve that stops short loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q10#(b)",
+       "quote": "but not extended to the x-axis"
+      }
+     ]
+    },
+    {
+     "tip": "Even one correct table entry or one correct plot earns marks, so never leave the table blank.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q5#(b)(ii)",
+       "quote": "One correct plot from table entries"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-cubic",
+  "what": {
+   "say": [
+    "You give it a cubic, $f(x) = ax^3 + bx^2 + cx + d$. It draws the curve, an **S-shape** that can rise, fall and rise again.",
+    "The key idea: the turning points are where the slope is zero, so solve $f'(x) = 0$ to find them."
+   ],
+   "in": "$ax^3 + bx^2 + cx + d$",
+   "out": "cubic curve with turning points"
+  },
+  "how": {
+   "higher": "Higher level asks for it twice in 2015 to 2025, both on Paper 1 in 2021 and 2024: complete a table, plot the points and join them (10 to 15 marks), often followed by a calculus part on the same function.",
+   "ordinary": "Ordinary level asks for it in 2018, 2019, 2021, 2022 and 2024 on Paper 1: complete a table, plot and join (10 to 15 marks), then read roots off the graph or differentiate."
+  },
+  "example": {
+   "question": "Draw the graph of $f(x) = x^3 - 6x^2 + 9x$ for $-1 \\le x \\le 4$. Find the local maximum point.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make a table of values",
+      "say": "Put each value of $x$ into $f(x)$. Take care with the signs when $x$ is negative.",
+      "lines": [
+       {
+        "tex": "f(-1) &= (-1)^3 - 6(-1)^2 + 9(-1)",
+        "sym": "(-1)**3-6*(-1)**2+9*(-1)",
+        "new": true
+       },
+       {
+        "tex": "&= -1 - 6 - 9",
+        "sym": "-1-6-9"
+       },
+       {
+        "tex": "&= -16",
+        "sym": "-16"
+       },
+       {
+        "tex": "f(2) &= 2^3 - 6(2)^2 + 9(2)",
+        "sym": "2**3-6*2**2+9*2",
+        "new": true
+       },
+       {
+        "tex": "&= 8 - 24 + 18",
+        "sym": "8-24+18"
+       },
+       {
+        "tex": "&= 2",
+        "sym": "2"
+       },
+       {
+        "text": "The rest are $f(0) = 0$, $f(1) = 4$, $f(3) = 0$, $f(4) = 4$."
+       }
+      ]
+     },
+     {
+      "title": "Find the turning points",
+      "say": "The turning points are where the slope is zero. Differentiate, set $f'(x)$ equal to $0$ and solve.",
+      "lines": [
+       {
+        "tex": "f'(x) &= 3x^2 - 12x + 9",
+        "sym": "3*x**2-12*x+9",
+        "new": true
+       },
+       {
+        "tex": "3x^2 - 12x + 9 &= 0",
+        "sym": "3*x**2-12*x+9"
+       },
+       {
+        "text": "Every term divides by 3. Do that first."
+       },
+       {
+        "tex": "x^2 - 4x + 3 &= 0",
+        "sym": "x**2-4*x+3",
+        "new": true
+       },
+       {
+        "tex": "(x - 1)(x - 3) &= 0",
+        "sym": "(x-1)*(x-3)"
+       },
+       {
+        "tex": "x &= \\hl{1}{1} \\text{ or } x = 3",
+        "sym": "1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum",
+      "say": "The curve rises, then falls. So the first turning point, at $x = \\hl{1}{1}$, is the maximum. Put it into $f(x)$ for the $y$ value.",
+      "lines": [
+       {
+        "tex": "f(1) &= 1^3 - 6(1)^2 + 9(1)",
+        "sym": "1**3-6*1**2+9*1",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{4}",
+        "sym": "4"
+       },
+       {
+        "text": "The local maximum is at $(1, 4)$ and the local minimum is at $(3, 0)$."
+       }
+      ]
+     },
+     {
+      "title": "Plot and join",
+      "say": "Plot the points from the table, with the turning points $(\\hl{1}{1}, \\hl{2}{4})$ and $(3, 0)$ among them. Join them with one smooth curve.",
+      "lines": [
+       {
+        "text": "The curve comes up from the bottom left and goes off to the top right."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{local maximum } (1, 4)"
+   },
+   "finalSym": "4",
+   "answerSym": "(x**3-6*x**2+9*x).subs(x,1)"
+  },
+  "graph": {
+   "f": "x**3-6*x**2+9*x",
+   "box": [
+    -2,
+    6,
+    5,
+    -18
+   ],
+   "points": [
+    {
+     "x": -1,
+     "y": -16,
+     "name": "(−1, −16)"
+    },
+    {
+     "x": 0,
+     "y": 0,
+     "name": "root (0, 0)"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "name": "max (1, 4)"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "name": "min (3, 0)"
+    }
+   ],
+   "slots": {
+    "x": 1,
+    "y": 2
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Fill in the table and plot every point. The marks are counted by items: table entries plus plotted points.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q8#(a)(ii)",
+       "quote": "14 items are required: 5 table entries and 9"
+      },
+      {
+       "part": "maths-pp-2024-higher-p1-q8#(a)(i), (ii)",
+       "quote": "Solution consists of 13 parts"
+      }
+     ]
+    },
+    {
+     "tip": "Join the points with a smooth curve. Straight line segments between points lose the joining mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q8#(a)(i), (ii)",
+       "quote": "Points joined appropriately (not with line segments)"
+      },
+      {
+       "part": "maths-pp-2021-higher-p1-q8#(a)(ii)",
+       "quote": "points not joined or joined incorrectly"
+      }
+     ]
+    },
+    {
+     "tip": "To show a turning point is a maximum, show $f'(x) = 0$ and then say why it is a maximum, with the second derivative or the graph. Showing $f'(x) = 0$ alone is not enough.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q8#(a)(ii)",
+       "quote": "no further justification that it is the max"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Marks are for every correct table entry and every plot, so the table and the plotting both matter.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q3#(a)(i)",
+       "quote": "Table fully correct"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p1-q8#(d)(e)",
+       "quote": "21 items (9 table entries, 11 plot"
+      }
+     ]
+    },
+    {
+     "tip": "Plotting the correct points but not joining them, or joining them wrongly, loses marks. Join them smoothly.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q3#(a)(i)",
+       "quote": "correctly, but not joined or joined incorrectly"
+      }
+     ]
+    },
+    {
+     "tip": "When you read a value off your graph, show the line you used on the graph. Evidence of the graph work earns the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q8#(d)(e)",
+       "quote": "corresponding correct graph work"
+      }
+     ]
+    },
+    {
+     "tip": "Differentiate each term. Even some correct differentiation earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p1-q8#(c)",
+       "quote": "any correct differentiation or"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-graph-exponential",
+  "what": {
+   "say": [
+    "You give it an exponential, $f(x) = a \\cdot b^x$. It draws the curve, which starts at $(0, a)$ and then climbs faster and faster.",
+    "The key idea: each step of $1$ in $x$ multiplies $y$ by $b$, and the curve never touches the $x$-axis."
+   ],
+   "in": "$a \\cdot b^x$",
+   "out": "exponential curve"
+  },
+  "how": {
+   "higher": "Higher level asks for it in 2016, 2017 and 2025, usually as a table and plot of $e^x$ type curves worth 5 to 15 marks, followed by solving an equation or finding an area.",
+   "ordinary": "Ordinary level asks for it in 2015, 2016, 2023 and 2025 on Paper 1: complete a table (5 to 10 marks), plot and join the points, then use the graph or the formula to answer a question about growth."
+  },
+  "example": {
+   "question": "The number of bacteria is $f(x) = 5 \\cdot 2^x$, where $x$ is the number of hours. Draw the graph of $f$ for $-1 \\le x \\le 4$. Use the graph to find when there are $40$ bacteria.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Make a table of values",
+      "say": "Put each value of $x$ into $5 \\cdot 2^x$. A negative power means one over the positive power.",
+      "lines": [
+       {
+        "tex": "f(-1) &= 5 \\cdot 2^{-1}",
+        "sym": "5*2**(-1)",
+        "new": true
+       },
+       {
+        "tex": "&= 5 \\cdot \\frac{1}{2}",
+        "sym": "5*(1/2)"
+       },
+       {
+        "tex": "&= 2.5",
+        "sym": "2.5"
+       },
+       {
+        "tex": "f(0) &= 5 \\cdot 2^0",
+        "sym": "5*2**0",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       },
+       {
+        "tex": "f(3) &= 5 \\cdot 2^3",
+        "sym": "5*2**3",
+        "new": true
+       },
+       {
+        "tex": "&= 40",
+        "sym": "40"
+       },
+       {
+        "text": "The rest are $f(1) = 10$, $f(2) = 20$, $f(4) = 80$."
+       }
+      ]
+     },
+     {
+      "title": "Plot and join",
+      "say": "Plot the points from the table. Join them with a smooth curve that rises more steeply to the right and gets very close to the $x$-axis on the left, but does not touch it.",
+      "lines": [
+       {
+        "text": "The curve crosses the $y$-axis at $(0, 5)$, the value of $a$."
+       }
+      ]
+     },
+     {
+      "title": "Read the graph",
+      "say": "To find when there are $40$ bacteria, go across from $40$ on the $y$-axis to the curve, then down to the $x$-axis. Check it with the equation.",
+      "lines": [
+       {
+        "tex": "5 \\cdot 2^x &= 40",
+        "sym": "5*2**x-40",
+        "new": true
+       },
+       {
+        "tex": "2^x &= 8",
+        "sym": "2**x-8",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{1}{3}",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "text": "The curve reads $x = 3$ at $f(x) = \\hl{2}{40}$. After $3$ hours there are $40$ bacteria."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 3 \\text{ hours}"
+   },
+   "finalSym": "3",
+   "answerSym": "solve(5*2**x-40,x)"
+  },
+  "graph": {
+   "f": "5*2**x",
+   "box": [
+    -2,
+    90,
+    5,
+    -5
+   ],
+   "points": [
+    {
+     "x": -1,
+     "y": 2.5,
+     "name": "(−1, 2.5)"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "name": "y-intercept (0, 5)"
+    },
+    {
+     "x": 3,
+     "y": 40,
+     "name": "(3, 40)"
+    },
+    {
+     "x": 4,
+     "y": 80,
+     "name": "(4, 80)"
+    }
+   ],
+   "slots": {
+    "x": 1,
+    "y": 2
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Plot a point for every table entry and join them with a smooth curve. Straight lines between points are not accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q3#(a)(ii)",
+       "quote": "straight lines NOT acceptable"
+      }
+     ]
+    },
+    {
+     "tip": "Label each curve you draw. One clear label is enough for full credit, but an unclear one is not.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q3#(a)(ii)",
+       "quote": "one clear label merits full credit"
+      }
+     ]
+    },
+    {
+     "tip": "Draw the graph on the domain the question gives. A graph outside it does not get full credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q6#(a)",
+       "quote": "Graph not in required domain"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "The mark is counted by items: table values, plotted points and the curve. Do the whole table and plot every point.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q7#(d)(i), (ii)",
+       "quote": "4 values in table, 7 points plotted and joined"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p1-q9#(a)(iii)",
+       "quote": "5 values in table, 7 plots and an appropriate curve"
+      }
+     ]
+    },
+    {
+     "tip": "Join the plotted points. All the plots right but no joining, or wrong joining, loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q9#(a)(ii)",
+       "quote": "All plots correct but no joining or incorrect joining"
+      }
+     ]
+    },
+    {
+     "tip": "When you read a value from the graph, mark the point on the graph itself. It is where the marks are.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q9#(a)(ii)",
+       "quote": "Point clearly indicated on graph"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p1-q7#(d)(i), (ii)",
+       "quote": "Relevant work on the graph"
+      }
+     ]
+    },
+    {
+     "tip": "Say which curve gives the answer when two are compared, and show it on the graph.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q9#(a)(ii)",
+       "quote": "A or B clearly identified on graph"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-composite",
+  "what": {
+   "say": [
+    "You give it two functions, $f(x)$ and $g(x)$. It builds the **composite** $f(g(x))$: put $g$ in first, then $f$.",
+    "The key idea: wherever $f$ has an $x$, write the whole of $g(x)$ in brackets instead."
+   ],
+   "in": "$f(x)$ and $g(x)$",
+   "out": "$f(g(x))$"
+  },
+  "how": {
+   "higher": "Higher level uses it in most years on Paper 1 (2017, 2020, 2023, 2024, 2025). It is the main skill of a 10 mark part in 2020 (show $f(g(x)) = x$) and 2024 (find $g(f(x))$), and a step inside longer parts in the other years."
+  },
+  "example": {
+   "question": "$f(x) = x + 2$ and $g(x) = x^2 - 3$. Find $f(g(x))$ and $g(f(x))$. Hence find the value of $x$ for which $f(g(x)) = g(f(x))$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Put g inside f",
+      "say": "For $f(g(x))$, take $g(x) = x^2 - 3$ and put it into $f$ wherever there is an $x$.",
+      "lines": [
+       {
+        "tex": "f(g(x)) &= f(x^2 - 3)",
+        "sym": "(x**2-3)+2",
+        "new": true
+       },
+       {
+        "tex": "&= (x^2 - 3) + 2",
+        "sym": "(x**2-3)+2"
+       },
+       {
+        "tex": "&= \\hl{1}{x^2 - 1}",
+        "sym": "x**2-1"
+       }
+      ]
+     },
+     {
+      "title": "Put f inside g",
+      "say": "For $g(f(x))$, take $f(x) = x + 2$ and put it into $g$ wherever there is an $x$. Square the whole bracket.",
+      "lines": [
+       {
+        "tex": "g(f(x)) &= g(x + 2)",
+        "sym": "(x+2)**2-3",
+        "new": true
+       },
+       {
+        "tex": "&= (x + 2)^2 - 3",
+        "sym": "(x+2)**2-3"
+       },
+       {
+        "tex": "&= x^2 + 4x + 4 - 3",
+        "sym": "x**2+4*x+4-3"
+       },
+       {
+        "tex": "&= \\hl{2}{x^2 + 4x + 1}",
+        "sym": "x**2+4*x+1"
+       },
+       {
+        "text": "The two composites are not the same. Order matters."
+       }
+      ]
+     },
+     {
+      "title": "Set them equal",
+      "say": "Set $\\hl{1}{f(g(x))}$ equal to $\\hl{2}{g(f(x))}$. The $x^2$ terms cancel, which leaves a linear equation.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x^2 - 1} &= \\hl{2}{x^2 + 4x + 1}",
+        "sym": "(x**2-1)-(x**2+4*x+1)",
+        "new": true
+       },
+       {
+        "tex": "0 &= 4x + 2",
+        "sym": "-(4*x+2)"
+       },
+       {
+        "tex": "x &= \\hl{3}{-\\frac{1}{2}}",
+        "sym": "-1/2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = -\\frac{1}{2}"
+   },
+   "finalSym": "-1/2",
+   "answerSym": "solve((x**2-3)+2-((x+2)**2-3),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To show two functions undo each other, work out both $f(g(x))$ and $g(f(x))$ and simplify each to $x$. One composition alone is only part of the answer, and checking one number earns little.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q3#(a)",
+       "quote": "One correct composition simplified to"
+      },
+      {
+       "part": "maths-pp-2020-higher-p1-q3#(a)",
+       "quote": "Particular case verification"
+      }
+     ]
+    },
+    {
+     "tip": "A composite is not a product. Multiplying $f(x) \\times g(x)$ earns Low Partial Credit at most.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q3#(b)",
+       "quote": "merits low partial credit at most"
+      }
+     ]
+    },
+    {
+     "tip": "Start by writing one function inside the other, even if you cannot simplify it. That substitution earns credit by itself.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q6#(b)(iii)",
+       "quote": "Some correct substitution into composite function"
+      }
+     ]
+    },
+    {
+     "tip": "When the composite is read from a graph or diagram, show the work on the diagram. Without it you lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(b)(i), (ii), (iii)",
+       "quote": "Apply a * if work not shown on the diagram"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
