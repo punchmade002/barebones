@@ -131,7 +131,7 @@
   {"ask": "What value must g′(x) take at a turning point, and can this expression ever take that value?", "title": "Explain why there are no turning points",
    "lines": [{"text": "A turning point needs $\\hl{1}{g'(x)} = 0$, but the numerator is $-6$, which is never $0$."}, {"text": "Also $(2x-7)^2 > 0$ for every $x$ in the domain ($x \\ne 3.5$), so $\\hl{1}{g'(x)} < 0$ always."}, {"text": "So $\\hl{1}{g'(x)} \\ne 0$ for all $x$ in the domain: $g$ has no local maximum or minimum points."}]}
  ],
- "final": "\\hl{1}{g'(x)} = -\\frac{6}{(2x-7)^2} < 0 \\text{ for all } x \\text{ in the domain, so } \\hl{4}{\\text{there are no turning points}}", "graph": null},
+ "final": "\\hl{1}{g'(x)} = -\\frac{6}{(2x-7)^2} < 0 \\text{ for all } x \\text{ in the domain, so there are no turning points}", "graph": null},
 {"part": "practice-diff-quotient-1", "note": "Now the derivative is set to zero and solved for x, instead of proving there are none. The top function is x² again, and the quotient rule steps are the same as problem 2.",
  "legend": {"1": "the derivative, g′(x) or its value", "2": "u, the top function", "3": "v, the bottom function", "4": "the answer"},
  "steps": [
