@@ -1,0 +1,516 @@
+[
+ {
+  "skill": "diff-exponential",
+  "what": {
+   "say": [
+    "You give it an exponential, like $e^{ax}$ or $a^x$. It gives back its **slope** function.",
+    "The key idea: $e^{ax}$ keeps its shape when you differentiate. It only picks up the number $a$ from the power as a multiplier."
+   ],
+   "in": "$e^{ax}$",
+   "out": "$a\\,e^{ax}$"
+  },
+  "how": {
+   "higher": "It almost always sits inside a modelling question on Paper 1 (growth or decay over time), where you differentiate to find a rate of change at a given time, worth about 5 to 10 marks."
+  },
+  "example": {
+   "question": "The mass of a sample is $m(t) = 90e^{-0.2t}$ grams, $t$ hours after it is set up. Find the rate at which the mass is changing when $t = 3$. Give your answer correct to 2 decimal places.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the rate",
+      "say": "A rate of change is a derivative. We differentiate $m(t)$ with respect to $t$.",
+      "lines": [
+       {
+        "tex": "m(t) &= 90e^{-0.2t}",
+        "sym": "90*exp(-0.2*t)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Differentiate the exponential",
+      "say": "For $e^{ax}$ the derivative is $a\\,e^{ax}$. The number in front of $t$ comes down as a multiplier, and the power stays the same.",
+      "lines": [
+       {
+        "tex": "m'(t) &= 90\\cdot(-0.2)\\,e^{-0.2t}",
+        "sym": "90*(-0.2)*exp(-0.2*t)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{-18e^{-0.2t}}",
+        "sym": "-18*exp(-0.2*t)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 3",
+      "say": "Put $t = 3$ into the derivative. Keep your calculator in the right mode and round only at the end.",
+      "lines": [
+       {
+        "tex": "m'(3) &= -18e^{-0.2(3)}",
+        "sym": "-18*exp(-0.2*3)",
+        "new": true
+       },
+       {
+        "tex": "&= -18e^{-0.6}",
+        "sym": "-18*exp(-0.6)"
+       },
+       {
+        "tex": "&\\approx \\hl{2}{-9.88}",
+        "sym": "-9.88",
+        "approx": true
+       },
+       {
+        "text": "The minus sign means the mass is falling."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "-9.88 \\text{ grams per hour}"
+   },
+   "finalSym": "-9.88",
+   "answerSym": "round(diff(90*exp(-0.2*t),t).subs(t,3),2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Differentiation must actually appear. Work that skips it earns no credit, however good the rest is.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q9#(c)",
+       "quote": "Note: differentiation must be used in order"
+      }
+     ]
+    },
+    {
+     "tip": "Even a partly correct derivative earns marks, so write it down before you substitute.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q9#(c)",
+       "quote": "Some correct differentiation"
+      }
+     ]
+    },
+    {
+     "tip": "Rounding is marked. Give the final answer to the accuracy asked, and lose a mark if you do not.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(c)(i)",
+       "quote": "Apply a * for incorrect rounding or"
+      }
+     ]
+    },
+    {
+     "tip": "A rate of change can come out negative for decay. The marking accepts it treated as positive, but say what it means.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q9#(c)",
+       "quote": "Accept if the rates of change are"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-trig",
+  "what": {
+   "say": [
+    "You give it a sine, cosine or tangent of $ax$. It gives back the slope function.",
+    "The key idea: $\\sin ax$ becomes $a\\cos ax$, and $\\cos ax$ becomes $-a\\sin ax$. The $a$ always comes out in front, and the angle is in **radians**."
+   ],
+   "in": "$\\sin ax,\\ \\cos ax$",
+   "out": "$a\\cos ax,\\ -a\\sin ax$"
+  },
+  "how": {
+   "higher": "It turns up almost every year on Paper 1 and Paper 2, as a part of its own or as a step inside a tangent, rate of change or wave model, worth 5 to 10 marks."
+  },
+  "example": {
+   "question": "Find the slope of the curve $y = 5\\sin 2x + 3\\cos x$ at the point where $x = \\dfrac{\\pi}{6}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate each term",
+      "say": "Differentiate term by term. For $\\sin 2x$ the $2$ comes out in front. For $\\cos x$ the sign changes.",
+      "lines": [
+       {
+        "tex": "y &= 5\\sin 2x + 3\\cos x",
+        "sym": "5*sin(2*x)+3*cos(x)",
+        "new": true
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 5(2\\cos 2x) + 3(-\\sin x)",
+        "sym": "5*(2*cos(2*x))+3*(-sin(x))",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{10\\cos 2x - 3\\sin x}",
+        "sym": "10*cos(2*x)-3*sin(x)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the x value",
+      "say": "The slope at a point is the derivative there. Put $x = \\frac{\\pi}{6}$ in, with your calculator in radian mode.",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{dx} &= 10\\cos\\frac{\\pi}{3} - 3\\sin\\frac{\\pi}{6}",
+        "sym": "10*cos(pi/3)-3*sin(pi/6)",
+        "new": true
+       },
+       {
+        "tex": "&= 10\\left(\\tfrac12\\right) - 3\\left(\\tfrac12\\right)",
+        "sym": "10*(1/2)-3*(1/2)"
+       },
+       {
+        "tex": "&= \\hl{2}{\\tfrac72}",
+        "sym": "7/2"
+       },
+       {
+        "text": "Both angles are exact values from the tables: $\\cos\\frac{\\pi}{3} = \\sin\\frac{\\pi}{6} = \\frac12$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{7}{2}"
+   },
+   "finalSym": "7/2",
+   "answerSym": "diff(5*sin(2*x)+3*cos(x),x).subs(x,pi/6)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the differentiation. Some correct differentiation earns partial credit even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(a)(i)",
+       "quote": "Some correct differentiation"
+      }
+     ]
+    },
+    {
+     "tip": "Watch the number in front of $x$. Forgetting to bring the $4$ down from $\\sin 4x$ costs marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(a)(i)",
+       "quote": "mishandles the 4"
+      }
+     ]
+    },
+    {
+     "tip": "Set the calculator to radians. Wrong mode loses a mark in every trig part.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q7#(e)(ii)",
+       "quote": "Calculator in incorrect mode"
+      }
+     ]
+    },
+    {
+     "tip": "In a tangent question you need the slope and a point. Both must be found to earn marks for the equation.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(a)(i)",
+       "quote": "Both Steps 1 and 2 need to be done"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-product",
+  "what": {
+   "say": [
+    "You give it two functions multiplied together, $u \\cdot v$. It gives back the slope function of the **product**.",
+    "The key idea: you cannot differentiate each part and multiply. Instead, differentiate one at a time and add: $u'v + uv'$."
+   ],
+   "in": "$u \\cdot v$",
+   "out": "$u'v + uv'$"
+  },
+  "how": {
+   "higher": "It appears on Paper 1 in a part of its own or as the first step in finding a slope, a turning point or a second derivative, worth 5 to 15 marks."
+  },
+  "example": {
+   "question": "Find the values of $x$ for which the slope of $f(x) = x^2e^{3x}$ is zero.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the two parts",
+      "say": "$f$ is two functions multiplied. Call them $u$ and $v$ and differentiate each one.",
+      "lines": [
+       {
+        "tex": "u &= x^2",
+        "sym": "x**2",
+        "new": true
+       },
+       {
+        "tex": "u' &= 2x",
+        "sym": "2*x",
+        "new": true
+       },
+       {
+        "tex": "v &= e^{3x}",
+        "sym": "exp(3*x)",
+        "new": true
+       },
+       {
+        "tex": "v' &= 3e^{3x}",
+        "sym": "3*exp(3*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Apply the product rule",
+      "say": "The product rule is $u'v + uv'$. Put the four pieces in, then take out the common factor.",
+      "lines": [
+       {
+        "tex": "f'(x) &= 2x\\,e^{3x} + x^2\\left(3e^{3x}\\right)",
+        "sym": "2*x*exp(3*x)+x**2*(3*exp(3*x))",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{xe^{3x}(2 + 3x)}",
+        "sym": "x*exp(3*x)*(2+3*x)"
+       }
+      ]
+     },
+     {
+      "title": "Set the slope to zero",
+      "say": "The slope is zero when $f'(x) = 0$. The factor $e^{3x}$ is never zero, so one of the other two factors must be.",
+      "lines": [
+       {
+        "tex": "xe^{3x}(2+3x) &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x} &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x} &= -\\tfrac23",
+        "sym": "-2/3",
+        "new": true
+       },
+       {
+        "text": "Solve $2 + 3x = 0$ for the second value."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 0 \\quad\\text{and}\\quad x = -\\frac{2}{3}"
+   },
+   "finalSym": "[0, -2/3]",
+   "answerSym": "solve(diff(x**2*exp(3*x),x),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "No differentiation, no credit. Write the derivative as a step of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(b)",
+       "quote": "No differentiation no credit"
+      }
+     ]
+    },
+    {
+     "tip": "Applying the product rule is a marked step in its own right, so show $u'v + uv'$ before you simplify.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(b)",
+       "quote": "3. Applies the product rule correctly"
+      }
+     ]
+    },
+    {
+     "tip": "If the product rule is missing from a second derivative, the most you can earn is mid partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q8#(d)",
+       "quote": "Note: if the product rule and chain rule are"
+      }
+     ]
+    },
+    {
+     "tip": "Give the answer in the form the question asks for. Another form loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(b)",
+       "quote": "Answer not in the correct form"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-chain",
+  "what": {
+   "say": [
+    "You give it a function inside a function, $f(g(x))$. It gives back the slope function by working from the **outside** in.",
+    "The key idea: differentiate the outer function and leave the inner one as it is, then multiply by the derivative of the inner function."
+   ],
+   "in": "$f(g(x))$",
+   "out": "$f'(g(x))\\cdot g'(x)$"
+  },
+  "how": {
+   "higher": "It is one of the most used skills on Paper 1, often hidden inside a tangent, turning point or rate of change question, worth 5 to 15 marks."
+  },
+  "example": {
+   "question": "Find the equation of the tangent to the curve $y = \\sqrt{4x^2 + 9}$ at the point where $x = 2$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split inside from outside",
+      "say": "The curve is a square root of something. Call the inside $u$. Then $y$ is a simple power of $u$.",
+      "lines": [
+       {
+        "tex": "u &= 4x^2 + 9",
+        "sym": "4*x**2+9",
+        "new": true
+       },
+       {
+        "tex": "y &= \\sqrt{u}",
+        "sym": "sqrt(u)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Apply the chain rule",
+      "say": "Differentiate $y$ with respect to $u$, then $u$ with respect to $x$. Multiply the two.",
+      "lines": [
+       {
+        "tex": "\\frac{dy}{du} &= \\frac{1}{2\\sqrt{u}}",
+        "sym": "1/(2*sqrt(u))",
+        "new": true
+       },
+       {
+        "tex": "\\frac{du}{dx} &= 8x",
+        "sym": "8*x",
+        "new": true
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= \\frac{1}{2\\sqrt{4x^2+9}}\\cdot 8x",
+        "sym": "1/(2*sqrt(4*x**2+9))*8*x",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{4x}{\\sqrt{4x^2+9}}",
+        "sym": "4*x/sqrt(4*x**2+9)"
+       }
+      ]
+     },
+     {
+      "title": "Find the slope and the point",
+      "say": "Put $x = 2$ into the derivative for the slope, and into the curve for the $y$ value.",
+      "lines": [
+       {
+        "tex": "m &= \\frac{4(2)}{\\sqrt{4(2)^2+9}}",
+        "sym": "4*2/sqrt(4*2**2+9)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{8}{\\sqrt{25}} = \\hl{1}{\\tfrac85}",
+        "sym": "8/5"
+       },
+       {
+        "tex": "y &= \\sqrt{4(2)^2+9} = \\hl{2}{5}",
+        "sym": "5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the tangent",
+      "say": "Use $y - y_1 = m(x - x_1)$ with the point $(2, 5)$ and slope $\\frac85$. Then clear the fraction.",
+      "lines": [
+       {
+        "tex": "y - \\hl{2}{5} &= \\hl{1}{\\tfrac85}(x - 2)",
+        "sym": "8/5*(x-2)",
+        "new": true
+       },
+       {
+        "tex": "5y - 25 &= 8x - 16",
+        "sym": "8*x-16",
+        "new": true
+       },
+       {
+        "tex": "8x - 5y + 9 &= 0",
+        "sym": "0",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "8x - 5y + 9 = 0"
+   },
+   "finalSym": "8*x-5*y+9",
+   "answerSym": "-5*(y - sqrt(4*2**2+9) - diff(sqrt(4*x**2+9),x).subs(x,2)*(x-2))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "If you do not use the chain rule, you cannot earn more than low partial credit. Write it as a step.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q3#(a)",
+       "quote": "Note: If quotient rule or chain rule not used"
+      }
+     ]
+    },
+    {
+     "tip": "You must use differentiation. Without it the question earns nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q3#(a)",
+       "quote": "Note: Must use differentiation to gain any"
+      }
+     ]
+    },
+    {
+     "tip": "The usual slip is in the inner function: a wrong sign, a wrong angle or a missed multiplier. Check the inner derivative.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q3#(a)",
+       "quote": "An error in the application of the chain rule"
+      }
+     ]
+    },
+    {
+     "tip": "Any correct differentiation earns partial credit, so write each derivative down before you substitute.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(a)",
+       "quote": "Some correct differentiation"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

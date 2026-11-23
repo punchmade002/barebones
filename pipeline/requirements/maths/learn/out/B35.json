@@ -1,0 +1,447 @@
+[
+ {
+  "skill": "diff-log",
+  "what": {
+   "say": [
+    "You give it the log of a function, $\\ln f(x)$. It gives back the slope function, $f'(x)$ over $f(x)$.",
+    "The key idea: the derivative of a log is the **derivative of the inside**, divided by the inside."
+   ],
+   "in": "$\\ln f(x)$",
+   "out": "$\\dfrac{f'(x)}{f(x)}$"
+  },
+  "how": {
+   "higher": "It turns up as a step inside larger Paper 1 parts, in about one part a year from 2017 to 2025, usually a rate or slope in a word problem, worth 5 to 10 marks."
+  },
+  "example": {
+   "question": "Find the slope of the curve $y = \\ln(3x^2 + 1)$ at $x = 1$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the inside",
+      "say": "The log has a function inside it. Call the inside $\\hl{1}{u}$ and find its derivative.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{u} &= 3x^2 + 1",
+        "sym": "3*x**2+1"
+       },
+       {
+        "tex": "u' &= 6x",
+        "sym": "6*x",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Apply the log rule",
+      "say": "The derivative of $\\ln u$ is $u'$ over $u$. Put $u'$ on top and $\\hl{1}{u}$ on the bottom.",
+      "lines": [
+       {
+        "tex": "\\dfrac{dy}{dx} &= \\dfrac{6x}{3x^2 + 1}",
+        "sym": "6*x/(3*x**2+1)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put in x = 1",
+      "say": "The slope at $x = 1$ is the derivative with $1$ in place of $x$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\dfrac{dy}{dx}} &= \\dfrac{6(1)}{3(1)^2 + 1}",
+        "sym": "6*1/(3*1**2+1)",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{6}{4}",
+        "sym": "6/4"
+       },
+       {
+        "tex": "&= \\dfrac{3}{2}",
+        "sym": "3/2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{3}{2}"
+   },
+   "finalSym": "3/2",
+   "answerSym": "diff(log(3*x**2+1),x).subs(x,1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write down any differentiation you can. Partial marks go for correct work even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q3#(c)",
+       "quote": "Any relevant differentiation"
+      }
+     ]
+    },
+    {
+     "tip": "Differentiate the whole expression before you substitute a value. A fully differentiated expression earns its own credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q3#(c)",
+       "quote": "Expression fully differentiated"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute the value into every term of the derivative, not just some of them.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q3#(c)",
+       "quote": "Derivative fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Give the answer in the form the question asks for. The wrong form loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(b)",
+       "quote": "Answer not in the correct form"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-inverse-trig",
+  "what": {
+   "say": [
+    "You give it an inverse trig function of $x/a$, like $\\tan^{-1}(x/a)$. It gives back the slope function.",
+    "The key idea: the rule for $\\tan^{-1}u$ is $u'$ over $1 + u^2$, and the chain rule supplies $u'$."
+   ],
+   "in": "$\\tan^{-1}\\!\\left(\\dfrac{x}{a}\\right)$",
+   "out": "$\\dfrac{a}{a^2 + x^2}$"
+  },
+  "how": {},
+  "example": {
+   "question": "Differentiate $f(x) = \\tan^{-1}\\!\\left(\\dfrac{x}{4}\\right)$ and find $f'(4)$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name the inside",
+      "say": "The inverse trig rule needs the inside. Call it $\\hl{1}{u}$ and find $u'$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{u} &= \\dfrac{x}{4}",
+        "sym": "x/4"
+       },
+       {
+        "tex": "u' &= \\dfrac{1}{4}",
+        "sym": "1/4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Apply the rule",
+      "say": "The derivative of $\\tan^{-1}u$ is $u'$ over $1 + u^2$.",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\dfrac{\\frac{1}{4}}{1 + \\left(\\frac{x}{4}\\right)^2}",
+        "sym": "(1/4)/(1+(x/4)**2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{4}{16 + x^2}",
+        "sym": "4/(16+x**2)"
+       }
+      ]
+     },
+     {
+      "title": "Put in x = 4",
+      "say": "Replace $x$ with $4$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{f'(4)} &= \\dfrac{4}{16 + 16}",
+        "sym": "4/(16+16)",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{1}{8}",
+        "sym": "1/8"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{1}{8}"
+   },
+   "finalSym": "1/8",
+   "answerSym": "diff(atan(x/4),x).subs(x,4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-first-principles",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$. It finds the slope function $f'(x)$ using the limit $\\lim_{h\\to0}\\dfrac{f(x+h)-f(x)}{h}$.",
+    "The key idea: the slope between two points a distance $h$ apart becomes the slope **at** a point when $h$ shrinks to zero."
+   ],
+   "in": "$f(x)$",
+   "out": "$f'(x)$"
+  },
+  "how": {
+   "higher": "It is a whole Paper 1 part of its own, in 2016, 2017, 2020, 2022 and 2024, always with a linear or quadratic $f(x)$ and worth 10 to 20 marks."
+  },
+  "example": {
+   "question": "Differentiate $f(x) = 2x^2 - x + 3$ from first principles.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find f(x + h)",
+      "say": "Replace every $x$ in the function with $x + h$, then multiply out.",
+      "lines": [
+       {
+        "tex": "f(x+h) &= 2(x+h)^2 - (x+h) + 3",
+        "sym": "2*(x+h)**2-(x+h)+3"
+       },
+       {
+        "tex": "&= 2x^2 + 4xh + 2h^2 - x - h + 3",
+        "sym": "2*x**2+4*x*h+2*h**2-x-h+3"
+       }
+      ]
+     },
+     {
+      "title": "Subtract f(x)",
+      "say": "Take away $f(x)$. Every term without an $h$ cancels.",
+      "lines": [
+       {
+        "tex": "f(x+h) - f(x) &= (2x^2 + 4xh + 2h^2 - x - h + 3) - (2x^2 - x + 3)",
+        "sym": "(2*x**2+4*x*h+2*h**2-x-h+3)-(2*x**2-x+3)",
+        "new": true
+       },
+       {
+        "tex": "&= 4xh + 2h^2 - h",
+        "sym": "4*x*h+2*h**2-h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by h",
+      "say": "Every term has an $h$. Divide it out.",
+      "lines": [
+       {
+        "tex": "\\dfrac{f(x+h) - f(x)}{h} &= \\dfrac{4xh + 2h^2 - h}{h}",
+        "sym": "(4*x*h+2*h**2-h)/h",
+        "new": true
+       },
+       {
+        "tex": "&= 4x + 2h - 1",
+        "sym": "4*x+2*h-1"
+       }
+      ]
+     },
+     {
+      "title": "Let h go to 0",
+      "say": "Now let $h$ shrink to zero. The $2h$ term disappears.",
+      "lines": [
+       {
+        "tex": "f'(x) &= \\lim_{h\\to0}\\,(4x + 2h - 1)",
+        "sym": "limit(4*x+2*h-1,h,0)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{4x - 1}",
+        "sym": "4*x-1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f'(x) = 4x - 1"
+   },
+   "finalSym": "4*x-1",
+   "answerSym": "limit((2*(x+h)**2-(x+h)+3-(2*x**2-x+3))/h,h,0)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Use first principles. Any other method of differentiating earns nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q4#(a)",
+       "quote": "No credit if first principles is not used"
+      }
+     ]
+    },
+    {
+     "tip": "Write the limit sign on every line until $h$ goes to zero. Leaving it out is penalised.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q3#(a)",
+       "quote": "omission of limit sign penalised once"
+      }
+     ]
+    },
+    {
+     "tip": "Start by writing $f(x+h)$. Even this alone earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q6#(a)",
+       "quote": "Some substitution into"
+      }
+     ]
+    },
+    {
+     "tip": "Show the left-hand side, $f(x+h) - f(x)$ over $h$, as well as the right-hand side.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q6#(a)",
+       "quote": "Left hand side missing"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-quotient",
+  "what": {
+   "say": [
+    "You give it one function divided by another, $u/v$. It gives back the slope function $\\dfrac{u'v - uv'}{v^2}$.",
+    "The key idea: differentiate the top and the bottom separately, then combine them in the fixed pattern: bottom times the top's slope, minus top times the bottom's slope, all over the bottom squared."
+   ],
+   "in": "$\\dfrac{u}{v}$",
+   "out": "$\\dfrac{u'v - uv'}{v^2}$"
+  },
+  "how": {
+   "higher": "It is a step inside a Paper 1 part in 2024 and 2025, worth 10 marks each time, either to find a slope at a point or to show a function has no turning points."
+  },
+  "example": {
+   "question": "Given $g(x) = \\dfrac{3x - 2}{x + 4}$, find $g'(1)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Name top and bottom",
+      "say": "Call the top $\\hl{1}{u}$ and the bottom $\\hl{2}{v}$. Differentiate each.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{u} &= 3x - 2",
+        "sym": "3*x-2"
+       },
+       {
+        "tex": "\\hl{2}{v} &= x + 4",
+        "sym": "x+4",
+        "new": true
+       },
+       {
+        "tex": "u' &= 3",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "tex": "v' &= 1",
+        "sym": "1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the quotient rule",
+      "say": "The rule is $(u'v - uv')$ over $v^2$. Put in each piece.",
+      "lines": [
+       {
+        "tex": "g'(x) &= \\dfrac{(3)(x+4) - (3x-2)(1)}{(x+4)^2}",
+        "sym": "(3*(x+4)-(3*x-2)*1)/(x+4)**2",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{3x + 12 - 3x + 2}{(x+4)^2}",
+        "sym": "(3*x+12-3*x+2)/(x+4)**2"
+       },
+       {
+        "tex": "&= \\dfrac{14}{(x+4)^2}",
+        "sym": "14/(x+4)**2"
+       }
+      ]
+     },
+     {
+      "title": "Put in x = 1",
+      "say": "Replace $x$ with $1$.",
+      "lines": [
+       {
+        "tex": "g'(1) &= \\dfrac{14}{(1+4)^2}",
+        "sym": "14/(1+4)**2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{\\dfrac{14}{25}}",
+        "sym": "14/25"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{14}{25}"
+   },
+   "finalSym": "14/25",
+   "answerSym": "diff((3*x-2)/(x+4),x).subs(x,1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Use the quotient or chain rule. Without one of them you get low partial credit at most.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q3#(b)",
+       "quote": "If quotient rule or chain rule not used"
+      }
+     ]
+    },
+    {
+     "tip": "Write the derivative out before you simplify it. The unsimplified expression earns a step of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q3#(b)",
+       "quote": "Unsimplified expression for"
+      }
+     ]
+    },
+    {
+     "tip": "Simplify the derivative, then explain what it tells you. The explanation is a separate step.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q3#(b)",
+       "quote": "Simplified expression for"
+      }
+     ]
+    },
+    {
+     "tip": "If the answer is a fraction, leave it as a fraction. A decimal loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q4#(b)",
+       "quote": "Answer given as a decimal"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

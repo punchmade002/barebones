@@ -1,0 +1,507 @@
+[
+ {
+  "skill": "cx-divide",
+  "what": {
+   "say": [
+    "You give it one complex number divided by another, $\\dfrac{z_1}{z_2}$. It writes the answer as $a + bi$, with no $i$ left in the denominator.",
+    "The key idea: multiply top and bottom by the **conjugate** of the denominator. Then the denominator becomes a real number."
+   ],
+   "in": "$\\dfrac{z_1}{z_2}$",
+   "out": "$a + bi$"
+  },
+  "how": {
+   "higher": "At Higher level it is usually a short part of its own, or a step inside a bigger question, on Paper 1. It turns up in 4 parts over 11 years, worth 10 to 15 marks.",
+   "ordinary": "At Ordinary level it is a part of its own on Paper 1, in the complex numbers question, worth 5 to 15 marks. It is the main skill in 7 parts over 11 years."
+  },
+  "example": {
+   "question": "Write $\\dfrac{7 + 4i}{2 - i}$ in the form $a + bi$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the conjugate",
+      "say": "The denominator is $2 - i$. Its conjugate is $\\hl{1}{2 + i}$: same numbers, opposite sign on the $i$ term.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\bar{w}} &= \\hl{1}{2 + i}",
+        "sym": "Eq(w,2+I)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply top and bottom",
+      "say": "Multiply the top and the bottom by $\\hl{1}{2 + i}$. This does not change the value, because it is the same as multiplying by $1$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{7 + 4i}{2 - i} &= \\dfrac{(7 + 4i)\\,\\hl{1}{(2 + i)}}{(2 - i)\\,\\hl{1}{(2 + i)}}",
+        "sym": "Eq((7+4*I)/(2-I),((7+4*I)*(2+I))/((2-I)*(2+I)))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand top and bottom",
+      "say": "Expand each line separately. Use $i^2 = -1$ to get rid of the $i^2$ terms.",
+      "lines": [
+       {
+        "tex": "\\text{top} &= 14 + 7i + 8i + 4i^2",
+        "sym": "Eq(t,14+7*I+8*I+4*I**2)",
+        "new": true
+       },
+       {
+        "tex": "&= 10 + 15i",
+        "sym": "Eq(t,10+15*I)"
+       },
+       {
+        "tex": "\\text{bottom} &= 4 + 2i - 2i - i^2",
+        "sym": "Eq(b,4+2*I-2*I-I**2)",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "Eq(b,5)"
+       },
+       {
+        "text": "The $i$ terms in the bottom always cancel. The bottom is always a real number."
+       }
+      ]
+     },
+     {
+      "title": "Divide and write a + bi",
+      "say": "Divide each part of the top by $5$ to write the answer as $a + bi$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{10 + 15i}{5} &= \\dfrac{10}{5} + \\dfrac{15}{5}i",
+        "sym": "Eq((10+15*I)/5,10/5+15*I/5)",
+        "new": true
+       },
+       {
+        "tex": "&= 2 + 3i",
+        "sym": "Eq((10+15*I)/5,2+3*I)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2 + 3i"
+   },
+   "finalSym": "2+3*I",
+   "answerSym": "simplify((7+4*I)/(2-I))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say that you are multiplying top and bottom by the conjugate of the denominator. That step is marked.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(a)",
+       "quote": "Indicates multiplication of top"
+      }
+     ]
+    },
+    {
+     "tip": "Expand the top and the bottom as separate steps. Each one is a step the scheme counts.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(a)",
+       "quote": "Expands bottom line"
+      }
+     ]
+    },
+    {
+     "tip": "Finish by writing the answer in the form $a + bi$, with the real and imaginary parts split.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(a)",
+       "quote": "Writes in the form"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write down the conjugate of the denominator. Even that alone earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p1-q2#(b)",
+       "quote": "Conjugate identified"
+      }
+     ]
+    },
+    {
+     "tip": "Multiply the top and the bottom by the same number. That earns credit even if the conjugate is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q3#(b)",
+       "quote": "Some multiplication above and below"
+      }
+     ]
+    },
+    {
+     "tip": "An answer with no work shown only gets low partial credit. Show the multiplication.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p1-q2#(c)",
+       "quote": "correct answer without work"
+      }
+     ]
+    },
+    {
+     "tip": "Split the answer into $a + bi$. Leaving it as one fraction over the denominator loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q2#(b)",
+       "quote": "Apply a * if in the form"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-equate-parts",
+  "what": {
+   "say": [
+    "You give it an equation with complex numbers and unknowns $a$ and $b$. It finds the values of $a$ and $b$.",
+    "The key idea: two complex numbers are equal only if their **real parts** match and their **imaginary parts** match. One complex equation gives you two ordinary equations."
+   ],
+   "in": "complex equation",
+   "out": "$a$ and $b$"
+  },
+  "how": {
+   "higher": "At Higher level it is a step inside a bigger part on Paper 1, for example finding a square root of a complex number. It is the main skill in 1 part over 11 years, worth 10 marks."
+  },
+  "example": {
+   "question": "$a$ and $b$ are real numbers. Find $a$ and $b$ if $(a + bi)(1 + i) = 1 + 5i$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Expand the left side",
+      "say": "Multiply out the brackets. Use $i^2 = -1$, then collect the real terms and the $i$ terms.",
+      "lines": [
+       {
+        "tex": "(a + bi)(1 + i) &= 1 + 5i",
+        "sym": "Eq((a+b*I)*(1+I),1+5*I)",
+        "new": true
+       },
+       {
+        "tex": "a + ai + bi + bi^2 &= 1 + 5i",
+        "sym": "Eq(a+a*I+b*I+b*I**2,1+5*I)"
+       },
+       {
+        "tex": "(a - b) + (a + b)i &= 1 + 5i",
+        "sym": "Eq((a-b)+(a+b)*I,1+5*I)"
+       }
+      ]
+     },
+     {
+      "title": "Equate the parts",
+      "say": "Match the real parts, then match the $i$ parts. Each gives an equation in $\\hl{1}{a}$ and $\\hl{2}{b}$.",
+      "lines": [
+       {
+        "tex": "\\text{Real: } a - b &= 1",
+        "sym": "Eq(a-b,1)",
+        "new": true
+       },
+       {
+        "tex": "\\text{Imaginary: } a + b &= 5",
+        "sym": "Eq(a+b,5)",
+        "new": true
+       },
+       {
+        "text": "Do not include the $i$ when you match the imaginary parts."
+       }
+      ]
+     },
+     {
+      "title": "Solve the pair",
+      "say": "Add the two equations to eliminate $b$. That gives $\\hl{1}{a}$. Then put it back to find $\\hl{2}{b}$.",
+      "lines": [
+       {
+        "tex": "2a &= 6",
+        "sym": "Eq(2*a,6)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{a} &= 3",
+        "sym": "Eq(a,3)"
+       },
+       {
+        "tex": "3 + b &= 5",
+        "sym": "Eq(3+b,5)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{b} &= 2",
+        "sym": "Eq(b,2)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "a = 3,\\; b = 2"
+   },
+   "finalSym": "{a:3,b:2}",
+   "answerSym": "solve([Eq(re(expand((a+b*I)*(1+I))),1),Eq(im(expand((a+b*I)*(1+I))),5)],[a,b])"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Writing the original equation in the form $(a + bi)^2 = \\dots$ is work of merit. Always set it up first.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q1#(b)",
+       "quote": "(𝑎+ 𝑏𝑖)²= −5 + 12𝑖"
+      }
+     ]
+    },
+    {
+     "tip": "Write the real equation and the imaginary equation separately. The scheme rewards getting to one equation in a single variable.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q1#(b)",
+       "quote": "Relevant equation in a single"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "cx-transformations",
+  "what": {
+   "say": [
+    "You give it a complex number $z$ and an operation on it. It tells you what happens to the point $z$ on the Argand diagram.",
+    "The key idea: adding $w$ **slides** the point. Multiplying by $i$ **turns** it $90°$ anticlockwise about the origin. Multiplying by a real number $k$ **stretches** it away from the origin."
+   ],
+   "in": "$z$ and an operation",
+   "out": "translation, rotation or enlargement"
+  },
+  "how": {
+   "higher": "At Higher level it came up once, in 2023, as a part of Paper 1 Q4 worth 10 marks. You find $iu$ and $i\\bar{u}$, plot them, and name the transformation.",
+   "ordinary": "At Ordinary level it came up once, in 2024, as a 5 mark part of Paper 1 Q2. You pick the correct box or say how the conjugate is related to $z$."
+  },
+  "example": {
+   "question": "$z = 4 + 2i$. Find $iz$. Describe the transformation that takes $z$ to $iz$ on the Argand diagram.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply z by i",
+      "say": "Multiply $z$ by $i$. Use $i^2 = -1$.",
+      "lines": [
+       {
+        "tex": "iz &= i(4 + 2i)",
+        "sym": "I*(4+2*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 4i + 2i^2",
+        "sym": "4*I+2*I**2"
+       },
+       {
+        "tex": "&= \\hl{1}{-2 + 4i}",
+        "sym": "-2+4*I"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two points",
+      "say": "Find how far each point is from the origin. If the distances match, the point has turned and not stretched.",
+      "lines": [
+       {
+        "tex": "|z| &= \\sqrt{4^2 + 2^2}",
+        "sym": "sqrt(4**2+2**2)",
+        "new": true
+       },
+       {
+        "tex": "|iz| &= \\sqrt{(-2)^2 + 4^2}",
+        "sym": "sqrt((-2)**2+4**2)"
+       },
+       {
+        "text": "Both equal $\\sqrt{20}$. The distance from the origin did not change."
+       }
+      ]
+     },
+     {
+      "title": "Describe the move",
+      "say": "The point $(4, 2)$ has moved to $(-2, 4)$ at the same distance from the origin. So it has been turned.",
+      "lines": [
+       {
+        "text": "Multiplying by $i$ is a rotation of $90°$ anticlockwise about the origin."
+       },
+       {
+        "text": "Check: $(4, 2)$ is in the first quarter. $(-2, 4)$ is in the second quarter, one quarter turn on."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "iz = -2 + 4i,\\; \\text{a rotation of } 90^\\circ \\text{ anticlockwise about the origin}"
+   },
+   "finalSym": "-2+4*I",
+   "answerSym": "expand(I*(4+2*I))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Four things are marked: $iu$, $i\\bar{u}$, the plot and the transformation. Do all four.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q4#(c)(i), (ii), (iii)",
+       "quote": "4 elements required"
+      }
+     ]
+    },
+    {
+     "tip": "Label the diagram. An unlabelled diagram loses a mark even when everything else is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q4#(c)(i), (ii), (iii)",
+       "quote": "Diagram not labelled"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Give a reason for your answer. Even a start on the reason earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q2#(c)",
+       "quote": "Work of merit in reason"
+      }
+     ]
+    },
+    {
+     "tip": "Say what the conjugate does: it is reflected in the real axis.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q2#(c)",
+       "quote": "The conjugate is reflected in the real"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cx-conjugate-properties",
+  "what": {
+   "say": [
+    "You give it two complex numbers, $z_1$ and $z_2$. It shows that the conjugate of their sum is the sum of their conjugates, and the same for their product.",
+    "The key idea: taking the conjugate just flips the sign of every $i$. It does not matter whether you do it before or after you add or multiply."
+   ],
+   "in": "$z_1$ and $z_2$",
+   "out": "$\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$"
+  },
+  "how": {},
+  "example": {
+   "question": "Let $z_1 = 1 + i$ and $z_2 = 2 - 3i$. Verify that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$ and $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Sum: conjugate of the sum",
+      "say": "Add first, then take the conjugate of the answer.",
+      "lines": [
+       {
+        "tex": "z_1 + z_2 &= 3 - 2i",
+        "sym": "Eq(z,(1+I)+(2-3*I))",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{\\overline{z_1 + z_2}} &= \\hl{1}{3 + 2i}",
+        "sym": "Eq(w,conjugate(3-2*I))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Sum: sum of the conjugates",
+      "say": "Now take each conjugate first, then add.",
+      "lines": [
+       {
+        "tex": "\\overline{z_1} + \\overline{z_2} &= (1 - i) + (2 + 3i)",
+        "sym": "(1-I)+(2+3*I)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3 + 2i}",
+        "sym": "3+2*I"
+       },
+       {
+        "text": "Both sides are $3 + 2i$, so the sum rule holds."
+       }
+      ]
+     },
+     {
+      "title": "Product: conjugate of the product",
+      "say": "Multiply first, then take the conjugate. Use $i^2 = -1$.",
+      "lines": [
+       {
+        "tex": "z_1 z_2 &= (1 + i)(2 - 3i)",
+        "sym": "(1+I)*(2-3*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 2 - 3i + 2i - 3i^2",
+        "sym": "2-3*I+2*I-3*I**2"
+       },
+       {
+        "tex": "&= 5 - i",
+        "sym": "5-I"
+       },
+       {
+        "tex": "\\hl{2}{\\overline{z_1 z_2}} &= \\hl{2}{5 + i}",
+        "sym": "conjugate(5-I)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Product: product of the conjugates",
+      "say": "Now take each conjugate first, then multiply.",
+      "lines": [
+       {
+        "tex": "\\overline{z_1}\\,\\overline{z_2} &= (1 - i)(2 + 3i)",
+        "sym": "(1-I)*(2+3*I)",
+        "new": true
+       },
+       {
+        "tex": "&= 2 + 3i - 2i - 3i^2",
+        "sym": "2+3*I-2*I-3*I**2"
+       },
+       {
+        "tex": "&= \\hl{2}{5 + i}",
+        "sym": "5+I"
+       },
+       {
+        "text": "Both sides are $5 + i$, so the product rule holds."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2} = 3 + 2i, \\quad \\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2} = 5 + i"
+   },
+   "finalSym": "0",
+   "answerSym": "(conjugate((1+I)+(2-3*I))-(conjugate(1+I)+conjugate(2-3*I)))+(conjugate((1+I)*(2-3*I))-conjugate(1+I)*conjugate(2-3*I))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

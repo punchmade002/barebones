@@ -1,0 +1,488 @@
+[
+ {
+  "skill": "cx-conjugate-root",
+  "what": {
+   "say": [
+    "You give it a polynomial with real coefficients and one complex root. It finds **all** the roots.",
+    "The key idea: complex roots of a real polynomial come in **conjugate** pairs, so $a+bi$ being a root forces $a-bi$ to be one too."
+   ],
+   "in": "real polynomial + one complex root",
+   "out": "all roots"
+  },
+  "how": {
+   "higher": "On Higher Paper 1 it is a step inside a bigger complex-number question: 2016 Q1(c) (a quadratic with a complex coefficient) and 2019 Q5(a) (finding $p$ and $q$), each worth 10 marks."
+  },
+  "example": {
+   "question": "$2 + i$ is a root of $z^3 - 6z^2 + 13z - 10 = 0$, where $z \\in \\mathbb{C}$. Find the other two roots.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write down the conjugate",
+      "say": "The coefficients are all real, so complex roots come in conjugate pairs. The root $\\hl{1}{2+i}$ forces the root $\\hl{2}{2-i}$.",
+      "lines": [
+       {
+        "text": "Two roots so far: $\\hl{1}{2+i}$ and $\\hl{2}{2-i}$."
+       }
+      ]
+     },
+     {
+      "title": "Build the quadratic factor",
+      "say": "Multiply the two linear factors. The imaginary parts cancel in the sum, and the product of a number and its conjugate is real.",
+      "lines": [
+       {
+        "tex": "(z-(2+i))(z-(2-i)) &= z^2-(2+i+2-i)z+(2+i)(2-i)",
+        "sym": "z**2-(2+i+2-i)*z+(2+i)*(2-i)",
+        "new": true
+       },
+       {
+        "tex": "&= z^2-4z+5",
+        "sym": "z**2-4*z+5"
+       }
+      ]
+     },
+     {
+      "title": "Divide to find the last factor",
+      "say": "The cubic is the quadratic times a linear factor $(z+c)$. The leading term gives $z$, and the constant term $-10$ must equal $5c$, so $c=-2$.",
+      "lines": [
+       {
+        "tex": "z^3-6z^2+13z-10 &= (z^2-4z+5)(z-2)",
+        "sym": "(z**2-4*z+5)*(z-2)",
+        "new": true
+       },
+       {
+        "text": "Multiply out to check: you get the cubic back."
+       }
+      ]
+     },
+     {
+      "title": "Read off the third root",
+      "say": "The last factor is zero when $z = 2$.",
+      "lines": [
+       {
+        "tex": "z-2 &= 0"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2 - i \\text{ and } 2"
+   },
+   "finalSym": "[2-I, 2]",
+   "answerSym": "solve(z**3-6*z**2+13*z-10,z)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the conjugate root down straight away. Identifying the second root earns marks by itself.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q5#(a)",
+       "quote": "Second root identified"
+      }
+     ]
+    },
+    {
+     "tip": "Use the sum and the product of the two roots to form the quadratic. Formulating them as equations earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q5#(a)",
+       "quote": "Sum and product of roots"
+      }
+     ]
+    },
+    {
+     "tip": "If you divide, set the long division up correctly and get the first two lines right. That is where the partial credit is.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q1#(a)",
+       "quote": "long division formulated correctly"
+      },
+      {
+       "part": "maths-pp-2016-higher-p1-q1#(a)",
+       "quote": "two correct lines in division"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "cx-de-moivre-roots",
+  "what": {
+   "say": [
+    "You give it an equation $z^n = a$. It finds all $n$ roots, in polar and rectangular form.",
+    "The key idea: write $a$ in polar form, take the $n$th root of the modulus, and **divide the angle by $n$**. The roots sit on a circle, evenly spaced $\\frac{2\\pi}{n}$ apart."
+   ],
+   "in": "$z^n = a$",
+   "out": "$n$ roots"
+  },
+  "how": {
+   "higher": "On Higher Paper 1 it is a part of its own, worth 10 marks in 2019 and 2021 and 15 marks in 2023 and 2025. Polar form is required to earn any credit."
+  },
+  "example": {
+   "question": "Solve $z^4 = -16$, giving your answers in the form $a + bi$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write $-16$ in polar form",
+      "say": "The number $-16$ lies on the negative real axis. Its modulus is $\\hl{1}{16}$ and its angle is $\\hl{2}{\\pi}$. Add $2n\\pi$ so that every angle is covered.",
+      "lines": [
+       {
+        "tex": "|-16| &= \\hl{1}{16}",
+        "sym": "16",
+        "new": true
+       },
+       {
+        "text": "$-16 = 16\\big(\\cos(\\hl{2}{\\pi}+2n\\pi) + i\\sin(\\hl{2}{\\pi}+2n\\pi)\\big)$"
+       }
+      ]
+     },
+     {
+      "title": "Take the fourth root",
+      "say": "De Moivre: raise the modulus to the power $\\frac14$ and multiply the angle by $\\frac14$.",
+      "lines": [
+       {
+        "tex": "16^{1/4} &= 2",
+        "sym": "16**(1/4)"
+       },
+       {
+        "tex": "\\text{angle} &= \\frac{\\pi + 2n\\pi}{4} = \\frac{\\pi}{4} + \\frac{n\\pi}{2}",
+        "sym": "pi/4+n*pi/2",
+        "new": true
+       },
+       {
+        "text": "$z = 2\\big(\\cos(\\frac{\\pi}{4}+\\frac{n\\pi}{2}) + i\\sin(\\frac{\\pi}{4}+\\frac{n\\pi}{2})\\big)$"
+       }
+      ]
+     },
+     {
+      "title": "Find two roots",
+      "say": "Put $n=0$ and $n=1$ and write each in the form $a+bi$.",
+      "lines": [
+       {
+        "tex": "n=0:\\; z &= 2\\big(\\cos\\tfrac{\\pi}{4} + i\\sin\\tfrac{\\pi}{4}\\big)",
+        "sym": "2*(cos(pi/4)+I*sin(pi/4))",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{2} + \\sqrt{2}\\,i",
+        "sym": "sqrt(2)+sqrt(2)*I"
+       },
+       {
+        "tex": "n=1:\\; z &= 2\\big(\\cos\\tfrac{3\\pi}{4} + i\\sin\\tfrac{3\\pi}{4}\\big)",
+        "sym": "2*(cos(3*pi/4)+I*sin(3*pi/4))",
+        "new": true
+       },
+       {
+        "tex": "&= -\\sqrt{2} + \\sqrt{2}\\,i",
+        "sym": "-sqrt(2)+sqrt(2)*I"
+       }
+      ]
+     },
+     {
+      "title": "Use symmetry for the rest",
+      "say": "The roots are evenly spaced around a circle, so the other two are the negatives of these.",
+      "lines": [
+       {
+        "tex": "n=2:\\; z &= -\\sqrt{2} - \\sqrt{2}\\,i",
+        "sym": "-sqrt(2)-sqrt(2)*I",
+        "new": true
+       },
+       {
+        "tex": "n=3:\\; z &= \\sqrt{2} - \\sqrt{2}\\,i",
+        "sym": "sqrt(2)-sqrt(2)*I",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "z = \\pm\\sqrt{2} \\pm \\sqrt{2}\\,i"
+   },
+   "finalSym": "[sqrt(2)+sqrt(2)*I, -sqrt(2)+sqrt(2)*I, -sqrt(2)-sqrt(2)*I, sqrt(2)-sqrt(2)*I]",
+   "answerSym": "solve(z**4+16,z)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Work in polar form. Without it you earn nothing, even if the roots come out right.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(c)",
+       "quote": "Polar form must be used to achieve any credit"
+      },
+      {
+       "part": "maths-pp-2021-higher-p1-q1#(c)",
+       "quote": "polar form must be used to"
+      }
+     ]
+    },
+    {
+     "tip": "The general polar form with $2n\\pi$ is not needed to find the roots. Find the angle, the modulus, one root and a second root.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(c)",
+       "quote": "General polar form is not required to find the roots"
+      },
+      {
+       "part": "maths-pp-2023-higher-p1-q4#(b)",
+       "quote": "2nd root found"
+      }
+     ]
+    },
+    {
+     "tip": "Leave the roots in $a+bi$ form. Giving one or both in polar form costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(c)",
+       "quote": "Roots found correctly, but one or both in"
+      }
+     ]
+    },
+    {
+     "tip": "Evaluate at least one root from De Moivre's expression. That is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q4#(b)",
+       "quote": "One root evaluated from De Moivre"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "cx-de-moivre-identity",
+  "what": {
+   "say": [
+    "You give it $\\cos n\\theta$ or $\\sin n\\theta$. It writes it as an identity in powers of $\\cos\\theta$ or $\\sin\\theta$.",
+    "The key idea: expand $(\\cos\\theta + i\\sin\\theta)^n$ with the binomial theorem, and **equate real parts** (for cosine) or imaginary parts (for sine) with De Moivre's $\\cos n\\theta + i\\sin n\\theta$."
+   ],
+   "in": "$\\cos n\\theta$ or $\\sin n\\theta$",
+   "out": "identity in powers of $\\cos\\theta$"
+  },
+  "how": {
+   "higher": "On Higher Paper 1 it was a 10 mark part of 2025 Q4(b), where the student equated real parts to get a double-angle identity."
+  },
+  "example": {
+   "question": "Use De Moivre's Theorem to show that $\\cos 4\\theta = 8\\cos^4\\theta - 8\\cos^2\\theta + 1$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Apply De Moivre",
+      "say": "De Moivre says the fourth power of $\\cos\\theta + i\\sin\\theta$ is found by multiplying the angle by 4. Its real part is $\\hl{1}{\\cos 4\\theta}$.",
+      "lines": [
+       {
+        "tex": "(\\cos\\theta + i\\sin\\theta)^4 &= \\hl{1}{\\cos 4\\theta} + i\\sin 4\\theta",
+        "sym": "cos(4*t)+I*sin(4*t)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand with the binomial theorem",
+      "say": "Expand the same bracket the long way. Use $i^2=-1$, $i^3=-i$ and $i^4=1$.",
+      "lines": [
+       {
+        "tex": "(\\cos\\theta + i\\sin\\theta)^4 &= \\cos^4\\theta + 4\\cos^3\\theta(i\\sin\\theta) + 6\\cos^2\\theta(i\\sin\\theta)^2 + 4\\cos\\theta(i\\sin\\theta)^3 + (i\\sin\\theta)^4",
+        "sym": "cos(t)**4+4*cos(t)**3*(I*sin(t))+6*cos(t)**2*(I*sin(t))**2+4*cos(t)*(I*sin(t))**3+(I*sin(t))**4",
+        "new": true
+       },
+       {
+        "tex": "&= \\cos^4\\theta + 4i\\cos^3\\theta\\sin\\theta - 6\\cos^2\\theta\\sin^2\\theta - 4i\\cos\\theta\\sin^3\\theta + \\sin^4\\theta",
+        "sym": "cos(t)**4+4*I*cos(t)**3*sin(t)-6*cos(t)**2*sin(t)**2-4*I*cos(t)*sin(t)**3+sin(t)**4"
+       }
+      ]
+     },
+     {
+      "title": "Equate real parts",
+      "say": "The two expansions are equal, so their real parts are equal. Pick out the terms without $i$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\cos 4\\theta} &= \\cos^4\\theta - 6\\cos^2\\theta\\sin^2\\theta + \\sin^4\\theta",
+        "sym": "cos(t)**4-6*cos(t)**2*sin(t)**2+sin(t)**4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the sines",
+      "say": "The target has only cosines. Replace $\\sin^2\\theta$ with $1-\\cos^2\\theta$, then simplify.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\cos 4\\theta} &= \\cos^4\\theta - 6\\cos^2\\theta(1-\\cos^2\\theta) + (1-\\cos^2\\theta)^2",
+        "sym": "cos(t)**4-6*cos(t)**2*(1-cos(t)**2)+(1-cos(t)**2)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 8\\cos^4\\theta - 8\\cos^2\\theta + 1",
+        "sym": "8*cos(t)**4-8*cos(t)**2+1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{\\cos 4\\theta} = 8\\cos^4\\theta - 8\\cos^2\\theta + 1"
+   },
+   "finalSym": "0",
+   "answerSym": "cos(4*t)-(8*cos(t)**4-8*cos(t)**2+1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "After expanding, equate the real parts with the real parts. That is the step that gives the identity.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(b)",
+       "quote": "Equate Reals with Reals"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the bracket out as a product, or starting the expansion, is work of merit and earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q4#(b)",
+       "quote": "Work of merit, for example"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "cx-de-moivre-prove",
+  "what": {
+   "say": [
+    "You give it the statement $(\\cos\\theta + i\\sin\\theta)^n = \\cos n\\theta + i\\sin n\\theta$ for whole numbers $n$. It proves it by induction.",
+    "The key idea: assume it for $n=k$, multiply by one more $(\\cos\\theta + i\\sin\\theta)$, and the **compound angle formulae** turn the product into the $n=k+1$ case."
+   ],
+   "in": "$(\\cos\\theta + i\\sin\\theta)^n$",
+   "out": "proof for all $n$"
+  },
+  "how": {
+   "higher": "On Higher Paper 1 it was 2018 Q4(a), worth 15 marks, with credit for each step of the induction."
+  },
+  "example": {
+   "question": "Prove by induction that $[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test $n=1$",
+      "say": "Put $n=1$ into both sides. They match.",
+      "lines": [
+       {
+        "tex": "[r(\\cos\\theta + i\\sin\\theta)]^1 &= r^1(\\cos 1\\theta + i\\sin 1\\theta)",
+        "sym": "r*(cos(t)+I*sin(t))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Assume $n=k$",
+      "say": "Suppose the statement is true for $n=k$. This is the one fact we are allowed to use.",
+      "lines": [
+       {
+        "tex": "[r(\\cos\\theta + i\\sin\\theta)]^k &= r^k(\\cos k\\theta + i\\sin k\\theta)",
+        "sym": "r**k*(cos(k*t)+I*sin(k*t))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Prove it for $n=k+1$",
+      "say": "Write the power $k+1$ as the power $k$ times one more bracket. Replace the power $k$ with the assumption, then multiply out. $i^2=-1$.",
+      "lines": [
+       {
+        "tex": "[r(\\cos\\theta + i\\sin\\theta)]^{k+1} &= [r(\\cos\\theta + i\\sin\\theta)]^k \\cdot r(\\cos\\theta + i\\sin\\theta)",
+        "sym": "(r*(cos(t)+I*sin(t)))**k*r*(cos(t)+I*sin(t))",
+        "new": true
+       },
+       {
+        "tex": "&= r^k(\\cos k\\theta + i\\sin k\\theta) \\cdot r(\\cos\\theta + i\\sin\\theta)",
+        "sym": "r**k*(cos(k*t)+I*sin(k*t))*r*(cos(t)+I*sin(t))",
+        "new": true
+       },
+       {
+        "tex": "&= r^{k+1}\\big[(\\cos k\\theta\\cos\\theta - \\sin k\\theta\\sin\\theta) + i(\\sin k\\theta\\cos\\theta + \\cos k\\theta\\sin\\theta)\\big]",
+        "sym": "r**(k+1)*((cos(k*t)*cos(t)-sin(k*t)*sin(t))+I*(sin(k*t)*cos(t)+cos(k*t)*sin(t)))"
+       },
+       {
+        "text": "The two brackets are the compound angle formulae for $\\cos(A+B)$ and $\\sin(A+B)$."
+       },
+       {
+        "tex": "&= r^{k+1}\\big(\\cos(k+1)\\theta + i\\sin(k+1)\\theta\\big)",
+        "sym": "r**(k+1)*(cos((k+1)*t)+I*sin((k+1)*t))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "say": "Say what has been shown, in words. The marks are tied to the conclusion.",
+      "lines": [
+       {
+        "text": "True for $n=1$. If true for $n=k$ then true for $n=k+1$. Therefore true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "[r(\\cos\\theta + i\\sin\\theta)]^n = r^n(\\cos n\\theta + i\\sin n\\theta)"
+   },
+   "finalSym": "0",
+   "answerSym": "expand(expand_trig((r*(cos(t)+I*sin(t)))**3-r**3*(cos(3*t)+I*sin(3*t))))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "End with a conclusion in words. Leaving it out costs a mark on an otherwise correct proof.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q4#(a)",
+       "quote": "Omits conclusion but otherwise correct"
+      },
+      {
+       "part": "maths-pp-2018-higher-p1-q4#(a)",
+       "quote": "provided it is true for"
+      }
+     ]
+    },
+    {
+     "tip": "The steps for $n=1$, $n=k$ and $n=k+1$ can come in any order, and each earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q4#(a)",
+       "quote": "in any order"
+      }
+     ]
+    },
+    {
+     "tip": "The full $r$ version, proved correctly, earns full credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q4#(a)",
+       "quote": "proved correctly"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

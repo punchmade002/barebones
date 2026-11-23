@@ -1,0 +1,591 @@
+[
+ {
+  "skill": "diff-slope-tangent",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$, and a point on its graph. It gives back the **tangent** there: the straight line that just touches the curve.",
+    "The key idea: the **slope** of the tangent at $x = a$ is $f'(a)$. Once you have the slope and the point, it is just the equation of a line."
+   ],
+   "in": "$f(x)$ and $x = a$",
+   "out": "tangent line"
+  },
+  "how": {
+   "higher": "Higher level asks it on Paper 1 as a 10-mark part (2016, 2018, 2021, 2023, 2024, 2025), usually with a trig or exponential function, and sometimes only to find an unknown such as $k$ from the tangent.",
+   "ordinary": "Ordinary level asks it on Paper 1, mostly in Q4 (2016, 2020, 2022, 2023, 2025): the previous part finds $f'(x)$, then a 5-mark part finds the slope or the line."
+  },
+  "example": {
+   "question": "The curve $y = x^3 - 3x + 1$ has a point where $x = 2$. Find the equation of the tangent to the curve at that point.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the slope",
+      "say": "The slope of the tangent is the derivative at $x = 2$. Differentiate, then put in $x = 2$.",
+      "lines": [
+       {
+        "tex": "y &= x^3 - 3x + 1",
+        "sym": "x**3-3*x+1",
+        "new": true
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 3",
+        "sym": "3*x**2-3",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{m} &= 3(2)^2 - 3 = \\hl{1}{9}",
+        "sym": "9",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the point",
+      "say": "The tangent touches the curve, so it passes through the point on the curve where $x = 2$. Put $x = 2$ into the original function, not the derivative.",
+      "lines": [
+       {
+        "tex": "y &= (2)^3 - 3(2) + 1 = \\hl{2}{3}",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "text": "The point is $(2, \\hl{2}{3})$."
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Now use the slope $\\hl{1}{9}$ and the point $(2, \\hl{2}{3})$ in the formula for a line.",
+      "lines": [
+       {
+        "tex": "y - \\hl{2}{3} &= \\hl{1}{9}(x - 2)",
+        "sym": "9*(x-2)",
+        "new": true
+       },
+       {
+        "tex": "y &= 9x - 18 + 3",
+        "sym": "9*x-15",
+        "new": true
+       },
+       {
+        "tex": "y &= 9x - 15",
+        "sym": "9*x-15"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "y = 9x - 15"
+   },
+   "finalSym": "9*x-15",
+   "answerSym": "diff(x**3-3*x+1,x).subs(x,2)*(x-2)+(2**3-3*2+1)"
+  },
+  "graph": {
+   "f": "x**3 - 3*x + 1",
+   "box": [
+    -3,
+    10,
+    3,
+    -6
+   ],
+   "points": [
+    {
+     "x": 2,
+     "y": 3,
+     "name": "point (2, 3)"
+    }
+   ],
+   "slots": {
+    "x": null,
+    "y": 2
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Find both the slope and the $y$-value. Both must be done before the equation of the line earns any credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(a)(ii)",
+       "quote": "Both Steps 1 and 2 need to be done"
+      }
+     ]
+    },
+    {
+     "tip": "Write the slope and the $y$-value as separate steps. The marking scheme counts steps and gives credit for each.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q3#(b)(i)",
+       "quote": "Consider solution as involving 4 steps"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Differentiate, then put $x$ into $f'(x)$. Putting it into $f(x)$ for the slope earns nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q4#(b)",
+       "quote": "zero credit for substituting 2 into"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula for a line, $y - y_1 = m(x - x_1)$, even before you have the numbers. It is work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q4#(a)(iii)",
+       "quote": "Equation of a line formula with"
+      }
+     ]
+    },
+    {
+     "tip": "Leave the answer as a rearranged equation, like $6x - y - 87 = 0$, if the question asks for it. You lose a mark if you do not rearrange.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q4#(a)(iii)",
+       "quote": "fails to rearrange equation of the line"
+      }
+     ]
+    },
+    {
+     "tip": "Use your slope from the earlier part in the line. Copying the slope across is credited.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q4#(b)(ii)",
+       "quote": "Evaluates slope using answer of part (i)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-point-given-slope",
+  "what": {
+   "say": [
+    "You give it a curve and a slope $m$, or a line the tangent must be parallel to. It finds the **points** on the curve where the tangent has that slope.",
+    "The key idea: set the derivative equal to $m$ and solve. Parallel lines have the same slope."
+   ],
+   "in": "$f(x)$ and slope $m$",
+   "out": "$x$ (and the point)"
+  },
+  "how": {
+   "higher": "Higher level has asked it once on Paper 1, in 2024 Q3(c): a 15-mark part where you draw tangents parallel to a given line and read off the $x$-values."
+  },
+  "example": {
+   "question": "The tangent to the curve $y = x^3 - 6x^2 + 5$ is parallel to the line $y = -9x + 4$ at two points. Find the $x$-coordinates of these two points.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the slope wanted",
+      "say": "Parallel lines have equal slopes. The line $y = -9x + 4$ has slope $\\hl{1}{-9}$, so the tangent must too.",
+      "lines": [
+       {
+        "text": "The line has slope $\\hl{1}{-9}$."
+       }
+      ]
+     },
+     {
+      "title": "Differentiate the curve",
+      "say": "The slope of the tangent at any point is $\\frac{dy}{dx}$.",
+      "lines": [
+       {
+        "tex": "y &= x^3 - 6x^2 + 5",
+        "sym": "x**3-6*x**2+5",
+        "new": true
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 12x",
+        "sym": "3*x**2-12*x",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Set the slope equal",
+      "say": "Set $\\frac{dy}{dx}$ equal to $\\hl{1}{-9}$ and solve the quadratic.",
+      "lines": [
+       {
+        "tex": "3x^2 - 12x &= \\hl{1}{-9}",
+        "sym": "-9",
+        "new": true
+       },
+       {
+        "tex": "3x^2 - 12x + 9 &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "tex": "x^2 - 4x + 3 &= 0",
+        "sym": "0"
+       },
+       {
+        "tex": "(x - 1)(x - 3) &= 0",
+        "sym": "0"
+       }
+      ]
+     },
+     {
+      "title": "Read off the x-values",
+      "say": "Each bracket gives one point where the tangent has slope $-9$.",
+      "lines": [
+       {
+        "tex": "x &= \\hl{2}{1} \\quad \\text{or} \\quad x = \\hl{2}{3}",
+        "sym": "Or(Eq(x,1),Eq(x,3))",
+        "new": true
+       },
+       {
+        "text": "Putting these into the curve gives the points $(1, 0)$ and $(3, -22)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 1 \\text{ and } x = 3"
+   },
+   "finalSym": "[1, 3]",
+   "answerSym": "solve(Eq(diff(x**3-6*x**2+5,x),-9),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Start by writing down the slope of the given line. Mentioning it is work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q3#(c)",
+       "quote": "Work of merit, for example, mentions"
+      }
+     ]
+    },
+    {
+     "tip": "Drawing a line parallel to the given one earns partial credit, even before you find the touching point.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q3#(c)",
+       "quote": "Draws a line parallel to"
+      }
+     ]
+    },
+    {
+     "tip": "You need two tangents. One correct tangent earns mid credit, two correct earn high credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q3#(c)",
+       "quote": "Two tangents drawn correctly"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "diff-increasing",
+  "what": {
+   "say": [
+    "You give it a function and an $x$ value. It tells you whether the function is **increasing** or **decreasing** there.",
+    "The key idea: look at the sign of $f'(a)$. If it is positive the graph is rising. If it is negative the graph is falling."
+   ],
+   "in": "$f(x)$ and $x = a$",
+   "out": "increasing or decreasing"
+  },
+  "how": {
+   "higher": "Higher level asks it on Paper 1 as a 5 to 10-mark part inside a longer question (2018, 2019, 2022, 2023), often about a real situation such as a rate, where you must use calculus and state the conclusion.",
+   "ordinary": "Ordinary level asks it on Paper 1 Q4 (2022, 2025): you match points on a graph to $f'(x) < 0$, $= 0$ and $> 0$, and give a reason."
+  },
+  "example": {
+   "question": "$f(x) = x^2 - 6x + 5$. Use differentiation to decide whether $f$ is increasing or decreasing at $x = 1$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate",
+      "say": "The slope of the graph is given by the derivative, so find $f'(x)$ first.",
+      "lines": [
+       {
+        "tex": "f(x) &= x^2 - 6x + 5",
+        "sym": "x**2-6*x+5",
+        "new": true
+       },
+       {
+        "tex": "f'(x) &= 2x - 6",
+        "sym": "2*x-6",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the slope at x = 1",
+      "say": "Put $x = 1$ into the derivative, not into $f(x)$.",
+      "lines": [
+       {
+        "tex": "f'(1) &= 2(1) - 6 = \\hl{1}{-4}",
+        "sym": "-4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Say what the sign means",
+      "say": "The slope $\\hl{1}{-4}$ is negative, so the graph is falling at $x = 1$. Write the conclusion in words.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f'(1)} &< 0",
+        "sym": "-4 < 0",
+        "new": true
+       },
+       {
+        "text": "Slope is negative, so $f$ is **decreasing** at $x = 1$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f'(1) = -4 < 0 \\text{, so } f \\text{ is decreasing}"
+   },
+   "finalSym": "-4",
+   "answerSym": "diff(x**2-6*x+5,x).subs(x,1)"
+  },
+  "graph": {
+   "f": "x**2 - 6*x + 5",
+   "box": [
+    -1,
+    12,
+    7,
+    -5
+   ],
+   "points": [
+    {
+     "x": 1,
+     "y": 0,
+     "name": "(1, 0)"
+    }
+   ],
+   "slots": {
+    "x": null,
+    "y": null
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Use calculus. If you do not differentiate you get no credit, whatever the graph shows.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q8#(d)",
+       "quote": "If calculus is not used then award no credit for the solution"
+      }
+     ]
+    },
+    {
+     "tip": "State the conclusion. Finding $f'(a)$ and stopping, or drawing the wrong conclusion, loses the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q8#(d)",
+       "quote": "found but no conclusion or incorrect conclusion"
+      }
+     ]
+    },
+    {
+     "tip": "When asked to justify, deal with both the first and second derivative. One sentence for both is fine.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(e)",
+       "quote": "Justification needs to explicitly"
+      }
+     ]
+    },
+    {
+     "tip": "Putting a number into $v'$ or $v''$ is not enough on its own. Say what the sign means.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(e)",
+       "quote": "is not considered work of merit"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Give the reason in words: the slope of the tangent is zero at a turning point.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q4#(c)(i), (ii)",
+       "quote": "The slope of the tangent is equal to zero"
+      }
+     ]
+    },
+    {
+     "tip": "Every item is marked separately. The three points and the reason are four items, so fill in all four.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q4#(c)(i), (ii)",
+       "quote": "Four items involved in solution"
+      }
+     ]
+    },
+    {
+     "tip": "When you draw a tangent on the graph, mark the given point on it. That alone earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q4#(b)(i), (ii)",
+       "quote": "Indicates (4,2) on the diagram"
+      }
+     ]
+    },
+    {
+     "tip": "Any reasonable tangent through the point is accepted, so draw it with a ruler and do not worry about the exact answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q4#(b)(i), (ii)",
+       "quote": "accept any reasonable tangent that contains"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "diff-increasing-interval",
+  "what": {
+   "say": [
+    "You give it a function. It finds the values of $x$ where the function is **increasing** ($f'(x) > 0$) or **decreasing** ($f'(x) < 0$).",
+    "The key idea: turn the question into an inequality in $f'(x)$. If $f'(x)$ is always positive, the function is increasing for every $x$."
+   ],
+   "in": "$f(x)$",
+   "out": "intervals where $f' > 0$ or $f' < 0$"
+  },
+  "how": {
+   "higher": "Higher level has asked it on Paper 1 as a 10-mark part (2022 Q5(b)(ii)): differentiate the cubic, solve the quadratic inequality $f'(x) < 0$ with the formula and give the range."
+  },
+  "example": {
+   "question": "Show that $f(x) = x^3 + 3x^2 + 5x - 4$ is increasing for all $x \\in \\mathbb{R}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Differentiate",
+      "say": "A function is increasing where $f'(x) > 0$. Start by finding $f'(x)$.",
+      "lines": [
+       {
+        "tex": "f(x) &= x^3 + 3x^2 + 5x - 4",
+        "sym": "x**3+3*x**2+5*x-4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{f'(x)} &= 3x^2 + 6x + 5",
+        "sym": "3*x**2+6*x+5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Complete the square",
+      "say": "A quadratic with no real roots does not cross the axis. Complete the square to see its smallest value.",
+      "lines": [
+       {
+        "tex": "3x^2 + 6x + 5 &= 3(x^2 + 2x) + 5",
+        "sym": "3*(x**2+2*x)+5"
+       },
+       {
+        "tex": "&= 3(x + 1)^2 - 3 + 5",
+        "sym": "3*(x+1)**2-3+5"
+       },
+       {
+        "tex": "&= 3(x + 1)^2 + 2",
+        "sym": "3*(x+1)**2+2"
+       }
+      ]
+     },
+     {
+      "title": "Say why it is positive",
+      "say": "A square is never negative, so $3(x + 1)^2 \\ge 0$ for every $x$. Adding $2$ makes the whole thing at least $2$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{f'(x)} &= 3(x + 1)^2 + 2 \\ge 2 > 0",
+        "sym": "3*(x+1)**2+2",
+        "new": true
+       },
+       {
+        "text": "So $f'(x) > 0$ for all $x$, and $f$ is increasing for all $x \\in \\mathbb{R}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f'(x) = 3(x+1)^2 + 2 > 0 \\text{ for all } x"
+   },
+   "finalSym": "0",
+   "answerSym": "Max(0, discriminant(diff(x**3+3*x**2+5*x-4,x),x))"
+  },
+  "graph": {
+   "f": "x**3 + 3*x**2 + 5*x - 4",
+   "box": [
+    -3,
+    26,
+    2,
+    -19
+   ],
+   "points": [
+    {
+     "x": 0,
+     "y": -4,
+     "name": "(0, -4)"
+    }
+   ],
+   "slots": {
+    "x": null,
+    "y": null
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "The answer must come from differentiating. Without $f'(x)$ you get no credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(ii)",
+       "quote": "solution must be based on differentiation in order for any credit"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the quadratic formula with the numbers put in earns its own mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(ii)",
+       "quote": "Fully substituted formula"
+      }
+     ]
+    },
+    {
+     "tip": "The last mark is for stating the range of $x$ itself, not just the roots.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(ii)",
+       "quote": "Finds correct range of values"
+      }
+     ]
+    },
+    {
+     "tip": "Even if you cannot finish, some correct differentiation earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q5#(b)(ii)",
+       "quote": "Some correct differentiation"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

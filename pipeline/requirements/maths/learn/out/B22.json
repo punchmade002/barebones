@@ -1,0 +1,558 @@
+[
+ {
+  "skill": "line-linear-model",
+  "what": {
+   "say": [
+    "You give it a straight-line situation: a table, a graph or an equation. It finds the **slope** (the rate of change) and the start value, then uses them to predict.",
+    "The slope is how much the answer changes for each $1$ step in $x$. The start value is the answer when $x = 0$."
+   ],
+   "in": "table, graph or equation",
+   "out": "slope, start value, prediction"
+  },
+  "how": {
+   "higher": "Higher level asks you to say what a slope means in context, or to write the line from a table, as a part worth 5 marks on either paper (2015, 2017, 2019).",
+   "ordinary": "Ordinary level uses it on Paper 1 in 2022, 2023 and 2025: write the equation from a table or graph, say what the rate means, or solve for the unknown (5 or 10 marks)."
+  },
+  "example": {
+   "question": "A plumber charges a call-out fee plus an hourly rate. The cost, in euro, of a job lasting $x$ hours is $C = 40 + 30x$.\n(i) What do $40$ and $30$ mean?\n(ii) A job costs $190$ euro. How many hours did it last?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read the rate and start",
+      "say": "The number with $x$ is the slope. The number on its own is the start value.",
+      "lines": [
+       {
+        "tex": "C &= \\hl{2}{40} + \\hl{1}{30}x",
+        "sym": "Eq(C, 40+30*x)",
+        "new": true
+       },
+       {
+        "text": "The slope is $\\hl{1}{30}$: the cost goes up $30$ euro for each extra hour."
+       },
+       {
+        "text": "The start value is $\\hl{2}{40}$: the cost at $x = 0$, the call-out fee."
+       }
+      ]
+     },
+     {
+      "title": "Put the cost in",
+      "say": "The job costs $\\hl{4}{190}$ euro. Put that in for $C$.",
+      "lines": [
+       {
+        "tex": "\\hl{4}{190} &= 40 + 30x",
+        "sym": "Eq(190, 40+30*x)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for the hours",
+      "say": "Take away the start value $\\hl{2}{40}$ first. Then divide by the slope $\\hl{1}{30}$.",
+      "lines": [
+       {
+        "tex": "150 &= 30x",
+        "sym": "Eq(150, 30*x)"
+       },
+       {
+        "tex": "x &= \\hl{3}{5}",
+        "sym": "Eq(x, 5)"
+       },
+       {
+        "text": "Check: $40 + 30(5) = 190$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 5 \\text{ hours}"
+   },
+   "finalSym": "5",
+   "answerSym": "solve(Eq(40+30*x, 190), x)"
+  },
+  "graph": {
+   "f": "40+30*x",
+   "box": [
+    0,
+    220,
+    6,
+    0
+   ],
+   "points": [
+    {
+     "x": 0,
+     "y": 40,
+     "name": "start (0, 40)"
+    },
+    {
+     "x": 5,
+     "y": 190,
+     "name": "(5, 190)"
+    }
+   ],
+   "slots": {
+    "x": 3,
+    "y": 4
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "When you explain a slope, say how $y$ changes for each $1$ step in $x$, with the units.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q2#(c)",
+       "quote": "decreases by 0∙15km"
+      },
+      {
+       "part": "maths-pp-2019-higher-p1-q9#(b)(iii)",
+       "quote": "For each 1m rise in the radius of the semi-"
+      }
+     ]
+    },
+    {
+     "tip": "Use the words rate of change when you interpret a slope. The scheme gives credit for them.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q2#(c)",
+       "quote": "Reference to rate of change"
+      },
+      {
+       "part": "maths-pp-2015-higher-p1-q8#(a)(i)",
+       "quote": "Mentions a relevant rate of change."
+      }
+     ]
+    },
+    {
+     "tip": "If you cannot finish the equation, still find the slope. Trying to find it earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q8#(a)(i)",
+       "quote": "Attempt at finding slope"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Use the equation from an earlier part in the later parts. That is credited as work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q7#(e)(i), (ii)",
+       "quote": "relevant use of equation from (i)"
+      }
+     ]
+    },
+    {
+     "tip": "Check what your answer means. If $n = 24.06$ is the number of items needed, the answer is $25$, and $24$ loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q7#(e)(i), (ii)",
+       "quote": "answer to (ii) given"
+      }
+     ]
+    },
+    {
+     "tip": "Say what the slope means in the story, with its units: here, $2\\%$ more every hour.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q7#(b)(iii)",
+       "quote": "increasing at a rate of 2 % every"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the formula and show it. A fully substituted formula earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q7#(b)(iii)",
+       "quote": "Both formulas fully substituted"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-area-triangle",
+  "what": {
+   "say": [
+    "You give it three points, the corners of a triangle. It finds the **area**.",
+    "The key idea: slide one corner to $(0, 0)$. Then the area is $\\tfrac{1}{2}|x_1y_2 - x_2y_1|$, using the other two corners."
+   ],
+   "in": "three points",
+   "out": "area"
+  },
+  "how": {
+   "higher": "Higher level uses it as a part inside a Paper 2 coordinate geometry question: 15 marks in 2023 (Q3), and 5 marks in 2025 (Q7).",
+   "ordinary": "Ordinary level asks for it on Paper 2 almost every year (2015 to 2020, and 2025), as a part of its own worth 5 or 10 marks."
+  },
+  "example": {
+   "question": "Find the area of the triangle with vertices $A(3, 2)$, $B(7, 5)$ and $C(5, 9)$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Move A to the origin",
+      "say": "Slide the whole triangle so that $A$ lands on $(0, 0)$. Take $3$ from every $x$ and $2$ from every $y$.",
+      "lines": [
+       {
+        "tex": "A(3, 2) &\\to (0, 0)"
+       },
+       {
+        "tex": "B(7, 5) &\\to \\hl{1}{(4, 3)}"
+       },
+       {
+        "tex": "C(5, 9) &\\to \\hl{2}{(2, 7)}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "say": "Call the new points $(x_1, y_1) = \\hl{1}{(4, 3)}$ and $(x_2, y_2) = \\hl{2}{(2, 7)}$. Put them into the area formula.",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}\\left|x_1y_2 - x_2y_1\\right|"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2}\\left|(4)(7) - (2)(3)\\right|",
+        "sym": "abs(4*7-2*3)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Work it out",
+      "say": "Do the multiplications first. The bars mean the answer is never negative.",
+      "lines": [
+       {
+        "tex": "&= \\tfrac{1}{2}\\left|28 - 6\\right|",
+        "sym": "abs(28-6)/2"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2}(22)",
+        "sym": "22/2"
+       },
+       {
+        "tex": "&= \\hl{3}{11}",
+        "sym": "11"
+       },
+       {
+        "text": "The area is $11$ square units."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "11 \\text{ square units}"
+   },
+   "finalSym": "11",
+   "answerSym": "abs((3*5+7*9+5*2)-(2*7+5*5+9*3))/2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the translation of one point to $(0, 0)$. It is credited by itself.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q3#(a)",
+       "quote": "Work of merit in translating one point to (0,0)"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q7#(c)(iii)",
+       "quote": "indicates a relevant translation"
+      }
+     ]
+    },
+    {
+     "tip": "Write the area formula with your numbers in it. A correct substitution earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q3#(a)",
+       "quote": "Correct substitution into Area"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q7#(c)(iii)",
+       "quote": "Fully substituted formula"
+      }
+     ]
+    },
+    {
+     "tip": "The translation method is not the only one. Half base times height, or $\\tfrac{1}{2}ab\\sin C$, is also accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q3#(a)",
+       "quote": "Uses any one of the following formulae"
+      }
+     ]
+    },
+    {
+     "tip": "Units are not needed for the marks here, but write them anyway.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q7#(c)(iii)",
+       "quote": "Accept correct answer without unit"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Show the corner you move to $(0, 0)$. Showing the translation earns marks even if you slip later.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q2#(c)",
+       "quote": "Translation of any relevant point"
+      },
+      {
+       "part": "maths-pp-2019-ordinary-p2-q2#(d)",
+       "quote": "Translation of any relevant point"
+      },
+      {
+       "part": "maths-pp-2020-ordinary-p2-q2#(c)",
+       "quote": "Translation of any relevant point"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula fully substituted with the translated points.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q2#(c)",
+       "quote": "Formula fully substituted with translated points"
+      },
+      {
+       "part": "maths-pp-2020-ordinary-p2-q2#(c)",
+       "quote": "Formula fully substituted with translated points"
+      }
+     ]
+    },
+    {
+     "tip": "If you translate wrongly, carry on with the formula. A wrong translation applied correctly still earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q2#(d)",
+       "quote": "An incorrect translation applied"
+      }
+     ]
+    },
+    {
+     "tip": "Write square units after your answer. Leaving them out costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q4#(a)(iii)",
+       "quote": "Apply a * for no units"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-unknown-coefficient",
+  "what": {
+   "say": [
+    "You give it a line with an unknown number in its equation, and a condition such as **parallel** or perpendicular to another line. It finds the unknown.",
+    "The key idea: the condition becomes an equation in the slopes. Parallel lines have equal slopes. Perpendicular lines have slopes that multiply to $-1$."
+   ],
+   "in": "line with $k$ and a condition",
+   "out": "value of $k$"
+  },
+  "how": {},
+  "example": {
+   "question": "The line $kx + 4y = 7$ is parallel to the line $6x - 2y = 5$. Find the value of $k$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Slope of the first line",
+      "say": "Make $y$ the subject. The number in front of $x$ is the slope.",
+      "lines": [
+       {
+        "tex": "4y &= 7 - kx",
+        "sym": "Eq(4*y, 7-k*x)",
+        "new": true
+       },
+       {
+        "tex": "y &= \\tfrac{7}{4} - \\tfrac{k}{4}x",
+        "sym": "Eq(y, 7/4-k*x/4)"
+       },
+       {
+        "tex": "m_1 &= \\hl{1}{-\\tfrac{k}{4}}",
+        "sym": "Eq(m1, -k/4)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Slope of the second line",
+      "say": "Do the same for $6x - 2y = 5$.",
+      "lines": [
+       {
+        "tex": "-2y &= 5 - 6x",
+        "sym": "Eq(-2*y, 5-6*x)",
+        "new": true
+       },
+       {
+        "tex": "y &= 3x - \\tfrac{5}{2}",
+        "sym": "Eq(y, 3*x-5/2)"
+       },
+       {
+        "tex": "m_2 &= \\hl{2}{3}",
+        "sym": "Eq(m2, 3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Make the slopes equal",
+      "say": "Parallel lines have the same slope. Set $\\hl{1}{-\\tfrac{k}{4}} = \\hl{2}{3}$ and solve for $k$.",
+      "lines": [
+       {
+        "tex": "-\\tfrac{k}{4} &= 3",
+        "sym": "Eq(-k/4, 3)",
+        "new": true
+       },
+       {
+        "tex": "k &= \\hl{3}{-12}",
+        "sym": "Eq(k, -12)"
+       },
+       {
+        "text": "Check: with $k = -12$ the first slope is $-\\tfrac{-12}{4} = 3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = -12"
+   },
+   "finalSym": "-12",
+   "answerSym": "solve(Eq(k*(-2), 6*4), k)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "line-divide-ratio",
+  "what": {
+   "say": [
+    "You give it two points, $A$ and $B$, and a ratio $m : n$. It finds the point $P$ on the segment $[AB]$ that splits it in that **ratio**.",
+    "The key idea: the segment is $m + n$ equal parts, and $P$ is $m$ parts from $A$. Each coordinate is a weighted average of the two ends."
+   ],
+   "in": "$A$, $B$ and $m : n$",
+   "out": "the point $P$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a 5 or 10 mark part inside a Paper 2 coordinate geometry question (2015, 2017, 2021, 2022, 2024). A translation method is accepted as well as the formula."
+  },
+  "example": {
+   "question": "The points are $A(-3, 4)$ and $B(7, -1)$. The point $P$ lies on $[AB]$ so that $|AP| : |PB| = 2 : 3$. Find the coordinates of $P$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Match the numbers",
+      "say": "Here $m : n = 2 : 3$, $(x_1, y_1) = (-3, 4)$ and $(x_2, y_2) = (7, -1)$. The formula is $\\left(\\dfrac{nx_1 + mx_2}{m + n},\\ \\dfrac{ny_1 + my_2}{m + n}\\right)$.",
+      "lines": [
+       {
+        "text": "$P$ is closer to $A$, because its part of the ratio is the smaller one."
+       }
+      ]
+     },
+     {
+      "title": "Find the x-coordinate",
+      "say": "Put the $x$ values and the ratio into the formula.",
+      "lines": [
+       {
+        "tex": "x &= \\dfrac{3(-3) + 2(7)}{2 + 3}",
+        "sym": "(3*(-3)+2*7)/(2+3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{5}{5}",
+        "sym": "5/5"
+       },
+       {
+        "tex": "&= \\hl{1}{1}",
+        "sym": "1"
+       }
+      ]
+     },
+     {
+      "title": "Find the y-coordinate",
+      "say": "Do the same with the $y$ values.",
+      "lines": [
+       {
+        "tex": "y &= \\dfrac{3(4) + 2(-1)}{2 + 3}",
+        "sym": "(3*4+2*(-1))/(2+3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{10}{5}",
+        "sym": "10/5"
+       },
+       {
+        "tex": "&= \\hl{2}{2}",
+        "sym": "2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "P = (1, 2)"
+   },
+   "finalSym": "Tuple(1, 2)",
+   "answerSym": "Tuple((3*(-3)+2*7)/5, (3*4+2*(-1))/5)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "You can skip the formula. Find the step from $A$ towards the first part, then multiply it up. This is credited.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q6#(a)",
+       "quote": "Identifies trebling/quadrupling of initial translation"
+      }
+     ]
+    },
+    {
+     "tip": "Write down which numbers are $x_1$, $y_1$, $x_2$, $y_2$, $m$ and $n$. Naming them earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q2#(a)",
+       "quote": "Value from formula explicitly identified"
+      }
+     ]
+    },
+    {
+     "tip": "Start the formula and put your numbers in, even if you cannot finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q3#(a)",
+       "quote": "Ratio formula with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Give the answer as a point, $(x, y)$. Two separate values lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q2#(a)",
+       "quote": "but not given as co-ordinates of a point"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
