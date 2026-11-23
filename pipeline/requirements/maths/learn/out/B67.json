@@ -1,0 +1,582 @@
+[
+ {
+  "skill": "prob-equally-likely",
+  "what": {
+   "say": [
+    "You give it a sample space and an event. It finds the **probability**: how likely the event is, as a fraction between $0$ and $1$.",
+    "The key idea: when every outcome is equally likely, the probability is the number of favourable outcomes over the number of all outcomes."
+   ],
+   "in": "sample space and event",
+   "out": "$\\frac{\\text{favourable}}{\\text{total}}$"
+  },
+  "how": {
+   "higher": "It is a small part or a step inside Paper 2 questions in most years, such as counting pairs or reading a table of outcomes, and the main skill in only 3 parts.",
+   "ordinary": "It is on Paper 2 almost every year, often at the start of Question 1, as 5 or 10 mark parts where you list the outcomes and write favourable over total."
+  },
+  "example": {
+   "question": "Two fair dice are thrown and the scores are added. Find the probability that the sum is $9$ or more.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count all outcomes",
+      "say": "Each die has $6$ faces and any face can go with any face. Multiply to get the total number of outcomes.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{n(S)} &= 6 \\times 6",
+        "sym": "6*6",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{36}",
+        "sym": "36"
+       }
+      ]
+     },
+     {
+      "title": "Count the favourable outcomes",
+      "say": "List the pairs that give a sum of $9$ or more. Count how many pairs give each sum.",
+      "lines": [
+       {
+        "text": "Sum $9$: $(3,6), (4,5), (5,4), (6,3)$. That is $4$ pairs."
+       },
+       {
+        "tex": "\\hl{1}{n(E)} &= 4 + 3 + 2 + 1",
+        "sym": "4+3+2+1",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{10}",
+        "sym": "10"
+       },
+       {
+        "text": "Sums $10$, $11$ and $12$ give $3$, $2$ and $1$ pairs."
+       }
+      ]
+     },
+     {
+      "title": "Write favourable over total",
+      "say": "Divide the $\\hl{1}{10}$ favourable outcomes by the $\\hl{2}{36}$ possible outcomes. Cancel to simplest form.",
+      "lines": [
+       {
+        "tex": "P(E) &= \\frac{\\hl{1}{10}}{\\hl{2}{36}}",
+        "sym": "Rational(10,36)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{5}{18}",
+        "sym": "Rational(5,18)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "P(\\text{sum} \\geq 9) = \\frac{5}{18}"
+   },
+   "finalSym": "Rational(5,18)",
+   "answerSym": "Rational(4+3+2+1, 6**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Count the same way in every part. If you treat pairs as ordered in one part and unordered in the other, you lose marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q6#(c)(i), (ii)",
+       "quote": "treated as ordered in one part and unordered in the other"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. Wrong or no rounding costs a mark even when the method is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q1#(a)",
+       "quote": "Incorrect rounding or no rounding"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work can still earn full credit, but write the working anyway so a slip does not leave you with nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q6#(c)(i), (ii)",
+       "quote": "Accept for full credit correct answers without work"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "A probability is never more than $1$. An answer above $1$ with no work earns zero.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q1#(b)",
+       "quote": "Probability > 1, without work"
+      }
+     ]
+    },
+    {
+     "tip": "List the outcomes, in a table or a list. Marks are given for the listing, even before you divide.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+       "quote": "All 8 outcomes listed"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(c)(iii)",
+       "quote": "15 elements correct in table"
+      }
+     ]
+    },
+    {
+     "tip": "Pick out the favourable outcomes first. Naming them earns credit even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q1#(a)(ii)",
+       "quote": "Prime Number identified"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-factorial",
+  "what": {
+   "say": [
+    "You give it $n$ different objects to put in a row. It finds the number of **arrangements**: $n!$.",
+    "The key idea: the first place has $n$ choices, the next has one fewer, and so on down to $1$. Multiply them."
+   ],
+   "in": "$n$",
+   "out": "$n!$"
+  },
+  "how": {
+   "higher": "It is a step inside counting questions on Paper 2, such as codes with no repeated digit or arrangements of people, and the main skill in 2 parts.",
+   "ordinary": "It is a 5 to 10 mark part on Paper 2 in 2018 and 2022 to 2025, usually arranging letters, people or routes, sometimes with one item fixed."
+  },
+  "example": {
+   "question": "A coach lines up $6$ players for a photograph. In how many different ways can this be done if the captain must stand first?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Fix the captain",
+      "say": "The captain has only one place, so there is $1$ choice for the first spot. That leaves $5$ players for $5$ places.",
+      "lines": [
+       {
+        "text": "First place: $1$ choice. Remaining places: $5$ players to arrange."
+       }
+      ]
+     },
+     {
+      "title": "Fill the other places",
+      "say": "The next place has $\\hl{1}{5}$ choices, then one fewer each time. Multiply the choices.",
+      "lines": [
+       {
+        "tex": "\\text{ways} &= 1 \\times \\hl{1}{5} \\times 4 \\times 3 \\times 2 \\times 1",
+        "sym": "1*5*4*3*2*1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write as a factorial",
+      "say": "A product that counts down to $1$ is a factorial. Work it out.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{5!}",
+        "sym": "factorial(5)"
+       },
+       {
+        "tex": "&= 120",
+        "sym": "120"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "120"
+   },
+   "finalSym": "120",
+   "answerSym": "factorial(6-1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Each place has one fewer choice, because nothing repeats. Using $9 \\times 9 \\times 9 \\times 9$ for a code with no repeated digits loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q10#(b)(iii)",
+       "quote": "9 × 9 × 9 × 9 evaluated"
+      }
+     ]
+    },
+    {
+     "tip": "Listing some correct arrangements earns partial credit. Start listing if you are stuck.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q10#(b)(iii)",
+       "quote": "lists some correct codes"
+      }
+     ]
+    },
+    {
+     "tip": "Writing out a factorial in full, such as $(n+3)(n+2)(n+1)\\ldots$, earns marks before you simplify.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q3#(b)",
+       "quote": "Factorial expansion"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the multiplication even if you cannot finish it. Listing the terms without multiplying them still earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(i)",
+       "quote": "All terms listed but not multiplied"
+      }
+     ]
+    },
+    {
+     "tip": "Show the multiplication clearly. A correct list with the multiplication indicated earns credit when the answer is not worked out.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q3#(a)(i), (ii)",
+       "quote": "multiplication clearly indicated"
+      }
+     ]
+    },
+    {
+     "tip": "Starting to multiply two relevant numbers earns work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q7#(d)",
+       "quote": "indicates multiplication of two relevant numbers"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-venn",
+  "what": {
+   "say": [
+    "You give it counts for two events in a group. It reads the **Venn diagram** and finds probabilities such as $P(A \\cup B)$, $P(A \\cap B)$ and $P(A')$.",
+    "The key idea: put the overlap in first and subtract it from each circle, so every person is counted once."
+   ],
+   "in": "event data",
+   "out": "$P(A \\cup B)$, $P(A \\cap B)$, $P(A')$"
+  },
+  "how": {
+   "higher": "It appears as a part of Paper 2 probability questions in 2016, 2019, 2022 and 2025, often leading to a test for independence, and is the main skill in 3 parts.",
+   "ordinary": "It is on Paper 2 in most years from 2016 to 2024, for 5 or 10 marks, as a Venn diagram, a table or a tree to fill in and then read a probability from."
+  },
+  "example": {
+   "question": "In a class of $40$ students, $18$ take drama and $14$ take choir. $6$ students take both. A student is picked at random. Find the probability that the student takes neither drama nor choir.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Start with the overlap",
+      "say": "Write $\\hl{1}{6}$ in the part where the circles overlap. Subtract it from each circle to get the parts with one subject only.",
+      "lines": [
+       {
+        "tex": "\\text{drama only} &= 18 - \\hl{1}{6}",
+        "sym": "18-6",
+        "new": true
+       },
+       {
+        "tex": "&= 12",
+        "sym": "12"
+       },
+       {
+        "tex": "\\text{choir only} &= 14 - \\hl{1}{6}",
+        "sym": "14-6",
+        "new": true
+       },
+       {
+        "tex": "&= 8",
+        "sym": "8"
+       }
+      ]
+     },
+     {
+      "title": "Add the circles",
+      "say": "Add the three parts inside the circles. This is everyone who takes at least one subject.",
+      "lines": [
+       {
+        "tex": "n(D \\cup C) &= 12 + \\hl{1}{6} + 8",
+        "sym": "12+6+8",
+        "new": true
+       },
+       {
+        "tex": "&= 26",
+        "sym": "26"
+       }
+      ]
+     },
+     {
+      "title": "Find those outside",
+      "say": "Everyone not in a circle takes neither. Subtract from the total of $40$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{n(\\text{neither})} &= 40 - 26",
+        "sym": "40-26",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{14}",
+        "sym": "14"
+       }
+      ]
+     },
+     {
+      "title": "Write the probability",
+      "say": "Put the $\\hl{2}{14}$ students over the $40$ in the class and cancel.",
+      "lines": [
+       {
+        "tex": "P(\\text{neither}) &= \\frac{\\hl{2}{14}}{40}",
+        "sym": "Rational(14,40)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{7}{20}",
+        "sym": "Rational(7,20)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{7}{20}"
+   },
+   "finalSym": "Rational(7,20)",
+   "answerSym": "Rational(40-(18+14-6), 40)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To find $P(A)$, add every number inside circle $A$, including the overlap, and nothing from outside it.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q3#(a)(i)",
+       "quote": "but with no irrelevant numbers added"
+      }
+     ]
+    },
+    {
+     "tip": "When checking the addition rule, work out each piece: $P(A \\cup C)$, $P(C)$, $P(A \\cap C)$. Then substitute. Each correct step earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q3#(a)(i)",
+       "quote": "Consider solution as requiring 4 steps"
+      }
+     ]
+    },
+    {
+     "tip": "Correct table entries earn credit even without working, and each correct value earns marks when the table is incomplete.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(a)(i)",
+       "quote": "Accept correct answers without supporting work"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "A correct filled-in Venn diagram earns full credit without working, and one correct entry already earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q1#(a)(i)",
+       "quote": "Correctly filled in diagram without work"
+      },
+      {
+       "part": "maths-pp-2016-ordinary-p2-q1#(a)(i)",
+       "quote": "One correct/consistent entry"
+      }
+     ]
+    },
+    {
+     "tip": "Show the calculation for the overlap, such as adding two circles and subtracting the total. Relevant working earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q9#(b)(i)",
+       "quote": "Work of merit, for example, some relevant calculation"
+      }
+     ]
+    },
+    {
+     "tip": "Use your own earlier values. You are marked on consistent work, even when an earlier entry was wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q7#(b)",
+       "quote": "Watch out for consistent work here"
+      }
+     ]
+    },
+    {
+     "tip": "A probability above $1$ with no work earns zero.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q1#(b)",
+       "quote": "Probability > 1, without work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-independent",
+  "what": {
+   "say": [
+    "You give it $P(A)$ and $P(B)$ for two **independent** events. It finds the probability that both happen: $P(A) \\times P(B)$.",
+    "The key idea: independent means one event does not change the other, so you can multiply."
+   ],
+   "in": "$P(A)$, $P(B)$",
+   "out": "$P(A) \\times P(B)$"
+  },
+  "how": {
+   "higher": "It is a step inside many Paper 2 probability questions, from 2015 to 2023, as repeated trials, bags of coins or tests for independence, and the main skill in 8 parts.",
+   "ordinary": "It is a 5 to 15 mark part on Paper 2 in most years from 2017 to 2025, usually multiplying probabilities for repeated tries such as three matches or a spinner, and the main skill in 8 parts."
+  },
+  "example": {
+   "question": "A fair coin is tossed and a fair six-sided die is rolled. Find the probability of getting a head and a number greater than $4$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check they are independent",
+      "say": "The coin does not affect the die. The events are independent, so you can multiply their probabilities.",
+      "lines": [
+       {
+        "text": "$P(A \\text{ and } B) = P(A) \\times P(B)$ for independent events."
+       }
+      ]
+     },
+     {
+      "title": "Find each probability",
+      "say": "A head is one of two outcomes. Greater than $4$ means a $5$ or a $6$, two of six outcomes.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(H)} &= \\frac{1}{2}",
+        "sym": "Rational(1,2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{P(>4)} &= \\frac{2}{6}",
+        "sym": "Rational(2,6)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{3}",
+        "sym": "Rational(1,3)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply",
+      "say": "Multiply $\\hl{1}{P(H)}$ by $\\hl{2}{P(>4)}$.",
+      "lines": [
+       {
+        "tex": "P(H \\text{ and } >4) &= \\hl{1}{\\frac{1}{2}} \\times \\hl{2}{\\frac{1}{3}}",
+        "sym": "Rational(1,2)*Rational(1,3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{6}",
+        "sym": "Rational(1,6)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{1}{6}"
+   },
+   "finalSym": "Rational(1,6)",
+   "answerSym": "Rational(1,2)*Rational(2,6)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Round as asked. Incorrect or no rounding costs a mark on an otherwise correct answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q1#(a)",
+       "quote": "Incorrect rounding or no rounding"
+      }
+     ]
+    },
+    {
+     "tip": "Write one correct probability and the multiplication. Even one correct probability earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q1#(b)",
+       "quote": "one correct probability"
+      }
+     ]
+    },
+    {
+     "tip": "The order of the fractions in a product does not matter. Write the full product of correct fractions for high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q1#(a)",
+       "quote": "in any order"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the layout with full substitution, such as $0.7^3$ or $(0.7)(0.7)(0.7)$. It earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q4#(a)(i)",
+       "quote": "Correct layout with full substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Multiplying two relevant probabilities earns work of merit, even when you cannot finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q5#(b)(i), (ii)",
+       "quote": "relevant probabilities multiplied"
+      }
+     ]
+    },
+    {
+     "tip": "If you cannot work out the product, write it down. A correct answer indicated but not calculated still earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q3#(b)",
+       "quote": "Correct answer indicated but not calculated"
+      }
+     ]
+    },
+    {
+     "tip": "Apply any rounding the question asks for, or you lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q7#(b)(i), (ii)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

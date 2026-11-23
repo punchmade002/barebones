@@ -213,7 +213,7 @@
     "finalAnswer": "x = 1"
    },
    "finalSym": "[1]",
-   "answerSym": "solve(Eq(3**(2*x) + 6*3**x - 27, 0), x)"
+   "answerSym": "solveset(Eq(3**(2*x) + 6*3**x - 27, 0), x, Reals)"
   },
   "graph": null,
   "diagram": null,
@@ -343,7 +343,7 @@
     "finalAnswer": "\\text{True for all } n \\in \\mathbb{N}"
    },
    "finalSym": "0",
-   "answerSym": "simplify(summation(5*3**(i - 1), (i, 1, n)) - 5*(3**n - 1)/2)"
+   "answerSym": "simplify(summation(5*3**(j - 1), (j, 1, n)) - 5*(3**n - 1)/2)"
   },
   "graph": null,
   "diagram": null,
