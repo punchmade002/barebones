@@ -100,13 +100,13 @@ assert unmark('\\hl{2}{x} &= \\frac{\\hl{3}{-17}}{\\hl{2}{5}}') == 'x &= \\frac{
 assert unmark('$\\hl{4}{f\'\'(1) = 6 > 0}$, so min') == "$f''(1) = 6 > 0$, so min"
 
 
-def pack(prefix='L'):
+def pack(prefix='L', only=()):
     """prefix N packs only skills with no lesson yet (new ones from practice-bank.json), into their own
     in/NNN.json files, so the existing L batches and their outputs are never renumbered or overwritten."""
     parts, skills = bank_parts(), ready()
     if prefix == 'N':
         done = outputs()
-        skills = {s: v for s, v in skills.items() if s not in done}
+        skills = {s: v for s, v in skills.items() if (s in only if only else s not in done)}   # only: redo these
     (WORK / 'in').mkdir(parents=True, exist_ok=True)
     (WORK / 'out').mkdir(exist_ok=True)
     jobs = []
@@ -400,5 +400,5 @@ def fix():
 
 
 if __name__ == '__main__':
-    {'pack': lambda: pack(*sys.argv[2:3]), 'check': check, 'assemble': assemble, 'fix': fix,
+    {'pack': lambda: pack(*sys.argv[2:3], only=sys.argv[3:]), 'check': check, 'assemble': assemble, 'fix': fix,
      'review': review_pack, 'report': lambda: print(json.dumps(review_report(), indent=1))}[sys.argv[1]]()

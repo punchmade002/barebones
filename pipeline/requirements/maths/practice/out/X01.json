@@ -342,7 +342,7 @@
      "finalAnswer": "y = \\frac{1}{2}x - 5 \\text{ and } y = -\\frac{1}{2}x + 5"
     },
     "finalSym": "[Eq(y, x/2 - 5), Eq(y, -x/2 + 5)]",
-    "answerSym": "[Eq(y, solve(Eq(Abs(-10*m)/sqrt(m**2+1), sqrt(20)), m)[1]*(x-10)), Eq(y, solve(Eq(Abs(-10*m)/sqrt(m**2+1), sqrt(20)), m)[0]*(x-10))]"
+    "answerSym": "[Eq(y, solve(Eq((-10*m)**2/(m**2+1), 20), m)[1]*(x-10)), Eq(y, solve(Eq((-10*m)**2/(m**2+1), 20), m)[0]*(x-10))]"
    }
   ]
  },
@@ -509,7 +509,7 @@
      "finalAnswer": "m = \\frac34 \\text{ or } m = \\frac43"
     },
     "finalSym": "[Rational(3,4), Rational(4,3)]",
-    "answerSym": "solve(Eq(Abs(6*m-3-m-2)/sqrt(m**2+1), 1), m)"
+    "answerSym": "solve(Eq((6*m-3-m-2)**2/(m**2+1), 1), m)"
    }
   ]
  }

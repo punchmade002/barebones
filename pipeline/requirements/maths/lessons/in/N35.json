@@ -1,0 +1,990 @@
+[
+ {
+  "skill": {
+   "id": "cx-quadratic",
+   "title": "Solve a quadratic with complex roots",
+   "level": "HL",
+   "input": "quadratic with b² − 4ac < 0",
+   "output": "conjugate pair of roots"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the sum of the roots",
+      "lines": [
+       {
+        "text": "For $z^2 + bz + c = 0$ the roots add up to $-b$. Here $b = -2 + i$."
+       },
+       {
+        "tex": "(1+i) + z_1 &= -(-2 + i)"
+       },
+       {
+        "tex": "&= 2 - i"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the other root",
+      "lines": [
+       {
+        "tex": "z_1 &= 2 - i - (1 + i)"
+       },
+       {
+        "tex": "&= 2 - i - 1 - i"
+       },
+       {
+        "tex": "&= 1 - 2i"
+       }
+      ]
+     }
+    ],
+    "final": "1 - 2i"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q2#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify a, b and c",
+      "lines": [
+       {
+        "tex": "z^2 + 12z + 261 &= 0"
+       },
+       {
+        "text": "Here $a = 1$, $b = 12$, $c = 261$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic formula",
+      "lines": [
+       {
+        "tex": "z &= \\frac{-12 \\pm \\sqrt{12^2 - 4(1)(261)}}{2(1)}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify under the square root",
+      "lines": [
+       {
+        "tex": "z &= \\frac{-12 \\pm \\sqrt{144 - 1044}}{2}"
+       },
+       {
+        "tex": "z &= \\frac{-12 \\pm \\sqrt{-900}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Write the root using i",
+      "lines": [
+       {
+        "text": "$\\sqrt{-900} = \\sqrt{900} \\times \\sqrt{-1} = 30i$."
+       },
+       {
+        "tex": "z &= \\frac{-12 \\pm 30i}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term by 2",
+      "lines": [
+       {
+        "tex": "z &= -6 \\pm 15i"
+       },
+       {
+        "tex": "z &= -6 + 15i \\text{ or } z = -6 - 15i"
+       }
+      ]
+     }
+    ],
+    "final": "-6 + 15i \\text{ and } -6 - 15i"
+   },
+   {
+    "part": "practice-cx-quadratic-1",
+    "level": "higher",
+    "year": null,
+    "question": "Solve $4z^2 - 8z + 13 = 0$, where $z \\in \\mathbb{C}$.\nGive your answers in the form $a + bi$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Identify a, b and c",
+      "lines": [
+       {
+        "tex": "4z^2 - 8z + 13 &= 0"
+       },
+       {
+        "text": "Here $a = 4$, $b = -8$, $c = 13$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "z &= \\frac{8 \\pm \\sqrt{(-8)^2 - 4(4)(13)}}{2(4)}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify under the square root",
+      "lines": [
+       {
+        "tex": "z &= \\frac{8 \\pm \\sqrt{64 - 208}}{8}"
+       },
+       {
+        "tex": "&= \\frac{8 \\pm \\sqrt{-144}}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Write the root using i",
+      "lines": [
+       {
+        "text": "$\\sqrt{-144} = 12i$."
+       },
+       {
+        "tex": "z &= \\frac{8 \\pm 12i}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term by 8",
+      "lines": [
+       {
+        "tex": "z &= 1 \\pm \\frac{3}{2}i"
+       },
+       {
+        "text": "The roots are a conjugate pair."
+       }
+      ]
+     }
+    ],
+    "final": "z = 1 + \\tfrac{3}{2}i \\text{ and } z = 1 - \\tfrac{3}{2}i"
+   },
+   {
+    "part": "practice-cx-quadratic-2",
+    "level": "higher",
+    "year": null,
+    "question": "Solve the equation $z(z + 6) = -34$, where $z \\in \\mathbb{C}$.\nGive your answers in the form $a + bi$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write in the form $az^2 + bz + c = 0$",
+      "lines": [
+       {
+        "tex": "z(z+6) &= -34"
+       },
+       {
+        "tex": "z^2 + 6z + 34 &= 0"
+       },
+       {
+        "text": "Here $a = 1$, $b = 6$, $c = 34$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic formula",
+      "lines": [
+       {
+        "tex": "z &= \\frac{-6 \\pm \\sqrt{6^2 - 4(1)(34)}}{2(1)}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify under the square root",
+      "lines": [
+       {
+        "tex": "z &= \\frac{-6 \\pm \\sqrt{36 - 136}}{2}"
+       },
+       {
+        "tex": "&= \\frac{-6 \\pm \\sqrt{-100}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Write the root using i",
+      "lines": [
+       {
+        "text": "$\\sqrt{-100} = \\sqrt{100} \\times \\sqrt{-1} = 10i$."
+       },
+       {
+        "tex": "z &= \\frac{-6 \\pm 10i}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term by 2",
+      "lines": [
+       {
+        "tex": "z &= -3 \\pm 5i"
+       },
+       {
+        "text": "The roots are a conjugate pair."
+       }
+      ]
+     }
+    ],
+    "final": "z = -3 + 5i \\text{ and } z = -3 - 5i"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ind-negative-fractional",
+   "title": "Evaluate negative and fractional indices",
+   "level": "OL",
+   "input": "a^(−p/q)",
+   "output": "value or root form"
+  },
+  "candidates": [
+   {
+    "part": "practice-ind-negative-fractional-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Evaluate $\\left(\\frac{4}{9}\\right)^{-\\frac{3}{2}}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Flip the fraction",
+      "lines": [
+       {
+        "text": "A negative index flips the fraction."
+       },
+       {
+        "tex": "\\left(\\frac{4}{9}\\right)^{-\\frac{3}{2}} &= \\left(\\frac{9}{4}\\right)^{\\frac{3}{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Split into a root and a power",
+      "lines": [
+       {
+        "text": "An index of $\\frac{3}{2}$ means square root, then cube."
+       },
+       {
+        "tex": "\\left(\\frac{9}{4}\\right)^{\\frac{3}{2}} &= \\left(\\sqrt{\\frac{9}{4}}\\right)^3"
+       },
+       {
+        "tex": "&= \\left(\\frac{3}{2}\\right)^3"
+       }
+      ]
+     },
+     {
+      "title": "Cube the fraction",
+      "lines": [
+       {
+        "tex": "\\left(\\frac{3}{2}\\right)^3 &= \\frac{27}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{27}{8}"
+   },
+   {
+    "part": "practice-ind-negative-fractional-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Evaluate $4^{-\\frac{3}{2}} \\times 27^{\\frac{2}{3}}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Evaluate $4^{-\frac{3}{2}}$",
+      "lines": [
+       {
+        "text": "Remove the negative index, then take the square root and cube."
+       },
+       {
+        "tex": "4^{-\\frac{3}{2}} &= \\frac{1}{4^{\\frac{3}{2}}}"
+       },
+       {
+        "tex": "4^{\\frac{3}{2}} &= \\left(\\sqrt{4}\\right)^3"
+       },
+       {
+        "tex": "&= 2^3 = 8"
+       },
+       {
+        "tex": "4^{-\\frac{3}{2}} &= \\frac{1}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate $27^{\frac{2}{3}}$",
+      "lines": [
+       {
+        "text": "The denominator is the root and the numerator is the power."
+       },
+       {
+        "tex": "27^{\\frac{2}{3}} &= \\left(\\sqrt[3]{27}\\right)^2"
+       },
+       {
+        "tex": "&= 3^2"
+       },
+       {
+        "tex": "&= 9"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the two values",
+      "lines": [
+       {
+        "tex": "4^{-\\frac{3}{2}} \\times 27^{\\frac{2}{3}} &= \\frac{1}{8} \\times 9"
+       },
+       {
+        "tex": "&= \\frac{9}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{9}{8}"
+   },
+   {
+    "part": "practice-ind-negative-fractional-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Evaluate $16^{-\\frac{3}{4}}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Remove the negative index",
+      "lines": [
+       {
+        "text": "Use $a^{-n} = \\dfrac{1}{a^n}$."
+       },
+       {
+        "tex": "16^{-\\frac{3}{4}} &= \\frac{1}{16^{\\frac{3}{4}}}"
+       }
+      ]
+     },
+     {
+      "title": "Take the fourth root of 16",
+      "lines": [
+       {
+        "text": "The denominator of the index is the root: $a^{\\frac{1}{4}} = \\sqrt[4]{a}$."
+       },
+       {
+        "tex": "16^{\\frac{1}{4}} &= 2"
+       }
+      ]
+     },
+     {
+      "title": "Cube the result",
+      "lines": [
+       {
+        "text": "The numerator of the index is the power."
+       },
+       {
+        "tex": "16^{\\frac{3}{4}} &= \\left(16^{\\frac{1}{4}}\\right)^3"
+       },
+       {
+        "tex": "&= 2^3"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     },
+     {
+      "title": "Write the answer",
+      "lines": [
+       {
+        "tex": "16^{-\\frac{3}{4}} &= \\frac{1}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{8}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q9#(a)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 2.5",
+      "lines": [
+       {
+        "tex": "\\text{Amount} &= 15(0.6)^{2.5}"
+       },
+       {
+        "tex": "&= 4.1828\\ldots"
+       },
+       {
+        "tex": "&\\approx 4.18"
+       }
+      ]
+     }
+    ],
+    "final": "4.18 \\text{ mg}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-data-types",
+   "title": "Classify data",
+   "level": "OL",
+   "input": "variable description",
+   "output": "categorical (nominal/ordinal) or numerical (discrete/continuous); univariate/bivariate"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Decide the type of data",
+      "lines": [
+       {
+        "text": "Tick Numerical Continuous."
+       },
+       {
+        "text": "Height is a number that is measured, and it can take any value in a range, such as 164.37 cm, so it is continuous."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Numerical Continuous}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(a)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Subtract the valid votes from the total votes",
+      "lines": [
+       {
+        "text": "Total votes = valid votes + invalid or blank votes."
+       },
+       {
+        "tex": "33\\,577\\,342 - 33\\,551\\,983 &= 25\\,359"
+       }
+      ]
+     },
+     {
+      "title": "Fill in the table",
+      "lines": [
+       {
+        "text": "Write $25\\,359$ in the \"Invalid or blank votes\" row of Table 1."
+       }
+      ]
+     }
+    ],
+    "final": "25\\,359"
+   },
+   {
+    "part": "practice-stat-data-types-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A class records five variables: the time to run 100 m, the number of goals scored in a match, the mass of a parcel, eye colour, and shoe size.\nHow many of these variables are numerical continuous?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Recall what continuous means",
+      "lines": [
+       {
+        "text": "Numerical continuous data is measured and can take any value in a range."
+       }
+      ]
+     },
+     {
+      "title": "Classify each variable",
+      "lines": [
+       {
+        "text": "Time to run 100 m: continuous. Mass of a parcel: continuous."
+       },
+       {
+        "text": "Number of goals and shoe size: numerical discrete. Eye colour: categorical."
+       }
+      ]
+     },
+     {
+      "title": "Count the continuous ones",
+      "lines": [
+       {
+        "tex": "\\text{Count} &= 1 + 1 &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   },
+   {
+    "part": "practice-stat-data-types-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A café records four variables for each customer.\nSize of coffee ordered (small, medium, large)\nNumber of sugars added\nTime taken to serve the customer\nType of milk (dairy, oat, soy)\nHow many of these variables are categorical?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Recall what categorical means",
+      "lines": [
+       {
+        "text": "Categorical data is sorted into groups, not counted or measured. It is ordinal if the groups have a natural order and nominal if they do not."
+       }
+      ]
+     },
+     {
+      "title": "Classify each variable",
+      "lines": [
+       {
+        "text": "Size of coffee: categorical ordinal (small, medium, large have an order)."
+       },
+       {
+        "text": "Type of milk: categorical nominal (no order)."
+       },
+       {
+        "text": "Number of sugars: numerical discrete. Time taken: numerical continuous."
+       }
+      ]
+     },
+     {
+      "title": "Count the categorical ones",
+      "lines": [
+       {
+        "tex": "\\text{Count} &= 1 + 1"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-exact-values",
+   "title": "Use trig ratios in surd form",
+   "level": "OL",
+   "input": "30°, 45°, 60° and related angles",
+   "output": "exact value"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-exact-values-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the exact value of $\\sin 60^\\circ \\cos 30^\\circ + \\cos 60^\\circ \\sin 30^\\circ$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each ratio as a surd or fraction",
+      "lines": [
+       {
+        "tex": "\\sin 60^\\circ\\cos 30^\\circ + \\cos 60^\\circ\\sin 30^\\circ &= \\frac{\\sqrt{3}}{2}\\times\\frac{\\sqrt{3}}{2} + \\frac{1}{2}\\times\\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply",
+      "lines": [
+       {
+        "tex": "&= \\frac{3}{4} + \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Add",
+      "lines": [
+       {
+        "tex": "&= 1"
+       }
+      ]
+     }
+    ],
+    "final": "1"
+   },
+   {
+    "part": "practice-trig-exact-values-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the exact value of $\\cos 210^\\circ$.\nGive your answer in surd form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the reference angle",
+      "lines": [
+       {
+        "text": "$210^\\circ$ is in the third quadrant."
+       },
+       {
+        "tex": "\\text{reference angle} &= 210^\\circ - 180^\\circ"
+       },
+       {
+        "tex": "&= 30^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Fix the sign",
+      "lines": [
+       {
+        "text": "Cosine is negative in the third quadrant."
+       },
+       {
+        "tex": "\\cos 210^\\circ &= -\\cos 30^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the exact value",
+      "lines": [
+       {
+        "tex": "&= -\\frac{\\sqrt{3}}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "-\\frac{\\sqrt{3}}{2}"
+   },
+   {
+    "part": "practice-trig-exact-values-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\tan 300^\\circ$ as an exact value in surd form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the reference angle",
+      "lines": [
+       {
+        "text": "$300^\\circ$ is in the fourth quadrant."
+       },
+       {
+        "tex": "\\text{reference angle} &= 360^\\circ - 300^\\circ"
+       },
+       {
+        "tex": "&= 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Fix the sign",
+      "lines": [
+       {
+        "text": "Tangent is negative in the fourth quadrant."
+       },
+       {
+        "tex": "\\tan 300^\\circ &= -\\tan 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the exact value",
+      "lines": [
+       {
+        "text": "$\\tan 60^\\circ = \\dfrac{\\sqrt{3}}{1}$."
+       },
+       {
+        "tex": "&= -\\sqrt{3}"
+       }
+      ]
+     }
+    ],
+    "final": "-\\sqrt{3}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q10#(b)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find I(5)",
+      "lines": [
+       {
+        "tex": "I(5) &= 1.5 + \\sin\\frac{5\\pi}{5}"
+       },
+       {
+        "tex": "&= 1.5 + \\sin\\pi"
+       },
+       {
+        "tex": "&= 1.5"
+       }
+      ]
+     },
+     {
+      "title": "Find I(6)",
+      "lines": [
+       {
+        "tex": "I(6) &= 1.5 + \\sin\\frac{6\\pi}{5}"
+       },
+       {
+        "tex": "&= 0.9122\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Compare and explain",
+      "lines": [
+       {
+        "tex": "0.9122 &< 1.5"
+       },
+       {
+        "text": "So $I(6) < I(5)$. The tree grew less in year 6 than in year 5: it is still growing, but more slowly."
+       }
+      ]
+     }
+    ],
+    "final": "I(6) < I(5)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "circ-tangents-from-point",
+   "title": "Find tangents from an external point",
+   "level": "HL",
+   "input": "circle + external point",
+   "output": "tangent slopes and equations"
+  },
+  "candidates": [
+   {
+    "part": "practice-circ-tangents-from-point-1",
+    "level": "higher",
+    "year": null,
+    "question": "The line $L$ passes through the point $(0, 10)$ and is a tangent to the circle $x^2 + y^2 = 10$.\nFind the two possible values of the slope of $L$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the line through $(0, 10)$ with slope $m$",
+      "lines": [
+       {
+        "tex": "y &= mx + 10"
+       },
+       {
+        "tex": "mx - y + 10 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Distance from the centre $(0, 0)$ equals the radius $\\sqrt{10}$",
+      "lines": [
+       {
+        "tex": "\\frac{|10|}{\\sqrt{m^2 + 1}} &= \\sqrt{10}"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides and solve",
+      "lines": [
+       {
+        "tex": "100 &= 10(m^2 + 1)"
+       },
+       {
+        "tex": "m^2 + 1 &= 10"
+       },
+       {
+        "tex": "m^2 &= 9"
+       },
+       {
+        "tex": "m &= 3 \\text{ or } m = -3"
+       }
+      ]
+     }
+    ],
+    "final": "m = 3 \\text{ or } m = -3"
+   },
+   {
+    "part": "maths-pp-2020-higher-p2-q3#(b)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the angle between OD and OA",
+      "lines": [
+       {
+        "text": "$OA$ and $OB$ are tangents from $O$, so $OD$ bisects $\\angle BOA$. $C$ lies on line $OD$."
+       },
+       {
+        "tex": "|\\angle DOA| &= \\frac{60^\\circ}{2} = 30^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find |OD| in terms of r",
+      "lines": [
+       {
+        "text": "The radius to the point of contact on $OA$ is perpendicular to $OA$, giving a right-angled triangle with hypotenuse $|OD|$."
+       },
+       {
+        "tex": "\\sin 30^\\circ &= \\frac{r}{|OD|}"
+       },
+       {
+        "tex": "\\frac{1}{2} &= \\frac{r}{|OD|}"
+       },
+       {
+        "tex": "|OD| &= 2r"
+       }
+      ]
+     },
+     {
+      "title": "Find the radius of s",
+      "lines": [
+       {
+        "text": "$|OC|$ is $|OD|$ plus the radius $|DC| = r$."
+       },
+       {
+        "tex": "|OC| &= 2r + r"
+       },
+       {
+        "tex": "&= 3r"
+       }
+      ]
+     },
+     {
+      "title": "Compare the areas",
+      "lines": [
+       {
+        "tex": "\\text{Area of } c &= \\pi r^2"
+       },
+       {
+        "tex": "\\text{Area of } s &= \\pi (3r)^2 = 9\\pi r^2"
+       },
+       {
+        "tex": "k &= \\frac{9\\pi r^2}{\\pi r^2}"
+       },
+       {
+        "tex": "&= 9"
+       }
+      ]
+     }
+    ],
+    "final": "k = 9"
+   },
+   {
+    "part": "practice-circ-tangents-from-point-2",
+    "level": "higher",
+    "year": null,
+    "question": "The point $P(-3, 1)$ lies outside the circle $x^2 + y^2 - 4x - 2y - 4 = 0$.\nFind the slopes of the two tangents from $P$ to the circle.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the centre and radius",
+      "lines": [
+       {
+        "text": "Here $g = -2$, $f = -1$ and $c = -4$, so the centre is $(2, 1)$."
+       },
+       {
+        "tex": "r &= \\sqrt{(-2)^2 + (-1)^2 - (-4)}"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "title": "Write the line through $P$ with slope $m$",
+      "lines": [
+       {
+        "tex": "y - 1 &= m(x + 3)"
+       },
+       {
+        "tex": "mx - y + 3m + 1 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Distance from the centre equals the radius",
+      "lines": [
+       {
+        "tex": "\\frac{|2m - 1 + 3m + 1|}{\\sqrt{m^2 + 1}} &= 3"
+       },
+       {
+        "tex": "\\frac{5|m|}{\\sqrt{m^2 + 1}} &= 3"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides and solve",
+      "lines": [
+       {
+        "tex": "25m^2 &= 9(m^2 + 1)"
+       },
+       {
+        "tex": "16m^2 &= 9"
+       },
+       {
+        "tex": "m &= \\frac{3}{4} \\text{ or } m = -\\frac{3}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "m = \\frac{3}{4} \\text{ or } m = -\\frac{3}{4}"
+   },
+   {
+    "part": "practice-circ-tangents-from-point-3",
+    "level": "higher",
+    "year": null,
+    "question": "The circle $c$ has equation $x^2 + y^2 = 20$.\nThe point $P(10, 0)$ lies outside $c$.\nFind the equations of the two tangents from $P$ to $c$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the line through $P(10, 0)$ with slope $m$",
+      "lines": [
+       {
+        "tex": "y &= m(x - 10)"
+       },
+       {
+        "tex": "mx - y - 10m &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Distance from the centre $(0, 0)$ equals the radius $\\sqrt{20}$",
+      "lines": [
+       {
+        "tex": "\\frac{|-10m|}{\\sqrt{m^2 + 1}} &= \\sqrt{20}"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides and solve",
+      "lines": [
+       {
+        "tex": "100m^2 &= 20(m^2 + 1)"
+       },
+       {
+        "tex": "80m^2 &= 20"
+       },
+       {
+        "tex": "m^2 &= \\frac{1}{4}"
+       },
+       {
+        "tex": "m &= \\frac{1}{2} \\text{ or } m = -\\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Write each tangent",
+      "lines": [
+       {
+        "tex": "y &= \\frac{1}{2}(x - 10) \\text{ or } y = -\\frac{1}{2}(x - 10)"
+       },
+       {
+        "tex": "y &= \\frac{1}{2}x - 5 \\text{ or } y = -\\frac{1}{2}x + 5"
+       }
+      ]
+     }
+    ],
+    "final": "y = \\frac{1}{2}x - 5 \\text{ and } y = -\\frac{1}{2}x + 5"
+   }
+  ]
+ }
+]
