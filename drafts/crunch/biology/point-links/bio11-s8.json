@@ -1,0 +1,668 @@
+{
+ "bio11-s8.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.2.0",
+    "strength": "helpful",
+    "why": "monohybrid cross",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.2.0",
+    "strength": "helpful",
+    "why": "monohybrid cross, one trait",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "helpful",
+    "why": "independent assortment of genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.0",
+    "strength": "helpful",
+    "why": "dominant capital, recessive lower case",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.2",
+    "strength": "helpful",
+    "why": "writing genotypes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.b",
+    "strength": "helpful",
+    "why": "gametes from homozygous/heterozygous parents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.0.1",
+    "strength": "essential",
+    "why": "gamete carries one allele per gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.0",
+    "strength": "essential",
+    "why": "one allele of each gene per gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.1.1",
+    "strength": "essential",
+    "why": "pairing method for gametes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "helpful",
+    "why": "independent assortment statement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.1.1",
+    "strength": "essential",
+    "why": "gamete pairing method",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.1.b",
+    "strength": "helpful",
+    "why": "heterozygous vs homozygous",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.3",
+    "strength": "essential",
+    "why": "gamete count from heterozygous genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.9.b",
+    "strength": "helpful",
+    "why": "pure lines cross",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.2",
+    "strength": "essential",
+    "why": "true-breeding means homozygous",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.2",
+    "strength": "helpful",
+    "why": "true-breeding homozygous",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.1",
+    "strength": "essential",
+    "why": "gamete method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.2.2",
+    "strength": "essential",
+    "why": "gametes combine at fertilisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.9.4",
+    "strength": "helpful",
+    "why": "dominant masks recessive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.4",
+    "strength": "essential",
+    "why": "four gamete types",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.5.b",
+    "strength": "helpful",
+    "why": "Punnett square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.2.3",
+    "strength": "helpful",
+    "why": "F1 genotype RrYy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.4",
+    "strength": "essential",
+    "why": "gametes of double heterozygote",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.5.2",
+    "strength": "essential",
+    "why": "each box equally likely",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.3.1",
+    "strength": "essential",
+    "why": "gametes along top and side",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.5.1",
+    "strength": "helpful",
+    "why": "filling Punnett square boxes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.3.1",
+    "strength": "essential",
+    "why": "gametes along top and side",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.3.4",
+    "strength": "essential",
+    "why": "completed square to count",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.3.5",
+    "strength": "helpful",
+    "why": "F2 genotypes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.3.5",
+    "strength": "essential",
+    "why": "F2 genotype list",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.8.0",
+    "strength": "helpful",
+    "why": "dominance masks genotype difference",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.4.0",
+    "strength": "essential",
+    "why": "F2 phenotype counts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.4.0",
+    "strength": "helpful",
+    "why": "F2 phenotypes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.4.0",
+    "strength": "essential",
+    "why": "F2 phenotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "essential",
+    "why": "independent assortment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.4.0",
+    "strength": "essential",
+    "why": "phenotype counts to mark",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s8.3.3",
+    "strength": "helpful",
+    "why": "square contents",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s8.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s7.5.0",
+    "strength": "essential",
+    "why": "genes independent",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.7.6",
+    "strength": "helpful",
+    "why": "monohybrid 3:1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.7.6",
+    "strength": "essential",
+    "why": "monohybrid 3:1 ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.6.1",
+    "strength": "essential",
+    "why": "monohybrid fractions to multiply",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.6.0",
+    "strength": "helpful",
+    "why": "multiplication check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.13.0",
+    "strength": "essential",
+    "why": "test cross",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.13.0",
+    "strength": "essential",
+    "why": "test cross",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.3",
+    "strength": "helpful",
+    "why": "rryy makes one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.7.1",
+    "strength": "essential",
+    "why": "test cross gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.7.2",
+    "strength": "essential",
+    "why": "offspring genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.7.3",
+    "strength": "essential",
+    "why": "1:1:1:1 test cross result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.7.3",
+    "strength": "helpful",
+    "why": "same test cross pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.3",
+    "strength": "helpful",
+    "why": "one heterozygous gene gives two gametes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.3",
+    "strength": "helpful",
+    "why": "homozygous vs heterozygous gametes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.1",
+    "strength": "essential",
+    "why": "gamete method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.3.2",
+    "strength": "helpful",
+    "why": "counting boxes as chances",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.8.2",
+    "strength": "essential",
+    "why": "4x2 square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.6.2",
+    "strength": "essential",
+    "why": "multiply gene fractions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s8.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.0",
+    "strength": "helpful",
+    "why": "dominant/recessive key",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.9.0",
+    "strength": "essential",
+    "why": "snapdragon key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.1.1",
+    "strength": "essential",
+    "why": "gamete method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.9.2",
+    "strength": "essential",
+    "why": "gametes combined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.9.3",
+    "strength": "essential",
+    "why": "offspring list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s8.9.1",
+    "strength": "helpful",
+    "why": "parent genotypes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s8.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.9.5",
+    "strength": "essential",
+    "why": "F1 parent genotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s8.9.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s8.6.0",
+    "strength": "essential",
+    "why": "multiply independent genes",
+    "confidence": "high"
+   }
+  ]
+ }
+}
