@@ -1,0 +1,212 @@
+[
+ {"skill": "trig-derive-1", "problems": [
+  {"part": "practice-trig-derive-1-1", "note": null,
+   "legend": {"1": "the cos²A term, ON²", "2": "the sin²A term, NP²", "3": "the answer, 1"},
+   "steps": [
+    {"ask": "Which side of triangle $ONP$ is the hypotenuse, and how long is it on the unit circle?", "title": "Read off the sides of the triangle",
+     "lines": [{"text": "In right-angled triangle $ONP$, the hypotenuse $OP$ is a radius, so $OP = 1$."}, {"tex": "ON &= \\cos A"}, {"tex": "NP &= \\sin A"}]},
+    {"ask": "Pythagoras links the squares of the two shorter sides to the square of the hypotenuse. What does that say about $ON^2 + NP^2$?", "title": "Apply Pythagoras",
+     "lines": [{"tex": "\\hl{1}{ON^2} + \\hl{2}{NP^2} &= OP^2"}, {"tex": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} &= 1^2"}]},
+    {"ask": "What is $1^2$, and so what does the left-hand side equal?", "title": "Conclude",
+     "lines": [{"tex": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} &= \\hl{3}{1}"}]}
+   ],
+   "final": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} = \\hl{3}{1}",
+   "graph": null},
+  {"part": "practice-trig-derive-1-2", "note": "This is a general right-angled triangle with hypotenuse $c$ instead of the unit circle, so the squares are divided by $c^2$. The same steps apply: square, add, then use Pythagoras.",
+   "legend": {"1": "the cos²A term", "2": "the sin²A term", "3": "the answer, 1"},
+   "steps": [
+    {"ask": "Which side is opposite $A$, and which side is the hypotenuse, so that $\\sin A$ is their ratio?", "title": "Write the ratios",
+     "lines": [{"tex": "\\sin A &= \\frac{a}{c}"}, {"tex": "\\cos A &= \\frac{b}{c}"}]},
+    {"ask": "What are $\\cos^2 A$ and $\\sin^2 A$ as fractions, and how do you add them?", "title": "Square and add",
+     "lines": [{"tex": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} &= \\hl{1}{\\frac{b^2}{c^2}} + \\hl{2}{\\frac{a^2}{c^2}}"}, {"tex": "&= \\frac{a^2 + b^2}{c^2}"}]},
+    {"ask": "Which relation links $a^2 + b^2$ to $c^2$, and what does it do to the fraction?", "title": "Use Pythagoras",
+     "lines": [{"text": "Pythagoras gives $a^2 + b^2 = c^2$."}, {"tex": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} &= \\frac{c^2}{c^2}"}, {"tex": "&= \\hl{3}{1}"}]}
+   ],
+   "final": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} = \\hl{3}{1}",
+   "graph": null},
+  {"part": "practice-trig-derive-1-3", "note": "$P$ is in the second quadrant, so $x < 0$ and $\\cos A$ is negative. The side $ON$ is $-x$, and squaring removes its sign, so the same steps apply.",
+   "legend": {"1": "the cos²A term, x²", "2": "the sin²A term, y²", "3": "the answer, 1"},
+   "steps": [
+    {"ask": "What are the coordinates of $P$, and what do they tell you about $\\cos A$ and $\\sin A$?", "title": "State the definitions",
+     "lines": [{"tex": "\\cos A &= x"}, {"tex": "\\sin A &= y"}]},
+    {"ask": "Where does the foot $N$ sit, and what is the length $ON$ when $x$ is negative?", "title": "Make a right-angled triangle",
+     "lines": [{"text": "Let $N$ be the foot of the perpendicular from $P$ to the $x$-axis. Then $ON = -x$ (a length, since $x < 0$), $NP = y$ and $OP = 1$."}, {"tex": "\\hl{1}{(-x)^2} + \\hl{2}{y^2} &= 1^2"}]},
+    {"ask": "What does squaring a negative number do to its sign?", "title": "Remove the sign",
+     "lines": [{"tex": "\\hl{1}{(-x)^2} &= \\hl{1}{x^2}"}, {"tex": "\\hl{1}{x^2} + \\hl{2}{y^2} &= \\hl{3}{1}"}]},
+    {"ask": "Replace $x$ and $y$ with their definitions. What does the sum become?", "title": "Substitute the definitions",
+     "lines": [{"tex": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} &= \\hl{3}{1}"}]}
+   ],
+   "final": "\\hl{1}{\\cos^2 A} + \\hl{2}{\\sin^2 A} = \\hl{3}{1}",
+   "graph": null}
+ ]},
+ {"skill": "trig-derive-2", "problems": [
+  {"part": "practice-trig-derive-2-1", "note": null,
+   "legend": {"1": "the first area, ½bc sin A", "2": "the second area, ½ac sin B", "3": "the sine-rule ratio"},
+   "steps": [
+    {"ask": "Which two sides and which included angle give the area of $ABC$ at vertex $A$?", "title": "Write the area in two ways",
+     "lines": [{"tex": "\\text{Area} &= \\hl{1}{\\tfrac{1}{2}bc\\sin A}"}, {"tex": "\\text{Area} &= \\hl{2}{\\tfrac{1}{2}ac\\sin B}"}]},
+    {"ask": "Set the two areas equal. Which factor is common to both sides and can be divided out?", "title": "Equate and cancel",
+     "lines": [{"tex": "\\hl{1}{\\tfrac{1}{2}bc\\sin A} &= \\hl{2}{\\tfrac{1}{2}ac\\sin B}"}, {"text": "Multiply by $2$ and divide by $c$."}, {"tex": "\\frac{\\hl{1}{\\tfrac{1}{2}bc\\sin A}}{\\tfrac{1}{2}c} &= b\\sin A"}, {"tex": "b\\sin A &= a\\sin B"}]},
+    {"ask": "How can you rearrange $b\\sin A = a\\sin B$ so that each side has one side length over its own sine?", "title": "Divide by $\\sin A\\sin B$",
+     "lines": [{"tex": "\\hl{3}{\\frac{b}{\\sin B}} &= \\hl{3}{\\frac{a}{\\sin A}}"}]}
+   ],
+   "final": "\\hl{3}{\\frac{a}{\\sin A}} = \\hl{3}{\\frac{b}{\\sin B}}",
+   "graph": null},
+  {"part": "practice-trig-derive-2-2", "note": "The pair of sides and angle is now $ab$ with $C$ and $ac$ with $B$, so the common side that cancels is $a$ rather than $c$. The same two-area method applies.",
+   "legend": {"1": "the first area, ½ab sin C", "2": "the second area, ½ac sin B", "3": "the sine-rule ratio"},
+   "steps": [
+    {"ask": "Using $\\tfrac{1}{2}ab\\sin C$ as the model, which other pair of sides and angle gives the area of $ABC$?", "title": "Write the area in two ways",
+     "lines": [{"tex": "\\text{Area} &= \\hl{1}{\\tfrac{1}{2}ab\\sin C}"}, {"tex": "\\text{Area} &= \\hl{2}{\\tfrac{1}{2}ac\\sin B}"}]},
+    {"ask": "Set the two areas equal. Which factor is common to both sides and can be divided out?", "title": "Equate and cancel",
+     "lines": [{"tex": "\\hl{1}{\\tfrac{1}{2}ab\\sin C} &= \\hl{2}{\\tfrac{1}{2}ac\\sin B}"}, {"text": "Multiply by $2$ and divide by $a$."}, {"tex": "\\frac{\\hl{1}{\\tfrac{1}{2}ab\\sin C}}{\\tfrac{1}{2}a} &= b\\sin C"}, {"tex": "b\\sin C &= c\\sin B"}]},
+    {"ask": "How can you rearrange $b\\sin C = c\\sin B$ so that each side has one side length over its own sine?", "title": "Divide by $\\sin B\\sin C$",
+     "lines": [{"tex": "\\hl{3}{\\frac{b}{\\sin B}} &= \\hl{3}{\\frac{c}{\\sin C}}"}]}
+   ],
+   "final": "\\hl{3}{\\frac{b}{\\sin B}} = \\hl{3}{\\frac{c}{\\sin C}}",
+   "graph": null},
+  {"part": "practice-trig-derive-2-3", "note": "All three areas are written and equated, so the common factor is $\\tfrac{1}{2}abc$ and one chain covers all three ratios. The method is the same: write the area, equate, divide out a common factor.",
+   "legend": {"1": "the first area, ½bc sin A", "2": "the second area, ½ac sin B", "3": "the sine-rule ratio, sin over side"},
+   "steps": [
+    {"ask": "Each vertex gives the area with a different pair of sides and included angle. Which sides and which angle give each of the three formulas?", "title": "Write the area in three ways",
+     "lines": [{"tex": "\\text{Area} &= \\hl{1}{\\tfrac{1}{2}bc\\sin A}"}, {"tex": "\\text{Area} &= \\hl{2}{\\tfrac{1}{2}ac\\sin B}"}, {"tex": "\\text{Area} &= \\tfrac{1}{2}ab\\sin C"}]},
+    {"ask": "All three areas are the same. How can you link them into one chain of equalities?", "title": "Equate them",
+     "lines": [{"tex": "\\hl{1}{\\tfrac{1}{2}bc\\sin A} &= \\hl{2}{\\tfrac{1}{2}ac\\sin B} = \\tfrac{1}{2}ab\\sin C"}]},
+    {"ask": "What common expression can you divide each area by, so that every line ends with a sine over a side?", "title": "Divide each by $\\tfrac{1}{2}abc$",
+     "lines": [{"tex": "\\frac{\\hl{1}{\\tfrac{1}{2}bc\\sin A}}{\\tfrac{1}{2}abc} &= \\hl{3}{\\frac{\\sin A}{a}}"}, {"tex": "\\frac{\\hl{2}{\\tfrac{1}{2}ac\\sin B}}{\\tfrac{1}{2}abc} &= \\hl{3}{\\frac{\\sin B}{b}}"}, {"tex": "\\frac{\\tfrac{1}{2}ab\\sin C}{\\tfrac{1}{2}abc} &= \\hl{3}{\\frac{\\sin C}{c}}"}]},
+    {"ask": "What do the three equal fractions say about $\\frac{\\sin A}{a}$, $\\frac{\\sin B}{b}$ and $\\frac{\\sin C}{c}$?", "title": "Conclude",
+     "lines": [{"tex": "\\hl{3}{\\frac{\\sin A}{a}} &= \\hl{3}{\\frac{\\sin B}{b}} = \\hl{3}{\\frac{\\sin C}{c}}"}]}
+   ],
+   "final": "\\hl{3}{\\frac{\\sin A}{a}} = \\hl{3}{\\frac{\\sin B}{b}} = \\hl{3}{\\frac{\\sin C}{c}}",
+   "graph": null}
+ ]},
+ {"skill": "trig-derive-3", "problems": [
+  {"part": "practice-trig-derive-3-1", "note": null,
+   "legend": {"1": "the projection AD = b cos A", "2": "the height CD = b sin A", "3": "the segment DB", "4": "the cosine rule, right-hand side"},
+   "steps": [
+    {"ask": "In right-angled triangle $ACD$, which side is the hypotenuse, and how does $\\cos A$ give the side $AD$?", "title": "Find $CD$ and $AD$ in triangle $ACD$",
+     "lines": [{"text": "Triangle $ACD$ is right-angled at $D$ and its hypotenuse is $AC = b$."}, {"tex": "\\hl{1}{AD} &= \\hl{1}{b\\cos A}"}, {"tex": "\\hl{2}{CD} &= \\hl{2}{b\\sin A}"}]},
+    {"ask": "Since $D$ lies between $A$ and $B$, how is $DB$ related to $AB$ and $AD$?", "title": "Find $DB$",
+     "lines": [{"text": "$D$ lies between $A$ and $B$, so $\\hl{3}{DB} = AB - \\hl{1}{AD}$."}, {"tex": "\\hl{3}{DB} &= \\hl{3}{c - b\\cos A}"}]},
+    {"ask": "Which triangle has $BD$ and $CD$ as its shorter sides, and what does Pythagoras give for $a^2$?", "title": "Apply Pythagoras in triangle $BDC$",
+     "lines": [{"tex": "a^2 &= \\hl{2}{CD^2} + \\hl{3}{DB^2}"}, {"tex": "&= \\hl{2}{(b\\sin A)^2} + \\hl{3}{(c - b\\cos A)^2}"}]},
+    {"ask": "Multiply out the squared brackets. Which terms contain $\\cos^2 A$ and $\\sin^2 A$?", "title": "Expand the brackets",
+     "lines": [{"tex": "a^2 &= b^2\\sin^2 A + c^2 - 2bc\\cos A + b^2\\cos^2 A"}, {"tex": "&= b^2(\\sin^2 A + \\cos^2 A) + c^2 - 2bc\\cos A"}]},
+    {"ask": "What does the bracket $\\sin^2 A + \\cos^2 A$ simplify to, and what is left?", "title": "Use $\\cos^2 A + \\sin^2 A = 1$",
+     "lines": [{"tex": "a^2 &= \\hl{4}{b^2 + c^2 - 2bc\\cos A}"}]}
+   ],
+   "final": "a^2 = \\hl{4}{b^2 + c^2 - 2bc\\cos A}",
+   "graph": null},
+  {"part": "practice-trig-derive-3-2", "note": "The vertex is now $C$, with the foot of the perpendicular on $BC$, so the projection is $b\\cos C$ and the height is $b\\sin C$. The same steps apply with the letters changed.",
+   "legend": {"1": "the projection CD = b cos C", "2": "the height AD = b sin C", "3": "the segment DB", "4": "the cosine rule, right-hand side"},
+   "steps": [
+    {"ask": "In right-angled triangle $ACD$, which side is the hypotenuse, and how does $\\cos C$ give the side $CD$?", "title": "Find $AD$ and $CD$ in triangle $ACD$",
+     "lines": [{"text": "Triangle $ACD$ is right-angled at $D$ and its hypotenuse is $AC = b$."}, {"tex": "\\hl{1}{CD} &= \\hl{1}{b\\cos C}"}, {"tex": "\\hl{2}{AD} &= \\hl{2}{b\\sin C}"}]},
+    {"ask": "Since $D$ lies between $B$ and $C$, how is $DB$ related to $BC$ and $CD$?", "title": "Find $DB$",
+     "lines": [{"text": "$D$ lies between $B$ and $C$, so $\\hl{3}{DB} = BC - \\hl{1}{CD}$."}, {"tex": "\\hl{3}{DB} &= \\hl{3}{a - b\\cos C}"}]},
+    {"ask": "Which triangle has $AD$ and $DB$ as its shorter sides, and what does Pythagoras give for $c^2$?", "title": "Apply Pythagoras in triangle $ABD$",
+     "lines": [{"tex": "c^2 &= \\hl{2}{AD^2} + \\hl{3}{DB^2}"}, {"tex": "&= \\hl{2}{(b\\sin C)^2} + \\hl{3}{(a - b\\cos C)^2}"}]},
+    {"ask": "Multiply out the squared brackets. Which terms contain $\\cos^2 C$ and $\\sin^2 C$?", "title": "Expand the brackets",
+     "lines": [{"tex": "c^2 &= b^2\\sin^2 C + a^2 - 2ab\\cos C + b^2\\cos^2 C"}, {"tex": "&= b^2(\\sin^2 C + \\cos^2 C) + a^2 - 2ab\\cos C"}]},
+    {"ask": "What does the bracket $\\sin^2 C + \\cos^2 C$ simplify to, and what does the expression become?", "title": "Use $\\cos^2 C + \\sin^2 C = 1$",
+     "lines": [{"tex": "c^2 &= \\hl{4}{a^2 + b^2 - 2ab\\cos C}"}]}
+   ],
+   "final": "c^2 = \\hl{4}{a^2 + b^2 - 2ab\\cos C}",
+   "graph": null},
+  {"part": "practice-trig-derive-3-3", "note": "Angle $A$ is obtuse, so $D$ falls outside $AB$ and $AD = -b\\cos A$. $BD$ is found as $AB + AD$ instead of $AB - AD$, and the rest is the same.",
+   "legend": {"1": "the projection AD = −b cos A", "2": "the height CD = b sin A", "3": "the segment BD", "4": "the cosine rule, right-hand side"},
+   "steps": [
+    {"ask": "Since $\\angle CAD$ is the supplement of $A$, what is $\\cos(180^\\circ - A)$ in terms of $\\cos A$?", "title": "Find $AD$ and $CD$ in triangle $ACD$",
+     "lines": [{"text": "$\\angle CAD = 180^\\circ - A$, and triangle $ACD$ is right-angled at $D$ with hypotenuse $AC = b$."}, {"tex": "\\hl{1}{AD} &= b\\cos(180^\\circ - A) = \\hl{1}{-b\\cos A}"}, {"tex": "\\hl{2}{CD} &= b\\sin(180^\\circ - A) = \\hl{2}{b\\sin A}"}]},
+    {"ask": "Since $A$ lies between $B$ and $D$, which two lengths add to give $BD$?", "title": "Find $BD$",
+     "lines": [{"text": "$A$ lies between $B$ and $D$, so $\\hl{3}{BD} = AB + \\hl{1}{AD}$."}, {"tex": "\\hl{3}{BD} &= \\hl{3}{c - b\\cos A}"}]},
+    {"ask": "Which angle in triangle $BDC$ is the right angle, and so which sides does Pythagoras use?", "title": "Apply Pythagoras in triangle $BDC$",
+     "lines": [{"tex": "a^2 &= \\hl{2}{CD^2} + \\hl{3}{BD^2}"}, {"tex": "&= \\hl{2}{(b\\sin A)^2} + \\hl{3}{(c - b\\cos A)^2}"}]},
+    {"ask": "Expand the squared brackets, then use $\\sin^2 A + \\cos^2 A = 1$. What is left?", "title": "Expand and simplify",
+     "lines": [{"tex": "a^2 &= b^2\\sin^2 A + c^2 - 2bc\\cos A + b^2\\cos^2 A"}, {"tex": "&= b^2(\\sin^2 A + \\cos^2 A) + c^2 - 2bc\\cos A"}, {"tex": "&= \\hl{4}{b^2 + c^2 - 2bc\\cos A}"}]}
+   ],
+   "final": "a^2 = \\hl{4}{b^2 + c^2 - 2bc\\cos A}",
+   "graph": null}
+ ]},
+ {"skill": "trig-derive-4", "problems": [
+  {"part": "practice-trig-derive-4-1", "note": null,
+   "legend": {"1": "the squared distance |PQ|²", "2": "cos(A − B), the left side to prove", "3": "cos A cos B + sin A sin B, the right side"},
+   "steps": [
+    {"ask": "What is $|PQ|^2$ in terms of the coordinates of $P$ and $Q$?", "title": "Distance formula",
+     "lines": [{"tex": "\\hl{1}{|PQ|^2} &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2"}]},
+    {"ask": "Multiply out the squares. Which terms can you group to give $\\cos^2 + \\sin^2$ for each point?", "title": "Expand and group",
+     "lines": [{"tex": "\\hl{1}{|PQ|^2} &= \\cos^2 A - 2\\hl{3}{\\cos A\\cos B} + \\cos^2 B + \\sin^2 A - 2\\hl{3}{\\sin A\\sin B} + \\sin^2 B"}, {"tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2(\\hl{3}{\\cos A\\cos B + \\sin A\\sin B})"}, {"tex": "&= 2 - 2(\\hl{3}{\\cos A\\cos B + \\sin A\\sin B})"}]},
+    {"ask": "What does the cosine rule say about $|PQ|^2$ in triangle $OPQ$?", "title": "Cosine rule in triangle $OPQ$",
+     "lines": [{"text": "$|OP| = |OQ| = 1$ and $\\angle POQ = A - B$."}, {"tex": "\\hl{1}{|PQ|^2} &= 1^2 + 1^2 - 2(1)(1)\\hl{2}{\\cos(A - B)}"}, {"tex": "&= 2 - 2\\hl{2}{\\cos(A - B)}"}]},
+    {"ask": "Both expressions equal $|PQ|^2$. What do they give when you set them equal and simplify?", "title": "Equate the two results",
+     "lines": [{"tex": "2 - 2\\hl{2}{\\cos(A - B)} &= 2 - 2(\\hl{3}{\\cos A\\cos B + \\sin A\\sin B})"}, {"tex": "\\hl{2}{\\cos(A - B)} &= \\hl{3}{\\cos A\\cos B + \\sin A\\sin B}"}]}
+   ],
+   "final": "\\hl{2}{\\cos(A - B)} = \\hl{3}{\\cos A\\cos B + \\sin A\\sin B}",
+   "graph": null},
+  {"part": "practice-trig-derive-4-3", "note": "The circle has radius $r$ instead of 1, so every term carries $r^2$, and that factor cancels when the two results are equated. The same distance and cosine-rule steps apply.",
+   "legend": {"1": "the squared distance |PQ|²", "2": "cos(A − B), the left side to prove", "3": "cos A cos B + sin A sin B, the right side"},
+   "steps": [
+    {"ask": "What is $|PQ|^2$ in terms of $r$ and the cosines and sines of $A$ and $B$?", "title": "Distance formula",
+     "lines": [{"tex": "\\hl{1}{|PQ|^2} &= (r\\cos A - r\\cos B)^2 + (r\\sin A - r\\sin B)^2"}, {"tex": "&= r^2\\left[(\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2(\\hl{3}{\\cos A\\cos B + \\sin A\\sin B})\\right]"}, {"tex": "&= r^2\\left[2 - 2(\\hl{3}{\\cos A\\cos B + \\sin A\\sin B})\\right]"}]},
+    {"ask": "Triangle $OPQ$ has two sides of length $r$ with angle $A - B$ between them. What does the cosine rule give for $|PQ|^2$?", "title": "Cosine rule in triangle $OPQ$",
+     "lines": [{"text": "$|OP| = |OQ| = r$ and $\\angle POQ = A - B$."}, {"tex": "\\hl{1}{|PQ|^2} &= r^2 + r^2 - 2r^2\\hl{2}{\\cos(A - B)}"}, {"tex": "&= r^2\\left[2 - 2\\hl{2}{\\cos(A - B)}\\right]"}]},
+    {"ask": "Both results have a factor $r^2$. What happens when you set them equal and divide that factor out?", "title": "Equate and cancel $r^2$",
+     "lines": [{"tex": "r^2\\left[2 - 2\\hl{2}{\\cos(A - B)}\\right] &= r^2\\left[2 - 2(\\hl{3}{\\cos A\\cos B + \\sin A\\sin B})\\right]"}, {"tex": "\\hl{2}{\\cos(A - B)} &= \\hl{3}{\\cos A\\cos B + \\sin A\\sin B}"}]}
+   ],
+   "final": "\\hl{2}{\\cos(A - B)} = \\hl{3}{\\cos A\\cos B + \\sin A\\sin B}",
+   "graph": null},
+  {"part": "practice-trig-derive-4-2", "note": "Instead of the cosine rule in triangle $OPQ$, this equates $|PQ|^2$ with the squared length of a second chord $RS$ of the same angle. The distance formula is still used, but $|RS|^2$ comes from coordinates, so the route differs.",
+   "legend": {"1": "the squared distance |PQ|²", "2": "cos(A − B), the left side to prove", "3": "cos A cos B + sin A sin B, the right side"},
+   "steps": [
+    {"ask": "$R$ is $(1, 0)$ and $S$ is $(\\cos(A - B), \\sin(A - B))$. What is the squared distance between them?", "title": "Find $|RS|^2$",
+     "lines": [{"tex": "|RS|^2 &= (\\hl{2}{\\cos(A - B)} - 1)^2 + (\\sin(A - B) - 0)^2"}, {"tex": "&= \\cos^2(A - B) - 2\\hl{2}{\\cos(A - B)} + 1 + \\sin^2(A - B)"}, {"tex": "&= 2 - 2\\hl{2}{\\cos(A - B)}"}]},
+    {"ask": "What is $|PQ|^2$ in terms of the coordinates of $P$ and $Q$?", "title": "Find $|PQ|^2$",
+     "lines": [{"tex": "\\hl{1}{|PQ|^2} &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2"}, {"tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2\\hl{3}{\\cos A\\cos B} - 2\\hl{3}{\\sin A\\sin B}"}, {"tex": "&= 2 - 2\\hl{3}{\\cos A\\cos B} - 2\\hl{3}{\\sin A\\sin B}"}]},
+    {"ask": "The two chords are equal, so what does that say about their squared lengths?", "title": "Equate the squared lengths",
+     "lines": [{"tex": "2 - 2\\hl{2}{\\cos(A - B)} &= 2 - 2\\hl{3}{\\cos A\\cos B} - 2\\hl{3}{\\sin A\\sin B}"}]},
+    {"ask": "Rearrange the equation to isolate $\\cos(A - B)$. What does it equal?", "title": "Solve for $\\cos(A - B)$",
+     "lines": [{"tex": "\\hl{2}{\\cos(A - B)} &= \\hl{3}{\\cos A\\cos B + \\sin A\\sin B}"}]}
+   ],
+   "final": "\\hl{2}{\\cos(A - B)} = \\hl{3}{\\cos A\\cos B + \\sin A\\sin B}",
+   "graph": null}
+ ]},
+ {"skill": "trig-derive-5", "problems": [
+  {"part": "practice-trig-derive-5-1", "note": null,
+   "legend": {"1": "cos(A + B), the left side to prove", "2": "cos(−B) = cos B", "3": "sin(−B) = −sin B", "4": "the answer, cos A cos B − sin A sin B"},
+   "steps": [
+    {"ask": "How can you write $A + B$ as $A$ minus an angle?", "title": "Write $A + B$ as a difference",
+     "lines": [{"tex": "\\hl{1}{\\cos(A + B)} &= \\cos\\big(A - (-B)\\big)"}]},
+    {"ask": "What does the formula for $\\cos(X - Y)$ give when $X = A$ and $Y = -B$?", "title": "Use the formula for $\\cos(X - Y)$",
+     "lines": [{"text": "Take $X = A$ and $Y = -B$."}, {"tex": "&= \\cos A\\hl{2}{\\cos(-B)} + \\sin A\\hl{3}{\\sin(-B)}"}]},
+    {"ask": "Which identity from the question turns $\\cos(-B)$ and $\\sin(-B)$ into expressions in $B$?", "title": "Use $\\cos(-B)$ and $\\sin(-B)$",
+     "lines": [{"tex": "&= \\cos A\\hl{2}{\\cos B} + \\sin A\\hl{3}{(-\\sin B)}"}, {"tex": "&= \\hl{4}{\\cos A\\cos B - \\sin A\\sin B}"}]}
+   ],
+   "final": "\\hl{1}{\\cos(A + B)} = \\hl{4}{\\cos A\\cos B - \\sin A\\sin B}",
+   "graph": null},
+  {"part": "practice-trig-derive-5-2", "note": "The identities for $\\cos(-B)$ and $\\sin(-B)$ are justified by reflecting the point in the $x$-axis instead of being quoted. The formula and the substitutions are unchanged.",
+   "legend": {"1": "cos(A + B), the left side to prove", "2": "cos(−B) = cos B", "3": "sin(−B) = −sin B", "4": "the answer, cos A cos B − sin A sin B"},
+   "steps": [
+    {"ask": "If you reflect the point $(\\cos B, \\sin B)$ in the $x$-axis, what are its new coordinates?", "title": "Find $\\cos(-B)$ and $\\sin(-B)$",
+     "lines": [{"text": "The reflection keeps the $x$-coordinate and changes the sign of the $y$-coordinate."}, {"tex": "\\hl{2}{\\cos(-B)} &= \\hl{2}{\\cos B}"}, {"tex": "\\hl{3}{\\sin(-B)} &= \\hl{3}{-\\sin B}"}]},
+    {"ask": "Which angle, written as a difference, gives $A + B$?", "title": "Write $A + B$ as a difference",
+     "lines": [{"tex": "A + B &= A - (-B)"}]},
+    {"ask": "What do you get when the formula for $\\cos(X - Y)$ is applied with $X = A$ and $Y = -B$?", "title": "Apply the formula for $\\cos(X - Y)$",
+     "lines": [{"text": "Take $X = A$ and $Y = -B$."}, {"tex": "\\hl{1}{\\cos(A + B)} &= \\cos A\\hl{2}{\\cos(-B)} + \\sin A\\hl{3}{\\sin(-B)}"}]},
+    {"ask": "What do the values from step 1 become when you substitute them into your line?", "title": "Substitute for $\\cos(-B)$ and $\\sin(-B)$",
+     "lines": [{"tex": "&= \\cos A\\hl{2}{(\\cos B)} + \\sin A\\hl{3}{(-\\sin B)}"}, {"tex": "&= \\hl{4}{\\cos A\\cos B - \\sin A\\sin B}"}]}
+   ],
+   "final": "\\hl{1}{\\cos(A + B)} = \\hl{4}{\\cos A\\cos B - \\sin A\\sin B}",
+   "graph": null},
+  {"part": "practice-trig-derive-5-3", "note": "This uses the letters $P$ and $Q$ and ends with a numerical check at $P = 60^\\circ$ and $Q = 30^\\circ$. The derivation is the same as problem 1, with the check added.",
+   "legend": {"1": "cos(P + Q), the left side", "2": "cos(−Q) = cos Q", "3": "sin(−Q) = −sin Q", "4": "the answer, cos P cos Q − sin P sin Q"},
+   "steps": [
+    {"ask": "How can $P + Q$ be written as a difference, and what does the formula for $\\cos(X - Y)$ give for it?", "title": "Write $P + Q$ as a difference and apply the formula",
+     "lines": [{"tex": "\\hl{1}{\\cos(P + Q)} &= \\cos\\big(P - (-Q)\\big)"}, {"tex": "&= \\cos P\\hl{2}{\\cos(-Q)} + \\sin P\\hl{3}{\\sin(-Q)}"}]},
+    {"ask": "Which expression in your line changes once you use $\\cos(-Q)$ and $\\sin(-Q)$?", "title": "Use $\\cos(-Q) = \\cos Q$ and $\\sin(-Q) = -\\sin Q$",
+     "lines": [{"tex": "&= \\hl{4}{\\cos P\\cos Q - \\sin P\\sin Q}"}]},
+    {"ask": "What is $P + Q$ for these values, and what is the cosine of that angle?", "title": "Check with $P = 60^\\circ$, $Q = 30^\\circ$",
+     "lines": [{"tex": "\\hl{1}{\\cos 90^\\circ} &= 0"}, {"tex": "\\hl{4}{\\cos 60^\\circ\\cos 30^\\circ - \\sin 60^\\circ\\sin 30^\\circ} &= \\frac12\\cdot\\frac{\\sqrt3}{2} - \\frac{\\sqrt3}{2}\\cdot\\frac12 = 0"}, {"text": "Both sides equal $0$, so the formula checks out."}]}
+   ],
+   "final": "\\hl{1}{\\cos(P + Q)} = \\hl{4}{\\cos P\\cos Q - \\sin P\\sin Q}",
+   "graph": null}
+ ]}
+]
