@@ -1,0 +1,581 @@
+{
+ "bio31-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s7.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.0.1",
+    "strength": "helpful",
+    "why": "autotroph, photosynthesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "essential",
+    "why": "producers defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "helpful",
+    "why": "producers eaten by herbivores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.2",
+    "strength": "essential",
+    "why": "primary consumers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.3",
+    "strength": "helpful",
+    "why": "consumer levels in a chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "helpful",
+    "why": "producers reuse released minerals",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s7.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "essential",
+    "why": "decomposers act on dead matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s7.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.1",
+    "strength": "helpful",
+    "why": "food chain sequence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s7.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "helpful",
+    "why": "trophic level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.1",
+    "strength": "essential",
+    "why": "food chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.1.2",
+    "strength": "helpful",
+    "why": "arrow direction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.1.2",
+    "strength": "helpful",
+    "why": "arrow direction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.1",
+    "strength": "essential",
+    "why": "food chain",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "helpful",
+    "why": "decomposers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.3.1",
+    "strength": "essential",
+    "why": "energy lost at each transfer",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "helpful",
+    "why": "trophic levels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s7.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.1",
+    "strength": "essential",
+    "why": "food chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "essential",
+    "why": "trophic level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.2.0",
+    "strength": "helpful",
+    "why": "food web",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "essential",
+    "why": "decomposers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.2.0",
+    "strength": "essential",
+    "why": "food web",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.2.2",
+    "strength": "essential",
+    "why": "the food web drawn",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s7.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.0.2",
+    "strength": "helpful",
+    "why": "light to chemical energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "essential",
+    "why": "trophic level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.0.3",
+    "strength": "helpful",
+    "why": "respiration energy lost as heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "helpful",
+    "why": "decomposers get uneaten matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.3.2",
+    "strength": "helpful",
+    "why": "heat loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.3.1",
+    "strength": "essential",
+    "why": "10% transfer figure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.3.1",
+    "strength": "essential",
+    "why": "energy lost per level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.3.1",
+    "strength": "essential",
+    "why": "energy lost per level",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s7.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.1",
+    "strength": "helpful",
+    "why": "food chain transfer",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s7.4.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s7.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s1.0.5",
+    "strength": "helpful",
+    "why": "carbon released as CO2",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s7.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "essential",
+    "why": "decomposers release minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.3.4",
+    "strength": "essential",
+    "why": "one-way energy flow",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.4.3",
+    "strength": "essential",
+    "why": "nutrient cycling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.0.4",
+    "strength": "helpful",
+    "why": "top consumers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.4.5",
+    "strength": "essential",
+    "why": "biomagnification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.3.4",
+    "strength": "helpful",
+    "why": "energy flow",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.4.3",
+    "strength": "helpful",
+    "why": "nutrient loop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s7.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.2.0",
+    "strength": "helpful",
+    "why": "food web as model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.5.0",
+    "strength": "essential",
+    "why": "five-step method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.2.4",
+    "strength": "helpful",
+    "why": "competition for food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.5.0",
+    "strength": "essential",
+    "why": "five-step method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.5.0",
+    "strength": "essential",
+    "why": "five-step method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.2.2",
+    "strength": "essential",
+    "why": "the food web above",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.5.0",
+    "strength": "helpful",
+    "why": "prediction steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.5.5",
+    "strength": "essential",
+    "why": "continues the worked prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.5.6",
+    "strength": "helpful",
+    "why": "predator diet switching",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s7.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s7.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.2.4",
+    "strength": "helpful",
+    "why": "interdependence in webs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "essential",
+    "why": "phytoplankton as producers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.2.0",
+    "strength": "helpful",
+    "why": "food web",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s7.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.2.0",
+    "strength": "helpful",
+    "why": "food web",
+    "confidence": "low"
+   }
+  ]
+ }
+}
