@@ -1,0 +1,500 @@
+[
+ {
+  "skill": "geo-thm10",
+  "problems": [
+   {
+    "question": "$ABCD$ is a parallelogram. Its diagonals $[AC]$ and $[BD]$ intersect at $E$.\n$|AC| = 18$ cm and $|BD| = 11$ cm.\nFind $|BE|$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 10",
+       "lines": [
+        {
+         "text": "The diagonals of a parallelogram bisect each other, so $E$ is the midpoint of $[BD]$."
+        }
+       ]
+      },
+      {
+       "title": "Find $|BE|$",
+       "lines": [
+        {
+         "tex": "|BE| &= \\tfrac{1}{2}|BD|",
+         "sym": "Rational(1,2)*11",
+         "new": true
+        },
+        {
+         "tex": "&= \\tfrac{1}{2}(11)",
+         "sym": "Rational(1,2)*11"
+        },
+        {
+         "tex": "&= 5.5 \\text{ cm}",
+         "sym": "Rational(11,2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5.5 \\text{ cm}"
+    },
+    "finalSym": "Rational(11,2)",
+    "answerSym": "Rational(1,2)*11"
+   },
+   {
+    "question": "$PQRS$ is a parallelogram. Its diagonals meet at $M$.\n$|PM| = 3x + 1$ and $|MR| = 5x - 5$.\nFind the value of $x$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 10",
+       "lines": [
+        {
+         "text": "The diagonals bisect each other, so $M$ is the midpoint of $[PR]$ and $|PM| = |MR|$."
+        }
+       ]
+      },
+      {
+       "title": "Form an equation",
+       "lines": [
+        {
+         "tex": "3x + 1 &= 5x - 5",
+         "sym": "Eq(3*x + 1, 5*x - 5)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "6 &= 2x",
+         "sym": "Eq(6, 2*x)"
+        },
+        {
+         "tex": "x &= 3",
+         "sym": "Eq(x, 3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 3"
+    },
+    "finalSym": "[3]",
+    "answerSym": "solve(Eq(3*x + 1, 5*x - 5), x)"
+   },
+   {
+    "question": "$ABCD$ is a parallelogram. Its diagonals meet at $E$.\n$|AE| = 2x + 3$ and $|AC| = 5x - 1$.\nFind the value of $x$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 10",
+       "lines": [
+        {
+         "text": "The diagonals bisect each other, so $E$ is the midpoint of $[AC]$ and $|AC| = 2|AE|$."
+        }
+       ]
+      },
+      {
+       "title": "Form an equation",
+       "lines": [
+        {
+         "tex": "5x - 1 &= 2(2x + 3)",
+         "sym": "Eq(5*x - 1, 2*(2*x + 3))",
+         "new": true
+        },
+        {
+         "tex": "&= 4x + 6",
+         "sym": "Eq(5*x - 1, 4*x + 6)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "x &= 7",
+         "sym": "Eq(x, 7)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 7"
+    },
+    "finalSym": "[7]",
+    "answerSym": "solve(Eq(5*x - 1, 2*(2*x + 3)), x)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-cor4",
+  "problems": [
+   {
+    "question": "$A$, $B$ and $C$ are points on a circle. $\\angle ABC = 90°$, $|AB| = 5$ cm and $|BC| = 12$ cm.\nFind the radius of the circle.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 4",
+       "lines": [
+        {
+         "text": "A right angle at the circle stands on a diameter, so $[AC]$ is a diameter."
+        }
+       ]
+      },
+      {
+       "title": "Find $|AC|$ by Pythagoras",
+       "lines": [
+        {
+         "tex": "|AC|^2 &= 5^2 + 12^2",
+         "sym": "Eq(d**2, 5**2 + 12**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 169",
+         "sym": "Eq(d**2, 169)"
+        },
+        {
+         "tex": "|AC| &= 13",
+         "sym": "Eq(d, 13)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the radius",
+       "lines": [
+        {
+         "tex": "r &= \\tfrac{13}{2}",
+         "sym": "Eq(r, Rational(13,2))",
+         "new": true
+        },
+        {
+         "tex": "&= 6.5 \\text{ cm}",
+         "sym": "Eq(r, Rational(13,2))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "6.5 \\text{ cm}"
+    },
+    "finalSym": "Rational(13,2)",
+    "answerSym": "sqrt(5**2 + 12**2)/2"
+   },
+   {
+    "question": "$[PQ]$ is a diameter of a circle and $R$ is another point on the circle.\n$\\angle RPQ = 38°$.\nFind $\\angle PQR$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 4",
+       "lines": [
+        {
+         "text": "$[PQ]$ is a diameter, so the angle at the circle, $\\angle PRQ$, is $90°$."
+        }
+       ]
+      },
+      {
+       "title": "Angles in triangle $PQR$",
+       "lines": [
+        {
+         "tex": "\\angle PQR &= 180° - 90° - 38°",
+         "sym": "180 - 90 - 38",
+         "new": true
+        },
+        {
+         "tex": "&= 52°",
+         "sym": "52"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "52°"
+    },
+    "finalSym": "52",
+    "answerSym": "180 - 90 - 38"
+   },
+   {
+    "question": "$A$, $B$ and $C$ are points on a circle with centre $O$. $\\angle ABC = 90°$ and $\\angle BAC = 28°$.\nFind $\\angle OBC$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Corollary 4",
+       "lines": [
+        {
+         "text": "A right angle at the circle stands on a diameter, so $[AC]$ is a diameter and $O$ lies on $[AC]$."
+        }
+       ]
+      },
+      {
+       "title": "Triangle $OAB$ is isosceles",
+       "lines": [
+        {
+         "text": "$|OA| = |OB|$ (radii), so $\\angle ABO = \\angle BAO = 28°$."
+        }
+       ]
+      },
+      {
+       "title": "Find $\\angle OBC$",
+       "lines": [
+        {
+         "tex": "\\angle OBC &= \\angle ABC - \\angle ABO",
+         "sym": "90 - 28",
+         "new": true
+        },
+        {
+         "tex": "&= 90° - 28°",
+         "sym": "90 - 28"
+        },
+        {
+         "tex": "&= 62°",
+         "sym": "62"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "62°"
+    },
+    "finalSym": "62",
+    "answerSym": "90 - 28"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm17",
+  "problems": [
+   {
+    "question": "$PQRS$ is a parallelogram with area $84\\text{ m}^2$. $M$ is the midpoint of the side $[QR]$.\nFind the area of the triangle $PQM$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Area of triangle $PQR$",
+       "lines": [
+        {
+         "text": "The diagonal $[PR]$ cuts the parallelogram into two triangles of equal area."
+        },
+        {
+         "tex": "|\\triangle PQR| &= \\tfrac{1}{2}(84)",
+         "sym": "Rational(1,2)*84",
+         "new": true
+        },
+        {
+         "tex": "&= 42 \\text{ m}^2",
+         "sym": "42"
+        }
+       ]
+      },
+      {
+       "title": "Area of triangle $PQM$",
+       "lines": [
+        {
+         "text": "$M$ is the midpoint of $[QR]$. Triangles $PQM$ and $PQR$ have the same height from $P$, so $PQM$ has half the area."
+        },
+        {
+         "tex": "|\\triangle PQM| &= \\tfrac{1}{2}(42)",
+         "sym": "Rational(1,2)*42",
+         "new": true
+        },
+        {
+         "tex": "&= 21 \\text{ m}^2",
+         "sym": "21"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "21 \\text{ m}^2"
+    },
+    "finalSym": "21",
+    "answerSym": "Rational(1,2)*Rational(1,2)*84"
+   },
+   {
+    "question": "$ABCD$ is a parallelogram. The diagonal $[AC]$ divides it into two triangles.\nThe area of $\\triangle ABC$ is $(3x + 9)\\text{ cm}^2$ and the area of $\\triangle ACD$ is $(5x - 3)\\text{ cm}^2$.\nFind the value of $x$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 17",
+       "lines": [
+        {
+         "text": "A diagonal bisects the area of a parallelogram, so the two triangles have equal areas."
+        }
+       ]
+      },
+      {
+       "title": "Form an equation",
+       "lines": [
+        {
+         "tex": "3x + 9 &= 5x - 3",
+         "sym": "Eq(3*x + 9, 5*x - 3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "12 &= 2x",
+         "sym": "Eq(12, 2*x)"
+        },
+        {
+         "tex": "x &= 6",
+         "sym": "Eq(x, 6)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 6"
+    },
+    "finalSym": "[6]",
+    "answerSym": "solve(Eq(3*x + 9, 5*x - 3), x)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm18",
+  "problems": [
+   {
+    "question": "A parallelogram has a base of length $12$ cm. The perpendicular height of the parallelogram is $7.5$ cm.\nFind its area.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 18",
+       "lines": [
+        {
+         "text": "The area of a parallelogram is base $\\times$ perpendicular height."
+        }
+       ]
+      },
+      {
+       "title": "Calculate the area",
+       "lines": [
+        {
+         "tex": "\\text{Area} &= 12 \\times 7.5",
+         "sym": "12*Rational(15,2)",
+         "new": true
+        },
+        {
+         "tex": "&= 90 \\text{ cm}^2",
+         "sym": "90"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "90 \\text{ cm}^2"
+    },
+    "finalSym": "90",
+    "answerSym": "12*Rational(15,2)"
+   },
+   {
+    "question": "$ABCD$ is a parallelogram with $|AB| = 15$ cm and $|AD| = 9$ cm.\nThe perpendicular distance between $[AB]$ and $[DC]$ is $6$ cm.\nFind the perpendicular distance between $[AD]$ and $[BC]$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Area using base $[AB]$",
+       "lines": [
+        {
+         "text": "The area of a parallelogram is base $\\times$ perpendicular height (Theorem 18)."
+        },
+        {
+         "tex": "\\text{Area} &= 15 \\times 6",
+         "sym": "15*6",
+         "new": true
+        },
+        {
+         "tex": "&= 90 \\text{ cm}^2",
+         "sym": "90"
+        }
+       ]
+      },
+      {
+       "title": "Area using base $[AD]$",
+       "lines": [
+        {
+         "text": "Use $[AD]$ as the base and let $h$ be the height."
+        },
+        {
+         "tex": "9h &= 90",
+         "sym": "Eq(9*h, 90)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $h$",
+       "lines": [
+        {
+         "tex": "h &= \\tfrac{90}{9}",
+         "sym": "Eq(h, 90/9)"
+        },
+        {
+         "tex": "&= 10 \\text{ cm}",
+         "sym": "Eq(h, 10)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "10 \\text{ cm}"
+    },
+    "finalSym": "[10]",
+    "answerSym": "solve(Eq(9*h, 15*6), h)"
+   },
+   {
+    "question": "A field is in the shape of a parallelogram. Its base is $24$ m and its perpendicular height is $13$ m.\nGrass seed costs $€0.50$ per $\\text{m}^2$.\nFind the cost of seeding the whole field.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Area of the field",
+       "lines": [
+        {
+         "text": "Area of a parallelogram is base $\\times$ perpendicular height (Theorem 18)."
+        },
+        {
+         "tex": "\\text{Area} &= 24 \\times 13",
+         "sym": "24*13",
+         "new": true
+        },
+        {
+         "tex": "&= 312 \\text{ m}^2",
+         "sym": "312"
+        }
+       ]
+      },
+      {
+       "title": "Cost",
+       "lines": [
+        {
+         "tex": "\\text{Cost} &= 312 \\times 0.50",
+         "sym": "312*Rational(1,2)",
+         "new": true
+        },
+        {
+         "tex": "&= €156",
+         "sym": "156"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "€156"
+    },
+    "finalSym": "156",
+    "answerSym": "24*13*Rational(1,2)"
+   }
+  ]
+ }
+]

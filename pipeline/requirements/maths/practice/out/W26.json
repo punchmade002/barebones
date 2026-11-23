@@ -1,0 +1,489 @@
+[
+ {
+  "skill": "geo-cor2",
+  "problems": [
+   {
+    "question": "$A$, $B$, $C$ and $D$ are points on a circle.\n$|\\angle ABD| = (3x + 6)^\\circ$ and $|\\angle ACD| = (5x - 18)^\\circ$.\nBoth angles stand on the arc $AD$.\nFind $|\\angle ABD|$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use angles standing on the same arc",
+       "lines": [
+        {
+         "text": "$\\angle ABD$ and $\\angle ACD$ both stand on the arc $AD$, so they are equal."
+        },
+        {
+         "tex": "3x + 6 &= 5x - 18",
+         "sym": "Eq(3*x + 6, 5*x - 18)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "24 &= 2x",
+         "sym": "Eq(24, 2*x)"
+        },
+        {
+         "tex": "x &= 12",
+         "sym": "Eq(x, 12)"
+        }
+       ]
+      },
+      {
+       "title": "Find the angle",
+       "lines": [
+        {
+         "tex": "|\\angle ABD| &= 3(12) + 6",
+         "sym": "3*12 + 6",
+         "new": true
+        },
+        {
+         "tex": "&= 42^\\circ",
+         "sym": "42"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle ABD| = 42^\\circ"
+    },
+    "finalSym": "42",
+    "answerSym": "(3*x + 6).subs(x, Rational(6 + 18, 5 - 3))"
+   },
+   {
+    "question": "$A$, $B$, $C$ and $D$ are points on a circle. The chords $[AC]$ and $[BD]$ cross at $E$.\n$|\\angle ADB| = 38^\\circ$ and $|\\angle CBD| = 27^\\circ$.\nFind $|\\angle AEB|$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use angles standing on the same arc",
+       "lines": [
+        {
+         "text": "$\\angle ADB$ and $\\angle ACB$ both stand on the arc $AB$, so they are equal."
+        },
+        {
+         "tex": "|\\angle ACB| &= 38^\\circ",
+         "sym": "38",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Look at triangle $BEC$",
+       "lines": [
+        {
+         "text": "$\\angle AEB$ is an exterior angle of triangle $BEC$, so it equals the sum of the two opposite interior angles."
+        },
+        {
+         "tex": "|\\angle AEB| &= |\\angle ECB| + |\\angle EBC|",
+         "sym": "38 + 27",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add",
+       "lines": [
+        {
+         "tex": "|\\angle AEB| &= 38 + 27",
+         "sym": "38 + 27",
+         "new": true
+        },
+        {
+         "tex": "&= 65^\\circ",
+         "sym": "65"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle AEB| = 65^\\circ"
+    },
+    "finalSym": "65",
+    "answerSym": "38 + 27"
+   },
+   {
+    "question": "$[AB]$ is a diameter of a circle with centre $O$. $C$ and $D$ are points on the circle, on the same side of $[AC]$ as $B$.\n$|\\angle CAB| = 24^\\circ$.\nFind $|\\angle ADC|$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Angle in a semicircle",
+       "lines": [
+        {
+         "text": "$[AB]$ is a diameter, so the angle at $C$ is a right angle."
+        },
+        {
+         "tex": "|\\angle ACB| &= 90^\\circ",
+         "sym": "90",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Angles in triangle $ABC$ add to $180^\\circ$",
+       "lines": [
+        {
+         "tex": "|\\angle ABC| &= 180 - 90 - 24",
+         "sym": "180 - 90 - 24",
+         "new": true
+        },
+        {
+         "tex": "&= 66^\\circ",
+         "sym": "66"
+        }
+       ]
+      },
+      {
+       "title": "Use angles standing on the same arc",
+       "lines": [
+        {
+         "text": "$\\angle ABC$ and $\\angle ADC$ both stand on the arc $AC$, so they are equal."
+        },
+        {
+         "tex": "|\\angle ADC| &= 66^\\circ",
+         "sym": "66",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|\\angle ADC| = 66^\\circ"
+    },
+    "finalSym": "66",
+    "answerSym": "180 - 90 - 24"
+   }
+  ]
+ },
+ {
+  "skill": "logic-terms",
+  "problems": [
+   {
+    "question": "Theorem 14 (Pythagoras) says: in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.\nIts converse says: if the square of one side equals the sum of the squares of the other two, the angle opposite that side is a right angle.\nA triangle has sides of length $9$, $12$ and $15$. Use the converse to find its largest angle, in degrees.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test the converse",
+       "lines": [
+        {
+         "text": "Square the longest side and compare."
+        },
+        {
+         "tex": "15^2 &= 225",
+         "sym": "Eq(15**2, 225)",
+         "new": true
+        },
+        {
+         "tex": "9^2 + 12^2 &= 81 + 144 = 225",
+         "sym": "Eq(9**2 + 12**2, 225)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply the converse",
+       "lines": [
+        {
+         "text": "$15^2 = 9^2 + 12^2$, so by the converse of Theorem 14 the angle opposite the side of length $15$ is a right angle."
+        },
+        {
+         "tex": "\\text{Largest angle} &= 90^\\circ",
+         "sym": "90",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "90^\\circ"
+    },
+    "finalSym": "90",
+    "answerSym": "acos((9**2 + 12**2 - 15**2)/(2*9*12))*180/pi"
+   },
+   {
+    "question": "In triangle $PQR$, $|\\angle P| = |\\angle Q| = 70^\\circ$, $|PR| = 9$ cm and $|PQ| = 6$ cm.\nThe theorem says: if two sides of a triangle are equal, then the angles opposite them are equal.\nUse the converse of this theorem to find the perimeter of the triangle, in cm.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "State the converse",
+       "lines": [
+        {
+         "text": "The converse is: if two angles of a triangle are equal, then the sides opposite them are equal."
+        }
+       ]
+      },
+      {
+       "title": "Apply it",
+       "lines": [
+        {
+         "text": "$\\angle P$ is opposite $[QR]$ and $\\angle Q$ is opposite $[PR]$. These angles are equal, so the sides are equal."
+        },
+        {
+         "tex": "|QR| &= |PR| = 9",
+         "sym": "Eq(Symbol('QR'), 9)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add the three sides",
+       "lines": [
+        {
+         "tex": "\\text{Perimeter} &= 9 + 9 + 6",
+         "sym": "9 + 9 + 6",
+         "new": true
+        },
+        {
+         "tex": "&= 24 \\text{ cm}",
+         "sym": "24"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "24 \\text{ cm}"
+    },
+    "finalSym": "24",
+    "answerSym": "9 + 9 + 6"
+   },
+   {
+    "question": "The theorem \"the three angles of a triangle add to $180^\\circ$\" has a corollary: an exterior angle of a triangle equals the sum of the two interior opposite angles.\nA triangle has interior angles of $47^\\circ$, $58^\\circ$ and a third angle. Use the corollary to find the exterior angle at the third vertex.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the corollary",
+       "lines": [
+        {
+         "text": "The exterior angle at the third vertex equals the sum of the other two interior angles (the interior opposite angles)."
+        },
+        {
+         "tex": "\\text{Exterior angle} &= 47 + 58",
+         "sym": "47 + 58",
+         "new": true
+        },
+        {
+         "tex": "&= 105^\\circ",
+         "sym": "105"
+        }
+       ]
+      },
+      {
+       "title": "Check with the theorem",
+       "lines": [
+        {
+         "text": "The third angle is $180 - 47 - 58 = 75^\\circ$. It lies on a straight line with the exterior angle."
+        },
+        {
+         "tex": "\\text{Exterior angle} &= 180 - 75",
+         "sym": "180 - 75",
+         "new": true
+        },
+        {
+         "tex": "&= 105^\\circ",
+         "sym": "105"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "105^\\circ"
+    },
+    "finalSym": "105",
+    "answerSym": "180 - (180 - 47 - 58)"
+   }
+  ]
+ },
+ {
+  "skill": "num-construct-root2-3",
+  "problems": [
+   {
+    "question": "A unit length of $1$ cm is given. A right-angled triangle is drawn with the two sides about the right angle each $1$ cm long.\nFind the length of the hypotenuse, which constructs $\\sqrt{2}$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Pythagoras (Theorem 14)",
+       "lines": [
+        {
+         "tex": "h^2 &= 1^2 + 1^2",
+         "sym": "Eq(h**2, 1**2 + 1**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 2",
+         "sym": "Eq(h**2, 2)"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "h &= \\sqrt{2}",
+         "sym": "Eq(h, sqrt(2))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\sqrt{2} \\text{ cm}"
+    },
+    "finalSym": "sqrt(2)",
+    "answerSym": "sqrt(1**2 + 1**2)"
+   },
+   {
+    "question": "A segment $[OA]$ of length $\\sqrt{2}$ cm has been constructed. A perpendicular to $[OA]$ is drawn at $A$, and a point $B$ is marked on it with $|AB| = 1$ cm.\nFind $|OB|$, and say what length has been constructed.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Pythagoras (Theorem 14)",
+       "lines": [
+        {
+         "text": "The angle at $A$ is a right angle, so $[OB]$ is the hypotenuse of triangle $OAB$."
+        },
+        {
+         "tex": "|OB|^2 &= (\\sqrt{2})^2 + 1^2",
+         "sym": "Eq(h**2, sqrt(2)**2 + 1**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 3",
+         "sym": "Eq(h**2, 3)"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "|OB| &= \\sqrt{3}",
+         "sym": "Eq(h, sqrt(3))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "|OB| = \\sqrt{3} \\text{ cm}"
+    },
+    "finalSym": "sqrt(3)",
+    "answerSym": "sqrt(sqrt(2)**2 + 1**2)"
+   },
+   {
+    "question": "A segment $[OB]$ of length $\\sqrt{3}$ cm has been constructed. A perpendicular to $[OB]$ is drawn at $B$, and a point $C$ is marked on it with $|BC| = 1$ cm.\nFind $|OC|$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Pythagoras (Theorem 14)",
+       "lines": [
+        {
+         "text": "The angle at $B$ is a right angle, so $[OC]$ is the hypotenuse of triangle $OBC$."
+        },
+        {
+         "tex": "|OC|^2 &= (\\sqrt{3})^2 + 1^2",
+         "sym": "Eq(h**2, sqrt(3)**2 + 1**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 4",
+         "sym": "Eq(h**2, 4)"
+        }
+       ]
+      },
+      {
+       "title": "Take the square root",
+       "lines": [
+        {
+         "tex": "|OC| &= 2 \\text{ cm}",
+         "sym": "Eq(h, 2)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2 \\text{ cm}"
+    },
+    "finalSym": "2",
+    "answerSym": "sqrt(sqrt(3)**2 + 1**2)"
+   }
+  ]
+ },
+ {
+  "skill": "logic-terms-hl",
+  "problems": [
+   {
+    "question": "Prove by contradiction that there are no positive integers $a$ and $b$ such that $a^2 - b^2 = 2$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Assume the opposite",
+       "lines": [
+        {
+         "text": "Assume that there are positive integers $a$ and $b$ with the following property."
+        },
+        {
+         "tex": "a^2 - b^2 &= 2",
+         "sym": "Eq(a**2 - b**2, 2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Factorise",
+       "lines": [
+        {
+         "tex": "(a - b)(a + b) &= 2",
+         "sym": "Eq((a - b)*(a + b), 2)"
+        }
+       ]
+      },
+      {
+       "title": "Compare the two factors",
+       "lines": [
+        {
+         "text": "The factors differ by an even number, so they are both even or both odd."
+        },
+        {
+         "tex": "(a + b) - (a - b) &= 2b",
+         "sym": "Eq((a + b) - (a - b), 2*b)",
+         "new": true
+        },
+        {
+         "text": "The product is $2$, which is even, so the factors cannot both be odd. Both are therefore even."
+        }
+       ]
+      },
+      {
+       "title": "State the contradiction",
+       "lines": [
+        {
+         "text": "If both factors are even, their product is a multiple of $4$. But the product is $2$, which is not a multiple of $4$."
+        },
+        {
+         "text": "This is a contradiction, so the assumption is false. Therefore there are no such integers $a$ and $b$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{No such integers exist}"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify((a + b)*(a - b) - (a**2 - b**2))"
+   }
+  ]
+ }
+]

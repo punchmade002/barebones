@@ -1,0 +1,452 @@
+[
+ {
+  "skill": "int-reciprocal",
+  "problems": [
+   {
+    "question": "Evaluate $\\int_2^6 \\frac{3}{x}\\,dx$.\nGive your answer in the form $k\\ln 3$, where $k \\in \\mathbb{N}$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Integrate $\\frac{3}{x}$",
+       "lines": [
+        {
+         "text": "$\\int \\frac{1}{x}\\,dx = \\ln|x|$, so the constant 3 stays in front."
+        },
+        {
+         "tex": "\\int_2^6 \\frac{3}{x}\\,dx &= \\left[3\\ln x\\right]_2^6"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= 3\\ln 6 - 3\\ln 2",
+         "sym": "3*log(6) - 3*log(2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Combine the logs",
+       "lines": [
+        {
+         "tex": "&= 3\\ln\\left(\\frac{6}{2}\\right)",
+         "sym": "3*log(6/2)"
+        },
+        {
+         "tex": "&= 3\\ln 3",
+         "sym": "3*log(3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3\\ln 3"
+    },
+    "finalSym": "3*log(3)",
+    "answerSym": "integrate(3/x,(x,2,6))"
+   },
+   {
+    "question": "The curve $y = \\frac{6}{x}$ is drawn for $x > 0$.\nFind the area under the curve between $x = 1$ and $x = 4$.\nGive your answer in the form $k\\ln 2$, where $k \\in \\mathbb{N}$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up the area as an integral",
+       "lines": [
+        {
+         "tex": "A &= \\int_1^4 \\frac{6}{x}\\,dx",
+         "sym": "integrate(6/x,(x,1,4))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Integrate and substitute the limits",
+       "lines": [
+        {
+         "tex": "A &= \\left[6\\ln x\\right]_1^4"
+        },
+        {
+         "tex": "&= 6\\ln 4 - 6\\ln 1",
+         "sym": "6*log(4) - 6*log(1)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Simplify using $\\ln 4 = 2\\ln 2$ and $\\ln 1 = 0$",
+       "lines": [
+        {
+         "tex": "A &= 6(2\\ln 2) - 0",
+         "sym": "6*(2*log(2)) - 0"
+        },
+        {
+         "tex": "&= 12\\ln 2",
+         "sym": "12*log(2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "12\\ln 2 \\text{ square units}"
+    },
+    "finalSym": "12*log(2)",
+    "answerSym": "integrate(6/x,(x,1,4))"
+   },
+   {
+    "question": "Evaluate $\\int_1^4 \\frac{x+2}{x}\\,dx$.\nGive your answer in the form $a + b\\ln 2$, where $a, b \\in \\mathbb{N}$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split the fraction",
+       "lines": [
+        {
+         "tex": "\\frac{x+2}{x} &= 1 + \\frac{2}{x}",
+         "sym": "Eq((x+2)/x, 1 + 2/x)"
+        }
+       ]
+      },
+      {
+       "title": "Integrate each term",
+       "lines": [
+        {
+         "tex": "\\int_1^4 \\left(1 + \\frac{2}{x}\\right)dx &= \\left[x + 2\\ln x\\right]_1^4"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= (4 + 2\\ln 4) - (1 + 2\\ln 1)",
+         "sym": "(4 + 2*log(4)) - (1 + 2*log(1))",
+         "new": true
+        },
+        {
+         "tex": "&= 3 + 2\\ln 4",
+         "sym": "3 + 2*log(4)"
+        },
+        {
+         "tex": "&= 3 + 4\\ln 2",
+         "sym": "3 + 4*log(2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3 + 4\\ln 2"
+    },
+    "finalSym": "3 + 4*log(2)",
+    "answerSym": "integrate((x+2)/x,(x,1,4))"
+   }
+  ]
+ },
+ {
+  "skill": "int-exponential",
+  "problems": [
+   {
+    "question": "Evaluate $\\int_0^{\\ln 2} e^{3x}\\,dx$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Integrate $e^{3x}$",
+       "lines": [
+        {
+         "text": "$\\int e^{ax}\\,dx = \\frac{1}{a}e^{ax}$, here $a = 3$."
+        },
+        {
+         "tex": "\\int_0^{\\ln 2} e^{3x}\\,dx &= \\left[\\tfrac{1}{3}e^{3x}\\right]_0^{\\ln 2}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= \\tfrac{1}{3}e^{3\\ln 2} - \\tfrac{1}{3}e^{0}",
+         "sym": "exp(3*log(2))/3 - exp(0)/3",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use $e^{3\\ln 2} = e^{\\ln 8} = 8$",
+       "lines": [
+        {
+         "tex": "&= \\tfrac{8}{3} - \\tfrac{1}{3}",
+         "sym": "8/3 - 1/3"
+        },
+        {
+         "tex": "&= \\tfrac{7}{3}",
+         "sym": "7/3"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{7}{3}"
+    },
+    "finalSym": "7/3",
+    "answerSym": "integrate(exp(3*x),(x,0,log(2)))"
+   },
+   {
+    "question": "Find the area under the curve $y = 4e^{-2x}$ from $x = 0$ to $x = \\ln 3$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Set up the area as an integral",
+       "lines": [
+        {
+         "tex": "A &= \\int_0^{\\ln 3} 4e^{-2x}\\,dx",
+         "sym": "integrate(4*exp(-2*x),(x,0,log(3)))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Integrate",
+       "lines": [
+        {
+         "text": "$\\int e^{-2x}\\,dx = -\\frac{1}{2}e^{-2x}$."
+        },
+        {
+         "tex": "A &= \\left[-2e^{-2x}\\right]_0^{\\ln 3}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "A &= -2e^{-2\\ln 3} + 2e^{0}",
+         "sym": "-2*exp(-2*log(3)) + 2*exp(0)",
+         "new": true
+        },
+        {
+         "tex": "&= -2\\left(\\tfrac{1}{9}\\right) + 2",
+         "sym": "-2*(Rational(1,9)) + 2"
+        },
+        {
+         "tex": "&= \\tfrac{16}{9}",
+         "sym": "Rational(16,9)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{16}{9} \\text{ square units}"
+    },
+    "finalSym": "Rational(16,9)",
+    "answerSym": "integrate(4*exp(-2*x),(x,0,log(3)))"
+   },
+   {
+    "question": "Evaluate $\\int_0^2 3^x\\,dx$.\nGive your answer in the form $\\frac{k}{\\ln 3}$, where $k \\in \\mathbb{N}$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Integrate $3^x$",
+       "lines": [
+        {
+         "text": "$\\int a^x\\,dx = \\frac{a^x}{\\ln a}$, here $a = 3$."
+        },
+        {
+         "tex": "\\int_0^2 3^x\\,dx &= \\left[\\frac{3^x}{\\ln 3}\\right]_0^2"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= \\frac{3^2}{\\ln 3} - \\frac{3^0}{\\ln 3}",
+         "sym": "3**2/log(3) - 3**0/log(3)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{9 - 1}{\\ln 3}",
+         "sym": "(9 - 1)/log(3)"
+        },
+        {
+         "tex": "&= \\frac{8}{\\ln 3}",
+         "sym": "8/log(3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{8}{\\ln 3}"
+    },
+    "finalSym": "8/log(3)",
+    "answerSym": "integrate(3**x,(x,0,2))"
+   }
+  ]
+ },
+ {
+  "skill": "int-trig",
+  "problems": [
+   {
+    "question": "Evaluate $\\int_0^{\\pi/6} \\sin 3x\\,dx$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Integrate $\\sin 3x$",
+       "lines": [
+        {
+         "text": "$\\int \\sin ax\\,dx = -\\frac{1}{a}\\cos ax$, here $a = 3$."
+        },
+        {
+         "tex": "\\int_0^{\\pi/6} \\sin 3x\\,dx &= \\left[-\\tfrac{1}{3}\\cos 3x\\right]_0^{\\pi/6}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= -\\tfrac{1}{3}\\cos\\left(\\tfrac{\\pi}{2}\\right) + \\tfrac{1}{3}\\cos 0",
+         "sym": "-cos(pi/2)/3 + cos(0)/3",
+         "new": true
+        },
+        {
+         "tex": "&= 0 + \\tfrac{1}{3}",
+         "sym": "0 + Rational(1,3)"
+        },
+        {
+         "tex": "&= \\tfrac{1}{3}",
+         "sym": "Rational(1,3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{1}{3}"
+    },
+    "finalSym": "Rational(1,3)",
+    "answerSym": "integrate(sin(3*x),(x,0,pi/6))"
+   },
+   {
+    "question": "Evaluate $\\int_0^{\\pi/2} \\left(4\\cos 2x - \\sin x\\right)dx$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Integrate each term",
+       "lines": [
+        {
+         "text": "$\\int \\cos 2x\\,dx = \\frac{1}{2}\\sin 2x$ and $\\int \\sin x\\,dx = -\\cos x$."
+        },
+        {
+         "tex": "\\int_0^{\\pi/2} \\left(4\\cos 2x - \\sin x\\right)dx &= \\left[2\\sin 2x + \\cos x\\right]_0^{\\pi/2}"
+        }
+       ]
+      },
+      {
+       "title": "Substitute the limits",
+       "lines": [
+        {
+         "tex": "&= \\left(2\\sin\\pi + \\cos\\tfrac{\\pi}{2}\\right) - \\left(2\\sin 0 + \\cos 0\\right)",
+         "sym": "(2*sin(pi) + cos(pi/2)) - (2*sin(0) + cos(0))",
+         "new": true
+        },
+        {
+         "tex": "&= (0 + 0) - (0 + 1)",
+         "sym": "(0 + 0) - (0 + 1)"
+        },
+        {
+         "tex": "&= -1",
+         "sym": "-1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-1"
+    },
+    "finalSym": "-1",
+    "answerSym": "integrate(4*cos(2*x) - sin(x),(x,0,pi/2))"
+   }
+  ]
+ },
+ {
+  "skill": "int-find-function",
+  "problems": [
+   {
+    "question": "The derivative of a function $f$ is $f'(x) = 6x^2 - 5 + \\frac{4}{x^2}$, where $x \\neq 0$.\nThe graph of $f$ passes through the point $(2, 1)$.\nFind $f(x)$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write $f'(x)$ with a negative index",
+       "lines": [
+        {
+         "tex": "f'(x) &= 6x^2 - 5 + 4x^{-2}",
+         "sym": "6*x**2 - 5 + 4*x**(-2)"
+        }
+       ]
+      },
+      {
+       "title": "Integrate to get $f(x)$",
+       "lines": [
+        {
+         "tex": "f(x) &= \\int \\left(6x^2 - 5 + 4x^{-2}\\right)dx"
+        },
+        {
+         "tex": "&= 2x^3 - 5x - 4x^{-1} + C",
+         "sym": "2*x**3 - 5*x - 4/x + C",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the point $(2, 1)$ to find $C$",
+       "lines": [
+        {
+         "text": "$f(2) = 1$."
+        },
+        {
+         "tex": "2(2)^3 - 5(2) - \\frac{4}{2} + C &= 1",
+         "sym": "Eq(2*2**3 - 5*2 - 4/2 + C, 1)",
+         "new": true
+        },
+        {
+         "tex": "16 - 10 - 2 + C &= 1",
+         "sym": "Eq(16 - 10 - 2 + C, 1)"
+        },
+        {
+         "tex": "4 + C &= 1",
+         "sym": "Eq(4 + C, 1)"
+        },
+        {
+         "tex": "C &= -3",
+         "sym": "Eq(C, -3)"
+        }
+       ]
+      },
+      {
+       "title": "Write $f(x)$ with $C = -3$",
+       "lines": [
+        {
+         "tex": "f(x) &= 2x^3 - 5x - \\frac{4}{x} - 3",
+         "sym": "2*x**3 - 5*x - 4/x - 3",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "f(x) = 2x^3 - 5x - \\frac{4}{x} - 3"
+    },
+    "finalSym": "2*x**3 - 5*x - 4/x - 3",
+    "answerSym": "integrate(6*x**2 - 5 + 4/x**2, x) + 1 - integrate(6*x**2 - 5 + 4/x**2, x).subs(x, 2)"
+   }
+  ]
+ }
+]
