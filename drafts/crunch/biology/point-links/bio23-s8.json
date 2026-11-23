@@ -1,0 +1,1765 @@
+{
+"bio23-s8.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.0.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.0.1": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.2.4",
+"strength": "helpful",
+"why": "ovulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.0.3": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.0.3",
+"strength": "essential",
+"why": "egg and sperm survival times",
+"confidence": "high"
+},
+{
+"id": "bio23-s4.3.0",
+"strength": "helpful",
+"why": "ovulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.0.4",
+"strength": "essential",
+"why": "six-day fertile window",
+"confidence": "high"
+},
+{
+"id": "bio23-s4.5.0",
+"strength": "helpful",
+"why": "ovulation timing varies",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.3.3",
+"strength": "helpful",
+"why": "eggs age with the woman",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s6.12.0",
+"strength": "helpful",
+"why": "menopause",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.2.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s3.8.0",
+"strength": "helpful",
+"why": "fertilisation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.2.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.2.3": {
+"cost": 2,
+"needs": []
+},
+"bio23-s8.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.2.3",
+"strength": "helpful",
+"why": "perfect-use effectiveness",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.2.4",
+"strength": "helpful",
+"why": "typical-use failure comparison",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.2.6": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.2.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.2.6",
+"strength": "essential",
+"why": "only condoms protect against STIs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.3.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.0.4",
+"strength": "essential",
+"why": "fertile window",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.3.1",
+"strength": "essential",
+"why": "fertile window avoidance",
+"confidence": "high"
+},
+{
+"id": "bio23-s4.5.0",
+"strength": "helpful",
+"why": "ovulation timing",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.3.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s4.11.1",
+"strength": "helpful",
+"why": "progesterone from corpus luteum",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s4.2.3",
+"strength": "helpful",
+"why": "cervical mucus changes",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s4.13.4",
+"strength": "essential",
+"why": "LH surge detected in urine",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.4.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.3.1",
+"strength": "helpful",
+"why": "fertility awareness needs",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.4.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.4.3": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s6.9.5",
+"strength": "helpful",
+"why": "prolactin suppresses ovulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.5.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.0",
+"strength": "essential",
+"why": "STIs defined",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.5.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.5.3": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.12.2",
+"strength": "helpful",
+"why": "spermicide",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.6.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.2.1",
+"strength": "helpful",
+"why": "implantation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.6.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.12.1",
+"strength": "helpful",
+"why": "emergency contraception",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.0",
+"strength": "helpful",
+"why": "STIs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.11.3",
+"strength": "helpful",
+"why": "hormonal coil",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.7.0": {
+"cost": 2,
+"needs": []
+},
+"bio23-s8.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.7.0",
+"strength": "essential",
+"why": "vasectomy procedure",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.7.0",
+"strength": "essential",
+"why": "vasectomy blocks sperm",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.7.0",
+"strength": "essential",
+"why": "cut vas deferens",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.8.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.8.0": {
+"cost": 2,
+"needs": []
+},
+"bio23-s8.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.8.0",
+"strength": "essential",
+"why": "tubal ligation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.8.0",
+"strength": "essential",
+"why": "tubal ligation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.9.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.7.0",
+"strength": "helpful",
+"why": "vasectomy",
+"confidence": "low"
+},
+{
+"id": "bio23-s8.8.0",
+"strength": "helpful",
+"why": "tubal ligation",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.0",
+"strength": "helpful",
+"why": "STIs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.9.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.7.0",
+"strength": "essential",
+"why": "vasectomy cut site",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.8.0",
+"strength": "essential",
+"why": "tubal ligation cut site",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.10.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s4.13.5",
+"strength": "essential",
+"why": "pill stops ovulation by feedback",
+"confidence": "high"
+},
+{
+"id": "bio23-s4.2.3",
+"strength": "helpful",
+"why": "cervical mucus",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.10.0",
+"strength": "essential",
+"why": "combined pill",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.10.0",
+"strength": "essential",
+"why": "combined pill comparison",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.11.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.11.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.11.0",
+"strength": "helpful",
+"why": "long-acting progesterone",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.11.0",
+"strength": "helpful",
+"why": "long-acting progesterone",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s4.11.2",
+"strength": "helpful",
+"why": "progesterone and endometrium",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.10.0",
+"strength": "essential",
+"why": "combined pill hormones",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.12.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s4.10.1",
+"strength": "helpful",
+"why": "LH surge causes ovulation",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.6.3",
+"strength": "essential",
+"why": "copper coil emergency use",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.12.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.13.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.13.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.10.0",
+"strength": "helpful",
+"why": "combined pill",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.10.2",
+"strength": "helpful",
+"why": "progesterone-only methods",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.10.0",
+"strength": "essential",
+"why": "combined pill",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.0",
+"strength": "helpful",
+"why": "STIs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.10.0",
+"strength": "helpful",
+"why": "daily pill",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.14.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.14.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.14.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.14.0",
+"strength": "essential",
+"why": "STI defined",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.14.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.14.0",
+"strength": "essential",
+"why": "STI defined",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.14.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.14.1",
+"strength": "essential",
+"why": "chlamydia and gonorrhoea",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.8.0",
+"strength": "helpful",
+"why": "fallopian tube",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.14.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.14.3",
+"strength": "essential",
+"why": "pelvic inflammatory disease",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.1",
+"strength": "essential",
+"why": "chlamydia and gonorrhoea",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.15.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.5.1",
+"strength": "helpful",
+"why": "condoms reduce STIs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.3",
+"strength": "helpful",
+"why": "no symptoms",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.2",
+"strength": "essential",
+"why": "HPV and hepatitis B",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.2",
+"strength": "essential",
+"why": "HIV",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.2",
+"strength": "essential",
+"why": "HIV",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.15.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.1",
+"strength": "essential",
+"why": "gonorrhoea",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.16.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.22.1",
+"strength": "helpful",
+"why": "FSH injections stimulate ovaries",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.16.0",
+"strength": "helpful",
+"why": "eggs matured first",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.16.2": {
+"cost": 2,
+"needs": []
+},
+"bio23-s8.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.0",
+"strength": "essential",
+"why": "IVF",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.26.0",
+"strength": "helpful",
+"why": "ICSI",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.17.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.16.0",
+"strength": "helpful",
+"why": "egg freezing",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.17.1": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s3.3.3",
+"strength": "essential",
+"why": "egg age and chromosome errors",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.16.2",
+"strength": "helpful",
+"why": "freezing and thawing",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.16.0",
+"strength": "helpful",
+"why": "hormone treatment",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.18.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.18.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.18.0",
+"strength": "essential",
+"why": "infertility defined",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.18.0",
+"strength": "essential",
+"why": "infertility defined",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.19.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.4.3",
+"strength": "helpful",
+"why": "sperm tail swimming",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.1.4",
+"strength": "helpful",
+"why": "epididymis",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.7.0",
+"strength": "helpful",
+"why": "vas deferens",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.19.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.19.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s6.14.6",
+"strength": "helpful",
+"why": "anabolic steroids lower sperm",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.19.0",
+"strength": "essential",
+"why": "sperm count and shape",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.20.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.20.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s4.3.0",
+"strength": "helpful",
+"why": "ovulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.14.3",
+"strength": "essential",
+"why": "pelvic inflammatory disease",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.8.0",
+"strength": "helpful",
+"why": "fallopian tubes",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s4.0.1",
+"strength": "helpful",
+"why": "endometrium",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.3.3",
+"strength": "helpful",
+"why": "egg quality falls with age",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.20.4": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.21.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.20.0",
+"strength": "essential",
+"why": "failure to ovulate",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.22.0",
+"strength": "helpful",
+"why": "how fertility drugs work",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.21.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s4.2.1",
+"strength": "helpful",
+"why": "follicle",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.21.1",
+"strength": "essential",
+"why": "drugs release eggs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.21.1",
+"strength": "helpful",
+"why": "fertility drugs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.21.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.20.0",
+"strength": "helpful",
+"why": "weight and ovulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.22.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.22.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s4.13.1",
+"strength": "essential",
+"why": "negative feedback",
+"confidence": "high"
+},
+{
+"id": "bio23-s4.8.0",
+"strength": "helpful",
+"why": "FSH and LH",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s4.8.0",
+"strength": "helpful",
+"why": "FSH and LH",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.22.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s4.10.1",
+"strength": "essential",
+"why": "LH surge causes ovulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.22.1",
+"strength": "essential",
+"why": "FSH injections",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.24.1",
+"strength": "helpful",
+"why": "IVF stimulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.23.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.23.0": {
+"cost": 2,
+"needs": []
+},
+"bio23-s8.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.23.0",
+"strength": "essential",
+"why": "IUI",
+"confidence": "high"
+},
+{
+"id": "bio23-s3.8.1",
+"strength": "helpful",
+"why": "fertilisation in fallopian tube",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.19.0",
+"strength": "helpful",
+"why": "low sperm count and motility",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.8.1",
+"strength": "helpful",
+"why": "fertilisation in the tube",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.23.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.23.0",
+"strength": "essential",
+"why": "artificial insemination",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.24.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.24.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.22.3",
+"strength": "helpful",
+"why": "ovarian stimulation injections",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.24.2": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.24.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.8.0",
+"strength": "helpful",
+"why": "fertilisation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.24.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.24.3",
+"strength": "essential",
+"why": "embryos from fertilised eggs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.24.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.4",
+"strength": "essential",
+"why": "embryo transfer after culture",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.24.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.5",
+"strength": "essential",
+"why": "implantation after transfer",
+"confidence": "high"
+},
+{
+"id": "bio23-s6.3.2",
+"strength": "helpful",
+"why": "hCG pregnancy test",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.24.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.4",
+"strength": "helpful",
+"why": "embryos",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.25.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.25.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.0",
+"strength": "essential",
+"why": "IVF",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.14.4",
+"strength": "helpful",
+"why": "blocked tubes",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.25.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.24.0",
+"strength": "helpful",
+"why": "IVF",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.25.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.25.1",
+"strength": "helpful",
+"why": "Edwards IVF history",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.25.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.0",
+"strength": "helpful",
+"why": "IVF",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.26.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.0",
+"strength": "helpful",
+"why": "IVF",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.26.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.24.3",
+"strength": "essential",
+"why": "IVF step 3",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.26.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.26.0",
+"strength": "essential",
+"why": "ICSI",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.26.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.19.0",
+"strength": "helpful",
+"why": "sperm problems",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.26.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.7.0",
+"strength": "helpful",
+"why": "vasectomy",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.26.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.16.3",
+"strength": "helpful",
+"why": "thawing frozen eggs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.27.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.27.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.26.0",
+"strength": "essential",
+"why": "ICSI",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.24.4",
+"strength": "helpful",
+"why": "embryo growth",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.28.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.28.0": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.28.1": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.28.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.5.1",
+"strength": "essential",
+"why": "condoms protect against STIs",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.28.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.13.0",
+"strength": "helpful",
+"why": "hormonal benefits",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.13.1",
+"strength": "helpful",
+"why": "pill lowers cancer risk",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.28.4": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.29.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.29.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.13.3",
+"strength": "helpful",
+"why": "blood clot risk",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.29.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.2.6",
+"strength": "essential",
+"why": "only condoms protect",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.29.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.2.4",
+"strength": "essential",
+"why": "typical-use failure",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.29.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.9.0",
+"strength": "essential",
+"why": "irreversible sterilisation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.29.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.4.0",
+"strength": "helpful",
+"why": "religious objection",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.29.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.10.0",
+"strength": "helpful",
+"why": "synthetic oestrogen in pill",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.30.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.30.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.0",
+"strength": "helpful",
+"why": "IVF",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.30.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.26.0",
+"strength": "essential",
+"why": "ICSI",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.30.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.17.0",
+"strength": "essential",
+"why": "freezing before cancer treatment",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.30.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.25.0",
+"strength": "helpful",
+"why": "preimplantation testing",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.30.4": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.30.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.0",
+"strength": "helpful",
+"why": "IVF",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.31.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.31.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.21.3",
+"strength": "essential",
+"why": "twins from ovulation stimulation",
+"confidence": "high"
+},
+{
+"id": "bio23-s8.24.5",
+"strength": "helpful",
+"why": "embryo transfer",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.31.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.21.4",
+"strength": "essential",
+"why": "ovarian hyperstimulation",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.31.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.17.2",
+"strength": "helpful",
+"why": "age and success",
+"confidence": "low"
+}
+]
+},
+"bio23-s8.31.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s8.26.0",
+"strength": "essential",
+"why": "ICSI",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.31.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.24.7",
+"strength": "essential",
+"why": "spare frozen embryos",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.31.5": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.31.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s3.3.3",
+"strength": "helpful",
+"why": "chromosome errors with age",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.32.b": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.32.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.17.0",
+"strength": "essential",
+"why": "egg freezing uses",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.32.1": {
+"cost": 1,
+"needs": []
+},
+"bio23-s8.32.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.17.2",
+"strength": "essential",
+"why": "age and success",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.32.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio23-s8.16.0",
+"strength": "helpful",
+"why": "hormone treatment",
+"confidence": "high"
+}
+]
+},
+"bio23-s8.32.4": {
+"cost": 1,
+"needs": []
+}
+}
