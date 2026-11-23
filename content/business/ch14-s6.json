@@ -4,48 +4,107 @@
   "subsection": "6. Corporate wellness and the leader's role",
   "syllabusRef": "3.2.14, 3.2.15",
   "notes": [
-    { "h": "Corporate wellness defined", "b": "Corporate wellness is an organisation's planned set of measures that support employees' physical, mental and social wellbeing.", "points": [
-      "Corporate wellness covers physical health, mental health and wider social wellbeing, not only the absence of illness.",
-      "It is closely linked to equality, diversity and inclusivity, since a workplace that supports everyone's wellbeing must consider different needs.",
-      "It is a strategic choice: wellbeing is planned and resourced as part of how the business treats its people, rather than delivered as a one-off event.",
-      "Wellbeing matters to employers because stressed or unwell staff are less productive and more likely to be absent."
-    ] },
-    { "h": "Typical wellness initiatives", "b": "Organisations use a range of initiatives, and the most effective ones are matched to the needs of their workforce.", "points": [
-      "Employee assistance programmes give confidential access to counselling and advice on personal or work-related problems.",
-      "Mental-health supports include training for managers, awareness campaigns and access to professional help.",
-      "Flexible working, such as flexible hours or remote working, helps staff manage pressures outside work.",
-      "Health promotion includes health checks, screenings and information on nutrition, sleep and quitting smoking.",
-      "Physical-activity schemes, such as a cycle-to-work scheme or subsidised gym membership, encourage staff to be active.",
-      "Equality, diversity and inclusion policies ensure people are treated fairly and reduce barriers to taking part in wellbeing programmes."
-    ] },
-    { "h": "Impact on motivation", "b": "Wellbeing initiatives can influence motivation by showing employees that the organisation cares about them.", "points": [
-      "Motivation rises when employees feel supported, because they feel valued and are more willing to invest effort.",
-      "Initiatives that reduce stress free up energy for work and make concentration easier.",
-      "When wellbeing support matches what the organisation says it values, employees see its stated values as genuine, which builds trust.",
-      "Wellbeing support can improve engagement, and engaged employees are more willing to contribute ideas and go beyond their job description."
-    ] },
-    { "h": "Impact on retention, absenteeism and culture", "b": "The effects of corporate wellness extend beyond individuals to the organisation's results and climate.", "points": [
-      "Retention: employees who feel cared for are less likely to leave, which reduces recruitment and training costs.",
-      "Absenteeism: effective health and wellbeing measures can reduce sickness absence, although the size of the effect depends on the initiatives chosen.",
-      "Culture: wellbeing programmes can reinforce values such as respect and inclusion, shaping how people treat one another.",
-      "Productivity: healthy staff tend to make fewer errors and sustain their performance over time.",
-      "Reputation: a strong wellbeing record can attract applicants and strengthen the employer's image."
-    ] },
-    { "h": "The leader's role in promoting wellbeing", "b": "Leaders shape wellbeing through what they do, what they fund and the policies they enforce.", "points": [
-      "Modelling: leaders who take breaks, respect working hours and talk openly about wellbeing set the norm for their teams.",
-      "Resourcing: leaders decide budgets and time for wellbeing initiatives, so they determine whether programmes continue beyond their launch.",
-      "Policy: leaders ensure wellbeing and flexible working policies are applied consistently in practice, not only written down.",
-      "Psychological safety: leaders who listen and respond to concerns without blame encourage staff to raise problems early.",
-      "Workload management: leaders who allocate work realistically reduce one of the most common sources of stress.",
-      "Early intervention: leaders who notice signs of stress and refer staff to support can prevent problems from escalating."
-    ] },
-    { "h": "Limits and risks of corporate wellness", "b": "Wellness initiatives can fail when they are cosmetic or poorly designed.", "points": [
-      "Tokenism: programmes presented as caring, but not backed by changes to workloads or culture, can breed cynicism.",
-      "Cost: wellbeing programmes need a budget, which may be hard to sustain during an economic downturn.",
-      "Measurement: the effect of wellness on motivation and retention is hard to isolate, so results are difficult to prove.",
-      "Individual blame: placing all responsibility on staff to manage stress ignores organisational causes such as excessive workloads.",
-      "Low uptake: some initiatives are used by only a minority of staff, so they may not reach the people who need them most."
-    ] }
+    {
+      "h": "Corporate wellness defined",
+      "b": "Corporate wellness is an organisation's planned focus on the wellbeing of its people, and it is wider than a few perks. It matters because the way a business treats its workforce shapes how hard and how well they work.",
+      "points": [
+        "The Appendix 2 definition is: an organisational focus on equality, diversity, inclusivity and the overall wellbeing of the workforce to nurture a diverse, inclusive, and healthy workplace.",
+        "In other words, corporate wellness is an organisation's planned set of measures that support employees' physical, mental and social wellbeing, with equality, diversity and inclusivity built in.",
+        "It covers physical health, mental health and wider social wellbeing, not only the absence of illness, so a person can be free of illness and still be stressed or isolated.",
+        "It is linked to equality, diversity and inclusion (EDI: equal treatment and opportunity, a varied workforce, and everyone able to take part), since a workplace that supports everyone's wellbeing must consider different needs.",
+        "It is a strategic choice: wellbeing is planned and resourced as part of how the business treats its people, rather than delivered as a one-off event.",
+        "Wellbeing matters to employers because stressed or unwell staff are less productive and more likely to be absent (off work), which costs the business output."
+      ],
+      "tip": "If asked to outline corporate wellness, give the meaning (equality, diversity, inclusion and wellbeing) plus two or three typical initiatives. A common mistake is describing only gym memberships."
+    },
+    {
+      "h": "Typical wellness initiatives",
+      "b": "Organisations use a range of initiatives, and the most effective ones are matched to the needs of their workforce. Each tackles a different part of wellbeing.",
+      "points": [
+        "Employee assistance programmes give confidential access to counselling and advice on personal or work-related problems, so staff can get help without worrying that colleagues will find out. For example, a sample business might fund counselling this way.",
+        "Mental-health supports include training for managers, awareness campaigns and access to professional help, so problems are recognised and treated early.",
+        "Flexible working, such as flexible hours or remote working, helps staff manage pressures outside work, such as caring responsibilities.",
+        "Health promotion includes health checks, screenings and information on nutrition, sleep and quitting smoking, which help staff look after their physical health.",
+        "Physical-activity schemes, such as subsidised gym membership or the Cycle to Work scheme, encourage staff to be active. Under Cycle to Work, employers can buy a bicycle and safety equipment for employees, and the benefit is not taxable.",
+        "Equality, diversity and inclusion policies ensure people are treated fairly and reduce barriers to taking part in wellbeing programmes."
+      ],
+      "tip": "Name initiatives and say what each does for staff. A common mistake in exam answers is to list initiatives without saying how they affect motivation."
+    },
+    {
+      "h": "Impact on motivation",
+      "b": "Motivation is the internal and external forces that make staff willing to put in effort. Wellbeing is a non-financial motivator, meaning it works through how people feel rather than through pay, and initiatives influence motivation by showing employees that the organisation cares about them.",
+      "points": [
+        "Motivation rises when employees feel supported, because they feel valued and are more willing to invest effort.",
+        "Initiatives that reduce stress free up energy for work and make concentration easier.",
+        "When wellbeing support matches what the organisation says it values, employees see its stated values as genuine, which builds trust.",
+        "Wellbeing support can improve engagement (how committed and involved staff feel), and engaged employees are more willing to contribute ideas and go beyond their job description."
+      ],
+      "tip": "A discuss question on how corporate wellness influences motivation wants distinct ways, such as feeling valued, lower stress, trust and engagement. Develop each into an effect on motivation, name an initiative where useful, and add a limit such as tokenism, cost or difficulty of measuring. Common mistakes are listing initiatives, repeating one idea and writing only benefits."
+    },
+    {
+      "h": "Impact on retention, absenteeism and culture",
+      "b": "The effects of corporate wellness extend beyond individuals to the organisation's results and climate. A useful chain to follow is initiative, then effect on staff, then effect on the business.",
+      "points": [
+        "Retention (staff staying with the business): employees who feel cared for are less likely to leave, which reduces recruitment and training costs.",
+        "Absenteeism (staff being off work): effective health and wellbeing measures can reduce sickness absence, although the size of the effect depends on the initiatives chosen.",
+        "Culture (the shared values and behaviour in a business): wellbeing programmes can reinforce values such as respect and inclusion, shaping how people treat one another.",
+        "Productivity: healthy staff tend to make fewer errors and sustain their performance over time.",
+        "Reputation: a strong wellbeing record can attract applicants and strengthen the employer's image."
+      ],
+      "tip": "Keep retention (staff stay) and absenteeism (staff are off) separate. For an investigate-style question, give a cause-effect chain and a cultural effect such as respect or inclusion."
+    },
+    {
+      "h": "The leader's role in promoting wellbeing",
+      "b": "A leader influences and directs people towards goals, and leaders and managers set the tone of a workplace. Leaders shape wellbeing through what they do, what they fund and the policies they enforce.",
+      "points": [
+        "Modelling: leaders who take breaks, respect working hours and talk openly about wellbeing set the norm for their teams. For example, a manager who finishes meetings on time and sends no late emails shows staff that rest is acceptable.",
+        "Resourcing: leaders decide budgets and time for wellbeing initiatives, so they determine whether programmes continue beyond their launch.",
+        "Policy: leaders ensure wellbeing and flexible working policies are applied consistently in practice, not only written down.",
+        "Psychological safety: leaders who listen and respond to concerns without blame encourage staff to raise problems early, because staff are not afraid of being punished for speaking up.",
+        "Workload management: leaders who allocate work realistically reduce one of the most common sources of stress.",
+        "Early intervention: leaders who notice signs of stress and refer staff to support can prevent problems from escalating."
+      ],
+      "tip": "When asked to identify the role of the leader, name the roles (model, resource, apply policy, psychological safety) and add a few words on how each helps. A common mistake is describing a leadership style instead. Do not confuse psychological safety (speaking up without blame) with mental-health support (services), or modelling (the leader's own behaviour) with policy (written rules)."
+    },
+    {
+      "h": "Limits and risks of corporate wellness",
+      "b": "Wellness initiatives can fail when they are cosmetic or poorly designed. Weighing these limits against the benefits gives a balanced answer.",
+      "points": [
+        "Tokenism: programmes presented as caring, but not backed by changes to workloads or culture, can breed cynicism (staff stop believing the organisation means it).",
+        "Cost: wellbeing programmes need a budget, which may be hard to sustain during an economic downturn.",
+        "Measurement: the effect of wellness on motivation and retention is hard to isolate, because many other things also affect them, so results are difficult to prove.",
+        "Individual blame: placing all responsibility on staff to manage stress ignores organisational causes such as excessive workloads.",
+        "Low uptake: some initiatives are used by only a minority of staff, so they may not reach the people who need them most."
+      ],
+      "tip": "Claim only likely effects of wellness, not guaranteed ones: the effect on productivity is hard to isolate and depends on the initiatives. Adding a limit such as tokenism or cost to a benefit is how an answer becomes balanced."
+    },
+    {
+      "h": "Ethical, sustainability and digital angles",
+      "b": "Wellbeing raises questions of fairness, long-term sustainability and technology. These show how a business can run wellness well or badly.",
+      "points": [
+        "Ethics: wellbeing programmes must not be used to pressure staff or hide poor conditions, because that is tokenism.",
+        "Ethics: health information is sensitive, so it must be kept confidential, and every member of staff must have equal access to the supports.",
+        "Sustainability: social sustainability means fair work, safe conditions and inclusion, and sustainable workloads keep staff healthy over the long term.",
+        "Sustainability: active travel schemes such as Cycle to Work also link to environmental aims, because they encourage cycling instead of driving.",
+        "Digital: wellbeing apps, online counselling and e-learning on mental health, and flexible and remote work, can all support wellbeing.",
+        "Digital: an always-on culture, where staff feel they must answer messages at any hour, risks harming wellbeing.",
+        "Digital: the WRC Code of Practice on the Right to Disconnect (S.I. No. 159 of 2021, launched 1 April 2021) is a code of practice, not a statutory right. Breaching it is not an offence, but it is admissible in evidence.",
+        "Digital: health data is personal data under the GDPR, so it must be handled with care."
+      ]
+    },
+    {
+      "h": "Applying learning to Irish news",
+      "b": "Current Irish news can be linked to the ideas above. A good answer names the example with its date and source, links it to a concept, and gives a personal opinion with a reason.",
+      "points": [
+        "Southern Star, 6 May 2026, in a report titled Irish workers are quietly exhausted: it argues that workers remain stressed and exhausted despite more wellness initiatives, and that employers should address the cultural causes rather than run one-off programmes.",
+        "The same report quotes workplace wellbeing specialist Sinéad McKiernan, and cites PwC research (as reported by the newspaper) that 36% of Irish workers feel overwhelmed at work at least once a week.",
+        "It also says staff must feel safe using policies such as the Right to Disconnect Code of Practice, which links to psychological safety and the leader's role in applying policy.",
+        "This example links to tokenism and individual blame, because one-off programmes do not remove organisational causes of stress such as workload.",
+        "Irish Times, 23 September 2026: William Fry research by Ipsos B&A of 404 businesses found about 34% of firms with more than 50 staff set specific office days, expected to reach 50% during 2027.",
+        "The same research found productivity was the main driver of hybrid policy (37%), and two or three onsite days were most common.",
+        "This example links to flexible work as a wellbeing and motivation measure, and to the risk that employers tighten it."
+      ]
+    }
   ],
   "keyTerms": [
     { "term": "Corporate wellness", "definition": "An organisation's planned set of measures that support employees' physical, mental and social wellbeing." },

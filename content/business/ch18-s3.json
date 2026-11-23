@@ -4,56 +4,104 @@
   "subsection": "3. Fintech, Central Bank Digital Currency and crypto-assets",
   "syllabusRef": "4.2.4, 4.2.8",
   "notes": [
-    { "h": "Fintech: technology in financial services", "b": "Fintech means financial services delivered through technology, often faster, cheaper or more convenient than traditional providers.", "points": [
-      "Mobile banking lets customers check balances, move money and pay bills through an app on a phone.",
-      "Payment apps allow transfers between people and payments in shops and online, usually linked to a bank account or card.",
-      "Neobanks are digital-only banks with no branches, relying on an app and online support as their main channel.",
-      "Robo-advisers use algorithms to build and manage a simple investment portfolio, usually at a lower cost than a human adviser charges.",
-      "Open banking lets a customer give a regulated third party secure access to their bank account data, so that rival services can compete for business.",
-      "Buy-now-pay-later schemes offer instalment credit at the point of online checkout, which makes borrowing quick but easy to overuse."
-    ] },
-    { "h": "Opportunities and challenges of fintech for consumers", "points": [
-      "Opportunities include lower fees, faster transactions, round-the-clock access and a wider choice of products.",
-      "Financial inclusion: people without a nearby branch or with a thin credit history may gain access to basic accounts and payments.",
-      "Digital exclusion: older people and those without internet access or confidence with technology can be left behind.",
-      "Fraud and security: customers manage money through devices, which raises the risk of account takeover, phishing and data breaches.",
-      "Weaker protection: a consumer dealing with an unregulated or overseas firm may have little recourse if something goes wrong.",
-      "Easy credit and gamified investing can encourage impulsive spending and risk-taking, so consumers need self-control and financial literacy."
-    ] },
-    { "h": "How technology changes financial products", "points": [
-      "Automation cuts the cost of processing applications and can give a lending decision in minutes rather than days.",
-      "Data analytics lets firms price products and assess creditworthiness using more information, which can widen access or exclude some groups.",
-      "Digital channels move service away from branches, cutting costs for providers but reducing personal contact for customers.",
-      "Distributed ledger technology underpins crypto-assets and some payment systems, recording transactions in a shared database that many computers maintain."
-    ] },
-    { "h": "Central Bank Digital Currency", "b": "A Central Bank Digital Currency (CBDC) is central-bank money in digital form, and it complements cash rather than replacing it.", "points": [
-      "Because a CBDC is a liability of the central bank, holding it carries no credit risk, in the same way that holding cash does.",
-      "The ECB's digital euro project is a proposed CBDC for the euro area, designed to sit alongside cash.",
-      "Advantages include a safe digital payment option for the public and less reliance on private payment networks.",
-      "Disadvantages include privacy concerns if the central bank could see payment data, and cyber-security risk for the system.",
-      "Disintermediation is a risk for banks: if people move large sums into a CBDC, banks may lose deposits that fund their lending."
-    ] },
-    { "h": "Stablecoins and crypto-assets compared", "points": [
-      "A stablecoin's value depends on its issuer's pledge to redeem it at a stated value, usually backed by reserves the issuer holds.",
-      "A crypto-asset has no single liable issuer, so no one is legally responsible for redeeming it or making the holder whole.",
-      "Crypto-asset prices are set by supply and demand on trading platforms, which makes their value volatile.",
-      "A CBDC is issued by the central bank and is its liability, a stablecoin rests on a private issuer's pledge, and a crypto-asset has no liable issuer at all."
-    ] },
-    { "h": "Impact of digital currency on consumers and businesses", "points": [
-      "Consumers may gain lower transaction costs, faster settlement and easier access to payments, which can help people without bank accounts.",
-      "Consumers may lose privacy if payment data is collected, and may lose money to scams in unregulated crypto markets.",
-      "Businesses may gain faster settlement and possibly lower payment costs, and can reach customers through new digital channels.",
-      "Businesses face cyber-security costs and may need to change systems to accept digital payments.",
-      "Banks face competition from fintech firms and may need to change their business models to keep customers."
-    ] },
-    { "h": "Crypto risks and EU regulation", "points": [
-      "Price volatility: crypto-asset values can swing sharply, so holders can lose most of their money quickly.",
-      "Fraud: fake exchanges, pump-and-dump schemes and phishing aimed at wallet holders target crypto users.",
-      "Loss of access: losing a private key or password can mean permanent loss of the asset, as no institution can restore it.",
-      "Limited protection: crypto holdings are generally outside the deposit guarantee scheme, so there is no guaranteed refund if a provider fails.",
-      "Money laundering and tax evasion risks are why providers are subject to anti-money laundering rules.",
-      "MiCA, the EU Markets in Crypto-Assets Regulation, sets authorisation and conduct rules for crypto-asset service providers and stablecoin issuers, bringing the sector closer to regulated finance."
-    ] }
+    {
+      "h": "Fintech: technology in financial services",
+      "b": "Fintech (financial technology) is the use of technology to deliver financial services and products to consumers. It is often faster, cheaper or more convenient than traditional providers, and it takes several distinct forms.",
+      "points": [
+        "Mobile banking lets customers check balances, move money and pay bills through an app on a phone, so routine banking no longer needs a branch visit.",
+        "Payment apps allow transfers between people and payments in shops and online. They are usually linked to a bank account or card, so they use existing bank money rather than creating a new kind of money.",
+        "Neobanks are digital-only banks with no branches. They rely on an app and online support as their main channel, which keeps their running costs low.",
+        "Robo-advisers use algorithms (sets of automated rules) to build and manage a simple investment portfolio, usually at a lower cost than a human adviser charges.",
+        "Open banking lets a customer give a regulated third party secure access to their bank account data, so that rival services can compete for business. In the EU it rests on the revised Payment Services Directive, PSD2 (Directive (EU) 2015/2366).",
+        "Buy-now-pay-later schemes offer instalment credit at the point of online checkout, which makes borrowing quick but easy to overuse.",
+        "Fintech is the technology and the firms using it, while a neobank is just one type of fintech bank. Open banking is data sharing with the customer's consent, whereas mobile banking is simply an app run by your own bank."
+      ],
+      "tip": "When asked about fintech, explain the type of service (what it does and why it matters) rather than naming apps from memory. This is a common mistake."
+    },
+    {
+      "h": "Opportunities and challenges of fintech for consumers",
+      "b": "Fintech changes what consumers can do with their money. A balanced answer sets the gains against the risks, because the same technology that widens access can also leave some people out or expose them to harm.",
+      "points": [
+        "Opportunities include lower fees, faster transactions, round-the-clock access and a wider choice of products, because digital providers have lower costs and do not depend on opening hours.",
+        "Financial inclusion: people without a nearby branch or with a thin credit history (little record of borrowing for a lender to judge) may gain access to basic accounts and payments.",
+        "Digital exclusion: older people and those without internet access or confidence with technology can be left behind, because services that move online may no longer be offered in person.",
+        "Fraud and security: customers manage money through devices, which raises the risk of account takeover (a criminal gaining control of an account), phishing (fake messages that trick people into giving away details) and data breaches.",
+        "Weaker protection: a consumer dealing with an unregulated or overseas firm may have little recourse (little chance of getting redress) if something goes wrong.",
+        "Easy credit and gamified investing (apps designed like games, with prompts and rewards) can encourage impulsive spending and risk-taking, so consumers need self-control and financial literacy.",
+        "Ethical angle: fintech depends on personal data, so privacy and the fairness of algorithms matter. The GDPR is the law on how personal data must be handled."
+      ],
+      "tip": "For an 'examine' question, give a mix of opportunities and challenges. Include inclusion and exclusion, security and protection, and keep the answer balanced."
+    },
+    {
+      "h": "How technology changes financial products",
+      "b": "Technology does not only add new apps. It changes how financial products are processed, priced, delivered and recorded, with effects on both providers and customers.",
+      "points": [
+        "Automation cuts the cost of processing applications and can give a lending decision in minutes rather than days, because software replaces manual checking.",
+        "Data analytics lets firms price products and assess creditworthiness (how likely a borrower is to repay) using more information. This can widen access for some customers but exclude other groups.",
+        "Digital channels move service away from branches, cutting costs for providers but reducing personal contact for customers, which matters most to those who prefer face-to-face help.",
+        "Distributed ledger technology is a shared database copied across many computers. It records transactions so that no single computer holds the only copy, and it underpins crypto-assets and some payment systems.",
+        "The ledger is the technology, while a crypto-asset is only one use of it, so the two terms should not be treated as the same thing.",
+        "Fairness: when algorithms decide who gets credit and at what price, the data they use and the way they treat different groups raise ethical questions."
+      ],
+      "tip": "For 'explain how technology affects the provision of a product', pick one product, name the technology and give the reason and the effect on the customer or the provider."
+    },
+    {
+      "h": "Central Bank Digital Currency",
+      "b": "Money does three jobs: it is a means of payment, a store of value and a unit of account. Cash is issued by the central bank, while the money in a bank account is a claim on a commercial bank. A Central Bank Digital Currency (CBDC) is an electronic form of cash for the digitalised world.",
+      "points": [
+        "A CBDC gives consumers the option to use central bank money in a digital format, complementing banknotes and coins rather than replacing them. The central bank for the euro area is the European Central Bank (ECB), working with national central banks such as the Central Bank of Ireland.",
+        "Because a CBDC is a liability of the central bank, holding it carries no credit risk, in the same way that holding cash does. There is no private firm that could fail and leave the holder out of pocket.",
+        "The ECB's digital euro is a proposed CBDC for the euro area, designed to sit alongside cash and give people an additional choice about how to pay.",
+        "The digital euro is in its preparation phase and the ECB has not decided whether to issue it. A pilot is planned for 2027 and a potential first issuance in 2029, but only if the EU adopts the necessary legislation, so these are targets, not fixed dates.",
+        "Advantages: a safe digital payment option available to everyone, less reliance on private payment networks, possibly lower costs and faster settlement, and inclusion for people without bank accounts.",
+        "Disadvantages: privacy concerns if the central bank could see payment data, cyber-security risk for the system, and the cost of building it and changing existing systems.",
+        "Disintermediation (cutting out the middleman) is a risk for banks: if people move large sums into a CBDC, banks lose deposits that fund their lending."
+      ],
+      "tip": "For 'discuss advantages and disadvantages of CBDC', keep it balanced with two points on each side, then a judgement. Always give the reason, for example 'because the central bank issues it, there is no credit risk'. Say it complements cash and never that it replaces cash."
+    },
+    {
+      "h": "Stablecoins and crypto-assets compared",
+      "b": "A CBDC, a stablecoin and a crypto-asset can all be digital, but they differ in who issues them and who is responsible if something goes wrong. A commercial bank balance is different again, because it is a claim on a bank and is covered by the deposit guarantee scheme up to a limit.",
+      "points": [
+        "A stablecoin is a crypto-asset whose stability and reliability depend on its issuer's pledge to redeem it at a stated value, and on the credibility and enforceability of that pledge. It is usually backed by reserves the issuer holds.",
+        "A crypto-asset has no single identifiable entity liable for it, so no one is legally responsible for redeeming it or making the holder whole.",
+        "Crypto-asset prices are set by supply and demand on trading platforms, which makes their value volatile (liable to swing sharply).",
+        "Issuer and liability: a CBDC is issued by the central bank and is its liability, a stablecoin rests on a private issuer's pledge, and a crypto-asset has no liable issuer at all.",
+        "Stability: the digital euro would be euro, so its value is the same as cash. A stablecoin aims to hold a stated value but depends on its issuer, and a crypto-asset's price swings.",
+        "Protection: a CBDC carries no credit risk, a stablecoin depends on the issuer and on regulation, and holders of crypto-assets have little recourse if something goes wrong.",
+        "Digital currency is not the same as paying by card or app, which uses existing bank money rather than a new kind of money."
+      ],
+      "tip": "For two differences between CBDC and crypto-assets, give each as a pair: CBDC is issued by the central bank and is its liability, while a crypto-asset has no single liable entity. Then add the effect on the holder. Saying both are 'digital money' and stopping is a common mistake, as is mixing up stablecoin and CBDC."
+    },
+    {
+      "h": "Impact of digital currency on consumers and businesses",
+      "b": "Digital currency affects each group differently. A good answer names the impact, explains why it happens and says who it affects, and avoids giving the same impact for consumers and for businesses.",
+      "points": [
+        "Consumers may gain lower transaction costs, faster settlement (payments completing sooner) and easier access to payments, which can help people without bank accounts.",
+        "Consumers may lose privacy if payment data is collected, which raises the ethical concern of surveillance in digital money.",
+        "Consumers may lose money to scams in unregulated crypto markets, particularly where risky crypto and gamified apps are marketed to young people.",
+        "Businesses may gain faster settlement and possibly lower payment costs. For example, faster settlement means a business receives money sooner, which improves its cash flow.",
+        "Businesses can also reach customers through new digital channels, which widens their market.",
+        "Businesses face cyber-security costs, the cost of changing systems to accept digital payments and the learning cost of training staff.",
+        "Banks and payment firms face competition from fintech firms and from a CBDC, and may need to change their business models to keep customers."
+      ],
+      "tip": "Do not just state a benefit. Explain why it happens and who it affects, and give a different impact for consumers than for businesses."
+    },
+    {
+      "h": "Crypto risks, regulation and sustainability",
+      "b": "Crypto-assets can be exciting to buy, but holders face risks that cash and bank deposits do not carry. The EU has responded with regulation of the providers, which brings the sector closer to regulated finance without removing the risks.",
+      "points": [
+        "Price volatility: crypto-asset values can swing sharply, so holders can lose most of their money quickly.",
+        "Fraud: fake exchanges, pump-and-dump schemes (where prices are pushed up artificially and then sold off) and phishing aimed at wallet holders target crypto users.",
+        "Loss of access: losing a private key or password can mean permanent loss of the asset, as no institution can restore it.",
+        "Limited protection: crypto holdings are not deposits, so the deposit guarantee scheme does not cover them and there is no guaranteed refund if a provider fails.",
+        "Money laundering and tax evasion risks are why providers are subject to anti-money laundering rules.",
+        "MiCA, the EU Markets in Crypto-Assets Regulation (Regulation (EU) 2023/1114), sets authorisation and conduct rules for crypto-asset service providers and issuers of stablecoin-type tokens. Its stablecoin rules apply from 30 June 2024 and the rest from 30 December 2024.",
+        "The Central Bank of Ireland is Ireland's competent authority under MiCA. MiCA does not remove volatility or guarantee holders' money, so protection remains limited.",
+        "Sustainability: some crypto-assets use large amounts of energy because of proof-of-work mining (computers competing to validate transactions), which compares badly with other systems. Fintech can also reduce paper and branch travel."
+      ],
+      "tip": "Describe MiCA as bringing providers under authorisation and conduct rules, and state that protection is still limited. Do not say that crypto is now safe."
+    }
   ],
   "keyTerms": [
     { "term": "Fintech", "definition": "Financial services delivered through technology, such as apps, online platforms and automated advice." },

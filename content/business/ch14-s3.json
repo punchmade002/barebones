@@ -4,59 +4,106 @@
   "subsection": "3. Human capital management, induction, training and development",
   "syllabusRef": "3.2.7, 3.2.8",
   "notes": [
-    { "h": "Human capital and human capital management", "b": "Human capital is the knowledge, skills, experience and abilities that employees bring to a business, and it can be a source of competitive advantage.", "points": [
-      "Human capital is hard for competitors to copy, because a team's combined know-how and working relationships take years to build.",
-      "Human capital management is the strategic approach to attracting, developing, retaining and deploying people so that their value to the business grows.",
-      "HCM links people decisions to business goals, so recruitment, training and reward support the strategy rather than being handled in isolation.",
-      "HCM treats employee development as an investment, and its returns show up in productivity, quality, retention and innovation.",
-      "Learning from experience adds to human capital, because each new skill or insight stays with the person even when their role changes."
-    ] },
-    { "h": "The organisational environment", "b": "The organisational environment shapes how well human capital is developed and used.", "points": [
-      "Organisational culture determines whether people feel free to share ideas, admit mistakes and ask for help, which directly affects learning.",
-      "Leadership sets priorities for development and models learning behaviour, so leaders who support training make it more likely to happen.",
-      "Resources, including budget, time and access to tools, determine how much training is possible.",
-      "A learning climate encourages curiosity and feedback, so staff see learning as part of their job rather than an extra task.",
-      "An organisation that offers no development opportunities risks losing skilled staff to competitors that do."
-    ] },
-    { "h": "Induction (onboarding)", "b": "Induction, also called onboarding, is the process that introduces a new employee to the organisation and to their role.", "points": [
-      "Induction covers the organisation's purpose, structure, policies and culture, so the new employee understands how the business works.",
-      "It introduces the role itself, including duties, performance expectations and who to go to for help.",
-      "It covers health and safety information, equipment, systems and the practical details of the first weeks.",
-      "Effective induction reduces the time a new employee takes to become productive and lowers the chance of early resignation.",
-      "For the employee, induction reduces anxiety and helps them build working relationships; for the employer, it protects the investment made in recruitment."
-    ] },
-    { "h": "Types of training and development", "b": "Training and development can take place on the job or away from it, and each type suits different needs.", "points": [
-      "On-the-job training happens in the normal work setting, so the learner applies new skills immediately and the cost of time away from work is low.",
-      "Coaching is one-to-one guidance from a more experienced person, focused on improving a specific skill or performance.",
-      "Mentoring is a longer-term relationship with a more experienced person who offers advice and support on career and development.",
-      "Job rotation moves employees between roles, which builds breadth of skills and understanding of the organisation.",
-      "Off-the-job training includes external courses, workshops and seminars, which can bring in knowledge from outside the business.",
-      "E-learning delivers training online at the learner's own pace, which is flexible and easy to scale across many locations.",
-      "Further education, such as part-time degrees or diplomas, develops formal qualifications that benefit both the employee and the employer.",
-      "Continuing professional development is ongoing learning that keeps professionals up to date, and many professional bodies require it."
-    ] },
-    { "h": "Benefits of training and development", "b": "Ongoing development benefits both the employer and the employee, which is why it is more than a one-off event.", "points": [
-      "For the employer, training improves productivity and quality, so staff make fewer errors and work more efficiently.",
-      "For the employer, development helps close skills gaps, reducing the need to recruit externally for specialist roles.",
-      "For the employer, staff who see a future with the business are more likely to stay, which reduces turnover costs.",
-      "For the employer, developed staff are better placed to adopt new technology and to contribute ideas for innovation.",
-      "For the employee, development builds skills and qualifications that increase employability and career options.",
-      "For the employee, learning new things raises confidence, job satisfaction and a sense of progress.",
-      "Ongoing development helps organisations adapt to change, since skills that are current today may need updating as technology and markets shift."
-    ] },
-    { "h": "Learning from experience", "b": "Employees learn from experience through reflection and feedback, and this learning can be built into everyday work.", "points": [
-      "Kolb's experiential learning cycle describes learning as a loop of four stages: concrete experience, reflective observation, abstract conceptualisation and active experimentation.",
-      "Reflection, such as reviewing what went well and what did not after a task, turns experience into usable lessons.",
-      "Feedback from colleagues, managers or customers shows the learner what to keep doing and what to change.",
-      "Learning from experience works best in a supportive culture where mistakes are treated as learning opportunities.",
-      "Informal learning, such as watching an experienced colleague handle a difficult customer, adds to formal training and is often the most relevant form of learning for a role."
-    ] },
-    { "h": "Evaluating training", "b": "Training is worth its cost only if it changes behaviour and performance, so organisations need ways to check its results.", "points": [
-      "Evaluation checks whether the learner gained the intended knowledge or skill, for example through a test or a practical demonstration.",
-      "A useful evaluation also checks whether the learning is applied at work, by looking for changes in behaviour and output.",
-      "Feedback from the learner shows whether the training was relevant, well delivered and worth repeating.",
-      "Organisations should compare training costs with benefits such as fewer errors or lower turnover, although some benefits are hard to measure."
-    ] }
+    {
+      "h": "Human capital and human capital management",
+      "b": "A business owns machines and premises, but its people are also an asset, one that can grow in value. Human capital is the term for this asset, and human capital management is the way a business looks after it.",
+      "points": [
+        "Human capital is defined as the competencies embodied in people, invested in, and developed to help them to be more productive and realise their potential. In other words, employees are an asset whose value can increase.",
+        "Human capital is hard for competitors to copy, because a team's combined know-how and working relationships take years to build. This is why it can be a source of competitive advantage.",
+        "Human capital management (HCM) is the strategic approach to attracting, developing, retaining and deploying people so that their value to the business grows. Human capital is the asset; HCM is the strategy for it.",
+        "HCM links people decisions to business goals, so recruitment, training and reward support the strategy rather than being handled in isolation.",
+        "HCM treats employee development as an investment, and its returns show up in productivity, quality, retention (keeping staff) and innovation.",
+        "Learning from experience adds to human capital, because each new skill or insight stays with the person even when their role changes."
+      ],
+      "tip": "Common mistakes are confusing HCM with routine HR administration and mixing up human capital (the asset) with HCM (the strategy). Define human capital using the competencies, invested in and developed wording."
+    },
+    {
+      "h": "The organisational environment",
+      "b": "The same training can succeed in one business and fail in another. The organisational environment, meaning the conditions inside the business, shapes how well human capital is developed and used.",
+      "points": [
+        "Organisational culture (the shared values and ways of behaving in a business) determines whether people feel free to share ideas, admit mistakes and ask for help, which directly affects learning.",
+        "Leadership sets priorities for development and models learning behaviour, so leaders who support training make it more likely to happen.",
+        "Resources, including budget, time and access to tools, limit how much training is possible, because even keen staff cannot train without them.",
+        "A learning climate encourages curiosity and feedback, so staff see learning as part of their job rather than an extra task.",
+        "An organisation that offers no development opportunities risks losing skilled staff to competitors that do."
+      ],
+      "tip": "When asked how the organisational environment affects HCM, give culture, leadership, resources and learning climate, with an effect for each, rather than just listing them."
+    },
+    {
+      "h": "Induction (onboarding)",
+      "b": "Once a new employee has accepted the job, the first weeks decide how quickly they settle in. Induction, also called onboarding, is the process that introduces a new employee to the organisation, its policies and their role.",
+      "points": [
+        "Induction covers the organisation's purpose, structure, policies and culture, so the new employee understands how the business works. A small firm that gives new staff a first-week induction is a sample business doing this.",
+        "It introduces the role itself, including duties, performance expectations and who to go to for help.",
+        "It covers health and safety information, equipment, systems and the practical details of the first weeks, so nothing basic is left for the new starter to guess.",
+        "For the employee, induction reduces anxiety, speeds up understanding of the role and helps them build working relationships quickly.",
+        "For the employer, effective induction reduces the time a new employee takes to become productive and lowers the chance of early resignation, which protects the investment made in recruitment.",
+        "Online induction can be delivered through a digital platform, which is useful when new staff start in different locations."
+      ],
+      "tip": "Induction and onboarding mean the same thing, and a true/false item can test this. A common mistake is confusing induction (for new starters) with training in general (for any staff)."
+    },
+    {
+      "h": "Types of training and development",
+      "b": "Training and development can take place on the job or away from it, and each type suits different needs. A business chooses between them by weighing cost, relevance, disruption and the outside knowledge it needs.",
+      "points": [
+        "On-the-job training happens in the normal work setting, so the learner uses new skills immediately and the cost of time away from work is low.",
+        "Coaching is one-to-one guidance from a more experienced person, focused on improving a specific skill or performance, usually over a short period.",
+        "Mentoring is a longer-term relationship with a more experienced person who offers advice and support on career and development, so it is wider than coaching.",
+        "Job rotation moves employees between roles, which builds breadth of skills and understanding of the organisation. Here it is a training method, though it can also be used to motivate.",
+        "Off-the-job training includes external courses, workshops and seminars, which can bring in knowledge from outside the business, though staff are away from their work while they attend.",
+        "E-learning delivers training online at the learner's own pace, which is flexible and easy to scale across many locations. It also cuts travel, which helps sustainability.",
+        "Further education, such as part-time degrees or diplomas, develops formal qualifications that benefit both the employee and the employer.",
+        "Continuing professional development (CPD) is ongoing learning that keeps professionals up to date, and many professional bodies require it. Unlike further education, its aim is keeping skills current rather than gaining a qualification."
+      ],
+      "tip": "When asked for types of training, give a one-line distinction for each, such as on-the-job versus off-the-job and coaching versus mentoring, and say when each suits. A common mistake is listing types without saying when each is suitable."
+    },
+    {
+      "h": "Benefits of training and development",
+      "b": "Ongoing development benefits both the employer and the employee, which is why it is more than a one-off event. A full answer covers both sides.",
+      "points": [
+        "For the employer, training improves productivity and quality, so staff make fewer errors and work more efficiently.",
+        "For the employer, development helps close skills gaps (the difference between the skills the business needs and the skills its staff have), reducing the need to recruit externally for specialist roles.",
+        "For the employer, staff who see a future with the business are more likely to stay, which reduces turnover (staff leaving) costs.",
+        "For the employer, developed staff are better placed to adopt new technology and to contribute ideas for innovation.",
+        "For the employee, development builds skills and qualifications that increase employability and career options.",
+        "For the employee, learning new things raises confidence, job satisfaction and a sense of progress.",
+        "Ongoing development helps organisations adapt to change, since skills that are current today may need updating as technology and markets shift. Digital skills training for automation or AI is an example."
+      ],
+      "tip": "A common mistake is giving employer benefits only. Cover the employee as well, and tie ongoing development to the technology and market change in the case you are given."
+    },
+    {
+      "h": "Learning from experience",
+      "b": "People do not only learn on courses. Employees learn from experience through reflection and feedback, and this learning can be built into everyday work.",
+      "points": [
+        "Kolb's experiential learning cycle describes learning as a loop of four stages: concrete experience, reflective observation, abstract conceptualisation and active experimentation.",
+        "Reflection, such as reviewing what went well and what did not after a task, turns experience into usable lessons.",
+        "Feedback from colleagues, managers or customers shows the learner what to keep doing and what to change.",
+        "Learning from experience works best in a supportive culture where mistakes are treated as learning opportunities, because people then admit errors instead of hiding them.",
+        "Informal learning, such as watching an experienced colleague handle a difficult customer, adds to formal training and is often the most relevant form of learning for a role."
+      ]
+    },
+    {
+      "h": "Evaluating training",
+      "b": "Training is worth its cost only if it changes behaviour and performance, so organisations need ways to check its results.",
+      "points": [
+        "Evaluation checks whether the learner gained the intended knowledge or skill, for example through a test or a practical demonstration.",
+        "A useful evaluation also checks whether the learning is applied at work, by looking for changes in behaviour and output.",
+        "Feedback from the learner shows whether the training was relevant, well delivered and worth repeating.",
+        "Organisations should compare training costs with benefits such as fewer errors or lower turnover, although some benefits are hard to measure."
+      ]
+    },
+    {
+      "h": "Ethical, sustainable and digital angles",
+      "b": "Training decisions raise questions of fairness, long-term thinking and technology, and these can be applied to any case.",
+      "points": [
+        "Ethics: all staff, including part-time, remote and older workers, should have equal access to training, and selection for development should be fair.",
+        "Ethics: a business acts honestly when it treats training as an investment in people, not only as something done to meet compliance requirements.",
+        "Sustainability: e-learning reduces travel, and training in sustainable practice builds green skills for the business.",
+        "Sustainability: human capital is a long-term asset, because skills built up over time keep the business going in the future.",
+        "Digital: e-learning platforms and online induction deliver training widely, and digital skills training helps staff cope with technology change such as automation and AI.",
+        "Digital: learner data, such as test results and training records, must be protected under GDPR, Regulation (EU) 2016/679, which has applied since 25 May 2018."
+      ]
+    }
   ],
   "keyTerms": [
     { "term": "Human capital", "definition": "The knowledge, skills, experience and abilities that employees bring to a business, which create value for it." },

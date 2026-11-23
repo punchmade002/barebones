@@ -4,51 +4,127 @@
   "subsection": "1. Why communication matters and how to improve it",
   "syllabusRef": "3.3.1, 3.3.4",
   "notes": [
-    { "h": "Six purposes of effective communication", "b": "Communication serves six purposes in an organisation, and each can be illustrated with a workplace example.", "points": [
-      "Supporting collaboration: a construction crew that shares daily updates on site progress can coordinate deliveries so that work does not clash.",
-      "Avoiding conflict: a store manager who explains a new rota clearly before it starts reduces disputes about shift changes.",
-      "Increasing engagement: a company that shares quarterly results with staff helps them see how their work affects the outcome, which makes them more committed.",
-      "Promoting positive culture: a team leader who thanks staff in open meetings reinforces values such as respect and recognition.",
-      "Managing change: a bank that explains a new online system in advance, with training dates, helps staff accept the change rather than resist it.",
-      "Promoting innovation: an open suggestion scheme lets a junior employee's idea to reduce packaging waste reach the management team."
-    ] },
-    { "h": "Barriers to effective communication", "b": "A barrier is anything that stops a message from being understood, and knowing the common barriers helps a business prevent them.", "points": [
-      "Jargon: technical or specialist terms confuse listeners who do not share the same knowledge, so the message is lost.",
-      "Information overload: receiving too many messages makes it hard to identify the ones that matter.",
-      "Poor listening: a listener who is distracted or who interrupts may miss key points or misunderstand them.",
-      "Wrong medium: a complex change explained in a short text message may be misunderstood, while a simple reminder may not need a meeting.",
-      "Culture and language: differences in customs or first language can change how a message is read and whether it is understood.",
-      "Hierarchy: employees may hesitate to question senior managers, so problems stay hidden.",
-      "Timing: a message delivered at a busy moment, or after a decision has been made, may be ignored or resented."
-    ] },
-    { "h": "Setting clear goals", "b": "Communication is more effective when its purpose is defined before the message is sent.", "points": [
-      "A clear goal states what the communication must achieve, such as agreement on a deadline or understanding of a new procedure.",
-      "Clear goals help the sender choose content, so the message includes what the receiver needs and nothing that distracts from it.",
-      "Goals should be specific enough for the sender to check whether they were met, such as staff confirming they have read a safety update.",
-      "Agreed goals across a team reduce confusion about what each person is responsible for communicating and to whom."
-    ] },
-    { "h": "Listening actively", "b": "Active listening means concentrating fully on the speaker and checking understanding, rather than waiting for a turn to speak.", "points": [
-      "Active listeners give full attention, avoid interrupting and show engagement through eye contact and nods.",
-      "Paraphrasing, which means restating the speaker's point in your own words, confirms that the message has been understood.",
-      "Open questions encourage the speaker to explain more fully, revealing concerns that a closed question might miss.",
-      "Active listening builds trust, because people who feel heard are more willing to share information and raise problems."
-    ] },
-    { "h": "Ensuring ongoing engagement", "b": "Engagement has to be sustained over time, not limited to a single announcement.", "points": [
-      "Regular updates, such as weekly team briefings, keep employees informed and reduce rumour.",
-      "Two-way discussion, such as team meetings where staff can ask questions, keeps people involved rather than merely informed.",
-      "Follow-up, such as checking that a message was understood and acted on, shows that the communication is taken seriously."
-    ] },
-    { "h": "Choosing the correct mode", "b": "The mode of communication, meaning the method used to deliver a message, should suit both the message and the audience.", "points": [
-      "Urgent or sensitive messages usually need a fast, direct mode such as a phone call or face-to-face meeting rather than a written notice.",
-      "A message that must be kept on record, such as a change in company policy, suits a written mode that can be stored and referred back to.",
-      "A message that needs questions answered works better in a two-way mode than in a one-way notice."
-    ] },
-    { "h": "Feedback and two-way channels", "b": "Two-way communication lets the receiver respond, which is essential for checking understanding and finding problems early.", "points": [
-      "Feedback is information returned to the sender about how a message was received, such as questions, objections or a completed task.",
-      "Two-way channels include team meetings, suggestion boxes, staff surveys and open-door sessions with managers.",
-      "A one-way channel such as a notice on a board gives no direct response, so it cannot show whether the message was understood.",
-      "Organisations that gather and act on feedback show employees that their views matter, which supports engagement and trust."
-    ] }
+    {
+      "h": "How communication works",
+      "b": "Communication is the exchange of information between a sender and a receiver. A business needs a clear picture of its parts before it can find out why a message fails.",
+      "points": [
+        "The five parts are the sender (who starts the message), the message itself, the mode (the medium or method used to deliver it), the receiver, and feedback, which is the receiver's response back to the sender.",
+        "Feedback completes the process, because without it the sender cannot tell whether the message arrived or was understood.",
+        "A message is effective when the receiver understands it as the sender meant it and can act on it, so a message that was sent but misread has failed.",
+        "Internal communication runs downward (managers to staff), upward (staff to managers) and horizontal (between colleagues). External communication runs to customers, suppliers and other stakeholders."
+      ],
+      "tip": "Keep a barrier (anything that stops understanding) separate from a mode (the method used), and feedback (what comes back) separate from a two-way channel (the route that lets it come back)."
+    },
+    {
+      "h": "Six purposes of effective communication",
+      "b": "Effective communication is not just good manners. It does six jobs inside an organisation, and each can be shown with a workplace example.",
+      "points": [
+        "Supporting collaboration: shared information lets people coordinate tasks, hand work over and avoid duplication. For example, a construction crew that shares daily updates on site progress can coordinate deliveries so that work does not clash.",
+        "Avoiding conflict: clear, timely explanation of decisions and expectations prevents misunderstanding and disputes. For example, a store manager who explains a new rota clearly before it starts reduces disputes about shift changes.",
+        "Increasing engagement (staff commitment to the organisation's goals): a company that shares quarterly results with staff helps them see how their work affects the outcome, which makes them more committed.",
+        "Promoting positive culture: recognition and respectful communication reinforce shared values. For example, a team leader who thanks staff in open meetings reinforces values such as respect and recognition.",
+        "Managing change: explaining why a change is happening, what it involves and when, reduces uncertainty and resistance. For example, a bank that explains a new online system in advance, with training dates, helps staff accept the change rather than resist it.",
+        "Promoting innovation: open channels let ideas from any level reach decision makers. For example, an open suggestion scheme lets a junior employee's idea to reduce packaging waste reach the management team."
+      ],
+      "tip": "If a question asks for reasons other than one purpose, such as avoiding conflict, leave that one out. Pick three distinct purposes, give the reason and the effect on the business for each, and tie them to the business in the question. A common mistake is giving labels with no explanation, or three reasons that are really one, such as engagement and positive culture restated."
+    },
+    {
+      "h": "What good and poor communication mean for the business",
+      "b": "Each purpose links to an outcome for the business and its stakeholders. When communication is poor, the opposite happens.",
+      "points": [
+        "Good communication leads to fewer errors, less wasted time, better staff retention and better service to customers, because staff know what to do and feel valued.",
+        "Poor communication has the opposite effect: errors, rumour, disputes, low morale and missed ideas, because staff are left guessing and problems or suggestions never reach those who can act.",
+        "A strong answer links each purpose to an outcome rather than just naming it. For example, explaining a change in advance (managing change) means less resistance and fewer mistakes during the switch."
+      ],
+      "tip": "Examiners ask you to explain, which means giving reasons or causes. After naming a purpose, say what it improves for the business or its staff."
+    },
+    {
+      "h": "Barriers to effective communication",
+      "b": "A barrier to communication is anything that stops a message from being understood. Knowing the common barriers helps a business prevent them.",
+      "points": [
+        "Jargon: technical or specialist terms confuse listeners who do not share the same knowledge, so the message is lost.",
+        "Information overload: receiving too many messages makes it hard to identify the ones that matter.",
+        "Poor listening: a listener who is distracted or who interrupts may miss key points or misunderstand them.",
+        "Wrong medium: a complex change explained in a short text message may be misunderstood, while a simple reminder may not need a meeting.",
+        "Culture and language: differences in customs or first language can change how a message is read and whether it is understood.",
+        "Hierarchy: employees may hesitate to question senior managers, so problems stay hidden.",
+        "Timing: a message delivered at a busy moment, or after a decision has been made, may be ignored or resented."
+      ],
+      "tip": "A barrier is not an improvement. If a question asks for ways to improve communication, naming a barrier instead of a fix is a common mistake."
+    },
+    {
+      "h": "Setting clear goals",
+      "b": "Communication is more effective when its purpose is defined before the message is sent. This is the first way to improve it.",
+      "points": [
+        "A clear goal states what the communication must achieve, such as agreement on a deadline or understanding of a new procedure.",
+        "Clear goals help the sender choose content, so the message includes what the receiver needs and nothing that distracts from it.",
+        "Goals should be specific enough for the sender to check whether they were met, such as staff confirming they have read a safety update.",
+        "Agreed goals across a team reduce confusion about what each person is responsible for communicating and to whom."
+      ],
+      "tip": "For two ways to improve communication, say how each works and what it improves for the business, not just its name."
+    },
+    {
+      "h": "Listening actively",
+      "b": "Active listening means concentrating fully on the speaker and checking understanding, rather than waiting for a turn to speak. It is a skill of the listener, which is different from simply hearing.",
+      "points": [
+        "Active listeners give full attention, avoid interrupting and show engagement through eye contact and nods.",
+        "Paraphrasing, which means restating the speaker's point in your own words rather than repeating it word for word, confirms that the message has been understood.",
+        "Open questions (ones that cannot be answered with just yes or no) encourage the speaker to explain more fully, revealing concerns that a closed question might miss.",
+        "Active listening builds trust, because people who feel heard are more willing to share information and raise problems."
+      ]
+    },
+    {
+      "h": "Ensuring ongoing engagement",
+      "b": "Engagement, meaning commitment to the organisation's goals, has to be sustained over time, not limited to a single announcement.",
+      "points": [
+        "Regular updates, such as weekly team briefings, keep employees informed and reduce rumour, because gaps in information tend to be filled by guesses.",
+        "Two-way discussion, such as team meetings where staff can ask questions, keeps people involved rather than merely informed.",
+        "Follow-up, such as checking that a message was understood and acted on, shows that the communication is taken seriously."
+      ],
+      "tip": "Engagement (commitment to goals) is not the same as motivation (the drive to work). Also, give a limit when asked to discuss: too many updates can cause information overload."
+    },
+    {
+      "h": "Choosing the correct mode",
+      "b": "The mode of communication, meaning the method used to deliver a message, should suit both the message and the audience. Here it is one improvement among several.",
+      "points": [
+        "Urgent or sensitive messages usually need a fast, direct mode such as a phone call or face-to-face meeting rather than a written notice.",
+        "A message that must be kept on record, such as a change in company policy, suits a written mode that can be stored and referred back to.",
+        "A message that needs questions answered works better in a two-way mode than in a one-way notice."
+      ],
+      "tip": "If a question says other than choosing the mode, do not use it. Choose from setting clear goals, listening actively or ensuring ongoing engagement instead."
+    },
+    {
+      "h": "Feedback and two-way channels",
+      "b": "Two-way communication lets the receiver respond, which is essential for checking understanding and finding problems early.",
+      "points": [
+        "Feedback is information returned to the sender about how a message was received, such as questions, objections or a completed task.",
+        "Two-way channels, the routes that let feedback come back, include team meetings, suggestion boxes, staff surveys and open-door sessions with managers.",
+        "A one-way channel such as a notice on a board, a circular, a recorded announcement or an email with no invitation to reply gives no direct response, so it cannot show whether the message was understood.",
+        "Organisations that gather and act on feedback show employees that their views matter, which supports engagement and trust."
+      ],
+      "tip": "Two-way channels only help if management acts on the feedback. Use this as the limit in a discuss answer."
+    },
+    {
+      "h": "Matching improvements to barriers",
+      "b": "Each improvement works because it removes a particular barrier, so linking them shows you understand why the improvement helps.",
+      "points": [
+        "Plain language overcomes jargon, because the receiver no longer needs specialist knowledge to follow the message.",
+        "Active listening overcomes poor listening, because the listener concentrates, checks understanding and does not interrupt.",
+        "An open-door session with managers reduces the hierarchy barrier, because staff get a safe route to raise problems with senior people."
+      ]
+    },
+    {
+      "h": "Ethical, digital and sustainability angles",
+      "b": "Communication choices also raise questions of fairness, technology and environmental impact, and exam stimuli may bring them in.",
+      "points": [
+        "Ethics: honest and timely communication, especially about change, treats staff fairly. Hiding bad news or misleading staff damages trust.",
+        "Communication should be accessible, using plain language, translation or adjustment for staff whose first language differs or who have a disability, and it should respect confidentiality.",
+        "Digital: collaboration platforms and instant messaging make two-way communication quicker, but notification overload and always-on messaging add to information overload.",
+        "Digital channels need clear norms about which tool is used for what, so that messages are not lost or duplicated.",
+        "Sustainability: using email and shared platforms instead of print and travel can cut paper and emissions, although data and devices still use energy."
+      ],
+      "tip": "Include the ethical and digital angle when the stimulus gives one, for example honest communication about a change, or digital tools and overload."
+    }
   ],
   "keyTerms": [
     { "term": "Active listening", "definition": "Concentrating fully on a speaker, checking understanding and responding, rather than waiting to speak." },
