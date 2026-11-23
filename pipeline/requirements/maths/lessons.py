@@ -298,7 +298,7 @@ def outputs(reviewed=True):
     return outs
 
 
-def review_pack(cap=55_000, most=10):
+def review_pack(cap=55_000, most=10, only=()):
     """Pack every lesson with its unused candidates into review/Rnn.json for a Sonnet reviewer (REVIEW.md)."""
     outs, js = outputs(reviewed=False), jobs()
     d = WORK / 'review'
@@ -308,7 +308,7 @@ def review_pack(cap=55_000, most=10):
     seen = {o['skill'] for f in old for o in json.loads(f.read_text())}   # review only lessons not reviewed yet
     batches, cur, size = [], [], 0
     for sid, job in js.items():
-        if sid in seen:
+        if (sid not in only) if only else (sid in seen):   # only: re-review these (rebuilt) lessons
             continue
         used = {p['part'] for p in outs[sid]['problems']}
         item = dict(skill=job['skill'], lesson=outs[sid]['problems'],
@@ -417,4 +417,4 @@ def fix():
 
 if __name__ == '__main__':
     {'pack': lambda: pack(*sys.argv[2:3], only=sys.argv[3:]), 'check': check, 'assemble': assemble, 'fix': fix,
-     'review': review_pack, 'report': lambda: print(json.dumps(review_report(), indent=1))}[sys.argv[1]]()
+     'review': lambda: review_pack(only=sys.argv[2:]), 'report': lambda: print(json.dumps(review_report(), indent=1))}[sys.argv[1]]()
