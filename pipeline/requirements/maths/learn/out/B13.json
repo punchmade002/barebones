@@ -1,0 +1,547 @@
+[
+ {
+  "skill": "eq-linear",
+  "what": {
+   "say": [
+    "You give it an equation with $x$ on one or both sides. It finds the one value of $\\hl{2}{x}$ that makes both sides equal.",
+    "The key idea: whatever you do to one side, do to the other. Use that to get every $x$ term on one side and every number on the other."
+   ],
+   "in": "$ax+b=cx+d$",
+   "out": "$x$"
+  },
+  "how": {
+   "higher": "Higher level almost never asks for it alone. It is the last step inside a bigger part: finding an unknown in a line, a sequence or a function, on both papers.",
+   "ordinary": "Ordinary level asks for it directly, usually as part (a) of an early Paper 1 question, worth 5 to 15 marks. It is a main skill in 12 parts over 11 years."
+  },
+  "example": {
+   "question": "Solve $4(x - 3) + 5 = 2x + 9$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Remove the bracket",
+      "say": "Multiply every term in the bracket by $4$. Then tidy the numbers on the left.",
+      "lines": [
+       {
+        "tex": "4(x - 3) + 5 &= 2x + 9",
+        "sym": "Eq(4*(x-3)+5,2*x+9)",
+        "new": true
+       },
+       {
+        "tex": "4x - 12 + 5 &= 2x + 9",
+        "sym": "Eq(4*x-12+5,2*x+9)"
+       },
+       {
+        "tex": "4x - 7 &= 2x + 9",
+        "sym": "Eq(4*x-7,2*x+9)"
+       }
+      ]
+     },
+     {
+      "title": "Collect the x terms",
+      "say": "Take $\\hl{1}{2x}$ from both sides so the $x$ terms are on the left. Then add $7$ to both sides so the numbers are on the right.",
+      "lines": [
+       {
+        "tex": "4x - \\hl{1}{2x} &= 9 + 7",
+        "sym": "Eq(4*x-2*x,9+7)"
+       },
+       {
+        "tex": "2x &= 16",
+        "sym": "Eq(2*x,16)"
+       },
+       {
+        "text": "Whatever you do to one side, do to the other."
+       }
+      ]
+     },
+     {
+      "title": "Divide to find x",
+      "say": "Divide both sides by $2$ to leave $\\hl{2}{x}$ on its own.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{x} &= 8",
+        "sym": "Eq(x,8)"
+       }
+      ]
+     },
+     {
+      "title": "Check the answer",
+      "say": "Put $x = 8$ back into the original equation. Both sides must match.",
+      "lines": [
+       {
+        "tex": "4(8 - 3) + 5 &= 25",
+        "sym": "4*(8-3)+5-25+25",
+        "new": true
+       },
+       {
+        "tex": "2(8) + 9 &= 25",
+        "sym": "2*8+9"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 8"
+   },
+   "finalSym": "[8]",
+   "answerSym": "solve(Eq(4*(x-3)+5,2*x+9),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "If the question does not say how to solve it, still solve it by algebra. Checking a guess in the equation is only accepted as supporting work, not as the method.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q1#(a)",
+       "quote": "If equation is not solved algebraically"
+      }
+     ]
+    },
+    {
+     "tip": "Writing the equation down correctly earns marks before you solve it. Show that setup line.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q5#(a)",
+       "quote": "Work of merit in establishing equation"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "The marks follow the steps: remove the bracket, move terms across, then solve. Show each one.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q4#(a)",
+       "quote": "Three steps involved in solution:"
+      }
+     ]
+    },
+    {
+     "tip": "Multiply every term in the bracket. Missing one loses the first step.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q4#(a)",
+       "quote": "Distribution of 4"
+      }
+     ]
+    },
+    {
+     "tip": "Transposing (moving terms across the equals sign) is its own step in the scheme. Do it on a separate line.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q4#(a)",
+       "quote": "Transposing"
+      }
+     ]
+    },
+    {
+     "tip": "Even one correct operation earns something, so never leave the part blank.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p1-q4#(a)",
+       "quote": "Two steps correct"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "eq-linear-fractions",
+  "what": {
+   "say": [
+    "You give it a linear equation where the $x$ terms sit over numbers, like $\\frac{x+3}{2}$. It finds $\\hl{2}{x}$ the same way as any linear equation, once the fractions are gone.",
+    "The key idea: multiply **every** term by the common denominator. The fractions cancel and a plain linear equation is left."
+   ],
+   "in": "equation with fractions",
+   "out": "$x$"
+  },
+  "how": {
+   "higher": "Higher level never tests it as a part of its own. It appears inside bigger parts, such as a mean with an unknown frequency or a speed and time problem.",
+   "ordinary": "Ordinary level asks for it directly as part (a) of an early Paper 1 question, worth 10 marks. It is a main skill in 3 parts over 11 years."
+  },
+  "example": {
+   "question": "Solve $\\dfrac{x + 3}{2} + \\dfrac{x - 1}{4} = 5$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the common denominator",
+      "say": "The denominators are $2$ and $4$. The smallest number both go into is $\\hl{1}{4}$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{x + 3}{2} + \\dfrac{x - 1}{4} &= 5",
+        "sym": "Eq((x+3)/2+(x-1)/4,5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Multiply every term",
+      "say": "Multiply each term by $\\hl{1}{4}$, including the $5$ on the right. Each fraction cancels.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{4}\\cdot\\dfrac{x + 3}{2} + \\hl{1}{4}\\cdot\\dfrac{x - 1}{4} &= \\hl{1}{4}\\cdot 5",
+        "sym": "Eq(4*((x+3)/2)+4*((x-1)/4),4*5)"
+       },
+       {
+        "tex": "2(x + 3) + (x - 1) &= 20",
+        "sym": "Eq(2*(x+3)+(x-1),20)"
+       },
+       {
+        "text": "The $5$ on the right is multiplied too. It is easy to forget."
+       }
+      ]
+     },
+     {
+      "title": "Tidy the left side",
+      "say": "Remove the bracket and collect the $x$ terms and the numbers.",
+      "lines": [
+       {
+        "tex": "2x + 6 + x - 1 &= 20",
+        "sym": "Eq(2*x+6+x-1,20)"
+       },
+       {
+        "tex": "3x + 5 &= 20",
+        "sym": "Eq(3*x+5,20)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Take $5$ from both sides, then divide by $3$.",
+      "lines": [
+       {
+        "tex": "3x &= 15",
+        "sym": "Eq(3*x,15)"
+       },
+       {
+        "tex": "\\hl{2}{x} &= 5",
+        "sym": "Eq(x,5)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 5"
+   },
+   "finalSym": "[5]",
+   "answerSym": "solve(Eq((x+3)/2+(x-1)/4,5),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Name the common denominator. The scheme gives marks for identifying it.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q2#(a)",
+       "quote": "12 identified as common denominator"
+      }
+     ]
+    },
+    {
+     "tip": "Some correct multiplication is worth marks even if the rest goes wrong. Show it line by line.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q4#(a)",
+       "quote": "Some relevant multiplication"
+      }
+     ]
+    },
+    {
+     "tip": "You may find the answer by trial and improvement, but only if you verify the value for full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p1-q4#(a)",
+       "quote": "Accept Trial and Improvement"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "eq-surd",
+  "what": {
+   "say": [
+    "You give it an equation with $x$ under a square root, like $\\sqrt{f(x)} = g(x)$. It finds the values of $x$ that really work.",
+    "The key idea: square both sides to remove the root. Squaring can add false answers, so every solution must be **checked** in the original equation."
+   ],
+   "in": "$\\sqrt{f(x)}=g(x)$",
+   "out": "$x$, false roots rejected"
+  },
+  "how": {
+   "higher": "Higher level asks for it as a 10 mark part of its own on Paper 1 (2024) and as a step inside longer applied parts, such as a time or distance problem. It is a main skill in 5 parts over 11 years."
+  },
+  "example": {
+   "question": "Solve $\\sqrt{3x + 10} = x + 2$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Square both sides",
+      "say": "Square both sides to remove the root. Square the whole of $x + 2$, not each term.",
+      "lines": [
+       {
+        "tex": "\\sqrt{3x + 10} &= x + 2",
+        "sym": "Eq(sqrt(3*x+10),x+2)",
+        "new": true
+       },
+       {
+        "tex": "3x + 10 &= (x + 2)^2",
+        "sym": "Eq(3*x+10,(x+2)**2)",
+        "new": true
+       },
+       {
+        "tex": "3x + 10 &= x^2 + 4x + 4",
+        "sym": "Eq(3*x+10,x**2+4*x+4)"
+       }
+      ]
+     },
+     {
+      "title": "Make a quadratic",
+      "say": "Move everything to one side so it equals $0$, then factorise.",
+      "lines": [
+       {
+        "tex": "0 &= x^2 + x - 6",
+        "sym": "Eq(0,x**2+x-6)"
+       },
+       {
+        "tex": "0 &= (x + 3)(x - 2)",
+        "sym": "Eq(0,(x+3)*(x-2))"
+       },
+       {
+        "tex": "x &= 2",
+        "sym": "Eq(x,2)",
+        "new": true
+       },
+       {
+        "tex": "x &= -3",
+        "sym": "Eq(x,-3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Test x = 2",
+      "say": "Put $x = 2$ into the original equation, not the squared one.",
+      "lines": [
+       {
+        "tex": "\\sqrt{3(2) + 10} &= \\sqrt{16}",
+        "sym": "sqrt(3*2+10)",
+        "new": true
+       },
+       {
+        "tex": "&= 4",
+        "sym": "4"
+       },
+       {
+        "tex": "2 + 2 &= 4",
+        "sym": "2+2"
+       },
+       {
+        "text": "Both sides are $4$. So $x = 2$ works."
+       }
+      ]
+     },
+     {
+      "title": "Test x = -3",
+      "say": "Do the same for $x = -3$.",
+      "lines": [
+       {
+        "tex": "\\sqrt{3(-3) + 10} &= \\sqrt{1}",
+        "sym": "sqrt(3*(-3)+10)",
+        "new": true
+       },
+       {
+        "tex": "&= 1",
+        "sym": "1"
+       },
+       {
+        "tex": "-3 + 2 &= -1",
+        "sym": "-3+2",
+        "new": true
+       },
+       {
+        "text": "The sides are $1$ and $-1$. They are not equal, so reject $x = -3$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2"
+   },
+   "finalSym": "[2]",
+   "answerSym": "solve(Eq(sqrt(3*x+10),x+2),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "If a wrong root is left in, you lose a mark. Check each solution in the original equation and cross out the one that fails.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q1#(a)",
+       "quote": "Apply a * for incorrect solution(s) not"
+      }
+     ]
+    },
+    {
+     "tip": "Getting the squared quadratic right is worth its own credit. Write that line clearly.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q1#(a)",
+       "quote": "Fully correct quadratic (2nd line in solution)"
+      }
+     ]
+    },
+    {
+     "tip": "Write out a check of each solution. The marking notes show it as part of the model answer.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q6#(a)(i)",
+       "quote": "Check solutions:"
+      }
+     ]
+    },
+    {
+     "tip": "When more than one root comes out, say which one you are keeping.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q5#(a)",
+       "quote": "Note: must indicate required root"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "eq-rational",
+  "what": {
+   "say": [
+    "You give it an equation where $x$ sits in the denominators, like $\\frac{1}{x}$. It finds the values of $\\hl{2}{x}$ that solve it.",
+    "The key idea: multiply every term by the common denominator to clear the fractions. That leaves a quadratic. Then check that no answer makes a denominator $0$."
+   ],
+   "in": "$\\frac{a}{bx+c}\\pm\\frac{p}{qx+r}=\\frac{e}{f}$",
+   "out": "$x$ (denominators $\\neq 0$)"
+  },
+  "how": {
+   "higher": "Higher level asks for it rarely: once on Paper 1 (2019) as a 15 mark part, where clearing the fractions gives a quadratic.",
+   "ordinary": "Ordinary level asks for it rarely too: once on Paper 1 (2018), as a 15 mark part where clearing the fractions gives a quadratic."
+  },
+  "example": {
+   "question": "Solve $\\dfrac{1}{x} + \\dfrac{1}{x + 2} = \\dfrac{3}{4}$.",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Common denominator",
+      "say": "The denominators are $x$, $x + 2$ and $4$. Their common denominator is $\\hl{1}{4x(x + 2)}$. $x$ cannot be $0$ or $-2$.",
+      "lines": [
+       {
+        "tex": "\\dfrac{1}{x} + \\dfrac{1}{x + 2} &= \\dfrac{3}{4}",
+        "sym": "Eq(1/x+1/(x+2),Rational(3,4))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Clear the fractions",
+      "say": "Multiply every term by $\\hl{1}{4x(x + 2)}$. Each fraction cancels.",
+      "lines": [
+       {
+        "tex": "4(x + 2) + 4x &= 3x(x + 2)",
+        "sym": "Eq(4*(x+2)+4*x,3*x*(x+2))",
+        "new": true
+       },
+       {
+        "tex": "8x + 8 &= 3x^2 + 6x",
+        "sym": "Eq(8*x+8,3*x**2+6*x)"
+       }
+      ]
+     },
+     {
+      "title": "Make a quadratic",
+      "say": "Move everything to the right side so one side is $0$. Then factorise.",
+      "lines": [
+       {
+        "tex": "0 &= 3x^2 - 2x - 8",
+        "sym": "Eq(0,3*x**2-2*x-8)"
+       },
+       {
+        "tex": "0 &= (3x + 4)(x - 2)",
+        "sym": "Eq(0,(3*x+4)*(x-2))"
+       }
+      ]
+     },
+     {
+      "title": "Read off the roots",
+      "say": "Each bracket can be $0$. Check neither answer is $0$ or $-2$.",
+      "lines": [
+       {
+        "tex": "x &= \\hl{2}{2}",
+        "sym": "Eq(x,2)",
+        "new": true
+       },
+       {
+        "tex": "x &= \\hl{2}{-\\dfrac{4}{3}}",
+        "sym": "Eq(x,Rational(-4,3))",
+        "new": true
+       },
+       {
+        "text": "Neither is $0$ or $-2$, so both are allowed."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2 \\text{ or } x = -\\dfrac{4}{3}"
+   },
+   "finalSym": "[Rational(-4,3), 2]",
+   "answerSym": "solve(Eq(1/x+1/(x+2),Rational(3,4)),x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Reach an equation with no fractions first. That is a marked stage on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q1#(b)",
+       "quote": "Equation without fractions"
+      }
+     ]
+    },
+    {
+     "tip": "Name the common denominator. Even identifying it earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q1#(b)",
+       "quote": "CD or partial CD identified"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Name the common denominator. It is marked on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p1-q6#(b)",
+       "quote": "common denominator identified"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

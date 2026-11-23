@@ -1,0 +1,448 @@
+[
+ {
+  "skill": "circ-touching",
+  "what": {
+   "say": [
+    "You give it two circles. It decides whether they **touch**, and whether from the outside or the inside.",
+    "The key idea: compare the distance between the centres with the radii. If it equals $r_1 + r_2$ they touch externally. If it equals $|r_1 - r_2|$ they touch internally."
+   ],
+   "in": "two circles",
+   "out": "touch externally or internally"
+  },
+  "how": {
+   "higher": "Higher level asks for it as a 10-mark part on Paper 2, in 2018, 2021 and 2024, usually with the circles given as equations.",
+   "ordinary": "Ordinary level has used it once, in 2022 on Paper 2, inside a circle question."
+  },
+  "example": {
+   "question": "The circle $c$ has equation $x^2 + y^2 + 2x - 4y - 20 = 0$ and the circle $s$ has equation $(x-2)^2 + (y+2)^2 = 100$. Show that the circles touch internally.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Centre and radius of c",
+      "say": "Read $g$, $f$ and $c$ from $x^2 + y^2 + 2gx + 2fy + c = 0$. Here $g = 1$, $f = -2$ and $c = -20$. The centre is $(-g, -f)$ and the radius is $\\sqrt{g^2 + f^2 - c}$.",
+      "lines": [
+       {
+        "tex": "\\text{centre} &= (-g, -f) = (-1, 2)"
+       },
+       {
+        "tex": "r_1 &= \\sqrt{g^2 + f^2 - c}"
+       },
+       {
+        "tex": "&= \\sqrt{1 + 4 + 20}",
+        "sym": "sqrt(1+4+20)",
+        "new": true
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       }
+      ]
+     },
+     {
+      "title": "Centre and radius of s",
+      "say": "The equation of $s$ is already in the form $(x-h)^2 + (y-k)^2 = r^2$. Read the centre and radius straight off.",
+      "lines": [
+       {
+        "tex": "\\text{centre} &= (2, -2)"
+       },
+       {
+        "tex": "r_2 &= \\sqrt{100} = 10",
+        "sym": "sqrt(100)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Distance between centres",
+      "say": "Use the distance formula on the two centres. Call the answer $\\hl{1}{d}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{d} &= \\sqrt{(2 - (-1))^2 + (-2 - 2)^2}",
+        "sym": "sqrt((2-(-1))**2+(-2-2)**2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{9 + 16}",
+        "sym": "sqrt(9+16)"
+       },
+       {
+        "tex": "&= 5",
+        "sym": "5"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the radii",
+      "say": "Work out both the sum and the difference of the radii. The distance $\\hl{1}{d}$ matches one of them.",
+      "lines": [
+       {
+        "tex": "r_1 + r_2 &= 5 + 10 = 15",
+        "sym": "5+10",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r_2 - r_1} &= 10 - 5 = 5",
+        "sym": "10-5",
+        "new": true
+       },
+       {
+        "text": "$\\hl{1}{d} = \\hl{2}{r_2 - r_1}$, so the circles touch **internally**. Always write that conclusion."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{The distance } \\hl{1}{5} = r_2 - r_1 \\text{, so the circles touch internally.}"
+   },
+   "finalSym": "0",
+   "answerSym": "sqrt((2-(-1))**2+(-2-2)**2)-(10-sqrt(1+4+20))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "End with a conclusion that says which way they touch. A missing or wrong conclusion costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q5#(a)(ii)",
+       "quote": "Apply a * if there is no conclusion or an"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q3#(b)(i)",
+       "quote": "Touch Externally since"
+      }
+     ]
+    },
+    {
+     "tip": "Find both centres, both radii and the distance between the centres. Each of these earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q5#(a)(ii)",
+       "quote": "Find distance between the centres"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q3#(b)(i)",
+       "quote": "Both centres and both radii and distance"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "circ-common-chord",
+  "what": {
+   "say": [
+    "You give it two circles that cross. It finds the **line** through the two points where they meet.",
+    "The key idea: a point on both circles satisfies both equations. Subtract one equation from the other and the $x^2$ and $y^2$ terms cancel, leaving a line."
+   ],
+   "in": "two circle equations",
+   "out": "line through the meeting points"
+  },
+  "how": {},
+  "example": {
+   "question": "The circles $x^2 + y^2 - 2x - 4y - 20 = 0$ and $x^2 + y^2 + 6x - 4y - 12 = 0$ meet at two points. Find the equation of the line through those points.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the two equations",
+      "say": "A meeting point lies on both circles, so it satisfies both equations. Call them (1) and (2).",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 - 2x - 4y - 20 &= 0 \\quad (1)"
+       },
+       {
+        "tex": "x^2 + y^2 + 6x - 4y - 28 &= 0 \\quad (2)"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "Subtract (2) from (1). The $x^2$, $y^2$ and $y$ terms cancel.",
+      "lines": [
+       {
+        "tex": "(1) - (2): \\quad -8x + 8 &= 0",
+        "sym": "(x**2+y**2-2*x-4*y-20)-(x**2+y**2+6*x-4*y-28)",
+        "new": true
+       },
+       {
+        "text": "Every term divides by $-8$. Do that first."
+       }
+      ]
+     },
+     {
+      "title": "Solve for the line",
+      "say": "What is left has only $x$ in it, so it is a vertical line.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\hl{1}{x} = 1"
+   },
+   "finalSym": "1",
+   "answerSym": "-(-20-(-28))/(-2-6)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "circ-tangents-from-point",
+  "what": {
+   "say": [
+    "You give it a circle and a point outside it. It finds the **tangents** from that point to the circle.",
+    "The key idea: a tangent is a line at distance $r$ from the centre. Write the line through the point with an unknown slope $m$, then make its distance from the centre equal $r$."
+   ],
+   "in": "circle and external point",
+   "out": "tangent equations"
+  },
+  "how": {
+   "higher": "Higher level has used it once, in 2020 on Paper 2, as a 10-mark part."
+  },
+  "example": {
+   "question": "Find the equations of the two tangents to the circle $x^2 + y^2 = 10$ from the point $(0, 10)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the line",
+      "say": "Any line through $(0, 10)$ has the form $y - 10 = m(x - 0)$. Put it in the form $ax + by + c = 0$.",
+      "lines": [
+       {
+        "tex": "y - 10 &= m(x - 0)"
+       },
+       {
+        "tex": "mx - y + 10 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Distance equals radius",
+      "say": "The circle has centre $(0, 0)$ and radius $\\sqrt{10}$. A tangent is exactly $\\sqrt{10}$ from the centre. Use the distance formula from $(0, 0)$ to the line.",
+      "lines": [
+       {
+        "tex": "\\frac{|m(0) - 0 + 10|}{\\sqrt{m^2 + 1}} &= \\sqrt{10}"
+       },
+       {
+        "tex": "\\frac{10}{\\sqrt{m^2 + 1}} &= \\sqrt{10}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the slope",
+      "say": "Square both sides, then solve for $\\hl{1}{m}$. There are two slopes, one for each tangent.",
+      "lines": [
+       {
+        "tex": "100 &= 10(m^2 + 1)",
+        "sym": "10*(m**2+1)",
+        "new": true
+       },
+       {
+        "tex": "m^2 &= 9",
+        "sym": "9",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{m} &= \\pm 3",
+        "sym": "3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the tangents",
+      "say": "Put each slope into $y = mx + 10$.",
+      "lines": [
+       {
+        "tex": "y &= 3x + 10"
+       },
+       {
+        "tex": "y &= -3x + 10"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "y = 3x + 10 \\quad \\text{and} \\quad y = -3x + 10"
+   },
+   "finalSym": "3",
+   "answerSym": "sqrt(100/10-1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "circ-from-conditions",
+  "what": {
+   "say": [
+    "You give it conditions on a circle, such as three points it passes through. It finds the equation of the **circle**.",
+    "The key idea: $x^2 + y^2 + 2gx + 2fy + c = 0$ has three unknowns. Each condition gives one equation in them, so three conditions fix the circle."
+   ],
+   "in": "conditions on the circle",
+   "out": "$g$, $f$, $c$"
+  },
+  "how": {
+   "higher": "Higher level asks for it almost every year on Paper 2, as a 10 or 15 mark part: through points, with the centre on a line, or touching an axis.",
+   "ordinary": "Ordinary level has asked for it in 2024 and 2025 on Paper 2, mostly as reading the centre and radius from a diagram."
+  },
+  "example": {
+   "question": "Find the equation of the circle that passes through $(1, 1)$, $(5, 1)$ and $(1, -3)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Substitute each point",
+      "say": "Put each point into $x^2 + y^2 + 2gx + 2fy + c = 0$. Each one gives an equation in $g$, $f$ and $c$.",
+      "lines": [
+       {
+        "tex": "(1, 1): \\quad 2g + 2f + c &= -2 \\quad (A)"
+       },
+       {
+        "tex": "(5, 1): \\quad 10g + 2f + c &= -26 \\quad (B)"
+       },
+       {
+        "tex": "(1, -3): \\quad 2g - 6f + c &= -10 \\quad (C)"
+       }
+      ]
+     },
+     {
+      "title": "Find g and f",
+      "say": "Subtract to cancel $c$. (B) minus (A) leaves only $g$. (A) minus (C) leaves only $f$.",
+      "lines": [
+       {
+        "tex": "8g &= -24"
+       },
+       {
+        "tex": "\\hl{1}{g} &= -3",
+        "sym": "-3"
+       },
+       {
+        "tex": "8f &= 8"
+       },
+       {
+        "tex": "\\hl{2}{f} &= 1",
+        "sym": "1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find c",
+      "say": "Put $\\hl{1}{g}$ and $\\hl{2}{f}$ back into (A).",
+      "lines": [
+       {
+        "tex": "\\hl{3}{c} &= -2 - 2g - 2f"
+       },
+       {
+        "tex": "&= -2 + 6 - 2",
+        "sym": "-2+6-2",
+        "new": true
+       },
+       {
+        "tex": "&= 2",
+        "sym": "2"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Put $g = -3$, $f = 1$ and $c = 2$ into the general equation.",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 - 6x + 2y + 2 &= 0"
+       },
+       {
+        "text": "Check: $(1, 1)$ gives $1 + 1 - 6 + 2 + 2 = 0$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x^2 + y^2 - 6x + 2y + 2 = 0"
+   },
+   "finalSym": "x**2+y**2-6*x+2*y+2",
+   "answerSym": "-det(Matrix([[x**2+y**2,x,y,1],[2,1,1,1],[26,5,1,1],[10,1,-3,1]]))/16"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "A quadratic in the radius or $g$ often gives two circles. Find both values, and keep only the circle that fits the question.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q3#(c)",
+       "quote": "Finds both values of"
+      },
+      {
+       "part": "maths-pp-2023-higher-p2-q4#(b)",
+       "quote": "does not select the correct one"
+      }
+     ]
+    },
+    {
+     "tip": "Finish by writing the equation of the circle. Finding $g$, $f$ and $c$ and stopping loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q4#(b)",
+       "quote": "equation of circle not stated"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute the given point into the general equation straight away. Even a partly correct substitution earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q2#(b)",
+       "quote": "Some substitution of (1, 4) into general"
+      }
+     ]
+    },
+    {
+     "tip": "Two independent equations in $f$ and $c$ earn high partial credit, so set up your equations early.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q5#(b)",
+       "quote": "Two independent equations in"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Mark the diagram as you work out the centre and radius. Relevant work on it earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q4#(c)",
+       "quote": "Relevant work on the diagram"
+      }
+     ]
+    },
+    {
+     "tip": "Write down the formula you are using, even before you substitute. That alone can earn marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q3#(c)(i), (ii)",
+       "quote": "Work of merit, for example, a relevant formula"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,5 @@
+{
+ "alg-equate-coefficients": [
+  "example: answerSym solve([a-1-2, b-a+5, -b-k], [a, b, k]) does not give finalSym [(3, -2, 2)]"
+ ]
+}

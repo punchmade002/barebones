@@ -1,0 +1,532 @@
+[
+ {
+  "skill": "mens-composite",
+  "what": {
+   "say": [
+    "You give it a solid made of two or more simple shapes, such as a cylinder with a hemisphere on top. It finds the **total** volume or surface area.",
+    "The key idea: split the solid into shapes you know, find each one separately, then add. Where two shapes join, that face is hidden, so take it out of a surface area."
+   ],
+   "in": "solid of joined shapes",
+   "out": "total volume or area"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger Paper 2 questions, now and then on Paper 1, worth up to 15 marks: a trough or tank made of a cylinder and cones, or a missing length found from a total volume.",
+   "ordinary": "Ordinary level asks for it nearly every year, mostly on Paper 2, as a part worth 5 to 15 marks: the area or volume of shapes joined together, followed by a rounding or units step."
+  },
+  "example": {
+   "question": "A solid is a cylinder with a hemisphere on top. Both have radius $3$ cm. The cylinder has height $7$ cm. Find the total volume, in terms of $\\pi$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Volume of the cylinder",
+      "say": "Take the cylinder first. Its volume is $\\pi r^2 h$ with $r = 3$ and $h = 7$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{V_c} &= \\pi(3)^2(7)",
+        "sym": "pi*3**2*7",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{63\\pi}",
+        "sym": "63*pi"
+       }
+      ]
+     },
+     {
+      "title": "Volume of the hemisphere",
+      "say": "A hemisphere is half a sphere. Use $\\frac{2}{3}\\pi r^3$ with $r = 3$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{V_h} &= \\frac{2}{3}\\pi(3)^3",
+        "sym": "2*pi*3**3/3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{18\\pi}",
+        "sym": "18*pi"
+       }
+      ]
+     },
+     {
+      "title": "Add the two volumes",
+      "say": "The solid is the cylinder and the hemisphere together, so add $\\hl{1}{V_c}$ and $\\hl{2}{V_h}$.",
+      "lines": [
+       {
+        "tex": "V &= \\hl{1}{63\\pi} + \\hl{2}{18\\pi}",
+        "sym": "63*pi+18*pi",
+        "new": true
+       },
+       {
+        "tex": "&= 81\\pi",
+        "sym": "81*pi"
+       },
+       {
+        "text": "The question says in terms of $\\pi$, so leave it as $81\\pi$. Do not round."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "81\\pi \\text{ cm}^3"
+   },
+   "finalSym": "81*pi",
+   "answerSym": "pi*3**2*7 + 2*pi*3**3/3"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><path d=\"M100 100 A50 50 0 0 1 200 100\"/><rect x=\"100\" y=\"100\" width=\"100\" height=\"90\"/><line x1=\"100\" y1=\"100\" x2=\"200\" y2=\"100\" stroke-dasharray=\"4 4\"/><text x=\"150\" y=\"92\" font-family=\"Outfit\" font-size=\"14\" fill=\"#1A1916\" stroke=\"none\" text-anchor=\"middle\">r = 3</text><text x=\"212\" y=\"150\" font-family=\"Outfit\" font-size=\"14\" fill=\"#1A1916\" stroke=\"none\">h = 7</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write each solid's volume out with the numbers put in before you add. Marks are given for each fully substituted volume.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q7#(b)(i)",
+       "quote": "2 volumes fully substituted"
+      },
+      {
+       "part": "maths-pp-2019-higher-p2-q7#(b)(i)",
+       "quote": "3 volumes fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "If the question gives a total volume with an unknown $x$, put every part in terms of that one variable. That step earns its own marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q5#(a)(i)",
+       "quote": "Volume of space in terms of 1 variable"
+      }
+     ]
+    },
+    {
+     "tip": "Keep the full calculator value until the end. Rounding part way through loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q7#(b)",
+       "quote": "Apply a * once for early rounding"
+      }
+     ]
+    },
+    {
+     "tip": "When you are asked to show a result, finish with a clear conclusion. Without one you lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q5#(a)(i)",
+       "quote": "Incorrect or no conclusion, otherwise correct"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Find each piece of area or volume separately. Getting two of three pieces right still earns most of the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q9#(a)(i)",
+       "quote": "Two of the three required areas calculated correctly."
+      }
+     ]
+    },
+    {
+     "tip": "Round exactly as the question says. Wrong or missing rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q10#(a)(ii)",
+       "quote": "Apply F* if incorrect or no rounding"
+      }
+     ]
+    },
+    {
+     "tip": "Put units on your answer. Leaving them off loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q10#(a)(iv)",
+       "quote": "Apply a * for no units"
+      }
+     ]
+    },
+    {
+     "tip": "Change units at the end, and show that step. It has a mark of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q9#(b)",
+       "quote": "Finds volume in litres, based on volume in m3"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "mens-equate-volumes",
+  "what": {
+   "say": [
+    "You give it a situation where a volume stays the same: a solid melted and recast, an object dropped into water, or a tank filling. It finds the **unknown** dimension or time.",
+    "The key idea: the volume before equals the volume after. Write each volume with its own formula, set them equal, and solve for what is missing."
+   ],
+   "in": "two equal volumes",
+   "out": "unknown height or time"
+  },
+  "how": {
+   "higher": "Higher level uses it a few times (2020, 2024) as a step inside a longer volume question, worth 5 to 15 marks: set a volume equal to a given amount or flow and solve for a length.",
+   "ordinary": "Ordinary level asks for it on Paper 2 as a part of its own worth 10 or 15 marks: a shape recast, water displaced or a container filling, and a missing height to find."
+  },
+  "example": {
+   "question": "A solid metal sphere of radius $6$ cm is melted and recast as a solid cylinder of radius $4$ cm. Find the height of the cylinder.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Volume of the sphere",
+      "say": "Melting does not change the amount of metal. Start with the volume of the sphere, $\\frac{4}{3}\\pi r^3$ with $r = 6$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{V_s} &= \\frac{4}{3}\\pi(6)^3",
+        "sym": "4*pi*6**3/3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{288\\pi}",
+        "sym": "288*pi"
+       }
+      ]
+     },
+     {
+      "title": "Volume of the cylinder",
+      "say": "The cylinder has radius $4$ and an unknown height $\\hl{2}{h}$. Write its volume with the formula $\\pi r^2 h$.",
+      "lines": [
+       {
+        "tex": "V_c &= \\pi(4)^2\\hl{2}{h}",
+        "sym": "pi*4**2*h",
+        "new": true
+       },
+       {
+        "tex": "&= 16\\pi \\hl{2}{h}",
+        "sym": "16*pi*h"
+       }
+      ]
+     },
+     {
+      "title": "Set them equal",
+      "say": "The two volumes are equal. Put $16\\pi \\hl{2}{h}$ equal to $\\hl{1}{288\\pi}$ and solve for $\\hl{2}{h}$.",
+      "lines": [
+       {
+        "tex": "16\\pi \\hl{2}{h} &= \\hl{1}{288\\pi}",
+        "sym": "288*pi",
+        "new": true
+       },
+       {
+        "text": "Divide both sides by $16\\pi$."
+       },
+       {
+        "tex": "\\hl{2}{h} &= \\frac{288\\pi}{16\\pi}",
+        "sym": "288*pi/(16*pi)",
+        "new": true
+       },
+       {
+        "tex": "&= 18",
+        "sym": "18"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "h = 18 \\text{ cm}"
+   },
+   "finalSym": "18",
+   "answerSym": "solve(Eq(4*pi*6**3/3, pi*4**2*h), h)[0]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Convert units before you put anything in the formula, for example $3$ litres to $3000$ cm$^3$. Writing that conversion earns a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q9#(b)(i), (ii)",
+       "quote": "states 3 litres = 3000 cm3"
+      }
+     ]
+    },
+    {
+     "tip": "Set up the volume equation first, even if you cannot finish it. That step has marks of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q9#(b)(i), (ii)",
+       "quote": "Work of merit in setting up the equation"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. A wrong or missing rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q9#(b)(i), (ii)",
+       "quote": "Apply a * for incorrect rounding or no rounding"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write both volume formulas with the numbers in, then set them equal. Both formulas fully substituted earns mid credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q9#(b)(ii)",
+       "quote": "Both volume formulae fully substituted correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Even writing the formula on its own gets you marks, so always start with it.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q8#(b)(ii)",
+       "quote": "Writes volume of hemisphere formula"
+      }
+     ]
+    },
+    {
+     "tip": "Form the equation from the two volumes, then solve. That step earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q8#(a)(ii)",
+       "quote": "Formula substituted correctly and equation formed"
+      }
+     ]
+    },
+    {
+     "tip": "Round exactly as the question asks. Incorrect rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q8#(b)(ii)",
+       "quote": "Incorrect rounding"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-point-position",
+  "what": {
+   "say": [
+    "You give it a circle and a point. It tells you whether the point is **inside**, **on** or **outside** the circle.",
+    "The key idea: compare the point's distance from the centre with the radius. Substituting the point into the equation does this for you: the left side gives the distance squared, $r^2$ is on the right."
+   ],
+   "in": "circle and point",
+   "out": "inside, on or outside"
+  },
+  "how": {
+   "higher": "Higher level uses it only occasionally (2024, 2025), on Paper 2, as a step inside a longer circle question: put a point into the equation to find a missing coordinate or to verify it lies on the circle.",
+   "ordinary": "Ordinary level asks for it almost every year on Paper 2, usually as a 5-mark part: decide whether a point is inside, on or outside a given circle, often by ticking a box."
+  },
+  "example": {
+   "question": "Is the point $(6, 3)$ inside, on or outside the circle $(x-2)^2 + (y+1)^2 = 25$?",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read the radius squared",
+      "say": "The equation is $(x-h)^2 + (y-k)^2 = r^2$. Here the centre is $(2, -1)$ and $\\hl{1}{r^2} = \\hl{1}{25}$.",
+      "lines": [
+       {
+        "text": "So the radius is $5$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute the point",
+      "say": "Put $x = 6$ and $y = 3$ into the left side. This gives the distance from the centre, squared.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{d^2} &= (6-2)^2 + (3+1)^2",
+        "sym": "(6-2)**2+(3+1)**2",
+        "new": true
+       },
+       {
+        "tex": "&= 16 + 16",
+        "sym": "16+16"
+       },
+       {
+        "tex": "&= \\hl{2}{32}",
+        "sym": "32"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the radius",
+      "say": "Compare $\\hl{2}{32}$ with $\\hl{1}{25}$. If it is less, the point is inside. If it is equal, on. If it is more, outside.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{32} &> \\hl{1}{25}"
+       },
+       {
+        "text": "The point is further from the centre than the radius, so it is **outside** the circle."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{outside, since } 32 > 25"
+   },
+   "finalSym": "32",
+   "answerSym": "(6-2)**2+(3+1)**2"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><circle cx=\"130\" cy=\"110\" r=\"60\"/><line x1=\"130\" y1=\"110\" x2=\"230\" y2=\"60\" stroke-dasharray=\"4 4\"/><circle cx=\"130\" cy=\"110\" r=\"3\" fill=\"#1A1916\"/><circle cx=\"230\" cy=\"60\" r=\"3\" fill=\"#1A1916\"/><text x=\"116\" y=\"128\" font-family=\"Outfit\" font-size=\"14\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"238\" y=\"58\" font-family=\"Outfit\" font-size=\"14\" fill=\"#1A1916\" stroke=\"none\">P</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Put the point into the equation of the circle. A correct substitution earns marks on its own, even before you solve.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q7#(c)(i), (ii)",
+       "quote": "some correct substitution into the equation of the circle"
+      }
+     ]
+    },
+    {
+     "tip": "If squaring gives two values, check which one fits the question and reject the other. Giving both loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q9#(a)(ii)",
+       "quote": "is also presented as a solution"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Always finish with a conclusion in words, or tick the box. Correct working with no conclusion loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q2#(a)(ii)",
+       "quote": "Fully correct work but box not ticked"
+      },
+      {
+       "part": "maths-pp-2022-ordinary-p2-q2#(a)(ii)",
+       "quote": "but incorrect or omitted conclusion"
+      }
+     ]
+    },
+    {
+     "tip": "Read the centre and the radius first. Identifying $h$, $k$ or $r^2$ already earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q4#(a)(ii)",
+       "quote": "identifies h or k or r2"
+      }
+     ]
+    },
+    {
+     "tip": "Either method works: compare the squared distance with $r^2$, or find the distance and compare it with $r$. Show it fully substituted.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q2#(a)(ii)",
+       "quote": "Fully substituted equation of circle or formula for distance"
+      }
+     ]
+    },
+    {
+     "tip": "An answer with no working only earns low partial credit, so always show the substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q2#(a)(ii)",
+       "quote": "Correct answer with no supporting work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "circ-eq-origin",
+  "what": {
+   "say": [
+    "You give it a circle with its centre at the origin, either its radius or one point on it. It writes the **equation** of the circle.",
+    "The key idea: every point $(x, y)$ on the circle is the same distance $r$ from $(0, 0)$, so $x^2 + y^2 = r^2$. Find $r^2$ and put it on the right."
+   ],
+   "in": "radius or point on circle",
+   "out": "$x^2+y^2=r^2$"
+  },
+  "how": {
+   "ordinary": "Ordinary level asks for it on Paper 2 about every other year, usually as a 5-mark part: write the equation of a circle with centre $(0,0)$ from its radius or a point on it, or read the radius from the equation."
+  },
+  "example": {
+   "question": "A circle has centre $(0, 0)$ and passes through the point $(2, 5)$. Find the equation of the circle.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the general equation",
+      "say": "With centre $(0,0)$ the equation is $x^2 + y^2 = \\hl{1}{r^2}$. We need $\\hl{1}{r^2}$.",
+      "lines": []
+     },
+     {
+      "title": "Find r squared",
+      "say": "The point $(2, 5)$ is on the circle, so it must fit the equation. Put $x = 2$ and $y = 5$ in.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{r^2} &= 2^2 + 5^2",
+        "sym": "2**2+5**2",
+        "new": true
+       },
+       {
+        "tex": "&= 4 + 25",
+        "sym": "4+25"
+       },
+       {
+        "tex": "&= \\hl{1}{29}",
+        "sym": "29"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Put $\\hl{1}{29}$ in place of $r^2$.",
+      "lines": [
+       {
+        "tex": "x^2 + y^2 &= \\hl{1}{29}"
+       },
+       {
+        "text": "Leave $r^2$ as $29$. There is no need to find the radius."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x^2 + y^2 = 29"
+   },
+   "finalSym": "x**2+y**2-29",
+   "answerSym": "x**2+y**2-(2**2+5**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Write the formula with the numbers in, $x^2 + y^2 = r^2$ with your $r^2$. A fully substituted formula earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p2-q2#(a)",
+       "quote": "Equation of circle formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "When you verify a point is on the circle, finish with a conclusion such as 'on the circle'. No conclusion loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q2#(a)(i), (ii)",
+       "quote": "No conclusion in (ii)"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

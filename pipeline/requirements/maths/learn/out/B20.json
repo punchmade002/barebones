@@ -1,0 +1,527 @@
+[
+ {
+  "skill": "line-midpoint",
+  "what": {
+   "say": [
+    "You give it two points. It finds the point exactly halfway between them, the **midpoint**.",
+    "The key idea: halfway is the average. Average the x-values, then average the y-values."
+   ],
+   "in": "two points",
+   "out": "$(\\bar x, \\bar y)$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a short step inside bigger Paper 2 coordinate geometry questions, for example the midpoint of a segment whose end has unknown coordinates.",
+   "ordinary": "Ordinary level asks for it directly on Paper 2, as a 5-mark part, often to find the centre of a circle from the ends of a diameter."
+  },
+  "example": {
+   "question": "Find the midpoint of $A(-4, 3)$ and $B(8, -7)$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Average the x-values",
+      "say": "Add the two x-values and halve. This gives the x of the midpoint.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= \\frac{-4 + 8}{2}",
+        "sym": "(-4+8)/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{2}",
+        "sym": "2"
+       }
+      ]
+     },
+     {
+      "title": "Average the y-values",
+      "say": "Do the same with the y-values. This gives the y of the midpoint.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y} &= \\frac{3 + (-7)}{2}",
+        "sym": "(3+(-7))/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{-2}",
+        "sym": "-2"
+       }
+      ]
+     },
+     {
+      "title": "Write the point",
+      "say": "Put the $\\hl{1}{x}$ and the $\\hl{2}{y}$ together as a point.",
+      "lines": [
+       {
+        "tex": "\\text{midpoint} &= (\\hl{1}{2}, \\hl{2}{-2})"
+       },
+       {
+        "text": "Check: $2$ is exactly halfway between $-4$ and $8$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(2, -2)"
+   },
+   "finalSym": "(2,-2)",
+   "answerSym": "((-4+8)/2,(3+(-7))/2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Even if you do not finish, using the midpoint of the segment earns marks, so write the midpoint down first.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q3#(b)(i)",
+       "quote": "relevant use of midpoint of"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the midpoint formula with some numbers put in. That alone earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q4#(a)",
+       "quote": "Mid-point formula with some correct"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the formula. A fully substituted formula moves you to high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q2#(a)",
+       "quote": "Formula fully substituted."
+      }
+     ]
+    },
+    {
+     "tip": "Leaving the answer as a fraction only earns partial credit. Simplify each coordinate.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q4#(a)",
+       "quote": "Leaves answer in fraction form."
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work can earn full marks, but one slip then leaves nothing to credit. Show the substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q2#(a)",
+       "quote": "Correct answer without work."
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-slope",
+  "what": {
+   "say": [
+    "You give it two points on a line. It tells you the **slope**, how steep the line is.",
+    "The key idea: slope is rise over run. Divide the change in $y$ by the change in $x$."
+   ],
+   "in": "two points",
+   "out": "$m$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside larger Paper 2 coordinate geometry questions, for example to get the slope of a radius, a tangent or the angle between two lines.",
+   "ordinary": "Ordinary level asks for it directly on Paper 2, most years as a 5-mark part, and then often uses it in a 10-mark equation of a line."
+  },
+  "example": {
+   "question": "Find the slope of the line through $P(-2, 1)$ and $Q(4, 10)$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "Slope is the change in $y$ over the change in $x$. Take $P$ first and $Q$ second, in the same order top and bottom.",
+      "lines": [
+       {
+        "tex": "m &= \\frac{y_2 - y_1}{x_2 - x_1}"
+       },
+       {
+        "text": "Subtract in the same order on top and bottom."
+       }
+      ]
+     },
+     {
+      "title": "Put the numbers in",
+      "say": "Put in the $y$-values on top and the $x$-values on the bottom.",
+      "lines": [
+       {
+        "tex": "&= \\frac{10 - 1}{4 - (-2)}",
+        "sym": "(10-1)/(4-(-2))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "say": "Work out top and bottom, then divide both by 3.",
+      "lines": [
+       {
+        "tex": "&= \\frac{9}{6}",
+        "sym": "9/6"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{3}{2}}",
+        "sym": "3/2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{3}{2}"
+   },
+   "finalSym": "3/2",
+   "answerSym": "(10-1)/(4-(-2))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks are given for substituting into the slope formula, even if you stop there.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q9#(b)(iii)",
+       "quote": "Some substitution into slope"
+      }
+     ]
+    },
+    {
+     "tip": "When a tangent is asked for, the slope of the tangent is its own marked step. Get it before the equation of the line.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q2#(a)(ii)",
+       "quote": "Step 2. Finds slope of the tangent"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the slope formula down first. It earns low partial credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q1#(a)(i)",
+       "quote": "slope formula written down"
+      }
+     ]
+    },
+    {
+     "tip": "Fully substitute the formula. Then even a slip in the arithmetic still earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q1#(a)(i)",
+       "quote": "Correct formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "An error in a substitution that you then finish correctly still earns marks, so keep going.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q1#(a)(i)",
+       "quote": "Error(s) in substitution but finishes correctly"
+      }
+     ]
+    },
+    {
+     "tip": "If you are asked to tick a box, tick it. Correct work without it loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q1#(a)(i)",
+       "quote": "Fully correct work but box not ticked"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-point-on",
+  "what": {
+   "say": [
+    "You give it a line and a point. It tells you whether the point is **on** the line, and where the line meets the axes.",
+    "The key idea: a point is on a line when its coordinates make the equation true. For an axis, one coordinate is $0$."
+   ],
+   "in": "line + point",
+   "out": "yes/no, intercepts"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 2 coordinate geometry, often a 5-mark part checking a point on a line, or finding an intercept for an area.",
+   "ordinary": "Ordinary level uses it in 5-mark and 10-mark parts on Paper 2: test a point in the equation, or find where the line crosses an axis."
+  },
+  "example": {
+   "question": "The line $l$ has equation $3x - 2y - 12 = 0$.\n(i) Show that $(6, 3)$ is on $l$.\n(ii) Find where $l$ crosses the x-axis and the y-axis.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test the point",
+      "say": "A point is on the line if its coordinates make the equation true. Put $x = 6$ and $y = 3$ into the left side.",
+      "lines": [
+       {
+        "tex": "3(6) - 2(3) - 12 &= 18 - 6 - 12",
+        "sym": "18-6-12",
+        "new": true
+       },
+       {
+        "tex": "&= 0",
+        "sym": "0"
+       },
+       {
+        "text": "The left side equals $0$, so $(6, 3)$ is on $l$."
+       }
+      ]
+     },
+     {
+      "title": "Cross the x-axis",
+      "say": "On the x-axis, $\\hl{1}{y = 0}$. Put that in and solve for $x$.",
+      "lines": [
+       {
+        "tex": "3x - 2(0) - 12 &= 0"
+       },
+       {
+        "tex": "3x &= 12"
+       },
+       {
+        "tex": "x &= \\hl{2}{4}",
+        "sym": "12/3",
+        "new": true
+       },
+       {
+        "text": "The line crosses the x-axis at $(4, 0)$."
+       }
+      ]
+     },
+     {
+      "title": "Cross the y-axis",
+      "say": "On the y-axis, $\\hl{3}{x = 0}$. Put that in and solve for $y$.",
+      "lines": [
+       {
+        "tex": "3(0) - 2y - 12 &= 0"
+       },
+       {
+        "tex": "-2y &= 12"
+       },
+       {
+        "tex": "y &= \\hl{4}{-6}",
+        "sym": "12/(-2)",
+        "new": true
+       },
+       {
+        "text": "The line crosses the y-axis at $(0, -6)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(4, 0) \\text{ and } (0, -6)"
+   },
+   "finalSym": "([4],[-6])",
+   "answerSym": "(solve(3*x-2*0-12,x),solve(3*0-2*y-12,y))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To check a point, substitute it into the equation. Some substitution earns low partial credit, a full one earns high.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q2#(a)",
+       "quote": "Some substitution into equation of line"
+      }
+     ]
+    },
+    {
+     "tip": "A full substitution of the point into the equation of the line is what takes you to high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q2#(a)",
+       "quote": "Equation of line fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the intercepts is marked as separate steps, one for each axis. Do both.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q9#(c)(ii)",
+       "quote": "1. Finds the x-intercept"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "When you show a point is on a line, end with the line $0 = 0$. It is how the scheme shows it is true.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q10#(a)(i)",
+       "quote": "[0 = 0 True]"
+      }
+     ]
+    },
+    {
+     "tip": "Give an intercept as a pair of co-ordinates, not just a number. A bare number loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q1#(b)(iii)",
+       "quote": "Answer not given as a pair of co-ordinates"
+      }
+     ]
+    },
+    {
+     "tip": "Putting $y = 0$ and finding $x$ earns high partial credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q1#(b)(iii)",
+       "quote": "Substitutes 𝑦= 0 and correctly finds 𝑥"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "line-distance",
+  "what": {
+   "say": [
+    "You give it two points. It finds the **distance** between them, the length of the segment.",
+    "The key idea: the two points are the ends of the hypotenuse of a right-angled triangle. The sides are the differences in $x$ and in $y$, so use Pythagoras."
+   ],
+   "in": "two points",
+   "out": "$|AB|$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 2 circle questions: the distance between centres, or from a centre to a point, then a comparison with the radii.",
+   "ordinary": "Ordinary level asks for it directly on Paper 2, as a 5-mark or 10-mark part, often to find a radius or the length of a side."
+  },
+  "example": {
+   "question": "Find the distance between $A(-2, 3)$ and $B(4, 11)$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the two differences",
+      "say": "Subtract the x-values, then subtract the y-values. These are the two sides of the right-angled triangle.",
+      "lines": [
+       {
+        "tex": "x_2 - x_1 &= 4 - (-2)",
+        "sym": "4-(-2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{6}",
+        "sym": "6"
+       },
+       {
+        "tex": "y_2 - y_1 &= 11 - 3",
+        "sym": "11-3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{8}",
+        "sym": "8"
+       }
+      ]
+     },
+     {
+      "title": "Use the distance formula",
+      "say": "Square the $\\hl{1}{x}$ difference and the $\\hl{2}{y}$ difference, add them, and take the square root.",
+      "lines": [
+       {
+        "tex": "|AB| &= \\sqrt{\\hl{1}{6}^2 + \\hl{2}{8}^2}",
+        "sym": "sqrt(6**2+8**2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{36 + 64}",
+        "sym": "sqrt(36+64)"
+       },
+       {
+        "tex": "&= \\sqrt{100}",
+        "sym": "sqrt(100)"
+       },
+       {
+        "tex": "&= 10",
+        "sym": "10"
+       },
+       {
+        "text": "If the root does not come out whole, leave it as a surd like $\\sqrt{52}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "10"
+   },
+   "finalSym": "10",
+   "answerSym": "sqrt((4-(-2))**2+(11-3)**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "In circle questions the distance between the centres is a marked step. Find it, then compare it with the radii.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q5#(a)(ii)",
+       "quote": "3. Find distance between the centres"
+      }
+     ]
+    },
+    {
+     "tip": "End with a conclusion. A missing or wrong conclusion loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q5#(a)(ii)",
+       "quote": "Apply a * if there is no conclusion or an"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the distance formula with some numbers in. That earns partial credit even if you go no further.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q4#(c)",
+       "quote": "Distance formula with some relevant"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute the formula correctly. If you slip but finish correctly, you still earn high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q1#(a)(ii)",
+       "quote": "Error(s) in substitution but finishes correctly"
+      }
+     ]
+    },
+    {
+     "tip": "You may leave the answer as a surd. Both forms are accepted for full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q2#(a)",
+       "quote": "Accept 1√52 or √52 for full marks"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

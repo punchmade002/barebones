@@ -1,0 +1,337 @@
+[
+ {
+  "skill": "alg-poly-multiply",
+  "what": {
+   "say": [
+    "You give it two polynomials. It gives back one **expanded** polynomial with no brackets.",
+    "The key idea: every term in the first bracket multiplies every term in the second, then you collect like terms."
+   ],
+   "in": "two polynomials",
+   "out": "expanded polynomial"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside bigger Paper 1 questions, for example multiplying out a factor and a quadratic to match a cubic, usually inside a 30-mark question."
+  },
+  "example": {
+   "question": "Multiply out $(2x+1)(x^2-3x+5)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply each term across",
+      "say": "Take each term of the first bracket and multiply it by the whole second bracket. Here $\\hl{1}{2x}$ and $\\hl{2}{1}$ each go through $x^2-3x+5$.",
+      "lines": [
+       {
+        "tex": "(2x+1)(x^2-3x+5) &= \\hl{1}{2x}(x^2-3x+5) + \\hl{2}{1}(x^2-3x+5)",
+        "sym": "2*x*(x**2-3*x+5)+1*(x**2-3*x+5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Open the brackets",
+      "say": "Multiply every term inside. Take care with the signs.",
+      "lines": [
+       {
+        "tex": "&= 2x^3 - 6x^2 + 10x + x^2 - 3x + 5",
+        "sym": "2*x**3-6*x**2+10*x+x**2-3*x+5"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "say": "Add the $x^2$ terms together and the $x$ terms together.",
+      "lines": [
+       {
+        "tex": "&= 2x^3 - 5x^2 + 7x + 5",
+        "sym": "2*x**3-5*x**2+7*x+5"
+       },
+       {
+        "text": "Check one value: at $x=1$ both forms give $9$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x^3 - 5x^2 + 7x + 5"
+   },
+   "finalSym": "2*x**3-5*x**2+7*x+5",
+   "answerSym": "expand((2*x+1)*(x**2-3*x+5))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the expansion step by step. The marks for expanding are given when three or more terms are right, so write every product out.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q1#(c)",
+       "quote": "Expansion of the product"
+      }
+     ]
+    },
+    {
+     "tip": "Even unfinished multiplying earns partial credit, so always start the distributing and show it.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q1#(c)",
+       "quote": "Work of merit, for example, some correct"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "alg-factor-cubes",
+  "what": {
+   "say": [
+    "You give it an expression of the form $a^3 \\pm b^3$. It gives back a product of a **linear** bracket and a **quadratic** bracket.",
+    "The key idea: both terms are perfect cubes, so a fixed pattern factorises them. Only the signs differ between the sum and the difference."
+   ],
+   "in": "$a^3 \\pm b^3$",
+   "out": "$(a \\pm b)(a^2 \\mp ab + b^2)$"
+  },
+  "how": {},
+  "example": {
+   "question": "Factorise $27x^3 - 8$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write both as cubes",
+      "say": "Check that each term is a perfect cube. $27x^3 = (3x)^3$ and $8 = 2^3$, so $\\hl{1}{a=3x}$ and $\\hl{2}{b=2}$.",
+      "lines": [
+       {
+        "tex": "27x^3 - 8 &= (3x)^3 - 2^3",
+        "sym": "(3*x)**3-2**3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the pattern",
+      "say": "For a difference of cubes, the bracket keeps the minus sign and the quadratic has plus signs.",
+      "lines": [
+       {
+        "text": "$a^3 - b^3 = (a-b)(a^2 + ab + b^2)$"
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "say": "Put $a=3x$ and $b=2$ into the pattern.",
+      "lines": [
+       {
+        "tex": "&= (3x-2)\\big((3x)^2 + (3x)(2) + 2^2\\big)",
+        "sym": "(3*x-2)*((3*x)**2+(3*x)*2+2**2)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the quadratic",
+      "say": "Work out each term in the second bracket.",
+      "lines": [
+       {
+        "tex": "&= (3x-2)(9x^2 + 6x + 4)",
+        "sym": "(3*x-2)*(9*x**2+6*x+4)"
+       },
+       {
+        "text": "Check by multiplying out: you get $27x^3 - 8$ back."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(3x-2)(9x^2 + 6x + 4)"
+   },
+   "finalSym": "(3*x-2)*(9*x**2+6*x+4)",
+   "answerSym": "factor(27*x**3-8)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "alg-surd-expressions",
+  "what": {
+   "say": [
+    "You give it an expression with surds and brackets, like $(\\sqrt{x}+1)(\\sqrt{x}-1)$. It gives back a **simplified** form.",
+    "The key idea: multiply out the brackets as usual, then use $\\sqrt{x}\\times\\sqrt{x} = x$ to remove the surds that cancel."
+   ],
+   "in": "surds and brackets",
+   "out": "simplified form"
+  },
+  "how": {
+   "higher": "Higher level uses it as the main skill in parts of Paper 1, worth 5 marks, such as cubing a surd to prove a result, and as a step in a 10-mark multiplying part."
+  },
+  "example": {
+   "question": "Multiply out and simplify $(3\\sqrt{x} - 2)(2\\sqrt{x} + 5)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply out the brackets",
+      "say": "Multiply each term in the first bracket by each term in the second. One product is $\\sqrt{x}\\times\\sqrt{x}$.",
+      "lines": [
+       {
+        "tex": "(3\\sqrt{x}-2)(2\\sqrt{x}+5) &= 6\\hl{1}{\\sqrt{x}\\sqrt{x}} + 15\\sqrt{x} - 4\\sqrt{x} - 10",
+        "sym": "6*sqrt(x)*sqrt(x)+15*sqrt(x)-4*sqrt(x)-10",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the square root pair",
+      "say": "A square root times itself gives what is inside: $\\hl{1}{\\sqrt{x}\\sqrt{x}} = \\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "&= 6\\hl{1}{x} + 15\\sqrt{x} - 4\\sqrt{x} - 10",
+        "sym": "6*x+15*sqrt(x)-4*sqrt(x)-10"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "say": "The two $\\sqrt{x}$ terms are like terms. Add them.",
+      "lines": [
+       {
+        "tex": "&= 6x + 11\\sqrt{x} - 10",
+        "sym": "6*x+11*sqrt(x)-10"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "6x + 11\\sqrt{x} - 10"
+   },
+   "finalSym": "6*x+11*sqrt(x)-10",
+   "answerSym": "expand((3*sqrt(x)-2)*(2*sqrt(x)+5))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Keep surds exact. Using a decimal for a surd caps the marks, even if you round back at the end.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q9#(b)(iii)",
+       "quote": "using approximate value for √5"
+      }
+     ]
+    },
+    {
+     "tip": "When a question says show or prove, write every line of the expansion. Partial credit is given for some correct substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q9#(b)(iii)",
+       "quote": "some correct substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Check every term in your final lines. For full marks there must be no extra wrong terms.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q1#(b)",
+       "quote": "For FC, there should be no excess terms."
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "alg-fractions-add",
+  "what": {
+   "say": [
+    "You give it two fractions with $x$ in the denominators. It gives back **one** fraction.",
+    "The key idea: fractions only add when the denominators match, so multiply top and bottom of each by what the other denominator has."
+   ],
+   "in": "$\\frac{a}{bx+c} \\pm \\frac{p}{qx+r}$",
+   "out": "single fraction"
+  },
+  "how": {
+   "higher": "Higher level asks for it as a 10-mark part of its own on Paper 1, usually in the first question."
+  },
+  "example": {
+   "question": "Write $\\dfrac{3}{x+2} + \\dfrac{4}{x-1}$ as a single fraction.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a common denominator",
+      "say": "The denominators are different, so multiply them together. Top and bottom of the first fraction get $\\hl{1}{(x-1)}$. Top and bottom of the second get $\\hl{2}{(x+2)}$.",
+      "lines": [
+       {
+        "tex": "\\frac{3}{x+2} + \\frac{4}{x-1} &= \\frac{3\\hl{1}{(x-1)}}{(x+2)\\hl{1}{(x-1)}} + \\frac{4\\hl{2}{(x+2)}}{(x-1)\\hl{2}{(x+2)}}",
+        "sym": "3*(x-1)/((x+2)*(x-1))+4*(x+2)/((x-1)*(x+2))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the numerators",
+      "say": "The denominators now match. Write one fraction with one denominator.",
+      "lines": [
+       {
+        "tex": "&= \\frac{3(x-1) + 4(x+2)}{(x+2)(x-1)}",
+        "sym": "(3*(x-1)+4*(x+2))/((x+2)*(x-1))"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the top",
+      "say": "Open the brackets in the numerator, then collect like terms. Leave the denominator as it is.",
+      "lines": [
+       {
+        "tex": "&= \\frac{3x - 3 + 4x + 8}{(x+2)(x-1)}",
+        "sym": "(3*x-3+4*x+8)/((x+2)*(x-1))"
+       },
+       {
+        "tex": "&= \\frac{7x + 5}{(x+2)(x-1)}",
+        "sym": "(7*x+5)/((x+2)*(x-1))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{7x+5}{(x+2)(x-1)}"
+   },
+   "finalSym": "(7*x+5)/((x+2)*(x-1))",
+   "answerSym": "together(3/(x+2)+4/(x-1))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Name the common denominator and the numerator as you go. Marks are given for identifying each of them.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q1#(b)",
+       "quote": "Work of merit, for example, identifies the"
+      }
+     ]
+    },
+    {
+     "tip": "Get the common denominator right. A correct numerator over a wrong denominator loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q1#(b)",
+       "quote": "Numerator simplified correctly with an"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

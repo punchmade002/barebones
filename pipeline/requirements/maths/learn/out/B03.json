@@ -1,0 +1,429 @@
+[
+ {
+  "skill": "cubic-factor-theorem",
+  "what": {
+   "say": [
+    "You give it a polynomial $f(x)$ and a bracket $(x - a)$. It tells you whether the bracket is a **factor**.",
+    "The key idea: $(x - a)$ is a factor exactly when $f(a) = 0$. Put $a$ in for $x$ and see if you get zero."
+   ],
+   "in": "$f(x)$ and $(x-a)$",
+   "out": "$f(a)=0$, so a factor"
+  },
+  "how": {
+   "higher": "Higher level uses it as the opening step of a Paper 1 question: show that a bracket is a factor, or use it to find an unknown, then solve the cubic. It is rarely a part of its own, but it carries marks every time."
+  },
+  "example": {
+   "question": "Show that $(x - 2)$ is a factor of $f(x) = x^3 - 4x^2 - 11x + 30$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the value to test",
+      "say": "The bracket $(x - 2)$ is zero when $x = \\hl{1}{2}$. So test $f(\\hl{1}{2})$.",
+      "lines": [
+       {
+        "tex": "x - 2 &= 0",
+        "sym": "x-2"
+       },
+       {
+        "tex": "x &= \\hl{1}{2}",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute into f",
+      "say": "Put $\\hl{1}{2}$ in place of every $x$ in $f(x)$.",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{2}) &= (\\hl{1}{2})^3 - 4(\\hl{1}{2})^2 - 11(\\hl{1}{2}) + 30",
+        "sym": "2**3-4*2**2-11*2+30",
+        "new": true
+       },
+       {
+        "tex": "&= 8 - 16 - 22 + 30",
+        "sym": "8-16-22+30"
+       },
+       {
+        "tex": "&= \\hl{2}{0}",
+        "sym": "0"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "The result is $\\hl{2}{0}$, so $x = \\hl{1}{2}$ is a root. Say that in words to finish.",
+      "lines": [
+       {
+        "text": "$f(2) = 0$, so $(x - 2)$ is a factor of $f(x)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f(2) = 0 \\text{, so } (x - 2) \\text{ is a factor}"
+   },
+   "finalSym": "0",
+   "answerSym": "(x**3-4*x**2-11*x+30).subs(x,2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say it in words: either $f(a) = 0$ or \"no remainder\", and that the bracket is a factor. A stated no-remainder is accepted as the reason.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q5#(a)",
+       "quote": "No remainder in division may be stated"
+      }
+     ]
+    },
+    {
+     "tip": "If you divide instead, finish the division and show there is no remainder. That is rewarded on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q4#(b)(ii)",
+       "quote": "Division completed with no remainder"
+      }
+     ]
+    },
+    {
+     "tip": "A slip in the division that leaves a remainder caps your marks, so check the division by multiplying back.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q2#",
+       "quote": "can only get maximum of 15 marks"
+      }
+     ]
+    },
+    {
+     "tip": "After the factor is found, the next marks come for the quadratic quotient. Write it out.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(b)",
+       "quote": "Quotient in quadratic form found"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cubic-find-root",
+  "what": {
+   "say": [
+    "You give it a cubic with whole-number coefficients. It finds one **integer root** by trial.",
+    "The key idea: an integer root must divide the **constant term**. So you only test those divisors, one at a time, until one gives $0$."
+   ],
+   "in": "cubic $f(x)$",
+   "out": "an integer root"
+  },
+  "how": {
+   "higher": "Higher level uses it as the first move in a Paper 1 equation, for example 2015 Question 2 (25 marks): find one root by trial, then divide and solve the quadratic that is left."
+  },
+  "example": {
+   "question": "Find the integer root of $f(x) = x^3 - x^2 + x - 6$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "List the candidates",
+      "say": "An integer root divides the constant term $-6$. The candidates are $\\pm 1, \\pm 2, \\pm 3, \\pm 6$. Test the small ones first.",
+      "lines": [
+       {
+        "text": "Divisors of $6$: $1, 2, 3, 6$, each with a plus or a minus."
+       }
+      ]
+     },
+     {
+      "title": "Try 1 and −1",
+      "say": "Put $x = 1$ into $f(x)$. If the answer is not $0$, move on.",
+      "lines": [
+       {
+        "tex": "f(1) &= 1 - 1 + 1 - 6",
+        "sym": "1-1+1-6",
+        "new": true
+       },
+       {
+        "tex": "&= -5",
+        "sym": "-5"
+       },
+       {
+        "text": "Not zero, so $1$ is not a root."
+       },
+       {
+        "tex": "f(-1) &= -1 - 1 - 1 - 6",
+        "sym": "-1-1-1-6",
+        "new": true
+       },
+       {
+        "tex": "&= -9",
+        "sym": "-9"
+       },
+       {
+        "text": "Not zero either."
+       }
+      ]
+     },
+     {
+      "title": "Try 2",
+      "say": "Next candidate is $x = 2$.",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{2}) &= (\\hl{1}{2})^3 - (\\hl{1}{2})^2 + \\hl{1}{2} - 6",
+        "sym": "2**3-2**2+2-6",
+        "new": true
+       },
+       {
+        "tex": "&= 8 - 4 + 2 - 6",
+        "sym": "8-4+2-6"
+       },
+       {
+        "tex": "&= \\hl{2}{0}",
+        "sym": "0"
+       }
+      ]
+     },
+     {
+      "title": "Write the root",
+      "say": "The value is $\\hl{2}{0}$, so $x = \\hl{1}{2}$ is a root and $(x - 2)$ is a factor.",
+      "lines": [
+       {
+        "text": "Root: $x = 2$. Factor: $(x - 2)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2"
+   },
+   "finalSym": "2",
+   "answerSym": "sum(real_roots(x**3-x**2+x-6))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks start for any real effort at finding a root, so write $f(1)$ and $f(-1)$ out even if they fail.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q2#",
+       "quote": "Effort at finding root"
+      }
+     ]
+    },
+    {
+     "tip": "Finding one root correctly earns marks of its own. Write it down before you start dividing.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q2#",
+       "quote": "Finds one root correctly"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "cubic-form-from-roots",
+  "what": {
+   "say": [
+    "You give it three roots. It builds the **cubic equation** that has exactly those roots.",
+    "The key idea: a root $a$ means a factor $(x - a)$. Multiply the three factors out and set the result equal to $0$."
+   ],
+   "in": "roots $a, b, c$",
+   "out": "$x^3 + \\dots = 0$"
+  },
+  "how": {},
+  "example": {
+   "question": "A cubic equation has roots $-1$, $2$ and $4$. Write the equation in the form $x^3 + bx^2 + cx + d = 0$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Turn roots into factors",
+      "say": "A root $a$ gives the factor $(x - a)$. The three roots give three brackets.",
+      "lines": [
+       {
+        "tex": "(x - (-1))(x - 2)(x - 4) &= 0",
+        "sym": "(x+1)*(x-2)*(x-4)",
+        "new": true
+       },
+       {
+        "text": "The first bracket is $(x + 1)$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply two brackets",
+      "say": "Multiply the first two brackets together.",
+      "lines": [
+       {
+        "tex": "(x + 1)(x - 2) &= x^2 - 2x + x - 2",
+        "sym": "(x+1)*(x-2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{x^2 - x - 2}",
+        "sym": "x**2-x-2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by the third",
+      "say": "Now multiply $\\hl{1}{x^2 - x - 2}$ by the last bracket, term by term.",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{x^2 - x - 2})(x - 4) &= x^3 - 4x^2 - x^2 + 4x - 2x + 8",
+        "sym": "(x**2-x-2)*(x-4)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{x^3 - 5x^2 + 2x + 8}",
+        "sym": "x**3-5*x**2+2*x+8"
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Set the cubic equal to $0$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{x^3 - 5x^2 + 2x + 8} &= 0",
+        "sym": "x**3-5*x**2+2*x+8",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x^3 - 5x^2 + 2x + 8 = 0"
+   },
+   "finalSym": "x**3-5*x**2+2*x+8",
+   "answerSym": "expand((x+1)*(x-2)*(x-4))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "cubic-unknown-coefficient",
+  "what": {
+   "say": [
+    "You give it a polynomial with an unknown letter and a bracket you know is a **factor**. It finds the letter.",
+    "The key idea: if $(x - a)$ is a factor then $f(a) = 0$. Putting $a$ in turns the polynomial into an equation in the unknown alone."
+   ],
+   "in": "$f(x)$ with $k$, and a factor",
+   "out": "the value of $k$"
+  },
+  "how": {
+   "higher": "Higher level uses it inside Paper 1 Question 1 or 2, as a part worth 5 to 20 marks: a factor is given, you find the unknown (2021, 2023, 2025), and often go on to solve for all the roots."
+  },
+  "example": {
+   "question": "$(x + 2)$ is a factor of $f(x) = x^3 + kx^2 - 5x + 6$. Find the value of $k$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use the factor",
+      "say": "The factor $(x + 2)$ is zero when $x = \\hl{1}{-2}$. A factor means $f(\\hl{1}{-2}) = 0$.",
+      "lines": [
+       {
+        "tex": "f(\\hl{1}{-2}) &= 0",
+        "sym": "0",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute into f",
+      "say": "Put $\\hl{1}{-2}$ in for every $x$. The only unknown left is $k$.",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{-2})^3 + k(\\hl{1}{-2})^2 - 5(\\hl{1}{-2}) + 6 &= 0",
+        "sym": "(-2)**3+k*(-2)**2-5*(-2)+6",
+        "new": true
+       },
+       {
+        "tex": "-8 + 4k + 10 + 6 &= 0",
+        "sym": "-8+4*k+10+6"
+       },
+       {
+        "tex": "4k + 8 &= 0",
+        "sym": "4*k+8"
+       }
+      ]
+     },
+     {
+      "title": "Solve for k",
+      "say": "Solve the equation in $k$.",
+      "lines": [
+       {
+        "tex": "4k &= -8",
+        "sym": "4*k+8",
+        "new": true
+       },
+       {
+        "tex": "k &= \\hl{2}{-2}",
+        "sym": "-2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = -2"
+   },
+   "finalSym": "-2",
+   "answerSym": "solve((-2)**3+k*(-2)**2-5*(-2)+6,k)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show your working even if you can see the answer. Correct answers without supporting work earn only low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q1#(c)",
+       "quote": "Correct answers without supporting work"
+      }
+     ]
+    },
+    {
+     "tip": "If you divide, set the long division up correctly. Setting it up earns marks even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q2#(b)",
+       "quote": "Sets up long division correctly"
+      }
+     ]
+    },
+    {
+     "tip": "When the question asks for the roots, list all of them, including the one from the given factor. A missing root costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q2#(b)",
+       "quote": "not listed as a root"
+      }
+     ]
+    },
+    {
+     "tip": "Write an equation with the unknown as the only letter. That is a clear step in the scheme.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q1#(c)",
+       "quote": "Equation set up"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

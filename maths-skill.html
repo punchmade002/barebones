@@ -130,6 +130,11 @@ button { font: inherit; cursor: pointer }
 .nec a, .end a { color: var(--ink); text-decoration-color: var(--accent); text-underline-offset: 3px }
 .back { font-size: 0.8rem; font-weight: 700; color: var(--muted); text-decoration: none }
 .back:hover { color: var(--ink) }
+/* Learn (maths-learn.html) comes before Practice Problems */
+.phases { display: flex; gap: 6px; font-size: 0.78rem; font-weight: 700; margin: 10px 0 0 }
+.phases a, .phases span { padding: 5px 12px; border-radius: 999px; color: var(--muted); background: rgba(255,255,255,.55); text-decoration: none }
+.phases a:hover { color: var(--ink) }
+.phases .now { background: var(--ink); color: #fff }
 
 /* index of skills */
 .index h1 { margin: 0 0 4px; font-size: clamp(1.6rem, 3.4vw, 2.2rem); letter-spacing: -0.02em; font-weight: 800 }
@@ -185,7 +190,7 @@ function renderIndex() {
   app.innerHTML = `<section class="index"><h1>Maths skills</h1>
     <p>${Object.keys(LESSONS).length} skills, each taught through a real exam part with two backups.</p>
     ${order.map(c => `<div class="chapter"><h2>${esc(CHAPTERS[c])}</h2><ul>${by[c].map(l =>
-      `<li><a href="?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="tags">${gradeTag(l.grade)}<span class="lvl">${l.level}</span></span></a></li>`).join('')}</ul></div>`).join('')}
+      `<li><a href="maths-learn.html?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="tags">${gradeTag(l.grade)}<span class="lvl">${l.level}</span></span></a></li>`).join('')}</ul></div>`).join('')}
   </section>`;
 }
 
@@ -210,7 +215,8 @@ function header() {
     ? `<button class="linkish" data-act="nec" aria-expanded="${state.showNec}">Necessary skills (${LESSON.necessary.length})</button>` : '';
   const list = state.showNec && first ? `<div class="nec"><p>This skill is built from these. If a line loses you, the gap is usually one of them.</p><ul>${
     LESSON.necessary.map(n => `<li class="${n.depth > 1 ? 'deep' : ''}">${link(n, esc(n.title))} <span class="lvl">${n.level}</span></li>`).join('')}</ul></div>` : '';
-  return `<a class="back" href="?">← All skills</a><header class="top"><h1>${esc(LESSON.title)}</h1>${gradeTag(LESSON.grade)}<span class="where">${where}</span>${nec}</header>${list}`;
+  const phases = `<nav class="phases" aria-label="Skill phases"><a href="maths-learn.html?skill=${encodeURIComponent(LESSON.id)}">1 · Learn</a><span class="now" aria-current="step">2 · Practice Problems</span></nav>`;
+  return `<a class="back" href="?">← All skills</a>${phases}<header class="top"><h1>${esc(LESSON.title)}</h1>${gradeTag(LESSON.grade)}<span class="where">${where}</span>${nec}</header>${list}`;
 }
 
 function legendHtml(p, found) {

@@ -1,0 +1,167 @@
+[
+ {
+  "skill": "stat-sd",
+  "what": {
+   "say": [
+    "You give it a data set, or a frequency table. It finds the **standard deviation**, $\\hl{2}{\\sigma}$, a single number for how spread out the data is.",
+    "It measures how far the values sit from the mean, on average: a small $\\hl{2}{\\sigma}$ means the values bunch together, a big one means they are scattered.",
+    "On an Ordinary Level paper you do not need the formula by hand. Put the data into the calculator's statistics mode and read $\\sigma$."
+   ],
+   "in": "data set",
+   "out": "$\\sigma$"
+  },
+  "how": {
+   "higher": "At Higher Level it is one item inside a bigger Paper 2 statistics question (2023 Q5), asked alongside the mean and the correlation coefficient, where the answer must be to the decimal places asked for.",
+   "ordinary": "On Ordinary Level it is a part of its own on Paper 2 in most years, usually 5 or 10 marks, often asked together with the mean and followed by a comparison or a range of values around the mean."
+  },
+  "example": {
+   "question": "Five runners' times in a race, in seconds, are\n$12, 15, 9, 14, 10$.\nFind the mean and the standard deviation of the times. Give the standard deviation correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the mean",
+      "say": "The mean is the total of the times divided by how many there are. Add them up and divide by $5$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\bar{x}} &= \\frac{12+15+9+14+10}{5}",
+        "sym": "(12+15+9+14+10)/5",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{60}{5}",
+        "sym": "60/5"
+       },
+       {
+        "tex": "&= \\hl{1}{12}",
+        "sym": "12"
+       }
+      ]
+     },
+     {
+      "title": "Enter the data",
+      "say": "Put the calculator in statistics mode and type in the five times. Check the count reads $5$ before you go on.",
+      "lines": [
+       {
+        "text": "Enter: 12, 15, 9, 14, 10. Then read the mean from the screen: it should be $12$, as above."
+       }
+      ]
+     },
+     {
+      "title": "Read the standard deviation",
+      "say": "Ask the calculator for $\\sigma$. Use the one for the whole data set, $\\sigma_x$ or $\\sigma$, not the sample one $s$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\sigma} &= \\sqrt{\\frac{(12-12)^2+(15-12)^2+(9-12)^2+(14-12)^2+(10-12)^2}{5}}",
+        "sym": "sqrt(((12-12)**2+(15-12)**2+(9-12)**2+(14-12)**2+(10-12)**2)/5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{26}{5}}",
+        "sym": "sqrt(26/5)"
+       },
+       {
+        "tex": "&= 2.28\\ldots",
+        "sym": "2.2803508",
+        "approx": true
+       },
+       {
+        "text": "The calculator does all this for you. The line above only shows what it computes."
+       }
+      ]
+     },
+     {
+      "title": "Round and state",
+      "say": "The question asks for one decimal place. Round $\\hl{2}{\\sigma}$ and write both answers with units.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\sigma} &= 2.3\\text{ seconds}",
+        "sym": "2.3",
+        "approx": true,
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "Mean $= 12$ seconds, standard deviation $\\sigma \\approx 2.3$ seconds"
+   },
+   "finalSym": "sqrt(26/5)",
+   "answerSym": "sqrt((12**2+15**2+9**2+14**2+10**2)/5-((12+15+9+14+10)/5)**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the answer to the number of decimal places the question asks for. One answer given to the wrong accuracy costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q5#(a)(i), (ii), (iii)",
+       "quote": "One or more answers not to"
+      },
+      {
+       "part": "maths-pp-2023-higher-p2-q5#(a)(i), (ii), (iii)",
+       "quote": "required number of decimal places"
+      }
+     ]
+    },
+    {
+     "tip": "If the standard deviation is one of several items, each item is marked. A correct calculator answer can earn full marks without working.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q5#(a)(i), (ii), (iii)",
+       "quote": "Accept correct answer without"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "A correct mean or standard deviation from the calculator earns full marks even with no working.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q1#(a)(ii)",
+       "quote": "Accept correct answers without work"
+      },
+      {
+       "part": "maths-pp-2022-ordinary-p2-q4#(c)",
+       "quote": "Correct answers without"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question says and give units. Wrong or missing rounding, or no units, loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q1#(a)(ii)",
+       "quote": "Apply a * for no or incorrect rounding"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p2-q1#(a)(ii)",
+       "quote": "Apply a * for no units"
+      }
+     ]
+    },
+    {
+     "tip": "If you cannot finish, write the formula with the numbers substituted. That earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q7#(a)(ii)",
+       "quote": "Correct formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Find the mean first and show it. An attempt at the mean earns partial credit even if $\\sigma$ goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q4#(c)",
+       "quote": "Attempt at finding mean"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
