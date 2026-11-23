@@ -1,0 +1,497 @@
+{
+"bio10-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.0",
+"strength": "helpful",
+"why": "polymer of repeating units",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.4",
+"strength": "helpful",
+"why": "pentose sugars",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "helpful",
+"why": "sugar as nucleotide part",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "essential",
+"why": "nitrogenous base of nucleotide",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "essential",
+"why": "the named bases",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "helpful",
+"why": "nucleotide and its base",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.7": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.0.8": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "essential",
+"why": "three parts of a nucleotide",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "essential",
+"why": "sugar and phosphate of nucleotide",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.2.0",
+"strength": "helpful",
+"why": "condensation reaction",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.0",
+"strength": "essential",
+"why": "sugar-phosphate bonds",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "essential",
+"why": "backbone with bases attached",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "essential",
+"why": "sugar-phosphate backbone",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "essential",
+"why": "the four DNA bases",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.5",
+"strength": "essential",
+"why": "purines and pyrimidines",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "base pairs",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "base pairs",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.3",
+"strength": "essential",
+"why": "hydrogen bonds between bases",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.0",
+"strength": "essential",
+"why": "two strands as a ladder",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "complementary base pairing",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.7": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.0",
+"strength": "helpful",
+"why": "ladder structure of DNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "A-T and C-G pairing",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.3.0",
+"strength": "essential",
+"why": "A equals T, C equals G",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.1",
+"strength": "helpful",
+"why": "proteins made of amino acids",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.4.3": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.5",
+"strength": "helpful",
+"why": "double helix",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "helpful",
+"why": "sugar-phosphate backbone",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.3",
+"strength": "essential",
+"why": "ribose versus deoxyribose",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "base pairing rule",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "base pairing",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "single RNA strand",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.0",
+"strength": "helpful",
+"why": "DNA information codes proteins",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.3",
+"strength": "helpful",
+"why": "RNA as go-between",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.4",
+"strength": "helpful",
+"why": "types of RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.2",
+"strength": "helpful",
+"why": "DNA kept in nucleus",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.6.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.1",
+"strength": "essential",
+"why": "uracil replaces thymine",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "RNA backbone",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio10-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.5",
+"strength": "helpful",
+"why": "double helix",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "single-stranded RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.3",
+"strength": "essential",
+"why": "deoxyribose versus ribose",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "essential",
+"why": "bases in DNA and RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.1",
+"strength": "essential",
+"why": "A-U pairing in RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "RNA short and single-stranded",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.2",
+"strength": "helpful",
+"why": "where DNA is found",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.0",
+"strength": "helpful",
+"why": "DNA stores information",
+"confidence": "high"
+}
+]
+}
+}
