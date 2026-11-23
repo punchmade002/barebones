@@ -1,0 +1,128 @@
+[
+ {
+  "skill": "alg-factor-quadratic",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Expands (x + 6)(x + 2) and compares coefficients instead of factorising a trinomial.",
+  "method": "Split the middle term using two numbers with the right product and sum, then factorise by grouping."
+ },
+ {
+  "skill": "alg-fractions-simplify",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Substitutes for n and simplifies fractions inside fractions with nothing to factorise or cancel.",
+  "method": "Factorise every quadratic, turn division into multiplication, and cancel common factors."
+ },
+ {
+  "skill": "alg-surd-expressions",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Expands cubed surd brackets and subtracts to get a number, rather than combining surd fractions over a common denominator.",
+  "method": "Write two surd fractions over a common denominator, simplify the numerator, and use difference of two squares to remove surds from the denominator."
+ },
+ {
+  "skill": "alg-surd-expressions",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Expands squared and cubed surd brackets and then squares, rather than combining surd fractions over a common denominator.",
+  "method": "Write two surd fractions over a common denominator, simplify the numerator, and use difference of two squares to remove surds from the denominator."
+ },
+ {
+  "skill": "prob-relative-frequency",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Only subtracts to find a count of girls, with no relative frequency or expected count.",
+  "method": "Find the relative frequency (count over total), then multiply by a number of trials to estimate an expected count."
+ },
+ {
+  "skill": "prob-selection-restrictions",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Lists digit sets by hand and counts orders with factorials instead of choosing groups with binomials and multiplying.",
+  "method": "Count the ways to choose from each group with combinations and multiply the choices."
+ },
+ {
+  "skill": "seq-classify",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Sets two common differences equal and solves an exponential equation for k via a quadratic in y, instead of classifying a sequence.",
+  "method": "Test consecutive terms for a common difference or common ratio to classify the sequence."
+ },
+ {
+  "skill": "seq-derive-sum-infinity",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Proves the formula for S_n by multiplying by r and subtracting, rather than taking the limit of S_n.",
+  "method": "Start from the S_n formula, split it, and let n tend to infinity with |r| < 1 to get a/(1-r)."
+ },
+ {
+  "skill": "seq-verify-formula",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Proves a formula by induction rather than verifying it by substitution and algebra.",
+  "method": "Substitute the given formula for T_n and simplify algebraically over a common denominator to show it matches."
+ },
+ {
+  "skill": "stat-choose-display",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Asks for a year and a reason from a table with no display chosen or calculation.",
+  "method": "Choose a suitable display for the data and use it to carry out a calculation such as a sector angle."
+ },
+ {
+  "skill": "stat-choose-display",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Asks why a set of means is unreliable instead of choosing a display or summary.",
+  "method": "Choose a suitable display for the data and use it to carry out a calculation such as a sector angle."
+ },
+ {
+  "skill": "stat-populations-samples",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Gives a written advantage and disadvantage of a sample with no identifying or calculating.",
+  "method": "Identify the population and the sample, then use their sizes in a calculation."
+ },
+ {
+  "skill": "stat-srs-bias",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Counts from grouped frequencies and comments on a limit of the sampling method rather than spotting bias in who is selected.",
+  "method": "Spot why a sampling method is biased by finding who is left out, and quantify it as a fraction or percentage."
+ },
+ {
+  "skill": "inf-confidence-width",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Judges whether statements about confidence intervals are always, sometimes or never true, with no calculation.",
+  "method": "Use the margin of error formula with the sample proportion and solve for n."
+ },
+ {
+  "skill": "inf-interpret",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Runs a z-test on a mean using a test statistic and critical values rather than a margin-of-error interval for a proportion.",
+  "method": "Find the margin of error, form the interval for the true percentage, and answer the survey question from it."
+ },
+ {
+  "skill": "circ-general-form",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Completes the square and solves for k instead of reading g, f and c straight off the general form.",
+  "method": "Compare with x^2 + y^2 + 2gx + 2fy + c = 0 to read the centre (-g, -f) and radius sqrt(g^2 + f^2 - c)."
+ },
+ {
+  "skill": "trig-radians",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Substitutes a value into a formula and evaluates in radian mode with no radian-to-degree conversion.",
+  "method": "Convert an angle from radians to degrees using the conversion factor 180/pi."
+ },
+ {
+  "skill": "trig-radians",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Substitutes a value into a formula and evaluates in radian mode with no radian-to-degree conversion.",
+  "method": "Convert an angle from radians to degrees using the conversion factor 180/pi."
+ }
+]
