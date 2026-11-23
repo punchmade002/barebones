@@ -1,0 +1,364 @@
+[
+ {
+  "skill": "geo-enlargement-centre",
+  "what": {
+   "say": [
+    "You give it an object and its image after an enlargement. It finds the **centre** of enlargement and the scale factor $k$.",
+    "The key idea: a line through a point and its image passes through the centre. Draw two such lines and they meet at the centre. Then $k$ is image length over object length."
+   ],
+   "in": "object and image",
+   "out": "centre $O$ and $k$"
+  },
+  "how": {
+   "higher": "Higher level uses it as a part inside a longer Paper 2 geometry question, where $k$ is found from two matching lengths and then used for an area (5 marks of a 30-mark question).",
+   "ordinary": "Ordinary level asks for it on Paper 2 as a construction of the centre, then measuring to find $k$, as part of a bigger question worth about 15 marks."
+  },
+  "example": {
+   "question": "The triangle $PQR$ is the image of the triangle $ABC$ under an enlargement.\n(a) Construct the centre of enlargement and label it $O$.\n(b) Given $|AB| = 4$ cm and $|PQ| = 10$ cm, find the scale factor $k$.\n(c) Check your answer: $|OA| = 6$ cm. Find $|OP|$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the centre",
+      "say": "Join each point to its image. The lines meet at one point. That point is the **centre** $O$.",
+      "lines": [
+       {
+        "text": "Join $A$ to $P$ and $B$ to $Q$."
+       },
+       {
+        "text": "Join $C$ to $R$ as a check. All three lines meet at $O$."
+       }
+      ]
+     },
+     {
+      "title": "Compare matching sides",
+      "say": "The scale factor is image length over object length. $|PQ|$ is the image of $|AB|$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{k} &= \\frac{|PQ|}{|AB|}",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{10}{4}",
+        "sym": "Rational(10,4)",
+        "new": true
+       },
+       {
+        "tex": "&= 2.5",
+        "sym": "2.5"
+       }
+      ]
+     },
+     {
+      "title": "Check with distances from O",
+      "say": "Distances from $O$ scale by the same $\\hl{1}{k}$. Multiply $|OA|$ by $\\hl{1}{k}$ to get $|OP|$.",
+      "lines": [
+       {
+        "tex": "|OP| &= \\hl{1}{k} \\times |OA|",
+        "new": true
+       },
+       {
+        "tex": "&= 2.5 \\times 6",
+        "sym": "2.5*6",
+        "new": true
+       },
+       {
+        "tex": "&= 15",
+        "sym": "15"
+       },
+       {
+        "text": "On the diagram you can measure $|OP|$ to confirm. Allow 5 mm either way."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "k = 2.5, \\ |OP| = 15 \\text{ cm}"
+   },
+   "finalSym": "15",
+   "answerSym": "Rational(10,4)*6"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M90 140 L110 140 L100 120 Z\"/><path d=\"M200 140 L250 140 L225 90 Z\"/><path d=\"M40 150 L250 140 M40 150 L225 90 M40 150 L200 140\" stroke-dasharray=\"3 3\"/><text x=\"30\" y=\"168\" fill=\"#1A1916\" stroke=\"none\">O</text><text x=\"84\" y=\"156\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"110\" y=\"156\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"98\" y=\"112\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"194\" y=\"156\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"250\" y=\"156\" fill=\"#1A1916\" stroke=\"none\">Q</text><text x=\"222\" y=\"84\" fill=\"#1A1916\" stroke=\"none\">R</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the answer without worrying about the unit. The scheme accepts a correct answer with no unit, so spend the time on the working instead.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(b)(ii)",
+       "quote": "Accept correct answer without unit."
+      }
+     ]
+    },
+    {
+     "tip": "Show the length you use first. Finding one relevant length earns a step of its own, so write it down before you combine anything.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(b)(ii)",
+       "quote": "Step 1. Finds one relevant length"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Draw the construction rays even if you cannot finish. Any attempt at a ray earns marks, and a second ray earns more.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q7#(a)(i)",
+       "quote": "An attempt to draw any construction ray"
+      }
+     ]
+    },
+    {
+     "tip": "Measure carefully, but you have some room: the scheme allows a small tolerance on your measurements.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q7#(a)(i)",
+       "quote": "Accept tolerance of 5 mm"
+      }
+     ]
+    },
+    {
+     "tip": "If you make a slip early, keep going. Later parts are marked from your own earlier work.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q7#(a)(i)",
+       "quote": "Accept correct or consistent work from previous section"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-cor6",
+  "what": {
+   "say": [
+    "You give it two circles that touch at one point $T$. It tells you the two centres and $T$ lie on one straight line.",
+    "The key idea: both radii to $T$ are perpendicular to the same tangent. Two lines perpendicular to one line at one point are the same line."
+   ],
+   "in": "two touching circles",
+   "out": "centres and $T$ in a line"
+  },
+  "how": {},
+  "example": {
+   "question": "Two circles touch externally at $T$. Their centres are $A$ and $B$. The radius of one circle is $4$ cm and the radius of the other is $9$ cm. Find $|AB|$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the common tangent",
+      "say": "Draw the tangent to both circles at $T$. A radius meets a tangent at a right angle.",
+      "lines": [
+       {
+        "text": "$[AT]$ and $[BT]$ are both perpendicular to this tangent at $T$."
+       }
+      ]
+     },
+     {
+      "title": "Use Corollary 6",
+      "say": "Both radii are perpendicular to the same line at the same point. So $A$, $T$ and $B$ lie on one straight line. This is **Corollary 6**.",
+      "lines": [
+       {
+        "text": "For external touching, $T$ is between $A$ and $B$."
+       }
+      ]
+     },
+     {
+      "title": "Add the radii",
+      "say": "Along the line, $\\hl{1}{|AB|}$ is made of the two radii.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{|AB|} &= |AT| + |TB|",
+        "new": true
+       },
+       {
+        "tex": "&= 4 + 9",
+        "sym": "4+9",
+        "new": true
+       },
+       {
+        "tex": "&= 13",
+        "sym": "13"
+       },
+       {
+        "text": "If the circles touched internally you would subtract: $9 - 4 = 5$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "13 \\text{ cm}"
+   },
+   "finalSym": "13",
+   "answerSym": "4+9"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"90\" cy=\"110\" r=\"60\"/><circle cx=\"195\" cy=\"110\" r=\"45\"/><path d=\"M90 110 L240 110\" stroke-dasharray=\"3 3\"/><path d=\"M150 40 L150 180\"/><text x=\"80\" y=\"128\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"190\" y=\"128\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"154\" y=\"126\" fill=\"#1A1916\" stroke=\"none\">T</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-cor5",
+  "what": {
+   "say": [
+    "You give it a quadrilateral with all four corners on a circle, a **cyclic quadrilateral**. It tells you each pair of opposite angles adds to $180°$.",
+    "The key idea: opposite angles stand on arcs that together make the whole circle. Write that sum as an equation and solve it."
+   ],
+   "in": "cyclic quadrilateral",
+   "out": "unknown angle"
+  },
+  "how": {},
+  "example": {
+   "question": "$ABCD$ is a cyclic quadrilateral. $|\\angle A| = (2x + 10)°$ and $|\\angle C| = (3x - 20)°$. Find $x$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Spot opposite angles",
+      "say": "$A$ and $C$ are opposite corners of a quadrilateral inscribed in a circle.",
+      "lines": [
+       {
+        "text": "So Corollary 5 applies: opposite angles sum to $180°$."
+       }
+      ]
+     },
+     {
+      "title": "Write the equation",
+      "say": "Add the two angles and set the total equal to $180$.",
+      "lines": [
+       {
+        "tex": "(2x + 10) + (3x - 20) &= 180",
+        "sym": "Eq((2*x+10)+(3*x-20),180)",
+        "new": true
+       },
+       {
+        "tex": "5x - 10 &= 180",
+        "sym": "Eq(5*x-10,180)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Add $10$ to both sides, then divide by $5$ to find $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "5x &= 190",
+        "sym": "Eq(5*x,190)"
+       },
+       {
+        "tex": "\\hl{1}{x} &= 38",
+        "sym": "Eq(x,38)"
+       },
+       {
+        "text": "Check: $|\\angle A| = 86°$ and $|\\angle C| = 94°$. They add to $180°$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 38"
+   },
+   "finalSym": "[38]",
+   "answerSym": "solve(Eq((2*x+10)+(3*x-20),180),x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"150\" cy=\"110\" r=\"85\"/><path d=\"M85 55 L215 55 L225 150 L75 150 Z\"/><text x=\"68\" y=\"52\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"218\" y=\"50\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"228\" y=\"166\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"62\" y=\"168\" fill=\"#1A1916\" stroke=\"none\">D</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-cor2",
+  "what": {
+   "say": [
+    "You give it two angles at the circle that stand on the same **arc**. It tells you they are equal.",
+    "The key idea: each one is half the angle the arc makes at the centre. Same arc, same centre angle, so the two angles match."
+   ],
+   "in": "angles on the same arc",
+   "out": "equal angles"
+  },
+  "how": {
+   "higher": "Higher level uses it as one step in a longer Paper 2 circle question, found by chasing angles in a diagram, worth part of 10 marks."
+  },
+  "example": {
+   "question": "$A$, $B$, $C$ and $D$ are on a circle. $|\\angle ACB| = (3x + 5)°$ and $|\\angle ADB| = (5x - 25)°$. Find $x$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the shared arc",
+      "say": "Both angles are at the circle and both stand on the arc $AB$.",
+      "lines": [
+       {
+        "text": "$\\angle ACB$ and $\\angle ADB$ stand on the same arc."
+       }
+      ]
+     },
+     {
+      "title": "Apply Corollary 2",
+      "say": "Angles on the same arc are equal. This is **Corollary 2**. Set the two expressions equal.",
+      "lines": [
+       {
+        "tex": "3x + 5 &= 5x - 25",
+        "sym": "Eq(3*x+5,5*x-25)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other. Then divide to find $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "30 &= 2x",
+        "sym": "Eq(30,2*x)"
+       },
+       {
+        "tex": "\\hl{1}{x} &= 15",
+        "sym": "Eq(x,15)"
+       },
+       {
+        "text": "Check: both angles are $50°$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 15"
+   },
+   "finalSym": "[15]",
+   "answerSym": "solve(Eq(3*x+5,5*x-25),x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"150\" cy=\"110\" r=\"85\"/><path d=\"M70 85 L130 190 L230 85 M70 85 L190 190 L230 85\"/><text x=\"56\" y=\"84\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"234\" y=\"84\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"118\" y=\"208\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"190\" y=\"208\" fill=\"#1A1916\" stroke=\"none\">D</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Give a reason with every angle you find. In Higher Paper 2 the reason in brackets, such as \"standing on the same arc\", is part of the marked solution.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(b)",
+       "quote": "standing on the same arc"
+      }
+     ]
+    },
+    {
+     "tip": "Spot the angles that stand on the same arc. Showing two equal angles on one arc earns partial credit even if you go no further.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(b)",
+       "quote": "Indicates two equal angles"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

@@ -1,0 +1,494 @@
+[
+ {
+  "skill": "fin-annuity-pv",
+  "what": {
+   "say": [
+    "You give it a payment, a rate $i$ and a number of payments $n$. It gives back what the whole stream of payments is worth **today**.",
+    "The key idea: each payment is divided by $(1+i)$ once for every period it has to wait, and those present values form a **geometric series** you can add with one formula."
+   ],
+   "in": "payment, $i$, $n$",
+   "out": "sum of present values"
+  },
+  "how": {
+   "higher": "It appears twice, in 2018 (Paper 2) and 2020 (Paper 1), each time as a 10-mark part at the end of a long finance question."
+  },
+  "example": {
+   "question": "A pension pays €1500 at the end of each year for 6 years. The interest rate is 3% per year. Find the present value of the pension, correct to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Value each payment today",
+      "say": "A payment made later is worth less now. Divide the first by $1.03$, the second by $1.03^2$, and so on to the sixth.",
+      "lines": [
+       {
+        "tex": "PV &= \\dfrac{1500}{1.03} + \\dfrac{1500}{1.03^2} + \\cdots + \\dfrac{1500}{1.03^6}",
+        "sym": "1500/1.03 + 1500/1.03**2 + 1500/1.03**3 + 1500/1.03**4 + 1500/1.03**5 + 1500/1.03**6"
+       }
+      ]
+     },
+     {
+      "title": "Name a, r and n",
+      "say": "Each term is the one before times the same number. So this is a geometric series. Find the first term $\\hl{1}{a}$, the ratio $\\hl{2}{r}$ and the number of terms $\\hl{3}{n}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\dfrac{1500}{1.03}",
+        "sym": "1500/1.03",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\dfrac{1}{1.03}",
+        "sym": "1/1.03",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= 6",
+        "sym": "6",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the sum formula",
+      "say": "The sum of $n$ terms is $a(1 - r^n)$ over $1 - r$. Put in $\\hl{1}{a}$, $\\hl{2}{r}$ and $\\hl{3}{n}$, then work it out.",
+      "lines": [
+       {
+        "tex": "PV &= \\dfrac{\\hl{1}{\\dfrac{1500}{1.03}}\\left(1 - \\hl{2}{\\dfrac{1}{1.03}}^{\\hl{3}{6}}\\right)}{1 - \\hl{2}{\\dfrac{1}{1.03}}}",
+        "sym": "1500/1.03*(1-(1/1.03)**6)/(1-1/1.03)",
+        "new": true
+       },
+       {
+        "tex": "&= 8125.79",
+        "sym": "8125.79",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}8125.79"
+   },
+   "finalSym": "8125.79",
+   "answerSym": "1500/1.03 + 1500/1.03**2 + 1500/1.03**3 + 1500/1.03**4 + 1500/1.03**5 + 1500/1.03**6"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the payments as a geometric series and say what $a$, $r$ and $n$ are. Identifying them is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q8#(c)",
+       "quote": "GP with a, r and n identified"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the sum formula before you use the calculator. A fully substituted formula reaches High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q5#(b)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula and put in at least some of the numbers. Even a partly correct substitution earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q5#(b)",
+       "quote": "Formula with some correct substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Count the payments carefully. In 2018 the first payment was made at the start, so the series had 26 terms. Using 25 was treated only as a misreading.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q8#(c)",
+       "quote": "Treat n = 25 as a misreading"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fin-mortgage",
+  "what": {
+   "say": [
+    "You give it the loan $P$, the rate per period $i$ and the number of periods $t$. It gives back the fixed repayment $A$ you make each period.",
+    "The key idea: the loan equals the **present value** of all the repayments, and summing that geometric series gives a single formula for $A$."
+   ],
+   "in": "$P$, $i$, $t$",
+   "out": "repayment $A$"
+  },
+  "how": {
+   "higher": "It appears in 2015, 2017 and 2020, all on Paper 1, as a part of its own worth 10 to 15 marks, usually after a rate has been converted.",
+   "ordinary": "It appears once, in 2020 Paper 1, as one short part inside a long question on interest."
+  },
+  "example": {
+   "question": "Aoife borrows €20 000 at a monthly interest rate of 0.5%. She repays the loan in equal monthly repayments over 24 months. The first repayment is one month after she borrows. Find the amount of each repayment, correct to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "For equal repayments the formula is $A = Pi(1+i)^t$ over $(1+i)^t - 1$. First list what you know.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P} &= 20000",
+        "sym": "20000"
+       },
+       {
+        "tex": "\\hl{2}{i} &= 0.005",
+        "sym": "0.005",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{t} &= 24",
+        "sym": "24",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the power",
+      "say": "The power $(1 + \\hl{2}{i})^{\\hl{3}{t}}$ appears twice. Work it out once.",
+      "lines": [
+       {
+        "tex": "(1+\\hl{2}{i})^{\\hl{3}{t}} &= 1.005^{24}",
+        "sym": "1.005**24"
+       },
+       {
+        "tex": "&= 1.12716",
+        "sym": "1.12716",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Substitute and divide",
+      "say": "Put $\\hl{1}{P}$, $\\hl{2}{i}$ and the power into the formula. Divide the top by the bottom.",
+      "lines": [
+       {
+        "tex": "A &= \\dfrac{\\hl{1}{20000}(\\hl{2}{0.005})(1.12716)}{1.12716 - 1}",
+        "sym": "20000*0.005*1.12716/(1.12716-1)",
+        "new": true
+       },
+       {
+        "tex": "&= 886.41",
+        "sym": "886.41",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}886.41"
+   },
+   "finalSym": "886.41",
+   "answerSym": "20000*0.005*1.005**24/(1.005**24-1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the repayment formula down first. A correct formula on its own is worth marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q6#(b)",
+       "quote": "Any correct step, i.e. correct formula"
+      }
+     ]
+    },
+    {
+     "tip": "Put the numbers into the formula in full. A correct substitution reaches High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q6#(b)",
+       "quote": "Substitution in correct formula"
+      }
+     ]
+    },
+    {
+     "tip": "Keep the repayment $A$ and the loan $P$ the right way round. Swapping them can still get High Partial Credit, but no more.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q6#(b)",
+       "quote": "If A and 80 000 interchanged"
+      }
+     ]
+    },
+    {
+     "tip": "Round the way the question asks. In 2015 it was the nearest euro, so $817.59$ became €818.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p1-q6#(b)",
+       "quote": "correct to the nearest euro"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fin-mortgage-derive",
+  "what": {
+   "say": [
+    "You give it the rule that the loan equals the sum of the present values of the repayments. It gives back the formula for the repayment $A$.",
+    "The key idea: the present values form a **geometric series**. Add it with the sum formula, then make $A$ the subject."
+   ],
+   "in": "loan = sum of PVs",
+   "out": "formula for $A$"
+  },
+  "how": {
+   "higher": "It appears in 2017 as a 5-mark 'show that' on Paper 1, and in 2024 Paper 1 as a 15-mark part where the same sum of present values finds the loan."
+  },
+  "example": {
+   "question": "A loan of $P$ is repaid by $t$ equal payments of $A$, one at the end of each period. The interest rate is $i$ per period. Show that $A = \\dfrac{Pi(1+i)^t}{(1+i)^t - 1}$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Add the present values",
+      "say": "The loan equals what all the payments are worth today. Divide each payment by $(1+i)$ once for every period it waits.",
+      "lines": [
+       {
+        "tex": "P &= \\dfrac{A}{1+i} + \\dfrac{A}{(1+i)^2} + \\cdots + \\dfrac{A}{(1+i)^t}"
+       }
+      ]
+     },
+     {
+      "title": "Name a, r and n",
+      "say": "This is a geometric series. Find the first term $\\hl{1}{a}$, the ratio $\\hl{2}{r}$ and the number of terms $\\hl{3}{n}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\dfrac{A}{1+i}",
+        "sym": "A/(1+i)"
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\dfrac{1}{1+i}",
+        "sym": "1/(1+i)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{3}{n} &= t",
+        "sym": "t",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Sum the series",
+      "say": "Use the sum formula $a(1 - r^n)$ over $1 - r$. Then simplify the bottom: $1 - \\hl{2}{r}$ is $i$ over $1+i$.",
+      "lines": [
+       {
+        "tex": "P &= \\dfrac{\\hl{1}{\\dfrac{A}{1+i}}\\left(1 - \\hl{2}{\\dfrac{1}{1+i}}^{\\hl{3}{t}}\\right)}{1 - \\hl{2}{\\dfrac{1}{1+i}}}",
+        "sym": "A/(1+i)*(1-(1/(1+i))**t)/(1-1/(1+i))",
+        "new": true
+       },
+       {
+        "tex": "&= \\dfrac{A\\left(1 - (1+i)^{-t}\\right)}{i}",
+        "sym": "A*(1-(1+i)**(-t))/i"
+       },
+       {
+        "tex": "&= \\dfrac{A\\left((1+i)^t - 1\\right)}{i(1+i)^t}",
+        "sym": "A*((1+i)**t-1)/(i*(1+i)**t)"
+       }
+      ]
+     },
+     {
+      "title": "Make A the subject",
+      "say": "Multiply both sides by $i(1+i)^t$ and divide by $(1+i)^t - 1$. $A$ is now on its own.",
+      "lines": [
+       {
+        "tex": "A &= \\dfrac{Pi(1+i)^t}{(1+i)^t - 1}",
+        "sym": "P*i*(1+i)**t/((1+i)**t-1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "A = \\dfrac{Pi(1+i)^t}{(1+i)^t - 1}"
+   },
+   "finalSym": "0",
+   "answerSym": "(P*i*(1+i)**t/((1+i)**t-1))*(1-(1+i)**(-t))/i - P"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Substitute fully into the geometric sum formula. That reaches High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q8#(a)",
+       "quote": "full substitution for"
+      }
+     ]
+    },
+    {
+     "tip": "Begin with the present values of the first three repayments, each divided by a higher power of the growth factor. It is a marked step.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(b)(i), (ii)",
+       "quote": "Present values of the 1st three"
+      }
+     ]
+    },
+    {
+     "tip": "Round when the question says so. Leaving the answer unrounded, or rounding it wrongly, loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q7#(b)(i), (ii)",
+       "quote": "Rounded incorrectly or no rounding"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fin-amortisation",
+  "what": {
+   "say": [
+    "You give it the loan, the rate and the repayment. It gives back, for each period, the **interest**, the **capital repaid** and the new **balance**.",
+    "The key idea: interest is charged on the balance you still owe. What is left of the repayment pays off capital, and the balance drops by that much."
+   ],
+   "in": "loan, rate, repayment",
+   "out": "interest, capital, balance"
+  },
+  "how": {
+   "higher": "It appears once, in 2017 Paper 1, as a 10-mark part where you complete a table of interest and balance for three payments."
+  },
+  "example": {
+   "question": "A loan of €8000 is repaid by monthly repayments of €400. The monthly interest rate is 0.6%. Find the interest charged, the capital repaid and the balance owed after the first two repayments. Give the final balance correct to the nearest cent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Interest for month 1",
+      "say": "Interest is charged on the balance owed. Take $0.6\\%$ of the loan.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{I_1} &= 8000 \\times 0.006",
+        "sym": "8000*0.006"
+       },
+       {
+        "tex": "&= 48",
+        "sym": "48"
+       }
+      ]
+     },
+     {
+      "title": "Capital and balance, month 1",
+      "say": "The repayment first pays the interest $\\hl{1}{I_1}$. The rest is capital. Take the capital off the balance.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{C_1} &= 400 - 48",
+        "sym": "400-48",
+        "new": true
+       },
+       {
+        "tex": "&= 352",
+        "sym": "352"
+       },
+       {
+        "tex": "\\hl{3}{B_1} &= 8000 - 352",
+        "sym": "8000-352",
+        "new": true
+       },
+       {
+        "tex": "&= 7648",
+        "sym": "7648"
+       }
+      ]
+     },
+     {
+      "title": "Repeat for month 2",
+      "say": "Now the balance owed is $\\hl{3}{B_1}$. Charge interest on that, then find the capital and the new balance.",
+      "lines": [
+       {
+        "tex": "I_2 &= 7648 \\times 0.006",
+        "sym": "7648*0.006",
+        "new": true
+       },
+       {
+        "tex": "&= 45.888",
+        "sym": "45.888"
+       },
+       {
+        "tex": "C_2 &= 400 - 45.888",
+        "sym": "400-45.888",
+        "new": true
+       },
+       {
+        "tex": "&= 354.112",
+        "sym": "354.112"
+       },
+       {
+        "tex": "B_2 &= 7648 - 354.112",
+        "sym": "7648-354.112",
+        "new": true
+       },
+       {
+        "tex": "&= 7293.888",
+        "sym": "7293.888"
+       },
+       {
+        "tex": "&\\approx 7293.89",
+        "sym": "7293.89",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{€}7293.89"
+   },
+   "finalSym": "7293.89",
+   "answerSym": "8000*1.006**2 - 400*(1.006 + 1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Fill in every entry you can. Even one correct entry earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q8#(b)(iii)",
+       "quote": "One correct additional entry"
+      }
+     ]
+    },
+    {
+     "tip": "Six correct entries in the table reach High Partial Credit, so keep going down the rows.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q8#(b)(iii)",
+       "quote": "6 correct additional entries"
+      }
+     ]
+    },
+    {
+     "tip": "If your rate from an earlier part is wrong, the table is checked against your own rate. Carry it through consistently.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q8#(b)(iii)",
+       "quote": "check the validity of all values"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

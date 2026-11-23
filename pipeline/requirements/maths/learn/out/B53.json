@@ -1,0 +1,444 @@
+[
+ {
+  "skill": "geo-prove-thm11",
+  "what": {
+   "say": [
+    "You give it a statement, Theorem 11. It writes a **formal proof**: given, to prove, construction and proof.",
+    "The key idea: build a **parallelogram** so equal segments on one transversal copy across to the other, then use congruent triangles."
+   ],
+   "in": "statement",
+   "out": "formal proof"
+  },
+  "how": {
+   "higher": "Higher level asked for it once, in 2015 on Paper 2 (Question 6(b)), as a proof of its own with marks split between the diagram and given, the construction and the proof."
+  },
+  "example": {
+   "question": "Three parallel lines $AD$, $BE$ and $CF$ cut off equal segments on the transversal $AC$, so $|AB| = |BC|$. Prove that they cut off equal segments on any other transversal $DF$, so $|DE| = |EF|$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Given and to prove",
+      "say": "Write down what you are given and what you must show, with a diagram.",
+      "lines": [
+       {
+        "text": "Given: $AD \\parallel BE \\parallel CF$ and $|AB| = |BC|$."
+       },
+       {
+        "text": "To prove: $|DE| = |EF|$."
+       }
+      ]
+     },
+     {
+      "title": "Draw two parallels",
+      "say": "Draw through $A$ a line parallel to $DF$. It meets $BE$ at $B'$ and $CF$ at $C'$. Draw through $B'$ a line parallel to $DF$ too, meeting $CF$ at $F'$.",
+      "lines": [
+       {
+        "text": "Construction: $AC' \\parallel DF$, and $B'F' \\parallel AC$ meeting $CF$ at $F'$."
+       }
+      ]
+     },
+     {
+      "title": "Make a parallelogram",
+      "say": "Both pairs of opposite sides are parallel, so the figure on $B'$ and $C$ is a parallelogram. Opposite sides of a parallelogram are equal.",
+      "lines": [
+       {
+        "text": "$|B'F'| = |BC|$ (opposite sides in a parallelogram)."
+       },
+       {
+        "text": "$|BC| = |AB|$ (given), so $|B'F'| = |AB|$."
+       }
+      ]
+     },
+     {
+      "title": "Prove two triangles congruent",
+      "say": "Look at the triangles $ABE'$ and $F'B'E'$ that meet at $E'$. Find two equal angles and one equal side.",
+      "lines": [
+       {
+        "text": "$|\\angle BAE'| = |\\angle B'F'E'|$ (alternate angles)."
+       },
+       {
+        "text": "$|\\angle AE'B'| = |\\angle F'E'B'|$ (vertically opposite angles)."
+       },
+       {
+        "text": "So the triangles are congruent by **ASA**, and $|AE'| = |F'E'|$."
+       }
+      ]
+     },
+     {
+      "title": "Pass the equality to $DF$",
+      "say": "$AE'$ and $DE$ are opposite sides of a parallelogram, and so are $F'E'$ and $FE$.",
+      "lines": [
+       {
+        "text": "$|DE| = |AE'| = |F'E'| = |EF|$ (opposite sides in a parallelogram)."
+       },
+       {
+        "text": "Hence $|DE| = |EF|$. Done."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|DE| = |EF|"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M40 40 L260 40 M40 110 L260 110 M40 180 L260 180 M70 20 L200 200 M220 20 L260 200\"/><text x=\"28\" y=\"38\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"28\" y=\"108\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"28\" y=\"178\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"265\" y=\"38\" fill=\"#1A1916\" stroke=\"none\">D</text><text x=\"265\" y=\"108\" fill=\"#1A1916\" stroke=\"none\">E</text><text x=\"265\" y=\"178\" fill=\"#1A1916\" stroke=\"none\">F</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks are given for the diagram and the 'given' before any proof is written, so draw and label first.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q6#(b) Proof",
+       "quote": "Effort at Diagram or Given"
+      }
+     ]
+    },
+    {
+     "tip": "Even an attempted construction earns partial credit, so draw it and say what it is.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q6#(b) Proof",
+       "quote": "Construction attempted (diagram and/or description)"
+      }
+     ]
+    },
+    {
+     "tip": "Give a reason beside each step. The model proof cites the theorem for each line.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q6#(b) Proof",
+       "quote": "(opposite sides in a parallelogram)"
+      }
+     ]
+    },
+    {
+     "tip": "Name the angle pairs you use, such as alternate or vertically opposite.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q6#(b) Proof",
+       "quote": "(vertically opposite angles)"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-prove-thm12",
+  "what": {
+   "say": [
+    "You give it a statement, Theorem 12. It writes a **formal proof** that a line parallel to one side of a triangle divides the other two sides in the same ratio.",
+    "The key idea: cut one side into equal parts, draw parallels, and let Theorem 11 carry the equal parts to the other side."
+   ],
+   "in": "statement",
+   "out": "formal proof"
+  },
+  "how": {
+   "higher": "Higher level asked for it once, in 2018 on Paper 2 (Question 6(a)), as a 15-mark proof with a diagram, the given, the construction and the proof."
+  },
+  "example": {
+   "question": "In the triangle $ABC$, the line $XY$ is parallel to $BC$, with $X$ on $[AB]$ and $Y$ on $[AC]$. It cuts $[AB]$ in the ratio $|AX| : |XB| = 2 : 3$. Prove that $|AY| : |YC| = 2 : 3$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Given and to prove",
+      "say": "State the given, the claim, and draw the triangle with $XY \\parallel BC$.",
+      "lines": [
+       {
+        "text": "Given: triangle $ABC$ with $XY \\parallel BC$ and $|AX| : |XB| = 2 : 3$."
+       },
+       {
+        "text": "To prove: $|AY| : |YC| = 2 : 3$."
+       }
+      ]
+     },
+     {
+      "title": "Divide $[AB]$ into equal parts",
+      "say": "The ratio is $2 : 3$, so split $[AB]$ into $2 + 3 = 5$ equal parts. Two parts lie along $[AX]$ and three along $[XB]$.",
+      "lines": [
+       {
+        "text": "Each part has the same length, call it $m$."
+       },
+       {
+        "text": "Construction: through each point of division draw a line parallel to $BC$."
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 11",
+      "say": "The new lines are parallel and cut equal segments on the transversal $AB$. By Theorem 11 they cut equal segments on any other transversal, so also on $[AC]$.",
+      "lines": [
+       {
+        "text": "$[AC]$ is divided into 5 equal parts, 2 of them in $[AY]$ and 3 in $[YC]$."
+       }
+      ]
+     },
+     {
+      "title": "Compare lengths",
+      "say": "Let $k$ be the length of one part on $[AC]$. Then count parts in $[AY]$ and $[YC]$.",
+      "lines": [
+       {
+        "tex": "|AY| : |YC| &= 2k : 3k"
+       },
+       {
+        "tex": "&= 2 : 3"
+       },
+       {
+        "text": "Hence $|AY| : |YC| = 2 : 3$. Done."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|AY| : |YC| = 2 : 3"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M150 20 L40 190 L260 190 Z M95 105 L205 105\"/><text x=\"146\" y=\"14\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"24\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"264\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"76\" y=\"108\" fill=\"#1A1916\" stroke=\"none\">X</text><text x=\"210\" y=\"108\" fill=\"#1A1916\" stroke=\"none\">Y</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Draw the diagram first: a relevant diagram alone earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(a)",
+       "quote": "Relevant diagram drawn"
+      }
+     ]
+    },
+    {
+     "tip": "Show the construction clearly on the diagram. It is the next level of credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(a)",
+       "quote": "Construction clearly indicated"
+      }
+     ]
+    },
+    {
+     "tip": "Cite the earlier theorem for the equal segments. The model proof starts from it.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(a)",
+       "quote": "By a previous theorem the parallel lines cut"
+      }
+     ]
+    },
+    {
+     "tip": "Missing even one relevant step in the proof costs you the top band.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q6#(a)",
+       "quote": "Proof missing 1 relevant step"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-prove-thm13",
+  "what": {
+   "say": [
+    "You give it a statement, Theorem 13. It writes a **formal proof** that similar triangles have proportional sides.",
+    "The key idea: fit a copy of the smaller triangle inside the larger, show the copy gives a **parallel** line, then use Theorem 12."
+   ],
+   "in": "statement",
+   "out": "formal proof"
+  },
+  "how": {
+   "higher": "Higher level asked for it once, in 2021 on Paper 2 (Question 6(a)), as a 20-mark proof marked in five steps: given, construction, congruent triangles, parallel lines, and the ratios."
+  },
+  "example": {
+   "question": "The triangles $ABC$ and $DEF$ are similar, with equal angles at $A$ and $D$, at $B$ and $E$, at $C$ and $F$. Prove that $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}$.",
+   "level": "higher",
+   "marks": 20,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Given and to prove",
+      "say": "Write down the given, the claim, and draw both triangles.",
+      "lines": [
+       {
+        "text": "Given: triangles $ABC$ and $DEF$ with equal angles."
+       },
+       {
+        "text": "To prove: $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|} = \\dfrac{|BC|}{|EF|}$."
+       }
+      ]
+     },
+     {
+      "title": "Mark off the smaller triangle",
+      "say": "Place a copy of $DEF$ inside $ABC$. Put $E'$ on $[AB]$ with $|AE'| = |DE|$ and $F'$ on $[AC]$ with $|AF'| = |DF|$. Join $E'$ to $F'$.",
+      "lines": [
+       {
+        "text": "Construction: $E'$ on $[AB]$ with $|AE'| = |DE|$, and $F'$ on $[AC]$ with $|AF'| = |DF|$."
+       }
+      ]
+     },
+     {
+      "title": "Prove two triangles congruent",
+      "say": "$AE'F'$ and $DEF$ have two equal sides and the angle between them equal (the angle at $A$ equals the angle at $D$).",
+      "lines": [
+       {
+        "text": "$\\triangle AE'F'$ is congruent to $\\triangle DEF$. Reason: **SAS**."
+       }
+      ]
+     },
+     {
+      "title": "Show $E'F'$ is parallel to $BC$",
+      "say": "Congruent triangles have equal angles, so $|\\angle AE'F'| = |\\angle DEF| = |\\angle ABC|$. These are corresponding angles.",
+      "lines": [
+       {
+        "text": "$E'F' \\parallel BC$. Reason: corresponding angles equal."
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 12",
+      "say": "A line parallel to one side divides the other two sides in the same ratio.",
+      "lines": [
+       {
+        "tex": "\\frac{|AB|}{|AE'|} &= \\frac{|AC|}{|AF'|}"
+       },
+       {
+        "text": "But $|AE'| = |DE|$ and $|AF'| = |DF|$, so $\\dfrac{|AB|}{|DE|} = \\dfrac{|AC|}{|DF|}$."
+       },
+       {
+        "text": "Repeat from the vertex $B$ to get $\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|}$. Done."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{|AB|}{|DE|} = \\dfrac{|BC|}{|EF|} = \\dfrac{|CA|}{|FD|}"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M30 190 L30 60 L130 190 Z M170 190 L170 120 L230 190 Z\"/><text x=\"14\" y=\"60\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"14\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"134\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"156\" y=\"118\" fill=\"#1A1916\" stroke=\"none\">D</text><text x=\"156\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">E</text><text x=\"234\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">F</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Think of the proof as five steps and write all five.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(a)",
+       "quote": "Consider the proof as requiring five"
+      }
+     ]
+    },
+    {
+     "tip": "Reasons can be left out and still reach high partial credit, but not full credit. Always give them.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(a)",
+       "quote": "Accept steps without reasons for up to"
+      }
+     ]
+    },
+    {
+     "tip": "The last step is not marked unless the steps before it are all there.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(a)",
+       "quote": "Note: Step 5 is not considered done"
+      }
+     ]
+    },
+    {
+     "tip": "A relevant diagram or an effort at the given earns something. Start there.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q6#(a)",
+       "quote": "relevant diagram(s) drawn"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-cuts",
+  "what": {
+   "say": [
+    "You give it a diagram and a claim. It writes a **step-by-step deduction**, naming the theorem behind every step.",
+    "The key idea: find equal angles first. Equal angles give similar triangles, and similar triangles give ratios of sides."
+   ],
+   "in": "diagram + claim",
+   "out": "deduction citing theorems"
+  },
+  "how": {},
+  "example": {
+   "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $|\\angle ADE| = |\\angle ABC|$. Given $|AD| = 4$, $|DB| = 2$ and $|DE| = 5$, prove that triangles $ADE$ and $ABC$ are similar, and find $|BC|$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read the diagram",
+      "say": "List what the diagram gives you and the claim to prove. Mark equal angles on it.",
+      "lines": [
+       {
+        "text": "Given: $|\\angle ADE| = |\\angle ABC|$, $|AD| = 4$, $|AB| = 4 + 2 = 6$, $|DE| = 5$."
+       }
+      ]
+     },
+     {
+      "title": "Find a second equal angle",
+      "say": "Both triangles share the angle at $A$. It is the same angle in each, so it is equal.",
+      "lines": [
+       {
+        "text": "$|\\angle DAE| = |\\angle BAC|$ (common angle)."
+       }
+      ]
+     },
+     {
+      "title": "Name the third angle",
+      "say": "Angles in a triangle sum to $180^\\circ$ (Theorem 4). Two angles equal means the third is equal.",
+      "lines": [
+       {
+        "text": "$|\\angle AED| = |\\angle ACB|$ (Theorem 4)."
+       },
+       {
+        "text": "So $\\triangle ADE$ and $\\triangle ABC$ are **similar**: all three angles equal."
+       }
+      ]
+     },
+     {
+      "title": "Use proportional sides",
+      "say": "By Theorem 13, similar triangles have proportional sides. Match $DE$ with $BC$ and $AD$ with $AB$.",
+      "lines": [
+       {
+        "tex": "\\frac{|BC|}{|DE|} &= \\frac{|AB|}{|AD|}",
+        "sym": "Eq(x/5, Rational(6,4))",
+        "new": true
+       },
+       {
+        "tex": "\\frac{|BC|}{5} &= \\frac{6}{4}",
+        "sym": "Eq(x/5, Rational(6,4))"
+       },
+       {
+        "tex": "|BC| &= 7.5",
+        "sym": "Eq(x, Rational(15,2))"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|BC| = 7.5"
+   },
+   "finalSym": "[Rational(15,2)]",
+   "answerSym": "solve(Eq(x/5, Rational(6,4)), x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M150 20 L40 190 L260 190 Z M95 105 L205 105\"/><text x=\"146\" y=\"14\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"24\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"264\" y=\"200\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"76\" y=\"108\" fill=\"#1A1916\" stroke=\"none\">D</text><text x=\"210\" y=\"108\" fill=\"#1A1916\" stroke=\"none\">E</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

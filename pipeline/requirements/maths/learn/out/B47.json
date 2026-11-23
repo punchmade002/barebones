@@ -1,0 +1,438 @@
+[
+ {
+  "skill": "geo-thm7",
+  "what": {
+   "say": [
+    "You give it a triangle where some angles or sides are unknown. It tells you which side is the **longest** and which angle is the **greatest**.",
+    "The key idea: the greater angle always faces the greater side. It works the other way round too, so the longest side faces the greatest angle."
+   ],
+   "in": "angles of a triangle",
+   "out": "order of the sides"
+  },
+  "how": {},
+  "example": {
+   "question": "In triangle $ABC$, $|\\angle A| = (x + 30)^\\circ$, $|\\angle B| = (2x - 10)^\\circ$ and $|\\angle C| = (3x - 20)^\\circ$. Find $x$, and name the longest side of the triangle.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Add the three angles",
+      "say": "The angles of a triangle add to $180^\\circ$. Write that as an equation and collect the terms.",
+      "lines": [
+       {
+        "tex": "(x + 30) + (2x - 10) + (3x - 20) &= 180",
+        "sym": "Eq((x+30)+(2*x-10)+(3*x-20),180)",
+        "new": true
+       },
+       {
+        "tex": "6x &= 180",
+        "sym": "Eq(6*x,180)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Divide both sides by $6$ to find $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 30",
+        "sym": "Eq(x,30)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find each angle",
+      "say": "Put $\\hl{1}{x = 30}$ into each angle.",
+      "lines": [
+       {
+        "tex": "|\\angle A| &= 30 + 30 = 60^\\circ",
+        "sym": "Eq(angA,30+30)",
+        "new": true
+       },
+       {
+        "tex": "|\\angle B| &= 2(30) - 10 = 50^\\circ",
+        "sym": "Eq(angB,2*30-10)",
+        "new": true
+       },
+       {
+        "tex": "|\\angle C| &= 3(30) - 20 = \\hl{2}{70^\\circ}",
+        "sym": "Eq(angC,3*30-20)",
+        "new": true
+       },
+       {
+        "text": "Check: $60 + 50 + 70 = 180$."
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 7",
+      "say": "Theorem 7: the greater angle is opposite the greater side. The greatest angle is $\\hl{2}{70^\\circ}$ at $C$, so the longest side is the one opposite $C$.",
+      "lines": [
+       {
+        "text": "The side opposite $C$ is $[AB]$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 30,\\ [AB]\\text{ is the longest side (opposite }\\hl{2}{70^\\circ}\\text{)}"
+   },
+   "finalSym": "70",
+   "answerSym": "(3*x-20).subs(x,Rational(180,6))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "geo-thm8",
+  "what": {
+   "say": [
+    "You give it three lengths, or two lengths and an unknown third. It tells you whether a triangle can be made, and how long the unknown side can be.",
+    "The key idea: any two sides together must be **longer** than the third. If they are not, the two sides cannot reach each other."
+   ],
+   "in": "three side lengths",
+   "out": "triangle possible, or not"
+  },
+  "how": {
+   "ordinary": "At Ordinary level it turned up once in 11 years, as a 5 mark part of a Paper 2 construction question: pick the triangle that can be drawn and give a reason."
+  },
+  "example": {
+   "question": "A triangle has two sides of length $6$ cm and $9$ cm. The third side is $x$ cm, where $x$ is a whole number. How many different values can $x$ have?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the largest x",
+      "say": "Theorem 8: two sides together are longer than the third. The two given sides must together be longer than $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "x &< 6 + 9",
+        "sym": "x<6+9",
+        "new": true
+       },
+       {
+        "tex": "&< 15",
+        "sym": "x<15"
+       }
+      ]
+     },
+     {
+      "title": "Find the smallest x",
+      "say": "Now $6$ and $\\hl{1}{x}$ together must be longer than $9$.",
+      "lines": [
+       {
+        "tex": "6 + x &> 9",
+        "sym": "6+x>9",
+        "new": true
+       },
+       {
+        "tex": "x &> 3",
+        "sym": "x>3"
+       },
+       {
+        "text": "The third pair, $9 + x > 6$, is true for every $x$ here."
+       }
+      ]
+     },
+     {
+      "title": "List the whole numbers",
+      "say": "$x$ is between $3$ and $15$, and not equal to either. The whole numbers are $4, 5, \\dots, 14$. Count them.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{14} - 4 + 1 &= \\hl{3}{11}",
+        "sym": "Eq(14-4+1,11)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "11"
+   },
+   "finalSym": "11",
+   "answerSym": "(ceiling(6+9)-1)-(floor(9-6)+1)+1"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Name the triangle and give the reason. Either one alone only earns part of the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q6#(b)",
+       "quote": "Triangle correct but no reason."
+      },
+      {
+       "part": "maths-pp-2016-ordinary-p2-q6#(b)",
+       "quote": "Reason correct but no Triangle."
+      }
+     ]
+    },
+    {
+     "tip": "The reason is about the sides: the two shorter ones are not long enough to meet.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q6#(b)",
+       "quote": "not long enough"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm14",
+  "what": {
+   "say": [
+    "You give it a right-angled triangle with two sides known. It finds the third side.",
+    "The key idea: the square on the **hypotenuse** (the side opposite the right angle) equals the sum of the squares on the other two sides."
+   ],
+   "in": "two sides of a right angle",
+   "out": "the third side"
+  },
+  "how": {
+   "higher": "At Higher level it is a step inside bigger questions, mostly on Paper 2 (solids, circles, trigonometry), and once on Paper 1 in an equation. It was the main skill in 5 parts over 11 years, worth 5 to 15 marks.",
+   "ordinary": "At Ordinary level it is usually a part of its own on Paper 2, worth 10 marks. It was the main skill in 4 parts over 11 years."
+  },
+  "example": {
+   "question": "A ladder $7{\\cdot}4$ m long leans against a vertical wall. The foot of the ladder is $2{\\cdot}1$ m from the wall. How high up the wall does the ladder reach? Give your answer correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the hypotenuse",
+      "say": "The wall is vertical and the ground is flat, so there is a right angle between them. The ladder is opposite the right angle, so it is the hypotenuse.",
+      "lines": [
+       {
+        "tex": "\\text{hypotenuse} &= 7{\\cdot}4",
+        "new": true
+       },
+       {
+        "text": "Write Pythagoras: hypotenuse$^2$ = sum of the other two sides squared."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into Pythagoras",
+      "say": "Let $\\hl{1}{h}$ be the height up the wall. Put the numbers in.",
+      "lines": [
+       {
+        "tex": "7{\\cdot}4^2 &= \\hl{1}{h}^2 + 2{\\cdot}1^2",
+        "sym": "Eq(7.4**2,h**2+2.1**2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for h squared",
+      "say": "Take $2{\\cdot}1^2$ from both sides to get $h^2$ on its own.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h}^2 &= 7{\\cdot}4^2 - 2{\\cdot}1^2",
+        "sym": "Eq(h**2,7.4**2-2.1**2)",
+        "new": true
+       },
+       {
+        "tex": "&= 50{\\cdot}35",
+        "sym": "Eq(h**2,50.35)"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "say": "Square root both sides, then round to one decimal place.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{h} &= \\sqrt{50{\\cdot}35}",
+        "sym": "Eq(h,sqrt(50.35))",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{7{\\cdot}1}\\text{ m}",
+        "sym": "Eq(h,7.1)",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "7{\\cdot}1\\text{ m}"
+   },
+   "finalSym": "7.1",
+   "answerSym": "round(sqrt(7.4**2-2.1**2),1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write Pythagoras with the numbers in it. Fully substituting is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q6#(a)",
+       "quote": "Pythagoras fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "If you are stuck, still write Pythagoras down. Any use of it earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q5#(a)(i)",
+       "quote": "any use of Pythagoras"
+      },
+      {
+       "part": "maths-pp-2019-higher-p2-q7#(a)(i)",
+       "quote": "Pythagoras formulated"
+      }
+     ]
+    },
+    {
+     "tip": "Put the unit on a length. Leaving it off, or using the wrong one, costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+       "quote": "Apply a * for incorrect or no unit"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the theorem down first. Writing Pythagoras is itself worth marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q5#(b)",
+       "quote": "Pythagoras Theorem written"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute every number into the formula. A fully substituted formula earns the next band of marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q5#(b)",
+       "quote": "A fully correctly-substituted formula"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the square is not the end. Take the square root to finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q9#(c)",
+       "quote": "Writes or evaluates"
+      }
+     ]
+    },
+    {
+     "tip": "Give the unit and round as asked. Each one costs a mark if missed.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q5#(b)",
+       "quote": "Correct answer, no unit or incorrect unit"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm15",
+  "what": {
+   "say": [
+    "You give it a triangle with all three sides known. It tells you whether the triangle has a **right angle**.",
+    "The key idea: if the square of the longest side equals the sum of the squares of the other two, the angle opposite the longest side is $90^\\circ$."
+   ],
+   "in": "three side lengths",
+   "out": "right-angled, or not"
+  },
+  "how": {
+   "higher": "At Higher level it turned up once in 11 years, as a 5 mark part on Paper 1: show that a set of three sides satisfies Pythagoras."
+  },
+  "example": {
+   "question": "A triangle has sides of length $20$ cm, $99$ cm and $101$ cm. Show that the triangle is right-angled.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Pick the longest side",
+      "say": "If there is a right angle, it is opposite the longest side, so that side is the hypotenuse. Here it is $\\hl{1}{101}$.",
+      "lines": [
+       {
+        "text": "Test: does the sum of the other two squares equal $101^2$?"
+       }
+      ]
+     },
+     {
+      "title": "Square the short sides",
+      "say": "Square the two shorter sides and add them.",
+      "lines": [
+       {
+        "tex": "20^2 + 99^2 &= 400 + 9801",
+        "sym": "Eq(20**2+99**2,400+9801)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{10201}",
+        "sym": "Eq(20**2+99**2,10201)"
+       }
+      ]
+     },
+     {
+      "title": "Square the longest side",
+      "say": "Now square the longest side.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{101}^2 &= \\hl{2}{10201}",
+        "sym": "Eq(101**2,10201)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "say": "The two results are equal. By the converse of Pythagoras (Theorem 15), the angle opposite the longest side is a right angle.",
+      "lines": [
+       {
+        "tex": "20^2 + 99^2 &= 101^2",
+        "sym": "Eq(20**2+99**2,101**2)",
+        "new": true
+       },
+       {
+        "text": "So the triangle is right-angled."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "20^2 + 99^2 = 101^2"
+   },
+   "finalSym": "0",
+   "answerSym": "20**2+99**2-101**2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write out each square and the sum, with both sides shown equal. Do not just state that it works.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q5#(a)(ii)",
+       "quote": "81 + 1600 = 1681"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
