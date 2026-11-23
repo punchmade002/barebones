@@ -1,0 +1,816 @@
+{
+ "bio23-s4.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.6.0",
+    "strength": "helpful",
+    "why": "ovary location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s2.6.1",
+    "strength": "essential",
+    "why": "follicles in the ovary",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.4.3",
+    "strength": "helpful",
+    "why": "endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "helpful",
+    "why": "hormone definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.0.4",
+    "strength": "helpful",
+    "why": "uterine cycle, endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.0.3",
+    "strength": "essential",
+    "why": "days counted from day 1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.5",
+    "strength": "helpful",
+    "why": "endometrium shed",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.3.0",
+    "strength": "helpful",
+    "why": "cervix",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.1.1",
+    "strength": "helpful",
+    "why": "shedding of lining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.0.4",
+    "strength": "helpful",
+    "why": "ovarian cycle follicles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.0.3",
+    "strength": "helpful",
+    "why": "day counting",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.6.1",
+    "strength": "essential",
+    "why": "follicles hold eggs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.3",
+    "strength": "essential",
+    "why": "endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.3.1",
+    "strength": "helpful",
+    "why": "cervical mucus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.2.1",
+    "strength": "essential",
+    "why": "Graafian follicle",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s2.5.1",
+    "strength": "helpful",
+    "why": "funnel sweeps egg",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.3.0",
+    "strength": "helpful",
+    "why": "egg released",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.3.0",
+    "strength": "essential",
+    "why": "follicle after ovulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s2.4.3",
+    "strength": "essential",
+    "why": "endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.4.0",
+    "strength": "essential",
+    "why": "corpus luteum",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.1.1",
+    "strength": "helpful",
+    "why": "endometrium shed",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.4.0",
+    "strength": "essential",
+    "why": "corpus luteum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.4.0",
+    "strength": "essential",
+    "why": "luteal phase length",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.3.0",
+    "strength": "helpful",
+    "why": "ovulation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.5.0",
+    "strength": "essential",
+    "why": "fixed luteal phase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.5.0",
+    "strength": "essential",
+    "why": "14-day gap before period",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.1.0",
+    "strength": "helpful",
+    "why": "menstruation phase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.2.0",
+    "strength": "helpful",
+    "why": "follicular phase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.3.0",
+    "strength": "helpful",
+    "why": "ovulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.4.0",
+    "strength": "helpful",
+    "why": "luteal phase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.6.3",
+    "strength": "helpful",
+    "why": "phase summary",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.1.b",
+    "strength": "helpful",
+    "why": "pituitary gland location",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.8.0",
+    "strength": "essential",
+    "why": "which organ makes hormones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.4.2",
+    "strength": "helpful",
+    "why": "corpus luteum breakdown",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.9.0",
+    "strength": "essential",
+    "why": "low progesterone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.9.1",
+    "strength": "essential",
+    "why": "progesterone fall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.2.0",
+    "strength": "essential",
+    "why": "FSH stimulates follicle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.8.2",
+    "strength": "helpful",
+    "why": "oestrogen thickens endometrium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.9.3",
+    "strength": "essential",
+    "why": "rising oestrogen",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "helpful",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.9.3",
+    "strength": "essential",
+    "why": "oestrogen rises",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.10.0",
+    "strength": "essential",
+    "why": "LH surge",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.3.0",
+    "strength": "helpful",
+    "why": "ovulation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.10.1",
+    "strength": "helpful",
+    "why": "after ovulation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.4.0",
+    "strength": "helpful",
+    "why": "corpus luteum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.2.1",
+    "strength": "essential",
+    "why": "LH forms corpus luteum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.11.0",
+    "strength": "essential",
+    "why": "corpus luteum formed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.11.1",
+    "strength": "essential",
+    "why": "progesterone secretion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.11.1",
+    "strength": "essential",
+    "why": "high progesterone",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "helpful",
+    "why": "inhibition feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.11.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.11.3",
+    "strength": "essential",
+    "why": "low LH",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.4.2",
+    "strength": "helpful",
+    "why": "corpus luteum breaks down",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.11.4",
+    "strength": "essential",
+    "why": "falling progesterone",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.9.2",
+    "strength": "helpful",
+    "why": "FSH rises",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.11.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.4.3",
+    "strength": "essential",
+    "why": "implantation keeps corpus luteum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.9.2",
+    "strength": "helpful",
+    "why": "FSH rising",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.9.3",
+    "strength": "helpful",
+    "why": "follicular hormones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.10.0",
+    "strength": "essential",
+    "why": "LH surge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.11.1",
+    "strength": "essential",
+    "why": "luteal hormones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "helpful",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   },
+   {
+    "id": "bio23-s4.11.3",
+    "strength": "helpful",
+    "why": "luteal inhibition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.10.0",
+    "strength": "essential",
+    "why": "oestrogen triggers LH surge",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.3.0",
+    "strength": "helpful",
+    "why": "positive feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.13.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.13.1",
+    "strength": "helpful",
+    "why": "feedback chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.10.1",
+    "strength": "essential",
+    "why": "LH surge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.13.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.13.1",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.13.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.13.3",
+    "strength": "essential",
+    "why": "hormone sequence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio23-s4.14.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.12.1",
+    "strength": "helpful",
+    "why": "FSH levels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio23-s4.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.10.1",
+    "strength": "helpful",
+    "why": "LH surge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.14.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.10.0",
+    "strength": "helpful",
+    "why": "oestrogen peak",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.11.1",
+    "strength": "helpful",
+    "why": "progesterone rise",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio23-s4.11.1",
+    "strength": "essential",
+    "why": "corpus luteum secretes progesterone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio23-s4.14.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio23-s4.14.2",
+    "strength": "helpful",
+    "why": "graph curves",
+    "confidence": "low"
+   }
+  ]
+ }
+}
