@@ -38,7 +38,7 @@
        },
        {
         "tex": "\\left|\\dfrac{x+1}{3}\\right| &= 1",
-        "sym": "Eq(Abs((x+1)/3),1)",
+        "sym": "Eq(((x+1)/3)**2,1)",
         "new": true
        },
        {
@@ -78,7 +78,7 @@
     "finalAnswer": "\\hl{2}{-4} < x < \\hl{2}{2}"
    },
    "finalSym": "[-4, 2]",
-   "answerSym": "solve(Eq(Abs((x+1)/3),1),x)"
+   "answerSym": "solve(Eq((x+1)**2,9),x)"
   },
   "graph": null,
   "diagram": null,
@@ -297,7 +297,7 @@
    "ordinary": "Ordinary level has asked for it on Paper 2 (2022), as a 5-mark part: give one advantage and one disadvantage of sampling instead of asking everyone."
   },
   "example": {
-   "question": "A researcher asks 100 students in one Dublin school how many hours they sleep. She wants to know about all second-level students in Ireland. Name the population and the sample. Can she use the result for all Irish students? Give a reason.",
+   "question": "A researcher asks 100 students in one Dublin school how many hours they sleep. She wants to know about all 400 000 second-level students in Ireland. Name the population and the sample. Can she use the result for all Irish students? Give a reason.",
    "level": "ordinary",
    "marks": 10,
    "workedSolution": {
@@ -325,7 +325,12 @@
       "say": "Ask if the sample is a fair picture of the whole population. One school in one city is not.",
       "lines": [
        {
-        "text": "The sample is $\\hl{1}{100}$ out of many thousands, all from one place."
+        "tex": "\\dfrac{100}{400\\,000} &= \\dfrac{1}{4000}",
+        "sym": "Eq(Rational(100,400000),Rational(1,4000))",
+        "new": true
+       },
+       {
+        "text": "She asked $\\hl{1}{1}$ student in every $4000$, all from one place."
        }
       ]
      },

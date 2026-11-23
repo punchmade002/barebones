@@ -1,0 +1,435 @@
+[
+ {
+  "skill": "int-definite",
+  "what": {
+   "say": [
+    "You give it an integral with limits, $\\int_a^b f(x)\\,dx$. It gives back one **number**: the signed area under the graph from $a$ to $b$.",
+    "The key idea: find an antiderivative $F(x)$, then the answer is $F(b) - F(a)$. Put in the top limit first, then subtract the bottom one."
+   ],
+   "in": "$\\int_a^b f(x)\\,dx$",
+   "out": "a number"
+  },
+  "how": {
+   "higher": "Higher level only, on Paper 1: one or two parts in every year except 2019, usually 10 marks. It is often a step inside a bigger question, for example finding an unknown limit $k$ or $A$ (2020, 2022, 2025)."
+  },
+  "example": {
+   "question": "Evaluate $\\int_0^1 \\left(6x^2 + e^{2x}\\right) dx$. Give your answer in terms of $e$ and as a decimal to 2 places.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Integrate each term",
+      "say": "Integrate term by term. Powers go up by one and divide by the new power. $e^{2x}$ integrates to $\\tfrac{1}{2}e^{2x}$. No $+c$ is needed with limits.",
+      "lines": [
+       {
+        "tex": "F(x) &= \\hl{1}{2x^3 + \\tfrac{1}{2}e^{2x}}",
+        "sym": "2*x**3+exp(2*x)/2",
+        "new": true
+       },
+       {
+        "text": "Check by differentiating: $6x^2 + e^{2x}$. It matches."
+       }
+      ]
+     },
+     {
+      "title": "Put in the limits",
+      "say": "Put the top limit into $F$, then the bottom limit.",
+      "lines": [
+       {
+        "tex": "F(1) &= 2(1)^3 + \\tfrac{1}{2}e^{2} = \\hl{2}{2 + \\tfrac{1}{2}e^2}",
+        "sym": "2+exp(2)/2",
+        "new": true
+       },
+       {
+        "tex": "F(0) &= 2(0)^3 + \\tfrac{1}{2}e^{0} = \\hl{3}{\\tfrac{1}{2}}",
+        "sym": "1/2",
+        "new": true
+       },
+       {
+        "text": "Any number to the power $0$ is $1$, so $e^0 = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "say": "The answer is $F(1) - F(0)$: top minus bottom.",
+      "lines": [
+       {
+        "tex": "F(1) - F(0) &= \\left(\\hl{2}{2 + \\tfrac{1}{2}e^2}\\right) - \\hl{3}{\\tfrac{1}{2}}",
+        "sym": "2+exp(2)/2-1/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\tfrac{3}{2} + \\tfrac{1}{2}e^2",
+        "sym": "3/2+exp(2)/2"
+       },
+       {
+        "tex": "&\\approx 5.19",
+        "sym": "5.19",
+        "new": true,
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{3 + e^2}{2} \\approx 5.19"
+   },
+   "finalSym": "(3+exp(2))/2",
+   "answerSym": "integrate(6*x**2+exp(2*x),(x,0,1))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Always show the integration. Without it nothing in the part earns credit, however good the arithmetic.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+       "quote": "Must have integration to gain any"
+      }
+     ]
+    },
+    {
+     "tip": "Integrate carefully before you substitute. One error in the integration caps you at Mid Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q6#(b)",
+       "quote": "max of Mid Partial Credit"
+      }
+     ]
+    },
+    {
+     "tip": "Write the limits into the integral, even if you cannot finish. Substituting the limits earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q6#(b)(ii)",
+       "quote": "Substitutes limits into integral and stops"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "int-average-value",
+  "what": {
+   "say": [
+    "You give it a function $f(x)$ and an interval $[a, b]$. It gives back the **average value** of $f$ over that interval.",
+    "The key idea: the integral gives the total, and dividing by the length of the interval, $b - a$, turns the total into an average."
+   ],
+   "in": "$f(x)$ on $[a, b]$",
+   "out": "$\\frac{1}{b - a}\\int_a^b f(x)\\,dx$"
+  },
+  "how": {
+   "higher": "Higher level only, on Paper 1: a 10-mark part in every year except 2019, usually inside a long question about speed, money or a population (2022 Q8, 2023 Q7, 2024 Q7, 2025 Q9)."
+  },
+  "example": {
+   "question": "The speed of a train is $v(t) = 3t^2 + 2t$ km/h, where $t$ is the time in hours and $1 \\le t \\le 3$. Find the average speed of the train over this time.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the formula",
+      "say": "The average value is the integral divided by the length of the interval. Here $a = 1$ and $b = 3$, so the length is $3 - 1 = 2$.",
+      "lines": [
+       {
+        "tex": "\\text{average} &= \\hl{1}{\\frac{1}{3 - 1}} \\int_1^3 \\left(3t^2 + 2t\\right) dt"
+       }
+      ]
+     },
+     {
+      "title": "Integrate",
+      "say": "Integrate the function and keep the $\\hl{1}{\\tfrac{1}{2}}$ in front.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\tfrac{1}{2}} \\left[\\, t^3 + t^2 \\,\\right]_1^3",
+        "sym": "(t**3+t**2)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put in the limits",
+      "say": "Top limit first, then subtract the bottom limit, then multiply by $\\hl{1}{\\tfrac{1}{2}}$.",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\tfrac{1}{2}} \\left[(27 + 9) - (1 + 1)\\right]",
+        "sym": "(27+9-(1+1))/2",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\tfrac{1}{2}}(34)",
+        "sym": "34/2"
+       },
+       {
+        "tex": "&= 17",
+        "sym": "17"
+       },
+       {
+        "text": "Units: km/h."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "17 \\text{ km/h}"
+   },
+   "finalSym": "17",
+   "answerSym": "integrate(3*t**2+2*t,(t,1,3))/(3-1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the integral with its limits. Showing the integration is required before any credit is given.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q9#(b)(iii)",
+       "quote": "Indication of integration is required to be awarded any credit"
+      }
+     ]
+    },
+    {
+     "tip": "Do not forget the $\\frac{1}{b-a}$. Leaving it out costs only the first step; the rest of the steps are still credited.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(f)",
+       "quote": "treat step 1 as not fully correct, but all other steps can be accepted as correct"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. Rounding wrongly, or not at all, costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q7#(d)",
+       "quote": "Rounded incorrectly or no rounding, otherwise correct"
+      }
+     ]
+    },
+    {
+     "tip": "With trig functions, set the calculator to radians. Degree mode loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q8#(f)",
+       "quote": "Calculator in degree mode"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "int-area-axis",
+  "what": {
+   "say": [
+    "You give it a curve and limits, or you find them as the places where the curve meets the $x$-axis. It gives back the **area** between the curve and the axis.",
+    "The key idea: an integral counts area below the axis as **negative**. So find the roots, integrate between them, and take the answer as positive."
+   ],
+   "in": "curve and limits (or roots)",
+   "out": "area (a positive number)"
+  },
+  "how": {
+   "higher": "Higher level only, and rare as a part of its own. In 2024 Paper 1 Q10 (c)(i) a 5-mark part finds an area by integrating between limits and doubling it by symmetry."
+  },
+  "example": {
+   "question": "Find the area enclosed between the curve $y = x^2 - 5x + 4$ and the $x$-axis.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find where it meets the axis",
+      "say": "The area is enclosed between the points where $y = 0$. Set the function equal to $0$ and factorise.",
+      "lines": [
+       {
+        "tex": "x^2 - 5x + 4 &= 0",
+        "sym": "x**2-5*x+4",
+        "new": true
+       },
+       {
+        "tex": "(x - 1)(x - 4) &= 0",
+        "sym": "(x-1)*(x-4)"
+       },
+       {
+        "tex": "x &= \\hl{1}{1} \\ \\text{or} \\ x = \\hl{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Integrate",
+      "say": "Integrate between the roots $\\hl{1}{1}$ and $\\hl{1}{4}$.",
+      "lines": [
+       {
+        "tex": "\\int_1^4 \\left(x^2 - 5x + 4\\right) dx &= \\left[\\, \\tfrac{x^3}{3} - \\tfrac{5x^2}{2} + 4x \\,\\right]_1^4",
+        "sym": "x**3/3-5*x**2/2+4*x",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Put in the limits",
+      "say": "Top limit first, then subtract the bottom limit.",
+      "lines": [
+       {
+        "tex": "&= \\left(\\tfrac{64}{3} - 40 + 16\\right) - \\left(\\tfrac{1}{3} - \\tfrac{5}{2} + 4\\right)",
+        "sym": "(64/3-40+16)-(1/3-5/2+4)",
+        "new": true
+       },
+       {
+        "tex": "&= -\\tfrac{8}{3} - \\tfrac{11}{6}",
+        "sym": "-8/3-11/6"
+       },
+       {
+        "tex": "&= -\\tfrac{9}{2}",
+        "sym": "-9/2"
+       }
+      ]
+     },
+     {
+      "title": "Take it as positive",
+      "say": "The curve is below the $x$-axis between the roots, so the integral is negative. An area cannot be negative, so take the positive value.",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\left| -\\tfrac{9}{2} \\right| = \\tfrac{9}{2}",
+        "sym": "9/2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{9}{2} \\text{ square units}"
+   },
+   "finalSym": "9/2",
+   "answerSym": "abs(integrate(x**2-5*x+4,(x,1,4)))"
+  },
+  "graph": {
+   "f": "x**2 - 5*x + 4",
+   "box": [
+    -1,
+    6,
+    6,
+    -3
+   ],
+   "points": [
+    {
+     "x": 1,
+     "y": 0,
+     "name": "root (1, 0)"
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "name": "root (4, 0)"
+    }
+   ],
+   "slots": {
+    "x": 1,
+    "y": null
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "If the region is made of equal parts, find one and double it. Forgetting to double costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(c)(i)",
+       "quote": "does not double the answer"
+      }
+     ]
+    },
+    {
+     "tip": "Work out each relevant area separately. Each correct area earns partial credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(c)(i)",
+       "quote": "1 relevant area calculated"
+      }
+     ]
+    },
+    {
+     "tip": "Write the integral with its limits first. Indicating the integration earns credit before you finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(c)(i)",
+       "quote": "Integration indicated"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "int-trig-identity",
+  "what": {
+   "say": [
+    "You give it an integral of a trig product or a squared trig function, such as $\\cos^2 2x$. It gives back the **antiderivative**.",
+    "The key idea: you cannot integrate $\\cos^2 2x$ directly. Use a formula from the tables to turn the square or the product into a sum of simple $\\sin$ and $\\cos$ terms, then integrate those."
+   ],
+   "in": "$\\cos^2 2x$",
+   "out": "antiderivative $+\\ c$"
+  },
+  "how": {},
+  "example": {
+   "question": "Find $\\int \\cos^2 2x \\, dx$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use the half-angle formula",
+      "say": "Use the tables formula $\\cos^2 A = \\tfrac{1}{2}(1 + \\cos 2A)$. Here $A = 2x$, so $2A = \\hl{1}{4x}$.",
+      "lines": [
+       {
+        "tex": "\\cos^2 2x &= \\tfrac{1}{2}\\left(1 + \\cos \\hl{1}{4x}\\right)",
+        "sym": "(1+cos(4*x))/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "say": "Now every term is simple. $1$ integrates to $x$. $\\cos 4x$ integrates to $\\tfrac{1}{4}\\sin 4x$.",
+      "lines": [
+       {
+        "tex": "\\int \\cos^2 2x \\, dx &= \\tfrac{1}{2}\\int \\left(1 + \\cos 4x\\right) dx"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2}\\left(x + \\tfrac{1}{4}\\sin 4x\\right)",
+        "sym": "(x+sin(4*x)/4)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Tidy and add c",
+      "say": "Multiply out and add the constant.",
+      "lines": [
+       {
+        "tex": "&= \\tfrac{1}{2}x + \\tfrac{1}{8}\\sin 4x + c",
+        "sym": "x/2+sin(4*x)/8"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tfrac{1}{2}x + \\tfrac{1}{8}\\sin 4x + c"
+   },
+   "finalSym": "x/2+sin(4*x)/8",
+   "answerSym": "integrate(cos(2*x)**2,x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

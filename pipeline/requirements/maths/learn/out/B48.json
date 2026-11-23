@@ -1,0 +1,528 @@
+[
+ {
+  "skill": "geo-cor3",
+  "what": {
+   "say": [
+    "You give it a circle with a diameter and a point on the circle. It finds an unknown **angle** and says why it is true.",
+    "The key idea: join any point on the circle to the two ends of a diameter and the angle at that point is always $90^\\circ$. The diameter is the one thing to look for."
+   ],
+   "in": "circle with a diameter",
+   "out": "a $90^\\circ$ angle, then the unknown"
+  },
+  "how": {
+   "higher": "At Higher it is a step inside a longer Paper 2 geometry part (2016, 2022, 2024): you state the $90^\\circ$ at the diameter and use it to reach the other angles or to finish a proof.",
+   "ordinary": "At Ordinary it appeared in 2022 Paper 2, in a 5-mark part that asks for the angle in a semicircle on its own, then an angle found from it."
+  },
+  "example": {
+   "question": "$[AB]$ is a diameter of a circle and $C$ is a point on the circle. $|\\angle CAB| = 38^\\circ$. Find $|\\angle ABC|$.",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Spot the diameter",
+      "say": "$[AB]$ is a diameter, so $C$ makes an angle in a semicircle. By Corollary 3 that angle is $\\hl{1}{90^\\circ}$.",
+      "lines": [
+       {
+        "tex": "|\\angle ACB| &= \\hl{1}{90^\\circ}",
+        "sym": "Eq(c,90)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the angle sum",
+      "say": "The angles in triangle $ABC$ add to $180^\\circ$. Write them in, with $x$ for the angle we want.",
+      "lines": [
+       {
+        "tex": "38 + \\hl{1}{90} + x &= 180",
+        "sym": "Eq(38+90+x,180)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Add the two known angles, then take them from $180$.",
+      "lines": [
+       {
+        "tex": "128 + x &= 180",
+        "sym": "Eq(128+x,180)"
+       },
+       {
+        "tex": "\\hl{2}{x} &= 52",
+        "sym": "Eq(x,52)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|\\angle ABC| = \\hl{2}{52^\\circ}"
+   },
+   "finalSym": "[52]",
+   "answerSym": "solve(Eq(38+90+x,180),x)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"150\" cy=\"110\" r=\"90\"/><path d=\"M60 110 L240 110 M60 110 L171.7 22.7 L240 110\"/><path d=\"M162.2 30.1 L169.6 39.6 L179.1 32.2\" stroke-width=\"1\"/><text x=\"42\" y=\"116\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"244\" y=\"116\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"176\" y=\"18\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"88\" y=\"103\" fill=\"#1A1916\" stroke=\"none\">38°</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Give the reason beside each angle, as the model solution does. For this skill the reason is \"angle in semi-circle\".",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(b)",
+       "quote": "angle in semi-circle"
+      }
+     ]
+    },
+    {
+     "tip": "Indicating the $90^\\circ$ at the diameter is partial credit on its own, so write it down first even if you stall later.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(b)",
+       "quote": "indicates 90"
+      }
+     ]
+    },
+    {
+     "tip": "When a reason is asked for, any valid one scores. Naming this corollary is one of the accepted answers.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q8#(c)(i), (ii)",
+       "quote": "Any valid reason given, for example"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Finding the angle in a semicircle is hit or miss: $90^\\circ$ gets the marks and nothing else does.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q6#(a)(i)",
+       "quote": "Hit or Miss"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-congruence",
+  "what": {
+   "say": [
+    "You give it two triangles and some equal sides and angles. It shows the triangles are **congruent** and names the case that proves it.",
+    "The key idea: you do not need all six matches. Three of the right kind (SSS, SAS, ASA or RHS) are enough, and each match needs a reason."
+   ],
+   "in": "two triangles with matching parts",
+   "out": "$\\Delta \\equiv \\Delta$, with the case"
+  },
+  "how": {
+   "higher": "At Higher it is a step inside longer Paper 2 proofs (2015, 2021, 2023, 2024, 2025): you prove two triangles congruent, usually by ASA, so that a side or angle can be used later.",
+   "ordinary": "At Ordinary it is tested most years on Paper 2 (2015, 2018, 2022, 2025): explain or prove two triangles congruent, or say whether a claim about them is true, for 5 to 15 marks."
+  },
+  "example": {
+   "question": "In the quadrilateral $ABCD$, $|AB| = |AD| = 5$ cm and $|BC| = |DC| = 7$ cm. Prove that $\\Delta ABC$ and $\\Delta ADC$ are congruent.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Pick the two triangles",
+      "say": "The diagonal $[AC]$ cuts the figure into $\\Delta ABC$ and $\\Delta ADC$. Compare them one pair of parts at a time.",
+      "lines": [
+       {
+        "text": "Match the vertices in order: $A$ with $A$, $B$ with $D$, $C$ with $C$."
+       }
+      ]
+     },
+     {
+      "title": "Match the first two pairs",
+      "say": "Write each pair of equal sides, with its reason beside it.",
+      "lines": [
+       {
+        "tex": "|AB| &= 5 \\quad \\text{(given)}",
+        "sym": "5",
+        "new": true
+       },
+       {
+        "tex": "|AD| &= 5 \\quad \\text{(given)}",
+        "sym": "5"
+       },
+       {
+        "tex": "|BC| &= 7 \\quad \\text{(given)}",
+        "sym": "7",
+        "new": true
+       },
+       {
+        "tex": "|DC| &= 7 \\quad \\text{(given)}",
+        "sym": "7"
+       }
+      ]
+     },
+     {
+      "title": "Find the shared side",
+      "say": "Both triangles contain $\\hl{2}{[AC]}$. A side in both triangles is equal to itself.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{|AC|} &= \\hl{2}{|AC|} \\quad \\text{(common side)}"
+       }
+      ]
+     },
+     {
+      "title": "Name the case and conclude",
+      "say": "Three pairs of equal sides is the case $\\hl{1}{\\text{SSS}}$. State the conclusion with the case as the reason.",
+      "lines": [
+       {
+        "tex": "\\Delta ABC &\\equiv \\Delta ADC \\quad \\text{(\\hl{1}{SSS})}"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\Delta ABC \\equiv \\Delta ADC \\ \\text{(\\hl{1}{SSS})}"
+   },
+   "finalSym": "0",
+   "answerSym": "Abs(5-5)+Abs(7-7)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M50 110 L120 35 L260 110 L120 185 Z M50 110 L260 110\"/><path d=\"M81 69 L89 76 M81 151 L89 144 M184.2 75 L188.8 66.2 M191.2 78.8 L195.8 70 M184.2 145 L188.8 153.8 M191.2 141.2 L195.8 150\" stroke-width=\"1\"/><text x=\"30\" y=\"116\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"118\" y=\"28\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"266\" y=\"116\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"116\" y=\"204\" fill=\"#1A1916\" stroke=\"none\">D</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Put a reason beside every statement, such as \"vertically opposite\" or \"alternate angles\". The scheme lists them line by line.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(a)",
+       "quote": "vertically opposite"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q5#(a)",
+       "quote": "alternate angles"
+      }
+     ]
+    },
+    {
+     "tip": "A side shared by both triangles needs writing down as equal to itself, with the reason \"common side\".",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q6#(b)(i)",
+       "quote": "common side"
+      }
+     ]
+    },
+    {
+     "tip": "More than one proof is accepted, so use the case you can justify. Any valid proof scores.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q4#(b)",
+       "quote": "Any valid proof, for example"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "End with a conclusion and give a reason for each step. Leaving either out costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q5#(b)(ii)",
+       "quote": "Apply a * for no reasons"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p2-q5#(b)(ii)",
+       "quote": "Apply a * for no conclusion"
+      }
+     ]
+    },
+    {
+     "tip": "Full marks need three statements and three reasons: three matching pairs, each with its reason.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q6#(b)(ii)",
+       "quote": "Three statements & Three reasons"
+      }
+     ]
+    },
+    {
+     "tip": "Even naming a case (SSS, SAS, RHS or ASA) earns partial credit, so always name one.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q2#(c)",
+       "quote": "States SSS, SAS, RHS, ASA"
+      }
+     ]
+    },
+    {
+     "tip": "Mark the equal parts on the diagram. A diagram with three of them marked is credited.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q2#(c)",
+       "quote": "Diagram marked with 3 elements identified"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-enlargement",
+  "what": {
+   "say": [
+    "You give it an object, a centre $O$ and a **scale factor** $k$. It draws the image, or finds $k$ from two lengths, or finds the new area.",
+    "The key idea: every length is multiplied by $k$ but every area is multiplied by $k^2$."
+   ],
+   "in": "object, centre $O$, $k$",
+   "out": "image; $k$; area $\\times k^2$"
+  },
+  "how": {
+   "higher": "At Higher it was a step inside a 2025 Paper 2 geometry question: find the scale factor, then use it to find an area of the image.",
+   "ordinary": "At Ordinary it is tested almost every year (2015, 2017, 2021, 2022, 2024) on Paper 2: find $k$ from two lengths, find a missing length, find an area, or construct the image from the centre."
+  },
+  "example": {
+   "question": "The triangle $ABC$ is enlarged with centre $O$ to give the image $PQR$. $|OB| = 5$ cm and $|OQ| = 12$ cm. The area of $ABC$ is $10$ cm$^2$. Find the area of $PQR$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the scale factor",
+      "say": "The scale factor is image length over object length. Use the two lengths from $O$: $\\hl{1}{k} = \\frac{|OQ|}{|OB|}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{k} &= \\frac{12}{5}",
+        "sym": "Eq(k,12/5)",
+        "new": true
+       },
+       {
+        "tex": "&= 2.4",
+        "sym": "Eq(k,2.4)"
+       }
+      ]
+     },
+     {
+      "title": "Square the scale factor",
+      "say": "Lengths grow by $k$, so areas grow by $\\hl{2}{k^2}$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{k^2} &= 2.4^2",
+        "sym": "Eq(m,2.4**2)",
+        "new": true
+       },
+       {
+        "tex": "&= 5.76",
+        "sym": "Eq(m,5.76)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the area",
+      "say": "Multiply the area of $ABC$ by $\\hl{2}{k^2}$.",
+      "lines": [
+       {
+        "tex": "\\text{Area of } PQR &= 10 \\times 5.76",
+        "sym": "10*5.76",
+        "new": true
+       },
+       {
+        "tex": "&= 57.6",
+        "sym": "57.6"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Area of } PQR = 57.6 \\text{ cm}^2"
+   },
+   "finalSym": "57.6",
+   "answerSym": "10*(12/5)**2"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M25 110 L109 74 M25 110 L147 146 M25 110 L205 57 M60 95 L76 125 L100 88 Z M109 74 L147 146 L205 57 Z\"/><text x=\"8\" y=\"114\" fill=\"#1A1916\" stroke=\"none\">O</text><text x=\"48\" y=\"92\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"70\" y=\"141\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"100\" y=\"82\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"112\" y=\"70\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"150\" y=\"162\" fill=\"#1A1916\" stroke=\"none\">Q</text><text x=\"209\" y=\"54\" fill=\"#1A1916\" stroke=\"none\">R</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "The scheme splits a scale-factor question into items: find $k$, find the first length, find the second. Each is a step the marks follow.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q6#(b)(i), (ii)",
+       "quote": "Calculating the scale factor"
+      }
+     ]
+    },
+    {
+     "tip": "For an area, square $k$ before you multiply. Squaring $k$ or multiplying by $k$ is already work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q6#(b)(i), (ii)",
+       "quote": "Area Scale Factor"
+      },
+      {
+       "part": "maths-pp-2024-ordinary-p2-q6#(b)(i), (ii)",
+       "quote": "Some work of merit, for example, squaring"
+      }
+     ]
+    },
+    {
+     "tip": "Draw the construction ray from the centre through each vertex. A correct image with no construction line only reaches low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q9#(d)",
+       "quote": "Draws enlarged image correctly without construction line"
+      }
+     ]
+    },
+    {
+     "tip": "When you measure to find $k$, a tolerance of 5 mm is accepted, so measure carefully with a ruler.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q7#(b)",
+       "quote": "Accept tolerance of 5 mm"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "geo-thm9",
+  "what": {
+   "say": [
+    "You give it a parallelogram with some angles or sides as numbers or expressions. It finds the unknown and names the reason.",
+    "The key idea: **opposite** sides are equal and **opposite** angles are equal. Angles side by side (adjacent) add to $180^\\circ$."
+   ],
+   "in": "parallelogram, some values",
+   "out": "unknown angle or side, with reason"
+  },
+  "how": {
+   "higher": "At Higher it is never the main skill of a part. It is a step inside longer Paper 2 proofs (2015, 2018, 2023, 2024), for example to say opposite sides of a parallelogram are equal.",
+   "ordinary": "At Ordinary it is tested on Paper 2 (2016, 2018, 2023): find angles in a parallelogram for 5 marks, or write statements with reasons about its sides and angles for 10."
+  },
+  "example": {
+   "question": "$ABCD$ is a parallelogram. $|\\angle DAB| = (2x + 15)^\\circ$ and $|\\angle BCD| = (4x - 35)^\\circ$. Find $|\\angle ABC|$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Equal opposite angles",
+      "say": "$\\angle DAB$ and $\\angle BCD$ are opposite angles. By Theorem 9 opposite angles of a parallelogram are equal, so put the two expressions equal.",
+      "lines": [
+       {
+        "tex": "2x + 15 &= 4x - 35",
+        "sym": "Eq(2*x+15,4*x-35)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Collect the $x$ terms on one side and the numbers on the other.",
+      "lines": [
+       {
+        "tex": "15 + 35 &= 4x - 2x",
+        "sym": "Eq(15+35,4*x-2*x)"
+       },
+       {
+        "tex": "50 &= 2x",
+        "sym": "Eq(50,2*x)"
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\hl{1}{25}",
+        "sym": "Eq(x,25)"
+       }
+      ]
+     },
+     {
+      "title": "Find angle DAB",
+      "say": "Put $\\hl{1}{x = 25}$ into the expression for $\\angle DAB$.",
+      "lines": [
+       {
+        "tex": "|\\angle DAB| &= 2(25) + 15",
+        "sym": "2*25+15",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{65^\\circ}",
+        "sym": "65"
+       }
+      ]
+     },
+     {
+      "title": "Use adjacent angles",
+      "say": "$\\angle ABC$ is next to $\\angle DAB$. Adjacent angles in a parallelogram add to $180^\\circ$, so take $\\hl{2}{65}$ from $180$.",
+      "lines": [
+       {
+        "tex": "|\\angle ABC| &= 180 - 65",
+        "sym": "180-65",
+        "new": true
+       },
+       {
+        "tex": "&= 115^\\circ",
+        "sym": "115"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|\\angle ABC| = 115^\\circ"
+   },
+   "finalSym": "115",
+   "answerSym": "180-(2*((35+15)/(4-2))+15)"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M40 170 L100 60 L260 60 L200 170 Z\"/><text x=\"22\" y=\"176\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"92\" y=\"52\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"264\" y=\"56\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"204\" y=\"188\" fill=\"#1A1916\" stroke=\"none\">D</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the reason beside each equal pair, for example \"opposite sides of a parallelogram\". The model proof does it every time.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q4#(b)",
+       "quote": "opposite sides of a parallelogram"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Give each fact as a statement and a reason. Full credit needs three statements and three reasons.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q6#(b)(i)",
+       "quote": "Three statements & Three reasons"
+      }
+     ]
+    },
+    {
+     "tip": "Setting up the equation from the angle property already earns partial credit, so write it before you solve.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(b)",
+       "quote": "opposite angles in a parallelogram being equal"
+      }
+     ]
+    },
+    {
+     "tip": "For a reason, \"opposite sides are parallel and equal in length\" is the model answer, and any other valid reason also scores.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(b)",
+       "quote": "Opposite sides are parallel and equal in"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(b)",
+       "quote": "Any other valid reason"
+      }
+     ]
+    },
+    {
+     "tip": "Congruent triangles are an accepted route to the sides and angles, so SSS or ASA also earn the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q6#(b)(i)",
+       "quote": "SSS or ASA may also be used"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

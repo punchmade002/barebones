@@ -1,0 +1,454 @@
+[
+ {
+  "skill": "log-definition",
+  "what": {
+   "say": [
+    "You give it a log or an exponential statement. It gives back the same statement in the **other** form, or a value.",
+    "The key idea: a log is a **power**. $\\log_a b = c$ means $a^c = b$, and $\\ln$ is just $\\log_e$."
+   ],
+   "in": "$\\log_a b = c$",
+   "out": "$a^c = b$"
+  },
+  "how": {
+   "higher": "It is rarely a part of its own. It is the first move inside equations and modelling parts with $\\ln$ and $e$ (2022 Paper 1, 2024 Paper 1), and in 2023 a 10-mark part asked what $\\log_6 m$ means."
+  },
+  "example": {
+   "question": "Solve $\\ln(2x + 1) = 3$ for $x$. Give your answer correct to 2 decimal places.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write it as a power",
+      "say": "$\\ln$ means $\\log_e$, and $\\log_e A = B$ means $e^B = A$. So the log disappears and the number $3$ becomes a power of $e$.",
+      "lines": [
+       {
+        "tex": "\\ln(2x+1) &= 3"
+       },
+       {
+        "tex": "2x + 1 &= e^{3}",
+        "sym": "exp(3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "say": "Now it is an ordinary equation. Take away $1$, then divide by $2$ to find $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "2x &= e^{3} - 1",
+        "sym": "exp(3) - 1",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{x} &= \\dfrac{e^{3} - 1}{2}",
+        "sym": "(exp(3) - 1)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 9.54",
+        "sym": "9.54",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 9.54"
+   },
+   "finalSym": "9.54",
+   "answerSym": "solve(log(2*x + 1) - 3, x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the log as a power straight away. If the logs are mishandled the most you can get is Mid Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q10#(b)",
+       "quote": "if logs are mishandled, award"
+      }
+     ]
+    },
+    {
+     "tip": "Set up the equation first. Writing it correctly is worth Low Partial Credit even if the rest goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q10#(b)",
+       "quote": "sets up equation correctly"
+      }
+     ]
+    },
+    {
+     "tip": "If you are asked what $\\log_6 m$ means, say it is the power you raise $6$ to in order to get $m$. Some reference to indices earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q3#(c)(i), (ii)",
+       "quote": "some reference to indices"
+      }
+     ]
+    },
+    {
+     "tip": "Turn $\\ln\\sqrt{x} = 3.5$ into an equation with no logs, or into $\\ln x = 7$. Either reaches High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q6#(b)(ii)",
+       "quote": "Sets up log equation"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "log-laws",
+  "what": {
+   "say": [
+    "You give it a log expression. It gives back a **single log** or a value.",
+    "The key idea: logs of the same base turn multiplying into adding, dividing into subtracting, and a power into a number in front."
+   ],
+   "in": "$\\log_a x + \\log_a y - \\log_a z$",
+   "out": "$\\log_a \\dfrac{xy}{z}$"
+  },
+  "how": {
+   "higher": "It is tested on Paper 1 almost every year: as a part of its own, such as writing $\\log_a \\frac{8}{3}$ in terms of $p$ and $q$ (2016), or as a step inside a longer log question (2020, 2025)."
+  },
+  "example": {
+   "question": "Find the value of $2\\log_3 6 + \\log_3 15 - \\log_3 20$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Move the 2 inside",
+      "say": "A number in front of a log is a power. So $2\\log_3 6$ is $\\log_3 6^2$.",
+      "lines": [
+       {
+        "tex": "2\\log_3 6 &= \\log_3 6^2",
+        "sym": "log(36)/log(3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\log_3 36",
+        "sym": "log(36)/log(3)"
+       }
+      ]
+     },
+     {
+      "title": "Make one log",
+      "say": "Adding logs means multiplying. Taking one away means dividing. Put it all in a single log.",
+      "lines": [
+       {
+        "tex": "\\log_3 36 + \\log_3 15 - \\log_3 20 &= \\log_3 \\dfrac{36 \\times 15}{20}",
+        "sym": "log(36*15/20)/log(3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\log_3 27",
+        "sym": "log(27)/log(3)"
+       }
+      ]
+     },
+     {
+      "title": "Write 27 as a power of 3",
+      "say": "$\\log_3 27$ asks: what power of $3$ gives $27$? Since $27 = 3^3$, the log is that power.",
+      "lines": [
+       {
+        "tex": "\\log_3 27 &= \\log_3 3^3",
+        "sym": "log(27)/log(3)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{3}",
+        "sym": "3"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "3"
+   },
+   "finalSym": "3",
+   "answerSym": "2*log(6, 3) + log(15, 3) - log(20, 3)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Deal with the power first, then split the product. In 2025 the marks were for the power of $5$, the split, and the finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q5#(b)",
+       "quote": "Step 1. Deals with power of 5"
+      }
+     ]
+    },
+    {
+     "tip": "Any relevant use of a log law earns Low Partial Credit, so write the first law you can see.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+       "quote": "Some relevant use of laws of logs"
+      }
+     ]
+    },
+    {
+     "tip": "A plain number added to a log, like the $2$ in $2 + \\log_5(\\ldots)$, must be turned into a log too. Treating it as a plain number caps you at Mid Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q3#(b)(i)",
+       "quote": "If 2 is incorrectly (non log) dealt with"
+      }
+     ]
+    },
+    {
+     "tip": "When one answer is impossible, such as $3^m = -5$, say so explicitly. Leaving it unexcluded costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q3#(b)(ii)",
+       "quote": "explicitly excluded"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "log-change-base",
+  "what": {
+   "say": [
+    "You give it a log in a base you do not like, $\\log_a x$. It gives back a **fraction** of two logs in a base you choose.",
+    "The key idea: $\\log_a x = \\dfrac{\\log_b x}{\\log_b a}$. Pick a base $b$ that makes both logs easy, usually the base both numbers are powers of."
+   ],
+   "in": "$\\log_a x$",
+   "out": "$\\dfrac{\\log_b x}{\\log_b a}$"
+  },
+  "how": {
+   "higher": "It appeared in 2018 (Paper 1) and 2023 (Paper 1). In 2023 it was a 10-mark part where logs in bases $3$, $9$, $27$ and $81$ all had to be changed to one base."
+  },
+  "example": {
+   "question": "Find the value of $\\log_8 32$ as a fraction.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Pick a base",
+      "say": "Both $8$ and $32$ are powers of $2$. So change the base to $\\hl{1}{2}$.",
+      "lines": [
+       {
+        "tex": "8 &= 2^3",
+        "sym": "2**3"
+       },
+       {
+        "tex": "32 &= 2^5",
+        "sym": "2**5",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Change the base",
+      "say": "Put the log of the number on top and the log of the old base underneath, both in base $\\hl{1}{2}$.",
+      "lines": [
+       {
+        "tex": "\\log_8 32 &= \\dfrac{\\log_{\\hl{1}{2}} 32}{\\log_{\\hl{1}{2}} 8}",
+        "sym": "log(32, 2)/log(8, 2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Read off each log",
+      "say": "$\\log_2 32$ is the power of $2$ that gives $32$, which is $5$. In the same way $\\log_2 8 = 3$.",
+      "lines": [
+       {
+        "tex": "&= \\dfrac{5}{3}",
+        "sym": "5/3"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\dfrac{5}{3}"
+   },
+   "finalSym": "5/3",
+   "answerSym": "log(32)/log(8)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Change every log to the same base first. The marks in 2023 were tied to that step.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q3#(b)",
+       "quote": "Changing all to the same base"
+      }
+     ]
+    },
+    {
+     "tip": "Changing the base of even one log from the equation earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q3#(b)",
+       "quote": "the base of one log (from the given"
+      }
+     ]
+    },
+    {
+     "tip": "Then simplify to an equation in $t$ with one log. That was step 2 of 3.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q3#(b)",
+       "quote": "Simplifies to an equation in"
+      }
+     ]
+    },
+    {
+     "tip": "In an inequality like $3^k > 1\\,000\\,000\\,000$, take logs of both sides and bring $k$ down. Leaving $k$ in the index stays at Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q9#(b)(ii)",
+       "quote": "not written as an index"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "log-solve",
+  "what": {
+   "say": [
+    "You give it an equation with logs in it. It gives back $x$, and throws away any value that makes a log undefined.",
+    "The key idea: combine the logs into one, write it as a power to remove the log, solve what is left, then **check** each answer."
+   ],
+   "in": "$\\log_a(\\ldots) + \\log_a(\\ldots) = c$",
+   "out": "$x$, with invalid roots rejected"
+  },
+  "how": {
+   "higher": "It is a Paper 1 skill almost every year (2018 to 2024), usually a 5 or 10-mark part: either a plain log equation, or an $\\ln$ equation inside a model such as a learning curve."
+  },
+  "example": {
+   "question": "Solve $\\log_2(x + 6) + \\log_2 x = 4$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Combine into one log",
+      "say": "Adding logs of the same base means multiplying what is inside.",
+      "lines": [
+       {
+        "tex": "\\log_2(x+6) + \\log_2 x &= \\log_2 x(x+6)",
+        "sym": "log(x*(x + 6))/log(2)",
+        "new": true
+       },
+       {
+        "tex": "\\log_2 x(x+6) &= 4",
+        "sym": "4",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Remove the log",
+      "say": "$\\log_2 A = 4$ means $A = 2^4$. Write it as a power and multiply out.",
+      "lines": [
+       {
+        "tex": "x(x+6) &= 2^4",
+        "sym": "16",
+        "new": true
+       },
+       {
+        "tex": "x^2 + 6x &= 16",
+        "sym": "16"
+       }
+      ]
+     },
+     {
+      "title": "Solve the quadratic",
+      "say": "Collect everything on one side and factorise.",
+      "lines": [
+       {
+        "tex": "x^2 + 6x - 16 &= 0",
+        "sym": "0",
+        "new": true
+       },
+       {
+        "tex": "(x + 8)(x - 2) &= 0",
+        "sym": "0"
+       },
+       {
+        "text": "So $x = -8$ or $x = 2$."
+       }
+      ]
+     },
+     {
+      "title": "Reject the invalid root",
+      "say": "A log needs a positive number inside it. $x = -8$ would give $\\log_2(-8)$, which does not exist. Reject it and keep $\\hl{1}{x} = 2$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{x} &= 2",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 2"
+   },
+   "finalSym": "2",
+   "answerSym": "solve(log(x + 6)/log(2) + log(x)/log(2) - 4, x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the log equation down correctly first. Setting it up is worth Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q6#(b)(ii)",
+       "quote": "Sets up log equation"
+      }
+     ]
+    },
+    {
+     "tip": "Be careful with each log step. If logs are mishandled, the most you can get is Mid Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q10#(b)",
+       "quote": "if logs are mishandled, award"
+      }
+     ]
+    },
+    {
+     "tip": "When the logs combine into a quadratic, getting the quadratic is worth Mid Partial Credit. Then solve it.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q3#(b)(ii)",
+       "quote": "Quadratic equation"
+      }
+     ]
+    },
+    {
+     "tip": "If the equation gives two roots, write both. Full Credit needs both solutions presented.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q3#(b)",
+       "quote": "Both solutions presented"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
