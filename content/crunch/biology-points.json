@@ -1820,6 +1820,3111 @@
 }
 ]
 },
+"bio10-s1.0.b": {
+"hash": "38570515",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.0.0": {
+"hash": "340cd030",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.0",
+"strength": "helpful",
+"why": "polymer of repeating units",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.0.1": {
+"hash": "f173ed78",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.0.2": {
+"hash": "a976c96d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.4",
+"strength": "helpful",
+"why": "pentose sugars",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.3": {
+"hash": "f8b8ea4b",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "helpful",
+"why": "sugar as nucleotide part",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.4": {
+"hash": "825014e2",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "essential",
+"why": "nitrogenous base of nucleotide",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.5": {
+"hash": "00db0d5d",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "essential",
+"why": "the named bases",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.6": {
+"hash": "89d5e26a",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "helpful",
+"why": "nucleotide and its base",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.0.7": {
+"hash": "18a4ad54",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.0.8": {
+"hash": "6ae082f6",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "essential",
+"why": "three parts of a nucleotide",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.1.b": {
+"hash": "d02ac639",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.1.0": {
+"hash": "ec013baf",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.2",
+"strength": "essential",
+"why": "sugar and phosphate of nucleotide",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.2.0",
+"strength": "helpful",
+"why": "condensation reaction",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.1.1": {
+"hash": "df703091",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.0",
+"strength": "essential",
+"why": "sugar-phosphate bonds",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.1.2": {
+"hash": "7513ab40",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "essential",
+"why": "backbone with bases attached",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.b": {
+"hash": "612c198d",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.2.0": {
+"hash": "dd5bce64",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "essential",
+"why": "sugar-phosphate backbone",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.1": {
+"hash": "02636669",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "essential",
+"why": "the four DNA bases",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.2": {
+"hash": "4e9c8ec5",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.5",
+"strength": "essential",
+"why": "purines and pyrimidines",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "base pairs",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.3": {
+"hash": "a2da2a72",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "base pairs",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.4": {
+"hash": "3dd48018",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.3",
+"strength": "essential",
+"why": "hydrogen bonds between bases",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.5": {
+"hash": "f5add527",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.0",
+"strength": "essential",
+"why": "two strands as a ladder",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.6": {
+"hash": "799ba115",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "complementary base pairing",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.2.7": {
+"hash": "13426a96",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.0",
+"strength": "helpful",
+"why": "ladder structure of DNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.3.b": {
+"hash": "d652fd68",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.3.0": {
+"hash": "e0cd68cc",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "A-T and C-G pairing",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.3.1": {
+"hash": "48095228",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.3.0",
+"strength": "essential",
+"why": "A equals T, C equals G",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.4.b": {
+"hash": "33046b58",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.4.0": {
+"hash": "5fa34a12",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.1",
+"strength": "helpful",
+"why": "proteins made of amino acids",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.4.1": {
+"hash": "d7dc800a",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.4.2": {
+"hash": "0ae94345",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.4.3": {
+"hash": "6ff15f43",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.5.b": {
+"hash": "1bcf1da4",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.5.0": {
+"hash": "ab611567",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.5",
+"strength": "helpful",
+"why": "double helix",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.6.b": {
+"hash": "cc119035",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.6.0": {
+"hash": "2b97dfaa",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "helpful",
+"why": "sugar-phosphate backbone",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.1": {
+"hash": "8c2fabfc",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.3",
+"strength": "essential",
+"why": "ribose versus deoxyribose",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "base pairing rule",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.2": {
+"hash": "1dfe3f54",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "base pairing",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "single RNA strand",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.6.3": {
+"hash": "9cd05fff",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.0",
+"strength": "helpful",
+"why": "DNA information codes proteins",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.4": {
+"hash": "f6954544",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.3",
+"strength": "helpful",
+"why": "RNA as go-between",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.5": {
+"hash": "e6d0cbe1",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.4",
+"strength": "helpful",
+"why": "types of RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.6.6": {
+"hash": "b10e5950",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.2",
+"strength": "helpful",
+"why": "DNA kept in nucleus",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.6.7": {
+"hash": "9883c3cd",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.1",
+"strength": "essential",
+"why": "uracil replaces thymine",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "RNA backbone",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.b": {
+"hash": "ed7512ed",
+"cost": 1,
+"needs": []
+},
+"bio10-s1.7.0": {
+"hash": "7c479967",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.5",
+"strength": "helpful",
+"why": "double helix",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "single-stranded RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.1": {
+"hash": "270ef7e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.3",
+"strength": "essential",
+"why": "deoxyribose versus ribose",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.2": {
+"hash": "9a466157",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "essential",
+"why": "bases in DNA and RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.3": {
+"hash": "89f77efb",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.1",
+"strength": "essential",
+"why": "A-U pairing in RNA",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.4": {
+"hash": "7658b9c0",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.0",
+"strength": "helpful",
+"why": "RNA short and single-stranded",
+"confidence": "low"
+}
+]
+},
+"bio10-s1.7.5": {
+"hash": "a3257b00",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.2",
+"strength": "helpful",
+"why": "where DNA is found",
+"confidence": "high"
+}
+]
+},
+"bio10-s1.7.6": {
+"hash": "a07fc928",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.0",
+"strength": "helpful",
+"why": "DNA stores information",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.0.b": {
+"hash": "41f0606b",
+"cost": 1,
+"needs": []
+},
+"bio10-s2.0.0": {
+"hash": "f1926d80",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.0",
+"strength": "helpful",
+"why": "DNA as nucleic acid",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.7.5",
+"strength": "helpful",
+"why": "polypeptide as amino acid chain",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.0.1": {
+"hash": "cf4b8429",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.0",
+"strength": "essential",
+"why": "what a gene is",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.4.2",
+"strength": "helpful",
+"why": "DNA in chromosomes in nucleus",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.0.2": {
+"hash": "e5fbabd7",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.5",
+"strength": "helpful",
+"why": "protein as folded polypeptide",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.0.3": {
+"hash": "d680ceff",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.2",
+"strength": "helpful",
+"why": "what a protein is",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.1.b": {
+"hash": "7fb4fc6b",
+"cost": 1,
+"needs": []
+},
+"bio10-s2.1.0": {
+"hash": "af4940cb",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.6",
+"strength": "essential",
+"why": "base sequence carries information",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.7.6",
+"strength": "helpful",
+"why": "gene sets amino acid sequence",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.1.1": {
+"hash": "d412b9ec",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.0",
+"strength": "helpful",
+"why": "chain folding into 3D shape",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.1.2": {
+"hash": "592a25e0",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.2",
+"strength": "helpful",
+"why": "shape determines function",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.1.3": {
+"hash": "a3ccf350",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.4",
+"strength": "essential",
+"why": "mRNA carries gene copy to ribosome",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.1.4": {
+"hash": "f2d04694",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.1.3",
+"strength": "essential",
+"why": "DNA to mRNA to protein steps",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.2.b": {
+"hash": "f2696592",
+"cost": 1,
+"needs": []
+},
+"bio10-s2.2.0": {
+"hash": "2c01c016",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.3",
+"strength": "helpful",
+"why": "trait as result of protein",
+"confidence": "low"
+}
+]
+},
+"bio10-s2.2.1": {
+"hash": "3f5241ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.4",
+"strength": "helpful",
+"why": "fibrous proteins keratin collagen",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.2.2": {
+"hash": "1cd7b498",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.1.2",
+"strength": "helpful",
+"why": "receptor binding site shape",
+"confidence": "low"
+}
+]
+},
+"bio10-s2.2.3": {
+"hash": "53a46e2c",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s2.1.0",
+"strength": "essential",
+"why": "base sequence sets amino acids",
+"confidence": "high"
+},
+{
+"id": "bio10-s2.1.2",
+"strength": "helpful",
+"why": "shape decides function",
+"confidence": "low"
+}
+]
+},
+"bio10-s2.2.4": {
+"hash": "a2843753",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.0",
+"strength": "essential",
+"why": "genes code for proteins",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.3.b": {
+"hash": "4d27e310",
+"cost": 1,
+"needs": []
+},
+"bio10-s2.3.0": {
+"hash": "94cc4a7b",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s2.2.0",
+"strength": "essential",
+"why": "faulty enzyme changes trait",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.3.1": {
+"hash": "62d3a698",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.3.0",
+"strength": "essential",
+"why": "albinism gene-enzyme-pigment chain",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.3.2": {
+"hash": "5c97ae08",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s2.2.2",
+"strength": "helpful",
+"why": "channel proteins move substances",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.3.3": {
+"hash": "d9025814",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.2",
+"strength": "helpful",
+"why": "protein from genes",
+"confidence": "low"
+}
+]
+},
+"bio10-s2.3.4": {
+"hash": "2f1807df",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s2.3.3",
+"strength": "essential",
+"why": "normal haemoglobin gene and protein",
+"confidence": "high"
+},
+{
+"id": "bio10-s2.2.3",
+"strength": "helpful",
+"why": "gene versions change protein",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.3.5": {
+"hash": "809e4532",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s2.2.0",
+"strength": "helpful",
+"why": "enzyme controls trait",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.3.6": {
+"hash": "d2447cdc",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s2.3.5",
+"strength": "essential",
+"why": "starch-branching enzyme in peas",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.3.7": {
+"hash": "c5ecd343",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.1.4",
+"strength": "essential",
+"why": "DNA to mRNA to protein to trait",
+"confidence": "high"
+}
+]
+},
+"bio10-s2.4.b": {
+"hash": "8f453a15",
+"cost": 1,
+"needs": []
+},
+"bio10-s2.4.0": {
+"hash": "bb45f574",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.0",
+"strength": "helpful",
+"why": "single gene for trait idea",
+"confidence": "low"
+}
+]
+},
+"bio10-s2.4.1": {
+"hash": "9fbe77ef",
+"cost": 1,
+"needs": []
+},
+"bio10-s2.4.2": {
+"hash": "b4813c50",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.3",
+"strength": "helpful",
+"why": "trait definition",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.0.b": {
+"hash": "dbc56d35",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.0",
+"strength": "helpful",
+"why": "gene as DNA recipe",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.0.0": {
+"hash": "ae9c9e97",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.4",
+"strength": "helpful",
+"why": "mRNA as copy of gene",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.0.1": {
+"hash": "4e7ae2cd",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "helpful",
+"why": "the four bases",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.0.2": {
+"hash": "02d562b8",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.0.4",
+"strength": "essential",
+"why": "four bases in DNA/RNA",
+"confidence": "high"
+},
+{
+"id": "bio10-s2.0.2",
+"strength": "helpful",
+"why": "about 20 amino acids",
+"confidence": "low"
+}
+]
+},
+"bio10-s3.0.3": {
+"hash": "ab0dd589",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.2",
+"strength": "essential",
+"why": "combination counting argument",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.0.4": {
+"hash": "8a7f7a6d",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codon definition",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.0.5": {
+"hash": "c4eab6bb",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codon read in threes",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.5",
+"strength": "helpful",
+"why": "tRNA brings amino acids",
+"confidence": "low"
+}
+]
+},
+"bio10-s3.1.b": {
+"hash": "f1c2d831",
+"cost": 1,
+"needs": []
+},
+"bio10-s3.1.0": {
+"hash": "33a670ba",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codon definition",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.1.1": {
+"hash": "026387ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.4",
+"strength": "helpful",
+"why": "stop codons exist",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.1.2": {
+"hash": "7d81d898",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codons of three bases",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.1.0",
+"strength": "helpful",
+"why": "start codon sets frame",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.1.3": {
+"hash": "d34b24de",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.4",
+"strength": "essential",
+"why": "61 codons, 20 amino acids",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.1.4": {
+"hash": "81c6c4fe",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.1.3",
+"strength": "essential",
+"why": "degenerate code",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.1.5": {
+"hash": "24f851b6",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.1.3",
+"strength": "essential",
+"why": "degenerate code",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.1.6": {
+"hash": "78e7783e",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.1.1",
+"strength": "helpful",
+"why": "UGA as stop codon",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.1.7": {
+"hash": "2a070df0",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.1.6",
+"strength": "essential",
+"why": "universal code",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.2.b": {
+"hash": "efbc4bbb",
+"cost": 1,
+"needs": []
+},
+"bio10-s3.2.0": {
+"hash": "e78b3394",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codon definition",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.5",
+"strength": "helpful",
+"why": "tRNA molecule",
+"confidence": "low"
+}
+]
+},
+"bio10-s3.2.1": {
+"hash": "d3404bea",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.2.0",
+"strength": "essential",
+"why": "anticodon definition",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "complementary base pairing",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.2.2": {
+"hash": "942dcfa8",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.2.1",
+"strength": "essential",
+"why": "anticodon-codon pairing",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.1.0",
+"strength": "helpful",
+"why": "AUG start codon",
+"confidence": "low"
+}
+]
+},
+"bio10-s3.2.3": {
+"hash": "2a08e75a",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.4",
+"strength": "essential",
+"why": "stop codons",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.2.4": {
+"hash": "62aeb0f6",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.2.1",
+"strength": "essential",
+"why": "anticodon pairs with codon",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.3.b": {
+"hash": "d499ec69",
+"cost": 1,
+"needs": []
+},
+"bio10-s3.3.0": {
+"hash": "27766b80",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.1",
+"strength": "essential",
+"why": "A-U pairing in RNA",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "complementary base pairing",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.3.1": {
+"hash": "4dca8933",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.3.0",
+"strength": "essential",
+"why": "mRNA made first",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.1.0",
+"strength": "essential",
+"why": "start codon AUG",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.3.2": {
+"hash": "2c232551",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "helpful",
+"why": "codon codes amino acid",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.3.3": {
+"hash": "f9130468",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.4",
+"strength": "essential",
+"why": "stop codons",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.2.0",
+"strength": "essential",
+"why": "anticodons complementary",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.3.4": {
+"hash": "99320fe7",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.1.0",
+"strength": "helpful",
+"why": "AUG start codon",
+"confidence": "low"
+}
+]
+},
+"bio10-s3.3.5": {
+"hash": "8ed8dc52",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.3.0",
+"strength": "essential",
+"why": "transcribing DNA to mRNA",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.2.1",
+"strength": "essential",
+"why": "anticodon pairing",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.3.6": {
+"hash": "602fae09",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.3.5",
+"strength": "essential",
+"why": "worked example anticodons",
+"confidence": "high"
+}
+]
+},
+"bio10-s3.3.7": {
+"hash": "61e1aa2d",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "three bases per codon",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.0.4",
+"strength": "helpful",
+"why": "stop codon adds three",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.0.b": {
+"hash": "3609600c",
+"cost": 1,
+"needs": []
+},
+"bio11-s1.0.0": {
+"hash": "297df2b2",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.0",
+"strength": "helpful",
+"why": "gene as coded instruction",
+"confidence": "low"
+}
+]
+},
+"bio11-s1.0.1": {
+"hash": "f0083ff4",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.0",
+"strength": "essential",
+"why": "chromosome as DNA plus protein",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.0.2": {
+"hash": "9d5d41bd",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.1",
+"strength": "essential",
+"why": "chromatin state being condensed",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.0.3": {
+"hash": "3f3808f4",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.0",
+"strength": "essential",
+"why": "chromosome definition",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.0.4": {
+"hash": "89792e40",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.3",
+"strength": "essential",
+"why": "chromosomes in pairs",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.3.0",
+"strength": "helpful",
+"why": "genes at same positions",
+"confidence": "low"
+}
+]
+},
+"bio11-s1.0.5": {
+"hash": "09149a97",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.3",
+"strength": "helpful",
+"why": "human chromosome number",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.0.6": {
+"hash": "b3255f70",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "base pairs",
+"confidence": "low"
+},
+{
+"id": "bio11-s1.0.3",
+"strength": "helpful",
+"why": "23 chromosomes in a set",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.0.7": {
+"hash": "c0b11925",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.4.3",
+"strength": "helpful",
+"why": "bacterial DNA loop and plasmids",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.1.0",
+"strength": "helpful",
+"why": "histones",
+"confidence": "low"
+}
+]
+},
+"bio11-s1.1.b": {
+"hash": "06bb1901",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.6",
+"strength": "helpful",
+"why": "DNA length versus nucleus size",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.1.0": {
+"hash": "b5d808f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "essential",
+"why": "negative phosphate backbone",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.1.1": {
+"hash": "664243b6",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.1.0",
+"strength": "essential",
+"why": "histones bind DNA",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.1.2": {
+"hash": "77794206",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.1.1",
+"strength": "essential",
+"why": "nucleosome string",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.1.3": {
+"hash": "2267e223",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.6",
+"strength": "helpful",
+"why": "need to pack long DNA",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.1.4": {
+"hash": "a164c9b1",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.1.1",
+"strength": "essential",
+"why": "DNA wound on nucleosomes",
+"confidence": "high"
+},
+{
+"id": "bio10-s2.1.3",
+"strength": "helpful",
+"why": "reading gene into mRNA",
+"confidence": "low"
+}
+]
+},
+"bio11-s1.1.5": {
+"hash": "734739c3",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.1.4",
+"strength": "essential",
+"why": "histones switching genes on or off",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.1.6": {
+"hash": "acb24896",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.1.1",
+"strength": "essential",
+"why": "nucleosome structure",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.b": {
+"hash": "7caa3669",
+"cost": 1,
+"needs": []
+},
+"bio11-s1.2.0": {
+"hash": "0b9e72f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.4.1",
+"strength": "helpful",
+"why": "DNA copied before division",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.1": {
+"hash": "deef5d72",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.2.0",
+"strength": "essential",
+"why": "chromatids from replication",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.2": {
+"hash": "b5df39e9",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.2.1",
+"strength": "essential",
+"why": "sister chromatids",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.3": {
+"hash": "b40940ac",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.2.2",
+"strength": "helpful",
+"why": "chromatids separate at centromere",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.4": {
+"hash": "a042a9a7",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.2.2",
+"strength": "essential",
+"why": "centromere",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.5": {
+"hash": "a10cb7b9",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.2.0",
+"strength": "essential",
+"why": "replication gives chromatids",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.6": {
+"hash": "f187092c",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.2.1",
+"strength": "essential",
+"why": "sister chromatids identical",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.0.4",
+"strength": "helpful",
+"why": "homologous chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.2.7": {
+"hash": "885c7273",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.2.5",
+"strength": "essential",
+"why": "replicated chromosome shape",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.3.1",
+"strength": "helpful",
+"why": "locus",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.3.b": {
+"hash": "333f0a8f",
+"cost": 1,
+"needs": []
+},
+"bio11-s1.3.0": {
+"hash": "b6b3223a",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.0",
+"strength": "helpful",
+"why": "gene codes for protein",
+"confidence": "low"
+}
+]
+},
+"bio11-s1.3.1": {
+"hash": "7869cb58",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "essential",
+"why": "gene on chromosome",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.3.2": {
+"hash": "303e32fc",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "essential",
+"why": "gene codes for protein",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.5",
+"strength": "helpful",
+"why": "tRNA and rRNA",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.3.3": {
+"hash": "c217d71d",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "essential",
+"why": "gene as protein code",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.3.4": {
+"hash": "8b80992b",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "helpful",
+"why": "protein-coding genes",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.3.5": {
+"hash": "11bb9059",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.4",
+"strength": "essential",
+"why": "homologous chromosomes carry same genes",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.b": {
+"hash": "56e9a2e6",
+"cost": 1,
+"needs": []
+},
+"bio11-s1.4.0": {
+"hash": "7d003ff1",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "essential",
+"why": "gene codes for protein",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.1": {
+"hash": "5b6eb856",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.4.0",
+"strength": "essential",
+"why": "coding versus non-coding DNA",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.2": {
+"hash": "32766a52",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "helpful",
+"why": "genes and expression",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.3": {
+"hash": "873ff9a9",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.5",
+"strength": "helpful",
+"why": "rRNA and tRNA",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.4.1",
+"strength": "essential",
+"why": "non-coding DNA",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.4": {
+"hash": "cf515dea",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.2.2",
+"strength": "helpful",
+"why": "centromere",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.5": {
+"hash": "4b5b6c4e",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.4.2",
+"strength": "helpful",
+"why": "regulating genes",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.6": {
+"hash": "0e0822f3",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.4.4",
+"strength": "helpful",
+"why": "repeated sequences",
+"confidence": "high"
+}
+]
+},
+"bio11-s1.4.7": {
+"hash": "d6205d19",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.4.3",
+"strength": "helpful",
+"why": "introns and gene structure",
+"confidence": "low"
+}
+]
+},
+"bio11-s2.0.b": {
+"hash": "444443ae",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.0.0": {
+"hash": "9035a694",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.0.1": {
+"hash": "19eb8ff4",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.0.0",
+"strength": "essential",
+"why": "species definition",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.0.2": {
+"hash": "ae171600",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.0.3": {
+"hash": "aaa051f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.0.2",
+"strength": "helpful",
+"why": "heredity",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.0.4": {
+"hash": "b7158421",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.4",
+"strength": "helpful",
+"why": "homologous chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.1.b": {
+"hash": "9dac1fc0",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.1.0": {
+"hash": "9adeb2b2",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.1.1": {
+"hash": "22f4e52c",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.0.4",
+"strength": "essential",
+"why": "chromosome pairs, one set",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.1.4",
+"strength": "helpful",
+"why": "fertilisation adds sets",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.1.2": {
+"hash": "c19a4a06",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.1.0",
+"strength": "essential",
+"why": "gametes",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.1.3": {
+"hash": "73d142f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.1.0",
+"strength": "helpful",
+"why": "gametes",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.1.4": {
+"hash": "4fefbb76",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.1.1",
+"strength": "essential",
+"why": "haploid gametes fuse",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.1.5": {
+"hash": "1b93d111",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.1.4",
+"strength": "essential",
+"why": "zygote",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.1.6": {
+"hash": "4f210b7c",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.1.4",
+"strength": "essential",
+"why": "life cycle stages",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.2.b": {
+"hash": "4e013516",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.2.0": {
+"hash": "6748dd88",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.3.1",
+"strength": "essential",
+"why": "locus",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.0.2",
+"strength": "helpful",
+"why": "gene",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.2.1": {
+"hash": "5d0f3e29",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.0",
+"strength": "essential",
+"why": "alleles",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.2.2": {
+"hash": "559f133f",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.0",
+"strength": "essential",
+"why": "alleles",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.2.3": {
+"hash": "02a588ae",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.2",
+"strength": "essential",
+"why": "two alleles per gene",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.2.4": {
+"hash": "29f1c1b0",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.0",
+"strength": "essential",
+"why": "alleles",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.2.5": {
+"hash": "474b16cf",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.0",
+"strength": "essential",
+"why": "alleles",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.2.6": {
+"hash": "5b08d8d0",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.2.0",
+"strength": "essential",
+"why": "alleles and locus",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.3.1",
+"strength": "helpful",
+"why": "locus",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.3.b": {
+"hash": "b1eeaf0b",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.3.0": {
+"hash": "13a216bf",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.0",
+"strength": "essential",
+"why": "alleles",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.3.1": {
+"hash": "bf35919b",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.3.0",
+"strength": "essential",
+"why": "genotype",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.3.2": {
+"hash": "c817f794",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.3.1",
+"strength": "essential",
+"why": "phenotype",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.3.3": {
+"hash": "fd51f46e",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.3.2",
+"strength": "essential",
+"why": "genotype and environment",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.3.4": {
+"hash": "eb0ef381",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.3.2",
+"strength": "essential",
+"why": "environment affects phenotype",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.3.5": {
+"hash": "7e39876b",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.3.2",
+"strength": "essential",
+"why": "environment affects phenotype",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.3.6": {
+"hash": "ead5efa0",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.4.0",
+"strength": "essential",
+"why": "dominant allele masks",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.b": {
+"hash": "b54c122e",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.4.0": {
+"hash": "870e9b25",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.5",
+"strength": "essential",
+"why": "heterozygote",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.1": {
+"hash": "03b73625",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.4",
+"strength": "essential",
+"why": "homozygous condition",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.4.0",
+"strength": "helpful",
+"why": "dominant contrast",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.2": {
+"hash": "b56cec95",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.4.1",
+"strength": "essential",
+"why": "recessive allele",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.3": {
+"hash": "2de27174",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.4.0",
+"strength": "essential",
+"why": "dominant allele",
+"confidence": "high"
+},
+{
+"id": "bio10-s2.0.2",
+"strength": "helpful",
+"why": "protein",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.4": {
+"hash": "ffc7f567",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.4.3",
+"strength": "essential",
+"why": "working protein allele",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.5": {
+"hash": "f5ab5af3",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.4.0",
+"strength": "essential",
+"why": "dominant allele",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.6": {
+"hash": "32ff5ea9",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.4.1",
+"strength": "essential",
+"why": "recessive allele",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.4.7",
+"strength": "helpful",
+"why": "carrier",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.4.7": {
+"hash": "92f1fc22",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.4.1",
+"strength": "essential",
+"why": "recessive allele",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.5.b": {
+"hash": "5939bdfa",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.5.0": {
+"hash": "bb47d40b",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.0.2",
+"strength": "essential",
+"why": "gene",
+"confidence": "high"
+},
+{
+"id": "bio10-s2.1.4",
+"strength": "helpful",
+"why": "gene to protein",
+"confidence": "low"
+}
+]
+},
+"bio11-s2.5.1": {
+"hash": "8134fa11",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.5.0",
+"strength": "essential",
+"why": "gene expression",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.5.2": {
+"hash": "81f6773c",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.5.0",
+"strength": "essential",
+"why": "gene expression",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.5.3": {
+"hash": "38bb8091",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.5.0",
+"strength": "essential",
+"why": "gene expression",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.4.2",
+"strength": "helpful",
+"why": "regulatory sequences",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.5.4": {
+"hash": "c2149a23",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.6.b": {
+"hash": "c216cdfb",
+"cost": 1,
+"needs": []
+},
+"bio11-s2.6.0": {
+"hash": "eb190091",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.5.0",
+"strength": "essential",
+"why": "gene expression",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.1.0",
+"strength": "helpful",
+"why": "histones",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.6.1": {
+"hash": "f1f3be8e",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.6.0",
+"strength": "essential",
+"why": "epigenetic tags",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.6.2": {
+"hash": "b3ab466c",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.4.0",
+"strength": "essential",
+"why": "complete dominance",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.6.3": {
+"hash": "e4a6de4c",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.0",
+"strength": "essential",
+"why": "genes on chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio11-s2.6.4": {
+"hash": "ea0981ff",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.3",
+"strength": "essential",
+"why": "sex chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.0.b": {
+"hash": "c450b55f",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.0.0": {
+"hash": "35e1f442",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.0.4",
+"strength": "helpful",
+"why": "chromosomes carry genes",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.0.1": {
+"hash": "f3911438",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.2",
+"strength": "helpful",
+"why": "DNA copied before division",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.0.2": {
+"hash": "f77d47c9",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s2.0.4",
+"strength": "essential",
+"why": "homologous pairs",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.2.0",
+"strength": "essential",
+"why": "alleles",
+"confidence": "high"
+},
+{
+"id": "bio23-s3.0.1",
+"strength": "helpful",
+"why": "meiosis halves chromosome number",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.0.3": {
+"hash": "00347a0e",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.1.4",
+"strength": "essential",
+"why": "fertilisation and zygote",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.0.4": {
+"hash": "b5039906",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.1.5",
+"strength": "helpful",
+"why": "zygote divides by mitosis",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.0.5": {
+"hash": "80476db6",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s2.2.2",
+"strength": "essential",
+"why": "two alleles per autosomal gene",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.0.6": {
+"hash": "59e33e3f",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.0.5",
+"strength": "essential",
+"why": "both parents contribute equally",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.6.4",
+"strength": "helpful",
+"why": "sex-linked exception",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.0.7": {
+"hash": "8e58a211",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.0.2",
+"strength": "essential",
+"why": "one allele per gamete",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.1.b": {
+"hash": "df116b93",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.1.0": {
+"hash": "6e3c8df5",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.0",
+"strength": "helpful",
+"why": "mitochondria",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.3.0",
+"strength": "helpful",
+"why": "chloroplasts",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.1.1": {
+"hash": "ab747125",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "ribosome structure",
+"confidence": "low"
+},
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "histones and chromatin",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.1.2": {
+"hash": "1711e645",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.1.1",
+"strength": "essential",
+"why": "organelle DNA copies",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.2.2",
+"strength": "helpful",
+"why": "two copies of nuclear gene",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.1.3": {
+"hash": "e781bebe",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.2.2",
+"strength": "helpful",
+"why": "aerobic respiration",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.3.2",
+"strength": "helpful",
+"why": "photosynthesis",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "rRNA in ribosomes",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.1.4": {
+"hash": "bc38b84d",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.1.3",
+"strength": "helpful",
+"why": "organelle genes code some proteins",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.1.5": {
+"hash": "dfd156af",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.1.1",
+"strength": "essential",
+"why": "circular DNA and 70S ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.1.6": {
+"hash": "e65ea8af",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.1.0",
+"strength": "helpful",
+"why": "organelle DNA",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.2.b": {
+"hash": "e74e460e",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.2.0": {
+"hash": "1a706610",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.1.0",
+"strength": "helpful",
+"why": "cytoplasm",
+"confidence": "high"
+},
+{
+"id": "bio11-s3.1.6",
+"strength": "helpful",
+"why": "organelles come from existing ones",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.2.1": {
+"hash": "47ef766a",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.2.0",
+"strength": "essential",
+"why": "random sharing of organelles",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.2.2": {
+"hash": "e6370e38",
+"cost": 2,
+"needs": [
+{
+"id": "bio23-s3.8.4",
+"strength": "helpful",
+"why": "sperm mitochondria stay out",
+"confidence": "high"
+},
+{
+"id": "bio23-s3.5.1",
+"strength": "helpful",
+"why": "egg cytoplasm and mitochondria",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.2.3": {
+"hash": "7cbe7f94",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.2.2",
+"strength": "essential",
+"why": "egg supplies mitochondria",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.2.4": {
+"hash": "51db7971",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.2.3",
+"strength": "essential",
+"why": "maternal inheritance",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.2.5": {
+"hash": "98851de3",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.2.3",
+"strength": "essential",
+"why": "maternal inheritance",
+"confidence": "high"
+},
+{
+"id": "bio11-s3.0.6",
+"strength": "helpful",
+"why": "reciprocal crosses for nuclear genes",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.2.6": {
+"hash": "e6bd8ed8",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.2.3",
+"strength": "essential",
+"why": "maternal inheritance",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.3.b": {
+"hash": "22475226",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.3.0": {
+"hash": "14a9a28a",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "helpful",
+"why": "chloroplasts",
+"confidence": "high"
+},
+{
+"id": "bio11-s3.2.3",
+"strength": "helpful",
+"why": "chloroplasts inherited from female",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.3.1": {
+"hash": "230591fa",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.3.0",
+"strength": "essential",
+"why": "white and green branches",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.3.2": {
+"hash": "da68fed2",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.3.1",
+"strength": "helpful",
+"why": "seed colour follows female branch",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.3.3": {
+"hash": "35521d45",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.2.3",
+"strength": "essential",
+"why": "maternal inheritance of chloroplasts",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.4.b": {
+"hash": "7af805fd",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.4.0": {
+"hash": "ce21f428",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.1.0",
+"strength": "helpful",
+"why": "organelle DNA",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.4.1": {
+"hash": "21199ca1",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.2.2",
+"strength": "essential",
+"why": "aerobic respiration",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.4.2": {
+"hash": "e6665804",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.2.3",
+"strength": "essential",
+"why": "maternal inheritance",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.4.3": {
+"hash": "35ab19d3",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.1.2",
+"strength": "helpful",
+"why": "many copies of organelle DNA",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.4.4": {
+"hash": "0d671f46",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.4.1",
+"strength": "helpful",
+"why": "mitochondrial disease",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.4.5": {
+"hash": "44550def",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.4.4",
+"strength": "essential",
+"why": "mitochondrial donation",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.4.6": {
+"hash": "136b4d85",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.2.6",
+"strength": "essential",
+"why": "DNA passes down female line unmixed",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.4.7": {
+"hash": "62677785",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.1.2",
+"strength": "essential",
+"why": "many copies per cell",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.5.b": {
+"hash": "7ef908f5",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.5.0": {
+"hash": "bac9d141",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.0.0",
+"strength": "helpful",
+"why": "nuclear genes on chromosomes",
+"confidence": "high"
+},
+{
+"id": "bio11-s3.1.0",
+"strength": "helpful",
+"why": "non-nuclear DNA",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.5.1": {
+"hash": "1ac68bbb",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.1.1",
+"strength": "helpful",
+"why": "circular DNA without histones",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.5.2": {
+"hash": "54d380c8",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.4.0",
+"strength": "helpful",
+"why": "37 mitochondrial genes",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.5.3": {
+"hash": "c20d5b4b",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.1.2",
+"strength": "helpful",
+"why": "many organelle DNA copies",
+"confidence": "high"
+},
+{
+"id": "bio11-s2.1.4",
+"strength": "helpful",
+"why": "diploid",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.5.4": {
+"hash": "77be1b72",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.2.3",
+"strength": "helpful",
+"why": "maternal inheritance",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.5.5": {
+"hash": "74a6e7c1",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.2.0",
+"strength": "essential",
+"why": "organelles shared randomly",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.5.6": {
+"hash": "f3f5db76",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.0.7",
+"strength": "essential",
+"why": "Mendelian ratios",
+"confidence": "high"
+},
+{
+"id": "bio11-s3.2.5",
+"strength": "essential",
+"why": "reciprocal crosses differ",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.5.7": {
+"hash": "7652eb32",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.0.7",
+"strength": "helpful",
+"why": "new allele combinations",
+"confidence": "high"
+},
+{
+"id": "bio11-s3.2.6",
+"strength": "helpful",
+"why": "changes only by mutation",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.6.b": {
+"hash": "0359ce46",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.6.0": {
+"hash": "df872a6e",
+"cost": 1,
+"needs": []
+},
+"bio11-s3.6.1": {
+"hash": "2d6123a0",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.0.1",
+"strength": "helpful",
+"why": "DNA copied before division",
+"confidence": "low"
+}
+]
+},
+"bio11-s3.6.2": {
+"hash": "6b235dd2",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s3.4.1",
+"strength": "helpful",
+"why": "LHON example",
+"confidence": "high"
+}
+]
+},
+"bio11-s3.6.3": {
+"hash": "7e8ab7be",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s3.2.2",
+"strength": "essential",
+"why": "egg gives mitochondria, sperm does not",
+"confidence": "high"
+},
+{
+"id": "bio23-s3.8.4",
+"strength": "helpful",
+"why": "sperm entry leaves mitochondria out",
+"confidence": "low"
+}
+]
+},
 "bio14-s3.0.b": {
 "hash": "8307dca3",
 "cost": 1,
@@ -12240,5 +15345,7786 @@
 "hash": "0e01ec8b",
 "cost": 1,
 "needs": []
+},
+"bio7-s1.0.b": {
+"hash": "37093162",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.0.0": {
+"hash": "70101902",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.0.1": {
+"hash": "3f9faa69",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "helpful",
+"why": "membrane-bound organelles defined",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.0.2": {
+"hash": "3af2f645",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.1.b": {
+"hash": "0f4cedff",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.1.0": {
+"hash": "a33edfd5",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "helpful",
+"why": "cytoplasm defined",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.1.1": {
+"hash": "c5df8d14",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.4",
+"strength": "helpful",
+"why": "shared cell features",
+"confidence": "low"
+}
+]
+},
+"bio7-s1.1.2": {
+"hash": "64d3a3a8",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.3.0",
+"strength": "helpful",
+"why": "respiration releases energy as ATP",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.1.3": {
+"hash": "ea23af9d",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.1.1",
+"strength": "helpful",
+"why": "shared features across cells",
+"confidence": "low"
+}
+]
+},
+"bio7-s1.2.b": {
+"hash": "50eccca1",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.2.0": {
+"hash": "beeece83",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "helpful",
+"why": "prokaryotes lack nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.2.1": {
+"hash": "c9669d28",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.2.2": {
+"hash": "2d432b5e",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.2.1",
+"strength": "helpful",
+"why": "chromosome shape",
+"confidence": "low"
+}
+]
+},
+"bio7-s1.2.3": {
+"hash": "ef7592b4",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.2.1",
+"strength": "helpful",
+"why": "circular main chromosome",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.2.4": {
+"hash": "4d0cf060",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.2.3",
+"strength": "essential",
+"why": "what plasmids are",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.3.b": {
+"hash": "1dda192b",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.3.0": {
+"hash": "66ed882b",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.1",
+"strength": "helpful",
+"why": "membrane-bound organelles in eukaryotes",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.3.1": {
+"hash": "aa8dd3c9",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.3.0",
+"strength": "helpful",
+"why": "respiration releases energy",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.3.2": {
+"hash": "d98e448c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.3.3",
+"strength": "essential",
+"why": "70S ribosome size",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.3.3": {
+"hash": "1cda9fb8",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.1.1",
+"strength": "helpful",
+"why": "ribosomes in both cell types",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.3.4": {
+"hash": "014f8bfc",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.3.3",
+"strength": "essential",
+"why": "70S versus 80S ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.4.b": {
+"hash": "cb758a55",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.4.0": {
+"hash": "8e263d0b",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.2",
+"strength": "helpful",
+"why": "micrometre unit",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.4.1": {
+"hash": "a31a3019",
+"cost": 2,
+"needs": []
+},
+"bio7-s1.4.2": {
+"hash": "66b0ece4",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.4.3": {
+"hash": "fd91ec74",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.7.4",
+"strength": "helpful",
+"why": "binary fission as asexual reproduction",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.4.4": {
+"hash": "0802c079",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.5.b": {
+"hash": "c391bbea",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.5.0": {
+"hash": "7b351ca4",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.4.0",
+"strength": "helpful",
+"why": "bacterial size 1-10 µm",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.5.1": {
+"hash": "006d0f7d",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.4.1",
+"strength": "helpful",
+"why": "plant cell wall",
+"confidence": "low"
+}
+]
+},
+"bio7-s1.5.2": {
+"hash": "a1722fe6",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.2.0",
+"strength": "helpful",
+"why": "nucleoid",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.5.3": {
+"hash": "f9f6a9e9",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.2.0",
+"strength": "essential",
+"why": "nuclear envelope and pores",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.5.4": {
+"hash": "424a60a9",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.2.0",
+"strength": "helpful",
+"why": "nucleoid and nuclear envelope",
+"confidence": "low"
+}
+]
+},
+"bio7-s1.6.b": {
+"hash": "87fd520b",
+"cost": 1,
+"needs": []
+},
+"bio7-s1.6.0": {
+"hash": "688d4658",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.1",
+"strength": "essential",
+"why": "eukaryotes enclose DNA in nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.6.1": {
+"hash": "e10bc2c8",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.4.0",
+"strength": "essential",
+"why": "cell size ranges",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.6.2": {
+"hash": "16f380c0",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.3.0",
+"strength": "essential",
+"why": "only eukaryotes have organelles",
+"confidence": "high"
+}
+]
+},
+"bio7-s1.6.3": {
+"hash": "569dcacc",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.4.1",
+"strength": "essential",
+"why": "cell wall differences",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.0.b": {
+"hash": "2b378c1b",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.0.0": {
+"hash": "d677875b",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.0.1": {
+"hash": "0d87e893",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.0.2": {
+"hash": "70538345",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.0.1",
+"strength": "essential",
+"why": "resolution limit",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.0.0",
+"strength": "essential",
+"why": "magnification meaning",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.0.3": {
+"hash": "b87a40db",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.0",
+"strength": "helpful",
+"why": "eyepiece lens",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.1.1",
+"strength": "helpful",
+"why": "objective lens",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.1.b": {
+"hash": "a1550745",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.1.0": {
+"hash": "0133ac27",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.0.0",
+"strength": "helpful",
+"why": "magnification",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.1.1": {
+"hash": "e892c0f1",
+"cost": 2,
+"needs": []
+},
+"bio7-s2.1.2": {
+"hash": "e06b890a",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.1.3": {
+"hash": "9e0feb18",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.1.4": {
+"hash": "62755b5c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.3",
+"strength": "helpful",
+"why": "contrast with coarse focus",
+"confidence": "low"
+}
+]
+},
+"bio7-s2.2.b": {
+"hash": "99158e4b",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.2.0": {
+"hash": "a025d560",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.2.1": {
+"hash": "7438eebf",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.2",
+"strength": "helpful",
+"why": "stage position",
+"confidence": "low"
+}
+]
+},
+"bio7-s2.2.2": {
+"hash": "943c7111",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "stains improve contrast",
+"confidence": "low"
+}
+]
+},
+"bio7-s2.2.3": {
+"hash": "3c2fa81f",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.2.4": {
+"hash": "16dec26c",
+"cost": 2,
+"needs": []
+},
+"bio7-s2.3.b": {
+"hash": "42310ec9",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.3.0": {
+"hash": "d4609f46",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.2.3",
+"strength": "essential",
+"why": "arm and base",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.3.1": {
+"hash": "6ab7f769",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.1",
+"strength": "essential",
+"why": "objective lenses",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.3.2": {
+"hash": "6e26d7ed",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.2",
+"strength": "essential",
+"why": "stage and clips",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.3.3": {
+"hash": "ccb8b02f",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.3",
+"strength": "essential",
+"why": "coarse focus",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.3.4": {
+"hash": "866b5cd5",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.0",
+"strength": "helpful",
+"why": "eyepiece",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.3.5": {
+"hash": "60f780cb",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.4",
+"strength": "essential",
+"why": "fine focus",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.2.2",
+"strength": "helpful",
+"why": "diaphragm",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.3.6": {
+"hash": "f4f098b8",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.3.7": {
+"hash": "21d388df",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.4",
+"strength": "helpful",
+"why": "fine focus",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.3.8": {
+"hash": "45865dae",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.0.3",
+"strength": "essential",
+"why": "total magnification",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.4.b": {
+"hash": "9a75c312",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.4.0": {
+"hash": "add2d061",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.4.1": {
+"hash": "ba8657bc",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.4.2": {
+"hash": "8ddf0eb7",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.1.3",
+"strength": "essential",
+"why": "coarse focus",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.4.3": {
+"hash": "46765d2d",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.2.0",
+"strength": "helpful",
+"why": "mirror as light source",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.5.b": {
+"hash": "62c614e6",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.5.0": {
+"hash": "03f47ae3",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.5.1": {
+"hash": "25f6325c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.0",
+"strength": "helpful",
+"why": "wet mount",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.5.2": {
+"hash": "fca85fe9",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.5.0",
+"strength": "helpful",
+"why": "wet mount",
+"confidence": "low"
+}
+]
+},
+"bio7-s2.5.3": {
+"hash": "49945291",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.5.0",
+"strength": "essential",
+"why": "wet mount, coverslip",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.5.4": {
+"hash": "fc0b0e1c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.0",
+"strength": "essential",
+"why": "wet mount coverslip",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.5.5": {
+"hash": "a59d0945",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.5.4",
+"strength": "essential",
+"why": "coverslip use",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "stains",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.6.b": {
+"hash": "70545acb",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.0.1",
+"strength": "essential",
+"why": "resolution",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.6.0": {
+"hash": "728e4eb6",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.0.1",
+"strength": "essential",
+"why": "resolution",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.6.1": {
+"hash": "7d084917",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.0",
+"strength": "essential",
+"why": "electron beam",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.6.2": {
+"hash": "77c80987",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.6.0",
+"strength": "essential",
+"why": "electron beam",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.6.3": {
+"hash": "51ce4af3",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.6.0",
+"strength": "essential",
+"why": "electron beam",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.6.4": {
+"hash": "1a6ae065",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.2",
+"strength": "essential",
+"why": "TEM comparison",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.6.3",
+"strength": "essential",
+"why": "SEM",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.6.5": {
+"hash": "9e09a9be",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.7.b": {
+"hash": "fb7512b7",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.7.0": {
+"hash": "e526cb6b",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.0",
+"strength": "helpful",
+"why": "electron microscope",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.7.1": {
+"hash": "075e5313",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.0.0",
+"strength": "helpful",
+"why": "magnification",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.7.2": {
+"hash": "6c1d0bcd",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.0.1",
+"strength": "essential",
+"why": "resolution",
+"confidence": "high"
+},
+{
+"id": "bio7-s1.0.2",
+"strength": "helpful",
+"why": "nm and µm units",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.7.3": {
+"hash": "9ea81aff",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.7.2",
+"strength": "essential",
+"why": "resolution limit",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.7.4": {
+"hash": "85ce4e1f",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.1",
+"strength": "helpful",
+"why": "vacuum, dead specimen",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.7.5": {
+"hash": "cdc615d6",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.6.2",
+"strength": "helpful",
+"why": "thin sectioning",
+"confidence": "low"
+}
+]
+},
+"bio7-s2.8.b": {
+"hash": "17c11730",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.8.0": {
+"hash": "b6c06646",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.8.1": {
+"hash": "c5786758",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.8.2": {
+"hash": "f1b2a640",
+"cost": 2,
+"needs": []
+},
+"bio7-s2.8.3": {
+"hash": "dc03812a",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.8.4": {
+"hash": "3169a5c4",
+"cost": 2,
+"needs": []
+},
+"bio7-s2.8.5": {
+"hash": "70638fcc",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.0.1",
+"strength": "essential",
+"why": "resolution",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.8.6": {
+"hash": "67922dcb",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.6.0",
+"strength": "helpful",
+"why": "electron microscope",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.8.7": {
+"hash": "f557a758",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.8.6",
+"strength": "essential",
+"why": "cryo-EM",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.8.8": {
+"hash": "8a5e4564",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.8.6",
+"strength": "essential",
+"why": "cryo-EM",
+"confidence": "high"
+}
+]
+},
+"bio7-s2.9.b": {
+"hash": "d4f7a77a",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.9.0": {
+"hash": "4c53e729",
+"cost": 1,
+"needs": []
+},
+"bio7-s2.9.1": {
+"hash": "29aac895",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.0.b": {
+"hash": "aa972b94",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.0.0": {
+"hash": "384bdadd",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane location",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.1": {
+"hash": "4491f2c5",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.0.0",
+"strength": "essential",
+"why": "cell wall function",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.2": {
+"hash": "c116ba25",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.0",
+"strength": "essential",
+"why": "cell wall",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.3": {
+"hash": "f6444222",
+"cost": 2,
+"needs": []
+},
+"bio7-s3.0.4": {
+"hash": "241e7977",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "essential",
+"why": "proteins in membrane",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.5": {
+"hash": "f5280685",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.b": {
+"hash": "d4b572a2",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.1.0": {
+"hash": "036a9ad1",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "inside the cell membrane",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.1": {
+"hash": "13f7e6ae",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.1.0",
+"strength": "essential",
+"why": "cytoplasm",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.2": {
+"hash": "84d24301",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.1.3": {
+"hash": "6504f5b1",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.1.2",
+"strength": "essential",
+"why": "plant vacuole",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.0.0",
+"strength": "helpful",
+"why": "cell wall pressure",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.1.4": {
+"hash": "a712f2bf",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.1.2",
+"strength": "helpful",
+"why": "vacuole",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.5": {
+"hash": "eed47f2f",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.1.2",
+"strength": "essential",
+"why": "plant vacuole",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.b": {
+"hash": "d0203acb",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.2.0": {
+"hash": "82d1391c",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.2.1": {
+"hash": "289ea3db",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.0",
+"strength": "essential",
+"why": "cristae and membranes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.2": {
+"hash": "8696c02e",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.0",
+"strength": "helpful",
+"why": "mitochondrion",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.3": {
+"hash": "40737ec7",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.1",
+"strength": "essential",
+"why": "eukaryotic cells",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.4": {
+"hash": "50a67793",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.2",
+"strength": "helpful",
+"why": "energy release by mitochondria",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.5": {
+"hash": "9b556f13",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.6": {
+"hash": "5b57cbd2",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.0",
+"strength": "essential",
+"why": "mitochondrion structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.b": {
+"hash": "bb90666d",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.3.0": {
+"hash": "74bedadd",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.3.1": {
+"hash": "4021f5bd",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "essential",
+"why": "chloroplast structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.2": {
+"hash": "1f067e63",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "essential",
+"why": "thylakoids and chlorophyll",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.3": {
+"hash": "e6f8b006",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "helpful",
+"why": "stacked thylakoid membranes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.4": {
+"hash": "80007c7a",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.3.5": {
+"hash": "49d0aa2e",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.4",
+"strength": "helpful",
+"why": "where chloroplasts occur",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.6": {
+"hash": "f5dc482c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "helpful",
+"why": "chloroplast structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.7": {
+"hash": "280fcec7",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "essential",
+"why": "chloroplast structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.b": {
+"hash": "02ae13bc",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.4.0": {
+"hash": "84ed31db",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.0.1",
+"strength": "helpful",
+"why": "eukaryotic nucleus, nuclear envelope",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.1": {
+"hash": "b696cccb",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "DNA in nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.2": {
+"hash": "2f14a968",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "DNA in nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.3": {
+"hash": "e2bf83c1",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "inside the nucleus",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.4": {
+"hash": "911a385b",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.5": {
+"hash": "f99abf22",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "nuclear envelope",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.6": {
+"hash": "405a02fc",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.5",
+"strength": "essential",
+"why": "nuclear pores",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.7": {
+"hash": "d2736087",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.5",
+"strength": "essential",
+"why": "nuclear pores",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.5.b": {
+"hash": "faa3e6f9",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.5.0": {
+"hash": "b6c89b7d",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "DNA and histones",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.5.1": {
+"hash": "84c6cd3a",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.5.0",
+"strength": "essential",
+"why": "chromosome",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "chromatin",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.5.2": {
+"hash": "da891735",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.5.1",
+"strength": "helpful",
+"why": "uncoiled chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.5.3": {
+"hash": "81edb62e",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.5.4": {
+"hash": "f71c806d",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.5.0",
+"strength": "essential",
+"why": "chromosomes carry genes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.b": {
+"hash": "3ce9bc4f",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.6.0": {
+"hash": "269ccb11",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.6.1": {
+"hash": "a9a45655",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.6.0",
+"strength": "essential",
+"why": "ribosome",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.4.2",
+"strength": "helpful",
+"why": "mRNA code",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.2": {
+"hash": "62d7884c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "helpful",
+"why": "prokaryotic cells",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.3": {
+"hash": "524cccee",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.6.0",
+"strength": "essential",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.4": {
+"hash": "ab6d1890",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "DNA in nucleus",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.7.b": {
+"hash": "19146c0f",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.7.0": {
+"hash": "bcb8dc38",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "nuclear envelope",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.1": {
+"hash": "cb598a9b",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.7.0",
+"strength": "essential",
+"why": "endoplasmic reticulum",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.2": {
+"hash": "f294c22f",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.7.1",
+"strength": "essential",
+"why": "rough ER",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.3": {
+"hash": "84f6f5c6",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.7.0",
+"strength": "essential",
+"why": "endoplasmic reticulum",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.4": {
+"hash": "19580d7c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.7.0",
+"strength": "essential",
+"why": "ER",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.b": {
+"hash": "e331b27d",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.8.0": {
+"hash": "521f4568",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.8.1": {
+"hash": "3045861a",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.7.1",
+"strength": "essential",
+"why": "proteins from rough ER",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.2": {
+"hash": "eba6f5f6",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.8.1",
+"strength": "essential",
+"why": "secretory vesicles from Golgi",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.8.3": {
+"hash": "6924b754",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.8.0",
+"strength": "essential",
+"why": "Golgi apparatus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.4": {
+"hash": "5750a04a",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.6",
+"strength": "essential",
+"why": "mRNA through nuclear pore",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.7.1",
+"strength": "essential",
+"why": "rough ER protein making",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.5": {
+"hash": "34ec8332",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.8.1",
+"strength": "essential",
+"why": "Golgi modifies and packages",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.8.2",
+"strength": "essential",
+"why": "secretory vesicle exocytosis",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.6": {
+"hash": "e95a220a",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.8.4",
+"strength": "essential",
+"why": "secretory pathway",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.b": {
+"hash": "212539a0",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.9.0": {
+"hash": "f2b01004",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.9.1": {
+"hash": "8d79000a",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.0",
+"strength": "helpful",
+"why": "cell wall",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.2": {
+"hash": "2c3d1903",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.9.1",
+"strength": "helpful",
+"why": "rigid wall",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.3": {
+"hash": "7187557a",
+"cost": 1,
+"needs": []
+},
+"bio7-s3.9.4": {
+"hash": "14f0336e",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.7",
+"strength": "helpful",
+"why": "electron microscope structures",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.9.5": {
+"hash": "71e04937",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.9.0",
+"strength": "essential",
+"why": "shared organelles",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.6": {
+"hash": "a761d2fd",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.9.1",
+"strength": "essential",
+"why": "plant-only structures",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.0.b": {
+"hash": "680dda39",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.0.0": {
+"hash": "42318ff4",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.3",
+"strength": "helpful",
+"why": "SEM as a microscope type",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.0.1": {
+"hash": "8d688f7d",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.9.1",
+"strength": "helpful",
+"why": "plant-only cell structures",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.0.2": {
+"hash": "f82ff337",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable definition",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.0.3": {
+"hash": "3e2b1ee5",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "dependent variable definition",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.0.4": {
+"hash": "41752880",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.0.5": {
+"hash": "7f9a7e17",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control experiment idea",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.5.0",
+"strength": "helpful",
+"why": "wet mount technique",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.1.b": {
+"hash": "49b54cd9",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.1.0": {
+"hash": "c55e2533",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.5.0",
+"strength": "helpful",
+"why": "slides, coverslips, wet mount",
+"confidence": "low"
+}
+]
+},
+"bio7-s4.1.1": {
+"hash": "16539d80",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.1.2": {
+"hash": "8b2a7f20",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.1.3": {
+"hash": "67e88df9",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.1.4": {
+"hash": "34779547",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.0",
+"strength": "helpful",
+"why": "coverslip and slide",
+"confidence": "low"
+}
+]
+},
+"bio7-s4.1.5": {
+"hash": "3aa71c12",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.4.3",
+"strength": "helpful",
+"why": "sunlight hazard to eye",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.2.b": {
+"hash": "4167e4a5",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.3",
+"strength": "helpful",
+"why": "lowering the coverslip",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.2.0": {
+"hash": "c1d9261c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.0",
+"strength": "helpful",
+"why": "wet mount",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.2.1": {
+"hash": "ebf3f1a9",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.2.2": {
+"hash": "0f2d36ed",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.2.3": {
+"hash": "0f163eb2",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.1",
+"strength": "helpful",
+"why": "specimen one cell thick",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.2.4": {
+"hash": "10283914",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "iodine stain for plant cells",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.2.5": {
+"hash": "4c4441dd",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.3",
+"strength": "essential",
+"why": "45 degree coverslip technique",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.2.6": {
+"hash": "a8a0cf6d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "helpful",
+"why": "control set-up",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.2.7": {
+"hash": "6a934ae7",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.3.7",
+"strength": "helpful",
+"why": "change objective, fine focus",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.0.3",
+"strength": "helpful",
+"why": "total magnification",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.3.b": {
+"hash": "b15d5eca",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.3.0": {
+"hash": "dfe51a5d",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.3.1": {
+"hash": "c367f93f",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.3.2": {
+"hash": "56bbbc7d",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.3.3": {
+"hash": "6a651040",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "methylene blue for animal cells",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.3.4": {
+"hash": "3447d69c",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.3",
+"strength": "helpful",
+"why": "lowering the coverslip",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.3.5": {
+"hash": "c7263129",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "helpful",
+"why": "control set-up",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.3.6": {
+"hash": "dbce2e1b",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.3.7",
+"strength": "helpful",
+"why": "switching to high power",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.3.7": {
+"hash": "2c368f15",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.4.b": {
+"hash": "b42182c2",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "essential",
+"why": "chloroplast structure and function",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.4.0": {
+"hash": "4356ec68",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.1",
+"strength": "helpful",
+"why": "thin specimen for light",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.4.1": {
+"hash": "fff6eef1",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.6",
+"strength": "helpful",
+"why": "chloroplasts visible as green discs",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.b": {
+"hash": "c43e354c",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.5.0": {
+"hash": "6910d49e",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.2",
+"strength": "helpful",
+"why": "cell wall in plants",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.1": {
+"hash": "57851103",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.1.2",
+"strength": "essential",
+"why": "large central vacuole",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "iodine stains nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.2": {
+"hash": "52e805c6",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.5",
+"strength": "essential",
+"why": "no chloroplasts in onion bulb",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.3": {
+"hash": "72f569a8",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.4": {
+"hash": "eb13d82a",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "methylene blue stains nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.5": {
+"hash": "c99d6062",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "stains add contrast",
+"confidence": "high"
+},
+{
+"id": "bio7-s4.0.5",
+"strength": "helpful",
+"why": "unstained control",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.6": {
+"hash": "4c911a6d",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.7.3",
+"strength": "essential",
+"why": "structures needing electron microscope",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.5.7": {
+"hash": "b3ac29dc",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.9.6",
+"strength": "helpful",
+"why": "labelled plant cell structures",
+"confidence": "low"
+}
+]
+},
+"bio7-s4.6.b": {
+"hash": "4932b049",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.3",
+"strength": "helpful",
+"why": "SEM",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.6.0": {
+"hash": "314238a6",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.3",
+"strength": "helpful",
+"why": "SEM images",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.6.1": {
+"hash": "43826d9a",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.0.1",
+"strength": "essential",
+"why": "resolution",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.6.3",
+"strength": "helpful",
+"why": "SEM gives 3D surfaces",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.6.2": {
+"hash": "0d096683",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.6.3",
+"strength": "helpful",
+"why": "SEM surface images",
+"confidence": "low"
+}
+]
+},
+"bio7-s4.6.3": {
+"hash": "39579389",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.6.2",
+"strength": "helpful",
+"why": "TEM shows internal structure",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.6.1",
+"strength": "essential",
+"why": "dead specimens, false colour",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.6.4": {
+"hash": "4cfa8770",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.0.0",
+"strength": "essential",
+"why": "magnification definition",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.6.5": {
+"hash": "72f483e5",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s4.6.4",
+"strength": "essential",
+"why": "size formula",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.6.6": {
+"hash": "a75d1194",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s4.6.4",
+"strength": "helpful",
+"why": "size calculation from image",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.6.7": {
+"hash": "0755d95f",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s2.7.5",
+"strength": "helpful",
+"why": "light vs electron microscope trade-offs",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.7.b": {
+"hash": "365a32fe",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.7.0": {
+"hash": "71ef2c8d",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.3",
+"strength": "helpful",
+"why": "eukaryotic cells have nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.7.1": {
+"hash": "2f641d14",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.0.1",
+"strength": "essential",
+"why": "wall gives shape, turgor",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.1.3",
+"strength": "essential",
+"why": "vacuole keeps cell turgid",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.7.2": {
+"hash": "747cd1f9",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.7.3": {
+"hash": "a6da5c1b",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.7.4": {
+"hash": "15fd503a",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.5",
+"strength": "helpful",
+"why": "bulb cells lack chloroplasts",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.8.b": {
+"hash": "d0a7071b",
+"cost": 1,
+"needs": []
+},
+"bio7-s4.8.0": {
+"hash": "d0de7732",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.3",
+"strength": "essential",
+"why": "45 degree coverslip technique",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.8.1": {
+"hash": "543772bb",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.1",
+"strength": "helpful",
+"why": "thin specimen needed",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.8.2": {
+"hash": "beee7a1e",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.2",
+"strength": "helpful",
+"why": "stains add contrast",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.8.3": {
+"hash": "5695cbe5",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.5.4",
+"strength": "helpful",
+"why": "coverslip stops drying out",
+"confidence": "low"
+}
+]
+},
+"bio7-s4.8.4": {
+"hash": "81773831",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s2.2.2",
+"strength": "helpful",
+"why": "diaphragm controls light",
+"confidence": "high"
+},
+{
+"id": "bio7-s2.1.4",
+"strength": "helpful",
+"why": "fine focus at high power",
+"confidence": "high"
+}
+]
+},
+"bio7-s4.8.5": {
+"hash": "dee52ad4",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.5.3",
+"strength": "helpful",
+"why": "sample size and variation",
+"confidence": "low"
+}
+]
+},
+"bio8-s1.0.b": {
+"hash": "7e90a8aa",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.0.0": {
+"hash": "1d9b1db2",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.0.1": {
+"hash": "3ccee460",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.0.0",
+"strength": "helpful",
+"why": "four biomolecule groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.0.2": {
+"hash": "3daee1b9",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.0.0",
+"strength": "helpful",
+"why": "biomolecule groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.0.3": {
+"hash": "7c16bc17",
+"cost": 2,
+"needs": []
+},
+"bio8-s1.0.4": {
+"hash": "be7f56d9",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.1.b": {
+"hash": "c54e665f",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.1.0": {
+"hash": "678cd2b1",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.1.1": {
+"hash": "69a36214",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.0",
+"strength": "essential",
+"why": "monomer and polymer definitions",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.1.2": {
+"hash": "aaf2f824",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.0",
+"strength": "essential",
+"why": "polymer as repeating monomer chain",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.1.3": {
+"hash": "72226713",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.1",
+"strength": "helpful",
+"why": "glucose and amino acid monomers",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.1.4": {
+"hash": "e8c50198",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.3",
+"strength": "essential",
+"why": "condensation as the opposite",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.1.5": {
+"hash": "10869007",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.4",
+"strength": "essential",
+"why": "hydrolysis splitting molecules",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.1.6": {
+"hash": "e61f838e",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.1",
+"strength": "helpful",
+"why": "polymers built from monomers",
+"confidence": "low"
+}
+]
+},
+"bio8-s1.1.7": {
+"hash": "1e5a3fd0",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.3",
+"strength": "essential",
+"why": "condensation reaction",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.1.4",
+"strength": "essential",
+"why": "hydrolysis reaction",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.2.b": {
+"hash": "5f2d3531",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.2.0": {
+"hash": "2b4d2468",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.2.1": {
+"hash": "3d0151f5",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.0",
+"strength": "helpful",
+"why": "metabolism as all reactions",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.2.2": {
+"hash": "47a2d420",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.2.1",
+"strength": "essential",
+"why": "anabolism definition",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.2.3": {
+"hash": "92de1afa",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.0",
+"strength": "helpful",
+"why": "metabolism as all reactions",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.2.4": {
+"hash": "3c3cc265",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.2.3",
+"strength": "essential",
+"why": "catabolism definition",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.2.5": {
+"hash": "5900b8d1",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.2.3",
+"strength": "essential",
+"why": "catabolic reactions release energy",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.2.1",
+"strength": "essential",
+"why": "anabolic reactions need energy",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.2.6": {
+"hash": "ec55654e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.5",
+"strength": "essential",
+"why": "energy transfer between reactions",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.3.b": {
+"hash": "4c8d9131",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.3.0": {
+"hash": "5f69cae7",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.3.1": {
+"hash": "ac8f9987",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.3.0",
+"strength": "helpful",
+"why": "converting biomolecules",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.3.2": {
+"hash": "b8e2c989",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.3.0",
+"strength": "helpful",
+"why": "converting biomolecules",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.3.3": {
+"hash": "f6dcf3ba",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.3.0",
+"strength": "helpful",
+"why": "converting biomolecules",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.4.b": {
+"hash": "76a19a4f",
+"cost": 1,
+"needs": []
+},
+"bio8-s1.4.0": {
+"hash": "2d2f00d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.1",
+"strength": "essential",
+"why": "anabolism definition",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.2.3",
+"strength": "essential",
+"why": "catabolism definition",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.4.1": {
+"hash": "26c48377",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.1",
+"strength": "essential",
+"why": "anabolism needs energy",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.2.3",
+"strength": "essential",
+"why": "catabolism releases energy",
+"confidence": "high"
+}
+]
+},
+"bio8-s1.4.2": {
+"hash": "fba86626",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.2",
+"strength": "helpful",
+"why": "anabolic examples",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.2.4",
+"strength": "helpful",
+"why": "catabolic examples",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.0.b": {
+"hash": "b9680be9",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.0.0",
+"strength": "helpful",
+"why": "four main biomolecule groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.0.0": {
+"hash": "4041bfb5",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.0.1": {
+"hash": "d74eecb0",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.0.0",
+"strength": "essential",
+"why": "2:1 H to O ratio formula",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.0.2": {
+"hash": "d52db20c",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.0.3": {
+"hash": "6c00eea8",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.0.2",
+"strength": "essential",
+"why": "mono- and disaccharide groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.0.4": {
+"hash": "2559f203",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.0.2",
+"strength": "essential",
+"why": "polysaccharide group defined",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.1.b": {
+"hash": "2655a89f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.0",
+"strength": "essential",
+"why": "monomer definition",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.1.0": {
+"hash": "d3802fdd",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.1.1": {
+"hash": "eb97b872",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.0",
+"strength": "helpful",
+"why": "glucose formula C6H12O6",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.1.2": {
+"hash": "a06b5ddc",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.2.5",
+"strength": "helpful",
+"why": "lactose as milk disaccharide",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.1.3": {
+"hash": "7fa7e1c9",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.1.4": {
+"hash": "e1316220",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.9.0",
+"strength": "helpful",
+"why": "nucleotides contain a sugar",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.1.5": {
+"hash": "fd323179",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.0",
+"strength": "helpful",
+"why": "glucose formula for the label",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.b": {
+"hash": "9ce66b3d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.b",
+"strength": "essential",
+"why": "monosaccharide units",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.0": {
+"hash": "04f3dfd9",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.3",
+"strength": "essential",
+"why": "condensation reaction",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.1": {
+"hash": "c27cc97d",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.2.0",
+"strength": "essential",
+"why": "water lost on joining",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.2": {
+"hash": "c276cedd",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.4",
+"strength": "essential",
+"why": "hydrolysis defined",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.3": {
+"hash": "5f8dce9f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.0",
+"strength": "essential",
+"why": "glucose as unit",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.4": {
+"hash": "b814fd76",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.1",
+"strength": "essential",
+"why": "fructose as unit",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.5": {
+"hash": "6115ae50",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.2",
+"strength": "essential",
+"why": "galactose as unit",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.2.6": {
+"hash": "dd7c7980",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.2.0",
+"strength": "essential",
+"why": "condensation and hydrolysis of disaccharide",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.3.b": {
+"hash": "81b2af29",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.0.2",
+"strength": "helpful",
+"why": "polysaccharide group",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.3.0": {
+"hash": "f3632b2b",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.0",
+"strength": "essential",
+"why": "polymer definition",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.1.3",
+"strength": "essential",
+"why": "joined by condensation",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.3.1": {
+"hash": "11f742d8",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.3.0",
+"strength": "essential",
+"why": "polymer of glucose, branching",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.3.2": {
+"hash": "e17efa67",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.3.1",
+"strength": "essential",
+"why": "starch as storage compound",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.0.4",
+"strength": "helpful",
+"why": "polysaccharides are insoluble",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.3.3": {
+"hash": "b524cf81",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.3.1",
+"strength": "essential",
+"why": "amylopectin branching comparison",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.3.4": {
+"hash": "bf2821ac",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.3.1",
+"strength": "essential",
+"why": "starch linkage comparison",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.3.5": {
+"hash": "004f0e96",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.4",
+"strength": "essential",
+"why": "cellulose structure",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.1.5",
+"strength": "helpful",
+"why": "enzymes digest food molecules",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.3.6": {
+"hash": "9e8e5757",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.0",
+"strength": "helpful",
+"why": "polysaccharide definition",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.3.7": {
+"hash": "cf05c60b",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.3.1",
+"strength": "essential",
+"why": "amylose and amylopectin",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.3.3",
+"strength": "essential",
+"why": "glycogen branching",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.3.4",
+"strength": "essential",
+"why": "cellulose cross-linked chains",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.4.b": {
+"hash": "15e0bbe1",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.3",
+"strength": "helpful",
+"why": "condensation joins molecules",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.4.0": {
+"hash": "f045ac37",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.0.0",
+"strength": "essential",
+"why": "carbohydrate formula comparison",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.4.1": {
+"hash": "768e11d6",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.4.2": {
+"hash": "9cd4d9ed",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.3",
+"strength": "helpful",
+"why": "fatty acid structure",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.4.3": {
+"hash": "97b8903e",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.4.4": {
+"hash": "3b3564cd",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.1.3",
+"strength": "essential",
+"why": "condensation releases water",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.4.2",
+"strength": "essential",
+"why": "glycerol bonds three fatty acids",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.4.5": {
+"hash": "7b93094e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.4",
+"strength": "essential",
+"why": "hydrolysis reverses condensation",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.4.4",
+"strength": "essential",
+"why": "triglyceride ester bond formation",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.4.6": {
+"hash": "77f1ced2",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.4",
+"strength": "essential",
+"why": "three waters removed on joining",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.5.b": {
+"hash": "118980d6",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.2",
+"strength": "essential",
+"why": "triglyceride structure",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.5.0": {
+"hash": "a741896c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.3",
+"strength": "essential",
+"why": "fatty acid hydrocarbon chain",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.5.1": {
+"hash": "b045666e",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.5.0",
+"strength": "essential",
+"why": "C=C bonds and chain length",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.5.2": {
+"hash": "310370f7",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.5.1",
+"strength": "essential",
+"why": "saturated fats defined",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.5.3": {
+"hash": "8f6eb885",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.5.1",
+"strength": "essential",
+"why": "saturated packing contrast",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.5.4": {
+"hash": "35f7a09c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.5.3",
+"strength": "essential",
+"why": "unsaturated fatty acids defined",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.6.b": {
+"hash": "1f971e9b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.2",
+"strength": "essential",
+"why": "triglyceride structure",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.6.0": {
+"hash": "cfd2f9be",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.2",
+"strength": "essential",
+"why": "glycerol and fatty acids",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.6.1": {
+"hash": "cd03fa05",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.6.0",
+"strength": "essential",
+"why": "phosphate head and fatty acid tails",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.6.2": {
+"hash": "86a4800c",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.6.1",
+"strength": "essential",
+"why": "hydrophilic heads, hydrophobic tails",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.6.3": {
+"hash": "4e5de485",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.6.2",
+"strength": "essential",
+"why": "phospholipid bilayer",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.6.4": {
+"hash": "84cba5a5",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.6.1",
+"strength": "essential",
+"why": "hydrophilic head, hydrophobic tails",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.6.2",
+"strength": "essential",
+"why": "bilayer arrangement",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.7.b": {
+"hash": "60f20472",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.1",
+"strength": "helpful",
+"why": "amino acids as protein monomers",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.7.0": {
+"hash": "c2b4407f",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.7.1": {
+"hash": "aa8316b9",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.1",
+"strength": "helpful",
+"why": "amino acids are protein monomers",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.7.2": {
+"hash": "46441d5b",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.1",
+"strength": "essential",
+"why": "amino acid concept",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.7.3": {
+"hash": "5bb4805b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.1",
+"strength": "essential",
+"why": "20 amino acids",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.7.4": {
+"hash": "c7d373f3",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.2",
+"strength": "essential",
+"why": "amino and carboxyl groups",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.1.3",
+"strength": "essential",
+"why": "condensation reaction",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.7.5": {
+"hash": "47f8fbd9",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.4",
+"strength": "essential",
+"why": "peptide bond joins amino acids",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.7.6": {
+"hash": "ce1650a8",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.5",
+"strength": "essential",
+"why": "polypeptide chain",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.7.1",
+"strength": "essential",
+"why": "20 amino acid types",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.7.7": {
+"hash": "97fc4d4f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.2",
+"strength": "essential",
+"why": "general amino acid structure",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.7.4",
+"strength": "essential",
+"why": "peptide bond formation",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.8.b": {
+"hash": "775c208d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.5",
+"strength": "essential",
+"why": "polypeptide chain",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.8.0": {
+"hash": "d1a83f67",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.6",
+"strength": "essential",
+"why": "primary structure amino acid sequence",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.7.2",
+"strength": "helpful",
+"why": "R groups of amino acids",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.8.1": {
+"hash": "963845eb",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.0",
+"strength": "essential",
+"why": "tertiary structure of one chain",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.8.2": {
+"hash": "7d52a6af",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.0",
+"strength": "essential",
+"why": "three-dimensional protein shape",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.8.3": {
+"hash": "15f7548a",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.8.0",
+"strength": "essential",
+"why": "bonds holding protein shape",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.8.2",
+"strength": "essential",
+"why": "shape determines function",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.8.4": {
+"hash": "69d14ee9",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.0",
+"strength": "helpful",
+"why": "protein folding and shape",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.8.5": {
+"hash": "e1951bba",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.0",
+"strength": "helpful",
+"why": "folded three-dimensional shape",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.8.4",
+"strength": "helpful",
+"why": "contrast with fibrous proteins",
+"confidence": "low"
+}
+]
+},
+"bio8-s2.9.b": {
+"hash": "67f98289",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.0",
+"strength": "helpful",
+"why": "monomer and polymer idea",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.9.0": {
+"hash": "1e170b8b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.1",
+"strength": "helpful",
+"why": "nucleotides as monomers",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.10.b": {
+"hash": "9c1e3834",
+"cost": 1,
+"needs": []
+},
+"bio8-s2.10.0": {
+"hash": "563ff119",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.2.0",
+"strength": "helpful",
+"why": "glycosidic bond",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.10.1": {
+"hash": "248a5eb0",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.4",
+"strength": "helpful",
+"why": "ester bond",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.10.2": {
+"hash": "6d765ad7",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.4",
+"strength": "helpful",
+"why": "peptide bond",
+"confidence": "high"
+}
+]
+},
+"bio8-s2.10.3": {
+"hash": "0145c869",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.9.0",
+"strength": "helpful",
+"why": "nucleotide composition",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.0.b": {
+"hash": "5493de11",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.0.0": {
+"hash": "903cc5d0",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.1.0",
+"strength": "helpful",
+"why": "glucose as respiratory substrate",
+"confidence": "low"
+}
+]
+},
+"bio8-s3.0.1": {
+"hash": "79d21772",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.0.2": {
+"hash": "97becb33",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.0.3": {
+"hash": "b1a0af11",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s3.0.2",
+"strength": "essential",
+"why": "glucose made in photosynthesis",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.0.4": {
+"hash": "7bd244ca",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.3.0",
+"strength": "essential",
+"why": "polysaccharides as glucose polymers",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.0.5": {
+"hash": "a6efbd49",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s3.0.4",
+"strength": "essential",
+"why": "stores being broken down",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.0.6": {
+"hash": "527d96c4",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.3.4",
+"strength": "essential",
+"why": "cellulose structure",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.0.7": {
+"hash": "9a1dba04",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.2.4",
+"strength": "essential",
+"why": "sucrose as transport sugar",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.1.b": {
+"hash": "f2d4f2d7",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.1.0": {
+"hash": "a4f871e5",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.1.1": {
+"hash": "5be897d8",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.1.2": {
+"hash": "d7b8b1c0",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.2",
+"strength": "essential",
+"why": "triglyceride structure",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.1.3": {
+"hash": "51eb0828",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.1.4": {
+"hash": "1058c8b9",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.1.5": {
+"hash": "2841e16d",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.1.6": {
+"hash": "f2468628",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.6.2",
+"strength": "essential",
+"why": "phospholipid bilayer",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.1.7": {
+"hash": "b92b4232",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s3.1.6",
+"strength": "essential",
+"why": "phospholipid membranes",
+"confidence": "high"
+},
+{
+"id": "bio8-s3.0.2",
+"strength": "helpful",
+"why": "glucose made in photosynthesis",
+"confidence": "low"
+}
+]
+},
+"bio8-s3.2.b": {
+"hash": "145de26a",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.2.0": {
+"hash": "3586d463",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.2.1": {
+"hash": "b5ad2c07",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.2.2": {
+"hash": "7da6fd57",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.3.b": {
+"hash": "2cc7173e",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.3.0": {
+"hash": "6a068995",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.3.1": {
+"hash": "db7591f8",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.3.2": {
+"hash": "faa64c98",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.8.2",
+"strength": "helpful",
+"why": "binding site shape fits antigen",
+"confidence": "low"
+}
+]
+},
+"bio8-s3.3.3": {
+"hash": "13c9d44f",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.3.4": {
+"hash": "4b0b152d",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.3.5": {
+"hash": "9eb6c014",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.3.6": {
+"hash": "1932d13e",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.1",
+"strength": "essential",
+"why": "amino acids as protein units",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.3.7": {
+"hash": "029a99ef",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.4.b": {
+"hash": "b82fc5fe",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.6.2",
+"strength": "helpful",
+"why": "phospholipid bilayer",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.4.0": {
+"hash": "0c7a65a7",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.6.2",
+"strength": "essential",
+"why": "phospholipid bilayer",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.4.1": {
+"hash": "bd5cbc39",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s3.4.0",
+"strength": "essential",
+"why": "membrane proteins",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.4.2": {
+"hash": "75fdab60",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s3.4.0",
+"strength": "helpful",
+"why": "membrane proteins",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.4.3": {
+"hash": "701b8745",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s3.4.2",
+"strength": "essential",
+"why": "transporter proteins",
+"confidence": "high"
+},
+{
+"id": "bio8-s3.0.0",
+"strength": "helpful",
+"why": "ATP as energy carrier",
+"confidence": "low"
+}
+]
+},
+"bio8-s3.4.4": {
+"hash": "f8ea460f",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.8.2",
+"strength": "helpful",
+"why": "shape fits one molecule",
+"confidence": "low"
+}
+]
+},
+"bio8-s3.4.5": {
+"hash": "a7bdc4e1",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s3.4.4",
+"strength": "essential",
+"why": "receptors fit signalling molecules",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.4.6": {
+"hash": "f86af078",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.8.4",
+"strength": "helpful",
+"why": "fibrous structural proteins",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.4.7": {
+"hash": "84e26184",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s3.4.1",
+"strength": "essential",
+"why": "channel protein",
+"confidence": "high"
+},
+{
+"id": "bio8-s3.4.2",
+"strength": "essential",
+"why": "carrier protein",
+"confidence": "high"
+},
+{
+"id": "bio8-s3.4.4",
+"strength": "essential",
+"why": "receptor protein",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.5.b": {
+"hash": "58d6b7a0",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.5.0": {
+"hash": "d170290d",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.5.1": {
+"hash": "14a3f0df",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s3.2.1",
+"strength": "helpful",
+"why": "steroid hormones are lipids",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.5.2": {
+"hash": "b4351c38",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s3.4.4",
+"strength": "essential",
+"why": "receptors on target cells",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.5.3": {
+"hash": "3eeabcfc",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.6.b": {
+"hash": "07d65eb8",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.6.0": {
+"hash": "07acd487",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.6.1": {
+"hash": "d2509f61",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.6.2": {
+"hash": "be12769e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.4",
+"strength": "helpful",
+"why": "cellulose as fibre",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.6.3": {
+"hash": "09aa3a0f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.5.1",
+"strength": "helpful",
+"why": "saturated fats",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.6.4": {
+"hash": "e8669544",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.5.3",
+"strength": "helpful",
+"why": "unsaturated oils",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.6.5": {
+"hash": "af14100b",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.6.6": {
+"hash": "6c848151",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.3",
+"strength": "essential",
+"why": "essential amino acids",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.7.b": {
+"hash": "7044e60c",
+"cost": 1,
+"needs": []
+},
+"bio8-s3.7.0": {
+"hash": "8777420a",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.5.1",
+"strength": "helpful",
+"why": "saturated fat",
+"confidence": "high"
+}
+]
+},
+"bio8-s3.7.1": {
+"hash": "be75e683",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.0.3",
+"strength": "helpful",
+"why": "sugars",
+"confidence": "low"
+}
+]
+},
+"bio8-s3.7.2": {
+"hash": "f52ecf9b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s3.6.5",
+"strength": "helpful",
+"why": "plant versus animal protein",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.0.b": {
+"hash": "b604c5b1",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.0.0": {
+"hash": "be6ee547",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.0.1": {
+"hash": "e6d79a38",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.0.0",
+"strength": "helpful",
+"why": "minerals as dissolved ions",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.0.2": {
+"hash": "1750de21",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.0.0",
+"strength": "helpful",
+"why": "definition of minerals",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.0.3": {
+"hash": "1abd66d1",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.0.0",
+"strength": "helpful",
+"why": "minerals as ions",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.0.4": {
+"hash": "4ad76814",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.0.0",
+"strength": "essential",
+"why": "minerals as inorganic elements",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.1.b": {
+"hash": "e9924946",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.1.0": {
+"hash": "ad9de792",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.0.3",
+"strength": "helpful",
+"why": "free ions in body fluids",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.1.1": {
+"hash": "374ed9a8",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.1.2": {
+"hash": "304d732b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.1.1",
+"strength": "essential",
+"why": "enzymes need mineral ion",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.1.3": {
+"hash": "48c3c619",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.0.3",
+"strength": "helpful",
+"why": "Na and K as free ions",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.1.4": {
+"hash": "584bc56e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.1.3",
+"strength": "helpful",
+"why": "nerve impulse in neurons",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.1.5": {
+"hash": "a453d303",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.1.3",
+"strength": "helpful",
+"why": "nerve impulse arrives",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.1.6": {
+"hash": "5b73cb2e",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.1.7": {
+"hash": "fc446a52",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.0.2",
+"strength": "helpful",
+"why": "iron in haemoglobin",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.2.b": {
+"hash": "3e52591d",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.2.0": {
+"hash": "d02c14c5",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.0.2",
+"strength": "helpful",
+"why": "calcium phosphate in bone",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.2.1": {
+"hash": "6285d008",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.2.0",
+"strength": "helpful",
+"why": "calcium need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.2.2": {
+"hash": "ec460a13",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.2.0",
+"strength": "essential",
+"why": "calcium builds bones",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.2.3": {
+"hash": "dc73d56f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.0.2",
+"strength": "helpful",
+"why": "iron in haemoglobin",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.2.4": {
+"hash": "ddda3eda",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.2.3",
+"strength": "helpful",
+"why": "iron need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.2.5": {
+"hash": "599b8cb4",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.2.4",
+"strength": "essential",
+"why": "plant sources of iron",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.2.6": {
+"hash": "d2b7c5b8",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.2.3",
+"strength": "essential",
+"why": "iron makes haemoglobin",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.2.7": {
+"hash": "04e1a68a",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.2.3",
+"strength": "helpful",
+"why": "iron need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.3.b": {
+"hash": "055d4c9e",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.3.0": {
+"hash": "3e2661ab",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.1.6",
+"strength": "helpful",
+"why": "water movement by osmosis",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.3.1": {
+"hash": "7afc7d34",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.3.0",
+"strength": "helpful",
+"why": "sodium need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.3.2": {
+"hash": "5d9ca943",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.3.0",
+"strength": "helpful",
+"why": "sodium intake",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.3.3": {
+"hash": "630b4086",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.3.0",
+"strength": "essential",
+"why": "sodium roles compared",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.3.4": {
+"hash": "cc8c77e1",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.3.3",
+"strength": "helpful",
+"why": "potassium need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.4.b": {
+"hash": "0cf7404f",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.4.0": {
+"hash": "d6239c54",
+"cost": 2,
+"needs": []
+},
+"bio8-s4.4.1": {
+"hash": "74b7ea7c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.4.0",
+"strength": "helpful",
+"why": "iodine need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.4.2": {
+"hash": "eecfa9e5",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.4.0",
+"strength": "essential",
+"why": "iodine makes thyroxine",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.4.3": {
+"hash": "d622ee3b",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.4.4": {
+"hash": "99ec9ca5",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.4.3",
+"strength": "helpful",
+"why": "fluoride need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.5.b": {
+"hash": "1eb3999a",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.5.0": {
+"hash": "81583033",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.1.0",
+"strength": "helpful",
+"why": "phosphate ions as buffers",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.5.1": {
+"hash": "4bdc0409",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.5.0",
+"strength": "helpful",
+"why": "phosphorus need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.5.2": {
+"hash": "9781432d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.1.1",
+"strength": "helpful",
+"why": "mineral ions activate enzymes",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.5.3": {
+"hash": "b5018c8f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.5.2",
+"strength": "helpful",
+"why": "magnesium need",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.6.b": {
+"hash": "ebdd786b",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.6.0": {
+"hash": "32abeb5a",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s4.0.1",
+"strength": "essential",
+"why": "root hair absorption of ions",
+"confidence": "high"
+}
+]
+},
+"bio8-s4.6.1": {
+"hash": "f8ebf182",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.6.0",
+"strength": "helpful",
+"why": "nitrate absorbed from soil",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.6.2": {
+"hash": "5dedb3b9",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.6.3": {
+"hash": "a424c888",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.5.0",
+"strength": "helpful",
+"why": "phosphate in ATP, DNA",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.6.4": {
+"hash": "b09c8a12",
+"cost": 1,
+"needs": []
+},
+"bio8-s4.6.5": {
+"hash": "d28bf329",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.6.1",
+"strength": "helpful",
+"why": "nitrogen needed for growth",
+"confidence": "low"
+}
+]
+},
+"bio8-s4.6.6": {
+"hash": "b8d3400f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s4.6.5",
+"strength": "essential",
+"why": "fertiliser addition",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.0.b": {
+"hash": "f72a90f6",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.0.0": {
+"hash": "505899d0",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.0.1": {
+"hash": "115d94ff",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.0",
+"strength": "helpful",
+"why": "vitamin definition",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.0.2": {
+"hash": "f99ca76d",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.0.3": {
+"hash": "51bb5169",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.0.4": {
+"hash": "6c9e60a0",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.0.5": {
+"hash": "5519dfc6",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.0",
+"strength": "helpful",
+"why": "vitamin definition",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.0.6": {
+"hash": "70f3b792",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.1.b": {
+"hash": "cfb4f2b4",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "water- vs fat-soluble groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.1.0": {
+"hash": "b8ca6e6f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "essential",
+"why": "water- and fat-soluble groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.1.1": {
+"hash": "50f20f2c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.1.0",
+"strength": "essential",
+"why": "fat-soluble absorbed with dietary fat",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.1.2": {
+"hash": "a2690cde",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "water- and fat-soluble groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.1.3": {
+"hash": "7f8cbe84",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "essential",
+"why": "water-soluble group",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.1.4": {
+"hash": "978b04ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "fat-soluble group",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.1.5": {
+"hash": "27e1d17c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.1.4",
+"strength": "helpful",
+"why": "fat-soluble vitamins stored in liver",
+"confidence": "high"
+},
+{
+"id": "bio8-s5.1.3",
+"strength": "helpful",
+"why": "excess water-soluble excreted",
+"confidence": "low"
+}
+]
+},
+"bio8-s5.1.6": {
+"hash": "2368ff44",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.1.5",
+"strength": "essential",
+"why": "fat-soluble build-up toxicity",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.1.7": {
+"hash": "1945b7d8",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "water- vs fat-soluble groups",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.2.b": {
+"hash": "98dbd86c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "water-soluble group",
+"confidence": "low"
+}
+]
+},
+"bio8-s5.2.0": {
+"hash": "def7061d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "water-soluble group",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.2.1": {
+"hash": "6823a2c0",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.0.3",
+"strength": "helpful",
+"why": "collagen and antioxidant roles",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.2.2": {
+"hash": "c22b4cf9",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.1.7",
+"strength": "helpful",
+"why": "leaching and heat destruction",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.2.3": {
+"hash": "462dc843",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.2.1",
+"strength": "essential",
+"why": "collagen role of vitamin C",
+"confidence": "high"
+},
+{
+"id": "bio8-s5.0.5",
+"strength": "helpful",
+"why": "deficiency disease",
+"confidence": "low"
+}
+]
+},
+"bio8-s5.2.4": {
+"hash": "5a448df9",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.2.3",
+"strength": "essential",
+"why": "scurvy",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.2.5": {
+"hash": "905677b4",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.2.3",
+"strength": "helpful",
+"why": "scurvy",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.2.6": {
+"hash": "79ba332d",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.2.3",
+"strength": "helpful",
+"why": "scurvy",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.3.b": {
+"hash": "dc01eed4",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.3.0": {
+"hash": "81e37ffa",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "fat-soluble group",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.3.1": {
+"hash": "4d4a9fe7",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.4",
+"strength": "helpful",
+"why": "vitamin D controls mineral absorption",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.3.2": {
+"hash": "13c008b7",
+"cost": 2,
+"needs": []
+},
+"bio8-s5.3.3": {
+"hash": "94199b0a",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.3.1",
+"strength": "essential",
+"why": "calcium absorption and bone hardening",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.3.4": {
+"hash": "7ec849ff",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.3.3",
+"strength": "helpful",
+"why": "rickets and soft bones",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.3.5": {
+"hash": "ae11bec1",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.3.2",
+"strength": "essential",
+"why": "skin makes vitamin D in sunlight",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.3.6": {
+"hash": "cc386f83",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.3.5",
+"strength": "helpful",
+"why": "low sunlight risk",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.4.b": {
+"hash": "6e840db3",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.1.0",
+"strength": "helpful",
+"why": "fat-soluble absorption and storage",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.4.0": {
+"hash": "22d3dbca",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.6",
+"strength": "helpful",
+"why": "fat-soluble group",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.4.1": {
+"hash": "773d789b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.4.0",
+"strength": "essential",
+"why": "vitamin A",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.4.2": {
+"hash": "cd68175b",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.4.3": {
+"hash": "bc81b61b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.4.2",
+"strength": "helpful",
+"why": "vitamin K role",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.4.4": {
+"hash": "51267a2d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.3",
+"strength": "helpful",
+"why": "antioxidant role",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.5.b": {
+"hash": "3dc6fdd4",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.5.0": {
+"hash": "f7fa1526",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.2",
+"strength": "helpful",
+"why": "vitamins as coenzymes",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.5.1": {
+"hash": "09bb7efb",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.5.0",
+"strength": "helpful",
+"why": "B vitamins",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.5.2": {
+"hash": "9e9cd31b",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s5.5.0",
+"strength": "helpful",
+"why": "B vitamins",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.5.3": {
+"hash": "38fefcf4",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.5.0",
+"strength": "helpful",
+"why": "B vitamins",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.5.4": {
+"hash": "9b15500c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.5.2",
+"strength": "essential",
+"why": "folic acid",
+"confidence": "high"
+}
+]
+},
+"bio8-s5.6.b": {
+"hash": "b9d67ae8",
+"cost": 1,
+"needs": []
+},
+"bio8-s5.6.0": {
+"hash": "23cef909",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s5.0.5",
+"strength": "helpful",
+"why": "deficiency diseases",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.0.b": {
+"hash": "cad1e3ac",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.0.0": {
+"hash": "3b8571d3",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.0.1": {
+"hash": "cd06778e",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.0.2": {
+"hash": "0194c786",
+"cost": 2,
+"needs": []
+},
+"bio8-s6.0.3": {
+"hash": "a57fbf1a",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.2",
+"strength": "essential",
+"why": "polar charges",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.0.4": {
+"hash": "5b0c6ed5",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.0.2",
+"strength": "essential",
+"why": "polarity of water",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.0.5": {
+"hash": "bba86887",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.0.3",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.0.6": {
+"hash": "1e0e4a0f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.3",
+"strength": "essential",
+"why": "hydrogen bonding",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.0.7": {
+"hash": "81a1c81a",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.3",
+"strength": "helpful",
+"why": "hydrogen bond",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.1.b": {
+"hash": "369c64a4",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.1.0": {
+"hash": "8801ce07",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.4",
+"strength": "helpful",
+"why": "solvent, dissolved molecules",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.1.1": {
+"hash": "a4bc45ae",
+"cost": 2,
+"needs": []
+},
+"bio8-s6.1.2": {
+"hash": "ad8762cc",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.1.1",
+"strength": "helpful",
+"why": "reactant vs product, hydrolysis",
+"confidence": "low"
+}
+]
+},
+"bio8-s6.2.b": {
+"hash": "40e9afaf",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.4",
+"strength": "helpful",
+"why": "water as solvent",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.2.0": {
+"hash": "0283397e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.4",
+"strength": "helpful",
+"why": "dissolving in water",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.2.1": {
+"hash": "9e652e0b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.4",
+"strength": "helpful",
+"why": "dissolved in water",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.2.2": {
+"hash": "b483b552",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.0.4",
+"strength": "helpful",
+"why": "dissolved minerals",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.2.3": {
+"hash": "1169b83f",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.0.6",
+"strength": "essential",
+"why": "cohesion",
+"confidence": "high"
+},
+{
+"id": "bio8-s6.2.2",
+"strength": "essential",
+"why": "xylem water transport",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.2.4": {
+"hash": "d47b0156",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.4",
+"strength": "helpful",
+"why": "dissolved substances",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.3.b": {
+"hash": "0b19c80c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.5",
+"strength": "essential",
+"why": "specific heat, latent heat",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.3.0": {
+"hash": "b84c0c5e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.5",
+"strength": "essential",
+"why": "high specific heat capacity",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.3.1": {
+"hash": "aaa21f73",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.0.5",
+"strength": "essential",
+"why": "latent heat of vaporisation",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.3.2": {
+"hash": "dac9f09f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.0.3",
+"strength": "helpful",
+"why": "hydrogen bonds in ice",
+"confidence": "low"
+}
+]
+},
+"bio8-s6.4.b": {
+"hash": "fe5886e6",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.4.0": {
+"hash": "d7f0c9d7",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.0.4",
+"strength": "helpful",
+"why": "dissolving releases ions",
+"confidence": "low"
+}
+]
+},
+"bio8-s6.4.1": {
+"hash": "228d9184",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.4.0",
+"strength": "essential",
+"why": "pH and H+ concentration",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.4.2": {
+"hash": "7135cd72",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.4.0",
+"strength": "helpful",
+"why": "H+ ions and pH",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.4.3": {
+"hash": "3f4cabaa",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.2.0",
+"strength": "helpful",
+"why": "plasma carries CO2",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.5.b": {
+"hash": "a62dd3bd",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.5.0": {
+"hash": "65cb4f4f",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.5.1": {
+"hash": "bb26362e",
+"cost": 2,
+"needs": []
+},
+"bio8-s6.5.2": {
+"hash": "1934b729",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.5.1",
+"strength": "essential",
+"why": "osmosis",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.5.3": {
+"hash": "9a05754f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.5.0",
+"strength": "essential",
+"why": "osmoregulation",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.5.4": {
+"hash": "d395dea6",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.5.1",
+"strength": "essential",
+"why": "osmosis into cells",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.5.5": {
+"hash": "b98ce3e1",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s6.5.4",
+"strength": "helpful",
+"why": "turgid vs flaccid",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.5.6": {
+"hash": "9540d7a0",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s6.5.1",
+"strength": "essential",
+"why": "osmosis",
+"confidence": "high"
+}
+]
+},
+"bio8-s6.6.b": {
+"hash": "bb00a400",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.6.0": {
+"hash": "141a1455",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.6.1": {
+"hash": "1e72fb22",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.6.2": {
+"hash": "31063826",
+"cost": 1,
+"needs": []
+},
+"bio8-s6.6.3": {
+"hash": "d7a1d7bc",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.0.b": {
+"hash": "b7e7bf7d",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.0.0": {
+"hash": "5191aa66",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.0.1": {
+"hash": "c64b7cd1",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.0.2": {
+"hash": "8dcd534a",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "independent variable",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.2",
+"strength": "helpful",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.0.3": {
+"hash": "c9453fa3",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "helpful",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.0.4": {
+"hash": "2319ceec",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.3",
+"strength": "helpful",
+"why": "negative control",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.0.5": {
+"hash": "bf895075",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.4",
+"strength": "helpful",
+"why": "positive control",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.0.6": {
+"hash": "26a28e90",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.4",
+"strength": "essential",
+"why": "negative control colour",
+"confidence": "high"
+},
+{
+"id": "bio8-s7.0.5",
+"strength": "essential",
+"why": "positive control colour",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.1.b": {
+"hash": "ae2de379",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.1.0": {
+"hash": "029544fa",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.1.1": {
+"hash": "e9f9e606",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.1.2": {
+"hash": "c04f84e6",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.1.3": {
+"hash": "195b158a",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.2.b": {
+"hash": "4542ec8e",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.2.0": {
+"hash": "9db54e9a",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.2.1": {
+"hash": "40293d94",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.2.0",
+"strength": "helpful",
+"why": "crushed food in water",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.2.2": {
+"hash": "04da0b9b",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.2.3": {
+"hash": "ed5b56bc",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.3.b": {
+"hash": "bca13a52",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.1",
+"strength": "helpful",
+"why": "starch as plant storage",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.3.0": {
+"hash": "f3865ba1",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.3.1": {
+"hash": "9b2488df",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.3.2": {
+"hash": "5acc4461",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.4",
+"strength": "helpful",
+"why": "negative control",
+"confidence": "high"
+},
+{
+"id": "bio8-s7.0.5",
+"strength": "helpful",
+"why": "positive control",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.3.3": {
+"hash": "8be3f0ef",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.3.1",
+"strength": "helpful",
+"why": "starch",
+"confidence": "low"
+}
+]
+},
+"bio8-s7.4.b": {
+"hash": "3fdb76ea",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.4.0": {
+"hash": "4ea0eec1",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.0.2",
+"strength": "helpful",
+"why": "mono/disaccharide sugars",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.4.1": {
+"hash": "b02c2d21",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.4.2": {
+"hash": "fd9c9598",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.4.3": {
+"hash": "2730f2f2",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.4",
+"strength": "helpful",
+"why": "negative control",
+"confidence": "high"
+},
+{
+"id": "bio8-s7.0.5",
+"strength": "helpful",
+"why": "positive control",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.4.4": {
+"hash": "b3fbbbac",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "essential",
+"why": "reducing sugar definition",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.4.5": {
+"hash": "907780d4",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "essential",
+"why": "reducing sugar reduces copper(II)",
+"confidence": "high"
+},
+{
+"id": "bio8-s7.4.4",
+"strength": "helpful",
+"why": "colour sequence",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.4.6": {
+"hash": "d1c9afe1",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.4",
+"strength": "helpful",
+"why": "brick-red result",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.4.7": {
+"hash": "d14dbbcc",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.2.2",
+"strength": "essential",
+"why": "hydrolysis of disaccharide",
+"confidence": "high"
+},
+{
+"id": "bio8-s2.2.4",
+"strength": "helpful",
+"why": "sucrose = glucose + fructose",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.5.b": {
+"hash": "0e9fff3d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.4",
+"strength": "helpful",
+"why": "peptide bonds join amino acids",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.5.0": {
+"hash": "648c8034",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.5.1": {
+"hash": "5e94ccf2",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.5.2": {
+"hash": "3fd00808",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.5.3": {
+"hash": "4367be1f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.4",
+"strength": "essential",
+"why": "peptide bonds",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.6.b": {
+"hash": "afaa76a6",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.1",
+"strength": "helpful",
+"why": "lipids insoluble in water",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.6.0": {
+"hash": "c1ce2852",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.6.1": {
+"hash": "59f67dc6",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.6.2": {
+"hash": "332d3b34",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.6.0",
+"strength": "essential",
+"why": "grease-spot method",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.6.3": {
+"hash": "09a3bc9a",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.4.1",
+"strength": "helpful",
+"why": "lipid dissolves dye, not water",
+"confidence": "low"
+}
+]
+},
+"bio8-s7.6.4": {
+"hash": "17c92c6a",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.6.5": {
+"hash": "f55ea41e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.6.3",
+"strength": "essential",
+"why": "Sudan III method",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.7.b": {
+"hash": "5da347bc",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.7.0": {
+"hash": "1461f05a",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.7.1": {
+"hash": "4303ac01",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.2",
+"strength": "helpful",
+"why": "Benedict's water bath heating",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.7.2": {
+"hash": "8e9d985d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.6.3",
+"strength": "helpful",
+"why": "Sudan III stain",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.7.3": {
+"hash": "b70e4b58",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.7.4": {
+"hash": "0f59f9e0",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.8.b": {
+"hash": "d4354a9d",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.8.0": {
+"hash": "5445966e",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.8.1": {
+"hash": "d367e8dd",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "helpful",
+"why": "sucrose non-reducing",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.8.2": {
+"hash": "be8f5cb3",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.1",
+"strength": "helpful",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.9.b": {
+"hash": "3b9c42a0",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.9.0": {
+"hash": "056adad4",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.6",
+"strength": "helpful",
+"why": "comparing with controls",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.9.1": {
+"hash": "c7d409df",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.9.2": {
+"hash": "6e4db9ce",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.9.3": {
+"hash": "4cc0780d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.2.0",
+"strength": "helpful",
+"why": "crushing breaks open cells",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.9.4": {
+"hash": "028baa49",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "essential",
+"why": "reducing vs non-reducing sugar",
+"confidence": "high"
+}
+]
+},
+"bio8-s7.9.5": {
+"hash": "873dc2ab",
+"cost": 1,
+"needs": []
+},
+"bio8-s7.9.6": {
+"hash": "df423d8b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.2",
+"strength": "helpful",
+"why": "hot water bath step",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.0.b": {
+"hash": "be714cff",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.0",
+"strength": "helpful",
+"why": "qualitative vs quantitative",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.0.0": {
+"hash": "7947ea5e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "helpful",
+"why": "reducing sugar defined",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.0.1": {
+"hash": "b2e84a44",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.1",
+"strength": "helpful",
+"why": "hypothesis format",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.0.2": {
+"hash": "cd62d4bf",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.5",
+"strength": "essential",
+"why": "copper(II) reduced to copper(I) oxide",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.0.3": {
+"hash": "c2557340",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.4",
+"strength": "helpful",
+"why": "colour scale and precipitate",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.0.4": {
+"hash": "23b63bb6",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s8.0.2",
+"strength": "essential",
+"why": "colour change principle",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.1.b": {
+"hash": "ecc593be",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.3",
+"strength": "helpful",
+"why": "fair test controls",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.1.0": {
+"hash": "3417373e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.2",
+"strength": "essential",
+"why": "independent and dependent variables",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.1.1": {
+"hash": "9aee4257",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s7.0.3",
+"strength": "helpful",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.1.2": {
+"hash": "ed7c0239",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.4",
+"strength": "essential",
+"why": "negative control",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.1.3": {
+"hash": "ac3764bb",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.0.5",
+"strength": "essential",
+"why": "positive control",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.1.4": {
+"hash": "3c7e2938",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.1.5": {
+"hash": "0258d6ac",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.1.6": {
+"hash": "da70a63c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "helpful",
+"why": "sucrose non-reducing",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.2.b": {
+"hash": "4e0df49b",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.2.0": {
+"hash": "2737c539",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.2.1": {
+"hash": "6d5d0d4d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.2.0",
+"strength": "essential",
+"why": "stock solution",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.2.2": {
+"hash": "25fcd7d9",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s8.2.1",
+"strength": "essential",
+"why": "dilution range",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.2.3": {
+"hash": "2a63ad65",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.2.1",
+"strength": "helpful",
+"why": "range of standards",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.3.b": {
+"hash": "4b3e9bfe",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.3.0": {
+"hash": "5d494f29",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.2.0",
+"strength": "helpful",
+"why": "preparing food solution",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.3.1": {
+"hash": "fb5906a2",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.2.0",
+"strength": "helpful",
+"why": "crushing releases nutrients",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.3.2": {
+"hash": "cfd603af",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.2.1",
+"strength": "helpful",
+"why": "filtering food solution",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.3.3": {
+"hash": "43a4b7f6",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.2.2",
+"strength": "helpful",
+"why": "dilution calculation",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.4.b": {
+"hash": "3408119f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.2.1",
+"strength": "helpful",
+"why": "standards range",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.4.0": {
+"hash": "98d71330",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.2.1",
+"strength": "essential",
+"why": "standards to be tested",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.4.1": {
+"hash": "472d6f01",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.1",
+"strength": "helpful",
+"why": "Benedict's method",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.4.2": {
+"hash": "4dde26ab",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.2",
+"strength": "helpful",
+"why": "water bath heating",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.4.3": {
+"hash": "dd42701f",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.4.4": {
+"hash": "ce25400a",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.2.1",
+"strength": "essential",
+"why": "standards form scale",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.4.5": {
+"hash": "52dfe2b7",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.9.5",
+"strength": "helpful",
+"why": "repeats check repeatability",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.4.6": {
+"hash": "780e434b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.0.2",
+"strength": "helpful",
+"why": "colour scale principle",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.4.7": {
+"hash": "cc5e6e7c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.4.4",
+"strength": "helpful",
+"why": "matching tubes to scale",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.5.b": {
+"hash": "736d8156",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.5.0": {
+"hash": "5eb24984",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.2",
+"strength": "helpful",
+"why": "colorimeter gives objective reading",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.5.1": {
+"hash": "3163e245",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s8.4.2",
+"strength": "essential",
+"why": "heated tubes with precipitate",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.5.2": {
+"hash": "01fe4e2e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.5.1",
+"strength": "helpful",
+"why": "prepared tubes",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.5.3": {
+"hash": "4844b544",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s7.4.5",
+"strength": "essential",
+"why": "copper(II) ions used up",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.5.4": {
+"hash": "1454fcdd",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s8.5.3",
+"strength": "essential",
+"why": "absorbance falls with sugar",
+"confidence": "high"
+},
+{
+"id": "bio2-s4.5.0",
+"strength": "helpful",
+"why": "axes and variables",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.5.5": {
+"hash": "115ae509",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s8.5.4",
+"strength": "essential",
+"why": "calibration curve",
+"confidence": "high"
+},
+{
+"id": "bio8-s8.3.3",
+"strength": "helpful",
+"why": "dilution factor",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.6.b": {
+"hash": "699cc325",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.6.0": {
+"hash": "170b332f",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.6.1": {
+"hash": "91370fa9",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.6.0",
+"strength": "helpful",
+"why": "strip pad colour",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.6.2": {
+"hash": "6e1f352d",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "essential",
+"why": "reducing sugars list",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.6.3": {
+"hash": "42909d89",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.3.3",
+"strength": "helpful",
+"why": "diluting samples",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.6.4": {
+"hash": "1b8bcb0c",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.7.b": {
+"hash": "a0837c02",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.7.0": {
+"hash": "b84fcfc3",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.7.1": {
+"hash": "11830384",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.7.2": {
+"hash": "5ee3367c",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.8.b": {
+"hash": "1d75772a",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.6",
+"strength": "essential",
+"why": "primary data defined",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.8.0": {
+"hash": "0a8272eb",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.1.0",
+"strength": "helpful",
+"why": "results table layout",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.8.1": {
+"hash": "55ac629f",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.0.2",
+"strength": "helpful",
+"why": "colour indicates sugar level",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.8.2": {
+"hash": "c02157d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s7.4.0",
+"strength": "helpful",
+"why": "sucrose non-reducing",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.8.3": {
+"hash": "53d00b0c",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.10.1",
+"strength": "helpful",
+"why": "justifying conclusions",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.8.4": {
+"hash": "2a67254d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.2",
+"strength": "helpful",
+"why": "objective vs subjective data",
+"confidence": "low"
+}
+]
+},
+"bio8-s8.9.b": {
+"hash": "b5e56d10",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.9.0": {
+"hash": "3596162b",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.5.0",
+"strength": "helpful",
+"why": "colorimeter",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.9.1": {
+"hash": "312d58d5",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.9.2": {
+"hash": "da63af54",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.0.4",
+"strength": "essential",
+"why": "Benedict's in excess",
+"confidence": "high"
+}
+]
+},
+"bio8-s8.9.3": {
+"hash": "421ccb9b",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.9.4": {
+"hash": "6b21241e",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.9.5": {
+"hash": "01727791",
+"cost": 1,
+"needs": []
+},
+"bio8-s8.9.6": {
+"hash": "b636ba66",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s8.2.1",
+"strength": "helpful",
+"why": "range of standards",
+"confidence": "low"
+}
+]
+},
+"bio9-s1.0.b": {
+"hash": "fa7479f8",
+"cost": 1,
+"needs": []
+},
+"bio9-s1.0.0": {
+"hash": "6c9af3c6",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.b",
+"strength": "essential",
+"why": "transfer molecule definition",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.0.1": {
+"hash": "3589f63a",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.b",
+"strength": "essential",
+"why": "transfer molecule definition",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.0.2": {
+"hash": "51fbc745",
+"cost": 1,
+"needs": []
+},
+"bio9-s1.0.3": {
+"hash": "9bc601e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.2",
+"strength": "essential",
+"why": "catabolic reaction type",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.0.4": {
+"hash": "8e851578",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.2",
+"strength": "essential",
+"why": "anabolic reaction type",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.0.5": {
+"hash": "46c8642f",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.0.3",
+"strength": "essential",
+"why": "catabolic reactions",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.0.4",
+"strength": "essential",
+"why": "anabolic reactions",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.0.1",
+"strength": "helpful",
+"why": "ATP as energy carrier",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.1.b": {
+"hash": "2216a252",
+"cost": 1,
+"needs": []
+},
+"bio9-s1.1.0": {
+"hash": "aad8ade9",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.1.b",
+"strength": "helpful",
+"why": "three-part ATP structure",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.1.1": {
+"hash": "449fda81",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.1.0",
+"strength": "essential",
+"why": "adenine, ribose, phosphates",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.1.2": {
+"hash": "a75fc93c",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.1.0",
+"strength": "essential",
+"why": "base, sugar, phosphate parts",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.1.3": {
+"hash": "563d545d",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.1.0",
+"strength": "essential",
+"why": "ATP's three phosphates",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.1.4": {
+"hash": "5a90c1d4",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.1.0",
+"strength": "helpful",
+"why": "phosphate group in ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.1.5": {
+"hash": "d4325b27",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.1.0",
+"strength": "essential",
+"why": "parts of ATP",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.1.3",
+"strength": "helpful",
+"why": "ADP structure",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.2.2",
+"strength": "helpful",
+"why": "end bond broken for energy",
+"confidence": "low"
+}
+]
+},
+"bio9-s1.2.b": {
+"hash": "5104ab88",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.1.0",
+"strength": "helpful",
+"why": "end phosphate of ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.2.0": {
+"hash": "84634537",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.1.3",
+"strength": "essential",
+"why": "ADP as product",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.1.4",
+"strength": "essential",
+"why": "Pi as product",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.2.1": {
+"hash": "86a4489e",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "essential",
+"why": "ATP breakdown reaction",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.2.2": {
+"hash": "e8809895",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "end phosphate removal",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.2.3": {
+"hash": "96e76dbc",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "energy release from ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.2.4": {
+"hash": "d306873e",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "essential",
+"why": "released phosphate",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.1.4",
+"strength": "helpful",
+"why": "Pi as free phosphate",
+"confidence": "low"
+}
+]
+},
+"bio9-s1.3.b": {
+"hash": "18350b1a",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP breakdown to ADP",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.1.3",
+"strength": "helpful",
+"why": "ADP structure",
+"confidence": "low"
+}
+]
+},
+"bio9-s1.3.0": {
+"hash": "075630eb",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "essential",
+"why": "reverse of ATP breakdown",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.1.3",
+"strength": "helpful",
+"why": "ADP structure",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.3.1": {
+"hash": "0487fd08",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.3.0",
+"strength": "essential",
+"why": "phosphate added to ADP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.3.2": {
+"hash": "dad24307",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.3.0",
+"strength": "essential",
+"why": "energy needed to make ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.3.3": {
+"hash": "0082e4e3",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.3.0",
+"strength": "essential",
+"why": "ATP made from ADP + Pi",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.2",
+"strength": "helpful",
+"why": "ATP made in respiration",
+"confidence": "low"
+}
+]
+},
+"bio9-s1.4.b": {
+"hash": "c12bec11",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP breakdown half",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.0",
+"strength": "helpful",
+"why": "ATP remaking half",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.4.0": {
+"hash": "86df1ae0",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "essential",
+"why": "ATP breakdown",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.0",
+"strength": "essential",
+"why": "ATP remaking",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.4.1": {
+"hash": "dbced054",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.4.0",
+"strength": "essential",
+"why": "ATP/ADP cycle",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.4.2": {
+"hash": "7ced034e",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.4.1",
+"strength": "helpful",
+"why": "small ATP store",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.2",
+"strength": "helpful",
+"why": "ATP made by respiration",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.4.3": {
+"hash": "2e39ae47",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.4.0",
+"strength": "essential",
+"why": "ATP/ADP cycle",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.5.b",
+"strength": "helpful",
+"why": "cell work uses ATP",
+"confidence": "low"
+}
+]
+},
+"bio9-s1.5.b": {
+"hash": "185d875c",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP energy release",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.5.0": {
+"hash": "f51a77ad",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP releases energy",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.2",
+"strength": "helpful",
+"why": "mitochondria make ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.5.1": {
+"hash": "2ed8b87b",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP releases energy",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.5.2": {
+"hash": "e76e0a6d",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.5.1",
+"strength": "essential",
+"why": "active transport by pumps",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.5.3": {
+"hash": "c7166d4a",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.0.4",
+"strength": "essential",
+"why": "anabolic reactions need energy",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.5.4": {
+"hash": "73e357e2",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.4",
+"strength": "helpful",
+"why": "photosynthesis is anabolic",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.3",
+"strength": "helpful",
+"why": "light stage makes ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.5.5": {
+"hash": "202f952f",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP releases energy",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.6.b": {
+"hash": "55ea427c",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.3.2",
+"strength": "helpful",
+"why": "glucose makes ATP in respiration",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.6.0": {
+"hash": "2d64ffa8",
+"cost": 1,
+"needs": []
+},
+"bio9-s1.6.1": {
+"hash": "9def2fe5",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.2.3",
+"strength": "essential",
+"why": "small single-step packet",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.6.0",
+"strength": "helpful",
+"why": "glucose releases too much",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.6.2": {
+"hash": "b7ba65c1",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.4.0",
+"strength": "helpful",
+"why": "ATP recycled in cycle",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.6.3": {
+"hash": "473c8114",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.3.2",
+"strength": "helpful",
+"why": "respiration makes ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.7.b": {
+"hash": "1f46005c",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.5.5",
+"strength": "helpful",
+"why": "firefly bioluminescence uses ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.7.0": {
+"hash": "75289478",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.5.5",
+"strength": "essential",
+"why": "luciferase uses ATP for light",
+"confidence": "high"
+}
+]
+},
+"bio9-s1.7.1": {
+"hash": "d140c17a",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.7.0",
+"strength": "essential",
+"why": "luciferase light shows ATP",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.0.b": {
+"hash": "6882db54",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.b",
+"strength": "helpful",
+"why": "transfer molecule idea",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.0.0": {
+"hash": "836a6f49",
+"cost": 1,
+"needs": []
+},
+"bio9-s2.0.1": {
+"hash": "f121d940",
+"cost": 1,
+"needs": []
+},
+"bio9-s2.0.2": {
+"hash": "d4763b96",
+"cost": 1,
+"needs": []
+},
+"bio9-s2.0.3": {
+"hash": "a208d0a4",
+"cost": 1,
+"needs": []
+},
+"bio9-s2.0.4": {
+"hash": "8ebf079c",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.0.3",
+"strength": "essential",
+"why": "oxidation and reduction",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.1.b": {
+"hash": "ed2e7bf9",
+"cost": 1,
+"needs": []
+},
+"bio9-s2.1.0": {
+"hash": "3c07c4fb",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.0.4",
+"strength": "helpful",
+"why": "oxidised versus reduced forms",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.1.1": {
+"hash": "1818bfd7",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.1.0",
+"strength": "helpful",
+"why": "NAD+ loading",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.1.2": {
+"hash": "7d29b255",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.1.0",
+"strength": "essential",
+"why": "loading reversed",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.1.3": {
+"hash": "74bf544d",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.0.1",
+"strength": "helpful",
+"why": "ATP as energy currency",
+"confidence": "low"
+}
+]
+},
+"bio9-s2.1.4": {
+"hash": "bb3b2fe4",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.0.3",
+"strength": "helpful",
+"why": "reduction as gaining electrons",
+"confidence": "low"
+}
+]
+},
+"bio9-s2.2.b": {
+"hash": "1b7c77a3",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.3",
+"strength": "helpful",
+"why": "catabolic reactions",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.2.0": {
+"hash": "02e806c6",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.3.0",
+"strength": "essential",
+"why": "glycolysis in cytoplasm",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.2.1": {
+"hash": "6f120033",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.0",
+"strength": "essential",
+"why": "NADH formed from glucose breakdown",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.2.2": {
+"hash": "6cfaeb29",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.1",
+"strength": "essential",
+"why": "NADH delivering electrons",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.2.3": {
+"hash": "15e734df",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.3.3",
+"strength": "essential",
+"why": "anaerobic fate of pyruvate",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.2.4": {
+"hash": "58832b50",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.2.3",
+"strength": "essential",
+"why": "NAD+ regenerated by fermentation",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.3.b": {
+"hash": "b20a3013",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.4",
+"strength": "helpful",
+"why": "anabolic reactions",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.3.0": {
+"hash": "b097b443",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.0.2",
+"strength": "helpful",
+"why": "carrier picks up electrons",
+"confidence": "low"
+}
+]
+},
+"bio9-s2.3.1": {
+"hash": "3989d031",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.3.0",
+"strength": "essential",
+"why": "NADP+ loading",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.3.2": {
+"hash": "da0a7f8e",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.3.1",
+"strength": "essential",
+"why": "NADPH formed",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.3.3": {
+"hash": "11004eba",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.3.2",
+"strength": "essential",
+"why": "carriers return after unloading",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.4.b": {
+"hash": "b1bf109c",
+"cost": 1,
+"needs": []
+},
+"bio9-s2.4.0": {
+"hash": "54e69116",
+"cost": 1,
+"needs": []
+},
+"bio9-s2.4.1": {
+"hash": "718875a2",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.3",
+"strength": "helpful",
+"why": "catabolic versus anabolic",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.4.2": {
+"hash": "51375234",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.0",
+"strength": "helpful",
+"why": "loading sites in respiration",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.4.3": {
+"hash": "e6e9ca7f",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.2",
+"strength": "helpful",
+"why": "oxygen final acceptor",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.4.4": {
+"hash": "6226f386",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.1.3",
+"strength": "helpful",
+"why": "energy of electrons",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.4.5": {
+"hash": "4675995d",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.0.0",
+"strength": "essential",
+"why": "extra phosphate on NADP+",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.4.6": {
+"hash": "427da350",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP transfers phosphate energy",
+"confidence": "high"
+}
+]
+},
+"bio9-s2.4.7": {
+"hash": "b62d1a40",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.2",
+"strength": "helpful",
+"why": "respiration loop",
+"confidence": "low"
+}
+]
 }
 }

@@ -1,0 +1,651 @@
+{
+ "bio11-s6.0.b": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.2.5",
+    "strength": "essential",
+    "why": "heterozygote definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "dominant allele masking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.6.2",
+    "strength": "helpful",
+    "why": "intermediate heterozygote phenotype",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.2.4",
+    "strength": "helpful",
+    "why": "homozygote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.3.0",
+    "strength": "essential",
+    "why": "genotype versus phenotype",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s6.0.0",
+    "strength": "helpful",
+    "why": "intermediate phenotype",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "essential",
+    "why": "complete dominance masking",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.3.6",
+    "strength": "helpful",
+    "why": "phenotype not revealing genotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.0.0",
+    "strength": "essential",
+    "why": "in-between result defines incomplete dominance",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.2.3",
+    "strength": "helpful",
+    "why": "ABO has A, B alleles",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s6.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.4.3",
+    "strength": "helpful",
+    "why": "allele codes for working protein",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.2.0",
+    "strength": "helpful",
+    "why": "allele definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.1.0",
+    "strength": "essential",
+    "why": "red allele codes for enzyme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.1.1",
+    "strength": "essential",
+    "why": "working copies make pigment",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.2.5",
+    "strength": "helpful",
+    "why": "heterozygote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.0.0",
+    "strength": "helpful",
+    "why": "pink heterozygote from red and white",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.0",
+    "strength": "helpful",
+    "why": "capital/lower-case allele symbols",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.0",
+    "strength": "essential",
+    "why": "capital/lower-case dominance symbols",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.1",
+    "strength": "helpful",
+    "why": "use question's letters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.3.3",
+    "strength": "helpful",
+    "why": "state a key first",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.3.2",
+    "strength": "helpful",
+    "why": "avoid look-alike letters",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.3.1",
+    "strength": "essential",
+    "why": "follow question's letters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.9.b",
+    "strength": "helpful",
+    "why": "true-breeding cross parallel",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.0",
+    "strength": "essential",
+    "why": "step 1: the key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.1",
+    "strength": "essential",
+    "why": "step 2: parents' phenotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.2",
+    "strength": "essential",
+    "why": "step 3: parents' genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.3",
+    "strength": "essential",
+    "why": "step 4: gametes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.1.0",
+    "strength": "helpful",
+    "why": "homozygous makes one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.5",
+    "strength": "essential",
+    "why": "step 6: offspring genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.6",
+    "strength": "essential",
+    "why": "step 7: offspring phenotypes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s6.0.0",
+    "strength": "essential",
+    "why": "heterozygote is pink",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.4.b": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.4.b",
+    "strength": "essential",
+    "why": "standard cross layout",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s6.3.5",
+    "strength": "helpful",
+    "why": "pink plants from first cross",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.1",
+    "strength": "essential",
+    "why": "step 2: parents' phenotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.2",
+    "strength": "essential",
+    "why": "step 3: parents' genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.1.1",
+    "strength": "essential",
+    "why": "heterozygote makes two gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.5.b",
+    "strength": "essential",
+    "why": "Punnett square method",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.5.0",
+    "strength": "helpful",
+    "why": "gamete placement in grid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.7.5",
+    "strength": "helpful",
+    "why": "1:2:1 genotype ratio from square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.6",
+    "strength": "essential",
+    "why": "step 7: offspring phenotypes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s6.0.1",
+    "strength": "helpful",
+    "why": "genotype shown by phenotype",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.5.3",
+    "strength": "essential",
+    "why": "drawing Punnett square diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.6.2",
+    "strength": "helpful",
+    "why": "incomplete dominance definition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.8.0",
+    "strength": "helpful",
+    "why": "genotype versus phenotype ratio",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s6.4.5",
+    "strength": "helpful",
+    "why": "1 red:2 pink:1 white",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s5.8.0",
+    "strength": "essential",
+    "why": "3:1 ratio from dominance masking",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "helpful",
+    "why": "dominant masks other allele",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s6.5.0",
+    "strength": "essential",
+    "why": "1:2:1 phenotype ratio",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.12.0",
+    "strength": "helpful",
+    "why": "working back from ratio",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.10.b",
+    "strength": "helpful",
+    "why": "1:1 ratio from one heterozygote parent",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.4.2",
+    "strength": "essential",
+    "why": "step 3: parents' genotypes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.10.2",
+    "strength": "essential",
+    "why": "homozygous parent gives one gamete",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s5.10.4",
+    "strength": "helpful",
+    "why": "1:1 genotype ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.0.0",
+    "strength": "essential",
+    "why": "RW is pink",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s6.6.0",
+    "strength": "helpful",
+    "why": "worked pink \u00d7 white pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s5.10.5",
+    "strength": "helpful",
+    "why": "1:1 ratio outcome",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s6.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s6.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.6.2",
+    "strength": "essential",
+    "why": "incomplete dominance definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.0.0",
+    "strength": "essential",
+    "why": "heterozygote intermediate phenotype",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s6.3.4",
+    "strength": "helpful",
+    "why": "all heterozygous offspring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.4.5",
+    "strength": "essential",
+    "why": "1:2:1 cross of heterozygotes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.5.1",
+    "strength": "essential",
+    "why": "3:1 ratio for complete dominance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s2.2.4",
+    "strength": "essential",
+    "why": "pure-breeding means homozygous",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s6.7.2",
+    "strength": "essential",
+    "why": "blue \u00d7 blue gives black and white",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.7.1",
+    "strength": "essential",
+    "why": "black \u00d7 white gives all blue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s6.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s2.6.2",
+    "strength": "essential",
+    "why": "incomplete dominance definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s2.4.0",
+    "strength": "helpful",
+    "why": "complete dominance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s6.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s6.8.0",
+    "strength": "helpful",
+    "why": "two-gene cross",
+    "confidence": "high"
+   }
+  ]
+ }
+}
