@@ -1,0 +1,723 @@
+[
+ {
+  "skill": "quad-form-from-roots",
+  "verdict": "fixed",
+  "issues": "Fixed notes: problem 3 roots are not the same as problem 1, and problem 2 has no curve",
+  "problems": [
+   {
+    "part": "maths-pp-2018-ordinary-p1-q5#(b)",
+    "note": null,
+    "legend": {
+     "1": "the factored form from the roots",
+     "2": "the expanded quadratic"
+    },
+    "steps": [
+     {
+      "ask": "Which factors go with the roots −2 and 3, and what does the shape tell you about the leading coefficient?",
+      "title": "Use the roots to write f(x) in factors",
+      "lines": [
+       {
+        "text": "The curve crosses the $x$-axis at $-2$ and $3$, so $\\hl{1}{(x + 2)}$ and $\\hl{1}{(x - 3)}$ are factors. The curve opens downwards, so the leading coefficient is negative."
+       },
+       {
+        "tex": "f(x) &= \\hl{1}{-(x + 2)(x - 3)}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply out the brackets, and how do the signs change?",
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "f(x) &= -(x^2 - 3x + 2x - 6)"
+       },
+       {
+        "tex": "&= -(x^2 - x - 6)"
+       },
+       {
+        "tex": "&= \\hl{2}{-x^2 + x + 6}"
+       }
+      ]
+     },
+     {
+      "ask": "What is f(0) from your factored form, and does it match the point A?",
+      "title": "Check with the point A",
+      "lines": [
+       {
+        "tex": "f(0) &= \\hl{1}{-(0 + 2)(0 - 3)}"
+       },
+       {
+        "tex": "&= 6"
+       },
+       {
+        "text": "This matches $A = (0, 6)$."
+       }
+      ]
+     }
+    ],
+    "final": "f(x) = \\hl{2}{-x^2 + x + 6}",
+    "graph": null
+   },
+   {
+    "part": "practice-quad-form-from-roots-1",
+    "note": "There is no graph now: the roots are given as numbers, the leading coefficient is 1 with no minus sign, and the answer is set equal to 0. Same method: factors from the roots, then expand.",
+    "legend": {
+     "1": "the factored form from the roots",
+     "2": "the expanded quadratic"
+    },
+    "steps": [
+     {
+      "ask": "If one root is −1, what factor does it give? Write the two factors for roots −1 and 6.",
+      "title": "Write the factors from the roots",
+      "lines": [
+       {
+        "text": "The roots are $-1$ and $6$, so $\\hl{1}{(x + 1)}$ and $\\hl{1}{(x - 6)}$ are the factors."
+       },
+       {
+        "tex": "\\hl{1}{(x + 1)(x - 6)} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply the brackets? Collect the x terms.",
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "x^2 - 6x + x - 6 &= 0"
+       },
+       {
+        "tex": "\\hl{2}{x^2 - 5x - 6} &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{x^2 - 5x - 6} = 0",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q6#(a)",
+    "note": "The roots are −1 and 3, and the leading number a is unknown, so the point (0, 6) finds a first. Same factors and expansion, with one extra step for a.",
+    "legend": {
+     "1": "the factored form from the roots",
+     "2": "the expanded quadratic"
+    },
+    "steps": [
+     {
+      "ask": "The roots are −1 and 3, so which two factors do you write, and what unknown is left in front?",
+      "title": "Write h'(x) using its roots",
+      "lines": [
+       {
+        "text": "The graph crosses the $x$-axis at $x=-1$ and $x=3$, so $\\hl{1}{(x+1)}$ and $\\hl{1}{(x-3)}$ are factors."
+       },
+       {
+        "tex": "h'(x) &= \\hl{1}{a(x+1)(x-3)}"
+       },
+       {
+        "tex": "&= a(x^2 - 2x - 3)"
+       }
+      ]
+     },
+     {
+      "ask": "Which point on the y-axis gives you a, and what equation do you get from it?",
+      "title": "Use the point (0, 6) to find a",
+      "lines": [
+       {
+        "text": "The graph crosses the $y$-axis at $6$, so $h'(0) = 6$."
+       },
+       {
+        "tex": "6 &= a(0 + 0 - 3)"
+       },
+       {
+        "tex": "6 &= -3a"
+       },
+       {
+        "tex": "a &= -2"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put a into the expanded form and multiply it through?",
+      "title": "Substitute a = -2 and expand",
+      "lines": [
+       {
+        "tex": "h'(x) &= -2(x^2 - 2x - 3)"
+       },
+       {
+        "tex": "&= \\hl{2}{-2x^2 + 4x + 6}"
+       }
+      ]
+     }
+    ],
+    "final": "h'(x) = \\hl{2}{-2x^2 + 4x + 6}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "mens-nets",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "circ-touching",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "line-point-on",
+  "verdict": "fixed",
+  "issues": "Fixed note on problem 2 (steps are not identical: comparison is a separate step)",
+  "problems": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q10#(c)(i)",
+    "note": null,
+    "legend": {
+     "1": "x of the point",
+     "2": "y of the point",
+     "3": "value of the left side",
+     "4": "the answer: on or off the line"
+    },
+    "steps": [
+     {
+      "ask": "What does x − y − 3 become when you put in the x and y of T?",
+      "title": "Substitute x = -2 and y = -5 into x - y - 3",
+      "lines": [
+       {
+        "tex": "x - y - 3 &= (\\hl{1}{-2}) - (\\hl{2}{-5}) - 3"
+       },
+       {
+        "tex": "&= -2 + 5 - 3"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       },
+       {
+        "text": "The left side equals $\\hl{3}{0}$, so $T$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{T \\in k}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-point-on-2",
+    "note": "The line is now 4x + 3y + 5 = 0 and the point is P(−2, 1), so the y-term is added. The answer is still yes. Same substitution, with the comparison now its own step.",
+    "legend": {
+     "1": "x of the point",
+     "2": "y of the point",
+     "3": "value of the left side",
+     "4": "the answer: on or off the line"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when you put the x and y of P into 4x + 3y + 5?",
+      "title": "Substitute x = -2 and y = 1 into 4x + 3y + 5",
+      "lines": [
+       {
+        "tex": "4x + 3y + 5 &= 4(\\hl{1}{-2}) + 3(\\hl{2}{1}) + 5"
+       },
+       {
+        "tex": "&= -8 + 3 + 5"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "What must the left side equal for P to lie on k?",
+      "title": "Compare both sides of the equation",
+      "lines": [
+       {
+        "text": "The left side equals $\\hl{3}{0}$, which is the right side, so $P$ is on $k$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{P \\in k}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-point-on-1",
+    "note": "This point is not on the line: the left side gives −6, not 0, so the answer is no. The substitution steps are the same, but the comparison now gives a no.",
+    "legend": {
+     "1": "x of the point",
+     "2": "y of the point",
+     "3": "value of the left side",
+     "4": "the answer: on or off the line"
+    },
+    "steps": [
+     {
+      "ask": "What do you get when you put x = −1 and y = 5 into 3x − 2y + 7?",
+      "title": "Substitute x = -1 and y = 5 into 3x - 2y + 7",
+      "lines": [
+       {
+        "tex": "3x - 2y + 7 &= 3(\\hl{1}{-1}) - 2(\\hl{2}{5}) + 7"
+       },
+       {
+        "tex": "&= -3 - 10 + 7"
+       },
+       {
+        "tex": "&= \\hl{3}{-6}"
+       }
+      ]
+     },
+     {
+      "ask": "What must the left side equal if the point lies on l?",
+      "title": "Compare with 0",
+      "lines": [
+       {
+        "text": "The left side equals $\\hl{3}{-6}$, not $0$, so the point is not on $l$."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{(-1, 5) \\notin l}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "cubic-unknown-coefficient",
+  "verdict": "fixed",
+  "issues": "Made legend wording identical across problems; in problem 3 swapped slots 3/4 so the unknown found by elimination (q) is slot 3",
+  "problems": [
+   {
+    "part": "practice-cubic-unknown-coefficient-1",
+    "note": null,
+    "legend": {
+     "1": "equation from the first factor",
+     "2": "equation from the second factor",
+     "3": "the unknown found by eliminating",
+     "4": "the other unknown, found by substituting"
+    },
+    "steps": [
+     {
+      "ask": "If (x − 1) is a factor, what must f(1) equal?",
+      "title": "Use the factor theorem for (x − 1)",
+      "lines": [
+       {
+        "text": "Since $(x - 1)$ is a factor, $f(1) = 0$."
+       },
+       {
+        "tex": "\\hl{1}{1 + p + q - 6} &= 0"
+       },
+       {
+        "tex": "\\hl{1}{p + q} &= \\hl{1}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "If (x + 2) is a factor, what must f(−2) equal? Substitute x = −2 and work it out.",
+      "title": "Use the factor theorem for (x + 2)",
+      "lines": [
+       {
+        "text": "Since $(x + 2)$ is a factor, $f(-2) = 0$."
+       },
+       {
+        "tex": "\\hl{2}{-8 + 4p - 2q - 6} &= 0"
+       },
+       {
+        "tex": "\\hl{2}{4p - 2q} &= \\hl{2}{14}"
+       },
+       {
+        "tex": "\\hl{2}{2p - q} &= \\hl{2}{7}"
+       }
+      ]
+     },
+     {
+      "ask": "Which two equations can you add so that q disappears?",
+      "title": "Add the two equations to eliminate q",
+      "lines": [
+       {
+        "tex": "\\hl{1}{(p + q)} + \\hl{2}{(2p - q)} &= \\hl{1}{5} + \\hl{2}{7}"
+       },
+       {
+        "tex": "\\hl{3}{3p} &= 12"
+       },
+       {
+        "tex": "\\hl{3}{p} &= \\hl{3}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "Put p = 4 into one of the two equations. What does q equal?",
+      "title": "Find q",
+      "lines": [
+       {
+        "tex": "\\hl{1}{4 + q} &= \\hl{1}{5}"
+       },
+       {
+        "tex": "\\hl{4}{q} &= \\hl{4}{1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{p = 4}, \\quad \\hl{4}{q = 1}",
+    "graph": null
+   },
+   {
+    "part": "practice-cubic-unknown-coefficient-2",
+    "note": "Same method and steps as problem 1, with factors (x − 2) and (x + 3), a constant of +12 and unknowns a and b. Only the numbers and the names change.",
+    "legend": {
+     "1": "equation from the first factor",
+     "2": "equation from the second factor",
+     "3": "the unknown found by eliminating",
+     "4": "the other unknown, found by substituting"
+    },
+    "steps": [
+     {
+      "ask": "If (x − 2) is a factor, what must f(2) equal?",
+      "title": "Use the factor theorem for $(x - 2)$",
+      "lines": [
+       {
+        "text": "Since $(x - 2)$ is a factor, $f(2) = 0$."
+       },
+       {
+        "tex": "\\hl{1}{8 + 4a + 2b + 12} &= 0"
+       },
+       {
+        "tex": "\\hl{1}{4a + 2b} &= \\hl{1}{-20}"
+       },
+       {
+        "tex": "\\hl{1}{2a + b} &= \\hl{1}{-10}"
+       }
+      ]
+     },
+     {
+      "ask": "If (x + 3) is a factor, what must f(−3) equal? Substitute x = −3 and work it out.",
+      "title": "Use the factor theorem for $(x + 3)$",
+      "lines": [
+       {
+        "text": "Since $(x + 3)$ is a factor, $f(-3) = 0$."
+       },
+       {
+        "tex": "\\hl{2}{-27 + 9a - 3b + 12} &= 0"
+       },
+       {
+        "tex": "\\hl{2}{9a - 3b} &= \\hl{2}{15}"
+       },
+       {
+        "tex": "\\hl{2}{3a - b} &= \\hl{2}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "Which two equations can you add so that b disappears?",
+      "title": "Add the two equations to eliminate $b$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{(2a + b)} + \\hl{2}{(3a - b)} &= \\hl{1}{-10} + \\hl{2}{5}"
+       },
+       {
+        "tex": "\\hl{3}{5a} &= -5"
+       },
+       {
+        "tex": "\\hl{3}{a} &= \\hl{3}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Put a = −1 into one of the two equations. What does b equal?",
+      "title": "Find $b$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{2(-1) + b} &= \\hl{1}{-10}"
+       },
+       {
+        "tex": "\\hl{4}{b} &= \\hl{4}{-8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{a = -1}, \\quad \\hl{4}{b = -8}",
+    "graph": null
+   },
+   {
+    "part": "practice-cubic-unknown-coefficient-3",
+    "note": "Compared with problem 2, the second factor is (2x − 1) and the leading coefficient is 2. So you substitute x = 1/2, the equations contain fractions, and q is found before p.",
+    "legend": {
+     "1": "equation from the first factor",
+     "2": "equation from the second factor",
+     "3": "the unknown found by eliminating",
+     "4": "the other unknown, found by substituting"
+    },
+    "steps": [
+     {
+      "ask": "If (x + 1) is a factor, what must f(−1) equal?",
+      "title": "Use the factor theorem for $(x + 1)$",
+      "lines": [
+       {
+        "text": "Since $(x + 1)$ is a factor, $f(-1) = 0$."
+       },
+       {
+        "tex": "\\hl{1}{2(-1)^3 + p(-1)^2 + q(-1) - 6} &= 0"
+       },
+       {
+        "tex": "\\hl{1}{-2 + p - q - 6} &= 0"
+       },
+       {
+        "tex": "\\hl{1}{p - q} &= \\hl{1}{8}"
+       }
+      ]
+     },
+     {
+      "ask": "If (2x − 1) is a factor, which value of x makes it zero, and what must f of that value be?",
+      "title": "Use the factor theorem for $(2x - 1)$",
+      "lines": [
+       {
+        "text": "Since $(2x - 1)$ is a factor, $f\\left(\\tfrac{1}{2}\\right) = 0$."
+       },
+       {
+        "tex": "\\hl{2}{2\\left(\\tfrac{1}{2}\\right)^3 + p\\left(\\tfrac{1}{2}\\right)^2 + q\\left(\\tfrac{1}{2}\\right) - 6} &= 0"
+       },
+       {
+        "tex": "\\hl{2}{\\tfrac{1}{4} + \\tfrac{p}{4} + \\tfrac{q}{2} - 6} &= 0"
+       },
+       {
+        "text": "Multiply by 4."
+       },
+       {
+        "tex": "\\hl{2}{1 + p + 2q - 24} &= 0"
+       },
+       {
+        "tex": "\\hl{2}{p + 2q} &= \\hl{2}{23}"
+       }
+      ]
+     },
+     {
+      "ask": "Which equation do you subtract from the other so that p disappears?",
+      "title": "Subtract to eliminate $p$",
+      "lines": [
+       {
+        "tex": "\\hl{2}{(p + 2q)} - \\hl{1}{(p - q)} &= \\hl{2}{23} - \\hl{1}{8}"
+       },
+       {
+        "tex": "\\hl{3}{3q} &= 15"
+       },
+       {
+        "tex": "\\hl{3}{q} &= \\hl{3}{5}"
+       }
+      ]
+     },
+     {
+      "ask": "Put q = 5 into one of the two equations. What does p equal?",
+      "title": "Find $p$",
+      "lines": [
+       {
+        "tex": "\\hl{1}{p - 5} &= \\hl{1}{8}"
+       },
+       {
+        "tex": "\\hl{4}{p} &= \\hl{4}{13}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{4}{p = 13}, \\quad \\hl{3}{q = 5}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "cx-conjugate-properties",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "cx-conjugate-root",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "num-decimal-fraction",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "num-prime-factors",
+  "verdict": "fixed",
+  "issues": "Asks in problems 2 and 3 named 84 instead of the number being factorised",
+  "problems": [
+   {
+    "part": "practice-num-prime-factors-1",
+    "note": null,
+    "legend": {
+     "1": "the common primes, lowest powers",
+     "2": "the HCF, the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the smallest prime that divides 84, and what is left after dividing?",
+      "title": "Factorise 84",
+      "lines": [
+       {
+        "tex": "84 &= 2 \\times 42"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 21"
+       },
+       {
+        "tex": "&= 2^2 \\times 3 \\times 7"
+       }
+      ]
+     },
+     {
+      "ask": "Using the same method, which prime divides 126 first?",
+      "title": "Factorise 126",
+      "lines": [
+       {
+        "tex": "126 &= 2 \\times 63"
+       },
+       {
+        "tex": "&= 2 \\times 3 \\times 21"
+       },
+       {
+        "tex": "&= 2 \\times 3^2 \\times 7"
+       }
+      ]
+     },
+     {
+      "ask": "Which primes are in both lists, and which power of each is the lower one?",
+      "title": "Multiply the primes common to both, using the lower power of each",
+      "lines": [
+       {
+        "text": "Common: $\\hl{1}{2^1}$, $\\hl{1}{3^1}$ and $\\hl{1}{7^1}$."
+       },
+       {
+        "tex": "\\text{HCF} &= \\hl{1}{2 \\times 3 \\times 7}"
+       },
+       {
+        "tex": "&= \\hl{2}{42}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{42}",
+    "graph": null
+   },
+   {
+    "part": "practice-num-prime-factors-2",
+    "note": "The numbers change to 180 and 300, and the shared 2 is now squared, so the lower power of 2 is 2 squared. The steps are the same.",
+    "legend": {
+     "1": "the common primes, lowest powers",
+     "2": "the HCF, the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the smallest prime that divides 180, and what is left after dividing?",
+      "title": "Factorise 180",
+      "lines": [
+       {
+        "tex": "180 &= 2 \\times 90"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 45"
+       },
+       {
+        "tex": "&= 2^2 \\times 3^2 \\times 5"
+       }
+      ]
+     },
+     {
+      "ask": "Using the same method, which prime divides 300 first?",
+      "title": "Factorise 300",
+      "lines": [
+       {
+        "tex": "300 &= 2 \\times 150"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 75"
+       },
+       {
+        "tex": "&= 2^2 \\times 3 \\times 5^2"
+       }
+      ]
+     },
+     {
+      "ask": "Which primes are in both lists, and which power of each is the lower one?",
+      "title": "Multiply the primes common to both, using the lower power of each",
+      "lines": [
+       {
+        "text": "Common: $\\hl{1}{2^2}$, $\\hl{1}{3^1}$ and $\\hl{1}{5^1}$."
+       },
+       {
+        "tex": "\\text{HCF} &= \\hl{1}{2^2 \\times 3 \\times 5}"
+       },
+       {
+        "tex": "&= \\hl{2}{60}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{60}",
+    "graph": null
+   },
+   {
+    "part": "practice-num-prime-factors-3",
+    "note": "This is a word problem with three numbers instead of two, so the HCF is taken across all three. Two things change: the context and the third number. The steps are the same.",
+    "legend": {
+     "1": "the common primes, lowest powers",
+     "2": "the HCF, the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the smallest prime that divides 60, and what is left after dividing?",
+      "title": "Factorise 60",
+      "lines": [
+       {
+        "tex": "60 &= 2 \\times 30"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 15"
+       },
+       {
+        "tex": "&= 2^2 \\times 3 \\times 5"
+       }
+      ]
+     },
+     {
+      "ask": "Using the same method, which prime divides each of 90 and 150 first?",
+      "title": "Factorise 90 and 150",
+      "lines": [
+       {
+        "tex": "90 &= 2 \\times 3^2 \\times 5"
+       },
+       {
+        "tex": "150 &= 2 \\times 3 \\times 5^2"
+       }
+      ]
+     },
+     {
+      "ask": "Which primes are in all three lists, and what is the lowest power of each?",
+      "title": "The greatest number of boxes is the HCF: multiply the primes common to all three, using the lowest power of each",
+      "lines": [
+       {
+        "text": "Common: $\\hl{1}{2^1}$, $\\hl{1}{3^1}$ and $\\hl{1}{5^1}$."
+       },
+       {
+        "tex": "\\text{HCF} &= \\hl{1}{2 \\times 3 \\times 5}"
+       },
+       {
+        "tex": "&= \\hl{2}{30}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{30} \\text{ boxes}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "num-surds",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]
