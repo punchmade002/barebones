@@ -6,253 +6,297 @@
   "notes": [
     {
       "h": "Climatic environments and how they are classified",
-      "b": "A climatic environment is a large area with a similar pattern of temperature, precipitation and seasons, usually matched by similar vegetation and soils. Weather is the short-term state of the atmosphere; climate is the average pattern over many years (see the note Weather maps and weather data).",
+      "b": "A climatic environment (or climate region) is a large area with a similar pattern of temperature, precipitation and seasons, usually matched by similar vegetation and soils. Weather is the short-term state of the atmosphere, while climate is the average pattern over many years, so a climate region is defined by long-term averages, not by one day's weather.",
       "points": [
-        "The Köppen system, devised by Wladimir Köppen, a German-Russian climatologist, divides the world mainly by temperature and precipitation thresholds that match vegetation.",
-        "Its broad groups are tropical, dry, warm temperate, cool temperate (continental) and polar.",
-        "Climates are arranged in belts by latitude, then modified by distance from the sea, ocean currents, relief, and whether a place lies on the east or the west side of a continent.",
-        "Controls on climate: latitude and insolation; pressure belts and planetary winds with their seasonal shift; air masses; ocean currents; continentality; altitude and relief (explained in the notes Solar energy and its redistribution and Atmospheric and oceanic circulation).",
+        "The Köppen system, devised by Wladimir Köppen, a German-Russian climatologist, divides the world mainly by temperature and precipitation thresholds (cut-off values) that match vegetation, so each climate type has a typical plant cover.",
+        "Its broad groups are tropical, dry, warm temperate, cool temperate (continental) and polar, so a place is placed in a group by its temperature and rainfall.",
+        "Climates are arranged in belts by latitude (distance north or south of the equator), then modified by distance from the sea, ocean currents, relief (the height and shape of the land), and whether a place lies on the east or the west side of a continent.",
+        "Controls on climate: latitude and insolation (incoming solar energy); pressure belts and planetary winds with their seasonal shift; air masses (large bodies of air with uniform temperature and moisture); ocean currents; continentality (distance from the sea); altitude and relief.",
         "Diagram: a world map of the main climate regions."
-      ]
+      ],
+      "tip": "A world map of climate regions is the diagram cue for this topic, so practise sketching and labelling one."
     },
     {
       "h": "Equatorial climate: location and temperature",
-      "b": "The equatorial (tropical rainforest) climate lies close to the equator, mainly in the Amazon Basin, the Congo Basin and South-East Asia (Indonesia and Malaysia).",
+      "b": "The equatorial (tropical rainforest) climate lies close to the equator, about 0-10 degrees N and S. It is found mainly in the Amazon Basin, the Congo Basin and South-East Asia (Indonesia and Malaysia). Its temperature is the steadiest on earth, and the reasons come from the sun's position.",
       "points": [
         "Temperatures are high all year, with monthly means of about 26–28 °C.",
-        "The annual range is tiny, about 2–3 °C, but the daily range is larger than the annual range: afternoon highs of about 30–32 °C and night lows of about 22–24 °C.",
-        "The sun is always high in the sky and is overhead at the equator at the equinoxes (March and September), so there is little change in heat input through the year.",
-        "Cloud cover stops temperatures rising much above the low 30s °C.",
-        "Pressure is permanently low in the equatorial trough (the ITCZ, or doldrums), where the trade winds converge; winds are light and variable."
-      ]
+        "The annual range (the difference between the warmest and coolest month) is tiny, about 2–3 °C, but the daily range is larger than the annual range: afternoon highs of about 30–32 °C and night lows of about 22–24 °C.",
+        "The sun is always high in the sky and is overhead at the equator at the equinoxes (March and September), so there is little change in heat input through the year. Day length is also about 12 hours all year.",
+        "Cloud cover reflects sunlight and stops temperatures rising much above the low 30s °C, which is why maximum temperatures here are lower than in deserts.",
+        "Pressure is permanently low in the equatorial trough (the ITCZ, or doldrums, the belt where the trade winds from north and south meet), so winds are light and variable."
+      ],
+      "tip": "Remember that the daily range exceeds the annual range at the equator, and that maximum temperatures are lower than in deserts."
     },
     {
       "h": "Equatorial climate: precipitation, humidity and the daily weather cycle",
+      "b": "Rain falls here every month, and nearly all of it comes from one process, convection (warm air rising, cooling and condensing into cloud). That process also produces a predictable daily pattern of weather.",
       "points": [
         "Rainfall is over 2,000 mm a year (Manaus, Brazil, about 2,300 mm) and falls in every month.",
         "There are often two wetter peaks after the equinoxes, when the overhead sun and the ITCZ pass over.",
-        "The rain is convectional: intense heating and very moist air from warm seas and forest transpiration build towering clouds that produce heavy afternoon thunderstorms.",
-        "Trade winds converge at the ITCZ, which lifts and reinforces the moist air.",
-        "Relative humidity is often over 80%, and the air is humid at night too.",
-        "Daily cycle: a clear, calm, humid morning; cumulus building by late morning; cumulonimbus and torrential rain with thunder in the afternoon; clearing in the evening.",
-        "The climate has no temperate-style seasons."
-      ]
+        "The rain is convectional: intense heating and very moist air from warm seas and forest transpiration (water given off by plant leaves) build towering clouds that produce heavy afternoon thunderstorms.",
+        "Trade winds converge at the ITCZ, which lifts and reinforces the moist air, so rising air is supplied from two directions.",
+        "Relative humidity (how much water vapour the air holds compared with the most it could hold) is often over 80%, and the air is humid at night too.",
+        "Daily cycle: a clear, calm, humid morning; cumulus (heaped, fluffy cloud) building by late morning; cumulonimbus (towering storm cloud) and torrential rain with thunder in the afternoon; clearing in the evening.",
+        "The climate has no temperate-style seasons, because temperature and rainfall barely change through the year."
+      ],
+      "tip": "For a full answer, give the amount of rain, the season, the type (convectional) and the reasons: intense heating, moist air and the converging trade winds."
     },
     {
       "h": "Equatorial climate: vegetation and human response",
+      "b": "The constant heat and rain support the richest plant cover on land, and that in turn shapes how people use the region.",
       "points": [
-        "Tropical rainforest grows on latosols; the note One major biome in detail gives the detail.",
+        "Tropical rainforest grows on latosols (deep, reddish tropical soils). There is more on this in One major biome in detail.",
         "Forest clearance for farming and timber is the main human pressure on the rainforest."
       ]
     },
     {
       "h": "Monsoon climate: location, definition and seasons",
-      "b": "A monsoon climate has a seasonal reversal of wind direction, bringing a very wet summer and a dry winter. The word monsoon comes from the Arabic word for season. The classic monsoon climate is in South and South-East Asia, especially India; weaker monsoon climates occur in other tropical regions.",
+      "b": "A monsoon climate has a seasonal reversal of wind direction, bringing a very wet summer and a dry winter. The word monsoon comes from the Arabic word for season. The classic monsoon climate is in South and South-East Asia, especially India, Bangladesh and Myanmar; weaker monsoon climates occur in northern Australia and West Africa.",
       "points": [
-        "The hot season before the rains: temperatures often exceed 40 °C on the northern plains.",
+        "The hot season before the rains (March–May): temperatures often exceed 40 °C on the northern plains.",
         "The wet south-west monsoon, from June to September: slightly cooler than the hot season because of cloud and rain.",
-        "The cool dry season: pleasant, with cool nights in the north.",
-        "The south-west monsoon normally reaches Kerala around 1 June and covers all of India by mid-July."
-      ]
+        "The cool dry season (October–February): pleasant, with cool nights in the north.",
+        "The south-west monsoon normally reaches Kerala around 1 June and covers all of India by mid-July. It brings about three-quarters of India's annual rainfall."
+      ],
+      "tip": "Monsoon means a seasonal reversal of winds, not just heavy rain."
     },
     {
       "h": "Monsoon climate: how the summer monsoon forms",
+      "b": "The summer monsoon starts with the land heating faster than the sea. Four linked steps then pull moist air onto India.",
       "points": [
-        "1. Intense heating of the land and of the high land to the north creates low pressure over north-west India.",
-        "2. The ITCZ moves north.",
-        "3. The south-east trade winds cross the equator and are deflected by the Coriolis force into south-west winds, which gather moisture over the sea to the south.",
-        "4. The subtropical jet stream shifts north of the mountains to the north, allowing the monsoon to burst suddenly.",
-        "Reference: the note India explains the monsoon in more detail."
-      ]
+        "1. Intense heating of the land and of the high land to the north (the Tibetan Plateau) creates low pressure over north-west India.",
+        "2. The ITCZ (the belt of low pressure where trade winds meet) moves north.",
+        "3. The south-east trade winds cross the equator and are deflected by the Coriolis force (the turning effect of the earth's rotation on moving air) into south-west winds, which gather moisture over the Indian Ocean to the south.",
+        "4. The subtropical jet stream (a fast, high-altitude river of air) shifts north of the Himalayas, the mountains to the north, allowing the monsoon to burst suddenly. There is more on this in India."
+      ],
+      "tip": "Learn the cause as steps in order: heating and low pressure, ITCZ moves north, trade winds deflected, jet stream shifts."
     },
     {
       "h": "Monsoon climate: rainfall pattern and the winter monsoon",
+      "b": "Rain is not spread evenly across India: relief and distance from the moisture source decide who gets most. In winter the wind reverses and blows from the land, which is why the dry season follows.",
       "points": [
-        "Relief rain falls on the Western Ghats and on the Khasi Hills of Meghalaya; Mawsynram and Cherrapunji, in the Khasi Hills, are among the wettest places on earth.",
-        "The Deccan lies in a rain shadow, and rainfall decreases towards the north-west, with the Thar Desert in Rajasthan the driest region.",
-        "Kolkata is wetter than Delhi.",
+        "Relief rain (rain from moist air forced up high ground) falls on the Western Ghats and on the north-east hills, the Khasi Hills of Meghalaya; Mawsynram and Cherrapunji, in the Khasi Hills, are among the wettest places on earth.",
+        "The Deccan lies in a rain shadow (the dry area on the sheltered side of high ground), and rainfall decreases north-westwards along the Ganges plain, with the Thar Desert in Rajasthan the driest region.",
+        "Kolkata is wetter than Delhi, which shows how rainfall falls away from the moisture source.",
         "In winter the land cools and high pressure builds over the interior of Asia; dry north-east winds blow off the land.",
-        "Mountains to the north block cold air from the interior of Asia from reaching India.",
-        "The east coast of southern India gets winter rain from the north-east monsoon after it has crossed the sea."
+        "The Himalayas, the mountains to the north, block cold air from the interior of Asia from reaching India.",
+        "The east coast of southern India (the Tamil Nadu coast) gets winter rain from the north-east monsoon after it has crossed the Bay of Bengal, because the wind picks up moisture over the sea."
       ]
     },
     {
       "h": "Monsoon climate: variability, hazards and human response",
+      "b": "Farmers depend on the monsoon arriving on time and in the right amount, so any variation has serious effects.",
       "points": [
         "Late, weak or broken monsoons bring drought; very heavy ones bring floods.",
-        "The Odisha super cyclone of October 1999 killed about 10,000 people.",
-        "El Niño years often bring a weaker Indian monsoon (see El Niño below).",
-        "Kharif crops such as rice are sown with the monsoon rains; rabi crops such as wheat rely on stored water and irrigation."
+        "Cyclones (intense tropical storms) in the Bay of Bengal are also a hazard: the Odisha super cyclone of October 1999 killed about 10,000 people.",
+        "El Niño years (when the central and eastern Pacific warms) often bring a weaker Indian monsoon.",
+        "Kharif crops such as rice are sown with the monsoon rains; rabi crops such as wheat rely on stored water and irrigation, because they grow in the dry season."
       ]
     },
     {
       "h": "Cool temperate oceanic (mid-latitude west coast) climate: location and temperature",
-      "b": "This climate lies on west coasts in the path of the westerlies, including north-west Europe: Ireland, Britain, north-west France, Belgium, the Netherlands, Denmark and coastal Norway. Other west coasts in the same latitude belt in both hemispheres share it.",
+      "b": "This climate lies on west coasts between about 40° and 60° in the path of the westerlies (the prevailing winds that blow from the west). Because the sea warms and cools slowly, it gives mild winters and cool summers.",
       "points": [
+        "Locations: north-west Europe, including Ireland, Britain, north-west France (Brittany), Belgium, the Netherlands, Denmark and coastal Norway; also British Columbia and the Pacific north-west of the USA, southern Chile, New Zealand and Tasmania.",
         "Winters are mild and summers are cool, with a small annual range: Ireland's mean January is about 4–7 °C and its mean July about 14–16 °C, an annual range of about 10 °C.",
-        "Frost and snow are infrequent on low ground.",
-        "The climate of Ireland is described at Core level in the note Physical regions."
-      ]
+        "Frost and snow are infrequent on low ground, because the sea keeps winters mild.",
+        "The climate of Ireland is also described at Core level in the note Physical regions."
+      ],
+      "tip": "The smallest annual ranges are at the equator and on oceanic coasts, so use Ireland's range of about 10 °C as your example."
     },
     {
       "h": "Cool temperate oceanic climate: precipitation and weather",
+      "b": "Rain falls in every month, and the pattern is wet, mild and changeable. Most of it comes from fronts (the boundaries between warm and cold air) and from hills in the way of the wind.",
       "points": [
         "Rain falls in all months, with a maximum in autumn and winter and many wet days: about 150 a year in the east and south-east of Ireland and up to about 225 in parts of the west.",
         "Annual rainfall is about 750 mm in the driest east (around Dublin), about 1,000–1,250 mm across much of the west, and over 2,000 mm on many western mountains.",
-        "Most rain is frontal (cyclonic), with relief rain on west-facing mountains; amounts fall from west to east.",
-        "Prevailing south-westerly winds bring maritime air off the Atlantic.",
-        "The North Atlantic Drift, the extension of the Gulf Stream, warms winter air and seas.",
-        "The sea heats and cools slowly, moderating the seasons.",
-        "Depressions form frequently on the polar front and are steered by the jet stream, so the weather is changeable as depressions and ridges of high pressure alternate.",
-        "Occasional anticyclones bring dry spells, most often in summer.",
-        "Tropical and polar maritime air masses are the most common.",
-        "Vegetation is deciduous woodland and grass on brown earths.",
-        "Eastwards the oceanic influence weakens, and the climate grades into the continental climate of central and eastern Europe (see the note Physical regions)."
+        "Most rain is frontal (cyclonic, produced where warm air rises over cold air in a depression), with relief rain on west-facing mountains; amounts fall from west to east because the air has already lost moisture.",
+        "The weather is changeable because depressions (low-pressure systems) and ridges of high pressure alternate.",
+        "Occasional anticyclones (high-pressure systems with sinking air) bring dry spells, most often in summer.",
+        "Vegetation is deciduous woodland (trees that shed leaves in winter) and grass on brown earths (fertile, mid-brown soils)."
+      ],
+      "tip": "Contrast this with the continental climate: Ireland's maximum is in autumn and winter."
+    },
+    {
+      "h": "Cool temperate oceanic climate: reasons for the mild, wet, changeable weather",
+      "b": "Each feature of the climate has a cause in the atmosphere or ocean. Wind, sea, pressure systems and air masses work together.",
+      "points": [
+        "Prevailing south-westerly winds bring maritime air (air that has crossed the sea, so it is mild and moist) off the Atlantic.",
+        "The North Atlantic Drift, the extension of the Gulf Stream (a warm ocean current), warms winter air and seas.",
+        "The sea heats and cools slowly, moderating the seasons, so winters are not very cold and summers are not hot.",
+        "Depressions form frequently on the polar front (where warm tropical and cold polar air meet) and are steered by the jet stream (fast high-altitude winds), so they bring bursts of rain across the region.",
+        "Tropical and polar maritime air masses (the warm one from the south, the cold one from the north, both moist) are the most common.",
+        "Eastwards the oceanic influence weakens, because the sea is further away, and the climate grades into the continental climate of central and eastern Europe. There is more on this in Physical regions."
       ]
     },
     {
       "h": "Mediterranean climate: location and temperature",
-      "b": "The Mediterranean climate lies on the west sides of continents: the Mediterranean Basin, central and southern California, central Chile, the Cape Town area of South Africa, and south-western and southern Australia (around Perth and Adelaide).",
+      "b": "The Mediterranean climate lies on the west sides of continents between about 30° and 40° (some places to about 45°). It has hot summers and mild winters.",
       "points": [
+        "Locations: the lands around the Mediterranean Sea (for example southern Italy, southern Spain and Greece), central and southern California, central Chile, the Cape Town area of South Africa, and south-western and southern Australia (around Perth and Adelaide).",
         "Summers are hot: lowland July means are about 25 °C or more, for example in southern Italy.",
         "Winters are mild: coastal January means are about 9–12 °C, and frost is rare on the coasts.",
-        "Inland and upland areas have hotter summers and colder winters than the coast."
+        "Inland and upland areas have hotter summers and colder winters than the coast, because the sea has less moderating effect there."
       ]
     },
     {
       "h": "Mediterranean climate: precipitation and pressure",
+      "b": "Winter rain and summer drought both come from the seasonal shift of the pressure belts. The summer subtropical high (a belt of high pressure with sinking air) is the key to the explanation.",
       "points": [
-        "Rainfall is moderate, under 600 mm a year on parts of the Puglia lowlands and Sicily, and most of it falls from October to March.",
+        "Rainfall is moderate (commonly about 400–900 mm), under 600 mm a year on parts of the Puglia lowlands and Sicily, and most of it falls from October to March.",
         "Summers are dry, with drought for several months; rain often falls in intense downpours that cause flash floods and soil erosion.",
-        "In summer the subtropical high pressure belt moves poleward over the region, bringing sinking, warming air, clear skies and no rain.",
+        "In summer the subtropical high (the Azores High in the Mediterranean, the North Pacific High in California) moves poleward over the region, bringing sinking, warming air, clear skies and no rain.",
         "In winter the pressure belts shift towards the equator, so the westerlies and their depressions bring rain; the warm Mediterranean Sea also spawns its own winter depressions.",
         "On some of these coasts cold currents (the California, Humboldt, Benguela and Canary currents) keep summers cooler and drier.",
-        "The sirocco is a hot, dry, dusty wind from the Sahara; the mistral and the bora are cold winds (see Atmospheric and oceanic circulation)."
-      ]
+        "The sirocco is a hot, dry, dusty wind from the Sahara; the mistral and the bora are cold winds."
+      ],
+      "tip": "Mediterranean summers are dry because the subtropical high moves poleward, not because of the Sahara or cold currents alone. Winter rain comes from westerly depressions."
     },
     {
       "h": "Mediterranean climate: vegetation, hazards and human response",
+      "b": "Dry summers shape both the plants that survive and the dangers people face.",
       "points": [
-        "Drought-tolerant vegetation: olives, vines and cork oak, and maquis scrub; citrus grows where it is irrigated.",
+        "Drought-tolerant vegetation: olives, vines and cork oak, and maquis scrub (low, tough evergreen shrubs); citrus grows where it is irrigated.",
         "Hazards: summer water shortage, and wildfires in hot, dry, windy summers.",
         "The Mati wildfire near Athens, Greece, in July 2018 killed about 100 people, one of the deadliest wildfires in Europe.",
-        "Human response: water storage and irrigation, and tourism (see Climate and economic development)."
+        "Human response: water storage and irrigation, and tourism. There is more on this in Climate and economic development."
       ]
     },
     {
       "h": "Continental climate: location and temperature",
-      "b": "The continental climate lies in the interiors of the large northern-hemisphere continents, far from the sea: across central and eastern Europe and Russia (Moscow), the steppes of Ukraine and southern Russia, the Canadian Prairies and the Great Plains of the USA. There is no large equivalent in the southern hemisphere, which has too little land at these latitudes.",
+      "b": "The continental climate lies in the interiors of large northern-hemisphere continents between about 40° and 60° N, far from the sea. With no ocean to moderate the temperature, it has the largest annual ranges on earth.",
       "points": [
+        "Locations: central and eastern Europe into Russia (Moscow) and Ukraine, the steppes of Ukraine and southern Russia, Central Asia, the Canadian Prairies, and the US Midwest and Great Plains.",
+        "There is no large equivalent in the southern hemisphere, which has too little land at these latitudes.",
         "Winters are very cold, with monthly means well below 0 °C for several months: Moscow about −7 °C in January and Winnipeg about −16 °C in January.",
         "Summers are warm to hot: Moscow about 19 °C and Winnipeg about 20 °C in July.",
         "The annual range is large and increases with distance from the sea; Verkhoyansk has an annual range of over 60 °C.",
         "Spring and autumn are short."
-      ]
+      ],
+      "tip": "The largest annual ranges are in continental interiors. Give approximate Moscow and Winnipeg figures, with Verkhoyansk as the extreme."
     },
     {
       "h": "Continental climate: precipitation and reasons",
+      "b": "Precipitation is lower than on oceanic coasts and peaks in summer, the opposite of Ireland. The reasons are the land itself, the distance from moisture and the pressure systems.",
       "points": [
-        "Precipitation is low to moderate and decreases into the interior: Moscow receives about 600–700 mm a year, with a summer maximum.",
-        "The summer maximum comes from convectional thunderstorms as the land heats up; winter precipitation falls as snow, which lies for months.",
+        "Precipitation is low to moderate (roughly 250–750 mm) and decreases into the interior: Moscow receives about 600–700 mm a year, with a summer maximum.",
+        "The summer maximum comes from convectional thunderstorms (rising currents of heated air) as the land heats up; winter precipitation falls as snow, which lies for months.",
         "Continentality: the land heats and cools quickly, and there is no sea to moderate the temperature.",
-        "Distance from the oceans: the westerlies have lost most of their moisture crossing the land, and mountains block Pacific air from reaching the interior.",
-        "The winter Siberian High, a cold, dry, clear thermal anticyclone, sits over the continent; North America has an equivalent.",
+        "Distance from the oceans: the westerlies have lost most of their moisture crossing Europe, and in North America the Rockies block Pacific air from reaching the interior.",
+        "The winter Siberian High, a cold, dry, clear thermal anticyclone (high pressure caused by intense cooling of the land), sits over the continent; North America has an equivalent.",
         "Summer low pressure over the heated land draws in some moist air."
-      ]
+      ],
+      "tip": "The continental maximum is in summer (convection), unlike Ireland's autumn and winter maximum."
     },
     {
       "h": "Continental climate: extremes, vegetation and human response",
+      "b": "Extreme temperatures and a short growing season create hazards, but the open grasslands also support large-scale farming.",
       "points": [
-        "Hazards: blizzards; cold waves of arctic air; summer heatwaves, drought and dust storms, as in the Dust Bowl of the 1930s on the Great Plains (see Human interaction: mass movement); floods when the spring snowmelt comes.",
-        "Vegetation is temperate grassland (steppe and prairie) on chernozems, the black soils of the steppes of Ukraine and southern Russia, the Prairies and the Pampas (see Soil processes and the global pattern of soils).",
-        "Human response: wheat and maize belts on the grassland; boreal forest further north."
+        "Hazards: blizzards; cold waves of arctic air; summer heatwaves, drought and dust storms, as in the Dust Bowl of the 1930s on the Great Plains; floods when the spring snowmelt comes.",
+        "Vegetation is temperate grassland (steppe and prairie) on chernozems, the black, humus-rich soils of the steppes of Ukraine and southern Russia, the Prairies and the Pampas.",
+        "Human response: wheat and maize belts on the grassland; boreal forest (northern coniferous forest) further north."
       ]
     },
     {
       "h": "Hot desert climate (compact)",
-      "b": "Hot deserts lie on the west sides of continents, for example the Sahara, the Atacama and the Namib (see One major biome in detail).",
+      "b": "Hot deserts lie about 15–30° N and S on the west sides of continents, for example the Sahara, Arabian, Namib, Atacama, Sonoran and Mojave, and Australian deserts. They have the highest temperatures on earth and very little rain.",
       "points": [
-        "Rainfall is very low and unreliable because of sinking air in the subtropical high pressure belt, offshore trade winds, cold currents and rain shadows.",
-        "The highest air temperatures on earth were recorded: 56.7 °C at Furnace Creek, Death Valley, on 10 July 1913, a WMO record.",
+        "Rainfall is very low (under about 250 mm) and unreliable because of sinking air in the subtropical high pressure belt, offshore trade winds (blowing from land to sea), cold currents and rain shadows.",
+        "The highest air temperatures on earth were recorded: 56.7 °C at Furnace Creek, Death Valley, on 10 July 1913, a WMO record, because of clear skies and high sun.",
         "The daily range is very large, often 20–30 °C or more, because dry, cloudless air lets heat escape at night.",
-        "Fog forms on coasts with cold currents.",
+        "Fog forms on coasts with cold currents, because the cold water chills the air above it.",
         "The Sahara covers about 9 million km², the world's largest hot desert; the Atacama is the driest non-polar desert.",
         "Cold currents on desert coasts: the Canary (Sahara), Benguela (Namib), Humboldt (Atacama) and California (Sonoran coast)."
-      ]
+      ],
+      "tip": "The hottest temperatures are in deserts. There is more on this in One major biome in detail."
     },
     {
       "h": "Climate changes across space",
+      "b": "Climate is not the same everywhere because the controls on it vary from place to place. Each kind of change across space has its own cause.",
       "points": [
-        "From equator to pole: temperature falls and seasonal contrasts grow with latitude.",
+        "From equator to pole (latitude): temperature falls and seasonal contrasts grow with latitude.",
         "From coast to interior: continentality increases the annual range; Ireland's annual range is about 10 °C, while Verkhoyansk's is over 60 °C.",
         "From west to east coasts: cold currents cool and dry west coasts, while warm currents such as the North Atlantic Drift warm them.",
         "With altitude: temperature falls with height, so high mountains have a vertical sequence of climates, and snow lies on high ground even near the equator.",
         "Across a mountain range: the windward side gets relief rain, while the leeward side lies in a rain shadow, as the Deccan does in India.",
         "Climate boundaries are transition zones that shift: the Sahel lies between the desert and wetter land and moves with the ITCZ from year to year, with rainfall of roughly 200–600 mm."
-      ]
+      ],
+      "tip": "Climate characteristics changing over time and space is a recurring 80-mark question. For space, give latitude, continentality, currents and altitude, each with an example."
     },
     {
       "h": "Causes of climate change over time",
+      "b": "Climate changes over very different timescales, and each timescale has its own natural causes. Human activity has added a further cause in recent times.",
       "points": [
         "Timescales: long-term change over millions of years (plate movement, mountain building); glacial cycles over tens to hundreds of thousands of years; centuries (the Little Ice Age); years (El Niño and volcanic eruptions); and recent human-caused warming.",
-        "Milankovitch orbital cycles (see Ice Ages below).",
-        "Changes in solar output.",
-        "Volcanic eruptions: sulphate aerosols reflect sunlight and cool the earth for a year or two; after Mount Pinatubo, Philippines, erupted in June 1991, global average temperature fell by about 0.5 °C for about a year (1992).",
-        "Plate tectonics: moving continents and opening or closing seaways change ocean currents.",
-        "Changes in ocean circulation.",
-        "Feedbacks: the ice–albedo feedback, and CO2 and methane released or absorbed by oceans and permafrost."
+        "Milankovitch orbital cycles (regular changes in the earth's orbit and tilt, described under Ice Ages causes below).",
+        "Changes in solar output (the energy the sun gives off), which means the earth receives more or less heat.",
+        "Volcanic eruptions: sulphate aerosols (tiny airborne particles) reflect sunlight and cool the earth for a year or two; after Mount Pinatubo, Philippines, erupted in June 1991, global average temperature fell by about 0.5 °C for about a year (1992).",
+        "Plate tectonics: moving continents and opening or closing seaways change ocean currents, so heat is redistributed around the world.",
+        "Changes in ocean circulation, because currents carry heat around the globe.",
+        "Feedbacks (effects that amplify a change): the ice–albedo feedback (albedo is how much sunlight a surface reflects), and CO2 and methane released or absorbed by oceans and permafrost (permanently frozen ground)."
       ]
     },
     {
       "h": "Human cause of climate change",
+      "b": "Since the Industrial Revolution people have become a cause of climate change.",
       "points": [
-        "The enhanced greenhouse effect from burning fossil fuels, deforestation and agriculture; land-use change and aerosols also alter the climate. The sources of each gas are in the note Environmental pollution."
+        "The enhanced greenhouse effect (extra heat trapped by added greenhouse gases) comes from burning fossil fuels, deforestation and agriculture; land-use change and aerosols also alter the climate. There is more on this in Environmental pollution."
       ]
     },
     {
       "h": "How past climates are known",
+      "b": "Nobody measured temperature in the distant past, so scientists use natural records that preserve clues, called proxies. Each source reaches back a different distance in time.",
       "points": [
-        "Ice cores: bubbles of ancient air record past CO2, and oxygen isotopes record past temperature; Antarctic ice cores (EPICA Dome C) record about 800,000 years of climate and CO2.",
-        "Ocean-floor sediments.",
-        "Tree rings.",
+        "Ice cores: bubbles of ancient air record past CO2, and oxygen isotopes (forms of oxygen of different weight) record past temperature; Antarctic ice cores (EPICA Dome C) record about 800,000 years of climate and CO2.",
+        "Ocean-floor sediments, because layers of mud build up over time and keep a record of past conditions.",
+        "Tree rings, because trees grow a new ring each year and the rings record the conditions of that year.",
         "Pollen preserved in peat bogs and lake muds; Irish bogs record changes in vegetation, and therefore climate, since the Ice Age.",
-        "Glacial landforms (see Glacial processes, patterns and associated landforms).",
+        "Glacial landforms, the features left by ice, show where ice once lay.",
         "Historical records such as harvest dates, frost fairs and ships' logs; instrument records since the 19th century."
       ]
     },
     {
       "h": "Ice Ages: the Quaternary glaciation",
+      "b": "The first of the three climate-change settings is the Ice Ages. The present era has swung repeatedly between very cold and warmer conditions.",
       "points": [
         "The Quaternary glaciation began about 2.6 million years ago; since then the earth has swung between long glacial periods and shorter, warm interglacials.",
         "Over the last 800,000 years the cycle has been about 100,000 years long; we now live in an interglacial.",
-        "At the Last Glacial Maximum, about 20,000 years ago, ice sheets covered much of North America and northern Europe, including Ireland.",
-        "Global sea level was about 120 m lower than today, exposing land bridges between islands and continents.",
-        "Global average temperature was several degrees colder, and the climate belts were pushed towards the equator."
-      ]
+        "At the Last Glacial Maximum (the coldest point of the last glacial period), about 20,000 years ago, ice sheets covered much of North America and northern Europe, including Scandinavia, Britain and Ireland.",
+        "Global sea level was about 120 m lower than today, because water was locked in ice, exposing land bridges between islands and continents (for example between Britain and continental Europe).",
+        "Global average temperature was several degrees colder, so the climate belts were pushed towards the equator."
+      ],
+      "tip": "Ice Age sea level was lower, not higher, because water was locked up in ice."
     },
     {
       "h": "Ice Ages: Ireland and the effects of glaciation",
+      "b": "Ireland was covered by ice, and the landscape still carries the evidence. The effects of the Ice Ages also reached well beyond the ice itself.",
       "points": [
         "Ireland had two main cold stages, the Munsterian and the Midlandian. The Munsterian ice covered almost all of Ireland; the Midlandian ice had gone by about 10,000 years ago.",
-        "The evidence is in the landscape of drumlins, eskers, corries and U-shaped valleys (see Glacial processes, patterns and associated landforms).",
-        "Isostatic rebound and raised beaches are after-effects of the ice (see Isostasy).",
-        "Effects beyond the ice: drier, windier climates; deserts expanded; loess was blown from outwash plains; sea level fell; plants and animals migrated towards the equator and recolonised the land afterwards."
+        "The evidence is in the landscape of drumlins, eskers, corries and U-shaped valleys, all landforms made by ice.",
+        "Isostatic rebound (land rising after the weight of ice is removed) and raised beaches are after-effects of the ice.",
+        "Beyond the ice, climates were drier and windier and deserts expanded, which is why loess was later blown about.",
+        "Loess (wind-blown dust) was blown from outwash plains (the gravel plains laid down by meltwater beyond the ice).",
+        "Sea level fell, and plants and animals migrated towards the equator to escape the cold and recolonised the land afterwards."
       ]
     },
     {
       "h": "Ice Ages: causes",
+      "b": "Small changes in the earth's orbit start an ice age, and feedbacks make the change much bigger. The orbital changes alter the distribution of sunlight, not the total amount.",
       "points": [
         "Milankovitch cycles, named after Milutin Milanković, a Serbian scientist who calculated them in the early 20th century, change the distribution of sunlight by latitude and season more than its total amount.",
         "Eccentricity (the shape of the orbit) varies over about 100,000 years; obliquity (the tilt, varying between about 22° and 24.5°) over about 41,000 years; precession (the wobble of the axis) over roughly 19,000–26,000 years.",
         "When northern summers are cool, snow survives the winter and ice sheets grow.",
-        "Feedbacks amplify the small orbital change: more ice raises albedo, and colder oceans absorb more CO2, lowering greenhouse gases.",
-        "Ice cores show CO2 near 180 ppm at glacial maxima and about 280 ppm in interglacials.",
-        "Changes in the Atlantic circulation.",
-        "Land near the North Pole allows ice sheets to build."
-      ]
+        "Feedbacks amplify the small orbital change: more ice raises albedo (reflects more sunlight), and colder oceans absorb more CO2, lowering greenhouse gases.",
+        "Ice cores show CO2 near 180 ppm (parts per million) at glacial maxima and about 280 ppm in interglacials.",
+        "Changes in the Atlantic circulation, which means a change in how heat is carried to the north.",
+        "Land near the North Pole allows ice sheets to build, because snow can pile up on land but not on open sea."
+      ],
+      "tip": "Milankovitch cycles don't change the total sunlight much; they change its distribution by latitude and season. Feedbacks do the rest."
     },
     {
       "h": "Shorter cold and warm periods in historical times",
+      "b": "Within the last thousand years there were warm and cold spells that are recorded in writing. Both are regional, mainly in the North Atlantic and Europe, and approximate in date.",
       "points": [
         "Medieval Warm Period, roughly AD 950–1250: a regional warm phase mainly in the North Atlantic and Europe. Vines were grown further north in England than in the colder centuries that followed.",
         "Norse settlers led by Erik the Red settled Greenland from about AD 985; the settlements were abandoned in the 15th century as the climate cooled.",
@@ -261,82 +305,96 @@
         "The Maunder Minimum (about 1645–1715), a period with very few sunspots, coincided with some of the coldest decades.",
         "In Ireland the Great Frost of the winter of 1739–40 was followed by famine in 1740–41.",
         "The eruption of Tambora, Indonesia, in April 1815 led to 1816 being the year without a summer, with harvest failures across Europe and north-eastern North America."
-      ]
+      ],
+      "tip": "Keep the Little Ice Age and the Medieval Warm Period regional and approximate in date; don't give global temperature figures for them."
     },
     {
       "h": "Global warming: evidence",
+      "b": "The second climate-change setting is the warming of the 20th century and the present. The evidence comes from many independent measurements.",
       "points": [
         "CO2 was about 280 ppm before the Industrial Revolution and is over 420 ppm by the mid-2020s; it has been measured at Mauna Loa, Hawaii, since 1958.",
         "Global average surface temperature has risen about 1.1–1.2 °C since the late 1800s (IPCC).",
         "2024 was the warmest year on record and the first calendar year more than 1.5 °C above pre-industrial levels (Copernicus).",
         "Arctic summer sea ice has shrunk by about 13% per decade since satellite records began in 1979.",
         "Global sea level rose about 20 cm between 1901 and 2018 (IPCC).",
-        "Glaciers are retreating in most mountain regions.",
+        "Glaciers are retreating in most mountain regions, so this is further evidence of warming.",
         "Ireland's average temperature has risen about 0.9 °C since 1900 (EPA and Met Éireann)."
-      ]
+      ],
+      "tip": "Use these checked figures as evidence, and don't give 2100 temperature or sea-level projections."
     },
     {
       "h": "Global warming: mechanism and feedbacks",
+      "b": "Warming happens because more greenhouse gases hold more heat in the climate system. Feedbacks then speed it up.",
       "points": [
-        "The enhanced greenhouse effect: more CO2, methane and nitrous oxide absorb more outgoing long-wave radiation, so the heat budget is out of balance and the earth warms until a new balance is reached.",
-        "Most of the extra heat goes into the ocean.",
+        "The enhanced greenhouse effect: more CO2, methane and nitrous oxide absorb more outgoing long-wave radiation (heat given off by the earth), so the heat budget is out of balance and the earth warms until a new balance is reached.",
+        "Most of the extra heat goes into the ocean, so the sea warms and expands.",
         "Ice–albedo feedback: melting ice exposes dark ocean, which absorbs more heat; this is why the Arctic is warming fastest.",
-        "Water vapour feedback: warmer air holds more water vapour, itself a greenhouse gas.",
-        "Permafrost thaw releases methane and CO2.",
-        "Reduced ocean CO2 uptake as the water warms."
+        "Water vapour feedback: warmer air holds more water vapour, itself a greenhouse gas, so warming leads to more warming.",
+        "Permafrost thaw releases methane and CO2, so warming leads to more greenhouse gases.",
+        "Reduced ocean CO2 uptake as the water warms, so more CO2 stays in the air."
       ]
     },
     {
       "h": "Global warming: effects on climate patterns",
+      "b": "A warmer atmosphere and ocean change how climate is spread across the world. The effects follow from more heat and more water vapour in the system.",
       "points": [
-        "A more intense hydrological cycle: heavier downpours and more severe droughts.",
+        "A more intense hydrological cycle (the cycle of evaporation, rain and runoff): heavier downpours and more severe droughts.",
         "More intense heatwaves: the European heatwave of summer 2003 caused an estimated 70,000 or so extra deaths.",
         "A poleward shift of climate belts and storm tracks, and an expansion of the subtropical dry zones.",
-        "A possible weakening of the Atlantic circulation (AMOC) (see Atmospheric and oceanic circulation).",
-        "Stronger tropical cyclones.",
+        "A possible weakening of the Atlantic circulation (AMOC, the ocean conveyor that carries warm water northwards).",
+        "Stronger tropical cyclones, because a warmer ocean supplies more heat to the storm.",
         "Sea-level rise from the thermal expansion of warmer water and the melting of land ice."
       ]
     },
     {
       "h": "Global warming: effects on Ireland and responses",
+      "b": "Ireland is affected through temperature, rainfall and storms. The world has responded through scientific assessment and international agreement.",
       "points": [
-        "Ireland: warmer temperatures; wetter winters and more flooding; a risk of summer drought, as in the summer of 2018; stronger storms and coastal erosion (see Environmental pollution).",
-        "The IPCC was set up in 1988; its Sixth Assessment Report (2021) stated that it is unequivocal that human influence has warmed the atmosphere, ocean and land.",
-        "The Paris Agreement of 2015 aims to keep warming well below 2 °C and to pursue 1.5 °C; policy detail is in the note Environmental pollution."
+        "Ireland: warmer temperatures; wetter winters and more flooding; a risk of summer drought, as in the summer of 2018; stronger storms and coastal erosion.",
+        "The IPCC (the Intergovernmental Panel on Climate Change) was set up in 1988; its Sixth Assessment Report (2021) stated that it is unequivocal that human influence has warmed the atmosphere, ocean and land.",
+        "The Paris Agreement of 2015 aims to keep warming well below 2 °C and to pursue 1.5 °C. There is more on this in Environmental pollution."
       ]
     },
     {
       "h": "El Niño: normal conditions in the Pacific (Walker circulation)",
+      "b": "The third climate-change setting is El Niño. To understand it you first need the normal pattern across the equatorial Pacific, known as the Walker circulation.",
       "points": [
-        "Strong south-east trade winds push warm surface water westward across the Pacific, piling up a warm pool near Indonesia, where sea level is higher.",
-        "Warm, moist air rises over the warm pool, producing low pressure and heavy rain. Air returns eastward at height and sinks over the cool eastern Pacific, giving high pressure and dry conditions on the coast of Peru.",
-        "Cold, nutrient-rich water upwells off Peru (the Humboldt Current), supporting the Peruvian anchoveta fishery, the largest single-species fishery in the world.",
+        "Strong south-east trade winds push warm surface water westward across the Pacific, piling up a warm pool near Indonesia and northern Australia, where sea level is higher.",
+        "Warm, moist air rises over the warm pool, producing low pressure and heavy rain. Air returns eastward at height and sinks over the cool eastern Pacific, giving high pressure and dry conditions on the coast of Peru and northern Chile.",
+        "Cold, nutrient-rich water upwells (rises from depth) off Peru (the Humboldt Current), supporting the Peruvian anchoveta fishery, the largest single-species fishery in the world.",
         "The Walker circulation is named after Gilbert Walker, a British scientist who worked in India in the early 20th century."
-      ]
+      ],
+      "tip": "Diagram cue: draw two cross-sections of the equatorial Pacific, normal year and El Niño year, showing the trade winds, warm pool, thermocline, rising and sinking air and rain."
     },
     {
       "h": "El Niño: how it develops",
+      "b": "In an El Niño year the normal pattern breaks down. The warm water, and with it the rain, moves east.",
       "points": [
         "Every 2–7 years the trade winds weaken or even reverse, and the warm water flows back east towards South America.",
-        "The thermocline deepens in the east and upwelling stops; sea-surface temperatures in the central and eastern Pacific rise well above normal; the zone of rising air and rain shifts east.",
+        "The thermocline (the boundary between warm surface water and cold deep water) deepens in the east and upwelling stops; sea-surface temperatures in the central and eastern Pacific rise well above normal; the zone of rising air and rain shifts east.",
+        "It usually begins around the end of the year and lasts about 9–12 months, sometimes longer.",
         "El Niño is a natural variation; scientists are still researching whether global warming changes it.",
-        "Named by Peruvian fishermen. Together with the Southern Oscillation, the see-saw of air pressure across the Pacific, it is called ENSO."
-      ]
+        "It was named by Peruvian fishermen after the Christ child because the warm water appeared around Christmas. Together with the Southern Oscillation, the see-saw of air pressure across the Pacific studied by Gilbert Walker, it is called ENSO."
+      ],
+      "tip": "El Niño is warming of the central and eastern Pacific (off Peru), not the western Pacific. Present it as a natural variation, not as caused by global warming."
     },
     {
       "h": "El Niño: effects",
+      "b": "Because the rain moves east, regions that are normally wet or dry swap roles. These distant effects are called teleconnections.",
       "points": [
-        "Heavy rain and floods in coastal Peru and Ecuador, which are normally dry.",
-        "Collapse of the anchoveta catch and the fishmeal industry, with seabird deaths.",
-        "Drought in Indonesia and the Philippines, with crop failure and forest fires.",
-        "Often a weaker Indian monsoon.",
-        "Fewer Atlantic hurricanes and more in the central and eastern Pacific.",
+        "Heavy rain and floods in coastal Peru and Ecuador, which are normally dry, because the zone of rising air and rain has shifted east.",
+        "Collapse of the anchoveta catch and the fishmeal industry, with seabird deaths, because the cold, nutrient-rich water no longer upwells.",
+        "Drought in Indonesia, the Philippines and eastern Australia, with crop failure, bushfires, forest fires and haze.",
+        "Often a weaker Indian monsoon and drought in southern Africa, so these are El Niño effects far from the Pacific.",
+        "Fewer Atlantic hurricanes and more in the central and eastern Pacific, so the hurricane pattern shifts with the warm water.",
         "Global average temperature rises temporarily, and strong El Niño years set temperature records.",
         "Effects on Ireland and Europe are weak and uncertain."
-      ]
+      ],
+      "tip": "El Niño causes drought in Indonesia and Australia and floods in Peru. Don't claim it causes Irish weather events: its effect on Ireland is weak and unproven."
     },
     {
       "h": "El Niño: named events",
+      "b": "Past El Niño events show how large the effects can be.",
       "points": [
         "1972–73: an El Niño, combined with overfishing, caused the collapse of the Peruvian anchoveta fishery.",
         "1982–83 and 1997–98: very strong El Niños. In 1997–98 coastal Peru and Ecuador had severe floods, and drought in Indonesia allowed huge forest fires whose smoke haze spread across South-East Asia.",
@@ -346,18 +404,21 @@
     },
     {
       "h": "La Niña: the opposite phase",
+      "b": "La Niña is the reverse of El Niño: the normal Pacific pattern becomes stronger than usual, and the weather effects swap over.",
       "points": [
-        "Stronger trade winds, a cooler than normal eastern Pacific and stronger upwelling.",
-        "Heavier rain in Indonesia and in Queensland, Australia, drought in Peru, and more Atlantic hurricanes.",
+        "Stronger trade winds, a cooler than normal eastern Pacific and stronger upwelling, so cold water reaches the surface off Peru.",
+        "Heavier rain in Indonesia and in Queensland, Australia, drought in Peru and the south-western USA, and more Atlantic hurricanes.",
         "The strong La Niña of 2010–11 brought record rain and floods to Queensland, Australia, including the Brisbane flood of January 2011."
-      ]
+      ],
+      "tip": "La Niña is the reverse of El Niño: floods in Indonesia and Australia, drought in Peru."
     },
     {
       "h": "Why El Niño matters",
+      "b": "El Niño is on the syllabus because it shows two parts of the climate system acting as one.",
       "points": [
-        "It shows the atmosphere and ocean acting as one linked system (see The atmosphere and oceans as linked systems).",
+        "It shows the atmosphere and ocean acting as one linked system, because a change in ocean temperature alters the winds and rain above it.",
         "It shows how a change in ocean circulation changes weather around the world (teleconnections).",
-        "Monitoring by buoys and satellites in the equatorial Pacific gives months of warning."
+        "Monitoring by buoys and satellites in the equatorial Pacific gives months of warning, so countries can prepare for floods and drought."
       ]
     }
   ],

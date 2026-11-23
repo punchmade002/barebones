@@ -6,123 +6,147 @@
   "notes": [
     {
       "h": "What mass movement is",
+      "b": "Slopes are never completely still. Mass movement is the way weathered material shifts downhill, and everything else in this subsection (the processes, the factors and the case studies) is a variation on it.",
       "points": [
-        "Mass movement (mass wasting) is the downslope movement of weathered material, such as regolith, soil, rock, mud, peat or snow, under the influence of gravity.",
-        "No transporting agent such as a river, glacier or wind is needed. Weathering supplies the material that moves.",
-        "Gravity pulls material downslope. Friction, cohesion and plant roots resist it. Movement happens when the downslope force exceeds the resistance.",
-        "Processes are classed by speed (slow or fast), by water content (dry or wet) and by type of movement (heave, slide, flow or fall)."
-      ]
+        "Mass movement (also called mass wasting) is the downslope movement of weathered material, such as regolith (the loose broken rock and soil that covers solid rock), soil, rock, mud, peat or snow, under the influence of gravity.",
+        "No transporting agent such as a river, glacier or wind is needed, because gravity does the work. Weathering (the breakdown of rock where it lies) supplies the material that moves.",
+        "Gravity pulls material downslope. Friction (grip between surfaces), cohesion (particles sticking together) and plant roots resist it. Movement happens when the downslope force exceeds the resistance.",
+        "Processes are classed, so that they can be compared, by speed (slow or fast), by water content (dry or wet) and by type of movement (heave, slide, flow or fall)."
+      ],
+      "tip": "You may be asked whether a named process is fast or slow. Soil creep and solifluction are slow; rockfall, landslide, slump, mudflow, lahar, bog burst and avalanche are fast."
     },
     {
       "h": "Where and when mass movement happens",
+      "b": "Mass movement is not even across the landscape or through the year. It varies in space and in time, which is the syllabus idea of processes differing in intensity (how strong) and frequency (how often).",
       "points": [
-        "It is most intense on steep, wet and unvegetated slopes.",
-        "Its frequency rises after heavy rain, snowmelt, earthquakes and seasonal freeze-thaw."
+        "In space, it is most intense on steep, wet and unvegetated slopes, because steepness increases the pull downslope while water and bare ground reduce the resistance.",
+        "In time, its frequency rises after heavy rain, snowmelt, earthquakes and seasonal freeze-thaw (the repeated freezing and thawing of water in rock cracks)."
       ]
     },
     {
       "h": "Soil creep (slow)",
-      "b": "The slowest mass movement, moving soil by a few millimetres to centimetres a year.",
+      "b": "The slowest mass movement, moving soil by a few millimetres to centimetres a year. It is too slow to watch, so you recognise it from its effects.",
       "points": [
-        "Soil particles are lifted at right angles to the slope by wetting (swelling) or by freezing (frost heave).",
-        "On drying or thawing, the particles drop vertically, so each cycle moves them a little further downslope.",
+        "Soil particles are lifted at right angles to the slope by wetting (swelling) or by freezing (frost heave, the upward push of freezing ground).",
+        "On drying or thawing, the particles drop vertically under gravity, so each cycle moves them a little further downslope.",
         "Evidence: terracettes (small steps on grassy slopes), bent tree trunks, tilted fences, walls and poles, soil piled up behind walls, and cracked roads.",
-        "Diagram: zigzag path of a particle, lifted at right angles to the slope and dropped vertically."
-      ]
+        "Diagram: draw the zigzag path of a particle, lifted at right angles to the slope and dropped vertically."
+      ],
+      "tip": "Soil creep is slow. Be ready to name it as a slow example, and to explain the lift-and-drop movement for it."
     },
     {
       "h": "Solifluction (slow, periglacial)",
+      "b": "Solifluction is a slow flow of waterlogged soil in cold regions near ice. It works because frozen ground below stops water draining away.",
       "points": [
-        "In periglacial areas the surface layer thaws in summer above permanently frozen ground, called permafrost.",
-        "The saturated layer cannot drain, so it flows slowly downhill, forming lobes and terraces.",
-        "Solifluction was widespread in Ireland at the end of the last glaciation."
-      ]
+        "In periglacial areas (cold areas bordering ice sheets and glaciers) the surface layer thaws in summer above permanently frozen ground, called permafrost.",
+        "The saturated layer cannot drain, because the frozen ground beneath is impermeable, so it flows slowly downhill, forming lobes (tongue-shaped bulges) and terraces.",
+        "Solifluction was widespread in Ireland at the end of the last glaciation, when the climate was periglacial."
+      ],
+      "tip": "Solifluction is a slow process, like soil creep."
     },
     {
       "h": "Rockfall and landslide (fast)",
+      "b": "Rockfall and landslide both move solid rock quickly. The difference is that rockfall is a free fall from a cliff, while a landslide is a slide along a plane.",
       "points": [
-        "Rockfall: blocks loosened by freeze-thaw, or undercut by the sea or a river, fall freely from a steep cliff. They collect as scree (talus) at the foot.",
-        "Landslide (rockslide): a mass of rock or debris slides suddenly along a flat plane, such as a bedding plane or joint sloping in the same direction as the slope.",
-        "Landslides often follow heavy rain, which lubricates the plane, or an earthquake, which shakes it loose."
-      ]
+        "Rockfall: blocks loosened by freeze-thaw, or undercut by the sea or a river (worn away at the base), fall freely from a steep cliff. They collect as scree (also called talus) at the foot.",
+        "Landslide (rockslide): a mass of rock or debris slides suddenly along a flat plane, such as a bedding plane (a layer boundary in sedimentary rock) or joint (a crack) sloping in the same direction as the slope.",
+        "Landslides often follow heavy rain, which lubricates the plane so the rock slips more easily, or an earthquake, which shakes it loose."
+      ],
+      "tip": "Keep landslide and slump separate. A landslide moves along a flat plane."
     },
     {
       "h": "Slump (fast, rotational)",
+      "b": "A slump is a fast slide in which the moving mass turns as it goes, because the surface it slides on is curved rather than flat.",
       "points": [
-        "Saturated material, often clay over or under permeable rock, slides along a curved (concave) slip plane and rotates backward.",
+        "Saturated material, often clay over or under permeable rock (rock that lets water through), slides along a curved (concave) slip plane and rotates backward.",
         "The slump leaves a crescent-shaped scar (scarp) at the top, a back-tilted block and a bulging toe at the foot.",
-        "Slumps are common on clay cliffs undercut by the sea.",
+        "Slumps are common on clay cliffs undercut by the sea, because the sea removes the support at the base, for example on the Antrim coast.",
         "A slump moves on a curved plane. A landslide moves on a flat plane."
-      ]
+      ],
+      "tip": "Slump is rotational, on a curved slip plane. Do not mix it up with a landslide or rockslide, which moves on a flat plane."
     },
     {
       "h": "Mudflow, lahar and avalanche (fast)",
+      "b": "These three fast flows each carry a wet or loose mass downhill: mud, volcanic mud, or snow and ice. All are triggered by a sudden supply of water or by disturbance.",
       "points": [
         "Mudflow: fine material (clay, silt, weathered rock or volcanic ash) saturated by heavy rain or snowmelt flows rapidly downhill like a liquid, often along valleys. It can bury settlements.",
         "Lahar: a volcanic mudflow of ash and water, from rain or from melted snow and ice on the volcano. It can travel very fast and far. The word is from Indonesia.",
         "Avalanche: a sudden, rapid slide of snow and ice down a steep mountain slope, triggered by heavy snowfall, rapid thaw or disturbance.",
-        "Ice avalanches occur when part of a glacier collapses."
-      ]
+        "Ice avalanches occur when part of a glacier collapses, such as at Marmolada in 2022."
+      ],
+      "tip": "Exams ask you to match photos to soil creep, rockfall, avalanche, mudflow, lahar and landslide, and to say whether each is fast or slow. Mudflow, lahar and avalanche are all fast."
     },
     {
       "h": "Bog burst (fast, peat slide)",
+      "b": "A bog burst is a fast mass movement of peat, common in the uplands of Ireland. Peat (partly rotted plant matter that builds up in waterlogged ground) on a slope fills with water and then slides.",
       "points": [
-        "Blanket bog on a slope becomes saturated after prolonged or intense rain.",
+        "Blanket bog (a thick layer of peat covering a hillside) on a slope becomes saturated after prolonged or intense rain.",
         "The peat gains weight, and its base loses grip on the underlying mineral soil or rock. The peat bursts and flows downhill as a black slurry.",
         "A bog burst blocks rivers, kills fish, and destroys roads, bridges and land.",
         "Bog bursts are common in the uplands of western and north-western Ireland."
-      ]
+      ],
+      "tip": "Bog burst is a fast process. If asked for a fast example, it is one you can back with Irish case studies."
     },
     {
       "h": "Factors: gradient, water and material",
+      "b": "Whether a slope moves, and how fast, depends on a set of factors. The first three are the slope angle, the water in the ground and what the slope is made of.",
       "points": [
-        "Gradient: the steeper the slope, the greater the downslope pull of gravity and the faster the movement. Gentle slopes favour creep; steep slopes favour falls and slides.",
-        "Water content: some water adds cohesion, but saturation fills the pores, adds weight, reduces friction and acts as a lubricant, so material flows.",
-        "Heavy or prolonged rain and snowmelt trigger most fast movements.",
-        "Clay becomes slippery and plastic when wet. Jointed or bedded rock dipping towards the slope slides.",
-        "Permeable rock over impermeable clay or shale concentrates water at the junction, as on the Antrim coast."
-      ]
+        "Gradient (slope angle): the steeper the slope, the greater the downslope pull of gravity and the faster the movement. Gentle slopes favour creep; steep slopes favour falls and slides.",
+        "Water content: some water adds cohesion, but saturation fills the pores (the tiny gaps between particles), adds weight, reduces friction and acts as a lubricant, so material flows.",
+        "Heavy or prolonged rain and snowmelt trigger most fast movements, because they saturate the slope.",
+        "Clay becomes slippery and plastic (easily moulded) when wet. Jointed or bedded rock dipping towards the slope slides.",
+        "Permeable rock over impermeable clay or shale (rock that water cannot pass through) concentrates water at the junction, as on the Antrim coast."
+      ],
+      "tip": "You may be asked to name two factors and explain one, such as slope or water. For a 30-mark question on one process, explain each factor for that process."
     },
     {
       "h": "Factors: vegetation, climate, undercutting and tectonics",
+      "b": "The remaining factors either hold a slope together or remove what supports it. Some are natural, some come from the climate, and one is human.",
       "points": [
         "Vegetation: roots bind soil and plants absorb water, so bare slopes move more easily.",
         "Climate and weathering: freeze-thaw loosens rock, heavy seasonal rainfall adds water, and periglacial climates produce solifluction.",
-        "Undercutting: erosion by the sea or a river at the base of a slope removes support.",
-        "Loading: extra weight at the top of a slope, from rock, buildings or spoil, increases the downslope force.",
+        "Undercutting: erosion by the sea or a river at the base of a slope removes support, so the material above is left unsupported.",
+        "Loading: extra weight at the top of a slope, from rock, buildings or spoil (waste rock), increases the downslope force.",
         "Tectonic activity: earthquakes and volcanic eruptions shake loose material and trigger landslides and lahars.",
-        "Human activity also affects slope stability (see the notes on Human interaction: mass movement)."
-      ]
+        "Human activity also affects slope stability. There is more on this in Human interaction: mass movement."
+      ],
+      "tip": "For one process, explain gradient, water, material, vegetation, climate, undercutting and human activity, and give an example."
     },
     {
       "h": "Case study: Antrim coast landslides",
+      "b": "The Antrim coast is an Irish example of landslides and slumps. Its layers of rock, hard on top of soft, explain why the slopes fail.",
       "points": [
         "Location: the Antrim coast between Larne and Cushendall, along the Antrim Coast Road (A2).",
         "Geology: hard basalt lies on chalk, which lies on soft Lias clay with other mudstones.",
         "Rainwater soaks through the jointed basalt and chalk and saturates the clay, which becomes slippery and plastic.",
         "The rock above slumps and rotates seaward in rotational slides, and clay flows out as mudflows. These have repeatedly blocked the coast road.",
         "Garron Point is a classic landslip site on this coast.",
-        "Responses: engineers have built retaining walls and drainage, and fitted rock-catch fences and netting to protect the road."
-      ]
+        "Responses, so that the road stays open: engineers have built retaining walls and drainage, and fitted rock-catch fences and netting to protect the road."
+      ],
+      "tip": "Exams may set a news article on a landslide and ask about its cause, preparation, effects and follow-on flood risk."
     },
     {
       "h": "Case study: bog bursts in Ireland",
+      "b": "Two Irish bog bursts show how rain-soaked peat can fail, one recent and one historic.",
       "points": [
         "Pollatomish (Dooncarton Mountain), Co. Mayo, 19 September 2003: an intense thunderstorm with very heavy rain triggered about 40 landslides and peat slides in a few hours.",
         "At Pollatomish, houses, roads, a bridge and a graveyard were damaged, and several families were evacuated.",
         "Knocknageeha, near Rathmore, Co. Kerry, December 1896: a bog burst swept away a house, killing a family of eight. It is the classic Irish bog burst."
-      ]
+      ],
+      "tip": "Questions on a bog burst news article ask about cause, preparation, effects and follow-on flood risk."
     },
     {
       "h": "Case study: Italy",
+      "b": "Italy gives two international examples: mudflows after heavy rain at Sarno, and a landslide into a reservoir at Vajont.",
       "points": [
-        "Sarno and neighbouring towns, Campania, southern Italy, 5–6 May 1998: after prolonged heavy rain, loose volcanic ash and soil on steep limestone slopes became saturated and slid off as fast mudflows into the towns below. About 160 people were killed.",
-        "Vajont Dam, northern Italy, 9 October 1963: a huge landslide from Monte Toc slid into the reservoir. The wave it sent over the dam destroyed the town of Longarone, killing about 2,000 people. The dam itself survived.",
+        "Sarno and neighbouring towns, Campania, southern Italy, 5-6 May 1998: after prolonged heavy rain, loose volcanic ash and soil on steep limestone slopes became saturated and slid off as fast mudflows into the towns below. About 160 people were killed.",
+        "Vajont Dam, northern Italy, 9 October 1963: a huge landslide from Monte Toc slid into the reservoir (the lake held back by the dam). The wave it sent over the dam destroyed the town of Longarone, killing about 2,000 people. The dam itself survived.",
         "Weak clay layers in the valley side, and the filling of the reservoir which saturated the slope, caused the Vajont slide."
       ]
     },
     {
       "h": "Case study: South America",
+      "b": "South America gives a lahar triggered by a volcano and mudslides triggered by torrential rain.",
       "points": [
         "Nevado del Ruiz, Colombia, 13 November 1985: a small eruption melted part of the summit ice cap. Lahars rushed down river valleys and buried the town of Armero, killing about 23,000 people.",
         "Warnings had been given, but Armero was not evacuated.",
@@ -131,12 +155,14 @@
     },
     {
       "h": "Case study: glacier collapse in the Alps",
+      "b": "Recent glacier collapses in the Alps are mass movements of ice, rock and mud. They show glacier retreat acting as a new cause.",
       "points": [
         "Blatten, Lötschental, canton of Valais, Switzerland, 28 May 2025: the Birch Glacier collapsed, sending a huge mass of ice, rock and mud onto the village and burying most of it.",
         "The village had been evacuated days earlier, after geologists detected rockfalls onto the glacier.",
-        "The debris blocked the River Lonza, forming a lake upstream and a flood risk.",
+        "The debris blocked the River Lonza, forming a lake upstream, which means a flood risk.",
         "Marmolada glacier, Dolomites, Italy, 3 July 2022: during a heatwave a large section of the glacier collapsed as an ice avalanche, killing 11 people."
-      ]
+      ],
+      "tip": "Questions on a news article about a landslide ask about its cause, preparation, effects and follow-on flood risk."
     }
   ],
   "keyTerms": [

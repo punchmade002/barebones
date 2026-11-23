@@ -6,65 +6,86 @@
   "notes": [
     {
       "h": "Explaining the properties of the states",
+      "b": "The kinetic theory says matter is made of particles that are always moving. How close the particles are, how strongly they attract one another and how they move explain why solids, liquids and gases behave so differently.",
       "points": [
-        "Solids have a fixed shape and volume and cannot be compressed: the particles are held tightly in fixed positions by strong forces and only vibrate.",
-        "Liquids have a fixed volume but take the shape of their container and flow: the particles are close together but can slide past one another.",
-        "Gases fill their container and are easily compressed: the particles are far apart, with weak forces between them, and move rapidly and randomly.",
-        "Gas pressure is caused by gas particles colliding with the walls of the container."
-      ]
+        "Solids have a fixed shape and volume and cannot be compressed (squeezed into a smaller volume), because the particles are held tightly in fixed positions by strong forces and only vibrate on the spot.",
+        "Liquids have a fixed volume but take the shape of their container and flow, because the particles are close together but can slide past one another.",
+        "Gases fill their container and are easily compressed, because the particles are far apart, with weak forces between them, and move rapidly and randomly. The empty space between them is what lets them be pushed closer.",
+        "Gas pressure is caused by gas particles colliding with the walls of the container. Many fast collisions every second add up to a steady push on the walls."
+      ],
+      "tip": "Exams ask you to explain properties and changes of state in terms of particles, so always name the particle arrangement, movement and forces, not just the property."
     },
     {
       "h": "Changes of state",
-      "b": "Each change of state is explained by the energy of the particles and the forces between them.",
+      "b": "Each change of state is explained by the energy of the particles and the forces between them. Heating gives particles energy to break free of those forces, and cooling takes energy away so the forces win again.",
       "points": [
-        "Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another; this happens at the melting point.",
+        "Melting (solid to liquid): heating makes the particles vibrate more until they have enough energy to overcome some of the forces holding them in place and begin to move past one another. This happens at the melting point.",
         "Freezing (liquid to solid): cooling removes energy, the particles slow down, and the forces pull them back into fixed positions.",
-        "Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and the remaining liquid cools.",
-        "Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour form within the liquid.",
+        "Evaporation (liquid to gas, below the boiling point): the fastest-moving particles at the surface escape, and because the fastest (highest-energy) particles leave, the remaining liquid cools.",
+        "Boiling (liquid to gas at the boiling point): particles throughout the liquid have enough energy to overcome the forces between them, so bubbles of vapour (the substance as a gas) form within the liquid.",
         "Condensation (gas to liquid): cooling slows the particles so that the attractive forces pull them close together.",
         "Sublimation (solid to gas directly, without melting), e.g. iodine, and solid carbon dioxide (“dry ice”), which sublimes at atmospheric pressure at −78 °C.",
-        "Deposition (gas to solid directly), the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.",
+        "Deposition (gas to solid directly) is the reverse of sublimation, e.g. iodine vapour forming crystals on a cold surface.",
         "Diagram: a triangle of the three states with arrows labelled melting, freezing, evaporation and boiling, condensation, sublimation and deposition."
-      ]
+      ],
+      "tip": "Boiling and evaporation are different: evaporation happens from the surface at any temperature, while boiling happens throughout the liquid at the boiling point."
     },
     {
       "h": "Heating curve",
+      "b": "A heating curve plots temperature against time as a pure substance is heated at a steady rate. The flat sections show the changes of state, and they show where the supplied energy goes.",
       "points": [
         "When a pure solid is heated at a steady rate, its temperature rises until it reaches the melting point, then stays constant until it has all melted.",
-        "During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy, so the temperature does not rise.",
+        "During a change of state the energy supplied is used to overcome the forces between particles, not to increase their kinetic energy (the energy of their movement), so the temperature does not rise even though heat is being supplied.",
         "The temperature then rises again until the boiling point, where it stays constant until all the liquid has boiled.",
-        "The boiling plateau is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.",
-        "Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C."
-      ]
+        "The boiling plateau (flat section) is longer than the melting plateau because far more energy is needed to separate the particles completely than to loosen them.",
+        "Diagram: a heating curve for water (temperature against time) from ice below 0 °C to steam above 100 °C, with the two flat sections labelled melting at 0 °C and boiling at 100 °C. Water melts at 0 °C and boils at 100 °C at standard pressure."
+      ],
+      "tip": "You are asked to interpret a heating curve and explain the flat sections. Say that the temperature is constant during a change of state even though heat is being supplied, because the energy is used to overcome forces between particles."
     },
     {
       "h": "Assumptions of the model (Higher Level only)",
-      "b": "The kinetic theory is a model. Its assumptions and limitations show when it explains behaviour well and when it does not.",
+      "b": "The kinetic theory is a model, a simplified picture of reality. Its assumptions and limitations show when it explains behaviour well and when it does not. The assumptions below are what the model takes to be true about particles.",
       "points": [
         "Assumption: the particles are tiny spheres in constant, random motion.",
-        "Assumption: the higher the temperature, the greater the average kinetic energy of the particles.",
-        "Assumption: collisions between particles are perfectly elastic, so no kinetic energy is lost.",
-        "Assumption: in a gas the volume of the particles themselves is negligible, and there are no forces between the particles except during collisions.",
-        "Limitation: real particles are not hard spheres, and they do attract one another; the forces between particles are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.",
-        "Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points; that needs the types of bonding and intermolecular forces (see “Intermolecular forces and physical properties”).",
-        "Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative, giving no values.",
-        "Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, so gases deviate from the model (see “Gas relationships and the ideal gas”)."
+        "Assumption: the higher the temperature, the greater the average kinetic energy (energy of movement) of the particles.",
+        "Assumption: collisions between particles are perfectly elastic, which means no kinetic energy is lost when they collide.",
+        "Assumption: in a gas the volume of the particles themselves is negligible (so small it can be ignored), and there are no forces between the particles except during collisions."
+      ],
+      "tip": "You may be asked to give the assumptions of the kinetic theory. Keep assumptions and limitations separate, and give them in the Higher Level answer only."
+    },
+    {
+      "h": "Limitations: forces and identical particles (Higher Level only)",
+      "b": "A model is useful only if you know where it fails. The first two limitations come from what the simple model leaves out about the forces between particles.",
+      "points": [
+        "Limitation: real particles are not hard spheres, and they do attract one another. These forces between particles (intermolecular forces) are what make liquids and solids exist and decide melting and boiling points, which the simple gas model ignores.",
+        "Limitation: the model treats all particles as identical, so it does not explain why different substances have different melting and boiling points. That needs the types of bonding and intermolecular forces. There is more on this in Polarity, shape and physical properties."
       ]
+    },
+    {
+      "h": "Limitations: particle structure and real gases (Higher Level only)",
+      "b": "The model also says nothing about what is inside particles, and it works best only for gases under certain conditions.",
+      "points": [
+        "Limitation: the model does not describe the structure inside particles or what happens to bonds, and it is qualitative (it describes behaviour in words), giving no values.",
+        "Limitation: in real gases at high pressure or low temperature the particles' volume and attractions matter, because the particles are then squeezed close together or moving slowly, so gases deviate from the model. There is more on this in Gas laws and the ideal gas equation."
+      ],
+      "tip": "If asked for two assumptions and one limitation, take the two assumptions from the assumptions block and one limitation from either limitations block."
     },
     {
       "h": "Choosing a technique",
-      "b": "Choose the technique from the physical property in which the components differ.",
+      "b": "A mixture is separated by using a physical property in which its components differ. So the first step is always to work out how the components differ, then choose the technique that uses that difference.",
       "points": [
-        "Particle size and solubility separate by filtration; solubility and volatility by evaporation and crystallisation; boiling point by distillation; solubility in a solvent and attraction to paper by chromatography; immiscibility and density by a separating funnel.",
-        "Heterogeneous mixtures, such as an insoluble solid in a liquid or two immiscible liquids, are separated by filtration, decanting or a separating funnel.",
-        "Homogeneous mixtures, such as solutions and miscible liquids, need evaporation, crystallisation, distillation or chromatography."
-      ]
+        "Particle size and solubility (whether a substance dissolves) separate by filtration; solubility and volatility (how easily a substance turns to vapour) by evaporation and crystallisation; boiling point by distillation.",
+        "Solubility in a solvent and attraction to paper separate by chromatography; immiscibility (the liquids do not mix) and density by a separating funnel.",
+        "Heterogeneous mixtures (the components can be seen as separate parts), such as an insoluble solid in a liquid or two immiscible liquids, are separated by filtration, decanting (carefully pouring off the liquid) or a separating funnel.",
+        "Homogeneous mixtures (uniform throughout), such as solutions and miscible liquids (liquids that mix completely), need evaporation, crystallisation, distillation or chromatography."
+      ],
+      "tip": "You are asked to choose and justify a technique for a given mixture. Name the property the components differ in, then give the technique that uses it."
     },
     {
       "h": "Filtration",
-      "b": "Filtration separates an insoluble solid from a liquid.",
+      "b": "Filtration separates an insoluble solid (one that does not dissolve) from a liquid. The paper has holes small enough to hold back the solid particles but large enough to let the liquid through.",
       "points": [
-        "Example: sand is separated from salt solution by filtration.",
+        "Example: sand is separated from salt solution by filtration, because sand is insoluble and the salt is dissolved in the water.",
         "Step 1: Fold filter paper into a cone and place it in a funnel.",
         "Step 2: Pour the mixture through the filter paper; the solid (residue) stays on the paper and the liquid (filtrate) passes through.",
         "Diagram: filter funnel with filter paper over a conical flask, labelled residue and filtrate."
@@ -72,9 +93,10 @@
     },
     {
       "h": "Evaporation and crystallisation",
+      "b": "When a solid is dissolved in a liquid, filtering will not work because the dissolved solid passes through the paper. Instead you remove the solvent (the liquid that does the dissolving) by heating, either completely (evaporation) or only partly (crystallisation).",
       "points": [
-        "Evaporation recovers a dissolved solid by heating the solution until all the solvent has gone, e.g. salt from salt water; it is used when the solid does not decompose on heating.",
-        "Step 1 of crystallisation: Heat the solution to evaporate some solvent until it is saturated; a drop on a cold glass rod forms crystals when it is saturated.",
+        "Evaporation recovers a dissolved solid by heating the solution until all the solvent has gone, e.g. salt from salt water. It is used when the solid does not decompose (break down) on heating.",
+        "Step 1 of crystallisation: Heat the solution to evaporate some solvent until it is saturated (cannot dissolve any more solid). A drop on a cold glass rod forms crystals when it is saturated.",
         "Step 2 of crystallisation: Leave the solution to cool slowly so that crystals form, e.g. copper(II) sulfate crystals.",
         "Step 3 of crystallisation: Filter off the crystals, wash them with a little cold solvent and dry them.",
         "Crystallisation gives purer, larger crystals than evaporating to dryness, because soluble impurities stay in the solution."
@@ -82,39 +104,48 @@
     },
     {
       "h": "Distillation",
-      "b": "Distillation separates a liquid from a solution, or two liquids with different boiling points, by boiling and condensing the vapour.",
+      "b": "Distillation separates a liquid from a solution, or two liquids with different boiling points, by boiling and condensing the vapour. The liquid with the lower boiling point boils off first and is collected separately.",
       "points": [
         "Simple distillation separates a solvent from a solution, or two liquids with very different boiling points, e.g. pure water from salt water.",
-        "Step 1: Heat the mixture in a flask containing anti-bumping granules.",
-        "Step 2: The liquid with the lower boiling point boils, and its vapour passes into a water-cooled condenser.",
+        "Step 1: Heat the mixture in a flask containing anti-bumping granules (small pieces that make boiling smooth and stop violent bursts of bubbling).",
+        "Step 2: The liquid with the lower boiling point boils, and its vapour passes into a water-cooled condenser (a tube that cools the vapour back to liquid).",
         "Step 3: The vapour condenses in the condenser, which has water in at the bottom and out at the top.",
-        "Step 4: The distillate is collected in a receiving flask.",
+        "Step 4: The distillate (the liquid that has condensed) is collected in a receiving flask.",
         "Step 5: A thermometer at the side arm reads the boiling point of the liquid that is distilling.",
-        "Fractional distillation separates miscible liquids with close boiling points, using a fractionating column, e.g. ethanol (boiling point 78 °C) from water (boiling point 100 °C).",
-        "Crude oil is separated into fractions by fractional distillation.",
-        "Safety: flammable liquids are heated with a heating mantle or water bath, not a naked flame, and a closed system is never heated.",
-        "Diagram: a distillation set-up with a round-bottomed flask and granules, the thermometer bulb at the side arm, a Liebig condenser with water flow, and a receiving flask."
+        "Fractional distillation separates miscible liquids with close boiling points, using a fractionating column (a tall column that gives repeated condensing and re-boiling), e.g. ethanol (boiling point 78 °C) from water (boiling point 100 °C).",
+        "Crude oil is separated into fractions (groups of compounds with similar boiling points) by fractional distillation."
+      ],
+      "tip": "You may be asked to describe distillation, including why water enters the condenser at the bottom. Steam distillation is not required."
+    },
+    {
+      "h": "Distillation: safety and diagram",
+      "b": "Distillation heats liquids that may be flammable and produces vapour, so the apparatus and heat source matter as well as the method.",
+      "points": [
+        "Safety: flammable liquids are heated with a heating mantle or water bath, not a naked flame, so the vapour cannot ignite.",
+        "Safety: a closed system is never heated, because the pressure would build up as the vapour expands.",
+        "Diagram: a distillation set-up with a round-bottomed flask and granules, the thermometer bulb at the side arm, a Liebig condenser (a straight condenser cooled by a water jacket) with water flow, and a receiving flask."
       ]
     },
     {
       "h": "Paper chromatography",
-      "b": "Paper chromatography separates and identifies small amounts of soluble substances, such as the dyes in an ink or food colouring, or a mixture of indicators.",
+      "b": "Paper chromatography separates and identifies small amounts of soluble substances, such as the dyes in an ink or food colouring, or a mixture of indicators. Each substance is carried up the paper by a solvent at its own speed.",
       "points": [
         "Step 1: Draw a pencil line near the bottom of the chromatography paper; use pencil, because ink would run.",
         "Step 2: Put small spots of the mixture and of known substances on the line.",
-        "Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots.",
-        "Step 4: Let the solvent rise up the paper, then remove the paper and mark the solvent front.",
-        "Principle: components that are more soluble in the solvent (the mobile phase) and less attracted to the paper (the stationary phase) travel further.",
+        "Step 3: Stand the paper in a little solvent in a covered container, with the solvent level below the spots, so the spots are not washed into the solvent.",
+        "Step 4: Let the solvent rise up the paper, then remove the paper and mark the solvent front (the highest point the solvent reached).",
+        "Principle: components that are more soluble in the solvent (the mobile phase, which moves) and less attracted to the paper (the stationary phase, which stays still) travel further.",
         "Retention factor (Rf) is the distance moved by the spot divided by the distance moved by the solvent.",
         "Components are identified by matching their spots and Rf values with those of known substances.",
         "Diagram: a chromatogram with the pencil start line, the spots, the solvent front and the separated spots."
-      ]
+      ],
+      "tip": "Use pencil, not ink, for the start line, and keep the solvent level below the spots. You may be asked to describe separating a mixture of indicators or dyes by chromatography. Keep to paper chromatography: GC, HPLC and TLC as analytical instruments are not on the specification."
     },
     {
       "h": "Separating funnel",
-      "b": "A separating funnel separates two immiscible liquids of different density.",
+      "b": "A separating funnel separates two immiscible liquids of different density. Immiscible liquids settle into two layers, with the denser liquid underneath.",
       "points": [
-        "Examples: oil and water, or an organic layer from an aqueous layer, which is used to purify an ester.",
+        "Examples: oil and water, or an organic layer from an aqueous layer (a water-based layer), which is used to purify an ester.",
         "Step 1: Pour the mixture into the separating funnel and let the layers settle.",
         "Step 2: Remove the stopper and run off the lower, denser layer through the tap.",
         "Step 3: Collect the upper layer separately.",

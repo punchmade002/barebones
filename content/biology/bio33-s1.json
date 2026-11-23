@@ -6,131 +6,180 @@
   "notes": [
     {
       "h": "Microorganisms in nutrient cycling",
+      "b": "Microorganisms are living things so small that you need a microscope to see them. Bacteria and fungi matter most for nutrient cycling, because they return the nutrients locked in dead matter to the soil.",
       "points": [
         "Microorganisms are organisms too small to be seen without a microscope, e.g. bacteria, many fungi (such as yeasts and moulds), protists and viruses.",
-        "Most microorganisms are harmless or useful; only some are pathogens (see “Pathogens”).",
-        "Bacteria and fungi are the main decomposers: they feed on dead organisms, dead leaves, dung and other wastes, breaking down complex organic compounds.",
+        "Most microorganisms are harmless or useful; only some are pathogens (organisms that cause disease). There is more on this in Pathogens.",
+        "Bacteria and fungi are the main decomposers: they feed on dead organisms, dead leaves, dung and other wastes, breaking down complex organic compounds (carbon-containing molecules made by living things).",
         "Decomposers release carbon dioxide (by respiration) and minerals such as ammonium and phosphate into the soil, where plants reuse them.",
-        "Without decomposers, nutrients would stay locked in dead matter (the cycles are in “The carbon cycle” and “The nitrogen cycle”).",
-        "Nitrogen-fixing bacteria convert nitrogen gas from the air into a usable form; they live free in soil or in the root nodules of legumes.",
-        "Nitrifying bacteria convert ammonium to nitrate.",
-        "Denitrifying bacteria convert nitrate to nitrogen gas."
-      ]
+        "Without decomposers, nutrients would stay locked in dead matter and plants would run out of the minerals they need to grow.",
+        "Other bacteria carry out particular steps of the nitrogen cycle. Nitrogen-fixing bacteria convert nitrogen gas from the air into a usable form; they live free in soil or in the root nodules (small swellings) of legumes.",
+        "Nitrifying bacteria convert ammonium to nitrate, a form of nitrogen that plants can take up through their roots.",
+        "Denitrifying bacteria convert nitrate back to nitrogen gas, returning nitrogen to the air."
+      ],
+      "tip": "Exams ask you to link bacteria and fungi to nutrient cycling. Say that they are decomposers that release carbon dioxide and minerals such as ammonium and phosphate for plants to reuse."
     },
     {
-      "h": "The bacterial cell",
+      "h": "The bacterial cell: outer layers",
+      "b": "Bacteria are the simplest cells you need to know. Their outer layers shape and protect the cell, and each layer has a different job.",
       "points": [
-        "Bacteria are single-celled prokaryotes: they have no nucleus and no membrane-bound organelles.",
-        "Most bacteria are about 1–10 µm long, so they are seen as tiny dots or rods under the light microscope, and their parts need the electron microscope (see “Prokaryotic and eukaryotic cells”).",
+        "Bacteria are single-celled prokaryotes, which means they have no nucleus and no membrane-bound organelles (compartments inside the cell, each wrapped in its own membrane).",
+        "Most bacteria are about 1–10 µm long, so they appear as tiny dots or rods under the light microscope, and seeing their parts needs the electron microscope.",
         "Cell wall: a rigid layer outside the membrane, made of peptidoglycan, a polymer of sugars and amino acids.",
-        "The cell wall gives the cell its shape and stops it bursting when water enters by osmosis.",
-        "Penicillin works by stopping bacteria building their cell wall (see “Acquired immunity, prevention and treatment”).",
-        "Capsule (slime layer): a sticky layer of polysaccharide outside the wall, present in some bacteria.",
-        "The capsule protects the cell from drying out and from being engulfed by white blood cells, and helps it stick to surfaces such as teeth; bacteria with capsules are often more harmful.",
-        "Cell membrane: controls what enters and leaves the cell; the enzymes of respiration are on it, because bacteria have no mitochondria.",
-        "Cytoplasm: the jelly-like contents where most reactions take place; it contains food stores such as granules of glycogen or lipid.",
-        "Nucleoid: one circular chromosome of DNA lies free in the cytoplasm in a region called the nucleoid.",
-        "The nucleoid is not enclosed by a membrane and the DNA is not wound around histones; the chromosome carries the genes for all the cell's essential functions.",
-        "Plasmids: small extra rings of DNA, separate from the chromosome, which copy themselves independently.",
-        "Plasmids carry a few genes that are useful in some conditions, e.g. antibiotic resistance, and can be passed from one bacterium to another, even of a different species.",
-        "Plasmids are used as vectors in genetic engineering (see “Genetic engineering”).",
-        "Ribosomes: small (70S) ribosomes, free in the cytoplasm, where proteins are made.",
-        "Bacterial 70S ribosomes are smaller than the 80S ribosomes in eukaryotic cytoplasm, which is why some antibiotics can block them without harming human cells.",
-        "Flagellum (plural flagella): a long, whip-like thread, present in some bacteria, that rotates like a propeller to move the cell, e.g. towards food.",
-        "Pili (fimbriae): short, hair-like threads on the surface of some bacteria that attach them to surfaces and host cells.",
-        "A longer sex pilus links two bacteria so that a copy of a plasmid can pass between them.",
-        "Diagram: a large labelled bacterial cell (a rod) showing the capsule, cell wall, cell membrane, cytoplasm, nucleoid with its circular chromosome, plasmids, ribosomes, flagellum, pili and a food-storage granule, with a function written beside each label."
-      ]
+        "The cell wall gives the cell its shape and stops it bursting when water enters by osmosis (water moving into the cell because it is more concentrated inside).",
+        "Penicillin works by stopping bacteria building their cell wall, so the weakened cells burst. There is more on this in Acquired immunity, prevention and treatment.",
+        "Capsule (slime layer): a sticky layer of polysaccharide (a large sugar molecule) outside the wall, present in some bacteria.",
+        "The capsule protects the cell from drying out and from being engulfed (taken in and destroyed) by white blood cells, and helps it stick to surfaces such as teeth. Bacteria with capsules are often more harmful."
+      ],
+      "tip": "If asked for the function of the cell wall, say it gives shape and stops the cell bursting by osmosis. For the capsule, give protection and sticking to surfaces."
     },
     {
-      "h": "Bacterial shapes, reproduction and endospores",
+      "h": "The bacterial cell: inside the cell",
+      "b": "Inside the wall, a bacterium has the same basic machinery as any cell, but it is not packaged in organelles. Everything floats in the cytoplasm, or sits on the membrane.",
+      "points": [
+        "Cell membrane: controls what enters and leaves the cell. The enzymes of respiration are on it, because bacteria have no mitochondria.",
+        "Cytoplasm: the jelly-like contents where most reactions take place. It contains food stores such as granules of glycogen or lipid.",
+        "Nucleoid: one circular chromosome of DNA lies free in the cytoplasm in a region called the nucleoid. Bacteria have DNA but no nucleus.",
+        "The nucleoid is not enclosed by a membrane and the DNA is not wound around histones (proteins that DNA coils around in eukaryotes). The chromosome carries the genes for all the cell's essential functions.",
+        "Plasmids: small extra rings of DNA, separate from the chromosome, which copy themselves independently.",
+        "Plasmids carry a few genes that are useful in some conditions, e.g. antibiotic resistance, and can be passed from one bacterium to another, even of a different species. Plasmids are used as vectors (carriers of new genes) in genetic engineering.",
+        "Ribosomes: small (70S) ribosomes, free in the cytoplasm, where proteins are made.",
+        "Bacterial 70S ribosomes are smaller than the 80S ribosomes in eukaryotic cytoplasm, which is why some antibiotics can block them without harming human cells."
+      ],
+      "tip": "The nucleoid is not a nucleus. Never write that bacteria have no DNA; say they have no nucleus, and their DNA lies in the nucleoid. When you name the plasmid, give its job: it carries extra genes, such as antibiotic resistance."
+    },
+    {
+      "h": "The bacterial cell: moving, attaching and drawing it",
+      "b": "Some bacteria also have threads on their surface. They let the cell swim, stick to things, or swap DNA with another bacterium.",
+      "points": [
+        "Flagellum (plural flagella): a long, whip-like thread, present in some bacteria, that rotates like a propeller to move the cell, e.g. towards food.",
+        "Pili (fimbriae): short, hair-like threads on the surface of some bacteria that attach them to surfaces and host cells (the living organisms a bacterium infects).",
+        "A longer sex pilus links two bacteria so that a copy of a plasmid can pass between them.",
+        "Diagram: draw a large rod-shaped bacterium. Label capsule, cell wall, cell membrane, cytoplasm, nucleoid with circular chromosome, plasmids, ribosomes, flagellum, pili and a food-storage granule, with a function written beside each label."
+      ],
+      "tip": "You may be asked to draw and label a bacterial cell and to give the function of named parts such as the plasmid, cell wall, capsule and flagellum. Write the function beside each label."
+    },
+    {
+      "h": "Bacterial shapes",
+      "b": "Bacteria are classified partly by shape, which you can recognise under the microscope. There are four shapes to know, each with a named example.",
       "points": [
         "Cocci (singular coccus) are spherical: Streptococcus forms chains and Staphylococcus forms clusters.",
         "Bacilli (singular bacillus) are rod-shaped, e.g. Escherichia coli.",
         "Spirilla are spiral-shaped.",
         "Vibrios are comma-shaped, e.g. Vibrio cholerae, which causes cholera.",
-        "Diagram: the shapes, each labelled: a chain of cocci, a cluster of cocci, a rod (bacillus), a spiral (spirillum) and a comma (vibrio).",
+        "Diagram: the shapes, each labelled: a chain of cocci, a cluster of cocci, a rod (bacillus), a spiral (spirillum) and a comma (vibrio)."
+      ],
+      "tip": "Name the shapes by their correct terms (coccus, bacillus, spirillum, vibrio) and give the example for each."
+    },
+    {
+      "h": "Bacterial reproduction and endospores",
+      "b": "Bacteria multiply by simple splitting, which is quick and makes identical copies. When conditions turn hostile, some of them form a tough resting structure that lets them survive.",
+      "points": [
         "Bacteria reproduce asexually by binary fission: the circular chromosome is copied, the cell grows and the two copies move apart.",
         "The cell then divides in two as a new wall forms across the middle, giving two genetically identical cells.",
-        "In ideal conditions binary fission can happen as often as every 20 minutes, so populations grow very fast (see growth curves in “Microorganisms in industry”).",
-        "Variation in bacteria comes only from mutations and from genes passed on plasmids.",
+        "In ideal conditions binary fission can happen as often as every 20 minutes, so populations grow very fast. There is more on this in Microorganisms in industry.",
+        "Variation in bacteria comes only from mutations (changes in DNA) and from genes passed on plasmids, because binary fission produces identical cells.",
         "Some bacteria, e.g. Clostridium and Bacillus, form an endospore when conditions become unfavourable, such as a lack of nutrients or water.",
         "In an endospore the chromosome and a little cytoplasm are enclosed in a tough, thick wall inside the cell, and the rest of the cell breaks down.",
         "Endospores survive boiling, drying, freezing and many disinfectants for years; when conditions improve, each grows into one new active bacterium.",
-        "Endospores are why equipment is sterilised in an autoclave at 121 °C rather than by boiling, and why tetanus can be caught from soil (see “Pathogens”).",
-        "An endospore is a survival structure, not a means of reproduction: one cell gives one spore, which gives one cell."
-      ]
+        "Endospores are why equipment is sterilised in an autoclave at 121 °C rather than by boiling, and why tetanus can be caught from soil."
+      ],
+      "tip": "An endospore is a survival structure, not reproduction: one cell gives one spore, which gives one cell. Do not describe it as a way of making more bacteria."
     },
     {
-      "h": "Nutrition of bacteria",
+      "h": "Nutrition of bacteria: autotrophs",
+      "b": "Bacteria feed in many ways. Autotrophs, the first group, make their own food from simple inorganic substances, using either light or chemical energy.",
       "points": [
         "Autotrophic bacteria make their own food from simple inorganic substances such as carbon dioxide and water.",
         "Photosynthetic bacteria use light energy, e.g. cyanobacteria, which contain chlorophyll and release oxygen.",
         "Some other photosynthetic bacteria, such as purple and green sulfur bacteria, use hydrogen sulfide in place of water and release no oxygen.",
-        "Chemosynthetic bacteria get energy by oxidising inorganic chemicals instead of from light, e.g. nitrifying bacteria in soil.",
-        "Nitrifying bacteria oxidise ammonium to nitrite and nitrite to nitrate, and use the energy released to make food from carbon dioxide.",
+        "Chemosynthetic bacteria get energy by oxidising inorganic chemicals (adding oxygen to them, which releases energy) instead of from light, e.g. nitrifying bacteria in soil.",
+        "Nitrifying bacteria oxidise ammonium to nitrite and nitrite to nitrate, and use the energy released to make food from carbon dioxide."
+      ],
+      "tip": "Define autotroph as an organism that makes its own food from simple inorganic substances. Do not call all autotrophs photosynthetic: some bacteria use chemical energy."
+    },
+    {
+      "h": "Nutrition of bacteria: heterotrophs and oxygen needs",
+      "b": "Most bacteria are heterotrophs: they cannot make food, so they take in food made by other organisms. They also differ in whether they can live with oxygen.",
+      "points": [
         "Heterotrophic bacteria take in food made by other organisms, and most bacteria are heterotrophic.",
-        "Saprophytic bacteria feed on dead organic matter; a saprophyte (saprotroph) secretes digestive enzymes out of its cell onto the food, which is extracellular digestion.",
-        "A saprophyte then absorbs the small soluble products, e.g. sugars and amino acids, through its wall and membrane.",
-        "Saprophytic bacteria are decomposers, and they also cause food to rot.",
-        "Parasitic bacteria feed on a living host and harm it, causing disease, e.g. Mycobacterium tuberculosis, which causes tuberculosis (see “Pathogens”).",
-        "Mutualistic bacteria live with a host to the benefit of both, e.g. nitrogen-fixing bacteria in clover root nodules and bacteria in the gut (see “Biotic factors and relationships” and “The microbiome”).",
-        "Obligate aerobes need oxygen.",
-        "Obligate anaerobes are killed by oxygen, e.g. Clostridium, which is why tetanus grows in deep wounds.",
+        "Saprophytic bacteria feed on dead organic matter. A saprophyte (saprotroph) secretes digestive enzymes out of its cell onto the food, which is extracellular digestion.",
+        "A saprophyte then absorbs the small soluble products, e.g. sugars and amino acids, through its wall and membrane. Saprophytic bacteria are decomposers, and they also cause food to rot.",
+        "Parasitic bacteria feed on a living host and harm it, causing disease, e.g. Mycobacterium tuberculosis, which causes tuberculosis.",
+        "Mutualistic bacteria live with a host to the benefit of both, e.g. nitrogen-fixing bacteria in clover root nodules and bacteria in the gut.",
+        "Obligate aerobes need oxygen to respire.",
+        "Obligate anaerobes are killed by oxygen, e.g. Clostridium, which is why tetanus grows in deep wounds where oxygen cannot reach.",
         "Facultative anaerobes respire aerobically when oxygen is present and anaerobically when it is not, e.g. E. coli."
-      ]
+      ],
+      "tip": "Saprophytes digest food outside their cells and then absorb it; they do not eat or engulf it. Define saprophyte, parasite and heterotroph, because they are asked directly."
     },
     {
       "h": "Fungi in general",
+      "b": "Fungi are eukaryotes that look plant-like but are not plants. Most are built from thread-like hyphae, and they spread by spores.",
       "points": [
         "Fungi are eukaryotes: each cell, or each section of hypha, has nuclei with a nuclear membrane, mitochondria and 80S ribosomes.",
         "Fungal cell walls are made of chitin, not cellulose.",
-        "Fungi have no chlorophyll, so they cannot photosynthesise; they store carbohydrate as glycogen and lipid, not starch (kingdom features in “Classification”).",
-        "Most fungi, such as moulds and mushrooms, are made of hyphae (singular hypha): long, branching, thread-like tubes with a wall around cytoplasm containing many nuclei.",
-        "A mass of hyphae is a mycelium.",
+        "Fungi have no chlorophyll, so they cannot photosynthesise; they store carbohydrate as glycogen and lipid, not starch.",
+        "Most fungi, such as moulds and mushrooms, are made of hyphae (singular hypha): long, branching, thread-like tubes with a wall around cytoplasm containing many nuclei. A mass of hyphae is a mycelium.",
         "Some fungi have cross-walls (septa) dividing the hyphae into cells; Rhizopus has none.",
         "Mushrooms are the reproductive structures of a mycelium that grows mostly hidden in soil or wood.",
+        "Fungi reproduce by spores, tiny reproductive cells released in great numbers and carried by air, water or animals. Each spore can grow into a new mycelium on a suitable food; fungi also reproduce sexually."
+      ],
+      "tip": "Fungi are not plants: their walls are chitin, not cellulose, and they do not photosynthesise."
+    },
+    {
+      "h": "Yeasts",
+      "b": "Yeasts are the exception among fungi, because they are not made of hyphae. Each yeast is a single cell.",
+      "points": [
         "Yeasts are single-celled fungi, e.g. Saccharomyces cerevisiae (baker's and brewer's yeast), which are oval cells.",
-        "Yeasts reproduce asexually by budding: a small outgrowth grows from the parent cell, the nucleus divides by mitosis, and the bud separates as a new cell.",
-        "Yeast can respire aerobically or ferment sugar to ethanol and CO₂ (see “Respiration as a catabolic process”).",
-        "Fungi reproduce by spores, tiny reproductive cells released in great numbers and carried by air, water or animals.",
-        "Each spore can grow into a new mycelium on a suitable food; fungi also reproduce sexually."
+        "Yeasts reproduce asexually by budding: a small outgrowth grows from the parent cell, the nucleus divides by mitosis (copying itself to give two identical nuclei), and the bud separates as a new cell.",
+        "Yeast can respire aerobically or ferment sugar to ethanol and CO₂, which is why it is used in baking and brewing."
       ]
     },
     {
-      "h": "Rhizopus",
+      "h": "Rhizopus: structure",
+      "b": "Rhizopus is a mould you can see growing on stale bread. Its body is made of different kinds of hypha, each with a job.",
       "points": [
         "Rhizopus stolonifer (black bread mould) is a common mould that grows on bread, fruit and other moist, starchy or sugary food.",
         "Its spores are everywhere in the air, which is why bread left moist and warm goes mouldy within days.",
-        "Hyphae: the mycelium is made of branched hyphae with no cross-walls, so each hypha is a continuous tube of cytoplasm with many nuclei.",
-        "The walls of the hyphae contain chitin.",
+        "Hyphae: the mycelium is made of branched hyphae with no cross-walls, so each hypha is a continuous tube of cytoplasm with many nuclei. The walls of the hyphae contain chitin.",
         "Stolons are hyphae that grow horizontally over the surface of the food, spreading the mould to new areas; the name stolonifer means “bearing stolons”.",
         "Rhizoids are short, branched, root-like hyphae that grow down into the food where a stolon touches it.",
         "Rhizoids are hyphae, not roots: they anchor the mould, secrete digestive enzymes into the food and absorb the products, not water from soil.",
-        "Sporangiophores are upright hyphae that grow up from the stolons, above the rhizoids, each carrying a sporangium at its tip.",
+        "Sporangiophores are upright hyphae that grow up from the stolons, above the rhizoids, each carrying a sporangium at its tip."
+      ],
+      "tip": "Rhizoids are hyphae, not roots, and they absorb food, not water from soil."
+    },
+    {
+      "h": "Rhizopus: spores, nutrition and diagram",
+      "b": "The upright hyphae carry the spore cases. Spores are how Rhizopus spreads, and the food it grows on is also its only source of nutrients.",
+      "points": [
         "A sporangium (plural sporangia) is a round spore case at the tip of a sporangiophore, white at first and black when ripe, which gives the mould its black, fuzzy look.",
         "Inside the sporangium, many spores form around a dome-shaped swelling at the top of the sporangiophore, the columella, which supports the sporangium.",
         "When the sporangium is ripe, its wall breaks and the spores are released and carried by air currents.",
         "Each spore that lands on moist food grows into a new hypha and mycelium; this is asexual reproduction, so the offspring are genetically identical.",
-        "Rhizopus is a saprophyte (see the block on nutrition of fungi below). Being heterotrophic, it cannot make food, so it must grow on its food.",
-        "Diagram: a large labelled drawing of Rhizopus growing on bread, showing the mycelium, hyphae, stolon, rhizoids penetrating the bread, sporangiophores, sporangia (one cut open to show the spores and the columella) and spores being released."
-      ]
+        "Rhizopus is a saprophyte, feeding on dead organic matter. Being heterotrophic, it cannot make food, so it must grow on its food.",
+        "Diagram: draw Rhizopus on bread. Label mycelium, hyphae, stolon, rhizoids penetrating the bread, sporangiophores, a sporangium cut open (spores, columella) and spores being released."
+      ],
+      "tip": "You may be asked to draw and label Rhizopus and to state its nutrition, which is saprophytic and heterotrophic. Do not describe sexual reproduction in Rhizopus; only the structure is asked."
     },
     {
       "h": "Nutrition of fungi",
+      "b": "Fungi cannot make their own food, so every fungus feeds on organic matter made by other organisms. They differ in whether that food is dead, living or shared.",
       "points": [
         "All fungi are heterotrophic; none is autotrophic, because fungi have no chlorophyll.",
-        "Most fungi are saprophytes, feeding on dead organic matter by extracellular digestion.",
-        "Rhizopus secretes enzymes from its rhizoids and hyphae into bread: amylase digests starch to maltose and glucose.",
-        "Rhizopus also secretes proteases, which digest proteins to amino acids.",
+        "Most fungi are saprophytes, feeding on dead organic matter by extracellular digestion (digesting food outside the cell).",
+        "Rhizopus secretes enzymes from its rhizoids and hyphae into bread: amylase digests starch to maltose and glucose, and proteases digest proteins to amino acids.",
         "The soluble products diffuse back and are absorbed, then used for respiration and growth.",
         "Mushrooms and other wood- and leaf-rotting fungi are the main decomposers of the cellulose and woody material of dead plants, which most bacteria cannot break down.",
-        "Parasitic fungi feed on living hosts and harm them, e.g. athlete's foot in humans and ash dieback in ash trees (see “Pathogens”).",
-        "Mutualistic fungi live in partnership with other organisms: mycorrhizal fungi with plant roots, and the fungus in a lichen (see “Biotic factors and relationships”)."
-      ]
+        "Parasitic fungi feed on living hosts and harm them, e.g. athlete's foot in humans and ash dieback in ash trees.",
+        "Mutualistic fungi live in partnership with other organisms to the benefit of both: mycorrhizal fungi with plant roots, and the fungus in a lichen."
+      ],
+      "tip": "State the mode of nutrition as saprophytic and heterotrophic, and remember that saprophytes digest outside their cells, then absorb."
     },
     {
-      "h": "Distinguishing bacteria and fungi",
+      "h": "Distinguishing bacteria and fungi: cell structure",
+      "b": "Bacteria and fungi both decompose dead matter, but their cells are built very differently. These contrasts are the first set to learn, as a pair for each feature.",
       "points": [
         "Cellular nature: bacteria are prokaryotic, with no nucleus and no membrane-bound organelles; fungi are eukaryotic, with nuclei, mitochondria and other membrane-bound organelles.",
         "DNA: bacteria have one circular chromosome, not wound around histones, plus plasmids; fungi have several linear chromosomes of DNA wound around histones, inside a nucleus.",
@@ -138,12 +187,21 @@
         "Cell wall: bacteria have peptidoglycan walls; fungi have chitin walls.",
         "Organisation and size: bacteria are single cells about 1–10 µm long, which grow in colonies but each cell lives independently.",
         "Most fungi are multicellular, with hyphae that form a mycelium visible to the naked eye, although yeasts are single cells, larger than most bacteria.",
+        "Food stores: bacteria store glycogen or lipid granules; fungi store glycogen and lipid, and neither stores starch."
+      ],
+      "tip": "Distinguish bacteria and fungi in terms of structure and cellular nature. Give both sides of each pair (for example peptidoglycan against chitin), not just one."
+    },
+    {
+      "h": "Distinguishing bacteria and fungi: nutrition, reproduction, treatment and similarities",
+      "b": "The other differences are in how they feed, reproduce and respond to drugs. The groups also share some features, so a full comparison includes both.",
+      "points": [
         "Nutrition: bacteria can be autotrophic (photosynthetic or chemosynthetic) or heterotrophic (saprophytic, parasitic or mutualistic); fungi are always heterotrophic (saprophytic, parasitic or mutualistic).",
-        "Food stores: bacteria store glycogen or lipid granules; fungi store glycogen and lipid, and neither stores starch.",
         "Reproduction: bacteria reproduce by binary fission, and some form endospores for survival; fungi reproduce by spores (moulds) or budding (yeasts), and also sexually.",
         "Treatment of infections: antibiotics act on bacteria, targeting the peptidoglycan wall or 70S ribosomes, and not on fungi; fungal infections need antifungal drugs.",
-        "Similarities: both can be decomposers that digest food outside their cells and absorb it; both have cell walls, a cell membrane, cytoplasm, ribosomes and DNA; both include pathogens and many useful species (see “Microorganisms in industry”)."
-      ]
+        "Similarities: both can be decomposers that digest food outside their cells and absorb it; both have cell walls, a cell membrane, cytoplasm, ribosomes and DNA.",
+        "Both groups include pathogens and many useful species. There is more on this in Microorganisms in industry."
+      ],
+      "tip": "Distinguish bacteria and fungi in nutrition as well as structure: only bacteria can be autotrophic. Remember that antibiotics do not work on fungi, so fungal infections need antifungal drugs."
     }
   ],
   "keyTerms": [

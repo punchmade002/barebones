@@ -6,192 +6,228 @@
   "notes": [
     {
       "h": "Stress and the structures it produces",
-      "b": "Plate movement at boundaries produces three kinds of stress, and each kind produces a different structure.",
+      "b": "Plate movement at boundaries (the lines where the Earth's crustal plates meet) puts the rock of the crust under stress, meaning a force that squeezes, stretches or drags it. Three kinds of stress occur, and each produces a different structure.",
       "points": [
-        "Compression (pushing together) produces folds and reverse or thrust faults; it occurs where plates converge.",
-        "Tension (pulling apart) produces normal faults; it occurs where plates diverge.",
-        "Shearing (sliding past) produces tear, or strike-slip, faults; it occurs where plates slide past each other.",
-        "Rock bends into folds when compressed slowly, especially when deep, hot and under pressure.",
-        "Rock breaks, forming faults, when stress is sudden or the rock is brittle."
-      ]
+        "Compression (pushing together) produces folds and reverse or thrust faults. It occurs where plates converge, meaning move towards each other.",
+        "Tension (pulling apart) produces normal faults. It occurs where plates diverge, meaning move away from each other.",
+        "Shearing (sliding past) produces tear, or strike-slip, faults. It occurs where plates slide past each other.",
+        "Rock bends into folds when compressed slowly, especially when it is deep, hot and under pressure, because rock in those conditions can flex instead of snapping.",
+        "Rock breaks, forming faults (fractures along which rock has moved), when stress is sudden or the rock is brittle, because brittle rock cannot bend without cracking."
+      ],
+      "tip": "Exams ask you to match each stress to its structure, often as a table or by matching diagrams. Normal fault = tension, reverse fault = compression, tear (and transform) fault = shearing. Never swap normal and reverse."
     },
     {
       "h": "Compression, anticlines and synclines",
+      "b": "Folding is the first of the structures of deformation (changes to rock layers caused by stress). It starts with compression, and the folds that result have named parts you must be able to label.",
       "points": [
-        "Compression is horizontal pressure that squeezes layers of rock into a shorter distance, so they buckle into folds.",
-        "An anticline is an upfold: layers are pushed upwards into an arch.",
-        "A syncline is a downfold: layers are pushed downwards into a trough.",
-        "The limbs are the sides of a fold; the axis is the line along its crest or trough.",
+        "Compression is horizontal pressure that squeezes layers of rock into a shorter distance, so they buckle into folds. This is the short definition to give if asked.",
+        "An anticline is an upfold: layers are pushed upwards into an arch. A helps you remember: A for apex.",
+        "A syncline is a downfold: layers are pushed downwards into a trough (a U-shaped dip).",
+        "The limbs are the sides of a fold; the axis is the line along its crest (the top of an anticline) or along the bottom of a trough.",
         "Diagram: label the anticline A and the syncline B."
-      ]
+      ],
+      "tip": "Exams ask you to label the parts of a fold and to explain compression as it relates to folding. Anticline = up, syncline = down."
     },
     {
       "h": "Types of fold, in order of increasing compression",
+      "b": "The more strongly rock is compressed, the more the fold is tilted and distorted. Five types are named, from the gentlest to the most extreme.",
       "points": [
-        "Simple (symmetrical) fold: the two limbs dip at equal angles.",
-        "Asymmetrical fold: one limb is steeper than the other.",
-        "Overfold: one limb is pushed over the other.",
-        "Recumbent fold: the folded layers lie almost flat.",
-        "Overthrust fold, or nappe: the fold breaks along a thrust fault and is pushed far forward over other rocks.",
-        "Diagram: one cross-section sketch for each of the five types, in that order."
-      ]
+        "Simple (symmetrical) fold: the two limbs dip at equal angles, so the fold looks the same on both sides.",
+        "Asymmetrical fold: one limb is steeper than the other, because the compression is stronger from one side.",
+        "Overfold: one limb is pushed over the other, because the compression is stronger still.",
+        "Recumbent fold: the folded layers lie almost flat, because the fold has been pushed right over.",
+        "Overthrust fold, or nappe: the fold breaks along a thrust fault (a low-angle fracture) and is pushed far forward over other rocks.",
+        "Diagram: one cross-section sketch (a side-on slice through the rock) for each of the five types, in that order."
+      ],
+      "tip": "Exams ask you to match diagrams to the types of fold. Learn the order, from simple to nappe, and the shape that goes with each."
     },
     {
       "h": "How fold mountains form",
+      "b": "Fold mountains are the large-scale landform made by folding. They form when two plates converge and the rock between them is crumpled upwards, so this is the answer to a question on how fold mountains are formed.",
       "points": [
-        "1. Sediments are deposited in a sea lying between two converging plates.",
+        "1. Sediments (layers of mud, sand and other material laid down over time) are deposited in a sea lying between two converging plates.",
         "2. The plates converge, and the sediments are compressed.",
         "3. The sediments are folded into anticlines and synclines.",
         "4. Continued pressure produces overfolds, recumbent folds and nappes.",
         "5. The crust is thickened and uplifted into long, high ranges parallel to the plate edge.",
         "Diagram: before-and-after cross-sections of the sea floor and the resulting fold mountain."
-      ]
+      ],
+      "tip": "This is asked as a how-are-fold-mountains-formed question with diagrams, so give the five stages in order and draw the before-and-after cross-sections."
     },
     {
       "h": "Young and old fold mountains",
+      "b": "Fold mountains look different depending on their age, because weathering (the breakdown of rock at the surface) and erosion (the wearing away and carrying off of the broken material) lower them over time.",
       "points": [
-        "Young fold mountains, such as the Alps, are high and steep.",
+        "Young fold mountains, such as the Alps, are high, steep and jagged because they have had little time to be worn down.",
         "Old fold mountains have been worn down by hundreds of millions of years of weathering and erosion into lower, rounded mountains.",
         "Ireland's mountains are old fold mountains, formed by Caledonian folding (north-east to south-west trend: Donegal, Mayo, Wicklow) and Armorican folding (east to west trend: Munster).",
         "Other young fold ranges include the Himalayas, the Andes, the Rockies and the Atlas Mountains of north Africa."
-      ]
+      ],
+      "tip": "Ireland's two periods of fold mountain building are Caledonian and Armorican. Alpine folding did not build Ireland's mountains. Exams also ask you to name a fold mountain range outside Ireland and an Irish range formed by Armorican folding."
     },
     {
       "h": "Differential erosion in folded rock",
+      "b": "Different rocks wear away at different speeds, which is called differential erosion. In folded land this decides which rocks end up as high ground and which as low ground.",
       "points": [
-        "The landform depends on which rocks are exposed by erosion.",
+        "The landform depends on which rocks are exposed by erosion, because hard rock resists wearing away and soft rock does not.",
         "In Munster, resistant sandstone survives on the anticlines as ridges.",
         "Weaker limestone survives in the synclines as valleys."
-      ]
+      ],
+      "tip": "In Munster the ridges are anticlines and the valleys are synclines. Don't reverse them."
     },
     {
       "h": "Folding and drainage",
+      "b": "Drainage means the pattern of rivers in an area. Folded rock shapes it because rivers take the easiest route.",
       "points": [
-        "Rivers follow the weak rock along the synclines.",
-        "Where a river breaks through a ridge, it cuts across it, giving trellised drainage and sharp right-angled bends."
+        "Rivers follow the weak rock along the synclines, because weak rock is easiest to cut into.",
+        "Where a river breaks through a ridge, it cuts across it, giving trellised drainage (a pattern of main rivers running parallel with tributaries joining at right angles) and sharp right-angled bends."
       ]
     },
     {
       "h": "South Ireland ridge-and-valley province (Munster)",
-      "b": "Armorican folding produced a landscape of east to west ridges and valleys.",
+      "b": "Armorican folding produced a landscape of east to west ridges and valleys in Munster, the southern province of Ireland. It shows differential erosion and folded drainage in one place.",
       "points": [
         "Ridges of Old Red Sandstone include Macgillycuddy's Reeks, the Galtee Mountains, the Knockmealdown Mountains and the Caha Mountains.",
         "Valleys of Carboniferous limestone include the Blackwater valley and the Lee valley.",
         "The River Blackwater flows east along a limestone valley, then turns sharply south at Cappoquin, Co. Waterford, to reach the sea at Youghal.",
-        "The River Lee flows east to Cork Harbour.",
-        "The coastal ends of the valleys in Co. Cork and Kerry were drowned to form rias: Bantry Bay, Dingle Bay and the Kenmare River."
-      ]
+        "The River Lee flows east to Cork Harbour, following its limestone valley, so it too runs along the folds.",
+        "The coastal ends of the valleys in Co. Cork and Kerry were drowned by the sea to form rias (long inlets): Bantry Bay, Dingle Bay and the Kenmare River."
+      ],
+      "tip": "Exams ask you to name an Irish mountain range formed by Armorican folding. Munster's ridges, such as the Galtee Mountains, are the answer. Carrauntoohil lies in Macgillycuddy's Reeks."
     },
     {
       "h": "The Armorican front",
+      "b": "Armorican folding was not equally strong everywhere. The Armorican front marks where it changes from strong to gentle.",
       "points": [
         "The Armorican front is the northern limit of strong Armorican folding, running east to west across Munster.",
         "South of the front, rocks were intensely folded and pushed, or thrust, northwards.",
-        "North of the front, folding is gentle."
+        "North of the front, folding is gentle, so the rocks there are less crumpled."
       ]
     },
     {
       "h": "The Alps",
+      "b": "The Alps are young fold mountains, high and jagged, formed by Alpine folding. Recumbent folds and nappes, two of the most strongly compressed fold types, are characteristic of them.",
       "points": [
         "Alpine folding resulted from the collision of the African plate with the Eurasian plate.",
-        "Recumbent folds and nappes are characteristic of the Alps.",
+        "Recumbent folds and nappes are characteristic of the Alps, which fits the very strong compression there.",
         "Mont Blanc is the highest peak of the Alps."
-      ]
+      ],
+      "tip": "Alpine folding did not build Ireland's mountains. Use the Alps when asked for a fold mountain range outside Ireland."
     },
     {
       "h": "The Appalachians",
+      "b": "The Appalachians show what old fold mountains look like. They link back to Ireland's own mountains.",
       "points": [
-        "The Appalachian Mountains of eastern North America are old fold mountains.",
+        "The Appalachian Mountains of eastern North America are old fold mountains, so they are worn down rather than steep.",
         "They were folded in the same mountain-building episodes as Ireland's older mountains, when the two continents were joined.",
-        "The Ridge-and-Valley Appalachians show long, parallel folded ridges and valleys."
+        "The Ridge-and-Valley Appalachians show long, parallel folded ridges and valleys, with trellised drainage."
       ]
     },
     {
       "h": "Doming",
+      "b": "Doming is a different kind of upward bending. Instead of a long ridge of folds, the rock is pushed up into a single rounded shape.",
       "points": [
-        "Doming pushes rock layers upwards from below into a circular or oval upfold, by compression or by rising magma.",
-        "Erosion removes the top of the dome first, exposing older rocks in the centre.",
-        "Resistant layers form rings of escarpments facing inwards towards the centre.",
-        "Drainage flows outwards from the centre in a radial pattern.",
+        "Doming pushes rock layers upwards from below into a circular or oval upfold, by compression or by rising magma (molten rock from underground).",
+        "Erosion removes the top of the dome first, exposing older rocks in the centre, because the oldest layers lie at the bottom.",
+        "Resistant layers form rings of escarpments (long steep slopes) facing inwards towards the centre.",
+        "Drainage flows outwards from the centre in a radial pattern, like spokes of a wheel, because the ground slopes away from the middle.",
         "Example: the Lake District, England, with rivers and lakes radiating outwards from the centre."
-      ]
+      ],
+      "tip": "Doming pushes rock layers upwards. This is asked as a true or false statement."
     },
     {
       "h": "The Weald, south-east England",
+      "b": "The Weald is the worked example of an eroded dome. It is a dome, not a basin, and its escarpments face inwards.",
       "points": [
-        "Rock layers in Kent, Surrey and Sussex were pushed up into a dome, an elongated anticline.",
+        "Rock layers in Kent, Surrey and Sussex were pushed up into a dome, an elongated anticline (an upfold stretched in one direction).",
         "Erosion removed the chalk from the top, exposing older sandstones and clays.",
-        "The chalk now forms the North Downs and the South Downs, two escarpments.",
-        "Clay vales lie inside the Downs, and sandstone forms the High Weald in the centre."
-      ]
+        "The chalk now forms the North Downs and the South Downs, two escarpments that face inwards towards the Weald.",
+        "Clay vales (low, wide valleys) lie inside the Downs, and sandstone forms the High Weald in the centre."
+      ],
+      "tip": "The Weald is a dome (an eroded anticline), not a basin, and the escarpments of the Downs face inwards."
     },
     {
       "h": "Faults and displacement",
+      "b": "Where rock is too brittle to bend, it breaks instead. A break along which the rock moves is a fault, and the way the rock moves is called displacement.",
       "points": [
         "A fault is a fracture in the crust along which rocks have moved.",
         "Displacement may be vertical (rocks move up or down), horizontal (rocks move sideways), or both."
-      ]
+      ],
+      "tip": "Exams ask you to name two types of fault. The three are normal, reverse and tear."
     },
     {
       "h": "Normal faults (tension)",
+      "b": "A normal fault is the fault produced when the crust is pulled apart.",
       "points": [
         "Tension pulls the crust apart.",
-        "One block slides down the fault plane relative to the other, so the crust is lengthened.",
+        "One block slides down the fault plane (the sloping surface of the fracture) relative to the other, so the crust is lengthened.",
         "Diagram: a block sliding down along a fault plane, marked as a normal fault."
-      ]
+      ],
+      "tip": "Normal fault = tension. Never swap normal and reverse."
     },
     {
       "h": "Reverse and thrust faults (compression)",
+      "b": "A reverse fault is the opposite of a normal fault. Compression squeezes the crust, so the movement along the fault is reversed.",
       "points": [
         "Compression pushes one block up the fault plane over the other, so the crust is shortened.",
         "A thrust fault is a low-angle reverse fault that can push rocks a long way forward, linked to nappes.",
         "Diagram: a block pushed up and over the other along a fault plane, marked as a reverse fault."
-      ]
+      ],
+      "tip": "Reverse fault = compression. Exams ask for true or false that reverse faults are caused by compression, and they ask you to match diagrams to the fault types."
     },
     {
       "h": "Tear (strike-slip) faults (shearing)",
+      "b": "In a tear fault the rock moves sideways, not up or down. Shearing, where blocks are dragged past each other, causes it.",
       "points": [
-        "Shearing makes blocks move horizontally past each other along a tear fault.",
-        "A transform fault is a tear fault at a plate boundary.",
+        "Shearing makes blocks move horizontally past each other along a tear fault, so there is little up or down movement.",
+        "A transform fault is a tear fault at a plate boundary, so it is where plates slide past each other.",
         "Examples of transform faults: the San Andreas Fault, California; the North and East Anatolian Faults, Turkey."
-      ]
+      ],
+      "tip": "Tear (and transform) fault = shearing. Exams ask you to match the diagram of each fault to its stress."
     },
     {
       "h": "Landforms of tear faults",
+      "b": "The rock along a tear fault is crushed and weakened. Erosion works on it, and the sideways movement shifts anything that crosses the fault.",
       "points": [
-        "The shattered rock of the fault zone is eroded into a straight valley.",
-        "Ridges and rivers are offset sideways across the fault.",
+        "The shattered rock of the fault zone is eroded into a straight valley, because crushed rock wears away easily.",
+        "Ridges and rivers are offset sideways across the fault, because the blocks have moved horizontally.",
         "Example: the Great Glen Fault, Scotland, where Loch Ness lies in the straight valley eroded along it."
       ]
     },
     {
       "h": "Donegal tear faults",
+      "b": "Ireland has its own tear faults, in Donegal. They show how a fault zone becomes a straight valley.",
       "points": [
         "The Donegal tear faults run north-east to south-west.",
-        "Rivers and glaciers have eroded long, straight valleys along them.",
+        "Rivers and glaciers have eroded long, straight valleys along them, because the broken rock of the fault zone is easier to erode.",
         "The Gweebarra Fault and the Leannan Fault are two of them; the Gweebarra River valley follows the Gweebarra Fault."
       ]
     },
     {
       "h": "Fault scarp, horst and graben",
+      "b": "Faulting produces landforms when one block ends up higher than its neighbour. Exams ask for two of these landforms by name.",
       "points": [
         "A fault scarp is a steep slope or cliff where one block has been raised above the other.",
-        "A horst is a block raised between two parallel faults, or left standing as the land on either side sinks.",
+        "A horst (block mountain) is a block raised between two parallel faults, or left standing as the land on either side sinks.",
         "A graben, or rift valley, is a block that sinks between two parallel normal faults, forming a long, flat-floored valley with steep walls, often holding lakes.",
         "Diagram: a fault scarp as a steep cliff between two blocks at different heights."
-      ]
+      ],
+      "tip": "A horst goes up; a graben goes down. A rift valley is a graben, not a river valley. Exams ask you to name one or two landforms of faulting and give true or false statements on horsts and grabens."
     },
     {
       "h": "How a horst and graben form",
+      "b": "A horst and a graben form together, side by side, when tension stretches the crust. Both come from the same set of normal faults.",
       "points": [
         "1. Tension stretches the crust, producing normal faults on either side of a block.",
         "2. The central block sinks between the faults, forming a graben.",
         "3. The blocks on either side stand higher, forming horsts.",
         "Diagram: horst and graben shown together in one cross-section, with the normal faults labelled."
-      ]
+      ],
+      "tip": "Horsts and grabens are associated with faulting. Show them together in one cross-section and label the normal faults."
     },
     {
       "h": "Rift valleys and horsts in practice",
+      "b": "Three real examples show a graben, with or without its neighbouring horsts.",
       "points": [
         "The Rhine rift valley, a graben, lies between the Vosges, France, and the Black Forest, Germany, which are horsts.",
         "The East African Rift Valley includes a graben in which Lake Tanganyika lies.",
@@ -200,10 +236,12 @@
     },
     {
       "h": "Faults and the wider landscape",
+      "b": "Faults affect the landscape beyond the landforms they build directly.",
       "points": [
         "Faults help to guide the lines of coastlines and drainage.",
-        "Earthquakes occur along active faults."
-      ]
+        "Earthquakes occur along active faults, meaning faults where the rock is still moving."
+      ],
+      "tip": "The Higher Level question asks how folding or faulting influences the development of landforms. Use the folds, faults, horsts, grabens and drainage patterns above, with a named example."
     }
   ],
   "keyTerms": [

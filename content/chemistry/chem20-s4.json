@@ -6,69 +6,80 @@
   "notes": [
     {
       "h": "Structure of a lithium-ion cell",
+      "b": "A lithium-ion cell stores energy in two electrodes (the solid conductors where the reactions happen) that lithium ions can move in and out of. Knowing what each part is made of, and why, lets you explain both discharging and recharging.",
       "points": [
-        "A lithium-ion cell is a rechargeable (secondary) cell; see “Primary and secondary cells”.",
-        "The negative electrode is graphite, in which lithium atoms are stored between layers of carbon atoms; when fully charged it is written LiC₆.",
+        "A lithium-ion cell is a rechargeable (secondary) cell, meaning its reaction can be reversed by an electrical supply so it can be used again. There is more on this in Galvanic and electrolytic cells.",
+        "The negative electrode is graphite, in which lithium atoms are stored between layers of carbon atoms; when the cell is fully charged this is written LiC₆.",
         "The positive electrode is a lithium metal oxide, e.g. lithium cobalt oxide, LiCoO₂; other types use nickel–manganese–cobalt oxides or lithium iron phosphate, LiFePO₄.",
-        "The electrolyte is a lithium salt, e.g. LiPF₆, dissolved in an organic (non-aqueous) solvent, which lets Li⁺ ions move between the electrodes.",
+        "The electrolyte (the substance between the electrodes that carries charge as moving ions) is a lithium salt, e.g. LiPF₆, dissolved in an organic (non-aqueous) solvent, which lets Li⁺ ions move between the electrodes.",
         "Water cannot be used as the solvent because lithium reacts with it.",
-        "Electrons flow only through the external circuit; in the electrolyte the charge is carried by ions.",
-        "A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching, which would short-circuit the cell.",
-        "Li⁺ ions move in and out of the layered structures of both electrodes without destroying them (intercalation), so the cell can be charged and discharged many times.",
-        "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right), each on a current collector, with electrolyte between them and a separator in the middle, and an external circuit with a device; arrows show Li⁺ moving through the electrolyte and electrons moving through the external circuit, labelled for discharging (both towards the positive electrode) and charging (both towards the graphite)."
-      ]
+        "Electrons flow only through the external circuit (the wires and device outside the cell); in the electrolyte the charge is carried by ions.",
+        "A porous plastic separator between the electrodes lets Li⁺ ions pass but stops the electrodes touching, which would short-circuit the cell (let current bypass the device).",
+        "Li⁺ ions move in and out of the layered structures of both electrodes without destroying them (a process called intercalation), so the cell can be charged and discharged many times.",
+        "Diagram: graphite negative electrode (left) and metal oxide positive electrode (right) with a separator between them in the electrolyte, joined by an external circuit with a device; Li⁺ moves through the electrolyte and electrons through the circuit, towards the positive electrode on discharge and towards the graphite on charge."
+      ],
+      "tip": "The negative electrode holds lithium atoms stored in graphite, not a block of lithium metal. Electrons travel through the external circuit, never through the electrolyte, where ions carry the charge."
     },
     {
       "h": "Discharging: a galvanic cell",
+      "b": "Discharging is the cell doing its job of powering a device. The cell then behaves as a galvanic cell, and each electrode has its own half-reaction.",
       "points": [
-        "When the cell powers a device it acts as a galvanic cell: a spontaneous redox reaction converts chemical energy into electrical energy (see “The galvanic cell”).",
-        "At the negative electrode, which is the anode during discharge, lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻ (in simplest form, Li → Li⁺ + e⁻).",
+        "When the cell powers a device it acts as a galvanic cell: a spontaneous redox reaction (one with electron transfer, happening by itself) converts chemical energy into electrical energy. There is more on this in Galvanic and electrolytic cells.",
+        "At the negative electrode, which is the anode during discharge (the anode is the electrode where oxidation, loss of electrons, happens), lithium is oxidised: LiC₆ → C₆ + Li⁺ + e⁻ (in simplest form, Li → Li⁺ + e⁻).",
         "The electrons flow through the external circuit to the positive electrode, doing electrical work in the device on the way.",
-        "The Li⁺ ions move through the electrolyte and separator to the positive electrode.",
-        "At the positive electrode, which is the cathode during discharge, the metal oxide is reduced as it takes in Li⁺ ions and electrons: CoO₂ + Li⁺ + e⁻ → LiCoO₂.",
+        "The Li⁺ ions move through the electrolyte and separator to the positive electrode, which keeps the charge balanced as electrons leave the negative electrode.",
+        "At the positive electrode, which is the cathode during discharge (the electrode where reduction, gain of electrons, happens), the metal oxide is reduced as it takes in Li⁺ ions and electrons: CoO₂ + Li⁺ + e⁻ → LiCoO₂.",
         "Overall discharge reaction: LiC₆ + CoO₂ → C₆ + LiCoO₂.",
         "A typical LiCoO₂–graphite cell gives about 3.6–3.7 V; LiFePO₄ cells give about 3.2 V."
-      ]
+      ],
+      "tip": "Exams ask how the cell works on discharge and how oxidation as electron transfer applies to it. Describe the metal oxide simply as reduced, with no oxidation-state detail for cobalt."
     },
     {
       "h": "Recharging: an electrolytic cell",
+      "b": "Recharging runs the discharge reaction backwards. Because that reverse reaction does not happen by itself, a charger must force it, and the cell then behaves as an electrolytic cell.",
       "points": [
-        "When the cell is connected to a charger it acts as an electrolytic cell: an external electrical supply drives the non-spontaneous reverse reaction, converting electrical energy into chemical energy (see “The electrolytic cell”).",
-        "At the metal oxide electrode, which is now the anode, oxidation releases Li⁺ ions and electrons: LiCoO₂ → CoO₂ + Li⁺ + e⁻.",
+        "When the cell is connected to a charger it acts as an electrolytic cell: an external electrical supply drives the non-spontaneous reverse reaction, converting electrical energy into chemical energy. There is more on this in Galvanic and electrolytic cells.",
+        "At the metal oxide electrode, which is now the anode (where oxidation happens), oxidation releases Li⁺ ions and electrons: LiCoO₂ → CoO₂ + Li⁺ + e⁻.",
         "The charger pushes the electrons through the external circuit to the graphite electrode, and the Li⁺ ions move back through the electrolyte to it.",
-        "At the graphite electrode, now the cathode, Li⁺ ions are reduced and stored between the graphite layers: C₆ + Li⁺ + e⁻ → LiC₆.",
+        "At the graphite electrode, now the cathode (where reduction happens), Li⁺ ions are reduced and stored between the graphite layers: C₆ + Li⁺ + e⁻ → LiC₆.",
         "Overall charge reaction: C₆ + LiCoO₂ → LiC₆ + CoO₂.",
         "Charging stores energy in the changed electrodes, not as stored electrons; the charge stays balanced throughout.",
         "The anode is always the electrode where oxidation happens, so the graphite electrode is the anode on discharge and the cathode on charge; it remains the negative terminal throughout."
-      ]
+      ],
+      "tip": "The names anode and cathode swap between discharging and charging, but the positive and negative terminals do not. Define the anode as the electrode where oxidation happens and the swap makes sense."
     },
     {
       "h": "Why lithium",
+      "b": "Lithium is chosen because its properties give a battery that is light and delivers a high voltage. Together these make a lot of energy available from a small mass.",
       "points": [
         "Lithium is the least dense metal, with a density of 0.53 g cm⁻³, so batteries are light.",
-        "Lithium is at the top of the electrochemical series, with a standard electrode potential of −3.04 V (see “The electrochemical series and displacement”).",
+        "Lithium is at the top of the electrochemical series (the list of species ranked by how readily they gain or lose electrons), with a standard electrode potential of −3.04 V. There is more on this in Balancing redox equations and the electrochemical series.",
         "Lithium loses electrons very easily, so lithium cells have a high voltage.",
         "Together these properties give a high energy density, meaning a large amount of energy stored per kilogram, which suits portable devices and vehicles.",
-        "Lithium-ion cells hold their charge well when not in use and have no memory effect.",
+        "Lithium-ion cells hold their charge well when not in use and have no memory effect (a loss of capacity that some older rechargeable batteries suffer).",
         "The lithium-ion battery was developed by John B. Goodenough, M. Stanley Whittingham and Akira Yoshino, who shared the 2019 Nobel Prize in Chemistry.",
         "Sony sold the first commercial lithium-ion batteries in 1991."
-      ]
+      ],
+      "tip": "The 2019 Nobel Prize in Chemistry was for rechargeable lithium-ion batteries, so know the prize and the three names."
     },
     {
       "h": "Life cycle: mining",
+      "b": "A battery's life cycle starts with getting its raw materials out of the ground. Mining is the first stage where the battery has environmental and social costs.",
       "points": [
         "A lithium-ion battery needs lithium and, depending on its type, cobalt, nickel, manganese, graphite, copper and aluminium.",
         "Lithium is extracted from hard rock, the mineral spodumene, which is mined mainly in Australia.",
-        "Lithium is also extracted from salty brines pumped from under salt flats in South America, the “lithium triangle” of Chile, Argentina and Bolivia, where the water is evaporated in large ponds.",
+        "Lithium is also extracted from brines (very salty water) pumped from under salt flats in South America, the “lithium triangle” of Chile, Argentina and Bolivia, where the water is evaporated in large ponds.",
         "Brine extraction uses large amounts of water in some of the driest places on Earth, affecting local farmers, Indigenous communities and wildlife.",
         "Hard-rock mining needs energy and produces waste rock, dust and emissions.",
         "About 70% of the world's cobalt comes from the Democratic Republic of the Congo, where some is mined by hand in unsafe conditions, including by children.",
         "This has led to responsible-sourcing schemes and to cobalt-free battery types, e.g. lithium iron phosphate.",
-        "Refining the raw materials and manufacturing cells uses a lot of energy, so a battery has a large carbon footprint before it is used."
-      ]
+        "Refining the raw materials and manufacturing cells uses a lot of energy, so a battery has a large carbon footprint (total greenhouse gas emissions caused) before it is used."
+      ],
+      "tip": "Describe mining only as a life-cycle stage with its impacts. How metals are extracted is not on the specification."
     },
     {
       "h": "Life cycle: usage and applications",
+      "b": "In use, lithium-ion batteries bring real benefits, but they also wear out and carry a safety hazard. A life-cycle answer needs both sides.",
       "points": [
         "Applications include mobile phones, laptops, tablets, cordless tools, e-bikes and e-scooters, electric vehicles, and large batteries that store electricity from wind and solar power for the grid.",
         "Electric vehicles produce no exhaust emissions, which improves air quality in towns.",
@@ -77,37 +88,43 @@
         "The capacity falls gradually with each charge–discharge cycle and with age, because of side reactions at the electrodes, so batteries eventually need replacing.",
         "Avoiding very high temperatures and keeping the charge between full and empty extends battery life.",
         "If a cell is damaged, overcharged, short-circuited or overheated, it can undergo thermal runaway: it heats up uncontrollably, and the flammable organic electrolyte can catch fire or explode.",
-        "Batteries include a battery management system to prevent overcharging and overheating."
-      ]
+        "Batteries include a battery management system (electronics that monitor the cell) to prevent overcharging and overheating."
+      ],
+      "tip": "Exams ask for life-cycle impacts of lithium-ion batteries, so pair each benefit in use with a cost such as capacity loss or thermal runaway."
     },
     {
       "h": "Life cycle: disposal and recycling",
+      "b": "At the end of its life a battery holds both hazardous and valuable materials. Where it ends up decides whether it is a fire risk or a resource.",
       "points": [
         "Used lithium-ion batteries must never go in household bins, because crushed or punctured batteries cause fires in bin lorries and waste facilities.",
-        "Used batteries contain toxic and valuable materials.",
+        "Used batteries contain toxic and valuable materials, which is why they should be collected separately.",
         "In Ireland, shops that sell batteries take back used batteries free of charge, and used batteries can be left at recycling centres.",
         "Vehicle batteries are returned through the dealers.",
         "Recycling reduces the need for new mining, the waste sent to landfill and the risk of pollution.",
         "Recycling is technically difficult, costly and energy-demanding, and only a fraction of batteries are currently recycled.",
         "The EU Batteries Regulation (2023) sets rising targets for collection, recovery of materials and recycled content.",
-        "Used vehicle batteries with reduced capacity can have a “second life” as stationary storage before they are recycled."
-      ]
+        "Used vehicle batteries with reduced capacity can have a “second life” as stationary storage (a fixed battery that stores electricity) before they are recycled, which extends their use."
+      ],
+      "tip": "Exams ask for life-cycle impacts, so give recycling's benefits and its difficulties together."
     },
     {
       "h": "Recovering metals from used batteries",
+      "b": "Recycling works in three steps that turn whole batteries into a powder from which metals can be recovered. Two methods can then be used, with different strengths.",
       "points": [
-        "Step 1: The batteries are collected and discharged.",
-        "Step 2: The batteries are dismantled and shredded to a powder called “black mass”.",
-        "Step 3: Metals are recovered from the black mass.",
-        "Pyrometallurgy is smelting at high temperature; it recovers cobalt, nickel and copper, but uses a lot of energy and loses most of the lithium.",
-        "Hydrometallurgy dissolves the metals in acid and separates them by precipitation; it recovers more, including lithium."
+        "1. The batteries are collected and discharged, which makes them safer to handle.",
+        "2. The batteries are dismantled and shredded to a powder called “black mass”.",
+        "3. Metals are recovered from the black mass.",
+        "Pyrometallurgy is smelting (heating to extract metal) at high temperature; it recovers cobalt, nickel and copper, but uses a lot of energy and loses most of the lithium.",
+        "Hydrometallurgy dissolves the metals in acid and separates them by precipitation (making a dissolved metal form a solid so it can be filtered off); it recovers more, including lithium."
       ]
     },
     {
       "h": "The life cycle as a whole",
+      "b": "Putting the stages together gives a balanced judgement: lithium-ion batteries help the environment in use but cost something at every stage.",
       "points": [
-        "Lithium-ion batteries help cut fossil-fuel use, but each stage of the life cycle has environmental and social costs; longer battery life, responsible sourcing and recycling reduce those costs but do not remove them."
-      ]
+        "Lithium-ion batteries help cut fossil-fuel use, but each stage of the life cycle (mining, usage, disposal and recycling) has environmental and social costs; longer battery life, responsible sourcing and recycling reduce those costs but do not remove them."
+      ],
+      "tip": "Exams ask for life-cycle impacts of lithium-ion batteries, so finish with this balanced view."
     }
   ],
   "keyTerms": [

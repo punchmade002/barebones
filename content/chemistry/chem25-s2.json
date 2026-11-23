@@ -6,33 +6,51 @@
   "notes": [
     {
       "h": "Telling aldehydes and ketones apart",
+      "b": "Aldehydes and ketones both contain the carbonyl group (a carbon double-bonded to oxygen, C=O), so they look alike. The difference is one hydrogen atom, and that hydrogen decides whether the compound can be oxidised (have oxygen added or hydrogen removed) by a mild reagent.",
       "points": [
         "An aldehyde has the –CHO group: the carbonyl carbon carries a hydrogen atom, e.g. ethanal, CH₃CHO.",
-        "A ketone has the C=O group joined to two carbon atoms, e.g. propanone, CH₃COCH₃.",
-        "An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH; aldehydes are good reducing agents.",
-        "A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond.",
+        "A ketone has the C=O group joined to two carbon atoms, so its carbonyl carbon has no hydrogen, e.g. propanone, CH₃COCH₃.",
+        "An aldehyde is easily oxidised to a carboxylic acid, because the hydrogen on the carbonyl carbon can be replaced by –OH. This makes aldehydes good reducing agents (substances that get oxidised themselves while reducing something else).",
+        "A ketone is not oxidised by mild oxidising agents, because its carbonyl carbon has no hydrogen; oxidising a ketone would mean breaking a C–C bond, which a mild reagent cannot do.",
         "A mild oxidising agent that changes colour on reaction therefore tells them apart: an aldehyde gives a colour change, while a ketone gives none."
-      ]
+      ],
+      "tip": "If asked why a ketone gives no reaction, say its carbonyl carbon has no hydrogen, so oxidising it would mean breaking a C–C bond."
     },
     {
-      "h": "Fehling's test for aldehydes",
+      "h": "Fehling's reagent: what it is",
+      "b": "Fehling's reagent is the mild oxidising agent the specification uses to test for aldehydes. It is made from two solutions that are kept apart and mixed only when needed.",
       "points": [
         "Fehling's reagent is made fresh by mixing equal volumes of Fehling's A (copper(II) sulfate solution, blue) and Fehling's B (potassium sodium tartrate and sodium hydroxide solution, colourless).",
-        "The mixture is a clear deep-blue solution containing Cu²⁺ ions.",
-        "The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate.",
-        "Method: put about 2 cm³ of Fehling's reagent into each of two test tubes.",
+        "The mixture is a clear deep-blue solution containing Cu²⁺ ions, which are the part that reacts with an aldehyde.",
+        "The tartrate keeps the Cu²⁺ ions in solution in the alkaline mixture; without it, copper(II) hydroxide would precipitate (form as an insoluble solid)."
+      ],
+      "tip": "Fehling's reagent is the specification's test for aldehydes and ketones. Acidified potassium permanganate also separates them, but it oxidises primary and secondary alcohols too, so it is not used."
+    },
+    {
+      "h": "Investigation: Fehling's test method and results",
+      "b": "The aim is to show which of two unlabelled liquids is the aldehyde (ethanal) and which is the ketone (propanone). Both are tested in the same way so the results can be compared.",
+      "points": [
+        "Method: put about 2 cm³ of Fehling's reagent into each of two test tubes, so that one can be tested with each liquid for comparison.",
         "Method: add a few drops of ethanal to one test tube and a few drops of propanone to the other.",
-        "Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame.",
+        "Method: warm both test tubes in a beaker of hot water (a water bath) for a few minutes; do not heat them with a naked flame, because the liquids are flammable.",
         "With ethanal, the blue solution gives a brick-red precipitate of copper(I) oxide, Cu₂O.",
         "With propanone there is no change: the solution stays blue.",
-        "An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde; one that leaves the reagent blue is a ketone.",
+        "An unknown carbonyl compound that gives a brick-red precipitate is an aldehyde, because only aldehydes reduce the Cu²⁺; one that leaves the reagent blue is a ketone."
+      ],
+      "tip": "Exams ask you to describe the test, the colour change and the identity of the red precipitate. The precipitate is brick-red Cu₂O, copper(I) oxide, not copper metal and not copper(II) oxide. For the ketone say the solution stays blue, not that it goes colourless."
+    },
+    {
+      "h": "Fehling's test: safety and diagram",
+      "b": "Both the reagent and the liquids being tested carry hazards, which is why the heating is done in a water bath.",
+      "points": [
         "Wear goggles, because Fehling's B contains sodium hydroxide, which is corrosive.",
-        "Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile and flammable, so keep them away from flames and use a water bath.",
+        "Ethanal (boiling point about 21 °C) and propanone (boiling point 56 °C) are volatile (they evaporate easily) and flammable, so keep them away from flames and use a water bath.",
         "Diagram: two test tubes standing in a beaker of hot water, labelled Fehling's reagent + ethanal (brick-red precipitate) and Fehling's reagent + propanone (blue)."
       ]
     },
     {
       "h": "Fehling's reagent as an oxidising agent (Higher Level only)",
+      "b": "The colour change is a redox reaction (one where electrons are transferred). The copper ions in the reagent are reduced while the aldehyde is oxidised.",
       "points": [
         "Fehling's reagent is a mild oxidising agent: the Cu²⁺ ions oxidise the aldehyde and are themselves reduced to copper(I).",
         "The aldehyde is oxidised to a carboxylic acid; in the alkaline reagent the acid is present as its salt, so ethanal forms ethanoate ions.",
@@ -40,77 +58,133 @@
         "Full ionic equation for the reduction in alkaline solution: 2Cu²⁺(aq) + 2OH⁻(aq) + 2e⁻ → Cu₂O(s) + H₂O(l).",
         "Overall equation: CH₃CHO + 2Cu²⁺ + 5OH⁻ → CH₃COO⁻ + Cu₂O + 3H₂O.",
         "Fehling's reagent is a weak oxidising agent, so ethanal reducing it shows that aldehydes are very easily oxidised; the reagent is too weak to oxidise a ketone."
-      ]
+      ],
+      "tip": "Fehling's reagent is the oxidising agent and is reduced; the aldehyde is the reducing agent and is oxidised. Do not reverse them. Exams ask for the half-equation for Cu²⁺, the organic product from ethanal, and whether ethanal is easy or hard to oxidise."
     },
     {
-      "h": "Showing that ethanoic acid is acidic",
+      "h": "Investigation: showing ethanoic acid is acidic, aim and indicator",
+      "b": "Carboxylic acids such as ethanoic acid show the usual properties of an acid. Three reactions (with a metal, a carbonate and a base) and an indicator (a dye that changes colour with acidity) are used to show this.",
       "points": [
         "Aim: to show that ethanoic acid behaves as an acid, by its reactions with a metal, a carbonate and a base, and by its effect on an indicator.",
         "Dilute ethanoic acid turns blue litmus red and has a pH below 7 (about 3, on universal indicator or a pH meter).",
-        "Magnesium: add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.",
+        "Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic."
+      ]
+    },
+    {
+      "h": "Ethanoic acid with magnesium",
+      "b": "An acid reacts with a reactive metal to give a salt and hydrogen gas, and the gas is identified with a lighted taper.",
+      "points": [
+        "Add a clean piece of magnesium ribbon to dilute ethanoic acid; bubbles of gas form slowly and the magnesium dissolves.",
         "The gas burns with a pop when a lighted taper is held at the mouth of the tube, so it is hydrogen.",
-        "Magnesium equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).",
-        "Sodium carbonate: add a little solid sodium carbonate to ethanoic acid; the mixture effervesces.",
+        "Equation: 2CH₃COOH(aq) + Mg(s) → (CH₃COO)₂Mg(aq) + H₂(g).",
+        "Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated (split into ions), so its H⁺ concentration is lower.",
+        "Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube."
+      ],
+      "tip": "Exams ask for the gas formed when magnesium is added to ethanoic acid, its test, and a balanced equation. The magnesium reaction shows acidic behaviour but is itself a redox reaction (Mg is oxidised, H⁺ is reduced), while the carbonate and hydroxide reactions are acid–base reactions."
+    },
+    {
+      "h": "Ethanoic acid with sodium carbonate",
+      "b": "Acids react with carbonates to release carbon dioxide, which gives a clear visible sign of reaction.",
+      "points": [
+        "Add a little solid sodium carbonate to ethanoic acid; the mixture effervesces (fizzes).",
         "The gas turns limewater milky, so it is carbon dioxide.",
-        "Sodium carbonate equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).",
-        "Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).",
-        "There is no visible change in this reaction, so add phenolphthalein to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise.",
-        "Control: repeat the tests with ethanol in place of ethanoic acid; ethanol gives no fizzing with magnesium or sodium carbonate and is neutral to indicator, which shows that the –COOH group, not the –OH group alone, is acidic.",
-        "Ethanoic acid reacts more slowly with magnesium than hydrochloric acid of the same concentration does, because it is a weak acid that is only partly dissociated, so its H⁺ concentration is lower.",
-        "Safety: wear goggles; concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid, and keep flames away when testing for hydrogen.",
-        "Diagram: a test tube of dilute ethanoic acid with magnesium ribbon, and a lighted taper held at the mouth of the tube.",
+        "Equation: 2CH₃COOH(aq) + Na₂CO₃(s) → 2CH₃COONa(aq) + H₂O(l) + CO₂(g).",
         "Diagram: a test tube of ethanoic acid with sodium carbonate, and a delivery tube bubbling the gas into limewater."
+      ],
+      "tip": "Exams ask for the gas formed when sodium carbonate is added to ethanoic acid, its test (limewater turns milky), and a balanced equation."
+    },
+    {
+      "h": "Ethanoic acid with sodium hydroxide",
+      "b": "A base neutralises an acid, giving a salt and water. Because this gives no gas, a different way of seeing the reaction is needed.",
+      "points": [
+        "Sodium hydroxide neutralises ethanoic acid, forming the salt sodium ethanoate and water: CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l).",
+        "There is no visible change in this reaction, so add phenolphthalein (an indicator that is pink in alkali) to the acid and add sodium hydroxide until the solution just turns pink; alternatively follow the pH or note the temperature rise."
+      ]
+    },
+    {
+      "h": "Safety in the ethanoic acid tests",
+      "b": "Concentrated ethanoic acid and the hydrogen test both need care.",
+      "points": [
+        "Wear goggles, because concentrated (glacial) ethanoic acid is corrosive, so use the dilute acid.",
+        "Keep flames away from any flammable liquid when testing for hydrogen, because hydrogen burns with a pop."
       ]
     },
     {
       "h": "What a reaction scheme shows",
+      "b": "A reaction scheme is a map of organic chemistry. Reading one means working out, arrow by arrow, what has changed and what caused the change.",
       "points": [
         "A reaction scheme is a diagram that links organic compounds by arrows, each arrow labelled with the reagent (and sometimes the reaction type) that converts one compound into the next.",
         "A scheme shows how compounds of different families are related, and how a target compound can be made from a simpler starting material in several steps; this is organic synthesis.",
-        "To read a scheme, name each compound and its functional group, then for each arrow compare the formulae before and after.",
+        "To read a scheme, name each compound and its functional group (the atom or group that gives a family its reactions), then for each arrow compare the formulae before and after.",
         "Decide what has been added, removed or swapped at each arrow, then name the reaction type and the reagent.",
-        "A formula change of +H₂ across C=C or C=O is addition or reduction; a change of −2H is oxidation; a change of +O is oxidation.",
-        "A change of −H₂O or −HCl with a new C=C bond is elimination; one atom swapped for another is substitution.",
+        "A formula change of +H₂ across C=C or C=O is addition (two molecules joining with no atoms lost) or reduction; a change of −2H is oxidation; a change of +O is oxidation.",
+        "A change of −H₂O or −HCl with a new C=C bond is elimination (a small molecule removed, leaving a double bond); one atom swapped for another is substitution.",
         "A carboxylic acid converted to its sodium salt is an acid–base reaction."
-      ]
+      ],
+      "tip": "Exams ask you to name the compounds in a scheme and pick out an addition, a substitution, an elimination, an oxidation and a reduction. Give the reagent, such as hydrogen with nickel; reaction conditions are not required unless the specification names them."
     },
     {
-      "h": "The two-carbon scheme",
+      "h": "The two-carbon scheme: ethane, ethene and their products",
+      "b": "Ethene, the two-carbon alkene (a hydrocarbon with a C=C double bond), sits at the centre of the scheme. Most of its conversions are additions across the double bond.",
       "points": [
-        "Ethane to chloroethane: chlorine in ultraviolet light (substitution).",
-        "Ethene to ethane: hydrogen with a nickel catalyst (addition; reduction).",
+        "Ethane to chloroethane: chlorine in ultraviolet light (substitution, because a chlorine atom takes the place of a hydrogen atom).",
+        "Ethene to ethane: hydrogen with a nickel catalyst (addition, because H₂ adds across the C=C; also reduction).",
         "Ethene to chloroethane: hydrogen chloride (addition).",
         "Ethene to 1,2-dichloroethane: chlorine (addition).",
         "Ethene to 1,2-dibromoethane: bromine (addition).",
         "Ethene to ethanol: water (addition).",
-        "Ethanol to ethene: heated aluminium oxide (elimination).",
-        "Chloroethane to ethene: loss of HCl (elimination).",
+        "Ethanol to ethene: heated aluminium oxide (elimination, because water is removed and a C=C forms).",
+        "Chloroethane to ethene: loss of HCl (elimination, because a hydrogen and a chlorine are removed and a C=C forms)."
+      ],
+      "tip": "Exams ask for reagents for given conversions, such as H₂/Ni, Al₂O₃ and Cl₂ in UV light, and for the reaction type of each step."
+    },
+    {
+      "h": "The two-carbon scheme: alcohol, aldehyde, acid, ester and salt",
+      "b": "Ethanol links to the oxidation sequence and to the ester. Here the carbon skeleton stays the same except where two molecules join or split.",
+      "points": [
         "Ethanol to ethanal to ethanoic acid: acidified potassium permanganate, as two oxidation steps.",
-        "Ethanal to ethanol: hydrogen with a nickel catalyst (reduction).",
+        "Ethanal to ethanol: hydrogen with a nickel catalyst (reduction, because H₂ adds across the C=O).",
         "Ethanoic acid and ethanol give ethyl ethanoate and water, with concentrated sulfuric acid as catalyst (substitution, esterification).",
-        "Ethyl ethanoate and sodium hydroxide give sodium ethanoate and ethanol (base hydrolysis).",
-        "Ethanoic acid to sodium ethanoate: sodium hydroxide or sodium carbonate (acid–base).",
-        "Ethene to poly(ethene) by addition polymerisation.",
+        "Ethyl ethanoate and sodium hydroxide give sodium ethanoate and ethanol (base hydrolysis, splitting the ester with the help of water and base).",
+        "Ethanoic acid to sodium ethanoate: sodium hydroxide or sodium carbonate (acid–base)."
+      ],
+      "tip": "A typical question gives ethene → ethanol → ethanal → ethanoic acid and asks for the reagent and reaction type of each step: water (addition), then acidified KMnO₄ (oxidation) twice."
+    },
+    {
+      "h": "The two-carbon scheme: polymers and the map",
+      "b": "Ethene and its chlorinated relative can also be joined into long chains, giving plastics.",
+      "points": [
+        "Ethene to poly(ethene) by addition polymerisation (many ethene molecules adding together into a chain).",
         "1,2-dichloroethane to chloroethene by elimination of HCl, then polymerisation to poly(chloroethene), PVC.",
         "Diagram: the two-carbon scheme as a map, with ethene at the centre and arrows to ethane, chloroethane, 1,2-dichloroethane, ethanol and poly(ethene); ethanol linked to ethanal, ethanoic acid and ethyl ethanoate; each arrow labelled with its reagent and reaction type."
       ]
     },
     {
       "h": "Three-carbon and other examples",
+      "b": "The same reactions apply to longer chains. Whether the alcohol is primary or secondary decides whether oxidation gives an aldehyde and acid or a ketone.",
       "points": [
-        "Propan-1-ol (a primary alcohol) to propanal to propanoic acid: acidified potassium permanganate (oxidation).",
-        "Propan-2-ol (a secondary alcohol) to propanone: acidified potassium permanganate (oxidation).",
+        "Propan-1-ol (a primary alcohol, with the –OH on an end carbon) to propanal to propanoic acid: acidified potassium permanganate (oxidation).",
+        "Propan-2-ol (a secondary alcohol, with the –OH on a middle carbon) to propanone: acidified potassium permanganate (oxidation).",
         "Propanone to propan-2-ol: hydrogen with nickel (reduction).",
         "Propan-2-ol to propene and water (elimination).",
-        "Propene to propane: hydrogen with nickel (addition).",
-        "Phenylmethanol to benzoic acid: potassium permanganate under basic conditions (oxidation); see \"Investigation: synthesising benzoic acid\".",
-        "Working backwards: a scheme that ends in an aldehyde probably began with a primary alcohol; a ketone comes from a secondary alcohol.",
+        "Propene to propane: hydrogen with nickel (addition, because H₂ adds across the C=C).",
+        "Phenylmethanol to benzoic acid: potassium permanganate under basic conditions (oxidation). There is more on this in Investigation: synthesising benzoic acid."
+      ],
+      "tip": "Oxidising a primary alcohol gives the aldehyde first and then the acid; a secondary alcohol gives a ketone, never an acid."
+    },
+    {
+      "h": "Working backwards and checking a scheme",
+      "b": "When a scheme is incomplete, the product tells you what must have come before it, and counting carbon atoms checks your answer.",
+      "points": [
+        "A scheme that ends in an aldehyde probably began with a primary alcohol; a ketone comes from a secondary alcohol.",
         "An alkene can come from an alcohol by elimination, or go to an alcohol by addition of water.",
         "Carbon atoms are neither gained nor lost in these steps, except in esterification, which joins two molecules, and hydrolysis, which splits them, so the carbon skeleton checks each answer."
-      ]
+      ],
+      "tip": "Do not let a proposed product gain or lose carbon atoms in a single step except by esterification or hydrolysis. Exams also ask for intermediates in a multi-step synthesis."
     },
     {
       "h": "Predicting reactions and products (Higher Level only)",
+      "b": "To predict a product, recognise the functional group and recall its typical reaction. Multi-step syntheses just chain these together.",
       "points": [
         "To predict a product, identify the functional group and apply its typical reaction.",
         "An alkene with X₂, HX, H₂O or H₂ gives an addition product.",
@@ -119,74 +193,100 @@
         "Example: ethanal to ethyl ethanoate, by reducing part of the ethanal to ethanol with H₂ and nickel, oxidising another part to ethanoic acid with acidified KMnO₄, then esterifying the two with concentrated H₂SO₄.",
         "Example: chloroethane to ethanol in two steps, by eliminating HCl to give ethene, then adding water.",
         "Example: heating propan-1-ol with methanoic acid gives propyl methanoate, HCOOCH₂CH₂CH₃; the alcohol supplies the propyl part and the acid supplies the methanoate part."
-      ]
+      ],
+      "tip": "A model answer for a two-step route from chloroethane to ethanol names the type of each step: elimination of HCl, then addition of water."
     },
     {
-      "h": "Changes in geometry (Higher Level only)",
+      "h": "Changes in geometry: tetrahedral and planar carbon (Higher Level only)",
+      "b": "The shape around a carbon atom depends on its bonds. Tracking whether a carbon is tetrahedral (four bonds pointing to the corners of a pyramid-like shape) or planar (flat) shows what a reaction does to a molecule.",
       "points": [
         "A carbon atom with four single bonds is tetrahedral, with bond angles of about 109.5°.",
         "A carbon atom in a C=C or C=O double bond is planar (trigonal planar), with bond angles of about 120°.",
+        "Ethene has no tetrahedral carbon atom; ethanal and ethanoic acid each have one planar carbon (the C=O carbon) and one tetrahedral carbon.",
+        "Ethanol and ethane have only tetrahedral carbon atoms."
+      ],
+      "tip": "When drawing geometry, the carbon of an –OH group in an alcohol is tetrahedral; only carbons in double bonds (or benzene rings) are planar. Exams ask which compound has no tetrahedral carbon, or only one planar carbon."
+    },
+    {
+      "h": "Changes in geometry during reactions (Higher Level only)",
+      "b": "A reaction that adds to or removes a double bond changes the carbons involved between planar and tetrahedral. Reactions that leave the C=O in place change nothing.",
+      "points": [
         "Addition to C=C, as in ethene to ethane, ethene to ethanol or polymerisation, changes the two carbon atoms from planar to tetrahedral.",
         "Elimination, as in ethanol to ethene, changes the two carbon atoms from tetrahedral to planar.",
         "Oxidising an alcohol to an aldehyde or ketone changes the carbon bearing the oxygen from tetrahedral to planar.",
         "Reducing an aldehyde or ketone to an alcohol changes that carbon from planar to tetrahedral.",
-        "Aldehyde to carboxylic acid, and acid to ester, leave the carbonyl carbon planar, so there is no change in geometry.",
-        "Ethene has no tetrahedral carbon atom; ethanal and ethanoic acid each have one planar carbon (the C=O carbon) and one tetrahedral carbon.",
-        "Ethanol and ethane have only tetrahedral carbon atoms."
-      ]
+        "Aldehyde to carboxylic acid, and acid to ester, leave the carbonyl carbon planar, so there is no change in geometry."
+      ],
+      "tip": "Exams ask how the geometry around the carbon atoms changes in a given conversion; for ethene to ethanol, the answer is planar to tetrahedral."
     },
     {
       "h": "Why some reactions are not possible (Higher Level only)",
+      "b": "Each reaction needs a particular feature in the molecule. Where it is missing, the reaction cannot happen, and the reason always comes back to that feature.",
       "points": [
-        "Tertiary alcohols, such as 2-methylpropan-2-ol, are not oxidised by acidified potassium permanganate.",
+        "Tertiary alcohols (alcohols with the –OH on a carbon bonded to three other carbons), such as 2-methylpropan-2-ol, are not oxidised by acidified potassium permanganate.",
         "The carbon bearing the –OH group of a tertiary alcohol has no hydrogen atom to lose, and oxidation would mean breaking a C–C bond.",
         "Ketones are not oxidised by Fehling's reagent or potassium permanganate, for the same reason: there is no hydrogen on the carbonyl carbon.",
-        "Alkanes and poly(ethene) cannot undergo addition, because they are saturated and have no pi bond, so they do not decolourise bromine water.",
+        "Alkanes and poly(ethene) cannot undergo addition, because they are saturated (they have only single bonds) and have no pi bond, so they do not decolourise bromine water.",
         "Methanol cannot be dehydrated to an alkene, because it has only one carbon atom and a C=C bond needs two.",
-        "Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons make the ring unusually stable, so it resists addition; see \"Shapes, bonding and isomerism\".",
+        "Benzene does not decolourise bromine water as an alkene does: its delocalised pi electrons (shared around the whole ring) make the ring unusually stable, so it resists addition. There is more on this in Shapes, bonding and isomerism.",
         "Ethanoic acid is not oxidised further by potassium permanganate; it is the end product of oxidising a primary alcohol."
-      ]
+      ],
+      "tip": "Exams ask why 2-methylpropan-2-ol cannot be oxidised to an aldehyde or ketone: the carbon bearing the –OH has no hydrogen atom to lose."
     },
     {
-      "h": "Aim and chemistry",
+      "h": "Investigation: preparing an ester, aim and equations",
+      "b": "An ester is the compound formed when a carboxylic acid reacts with an alcohol. In this investigation methyl propanoate is made from propanoic acid and methanol.",
       "points": [
-        "Aim: to prepare a sample of an ester, methyl propanoate, from propanoic acid and methanol by heating under reflux.",
+        "Aim: to prepare a sample of an ester, methyl propanoate, from propanoic acid and methanol by heating under reflux (boiling with a condenser that returns the vapour to the flask).",
         "Equation: CH₃CH₂COOH(l) + CH₃OH(l) ⇌ CH₃CH₂COOCH₃(l) + H₂O(l), with propanoic acid and methanol giving methyl propanoate and water in a mole ratio of 1 : 1 : 1.",
         "Molar masses: propanoic acid 74 g mol⁻¹, methanol 32 g mol⁻¹ and methyl propanoate 88 g mol⁻¹.",
         "The alternative preparation is ethanoic acid with ethanol: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O, giving ethyl ethanoate.",
-        "Esterification is slow and reversible: it reaches an equilibrium with only part of the acid and alcohol converted.",
-        "The product mixture therefore also contains unreacted acid and alcohol, water and the sulfuric acid catalyst.",
-        "Isotope evidence: when the alcohol is labelled with oxygen-18, the ¹⁸O is found in the ester, not in the water.",
-        "So the –OH lost as water comes from the acid, the H comes from the alcohol, and the bond formed is the C–O bond between the acid's carbonyl carbon and the alcohol's oxygen.",
         "The specification needs only esters made from monocarboxylic acids and primary alcohols."
-      ]
+      ],
+      "tip": "Exams ask for the ester formed from a given acid and alcohol. The alcohol gives the first part of the name and the acid gives the second, as in methyl propanoate."
     },
     {
-      "h": "Method: heating under reflux",
+      "h": "Esterification is reversible: the product mixture and the oxygen label",
+      "b": "Esterification does not go to completion, which shapes the whole purification. Isotope labelling shows exactly which bond forms.",
+      "points": [
+        "Esterification is slow and reversible: it reaches an equilibrium (the forward and reverse reactions balance) with only part of the acid and alcohol converted.",
+        "The product mixture therefore also contains unreacted acid and alcohol, water and the sulfuric acid catalyst.",
+        "Isotope evidence: when the alcohol is labelled with oxygen-18 (a heavier form of oxygen used as a tracer), the ¹⁸O is found in the ester, not in the water.",
+        "So the –OH lost as water comes from the acid, the H comes from the alcohol, and the bond formed is the C–O bond between the acid's carbonyl carbon and the alcohol's oxygen."
+      ],
+      "tip": "The oxygen joining the two parts of the ester comes from the alcohol, not the acid. If the alcohol carries ¹⁸O, it ends up in the ester and none is in the water."
+    },
+    {
+      "h": "Investigation: heating under reflux",
+      "b": "The reactants are mixed with a catalyst and boiled gently for a while. A condenser fitted vertically stops the volatile liquids escaping.",
       "points": [
         "In a fume cupboard, put measured volumes of propanoic acid and methanol (about 10 cm³ of each) into a round-bottomed flask.",
-        "Add about 1 cm³ of concentrated sulfuric acid a drop at a time, swirling and cooling the flask under the tap, because mixing is exothermic.",
-        "Add a few anti-bumping granules.",
+        "Add about 1 cm³ of concentrated sulfuric acid a drop at a time, swirling and cooling the flask under the tap, because mixing is exothermic (gives out heat).",
+        "Add a few anti-bumping granules, so that the mixture boils smoothly.",
         "Fit a Liebig condenser vertically on the flask, with cold water entering at the bottom and leaving at the top, and leave the top of the condenser open.",
         "Heat the flask in a water bath, or with a heating mantle, so that the mixture boils gently under reflux for about 20–30 minutes.",
         "Diagram: reflux apparatus, with a round-bottomed flask holding the mixture and granules in a water bath, a vertical Liebig condenser with water in at the bottom and out at the top, and an open top."
-      ]
+      ],
+      "tip": "Reflux means heating with a vertical condenser so the vapour returns to the flask. Distillation, with the condenser sloping down to a receiver, is a separate step afterwards. Exams ask you to draw and label the reflux apparatus."
     },
     {
-      "h": "Isolating and purifying the ester",
+      "h": "Investigation: isolating and purifying the ester",
+      "b": "After reflux the flask holds a mixture. The ester is separated from the other substances by washing, drying and then distilling.",
       "points": [
-        "Cool the flask, then pour the mixture into a separating funnel with some water and shake.",
+        "Cool the flask, then pour the mixture into a separating funnel (a tapped funnel for separating two liquids that do not mix) with some water and shake.",
         "The ester forms the upper layer, because it is less dense than water and only slightly soluble in it; run off and discard the lower aqueous layer, which holds most of the acid, methanol and sulfuric acid.",
         "Add sodium carbonate solution to the ester in the funnel and shake gently, opening the tap often (inverted) to release the carbon dioxide formed; this neutralises the remaining acid.",
-        "Run off the lower aqueous layer.",
-        "Run the ester into a dry conical flask and add a few lumps of anhydrous calcium chloride to remove water; swirl until the liquid is clear, then decant or filter it.",
+        "Run off the lower aqueous layer, which now holds the sodium salt of the acid and the water, so the ester is left on its own.",
+        "Run the ester into a dry conical flask and add a few lumps of anhydrous calcium chloride (a drying agent that removes water) to remove water; swirl until the liquid is clear, then decant (pour off) or filter it.",
         "Distil the dry ester and collect the fraction boiling at about 80 °C: methyl propanoate boils at 79.8 °C and ethyl ethanoate at 77 °C.",
         "Identify the product by its boiling point and its pleasant, fruity smell, wafting the vapour towards the nose rather than sniffing directly.",
         "Diagram: separating funnel with the upper ester layer, the lower aqueous layer, the stopper and the tap."
-      ]
+      ],
+      "tip": "The ester is the upper layer, not the lower. Exams ask how the ester is separated, washed and dried, and why the tap is opened when sodium carbonate is added."
     },
     {
-      "h": "Why each step is needed",
+      "h": "Why each step in the ester preparation is needed",
+      "b": "Every choice in the method has a purpose. Exams ask for these reasons directly.",
       "points": [
         "Reflux lets the mixture boil for a long time without losing the volatile reactants and product: vapour rises into the condenser, condenses and drips back into the flask.",
         "Concentrated sulfuric acid is the catalyst, providing H⁺ ions; it also absorbs water, which helps shift the equilibrium towards the ester.",
@@ -196,16 +296,18 @@
         "Sodium carbonate removes acid without destroying the ester: Na₂CO₃ + 2H⁺ → 2Na⁺ + H₂O + CO₂.",
         "The pressure in the separating funnel must be released because carbon dioxide is produced.",
         "Distillation separates the ester from remaining alcohol and other impurities by their boiling points, giving a purer product."
-      ]
+      ],
+      "tip": "Exams ask for the purpose of refluxing, why a water bath, why anti-bumping granules, the role of the sulfuric acid, and the purpose of the sodium carbonate wash and the anhydrous calcium chloride."
     },
     {
-      "h": "Safety, yield and errors",
+      "h": "Safety, yield and errors in the ester preparation",
+      "b": "The hazards are corrosive and flammable chemicals. The yield is low because of the equilibrium and because product is lost in handling.",
       "points": [
         "Concentrated sulfuric acid is corrosive: wear goggles and gloves, and add it slowly.",
         "Methanol is toxic and flammable, and propanoic acid is corrosive and has a strong smell; work in a fume cupboard and keep naked flames away.",
         "The yield is well below 100%, because the reaction is an equilibrium.",
         "Some ester dissolves in the aqueous layers and is lost in transfers, and some evaporates.",
-        "Percentage yield = actual mass ÷ theoretical mass × 100; see \"Theoretical, actual and percentage yield\".",
+        "Percentage yield = actual mass ÷ theoretical mass × 100. There is more on this in Theoretical, actual and percentage yield.",
         "Sources of error include not drying the ester fully, which gives a cloudy product and a low boiling point reading.",
         "Not releasing the pressure in the separating funnel can blow out the stopper and lose product.",
         "Heating too strongly lets vapour escape from the top of the condenser."

@@ -5,76 +5,106 @@
   "syllabusRef": "2.3.4",
   "notes": [
     {
-      "h": "How DNA replicates: the model step by step (Higher Level only)",
+      "h": "Where and when DNA replicates (Higher Level only)",
+      "b": "Before a cell divides it must copy all of its DNA, a process called replication, so that each new cell gets a complete set of genetic instructions. Knowing where, when and how fast this happens is the starting point for the model.",
       "points": [
-        "Replication takes place in the nucleus during the S phase of interphase (see “The cell cycle”).",
-        "In eukaryotes replication begins at many points along each chromosome at once, so the very long molecules are copied quickly.",
-        "Bacteria start replication at one point on their circular chromosome.",
-        "1. DNA helicase unwinds the double helix and separates the two strands by breaking the hydrogen bonds between complementary bases, forming a Y-shaped replication fork.",
-        "2. Each exposed strand acts as a template.",
-        "2. Free DNA nucleotides, made in the cell and present in the nucleus, pair with the exposed bases by complementary base pairing (A–T, C–G).",
-        "3. DNA polymerase joins each new nucleotide to the growing strand, forming the sugar–phosphate backbone of the new strand.",
-        "3. DNA polymerase adds nucleotides only where they pair correctly with the template.",
-        "4. DNA polymerase proofreads each new base pair and removes and replaces most wrongly paired nucleotides; other repair enzymes correct many of the rest.",
-        "4. A mistake that is not corrected becomes a permanent change in the base sequence, a point mutation (see “Mutations”).",
-        "5. Each new DNA molecule, made of one template strand plus its new complementary strand, twists into a double helix.",
-        "5. The two new molecules are identical to each other and to the original, and remain joined as two sister chromatids at a centromere until they separate at anaphase of mitosis.",
-        "Replication needs energy, supplied by ATP (see “ATP”) and by the nucleotides themselves as they are added.",
+        "Replication takes place in the nucleus (the compartment that holds the DNA) during the S phase of interphase, the stage of the cell cycle between divisions when the cell copies its DNA. There is more on this in The cell cycle.",
+        "In eukaryotes (cells with a nucleus) replication begins at many points along each chromosome at once, so the very long DNA molecules are copied quickly.",
+        "Bacteria start replication at one point on their circular chromosome, because their DNA is a single, much smaller loop.",
+        "Replication needs energy, which is supplied by ATP (the cell's energy-carrying molecule) and by the nucleotides themselves as they are added."
+      ],
+      "tip": "If asked where and when replication takes place, say in the nucleus, during the S phase of interphase. Give both parts."
+    },
+    {
+      "h": "How DNA replicates: the model step by step (Higher Level only)",
+      "b": "Replication uses each old strand of DNA as a pattern for a new one, and two key enzymes (proteins that speed up a chemical reaction) do the main jobs. Learn the stages in order and name the enzyme that does each job.",
+      "points": [
+        "1. The enzyme DNA helicase unwinds the double helix and separates the two strands by breaking the hydrogen bonds (the weak links) between complementary bases. This opens a Y-shaped replication fork where copying happens.",
+        "2. Each exposed strand acts as a template, a pattern to copy. Free DNA nucleotides, which are made in the cell and are present in the nucleus, pair with the exposed bases by complementary base pairing (A–T, C–G).",
+        "3. The enzyme DNA polymerase joins each new nucleotide to the growing strand, forming the sugar–phosphate backbone of the new strand. It adds nucleotides only where they pair correctly with the template, so the copy matches the original.",
+        "4. DNA polymerase also proofreads: it checks each new base pair and removes and replaces most wrongly paired nucleotides. Other repair enzymes correct many of the rest.",
+        "A mistake that is not corrected becomes a permanent change in the base sequence, a point mutation (a change to one base in the DNA). There is more on this in Mutations.",
+        "5. Each new DNA molecule, made of one template strand plus its new complementary strand, twists into a double helix. The two new molecules are identical to each other and to the original.",
+        "The two new molecules remain joined as two sister chromatids (identical copies of a chromosome) at a centromere, the narrow point where they are held together, until they separate at anaphase of mitosis.",
         "Diagram: a replication fork, labelled: parent (original) DNA double helix, DNA helicase at the fork, hydrogen bonds being broken, the two template strands, free nucleotides, DNA polymerase adding nucleotides, the new complementary strands, and the two daughter molecules, each with one old strand (dark) and one new strand (light)."
+      ],
+      "tip": "When asked to describe replication, name the enzymes and keep their jobs apart: helicase separates the strands, DNA polymerase builds the new strand and proofreads. Do not swap them, and do not use RNA polymerase, which belongs to transcription."
+    },
+    {
+      "h": "Three possible models, and semi-conservative replication (Higher Level only)",
+      "b": "Once the base-pairing structure of DNA was known, there was more than one way the copying could work. Scientists had to decide between three models, and the one that proved correct is called semi-conservative.",
+      "points": [
+        "Semi-conservative replication: each new DNA molecule contains one strand from the original molecule (conserved, meaning kept) and one newly made strand. This is why it is called half-conserving.",
+        "Watson and Crick predicted this in 1953 from the base-pairing model, because each strand can act as a template for its partner. There is more on this in Models.",
+        "Conservative replication: the original double helix stays intact, and a completely new molecule is made.",
+        "Dispersive replication: each new molecule is a patchwork of old and new pieces in both strands, so old and new DNA are mixed along each strand."
       ]
     },
     {
-      "h": "Semi-conservative replication and the Meselson–Stahl evidence (Higher Level only)",
+      "h": "The Meselson–Stahl experiment (Higher Level only)",
+      "b": "In 1958 Matthew Meselson and Franklin Stahl tested the three models by labelling DNA so that old and new strands could be told apart by their weight. Learn the method and the results, because you may be asked to interpret them.",
       "points": [
-        "Semi-conservative replication: each new DNA molecule contains one strand from the original molecule (conserved) and one newly made strand.",
-        "Watson and Crick predicted this in 1953 from the base-pairing model (see “Models”).",
-        "Conservative replication: the original double helix stays intact, and a completely new molecule is made.",
-        "Dispersive replication: each new molecule is a patchwork of old and new pieces in both strands.",
-        "The Meselson–Stahl experiment (Matthew Meselson and Franklin Stahl, 1958) tested the three models.",
-        "1. They grew the bacterium E. coli for many generations in a medium whose only nitrogen was the heavy isotope ¹⁵N, so all its DNA was “heavy”.",
-        "2. They moved the bacteria to a medium containing only normal, light ¹⁴N.",
+        "1. They grew the bacterium E. coli for many generations in a medium whose only nitrogen was the heavy isotope ¹⁵N (a heavier form of nitrogen), so all its DNA was “heavy”.",
+        "2. They moved the bacteria to a medium containing only normal, light ¹⁴N, so any new DNA strand would be built from light nitrogen.",
         "3. After each generation they extracted the DNA and spun it at high speed in a caesium chloride solution, which forms a density gradient, so DNA settles as a band at a level that matches its density.",
-        "Before the transfer there is one heavy band.",
+        "Before the transfer there is one heavy band, because all the DNA is made with ¹⁵N.",
         "After one generation there is one band of intermediate density, so conservative replication, which would give one heavy and one light band, is ruled out.",
-        "After two generations there are one intermediate band and one light band, of equal size, so dispersive replication, which would give a single band at every generation, becoming lighter, is ruled out.",
+        "After two generations there are one intermediate band and one light band, of equal size. This rules out dispersive replication, which would give a single band at every generation, becoming lighter each time.",
         "Only the semi-conservative model fits both results.",
         "Diagram: three centrifuge tubes side by side (generation 0, 1, 2) showing band positions heavy; intermediate; intermediate and light; with a strand diagram under each showing heavy strands dark and light strands pale."
-      ]
+      ],
+      "tip": "Keep straight which result ruled out which model: one intermediate band after one generation rules out conservative (it would give heavy plus light), and the intermediate plus light bands after two generations rule out dispersive (it would give one band every time)."
     },
     {
       "h": "Using the model to predict and count (Higher Level only)",
+      "b": "The semi-conservative model is precise enough to make exact predictions about base sequences and numbers of nucleotides. Because A always pairs with T and C with G, you can work these out step by step.",
       "points": [
         "Predicting daughter molecules: given a parent molecule with strands ATGCCA and TACGGT, the strands separate.",
-        "ATGCCA is the template for a new TACGGT, and TACGGT is the template for a new ATGCCA.",
+        "ATGCCA is the template for a new TACGGT, and TACGGT is the template for a new ATGCCA, because each base can only pair with its partner.",
         "The two daughter molecules are identical to the parent, each with one old strand and one new strand.",
         "Counting nucleotides: copying a DNA molecule of 1,000 base pairs makes two new strands of 1,000 nucleotides each, so 2,000 free nucleotides are used.",
         "If 30% of the parent's bases are adenine, then 30% of the free nucleotides used are A and 30% are T.",
-        "The remaining free nucleotides are 20% C and 20% G, because A = T and C = G in double-stranded DNA (see “Nucleotides, DNA and RNA”).",
-        "Generations: one DNA molecule replicated three times gives 2³ = 8 molecules.",
+        "The remaining free nucleotides are 20% C and 20% G, because A = T and C = G in double-stranded DNA. There is more on this in Nucleotides, DNA and RNA."
+      ],
+      "tip": "To predict a new strand, write the partner of each base in turn (A with T, C with G) and say that every daughter molecule has one old and one new strand. In nucleotide counts, double the base pairs, since two new strands are made."
+    },
+    {
+      "h": "Counting generations and building a physical model (Higher Level only)",
+      "b": "Two more skills use the model: working out how many molecules exist after several rounds of replication, and building a hands-on model to show how copying works. A good model also has limits that you should be able to name.",
+      "points": [
+        "Generations: one DNA molecule replicated three times gives 2³ = 8 molecules, because the number of molecules doubles each time.",
         "In a Meselson–Stahl-type experiment only 2 of these 8 still contain an original heavy strand, because each original strand is kept whole and never broken up.",
         "Physical model: build a short double strand from paper or plastic nucleotide pieces in four colours, one per base, that fit only their correct partners.",
-        "Separate the strands, add free pieces to each, and compare the two products with the original; use two shades for old and new pieces to show semi-conservation.",
+        "Separate the strands, add free pieces to each, and compare the two products with the original. Use two shades for old and new pieces to show semi-conservation.",
         "Strength of the physical model: it shows templates, base pairing and identical products.",
-        "Limitations of the physical model: it is flat and short, and does not show the helix, the enzymes, the energy needed, or the speed and accuracy of copying in cells (models in general are in “Models”)."
+        "Limitations of the physical model: it is flat and short, and does not show the helix, the enzymes, the energy needed, or the speed and accuracy of copying in cells. There is more on this in Models."
       ]
     },
     {
-      "h": "The flow of genetic information (Higher Level only)",
-      "b": "The ribosome works from an mRNA copy of a gene rather than from the DNA itself, for three reasons.",
+      "h": "The flow of genetic information from DNA to protein (Higher Level only)",
+      "b": "A gene is a section of DNA that carries the instructions for one protein. The instructions are not used directly: they are first copied into a molecule of RNA, and that copy is then used to build the protein.",
       "points": [
-        "Genetic information flows from DNA to mRNA to protein: DNA → transcription → mRNA → translation → protein.",
-        "Replication copies DNA to DNA.",
+        "Genetic information flows from DNA to mRNA to protein: DNA → transcription → mRNA → translation → protein. Replication, by contrast, copies DNA to DNA.",
         "Francis Crick called this one-way flow from nucleic acid to protein the “central dogma” of molecular biology.",
         "Transcription: in the nucleus, the base sequence of one gene is copied into a molecule of messenger RNA (mRNA), using one DNA strand as the template.",
-        "The mRNA leaves the nucleus through a nuclear pore and travels to a ribosome in the cytoplasm, either free or attached to rough endoplasmic reticulum; the DNA stays in the nucleus.",
-        "Translation: at the ribosome, the mRNA's codons are read, transfer RNA molecules bring the matching amino acids, and these are joined in the order set by the codons to make a specific polypeptide, which folds into a functional protein (steps and roles in “Transcription and translation”).",
+        "The mRNA leaves the nucleus through a nuclear pore (a small channel in the nuclear envelope) and travels to a ribosome in the cytoplasm, either free or attached to rough endoplasmic reticulum. The DNA stays in the nucleus.",
+        "Translation: at the ribosome (the structure that builds proteins), the mRNA's codons (groups of three bases) are read, and transfer RNA molecules bring the matching amino acids.",
+        "The amino acids are joined in the order set by the codons to make a specific polypeptide (a chain of amino acids), which folds into a functional protein. There is more on this in Transcription and translation.",
+        "Diagram: a eukaryotic cell showing a gene on DNA in the nucleus → transcription → mRNA passing through a nuclear pore → ribosome in the cytoplasm → translation → polypeptide folding into a protein. Label: nucleus, DNA, gene, mRNA, nuclear pore, ribosome, tRNA bringing amino acid, polypeptide."
+      ],
+      "tip": "Do not mix up the two copying processes: replication copies the whole DNA once per cycle and uses T, while transcription copies one gene at a time, many times, and makes mRNA, which uses U. Transcription uses RNA polymerase, not DNA polymerase."
+    },
+    {
+      "h": "Why mRNA is used, and the exception to the flow (Higher Level only)",
+      "b": "The ribosome works from an mRNA copy of a gene rather than from the DNA itself, for three reasons. There is also one well-known exception to the usual direction of flow.",
+      "points": [
         "The DNA is kept safe in the nucleus and is not damaged by being used directly.",
         "Many mRNA copies can be made from one gene, and each is read by many ribosomes, so a lot of protein can be made quickly.",
         "mRNA is broken down after use, so the cell can switch protein production on and off.",
-        "Exception: retroviruses such as HIV carry RNA and use the enzyme reverse transcriptase to make DNA from their RNA, so information flows from RNA to DNA (detail in “Viruses: replication”).",
-        "Information never flows from protein back to nucleic acid.",
-        "Diagram: a flow diagram of a eukaryotic cell showing a gene on DNA in the nucleus → transcription → mRNA passing through a nuclear pore → ribosome in the cytoplasm → translation → polypeptide folding into a protein. Label: nucleus, DNA, gene, mRNA, nuclear pore, ribosome, tRNA bringing amino acid, polypeptide."
-      ]
+        "Exception: retroviruses such as HIV carry RNA and use the enzyme reverse transcriptase to make DNA from their RNA, so information flows from RNA to DNA. There is more on this in Viruses: replication.",
+        "Information never flows from protein back to nucleic acid."
+      ],
+      "tip": "If asked to explain why an mRNA copy is needed, give all three reasons: it protects the DNA, it allows fast mass production of protein, and it lets the cell switch protein production on and off."
     }
   ],
   "keyTerms": [

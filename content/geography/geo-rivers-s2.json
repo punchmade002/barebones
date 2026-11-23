@@ -6,65 +6,73 @@
   "notes": [
     {
       "h": "Base level and the graded river",
-      "b": "A river can erode no lower than its base level. Sea level is the ultimate base level.",
+      "b": "A river can erode no lower than its base level, the lowest point it can cut down to. Sea level is the ultimate base level, and a river that has settled into balance with its base level has a smooth, predictable shape.",
       "points": [
-        "A lake, a band of resistant rock or a main river (for its tributary) acts as a temporary, local base level.",
-        "A graded (equilibrium) profile is a smooth, concave long profile where the river's energy is just enough to carry its load, so erosion and deposition are balanced.",
-        "A change in base level upsets this balance, and the river adjusts its profile to the new level."
-      ]
+        "A lake, a band of resistant rock or a main river (for its tributary, the smaller stream that joins it) acts as a temporary, local base level, because the river cannot cut below that point until it is removed.",
+        "A graded (equilibrium) profile is a smooth, concave long profile (the river's slope from source to mouth, steep at the top and flattening downstream) where the river's energy is just enough to carry its load (the material it transports), so erosion and deposition (dropping of load) are balanced.",
+        "A change in base level upsets this balance, so the river adjusts its profile to the new level."
+      ],
+      "tip": "Define a graded profile as one where erosion and deposition are balanced, and say that a change in base level upsets this balance."
     },
     {
       "h": "Causes of rejuvenation",
-      "b": "Rejuvenation is renewed vertical erosion caused by a fall in base level relative to the land. It gives the river renewed energy and interrupts a cycle of erosion.",
+      "b": "Rejuvenation is renewed vertical erosion (cutting downwards) caused by a fall in base level relative to the land. It gives the river renewed energy and interrupts a cycle of erosion.",
       "points": [
-        "Cause 1, a eustatic fall in sea level: during a glacial period, water is locked up in ice sheets, so sea level falls worldwide.",
-        "Cause 2, isostatic uplift: land depressed under an ice sheet rises when the ice melts, raising it relative to sea level (see the notes on Isostasy (Glaciation)).",
-        "Cause 3, tectonic uplift of the land by earth movements.",
-        "Cause 4, an increase in discharge, e.g. from a wetter climate or by river capture, gives the river more energy; this is a less common cause."
-      ]
+        "Cause 1, a eustatic fall in sea level (the sea itself moves): during a glacial period, water is locked up in ice sheets, so sea level falls worldwide and the river has further to fall to reach the sea.",
+        "Cause 2, isostatic uplift (the land itself moves): land depressed under the weight of an ice sheet rises, or rebounds, when the ice melts, raising it relative to sea level. There is more on this in Glaciation.",
+        "Cause 3, tectonic uplift of the land by earth movements, which raises the land above its old base level so the river cuts down again.",
+        "Cause 4, an increase in discharge (the volume of water flowing in the river), e.g. from a wetter climate or by river capture (one river taking over the water of another), gives the river more energy; this is a less common cause."
+      ],
+      "tip": "If asked for the name of the process by which a river in its lower course begins to erode again after a change in base level, answer rejuvenation. It follows a fall in base level relative to the land; a rise causes drowning and deposition instead. Do not swap eustatic (the sea moves) and isostatic (the land moves)."
     },
     {
       "h": "How rejuvenation spreads upstream",
+      "b": "A fall in base level is felt first at the river's mouth (where it meets the sea), and the effect then travels up the valley. This leaves a river made of two parts.",
       "points": [
-        "Rejuvenation begins at the mouth and works upstream by headward erosion.",
+        "Rejuvenation begins at the mouth and works upstream by headward erosion (erosion that cuts back towards the source), because the extra energy is first available at the lowest point.",
         "For a long time the river has two graded sections: a new, steeper lower section and the old, gentler upper section.",
-        "This is the landscape that is temporarily out of balance: the two sections reflect two different base levels."
+        "This is the landscape that is temporarily out of balance, because the two sections reflect two different base levels."
       ]
     },
     {
       "h": "Knickpoint",
+      "b": "A knickpoint is where the new, rejuvenated river meets the old one. It is the key feature of a rejuvenated long profile (the river's slope from source to mouth).",
       "points": [
         "1. Rejuvenation cuts down at the mouth, creating a new graded section below the old one.",
         "2. Where the new and old graded profiles meet, the long profile has a break of slope: this is the knickpoint.",
-        "3. A waterfall or rapids is often found at the knickpoint.",
+        "3. A waterfall or rapids is often found at the knickpoint, because the river drops steeply there. The knickpoint is the break of slope itself, not the waterfall.",
         "4. The knickpoint retreats upstream over time, and the new profile extends behind it.",
         "5. Once the whole river has graded to the new base level, the knickpoint disappears.",
         "Diagram: long profile showing the old and new graded sections and the knickpoint at their junction."
-      ]
+      ],
+      "tip": "If asked what a knickpoint is, say it is a break of slope on the long profile where the new and old graded profiles meet. Do not define it as a waterfall; a waterfall or rapids is what is found at it. Here the waterfall is caused by the change in base level, whatever the rock."
     },
     {
       "h": "Incised meanders",
-      "b": "Renewed vertical erosion cuts existing meanders down into the land, rather than forming them on a floodplain.",
+      "b": "Renewed vertical erosion cuts existing meanders (bends in the river) down into the land, rather than forming them on a floodplain (the flat land beside a river). This leaves meanders set deep in a valley with steep sides.",
       "points": [
-        "Ingrown meanders: an asymmetrical cross-section, with one gentle and one steep side; downcutting is slower, with some lateral erosion.",
-        "Entrenched meanders: a symmetrical cross-section with steep sides, forming a gorge; downcutting is rapid.",
+        "Ingrown meanders have an asymmetrical cross-section (a slice across the valley), with one gentle and one steep side, because downcutting is slower and there is some lateral (sideways) erosion.",
+        "Entrenched meanders have a symmetrical cross-section with steep sides, forming a gorge (a deep, narrow, steep-sided valley), because downcutting is rapid.",
         "Example of entrenched meanders: the Goosenecks of the San Juan River, Utah, USA.",
-        "Example of incised meanders: the River Wye, Wales–England border.",
+        "Example of incised meanders: the River Wye, Wales-England border.",
         "Diagram: cross-section showing a meander cut down into the land, with steep sides and no floodplain."
-      ]
+      ],
+      "tip": "Incised meanders are not ordinary meanders: they are cut down into solid rock with steep valley sides, not formed on a floodplain. In a labelled diagram, include an incised meander."
     },
     {
       "h": "River terraces",
-      "b": "River terraces are remnants of an old floodplain, left as flat steps above the new floodplain after the river has cut down.",
+      "b": "When a river cuts down into its old floodplain, the old floodplain is left stranded above the river. River terraces are remnants of an old floodplain, left as flat steps above the new floodplain after the river has cut down.",
       "points": [
-        "Paired terraces: at the same height on both sides of the valley; they form where the river downcuts rapidly.",
-        "Unpaired terraces: at different heights on each side; they form while the river downcuts and migrates sideways.",
+        "Paired terraces are at the same height on both sides of the valley; they form where the river downcuts rapidly, so it has little time to move sideways.",
+        "Unpaired terraces are at different heights on each side; they form while the river downcuts and migrates (moves) sideways.",
         "Example: the river terraces of the River Thames in and around London, England.",
         "Diagram: cross-section of a valley showing paired terraces above the present floodplain."
-      ]
+      ],
+      "tip": "Paired terraces is a label exams use on a rejuvenation diagram. River terraces are not terracettes (small steps made by soil creep) and not kame terraces (made by meltwater from glaciers)."
     },
     {
       "h": "Gorge from uplift",
+      "b": "Uplift of the land gives a river renewed cutting power, and deep incision (cutting down) can produce a gorge, a deep, narrow valley with steep sides.",
       "points": [
         "A gorge can be cut by deep incision of a river into an uplifted landscape.",
         "Example: the Grand Canyon, cut by the Colorado River in Arizona, USA, as the Colorado Plateau was uplifted."
@@ -72,20 +80,23 @@
     },
     {
       "h": "Reading rejuvenation features on a diagram",
+      "b": "Each episode of rejuvenation leaves a mark, so a diagram can be read like a record. Counting the marks tells you how many times the river has been rejuvenated.",
       "points": [
-        "The number of rejuvenations equals the number of knickpoints on a long profile.",
-        "On a cross-section, the number of rejuvenations equals the number of terrace levels above the present floodplain.",
+        "The number of rejuvenations equals the number of knickpoints on a long profile, because each fall in base level creates one.",
+        "On a cross-section, the number of rejuvenations equals the number of terrace levels above the present floodplain, because each rejuvenation leaves a terrace behind.",
         "Rejuvenation features not shown in a diagram are knickpoints, waterfalls or rapids at knickpoints, incised meanders, river terraces and gorges."
-      ]
+      ],
+      "tip": "Exams ask you to count the number of rejuvenations shown in a diagram, and to name two rejuvenation features not shown. Pick two from the list that are missing from the diagram."
     },
     {
       "h": "Rise in base level and the coast",
-      "b": "A rise in base level, from sea level rising or land sinking, reduces the river's energy.",
+      "b": "A rise in base level, from sea level rising or land sinking, reduces the river's energy. This is the opposite of rejuvenation, so it drowns rather than cuts.",
       "points": [
-        "The lower course is drowned and deposition increases; the mouth becomes a ria or an estuary (ria formation is in the notes on Isostasy (Glaciation)).",
-        "Coastal landforms caused by a change in base level: raised beaches (from a fall in base level) and rias (from a rise).",
-        "Setting: rivers of north-west Ireland were rejuvenated as the land rose isostatically after the Midlandian ice melted about 10,000 years ago; the north, under thicker ice, rose more, with raised beaches at Malin Head, Co. Donegal (see the notes on Isostasy (Glaciation))."
-      ]
+        "The lower course is drowned and deposition (dropping of load) increases because the river has less energy; the mouth becomes a ria (a drowned river valley) or an estuary (the wide tidal mouth of a river). There is more on rias in Glaciation.",
+        "Coastal landforms caused by a change in base level are raised beaches (from a fall in base level) and rias (from a rise).",
+        "Setting: rivers of north-west Ireland were rejuvenated as the land rose isostatically after the Midlandian ice melted about 10,000 years ago; the north, under thicker ice, rose more, with raised beaches at Malin Head, Co. Donegal."
+      ],
+      "tip": "A rise in base level causes drowning and deposition, not rejuvenation. If asked to name two coastal landforms formed by an adjustment to base level, give raised beaches and rias."
     }
   ],
   "keyTerms": [

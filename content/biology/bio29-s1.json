@@ -5,85 +5,149 @@
   "syllabusRef": "2.6.9",
   "notes": [
     {
-      "h": "Structure and function of the heart",
+      "h": "Position, chambers and septum of the heart",
+      "b": "The heart is a muscular pump that never stops, and its structure is built around one job: moving blood. It is divided into four chambers, two upper and two lower, split into a left and a right side by a central wall.",
       "points": [
-        "Position and size: the heart is a hollow, muscular organ about the size of a clenched fist, in the thorax between the two lungs and behind the sternum, with its pointed lower end (the apex) tilted to the left. It is enclosed in the pericardium, a double membrane with fluid between its layers that reduces friction as the heart beats and prevents it from over-stretching.",
+        "Position and size: the heart is a hollow, muscular organ about the size of a clenched fist, in the thorax (the chest) between the two lungs and behind the sternum (breastbone), with its pointed lower end (the apex) tilted to the left.",
+        "The heart is enclosed in the pericardium, a double membrane with fluid between its layers. The fluid reduces friction as the heart beats, and the membrane prevents the heart from over-stretching.",
         "Atria (singular atrium): the two upper chambers receive blood returning to the heart from the veins and pump it the short distance into the ventricles below, so their walls are thin. Each has an ear-like flap on the outside, the auricle.",
-        "Ventricles: the two lower chambers pump blood out of the heart into the arteries, so their walls are thick and muscular. The left ventricle wall is much thicker than the right, because the left pumps blood all round the body (the systemic circuit) against high resistance, while the right pumps blood only to the nearby lungs (the pulmonary circuit) at lower pressure, which protects the delicate lung capillaries.",
-        "Septum: the thick wall of muscle dividing the heart into left and right sides. It keeps oxygenated blood (left side) separate from deoxygenated blood (right side), so the blood pumped to the body carries as much oxygen as possible. The right side pumps deoxygenated blood to the lungs; the left side pumps oxygenated blood to the body.",
-        "Veins entering the heart are thin-walled and bring blood to the atria. The venae cavae, the superior (anterior) vena cava from the head and arms and the inferior (posterior) vena cava from the rest of the body, bring deoxygenated blood into the right atrium. The pulmonary veins, four in humans, bring oxygenated blood from the lungs into the left atrium.",
-        "Arteries leaving the heart are thick-walled and carry blood away from the ventricles. The pulmonary artery leaves the right ventricle and divides to take deoxygenated blood to the two lungs. The aorta, the largest artery, leaves the left ventricle, arches over the heart and takes oxygenated blood to the body. The coronary arteries branch from the base of the aorta to supply the heart muscle itself (see ‘Heartbeat’).",
-        "Atrioventricular (AV) valves lie between each atrium and its ventricle: the tricuspid valve, with three flaps, on the right, and the bicuspid (mitral) valve, with two flaps, on the left. They let blood pass from atrium to ventricle and close when the ventricle contracts, so blood is not pushed back into the atrium.",
-        "The flaps of the AV valves are attached by tough cords, the chordae tendineae (‘heart strings’), to small papillary muscles on the ventricle wall. These hold the flaps and stop them turning inside out into the atria under the high pressure when the ventricles contract.",
-        "Semilunar valves lie at the base of the pulmonary artery and of the aorta. Each has three half-moon-shaped pockets. Blood pushed out by the ventricle flattens the pockets against the artery wall. When the ventricle relaxes, blood falling back fills the pockets, which meet and close the opening, so blood cannot flow back into the ventricle.",
-        "Cardiac muscle tissue is found only in the heart wall. Its cells are striated (striped), branched and joined end to end by intercalated discs, which let electrical impulses pass quickly from cell to cell so that the muscle contracts as a coordinated unit. Each cell has one nucleus and very many mitochondria, which supply ATP by aerobic respiration, so the heart beats throughout life without tiring. It is myogenic: it contracts by itself without needing a nerve impulse. Cardiac muscle is one of three muscle types (see ‘The musculoskeletal system as a system for response’).",
-        "Diagram: a vertical section through the heart viewed from the front, so that the heart’s left side is on the right of the page. Label the right and left atria, the right and left ventricles (left wall thicker), the septum, the tricuspid and bicuspid valves, the chordae tendineae, the papillary muscles, the semilunar valves, the superior and inferior venae cavae, the pulmonary artery, the pulmonary veins and the aorta. Add arrows for the direction of blood flow, and shade or label the oxygenated (left) and deoxygenated (right) sides.",
+        "Ventricles: the two lower chambers pump blood out of the heart into the arteries (the vessels that carry blood away from the heart), so their walls are thick and muscular.",
+        "The left ventricle wall is much thicker than the right, because the left pumps blood all round the body (the systemic circuit) against high resistance. The right pumps blood only to the nearby lungs (the pulmonary circuit) at lower pressure, which protects the delicate lung capillaries (the tiniest blood vessels).",
+        "Septum: the thick wall of muscle dividing the heart into left and right sides. It keeps oxygenated blood (left side) separate from deoxygenated blood (right side), so the blood pumped to the body carries as much oxygen as possible.",
+        "In other words, the heart is two separate pumps side by side: the right side pumps deoxygenated blood to the lungs, and the left side pumps oxygenated blood to the body."
+      ],
+      "tip": "Exams ask you to give a biological explanation of the septum and to explain why the left ventricle wall is thicker than the right. For the second, name the systemic circuit (whole body, high resistance) against the pulmonary circuit (lungs only, lower pressure). Remember that the atria do not pump blood to the body or lungs; only the ventricles do, because the atria only push blood the short distance into the ventricles below."
+    },
+    {
+      "h": "Vessels entering and leaving the heart",
+      "b": "Blood has to arrive at the heart and leave it by separate routes. Veins bring blood in to the atria, and arteries carry it out from the ventricles.",
+      "points": [
+        "Veins entering the heart are thin-walled and bring blood to the atria. Arteries carry blood away from the heart and veins carry it towards it; this is not about oxygen, which is why one artery and one set of veins break the usual pattern below.",
+        "The venae cavae bring deoxygenated blood into the right atrium: the superior (anterior) vena cava from the head and arms, and the inferior (posterior) vena cava from the rest of the body.",
+        "The pulmonary veins, four in humans, bring oxygenated blood from the lungs into the left atrium.",
+        "Arteries leaving the heart are thick-walled and carry blood away from the ventricles. The pulmonary artery leaves the right ventricle and divides to take deoxygenated blood to the two lungs.",
+        "The aorta, the largest artery, leaves the left ventricle, arches over the heart and takes oxygenated blood to the body.",
+        "The coronary arteries branch from the base of the aorta to supply the heart muscle itself with blood. There is more on this in Heartbeat."
+      ],
+      "tip": "Arteries carry blood away from the heart and veins towards it, whatever its oxygen content. The pulmonary artery carries deoxygenated blood and the pulmonary veins carry oxygenated blood. In a labelling question you must name the vessels entering and leaving the heart, so learn which chamber each one joins."
+    },
+    {
+      "h": "Valves and the chordae tendineae",
+      "b": "Blood pressure inside the heart changes sharply as the muscle squeezes, and blood would simply flow back where it came from without help. Valves are flaps of tissue that keep blood flowing in one direction only.",
+      "points": [
+        "Atrioventricular (AV) valves lie between each atrium and its ventricle: the tricuspid valve, with three flaps, on the right, and the bicuspid (mitral) valve, with two flaps, on the left. A reminder is tRIcuspid on the RIght.",
+        "AV valves let blood pass from atrium to ventricle and close when the ventricle contracts, so blood is not pushed back into the atrium.",
+        "The flaps of the AV valves are attached by tough cords, the chordae tendineae (heart strings), to small papillary muscles on the ventricle wall. These hold the flaps and stop them turning inside out into the atria under the high pressure when the ventricles contract.",
+        "Semilunar valves lie at the base of the pulmonary artery and of the aorta. Each has three half-moon-shaped pockets.",
+        "Blood pushed out by the ventricle flattens the pockets against the artery wall. When the ventricle relaxes, blood falling back fills the pockets, which meet and close the opening, so blood cannot flow back into the ventricle."
+      ],
+      "tip": "Exams ask you to name the valves, give their function and state the role of the chordae tendineae. The chordae stop the AV valve flaps turning inside out; they do not open or close the valves. Tricuspid is on the right and bicuspid on the left."
+    },
+    {
+      "h": "Cardiac muscle tissue and heart diagrams",
+      "b": "The heart wall is made of a special muscle found nowhere else in the body. Its features suit it to beating without rest for a whole lifetime.",
+      "points": [
+        "Cardiac muscle tissue is found only in the heart wall. Its cells are striated (striped) and branched, and are joined end to end by intercalated discs.",
+        "Intercalated discs let electrical impulses pass quickly from cell to cell, so the muscle contracts as a coordinated unit.",
+        "Each cell has one nucleus and very many mitochondria, which supply ATP (the cell's energy currency) by aerobic respiration, so the heart beats throughout life without tiring (fatigue).",
+        "Cardiac muscle is myogenic: it contracts by itself without needing a nerve impulse. There is more on the pacemaker that starts each beat in Heartbeat.",
+        "Diagram: a vertical section through the heart viewed from the front, so that the heart's left side is on the right of the page. Label the right and left atria, the right and left ventricles (left wall thicker), the septum, the tricuspid and bicuspid valves, the chordae tendineae, the papillary muscles, the semilunar valves, the superior and inferior venae cavae, the pulmonary artery, the pulmonary veins and the aorta. Add arrows for the direction of blood flow, and shade or label the oxygenated (left) and deoxygenated (right) sides.",
         "Diagram: cardiac muscle as seen under the microscope, from a prepared slide or micrograph, showing branched, striated cells with a central nucleus and intercalated discs. Label the striations, nucleus, intercalated disc and branch."
-      ]
+      ],
+      "tip": "For a question relating cardiac muscle features to function, link each one to its job: intercalated discs for fast, coordinated contraction; many mitochondria for no fatigue; myogenic for beating without a nerve impulse. In a front-view diagram the heart's own left side is on the right of the page, and students often label the sides the wrong way round."
     },
     {
       "h": "Planning the investigation",
+      "b": "A dissection is an investigation, so it needs an aim, hypotheses to test, controlled variables and both kinds of data. The heart you cut open is a model for the human heart.",
       "points": [
         "Aim: to identify the external and internal structures of a mammalian heart by dissection, and to relate each structure to its function, supporting conclusions with primary data (observations and measurements) and secondary data (diagrams, models, micrographs and images of the human heart).",
         "Hypothesis to test: the wall of the left ventricle is thicker than the wall of the right ventricle, because it pumps blood around the whole body.",
         "Hypothesis to test: arteries leaving the heart have thicker walls than veins entering it.",
         "Hypothesis to test: the valves allow blood to flow in one direction only.",
-        "Variables for the measured part (wall thickness): the independent variable is the chamber (left ventricle, right ventricle or atrium); the dependent variable is the wall thickness in mm. Controlled variables: measure at the same level, about halfway between the base and the apex, with the same ruler or calipers, on the same heart, with the cut made at right angles to the wall. Repeat each measurement three times at different points and calculate the mean. Pool class results from several hearts to check repeatability.",
+        "Variables for the measured part (wall thickness): the independent variable (the one you change) is the chamber (left ventricle, right ventricle or atrium); the dependent variable (the one you measure) is the wall thickness in mm.",
+        "Controlled variables (kept the same so the test is fair): measure at the same level, about halfway between the base and the apex, with the same ruler or calipers, on the same heart, with the cut made at right angles to the wall.",
+        "Repeat each measurement three times at different points and calculate the mean. Pool class results from several hearts to check repeatability.",
         "Secondary data: a labelled diagram or model of the human heart to compare with the dissected heart; micrographs or a prepared slide of cardiac muscle; published images or measurements of human hearts. The dissected heart is a model for the human heart, because mammalian hearts have the same four chambers, valves and vessels.",
-        "Equipment: a fresh or thawed sheep’s, pig’s or ox’s heart from a butcher, ideally with the vessels left long; dissecting board or tray; scalpel; sharp dissecting scissors; forceps; a blunt seeker or probe; a glass rod or drinking straw; ruler or calipers; wash bottle or beaker of water; disposable gloves; lab coat or apron; safety glasses; paper towels; disinfectant; a labelled diagram of the heart; a camera or phone to record observations."
-      ]
+        "Equipment: a fresh or thawed sheep's, pig's or ox's heart from a butcher, ideally with the vessels left long; dissecting board or tray; scalpel; sharp dissecting scissors; forceps; a blunt seeker or probe; a glass rod or drinking straw; ruler or calipers; wash bottle or beaker of water; disposable gloves; lab coat or apron; safety glasses; paper towels; disinfectant; a labelled diagram of the heart; a camera or phone to record observations."
+      ],
+      "tip": "In a heart dissection exams ask you to name an instrument used, so know the equipment list. For a wall-thickness question, state the independent variable (the chamber), the dependent variable (thickness in mm), the controls, and that you repeat three times and take the mean."
     },
     {
-      "h": "Method: dissecting the heart",
+      "h": "Method: dissecting the heart, outside and vessels",
+      "b": "Start with protection and with the outside of the heart. Identifying the front surface and the vessels first tells you which side is which before you cut anything.",
       "points": [
         "1. Put on gloves, lab coat and safety glasses. Rinse the heart under cold running water to remove blood clots, and dry it with paper towel.",
-        "2. Identify the front (ventral) surface: it has a coronary artery running diagonally across it, and the pulmonary artery leaves from the front. Place the heart with the front facing you, so the heart’s left side is on your right. Squeeze both sides: the left ventricle feels firmer and thicker.",
-        "3. Examine the outside. Identify the atria (soft, ear-like flaps at the top), the ventricles (firm, at the bottom), the apex, the coronary arteries and fat on the surface, and the vessels at the top. Arteries (aorta and pulmonary artery) have thick, rubbery walls and stay open; veins (venae cavae and pulmonary veins) have thin, floppy walls and collapse. Draw and label what you see, and photograph it.",
-        "4. Find which vessel joins which chamber: push a blunt probe or glass rod gently into each vessel to see which chamber it enters. The vena cava leads to the right atrium; the pulmonary artery leaves the right ventricle; the pulmonary veins lead to the left atrium; the aorta leaves the left ventricle. Butchers often trim the vessels short, so use the diagram (secondary data) to identify any that are missing.",
-        "5. Open the right side. Using scissors, cut from the right atrium down the outside wall of the right ventricle towards the apex, and open the chambers. Observe the tricuspid valve (three flaps), the chordae tendineae and the papillary muscles. Pull gently on a cord to see how it holds a flap.",
-        "6. Push the probe from the right ventricle up into the pulmonary artery, then cut along the artery to open it, and observe the three pockets of the semilunar valve at its base.",
+        "2. Identify the front (ventral) surface: it has a coronary artery running diagonally across it, and the pulmonary artery leaves from the front. Place the heart with the front facing you, so the heart's left side is on your right. Squeeze both sides: the left ventricle feels firmer and thicker.",
+        "3. Examine the outside. Identify the atria (soft, ear-like flaps at the top), the ventricles (firm, at the bottom), the apex, the coronary arteries and fat on the surface, and the vessels at the top.",
+        "Arteries (aorta and pulmonary artery) have thick, rubbery walls and stay open; veins (venae cavae and pulmonary veins) have thin, floppy walls and collapse. Draw and label what you see, and photograph it.",
+        "4. Find which vessel joins which chamber: push a blunt probe or glass rod gently into each vessel to see which chamber it enters.",
+        "The vena cava leads to the right atrium; the pulmonary artery leaves the right ventricle; the pulmonary veins lead to the left atrium; the aorta leaves the left ventricle.",
+        "Butchers often trim the vessels short, so use the diagram (secondary data) to identify any that are missing."
+      ],
+      "tip": "Exams ask how the front of the heart is identified (diagonal coronary artery, pulmonary artery leaving from the front), how to tell the left ventricle from the right (it is firmer and thicker), and how to find the vessels (push a probe into each one)."
+    },
+    {
+      "h": "Method: dissecting the heart, inside",
+      "b": "Now cut the heart open to look at the chambers, valves and wall thickness. Work on the right side first, then the left, then compare the walls in cross-section.",
+      "points": [
+        "5. Open the right side. Using scissors, cut from the right atrium down the outside wall of the right ventricle towards the apex, and open the chambers.",
+        "Observe the tricuspid valve (three flaps), the chordae tendineae and the papillary muscles. Pull gently on a cord to see how it holds a flap. 6. Push the probe from the right ventricle up into the pulmonary artery, then cut along the artery to open it, and observe the three pockets of the semilunar valve at its base.",
         "7. Open the left side in the same way: cut through the left atrium and down the left ventricle. Observe the bicuspid valve (two flaps) and its chordae tendineae. Follow the probe from the left ventricle into the aorta, cut it open and observe its semilunar valve. Look just above the valve pockets for the small openings of the coronary arteries.",
-        "8. Valve test (optional): before opening the arteries, hold the heart upright and pour water from a wash bottle into the aorta or pulmonary artery from above. The semilunar pockets fill and close, so the water does not pass down into the ventricle, showing that the valves allow one-way flow. Similarly, water poured into a ventricle through the atrium lifts the AV valve flaps up towards a closed position.",
-        "9. Cut a transverse section across both ventricles about halfway between the base and the apex. Observe the septum between them, and measure the wall thickness of the left ventricle, the right ventricle and the septum with a ruler, following the variables and repeats above. Compare with the thickness of an atrium wall.",
-        "10. Examine a prepared slide of cardiac muscle under the light microscope, or a micrograph, and draw it.",
-        "11. Record observations in a table and on labelled drawings. Dispose of the heart and clean up as described under ‘Safety and ethics’."
-      ]
+        "8. Valve test (optional): before opening the arteries, hold the heart upright and pour water from a wash bottle into the aorta or pulmonary artery from above. The semilunar pockets fill and close, so the water does not pass down into the ventricle, showing that the valves allow one-way flow.",
+        "Similarly, water poured into a ventricle through the atrium lifts the AV valve flaps up towards a closed position.",
+        "9. Cut a transverse section (straight across) across both ventricles about halfway between the base and the apex. Observe the septum between them.",
+        "Measure the wall thickness of the left ventricle, the right ventricle and the septum with a ruler, following the variables and repeats above. Compare with the thickness of an atrium wall.",
+        "10. Examine a prepared slide of cardiac muscle under the light microscope, or a micrograph, and draw it. 11. Record observations in a table and on labelled drawings. Dispose of the heart and clean up as described under Safety and ethics."
+      ],
+      "tip": "Know the water test and what it shows: water poured into an artery cannot pass back into the ventricle because the semilunar pockets fill and close, which supports the hypothesis that valves allow one-way flow."
     },
     {
       "h": "Safety and ethics",
+      "b": "A dissection uses sharp blades and raw animal tissue, so each hazard has a specific precaution. There is also an ethical side to using animal material.",
       "points": [
         "Scalpels and scissors are very sharp: cut on the dissecting board, away from your body and fingers, and never towards another person. Hold the tissue with forceps, not fingers, near the blade, carry sharp instruments pointing down, and report any cut at once.",
         "Raw meat can carry bacteria, such as Salmonella, that cause food poisoning. Wear gloves, do not touch your face, never eat or drink in the laboratory, keep the heart on the tray, and wash your hands thoroughly with soap afterwards.",
         "Disinfect the board, instruments and bench after the dissection. Wrap the heart and remove it as directed by the teacher; it is not to be left in an open bin.",
         "Wear safety glasses, as fluid can spray when cutting or when pouring water through the vessels.",
-        "Ethics: use a heart from an animal already killed for food, a by-product of the food industry, so that no animal is killed for the dissection, and treat the tissue with respect. A student who objects can use a model, a virtual dissection or videos as secondary data, in line with the 3Rs of animal use (see ‘Science, scientists and society’)."
-      ]
+        "Ethics: use a heart from an animal already killed for food, a by-product of the food industry, so that no animal is killed for the dissection, and treat the tissue with respect.",
+        "A student who objects can use a model, a virtual dissection or videos as secondary data, in line with the 3Rs of animal use. There is more on this in Science, scientists and society."
+      ],
+      "tip": "Exams ask for a safety precaution in a heart dissection. Pick one and give its reason, for example gloves and hand washing because raw meat can carry Salmonella, or cutting away from your body on the board because the blades are sharp."
     },
     {
       "h": "Results and secondary data",
+      "b": "Your results come from two sources: primary data, which you collect yourself from the dissected heart, and secondary data, which comes from diagrams, models and micrographs. Together they support the conclusions.",
       "points": [
-        "Expected observations: four chambers; atria thin-walled and small, ventricles thick-walled; the left ventricle wall clearly thicker than the right, typically several times thicker in measurements; the septum thick and muscular; the tricuspid valve with three flaps on the right and the bicuspid valve with two on the left, both held by chordae tendineae to papillary muscles; three-pocket semilunar valves at the base of the aorta and pulmonary artery; the aorta with a much thicker, more elastic wall than the venae cavae; the coronary arteries on the surface, with their openings just above the aortic valve.",
+        "Expected observations: four chambers; atria thin-walled and small, ventricles thick-walled; the left ventricle wall clearly thicker than the right, typically several times thicker in measurements; the septum thick and muscular.",
+        "Valves: the tricuspid valve with three flaps on the right and the bicuspid valve with two on the left, both held by chordae tendineae to papillary muscles; three-pocket semilunar valves at the base of the aorta and pulmonary artery.",
+        "Vessels: the aorta with a much thicker, more elastic wall than the venae cavae; the coronary arteries on the surface, with their openings just above the aortic valve.",
         "Results table to record: the structure; where it is found; its description (colour, texture, thickness, number of flaps); the measured wall thickness in mm, with three readings and the mean; and its function.",
-        "Secondary data: the dissected heart matches the human heart diagram in chambers, valves and vessels. Differences seen are due to the butcher’s trimming, which may remove the atria or vessels, or to species size. Micrographs show the branched, striated cardiac muscle cells and intercalated discs, which cannot be seen with the naked eye."
-      ]
+        "Secondary data: the dissected heart matches the human heart diagram in chambers, valves and vessels. Differences seen are due to the butcher's trimming, which may remove the atria or vessels, or to species size.",
+        "Micrographs show the branched, striated cardiac muscle cells and intercalated discs, which cannot be seen with the naked eye."
+      ],
+      "tip": "Use both kinds of data when you support a conclusion: measurements and observations from the dissection (primary), and the diagram or micrograph (secondary)."
     },
     {
       "h": "Conclusion",
+      "b": "The conclusion links each structure you found to its function, and states whether each hypothesis was supported by the evidence.",
       "points": [
         "The left ventricle has the thickest wall because it must generate the highest pressure to pump blood all round the body; the right ventricle pumps only to the lungs.",
         "Atria have thin walls because they pump blood only into the ventricles below them.",
         "The valves, the AV valves with their chordae tendineae and the semilunar valves, allow blood to flow only from atria to ventricles to arteries, never backwards. The water test supports this.",
-        "The septum separates oxygenated and deoxygenated blood. Arteries have thick walls to withstand high pressure, and veins have thin walls (see ‘Blood vessels’).",
+        "The septum separates oxygenated and deoxygenated blood.",
+        "Arteries have thick walls to withstand high pressure, and veins have thin walls. There is more on this in Blood vessels.",
         "For each hypothesis in the planning section, state whether it is supported, citing the measurements and observations."
-      ]
+      ],
+      "tip": "Exams ask you to explain why the left ventricle wall is thicker than the right, and to give a biological explanation of the septum. Always cite your own measurements and observations when you say a hypothesis is supported."
     },
     {
       "h": "Sources of error and limitations",
+      "b": "A dissected animal heart is not a living human heart, and the measurements are rough. Knowing the limits shows how far the conclusions can be trusted and how to improve them.",
       "points": [
         "Butchers often remove the atria or cut the vessels very short, so some structures may be missing or hard to identify. Vessels and valves may be damaged by cutting.",
         "Wall-thickness measurements vary with where and at what angle the cut is made, and soft tissue compresses under the ruler. Measure at the same level at right angles, repeat three times and use the mean.",
         "Heart muscle relaxes and blood clots after death, and freezing and thawing change the texture, so the chambers are not in their living shape.",
-        "A sheep’s or pig’s heart is a model: its size and some features differ from a human heart, for example the number of pulmonary vein openings, so conclusions about humans need secondary data.",
+        "A sheep's or pig's heart is a model: its size and some features differ from a human heart, for example the number of pulmonary vein openings, so conclusions about humans need secondary data.",
         "One heart per group is a small sample; pooling class data improves repeatability."
       ]
     }

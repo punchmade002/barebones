@@ -6,62 +6,73 @@
   "notes": [
     {
       "h": "The running events and their demands",
+      "b": "Running events are grouped by distance, and each group asks something different of the body. The longer the race, the more the energy comes from oxygen and the more pacing matters.",
       "points": [
-        "Sprints (100 m, 200 m and 400 m) demand speed, power and reaction time, and are powered by the ATP-PC system in the first seconds, with the lactic acid system taking over for the longer sprints.",
-        "Middle distance (800 m and 1500 m) demands speed endurance and tactical awareness, powered by the lactic acid system with a large aerobic contribution.",
-        "Long distance (5000 m, 10,000 m and beyond) demands cardio-respiratory endurance and pacing, powered mainly by the aerobic system.",
+        "Sprints (100 m, 200 m and 400 m) demand speed, power and reaction time (how fast you respond to the gun).",
+        "Sprints are powered by the ATP-PC system (a store of energy in the muscles that lasts only the first seconds), with the lactic acid system (energy made without oxygen, which produces lactic acid) taking over for the longer sprints, because the store runs out.",
+        "Middle distance (800 m and 1500 m) demands speed endurance (holding a fast pace for a long time) and tactical awareness (choosing where to run and when to move). It is powered by the lactic acid system with a large aerobic contribution (energy made using oxygen).",
+        "Long distance (5000 m, 10,000 m and beyond) demands cardio-respiratory endurance (the heart and lungs keeping oxygen flowing to the muscles for a long time) and pacing (spreading effort evenly over the race). It is powered mainly by the aerobic system.",
         "Hurdles demand speed, flexibility and rhythm, so that the stride pattern between barriers stays consistent."
-      ]
+      ],
+      "tip": "Running events are used as contexts for questions on principles of effective practice for a sprinter, the component of fitness needed for 10,000 m, and energy systems for the marathon and 400 m. Give the energy system and the demand for each event group."
     },
     {
       "h": "Starts",
+      "b": "A good start gets the athlete moving at full effort the moment the race begins. Sprinters start from blocks in a crouch, while middle and long distance runners use a simpler standing start.",
       "points": [
-        "Crouch start (sprints, from blocks): on 'On your marks' the hands are placed behind the line about shoulder-width apart, the front knee is near the line and the back knee rests on the ground.",
-        "Crouch start, 'Set': the hips are raised slightly above the shoulders, the shoulders are over the hands, and the front leg is bent at about 90 degrees and the back leg at about 120 degrees.",
-        "Crouch start, gun: the athlete drives out low with a powerful extension of the legs, while the opposite arm drives forward.",
+        "Crouch start (sprints, from blocks), on 'On your marks': the hands are placed behind the line about shoulder-width apart, the front knee is near the line and the back knee rests on the ground.",
+        "Crouch start, 'Set': the hips are raised slightly above the shoulders, the shoulders are over the hands, and the front leg is bent at about 90 degrees and the back leg at about 120 degrees. These angles are approximate coaching guides, so write 'about'.",
+        "Crouch start, gun: the athlete drives out low with a powerful extension of the legs (straightening them hard), while the opposite arm drives forward.",
         "Standing start (middle and long distance): one foot is forward, the body leans slightly, the weight is on the front foot and no hands touch the track.",
-        "Standing start, 'Go': the athlete drives forward from the front foot."
-      ]
+        "Standing start, 'Go': the athlete drives forward from the front foot, because the weight is already over it."
+      ],
+      "tip": "Newton's laws are asked about at the start, so link the powerful leg push into the blocks to the athlete being driven forward."
     },
     {
       "h": "Drive and acceleration in sprinting",
+      "b": "A sprinter does not run upright from the first step. Speed is built up in phases, starting with a low, forward-leaning drive.",
       "points": [
-        "At first the body is low and leaning forward, so that the drive pushes the athlete forward.",
+        "At first the body is low and leaning forward, so that the drive (the push of the legs against the ground) pushes the athlete forward.",
         "The body gradually becomes upright over about 20-30 m of the race.",
-        "Once upright, the athlete maintains speed through maximum velocity and into the final phase, which is the maintenance of speed."
+        "Once upright, the athlete maintains speed through maximum velocity (top speed) and into the final phase, which is the maintenance of speed."
       ]
     },
     {
       "h": "Sprint technique: upper body and lower body",
+      "b": "Sprint technique is about driving forward with no wasted movement. A relaxed upper body keeps the arms and head helping the legs, and the legs do the work of pushing.",
       "points": [
         "Upper body: the head is still and in line with the spine, the eyes look forward, and the face and shoulders are relaxed.",
         "Arms are bent at about 90 degrees and drive from the shoulder, with the hand moving from the hip to chin level.",
-        "Arms do not cross the body.",
-        "Lower body: the knee lifts high on the drive, and the foot lands on the ball of the foot under the hips.",
+        "Arms do not cross the body, because that would twist the trunk and waste energy.",
+        "Lower body: the knee lifts high on the drive, and the foot lands on the ball of the foot (the padded part behind the toes) under the hips.",
         "The drive leg extends fully at the hip, knee and ankle to push the body forward.",
-        "On recovery the heel is pulled up towards the bottom, so the leg swings through without wasted movement.",
+        "On recovery (the phase when the leg comes off the ground and swings forward again) the heel is pulled up towards the bottom, so the leg swings through without wasted movement.",
         "Ground contact is short, so that each stride drives the body forward rather than braking it."
-      ]
+      ],
+      "tip": "Questions on a sprinter's technique can be answered by working down the body: head, arms, knee lift, foot landing, leg extension, recovery and ground contact."
     },
     {
       "h": "Middle and long distance technique and pacing",
+      "b": "Over long races the aim is to run smoothly and use as little energy as possible, then to share effort out sensibly across the distance. Pacing is the plan for how fast to run each part of the race.",
       "points": [
-        "The body is more upright than in a sprint, and the running is relaxed.",
-        "The knee lift and the arm drive are lower than in a sprint.",
+        "The body is more upright than in a sprint, and the running is relaxed, so energy is not wasted over a long race.",
+        "The knee lift and the arm drive are lower than in a sprint, because the aim is to last the distance rather than reach top speed.",
         "The foot lands mid-foot, under the body.",
         "Breathing is rhythmic, matched to the stride, so that oxygen supply stays steady.",
-        "Economy of movement is the aim: smooth, efficient stride with no wasted motion.",
+        "Economy of movement is the aim: a smooth, efficient stride with no wasted motion, so energy lasts the whole race.",
         "Pacing: an even pace over the race or a negative split, with the second half faster than the first.",
-        "Going out too fast builds up lactic acid early, so the athlete cannot sustain the pace later.",
-        "The kick is used in the final part of the race to pass rivals."
-      ]
+        "Going out too fast builds up lactic acid early (the waste product of energy made without oxygen), so the athlete cannot sustain the pace later.",
+        "The kick (a burst of speed) is used in the final part of the race to pass rivals."
+      ],
+      "tip": "For a 10,000 m or marathon question, name the aerobic system and cardio-respiratory endurance, and link going out too fast to lactic acid build-up."
     },
     {
       "h": "Hurdles technique",
+      "b": "Hurdling is sprinting with barriers in the way. The aim is to clear each hurdle with as little loss of speed as possible and land ready to keep running.",
       "points": [
         "The athlete attacks the hurdle from a set distance, so the stride pattern is consistent between barriers.",
-        "The lead leg is driven up straight, with the knee leading.",
-        "The trail leg is brought round to the side with the knee high and the foot turned out.",
+        "The lead leg (the first leg over the hurdle) is driven up straight, with the knee leading.",
+        "The trail leg (the second leg over) is brought round to the side with the knee high and the foot turned out.",
         "The trunk leans forward over the hurdle, and the arm opposite the lead leg drives.",
         "The athlete runs off the hurdle quickly, back into the normal stride.",
         "Hurdles are usually run with a consistent number of strides between them, for example three strides."
@@ -69,34 +80,38 @@
     },
     {
       "h": "Finishes",
+      "b": "Races are decided at the line, so how you cross it matters. The rule is about which part of the body counts.",
       "points": [
-        "The athlete runs through the line without slowing down.",
-        "At the line the torso dips forward; the head and arms do not count for the finish.",
+        "The athlete runs through the line without slowing down, so that no time is lost before the line is crossed.",
+        "At the line the torso (the trunk of the body, not the head or limbs) dips forward; the head and arms do not count for the finish.",
         "In athletics the finish is decided by the torso crossing the line."
       ]
     },
     {
       "h": "Overall efficiency and common faults",
+      "b": "Efficient running wastes no energy, and most faults come from movement that does not push the body forward. Spotting them is a way to describe how a runner could improve.",
       "points": [
         "Efficient running is relaxed, with minimal side-to-side movement, good posture and a steady rhythm.",
         "Arms crossing the body waste energy and twist the trunk.",
-        "Overstriding and heel striking act as brakes, because the foot lands ahead of the centre of mass.",
+        "Overstriding (taking too long a stride) and heel striking act as brakes, because the foot lands ahead of the centre of mass (the point the body's weight balances around).",
         "Tense shoulders and a leaning-back posture reduce the efficiency of the stride.",
         "Slowing down before the line loses time that the athlete has already earned."
       ]
     },
     {
       "h": "Tactics in middle distance racing",
+      "b": "In middle distance races the runners are close together, so where you run and when you move can decide the result as much as fitness.",
       "points": [
-        "The athlete positions near the front on the inside to avoid being boxed in.",
-        "The athlete responds to surges by rivals rather than being carried by them.",
+        "The athlete positions near the front on the inside to avoid being boxed in (trapped behind or between other runners with no room to move).",
+        "The athlete responds to surges (sudden increases in pace) by rivals rather than being carried by them.",
         "The final kick is timed to start at the point where the athlete can sustain it to the line."
       ]
     },
     {
       "h": "Rules for running events",
+      "b": "Rules keep races fair and safe. Knowing them also stops an athlete being disqualified for a simple mistake.",
       "points": [
-        "At senior level, under current World Athletics rules, one false start results in disqualification with no warning.",
+        "At senior level, under current World Athletics rules, one false start (leaving the blocks before the gun) results in disqualification with no warning.",
         "Sprints stay in their lanes for the whole race.",
         "In the 800 m, runners break from their lanes into the inside lane after the first bend.",
         "Obstruction of another runner is a breach of the rules."

@@ -6,93 +6,169 @@
   "notes": [
     {
       "h": "What the menstrual cycle is",
+      "b": "Once a month, the female reproductive system gets ready for a possible pregnancy and, if none begins, starts over. This repeating pattern is the menstrual cycle.",
       "points": [
-        "The menstrual cycle is the series of changes in the ovary and the uterus that happens about once a month in a woman from puberty to menopause, except during pregnancy.",
-        "Its purpose is to release an egg and to prepare the endometrium to receive an embryo.",
+        "The menstrual cycle is the series of changes in the ovary (where eggs are stored) and the uterus (the womb) that happens about once a month in a woman from puberty to menopause, except during pregnancy.",
+        "Its purpose is to release an egg and to prepare the endometrium (the lining of the uterus) to receive an embryo, so a fertilised egg has somewhere to implant and grow.",
         "The cycle lasts about 28 days on average, but a cycle of about 21 to 35 days is normal, and its length varies between women and from month to month.",
-        "Day 1 is the first day of bleeding.",
-        "Two sets of changes run side by side: the ovarian cycle, in which a follicle develops, releases its egg and becomes the corpus luteum, and the uterine cycle, in which the endometrium is shed, rebuilt and thickened.",
-        "Hormones coordinate the two sets of changes.",
-        "The first period (menarche) occurs during puberty, and the cycles end at the menopause (see “Hormones in reproduction”)."
-      ]
+        "Day 1 is the first day of bleeding, so every day number in the cycle is counted from the start of a period.",
+        "Two sets of changes run side by side: the ovarian cycle, in which a follicle (a small fluid-filled sac holding an egg) develops, releases its egg and becomes the corpus luteum, and the uterine cycle, in which the endometrium is shed, rebuilt and thickened.",
+        "Hormones (chemical messengers carried in the blood) coordinate the two sets of changes, which is why the ovary and uterus stay in step with each other.",
+        "The first period (menarche) occurs during puberty, and the cycles end at the menopause. There is more on this in Hormones in reproduction."
+      ],
+      "tip": "Questions on this topic can ask for the length of a typical cycle: give about 28 days, and remember that day 1 is the first day of bleeding."
     },
     {
-      "h": "The four phases",
-      "b": "The typical days are for a 28-day cycle.",
+      "h": "Menstruation",
+      "b": "The cycle starts with the period, the phase where the lining built up in the last cycle is lost. Counting from day 1, it is the first of the four phases.",
       "points": [
-        "Menstruation (days 1–5, about): if no egg was fertilised in the previous cycle, the thickened outer layer of the endometrium breaks down and is shed with a small amount of blood through the cervix and vagina; this is a period.",
-        "Shedding lasts about 3–7 days.",
-        "Follicular phase (day 1 to about day 13, overlapping menstruation): in the ovary, several follicles start to develop, and usually one grows into a large, mature, fluid-filled follicle containing the egg, called a Graafian follicle.",
-        "In the uterus, after menstruation ends, the endometrium is repaired and grows thicker from about day 6.",
-        "Near the end of this phase the cervical mucus becomes thin, clear and slippery, letting sperm through.",
-        "Ovulation (about day 14): the Graafian follicle bursts at the surface of the ovary and releases its egg, which is swept into the fallopian tube.",
-        "This is the most fertile time; the egg survives about 12–24 hours (see “Gametes and fertilisation”).",
-        "Luteal phase (about days 15–28): the empty follicle turns into a yellow mass of cells, the corpus luteum (“yellow body”).",
-        "The endometrium thickens further, becoming spongy, with more blood vessels and glands, ready for an embryo to implant.",
-        "If no embryo implants, the corpus luteum breaks down after about 10–14 days and the endometrium is shed; the next menstruation begins on day 1.",
-        "If an embryo implants, the corpus luteum stays active (see “Hormones in reproduction”) and there is no period.",
-        "Ovulation happens about 14 days before the next period starts. The luteal phase is fairly constant, at about 14 days; differences in cycle length come mostly from the follicular phase.",
-        "So in a 35-day cycle ovulation is about day 21, not day 14.",
-        "Summary, one bullet per phase – days – what happens in the ovary – what happens in the endometrium. Menstruation: days 1–5 – the corpus luteum of the last cycle has broken down – the endometrium is shed.",
-        "Summary: follicular phase – days 1–13 – a follicle develops into the Graafian follicle – the endometrium is repaired and grows thicker from about day 6.",
-        "Summary: ovulation – about day 14 – the Graafian follicle bursts and releases the egg – the endometrium is at the thickness built up in the follicular phase.",
-        "Summary: luteal phase – days 15–28 – the corpus luteum forms and then breaks down if there is no pregnancy – the endometrium thickens further, becoming spongy, and is shed if no embryo implants."
-      ]
+        "Menstruation lasts about days 1–5 of a typical 28-day cycle, although the typical days given for each phase are only approximate.",
+        "If no egg was fertilised in the previous cycle, the thickened outer layer of the endometrium is no longer needed, so it breaks down and is shed through the cervix (the neck of the uterus) and vagina.",
+        "The shed lining leaves with a small amount of blood. This is a period, and the shedding lasts about 3–7 days."
+      ],
+      "tip": "If asked to describe one change in the endometrium at a named day, days 1–5 give you a safe answer: the lining is shed."
+    },
+    {
+      "h": "Follicular phase",
+      "b": "After the old lining is lost, the body prepares a new egg and rebuilds the lining. This phase is named after the follicles in the ovary that grow during it.",
+      "points": [
+        "The follicular phase runs from day 1 to about day 13, so it overlaps with menstruation.",
+        "In the ovary, several follicles start to develop, and usually one grows into a large, mature, fluid-filled follicle containing the egg, called a Graafian follicle.",
+        "In the uterus, after menstruation ends, the endometrium is repaired and grows thicker from about day 6, rebuilding the lining that was lost.",
+        "Near the end of this phase the cervical mucus (the fluid made at the cervix) becomes thin, clear and slippery, which lets sperm through."
+      ],
+      "tip": "The Graafian follicle is a mature follicle in the ovary, not a separate organ. It is the same structure that later becomes the corpus luteum."
+    },
+    {
+      "h": "Ovulation",
+      "b": "Ovulation is the high point of the ovarian cycle: the mature egg leaves the ovary.",
+      "points": [
+        "Ovulation happens at about day 14: the Graafian follicle bursts at the surface of the ovary and releases its egg, which is swept into the fallopian tube (the tube that carries the egg towards the uterus).",
+        "This is the most fertile time, because the egg survives only about 12–24 hours, so sperm must already be present or arrive within that short window. There is more on this in Gametes and fertilisation."
+      ],
+      "tip": "Do not assume ovulation is always on day 14. That is only the typical day in a 28-day cycle."
+    },
+    {
+      "h": "Luteal phase",
+      "b": "After the egg is released, the ovary and the uterus prepare for a possible embryo. What happens next depends on whether an embryo implants.",
+      "points": [
+        "The luteal phase lasts about days 15–28. The empty follicle turns into a yellow mass of cells, the corpus luteum (Latin for “yellow body”).",
+        "The endometrium thickens further, becoming spongy, with more blood vessels and glands, so that it is ready for an embryo to implant (embed in the lining).",
+        "If no embryo implants, the corpus luteum breaks down after about 10–14 days and the endometrium is shed, so the next menstruation begins on day 1 of a new cycle.",
+        "If an embryo implants, the corpus luteum stays active, so the lining is kept and there is no period. There is more on this in Hormones in reproduction."
+      ],
+      "tip": "The corpus luteum forms from the same follicle that released the egg. Link the ovary change (the corpus luteum forms, then breaks down) to the endometrium change (thickens, then is shed)."
+    },
+    {
+      "h": "Why cycle length varies",
+      "b": "Not every woman ovulates on day 14. The timing depends on a fixed gap before the next period, not a fixed day number.",
+      "points": [
+        "Ovulation happens about 14 days before the next period starts, because the luteal phase is fairly constant at about 14 days.",
+        "Differences in cycle length come mostly from the follicular phase, since that is the phase that varies in length.",
+        "So in a 35-day cycle ovulation is about day 21, not day 14, because 35 minus 14 gives day 21."
+      ],
+      "tip": "To place ovulation in a cycle of any length, count back about 14 days from the next period."
+    },
+    {
+      "h": "The four phases at a glance",
+      "b": "Here is each phase with its days, what the ovary is doing and what the endometrium is doing, for a typical 28-day cycle.",
+      "points": [
+        "Menstruation: days 1–5; ovary: the corpus luteum of the last cycle has broken down; endometrium: shed.",
+        "Follicular phase: days 1–13; ovary: a follicle develops into the Graafian follicle; endometrium: repaired and growing thicker from about day 6.",
+        "Ovulation: about day 14; ovary: the Graafian follicle bursts and releases the egg; endometrium: at the thickness built up in the follicular phase.",
+        "Luteal phase: days 15–28; ovary: the corpus luteum forms and then breaks down if there is no pregnancy; endometrium: thickens further, becoming spongy, and is shed if no embryo implants."
+      ],
+      "tip": "Exams ask you to name the four phases and give approximate days, so learn the days with the phase names."
     },
     {
       "h": "Drawing the cycle timeline",
+      "b": "A timeline puts the ovary and the uterus side by side, so you can see how the two cycles line up day by day.",
       "points": [
-        "Diagram: a timeline from day 0 to day 28 showing, above, the ovary (a follicle growing, the Graafian follicle, ovulation at day 14, and the corpus luteum forming and then breaking down) and, below, the thickness of the endometrium (shed on days 1–5, thickening to day 28). Label the four phases along the timeline."
+        "Diagram: a timeline, day 0 to day 28. Above: the ovary (follicle growing, Graafian follicle, ovulation at day 14, corpus luteum forming then breaking down). Below: endometrium thickness (shed days 1–5, thickening to day 28). Label the four phases along the timeline."
       ]
     },
     {
-      "h": "Hormone changes in each phase (Higher Level only)",
+      "h": "The four hormones and where they come from (Higher Level only)",
+      "b": "Four hormones coordinate the cycle. Knowing which organ makes each one is the key to explaining the rest of this topic.",
       "points": [
-        "The four hormones and their sources: FSH and LH are made by the pituitary gland; oestrogen is made mainly by the developing follicle, and in smaller amounts by the corpus luteum; progesterone is made by the corpus luteum.",
+        "FSH (follicle-stimulating hormone) and LH (luteinising hormone) are made by the pituitary gland (a small gland at the base of the brain). Oestrogen is made mainly by the developing follicle, and in smaller amounts by the corpus luteum. Progesterone is made by the corpus luteum."
+      ],
+      "tip": "Exams ask where each hormone is produced. The pituitary makes FSH and LH, and the corpus luteum makes progesterone. Do not say the ovary makes FSH or the pituitary makes progesterone."
+    },
+    {
+      "h": "Hormones in menstruation and the follicular phase (Higher Level only)",
+      "b": "The cycle restarts when progesterone falls, and the follicular phase is then driven by FSH and oestrogen. Each hormone's level explains what happens in the ovary and uterus.",
+      "points": [
         "Menstruation: oestrogen and progesterone are both low, because the corpus luteum of the last cycle has broken down.",
-        "The fall in progesterone is what causes the endometrium to break down.",
+        "The fall in progesterone is what causes the endometrium to break down. Low oestrogen alone is not the cause.",
         "Low progesterone no longer holds back the pituitary, so FSH begins to rise.",
-        "Follicular phase: FSH stimulates follicles to develop, and one becomes the Graafian follicle; the growing follicle secretes oestrogen, so oestrogen rises steadily.",
+        "Follicular phase: FSH stimulates follicles to develop, and one becomes the Graafian follicle. The growing follicle secretes oestrogen, so oestrogen rises steadily.",
         "Oestrogen repairs and thickens the endometrium and makes the cervical mucus thin.",
-        "Rising oestrogen at first inhibits FSH, so FSH falls back and usually only one follicle completes development.",
-        "Ovulation: when oestrogen reaches a high peak (around day 12–13), it stimulates the pituitary to release a large surge of LH, with a smaller rise in FSH.",
+        "Rising oestrogen at first inhibits (holds back) FSH, so FSH falls back and usually only one follicle completes development."
+      ],
+      "tip": "A fall in progesterone causes menstruation. In the follicular phase it is oestrogen, not progesterone, that repairs and thickens the endometrium."
+    },
+    {
+      "h": "Hormones at ovulation (Higher Level only)",
+      "b": "Ovulation is triggered by a sudden surge of LH, which is itself set off by high oestrogen.",
+      "points": [
+        "When oestrogen reaches a high peak (around day 12–13), it stimulates the pituitary to release a large surge of LH, with a smaller rise in FSH.",
         "The LH surge causes the Graafian follicle to burst and release its egg about a day later (ovulation, about day 14).",
-        "Oestrogen falls just after ovulation.",
+        "Oestrogen falls just after ovulation."
+      ],
+      "tip": "The LH surge, not FSH, causes ovulation. If asked which hormone's surge triggers ovulation and where it is made, answer LH from the pituitary."
+    },
+    {
+      "h": "Hormones in the luteal phase and at the end of the cycle (Higher Level only)",
+      "b": "After ovulation the corpus luteum takes over, and progesterone rises. Whether the cycle ends or a pregnancy continues depends on whether the corpus luteum survives.",
+      "points": [
         "Luteal phase: LH causes the empty Graafian follicle to develop into the corpus luteum.",
         "The corpus luteum secretes progesterone (and some oestrogen), so progesterone rises to a peak around day 21.",
         "Progesterone maintains and further thickens the endometrium, making it ready for implantation, and makes the cervical mucus thick again.",
-        "High progesterone, with oestrogen, inhibits FSH and LH, so no new follicle develops and no further egg is released while the corpus luteum is active; FSH and LH stay low.",
-        "End of the cycle: without pregnancy, low LH means the corpus luteum is no longer maintained; it breaks down after about 10–14 days, so progesterone and oestrogen fall.",
-        "The endometrium can no longer be maintained and is shed (menstruation); the fall removes the inhibition of FSH, which rises and starts a new cycle.",
-        "If an embryo implants, a hormone from the embryo keeps the corpus luteum alive, so progesterone stays high and menstruation does not happen (detail in “Hormones in reproduction”).",
-        "Summary table, one bullet per phase – FSH, LH, oestrogen, progesterone, and the state of the ovary: menstruation – FSH rising, LH low, oestrogen low, progesterone low – a new follicle begins to grow.",
-        "Summary: follicular phase – FSH high then falling, LH low, oestrogen rising, progesterone low – a follicle grows to the Graafian follicle.",
-        "Summary: ovulation – LH surge, a small FSH peak, oestrogen at its peak then falling, progesterone low – the Graafian follicle bursts.",
-        "Summary: luteal phase – FSH and LH low, progesterone high with a peak about day 21, oestrogen at a moderate second, smaller peak, both falling at the end – the corpus luteum active, then breaking down."
-      ]
+        "High progesterone, with oestrogen, inhibits FSH and LH, so no new follicle develops and no further egg is released while the corpus luteum is active. FSH and LH stay low.",
+        "End of the cycle: without pregnancy, low LH means the corpus luteum is no longer maintained. It breaks down after about 10–14 days, so progesterone and oestrogen fall.",
+        "The endometrium can no longer be maintained and is shed (menstruation). The fall removes the inhibition of FSH, which rises and starts a new cycle.",
+        "If an embryo implants, a hormone from the embryo keeps the corpus luteum alive, so progesterone stays high and menstruation does not happen. There is more on this in Hormones in reproduction."
+      ],
+      "tip": "Progesterone, not oestrogen, maintains the endometrium in the luteal phase. To explain why menstruation does not happen in pregnancy, say a hormone from the embryo keeps the corpus luteum alive, so progesterone stays high."
+    },
+    {
+      "h": "Hormone levels in each phase at a glance (Higher Level only)",
+      "b": "This summary gives the level of each hormone in each phase, with the state of the ovary.",
+      "points": [
+        "Menstruation: FSH rising, LH low, oestrogen low, progesterone low; a new follicle begins to grow.",
+        "Follicular phase: FSH high then falling, LH low, oestrogen rising, progesterone low; a follicle grows to the Graafian follicle.",
+        "Ovulation: LH surge, a small FSH peak, oestrogen at its peak then falling, progesterone low; the Graafian follicle bursts.",
+        "Luteal phase: FSH and LH low, progesterone high with a peak about day 21, oestrogen at a moderate second, smaller peak, both falling at the end; the corpus luteum active, then breaking down."
+      ],
+      "tip": "Exams ask why a named hormone rises or falls at a stage. Give the cause each time, for example the follicle making oestrogen or the corpus luteum making progesterone."
     },
     {
       "h": "Feedback between the ovary and the pituitary (Higher Level only)",
+      "b": "The ovary and the pituitary signal each other in a loop, and that feedback is what keeps the cycle going from one month to the next.",
       "points": [
-        "The cycle is controlled by feedback.",
-        "Negative feedback: progesterone, and moderate oestrogen, inhibits the pituitary's release of FSH and LH; this keeps FSH and LH low in the luteal phase, and their fall lets the corpus luteum break down (see “Homeostasis as a stimulus-response model” for negative feedback).",
+        "The cycle is controlled by feedback, meaning each hormone's level changes the release of the next.",
+        "Negative feedback: progesterone, and moderate oestrogen, inhibits the pituitary's release of FSH and LH. This keeps FSH and LH low in the luteal phase, and their fall lets the corpus luteum break down. There is more on negative feedback in Homeostasis as a stimulus-response model.",
         "Positive feedback: high oestrogen just before ovulation causes more LH to be released, giving the LH surge.",
         "Each hormone controls the next: FSH → follicle grows → oestrogen → LH surge → ovulation and corpus luteum → progesterone → FSH and LH inhibited → corpus luteum breaks down → progesterone falls → menstruation and FSH rises.",
-        "Diagram: this sequence as a loop (a flow chart) linking the pituitary, the ovary and the endometrium, with “+” on the oestrogen-to-LH arrow and “−” on the progesterone-to-FSH/LH arrow.",
         "Technology link: home ovulation test kits detect the LH surge in urine, showing that ovulation is likely within about a day or two.",
-        "Technology link: the combined contraceptive pill gives steady oestrogen and progesterone, which by negative feedback keep FSH and LH low, so no follicle matures and no LH surge occurs (the pill is in “Hormonal manipulation” and “Fertility control and infertility”)."
-      ]
+        "Technology link: the combined contraceptive pill gives steady oestrogen and progesterone, which by negative feedback keep FSH and LH low, so no follicle matures and no LH surge occurs.",
+        "Diagram: this sequence as a loop (a flow chart) linking the pituitary, the ovary and the endometrium, with “+” on the oestrogen-to-LH arrow and “−” on the progesterone-to-FSH/LH arrow."
+      ],
+      "tip": "Remember the one positive feedback step: high oestrogen causes the LH surge. The other main step, progesterone inhibiting FSH and LH, is negative feedback."
     },
     {
       "h": "The hormone graphs (Higher Level only)",
+      "b": "Exams show graphs of the four hormones across a 28-day cycle. You need to recognise each curve and explain every change by its cause.",
       "points": [
         "How to read the standard graphs of a 28-day cycle: FSH has a rise early in the cycle and a small peak at day 14.",
         "LH is low except for a sharp, tall peak just before day 14.",
         "Oestrogen rises through the follicular phase to a peak just before the LH surge, drops after ovulation, then has a lower second rise in the luteal phase.",
         "Progesterone is low until ovulation, rises to a peak around day 21, then falls to day 28.",
         "Exam answers explain each change by its cause, for example: progesterone rises after day 14 because the corpus luteum secretes it.",
-        "Diagram: two graphs on the same 28-day time axis, one for the pituitary hormones (FSH and LH) and one for the ovarian hormones (oestrogen and progesterone), lined up with the ovary events and the endometrium thickness from the timeline. Label the LH surge, the oestrogen peak, the progesterone peak and ovulation."
-      ]
+        "Diagram: two graphs on one 28-day time axis, one for FSH and LH (pituitary), one for oestrogen and progesterone (ovarian), lined up with the ovary events and endometrium thickness from the timeline. Label the LH surge, oestrogen peak, progesterone peak and ovulation."
+      ],
+      "tip": "To name a hormone from a graph, use its shape: the tall sharp peak just before day 14 is LH, and the big peak around day 21 is progesterone. Then explain the change by its cause."
     }
   ],
   "keyTerms": [

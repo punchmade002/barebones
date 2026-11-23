@@ -6,100 +6,116 @@
   "notes": [
     {
       "h": "General points",
+      "b": "Every salt is built from two kinds of ion, and each kind is identified by a different test. Before you meet the individual tests, you need the ground rules that make them reliable.",
       "points": [
-        "A salt contains a cation (positive ion, usually a metal) and an anion (negative ion).",
-        "The anion tests are carried out on a solution of the salt in deionised water.",
-        "Tests work only above a certain minimum concentration of the ion; very dilute solutions may give no visible result.",
+        "A salt contains a cation (a positive ion, usually a metal) and an anion (a negative ion), so a full identification needs one test for each.",
+        "The anion tests are carried out on a solution of the salt in deionised water (water with its dissolved ions removed), because the tests rely on ions moving freely in solution.",
+        "Tests work only above a certain minimum concentration of the ion, so very dilute solutions may give no visible result even when the ion is present.",
         "Use deionised water and clean test tubes, so that ions from tap water or other samples don't give false results.",
-        "Test a blank of deionised water as a control.",
-        "A precipitate is an insoluble solid that forms when two solutions are mixed.",
+        "Test a blank of deionised water as a control (a test run with no sample, to show what the reagent does by itself).",
+        "A precipitate is an insoluble solid that forms when two solutions are mixed, which is why it appears as cloudiness or a coloured solid in the liquid.",
         "Effervescence is fizzing as a gas is given off."
-      ]
+      ],
+      "tip": "Say that tests need a minimum concentration, and that deionised water and clean tubes stop false results."
     },
     {
       "h": "Cation: flame test",
+      "b": "The cation in a salt is identified by a flame test, in which a sample of the salt is heated in a flame and the colour of the flame is observed. Each of the cations below gives its own colour.",
       "points": [
-        "Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour (see \"The orbital model and electronic structure\")."
-      ]
+        "Flame tests identify six cations: sodium, potassium, copper, lithium, barium and strontium, each giving its own flame colour. There is more on this in The orbital model and electronic structure."
+      ],
+      "tip": "Only these six cations are on the specification, so you don't need to learn flame colours for others."
     },
     {
       "h": "Chloride",
+      "b": "Chloride ions are detected by making insoluble silver chloride. The test is simple, but the acid used matters.",
       "points": [
-        "Add a few drops of silver nitrate solution, acidified with dilute nitric acid.",
+        "Add a few drops of silver nitrate solution, acidified with dilute nitric acid (nitric acid is added to make the mixture acidic).",
         "A white precipitate of silver chloride forms: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
         "Confirm the precipitate by showing that it dissolves in dilute ammonia solution.",
-        "Use nitric acid, not hydrochloric acid, which would add chloride ions.",
+        "Use nitric acid, not hydrochloric acid, because hydrochloric acid would add chloride ions of its own and give a false positive.",
         "Nitric acid is added first to remove carbonate ions, which would also give a precipitate with silver nitrate."
-      ]
+      ],
+      "tip": "Acidify silver nitrate with nitric acid, not hydrochloric acid, which adds chloride."
     },
     {
       "h": "Sulfate and sulfite",
+      "b": "Sulfate and sulfite ions both react with barium ions to give a white precipitate, so a second step with acid is needed to tell them apart.",
       "points": [
-        "Add barium chloride solution: sulfate and sulfite both give a white precipitate.",
+        "Add barium chloride solution: sulfate and sulfite both give a white precipitate, so this step alone cannot distinguish them.",
         "Sulfate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s).",
         "Sulfite: Ba²⁺(aq) + SO₃²⁻(aq) → BaSO₃(s).",
-        "Then add dilute hydrochloric acid: barium sulfate does not dissolve, but barium sulfite dissolves.",
-        "Barium sulfite reacts with the acid: BaSO₃(s) + 2HCl(aq) → BaCl₂(aq) + SO₂(g) + H₂O(l).",
+        "Then add dilute hydrochloric acid: barium sulfate does not dissolve, but barium sulfite dissolves, and this difference identifies which ion was present.",
+        "Barium sulfite reacts with the acid, which is why it dissolves: BaSO₃(s) + 2HCl(aq) → BaCl₂(aq) + SO₂(g) + H₂O(l).",
         "Safety: barium compounds are toxic.",
         "Safety: sulfur dioxide is a toxic, choking gas, so use small amounts in good ventilation."
-      ]
+      ],
+      "tip": "Barium sulfite dissolves in dilute hydrochloric acid and barium sulfate doesn't. Don't swap them. To distinguish sulfate from sulfite, use this acid step."
     },
     {
       "h": "Carbonate and hydrogencarbonate",
+      "b": "Both ions release carbon dioxide when acid is added, so a second test with magnesium sulfate is needed to tell them apart. Carbonate has the formula CO₃²⁻ and hydrogencarbonate HCO₃⁻.",
       "points": [
         "Add dilute hydrochloric acid to the solid: both give effervescence of carbon dioxide.",
         "Carbonate: CO₃²⁻ + 2H⁺ → CO₂ + H₂O.",
         "Hydrogencarbonate: HCO₃⁻ + H⁺ → CO₂ + H₂O.",
-        "Confirm the gas as carbon dioxide: it turns limewater milky, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).",
+        "Confirm the gas as carbon dioxide: it turns limewater (calcium hydroxide solution) milky because insoluble calcium carbonate forms, Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).",
         "To tell them apart, add magnesium sulfate solution: a carbonate gives a white precipitate immediately in the cold, Mg²⁺ + CO₃²⁻ → MgCO₃(s).",
         "A hydrogencarbonate gives no precipitate with magnesium sulfate solution until the mixture is heated.",
         "On heating: Mg²⁺ + 2HCO₃⁻ → MgCO₃(s) + CO₂(g) + H₂O(l)."
-      ]
+      ],
+      "tip": "To distinguish carbonate from hydrogencarbonate, use magnesium sulfate: a precipitate in the cold means carbonate, and a precipitate only on heating means hydrogencarbonate. Give the observation and the equation."
     },
     {
       "h": "Nitrate: the brown ring test",
+      "b": "Nitrate ions are detected with the brown ring test. Iron(II) ions convert nitrate into a gas that forms a brown coloured compound, and the layering of the liquids makes the colour appear as a ring.",
       "points": [
         "Add freshly made iron(II) sulfate solution to the test solution in a test tube.",
         "Hold the tube at an angle and carefully run concentrated sulfuric acid down the side, so that it forms a dense layer at the bottom; don't shake.",
         "A brown ring forms where the two layers meet, showing nitrate.",
-        "Iron(II) reduces nitrate to nitrogen monoxide: 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O.",
-        "Nitrogen monoxide forms a brown complex with more iron(II): Fe²⁺ + NO → [FeNO]²⁺.",
+        "Iron(II) reduces nitrate (gives electrons to it) to nitrogen monoxide: 3Fe²⁺ + NO₃⁻ + 4H⁺ → 3Fe³⁺ + NO + 2H₂O.",
+        "Nitrogen monoxide forms a brown complex (an ion in which a molecule is attached to a metal ion) with more iron(II): Fe²⁺ + NO → [FeNO]²⁺.",
         "Safety: concentrated sulfuric acid is very corrosive; wear goggles and gloves, and add it slowly."
       ]
     },
     {
       "h": "Phosphate",
+      "b": "Phosphate ions are detected by making a yellow precipitate with ammonium molybdate in strongly acidic conditions.",
       "points": [
         "Add a few drops of concentrated nitric acid, then ammonium molybdate solution, and warm gently.",
         "A yellow precipitate of ammonium phosphomolybdate shows phosphate.",
         "Equation: PO₄³⁻ + 3NH₄⁺ + 12MoO₄²⁻ + 24H⁺ → (NH₄)₃PO₄·12MoO₃(s) + 12H₂O.",
-        "Safety: concentrated nitric acid is corrosive and an oxidising agent; use a fume cupboard."
-      ]
+        "Safety: concentrated nitric acid is corrosive and an oxidising agent (it can make other substances burn or react vigorously); use a fume cupboard (a ventilated enclosure that draws fumes away)."
+      ],
+      "tip": "The phosphomolybdate precipitate is yellow. Exams ask for observations and equations, so learn the equation."
     },
     {
       "h": "Links to water supplies",
+      "b": "The ions in these tests are the ones that matter in water supplies, where they come from natural and human sources and affect water quality.",
       "points": [
-        "Chlorides come from sea water and road salt; chlorination of water also gives chloride.",
+        "Chlorides come from sea water and road salt, such as that spread on roads in winter; chlorination of water also gives chloride.",
         "Nitrates and phosphates come from fertilisers, animal slurry, sewage and detergents.",
-        "Nitrates and phosphates contaminate water and cause eutrophication (taught in the environmental chemistry chapter).",
-        "Hard water contains dissolved calcium and magnesium ions.",
+        "Nitrates and phosphates contaminate water and cause eutrophication (excess nutrients that cause algae to overgrow in water). There is more on this in the environmental chemistry chapter.",
+        "Hard water contains dissolved calcium and magnesium ions, so it forms scum with soap.",
         "Calcium and magnesium ions with hydrogencarbonate ions cause temporary hardness, which is removed by boiling.",
         "Calcium and magnesium ions with sulfate or chloride ions cause permanent hardness.",
-        "Hard water forms scum with soap.",
         "Carbonates and hydrogencarbonates come from water flowing over limestone, which is calcium carbonate."
-      ]
+      ],
+      "tip": "Exams ask for the cause of temporary and permanent hardness. Temporary is calcium and magnesium with hydrogencarbonate, removed by boiling; permanent is calcium and magnesium with sulfate or chloride."
     },
     {
       "h": "Investigation: identifying an unknown salt",
+      "b": "Here the tests are combined to identify both ions in an unknown salt. A logical order and proper controls make the conclusion reliable.",
       "points": [
-        "Aim: to identify the cation and the anion in an unknown salt, using primary data.",
-        "Step 1: Carry out a flame test on the solid to identify the cation.",
+        "Aim: to identify the cation and the anion in an unknown salt, using primary data (results you observe yourself in the experiment).",
+        "Step 1: Carry out a flame test on the solid to identify the cation, because the flame colour depends on the cation.",
         "Step 2: Add dilute hydrochloric acid to a little of the solid to test for carbonate and hydrogencarbonate, then dissolve a little of the salt in deionised water.",
         "Step 3: Carry out the other anion tests on separate portions of the solution in a logical order, recording the reagent, observation and conclusion in a table.",
-        "Step 4: Run each test on a known sample of the ion alongside, as a positive control, and on deionised water as a negative control.",
+        "Step 4: Run each test on a known sample of the ion alongside, as a positive control (to show the test works), and on deionised water as a negative control (to show the reagents give no result on their own).",
         "Step 5: Conclude the identity of the salt and write its formula, e.g. a lilac flame and a white precipitate with silver nitrate that dissolves in ammonia indicate potassium chloride, KCl.",
         "Diagram: the brown ring test tube, showing the lower layer of concentrated sulfuric acid, the upper aqueous layer and the brown ring at the boundary."
-      ]
+      ],
+      "tip": "You may be given test results and asked to identify a salt. Name the cation from the flame test and the anion from the reagent and observation, then write the formula."
     }
   ],
   "keyTerms": [

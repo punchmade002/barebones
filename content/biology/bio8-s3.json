@@ -6,78 +6,106 @@
   "notes": [
     {
       "h": "Roles of carbohydrates",
+      "b": "Carbohydrates do far more than supply energy. Glucose is fuel, a product of photosynthesis and a building block for storage molecules, and other carbohydrates give structure and carry sugar around organisms.",
       "points": [
-        "Respiratory and catabolic role: glucose is the main respiratory substrate. It is broken down in respiration to release energy, which is trapped as ATP (detail in “Respiration” and “Transfer Molecules”). The brain relies mainly on glucose for its energy.",
-        "Photosynthetic role: glucose is the product of photosynthesis, the anabolic process in which plants use light energy to make it (detail in “Photosynthesis”). Almost all the carbohydrate in food chains therefore comes from photosynthesis.",
-        "Anabolic and storage role: excess glucose is built up into storage polysaccharides, starch in plants and glycogen in the liver and muscles of animals (see “Structures of biomolecules”). These are broken down again when glucose is needed.",
-        "Structural role: cellulose forms plant cell walls, and chitin forms fungal cell walls and insect exoskeletons (both described in “Structures of biomolecules”). The pentose sugars ribose and deoxyribose are part of RNA and DNA nucleotides.",
-        "Transport role: plants move sugar from the leaves to other parts as sucrose, in the phloem (see “Structures of biomolecules”).",
-        "Dietary fibre: cellulose passes through the human gut as dietary fibre. It adds bulk to food, which helps peristalsis and prevents constipation (diet detail in “The Digestive System”)."
-      ]
+        "Respiratory and catabolic role (catabolic means breaking molecules down): glucose is the main respiratory substrate, the fuel respiration uses. It is broken down to release energy, which is trapped as ATP, the cell's energy carrier. There is more on this in Respiration.",
+        "The brain relies mainly on glucose for its energy, so a steady supply of glucose in the blood matters.",
+        "Photosynthetic role: glucose is the product of photosynthesis, the anabolic process (anabolic means building molecules up) in which plants use light energy to make glucose from carbon dioxide and water.",
+        "Almost all the carbohydrate in food chains therefore comes from photosynthesis, because plants are the producers that make it first and every consumer depends on them.",
+        "Anabolic and storage role: excess glucose is built up into storage polysaccharides (long chains of sugar units), which are starch in plants and glycogen in the liver and muscles of animals.",
+        "These stores are broken down again (catabolism) when glucose is needed, so the organism can release it back as fuel.",
+        "Structural role: cellulose forms plant cell walls, and chitin forms fungal cell walls and insect exoskeletons (the hard outer body casing). The pentose (five-carbon) sugars ribose and deoxyribose are part of RNA and DNA nucleotides.",
+        "Transport role: plants move sugar from the leaves to other parts as sucrose, carried in the phloem (the tissue that transports food in plants)."
+      ],
+      "tip": "If asked for a role of carbohydrate, or a structural role, give a specific one: energy from glucose in respiration, or cellulose in plant cell walls. Humans cannot digest cellulose, but it still acts as dietary fibre, adding bulk that helps peristalsis (the muscle waves that move food along the gut) and prevents constipation."
     },
     {
       "h": "Roles of lipids",
+      "b": "Lipids (fats, oils and related molecules) are used for energy storage, but their uses go much further. They insulate, protect, build membranes, waterproof surfaces and act as regulators.",
       "points": [
         "Respiratory and catabolic role: fats are respired to release energy, especially when glucose and glycogen run low.",
         "A gram of fat releases about twice as much energy as a gram of carbohydrate or protein, so lipid is a compact long-term energy store.",
-        "Storage: excess food is built into triglycerides and stored as fat in adipose tissue, under the skin and around organs in animals. Plants store oils in seeds (e.g. sunflower seeds) and fruits (e.g. olives).",
-        "Insulation: fat under the skin reduces heat loss, as in the thick blubber of whales and seals. The myelin sheath around nerve fibres is rich in lipid and insulates them (detail in “The Nervous System”).",
+        "Storage (anabolic): excess food is built into triglycerides (the main type of fat molecule) and stored as fat in adipose tissue, under the skin and around organs in animals.",
+        "Plants store oils in seeds, such as sunflower seeds, and in fruits, such as olives.",
+        "Insulation: fat under the skin reduces heat loss, as in the thick blubber of whales and seals. The myelin sheath around nerve fibres is rich in lipid and insulates them.",
         "Protection: fat around organs such as the kidneys and heart cushions them against physical damage.",
-        "Structural role: phospholipids form the bilayer of all cell membranes (see “Structures of biomolecules”), including the membranes inside chloroplasts and mitochondria.",
-        "Photosynthetic role: the light-absorbing pigments of photosynthesis are held in the thylakoid membranes of the chloroplast, which are built of phospholipids. Plants also convert some of the glucose made in photosynthesis into oils.",
-        "Waterproofing: waxes form the waxy cuticle on leaves, reducing water loss, and waterproof feathers and fur.",
-        "Regulators: steroid hormones such as testosterone, oestrogen and progesterone are lipids. Fat-soluble vitamins are covered in “Vitamins”."
-      ]
+        "Structural role: phospholipids form the bilayer (double layer) of all cell membranes, including the membranes inside chloroplasts and mitochondria.",
+        "Photosynthetic role: the light-absorbing pigments of photosynthesis are held in the thylakoid membranes of the chloroplast, which are built of phospholipids. Plants also convert some of the glucose made in photosynthesis into oils."
+      ],
+      "tip": "Exams ask why lipids are a good energy store. Say that a gram of fat releases about twice as much energy as a gram of carbohydrate or protein, so it is compact. Do not give 'nine times' or kJ values."
+    },
+    {
+      "h": "More lipid roles: waterproofing and regulators",
+      "b": "Two further roles of lipids come from their water-repelling nature and from their chemistry as signalling molecules.",
+      "points": [
+        "Waterproofing: waxes, which are lipids, form the waxy cuticle on leaves, reducing water loss. They also waterproof feathers and fur.",
+        "Regulators: steroid hormones such as testosterone, oestrogen and progesterone are lipids, which means not all hormones are proteins.",
+        "Fat-soluble vitamins are absorbed with dietary fat. There is more on this in Vitamins."
+      ],
+      "tip": "Never say all hormones are proteins: steroid hormones such as testosterone and oestrogen are lipids."
     },
     {
       "h": "Roles of proteins",
+      "b": "Proteins have many different jobs in the body, from speeding up reactions to defence, movement and transport. Each role below has a named protein you can give as an example.",
       "points": [
-        "Enzymes: almost all enzymes are proteins. They are biological catalysts that speed up the reactions of metabolism without being used up, e.g. amylase digests starch to maltose (mechanism in “Enzymes”).",
-        "Hormones: some hormones are proteins, e.g. insulin, made by the pancreas, which lowers blood glucose. Other hormones are lipids (see “Hormones as regulators”).",
-        "Immunity: antibodies are proteins made by lymphocytes (B cells). Each binds to a specific antigen on a pathogen, marking it for destruction (detail in “Immunity”).",
-        "Transport of substances in the body: haemoglobin in red blood cells carries oxygen. Its iron is covered in “Minerals”.",
-        "Movement: actin and myosin are the contractile proteins of muscle (detail in “The Musculoskeletal System”).",
-        "Energy: protein is respired only when carbohydrate and fat are in short supply. Excess amino acids cannot be stored; the liver removes their amino group (deamination), forming urea, which is excreted (detail in “The Digestive System” and “The Urinary System”).",
+        "Enzymes: almost all enzymes are proteins. They are biological catalysts that speed up the reactions of metabolism (all the chemical reactions in a cell) without being used up, for example amylase digests starch to maltose.",
+        "Hormones: some hormones are proteins, for example insulin, made by the pancreas, which lowers blood glucose. Other hormones are lipids.",
+        "Immunity: antibodies are proteins made by lymphocytes (B cells, a type of white blood cell). Each binds to a specific antigen (a marker molecule) on a pathogen (a disease-causing organism), marking it for destruction.",
+        "Transport of substances in the body: haemoglobin in red blood cells carries oxygen.",
+        "Movement: actin and myosin are the contractile proteins of muscle, which means they shorten to make the muscle contract.",
+        "Energy: protein is respired only when carbohydrate and fat are in short supply.",
+        "Excess amino acids (the units proteins are made of) cannot be stored. The liver removes their amino group (deamination), forming urea, which is excreted.",
         "Growth and repair: proteins are the main raw material for new cells and tissues, so children, pregnant women and people recovering from injury need more."
-      ]
+      ],
+      "tip": "When asked to name a protein with a function, pair them exactly: enzyme (amylase), hormone (insulin), antibody (made by B cells), structural (collagen or keratin). Write 'almost all enzymes are proteins', not 'all', because a few RNA catalysts exist."
     },
     {
       "h": "Proteins in membranes and molecular mechanisms",
+      "b": "Many proteins sit in the cell membrane (the phospholipid bilayer around every cell) and decide what crosses it and how cells respond to signals. The specification names four kinds.",
       "points": [
-        "Membrane proteins are embedded in the phospholipid bilayer. They control what enters and leaves cells and how cells communicate. The specification names four kinds: channel proteins, transporters, structural proteins and receptors.",
-        "Channel proteins form water-filled pores through the membrane that let specific ions or molecules pass by diffusion, e.g. the sodium and potassium channels of neurons, which allow nerve impulses (the ion movement is covered in “Minerals”).",
-        "Transporters (carrier proteins) bind a specific molecule and change shape to move it across the membrane. Some use energy from ATP to move substances against a concentration gradient (active transport), e.g. the sodium–potassium pump (detail in “Transport Across Membranes”).",
-        "Receptors are proteins on the cell surface, or inside the cell, with a shape that fits one signalling molecule such as a hormone or neurotransmitter. When the signal binds, the cell responds, e.g. insulin receptors on liver and muscle cells. This is why a hormone affects only its target cells.",
-        "Structural proteins give strength and support. Collagen also forms ligaments and cartilage, and keratin forms the outer skin.",
-        "Proteins also form the cytoskeleton inside cells.",
-        "Diagram: a section of cell membrane (phospholipid bilayer) with a channel protein, a carrier protein and a receptor protein with its signalling molecule, each labelled."
-      ]
+        "Membrane proteins are embedded in the phospholipid bilayer. They control what enters and leaves cells and how cells communicate.",
+        "Channel proteins form water-filled pores through the membrane that let specific ions or molecules pass by diffusion (movement from high to low concentration), for example the sodium and potassium channels of neurons, which allow nerve impulses.",
+        "Transporters (carrier proteins) bind a specific molecule and change shape to move it across the membrane.",
+        "Some transporters use energy from ATP to move substances against a concentration gradient (active transport), for example the sodium-potassium pump. There is more on this in Transport Across Membranes.",
+        "Receptors are proteins on the cell surface, or inside the cell, with a shape that fits one signalling molecule such as a hormone or neurotransmitter. When the signal binds, the cell responds, for example insulin receptors on liver and muscle cells.",
+        "This is why a hormone affects only its target cells: only cells with the matching receptor can respond.",
+        "Structural proteins give strength and support. Keratin forms hair, nails and the outer skin, and collagen forms skin, tendons, ligaments, cartilage and bone. Proteins also form the cytoskeleton, the internal scaffold of cells.",
+        "Diagram: a section of cell membrane (phospholipid bilayer) showing a channel protein, a carrier protein, and a receptor protein with its signalling molecule. Label each."
+      ],
+      "tip": "Outlining the roles of membrane proteins is new to this specification. Name all four kinds (channel, transporter, structural, receptor) and give one job and example for each."
     },
     {
       "h": "Hormones as regulators",
+      "b": "Hormones link the metabolic roles of proteins and lipids, because they are made from both. They let one part of the body control the activity of another.",
       "points": [
         "A hormone is a chemical messenger made by an endocrine gland and carried in the blood to target cells, where it regulates their activity. Hormones regulate growth, development, metabolism and reproduction.",
-        "Hormones are biomolecules from two groups, proteins and steroid lipids, both named in the blocks on proteins and lipids in this note. Glands and named hormones are covered in “The Endocrine System”.",
-        "Plants also make chemical regulators, called plant growth regulators, e.g. auxin."
-      ]
+        "Hormones are biomolecules from two groups: proteins, such as insulin, and steroid lipids, such as testosterone and oestrogen. There is more on this in The Endocrine System.",
+        "Hormones work only on cells with the matching receptor proteins, so only target cells respond.",
+        "Plants also make chemical regulators, called plant growth regulators, for example auxin."
+      ],
+      "tip": "Do not say all hormones are proteins. Give insulin as the protein example and testosterone or oestrogen as the lipid example."
     },
     {
       "h": "Nutritional sources of carbohydrate, lipid and protein",
+      "b": "Knowing the roles of each biomolecule is only half the story. You also need to name the foods that supply each one.",
       "points": [
-        "Carbohydrate sources, sugars: fruit, honey, jam, sweets and fizzy drinks; lactose in milk.",
+        "Carbohydrate sources, sugars: fruit, honey, jam, sweets and fizzy drinks, and lactose (milk sugar) in milk.",
         "Carbohydrate sources, starch: bread, pasta, rice, potatoes and breakfast cereals.",
         "Carbohydrate sources, fibre (cellulose): vegetables, fruit, wholegrain cereals and brown bread, and beans.",
         "Lipid sources, fats (mostly saturated): butter, cream, cheese, lard and fatty meat.",
         "Lipid sources, oils (mostly unsaturated): olive and sunflower oils, nuts and seeds, avocados, and oily fish such as salmon and mackerel.",
         "Protein sources, animal: meat, fish, eggs, milk, cheese and yoghurt. Protein sources, plant: beans, peas, lentils, nuts, soya and tofu, and cereals.",
-        "Animal proteins contain all the essential amino acids. Many single plant foods lack one or more, so vegetarian and vegan diets combine a range of plant proteins, e.g. beans with cereal."
-      ]
+        "Animal proteins contain all the essential amino acids (those the body cannot make). Many single plant foods lack one or more, so vegetarian and vegan diets combine a range of plant proteins, for example beans with cereal."
+      ],
+      "tip": "When asked for a good source of a nutrient, name a specific food, such as bread or rice for carbohydrate, butter or olive oil for lipid, and meat, eggs or beans for protein."
     },
     {
       "h": "Diet, health and sustainability links",
+      "b": "What we eat affects both our health and the environment, so food sources link back to the roles of each biomolecule.",
       "points": [
-        "Diets high in saturated fat are linked to raised blood cholesterol and heart disease. Diets high in free sugars are linked to tooth decay, obesity and type 2 diabetes.",
-        "Producing plant protein generally needs less land and water, and causes lower greenhouse gas emissions, than producing meat. Balanced diet detail is in “The Digestive System”."
+        "Diets high in saturated fat are linked to raised blood cholesterol and heart disease.",
+        "Diets high in free sugars are linked to tooth decay, obesity and type 2 diabetes.",
+        "Producing plant protein generally needs less land and water, and causes lower greenhouse gas emissions, than producing meat. There is more on balanced diets in The Digestive System."
       ]
     }
   ],

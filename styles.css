@@ -1856,6 +1856,27 @@ details[open] > summary::before { transform: rotate(90deg); }
   margin-bottom: 0.3rem;
 }
 
+.full-notes-body .note-tip {
+  margin: 0.85rem 0 0;
+  padding: 0.6rem 0.85rem;
+  background: var(--accent-xxlight);
+  border: 1px solid var(--accent-light);
+  border-radius: var(--r-sm);
+  color: var(--ink-2);
+  font-size: 0.92em;
+  line-height: 1.55;
+}
+
+.full-notes-body .note-tip span {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: var(--accent-strong);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 /* ── Progress: a full page, not an overlay ───── */
 .progress-screen {
   position: fixed;

@@ -6,97 +6,114 @@
   "notes": [
     {
       "h": "Scientific vocabulary",
-      "b": "Scientific knowledge is built from observations and evidence, and each of these words has a precise meaning.",
+      "b": "Scientific knowledge is built from observations and evidence, and everyday words such as \"theory\" and \"law\" have a much more precise meaning in science. Learning the exact meanings lets you describe how science works.",
       "points": [
-        "Observation: information gathered with the senses or with instruments; it is qualitative (a description such as a colour change) or quantitative (a measurement with a number and a unit).",
-        "Hypothesis: a testable, tentative explanation or prediction that evidence from an experiment can support or contradict.",
-        "Theory: a well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations, e.g. the kinetic theory of matter and collision theory.",
-        "Law: a statement, often mathematical, that describes what always happens under stated conditions, e.g. the law of conservation of mass and Boyle's law.",
-        "A law describes what happens; a theory explains why it happens.",
-        "Evidence: data from observation and experiment that are used to support or reject a hypothesis or theory; scientific knowledge rests on evidence, not on authority or opinion."
-      ]
+        "Observation: information gathered with the senses or with instruments. It is qualitative (a description, such as a colour change) or quantitative (a measurement with a number and a unit).",
+        "Hypothesis: a testable, tentative explanation or prediction. It is tentative (not yet confirmed) because evidence from an experiment can support it or contradict it.",
+        "Theory: a well-tested explanation of a wide range of observations, supported by a large body of evidence from many investigations. Examples are the kinetic theory of matter (matter is made of moving particles) and collision theory (reactions happen when particles collide).",
+        "Law: a statement, often mathematical, that describes what always happens under stated conditions. Examples are the law of conservation of mass (the total mass stays the same during a reaction) and Boyle's law (a law linking the pressure and volume of a gas).",
+        "A law describes what happens; a theory explains why it happens. This is why a theory never turns into a law: they do different jobs, and a law is not a \"proven theory\".",
+        "Evidence: data from observation and experiment that are used to support or reject a hypothesis or theory. Scientific knowledge rests on evidence, not on authority or opinion, so a claim is only as good as the data behind it."
+      ],
+      "tip": "In everyday speech \"theory\" means a hunch, but in science it is a well-supported explanation; the tentative idea is the hypothesis. If asked to distinguish a hypothesis, a theory and a law, give a definition and a chemical example for each, such as kinetic theory for a theory and the law of conservation of mass for a law."
     },
     {
-      "h": "How scientists work",
-      "b": "Scientific work follows a cycle, but the cycle is rarely a straight line.",
+      "h": "The cycle of scientific work",
+      "b": "Scientists follow a recognisable sequence of steps, from first noticing something to sharing what they found. Each step exists so that the final conclusion rests on evidence that others can check.",
       "points": [
-        "1. Make observations and ask a question.",
-        "2. Research what is already known.",
-        "3. Form a hypothesis and use it to make a prediction.",
-        "4. Test the prediction with a fair, controlled experiment.",
+        "1. Make observations and ask a question about what you have noticed.",
+        "2. Research what is already known, so that you do not repeat work or ignore existing evidence.",
+        "3. Form a hypothesis (a tentative explanation) and use it to make a prediction of what should happen if it is right.",
+        "4. Test the prediction with a fair, controlled experiment, in which only one factor is changed and the others are kept the same.",
         "5. Analyse the data and draw a conclusion.",
-        "6. Accept, modify or reject the hypothesis.",
-        "7. Communicate the results so that others can check them.",
-        "Scientists repeat, redesign and troubleshoot experiments, so the cycle is iterative.",
-        "Unexpected results often lead to new questions and new hypotheses.",
-        "Creativity and imagination, as well as logic, are used to propose hypotheses and to design experiments and models.",
-        "One reliable, reproducible result that contradicts a hypothesis can be enough to reject it, whereas agreeing results never prove a hypothesis absolutely."
-      ]
+        "6. Accept, modify or reject the hypothesis, depending on whether the data support it.",
+        "7. Communicate the results so that others can check them."
+      ],
+      "tip": "Don't say science \"proves\" things absolutely; say that evidence supports or contradicts a hypothesis."
+    },
+    {
+      "h": "Why the cycle is rarely a straight line",
+      "b": "In practice the steps above are not completed once and then left behind. Real investigations loop back, and they need imagination as well as method.",
+      "points": [
+        "Scientists repeat, redesign and troubleshoot (find and fix faults in) experiments, so the cycle is iterative, meaning it is repeated and each pass improves on the last.",
+        "Unexpected results often lead to new questions and new hypotheses, so a surprising result can open a new line of investigation.",
+        "Creativity and imagination, as well as logic, are used to propose hypotheses and to design experiments and models, because no rule produces a good idea automatically.",
+        "One reliable, reproducible result (one that others can obtain again) that contradicts a hypothesis can be enough to reject it, whereas agreeing results never prove a hypothesis absolutely."
+      ],
+      "tip": "Don't say science \"proves\" things absolutely; evidence supports or contradicts a hypothesis."
     },
     {
       "h": "Why scientific ideas change",
+      "b": "Scientific ideas are not fixed for ever. They change in a particular way, and that way is what makes science reliable.",
       "points": [
-        "Scientific knowledge is tentative: it is the best explanation of the evidence available now, and it can change when new evidence appears.",
-        "Ideas change when new observations do not fit the existing explanation.",
+        "Scientific knowledge is tentative (provisional): it is the best explanation of the evidence available now, and it can change when new evidence appears.",
+        "Ideas change when new observations do not fit the existing explanation, because an explanation has to account for everything observed.",
         "Ideas change when new technology or instruments allow measurements that were not possible before.",
         "Ideas change when a better explanation is proposed and tested against the evidence.",
         "A theory is refined or replaced only when the new idea explains all the old evidence as well as the new evidence; this is how science progresses.",
-        "Long-standing, well-tested theories are rarely discarded completely; they are modified or have their limits identified."
-      ]
+        "Long-standing, well-tested theories are durable. They are rarely discarded completely; they are modified or have their limits identified."
+      ],
+      "tip": "If asked why scientific knowledge changes over time, give a reason (new evidence, new technology or a better explanation) and back it with an example, such as the model of the atom."
     },
     {
       "h": "Example: how the model of the atom changed",
-      "b": "Each model of the atom was replaced or refined when new evidence did not fit the earlier one.",
+      "b": "The atom shows how ideas change. Each model of the atom was replaced or refined when new evidence did not fit the earlier one. A model here means a picture of the atom that explains what has been observed.",
       "points": [
-        "Dalton (early 1800s): matter is made of tiny indivisible atoms, and atoms of the same element are identical; this was supported by the laws of chemical combination.",
-        "Thomson (1897) discovered the electron, showing that atoms are not indivisible; he proposed the plum pudding model, with negative electrons embedded in a sphere of positive charge.",
-        "Rutherford (1911): his gold-foil experiment, carried out by Geiger and Marsden, showed that most of the atom is empty space with a tiny, dense, positive nucleus; this is the nuclear model.",
-        "Bohr (1913) proposed that electrons move in fixed energy levels around the nucleus, which explained line emission spectra.",
-        "The current orbital model describes electrons in orbitals, which are regions with a high probability of finding an electron; the models themselves are covered in “Models of the atom” and “The current orbital model”."
-      ]
+        "Dalton (early 1800s): matter is made of tiny indivisible atoms (atoms that cannot be split), and atoms of the same element are identical. This was supported by the laws of chemical combination (rules for the masses in which elements combine).",
+        "Thomson (1897) discovered the electron, a negatively charged particle, which showed that atoms are not indivisible. He proposed the plum pudding model, with negative electrons embedded in a sphere of positive charge.",
+        "Rutherford (1911): his gold-foil experiment, carried out by Geiger and Marsden, showed that most of the atom is empty space with a tiny, dense, positive nucleus (the central core). This is the nuclear model.",
+        "Bohr (1913) proposed that electrons move in fixed energy levels around the nucleus, which explained line emission spectra (the separate coloured lines of light that an element gives out when heated).",
+        "The current orbital model describes electrons in orbitals, which are regions with a high probability of finding an electron. There is more on this in \"Atomic structure: the nuclear model\" and \"The orbital model and electronic structure\"."
+      ],
+      "tip": "For a question on how and why ideas are modified, link each model to the evidence that changed it, not just to a name and date. Use the atom as a worked example, with the reason each model was replaced."
     },
     {
       "h": "Bias",
+      "b": "Scientists are people, and people can unknowingly tilt results. Bias is a tendency, deliberate or not, to collect, interpret or present information so as to favour one outcome.",
       "points": [
-        "Bias is a tendency, deliberate or not, to collect, interpret or present information so as to favour one outcome.",
         "Confirmation bias: expecting a particular result and then seeing it in the data.",
-        "Selecting only the data that support a hypothesis, or using small or unrepresentative samples, introduces bias.",
-        "Funding or commercial interests, and personal or political beliefs, can introduce bias.",
-        "Scientists reduce bias with fair tests that use controls, repeats and random sampling, and with blind trials where possible.",
-        "Scientists also publish all results, including negative ones, declare funding and conflicts of interest, and invite independent checks by other scientists (see “Science as a global enterprise”)."
-      ]
+        "Selecting only the data that support a hypothesis, or using small or unrepresentative samples, introduces bias, because the results then do not reflect the whole picture.",
+        "Funding or commercial interests, and personal or political beliefs, can introduce bias, for example when a result would benefit whoever paid for the study.",
+        "Scientists reduce bias with fair tests that use controls (a comparison with nothing changed), repeats and random sampling (choosing subjects by chance), and with blind trials (where those taking part do not know which treatment they receive) where possible.",
+        "Scientists also publish all results, including negative ones (results that do not support the hypothesis), declare funding and conflicts of interest, and invite independent checks by other scientists. There is more on this in \"Science as a global enterprise and researching an issue\"."
+      ],
+      "tip": "If asked to identify possible bias in a described study, look for expectation of a result, selected data, a small or unrepresentative sample, funding or commercial interests, and personal or political beliefs."
     },
     {
       "h": "What a model is",
+      "b": "Much of chemistry is about things too small to see, such as atoms and molecules. Scientists use models to think about them. A model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly.",
       "points": [
-        "A model is a representation of an object, system, process or idea that helps us understand, explain or predict something we cannot see or handle directly, such as atoms and molecules.",
-        "Physical models include ball-and-stick and space-filling molecular models.",
-        "Diagrams used as models include dot-and-cross diagrams, energy-level diagrams and energy profile diagrams.",
-        "Mathematical models are equations, such as PV = nRT.",
-        "Symbolic models are chemical formulae and equations.",
-        "Computer or digital simulations show particles and processes moving and changing.",
+        "Physical models include ball-and-stick and space-filling molecular models, which are three-dimensional builds of a molecule that show how its atoms are arranged.",
+        "Diagrams used as models include dot-and-cross diagrams (showing the electrons in bonds), energy-level diagrams and energy profile diagrams (showing how energy changes during a reaction).",
+        "Mathematical models are equations, such as PV = nRT, which links the pressure, volume, amount and temperature of a gas.",
+        "Symbolic models are chemical formulae and equations, which use symbols to stand for substances and reactions.",
+        "Computer or digital simulations show particles and processes moving and changing, which a fixed diagram cannot do.",
         "A theory can also act as a model: the kinetic theory models matter as moving particles, and collision theory models how reactions happen."
-      ]
+      ],
+      "tip": "If asked what a scientific model is, give the definition and then name a kind with an example, such as a ball-and-stick model, a dot-and-cross diagram or PV = nRT."
     },
     {
       "h": "The power of models",
+      "b": "Models are used because they do things that direct observation cannot. They give us a way to picture, explain and test ideas.",
       "points": [
         "Models make the very small, the very large and the invisible understandable; a molecular model shows the shape of a molecule that is far too small to see.",
-        "Models explain observations: the particle model explains why gases can be compressed but liquids cannot be compressed much.",
-        "Models allow predictions that can be tested: the ideal gas equation predicts the volume of a gas at a new temperature and pressure, and VSEPR theory predicts molecular shapes.",
-        "Models help scientists communicate ideas to each other and to the public."
+        "Models explain observations: the particle model (matter as tiny moving particles) explains why gases can be compressed but liquids cannot be compressed much.",
+        "Models allow predictions that can be tested: the ideal gas equation predicts the volume of a gas at a new temperature and pressure, and VSEPR theory (which treats electron pairs around an atom as repelling one another) predicts molecular shapes.",
+        "Models help scientists communicate ideas to each other and to the public, because a shared picture is easier to discuss than an unseen object."
       ]
     },
     {
       "h": "Limitations of models",
+      "b": "A model is useful but never complete. Knowing where a model stops working is as important as knowing what it explains.",
       "points": [
         "Every model is a simplification: it leaves out detail and rests on assumptions, so it is never a perfect copy of reality.",
         "A model works only within a range of conditions; the ideal gas model fails at high pressure and low temperature, where real gases deviate from it.",
-        "Ball-and-stick models show atoms as hard coloured balls and bonds as rigid sticks, and they show the wrong relative sizes and distances.",
+        "Ball-and-stick models show atoms as hard coloured balls and bonds as rigid sticks, and they show the wrong relative sizes and distances, so they can mislead.",
         "Different models of the same thing may each explain some observations but not others, so chemists choose the model that suits the question.",
-        "The Bohr model explains flame colours and line spectra but not the shapes of orbitals.",
+        "The Bohr model (electrons in fixed energy levels) explains flame colours and line spectra but not the shapes of orbitals.",
         "Models are tested against evidence and are modified or replaced when they fail to explain new observations."
-      ]
+      ],
+      "tip": "A model is not the same as the real thing, and it is not \"wrong\" because it is simplified; its usefulness is judged by what it explains and predicts. If asked for a limitation of a named model, state one clearly, such as the wrong sizes and rigid bonds in a ball-and-stick model."
     }
   ],
   "keyTerms": [

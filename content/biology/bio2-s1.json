@@ -6,60 +6,83 @@
   "notes": [
     {
       "h": "Questions that science can investigate",
-      "b": "A scientific investigation starts with a question that evidence can answer. Questions of value, taste, morality or belief cannot be settled by investigation alone.",
+      "b": "A scientific investigation starts with a question that evidence can answer. Questions of value, taste, morality or belief cannot be settled by investigation alone, so the first skill is telling the two kinds apart.",
       "points": [
         "A question is appropriate for scientific investigation when it can be answered by collecting evidence through observation or measurement of the natural world.",
-        "It must refer to things that can be observed, measured or counted, and the answer must be capable of being tested against data.",
-        "Questions science cannot answer by investigation include questions of value, taste, morality or belief, e.g. “Is it wrong to keep animals in zoos?” or “Which flower is the most beautiful?”.",
-        "Science can supply evidence that informs a question of value, e.g. how captivity affects an animal’s stress hormones, but evidence alone cannot settle it. The ethical side of scientific work is covered in Designing and conducting investigations.",
+        "It must refer to things that can be observed, measured or counted, and the answer must be capable of being tested against data. This is why a question about numbers, rates or changes in organisms qualifies.",
+        "Questions science cannot answer by investigation include questions of value, taste, morality or belief, e.g. “Is it wrong to keep animals in zoos?” or “Which flower is the most beautiful?”. No measurement can settle them, because people can weigh the same evidence differently.",
+        "Science can supply evidence that informs a question of value, e.g. how captivity affects an animal’s stress hormones (chemical signals released when an animal is under strain), but evidence alone cannot settle it. The ethical side of scientific work is dealt with in Designing and conducting investigations.",
         "A broad question must be narrowed by naming the factor to be changed and the effect to be measured. “Does temperature affect enzymes?” becomes “How does temperature affect the rate at which catalase breaks down hydrogen peroxide?”",
-        "“Does salt affect plants?” becomes “How does the concentration of a salt solution affect the change in mass of potato cylinders?”",
-        "A good investigable question is specific, names one independent and one dependent variable, can be carried out with available equipment in the time available, and is safe and ethical to carry out."
-      ]
+        "“Does salt affect plants?” becomes “How does the concentration of a salt solution affect the change in mass of potato cylinders?” Notice that both versions now name something you can change and something you can measure.",
+        "A good investigable question is specific, names one independent variable (the factor you change) and one dependent variable (the factor you measure), can be carried out with available equipment in the time available, and is safe and ethical to carry out."
+      ],
+      "tip": "If asked whether a question can be investigated scientifically, say yes or no and justify it: can it be answered by observation or measurement, or is it about value, taste, morality or belief? Broad questions should be narrowed by naming what is changed and what is measured."
     },
     {
       "h": "From observation to prediction",
-      "b": "Scientific investigation moves in a sequence from a question to a hypothesis, from the hypothesis to a prediction, and then to a test of the prediction.",
+      "b": "Scientific investigation moves in a sequence from a question to a hypothesis, from the hypothesis to a prediction, and then to a test of the prediction. Hypothesis and prediction sound alike but are different things, and telling them apart is the key distinction.",
       "points": [
         "Investigation usually begins with an observation or with existing knowledge that raises a question. The question leads to a hypothesis, the hypothesis leads to a prediction, and the prediction is tested by experiment or further observation.",
-        "A hypothesis is a proposed, testable explanation for an observation, or a proposed relationship between two variables, based on existing scientific knowledge. It explains why something might happen.",
-        "Example of a hypothesis: “Increasing the temperature increases the rate of catalase activity, because molecules move faster and collide more often with the active site, up to the temperature at which the enzyme denatures.”",
+        "A hypothesis is a proposed, testable explanation for an observation, or a proposed relationship between two variables (factors that can change), based on existing scientific knowledge. It explains why something might happen.",
+        "Example of a hypothesis: “Increasing the temperature increases the rate of catalase activity, because molecules move faster and collide more often with the active site, up to the temperature at which the enzyme denatures.” Catalase is an enzyme that breaks down hydrogen peroxide into water and oxygen.",
         "A prediction is a specific statement of the result that will be observed if the hypothesis is correct, often written “If … then …”. It says what will happen in this particular experiment, not why.",
-        "Example of a prediction: “If potato cylinders are placed in sucrose solutions of increasing concentration, then their percentage change in mass will decrease, becoming negative in the more concentrated solutions.”",
-        "The hypothesis is the explanation: general, and it gives a reason. The prediction is the expected observation: specific, and a measurable outcome of the planned test. One hypothesis can generate several predictions.",
+        "Example of a prediction: “If potato cylinders are placed in sucrose solutions of increasing concentration, then their percentage change in mass will decrease, becoming negative in the more concentrated solutions.” It names a measurable result and gives no reason.",
+        "The hypothesis is the explanation: general, and it gives a reason. The prediction is the expected observation: specific, and a measurable outcome of the planned test. One hypothesis can generate several predictions, one for each test you could run.",
         "A null hypothesis states that the independent variable has no effect on the dependent variable, e.g. “The concentration of sucrose has no effect on the change in mass of potato cylinders.” An experiment tests whether the data give reason to reject it.",
         "Diagram: flow diagram of observation, question, hypothesis, prediction, test, data and conclusion, with an arrow from the conclusion back to a new question, showing that a hypothesis is supported or rejected and the cycle continues."
-      ]
+      ],
+      "tip": "Students often write a prediction (“the mass will decrease”) when asked for a hypothesis, or a hypothesis with no reason. A hypothesis needs a reason (“because…”); a prediction says what will be observed. Never call a hypothesis an educated guess without adding that it is a testable explanation based on scientific knowledge."
     },
     {
       "h": "What makes a hypothesis testable",
+      "b": "Not every explanation can be put to the test. A hypothesis is only useful to science if an investigation could show it to be wrong, and if it is built on real biology rather than a hunch.",
       "points": [
-        "A testable hypothesis is falsifiable: it is possible to imagine a result that would show it to be wrong.",
+        "A testable hypothesis is falsifiable: it is possible to imagine a result that would show it to be wrong. If no possible result could count against it, it cannot be tested.",
         "“Plants grow better when people talk to them because they enjoy it” is not testable as stated, because enjoyment cannot be measured. “Plants exposed to sound grow taller than plants kept in silence” is testable.",
-        "A testable hypothesis names variables that can be measured or controlled, and it states the direction of the expected effect: an increase or a decrease, not just “will have an effect”.",
-        "A hypothesis is developed from scientific theories and explanations, not from a guess. Collision theory and denaturation support an enzyme-rate hypothesis (see Enzymes).",
-        "Osmosis supports a hypothesis about potato cylinders: water moves from a dilute solution to a more concentrated one across a partially permeable membrane (see Transport Across Membranes).",
-        "Light as the energy source for photosynthesis supports a hypothesis about a light-intensity investigation.",
-        "A hypothesis is supported or not supported by data; a single investigation never proves it. This judgement is made at the conclusion stage (see Producing and analysing data)."
-      ]
+        "A testable hypothesis names variables that can be measured or controlled (kept the same), and it states the direction of the expected effect: an increase or a decrease, not just “will have an effect”.",
+        "A hypothesis is developed from scientific theories and explanations, not from a guess, so the reasoning comes from known biology.",
+        "Collision theory (a reaction needs the reacting molecules to collide, so more collisions mean a faster rate) and denaturation (the enzyme’s active site losing its shape at high temperature) support an enzyme-rate hypothesis.",
+        "Osmosis supports a hypothesis about potato cylinders: water moves from a dilute solution (higher water concentration) to a more concentrated one across a partially permeable membrane. Cylinders therefore gain mass in distilled water and lose mass in concentrated sucrose solution.",
+        "Light as the energy source for photosynthesis supports a hypothesis about a light-intensity investigation, for example that more light gives a faster rate of photosynthesis.",
+        "A hypothesis is supported or not supported by data; a single investigation never proves it. This judgement is made at the conclusion stage. There is more on this in Producing and analysing data."
+      ],
+      "tip": "When asked to write a testable hypothesis from given background theory, name the measurable variables, state the direction of the effect and give the reason from the theory. Never say a hypothesis is “proved” or “proven true”; say the data support it or do not support it."
     },
     {
-      "h": "Strategies for investigating hypotheses",
-      "b": "Each strategy gives different evidence, so compare them on the criteria below.",
+      "h": "Comparing strategies: criteria and the controlled laboratory experiment",
+      "b": "Scientists can test the same hypothesis in several ways, and each gives different evidence. To evaluate and compare strategies, judge them against the same set of criteria, starting with the controlled laboratory experiment.",
       "points": [
-        "Criteria for comparing strategies: whether it can show cause and effect or only correlation; how many variables can be controlled; how realistic the conditions are; the sample size achievable; time, cost and equipment; safety; and ethics.",
-        "Controlled laboratory experiment: the investigator changes one variable and controls the others. Strength: the strongest evidence that a change in one variable causes a change in another.",
-        "Laboratory limitations: artificial conditions may not match the real world, e.g. an enzyme in a test tube compared with an enzyme in a living cell; some variables cannot be changed in a lab for ethical or practical reasons.",
+        "Criteria for comparing strategies: whether it can show cause and effect or only correlation (a link between two things); how many variables can be controlled; how realistic the conditions are; the sample size achievable; time, cost and equipment; safety; and ethics.",
+        "Controlled laboratory experiment: the investigator changes one variable and controls the others. Strength: the strongest evidence that a change in one variable causes a change in another, because nothing else is changing.",
+        "Laboratory limitation: artificial conditions may not match the real world, e.g. an enzyme in a test tube compared with an enzyme in a living cell.",
+        "Laboratory limitation: some variables cannot be changed in a lab for ethical or practical reasons."
+      ],
+      "tip": "New to this specification, expect to compare a laboratory and a field approach to the same question. Use the criteria in the first point: say what each strategy can show, what it can control and how realistic it is."
+    },
+    {
+      "h": "Comparing strategies: field studies and secondary data",
+      "b": "Some questions cannot be answered by changing things in a lab. A field study works in the organisms’ own habitat, while secondary data lets you use evidence somebody else has already gathered.",
+      "points": [
         "Field study or survey (observational study): the investigator observes and measures organisms where they live without changing anything, e.g. comparing the number of a plant species in sun and shade.",
-        "Field strengths and limitations: real conditions, and large areas and many organisms can be studied. Many variables cannot be controlled, so they must be measured and recorded, and a survey can show a correlation but not prove a cause.",
+        "Field strengths: the conditions are real, and large areas and many organisms can be studied.",
+        "Field limitations: many variables cannot be controlled, so they must be measured and recorded. A survey can show a correlation but not prove a cause, because other factors may be responsible.",
         "Analysis of secondary data (data collected by somebody else), e.g. published datasets, databases of genetic information and government health statistics.",
-        "Secondary data strengths and limitations: large data sets, long time periods, or data the student could never collect, and the analysis is cheap and quick. The user did not control how the data were collected and may not know their quality; the source may lack detail or show bias (see Recognising bias and evaluating sources).",
+        "Secondary data strengths: large data sets, long time periods, or data the student could never collect, and the analysis is cheap and quick.",
+        "Secondary data limitations: the user did not control how the data were collected and may not know their quality, and the source may lack detail or show bias (a one-sided slant). There is more on this in Recognising bias and evaluating sources."
+      ],
+      "tip": "For a field study, remember to say that it can show a correlation but not prove a cause. For secondary data, the key weakness is that you did not control how it was collected."
+    },
+    {
+      "h": "Comparing strategies: models, human trials and combining methods",
+      "b": "Some questions are too slow, dangerous or unethical to test directly. Models and human trials handle these in different ways, and the best investigations often combine strategies.",
+      "points": [
         "Modelling and simulation use a physical model or computer simulation to test how a system behaves, e.g. a simulation of population growth. Strength: fast, safe, and able to test conditions impossible in reality.",
-        "A model is only as good as its assumptions, so its predictions must be checked against real data (see Models).",
+        "A model is only as good as its assumptions (the simplifications built into it), so its predictions must be checked against real data. There is more on this in Models.",
         "Trials with human participants, e.g. testing a treatment, are needed for questions about human health. Strength: direct evidence about people.",
-        "Human trials are limited by ethical restrictions, the need for informed consent, high cost and large natural variation between people, so large samples and blinding are needed (see Objectivity and data quality and Designing and conducting investigations).",
+        "Human trials are limited by ethical restrictions, the need for informed consent (participants agree after being told the risks), high cost and large natural variation between people. This is why large samples and blinding (participants not knowing which treatment they get) are needed.",
         "Often the best answer uses more than one strategy: a field survey suggests a hypothesis and a laboratory experiment tests it."
-      ]
+      ],
+      "tip": "Strong comparison answers pair a strength with a limitation for each strategy, then suggest combining two, such as a field survey to suggest a hypothesis and a laboratory experiment to test it."
     }
   ],
   "keyTerms": [

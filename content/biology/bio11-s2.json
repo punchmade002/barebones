@@ -5,77 +5,97 @@
   "syllabusRef": "1.4.1",
   "notes": [
     {
-      "h": "Species, heredity and how information passes between generations",
+      "h": "Species, heredity and chromosomes",
+      "b": "Inheritance starts with a few basic ideas: what counts as one kind of organism, what is passed on, and what carries it. These terms are used throughout genetics.",
       "points": [
-        "A species is a group of organisms with similar features that can interbreed in natural conditions to produce fertile offspring. A horse and a donkey can mate, but their offspring, the mule, is sterile, so horses and donkeys are different species.",
-        "The definition cannot be applied to organisms that reproduce only asexually, or to fossils. How new species form is covered in “Evidence for evolution”.",
-        "Heredity is the passing of characteristics (traits), by means of genes, from parents to offspring, that is, from one generation to the next. Genetics is the study of heredity and of variation.",
-        "A chromosome is the structure that carries genes from one generation to the next (see “Chromosome structure and genes”). Body cells carry chromosomes in homologous pairs, and each gamete carries one chromosome from each pair.",
+        "A species is a group of organisms with similar features that can interbreed in natural conditions to produce fertile offspring (offspring that can themselves reproduce). A horse and a donkey can mate, but their offspring, the mule, is sterile, so horses and donkeys are different species.",
+        "The species definition has limits: it cannot be applied to organisms that reproduce only asexually, because they never interbreed, or to fossils, because dead organisms cannot be tested for interbreeding. There is more on how new species form in Evidence for evolution.",
+        "Heredity is the passing of characteristics (traits), by means of genes, from parents to offspring, that is, from one generation to the next. A gene is a section of DNA that carries the instructions for a trait.",
+        "Genetics is the study of heredity (how traits are passed on) and of variation (the differences between individuals).",
+        "A chromosome is the structure that carries genes from one generation to the next. Body cells carry chromosomes in homologous pairs (two matching chromosomes, one from each parent), and each gamete carries one chromosome from each pair."
+      ],
+      "tip": "You may be asked to define species, heredity and gamete. Learn the species definition word for word, including 'fertile offspring', and use the mule as your example."
+    },
+    {
+      "h": "Gametes, fertilisation and how information passes between generations",
+      "b": "Parents pass genes on through special sex cells. Following the chromosome number from parent to gametes to zygote shows how each generation gets its genes and why the number stays constant.",
+      "points": [
         "A gamete is a sex cell: a sperm or egg in animals, or in flowering plants the male gamete nucleus in the pollen grain and the egg cell in the ovule.",
-        "Gametes are haploid, with one set of chromosomes, one from each pair; a human gamete has 23 chromosomes. They are made by meiosis (see “Mitosis and meiosis”).",
-        "Sexual reproduction involves the fusion of two gametes, usually from two parents. The offspring receive half their chromosomes from each parent, so they are genetically different from both parents and from each other (see “Variation”).",
-        "Asexual reproduction involves one parent and no gametes, and produces genetically identical offspring, called clones.",
-        "Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete to form a diploid zygote, the first cell of the new organism. It restores the diploid number: in humans 23 + 23 = 46 chromosomes.",
+        "Gametes are haploid, with one set of chromosomes (one from each pair), so a human gamete has 23 chromosomes. They are made by meiosis. Gametes must be haploid because fertilisation adds the two sets together, so otherwise the chromosome number would double every generation.",
+        "Sexual reproduction involves the fusion of two gametes, usually from two parents. The offspring receive half their chromosomes from each parent, so they are genetically different from both parents and from each other. There is more on this in Variation.",
+        "Asexual reproduction involves one parent and no gametes, so it produces genetically identical offspring, called clones.",
+        "Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete to form a diploid zygote (a cell with two sets of chromosomes), the first cell of the new organism. It restores the diploid number: in humans 23 + 23 = 46 chromosomes.",
         "The zygote divides by mitosis, so every body cell carries the same set of chromosomes.",
         "Diagram: life-cycle flow: parent (2n = 46) → meiosis → gametes (n = 23, sperm and egg) → fertilisation → zygote (2n = 46) → mitosis → offspring; label haploid, diploid, meiosis, fertilisation and mitosis."
-      ]
+      ],
+      "tip": "Expect to state that a human sperm or egg has 23 chromosomes and to explain why gametes must be haploid. Write that fertilisation is the fusion of the nuclei, not just the gametes meeting, and that the zygote is diploid."
     },
     {
       "h": "Genes and alleles",
+      "b": "A gene is a section of DNA for one trait, such as seed shape. Genes come in slightly different versions, and these versions, called alleles, are what make individuals differ.",
       "points": [
-        "An allele is one of the alternative forms of a gene, found at the same locus on homologous chromosomes. Alleles differ slightly in base sequence, as they arise by mutation, so they may produce different versions of the trait.",
+        "An allele is one of the alternative forms of a gene, found at the same locus (position) on homologous chromosomes. Alleles differ slightly in base sequence, as they arise by mutation, so they may produce different versions of the trait.",
         "In peas, the gene for seed shape has an allele for round seeds (R) and one for wrinkled seeds (r).",
-        "A diploid organism has two alleles for each autosomal gene, one on each homologous chromosome, one inherited from each parent.",
-        "A population may have more than two alleles of a gene, but each individual carries only two: the human ABO blood-group gene has three alleles (A, B and O) in the population.",
+        "A diploid organism has two alleles for each autosomal gene (a gene on a non-sex chromosome), one on each homologous chromosome, one inherited from each parent.",
+        "A population may have more than two alleles of a gene, but each individual carries only two, because it has only two homologous chromosomes. The human ABO blood-group gene has three alleles (A, B and O) in the population.",
         "Homozygous means having two identical alleles of a gene (RR or rr). A homozygous organism is also called pure-breeding, because it passes on the same allele in every gamete.",
         "Heterozygous means having two different alleles of a gene (Rr). A heterozygous organism is also called a hybrid for that gene.",
         "Diagram: a pair of homologous chromosomes with one gene locus marked, one chromosome carrying R and the other r (heterozygous); a second pair carrying r and r (homozygous); label homologous chromosomes, locus and allele."
-      ]
+      ],
+      "tip": "Examiners ask for definitions of allele, homozygous and heterozygous. Keep gene and allele apart: a gene is the section of DNA for a trait (seed shape), while alleles are its alternative forms (round, wrinkled)."
     },
     {
       "h": "Genotype and phenotype",
+      "b": "Two terms separate what an organism's genes are from what it looks like or does. They are not always the same, because the environment and dominance both play a part.",
       "points": [
-        "Genotype is the genetic make-up of an organism: the alleles it has for a particular trait, written with letters, e.g. RR, Rr or rr.",
-        "Phenotype is the observable (physical, chemical or behavioural) characteristics of an organism that result from its genotype, e.g. round or wrinkled seeds, or blood group A.",
+        "Genotype is the genetic make-up of an organism: the alleles it has for a particular trait, written with letters, such as RR, Rr or rr.",
+        "Phenotype is the observable (physical, chemical or behavioural) characteristics of an organism that result from its genotype, such as round or wrinkled seeds, or blood group A.",
         "Phenotype = genotype + environment. The genotype sets the possible range, and the environment affects how it is expressed.",
-        "Identical twins have the same genotype but may differ in mass because of diet and exercise.",
-        "Hydrangea plants of the same variety have blue flowers in acid soil and pink flowers in alkaline soil.",
-        "A plant with the genes for chlorophyll is pale yellow if grown in the dark.",
-        "Different genotypes can give the same phenotype: RR and Rr are both round, because one allele is dominant. So the phenotype does not always reveal the genotype; how to find the genotype (the test cross) is covered in “Monohybrid crosses”."
-      ]
+        "Identical twins have the same genotype but may differ in mass because of diet and exercise, so the same genes can give different phenotypes.",
+        "Hydrangea plants of the same variety have blue flowers in acid soil and pink flowers in alkaline soil, so soil pH changes the phenotype.",
+        "A plant with the genes for chlorophyll is pale yellow if grown in the dark, because the environment (no light) stops the pigment forming.",
+        "Different genotypes can give the same phenotype: RR and Rr are both round, because one allele is dominant. So the phenotype does not always reveal the genotype. There is more on how to find the genotype (the test cross) in Monohybrid crosses."
+      ],
+      "tip": "You may be asked to explain why organisms with different genotypes can have the same phenotype, or why identical twins can differ. Answer with dominance for the first and the environment for the second. Genotype is letters; phenotype is the observable characteristic."
     },
     {
       "h": "Dominant and recessive alleles",
+      "b": "When an organism is heterozygous, the two alleles do not always show equally. Dominant and recessive describe which allele is seen in the phenotype and which is hidden.",
       "points": [
         "A dominant allele is expressed in the phenotype of a heterozygote, masking the effect of the other allele. It is written with a capital letter (R), and a dominant trait shows in both RR and Rr.",
         "A recessive allele is expressed in the phenotype only when no dominant allele is present, that is, only in the homozygous condition (rr). It is written with the lower-case letter (r).",
-        "In a heterozygote, a recessive allele is present but hidden, and can still be passed on.",
+        "In a heterozygote, a recessive allele is present but hidden, and it can still be passed on to offspring. It does not disappear and is not weaker.",
         "Often the dominant allele codes for a working protein and the recessive allele for a non-working one. One working copy makes enough protein, so Rr looks the same as RR.",
-        "In peas, R codes for a working starch-branching enzyme; rr seeds make less starch and wrinkle (the full chain is in “Genes, proteins and traits”).",
+        "In peas, R codes for a working starch-branching enzyme; rr seeds make less starch and wrinkle. There is more on this chain in Genes, proteins and traits.",
         "Dominant does not mean common or better. The allele causing Huntington's disease is dominant but rare, and harmful.",
         "Cystic fibrosis and albinism are caused by recessive alleles, so two carriers (heterozygotes) can have an affected child.",
-        "A carrier is a heterozygous individual who carries a recessive allele for a condition but does not show it. The term is used in “Sex-linked traits”."
-      ]
+        "A carrier is a heterozygous individual who carries a recessive allele for a condition but does not show it."
+      ],
+      "tip": "Write 'dominant allele', never 'dominant gene'. Do not call recessive alleles weaker, less common or lost: they stay in heterozygotes and can be passed on. Dominant and recessive definitions may be asked."
     },
     {
       "h": "Gene expression",
+      "b": "Having a gene is not the same as using it. Gene expression is how a cell turns the information in a gene into something that affects the organism.",
       "points": [
         "Gene expression is the process by which the information in a gene is used to make its product (a protein or a functional RNA), so that the gene affects the phenotype.",
         "A gene that is being used is switched on (expressed); one that is not is switched off.",
-        "Every body cell has the same genes, but each cell type expresses only some of them, which is why cells become specialised (the insulin and haemoglobin examples are in “Genes, proteins and traits”).",
-        "Expression is controlled by regulatory DNA (see “Chromosome structure and genes”), by signals such as hormones, and by the environment: some genes are switched on only in response to a stimulus.",
-        "How the environment and behaviour change gene expression is covered in “Genetic and epigenetic mechanisms”."
-      ]
+        "Every body cell has the same genes, but each cell type expresses only some of them, which is why cells become specialised.",
+        "Expression is controlled by regulatory DNA (stretches of DNA that switch genes on or off), by signals such as hormones, and by the environment: some genes are switched on only in response to a stimulus.",
+        "There is more on how the environment and behaviour change expression in Genetic and epigenetic mechanisms."
+      ],
+      "tip": "Define gene expression as using the gene's information to make a product, and remember that all body cells carry the same genes but express different ones."
     },
     {
       "h": "Further key terms (Higher Level only)",
-      "b": "Definitions and examples for the four Higher Level terms; full treatment is in the notes named in each point.",
+      "b": "Four more terms extend the basic vocabulary. Each has a short definition and, where there is one, a named example.",
       "points": [
-        "Epigenetic expression is a change in gene expression that is not caused by a change in the DNA base sequence, but by chemical tags on the DNA or on the histones that switch genes on or off. The tags can be caused by the environment and behaviour, can be passed on when cells divide, and some are reversible. Full treatment is in “Genetic and epigenetic mechanisms”.",
-        "Incomplete dominance means neither allele is dominant over the other, so the heterozygote has a phenotype intermediate between the two homozygotes. For example, red-flowered and white-flowered snapdragons give pink-flowered heterozygotes. This contrasts with complete dominance, where the heterozygote looks like the dominant homozygote. Crosses are in “Incomplete dominance”.",
-        "Linkage: genes located on the same chromosome are linked and tend to be inherited together, because they do not separate into different gametes. Linked genes do not assort independently. Detail is in “Linkage”.",
-        "Sex-linkage: a gene located on a sex chromosome (in humans almost always the X chromosome) is sex-linked, so the trait's inheritance pattern differs between males and females. Examples are red–green colour blindness and haemophilia, which are much more common in males. Detail is in “Sex-linked traits”."
-      ]
+        "Epigenetic expression is a change in gene expression that is not caused by a change in the DNA base sequence, but by chemical tags on the DNA or on the histones (the proteins DNA is wound around) that switch genes on or off.",
+        "Epigenetic tags can be caused by the environment and behaviour, can be passed on when cells divide, and some are reversible.",
+        "Incomplete dominance means neither allele is dominant over the other, so the heterozygote has a phenotype intermediate between the two homozygotes. For example, red-flowered and white-flowered snapdragons give pink-flowered heterozygotes. This contrasts with complete dominance, where the heterozygote looks like the dominant homozygote.",
+        "Linkage: genes located on the same chromosome are linked and tend to be inherited together, because they do not separate into different gametes. Linked genes do not assort independently.",
+        "Sex-linkage: a gene located on a sex chromosome (in humans almost always the X chromosome) is sex-linked, so the trait's inheritance pattern differs between males and females. Examples are red–green colour blindness and haemophilia, which are much more common in males."
+      ],
+      "tip": "Higher Level questions ask you to define incomplete dominance, linkage, sex-linkage and epigenetic expression. Give the definition and, for incomplete dominance and sex-linkage, the named example."
     }
   ],
   "keyTerms": [

@@ -6,83 +6,100 @@
   "notes": [
     {
       "h": "Evidence and the three tests",
-      "b": "Evidence is the information (observations, measurements, results of studies) used to support or refute a claim. A claim is a statement that something is true, e.g. “vitamin C prevents colds”. Evidence is judged on relevance, accuracy and bias.",
+      "b": "Every news story, advert or social media post about science makes a claim, and a claim is only as good as the evidence behind it. To judge that evidence you ask three questions: is it relevant, is it accurate, and is it biased?",
       "points": [
-        "Relevance: does the evidence actually address this claim? Evidence about a different organism, population, dose or situation may not apply. A study in mice, or on cells in a dish, does not show the same effect in humans.",
-        "A study of elite athletes may not apply to the general population, and a study of a pure chemical may not apply to a food that contains a little of it.",
-        "Accuracy: is the evidence correct and reported correctly? Check whether it comes from a reliable method, whether it has been reproduced, whether the numbers in a report match the original study, and whether the conclusion goes further than the data allow.",
-        "Bias: has the evidence, or the way it is presented, been pushed in one direction? The types of bias in sources, including funding, conflict of interest, cherry-picking, publication bias, confirmation bias, sampling bias and political bias, are taught in “Recognising bias and evaluating sources”. Here they are applied to the evidence behind an argument."
-      ]
+        "Evidence is the information (observations, measurements, results of studies) used to support or refute a claim, which means to back it up or to count against it.",
+        "A claim is a statement that something is true, e.g. “vitamin C prevents colds”. The claim is what you are testing; the evidence is what you test it with.",
+        "Relevance asks whether the evidence actually addresses this claim. Evidence about a different organism, population, dose or situation may not apply, so a study in mice, or on cells in a dish, does not show the same effect in humans.",
+        "A study of elite athletes may not apply to the general population, because their bodies and training are unusual. A study of a pure chemical may not apply to a food that contains only a little of it.",
+        "Accuracy asks whether the evidence is correct and reported correctly. Check whether it comes from a reliable method, whether it has been reproduced (repeated by others with the same result), and whether the numbers in a report match the original study.",
+        "Also check whether the conclusion goes further than the data allow. A report can quote accurate numbers and still claim more than those numbers show.",
+        "Bias asks whether the evidence, or the way it is presented, has been pushed in one direction. The types of bias in sources are funding, conflict of interest, cherry-picking, publication bias, confirmation bias, sampling bias and political bias. Here you apply them to the evidence behind an argument."
+      ],
+      "tip": "When you are asked to evaluate a source, structure your answer around relevance, accuracy and bias, and give a specific reason under each, not just the label."
     },
     {
       "h": "Weighing the strength of evidence",
-      "b": "The types of evidence below are ranked from weakest to strongest.",
+      "b": "Not all evidence is equally convincing. Scientists rank the types of evidence by how well each can rule out chance and other explanations, so you can say how far a claim is supported. The list runs from weakest to strongest.",
       "points": [
-        "Anecdote or personal testimony (“it worked for me”) is the weakest, because one person’s experience can be due to chance, the placebo effect, natural recovery or other causes.",
-        "Expert opinion without data, or a single case report, is weak. It is useful for raising a question.",
-        "Laboratory studies on cells or animals are useful for finding mechanisms, but they may not apply to humans.",
+        "Anecdote or personal testimony (“it worked for me”) is the weakest. One person’s experience can be due to chance, the placebo effect (feeling better because you expect to), natural recovery or other causes. It can prompt a proper study, but it is not evidence that a treatment works.",
+        "Expert opinion without data, or a single case report (a description of one patient), is weak. It is useful for raising a question that can then be tested.",
+        "Laboratory studies on cells or animals are useful for finding mechanisms (how something works), but they may not apply to humans, so the result is relevant only with caution.",
         "Observational studies of large groups of people, e.g. following thousands of people and comparing smokers with non-smokers, are good for finding links (correlations). They cannot on their own show cause and effect, because other factors may differ between the groups.",
-        "Randomised controlled trials place people randomly in a treatment group or a control group, usually double-blind. They are the strongest single study for showing that a treatment causes an effect. Blinding and placebos are taught in “Objectivity and data quality”, and how to design controlled investigations is in “Designing and conducting investigations”.",
-        "Systematic reviews and meta-analyses combine all good-quality studies on a question. They are the strongest overall evidence because they do not rely on one study.",
-        "Scientific consensus is the agreed view of most experts in a field, reached after many studies, e.g. that human activity is causing climate change and that vaccines do not cause autism. A single new study rarely overturns a consensus; it needs to be reproduced first."
-      ]
+        "Randomised controlled trials place people randomly in a treatment group or a control group, usually double-blind. Random placement spreads other factors evenly between the groups, so these are the strongest single study for showing that a treatment causes an effect.",
+        "Systematic reviews and meta-analyses combine all good-quality studies on a question. They are the strongest overall evidence because they do not rely on one study, which might be a fluke.",
+        "Scientific consensus is the agreed view of most experts in a field, reached after many studies, e.g. that human activity is causing climate change and that vaccines do not cause autism.",
+        "A single new study rarely overturns a consensus, because it needs to be reproduced first. One surprising result is more likely to be a chance or a flaw than the end of a well-tested idea."
+      ],
+      "tip": "If asked why a randomised controlled trial or a systematic review beats an anecdote, say what each controls for: the trial uses random groups and a comparison, the review does not rely on one study, and the anecdote is one person who may have recovered anyway."
     },
     {
       "h": "Common errors in reasoning from evidence",
+      "b": "Even real evidence can be misused. These are the mistakes that most often turn a modest result into a dramatic headline, and each one is a point you can raise when evaluating a claim.",
       "points": [
-        "Correlation presented as causation: media reports often say that a food, drug or habit “causes” or “prevents” a disease when a study found only a correlation. Correlation and its other explanations are taught in “Producing and analysing data”.",
-        "In large health studies, experiments on people are often impossible or unethical, so a link is accepted as causal only when several kinds of evidence agree. The cause comes before the effect; more exposure gives more effect (a dose–response pattern); the same link is found in many independent studies in different populations; and a biological mechanism explains it.",
+        "Correlation presented as causation: media reports often say that a food, drug or habit “causes” or “prevents” a disease when a study found only a correlation (two things occurring together). A link alone does not show that one produces the other.",
+        "In large health studies, experiments on people are often impossible or unethical, so a link is accepted as causal only when several kinds of evidence agree. The cause comes before the effect, and more exposure gives more effect (a dose–response pattern).",
+        "The same link must also be found in many independent studies in different populations, and a biological mechanism must explain it.",
         "Smoking and lung cancer met all of these tests, which is why smoking is accepted as a cause of lung cancer.",
-        "Small samples: results from few individuals are more likely to be due to chance.",
-        "No control group: without a comparison, an improvement may have happened anyway.",
+        "Small samples: results from few individuals are more likely to be due to chance, because one or two unusual people can change the average.",
+        "No control group: without a comparison, an improvement may have happened anyway, so you cannot tell whether the treatment did anything.",
         "Relative and absolute risk: a headline saying a food “doubles the risk” of a disease may describe a rise from 1 in 10,000 to 2 in 10,000. This is an arithmetic illustration, not real data, and the absolute increase is small. Always ask “doubled from what?”",
-        "Extrapolating beyond the data: assuming that a trend continues outside the range tested, or that the effect of a high dose applies to a low dose."
-      ]
+        "Extrapolating beyond the data: assuming that a trend continues outside the range tested, or that the effect of a high dose applies to a low dose, because nobody tested those conditions."
+      ],
+      "tip": "To explain why a correlation does not show cause, say what extra evidence would: cause before effect, dose–response, independent studies in different populations, and a mechanism."
     },
     {
       "h": "How the media present science",
+      "b": "Media include newspapers, television, radio, websites, podcasts, social media and advertising. Most people learn about science from them rather than from journals, so media reports shape public opinion and decisions on health, the environment and technology. Understanding how reports get distorted helps you spot the problem.",
       "points": [
-        "Media include newspapers, television, radio, websites, podcasts, social media and advertising. Most people learn about science from them rather than from journals, so media reports shape public opinion and decisions on health, the environment and technology.",
         "Headlines exaggerate to attract readers or clicks (sensationalism). A single preliminary study may be reported as a breakthrough or a “cure”, and animal or cell results may be reported as if they apply to humans.",
-        "Uncertainty and limitations are often left out. Press releases from universities and companies may themselves exaggerate.",
+        "Uncertainty and limitations are often left out, which makes results sound firmer than they are. Press releases from universities and companies may themselves exaggerate.",
         "False balance: giving equal time to a fringe view and to the scientific consensus, e.g. one climate scientist debating one climate-change denier, makes the evidence seem evenly split when it is not.",
         "Misinformation is false or misleading information spread without intent to deceive. Disinformation is false information spread deliberately to deceive, e.g. for profit or political gain.",
-        "Social media spread both quickly, because posts that provoke emotion are shared more and algorithms show people more of what they already engage with, creating echo chambers.",
-        "Persuasion techniques to recognise: appeal to authority (a celebrity or a doctor speaking outside their expertise); appeal to nature (“natural means safe”, though many natural substances are poisonous, e.g. deadly nightshade); emotive language and images; testimonials instead of data; “scientists are hiding the truth” conspiracy claims, which cannot be tested; and scientific-sounding words used to sell a product.",
-        "Responsible science reporting names the study and where it was published, gives the sample size and the type of study, states the limitations, separates the evidence from opinion, and includes comment from independent experts."
-      ]
+        "Social media spread both quickly, because posts that provoke emotion are shared more and algorithms show people more of what they already engage with, creating echo chambers (feeds where you mostly meet views you already hold).",
+        "Persuasion techniques to recognise: appeal to authority (a celebrity or a doctor speaking outside their expertise); appeal to nature (“natural means safe”, though many natural substances are poisonous, e.g. deadly nightshade); emotive language and images; testimonials instead of data.",
+        "Two more techniques: “scientists are hiding the truth” conspiracy claims, which cannot be tested, and scientific-sounding words used to sell a product.",
+        "Responsible science reporting does the opposite: it names the study and where it was published, gives the sample size and type of study, states the limitations, separates evidence from opinion, and includes comment from independent experts."
+      ],
+      "tip": "Know the difference between misinformation (spread without intent to deceive) and disinformation (spread deliberately), and be ready to explain how social media spreads them and what that does to public health."
     },
     {
       "h": "Evaluating a media-based argument",
+      "b": "This is a method you can apply to any article, advert or post about science or technology. Work through the steps in order, and finish with a judgement, because “evaluate” means deciding how far the evidence supports the claim and noting its limits.",
       "points": [
-        "1. Identify the claim and who is making it.",
-        "2. Find the original evidence: is a study named, and was it peer reviewed?",
-        "3. Check relevance: who or what was studied, and does it apply to the claim?",
-        "4. Check the strength of the evidence: type of study, sample size, control group, and whether the result has been reproduced (see “Weighing the strength of evidence” and “Common errors in reasoning from evidence”).",
+        "1. Identify the claim and who is making it, so you know exactly what must be supported and what the speaker stands to gain.",
+        "2. Find the original evidence: is a study named, and was it peer reviewed? A claim with no traceable source cannot be checked.",
+        "3. Check relevance: who or what was studied, and does it apply to the claim? Mice, cells, elite athletes or a pure chemical may not match the situation in the claim.",
+        "4. Check the strength of the evidence: the type of study, the sample size, whether there was a control group, and whether the result has been reproduced. Anecdotes, small samples and missing controls all weaken it.",
         "5. Check accuracy: does the report match the study? Is correlation presented as causation? Is the risk given as relative or absolute?",
         "6. Check bias: who funded the study and the report, what is their purpose, and are other views or limitations mentioned?",
-        "7. Check what other reliable sources and the scientific consensus say.",
+        "7. Check what other reliable sources and the scientific consensus say, because one report that disagrees with many others needs explaining.",
         "8. Make a judgement: how far the evidence supports the claim, and what further evidence is needed."
-      ]
+      ],
+      "tip": "Exams give you a news extract, advert or social media post on a biology topic and ask you to evaluate it for relevance, accuracy and bias. Quote the extract and judge it against these steps, ending with how far it supports the claim."
     },
     {
       "h": "Case study: the MMR vaccine and autism",
+      "b": "This case shows the checklist at work on a real claim. One weak study, a hidden conflict of interest and wide media coverage combined to damage public health.",
       "points": [
-        "The claim: in 1998 Andrew Wakefield and colleagues published a paper in The Lancet on 12 children, suggesting a link between the MMR (measles, mumps and rubella) vaccine and autism.",
-        "Relevance and strength: the sample was tiny and had no control group. At most, the paper showed a coincidence in timing, not a cause.",
+        "The claim: in 1998 Andrew Wakefield and colleagues published a paper in The Lancet on 12 children, suggesting a link between the MMR (measles, mumps and rubella) vaccine and autism. The paper suggested a link; later evidence showed there is none.",
+        "Relevance and strength: the sample was tiny and had no control group, so there was nothing to compare against. At most, the paper showed a coincidence in timing, not a cause.",
         "Bias: Wakefield had an undisclosed conflict of interest. He had been paid by lawyers acting for parents who wanted to sue vaccine manufacturers.",
-        "Media: the claim was reported widely, often with false balance.",
-        "Investigation: the journalist Brian Deer found that the children’s medical details had been misrepresented. The Lancet retracted the paper in 2010, and Wakefield was struck off the UK medical register in 2010.",
+        "Media: the claim was reported widely, often with false balance, so the public saw a fringe view presented as an equal to the consensus.",
+        "Investigation: the journalist Brian Deer found that the children’s medical details had been misrepresented. The Lancet retracted (formally withdrew) the paper in 2010, and Wakefield was struck off the UK medical register in 2010.",
         "Later evidence: large studies found no link, e.g. a 2019 Danish study of over 650,000 children.",
         "Effect: vaccination rates fell in the UK and Ireland and in other countries, and measles outbreaks followed.",
         "The case shows how one weak study, amplified by the media, can harm public health long after it has been disproved. The paper was published in a peer-reviewed journal, so peer review alone did not prevent the harm."
-      ]
+      ],
+      "tip": "Use this case as a worked example: link the small sample and no control group, the correlation presented as cause, the undisclosed conflict of interest and the false balance each to a point in the checklist. Say the paper suggested a link, not that it proved one."
     },
     {
       "h": "Applying the checklist to technology claims",
+      "b": "Claims about technology, like claims about medicine, can be tested with the same checklist. A company selling a product has a reason to make it sound better than it is.",
       "points": [
         "Technology claims need the same checklist. For example, a claim that a new app “detects cancer”, or that a gene test “predicts your ideal diet”, should be tested by asking what evidence shows that it works, in whom, how accurately, and who profits from it."
-      ]
+      ],
+      "tip": "For a technology claim, ask the four questions: what evidence shows it works, in whom, how accurately, and who profits."
     }
   ],
   "keyTerms": [

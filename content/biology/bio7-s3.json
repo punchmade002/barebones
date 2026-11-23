@@ -6,90 +6,137 @@
   "notes": [
     {
       "h": "Cell wall and cell membrane",
+      "b": "Every cell needs a boundary that holds it together and controls what gets in and out. Plant cells have two layers of boundary: a tough cell wall outside and a thin cell membrane just inside it.",
       "points": [
         "Cell wall: a rigid layer outside the cell membrane, made mainly of cellulose fibres in plants. It is fully permeable, so water and dissolved substances pass through it freely.",
-        "The cell wall gives strength, support and a fixed shape. It stops the cell bursting when it takes in water by osmosis, so the cell becomes firm (turgid), which supports non-woody plants.",
-        "Cell walls are found in plant cells, in fungi (made of chitin) and in bacteria, but not in animal cells. The cell wall is visible with the light microscope.",
-        "Cell membrane (plasma membrane): a very thin, flexible boundary around every cell, made of a double layer of phospholipids with proteins in it. It is selectively permeable: it controls which substances enter and leave, and it holds the cell contents together.",
+        "The cell wall gives strength, support and a fixed shape. It stops the cell bursting when it takes in water by osmosis (water moving in across the membrane), so the cell becomes firm (turgid), which supports non-woody plants.",
+        "Cell walls are found in plant cells, in fungi (where they are made of chitin) and in bacteria, but not in animal cells. The cell wall is visible with the light microscope.",
+        "Cell membrane (plasma membrane): a very thin, flexible boundary around every cell, made of a double layer of phospholipids (fatty molecules) with proteins in it. It is selectively permeable, so it controls which substances enter and leave, and it holds the cell contents together.",
         "Proteins in the cell membrane act as receptors that recognise hormones and other signals, and as markers that let cells recognise each other.",
-        "The cell membrane is found in all cells, inside the wall in plant cells. It is seen only as a line with the light microscope. Its structure and how materials cross it are in “Transport Across Membranes”."
-      ]
+        "The cell membrane is found in all cells, and lies inside the wall in plant cells. With the light microscope it is seen only as a line. There is more on this in Transport Across Membranes."
+      ],
+      "tip": "Don't swap the two boundaries: the cell wall is fully permeable, while the cell membrane is selectively permeable. Past papers have asked for the function of the cell wall and of the cell membrane, so learn both."
     },
     {
       "h": "Cytoplasm and vacuole",
+      "b": "Inside the membrane, the cell's contents sit in a watery fluid, and plant cells also have a large fluid-filled sac that helps hold them firm. Together these provide the setting for the cell's chemistry and its support.",
       "points": [
-        "Cytoplasm: everything inside the cell membrane except the nucleus. It is a watery, jelly-like fluid (cytosol) containing dissolved nutrients, salts and enzymes, in which the organelles are suspended.",
-        "The cytoplasm is the site of many metabolic reactions, e.g. the first stage of respiration (glucose broken down to pyruvate) and anaerobic respiration, and the making of proteins at free ribosomes. It is found in all cells.",
-        "Vacuole: a fluid-filled sac surrounded by a single membrane. A mature plant cell has one large permanent central vacuole filled with cell sap, which is water containing sugars, salts and sometimes pigments, e.g. the red of beetroot.",
-        "The plant vacuole stores water, food and waste. It takes in water by osmosis and pushes the cytoplasm against the wall, keeping the cell turgid and the plant upright. When water is lost, plants wilt.",
-        "Animal cells have only small, temporary vacuoles, e.g. food vacuoles. Some single-celled protists such as Amoeba have contractile vacuoles that pump out excess water.",
+        "Cytoplasm: everything inside the cell membrane except the nucleus. It is a watery, jelly-like fluid (cytosol) containing dissolved nutrients, salts and enzymes (proteins that speed up reactions), in which the organelles (the cell's specialised working parts) are suspended.",
+        "The cytoplasm is the site of many metabolic reactions (the chemical reactions of the cell), for example the first stage of respiration (glucose broken down to pyruvate) and anaerobic respiration (respiration without oxygen). It is also where proteins are made at free ribosomes. It is found in all cells.",
+        "Vacuole: a fluid-filled sac surrounded by a single membrane. A mature plant cell has one large permanent central vacuole filled with cell sap, which is water containing sugars, salts and sometimes pigments, for example the red of beetroot.",
+        "The plant vacuole stores water, food and waste. It takes in water by osmosis and pushes the cytoplasm against the wall, which keeps the cell turgid and the plant upright. When water is lost, plants wilt.",
+        "Animal cells have only small, temporary vacuoles, for example food vacuoles. Some single-celled protists such as Amoeba have contractile vacuoles that pump out excess water.",
         "The plant vacuole is visible with the light microscope."
-      ]
+      ],
+      "tip": "Exams ask for the function of the vacuole. Give storage of water, food and waste, and say that it keeps the cell turgid by pressing the cytoplasm against the wall."
     },
     {
       "h": "Mitochondria",
+      "b": "Cells need a constant supply of usable energy. Mitochondria are the organelles that release it from food, so cells with high energy demands are packed with them.",
       "points": [
-        "Mitochondrion (plural mitochondria): a rod- or sausage-shaped organelle with a double membrane. The outer membrane is smooth; the inner membrane is folded into cristae, which give a large surface area for the enzymes of the later stages of aerobic respiration. The fluid inside is the matrix.",
-        "Function: the site of most of aerobic respiration, releasing energy from food to make most of the cell’s ATP.",
-        "Mitochondria are found in almost all eukaryotic cells, in plants as well as animals.",
-        "Cells that need a lot of energy have many mitochondria, e.g. muscle cells, liver cells, nerve cells and the middle section of sperm.",
+        "Mitochondrion (plural mitochondria): a rod- or sausage-shaped organelle with a double membrane. The outer membrane is smooth, and the inner membrane is folded into cristae.",
+        "The folds of the cristae give a large surface area for the enzymes of the later stages of aerobic respiration (respiration using oxygen). The fluid inside the inner membrane is the matrix.",
+        "Function: the site of most of aerobic respiration, releasing energy from food to make most of the cell's ATP (the molecule that carries energy for cell activities).",
+        "Mitochondria are found in almost all eukaryotic cells (cells with a nucleus), in plants as well as animals. Plant cells respire as well as photosynthesise, so they need mitochondria too.",
+        "Cells that need a lot of energy have many mitochondria, for example muscle cells, liver cells, nerve cells and the middle section of sperm.",
         "Mitochondria contain their own DNA and ribosomes. They are too small to show detail with the light microscope, so their structure is seen with the electron microscope.",
         "Diagram: a mitochondrion in section labelled outer membrane, inner membrane, cristae and matrix."
-      ]
+      ],
+      "tip": "Where do the later stages of respiration take place? The mitochondrion. Plants have mitochondria as well as chloroplasts: they do not photosynthesise instead of respiring."
     },
     {
       "h": "Chloroplasts",
+      "b": "Plants make their own food by photosynthesis, and the organelle that does this is the chloroplast. Its green pigment captures light, and its fluid interior builds sugar.",
       "points": [
-        "Chloroplast: a disc-shaped organelle with a double membrane. It contains stacks of flattened membrane sacs (thylakoids; a stack is a granum) that carry the green pigment chlorophyll. It is surrounded by a fluid called the stroma, and starch grains may be stored in the stroma.",
+        "Chloroplast: a disc-shaped organelle with a double membrane. It contains stacks of flattened membrane sacs (thylakoids; a stack is a granum) that carry the green pigment chlorophyll.",
+        "The chloroplast is surrounded by a fluid called the stroma, and starch grains may be stored in the stroma.",
         "Function: the site of photosynthesis. Chlorophyll in the thylakoid membranes absorbs light energy (the light-dependent stage). The stroma contains the enzymes that use this energy to make glucose from carbon dioxide (the light-independent stage).",
-        "The many stacked membranes give a large surface area for absorbing light. Detail of the stages is in “Photosynthesis”.",
-        "Chloroplasts are found only in plant cells (and algae), in parts exposed to light, especially the palisade cells of leaves and guard cells. They are not found in root cells, or in onion bulb cells, and never in animal cells.",
+        "The many stacked membranes give a large surface area for absorbing light. There is more on this in Photosynthesis.",
+        "Chloroplasts are found only in plant cells (and algae), in parts exposed to light, especially the palisade cells of leaves and guard cells.",
+        "Not all plant cells have chloroplasts. They are not found in root cells or in onion bulb cells, which are not exposed to light, and they are never found in animal cells.",
         "Chloroplasts are visible as green discs with the light microscope. They contain their own DNA and ribosomes.",
         "Diagram: a chloroplast labelled double membrane, thylakoids, granum, stroma and starch grain."
-      ]
+      ],
+      "tip": "If asked where chlorophyll is found, answer the chloroplast (in the thylakoid membranes). Don't write that all plant cells contain chloroplasts."
     },
     {
-      "h": "The nucleus, nuclear pores, chromosomes and ribosomes",
+      "h": "The nucleus and nuclear pores",
+      "b": "The nucleus is the cell's control centre. It holds the instructions for making proteins, and nuclear pores are the gateways that let the right materials move between the nucleus and the rest of the cell.",
       "points": [
-        "Nucleus: usually the largest organelle, round or oval, surrounded by a double membrane called the nuclear envelope. It contains the cell’s DNA as chromatin, which is DNA wound around histone proteins.",
-        "Function: the nucleus controls the cell’s activities, because its DNA carries the genes that code for the cell’s proteins, including the enzymes that control every reaction. DNA is copied in the nucleus before cell division, and genes are copied into messenger RNA (mRNA) there.",
+        "Nucleus: usually the largest organelle, round or oval, surrounded by a double membrane called the nuclear envelope. It contains the cell's DNA as chromatin, which is DNA wound around histone proteins.",
+        "Function: the nucleus controls the cell's activities, because its DNA carries the genes that code for the cell's proteins, including the enzymes that control every reaction.",
+        "The nucleus is where DNA is copied before cell division, and where genes are copied into messenger RNA (mRNA, the working copy of a gene that carries the code out to the ribosomes).",
         "The nucleolus is a dense region inside the nucleus where ribosomes are made.",
-        "The nucleus is found in all eukaryotic cells except a few that lose it, e.g. mature human red blood cells. It is visible with the light microscope, especially when stained.",
+        "The nucleus is found in all eukaryotic cells except a few that lose it, for example mature human red blood cells. It is visible with the light microscope, especially when stained.",
         "Nuclear pore: one of many openings through the nuclear envelope, each lined with proteins that control what passes through it.",
-        "mRNA and ribosome parts pass out to the cytoplasm. Proteins such as enzymes and histones, nucleotides and ATP pass in. The DNA is too large to leave and stays protected in the nucleus. Nuclear pores are seen only with the electron microscope.",
-        "Chromosome: a long thread of DNA wound around proteins (histones), carrying many genes. For most of the cell’s life the chromosomes are long, thin and spread out as chromatin, and cannot be seen.",
-        "Before division the chromosomes coil up tightly, becoming short and thick, and can then be seen with the light microscope when stained. Human body cells have 46 chromosomes (23 pairs).",
-        "Chromosomes carry genetic information and pass it to new cells and offspring. Their detailed structure is in “Genetic Inheritance”, and division is in “Cell Division and Cancer”.",
-        "Ribosome: a very small organelle with no membrane, made of ribosomal RNA (rRNA) and protein, in two subunits. It is the site of protein synthesis, where amino acids are joined in the order coded for by mRNA.",
-        "Ribosomes are found in all cells, prokaryotic and eukaryotic, free in the cytoplasm. There are many in cells making a lot of protein. They are seen only with the electron microscope, as dots. Translation in detail is in “DNA Replication, Protein Synthesis and Mutations”."
-      ]
+        "mRNA and ribosome parts pass out to the cytoplasm. Proteins such as enzymes and histones, nucleotides (the building blocks of DNA and RNA) and ATP pass in. The DNA is too large to leave, so it stays protected in the nucleus.",
+        "Nuclear pores are seen only with the electron microscope, because they are too small for the light microscope."
+      ],
+      "tip": "Say that the nucleus controls the cell because its DNA codes for proteins, including enzymes. Remember that mature human red blood cells have no nucleus."
     },
     {
-      "h": "Endoplasmic reticulum and Golgi apparatus (Higher Level only)",
+      "h": "Chromosomes",
+      "b": "The DNA in the nucleus is not a loose tangle. It is organised into chromosomes, which carry the genes and are passed on when cells divide and when organisms reproduce.",
+      "points": [
+        "Chromosome: a long thread of DNA wound around proteins (histones), carrying many genes (sections of DNA that code for proteins).",
+        "For most of the cell's life the chromosomes are long, thin and spread out as chromatin, which is why they cannot be seen.",
+        "Before division the chromosomes coil up tightly, becoming short and thick, and can then be seen with the light microscope when stained.",
+        "Human body cells have 46 chromosomes (23 pairs).",
+        "Function: chromosomes carry genetic information and pass it to new cells and offspring. There is more on this in Genetic Inheritance, and division is in Cell Division and Cancer."
+      ],
+      "tip": "Ribosomes do not contain chromosomes, a point examiners have tested as true or false. Chromosomes are in the nucleus, made of DNA and histone proteins."
+    },
+    {
+      "h": "Ribosomes",
+      "b": "Proteins are made on tiny organelles called ribosomes, which read the code carried by mRNA. Every cell needs them, so they are one of the few organelles found in all cells.",
+      "points": [
+        "Ribosome: a very small organelle with no membrane, made of ribosomal RNA (rRNA) and protein, in two subunits.",
+        "Function: the ribosome is the site of protein synthesis, where amino acids (the building blocks of proteins) are joined in the order coded for by mRNA.",
+        "Ribosomes are found in all cells, prokaryotic (without a nucleus) and eukaryotic, free in the cytoplasm. There are many in cells making a lot of protein.",
+        "Ribosomes are seen only with the electron microscope, as dots, because they are very small. There is more on this in DNA Replication, Protein Synthesis and Mutations.",
+        "RNA but no DNA is found in ribosomes and in the cytoplasm of eukaryotic cells. DNA is in the nucleus, mitochondria and chloroplasts."
+      ],
+      "tip": "Ribosomes are made of rRNA and protein, not chromosomes. For 'where is RNA but no DNA found in a eukaryotic cell', name the ribosomes and the cytoplasm."
+    },
+    {
+      "h": "Endoplasmic reticulum (Higher Level only)",
+      "b": "Some proteins are not used inside the cell but are exported, such as digestive enzymes. The endoplasmic reticulum is the first stage of the assembly line that folds and transports them, and it also makes lipids.",
       "points": [
         "Endoplasmic reticulum (ER): a network of membrane-bound flattened sacs and tubes running through the cytoplasm, continuous with the outer membrane of the nuclear envelope. It forms channels that transport materials through the cell.",
-        "Rough ER is covered with ribosomes. Proteins made at these ribosomes enter the ER, where they are folded and transported. These are mainly proteins that will be secreted from the cell (e.g. digestive enzymes made by pancreas cells, and antibodies) or built into membranes.",
-        "Proteins made at free ribosomes stay in the cytoplasm. Cells that secrete a lot of protein have a lot of rough ER.",
+        "Rough ER is covered with ribosomes. Proteins made at these ribosomes enter the ER, where they are folded and transported. These are mainly proteins that will be secreted from the cell (for example digestive enzymes made by pancreas cells, and antibodies) or built into membranes.",
+        "Proteins made at free ribosomes stay in the cytoplasm. Cells that secrete a lot of protein have a lot of rough ER, as in pancreas cells secreting digestive enzymes.",
         "Smooth ER has no ribosomes. It makes lipids, including phospholipids for membranes and steroid hormones. In liver cells it helps to break down (detoxify) drugs and alcohol.",
+        "The ER is found in plant and animal cells, and is seen only with the electron microscope."
+      ],
+      "tip": "At Higher Level, describe the roles of the ER and Golgi apparatus in making and secreting a protein. Cells making lots of secreted protein, such as pancreas cells, have much rough ER."
+    },
+    {
+      "h": "Golgi apparatus and the secretory pathway (Higher Level only)",
+      "b": "The Golgi apparatus is the second stage of the assembly line: it modifies, sorts and packages proteins from the ER and ships them out of the cell.",
+      "points": [
         "Golgi apparatus (Golgi body): a stack of flattened, curved membrane sacs, usually near the nucleus, with small membrane bubbles (vesicles) budding off it.",
-        "The Golgi apparatus receives proteins from the ER in vesicles, modifies them (e.g. adding carbohydrate to make glycoproteins), and sorts and packages them into vesicles that carry them to where they are needed.",
+        "The Golgi apparatus receives proteins from the ER in vesicles, modifies them (for example adding carbohydrate to make glycoproteins), and sorts and packages them into vesicles that carry them to where they are needed.",
         "Secretory vesicles move to the cell membrane, fuse with it and release their contents outside the cell (exocytosis). In plant cells the Golgi apparatus also makes materials for the cell wall.",
-        "Secretory pathway, in order: gene in the nucleus → mRNA leaves through a nuclear pore → protein made at a ribosome on the rough ER → folded and carried in the ER → transport vesicle → Golgi apparatus (modified and packaged) → secretory vesicle → fuses with the cell membrane → protein released, e.g. a digestive enzyme.",
-        "Both the ER and the Golgi apparatus are found in plant and animal cells, and both are seen only with the electron microscope.",
-        "Diagram: add rough ER (with ribosomes), smooth ER and the Golgi apparatus (with vesicles) to the animal-cell diagram in “Plant and animal cells compared”, with arrows showing the secretory pathway."
-      ]
+        "The Golgi apparatus is found in plant and animal cells, and is seen only with the electron microscope.",
+        "Secretory pathway, in order: gene in the nucleus, then mRNA leaves through a nuclear pore, then protein is made at a ribosome on the rough ER, then folded and carried in the ER.",
+        "The protein then moves in a transport vesicle to the Golgi apparatus (modified and packaged), then in a secretory vesicle, which fuses with the cell membrane, and the protein is released, for example a digestive enzyme.",
+        "Diagram: add rough ER (with ribosomes), smooth ER and the Golgi apparatus (with vesicles) to the animal-cell diagram, with arrows showing the secretory pathway."
+      ],
+      "tip": "Follow the secretory pathway in the correct order when describing how a protein is made and secreted."
     },
     {
       "h": "Plant and animal cells compared",
+      "b": "Plant and animal cells share the same core set of organelles, but plant cells have three extra structures that suit a life of making food and standing upright without a skeleton.",
       "points": [
         "Both have a cell membrane, cytoplasm, a nucleus with nuclear pores and chromosomes, mitochondria and ribosomes.",
         "Only plant cells have a cellulose cell wall, a large permanent central vacuole, and chloroplasts in green parts.",
-        "Plant cells usually have a fixed, regular (often rectangular) shape and store carbohydrate as starch.",
+        "Plant cells usually have a fixed, regular (often rectangular) shape, because the rigid wall holds them in place, and they store carbohydrate as starch.",
         "Animal cells have a flexible, irregular or rounded shape, no wall, only small temporary vacuoles, and store carbohydrate as glycogen.",
+        "Seen with the light microscope: the cell wall, vacuole, chloroplasts and nucleus, with the cell membrane seen only as a line. Mitochondria, nuclear pores and ribosomes need the electron microscope.",
         "Diagram: a typical animal cell as seen with the electron microscope, labelled cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, nucleolus, chromatin, mitochondrion and ribosomes.",
-        "Diagram: a typical plant cell (e.g. a palisade cell) as seen with the electron microscope, labelled cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes.",
-        "Seen with the light microscope: the cell wall, vacuole, chloroplasts and nucleus, with the cell membrane seen only as a line. Mitochondria, nuclear pores and ribosomes need the electron microscope."
-      ]
+        "Diagram: a typical plant cell (for example a palisade cell) as seen with the electron microscope, labelled cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes."
+      ],
+      "tip": "For differences between plant and animal cells, name the cell wall, large permanent vacuole and chloroplasts in plants, and the starch versus glycogen store. Remember that plant cells also have mitochondria."
     }
   ],
   "keyTerms": [

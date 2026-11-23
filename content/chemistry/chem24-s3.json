@@ -6,86 +6,136 @@
   "notes": [
     {
       "h": "What organic compounds are",
+      "b": "Almost everything around you, from fuels to medicines to plastics, is built on carbon. Organic chemistry is the study of these carbon compounds, and carbon's bonding explains why there are so many of them.",
       "points": [
         "Organic chemistry is the chemistry of carbon compounds, apart from simple ones such as carbon oxides, carbonates and hydrogencarbonates.",
-        "Organic compounds contain carbon, almost always bonded to hydrogen, and often oxygen, nitrogen, halogens or sulfur.",
-        "Each carbon atom forms four covalent bonds, and carbon atoms bond strongly to each other, so carbon forms chains, branches and rings.",
-        "Carbon atoms can be joined by single, double or triple bonds.",
+        "Organic compounds contain carbon, almost always bonded to hydrogen, and often oxygen, nitrogen, halogens (the group 17 elements such as chlorine) or sulfur.",
+        "Each carbon atom forms four covalent bonds (bonds made by sharing pairs of electrons), and carbon atoms bond strongly to each other, so carbon forms chains, branches and rings.",
+        "Carbon atoms can be joined by single, double or triple bonds, which adds even more possible structures.",
         "Organic compounds were once thought to come only from living things.",
         "In 1828 Friedrich Wöhler made urea, a compound found in urine, from the inorganic salt ammonium cyanate, showing that organic compounds can be made in the laboratory."
-      ]
+      ],
+      "tip": "Here 'organic' means carbon compounds, not 'organic farming'."
     },
     {
-      "h": "Sources of organic compounds",
+      "h": "Sources of organic compounds: fossil and living things",
+      "b": "Organic compounds have to start from somewhere. Two of the sources are the ground (fossil deposits) and living organisms.",
       "points": [
         "Fossil sources are crude oil, natural gas and coal, formed from the remains of organisms over millions of years.",
-        "Fossil sources supply fuels and the feedstocks (starting materials) for most plastics, solvents, dyes, detergents and many medicines; see \"Hydrocarbons: sources, uses and impact\".",
-        "Fossil sources are finite, or non-renewable.",
-        "Living things make natural products: plants, animals and micro-organisms make organic compounds that can be extracted.",
-        "Oils and fats are extracted from plants and animals.",
-        "Essential oils such as clove oil are extracted by steam distillation.",
-        "Medicines are extracted from plants, e.g. quinine from cinchona bark.",
-        "Fermentation: micro-organisms convert biomass into organic compounds; yeast converts glucose into ethanol and carbon dioxide.",
-        "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g), catalysed by enzymes in the yeast.",
+        "Fossil sources supply fuels and the feedstocks (starting materials) for most plastics, solvents, dyes, detergents and many medicines. There is more on this in Hydrocarbons: sources, uses and impact.",
+        "Fossil sources are finite, or non-renewable, because they take millions of years to form and are used far faster than they are made.",
+        "Living things make natural products: plants, animals and micro-organisms (organisms too small to see without a microscope, such as yeast and moulds) make organic compounds that can be extracted.",
+        "Oils and fats are extracted from plants and animals, so living things are a direct source.",
+        "Essential oils such as clove oil are extracted by steam distillation (passing steam through the plant material and condensing the vapour that carries the oil).",
+        "Medicines are extracted from plants, e.g. quinine from cinchona bark."
+      ],
+      "tip": "Be ready to name sources of organic compounds and give an example product from each, for example crude oil to plastics."
+    },
+    {
+      "h": "Sources of organic compounds: fermentation",
+      "b": "Micro-organisms can be put to work as tiny chemical factories. This process is called fermentation, and it gives both drinks and drugs.",
+      "points": [
+        "Fermentation is when micro-organisms convert biomass (plant and other living material) into organic compounds; for example, yeast converts glucose into ethanol and carbon dioxide.",
+        "Equation: C₆H₁₂O₆(aq) → 2C₂H₅OH(aq) + 2CO₂(g), catalysed by enzymes (biological catalysts) in the yeast.",
         "Antibiotics such as penicillin are also made by fermentation.",
-        "Fermentation stops at about 12–15% ethanol by volume because the ethanol kills the yeast.",
-        "Spirits (about 40% v/v ethanol) are made by distilling the fermented liquid.",
-        "Synthesis: chemists build more complex molecules from simpler ones, called precursors, in the laboratory and in industry.",
+        "Fermentation stops at about 12–15% ethanol by volume because the ethanol kills the yeast, so it cannot make a stronger drink.",
+        "Spirits (about 40% v/v ethanol, meaning 40% of the volume is ethanol) are made by distilling the fermented liquid, which concentrates the ethanol."
+      ],
+      "tip": "You may be asked to write the balanced fermentation equation and to explain why fermentation cannot give a drink stronger than about 15% ethanol. The reason is that ethanol kills the yeast."
+    },
+    {
+      "h": "Sources of organic compounds: synthesis and renewable feedstocks",
+      "b": "Chemists can also make organic compounds themselves, and they can swap fossil starting materials for plant-based ones.",
+      "points": [
+        "Synthesis means chemists build more complex molecules from simpler ones, called precursors, in the laboratory and in industry.",
         "Most modern medicines, plastics and pesticides are made by synthesis.",
-        "Renewable (bio-based) feedstocks: biomass such as sugar cane, maize and wood can replace fossil feedstocks.",
+        "Renewable (bio-based) feedstocks: biomass such as sugar cane, maize and wood can replace fossil feedstocks, because plants can be regrown.",
         "Bioethanol made from biomass can be used as a fuel.",
-        "Poly(lactic acid) (PLA) plastic is made from plant starch, e.g. from maize."
+        "Poly(lactic acid) (PLA) plastic is made from plant starch, e.g. from maize, and is biodegradable (broken down by micro-organisms) under industrial composting conditions."
       ]
     },
     {
-      "h": "Products and uses",
-      "b": "Each product group named in the specification is listed with its main uses and examples.",
+      "h": "Products and uses: fuels, pharmaceuticals and plastics",
+      "b": "Organic compounds are the main ingredients of several groups of industrial product. The first three groups are fuels, medicines and plastics.",
       "points": [
-        "Fuels are hydrocarbons such as methane (natural gas), petrol, diesel and kerosene, and alcohols such as ethanol, which release energy when they burn.",
-        "Fuels are used for transport, heating and electricity generation.",
+        "Fuels are hydrocarbons (compounds of only hydrogen and carbon) such as methane (natural gas), petrol, diesel and kerosene, and alcohols such as ethanol, which release energy when they burn.",
+        "Fuels are used for transport, heating and electricity generation, because burning them releases energy as heat.",
         "Pharmaceuticals are medicines that are almost all organic compounds.",
-        "Aspirin and paracetamol relieve pain; penicillin is an antibiotic.",
-        "Plastics are polymers made mainly from oil-derived monomers.",
+        "Aspirin and paracetamol relieve pain; penicillin is an antibiotic (a medicine that kills bacteria).",
+        "Plastics are polymers (very long molecules made by joining many small molecules, called monomers) made mainly from oil-derived monomers.",
         "Poly(ethene), made from ethene, is used for bags, bottles and film.",
         "Poly(chloroethene), known as PVC, is made from chloroethene and used for pipes and window frames.",
-        "Plastics are light, cheap, durable, waterproof and insulating; see \"Types of organic reaction and addition polymers\".",
+        "Plastics are light, cheap, durable, waterproof and insulating, which is why they are so widely used. There is more on this in Types of organic reaction and addition polymers."
+      ],
+      "tip": "You may be asked to give a use of a named organic compound or product. Learn one specific use for each group, e.g. poly(ethene) for bags and PVC for pipes."
+    },
+    {
+      "h": "Products and uses: pesticides, synthetics and everyday products",
+      "b": "The remaining product groups are pesticides, synthetic materials and a range of everyday organic chemicals such as solvents, flavourings and preservatives.",
+      "points": [
         "Pesticides are compounds that kill or control pests.",
-        "Insecticides kill insects, herbicides kill weeds and fungicides kill fungi.",
+        "Insecticides kill insects, herbicides kill weeds and fungicides kill fungi, so each is chosen to match the pest.",
         "Natural pesticides include neem oil, from the neem tree, and pyrethrins, from chrysanthemum flowers.",
         "Synthetic pesticides include malathion, an insecticide, and glyphosate, a herbicide.",
         "Synthetics are man-made materials that replace or improve on natural ones.",
         "Synthetic fibres such as nylon and polyester are made from monomers that link into polymers, and are used for clothing, ropes and carpets.",
         "Synthetic dyes, detergents and synthetic rubber are further synthetic products.",
-        "Ethanol is used in perfumes and deodorants, and propanone is used in nail varnish remover.",
-        "Esters are used as flavourings and fragrances.",
-        "Ethanoic acid is used as a food preservative in vinegar, and sodium benzoate is a food preservative.",
-        "Soaps and detergents are organic products; see \"Surfactants and soap\"."
+        "Ethanol is used as a solvent (a liquid that dissolves other substances) in perfumes and deodorants, and propanone is a solvent used in nail varnish remover."
+      ],
+      "tip": "Be able to give a use of a named organic compound such as ethanol, propanone, ethanoic acid or esters."
+    },
+    {
+      "h": "Products and uses: flavours, preservatives and soaps",
+      "b": "Several smaller organic products appear in food, cosmetics and cleaning.",
+      "points": [
+        "Esters are used as flavourings and fragrances, for example as flavourings and fragrances in products.",
+        "Ethanoic acid is used as a food preservative in vinegar, and sodium benzoate is also a food preservative.",
+        "Soaps and detergents are organic products. There is more on this in Surfactants and soap."
+      ],
+      "tip": "Be able to give a use of a named organic compound such as ethanol, propanone, ethanoic acid or esters."
+    },
+    {
+      "h": "Benefits of organic products",
+      "b": "Organic products have changed how people live, which is why they are made in such quantity. Any evaluation starts with these benefits.",
+      "points": [
+        "Fuels give energy for transport and heating.",
+        "Medicines and sanitation give longer, healthier lives.",
+        "Pesticides give higher crop yields and less food lost to pests.",
+        "Plastics are cheap, light, durable materials, so they suit packaging and pipes.",
+        "Synthetic fibres and other products supply clothing and goods for large populations."
       ]
     },
     {
-      "h": "Benefits and impacts",
+      "h": "Impacts of fuels, plastics and resource use",
+      "b": "The same products that bring benefits also cause environmental problems. Fuels, plastics and the use of fossil resources each have their own impact.",
       "points": [
-        "Benefits: energy for transport and heating, and longer, healthier lives through medicines and sanitation.",
-        "Benefits: higher crop yields and less food lost to pests, and cheap, light, durable materials.",
-        "Benefits: clothing and goods for large populations.",
-        "Fuel impact: burning fossil fuels releases carbon dioxide, a greenhouse gas linked to climate change.",
-        "Fuel impact: burning fossil fuels also releases pollutants such as carbon monoxide, nitrogen oxides and soot; see \"Hydrocarbons: sources, uses and impact\".",
-        "Plastic impact: most plastics are not biodegradable, so they persist for decades or longer as litter, in landfill and in the oceans.",
-        "Plastic impact: in the oceans, plastics harm wildlife and break into microplastics.",
-        "Plastic impact: burning plastics can release toxic gases.",
-        "Pesticide impact: some pesticides are toxic to non-target organisms such as bees, birds and fish.",
-        "Pesticide impact: persistent pesticides such as DDT build up in food chains (bioaccumulation).",
+        "Burning fossil fuels releases carbon dioxide, a greenhouse gas linked to climate change.",
+        "Burning fossil fuels also releases pollutants such as carbon monoxide, nitrogen oxides and soot. There is more on this in Hydrocarbons: sources, uses and impact.",
+        "Most plastics are not biodegradable, so they persist for decades or longer as litter, in landfill and in the oceans.",
+        "In the oceans, plastics harm wildlife and break into microplastics (tiny fragments of plastic).",
+        "Burning plastics can release toxic gases.",
+        "Fossil feedstocks are finite, so they will eventually run out.",
+        "Extracting and processing fossil feedstocks uses energy and can cause spills and pollution."
+      ],
+      "tip": "Questions ask for one benefit and one environmental or health impact of a type of organic product such as plastics, pesticides or fuels. Pair them, then say how the impact could be reduced."
+    },
+    {
+      "h": "Impacts of pesticides and pharmaceuticals",
+      "b": "Pesticides and medicines are designed to act on living things, so they can harm the wrong organisms or have unwanted effects.",
+      "points": [
+        "Some pesticides are toxic to non-target organisms (living things the pesticide was not meant to kill) such as bees, birds and fish.",
+        "Persistent pesticides (ones that do not break down) such as DDT build up in food chains, which is called bioaccumulation.",
         "DDT was banned for agricultural use in most countries, and the Stockholm Convention (2001) restricts it to disease-vector control.",
         "The EU restricted outdoor use of three neonicotinoid insecticides in 2018 because of harm to bees.",
-        "Pesticide run-off can contaminate water.",
-        "Pharmaceutical impact: medicines can cause side effects and addiction, e.g. addiction to opiates.",
-        "Pharmaceutical impact: overuse of antibiotics leads to antibiotic resistance, and drug residues reach waterways.",
-        "Resource impact: fossil feedstocks are finite.",
-        "Resource impact: extracting and processing fossil feedstocks uses energy and can cause spills and pollution."
-      ]
+        "Pesticide run-off (rain washing pesticide off fields) can contaminate water.",
+        "Medicines can cause side effects and addiction, for example addiction to opiates.",
+        "Overuse of antibiotics leads to antibiotic resistance, and drug residues reach waterways."
+      ],
+      "tip": "Don't present synthetic products as all harmful or natural products as all safe. Name a specific impact for the product type asked."
     },
     {
       "h": "Judging a product",
+      "b": "To decide whether a product is a good idea, you weigh its benefits against its impacts over its whole life, and look at ways to reduce those impacts.",
       "points": [
         "A product's impact is assessed across its whole life, from raw material and manufacture to use and disposal; this is a life-cycle view.",
         "Ways to reduce impact include recycling and reuse.",
@@ -93,12 +143,14 @@
         "Designing safer molecules that break down after use reduces impact.",
         "Using less, e.g. targeted pesticide use, reduces impact.",
         "A natural source is not automatically safer or more sustainable, because natural compounds can be toxic.",
-        "Growing biomass uses land, water and fertiliser.",
+        "Growing biomass uses land, water and fertiliser, so bio-based feedstocks have costs of their own.",
         "A balanced answer names a benefit and an impact, and says how the impact can be reduced."
-      ]
+      ],
+      "tip": "For plastics, a way to reduce impact is recycling or biodegradable plastics. For pesticides, it is targeted use or less persistent compounds. Don't say synthetic is bad and natural is good."
     },
     {
       "h": "Key terms",
+      "b": "These six words are used throughout the study of pharmaceuticals, so each needs a clear definition.",
       "points": [
         "A pharmaceutical is a substance used to prevent, diagnose, treat or relieve the symptoms of disease; almost all are organic compounds.",
         "A natural product is an organic compound made by a living organism such as a plant, animal or micro-organism, e.g. quinine in cinchona bark, morphine in the opium poppy and penicillin from a mould.",
@@ -106,93 +158,153 @@
         "A precursor is a starting compound from which another compound is made; salicylic acid is the precursor of aspirin.",
         "The active ingredient is the compound in a medicine that produces its effect; the rest of a tablet, such as fillers, binders and coatings, is inactive.",
         "Biotechnology is the use of living organisms or biological systems to make useful products, e.g. making penicillin by fermentation."
-      ]
+      ],
+      "tip": "You may be asked to define a natural product. Say it is made by a living organism, and give an example."
     },
     {
       "h": "Medicines from nature",
+      "b": "Long before laboratories, people used plants as medicines. Many of these plants contain a single active compound that explains their effect.",
       "points": [
         "Willow bark has been used to relieve pain and fever since ancient times; its use in ancient Greek medicine is traditionally credited to Hippocrates, about 400 BC.",
-        "Willow bark contains salicin, which the body converts into salicylic acid, the active compound.",
-        "Cinchona bark, from trees native to the Andes of South America, contains quinine, which has been used to treat malaria since the 1600s.",
+        "Willow (Salix) bark contains salicin, which the body converts into salicylic acid, the active compound.",
+        "Cinchona bark, from trees native to the Andes of South America, contains quinine, which has been used to treat malaria (a disease spread by mosquitoes) since the 1600s.",
         "Quinine is also the bitter flavour in tonic water.",
-        "The dried latex from unripe seed pods of the opium poppy is opium, which contains morphine, a powerful painkiller.",
+        "The dried latex (sap) from unripe seed pods of the opium poppy (Papaver somniferum) is opium, which contains morphine, a powerful painkiller.",
         "Opium also contains codeine, a milder painkiller and cough suppressant.",
         "Morphine was one of the first active compounds to be isolated pure from a plant, by Friedrich Sertürner in about 1804.",
-        "The coca plant gives cocaine, an addictive, illegal stimulant once used as a local anaesthetic.",
-        "Sweet wormwood gives artemisinin, a modern anti-malarial.",
-        "Natural products often occur in tiny amounts, vary with season, weather and location, and may come from rare or slow-growing organisms, so extraction alone is often not enough."
-      ]
+        "The coca plant gives cocaine, an addictive, illegal stimulant once used as a local anaesthetic. Sweet wormwood (Artemisia annua) gives artemisinin, a modern anti-malarial; Tu Youyou received the Nobel Prize in 2015."
+      ],
+      "tip": "You may be asked for a plant source, its active compound and its use: willow gives salicin (pain and fever), cinchona gives quinine (malaria), opium poppy gives morphine or codeine (pain)."
     },
     {
-      "h": "Aspirin",
+      "h": "Why natural products are not enough",
+      "b": "Plants can supply a medicine, but harvesting them is rarely a dependable way to meet demand.",
+      "points": [
+        "Natural products often occur in tiny amounts, so huge amounts of plant material are needed.",
+        "Their amounts vary with season, weather and location.",
+        "They may come from rare or slow-growing organisms, so extraction alone is often not enough."
+      ],
+      "tip": "Questions ask why it is important that natural products can be synthesised or modified in the laboratory. Think of reliable supply, purity, consistent strength and an improved structure."
+    },
+    {
+      "h": "Aspirin: development and structure",
+      "b": "Aspirin is the classic example of improving on a natural product. Chemists started from the active compound in willow bark and modified it.",
       "points": [
         "Salicylic acid, C₇H₆O₃ (M 138), relieves pain but irritates the mouth and stomach.",
         "In 1897 Felix Hoffmann, a chemist at the German company Bayer, made acetylsalicylic acid from salicylic acid.",
         "The product was sold from 1899 as Aspirin.",
-        "Aspirin is made by converting the –OH group on the benzene ring of salicylic acid into an ester group, by reacting it with ethanoic anhydride, a derivative of ethanoic acid.",
-        "Aspirin, C₉H₈O₄ (M = 180), contains three functional groups: a benzene ring, a carboxylic acid group (–COOH) and an ester group (–OCOCH₃).",
-        "Aspirin relieves pain and reduces fever and inflammation.",
-        "Low daily doses of aspirin reduce blood clotting and are prescribed to lower the risk of heart attack and stroke.",
-        "Aspirin irritates the stomach less than salicylic acid, but it can still cause stomach irritation and bleeding.",
-        "Aspirin is not given to children under 16 because of the risk of Reye's syndrome."
-      ]
+        "Aspirin is made by converting the –OH group on the benzene ring of salicylic acid into an ester group, by reacting it with ethanoic anhydride, a derivative of ethanoic acid. Salicylic acid is the precursor.",
+        "Aspirin, C₉H₈O₄ (M = 180), contains three functional groups (the parts of a molecule that decide how it reacts): a benzene ring, a carboxylic acid group (–COOH) and an ester group (–OCOCH₃)."
+      ],
+      "tip": "Willow bark contains salicin, not aspirin; aspirin is a synthetic compound. You may be asked to name the precursor (salicylic acid) and the functional groups in aspirin: benzene ring, carboxylic acid and ester."
     },
     {
-      "h": "Penicillin",
+      "h": "Aspirin: uses and risks",
+      "b": "Aspirin has several medical uses, but it is not risk-free.",
+      "points": [
+        "Aspirin relieves pain and reduces fever and inflammation.",
+        "Low daily doses of aspirin reduce blood clotting and are prescribed to lower the risk of heart attack and stroke.",
+        "Aspirin irritates the stomach less than salicylic acid, which is a reason chemists modified the natural compound, but it can still cause stomach irritation and bleeding.",
+        "Aspirin is not given to children under 16 because of the risk of Reye's syndrome."
+      ],
+      "tip": "Don't say aspirin causes no stomach irritation; it causes less than salicylic acid."
+    },
+    {
+      "h": "Penicillin: discovery and action",
+      "b": "Penicillin is an antibiotic. Its discovery came from a mould, and it works by attacking bacteria specifically.",
       "points": [
         "Alexander Fleming discovered in 1928 that the mould Penicillium killed bacteria.",
         "Howard Florey and Ernst Chain purified penicillin and showed around 1940 that it worked in patients.",
-        "Fleming, Florey and Chain shared the 1945 Nobel Prize.",
+        "Fleming, Florey and Chain shared the 1945 Nobel Prize in Physiology or Medicine.",
         "Penicillin is an antibiotic: it kills bacteria by stopping them building their cell walls.",
-        "Penicillin has no effect on viruses.",
+        "Penicillin has no effect on viruses, because it works by stopping cell wall building."
+      ],
+      "tip": "Antibiotics act on bacteria, not viruses."
+    },
+    {
+      "h": "Penicillin: structure and manufacture",
+      "b": "Penicillin has a key structural feature, the β-lactam ring, and it is made by growing a mould rather than by building it from scratch.",
+      "points": [
         "Its key structural feature is a four-membered ring containing nitrogen and a C=O, the β-lactam ring, joined to a ring containing sulfur.",
         "Penicillin G is C₁₆H₁₈N₂O₄S and also contains a carboxylic acid group.",
         "Penicillin is made on a large scale by fermentation (biotechnology): the mould is grown in large tanks of nutrient broth.",
         "This fermentation process was scaled up during the Second World War.",
         "Semi-synthetic penicillins, such as amoxicillin, are made by chemically changing the side chain of the penicillin made by fermentation.",
-        "Semi-synthetic penicillins work against more types of bacteria or are better absorbed.",
-        "Overuse and misuse of antibiotics has led to antibiotic-resistant bacteria.",
-        "Some bacteria make enzymes that break the β-lactam ring."
+        "Semi-synthetic penicillins work against more types of bacteria or are better absorbed."
       ]
     },
     {
-      "h": "Taxol",
+      "h": "Penicillin: antibiotic resistance",
+      "b": "Antibiotics lose their power when bacteria adapt, which changes how penicillin can be used.",
+      "points": [
+        "Overuse and misuse of antibiotics has led to antibiotic-resistant bacteria (bacteria that are no longer killed by the drug).",
+        "Some bacteria make enzymes that break the β-lactam ring, so the penicillin is destroyed before it can stop cell wall building."
+      ],
+      "tip": "A research question may ask how antibiotic resistance has changed the use of penicillin, so link overuse to resistant bacteria."
+    },
+    {
+      "h": "Taxol: source and structure",
+      "b": "Taxol is an anti-cancer drug that comes from a tree. It is a very large molecule, which makes it hard to obtain.",
       "points": [
         "Taxol (paclitaxel) is an anti-cancer drug, used for example for ovarian, breast and lung cancers.",
         "Taxol stops cancer cells dividing.",
         "Taxol was found in the bark of the Pacific yew tree (Taxus brevifolia) in a US plant-screening programme in the 1960s, and its structure was published in 1971.",
         "Taxol is a very large, complex molecule, C₄₇H₅₁NO₁₄, with many functional groups.",
-        "Its functional groups include several ester groups, hydroxyl (–OH) groups, a ketone, an amide and three benzene rings.",
+        "Its functional groups include several ester groups, hydroxyl (–OH) groups, a ketone, an amide and three benzene rings."
+      ]
+    },
+    {
+      "h": "Taxol: a sustainable supply",
+      "b": "Getting taxol from the bark was a problem for the tree, so chemists found other routes.",
+      "points": [
         "Stripping the bark kills the slow-growing tree and gives very little taxol, so this was not sustainable.",
         "Taxol is now made semi-synthetically from a precursor extracted from the needles of the European yew (Taxus baccata), which regrow, so the tree is not killed.",
         "Taxol can also be made by growing yew cells in fermentation tanks.",
         "Complete laboratory synthesis, first achieved in 1994, needs too many steps to be economic."
-      ]
+      ],
+      "tip": "Taxol can be a case study for extraction versus laboratory synthesis. Don't invent step counts, yields or dates for syntheses."
     },
     {
       "h": "Opiates",
+      "b": "Opiates show how a small change to a molecule can change its effect completely. They are vital medicines and also dangerous drugs.",
       "points": [
-        "Opiates are the natural compounds of opium, morphine and codeine, and drugs made directly from them.",
+        "Opiates are the natural compounds of opium, morphine and codeine, and drugs made directly from them, such as heroin.",
         "Opioids is the wider term that also includes fully synthetic drugs, e.g. fentanyl.",
         "Morphine, C₁₇H₁₉NO₃, has several rings and functional groups, including two –OH groups, an ether link, a C=C double bond and an amine nitrogen.",
         "Small changes to a functional group change the effect of the drug.",
         "Codeine is morphine with one –OH converted to –OCH₃, giving a milder effect.",
         "Heroin (diamorphine) is morphine with both –OH groups converted to ester groups, giving a stronger and more addictive effect.",
         "Opiates are essential for severe pain, e.g. after surgery and in cancer care.",
-        "Opiates cause addiction and tolerance and, in overdose, fatal slowing of breathing, so they are tightly controlled."
-      ]
+        "Opiates cause addiction and tolerance (needing larger doses for the same effect) and, in overdose, fatal slowing of breathing, so they are tightly controlled."
+      ],
+      "tip": "Opiates are natural or made directly from opium; opioid is the wider term. You may need to discuss a benefit and an issue such as addiction."
     },
     {
       "h": "How modern medicines are made",
+      "b": "Most modern medicines are built by chemists, step by step, from simpler starting compounds.",
       "points": [
         "Most modern pharmaceuticals are large, complex organic molecules with several functional groups, each of which may be needed for the drug to bind to its target in the body.",
         "They are built in a sequence of reactions from simpler organic precursors, many derived from crude oil or from natural sources.",
         "Each step changes or adds a functional group.",
-        "Every step loses some product, so long syntheses have low overall yields, which raises cost and waste; see \"Theoretical, actual and percentage yield\".",
-        "Chemists synthesise or modify natural products for a reliable supply that does not depend on harvests or rare organisms.",
+        "Every step loses some product, so long syntheses have low overall yields, which raises cost and waste. There is more on this in Theoretical, actual and percentage yield."
+      ],
+      "tip": "Mechanisms of drug action and drawings of whole drug molecules are not required; name the functional groups present."
+    },
+    {
+      "h": "Why chemists synthesise or modify natural products",
+      "b": "If a plant already makes a medicine, it is fair to ask why chemists bother. There are four reasons, and the examples show them at work.",
+      "points": [
+        "Synthesising or modifying gives a reliable supply that does not depend on harvests or rare organisms.",
         "Synthesis or modification gives pure products of consistent strength.",
         "Changing the structure can improve a drug, with fewer side effects, a stronger effect or better absorption, e.g. aspirin from salicylic acid and amoxicillin from penicillin.",
-        "Synthesis allows large-scale, lower-cost production.",
+        "Synthesis allows large-scale, lower-cost production."
+      ],
+      "tip": "A question asks you to explain why it is important that natural products can be synthesised or modified in the laboratory. Give these reasons with an example."
+    },
+    {
+      "h": "Other organic medicines and approval",
+      "b": "Two other organic medicines are very widely used, and all new medicines must pass safety checks.",
+      "points": [
         "Paracetamol, C₈H₉NO₂, is used for pain and fever relief.",
         "Ibuprofen is used for pain and inflammation.",
         "New drugs must be tested for safety and effectiveness in clinical trials and approved by a regulator before use.",
@@ -200,15 +312,29 @@
       ]
     },
     {
-      "h": "Research investigation: worked brief",
+      "h": "Research investigation: what is expected and the questions",
+      "b": "This topic is a research-based investigation, so you must be able to plan and present research about a pharmaceutical.",
       "points": [
         "The specification expects you to research a use of organic compounds in pharmaceuticals, using evaluated sources, and to present the chemistry involved, the benefits and the issues, with a justified conclusion.",
         "Example question: \"Should medicines that come from plants be extracted from the plant or made in the laboratory?\", taking taxol and aspirin as case studies.",
-        "Other possible questions: how chemists turned willow bark into aspirin; how antibiotic resistance has changed the use of penicillin; how opiates can be used safely.",
-        "Sources include textbooks; peer-reviewed journals and review articles; official bodies such as the HPRA, the EMA, the World Health Organization and the HSE.",
+        "Other possible questions: how chemists turned willow bark into aspirin; how antibiotic resistance has changed the use of penicillin; how opiates can be used safely."
+      ]
+    },
+    {
+      "h": "Research investigation: sources and judging them",
+      "b": "A good investigation uses reliable sources and checks them before trusting them.",
+      "points": [
+        "Sources include textbooks; peer-reviewed journals (where experts check papers before publication) and review articles; official bodies such as the HPRA, the EMA, the World Health Organization and the HSE.",
         "PubChem gives structures and formulae, and museum and university websites give history.",
         "Judge a source by who wrote it and their expertise, whether it is peer reviewed, and how recent it is.",
-        "Judge a source also by any commercial or other bias, e.g. a drug company's advertising, and by whether other reliable sources agree.",
+        "Judge a source also by any commercial or other bias, e.g. a drug company's advertising, and by whether other reliable sources agree."
+      ],
+      "tip": "You may be asked to outline your sources and how you would judge them."
+    },
+    {
+      "h": "Research investigation: the chemistry and issues to include",
+      "b": "The write-up should cover the chemistry, weigh the issues on both sides, and end with a conclusion that answers the question.",
+      "points": [
         "Include the structure and functional groups of the compound, and its natural source.",
         "Explain how the compound is extracted or made from precursors, e.g. ester formation in aspirin or semi-synthesis of taxol.",
         "Explain why the structural change improves the drug.",
@@ -216,7 +342,8 @@
         "Weigh the sustainability of natural sources, such as taxol from the Pacific yew, against protecting biodiversity, where future medicines may be found.",
         "Weigh antibiotic resistance, cost and access to medicines worldwide, and drug residues in the environment.",
         "Conclude by answering the question with evidence from both sides, e.g. semi-synthesis of taxol from renewable yew needles combines a natural precursor with laboratory chemistry and is more sustainable than either bark extraction or full synthesis."
-      ]
+      ],
+      "tip": "You may be asked to identify functional groups in a given drug structure, e.g. aspirin, or discuss a benefit and an issue such as addiction, resistance or sustainability."
     }
   ],
   "keyTerms": [

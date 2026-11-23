@@ -6,41 +6,48 @@
   "notes": [
     {
       "h": "Mobility of modern economic activities",
-      "b": "Modern manufacturing and services can move between regions and countries far more easily than older heavy industry. They are described as footloose, because they are not tied to a raw material, a coalfield or a port.",
+      "b": "Modern manufacturing and services can move between regions and countries far more easily than older heavy industry. They are described as footloose, which means they are not tied to a raw material, a coalfield or a port. A multinational company (MNC, a firm that operates in several countries) can therefore choose where to locate.",
       "points": [
-        "Light, high-value products such as chips, medicines and software are cheap to move by air.",
-        "Containerisation and cheaper transport lower the cost of moving goods between plants.",
-        "Information and communications technology lets headquarters control branches on any continent.",
-        "Free movement of capital and lower trade barriers, through the World Trade Organization (WTO) and the EU single market, let companies serve markets across borders.",
-        "Governments compete with grants and low taxes, and MNCs can switch production between their own plants."
-      ]
+        "Light, high-value products such as chips, medicines and software are cheap to move by air, so the factory does not need to be near its customers.",
+        "Containerisation (shipping goods in standard sealed boxes) and cheaper transport lower the cost of moving goods between plants.",
+        "Information and communications technology lets headquarters, the central office that controls the company, direct branches on any continent.",
+        "Free movement of capital (money for investment) and lower trade barriers, through the World Trade Organization (WTO) and the EU single market, let companies serve markets across borders.",
+        "Governments compete with grants and low taxes to attract investment, which gives companies a choice of locations.",
+        "MNCs can switch production between their own plants, so a plant that becomes less attractive can lose work to another."
+      ],
+      "tip": "If asked to examine the mobility of modern economic activity, give the meaning (footloose), the reasons for mobility, a developed case study of a move such as Dell to Poland, and further examples."
     },
     {
       "h": "Why economic activities move",
+      "b": "Companies move production when another location offers a better return. The reasons are mostly about cost, markets and risk, and the moves go in both directions.",
       "points": [
-        "Lower labour and land costs.",
-        "Tax advantages and grants.",
-        "Being inside a trade bloc, which avoids tariffs on goods.",
-        "Being close to growing markets.",
-        "Access to skills, and political and economic stability.",
-        "Moves go both ways. Investment moved into Ireland, for example Intel in Leixlip in 1989 and Dell in Limerick in 1990, and out of Ireland when costs rose, for example Dell's manufacturing in 2009."
-      ]
+        "Lower labour and land costs, because wages and rents are a large part of what it costs to make a product.",
+        "Tax advantages and grants, which lower the cost of setting up and running a plant.",
+        "Being inside a trade bloc (a group of countries with shared trade rules), which avoids tariffs (taxes on imported goods).",
+        "Being close to growing markets, so goods reach customers more cheaply.",
+        "Access to skills, and political and economic stability, which make an investment safer.",
+        "Investment moved into Ireland, for example Intel in Leixlip in 1989 and Dell in Limerick in 1990, from the 1970s to the 1990s.",
+        "Investment also moved out of Ireland when costs rose, for example Dell's manufacturing in 2009."
+      ],
+      "tip": "Ordinary Level asks why an MNC might decide to relocate to another country. Pick reasons from this list and, where you can, tie them to a named move such as Dell's."
     },
     {
       "h": "Examples of mobility beyond one company",
+      "b": "Mobility is not limited to the case study. These examples show the same forces at work for other companies and places, and they can support an answer on mobility.",
       "points": [
-        "Nissan opened a car plant at Sunderland, north-east England, in 1986. It is a Japanese company locating inside the EU (then EEC) market.",
-        "Bengaluru (Bangalore), India, is an IT and business-process outsourcing hub. Tata Consultancy Services, Infosys and Wipro are Indian IT firms, and call centres and IT services have moved there.",
-        "Apple is growing its iPhone assembly in India to reduce dependence on China.",
-        "Intel opened Fab 34 at Leixlip in 2023 and cancelled a planned fab at Magdeburg, Germany, which had been announced in 2022."
+        "Nissan opened a car plant at Sunderland, north-east England, in 1986. It is a Japanese company locating inside the EU (then EEC) market, so its cars avoid tariffs.",
+        "Bengaluru (Bangalore), India, is an IT and business-process outsourcing hub (a centre for work contracted out to another firm). Tata Consultancy Services, Infosys and Wipro are Indian IT firms, and call centres and IT services have moved there.",
+        "Apple is growing its iPhone assembly in India, with Foxconn and Tata near Chennai and Bengaluru, to reduce dependence on China.",
+        "Intel opened Fab 34 (a fab is a chip-making factory) at Leixlip in 2023. It cancelled a planned fab at Magdeburg, Germany, which had been announced in 2022 and was cancelled in 2025."
       ]
     },
     {
       "h": "Effects of mobility on regions",
+      "b": "When a plant moves, one region gains what another loses. The effects on the region matter because many plants are controlled from outside it.",
       "points": [
         "The receiving region gains jobs, skills and exports.",
-        "The losing region suffers unemployment, the loss of spin-off jobs and emigration.",
-        "Branch-plant economies are vulnerable because the decisions about their plants are taken abroad."
+        "The losing region suffers unemployment, the loss of spin-off jobs (jobs in local suppliers and services that depended on the plant) and emigration of workers.",
+        "Branch-plant economies (regions whose factories are owned by companies based elsewhere) are vulnerable because the decisions about their plants are taken abroad."
       ]
     },
     {
@@ -48,84 +55,97 @@
       "b": "A branch plant is a factory or office owned and controlled by a company headquartered elsewhere. Headquarters decides whether it opens or closes, to suit the whole company rather than the host region.",
       "points": [
         "Strategies that open branch plants: expansion into new markets; locating inside a trade bloc; following tax incentives and grants; acquiring other companies through mergers and takeovers; joint ventures that share the cost of huge investments; and government subsidy schemes.",
-        "The US CHIPS and Science Act of 2022 provided about $50 billion of US government support for chip making and research in the USA. The EU Chips Act followed in 2023.",
-        "Strategies that close branch plants: cost-cutting and rationalisation, concentrating production in fewer, larger plants; relocation to cheaper countries; outsourcing to contract manufacturers; falling demand for a mature product; mergers that leave duplicate plants.",
-        "Reshoring, which means bringing production back home for security of supply."
-      ]
+        "The US CHIPS and Science Act of 2022 is a subsidy scheme: it provided about 50 billion US dollars of US government support for chip making and research in the USA. The EU Chips Act followed in 2023.",
+        "Strategies that close branch plants: cost-cutting and rationalisation, which means concentrating production in fewer, larger plants; relocation to cheaper countries.",
+        "Other closing strategies: outsourcing to contract manufacturers (other firms paid to make the product); falling demand for a mature product; and mergers that leave duplicate plants.",
+        "Reshoring, which means bringing production back home for security of supply, so that the company is not dependent on distant plants."
+      ],
+      "tip": "Keep the two lists apart: expansion, trade blocs, grants, takeovers, joint ventures and subsidies open plants, while cost-cutting, relocation, outsourcing, falling demand and duplicate plants close them."
     },
     {
       "h": "Dell in Limerick: founding and Irish role",
+      "b": "Dell is the clearest Irish example of an MNC moving production. Its story begins with a company built on a new way of selling computers.",
       "points": [
         "Dell was founded in 1984 by Michael Dell in Austin, Texas. Its headquarters are in Round Rock, Texas.",
         "Dell sold direct: it built computers to order and sold them by phone and, from the mid-1990s, online, with no shops in between.",
         "Dell set up in Limerick (Raheen) in 1990. Limerick became its European manufacturing base, and Dell was one of Ireland's largest exporters.",
         "Dell went private in 2013 and bought EMC in 2016, which gave it EMC's large operation at Ovens, Co. Cork."
-      ]
+      ],
+      "tip": "Dell (1984, Texas) is not Intel. Dell assembled computers; Intel makes the chips inside them."
     },
     {
       "h": "Dell in Limerick: closure and relocation",
+      "b": "In 2009 Dell closed its Limerick manufacturing and moved it to Poland. The move shows headquarters choosing what suits the whole company, with serious effects on the host region.",
       "points": [
         "In January 2009 Dell announced that it would move its Limerick manufacturing to Łódź, Poland, with the loss of about 1,900 jobs, plus job losses at local suppliers.",
-        "Reasons: lower wages and costs in Poland; Polish government aid, which the EU approved; nearness to growing markets in Central and Eastern Europe; falling PC prices; and the 2008–09 recession.",
+        "Reasons: lower wages and costs in Poland; Polish government aid, which the EU approved; nearness to growing markets in Central and Eastern Europe.",
+        "More reasons: falling PC prices, which squeezed profits, and the 2008-09 recession, which cut demand and made cost savings urgent.",
         "Effects on Limerick: the loss of about 1,900 direct jobs and of jobs at local suppliers, and the loss of one of Ireland's largest exporters.",
         "The EU Globalisation Adjustment Fund paid for retraining and support for the former Dell workers.",
         "Dell kept its sales, support and other offices in Ireland. Manufacturing closed; the company did not leave Ireland."
-      ]
+      ],
+      "tip": "The move was to Łódź, Poland, and the loss was about 1,900 jobs; don't give a different place or number. Dell closed manufacturing but did not leave Ireland, so don't say it has no Irish presence."
     },
     {
       "h": "Intel's corporate strategy",
+      "b": "Intel, the chip maker studied in the multinational company note, shows corporate strategy at work: heavy investment, raising money by selling a share, cutting jobs when profits fall, and relying on government support.",
       "points": [
         "Intel invested billions of euro in its Leixlip campus, with over €30 billion invested by 2023.",
-        "In 2024 Intel sold 49% of the Fab 34 joint venture to Apollo Global Management, an American investment firm, for about $11 billion, to raise money for its other projects.",
+        "In 2024 Intel sold 49% of the Fab 34 joint venture to Apollo Global Management, an American investment firm, for about 11 billion US dollars, to raise money for its other projects.",
         "Intel announced about 15,000 global job cuts in August 2024, when its profits fell, with further cuts in 2025.",
         "Government support includes the US CHIPS and Science Act and a US government stake of about 10% in Intel in 2025."
       ]
     },
     {
       "h": "Product life cycle and location",
-      "b": "Product life cycle (PLC) theory, put forward by Raymond Vernon in 1966, says a product passes through introduction, growth, maturity and decline. Its location changes at each stage.",
+      "b": "Product life cycle (PLC) theory, put forward by Raymond Vernon in 1966, says a product passes through introduction, growth, maturity and decline. Its best location changes at each stage, which is why MNCs move production over time.",
       "points": [
         "Stages: introduction (development), growth, maturity and decline. Sales are drawn as a curve against time.",
-        "Introduction and growth happen in the core, close to headquarters, research and development, skilled workers and wealthy early customers.",
-        "At maturity the product is standardised and competition cuts prices, so production moves to cheaper locations: first semi-peripheral countries such as Ireland in the past, then Eastern Europe and Asia.",
-        "In decline the plant closes, or it is upgraded to make a new product.",
-        "Exam method: pair each stage of the cycle with a real change of location by a named MNC, such as Dell's move to Poland or Intel's Copy Exactly fabs, rather than describing the theory alone."
-      ]
+        "Introduction and growth happen in the core (the rich, developed countries), close to headquarters, research and development, skilled workers and wealthy early customers.",
+        "At maturity the product is standardised and competition cuts prices, so production moves to cheaper locations to keep costs down: first semi-peripheral countries (middle-income countries) such as Ireland in the past, then Eastern Europe and Asia.",
+        "In decline the plant closes, or it is upgraded to make a new product."
+      ],
+      "tip": "Exams ask for the impact of the product life cycle on the operations of one MNC. Give the stages plus the MNC's real location changes, such as Dell's move to Poland or Intel's Copy Exactly fabs, never the theory alone."
     },
     {
       "h": "Dell and the product life cycle",
+      "b": "Dell's move to Poland is a textbook mature-stage relocation.",
       "points": [
-        "The personal computer became a mature, standardised product with falling prices.",
+        "The personal computer became a mature, standardised product with falling prices, so competing on cost became essential.",
         "Dell therefore moved its assembly from Limerick to Łódź in Poland, a cheaper location, in 2009.",
         "The Dell case shows the mature-stage pattern: production is moved to cut costs while the company keeps sales and support in Ireland."
       ]
     },
     {
       "h": "Intel and the product life cycle",
+      "b": "Intel's products have short lives, so its fabs are always being renewed. The cycle shapes where new technology is made and which plants survive.",
       "points": [
         "Each chip generation has a short life of a few years.",
         "New processes are developed at Hillsboro, Oregon, then copied exactly into fabs such as Leixlip. This is Intel's 'Copy Exactly!' policy, which copies equipment and procedures exactly from the development fab to the others.",
         "Older fabs are upgraded or closed as the cycle moves on.",
         "Ireland keeps its place by winning each new generation, as Fab 34 does for the Intel 4 and Intel 3 generations.",
         "Intel missed the start of the smartphone and AI chip cycles, which helped rivals. Nvidia leads in chips for artificial intelligence, and Apple dropped Intel chips from its Macs from 2020."
-      ]
+      ],
+      "tip": "Copy Exactly moves technology from Oregon to Ireland; it does not mean Ireland designs the chips."
     },
     {
       "h": "Information technology and the MNC's operations",
+      "b": "Information technology (IT) changes how an MNC makes, controls and sells its products, and it changes what customers want. Exams pair this with the product life cycle.",
       "points": [
-        "Computer-aided design and automation are used in the fab.",
+        "Computer-aided design (designing on computer) and automation (machines doing tasks) are used in the fab.",
         "Global communication lets one headquarters run plants on several continents.",
-        "Real-time stock control and just-in-time supply reduce stock held at each plant.",
+        "Real-time stock control and just-in-time supply (parts arrive just when needed) reduce stock held at each plant.",
         "Online sales: Dell's direct model moved online from the mid-1990s.",
-        "New technology changes demand, moving from PCs to smartphones and then to cloud computing and AI. This creates new markets and destroys older ones.",
-        "Moore's Law, from Gordon Moore in 1965, states that the number of transistors on a chip doubles about every two years."
-      ]
+        "New technology changes demand, moving from PCs to smartphones and then to cloud computing (using remote servers to store and process data) and AI. This creates new markets and destroys older ones.",
+        "Moore's Law, from Gordon Moore in 1965, states that the number of transistors (tiny switches that make up a chip) on a chip doubles about every two years."
+      ],
+      "tip": "Higher Level asks for the impact of the product life cycle and of IT on one MNC, as two balanced halves tied to a named MNC. Give both Dell and Intel IT points if you may use either."
     },
     {
       "h": "Teleservices",
-      "b": "Teleservices are services delivered at a distance using telecommunications, such as call centres, customer support, technical help desks, and shared services such as payroll and accounts.",
+      "b": "Teleservices are services delivered at a distance using telecommunications, such as call centres, customer support, technical help desks, and shared services such as payroll and accounts. They can be located almost anywhere, so countries compete for them.",
       "points": [
-        "Why Ireland attracted them: an English-speaking and multilingual workforce, a time zone between the USA and Europe, good broadband, and IDA support.",
+        "Why Ireland attracted them: an English-speaking and multilingual workforce, a time zone between the USA and Europe, good broadband, and IDA support (help from the State agency that attracts foreign investment).",
         "Apple's Cork campus provides AppleCare customer support in many European languages.",
         "Microsoft has been in Ireland since 1985.",
         "Threat: routine teleservices are moving to cheaper destinations such as India (Bengaluru) and the Philippines (Manila), and automation and AI chatbots are reducing routine jobs."
@@ -133,6 +153,7 @@
     },
     {
       "h": "Information technology sector in Ireland",
+      "b": "Ireland hosts the European or international headquarters of major internet companies, which makes the IT sector an important part of the economy.",
       "points": [
         "Google's European headquarters are at Barrow Street, Grand Canal Dock, Dublin, in the area known as Silicon Docks.",
         "Meta (Facebook) has its international headquarters in Dublin.",
@@ -141,17 +162,18 @@
     },
     {
       "h": "Data centres and cloud computing",
+      "b": "Data centres are large buildings filled with servers (powerful computers) that run cloud computing. Ireland has attracted many, but they bring a pressure on the electricity grid.",
       "points": [
-        "Data centres are large buildings filled with servers that run cloud computing.",
         "Ireland attracts them because of its cool climate, which reduces cooling costs, its connectivity, and the technology companies already here.",
         "Data centres used about 21% of Ireland's metered electricity in 2023 (CSO), up from 5% in 2015. Most are in the Dublin region.",
         "Operators include Amazon Web Services, Microsoft and Google.",
-        "EirGrid restricted new data-centre connections in the Dublin area from 2022."
-      ]
+        "EirGrid (the company that runs the electricity grid) restricted new data-centre connections in the Dublin area from 2022, because they use such a large share of the electricity."
+      ],
+      "tip": "Use only the figures 5% for 2015 and 21% for 2023; don't give other EirGrid or data-centre figures."
     },
     {
       "h": "E-commerce",
-      "b": "E-commerce is buying and selling goods and services online.",
+      "b": "E-commerce is buying and selling goods and services online. It changes where goods are stored, how they are delivered and which shops survive.",
       "points": [
         "Amazon was founded in 1994 by Jeff Bezos in Seattle, USA. Alibaba was founded in 1999 in Hangzhou, China.",
         "Effects: online-only companies appear, some high-street shops decline, and warehouses and delivery services grow.",
@@ -162,12 +184,14 @@
     },
     {
       "h": "Future trends for economic activities",
+      "b": "The future of economic activity is being shaped by new ways of working, new technology and changing politics. Each trend brings opportunities and risks.",
       "points": [
-        "Remote and hybrid working has continued after COVID-19.",
+        "Remote and hybrid working (partly at home, partly in the office) has continued after COVID-19.",
         "Artificial intelligence and automation are reducing routine jobs.",
-        "Reshoring and friend-shoring: a move to secure supply of strategic industries such as chips.",
-        "Risks for Ireland from the global minimum tax, under which the rate is 15% for groups with turnover over €750 million, and from US tariffs."
-      ]
+        "Reshoring and friend-shoring (producing in allied countries): a move to secure supply of strategic industries such as chips.",
+        "Risks for Ireland come from the global minimum tax, under which the rate is 15% for groups with turnover over €750 million, which reduces the tax advantage, and from US tariffs."
+      ],
+      "tip": "Ordinary Level asks for one difficulty an MNC faces in future; choose one of these trends and explain it."
     }
   ],
   "keyTerms": [

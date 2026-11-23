@@ -6,63 +6,80 @@
   "notes": [
     {
       "h": "The rules of the investigation",
-      "b": "The investigation is an individual study of a geographical question, carried out under the teacher's supervision and written up in the SEC report booklet. It is worth 20% of the total mark.",
+      "b": "The investigation is an individual study of a geographical question, carried out under the teacher's supervision and written up in the SEC report booklet. It is worth 20% of the total mark, so it is a large part of your grade even though it is not sat in the exam hall.",
       "points": [
         "It is compulsory at Higher and Ordinary level, and is assessed outside the written examination, so it does not appear as a question on the written paper.",
-        "The topic is chosen from the prescribed list that the State Examinations Commission (SEC) issues for each year's examination.",
+        "The topic is chosen from the prescribed list that the State Examinations Commission (SEC, the body that runs the Leaving Cert) issues for each year's examination.",
         "Typical topic areas are physical (rivers, coasts, glacial or karst landscapes, weather, soils, rocks) and human (urban land use, traffic, settlement, economic activity), but only the year's own list applies.",
         "The SEC sets the completion date each year: for 2027 the completed report goes to the teacher by 16 April 2027, and the school then submits it to the SEC.",
         "A class may work on one investigation and collect data together, but each student must write a full and complete report of their own. Group reports are not accepted.",
-        "Primary sources (first-hand fieldwork data) must make up at least 60% of the information gathered, and every source must be referenced, including any material generated using AI; unreferenced material counts as plagiarism.",
-        "The report is authenticated by the candidate and by the teacher; copying from classmates, textbooks or websites, other than essential references such as definitions, makes the report invalid.",
-        "The report is completed in the official SEC Reporting Booklet, which has been completed and submitted digitally since the 2025 examination; the typed text is no more than 1,000 words, and examiners mark only what is in the booklet."
-      ]
+        "Primary sources (first-hand fieldwork data you collect yourself) must make up at least 60% of the information gathered, and every source must be referenced, including any material generated using AI. Unreferenced material counts as plagiarism (passing off someone else's work as your own).",
+        "The report is authenticated (confirmed as your own work) by the candidate and by the teacher. Copying from classmates, textbooks or websites, other than essential references such as definitions, makes the report invalid.",
+        "The report is completed in the official SEC Reporting Booklet, which has been completed and submitted digitally since the 2025 examination. The typed text is no more than 1,000 words, and examiners mark only what is in the booklet."
+      ],
+      "tip": "The written exam has no Geographical Investigation question, because the investigation is assessed only through the report. Group data collection is allowed, but a group report is not. The 60:40 split is primary to secondary, not the reverse."
     },
     {
       "h": "The booklet's marks and word limits",
-      "b": "The booklet divides the report into five stages, each with its own marks. Stages 1 to 4 also have word limits that add up to 1,000 words.",
+      "b": "The booklet divides the report into five stages, each with its own marks. Stages 1 to 4 also have word limits that add up to 1,000 words, so every sentence has to earn its place.",
       "points": [
         "Stage 1, Introduction: 5 marks, no more than 50 words.",
         "Stage 2, Planning: 5 marks, no more than 100 words.",
         "Stage 3, Gathering of information: 40 marks, no more than 450 words.",
         "Stage 4, Results, conclusions and evaluation: 30 marks, no more than 400 words.",
         "Stage 5, Presentation of results: 20 marks, for hand-drawn graphs and diagrams added to the booklet's image pages.",
-        "The marks are the same at Higher and Ordinary level, but Higher Level answers are expected to develop each heading fully, with detailed analysis and comparison with theory."
-      ]
+        "The marks are the same at Higher and Ordinary level, but Higher Level answers are expected to develop each heading fully, with detailed analysis and comparison with theory (the established models geographers use, such as those in the Conclusion block)."
+      ],
+      "tip": "These figures and limits are set in the SEC booklet and notices for each year and can change, so check the booklet for the year you sit."
     },
     {
       "h": "Stage 1: Introduction (aims or hypothesis)",
-      "b": "The introduction states a hypothesis to test or the aims of the study, in no more than 50 words.",
+      "b": "The introduction states a hypothesis to test or the aims of the study, in no more than 50 words. Everything later in the report traces back to this statement.",
       "points": [
-        "Hypothesis: a precise, testable statement that the data can prove or disprove, e.g. a measurable claim about change with distance downstream.",
+        "Hypothesis: a precise, testable statement that the data can prove or disprove, for example a measurable claim about change with distance downstream.",
         "Aim: a statement of what the investigation sets out to find out. Use a hypothesis or an aim, as the booklet asks.",
         "A hypothesis is a testable statement, not a question or a topic title.",
         "Fifty words is room for one hypothesis or two or three short aims, so leave the detail of tasks and methods to Stage 2.",
         "Write the statement so that Stage 4 can say it is accepted, rejected or partly accepted, and so every later stage traces back to it.",
-        "Good practice: keep the hypothesis narrow enough to test in a day or two of fieldwork, avoid vague words such as \"better\" or \"nice\", and include the place studied.",
-        "Illustrative hypothesis for a river study of the River Dallow upstream of Rivertown: \"The velocity of the River Dallow increases downstream.\""
+        "Good practice: keep the hypothesis narrow enough to test in a day or two of fieldwork (data collection outdoors), avoid vague words such as \"better\" or \"nice\", and include the place studied.",
+        "Illustrative hypothesis for a river study of the River Dallow upstream of Rivertown: \"The velocity of the River Dallow increases downstream.\" Velocity means how fast the water flows."
+      ],
+      "tip": "Vague or untestable hypotheses lose marks. Aim for a clear, testable hypothesis or aim within the word limit, with matching objectives."
+    },
+    {
+      "h": "Stage 2: Planning the information and tasks",
+      "b": "Planning identifies the information required and the methods or tasks for gathering it, in no more than 100 words. It also separates primary sources from secondary ones.",
+      "points": [
+        "Types of information required: primary (measurements, observations, counts, questionnaire answers) and secondary (maps, statistics, texts that someone else produced), with a note of how each secondary source will be accessed.",
+        "Objectives: specific, measurable tasks that together test the hypothesis, each naming what will be measured and where.",
+        "Illustrative tasks for the River Dallow: measure channel width, average depth and velocity at five sites 500 m apart; calculate cross-sectional area and discharge at each site; measure the size of ten pebbles at each site.",
+        "Illustrative information required: primary measurements, and a secondary OS map (Ordnance Survey map) and aerial photograph of the river.",
+        "Within 100 words the stage names the methods, says why each suits the hypothesis, and mentions the design of the recording sheet or questionnaire. The fuller preparation (maps, sites, equipment, safety) is done but not all written up.",
+        "Good practice: explain why each method suits its objective, and describe the method clearly enough for someone else to repeat it."
+      ],
+      "tip": "Methods listed without explanation lose marks, so say why each method suits its objective."
+    },
+    {
+      "h": "Stage 2: Preparing before fieldwork",
+      "b": "Good fieldwork is decided before you leave school. Careful preparation means the data are consistent and the day runs safely.",
+      "points": [
+        "Before fieldwork, study OS maps and aerial photographs of the area, so you know where the river or town can be reached.",
+        "Choose and justify sites, for example evenly spaced along a river, or sample points across a town.",
+        "Choose the date and time, gather the equipment, divide tasks within the group and arrange landowner permission where needed.",
+        "Recording sheet: a table prepared in advance, with columns for site, time, each measurement and repeat readings, so that data are recorded consistently.",
+        "Illustrative planning for the River Dallow: sites on the OS map where the river is accessible and safe.",
+        "Illustrative River Dallow recording sheet: columns for site, width, depths at five points, three float times over 10 m and pebble lengths; a risk assessment of low river level, wellingtons and groups of four."
       ]
     },
     {
-      "h": "Stage 2: Planning",
-      "b": "Planning identifies the information required and the methods or tasks for gathering it, in no more than 100 words, and distinguishes primary from secondary sources.",
+      "h": "Stage 2: Questionnaires, safety and ethics",
+      "b": "Human topics gather information by asking people, so the questionnaire must be designed well. Whatever the topic, fieldwork must be safe and fair to others.",
       "points": [
-        "Types of information required: primary (measurements, observations, counts, questionnaire answers) and secondary (maps, statistics, texts), with a note of how each secondary source will be accessed.",
-        "Objectives: specific, measurable tasks that together test the hypothesis, each naming what will be measured and where.",
-        "Illustrative tasks for the River Dallow: measure channel width, average depth and velocity at five sites 500 m apart; calculate cross-sectional area and discharge at each site; measure the size of ten pebbles at each site.",
-        "Illustrative information required: primary measurements, and a secondary OS map and aerial photograph of the river.",
-        "Within 100 words the stage names the methods, says why each suits the hypothesis, and mentions the design of the recording sheet or questionnaire; the fuller preparation below is done but not all written up.",
-        "Before fieldwork, study OS maps and aerial photographs of the area.",
-        "Choose and justify sites: e.g. evenly spaced along a river, or sample points across a town.",
-        "Choose the date and time, gather the equipment, divide tasks within the group and arrange landowner permission where needed.",
-        "Recording sheet: a table prepared in advance, with columns for site, time, each measurement and repeat readings, so that data are recorded consistently.",
-        "Questionnaire design: keep it short, with closed questions (tick boxes, yes/no, rating scales) for easy analysis and a few open questions.",
-        "Questionnaire wording must be neutral and unbiased, with no unnecessary personal questions; pilot it with a few people first.",
+        "Questionnaire design: keep it short, with closed questions (tick boxes, yes/no, rating scales) for easy analysis and a few open questions, which let people answer in their own words.",
+        "Questionnaire wording must be neutral and unbiased, with no unnecessary personal questions. Pilot it (test it) with a few people first.",
         "Sampling plan for a questionnaire: who is asked, where, when and how many.",
-        "Safety and ethics: complete a risk assessment, never work alone, supervise near water or traffic, wear suitable clothing and footwear, check the weather and river level, and respect property and the environment.",
-        "Questionnaires are anonymous and voluntary.",
-        "Good practice: explain why each method suits its objective, and describe the method clearly enough for someone else to repeat it.",
-        "Illustrative planning for the River Dallow: sites on the OS map where the river is accessible and safe; a recording sheet with columns for site, width, depths at five points, three float times over 10 m and pebble lengths; a risk assessment of low river level, wellingtons and groups of four."
+        "Safety and ethics: complete a risk assessment (a list of hazards and how you will reduce them), never work alone, supervise near water or traffic, wear suitable clothing and footwear, check the weather and river level, and respect property and the environment.",
+        "Questionnaires are anonymous and voluntary, so nobody is named and nobody is forced to answer."
       ]
     },
     {
@@ -71,26 +88,39 @@
       "points": [
         "The examiner's marking boxes cover two methods plus coherence, so two methods described fully earn more than many described thinly.",
         "Each method says what was done, where, with which equipment, how results were recorded, and how many sites, readings or responses were taken, so that someone else could repeat it.",
-        "Measuring tape or ranging poles: channel width, beach width and distances.",
+        "Field observations (what you record by looking rather than measuring): labelled field sketches, land-use mapping on a base map (an outline map you add to), traffic or pedestrian counts at set times, and environmental quality surveys using scored criteria."
+      ],
+      "tip": "Describe each method step by step, with the equipment named and justified. Methods listed without explanation lose marks."
+    },
+    {
+      "h": "Instruments and how each is used",
+      "b": "Each instrument measures one thing, so match the instrument to the objective and say how you used it.",
+      "points": [
+        "Measuring tape or ranging poles (tall marker poles): channel width, beach width and distances.",
         "Metre stick: depth at regular intervals across a channel.",
         "Float and stopwatch, or a flow meter: velocity. Time a float over a measured distance, repeat the timing and average the results.",
-        "Clinometer: the slope angle of a beach or valley side.",
+        "Clinometer (an instrument that measures angles): the slope angle of a beach or valley side.",
         "Callipers or a ruler measure pebble size; a roundness chart measures pebble shape.",
-        "Compass: orientation, aspect and wind direction.",
-        "Weather instruments: thermometer, rain gauge, anemometer and wind vane.",
-        "Camera: a photographic record, dated and located.",
-        "GPS or a smartphone mapping app: locating sites.",
-        "Field observations: labelled field sketches, land-use mapping on a base map, traffic or pedestrian counts at set times, and environmental quality surveys using scored criteria."
+        "Compass: orientation, aspect (the direction a slope faces) and wind direction.",
+        "Weather instruments: thermometer, rain gauge, anemometer (measures wind speed) and wind vane (shows wind direction).",
+        "Camera: a photographic record, dated and located. GPS or a smartphone mapping app locates sites."
       ]
     },
     {
       "h": "Secondary sources and accuracy in collection",
+      "b": "Secondary sources add information you could not collect yourself, and careful technique makes your own readings trustworthy.",
       "points": [
-        "Secondary sources used in investigations include OS maps and aerial photographs, census data, weather records, local authority plans, textbooks and websites; the notes on Textual sources explains how to evaluate them.",
-        "Record full details of each secondary source when you collect it, for acknowledgement.",
-        "Take repeat readings and average them.",
-        "Use the same method and the same people at every site.",
-        "Record units, and note the conditions: weather, time and river level.",
+        "Secondary sources used in investigations include OS maps and aerial photographs, census data (the national population count), weather records, local authority plans, textbooks and websites. There is more on this in Textual sources, which covers how to evaluate them.",
+        "Record full details of each secondary source when you collect it, so you can acknowledge it in the report.",
+        "Take repeat readings and average them, so one odd reading does not distort the result.",
+        "Use the same method and the same people at every site, so differences in results come from the sites and not from the way they were measured.",
+        "Record units, and note the conditions: weather, time and river level."
+      ]
+    },
+    {
+      "h": "Problems encountered",
+      "b": "Real fieldwork never goes perfectly, and the report must discuss the problems you met and how you overcame them.",
+      "points": [
         "Problems to name in the report: bad weather or high water that makes measurement unsafe, equipment faults, a float caught in vegetation, people refusing questionnaires, restricted access to a site, and time limits.",
         "For each problem, state the problem, its effect on the data and the solution.",
         "Illustrative: at site 3 the float snagged on reeds twice; the group discarded those runs and took three clean timings."
@@ -98,10 +128,10 @@
     },
     {
       "h": "Calculating velocity and discharge",
-      "b": "Illustrative values from the River Dallow study show the calculations used in the results.",
+      "b": "Velocity is how fast the water flows. Discharge is the volume of water passing a point each second. Illustrative values from the River Dallow study show how both are calculated for the results.",
       "points": [
         "Velocity = distance ÷ time, using the average of the repeated float timings.",
-        "Cross-sectional area = width × average depth (m²).",
+        "Cross-sectional area = width × average depth (m²), the area of the face of water you would see if you cut across the channel.",
         "Discharge = cross-sectional area × velocity (m³ per second).",
         "Illustrative site 1: width 3.0 m; average depth 0.20 m; average float time over 10 m of 25 s, so velocity 0.4 m/s; cross-sectional area 0.6 m²; discharge 0.24 m³/s.",
         "Illustrative site 5: width 6.0 m; average depth 0.40 m; average float time over 10 m of 10 s, so velocity 1.0 m/s; cross-sectional area 2.4 m²; discharge 2.4 m³/s."
@@ -112,23 +142,25 @@
       "b": "Stage 4 covers results, conclusions and evaluation together, in no more than 400 words, for 30 marks. Results come first and state what the data show, with figures.",
       "points": [
         "State each finding in words with its key figures, and refer to the graph or table that shows it.",
-        "Higher Level statistical analysis: averages (mean and median), range and percentages.",
+        "Higher Level statistical analysis: averages (mean and median), range (highest minus lowest value) and percentages.",
         "Results can be calculated with a calculator or spreadsheet, but no software may be used to create the graphs, charts, tables, maps or diagrams in the booklet.",
-        "Describe trends with figures, e.g. \"velocity rose from site 1 to site 5\", note anomalies and suggest their causes.",
-        "Keep results separate from conclusions."
-      ]
+        "Describe trends with figures, for example \"velocity rose from site 1 to site 5\", note anomalies (results that do not fit the pattern) and suggest their causes.",
+        "Keep results separate from conclusions, so the data are reported first and explained afterwards."
+      ],
+      "tip": "Results given without figures lose marks, so quote the actual figures."
     },
     {
       "h": "Stage 4: Conclusion",
-      "b": "The conclusion tests the hypothesis against the results, explains the pattern and compares the findings with established theory.",
+      "b": "The conclusion tests the hypothesis against the results, explains the pattern and compares the findings with established theory (a well-known model from textbooks or published work).",
       "points": [
         "State whether the hypothesis is accepted, rejected or partly accepted, using the evidence from each objective.",
         "Explain the findings geographically: say why the pattern occurs.",
         "Bradshaw model: downstream, a river's discharge, channel width, depth and velocity tend to increase, while gradient and load particle size decrease.",
-        "Burgess concentric zone model (Chicago, 1925): describes urban land use in zones around a central business district.",
+        "Burgess concentric zone model (Chicago, 1925): describes urban land use in zones around a central business district, so it suits an urban study as the Bradshaw model suits a river study.",
         "Compare results with the textbook model or published work, and explain any differences, such as local geology, human interference or a small sample.",
-        "Illustrative conclusion: the hypothesis is accepted because velocity rose from 0.4 m/s to 1.0 m/s; this matches the Bradshaw model, which is explained by greater depth reducing friction and more water from tributaries."
-      ]
+        "Illustrative conclusion: the hypothesis is accepted because velocity rose from 0.4 m/s to 1.0 m/s; this matches the Bradshaw model, which is explained by greater depth reducing friction and more water from tributaries (smaller streams that join the river)."
+      ],
+      "tip": "Conclusions must answer the hypothesis and be supported by the results. A conclusion not linked to the results loses marks."
     },
     {
       "h": "Stage 4: Evaluation and improvements",
@@ -139,26 +171,29 @@
         "A surface float overestimates average velocity, so float results are estimates, not exact values.",
         "Improvements: more sites, repeat visits in different seasons or conditions, better equipment such as a flow meter, larger samples and a longer stretch of river.",
         "Suggest further investigation that the findings point towards.",
-        "Skills gained (optional): teamwork, fieldwork skills, ICT and report writing, which the syllabus links to working conditions similar to those likely to be encountered in the world of work."
-      ]
+        "Skills gained (optional): teamwork, fieldwork skills, ICT (information and communication technology) and report writing, which the syllabus links to working conditions similar to those likely to be encountered in the world of work."
+      ],
+      "tip": "Generic evaluations such as \"it went well\" lose marks. Give an honest evaluation with specific, concrete improvements."
     },
     {
       "h": "Stage 5: Presentation of results",
       "b": "Results are presented in graphic form on the booklet's image pages and discussed in Stage 4. Presentation is marked out of 20.",
       "points": [
-        "Illustrations include tables of raw and averaged data, sketch maps locating sites, annotated photographs and field sketches.",
+        "Illustrations include tables of raw and averaged data, sketch maps locating sites, annotated photographs (photographs with labels added) and field sketches.",
         "The examiner's boxes cover two presentation methods plus coherence, so results are shown in at least two clearly different graphic forms.",
         "Choose the graph that suits the data: a line graph for change with distance or time, a bar chart for comparison between sites, a pie chart for shares, a scatter graph for a relationship, and channel cross-sections for showing a river channel's shape.",
-        "Every illustration is titled, labelled, has units and a key, and is referred to in the text. Graph-drawing technique is in the notes on Figure interpretation.",
+        "Every illustration is titled, labelled, has units and a key, and is referred to in the text. There is more on this in Figure interpretation, which covers graph-drawing technique.",
         "Every sketch, map, diagram, graph, chart and table is the student's own hand-drawn work, inserted into the digital booklet as an image such as a photo or scan.",
         "Illustrations go only on the booklet's image pages, because examiners mark only what is in the booklet.",
         "For the River Dallow study, the illustrations are: a line graph of velocity against distance downstream; channel cross-sections drawn to scale for sites 1 and 5; and a sketch map of the five sites."
-      ]
+      ],
+      "tip": "Marks reward accurate and varied illustrations. Illustrations that are unlabelled, irrelevant or not referred to lose marks."
     },
     {
       "h": "How the report is marked",
+      "b": "The investigation is assessed only through the report, marked section by section in the SEC booklet. Knowing what earns and loses marks tells you where to spend your words.",
       "points": [
-        "Within each stage, marks are awarded for significant relevant points (SRPs), and Stage 5 is marked on the graphic illustrations.",
+        "Within each stage, marks are awarded for significant relevant points (SRPs, specific points that answer the section), and Stage 5 is marked on the graphic illustrations.",
         "Marks are earned by a clear, testable hypothesis or aim within the word limit.",
         "Marks are earned by methods described step by step, with equipment named and justified.",
         "Marks are earned by accurate data presented in varied, well-labelled illustrations, and by results that refer to the actual figures.",

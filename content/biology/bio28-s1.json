@@ -6,101 +6,161 @@
   "notes": [
     {
       "h": "Why gas exchange is needed",
-      "b": "Gas exchange supplies every cell with oxygen and removes the carbon dioxide it produces.",
+      "b": "Every living cell needs a steady supply of oxygen and must get rid of the carbon dioxide it makes. The breathing system is the body's way of swapping these gases with the air.",
       "points": [
-        "Every cell respires aerobically, using oxygen and producing carbon dioxide (see ‘Respiration as a catabolic process’).",
-        "The breathing system exchanges gases between the external environment (the air) and the internal environment (the blood and tissue fluid): oxygen is taken into the blood, and carbon dioxide and some water vapour are removed.",
-        "Breathing, or ventilation, is the movement of air into and out of the lungs. It is not respiration; the distinction is made in ‘Characteristics of living things’.",
-        "A large animal such as a human cannot get enough oxygen by diffusion through its skin: its surface area is too small for its volume, and the distances to its inner cells are too great. It needs a specialised exchange surface, the alveoli, and a transport system, the blood, to carry gases to and from every cell."
-      ]
+        "Every cell respires aerobically (releases energy from food using oxygen), so every cell uses oxygen and produces carbon dioxide. There is more on this in Respiration as a catabolic process.",
+        "The breathing system exchanges gases between the external environment (the air) and the internal environment (the blood and tissue fluid, the fluid that bathes the cells): oxygen is taken into the blood, and carbon dioxide and some water vapour are removed.",
+        "Breathing, or ventilation, is the movement of air into and out of the lungs. It is not respiration, which is the chemical release of energy inside cells, and gas exchange is not respiration either.",
+        "A large animal such as a human cannot get enough oxygen by diffusion through its skin, because its surface area is too small for its volume and the distances to its inner cells are too great.",
+        "So it needs a specialised exchange surface, the alveoli (tiny air sacs in the lungs), and a transport system, the blood, to carry gases to and from every cell."
+      ],
+      "tip": "Don't write that breathing is respiration. Breathing moves air; respiration happens in cells, and examiners expect you to keep the two apart."
     },
     {
-      "h": "The breathing tract: structure and function",
+      "h": "The breathing tract: nose to larynx",
+      "b": "The breathing tract is the pathway air follows from outside to the lungs. The first parts clean, warm and moisten the air and keep food out of the airway.",
       "points": [
-        "Nose (nasal cavity): hairs and sticky mucus trap dust and microorganisms. The lining has a rich blood supply that warms the air, and the mucus moistens it, so the delicate alveoli do not dry out or chill. Breathing through the mouth skips this conditioning.",
-        "Pharynx (throat): the passage shared by air and food, behind the nose and mouth.",
-        "Epiglottis: a flap of cartilage that closes over the entrance to the larynx and trachea during swallowing, so food and drink pass into the oesophagus. Choking happens when food enters the trachea.",
-        "Larynx (voice box): at the top of the trachea. Its vocal cords vibrate as air passes over them, producing sound.",
-        "Trachea (windpipe): a tube held open by C-shaped rings of cartilage, so it does not collapse when the pressure inside falls during inhalation. The rings are incomplete at the back, where the trachea lies against the oesophagus, so the oesophagus can expand as food is swallowed.",
-        "Lining of the trachea and bronchi: ciliated epithelium with mucus-secreting goblet cells. Mucus traps dust and microorganisms, and the cilia beat in waves that sweep the mucus up to the throat, where it is swallowed or coughed out. This is part of the first line of defence (see ‘Innate and adaptive immunity’).",
-        "Bronchi: the trachea divides into two bronchi, one to each lung. They are also supported by cartilage.",
-        "Bronchioles: each bronchus branches repeatedly into thousands of narrower bronchioles. They have no cartilage; their walls contain smooth muscle, which can narrow or widen them and so change air flow. The finest bronchioles end in clusters of alveoli.",
-        "Alveoli (air sacs): tiny thin-walled sacs, each surrounded by a network of capillaries. They are the site of gas exchange, described below.",
-        "Lungs, pleural membranes and thorax: the two lungs are spongy, elastic organs in the thorax (chest cavity), protected by the rib cage (see ‘The axial skeleton’) and separated from the abdomen by the diaphragm. Each lung is enclosed by two pleural membranes with a thin layer of pleural fluid between them. The fluid reduces friction as the lungs move and makes them cling to the chest wall, so they expand when the thorax expands.",
-        "Diaphragm: a dome-shaped sheet of muscle and tendon forming the floor of the thorax. Intercostal muscles: two sets, external and internal, lying between the ribs, which move the rib cage.",
-        "Diagram: the breathing system in a front view of the chest, showing the nasal cavity, pharynx, epiglottis, larynx, trachea with its cartilage rings, two bronchi, bronchioles, lungs, pleural membranes, ribs, intercostal muscles, diaphragm and an outline of the heart. Add an enlarged inset of a cluster of alveoli at the end of a bronchiole, wrapped in capillaries."
-      ]
+        "Nose (nasal cavity): hairs and sticky mucus trap dust and microorganisms. The lining has a rich blood supply that warms the air, and the mucus moistens it, so the delicate alveoli do not dry out or chill.",
+        "Breathing through the mouth skips this filtering, warming and moistening, which is why nose breathing is better for the lungs.",
+        "Pharynx (throat): the passage behind the nose and mouth that is shared by air and food.",
+        "Epiglottis: a flap of cartilage (firm, flexible tissue) that closes over the entrance to the larynx and trachea during swallowing, so food and drink pass into the oesophagus (the food tube) instead of the airway.",
+        "Choking happens when food enters the trachea instead.",
+        "Larynx (voice box): at the top of the trachea. It contains the vocal cords, which vibrate as air passes over them, producing sound."
+      ],
+      "tip": "Exams ask for the function of the epiglottis: say it closes over the entrance to the trachea during swallowing so food goes down the oesophagus."
     },
     {
-      "h": "The breathing mechanism",
+      "h": "The breathing tract: trachea, bronchi, bronchioles and alveoli",
+      "b": "Below the larynx the airway divides again and again, like an upside-down tree, until it reaches the alveoli where gases actually cross into the blood.",
       "points": [
-        "Air always moves from a region of higher pressure to one of lower pressure. Breathing changes the volume of the thorax: when the volume increases, the pressure inside the lungs falls below atmospheric pressure and air flows in; when the volume decreases, the pressure rises above atmospheric pressure and air flows out. The lungs have no muscle of their own; they follow the chest wall.",
-        "Inhalation (inspiration) is an active process: 1. The brain sends nerve impulses to the breathing muscles.",
+        "Trachea (windpipe): a tube held open by C-shaped rings of cartilage, so it does not collapse when the pressure inside falls during inhalation.",
+        "The rings are incomplete at the back, where the trachea lies against the oesophagus, so the oesophagus can expand as food is swallowed.",
+        "Lining of the trachea and bronchi: ciliated epithelium (a surface layer of cells carrying tiny hair-like cilia) with mucus-secreting goblet cells. Mucus traps dust and microorganisms.",
+        "The cilia beat in waves that sweep the mucus up to the throat, where it is swallowed or coughed out. This is part of the body's first line of defence against infection.",
+        "Bronchi: the trachea divides into two bronchi (singular bronchus), one to each lung. They are also supported by cartilage.",
+        "Bronchioles: each bronchus branches repeatedly into thousands of narrower bronchioles. They have no cartilage; their walls contain smooth muscle, which can narrow or widen them and so change air flow.",
+        "The finest bronchioles end in clusters of alveoli (air sacs): tiny thin-walled sacs, each surrounded by a network of capillaries (the smallest blood vessels). The alveoli are the site of gas exchange."
+      ],
+      "tip": "Learn the function of the cartilage rings (keep the trachea open) and of the cilia and mucus (trap and sweep out dust and microorganisms); both are asked."
+    },
+    {
+      "h": "The lungs, pleural membranes and breathing muscles",
+      "b": "The lungs have no muscle of their own, so they depend on the chest wall and on the muscles around it. The pleural membranes are what link the lungs to the chest wall.",
+      "points": [
+        "The two lungs are spongy, elastic organs in the thorax (chest cavity), protected by the rib cage (ribs, sternum and vertebrae) and separated from the abdomen by the diaphragm.",
+        "Each lung is enclosed by two pleural membranes with a thin layer of pleural fluid between them. The fluid reduces friction as the lungs move.",
+        "The fluid also makes the lungs cling to the chest wall, so they expand when the thorax expands.",
+        "Diaphragm: a dome-shaped sheet of muscle and tendon forming the floor of the thorax.",
+        "Intercostal muscles: two sets, external and internal, lying between the ribs, which move the rib cage.",
+        "Diagram: the breathing system in a front view of the chest. Label the nasal cavity, pharynx, epiglottis, larynx, trachea with cartilage rings, two bronchi, bronchioles, lungs, pleural membranes, ribs, intercostal muscles, diaphragm and an outline of the heart. Add an enlarged inset of alveoli wrapped in capillaries."
+      ],
+      "tip": "For the pleural membranes, give both jobs of the fluid: it reduces friction and it makes the lungs follow the chest wall."
+    },
+    {
+      "h": "The breathing mechanism: inhalation",
+      "b": "Breathing in works by changing pressure. The muscles enlarge the thorax, the pressure in the lungs drops below the pressure outside, and air flows in.",
+      "points": [
+        "Air always moves from a region of higher pressure to one of lower pressure. When the thorax volume increases, the pressure inside the lungs falls below atmospheric pressure (the pressure of the air outside) and air flows in.",
+        "When the thorax volume decreases, the pressure rises above atmospheric pressure and air flows out. The lungs follow the chest wall because they have no muscle of their own.",
+        "Inhalation (inspiration) is an active process, which means it uses energy. 1. The brain sends nerve impulses to the breathing muscles.",
         "2. The diaphragm contracts and flattens, moving downwards.",
         "3. The external intercostal muscles contract, pulling the ribs and sternum upwards and outwards.",
         "4. The volume of the thorax increases.",
         "5. The lungs expand with it, so the pressure inside them falls below atmospheric pressure.",
-        "6. Air rushes in through the nose and trachea until the pressures are equal. Muscle contraction uses ATP, so inhalation is active.",
-        "Exhalation (expiration) at rest is a passive process: 1. The impulses stop and the diaphragm and external intercostal muscles relax.",
+        "6. Air rushes in through the nose and trachea until the pressures are equal. Muscle contraction uses ATP (the cell's energy currency), so inhalation is active."
+      ],
+      "tip": "Give the order: muscles contract, volume goes up, pressure goes down, air flows in. The diaphragm flattens and moves down when it contracts, and the lungs do not suck air in by themselves."
+    },
+    {
+      "h": "The breathing mechanism: exhalation",
+      "b": "Breathing out at rest needs no muscle contraction at all: the body simply springs back. During exercise, however, extra muscles make exhalation active.",
+      "points": [
+        "Exhalation (expiration) at rest is a passive process, which means it uses no energy. 1. The impulses stop and the diaphragm and external intercostal muscles relax.",
         "2. The diaphragm returns to its dome shape, pushed up by the abdominal organs, and the ribs move down and in under their own weight.",
-        "3. The stretched, elastic lung tissue recoils.",
+        "3. The stretched, elastic lung tissue recoils, like a stretched elastic band springing back.",
         "4. The volume of the thorax decreases and the pressure in the lungs rises above atmospheric pressure.",
         "5. Air is forced out. No muscle contracts, so no energy is used.",
-        "Forced exhalation, as in exercise, coughing, blowing or speaking loudly: the internal intercostal muscles contract, pulling the ribs down and in, and the abdominal muscles contract, pushing the diaphragm up. Air is expelled faster and more completely, so forced exhalation is active.",
-        "Inhalation compared with exhalation at rest: the diaphragm contracts and flattens, versus relaxes and domes upwards; the external intercostals contract, versus relax; the ribs move up and out, versus down and in; the thorax volume increases, versus decreases; the lung pressure falls below atmospheric pressure, versus rises above it; air moves in, versus out; inhalation is active, versus exhalation at rest being passive.",
-        "The bell-jar model shows the volume and pressure principle: pulling the rubber sheet (diaphragm) down inflates the balloons (lungs). Its parts and limitations are described in ‘Models’.",
+        "Forced exhalation, as in exercise, coughing, blowing or speaking loudly: the internal intercostal muscles contract, pulling the ribs down and in, and the abdominal muscles contract, pushing the diaphragm up.",
+        "This expels air faster and more completely, and because muscles contract, forced exhalation is active."
+      ],
+      "tip": "To explain why exhalation at rest is passive, say the muscles relax and elastic recoil does the work. Don't call all exhalation passive: forced exhalation is active."
+    },
+    {
+      "h": "Comparing inhalation and exhalation",
+      "b": "Putting the two halves of the breathing cycle side by side shows that every change in one is reversed in the other.",
+      "points": [
+        "Diaphragm: it contracts and flattens in inhalation, but relaxes and domes upwards in exhalation at rest.",
+        "External intercostal muscles: they contract in inhalation but relax in exhalation. The ribs move up and out in inhalation, and down and in in exhalation.",
+        "Thorax volume increases in inhalation and decreases in exhalation. Lung pressure falls below atmospheric pressure in inhalation and rises above it in exhalation, so air moves in, then out.",
+        "Inhalation is active, whereas exhalation at rest is passive.",
+        "The bell-jar model shows the volume and pressure principle: pulling the rubber sheet (the diaphragm) down inflates the balloons (the lungs). There is more on this in Models.",
         "Diagram: two side-view sketches of the thorax, one at inhalation and one at exhalation, showing the diaphragm (flat or domed) and the ribs (raised or lowered), with arrows for rib movement and air flow. Label the diaphragm, ribs, intercostal muscles, lungs and trachea."
-      ]
+      ],
+      "tip": "Comparison questions are best answered as paired points, one row at a time: contracts versus relaxes, up and out versus down and in, volume up versus down."
     },
     {
       "h": "The brain and CO₂ levels",
+      "b": "Breathing continues while you sleep because the brain controls it automatically. The signal that adjusts it is the level of carbon dioxide in the blood.",
       "points": [
-        "Breathing is controlled automatically by the breathing (respiratory) centre in the medulla oblongata, at the base of the brain (see ‘CNS and PNS’). It sends rhythmic nerve impulses to the diaphragm and intercostal muscles, so breathing continues without thought, even during sleep.",
-        "We can change breathing voluntarily for a short time, using the cerebrum, for example by holding our breath, speaking or singing. The automatic control takes over again afterwards.",
-        "The main factor that sets the rate and depth of breathing is the level of carbon dioxide in the blood. When CO₂ rises, as during exercise when muscles respire faster, the breathing centre increases the rate and depth of breathing, so more CO₂ is removed and more oxygen is taken in. When CO₂ falls, breathing slows. How the rise is detected is described in ‘CO₂ as a controlling factor in breathing’.",
-        "An adult at rest breathes about 12 to 20 times per minute, moving about 500 cm³ (half a litre) of air in each breath, the tidal volume. During hard exercise both the rate and the depth of breathing increase greatly."
-      ]
+        "Breathing is controlled automatically by the breathing (respiratory) centre in the medulla oblongata, at the base of the brain. It sends rhythmic nerve impulses to the diaphragm and intercostal muscles, so breathing continues without thought, even during sleep.",
+        "We can change breathing voluntarily for a short time, using the cerebrum (the thinking part of the brain), for example by holding our breath, speaking or singing. The automatic control takes over again afterwards.",
+        "The main factor that sets the rate and depth of breathing is the level of carbon dioxide in the blood. When CO₂ rises, as during exercise when muscles respire faster, the breathing centre increases the rate and depth of breathing.",
+        "This removes more CO₂ and takes in more oxygen. When CO₂ falls, breathing slows. There is more on this in CO₂ as a controlling factor in breathing.",
+        "An adult at rest breathes about 12 to 20 times per minute, moving about 500 cm³ (half a litre) of air in each breath, the tidal volume.",
+        "During hard exercise both the rate and the depth (the volume of air per breath) increase greatly."
+      ],
+      "tip": "Name the medulla oblongata as the part of the brain that controls breathing, and state that a rise in CO₂ increases breathing rate."
     },
     {
       "h": "Gas exchange at the alveoli and capillaries",
+      "b": "Gas exchange is a simple physical process: oxygen and carbon dioxide each move down their own concentration gradient between the air in the alveolus and the blood in the capillary beside it.",
       "points": [
-        "Gases cross between the air in an alveolus and the blood in its capillaries by diffusion, from where they are more concentrated to where they are less concentrated. No energy is used.",
-        "Oxygen: the air in the alveoli has a higher oxygen concentration than the deoxygenated blood arriving from the body in the pulmonary artery. Oxygen dissolves in the moisture lining the alveolus, diffuses through the alveolus wall and the capillary wall into the plasma, and enters the red blood cells, where it combines with haemoglobin to form oxyhaemoglobin (see ‘Blood’).",
+        "Gases cross between the air in an alveolus and the blood in its capillaries by diffusion, from where they are more concentrated to where they are less concentrated. No energy is used, so it is not active transport.",
+        "Oxygen: the air in the alveoli has a higher oxygen concentration than the deoxygenated blood arriving from the body in the pulmonary artery.",
+        "Oxygen dissolves in the moisture lining the alveolus, diffuses through the alveolus wall and the capillary wall into the plasma (the liquid part of the blood), and enters the red blood cells, where it combines with haemoglobin to form oxyhaemoglobin.",
         "Carbon dioxide: the blood arriving at the lungs has a higher CO₂ concentration than the air in the alveoli. CO₂, carried mostly in the plasma, diffuses out of the blood into the alveolus and is breathed out.",
-        "The oxygenated blood leaves the lungs in the pulmonary veins and returns to the heart (the full route is in ‘Circulation’).",
-        "The concentration gradients are kept steep in two ways: breathing constantly brings in fresh air with a high oxygen and low CO₂ content and removes stale air; and blood flow constantly carries oxygenated blood away and brings new deoxygenated blood."
-      ]
+        "The oxygenated blood leaves the lungs in the pulmonary veins and returns to the heart. There is more on this in Circulation.",
+        "The concentration gradients are kept steep in two ways: breathing constantly brings in fresh air with a high oxygen and low CO₂ content and removes stale air.",
+        "Blood flow also keeps the gradients steep, because it constantly carries oxygenated blood away and brings new deoxygenated blood."
+      ],
+      "tip": "The pulmonary artery brings deoxygenated blood to the lungs and the pulmonary vein carries oxygenated blood away. To explain how oxygen enters the blood, give diffusion down a concentration gradient and say why the gradient is maintained."
     },
     {
       "h": "Adaptations of the alveoli",
+      "b": "The alveoli are built so that diffusion is as fast as possible. Each feature either gives gases more room to cross, a shorter distance to travel, or a steeper gradient.",
       "points": [
         "Very large total surface area: about 300 million alveoli in the two lungs give an exchange surface of roughly 70 m², so a large amount of gas can diffuse at once.",
         "Very thin walls: the alveolus wall and the capillary wall are each one cell thick and pressed close together, so the diffusion distance is very short.",
         "Moist lining: gases dissolve in the moisture before they diffuse across the wall.",
         "Dense capillary network: every alveolus is surrounded by capillaries with a continuous blood flow, which keeps the concentration gradient steep.",
         "Narrow capillaries: they are just wide enough for red blood cells to pass in single file, pressed against the wall. This shortens the distance further and slows the blood, giving time for exchange.",
-        "Elastic fibres around the alveoli let them stretch on inhalation and recoil on exhalation.",
-        "Diagram: a single alveolus with a capillary wrapped around it, labelled alveolus wall (one cell thick), capillary wall (one cell thick), moist lining, red blood cell and plasma. Add arrows showing O₂ diffusing from the alveolus into the blood and CO₂ diffusing from the blood into the alveolus, and arrows for blood flow from the pulmonary artery (deoxygenated) to the pulmonary vein (oxygenated)."
-      ]
+        "Elastic fibres around the alveoli let them stretch on inhalation and recoil on exhalation, which helps push air out.",
+        "Diagram: a single alveolus with a capillary wrapped around it. Label alveolus wall (one cell thick), capillary wall (one cell thick), moist lining, red blood cell and plasma. Add arrows: O₂ into the blood, CO₂ into the alveolus, and blood flow from pulmonary artery (deoxygenated) to pulmonary vein (oxygenated)."
+      ],
+      "tip": "Exams ask you to list the adaptations and explain how each helps, so always pair the feature with its effect, such as thin walls giving a short diffusion distance."
     },
     {
       "h": "Composition of inhaled and exhaled air",
+      "b": "The air we breathe out differs from the air we breathe in, because the body takes oxygen from it and adds carbon dioxide and water vapour.",
       "points": [
         "Inhaled air contains about 21% oxygen, about 0.04% carbon dioxide and 78% nitrogen, with a variable amount of water vapour.",
         "Exhaled air contains about 16% oxygen, about 4% carbon dioxide and 78% nitrogen. It is saturated with water vapour and is warmer than inhaled air.",
         "Nitrogen is not used by the body, so its proportion is the same in both.",
-        "Exhaled air still contains much oxygen, which is why rescue breaths work in CPR.",
+        "Exhaled air still contains much oxygen, which is why rescue breaths work in CPR (the emergency procedure that keeps a casualty's blood supplied with oxygen).",
         "Lime water turns milky faster with exhaled air, showing that exhaled air contains more CO₂."
-      ]
+      ],
+      "tip": "When comparing inhaled and exhaled air, give the figures for oxygen and carbon dioxide, and note that nitrogen is unchanged."
     },
     {
       "h": "When the structures are damaged",
+      "b": "Damage to the breathing system shows why its structures matter: when cilia, alveoli or bronchioles stop working properly, gas exchange suffers.",
       "points": [
-        "Smoking: tar and other chemicals in cigarette smoke paralyse and destroy the cilia and increase mucus production. Mucus and trapped microorganisms build up in the airways, causing coughing (‘smoker’s cough’) and frequent chest infections.",
+        "Smoking: tar and other chemicals in cigarette smoke paralyse and destroy the cilia and increase mucus production, so mucus and trapped microorganisms build up in the airways, causing coughing (smoker's cough) and frequent chest infections.",
         "Emphysema, mainly caused by smoking: if alveolus walls break down and merge into larger air spaces, the surface area for gas exchange falls and the lungs lose their elasticity, so the person becomes breathless. This shows why the large surface area of the alveoli matters.",
-        "Carbon monoxide in cigarette smoke combines with haemoglobin, reducing the amount of oxygen the blood can carry (see ‘Blood’).",
+        "Carbon monoxide in cigarette smoke combines with haemoglobin, reducing the amount of oxygen the blood can carry. There is more on this in Blood.",
         "Asthma: the smooth muscle in the bronchiole walls contracts, and the lining swells and produces extra mucus, narrowing the airways so that less air reaches the alveoli. Inhalers deliver drugs that relax the smooth muscle."
-      ]
+      ],
+      "tip": "Link each effect back to the structure: destroyed cilia mean mucus is not swept out, and lost alveolar surface area means less gas exchange."
     }
   ],
   "keyTerms": [

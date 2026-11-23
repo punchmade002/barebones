@@ -5,88 +5,159 @@
   "syllabusRef": "2.6.2",
   "notes": [
     {
-      "h": "Investigation: aim, measurement and equipment",
+      "h": "Investigation: aim and how the rate is measured",
+      "b": "This investigation tests three factors that could change how fast osmosis happens, and the key problem is choosing something you can actually measure.",
       "points": [
-        "Aim: to investigate how temperature, the concentration gradient and surface area affect the rate of osmosis across a semi-permeable membrane.",
-        "How the rate is measured: water entering a bag of sucrose solution increases its mass, so the rate of osmosis is the change in mass per unit time (g per minute), or the percentage change in mass in a fixed time. For potato tissue the percentage change in mass in a fixed time is used, because pieces start at slightly different masses. An alternative for Visking bags is the rise of liquid up a capillary tube attached to the bag (an osmometer), measured in mm per minute.",
-        "Equipment and materials: Visking tubing; thread or tubing clips; sucrose solutions (made up as below) and distilled water; syringes or measuring cylinders; beakers or boiling tubes; thermostatically controlled water baths (or beakers of water heated and topped up, with ice for low temperatures) and thermometers; top-pan balance reading to 0.01 g; paper towels; stopwatch; scissors; white tile, scalpel, ruler and cork borer for potato; a fresh potato; labels; safety glasses.",
-        "Sucrose solutions: a 1.0 M (mol per litre) solution contains 342 g of sucrose made up to 1 litre with distilled water. A range, e.g. 0.2, 0.4, 0.6, 0.8 and 1.0 M, is made by diluting it with distilled water, e.g. 2 cm³ of 1.0 M plus 8 cm³ of water gives 0.2 M. Detail of dilution is in Investigation: reducing sugars, quantitatively.",
-        "Replicates: set up three bags (or three sets of potato pieces) for each value of the factor and calculate the mean. Repeat the whole investigation to check repeatability."
-      ]
+        "Aim: to investigate how temperature, the concentration gradient (the difference in concentration across the membrane) and surface area affect the rate of osmosis across a semi-permeable membrane.",
+        "Water entering a bag of sucrose solution increases the bag's mass, so the rate of osmosis is the change in mass per unit time (g per minute), or the percentage change in mass in a fixed time.",
+        "For potato tissue the percentage change in mass in a fixed time is used, because the pieces start at slightly different masses and a percentage makes them comparable.",
+        "An alternative for Visking bags (bags made from Visking tubing, a thin tubing with tiny pores) is the rise of liquid up a capillary tube attached to the bag, called an osmometer. The rate is then measured in mm per minute."
+      ],
+      "tip": "Use percentage change in mass, not just change in mass, whenever the starting masses differ. Exams ask how the result is measured, so always say what you measure and the units."
+    },
+    {
+      "h": "Investigation: equipment, sucrose solutions and replicates",
+      "b": "Every version of the investigation uses the same core kit and a range of sucrose solutions, and each value of the factor is repeated so that a stray result does not mislead you.",
+      "points": [
+        "Equipment and materials: Visking tubing; thread or tubing clips; sucrose solutions and distilled water; syringes or measuring cylinders; beakers or boiling tubes; paper towels; stopwatch; scissors; labels; safety glasses.",
+        "For temperature and measuring: thermostatically controlled water baths (or beakers of water heated and topped up, with ice for low temperatures) and thermometers; a top-pan balance reading to 0.01 g.",
+        "For potato: a fresh potato, a white tile, a scalpel, a ruler and a cork borer (a metal tube that cuts cylinders of tissue).",
+        "Sucrose solutions: a 1.0 M (mol per litre) solution contains 342 g of sucrose made up to 1 litre with distilled water. This works because 342 is the mass of one mole of sucrose.",
+        "A range, such as 0.2, 0.4, 0.6, 0.8 and 1.0 M, is made by diluting the 1.0 M solution with distilled water. For example, 2 cm³ of 1.0 M plus 8 cm³ of water gives 0.2 M. There is more on dilution in Investigation: reducing sugars, quantitatively.",
+        "Replicates (repeats): set up three bags, or three sets of potato pieces, for each value of the factor and calculate the mean, so that one odd result has less effect.",
+        "Repeat the whole investigation to check repeatability, which means getting similar results when the experiment is done again."
+      ],
+      "tip": "Exams ask you to describe a full set-up. Remember the replicates and the mean, because they are part of a good method."
     },
     {
       "h": "Making a Visking tubing bag",
+      "b": "Two of the three investigations use a Visking tubing bag as a model cell. The bag has to be made the same way every time, or differences in the bags will hide the effect you are testing.",
       "points": [
-        "1. Cut pieces of Visking tubing of the same length, e.g. 15 cm, and soak them in water for a few minutes until soft.",
+        "1. Cut pieces of Visking tubing of the same length, e.g. 15 cm, and soak them in water for a few minutes until soft, so the tubing can be opened without tearing.",
         "2. Rub one end between finger and thumb to open the tube.",
-        "3. Tie one end tightly with thread, or knot the tubing itself.",
-        "4. Using a syringe, add the same volume, e.g. 10 cm³, of sucrose solution to each bag.",
-        "5. Squeeze out the air and tie the other end tightly, leaving the bag slightly slack so it can swell.",
-        "6. Rinse the outside with distilled water to remove any sucrose, blot it dry with paper towel in the same way every time, and weigh it.",
-        "7. Record this starting mass.",
-        "Visking tubing is semi-permeable: its tiny pores let water molecules through easily but hold back larger molecules. Sucrose molecules pass only very slowly, so over a short experiment the bag behaves as a membrane permeable to water but not to sucrose, as cell membranes do. Starch is held back completely.",
-        "Diagram: a Visking tubing bag tied at both ends, containing sucrose solution, in a beaker of distilled water, with an arrow showing water entering; and an osmometer, a bag tied to a capillary tube clamped upright in a beaker of distilled water, with a ruler beside the tube. Label: Visking tubing, sucrose solution, distilled water, thread, capillary tube and scale."
-      ]
+        "3. Tie one end tightly with thread, or knot the tubing itself, so that nothing can leak out.",
+        "4. Using a syringe, add the same volume, e.g. 10 cm³, of sucrose solution to each bag, so that the bags can be compared fairly.",
+        "5. Squeeze out the air and tie the other end tightly, leaving the bag slightly slack so it can swell as water enters.",
+        "6. Rinse the outside with distilled water to remove any sucrose, blot it dry with paper towel in the same way every time, and weigh it. Surface liquid would otherwise add to the mass.",
+        "7. Record this starting mass, which you need in order to work out the change in mass."
+      ],
+      "tip": "Exams ask why the bag is blotted before weighing (to remove surface water, which would change the mass) and why it is left partly empty (so it has room to swell as water enters)."
     },
     {
-      "h": "Investigation: concentration gradient",
+      "h": "Why Visking tubing works as a model membrane",
+      "b": "Visking tubing is used because it behaves like a simple version of a cell membrane. Knowing what it lets through explains why the bag gains mass.",
+      "points": [
+        "Visking tubing is semi-permeable: its tiny pores let water molecules through easily but hold back larger molecules.",
+        "Sucrose molecules pass only very slowly, so over a short experiment the bag behaves as a membrane permeable to water but not to sucrose, as cell membranes do. Starch is held back completely.",
+        "Visking tubing is semi-permeable (partially permeable), not selectively permeable in the way a living membrane is, because it only sorts molecules by size.",
+        "Diagram: a tied Visking bag of sucrose solution in a beaker of distilled water, arrow showing water entering; and an osmometer (bag tied to an upright, clamped capillary tube, ruler beside it). Label: Visking tubing, sucrose solution, distilled water, thread, capillary tube, scale."
+      ],
+      "tip": "Call Visking tubing semi-permeable (partially permeable). Don't call it selectively permeable in the same sense as a living membrane."
+    },
+    {
+      "h": "Investigation: concentration gradient, plan and control",
+      "b": "The first factor is the concentration gradient. Here the bag holds sucrose solution and the beaker holds distilled water, so the gradient is set by how concentrated the solution inside the bag is.",
       "points": [
         "Hypothesis: the greater the concentration gradient between the solution inside the bag and the water outside, the faster the rate of osmosis, because the difference in water concentration across the membrane is greater, so the net movement of water is faster.",
-        "Variables: the independent variable is the concentration of sucrose inside the bag (0.2 to 1.0 M), with distilled water outside, so the gradient increases with concentration. The dependent variable is the rate of mass gain (g per minute). Controlled variables are temperature (all at room temperature, or in one water bath, e.g. 25 °C), length and width of tubing (surface area), volume of solution in the bag, volume of distilled water outside, time intervals and blotting method.",
-        "Control: a bag containing distilled water, placed in distilled water (no concentration gradient). Its mass should not change, showing that any change in the other bags is due to osmosis and not to handling, leaking or water left on the surface.",
-        "Method: 1. Make one bag for each concentration (three of each), plus the control (see the block on making a Visking tubing bag above).",
+        "Independent variable (the one you change): the concentration of sucrose inside the bag (0.2 to 1.0 M), with distilled water outside. The gradient therefore increases with concentration. Dependent variable (the one you measure): the rate of mass gain (g per minute).",
+        "Controlled variables (kept the same): temperature (all at room temperature, or in one water bath, e.g. 25 °C), length and width of tubing (surface area), volume of solution in the bag, volume of distilled water outside, time intervals and blotting method.",
+        "Control: a bag containing distilled water, placed in distilled water, so there is no concentration gradient. Its mass should not change, which shows that any change in the other bags is due to osmosis and not to handling, leaking or water left on the surface."
+      ],
+      "tip": "Concentration gradient means the difference in concentration across the membrane, not simply the concentration. With distilled water outside, the gradient depends on the concentration inside, so say this. Exams ask you to name the independent, dependent and controlled variables, and to include a control."
+    },
+    {
+      "h": "Investigation: concentration gradient, Visking bag method",
+      "b": "This is the main method. You weigh the bags at regular intervals to follow how fast each one gains mass.",
+      "points": [
+        "1. Make one bag for each concentration (three of each), plus the control, using the steps for making a Visking tubing bag.",
         "2. Weigh each bag.",
         "3. Place each bag in its own labelled beaker of distilled water, enough to cover it, and start the stopwatch.",
         "4. Every 10 minutes, for 40 to 60 minutes, remove each bag, blot it dry in the same way, weigh it, and return it to the water.",
-        "5. Calculate the mean change in mass for each concentration and the rate in g per minute.",
-        "Second method, potato tissue: 1. Use a cork borer to cut cylinders from one potato, remove the skin, and cut them all to the same length, e.g. 3 cm, on a tile.",
+        "5. Calculate the mean change in mass for each concentration and the rate in g per minute."
+      ],
+      "tip": "In the Visking investigations the bags gain mass, because water enters the more concentrated solution inside. State this direction of water movement correctly."
+    },
+    {
+      "h": "Investigation: concentration gradient, potato and egg methods",
+      "b": "Living tissue can be used instead of a bag. A potato is made of cells whose membranes act as semi-permeable membranes, and the sap inside the cells is the solution. The egg is an optional demonstration.",
+      "points": [
+        "Second method, potato tissue. 1. Use a cork borer to cut cylinders from one potato, remove the skin, and cut them all to the same length, e.g. 3 cm, on a tile.",
         "2. Blot and weigh each cylinder.",
         "3. Place three cylinders in each of a range of sucrose solutions (0.0 M, i.e. distilled water, and 0.2, 0.4, 0.6, 0.8 and 1.0 M) of the same volume, for the same time (e.g. at least 30 minutes; often left overnight) at the same temperature.",
-        "4. Remove them, blot in the same way, reweigh, and calculate the percentage change in mass.",
+        "4. Remove them, blot in the same way, reweigh, and calculate the percentage change in mass, which allows for the different starting masses.",
         "5. Plot percentage change in mass against sucrose concentration.",
-        "Third method (optional demonstration): an egg whose shell has been dissolved in vinegar over a day or two is held in by its membrane. Placed in distilled water it gains mass, and in concentrated sugar syrup it loses mass. It shows the direction of osmosis clearly, but it is slow and gives only one result per egg."
-      ]
+        "Third method (optional demonstration): an egg whose shell has been dissolved in vinegar over a day or two is held in by its membrane, which is semi-permeable. Placed in distilled water it gains mass, and in concentrated sugar syrup it loses mass.",
+        "The egg shows the direction of osmosis clearly, but it is slow and gives only one result per egg."
+      ],
+      "tip": "Potato cylinders in concentrated solution lose mass, because water leaves the cells. This is the opposite direction to a Visking bag, so state the direction of water movement for each set-up."
     },
     {
-      "h": "Investigation: temperature",
+      "h": "Investigation: temperature, plan and control",
+      "b": "The second factor is temperature. Visking bags are used here, with the same sucrose concentration in every bag, so that temperature is the only thing that changes.",
       "points": [
-        "Hypothesis: the higher the temperature, the faster the rate of osmosis, because water molecules have more kinetic energy and move faster, so more cross the membrane each second.",
-        "Variables: the independent variable is the temperature, e.g. 10, 20, 30, 40 and 50 °C. The dependent variable is the rate of mass gain (g per minute) of the Visking bags. Controlled variables are sucrose concentration (e.g. 0.5 M in every bag), volume of solution, length and width of tubing, volume of distilled water, time intervals and blotting method.",
+        "Hypothesis: the higher the temperature, the faster the rate of osmosis, because water molecules have more kinetic energy (movement energy) and move faster, so more cross the membrane each second.",
+        "Independent variable: the temperature, e.g. 10, 20, 30, 40 and 50 °C. Dependent variable: the rate of mass gain (g per minute) of the Visking bags.",
+        "Controlled variables: sucrose concentration (e.g. 0.5 M in every bag), volume of solution, length and width of tubing, volume of distilled water, time intervals and blotting method.",
         "Control: at each temperature, a bag of distilled water in distilled water, which should show no mass change.",
-        "Method: 1. Set water baths to each temperature (use iced water for 10 °C) and check each with a thermometer.",
+        "Visking tubing is used rather than potato for temperature, because high temperatures damage the cell membranes of living tissue, making them fully permeable, so the cells would no longer show osmosis."
+      ],
+      "tip": "Don't use beetroot for the temperature investigation. Beetroot pigment leaking out measures membrane damage, not the rate of osmosis."
+    },
+    {
+      "h": "Investigation: temperature, method",
+      "b": "The bags and the water must both reach the bath's temperature before the timing starts, or the bag will not be at the temperature you think it is.",
+      "points": [
+        "1. Set water baths to each temperature (use iced water for 10 °C) and check each with a thermometer.",
         "2. Place beakers of distilled water, and boiling tubes of the 0.5 M sucrose solution, in each bath until they reach its temperature.",
-        "3. Make the bags with the warmed or cooled solution (see the block on making a Visking tubing bag above) and weigh them.",
+        "3. Make the bags with the warmed or cooled solution, using the steps for making a Visking tubing bag, and weigh them.",
         "4. Place three bags in the beaker of distilled water in each bath.",
         "5. Every 10 minutes for 40 minutes, remove, blot, weigh and return each bag, checking the bath temperature each time.",
-        "6. Calculate the mean rate (g per minute) at each temperature.",
-        "Visking tubing is used rather than potato for temperature, because high temperatures damage the cell membranes of living tissue, making them fully permeable, so the cells would no longer show osmosis."
+        "6. Calculate the mean rate (g per minute) at each temperature."
       ]
     },
     {
-      "h": "Investigation: surface area",
+      "h": "Investigation: surface area, plan and preparing the pieces",
+      "b": "The third factor is surface area. Cutting the same amount of potato into more pieces gives more membrane in contact with the solution while the volume stays the same, so only the surface area changes.",
       "points": [
         "Hypothesis: the larger the surface area of membrane in contact with the solution, the faster the rate of osmosis, because more water molecules can cross the membranes at the same time.",
-        "Variables: the independent variable is the surface area of potato tissue, changed by cutting the same volume into more pieces. The dependent variable is the percentage change in total mass in a fixed time. Controlled variables are the total volume (and starting mass) of potato, from the same potato with no skin, the concentration and volume of the solution (e.g. 0.8 M sucrose, or distilled water), temperature, time and blotting method.",
-        "Preparing the pieces, with their surface areas: cut 2 cm × 2 cm × 2 cm cubes, each of volume 8 cm³. Leave one cube whole, with surface area 6 × 2 × 2 = 24 cm². Cut one cube in half to give two 2 × 2 × 1 cm slabs, with surface area 2 × 16 = 32 cm². Cut one cube into four 2 × 1 × 1 cm bars, with surface area 4 × 10 = 40 cm². Cut one cube into eight 1 cm cubes, with surface area 8 × 6 = 48 cm². The total volume is 8 cm³ in every case, so only the surface area differs.",
-        "Method: 1. Cut the pieces from one potato on a tile, as above, with three sets of each.",
+        "Independent variable: the surface area of potato tissue, changed by cutting the same volume into more pieces. Dependent variable: the percentage change in total mass in a fixed time.",
+        "Controlled variables: the total volume (and starting mass) of potato, from the same potato with no skin; the concentration and volume of the solution (e.g. 0.8 M sucrose, or distilled water); temperature, time and blotting method.",
+        "Cut 2 cm × 2 cm × 2 cm cubes, each of volume 8 cm³. Leave one cube whole, with surface area 6 × 2 × 2 = 24 cm².",
+        "Cut one cube in half to give two 2 × 2 × 1 cm slabs, with surface area 2 × 16 = 32 cm².",
+        "Cut one cube into four 2 × 1 × 1 cm bars, with surface area 4 × 10 = 40 cm². Cut one cube into eight 1 cm cubes, with surface area 8 × 6 = 48 cm².",
+        "The total volume is 8 cm³ in every case, so only the surface area differs, which makes it a fair test.",
+        "No separate control is needed, because the treatments are compared with each other; the whole 2 cm cube is the reference. The surface area to volume idea links to Levels of organisation."
+      ],
+      "tip": "Exams ask you to explain the effect of surface area on the rate of osmosis. Give the reason: more membrane in contact with the solution lets more water cross at once."
+    },
+    {
+      "h": "Investigation: surface area, method",
+      "b": "Each set of pieces is weighed as a group, so the result is the percentage change in the total mass of the set.",
+      "points": [
+        "1. Cut the pieces from one potato on a tile, as above, with three sets of each.",
         "2. Blot each set and weigh all its pieces together.",
         "3. Place each set in its own beaker containing the same volume of the same solution, at the same temperature.",
         "4. After a fixed time, e.g. 30 minutes, remove them, blot each piece in the same way, and reweigh the set.",
-        "5. Calculate the percentage change in mass for each set, and the mean for each surface area.",
-        "No separate control is needed, because the treatments are compared with each other; the whole 2 cm cube is the reference. The surface area to volume idea links to Levels of organisation."
+        "5. Calculate the percentage change in mass for each set, and the mean for each surface area."
       ]
     },
     {
       "h": "Calculations and worked examples",
+      "b": "Raw masses are only useful once they are turned into a rate or a percentage change. These are the formulas and two worked examples for you to copy the method from.",
       "points": [
-        "Change in mass = final mass minus initial mass. Rate = change in mass divided by time. Percentage change in mass = (final mass minus initial mass) divided by initial mass, multiplied by 100. A gain is positive; a loss is negative.",
+        "Change in mass = final mass minus initial mass. Rate = change in mass divided by time.",
+        "Percentage change in mass = (final mass minus initial mass) divided by initial mass, multiplied by 100. A gain is positive; a loss is negative.",
         "Worked example, Visking bag: initial mass 12.40 g, mass after 30 minutes 13.30 g. Change = +0.90 g. Rate = 0.90 ÷ 30 = 0.03 g per minute. Percentage change = 0.90 ÷ 12.40 × 100 = 7.3%.",
-        "Worked example, potato: a cylinder of 2.50 g has a mass of 2.20 g after 30 minutes in 1.0 M sucrose. Change = −0.30 g, and percentage change = −0.30 ÷ 2.50 × 100 = −12%. A cylinder of 2.00 g that becomes 2.30 g in distilled water has a change of +0.30 g, so percentage change = +0.30 ÷ 2.00 × 100 = +15%.",
-        "Graphs: plot the factor (independent variable) on the x-axis and the rate or percentage change in mass (dependent variable) on the y-axis, using the mean of the replicates. Alternatively plot mass against time for each value, where a steeper line shows a faster rate."
-      ]
+        "Worked example, potato: a cylinder of 2.50 g has a mass of 2.20 g after 30 minutes in 1.0 M sucrose. Change = −0.30 g, and percentage change = −0.30 ÷ 2.50 × 100 = −12%.",
+        "A cylinder of 2.00 g that becomes 2.30 g in distilled water has a change of +0.30 g, so percentage change = +0.30 ÷ 2.00 × 100 = +15%.",
+        "Graphs: plot the factor (independent variable) on the x-axis and the rate or percentage change in mass (dependent variable) on the y-axis, using the mean of the replicates.",
+        "Alternatively plot mass against time for each value, where a steeper line shows a faster rate, because mass is changing more quickly."
+      ],
+      "tip": "Exams ask you to calculate percentage change in mass and to interpret a graph of percentage change against concentration. Show the formula and keep the sign: a loss is negative."
     },
     {
       "h": "Investigation: safety",
+      "b": "This investigation uses sharp tools, hot water and sugar solution, so each hazard needs a simple precaution.",
       "points": [
         "Cut potato on a white tile, cutting away from the body and fingers; carry scalpels and cork borers safely.",
         "Hot water baths: use a test-tube holder or tongs to handle beakers and bags in water above about 40 °C, and keep baths at or below 50 °C to avoid scalds.",
@@ -97,19 +168,25 @@
     },
     {
       "h": "Investigation: expected results and conclusions",
+      "b": "Each factor gives a typical pattern. A good conclusion states the pattern, uses your own data and says whether it supports the hypothesis.",
       "points": [
-        "Concentration gradient (Visking): the bags gain mass, faster with higher sucrose concentration, and the control bag stays the same. The mass gain slows over time in every bag, because the entering water dilutes the solution inside, reducing the gradient, and the bag becomes tight. Conclusion: the rate of osmosis increases as the concentration gradient increases.",
-        "Concentration (potato): cylinders gain mass and feel firm (turgid) in distilled water and dilute solutions, because water enters the cells. They lose mass and feel soft and bendy (flaccid) in concentrated solutions, because water leaves the cells. The larger the difference between the solution and the cell sap, the larger the change. Where the graph line crosses zero change, the solution has the same water concentration as the cell sap (isotonic), so there is no net osmosis.",
-        "Temperature: the rate of mass gain increases steadily as temperature increases. There is no optimum and no sharp fall at high temperature, because no enzyme is involved and Visking tubing isn't denatured. Conclusion: the rate of osmosis increases with temperature.",
+        "Concentration gradient (Visking): the bags gain mass, faster with higher sucrose concentration, and the control bag stays the same. Conclusion: the rate of osmosis increases as the concentration gradient increases.",
+        "In every bag the mass gain slows over time, because the entering water dilutes the solution inside, reducing the gradient, and the bag becomes tight.",
+        "Concentration (potato): cylinders gain mass and feel firm (turgid) in distilled water and dilute solutions, because water enters the cells. They lose mass and feel soft and bendy (flaccid) in concentrated solutions, because water leaves the cells.",
+        "The larger the difference between the solution and the cell sap, the larger the change. Where the graph line crosses zero change, the solution has the same water concentration as the cell sap (isotonic), so there is no net osmosis.",
+        "Temperature: the rate of mass gain increases steadily as temperature increases. Conclusion: the rate of osmosis increases with temperature.",
+        "There is no optimum and no sharp fall at high temperature, because no enzyme is involved and Visking tubing isn't denatured (it keeps its shape and does not stop working when hot).",
         "Surface area: the percentage change in mass in the same time is greatest for the eight 1 cm cubes (48 cm²) and least for the whole cube (24 cm²). Conclusion: the rate of osmosis increases with surface area.",
-        "Each conclusion should quote the primary data, e.g. the mean rates, and say whether they support the hypothesis."
-      ]
+        "Each conclusion should quote the primary data (your own measured results), e.g. the mean rates, and say whether they support the hypothesis."
+      ],
+      "tip": "The temperature graph rises steadily, so don't draw an enzyme-style optimum curve. Exams ask you to explain the effect of each factor and to use primary data to support a conclusion."
     },
     {
       "h": "Investigation: sources of error and limitations",
+      "b": "No school experiment is perfect. Knowing what can go wrong, and how to reduce it, lets you explain unexpected results and suggest improvements.",
       "points": [
         "Blotting: leaving more or less surface water on bags or potato pieces changes the mass, so blot in exactly the same way each time. Potato cut into more pieces holds more surface liquid, which can exaggerate the surface-area effect.",
-        "Leaks: badly tied bags leak; check the knots and discard any leaking bag. Some sucrose diffuses slowly out of Visking tubing, reducing the gradient over time.",
+        "Leaks: badly tied bags leak, so check the knots and discard any leaking bag. Some sucrose diffuses slowly out of Visking tubing, reducing the gradient over time.",
         "Bags or pieces that differ in size, volume of solution or trapped air are not fair comparisons; measure volumes with a syringe and cut potato accurately.",
         "Water-bath temperatures drift, and bags cool while being weighed; check the temperature at each reading and weigh quickly.",
         "A balance reading only to 0.1 g or 1 g can't detect small changes; use one reading to 0.01 g.",

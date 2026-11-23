@@ -6,92 +6,133 @@
   "notes": [
     {
       "h": "The atom in the orbital model",
+      "b": "The current model of the atom has a tiny nucleus at the centre and electrons arranged around it in energy levels and orbitals. Knowing these four ideas, nucleus, energy level, orbital and capacity, lets you describe any atom.",
       "points": [
-        "The nucleus is a tiny, dense, positively charged centre of the atom, containing protons and neutrons (see \"Atomic structure: the nuclear model\").",
-        "Electrons surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…",
-        "The main energy levels increase in energy, and in average distance from the nucleus, as n increases.",
-        "Within a main energy level, electrons occupy orbitals.",
+        "The nucleus is a tiny, dense, positively charged centre of the atom, containing protons (positive particles) and neutrons (particles with no charge). There is more on this in Atomic structure: the nuclear model.",
+        "Electrons (the negatively charged particles) surround the nucleus and are arranged in main energy levels, numbered n = 1, 2, 3, 4…",
+        "The main energy levels increase in energy, and in average distance from the nucleus, as n increases, so an electron in n = 3 has more energy and is on average further out than one in n = 1.",
+        "Within a main energy level, electrons occupy orbitals, which are the smaller regions that make up the level.",
         "An orbital is a region of space around the nucleus in which there is a high probability of finding an electron.",
-        "Each orbital can hold a maximum of two electrons.",
+        "Each orbital can hold a maximum of two electrons, so an orbital that is full is holding a pair.",
         "The maximum number of electrons in main energy level n is 2n²: 2 in n = 1, 8 in n = 2, 18 in n = 3 and 32 in n = 4.",
-        "Each main energy level is divided into sublevels made of orbitals; the sublevels and how they fill are covered below."
-      ]
+        "Each main energy level is divided into sublevels (smaller groups of orbitals within the level), made of orbitals; the sublevels and how they fill are covered later in this subsection."
+      ],
+      "tip": "If asked to define an atomic orbital, say it is a region of space around the nucleus where there is a high probability of finding an electron. Never call an orbital a path or an orbit. To describe the structure of an atom, refer to the nucleus, the energy levels and the orbitals."
     },
     {
       "h": "The orbital model compared with the Bohr model",
+      "b": "The Bohr model, an older picture of the atom, drew electrons orbiting like planets. The orbital model keeps part of that idea but changes how we describe where an electron is.",
       "points": [
         "The Bohr model gives electrons fixed circular paths at fixed distances from the nucleus.",
-        "The orbital model gives no exact path or position for an electron, only its probability of being found in each region.",
-        "The orbital model keeps the Bohr idea of fixed energy levels.",
-        "Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability.",
+        "The orbital model gives no exact path or position for an electron, only the probability of it being found in each region.",
+        "The orbital model keeps the Bohr idea of fixed energy levels, so electrons can only have certain energies.",
+        "Electrons behave both as particles and as waves, so their exact position and motion cannot both be known; the orbital model therefore describes probability instead of a path.",
         "Diagram: the nucleus at the centre, with fuzzy regions (electron clouds) around it; label the nucleus (protons, neutrons) and the orbitals (electron density). Beside it, draw a Bohr diagram of circular shells for comparison."
-      ]
+      ],
+      "tip": "To give two differences between the models, use the paths-versus-probability difference and the particle-and-wave behaviour of electrons. Heisenberg's name is not required: describe the idea without it."
     },
     {
       "h": "Energy levels and states (Higher Level only)",
+      "b": "In hydrogen, the single electron cannot have just any energy. This is the idea behind the hydrogen spectrum, and it gives two terms, ground state and excited state, that you must be able to distinguish.",
       "points": [
         "The electron in a hydrogen atom can exist only in certain allowed energy levels, n = 1, 2, 3…, so its energy is quantised: it can take only certain fixed values.",
         "The ground state is the lowest energy level available to an electron, which is n = 1 for hydrogen.",
-        "An excited state is any higher energy level, reached when the atom absorbs energy, for example from heat or an electric discharge.",
-        "Excited states are unstable, and the electron soon falls back to a lower level."
-      ]
+        "An excited state is any higher energy level, reached when the atom absorbs energy, for example from heat or an electric discharge (a current passed through a gas).",
+        "Excited states are unstable, so the electron soon falls back to a lower level."
+      ],
+      "tip": "Distinguish the two states clearly: ground state is the lowest level available (n = 1 for hydrogen), and an excited state is any higher level reached by absorbing energy."
     },
     {
       "h": "Electron transitions and photons (Higher Level only)",
+      "b": "When an excited electron drops to a lower level, the atom has to get rid of the energy difference. It does so as light, and the equation Em − En = hf links the size of the drop to the light given out.",
       "points": [
         "An electron transition is a jump of an electron from one energy level to another.",
         "When an electron falls from a higher level (energy Em) to a lower level (energy En), the energy difference is emitted as a photon, a packet of light energy.",
-        "The photon's energy is related to its frequency by Em − En = hf, where h is Planck's constant, 6.626 × 10⁻³⁴ J s, and f is the frequency in hertz (s⁻¹).",
+        "The photon's energy is related to its frequency (the number of wave cycles per second) by Em − En = hf, where h is Planck's constant, 6.626 × 10⁻³⁴ J s, and f is the frequency in hertz (s⁻¹).",
         "Light is emitted when electrons fall to lower levels; when electrons jump up to higher levels they absorb energy instead.",
         "Because the energy levels are fixed, each transition has one definite energy difference, so it emits light of one definite frequency, seen as one line of one colour.",
         "A larger energy gap gives light of higher frequency and shorter wavelength."
-      ]
+      ],
+      "tip": "Light is emitted when electrons fall to lower levels, not when they jump up. The electron falls to a lower level, not necessarily to the ground state. To explain why each line has a definite frequency, say the levels are fixed, so each transition has one definite energy difference, and refer to Em − En = hf."
     },
     {
-      "h": "The hydrogen emission spectrum (Higher Level only)",
+      "h": "How the hydrogen emission spectrum is produced (Higher Level only)",
+      "b": "An emission spectrum is the pattern of light an element gives out when its atoms are excited. Hydrogen's pattern is separate lines, and that is direct evidence for fixed energy levels.",
       "points": [
-        "An emission spectrum is produced by passing an electric discharge through hydrogen gas at low pressure and viewing the light through a spectroscope or diffraction grating.",
+        "An emission spectrum is produced by passing an electric discharge through hydrogen gas at low pressure and viewing the light through a spectroscope (an instrument that splits light into its colours) or diffraction grating.",
         "It is a line spectrum: separate bright coloured lines on a dark background, not the continuous band of colours produced by white light.",
         "Each line corresponds to one transition from a higher energy level to a lower one.",
+        "A continuous spectrum would be seen if the electron could have any energy, so the line spectrum is evidence that energy levels are fixed."
+      ],
+      "tip": "To explain how the lines arise, say each line is one transition from a higher level to a lower one. To show it is evidence for energy levels, say that if an electron could have any energy the spectrum would be continuous."
+    },
+    {
+      "h": "The Balmer series and visible lines (Higher Level only)",
+      "b": "The lines of hydrogen fall into groups called series, named by the level the electrons fall to. The visible lines are the Balmer series, and each colour comes from a different starting level.",
+      "points": [
         "The visible lines form the Balmer series, made by electrons falling to n = 2.",
         "Red line, 656 nm: the electron falls from n = 3 to n = 2.",
         "Blue-green line, 486 nm: the electron falls from n = 4 to n = 2.",
         "Blue-violet line, 434 nm: the electron falls from n = 5 to n = 2.",
-        "Violet line, 410 nm: the electron falls from n = 6 to n = 2.",
-        "Transitions down to n = 1 form the Lyman series, which lies in the ultraviolet.",
-        "Transitions down to n = 3 form the Paschen series, which lies in the infrared.",
+        "Violet line, 410 nm: the electron falls from n = 6 to n = 2."
+      ],
+      "tip": "If asked which series is in the visible region, answer the Balmer series, and say the electrons fall to n = 2."
+    },
+    {
+      "h": "Other series and the spacing of lines (Higher Level only)",
+      "b": "Falls to levels other than n = 2 give lines outside the visible region. The spacing of the lines also reflects how the levels are spaced.",
+      "points": [
+        "Transitions down to n = 1 form the Lyman series, which lies in the ultraviolet (light of higher energy than visible light).",
+        "Transitions down to n = 3 form the Paschen series, which lies in the infrared (light of lower energy than visible light).",
         "The lines get closer together at higher energy, because the energy levels themselves get closer together further from the nucleus.",
-        "A continuous spectrum would be seen if the electron could have any energy, so the line spectrum is evidence that energy levels are fixed.",
-        "Diagram: an energy-level diagram with levels n = 1 to 6, spaced more closely going up; downward arrows to n = 2 labelled with the four visible lines, plus arrows to n = 1 (ultraviolet) and n = 3 (infrared). Beside it, sketch the line spectrum with the four visible lines labelled."
+        "Diagram: an energy-level diagram with levels n = 1 to 6, spaced more closely going up; downward arrows to n = 2 labelled with the four visible lines, plus arrows to n = 1 (ultraviolet) and n = 3 (infrared).",
+        "Diagram: beside it, sketch the line spectrum with the four visible lines labelled."
       ]
     },
     {
       "h": "Why elements give colours",
+      "b": "Hydrogen's lines come from electrons changing level. The same thing happens in every element, which is why heating a compound in a flame makes a colour you can use to identify it.",
       "points": [
         "Heating an atom in a flame gives energy to its electrons, which move up to higher energy levels.",
         "The electrons fall back to lower levels and give out the energy as light.",
         "Each element has its own set of energy levels, so it gives out its own colours of light, which identifies the element."
-      ]
+      ],
+      "tip": "To explain why different metals give different colours, say each element has its own set of energy levels, so the light given out when electrons fall back is different for each. Also name the steps in order: absorb energy, move up, then fall back and emit light."
     },
     {
-      "h": "Flame test method (investigation)",
+      "h": "Flame test: aim, variables and equipment (investigation)",
+      "b": "A flame test identifies a metal from the colour its salt gives to a flame. A fair test needs the right equipment, and everything except the metal kept the same.",
       "points": [
         "Aim: to identify the metal in a salt from the colour it gives to a flame.",
         "Equipment: Bunsen burner; platinum or nichrome wire loop (or wooden splints soaked overnight in deionised water); watch glasses; concentrated hydrochloric acid; samples of the chlorides of the six metals (lithium, sodium, potassium, copper, barium and strontium); deionised water.",
-        "Independent variable: the metal in the salt being tested.",
-        "Dependent variable: the colour of the flame.",
+        "Independent variable (the one you change): the metal in the salt being tested.",
+        "Dependent variable (the one you observe): the colour of the flame.",
         "Controlled variables: the same flame, the same amount of salt on the wire, and the same cleaning procedure before every test.",
-        "Control: a clean wire with no salt on it, held in the flame, gives no colour, so any colour seen with a salt comes from the salt.",
+        "Control: a clean wire with no salt on it, held in the flame, gives no colour, so any colour seen with a salt comes from the salt."
+      ],
+      "tip": "Only the six metals named here are tested: do not add calcium or others."
+    },
+    {
+      "h": "Flame test: method (investigation)",
+      "b": "The method is four steps, repeated for each salt. The cleaning step matters most, because leftover salt from a previous test would colour the flame and give a wrong result.",
+      "points": [
         "1. Clean the wire by dipping it in concentrated hydrochloric acid and holding it in the hottest part of a non-luminous (blue) Bunsen flame, with the air hole open, until it gives no colour.",
-        "2. Dip the wire in the acid again, then into the salt so that a little sticks to it; chlorides are used because they are volatile.",
+        "2. Dip the wire in the acid again, then into the salt so that a little sticks to it; chlorides are used because they are volatile (they vaporise easily in the flame).",
         "3. Hold the wire at the edge of the non-luminous flame and note the colour.",
         "4. Clean the wire again before testing the next salt; if splints are used, use a different splint for each salt.",
         "Repeats: repeat each test to confirm the colour observed.",
-        "Viewing potassium through cobalt-blue glass filters out the yellow light from any sodium impurity, so the lilac colour can be seen.",
-        "Safety: wear goggles.",
+        "Viewing potassium through cobalt-blue glass filters out the yellow light from any sodium impurity, so the lilac colour can be seen."
+      ],
+      "tip": "Use a non-luminous flame with the air hole open, because a yellow luminous flame hides colours. If asked how to clean the wire, say dip it in concentrated hydrochloric acid and hold it in the flame until it gives no colour. Cobalt-blue glass is used to filter out the yellow of sodium impurity."
+    },
+    {
+      "h": "Flame test: safety, conclusion and diagrams (investigation)",
+      "b": "The chemicals and the hot wire are hazards, and the result only means something when it is compared with known colours. Each piece of apparatus also needs a labelled diagram.",
+      "points": [
+        "Safety: wear goggles, so that no splash or spark reaches the eyes.",
         "Safety: concentrated hydrochloric acid is corrosive, so wear gloves and use a small volume.",
         "Safety: barium salts are toxic, so wash hands after handling them and do not ingest them.",
-        "Safety: keep the hot wire away from the skin.",
+        "Safety: keep the hot wire away from the skin, because it can burn.",
         "Conclusion: a flame colour that matches a reference colour in the list of flame colours below identifies the metal in the salt.",
         "Diagram: a Bunsen burner with a non-luminous (blue) flame, and a wire loop holding the salt at the edge of the flame; label the air hole, the non-luminous flame and the wire loop.",
         "Diagram: a wooden splint loaded with salt, held at the edge of the flame; label the splint and the salt.",
@@ -100,25 +141,35 @@
     },
     {
       "h": "Flame colours",
+      "b": "Each of the six metals gives its own flame colour. Learn the colour for each, and note the one pair that look alike.",
       "points": [
-        "Lithium: crimson red.",
-        "Sodium: bright yellow-orange; the colour is persistent.",
+        "Lithium: crimson red, which is why it is easily confused with strontium.",
+        "Sodium: bright yellow-orange; the colour is persistent (it lasts and is strong).",
         "Potassium: lilac (pale purple).",
         "Copper: blue-green.",
         "Barium: pale (apple) green.",
         "Strontium: red (scarlet).",
         "Lithium and strontium are both red and are hard to tell apart by eye, so their line spectra are used to distinguish them."
-      ]
+      ],
+      "tip": "You may be asked for the flame colours of named metals, so learn all six. Lithium and strontium are both red: say that their line spectra distinguish them."
     },
     {
       "h": "Line emission spectra",
+      "b": "A flame colour is a mix of light of several wavelengths. Splitting the light with a spectroscope separates it into lines, which gives a more precise way to identify an element.",
       "points": [
         "A spectroscope splits the light from a flame or electric discharge into its separate colours.",
         "Each element gives a line emission spectrum: a pattern of bright lines at specific wavelengths on a dark background, unique to that element like a fingerprint.",
-        "To identify an element, compare the lines from an unknown sample, obtained as primary data from a spectroscope or as secondary data such as a published spectrum, with reference spectra of known elements.",
-        "A match of all the lines identifies the element.",
+        "To identify an element, compare the lines from an unknown sample, obtained as primary data (your own measurements) from a spectroscope or as secondary data (from another source) such as a published spectrum, with reference spectra of known elements.",
+        "A match of all the lines identifies the element."
+      ],
+      "tip": "To show how a line spectrum can distinguish lithium from strontium, say the lines of an unknown are compared with reference spectra, and a match of all the lines identifies the element."
+    },
+    {
+      "h": "Spectra of sodium, strontium and copper, and uses",
+      "b": "The syllabus names three elements whose line spectra you must be able to use. Their lines explain the flame colours seen, and the same idea is applied in stars and fireworks.",
+      "points": [
         "Sodium: two very close bright yellow lines at 589.0 nm and 589.6 nm (the sodium D lines), which give its yellow flame.",
-        "Strontium: several lines, strongest in the red.",
+        "Strontium: several lines, strongest in the red, so its flame looks red.",
         "Copper: lines mainly in the green, giving its blue-green flame.",
         "Line spectra are used to identify elements in samples and in stars.",
         "Fireworks use metal salts for their colours: strontium for red, barium for green, sodium for yellow and copper for blue-green."
@@ -126,9 +177,19 @@
     },
     {
       "h": "Electrons in main energy levels",
+      "b": "For the first 20 elements, you can write an atom's electrons as a list of numbers, one for each main energy level. The electrons fill from the inside out.",
       "points": [
-        "Electrons fill the lowest energy levels available first.",
+        "Electrons fill the lowest energy levels available first, because that is the most stable arrangement.",
         "For elements 1 to 20, the first main energy level holds up to 2 electrons, the second up to 8 and the third up to 8; the fourth level starts to fill at potassium.",
+        "The outer-shell (valence) electrons, those in the outermost occupied level, determine the chemical properties of an element.",
+        "Elements in the same group have the same number of outer electrons, which is why they have similar properties."
+      ],
+      "tip": "Ordinary Level uses main energy levels only, for elements 1 to 20. Do not write potassium as 2,8,9: the fourth level starts to fill at potassium, so it is 2,8,8,1."
+    },
+    {
+      "h": "Electron arrangements of the first 20 elements: examples",
+      "b": "Write the number of electrons in each main energy level, from the inside out, separated by commas. These ten examples show the pattern.",
+      "points": [
         "Hydrogen (H) 1.",
         "Helium (He) 2.",
         "Carbon (C) 2,4.",
@@ -136,82 +197,124 @@
         "Sodium (Na) 2,8,1.",
         "Magnesium (Mg) 2,8,2.",
         "Chlorine (Cl) 2,8,7.",
-        "Argon (Ar) 2,8,8.",
+        "Argon (Ar) 2,8,8."
+      ]
+    },
+    {
+      "h": "Examples continued: potassium and calcium, and the sodium diagram",
+      "b": "Potassium and calcium show the fourth level beginning to fill, and a shell diagram is a way to draw an arrangement.",
+      "points": [
         "Potassium (K) 2,8,8,1.",
         "Calcium (Ca) 2,8,8,2.",
-        "Diagram: a Bohr-style shell diagram for sodium; label the nucleus as 11 protons and 12 neutrons, and label the shells holding 2, 8 and 1 electrons.",
-        "The outer-shell (valence) electrons determine the chemical properties of an element.",
-        "Elements in the same group have the same number of outer electrons."
+        "Diagram: a Bohr-style shell diagram for sodium; label the nucleus as 11 protons and 12 neutrons, and label the shells holding 2, 8 and 1 electrons."
       ]
     },
     {
       "h": "Stable configurations and ions",
+      "b": "Atoms with a full outer energy level are stable. Many atoms reach one by losing or gaining electrons, which turns them into ions (charged particles).",
       "points": [
-        "A stable electronic configuration has a full outer energy level, as in the noble gases: helium 2, neon 2,8 and argon 2,8,8.",
+        "A stable electronic configuration has a full outer energy level, as in the noble gases (the very unreactive elements in group 18): helium 2, neon 2,8 and argon 2,8,8.",
         "Atoms usually reach a full outer level of eight electrons (an octet), or two for the first level.",
         "Metals in groups 1, 2 and 13 lose electrons to form positive ions with a noble-gas configuration: Na⁺ 2,8; Mg²⁺ 2,8; Al³⁺ 2,8.",
         "Potassium and calcium ions also have noble-gas configurations: K⁺ 2,8,8; Ca²⁺ 2,8,8.",
         "Non-metals in groups 15, 16 and 17 gain electrons to form negative ions with a noble-gas configuration: N³⁻ 2,8; O²⁻ 2,8; F⁻ 2,8.",
         "Sulfide and chloride ions have noble-gas configurations: S²⁻ 2,8,8; Cl⁻ 2,8,8.",
         "Ions with the same electron arrangement as each other are isoelectronic; for example Na⁺, Mg²⁺, F⁻, O²⁻ and Ne all have the arrangement 2,8."
-      ]
+      ],
+      "tip": "Exams ask you to name an ion isoelectronic with a given atom, so match the electron arrangement. To say what is stable about an ion, say it has a full outer level, like a noble gas."
     },
     {
       "h": "Sublevels and orbitals (Higher Level only)",
+      "b": "A main energy level is split into sublevels, and each sublevel is made of orbitals. The type of sublevel decides how many orbitals it has and so how many electrons it holds.",
       "points": [
         "A sublevel is a subdivision of a main energy level, made of orbitals of equal energy; the sublevels are s, p, d and f.",
-        "An s sublevel has 1 orbital, holding 2 electrons.",
-        "A p sublevel has 3 orbitals, holding 6 electrons.",
-        "A d sublevel has 5 orbitals, holding 10 electrons.",
-        "Level 1 contains 1s only.",
-        "Level 2 contains 2s and 2p.",
+        "An s sublevel has 1 orbital, holding 2 electrons, because each orbital holds 2.",
+        "A p sublevel has 3 orbitals, holding 6 electrons, because each orbital holds 2.",
+        "A d sublevel has 5 orbitals, holding 10 electrons, because 5 × 2 = 10."
+      ],
+      "tip": "Exams ask how many p orbitals are occupied in a given atom, so know that a p sublevel has three orbitals."
+    },
+    {
+      "h": "Which sublevels each level has, and the filling order (Higher Level only)",
+      "b": "The higher the main energy level, the more types of sublevel it contains. The sublevels fill in order of increasing energy, and this order has a surprise at 4s and 3d.",
+      "points": [
+        "Level 1 contains 1s only, so it holds just 2 electrons.",
+        "Level 2 contains 2s and 2p, so it holds 2 + 6 = 8 electrons.",
         "Level 3 contains 3s, 3p and 3d.",
         "Level 4 contains 4s, 4p, 4d and 4f.",
         "The order of filling, from lowest to highest energy, is 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
         "The 4s sublevel is lower in energy than 3d, so it fills first."
-      ]
+      ],
+      "tip": "4s fills before 3d. Do not write potassium as 2,8,9."
     },
     {
       "h": "Filling rules (Higher Level only)",
+      "b": "Three rules decide how electrons are placed in orbitals. Together they let you draw an orbital (box) diagram and count unpaired electrons.",
       "points": [
         "Aufbau principle: the filling rule above, applied to orbitals; electrons occupy the lowest-energy orbital available first.",
-        "Pauli exclusion principle: an orbital holds at most two electrons, and they must have opposite spins, shown as ↑↓.",
+        "Pauli exclusion principle: an orbital holds at most two electrons, and they must have opposite spins (a property of the electron, like turning in opposite directions), shown as ↑↓.",
         "Hund's rule: when filling orbitals of equal energy, such as the three 2p orbitals, electrons occupy them singly with parallel spins before any pairing occurs.",
         "Orbital (box) diagrams show one box per orbital, with arrows for electrons.",
-        "Nitrogen: 1s ↑↓; 2s ↑↓; 2p ↑ ↑ ↑, giving three unpaired electrons.",
-        "Oxygen: 1s ↑↓; 2s ↑↓; 2p ↑↓ ↑ ↑, giving two unpaired electrons."
-      ]
+        "Nitrogen: 1s ↑↓; 2s ↑↓; 2p ↑ ↑ ↑, giving three unpaired electrons (electrons alone in an orbital).",
+        "Oxygen: 1s ↑↓; 2s ↑↓; 2p ↑↓ ↑ ↑, giving two unpaired electrons, because its fourth 2p electron has to pair up with one already in an orbital."
+      ],
+      "tip": "You may be asked to state Hund's rule or the Pauli principle, and to give the number of unpaired electrons in an atom. For nitrogen it is three."
     },
     {
-      "h": "Writing configurations to element 36 (Higher Level only)",
+      "h": "Writing configurations up to calcium (Higher Level only)",
+      "b": "The s, p, d notation writes each sublevel followed by its number of electrons as a superscript. Up to calcium the sublevels simply fill in the order given above.",
       "points": [
         "Notation writes each sublevel followed by its number of electrons as a superscript: sodium 1s² 2s² 2p⁶ 3s¹.",
         "Chlorine: 1s² 2s² 2p⁶ 3s² 3p⁵.",
-        "Calcium: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s².",
-        "Beyond calcium the 3d sublevel fills.",
+        "Calcium: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s², with 4s filling before 3d because 4s is lower in energy.",
+        "Beyond calcium the 3d sublevel fills."
+      ],
+      "tip": "You may be asked to write the s, p, d configuration of an atom or an ion. Do not write configurations of transition metal ions: the specification excludes them."
+    },
+    {
+      "h": "Writing configurations from scandium to krypton (Higher Level only)",
+      "b": "Once 3d starts to fill, the configurations get longer. The 4s sublevel fills before 3d, but the configuration is written with the levels in order.",
+      "points": [
         "Iron: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁶ 4s², written in level order rather than filling order.",
         "Bromine: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁵.",
         "Krypton, element 36, ends 3d¹⁰ 4s² 4p⁶.",
-        "Noble-gas shorthand replaces the configuration of the previous noble gas with its symbol in square brackets: potassium [Ar] 4s¹; iron [Ar] 3d⁶ 4s².",
+        "Noble-gas shorthand replaces the configuration of the previous noble gas with its symbol in square brackets: potassium [Ar] 4s¹; iron [Ar] 3d⁶ 4s²."
+      ],
+      "tip": "Questions ask for the configuration of a first-row d-block element such as vanadium, chromium or iron. Work up the filling order to 4s, then add 3d, and write them in level order."
+    },
+    {
+      "h": "Exceptions: chromium and copper (Higher Level only)",
+      "b": "Two elements do not follow the filling order exactly. One electron moves from 4s into 3d, because a half-full or full d sublevel is more stable.",
+      "points": [
         "Chromium is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁵ 4s¹.",
         "Copper is an exception: 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s¹.",
-        "The chromium and copper exceptions occur because a half-full or full d sublevel is especially stable.",
+        "The chromium and copper exceptions occur because a half-full or full d sublevel is especially stable."
+      ],
+      "tip": "A question may ask for the configuration of a chromium atom. Write 3d⁵ 4s¹, not 3d⁴ 4s²."
+    },
+    {
+      "h": "Configurations of ions (Higher Level only)",
+      "b": "To write an ion, take the atom's configuration and remove or add electrons at the outermost sublevel. The result is usually a stable configuration, with full sublevels.",
+      "points": [
         "Ions, excluding transition metal ions, are written by removing or adding electrons from the outermost sublevel: Na⁺ 1s² 2s² 2p⁶.",
         "Chloride ion: Cl⁻ 1s² 2s² 2p⁶ 3s² 3p⁶.",
         "Bromide ion: Br⁻ 1s² 2s² 2p⁶ 3s² 3p⁶ 3d¹⁰ 4s² 4p⁶.",
         "Calcium ion: Ca²⁺ 1s² 2s² 2p⁶ 3s² 3p⁶.",
         "Stable configurations at this level are full sublevels (s², p⁶) and the noble-gas configuration ns² np⁶."
-      ]
+      ],
+      "tip": "Transition metal ions such as Fe²⁺ and Cu²⁺ are excluded by the specification, so do not write their configurations."
     },
     {
       "h": "Shapes of s and p orbitals (Higher Level only)",
+      "b": "An orbital's shape shows where the electron is most likely to be found. You need only the s and p shapes.",
       "points": [
         "An s orbital is spherical and centred on the nucleus.",
-        "The 2s orbital is larger than the 1s orbital.",
+        "The 2s orbital is larger than the 1s orbital, because it belongs to a higher energy level, further from the nucleus.",
         "A p orbital is dumbbell-shaped, with two lobes on either side of the nucleus.",
         "The three p orbitals in a sublevel, px, py and pz, lie at right angles to each other along the x, y and z axes, and have equal energy.",
         "Diagram: a sphere labelled s, and three dumbbells along the x, y and z axes labelled px, py and pz."
-      ]
+      ],
+      "tip": "You may be asked to draw the shapes of s and p orbitals, so label the axes of the p orbitals. Do not draw d or f orbital shapes."
     }
   ],
   "keyTerms": [

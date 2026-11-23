@@ -6,83 +6,96 @@
   "notes": [
     {
       "h": "Layers of the earth",
+      "b": "The earth is not the same all the way through. It is built in layers, and each layer differs in what it is made of and whether it is solid or liquid.",
       "points": [
-        "The earth is made of concentric layers, from the outside in: crust, mantle, outer core and inner core.",
-        "Density and temperature increase towards the centre of the earth.",
-        "The earth's radius is about 6,370 km.",
-        "Diagram: labelled cross-section of the earth showing every layer and both boundaries between them."
-      ]
+        "The earth is made of concentric layers (layers one inside another, like the rings of an onion). From the outside in they are the crust, the mantle, the outer core and the inner core.",
+        "Density (how much mass is packed into a given volume) and temperature both increase towards the centre of the earth, so the innermost layers are the densest and hottest.",
+        "This is why the core, at the centre, is the hottest and densest part, while the thin crust at the surface is the coolest and lightest.",
+        "The earth's radius (the distance from the surface to the centre) is about 6,370 km.",
+        "Diagram: draw a labelled cross-section of the earth showing every layer and both boundaries between them."
+      ],
+      "tip": "Exams give you a labelled diagram of the earth's layers and ask you to match letters to crust, mantle, outer core and inner core. At Higher Level the diagram also includes the lithosphere, asthenosphere, oceanic crust and continental crust."
     },
     {
       "h": "Crust",
-      "b": "The crust is the thin, solid outer layer of the earth. It exists in two types, which differ in thickness, density and rock type.",
+      "b": "The crust is the thin, solid outer layer of the earth, the part we live on. It exists in two types, which differ in thickness, density and rock type.",
       "points": [
-        "Continental crust is about 30–70 km thick and is thickest under high mountain ranges.",
+        "Continental crust (the crust that makes up the land) is about 30–70 km thick and is thickest under high mountain ranges.",
         "Continental crust has an average density of about 2.7 g/cm³ (grams per cubic centimetre).",
-        "Continental crust is mainly granite-type rock, rich in silica and aluminium; its old name is sial.",
-        "Oceanic crust is about 5–10 km thick and has an average density of about 3.0 g/cm³.",
-        "Oceanic crust is mainly basalt, rich in silica and magnesium; its old name is sima.",
-        "Continental crust is thicker but less dense than oceanic crust.",
-        "No oceanic crust is older than about 200 million years, while some continental rock is billions of years old, because oceanic crust is continually created and destroyed; that process is explained in the plate tectonics model and at plate boundaries."
-      ]
+        "Continental crust is mainly granite-type rock, rich in silica (a mineral made of silicon and oxygen) and aluminium; its old name is sial.",
+        "Oceanic crust (the crust under the oceans) is about 5–10 km thick and has an average density of about 3.0 g/cm³.",
+        "Oceanic crust is mainly basalt (a dark volcanic rock), rich in silica and magnesium; its old name is sima.",
+        "Continental crust is thicker but less dense than oceanic crust, because oceanic crust is thinner but denser; compare 2.7 with 3.0 g/cm³.",
+        "No oceanic crust is older than about 200 million years, while some continental rock is billions of years old, because oceanic crust is continually created and destroyed. There is more on this in the plate tectonics model and at plate boundaries."
+      ],
+      "tip": "Keep the two crust types straight: continental is thicker but less dense, oceanic is thinner but denser."
     },
     {
       "h": "Boundaries within the earth",
+      "b": "Where one layer meets the next, the rock changes sharply. These sharp boundaries have names, and exams ask you to tell them apart.",
       "points": [
-        "A discontinuity is a sharp boundary between two layers of the earth.",
+        "A discontinuity is a sharp boundary between two layers of the earth, where the material changes.",
         "The Moho (Mohorovičić discontinuity) is the boundary between the crust and the mantle, where earthquake waves speed up suddenly.",
-        "The Moho is named after Andrija Mohorovičić, a Croatian seismologist, who identified it in 1909 from earthquake records.",
+        "The Moho is named after Andrija Mohorovičić, a Croatian seismologist (a scientist who studies earthquakes), who identified it in 1909 from earthquake records.",
         "The Gutenberg discontinuity is the boundary between the mantle and the core, at the base of the mantle."
-      ]
+      ],
+      "tip": "Exams ask for the name of the boundary between the crust and the mantle (the Moho) and what the word Moho means. The Moho separates crust and mantle; the Gutenberg discontinuity separates mantle and core. Don't swap them."
     },
     {
       "h": "Mantle, asthenosphere and lithosphere",
       "b": "The mantle is the thickest layer. Its upper part contains the layers on which the crust rests and moves.",
       "points": [
         "The mantle extends to about 2,900 km depth and is made of dense rock rich in iron and magnesium.",
-        "The mantle has an upper part and a lower part.",
-        "Asthenosphere: the semi-molten, plastic layer in the upper mantle, beneath the lithosphere, on which the plates move. It is not liquid.",
+        "The mantle has an upper part and a lower part, and it is the upper part that holds the asthenosphere and the base of the lithosphere.",
+        "Asthenosphere: the semi-molten (partly melted), plastic (able to flow slowly without breaking) layer in the upper mantle, beneath the lithosphere, on which the plates move. It is not liquid.",
         "Magma is molten rock in the mantle; it is called lava only once it erupts at the surface.",
         "Lithosphere: the rigid outer shell made of the crust plus the solid top of the upper mantle. It is about 100 km thick on average, thinner under the oceans and thicker under the continents.",
-        "The lithosphere is broken into tectonic plates."
-      ]
+        "The lithosphere is broken into tectonic plates (large slabs of rigid rock), which is why the rigid lithosphere can move as separate pieces over the plastic asthenosphere."
+      ],
+      "tip": "Exams ask for the name of the layer made of crust plus upper mantle (lithosphere), and for the name of molten rock in the mantle (magma, not lava; Ordinary Level asks this directly). Don't call the asthenosphere liquid: it is semi-molten or plastic."
     },
     {
       "h": "The core",
-      "b": "The core is made of iron and nickel and is divided into a liquid outer part and a solid inner part.",
+      "b": "The core is the centre of the earth. It is made of iron and nickel and is divided into a liquid outer part and a solid inner part.",
       "points": [
-        "Outer core: liquid, from about 2,900 km to about 5,150 km depth. Movement of this liquid metal generates the earth's magnetic field.",
+        "Exams ask for the two main metals of the core: iron and nickel.",
+        "Outer core: liquid, from about 2,900 km to about 5,150 km depth. Movement of this liquid metal generates the earth's magnetic field (the field that makes a compass needle point north).",
         "Inner core: solid, from about 5,150 km to the centre of the earth. It is the hottest part of the earth, at about 5,500 °C, similar to the surface of the sun.",
-        "The inner core is solid despite its heat because the pressure at that depth is enormous."
-      ]
+        "The inner core is solid despite its heat because the pressure at that depth is enormous, which means the metal cannot melt."
+      ],
+      "tip": "The outer core is liquid and the inner core is solid. Never swap them."
     },
     {
       "h": "Sources of heat and convection currents",
+      "b": "The inside of the earth is hot, and that heat keeps the mantle moving. This movement is what later drives changes in the crust.",
       "points": [
-        "Internal heat comes from the decay of radioactive elements and from heat left over from the earth's formation.",
-        "Convection currents are circular movements of semi-molten rock in the mantle.",
+        "Internal heat comes from the decay of radioactive elements (unstable elements that give off heat as they break down) and from heat left over from the earth's formation.",
+        "Convection currents are circular movements of semi-molten rock in the mantle, set going by heat from below, so for example hot rock rises while cooler rock sinks.",
         "1. Heated rock near the core becomes less dense and rises.",
         "2. Near the top of the mantle the rock spreads out sideways and cools.",
         "3. Cooled rock becomes denser and sinks again, completing the circle."
-      ]
+      ],
+      "tip": "Exams give a true/false statement: convection currents are circular movements of semi-molten rock in the mantle (true)."
     },
     {
       "h": "Endogenic and exogenic forces",
+      "b": "The heat inside the earth powers forces that shape the crust. Geographers split the forces that shape the earth into those from inside and those from outside.",
       "points": [
         "Endogenic (internal) forces come from inside the earth and are powered by its internal heat.",
-        "Endogenic forces include plate movement, folding, faulting, volcanic activity and earthquakes.",
-        "Exogenic (external) forces act at the earth's surface, such as weathering and erosion."
-      ]
+        "Endogenic forces include plate movement, folding (bending of rock layers), faulting (breaking and shifting of rock along cracks), volcanic activity and earthquakes.",
+        "Exogenic (external) forces act at the earth's surface, such as weathering (the breakdown of rock where it lies) and erosion (the wearing away and carrying off of rock and soil)."
+      ],
+      "tip": "Exams give a true/false statement that endogenic forces act inside the earth (true), and ask for a short explanation of endogenic forces."
     },
     {
       "h": "How the structure is known",
-      "b": "Earthquake (seismic) waves reveal the structure of the earth because their speed and direction change as they pass through layers of different density.",
+      "b": "Nobody has drilled through the earth, so its structure is worked out from earthquake (seismic) waves. Their speed and direction change as they pass through layers of different density.",
       "points": [
-        "The changes in earthquake waves are how the discontinuities were found.",
-        "P-waves (primary waves) pass through both solids and liquids.",
-        "S-waves (secondary waves) pass only through solids.",
+        "Seismic waves reveal the earth's structure because the changes in their speed and direction at each boundary are how the discontinuities were found.",
+        "P-waves (primary waves) pass through both solids and liquids, so they can travel through the liquid outer core as well as through solid layers.",
+        "S-waves (secondary waves) pass only through solids, so they are stopped by any liquid layer.",
         "S-waves do not pass through the outer core, which shows that the outer core is liquid.",
-        "This leaves an S-wave shadow zone on the far side of the earth from an earthquake."
+        "This leaves an S-wave shadow zone (an area where S-waves are not detected) on the far side of the earth from an earthquake."
       ]
     }
   ],

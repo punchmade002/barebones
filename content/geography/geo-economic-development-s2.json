@@ -6,183 +6,207 @@
   "notes": [
     {
       "h": "Uneven development at every scale",
-      "b": "Development varies between continents, countries, regions within a country and districts within cities.",
+      "b": "Development (how wealthy and well-off people are, in income, health and education) is not spread evenly. It varies between continents, countries, regions within a country and districts within cities.",
       "points": [
-        "The Brandt Line, from the Brandt Report North–South: A Programme for Survival (1980), separates the rich North from the poorer South.",
-        "The Brandt Commission was chaired by the former West German Chancellor Willy Brandt. The line runs roughly along 30°N, dipping south to put Australia and New Zealand in the North.",
+        "The Brandt Line, from the Brandt Report North–South: A Programme for Survival (1980), separates the rich North from the poorer South. It dates from 1980, so it is not a current UN classification.",
+        "The Brandt Commission that wrote the report was chaired by the former West German Chancellor Willy Brandt. The line runs roughly along 30°N, dipping south so that Australia and New Zealand fall in the North.",
         "The North (North America, Europe, Russia, Japan, Australia and New Zealand) is richer than the South (Latin America, Africa and most of Asia).",
-        "The line is a simplification: Singapore, South Korea and the Gulf states are rich although they lie in the South.",
-        "The terms First World and Third World are outdated; the critique of them belongs to the Global Interdependence option.",
+        "The line is a simplification because some countries in the South are now rich: Singapore, South Korea and the Gulf states.",
+        "The terms First World and Third World are outdated. The critique of these labels belongs to the Global Interdependence option.",
         "Global inequality is extreme: the richest tenth of the world's people own about 76% of global wealth, and the poorest half own about 2% (World Inequality Report 2022). The justice angle is in the Global issues and a justice perspective note."
-      ]
+      ],
+      "tip": "The Brandt Line comes from 1980, so don't present it as a current UN classification. Australia and New Zealand are in the North despite their location."
     },
     {
       "h": "The pattern of HDI across the world",
+      "b": "The Human Development Index (HDI) combines income, health and education into one score per country. Mapping it shows the same North–South pattern as the Brandt Line, with important exceptions.",
       "points": [
-        "Very high HDI is found in Europe, North America, Australia, Japan and the Gulf.",
+        "Very high HDI is found in places such as Europe, North America, Australia, Japan and the Gulf.",
         "High and medium HDI cover most of Latin America, East and South-East Asia and North Africa.",
-        "Low HDI is concentrated in sub-Saharan Africa, with Afghanistan, Yemen and Haiti outside Africa. Haiti is the poorest country in the Americas.",
+        "Low HDI is concentrated in sub-Saharan Africa (Africa south of the Sahara), with Afghanistan, Yemen and Haiti outside Africa. Examples in Africa include Niger, Chad, South Sudan, Somalia and the Central African Republic. Haiti is the poorest country in the Americas.",
         "The named rankings and categories are in the Measuring economic development note."
       ]
     },
     {
       "h": "Development within the EU",
+      "b": "Even inside one rich trading bloc, development differs sharply. GDP per head (the value of a country's output divided by its population) shows a richer core and a poorer edge.",
       "points": [
-        "Luxembourg has the highest GDP per head in the EU, and Bulgaria the lowest (Eurostat, early 2020s).",
-        "Luxembourg's GDP per head is inflated by cross-border commuters, so it overstates living standards there.",
-        "The EU's core is a richer north-west belt, the Blue Banana, and its periphery lies in the east and south. The core and periphery terms are explained in the Socio-economic regions note.",
-        "Within member states, Italy's Mezzogiorno is about 22% of Italy's GDP, with GDP per head a little over half that of the Centre-North in recent years (see A Peripheral European Region: the Mezzogiorno).",
-        "Romania and Bulgaria contain many of the EU's less developed regions.",
-        "An EU less developed region has GDP per head under 75% of the EU average, and such regions receive most of the EU's cohesion funding."
-      ]
+        "Luxembourg has the highest GDP per head in the EU, Ireland the second-highest, and Bulgaria the lowest (Eurostat, early 2020s).",
+        "Luxembourg's GDP per head is inflated by cross-border commuters, who add to its output but live elsewhere, so it overstates living standards there.",
+        "The EU's core is a richer north-west belt, the Blue Banana, and its periphery (the edge, far from the main centres) lies in the east and south. There is more on core and periphery in the Socio-economic regions note.",
+        "Within member states, Italy's Mezzogiorno (the poorer south of Italy) is about 22% of Italy's GDP, with GDP per head a little over half that of the Centre-North in recent years.",
+        "Romania and Bulgaria contain many of the EU's less developed regions, which fits Bulgaria's lowest GDP per head.",
+        "An EU less developed region has GDP per head under 75% of the EU average. Such regions receive most of the EU's cohesion funding (money paid to narrow the gap between richer and poorer regions)."
+      ],
+      "tip": "Peripheral does not mean less developed. The West of Ireland is peripheral within a very rich country."
     },
     {
       "h": "Development within Ireland",
+      "b": "Ireland is rich overall, but incomes differ by region. Dublin pulls ahead because of the jobs and functions concentrated there.",
       "points": [
-        "The Dublin region has the highest disposable income per person in the State. The Border and Midland regions are consistently among the lowest (CSO county income figures, 2010s to 2020s).",
-        "County Dublin has about 1.45 million of the State's about 5.1 million people (Census 2022).",
-        "Dublin's advantages are its capital and port functions, multinational and financial-services investment, universities and the airport, which together provide most of the high-value jobs.",
-        "The West and North-West are peripheral, with remoteness, weaker infrastructure, dependence on farming and small firms, and out-migration (see A Peripheral Irish Region).",
+        "The Dublin region has the highest disposable income per person (income left after tax, available to spend) in the State. The Border and Midland regions are consistently among the lowest (CSO county income figures, 2010s to 2020s).",
+        "County Dublin has about 1.45 million of the State's about 5.1 million people (Census 2022), so it holds about 28% of the population.",
+        "Dublin's advantages are its capital and port functions, multinational and financial-services investment, universities and the airport. Together these provide most of the high-value jobs, which is why incomes are highest there.",
+        "The West and North-West are peripheral, with remoteness, weaker infrastructure, dependence on farming and small firms, and out-migration (people leaving to find work elsewhere).",
         "Peripheral location does not by itself mean poverty: the West is peripheral within a very rich country."
-      ]
+      ],
+      "tip": "If asked why the Dublin region has the highest income, give its capital and port functions, multinational and financial-services investment, universities and airport, and link them to high-value jobs. Give no euro figures."
     },
     {
       "h": "Irish regional policy and transport investment",
+      "b": "The State has tried to narrow the gap between Dublin and the rest. Policy combines regional bodies, planning targets and spending on transport and broadband.",
       "points": [
-        "The BMW region held Objective 1 status for 2000 to 2006.",
-        "Three regional assemblies have operated since 2015: Northern and Western; Southern; and Eastern and Midland.",
-        "Project Ireland 2040, launched in February 2018, combines the National Planning Framework and the National Development Plan.",
-        "The National Planning Framework aims for the Northern and Western and Southern regions together to grow as much as the Eastern and Midland region, and for half of future population growth to go to the five cities: Dublin, Cork, Limerick, Galway and Waterford.",
-        "Metrolink is a planned metro line from Swords, via Dublin Airport, to Dublin city centre.",
-        "The National Broadband Plan (contract signed 2019) aims to bring high-speed broadband to rural homes.",
+        "The BMW region (Border, Midland and Western) held Objective 1 status, the EU's top category for regions needing extra funding, for 2000 to 2006.",
+        "Three regional assemblies (regional bodies of local councillors) have operated since 2015, so regional planning has its own bodies: Northern and Western; Southern; and Eastern and Midland.",
+        "Project Ireland 2040, launched in February 2018, combines the National Planning Framework (the planning strategy) and the National Development Plan (the investment plan).",
+        "The National Planning Framework aims for the Northern and Western and Southern regions together to grow as much as the Eastern and Midland region, so that growth is balanced.",
+        "It also aims for half of future population growth to go to the five cities: Dublin, Cork, Limerick, Galway and Waterford.",
+        "Metrolink is a planned metro line from Swords, via Dublin Airport, to Dublin city centre. The National Broadband Plan (contract signed 2019) aims to bring high-speed broadband to rural homes.",
         "Transport investment can reduce regional income differences: better access attracts firms to regional towns, cuts costs and commuting times, and widens the job market. It also reduces congestion, shortens journeys and lowers emissions."
-      ]
+      ],
+      "tip": "Exams ask how transport investment can reduce regional income differences, and which regions government plans target. For data questions on the NPF and NDP, give the aim of balanced regional growth and what transport achieves, but never copy figures from the extracts."
     },
     {
       "h": "Pockets of deprivation within countries",
+      "b": "National averages hide local differences. Rich countries contain poor districts, and large countries contain regions at very different levels.",
       "points": [
         "Even rich places contain pockets of deprivation, and poor regions exist within richer countries.",
-        "India: Census 2011 literacy was about 94% in Kerala and about 62% in Bihar. Fertility was about 1.8 in Kerala and about 3.0 in Bihar (NFHS-5, 2019 to 2021); see the India note.",
-        "Brazil: the poor North-East contrasts with the rich South-East; see the Case study of a developing economy note."
+        "India: Census 2011 literacy was about 94% in Kerala and about 62% in Bihar. Fertility (children per woman) was about 1.8 in Kerala and about 3.0 in Bihar (NFHS-5, 2019 to 2021).",
+        "Brazil: the poor North-East contrasts with the rich South-East, an example of a poor region inside one country."
       ]
     },
     {
       "h": "Physical factors: climate, disease, relief and soils",
       "b": "Physical factors affect development by limiting or supporting farming, health and transport. They influence development but do not determine it.",
       "points": [
-        "The Sahel, the semi-arid belt south of the Sahara (Mali, Niger, Chad and Burkina Faso), has suffered repeated droughts since the 1970s, which limit farming and cause famine.",
-        "In Ethiopia, outside the Sahel, drought worsened by civil war led to the 1984 to 1985 famine, followed by Live Aid in 1985.",
-        "Extreme heat and tropical storms add difficulty; temperate climates suit productive farming.",
+        "The Sahel, the semi-arid belt south of the Sahara (Mali, Niger, Chad and Burkina Faso), has suffered repeated droughts since the 1970s, which limit farming and cause famine, because crops fail without reliable rain.",
+        "In Ethiopia, outside the Sahel, drought worsened by civil war led to the 1984 to 1985 famine, followed by Live Aid (the 1985 charity appeal) in 1985.",
+        "Extreme heat and tropical storms add difficulty, while temperate climates (mild, without extremes) suit productive farming.",
         "Climate does not decide development: Singapore is tropical, yet it is one of the world's richest countries. Botswana shows that a poor start can be overcome.",
-        "Malaria and other tropical diseases reduce life expectancy, the productivity of workers and children's schooling; the malaria figure is in the Measuring economic development note.",
+        "Malaria and other tropical diseases reduce life expectancy, the productivity of workers and children's schooling, because ill people cannot work or attend school. The malaria figure is in the Measuring economic development note.",
         "Mountains, deserts and poor soils limit farming and make transport costly, while fertile lowlands and river plains support dense populations and farming surpluses."
-      ]
+      ],
+      "tip": "Avoid determinism: say once that physical factors influence development but do not fix it, using Singapore or Botswana. Don't claim hot climates make people less hard-working."
     },
     {
       "h": "Physical factors: location, resources and hazards",
+      "b": "Where a country lies, what lies under it and what hazards strike it all shape its wealth. These can help or hold back development.",
       "points": [
-        "Landlocked countries depend on neighbours' roads and ports, which raises trade costs. Landlocked developing countries include Chad, Niger, Mali, Burkina Faso, Malawi, Uganda, Afghanistan and Bolivia.",
-        "Coastal countries with good harbours trade more easily. Peripheral location adds to transport costs for Ireland and for the EU's outlying regions.",
+        "Landlocked countries (with no coast) depend on neighbours' roads and ports, which raises trade costs. Landlocked developing countries include Chad, Niger, Mali, Burkina Faso, Malawi, Uganda, Afghanistan and Bolivia.",
+        "Coastal countries with good harbours trade more easily, because ships can reach them directly. Peripheral location adds to transport costs for Ireland and for the EU's outlying regions.",
         "Natural resources can fund development: Botswana's diamonds were discovered at Orapa in 1967 and are mined by Debswana, a joint venture of the government and De Beers.",
-        "Norway's oil has been extracted from the North Sea since the early 1970s, and its sovereign wealth fund, the Government Pension Fund Global, is one of the world's largest.",
+        "Norway's oil has been extracted from the North Sea since the early 1970s, and its sovereign wealth fund (a state-owned investment fund), the Government Pension Fund Global, is one of the world's largest.",
         "Resources can also bring the resource curse of corruption, conflict and dependence on one export. Nigeria's oil from the Niger Delta dominates its exports, and oil spills and conflict have affected the Delta.",
         "The DR Congo produces about 70% of the world's cobalt (early 2020s), yet it is one of the poorest countries.",
-        "Haiti's earthquake of 12 January 2010, magnitude 7.0, struck near Port-au-Prince and killed over 100,000 people (estimates vary); see the note on the geography of earthquakes.",
+        "Haiti's earthquake of 12 January 2010, magnitude 7.0, struck near Port-au-Prince and killed over 100,000 people (estimates vary).",
         "Floods, cyclones and droughts destroy infrastructure and set poor countries back for years, while rich countries recover faster."
       ]
     },
     {
       "h": "Social factors: population, education, health and gender",
+      "b": "Social factors concern the people themselves: how many there are, how educated and healthy they are, and how women are treated. Each affects how productive a country can become.",
       "points": [
-        "Rapid population growth spreads spending on schools and health thinly and creates more young dependants. Niger has the world's highest fertility rate, about 6 to 7 children per woman (early 2020s).",
+        "Rapid population growth spreads spending on schools and health thinly and creates more young dependants (children supported by workers). Niger has the world's highest fertility rate, about 6 to 7 children per woman (early 2020s).",
         "A falling birth rate can give a demographic dividend, a larger share of working-age people to drive growth.",
-        "An educated workforce raises productivity and attracts investment; low literacy, especially among women, holds development back, as the Kerala and Bihar contrast shows.",
+        "An educated workforce raises productivity and attracts investment. Low literacy, especially among women, holds development back, as the Kerala and Bihar contrast shows.",
         "Disease, malnutrition and HIV/AIDS reduce the workforce and life expectancy, and health spending raises productivity.",
         "Where girls are educated and women work outside the home, families are smaller, children are healthier and household incomes are higher.",
-        "Brain drain: doctors, nurses and graduates leave poor countries. Remittances sent home by migrants help offset this; India is the world's largest recipient of remittances (2020s).",
-        "Water, sanitation, electricity, roads and internet are both a cause and a result of development."
+        "Brain drain: doctors, nurses and graduates leave poor countries, which loses skills. Remittances (money sent home by migrants) help offset this; India is the world's largest recipient of remittances (2020s).",
+        "Water, sanitation, electricity, roads and internet are both a cause and a result of development: richer places can afford them, and having them makes growth easier."
       ]
     },
     {
       "h": "Cultural factors",
+      "b": "Cultural factors are the beliefs, customs and social divisions of a society. They can widen or narrow people's opportunities.",
       "points": [
-        "Attitudes to women's roles and girls' education matter: early marriage reduces schooling and raises fertility.",
-        "Social structures and inequality limit opportunity for some groups: caste in India, land concentration in Latin America and ethnic divisions.",
-        "Many languages within borders drawn in the colonial period can make national unity and education harder; a world language such as English can help, as in India's IT sector.",
-        "The colonial cultural legacy includes European languages, education aimed at a small elite and a culture of exporting raw materials (see the Case study of a developing economy note).",
-        "Attitudes to enterprise, saving and education differ between societies: South Korea places a high value on education. Traditional farming practices and land tenure can slow change."
+        "Attitudes to women's roles and girls' education matter because they shape schooling: early marriage reduces schooling and raises fertility.",
+        "Social structures and inequality limit opportunity for some groups: caste in India, land concentration in Latin America (a few owners holding most land) and ethnic divisions.",
+        "Many languages within borders drawn in the colonial period can make national unity and education harder. A world language such as English can help, as in India's IT sector.",
+        "The colonial cultural legacy, which still shapes society, includes European languages, education aimed at a small elite and a culture of exporting raw materials.",
+        "Attitudes to enterprise, saving and education differ between societies: South Korea places a high value on education. Traditional farming practices and land tenure (how land is owned and held) can slow change."
       ]
     },
     {
       "h": "Political factors: stability, governance and corruption",
+      "b": "Governments set the conditions for growth: peace, honest institutions and sensible policy attract investment, while conflict and mismanagement drive it away.",
       "points": [
         "Political stability and good governance attract investment and allow long-term planning. Botswana became independent in 1966 and has held regular elections as a multi-party democracy since independence.",
-        "War destroys infrastructure, displaces people and scares off investors. Syria's civil war from 2011 displaced millions. South Sudan became independent in July 2011 and entered civil war in December 2013; Sudan is covered in the Case study of a developing economy note.",
-        "Corruption diverts public money and aid. Transparency International's Corruption Perceptions Index ranks Denmark at or near the top and Somalia and South Sudan at or near the bottom (2020s).",
+        "War destroys infrastructure, displaces people and scares off investors, so growth stops. Syria's civil war from 2011 displaced millions. South Sudan became independent in July 2011 and entered civil war in December 2013; There is more on Sudan in the Case study of a developing economy note.",
+        "Corruption (misuse of office for private gain) diverts public money and aid. Transparency International's Corruption Perceptions Index ranks Denmark at or near the top and Somalia and South Sudan at or near the bottom (2020s).",
         "Colonial history left borders, export economies and weak institutions; the detail is in the Case study of a developing economy note.",
-        "Government economic policy matters: education, infrastructure, openness to trade and investment, and industrial policy, as in South Korea, China and Ireland, contrast with mismanagement, as in Zimbabwe and Venezuela.",
-        "Debt repayments take money from schools and hospitals, and rich countries' farm subsidies and tariffs disadvantage poor exporters; the detail is in the Global issues and a justice perspective note.",
-        "EU membership and funds helped Ireland, Spain and Portugal, all major recipients of EU regional and cohesion funds, to converge with richer states (see the Ireland and the European Union chapter)."
+        "Government economic policy matters: education, infrastructure, openness to trade and investment, and industrial policy (state support for chosen industries), as in South Korea, China and Ireland, contrast with mismanagement, as in Zimbabwe and Venezuela.",
+        "Debt repayments take money from schools and hospitals, and rich countries' farm subsidies and tariffs (taxes on imports) disadvantage poor exporters. The detail is in the Global issues and a justice perspective note.",
+        "EU membership and funds helped Ireland, Spain and Portugal, all major recipients of EU regional and cohesion funds, to converge with richer states (catch up with them)."
       ]
     },
     {
       "h": "Change over time: general pattern and theory",
+      "b": "Levels of development are not permanent. Countries can move up or down, and theory suggests why gaps can persist or close.",
       "points": [
         "Development is not fixed: countries can rise, as Ireland, South Korea, China and Botswana have, or fall, as Zimbabwe, Venezuela and Syria have.",
-        "A falling HDI is usually caused by war, economic collapse or disease.",
-        "Cumulative causation: core regions keep growing because they attract capital and skilled migrants.",
+        "A falling HDI is usually caused by war, economic collapse or disease, because each destroys incomes, health or schooling.",
+        "Cumulative causation: core regions keep growing because they attract capital and skilled migrants, so success feeds further success.",
         "Spread effects: growth can sometimes spread from the core to the periphery. Full core–periphery theory is in The Global Economy: Multinationals and Globalisation chapter; models of development are in the Global Interdependence option."
-      ]
+      ],
+      "tip": "If asked to name a country whose HDI fell and give a reason, name one of Zimbabwe, Venezuela or Syria and give war, economic collapse or disease. Exams also ask how development changes over time, with an example."
     },
     {
       "h": "Rise: South Korea",
+      "b": "South Korea went from war-torn poverty to a high-income industrial economy. Its growth came from planning, industry and education rather than resources.",
       "points": [
-        "The Korean War (1950 to 1953) left the South among the world's poorest countries.",
-        "From the 1960s, under Park Chung-hee, the government planned export-led industrialisation: textiles first, then steel, shipbuilding, cars and electronics.",
-        "Chaebol, large family-controlled conglomerates such as Samsung, Hyundai and LG, drove the industrial growth.",
-        "The government invested heavily in education. South Korea joined the OECD in 1996.",
-        "The 1997 Asian financial crisis hit South Korea hard, but it recovered. UNCTAD reclassified it as a developed country in 2021, and it is now a very high HDI country.",
+        "The Korean War (1950 to 1953) destroyed so much that it left the South among the world's poorest countries.",
+        "From the 1960s, under Park Chung-hee, the government planned export-led industrialisation (growth by making goods to sell abroad): textiles first, then steel, shipbuilding, cars and electronics.",
+        "Chaebol, large family-controlled conglomerates (groups of many firms) such as Samsung, Hyundai and LG, drove the industrial growth.",
+        "The government invested heavily in education. South Korea joined the OECD (a club of rich countries) in 1996.",
+        "The 1997 Asian financial crisis hit South Korea hard, but it recovered. UNCTAD (the UN trade and development body) reclassified it as a developed country in 2021, and it is now a very high HDI country.",
         "Its growth came from industry and education, not from natural resources."
-      ]
+      ],
+      "tip": "Don't say South Korea was helped by oil: it has none."
     },
     {
       "h": "Rise: China",
+      "b": "China's rise began with deliberate reform. It has lifted huge numbers out of poverty, but the gains are uneven.",
       "points": [
-        "Economic reforms began in 1978 under Deng Xiaoping, known as opening up.",
-        "Special Economic Zones were set up from 1980, the first at Shenzhen, beside Hong Kong.",
-        "China joined the World Trade Organization in 2001.",
+        "Economic reforms began in 1978 under Deng Xiaoping, known as opening up (allowing trade and foreign investment).",
+        "Special Economic Zones (areas with special rules to attract foreign business) were set up from 1980, the first at Shenzhen, beside Hong Kong.",
+        "China joined the World Trade Organization in 2001, which gave its exporters easier access to world markets.",
         "The World Bank estimates that close to 800 million Chinese were lifted out of extreme poverty since 1978 (World Bank, 2022).",
         "China has been the world's second-largest economy since 2010, overtaking Japan, but it is upper-middle income, not a developed country.",
         "Coastal provinces are much richer than the western interior, and hundreds of millions of rural people migrated to coastal cities."
-      ]
+      ],
+      "tip": "Don't call China developed or a high-income country; it is upper-middle income."
     },
     {
       "h": "Rise: Botswana",
+      "b": "Botswana began as one of the world's poorest countries and put its diamond revenue into roads, schools and clinics. It shows that a poor start can be overcome.",
       "points": [
         "Botswana became independent in 1966 as one of the world's poorest countries.",
-        "Diamond revenue funded roads, schools and clinics, and stable democratic government and comparatively low corruption helped.",
-        "Botswana is now an upper-middle-income country.",
+        "Diamond revenue funded roads, schools and clinics, so the money was turned into development, and stable democratic government and comparatively low corruption helped.",
+        "Botswana is now an upper-middle-income country, so its start as one of the poorest was overcome.",
         "HIV/AIDS sharply reduced life expectancy in the 1990s and 2000s; it recovered with free antiretroviral treatment.",
-        "Dependence on diamonds is a weakness of the economy."
+        "Dependence on diamonds is a weakness of the economy, because the country relies on one resource."
       ]
     },
     {
       "h": "Rise: Ireland",
+      "b": "Ireland moved from stagnation and emigration in the 1950s to one of the richest EU states. Policy change, foreign investment and EU membership drove it, with a serious setback in 2008.",
       "points": [
-        "Heavy emigration in the 1950s: net emigration was about 400,000 between 1951 and 1961.",
+        "Heavy emigration in the 1950s, a sign of stagnation: net emigration was about 400,000 between 1951 and 1961.",
         "T. K. Whitaker's Economic Development (1958) led to the First Programme for Economic Expansion (1958), which offered free trade, grants and tax breaks for foreign firms.",
-        "Ireland joined the EEC on 1 January 1973.",
-        "The Celtic Tiger boom ran from the mid-1990s to 2007. Free secondary education, free trade and foreign investment are described in the Measuring economic development note.",
+        "Free secondary education came in 1967, and Ireland joined the EEC (the forerunner of the EU) on 1 January 1973.",
+        "The Celtic Tiger boom ran from the mid-1990s to 2007. Free secondary education, free trade and foreign investment helped drive it.",
         "A property crash and banking crisis from 2008 led to an EU–IMF bailout of €85 billion, agreed in November 2010; Ireland exited the programme in December 2013."
       ]
     },
     {
       "h": "Fall: Zimbabwe, Venezuela and Syria",
+      "b": "Development can also go into reverse. These three countries show economic mismanagement, dependence on one export and war pulling living standards down.",
       "points": [
-        "Zimbabwe: land seizures from 2000 cut farm output; hyperinflation peaked in 2008, and the Zimbabwe dollar was abandoned in 2009.",
+        "Zimbabwe: land seizures from 2000 cut farm output, so the economy suffered; hyperinflation (prices rising out of control) peaked in 2008, and the Zimbabwe dollar was abandoned in 2009.",
         "Venezuela: the economy depended on oil. After oil prices collapsed in 2014, the economy shrank by well over half, and more than 7 million people emigrated (2024).",
-        "Syria: its HDI fell during the civil war that began in 2011, reversing decades of progress."
-      ]
+        "Syria: its HDI fell because of the civil war that began in 2011, reversing decades of progress."
+      ],
+      "tip": "For a country whose HDI fell, give one reason: war, economic collapse or disease."
     }
   ],
   "keyTerms": [

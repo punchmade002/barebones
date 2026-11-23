@@ -6,104 +6,123 @@
   "notes": [
     {
       "h": "Release of neurotransmitter (Higher Level only)",
+      "b": "A synapse is the junction where one neuron passes a signal to the next across a tiny gap, the synaptic cleft. The signal crosses the gap as a chemical, a neurotransmitter, and the release of that chemical is switched on by ions.",
       "points": [
-        "Release is triggered by ions, calcium ions entering the synaptic knob, and lasts only a short time.",
-        "Each impulse therefore produces a brief burst of neurotransmitter, which passes the impulse to the next neuron.",
-        "The stages of release are described in Neurotransmission."
-      ]
+        "Release is triggered by ions: calcium ions entering the synaptic knob (the swollen tip of the presynaptic neuron, the neuron sending the signal) are the trigger for the neurotransmitter to be let out.",
+        "Release lasts only a short time, so each impulse produces a brief burst of neurotransmitter rather than a steady flow.",
+        "This brief burst passes the impulse to the next neuron, and because it is short, each impulse arriving at the knob gives its own separate signal. There is more on how the release happens in Neurotransmission."
+      ],
+      "tip": "Start your answer from the calcium ions entering the knob and the short burst of neurotransmitter. Don't spend time re-describing the whole sequence of release."
     },
     {
       "h": "Inactivation by an enzyme (Higher Level only)",
+      "b": "Once the neurotransmitter has done its job of passing on the impulse, it cannot be left in the cleft. An enzyme (a biological catalyst) in the cleft inactivates it.",
       "points": [
-        "After it has passed on the impulse, the neurotransmitter is inactivated by an enzyme in the synaptic cleft.",
-        "Example: acetylcholinesterase breaks acetylcholine down into choline and ethanoic acid (acetate)."
-      ]
+        "After it has passed on the impulse, the neurotransmitter is inactivated by an enzyme in the synaptic cleft, so its message stops being delivered.",
+        "Example: the enzyme acetylcholinesterase breaks the neurotransmitter acetylcholine down into choline and ethanoic acid (acetate)."
+      ],
+      "tip": "Learn the pair: acetylcholinesterase is the enzyme and acetylcholine is the neurotransmitter it breaks down into choline and ethanoic acid (acetate). Then you can explain how a nerve agent or an inhibitor changes events at the synapse."
     },
     {
       "h": "Why the neurotransmitter must be removed (Higher Level only)",
+      "b": "Removing the neurotransmitter is not tidiness. It is what lets a synapse carry a series of separate signals.",
       "points": [
-        "If the neurotransmitter stayed in the cleft, the postsynaptic neuron would keep firing.",
-        "The signal could not be switched off, so repeated signals could not be told apart."
-      ]
+        "If the neurotransmitter stayed in the cleft, it would keep binding to the receptors on the postsynaptic neuron (the neuron receiving the signal), so that neuron would keep firing.",
+        "The signal could not be switched off, so repeated signals could not be told apart: one long continuous signal would replace a series of separate ones."
+      ],
+      "tip": "A question on how the neurotransmitter is removed is part of modelling the sequence of events at a synapse, so say both how it is removed and why that matters."
     },
     {
       "h": "Reabsorption and reuptake (Higher Level only)",
+      "b": "Neurons do not waste neurotransmitter. The presynaptic neuron takes back either the breakdown products or the intact neurotransmitter and reuses them.",
       "points": [
-        "The breakdown products are reabsorbed by the presynaptic neuron and used to make new neurotransmitter; for example, choline is reabsorbed.",
-        "Serotonin and dopamine are mainly reabsorbed whole by transporter proteins in the presynaptic membrane, a process called reuptake."
-      ]
+        "The breakdown products are reabsorbed by the presynaptic neuron and used to make new neurotransmitter; for example, choline from the breakdown of acetylcholine is reabsorbed.",
+        "Serotonin and dopamine are mainly reabsorbed whole by transporter proteins (proteins in the membrane that carry a substance across it) in the presynaptic membrane, a process called reuptake. This is why they are cleared mainly by reuptake rather than by an enzyme."
+      ],
+      "tip": "Keep the two routes separate: some neurotransmitters are broken down by an enzyme and the products reabsorbed, while others, such as serotonin and dopamine, are taken back whole by reuptake."
     },
     {
       "h": "The cycle at a synapse (Higher Level only)",
+      "b": "Putting the pieces together, a synapse works as a loop. The same neurotransmitter is released, removed and then remade, ready for the next impulse.",
       "points": [
-        "1. Arrival of an impulse at the synaptic knob.",
-        "2. Calcium ions enter the knob.",
-        "3. Vesicles release neurotransmitter into the cleft.",
-        "4. The neurotransmitter diffuses across the cleft.",
-        "5. It binds to receptors on the postsynaptic membrane.",
-        "6. A new impulse starts in the postsynaptic neuron.",
-        "7. An enzyme breaks the neurotransmitter down, or it is taken back by reuptake.",
-        "8. The presynaptic neuron reabsorbs the breakdown products or the neurotransmitter.",
-        "9. New neurotransmitter is made and stored in vesicles, ready for the next impulse.",
-        "Diagram: synapse showing the enzyme in the cleft and reuptake arrows into the presynaptic knob."
-      ]
+        "1. An impulse arrives at the synaptic knob, and calcium ions enter the knob.",
+        "2. Vesicles (small membrane-bound sacs) release neurotransmitter into the cleft.",
+        "3. The neurotransmitter diffuses across the cleft.",
+        "4. It binds to receptors (proteins that the neurotransmitter fits) on the postsynaptic membrane.",
+        "5. A new impulse starts in the postsynaptic neuron.",
+        "6. An enzyme breaks the neurotransmitter down, or it is taken back by reuptake.",
+        "7. The presynaptic neuron reabsorbs the breakdown products or the neurotransmitter, and new neurotransmitter is made and stored in vesicles, ready for the next impulse.",
+        "Diagram: a synapse showing the presynaptic knob, vesicles, cleft and postsynaptic membrane with receptors. Label: enzyme in the cleft, reuptake arrows into the presynaptic knob."
+      ],
+      "tip": "Exams ask you to model the sequence of events at a synapse, including how the neurotransmitter is removed. Write the loop in order, and finish with removal and reabsorption, not at the new impulse."
     },
     {
       "h": "Causes of disruption (Higher Level only)",
+      "b": "Because the synapse depends on several steps working together, a fault at any step changes how signals pass. The result can be a disorder.",
       "points": [
         "Disruption can come from too little or too much neurotransmitter, faulty receptors, or blocked breakdown or reuptake.",
-        "Disruption can cause short-term (acute) or long-term (chronic) disorders."
+        "Disruption can cause short-term (acute) or long-term (chronic) disorders, depending on whether the fault is brief or lasting."
       ]
     },
     {
       "h": "Acute disorder: nerve agents and insecticides (Higher Level only)",
+      "b": "A quick, severe disorder shows how much depends on removing neurotransmitter. A poison that stops the removal step affects the synapses between nerves and muscles within a short time.",
       "points": [
-        "Nerve agents and organophosphate insecticides inhibit acetylcholinesterase.",
-        "Acetylcholine then builds up at synapses with muscles, causing continuous muscle contraction and paralysis.",
+        "Nerve agents and organophosphate insecticides inhibit acetylcholinesterase, the enzyme that breaks down acetylcholine.",
+        "Acetylcholine then builds up at synapses with muscles, because it is no longer broken down, causing continuous muscle contraction and paralysis.",
         "In severe cases death follows from failure of the breathing muscles."
-      ]
+      ],
+      "tip": "To predict the effect of a poison, work through the chain: the enzyme is inhibited, so the neurotransmitter is not broken down, so it builds up and the muscle is stimulated continuously."
     },
     {
       "h": "Chronic disorders (Higher Level only)",
+      "b": "Long-term disorders involve a lasting change in the neurons or the signalling that a neurotransmitter carries. Each example below involves a different neurotransmitter.",
       "points": [
         "In Alzheimer's disease, neurons that use acetylcholine are lost, contributing to memory loss.",
-        "Depression is associated with altered signalling by serotonin and noradrenaline; its causes are complex.",
+        "Depression is associated with altered signalling by serotonin and noradrenaline. Its causes are complex, so it should not be described as simply caused by low serotonin or as a chemical imbalance.",
         "In Parkinson's disease, dopamine-producing neurons in the brain die, causing tremor, stiffness and slow movement."
-      ]
+      ],
+      "tip": "For depression, say 'associated with altered signalling by serotonin and noradrenaline' and avoid claiming a single cause. Don't say any drug cures Alzheimer's, Parkinson's or depression."
     },
     {
       "h": "Enzyme inhibitors as treatment (Higher Level only)",
       "b": "A drug inhibits the enzyme that breaks down a neurotransmitter, so the neurotransmitter stays in the cleft longer and its effect is enhanced.",
       "points": [
-        "Acetylcholinesterase inhibitors, e.g. donepezil, are used to treat the symptoms of Alzheimer's disease.",
-        "Monoamine oxidase (MAO) inhibitors are antidepressants that slow the breakdown of serotonin, noradrenaline and dopamine."
-      ]
+        "Acetylcholinesterase inhibitors, e.g. donepezil, are used to treat the symptoms of Alzheimer's disease: acetylcholine is broken down more slowly, so the remaining acetylcholine-using neurons are stimulated for longer.",
+        "Monoamine oxidase (MAO) inhibitors are antidepressants that slow the breakdown of serotonin, noradrenaline and dopamine, so these neurotransmitters stay in the cleft longer."
+      ],
+      "tip": "To explain how an enzyme inhibitor enhances transmission, link the steps: enzyme inhibited, neurotransmitter breaks down more slowly, it stays in the cleft longer, so its effect is enhanced."
     },
     {
       "h": "Reuptake inhibitors as treatment (Higher Level only)",
       "b": "A drug blocks the transporter that reabsorbs a neurotransmitter, so more neurotransmitter stays in the cleft for longer.",
       "points": [
-        "Selective serotonin reuptake inhibitors (SSRIs), e.g. fluoxetine, are used to treat depression.",
-        "Neither strategy cures the disorder; both treat symptoms by enhancing the remaining signalling."
-      ]
+        "Selective serotonin reuptake inhibitors (SSRIs), e.g. fluoxetine, are used to treat depression: with serotonin reabsorption blocked, serotonin acts on the postsynaptic neuron for longer.",
+        "Neither strategy cures the disorder; both treat symptoms by enhancing the remaining signalling, which means they work with the neurons that are still functioning."
+      ],
+      "tip": "Say that these drugs treat symptoms. Both strategies create an enhanced effect, so explain either one by saying why the neurotransmitter stays in the cleft longer."
     },
     {
       "h": "Psychoactive drugs and painkillers (Higher Level only)",
+      "b": "Psychoactive drugs and painkillers work at synapses in similar ways to the treatments above. They block removal, copy a neurotransmitter, or block receptors.",
       "points": [
         "A psychoactive drug alters brain function, affecting mood, perception or behaviour.",
-        "Cocaine blocks the reuptake of dopamine, so dopamine builds up in the cleft, producing euphoria; its effect on mood and addiction is covered in Dopamine and endorphins.",
+        "Cocaine blocks the reuptake of dopamine, so dopamine builds up in the cleft, producing euphoria. There is more on its effect on mood and addiction in Dopamine and endorphins.",
         "Nicotine mimics acetylcholine, binding to and activating some of its receptors.",
-        "Opioid painkillers such as morphine bind to the same receptors as endorphins, mimicking them and reducing the sensation of pain.",
-        "A drug may instead block receptors, preventing transmission: curare blocks acetylcholine receptors on muscles, causing paralysis."
-      ]
+        "Opioid painkillers such as morphine bind to the same receptors as endorphins (the body's own pain-reducing neurotransmitters), mimicking them and reducing the sensation of pain.",
+        "A drug may instead block receptors, preventing transmission: curare blocks acetylcholine receptors on muscles, so acetylcholine cannot act on them, causing paralysis."
+      ],
+      "tip": "Exams ask you to predict the effect of a named drug on impulse travel. Decide first whether it blocks reuptake, mimics the neurotransmitter or blocks receptors, then state the effect on transmission."
     },
     {
       "h": "Impact of each type of disruption (Higher Level only)",
+      "b": "Every type of disruption ends in one of two outcomes for impulse travel: transmission is reduced or stopped, or it is prolonged or enhanced.",
       "points": [
         "Blocked release or blocked receptors: less or no neurotransmitter acts, so transmission is reduced or stops.",
         "Blocked breakdown or blocked reuptake: the neurotransmitter stays in the cleft, so transmission is prolonged or enhanced.",
         "Mimics: a drug that activates receptors makes transmission occur without the natural neurotransmitter."
-      ]
+      ],
+      "tip": "When given an unfamiliar drug, decide which step it affects. Then say whether impulse travel across the cleft is reduced or enhanced."
     }
   ],
   "keyTerms": [

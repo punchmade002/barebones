@@ -6,170 +6,223 @@
   "notes": [
     {
       "h": "Land-use zones in the modern city",
-      "b": "A large city is divided into zones of land use. Each zone has its own pattern of buildings and activity, and its own land value. The zones below are typical of a large European city and can all be identified in Dublin.",
+      "b": "A large city is divided into zones of land use (areas where one kind of activity dominates). Each zone has its own pattern of buildings and activity, and its own land value. The zones below are typical of a large European city and can all be identified in Dublin.",
       "points": [
-        "CBD (central business district): the commercial heart of the city, with the highest land values, tall buildings and the most intensive use of land.",
-        "Zone in transition: the inner-city area of mixed old housing, warehouses and small industry, where decay and renewal exist side by side.",
-        "Inner residential zone: older terraced housing close to the centre.",
-        "Suburbs: lower-density housing, mainly semi-detached houses, built later and further from the centre.",
-        "Industrial zones: the port, inner-city industry, suburban industrial estates and business parks.",
-        "Open space and recreation: parks, playing fields and other green areas within the built-up city.",
-        "Transport land: roads, railway lines, the port and the airport.",
-        "Rural-urban fringe: the transitional land at the edge of the built-up area, where urban and rural land uses meet and compete."
-      ]
+        "CBD (central business district): the commercial heart of the city, with the highest land values, tall buildings and the most intensive use of land, meaning the most activity packed onto each site.",
+        "Zone in transition: the inner-city area of mixed old housing, warehouses and small industry, where decay and renewal exist side by side. It is called a zone of transition because it is changing from one use to another.",
+        "Inner residential zone: older terraced housing (houses joined in rows) close to the centre, so it lies near the CBD and jobs.",
+        "Suburbs: lower-density housing, mainly semi-detached houses (pairs of houses sharing one wall), built later and further from the centre, so there is more space for each house.",
+        "Industrial zones: the port, inner-city industry, suburban industrial estates and business parks (landscaped sites of modern offices and light industry).",
+        "Open space and recreation: parks, playing fields and other green areas within the built-up city, such as Phoenix Park in Dublin.",
+        "Transport land: roads, railway lines, the port and the airport, such as Dublin Port and Dublin Airport.",
+        "Rural-urban fringe: the transitional land at the edge of the built-up area, where urban and rural land uses meet and compete for the same sites."
+      ],
+      "tip": "Name the zone, say what it contains and place it in a named city. For a 30-mark Ordinary Level answer, name an urban area and two land uses and explain how land use has changed over time."
     },
     {
       "h": "The CBD in detail",
+      "b": "The CBD is the most intensively used part of any city. Almost everything about it follows from one fact: it is the most accessible place, so everyone wants a site there.",
       "points": [
         "Land values are highest here because accessibility is greatest, so the most valuable sites are used for the most profitable activities.",
         "Tall buildings maximise the use of expensive land, with several floors of offices or shops on a small site.",
-        "Department stores, chain stores and specialist shops occupy the main shopping streets.",
-        "Offices, banks and the head offices of companies cluster together in the centre.",
-        "Government and cultural buildings are located in the centre, where they are most accessible.",
-        "Few people live in the CBD, so it is crowded during the working day and quiet at night.",
-        "Pedestrian streets are used in the busiest shopping areas, where traffic and crowds would otherwise congest the streets.",
-        "Vertical zoning: shops occupy the ground floor, with offices or other uses above.",
-        "Dublin's CBD lies on both sides of the River Liffey. Its main shopping streets are Grafton Street, south of the Liffey, and Henry Street, north of it, both pedestrianised, and O'Connell Street, the city's main street."
+        "Vertical zoning: shops occupy the ground floor, with offices or other uses above, so each floor of a costly site earns money.",
+        "Department stores, chain stores and specialist shops occupy the main shopping streets, because these sites bring the most customers.",
+        "Offices, banks and the head offices of companies cluster together in the centre, because they can pay the high land values and need to be close to each other and to clients.",
+        "Government and cultural buildings are located in the centre, where they are most accessible to the whole population.",
+        "Few people live in the CBD, so it is crowded during the working day and quiet at night, when workers and shoppers go home.",
+        "Pedestrian streets are used in the busiest shopping areas, where traffic and crowds would otherwise congest the streets."
       ]
     },
     {
-      "h": "Models of urban land use",
-      "b": "Three models describe how land uses arrange themselves around a city centre. Each is a simplified generalisation, so it is judged by how well it fits the real city.",
+      "h": "Dublin's CBD",
+      "b": "Dublin's CBD shows these features on a real map, and it is the Irish example to use for the CBD.",
       "points": [
-        "Burgess concentric zone model: Ernest Burgess, 1925, based on Chicago. Land uses form rings around the CBD, with land values and densities falling with distance from the centre.",
-        "Strength of the Burgess model: it shows the regular fall in land value and density outwards from the CBD. Limitation: it ignores transport routes and does not fit cities whose growth follows roads and rail lines.",
-        "Diagram: concentric rings drawn around a central point labelled CBD, with the zones of transition, residential and commuter land shown in turn.",
-        "Hoyt sector model: Homer Hoyt, 1939. Land uses extend outwards in wedge-shaped sectors along transport routes, and a high-class residential sector lies away from industry.",
-        "Strength of the Hoyt model: it explains why sectors of the city are elongated along roads, rail lines and rivers. Limitation: it does not show the separate suburban centres that grow in large cities.",
-        "Diagram: a circle divided into wedge-shaped sectors, with radial transport routes marked and the high-class residential sector shown away from the industrial sector.",
-        "Harris and Ullman multiple nuclei model: Chauncy Harris and Edward Ullman, 1945. A city grows around several separate centres, such as the CBD, suburban shopping centres, an airport and business parks.",
-        "Strength of the multiple nuclei model: it explains the growth of suburban centres. Limitation: it gives no simple pattern of rings or sectors, so it is less clear as a general description.",
+        "Dublin's CBD lies on both sides of the River Liffey.",
+        "Its main shopping streets are Grafton Street, south of the Liffey, and Henry Street, north of it. Both are pedestrianised, meaning closed to traffic.",
+        "O'Connell Street is the city's main street."
+      ]
+    },
+    {
+      "h": "Burgess concentric zone model",
+      "b": "Three models describe how land uses arrange themselves around a city centre. Each is a simplified generalisation, so it is judged by how well it fits the real city. The first is the oldest, and it draws the city as a set of rings.",
+      "points": [
+        "Ernest Burgess proposed the concentric zone model in 1925, based on Chicago. Land uses form rings around the CBD, with land values and densities (the number of people per area) falling with distance from the centre.",
+        "Strength: it shows the regular fall in land value and density outwards from the CBD. Limitation: it ignores transport routes, so it does not fit cities whose growth follows roads and rail lines.",
+        "Diagram: concentric rings drawn around a central point labelled CBD, with the zones of transition, residential and commuter land shown in turn."
+      ],
+      "tip": "Burgess is concentric, 1925, Chicago. Don't swap the names or dates of the models. Don't present a model as describing Dublin exactly: say how Dublin fits it or departs from it."
+    },
+    {
+      "h": "Hoyt sector model",
+      "b": "The second model answers the weakness of the rings: cities do not grow evenly in all directions. Roads, railways and rivers pull growth outwards in lines.",
+      "points": [
+        "Homer Hoyt proposed the sector model in 1939. Land uses extend outwards in wedge-shaped sectors along transport routes, and a high-class residential sector lies away from industry.",
+        "Strength: it explains why sectors of the city are elongated along roads, rail lines and rivers, because transport routes make the land beside them more accessible. Limitation: it does not show the separate suburban centres that grow in large cities.",
+        "Diagram: a circle divided into wedge-shaped sectors, with radial transport routes (routes running out from the centre) marked and the high-class residential sector shown away from the industrial sector."
+      ],
+      "tip": "Hoyt is sectors, 1939. Keep the name, the model and the date together."
+    },
+    {
+      "h": "Harris and Ullman multiple nuclei model, and how Dublin fits",
+      "b": "The third model drops the idea of a single centre. In a large modern city, activities gather around several centres (nuclei) at once.",
+      "points": [
+        "Chauncy Harris and Edward Ullman proposed the multiple nuclei model in 1945. A city grows around several separate centres, such as the CBD, suburban shopping centres, an airport and business parks.",
+        "Strength: it explains the growth of suburban centres. Limitation: it gives no simple pattern of rings or sectors, so it is less clear as a general description.",
         "Diagram: a city outline with several separate centres marked, each surrounded by its own cluster of land use.",
         "Dublin fits the multiple nuclei and sector models better than the concentric model: the CBD is one nucleus, while suburban shopping centres and business parks are other nuclei, and growth follows the main roads out of the city."
-      ]
+      ],
+      "tip": "Harris and Ullman are multiple nuclei, 1945. When you apply a model to Dublin, say how Dublin fits or departs from it rather than claiming it matches exactly."
     },
     {
       "h": "Dublin's land-use zones",
-      "b": "Dublin shows the zones of a modern European city, with the inner city in transition and the outer city growing along the M50 and the western new towns.",
+      "b": "Dublin shows the zones of a modern European city, with the inner city in transition and the outer city growing along the M50 (the orbital motorway circling the city) and the western new towns.",
       "points": [
-        "Georgian core: the Georgian squares, Merrion Square and Fitzwilliam Square, are now largely offices.",
+        "Georgian core: the Georgian squares (planned 18th-century squares), such as Merrion Square and Fitzwilliam Square, are now largely offices.",
         "The Wide Streets Commissioners, set up in 1757, widened and improved the city's streets, shaping the centre's wide thoroughfares.",
         "Inner-city docklands and the north inner city are in transition, with older industrial and port land being renewed.",
-        "Older inner suburbs lie between the centre and the outer suburbs, with older housing forming an inner residential zone.",
-        "Outer suburbs and the western new towns: Tallaght, Clondalkin, Lucan and Blanchardstown, planned in the Wright Report of 1967.",
-        "Business and industrial parks lie near the M50 and the N7: Grange Castle, Citywest, Park West and Sandyford.",
+        "Older inner suburbs lie between the centre and the outer suburbs, so their older housing forms an inner residential zone.",
+        "Outer suburbs and the western new towns: Tallaght, Clondalkin, Lucan and Blanchardstown, planned in the Wright Report of 1967 (a planning report for the growth of the city).",
+        "Business and industrial parks lie near the M50 and the N7 (the national road running south-west from Dublin): Grange Castle, Citywest, Park West and Sandyford. Roads give them access for lorries and workers.",
         "The port and airport are major transport and industrial land uses: Dublin Port and Dublin Airport.",
         "Open space includes Phoenix Park, about 700 hectares and one of Europe's largest enclosed city parks, established in 1662; the Dublin Mountains and Dublin Bay are further open spaces at the edge of the city."
-      ]
+      ],
+      "tip": "Use named places for each zone. Dublin is your main Irish case study, so tie each zone to a place from this list."
     },
     {
       "h": "Paris as the world city",
-      "b": "Paris is the world city studied for comparison. Its land uses are concentrated in the inner city and organised around a ring road and a set of outer business and housing areas.",
+      "b": "Paris is the world city studied for comparison with Dublin. Its land uses are concentrated in the inner city and organised around a ring road and a set of outer business and housing areas.",
       "points": [
-        "The City of Paris has about 2.1 million people on about 105 km², divided into 20 arrondissements. The wider Île-de-France region has about 12 million people.",
-        "The CBD and government quarter lie in the inner arrondissements.",
+        "The City of Paris has about 2.1 million people on about 105 km2, divided into 20 arrondissements (administrative districts). The wider Ile-de-France region has about 12 million people.",
+        "The CBD and government quarter lie in the inner arrondissements, the most central districts.",
         "Haussmann's boulevards: Haussmann rebuilt central Paris between 1853 and 1870, creating wide boulevards that give the inner city its formal street pattern.",
         "La Défense, west of the city, is one of Europe's largest purpose-built business districts, an office district outside the historic inner city.",
         "The Boulevard Périphérique, completed in 1973, is the ring road that forms the boundary of the inner city.",
         "The banlieues are the suburbs beyond the Périphérique, where grands ensembles (large public housing estates built in the 1950s to 1970s) are found, for example Sarcelles.",
-        "The 1965 regional plan created five new towns: Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart and Saint-Quentin-en-Yvelines."
-      ]
+        "The 1965 regional plan created five new towns (planned towns built to take growth away from the city): Cergy-Pontoise, Évry, Marne-la-Vallée, Melun-Sénart and Saint-Quentin-en-Yvelines."
+      ],
+      "tip": "Paris facts must match exactly, and the notes give no arrondissement-level income figures, so don't add any. Use the named features (La Défense, Périphérique, banlieues) as your examples."
     },
     {
       "h": "Changes in industrial land use",
-      "b": "Industry has moved out of the inner city to the edge, where land is cheaper and road access is better.",
+      "b": "Industry has moved out of the inner city to the edge, where land is cheaper and road access is better. This is the first of three movements (industrial, residential, commercial) that change a city's land-use pattern.",
       "points": [
-        "Old inner-city industry beside the port, canals and railways included brewing, biscuit-making and distilling.",
-        "Many of these sites closed or moved to suburban industrial estates and business parks near motorways.",
+        "Old inner-city industry beside the port, canals and railways (the transport of the time) included brewing, biscuit-making and distilling.",
+        "Many of these sites closed or moved to suburban industrial estates and business parks near motorways, so that lorries can reach them easily.",
         "Reasons for the move: lack of space for expansion in the inner city, cheaper land on the edge, road access for lorries, less congestion, planning policy, and new industries needing clean, modern sites.",
         "The vacated inner-city sites are brownfield land (land previously developed, now available for reuse), which can then be redeveloped for other uses.",
         "The Guinness brewery is an exception, having stayed at St James's Gate since Arthur Guinness's lease of 1759.",
-        "Jacob's biscuit factory moved from Bishop Street in the inner city to Tallaght in the 1970s. The old factory now houses the National Archives.",
+        "Jacob's biscuit factory moved from Bishop Street in the inner city to Tallaght in the 1970s. The old factory now houses the National Archives, an example of a brownfield site reused.",
         "Paris: Renault's Boulogne-Billancourt plant closed in 1992, an example of industry leaving the inner city."
-      ]
+      ],
+      "tip": "Exams ask you to describe and explain how land use has changed. Give the move, then the reasons, then a named example such as Jacob's."
     },
     {
       "h": "Changes in residential land use",
+      "b": "Housing has also moved outwards, but in recent years some people have moved back in. Each change raises planning issues.",
       "points": [
         "Inner-city tenements (old multi-occupied houses) were cleared in the 20th century, and their residents were moved to new suburbs and new towns.",
-        "Growth of suburban housing spread the city outwards, with sprawl into commuter counties.",
-        "The trend has been reversed in places, with a return to inner-city apartment living in areas such as the Docklands, through regeneration.",
+        "Growth of suburban housing spread the city outwards, with sprawl (uncontrolled spread of building) into commuter counties, the counties around the city whose residents travel in to work.",
+        "The trend has been reversed in places, with a return to inner-city apartment living in areas such as the Docklands, through regeneration (investment to renew a run-down area).",
         "Issues raised by residential change: the density of housing, the height of buildings and the social mix of the area."
-      ]
+      ],
+      "tip": "Higher Level questions link changes in residential land use to the planning issues they raise: density, height and social mix."
     },
     {
       "h": "Changes in commercial land use",
+      "b": "Shops and offices have followed the roads and the car-owning population to the edge of the city. This takes trade and activity away from the centre.",
       "points": [
         "Suburban shopping centres and retail parks have been built beside motorway junctions, where there is car access, free parking and cheaper land.",
         "The Square, Tallaght, opened in 1990; Blanchardstown Centre in 1996; Liffey Valley in 1998; and Dundrum Town Centre in 2005. All are beside major roads or the M50.",
-        "Out-of-town office parks have been built in the same way, on sites with good road access.",
-        "Effects on the city centre: vacant units and lost trade as shoppers move to the edge.",
-        "Responses: pedestrianisation of the centre, regeneration of central streets and limits on the size of retail parks.",
+        "Out-of-town office parks have been built in the same way, on sites with good road access, so that workers can drive to them.",
+        "Effects on the city centre: vacant units and lost trade, because shoppers move to the edge.",
+        "Responses: pedestrianisation of the centre, regeneration of central streets and limits on the size of retail parks, so that the centre can keep its shoppers.",
         "Paris: La Défense takes offices out of the inner city, while the suburban business districts of the region take other commercial uses."
-      ]
+      ],
+      "tip": "Pair each change with its reason (car access, free parking, cheap land) and its effect on the centre, then name a centre and its opening date."
     },
     {
       "h": "Planning issues from land-use change",
+      "b": "Industry, housing and shops all moving at once creates problems that planners have to manage. These are the main issues.",
       "points": [
-        "Zoning: planning authorities divide land into use zones through development plans to control where each use may be located.",
+        "Zoning: planning authorities divide land into use zones through development plans (official plans for an area) to control where each use may be located.",
         "Brownfield and greenfield development: reuse of old urban land must be balanced against building on undeveloped edge land.",
         "Height and density: taller and denser buildings in the centre raise questions of design, light and services.",
         "Transport: new zones must be linked to public transport, or they generate car journeys and congestion.",
         "Mixed land use: combining housing, offices and shops in one area reduces travel but can cause conflict between uses.",
         "Conflict between business, residents and heritage: new offices or roads can threaten housing or historic buildings."
-      ]
+      ],
+      "tip": "Exams ask about changes in industrial, residential and commercial land use and the planning issues they raise, so finish each change with the matching issue."
     },
     {
       "h": "Land values: bid-rent theory",
       "b": "Bid-rent theory, put forward by William Alonso in 1964, explains why land values and land uses change with distance from the centre. Bid-rent is the most a user can afford to pay for a plot of land.",
       "points": [
-        "Accessibility is greatest at the centre, so competition for sites is fiercest there and land is dearest at the peak land value intersection (PLVI), the point of highest value.",
+        "Accessibility (how easily a site can be reached by people) is greatest at the centre, so competition for sites is fiercest there and land is dearest at the peak land value intersection (PLVI), the point of highest value.",
         "Land values fall with distance from the centre, because each step outwards means less accessibility.",
         "Commerce outbids industry for central sites, and industry outbids housing, because each use can pay a different amount for the same land.",
         "Secondary peaks of land value form at suburban centres, ring-road junctions and along main roads, where accessibility is also high.",
         "Effect on building: tall buildings and intensive use occur at the centre, while large, low-density uses such as warehouses and car parks occur at the edge."
-      ]
+      ],
+      "tip": "Name Alonso and 1964, define bid-rent, and give the order in which uses outbid each other. Give no land values or rents, because none are checked."
     },
     {
       "h": "Social stratification and segregation",
       "b": "Social stratification is the division of a city's population into groups by income, class, ethnicity, age and family stage, and segregation is the separation of these groups into different areas.",
       "points": [
-        "Causes: land and house prices, the allocation of social housing, planning decisions, transport access, household choice and discrimination.",
-        "Results: affluent areas are set against areas of concentrated disadvantage, and gated developments create closed residential areas.",
-        "Gentrification: better-off people move into and renovate a poorer inner-city area, raising prices and displacing lower-income residents. It is a different process from urban renewal and redevelopment, which are covered in the note Urban planning and renewal.",
+        "Causes: land and house prices, the allocation of social housing (housing provided by the State for those who cannot afford to buy or rent privately), planning decisions, transport access, household choice and discrimination.",
+        "Results: affluent areas are set against areas of concentrated disadvantage, and gated developments (housing estates closed off by gates) create closed residential areas.",
+        "Gentrification: better-off people move into and renovate a poorer inner-city area, raising prices and displacing lower-income residents. It is a different process from urban renewal and redevelopment. There is more on this in Urban planning and renewal."
+      ],
+      "tip": "Define gentrification as better-off people moving in and displacing lower-income residents. Don't confuse it with urban renewal (rebuilding) or redevelopment (clearance and new building)."
+    },
+    {
+      "h": "Social stratification in Dublin and Paris",
+      "b": "Both of the case-study cities show segregation on the map. Use these named examples, and keep descriptions of places factual.",
+      "points": [
         "Dublin: affluent south-east suburbs, including Ballsbridge, Donnybrook, Dalkey and Foxrock, contrast with lower-income areas in parts of the north inner city and in some outer social-housing estates.",
         "Ballymun is the case of concentrated social housing in Dublin, with seven 15-storey tower blocks built between 1966 and 1969.",
         "Gentrification around the Docklands: the inner-city area has attracted new residents and businesses, including Google's European headquarters at Grand Canal Dock, known as 'Silicon Docks'.",
-        "Paris: the wealthy western districts contrast with the poorer north-eastern banlieues of Seine-Saint-Denis, the poorest département in mainland France.",
+        "Paris: the wealthy western districts contrast with the poorer north-eastern banlieues of Seine-Saint-Denis, the poorest département (administrative area) in mainland France.",
         "Immigrant residents are concentrated in grands ensembles, and the riots that began in Clichy-sous-Bois in October 2005 showed the tensions in these areas."
-      ]
+      ],
+      "tip": "Name Ballymun only for its concentrated social housing, and refer to the north inner city generally. Avoid naming other Dublin estates as deprived."
     },
     {
-      "h": "Expansion of cities and pressure on rural land",
+      "h": "Expansion of cities: causes and pressure on rural land",
       "b": "As cities grow, they take in rural land at the rural-urban fringe. The pressures on rural land are caused by population growth and by the choices made by households and firms.",
       "points": [
-        "Causes: population growth and in-migration; demand for cheaper, larger houses; car ownership and motorways; high house prices in the city; and jobs moving to the suburbs.",
-        "Loss of farmland: housing, roads and business parks replace fields, and rising land prices encourage farmers to sell.",
-        "Hobby farms and horse paddocks spread across the fringe, taking land out of commercial farming.",
+        "Causes: population growth and in-migration (people moving in from elsewhere); demand for cheaper, larger houses; car ownership and motorways; high house prices in the city; and jobs moving to the suburbs.",
+        "Loss of farmland: housing, roads and business parks replace fields, and rising land prices encourage farmers to sell, because the land is worth more built on than farmed.",
+        "Hobby farms and horse paddocks spread across the fringe, which takes land out of commercial farming.",
         "Commuter villages gain new estates, and their character and community can be lost as their population changes.",
-        "Other uses on the fringe: retail parks, business parks, data centres, landfill sites, quarries and golf courses.",
+        "Other uses on the fringe: retail parks, business parks, data centres (buildings full of computer servers), landfill sites, quarries and golf courses.",
         "Environmental effects: loss of habitats and hedgerows, and flooding as paved surfaces replace soil that would absorb rainwater.",
-        "Conflicts between farmers, residents and developers over the future of the fringe.",
-        "Dublin: sprawl into Meath, Kildare and Wicklow. The Greater Dublin Area had about 2.1 million people at the Census of 2022, about 40% of the State.",
-        "Dublin: commuter towns Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones, with one-off housing across the commuter belt.",
-        "Dublin: data centres on the city edge used about a fifth of Ireland's metered electricity in 2023 (CSO), most of them in the Dublin region."
-      ]
+        "Conflicts between farmers, residents and developers over the future of the fringe."
+      ],
+      "tip": "Higher Level asks for the pressure on rural land use with examples, and has asked it repeatedly. Give causes, several pressures, then Dublin examples."
+    },
+    {
+      "h": "Dublin's expansion into the countryside",
+      "b": "Dublin's growth shows these pressures at work in the counties around it.",
+      "points": [
+        "Sprawl into Meath, Kildare and Wicklow. The Greater Dublin Area had about 2.1 million people at the Census of 2022, about 40% of the State.",
+        "Commuter towns: Navan, Ashbourne, Naas, Newbridge, Maynooth, Bray and Greystones, with one-off housing (single houses built in the countryside) across the commuter belt.",
+        "Data centres on the city edge used about a fifth of Ireland's metered electricity in 2023 (CSO), most of them in the Dublin region."
+      ],
+      "tip": "Back every pressure with a named Dublin example, such as the counties or commuter towns above."
     },
     {
       "h": "Responses to urban expansion",
+      "b": "Planners have tried to control expansion by protecting land, by building new settlements and by deciding in advance where growth may go.",
       "points": [
-        "Green belts: London's Metropolitan Green Belt was protected from the 1940s and 1950s to stop the outward sprawl of London.",
-        "New towns: Britain's New Towns Act 1946 led to Stevenage, the first new town designated, in 1946, and Milton Keynes, designated in 1967.",
-        "Paris's five new towns, from the 1965 plan, took population growth away from the city.",
-        "Dublin's western new towns of Tallaght, Clondalkin, Lucan and Blanchardstown were planned after the Wright Report of 1967.",
-        "Compact growth and brownfield targets, set out in the National Planning Framework, aim to build on land within existing settlements (see the note Urban planning and renewal).",
+        "Green belts (protected rings of open land around a city): London's Metropolitan Green Belt was protected from the 1940s and 1950s to stop the outward sprawl of London.",
+        "New towns (planned towns built to take growth away from a city): Britain's New Towns Act 1946 led to Stevenage, the first new town designated, in 1946, and Milton Keynes, designated in 1967.",
+        "Paris's five new towns, from the 1965 plan, took population growth away from the city, so that it did not all go into the existing built-up area.",
+        "Dublin's western new towns of Tallaght, Clondalkin, Lucan and Blanchardstown were planned after the Wright Report of 1967, so that growth went into planned towns.",
+        "Compact growth and brownfield targets, set out in the National Planning Framework, aim to build on land within existing settlements. There is more on this in Urban planning and renewal.",
         "Development plans zone land for particular uses, so that the authorities decide where expansion may take place."
-      ]
+      ],
+      "tip": "Pair each response with a named example: London for green belts, and Britain, Paris and Dublin for new towns."
     }
   ],
   "keyTerms": [

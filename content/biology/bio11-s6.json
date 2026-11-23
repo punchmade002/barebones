@@ -6,89 +6,105 @@
   "notes": [
     {
       "h": "What incomplete dominance is (Higher Level only)",
+      "b": "With complete dominance, one allele (a version of a gene) hides the other in a heterozygote (an organism carrying two different alleles). With incomplete dominance, neither allele hides the other, and the results of crosses look different.",
       "points": [
-        "The heterozygote's phenotype lies between those of the two homozygotes, e.g. pink snapdragons from red × white.",
-        "There are three phenotypes rather than two, and each genotype can be recognised from its phenotype.",
-        "With complete dominance the heterozygote looks like the homozygous dominant (Tt is as tall as TT), so there are only two phenotypes."
-      ]
+        "The heterozygote's phenotype (its observable feature) lies between those of the two homozygotes (organisms with two identical alleles), e.g. pink snapdragons from red × white.",
+        "There are three phenotypes rather than two, so each genotype (the pair of alleles an organism carries) can be recognised just by looking at the phenotype.",
+        "With complete dominance the heterozygote looks like the homozygous dominant (Tt is as tall as TT), so there are only two phenotypes and a tall plant could be TT or Tt.",
+        "The AB blood group is not an example of incomplete dominance: both the A and B antigens are fully made side by side, rather than giving an in-between result."
+      ],
+      "tip": "If asked to explain the term, say the heterozygote shows a phenotype between the two homozygous phenotypes because neither allele is fully dominant. Don't offer AB blood group as an example."
     },
     {
       "h": "Why the heterozygote is pink (Higher Level only)",
+      "b": "The pink colour has a simple molecular cause, which also shows that the alleles themselves are never altered.",
       "points": [
         "In snapdragon flower colour, the red allele codes for a working enzyme that makes red pigment, and the white allele codes for no working pigment enzyme.",
-        "A plant with two red alleles makes enough pigment to be red.",
-        "A heterozygote has only one working copy, so it makes less pigment and is pink.",
+        "A plant with two red alleles has two working copies, so it makes enough pigment to be red.",
+        "A heterozygote has only one working copy, so it makes less pigment and is pink. A plant with two white alleles makes none and is white.",
         "The alleles are not mixed or changed: red and white flowers reappear in the next generation, which shows the genes themselves do not blend."
-      ]
+      ],
+      "tip": "Incomplete dominance is not blending inheritance. Say that the alleles stay separate and the parental phenotypes reappear in the offspring of two pink plants."
     },
     {
       "h": "Symbols for incompletely dominant alleles (Higher Level only)",
+      "b": "Genetics questions need a key for the allele letters. A capital and lower-case pair suggests one allele is dominant, so incomplete dominance needs a different choice.",
       "points": [
         "Neither allele is dominant, so don't use a capital and a lower-case letter of the same kind as if one were dominant.",
         "Use the letters the question gives.",
         "If choosing, use two different capital letters, e.g. R = allele for red, W = allele for white (so RR red, RW pink, WW white), and state in the key that the alleles show incomplete dominance.",
         "Questions sometimes use B and b with a statement that B is incompletely dominant; follow the question's key."
-      ]
+      ],
+      "tip": "Pink is the heterozygote, so write it as RW. Don't write pink as RR or invent a separate allele 'P'."
     },
     {
       "h": "First cross: homozygous × homozygous (Higher Level only)",
-      "b": "Snapdragon flower colour.",
+      "b": "Snapdragon flower colour. Crossing a true-breeding red plant with a true-breeding white plant is the simplest cross, and it shows where the pink phenotype comes from.",
       "points": [
         "Key: R = red, W = white, incomplete dominance.",
         "Parents' phenotypes: red × white.",
         "Parents' genotypes: RR × WW.",
-        "Gametes: R × W.",
-        "Offspring genotypes: all RW.",
+        "Gametes (sex cells, each carrying one allele): R × W.",
+        "Offspring genotypes: all RW, because every offspring gets one R from one parent and one W from the other.",
         "Offspring phenotypes: all (100%) pink."
       ]
     },
     {
       "h": "Second cross: heterozygote × heterozygote (Higher Level only)",
+      "b": "Crossing two pink plants brings the parental colours back, which is the classic test of incomplete dominance. Set it out in the standard layout, line by line.",
       "points": [
         "Parents' phenotypes: pink × pink.",
         "Parents' genotypes: RW × RW.",
-        "Gametes: R, W × R, W.",
-        "Punnett square: RR, RW / RW, WW.",
+        "Gametes: R, W × R, W, because each parent can pass on either of its two alleles.",
+        "Punnett square (a grid showing every possible combination of gametes): RR, RW / RW, WW.",
         "Offspring genotypes: 1 RR : 2 RW : 1 WW.",
         "Offspring phenotypes: 1 red : 2 pink : 1 white (25% red, 50% pink, 25% white).",
-        "Diagram: the 2 × 2 Punnett square for RW × RW with gametes R and W on each side, boxes RR, RW, RW and WW, and each box labelled red, pink, pink or white (or shaded red, pink, white)."
-      ]
+        "Diagram: draw the 2 × 2 Punnett square for RW × RW. Labels: gametes R and W on each side; boxes RR, RW, RW, WW; each box labelled red, pink, pink or white (or shaded red, pink, white)."
+      ],
+      "tip": "Exams ask you to use a cross to give the genotypes and phenotypes of the offspring of two heterozygotes, with the ratio. Show every line: key, parents, gametes, square, genotypes, phenotypes."
     },
     {
       "h": "Recognising incomplete dominance from the ratio (Higher Level only)",
+      "b": "The offspring ratio of a heterozygote × heterozygote cross tells you which kind of dominance a trait shows.",
       "points": [
         "The phenotype ratio (1 : 2 : 1) is the same as the genotype ratio, because each genotype has its own phenotype.",
-        "With complete dominance the same cross gives 3 : 1.",
+        "With complete dominance the same cross gives 3 : 1, because the heterozygote looks like the dominant homozygote and the two classes merge.",
         "If a cross of two parents that look the same gives three phenotypes in a 1 : 2 : 1 ratio, the trait shows incomplete dominance."
-      ]
+      ],
+      "tip": "Exams ask how the ratio would differ if one allele were completely dominant: 3 : 1 instead of 1 : 2 : 1. With incomplete dominance 1 : 2 : 1 is the phenotype ratio; with complete dominance it is only the genotype ratio."
     },
     {
       "h": "Heterozygote × homozygote (Higher Level only)",
+      "b": "A pink plant can also be crossed with a red or a white one. Only two genotypes are possible in the offspring, so there are two phenotypes in a 1 : 1 ratio.",
       "points": [
         "Parents' genotypes: RW × WW (pink × white).",
-        "Gametes: R, W × W.",
+        "Gametes: R, W × W, because the homozygous parent can only pass on W.",
         "Offspring genotypes: 1 RW : 1 WW.",
         "Offspring phenotypes: 1 pink : 1 white.",
-        "Pink × red: RW × RR gives 1 RR : 1 RW, 1 red : 1 pink."
+        "Pink × red: RW × RR gives 1 RR : 1 RW, so 1 red : 1 pink."
       ]
     },
     {
       "h": "Second example: Andalusian fowl (Higher Level only)",
+      "b": "Chickens give a second example of incomplete dominance, with a practical consequence for breeders.",
       "points": [
         "In Andalusian chickens, feather colour shows incomplete dominance.",
-        "Homozygous black × homozygous white gives all offspring with grey-blue feathers, called “blue”.",
+        "Homozygous black × homozygous white gives all offspring with grey-blue feathers, called 'blue'.",
         "Blue × blue gives 1 black : 2 blue : 1 white.",
         "If black were instead completely dominant to white, the same blue-type (heterozygous) cross would give 3 black : 1 white.",
-        "Blue Andalusians can never be true-breeding, because every blue bird is heterozygous.",
+        "Blue Andalusians can never be true-breeding (always producing offspring like themselves), because every blue bird is heterozygous and its offspring include black and white.",
         "Breeders get all-blue chicks by crossing black with white birds."
-      ]
+      ],
+      "tip": "Exams use feather colour in Andalusian fowl as the trait for a cross of two heterozygotes. Give genotypes, phenotypes and the 1 : 2 : 1 ratio, and be ready to state the 3 : 1 ratio for complete dominance."
     },
     {
       "h": "Combining with a second gene (Higher Level only)",
+      "b": "Real organisms carry many genes at once, so a cross can follow an incompletely dominant gene together with a completely dominant one.",
       "points": [
         "A cross can combine an incompletely dominant gene with a completely dominant one, e.g. snapdragon flower colour with plant height.",
-        "This is a two-gene cross; the worked example is in “Dihybrid crosses”."
-      ]
+        "This is a two-gene cross. There is more on this in Dihybrid crosses, which has the worked example."
+      ],
+      "tip": "Exams can ask for a two-gene cross with one incompletely dominant gene and one dominant gene. Use the correct key for each gene."
     }
   ],
   "keyTerms": [

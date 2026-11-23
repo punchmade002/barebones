@@ -6,35 +6,42 @@
   "notes": [
     {
       "h": "The light-independent reactions (Higher Level only)",
+      "b": "The second stage of photosynthesis is where glucose is actually built. It uses the ATP and NADPH made in the first stage as its energy and hydrogen supply, and in return sends the empty carriers back.",
       "points": [
-        "Location: the stroma of the chloroplast, which contains the enzymes for these reactions. The reactions need no light directly, but they depend on the ATP and NADPH made in the light-dependent reactions on the thylakoids.",
+        "Location: the stroma (the fluid that fills the chloroplast), which contains the enzymes for these reactions. The reactions need no light directly, but they depend on the ATP and NADPH made in the light-dependent reactions on the thylakoids.",
         "1. Carbon dioxide diffuses into the stroma, from the air spaces of the leaf through the cell and the chloroplast's membranes. It is taken up, or fixed, by combining with a carbon dioxide-accepting compound already present in the stroma.",
-        "2. NADPH and ATP from the light-dependent reactions enter the reactions.",
+        "2. NADPH and ATP from the light-dependent reactions enter the reactions, because they supply the hydrogen and the energy that CO₂ needs to become glucose.",
         "3. Protons and electrons, that is hydrogen, are transferred from NADPH to the carbon compounds made from CO₂. This adds hydrogen to the carbon, which is reduction, turning CO₂ into carbohydrate. NADPH becomes NADP⁺.",
-        "4. The energy to achieve this conversion comes from ATP, which is broken down to ADP + Pi.",
-        "5. Glucose (C₆H₁₂O₆) is the product. Six molecules of CO₂ are fixed for each molecule of glucose. The glucose is then used, or converted to sucrose, starch and cellulose (see Photosynthesis as an anabolic process).",
+        "4. The energy to achieve this conversion comes from ATP, which is broken down to ADP + Pi (phosphate).",
+        "5. Glucose (C₆H₁₂O₆) is the product. Six molecules of CO₂ are fixed for each molecule of glucose, because each supplies one of its six carbon atoms. The glucose is then used, or converted to sucrose, starch and cellulose.",
         "6. ADP + Pi and NADP⁺ return to the light-dependent reactions on the thylakoid membranes, where they are reloaded to ATP and NADPH and can be re-used.",
-        "The reactions form a cycle, the Calvin cycle. Most of the carbon compounds made regenerate the CO₂-accepting compound, so the cycle can keep fixing CO₂, and the rest is built into glucose.",
-        "Summary in words: carbon dioxide + hydrogen (from NADPH) + energy (from ATP) → glucose, with NADP⁺ and ADP + Pi released."
-      ]
+        "The reactions form a cycle, the Calvin cycle. Most of the carbon compounds made regenerate the CO₂-accepting compound, so the cycle can keep fixing CO₂, and the rest is built into glucose."
+      ],
+      "tip": "Keep the roles straight: ATP gives energy, and NADPH gives hydrogen (protons and electrons). It is ADP + Pi and NADP⁺ that return, not ATP. Don't call this the dark stage or say it happens only at night."
     },
     {
-      "h": "Why the stage is sensitive to temperature and CO₂, and stops in the dark (Higher Level only)",
+      "h": "Summary of the stage, and what affects it (Higher Level only)",
+      "b": "Once you know the inputs and outputs, you can explain why this stage responds to temperature and CO₂ and why it stops soon after dark, even though it uses no light directly.",
       "points": [
-        "Every step is catalysed by enzymes in the stroma, so the rate rises with temperature up to an optimum, and falls when the enzymes are denatured. This is why temperature affects the rate of photosynthesis (see Investigation: rate of photosynthesis).",
+        "Summary in words: carbon dioxide + hydrogen (from NADPH) + energy (from ATP) → glucose, with NADP⁺ and ADP + Pi released, so the carriers are free to be reloaded.",
+        "Every step is catalysed by enzymes in the stroma, so the rate rises with temperature up to an optimum, and falls when the enzymes are denatured. This is why temperature affects the rate of photosynthesis.",
         "CO₂ is the raw material of this stage, so its supply directly limits the rate of glucose production.",
-        "In darkness the light-dependent reactions stop. ATP and NADPH run out within a short time, and the light-independent reactions then stop too, even though they do not use light directly."
-      ]
+        "In darkness the light-dependent reactions stop, so ATP and NADPH run out within a short time. The light-independent reactions then stop too, even though they do not use light directly."
+      ],
+      "tip": "If asked why this stage stops soon after a plant is put in the dark, explain that the light-dependent reactions stop making ATP and NADPH, which this stage needs. 'Light-independent' means it uses no light itself."
     },
     {
       "h": "Modelling the two-stage process (Higher Level only)",
+      "b": "Photosynthesis is best understood as two linked stages joined by recycled carrier molecules. Modelling it means showing what goes in and out of each stage and what the carriers move between them.",
       "points": [
-        "Stage 1, the light-dependent reactions on the thylakoid membranes: light energy, absorbed by chlorophyll, splits water and drives electron transfer. This produces O₂, which is released, and loads the transfer molecules: ADP + Pi → ATP and NADP⁺ → NADPH.",
-        "Stage 2, the light-independent reactions in the stroma: the transfer molecules are unloaded. NADPH gives its protons and electrons to CO₂, and ATP gives the energy, producing glucose. NADPH → NADP⁺ and ATP → ADP + Pi.",
-        "The transfer molecules link the two stages. They carry energy (ATP) and electrons and hydrogen (NADPH) from stage 1 to stage 2, and return empty, as ADP + Pi and NADP⁺, from stage 2 to stage 1. Because they are recycled, the chloroplast needs only a small supply of each.",
-        "Tracing the atoms: the oxygen gas comes from water (stage 1). The carbon and the oxygen in glucose come from CO₂ (stage 2). The hydrogen in glucose comes from water, carried by NADPH. The isotope evidence for this is in Photosynthesis as an anabolic process.",
-        "Diagram: the two-stage model. Draw a thylakoid (stage 1) on the left and the stroma (stage 2) on the right. Stage 1 has inputs of light and H₂O and an output of O₂. Stage 2 has an input of CO₂ and an output of glucose (C₆H₁₂O₆). Between the stages draw two loops of arrows: ATP from stage 1 to stage 2 with ADP + Pi returning, and NADPH from stage 1 to stage 2 with NADP⁺ returning. Label each arrow with what it carries: energy, or protons and electrons."
-      ]
+        "Stage 1, the light-dependent reactions on the thylakoid membranes (the flattened sacs inside the chloroplast): light energy, absorbed by chlorophyll, splits water and drives electron transfer. This produces O₂, which is released, and loads the transfer molecules: ADP + Pi → ATP and NADP⁺ → NADPH.",
+        "Stage 2, the light-independent reactions in the stroma: the transfer molecules are unloaded, which is why this stage needs stage 1. NADPH gives its protons and electrons to CO₂, and ATP gives the energy, producing glucose. NADPH → NADP⁺ and ATP → ADP + Pi.",
+        "The transfer molecules link the two stages. They carry energy (ATP) and electrons and hydrogen (NADPH) from stage 1 to stage 2, and return empty, as ADP + Pi and NADP⁺, from stage 2 to stage 1.",
+        "Because the transfer molecules are recycled, the chloroplast needs only a small supply of each.",
+        "Tracing the atoms: the oxygen gas comes from water (stage 1). The carbon and the oxygen in glucose come from CO₂ (stage 2). The hydrogen in glucose comes from water, carried by NADPH.",
+        "Diagram: thylakoid (stage 1) beside stroma (stage 2). Stage 1: in light, H₂O; out O₂. Stage 2: in CO₂; out glucose. Two loops between them: ATP across and ADP + Pi back, NADPH across and NADP⁺ back, each arrow labelled energy, or protons and electrons."
+      ],
+      "tip": "In a labelled model, show both carrier loops and the location of each stage. Name the two products of the light-dependent stage used in stage 2 and their roles (ATP: energy; NADPH: protons and electrons), and the two that return (ADP + Pi, NADP⁺)."
     }
   ],
   "keyTerms": [

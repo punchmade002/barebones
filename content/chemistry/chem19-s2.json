@@ -6,118 +6,147 @@
   "notes": [
     {
       "h": "Strong acids (Higher Level only)",
+      "b": "pH is a number that measures how acidic a solution is: pH = −log₁₀[H⁺], where [H⁺] is the concentration of hydrogen ions in mol L⁻¹ (M means mol L⁻¹). A strong acid ionises completely, so its [H⁺] can be read straight from the concentration of the acid.",
       "points": [
-        "A strong acid is fully dissociated, so [H⁺] = concentration of the acid × number of H⁺ released per formula unit (its basicity).",
-        "Monoprotic (monobasic) strong acids, HCl and HNO₃, give [H⁺] = [acid].",
+        "A strong acid is fully dissociated (every molecule splits into ions), so [H⁺] = concentration of the acid × number of H⁺ released per formula unit (its basicity, the number of H⁺ each unit of acid can give).",
+        "Monoprotic (monobasic) strong acids, which release one H⁺ each, such as HCl and HNO₃, give [H⁺] = [acid], because each molecule supplies exactly one H⁺.",
         "For example, 0.010 M HCl has [H⁺] = 0.010 mol L⁻¹, so pH = −log₁₀(0.010) = 2.00.",
         "For example, 0.025 M HCl has pH = −log₁₀(0.025) = 1.60.",
-        "Sulfuric acid is diprotic and is treated as fully dissociated: H₂SO₄ → 2H⁺ + SO₄²⁻, so [H⁺] = 2 × [H₂SO₄].",
+        "Sulfuric acid is diprotic (it can release two H⁺) and is treated as fully dissociated: H₂SO₄ → 2H⁺ + SO₄²⁻, so [H⁺] = 2 × [H₂SO₄].",
         "For example, 0.050 M H₂SO₄ has [H⁺] = 0.10 mol L⁻¹, so pH = 1.00."
-      ]
+      ],
+      "tip": "Sulfuric acid gives 2H⁺ per formula unit, so double its concentration before taking the log. Don't use √(Ka × c) for a strong acid."
     },
     {
       "h": "Strong acid from a mass (Higher Level only)",
+      "b": "Sometimes a question gives a mass of acid dissolved in a stated volume instead of a concentration. Convert to mol L⁻¹ first, then use the strong acid method one step at a time.",
       "points": [
-        "Problem: 5.0 g of sulfuric acid (H₂SO₄ = 98 g mol⁻¹) is dissolved in water and made up to 250 cm³. Find the pH.",
-        "Step 1: Concentration in g L⁻¹ = 5.0 ÷ 0.250 = 20 g L⁻¹.",
-        "Step 2: Concentration in mol L⁻¹ = 20 ÷ 98 = 0.204 mol L⁻¹.",
-        "Step 3: [H⁺] = 2 × 0.204 = 0.408 mol L⁻¹.",
+        "Problem: 5.0 g of sulfuric acid (H₂SO₄ = 98 g mol⁻¹, its molar mass) is dissolved in water and made up to 250 cm³. Find the pH.",
+        "Step 1: Concentration in g L⁻¹ = 5.0 ÷ 0.250 = 20 g L⁻¹, because 250 cm³ is 0.250 L.",
+        "Step 2: Concentration in mol L⁻¹ = 20 ÷ 98 = 0.204 mol L⁻¹, dividing by the molar mass.",
+        "Step 3: [H⁺] = 2 × 0.204 = 0.408 mol L⁻¹, because each H₂SO₄ releases 2H⁺.",
         "Step 4: pH = −log₁₀(0.408) = 0.39."
-      ]
+      ],
+      "tip": "Calculate the pH from a mass of solute in a stated volume. Convert volumes in cm³ to litres before finding mol L⁻¹."
     },
     {
       "h": "Strong bases (Higher Level only)",
+      "b": "A strong base is treated like a strong acid, except that it supplies OH⁻ (hydroxide ions) rather than H⁺. So you find [OH⁻] first and then convert it to a pH.",
       "points": [
         "A strong base is fully dissociated, so [OH⁻] = concentration of the base × number of OH⁻ per formula unit: NaOH and KOH give 1 OH⁻, while Ca(OH)₂ gives 2.",
-        "Method: find [OH⁻], then pOH = −log₁₀[OH⁻]; pH = 14 − pOH at 25 °C.",
-        "Alternative method: [H⁺] = Kw ÷ [OH⁻] = 1.0 × 10⁻¹⁴ ÷ [OH⁻], then pH = −log₁₀[H⁺]; both methods give the same answer.",
+        "Method: find [OH⁻], then pOH = −log₁₀[OH⁻] (pOH is the same scale as pH but for OH⁻); pH = 14 − pOH at 25 °C, because pH + pOH = 14 only at that temperature.",
+        "Alternative method: [H⁺] = Kw ÷ [OH⁻] = 1.0 × 10⁻¹⁴ ÷ [OH⁻] (Kw is the ionic product of water, [H⁺][OH⁻]), then pH = −log₁₀[H⁺]; both methods give the same answer.",
         "For example, 0.010 M NaOH has [OH⁻] = 0.010, so pOH = 2.00 and pH = 14 − 2.00 = 12.00.",
         "For example, 0.15 M NaOH has pOH = −log₁₀(0.15) = 0.82, so pH = 13.18.",
         "For example, 0.010 M Ca(OH)₂ dissociates as Ca(OH)₂ → Ca²⁺ + 2OH⁻, so [OH⁻] = 0.020 mol L⁻¹, pOH = 1.70 and pH = 12.30.",
         "Example from a mass: 9.0 g of KOH (56 g mol⁻¹) made up to 500 cm³ gives 18 g L⁻¹ ÷ 56 = 0.321 mol L⁻¹ = [OH⁻].",
         "For the KOH example, pOH = 0.49 and pH = 13.51."
-      ]
+      ],
+      "tip": "Calcium hydroxide gives 2OH⁻ per formula unit. For any base, find [OH⁻] first and don't put it into −log₁₀ and call the result pH."
     },
     {
-      "h": "Weak acids (Higher Level only)",
+      "h": "Weak acids: the formula (Higher Level only)",
+      "b": "A weak acid dissociates only slightly, so you cannot take [H⁺] equal to its concentration. Instead you use Ka, the acid dissociation constant, a number that measures how far the acid dissociates (the larger the Ka, the stronger the acid).",
       "points": [
         "A weak acid is only slightly dissociated, so [H⁺] is much less than the acid concentration and must be found from Ka.",
-        "Formula: [H⁺] = √(Ka × c), where c is the concentration of the acid in mol L⁻¹ (derived in “Dissociation constants”); this formula must be learned.",
-        "It assumes the acid is monoprotic, that the amount dissociated is very small compared with c (so c − x ≈ c), and that the H⁺ from water is negligible.",
+        "Formula: [H⁺] = √(Ka × c), where c is the concentration of the acid in mol L⁻¹; this formula must be learned, because it is not in the Formulae and Tables booklet.",
+        "It assumes the acid is monoprotic (gives one H⁺ per molecule), that the amount dissociated is very small compared with c (so c − x ≈ c, where x is the amount that dissociates), and that the H⁺ from water is negligible.",
+        "The approximation is good: the exact quadratic answer for 0.10 M ethanoic acid is pH 2.88, so the formula is good to about 0.01 pH unit."
+      ],
+      "tip": "Don't use √(Ka × c) for a strong acid, or [H⁺] = c for a weak acid. Mixtures of an acid and a base, and buffer calculations, are not required."
+    },
+    {
+      "h": "Weak acids: worked examples (Higher Level only)",
+      "b": "Once [H⁺] is found from √(Ka × c), the pH follows with −log₁₀ as for any acid. These examples use Ka values at 25 °C.",
+      "points": [
         "For example, 0.10 M ethanoic acid with Ka = 1.8 × 10⁻⁵ has [H⁺] = √(1.8 × 10⁻⁵ × 0.10) = √(1.8 × 10⁻⁶) = 1.34 × 10⁻³ mol L⁻¹.",
         "So its pH = −log₁₀(1.34 × 10⁻³) = 2.87.",
         "For example, 0.50 M ethanoic acid has [H⁺] = √(1.8 × 10⁻⁵ × 0.50) = √(9.0 × 10⁻⁶) = 3.0 × 10⁻³ mol L⁻¹, so pH = 2.52.",
         "For example, 0.10 M methanoic acid with Ka = 1.8 × 10⁻⁴ has [H⁺] = √(1.8 × 10⁻⁵) = 4.24 × 10⁻³ mol L⁻¹, so pH = 2.37.",
-        "Methanoic acid has a lower pH than ethanoic acid at the same concentration, because it is the stronger acid.",
+        "Methanoic acid has a lower pH than ethanoic acid at the same concentration, because it is the stronger acid (larger Ka).",
         "Example from a mass: 1.48 g of propanoic acid (CH₃CH₂COOH, 74 g mol⁻¹) in 200 cm³ gives moles = 1.48 ÷ 74 = 0.0200 mol.",
-        "Concentration c = 0.0200 ÷ 0.200 = 0.100 mol L⁻¹.",
+        "Concentration c = 0.0200 ÷ 0.200 = 0.100 mol L⁻¹, with the volume converted to litres.",
         "With Ka = 1.3 × 10⁻⁵, [H⁺] = √(1.3 × 10⁻⁵ × 0.100) = 1.14 × 10⁻³ mol L⁻¹, so pH = 2.94."
-      ]
+      ],
+      "tip": "Exams ask for the pH of a weak acid of given concentration and Ka, and for the pH from a mass of solute in a stated volume."
     },
     {
       "h": "Weak bases (Higher Level only)",
+      "b": "A weak base reacts only slightly with water to give OH⁻, so it is handled like a weak acid but with Kb, the base dissociation constant (a measure of how far the base dissociates). You find [OH⁻] first.",
       "points": [
-        "Formula: [OH⁻] = √(Kb × c), with the same assumptions as for weak acids; then pOH = −log₁₀[OH⁻] and pH = 14 − pOH.",
+        "Formula: [OH⁻] = √(Kb × c), with the same assumptions as for weak acids (the amount dissociated is very small compared with c, and OH⁻ from water is negligible); then pOH = −log₁₀[OH⁻] and pH = 14 − pOH.",
         "For example, 0.10 M ammonia with Kb = 1.8 × 10⁻⁵ has [OH⁻] = √(1.8 × 10⁻⁵ × 0.10) = 1.34 × 10⁻³ mol L⁻¹.",
         "So its pOH = 2.87 and pH = 14 − 2.87 = 11.13.",
         "For example, 0.050 M ammonia has [OH⁻] = √(1.8 × 10⁻⁵ × 0.050) = 9.49 × 10⁻⁴ mol L⁻¹, so pOH = 3.02 and pH = 10.98."
-      ]
+      ],
+      "tip": "Exams ask for the pH of a weak base (given Kb) of given concentration. The last step is pH = 14 − pOH, so don't stop at pOH."
     },
     {
       "h": "Reverse problems (Higher Level only)",
+      "b": "Sometimes the pH is given and you must work backwards to a concentration or to Ka. Undo the log with 10 raised to the power of minus pH.",
       "points": [
-        "Concentration of a strong acid from its pH: for a monoprotic acid, [acid] = [H⁺] = 10⁻ᵖᴴ.",
+        "Concentration of a strong acid from its pH: for a monoprotic acid, [acid] = [H⁺] = 10⁻ᵖᴴ, because pH = −log₁₀[H⁺].",
         "For example, a strong monoprotic acid HX with pH 5.65 has [HX] = 10⁻⁵·⁶⁵ = 2.24 × 10⁻⁶ mol L⁻¹.",
-        "[OH⁻] from pH: [OH⁻] = Kw ÷ [H⁺].",
+        "[OH⁻] from pH: [OH⁻] = Kw ÷ [H⁺], where Kw is 1.0 × 10⁻¹⁴ at 25 °C.",
         "For example, at pH 5.65, pOH = 14 − 5.65 = 8.35, so [OH⁻] = 10⁻⁸·³⁵ = 4.47 × 10⁻⁹ mol L⁻¹, the same as 1.0 × 10⁻¹⁴ ÷ 10⁻⁵·⁶⁵.",
-        "Ka of a weak acid from its pH: [H⁺] = 10⁻ᵖᴴ, then Ka = [H⁺]² ÷ c.",
+        "Ka of a weak acid from its pH: [H⁺] = 10⁻ᵖᴴ, then Ka = [H⁺]² ÷ c, which is the formula [H⁺] = √(Ka × c) rearranged.",
         "For example, a 0.10 M weak monoprotic acid with pH 3.00 has [H⁺] = 1.0 × 10⁻³, so Ka = (1.0 × 10⁻³)² ÷ 0.10 = 1.0 × 10⁻⁵.",
         "Concentration of a weak acid from its pH and Ka: c = [H⁺]² ÷ Ka.",
         "For example, ethanoic acid of pH 3.00 has c = (1.0 × 10⁻³)² ÷ 1.8 × 10⁻⁵ = 0.0556 mol L⁻¹."
-      ]
+      ],
+      "tip": "Exams ask for the concentration of a strong acid with a given pH, for [OH⁻] in a solution of given pH, and for Ka from the pH and concentration of a weak acid."
     },
     {
       "h": "Good practice (Higher Level only)",
+      "b": "Every pH calculation goes wrong if the wrong method is chosen or a conversion is skipped. Work through these checks before and after every pH calculation.",
       "points": [
         "First decide: is the species an acid or a base, and is it strong or weak? For a strong species use the concentration directly; for a weak species use √(Ka × c) or √(Kb × c).",
         "For any base, find [OH⁻] first, then convert to pH; do not put [OH⁻] into −log₁₀ and call the result pH.",
-        "Convert masses to mol L⁻¹ first: n = m ÷ M, then c = n ÷ V, with V in litres.",
+        "Convert masses to mol L⁻¹ first: n = m ÷ M (moles = mass ÷ molar mass), then c = n ÷ V, with V in litres.",
         "Check that the answer is sensible: acids have pH below 7, bases have pH above 7, and a weak acid has a higher pH than a strong acid of the same concentration.",
         "Give pH answers to two decimal places."
-      ]
+      ],
+      "tip": "Volumes in cm³ must be converted to litres before finding mol L⁻¹. pH + pOH = 14 only at 25 °C."
     },
     {
       "h": "Dissociation of acids and bases",
+      "b": "When an acid or base dissolves in water, it splits into ions; this is called dissociation. Writing the equation for it is the starting point for strength and for the dissociation constants that follow.",
       "points": [
-        "A general acid is written HA; in water it dissociates by donating a proton to water: HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), or simply HA(aq) ⇌ H⁺(aq) + A⁻(aq).",
+        "A general acid is written HA; in water it dissociates by donating a proton (an H⁺ ion) to water: HA(aq) + H₂O(l) ⇌ H₃O⁺(aq) + A⁻(aq), or simply HA(aq) ⇌ H⁺(aq) + A⁻(aq).",
         "For example, ethanoic acid dissociates as CH₃COOH(aq) ⇌ CH₃COO⁻(aq) + H⁺(aq); A⁻ is the ethanoate ion.",
         "A general base that contains hydroxide is written BOH: BOH(aq) ⇌ B⁺(aq) + OH⁻(aq).",
         "A base such as ammonia, written B, produces OH⁻ by accepting a proton from water: NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq).",
         "Here B⁺ is the ammonium ion, NH₄⁺ (BH⁺ in some books).",
-        "For a strong acid or base the dissociation goes to completion, shown by a single arrow (→); for a weak acid or base it is an equilibrium (⇌) that lies well to the left."
-      ]
+        "For a strong acid or base the dissociation goes to completion, shown by a single arrow (→); for a weak acid or base it is an equilibrium (⇌, a reaction that runs both ways) that lies well to the left, so most of the molecules stay undissociated."
+      ],
+      "tip": "Exams ask you to write the dissociation equation for a weak acid HA and for ammonia, and to state how a strong acid differs from a weak one: complete dissociation (→) against an equilibrium (⇌) that lies to the left."
     },
     {
       "h": "Deducing Ka (Higher Level only)",
+      "b": "The acid dissociation constant Ka comes from the equilibrium constant Kc (products over reactants, each concentration in mol L⁻¹) for the acid reacting with water. Water is then left out, for a reason you can state.",
       "points": [
         "Step 1: Write the equilibrium: HA + H₂O ⇌ H₃O⁺ + A⁻.",
         "Step 2: Write Kc as products over reactants: Kc = [H₃O⁺][A⁻] ÷ ([HA][H₂O]).",
-        "Step 3: In a dilute solution [H₂O] is effectively constant (55.6 mol L⁻¹), so it is combined with Kc: Ka = Kc × [H₂O].",
+        "Step 3: In a dilute solution [H₂O] is effectively constant (55.6 mol L⁻¹, from 1000 ÷ 18), because so little water reacts; so it is combined with Kc: Ka = Kc × [H₂O].",
         "Result: Ka = [H₃O⁺][A⁻] ÷ [HA], or in simplified form Ka = [H⁺][A⁻] ÷ [HA]; Ka is the acid dissociation constant.",
         "Example: for ethanoic acid, Ka = [CH₃COO⁻][H⁺] ÷ [CH₃COOH] = 1.8 × 10⁻⁵ at 25 °C.",
         "The units of Ka are mol L⁻¹ (concentration² ÷ concentration); they are often omitted."
-      ]
+      ],
+      "tip": "Exams ask you to write the Ka expression for a named weak acid and to explain why [H₂O] is left out: it is effectively constant and is absorbed into Ka. Products go on top, so Ka = [H⁺][A⁻] ÷ [HA], not the reverse."
     },
     {
       "h": "Deducing Kb (Higher Level only)",
+      "b": "The base dissociation constant Kb is found by exactly the same steps as Ka, using the equilibrium of a base with water.",
       "points": [
         "For B + H₂O ⇌ B⁺ + OH⁻ (or BOH ⇌ B⁺ + OH⁻), the same steps give the base dissociation constant: Kb = [B⁺][OH⁻] ÷ [B] (or [B⁺][OH⁻] ÷ [BOH]).",
-        "[H₂O] is again effectively constant and is absorbed into Kb.",
+        "[H₂O] is again effectively constant and is absorbed into Kb, so it does not appear in the expression.",
         "Example: for ammonia, Kb = [NH₄⁺][OH⁻] ÷ [NH₃] = 1.8 × 10⁻⁵ at 25 °C."
-      ]
+      ],
+      "tip": "Exams ask you to write the Kb expression for ammonia. Don't put [H₂O] in the expression."
     },
     {
       "h": "What Ka and Kb tell you (Higher Level only)",
+      "b": "Ka and Kb are equilibrium constants, so a large value means the equilibrium lies far to the right and a small value means it lies far to the left. This makes them a direct measure of strength.",
       "points": [
         "Ka measures the strength of an acid, its tendency to donate a proton: the larger Ka, the further the equilibrium lies to the right and the stronger the acid.",
         "Likewise, the larger Kb, the stronger the base.",
@@ -125,33 +154,39 @@
         "Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) dissociate essentially completely, so their Ka or Kb values are very large and the expressions are not used.",
         "Ka and Kb are used for weak acids and bases.",
         "Like all equilibrium constants, Ka and Kb are constant at a given temperature and do not change with concentration; values are quoted at 25 °C."
-      ]
+      ],
+      "tip": "Ka and Kb measure strength, not concentration, and they don't change on dilution. Use Ka values to decide which acid is stronger, and give a small Ka or partial dissociation as the reason an acid is weak. Don't use Ka to describe HCl."
     },
     {
       "h": "Deriving [H⁺] = √(Ka × c) (Higher Level only)",
+      "b": "The weak acid formula comes from the Ka expression plus one approximation. If you can show these four steps, you can state the formula and the assumption behind it.",
       "points": [
-        "Step 1: Start with c mol L⁻¹ of a weak acid HA, of which x mol L⁻¹ dissociates. At equilibrium [HA] = c − x, [H⁺] = x and [A⁻] = x.",
+        "Step 1: Start with c mol L⁻¹ of a weak acid HA, of which x mol L⁻¹ dissociates. At equilibrium [HA] = c − x, [H⁺] = x and [A⁻] = x, because each HA that dissociates gives one H⁺ and one A⁻.",
         "Step 2: Ka = x × x ÷ (c − x) = x² ÷ (c − x).",
         "Step 3: A weak acid dissociates so little that x is tiny compared with c, so c − x ≈ c and Ka = x² ÷ c.",
         "Step 4: x² = Ka × c, so [H⁺] = √(Ka × c).",
-        "The same steps for a weak base give [OH⁻] = √(Kb × c); worked uses of both formulas are in “pH calculations”."
-      ]
+        "The same steps for a weak base give [OH⁻] = √(Kb × c); the formulas are used in the weak acid and weak base calculations earlier in this subsection."
+      ],
+      "tip": "When asked to show that [H⁺] is approximately √(Ka × c), state the assumption made: c − x ≈ c. This approximation is valid only for weak acids and bases."
     },
     {
       "h": "Degree of dissociation",
+      "b": "Strength describes how far an acid or base splits into ions. The degree of dissociation puts a number on this, and it is what separates strong from weak.",
       "points": [
         "The degree of dissociation is the fraction of acid (or base) molecules that have dissociated into ions in solution; as a percentage, % dissociation = (concentration dissociated ÷ initial concentration) × 100.",
         "For an acid HA, % dissociation = ([H⁺] at equilibrium ÷ initial [HA]) × 100; for a base, % dissociation = ([OH⁻] ÷ initial [base]) × 100.",
         "Strong acids (HCl, HNO₃, H₂SO₄) and strong bases (NaOH, KOH) are essentially 100% dissociated in dilute solution, because the reaction goes to completion.",
         "Weak acids (e.g. ethanoic acid) and weak bases (e.g. ammonia) are only slightly dissociated, typically a few per cent or less.",
         "For example, 0.10 M ethanoic acid is about 1.3% dissociated, so about 99 out of every 100 molecules remain as CH₃COOH.",
-        "So at the same concentration a strong acid gives a much higher [H⁺] than a weak acid, with a lower pH, better conductivity and a faster reaction with magnesium; the evidence is in “Strong vs weak, concentrated vs dilute”.",
-        "In Brønsted–Lowry terms, a strong acid is a good proton donor whose conjugate base (e.g. Cl⁻) has almost no tendency to take the proton back, so the equilibrium lies completely to the right.",
+        "So at the same concentration a strong acid gives a much higher [H⁺] than a weak acid, with a lower pH, better conductivity and a faster reaction with magnesium.",
+        "In Brønsted–Lowry terms (acids donate protons, bases accept them), a strong acid is a good proton donor whose conjugate base (the ion left after it loses H⁺, e.g. Cl⁻) has almost no tendency to take the proton back, so the equilibrium lies completely to the right.",
         "A weak acid's conjugate base (e.g. CH₃COO⁻) readily takes the proton back, so the equilibrium lies to the left."
-      ]
+      ],
+      "tip": "Exams ask you to compare the degree of dissociation of a strong and a weak acid (or base). \"Strong\" means fully dissociated, not concentrated. Degree of dissociation measures strength only when acids are compared at the same concentration."
     },
     {
       "h": "Using Ka and Kb values (Higher Level only)",
+      "b": "Ka and Kb let you rank weak acids and bases and work out their percentage dissociation. Compare them only at the same concentration and temperature.",
       "points": [
         "At the same concentration and temperature, the acid with the larger Ka is dissociated to a greater degree and is the stronger acid; the base with the larger Kb is the stronger base.",
         "For example, methanoic acid (Ka 1.8 × 10⁻⁴) is a stronger acid than ethanoic acid (Ka 1.8 × 10⁻⁵): at 0.10 M, methanoic acid is 4.2% dissociated and ethanoic acid 1.3%.",
@@ -160,20 +195,24 @@
         "Its % dissociation = (1.34 × 10⁻³ ÷ 0.10) × 100 = 1.34%.",
         "Worked example: 0.10 M ammonia (Kb 1.8 × 10⁻⁵) has [OH⁻] = 1.34 × 10⁻³ mol L⁻¹, so 1.34% of the ammonia has reacted to form NH₄⁺ and OH⁻.",
         "A very small Ka (or Kb) means a very low degree of dissociation; the Ka values of strong acids are so large that dissociation is complete, which is why Ka is used only to compare weak acids."
-      ]
+      ],
+      "tip": "Exams ask you to use Ka values to decide which of two weak acids is stronger and justify the choice, and to calculate the approximate percentage dissociation of a weak acid of given concentration and Ka."
     },
     {
       "h": "Effect of dilution (Higher Level only)",
+      "b": "Diluting a weak acid does not change Ka, but it does change how much of the acid is dissociated. The percentage dissociation and the [H⁺] move in opposite directions.",
       "points": [
         "Ka is constant at a given temperature, but the degree of dissociation of a weak acid increases as the solution is diluted, because √(Ka ÷ c) gets larger as c gets smaller.",
         "For example, ethanoic acid is 0.42% dissociated at 1.0 M, 1.34% at 0.10 M and 4.2% at 0.010 M.",
-        "By Le Châtelier's principle, dilution lowers the concentration of all species, so the equilibrium HA ⇌ H⁺ + A⁻ shifts to the right, the side with more dissolved particles, to oppose the change.",
-        "Even though the degree of dissociation rises, [H⁺] still falls on dilution, so the pH still rises (see “pH and its measurement”).",
+        "By Le Châtelier's principle (a system at equilibrium shifts to oppose a change), dilution lowers the concentration of all species, so the equilibrium HA ⇌ H⁺ + A⁻ shifts to the right, the side with more dissolved particles, to oppose the change.",
+        "Even though the degree of dissociation rises, [H⁺] still falls on dilution, so the pH still rises.",
         "A strong acid is fully dissociated at every dilute concentration, so its degree of dissociation does not change on dilution."
-      ]
+      ],
+      "tip": "Diluting a weak acid raises its percentage dissociation but lowers its [H⁺]. To explain why dissociation increases even though Ka stays the same, use the √(Ka ÷ c) relationship, the example figures and the Le Châtelier shift to the right."
     },
     {
       "h": "Conjugate pairs and Ka × Kb (Higher Level only)",
+      "b": "An acid and the base left after it loses H⁺ are a conjugate acid–base pair. Their dissociation constants are linked through Kw, the ionic product of water.",
       "points": [
         "For a conjugate acid–base pair in water, Ka (of the acid) × Kb (of its conjugate base) = Kw = 1.0 × 10⁻¹⁴ at 25 °C.",
         "So the larger the Ka of an acid, the smaller the Kb of its conjugate base: the stronger the acid, the weaker its conjugate base.",

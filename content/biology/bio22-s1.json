@@ -6,114 +6,161 @@
   "notes": [
     {
       "h": "What a pathogen is",
-      "b": "A pathogen is an organism or agent that causes disease in its host, the organism it lives in or on.",
+      "b": "Some organisms and particles make us ill, and the biology of disease starts with naming them. A pathogen is an organism or agent that causes disease in its host, the organism it lives in or on.",
       "points": [
-        "An infectious (communicable) disease is one caused by a pathogen that can be passed from one host to another.",
-        "Most microorganisms are not pathogens: many are harmless or useful, as described in The microbiome.",
+        "An infectious (communicable) disease is one caused by a pathogen that can be passed from one host to another, which is why such diseases can spread through a population.",
+        "Most microorganisms are not pathogens: many are harmless or useful, so bacteria and fungi should not be lumped together as 'germs'. There is more on this in The microbiome.",
         "Pathogens cause harm in three main ways: they invade and destroy host cells or tissues, they release toxins, or they take nutrients from the host.",
-        "Invasion: viruses burst the cells they reproduce in, and the malaria parasite bursts red blood cells.",
+        "Invasion means the pathogen destroys cells: viruses burst the cells they reproduce in, and the malaria parasite bursts red blood cells.",
         "Toxins are poisonous chemicals that damage cells or disturb how they work; the tetanus toxin made by bacteria in a wound causes muscle spasms.",
-        "In some diseases the host's own immune response causes much of the damage, for example inflammation of the lungs in pneumonia.",
-        "Each pathogen is adapted to its host: it must enter the host, survive its defences, reproduce and leave to infect a new host.",
-        "Many pathogens need a vector, an organism that carries a pathogen from one host to another without itself being the disease: the mosquito for malaria and aphids for many plant viruses.",
-        "Routes of transmission are described in Emergence and spread of infectious disease."
-      ]
+        "In some diseases the host's own immune response causes much of the damage, for example inflammation of the lungs in pneumonia."
+      ],
+      "tip": "If asked to define a pathogen, say it is an organism or agent that causes disease in its host. Don't call all microorganisms pathogens."
     },
     {
-      "h": "Prions",
-      "b": "A prion is an infectious protein particle. It contains no nucleic acid, so it is neither a cell nor a virus.",
+      "h": "How pathogens are adapted to their hosts",
+      "b": "A pathogen only survives if it can keep moving from host to host. So each one is adapted to its host and, often, to a carrier that helps it spread.",
+      "points": [
+        "Each pathogen is adapted to its host: it must enter the host, survive its defences, reproduce, and leave to infect a new host.",
+        "Many pathogens need a vector, an organism that carries a pathogen from one host to another without itself being the disease: the mosquito for malaria and aphids (small sap-sucking insects) for many plant viruses.",
+        "The routes by which pathogens pass between hosts are called routes of transmission. There is more on this in Emergence and spread of infectious disease."
+      ],
+      "tip": "The vector is not the cause of the disease. The mosquito carries the malaria parasite, and the tick carries the Lyme disease bacterium."
+    },
+    {
+      "h": "Prions: an infectious protein",
+      "b": "A prion is an infectious protein particle. It contains no nucleic acid (no DNA or RNA), so it is neither a cell nor a virus. It is the odd one out among pathogens, because a protein alone causes the disease.",
       "points": [
         "The name comes from proteinaceous infectious particle, a term coined by Stanley Prusiner in 1982 (Nobel Prize 1997).",
         "A prion is a misfolded form of a normal protein, the prion protein, which is found on nerve cells, especially in the brain.",
         "When a prion meets a normal prion protein, it causes the normal one to fold into the abnormal shape too, so the misfolded protein builds up in a chain reaction.",
-        "Clumps of misfolded protein kill nerve cells, leaving tiny holes so that the brain looks like a sponge under the microscope (spongiform encephalopathy).",
-        "Prion diseases take years to appear, are always fatal and have no cure.",
+        "Clumps of misfolded protein kill nerve cells, leaving tiny holes so that the brain looks like a sponge under the microscope. This is why the diseases are called spongiform encephalopathy.",
+        "Prion diseases take years to appear, are always fatal and have no cure."
+      ],
+      "tip": "A prion is not a virus because it has no nucleic acid. Don't say prions 'reproduce' or 'replicate': they convert normal protein into the abnormal shape. Exams ask what a prion is and how it differs from a virus."
+    },
+    {
+      "h": "Prion diseases and preventing them",
+      "b": "Prion diseases have been found in cattle, sheep and humans. Because prions are very hard to destroy, prevention depends on keeping infected material out of the food chain.",
+      "points": [
         "Bovine spongiform encephalopathy (BSE, mad cow disease) in cattle spread when cattle were fed meat-and-bone meal made from infected animals.",
         "Variant Creutzfeldt–Jakob disease (vCJD) in humans is linked to eating BSE-infected beef and was first described in the UK in 1996.",
         "Scrapie affects sheep. Kuru affected the Fore people of Papua New Guinea and spread by eating the brains of dead relatives at funeral rites.",
         "Prions are not destroyed by normal cooking, by the usual sterilisation temperatures or by many disinfectants.",
-        "The immune system does not attack prions, because they are the body's own protein in a different shape.",
+        "The immune system does not attack prions, because they are the body's own protein in a different shape, so the body has no defence against them.",
         "Prevention therefore keeps prions out of the food chain: meat-and-bone meal is banned from the feed of farm animals, and the brain and spinal cord of cattle are removed from food as specified risk material."
-      ]
+      ],
+      "tip": "To explain prevention, link it to the properties: cooking and disinfectants don't destroy prions, so you must stop them entering the food chain."
     },
     {
       "h": "Viruses",
-      "b": "A virus is a non-cellular particle of nucleic acid (DNA or RNA) in a protein coat. It is an obligate intracellular parasite, reproducing only inside a living host cell (its structure is described in Viruses).",
+      "b": "A virus is a non-cellular particle of nucleic acid (DNA or RNA) in a protein coat. It is an obligate intracellular parasite, meaning it can reproduce only inside a living host cell. There is more on this in Viruses.",
       "points": [
         "Viruses cause disease by destroying the cells they reproduce in, or by changing how those cells work.",
-        "Each virus attaches to particular receptor proteins, so it infects only certain hosts and tissues: HIV infects helper T cells and influenza viruses infect cells lining the airways.",
-        "How viruses replicate is described in Viruses: replication.",
+        "Each virus attaches to particular receptor proteins (molecules on the cell surface that it fits onto), so it infects only certain hosts and tissues: HIV infects helper T cells and influenza viruses infect cells lining the airways.",
         "Human viral diseases include influenza, the common cold, measles, chickenpox, COVID-19 (SARS-CoV-2) and AIDS (HIV).",
         "Animal viral diseases include foot-and-mouth disease, which affects cattle, sheep and pigs, and avian influenza, which affects birds.",
         "Plant viral disease: tobacco mosaic virus infects tobacco and tomatoes.",
-        "Antibiotics don't affect viruses."
-      ]
+        "Antibiotics don't affect viruses, because viruses have no cell structures for the drugs to target and reproduce inside host cells."
+      ],
+      "tip": "Exams ask you to name a disease caused by a virus, and to explain why antibiotics don't work against viral infections."
     },
     {
-      "h": "Bacteria",
-      "b": "Bacteria are single-celled prokaryotes with no nucleus or membrane-bound organelles, about 1–10 µm long (their structure is described in Bacteria and fungi).",
+      "h": "Bacteria: what they are and how they harm",
+      "b": "Bacteria are single-celled prokaryotes with no nucleus or membrane-bound organelles, about 1–10 µm long. Only some bacteria are pathogens, but those that are can multiply very quickly inside the body.",
       "points": [
-        "Pathogenic bacteria reproduce rapidly by binary fission in host tissues.",
+        "Pathogenic bacteria reproduce rapidly by binary fission (one cell splitting into two) in host tissues, so numbers rise fast.",
         "Most bacteria cause harm by releasing toxins; some invade and destroy tissue.",
+        "Most bacterial diseases can be treated with antibiotics, which target structures bacteria have and human cells lack. There is more on this in Acquired immunity, prevention and treatment.",
+        "Antibiotic-resistant strains (bacteria no longer killed by the drug) are increasing, for example MRSA."
+      ],
+      "tip": "Exams ask you to name a disease caused by a bacterium, so learn at least two with the bacterium's name."
+    },
+    {
+      "h": "Examples of bacterial diseases",
+      "b": "Each bacterial disease has a named bacterium and a usual route of spread. Learn them as pairs, and note the plant and cattle examples as well as the human ones.",
+      "points": [
         "Tuberculosis (TB) is caused by Mycobacterium tuberculosis, spreads in airborne droplets and mainly affects the lungs.",
         "Food poisoning is caused by Salmonella, which spreads through contaminated food such as undercooked chicken or eggs.",
         "Cholera is caused by Vibrio cholerae in water contaminated with faeces, and causes severe diarrhoea.",
         "Tetanus is caused by Clostridium tetani. Its spores in soil enter a wound, and its toxin causes muscle spasms, known as lockjaw.",
-        "Lyme disease is caused by Borrelia burgdorferi and is passed on by tick bites.",
+        "Lyme disease is caused by Borrelia burgdorferi and is passed on by tick bites, so the tick is the vector.",
         "In plants, fire blight of apple and pear trees is caused by Erwinia amylovora.",
-        "In cattle, bovine TB is caused by Mycobacterium bovis.",
-        "Most bacterial diseases can be treated with antibiotics, which target structures bacteria have and human cells lack (see Acquired immunity, prevention and treatment).",
-        "Antibiotic-resistant strains are increasing, for example MRSA (see Emergence and spread of infectious disease)."
-      ]
+        "In cattle, bovine TB is caused by Mycobacterium bovis."
+      ],
+      "tip": "Plant pathogens are examined on this specification, so know fire blight as a bacterial plant disease. Lyme disease is caused by a bacterium; the tick is only the vector."
     },
     {
-      "h": "Fungi",
-      "b": "Fungi are eukaryotes with cell walls of chitin. Most are made of thread-like hyphae, and some, such as yeasts, are single cells (see Bacteria and fungi).",
+      "h": "Fungi: how they infect",
+      "b": "Fungi are eukaryotes (their cells have a nucleus) with cell walls of chitin. Most are made of thread-like hyphae, and some, such as yeasts, are single cells. Parasitic fungi feed on living hosts.",
       "points": [
         "Parasitic fungi grow hyphae into or over host tissue and secrete enzymes that digest it, and the fungus absorbs the products.",
         "Fungi spread by spores, which are often carried by wind, water or contact.",
-        "Athlete's foot and ringworm are skin infections caused by fungi that feed on keratin; ringworm is a fungus, not a worm.",
+        "Athlete's foot and ringworm are skin infections caused by fungi that feed on keratin (the protein in skin); ringworm is a fungus, not a worm.",
         "Thrush is caused by the yeast Candida albicans in the mouth or vagina, often after antibiotics have killed the bacteria that normally keep it in check.",
         "Fungal infections are most dangerous in people with weakened immune systems.",
-        "Ash dieback, caused by the fungus Hymenoscyphus fraxineus, is killing ash trees across Europe.",
-        "Dutch elm disease, caused by the fungus Ophiostoma novo-ulmi, is spread by elm bark beetles.",
-        "Cereal rusts such as wheat rust are caused by Puccinia species.",
-        "Chytrid fungus (Batrachochytrium dendrobatidis) infects the skin of frogs and other amphibians (see Emergence and spread of infectious disease).",
         "Antibiotics don't work on fungi, because fungi are eukaryotic and have no peptidoglycan cell wall or 70S ribosomes; antifungal drugs are used instead."
-      ]
+      ],
+      "tip": "Exams ask you to name a disease caused by a fungus and to explain why antibiotics don't work on fungal (or viral) infections. Ringworm is a fungus, not a worm."
     },
     {
-      "h": "Protists",
-      "b": "Protists are eukaryotes, mostly single-celled, that are neither animals, plants nor fungi (see Classification). Parasitic protists often have complex life cycles with more than one host.",
+      "h": "Fungal diseases of plants and animals",
+      "b": "Fungi infect plants and animals as well as people. The examples below affect trees, cereal crops and amphibians.",
+      "points": [
+        "Ash dieback, caused by the fungus Hymenoscyphus fraxineus, is killing ash trees across Europe.",
+        "Dutch elm disease, caused by the fungus Ophiostoma novo-ulmi, is spread by elm bark beetles, which act as vectors.",
+        "Cereal rusts such as wheat rust are caused by Puccinia species.",
+        "Chytrid fungus (Batrachochytrium dendrobatidis) infects the skin of frogs and other amphibians. There is more on this in Emergence and spread of infectious disease."
+      ],
+      "tip": "Plant pathogens are examined on this specification, so learn the fungus name for ash dieback, Dutch elm disease and cereal rusts."
+    },
+    {
+      "h": "Protists and malaria",
+      "b": "Protists are eukaryotes, mostly single-celled, that are neither animals, plants nor fungi (kingdom Protista). Parasitic protists often have complex life cycles with more than one host. Malaria is one example.",
       "points": [
         "Malaria is caused by Plasmodium, which is passed to humans by the bite of an infected female Anopheles mosquito, the vector.",
-        "The parasite reproduces first in the liver and then in red blood cells, which burst together, causing repeated fevers and anaemia.",
-        "Malaria is controlled with insecticide-treated bed nets, insecticides, draining of standing water where mosquitoes breed, and antimalarial drugs such as artemisinin (see Science, scientists and society).",
-        "Amoebic dysentery is caused by Entamoeba histolytica, which spreads in water or food contaminated with faeces.",
-        "African sleeping sickness is caused by Trypanosoma brucei, which is spread by tsetse flies.",
-        "Potato late blight is caused by Phytophthora infestans, a water mould (oomycete). It looks like a fungus, being thread-like and spread by spores, but it is classed with the protists.",
-        "Its spores spread on wind and rain splash in mild, wet weather, and it rots leaves and tubers.",
-        "Potato late blight caused the Irish Great Famine from 1845 (see Emergence and spread of infectious disease)."
-      ]
+        "The parasite reproduces first in the liver and then in red blood cells, which burst together, causing repeated fevers and anaemia (too few red blood cells).",
+        "Malaria is controlled with insecticide-treated bed nets, insecticides, draining of standing water where mosquitoes breed, and antimalarial drugs such as artemisinin. There is more on this in Science, scientists and society."
+      ],
+      "tip": "Malaria is caused by Plasmodium, a protist; the mosquito is the vector, not the cause. Control methods work by stopping bites or mosquito breeding."
     },
     {
-      "h": "Parasitic animals",
-      "b": "A parasite lives in or on another organism, its host, feeding on it and harming it. Endoparasites live inside the host; ectoparasites live on the outside.",
+      "h": "Other protist diseases and potato late blight",
+      "b": "Other protists cause gut and blood diseases in people, and one protist-like organism caused a famine in Ireland.",
       "points": [
-        "Parasitic animals are multicellular and much larger than microorganisms; most are worms or arthropods.",
+        "Amoebic dysentery is caused by Entamoeba histolytica, which spreads in water or food contaminated with faeces.",
+        "African sleeping sickness is caused by Trypanosoma brucei, which is spread by tsetse flies, the vector.",
+        "Potato late blight is caused by Phytophthora infestans, a water mould (oomycete). It looks like a fungus, being thread-like and spread by spores, but it is classed with the protists.",
+        "Its spores spread on wind and rain splash in mild, wet weather, and it rots leaves and tubers.",
+        "Potato late blight caused the Irish Great Famine from 1845, because potatoes were the main crop and the disease destroyed them. There is more on this in Emergence and spread of infectious disease."
+      ],
+      "tip": "Phytophthora infestans is not a fungus: call it a water mould (oomycete) classed with the protists."
+    },
+    {
+      "h": "Parasitic animals: endoparasites",
+      "b": "A parasite lives in or on another organism, its host, feeding on it and harming it. Parasitic animals are multicellular and much larger than microorganisms; most are worms or arthropods. Endoparasites live inside the host.",
+      "points": [
         "Tapeworms (e.g. Taenia) live in the small intestine, absorbing digested food through their body surface and attaching by hooks and suckers.",
         "Humans become infected with tapeworms by eating undercooked infected pork or beef.",
         "Liver fluke (Fasciola hepatica) is a flatworm of sheep and cattle that damages the liver.",
         "The liver fluke needs a freshwater mud snail as a second host, so it is common on wet pasture in Ireland.",
-        "Onchocerca volvulus is a roundworm spread by blackflies that causes river blindness (see Science, scientists and society).",
+        "Onchocerca volvulus is a roundworm spread by blackflies that causes river blindness. There is more on this in Science, scientists and society."
+      ],
+      "tip": "Exams ask you to name a pathogen of each type, including parasitic animals, so learn tapeworm, liver fluke and river blindness as examples."
+    },
+    {
+      "h": "Parasitic animals: ectoparasites, treatment and prevention",
+      "b": "Ectoparasites live on the outside of the host. Worms inside the body are treated with drugs, and prevention targets how the parasite reaches us.",
+      "points": [
         "Head lice are ectoparasites that feed on blood from the scalp.",
         "Ticks feed on blood and can also act as vectors, carrying the bacterium that causes Lyme disease.",
         "Parasitic worms are treated with anthelmintic drugs that kill them, e.g. ivermectin.",
-        "Prevention: cook meat thoroughly, maintain sanitation, and control the second host or vector."
+        "Prevention: cook meat thoroughly, maintain sanitation, and control the second host or vector, because breaking the life cycle stops the parasite spreading."
       ]
     },
     {
       "h": "Comparing the six pathogen types",
+      "b": "The six types of pathogen differ in whether they are cells, what genetic material they carry, their size and how they are treated. The treatment follows from the structure, which is why antibiotics work only on bacteria.",
       "points": [
         "Prion: not cellular; no nucleic acid; a single protein molecule; no treatment.",
         "Virus: not cellular; DNA or RNA; about 20–300 nm; treated with antivirals, not antibiotics.",
@@ -121,7 +168,8 @@
         "Fungus: eukaryotic; DNA; from single cells to large networks of hyphae; treated with antifungals.",
         "Protist: eukaryotic and mostly single-celled; DNA; treated with antiprotozoal drugs such as antimalarials.",
         "Parasitic animal: multicellular eukaryote; DNA; from millimetres to metres in size; treated with anthelmintics."
-      ]
+      ],
+      "tip": "Exams ask you to name a pathogen of each type and the disease it causes. Give the group first, then the named organism."
     }
   ],
   "keyTerms": [

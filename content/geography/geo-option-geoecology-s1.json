@@ -6,190 +6,217 @@
   "notes": [
     {
       "h": "What soil is and where it comes from",
-      "b": "Soil is the thin layer of loose material on the earth's surface in which plants grow. Its formation is called pedogenesis.",
+      "b": "Soil is the thin layer of loose material on the earth's surface in which plants grow. Its formation is called pedogenesis, and it starts with the rock or deposit the soil forms from, known as the parent material.",
       "points": [
-        "Soil is made of four components: mineral matter, organic matter, water and air.",
-        "Residual soils form from rock weathered in situ, meaning in place, directly beneath them.",
-        "Transported soils form on redeposited weathered material that has been carried and laid down by ice, water, wind or volcanic activity.",
-        "Transported parent materials include glacial till (boulder clay), fluvio-glacial sands and gravels, alluvium (river deposits), loess (wind-blown silt), wind-blown sand and volcanic ash.",
-        "Weathering breaks parent material down into regolith, the loose layer that soil develops from. The processes are taught in Weathering processes, in Rocks, Weathering and Mass Movement."
-      ]
+        "Soil is made of four components: mineral matter (particles of weathered rock), organic matter (living and dead material), water and air. Every later block looks at how one of these shapes the soil.",
+        "Residual soils form from rock weathered in situ, meaning in place, directly beneath them, so the soil and the rock below are closely related.",
+        "Transported soils form on redeposited weathered material that has been carried and laid down by ice, water, wind or volcanic activity, so they can differ from the rock beneath.",
+        "Transported parent materials include glacial till (boulder clay), fluvio-glacial sands and gravels (laid down by meltwater from ice), alluvium (river deposits), loess (wind-blown silt), wind-blown sand and volcanic ash.",
+        "Weathering (the breakdown of rock at the surface) produces regolith, the loose layer that soil develops from. Freeze-thaw, carbonation and hydrolysis are among the processes involved. There is more on this in Weathering processes, in Rocks, Weathering and Mass Movement."
+      ],
+      "tip": "Exams ask where soil comes from, so name both routes: residual (weathered in place) and transported (redeposited material), and give the type of deposit for transported soils."
     },
     {
       "h": "Residual and transported parent material in Ireland and Europe",
+      "b": "Named places make the residual and transported types concrete. Remember that the same area can look residual on a map of rock types but be transported in fact.",
       "points": [
-        "Residual examples: the limestone of the Burren and the granite of the Wicklow Mountains, which gives acidic, sandy soils. Most Midland soils formed on boulder clay over the limestone, so they are transported.",
+        "Residual examples: the limestone of the Burren and the granite of the Wicklow Mountains, which gives acidic, sandy soils. Most Midland soils formed on boulder clay over the limestone, so they are transported, not residual.",
         "Transported examples: the boulder clay (till) plains of the Irish Midlands, and alluvium on the floodplain of the Shannon Callows, meadows beside the River Shannon that flood in winter.",
-        "Loess, called limon in France, covers plateaux of the Paris Basin, such as the Beauce (see A Core European Region: the Paris Basin)."
-      ]
+        "Loess (wind-blown silt), called limon in France, covers plateaux of the Paris Basin, such as the Beauce. There is more on this in A Core European Region: the Paris Basin."
+      ],
+      "tip": "Don't call Midland soils residual just because limestone lies below: they formed on boulder clay, so they are transported."
     },
     {
       "h": "Irish soils are young",
+      "b": "Soils take time to develop, and in Ireland the clock was reset by the ice. This is why Irish soils are young and why they often do not match the rock beneath.",
       "points": [
-        "Most Irish soils formed on glacial deposits laid down during the last (Midlandian) glaciation, which ended about 10,000 years ago (see Glacial processes, patterns and associated landforms).",
-        "So most Irish soils have developed in about 10,000 years or less, and they often differ from the solid rock beneath them."
+        "Most Irish soils formed on glacial deposits laid down during the last (Midlandian) glaciation, which ended about 10,000 years ago. There is more on this in Glacial processes, patterns and associated landforms.",
+        "So most Irish soils have developed in about 10,000 years or less, since the ice melted, and they often differ from the solid rock beneath them because the glacial deposits came from elsewhere."
       ]
     },
     {
       "h": "The soil profile (introduced)",
-      "b": "A soil profile is a vertical section from the surface down to bedrock, divided into layers called horizons. A soil pit or road cutting shows it.",
+      "b": "A soil profile is a vertical section from the surface down to bedrock, divided into layers called horizons. A soil pit or road cutting shows it, and the horizons are named by letters.",
       "points": [
-        "O horizon: organic litter and humus on the surface.",
+        "O horizon: organic litter (undecomposed plant and animal remains) and humus (the dark, decomposed organic material) on the surface.",
         "A horizon: topsoil, with mineral matter mixed with humus.",
         "B horizon: subsoil, which receives material washed down from above.",
-        "C horizon: weathered parent material.",
-        "R horizon: bedrock.",
-        "Full profiles of named soils are in Soil processes and the global pattern of soils."
+        "C horizon: weathered parent material, the rock or deposit the soil forms from.",
+        "R horizon: bedrock, the solid rock beneath.",
+        "There is more on the full profiles of named soils in Soil processes and the global pattern of soils."
       ]
     },
     {
       "h": "Proportions of the four components",
+      "b": "Soil is mostly mineral matter, with small shares of organic matter, water and air. The figures below are the textbook values for a good loam, a balanced, fertile soil.",
       "points": [
         "A typical good loam has about 45% mineral matter, 5% organic matter, 25% water and 25% air, by volume.",
-        "These proportions describe a well-structured loam. They are not fixed values for every soil.",
-        "Water and air share the pore spaces, so when one rises the other falls.",
+        "These proportions describe a well-structured loam. They are not fixed values for every soil, so don't present them as true of all soils.",
+        "Water and air share the pore spaces (the gaps between particles), so when one rises the other falls. A wet soil is poorly aerated for this reason.",
         "Diagram: a pie chart of the four components."
-      ]
+      ],
+      "tip": "Give the 45/5/25/25 split as typical of a good loam, never as true of every soil."
     },
     {
       "h": "Mineral matter",
+      "b": "Mineral matter is the largest component, and the parent rock decides what kind of mineral matter a soil gets. It is the first of the four components to know for an essay on soil development.",
       "points": [
-        "Mineral matter is particles of weathered rock, from stones down to clay.",
-        "It forms the soil's skeleton and decides its texture.",
-        "As it weathers, mineral matter releases nutrients such as calcium, magnesium and potassium.",
-        "Parent rock controls the result: limestone gives base-rich, less acidic soils.",
+        "Mineral matter is particles of weathered rock, from stones down to clay. It forms the soil's skeleton and decides its texture (the mix of particle sizes).",
+        "As it weathers, mineral matter releases nutrients such as calcium, magnesium and potassium, which plants then take up through their roots.",
+        "Parent rock controls the result: limestone gives base-rich, less acidic soils (bases are the chemicals that neutralise acid).",
         "Granite gives sandy, acidic soils with quartz grains and clay from weathered feldspar.",
         "Sandstone gives sandy, acidic, free-draining soils.",
-        "Clay particles are the chemically active part of the mineral matter."
-      ]
+        "Clay particles are the chemically active part of the mineral matter, because they hold on to nutrients and water."
+      ],
+      "tip": "Exams ask how each component influences soil development. For mineral matter, say what it is, where it comes from, what it contributes, and how parent rock affects texture, fertility and acidity, with soil types as illustrations."
     },
     {
       "h": "Organic matter and humus",
+      "b": "Organic matter is a small share of the soil by volume, but it gives soil its dark colour, its crumbly structure and much of its fertility. The key is the difference between litter and humus.",
       "points": [
         "Organic matter is living organisms (bacteria, fungi, earthworms, insects and roots) plus dead plant and animal remains.",
-        "Litter is undecomposed material. Decomposers break it down into humus, a dark, sticky, jelly-like substance, which is the end product of decomposition.",
+        "Litter is undecomposed material. Decomposers (organisms that feed on dead material) break it down into humus, a dark, sticky, jelly-like substance, which is the end product of decomposition.",
         "Humus darkens the soil, binds particles into crumbs, holds water and nutrients, releases nutrients slowly, and is the main store of nitrogen in the soil.",
-        "Earthworms mix and aerate the soil, drag litter down, and their casts improve structure.",
+        "Earthworms mix and aerate the soil, drag litter down into it, and their casts (droppings) improve structure.",
         "Charles Darwin's last book (1881), The Formation of Vegetable Mould through the Action of Worms, showed how earthworms mix and enrich soil.",
-        "Nitrogen-fixing bacteria, such as those in the root nodules of legumes, add nitrogen. Clover is the standard example of a legume in Irish grassland."
-      ]
+        "Nitrogen-fixing bacteria (bacteria that turn nitrogen from the air into a form plants can use), such as those in the root nodules of legumes, add nitrogen. Clover is the standard example of a legume in Irish grassland."
+      ],
+      "tip": "Humus is not the same as litter: litter is undecomposed, humus is the end product of decomposition."
     },
     {
       "h": "Mull, moder and mor humus",
+      "b": "Humus comes in different forms depending on the vegetation above and the organisms below. The forms are named mull, moder and mor, and each is linked to a soil type.",
       "points": [
         "Mull humus is mild, crumbly, well decomposed and well mixed by earthworms. It is slightly acidic to neutral and forms under deciduous woodland and grassland, giving brown earths.",
-        "Mor humus is acidic, fibrous and poorly decomposed, with few earthworms. It forms under coniferous forest and heath, giving podzols.",
+        "Mor humus is acidic, fibrous and poorly decomposed, with few earthworms because the acidity does not suit them. It forms under coniferous forest and heath, giving podzols.",
         "Moder is intermediate between mull and mor."
       ]
     },
     {
       "h": "Water in the soil",
+      "b": "Water enters the soil as precipitation and is held in its pores. It exists in three forms, and only some of it is any use to plants.",
       "points": [
-        "Water enters the soil as precipitation and is held in its pores.",
-        "Dissolved nutrients form the soil solution, from which roots absorb them.",
-        "Gravitational water drains down through large pores after rain and carries nutrients away. This is the cause of leaching.",
+        "Water dissolves nutrients to form the soil solution, from which roots absorb them.",
+        "Gravitational water drains down through large pores after rain and carries nutrients away. This is the cause of leaching (the washing of nutrients down out of the soil).",
         "Capillary water is held in small pores by surface tension. It is available to plants and can move up as well as down.",
-        "Hygroscopic water is a thin film bound tightly to particles, and plants cannot use it.",
+        "Hygroscopic water is a thin film bound tightly to particles, so plants cannot use it.",
         "Field capacity is the water a soil holds after gravitational water has drained away.",
-        "Wilting point is reached when only water that plants cannot extract is left."
-      ]
+        "Wilting point is reached when only water that plants cannot extract is left, so the plants wilt."
+      ],
+      "tip": "Exams ask about water as one of the four components. Give its forms and what each does: gravitational water causes leaching, capillary water feeds plants, hygroscopic water is unusable."
     },
     {
       "h": "How water movement shapes the soil",
+      "b": "Which way water moves depends on whether rain or evaporation wins. This decides what the soil loses or collects, and it leads into the soil processes.",
       "points": [
         "Where precipitation exceeds evapotranspiration (water lost by evaporation and plant transpiration), water moves down and leaches the soil. This is the situation in Ireland.",
         "Where evaporation exceeds precipitation, capillary action raises water to the surface and leaves salts and lime there, as in deserts and grasslands.",
-        "Too much water fills all the pores and causes waterlogging, which leads to gleying (see Soil processes and the global pattern of soils)."
-      ]
+        "Too much water fills all the pores and causes waterlogging, which leads to gleying (the grey, rusty-mottled soil of waterlogged ground). There is more on this in Soil processes and the global pattern of soils."
+      ],
+      "tip": "Name leaching, capillary rise and gleying as consequences of water movement, but save the full explanation of each process for the soil processes subsection."
     },
     {
       "h": "Air in the soil",
+      "b": "Air fills whatever pore space water does not. Living things in the soil need it, and whether it is plentiful or scarce changes how the soil forms.",
       "points": [
         "Air fills the pores not occupied by water.",
-        "Soil air supplies oxygen for root respiration and for the aerobic organisms that decompose litter, and nitrogen for nitrogen-fixing bacteria.",
+        "Soil air supplies oxygen for root respiration and for the aerobic organisms (those that need oxygen) that decompose litter, and nitrogen for nitrogen-fixing bacteria.",
         "Soil air is richer in carbon dioxide than the atmosphere. This forms weak carbonic acid in soil water, which aids chemical weathering.",
-        "Poorly aerated (anaerobic) soils decompose slowly, so organic matter builds up as peat, and iron is reduced, giving grey colours."
-      ]
+        "Poorly aerated (anaerobic, meaning without oxygen) soils decompose slowly, so organic matter builds up as peat.",
+        "In poorly aerated soils iron is reduced (it gains electrons and changes chemical form), giving grey colours."
+      ],
+      "tip": "Link air to its effects on soil development: decomposition, weathering, peat formation and colour."
     },
     {
       "h": "How the four components interact",
+      "b": "The four components do not act separately: each changes how the others behave. Showing this interaction is part of a full answer on soil development.",
       "points": [
         "Humus improves crumb structure, which opens pores for both air and water.",
-        "Clay holds water but reduces air.",
-        "Organisms need both air and water to work."
-      ]
+        "Clay holds water but reduces air, because its tiny pores fill with water and leave little room for air.",
+        "Organisms need both air and water to work, so a soil that is too wet or too dry supports less life and less decomposition."
+      ],
+      "tip": "Exam answers on the four components are stronger when they show how the components affect each other, not just describe each one alone."
     },
     {
       "h": "Texture",
-      "b": "Texture is the proportion of sand, silt and clay in a soil.",
+      "b": "Texture is the proportion of sand, silt and clay in a soil. It is set by the size of the mineral particles, so it is one of the most basic characteristics of a soil.",
       "points": [
         "Sand has particles 2 to 0.05 mm across; silt 0.05 to 0.002 mm; clay under 0.002 mm. Particles over 2 mm are gravel or stones. Some textbooks put the sand and silt limit at 0.06 mm, which is also acceptable.",
         "Clay is the smallest particle and sand the largest.",
         "Field test by feel: sand is gritty, silt is smooth and silky, and clay is sticky and can be rolled into a ribbon when moist.",
-        "Texture is shown on a soil texture triangle, a triangular graph whose method is in Figure interpretation, in Tables, Graphs and Data Skills."
-      ]
+        "Texture is shown on a soil texture triangle, a triangular graph. There is more on this method in Figure interpretation, in Tables, Graphs and Data Skills."
+      ],
+      "tip": "Clay particles are the smallest and sand the largest. Don't reverse them."
     },
     {
       "h": "Effects of texture on soil",
+      "b": "Particle size decides how water, air and nutrients move through a soil and how easy it is to farm. Each texture has strengths and weaknesses, and loam balances them.",
       "points": [
         "Sandy soils are light, free-draining, well aerated, warm quickly in spring and are easy to plough. They hold little water and few nutrients, and they are easily leached.",
         "Clay soils are heavy and hold water and nutrients. They drain slowly, become waterlogged and cold, crack and harden when dry, and are hard to work.",
         "A loam is a balanced mix, roughly 40% sand, 40% silt and 20% clay. It combines good drainage with good water and nutrient retention, and is the best for farming.",
         "Silty soils are fertile but form a surface crust and erode easily."
-      ]
+      ],
+      "tip": "Clay soils have more total pore space than sand but drain more slowly because the pores are tiny. Don't say clay has little pore space."
     },
     {
       "h": "Structure",
-      "b": "Structure is the way particles are grouped into clumps called peds.",
+      "b": "Structure is the way particles are grouped into clumps called peds. Two soils with the same texture can behave very differently if their peds differ.",
       "points": [
         "Crumb: small rounded peds, typical of humus-rich topsoil, and the best structure for farming.",
         "Granular: a further type of ped structure.",
         "Platy: flat, horizontal plates that hinder drainage and root growth.",
         "Blocky: angular cubes, common in clay subsoils.",
         "Prismatic or columnar: vertical columns, found in some clay subsoils.",
-        "Structureless soils are single-grain (loose sand) or massive (solid clay)."
+        "Structureless soils are single-grain (loose sand) or massive (solid clay), because their particles are not grouped into peds."
       ]
     },
     {
       "h": "Effects and damage to structure",
+      "b": "Structure matters because it sets the pore spaces that water, air and roots use. It can be built up by natural agents and destroyed by pressure.",
       "points": [
         "Structure controls the size and number of pores, so it decides drainage, aeration and how easily roots penetrate.",
         "Humus, clay, earthworms, roots and freeze-thaw build peds.",
-        "Compaction by heavy machinery, and trampling by livestock on wet ground (poaching in Ireland), destroy peds."
+        "Compaction (squashing the soil together) by heavy machinery, and trampling by livestock on wet ground (called poaching in Ireland), destroy peds and so close up the pores."
       ]
     },
     {
       "h": "Colour",
-      "b": "Colour is a clue to a soil's composition and conditions.",
+      "b": "Colour is a clue to a soil's composition and conditions, so reading it tells you what the soil contains and how well drained it is. Each colour below is linked to a cause and a named soil type.",
       "points": [
         "Black or dark brown: rich in humus, as in chernozems and peat.",
         "Brown: humus plus iron compounds, as in brown earths.",
         "Red, orange or yellow: iron oxides in a well-aerated soil, as in tropical latosols and terra rossa.",
-        "Ash-grey or bleached: heavily leached, as in the E horizon of a podzol.",
+        "Ash-grey or bleached: heavily leached (washed of its nutrients and colouring), as in the E horizon of a podzol.",
         "Grey or blue-grey with orange (rusty) mottles: waterlogged, with reduced iron, as in gley.",
         "White: lime or salt crusts, as in desert soils.",
-        "Dark soils absorb more heat."
-      ]
+        "Dark soils absorb more heat, so colour also affects soil temperature."
+      ],
+      "tip": "Exams ask how colour, as a characteristic, links to soil processes and soil types. For each colour, give its cause and a soil type."
     },
     {
       "h": "Water content and water retention",
+      "b": "How much water a soil can hold, and how fast it passes through, depends on its other characteristics. Two similar-sounding terms, porosity and permeability, must be kept apart.",
       "points": [
-        "Water retention depends on texture, structure and organic content, including the humus in the soil.",
+        "Water retention depends on texture (clay retains water, sand drains), structure and organic content. Humus holds several times its own weight of water.",
         "Porosity is how much pore space a soil has. Permeability is how easily water passes through it.",
         "Clay soils have high porosity but low permeability, because their pores are tiny, so they drain slowly."
-      ]
+      ],
+      "tip": "Clay has more total pore space than sand but drains more slowly. Explain this with porosity versus permeability."
     },
     {
       "h": "Organic content",
+      "b": "Organic content is the amount of humus in a soil. It varies a lot between soil types and affects several other characteristics.",
       "points": [
-        "Organic content is the amount of humus in a soil.",
         "It is high in chernozems and peat, moderate in brown earths, and low in desert soils, which have little vegetation.",
         "Tropical latosols are surprisingly low in humus, because litter decays so fast that little humus builds up.",
         "Organic content affects colour, structure, water retention and fertility."
-      ]
+      ],
+      "tip": "Tropical rainforest soils are low in humus and infertile despite the huge biomass. Don't call them rich soils."
     },
     {
       "h": "pH (acidity and alkalinity)",
+      "b": "pH tells you how acidic or alkaline a soil is, which affects which organisms and crops can live in it. It is shaped by climate, parent rock and vegetation.",
       "points": [
         "pH is the measure of acidity or alkalinity, on a scale of 0 to 14, with 7 neutral.",
         "Soils become acidic where heavy rain leaches out bases, and where acid litter such as conifer needles or heather builds up.",
@@ -197,25 +224,30 @@
         "Most crops and earthworms prefer slightly acidic to neutral soils.",
         "Teagasc, the Irish agriculture and food development authority, advises a soil pH of about 6.3 for grassland and about 6.5 for tillage crops. Liming corrects lower values.",
         "Farmers spread lime, which is ground limestone, to raise pH."
-      ]
+      ],
+      "tip": "Mention liming here only as a way to raise pH. Its role in soil conservation belongs elsewhere."
     },
     {
       "h": "Fertility and nutrients",
+      "b": "A fertile soil holds nutrients in a form that roots can reach and rain cannot wash away. This depends on tiny charged particles in the clay and humus.",
       "points": [
-        "Clay particles and humus form the clay-humus complex. Its tiny, negatively charged particles, called colloids, hold positively charged nutrient ions such as calcium, magnesium and potassium.",
-        "Held nutrients are not washed away, and they are exchanged with roots.",
+        "Clay particles and humus form the clay-humus complex. Its tiny, negatively charged particles, called colloids, hold positively charged nutrient ions (charged atoms) such as calcium, magnesium and potassium.",
+        "Held nutrients are not washed away, and they are exchanged with roots, so plants can take them up.",
         "Base-rich soils are fertile; base-poor, leached soils are not.",
         "NPK (nitrogen, phosphorus and potassium) are the main nutrients farmers add."
       ]
     },
     {
       "h": "How characteristics influence soil development",
+      "b": "The characteristics above work together to decide which soil processes dominate and which soil forms. Each link below is one step of the argument an essay needs.",
       "points": [
         "Texture and structure control drainage, so they decide whether leaching, gleying or capillary rise dominates.",
-        "pH controls which organisms live in the soil, so it decides whether mull or mor humus forms and how fast humification happens.",
+        "pH controls which organisms live in the soil, so it decides whether mull or mor humus forms and how fast humification (the breakdown of litter into humus) happens.",
         "Organic content controls structure and fertility, so it decides how well the soil supports the vegetation that feeds it.",
-        "Water retention and aeration together decide whether decomposition is aerobic, as in fertile brown soils, or anaerobic, as in peat and gley."
-      ]
+        "Water retention and aeration together decide whether decomposition is aerobic, as in fertile brown soils, or anaerobic, as in peat and gley.",
+        "Use brown earth, podzol, gley, latosol and chernozem as illustrations by name."
+      ],
+      "tip": "Exams ask how soil characteristics impact on soil development. Treat texture, structure, colour, pH, organic content and water retention as separate aspects, each linked to the processes and soil types it produces."
     }
   ],
   "keyTerms": [

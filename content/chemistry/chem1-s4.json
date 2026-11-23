@@ -6,96 +6,115 @@
   "notes": [
     {
       "h": "SI units and conversions",
+      "b": "Chemistry measurements only make sense when everyone uses the same units. SI (the international system of units) gives one agreed set, and you often have to convert between it and the smaller units used in the lab.",
       "points": [
-        "The SI base units used in chemistry are the metre (m), kilogram (kg), second (s), kelvin (K) and mole (mol); derived units include m³ for volume and the pascal (Pa) for pressure.",
-        "Volume: 1 dm³ = 1 L = 1000 cm³ = 1000 mL, and 1 m³ = 1000 dm³ = 1 000 000 cm³.",
-        "Mass: 1 kg = 1000 g, and 1 g = 1000 mg.",
-        "Temperature: T (K) = θ (°C) + 273.15, often rounded to 273; for example 25 °C = 298 K.",
-        "Pressure: 1 kPa = 1000 Pa; the IUPAC standard pressure is 100 kPa (1 × 10⁵ Pa), and 1 atm = 101 325 Pa.",
-        "Convert by multiplying or dividing by the conversion factor and writing the unit at each step, e.g. 250 cm³ = 250 ÷ 1000 = 0.250 L."
-      ]
+        "The SI base units used in chemistry are the metre (m) for length, kilogram (kg) for mass, second (s) for time, kelvin (K) for temperature and mole (mol) for amount of substance. Derived units are built from these, such as m³ for volume and the pascal (Pa) for pressure.",
+        "Volume: 1 dm³ (a cubic decimetre, a cube 10 cm along each edge) = 1 L = 1000 cm³ = 1000 mL. Also 1 m³ = 1000 dm³ = 1 000 000 cm³.",
+        "Mass: 1 kg = 1000 g, and 1 g = 1000 mg (milligrams), so a quantity in grams is turned into milligrams by multiplying by 1000.",
+        "Temperature: T (K) = θ (°C) + 273.15, often rounded to 273, where θ is the Celsius temperature. For example 25 °C = 298 K. Use kelvin in gas calculations because the kelvin scale starts at 0 K, with no negative values.",
+        "Pressure: 1 kPa = 1000 Pa. The IUPAC (the international chemistry organisation) standard pressure is 100 kPa (1 × 10⁵ Pa), and 1 atm (one atmosphere, the average air pressure at sea level) = 101 325 Pa.",
+        "Convert by multiplying or dividing by the conversion factor (the number linking the two units) and writing the unit at each step, so mistakes show up. For example 250 cm³ = 250 ÷ 1000 = 0.250 L."
+      ],
+      "tip": "Exams ask you to convert units: cm³ to L, °C to K and g to mg. Write the unit at every step of the conversion."
     },
     {
       "h": "Accuracy and precision",
+      "b": "Two words that sound alike describe how good a measurement is: accuracy and precision. They mean different things, and every instrument also has limits on how well it can measure.",
       "points": [
-        "Accuracy is how close a measurement, or a mean, is to the true or accepted value.",
+        "Accuracy is how close a measurement, or a mean (the average of repeated readings), is to the true or accepted value.",
         "Precision is how close repeated measurements are to each other, meaning their spread.",
-        "Precision is also used for the smallest division an instrument can read, which is its resolution.",
-        "Results can be precise but not accurate, e.g. closely grouped readings that are all off the true value because a balance has not been zeroed.",
-        "Results can be accurate on average but not precise, with readings scattered on either side of the true value.",
-        "Every instrument has an uncertainty; typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.",
-        "Volumetric glassware is far more accurate than a measuring cylinder, which is why a pipette is used for accurate volumes.",
-        "Significant figures (assumed knowledge): answers are reported to the same number of significant figures as the least precise measurement used, usually three in titration calculations."
-      ]
+        "Precision is also used for the smallest division an instrument can read, which is its resolution. A scale marked in 0.1 cm³ steps has a finer resolution than one marked in 1 cm³ steps.",
+        "Results can be precise but not accurate, such as closely grouped readings that are all off the true value because a balance has not been zeroed (set to read 0 g with nothing on it).",
+        "Results can be accurate on average but not precise, with readings scattered on either side of the true value so that the mean lands close to it.",
+        "Every instrument has an uncertainty, the amount by which a reading could be out.",
+        "Typical school values are ±0.06 cm³ for a 25 cm³ pipette, ±0.05 cm³ per reading for a 50 cm³ burette, ±0.3 cm³ for a 250 cm³ volumetric flask and about ±1 cm³ for a 100 cm³ measuring cylinder.",
+        "Volumetric glassware (pipettes, burettes and volumetric flasks, made to deliver or hold one exact volume) is far more accurate than a measuring cylinder, which is why a pipette is used for accurate volumes.",
+        "Significant figures (assumed knowledge): answers are reported to the same number of significant figures (the meaningful digits in a number) as the least precise measurement used, so the answer does not look more exact than the data. This is usually three in titration calculations."
+      ],
+      "tip": "Precise does not mean accurate, so keep the two definitions separate. If asked why a pipette is used rather than a measuring cylinder, say that volumetric glassware is far more accurate."
     },
     {
       "h": "Errors",
+      "b": "No measurement is perfect. Errors fall into two types that behave differently, and knowing which type you have tells you how to reduce it.",
       "points": [
-        "Random error is unpredictable variation that scatters readings above and below the true value, e.g. misjudging the end point of a titration or reading a meniscus; it is reduced by repeating and averaging.",
-        "Systematic error is a consistent error that shifts all readings in the same direction, e.g. a balance that has not been zeroed, a thermometer that reads 1 °C high, or heat lost to the surroundings in a calorimetry experiment.",
-        "Repeating does not reduce systematic error; it is reduced by calibrating the equipment or improving the method.",
-        "Parallax error occurs when a scale is read from an angle; the bottom of the meniscus should be read at eye level.",
-        "Anomalous results caused by mistakes are identified and either repeated or excluded with a reason (see “Producing and analysing data”).",
+        "Random error is unpredictable variation that scatters readings above and below the true value. It is reduced by repeating and averaging, because the highs and lows cancel out.",
+        "Examples of random error are misjudging the end point of a titration (the moment the indicator changes colour), reading a meniscus (the curved surface of a liquid in glassware) and temperature fluctuations.",
+        "Systematic error is a consistent error that shifts all readings in the same direction.",
+        "Examples of systematic error are a balance that has not been zeroed, a thermometer that reads 1 °C high, heat lost to the surroundings in a calorimetry experiment (one that measures heat changes), and parallax always from the same angle.",
+        "Repeating does not reduce systematic error, because every repeat is wrong in the same way. It is reduced by calibrating the equipment (checking it against a known standard and adjusting it) or by improving the method.",
+        "Parallax error occurs when a scale is read from an angle, which makes the liquid level appear to sit at a different mark. Read the bottom of the meniscus at eye level.",
+        "Anomalous results (outliers, readings that do not fit the rest) caused by mistakes are identified and either repeated or excluded with a reason.",
         "Percentage error = (experimental value − accepted value) ÷ accepted value × 100."
-      ]
+      ],
+      "tip": "Exams ask you to distinguish random and systematic error with examples. Repeating reduces random error only, so systematic error needs a better method or calibration. For a titration, end-point judgement is a random error, while a burette not rinsed with solution, or always reading the top of the meniscus, is a systematic one."
     },
     {
       "h": "Qualitative and quantitative data",
+      "b": "Data are the observations and measurements collected in an experiment. They come in two kinds, and you choose which to record according to what the question asks.",
       "points": [
-        "Qualitative data are descriptions without numbers, such as a colour change, effervescence or a precipitate forming.",
-        "Quantitative data are measurements with numbers and units.",
-        "Select the data that answer the question; record the raw data first, then the processed data, such as means and rates."
-      ]
+        "Qualitative data are descriptions without numbers, such as a colour change, effervescence (fizzing as a gas is given off) or a precipitate (an insoluble solid) forming.",
+        "Quantitative data are measurements with numbers and units, such as a mass in g or a volume in cm³.",
+        "Select the data that answer the question. Record the raw data (the readings exactly as measured) first, then the processed data, such as means and rates, which are worked out from the raw data."
+      ],
+      "tip": "Record raw data before you process it, so the original readings are still there to check."
     },
     {
       "h": "Results tables",
+      "b": "A results table organises raw data so it can be read and graphed. A set layout means a reader can see at once what was changed and what was measured.",
       "points": [
-        "The independent variable goes in the first column, and the dependent variable and its repeats go in the following columns, with a mean column.",
+        "The independent variable (the quantity you change) goes in the first column. The dependent variable (the quantity you measure in response) and its repeats go in the following columns, with a mean column.",
         "Each column heading gives the quantity and its unit, e.g. “Time / s”, so units are not written in the body of the table.",
-        "All readings are recorded to the same number of decimal places, matching the resolution of the instrument."
+        "All readings are recorded to the same number of decimal places, matching the resolution of the instrument (the smallest division it can read)."
       ]
     },
     {
       "h": "Drawing graphs",
+      "b": "A graph turns a table of results into a picture of the pattern, and it lets you read off values or find a rate.",
       "points": [
-        "The independent variable is plotted on the x-axis and the dependent variable on the y-axis, and both axes are labelled with the quantity and its unit.",
+        "The independent variable is plotted on the x-axis (horizontal) and the dependent variable on the y-axis (vertical). Both axes are labelled with the quantity and its unit.",
         "Scales are chosen so that the points fill more than half of the grid, with even and sensible intervals.",
-        "Points are plotted accurately as small crosses.",
-        "A line or smooth curve of best fit is drawn through the general trend; the points are not joined dot to dot.",
+        "Points are plotted accurately as small crosses, which show the exact position of each reading.",
+        "A line or smooth curve of best fit is drawn through the general trend, because the line shows the underlying pattern. The points are not joined dot to dot.",
         "The line is not forced through the origin unless the origin is a real data point.",
-        "A line graph is used when both variables are continuous; a bar chart is used for categories."
-      ]
+        "A line graph is used when both variables are continuous (can take any value in a range, such as time and volume); a bar chart is used for categories."
+      ],
+      "tip": "Exams ask you to plot a graph from a table of results and use it to read off a value or find a rate. Plot the points, draw a line or curve of best fit through the general trend, and do not join point to point."
     },
     {
       "h": "Analysing data",
+      "b": "Once the data are plotted, you describe the pattern, measure it and use it to predict. These skills are used to read off values, find rates and draw conclusions.",
       "points": [
-        "Describe the pattern: the values increase, decrease, level off, are directly proportional (a straight line through the origin) or are inversely proportional.",
-        "The gradient of a straight line is the change in y divided by the change in x.",
-        "For a curve, the gradient at a point is found from a tangent drawn at that point; this gives a rate.",
-        "Interpolation reads a value within the range of the data; extrapolation extends the line beyond it and is less reliable.",
+        "Describe the pattern: the values increase, decrease, level off, are directly proportional (a straight line through the origin, so doubling one variable doubles the other) or are inversely proportional (one variable goes up as the other goes down).",
+        "The gradient (steepness) of a straight line is the change in y divided by the change in x.",
+        "For a curve, the gradient at a point is found from a tangent (a straight line touching the curve at that point only) drawn at that point; this gives a rate.",
+        "Interpolation reads a value within the range of the data; extrapolation extends the line beyond it and is less reliable, because the pattern may not continue outside the range measured.",
         "Both interpolation and extrapolation are predictions.",
-        "Trends in a table or a series of compounds allow predictions, e.g. the boiling point of the next alkane can be predicted from the trend in the series.",
-        "Mathematical representations are rearranged and used, e.g. PV = nRT, and means, percentages and rates are calculated."
-      ]
+        "Trends in a table or a series of compounds allow predictions, e.g. the boiling point of the next alkane (the next hydrocarbon in the series) can be predicted from the trend in the series.",
+        "Mathematical representations (equations linking quantities) are rearranged and used, e.g. PV = nRT, the gas equation linking pressure, volume, amount in moles and temperature. Means, percentages and rates are calculated."
+      ],
+      "tip": "To find a rate from a graph, draw a tangent at the time asked for and take its gradient, giving the answer with units, e.g. cm³ s⁻¹ for gas volume against time."
     },
     {
       "h": "Scientific notation (assumed knowledge)",
+      "b": "Chemistry uses very large and very small numbers, such as the number of particles in a mole. Scientific notation writes them compactly.",
       "points": [
-        "Scientific notation (standard form) writes a number as A × 10ⁿ, where A is between 1 and 10.",
-        "The Avogadro constant is 6.02 × 10²³ mol⁻¹.",
+        "Scientific notation (standard form) writes a number as A × 10ⁿ, where A is between 1 and 10 and n is a whole number (the power of ten).",
+        "The Avogadro constant (the number of particles in one mole) is 6.02 × 10²³ mol⁻¹.",
         "0.00050 = 5.0 × 10⁻⁴: the decimal point moves four places to the right, so the power of ten is −4."
       ]
     },
     {
       "h": "Anomalous results and conclusions",
+      "b": "The last steps of analysis are to deal with any result that does not fit and then to state what the data show. A good conclusion is tied to the data and to the hypothesis (the prediction being tested).",
       "points": [
-        "An anomalous result does not fit the pattern of the other results; it is identified on the graph or in the table and a reason is suggested, such as a misreading.",
-        "An anomalous result is left out of the mean and of the line of best fit, and this is stated.",
+        "An anomalous result does not fit the pattern of the other results. It is identified on the graph or in the table, and a reason is suggested, such as a misreading.",
+        "An anomalous result is left out of the mean and of the line of best fit, and this is stated, so the reader knows the data were treated openly.",
         "A conclusion states the relationship shown by the data and says whether it supports the hypothesis.",
-        "A conclusion explains the relationship using scientific theory or a model, e.g. collision theory.",
+        "A conclusion explains the relationship using scientific theory or a model, e.g. collision theory (the model that reactions happen when particles collide).",
         "The conclusion is justified by reference to the data and states its limits: the range tested, the amount of data and the size of the errors.",
-        "Correlation does not prove causation: a link between two variables may be due to a third factor."
-      ]
+        "Correlation (a link between two variables) does not prove causation (that one causes the other): the link may be due to a third factor."
+      ],
+      "tip": "A mean is calculated without anomalous results. Exams ask you to identify an anomalous result and explain how to treat it, and to draw a conclusion and relate it to the hypothesis."
     }
   ],
   "keyTerms": [

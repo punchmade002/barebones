@@ -6,68 +6,84 @@
   "notes": [
     {
       "h": "Water in living things and its properties",
+      "b": "Water is the most abundant substance in living things, and almost every role it plays comes from the shape and charge of its molecule. Learn the properties here first, because the later blocks all rely on them.",
       "points": [
-        "Water is the most abundant substance in living things. It makes up about 60% of the mass of an adult human body and most of the mass of cytoplasm.",
-        "Many plant tissues and jellyfish are over 90% water. Organisms die quickly without water.",
-        "A water molecule, H₂O, is polar: the oxygen end carries a slight negative charge (δ−) and the hydrogen ends carry slight positive charges (δ+). Neighbouring molecules are attracted to each other by hydrogen bonds.",
-        "Because it is polar, water is an excellent solvent: ions (e.g. Na⁺, Cl⁻) and polar molecules (e.g. glucose, amino acids) dissolve in it. Lipids are non-polar and do not dissolve.",
-        "Hydrogen bonding gives water a high specific heat capacity, so it takes a lot of energy to raise its temperature. It also gives water a high latent heat of vaporisation, so a lot of energy is absorbed when it evaporates.",
+        "Water is the most abundant substance in living things. It makes up about 60% of the mass of an adult human body and most of the mass of cytoplasm (the jelly-like contents of a cell).",
+        "Many plant tissues and jellyfish are over 90% water. Organisms die quickly without water, which shows how much of life depends on it.",
+        "A water molecule, H₂O, is polar, meaning it has uneven charge: the oxygen end carries a slight negative charge (δ−) and the hydrogen ends carry slight positive charges (δ+).",
+        "Because of these opposite charges, neighbouring water molecules are attracted to each other by hydrogen bonds, weak attractions between the δ+ hydrogen of one molecule and the δ− oxygen of another.",
+        "Because it is polar, water is an excellent solvent: ions (e.g. Na⁺, Cl⁻) and polar molecules (e.g. glucose, amino acids) dissolve in it, as the charged water molecules surround them. Lipids are non-polar and do not dissolve.",
+        "Hydrogen bonding gives water a high specific heat capacity, so it takes a lot of energy to raise its temperature, because the energy must first break hydrogen bonds. It also gives water a high latent heat of vaporisation, so a lot of energy is absorbed when it evaporates.",
         "Hydrogen bonding makes water molecules stick to each other (cohesion) and to other surfaces (adhesion).",
         "Diagram: two or three water molecules with δ+ on the hydrogens, δ− on the oxygen, and a dotted hydrogen bond between them."
-      ]
+      ],
+      "tip": "Say \"about 60%\" for the human body and don't quote other percentages. Exams ask for two or more roles of water, and each role traces back to a property on this list."
     },
     {
       "h": "Medium for chemical reactions",
+      "b": "Chemical reactions in cells need the reacting molecules to meet. Water gives them a place to do that, and it also takes part in some of the reactions itself.",
       "points": [
-        "Almost all metabolic reactions take place in solution in water, in the cytoplasm and inside organelles, because dissolved molecules can move, collide and meet enzymes.",
-        "Water is also a reactant. It is split in photosynthesis, releasing oxygen, and it is used in every hydrolysis reaction, including digestion.",
-        "Water is a product of respiration and of every condensation reaction."
-      ]
+        "Almost all metabolic reactions (the chemical reactions of life) take place in solution in water, in the cytoplasm and inside organelles. This is because dissolved molecules can move, collide and meet enzymes.",
+        "Water is also a reactant, meaning it is used up in a reaction. It is split in photosynthesis, releasing oxygen, and it is used in every hydrolysis reaction (breaking a bond by adding water), including digestion.",
+        "Water is a product, meaning it is made by a reaction, in respiration and in every condensation reaction (joining molecules together with the loss of water)."
+      ],
+      "tip": "If asked to name a process where water is a reactant and one where it is a product, use photosynthesis or hydrolysis for the first and respiration or condensation for the second."
     },
     {
       "h": "Medium for transport",
+      "b": "Because so many substances dissolve in water, it can carry them from place to place. This works in animals and plants, and also across the surface of every cell.",
       "points": [
-        "In animals, blood plasma is mainly water. It carries dissolved glucose, amino acids, mineral ions, hormones, urea and carbon dioxide around the body; lymph and tissue fluid are also watery.",
-        "Urea and excess salts are excreted dissolved in water as urine.",
-        "In plants, water carries dissolved minerals up the xylem from the roots to the leaves. Sucrose and amino acids move through the phloem.",
-        "Cohesion between water molecules holds the column of water together in the xylem (detail in “Transport in Plants”).",
-        "Substances move into and out of cells by diffusion through the watery fluid around them (detail in “Transport Across Membranes”)."
-      ]
+        "In animals, blood plasma (the liquid part of blood) is mainly water. It carries dissolved glucose, amino acids, mineral ions, hormones, urea and carbon dioxide around the body; lymph and tissue fluid are also watery.",
+        "Urea (a waste product) and excess salts are excreted dissolved in water as urine, so water carries waste out of the body as well as supplies in.",
+        "In plants, water carries dissolved minerals up the xylem (the vessels that carry water) from the roots to the leaves. Sucrose and amino acids move through the phloem (the vessels that carry food).",
+        "Cohesion between water molecules holds the column of water together in the xylem, so it can be pulled upwards as one continuous stream. There is more on this in Transport in Plants.",
+        "Substances move into and out of cells by diffusion through the watery fluid around them, because dissolved substances can spread out through water."
+      ],
+      "tip": "A good answer on transport names the fluid (plasma, xylem or phloem) and says what is dissolved in it."
     },
     {
       "h": "Regulation of temperature",
+      "b": "Living things work best within a narrow temperature range. Water helps keep them there, thanks to its high specific heat capacity and high latent heat of vaporisation.",
       "points": [
         "High specific heat capacity: water heats up and cools down slowly, so the water in an organism's body buffers it against sudden temperature changes. Lakes and seas give aquatic organisms a stable temperature.",
-        "Cooling by evaporation: because water absorbs a lot of heat when it evaporates, sweating in mammals cools the skin (detail in “Homeostasis”), panting cools dogs, and transpiration cools leaves.",
+        "Cooling by evaporation: because water absorbs a lot of heat when it evaporates, sweating in mammals cools the skin, panting cools dogs, and transpiration (evaporation of water from leaves) cools leaves. There is more on sweating in Homeostasis.",
         "Ice is less dense than liquid water, so it floats and forms an insulating layer on ponds and lakes, letting organisms survive beneath it in winter."
-      ]
+      ],
+      "tip": "To explain how water helps regulate temperature, link each effect to its cause: high specific heat capacity for buffering, and heat absorbed during evaporation for cooling."
     },
     {
       "h": "Regulation of pH",
+      "b": "Enzymes only work properly at the right pH, so cells need to keep acidity steady. Water is the medium in which this control happens.",
       "points": [
-        "pH depends on the concentration of hydrogen ions (H⁺) in a solution; pure water is neutral, at pH 7. Acids and bases exert their effects only when they are dissolved in water.",
-        "Buffers, such as hydrogencarbonate and phosphate ions (see “Minerals”), work dissolved in body water. They keep the pH of cells and blood almost constant, so enzymes keep their shape and activity.",
-        "Water is the medium by which excess H⁺ ions are removed. The kidneys excrete them dissolved in urine. Carbon dioxide, which forms an acid in solution, is carried in the blood plasma to the lungs and breathed out."
-      ]
+        "pH depends on the concentration of hydrogen ions (H⁺) in a solution; pure water is neutral, at pH 7. Acids and bases exert their effects only when they are dissolved in water, because that is when they release ions.",
+        "Buffers, such as hydrogencarbonate and phosphate ions, work dissolved in body water. They keep the pH of cells and blood almost constant, so enzymes keep their shape and activity.",
+        "Water is the medium by which excess H⁺ ions are removed. The kidneys excrete them dissolved in urine.",
+        "Carbon dioxide, which forms an acid in solution, is carried in the blood plasma to the lungs and breathed out, so the acid does not build up in the blood."
+      ],
+      "tip": "Say that buffers and waste H⁺ ions are both carried in water, and that stable pH matters because enzymes keep their shape and activity."
     },
     {
       "h": "Osmoregulation",
+      "b": "Water moves in and out of cells by osmosis, so cells can swell or shrink if the surrounding fluid changes. Osmoregulation is how organisms keep this under control, and animals and plants deal with it differently.",
       "points": [
-        "Osmoregulation is the control of the water and salt (solute) concentration of body fluids. Water moves into or out of cells by osmosis, from a region of higher water concentration to a region of lower water concentration, through a selectively permeable membrane (detail in “Transport Across Membranes”).",
+        "Osmoregulation is the control of the water and salt (solute) concentration of body fluids.",
+        "Water moves into or out of cells by osmosis, from a region of higher water concentration to a region of lower water concentration, through a selectively permeable membrane. There is more on this in Transport Across Membranes.",
         "Animal cells placed in pure water swell and may burst; in strong salt solution they shrink. So the concentration of the blood and tissue fluid must be kept steady.",
-        "In humans the kidneys do this, adjusting the volume of water in urine under the control of ADH (detail in “The Urinary System”).",
-        "Plant cells have a strong cell wall, so water entering by osmosis makes them turgid (swollen and firm) instead of bursting. Turgor pressure supports non-woody plants and leaves and opens stomata.",
-        "When water is lost, plant cells become flaccid and the plant wilts.",
-        "Single-celled freshwater organisms such as Amoeba constantly gain water by osmosis and expel it with a contractile vacuole."
-      ]
+        "In humans the kidneys do this, adjusting the volume of water in urine under the control of ADH (a hormone).",
+        "Plant cells have a strong cell wall, so water entering by osmosis makes them turgid (swollen and firm) instead of bursting. Turgor pressure supports non-woody plants and leaves and opens stomata (the pores in leaves).",
+        "When water is lost, plant cells become flaccid (soft and limp) and the plant wilts.",
+        "Single-celled freshwater organisms such as Amoeba constantly gain water by osmosis, because their surroundings are more dilute than their cytoplasm. They expel the excess with a contractile vacuole."
+      ],
+      "tip": "Osmosis moves water, not solutes, so write \"from higher to lower water concentration\" and not \"high to low concentration\" on its own. Plant cells don't burst in pure water because the cell wall prevents it, which is the contrast examiners look for."
     },
     {
       "h": "Other roles of water",
+      "b": "Beyond reactions, transport, temperature, pH and osmoregulation, water has several further roles in living things.",
       "points": [
         "Lubrication: synovial fluid lubricates joints, and mucus and saliva help swallowing.",
-        "Support: the fluid pressure of a hydrostatic skeleton supports soft-bodied animals such as earthworms.",
+        "Support: the fluid pressure of a hydrostatic skeleton supports soft-bodied animals such as earthworms, because water cannot easily be compressed.",
         "Habitat: water is the habitat of aquatic organisms.",
-        "Fertilisation: some organisms need water for fertilisation. Moss and fern sperm swim in water."
+        "Fertilisation: some organisms need water for fertilisation. Moss and fern sperm swim in water to reach the egg."
       ]
     }
   ],

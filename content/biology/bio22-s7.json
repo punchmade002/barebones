@@ -5,99 +5,173 @@
   "syllabusRef": "2.4.16",
   "notes": [
     {
-      "h": "Novel viruses in animals and humans",
+      "h": "What makes a virus novel, and where new ones come from",
+      "b": "A virus can cause a new disease without being new to the world: it only has to be new to the species it infects. Most of the new viruses that infect people come from other animals.",
       "points": [
-        "A novel virus is one not previously known to infect a species, usually because it has jumped from another host (spillover) or has changed by mutation or by mixing of genes.",
-        "Most new human viruses come from animals (zoonoses), especially bats, birds and other mammals.",
-        "Contact increases when people clear forests, hunt or trade wild animals, or farm animals intensively.",
-        "HIV crossed into humans from a related virus, SIV, in chimpanzees in central Africa in the early twentieth century, probably through hunting and butchering them for meat.",
-        "HIV was identified in 1983 by Françoise Barré-Sinoussi and Luc Montagnier at the Institut Pasteur, Paris (Nobel Prize 2008). Its long symptom-free period let it spread worldwide unnoticed for decades.",
-        "There is still no HIV vaccine, but antiretroviral therapy has turned it from a fatal disease into a long-term condition (see Viruses: replication).",
-        "SARS-CoV-2, the coronavirus that causes COVID-19, was first identified in Wuhan, China, in December 2019. It spreads by droplets and aerosols, including from people without symptoms, and air travel carried it worldwide.",
-        "Its genome sequence was shared online in January 2020 (see Science as a global enterprise), and vaccines were developed and approved within a year.",
-        "Mutations produced more transmissible variants, so vaccines were updated.",
-        "Avian influenza H5N1 is a highly pathogenic bird flu virus that kills poultry and wild birds. A strain that spread worldwide from about 2020, carried by migrating wild birds, has infected many mammals, and in 2024 it was found in dairy cattle in the USA.",
+        "A novel virus is one not previously known to infect a species, usually because it has jumped from another host (a jump called spillover) or has changed by mutation or by mixing of genes.",
+        "Most new human viruses come from animals. A disease passed from animals to people is called a zoonosis, and the animals involved are especially bats, birds and other mammals.",
+        "Contact between wildlife and people increases when people clear forests, hunt or trade wild animals, or farm animals intensively, because each of these creates new opportunities for a virus to cross from one species to another."
+      ],
+      "tip": "If asked how a novel virus emerged, name the route: spillover from an animal host, or mutation or gene mixing, and then the human activity that increased contact."
+    },
+    {
+      "h": "Novel viruses in humans: HIV and SARS-CoV-2",
+      "b": "Two viruses that reached people from animals changed the world in very different ways: one spread silently over decades, the other around the globe within months.",
+      "points": [
+        "HIV crossed into humans from a related virus, SIV (simian immunodeficiency virus), in chimpanzees in central Africa in the early twentieth century, probably through hunting and butchering them for meat.",
+        "HIV was identified in 1983 by Françoise Barré-Sinoussi and Luc Montagnier at the Institut Pasteur, Paris (Nobel Prize 2008).",
+        "HIV's long symptom-free period let it spread worldwide unnoticed for decades, because infected people had no reason to suspect they carried it.",
+        "There is still no HIV vaccine, but antiretroviral therapy (drugs that stop the virus replicating) has turned it from a fatal disease into a long-term condition. There is more on this in Viruses: replication.",
+        "SARS-CoV-2, the coronavirus that causes COVID-19, was first identified in Wuhan, China, in December 2019. It spreads by droplets and aerosols (tiny airborne particles), including from people without symptoms, and air travel carried it worldwide.",
+        "Its genome sequence was shared online in January 2020, and vaccines were developed and approved within a year.",
+        "Mutations produced more transmissible variants (forms that spread more easily), so vaccines were updated to match them."
+      ],
+      "tip": "For SARS-CoV-2 say it was 'first identified in Wuhan'; where it originally came from is debated, so don't state an origin. AIDS is an immune deficiency caused by HIV, not an autoimmune disease."
+    },
+    {
+      "h": "Novel viruses in animals: avian influenza, Ebola, Nipah and Schmallenberg",
+      "b": "Animal viruses show how a virus moves between wildlife, farm animals and people, and what controlled each outbreak. For each one, know what it is, where it came from, how it spread and how it was stopped.",
+      "points": [
+        "Avian influenza H5N1 is a highly pathogenic (very disease-causing) bird flu virus that kills poultry and wild birds. A strain that spread worldwide from about 2020, carried by migrating wild birds, has infected many mammals, and in 2024 it was found in dairy cattle in the USA.",
         "Human infections with H5N1 are rare and mostly occur in people in close contact with infected birds or animals. The concern is that mutation, or mixing with a human flu virus, could produce a strain that spreads between people.",
-        "Avian influenza is controlled by culling infected flocks, keeping poultry housed when the risk is high, and surveillance.",
-        "Ebola virus causes severe haemorrhagic fever. Fruit bats are thought to be its natural reservoir.",
-        "The 2014–2016 Ebola epidemic in West Africa killed more than 11,000 people.",
-        "Ebola spreads by contact with the body fluids of sick or dead people, so caring for the sick and traditional burial practices spread it.",
-        "It was controlled by isolation, contact tracing, safe burials and, later, a vaccine.",
+        "Avian influenza is controlled by culling infected flocks, keeping poultry housed when the risk is high (which keeps them away from wild birds), and surveillance.",
+        "Ebola virus causes severe haemorrhagic fever (fever with bleeding). Fruit bats are thought to be its natural reservoir, the animal host in which the virus normally lives. The 2014–2016 epidemic in West Africa killed more than 11,000 people.",
+        "Ebola spreads by contact with the body fluids of sick or dead people, so caring for the sick and traditional burial practices spread it. It was controlled by isolation, contact tracing, safe burials and, later, a vaccine.",
         "Nipah virus emerged in Malaysia in 1998–1999, passing from fruit bats to pigs on farms near fruit trees, and from pigs to pig farmers, causing brain inflammation (encephalitis).",
         "Nipah was controlled by culling over a million pigs. It shows how farming changes create new routes from wildlife to people.",
-        "Schmallenberg virus, an animal virus, was identified in 2011 in Germany and is named after the town where it was found.",
-        "Spread by biting midges, it causes birth defects in lambs and calves when the mother is infected in early pregnancy. It spread across northern Europe, including Ireland, within about a year."
-      ]
+        "Schmallenberg virus, an animal virus, was identified in 2011 in Germany and is named after the town where it was found. Spread by biting midges, it causes birth defects in lambs and calves when the mother is infected in early pregnancy.",
+        "It spread across northern Europe, including Ireland, within about a year."
+      ],
+      "tip": "Don't present H5N1 as currently spreading between people: human cases are rare and mostly follow close contact with infected animals. Exams ask you to name an animal virus and explain how it emerged and spread."
     },
     {
-      "h": "Novel viruses in plants",
+      "h": "Novel viruses in plants: tomato brown rugose fruit virus",
+      "b": "Plants get emerging virus diseases too. Tomato brown rugose fruit virus (ToBRFV) is a recent example that threatens a major glasshouse crop.",
       "points": [
-        "Tomato brown rugose fruit virus (ToBRFV) is a tobamovirus, related to tobacco mosaic virus, first identified in the Middle East in the mid-2010s, and it then spread to many countries.",
-        "It infects tomatoes and peppers, causing wrinkled, discoloured fruit that can't be sold.",
+        "ToBRFV is a tobamovirus, related to tobacco mosaic virus, first identified in the Middle East in the mid-2010s, and it then spread to many countries.",
+        "It infects tomatoes and peppers, causing wrinkled, discoloured fruit that can't be sold, so growers lose income.",
         "It spreads by contact (hands, tools and clothing), in infected seed and in the trade in plants and fruit, and it stays infectious on surfaces for long periods.",
-        "It is serious because it overcomes the resistance genes bred into tomato varieties to protect them against related viruses.",
-        "Control: EU plant-health rules on imported seed and plants, testing of seed, hygiene and disinfection in glasshouses, destroying infected crops, and breeding new resistant varieties.",
-        "Why plant viruses emerge: global trade in seeds and plants; monocultures of genetically uniform crops; insect vectors spreading into new areas as the climate warms; and mutation overcoming plants' resistance genes.",
-        "Plants have no adaptive immune system and can't be vaccinated or cured of viral infection, so control depends on prevention: clean seed and stock, controlling vectors, removing infected plants, quarantine and resistant varieties.",
-        "Economic and food-security importance: crop losses raise food prices and threaten farmers' incomes, and diseases of staple crops are most serious for poor countries that depend on one crop."
-      ]
+        "It is serious because it overcomes the resistance genes bred into tomato varieties to protect them against related viruses, so the older protection no longer works.",
+        "Control: EU plant-health rules on imported seed and plants, testing of seed, hygiene and disinfection in glasshouses, destroying infected crops, and breeding new resistant varieties."
+      ],
+      "tip": "Exams ask you to name a novel plant virus and explain how it emerged and spread: give the crops affected, the three routes of spread, and why resistance failed."
     },
     {
-      "h": "Autoimmune diseases",
+      "h": "Why plant viruses emerge and why they matter",
+      "b": "Several human activities and natural changes help plant viruses reach new places and crops. Because plants cannot be treated once infected, prevention is the only real defence.",
+      "points": [
+        "Why plant viruses emerge: global trade in seeds and plants; monocultures of genetically uniform crops (one variety grown over huge areas, so one virus can overcome them all); insect vectors (carriers) spreading into new areas as the climate warms; and mutation overcoming plants' resistance genes.",
+        "Plants have no adaptive immune system (the antibody- and T-cell-based defence animals use) and can't be vaccinated or cured of viral infection, so control depends on prevention: clean seed and stock, controlling vectors, removing infected plants, quarantine and resistant varieties.",
+        "Economic and food-security importance: crop losses raise food prices and threaten farmers' incomes.",
+        "Diseases of staple crops (the main food crops) are most serious for poor countries that depend on one crop, because there is no alternative food if it fails."
+      ],
+      "tip": "Never suggest antibiotics or vaccines for a diseased plant: plant viruses can't be cured, so answers must be about prevention."
+    },
+    {
+      "h": "Autoimmune disease: what it is and how tolerance fails",
+      "b": "The immune system is meant to attack invaders and leave the body alone. In an autoimmune disease it gets this wrong and attacks the body's own tissues.",
       "points": [
         "An autoimmune disease is one in which the immune system attacks the body's own cells or tissues as if they were foreign, because it fails to tell self from non-self.",
-        "Normally, lymphocytes that react to self are removed during maturation, and the rest are held in check by suppressor (regulatory) T cells.",
-        "In autoimmune disease this tolerance breaks down, and antibodies or killer T cells attack a self antigen.",
-        "Type 1 diabetes: T cells destroy the insulin-producing cells of the pancreas, causing high blood glucose. It is treated with insulin injections for life (see Glands, locations and hormones).",
-        "Multiple sclerosis: the myelin sheath around nerve fibres in the brain and spinal cord is damaged, slowing or blocking impulses (see Neurons).",
+        "Normally, lymphocytes (white blood cells that recognise antigens) that react to self are removed during maturation, and the rest are held in check by suppressor (regulatory) T cells.",
+        "In autoimmune disease this tolerance (not attacking self) breaks down, and antibodies or killer T cells attack a self antigen, an antigen that is part of the body's own cells."
+      ],
+      "tip": "An autoimmune disease is not an infectious disease and isn't caught from another person, although an infection can trigger one. Type 1 diabetes is autoimmune; type 2 is not."
+    },
+    {
+      "h": "Examples of autoimmune diseases",
+      "b": "Each autoimmune disease is defined by which tissue the immune system attacks, and the symptoms follow from the job that tissue does.",
+      "points": [
+        "Type 1 diabetes: T cells destroy the insulin-producing cells of the pancreas, causing high blood glucose. It is treated with insulin injections for life. There is more on this in Glands, locations and hormones.",
+        "Multiple sclerosis: the myelin sheath (the insulating layer) around nerve fibres in the brain and spinal cord is damaged, slowing or blocking impulses.",
         "Rheumatoid arthritis: the lining of the joints becomes inflamed, causing painful, swollen and damaged joints.",
-        "Coeliac disease: eating gluten, a protein in wheat, barley and rye, triggers an immune attack that damages the villi of the small intestine, causing poor absorption. Treatment is a lifelong gluten-free diet.",
-        "Graves' disease: antibodies stimulate the thyroid, producing too much thyroxine.",
+        "Coeliac disease: eating gluten, a protein in wheat, barley and rye, triggers an immune attack that damages the villi of the small intestine (the finger-like folds that absorb food), causing poor absorption. Treatment is a lifelong gluten-free diet.",
+        "Graves' disease: antibodies stimulate the thyroid gland, producing too much thyroxine."
+      ],
+      "tip": "Exams ask you to define autoimmune disease and give one example with its effect: state the tissue attacked, then the result, such as T cells destroying insulin-producing pancreatic cells and so causing high blood glucose."
+    },
+    {
+      "h": "What causes autoimmune disease",
+      "b": "Autoimmune diseases have no single cause. Inherited genes make some people more susceptible, and something in the environment then sets the disease off.",
+      "points": [
         "Causes: a combination of inherited susceptibility, since some alleles make these diseases more likely and they run in families, and environmental triggers.",
         "Infections can trigger autoimmunity when a pathogen's antigen resembles a self antigen, so antibodies made against the pathogen also attack the body.",
         "Rheumatic fever: antibodies against Streptococcus bacteria, from a throat infection, attack the heart valves.",
-        "Guillain–Barré syndrome, a paralysis that can follow some infections, including Campylobacter food poisoning and Zika virus.",
-        "Autoimmune diseases are grouped with emerging diseases because the number of people with several autoimmune diseases has been rising in many countries.",
-        "The hygiene hypothesis proposes that less early-life exposure to microorganisms leaves the immune system poorly regulated. It is supported by some evidence but not proven (the gut microbiome's role in immune signalling is in The microbiome).",
-        "An autoimmune disease is not caught from another person. Type 1 diabetes is autoimmune; type 2 is not. AIDS is an immune deficiency caused by a virus, not an autoimmune disease.",
-        "There is usually no cure. Treatments replace what is lost (insulin, thyroid hormone), avoid the trigger (a gluten-free diet), or suppress the immune system with drugs such as corticosteroids, which relieves symptoms but makes infections more likely."
-      ]
+        "Guillain–Barré syndrome is a paralysis that can follow some infections, including Campylobacter food poisoning and Zika virus."
+      ],
+      "tip": "Don't say vaccines cause autoimmune disease. The trigger examples to give are infections whose antigens resemble self antigens."
     },
     {
-      "h": "Using knowledge of the factors to control increase",
+      "h": "Autoimmune diseases as emerging diseases, and their treatment",
+      "b": "Autoimmune diseases are not infectious, yet they are grouped with emerging diseases because more people have several of them than before. Treatment can manage them but rarely cures them.",
       "points": [
-        "Surveillance and early detection: doctors and vets must report notifiable diseases; laboratories sequence pathogens' genomes to detect new variants and resistance; and agencies such as the World Health Organization and the European Centre for Disease Prevention and Control share data. Early detection lets control start while case numbers are low.",
-        "Reducing R (targets R₀, contact and transmission): isolating cases, contact tracing and quarantine reduce the infectious period in the community.",
-        "Masks, ventilation, hand hygiene and physical distancing reduce the chance of transmission per contact, and limiting mass gatherings reduces the number of contacts. The aim is to bring R below 1.",
-        "Raising immunity (targets the immunity level): vaccination campaigns aimed at the herd-immunity threshold, with priority for the most vulnerable.",
-        "Updating vaccines to match new variants targets mutation.",
+        "Autoimmune diseases are grouped with emerging diseases because the number of people with several autoimmune diseases has been rising in many countries.",
+        "The hygiene hypothesis proposes that less early-life exposure to microorganisms leaves the immune system poorly regulated. It is supported by some evidence but not proven, so it remains a hypothesis. There is more on this in The microbiome.",
+        "An autoimmune disease is not caught from another person. AIDS is an immune deficiency caused by a virus, not an autoimmune disease.",
+        "There is usually no cure. Treatments replace what is lost (insulin, thyroid hormone), avoid the trigger (a gluten-free diet), or suppress the immune system with drugs such as corticosteroids, which relieves symptoms but makes infections more likely."
+      ],
+      "tip": "Describe the hygiene hypothesis as a proposal that is not proven, never as established fact."
+    },
+    {
+      "h": "Controlling emerging diseases: detecting them and cutting transmission",
+      "b": "Knowing which factors make a disease spread lets us target each one. Each strategy below is linked to the factor it acts on, which is how exams expect you to present it. There is more on the factors in Emergence and spread of infectious disease.",
+      "points": [
+        "Surveillance and early detection: doctors and vets must report notifiable diseases (ones the law requires them to report), and laboratories sequence pathogens' genomes to detect new variants and resistance.",
+        "Agencies such as the World Health Organization and the European Centre for Disease Prevention and Control share data. Early detection lets control start while case numbers are low.",
+        "Reducing R (targets R₀, contact and transmission): isolating cases, contact tracing and quarantine reduce the infectious period in the community, because infected people have fewer days in which to pass the disease on.",
+        "Masks, ventilation, hand hygiene and physical distancing reduce the chance of transmission per contact, and limiting mass gatherings reduces the number of contacts. The aim is to bring R (the average number of people each case infects) below 1, so the outbreak dies out.",
+        "Raising immunity (targets the immunity level): vaccination campaigns aimed at the herd-immunity threshold (the proportion immune that stops an outbreak spreading), with priority for the most vulnerable.",
+        "Updating vaccines to match new variants targets mutation."
+      ],
+      "tip": "When asked for strategies, link each one to the factor it targets, such as R₀, immunity, mobility or mutation."
+    },
+    {
+      "h": "Controlling emerging diseases: movement, plants, resistance and spillover",
+      "b": "Other strategies target how pathogens travel, how crops are protected, how resistance develops and how animal viruses reach people in the first place.",
+      "points": [
         "Limiting mobility (targets movement): travel restrictions and screening; animal movement bans and culling during outbreaks of foot-and-mouth disease or avian influenza; and disinfecting vehicles and footwear at farms.",
-        "Plant biosecurity: plant passports and import inspections, quarantine of imported plants, bans on importing high-risk plants (e.g. ash from infected areas), certified disease-free seed and planting material, removing and destroying infected plants, and breeding resistant varieties, which counters genetic uniformity.",
+        "Plant biosecurity: plant passports and import inspections, quarantine of imported plants, and bans on importing high-risk plants (e.g. ash from infected areas).",
+        "Plant biosecurity also uses certified disease-free seed and planting material, removing and destroying infected plants, and breeding resistant varieties, which counters genetic uniformity.",
         "Fighting resistance (targets resistance): antimicrobial stewardship, meaning prescribing antibiotics only when needed; infection control in hospitals; restricting antibiotic use in farm animals; rotating pesticides and fungicides; and developing new drugs.",
-        "Reducing spillover: controlling vectors, regulating wildlife trade and markets, protecting habitats, and biosecurity on farms. The One Health approach treats human, animal and environmental health as linked, and coordinates doctors, vets and ecologists.",
-        "Research and public information: understanding a new pathogen's transmission and R₀ tells authorities which measures will work.",
-        "Clear public information increases vaccine uptake and cooperation and counters misinformation (see Evaluating evidence)."
+        "Reducing spillover: controlling vectors, regulating wildlife trade and markets, protecting habitats, and biosecurity on farms.",
+        "The One Health approach treats human, animal and environmental health as linked, and coordinates doctors, vets and ecologists."
+      ],
+      "tip": "For plants, give prevention measures only. Individual prevention, such as hygiene, food safety and the types of vaccination, belongs to Acquired immunity, prevention and treatment."
+    },
+    {
+      "h": "Controlling emerging diseases: research and public information",
+      "b": "Control measures work best when they are chosen using evidence and when the public is willing to follow them.",
+      "points": [
+        "Research and public information: understanding a new pathogen's transmission and R₀ tells authorities which measures will work, so effort is not wasted on measures that won't help.",
+        "Clear public information increases vaccine uptake and cooperation and counters misinformation (false or misleading claims). There is more on this in Evaluating evidence."
       ]
     },
     {
-      "h": "Why knowledge of emerging diseases matters to society",
+      "h": "Why knowledge of emerging diseases matters: the benefits",
+      "b": "Understanding how new diseases arise and spread benefits health, the economy, food supplies, the environment and ordinary citizens.",
       "points": [
         "Health: early recognition and control save lives and prevent disability.",
         "Knowing the factors lets health systems prepare, with stockpiles, hospital capacity and vaccine platforms, before the next outbreak.",
-        "Protecting vulnerable groups depends on high immunity in everyone else.",
+        "Protecting vulnerable groups depends on high immunity in everyone else, which means those who can't be vaccinated are shielded by those who can.",
         "Economic: epidemics close businesses, schools and travel, and cost health systems heavily, as COVID-19 did from 2020.",
-        "Animal and plant diseases cause culling, lost exports and crop losses, e.g. the 2001 foot-and-mouth epidemic in Britain.",
-        "Prevention and early control usually cost far less than a large outbreak.",
-        "Food security and the environment: plant and animal diseases threaten the food supply, especially where people depend on one crop (the Irish Great Famine shows the human cost, in Emergence and spread of infectious disease).",
+        "Animal and plant diseases cause culling, lost exports and crop losses, e.g. the 2001 foot-and-mouth epidemic in Britain. Prevention and early control usually cost far less than a large outbreak.",
+        "Food security and the environment: plant and animal diseases threaten the food supply, especially where people depend on one crop. The Irish Great Famine shows the human cost, and there is more on this in Emergence and spread of infectious disease.",
         "Diseases of wild species threaten biodiversity, e.g. chytrid fungus in amphibians, and ash dieback removing a native tree species and the organisms that depend on it.",
-        "Informed citizens: understanding how diseases spread, and why vaccines and antibiotics must be used carefully, lets people make informed choices, follow public-health advice and judge claims in the media.",
-        "Global cooperation: pathogens ignore borders, so a disease anywhere is a risk everywhere. Sharing data, genome sequences and vaccines between countries benefits all (see Science as a global enterprise).",
+        "Informed citizens: understanding how diseases spread, and why vaccines and antibiotics must be used carefully, lets people make informed choices, follow public-health advice and judge claims in the media."
+      ],
+      "tip": "Ash dieback and chytrid are fungal diseases, not viruses: use them only as examples of threats to biodiversity, never as novel viruses."
+    },
+    {
+      "h": "Why knowledge of emerging diseases matters: cooperation, costs and judgement",
+      "b": "A full discussion gives arguments for, then the costs and tensions of control measures, then a judgement. Examiners expect both sides.",
+      "points": [
+        "Global cooperation: pathogens ignore borders, so a disease anywhere is a risk everywhere. Sharing data, genome sequences and vaccines between countries benefits all.",
         "Tensions and costs: control measures limit personal freedom, such as quarantine, travel bans and lockdowns, and their social and economic costs, such as lost income and education, isolation and poor mental health, fall unequally.",
         "Culling destroys farmers' livelihoods and healthy animals, vaccine requirements raise questions of consent, and poorer countries have less access to vaccines and drugs.",
-        "Acting early on uncertain evidence may later look like over-reaction, while waiting for certainty lets a disease spread (the precautionary principle, see Science, scientists and society).",
+        "Acting early on uncertain evidence may later look like over-reaction, while waiting for certainty lets a disease spread. This is the precautionary principle, and there is more on this in Science, scientists and society.",
         "Judgement: knowledge of emerging diseases matters because it allows targeted, proportionate measures, which cost less and do less harm than either doing nothing or applying blanket restrictions.",
         "The more is known about a disease's factors, the more precisely its spread can be limited."
-      ]
+      ],
+      "tip": "When asked to discuss the importance of this knowledge, give arguments in favour and the costs of control measures, then finish with a judgement."
     }
   ],
   "keyTerms": [

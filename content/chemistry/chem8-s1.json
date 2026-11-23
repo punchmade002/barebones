@@ -8,40 +8,48 @@
       "h": "The mole and the Avogadro constant",
       "b": "Atoms are far too small to count, so chemists count them by weighing. The mole links a mass that can be weighed to a number of particles.",
       "points": [
-        "The mole (symbol mol) is the SI unit of amount of substance.",
+        "The mole (symbol mol) is the SI unit (the internationally agreed system of units) of amount of substance, so it measures how much of a substance there is by counting its particles.",
         "One mole contains exactly 6.02214076 × 10²³ elementary entities (atoms, molecules, ions or electrons); this number is the Avogadro constant, NA = 6.02 × 10²³ mol⁻¹.",
-        "Before 2019 the mole was defined through carbon-12: the Avogadro constant was the number of atoms in 12 g of carbon-12.",
+        "Before 2019 the mole was defined through carbon-12 (the carbon atom with 6 protons and 6 neutrons): the Avogadro constant was the number of atoms in 12 g of carbon-12.",
         "Since the 2019 SI redefinition the value of the Avogadro constant is exact by definition.",
-        "Always state the particle: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.",
-        "One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms.",
-        "One mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules."
-      ]
+        "Always state the particle, because a mole of different particles contains different numbers of atoms: one mole of oxygen atoms (O) contains 6.02 × 10²³ atoms.",
+        "One mole of oxygen molecules (O₂) contains 6.02 × 10²³ molecules and 1.204 × 10²⁴ atoms, because each O₂ molecule is made of two atoms.",
+        "This shows the scale of the mole: one mole of water is only 18 g (about 18 cm³, since water has a density of about 1.00 g cm⁻³) but contains 6.02 × 10²³ molecules."
+      ],
+      "tip": "You may be asked to define the mole and the Avogadro constant. Always name the particle you are counting: for diatomic gases (two atoms per molecule), the number of atoms is twice the number of molecules."
     },
     {
       "h": "Relative molecular mass, molar mass and density",
+      "b": "To weigh out a mole you need to know what one mole of the substance weighs. That comes from the relative atomic masses of its atoms, and density links mass to volume for liquids and solids.",
       "points": [
-        "Relative molecular mass (Mr) is the sum of the relative atomic masses of all the atoms in a molecule (or formula unit); it has no units.",
-        "Relative atomic masses used in this section: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.",
-        "Mr(H₂O) = 2(1) + 16 = 18.",
-        "Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98.",
-        "Mr(CaCO₃) = 40 + 12 + 3(16) = 100.",
+        "Relative molecular mass (Mr) is the sum of the relative atomic masses (Ar, the mass of an atom compared with one-twelfth of a carbon-12 atom) of all the atoms in a molecule (or formula unit, the simplest ratio of ions in an ionic compound); it has no units.",
+        "Relative atomic masses used in these calculations: H 1, C 12, N 14, O 16, Na 23, Mg 24, S 32, Cl 35.5, Ca 40.",
+        "Example: Mr(H₂O) = 2(1) + 16 = 18, because water has two hydrogen atoms and one oxygen atom.",
+        "Example: Mr(H₂SO₄) = 2(1) + 32 + 4(16) = 98, because there are two H, one S and four O.",
+        "Example: Mr(CaCO₃) = 40 + 12 + 3(16) = 100, because there is one Ca, one C and three O.",
         "Molar mass (M) is the mass of one mole of a substance, in grams per mole (g mol⁻¹); it is numerically equal to Ar or Mr, so the molar mass of water is 18 g mol⁻¹.",
-        "Density is mass per unit volume: ρ = m ÷ V, in g cm⁻³ or kg m⁻³."
-      ]
+        "Density is mass per unit volume (how much mass is packed into a given space): ρ = m ÷ V, in g cm⁻³ or kg m⁻³."
+      ],
+      "tip": "Mr has no units, but molar mass has units g mol⁻¹. Write the units on molar mass every time."
     },
     {
-      "h": "Interconverting mass, moles, particles and volume",
+      "h": "Converting between mass, moles and particles",
+      "b": "Every mole calculation uses the same few relationships. Each one is a single step, and you can chain them together.",
       "points": [
-        "Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹.",
-        "Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.",
-        "Mass from moles: m = n × M.",
-        "Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.",
-        "Number of particles from moles: N = n × NA.",
-        "Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.",
-        "Moles from number of particles: n = N ÷ NA.",
-        "Number of atoms: multiply the number of molecules by the number of atoms in each molecule.",
-        "Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms.",
-        "Gas volume from moles: V = n × molar volume, using 22.4 L mol⁻¹ at STP.",
+        "Moles from mass: n = m ÷ M, with m in g and M in g mol⁻¹. Example: 8.8 g of CO₂ (M = 44 g mol⁻¹): n = 8.8 ÷ 44 = 0.20 mol.",
+        "Mass from moles: m = n × M, which is the same relationship turned round. Example: 0.25 mol of NaCl (M = 58.5 g mol⁻¹): m = 0.25 × 58.5 = 14.6 g.",
+        "Number of particles from moles: N = n × NA, because each mole holds 6.02 × 10²³ particles. Example: 0.20 mol of CO₂: N = 0.20 × 6.02 × 10²³ = 1.20 × 10²³ molecules.",
+        "Moles from number of particles: n = N ÷ NA, which reverses the previous step.",
+        "Number of atoms: multiply the number of molecules by the number of atoms in each molecule, because each molecule contains that many atoms.",
+        "Example: 0.20 mol of CO₂ contains 0.20 × 3 = 0.60 mol of atoms, so 0.60 × 6.02 × 10²³ = 3.61 × 10²³ atoms."
+      ],
+      "tip": "Exams ask you to calculate moles, masses and numbers of particles, and the number of atoms in a given mass. For atoms, count the atoms per molecule: for diatomic gases the number of atoms is twice the number of molecules."
+    },
+    {
+      "h": "Gas volume, density and the conversion route",
+      "b": "Gases are usually measured by volume and liquids by volume and density, so these also have to be converted to moles. Moles are the middle step in every conversion.",
+      "points": [
+        "Gas volume from moles: V = n × molar volume (the volume of one mole of gas), using 22.4 L mol⁻¹ at STP (standard temperature and pressure, the agreed reference conditions for gases: 0 °C and 101.3 kPa).",
         "Mass from volume and density: m = ρ × V, then convert the mass to moles with n = m ÷ M.",
         "Example: 10.0 cm³ of ethanol (density 0.789 g cm⁻³): m = 10.0 × 0.789 = 7.89 g.",
         "Continuing the ethanol example (M = 46 g mol⁻¹): n = 7.89 ÷ 46 = 0.172 mol.",
@@ -50,127 +58,162 @@
     },
     {
       "h": "Isotopes and relative atomic mass",
+      "b": "Not all atoms of an element have the same mass, so the relative atomic mass in the data tables is an average. That average rests on two ideas: isotopes and mass number.",
       "points": [
-        "Isotopes are atoms of the same element with different mass numbers.",
-        "The mass number of an isotope is the total number of protons and neutrons in its nucleus.",
-        "Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances, relative to one-twelfth of the mass of a carbon-12 atom."
+        "Isotopes are atoms of the same element with different mass numbers, because they have the same number of protons but different numbers of neutrons.",
+        "The mass number of an isotope is the total number of protons and neutrons in its nucleus (the central core of the atom).",
+        "Relative atomic mass (Ar) is the weighted average of the isotope masses, using their percentage abundances (the percentage of the element's atoms that are that isotope), relative to one-twelfth of the mass of a carbon-12 atom."
       ]
     },
     {
       "h": "Calculating Ar from percentage abundances",
-      "b": "Each isotope contributes to the average in proportion to how abundant it is.",
+      "b": "Each isotope contributes to the average in proportion to how abundant it is. Common isotopes count for more than rare ones.",
       "points": [
         "Step 1: multiply each isotope's mass number by its percentage abundance.",
-        "Step 2: add the products together.",
-        "Step 3: divide the total by 100, so Ar = Σ(mass number × % abundance) ÷ 100.",
+        "Step 2: add the products together, to get the total mass contributed by 100 atoms.",
+        "Step 3: divide the total by 100, because the abundances are percentages, so Ar = Σ(mass number × % abundance) ÷ 100.",
+        "Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope."
+      ],
+      "tip": "You may be asked to calculate the relative atomic mass of an element from given isotopic abundances. Divide by 100 when the abundances are percentages; if they are given as ratios, divide by the total instead."
+    },
+    {
+      "h": "Worked examples: Ar from abundances",
+      "b": "Here the three-step method is applied to chlorine, boron and magnesium, the last with three isotopes.",
+      "points": [
         "Chlorine example (75% ³⁵Cl, 25% ³⁷Cl): the products are 35 × 75 = 2625 and 37 × 25 = 925.",
-        "Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5.",
+        "Adding the products gives 2625 + 925 = 3550, and 3550 ÷ 100 = 35.5, so Ar(Cl) = 35.5, nearer 35 because ³⁵Cl is three times as abundant as ³⁷Cl.",
         "Boron example (19.9% ¹⁰B, 80.1% ¹¹B): the products are 10 × 19.9 = 199 and 11 × 80.1 = 881.1.",
         "Adding the products gives 199 + 881.1 = 1080.1, and 1080.1 ÷ 100 = 10.8, so Ar(B) = 10.8.",
         "Magnesium example, three isotopes (79.0% ²⁴Mg, 10.0% ²⁵Mg, 11.0% ²⁶Mg): the products are 24 × 79.0 = 1896, 25 × 10.0 = 250 and 26 × 11.0 = 286.",
-        "Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3.",
-        "Quick check: the answer must lie between the lightest and heaviest isotope mass numbers, nearer to the more abundant isotope."
+        "Adding the products gives 1896 + 250 + 286 = 2432, and 2432 ÷ 100 = 24.3, so Ar(Mg) = 24.3."
       ]
     },
     {
       "h": "Calculating percentage abundances from Ar",
+      "b": "The method also runs backwards: if you are given the relative atomic mass and the isotopes, you can find how much of each there is, using algebra.",
       "points": [
-        "For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%.",
+        "For two isotopes, let the abundance of one isotope be x%; the other is then (100 − x)%, because the two abundances add up to 100%.",
         "Set up Ar = [mass₁ × x + mass₂ × (100 − x)] ÷ 100 and solve for x.",
         "Boron example (Ar = 10.8; isotopes ¹⁰B and ¹¹B): 10x + 11(100 − x) = 1080.",
         "Expanding gives 10x + 1100 − 11x = 1080, so 1100 − x = 1080 and x = 20.",
         "The abundances are therefore about 20% boron-10 and 80% boron-11, matching the 19.9% and 80.1% used in the Ar calculation.",
-        "Using whole mass numbers is an approximation; data-book isotope masses give more accurate abundances."
-      ]
+        "Using whole mass numbers is an approximation, because real isotope masses are not exact whole numbers; data-book isotope masses give more accurate abundances."
+      ],
+      "tip": "You may be asked to calculate abundances from a given relative atomic mass. Let one abundance be x and the other 100 − x, then solve."
     },
     {
       "h": "Avogadro's law and combining volumes",
+      "b": "Gas volumes can be compared directly, with no need to weigh. Avogadro's law says why: the volume of a gas depends only on how many molecules it holds.",
       "points": [
         "Avogadro's law: equal volumes of all gases, at the same temperature and pressure, contain equal numbers of molecules.",
-        "So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n.",
+        "So at fixed temperature and pressure, the volume of a gas is directly proportional to the number of moles: V ∝ n (double the moles and the volume doubles).",
         "Gay-Lussac's law of combining volumes: gases react in volumes that are in simple whole-number ratios to one another and to the volumes of any gaseous products, at the same temperature and pressure.",
         "Example of combining volumes: 2 volumes of hydrogen react with 1 volume of oxygen.",
-        "Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation.",
+        "Avogadro's law explains Gay-Lussac's law: the volume ratio equals the mole ratio in the balanced equation, because equal volumes hold equal numbers of molecules.",
         "Example: N₂(g) + 3H₂(g) → 2NH₃(g) reads as 1 volume of nitrogen + 3 volumes of hydrogen → 2 volumes of ammonia."
-      ]
+      ],
+      "tip": "You may be asked to state Avogadro's law. It is about numbers of molecules, not atoms or mass, so say molecules."
     },
     {
       "h": "STP and molar volume",
+      "b": "Gas volumes change with temperature and pressure, so a volume is only useful if the conditions are stated. Chemists agree a standard set of conditions, STP, and quote the molar volume under them.",
       "points": [
         "Standard temperature and pressure (STP) is 0 °C (273 K) and 101.3 kPa (1 atmosphere, 1.013 × 10⁵ Pa).",
-        "Temperature in gas calculations must be in kelvin.",
+        "Temperature in gas calculations must be in kelvin (the absolute temperature scale, where 0 °C is 273 K).",
         "Molar volume is the volume occupied by one mole of any gas at a stated temperature and pressure.",
         "At STP the molar volume is 22.4 L mol⁻¹ (22 400 cm³).",
-        "At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹.",
-        "IUPAC now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.",
+        "At room temperature (about 20 °C) and pressure, the molar volume is about 24.0 L mol⁻¹, larger than at STP because the gas is warmer.",
+        "IUPAC (the international chemistry body) now uses a standard pressure of 100 kPa, at which the molar volume at 273.15 K is 22.7 L mol⁻¹.",
         "Leaving Certificate calculations use 22.4 L mol⁻¹ at STP unless told otherwise.",
         "Molar volume applies to gases only, not to liquids or solids."
-      ]
+      ],
+      "tip": "You may be asked to state the conditions of STP and to give the molar volume at STP. Remember that molar volume applies to gases only and that temperature must be in kelvin."
     },
     {
       "h": "Deducing the molar volume",
+      "b": "The value 22.4 L mol⁻¹ can be calculated from the ideal gas equation, and it can be found by experiment.",
       "points": [
-        "From the ideal gas equation PV = nRT (see \"Gas laws and the ideal gas equation\"), the volume of n moles is V = nRT ÷ P.",
+        "From the ideal gas equation PV = nRT (P pressure, V volume, n moles, R the gas constant, T temperature in kelvin), the volume of n moles is V = nRT ÷ P. There is more on this in Gas laws and the ideal gas equation.",
         "For 1 mol at 273 K and 101 325 Pa, with R = 8.314 J K⁻¹ mol⁻¹: V = 1 × 8.314 × 273 ÷ 101 325.",
         "This gives V = 0.0224 m³ = 22.4 L, the molar volume at STP.",
-        "Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe.",
+        "Experimentally, weigh a gas cylinder (for example, of oxygen) before and after releasing a known volume of gas into a gas syringe (a calibrated syringe that collects and measures gas volume).",
         "Find the number of moles of gas released from the mass lost, using n = m ÷ M.",
         "Scale the volume to one mole and correct it to STP to obtain the molar volume.",
         "Diagram: a gas cylinder on a balance, connected by tubing to a gas syringe; label the cylinder, the balance, the tubing and the scale of the gas syringe."
-      ]
+      ],
+      "tip": "A question may ask you to show, using the ideal gas equation, that one mole occupies 22.4 L at STP. Use 273 K, not 0 °C."
     },
     {
-      "h": "Calculations with molar volume",
+      "h": "Calculations with a single gas at STP",
+      "b": "At STP every mole of gas occupies 22.4 L, so converting between volume and moles takes one step. Mass and volume are linked through moles.",
       "points": [
-        "Moles from gas volume at STP: n = V ÷ 22.4, with V in L.",
-        "Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.",
-        "Volume from moles at STP: V = n × 22.4 L.",
-        "Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.",
-        "Mass to volume goes through moles: first n = m ÷ M.",
+        "Moles from gas volume at STP: n = V ÷ 22.4, with V in L. Example: 5.6 L of CO₂ at STP: n = 5.6 ÷ 22.4 = 0.25 mol.",
+        "Volume from moles at STP: V = n × 22.4 L. Example: 0.50 mol of O₂ occupies 0.50 × 22.4 = 11.2 L at STP.",
+        "Mass to volume goes through moles, because 22.4 L is the volume of a mole: first n = m ÷ M.",
         "Example: 8.0 g of methane (M = 16 g mol⁻¹): n = 8.0 ÷ 16 = 0.50 mol.",
-        "Then V = 0.50 × 22.4 = 11.2 L at STP.",
+        "Then V = 0.50 × 22.4 = 11.2 L at STP."
+      ],
+      "tip": "Exams ask you to calculate the volume of a gas at STP from its mass, or the moles from a volume. Go through moles each time."
+    },
+    {
+      "h": "Volumes of reacting gases",
+      "b": "Because volume ratios equal mole ratios, the balanced equation tells you the gas volumes directly, with no need to convert to moles.",
+      "points": [
         "Example of reacting gases: CH₄ + 2O₂ → CO₂ + 2H₂O.",
         "The volumes of methane and oxygen are in the ratio 50 cm³ : 100 cm³, which is 1 : 2 as in the equation, so all the reactants are used up.",
-        "So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure."
-      ]
+        "So 50 cm³ of CO₂ is formed, measured at the same temperature and pressure, because the equation gives 1 mole of CO₂ for every 1 mole of methane."
+      ],
+      "tip": "You may be asked to calculate volumes of reacting gases. Use the ratio from the balanced equation, and state that the volumes are measured at the same temperature and pressure."
     },
     {
-      "h": "Principle",
-      "b": "Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour.",
+      "h": "Finding the relative molecular mass of a volatile liquid: principle",
+      "b": "Aim: to determine the relative molecular mass of a volatile liquid by turning a measured mass of it into vapour. The vapour fills a flask of known volume, so its moles can be found from the gas equation.",
       "points": [
-        "A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C.",
-        "If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT.",
+        "A volatile liquid evaporates easily, i.e. it has a low boiling point, so it can be turned completely into vapour at 100 °C. Propanone (CH₃COCH₃, boiling point 56 °C) is used.",
+        "If the mass (m), volume (V), temperature (T) and pressure (P) of the vapour are measured, the number of moles is n = PV ÷ RT, where R is the gas constant.",
         "Relative molecular mass is then Mr = m ÷ n, giving the molar mass in g mol⁻¹.",
-        "The vapour is assumed to behave as an ideal gas."
-      ]
+        "The vapour is assumed to behave as an ideal gas (a gas that obeys the gas equation exactly)."
+      ],
+      "tip": "A question may ask why a volatile liquid is used: it turns completely into vapour at 100 °C."
     },
     {
-      "h": "Apparatus",
+      "h": "Apparatus for the volatile liquid experiment",
+      "b": "The flask holds the vapour, the boiling water bath heats it, and the balance and barometer supply the measurements needed for the calculation.",
       "points": [
         "A clean, dry conical flask (about 250 cm³), a small square of aluminium foil held by a rubber band, and a pin.",
         "A large beaker of boiling water (the water bath) on a hotplate, with a thermometer in the water.",
-        "A top-pan balance reading to 0.01 g, a barometer, a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone)."
+        "A top-pan balance reading to 0.01 g, a barometer (to measure atmospheric pressure), a graduated (measuring) cylinder, and a dropper of the volatile liquid (propanone).",
+        "Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.",
+        "Diagram: a top-pan balance with the flask on the pan, and a barometer; label the pan and the display or scale.",
+        "Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus (the curved surface of the water) on the scale."
       ]
     },
     {
-      "h": "Method",
+      "h": "Method: vaporising the liquid",
+      "b": "The aim of the first steps is to fill the flask with pure propanone vapour at a known temperature.",
       "points": [
-        "Weigh the dry conical flask with the foil cap and rubber band.",
-        "Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.",
-        "Clamp the flask in the boiling water bath so that as much of it as possible is immersed.",
-        "Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.",
+        "1. Weigh the dry conical flask with the foil cap and rubber band.",
+        "2. Add about 2–3 cm³ of propanone, replace the foil cap and pierce one small pinhole in it.",
+        "3. Clamp the flask in the boiling water bath so that as much of it as possible is immersed.",
+        "4. Leave it until all the liquid has vaporised; the vapour pushes the air out of the flask through the pinhole and excess vapour escapes.",
         "The flask is then left full of propanone vapour at the temperature of the boiling water.",
-        "Record the temperature of the water bath and the atmospheric pressure from the barometer.",
-        "Remove the flask and cool it, so the vapour condenses.",
+        "5. Record the temperature of the water bath and the atmospheric pressure from the barometer."
+      ],
+      "tip": "Exams ask why a pinhole is made: the vapour pushes the air out through it, and excess vapour escapes. Use the temperature of the boiling water in the calculation, not room temperature."
+    },
+    {
+      "h": "Method: finding the mass and volume of the vapour",
+      "b": "Once the flask has been filled with vapour, you measure the mass of vapour and the volume it occupied.",
+      "points": [
+        "6. Remove the flask and cool it, so the vapour condenses.",
         "Dry the outside of the flask thoroughly and reweigh it; the increase in mass is the mass of vapour that filled the flask.",
-        "Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder.",
-        "Diagram: the conical flask with its foil cap, rubber band and pinhole, clamped in a beaker of boiling water on a hotplate; label the water bath and the thermometer.",
-        "Diagram: a graduated (measuring) cylinder, read at eye level with the bottom of the meniscus on the scale."
-      ]
+        "7. Find the volume of the flask by filling it completely with water and measuring the water with a graduated cylinder."
+      ],
+      "tip": "You may be asked to describe how the mass and volume of the vapour were found. The mass measured after cooling is the mass of vapour that filled the flask at 373 K; the air in the flask at the start doesn't affect it, because the vapour displaced it."
     },
     {
       "h": "Calculation (sample data)",
-      "b": "The numbers below are sample data for illustration.",
+      "b": "The numbers below are sample data for illustration. Every quantity must be in SI units before it goes into the equation.",
       "points": [
         "Sample data: mass of vapour 0.51 g; volume of flask 270 cm³ = 2.70 × 10⁻⁴ m³; temperature 100 °C = 373 K; pressure 101 000 Pa.",
         "Units: P in Pa, V in m³ and T in K; 1 cm³ = 1 × 10⁻⁶ m³.",
@@ -180,27 +223,31 @@
         "Moles: n = 27.27 ÷ 3101 = 8.79 × 10⁻³ mol.",
         "Relative molecular mass: Mr = m ÷ n = 0.51 ÷ (8.79 × 10⁻³) = 58.0.",
         "The accepted Mr of propanone (CH₃COCH₃) is 58, so the result agrees with it."
-      ]
+      ],
+      "tip": "You may be asked to calculate Mr from given data. Convert cm³ to m³ (× 10⁻⁶) when P is in pascals, and use 373 K."
     },
     {
-      "h": "Safety",
+      "h": "Safety in the volatile liquid experiment",
+      "b": "Propanone is flammable and its vapour is harmful to breathe, and the apparatus is hot.",
       "points": [
         "Propanone is highly flammable: use no naked flames, and heat the water bath with a hotplate or electric heater.",
         "Propanone vapour is an irritant: work in a well-ventilated room.",
-        "Take care with boiling water and hot glassware."
-      ]
+        "Take care with boiling water and hot glassware, because they can cause burns."
+      ],
+      "tip": "Exams ask why no flame may be used: propanone is highly flammable."
     },
     {
       "h": "Sources of error and improvements",
+      "b": "The result depends on measuring the mass of vapour, so anything that changes the measured mass, or makes the vapour differ from the ideal, gives an error.",
       "points": [
         "If not all the liquid vaporises, or the flask is removed too early, the liquid left in it makes the mass too high and so Mr too high.",
-        "Wait until no liquid is visible in the flask before removing it from the bath.",
+        "Wait until no liquid is visible in the flask before removing it from the bath, so that all the liquid has become vapour.",
         "Water left on the outside of the flask when it is reweighed makes the mass too high; dry it carefully.",
         "A pinhole that is too large lets air re-enter as the flask cools, or lets vapour escape before weighing, which affects the measured mass.",
         "Part of the flask is above the water, so the vapour there is cooler than 373 K.",
         "The vapour is not a perfect ideal gas, especially close to its boiling point.",
         "The mass of vapour is small compared with the flask, so a balance reading to 0.01 g (or better) is needed.",
-        "Repeat the experiment and average the results."
+        "Repeat the experiment and average the results, because this reduces the effect of random errors in a single run."
       ]
     }
   ],

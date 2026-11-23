@@ -6,178 +6,285 @@
   "notes": [
     {
       "h": "Rate of enzyme activity and how it is measured",
+      "b": "An enzyme is a biological catalyst, so what we want to know in an investigation is how fast it works. That speed is called the rate, and it is always measured against time.",
       "points": [
-        "The rate of an enzyme-catalysed reaction is the amount of substrate converted into product per unit time, e.g. cm³ of oxygen produced per minute.",
-        "The rate can be measured either by how fast a product appears or by how fast the substrate disappears.",
+        "The rate of an enzyme-catalysed reaction is the amount of substrate (the molecule the enzyme acts on) converted into product per unit time, e.g. cm³ of oxygen produced per minute.",
+        "The rate can be measured either by how fast a product appears or by how fast the substrate disappears, whichever is easier to detect for that reaction.",
         "Catalase breaks down hydrogen peroxide (2H₂O₂ → 2H₂O + O₂); the rate is measured by the oxygen released, as foam or as a volume of gas.",
         "Amylase digests starch to maltose; the rate is measured by the time taken for the starch to disappear, tested with iodine.",
         "Rate = amount of product ÷ time: e.g. 30 cm³ of foam in 2 minutes gives a rate of 15 cm³ per minute.",
-        "Where the time taken to reach an end-point is measured, rate = 1 ÷ time: starch gone in 120 s gives a rate of 1/120 = 0.0083 s⁻¹, often written as 1000/time to give whole numbers.",
-        "A shorter time means a faster rate.",
-        "Measure the initial rate, at the start of the reaction (e.g. in the first one or two minutes), because the reaction slows as substrate is used up.",
-        "Presenting primary data: a results table with the independent variable in the first column, the repeat readings, the mean and the rate, each column headed with its unit.",
-        "Presenting primary data: a graph with the independent variable on the x-axis and the rate on the y-axis, points plotted accurately and joined by a smooth curve or line of best fit."
-      ]
+        "Where the time taken to reach an end-point (such as the starch disappearing) is measured, rate = 1 ÷ time: starch gone in 120 s gives a rate of 1/120 = 0.0083 s⁻¹, often written as 1000/time to give whole numbers.",
+        "A shorter time means a faster rate, because the same change has been completed more quickly.",
+        "Measure the initial rate, at the start of the reaction (e.g. in the first one or two minutes), because the reaction slows as substrate is used up."
+      ],
+      "tip": "Rate is product formed (or substrate used) per unit time, not the total amount of product. A longer time to the end-point means a slower rate."
     },
     {
-      "h": "Enzymes, equipment and safety common to all the investigations",
+      "h": "Presenting primary data",
+      "b": "Primary data are the results you collect yourself. Presenting them clearly in a table and a graph is how you show the pattern in your results.",
       "points": [
-        "Catalase is found in almost all cells that use oxygen, where it breaks down hydrogen peroxide, a toxic by-product of metabolism.",
-        "Good sources of catalase are celery, potato, liver and yeast.",
-        "Catalase extract: blend a fixed mass of chopped celery (e.g. 20 g) with distilled water (e.g. 100 cm³), then filter through muslin or filter paper. Make one batch and use it for every test.",
+        "A results table has the independent variable (the factor you change) in the first column, then the repeat readings, the mean and the rate, each column headed with its unit.",
+        "A graph has the independent variable on the x-axis and the rate on the y-axis, with points plotted accurately and joined by a smooth curve or line of best fit."
+      ],
+      "tip": "Exams ask you to sketch and label graphs of rate against pH, temperature and substrate concentration, and to identify an optimum. Put rate on the y-axis every time."
+    },
+    {
+      "h": "Enzymes and reagents used in the investigations",
+      "b": "All five investigations use the same small set of enzymes, substrates and equipment. Knowing what each is for makes the methods easy to follow.",
+      "points": [
+        "Catalase is found in almost all cells that use oxygen, where it breaks down hydrogen peroxide, a toxic by-product of metabolism. Good sources are celery, potato, liver and yeast.",
+        "Catalase extract: blend a fixed mass of chopped celery (e.g. 20 g) with distilled water (e.g. 100 cm³), then filter through muslin or filter paper. Make one batch and use it for every test, so the enzyme is the same each time.",
         "Amylase: a commercial (e.g. fungal) amylase solution made up at a fixed concentration; starch solution (e.g. 1%) is its substrate. Saliva contains amylase but is avoided for hygiene reasons.",
-        "Equipment: 100 cm³ graduated cylinders, syringes or graduated pipettes for measuring volumes, test tubes and boiling tubes, water baths (thermostatically controlled electric baths, or beakers of water warmed with kettle water or cooled with ice, checked with a thermometer), thermometer, stopwatch, blender or mortar and pestle, knife and chopping board, electronic balance, filter funnel, spotting tile and droppers, conical flask with bung and delivery tube, trough, labels.",
-        "Reagents: hydrogen peroxide solution (one stock of fixed concentration), buffer solutions or buffer tablets of known pH, washing-up liquid, distilled water, starch solution, amylase solution and iodine solution.",
+        "Equipment for measuring: 100 cm³ graduated cylinders, syringes or graduated pipettes for measuring volumes, thermometer to check temperatures, stopwatch to time each run, electronic balance.",
+        "Other equipment: test tubes and boiling tubes, blender or mortar and pestle, knife and chopping board, filter funnel, spotting tile and droppers, conical flask with bung and delivery tube, trough, labels.",
+        "Water baths can be thermostatically controlled electric baths, or beakers of water warmed with kettle water or cooled with ice, checked with a thermometer.",
+        "Reagents: hydrogen peroxide solution (one stock of fixed concentration), buffer solutions or buffer tablets of known pH, washing-up liquid, distilled water, starch solution, amylase solution and iodine solution."
+      ],
+      "tip": "Exams ask you to name an enzyme used in an investigation of pH or temperature, its source and its substrate: for example catalase, from celery, with hydrogen peroxide."
+    },
+    {
+      "h": "Buffers, foam, equilibration and the control",
+      "b": "Four ideas recur across the investigations: a buffer to hold pH steady, washing-up liquid to make the oxygen measurable in the foam methods, a waiting time so the mixture reaches the right temperature, and a control to prove the enzyme is responsible.",
+      "points": [
         "A buffer is a solution that keeps the pH constant even when acids or alkalis are produced or added.",
-        "A buffer at pH 7 (or at the enzyme's optimum) is added in every investigation except the pH investigation, so that pH is a controlled variable.",
-        "A drop of washing-up liquid traps the oxygen released by catalase as a foam, so its volume can be read in a graduated cylinder; the same amount is added every time.",
-        "Reaching temperature: the enzyme and the substrate are placed in the same water bath, in separate containers, for about 5 minutes before they are mixed, so the reaction starts at the chosen temperature.",
-        "A control in each investigation uses enzyme that has been boiled (denatured), or distilled water in place of the enzyme, with everything else the same. It shows that the oxygen (or the loss of starch) is caused by the enzyme and not by the substrate breaking down on its own.",
-        "Safety: hydrogen peroxide is an oxidising agent that irritates or burns the eyes and skin; wear safety glasses (and gloves), measure it with a syringe, and wash any splash off with plenty of water.",
-        "Safety: buffers of very low or very high pH are irritants; wear safety glasses.",
-        "Safety: use tongs or a test-tube holder and take care with boiling water and hot water baths; keep electrical water baths and blenders away from spilt water.",
-        "Safety: take care with knives and blender blades. If liver is used, treat it as raw meat: wear gloves, keep it off benches used for other work and wash hands afterwards.",
-        "Safety: iodine solution stains skin and clothes. Never eat or drink in the laboratory."
+        "A buffer at pH 7 (or at the enzyme's optimum) is added in every investigation except the pH investigation, so that pH is a controlled variable (kept the same each time).",
+        "In the foam methods, a drop of washing-up liquid traps the oxygen released by catalase as a foam, so its volume can be read in a graduated cylinder; the same amount is added every time.",
+        "Reaching temperature (equilibration): the enzyme and the substrate are placed in the same water bath, in separate containers, for about 5 minutes before they are mixed, so the reaction starts at the chosen temperature.",
+        "A control in each investigation uses enzyme that has been boiled (denatured), or distilled water in place of the enzyme, with everything else the same.",
+        "The control shows that the oxygen (or the loss of starch) is caused by the enzyme and not by the substrate breaking down on its own."
+      ],
+      "tip": "The control is boiled enzyme or water in place of enzyme, not \"no hydrogen peroxide\". Exams also ask how pH was varied and kept constant (buffers) and how temperature was varied and kept constant (water baths, thermometer)."
+    },
+    {
+      "h": "Safety in the enzyme investigations",
+      "b": "The chemicals and equipment here are mostly mild, but several can harm skin, eyes or clothes if handled carelessly.",
+      "points": [
+        "Hydrogen peroxide is an oxidising agent that irritates or burns the eyes and skin; wear safety glasses (and gloves), measure it with a syringe, and wash any splash off with plenty of water.",
+        "Buffers of very low or very high pH are irritants, so wear safety glasses.",
+        "Use tongs or a test-tube holder and take care with boiling water and hot water baths; keep electrical water baths and blenders away from spilt water.",
+        "Take care with knives and blender blades. If liver is used, treat it as raw meat: wear gloves, keep it off benches used for other work and wash hands afterwards.",
+        "Iodine solution stains skin and clothes, so handle it with care. Never eat or drink in the laboratory, because chemicals could be swallowed."
       ]
     },
     {
-      "h": "Investigation: effect of substrate concentration on catalase activity",
+      "h": "Investigation: effect of substrate concentration on catalase activity (plan)",
+      "b": "Here we vary how much hydrogen peroxide (the substrate) the same amount of catalase has to work on, and see how the rate of oxygen production changes.",
       "points": [
-        "Aim: to investigate the effect of substrate (hydrogen peroxide) concentration on the rate of catalase activity.",
+        "Aim: to investigate the effect of substrate (hydrogen peroxide) concentration on the rate of catalase activity, by changing only the substrate so any change in rate must be due to it.",
         "Hypothesis: “Increasing the concentration of hydrogen peroxide increases the rate of oxygen production, because more substrate molecules collide with active sites per second, until all the active sites are occupied and the rate levels off.”",
         "Independent variable: hydrogen peroxide concentration, made by diluting the stock with distilled water to 0%, 20%, 40%, 60%, 80% and 100% of the stock (e.g. 2 cm³ stock + 8 cm³ water = 20%), always to the same total volume (e.g. 10 cm³).",
-        "Dependent variable: volume of oxygen collected in the first minute (cm³), giving the rate in cm³ per minute.",
-        "Controlled variables: volume of the same celery extract (enzyme concentration), temperature (water bath at e.g. 25 °C), pH (same volume of pH 7 buffer), total volume of solution, timing and apparatus.",
-        "Control: the 100% hydrogen peroxide with boiled extract (or with water in place of the extract), which gives little or no oxygen; the 0% tube also shows that no oxygen forms without substrate.",
-        "Method 1: fill a graduated cylinder with water and turn it upside down in a trough of water, with no air at the top.",
-        "Method 2: put 10 cm³ of the first hydrogen peroxide dilution and 2 cm³ of pH 7 buffer in a conical flask (or boiling tube) in the water bath, with 2 cm³ of celery extract in a separate tube beside it, for about 5 minutes.",
-        "Method 3: place the end of the delivery tube under the mouth of the upturned cylinder.",
-        "Method 4: add the extract to the flask, immediately put in the bung with the delivery tube, and start the stopwatch.",
-        "Method 5: read the volume of oxygen collected in the cylinder after 1 minute (or every 30 seconds for 3 minutes).",
-        "Method 6: rinse the flask and repeat for each concentration.",
-        "Method 7: do each concentration three times and calculate the mean rate.",
-        "Alternatives: a gas syringe connected to the flask measures the oxygen volume more accurately than collection over water; the foam method used in the pH investigation can be used; or filter-paper discs soaked in catalase extract are dropped into each concentration and the time for each disc to rise to the surface (buoyed by oxygen bubbles) is timed, with rate = 1 ÷ time.",
-        "Diagram: a conical flask in a water bath, with a bung and delivery tube leading under an upturned graduated cylinder full of water in a trough; label hydrogen peroxide + buffer + catalase extract, water bath, thermometer, delivery tube, oxygen collecting and trough of water.",
-        "Expected results: no oxygen at 0%; at low concentrations the rate rises steeply, roughly in proportion to concentration; at high concentrations it rises less and levels off into a plateau. The boiled-enzyme control gives little or no oxygen.",
-        "The rise is explained by collisions: more substrate molecules in the same volume means more collisions with active sites per second, so more enzyme–substrate complexes form and more product is made per minute.",
-        "The plateau is explained by saturation: at high substrate concentration every active site is occupied at any moment, so the enzyme (saturated) works at its maximum rate, and adding more substrate cannot increase the rate.",
-        "At the plateau the amount of enzyme is the limiting factor; adding more enzyme would raise the rate again. Within the range used in a school investigation the plateau may not be reached if the enzyme is in excess.",
-        "Diagram: a graph of rate (y-axis) against substrate concentration (x-axis); a curve rising from the origin, steep at first and then levelling off, with the plateau labelled all active sites occupied (saturated).",
-        "Conclusion: state the trend shown by the mean rates, whether it supports the hypothesis, and the concentration above which the rate stopped increasing, if one was found."
-      ]
+        "Dependent variable (the one you measure): volume of oxygen collected in the first minute (cm³), giving the rate in cm³ per minute.",
+        "Controlled variables: volume of the same celery extract (so enzyme concentration is constant), temperature (water bath at e.g. 25 °C), pH (same volume of pH 7 buffer), total volume of solution, timing and apparatus.",
+        "Control: the 100% hydrogen peroxide with boiled extract (or with water in place of the extract), which gives little or no oxygen; the 0% tube also shows that no oxygen forms without substrate."
+      ],
+      "tip": "Exams ask you to name the variables kept constant and to explain the purpose of the control (boiled enzyme)."
     },
     {
-      "h": "Investigation: effect of enzyme concentration on amylase activity",
+      "h": "Investigation: effect of substrate concentration on catalase activity (method)",
+      "b": "The oxygen given off is collected in an upturned cylinder of water, so its volume can be read directly.",
+      "points": [
+        "1. Fill a graduated cylinder with water and turn it upside down in a trough of water, with no air at the top.",
+        "2. Put 10 cm³ of the first hydrogen peroxide dilution and 2 cm³ of pH 7 buffer in a conical flask (or boiling tube) in the water bath, with 2 cm³ of celery extract in a separate tube beside it, for about 5 minutes.",
+        "3. Place the end of the delivery tube under the mouth of the upturned cylinder.",
+        "4. Add the extract to the flask, immediately put in the bung with the delivery tube, and start the stopwatch.",
+        "5. Read the volume of oxygen collected in the cylinder after 1 minute (or every 30 seconds for 3 minutes).",
+        "6. Rinse the flask and repeat for each concentration. Do each concentration three times and calculate the mean rate.",
+        "Alternatives: a gas syringe connected to the flask measures the oxygen volume more accurately than collection over water; or the foam method used in the pH investigation can be used.",
+        "Another alternative: filter-paper discs soaked in catalase extract are dropped into each concentration and the time for each disc to rise to the surface (buoyed by oxygen bubbles) is timed, with rate = 1 ÷ time.",
+        "Diagram: a conical flask in a water bath, with a bung and delivery tube leading under an upturned graduated cylinder full of water in a trough. Label hydrogen peroxide + buffer + catalase extract, water bath, thermometer, delivery tube, oxygen collecting, trough of water."
+      ],
+      "tip": "Exams ask you to describe how the rate was measured: foam or oxygen volume per minute."
+    },
+    {
+      "h": "Investigation: substrate concentration, results and explanation",
+      "b": "The results follow a typical curve: a steep rise, then a plateau. Each part has its own explanation, and the plateau is caused by saturation of the active sites, not by the enzyme being denatured or used up.",
+      "points": [
+        "Expected results: no oxygen at 0%; at low concentrations the rate rises steeply, roughly in proportion to concentration; at high concentrations it rises less and levels off into a plateau. The boiled-enzyme control gives little or no oxygen.",
+        "The rise is explained by collisions: more substrate molecules in the same volume means more collisions with active sites (the part of the enzyme where the substrate binds) per second, so more enzyme–substrate complexes form and more product is made per minute.",
+        "The plateau is explained by saturation: at high substrate concentration every active site is occupied at any moment, so the enzyme (saturated) works at its maximum rate, and adding more substrate cannot increase the rate.",
+        "At the plateau the amount of enzyme is the limiting factor (the thing holding the rate back); adding more enzyme would raise the rate again.",
+        "Within the range used in a school investigation the plateau may not be reached if the enzyme is in excess.",
+        "Conclusion: state the trend shown by the mean rates, whether it supports the hypothesis, and the concentration above which the rate stopped increasing, if one was found.",
+        "Diagram: a graph of rate (y-axis) against substrate concentration (x-axis); a curve rising from the origin, steep at first and then levelling off, with the plateau labelled all active sites occupied (saturated)."
+      ],
+      "tip": "At the plateau the enzyme is not denatured or \"used up\"; its active sites are all occupied. Sketch the curve and label the plateau."
+    },
+    {
+      "h": "Investigation: effect of enzyme concentration on amylase activity (plan)",
+      "b": "Now the substrate stays the same and the amount of enzyme changes. Amylase digests starch, and the end-point is found with iodine, which turns blue-black with starch and stays yellow-brown when starch is absent.",
       "points": [
         "Aim: to investigate the effect of enzyme (amylase) concentration on the rate at which starch is digested.",
         "Hypothesis: “Increasing the concentration of amylase increases the rate of starch digestion, because more active sites are available to bind starch molecules, as long as starch is in excess.”",
         "Independent variable: amylase concentration, made by diluting the stock amylase solution with distilled water to 0%, 25%, 50%, 75% and 100% of the stock, always to the same volume.",
         "Dependent variable: time taken for the starch to disappear (the iodine test no longer turns blue-black), converted to rate = 1 ÷ time.",
         "Controlled variables: volume and concentration of starch solution, volume of amylase solution, temperature (water bath at e.g. 37 °C), pH (buffer at pH 7), volume of iodine in each well, and the sampling interval.",
-        "Control: starch solution with distilled water (0% amylase) or with boiled amylase in place of the amylase; it stays blue-black with iodine for the whole investigation, showing that the starch does not disappear without active enzyme.",
-        "1. Put a drop of iodine solution into each well of a spotting tile.",
+        "Control: starch solution with distilled water (0% amylase) or with boiled amylase in place of the amylase; it stays blue-black with iodine for the whole investigation, showing that the starch does not disappear without active enzyme."
+      ],
+      "tip": "Exams ask you to describe how the rate was measured: here, the time for starch to disappear with iodine."
+    },
+    {
+      "h": "Investigation: effect of enzyme concentration on amylase activity (method)",
+      "b": "Drops of the reacting mixture are tested with iodine at regular intervals until the blue-black colour no longer appears.",
+      "points": [
+        "1. Put a drop of iodine solution into each well of a spotting tile (a white tile with small hollows), so each sample can be tested as soon as it is taken.",
         "2. Put 5 cm³ of starch solution and 1 cm³ of pH 7 buffer into a test tube, and 2 cm³ of the first amylase dilution into another, then stand both in the water bath for 5 minutes.",
         "3. Pour the amylase into the starch, mix, and start the stopwatch.",
         "4. Every 30 seconds, take one drop of the mixture with a clean dropper and add it to the next well of iodine.",
         "5. Note the time at which a drop first leaves the iodine yellow-brown (no blue-black): this is the end-point, when all the starch has been digested.",
-        "6. Repeat for each amylase concentration, three times each, and calculate the mean time and the rate.",
+        "6. Repeat for each amylase concentration, three times each, so that a mean can be calculated and a one-off error does not mislead you; then calculate the mean time and the rate.",
         "Alternative: with catalase, vary the volume of celery extract (e.g. 0.5, 1, 1.5, 2 and 2.5 cm³, each made up to the same total volume with distilled water) or the number of equal-sized celery discs, and measure the foam or oxygen volume in a fixed time.",
-        "Diagram: a spotting tile with a row of wells, the first wells blue-black and the later wells yellow-brown, labelled with sampling times; and the starch–amylase tube in a water bath with a thermometer.",
-        "Expected results: the higher the amylase concentration, the shorter the time for the starch to disappear, so the faster the rate; the 0% and boiled-enzyme controls never reach the end-point.",
-        "A graph of rate against enzyme concentration is a straight line through the origin: doubling the enzyme roughly doubles the rate.",
-        "Explanation: more enzyme molecules means more active sites, so more substrate molecules can be bound and converted at the same time, and more product is made per unit time.",
-        "The straight line continues only while substrate is in excess. If the enzyme concentration becomes very high, substrate becomes the limiting factor and the line levels off.",
-        "Diagram: a graph of rate (y-axis) against enzyme concentration (x-axis); a straight line rising from the origin, labelled substrate in excess."
+        "Diagram: a spotting tile with a row of wells, the first wells blue-black and the later wells yellow-brown, labelled with sampling times; and the starch–amylase tube in a water bath with a thermometer."
       ]
     },
     {
-      "h": "Investigation: effect of pH on catalase activity",
+      "h": "Investigation: enzyme concentration, results and explanation",
+      "b": "With more enzyme, the starch disappears sooner. Unlike the substrate investigation, the graph is a straight line, as long as there is plenty of substrate.",
+      "points": [
+        "Expected results: the higher the amylase concentration, the shorter the time for the starch to disappear, so the faster the rate; the 0% and boiled-enzyme controls never reach the end-point.",
+        "A graph of rate against enzyme concentration is a straight line through the origin: doubling the enzyme roughly doubles the rate.",
+        "Explanation: more enzyme molecules means more active sites, so more substrate molecules can be bound and converted at the same time, and more product is made per unit time.",
+        "The straight line continues only while substrate is in excess (more than the enzyme can use). If the enzyme concentration becomes very high, substrate becomes the limiting factor and the line levels off.",
+        "Diagram: a graph of rate (y-axis) against enzyme concentration (x-axis); a straight line rising from the origin, labelled substrate in excess."
+      ],
+      "tip": "Remember the contrast: a straight line for enzyme concentration, a curve that levels off for substrate concentration."
+    },
+    {
+      "h": "Investigation: effect of pH on catalase activity (plan)",
+      "b": "Each enzyme works best at a particular pH. Here, buffers set the pH, and the volume of foam produced by catalase shows how active it is at each one.",
       "points": [
         "Aim: to investigate the effect of pH on the rate of catalase activity.",
         "Hypothesis: “Catalase has an optimum pH at which its rate is highest, and the rate decreases at pH values above and below it, because the shape of the active site is changed.”",
-        "Independent variable: pH, set with buffer solutions (e.g. pH 4, 5, 6, 7, 8, 9 and 10).",
+        "Independent variable: pH, set with buffer solutions (e.g. pH 4, 5, 6, 7, 8, 9 and 10), which hold each pH steady so it does not drift as the reaction proceeds.",
         "Dependent variable: volume of foam produced in 2 minutes (cm³), giving the rate in cm³ per minute.",
         "Controlled variables: temperature (water bath at e.g. 25 °C), volume and concentration of hydrogen peroxide, volume of the same celery extract (or mass of celery), volume of buffer, one drop of washing-up liquid, time and size of cylinder.",
-        "Control: at each pH (or at pH 7), boiled celery extract (or water) in place of the extract, giving no foam.",
+        "Control: at each pH (or at pH 7), boiled celery extract (or water) in place of the extract, giving no foam."
+      ],
+      "tip": "In the pH and temperature investigations both a buffer and a water bath are used: one is the independent variable and the other is controlled. Students often forget to control the other one."
+    },
+    {
+      "h": "Investigation: effect of pH on catalase activity (method)",
+      "b": "The foam is built up in a graduated cylinder, so its height can be read at the end of a fixed time.",
+      "points": [
         "1. Into a 100 cm³ graduated cylinder put 10 cm³ of pH 4 buffer, 2 cm³ of celery extract (or a fixed mass of chopped celery) and one drop of washing-up liquid.",
         "2. Stand the cylinder in the 25 °C water bath, with a boiling tube of hydrogen peroxide beside it, for 5 minutes.",
-        "3. Note the starting volume of liquid in the cylinder.",
+        "3. Note the starting volume of liquid in the cylinder, so the foam volume can be found by subtraction.",
         "4. Add 2 cm³ of hydrogen peroxide with a syringe and start the stopwatch.",
         "5. After 2 minutes, read the volume at the top of the foam, at eye level; the foam volume is this reading minus the starting volume.",
         "6. Wash the cylinder and repeat with each buffer, three times each, and calculate the mean rate.",
-        "Diagram: a graduated cylinder standing in a water bath with a thermometer, containing buffer, celery extract and washing-up liquid at the bottom and a column of foam above, with a syringe adding hydrogen peroxide; label each part and the foam height being read.",
-        "Expected results: the most foam forms at around pH 7 (the optimum for celery and liver catalase), with less in more acidic and more alkaline buffers and very little at the extremes; the control gives no foam.",
-        "Explanation: the optimum pH is the pH at which the active site has the shape and charges that best fit the substrate.",
+        "Diagram: a graduated cylinder standing in a water bath with a thermometer, containing buffer, celery extract and washing-up liquid at the bottom and a column of foam above, with a syringe adding hydrogen peroxide. Label each part and the foam height being read."
+      ]
+    },
+    {
+      "h": "Investigation: pH, results and explanation",
+      "b": "The rate rises to a peak at one pH and falls on both sides. The explanation lies in how pH affects the shape of the active site.",
+      "points": [
+        "Expected results: the most foam forms at around pH 7 (the optimum for celery and liver catalase), with less in more acidic and more alkaline buffers and very little at the extremes. The control gives no foam.",
+        "The optimum pH is the pH at which the active site has the shape and charges that best fit the substrate.",
         "A higher or lower hydrogen ion concentration, in more acidic or more alkaline conditions, changes the charges in the active site and the bonds holding the enzyme's shape, so the substrate fits less well and fewer enzyme–substrate complexes form.",
         "Small changes from the optimum are reversible; extreme pH denatures the enzyme permanently.",
         "Each enzyme's optimum suits the place where it works: pepsin in the acid stomach has an optimum of about pH 2; salivary amylase in the mouth about pH 7; trypsin in the alkaline small intestine about pH 8.",
         "Diagram: a graph of rate (y-axis) against pH (x-axis); a peaked, bell-shaped curve with its peak labelled optimum pH at about 7 for catalase; optionally a second curve peaking at about pH 2, labelled pepsin."
-      ]
+      ],
+      "tip": "Exams ask you to explain why pH changes enzyme activity and to explain the term optimum activity. The pH graph is a peaked curve falling on both sides of the optimum."
     },
     {
-      "h": "Investigation: effect of temperature on catalase activity",
+      "h": "Investigation: effect of temperature on catalase activity (plan)",
+      "b": "Temperature has two opposite effects on an enzyme: it speeds up collisions, but too much heat destroys the enzyme. This investigation measures catalase activity across a range of water-bath temperatures.",
       "points": [
         "Aim: to investigate the effect of temperature on the rate of catalase activity.",
         "Hypothesis: “As temperature increases, the rate of catalase activity increases up to an optimum temperature, because molecules move faster and collide more often; above the optimum the rate falls sharply because the enzyme is denatured.”",
-        "Independent variable: temperature, set with water baths at e.g. 0 °C (ice water), 10, 20, 30, 40, 50, 60 and 70 °C, each checked with a thermometer.",
+        "Independent variable: temperature, set with water baths at e.g. 0 °C (ice water), 10, 20, 30, 40, 50, 60 and 70 °C, each checked with a thermometer because baths drift from their set temperature.",
         "Dependent variable: volume of foam in 2 minutes (cm³), giving the rate in cm³ per minute.",
         "Controlled variables: pH (same volume of pH 7 buffer), volume and concentration of hydrogen peroxide, volume of the same celery extract, one drop of washing-up liquid, time and size of cylinder.",
-        "Control: boiled celery extract (or water) in place of the extract at each temperature, giving no foam.",
+        "Control: boiled celery extract (or water) in place of the extract at each temperature, giving no foam."
+      ],
+      "tip": "Name the variable you change (temperature, by water bath) and the one you hold constant (pH, by buffer). Forgetting the buffer is a common mistake."
+    },
+    {
+      "h": "Investigation: effect of temperature on catalase activity (method)",
+      "b": "The temperature method reuses the foam method from the pH investigation, with the buffer fixed and the water bath changed.",
+      "points": [
         "Method: follow the pH investigation method, but with pH 7 buffer in every cylinder, and with each cylinder (buffer, extract and washing-up liquid) and its tube of hydrogen peroxide left in a water bath at the chosen temperature for 5 minutes before the peroxide is added.",
-        "Check the bath temperature with the thermometer during the 2 minutes; repeat three times at each temperature and calculate the mean rate.",
+        "Check the bath temperature with the thermometer during the 2 minutes, because it can drift; repeat three times at each temperature and calculate the mean rate.",
         "The same method works with amylase and starch, timing the starch's disappearance at each temperature, as in the enzyme concentration investigation.",
-        "Diagram: the pH set-up, with a row of water baths at different labelled temperatures.",
+        "Diagram: the pH set-up, with a row of water baths at different labelled temperatures."
+      ]
+    },
+    {
+      "h": "Investigation: temperature, results and explanation",
+      "b": "The curve rises slowly to a peak and then drops steeply. The rise and the fall have different causes.",
+      "points": [
         "Expected results: little foam at 0 °C; the rate increases as temperature rises, to a maximum at the optimum temperature; above the optimum the rate falls steeply, with little or no activity at the highest temperatures tested.",
         "The graph is not symmetrical: a gradual rise and a steep fall. For human enzymes the optimum is about 37 °C, body temperature.",
-        "Explanation of the rise: as temperature increases, enzyme and substrate molecules have more kinetic energy, move faster and collide more often, and more collisions have enough energy to react, so more enzyme–substrate complexes form per second.",
+        "Explanation of the rise: as temperature increases, enzyme and substrate molecules have more kinetic energy (movement energy), move faster and collide more often, and more collisions have enough energy to react, so more enzyme–substrate complexes form per second.",
         "Over the lower part of the range, the rate roughly doubles for each 10 °C rise (an approximate pattern, not an exact law).",
         "Explanation of the fall: above the optimum, the enzyme molecule vibrates so much that the bonds holding its shape break, the active site changes shape and the substrate no longer fits: the enzyme is denatured.",
         "As temperature rises further, more enzyme molecules are denatured, so the rate falls even though collisions are more frequent.",
         "At low temperature the enzyme is inactive, not denatured: the molecules move too slowly for many collisions, but the active site keeps its shape, so activity returns when the enzyme is warmed (shown in the heat denaturation investigation).",
         "Diagram: a graph of rate (y-axis) against temperature in °C (x-axis); a curve rising gradually to a peak labelled optimum temperature, then falling steeply to zero, with the falling part labelled enzyme denatured."
-      ]
+      ],
+      "tip": "The temperature graph is not a symmetrical bell: it rises gradually and falls steeply. Low temperature does not denature an enzyme, it only slows it. Don't say enzymes are \"killed\": they are not alive."
     },
     {
       "h": "Investigation: effect of heat denaturation on catalase activity",
+      "b": "Heat can do more than slow an enzyme: it can destroy its shape for good. This investigation shows that boiled catalase stays inactive even after it is cooled.",
       "points": [
         "Aim: to investigate the effect of heat denaturation on the activity of catalase.",
         "Denaturation is the permanent loss of an enzyme's shape, and so of its active site and its activity, caused by high temperature or extreme pH.",
         "Hypothesis: “Catalase that has been boiled will not break down hydrogen peroxide, even when cooled, because its active site has been permanently changed.”",
         "Independent variable: whether the extract has been boiled (heat-treated) or not. Dependent variable: volume of foam in 2 minutes (cm³).",
         "Controlled variables: both extracts tested at the same temperature (e.g. 25 °C) and pH (pH 7 buffer), with the same volumes of extract, buffer and hydrogen peroxide, the same drop of washing-up liquid and the same time.",
-        "Control: the unboiled extract, which shows how much foam active catalase produces under the same conditions.",
+        "Control: the unboiled extract, which shows how much foam active catalase produces under the same conditions, so the boiled result has something to be compared with."
+      ],
+      "tip": "The boiled extract must be cooled to the same temperature as the unboiled before testing, or temperature becomes a second variable."
+    },
+    {
+      "h": "Investigation: heat denaturation, method, results and conclusion",
+      "b": "Half the extract is boiled and half is not; both are then tested at the same temperature, so any difference is due to boiling alone.",
+      "points": [
         "1. Divide the celery extract between two labelled boiling tubes, A and B.",
         "2. Place tube A in a boiling water bath for 10 minutes; leave tube B at room temperature.",
         "3. Cool tube A, then stand both tubes in the 25 °C water bath for 5 minutes, so the boiled extract is tested at the same temperature as the unboiled.",
         "4. Set up two graduated cylinders, each with 10 cm³ of pH 7 buffer, a drop of washing-up liquid and 2 cm³ of extract A or B.",
-        "5. Add 2 cm³ of hydrogen peroxide to each and read the foam after 2 minutes.",
-        "6. Repeat three times.",
+        "5. Add 2 cm³ of hydrogen peroxide to each and read the foam after 2 minutes. Repeat three times.",
         "Expected results: the boiled extract gives little or no foam; the unboiled extract gives a large column of foam. Any small amount of foam from the boiled extract comes from hydrogen peroxide breaking down slowly on its own, or from catalase that was not fully denatured.",
         "Conclusion: boiling denatured the catalase; its activity did not return on cooling, so the change is permanent. This supports the hypothesis and explains why boiled enzyme is used as the control in the other investigations.",
         "Extension: extract kept in ice water for 10 minutes and then warmed to 25 °C gives as much foam as unchilled extract, showing that cooling makes an enzyme inactive without denaturing it, whereas heating denatures it.",
         "The same investigation works with amylase: boiled amylase added to starch leaves the iodine test blue-black at every sampling time, while unboiled amylase digests the starch so the iodine stays yellow-brown."
-      ]
+      ],
+      "tip": "Exams ask how to show that heat denatures an enzyme, and how you would show the change is permanent: cool the boiled enzyme and show that activity does not return."
     },
     {
       "h": "Secondary data",
+      "b": "Secondary data are results that someone else collected. They let you check and extend your own conclusions, and the specification requires conclusions supported by both primary and secondary data.",
       "points": [
-        "Secondary data are data collected by someone else: results pooled from other groups in the class, published tables, textbooks or research papers, or online databases. The specification requires conclusions supported by both primary and secondary data.",
-        "Uses: compare your optimum with published optima (the optimum pH of digestive enzymes and the optimum temperature of human enzymes given in the pH and temperature investigations); check whether your trend agrees with other groups' (reproducibility); extend a conclusion beyond the range you could test.",
+        "Secondary data are data collected by someone else: results pooled from other groups in the class, published tables, textbooks or research papers, or online databases.",
+        "Uses: compare your optimum with published optima (the optimum pH of digestive enzymes and the optimum temperature of human enzymes given in the pH and temperature investigations).",
+        "Uses: check whether your trend agrees with other groups' (reproducibility), and extend a conclusion beyond the range you could test.",
         "Secondary data on enzymes from extreme environments support the link between structure and conditions: Taq polymerase, from the hot-spring bacterium Thermus aquaticus, works best at about 72 °C and is not denatured at temperatures that denature human enzymes.",
-        "When using secondary data, record its source, check that it was measured under comparable conditions (same enzyme source, substrate, pH or temperature), and judge whether the source is reliable (see “Recognising bias and evaluating sources”)."
+        "When using secondary data, record its source, check that it was measured under comparable conditions (same enzyme source, substrate, pH or temperature), and judge whether the source is reliable. There is more on this in Recognising bias and evaluating sources."
       ]
     },
     {
-      "h": "Sources of error and reliability",
+      "h": "Sources of error: measuring the gas, foam and temperature",
+      "b": "Every method has weaknesses. Knowing where the error comes from tells you how to reduce it.",
       "points": [
         "Foam volume is imprecise: bubbles burst, the top of the foam is uneven, and foam may stick to the cylinder walls. Read at eye level at exactly the same time each run; collecting the oxygen in a gas syringe is more accurate.",
         "Gas is lost in the time between adding the enzyme and inserting the bung, or through leaks; some oxygen dissolves in the water when it is collected over water.",
+        "Water-bath temperatures drift, especially in beakers of hot water or ice; check with a thermometer throughout or use a thermostatically controlled bath.",
+        "The reaction mixture may not reach the bath temperature if equilibration is too short, so allow the full time."
+      ]
+    },
+    {
+      "h": "Sources of error: reagents, end-points and reliability",
+      "b": "Some errors come from the enzyme and reagents themselves, or from judging a colour change. Repeating and averaging makes results more reliable.",
+      "points": [
         "Enzyme activity varies between celery samples and falls as an extract stands, so make one batch, keep it cool and use it quickly for all the tests; a fresh batch for a repeat can give different values.",
-        "Water-bath temperatures drift, especially in beakers of hot water or ice; check with a thermometer throughout or use a thermostatically controlled bath. The reaction mixture may not reach the bath temperature if equilibration is too short.",
         "Hydrogen peroxide slowly breaks down on standing, especially in light, so its concentration may fall during the session: use one fresh stock kept in a dark bottle.",
         "The iodine end-point is a judgement of colour, and sampling every 30 seconds means the time is only known to within 30 seconds; sample more often near the end-point, compare against a control well, or use a colorimeter.",
         "Measure volumes with syringes or graduated pipettes rather than by eye, and use a clean syringe or dropper for each solution to avoid contamination.",
-        "Repeat each value three times, calculate the mean, and identify and investigate any anomalous result; pool class data to check reproducibility. Use at least five values of the independent variable so the shape of the graph (peak or plateau) can be seen."
+        "Repeat each value three times, calculate the mean, and identify and investigate any anomalous result; pool class data to check reproducibility.",
+        "Use at least five values of the independent variable so the shape of the graph (peak or plateau) can be seen."
       ]
     }
   ],

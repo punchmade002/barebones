@@ -6,94 +6,138 @@
   "notes": [
     {
       "h": "Evolution and adaptation",
+      "b": "Evolution is the big idea of this chapter, and natural selection is the process that drives it. Adaptation is the link between the two: it is the kind of feature that selection favours.",
       "points": [
-        "Evolution is the change in the inherited characteristics of a population over many generations. In genetic terms, it is a change in how common particular alleles are in a population. Over long periods it can produce new species.",
-        "An adaptation is an inherited feature that increases an organism's chance of surviving and reproducing in its environment.",
-        "Adaptations can be structural (a cactus's leaves reduced to spines, which reduces water loss), behavioural (birds migrating to warmer regions in winter) or physiological (the chemistry of the body, e.g. lactase made by adults; see Variation).",
+        "Evolution is the change in the inherited characteristics of a population (a group of the same species living in one place) over many generations. Over long periods it can produce new species.",
+        "In genetic terms, evolution is a change in how common particular alleles (versions of a gene) are in a population.",
+        "An adaptation is an inherited feature that increases an organism's chance of surviving and reproducing in its environment. Because it is inherited, it can be passed to offspring, which is what lets selection act on it.",
+        "Structural adaptations are body features, for example a cactus's leaves reduced to spines, which reduces water loss.",
+        "Behavioural adaptations are ways of acting, for example birds migrating to warmer regions in winter.",
+        "Physiological adaptations concern the chemistry of the body, for example lactase (the enzyme that digests milk sugar) made by adults. There is more on this in Variation.",
         "Natural selection is the process by which individuals with inherited characteristics better suited to their environment survive and reproduce more than others, so those characteristics become more common in the next generation. It is the main mechanism of evolution."
-      ]
+      ],
+      "tip": "You may be asked to define evolution, adaptation and natural selection. Include 'inherited' and 'population' for evolution, and 'survive and reproduce' for adaptation and natural selection."
     },
     {
-      "h": "The rationale: how the theory was reached",
+      "h": "The rationale: Darwin's voyage and observations",
+      "b": "A rationale is the reasoning behind an idea. Darwin did not start with a theory: he started with observations on a long sea voyage that the idea of fixed species could not explain.",
       "points": [
         "Charles Darwin (1809–1882), an English naturalist, sailed around the world on HMS Beagle from 1831 to 1836.",
         "He observed that species varied from place to place: the finches and giant tortoises of the Galápagos Islands differed from island to island and resembled species on the nearby South American mainland.",
-        "On the same voyage he found fossils of extinct animals in South America that resembled living species there.",
-        "Charles Lyell argued that the Earth is very old and is shaped by slow processes over vast time, giving time for gradual change.",
-        "Thomas Malthus argued that populations tend to grow faster than their food supply, so there is a struggle for existence.",
-        "Breeders of pigeons, dogs and farm animals showed that selection over generations could change a species greatly; this is artificial selection.",
+        "On the same voyage he found fossils (preserved remains) of extinct animals in South America that resembled living species there, which suggested the living species were related to the extinct ones.",
+        "The observations the theory had to explain were: variation within species; the fit between organisms and their environments; species on islands resembling those on the nearest mainland; and fossils of extinct species resembling living ones.",
+        "Darwin and Wallace needed an explanation for these observations because the older idea of fixed, separately created species did not explain them."
+      ],
+      "tip": "A question asking you to discuss the rationale wants the observations (variation, fit to the environment, island species resembling the mainland, fossils resembling living species) and the ideas that helped explain them. Do not describe finch beak changes here."
+    },
+    {
+      "h": "The rationale: influences and the joint announcement",
+      "b": "Observations alone were not enough. Ideas from geology, economics and farming gave Darwin the pieces of his explanation, and a second naturalist reached it independently.",
+      "points": [
+        "Charles Lyell, a geologist, argued that the Earth is very old and is shaped by slow processes over vast time, which gave time for gradual change in living things.",
+        "Thomas Malthus argued that populations tend to grow faster than their food supply, so there is a struggle for existence (not everyone can survive).",
+        "Breeders of pigeons, dogs and farm animals showed that selection over generations could change a species greatly. This is artificial selection (humans choosing which animals breed).",
         "Alfred Russel Wallace (1823–1913), working in the Malay Archipelago, reached the same idea independently and wrote to Darwin.",
-        "Papers by both were read together at the Linnean Society of London on 1 July 1858. Darwin published On the Origin of Species in November 1859, giving the evidence in detail.",
-        "The observations the theory had to explain were: variation within species; the fit between organisms and their environments; species on islands resembling those on the nearest mainland; and fossils of extinct species resembling living ones."
-      ]
+        "Papers by both were read together at the Linnean Society of London on 1 July 1858. Darwin then published On the Origin of Species in November 1859, giving the evidence in detail."
+      ],
+      "tip": "If asked to name the two scientists who independently proposed evolution by natural selection, the answer is Charles Darwin and Alfred Russel Wallace."
     },
     {
       "h": "The basis: the steps of the theory",
-      "b": "The theory rests on six numbered steps, from observation to inference, and on one point about what selection acts on.",
+      "b": "The theory rests on six numbered steps, from observation to inference, and on one point about what selection acts on. Each step follows from the one before it.",
       "points": [
-        "1. Overproduction: organisms produce more offspring than can survive (e.g. a single cod releases millions of eggs; an oak tree produces thousands of acorns), yet population sizes stay fairly stable over time.",
+        "1. Overproduction: organisms produce more offspring than can survive (for example a single cod releases millions of eggs; an oak tree produces thousands of acorns), yet population sizes stay fairly stable over time.",
         "2. Struggle for existence: resources such as food, water, space and mates are limited, so individuals compete, and many die from predation, disease or harsh conditions before reproducing.",
-        "3. Variation: individuals of a species differ, and many of the differences are inherited (from sexual reproduction and mutation; see Variation).",
+        "3. Variation: individuals of a species differ, and many of the differences are inherited (they come from sexual reproduction and mutation, so offspring are not identical to their parents).",
         "4. Survival of the fittest: individuals whose inherited variations suit them better to the environment are more likely to survive and reproduce. Fittest means best adapted to that environment, with the greatest reproductive success, not the strongest. The phrase was coined by Herbert Spencer and later used by Darwin.",
         "5. Inheritance: the survivors pass the favourable alleles to their offspring, so these alleles and characteristics become more common in the next generation, and less favourable ones become less common.",
-        "6. Over many generations the population becomes better adapted to its environment. Different populations in different environments change in different ways and, given time and isolation, may become separate species (see Evidence for evolution).",
+        "6. Over many generations the population becomes better adapted to its environment. Different populations in different environments change in different ways and, given time and isolation, may become separate species (this is called speciation).",
         "Selection acts on individuals, since they survive or not, but it is populations that evolve; an individual's genes do not change during its life.",
         "Diagram: a flow chart of the six numbered steps, or a three-panel sequence for the peppered moth: a mixed population on a soot-darkened tree, birds eating the visible pale moths, and the next generation mostly dark."
-      ]
+      ],
+      "tip": "Do not say organisms change because they need to or try to adapt, or that an individual evolves. Variation comes first, at random; selection then favours some of it. Also, fittest does not mean strongest. Define it as best adapted with the greatest reproductive success. There is more on speciation in Evidence for evolution."
     },
     {
       "h": "Worked example: the peppered moth",
+      "b": "The peppered moth is the classic worked example of natural selection. It shows every step of the theory, and shows that selection follows the environment.",
       "points": [
         "The peppered moth (Biston betularia) rests on tree trunks by day and is eaten by birds. It has a pale, speckled form and a dark (melanic) form; the difference is controlled by one gene, and the dark allele arose by mutation.",
-        "Before the Industrial Revolution, tree trunks in England were pale and covered in lichens, and almost all moths were pale, so they were camouflaged; the rare dark moths were easily seen and eaten.",
-        "In the 1800s, air pollution from coal killed the lichens and blackened tree trunks with soot near industrial cities such as Manchester. Now the dark moths were camouflaged and the pale ones were eaten more, so dark moths survived and reproduced more, and the dark form became the most common in industrial areas.",
+        "Before the Industrial Revolution, tree trunks in England were pale and thick with lichens, and almost all moths were pale, so they were camouflaged; the rare dark moths were easily seen and eaten.",
+        "In the 1800s, air pollution from coal killed the lichens and blackened tree trunks with soot near industrial cities such as Manchester. Now the dark moths were camouflaged and the pale ones were eaten more.",
+        "So dark moths survived and reproduced more, passing on the dark allele, and the dark form became the most common in industrial areas.",
         "After clean-air laws in the 1950s reduced pollution, the trunks became paler again and the pale form again became the most common. Selection changed direction when the environment changed; evolution is not a fixed march in one direction."
-      ]
+      ],
+      "tip": "When you use this example, name the selecting agent (birds), the variation (pale and dark forms), the change in the environment (soot) and the result (the dark form became more common). Remember that evolution has no goal and does not always lead to more complex organisms."
     },
     {
-      "h": "Common origins and future directions",
+      "h": "Explaining common origins and specialised organisms",
+      "b": "A good theory explains what we already see. Natural selection explains why all living things resemble each other in some ways, and why some organisms are so narrowly specialised.",
       "points": [
-        "Common origins: the theory explains why all living things share features such as cells, DNA, the same genetic code and ATP, because they are descended from common ancestors. More closely related species share a more recent common ancestor. This is the basis of classification by phylogeny (see Classification).",
-        "Highly specialised organisms are the result of natural selection over many generations in a particular, stable environment, producing close adaptation to a narrow way of life. The giant panda's diet is almost entirely bamboo, and the koala's is almost entirely eucalyptus leaves.",
-        "Predicting future directions: natural selection depends on the environment, so if the environment changes, organisms will adapt (if suitable variation exists and there is time), move, or become extinct.",
-        "Highly specialised organisms, which depend on one food or habitat and often reproduce slowly, are most at risk when that resource or habitat is lost. Generalists, which can use many foods and habitats, are more likely to survive change.",
-        "Organisms with short generation times and large populations are predicted to evolve fastest: bacteria evolve resistance to antibiotics, insects evolve resistance to pesticides, and the influenza virus changes so much each year that the flu vaccine must be updated annually. These predictions are borne out (see Evidence for evolution for antibiotic resistance)."
-      ]
+        "Common origins: the theory explains why all living things share features such as cells, DNA, the same genetic code and ATP (the energy-carrying molecule), because they are all descended from common ancestors.",
+        "More closely related species share a more recent common ancestor. This is the basis of classification by phylogeny (grouping organisms by their evolutionary relationships). There is more on this in Classification.",
+        "Highly specialised organisms are the result of natural selection over many generations in a particular, stable environment, producing close adaptation to a narrow way of life.",
+        "Examples: the giant panda's diet is almost entirely bamboo, and the koala's is almost entirely eucalyptus leaves."
+      ],
+      "tip": "Do not say humans evolved from chimpanzees. Humans and chimpanzees share a common ancestor."
+    },
+    {
+      "h": "Predicting future directions",
+      "b": "A good theory also makes predictions. Because natural selection depends on the environment, the theory lets us predict which organisms will cope when conditions change, and which will change fastest.",
+      "points": [
+        "If the environment changes, the theory predicts that organisms will adapt (if suitable variation exists and there is time), move, or become extinct. They do not change simply because they need to.",
+        "Highly specialised organisms, which depend on one food or habitat and often reproduce slowly, are most at risk of extinction when that resource or habitat is lost, because they have no alternative food or home and cannot evolve quickly enough.",
+        "Generalists, which can use many foods and habitats, are more likely to survive change, because if one resource disappears they can switch to another.",
+        "Organisms with short generation times (little time between birth and reproducing) and large populations are predicted to evolve fastest, because new variation arises and spreads quickly.",
+        "Examples: bacteria evolve resistance to antibiotics, insects evolve resistance to pesticides, and the influenza virus changes so much each year that the flu vaccine must be updated annually. These predictions are borne out. There is more on antibiotic resistance in Evidence for evolution."
+      ],
+      "tip": "A new type of question asks why highly specialised organisms are at greater risk when the environment changes. Say they depend on one food or habitat, often reproduce slowly, and so are most at risk of extinction when it is lost, while generalists are more likely to survive."
     },
     {
       "h": "Artificial selection",
       "b": "Artificial selection (selective breeding) is the process by which humans choose which individuals breed, so that characteristics useful or attractive to humans become more common over generations.",
       "points": [
-        "Examples: all dog breeds, from the Chihuahua to the Great Dane, were bred from wolves.",
-        "Cabbage, broccoli, cauliflower, kale, Brussels sprouts and kohlrabi were all bred from the wild cabbage (Brassica oleracea).",
+        "Dogs: all dog breeds, from the Chihuahua to the Great Dane, were bred from wolves.",
+        "Cabbage, broccoli, cauliflower, kale, Brussels sprouts and kohlrabi were all bred from the wild cabbage (Brassica oleracea), each by selecting a different part or feature of the plant.",
         "Dairy cows have been bred for high milk yield, and modern wheat for large grains that stay on the plant until harvested.",
-        "Darwin used artificial selection as evidence that selection over generations can produce large changes, and as an analogy for natural selection."
-      ]
+        "Darwin used artificial selection as evidence that selection over generations can produce large changes, and as an analogy for natural selection: humans select in the farm, the environment selects in the wild."
+      ],
+      "tip": "Artificial selection is not genetic engineering. It selects among existing variation, without changing DNA directly. There is more on genetic engineering in Genetic engineering."
     },
     {
       "h": "Natural and artificial selection compared",
+      "b": "Both kinds of selection work in the same way, with some individuals reproducing more than others. They differ in who does the choosing and in what is chosen.",
       "points": [
         "Who or what selects: the environment (predators, climate, food supply, disease) in natural selection; humans in artificial selection.",
-        "Characteristics favoured: those that increase survival and reproduction in the wild, versus those wanted by humans, which may harm the organism. Flat-faced dog breeds such as pugs and bulldogs have breathing problems.",
+        "Characteristics favoured: those that increase survival and reproduction in the wild, versus those wanted by humans, which may harm the organism. For example, flat-faced dog breeds such as pugs and bulldogs have breathing problems.",
         "Speed: natural selection is usually slow, over many generations; artificial selection is relatively fast, because humans choose strongly.",
         "Outcome: natural selection leads to adaptation to the environment and, eventually, new species; artificial selection leads to new breeds and varieties of the same species (all dogs are one species).",
-        "Genetic variation: usually maintained in large wild populations, but often reduced in artificial selection, because a few chosen individuals are bred and inbred, making the population more vulnerable to disease (the Irish potato example is in Variation).",
+        "Genetic variation: usually maintained in large wild populations, but often reduced in artificial selection, because a few chosen individuals are bred and inbred, making the population more vulnerable to disease. The Irish potato example is in Variation.",
         "Similarity: both depend on inherited variation and on some individuals reproducing more than others."
-      ]
+      ],
+      "tip": "You will be asked to distinguish natural from artificial selection, with an example. Give a pair of contrasting points (for example the environment selects versus humans select) and name an example such as dog breeds from wolves."
     },
     {
       "h": "Discussing the theory: difficulties and later answers",
+      "b": "When Darwin proposed the theory it had real gaps, and the main one was inheritance. Later discoveries in genetics filled the gaps and strengthened the theory.",
       "points": [
         "Darwin did not know how characteristics were inherited or where new variation came from.",
-        "Many people then believed in blending inheritance, which would dilute any favourable variation within a few generations.",
-        "Mendel published his work on inheritance in 1866, but it was widely recognised only from 1900. It showed that inheritance is by discrete units (genes) that are not blended.",
-        "Later, the discovery of DNA and mutation explained the source of new variation (see Variation).",
-        "Combined with genetics in the early 20th century, the theory became the modern synthesis: evolution is a change in allele frequencies in populations, caused mainly by natural selection acting on variation that comes from mutation and sexual reproduction.",
-        "Critics in Darwin's time said there were too few transitional fossils, and that the Earth was too young for such slow change.",
-        "Since then many transitional fossils have been found, and radiometric dating shows the Earth is about 4.6 billion years old (see Evidence for evolution).",
+        "Many people then believed in blending inheritance (offspring being a mixture of both parents), which would dilute any favourable variation within a few generations.",
+        "Mendel published his work on inheritance in 1866, but it was widely recognised only from 1900. It showed that inheritance is by discrete units (genes) that are not blended, so favourable alleles are not diluted away.",
+        "Later, the discovery of DNA and mutation explained the source of new variation. There is more on this in Variation.",
+        "Combined with genetics in the early 20th century, the theory became the modern synthesis: evolution is a change in allele frequencies in populations, caused mainly by natural selection acting on variation that comes from mutation and sexual reproduction."
+      ],
+      "tip": "A question asking you to discuss the theory expects difficulties and the answers to them: Darwin could not explain inheritance or the source of variation, and Mendel's genes (not blended) plus DNA and mutation later did."
+    },
+    {
+      "h": "Discussing the theory: criticism and controversy",
+      "b": "Critics in Darwin's day also challenged the evidence for the theory, and it caused controversy beyond science. Later evidence answered the scientific criticisms.",
+      "points": [
+        "Critics in Darwin's time said there were too few transitional fossils (fossils showing a stage between one type of organism and another), and that the Earth was too young for such slow change.",
+        "Since then many transitional fossils have been found, and radiometric dating (dating rocks by the decay of radioactive atoms in them) shows the Earth is about 4.6 billion years old, which gives plenty of time for slow change. There is more on this in Evidence for evolution.",
         "The theory caused controversy because it conflicted with the religious belief, then widespread, that species were created separately in their present form.",
-        "Science tests explanations against evidence; why evolution is accepted as the best explanation is in The importance of the theory."
-      ]
+        "Why evolution is accepted as the best explanation is in The importance of the theory."
+      ],
+      "tip": "Keep the answer to these difficulties and the conflict with the belief in separate creation. Why evolution is accepted as the best explanation belongs to The importance of the theory."
     }
   ],
   "keyTerms": [

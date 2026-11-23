@@ -6,74 +6,86 @@
   "notes": [
     {
       "h": "Aim and chemistry",
+      "b": "Ethene is made in the lab by taking the elements of water out of ethanol. The investigation then uses the gas to show what an alkene (a hydrocarbon with a carbon-carbon double bond) is like.",
       "points": [
-        "Aim: to prepare ethene by dehydrating ethanol, to observe its physical properties, and to investigate its combustion and show that it is unsaturated.",
-        "Hypothesis: ethene contains a C=C double bond, so it will decolourise bromine water and acidified potassium manganate(VII), while a saturated hydrocarbon will not.",
+        "Aim: to prepare ethene by dehydrating ethanol, to observe its physical properties, and to investigate its combustion and show that it is unsaturated (contains a multiple carbon-carbon bond).",
+        "Hypothesis: ethene contains a C=C double bond, so it will decolourise bromine water and acidified potassium manganate(VII), while a saturated hydrocarbon (one with only single carbon-carbon bonds) will not.",
         "Ethanol vapour passed over hot aluminium oxide loses a molecule of water: C₂H₅OH(g) → C₂H₄(g) + H₂O(g).",
-        "This is a dehydration reaction, a type of elimination reaction in which a small molecule, water, is removed and a double bond forms (see “Five types of organic reaction”).",
-        "Aluminium oxide, Al₂O₃, a white powder, is the catalyst and is not used up in the reaction."
-      ]
+        "This is a dehydration reaction, a type of elimination reaction in which a small molecule, water, is removed from a larger one and a double bond forms. There is more on this in Five types of organic reaction.",
+        "Aluminium oxide, Al₂O₃, a white powder, is the catalyst (a substance that speeds up a reaction), so it is not used up in the reaction."
+      ],
+      "tip": "Aluminium oxide is a catalyst, not a reactant, and the reaction type is dehydration (elimination), not decomposition of the catalyst. Don't use concentrated sulfuric acid here: the specification's method is over aluminium oxide. Preparing ethyne from calcium carbide is not on the specification."
     },
     {
       "h": "Apparatus and method",
       "b": "Heat the aluminium oxide, not the ethanol. The method runs in the order below.",
       "points": [
-        "1. Push some glass wool into the closed end of a hard-glass boiling tube and soak it with about 2 cm³ of ethanol, using a dropper.",
+        "1. Push some glass wool (a loose plug of glass fibres that soaks up liquid) into the closed end of a hard-glass boiling tube, which withstands strong heating, and soak it with about 2 cm³ of ethanol, using a dropper.",
         "2. Place a small heap of aluminium oxide about halfway along the tube.",
-        "3. Clamp the tube horizontally and fit a stopper with a delivery tube that leads under water in a trough to an inverted test tube full of water, standing on a beehive shelf.",
-        "4. Heat the aluminium oxide strongly with a Bunsen burner; heat conducted along the tube warms the ethanol so that its vapour passes over the hot catalyst.",
-        "5. Collect the gas by displacement of water, and discard the first one or two tubes.",
-        "6. Collect several tubes of gas, stoppering each under water and storing it mouth down.",
-        "7. Before removing the heat, lift the delivery tube out of the water.",
+        "3. Clamp the tube horizontally and fit a stopper with a delivery tube (a bent tube that carries the gas away) that leads under water in a trough.",
+        "4. Put an inverted test tube full of water over the end of the delivery tube, standing on a beehive shelf (a perforated support that holds the tube mouth under water).",
+        "5. Heat the aluminium oxide strongly with a Bunsen burner; heat conducted along the tube warms the ethanol so that its vapour passes over the hot catalyst.",
+        "6. Collect the gas by displacement of water (the gas bubbles up into the water-filled tube and pushes the water out), and discard the first one or two tubes, then collect several tubes of gas, stoppering each under water so that no gas escapes, and storing it mouth down.",
+        "7. Before removing the heat, lift the delivery tube out of the water, to prevent suck-back.",
         "Diagram: a horizontal boiling tube, clamped, with ethanol-soaked glass wool at the closed end and aluminium oxide in the middle; a Bunsen flame under the aluminium oxide; a delivery tube to an inverted water-filled test tube on a beehive shelf in a trough of water. Label the ethanol on the glass wool, the aluminium oxide, the heat and the ethene collecting."
-      ]
+      ],
+      "tip": "Exams ask you to identify the liquid (ethanol) and the white solid (aluminium oxide) in the apparatus, and to draw and label it. Heat the aluminium oxide, not the ethanol, and remove the delivery tube from the water before taking away the heat."
     },
     {
       "h": "Why each choice is made",
+      "b": "Each feature of the set-up solves a practical problem. Knowing the reason for each is what the exam tests.",
       "points": [
         "Glass wool holds the liquid ethanol at the end of the tube, so it doesn't run onto the hot catalyst or the hot glass.",
         "The catalyst is heated rather than the ethanol, because aluminium oxide must be hot to work, and ethanol is flammable with a low boiling point of 78 °C, so gentle conducted heat is enough to vaporise it.",
-        "Ethene can be collected over water because it is almost insoluble in water.",
-        "The first tubes are discarded because they contain mainly air pushed out of the apparatus.",
+        "Ethene can be collected over water because it is almost insoluble in water, so very little of it dissolves as it bubbles through.",
+        "The first tubes are discarded because they contain mainly air pushed out of the apparatus, not ethene.",
         "Suck-back happens if heating stops while the delivery tube is under water: the gas in the hot tube cools and contracts, cold water is drawn back into the hot boiling tube, and the tube can crack or shatter."
-      ]
+      ],
+      "tip": "Be ready to say why the first tubes are discarded, and what suck-back is, why it is dangerous and how to prevent it (lift the delivery tube out of the water before removing the heat)."
     },
     {
       "h": "Physical properties of ethene",
+      "b": "Before testing its chemistry, observe the gas itself. Its properties follow from its small, non-polar molecules.",
       "points": [
         "Ethene is a colourless gas with a boiling point of −104 °C and a faint sweet smell, which should be wafted towards the nose, not sniffed directly.",
-        "It is almost insoluble in water, because it is non-polar and cannot form hydrogen bonds with water, but it dissolves readily in non-polar solvents such as cyclohexane.",
+        "It is almost insoluble in water, shown by its collection over water, because it is non-polar (its molecules have no charged ends) and cannot form hydrogen bonds with water.",
+        "It dissolves readily in non-polar solvents such as cyclohexane, because like dissolves like: both have non-polar molecules.",
         "Its density is close to that of air: its relative molecular mass is 28, compared with about 29 for air."
-      ]
+      ],
+      "tip": "Don't say ethene is insoluble without the reason: it is non-polar. Collection over water shows that it is almost insoluble. Exams also ask you to describe the gas's appearance."
     },
     {
       "h": "Combustion and the limewater test",
+      "b": "Ethene burns, and the products of burning can be identified. The flame also reveals how much carbon the molecule contains compared with methane.",
       "points": [
-        "Remove the stopper and hold the mouth of the tube to a lighted taper or Bunsen flame: ethene burns with a yellow, luminous, slightly smoky flame.",
+        "Remove the stopper and hold the mouth of the tube to a lighted taper or Bunsen flame: ethene burns with a yellow, luminous (bright), slightly smoky flame.",
         "Combustion equation: C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l).",
-        "Add limewater to the tube after burning, stopper and shake; it turns milky, showing that carbon dioxide was produced: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).",
-        "Droplets of water may condense on the inside of the tube.",
-        "Methane burns with a clean, non-luminous blue flame, whereas ethene's flame is more luminous and smoky, because ethene has a higher percentage of carbon, 85.7% compared with 75.0% in methane."
-      ]
+        "Add limewater (calcium hydroxide solution) to the tube after burning, stopper and shake; it turns milky because insoluble calcium carbonate forms, showing that carbon dioxide was produced: Ca(OH)₂(aq) + CO₂(g) → CaCO₃(s) + H₂O(l).",
+        "Droplets of water may condense on the inside of the tube, which is the other product of combustion.",
+        "Methane burns with a clean, non-luminous blue flame, whereas ethene's flame is more luminous and smoky, because ethene has a higher percentage of carbon by mass, 85.7% compared with 75.0% in methane."
+      ],
+      "tip": "Exams ask you to describe the combustion test and the flame, and to write the combustion equation."
     },
     {
       "h": "Tests for unsaturation",
+      "b": "A C=C double bond can take in extra atoms, which is why alkenes react with bromine and with manganate(VII) while saturated hydrocarbons do not. Each reagent changes colour when it reacts, so the colour change is the evidence.",
       "points": [
         "Bromine water: add a few drops of dilute bromine water to a tube of ethene, stopper and shake; the orange, or red-brown, colour disappears and the solution becomes colourless.",
-        "Bromine adds across the double bond in an addition reaction: CH₂=CH₂(g) + Br₂ → CH₂BrCH₂Br, which is 1,2-dibromoethane.",
+        "Bromine adds across the double bond in an addition reaction (the two bromine atoms join on and the double bond becomes a single bond): CH₂=CH₂(g) + Br₂ → CH₂BrCH₂Br, which is 1,2-dibromoethane.",
         "Acidified potassium manganate(VII): add a few drops of dilute KMnO₄ acidified with dilute sulfuric acid, stopper and shake; the purple colour disappears.",
-        "In the manganate(VII) test the alkene is oxidised, and MnO₄⁻ is reduced to almost colourless Mn²⁺.",
+        "In the manganate(VII) test the alkene is oxidised (it is attacked by the oxidising agent), and MnO₄⁻ is reduced (gains electrons) to almost colourless Mn²⁺, which is why the purple fades.",
         "Both decolourisations are positive tests for unsaturation, meaning a C=C or C≡C bond is present.",
         "Control: repeat both tests with a saturated hydrocarbon, e.g. a few drops of cyclohexane or methane from the gas tap; there is no rapid colour change, so the decolourisation is due to the double bond."
-      ]
+      ],
+      "tip": "Bromine water goes from orange to colourless, not clear: clear means transparent and can still be coloured. Exams ask you to describe a test for unsaturation, give the colour change, and say what it shows about the structure of ethene (a double bond)."
     },
     {
       "h": "Sample calculation (sample data)",
-      "b": "Sample data: 2.0 cm³ of ethanol, with a density of 0.789 g cm⁻³, was used, and 310 cm³ of ethene was collected, taken as if at s.t.p.",
+      "b": "The percentage yield compares the ethene actually collected with the most that the ethanol could give. Sample data: 2.0 cm³ of ethanol, with a density of 0.789 g cm⁻³, was used, and 310 cm³ of ethene was collected, taken as if at s.t.p. (standard temperature and pressure).",
       "points": [
-        "Mass of ethanol = 2.0 cm³ × 0.789 g cm⁻³ = 1.58 g.",
-        "Moles of ethanol = 1.58 g ÷ 46 g mol⁻¹ = 0.0343 mol.",
-        "The mole ratio of ethanol to ethene is 1 : 1, so the theoretical yield is 0.0343 mol of ethene.",
+        "Mass of ethanol = volume × density = 2.0 cm³ × 0.789 g cm⁻³ = 1.58 g.",
+        "Moles of ethanol = mass ÷ molar mass = 1.58 g ÷ 46 g mol⁻¹ = 0.0343 mol.",
+        "The mole ratio of ethanol to ethene is 1 : 1, so the theoretical yield (the most ethene the reaction could give) is 0.0343 mol of ethene.",
         "Theoretical volume = 0.0343 mol × 22.4 L mol⁻¹ = 0.768 L = 768 cm³ at s.t.p.",
         "Percentage yield = 310 cm³ ÷ 768 cm³ × 100 = 40.4%.",
         "The yield is low because some ethanol evaporates past the catalyst unreacted and dissolves in the trough water, some ethene is lost in the discarded tubes, and gas is left in the apparatus."
@@ -81,16 +93,18 @@
     },
     {
       "h": "Safety, errors and conclusion",
+      "b": "The hazards come from flammable gases, toxic bromine and hot glass. The errors weaken the tests, and the conclusion ties the results back to the aim.",
       "points": [
         "Wear safety glasses; ethanol and ethene are highly flammable, so keep the stock bottle of ethanol away from the flame and add the ethanol before lighting the Bunsen burner.",
         "Bromine water is toxic and corrosive: use small amounts of dilute bromine water in a well-ventilated room or a fume cupboard, and wear gloves.",
         "Potassium manganate(VII) is an oxidiser that stains, and dilute sulfuric acid is an irritant.",
-        "Let the apparatus cool before handling it, and remove the delivery tube from the water before stopping the heating.",
+        "Let the apparatus cool before handling it, because the glass is hot, and remove the delivery tube from the water before stopping the heating to avoid suck-back.",
         "Air in the first tubes dilutes the ethene and weakens the tests.",
         "Unreacted ethanol vapour carried over can slowly decolourise acidified manganate(VII) by itself, so the bromine water test and its control are the more convincing evidence.",
         "Bromine water slowly fades in bright light, so the result must be compared with a control.",
-        "Ethene is a colourless, almost insoluble, flammable gas that decolourises bromine water and acidified manganate(VII), so it is unsaturated."
-      ]
+        "Conclusion: ethene is a colourless, almost insoluble, flammable gas that decolourises bromine water and acidified manganate(VII), so it is unsaturated."
+      ],
+      "tip": "Remove the delivery tube from the water before taking away the heat: this is the safety point the package flags, and suck-back is what it prevents."
     }
   ],
   "keyTerms": [

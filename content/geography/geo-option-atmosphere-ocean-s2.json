@@ -6,116 +6,136 @@
   "notes": [
     {
       "h": "Solar radiation",
+      "b": "Everything in the atmosphere and oceans is driven by energy from the sun. The kind of radiation (energy travelling as waves) that arrives is different from the kind the earth sends back out, and that difference matters for the greenhouse effect.",
       "points": [
-        "Solar energy arrives as short-wave radiation, mostly visible light with some ultraviolet and near-infrared. The much cooler earth gives off long-wave (infrared, heat) radiation; this difference is the basis of the greenhouse effect.",
-        "Insolation is incoming solar radiation. The solar constant, about 1,361 W/m², is the energy reaching the top of the atmosphere, and far less reaches the surface."
-      ]
+        "Solar energy arrives as short-wave radiation, mostly visible light with some ultraviolet and near-infrared. The sun is extremely hot, so it gives off short waves.",
+        "The much cooler earth gives off long-wave (infrared, heat) radiation. This difference between short-wave in and long-wave out is the basis of the greenhouse effect.",
+        "Insolation (short for incoming solar radiation) is the solar energy that reaches the earth. The solar constant, about 1,361 W/m², is the energy reaching the top of the atmosphere, and far less reaches the surface."
+      ],
+      "tip": "Short-wave radiation comes in from the sun and long-wave radiation goes out from the earth. Keep the two the right way round."
     },
     {
       "h": "Energy transformations",
+      "b": "The syllabus says solar energy is transformed, meaning it changes form on its way through the system. Each change below is a separate step that an essay can name.",
       "points": [
-        "Radiant energy absorbed by surfaces becomes heat, called sensible heat.",
-        "Energy used to evaporate water is stored as latent heat in water vapour, which later powers storms (see Latent heat and tropical cyclones).",
-        "Heat differences create pressure differences, which become the kinetic energy of wind and, through wind drag, of waves and currents.",
-        "Plants convert a small fraction of absorbed energy into chemical energy by photosynthesis."
-      ]
+        "Radiant energy (energy carried by radiation) absorbed by surfaces becomes heat, called sensible heat because you can feel it and measure it with a thermometer.",
+        "Energy used to evaporate water is stored as latent heat (hidden heat) in water vapour, which later powers storms when the vapour condenses. There is more on this in Latent heat and tropical cyclones.",
+        "Heat differences create pressure differences, because warm air rises and cool air sinks. These become the kinetic energy (energy of movement) of wind and, through wind drag, of waves and currents.",
+        "Plants convert a small fraction of absorbed energy into chemical energy by photosynthesis, the process that makes food from light."
+      ],
+      "tip": "Energy transformation is one of the aspects listed for the 80-mark question on how solar energy is transformed and redistributed. Name latent, sensible and kinetic energy."
     },
     {
       "h": "What happens to incoming radiation",
-      "b": "The heat budget below uses a rounded model of 100 units of incoming solar radiation.",
+      "b": "Not all the sunlight arriving at the top of the atmosphere warms the ground. The heat budget below uses a rounded model of 100 units of incoming solar radiation, so the figures are approximate.",
       "points": [
-        "About 30 units are reflected back to space, mainly by clouds and also by the surface and by scattering; the earth's overall albedo is therefore about 30% (0.3).",
-        "About 20 units are absorbed by the atmosphere and clouds, by ozone, water vapour, dust and clouds.",
-        "About 50 units are absorbed by the land and ocean surface.",
-        "Scattering by gas molecules and dust makes the sky blue, as blue light is scattered most.",
+        "About 30 units are reflected back to space, mainly by clouds and also by the surface and by scattering; the earth's overall albedo (the share of radiation reflected) is therefore about 30% (0.3).",
+        "About 20 units are absorbed by the atmosphere and clouds, by ozone, water vapour, dust and clouds, so this energy warms the air directly.",
+        "About 50 units are absorbed by the land and ocean surface, which is why the ground, not the air, is the main heat source.",
+        "Scattering (radiation bounced in all directions) by gas molecules and dust makes the sky blue, as blue light is scattered most.",
         "Diagram: a labelled flow diagram with incoming short-wave arrows split into reflected, absorbed by atmosphere and absorbed by surface, and outgoing long-wave, latent and sensible heat arrows."
-      ]
+      ],
+      "tip": "Use only the rounded 100-unit model of 30, 20 and 50, and give the figures as approximate. Do not quote other heat budget figures."
     },
     {
       "h": "Albedo",
+      "b": "Albedo is how shiny a surface is to sunlight. Light surfaces send most radiation back to space, while dark ones absorb it as heat.",
       "points": [
         "Albedo is the proportion of radiation a surface reflects.",
-        "Fresh snow reflects about 80–90%, sea ice about 50–70% and thick cloud up to about 80%.",
-        "Desert sand reflects about 30–40%, grassland about 25% and forest about 10–20%; open ocean reflects under 10% when the sun is high.",
-        "Changing the surface changes the heat it absorbs: deforestation and urban surfaces alter albedo."
+        "Fresh snow reflects about 80–90%, sea ice about 50–70% and thick cloud up to about 80%, so these are high-albedo surfaces that stay cool.",
+        "Desert sand reflects about 30–40%, grassland about 25% and forest about 10–20%; open ocean reflects under 10% when the sun is high, so dark surfaces absorb most of what reaches them.",
+        "Changing the surface changes the heat it absorbs, because albedo changes with it: deforestation (clearing forest) and urban surfaces alter albedo."
       ]
     },
     {
       "h": "How the surface loses energy",
+      "b": "The surface does not keep all the 50 units it absorbs. It gets rid of energy in three ways, which together balance the input.",
       "points": [
-        "Long-wave radiation is emitted by the surface.",
-        "Latent heat transfer, evaporation, is the largest non-radiative loss, especially from oceans.",
-        "Sensible heat transfer moves heat by conduction to the air touching the ground, which then rises by convection."
+        "Long-wave radiation is emitted by the surface, as heat radiating out to the atmosphere and space.",
+        "Latent heat transfer (evaporation, which stores heat in water vapour) is the largest non-radiative loss, especially from oceans, because they cover so much of the earth and supply so much water to evaporate.",
+        "Sensible heat transfer moves heat by conduction (direct contact) to the air touching the ground, which then rises by convection (warm air rising in currents)."
       ]
     },
     {
       "h": "The greenhouse effect",
+      "b": "Some gases in the air act like the glass of a greenhouse: they let sunlight in but slow the escape of heat. This natural effect is what makes the earth habitable.",
       "points": [
         "Water vapour, carbon dioxide, methane and other gases are largely transparent to incoming short-wave radiation, but they absorb outgoing long-wave radiation and re-radiate much of it back down.",
         "This keeps the earth's average surface temperature at about 15 °C; without the natural greenhouse effect it would be about −18 °C.",
         "The enhanced greenhouse effect, caused by added gases, is examined in Climatic environments and climate change and in Environmental pollution."
-      ]
+      ],
+      "tip": "Greenhouse gases trap the outgoing long-wave radiation; they do not block sunlight. Keep the ozone hole out of this explanation: it lets in more ultraviolet, not more heat."
     },
     {
       "h": "The heat budget",
+      "b": "The heat budget is the balance between energy gained and energy lost. It balances for the whole earth, but not in each place, and that imbalance is why energy has to be moved around.",
       "points": [
         "Over a year the heat budget of the earth as a whole balances: energy in equals energy out, so the average temperature stays stable.",
         "If more energy is retained than lost, as when greenhouse gases increase, the earth warms until a new balance is reached.",
         "The budget does not balance at each latitude. Between the equator and about 35–40° north and south more energy is received than is radiated away: this is the surplus.",
-        "Poleward of about 35–40° more energy is lost than received: this is the deficit.",
+        "Poleward of about 35–40° (towards the poles) more energy is lost than received: this is the deficit.",
         "Without a poleward transfer the tropics would keep heating and the poles would keep cooling. Because they do not, energy must be moved.",
         "Diagram: a graph of incoming and outgoing radiation against latitude, with the surplus and deficit areas shaded."
-      ]
+      ],
+      "tip": "The budget balances for the whole earth but not at each latitude. Do not say the tropics have no balance: they have a surplus that is exported. Give 35–40° as the approximate crossover, not a single precise number."
     },
     {
       "h": "Angle of incidence",
+      "b": "The first reason the sun's energy is spread unevenly is the angle at which its rays hit the curved earth.",
       "points": [
-        "At the equator the sun's rays strike nearly vertically, concentrating energy on a small area.",
-        "Towards the poles the same beam strikes at a low angle and is spread over a larger area.",
+        "At the equator the sun's rays strike nearly vertically, concentrating energy on a small area, so that area heats strongly.",
+        "Towards the poles the same beam strikes at a low angle and is spread over a larger area, so each square metre gets less energy.",
         "Diagram: two equal beams hitting the curved earth."
       ]
     },
     {
       "h": "Atmospheric thickness",
+      "b": "A low sun angle has a second effect, because of the distance the rays travel through the air.",
       "points": [
         "Low-angle rays pass through more atmosphere, so more energy is absorbed, scattered and reflected before it reaches the ground."
       ]
     },
     {
       "h": "Earth's tilt, orbit and seasons",
+      "b": "The earth's tilt moves the zone of strongest sunlight north and south through the year. This causes the seasons and changes how long the day lasts.",
       "points": [
         "The axis is tilted about 23.5°, so the overhead sun migrates between the Tropic of Cancer (about 23.5° N) and the Tropic of Capricorn (about 23.5° S) through the year, giving seasons and changing day length.",
         "The sun is overhead at the equator at the equinoxes (about 21 March and 23 September), at the Tropic of Cancer at the June solstice (about 21 June) and at the Tropic of Capricorn at the December solstice (about 21 December).",
-        "The poles have months of continuous daylight in summer and continuous darkness in winter."
+        "The poles have months of continuous daylight in summer and continuous darkness in winter, because of the tilt."
       ]
     },
     {
       "h": "Day length, cloud and surface",
+      "b": "Three more factors change how much insolation a place actually receives: how long the sun is up, how cloudy it is and how reflective the ground is.",
       "points": [
-        "Long summer days at high latitudes partly offset the low sun angle; the equator has almost the same length of day and night all year.",
+        "Long summer days at high latitudes partly offset the low sun angle; the equator has almost the same length of day and night all year (about 12 hours of daylight).",
         "Cloudy regions, such as the equatorial belt and mid-latitude west coasts, reflect much insolation, while clear-skied subtropical deserts receive the most at the surface.",
-        "Clouds keep nights warmer by trapping long-wave radiation.",
-        "Snow-covered polar regions reflect most of the little radiation they receive."
+        "Clouds keep nights warmer by trapping long-wave radiation, so heat escapes more slowly.",
+        "Snow-covered polar regions reflect most of the little radiation they receive, because snow has a high albedo."
       ]
     },
     {
       "h": "Latitude and temperature",
+      "b": "Because insolation falls from the equator to the poles, latitude is the first thing to name when explaining the pattern of temperature. Isotherms are lines on a map joining places with the same temperature.",
       "points": [
         "Latitude is the main control: temperatures generally fall from the equator to the poles, so isotherms run broadly east–west."
-      ]
+      ],
+      "tip": "Examiners ask for the uneven distribution of temperature with each factor explained with a named example. Latitude, continentality, ocean currents, altitude, prevailing winds, aspect, cloud and albedo are the factors to cover."
     },
     {
       "h": "Land and sea (continentality)",
+      "b": "Land and sea respond very differently to the same sunshine. Continentality means the effect of being far from the sea, and it explains why places at the same latitude can have very different temperatures.",
       "points": [
-        "Land heats and cools quickly, while the sea heats and cools slowly, because water has a high specific heat, mixes, is transparent and evaporates.",
-        "Continental interiors have hot summers, cold winters and a large annual range; coasts and islands have a small range.",
+        "Land heats and cools quickly, while the sea heats and cools slowly, because water has a high specific heat (it takes a lot of energy to warm it), mixes, is transparent and evaporates.",
+        "Continental interiors have hot summers, cold winters and a large annual range (the gap between the warmest and coldest months); coasts and islands have a small range.",
         "Ireland's annual range is only about 10 °C, with a mean January of about 4–7 °C and a mean July of about 14–16 °C.",
         "Verkhoyansk, in north-east Siberia (Russia), has a mean January temperature of about −45 °C and a mean July of about +15 °C, an annual range of over 60 °C and one of the largest on earth.",
-        "Isotherms bend where they cross coasts."
+        "Isotherms bend where they cross coasts, because temperatures change at the land–sea edge."
       ]
     },
     {
       "h": "Ocean currents and temperature",
+      "b": "Ocean currents carry warm or cold water to coasts and change the temperature there, so isotherms bend where currents flow.",
       "points": [
         "Warm currents raise coastal temperatures: the North Atlantic Drift, the extension of the Gulf Stream, keeps Ireland and Britain mild, so January isotherms bend sharply northward over the north-east Atlantic.",
         "Cold currents lower coastal temperatures, as on the coasts of Peru and south-west Africa, where the Humboldt and Benguela currents flow."
@@ -123,28 +143,32 @@
     },
     {
       "h": "Altitude",
+      "b": "Height above sea level also controls temperature, independently of latitude.",
       "points": [
         "Temperature falls by about 6.5 °C per 1,000 m, so mountains and plateaus are cooler than lowlands at the same latitude.",
-        "Mount Kilimanjaro, Tanzania, about 5,900 m high and only about 3° south of the equator, is snow-capped."
+        "Mount Kilimanjaro, Tanzania, about 5,900 m high and only about 3° south of the equator, is snow-capped, which shows that height can outweigh latitude."
       ]
     },
     {
       "h": "Prevailing winds",
+      "b": "Winds carry the temperature of the area they blow from, so the direction of the prevailing (most usual) wind affects a coast's climate.",
       "points": [
-        "Onshore westerlies carry ocean warmth in winter and ocean coolness in summer over the west coasts of the mid-latitudes.",
-        "Winds from cold continental interiors bring cold spells, such as polar continental air reaching Ireland (see Atmospheric and oceanic circulation)."
+        "Onshore westerlies (westerly winds blowing from sea to land) carry ocean warmth in winter and ocean coolness in summer over the west coasts of the mid-latitudes.",
+        "Winds from cold continental interiors bring cold spells, such as polar continental air reaching Ireland. There is more on this in Atmospheric and oceanic circulation."
       ]
     },
     {
       "h": "Aspect and local factors",
+      "b": "Aspect is the direction a slope faces. Small-scale factors can change temperature even where latitude and altitude are the same.",
       "points": [
         "South-facing slopes in the northern hemisphere receive more sun and are warmer, which is why vineyards are often planted on them.",
-        "Urban heat islands are warmer than the surrounding countryside.",
+        "Urban heat islands (built-up areas) are warmer than the surrounding countryside.",
         "Snow cover keeps the ground cold."
       ]
     },
     {
       "h": "The thermal equator",
+      "b": "The hottest zone does not follow the geographical equator exactly. It is a line drawn from temperature, not from latitude.",
       "points": [
         "The thermal equator is the line of highest mean temperature.",
         "It lies mostly north of the geographical equator because the northern hemisphere has more land, and it moves north and south with the seasons, further over land than over sea."
@@ -152,25 +176,30 @@
     },
     {
       "h": "Temperature extremes",
+      "b": "The record temperatures show the pattern of the controls above: dry, clear subtropical deserts are hottest, while high-latitude interiors are coldest.",
       "points": [
-        "The hottest places are subtropical deserts, not the equator, where cloud and rain limit heating. Furnace Creek, Death Valley, California, recorded 56.7 °C on 10 July 1913, the highest temperature officially recognised by the WMO.",
+        "The hottest places are subtropical deserts, not the equator, where cloud and rain limit heating. Furnace Creek, Death Valley, California, recorded 56.7 °C on 10 July 1913, the highest temperature officially recognised by the WMO (World Meteorological Organization).",
         "The coldest places are the interior of Antarctica and, in winter, north-east Siberia. Vostok Station, Antarctica, recorded −89.2 °C on 21 July 1983, the lowest temperature on earth.",
         "Verkhoyansk and Oymyakon share the northern hemisphere's lowest recorded temperature, about −68 °C.",
         "On 20 June 2020 Verkhoyansk recorded 38 °C, accepted by the WMO as the highest temperature recorded in the Arctic.",
         "The annual range is smallest at the equator and over oceans, and largest in high-latitude continental interiors."
-      ]
+      ],
+      "tip": "The hottest places are subtropical deserts, not the equator: the equator's cloud and rain keep its maximum temperatures around 30–32 °C."
     },
     {
       "h": "Two linked systems that move heat",
+      "b": "The surplus at the equator and deficit at the poles are evened out because the atmosphere and the oceans carry heat poleward. This is the redistribution part of the syllabus statement.",
       "points": [
-        "Heat is transferred by the atmosphere (winds, depressions and tropical cyclones) and by the oceans (surface currents and the deep thermohaline circulation).",
+        "Heat is transferred by the atmosphere (winds, depressions, which are areas of low pressure, and tropical cyclones) and by the oceans (surface currents and the deep thermohaline circulation, driven by differences in water temperature and salt).",
         "Together they move heat from the surplus belt to the deficit belt. The atmosphere carries most of it at mid and high latitudes, and the oceans carry a large share in the tropics."
-      ]
+      ],
+      "tip": "The 80-mark question on redistribution expects the atmosphere (three cells, winds, depressions, hurricanes) and the oceans (warm and cold currents, the North Atlantic Drift, thermohaline circulation). Do not give heat-transfer percentages."
     },
     {
       "h": "Hadley cell (0–30°)",
+      "b": "A cell is a closed loop of moving air. The three-cell model has one loop in each band of latitude, and the Hadley cell, nearest the equator, is the first.",
       "points": [
-        "Intense heating at the equator makes air rise, creating low pressure and the ITCZ; the air cools and releases latent heat as convectional rain.",
+        "Intense heating at the equator makes air rise, creating low pressure and the ITCZ (the Inter-Tropical Convergence Zone, where the winds meet); the air cools and releases latent heat as convectional rain.",
         "At height the air flows poleward, sinks at about 30° to form the subtropical high pressure and deserts, and returns to the equator as the trade winds, carrying heat poleward at height.",
         "The cell is named after George Hadley, who proposed in 1735 that the trade winds came from heated air rising at the equator.",
         "Diagram: the three-cell model, shown in both hemispheres."
@@ -178,38 +207,44 @@
     },
     {
       "h": "Ferrel and polar cells (30–90°)",
+      "b": "Further from the equator, two more cells continue the transfer of heat towards the poles.",
       "points": [
         "The Ferrel cell (30–60°): surface westerlies carry warm air poleward to meet cold polar air at the polar front, at about 60°.",
         "The polar cell (60–90°): polar air sinks at the poles, forming the polar high, and flows out as polar easterlies.",
-        "Most mid-latitude heat transfer is done by depressions and anticyclones forming along the polar front and by the meandering jet stream (see Atmospheric and oceanic circulation)."
+        "Most mid-latitude heat transfer is done by depressions and anticyclones (areas of high pressure) forming along the polar front and by the meandering jet stream (a fast, high-altitude wind). There is more on this in Atmospheric and oceanic circulation."
       ]
     },
     {
       "h": "Latent heat and tropical cyclones",
+      "b": "Water vapour is a heat carrier. Energy taken up when water evaporates in the tropics is delivered far away when the vapour turns back into water.",
       "points": [
         "Water evaporated over warm tropical oceans carries latent heat poleward; the heat is released where the vapour condenses, for example in a depression over Ireland.",
         "Tropical cyclones (hurricanes) draw large quantities of heat and moisture from tropical oceans and carry them poleward.",
-        "Ex-hurricane Ophelia began as a hurricane in the tropical Atlantic and reached Ireland on 16 October 2017 (see Weather maps and weather data)."
+        "Ex-hurricane Ophelia began as a hurricane in the tropical Atlantic and reached Ireland on 16 October 2017. There is more on this in Weather maps and weather data."
       ]
     },
     {
       "h": "Ocean currents and heat transfer",
+      "b": "Ocean currents are large streams of water moving in set paths. Warm currents move heat poleward and cold currents move cooled water back towards the equator, in a pattern that follows the sides of the ocean basins.",
       "points": [
         "Warm currents carry heat poleward along the western sides of ocean basins: the Gulf Stream, Kuroshio, Brazil Current, East Australian Current and Agulhas Current.",
         "Cold currents return cooled water towards the equator along the eastern sides of ocean basins: the Canary, Benguela, Humboldt (Peru) and California currents, and the Labrador Current.",
         "The Gulf Stream flows from the Gulf of Mexico and the Straits of Florida north-east along the US east coast and across the Atlantic; it carries more water than all the world's rivers combined.",
         "Off Europe the Gulf Stream is called the North Atlantic Drift. It reaches the eastern side of the Atlantic at high latitude, so it is the exception to the rule that warm currents lie on western sides."
-      ]
+      ],
+      "tip": "Warm currents lie on the western sides of ocean basins and cold currents on the eastern sides, in both hemispheres. The Gulf Stream does not reach Ireland by name: off Europe it is the North Atlantic Drift."
     },
     {
       "h": "Thermohaline circulation",
+      "b": "Below the surface currents there is a slow, deep flow of water driven by differences in temperature (thermo) and salt (haline).",
       "points": [
         "The thermohaline circulation, the global conveyor belt, is driven by cold, salty, dense water that sinks in the North Atlantic and around Antarctica and spreads through the deep ocean.",
-        "Warm surface water flows in to replace the sinking water, so heat is carried slowly round the globe over centuries (detail is in Atmospheric and oceanic circulation)."
+        "Warm surface water flows in to replace the sinking water, so heat is carried slowly round the globe over centuries. Detail is in Atmospheric and oceanic circulation."
       ]
     },
     {
       "h": "Evidence that redistribution works",
+      "b": "If heat were not moved, the equator would keep heating and the poles cooling. Two contrasting coasts show currents at work.",
       "points": [
         "Norway's coast stays ice-free in winter, even north of the Arctic Circle (Hammerfest), and Murmansk, Russia, is an ice-free Arctic port, because of the warm water of the North Atlantic Drift.",
         "The coast of Labrador, Canada, at about the same latitude as Ireland, has long, freezing winters and sea ice, because the cold Labrador Current flows south past it."
@@ -217,6 +252,7 @@
     },
     {
       "h": "Changes to redistribution",
+      "b": "The pattern of heat transfer is not fixed, and changes in one part can affect the others.",
       "points": [
         "Melting Arctic ice lowers albedo, so more heat is absorbed.",
         "A weaker Atlantic circulation could change Europe's climate.",

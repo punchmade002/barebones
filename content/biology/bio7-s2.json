@@ -6,58 +6,81 @@
   "notes": [
     {
       "h": "Magnification and resolution",
+      "b": "Microscopes do two different jobs: they make things look bigger, and they let you see fine detail. Students often mix these up, but only the second one limits what a light microscope can show.",
       "points": [
-        "Magnification: how many times larger the image is than the real object.",
-        "Resolution (resolving power): the ability to show two points that are close together as separate. It decides how much detail can be seen.",
-        "Magnifying an image beyond the resolution limit only makes it bigger and blurrier, not more detailed.",
+        "Magnification is how many times larger the image is than the real object, so a ×100 image is 100 times the real size.",
+        "Resolution (also called resolving power) is the ability to show two points that are close together as separate points. It decides how much detail can be seen.",
+        "Magnifying an image beyond the resolution limit only makes it bigger and blurrier, not more detailed, because the two close points have already merged into one blur.",
         "Total magnification of a light microscope = eyepiece lens magnification × objective lens magnification. For example, a ×10 eyepiece with a ×40 objective gives ×400."
-      ]
+      ],
+      "tip": "Don't confuse the two terms: the light microscope's limit is its resolution, not its magnification. If asked to calculate magnification, multiply the eyepiece by the objective."
     },
     {
-      "h": "Parts of the light microscope",
+      "h": "The light microscope: lenses and focusing",
+      "b": "The light (optical) microscope passes light through a thin specimen and uses glass lenses to enlarge the image. These parts form the image and bring it into focus.",
       "points": [
         "Eyepiece (ocular) lens: the lens you look through. It magnifies the image from the objective, usually ×10.",
-        "Objective lenses: on a revolving nosepiece, usually ×4 (scanning), ×10 (low power) and ×40 (high power), sometimes ×100 (oil immersion). They produce the first magnified image.",
-        "Stage with clips: holds the slide over the hole through which light passes.",
-        "Coarse focus knob: moves the stage (or tube) a long way quickly, for focusing at low power only.",
-        "Fine focus knob: moves it a small distance for sharp focus. It is the only focus used at high power.",
-        "Light source: a built-in lamp, or a mirror reflecting light up through the specimen.",
-        "Condenser: a lens under the stage that focuses light onto the specimen.",
-        "Diaphragm (iris): adjusts the amount of light reaching the specimen. Less light often improves contrast for pale, unstained cells.",
-        "Arm and base: support the microscope. The arm is used for carrying it.",
-        "Diagram: a light microscope labelled eyepiece, body tube, revolving nosepiece, objective lenses, stage, clips, condenser, diaphragm, light source (or mirror), coarse focus knob, fine focus knob, arm and base."
-      ]
+        "Objective lenses: mounted on a revolving nosepiece so they can be swapped. They are usually ×4 (scanning), ×10 (low power) and ×40 (high power), sometimes ×100 (oil immersion). They produce the first magnified image.",
+        "Stage with clips: the platform that holds the slide in place over the hole through which light passes.",
+        "Coarse focus knob: moves the stage (or tube) a long way quickly, so it is used for focusing at low power only.",
+        "Fine focus knob: moves the stage or tube a small distance to give a sharp image. It is the only focus used at high power."
+      ],
+      "tip": "Exams ask you to give the function of a named part, so learn each part with its job. At high power never say you use the coarse focus."
     },
     {
-      "h": "Using the light microscope",
+      "h": "The light microscope: light control, support and diagram",
+      "b": "Light has to reach the specimen in the right amount and direction, and the instrument needs a stable frame. These parts do that.",
       "points": [
-        "1. Carry the microscope with one hand on the arm and the other under the base.",
+        "Light source: a built-in lamp, or a mirror that reflects light up through the specimen.",
+        "Condenser: a lens under the stage that focuses light onto the specimen.",
+        "Diaphragm (iris): adjusts the amount of light reaching the specimen. Less light often improves contrast for pale, unstained cells, which are nearly transparent and look washed out in bright light.",
+        "Arm and base: support the microscope. The arm is used for carrying it.",
+        "Diagram: a light microscope labelled eyepiece, body tube, revolving nosepiece, objective lenses, stage, clips, condenser, diaphragm, light source (or mirror), coarse focus knob, fine focus knob, arm and base."
+      ],
+      "tip": "To adjust the amount of light reaching the specimen, name the diaphragm, and also the condenser and the lamp. Practise labelling the diagram, as label-a-microscope questions are asked."
+    },
+    {
+      "h": "Using the light microscope: setting up and focusing",
+      "b": "The method is built to protect the slide and the lenses. You always start on the lowest power, which has the widest view and the most room between lens and slide.",
+      "points": [
+        "1. Carry the microscope with one hand on the arm and the other under the base, so its weight is supported.",
         "2. Switch on the light and turn the lowest-power objective into place.",
-        "3. Clip the slide on the stage with the specimen over the hole.",
-        "4. Looking from the side, use the coarse focus to bring the objective close to the slide without touching it.",
+        "3. Clip the slide on the stage with the specimen over the hole, so light can pass through it.",
+        "4. Looking from the side, use the coarse focus to bring the objective close to the slide without touching it. Watching from the side stops you grinding the lens into the slide.",
         "5. Looking through the eyepiece, focus by moving the objective and slide apart until the image is clear.",
         "6. Use the fine focus to sharpen the image, and the diaphragm to adjust the light.",
-        "7. Move the part to be studied to the centre of the field of view.",
+        "7. Move the part to be studied to the centre of the field of view (the circle of specimen you can see), so it stays in view when you increase magnification.",
         "8. Turn the next objective into place and use only the fine focus.",
-        "9. Record the total magnification with every drawing.",
-        "The image is inverted, upside down and reversed left to right: moving the slide to the left moves the image to the right.",
-        "At higher magnification the field of view is smaller and the image is dimmer, so more light is needed. At high power the objective is very close to the slide, which is why the coarse focus must not be used.",
+        "9. Record the total magnification with every drawing."
+      ],
+      "tip": "Only the fine focus is used at high power. Never write that you use the coarse focus to focus at ×400."
+    },
+    {
+      "h": "What you see and how to stay safe",
+      "b": "The image behaves in predictable ways as you change objective, and one safety rule matters for your eyes.",
+      "points": [
+        "The image is inverted, meaning upside down and reversed left to right. This means moving the slide to the left moves the image to the right.",
+        "At higher magnification the field of view is smaller and the image is dimmer, so more light is needed.",
+        "At high power the objective is very close to the slide, which is why the coarse focus must not be used: it could crash the lens into the slide.",
         "Never use a mirror to reflect direct sunlight into the microscope, as it can damage the eye."
       ]
     },
     {
       "h": "Preparing and mounting a slide",
+      "b": "To view a specimen with light passing through it, you mount it on a glass slide. The technique below is the general method that any slide uses.",
       "points": [
-        "A wet mount: the specimen is placed in a drop of water or stain on a clean glass slide and covered with a coverslip.",
+        "A wet mount: the specimen is placed in a drop of water or stain on a clean glass slide and covered with a coverslip (a thin square of glass).",
         "The specimen must be very thin, ideally one layer of cells thick, so that light can pass through it and the cells do not overlap.",
-        "Stains add contrast to transparent structures by colouring some parts more than others. Iodine solution is used for plant cells: it stains the nucleus yellow-brown and turns starch blue-black. Methylene blue is used for animal cells: it stains the nucleus dark blue. The full procedures are in “Investigation: plant and animal cells”.",
+        "Stains add contrast to transparent structures by colouring some parts more than others. Iodine solution is used for plant cells: it stains the nucleus yellow-brown and turns starch blue-black. Methylene blue is used for animal cells: it stains the nucleus dark blue.",
         "Lowering the coverslip: touch one edge of the coverslip to the liquid at an angle of about 45° and lower it slowly with a mounted needle. This pushes air out ahead of it and avoids air bubbles, which appear as black-edged circles and can hide cells.",
         "The coverslip keeps the specimen flat, stops it drying out, and protects the objective lens from the liquid. Excess liquid is removed by touching filter paper or a paper towel to the edge.",
-        "Stain can also be added after the coverslip is on. Put a drop at one edge and draw it under the coverslip with filter paper held at the opposite edge (irrigation)."
-      ]
+        "Stain can also be added after the coverslip is on. Put a drop at one edge and draw it under the coverslip with filter paper held at the opposite edge (irrigation). There is more on the full procedures in Investigation: plant and animal cells."
+      ],
+      "tip": "If asked why a coverslip is lowered at an angle, say it pushes air out and avoids bubbles. If asked why a stain is used, say it adds contrast to transparent structures."
     },
     {
       "h": "Electron microscopes",
+      "b": "A light microscope cannot resolve anything much smaller than 0.2 µm. Electron microscopes get round this by using electrons instead of light, so they show far finer detail.",
       "points": [
         "An electron microscope uses a beam of electrons instead of light, focused by electromagnets instead of glass lenses. Electrons have a much shorter wavelength than light, so resolution is far better.",
         "The specimen is in a vacuum, because air would scatter the electrons, so it must be dead. The image is viewed on a screen and recorded digitally. It is black and white, and colour is added afterwards (false colour).",
@@ -65,21 +88,25 @@
         "Scanning electron microscope (SEM): a beam of electrons scans across the surface of a specimen coated with a very thin layer of metal, e.g. gold. Electrons bouncing off it form an image. It gives a 3D image of surfaces, e.g. the surface of cells, pollen grains and insects.",
         "The SEM has lower resolution than the TEM and shows no internal structure unless the specimen is broken open.",
         "The first electron microscope was built in Germany in 1931 by Max Knoll and Ernst Ruska."
-      ]
+      ],
+      "tip": "To distinguish TEM and SEM: TEM shows internal structure in 2D, SEM shows surfaces in 3D. Don't say the SEM shows organelles inside the cell; that is the TEM."
     },
     {
       "h": "Comparing light and electron microscopes",
+      "b": "The two types differ in how they work, what they can resolve and what they demand of the specimen. Compare them point by point.",
       "points": [
         "Radiation: light for the light microscope, electrons for the electron microscope. Lenses: glass for the light microscope, electromagnets for the electron microscope.",
         "Maximum useful magnification: about ×1000–1500 for the light microscope, compared with hundreds of thousands of times or more for electron microscopes.",
         "Resolution: about 0.2 µm (200 nm) for the light microscope, compared with less than 1 nm for the TEM, roughly a thousand times better.",
-        "So the light microscope shows the nucleus, cell wall, vacuole and chloroplasts. Ribosomes, nuclear pores, the inner structure of mitochondria and viruses need an electron microscope.",
+        "So the light microscope shows the nucleus, cell wall, vacuole and chloroplasts. Ribosomes, nuclear pores, the inner structure of mitochondria and viruses are too small and need an electron microscope.",
         "Specimens: the light microscope can view living or dead specimens, with colour visible. The electron microscope needs dead specimens in a vacuum, and its images are black and white.",
         "Preparation and cost: light microscopes are simple, quick, cheap and portable. Electron microscopes need complex preparation (thin sectioning, metal coating) that can create artefacts, structures that are not really in the living cell. They are very expensive, large, and need trained operators."
-      ]
+      ],
+      "tip": "Comparison questions are best answered with paired points: give the light microscope and the electron microscope for the same feature, such as resolution, specimen or cost."
     },
     {
       "h": "Existing and emerging microscopy",
+      "b": "Microscopy has a long history and is still developing. Newer techniques tag, scan or freeze specimens to reveal what older methods could not.",
       "points": [
         "Robert Hooke described and named “cells” from thin slices of cork in his book Micrographia (1665).",
         "Antonie van Leeuwenhoek, using his own single-lens microscopes, was the first to see and describe bacteria and other single-celled organisms, in the 1670s.",
@@ -87,8 +114,16 @@
         "Green fluorescent protein (GFP), from a jellyfish, earned the 2008 Nobel Prize in Chemistry, awarded to Osamu Shimomura, Martin Chalfie and Roger Tsien.",
         "Confocal laser scanning microscopy: a laser scans one thin plane of the specimen at a time, giving sharp images that a computer combines into a 3D model.",
         "Super-resolution fluorescence microscopy overcomes the light microscope’s normal resolution limit. It earned the 2014 Nobel Prize in Chemistry, awarded to Eric Betzig, Stefan Hell and William Moerner.",
-        "Cryo-electron microscopy: samples are flash-frozen in a thin layer of ice instead of being dried and stained, so molecules keep their natural shape. It shows the structure of proteins and viruses in near-atomic detail. It earned the 2017 Nobel Prize in Chemistry, awarded to Jacques Dubochet, Joachim Frank and Richard Henderson.",
-        "Cryo-electron microscopy was used to show the structure of the SARS-CoV-2 spike protein, which helped vaccine design.",
+        "Cryo-electron microscopy: samples are flash-frozen in a thin layer of ice instead of being dried and stained, so molecules keep their natural shape. It shows the structure of proteins and viruses in near-atomic detail.",
+        "Cryo-electron microscopy earned the 2017 Nobel Prize in Chemistry, awarded to Jacques Dubochet, Joachim Frank and Richard Henderson.",
+        "Cryo-electron microscopy was used to show the structure of the SARS-CoV-2 spike protein, which helped vaccine design."
+      ],
+      "tip": "If asked to name an emerging microscopy technique and its use, pick one, such as fluorescence (locating a protein in a living cell) or cryo-electron microscopy (near-atomic structure of proteins and viruses)."
+    },
+    {
+      "h": "Uses of microscopy in health and technology",
+      "b": "Microscopes are everyday tools in medicine, research and forensics, and modern imaging adds automation.",
+      "points": [
         "Uses in health and technology: examining blood smears and biopsies to diagnose disease, including spotting cancer cells; identifying pathogens; research into how cells and viruses work; and forensic science, e.g. comparing hairs and fibres.",
         "Digital cameras and computer image analysis now allow images to be measured, shared and analysed automatically."
       ]

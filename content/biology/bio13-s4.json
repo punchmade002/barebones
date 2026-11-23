@@ -6,122 +6,182 @@
   "notes": [
     {
       "h": "Why industry uses enzymes",
+      "b": "Industry needs reactions that are fast, clean and cheap. Enzymes (biological catalysts, which speed up reactions without being changed) often do this better than the chemical catalysts used in factories.",
       "points": [
-        "Specificity: an enzyme catalyses one reaction, so it makes the wanted product with few unwanted by-products, giving a purer product that needs less purification.",
-        "Mild conditions: enzymes work at moderate temperatures (often 30–60 °C), normal pressure and near-neutral pH, whereas many chemical catalysts need high temperatures and pressures.",
-        "Mild conditions save energy and money, reduce greenhouse gas emissions, and make the process safer.",
-        "Enzymes are efficient catalysts that are not used up, and they are biodegradable, so they leave less harmful waste than many chemical catalysts.",
-        "Most industrial enzymes are made by microorganisms (bacteria and fungi) grown in large vessels called fermenters or bioreactors, because microorganisms grow fast, can be grown on cheap nutrients, and many release (secrete) their enzymes into the medium, where they are easy to collect.",
-        "Many industrial enzymes are now made by genetically modified microorganisms carrying the gene for the enzyme (see “Genetic engineering”).",
-        "A few enzymes come from plants (e.g. papain from papaya) or from animals, such as rennet (described under Enzymes in food and beverages).",
-        "Limitation: enzymes are denatured by high temperatures and extreme pH, so conditions must be carefully controlled.",
-        "Limitation: enzymes can be expensive to produce and purify.",
-        "Limitation: free enzymes are lost in the product after one use; immobilisation solves this (see the block on immobilised enzymes below).",
-        "Limitation: enzyme dust can cause allergies. In the early years of biological detergents, some factory workers developed allergies, so enzymes are now sealed in granules.",
-        "Enzymes from microorganisms that live in hot springs or in alkaline conditions are chosen or engineered for processes that need tougher enzymes."
-      ]
+        "Specificity: an enzyme catalyses one reaction, so it makes the wanted product with few unwanted by-products. This gives a purer product that needs less purification.",
+        "Mild conditions: enzymes work at moderate temperatures (often 30–60 °C), normal pressure and near-neutral pH (neither strongly acidic nor alkaline), whereas many chemical catalysts need high temperatures and pressures.",
+        "Mild conditions save energy and money, reduce greenhouse gas emissions, and make the process safer, because there are no very hot, high-pressure vessels.",
+        "Enzymes are efficient catalysts that are not used up, so a small amount can be used repeatedly. They are also biodegradable (broken down naturally), so they leave less harmful waste than many chemical catalysts."
+      ],
+      "tip": "If asked why enzymes are used in industry instead of chemical catalysts, give specificity, mild conditions (with the saving in energy and money) and less harmful waste, each with its reason."
     },
     {
-      "h": "Enzymes in food and beverages",
+      "h": "Where industrial enzymes come from, and their limits",
+      "b": "Industry has to get its enzymes from living things, and enzymes have weaknesses as well as strengths. Knowing both explains how enzymes are produced and why the conditions in a factory are tightly controlled.",
+      "points": [
+        "Most industrial enzymes are made by microorganisms (bacteria and fungi) grown in large vessels called fermenters or bioreactors. They are used because they grow fast, can be grown on cheap nutrients, and many release (secrete) their enzymes into the medium, where they are easy to collect.",
+        "Many industrial enzymes are now made by genetically modified microorganisms, which carry the gene for the enzyme. There is more on this in Genetic engineering.",
+        "A few enzymes come from plants (e.g. papain from papaya) or from animals, such as rennet (from calves' stomachs).",
+        "Limitation: enzymes are denatured (their shape is permanently changed so they stop working) by high temperatures and extreme pH, so conditions must be carefully controlled.",
+        "Limitation: enzymes can be expensive to produce and purify.",
+        "Limitation: free enzymes (ones simply dissolved in the mixture) are lost in the product after one use. Immobilisation, covered below, solves this.",
+        "Limitation: enzyme dust can cause allergies. In the early years of biological detergents, some factory workers developed allergies, so enzymes are now sealed in granules.",
+        "Enzymes from microorganisms that live in hot springs or in alkaline conditions are chosen or engineered for processes that need tougher enzymes, because they already work where normal enzymes would be denatured."
+      ],
+      "tip": "Don't forget the downsides: examiners can ask for limitations of enzymes as well as advantages. Denaturation and cost are the standard ones."
+    },
+    {
+      "h": "Enzymes in dairy foods: cheese and lactose-free milk",
+      "b": "Milk is a good example of how industry uses single, specific enzymes. One enzyme turns milk into cheese, and another removes the sugar that some people cannot digest.",
       "points": [
         "Cheese-making: chymosin (rennin), the active enzyme in rennet, clots the milk protein casein, so the milk separates into solid curds (made into cheese) and liquid whey.",
-        "Rennet was traditionally extracted from the stomachs of young calves; much of the chymosin used today is made by genetically modified microorganisms, which suits vegetarians and needs no animals.",
-        "Lactose-free milk: lactase breaks lactose down into glucose and galactose, so people with lactose intolerance (see Enzymes as catalysts) can drink the milk.",
-        "Lactose-free milk tastes sweeter, as glucose and galactose are sweeter than lactose. Lactase is often used immobilised.",
+        "Rennet was traditionally extracted from the stomachs of young calves. Much of the chymosin used today is made by genetically modified microorganisms, which suits vegetarians and needs no animals.",
+        "Lactose-free milk: lactase breaks lactose (the sugar in milk) down into glucose and galactose, so people with lactose intolerance (who cannot digest lactose) can drink the milk.",
+        "Lactose-free milk tastes sweeter, because glucose and galactose are sweeter than lactose. Lactase is often used immobilised."
+      ],
+      "tip": "Cheese-making is an enzyme use (chymosin clotting casein). Yoghurt-making uses whole microorganisms, so don't give it as an example of an enzyme use."
+    },
+    {
+      "h": "Enzymes in juice, syrups, brewing and baking",
+      "b": "Plant materials such as fruit and grain are full of structural and storage carbohydrates. Carbohydrate-digesting enzymes release the useful sugars and make processing easier.",
+      "points": [
         "Fruit juice: pectinase breaks down pectin, which helps hold plant cell walls together, so more juice is released from crushed fruit and the juice is clearer (less cloudy).",
-        "Sugar syrups: amylases break starch (e.g. from maize) into glucose syrup; immobilised glucose isomerase then converts glucose into fructose, which is much sweeter.",
+        "Sugar syrups: amylases break starch (e.g. from maize) into glucose syrup. Immobilised glucose isomerase then converts glucose into fructose, which is much sweeter.",
         "High-fructose syrup is used to sweeten soft drinks and processed foods, so less is needed for the same sweetness.",
-        "Brewing and baking: amylases break starch in grain into maltose and glucose, which yeast ferments to make ethanol and carbon dioxide (fermentation is in Respiration); in baking, this helps the dough rise.",
-        "Proteases are used to clear haze from beer.",
+        "Brewing and baking: amylases break starch in grain into maltose and glucose, which yeast ferments to make ethanol and carbon dioxide. In baking, the carbon dioxide helps the dough rise. There is more on fermentation in Respiration.",
+        "Proteases (enzymes that digest protein) are used to clear haze from beer."
+      ],
+      "tip": "Glucose isomerase converts glucose to fructose. It does not break down starch: that is the job of amylase. Yeast is mentioned only as the organism that ferments the sugars."
+    },
+    {
+      "h": "Other food uses and biological washing powders",
+      "b": "Proteases, lipases and amylases digest the three main food molecules: protein, fat and starch. This is why they are useful both in sweets and meat and in household cleaning.",
+      "points": [
         "Proteases such as papain tenderise meat by breaking down muscle proteins.",
         "Invertase (sucrase) converts sucrose into glucose and fructose, to make the soft centres of chocolates and other sweets.",
         "Household link: biological washing powders contain proteases, lipases and amylases that digest protein stains (blood, egg, grass), fat and grease, and starch.",
-        "Biological washing powders work at low washing temperatures (e.g. 30–40 °C), saving energy; they are not used at very high temperatures, where the enzymes would be denatured."
-      ]
+        "Biological washing powders work at low washing temperatures (e.g. 30–40 °C), saving energy. They are not used at very high temperatures, where the enzymes would be denatured."
+      ],
+      "tip": "Biological detergents don't work better at very high temperatures: the enzymes would be denatured. Their advantage is low-temperature washing."
     },
     {
-      "h": "Enzymes in biofuels",
+      "h": "Enzymes in biofuels: making bioethanol and biodiesel",
+      "b": "Biofuels are fuels made from living material. Enzymes are needed to turn the carbohydrates and oils in plants into forms that yeast or chemistry can convert into fuel.",
       "points": [
-        "Bioethanol from starch crops: amylases break the starch of crops such as maize and wheat into glucose, which yeast ferments to ethanol; the ethanol is blended with petrol as a fuel.",
+        "Bioethanol from starch crops: amylases break the starch of crops such as maize and wheat into glucose, which yeast ferments to ethanol. The ethanol is blended with petrol as a fuel.",
         "Bioethanol from cellulose (a second-generation biofuel): cellulases break down the cellulose in straw, wood chips and other crop waste into glucose for fermentation.",
-        "Cellulose is tightly packed and hard to digest (see Structures of biomolecules), so these enzymes are slow and costly and are an active area of research.",
-        "Biodiesel: lipases can catalyse the conversion of vegetable oils and waste cooking oils into biodiesel, an alternative to chemical catalysts that works at lower temperatures and leaves less waste.",
-        "Arguments for: biofuels are renewable; the carbon dioxide released when they burn was taken in by the crop during photosynthesis, so they add less to atmospheric CO₂ than fossil fuels; using waste materials (straw, waste oil) adds value to waste.",
-        "Arguments against: growing fuel crops uses land that could grow food, which can raise food prices; clearing forests for fuel crops destroys habitats and releases carbon; fertilisers, machinery and processing use fossil-fuel energy, so the saving is smaller than it first appears.",
-        "Cellulose-based and waste-based biofuels avoid most of the competition with food.",
-        "Carbon cycle and climate detail is in Nutrient Cycling."
-      ]
+        "Cellulose is tightly packed and hard to digest, so these enzymes are slow and costly and are an active area of research. There is more on cellulose in Structures of biomolecules.",
+        "Biodiesel: lipases can catalyse the conversion of vegetable oils and waste cooking oils into biodiesel. This is an alternative to chemical catalysts that works at lower temperatures and leaves less waste."
+      ],
+      "tip": "Match each enzyme to its raw material: amylase for starch bioethanol, cellulase for cellulose bioethanol, lipase for biodiesel."
+    },
+    {
+      "h": "Biofuels: arguments for and against",
+      "b": "Biofuels are often described as green, but the picture is more complicated. Exams ask you to weigh the benefits against the costs.",
+      "points": [
+        "For: biofuels are renewable, because the crops can be regrown.",
+        "For: the carbon dioxide released when they burn was taken in by the crop during photosynthesis, so they add less to atmospheric CO₂ than fossil fuels.",
+        "For: using waste materials (straw, waste oil) adds value to waste.",
+        "Against: growing fuel crops uses land that could grow food, which can raise food prices.",
+        "Against: clearing forests for fuel crops destroys habitats and releases carbon.",
+        "Against: fertilisers, machinery and processing use fossil-fuel energy, so the saving is smaller than it first appears.",
+        "Cellulose-based and waste-based biofuels avoid most of the competition with food, because they use parts of the plant or waste that people do not eat. Carbon cycle and climate detail is in Nutrient Cycling."
+      ],
+      "tip": "Discussing biofuels means giving both sides. A good answer pairs an argument for (renewable, lower net CO₂) with an argument against (land use, fossil fuel energy in production)."
     },
     {
       "h": "Enzymes in medicine",
+      "b": "Because enzymes are so specific, they are used in medicine to detect substances, break down harmful ones, and replace enzymes that the body fails to supply.",
       "points": [
         "Diagnosis: glucose oxidase is used in blood-glucose test strips and electronic biosensors used by people with diabetes, and in urine test strips.",
-        "Glucose oxidase is specific to glucose, so other sugars do not interfere; the reaction produces a colour change or an electrical signal in proportion to the amount of glucose.",
+        "Glucose oxidase is specific to glucose, so other sugars do not interfere. The reaction produces a colour change or an electrical signal in proportion to the amount of glucose.",
         "Dissolving blood clots: clot-dissolving enzymes such as streptokinase (from bacteria) and tissue plasminogen activator (tPA) are given soon after a heart attack or a stroke caused by a clot, to break down the clot and restore blood flow.",
         "Enzyme replacement: people with cystic fibrosis often cannot release enough digestive enzymes from the pancreas, so they take capsules of pancreatic enzymes (lipase, protease and amylase) with meals.",
-        "Lactase tablets help people with lactose intolerance.",
+        "Lactase tablets help people with lactose intolerance, because they supply the missing enzyme.",
         "Cancer treatment: the enzyme asparaginase is used to treat a type of childhood leukaemia (acute lymphoblastic leukaemia).",
-        "The leukaemia cells cannot make enough of the amino acid asparagine and take it from the blood; the enzyme breaks down asparagine in the blood, starving the cancer cells.",
-        "Medical technologies built on enzymes: restriction enzymes and DNA ligase in genetic engineering (see “Genetic engineering”); Taq polymerase in PCR for DNA profiling and diagnostic testing (see “Generating a DNA profile”)."
-      ]
+        "The leukaemia cells cannot make enough of the amino acid asparagine and take it from the blood. The enzyme breaks down asparagine in the blood, starving the cancer cells.",
+        "Medical technologies built on enzymes (named only here): restriction enzymes and DNA ligase in genetic engineering (see “Genetic engineering”); Taq polymerase in PCR for DNA profiling and diagnostic testing (see “Generating a DNA profile”)."
+      ],
+      "tip": "Exams ask you to name an industrial or medical use of a named enzyme. Learn enzyme, use and reason together, e.g. glucose oxidase in glucose test strips because it is specific to glucose."
     },
     {
       "h": "Enzymes in pharmaceuticals",
+      "b": "Making drugs chemically can be wasteful and use harsh conditions. Enzymes can make the same drugs more precisely and more cleanly.",
       "points": [
         "Making antibiotics: immobilised penicillin acylase converts natural penicillin, made by the Penicillium mould, into a starting molecule (6-APA) from which semi-synthetic penicillins, such as amoxicillin, are made.",
         "Semi-synthetic penicillins can treat infections that the natural form does not.",
         "Making single-form drugs: many drug molecules exist in two mirror-image forms, of which only one works (the other may be useless or harmful).",
-        "Because enzymes are specific, they make only the wanted form, avoiding wasteful separation; e.g. an engineered enzyme (a transaminase) is used to manufacture the diabetes drug sitagliptin.",
-        "Enzymes allow drug manufacture at mild temperatures with less toxic solvent waste than chemical methods (“green chemistry”).",
-        "Human insulin made by genetically modified bacteria depends on enzymes used to insert the gene (see “Genetic engineering”)."
-      ]
+        "Because enzymes are specific, they make only the wanted form, avoiding wasteful separation. For example, an engineered enzyme (a transaminase) is used to manufacture the diabetes drug sitagliptin.",
+        "Enzymes allow drug manufacture at mild temperatures with less toxic solvent waste than chemical methods (“green chemistry”). Human insulin made by genetically modified bacteria depends on enzymes used to insert the gene (see “Genetic engineering”)."
+      ],
+      "tip": "Link pharmaceutical uses back to the general reasons for using enzymes: specificity gives only the wanted mirror-image form, and mild conditions give less waste."
     },
     {
-      "h": "Immobilised enzymes: what and why",
+      "h": "Immobilised enzymes: what they are and how they are made",
+      "b": "Free enzymes mix into the product and are lost after one use. Fixing the enzyme in place solves this, and it is a central idea in industrial enzyme use.",
       "points": [
-        "An immobilised enzyme is an enzyme (or a whole cell containing it) fixed to, or trapped in, an inert, insoluble material, so that it is held in place while the substrate solution passes over or through it and does not mix freely with the product.",
+        "An immobilised enzyme is an enzyme (or a whole cell containing it) fixed to, or trapped in, an inert, insoluble material. It is held in place while the substrate solution passes over or through it, so it does not mix freely with the product.",
         "Entrapment: the enzyme is trapped in a gel bead, such as calcium alginate.",
         "Adsorption: the enzyme is stuck to the surface of an insoluble support, such as glass beads, resin or charcoal.",
         "Covalent bonding: the enzyme is chemically bonded to a support.",
         "Enclosure: the enzyme is enclosed behind a partially permeable membrane.",
+        "Examples: glucose isomerase for high-fructose syrup; lactase for lactose-free milk; penicillin acylase for semi-synthetic penicillins."
+      ],
+      "tip": "Immobilised enzymes are not denatured or dead: they are held in place and still active. If asked to name two substances for immobilising enzymes or yeast in school, give calcium alginate and, for example, glass beads or resin."
+    },
+    {
+      "h": "Advantages and disadvantages of immobilised enzymes",
+      "b": "Immobilisation brings clear benefits in cost and purity, but it also adds complications. Exams ask for both sides.",
+      "points": [
         "Advantage: the enzyme can be recovered and reused many times, cutting costs.",
         "Advantage: the product is not contaminated with enzyme, so it needs no purification.",
         "Advantage: the enzyme can be packed in a column for a continuous-flow process, with substrate fed in at the top and product collected at the bottom.",
-        "Advantage: immobilised enzymes are often more stable, being less easily denatured by changes in temperature or pH; the reaction can be stopped at once by removing the enzyme.",
-        "Disadvantage: immobilising costs money and equipment to set up, and some activity is lost, as part of the active sites may be blocked or altered.",
-        "Disadvantage: the reaction can be slower, because the substrate must diffuse into the bead to reach the enzyme; enzyme may leak out of the support.",
-        "Disadvantage: immobilised enzymes are unsuitable where the substrate molecules are too large to enter the beads.",
-        "Examples: glucose isomerase for high-fructose syrup; lactase for lactose-free milk; penicillin acylase for semi-synthetic penicillins (the uses are described above)."
-      ]
+        "Advantage: immobilised enzymes are often more stable, being less easily denatured by changes in temperature or pH. The reaction can be stopped at once by removing the enzyme.",
+        "Disadvantage: immobilising costs money and equipment to set up, and some activity is lost, as part of the active sites (where the substrate binds) may be blocked or altered.",
+        "Disadvantage: the reaction can be slower, because the substrate must diffuse into the bead to reach the enzyme. Enzyme may also leak out of the support.",
+        "Disadvantage: immobilised enzymes are unsuitable where the substrate molecules are too large to enter the beads."
+      ],
+      "tip": "If asked to give advantages and disadvantages of immobilised enzymes, give each with its reason: reuse cuts cost, no enzyme in the product means no purification."
     },
     {
       "h": "Immobilising yeast in alginate beads: method",
+      "b": "This is the school method for immobilising an enzyme. Yeast is used because its cells contain the enzyme sucrase (also called invertase), which acts on sucrose.",
       "points": [
         "1. Mix sodium alginate solution with a suspension of yeast (which contains the enzyme sucrase, also called invertase) or with an enzyme solution.",
         "2. Draw the mixture into a syringe and drop it, one drop at a time, into calcium chloride solution: each drop forms a bead of insoluble calcium alginate gel trapping the yeast.",
         "3. Leave the beads to harden for about 15–20 minutes.",
         "4. Sieve them out and rinse them with distilled water to remove the calcium chloride and any free yeast.",
         "5. Place the beads in a separating funnel (or a syringe barrel with a tap) as a column.",
-        "Using the beads: pour sucrose solution through the column and collect the liquid that drips out; test it with a glucose test strip.",
-        "A positive glucose result shows that the sucrose has been converted to glucose and fructose; the sucrose solution tested before it enters the column gives a negative result.",
-        "Control: beads made without yeast (alginate only); their product gives no glucose.",
-        "The product from the beads is clear, while sucrose mixed with free yeast becomes cloudy with yeast cells that must be removed, showing the advantage of immobilisation. The beads can be rinsed and used again.",
-        "Safety: calcium chloride irritates the eyes; wear safety glasses and wash spills.",
+        "Safety: calcium chloride irritates the eyes, so wear safety glasses and wash spills.",
         "Diagram: (a) a syringe dripping the alginate–yeast mixture into a beaker of calcium chloride solution, with beads forming, labelled; (b) a separating funnel or column packed with beads, with sucrose solution added at the top, a tap, and product (glucose and fructose) collected below, labelled."
-      ]
+      ],
+      "tip": "The beads are calcium alginate, formed when sodium alginate meets calcium chloride, so don't reverse the two solutions. Yeast contains sucrase (invertase), which acts on sucrose; don't say yeast contains glucose."
+    },
+    {
+      "h": "Using the beads and checking they work",
+      "b": "Once the column is made, sucrose solution is passed through it and the liquid that comes out is tested. A control and a comparison with free yeast show that the beads do the work and that immobilisation helps.",
+      "points": [
+        "Using the beads: pour sucrose solution through the column and collect the liquid that drips out. Test it with a glucose test strip.",
+        "A positive glucose result shows that the sucrose has been converted to glucose and fructose. The sucrose solution tested before it enters the column gives a negative result.",
+        "Control: beads made without yeast (alginate only). Their product gives no glucose, so the conversion is due to the yeast and not the beads.",
+        "The product from the beads is clear, while sucrose mixed with free yeast becomes cloudy with yeast cells that must be removed, showing the advantage of immobilisation. The beads can be rinsed and used again."
+      ],
+      "tip": "When asked to describe the method, give the steps in order, the test for glucose, and the control with alginate-only beads."
     },
     {
       "h": "Bioreactors",
+      "b": "Enzymes and cells work best when conditions are right. A bioreactor is the vessel that holds those conditions steady in industry.",
       "points": [
         "A bioreactor is a vessel in which cells or enzymes carry out a reaction under controlled conditions: temperature, pH, oxygen (or its absence), nutrient supply, mixing and sterility are monitored and kept at the values that suit the enzyme.",
-        "A column of immobilised enzyme is a simple bioreactor.",
-        "Growing microorganisms in bioreactors, and batch and continuous culture, are covered in Microorganisms in industry."
-      ]
+        "A column of immobilised enzyme is a simple bioreactor. There is more on growing microorganisms in bioreactors, and on batch and continuous culture, in Microorganisms in industry."
+      ],
+      "tip": "If asked what a bioreactor is, say it is a vessel where cells or enzymes react under controlled conditions, and name some of the conditions controlled."
     },
     {
       "h": "Enzymes across the four industries",
+      "b": "The uses above fall into three themes that link enzymes to health, sustainability and technology. Exams may ask you to draw these together.",
       "points": [
-        "Health: diagnostic strips and biosensors, clot-busting and replacement enzymes, and lactose-free foods (see the blocks above on medicine and on food and beverages).",
+        "Health: diagnostic strips and biosensors, clot-busting and replacement enzymes, and lactose-free foods.",
         "Sustainability: lower energy use and less chemical waste; low-temperature washing; biofuels and the arguments about them; more juice from the same fruit.",
         "Technology: genetic modification of microorganisms to make enzymes, engineered enzymes, immobilisation and continuous-flow bioreactors."
       ]

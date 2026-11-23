@@ -5,159 +5,242 @@
   "syllabusRef": "3.1.11",
   "notes": [
     {
-      "h": "Planning the grassland study",
-      "b": "The study of a grassland habitat is an ecological investigation. Its aim is to find out which organisms live there. The terms ecosystem, habitat, population, community, biotic factor and abiotic factor are defined in “Biosphere, ecosystems, habitats and biodiversity” and are used here without redefinition.",
+      "h": "Aim and stages of the grassland study",
+      "b": "An ecological investigation studies living things in their natural surroundings, and here the surroundings are a grassland habitat. The first job is to find out which organisms live there, because every later measurement is built on that list.",
       "points": [
-        "Aim: to find out which organisms live in a chosen grassland habitat, to collect and identify them, and so to build a species list on which the surveys, abiotic measurements and feeding-relationship work are based. Data gathered first-hand in the field are primary data.",
-        "Stage 1: a preliminary visit to choose and map the study area (mapping is in “Surveys”).",
-        "Stage 2: observe, collect and identify the organisms (this note).",
-        "Stage 3: a qualitative survey (species list) and a quantitative survey (how many of each) (“Surveys”).",
-        "Stage 4: measure abiotic factors and relate them to the distribution and abundance of a species (“Abiotic factors”).",
-        "Stage 5: work out feeding and symbiotic relationships (“Biotic factors and relationships”).",
-        "Stage 6: present the results and draw conclusions.",
-        "Preliminary visit: walk over the site; note its boundaries and main features (hedges, trees, paths, wet patches, slope, gate); get permission from the landowner; check access and hazards; choose suitable dates.",
-        "Organisms change with the season, so collect over several visits if possible, e.g. late spring to early autumn, when most plants flower and most invertebrates are active.",
-        "Equipment: pitfall traps (jars, trowel, flat stones or lids), pooter, sweep net, beating tray and stick, Tullgren funnel, collecting jars and labelled specimen tubes, white trays, hand lens, identification keys and field guides, camera or phone, notebook and pencil, labels, gloves, tape measures, and quadrats (for “Surveys”).",
-        "Independent variable: the area or time sampled. Dependent variable: the kinds and numbers of organisms caught.",
-        "Controlled variables: the type and number of traps, the trapping time, the number of sweeps, the time of day and the weather, so that collections are a fair comparison when two areas or times are compared.",
-        "No true control is possible in a field study, because the conditions in the field can’t be held constant."
+        "The aim is to find out which organisms live in a chosen grassland habitat (the place where a community of organisms lives), to collect and identify them, and so to build a species list. The surveys, abiotic measurements and feeding-relationship work are all based on that list.",
+        "Data gathered first-hand in the field, by your own counting, measuring and observing, are called primary data. Secondary data would come from books or other people’s work.",
+        "1. A preliminary visit to choose and map the study area (the mapping is done in the Surveys note).",
+        "2. Observe, collect and identify the organisms, which is the stage covered here.",
+        "3. A qualitative survey (which species are present, giving a species list) and a quantitative survey (how many of each) are carried out in the Surveys note.",
+        "4. Measure abiotic factors (non-living factors such as light and temperature) and relate them to the distribution and abundance of a species, as in the Abiotic factors note.",
+        "5. Work out feeding and symbiotic relationships (close partnerships between different species), as in the Biotic factors and relationships note.",
+        "6. Present the results and draw conclusions."
+      ],
+      "tip": "Remember that this stage is only about collecting and naming organisms. Quadrats, transects and the habitat map belong to the surveys stage, and measuring abiotic factors belongs to its own stage, so don’t answer a collection question with them."
+    },
+    {
+      "h": "Preliminary visit and equipment",
+      "b": "Before collecting anything you visit the site once to plan, because what you can find depends on the place, the time of year and the gear you bring.",
+      "points": [
+        "On the preliminary visit, walk over the site and note its boundaries and main features: hedges, trees, paths, wet patches, slope and gate. These features create different microhabitats (small areas with their own conditions) that you will need to sample.",
+        "Get permission from the landowner, check access and hazards, and choose suitable dates, so that the work is legal and safe before anyone arrives with equipment.",
+        "Organisms change with the season, so collect over several visits if possible, for example late spring to early autumn, when most plants flower and most invertebrates (animals without backbones) are active.",
+        "Collecting equipment: pitfall traps (jars, trowel, flat stones or lids), pooter, sweep net, beating tray and stick, Tullgren funnel, collecting jars and labelled specimen tubes, and white trays on which small animals show up clearly.",
+        "Identification and recording equipment: hand lens, identification keys and field guides, camera or phone, notebook and pencil, and labels.",
+        "Protection and measuring equipment: gloves, tape measures, and quadrats (square frames used in the Surveys note)."
       ]
+    },
+    {
+      "h": "Variables in a field collection",
+      "b": "When you compare two areas or two times, the comparison is only fair if the collecting effort is the same each time. That means deciding what you change, what you measure and what you keep constant.",
+      "points": [
+        "The independent variable (the one you choose to change) is the area or time sampled.",
+        "The dependent variable (the one you measure) is the kinds and numbers of organisms caught.",
+        "The controlled variables (kept the same) are the type and number of traps, the trapping time, the number of sweeps, the time of day and the weather, so that the collections are a fair comparison.",
+        "No true control is possible in a field study, because the conditions in the field can’t be held constant. This is why you control as many variables as you can and repeat the collection."
+      ],
+      "tip": "If asked for the variables in a collecting investigation, state independent, dependent and controlled variables separately, and say that a true control isn’t possible in the field."
     },
     {
       "h": "Observing organisms",
+      "b": "Not every organism can or should be caught. Large, fast or delicate organisms are studied by looking, and animals that hide are detected from the traces they leave.",
       "points": [
-        "Direct observation is used for organisms that are large, fast or that should not be caught, e.g. birds, rabbits, foxes and butterflies, and for all plants, which are identified where they grow and not dug up.",
+        "Direct observation (looking at the organism itself) is used for organisms that are large, fast or that should not be caught, such as birds, rabbits, foxes and butterflies, and for all plants, which are identified where they grow and not dug up.",
         "Use binoculars for birds and mammals at a distance, and a hand lens (about ×10) for small features such as the hairs or veins of a leaf.",
         "Indirect signs show animals that are rarely seen: droppings, tracks in mud, burrows, nests, feathers, molehills and wormcasts.",
-        "Feeding signs: nibbled leaves, holes in leaves made by slugs or caterpillars, and broken snail shells beside a stone used by a song thrush.",
-        "Record each observation at once: the organism (or “unknown species A” with a sketch or photograph until it is identified), where it was found (microhabitat, e.g. under a stone or on a dandelion leaf), the time, the weather and what it was doing (e.g. feeding on what).",
-        "Photographs record organisms without removing them and can be checked later against keys; record the location and date with each image."
-      ]
+        "Feeding signs are indirect signs too: nibbled leaves, holes in leaves made by slugs or caterpillars, and broken snail shells beside a stone used by a song thrush.",
+        "Record each observation at once, so nothing is forgotten: the organism (or ‘unknown species A’ with a sketch or photograph until it is identified) and where it was found (its microhabitat, for example under a stone or on a dandelion leaf).",
+        "Also record the time, the weather and what the organism was doing, such as feeding on what.",
+        "Photographs record organisms without removing them and can be checked later against keys, so record the location and date with each image."
+      ],
+      "tip": "Plants are identified where they grow, not pulled up. Mammals in grassland are usually recorded by observation and signs rather than trapped."
     },
     {
-      "h": "Collecting ground and soil animals",
-      "b": "Each method catches a particular group, and each needs care.",
+      "h": "Collecting ground animals: the pitfall trap",
+      "b": "Many grassland invertebrates (animals without backbones) walk over the soil surface and are hard to spot. A pitfall trap catches them as they travel, with no effort from the collector.",
       "points": [
-        "Pitfall trap: a jar or plastic cup sunk into a hole in the ground so its rim is exactly level with the soil surface, so that animals walking across the ground fall in and can’t climb the smooth sides.",
-        "A flat stone or lid raised on small stones covers the trap, keeping out rain and stopping birds and other predators taking the catch. Bait, e.g. a small piece of meat or fruit, can be added.",
+        "A pitfall trap is a jar or plastic cup sunk into a hole in the ground so that its rim is exactly level with the soil surface. Animals walking across the ground fall in and can’t climb the smooth sides.",
+        "A flat stone or lid raised on small stones covers the trap, which keeps out rain and stops birds and other predators taking the catch. Bait, such as a small piece of meat or fruit, can be added.",
         "Pitfall traps catch ground-dwelling (crawling) invertebrates: ground beetles, spiders, woodlice, slugs, ants and millipedes.",
-        "Check traps at least every 24 hours (ideally early morning), or predators such as ground beetles and spiders will eat the other animals in the trap.",
+        "Check traps at least every 24 hours, ideally early morning, because predators such as ground beetles and spiders will eat the other animals in the trap.",
         "Remove all traps at the end of the study so that no animal is trapped later.",
-        "Diagram: a pitfall trap in section: jar in the soil with rim level with the surface, raised flat stone cover on small supports, bait, and animals inside; label soil surface, jar, cover, bait.",
-        "Tullgren funnel: extracts small animals from a sample of soil or leaf litter.",
-        "The sample sits on a wire mesh (gauze) in a funnel under a lamp (a light bulb about 10–20 cm above it).",
+        "Diagram: a pitfall trap in section: jar in the soil with rim level with the surface, raised flat stone cover on small supports, bait, and animals inside. Label soil surface, jar, cover, bait."
+      ],
+      "tip": "Draw the rim level with the ground, not sticking up, because a raised rim stops animals falling in. For precautions, give checking every 24 hours and removing the traps afterwards."
+    },
+    {
+      "h": "Collecting soil animals: the Tullgren funnel",
+      "b": "Tiny animals living in soil and leaf litter (the layer of dead leaves on the ground) are too small to pick out by hand. A Tullgren funnel gets them to leave the sample by themselves.",
+      "points": [
+        "A Tullgren funnel extracts small animals from a sample of soil or leaf litter.",
+        "The sample sits on a wire mesh (gauze) in a funnel under a lamp, a light bulb about 10–20 cm above it.",
         "The heat and light dry the sample from the top, so the animals move down away from the heat, light and dryness, through the mesh and into a collecting beaker below. The lamp drives the animals away; it does not attract them.",
         "The beaker holds damp tissue paper to keep the animals alive, or ethanol if they are to be preserved for identification. Leave the funnel for several hours to a day.",
         "A Tullgren funnel catches mites, springtails, small beetles and their larvae, and small worms.",
-        "The mesh must be fine enough to hold back the soil; too hot a lamp kills the animals before they leave.",
-        "Diagram: a Tullgren funnel: lamp, soil or leaf-litter sample, wire gauze, funnel, collecting beaker with damp tissue (or ethanol), and an arrow showing animals moving down away from the heat and light.",
+        "The mesh must be fine enough to hold back the soil, and too hot a lamp kills the animals before they leave.",
+        "Diagram: a Tullgren funnel: lamp, soil or leaf-litter sample, wire gauze, funnel, collecting beaker with damp tissue (or ethanol), and an arrow showing animals moving down away from the heat and light."
+      ],
+      "tip": "Say the animals move down away from the lamp’s heat, light and drying. Never say the lamp attracts them."
+    },
+    {
+      "h": "Collecting earthworms and small mammals",
+      "b": "Earthworms and mammals need their own methods, because earthworms burrow too deeply for pitfall traps and mammals need careful, humane handling.",
+      "points": [
         "Earthworms are collected by digging a measured block of soil and sorting it by hand on a white tray, or by watering a marked area with a mustard-powder solution, which irritates them so that they come to the surface.",
         "Rinse earthworms in clean water at once.",
-        "Small-mammal trap: a baited box with dry bedding and food inside; the door closes behind the animal, which is unharmed.",
+        "A small-mammal trap is a baited box with dry bedding and food inside. The door closes behind the animal, which is unharmed.",
         "Small-mammal traps are used only under teacher supervision. Check them at least every few hours and release the animal where it was caught.",
-        "Some mammal species are protected by law, so trapping may need a licence. Mammals in grassland are more often recorded by observation and signs."
+        "Some mammal species are protected by law, so trapping may need a licence. Mammals in grassland are more often recorded by observation and signs, because trapping them is restricted."
       ]
     },
     {
-      "h": "Collecting animals in vegetation and flying animals",
+      "h": "Collecting animals on plants: sweep net and beating tray",
+      "b": "Many invertebrates live on stems and leaves rather than on the ground. Two methods knock them off the plants so they can be counted.",
       "points": [
-        "Sweep net: a strong net with a fine cloth bag on a stout frame and handle, swept quickly through long grass and low plants in a series of side-to-side arcs while walking slowly, so that animals on the plants are knocked into the bag.",
+        "A sweep net is a strong net with a fine cloth bag on a stout frame and handle. Sweep it quickly through long grass and low plants in a series of side-to-side arcs while walking slowly, so that animals on the plants are knocked into the bag.",
         "After sweeping, fold the bag over to close it, then empty it onto a white tray or into a jar.",
         "A sweep net catches grasshoppers, aphids, flies, beetles, spiders, caterpillars and leafhoppers.",
-        "Use a fixed number of sweeps (e.g. ten) in each area so that catches can be compared.",
+        "Use a fixed number of sweeps (for example ten) in each area so that catches can be compared.",
         "A sweep net doesn’t work in wet grass, which soaks the bag and damages the animals.",
-        "Beating tray: a white sheet or tray (or an upturned umbrella) is held under a branch of a hedge, shrub or tree at the grassland edge, and the branch is struck sharply with a stick a set number of times.",
-        "Animals living on the branch fall onto the tray, where they are easy to see against the white. A beating tray catches caterpillars, beetles, spiders, ladybirds and shield bugs, which are then collected with a pooter.",
-        "Pooter: a clear container (jar or tube) closed by a stopper through which two tubes pass.",
-        "The user places the end of the long inlet tube next to a small animal and sucks on the mouthpiece tube; the animal is drawn up the inlet tube into the container.",
+        "A beating tray is a white sheet or tray (or an upturned umbrella) held under a branch of a hedge, shrub or tree at the grassland edge. The branch is struck sharply with a stick a set number of times.",
+        "Animals living on the branch fall onto the tray, where they are easy to see against the white. A beating tray catches caterpillars, beetles, spiders, ladybirds and shield bugs, which are then collected with a pooter."
+      ]
+    },
+    {
+      "h": "Collecting small animals: the pooter",
+      "b": "Small, fast animals are hard to pick up without crushing them. A pooter lets you suck them gently into a container.",
+      "points": [
+        "A pooter is a clear container (jar or tube) closed by a stopper through which two tubes pass.",
+        "The user places the end of the long inlet tube next to a small animal and sucks on the mouthpiece tube. The animal is drawn up the inlet tube into the container.",
         "A piece of fine gauze (muslin) over the inner end of the mouthpiece tube stops the animal or debris being sucked into the user’s mouth.",
-        "A pooter is used for small, fast-moving animals (small insects, spiders, springtails) from a beating tray, sweep net, the ground or bark. Empty it often, as animals inside can harm each other.",
-        "Diagram: a pooter: container, stopper, inlet tube, mouthpiece tube, gauze over the inner end of the mouthpiece tube, arrows for the air flow and the animal entering.",
-        "Butterfly net: a light, fine-meshed net on a long handle catches flying insects such as butterflies and bees. Hold the net closed with a twist of the bag and release the insect after identification.",
+        "A pooter is used for small, fast-moving animals (small insects, spiders, springtails) from a beating tray, sweep net, the ground or bark.",
+        "Empty it often, because animals inside can harm each other.",
+        "Diagram: a pooter: container, stopper, inlet tube, mouthpiece tube, gauze over the inner end of the mouthpiece tube, arrows for the air flow and the animal entering."
+      ],
+      "tip": "The gauze goes on the mouthpiece tube, not the inlet tube. Students often draw it on the wrong tube."
+    },
+    {
+      "h": "Collecting flying insects: butterfly net and light trap",
+      "b": "Flying insects escape from ground traps and sweep nets, so they need methods of their own. One works by day with a net and one by night with a lamp.",
+      "points": [
+        "A butterfly net, a light, fine-meshed net on a long handle, catches flying insects such as butterflies and bees. Hold the net closed with a twist of the bag and release the insect after identification.",
         "Bees and wasps can sting, so many are identified by observation instead of being caught.",
-        "Light trap (moth trap): a bright lamp (often ultraviolet) above a box with egg trays inside is left on overnight.",
-        "Night-flying insects, mainly moths, are attracted to the light, fall into the box and settle in the trays. They are identified and released next morning, away from birds."
+        "A light trap (moth trap) is a bright lamp, often ultraviolet, above a box with egg trays inside, left on overnight.",
+        "Night-flying insects, mainly moths, are attracted to the light, fall into the box and settle in the trays. They are identified and released next morning, away from birds, which would otherwise eat them."
       ]
     },
     {
       "h": "Handling and recording collected organisms",
+      "b": "Once animals are caught, they must be kept alive, named and recorded quickly, because the record is the data the whole investigation depends on.",
       "points": [
         "Place animals in labelled jars or specimen tubes with a little vegetation, keep them cool and shaded, and identify them as soon as possible on a white tray with a hand lens.",
-        "Record for each catch: the name (or “species A”), the number caught, the method and place of capture, and the date and time. These are the raw primary data used in “Surveys”.",
+        "Record for each catch the name (or ‘species A’), the number caught, the method and place of capture, and the date and time. These are the raw primary data used in the Surveys note.",
         "Return every animal to the place where it was caught, after identification.",
         "Collect plants only when they are common and can’t be identified where they grow, taking a single leaf or flower rather than the whole plant."
-      ]
+      ],
+      "tip": "Animals are returned to where they were caught, and plants are identified where they grow rather than collected."
     },
     {
-      "h": "Identification keys",
+      "h": "Identification keys: what they are",
+      "b": "Once you have an organism, you need its name. An identification key gets you there by asking a short series of questions about what you can see.",
       "points": [
         "An identification key is a tool for naming an unknown organism by working through a series of questions or statements about its visible features.",
-        "A dichotomous key (“dichotomous” means dividing in two) gives a pair of contrasting statements at each step, called a couplet.",
+        "A dichotomous key (‘dichotomous’ means dividing in two) gives a pair of contrasting statements at each step, called a couplet.",
         "The user chooses the statement that fits the organism, and follows the number or name it leads to, until a name is reached.",
         "Good keys use features that are easy to see and don’t vary between individuals or with age or season: number of legs, number of body parts, wings present or absent, shell present or absent, leaf shape and arrangement, flower colour and number of petals.",
-        "Good keys avoid size, which varies with age, and vague words such as “large”.",
-        "Worked example: a key to five grassland invertebrates.",
-        "Step 1: Legs present → go to 2. No legs → go to 4.",
-        "Step 2: Three pairs of legs (6 legs); body in three parts (head, thorax, abdomen) → insect (e.g. a ground beetle). More than 6 legs → go to 3.",
-        "Step 3: Four pairs of legs (8 legs); body in two parts → spider. Seven pairs of legs (14 legs); body flattened and covered with overlapping plates → woodlouse.",
-        "Step 4: Body made of many ring-like segments → earthworm. Body not segmented, soft and slimy → go to 5.",
-        "Step 5: Shell present → snail. No shell → slug.",
-        "Using the key: an animal with 14 legs goes 1 → 2 → 3 → woodlouse.",
-        "Making a key: list the organisms; choose a feature that splits them into two groups; keep splitting each group with a new feature until each organism stands alone; check the key by keying out each organism in turn.",
+        "Good keys avoid size, which varies with age, and vague words such as ‘large’, because two users might judge them differently."
+      ],
+      "tip": "Exams ask what could help identify organisms (answer: a key) and ask you to use or make a simple key, so practise both."
+    },
+    {
+      "h": "A worked key and how to make one",
+      "b": "Here is a key to five grassland invertebrates, written as numbered couplets. Work through it with an animal in mind, then see how such a key is built.",
+      "points": [
+        "1. Legs present: go to 2. No legs: go to 4.",
+        "2. Three pairs of legs (6 legs) and body in three parts (head, thorax, abdomen): insect (for example a ground beetle). More than 6 legs: go to 3.",
+        "3. Four pairs of legs (8 legs) and body in two parts: spider. Seven pairs of legs (14 legs) and body flattened and covered with overlapping plates: woodlouse.",
+        "4. Body made of many ring-like segments: earthworm. Body not segmented, soft and slimy: go to 5.",
+        "5. Shell present: snail. No shell: slug. Using the key: an animal with 14 legs goes 1, then 2, then 3, then woodlouse.",
+        "To make a key, list the organisms, then choose a feature that splits them into two groups.",
+        "Keep splitting each group with a new feature until each organism stands alone, then check the key by keying out each organism in turn to see that it reaches the right name.",
         "A tree diagram (branching chart) of the same splits is another way to show a key."
+      ],
+      "tip": "Follow the key one couplet at a time and write the route you took, such as 1, 2, 3, woodlouse, so the examiner can see your reasoning."
+    },
+    {
+      "h": "Other identification aids and naming organisms",
+      "b": "Keys are not the only help. Several other aids check or speed up an identification, and you still need a plan for organisms you can’t name.",
+      "points": [
+        "Illustrated field guides and identification charts (for example of wild flowers, grasses, insects and birds) show pictures to compare with your specimen. You can also compare it with labelled specimens or photographs, or ask an expert such as a teacher or naturalist.",
+        "Image-recognition apps on a phone are an aid, but their suggestions must be checked against a key or guide, because they are often wrong for small invertebrates.",
+        "A hand lens or a stereo (dissecting) microscope shows small features that decide between similar species.",
+        "Identify each organism to species if possible. Where that isn’t possible, name the group (for example ‘a ground beetle’) and give it a code (species A, B …) used consistently throughout the study, so that it can still be counted in the surveys."
       ]
     },
     {
-      "h": "Other identification aids and grassland species",
+      "h": "Typical organisms of an Irish grassland",
+      "b": "Knowing what to expect makes identification quicker. These are the plants and animals typically found in an Irish grassland.",
       "points": [
-        "Other aids: illustrated field guides and identification charts (e.g. of wild flowers, grasses, insects and birds); comparison with labelled specimens or photographs; asking an expert, such as a teacher or naturalist.",
-        "Image-recognition apps on a phone are an aid, but their suggestions must be checked against a key or guide, because they are often wrong for small invertebrates.",
-        "A hand lens or a stereo (dissecting) microscope shows small features.",
-        "Identify each organism to species if possible. Where that isn’t possible, name the group (e.g. “a ground beetle”) and give it a code (species A, B …) used consistently throughout the study, so that it can still be counted in the surveys.",
-        "Typical plants of an Irish grassland: grasses (e.g. perennial ryegrass in pasture), daisy, dandelion, creeping buttercup, white clover, ribwort plantain and, in damp patches, rushes.",
-        "Daisy and dandelion grow as flat rosettes of leaves close to the ground.",
-        "Typical invertebrates of an Irish grassland: earthworms, slugs, snails, ground beetles, spiders, woodlice (in damp places under stones or logs), ants, aphids, grasshoppers, ladybirds, caterpillars, butterflies and bumblebees.",
-        "Typical vertebrates of an Irish grassland: rabbits, the Irish hare, foxes, badgers, hedgehogs, wood mice, pygmy shrews, and birds such as the song thrush, blackbird and kestrel."
+        "Typical plants: grasses (for example perennial ryegrass in pasture), daisy, dandelion, creeping buttercup, white clover, ribwort plantain and, in damp patches, rushes.",
+        "Daisy and dandelion grow as flat rosettes of leaves close to the ground, which helps them survive mowing and grazing.",
+        "Typical invertebrates: earthworms, slugs, snails, ground beetles, spiders, woodlice (in damp places under stones or logs), ants, aphids, grasshoppers, ladybirds, caterpillars, butterflies and bumblebees.",
+        "Typical vertebrates (animals with backbones): rabbits, the Irish hare, foxes, badgers, hedgehogs, wood mice, pygmy shrews, and birds such as the song thrush, blackbird and kestrel."
       ]
     },
     {
       "h": "How methods change in other habitats",
+      "b": "The methods above suit grassland. In other habitats the organisms and conditions differ, so you choose different methods to match.",
       "points": [
-        "Woodland: beating trays under branches and pitfall traps in the leaf litter are the main methods; leaf-litter samples go in a Tullgren funnel; trees are identified by leaf, bark and fruit; the layers (canopy, shrub, herb and ground layers) are recorded separately.",
-        "Rocky shore: animals are mostly collected by hand from under seaweed, in rock pools and under stones (stones turned back the right way up), or simply counted where they are, as many are attached (barnacles, limpets, mussels). Seaweeds are identified with a key.",
+        "Woodland: beating trays under branches and pitfall traps in the leaf litter are the main methods. Leaf-litter samples go in a Tullgren funnel, trees are identified by leaf, bark and fruit, and the layers (canopy, shrub, herb and ground layers) are recorded separately.",
+        "Rocky shore: animals are mostly collected by hand from under seaweed, in rock pools and under stones (turned back the right way up), or simply counted where they are, as many are attached (barnacles, limpets, mussels). Seaweeds are identified with a key.",
         "Rocky shore work is done at low tide, ideally a spring low tide. Check tide tables first, and start at the lowest point as the tide goes out.",
-        "Freshwater (stream or pond): a pond net is swept through the water and vegetation. In a stream, kick sampling is used: the net is held on the bed just downstream while the stones upstream are disturbed with the feet for a fixed time, so that animals are washed into the net.",
-        "The catch from kick sampling is emptied into a white tray of water and identified, e.g. mayfly, stonefly and caddis fly larvae, freshwater shrimps, snails and leeches.",
+        "Freshwater (stream or pond): a pond net is swept through the water and vegetation.",
+        "In a stream, kick sampling is used: the net is held on the bed just downstream while the stones upstream are disturbed with the feet for a fixed time, so that animals are washed into the net.",
+        "The catch from kick sampling is emptied into a white tray of water and identified, for example mayfly, stonefly and caddis fly larvae, freshwater shrimps, snails and leeches.",
         "A plankton net (very fine mesh) is towed slowly through the water to collect microscopic organisms.",
-        "Animals are kept in water from the same habitat and returned quickly."
-      ]
+        "Freshwater animals are kept in water from the same habitat and returned quickly."
+      ],
+      "tip": "If asked how methods change for a different habitat, name the habitat, the method (such as kick sampling in a stream) and why it suits that habitat."
     },
     {
-      "h": "Safety and the code of conduct",
+      "h": "Safety in the field",
+      "b": "Fieldwork takes you away from the classroom, so you must plan for risks on land and near water.",
       "points": [
-        "Safety on land: work in groups, never alone, and tell someone where you are going; wear suitable clothes and footwear for the weather.",
-        "Take care near livestock, electric fences, nettles and brambles; wear gloves when handling soil, leaf litter and traps, and cover cuts; wash hands before eating.",
-        "Check for ticks after working in long grass, because ticks can carry the bacterium that causes Lyme disease (see “Pathogens”).",
+        "Work in groups, never alone, and tell someone where you are going. Wear suitable clothes and footwear for the weather.",
+        "Take care near livestock, electric fences, nettles and brambles. Wear gloves when handling soil, leaf litter and traps, cover cuts, and wash hands before eating.",
+        "Check for ticks after working in long grass, because ticks can carry the bacterium that causes Lyme disease.",
         "Be aware of anyone with an allergy to bee or wasp stings.",
-        "Safety near water: never work alone near water; check the depth and the current before entering a stream.",
-        "At the shore, know the tide times, watch for incoming tides and wet, slippery rocks covered with seaweed.",
-        "Cover cuts and wash hands after contact with fresh water, which can carry the bacteria that cause leptospirosis (Weil’s disease), spread in the urine of rats (see “Pathogens”).",
-        "Code of conduct (protecting the habitat and its organisms): get permission from the landowner; close gates; keep disturbance and trampling to a minimum.",
-        "Replace stones and logs the way they were found; handle animals gently and return them to where they were caught.",
+        "Near water, never work alone, and check the depth and the current before entering a stream.",
+        "At the shore, know the tide times, watch for incoming tides and take care on wet, slippery rocks covered with seaweed.",
+        "Cover cuts and wash hands after contact with fresh water, which can carry the bacteria that cause leptospirosis (Weil’s disease), spread in the urine of rats."
+      ],
+      "tip": "A precaution question wants a specific action matched to the hazard, such as checking for ticks after long grass or checking the tide times at the shore."
+    },
+    {
+      "h": "Code of conduct for fieldwork",
+      "b": "Collecting can damage the habitat you are studying. A code of conduct protects the habitat and its organisms.",
+      "points": [
+        "Get permission from the landowner, close gates, and keep disturbance and trampling to a minimum.",
+        "Replace stones and logs the way they were found, because animals beneath them depend on the damp, dark conditions.",
+        "Handle animals gently and return them to where they were caught.",
         "Don’t pick or uproot plants unnecessarily, and never collect protected or rare species.",
         "Remove all traps and litter at the end of the study."
-      ]
+      ],
+      "tip": "Expect questions on the ethical code of conduct for fieldwork, so give specific actions such as returning animals and replacing stones."
     },
     {
       "h": "Sources of error and limitations",
+      "b": "A species list from one afternoon is never complete. Each method, and each visit, has built-in limits that you should recognise and reduce.",
       "points": [
         "Each collection method catches only some kinds of organism: pitfall traps catch only animals that walk on the ground, and sweep nets only animals on tall plants. Several methods must be used to build a complete species list.",
         "Catches depend on the weather, the time of day and the season. Many animals are nocturnal or are active only in warm, dry or damp conditions, so one visit misses many species.",
         "Repeat collections on several days and at different times, under similar conditions when comparing areas.",
-        "Animals in traps may escape or be eaten by others before they are counted, so check traps often; birds may take the catch from uncovered traps.",
-        "Misidentification, especially of small invertebrates and of grasses that are not in flower, is a source of error; check identifications with a second key or guide, or with the teacher.",
+        "Animals in traps may escape or be eaten by others before they are counted, so check traps often. Birds may take the catch from uncovered traps.",
+        "Misidentification, especially of small invertebrates and of grasses that are not in flower, is a source of error. Check identifications with a second key or guide, or with the teacher.",
         "Disturbance by the collectors (trampling, noise) changes animals’ behaviour and damages the habitat."
-      ]
+      ],
+      "tip": "For a limitation, link the method to the organisms it misses, then give the improvement, such as using several methods or repeating the collection."
     }
   ],
   "keyTerms": [

@@ -6,98 +6,128 @@
   "notes": [
     {
       "h": "The endocrine system",
-      "b": "Hormones are chemical messengers carried in the blood. Glands that release them directly into the blood make up the endocrine system.",
+      "b": "Your body coordinates itself partly with chemical messengers called hormones, which travel in the blood. The glands that release them directly into the blood make up the endocrine system.",
       "points": [
-        "A hormone is a chemical messenger made by an endocrine gland, carried in the blood, that acts on specific target cells or organs. Only cells with receptors for that hormone respond.",
-        "Endocrine glands are ductless: they secrete hormones directly into the blood.",
-        "Exocrine glands secrete through ducts, for example the salivary and sweat glands.",
-        "The pancreas is both: an exocrine gland making digestive enzymes and an endocrine gland making insulin.",
+        "A hormone is a chemical messenger made by an endocrine gland, carried in the blood, that acts on specific target cells or organs. Only cells with receptors (molecules that the hormone fits onto) for that hormone respond, so a hormone reaches the whole body but affects only its targets.",
+        "Endocrine glands are ductless: they have no tubes, so they secrete hormones directly into the blood, which carries them round the body.",
+        "Exocrine glands secrete through ducts (tubes) to the place where the secretion is used, for example the salivary glands and sweat glands.",
+        "The pancreas is both: an exocrine gland making digestive enzymes, and an endocrine gland making insulin.",
         "Diagram: outline of the human body showing the position of the pituitary, thyroid, parathyroids, adrenals, pancreas, ovaries and testes."
-      ]
+      ],
+      "tip": "You may be asked to define a hormone or to distinguish endocrine from exocrine glands. The key contrast is no duct, hormones released into the blood, versus a duct. For the outline diagram, label the glands in the correct positions."
     },
     {
       "h": "Pituitary gland: the master gland",
-      "b": "The pituitary is at the base of the brain, below and attached to the hypothalamus. It is called the master gland because several of its hormones control other glands.",
+      "b": "The pituitary is at the base of the brain, below and attached to the hypothalamus (the part of the brain that controls it). It is called the master gland because several of its hormones control other glands.",
       "points": [
-        "TSH (thyroid-stimulating hormone) stimulates the thyroid to release thyroxine.",
-        "Oxytocin causes the uterus to contract during labour, and causes milk to be released from the breasts during breastfeeding.",
-        "Oxytocin is made in the hypothalamus and released from the pituitary."
-      ]
+        "TSH (thyroid-stimulating hormone) stimulates the thyroid gland to release thyroxine, which is how the pituitary controls another gland.",
+        "Oxytocin, for example, causes the uterus (womb) to contract during labour, and causes milk to be released from the breasts during breastfeeding.",
+        "Oxytocin is made in the hypothalamus and released from the pituitary, so the pituitary acts as its release point rather than its maker."
+      ],
+      "tip": "Oxytocin is made in the hypothalamus but released from the pituitary, so state both if asked where it comes from. Give the pituitary's location at the base of the brain and one function such as uterine contraction in labour."
     },
     {
       "h": "FSH, LH and ADH (Higher Level only)",
+      "b": "Three more pituitary hormones control the reproductive organs and the kidney. Each has a different job in females and males, or in a different organ.",
       "points": [
-        "FSH (follicle-stimulating hormone): in females, stimulates a follicle in the ovary to develop an egg and to produce oestrogen; in males, stimulates sperm production in the testes.",
-        "LH (luteinising hormone): in females, a surge of LH causes ovulation and the empty follicle to become the corpus luteum; in males, stimulates the testes to produce testosterone.",
+        "FSH (follicle-stimulating hormone): in females, stimulates a follicle (a fluid-filled sac in the ovary containing an egg) to develop an egg and to produce oestrogen; in males, stimulates sperm production in the testes.",
+        "LH (luteinising hormone): in females, a surge of LH causes ovulation (release of the egg) and the empty follicle to become the corpus luteum, a temporary structure left in the ovary after ovulation.",
+        "LH in males stimulates the testes to produce testosterone, so it acts on the testes as FSH does.",
         "ADH (antidiuretic hormone): makes the collecting ducts of the kidney more permeable, so more water is reabsorbed into the blood and a smaller volume of more concentrated urine is produced.",
-        "ADH is made in the hypothalamus and released from the pituitary. Its role in osmoregulation is covered in The Urinary System."
-      ]
+        "ADH is made in the hypothalamus and released from the pituitary, like oxytocin. There is more on its role in osmoregulation (controlling the body's water balance) in The Urinary System."
+      ],
+      "tip": "For FSH and LH, say what each does in females and in males, because the question may ask about either. For ADH, give the full chain: collecting ducts more permeable, more water reabsorbed, less and more concentrated urine."
     },
     {
       "h": "Thyroid gland",
+      "b": "The thyroid controls how fast the body's cells use energy, and it is needed for normal growth and development.",
       "points": [
-        "Location: in the neck, in front of the trachea, just below the larynx.",
-        "Thyroxine controls the metabolic rate, which is the rate of respiration in cells.",
-        "Thyroxine is needed for normal growth and development.",
-        "Thyroxine contains iodine."
-      ]
+        "Location: in the neck, in front of the trachea (windpipe), just below the larynx (voice box).",
+        "Thyroxine controls the metabolic rate, which is the rate of respiration in cells, so it sets how quickly the body releases energy.",
+        "Thyroxine is needed for normal growth and development, so a child lacking it grows abnormally.",
+        "Thyroxine contains iodine, so the thyroid needs iodine to make it."
+      ],
+      "tip": "For a question on the thyroid, give its location in the neck, name thyroxine and state that it controls metabolic rate. Remember that TSH from the pituitary stimulates its release."
     },
     {
       "h": "Parathyroid glands",
+      "b": "The parathyroids are small glands that keep the calcium level of the blood from dropping too low.",
       "points": [
-        "Location: four small glands on the back of the thyroid.",
+        "Location: four small glands on the back of the thyroid, which is why they are named parathyroid (beside the thyroid).",
         "Parathyroid hormone raises the calcium level of the blood when it falls.",
-        "It does this by releasing calcium from bone, increasing calcium absorption from the gut and increasing calcium reabsorption in the kidneys."
-      ]
+        "It does this in three ways: by releasing calcium from bone, by increasing calcium absorption from the gut, and by increasing calcium reabsorption in the kidneys, so less calcium is lost in the urine."
+      ],
+      "tip": "Don't confuse the parathyroids with the thyroid: they are four separate glands on its back and make parathyroid hormone, not thyroxine."
     },
     {
       "h": "Adrenal glands and adrenaline",
+      "b": "The adrenal glands release adrenaline when you face stress or danger. It prepares the body for fight or flight, the choice between confronting a threat and running from it.",
       "points": [
-        "Location: one on top of each kidney.",
-        "Adrenaline prepares the body for fight or flight in stress or danger.",
-        "It increases heart rate and breathing rate.",
-        "It raises blood glucose by causing the liver to convert glycogen to glucose.",
-        "It diverts blood to the muscles and dilates the pupils."
-      ]
+        "Location: one on top of each kidney, which is why they are called adrenal (next to the renal, or kidney, region).",
+        "Adrenaline prepares the body for fight or flight in stress or danger, so you can fight the threat or flee from it.",
+        "It increases heart rate and breathing rate, so more oxygen reaches the muscles.",
+        "It raises blood glucose by causing the liver to convert glycogen (the stored form of glucose) to glucose, giving the muscles more fuel for respiration.",
+        "It diverts blood to the muscles, where it is most needed for action, and dilates (widens) the pupils."
+      ],
+      "tip": "Examiners ask for the effects of adrenaline on the body. List them: higher heart rate and breathing rate, raised blood glucose from glycogen in the liver, blood diverted to muscles, and dilated pupils."
     },
     {
       "h": "Pancreas and insulin",
+      "b": "The pancreas has an endocrine part that makes insulin, the hormone that brings blood glucose down after a meal.",
       "points": [
-        "Location: in the abdomen, behind the stomach.",
-        "Clusters of cells called the islets of Langerhans secrete insulin.",
-        "Insulin lowers blood glucose by making cells take up glucose from the blood.",
-        "Insulin makes the liver and muscles convert glucose to glycogen for storage."
-      ]
+        "Location: in the abdomen, behind the stomach, so it sits just behind it.",
+        "Clusters of cells called the islets of Langerhans secrete insulin directly into the blood.",
+        "Insulin lowers blood glucose by making cells take up glucose from the blood, so the level falls after a meal.",
+        "Insulin makes the liver and muscles convert glucose to glycogen for storage, which also removes glucose from the blood."
+      ],
+      "tip": "Name the islets of Langerhans as the cells that make insulin, and remember that insulin lowers blood glucose. The pancreas is the exocrine and endocrine example."
     },
     {
       "h": "Testes and testosterone",
+      "b": "The testes make sperm and also act as endocrine glands, producing the male sex hormone testosterone.",
       "points": [
-        "Location: in the scrotum, outside the abdomen.",
-        "Testosterone causes sperm production to begin at puberty.",
-        "It causes the male secondary sexual characteristics: growth of facial and body hair, deepening of the voice and increased muscle growth."
-      ]
+        "Location: in the scrotum, outside the abdomen, so they hang in a pouch of skin.",
+        "Testosterone causes sperm production to begin at puberty (the stage of life when the body becomes sexually mature).",
+        "It causes the male secondary sexual characteristics (features that develop at puberty but aren't needed for reproduction itself): growth of facial and body hair, deepening of the voice and increased muscle growth."
+      ],
+      "tip": "A question on testosterone can ask for its effect on sperm and on secondary sexual characteristics. Give sperm production plus at least one named secondary sexual characteristic."
     },
     {
       "h": "Ovaries, oestrogen and progesterone",
+      "b": "The ovaries release eggs and also act as endocrine glands. They make two hormones, oestrogen and progesterone, which shape female development and prepare the uterus.",
       "points": [
-        "Location: in the lower abdomen, one on each side of the uterus.",
+        "Location: in the lower abdomen, one on each side of the uterus (womb), so each ovary sits beside it.",
         "Oestrogen causes the female secondary sexual characteristics, such as breast development and widening of the hips.",
-        "Oestrogen repairs and thickens the endometrium after menstruation.",
-        "Progesterone maintains the endometrium and maintains pregnancy."
-      ]
+        "Oestrogen repairs and thickens the endometrium (the lining of the uterus) after menstruation.",
+        "Progesterone maintains the endometrium and maintains pregnancy, so the lining stays in place to support a developing embryo."
+      ],
+      "tip": "Keep the two hormones separate: oestrogen builds the female characteristics and rebuilds the endometrium, while progesterone maintains the endometrium and pregnancy."
     },
     {
-      "h": "Summary: glands, locations, hormones and functions",
+      "h": "Summary: pituitary hormones",
+      "b": "The pituitary is the one gland with five hormones on the syllabus. Each is listed here with its main function, so you can see how a single location serves several jobs.",
+      "points": [
+        "Pituitary gland: base of the brain; FSH (Higher Level only); in females stimulates the follicle to develop an egg and produce oestrogen, in males stimulates sperm production.",
+        "Pituitary gland: base of the brain; LH (Higher Level only); in females causes ovulation and the corpus luteum, in males stimulates testosterone production.",
+        "Pituitary gland: base of the brain; oxytocin; causes uterine contraction in labour and milk release in breastfeeding.",
+        "Pituitary gland: base of the brain; TSH; stimulates the thyroid to release thyroxine.",
+        "Pituitary gland: base of the brain; ADH (Higher Level only); makes the collecting ducts more permeable, so more water is reabsorbed."
+      ],
+      "tip": "You may be given a hormone and asked for its gland, location and one function. Practise this table from both directions."
+    },
+    {
+      "h": "Summary: other glands, locations and hormones",
+      "b": "The remaining glands each make one or two hormones. This list gives the gland, location, hormone and main function, in the order of the syllabus list.",
       "points": [
         "Adrenal glands: on top of each kidney; adrenaline; fight or flight, raising heart rate and blood glucose.",
-        "Pituitary gland: base of the brain; TSH and oxytocin; TSH controls thyroxine release, oxytocin causes uterine contraction and milk release.",
-        "Pituitary gland (Higher Level only): base of the brain; FSH, LH and ADH; FSH and LH act on the ovaries and testes, ADH increases water reabsorption in the collecting ducts.",
         "Thyroid gland: in the neck; thyroxine; controls metabolic rate.",
         "Parathyroid glands: on the back of the thyroid; parathyroid hormone; raises blood calcium.",
         "Pancreas: behind the stomach; insulin; lowers blood glucose.",
         "Testes: in the scrotum; testosterone; sperm production and male secondary sexual characteristics.",
-        "Ovaries: in the lower abdomen; oestrogen and progesterone; female secondary sexual characteristics, the endometrium and pregnancy."
-      ]
+        "Ovaries: in the lower abdomen; oestrogen; female secondary sexual characteristics and thickening of the endometrium.",
+        "Ovaries: in the lower abdomen; progesterone; maintains the endometrium and pregnancy."
+      ],
+      "tip": "Be ready to match a hormone to its gland, location and one function, because exam questions give one and ask for the rest."
     }
   ],
   "keyTerms": [

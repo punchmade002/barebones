@@ -6,159 +6,185 @@
   "notes": [
     {
       "h": "Background the cross rests on",
+      "b": "A genetic cross predicts what offspring a pair of parents can have. It works only because of how alleles (the different versions of a gene) are shared out when gametes (sex cells) are made and joined.",
       "points": [
-        "Each body cell carries two alleles of each gene, one on each chromosome of a homologous pair.",
-        "Each gamete carries only one of the two alleles, because meiosis separates the two chromosomes of each homologous pair.",
-        "At fertilisation the zygote again has two alleles, one from each parent.",
-        "Homologous chromosomes are covered in “Chromosome structure and genes” and meiosis in “Mitosis and meiosis”; allele, homozygous, heterozygous, pure-breeding and carrier are defined in “Key concepts of information transfer”."
-      ]
+        "Each body cell carries two alleles of each gene, one on each chromosome of a homologous pair (two matching chromosomes, one inherited from each parent).",
+        "Each gamete carries only one of the two alleles, because meiosis (the cell division that makes gametes) separates the two chromosomes of each homologous pair.",
+        "At fertilisation the zygote (the first cell of the new organism) again has two alleles, one from each parent, so the pair is restored.",
+        "There is more on this in the subsections on chromosome structure and genes, mitosis and meiosis, and the key concepts of information transfer, where allele, homozygous, heterozygous, pure-breeding and carrier are defined."
+      ],
+      "tip": "Say that a gamete carries one allele of each gene, never two. This is the idea every cross depends on."
     },
     {
       "h": "Gametes made by each genotype",
+      "b": "Before you can set out any cross you must work out which gametes each parent can make. This depends only on whether the parent is homozygous (two identical alleles) or heterozygous (two different alleles).",
       "points": [
-        "A homozygous individual (TT or tt) makes only one type of gamete for that gene: T from TT, or t from tt.",
-        "A heterozygous individual (Tt) makes two types of gamete, T and t, in equal numbers, half of its gametes each.",
+        "A homozygous individual (TT or tt) makes only one type of gamete for that gene: T from TT, or t from tt, because both of its alleles are the same.",
+        "A heterozygous individual (Tt) makes two types of gamete, T and t, in equal numbers, half of its gametes each, because the two chromosomes separate at random in meiosis.",
         "True-breeding is another name for pure-breeding (homozygous): crossed with one like itself, it always gives offspring with the same trait."
-      ]
+      ],
+      "tip": "The gametes of Tt are T and t, not Tt. Do not write a gamete twice for a homozygous parent: TT gives T."
     },
     {
       "h": "Monohybrid crosses and generations",
+      "b": "A monohybrid cross is the simplest kind of genetic cross, because it follows just one characteristic at a time. Labels for the generations let you say clearly which individuals you mean.",
       "points": [
         "A monohybrid cross follows the inheritance of one trait, controlled by one gene with two alleles.",
-        "Unlinked means the gene is considered on its own, without other genes on the same chromosome affecting the result; linkage is covered in “Linkage”.",
+        "Unlinked means the gene is considered on its own, without other genes on the same chromosome affecting the result. There is more on this in Linkage.",
         "P (parental generation) are the parents crossed.",
-        "F1 (first filial generation) are their offspring.",
+        "F1 (first filial generation) are their offspring, for example the plants grown from the seeds of the P cross.",
         "F2 (second filial generation) are the offspring of crossing F1 individuals with each other.",
-        "“First generation” means the offspring of the cross being modelled."
-      ]
+        "“First generation” means the offspring of the cross being modelled, so you only need to work out the offspring of one cross."
+      ],
+      "tip": "The syllabus asks you to model inheritance to the first generation of a single unlinked trait, using homozygous and heterozygous parents."
     },
     {
       "h": "Choosing symbols and stating a key",
+      "b": "Symbols are shorthand for alleles. A key at the start tells the examiner what each symbol means, so your answer can be read without guessing.",
       "points": [
         "Use the first letter of the dominant trait: a capital for the dominant allele and a lower-case letter for the recessive allele, e.g. T = tall, t = dwarf.",
-        "Use the letters a question gives.",
-        "Avoid letters whose capital and lower case look alike when handwritten: C/c, O/o, S/s, W/w, P/p, K/k, V/v, X/x, Z/z.",
+        "Use the letters a question gives, because the marking scheme is written with them.",
+        "Avoid letters whose capital and lower case look alike when handwritten, because the examiner cannot tell which allele you mean: C/c, O/o, S/s, W/w, P/p, K/k, V/v, X/x, Z/z.",
         "Always state a key first, e.g. “T = allele for tall, t = allele for dwarf”."
-      ]
+      ],
+      "tip": "Always write the key. Choose a letter that is clearly different in capital and lower case."
     },
     {
       "h": "The standard layout for a cross",
-      "b": "Every line is shown, in this order, because marks are given for each.",
+      "b": "Every line is shown, in this order, because marks are given for each. Working in the same sequence every time also stops you missing a step.",
       "points": [
-        "Step 1: the key.",
-        "Step 2: the parents' phenotypes, e.g. tall × dwarf.",
-        "Step 3: the parents' genotypes, e.g. TT × tt.",
+        "Step 1: the key, so that the examiner knows what each letter means.",
+        "Step 2: the parents' phenotypes (the visible traits), e.g. tall × dwarf.",
+        "Step 3: the parents' genotypes (the alleles they carry), e.g. TT × tt.",
         "Step 4: the gametes, each different allele each parent can pass on, written once and usually circled (T from TT; t from tt; T and t from Tt).",
-        "Step 5: the Punnett square, or fertilisation lines joining every gamete of one parent to every gamete of the other.",
-        "Step 6: the offspring genotypes, with their ratio.",
-        "Step 7: the offspring phenotypes, with their ratio."
-      ]
+        "Step 5: the Punnett square (a grid that combines the gametes), or fertilisation lines joining every gamete of one parent to every gamete of the other.",
+        "Step 6: the offspring genotypes, with their ratio, such as 1 TT : 2 Tt : 1 tt.",
+        "Step 7: the offspring phenotypes, with their ratio, such as 3 tall : 1 dwarf."
+      ],
+      "tip": "Marks are given for the correct parental genotypes, gametes, offspring genotypes and offspring phenotypes, so show every line. Do not give a genotype when the phenotype is asked, or a genotype ratio for a phenotype ratio."
     },
     {
       "h": "The Punnett square",
+      "b": "A Punnett square is a grid that shows every possible fertilisation between the gametes of two parents. It makes sure you do not miss a combination.",
       "points": [
         "One parent's gametes go across the top and the other parent's gametes down the side.",
-        "Each box takes the allele from its column and the allele from its row, with the dominant allele written first (Tt, not tT).",
+        "Each box takes the allele from its column and the allele from its row, with the dominant allele written first (Tt, not tT), so that identical genotypes are always written the same way.",
         "Each box is one equally likely outcome of fertilisation; with two gametes from each parent, each box is a 1 in 4 (25%) chance.",
         "Diagram: a 2 × 2 Punnett square for Tt × Tt: gametes T and t across the top (labelled “gametes of parent 1”), T and t down the side (labelled “gametes of parent 2”); boxes TT, Tt, Tt, tt; each box labelled with its phenotype (tall, tall, tall, dwarf)."
-      ]
+      ],
+      "tip": "Write the dominant allele first in every box. Dominant does not mean common, better or more likely to be inherited."
     },
     {
       "h": "Ratios and probability",
+      "b": "A cross predicts chances, not certainties. Each fertilisation is a separate chance event, so the ratio describes what is expected on average.",
       "points": [
         "A ratio is a prediction of the proportions expected, not an exact count.",
         "Each fertilisation is independent, so in a family where the first child is affected, the chance for the next child is unchanged.",
         "A 3 : 1 ratio is a probability, not a guarantee that a family of four has exactly one affected child.",
         "Ratios can be given as a ratio (3 : 1), a fraction (3/4), a percentage (75%) or a probability (0.75, or “a 3 in 4 chance”).",
-        "Observed results come close to the predicted ratio only with large numbers of offspring (e.g. hundreds of pea plants), not in a small human family."
-      ]
+        "Observed results come close to the predicted ratio only with large numbers of offspring (e.g. hundreds of pea plants), not in a small human family, because chance has more effect on small samples."
+      ],
+      "tip": "When asked for the chance a child is affected, give it as a fraction, percentage or probability. Do not say a family of four will have exactly one affected child."
     },
     {
       "h": "Worked example: heterozygous × heterozygous",
-      "b": "Pea plants: tall (T) is dominant to dwarf (t).",
+      "b": "Pea plants: tall (T) is dominant to dwarf (t). Here two heterozygous tall plants are crossed, and every line of the standard layout is shown.",
       "points": [
         "Key: T = tall, t = dwarf.",
         "Parents' phenotypes: tall × tall.",
-        "Parents' genotypes: Tt × Tt (both heterozygous).",
-        "Gametes: T, t × T, t.",
+        "Parents' genotypes: Tt × Tt (both heterozygous, so each makes two types of gamete).",
+        "Gametes: T, t × T, t, because each heterozygous parent makes both types.",
         "Punnett square: TT, Tt / Tt, tt.",
-        "Offspring genotypes: 1 TT : 2 Tt : 1 tt.",
-        "Offspring phenotypes: 3 tall : 1 dwarf (75% tall, 25% dwarf).",
-        "Of the tall offspring, 1/3 are homozygous (TT) and 2/3 heterozygous (Tt)."
-      ]
+        "Offspring genotypes: 1 TT : 2 Tt : 1 tt, because Tt arises in two boxes of the square.",
+        "Offspring phenotypes: 3 tall : 1 dwarf (75% tall, 25% dwarf), because TT and both Tt boxes are tall.",
+        "Of the tall offspring, 1/3 are homozygous (TT) and 2/3 heterozygous (Tt), because the three tall offspring are TT, Tt and Tt."
+      ],
+      "tip": "Questions ask you to show the genotypes and phenotypes of the offspring of a named monohybrid cross and give the ratio or percentage."
     },
     {
       "h": "Why the genotype and phenotype ratios differ",
+      "b": "In the cross above there are two different ratios, one for genotypes and one for phenotypes. They differ because of dominance.",
       "points": [
         "The genotype ratio (1 : 2 : 1) differs from the phenotype ratio (3 : 1) because TT and Tt look the same: the dominant allele masks the recessive one.",
-        "A recessive trait reappears in offspring of parents who both show the dominant trait only if both parents are heterozygous."
-      ]
+        "A recessive trait reappears in offspring of parents who both show the dominant trait only if both parents are heterozygous, because only then can each parent pass on a recessive allele."
+      ],
+      "tip": "Genotype is the alleles (Tt); phenotype is the trait (tall). Check which one the question asks for."
     },
     {
       "h": "Worked example: homozygous × homozygous",
+      "b": "Crossing a true-breeding tall plant with a true-breeding dwarf plant is the simplest case, because each parent makes only one type of gamete.",
       "points": [
         "Parents' phenotypes: true-breeding tall × true-breeding dwarf.",
-        "Parents' genotypes: TT × tt (both homozygous).",
-        "Gametes: T × t.",
-        "Offspring genotypes: all Tt (heterozygous).",
-        "Offspring phenotypes: all (100%) tall.",
+        "Parents' genotypes: TT × tt (both homozygous, so true-breeding).",
+        "Gametes: T × t, because each parent makes only one type.",
+        "Offspring genotypes: all Tt (heterozygous), because each gets T from one parent and t from the other.",
+        "Offspring phenotypes: all (100%) tall, because the dominant T masks t.",
         "This is Mendel's P → F1 cross; crossing these F1 plants together (Tt × Tt) gives the F2 result of the heterozygous × heterozygous example above, in which the dwarf trait reappears.",
-        "Mendel's own figures are in “Mendel's Laws”."
-      ]
+        "Mendel's own figures are in Mendel's Laws."
+      ],
+      "tip": "Mention Mendel only as the source of the pea example. His experiments belong to another subsection."
     },
     {
       "h": "Worked example: heterozygous × homozygous recessive",
+      "b": "In this cross a heterozygous tall plant is crossed with a dwarf plant. It gives a different ratio from the first example, because one parent can pass on only the recessive allele.",
       "points": [
         "Parents' phenotypes: tall × dwarf.",
-        "Parents' genotypes: Tt × tt (one heterozygous parent).",
-        "Gametes: T, t × t.",
+        "Parents' genotypes: Tt × tt (one heterozygous parent, so only the Tt parent makes two types of gamete).",
+        "Gametes: T, t × t, because the tt parent can give only t.",
         "Punnett square (2 × 1, or 2 × 2 with t written twice): Tt, tt.",
         "Offspring genotypes: 1 Tt : 1 tt.",
-        "Offspring phenotypes: 1 tall : 1 dwarf (50% each)."
-      ]
+        "Offspring phenotypes: 1 tall : 1 dwarf (50% each), because Tt is tall and tt is dwarf."
+      ],
+      "tip": "In the gametes line, write t once for the tt parent. The gametes line lists each different allele a parent can pass on, though a 2 × 2 square may repeat it."
     },
     {
       "h": "All six monohybrid crosses",
+      "b": "With one gene and two alleles there are only three genotypes, TT, Tt and tt, so only six different crosses are possible. Knowing all six lets you recognise any monohybrid cross quickly.",
       "points": [
-        "Cross 1: TT × TT → all TT → all tall.",
+        "Cross 1: TT × TT → all TT → all tall, because both parents can only pass on T.",
         "Cross 2: TT × Tt → 1 TT : 1 Tt → all tall.",
-        "Cross 3: TT × tt → all Tt → all tall.",
+        "Cross 3: TT × tt → all Tt → all tall, because T masks t.",
         "Cross 4: Tt × Tt → 1 TT : 2 Tt : 1 tt → 3 tall : 1 dwarf.",
         "Cross 5: Tt × tt → 1 Tt : 1 tt → 1 tall : 1 dwarf.",
-        "Cross 6: tt × tt → all tt → all dwarf."
+        "Cross 6: tt × tt → all tt → all dwarf, because both parents can only pass on t."
       ]
     },
     {
       "h": "Reading a cross backwards from its results",
+      "b": "You can also work from the offspring back to the parents. The ratio of offspring tells you which genotypes the parents must have had.",
       "points": [
-        "Offspring in a 3 : 1 ratio mean both parents are heterozygous.",
-        "A 1 : 1 ratio means one parent is heterozygous and the other homozygous recessive.",
-        "Any offspring showing the recessive trait mean each parent carries at least one recessive allele."
+        "Offspring in a 3 : 1 ratio mean both parents are heterozygous, because only Tt × Tt gives this ratio.",
+        "A 1 : 1 ratio means one parent is heterozygous and the other homozygous recessive, so only one parent makes two kinds of gamete.",
+        "Any offspring showing the recessive trait mean each parent carries at least one recessive allele, because an offspring needs two recessive alleles, one from each parent."
       ]
     },
     {
       "h": "The test cross",
+      "b": "An organism showing the dominant trait could be TT or Tt, and you cannot tell by looking. A test cross finds out by crossing it with a recessive organism.",
       "points": [
         "A test cross finds the unknown genotype of an organism showing the dominant trait (TT or Tt) by crossing it with a homozygous recessive (tt) organism.",
         "The tt parent can give only t, so each offspring's phenotype shows directly which allele came from the unknown parent.",
         "If all offspring show the dominant trait (all tall), the unknown parent is almost certainly TT (TT × tt → all Tt).",
-        "If any offspring show the recessive trait (about half dwarf), the unknown parent is Tt (Tt × tt → 1 : 1).",
+        "If any offspring show the recessive trait (about half dwarf), the unknown parent is Tt (Tt × tt → 1 : 1), because it must have passed on a recessive allele.",
         "Many offspring are needed to be confident that a TT result is not chance."
-      ]
+      ],
+      "tip": "Exams ask how a test cross shows whether an organism with the dominant phenotype is homozygous or heterozygous. Name the tt parent, then give the result for each possible unknown parent."
     },
     {
       "h": "Worked example: a human recessive disorder",
+      "b": "Cystic fibrosis is an inherited disorder that follows the same rules as the pea plants. Two parents who do not have the disease can still have an affected child, if both are carriers.",
       "points": [
         "Cystic fibrosis is caused by a recessive allele of a gene on an autosome (a chromosome that is not a sex chromosome).",
-        "Key: F = normal allele, f = cystic fibrosis allele.",
-        "Parents: two unaffected carriers.",
+        "Key: F = normal allele, f = cystic fibrosis allele, with the normal allele dominant.",
+        "Parents: two unaffected carriers (people who carry the recessive allele but do not have the disease).",
         "Parents' genotypes: Ff × Ff.",
-        "Gametes: F, f × F, f.",
+        "Gametes: F, f × F, f, because each carrier makes both types.",
         "Offspring genotypes: 1 FF : 2 Ff : 1 ff.",
-        "Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis.",
+        "Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis, because only ff has the disease.",
         "Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither.",
-        "Why the mutation causes the disease is in “Mutations”; its use in genetic counselling is in “Benefits and limitations of Mendelian genetics”."
-      ]
+        "Why the mutation causes the disease is in Mutations, and its use in genetic counselling is in Benefits and limitations of Mendelian genetics."
+      ],
+      "tip": "Exams ask for the probability that a child of two carriers of a recessive disorder will be affected: 1 in 4, or 25%."
     }
   ],
   "keyTerms": [

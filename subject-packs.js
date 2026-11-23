@@ -15,17 +15,17 @@
       "./pe-flashcards.js?v=3",
       "./pe-pipeline-content.js?v=4",
       "./pe-test-questions.js?v=3",
-      "./pe-notes.js?v=3",
+      "./pe-notes.js?v=4",
     ],
     biology: [
       "./bio-content.js?v=3",
       "./biology-test-questions.js?v=2",
-      "./biology-notes.js?v=4",
+      "./biology-notes.js?v=5",
     ],
     chemistry: [
       "./chemistry-content.js?v=5",
       "./chemistry-test-questions.js?v=4",
-      "./chemistry-notes.js?v=3",
+      "./chemistry-notes.js?v=4",
     ],
     history: [
       "./history-test-questions.js?v=3",
@@ -38,7 +38,7 @@
     ],
     geography: [
       "./geography-test-questions.js?v=1",
-      "./geography-notes.js?v=23",
+      "./geography-notes.js?v=24",
     ],
   };
   var loaded = new Set();

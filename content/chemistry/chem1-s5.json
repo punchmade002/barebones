@@ -6,79 +6,91 @@
   "notes": [
     {
       "h": "The investigative log",
-      "b": "The log is a portfolio of experimental and research data, kept while the work is done rather than written up afterwards.",
+      "b": "A log is a portfolio of experimental and research data, kept while the work is done rather than written up afterwards. It is the raw record that everything else in an investigation, from evaluation to the final report, is built from.",
       "points": [
-        "A log (laboratory notebook or portfolio) is a dated, ongoing record of all experimental and research work.",
-        "The log records the aim and plan, any changes made to the plan and why, the raw data and observations including unexpected ones, calculations, sources consulted, problems met and reflections.",
-        "The log provides evidence of what was done and supports honesty and integrity.",
-        "The log allows the work to be repeated or written up later; the Chemistry in Practice Investigation brief asks students to keep one."
-      ]
+        "A log (laboratory notebook or portfolio) is a dated, ongoing record of all experimental and research work, kept as the work happens, so nothing has to be remembered later.",
+        "The log records the aim (what you are trying to find out) and the plan, and any changes made to the plan and why.",
+        "It also records the raw data (the actual measurements, before any calculation) and observations, including unexpected ones, plus calculations, sources consulted, problems met and reflections.",
+        "The log provides evidence of what was done, so it supports honesty and integrity: anyone can check that the results came from the work.",
+        "The log allows the work to be repeated or written up later, because the plan, changes and data are all written down. The Chemistry in Practice Investigation brief asks students to keep one."
+      ],
+      "tip": "If asked what should be recorded in a log, list the aim and plan, changes to the plan and why, raw data and observations (including unexpected ones), calculations, sources, problems and reflections. Then give two reasons for keeping one, such as evidence of what was done, honesty and integrity, or letting the work be repeated or written up."
     },
     {
       "h": "Evaluating an investigation",
-      "b": "An evaluation judges the strengths and weaknesses of the method and the data; it is not a summary of what was done.",
+      "b": "An evaluation judges the strengths and weaknesses of the method and the data; it is not a summary of what was done. Each judgement should lead to a specific improvement.",
       "points": [
-        "Evaluate the method: was the test fair and valid, and which variables were hard to control?",
-        "Evaluate the data: was there enough of it, over a wide enough range; how much did the repeats vary; were there anomalous results?",
-        "Identify the main sources of error and their likely effect, stating whether each makes the result larger or smaller than the true value.",
-        "Human error on its own is not an acceptable source of error; name the specific mistake, such as misreading a meniscus.",
-        "Suggest specific improvements, e.g. collecting a gas in a gas syringe instead of over water, using a data-logger, or insulating a calorimeter.",
+        "Evaluate the method: was the test fair and valid (did it really test what it set out to test), and which variables (things that could change the result) were hard to control?",
+        "Evaluate the data: was there enough of it, over a wide enough range; how much did the repeats vary (a big spread means low reliability); were there anomalous results (ones that do not fit the pattern)?",
+        "Identify the main sources of error and their likely effect, stating whether each makes the result larger or smaller than the true value. For example, heat lost to the surroundings makes a measured temperature rise smaller than the true value.",
+        "Human error on its own is not an acceptable source of error because it names no specific cause; name the specific mistake, such as misreading a meniscus (the curved surface of a liquid in a measuring cylinder or burette).",
+        "Suggest specific improvements, each matched to an error, e.g. collecting a gas in a gas syringe instead of over water, using a data-logger (an electronic sensor that records readings automatically), or insulating a calorimeter (the container in which heat changes are measured) to cut heat loss.",
         "Suggest further investigations that would test the conclusion more fully.",
-        "Judge how confident you can be in the conclusion."
-      ]
+        "Judge how confident you can be in the conclusion, based on the strengths and weaknesses of the method and the data."
+      ],
+      "tip": "An evaluation is not a summary of the method; it judges strengths and weaknesses and suggests improvements. Exams ask you to suggest improvements to a described experiment and to identify sources of error and their effect, so pair each error with its effect on the result and a fix. Never write 'human error' alone."
     },
     {
       "h": "Reflecting on skills and thinking",
+      "b": "Evaluation looks at the experiment; reflection looks at you as an investigator. It asks how well your own planning and thinking worked.",
       "points": [
         "Reflection asks what went well, what did not, what would be done differently, and what was learned about investigating.",
-        "Reflection is honest about difficulties.",
-        "An investigation is valuable for the process it teaches, not only for getting a right answer."
+        "Reflection is honest about difficulties, because a problem that is hidden cannot be learned from.",
+        "An investigation is valuable for the process it teaches, not only for getting a right answer, so a result that did not work out still has something to reflect on."
       ]
     },
     {
       "h": "Transferring skills to unfamiliar contexts",
+      "b": "The skills built in practical work are not tied to one experiment. They can be reused when a problem looks completely new.",
       "points": [
-        "Skills transfer: the same method of planning, controlling variables and analysing data applies to new problems.",
+        "Skills transfer: the same method of planning, controlling variables and analysing data applies to new problems, because the thinking is the same even when the chemistry differs.",
         "In an unfamiliar problem, identify what is being asked, the chemistry it depends on, and the data given.",
-        "Set out a step-by-step approach to the problem.",
-        "Check that the answer is sensible."
+        "Set out a step-by-step approach to the problem, so that each step can be checked.",
+        "Check that the answer is sensible, for example that its size and units are reasonable for the situation."
       ]
     },
     {
       "h": "Structure of a scientific report",
+      "b": "A scientific report follows a fixed order so that any reader can find what they need and judge the work. It is written in enough detail for someone else to repeat the investigation.",
       "points": [
-        "A report has a title, followed by an introduction giving the background research and the research question, and then the hypothesis.",
-        "The method gives the equipment, a step-by-step procedure and the safety precautions.",
+        "A report has a title, followed by an introduction giving the background research and the research question, and then the hypothesis (a testable prediction of the result).",
+        "The method gives the equipment, a step-by-step procedure and the safety precautions, in enough detail for the work to be repeated.",
         "The results are presented as tables and graphs, and the analysis gives the calculations and the patterns in the data.",
-        "The report ends with a conclusion, an evaluation and references.",
-        "The report is written in the past tense and in an impersonal style."
-      ]
+        "The report ends with a conclusion (what the results show about the hypothesis), an evaluation and references (the list of sources used).",
+        "The report is written in the past tense, because the work is already done, and in an impersonal style, with no 'I' or 'we'."
+      ],
+      "tip": "Exams ask you to list the sections of a scientific report and to state what each contains. Give them in order: title, introduction, hypothesis, method, results, analysis, conclusion, evaluation, references, with the contents of each."
     },
     {
       "h": "Scientific terminology and representations",
+      "b": "Chemistry has its own precise vocabulary and its own ways of showing information. Using them correctly makes a report exact and unambiguous.",
       "points": [
-        "Precise terms are used, e.g. “dissolves”, not “melts”, for a solid going into solution, and “effervescence” for bubbles of gas.",
-        "Correct SI units and IUPAC names are used throughout.",
-        "Representations include balanced chemical equations with state symbols, structural formulae, labelled diagrams of apparatus, tables, graphs and energy profile diagrams."
+        "Precise terms are used, e.g. 'dissolves', not 'melts', for a solid going into solution, and 'effervescence' for bubbles of gas, because each word names one particular process.",
+        "Correct SI units (the international standard units of measurement) and IUPAC names (the internationally agreed systematic names of compounds) are used throughout.",
+        "Representations include balanced chemical equations with state symbols, structural formulae (showing how atoms are bonded), labelled diagrams of apparatus, tables, graphs and energy profile diagrams (which show how energy changes during a reaction)."
       ]
     },
     {
       "h": "Communicating with different audiences",
+      "b": "The same findings have to be presented differently depending on who will read them. What a specialist needs is not what a class or the public needs.",
       "points": [
-        "Scientists need full technical detail, the data and references, as in a journal paper or a conference poster.",
-        "The public, policy-makers or a class need plain language, the key findings stated first, simple graphics, and technical terms explained.",
-        "The same findings may be communicated as a report, poster, presentation, infographic or article.",
+        "Scientists need full technical detail, the data and references, as in a journal paper or a conference poster, so that they can check and build on the work.",
+        "The public, policy-makers or a class need plain language, the key findings stated first, simple graphics, and technical terms explained, because they do not have the specialist background.",
+        "The same findings may be communicated as a report, poster, presentation, infographic (a picture-based summary) or article.",
         "The format is chosen for the purpose and the audience."
-      ]
+      ],
+      "tip": "Exams ask how you would present findings to a non-scientific audience. Cover plain language, key findings first, simple graphics and technical terms explained. For a comparison with scientists, give full technical detail, data and references."
     },
     {
       "h": "Justifying opinions and citing sources",
+      "b": "A scientific opinion has to be backed up, and the evidence behind it has to be traceable. Citing sources lets readers check the evidence and credits the people who produced it.",
       "points": [
-        "An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments.",
+        "An argument states a claim, supports it with evidence and reasoning, and considers counter-arguments (points against the claim).",
         "Each source is cited in the text and listed in full in the references, so that readers can check it.",
         "Copying someone else's work without acknowledgement is plagiarism.",
-        "When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing."
-      ]
+        "When evaluating someone else's argument, check its evidence, reasoning and sources before agreeing or disagreeing, so that your opinion rests on more than a first impression."
+      ],
+      "tip": "Don't repeat source evaluation in detail here. There is more on this in Science as a global enterprise and researching an issue."
     }
   ],
   "keyTerms": [

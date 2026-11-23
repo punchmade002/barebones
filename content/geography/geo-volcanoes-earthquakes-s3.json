@@ -6,28 +6,31 @@
   "notes": [
     {
       "h": "Extrusive and intrusive activity",
-      "b": "Magma that rises into the crust cools in one of two ways. Both are endogenic (internal) processes.",
+      "b": "Magma (molten rock) that rises into the crust cools in one of two ways, and the way it cools decides what landform results. Both ways are endogenic (internal) processes, driven from inside the Earth.",
       "points": [
         "Extrusive (volcanic) activity: magma reaches the surface and cools quickly as lava, ash and other material, building landforms on the surface.",
         "Intrusive (plutonic) activity: magma cools slowly underground, forming bodies of rock that become landforms only when the rock above them is eroded away.",
-        "Plutonic features are not formed by exogenic processes; erosion (exogenic) only reveals them."
-      ]
+        "Plutonic features are not formed by exogenic processes (surface processes such as weathering and erosion); erosion only reveals them, because the magma had already cooled into rock underground."
+      ],
+      "tip": "If asked true or false whether plutonic features are formed by exogenic processes, the answer is false. Erosion reveals them but does not form them."
     },
     {
       "h": "Joints",
-      "b": "A joint is a crack in rock along which no movement has taken place.",
+      "b": "Rock is rarely one solid block. Cracks called joints run through it, and they decide where weathering and erosion do their work.",
       "points": [
-        "In igneous rock, joints form by contraction as the rock cools.",
+        "A joint is a crack in rock along which no movement has taken place, which is what separates it from a fault.",
+        "In igneous rock (rock formed from cooled magma), joints form by contraction as the rock cools.",
         "In granite, joints also form by expansion when the overlying rock is removed and pressure on the granite is released.",
         "Weathering and erosion work along joints, so the joint pattern shapes the landform."
       ]
     },
     {
       "h": "Lava plateau from fissure eruptions",
+      "b": "Not all eruptions come from a single volcano. When lava escapes along a long crack, it can build a wide, high, flat landform instead of a cone.",
       "points": [
-        "1. Basic lava pours out of long cracks in the crust, called fissures, rather than from a single vent.",
-        "2. Each lava flow spreads widely before it cools.",
-        "3. Repeated flows build up, one on top of another.",
+        "1. Basic lava (runny lava that flows easily) pours out of long cracks in the crust, called fissures, rather than from a single vent (an opening in the crust).",
+        "2. Each lava flow spreads widely before it cools, because the lava is runny.",
+        "3. Repeated flows build up, one on top of another, so the plateau grows higher with each eruption.",
         "4. The result is a high, flat-topped plateau with steep edges.",
         "Example: the Antrim plateau, Co. Antrim.",
         "Diagram: cross-section of stacked lava flows forming a flat-topped plateau with steep edges."
@@ -35,49 +38,56 @@
     },
     {
       "h": "Antrim plateau, the Antrim coast and the Mournes",
+      "b": "The Antrim plateau is an Irish extrusive example, and the granite Mournes are its intrusive neighbour from the same period. Keep the two apart.",
       "points": [
-        "The Antrim plateau is made of basalt layers from fissure eruptions about 60 million years ago, linked to the opening of the North Atlantic.",
+        "The Antrim plateau is made of basalt (a dark volcanic rock) in layers from fissure eruptions about 60 million years ago, linked to the opening of the North Atlantic.",
         "Along the Antrim coast, dark basalt lies on top of white chalk, which the basalt protected from erosion.",
-        "The Mourne Mountains, Co. Down, are granite intrusions of the same period as the Antrim basalts, much younger than the Leinster granite.",
+        "The Mourne Mountains, Co. Down, are granite intrusions (granite is a plutonic rock that cooled underground) of the same period as the Antrim basalts, much younger than the Leinster granite.",
         "Slieve Donard is the highest peak of the Mournes."
-      ]
+      ],
+      "tip": "Basalt is extrusive and granite is intrusive. The Antrim plateau is extrusive, while the Mournes and the Leinster batholith are intrusive. The Mournes are not Caledonian and not part of the Leinster batholith."
     },
     {
       "h": "Columnar jointing: the Giant's Causeway",
-      "b": "Basalt columns form in a lava flow as it cools and contracts.",
+      "b": "Basalt columns form in a lava flow as it cools and contracts (shrinks). They are a joint pattern, not a volcano.",
       "points": [
-        "Columnar jointing forms when a thick lava flow cools slowly and evenly.",
-        "As the flow contracts, cracks form at about 120° to each other.",
-        "The cracks produce columns at right angles to the cooling surface, mainly six-sided.",
+        "Columnar jointing forms when a thick lava flow cools slowly and evenly, so the whole flow shrinks in a regular pattern.",
+        "As the flow contracts, cracks form at about 120° to each other, which is why the pattern is regular.",
+        "The cracks produce columns at right angles to the cooling surface, mainly six-sided, because cracks meeting at about 120° enclose six-sided shapes.",
         "Sea erosion exposes the columns on the north Antrim coast, where about 40,000 interlocking basalt columns, most of them six-sided, form the Giant's Causeway, a UNESCO World Heritage Site since 1986.",
         "Fingal's Cave, Isle of Staffa, Scotland, has columns from the same volcanic period.",
         "The Giant's Causeway is a cooled lava flow, not a volcano, and its columns did not form from growing crystals.",
         "Diagram: labelled sketch of hexagonal columns standing at right angles to the cooling surface of the flow."
-      ]
+      ],
+      "tip": "You may be asked to identify basalt columns in a photograph. Say they are a cooled lava flow that cracked as it contracted, not a volcano and not crystals growing."
     },
     {
       "h": "Shield volcano",
+      "b": "A shield volcano is built by runny lava, which is why it is broad and low rather than tall and steep. Viscosity is how thick a liquid is: low viscosity means it flows easily.",
       "points": [
         "1. Low-viscosity (runny) basic lava flows a long way before it cools.",
-        "2. Mostly effusive eruptions build a broad cone with gentle slopes.",
+        "2. Mostly effusive eruptions (lava pours out steadily rather than exploding) build a broad cone with gentle slopes.",
         "3. Successive flows spread out from the central vent, so the volcano is wide rather than steep.",
         "Example: Mauna Loa and Kilauea, Hawaii.",
-        "Diagram: cross-section of a broad, low cone with gentle slopes and a summit crater."
-      ]
+        "Diagram: cross-section of a broad, low cone with gentle slopes and a summit crater (the bowl-shaped hollow at the top)."
+      ],
+      "tip": "True or false: shield volcanoes form from low-viscosity lava. This is true."
     },
     {
       "h": "Hawaii: shield volcanoes and lava types",
+      "b": "Hawaii is the setting to use for shield volcanoes, with its own record-sized examples and two named lava types.",
       "points": [
-        "Hawaii's shield volcanoes sit over a hot spot.",
-        "Mauna Loa is the largest active volcano on Earth by volume.",
-        "Mauna Kea is more than 10,000 m high when measured from its base on the sea floor.",
+        "Hawaii's shield volcanoes sit over a hot spot (a hot area under the crust where magma rises), which is why volcanoes form there.",
+        "Mauna Loa is the largest active volcano on Earth by volume, for example, which shows how far runny shield-volcano lava can spread.",
+        "Mauna Kea is more than 10,000 m high when measured from its base on the sea floor, so most of it lies under the sea.",
         "Pahoehoe lava has a smooth, ropy surface; aa lava has a rough, blocky surface."
       ]
     },
     {
       "h": "Composite (strato) volcano",
+      "b": "A composite volcano is the opposite of a shield. Its magma is too thick to flow far, so it piles up into a steep cone built of alternating layers.",
       "points": [
-        "1. Viscous acidic or intermediate magma is too thick to flow far.",
+        "1. Viscous (thick, sticky) acidic or intermediate magma is too thick to flow far.",
         "2. Explosive eruptions alternate with lava flows, so the cone is built of layers of ash and lava.",
         "3. Over time these layers build a steep cone with a crater at the summit.",
         "4. The cone also has a main vent and secondary vents.",
@@ -87,6 +97,7 @@
     },
     {
       "h": "Cinder cone",
+      "b": "The smallest volcanic cone is built from loose fragments blown out in short bursts rather than from flowing lava.",
       "points": [
         "A cinder cone is a small, steep cone built mainly of pyroclastic fragments (rock blown out by explosions) during short, explosive eruptions.",
         "Example: Parícutin, Mexico, which began in a farmer's cornfield in 1943.",
@@ -95,94 +106,111 @@
     },
     {
       "h": "Caldera",
+      "b": "Some eruptions are so large that they destroy the volcano's own summit. The result is a huge basin called a caldera.",
       "points": [
-        "A caldera is a large basin formed when the summit of a volcano collapses into the magma chamber emptied by a huge eruption.",
+        "A caldera is a large basin formed when the summit of a volcano collapses into the magma chamber (the underground reservoir of magma) emptied by a huge eruption.",
         "A caldera is much larger than a crater and forms by collapse, not by explosion alone.",
         "A caldera may fill with water to form a crater lake.",
         "Crater Lake, Oregon, USA: Mount Mazama collapsed about 7,700 years ago, and the caldera now holds the lake.",
         "Kilauea, Hawaii, has a summit caldera.",
         "Santorini, Greece, and Krakatoa, Indonesia, are further calderas; Anak Krakatau has grown inside the Krakatoa caldera."
-      ]
+      ],
+      "tip": "Caldera is the name for a collapsed volcanic cone, and you may be asked to explain the term. Say it forms by collapse and is much larger than a crater."
     },
     {
       "h": "Volcanic plug (neck)",
+      "b": "Erosion can leave a volcano's hardened core behind after the rest of the cone has gone, because the core is harder than the cone around it.",
       "points": [
         "1. Magma solidifies in the vent of a volcano.",
         "2. The softer cone around the vent is eroded away.",
-        "3. The resistant plug is left standing as a steep-sided hill.",
+        "3. The resistant plug (rock that resists erosion well) is left standing as a steep-sided hill.",
         "Examples: Slemish, Co. Antrim; Castle Rock, Edinburgh, Scotland, a volcanic plug whose crag-and-tail shape was later shaped by ice.",
         "Diagram: cross-section of a plug standing above the eroded cone."
-      ]
+      ],
+      "tip": "Castle Rock, Edinburgh is a volcanic plug with a crag-and-tail, not a roche moutonnee."
     },
     {
       "h": "Geysers, hot springs and fumaroles",
+      "b": "Volcanic heat underground also produces smaller surface features, where hot water, steam and gas escape without any lava.",
       "points": [
         "A geyser erupts hot water and steam from the ground at intervals.",
-        "A hot spring is hot water that rises to the surface and flows out without erupting.",
+        "A hot spring is hot water that rises to the surface and flows out without erupting, so it differs from a geyser.",
         "A fumarole is a vent that emits gases and steam.",
         "Example: Old Faithful, Yellowstone, USA, is a geyser."
       ]
     },
     {
       "h": "Iceland: fissure eruptions, geysers and new islands",
+      "b": "Iceland is the setting to use for fissure eruptions, geysers and new islands, and it shows how destructive a fissure eruption can be.",
       "points": [
-        "The Laki fissure eruption of 1783 poured out huge lava flows; its gases caused crop failure and famine in Iceland.",
-        "Geysir and Strokkur are geysers in Iceland.",
+        "The Laki fissure eruption of 1783 poured out huge lava flows; its gases caused crop failure and famine in Iceland, so the harm came from more than the lava.",
+        "Geysir and Strokkur are geysers in Iceland, for example.",
         "Surtsey, a new island formed off southern Iceland from 1963.",
         "Hekla and Eyjafjallajökull are also Icelandic volcanoes."
       ]
     },
     {
       "h": "Batholith",
+      "b": "The biggest plutonic landform is the batholith, a mass of rock that cooled deep underground and only becomes a landform once the rock above it has been stripped away.",
       "points": [
         "A batholith is a huge dome-shaped mass of magma that cooled slowly deep underground into granite.",
-        "Heat from the magma altered the surrounding rock into a metamorphic aureole, a ring of altered rock around the batholith.",
-        "When the overlying rock is eroded, the granite is exposed."
-      ]
+        "Heat from the magma altered the surrounding rock into a metamorphic aureole (metamorphic means changed by heat), a ring of altered rock around the batholith, for example mica schist.",
+        "When the overlying rock is eroded, the granite is exposed and forms upland areas."
+      ],
+      "tip": "Naming granite as a plutonic igneous rock is asked, as is naming two plutonic features formed when magma cools."
     },
     {
       "h": "Leinster batholith",
+      "b": "The Leinster batholith is Ireland's intrusive case study. It is the largest granite mass in Ireland and forms the Wicklow Mountains.",
       "points": [
         "The granite intruded about 400 million years ago, during the Caledonian mountain-building period.",
         "It is the largest granite mass in Ireland and runs from south Co. Dublin south-west through Wicklow and Carlow.",
         "The overlying slate was eroded, exposing the granite as the Wicklow Mountains.",
         "A band of mica schist, the metamorphic aureole, surrounds the granite.",
-        "The granite uplands have rounded summits.",
+        "The granite uplands have rounded summits, such as Lugnaquilla below.",
         "Lugnaquilla, at 925 m, is the highest mountain in Wicklow."
-      ]
+      ],
+      "tip": "The Leinster batholith is intrusive and Caledonian. The Mournes are not part of it."
     },
     {
       "h": "Laccolith and lopolith",
+      "b": "Magma that is forced between layers of rock, rather than rising to the surface, can bend those layers up or down. Which way the layers bend gives the two features their names.",
       "points": [
-        "A laccolith forms when magma is forced between layers of rock, arching the layers above into a dome.",
+        "A laccolith forms when magma is forced between layers of rock, arching the layers above into a dome, so a laccolith bulges up.",
         "Henry Mountains, Utah, USA, are laccoliths.",
-        "A lopolith is a saucer-shaped intrusion that sags downwards in the centre."
-      ]
+        "A lopolith is a saucer-shaped intrusion that sags downwards in the centre, so a lopolith sags down."
+      ],
+      "tip": "You may be asked to name these from a diagram. A laccolith bulges up and a lopolith sags down."
     },
     {
       "h": "Sill and dyke",
+      "b": "Two sheet-shaped intrusions differ only in direction. A sill runs along the rock layers, while a dyke cuts across them.",
       "points": [
-        "A sill is a horizontal sheet of magma injected between the layers of rock, parallel to them.",
-        "When exposed, a resistant sill forms cliffs, ledges and waterfalls.",
+        "A sill is a horizontal sheet of magma injected between the layers of rock (along a bedding plane, the boundary between layers), parallel to them.",
+        "When exposed, a resistant sill forms cliffs, ledges and waterfalls, because it resists erosion better than the layers around it.",
         "Fair Head, Co. Antrim, is a dolerite sill with columnar jointing.",
         "Great Whin Sill, northern England, carries part of Hadrian's Wall along its crest.",
         "A dyke is a vertical or near-vertical sheet of magma cutting across the layers.",
-        "A dyke harder than the surrounding rock stands up as a wall-like ridge; a softer dyke is eroded into a trench.",
-        "The Isle of Arran, Scotland, has a dyke swarm."
-      ]
+        "A dyke harder than the surrounding rock stands up as a wall-like ridge because the softer rock erodes around it; a softer dyke is eroded into a trench.",
+        "The Isle of Arran, Scotland, has a dyke swarm (a group of many dykes)."
+      ],
+      "tip": "A sill runs along the layers (horizontal) and a dyke cuts across them (vertical). Do not mix them up when naming features on a diagram."
     },
     {
       "h": "Plutonic uplands and the labelled diagram",
+      "b": "Plutonic features end up as high ground because of differential erosion, meaning different rocks wear away at different speeds.",
       "points": [
-        "Plutonic rocks such as granite are usually more resistant than the rocks around them.",
-        "Once the surrounding cover is removed, the plutonic rock stands as upland while the weaker rock is lowered.",
+        "Plutonic rocks such as granite are usually more resistant than the rocks around them, so they wear away more slowly.",
+        "Once the surrounding cover is removed, the plutonic rock stands as upland while the weaker rock is lowered, because the weaker rock erodes faster.",
         "Diagram: one block of crust showing a batholith, laccolith, lopolith, sill, dyke and volcanic plug, each labelled."
-      ]
+      ],
+      "tip": "Exams ask you to name these features from a diagram and to name two plutonic features."
     },
     {
       "h": "Devon and Cornwall: granite moorland",
+      "b": "Devon and Cornwall in south-west England are the international example of granite uplands, parts of one exposed batholith.",
       "points": [
-        "Dartmoor and Bodmin Moor are granite uplands, parts of one large batholith exposed by erosion.",
+        "Dartmoor and Bodmin Moor are granite uplands, parts of one large batholith exposed by erosion, so they are upland for the same reason as the Wicklow Mountains.",
         "Haytor, Dartmoor, is a tor, a granite outcrop rising above the moor.",
         "St Austell, Cornwall, is a centre of china clay (kaolin) quarried from decomposed granite."
       ]

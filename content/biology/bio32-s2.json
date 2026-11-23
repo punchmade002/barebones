@@ -6,173 +6,207 @@
   "notes": [
     {
       "h": "Qualitative and quantitative surveys",
+      "b": "A survey is a planned way of finding out what lives in a habitat (the place where a community of organisms lives). There are two kinds: one asks 'which species?' and the other asks 'how many?'.",
       "points": [
-        "A qualitative survey records which species are present in the habitat (a species list), without measuring how many of each. It is built from all the observations and collections made with the methods in “Collection and identification”.",
-        "A qualitative survey can add a subjective estimate of abundance using a scale such as DAFOR: Dominant, Abundant, Frequent, Occasional, Rare, judged by eye for each species.",
-        "The DAFOR scale is quick, but different observers give different grades, so it isn’t objective (objectivity is in “Objectivity and data quality”).",
+        "A qualitative survey records which species are present in the habitat (a species list), without measuring how many of each, so it gives the 'what' but not the 'how much'.",
+        "A qualitative survey is built from all the observations and collections made during the fieldwork. There is more on this in Collection and identification.",
+        "A qualitative survey can add a subjective estimate of abundance (how many there are) using a scale such as DAFOR: Dominant, Abundant, Frequent, Occasional, Rare, judged by eye for each species.",
+        "The DAFOR scale is quick, but different observers give different grades, so it isn't objective (it depends on the person's opinion, not on a measurement).",
         "A quantitative survey measures how many of each species there are, as numbers, percentages or densities: percentage frequency, percentage cover, density per m², or an estimate of population size.",
-        "Quantitative data can be compared between areas and analysed mathematically, e.g. to calculate a diversity index (see “Simpson's Diversity Index”).",
+        "Quantitative data can be compared between areas and analysed mathematically, so it can be used, for example, to calculate a diversity index (a single number describing how varied a community is), such as Simpson's Diversity Index.",
         "Distribution means where in the habitat a species is found; abundance means how many there are. Surveys measure both."
-      ]
+      ],
+      "tip": "Exams ask you to distinguish qualitative from quantitative surveys. Say that qualitative gives a species list (and perhaps a by-eye DAFOR grade), while quantitative gives measured numbers that can be compared and analysed."
     },
     {
       "h": "Sampling",
-      "b": "Counting every organism in a habitat is almost never possible, so samples are taken and the results used to estimate the whole.",
+      "b": "Counting every organism in a habitat is almost never possible, so samples (small parts of the habitat) are taken and the results used to estimate the whole. How the samples are chosen decides whether the estimate can be trusted.",
       "points": [
-        "A sample must be representative: large enough and chosen without bias.",
-        "Random sampling is used when the habitat looks uniform, so that every point has an equal chance of being chosen.",
-        "Random sampling method, step 1: lay two long tape measures at right angles along two edges of the study area to form the axes of a grid.",
-        "Random sampling method, step 2: generate pairs of random numbers (with a calculator, a phone app or random-number tables) as coordinates, e.g. (7, 23) means 7 m along one tape and 23 m along the other.",
-        "Random sampling method, step 3: walk to each coordinate and place the quadrat there, with its corner on the point.",
-        "Throwing a quadrat over the shoulder is not truly random and is unsafe, so don’t use it.",
-        "Systematic sampling places samples at regular intervals, e.g. a quadrat every 2 m along a line. It is used where conditions change across the habitat (a gradient, e.g. from a hedge into open field), to show how species change along it; this is a transect (see “Transects”).",
-        "The more samples, the more reliable the estimate. Take quadrats one at a time and keep a running mean (or a running total of species found).",
+        "A sample must be representative, meaning it reflects the whole habitat: it must be large enough and chosen without bias (without favouring particular spots).",
+        "Random sampling is used when the habitat looks uniform (the same all over), so that every point has an equal chance of being chosen.",
+        "1. Lay two long tape measures at right angles along two edges of the study area to form the axes of a grid.",
+        "2. Generate pairs of random numbers (with a calculator, a phone app or random-number tables) as coordinates, for example (7, 23) means 7 m along one tape and 23 m along the other.",
+        "3. Walk to each coordinate and place the quadrat (the square sampling frame) there, with its corner on the point.",
+        "Throwing a quadrat over the shoulder is not truly random and is unsafe, so don't use it."
+      ],
+      "tip": "If asked how to place quadrats, give random coordinates from two tape measures, not throwing. A thrown quadrat is not random sampling and examiners will not accept it as a method."
+    },
+    {
+      "h": "Systematic sampling and how many samples to take",
+      "b": "Random sampling suits an even habitat, but conditions often change from one side of a habitat to the other. Then samples are placed in an orderly way, and enough of them must be taken to give a reliable result.",
+      "points": [
+        "Systematic sampling places samples at regular intervals, for example a quadrat every 2 m along a line. It is used where conditions change across the habitat (a gradient, for example from a hedge into open field), to show how species change along it; this is a transect.",
+        "The more samples, the more reliable the estimate, because chance differences between individual spots average out.",
+        "Take quadrats one at a time and keep a running mean (or a running total of species found).",
         "When adding more quadrats no longer changes the mean (or adds new species), enough have been taken. In a grassland this is usually at least 10 to 20 quadrats."
-      ]
+      ],
+      "tip": "A transect is systematic sampling, chosen for a gradient. Random quadrats are for uniform areas, so match the method to the habitat in your answer."
     },
     {
       "h": "Quadrats",
+      "b": "A quadrat is the basic tool for sampling plants. Different designs suit different measurements, and a few rules keep the counting fair.",
       "points": [
-        "A quadrat is a square frame of known area used to sample plants and slow-moving or attached animals.",
-        "School grassland quadrats are usually 0.5 m × 0.5 m (0.25 m²) or 1 m × 1 m (1 m²).",
-        "A gridded quadrat is divided by strings or wires into 100 equal small squares (10 × 10), each 1% of the area.",
-        "A point quadrat (point frame) is a frame on legs holding a row of usually 10 long pins (needles) that can be lowered vertically through the vegetation.",
-        "Each pin that touches a species counts as one “hit” for that species.",
-        "Quadrat rule 1: lay the quadrat flat on the ground at the chosen point without moving it towards or away from any plant.",
-        "Quadrat rule 2: use the same size of quadrat throughout.",
-        "Quadrat rule 3: decide in advance how to count plants on the edge (e.g. count a plant only if more than half of it is inside, or count only those on the top and left edges), and apply the rule every time.",
+        "A quadrat is a square frame of known area used to sample plants and slow-moving or attached animals (ones that can't escape or move while you count). School grassland quadrats are usually 0.5 m × 0.5 m (0.25 m²) or 1 m × 1 m (1 m²).",
+        "A gridded quadrat is divided by strings or wires into 100 equal small squares (10 × 10), each 1% of the area, which makes percentages easy to read off.",
+        "A point quadrat (point frame) is a frame on legs holding a row of usually 10 long pins (needles) that can be lowered vertically through the vegetation. Each pin that touches a species counts as one 'hit' for that species.",
+        "Rule 1: lay the quadrat flat on the ground at the chosen point without moving it towards or away from any plant, so you don't choose which plants fall inside.",
+        "Rule 2: use the same size of quadrat throughout, so counts from different quadrats can be compared.",
+        "Rule 3: decide in advance how to count plants on the edge (for example count a plant only if more than half of it is inside, or count only those on the top and left edges), and apply the rule every time so no plant is counted twice or missed.",
         "Diagram: a gridded quadrat (100 squares) placed at a random coordinate on a grid laid out with two tape measures at right angles; and a point quadrat with 10 pins, with one pin touching a leaf (a hit)."
-      ]
+      ],
+      "tip": "Inconsistent edge rules change counts. When describing a quadrat study, say that you decided your edge rule beforehand and used the same quadrat size every time."
     },
     {
       "h": "Percentage frequency",
+      "b": "Percentage frequency tells you how widespread a species is across the samples. It asks only 'is it there or not?' in each quadrat.",
       "points": [
-        "Percentage frequency is the percentage of all the quadrats sampled in which a species is present.",
-        "Formula: percentage frequency = (number of quadrats containing the species ÷ total number of quadrats) × 100.",
-        "Only presence or absence is recorded in each quadrat.",
-        "Percentage frequency is quick and objective, and works for any plant (or attached animal).",
-        "It doesn’t show how many there are: one daisy or a hundred in a quadrat both count as “present”.",
-        "It depends on quadrat size: a larger quadrat is more likely to contain the species.",
+        "Percentage frequency is the percentage of all the quadrats sampled in which a species is present: percentage frequency = (number of quadrats containing the species ÷ total number of quadrats) × 100.",
+        "Only presence or absence is recorded in each quadrat, so it is quick and objective, and works for any plant (or attached animal).",
+        "It doesn't show how many there are: one daisy or a hundred in a quadrat both count as 'present'.",
+        "It depends on quadrat size, because a larger quadrat is more likely to contain the species.",
         "Worked example (sample data): 20 quadrats were placed at random. Daisy was present in 12, dandelion in 5 and white clover in 16.",
-        "Daisy: 12 ÷ 20 × 100 = 60%.",
-        "Dandelion: 5 ÷ 20 × 100 = 25%.",
-        "White clover: 16 ÷ 20 × 100 = 80%.",
+        "Daisy: 12 ÷ 20 × 100 = 60%. Dandelion: 5 ÷ 20 × 100 = 25%. White clover: 16 ÷ 20 × 100 = 80%.",
         "Results are shown in a table and as a bar chart with one bar per species, with percentage frequency on the y-axis."
-      ]
+      ],
+      "tip": "Percentage frequency (in how many quadrats a species occurs) and percentage cover (how much ground it covers) are different measures that are easily confused, so give the formula for each. Percentage frequencies of different species don't add up to anything meaningful."
     },
     {
       "h": "Percentage cover",
-      "b": "Percentage cover is the percentage of the ground area of a quadrat covered by a species, seen from directly above.",
+      "b": "Percentage cover is the percentage of the ground area of a quadrat covered by a species, viewed from directly above. It measures how much space a species takes up, not how many individuals there are.",
       "points": [
         "Percentage cover is used for plants that are hard to count as individuals, such as grasses, clover and mosses, which spread to form mats.",
-        "Gridded-quadrat method: count the small squares in which the species covers more than half the square; each square is 1%.",
-        "Repeat in each quadrat and find the mean percentage cover.",
+        "Gridded-quadrat method: count the small squares in which the species covers more than half the square; each square is 1%. Repeat in each quadrat and find the mean percentage cover.",
         "Worked example (sample data): in five quadrats white clover covered 30, 45, 25, 40 and 35 squares; total = 175; mean percentage cover = 175 ÷ 5 = 35%.",
-        "Point-quadrat method: lower each pin and record every species it touches.",
-        "Formula: percentage cover = (number of hits on the species ÷ total number of pins lowered) × 100.",
+        "Point-quadrat method: lower each pin and record every species it touches. Percentage cover = (number of hits on the species ÷ total number of pins lowered) × 100.",
         "Worked example (sample data): the 10-pin frame was placed at 10 random points, so 100 pins were lowered; grass was touched by 72 pins and white clover by 23.",
         "Grass cover = 72 ÷ 100 × 100 = 72%; clover cover = 23%.",
-        "The total cover of all species in a quadrat can be more than 100%, because plants overlap in layers (e.g. clover leaves above grass).",
-        "Percentage cover estimated by eye is subjective. The grid and point methods are more objective, and the point method is the most objective because a pin either touches or doesn’t."
-      ]
+        "The total cover of all species in a quadrat can be more than 100%, because plants overlap in layers (for example clover leaves above grass).",
+        "Percentage cover estimated by eye is subjective. The grid and point methods are more objective, and the point method is the most objective because a pin either touches or doesn't."
+      ],
+      "tip": "Total percentage cover can exceed 100%, so don't 'correct' it. In a calculation, check whether you divide by the number of pins (point method) or take a mean over quadrats (grid method)."
     },
     {
       "h": "Density and population size of plants",
-      "b": "Density is the number of individuals per unit area, usually per m².",
+      "b": "Density is the number of individuals per unit area, usually per m². Once you know the density, you can scale up to estimate how many plants live in the whole habitat.",
       "points": [
-        "Count the individuals of a species that can be counted separately (e.g. daisy or dandelion rosettes) in each quadrat.",
-        "Density = total number counted ÷ total area sampled.",
+        "Count the individuals of a species that can be counted separately (for example daisy or dandelion rosettes) in each quadrat. Density = total number counted ÷ total area sampled.",
         "Estimated population = density × total area of the habitat.",
-        "The area of the habitat is found by measuring its length and width with tape measures or a trundle wheel.",
-        "Worked example (sample data): five quadrats of 0.25 m² contained 4, 7, 3, 6 and 5 daisies.",
-        "Total = 25 daisies in 5 × 0.25 = 1.25 m².",
+        "The area of the habitat is found by measuring its length and width with tape measures or a trundle wheel (a measuring wheel you roll along the ground).",
+        "Worked example (sample data): five quadrats of 0.25 m² contained 4, 7, 3, 6 and 5 daisies. Total = 25 daisies in 5 × 0.25 = 1.25 m².",
         "Density = 25 ÷ 1.25 = 20 daisies per m² (or: mean per quadrat 5 ÷ 0.25 m² = 20 per m²).",
         "The field is 50 m × 40 m = 2000 m², so the estimated population = 20 × 2000 = 40 000 daisies.",
         "Counting individuals is the most informative measure but is slow, and impossible for grasses and other spreading plants, which need percentage cover instead."
-      ]
+      ],
+      "tip": "Divide by the total area sampled (number of quadrats × area of each), not by the number of quadrats alone. Then multiply by the whole habitat's area for the population estimate."
     },
     {
-      "h": "Transects",
-      "b": "A transect is a line across a habitat along which samples are taken at regular intervals.",
+      "h": "Transects: studying a gradient with a line",
+      "b": "A transect is a line across a habitat along which samples are taken at regular intervals. It is the tool for showing how species change when conditions change gradually.",
       "points": [
-        "Transects are used where there is a gradient in conditions, to show how the distribution of species changes along it: e.g. from under a hedge or tree into open grassland, across a trampled path, from a wet hollow to drier ground, or up a rocky shore.",
+        "Transects are used where there is a gradient in conditions, to show how the distribution of species changes along it: for example from under a hedge or tree into open grassland, across a trampled path, from a wet hollow to drier ground, or up a rocky shore.",
         "Line transect, step 1: stretch a rope or tape measure tightly across the area at ground level.",
-        "Line transect, step 2: at regular intervals (e.g. every 1 m), record every species touching the line (or directly below it).",
+        "Line transect, step 2: at regular intervals (for example every 1 m), record every species touching the line (or directly below it).",
         "Line transect, step 3: record the distance for each species.",
-        "A line transect shows where each species occurs (distribution) but not how many.",
-        "Belt transect: quadrats are placed along the line, either side by side all the way (continuous belt transect) or at regular intervals (interrupted belt transect, e.g. a quadrat every 2 m).",
+        "A line transect shows where each species occurs (distribution) but not how many, because it only records presence at each point.",
+        "A transect is a systematic, not random, sample: it is chosen to cross the gradient.",
+        "Several parallel transects give more reliable results, because one line might happen to cross an unusual patch."
+      ],
+      "tip": "Use a transect when conditions change across the habitat, and say it is systematic. Random quadrats are for uniform areas."
+    },
+    {
+      "h": "Belt transects",
+      "b": "A line transect only tells you where species are. A belt transect adds quadrats along the line, so it also tells you how abundant each species is.",
+      "points": [
+        "Belt transect: quadrats are placed along the line, either side by side all the way (continuous belt transect) or at regular intervals (interrupted belt transect, for example a quadrat every 2 m).",
         "In each quadrat of a belt transect, percentage cover, frequency or numbers are recorded, so a belt transect shows abundance as well as distribution.",
-        "Abiotic factors are measured at each quadrat to relate them to the species (the investigation is in “Abiotic factors”).",
-        "A transect is a systematic, not random, sample: it is chosen to cross the gradient. Several parallel transects give more reliable results.",
+        "Abiotic factors (non-living conditions such as light or soil moisture) are measured at each quadrat to relate them to the species. There is more on this in Abiotic factors.",
         "Diagram: a belt transect from a hedge into open grassland: tape measure from the hedge, quadrats at 2 m intervals, with distances labelled."
-      ]
+      ],
+      "tip": "Measuring an abiotic factor at each quadrat lets you link changes in species to changes in conditions along the gradient."
     },
     {
       "h": "Estimating animal populations by capture–recapture",
+      "b": "Mobile animals move out of a quadrat before you can count them. Instead you catch, mark and release some, then use the proportion of marked animals in a second catch to work out the total population.",
       "points": [
-        "Mobile animals can’t be counted in quadrats, so their population is estimated by capture–mark–recapture.",
-        "Capture–recapture, step 1: catch a sample with a suitable method (e.g. pitfall traps for ground beetles or woodlice).",
-        "Capture–recapture, step 2: count them (M) and mark each harmlessly, e.g. with a small dot of non-toxic, quick-drying, waterproof paint on the underside of a woodlouse or the wing case of a beetle.",
-        "Capture–recapture, step 3: release them where they were caught and leave enough time (e.g. 24 hours) for them to mix back into the population.",
-        "Capture–recapture, step 4: catch a second sample in the same way and place; count the total caught (C) and the number that are marked (R).",
-        "Estimated population size: N = (M × C) ÷ R. The fraction of the second sample that is marked (R ÷ C) is assumed to equal the fraction of the whole population that is marked (M ÷ N).",
+        "Mobile animals can't be counted in quadrats, so their population is estimated by capture–mark–recapture.",
+        "1. Catch a sample with a suitable method (for example pitfall traps, sunken containers, for ground beetles or woodlice).",
+        "2. Count them (M) and mark each harmlessly, for example with a small dot of non-toxic, quick-drying, waterproof paint on the underside of a woodlouse or the wing case of a beetle.",
+        "3. Release them where they were caught and leave enough time (for example 24 hours) for them to mix back into the population.",
+        "4. Catch a second sample in the same way and place; count the total caught (C) and the number that are marked (R).",
+        "Estimated population size: N = (M × C) ÷ R. This works because the fraction of the second sample that is marked (R ÷ C) is assumed to equal the fraction of the whole population that is marked (M ÷ N).",
         "Worked example (sample data): 30 woodlice were caught, marked and released. Next day 40 were caught, 8 of them marked. N = (30 × 40) ÷ 8 = 1200 ÷ 8 = 150 woodlice.",
-        "Second example (sample data): M = 48, C = 50, R = 12; N = 2400 ÷ 12 = 200.",
-        "N must be larger than both M and C, because the population includes every marked animal and every animal caught in the second sample.",
+        "Second example (sample data): M = 48, C = 50, R = 12; N = 2400 ÷ 12 = 200."
+      ],
+      "tip": "Exams ask you to describe how to estimate the population of a named animal: give the catch, mark, release and recapture steps, the formula and the assumptions."
+    },
+    {
+      "h": "Capture–recapture: common mistakes, assumptions and relative counts",
+      "b": "The capture–recapture formula only gives a good estimate if certain conditions hold, and it is easy to mix up the letters. When an exact population isn't needed, a simpler count can be enough.",
+      "points": [
+        "N must be larger than both M and C, because the population includes every marked animal and every animal caught in the second sample. If it isn't, you have made an error.",
         "R is the number of marked animals in the second sample, not the number marked in the first sample.",
-        "Assumptions: there are no births, deaths, immigration or emigration between the two samples; marked animals mix fully and randomly with the rest; the mark doesn’t harm the animal, make it easier for predators to see, or wash or rub off; marked and unmarked animals are equally likely to be caught.",
-        "If marks are lost, R is too small and N is overestimated. The assumptions are rarely fully met in practice.",
-        "For comparisons only, a relative count is often enough: e.g. the number of grasshoppers caught per ten sweeps of a sweep net, or the number of beetles per pitfall trap per day, compared between two areas using the same method."
-      ]
+        "Assumption: there are no births, deaths, immigration (animals arriving) or emigration (animals leaving) between the two samples, so the population stays the same size.",
+        "Assumption: marked animals mix fully and randomly with the rest, and marked and unmarked animals are equally likely to be caught.",
+        "Assumption: the mark doesn't harm the animal, make it easier for predators to see, or wash or rub off.",
+        "If marks are lost, R is too small and N is overestimated, because fewer marked animals are recognised in the second sample. The assumptions are rarely fully met in practice.",
+        "For comparisons only, a relative count is often enough: for example the number of grasshoppers caught per ten sweeps of a sweep net, or the number of beetles per pitfall trap per day, compared between two areas using the same method."
+      ],
+      "tip": "State at least the assumptions on movement, mixing and the mark. Check that your N is larger than both M and C, and that R comes from the second sample."
     },
     {
       "h": "Modelling the habitat",
-      "b": "In ecology a model is a simplified representation of a habitat that describes it and can be used to explain or predict. Here the model is a labelled map with data.",
+      "b": "In ecology a model is a simplified representation of a habitat that describes it and can be used to explain or predict. Here the model is a labelled map with data, built from the primary data (results you collected yourself).",
       "points": [
-        "Size: measure the length and width (or the sides of an irregular area) with long tape measures or a trundle wheel, and calculate the area, e.g. 50 m × 40 m = 2000 m².",
+        "Size: measure the length and width (or the sides of an irregular area) with long tape measures or a trundle wheel, and calculate the area, for example 50 m × 40 m = 2000 m².",
         "Map: draw a sketch map to scale, with a north arrow, showing the boundary, hedges, trees, paths, gates, wet and dry areas, any slope (and which way it faces), the positions of the quadrats, transects and traps, and where the main species were found.",
         "Species: the species list from the qualitative survey, with the quantitative results (percentage frequency, cover, density, population estimates) for the main species.",
-        "Abiotic factors: the mean values measured across the habitat (e.g. light intensity, soil pH, soil water content, air and soil temperature, aspect and slope), with differences between areas marked on the map (methods in “Abiotic factors”).",
-        "Biotic factors: the feeding and symbiotic relationships observed, shown as food chains or a food web drawn from the species found (relationships in “Biotic factors and relationships”; food-web theory in “Energy and nutrient transfer”).",
+        "Abiotic factors: the mean values measured across the habitat (for example light intensity, soil pH, soil water content, air and soil temperature, aspect and slope), with differences between areas marked on the map.",
+        "Biotic factors (the effects of living things): the feeding and symbiotic relationships observed, shown as food chains or a food web drawn from the species found.",
         "Biotic factors also include grazing, trampling and human management such as mowing or fertilising.",
-        "Using the model: it can explain why species are where they are (e.g. rushes only in the wet hollow) and predict the effect of a change (e.g. if mowing stopped, taller grasses would shade out daisies).",
-        "Limits of the model: it is a snapshot of one season and of the parts sampled."
-      ]
+        "Using the model: it can explain why species are where they are (for example rushes only in the wet hollow) and predict the effect of a change (for example if mowing stopped, taller grasses would shade out daisies).",
+        "Limits of the model: it is a snapshot of one season and of the parts sampled, so it may not hold at other times of year or in unsampled areas."
+      ],
+      "tip": "A habitat model needs its size, its species, and the relevant biotic and abiotic factors, all from your own data. Give each of these when asked to model a habitat."
     },
     {
       "h": "Presenting survey results",
+      "b": "Raw counts are hard to interpret. Tables and graphs show patterns in species abundance and distribution at a glance.",
       "points": [
         "Record results in tables with headings and units: quadrat number or distance along the transect, species, and the measure used.",
-        "Bar charts compare species, e.g. the percentage frequency of each.",
-        "For a transect, plot each species’ abundance against distance, or draw a kite diagram.",
-        "In a kite diagram, for each species a band is centred on a horizontal line; its width at each point along the transect is proportional to the species’ abundance there, so the bands show at a glance where each species is common.",
+        "Bar charts compare species, for example the percentage frequency of each.",
+        "For a transect, plot each species' abundance against distance, or draw a kite diagram.",
+        "In a kite diagram, for each species a band is centred on a horizontal line; its width at each point along the transect is proportional to the species' abundance there, so the bands show at a glance where each species is common.",
         "Diagram: a kite diagram for two species along a 10 m transect from a hedge, with distance on the x-axis."
       ]
     },
     {
       "h": "The survey as an investigation",
+      "b": "A survey can be set up as a fair test, with an aim, a hypothesis (a testable prediction), and variables. Field studies differ from lab experiments because conditions can't be fully controlled.",
       "points": [
-        "Aim: to estimate the abundance and distribution of named species (e.g. daisy, white clover, grass and woodlice) in a grassland.",
-        "Hypothesis (example): “Daisies are more abundant in the short-mown part of the field than in the long-grass part.”",
-        "Independent variable when two areas are compared: the area (e.g. mown vs unmown).",
-        "Dependent variable: the abundance of the species (density, percentage cover or frequency).",
-        "Controlled variables: the quadrat size and type, the number of quadrats, the method of placing them (random coordinates), the counting rule, the observer, the date and the weather.",
-        "There is no true control in a field study.",
+        "Aim: to estimate the abundance and distribution of named species (for example daisy, white clover, grass and woodlice) in a grassland.",
+        "Hypothesis (example): 'Daisies are more abundant in the short-mown part of the field than in the long-grass part.'",
+        "Independent variable (the one you change or compare) when two areas are compared: the area (for example mown vs unmown).",
+        "Dependent variable (the one you measure): the abundance of the species (density, percentage cover or frequency).",
+        "Controlled variables (kept the same): the quadrat size and type, the number of quadrats, the method of placing them (random coordinates), the counting rule, the observer, the date and the weather.",
+        "There is no true control in a field study, because the two areas can't be made identical in every other way.",
         "Conclusion: state the measured abundance of each species and compare the areas using the means.",
-        "Say whether the results support the hypothesis. A difference shows correlation with the area, not proof of the cause (see “Producing and analysing data”)."
-      ]
+        "Say whether the results support the hypothesis. A difference shows correlation with the area, not proof of the cause."
+      ],
+      "tip": "End with a conclusion that compares means and says whether the hypothesis is supported. Say that a difference shows correlation, not proof of the cause."
     },
     {
       "h": "Sources of error and limitations",
+      "b": "No survey is perfect. Knowing where errors come from lets you say how reliable your results are and how to improve them.",
       "points": [
-        "Too few samples, or samples not placed at random (choosing “typical” spots), give an unrepresentative estimate; use random coordinates and enough quadrats.",
+        "Too few samples, or samples not placed at random (choosing 'typical' spots), give an unrepresentative estimate; use random coordinates and enough quadrats.",
         "Misidentification of species, especially grasses and small invertebrates, is a source of error.",
         "Estimates of percentage cover by eye are subjective, and inconsistent edge rules change counts.",
         "Results vary with the season and the time of day (plants flower and animals are active at different times), so a single survey is a snapshot.",
         "The assumptions of capture–recapture are rarely fully met.",
         "Trampling during the survey damages the plants being sampled; avoid trampling the quadrat sites before they are sampled.",
-        "Reliability improves by repeating the survey (more quadrats, more transects, several dates) and calculating means."
-      ]
+        "Reliability improves by repeating the survey (more quadrats, more transects, several dates) and calculating means, because repeats reduce the effect of chance."
+      ],
+      "tip": "When asked for limitations, pair each source of error with its fix, such as random coordinates, more quadrats, repeat surveys on several dates, and means."
     }
   ],
   "keyTerms": [

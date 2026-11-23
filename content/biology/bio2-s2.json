@@ -5,98 +5,143 @@
   "syllabusRef": "U2.3",
   "notes": [
     {
-      "h": "Variables",
-      "b": "Every investigation has variables that are deliberately changed, measured or kept the same. Name each one precisely, with its unit and how it is measured.",
+      "h": "Variables: independent, dependent and controlled",
+      "b": "Every investigation has factors that are deliberately changed, measured or kept the same. Sorting them into the right type is the first step in designing a fair investigation.",
       "points": [
         "A variable is any factor that can change or be changed in an investigation.",
-        "The independent variable is the one variable the investigator deliberately changes, e.g. the temperature of the water bath in an enzyme investigation, or the concentration of sucrose solution in an osmosis investigation.",
+        "The independent variable is the one variable the investigator deliberately changes, for example the temperature of the water bath in an enzyme investigation, or the concentration of sucrose solution in an osmosis investigation.",
         "The dependent variable is the variable that is measured, because it is expected to change as a result; it depends on the independent variable. Examples: the volume of oxygen released per minute by catalase, or the percentage change in mass of potato cylinders.",
         "Controlled variables are all other variables that could affect the dependent variable, so they are kept the same. For enzyme rate these are pH (kept constant with a buffer), substrate concentration and volume, the amount of enzyme, and the time of measurement.",
-        "For osmosis the controlled variables are the size and surface area of the cylinders, the potato they are cut from, the volume of solution, the time in solution and the temperature.",
-        "Variables are kept constant with equipment and technique: a thermostatically controlled water bath or incubator for temperature; a buffer solution for pH; a graduated pipette, syringe or graduated cylinder for volumes; the same cork borer and the same trimming to the same length for tissue; a stopwatch for timing.",
-        "Choose a range of at least five values of the independent variable spread across the range in which a change is expected, e.g. 0 °C to 60 °C in 10 °C steps for an enzyme, and add closer intervals around a key point such as an apparent optimum.",
-        "A preliminary (pilot) trial helps choose the range and checks that the method works.",
-        "Name variables precisely: “temperature” is an independent variable; “the enzyme” is not."
-      ]
+        "For osmosis the controlled variables are the size and surface area of the cylinders, the potato they are cut from, the volume of solution, the time in solution and the temperature. Any of these could change the result if allowed to vary.",
+        "Name variables precisely, with their unit and how each is measured: “temperature” is an independent variable, but “the enzyme” is not, because it is not a factor you change by amount."
+      ],
+      "tip": "Exams ask you to name the independent, dependent and a controlled variable for a described experiment. Don't call the dependent variable the one that is controlled: it is the one that is measured."
+    },
+    {
+      "h": "Keeping variables constant and choosing a range",
+      "b": "Saying a variable is controlled is not enough; the plan must say how it is held constant, and which values of the independent variable will be tested.",
+      "points": [
+        "Variables are kept constant with equipment and technique: a thermostatically controlled water bath or incubator for temperature, because these hold a set temperature over time; a buffer solution for pH, because a buffer resists changes in pH.",
+        "Use a graduated pipette, syringe or graduated cylinder for volumes, so each set-up gets the same amount, and a stopwatch for timing.",
+        "For tissue, use the same cork borer and trim every piece to the same length, so that size and surface area are the same in every set-up.",
+        "Choose a range of at least five values of the independent variable, spread across the range in which a change is expected, for example 0 °C to 60 °C in 10 °C steps for an enzyme. This gives enough points to show a pattern.",
+        "Add closer intervals around a key point such as an apparent optimum (the value that gives the highest rate), so that the key point is located more exactly.",
+        "A preliminary (pilot) trial is a quick practice run. It helps choose the range and checks that the method works before the full investigation."
+      ],
+      "tip": "If asked how to keep temperature constant over a period of hours, answer with a water bath or incubator. For pH, answer with a buffer."
     },
     {
       "h": "Control and fair test",
+      "b": "To show that the factor you changed caused the result, you need a fair test and a control. These two ideas are linked but are not the same thing.",
       "points": [
         "A fair test is an investigation in which only the independent variable is changed and all other variables are controlled, so any change in the dependent variable can be put down to the independent variable.",
-        "A control (control experiment) is a set-up identical to the experiment in every way except that the factor being tested is absent or not applied. It is a standard for comparison, showing that the result is due to the factor being investigated.",
-        "Example of a control: boiled (denatured) enzyme used in place of active enzyme shows that the enzyme, rather than the substrate breaking down on its own, causes the reaction.",
-        "A negative control is a set-up expected to give no response, e.g. boiled enzyme, or distilled water in place of the test solution.",
-        "A positive control is a set-up known to give a response, which shows that the method can detect one, e.g. a known reducing sugar such as glucose in a food test.",
-        "Controlled variables and the control are different: controlled variables are the factors kept the same in every set-up, while the control is a separate set-up used for comparison. A question asking for “a control” needs a set-up, not a variable.",
-        "An investigation is valid if it actually measures what it sets out to measure and answers the question asked. This needs a fair test and a suitable dependent variable.",
-        "Example of an invalid investigation: if a lamp is moved closer to pondweed to increase light intensity and also warms the water, temperature has changed as well as light, so the investigation cannot show the effect of light alone.",
-        "A heat shield, such as a beaker of water between the lamp and the plant, restores validity by reducing the heating.",
-        "A conclusion is valid only if it is supported by data from a valid investigation."
-      ]
+        "A control (control experiment) is a set-up identical to the experiment in every way except that the factor being tested is absent or not applied. It is a standard for comparison, showing that the result is due to the factor being investigated and not something else.",
+        "Example of a control: boiled (denatured) enzyme used in place of active enzyme. Boiling denatures enzymes, so this shows that the enzyme, rather than the substrate breaking down on its own, causes the reaction.",
+        "A negative control is a set-up expected to give no response, for example boiled enzyme, or distilled water in place of the test solution.",
+        "A positive control is a set-up known to give a response, which shows that the method can detect one. For example, glucose is a reducing sugar and gives a positive Benedict’s test, so a known glucose solution shows the food test works.",
+        "Controlled variables and the control are different: controlled variables are the factors kept the same in every set-up, while the control is a separate set-up used for comparison."
+      ],
+      "tip": "This is the most common error. A question asking for “a control” needs a set-up (such as boiled enzyme), not a variable. Also be ready to say why a control is used and to suggest one for a described experiment."
     },
     {
-      "h": "Accuracy, precision and reliability",
-      "b": "These terms are often used interchangeably, but they describe different things.",
+      "h": "Validity",
+      "b": "A fair test is not much use unless it also measures the right thing. Validity is about whether the investigation really answers the question asked.",
       "points": [
-        "Error in measurement is the difference between a measured value and the true value. Every measurement has some error, and error is not the same as a mistake. The types of error (random and systematic) are in Objectivity and data quality.",
-        "Accuracy is how close a measurement or a mean is to the true value. It is improved by calibrated equipment and a method that measures the right thing.",
+        "An investigation is valid if it actually measures what it sets out to measure and answers the question asked. This needs a fair test and a suitable dependent variable.",
+        "Example of an invalid investigation: if a lamp is moved closer to pondweed to increase light intensity and also warms the water, temperature has changed as well as light, so the investigation cannot show the effect of light alone.",
+        "A heat shield, such as a beaker of water between the lamp and the plant, restores validity because the water absorbs heat and so reduces the heating.",
+        "A conclusion is valid only if it is supported by data from a valid investigation. In other words, a flawed method cannot give a trustworthy conclusion, however neat the results look."
+      ],
+      "tip": "In a described investigation, look for a second variable that changes along with the independent one, as the lamp warming the water does. Name it and suggest how to remove it."
+    },
+    {
+      "h": "Error, accuracy and precision",
+      "b": "Students often use these words interchangeably, but each one describes something different about a measurement.",
+      "points": [
+        "Error in measurement is the difference between a measured value and the true value. Every measurement has some error, and error is not the same as a mistake. There is more on this in Objectivity and data quality, which covers the types of error.",
+        "Accuracy is how close a measurement or a mean is to the true value. It is improved by calibrated equipment (checked against a known standard) and a method that measures the right thing.",
         "Precision is how close repeated measurements are to each other, meaning there is little spread around the mean.",
         "The precision of an instrument is its resolution: the smallest change it can show. A balance reading to 0.01 g is more precise than one reading to 1 g, and a graduated pipette is more precise than a beaker for measuring 5 cm³.",
         "Precise results need not be accurate: a balance that reads 0.5 g too high gives readings close to each other (precise) but all wrong (inaccurate).",
-        "Diagram: four targets showing accurate and precise; precise but not accurate; accurate on average but not precise; neither.",
-        "Reliability is how far results can be trusted because they are consistent when the investigation is repeated. It is judged by repeating the investigation (see Objectivity and data quality), and it is improved by replicates, repeats and a large sample size.",
-        "Replicates are several identical set-ups at each value of the independent variable, run at the same time, e.g. three potato cylinders in each sucrose concentration.",
-        "Repeats are carrying out the whole measurement again. Both allow a mean to be calculated and an anomalous result to be spotted (see Producing and analysing data).",
+        "Diagram: four targets showing accurate and precise; precise but not accurate; accurate on average but not precise; neither."
+      ],
+      "tip": "Don't use accuracy, precision and reliability as if they mean the same. Precise does not mean accurate, and reliable does not mean accurate. Use the balance that reads 0.5 g too high as your example."
+    },
+    {
+      "h": "Reliability, replicates and sample size",
+      "b": "One measurement can be a fluke. Reliability is about whether results can be trusted because they come out the same when the investigation is repeated.",
+      "points": [
+        "Reliability is how far results can be trusted because they are consistent when the investigation is repeated. It is improved by replicates, repeats and a large sample size. There is more on judging reliability in Objectivity and data quality.",
+        "Replicates are several identical set-ups at each value of the independent variable, run at the same time, for example three potato cylinders in each sucrose concentration.",
+        "Repeats are carrying out the whole measurement again. Both replicates and repeats allow a mean to be calculated and an anomalous result (one that does not fit the pattern) to be spotted.",
         "Sample size is the number of organisms, samples or measurements in each group. Living things vary naturally: two potato cylinders, two leaves or two people are never identical.",
-        "A larger sample, chosen at random, reduces the effect of individual variation and gives a more representative and reliable result. Sample size is limited by time, cost, materials and the ethics of using organisms."
-      ]
+        "A larger sample, chosen at random, reduces the effect of individual variation and gives a more representative and reliable result.",
+        "Sample size is limited by time, cost, materials and the ethics of using organisms, so a plan has to balance these against the need for reliable results."
+      ],
+      "tip": "Why repeat an experiment or use replicates? Say that it allows a mean to be calculated and an anomaly to be spotted, which makes results more reliable. Large sample size and random selection are also standard principles of good experimentation."
     },
     {
       "h": "Selecting suitable equipment",
+      "b": "The equipment you choose decides how good your data can be. A plan should pick each item for a reason, not just name it.",
       "points": [
         "Choose equipment whose resolution suits the size of the change: a syringe, graduated pipette or burette for small volumes rather than a beaker; a balance reading to at least 0.01 g for small masses; a stopwatch for time; a thermometer or temperature probe for temperature.",
-        "Choose equipment that measures objectively where possible. A colorimeter measures colour or cloudiness as a number instead of judging by eye.",
+        "Choose equipment that measures objectively where possible, meaning the reading does not depend on opinion. A colorimeter measures colour or cloudiness as a number instead of judging by eye.",
         "A gas syringe or an inverted graduated cylinder over water measures the volume of gas, instead of counting bubbles, which vary in size.",
-        "Data loggers with sensors (temperature, pH, oxygen, light) record readings automatically at set intervals.",
+        "Data loggers with sensors (temperature, pH, oxygen, light) record readings automatically at set intervals, so no readings are missed and there is no human timing error.",
         "Justify each choice in the plan: say what it measures, why its resolution or range is suitable, and how it reduces error."
-      ]
+      ],
+      "tip": "New to this specification: you may be asked to justify a choice of equipment. Give what it measures, why its resolution suits the change, and how it reduces error."
     },
     {
       "h": "Safety",
+      "b": "Practical work can cause harm, so risks are thought through before starting. A risk assessment is the written record of that thinking.",
       "points": [
         "A risk assessment is carried out before practical work. It identifies each hazard (anything that could cause harm), judges the risk (how likely and how serious the harm is) and states a control measure that reduces it.",
         "General control measures: wear safety glasses and a lab coat; tie back long hair; heat with a water bath rather than a direct flame where possible; clean up spills at once; wash hands after practical work; never eat or drink in the laboratory.",
-        "Hot water baths and boiling tubes: use tongs or a test-tube holder.",
-        "Corrosive or irritant reagents such as hydrogen peroxide or Benedict’s reagent: wear glasses and gloves and avoid skin contact.",
-        "Sharp scalpels and cork borers: cut downwards onto a tile, away from the body.",
-        "Microorganisms: use aseptic technique, sealed plates and disinfected benches, and dispose of cultures by sterilising them (see Microorganisms).",
-        "Electrical equipment must be kept away from water.",
+        "Hot water baths and boiling tubes can scald or burn, so use tongs or a test-tube holder.",
+        "Corrosive or irritant reagents such as hydrogen peroxide or Benedict’s reagent can harm skin and eyes, so wear glasses and gloves and avoid skin contact.",
+        "Sharp scalpels and cork borers can cut, so cut downwards onto a tile, away from the body.",
+        "Microorganisms can cause infection, so use aseptic technique (methods that keep unwanted microbes out), sealed plates and disinfected benches, and dispose of cultures by sterilising them. There is more on this in Microorganisms.",
+        "Electrical equipment must be kept away from water, because water conducts electricity and risks shock.",
         "Safety also covers the organisms used: living material should be treated with care and returned to its habitat where possible."
-      ]
+      ],
+      "tip": "When a described experiment involves a hazard, name the hazard and give a matching control measure, for example gloves and glasses for hydrogen peroxide. Safety is a principle of good experimentation."
     },
     {
-      "h": "Integrity and ethics",
+      "h": "Integrity: honest reporting",
+      "b": "Science only works if people can trust what is reported. Scientific integrity means being honest in how investigations are carried out and reported.",
       "points": [
-        "Scientific integrity means honesty in how investigations are carried out and reported. Record all results as they were measured, including unexpected and anomalous ones.",
-        "Never invent results (fabrication) or change them to fit the hypothesis (falsification). Never present others’ work or data as your own (plagiarism), so acknowledge every source.",
-        "Integrity also means reporting limitations and errors openly, and not leaving out data because they do not support the hypothesis.",
+        "Record all results as they were measured, including unexpected and anomalous ones, because a result you did not expect may still be real.",
+        "Never invent results (fabrication) or change them to fit the hypothesis (falsification).",
+        "Never present others’ work or data as your own (plagiarism), so acknowledge every source.",
+        "Integrity also means reporting limitations and errors openly, and not leaving out data because they do not support the hypothesis."
+      ],
+      "tip": "When asked how integrity was considered in a described investigation, name the practice: recording all results, not changing data, acknowledging sources, or reporting limitations."
+    },
+    {
+      "h": "Ethics: animals, people and the environment",
+      "b": "Investigations involve living things, so the investigator must weigh the harm they might cause. Ethics sets the rules for how animals, people and habitats are treated.",
+      "points": [
         "Ethics with animals: use animals only where there is no alternative, and cause the minimum harm or stress.",
         "The 3Rs: Replace (use non-animal alternatives such as cell cultures or computer models), Reduce (use the fewest animals that give reliable results), and Refine (improve methods to minimise suffering).",
         "Return organisms collected from the wild to where they were found.",
         "Ethics with human participants covers informed consent (participants know what is involved and agree freely), the right to withdraw at any time, confidentiality of personal data, and no physical or psychological harm.",
-        "Investigations on people, e.g. measuring reaction time after a caffeinated drink, must take account of health conditions and exclude anyone at risk.",
-        "Ethics also covers the environment: avoid damaging habitats when collecting. The wider ethical, social and economic consequences of research are in Science, scientists and society."
-      ]
+        "Investigations on people, for example measuring reaction time after a caffeinated drink, must take account of health conditions and exclude anyone at risk, because caffeine could harm them.",
+        "Ethics also covers the environment: avoid damaging habitats when collecting. There is more on the wider ethical, social and economic consequences of research in Science, scientists and society."
+      ],
+      "tip": "Learn the 3Rs as Replace, Reduce, Refine, each with its meaning, and for human participants give consent, right to withdraw, confidentiality and no harm."
     },
     {
       "h": "Writing the plan",
-      "b": "A plan must be detailed enough that someone else could repeat the investigation exactly. A worked outline for the effect of temperature on catalase shows the structure; the full method is in Enzymes.",
+      "b": "A plan must be detailed enough that someone else could repeat the investigation exactly. A worked outline for the effect of temperature on catalase (the enzyme that breaks down hydrogen peroxide into water and oxygen) shows the structure. There is more on the full method in Enzymes.",
       "points": [
-        "A plan states, in order: the question and hypothesis; the independent, dependent and controlled variables; the control; the equipment and reagents with reasons for choice; a numbered method with amounts, concentrations, times and temperatures; the number of replicates or repeats; how data will be recorded; a risk assessment; and ethical considerations.",
+        "A plan states, in order: the question and hypothesis; the independent, dependent and controlled variables; the control; and the equipment and reagents with reasons for choice.",
+        "It then gives a numbered method with amounts, concentrations, times and temperatures; the number of replicates or repeats; how data will be recorded; a risk assessment; and ethical considerations.",
         "Worked outline, catalase: the independent variable is temperature, with five or more values set with water baths.",
         "Worked outline, catalase: the dependent variable is the volume of oxygen collected in a fixed time, and the controlled variables are pH (kept with a buffer), the volume and concentration of hydrogen peroxide, and the mass or volume of the enzyme source.",
         "Worked outline, catalase: the control is boiled enzyme; there are three replicates at each temperature; and safety glasses are worn for hydrogen peroxide."
-      ]
+      ],
+      "tip": "Use the plan order as a checklist when you answer a design question, and do not write the whole experiment out; a short outline that names the variables, control, replicates and safety is enough to show the plan is complete."
     }
   ],
   "keyTerms": [

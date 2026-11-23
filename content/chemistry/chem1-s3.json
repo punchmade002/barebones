@@ -6,97 +6,114 @@
   "notes": [
     {
       "h": "Questions suitable for investigation",
+      "b": "Every investigation starts with a question, but not every question can be settled in a laboratory. A scientific question is one that evidence can answer.",
       "points": [
-        "A scientific question can be answered by collecting evidence through observation or experiment.",
-        "A good question is specific and focused and names measurable quantities, e.g. “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”",
-        "Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation.",
-        "A vague question, or one that cannot be tested with the available methods, is unsuitable, but a vague question can often be refined into a testable one."
+        "A scientific question can be answered by collecting evidence through observation (careful looking and recording) or experiment (changing something and measuring the effect).",
+        "A good question is specific and focused and names measurable quantities, so you know exactly what to measure. For example: “How does the concentration of hydrochloric acid affect the rate of its reaction with calcium carbonate?”",
+        "Questions of value, opinion or ethics, such as “Are plastics bad?”, cannot be answered by scientific investigation, because no measurement can decide what is good or bad.",
+        "A vague question, or one that cannot be tested with the available methods, is unsuitable. A vague question can often be refined into a testable one by naming the quantities to be measured."
       ]
     },
     {
       "h": "Variables",
+      "b": "A variable is any factor in an experiment that can change. Sorting variables into three types is how you make a test fair and know what you are really testing.",
       "points": [
-        "The independent variable is the one the investigator deliberately changes.",
-        "The dependent variable is the one that is measured, and it may change as a result.",
-        "Controlled variables are all the other factors that could affect the result; they are kept the same so that the test is fair."
-      ]
+        "The independent variable is the one the investigator deliberately changes, for example the concentration of acid.",
+        "The dependent variable is the one that is measured, and it may change as a result of changing the independent variable, for example the rate of reaction.",
+        "Controlled variables are all the other factors that could affect the result. They are kept the same so that the test is fair, because then any change in the result can only be due to the independent variable."
+      ],
+      "tip": "You may be asked to identify the independent, dependent and controlled variables in a described experiment. Name the one thing changed, the one thing measured, and the others kept the same."
     },
     {
       "h": "Testable hypotheses",
-      "b": "A hypothesis is based on existing scientific theory rather than on a guess.",
+      "b": "A hypothesis is based on existing scientific theory rather than on a guess. It turns a question into a statement that an experiment can test.",
       "points": [
-        "A hypothesis is a proposed explanation that leads to a testable prediction.",
-        "A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason, e.g. “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”, drawn from collision theory.",
-        "A hypothesis must be falsifiable: an experiment could show it to be wrong.",
-        "A prediction is the specific result expected if the hypothesis is correct, e.g. “doubling the concentration will roughly halve the time taken”."
-      ]
+        "A hypothesis is a proposed explanation that leads to a testable prediction, so it is a statement, not a question.",
+        "A good hypothesis states the expected relationship between the independent and dependent variables and gives the reason. For example: “Increasing the concentration of acid increases the rate of reaction, because there are more acid particles per unit volume and so more frequent effective collisions”.",
+        "That reason is drawn from collision theory (the theory that reactions happen when particles collide with enough energy).",
+        "A hypothesis must be falsifiable, which means an experiment could show it to be wrong. A statement that no result could ever contradict cannot be tested.",
+        "A prediction is the specific result expected if the hypothesis is correct, for example “doubling the concentration will roughly halve the time taken”."
+      ],
+      "tip": "If asked to write a testable hypothesis for a given investigation, state the relationship between the independent and dependent variables and add the reason from theory. Remember that a hypothesis is not a question; it is a statement that can be tested."
     },
     {
       "h": "Comparing strategies for testing a hypothesis",
+      "b": "There is usually more than one way to collect evidence for the same hypothesis. Choosing between them means weighing each against a set of criteria.",
       "points": [
-        "A hypothesis can often be tested in more than one way, e.g. by measuring the volume of gas collected in a gas syringe, the mass lost on a balance, or the time taken for a solid to disappear.",
-        "Strategies are compared by validity, the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.",
-        "The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified."
-      ]
+        "A hypothesis can often be tested in more than one way. For example, the rate of a reaction that gives off gas can be found in three ways.",
+        "Measure the volume of gas collected in a gas syringe (a calibrated syringe that the gas pushes out), the mass lost on a balance, or the time taken for a solid to disappear.",
+        "Strategies are compared by validity (does it measure what it should?), the accuracy and precision of the measurements, how easily other variables can be controlled, safety, cost and time, and the range and number of data points.",
+        "The strategy chosen should give the most reliable and valid evidence with acceptable safety, and the choice must be justified, meaning you give reasons using the criteria above."
+      ],
+      "tip": "To compare two methods of investigating a hypothesis, describe both, go through the criteria for each, then say which gives better evidence and why."
     },
     {
       "h": "Planning an investigation",
+      "b": "A good plan lets someone else carry out your investigation exactly as you intended. It also shows that you have thought about the whole process before starting.",
       "points": [
         "A plan states the aim or hypothesis, the variables, the equipment and chemicals, a step-by-step method, the measurements to be taken and how often, and the number of repeats.",
-        "A plan also includes a risk assessment and states how the data will be recorded and analysed.",
-        "Choose a suitable range and number of values for the independent variable; at least five values across a sensible range is a suggested minimum.",
-        "Include a control where appropriate: a set-up in which the factor being tested is absent, for comparison, e.g. hydrogen peroxide with no catalyst."
+        "A plan also includes a risk assessment (a check of what could go wrong and how to prevent it) and states how the data will be recorded and analysed.",
+        "Choose a suitable range and number of values for the independent variable, so that a trend can be seen. At least five values across a sensible range is a suggested minimum.",
+        "Include a control where appropriate: a set-up in which the factor being tested is absent, for comparison. For example, hydrogen peroxide with no catalyst shows how it behaves without the catalyst."
       ]
     },
     {
       "h": "Design terms: fairness, validity, reliability, error and integrity",
+      "b": "Examiners use these words to judge how well an investigation was designed. Each one has a distinct meaning, so keep them separate.",
       "points": [
         "Fairness (a fair test): only the independent variable is changed, and all other variables are controlled.",
-        "Validity: the investigation actually tests the hypothesis and measures what it claims to measure; it requires a fair test and suitable measurements.",
+        "Validity: the investigation actually tests the hypothesis and measures what it claims to measure. It requires a fair test and suitable measurements.",
         "Reliability: results can be trusted because they are consistent when the investigation is repeated.",
-        "Reliability is improved by repeating each measurement at least three times, calculating a mean, and comparing the results with those of other groups.",
-        "Accuracy and precision are improved by choosing suitable equipment and good technique; they are defined in “Measurement and error”.",
-        "Error: likely sources of error are identified in advance and the design is changed to reduce them, e.g. a burette rather than a measuring cylinder is used for accurate volumes.",
-        "Integrity: all results are recorded honestly, including unexpected ones; data are not invented, altered or selectively deleted; others' work is acknowledged."
-      ]
+        "Reliability is improved by repeating each measurement at least three times, calculating a mean (the average of the repeats), and comparing the results with those of other groups.",
+        "Accuracy and precision (how close a result is to the true value, and how close repeats are to each other) are improved by choosing suitable equipment and good technique. There is more on this in Measurement, error and data.",
+        "Error: likely sources of error are identified in advance and the design is changed to reduce them. For example, a burette rather than a measuring cylinder is used for accurate volumes.",
+        "Integrity: all results are recorded honestly, including unexpected ones. Data are not invented, altered or selectively deleted, and others' work is acknowledged."
+      ],
+      "tip": "You may be asked to explain the terms fair test, reliable and valid. Reliable is not the same as valid: a test can give consistent results that measure the wrong thing. Repeating improves reliability, but it does not remove systematic error (an error that shifts every result in the same direction)."
     },
     {
       "h": "Selecting suitable equipment",
+      "b": "The right piece of equipment depends on what is being measured and how exactly it must be measured. Resolution is the smallest change the instrument can show.",
       "points": [
-        "A pipette or burette is used for accurate volumes of solution.",
+        "A pipette or burette is used for accurate volumes of solution, because they are made to deliver exact volumes.",
         "A volumetric flask is used to make up a solution to an exact volume.",
-        "A measuring cylinder is used only where an approximate volume is enough.",
-        "A balance with a suitable resolution, e.g. 0.01 g, is used for small masses.",
+        "A measuring cylinder is used only where an approximate volume is enough, because it is less accurate than a pipette or burette.",
+        "A balance with a suitable resolution, for example 0.01 g, is used for small masses.",
         "A thermometer or temperature probe with an appropriate range is used to measure temperature.",
         "A gas syringe is used to measure gas volumes.",
-        "Data-loggers and sensors for pH, temperature and pressure give continuous readings.",
+        "Data-loggers and sensors for pH, temperature and pressure give continuous readings, meaning the values are recorded automatically as the reaction proceeds.",
         "Each choice of equipment is justified in terms of accuracy, precision and safety."
-      ]
+      ],
+      "tip": "Exams ask you to name a piece of equipment suitable for a stated measurement and justify it. Name the equipment, then give the reason in terms of accuracy, precision or safety."
     },
     {
       "h": "Safe laboratory practice",
+      "b": "Chemicals and equipment can cause burns, poisoning or fires, so safe habits are part of every investigation. These rules apply whatever the experiment.",
       "points": [
-        "Wear eye protection (safety glasses or goggles) and a lab coat, and tie back long hair.",
-        "Do not eat or drink in the laboratory, and wash hands after practical work.",
-        "Use a fume cupboard for toxic or harmful gases and for volatile, flammable or harmful liquids.",
-        "Heat flammable liquids such as ethanol with a water bath or electric heater, never with a naked flame.",
+        "Wear eye protection (safety glasses or goggles) and a lab coat, and tie back long hair, so that splashes and flames cannot reach the eyes, skin or hair.",
+        "Do not eat or drink in the laboratory, and wash hands after practical work, so that no chemical is swallowed.",
+        "Use a fume cupboard (a ventilated cabinet that draws fumes away) for toxic or harmful gases and for volatile (easily evaporating), flammable or harmful liquids.",
+        "Heat flammable liquids such as ethanol with a water bath or electric heater, never with a naked flame, because their vapour could catch fire.",
         "When diluting concentrated acids, add the acid to water, never water to acid.",
-        "Use a pipette filler; never pipette by mouth.",
+        "Use a pipette filler (a rubber bulb or device that draws liquid up); never pipette by mouth.",
         "Know the location of the eyewash, fire blanket, extinguisher and first aid; report spills and breakages; dispose of chemicals as instructed."
-      ]
+      ],
+      "tip": "You may be asked to state safety precautions for a described experiment. Pick the ones that match the chemicals and equipment in the description, and give the reason for each."
     },
     {
       "h": "Risk assessment",
+      "b": "A risk assessment is a planned check of what could cause harm in an experiment and how to prevent it. It depends on telling a hazard apart from a risk.",
       "points": [
-        "A hazard is anything that could cause harm, such as a corrosive acid.",
+        "A hazard is anything that could cause harm, such as a corrosive acid (one that damages skin and materials).",
         "A risk is the likelihood that harm will happen and how serious it would be.",
-        "1. Identify each hazard from labels, hazard pictograms and safety data sheets.",
+        "1. Identify each hazard from labels, hazard pictograms (warning symbols) and safety data sheets (documents giving a chemical's hazards and handling advice).",
         "2. Assess the risk of each hazard.",
         "3. Decide on control measures that reduce the risk.",
         "4. Know what to do in an emergency.",
         "The GHS (Globally Harmonized System) uses nine hazard pictograms, each with a red diamond border: corrosive, flammable, toxic, harmful or irritant (exclamation mark), oxidising, health hazard, environmental hazard, explosive and compressed gas.",
-        "Example: concentrated sodium hydroxide is corrosive, so there is a risk of skin and eye burns; controls are goggles, gloves, small volumes and dilute solutions where possible; if it touches the skin, wash it with plenty of water."
-      ]
+        "Example: concentrated sodium hydroxide is corrosive, so there is a risk of skin and eye burns. Controls are goggles, gloves, small volumes and dilute solutions where possible; if it touches the skin, wash it with plenty of water."
+      ],
+      "tip": "You may be asked to carry out a simple risk assessment. Name the hazard, state the risk, give the control measures, and say what to do in an emergency."
     }
   ],
   "keyTerms": [

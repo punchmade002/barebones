@@ -6,74 +6,131 @@
   "notes": [
     {
       "h": "What a DNA profile is",
+      "b": "Every person's DNA is slightly different, and DNA profiling turns those differences into a pattern that can be compared between samples. It is used to link people to evidence, to each other or to a remains sample.",
       "points": [
-        "DNA profiling (also called DNA fingerprinting) is a method of making a pattern of bands (or peaks) from a sample of a person’s DNA, so that the DNA of different samples can be compared.",
-        "Except for identical twins, the pattern is unique to each person.",
-        "It is based on non-coding DNA (see “Chromosome structure and genes”): about 98% of human DNA does not code for protein.",
-        "Parts of non-coding DNA contain short base sequences repeated many times one after another. In short tandem repeats (STRs), a short sequence, often four bases (e.g. GATA), is repeated end to end, e.g. GATAGATAGATA…",
-        "The number of repeats at a particular place (locus) varies greatly between people, so the length of that piece of DNA varies.",
+        "DNA profiling (also called DNA fingerprinting) is a method of making a pattern of bands (or peaks) from a sample of a person's DNA, so that the DNA of different samples can be compared.",
+        "Except for identical twins, the pattern is unique to each person, which is why it can identify an individual.",
+        "Identical twins come from one zygote (the single cell formed at fertilisation), so they have the same DNA and the same profile. Non-identical twins and other siblings do not share a profile.",
+        "How a profile is made, in outline: 1. DNA is extracted from cells. 2. Many copies of the repeat regions are made by PCR, so there is enough to detect (in older methods the DNA was cut with restriction enzymes).",
+        "3. The fragments are separated by size by gel electrophoresis, so that different lengths form different bands. 4. The pattern is analysed and compared. There is more on each step in Generating a DNA profile (Higher Level)."
+      ],
+      "tip": "If asked what DNA profiling is, say it makes a pattern of bands or peaks from a person's DNA so samples can be compared. Explain identical twins by saying they come from one zygote, so their DNA is the same. If asked to outline the stages, give the four in order."
+    },
+    {
+      "h": "What the profile is based on: non-coding DNA and repeats",
+      "b": "A profile does not read a person's genes. It looks at stretches of DNA that do not code for protein, where short sequences are repeated, because the number of repeats differs so much from person to person.",
+      "points": [
+        "DNA profiling is based on non-coding DNA (DNA that does not code for a protein): about 98% of human DNA is non-coding.",
+        "Parts of non-coding DNA contain short base sequences repeated many times one after another, for example short tandem repeats (STRs), a short sequence, often four bases (e.g. GATA), is repeated end to end, e.g. GATAGATAGATA…",
+        "The number of repeats at a particular place on a chromosome (a locus) varies greatly between people, so the length of that piece of DNA varies too. This length difference is what a profile detects.",
+        "Profiling is therefore not a test of a person's genes, their whole genome, their appearance or their health."
+      ],
+      "tip": "A common mistake is to say profiling reads a person's genes. It uses mainly non-coding repeated DNA, and it tells you nothing about appearance or health."
+    },
+    {
+      "h": "Alleles, bands and inheritance",
+      "b": "Because we inherit one of each chromosome pair from each parent, every person has two copies of each locus. This is what gives the pattern its structure and lets it be used for family relationships.",
+      "points": [
         "Each person has two copies of every locus, one on the chromosome inherited from the mother and one on the chromosome inherited from the father.",
-        "Each copy can have a different number of repeats (two alleles, giving two bands), or the same number (giving one band, twice as strong).",
-        "So a child’s profile at each locus has one band from the mother and one from the father.",
+        "Each copy can have a different number of repeats (two alleles, giving two bands), or the same number (giving one band, twice as strong because both copies run to the same position).",
+        "So a child's profile at each locus has one band from the mother and one from the father. A child has half its bands from each parent, not most from the father."
+      ],
+      "tip": "In paternity diagrams, remember each child band must match one from the mother and one from the father."
+    },
+    {
+      "h": "Many loci make a profile reliable",
+      "b": "One locus on its own would match many people by chance. Testing many loci together makes a full match very strong evidence.",
+      "points": [
         "A profile tests many loci at once; modern forensic profiles use more than ten.",
         "The chance that two unrelated people match at every locus is extremely small, which is why a full match is strong evidence of identity.",
-        "Identical twins come from one zygote, so they have the same DNA and the same profile.",
-        "How a profile is made: DNA is extracted from cells; many copies of the repeat regions are made by PCR (in older methods the DNA was cut with restriction enzymes); the fragments are separated by size by gel electrophoresis; and the pattern is analysed and compared. Each step is covered in detail in “Generating a DNA profile” (Higher Level)."
+        "The exception is identical twins, who share the same DNA and so the same profile at every locus."
       ]
     },
     {
-      "h": "Reading a profile",
+      "h": "Reading a profile: how fragments separate on a gel",
+      "b": "In gel electrophoresis, DNA fragments are pulled through a gel by an electric field and sorted by size. Knowing which way they move and which sizes go furthest lets you read a profile.",
       "points": [
         "On a gel, each band is a group of DNA fragments of the same length.",
-        "DNA is negatively charged (its phosphate groups), so in an electric field it moves through the gel towards the positive electrode, away from the wells where samples are loaded.",
-        "Shorter fragments (fewer repeats) move faster and travel further from the wells; longer fragments (more repeats) stay nearer the wells. So band position shows fragment length.",
-        "Two samples match only if every band is in the same position. A single band that differs, at any locus, shows that they did not come from the same person; this is an exclusion.",
+        "DNA is negatively charged (because of its phosphate groups), so in an electric field it moves through the gel towards the positive electrode, away from the wells (the small slots) where samples are loaded.",
+        "Shorter fragments (fewer repeats) move faster and travel further from the wells, because they pass through the gel more easily; longer fragments (more repeats) stay nearer the wells. So band position shows fragment length.",
         "Comparing band positions with a ladder of fragments of known length (a size marker) lets lengths be read.",
         "In modern laboratories the fragments are labelled with fluorescent dyes and separated by machine. The result is printed as a graph of peaks, each peak being one allele labelled with its number of repeats, rather than as bands. The rules for matching are the same.",
-        "Diagram: a gel with wells at the top (negative electrode) and the positive electrode at the bottom; lanes for a ladder, a crime-scene sample and three suspects; one suspect’s bands match the crime-scene lane exactly. Label wells, lanes, bands, “shorter fragments travel further”, + and − electrodes."
-      ]
+        "Diagram: a gel with wells at the top (negative electrode) and the positive electrode at the bottom; lanes for a ladder, a crime-scene sample and three suspects; one suspect's bands match the crime-scene lane exactly. Label wells, lanes, bands, \"shorter fragments travel further\", + and − electrodes."
+      ],
+      "tip": "Students often reverse this: shorter fragments travel further, and DNA moves to the positive electrode."
     },
     {
-      "h": "History",
+      "h": "Reading a profile: deciding whether samples match",
+      "b": "Once the bands are on the gel, you compare lanes. The rule for a match is strict: everything must line up.",
+      "points": [
+        "Two samples match only if every band is in the same position.",
+        "A single band that differs, at any locus, shows that they did not come from the same person, because the same DNA would give identical bands; this is an exclusion.",
+        "Paternity uses the same logic: every band in a child's profile must come from the mother or the father, so a man whose profile lacks a band the child must have inherited from its father is excluded as the father."
+      ],
+      "tip": "When interpreting a crime-scene or paternity diagram, look for any band that is missing. One mismatched band excludes a person, and a match alone is not proof of guilt."
+    },
+    {
+      "h": "History of DNA profiling",
+      "b": "DNA profiling is a recent method, and its first uses showed that it can both convict and clear people.",
       "points": [
         "DNA profiling was invented by Alec Jeffreys at the University of Leicester, England, in 1984.",
-        "It was first used to convict a murderer, Colin Pitchfork, in 1988.",
+        "It was first used to convict a murderer, Colin Pitchfork, in 1988, which showed that it works as evidence in court.",
         "The same investigation first cleared an innocent suspect, who had confessed to one of the killings but whose DNA did not match."
       ]
     },
     {
-      "h": "Uses of DNA profiling",
+      "h": "Uses: forensic science and family relationships",
+      "b": "The two best-known uses compare a person's profile with other evidence or other people. In crime it links or excludes suspects, and in families it tests who is related to whom.",
       "points": [
-        "Forensic science (crime): DNA from blood, semen, saliva, skin cells or hair roots left at a crime scene is compared with a suspect’s DNA (taken from a mouth swab).",
-        "A match links the suspect to the scene; a mismatch excludes them.",
-        "Profiles are stored in national DNA databases and compared with new crime-scene samples.",
-        "Old crime-scene samples can be retested, solving “cold cases” and freeing people wrongly convicted.",
-        "Paternity and other family relationships: every band in a child’s profile must come from the mother or the father, so a man whose profile lacks a band the child must have inherited from its father is excluded as the father.",
-        "DNA profiling is also used to establish maternity, to reunite separated families, and in immigration cases where family relationships must be proven.",
-        "Identifying human remains, e.g. victims of disasters, wars and accidents, or missing persons, by comparing their DNA with that of relatives or with DNA from their personal items (e.g. a toothbrush).",
-        "Mitochondrial DNA and Y-chromosome profiles trace family lines when nuclear DNA is too damaged or no close relative is available: mitochondrial DNA is passed down the female line and the Y chromosome down the male line (see “Nuclear and non-nuclear inheritance” and “Sex determination”).",
-        "Example: the skeleton found under a car park in Leicester in 2012 was confirmed in 2013 to be King Richard III, partly by matching its mitochondrial DNA to living descendants of his sister’s female line.",
-        "Animals, plants and conservation: identifying illegally traded wildlife products (e.g. ivory, meat from protected species), checking the pedigree (parentage) of animals used for breeding, and keeping breeding programmes for endangered species from inbreeding.",
-        "Food and medicine: DNA tests identify the species in food, showing fraud. Example: in January 2013 the Food Safety Authority of Ireland found horse DNA in beef burgers on sale in Ireland, which revealed a Europe-wide horsemeat scandal.",
-        "DNA-based tests also help match donors and patients for bone-marrow transplants, and identify the strain of a disease-causing microorganism in an outbreak. Species tests check for a species’ DNA, not an individual’s profile."
+        "Forensic science (crime): DNA from blood, semen, saliva, skin cells or hair roots left at a crime scene is compared with a suspect's DNA (taken from a mouth swab).",
+        "A match links the suspect to the scene; a mismatch excludes them, because a single differing band shows the DNA came from someone else.",
+        "Profiles are stored in national DNA databases so that new crime-scene samples can be compared with them, which can identify a suspect.",
+        "Old crime-scene samples can be retested, solving \"cold cases\" (unsolved old crimes) and freeing people wrongly convicted.",
+        "Paternity and other family relationships: DNA profiling is also used to establish maternity, to reunite separated families, and in immigration cases where family relationships must be proven."
+      ],
+      "tip": "Exams ask for uses of DNA profiling. Give a specific use with a reason, such as comparing crime-scene DNA with a suspect's, or excluding a man as father because the child has a band the man lacks."
+    },
+    {
+      "h": "Uses: identifying remains and tracing family lines",
+      "b": "When a body is unrecognisable or old, a profile can still identify it by comparing with relatives or personal items. When nuclear DNA is not usable, other DNA can trace ancestry.",
+      "points": [
+        "Identifying human remains, e.g. victims of disasters, wars and accidents, or missing persons, by comparing their DNA with that of relatives or with DNA from their personal items (e.g. a toothbrush), which carry the person's own DNA.",
+        "Mitochondrial DNA and Y-chromosome profiles trace family lines when nuclear DNA is too damaged or no close relative is available. Mitochondrial DNA is passed down the female line and the Y chromosome down the male line, so each follows one line of ancestors.",
+        "Example: the skeleton found under a car park in Leicester in 2012 was confirmed in 2013 to be King Richard III, partly by matching its mitochondrial DNA to living descendants of his sister's female line.",
+        "There is more on these two kinds of inheritance in Nuclear and non-nuclear inheritance."
+      ]
+    },
+    {
+      "h": "Uses: animals, plants, food and medicine",
+      "b": "DNA profiling is not only for people. It is also applied to wildlife, farm and breeding animals, food and medicine.",
+      "points": [
+        "Animals, plants and conservation: identifying illegally traded wildlife products (e.g. ivory, meat from protected species), and checking the pedigree (parentage) of animals used for breeding.",
+        "It also helps keep breeding programmes for endangered species from inbreeding (mating between close relatives).",
+        "Food: DNA tests identify the species in food, so they show fraud when the food is not what the label says. Species tests check for a species' DNA, not an individual's profile.",
+        "Example: in January 2013 the Food Safety Authority of Ireland found horse DNA in beef burgers on sale in Ireland, which revealed a Europe-wide horsemeat scandal.",
+        "Medicine: DNA-based tests also help match donors and patients for bone-marrow transplants, and identify the strain of a disease-causing microorganism in an outbreak."
       ]
     },
     {
       "h": "Profiling is not genetic screening",
+      "b": "The two are easily confused because both use DNA. They answer different questions.",
       "points": [
         "DNA profiling compares band patterns of mostly non-coding DNA to identify a person or a relationship; it tells nothing about health.",
-        "Genetic screening (DNA testing) looks at particular genes to find whether a person has, or carries, an allele linked to a disease (see “Bioinformatics: genome databases” and, for screening of newborns, “Prenatal and postnatal care”)."
-      ]
+        "Genetic screening (DNA testing) looks at particular genes to find whether a person has, or carries, an allele linked to a disease. There is more on this in Bioinformatics: genome databases and, for screening of newborns, in Prenatal and postnatal care."
+      ],
+      "tip": "If asked to distinguish them, say profiling identifies a person or relationship using non-coding DNA, while screening looks at specific genes for disease alleles."
     },
     {
       "h": "Limitations of DNA evidence",
+      "b": "DNA evidence is powerful but not perfect. Problems can arise before, during and after the test.",
       "points": [
-        "Contamination of a sample with another person’s DNA (e.g. by investigators) can give a false link; samples must be collected with gloves, masks and sealed bags.",
+        "Contamination of a sample with another person's DNA (e.g. by investigators) can give a false link, so samples must be collected with gloves, masks and sealed bags.",
         "DNA can be degraded by heat, moisture, bacteria or time, giving incomplete profiles that are harder to interpret.",
         "A match shows that the DNA came from that person (or an identical twin), not when or how it got there; DNA can be transferred innocently, e.g. by touch or on shared objects.",
         "So DNA evidence must be weighed with other evidence; it does not prove guilt alone.",
-        "Mistakes in labelling or interpretation, and the human judgement needed for mixed samples from several people, can lead to errors."
-      ]
+        "Mistakes in labelling or interpretation, and the human judgement needed for mixed samples from several people, can lead to errors, for example if a sample is attributed to the wrong person."
+      ],
+      "tip": "A match is not proof of guilt, because it does not show when or how the DNA arrived. Say this when asked about limitations."
     }
   ],
   "keyTerms": [

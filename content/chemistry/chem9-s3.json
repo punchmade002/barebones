@@ -6,134 +6,155 @@
   "notes": [
     {
       "h": "Boyle's law (constant temperature)",
-      "b": "For a fixed mass of gas at constant temperature, the pressure and volume are linked by Boyle's law.",
+      "b": "Gas pressure is the force of the particles hitting the container walls, per unit area. For a fixed mass of gas (a set amount, with none added or lost) at constant temperature, pressure and volume are linked by Boyle's law.",
       "points": [
-        "Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure: P₁V₁ = P₂V₂.",
+        "Boyle's law: at constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure (when one doubles, the other halves): P₁V₁ = P₂V₂.",
         "The law was stated by Robert Boyle in 1662, and Charles's law is named after Jacques Charles.",
         "Particle explanation: in a smaller volume the particles hit the walls more often, so the pressure rises.",
-        "Example: 200 cm³ of gas at 100 kPa is compressed to 50 cm³ at the same temperature.",
-        "Step 1: Rearrange P₁V₁ = P₂V₂ to P₂ = P₁V₁ ÷ V₂.",
-        "Step 2: P₂ = 100 kPa × 200 cm³ ÷ 50 cm³ = 400 kPa."
-      ]
+        "Example: 200 cm³ of gas at 100 kPa (kilopascals, a unit of pressure) is compressed to 50 cm³ at the same temperature.",
+        "Step 1: Rearrange P₁V₁ = P₂V₂ to P₂ = P₁V₁ ÷ V₂, because P₂ is the unknown.",
+        "Step 2: P₂ = 100 kPa × 200 cm³ ÷ 50 cm³ = 400 kPa. The volume fell to a quarter, so the pressure rose four times."
+      ],
+      "tip": "If asked to state Boyle's law, include 'fixed mass' and 'constant temperature'. Questions also ask you to explain it in terms of particles and to do a calculation."
     },
     {
       "h": "Charles's law (constant pressure)",
-      "b": "For a fixed mass of gas at constant pressure, the volume and temperature are linked by Charles's law.",
+      "b": "Heating a gas makes it expand if its pressure is held constant. For a fixed mass of gas at constant pressure, volume and temperature are linked by Charles's law.",
       "points": [
-        "Charles's law: at constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature in kelvin: V₁/T₁ = V₂/T₂.",
+        "Charles's law: at constant pressure, the volume of a fixed mass of gas is directly proportional to its temperature in kelvin (K, the absolute temperature scale): V₁/T₁ = V₂/T₂.",
         "Particle explanation: hotter particles move faster and hit the walls harder, so the gas expands to keep the pressure the same.",
         "Example: 300 cm³ of gas at 27 °C (300 K) is heated to 127 °C (400 K) at constant pressure.",
-        "Step 1: Rearrange V₁/T₁ = V₂/T₂ to V₂ = V₁ × T₂ ÷ T₁.",
+        "Step 1: Rearrange V₁/T₁ = V₂/T₂ to V₂ = V₁ × T₂ ÷ T₁, because V₂ is the unknown.",
         "Step 2: V₂ = 300 cm³ × 400 K ÷ 300 K = 400 cm³."
-      ]
+      ],
+      "tip": "Charles's law needs the temperature in kelvin, and using °C gives wrong answers. Include 'fixed mass' when you state it."
     },
     {
       "h": "The pressure law and the combined gas law",
+      "b": "A third pair of properties completes the set: pressure and temperature at constant volume. The combined gas law then joins all three relationships into one.",
       "points": [
         "Pressure law (Gay-Lussac's law): at constant volume, the pressure of a fixed mass of gas is directly proportional to its temperature in kelvin: P₁/T₁ = P₂/T₂.",
         "Particle explanation: faster particles hit the walls more often and harder, so the pressure rises.",
-        "Combined gas law: P₁V₁/T₁ = P₂V₂/T₂, for a fixed mass of gas."
-      ]
+        "Combined gas law: P₁V₁/T₁ = P₂V₂/T₂, for a fixed mass of gas. It is useful when pressure, volume and temperature all change together."
+      ],
+      "tip": "The pressure law needs kelvin, and 'fixed mass' is part of each law and the combined law."
     },
     {
       "h": "Kelvin and absolute zero",
+      "b": "The gas laws only work on a temperature scale that starts at the lowest possible temperature. That scale is the kelvin scale.",
       "points": [
-        "Temperatures in the gas laws must be in kelvin (K), not in °C; using °C gives wrong answers.",
+        "Temperatures in the gas laws must be in kelvin (K), not in °C; using °C gives wrong answers, because a gas at 0 °C does not have zero volume or pressure.",
         "Absolute zero (0 K = −273 °C) is the temperature at which, in theory, an ideal gas would have zero volume.",
         "At absolute zero the particles would stop moving."
-      ]
+      ],
+      "tip": "Convert to kelvin before substituting into any gas law. Using °C is the mistake the package warns about."
     },
     {
       "h": "Graphs of the gas laws",
+      "b": "Plotting the relationships shows them as straight lines, which is the easiest way to see what proportional means.",
       "points": [
-        "Diagram: a graph of V against 1/P, which is a straight line through the origin for Boyle's law, and a graph of V against T in K, which is a straight line through the origin for Charles's law."
+        "Diagram: a graph of V against 1/P, which is a straight line through the origin for Boyle's law, and a graph of V against T in K, which is a straight line through the origin for Charles's law. Label the axes with their quantities and units."
       ]
     },
     {
       "h": "The ideal gas",
-      "b": "The ideal gas is a model that allows analysis and prediction of how gases behave.",
+      "b": "The ideal gas is a model that allows analysis and prediction of how gases behave. It is a simplified picture of a gas, built on a set of assumptions.",
       "points": [
         "An ideal gas is a gas that obeys the gas laws, and PV = nRT, exactly under all conditions.",
-        "The ideal gas model assumes that the gas particles are in constant random motion.",
-        "The ideal gas model assumes that the volume of the particles themselves is negligible compared with the volume of the container.",
+        "The ideal gas model assumes that the gas particles are in constant random motion, so they keep colliding with the walls and each other.",
+        "The ideal gas model assumes that the volume of the particles themselves is negligible (so small it can be ignored) compared with the volume of the container.",
         "The ideal gas model assumes that there are no attractive or repulsive forces between the particles.",
-        "The ideal gas model assumes that collisions are perfectly elastic.",
+        "The ideal gas model assumes that collisions are perfectly elastic, which means no kinetic energy (energy of movement) is lost in a collision.",
         "The ideal gas model assumes that the average kinetic energy is proportional to the kelvin temperature.",
         "No real gas is ideal, but most gases behave nearly ideally at room temperature and pressure, so the model allows useful predictions."
-      ]
+      ],
+      "tip": "Exams ask you to say what an ideal gas is and to state assumptions of the model. Learn at least two assumptions, ideally all five."
     },
     {
       "h": "Deviations of real gases (Higher Level only)",
+      "b": "Real gases break the ideal assumptions about particle volume and attractive forces. They deviate most in conditions where those assumptions fail.",
       "points": [
         "Real gases deviate most from ideal behaviour at high pressure and low temperature, and behave most ideally at low pressure and high temperature.",
         "At high pressure the particles are squeezed close together, so their own volume is no longer negligible compared with the volume of the gas.",
-        "At low temperature the particles move slowly, so the attractive forces between them become significant; this is close to the point where the gas condenses.",
-        "Small, non-polar particles with weak intermolecular forces, such as helium and hydrogen, behave most ideally.",
+        "At low temperature the particles move slowly, so the attractive forces between them become significant; this is close to the point where the gas condenses (turns into a liquid).",
+        "Small, non-polar particles (with no charged ends) and weak intermolecular forces (forces between molecules), such as helium and hydrogen, behave most ideally.",
         "Polar molecules with strong attractions, especially those that hydrogen bond, such as ammonia and water vapour, deviate most."
-      ]
+      ],
+      "tip": "To explain deviation at high pressure, say the particle volume is no longer negligible. For low temperature, say the attractive forces become significant. van der Waals' equation is not required."
     },
     {
       "h": "The ideal gas equation",
       "b": "The ideal gas equation combines the gas laws into one relationship between pressure, volume, amount and temperature.",
       "points": [
-        "PV = nRT, where P is pressure in pascals (Pa), V is volume in cubic metres (m³), n is the number of moles, and T is temperature in kelvin (K).",
-        "R is the gas constant, 8.314 J K⁻¹ mol⁻¹.",
-        "The equation combines Boyle's law, Charles's law, the pressure law and Avogadro's law into one equation.",
+        "PV = nRT, where P is pressure in pascals (Pa), V is volume in cubic metres (m³), n is the number of moles (the amount of gas), and T is temperature in kelvin (K).",
+        "R is the gas constant, 8.314 J K⁻¹ mol⁻¹. It is the same for every gas, and its units match pascals, cubic metres, moles and kelvin.",
+        "The equation combines Boyle's law, Charles's law, the pressure law and Avogadro's law (equal volumes of gases at the same temperature and pressure hold equal numbers of molecules) into one equation.",
         "The equation applies exactly only to an ideal gas, but it gives good results for real gases at ordinary conditions."
-      ]
+      ],
+      "tip": "You are not required to know van der Waals' equation. Exams ask you to use PV = nRT to find the volume, moles, pressure or Mr of a gas."
     },
     {
       "h": "Converting units first",
-      "b": "Mixed units are the commonest error, so convert every quantity before substituting into PV = nRT.",
+      "b": "PV = nRT only works when every quantity is in the units that R uses. Mixed units are the commonest error, so convert every quantity before substituting.",
       "points": [
         "Pressure: kPa × 1000 = Pa, so 101 kPa = 101 000 Pa.",
         "Volume: cm³ × 10⁻⁶ = m³, so 250 cm³ = 2.50 × 10⁻⁴ m³.",
         "Volume: L × 10⁻³ = m³.",
         "Temperature: °C + 273 = K."
-      ]
+      ],
+      "tip": "Mixing kPa with cm³, or using °C, is the commonest error. Convert to Pa, m³ and K before substituting."
     },
     {
       "h": "Finding the volume of a gas",
+      "b": "When the moles, temperature and pressure are known, rearrange the equation to find the volume. Convert units first.",
       "points": [
         "Given: 0.50 mol of nitrogen at 27 °C and 100 kPa.",
         "Step 1: Convert the temperature: 27 °C + 273 = 300 K.",
         "Step 2: Convert the pressure: 100 kPa = 100 000 Pa.",
-        "Step 3: Rearrange the equation to V = nRT ÷ P.",
+        "Step 3: Rearrange the equation to V = nRT ÷ P, because V is the unknown.",
         "Step 4: V = 0.50 × 8.314 × 300 ÷ 100 000 = 0.0125 m³ (to 3 significant figures).",
         "Step 5: Convert to litres: 0.0125 m³ × 1000 = 12.5 L."
-      ]
+      ],
+      "tip": "Exams ask you to calculate the volume of a gas using PV = nRT, with unit conversions."
     },
     {
       "h": "Finding the moles of a gas",
+      "b": "If the volume, pressure and temperature are measured, the equation gives the amount of gas in moles.",
       "points": [
         "Given: 600 cm³ of oxygen at 20 °C and 101 kPa.",
         "Step 1: Convert the volume: 600 cm³ = 6.00 × 10⁻⁴ m³; the temperature is 20 °C + 273 = 293 K.",
-        "Step 2: Rearrange the equation to n = PV ÷ RT.",
+        "Step 2: Rearrange the equation to n = PV ÷ RT, because n is the unknown.",
         "Step 3: n = (101 000 × 6.00 × 10⁻⁴) ÷ (8.314 × 293) = 60.6 ÷ 2436 = 0.0249 mol."
-      ]
+      ],
+      "tip": "Exams ask you to calculate the moles of a gas using PV = nRT, with unit conversions."
     },
     {
       "h": "Finding relative molecular mass from mass",
+      "b": "Measuring the mass of a gas as well as its volume, pressure and temperature lets you work out its molar mass, which identifies the gas.",
       "points": [
-        "Since n = m ÷ M, the molar mass is M = mRT ÷ PV.",
+        "Since n = m ÷ M (moles = mass ÷ molar mass), the molar mass is M = mRT ÷ PV.",
         "Given: 1.60 g of a gas occupies 1.20 L at 27 °C and 101 kPa (sample data).",
         "Step 1: Convert the volume to m³: 1.20 L = 1.20 × 10⁻³ m³; the temperature is 27 °C + 273 = 300 K.",
         "Step 2: n = PV ÷ RT = (101 000 × 1.20 × 10⁻³) ÷ (8.314 × 300) = 121.2 ÷ 2494 = 0.0486 mol.",
         "Step 3: M = m ÷ n = 1.60 g ÷ 0.0486 mol = 32.9 g mol⁻¹.",
         "The answer is close to 32, the Mr of oxygen, so the gas could be oxygen (sample data)."
-      ]
+      ],
+      "tip": "Exams ask you to calculate the Mr of a gas using PV = nRT. Find n first, then divide the mass by n."
     },
     {
       "h": "Finding the pressure in a sealed container",
+      "b": "A fixed amount of gas in a container of known volume exerts a pressure that depends on its temperature. The equation gives that pressure.",
       "points": [
         "Given: 0.10 mol of gas in a 2.0 L container at 25 °C.",
         "Step 1: Convert the volume to m³: 2.0 L = 2.0 × 10⁻³ m³; the temperature is 25 °C + 273 = 298 K.",
-        "Step 2: Rearrange the equation to P = nRT ÷ V.",
+        "Step 2: Rearrange the equation to P = nRT ÷ V, because P is the unknown.",
         "Step 3: P = 0.10 × 8.314 × 298 ÷ 2.0 × 10⁻³ = 1.24 × 10⁵ Pa = 124 kPa."
-      ]
+      ],
+      "tip": "Exams ask you to calculate the pressure of a gas using PV = nRT, with unit conversions."
     },
     {
       "h": "Checking answers",
+      "b": "A quick check catches most arithmetic and unit slips before you hand in the answer.",
       "points": [
         "Check the units of the answer, and check whether the answer is sensible.",
         "A mole of gas at room conditions occupies about 24 L, so a volume far from this for one mole signals an error."
@@ -141,22 +162,23 @@
     },
     {
       "h": "Verifying the ideal gas equation (investigation)",
-      "b": "The equation can be verified by comparing a measured gas volume with the volume it predicts.",
+      "b": "The equation can be verified by comparing a measured gas volume with the volume it predicts. Magnesium reacting with acid gives a known amount of hydrogen gas to test it with.",
       "points": [
         "Aim: to verify the ideal gas equation by comparing a measured gas volume with the volume it predicts.",
-        "Step 1: React a weighed piece of magnesium ribbon, e.g. 0.048 g, with excess dilute hydrochloric acid in a flask connected to a gas syringe: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
+        "Step 1: React a weighed piece of magnesium ribbon, e.g. 0.048 g, with excess dilute hydrochloric acid (so all the magnesium reacts) in a flask connected to a gas syringe (a syringe that collects and measures gas volume): Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g).",
         "Step 2: When the reaction stops and the apparatus has cooled to room temperature, record the volume of hydrogen, the room temperature and the atmospheric pressure.",
-        "Step 3: Moles of hydrogen = moles of magnesium = 0.048 g ÷ 24 g mol⁻¹ = 0.0020 mol, using Ar(Mg) = 24.",
+        "Step 3: Moles of hydrogen = moles of magnesium, because the equation shows a 1 : 1 ratio: 0.048 g ÷ 24 g mol⁻¹ = 0.0020 mol, using Ar(Mg) = 24.",
         "Step 4: Predicted volume V = nRT ÷ P = 0.0020 × 8.314 × 293 ÷ 101 000 = 4.82 × 10⁻⁵ m³ = 48.2 cm³ (sample data).",
         "Step 5: Compare the measured volume with the predicted volume; close agreement verifies the equation for a gas behaving nearly ideally.",
-        "Diagram: a conical flask containing acid, with the magnesium added, connected by a delivery tube to a gas syringe."
+        "Diagram: a conical flask containing acid, with the magnesium added, connected by a delivery tube to a gas syringe. Label the flask, acid, magnesium, delivery tube and gas syringe."
       ]
     },
     {
       "h": "Other ways to verify the equation",
+      "b": "The equation can also be checked by testing one relationship at a time, holding the other quantities constant.",
       "points": [
         "A gas syringe connected to a pressure sensor shows that PV is constant at constant temperature.",
-        "A sealed flask in a water bath shows that P/T is constant."
+        "A sealed flask in a water bath shows that P/T is constant, because the volume stays fixed while the temperature is changed."
       ]
     }
   ],

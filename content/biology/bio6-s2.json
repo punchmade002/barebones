@@ -6,72 +6,85 @@
   "notes": [
     {
       "h": "What the domain system is",
-      "b": "A domain is the highest, broadest rank in the classification of living things, above kingdom. All cellular life is placed in three domains: Bacteria, Archaea and Eukarya (the specification calls the last one eukaryota).",
+      "b": "Living things are sorted into ranks, from broad groups down to single species. A domain is the highest, broadest rank in the classification of living things, above kingdom. All cellular life is placed in three domains: Bacteria, Archaea and Eukarya (the specification calls the last one eukaryota).",
       "points": [
         "The system was developed by the American microbiologist Carl Woese. In 1977, with George Fox, he showed that archaea are a separate group from bacteria. In 1990 Woese and colleagues formally proposed the three domains.",
-        "Before this, all prokaryotes were placed in one group, the kingdom “Monera” in the five-kingdom system. Archaea look like bacteria under the microscope, so the difference could only be found from their molecules.",
-        "Genetic basis: Woese compared the base sequences of ribosomal RNA (rRNA), specifically the RNA of the small ribosome subunit. Every cell has ribosomes, the rRNA does the same job in all of them, and its sequence changes very slowly over evolutionary time, so it can be compared across all living things.",
-        "The more similar two organisms’ rRNA sequences are, the more closely related they are.",
+        "Before this, all prokaryotes (cells with no nucleus) were placed in one group, the kingdom \"Monera\" in the five-kingdom system. Archaea look like bacteria under the microscope, so the difference could only be found from their molecules.",
+        "Genetic basis: Woese compared the base sequences of ribosomal RNA (rRNA), specifically the RNA of the small ribosome subunit. Every cell has ribosomes (the structures that build proteins), and the rRNA does the same job in all of them.",
+        "rRNA is a good tool for comparing all life because its sequence changes very slowly over evolutionary time, so even distantly related organisms still have sequences that can be lined up and compared.",
+        "The more similar two organisms' rRNA sequences are, the more closely related they are. This is how a molecule can be used to work out family relationships between organisms that look nothing alike.",
         "The results showed three deep branches of life, not two (prokaryote and eukaryote). Archaea differ from bacteria about as much as either differs from eukaryotes.",
         "In several genetic features archaea are more similar to eukaryotes than to bacteria, so archaea and eukaryotes share a more recent common ancestor with each other than either does with bacteria.",
         "Diagram: a three-domain tree with one common ancestor at the base; one branch to Bacteria; and a second branch that splits into Archaea and Eukarya. Label the four eukaryotic kingdoms (Protista, Fungi, Plantae, Animalia) on the Eukarya branch."
-      ]
+      ],
+      "tip": "Be ready to name the type of evidence the system rests on (rRNA base sequences, the genetic evidence) and to say why rRNA suits the job: every cell has it, it does the same job everywhere, and it changes slowly. Also be able to explain why archaea were once grouped with bacteria: they look the same under the microscope."
     },
     {
       "h": "Bacteria",
+      "b": "Bacteria are the first prokaryotic domain, and the one most people picture when they think of microbes. They live almost everywhere and do very different jobs.",
       "points": [
-        "Bacteria are prokaryotic: they have no nucleus or membrane-bound organelles.",
-        "Bacteria have a single circular chromosome without histone proteins, and their cell walls contain peptidoglycan.",
-        "Bacteria are found almost everywhere. They include decomposers, nitrogen-fixing bacteria, photosynthetic cyanobacteria and pathogens such as Streptococcus and some strains of Escherichia coli.",
-        "Many bacteria are killed by antibiotics."
-      ]
+        "Bacteria are prokaryotic: they have no nucleus or membrane-bound organelles, so their DNA lies loose in the cell rather than inside a nuclear membrane.",
+        "Bacteria have a single circular chromosome without histone proteins (the proteins eukaryotes wind their DNA around), and their cell walls contain peptidoglycan, a strengthening molecule found in bacterial walls.",
+        "Bacteria are found almost everywhere. They include decomposers, nitrogen-fixing bacteria, photosynthetic cyanobacteria and pathogens (disease-causing organisms) such as Streptococcus and some strains of Escherichia coli.",
+        "Many bacteria are killed by antibiotics, which is why bacterial infections can often be treated with them."
+      ],
+      "tip": "Escherichia coli and Streptococcus are the named bacteria to use as examples. Do not call archaea bacteria: they are a separate domain."
     },
     {
       "h": "Archaea",
+      "b": "Archaea look like bacteria, but their chemistry is different, and in several ways it is closer to that of eukaryotes. Archaea are not \"ancient bacteria\" and not a type of bacterium, even though the old name was \"archaebacteria\".",
       "points": [
-        "Archaea are prokaryotic and single-celled, similar in size and shape to bacteria.",
-        "Their cell walls lack peptidoglycan, and their membrane lipids have a different chemical structure from those of all other organisms.",
-        "Their DNA is wound around histone-like proteins, and their enzymes for copying DNA and making RNA are more like those of eukaryotes.",
-        "Most antibiotics that kill bacteria do not affect archaea.",
-        "Many archaea are extremophiles living in extreme conditions. Thermophiles live in hot springs and deep-sea hydrothermal vents; halophiles live in very salty water such as salt lakes, e.g. Halobacterium.",
+        "Archaea are prokaryotic and single-celled, similar in size and shape to bacteria. This is why they were once classified with bacteria.",
+        "Their cell walls lack peptidoglycan, and their membrane lipids (the fats that make up the cell membrane) have a different chemical structure from those of all other organisms.",
+        "Their DNA is wound around histone-like proteins, and their enzymes for copying DNA and making RNA are more like those of eukaryotes. This is part of the evidence that archaea and eukaryotes are closer relatives.",
+        "Most antibiotics that kill bacteria do not affect archaea, because archaea have different cell walls and different molecular machinery for the antibiotics to target.",
+        "Many archaea are extremophiles (organisms living in extreme conditions). Thermophiles live in hot springs and deep-sea hydrothermal vents; halophiles live in very salty water such as salt lakes, e.g. Halobacterium.",
         "Methanogens live where there is no oxygen, e.g. in bogs, rice paddies and the digestive systems of cattle, and make methane.",
         "Archaea are also common in ordinary soil and the oceans. Archaea are not restricted to extreme environments, and no archaea are known to cause disease in humans."
-      ]
+      ],
+      "tip": "If asked for two differences between archaea and bacteria, use peptidoglycan (absent in archaea), membrane lipids (a different type), histone-like proteins, or antibiotic sensitivity. Never say archaea live only in extreme environments. Halobacterium is an archaeon despite its name."
     },
     {
       "h": "Eukarya",
+      "b": "The third domain contains every organism whose cells are built on the more complex eukaryotic plan, from single-celled protists to plants, fungi and animals.",
       "points": [
-        "Eukarya are all organisms whose cells have a nucleus enclosed by a membrane and membrane-bound organelles, e.g. mitochondria.",
-        "Eukaryotic cells have several linear chromosomes, with DNA wound around histones.",
-        "Eukarya are unicellular or multicellular. The domain contains the kingdoms Protista, Fungi, Plantae and Animalia."
-      ]
+        "Eukarya are all organisms whose cells have a nucleus enclosed by a membrane and membrane-bound organelles (compartments with their own membrane), e.g. mitochondria.",
+        "Eukaryotic cells have several linear chromosomes, with DNA wound around histones, unlike the single circular chromosome of bacteria.",
+        "Eukarya are unicellular or multicellular. The domain contains the kingdoms Protista, Fungi, Plantae and Animalia, which are the four kingdoms that sit on the Eukarya branch of the tree."
+      ],
+      "tip": "Only name the four kingdoms here. If a question asks for a feature of Eukarya, the nucleus enclosed by a membrane and the membrane-bound organelles are the safest answers."
     },
     {
       "h": "Comparing the three domains",
+      "b": "Putting the domains side by side shows what separates them. Two features (peptidoglycan and the type of membrane lipid) set bacteria and archaea apart, while archaea share others, such as histone-like proteins, with eukaryotes.",
       "points": [
-        "Nucleus: absent in bacteria, absent in archaea, present in eukaryotes.",
+        "Nucleus: absent in bacteria, absent in archaea, present in eukaryotes. The two prokaryotic domains therefore keep their DNA unenclosed.",
         "Membrane-bound organelles: absent in bacteria, absent in archaea, present in eukaryotes.",
-        "Peptidoglycan in the cell wall: present in bacteria, absent in archaea, absent in eukaryotes.",
-        "Membrane lipids: bacterial-type in bacteria, a unique archaeal type in archaea, bacterial-type in eukaryotes.",
-        "Histones: absent in bacteria, histone-like in archaea, present in eukaryotes.",
-        "Ribosome size: 70S in bacteria, 70S in archaea, 80S in the cytoplasm of eukaryotes.",
+        "Peptidoglycan in the cell wall: present in bacteria, absent in archaea, absent in eukaryotes. So peptidoglycan is a feature unique to bacteria.",
+        "Membrane lipids: bacterial-type in bacteria, a unique archaeal type in archaea, bacterial-type in eukaryotes. Archaea are the odd one out here.",
+        "Histones: absent in bacteria, histone-like in archaea, present in eukaryotes. This is one feature in which archaea resemble eukaryotes more than bacteria.",
+        "Ribosome size: 70S in bacteria, 70S in archaea, 80S in the cytoplasm of eukaryotes. Ribosomes are the structures that build proteins, and the S number is explained below.",
         "Sensitivity to common antibiotics: many bacteria are affected, archaea are generally not, and eukaryotes are not affected.",
         "Examples: Escherichia coli and Streptococcus for bacteria; Halobacterium and methanogens for archaea; the kingdoms Protista, Fungi, Plantae and Animalia for Eukarya."
-      ]
+      ],
+      "tip": "Questions ask you to name the three domains and give a feature of each, so learn one clear feature per domain. Learn this table row by row, because two-difference questions are answered straight from it."
     },
     {
       "h": "The S number",
+      "b": "The ribosome sizes in the comparison (70S and 80S) are written in S units, so you need to know what the S means.",
       "points": [
-        "The S number (Svedberg unit) measures how fast a particle settles in a centrifuge. A larger number means a larger particle."
+        "The S number (Svedberg unit) measures how fast a particle settles in a centrifuge (a machine that spins samples at high speed). A larger number means a larger particle, which is why 80S eukaryotic ribosomes are the larger type."
       ]
     },
     {
       "h": "Why the domain system matters",
+      "b": "The three domains change how we picture the living world, and they show how classification changes as new evidence arrives.",
       "points": [
         "The biggest division in life is not plant versus animal, or even prokaryote versus eukaryote, but these three lineages. Animals, plants and fungi are just three small branches of one domain.",
-        "The domain system is based on genetic evidence, which reflects evolutionary relationships, rather than on appearance.",
-        "It is an example of how new technology (gene sequencing) changes classification. This is discussed further in “Classification”."
-      ]
+        "The domain system is based on genetic evidence, which reflects evolutionary relationships, rather than on appearance. This is why archaea, which look like bacteria, are placed in a separate domain.",
+        "It is an example of how new technology (gene sequencing, which reads the order of bases in DNA or RNA) changes classification. There is more on this in Classification."
+      ],
+      "tip": "A common question is why archaea were once classified with bacteria, and the answer is that they look alike under the microscope and the difference only shows up in their molecules. Viruses and prions are in no domain."
     }
   ],
   "keyTerms": [

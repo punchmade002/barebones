@@ -5,62 +5,86 @@
   "syllabusRef": "1.1",
   "notes": [
     {
-      "h": "Constructive boundaries: crust is created",
-      "b": "At constructive boundaries plates move apart, and new crust is formed in the gap.",
+      "h": "The three boundary types",
+      "b": "Plates meet in only three ways: they move apart, move together or slide past each other. Each way has a name, and exams use all the synonyms, so learn them together.",
       "points": [
-        "1. Convection currents carry the plates apart.",
-        "2. Pressure drops as the plates separate, so the mantle partly melts.",
-        "3. Magma rises into the gap and cools to form new basaltic oceanic crust.",
-        "Mid-ocean ridge: a rift valley runs along its crest, with frequent shallow earthquakes and volcanic activity.",
-        "Transform faults cut across the ridge and offset it in sections.",
-        "Where a mid-ocean ridge rises above sea level it forms volcanic islands.",
+        "Constructive (also called divergent or separating) boundaries: plates move apart and crust is created, because magma fills the gap.",
+        "Destructive (also called convergent or colliding) boundaries: plates move together and crust is destroyed, because one plate sinks into the mantle, or modified where two continental plates collide.",
+        "Passive (also called conservative or transform) boundaries: plates slide past each other and crust is conserved, meaning it is neither created nor destroyed, so no magma is involved."
+      ],
+      "tip": "Exams use all the synonyms, so be ready to match pushing together, sliding past and pulling apart to the right boundary type. Never call a transform boundary destructive, because no crust is destroyed there."
+    },
+    {
+      "h": "Constructive boundaries: crust is created",
+      "b": "At constructive boundaries plates move apart, and new crust is formed in the gap. The process runs in three steps, driven by the mantle (the hot layer beneath the crust).",
+      "points": [
+        "1. Convection currents (slow circulating flows in the hot mantle) carry the plates apart.",
+        "2. Pressure drops as the plates separate, so the mantle partly melts, producing magma (molten rock).",
+        "3. Magma rises into the gap and cools to form new basaltic oceanic crust, basalt being a dark, runny volcanic rock."
+      ],
+      "tip": "If asked to describe and explain constructive boundaries, give this sequence: convection currents, falling pressure and melting, magma rising and cooling into new crust."
+    },
+    {
+      "h": "Mid-ocean ridges and volcanic islands",
+      "b": "Where the plates separate under the ocean, the new crust builds up a long underwater mountain chain called a mid-ocean ridge. This is the main oceanic example of a constructive boundary.",
+      "points": [
+        "A rift valley (a long valley formed where the crust splits and drops) runs along the crest of the ridge, with frequent shallow earthquakes (earthquakes starting close to the surface) and volcanic activity.",
+        "Transform faults (cracks where plates slide past each other) cut across the ridge, so it is offset in sections.",
+        "Where a mid-ocean ridge rises above sea level it forms volcanic islands, such as Iceland.",
         "The Mid-Atlantic Ridge also separates the South American and African plates in the South Atlantic.",
         "Iceland is a volcanic island on the Mid-Atlantic Ridge, and the rift is visible on land at Þingvellir (Thingvellir).",
         "The Azores are also on the Mid-Atlantic Ridge, and the East Pacific Rise is another mid-ocean ridge.",
         "Surtsey, a new volcanic island, formed off the south coast of Iceland in an eruption that began in 1963.",
         "Diagram: cross-section of a ridge showing convection currents, rising magma, the rift valley and arrows showing the plates moving apart."
-      ]
+      ],
+      "tip": "Iceland is on a constructive boundary, so if asked whether plates there are colliding or separating, the answer is separating. Exams also ask you to name the ridge along the Atlantic (the Mid-Atlantic Ridge) and the volcanic island on it (Iceland)."
     },
     {
       "h": "Continental rifting",
+      "b": "Constructive boundaries can also start under a continent. Here the land is pulled apart instead of the sea floor, and if the process continues a new ocean can open.",
       "points": [
-        "Where a continent starts to split, the crust stretches and a block drops between parallel faults to form a rift valley, with volcanoes nearby.",
+        "Where a continent starts to split, the crust stretches and a block drops between parallel faults (cracks in the crust) to form a rift valley, with volcanoes nearby.",
         "The East African Rift Valley is where the African plate is splitting apart; Mount Kilimanjaro, Tanzania, is a volcano associated with it.",
         "If spreading continues, the sea floods in and a new ocean begins; the Red Sea, between Africa and the Arabian plate, is at this stage."
       ]
     },
     {
       "h": "Features of constructive boundaries",
+      "b": "These are the landforms and activity to name when asked what is found at a constructive boundary. These features are found where plates pull apart.",
       "points": [
-        "Features of constructive boundaries are the mid-ocean ridge, rift valley, volcanic islands, fissure eruptions of runny basalt lava and shallow earthquakes."
+        "Features of constructive boundaries, where plates pull apart, are the mid-ocean ridge, rift valley, volcanic islands, fissure eruptions (eruptions from long cracks rather than one vent) of runny basalt lava, and shallow earthquakes."
       ]
     },
     {
       "h": "Destructive boundaries: crust is destroyed",
-      "b": "Where two plates converge, one plate is forced down into the mantle.",
+      "b": "Where two plates converge, one plate is forced down into the mantle. Which one sinks depends on the density of the crust.",
       "points": [
         "Oceanic crust is denser than continental crust, so where the two meet the oceanic plate is forced down into the mantle.",
         "This process is subduction, and the zone where the plate sinks is the subduction zone.",
         "Crust is destroyed as the subducting plate melts in the hot mantle.",
-        "The place where the two plates meet at the surface is an ocean trench."
-      ]
+        "The place where the two plates meet at the surface is an ocean trench, a deep, narrow valley in the sea floor."
+      ],
+      "tip": "In a labelled diagram of a destructive boundary, name the process where one plate sinks (subduction) and the feature where the plates meet (the ocean trench). Other labels exams ask for are the convection current, subducting plate, continental crust, volcanic activity, fold mountains and earthquake focus."
     },
     {
       "h": "Oceanic and continental plates converging",
+      "b": "When an oceanic plate meets a continental plate, the denser oceanic plate sinks. This one collision produces a trench, fold mountains, volcanoes and earthquakes, which is why such coasts are so active.",
       "points": [
-        "An ocean trench forms where the oceanic plate bends down.",
-        "Sediments are scraped off the subducting plate and crumpled against the continent into fold mountains.",
+        "An ocean trench forms where the oceanic plate bends down, because the plate is forced into the mantle.",
+        "Sediments (loose material laid down on the sea floor) are scraped off the subducting plate and crumpled against the continent into fold mountains.",
         "Melting of the sinking plate produces magma that rises to form a chain of volcanoes on the continent.",
-        "Earthquakes occur along the sinking plate, shallow near the trench and deeper inland; this inclined zone is the Benioff zone.",
+        "Earthquakes occur along the sinking plate because it grinds past the rock around it, shallow near the trench and deeper inland; this inclined zone is the Benioff zone.",
         "The Nazca plate subducts beneath the South American plate: the Peru-Chile Trench lies offshore and the Andes, with many volcanoes, rise on land.",
         "The Juan de Fuca plate subducts beneath the North American plate, producing the Cascade Range volcanoes, including Mount St Helens, Washington, USA.",
-        "Diagram: cross-section with ocean trench, subducting plate, melting zone, rising magma, volcano, fold mountains and earthquake foci."
-      ]
+        "Diagram: cross-section with ocean trench, subducting plate, melting zone, rising magma, volcano, fold mountains and earthquake foci (the points underground where earthquakes start)."
+      ],
+      "tip": "The Andes are oceanic-continental: the Nazca plate is oceanic and South America is continental. Exams ask for the two plates that converged to form the Andes, so name Nazca and South American."
     },
     {
       "h": "Two oceanic plates converging",
+      "b": "When two oceanic plates meet, neither is light enough to resist sinking, so one is forced under the other. The result is a trench and a curved line of volcanic islands rather than a mountain chain on a continent.",
       "points": [
-        "The older, denser oceanic plate subducts beneath the other.",
+        "The older, denser oceanic plate subducts beneath the other, because denser crust sinks more easily.",
         "An ocean trench and a curved chain of volcanic islands, called an island arc, form, and earthquakes are frequent.",
         "The Mariana Trench, about 11 km deep, is the deepest place on earth; it lies where the Pacific plate subducts beneath the Philippine plate, and the Mariana Islands form an island arc.",
         "The Aleutian Islands, Alaska, are an island arc where the Pacific plate subducts beneath the North American plate.",
@@ -69,40 +93,46 @@
     },
     {
       "h": "Two continental plates colliding",
+      "b": "Continental crust is too light to sink into the mantle, so when two continents meet there is no subduction. The crust has nowhere to go but up.",
       "points": [
         "Both plates are too light to subduct, so the crust between them, including sediments from the ocean that once separated them, is crushed, folded and pushed up into high fold mountains.",
-        "Earthquakes are common, but there is little or no volcanic activity.",
-        "Crust is modified, thickened and folded, rather than destroyed.",
+        "Earthquakes are common, but there is little or no volcanic activity, because no plate sinks and melts to make magma.",
+        "Crust is modified, thickened and folded, rather than destroyed, because it is too light to sink.",
         "The Indo-Australian plate is colliding with the Eurasian plate, forming the Himalayas and the Tibetan Plateau; the collision began about 50 million years ago and continues.",
-        "Mount Everest, 8,849 m, is the highest mountain on earth; marine fossils in limestone near its summit show the rocks were once on the floor of the Tethys Sea.",
+        "Mount Everest, 8,849 m, is the highest mountain on earth; for example, marine fossils in limestone near its summit show the rocks were once on the floor of the Tethys Sea.",
         "The Alps formed where the African plate is colliding with the Eurasian plate."
-      ]
+      ],
+      "tip": "The Himalayas are a collision boundary, with no subduction and almost no volcanoes, so do not put volcanoes in the Himalayas. If asked for a landform at colliding boundaries with an example, give fold mountains, such as the Himalayas or the Andes."
     },
     {
       "h": "Impacts of destructive boundaries",
+      "b": "Destructive boundaries shape the land and also cause hazards such as powerful earthquakes, tsunamis and explosive volcanic eruptions. For a discussion of their impacts, give landforms and hazards, each with a named example.",
       "points": [
-        "Landforms: ocean trenches, fold mountains, volcanic mountain chains and island arcs, as described above.",
-        "Earthquakes: Nepal, 25 April 2015, magnitude 7.8, killed about 9,000 people on the Himalayan collision boundary.",
-        "Undersea earthquakes and tsunamis: the Tōhoku, Japan, earthquake of 11 March 2011 had magnitude 9.0; its tsunami killed about 18,000 people (dead and missing) and caused the Fukushima Daiichi nuclear disaster.",
+        "Landforms: ocean trenches, fold mountains, volcanic mountain chains and island arcs, such as the Andes and the Mariana Trench.",
+        "Earthquakes: Nepal, 25 April 2015, magnitude 7.8 (a measure of earthquake size), killed about 9,000 people on the Himalayan collision boundary.",
+        "Undersea earthquakes and tsunamis (huge sea waves caused by earthquakes under the sea): the Tōhoku, Japan, earthquake of 11 March 2011 had magnitude 9.0; its tsunami killed about 18,000 people (dead and missing) and caused the Fukushima Daiichi nuclear disaster.",
         "The Indian Ocean earthquake of 26 December 2004 had magnitude 9.1 off Sumatra, Indonesia, where the Indo-Australian plate subducts; its tsunami killed about 230,000 people in 14 countries.",
         "Volcanic eruptions: Mount St Helens erupted on 18 May 1980, killing 57 people."
-      ]
+      ],
+      "tip": "Higher Level exams set a 30-mark question asking you to discuss the impacts of destructive plate boundaries, with examples. Cover both landforms and hazards, and name an example for each."
     },
     {
       "h": "Transform boundaries: crust is neither created nor destroyed",
-      "b": "At passive (transform) boundaries two plates slide past each other horizontally along a transform fault.",
+      "b": "At passive (transform) boundaries two plates slide past each other horizontally along a transform fault. Because nothing is pulled apart or pushed under, no crust is made or lost.",
       "points": [
         "Friction locks the plates until stress builds up, and the stress is released suddenly as an earthquake.",
         "No magma is produced, so there is no volcanic activity, and no crust is created or destroyed.",
-        "The plates may move in the same direction at different speeds, or in opposite directions.",
+        "The plates may move in the same direction at different speeds, or in opposite directions, so both count as sliding past.",
         "The San Andreas Fault, California, USA, is a transform boundary where the Pacific plate moves north-west relative to the North American plate.",
         "The San Francisco earthquake of 18 April 1906 had magnitude about 7.8 and was followed by great fires; the Loma Prieta earthquake of 1989, magnitude 6.9, struck near San Francisco.",
         "The North and East Anatolian Faults in Turkey are transform faults; the earthquake of 6 February 2023 on the East Anatolian Fault, magnitude 7.8, killed over 50,000 people in Turkey and Syria.",
-        "Diagram: plan view of two plates with arrows in opposite directions along a fault line."
-      ]
+        "Diagram: plan view (looking down from above) of two plates with arrows in opposite directions along a fault line."
+      ],
+      "tip": "The San Andreas Fault is a transform boundary, so it has no volcanoes. Do not call a transform boundary destructive, because no crust is destroyed."
     },
     {
       "h": "The tectonic cycle",
+      "b": "Putting the boundary types together shows that the ocean floor is constantly being made and used up. This is the tectonic cycle.",
       "points": [
         "Crust is created at ridges, carried across the ocean floor, and destroyed at subduction zones, so the ocean floor is continually recycled.",
         "Continental crust is too light to be subducted, which is why it survives for so long.",
@@ -111,21 +141,24 @@
     },
     {
       "h": "Boundary types compared",
+      "b": "This summary pairs each boundary type with its plate movement and what happens to the crust. Exams ask for an example of each, so the examples are added here.",
       "points": [
-        "Constructive boundaries: plates move apart and crust is created.",
-        "Destructive boundaries: plates move together and crust is destroyed, or modified where two continental plates collide.",
-        "Transform (passive) boundaries: plates slide past and crust is conserved."
-      ]
+        "Constructive boundaries: plates move apart and crust is created. Examples: the Mid-Atlantic Ridge and the East African Rift Valley.",
+        "Destructive boundaries: plates move together and crust is destroyed, or modified where two continental plates collide. Examples: the Andes, the Mariana Trench and the Himalayas.",
+        "Transform (passive) boundaries: plates slide past and crust is conserved. Example: the San Andreas Fault."
+      ],
+      "tip": "Exams ask at which boundary ocean ridges form (constructive) and at which fold mountains form (destructive, where plates converge). Be ready to give an example of each boundary type."
     },
     {
       "h": "The Pacific Ring of Fire and global distribution",
-      "b": "Earthquakes, volcanoes and fold mountains are concentrated in narrow belts along plate boundaries, with very few in plate interiors.",
+      "b": "Earthquakes, volcanoes and fold mountains are concentrated in narrow belts along plate boundaries, with very few in plate interiors. This is how plate tectonics explains where they occur.",
       "points": [
         "The Pacific Ring of Fire is the belt of destructive and some transform boundaries around the edge of the Pacific plate and its neighbours.",
-        "The Ring of Fire contains about 75% of the world's active volcanoes and about 90% of its earthquakes.",
-        "Ridges, subduction zones, collision zones and transform faults are the boundaries where these belts form.",
+        "The Ring of Fire, because it follows destructive boundaries, contains about 75% of the world's active volcanoes and about 90% of its earthquakes.",
+        "Ridges, subduction zones, collision zones and transform faults are the boundaries where these belts form, because plates interact there.",
         "Fold mountains are found only at convergent boundaries, as long chains along the plate edge; the Andes, Himalayas and Alps are examples."
-      ]
+      ],
+      "tip": "Exams ask for the name of the earthquake and volcano belt around the Pacific (the Ring of Fire). Higher Level also sets a 30-mark question on how plate tectonics explains the global distribution of earthquakes, volcanoes or fold mountains."
     }
   ],
   "keyTerms": [

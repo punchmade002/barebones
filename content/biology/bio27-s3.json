@@ -6,64 +6,85 @@
   "notes": [
     {
       "h": "How chemical digestion works",
+      "b": "Food is made of large molecules that are too big to pass into the blood. Chemical digestion cuts them into small units using enzymes (biological catalysts made by the body).",
       "points": [
-        "Chemical digestion is the hydrolysis of large food molecules into their small, soluble units by digestive enzymes: each bond is broken by adding a molecule of water. Carbohydrates become simple sugars, proteins become amino acids, and fats become fatty acids and glycerol.",
-        "Each digestive enzyme is specific to one type of substrate and works best at the pH of the part of the gut where it acts. The gut changes pH along its length, neutral in the mouth, acid in the stomach and alkaline in the small intestine, to suit the enzymes there.",
-        "Most digestive enzymes are released from glands into the gut cavity, so digestion there is extracellular."
-      ]
+        "Chemical digestion is the hydrolysis of large food molecules into their small, soluble units by digestive enzymes: each bond is broken by adding a molecule of water, which is what hydrolysis means.",
+        "Carbohydrates become simple sugars, proteins become amino acids, and fats become fatty acids and glycerol. These small units are soluble and small enough to be absorbed.",
+        "Each digestive enzyme is specific to one type of substrate (the molecule it acts on) and works best at its optimum pH, the pH of the part of the gut where it acts.",
+        "The gut changes pH along its length: neutral in the mouth, acid in the stomach and alkaline in the small intestine. This suits the different enzymes working in each place.",
+        "Most digestive enzymes are released from glands into the gut cavity, so digestion there is extracellular, meaning it happens outside cells."
+      ],
+      "tip": "Learn the three end products by nutrient: sugars, amino acids, and fatty acids with glycerol. Questions can ask for the products of complete digestion of a protein, and the answer is amino acids."
     },
     {
       "h": "Saliva in the mouth",
+      "b": "Digestion begins in the mouth, where food is mixed with saliva. Saliva moistens the food and also starts the digestion of starch.",
       "points": [
         "Saliva is produced by the three pairs of salivary glands and released into the mouth.",
-        "The pH in the mouth is about 7 (neutral to slightly alkaline), the optimum for salivary amylase.",
-        "Salivary amylase digests starch to maltose; the product of an amylase is maltose. Food is in the mouth only briefly, so only a little starch is digested there, and stomach acid denatures the amylase soon after it reaches the stomach.",
-        "Saliva also contains water, which dissolves food so that it can be tasted and moistens it; mucus, which lubricates swallowing; and lysozyme, an enzyme that kills some bacteria."
-      ]
+        "The pH in the mouth is about 7 (neutral to slightly alkaline), which is the optimum for salivary amylase, the enzyme in saliva.",
+        "Salivary amylase digests starch to maltose (a sugar made of two glucose units). The product of an amylase is maltose.",
+        "Food is in the mouth only briefly, so only a little starch is digested there. Stomach acid denatures (destroys the shape of) the amylase soon after it reaches the stomach.",
+        "Saliva also contains water, which dissolves food so that it can be tasted and moistens it, and mucus, which lubricates swallowing.",
+        "Saliva also contains lysozyme, an enzyme that kills some bacteria."
+      ],
+      "tip": "If asked for the product of an amylase, write maltose, not glucose. Quote the mouth pH as about 7."
     },
     {
       "h": "Gastric juice in the stomach",
+      "b": "In the stomach, food meets a strongly acidic fluid called gastric juice. It begins protein digestion and also protects the body from bacteria that arrive in food.",
       "points": [
         "Gastric juice is produced by gastric glands in the stomach lining and released into the stomach. It contains hydrochloric acid, pepsin (released as inactive pepsinogen) and mucus.",
-        "The pH in the stomach is about 2 (strongly acidic), the optimum for pepsin.",
-        "Hydrochloric acid kills most bacteria in food, a defence against infection; it provides the acid pH that pepsin needs; it converts inactive pepsinogen to active pepsin; and it stops salivary amylase.",
-        "Pepsin is a protease: it hydrolyses peptide bonds inside protein chains, breaking proteins into shorter chains called polypeptides. The product of a protease is polypeptides; complete protein digestion needs further enzymes in the small intestine to give amino acids.",
-        "Pepsin is made in the inactive form pepsinogen so that it does not digest the gastric gland cells that make it; it becomes active only in the stomach cavity.",
+        "The pH in the stomach is about 2 (strongly acidic), which is the optimum for pepsin.",
+        "Hydrochloric acid kills most bacteria in food, which is a defence against infection. It also provides the acid pH that pepsin needs.",
+        "Hydrochloric acid converts inactive pepsinogen to active pepsin, and it stops salivary amylase, which cannot work at this pH.",
+        "Pepsin is a protease (a protein-digesting enzyme): it hydrolyses peptide bonds inside protein chains, breaking proteins into shorter chains called polypeptides.",
+        "The product of a protease is polypeptides. Complete protein digestion needs further enzymes in the small intestine to give amino acids.",
+        "Pepsin is made in the inactive form pepsinogen so that it does not digest the gastric gland cells that make it. It becomes active only in the stomach cavity.",
         "A thick layer of mucus protects the stomach lining from the acid and pepsin. If the mucus barrier fails, the lining is damaged, causing a stomach ulcer."
-      ]
+      ],
+      "tip": "Exams ask for the roles of hydrochloric acid and why pepsin is released in an inactive form. For the second, say it stops pepsin digesting the cells that make it. Pepsin gives polypeptides, not amino acids, and it works at about pH 2."
     },
     {
       "h": "Bile in the duodenum",
+      "b": "Fat digestion needs help before enzymes can act, and the acid from the stomach has to be dealt with. Bile does both jobs when food enters the duodenum (the first part of the small intestine).",
       "points": [
-        "Bile is produced by the liver, stored and concentrated in the gallbladder, and released through the bile duct into the duodenum when chyme, especially fatty chyme, arrives.",
+        "Bile is produced by the liver, stored and concentrated in the gallbladder, and released through the bile duct into the duodenum when chyme (the partly digested, acidic food mixture leaving the stomach), especially fatty chyme, arrives.",
         "Bile contains water, bile salts, bile pigments and sodium hydrogencarbonate. It contains no enzymes.",
-        "Bile salts emulsify fats, which is covered in Mechanical breakdown.",
-        "Sodium hydrogencarbonate is alkaline and neutralises the acid chyme from the stomach, raising the pH to suit the pancreatic and intestinal enzymes and stopping the action of pepsin.",
-        "Bile pigments are excretory wastes from the breakdown of haemoglobin from old red blood cells in the liver; they give faeces their brown colour."
-      ]
+        "Bile salts emulsify fats, which means they break large fat droplets into tiny droplets. This is a physical change, not a chemical one. There is more on this in Mechanical breakdown.",
+        "Sodium hydrogencarbonate is alkaline and neutralises the acid chyme from the stomach. This raises the pH to suit the pancreatic and intestinal enzymes and stops the action of pepsin.",
+        "Bile pigments are excretory wastes from the breakdown of haemoglobin from old red blood cells in the liver. They give faeces their brown colour."
+      ],
+      "tip": "Bile is made in the liver, not the gallbladder, which stores and concentrates it, and it has no enzymes. Bile salts emulsify (a physical role), while the chemical role of bile is neutralising acid. Both come up when you are asked for the roles of bile."
     },
     {
       "h": "Pancreatic juice in the duodenum",
+      "b": "The pancreas adds a second fluid to the duodenum, one that carries most of the enzymes needed to digest starch, protein and fat. Because the duodenum is alkaline, these enzymes work best there.",
       "points": [
         "Pancreatic juice is produced by the pancreas and released through the pancreatic duct into the duodenum. It contains sodium hydrogencarbonate, which neutralises acid, and three enzymes: pancreatic amylase, trypsin and lipase.",
-        "Pancreatic amylase digests the remaining starch to maltose.",
-        "Trypsin is a protease, released in an inactive form and activated in the duodenum; it digests proteins and polypeptides into shorter peptides.",
-        "Lipase digests fats and oils (triglycerides) into fatty acids and glycerol; the product of a lipase is fatty acids and glycerol. It acts on the tiny droplets made by emulsification.",
-        "The pH in the duodenum and small intestine is about 8 (slightly alkaline), because of the sodium hydrogencarbonate in bile and pancreatic juice; this suits pancreatic amylase, trypsin and lipase."
-      ]
+        "Pancreatic amylase digests the remaining starch (the starch not digested in the mouth) to maltose.",
+        "Trypsin is a protease, released in an inactive form and activated in the duodenum. It digests proteins and polypeptides into shorter peptides.",
+        "Lipase digests fats and oils (triglycerides) into fatty acids and glycerol. The product of a lipase is fatty acids and glycerol, not fatty acids alone.",
+        "Lipase acts on the tiny droplets made by emulsification, because they give it a much larger surface to work on.",
+        "The pH in the duodenum and small intestine is about 8 (slightly alkaline), because of the sodium hydrogencarbonate in bile and pancreatic juice. This suits pancreatic amylase, trypsin and lipase."
+      ],
+      "tip": "Exams ask you to name an enzyme for starch, protein or fat, then give where it is made, where it acts, the approximate pH and its products. Lipase is made in the pancreas and acts in the duodenum at about pH 8. Do not give it an acid optimum."
     },
     {
       "h": "Enzymes of the small intestine wall",
+      "b": "The last stage of digestion is done by enzymes made by the cells lining the small intestine. They finish breaking down the sugars and peptides that earlier enzymes produced.",
       "points": [
-        "The cells lining the villi of the small intestine make enzymes that complete digestion. Many of these enzymes are held in the membranes of the lining cells, so the last step of digestion happens right at the absorbing surface.",
+        "The cells lining the villi (the tiny finger-like projections of the small intestine) make enzymes that complete digestion.",
+        "Many of these enzymes are held in the membranes of the lining cells, so the last step of digestion happens right at the absorbing surface.",
         "Maltase digests maltose to two glucose molecules. Sucrase digests sucrose to glucose and fructose. Lactase digests lactose to glucose and galactose.",
         "Peptidases digest peptides to amino acids.",
         "These enzymes work at a pH of about 8, the same alkaline conditions as the duodenum.",
-        "Lactose intolerance: people who stop making lactase after childhood cannot digest lactose, so bacteria in the large intestine ferment it, causing bloating, wind and diarrhoea. Why lactase persists in some populations is covered in Variation; dietary management is covered in Diet."
-      ]
+        "Lactose intolerance: people who stop making lactase after childhood cannot digest lactose, so bacteria in the large intestine ferment it, causing bloating, wind and diarrhoea. There is more on this in Variation and Diet."
+      ],
+      "tip": "Maltase gives glucose, whereas amylase gives maltose, which is a common mix-up. Complete digestion of a protein ends with amino acids, made by peptidases."
     },
     {
       "h": "Summary of enzymes and bile salts",
+      "b": "This table pulls together where each enzyme is made, where it acts, its pH and its products. Each line has the same pattern so you can compare them quickly.",
       "points": [
         "Salivary amylase – made in salivary glands – acts in mouth – pH about 7 – starch → maltose.",
         "Pepsin (protease) – made in gastric glands of stomach wall – acts in stomach – pH about 2 – protein → polypeptides.",
@@ -73,32 +94,50 @@
         "Maltase – made in the wall of the small intestine – acts there – pH about 8 – maltose → glucose.",
         "Peptidases – made in the wall of the small intestine – act there – pH about 8 – peptides → amino acids.",
         "Bile salts (not an enzyme) – made in liver, stored in gallbladder – act in duodenum – emulsify fats."
-      ]
+      ],
+      "tip": "The pH values are approximate, so write about 7, about 2 and about 8. Pepsin is the only one here that works in acid."
     },
     {
       "h": "Modelling the digestion of each nutrient",
+      "b": "Putting the enzymes in order shows how each nutrient is broken down step by step along the gut. You can then use these flow models to predict what goes wrong when part of the system fails.",
       "points": [
-        "Carbohydrate model: starch is digested by salivary amylase in the mouth (pH 7) to maltose; the remaining starch is digested by pancreatic amylase in the duodenum (pH 8) to maltose; maltose is digested by maltase in the small intestine wall to glucose. Sucrose and lactose are digested by sucrase and lactase in the small intestine wall. Cellulose is not digested, because humans make no enzyme for it, so it passes on as fibre.",
+        "Carbohydrate model: starch is digested by salivary amylase in the mouth (pH 7) to maltose. The remaining starch is digested by pancreatic amylase in the duodenum (pH 8) to maltose. Maltose is digested by maltase in the small intestine wall to glucose.",
+        "Sucrose and lactose are digested by sucrase and lactase in the small intestine wall. Cellulose is not digested, because humans make no enzyme for it, so it passes on as fibre.",
         "Protein model: protein → (pepsin, stomach, pH 2) → polypeptides → (trypsin, duodenum, pH 8) → shorter peptides → (peptidases, small intestine wall) → amino acids.",
-        "Fat model: large fat droplets → (bile salts, duodenum: emulsification, a physical change) → tiny droplets → (lipase from the pancreas, duodenum, pH 8) → fatty acids and glycerol. Fat is digested only in the small intestine, after emulsification.",
-        "Using the models to predict: if the bile duct is blocked, for example by gallstones, fats are poorly emulsified and digested, and undigested fat appears in the faeces. If the pancreas releases too little juice, as in cystic fibrosis, digestion of all three nutrients is reduced, which is why patients take enzyme capsules (see Industrial enzymes).",
-        "Diagram: a flow chart with three rows (carbohydrate, protein and fat), each running from left to right through the mouth, stomach, duodenum and small intestine wall, showing the enzyme or bile salts, the pH and the product at each step; or the alimentary canal outline from The digestive system with enzymes and pH written at each site."
-      ]
+        "Fat model: large fat droplets → (bile salts, duodenum: emulsification, a physical change) → tiny droplets → (lipase from the pancreas, duodenum, pH 8) → fatty acids and glycerol.",
+        "Fat is digested only in the small intestine, after emulsification.",
+        "Using the models to predict: if the bile duct is blocked, for example by gallstones, fats are poorly emulsified and digested, and undigested fat appears in the faeces.",
+        "If the pancreas releases too little juice, as in cystic fibrosis, digestion of all three nutrients is reduced, which is why patients take enzyme capsules. There is more on this in Industrial enzymes.",
+        "Diagram: a flow chart with three rows (carbohydrate, protein, fat), each running left to right through mouth, stomach, duodenum and small intestine wall, showing enzyme or bile salts, pH and product at each step; or an alimentary canal (whole gut) outline with enzymes and pH at each site."
+      ],
+      "tip": "Exams ask you to name the enzyme, the site, the pH and the product for starch, protein or fat. Follow the chain in order and remember that each step ends with a different product."
     },
     {
       "h": "Visking tubing as a model gut",
+      "b": "Visking tubing is a simple physical model of the small intestine. It shows why food must be digested into small molecules before it can pass into the blood.",
       "points": [
         "Visking (dialysis) tubing is a selectively permeable membrane: it lets small molecules (water, glucose and maltose) through but not large ones (starch). It models the wall of the small intestine, and the water around it models the blood.",
         "Method, step 1: tie one end of two lengths of Visking tubing, after soaking them in water.",
-        "Method, step 2: fill tube A with starch solution plus amylase solution. Fill tube B, the control, with the same volume of starch solution plus water (or boiled amylase).",
+        "Method, step 2: fill tube A with starch solution plus amylase solution. Fill tube B, the control (the comparison with no enzyme), with the same volume of starch solution plus water (or boiled amylase).",
         "Method, step 3: tie the open ends, rinse the outsides, and place each tube in a separate boiling tube of distilled water in a water bath at 37 °C.",
-        "Method, step 4: at the start, and again after about 30 minutes, test samples of the water outside each tube with iodine solution (for starch) and with Benedict's solution in a hot water bath (for reducing sugar), as in Investigation: food tests.",
-        "Expected results: the water outside both tubes stays yellow-brown with iodine, so no starch passes out. After 30 minutes the water outside tube A turns brick red with Benedict's solution, showing reducing sugar, while the water outside tube B stays blue. Inside tube A, a test would show less starch and much reducing sugar.",
-        "Conclusion: starch molecules are too large to pass through the membrane; amylase digests starch to maltose, which is small enough to pass through. This models why food must be digested before it can be absorbed into the blood (see Absorption, transport and storage).",
-        "Safety: wear safety glasses; Benedict's solution is an irritant; take care with hot water; heat the tubes in a water bath, never directly.",
-        "Limitations: the tubing has no villi or microvilli, so its surface area is far smaller than the gut's; no blood flows past to carry products away and keep the concentration gradient; and the real gut absorbs some products by active transport, which tubing cannot do.",
-        "Further limitations: only one enzyme and one nutrient are modelled, at a constant pH, whereas the gut uses a sequence of enzymes and pH values; and the tubing does not move food by peristalsis.",
-        "Diagram: the set-up, with a boiling tube of distilled water in a water bath at 37 °C and a knotted length of Visking tubing containing starch and amylase hanging in it; label Visking tubing, starch and amylase, distilled water and water bath at 37 °C, and show the control tube beside it."
+        "Method, step 4: at the start, and again after about 30 minutes, test samples of the water outside each tube with iodine solution (for starch) and with Benedict's solution in a hot water bath (for reducing sugar), using the food tests.",
+        "Expected results: the water outside both tubes stays yellow-brown with iodine, so no starch passes out.",
+        "After 30 minutes the water outside tube A turns brick red with Benedict's solution, showing reducing sugar, while the water outside tube B stays blue. Inside tube A, a test would show less starch and much reducing sugar.",
+        "Conclusion: starch molecules are too large to pass through the membrane. Amylase digests starch to maltose, which is small enough to pass through. This models why food must be digested before it can be absorbed into the blood. There is more on this in Absorption, transport and storage.",
+        "Safety: wear safety glasses; Benedict's solution is an irritant; take care with hot water; heat the tubes in a water bath, never directly."
+      ],
+      "tip": "Tube B is the control: it shows that sugar outside tube A is there because amylase digested the starch, not because starch leaked through. Write what each tube shows, then the conclusion that large starch molecules cannot pass the membrane."
+    },
+    {
+      "h": "Limitations of the Visking tubing model",
+      "b": "A model is useful only if you know where it differs from the real gut. The tubing copies the barrier but little else.",
+      "points": [
+        "The tubing has no villi or microvilli, so its surface area is far smaller than the gut's.",
+        "No blood flows past to carry products away and keep the concentration gradient (the difference in concentration that drives diffusion).",
+        "The real gut absorbs some products by active transport (using energy to move molecules), which tubing cannot do.",
+        "Only one enzyme and one nutrient are modelled, at a constant pH, whereas the gut uses a sequence of enzymes and pH values.",
+        "The tubing does not move food by peristalsis (the waves of muscle contraction that push food along the gut).",
+        "Diagram: a boiling tube of distilled water in a water bath at 37 °C, with a knotted length of Visking tubing containing starch and amylase hanging in it; label Visking tubing, starch and amylase, distilled water, water bath at 37 °C; show the control tube beside it."
       ]
     }
   ],

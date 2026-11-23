@@ -6,99 +6,119 @@
   "notes": [
     {
       "h": "Strata and bedding planes",
-      "b": "Sedimentary rocks are laid down in layers called strata, or beds, formed by deposition followed by compaction and cementation.",
+      "b": "Sedimentary rocks are built up in layers, and the boundaries between those layers decide how the rock later breaks and wears away. That is why landforms in layered rock start with strata and bedding planes.",
       "points": [
-        "A bedding plane is the boundary between one layer and the next; when laid down, bedding planes are roughly horizontal.",
-        "A bedding plane marks a pause or change in deposition.",
-        "Bedding planes divide the rock into layers, and each layer may differ in thickness and resistance."
-      ]
+        "Sedimentary rocks are laid down in layers called strata, or beds, formed by deposition (sediment settling out) followed by compaction (squeezing together) and cementation (minerals gluing the grains).",
+        "A bedding plane is the boundary between one layer and the next; when the layers are laid down, bedding planes are roughly horizontal.",
+        "A bedding plane marks a pause or change in deposition, which is why neighbouring layers can differ.",
+        "Bedding planes divide the rock into layers, and each layer may differ in thickness and resistance (how well it stands up to erosion)."
+      ],
+      "tip": "Bedding planes are horizontal, running parallel to the layers. Do not swap them with joints, which are vertical. Short-answer questions may ask you to define a bedding plane."
     },
     {
       "h": "Joints in sedimentary rock",
-      "b": "A joint is a crack in rock along which no movement has taken place.",
+      "b": "Layers are cut by cracks as well as by planes between them. These cracks give water and ice a way into the rock.",
       "points": [
-        "Joints in sedimentary rock are at right angles to the bedding planes, so they are vertical where the strata are horizontal.",
-        "Joints form as sediment dries and shrinks, and by stress and the removal of overlying rock."
-      ]
+        "A joint is a crack in rock along which no movement has taken place, so the rock on either side has not slid past.",
+        "Joints in sedimentary rock are at right angles to the bedding planes, so they are vertical (across the layers) where the strata are horizontal.",
+        "Joints form as sediment dries and shrinks, and by stress and the removal of overlying rock.",
+        "Bedding planes and joints together divide the rock into blocks."
+      ],
+      "tip": "Joints are vertical, across the layers; bedding planes are horizontal, along them. A sill is an igneous sheet that follows a bedding plane, so it is not a sedimentary structure. Expect a short definition question on joints."
     },
     {
       "h": "Dip and strike",
+      "b": "Earth movements can tilt layers that were laid down flat. The landform that results depends on how far and in which direction the strata tilt.",
       "points": [
         "Dip is the angle at which strata tilt from the horizontal; the dip direction is the way they tilt.",
         "Strike is the direction along a tilted layer's surface, at right angles to the dip.",
-        "Strata are horizontal, gently dipping or steeply dipping, and the landform depends on which."
-      ]
+        "Strata are horizontal, gently dipping or steeply dipping, and the landform depends on which, so you must state the attitude (tilt) of the layers when explaining a landform."
+      ],
+      "tip": "Here describe strata only as horizontal, gently dipping or steeply dipping. How they came to be tilted, folded or domed belongs to a later subsection."
     },
     {
       "h": "Lines of weakness",
+      "b": "Bedding planes and joints are gaps in otherwise solid rock. Erosion does not attack the rock evenly but follows them.",
       "points": [
-        "Water, ice and weathering exploit bedding planes and joints as lines of weakness.",
+        "Water, ice and weathering (the breakdown of rock in place) exploit bedding planes and joints as lines of weakness, because they can get into the rock there.",
         "Rock breaks into blocks along these planes, so erosion is concentrated there."
-      ]
+      ],
+      "tip": "Exams may ask how bedding planes and joints influence landform development. Say that they are lines of weakness, the rock breaks into blocks along them, and erosion concentrates there."
     },
     {
       "h": "Differential erosion of layered rock",
+      "b": "Layers in a rock are not equally tough. Differential erosion means different layers wear away at different rates.",
       "points": [
         "Where resistant layers, such as sandstone and limestone, alternate with weak layers, such as shale and clay, the weak layers are worn away faster.",
-        "The resistant layers are left standing out as cliffs and caps."
+        "The resistant layers are left standing out as cliffs and caps, because the soft rock around them has been removed."
       ]
     },
     {
       "h": "Permeability and spring lines",
+      "b": "Rock layers also differ in whether water can pass through them. This controls where water sinks underground and where it comes back to the surface.",
       "points": [
-        "Water passes down joints and bedding planes in permeable rock.",
-        "Water flows over impermeable rock instead.",
-        "A spring emerges where a permeable layer lies on an impermeable one, and the line of springs is a spring line."
-      ]
+        "Water passes down joints and bedding planes in permeable (or pervious) rock, which lets water through.",
+        "Water flows over impermeable rock instead, because it cannot soak in.",
+        "A spring emerges where a permeable layer lies on an impermeable one, because the water sinking through the top layer is stopped by the layer below. The line of springs is a spring line."
+      ],
+      "tip": "No spring-line example is given for this subsection, so do not invent a named place."
     },
     {
       "h": "Plateau on horizontal strata",
+      "b": "A plateau (a flat-topped upland) forms in layered rock. It needs horizontal strata with a tough layer on top.",
       "points": [
-        "1. Horizontal strata have a resistant cap rock lying above weaker layers.",
-        "2. Erosion strips the weaker layers beneath the cap and wears back the edges of the upland.",
+        "1. Horizontal strata have a resistant cap rock (the tough top layer) lying above weaker layers.",
+        "2. Erosion strips the weaker layers beneath the cap and wears back the edges of the upland, because weak rock wears away faster than the cap.",
         "3. The cap protects the layers beneath, so the top stays flat and the edges stay steep.",
         "Diagram: cross-section of a flat-topped upland with a resistant cap, cliffed edges and weaker strata below."
       ]
     },
     {
       "h": "Stepped slopes",
+      "b": "When horizontal layers of hard and soft rock alternate several times, the plateau edge is not one cliff but a staircase.",
       "points": [
-        "Alternating hard and soft horizontal layers erode at different rates.",
-        "Hard layers form cliffs; soft layers form gentler slopes, often covered by scree.",
+        "Alternating hard and soft horizontal layers erode at different rates, because the hard rock resists erosion and the soft rock does not.",
+        "Hard layers form cliffs; soft layers form gentler slopes, often covered by scree (loose broken rock fragments), because the soft rock wears down more easily.",
         "The profile of cliff and slope repeats for each pair of hard and soft layers."
       ]
     },
     {
       "h": "Dartry–Cuilcagh upland (Ireland)",
-      "b": "Near-horizontal Carboniferous strata of limestone, shale and sandstone form flat-topped uplands with steep cliffed edges and stepped slopes.",
+      "b": "This is the Irish setting for landforms of horizontal strata. Near-horizontal Carboniferous strata (rocks laid down in the geological period of that name) of limestone, shale and sandstone form flat-topped uplands with steep cliffed edges and stepped slopes.",
       "points": [
-        "The Dartry Mountains and Cuilcagh span Co. Sligo, Co. Cavan and Co. Fermanagh.",
-        "Caves and karst features lie in the limestone beneath the uplands."
-      ]
+        "The Dartry Mountains and Cuilcagh span Co. Sligo, Co. Leitrim, Co. Cavan and Co. Fermanagh.",
+        "Caves and karst features (the landscape of limestone shaped by water) lie in the limestone beneath the uplands."
+      ],
+      "tip": "Benbulben and Cuilcagh have different cap rocks. Do not mix them."
     },
     {
       "h": "Benbulben, Co. Sligo",
+      "b": "Benbulben, part of the Dartry Mountains, shows a resistant cap above weaker rock in one clear profile.",
       "points": [
         "Benbulben, at 526 m, is a flat-topped mountain of near-horizontal strata.",
-        "A resistant limestone cap forms its vertical cliffs.",
+        "A resistant limestone cap forms its vertical cliffs, because the cap resists erosion.",
         "Weaker shale beneath forms the lower, gentler slopes, partly covered in scree.",
         "Ice later steepened its sides."
-      ]
+      ],
+      "tip": "Benbulben's cap is limestone. Cuilcagh's cap is sandstone."
     },
     {
       "h": "Cuilcagh, Cavan–Fermanagh border",
+      "b": "Cuilcagh has three rock types stacked on one another, so its profile is stepped rather than a single cliff.",
       "points": [
         "Cuilcagh, at 665 m, is the highest point in both Co. Cavan and Co. Fermanagh.",
         "A resistant sandstone cap lies over shale, which lies over limestone, giving a stepped profile and a flat summit ridge.",
         "The Shannon Pot, the source of the River Shannon, lies at the foot of Cuilcagh in Co. Cavan.",
         "The Marble Arch Caves, Co. Fermanagh, lie in the limestone beneath it."
-      ]
+      ],
+      "tip": "Cuilcagh's cap is sandstone. Benbulben's cap is limestone."
     },
     {
       "h": "Mesa and butte",
+      "b": "If erosion keeps working at a plateau, the plateau does not stay in one piece. It is cut into smaller flat-topped hills.",
       "points": [
         "1. Weathering and erosion work back the edges of a plateau.",
-        "2. The plateau is broken into separate flat-topped remnants, each capped by the resistant rock.",
+        "2. The plateau is broken into separate flat-topped remnants (the parts left behind), each capped by the resistant rock.",
         "3. A mesa is wider than it is high; a butte is a smaller, narrower remnant.",
         "Example: Monument Valley, on the Arizona–Utah border, USA.",
         "Diagram: cross-section of a mesa and a butte, each with a resistant cap."
@@ -106,27 +126,31 @@
     },
     {
       "h": "Escarpment and cuesta",
+      "b": "When strata tilt gently rather than lie flat, a resistant layer makes a ridge with one steep side and one gentle side. This ridge is an escarpment, or cuesta.",
       "points": [
         "1. On gently dipping strata, a resistant layer is exposed at the surface.",
-        "2. Erosion cuts a steep scarp slope across the edges of the layers.",
+        "2. Erosion cuts a steep scarp slope across the edges of the layers, because the cut ends of the resistant layer are exposed there.",
         "3. The layers continue along the tilt as a long, gentle dip slope.",
-        "4. The weaker rock between cuestas is eroded into a vale.",
+        "4. The weaker rock between cuestas is eroded into a vale (a low valley floor).",
         "Example: the Cotswolds, England, a limestone cuesta with a steep west-facing scarp and a long dip slope to the east.",
         "Diagram: cross-section of a cuesta showing scarp slope, dip slope and vale."
-      ]
+      ],
+      "tip": "The scarp slope is steep and cuts across the layers; the dip slope is gentle and follows the layers. Short-answer questions may ask you to define escarpment and dip slope."
     },
     {
       "h": "Hogback",
+      "b": "If the strata dip steeply instead of gently, the same process gives a different shape.",
       "points": [
         "A hogback forms on steeply dipping strata.",
-        "It is a narrow ridge whose scarp and dip slopes are of nearly equal steepness.",
+        "It is a narrow ridge whose scarp and dip slopes are of nearly equal steepness, unlike a cuesta, where one slope is steep and the other gentle.",
         "Example: the Hog's Back, Surrey, England, a narrow chalk ridge."
       ]
     },
     {
       "h": "Bedding planes and joints in smaller landforms",
+      "b": "Bedding planes and joints also shape smaller features. These are named here as effects of the structures; how each forms is taught elsewhere.",
       "points": [
-        "Joints and bedding planes in limestone give limestone pavement, with blocks called clints separated by grikes.",
+        "Joints and bedding planes in limestone give limestone pavement, with blocks called clints separated by grikes (the gaps between them).",
         "Caves form along bedding planes in limestone.",
         "Waterfalls form over horizontal cap rock.",
         "Sea caves and arches form along joints on the coast."
@@ -134,21 +158,24 @@
     },
     {
       "h": "Paris Basin (France)",
-      "b": "A saucer-shaped basin of sedimentary layers of different resistance, dipping gently in towards Paris.",
+      "b": "The Paris Basin is the international example of gently dipping strata. It is a saucer-shaped basin of sedimentary layers of different resistance, dipping gently in towards Paris.",
       "points": [
         "The layers are limestone, chalk and clay.",
         "Paris lies near the centre of the basin.",
-        "On the eastern side, resistant layers form outward-facing escarpments (cuestas), with dip slopes facing in towards Paris."
+        "On the eastern side, resistant layers form outward-facing escarpments (cuestas), with dip slopes facing in towards Paris.",
+        "Clay vales lie between the escarpments, because the weaker clay is worn away faster."
       ]
     },
     {
       "h": "Brecon Beacons, south Wales",
+      "b": "The Brecon Beacons are a second international example of gently dipping strata, this time in sandstone.",
       "points": [
         "Gently dipping Old Red Sandstone forms flat-topped summits.",
         "The summits have steep north-facing escarpments and gentle south-facing dip slopes.",
         "Pen y Fan, at 886 m, is the highest peak in southern Britain.",
         "The area was renamed Bannau Brycheiniog National Park in 2023."
-      ]
+      ],
+      "tip": "The syllabus gives the Paris Basin and the Brecon Beacons as international settings, so be ready to link the dip of the strata to the shape of the slopes."
     }
   ],
   "keyTerms": [

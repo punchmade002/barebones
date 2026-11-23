@@ -6,49 +6,52 @@
   "notes": [
     {
       "h": "Endogenetic and exogenetic forces",
-      "b": "Landforms are shaped by forces that build up the land and by forces that wear it down. The landscape reflects the balance between them.",
+      "b": "Landforms are shaped by forces that build up the land and by forces that wear it down. The landscape you see reflects the balance between the two.",
       "points": [
-        "Endogenetic (endogenic) forces come from within the earth and raise the land, for example through crustal uplift.",
-        "Exogenetic (exogenic) forces act at the surface: weathering, erosion and deposition wear the land down and move material.",
-        "All landforms represent a balance between endogenetic and exogenetic forces, and this balance may change through time."
-      ]
+        "Endogenetic (endogenic) forces come from within the earth and raise the land, for example through crustal uplift (the rising of the earth's outer rocky layer, the crust).",
+        "Exogenetic (exogenic) forces act at the surface: weathering (breakdown of rock in place), erosion (wearing away and carrying off of material) and deposition (dropping of material) wear the land down and move material.",
+        "All landforms represent a balance between endogenetic and exogenetic forces, and this balance may change through time, so a landscape can shift as one force gains on the other."
+      ],
+      "tip": "A true/false question can ask about endogenic forces: they are internal forces from within the earth."
     },
     {
       "h": "Isostasy",
-      "b": "Isostasy is the state of balance between the crust and the denser mantle beneath it.",
+      "b": "The crust is not fixed in height. It sits on the layer beneath it and settles to a level that depends on the weight it carries, and isostasy is the name for that balance.",
       "points": [
+        "Isostasy is the state of balance between the crust and the denser mantle (the thick layer of hot rock under the crust) beneath it.",
         "The crust floats on the mantle, as a block of wood floats in water. The mantle beneath the crust is called the asthenosphere.",
-        "Isostatic change is the adjustment of the crust's height that restores this balance when the load on the crust changes."
+        "Isostatic change is the adjustment of the crust's height that restores this balance when the load on the crust changes, so adding weight lowers the crust and removing weight lets it rise."
       ]
     },
     {
       "h": "Isostatic depression and rebound",
-      "b": "Ice sheets add a load to the crust, and melting removes it. The crust responds slowly in both directions.",
+      "b": "Ice sheets add a heavy load to the crust, and melting removes it. The crust responds slowly in both directions.",
       "points": [
-        "Isostatic depression: the weight of an ice sheet presses the crust down into the mantle.",
-        "Isostatic rebound: when the ice melts and the load is removed, the crust slowly rises.",
-        "Rebound lags far behind melting, so land can still be rising long after the ice has gone.",
+        "Isostatic depression: the weight of an ice sheet presses the crust down into the mantle, as a heavy load pushes a floating block lower in water.",
+        "Isostatic rebound (also called recovery or uplift): when the ice melts and the load is removed, the crust slowly rises.",
+        "Rebound lags far behind melting, because the crust adjusts slowly, so land can still be rising long after the ice has gone.",
         "Rebound is still continuing in some places: Scandinavia around the Gulf of Bothnia, Hudson Bay in Canada, and Scotland."
       ]
     },
     {
       "h": "Denudation and deposition as loads",
-      "b": "Surface processes change the load on the crust as well as ice does.",
+      "b": "Ice is not the only thing that changes the load on the crust. Surface processes do it too, by moving material from one place to another.",
       "points": [
-        "Denudation removes material from the land. Removing weight through erosion causes the crust to rise.",
-        "Heavy deposition adds weight to the crust, so it sinks; a delta is one place where a large load builds up."
+        "Denudation (the wearing away and lowering of the land surface by weathering and erosion) removes material from the land. Removing weight through erosion causes the crust to rise.",
+        "Heavy deposition adds weight to the crust, so it sinks; a delta (a landform built where a river drops its load at the sea) is one place where a large load builds up."
       ]
     },
     {
       "h": "Isostatic and eustatic change",
-      "b": "Isostatic change moves the land. Eustatic change moves the sea.",
+      "b": "The land and the sea can each change height, and the two must not be confused. Isostatic change moves the land. Eustatic change moves the sea.",
       "points": [
         "Isostatic change is a local change in the height of the land relative to the sea.",
         "Eustatic change is a worldwide change in sea level.",
-        "During glaciation, water locked up in ice sheets lowered sea level worldwide.",
+        "During glaciation, water locked up in ice sheets lowered sea level worldwide, because less water was left in the oceans.",
         "When the ice melted, the meltwater returned to the oceans and raised sea level again.",
-        "The level of the land relative to the sea is the combined result of isostatic and eustatic change."
-      ]
+        "The level of the land relative to the sea is the combined result of isostatic and eustatic change, so the coast can rise or sink depending on which effect is stronger."
+      ],
+      "tip": "Isostatic change means the land moves; eustatic change means the sea moves. Never swap them."
     },
     {
       "h": "Base level and landscapes out of balance",
@@ -62,34 +65,37 @@
     },
     {
       "h": "Raised beaches (emergent coast)",
-      "b": "Where the land rises relative to sea level, the coast is emergent and former shore features stand above the present tide reach.",
+      "b": "Where the land rises relative to sea level, the coast is emergent (rising out of the sea) and former shore features stand above the present tide reach.",
       "points": [
-        "Isostatic uplift lifts a former beach, its cliffs and its rock platform above present high tide.",
+        "Isostatic uplift lifts a former beach, its cliffs and its rock platform above present high tide, which is how a raised beach forms.",
         "An old cliff line marks the position of the former sea cliffs, now inland of the sea.",
-        "A wave-cut notch is cut into the old cliff at the former sea level.",
-        "Sea caves and stacks stand above the present tide reach.",
-        "Beach shingle lies on the raised beach.",
+        "A wave-cut notch is cut into the old cliff at the former sea level, where waves once undercut the rock.",
+        "Sea caves and stacks (pillars of rock left standing when waves cut away the land around them) stand above the present tide reach.",
+        "Beach shingle (rounded pebbles) lies on the raised beach.",
         "A flat former wave-cut platform is a level rock shelf cut by waves at the former sea level.",
         "Examples: raised beaches at Malin Head, Inishowen, Co. Donegal, and on the Isle of Jura, Scotland."
-      ]
+      ],
+      "tip": "If asked for two coastal features formed by isostatic adjustment in an uplifted area, give raised beaches and related features such as the old cliff line or wave-cut platform."
     },
     {
       "h": "Rias, fjords and drowned drumlins (submergent coast)",
-      "b": "Where the sea stands higher relative to the land, the coast is submergent and valleys and lowlands are flooded.",
+      "b": "Where the sea stands higher relative to the land, the coast is submergent (sinking under the sea) and valleys and lowlands are flooded.",
       "points": [
-        "A ria is a drowned river valley. It has a V-shaped cross-section and a winding outline.",
+        "A ria is a drowned river valley. It has a V-shaped cross-section and a winding outline, because it was cut by a river.",
         "Examples of rias: Bantry Bay, the Kenmare River and Dingle Bay (Co. Cork and Co. Kerry), and Cork Harbour. They are drowned river valleys of the Munster ridge-and-valley landscape.",
-        "A fjord is a drowned glacial trough. It is deep and U-shaped, often with a shallow threshold at its mouth.",
+        "A fjord is a drowned glacial trough (a valley deepened by a glacier). It is deep and U-shaped, often with a shallow threshold (a raised rock lip) at its mouth.",
         "Examples of fjords: Killary Harbour, on the Co. Galway and Co. Mayo border, and the Norwegian fjords.",
-        "Drowned drumlins: the lowland between drumlins floods, so the crests of the drumlins stand as islands in the sea.",
+        "Drowned drumlins: a drumlin is an oval hill of glacial deposit, and when the lowland between drumlins floods, the crests of the drumlins stand as islands in the sea.",
         "Examples of drowned drumlins: Clew Bay, Co. Mayo, and Strangford Lough, Co. Down."
-      ]
+      ],
+      "tip": "Keep rias and fjords separate: a ria is a drowned river valley (V-shaped, winding), a fjord a drowned glacial valley (U-shaped, deep). For a submerged area, name rias, fjords and drowned drumlins."
     },
     {
       "h": "North and south of Ireland",
+      "b": "Ireland shows both kinds of coast, because the amount of ice, and so the amount of rebound, differed from north to south.",
       "points": [
-        "The north of Ireland had thicker ice, so it was depressed more and has undergone more isostatic rebound. Its coast shows raised beaches.",
-        "The south-west has the opposite pattern: its coast is drowned, with rias and related submerged features."
+        "The north of Ireland had thicker ice, so it was depressed more and has undergone more isostatic rebound. Its coast shows raised beaches, as at Malin Head in Co. Donegal.",
+        "The south-west has the opposite pattern: its coast is drowned, with rias and related submerged features, as in Cork and Kerry."
       ]
     },
     {
@@ -97,16 +103,18 @@
       "b": "A fall in base level, caused by the land rising relative to the sea, gives a river renewed erosive power. This renewal is called rejuvenation.",
       "points": [
         "The river erodes downwards again to the new, lower base level, and the renewed erosion works upstream from the mouth.",
-        "Knickpoint: a sudden steepening in the long profile of the river, which can form a waterfall.",
-        "Incised meanders: the river cuts down into its old meanders, leaving them entrenched in steep-sided valleys.",
+        "Knickpoint: a sudden steepening in the long profile (the line of the river's slope from source to mouth) of the river, which can form a waterfall.",
+        "Incised meanders: the river cuts down into its old meanders (bends), leaving them entrenched (cut deep) in steep-sided valleys.",
         "River terraces: the old valley floor is left as a step above the new, lowered channel."
-      ]
+      ],
+      "tip": "If asked for the name of the process that renews erosion in a river's old stage, the answer is rejuvenation."
     },
     {
       "h": "Drowned lower courses after a rise in base level",
+      "b": "The opposite change drowns rivers instead of renewing them. When the sea rises relative to the land, base level rises too.",
       "points": [
         "A rise in base level, caused by the sea rising relative to the land, drowns the lower course of a river.",
-        "The drowned lower course becomes an estuary or a ria, as described in the submergent coast block."
+        "The drowned lower course becomes an estuary (the wide tidal mouth of a river) or a ria, a drowned river valley with a V-shaped cross-section and a winding outline."
       ]
     }
   ],

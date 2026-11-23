@@ -6,97 +6,114 @@
   "notes": [
     {
       "h": "Hess's law (Higher Level only)",
+      "b": "Some enthalpy changes (ΔH, the heat energy taken in or given out by a reaction) can't be measured directly. Hess's law gets round this by letting us work them out from reactions that can be measured.",
       "points": [
         "Hess's law: if a reaction takes place in a number of stages, the total enthalpy change for the stages is equal to the enthalpy change if the reaction takes place in one stage.",
-        "So ΔH depends only on the initial and final states, not on the route taken.",
-        "It follows from the law of conservation of energy: if two routes between the same reactants and products had different ΔH values, energy could be created by going one way and returning the other.",
-        "It lets us calculate ΔH for reactions that can't be measured directly, e.g. the formation of methane from carbon and hydrogen, or of carbon monoxide (burning carbon in limited oxygen always gives some CO₂ too).",
+        "In other words, ΔH depends only on the initial and final states (the reactants you start with and the products you end with), not on the route taken between them.",
+        "It follows from the law of conservation of energy (energy can't be created or destroyed). If two routes between the same reactants and products had different ΔH values, energy could be created by going one way and returning the other.",
+        "It lets us calculate ΔH for reactions that can't be measured directly, e.g. the formation of methane from carbon and hydrogen, or of carbon monoxide.",
+        "Carbon monoxide can't be measured directly because burning carbon in limited oxygen always gives some CO₂ too, so the heat measured would not belong to one reaction only.",
         "Germain Henri Hess (1802–1850), a Swiss-born chemist who worked in St Petersburg, published the law in 1840."
-      ]
+      ],
+      "tip": "You may be asked to state Hess's law. Say that the total enthalpy change for the stages equals the enthalpy change if the reaction takes place in one stage."
     },
     {
       "h": "Energy cycles (Higher Level only)",
+      "b": "Hess's law can be drawn as a diagram. An energy cycle puts the unknown ΔH on one side and a route of known ΔH values on the other, so the unknown can be found by adding.",
       "points": [
         "An energy cycle (Hess cycle) shows the direct route from reactants to products and an indirect route through intermediate substances, with ΔH on each arrow.",
-        "ΔH for the direct route equals the sum of ΔH along the indirect route.",
-        "When going along an arrow in the opposite direction, change the sign of its ΔH.",
-        "Methane cycle: the top arrow is C(s) + 2H₂(g) → CH₄(g) (ΔH = ?); both sides lead down to the combustion products CO₂(g) + 2H₂O(l) (+ O₂).",
-        "From the elements to the combustion products: ΔH = ΔHc(C) + 2ΔHc(H₂).",
-        "From methane to the combustion products: ΔH = ΔHc(CH₄).",
+        "ΔH for the direct route equals the sum of ΔH along the indirect route, because both routes start and end at the same place.",
+        "When going along an arrow in the opposite direction, change the sign of its ΔH, because the reverse of a reaction has the opposite enthalpy change.",
+        "Methane cycle: the top arrow is C(s) + 2H₂(g) → CH₄(g) (ΔH = ?), the unknown heat of formation (the ΔH for making a compound from its elements). Both sides lead down to the combustion products CO₂(g) + 2H₂O(l) (+ O₂).",
+        "From the elements to the combustion products: ΔH = ΔHc(C) + 2ΔHc(H₂). ΔHc is the heat of combustion (the ΔH for burning one mole of a substance in oxygen). From methane to the combustion products: ΔH = ΔHc(CH₄).",
         "So ΔHf(CH₄) = ΔHc(C) + 2ΔHc(H₂) − ΔHc(CH₄).",
-        "The same cycle can be modelled as an enthalpy level diagram, with the elements, the compound and the combustion products at different levels and arrows between them.",
+        "The same cycle can be modelled as an enthalpy level diagram (a diagram where higher means more enthalpy), with the elements, the compound and the combustion products at different levels and arrows between them.",
         "Diagram: the triangular Hess cycle for methane with all three arrows labelled with their ΔH values, and the same information as an enthalpy level diagram."
-      ]
+      ],
+      "tip": "Reversing the direction of an arrow reverses the sign of its ΔH, so check the direction of every arrow you use."
     },
     {
       "h": "Rules for combining equations (Higher Level only)",
+      "b": "Instead of a diagram, you can work with the equations themselves. You adjust the given equations until they add up to the one you want, and adjust their ΔH values in the same way.",
       "points": [
-        "Write the target equation first.",
+        "Write the target equation first, so you know what the final answer must look like.",
         "Rearrange the given equations so that each substance in the target ends up on the correct side in the correct amount.",
         "Reverse an equation to put a substance on the other side, and change the sign of its ΔH.",
         "Multiply an equation by a number to get the right amount, and multiply its ΔH by the same number.",
         "Add the equations and their ΔH values.",
         "Cancel substances that appear on both sides, then check that the result is the target equation."
-      ]
+      ],
+      "tip": "Reversing an equation reverses the sign of ΔH; multiplying the equation multiplies ΔH. Do both to the ΔH, not just the equation."
     },
     {
       "h": "Heats of formation (Higher Level only)",
+      "b": "Heats of formation give every compound a reference value measured from its elements. With a table of them, you can find the ΔH of any reaction using Hess's law.",
       "points": [
-        "Standard heat (enthalpy) of formation, ΔHf°: the enthalpy change when one mole of a compound is formed from its elements in their standard states under standard conditions.",
+        "Standard heat (enthalpy) of formation, ΔHf°: the enthalpy change when one mole of a compound is formed from its elements in their standard states (the usual physical form of each element) under standard conditions.",
         "Formation equations have exactly one mole of product, so fractions may be needed, e.g. ½N₂(g) + 1½H₂(g) → NH₃(g), ΔHf = −46 kJ mol⁻¹.",
-        "C(s) + O₂(g) → CO₂(g), ΔHf = −394 kJ mol⁻¹.",
-        "2C(s) + 3H₂(g) + ½O₂(g) → C₂H₅OH(l), ΔHf = −278 kJ mol⁻¹.",
-        "The heat of formation of an element in its standard state is zero by definition, as nothing is formed, e.g. O₂(g), H₂(g) and C(graphite).",
+        "More formation equations: C(s) + O₂(g) → CO₂(g), ΔHf = −394 kJ mol⁻¹, and 2C(s) + 3H₂(g) + ½O₂(g) → C₂H₅OH(l), ΔHf = −278 kJ mol⁻¹.",
+        "The heat of formation of an element in its standard state is zero by definition, as nothing is formed, e.g. O₂(g), H₂(g) and C(graphite). CO₂ is a compound, so its ΔHf is not zero.",
         "The heats of formation of CO₂ and H₂O equal the heats of combustion of carbon and hydrogen, which can be measured directly.",
         "Most heats of formation, e.g. of methane, ethanol or ethanoic acid, can't be measured directly and are found by Hess's law from heats of combustion.",
-        "From heats of formation: ΔH(reaction) = ΣΔHf(products) − ΣΔHf(reactants), each multiplied by its coefficient.",
+        "From heats of formation: ΔH(reaction) = ΣΔHf(products) − ΣΔHf(reactants), each multiplied by its coefficient. Σ means the sum of, and the coefficient is the number in front of the substance in the balanced equation.",
         "This follows from Hess's law, going from reactants to elements and then to products."
-      ]
+      ],
+      "tip": "Exams ask you to define heat of formation and to write a formation equation, e.g. for ammonia: one mole of compound, made from elements only. They also ask why the heats of formation of CO₂ and H₂O can be measured but not those of ethanoic acid or methane. Remember products minus reactants, and multiply each ΔHf by its coefficient. Use the state of water given: ΔHf(H₂O(l)) = −286 but ΔHf(H₂O(g)) = −242."
     },
     {
       "h": "Worked problem 1: heat of formation of methane (Higher Level only)",
+      "b": "Methane can't be made cleanly from carbon and hydrogen in a calorimeter (a device that measures heat), but its heat of combustion can be measured. Here the equations are combined to find the heat of formation.",
       "points": [
         "Target: C(s) + 2H₂(g) → CH₄(g). Given: (a) C(s) + O₂(g) → CO₂(g), ΔH = −394; (b) H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286; (c) CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH = −890 kJ mol⁻¹.",
-        "Keep (a): ΔH = −394.",
-        "Multiply (b) by 2: 2H₂ + O₂ → 2H₂O, ΔH = −572.",
-        "Reverse (c): CO₂ + 2H₂O → CH₄ + 2O₂, ΔH = +890.",
+        "Keep (a), because it already has C on the left as in the target: ΔH = −394.",
+        "Multiply (b) by 2, because the target needs 2H₂: 2H₂ + O₂ → 2H₂O, ΔH = −572.",
+        "Reverse (c), because CH₄ must be a product in the target: CO₂ + 2H₂O → CH₄ + 2O₂, ΔH = +890.",
         "Add the equations: C + 2H₂ + 2O₂ + CO₂ + 2H₂O → CO₂ + 2H₂O + CH₄ + 2O₂; cancelling gives C + 2H₂ → CH₄.",
         "ΔHf(CH₄) = −394 − 572 + 890 = −76 kJ mol⁻¹; the data-book value is −75 kJ mol⁻¹, and the difference comes from rounding."
-      ]
+      ],
+      "tip": "Exams ask you to calculate a heat of formation from heats of combustion. Reverse the equation with the wrong sign for ΔH and the whole answer is wrong, so change the sign every time you reverse."
     },
     {
       "h": "Worked problem 2: heat of combustion of ethanol (Higher Level only)",
+      "b": "Now the method runs the other way: a heat of combustion (the ΔH for burning one mole of a substance in oxygen) is found from heats of formation using products minus reactants.",
       "points": [
-        "Equation: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l); ΔHf: C₂H₅OH(l) −278, CO₂(g) −394, H₂O(l) −286, O₂(g) 0 kJ mol⁻¹.",
-        "ΣΔHf(products) = 2(−394) + 3(−286) = −788 − 858 = −1646 kJ.",
+        "Equation: C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l); ΔHf: C₂H₅OH(l) −278, CO₂(g) −394, H₂O(l) −286, O₂(g) 0 kJ mol⁻¹. O₂ is zero because it is an element in its standard state.",
+        "ΣΔHf(products) = 2(−394) + 3(−286) = −788 − 858 = −1646 kJ. Each ΔHf is multiplied by its coefficient.",
         "ΣΔHf(reactants) = −278 + 3(0) = −278 kJ.",
         "ΔH = −1646 − (−278) = −1368 kJ mol⁻¹; the standard value is −1367 kJ mol⁻¹."
-      ]
+      ],
+      "tip": "Exams ask you to calculate a heat of combustion from heats of formation. Take products minus reactants, and multiply each ΔHf by its coefficient."
     },
     {
       "h": "Worked problem 3: heat of combustion of propane (Higher Level only)",
+      "b": "Propane follows the same pattern as ethanol: add up the formation values of the products, subtract those of the reactants, and use the coefficients from the balanced equation.",
       "points": [
-        "Equation: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l); ΔHf: C₃H₈ −104, CO₂ −394, H₂O −286 kJ mol⁻¹.",
+        "Equation: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l); ΔHf: C₃H₈ −104, CO₂ −394, H₂O −286 kJ mol⁻¹. O₂ is left out of the sum because its ΔHf is zero.",
         "ΔH = [3(−394) + 4(−286)] − (−104) = −1182 − 1144 + 104 = −2222 kJ mol⁻¹; the standard value is −2220 kJ mol⁻¹."
-      ]
+      ],
+      "tip": "Subtracting a negative number turns it into an addition: −(−104) becomes +104."
     },
     {
       "h": "Worked problem 4: heat of formation of ethyne (Higher Level only)",
+      "b": "Ethyne (C₂H₂) is a case where the heat of formation comes out positive. The calculation uses the energy cycle result from earlier: elements to combustion products, minus compound to combustion products.",
       "points": [
         "Target: 2C(s) + H₂(g) → C₂H₂(g). Given ΔHc: C −394, H₂ −286, C₂H₂ −1300 kJ mol⁻¹.",
         "ΔHf = 2ΔHc(C) + ΔHc(H₂) − ΔHc(C₂H₂) = 2(−394) + (−286) − (−1300) = −788 − 286 + 1300 = +226 kJ mol⁻¹.",
-        "The positive value shows ethyne is formed endothermically: it has more enthalpy than its elements, which helps explain why it releases so much energy when burned."
-      ]
+        "The positive value shows ethyne is formed endothermically (heat is taken in): it has more enthalpy than its elements, which helps explain why it releases so much energy when burned."
+      ],
+      "tip": "Exams ask you to calculate a heat of formation from heats of combustion. Multiply ΔHc(C) by 2 because the target has 2C."
     },
     {
       "h": "Worked problem 5: combining equations (Higher Level only)",
+      "b": "This problem has no formation or combustion data to lean on. You must reverse and multiply the given equations until they add up to the target.",
       "points": [
         "Target: 2H₂S(g) + SO₂(g) → 3S(s) + 2H₂O(l). Given: (a) H₂(g) + S(s) → H₂S(g), ΔH = −21; (b) S(s) + O₂(g) → SO₂(g), ΔH = −297; (c) H₂(g) + ½O₂(g) → H₂O(l), ΔH = −286 kJ mol⁻¹.",
-        "Reverse (a) and multiply by 2: 2H₂S → 2H₂ + 2S, ΔH = +42.",
-        "Reverse (b): SO₂ → S + O₂, ΔH = +297.",
-        "Multiply (c) by 2: 2H₂ + O₂ → 2H₂O, ΔH = −572.",
+        "Reverse (a) and multiply by 2, because the target has 2H₂S on the left: 2H₂S → 2H₂ + 2S, ΔH = +42.",
+        "Reverse (b), because SO₂ is on the left in the target: SO₂ → S + O₂, ΔH = +297.",
+        "Multiply (c) by 2, because the target has 2H₂O on the right: 2H₂ + O₂ → 2H₂O, ΔH = −572.",
         "Add and cancel 2H₂ and O₂: 2H₂S + SO₂ → 3S + 2H₂O; ΔH = 42 + 297 − 572 = −233 kJ."
-      ]
+      ],
+      "tip": "Reverse an equation and its ΔH changes sign; multiply it and ΔH is multiplied by the same number. Do both to (a) here: +42, not −21."
     }
   ],
   "keyTerms": [

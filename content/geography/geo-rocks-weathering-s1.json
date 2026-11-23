@@ -5,130 +5,190 @@
   "syllabusRef": "1.2",
   "notes": [
     {
-      "h": "The rock cycle",
-      "b": "Rocks are continually formed, modified, destroyed and reconstituted. Endogenic (internal) forces form and modify rock; exogenic (external) forces destroy it; deposition of sediment reconstitutes it.",
+      "h": "The rock cycle: forces that form, modify, destroy and reconstitute rock",
+      "b": "Rock is never permanent. It is continually formed, modified, destroyed and reconstituted (built again from the broken pieces), so the three rock types are linked in one cycle. Two sets of forces drive it, one working from inside the earth and one at its surface.",
       "points": [
-        "Endogenic forces, driven from within the earth, form and modify rock through magma, heat and pressure.",
-        "Exogenic forces, working at the surface, destroy rock through weathering and erosion.",
-        "Deposition of sediment reconstitutes rock as new sedimentary rock.",
-        "Cycle path: magma cools and crystallises to igneous rock; weathering and erosion produce sediment; deposition, compaction and cementation make sedimentary rock; heat and pressure make metamorphic rock; melting returns it to magma.",
-        "Short-cuts: any rock can be weathered, and any rock can be metamorphosed or melted.",
-        "Plate link: rock is created at plate boundaries and hotspots, metamorphosed at collision zones, and destroyed or recycled at subduction zones.",
-        "Diagram: a circular flow chart with magma and the three rock types as nodes, each arrow labelled with its process."
+        "Endogenic (internal) forces, driven from within the earth, form and modify rock through magma (molten rock below the surface), heat and pressure.",
+        "Exogenic (external) forces, working at the surface, destroy rock through weathering (breakdown of rock in place by weather) and erosion (wearing away and carrying off of rock fragments).",
+        "Deposition (dropping of carried sediment, the loose fragments of rock) reconstitutes rock, because the sediment is later turned into new sedimentary rock."
+      ],
+      "tip": "A past question type is to label a rock cycle diagram, so know which force goes with which job: endogenic forms and modifies, exogenic destroys, deposition reconstitutes."
+    },
+    {
+      "h": "The rock cycle as a diagram",
+      "b": "The cycle is easiest to learn as a circular flow chart in which each rock type is reached from another by a named process. Short-cuts across the circle show that rock does not have to follow the full loop.",
+      "points": [
+        "1. Magma cools and crystallises (forms crystals as it hardens) to make igneous rock.",
+        "2. Weathering and erosion break igneous rock down into sediment, because rock at the surface is attacked by weather.",
+        "3. Deposition, compaction and cementation turn the sediment into sedimentary rock, because the layers are squeezed and glued together.",
+        "4. Heat and pressure change sedimentary rock into metamorphic rock, because buried rock is squeezed and heated without melting.",
+        "5. Melting turns the metamorphic rock back into magma, and the cycle starts again.",
+        "Short-cuts: any rock can be weathered into sediment, and any rock can be metamorphosed (changed by heat and pressure) or melted, so the arrows do not all follow one loop.",
+        "Diagram: draw a circular flow chart with magma and the three rock types as the nodes, and label each arrow with its process, for example crystallisation or compaction and cementation."
+      ],
+      "tip": "Exams ask you to label the stages and the processes: crystallisation of magma, weathering and erosion, compaction and cementation, and heat and pressure."
+    },
+    {
+      "h": "The rock cycle and plate tectonics",
+      "b": "The rock cycle does not run at random. It is tied to the moving plates (the large slabs that make up the earth's crust), which decide where each stage happens.",
+      "points": [
+        "Rock is created at plate boundaries and at hotspots (fixed points of rising magma), because magma reaches the crust there.",
+        "Rock is metamorphosed at collision zones, where plates push together and the heat and pressure are great.",
+        "Rock is destroyed or recycled at subduction zones, where one plate sinks beneath another and the rock melts back into magma."
       ]
     },
     {
-      "h": "Igneous rock",
-      "b": "Igneous rock forms when molten rock cools and crystallises. Magma is molten rock below the surface; lava is molten rock at the surface.",
+      "h": "Igneous rock: how it forms and why crystal size varies",
+      "b": "Igneous rock forms when molten rock cools and crystallises. Magma is molten rock below the surface; lava is molten rock at the surface. Where the rock cools decides how big its crystals grow.",
       "points": [
-        "Crystal size depends on cooling rate: slow cooling gives large crystals, and fast cooling gives small ones.",
+        "Crystal size depends on cooling rate: slow cooling gives large crystals because they have time to grow, and fast cooling gives small ones.",
         "Plutonic (intrusive) rock is igneous rock that cools slowly deep in the crust, so its crystals are large.",
-        "Granite is a plutonic rock built from quartz, feldspar and mica crystals.",
-        "Plutonic intrusions: batholiths are huge dome-shaped masses, dykes are vertical and cut across beds, and sills are horizontal and lie along bedding planes.",
-        "Plutonic rock reaches the surface only after the rock above it has been eroded away.",
         "Volcanic (extrusive) rock is lava that cools quickly at the surface, so its crystals are small.",
-        "Basalt is the commonest volcanic rock and forms from runny lava.",
-        "Geotectonic settings: basalt forms at constructive (divergent) boundaries and hotspots; andesite and granite batholiths form above subduction zones at destructive boundaries.",
-        "Uses: granite is used as building stone, kerbs, worktops and headstones; basalt is crushed for road chippings and aggregate."
+        "Uses: granite is used as building stone, kerbs, worktops and headstones; basalt is crushed for road chippings and aggregate (crushed stone used in construction)."
+      ],
+      "tip": "Define plutonic rock on its own, as slowly cooled igneous rock deep in the crust with large crystals. You may also be asked for two uses of rock."
+    },
+    {
+      "h": "Plutonic rock: granite and intrusions",
+      "b": "Granite is a plutonic rock. When magma pushes into surrounding rock and cools there, it forms masses called intrusions, and their shape gives them different names.",
+      "points": [
+        "Granite is a plutonic rock built from quartz, feldspar and mica crystals, which are large enough to see because the magma cooled slowly.",
+        "Batholiths are huge dome-shaped masses of plutonic rock.",
+        "Dykes are vertical intrusions that cut across the beds (layers) of the rock around them.",
+        "Sills are horizontal intrusions that lie along bedding planes (the horizontal surfaces between layers).",
+        "Plutonic rock reaches the surface only after the rock above it has been eroded away, because it formed deep underground."
+      ],
+      "tip": "Basalt is volcanic (extrusive), not plutonic, and granite is igneous, not sedimentary. Both come up as true/false items."
+    },
+    {
+      "h": "Volcanic rock and where igneous rock forms",
+      "b": "Volcanic rock forms at the surface, so it cools fast. Which kind forms depends on the plate setting, the tectonic setting, in which the magma reaches the crust.",
+      "points": [
+        "Basalt is the commonest volcanic rock and forms from runny lava, which flows easily before it sets.",
+        "Basalt forms at constructive (divergent) boundaries, where plates move apart, and at hotspots.",
+        "Andesite and granite batholiths form above subduction zones at destructive boundaries, where one plate sinks beneath another."
       ]
     },
     {
       "h": "How sedimentary rock forms",
-      "b": "Sedimentary rock is formed from sediment laid down in layers (strata), usually in seas, lakes, river basins and deserts.",
+      "b": "Sedimentary rock is formed from sediment laid down in layers (strata), usually in seas, lakes, river basins and deserts. Loose sediment then has to be turned into solid rock.",
       "points": [
-        "Sediment comes from weathered and eroded fragments of older rock, from the remains of plants and animals, or from minerals precipitated from water.",
-        "Sediment builds up in subsiding basins, on continental shelves and along trailing (passive) margins.",
+        "Sediment comes from weathered and eroded fragments of older rock, from the remains of plants and animals, or from minerals precipitated from water (that is, coming out of solution as solids).",
+        "Sediment builds up in subsiding basins (areas of sinking land), on continental shelves (the shallow sea floor around a continent) and along trailing (passive) margins, where no plate boundary lies at the coast.",
         "Lithification is the conversion of loose sediment into solid rock by compaction and cementation.",
         "Compaction: the weight of overlying layers squeezes out water and air, packing the grains together.",
-        "Cementation: minerals such as silica, calcite and iron oxide, carried by groundwater, bind the grains together."
-      ]
+        "Cementation: minerals such as silica, calcite and iron oxide, carried by groundwater, bind the grains together like glue."
+      ],
+      "tip": "Define lithification on its own: loose sediment turned to solid rock by compaction and cementation. Silica can bind sedimentary particles, which is true."
     },
     {
       "h": "Features of sedimentary rock",
+      "b": "Because sedimentary rock is laid down in layers from material at the earth's surface, it often contains fossils and shows bedding planes.",
       "points": [
-        "Many sedimentary rocks contain fossils, the remains or traces of past life.",
+        "Many sedimentary rocks contain fossils, the remains or traces of past life, because living things were buried in the sediment.",
         "Bedding planes are horizontal surfaces separating one layer from the next.",
         "Joints are vertical cracks that cut through the layers.",
-        "Many sedimentary rocks are porous, holding water in the spaces between grains."
-      ]
+        "Many sedimentary rocks are porous, holding water in the spaces between grains. Porous is not the same as permeable (letting water pass through)."
+      ],
+      "tip": "Fossils occur in sedimentary rock: that statement is true. Granite being sedimentary is false."
     },
     {
       "h": "Three groups of sedimentary rock",
+      "b": "Sedimentary rocks are sorted into three groups by the material they are made from.",
       "points": [
         "Clastic rocks are made of broken fragments: sandstone from sand, and shale from mud and clay.",
         "Organic rocks are made of the remains of living things: limestone from the shells and skeletons of sea creatures, and coal from plant remains that accumulated in swamps.",
-        "Chemical rocks form from minerals that come out of solution: rock salt and other evaporites form as seawater evaporates."
-      ]
+        "Chemical rocks form from minerals that come out of solution: rock salt and other evaporites form as seawater evaporates and leaves its dissolved minerals behind."
+      ],
+      "tip": "Know the source material: limestone from shells and skeletons of sea creatures, sandstone from sand."
     },
     {
       "h": "Irish sedimentary rocks and the conditions of their formation",
+      "b": "Each Irish sedimentary rock records the conditions in which it formed, such as the climate and the setting at that time. For a longer answer, give the conditions as well as the rock and its place.",
       "points": [
-        "Carboniferous limestone (Carboniferous period, about 360 to 300 million years ago) formed when Ireland lay near the equator under a warm, shallow, clear sea, where shells and skeletons built up the deposit.",
-        "Old Red Sandstone (Devonian period) formed in hot, semi-arid conditions from sand and pebbles laid down by rivers; its red colour comes from iron oxide.",
+        "Carboniferous limestone (Carboniferous period, about 360 to 300 million years ago) formed when Ireland lay near the equator under a warm, shallow, clear sea, where shells and skeletons built up the deposit. It covers most of the central lowland and forms the Burren, Co. Clare.",
+        "Old Red Sandstone (Devonian period) formed in hot, semi-arid (very dry) conditions from sand and pebbles laid down by rivers; its red colour comes from iron oxide.",
+        "Old Red Sandstone forms the Macgillycuddy's Reeks, the Galtees and the Comeraghs.",
         "Shale and sandstone of the Cliffs of Moher, Co. Clare, are layers of shale, siltstone and sandstone.",
-        "Chalk lies beneath the basalt along the Antrim coast.",
+        "Chalk lies beneath the basalt along the Antrim coast, so the chalk is the older rock and the lava flowed over it.",
         "Coal at Arigna, Co. Roscommon, and Castlecomer, Co. Kilkenny, formed from plant remains in swamps; both are former coal-mining areas.",
         "Rock salt is mined at the Kilroot salt mine, near Carrickfergus, Co. Antrim."
-      ]
+      ],
+      "tip": "A Higher Level question asks for the formation of sedimentary rocks with Irish examples. For each rock give where it is and the conditions at the time it formed."
     },
     {
       "h": "How metamorphism happens",
-      "b": "Metamorphic rock forms when existing rock is changed by great heat and/or pressure without melting.",
+      "b": "Metamorphic rock forms when existing rock is changed by great heat and/or pressure without melting. The original rock is called the parent rock.",
       "points": [
         "The two factors that cause metamorphism are heat and pressure.",
-        "Minerals recrystallise while the rock stays solid, so the rock usually becomes harder and denser.",
-        "The rock may develop banding or cleavage.",
+        "Minerals recrystallise (re-form as new crystals) while the rock stays solid, so the rock usually becomes harder and denser.",
+        "The rock may develop banding or cleavage (a tendency to split along flat surfaces)."
+      ],
+      "tip": "Short definitions are asked, so be able to state the two factors that cause metamorphism: heat and pressure."
+    },
+    {
+      "h": "Thermal and regional metamorphism",
+      "b": "Metamorphism happens on two scales, depending on whether the heat and pressure come from a single intrusion or from the movement of plates.",
+      "points": [
         "Thermal (contact) metamorphism: rock beside an igneous intrusion is baked by its heat, forming a ring of altered rock called a metamorphic aureole; it is small in scale.",
         "Regional metamorphism: heat and pressure act over huge areas during plate collision and mountain building; it is large in scale."
-      ]
+      ],
+      "tip": "To tell the two apart in a definition, give the cause (an intrusion's heat or plate collision) and the scale (small or large)."
     },
     {
       "h": "Parent rocks and the metamorphic rocks they form",
+      "b": "Each metamorphic rock comes from a particular parent rock, and the pairs can be asked either way round.",
       "points": [
-        "Limestone becomes marble.",
-        "Sandstone becomes quartzite.",
-        "Shale (mudstone) becomes slate, and with more heat and pressure becomes schist.",
-        "Granite becomes gneiss.",
+        "Limestone becomes marble; Connemara marble is green and is quarried in Connemara, Co. Galway.",
+        "Sandstone becomes quartzite, so the parent of quartzite is a sedimentary rock.",
+        "Shale (mudstone) becomes slate, and with more heat and pressure becomes schist, so schist is the more strongly altered rock. Slate is quarried on Valentia Island, Co. Kerry.",
+        "Granite becomes gneiss, so gneiss is a metamorphic rock formed from an igneous parent.",
         "Quartzite forms Errigal, Co. Donegal; Croagh Patrick, Co. Mayo; the Great Sugar Loaf, Co. Wicklow; and the Twelve Bens, Connemara.",
         "Mica schist is found in Donegal and Connemara, and a metamorphic aureole of mica schist surrounds the Leinster granite.",
         "Gneiss at Inishtrahull, off Co. Donegal, is about 1.7 billion years old and is the oldest rock in Ireland."
-      ]
+      ],
+      "tip": "Limestone becomes marble, not quartzite. Croagh Patrick is quartzite, not granite. Only give these parent pairs: schist comes from shale, never from an igneous rock such as basalt."
     },
     {
       "h": "Irish rock types and Ireland's geological past",
-      "b": "Ireland's rock types form a recognisable pattern across the island.",
+      "b": "Ireland's rock types form a recognisable pattern across the island, and each reflects an event in its geological past.",
       "points": [
         "Limestone floors the central lowland, and Old Red Sandstone forms the ridges of Munster.",
-        "Granite outcrops in Wicklow, Donegal and the Mournes; basalt covers Co. Antrim; metamorphic rocks lie in Donegal, Connemara and Mayo.",
-        "Plutonic example: the Leinster batholith, the granite core of the Wicklow Mountains, is about 400 million years old and is the largest granite mass in Ireland and Britain. The Mourne granite is about 56 million years old.",
-        "Volcanic example: the Antrim plateau was built by lava flows about 60 million years ago, as the Atlantic began to open.",
+        "Granite outcrops (shows at the surface) in Wicklow, Donegal and the Mournes; basalt covers Co. Antrim; metamorphic rocks lie in Donegal, Connemara and Mayo.",
+        "Plutonic example: the Leinster batholith, the granite core of the Wicklow Mountains, is about 400 million years old and is the largest granite mass in Ireland and Britain.",
+        "The Mourne granite, in the Mourne Mountains, Co. Down, is much younger, about 56 million years old.",
+        "Volcanic example: the Antrim plateau was built by lava flows about 60 million years ago, as the Atlantic began to open. The Giant's Causeway, Co. Antrim, is basalt columns.",
         "The closing of the Iapetus Ocean during Caledonian mountain building produced the Leinster and Donegal granites and regional metamorphism."
-      ]
+      ],
+      "tip": "Maps of Ireland with lettered locations are used to test rock types, such as limestone, basalt, sandstone and granite. Learn the pattern above. Name an Irish location for each rock you give."
     },
     {
       "h": "North America: active and trailing margins",
+      "b": "North America has two very different edges. The western edge is an active plate margin, where plates are moving and rock is made and changed. The eastern edge is a trailing (passive) margin, where no plate boundary lies at the coast.",
       "points": [
-        "Active western margin: Pacific plates subduct beneath or slide past North America.",
+        "Active western margin: Pacific plates subduct (sink) beneath or slide past North America.",
         "Volcanic rock: the Cascade Range volcanoes, including Mount St Helens in Washington state (erupted 1980), lie above a subducting oceanic plate.",
         "Plutonic rock: the Sierra Nevada granite batholith, California.",
         "Regional metamorphism affects the western mountain belts.",
         "The San Andreas Fault, California, is a transform boundary where plates slide past each other.",
         "Trailing eastern margin: there is no plate boundary at the coast, so there are no active volcanoes.",
-        "Thick sediments accumulate on the Atlantic coastal plain, on the continental shelf and in the Mississippi delta.",
+        "Because the margin is quiet, thick sediments accumulate on the Atlantic coastal plain, on the continental shelf and in the Mississippi delta.",
         "The Appalachians are old, worn-down fold mountains of sedimentary and metamorphic rock."
       ]
     },
     {
       "h": "Identifying rocks by appearance",
+      "b": "Rocks can be told apart by what they look like, and photo questions rely on this. Each rock below has one or two clues that separate it from the others.",
       "points": [
-        "Granite: speckled, with large interlocking crystals.",
-        "Basalt: dark and fine-grained; it may form columns.",
-        "Sandstone: gritty grains, often reddish or buff, and layered.",
-        "Limestone: pale grey, and it may show fossils.",
-        "Marble: white or coloured, with sparkling crystals and no fossils.",
+        "Granite: speckled, with large interlocking crystals, because it cooled slowly underground.",
+        "Basalt: dark and fine-grained because it cooled quickly; it may form columns, as at the Giant's Causeway.",
+        "Sandstone: gritty grains, often reddish or buff, and layered, because it is made of cemented sand laid down in beds.",
+        "Limestone: pale grey, and it may show fossils because it is made from shells and skeletons.",
+        "Marble: white or coloured, with sparkling crystals and no fossils, which separates it from limestone, its parent rock.",
         "Quartzite: pale, very hard and glassy.",
-        "Slate: dark grey, and it splits into thin sheets."
-      ]
+        "Slate: dark grey, and it splits into thin sheets, which is the cleavage (splitting) that metamorphism can produce."
+      ],
+      "tip": "Photos of granite, basalt, sandstone, limestone, marble, slate and quartzite are to be matched to names and classed as igneous, sedimentary or metamorphic. Marble is metamorphic."
     }
   ],
   "keyTerms": [

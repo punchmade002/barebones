@@ -17,3 +17,7 @@ pipeline/__pycache__/
 *.env
 *.env.txt
 .env*
+
+# Notes rewrite job files (scripts/notes_rewrite.py)
+drafts/notes-rewrite/
+drafts/history-packages/

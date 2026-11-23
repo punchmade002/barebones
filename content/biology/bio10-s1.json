@@ -6,64 +6,100 @@
   "notes": [
     {
       "h": "Nucleic acids and nucleotides",
+      "b": "Cells need a way to store instructions for building and running themselves. They use nucleic acids, long molecules made by joining many small units, and the unit that is repeated is the nucleotide. There are four kinds of nucleotide, which differ in their base.",
       "points": [
-        "Nucleic acids, DNA and RNA, are large molecules (polymers) built from many small units called nucleotides joined in a chain.",
+        "Nucleic acids, DNA and RNA, are large molecules (polymers) built from many small units called nucleotides joined in a chain, much as beads are threaded on a string.",
         "DNA is deoxyribonucleic acid; RNA is ribonucleic acid. Both contain the elements carbon, hydrogen, oxygen, nitrogen and phosphorus.",
-        "Each nucleotide has three parts: a five-carbon (pentose) sugar, a phosphate group, and a nitrogenous base attached to the sugar.",
-        "The sugar is deoxyribose in DNA and ribose in RNA. Deoxyribose has one fewer oxygen atom than ribose; the name deoxy means without oxygen.",
+        "Each nucleotide has three parts: a five-carbon (pentose) sugar, a phosphate group, and a nitrogenous base (a nitrogen-containing molecule) attached to the sugar.",
+        "The sugar is deoxyribose in DNA and ribose in RNA. Deoxyribose has one fewer oxygen atom than ribose, which is where its name comes from: deoxy means an oxygen has been removed.",
         "Each nucleic acid has four bases. DNA: adenine (A), thymine (T), cytosine (C) and guanine (G). RNA: adenine (A), uracil (U), cytosine (C) and guanine (G); uracil takes the place of thymine.",
-        "Adenine and guanine are double-ringed bases, called purines; cytosine, thymine and uracil are single-ringed bases, called pyrimidines.",
-        "A nucleotide is the building block of DNA and RNA, and its base is one letter of the genetic information. The order, or sequence, of bases along a strand carries the information. Modified nucleotides also carry energy, as described in ATP.",
+        "Adenine and guanine are larger, double-ringed bases, called purines; cytosine, thymine and uracil are smaller, single-ringed bases, called pyrimidines.",
+        "A nucleotide is the building block of DNA and RNA, and its base is one letter of the genetic information. The order, or sequence, of bases along a strand carries the information, just as the order of letters makes a word.",
+        "Modified nucleotides also carry energy. There is more on this in ATP.",
         "Diagram: one nucleotide drawn as a circle (phosphate) joined to a pentagon (sugar) joined to a rectangle (base), labelled phosphate, deoxyribose or ribose, and nitrogenous base."
-      ]
+      ],
+      "tip": "Exams ask you to name the sugar in DNA (or RNA) and the components of a nucleotide. The three parts are sugar, phosphate and base. A nucleotide is not the same as a base, because the base is only one of its three parts. DNA and RNA are nucleic acids, not proteins."
     },
     {
       "h": "Joining nucleotides into a strand",
+      "b": "One nucleotide holds one letter of information, so to store a whole message the cell must link many of them together. The way they link leaves a strong chain with the bases free to carry the code.",
       "points": [
         "Nucleotides join by bonds between the sugar of one nucleotide and the phosphate of the next. These bonds are made in condensation reactions, in which a molecule of water is removed for each bond.",
-        "The repeating sugar–phosphate–sugar–phosphate chain is the sugar–phosphate backbone.",
+        "The repeating sugar–phosphate–sugar–phosphate chain is the sugar–phosphate backbone. The bonds within it are strong covalent bonds, not hydrogen bonds.",
         "The bases stick out from the backbone, one per sugar. The backbone is the same in every DNA molecule; only the sequence of bases differs, so the bases carry the information and the backbone gives strength and support."
-      ]
+      ],
+      "tip": "Keep the two kinds of bond apart. Strong covalent bonds make the backbone within one strand; weak hydrogen bonds between bases hold two strands together. Never say the backbone is held by hydrogen bonds."
     },
     {
       "h": "DNA: the double helix and base pairing",
+      "b": "DNA is not one chain but two, held together in a regular pattern. This shape explains how DNA can store information and be copied accurately.",
       "points": [
         "DNA is double-stranded: two strands of nucleotides lie side by side, with the sugar–phosphate backbones on the outside and the bases pointing inwards, like the rails and rungs of a ladder.",
         "The bases pair up: adenine always pairs with thymine (A–T) and cytosine always pairs with guanine (C–G). These are complementary base pairs.",
-        "Each pair is one purine with one pyrimidine, so every rung is the same width.",
-        "The bases in a pair are held together by hydrogen bonds: two between A and T, and three between C and G.",
+        "Each pair is one purine with one pyrimidine, so every rung is the same width and the ladder stays an even shape.",
+        "The bases in a pair are held together by hydrogen bonds (weak attractions between molecules): two between A and T, and three between C and G.",
         "Each hydrogen bond is weak, so the strands can be separated, or unzipped, when DNA is copied or read. There are millions of hydrogen bonds, so the molecule as a whole is stable.",
         "The two linked strands are twisted around each other into a spiral called a double helix, like a twisted ladder.",
         "Because pairing is fixed, the two strands are complementary: the sequence of one strand decides the sequence of the other. For example, the strand ATGCCTAG pairs with TACGGATC.",
-        "Base-pairing calculations: in double-stranded DNA the amount of A equals the amount of T, and C equals G. For example, if 20% of the bases in a DNA sample are adenine, then 20% are thymine, leaving 60% shared equally between cytosine and guanine, so each is 30%.",
-        "Function of DNA: it stores the genetic information (genes) that controls the cell's activities by coding for proteins. It is copied before a cell divides, so each new cell receives the full set, and it is passed from parents to offspring. Genes and proteins are covered in Genes, proteins and traits.",
-        "In eukaryotic cells, DNA is found mostly in the nucleus, in the chromosomes, with small amounts in mitochondria and chloroplasts. In bacteria, DNA forms a loop in the cytoplasm and is also found in small rings called plasmids.",
-        "The double-helix model was published by James Watson and Francis Crick in 1953. It was based on X-ray diffraction images of DNA made by Rosalind Franklin, working with Maurice Wilkins.",
         "Diagram: a short section of DNA drawn as a straight ladder of about four base pairs, labelled sugar (deoxyribose), phosphate, sugar–phosphate backbone, base pairs A–T and C–G, and hydrogen bonds; with a sketch of the twisted double helix."
+      ],
+      "tip": "Bases pair A–T and C–G, never A–G or C–T. Exams ask you to name the base that pairs with a given base and to write a complementary strand, so work through each letter in turn. For the diagram, draw the ladder straight, label both backbones and show hydrogen bonds between the bases. Don't add antiparallel strands or 3′ and 5′ ends: they are not asked."
+    },
+    {
+      "h": "Base-pairing calculations",
+      "b": "Because A always pairs with T and C always pairs with G, the amounts of the bases in double-stranded DNA are linked. This lets you work out the percentage of every base from just one.",
+      "points": [
+        "In double-stranded DNA the amount of A equals the amount of T, and the amount of C equals the amount of G, because every A is paired with a T and every C with a G.",
+        "For example, if 20% of the bases in a DNA sample are adenine, then 20% are thymine. That leaves 60% shared equally between cytosine and guanine, so each is 30%."
+      ],
+      "tip": "Follow the same steps each time. Take the partner base (A = T), subtract both from 100%, then halve what is left for C and G."
+    },
+    {
+      "h": "What DNA does and where it is found",
+      "b": "The order of bases in DNA is the cell's set of instructions. DNA is kept in different places in different kinds of cell.",
+      "points": [
+        "DNA stores the genetic information (genes) that controls the cell's activities by coding for proteins. There is more on genes and proteins in Genes, proteins and traits.",
+        "DNA is copied before a cell divides, so each new cell receives the full set of information, which means that it is passed from parents to offspring.",
+        "In eukaryotic cells (cells with a nucleus), DNA is found mostly in the nucleus, in the chromosomes, with small amounts in mitochondria and chloroplasts.",
+        "In bacteria, DNA forms a loop in the cytoplasm and is also found in small rings called plasmids."
+      ],
+      "tip": "Exams ask where in a eukaryotic cell a molecule is found. DNA is in the nucleus, mitochondria and chloroplasts. The ribosomes, and the cytoplasm outside those organelles, contain RNA but no DNA."
+    },
+    {
+      "h": "Discovering the double helix",
+      "b": "The structure of DNA was worked out by combining physical evidence with model building. It is a good example of how scientists build on each other's data.",
+      "points": [
+        "The double-helix model was published by James Watson and Francis Crick in 1953. It was based on X-ray diffraction images of DNA (patterns made when X-rays pass through DNA, which reveal its shape) made by Rosalind Franklin, working with Maurice Wilkins."
       ]
     },
     {
       "h": "RNA",
+      "b": "DNA stays safe in the nucleus, so the cell needs a working copy of its instructions to take out and use. That working copy is RNA, a similar molecule with a few key differences.",
       "points": [
         "RNA is usually single-stranded: one chain of nucleotides with its own sugar–phosphate backbone. RNA molecules are much shorter than DNA molecules.",
         "RNA nucleotides contain ribose instead of deoxyribose, and uracil instead of thymine. Uracil pairs with adenine (A–U) whenever RNA pairs with DNA or with another RNA.",
         "A single strand can fold back on itself where its bases pair up, giving some RNA molecules a fixed shape.",
-        "RNA uses the information in DNA to make proteins. The three main types are named here only: messenger RNA (mRNA) carries a copy of a gene from the nucleus to a ribosome; transfer RNA (tRNA) brings amino acids to the ribosome; ribosomal RNA (rRNA) forms part of the ribosome. Their roles are covered in DNA Replication, Protein Synthesis and Mutations.",
-        "RNA is made in the nucleus and works in the cytoplasm. It is found in the nucleus (including the nucleolus), the cytoplasm and the ribosomes.",
+        "RNA uses the information in DNA to make proteins, so it acts as the go-between for DNA and the protein-making machinery.",
+        "Three main types of RNA are named here, with no more detail. Messenger RNA (mRNA) carries a copy of a gene from the nucleus to a ribosome (the structure that makes proteins).",
+        "Transfer RNA (tRNA) brings amino acids to the ribosome; ribosomal RNA (rRNA) forms part of the ribosome. There is more on this in DNA Replication, Protein Synthesis and Mutations.",
+        "RNA is made in the nucleus and works in the cytoplasm, so it carries information out to where proteins are made. It is found in the nucleus (including the nucleolus), the cytoplasm and the ribosomes.",
         "Diagram: a short single RNA strand of about four nucleotides, labelled ribose, phosphate, backbone and bases, including uracil."
-      ]
+      ],
+      "tip": "Uracil is never in DNA and thymine is never in RNA. RNA pairs A–U. When asked where in a eukaryotic cell RNA but no DNA is found, answer the ribosomes and the cytoplasm, because the DNA in the cytoplasm is only inside mitochondria and chloroplasts."
     },
     {
       "h": "DNA and RNA compared",
+      "b": "Put side by side, DNA and RNA differ in structure, stability and job. The differences fit their roles: DNA is a long-term store and RNA is a short-lived working copy.",
       "points": [
-        "Strands: DNA is a double-stranded helix; RNA is usually single-stranded.",
+        "Strands: DNA is a double-stranded helix, which suits long-term storage; RNA is usually single-stranded.",
         "Sugar: DNA contains deoxyribose; RNA contains ribose.",
         "Bases: DNA has A, T, C and G; RNA has A, U, C and G, with uracil instead of thymine.",
         "Pairing: A–T in DNA; A–U in RNA.",
-        "Size and life span: DNA is very long and stable and is kept for the life of the cell; RNA molecules are shorter and are broken down after use.",
+        "Size and life span: DNA is very long and stable and is kept for the life of the cell; RNA molecules are shorter and are broken down after use, so each copy is only a temporary message.",
         "Location: DNA is mainly in the nucleus, with some in mitochondria and chloroplasts; RNA is in the nucleus, the cytoplasm and the ribosomes.",
         "Function: DNA stores the genetic information; RNA carries and uses that information to make proteins."
-      ]
+      ],
+      "tip": "When asked for structural differences, give three that are easy to mark: strands (double or single), sugar (deoxyribose or ribose) and base (thymine or uracil)."
     }
   ],
   "keyTerms": [

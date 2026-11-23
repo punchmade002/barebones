@@ -6,81 +6,91 @@
   "notes": [
     {
       "h": "How earthquakes happen",
-      "b": "An earthquake is a sudden shaking of the ground caused by the release of stress built up in the crust.",
+      "b": "An earthquake is a sudden shaking of the ground caused by the release of stress (the squeezing, stretching or shearing force) built up in the crust, the Earth's rocky outer layer. It happens in four steps, which together make a repeating cycle.",
       "points": [
-        "1. Plates moving past, towards or away from each other lock together by friction.",
-        "2. Stress builds up in the rocks around the locked boundary.",
-        "3. When the stress exceeds the strength of the rock, the rock fractures or slips suddenly along a fault.",
-        "4. The stored energy is released as seismic waves.",
-        "This cycle of locking, stress build-up and sudden release is called elastic rebound.",
-        "Foreshocks are smaller tremors before the main shock. Aftershocks are tremors after it, and can bring down weakened buildings."
-      ]
+        "1. Plates (the huge slabs of crust) moving past, towards or away from each other lock together by friction, because their rough edges grip and cannot slide.",
+        "2. Stress builds up in the rocks around the locked boundary, because the plates keep moving while the edges stay stuck.",
+        "3. When the stress exceeds the strength of the rock, the rock fractures or slips suddenly along a fault (a crack in the crust along which rock can move).",
+        "4. The stored energy is released as seismic waves, which are vibrations that travel through the Earth and shake the ground.",
+        "This cycle of locking, stress build-up and sudden release is called elastic rebound: the rock stores energy like a bent stick, then snaps back.",
+        "Foreshocks are smaller tremors before the main shock. Aftershocks are tremors after it, and can bring down buildings already weakened by the main shock."
+      ],
+      "tip": "To explain how an earthquake occurs, give the sequence: plates lock by friction, stress builds, the rock fractures or slips along a fault, and the energy is released as seismic waves."
     },
     {
       "h": "Focus, epicentre and fault",
+      "b": "Four key terms describe where an earthquake starts and how its energy spreads. Learn which is underground and which is on the surface.",
       "points": [
-        "Focus (hypocentre): the point inside the crust where the rupture begins.",
+        "Focus (hypocentre): the point inside the crust where the rupture begins, so it is always underground.",
         "Epicentre: the point on the surface directly above the focus, where shaking is usually strongest.",
         "Fault (fault line): the fracture along which the rocks move.",
-        "Seismic (shock) waves: waves of energy spreading out from the focus.",
-        "Diagram: cross-section showing the fault, the focus below ground, seismic waves spreading out, and the epicentre on the surface directly above the focus."
-      ]
+        "Seismic (shock) waves: waves of energy spreading out from the focus in all directions.",
+        "Diagram: draw a cross-section showing the fault, the focus below ground, seismic waves spreading out, and the epicentre on the surface directly above the focus.",
+        "Depth matters: a shallow-focus earthquake causes more surface damage than a deep-focus one of the same magnitude (the energy released), because the waves have less rock to travel through before reaching the surface."
+      ],
+      "tip": "The focus is underground and the epicentre is on the surface directly above it; never swap them. Diagram questions ask you to match focus, epicentre, fault line and seismic waves, and you may be asked to explain focus and epicentre or what a fault zone is."
     },
     {
       "h": "Seismic waves",
+      "b": "Seismic waves travel at different speeds and in different ways, so they arrive at a recording station one after another. Each type has a different effect.",
       "points": [
-        "P (primary) waves are the fastest seismic waves and arrive first.",
+        "P (primary) waves are the fastest seismic waves, so they arrive first.",
         "S (secondary) waves are slower than P waves and arrive second.",
-        "Surface waves travel along the surface, arrive last and cause most of the damage."
+        "Surface waves travel along the surface, arrive last and cause most of the damage, because they shake the ground and the buildings on it."
       ]
     },
     {
       "h": "Recording and locating earthquakes",
+      "b": "Scientists can record seismic waves with an instrument and use the records from several places to pinpoint where an earthquake struck.",
       "points": [
-        "A seismograph (seismometer) detects and records seismic waves; the record is a seismogram.",
+        "A seismograph (seismometer) is the instrument that detects and records seismic waves; the record it produces is a seismogram.",
         "A barometer measures air pressure and is not an earthquake instrument.",
-        "Seismic stations record the arrival times of P and S waves. The gap between them shows the distance to the earthquake.",
-        "Three or more stations locate the epicentre by triangulation."
-      ]
+        "Seismic stations (places where seismographs are installed) record the arrival times of P and S waves. The gap between the two arrivals shows the distance to the earthquake, because the waves travel at different speeds.",
+        "Three or more stations locate the epicentre by triangulation: each station gives a distance, and the epicentre is where the three distances meet."
+      ],
+      "tip": "Name the instrument as the seismograph. A barometer is a true/false trap, as it measures air pressure. You may also be asked the function of a seismic station: it records the arrival times of P and S waves."
     },
     {
       "h": "Magnitude and intensity",
+      "b": "Earthquakes are measured in two different ways: how much energy they release, and how much damage they do at a particular place. Two different scales do these jobs.",
       "points": [
         "The Richter scale measures magnitude, the energy released, from the size of the waves on a seismogram.",
-        "The Richter scale is logarithmic: each whole number up means ten times the wave amplitude and about 30 times more energy.",
+        "The Richter scale is logarithmic (each step is a multiplication, not an addition): each whole number up means ten times the wave amplitude (the height of the wave) and about 30 times more energy.",
         "The moment magnitude scale is the modern replacement for large earthquakes. Either scale is an accepted answer for a scale that measures magnitude.",
         "The modified Mercalli scale measures intensity, the observed effects and damage at a place, on a scale of I to XII.",
-        "Intensity varies from place to place for one earthquake; magnitude does not."
-      ]
+        "Intensity varies from place to place for one earthquake, because shaking is weaker far from the epicentre; magnitude does not vary, because it is the energy released at the source."
+      ],
+      "tip": "Richter and moment magnitude measure magnitude; Mercalli measures intensity (effects). When you give the Richter jump, say what is ten times (the wave amplitude) and that energy is about 30 times more; do not just say ten times stronger."
     },
     {
       "h": "Where earthquakes occur",
-      "b": "Most earthquakes occur in narrow belts along plate boundaries.",
+      "b": "Most earthquakes occur in narrow belts along plate boundaries, the lines where plates meet, because that is where plates lock and then slip. Each boundary type produces a different kind of earthquake.",
       "points": [
-        "The Pacific Ring of Fire has about 90% of the world's earthquakes, including most of the most powerful ones.",
+        "The Pacific Ring of Fire, the horseshoe of plate boundaries around the Pacific Ocean, has about 90% of the world's earthquakes, including most of the most powerful ones.",
         "Ireland lies in the middle of the Eurasian plate, far from a boundary, so it has only rare, minor tremors."
-      ]
+      ],
+      "tip": "The region where most earthquakes occur is the Ring of Fire. Questions may ask you to name plates on a map, and at Higher Level to explain how plate tectonics accounts for the global distribution of earthquakes, so give the cause for each boundary type below."
     },
     {
       "h": "Earthquakes at constructive boundaries",
       "b": "Where plates separate, the crust is pulled apart and rocks fracture.",
       "points": [
-        "Earthquakes are frequent, shallow and generally weaker.",
-        "They occur along mid-ocean ridges and in Iceland, which lies on the Mid-Atlantic Ridge."
+        "Earthquakes are frequent, shallow and generally weaker, because the rock is stretched and breaks before much stress can build.",
+        "They occur along mid-ocean ridges (underwater mountain chains where plates move apart) and in Iceland, which lies on the Mid-Atlantic Ridge."
       ]
     },
     {
       "h": "Earthquakes at destructive boundaries",
-      "b": "Where one plate is subducted beneath another, the sinking plate generates earthquakes at a range of depths.",
+      "b": "Where one plate is subducted (forced down) beneath another, the sinking plate generates earthquakes at a range of depths.",
       "points": [
         "These are the most powerful earthquakes; foci range from shallow to very deep along the sinking plate.",
-        "Undersea earthquakes at subduction zones can cause tsunamis.",
+        "Undersea earthquakes at subduction zones (where one plate sinks under another) can cause tsunamis, which are giant sea waves.",
         "Examples: Japan; Chile; Sumatra, Indonesia."
       ]
     },
     {
       "h": "Earthquakes at collision boundaries",
-      "b": "Where continental plates collide, rocks are crushed and folded into fold mountains.",
+      "b": "Where continental plates collide, neither sinks easily, so rocks are crushed and folded into fold mountains (mountain ranges formed by crumpled rock).",
       "points": [
         "Collision boundaries produce powerful, shallow earthquakes in fold-mountain belts, such as the Himalayas.",
         "Nepal, 25 April 2015: magnitude 7.8, from the collision of the Indian and Eurasian plates. About 9,000 people died. Kathmandu was severely damaged, and the earthquake triggered avalanches on Mount Everest."
@@ -88,77 +98,88 @@
     },
     {
       "h": "Earthquakes at transform boundaries",
-      "b": "At transform (conservative) boundaries plates slide past each other. The plates stick, then slip suddenly.",
+      "b": "At transform (conservative) boundaries plates slide past each other. The plates stick, then slip suddenly, which is the locking and release of elastic rebound.",
       "points": [
         "These earthquakes are shallow and often very damaging.",
         "San Andreas Fault, California: the Pacific plate and North American plate slide past each other.",
         "San Francisco, 18 April 1906: magnitude about 7.8, with about 3,000 deaths. Fires from broken gas mains burned for days and destroyed much of the city.",
         "Loma Prieta, 1989: magnitude 6.9, near San Francisco, on the San Andreas system.",
         "East Anatolian Fault, Turkey, a transform fault: on 6 February 2023 a magnitude 7.8 earthquake killed over 50,000 people in Turkey and Syria, and many apartment blocks collapsed."
-      ]
+      ],
+      "tip": "Examples to name for places where earthquakes have occurred include the San Andreas Fault and the East Anatolian Fault; keep the figures exactly as given here."
     },
     {
       "h": "Primary effects of earthquakes",
-      "b": "Primary effects are caused directly by the shaking.",
+      "b": "Primary effects are caused directly by the shaking. They happen during the earthquake itself.",
       "points": [
-        "Building and bridge collapse, deaths and injuries, and ground rupture.",
+        "Building and bridge collapse, deaths and injuries, and ground rupture (the ground splitting open along the fault).",
         "Broken gas, water and power lines, and damaged roads and railways."
-      ]
+      ],
+      "tip": "Questions on the main effects of earthquakes ask you to separate primary effects (direct from the shaking) from secondary effects (which follow on)."
     },
     {
       "h": "Secondary effects of earthquakes",
-      "b": "Secondary effects follow from the shaking.",
+      "b": "Secondary effects follow from the shaking, as knock-on hazards set off by the damage it causes.",
       "points": [
-        "Fires from broken gas mains and power lines.",
-        "Tsunamis: the Tōhoku earthquake of 11 March 2011, magnitude 9.0 off north-east Japan, sent a tsunami that overtopped sea walls. About 18,000 people were killed or are missing, and the tsunami caused meltdowns at the Fukushima Daiichi nuclear power plant.",
-        "Landslides.",
-        "Liquefaction: saturated soft sediment behaves like a liquid, so buildings sink or topple.",
+        "Fires from broken gas mains and power lines, because leaking gas and sparks ignite easily.",
+        "Tsunamis: the Tōhoku earthquake of 11 March 2011, magnitude 9.0 off north-east Japan, sent a tsunami that overtopped sea walls. About 18,000 people were killed or are missing.",
+        "That tsunami also caused meltdowns at the Fukushima Daiichi nuclear power plant.",
+        "Landslides, as shaking brings down loose slopes.",
+        "Liquefaction: saturated soft sediment (soil full of water) behaves like a liquid, so buildings sink or topple.",
         "Christchurch, New Zealand, 22 February 2011: magnitude 6.3, 185 deaths, widespread liquefaction, and the cathedral spire collapsed.",
         "Disease from contaminated water, homelessness and economic losses."
-      ]
+      ],
+      "tip": "Liquefaction and landslide can appear as effects in diagram-matching questions. Do not confuse Kobe 1995 with Tōhoku 2011."
     },
     {
       "h": "Factors affecting the damage",
+      "b": "Two earthquakes of the same magnitude can do very different damage. The outcome depends on the earthquake itself, on the ground, and on the people and buildings in its path.",
       "points": [
         "Magnitude: larger earthquakes release more energy.",
         "Depth of focus: a shallow-focus earthquake causes more surface damage than a deep-focus one of the same magnitude.",
         "Distance from the epicentre.",
         "Rock and soil type: soft sediment shakes more and can liquefy.",
         "Population density, and the time of day.",
-        "Building quality and building codes.",
+        "Building quality and building codes (the rules a building must follow).",
         "Level of development and preparedness: wealth to prepare, respond and rebuild.",
-        "Haiti, 12 January 2010: magnitude 7.0 near Port-au-Prince. Poorly built concrete buildings collapsed, and the country had little capacity to respond. Estimates of the death toll vary widely, all over 100,000."
-      ]
+        "Haiti, 12 January 2010: magnitude 7.0 near Port-au-Prince. Poorly built concrete buildings collapsed, and the country, a poor one, had little capacity to respond. Estimates of the death toll vary widely, all over 100,000."
+      ],
+      "tip": "Use Haiti to contrast with richer, better prepared countries. Give the death toll as over 100,000 and say that estimates vary; do not give one precise figure."
     },
     {
       "h": "Case study: Kobe, Japan, 1995 (setting and cause)",
+      "b": "Kobe shows how a moderate-magnitude earthquake with a shallow focus, close to a big city, can be devastating. Begin a case-study answer with the date, place, plate setting and magnitude.",
       "points": [
         "Place: the Great Hanshin earthquake, Kobe, Japan, 17 January 1995. Its epicentre was near the northern tip of Awaji Island, and its focus was shallow.",
         "Magnitude 6.9 on the moment magnitude scale.",
         "Kobe lies near where the Philippine Sea plate is subducted beneath the Eurasian plate. The rupture was on a fault close to the city."
-      ]
+      ],
+      "tip": "Name the scale with the figure: 6.9 is on the moment magnitude scale. Do not give both 6.9 and 7.3 as if they disagreed. Case-study answers need the date, place, plate setting, magnitude, effects and response."
     },
     {
       "h": "Case study: Kobe, Japan, 1995 (effects and response)",
+      "b": "The shallow focus and the closeness of the fault to the city meant strong shaking in a built-up area, and weak points in the city's buildings and ground showed up quickly.",
       "points": [
-        "Elevated sections of the Hanshin Expressway toppled over.",
-        "Many older wooden houses with heavy tiled roofs collapsed.",
-        "Fires from broken gas mains burned large areas.",
-        "Liquefaction badly damaged the port, which was built on reclaimed land.",
+        "Elevated sections of the Hanshin Expressway toppled over, cutting a major road route.",
+        "Many older wooden houses with heavy tiled roofs collapsed, because the heavy roofs sat on weak frames.",
+        "Fires from broken gas mains burned large areas, because the shaking broke the pipes.",
+        "Liquefaction badly damaged the port, which was built on reclaimed land (land made by filling in the sea, so the ground is loose and wet).",
         "About 6,400 people died, and about 300,000 were left homeless.",
-        "Response: the government faced criticism for a slow response. Stricter building codes and retrofitting followed."
+        "Response: the government faced criticism for a slow response. Stricter building codes and retrofitting (strengthening existing buildings) followed."
       ]
     },
     {
       "h": "Case study: Indian Ocean, 26 December 2004 (cause and tsunami)",
+      "b": "This was an undersea earthquake at a subduction zone, and the seabed movement triggered a tsunami.",
       "points": [
         "Place: off the west coast of northern Sumatra, Indonesia. Magnitude 9.1.",
         "The Indo-Australian plate is subducted beneath the Burma plate. The seabed was thrust upwards, displacing the ocean and causing a tsunami.",
-        "There was no tsunami warning system in the Indian Ocean at the time."
+        "There was no tsunami warning system in the Indian Ocean at the time, so coastal people had no advance alert."
       ]
     },
     {
       "h": "Case study: Indian Ocean, 26 December 2004 (effects and response)",
+      "b": "The tsunami crossed the ocean and struck many countries, which is why the death toll was so high.",
       "points": [
         "About 230,000 people died in 14 countries.",
         "The worst-hit area was Banda Aceh, Sumatra. Sri Lanka, India and Thailand were also badly hit.",
@@ -169,47 +190,54 @@
       "h": "Predicting earthquakes",
       "b": "Earthquakes cannot be predicted precisely: their exact time, place and magnitude are not known. Scientists identify where they are likely and estimate how often they occur.",
       "points": [
-        "Mapping active faults and plate boundaries.",
-        "Studying the history and frequency of past earthquakes.",
+        "Mapping active faults and plate boundaries, to show where earthquakes are likely.",
+        "Studying the history and frequency of past earthquakes, to estimate how often they occur.",
         "Seismic gap theory: a section of an active fault that has not moved for a long time has the most stored stress and is the most likely to slip next.",
-        "Monitoring foreshocks, ground deformation (GPS, tiltmeters and laser measurements across faults), radon gas release and changes in well-water levels.",
-        "Unusual animal behaviour is anecdotal and unreliable as a warning."
-      ]
+        "Monitoring foreshocks, ground deformation (GPS, tiltmeters and laser measurements across faults), radon gas release and changes in well-water levels. Tiltmeters measure small changes in the slope of the ground.",
+        "Unusual animal behaviour is anecdotal (based on reports, not tested evidence) and unreliable as a warning."
+      ],
+      "tip": "State first that earthquakes cannot be predicted precisely, then give the methods that show where and how often they are likely."
     },
     {
       "h": "Successes and failures of prediction",
+      "b": "Three examples show how prediction and warning have worked, failed, and led to legal trouble.",
       "points": [
         "Haicheng, China, 4 February 1975: after foreshocks, the city was evacuated hours before a magnitude 7.3 earthquake, saving many lives.",
         "Tangshan, China, 28 July 1976: no warning was given, and the official death toll was about 240,000.",
-        "L'Aquila, Italy, 6 April 2009: magnitude 6.3, about 300 deaths. In 2012 six scientists and an official were convicted of manslaughter for reassuring the public before the quake. The scientists were acquitted on appeal in 2014."
+        "L'Aquila, Italy, 6 April 2009: magnitude 6.3, about 300 deaths. In 2012 six scientists and an official were convicted of manslaughter for reassuring the public before the quake.",
+        "The scientists were acquitted on appeal in 2014."
       ]
     },
     {
       "h": "Early warning",
+      "b": "Prediction cannot give a time, but warning systems can give a short notice once an earthquake has started or a tsunami has been triggered.",
       "points": [
-        "Early-warning systems detect the fast P waves, giving seconds of warning before the destructive waves arrive.",
+        "Early-warning systems detect the fast P waves, giving seconds of warning before the destructive waves arrive, because P waves outrun the surface waves.",
         "Those seconds are enough to stop trains, shut off gas supplies and take cover.",
         "Japan has a national earthquake early-warning system.",
-        "Tsunami warning systems use seabed pressure sensors and buoys."
+        "Tsunami warning systems use seabed pressure sensors and buoys, so that a tsunami can be detected at sea, as in the Indian Ocean system set up after 2004."
       ]
     },
     {
       "h": "Earthquake-resistant buildings and infrastructure",
+      "b": "Buildings can be designed to survive shaking, which limits deaths and damage. Each measure either stops a building from being shaken or lets it move without breaking.",
       "points": [
-        "Deep foundations anchored to bedrock.",
+        "Deep foundations anchored to bedrock (solid rock below the soil), so the building does not sit on soft ground.",
         "Base isolation: rubber and steel bearings or rollers under the building, so the ground moves beneath it.",
-        "Flexible steel or reinforced-concrete frames that sway rather than crack, with cross-bracing and shear walls.",
-        "Counterweights (tuned mass dampers) in tall buildings. Taipei 101, Taiwan, has a giant tuned mass damper, a steel ball hung near the top.",
-        "Automatic shut-off valves on gas mains, and flexible joints on pipes.",
-        "Retrofitting older buildings."
-      ]
+        "Flexible steel or reinforced-concrete frames that sway rather than crack, with cross-bracing and shear walls (extra supports that stiffen the structure).",
+        "Counterweights (tuned mass dampers) in tall buildings, which swing against the shaking. Taipei 101, Taiwan, has a giant tuned mass damper, a steel ball hung near the top.",
+        "Automatic shut-off valves on gas mains, and flexible joints on pipes, so pipes bend rather than break and gas does not leak.",
+        "Retrofitting older buildings, which means strengthening them to modern standards."
+      ],
+      "tip": "You may be asked for one or two ways to make infrastructure earthquake-proof or limit damage. Name the method and say how it works, for example base isolation lets the ground move beneath the building."
     },
     {
       "h": "Planning and preparedness",
+      "b": "Preparing people and places before an earthquake reduces harm even when the earthquake itself cannot be stopped or predicted.",
       "points": [
-        "Strict building codes, and land-use planning that avoids soft ground and fault lines.",
+        "Strict building codes, so that new buildings can survive shaking, and land-use planning that avoids soft ground (which shakes more and can liquefy) and fault lines.",
         "Emergency drills, education and emergency supplies.",
-        "Tsunami walls and evacuation routes.",
+        "Tsunami walls and evacuation routes, so that people near the coast can get to safety, for example in Japan, where the Tōhoku tsunami overtopped sea walls.",
         "Japan holds national Disaster Prevention Day drills each 1 September, the anniversary of the 1923 Great Kanto earthquake."
       ]
     }

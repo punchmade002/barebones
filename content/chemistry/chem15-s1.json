@@ -6,151 +6,180 @@
   "notes": [
     {
       "h": "Redox titrations",
+      "b": "A titration (adding one solution from a burette to a measured volume of another until they have exactly reacted) can be used for redox reactions as well as acid–base ones. Here the reaction involves transfer of electrons between an oxidising agent and a reducing agent.",
       "points": [
         "A redox titration finds the concentration of an oxidising or reducing agent by titrating it against a reducing or oxidising agent of known concentration.",
-        "The mole ratio used in the calculation comes from the balanced redox equation.",
-        "The apparatus and technique are the same as in “Acid–base titrations”: pipette, burette, conical flask and white tile, with rough and accurate titrations agreeing within 0.1 cm³.",
-        "The end point is shown either by the colour of one of the reagents themselves (self-indicating, as with potassium manganate(VII)) or by an indicator (starch in iodine–thiosulfate titrations).",
+        "The mole ratio used in the calculation comes from the balanced redox equation, so you must be able to write or recall the equation for each reaction.",
+        "The apparatus and technique are the same as in acid–base titrations: pipette, burette, conical flask and white tile, with rough and accurate titrations agreeing within 0.1 cm³.",
+        "The end point (the moment the reaction is exactly complete) is shown either by the colour of one of the reagents themselves (self-indicating, as with potassium manganate(VII)) or by an indicator (starch in iodine–thiosulfate titrations).",
         "The two redox titrations in the specification are potassium manganate(VII) with iron(II), and iodine with sodium thiosulfate."
-      ]
+      ],
+      "tip": "pH curves are not used for redox titrations. The end point is found by a colour change, either of a reagent or of an indicator."
     },
     {
       "h": "Potassium manganate(VII)",
+      "b": "Potassium manganate(VII) is the oxidising agent in the first redox titration. Its strong colour is useful, but its instability means it can never be made up by weighing alone.",
       "points": [
-        "Potassium manganate(VII), KMnO₄ (potassium permanganate), is a dark purple solid; its solution is an intense purple and it is a strong oxidising agent.",
+        "Potassium manganate(VII), KMnO₄ (potassium permanganate), is a dark purple solid; its solution is an intense purple and it is a strong oxidising agent (it readily takes electrons from other substances).",
         "It is usually used at about 0.01–0.02 mol L⁻¹.",
-        "It is not a primary standard: it can't be obtained pure, and its solution slowly decomposes in light and in the presence of traces of organic matter, depositing brown MnO₂, so its concentration changes.",
-        "It is therefore standardised against ammonium iron(II) sulfate shortly before use."
-      ]
+        "It is not a primary standard (a substance pure and stable enough to make a solution of exactly known concentration by weighing): it can't be obtained pure.",
+        "Its solution slowly decomposes in light and in the presence of traces of organic matter, depositing brown MnO₂, so its concentration changes.",
+        "It is therefore standardised (its concentration found by titration) against ammonium iron(II) sulfate shortly before use."
+      ],
+      "tip": "Exams ask why KMnO₄ must be standardised, and why just before use, and what primary standard is used for it: ammonium iron(II) sulfate."
     },
     {
       "h": "Reaction with iron(II)",
+      "b": "In acidic solution, permanganate takes electrons from iron(II). Knowing the half-equations gives the 1 : 5 mole ratio on which every calculation in this subsection rests.",
       "points": [
-        "In acidic solution MnO₄⁻ is reduced to the almost colourless manganese(II) ion: MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O(l), with manganese changing from +7 to +2.",
-        "Iron(II) is oxidised: Fe²⁺(aq) → Fe³⁺(aq) + e⁻.",
-        "Overall: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5.",
+        "In acidic solution MnO₄⁻ is reduced (gains electrons) to the almost colourless manganese(II) ion: MnO₄⁻(aq) + 8H⁺(aq) + 5e⁻ → Mn²⁺(aq) + 4H₂O(l), with manganese changing from +7 to +2 and the solution going from purple to colourless.",
+        "Iron(II) is oxidised (loses an electron): Fe²⁺(aq) → Fe³⁺(aq) + e⁻.",
+        "Overall: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5, because each MnO₄⁻ takes five electrons and each Fe²⁺ gives one.",
         "The Mn²⁺ ions produced catalyse the reaction (autocatalysis: a product of the reaction is its catalyst), so the first few drops are decolourised slowly and later drops almost at once."
       ]
     },
     {
       "h": "End point and reading the burette",
+      "b": "Permanganate acts as its own indicator, which makes the titration simple, but its deep colour changes how you read the burette.",
       "points": [
-        "Potassium manganate(VII) is self-indicating, so no indicator is added.",
+        "Potassium manganate(VII) is self-indicating (its own colour shows the end point), so no indicator is added.",
         "The KMnO₄ goes in the burette; each drop is decolourised while Fe²⁺ remains in the flask.",
-        "The end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻.",
-        "The solution is so deeply coloured that the bottom of the meniscus can't be seen, so read the top of the meniscus, consistently for both readings.",
+        "The end point is the first permanent pale pink colour, produced by the first drop of excess MnO₄⁻ once all the Fe²⁺ has been used up.",
+        "The solution is so deeply coloured that the bottom of the meniscus (the curved surface of the liquid) can't be seen, so read the top of the meniscus, consistently for both readings.",
         "Rinse the burette thoroughly after use, because permanganate leaves brown stains of MnO₂ on glass."
-      ]
+      ],
+      "tip": "Do not add an indicator with KMnO₄. The end point is a permanent pale pink, not deep purple, and you read the top of the meniscus."
     },
     {
       "h": "Acidifying the permanganate titration",
+      "b": "The reduction of MnO₄⁻ to Mn²⁺ uses up H⁺ ions, so the flask must contain excess acid. The choice of acid matters, because the wrong one reacts with the permanganate or the iron(II).",
       "points": [
         "Excess dilute sulfuric acid is added to the flask to supply the H⁺ ions needed for the reduction.",
         "With too little acid, MnO₄⁻ is reduced only to manganese(IV) oxide, forming a brown precipitate: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂(s) + 4OH⁻, with manganese changing from +7 to +4.",
         "With too little acid the ratio is no longer 1 : 5 and the end point can't be seen.",
         "Hydrochloric acid is not used, because MnO₄⁻ oxidises Cl⁻ to chlorine, using up extra permanganate.",
         "Nitric acid is not used, because it is itself an oxidising agent and would oxidise some of the Fe²⁺."
-      ]
+      ],
+      "tip": "Acidify with dilute sulfuric acid only, never HCl or HNO₃. A brown precipitate means too little acid was added."
     },
     {
       "h": "Ammonium iron(II) sulfate as the standard",
+      "b": "To find the concentration of permanganate you need an iron(II) solution of exactly known concentration. Ammonium iron(II) sulfate is the salt used to make it.",
       "points": [
         "Ammonium iron(II) sulfate hexahydrate, (NH₄)₂SO₄·FeSO₄·6H₂O, also written (NH₄)₂Fe(SO₄)₂·6H₂O, has M = 392 g mol⁻¹ and forms pale green crystals.",
         "It is a double salt: ammonium sulfate and iron(II) sulfate crystallise together in a fixed ratio in one crystal.",
-        "Its standard solution is made up as in “Solutions and concentration”, with the crystals dissolved in deionised water and some dilute sulfuric acid added.",
-        "The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen."
-      ]
+        "Its standard solution (one of accurately known concentration) is made up by dissolving a weighed mass in a volumetric flask, with the crystals dissolved in deionised water and some dilute sulfuric acid added.",
+        "The acid stops Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen, which would make the solution weaker than calculated."
+      ],
+      "tip": "Exams ask why dilute sulfuric acid is used in making up this solution (to stop oxidation by dissolved oxygen) and why more acid is added to the flask before each titration (to supply H⁺ for the permanganate)."
     },
     {
       "h": "Why ammonium iron(II) sulfate is a primary standard",
+      "b": "A primary standard must give a known amount of substance from a weighed mass. Ammonium iron(II) sulfate does, whereas plain iron(II) sulfate does not.",
       "points": [
-        "It can be obtained very pure.",
-        "It is stable in air: the solid is not oxidised by air, does not absorb water and does not lose its water of crystallisation.",
+        "It can be obtained very pure, so the weighed mass is all the compound.",
+        "It is stable in air: the solid is not oxidised by air, does not absorb water and does not lose its water of crystallisation (water locked into the crystal), so its formula stays fixed.",
         "It is soluble and has a high molar mass, so weighing errors are a small percentage of the mass weighed.",
         "Iron(II) sulfate itself is not used: its crystals are oxidised by air to iron(III) and their water content varies, so a weighed mass does not correspond to a known amount of Fe²⁺."
-      ]
+      ],
+      "tip": "Exams ask for the properties that make it a primary standard: very pure, stable in air, soluble and of high molar mass."
     },
     {
       "h": "Standardising potassium manganate(VII): procedure",
+      "b": "Standardising means titrating permanganate against the standard iron(II) solution to find its true concentration. Do this shortly before the permanganate is used.",
       "points": [
-        "Pipette 25.0 cm³ of the standard ammonium iron(II) sulfate solution into a conical flask.",
-        "Add about 20 cm³ of dilute sulfuric acid with a graduated cylinder; its volume does not need to be exact.",
-        "Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour.",
-        "Repeat until two titres agree within 0.1 cm³.",
+        "1. Pipette 25.0 cm³ of the standard ammonium iron(II) sulfate solution into a conical flask.",
+        "2. Add about 20 cm³ of dilute sulfuric acid (an excess) with a graduated cylinder; its volume does not need to be exact, because the acid is in excess and is not being measured.",
+        "3. Titrate with the KMnO₄ solution from the burette, swirling, until one drop gives a permanent pale pink colour.",
+        "4. Repeat until two titres (the volumes of solution added from the burette) agree within 0.1 cm³.",
         "Diagram: pipette with its filler, labelled with the graduation mark at 25.0 cm³.",
         "Diagram: graduated cylinder marked in cm³, labelled with the scale used to measure the sulfuric acid.",
         "Diagram: burette of purple KMnO₄ above a conical flask on a white tile, labelled with the burette tap and the top of the meniscus."
-      ]
+      ],
+      "tip": "A 12-mark style question asks you to describe this standardisation and explain why acid is used, how the end point is detected and what is seen with too little acid (a brown precipitate)."
     },
     {
       "h": "Sample calculation: standardising potassium manganate(VII) (sample data)",
+      "b": "The titre gives the moles of permanganate. Dividing the moles of Fe²⁺ by 5 gives the moles of MnO₄⁻, from the 1 : 5 ratio, and then the concentration.",
       "points": [
         "Data: 25.0 cm³ of 0.0500 mol L⁻¹ ammonium iron(II) sulfate needs a mean titre of 24.4 cm³ of KMnO₄.",
         "Moles Fe²⁺ = 0.0500 mol L⁻¹ × 0.0250 L = 1.25 × 10⁻³ mol.",
         "Moles MnO₄⁻ = 1.25 × 10⁻³ mol ÷ 5 = 2.50 × 10⁻⁴ mol, since MnO₄⁻ : Fe²⁺ = 1 : 5.",
         "Concentration of KMnO₄ = 2.50 × 10⁻⁴ mol ÷ 0.0244 L = 0.0102 mol L⁻¹."
-      ]
+      ],
+      "tip": "Exams ask for concentrations in mol L⁻¹ and g L⁻¹. Use M(KMnO₄) = 158 g mol⁻¹ to convert."
     },
     {
       "h": "Iodine and sodium thiosulfate: reagents",
+      "b": "The second redox titration uses sodium thiosulfate as the reducing agent and iodine as the oxidising agent. Neither is a primary standard, so each needs care.",
       "points": [
         "Sodium thiosulfate, Na₂S₂O₃·5H₂O (M = 248 g mol⁻¹), is a colourless crystalline solid and a reducing agent.",
         "The thiosulfate ion, S₂O₃²⁻, is like a sulfate ion with one oxygen replaced by sulfur; “thio” means sulfur.",
         "Sodium thiosulfate is not a primary standard: its crystals are efflorescent, losing water of crystallisation to the air, so their exact formula and the mass of thiosulfate are uncertain.",
         "Its solution is therefore standardised against iodine made from a standard oxidising agent.",
-        "Iodine is not a primary standard either: it sublimes slowly at room temperature, so it cannot be weighed accurately, and it is almost insoluble in water."
+        "Iodine is not a primary standard either: it sublimes slowly at room temperature (turns from solid to vapour), so it cannot be weighed accurately, and it is almost insoluble in water."
       ]
     },
     {
       "h": "Dissolving iodine and the titration reaction",
+      "b": "Iodine barely dissolves in water, so it is dissolved with potassium iodide. The resulting red-brown solution is then titrated with thiosulfate.",
       "points": [
         "Iodine is brought into solution with potassium iodide: I₂ + I⁻ ⇌ I₃⁻.",
         "The tri-iodide ion is charged, so it dissolves in water; the solution behaves as a solution of iodine and is red-brown.",
         "Titration reaction: I₂(aq) + 2S₂O₃²⁻(aq) → 2I⁻(aq) + S₄O₆²⁻(aq), so I₂ : S₂O₃²⁻ = 1 : 2.",
         "Iodine is the oxidising agent; thiosulfate is the reducing agent and is oxidised to the tetrathionate ion, S₄O₆²⁻.",
         "The iodine solution is pipetted into the conical flask and the thiosulfate is in the burette."
-      ]
+      ],
+      "tip": "Exams ask how iodine is brought into aqueous solution (with potassium iodide, forming I₃⁻) and how 25.0 cm³ of iodine solution is pipetted."
     },
     {
       "h": "Colour change and the starch indicator",
+      "b": "Unlike permanganate, this titration needs an indicator for a sharp end point. Starch is used, but only at the right moment.",
       "points": [
         "As thiosulfate is added, the red-brown iodine fades to yellow and then to pale yellow (straw-coloured).",
-        "At pale yellow, add a few drops of freshly made starch solution, which turns blue-black.",
+        "At pale yellow, add a few drops of freshly made starch solution, which turns blue-black because of the starch–iodine complex.",
         "Add thiosulfate drop by drop until the blue-black colour just disappears, leaving a colourless solution: the end point.",
         "Starch is added only near the end point, because with a lot of iodine present, iodine binds strongly to the starch and is released only slowly, so the colour change would be gradual and the end point inaccurate.",
         "The pale yellow colour also shows that the end point is close."
-      ]
+      ],
+      "tip": "Add starch near the end point (pale yellow), not at the start. The end point is blue-black to colourless."
     },
     {
       "h": "Deionised water and uses of thiosulfate",
+      "b": "Water quality affects this titration, and thiosulfate's reducing power has uses outside the laboratory.",
       "points": [
-        "Use deionised water throughout, not tap water: tap water contains dissolved chlorine from water treatment, which oxidises iodide to extra iodine (Cl₂ + 2I⁻ → 2Cl⁻ + I₂).",
+        "Use deionised water throughout, not tap water: tap water contains dissolved chlorine from water treatment, which oxidises iodide to extra iodine (Cl₂ + 2I⁻ → 2Cl⁻ + I₂), so the titre would be too large.",
         "Sodium thiosulfate is used to remove excess chlorine from water, reducing it to harmless chloride ions.",
         "Sodium thiosulfate is the “fixer” (“hypo”) in film photography."
       ]
     },
     {
       "h": "Standardising sodium thiosulfate: procedure",
+      "b": "Thiosulfate is standardised against iodine that is made fresh from a standardised permanganate solution. Permanganate oxidises iodide to iodine, and the iodine is then titrated.",
       "points": [
-        "Pipette 25.0 cm³ of standardised KMnO₄ solution into a conical flask and add about 20 cm³ of dilute sulfuric acid.",
-        "Add an excess of potassium iodide, as solution or solid: the purple colour disappears and red-brown iodine forms: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.",
+        "1. Pipette 25.0 cm³ of standardised KMnO₄ solution into a conical flask and add about 20 cm³ of dilute sulfuric acid.",
+        "2. Add an excess of potassium iodide, as solution or solid: the purple colour disappears and red-brown iodine forms: 2MnO₄⁻ + 10I⁻ + 16H⁺ → 2Mn²⁺ + 5I₂ + 8H₂O.",
         "Potassium iodide is in excess for two reasons: so that all the MnO₄⁻ reacts, producing a known amount of iodine; and so that the iodine stays in solution as I₃⁻.",
-        "Titrate the liberated iodine with the thiosulfate solution by the starch method described above.",
+        "3. Titrate the liberated (released) iodine with the thiosulfate solution by the starch method: starch added at pale yellow, end point blue-black to colourless.",
         "Combined ratio: 2MnO₄⁻ → 5I₂ → 10S₂O₃²⁻, so MnO₄⁻ : S₂O₃²⁻ = 1 : 5."
-      ]
+      ],
+      "tip": "The ratio is 1 MnO₄⁻ : 5 S₂O₃²⁻ (via 2 : 5 : 10), not 1 : 2. Exams also ask why excess KI is used."
     },
     {
       "h": "Sample calculation: standardising sodium thiosulfate (sample data)",
+      "b": "Work through the chain of ratios one step at a time: permanganate to iodine, then iodine to thiosulfate.",
       "points": [
         "Data: 25.0 cm³ of 0.0200 mol L⁻¹ KMnO₄ liberates iodine that needs a mean titre of 25.3 cm³ of thiosulfate.",
         "Moles MnO₄⁻ = 0.0200 mol L⁻¹ × 0.0250 L = 5.00 × 10⁻⁴ mol.",
         "Moles I₂ = 5.00 × 10⁻⁴ mol × 5 ÷ 2 = 1.25 × 10⁻³ mol, since 2MnO₄⁻ gives 5I₂.",
         "Moles S₂O₃²⁻ = 2 × 1.25 × 10⁻³ mol = 2.50 × 10⁻³ mol, since I₂ : S₂O₃²⁻ = 1 : 2.",
         "Concentration of thiosulfate = 2.50 × 10⁻³ mol ÷ 0.0253 L = 0.0988 mol L⁻¹."
-      ]
+      ],
+      "tip": "Check you used 1 MnO₄⁻ : 5 S₂O₃²⁻ overall, not 1 : 2."
     },
     {
       "h": "Terms about water and crystals",
+      "b": "Three words describe how solids behave with water from the air. They explain why some substances can't be primary standards.",
       "points": [
         "Efflorescent: a hydrated crystal that loses some of its water of crystallisation to the air on standing, e.g. sodium thiosulfate pentahydrate and washing soda (Na₂CO₃·10H₂O).",
         "Hygroscopic: absorbs water vapour from the air without dissolving, e.g. concentrated sulfuric acid and silica gel.",
@@ -159,50 +188,58 @@
       ]
     },
     {
-      "h": "Safety",
+      "h": "Safety in redox titrations",
+      "b": "The reagents in these titrations are oxidising, staining or irritant, so protect your eyes, skin and clothes.",
       "points": [
         "Wear goggles: potassium manganate(VII) is an oxidising agent, is harmful, and stains skin and clothes.",
         "Dilute sulfuric acid is an irritant; iodine solution stains and is harmful.",
-        "Use a pipette filler."
+        "Use a pipette filler, so that no solution is drawn into the mouth."
       ]
     },
     {
-      "h": "Aim, hypothesis and chemistry",
+      "h": "Investigation: iron in iron tablets, aim and chemistry",
+      "b": "Iron tablets can be analysed by a redox titration. The iron(II) in a dissolved tablet is titrated with standardised permanganate, which gives the mass of iron per tablet.",
       "points": [
         "Aim: to find the mass of iron in an iron tablet, and the percentage of elemental iron by mass in the tablet, by titration with a standard solution of potassium manganate(VII).",
         "Iron tablets contain iron as iron(II), commonly as iron(II) sulfate (iron(II) fumarate and iron(II) gluconate are also used), and are prescribed to treat iron-deficiency anaemia.",
-        "The label usually gives the mass of the iron compound or of iron per tablet.",
+        "The label usually gives the mass of the iron compound or of iron per tablet, which is the value your result is compared with.",
         "Equation: MnO₄⁻(aq) + 5Fe²⁺(aq) + 8H⁺(aq) → Mn²⁺(aq) + 5Fe³⁺(aq) + 4H₂O(l), so MnO₄⁻ : Fe²⁺ = 1 : 5.",
-        "The KMnO₄ solution is first standardised against ammonium iron(II) sulfate, just before use, as described in “Redox titrations”.",
+        "The KMnO₄ solution is first standardised against ammonium iron(II) sulfate, just before use, because its concentration changes on standing.",
         "Hypothesis (example): the tablet contains the mass of iron stated on the label, within a few percent."
-      ]
+      ],
+      "tip": "Exams ask why iron tablets are prescribed (to treat iron-deficiency anaemia), and why KMnO₄ is standardised immediately before use and with what."
     },
     {
       "h": "Making the tablet solution",
+      "b": "The tablets must be turned into a solution of known total volume. Only a measured fraction of it is then titrated.",
       "points": [
-        "Weigh five tablets together accurately and record the mass; dividing by five gives the mean mass of one tablet.",
-        "Grind the tablets to a fine powder in a mortar and pestle, adding a little dilute sulfuric acid.",
-        "Transfer the paste to a beaker with dilute sulfuric acid and deionised water, rinsing the mortar and pestle into the beaker, and stir to dissolve.",
-        "Transfer the solution, including any insoluble material, through a funnel into a 250 cm³ volumetric flask, rinsing the beaker, glass rod and funnel into the flask with deionised water.",
-        "Make up to the mark with deionised water, with the bottom of the meniscus on the mark at eye level and the last drops added with a dropper; stopper and invert about 20 times.",
+        "1. Weigh five tablets together accurately and record the mass; dividing by five gives the mean mass of one tablet.",
+        "2. Grind the tablets to a fine powder in a mortar and pestle, adding a little dilute sulfuric acid.",
+        "3. Transfer the paste to a beaker with dilute sulfuric acid and deionised water, rinsing the mortar and pestle into the beaker, and stir to dissolve.",
+        "4. Transfer the solution, including any insoluble material, through a funnel into a 250 cm³ volumetric flask, rinsing the beaker, glass rod and funnel into the flask with deionised water.",
+        "5. Make up to the mark with deionised water, with the bottom of the meniscus on the mark at eye level and the last drops added with a dropper; stopper and invert about 20 times to mix.",
         "Diagram: mortar and pestle holding the tablet powder, labelled with the pestle and the mortar bowl.",
         "Diagram: 250 cm³ volumetric flask with a funnel in its neck, labelled with the graduation mark.",
         "Diagram: beaker with a glass rod stirring the solution, labelled with the glass rod."
-      ]
+      ],
+      "tip": "Exams ask how the 250 cm³ solution is made from the tablets, and why dilute sulfuric acid is used in making it up."
     },
     {
       "h": "Titration of the tablet solution",
+      "b": "A 25.0 cm³ portion of the tablet solution is titrated with standardised permanganate. This is the same method as the standardisation, with the tablet solution in the flask.",
       "points": [
-        "Rinse the pipette with deionised water and then with the tablet solution; pipette 25.0 cm³ into a conical flask.",
-        "Add about 20 cm³ of dilute sulfuric acid (an excess) to the flask.",
-        "Rinse the burette with deionised water and then with the standard KMnO₄ solution; fill it and read the top of the meniscus.",
-        "Titrate, swirling, until one drop gives a permanent pale pink colour; no indicator is added.",
-        "Do a rough titration, then accurate titrations until two agree within 0.1 cm³; titrate soon after making the solution.",
+        "1. Rinse the pipette with deionised water and then with the tablet solution; pipette 25.0 cm³ into a conical flask.",
+        "2. Add about 20 cm³ of dilute sulfuric acid (an excess) to the flask.",
+        "3. Rinse the burette with deionised water and then with the standard KMnO₄ solution; fill it and read the top of the meniscus.",
+        "4. Titrate, swirling, until one drop gives a permanent pale pink colour; no indicator is added.",
+        "5. Do a rough titration, then accurate titrations until two agree within 0.1 cm³; titrate soon after making the solution.",
         "Diagram: burette of purple KMnO₄ above a conical flask of tablet solution on a white tile, labelled with the burette tap and the top of the meniscus."
-      ]
+      ],
+      "tip": "No indicator is used and you read the top of the meniscus. Exams ask why no indicator is needed, what the end point is, and what is seen if there is too little acid."
     },
     {
       "h": "Why each choice is made",
+      "b": "Each step of the tablet method has a reason. Exams ask for these reasons directly.",
       "points": [
         "Dilute sulfuric acid is used to dissolve the tablets, stopping Fe²⁺ being oxidised to Fe³⁺ by dissolved oxygen; this would make the result too low, because Fe³⁺ does not react with MnO₄⁻.",
         "More dilute sulfuric acid is added before each titration to supply the H⁺ ions needed for MnO₄⁻ to be reduced to Mn²⁺; with too little acid, brown MnO₂ forms and the 1 : 5 ratio no longer holds.",
@@ -211,24 +248,27 @@
         "The solution may be cloudy from the insoluble coating and binder (filler); this does not affect the result, because those substances do not react with the permanganate.",
         "A volumetric flask and pipette are used because the 25.0 cm³ portion must be exactly one-tenth of the total.",
         "No indicator is needed because KMnO₄ is self-indicating: the first excess drop colours the solution pink."
-      ]
+      ],
+      "tip": "Exams ask why dilute sulfuric acid is used at two stages, and why using several tablets improves accuracy. For the second, any two of the reasons above can be given."
     },
     {
-      "h": "Sample calculation (sample data)",
+      "h": "Sample calculation: iron in a tablet (sample data)",
       "b": "The steps convert the titre into the mass of iron in one tablet, then into a percentage of the tablet's mass.",
       "points": [
         "Data: five tablets have a total mass of 1.80 g, a mean of 0.360 g per tablet; 25.0 cm³ portions of the 250 cm³ tablet solution need a mean titre of 11.6 cm³ of 0.0100 mol L⁻¹ KMnO₄.",
         "Moles MnO₄⁻ = 0.0100 mol L⁻¹ × 0.0116 L = 1.16 × 10⁻⁴ mol.",
-        "Moles Fe²⁺ in 25.0 cm³ = 5 × 1.16 × 10⁻⁴ mol = 5.80 × 10⁻⁴ mol.",
-        "Moles Fe²⁺ in 250 cm³ (five tablets) = 5.80 × 10⁻⁴ mol × 10 = 5.80 × 10⁻³ mol; per tablet = 5.80 × 10⁻³ mol ÷ 5 = 1.16 × 10⁻³ mol.",
+        "Moles Fe²⁺ in 25.0 cm³ = 5 × 1.16 × 10⁻⁴ mol = 5.80 × 10⁻⁴ mol, using the 1 : 5 ratio.",
+        "Moles Fe²⁺ in 250 cm³ (five tablets) = 5.80 × 10⁻⁴ mol × 10 = 5.80 × 10⁻³ mol, since 25.0 cm³ is one-tenth of 250 cm³; per tablet = 5.80 × 10⁻³ mol ÷ 5 = 1.16 × 10⁻³ mol.",
         "Mass of iron per tablet = 1.16 × 10⁻³ mol × 56 g mol⁻¹ = 0.06496 g = 65.0 mg.",
         "Percentage of iron by mass = 0.06496 g ÷ 0.360 g × 100 = 18.0%.",
         "If the label gives the iron(II) sulfate content instead: mass of FeSO₄ per tablet = 1.16 × 10⁻³ mol × 152 g mol⁻¹ = 0.176 g = 176 mg; iron is 56 ÷ 152 = 36.8% of the mass of FeSO₄.",
         "Conclusion: compare the result with the label value, calculate the percentage difference, and comment on whether the hypothesis is supported."
-      ]
+      ],
+      "tip": "Multiply by 5 for the mole ratio and by 10 for 25.0 cm³ out of 250 cm³, then divide by the number of tablets. Use Ar(Fe) = 56 for elemental iron, and M(FeSO₄) = 152 only if the question asks for iron(II) sulfate. Percentage of iron is mass of iron ÷ mass of tablet × 100."
     },
     {
-      "h": "Safety",
+      "h": "Safety with iron tablets",
+      "b": "Besides the acid and permanganate, the tablets themselves are a hazard.",
       "points": [
         "Wear goggles: dilute sulfuric acid is an irritant, and KMnO₄ is an oxidising agent that stains skin and clothes.",
         "Iron tablets are dangerous if swallowed by young children: keep them secure and do not eat them in the laboratory."
@@ -236,15 +276,17 @@
     },
     {
       "h": "Sources of error",
+      "b": "Errors push the result in a known direction, so say whether the result would be too low or too high, and why.",
       "points": [
         "Result too low: Fe²⁺ is oxidised to Fe³⁺ by air before titration, because the solution was not acidified or was left standing too long.",
-        "Result too low: tablet material is lost while grinding or transferring.",
+        "Result too low: tablet material is lost while grinding or transferring, so less iron reaches the titration.",
         "Result too high: overshooting the end point, taking a deep purple colour instead of the first permanent pale pink.",
         "Result too high: tablets that also contain vitamin C or another reducing agent, which also reacts with MnO₄⁻.",
         "Other error: too little acid gives brown MnO₂ and an unclear end point.",
         "Other error: KMnO₄ that has partly decomposed since it was standardised.",
-        "Other error: a burette or pipette not rinsed with its own solution, as described in “Acid–base titrations”."
-      ]
+        "Other error: a burette or pipette not rinsed with its own solution, as in acid–base titrations."
+      ],
+      "tip": "Exams ask for one error that makes the result too high: overshooting the end point, or vitamin C in the tablet."
     }
   ],
   "keyTerms": [

@@ -6,72 +6,90 @@
   "notes": [
     {
       "h": "What the index measures (Higher Level only)",
+      "b": "Counting how many species live in a habitat doesn't tell you the whole story, because a habitat can contain many species yet be almost entirely one of them. Simpson's Diversity Index is a calculation that captures both how many species there are and how evenly they share the individuals.",
       "points": [
         "A diversity index is a single number that measures the species diversity of a sample, taking into account both the number of species (richness) and how evenly the individuals are spread among them (evenness). Simpson's Diversity Index is the one in the specification.",
-        "The equation is Ds = 1 − Σn(n − 1) / N(N − 1). Here n is the total number of organisms of a particular species, and N is the total number of organisms of all species in the sample. Σ is the Greek capital letter sigma and means “the sum of”, so n(n − 1) is worked out for each species and the results are added. In words, the sum Σn(n − 1) is divided by N(N − 1), and the answer is subtracted from 1.",
+        "The equation is Ds = 1 − Σn(n − 1) / N(N − 1). Here n is the total number of organisms of a particular species, and N is the total number of organisms of all species in the sample.",
+        "Σ is the Greek capital letter sigma and means “the sum of”, so n(n − 1) is worked out for each species and the results are added. In words, the sum Σn(n − 1) is divided by N(N − 1), and the answer is subtracted from 1.",
         "What it means: Ds is the probability that two individuals picked at random from the sample (the first not put back) belong to different species. Σn(n − 1) / N(N − 1) is the probability that both belong to the same species, and Ds is 1 minus this.",
-        "It is better than species richness alone because it gives less weight to rare species and shows when a habitat is dominated by one or two species. Two samples with the same species list can have very different Ds values."
-      ]
+        "It is better than species richness alone because it gives less weight to rare species and shows when a habitat is dominated by one or two species. Two samples with the same species list can therefore have very different Ds values."
+      ],
+      "tip": "Learn the equation exactly as written, including the 1 − at the front, and be ready to say what n and N stand for. Examiners ask you to calculate Ds from a table of species counts and to show your working."
     },
     {
       "h": "Range and interpretation (Higher Level only)",
+      "b": "A Ds value is only useful if you know what a high or low answer means. The value is always a probability, so it sits on a fixed scale from 0 to 1.",
       "points": [
         "Ds lies between 0 and 1. Ds = 0 when only one species is present, meaning there is no diversity. The closer Ds is to 1, the higher the diversity.",
-        "For a given number of species, Ds is highest when all the species have equal numbers. A species represented by one individual contributes 1 × 0 = 0 to the sum.",
-        "A high Ds generally indicates a stable, healthy ecosystem that is more resilient to change. A low Ds indicates domination by a few species, often after disturbance or pollution."
-      ]
+        "For a given number of species, Ds is highest when all the species have equal numbers, because then any two individuals picked are most likely to be from different species.",
+        "A species represented by one individual contributes 1 × 0 = 0 to the sum, so a species with a single individual adds nothing to Σn(n − 1).",
+        "A high Ds generally indicates a stable, healthy ecosystem that is more resilient to change (better able to cope with disturbance).",
+        "A low Ds indicates domination by a few species, often after disturbance or pollution."
+      ],
+      "tip": "Be ready to state what a value of 0 or a value close to 1 means: 0 is one species only, near 1 is high diversity. Link a difference between two sites to richness and evenness."
     },
     {
-      "h": "Method (Higher Level only)",
+      "h": "Method for calculating Ds (Higher Level only)",
+      "b": "Calculating Ds is a fixed routine, and the safest way to get it right is to lay the working out in a table and follow the same steps every time.",
       "points": [
-        "1. Draw a table with columns for species, n, n − 1 and n(n − 1).",
-        "2. Fill in n for each species from the sample.",
-        "3. Calculate n − 1, then n(n − 1), for each species.",
-        "4. Add the n column to get N.",
-        "5. Add the n(n − 1) column to get Σn(n − 1).",
-        "6. Calculate N(N − 1).",
-        "7. Divide Σn(n − 1) by N(N − 1).",
+        "1. Draw a table with columns for species, n, n − 1 and n(n − 1). 2. Fill in n for each species from the sample.",
+        "3. Calculate n − 1, then n(n − 1), for each species, for example 5 individuals gives 5 × 4 = 20.",
+        "4. Add the n column to get N, the total number of organisms. 5. Add the n(n − 1) column to get Σn(n − 1).",
+        "6. Calculate N(N − 1). This is done once, for the whole sample. 7. Divide Σn(n − 1) by N(N − 1).",
         "8. Subtract the answer from 1 to get Ds.",
         "9. Give Ds to two decimal places and interpret it, by comparing it with another sample or by saying whether it is near 0 or near 1.",
-        "Common errors: using n² instead of n(n − 1); forgetting to subtract from 1; working out N(N − 1) for each species instead of once for the whole sample; and rounding too early. Keep four decimal places until the last step."
-      ]
+        "Common errors: using n² instead of n(n − 1); forgetting to subtract from 1; and working out N(N − 1) for each species instead of once for the whole sample.",
+        "Another common error is rounding too early, which shifts the final answer. Keep four decimal places until the last step."
+      ],
+      "tip": "Use n(n − 1), not n², and work out N(N − 1) only once. Keep at least four decimal places until the last step, then give Ds to two decimal places. Show every column of the table so you earn marks for working."
     },
     {
       "h": "Worked example 1: an untrampled meadow (sample data) (Higher Level only)",
+      "b": "Here the method is applied to a meadow where no one walks, so the four plant species are fairly evenly spread. The numbers are invented sample data for practice.",
       "points": [
         "Sample data: daisy 10, dandelion 5, white clover 3, buttercup 2. N = 10 + 5 + 3 + 2 = 20.",
         "n(n − 1): daisy 10 × 9 = 90; dandelion 5 × 4 = 20; clover 3 × 2 = 6; buttercup 2 × 1 = 2. Σn(n − 1) = 90 + 20 + 6 + 2 = 118.",
-        "N(N − 1) = 20 × 19 = 380. Σn(n − 1) / N(N − 1) = 118 / 380 = 0.31 (0.3105). Ds = 1 − 0.3105 = 0.69."
-      ]
+        "N(N − 1) = 20 × 19 = 380. Σn(n − 1) / N(N − 1) = 118 / 380 = 0.31 (0.3105). Ds = 1 − 0.3105 = 0.69, which is fairly high, as expected for a meadow with no single dominant species."
+      ],
+      "tip": "Notice that the unrounded 0.3105 is used in the subtraction, not 0.31. Rounding early would give 0.69 here by luck but can change the answer in other samples."
     },
     {
       "h": "Worked example 2: a trampled path in the same field (sample data) (Higher Level only)",
+      "b": "Now the same method is applied to a trampled path in the same field, to show how Ds picks up a difference that a species count would miss. The numbers are invented sample data.",
       "points": [
         "Sample data: daisy 16, dandelion 2, white clover 1, buttercup 1. N = 20. These are the same four species (the same richness) as example 1.",
         "n(n − 1): daisy 16 × 15 = 240; dandelion 2 × 1 = 2; clover 1 × 0 = 0; buttercup 1 × 0 = 0. Σn(n − 1) = 242.",
         "N(N − 1) = 380. 242 / 380 = 0.64 (0.6368). Ds = 1 − 0.6368 = 0.36.",
-        "Interpretation: both samples have four species and 20 plants, but the path is dominated by one trampling-tolerant species (daisy), so its evenness and its diversity are lower (0.36 against 0.69). Species richness alone would have shown no difference. This links to “Investigation: human activity and species diversity”."
-      ]
+        "Interpretation: both samples have four species and 20 plants, but the path is dominated by one trampling-tolerant species (daisy), so its evenness and its diversity are lower (0.36 against 0.69).",
+        "Species richness alone would have shown no difference between the two samples, which is why Ds is the better measure. There is more on this in Investigation: human activity and species diversity."
+      ],
+      "tip": "When asked to compare two sites, explain the difference using both richness (number of species) and evenness (how the individuals are spread), as this example does."
     },
     {
       "h": "Worked example 3: comparing evenness and richness (sample data) (Higher Level only)",
+      "b": "These four short samples show the limits of the scale and what happens when richness changes. All the numbers are invented sample data.",
       "points": [
         "Perfectly even sample: four species with 5 individuals each. N = 20. n(n − 1) = 5 × 4 = 20 for each, so Σn(n − 1) = 80. 80 / 380 = 0.2105. Ds = 0.79, the highest possible for four species and 20 individuals.",
-        "One species only: 20 individuals of one species. Σn(n − 1) = 20 × 19 = 380; 380 / 380 = 1; Ds = 1 − 1 = 0.",
-        "A richer sample, e.g. a rocky-shore quadrat: barnacles 12, limpets 8, dog whelks 6, periwinkles 3, beadlet anemone 1. N = 30. n(n − 1): 132, 56, 30, 6, 0; Σn(n − 1) = 224. N(N − 1) = 30 × 29 = 870. 224 / 870 = 0.2575. Ds = 0.74.",
+        "One species only: 20 individuals of one species. Σn(n − 1) = 20 × 19 = 380; 380 / 380 = 1; Ds = 1 − 1 = 0, which means no diversity.",
+        "A richer sample, e.g. a rocky-shore quadrat (a square frame used to sample an area): barnacles 12, limpets 8, dog whelks 6, periwinkles 3, beadlet anemone 1. N = 30.",
+        "For the rocky shore, n(n − 1): 132, 56, 30, 6, 0; Σn(n − 1) = 224. N(N − 1) = 30 × 29 = 870. 224 / 870 = 0.2575. Ds = 0.74.",
         "A six-species sample: 9, 6, 4, 3, 2, 1. N = 25. n(n − 1): 72, 30, 12, 6, 2, 0; Σ = 122. N(N − 1) = 25 × 24 = 600. 122 / 600 = 0.2033. Ds = 0.80."
-      ]
+      ],
+      "tip": "Check your answer against the scale: one species must give 0, and a result outside 0 to 1 means a mistake in your working."
     },
     {
       "h": "Using the index (Higher Level only)",
+      "b": "Ds is used to turn a sample into a number that can be compared between sites or over time. It is also a simplified measure, so you need to know what it leaves out.",
       "points": [
         "Uses: comparing the diversity of two habitats or sites, e.g. trampled and untrampled grassland, upstream and downstream of a pollution source, or a native woodland and a conifer plantation.",
         "Uses: monitoring the same site over time to see whether diversity is falling or recovering, e.g. after bog rewetting or a change in farming, and judging the effect of conservation or human activity.",
         "Limitations: the index depends on accurate identification and counting. Samples must be large, taken at random and taken by the same method for a fair comparison.",
         "Limitations: it is hard to count individual plants that grow in clumps, e.g. grasses, so percentage cover is sometimes used instead, which this equation does not take into account.",
         "Limitations: it treats all species as equally important, so it does not show whether the species are native, rare or invasive, and a sample is a snapshot at one time of year.",
-        "Other versions of Simpson's index exist in textbooks and websites, e.g. D = Σn(n − 1) / N(N − 1) without subtracting from 1 (where a low value means high diversity), or its reciprocal. The specification uses Ds = 1 − Σn(n − 1) / N(N − 1), and this form should always be used."
-      ]
+        "Other versions of Simpson's index exist in textbooks and websites, e.g. D = Σn(n − 1) / N(N − 1) without subtracting from 1 (where a low value means high diversity), or its reciprocal.",
+        "The specification uses Ds = 1 − Σn(n − 1) / N(N − 1), and this form should always be used, so that a high value always means high diversity."
+      ],
+      "tip": "If asked for a limitation of the index, give one specific point, such as that it treats all species as equally important or depends on accurate identification and random sampling. Always use the form of the equation from the specification."
     }
   ],
   "keyTerms": [

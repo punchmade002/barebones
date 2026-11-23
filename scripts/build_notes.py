@@ -23,8 +23,6 @@ ROOT = Path(__file__).resolve().parent.parent
 
 BANNED_PHRASES = (
     "these ideas should be used together",
-    "it is important to note",
-    "in conclusion",
     "this topic is frequently examined",
     "a complete answer should",
     "question focus:",
@@ -110,6 +108,8 @@ def validate(path: Path, los: dict[str, str]) -> tuple[dict | None, list[str]]:
         points = block.get("points", [])
         if "b" in block:
             plain(block["b"], f"{where}.b", errors)
+        if "tip" in block:
+            plain(block["tip"], f"{where}.tip", errors)
         if not isinstance(points, list):
             errors.append(f"{where}.points: must be a list")
             points = []

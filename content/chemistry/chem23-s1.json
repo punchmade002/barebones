@@ -6,200 +6,229 @@
   "notes": [
     {
       "h": "Organic compounds and hydrocarbons",
-      "b": "Organic chemistry is the study of the compounds of carbon, and hydrocarbons are the simplest of them.",
+      "b": "Organic chemistry is the study of the compounds of carbon, and hydrocarbons are the simplest of them. Knowing what a hydrocarbon is gives you the starting point for every other organic family.",
       "points": [
-        "Carbon monoxide, carbon dioxide, carbonates and hydrogencarbonates contain carbon but are classed as inorganic.",
-        "Each carbon atom forms four covalent bonds and carbon atoms bond strongly to each other, giving stable chains, straight or branched, and rings of almost any length.",
-        "Organic compounds are divided into many groups, or homologous series, each with its own characteristic structure and reactions (see “Groups of hydrocarbons”).",
-        "A hydrocarbon is a compound containing carbon and hydrogen only.",
-        "Other organic families, such as alcohols and carboxylic acids, can be thought of as hydrocarbons with one or more hydrogen atoms replaced by other atoms or groups, so hydrocarbons are the basis for understanding other organic compounds."
-      ]
+        "Carbon monoxide, carbon dioxide, carbonates and hydrogencarbonates contain carbon but are classed as inorganic, so they are exceptions to the rule that carbon compounds are organic.",
+        "Carbon forms so many compounds because each carbon atom forms four covalent bonds (bonds made by sharing pairs of electrons) and carbon atoms bond strongly to each other. This gives stable chains, straight or branched, and rings of almost any length.",
+        "Organic compounds are divided into many groups, or homologous series (families of compounds), each with its own characteristic structure and reactions. There is more on this in Groups of hydrocarbons and their properties.",
+        "A hydrocarbon is a compound containing carbon and hydrogen only, which is why hydrocarbons are the simplest organic compounds.",
+        "Other organic families, such as alcohols and carboxylic acids, can be thought of as hydrocarbons with one or more hydrogen atoms replaced by other atoms or groups. So hydrocarbons are the basis for understanding and making other organic compounds."
+      ],
+      "tip": "If asked to define a hydrocarbon, say it contains carbon and hydrogen only. Carbon monoxide, carbon dioxide and carbonates contain carbon but are not organic, and ethanol is not a hydrocarbon because it contains oxygen."
     },
     {
       "h": "Fossil fuels",
-      "b": "Crude oil, natural gas and coal are the main sources of hydrocarbons, and all three are fossil fuels.",
+      "b": "Crude oil, natural gas and coal are the main sources of hydrocarbons, and all three are fossil fuels. They are the starting point for most of the hydrocarbons that industry and society use.",
       "points": [
-        "Fossil fuels formed over millions of years from the remains of plants and animals, buried under sediment and changed by heat and pressure in the absence of air; crude oil and natural gas formed mainly from tiny marine organisms.",
-        "Fossil fuels are finite (non-renewable): they are being used far faster than they form.",
+        "Fossil fuels formed over millions of years from the remains of plants and animals, buried under sediment (layers of mud and sand) and changed by heat and pressure in the absence of air. Crude oil and natural gas formed mainly from tiny marine organisms.",
+        "Fossil fuels are finite (non-renewable): they are being used far faster than they form, so they will run out.",
         "Natural gas is mainly methane (CH₄), typically over 80%, with small amounts of ethane, propane and butane.",
-        "Crude oil is a mixture of many hydrocarbons, mostly alkanes in chain and ring form, with some aromatic hydrocarbons such as benzene.",
-        "Crude oil is separated by fractional distillation into fractions, each a mixture of hydrocarbons with a similar range of boiling points and so of similar molecular size.",
-        "The smallest molecules, with the lowest boiling points, are collected at the top of the column and the largest at the bottom (see “Separation techniques”)."
-      ]
+        "Crude oil is a mixture of many hydrocarbons, mostly alkanes (hydrocarbons with only single bonds) in chain and ring form. It also holds some aromatic hydrocarbons (ring-shaped hydrocarbons) such as benzene.",
+        "Crude oil is separated by fractional distillation (separating a mixture by boiling point) into fractions. Each fraction is a mixture of hydrocarbons with a similar range of boiling points and so of similar molecular size.",
+        "The smallest molecules, with the lowest boiling points, are collected at the top of the column and the largest at the bottom. There is more on this in Using the kinetic theory: separation techniques."
+      ],
+      "tip": "Name the three fossil fuels when asked for sources, and give methane as the main component of natural gas. Crude oil fractions are separated on boiling point, which is linked to molecular size. You do not need the detail of the fractionating column."
     },
     {
       "h": "Living matter and synthesis",
+      "b": "Fossil fuels are not the only source of hydrocarbons. Living things make some, and industry and laboratories can build others from different starting materials.",
       "points": [
         "Methane forms when bacteria break down plant and animal material in the absence of air, a process called anaerobic decomposition.",
-        "This methane is found in landfill sites (refuse dumps), slurry pits, marshes and the digestive systems of cattle and sheep.",
-        "Biogas, made deliberately by anaerobic digestion of farm slurry, food waste or crops, is mainly methane and is a renewable fuel.",
-        "Plants also make hydrocarbons, e.g. natural rubber, which is poly(isoprene) from the rubber tree, and limonene (C₁₀H₁₆) in citrus-fruit peel oil.",
-        "Hydrocarbons can be synthesised from other substances, e.g. ethene is made by dehydrating ethanol (see “Investigation: preparing ethene”).",
-        "Ethanol made by fermenting sugar cane gives a plant-based, or “bio”, ethene.",
-        "The Fischer–Tropsch process makes liquid hydrocarbons from carbon monoxide and hydrogen, so synthetic fuels can be made starting from coal, natural gas or biomass."
-      ]
+        "This methane is found in landfill sites (refuse dumps), slurry pits (stores of liquid animal waste), marshes and the digestive systems of cattle and sheep. These are sources of methane that are not linked to the oil and gas industry.",
+        "Biogas, made deliberately by anaerobic digestion of farm slurry, food waste or crops, is mainly methane and is a renewable fuel because the plant and animal material can be regrown.",
+        "Plants also make hydrocarbons, e.g. natural rubber, which is poly(isoprene) (a hydrocarbon polymer, a very long chain molecule) from the rubber tree, and limonene (C₁₀H₁₆) in citrus-fruit peel oil.",
+        "Hydrocarbons can be synthesised (made) from other substances, e.g. ethene is made by dehydrating ethanol (removing water from it). There is more on this in Investigation: preparing ethene.",
+        "Ethanol made by fermenting sugar cane (using yeast to turn sugar into ethanol) gives a plant-based, or “bio”, ethene.",
+        "The Fischer–Tropsch process makes liquid hydrocarbons from carbon monoxide and hydrogen, so synthetic fuels can be made starting from coal, natural gas or biomass (plant and animal material)."
+      ],
+      "tip": "For a question on the three sources, give fossil fuels, living matter (methane from slurry or natural rubber) and synthesis (ethene from ethanol), each with an example. Two named sources of methane other than natural gas wells are landfill, slurry pits, marshes or cattle."
     },
     {
       "h": "Hydrocarbons as fuels",
-      "b": "Most hydrocarbons are burned for energy, because they release a lot of energy when they burn in oxygen.",
+      "b": "Most hydrocarbons are burned for energy, because they release a lot of energy when they burn in oxygen. Different hydrocarbons and fractions suit different fuel jobs.",
       "points": [
-        "Complete combustion of a hydrocarbon in oxygen gives carbon dioxide and water (see “Combustion”).",
+        "Complete combustion (burning with plenty of oxygen) of a hydrocarbon gives carbon dioxide and water. There is more on this in Combustion and heats of combustion.",
         "Methane (natural gas) is used for heating and cooking in homes, and for generating electricity in power stations.",
         "Propane and butane are the main components of LPG (liquefied petroleum gas), sold in cylinders for patio heaters, camping stoves, gas barbecues and some vehicles such as forklift trucks.",
         "Small butane canisters are used in camping stoves and lighters.",
         "Natural gas and LPG have no smell of their own, so a small amount of a strong-smelling sulfur compound, a thiol also called a mercaptan, is added so that leaks can be detected.",
         "Liquid fractions of crude oil are transport fuels: petrol for cars, kerosene for jet aircraft and home heating oil, and diesel (gas oil) for lorries, buses, tractors and cars.",
-        "Heavy fuel oil is used in ships and furnaces.",
-        "Ethyne (acetylene) burned in pure oxygen gives a flame above 3000 °C, used for cutting and welding metals in the oxyacetylene torch."
-      ]
+        "Heavy fuel oil, a thick fraction of crude oil, is used in ships and furnaces.",
+        "Ethyne (acetylene) burned in pure oxygen gives a flame above 3000 °C, which is hot enough to be used for cutting and welding metals in the oxyacetylene torch."
+      ],
+      "tip": "If asked why a smelly compound is added to natural gas or LPG, say they have no smell of their own and the compound lets people detect leaks. Know that LPG is mainly propane and butane, and that methane is the main component of natural gas."
     },
     {
       "h": "Hydrocarbons as raw materials",
-      "b": "A smaller share of hydrocarbons is used as raw materials, or feedstocks, for the chemical industry rather than being burned.",
+      "b": "A small but important share of hydrocarbons is used as raw materials, or feedstocks (starting materials), for the chemical industry rather than being burned.",
       "points": [
-        "Ethene and propene are made into the plastics poly(ethene) and poly(propene) (see “Addition polymers”).",
-        "Ethene is also used to make ethanol and ethane-1,2-diol, the antifreeze, and to ripen fruit, because it is a plant hormone.",
-        "Benzene is a feedstock for plastics such as polystyrene, and for detergents, dyes and pharmaceuticals.",
+        "Ethene and propene are made into the plastics poly(ethene) and poly(propene). There is more on this in Types of organic reaction and addition polymers.",
+        "Ethene is also used to make ethanol and ethane-1,2-diol, the antifreeze, and to ripen fruit, because it is a plant hormone (a chemical that controls plant processes).",
+        "Benzene is a feedstock for plastics such as polystyrene, and for detergents, dyes and pharmaceuticals (medicines).",
         "Methane is the main source of hydrogen for making ammonia, which is used to make fertilisers.",
-        "Hexane and cyclohexane are used as non-polar solvents, e.g. hexane to extract vegetable oils from seeds.",
-        "The largest molecules give lubricating oils and greases for machinery, paraffin wax for candles, and bitumen, from the residue, for surfacing roads and waterproofing roofs."
-      ]
+        "Hexane and cyclohexane are used as non-polar solvents (liquids that dissolve non-polar substances such as oils), e.g. hexane to extract vegetable oils from seeds.",
+        "The largest molecules give lubricating oils and greases for machinery, paraffin wax for candles, and bitumen, from the residue left at the bottom of the column, for surfacing roads and waterproofing roofs."
+      ],
+      "tip": "When asked for a use of a named hydrocarbon or fraction, give a specific one: ethene for poly(ethene), ethyne for welding, methane for heating, bitumen for roads, kerosene for jet aircraft."
     },
     {
       "h": "How structure determines use",
-      "b": "The size and bonding of a hydrocarbon decide which use suits it.",
+      "b": "The size and bonding of a hydrocarbon decide which use suits it. This links the properties of each group to the uses above.",
       "points": [
         "Small molecules are gases that burn easily, so they make fuels.",
-        "Unsaturated alkenes react readily, so they make feedstocks for plastics.",
-        "Large molecules are viscous or solid, so they make lubricants, waxes and bitumen."
-      ]
+        "Unsaturated alkenes (hydrocarbons with a C=C double bond) react readily, so they make feedstocks for plastics.",
+        "Large molecules are viscous (thick and slow-flowing) or solid, so they make lubricants, waxes and bitumen."
+      ],
+      "tip": "When asked to explain why a hydrocarbon suits a use, link the use to its structure: the C=C double bond makes ethene reactive, so it can be polymerised to poly(ethene). Propane and butane are easily liquefied under pressure, so they are portable in cylinders."
     },
     {
       "h": "The research investigation",
-      "b": "The investigation asks for one major impact on society of the extensive use of hydrocarbons, researched from secondary sources and judged on the evidence.",
+      "b": "The investigation asks for one major impact on society of the continued, extensive use of hydrocarbons, researched from secondary sources (existing reports and data, not your own experiments) and judged on the evidence. You choose one impact and explain the chemistry behind it.",
       "points": [
         "Choose one impact and set a focused question, often about one sector or one country.",
-        "Use several reliable sources that agree, judging each for authority, evidence, date and bias, since oil companies and campaign groups may each present one side.",
-        "Reliable sources for these topics include peer-reviewed papers and reports of the IPCC (Intergovernmental Panel on Climate Change), the WHO, the EPA (Environmental Protection Agency, Ireland) and the SEAI (Sustainable Energy Authority of Ireland).",
+        "Use several reliable sources that agree, judging each for authority (who wrote it), evidence, date and bias, since oil companies and campaign groups may each present one side.",
+        "Reliable sources for these topics include peer-reviewed papers (checked by other scientists before publication) and reports of the IPCC (Intergovernmental Panel on Climate Change), the WHO (World Health Organization), the EPA (Environmental Protection Agency, Ireland) and the SEAI (Sustainable Energy Authority of Ireland).",
         "Explain the chemistry with balanced equations, and consider solutions and their limits.",
-        "Set every impact against the benefits: hydrocarbons are cheap, energy-dense and easily transported fuels and raw materials that made modern transport, heating, electricity, plastics and medicines possible.",
+        "Set every impact against the benefits: hydrocarbons are cheap, energy-dense (a lot of energy in a small mass) and easily transported fuels and raw materials that made modern transport, heating, electricity, plastics and medicines possible.",
         "Justify the conclusion from the evidence, and acknowledge uncertainty and what the sources could not show."
-      ]
+      ],
+      "tip": "An answer that lists only harms, with no evidence or benefits, is weak, so keep the view balanced. Only one impact is required, so pick one option. You may be asked to evaluate a source or a claim, so judge it for authority, evidence, date and bias."
     },
     {
       "h": "Option 1: climate change, chemistry and scale",
-      "b": "Research question, e.g. “How does burning hydrocarbons for transport in Ireland contribute to climate change, and how could it be reduced?”",
+      "b": "Research question, e.g. “How does burning hydrocarbons for transport in Ireland contribute to climate change, and how could it be reduced?” The chemistry starts with the fact that every hydrocarbon gives carbon dioxide when it burns completely.",
       "points": [
-        "Complete combustion of every hydrocarbon releases carbon dioxide: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l); 2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(l).",
-        "Burning 1.00 kg of methane: 1000 g ÷ 16 g mol⁻¹ = 62.5 mol CH₄, which gives 62.5 mol CO₂ × 44 g mol⁻¹ = 2750 g, so 2.75 kg of CO₂ is released.",
-        "Burning 1.00 kg of octane: 1000 g ÷ 114 g mol⁻¹ = 8.77 mol C₈H₁₈, which gives 8.77 mol × 8 × 44 g mol⁻¹ = 3088 g, so 3.09 kg of CO₂ is released."
-      ]
+        "Complete combustion of every hydrocarbon releases carbon dioxide, e.g. CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l).",
+        "The same happens for octane, a hydrocarbon in petrol: 2C₈H₁₈(l) + 25O₂(g) → 16CO₂(g) + 18H₂O(l).",
+        "Scale for 1.00 kg of methane. Moles of CH₄ = mass ÷ molar mass = 1000 g ÷ 16 g mol⁻¹ = 62.5 mol.",
+        "The equation gives 1 mol CO₂ for each 1 mol CH₄, so 62.5 mol CO₂ forms. Mass = 62.5 mol × 44 g mol⁻¹ = 2750 g, so 2.75 kg of CO₂ is released.",
+        "Scale for 1.00 kg of octane. Moles of C₈H₁₈ = 1000 g ÷ 114 g mol⁻¹ = 8.77 mol.",
+        "The equation gives 8 mol CO₂ for each 1 mol C₈H₁₈ (16 for every 2). Mass = 8.77 mol × 8 × 44 g mol⁻¹ = 3088 g, so 3.09 kg of CO₂ is released."
+      ],
+      "tip": "For a calculation of the mass of carbon dioxide from burning methane, write the balanced equation first, then work out the moles of methane, then the moles and mass of carbon dioxide."
     },
     {
       "h": "Option 1: climate change, evidence and effects",
+      "b": "Burning fossil fuels adds carbon dioxide to the air, and the evidence shows its level and the average temperature rising. The extra carbon dioxide traps heat, and that has effects on the climate and the oceans.",
       "points": [
-        "Fossil carbon was locked away for millions of years; burning it moves that carbon into the atmosphere far faster than the carbon cycle removes it, so atmospheric CO₂ rises.",
-        "CO₂ and methane are greenhouse gases that absorb infrared radiation emitted by the Earth and so trap heat (see “The enhanced greenhouse effect”).",
-        "Methane escapes from gas wells, pipelines and coal mines.",
-        "Atmospheric CO₂ has risen from about 280 ppm before the Industrial Revolution to over 420 ppm today, and global average temperature has risen by more than 1 °C since pre-industrial times.",
-        "Consequences include rising sea levels, more extreme weather such as storms, floods and droughts, and ocean acidification as CO₂ dissolves: CO₂(g) + H₂O(l) ⇌ H₂CO₃(aq)."
-      ]
+        "Fossil carbon was locked away for millions of years. Burning it moves that carbon into the atmosphere far faster than the carbon cycle (the natural movement of carbon between air, oceans and living things) removes it, so atmospheric CO₂ rises.",
+        "CO₂ and methane are greenhouse gases that absorb infrared radiation (heat radiation) emitted by the Earth and so trap heat. There is more on this in The enhanced greenhouse effect.",
+        "Methane escapes from gas wells, pipelines and coal mines, which adds to the greenhouse gases in the air.",
+        "Atmospheric CO₂ has risen from about 280 ppm (parts per million) before the Industrial Revolution to over 420 ppm today, and global average temperature has risen by more than 1 °C since pre-industrial times.",
+        "Consequences include rising sea levels, more extreme weather such as storms, floods and droughts, and ocean acidification (the oceans becoming more acidic) as CO₂ dissolves: CO₂(g) + H₂O(l) ⇌ H₂CO₃(aq)."
+      ],
+      "tip": "Rising methane and CO₂ are a concern because they trap heat. Keep the causes apart: CO₂ and methane cause warming, whereas SO₂ and NO₂ cause acid rain, so do not mix up the greenhouse effect with acid rain. Name sources of methane such as gas wells, pipelines, coal mines, landfill, slurry pits and cattle."
     },
     {
       "h": "Option 1: climate change, solutions and limits",
+      "b": "A good investigation does not stop at the problem. It also assesses how emissions could be cut and what holds each solution back.",
       "points": [
-        "Solutions include renewable electricity from wind and solar, electric vehicles and heat pumps, energy efficiency, biofuels, hydrogen, and carbon capture and storage.",
-        "The limits of these solutions include cost, the supply of materials such as those for batteries, the intermittency of renewables, and the time needed to change infrastructure."
-      ]
+        "Solutions include renewable electricity from wind and solar, electric vehicles and heat pumps (devices that heat buildings using electricity efficiently), energy efficiency, biofuels, hydrogen, and carbon capture and storage (trapping CO₂ before it escapes and storing it).",
+        "The limits of these solutions include cost, the supply of materials such as those for batteries, the intermittency of renewables (wind and solar supply stops and starts with the weather), and the time needed to change infrastructure."
+      ],
+      "tip": "A good investigation considers solutions and their limits, so pair each solution you give with a limit."
     },
     {
       "h": "Option 2: air quality, the chemistry",
-      "b": "Research question, e.g. “How has burning solid fuel and road fuels affected air quality and health in Irish towns?”",
+      "b": "Research question, e.g. “How has burning solid fuel and road fuels affected air quality and health in Irish towns?” Burning fuels can release pollutants as well as carbon dioxide, depending on the oxygen supply and the fuel.",
       "points": [
-        "Incomplete combustion, with too little oxygen, produces carbon monoxide and soot, e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).",
-        "Nitrogen and oxygen from the air combine at the high temperatures in engines: N₂(g) + O₂(g) → 2NO(g); 2NO(g) + O₂(g) → 2NO₂(g).",
+        "Incomplete combustion, with too little oxygen, produces carbon monoxide and soot (tiny particles of carbon), e.g. 2CH₄(g) + 3O₂(g) → 2CO(g) + 4H₂O(l).",
+        "Nitrogen and oxygen from the air combine at the high temperatures in engines to form nitrogen oxides: N₂(g) + O₂(g) → 2NO(g); 2NO(g) + O₂(g) → 2NO₂(g).",
         "Sulfur impurities in coal and heavy oils burn to sulfur dioxide: S(s) + O₂(g) → SO₂(g).",
-        "Unburned hydrocarbons such as benzene, a carcinogen, are released from fuel evaporation and exhausts."
-      ]
+        "Unburned hydrocarbons such as benzene, a carcinogen (a substance that can cause cancer), are released from fuel evaporation and exhausts."
+      ],
+      "tip": "For a question on the products of incomplete combustion and their effects, name carbon monoxide and soot. When asked for an equation for the formation of a pollutant, use the incomplete combustion, nitrogen oxide or sulfur dioxide equation."
     },
     {
       "h": "Option 2: air quality, effects on health",
+      "b": "Each pollutant harms the body in a different way, so name the pollutant and its effect together.",
       "points": [
-        "Carbon monoxide is toxic: it binds to haemoglobin in the blood more strongly than oxygen does, reducing the blood's ability to carry oxygen.",
-        "Particulate matter, such as PM2.5 (particles with a diameter below 2.5 μm), from diesel engines and from burning coal and wood is breathed deep into the lungs and is linked to asthma, lung disease and heart disease.",
+        "Carbon monoxide is toxic: it binds to haemoglobin (the protein in red blood cells that carries oxygen) more strongly than oxygen does, reducing the blood's ability to carry oxygen.",
+        "Particulate matter, such as PM2.5 (particles with a diameter below 2.5 μm), from diesel engines and from burning coal and wood is breathed deep into the lungs, because the particles are so small. It is linked to asthma, lung disease and heart disease.",
         "Nitrogen dioxide irritates the lungs and contributes to acid rain and smog.",
         "Sulfur dioxide irritates the airways and causes acid rain."
-      ]
+      ],
+      "tip": "Carbon monoxide is a health argument here, not a greenhouse-gas argument. If asked how burning fuels harms health, refer to two pollutants and give an equation for one of them."
     },
     {
       "h": "Option 2: evidence and solutions",
+      "b": "Real data show whether action on air pollution works. Ireland's smoky coal ban is the evidence to use.",
       "points": [
-        "Dublin banned the sale of smoky (bituminous) coal in 1990; black smoke fell sharply, and later studies linked the ban to fewer deaths from respiratory and heart disease.",
+        "Dublin banned the sale of smoky (bituminous) coal in 1990. Black smoke fell sharply, and later studies linked the ban to fewer deaths from respiratory and heart disease.",
         "The ban on smoky coal was extended to the whole country in October 2022.",
-        "Catalytic converters, low-sulfur fuels, particulate filters and electric transport also reduce emissions."
+        "Catalytic converters (devices in exhausts that turn harmful gases into less harmful ones), low-sulfur fuels, particulate filters and electric transport also reduce emissions."
       ]
     },
     {
       "h": "Option 3: plastic waste, the chemistry",
-      "b": "Research question, e.g. “What happens to single-use plastic packaging in Ireland, and how could its impact be reduced?”",
+      "b": "Research question, e.g. “What happens to single-use plastic packaging in Ireland, and how could its impact be reduced?” The chemistry explains why plastic waste lasts so long.",
       "points": [
-        "Most plastics are made from hydrocarbon feedstocks: ethene and propene are polymerised to poly(ethene) and poly(propene) (see “Addition polymers”).",
+        "Most plastics are made from hydrocarbon feedstocks: ethene and propene are polymerised (joined into long chains) to poly(ethene) and poly(propene). There is more on this in Types of organic reaction and addition polymers.",
         "Addition polymers are long chains held by strong, non-polar C–C and C–H bonds, so microorganisms cannot break them down.",
-        "Plastics are non-biodegradable and can persist for hundreds of years."
-      ]
+        "Plastics are therefore non-biodegradable (they cannot be broken down by living organisms) and can persist for hundreds of years."
+      ],
+      "tip": "If asked why plastics persist in the environment, say that the strong, non-polar C–C and C–H bonds in addition polymers cannot be broken down by microorganisms."
     },
     {
       "h": "Option 3: plastic waste, impacts",
+      "b": "Because plastics last so long, they build up in the environment and cause harm in several places.",
       "points": [
         "Plastic waste causes litter and fills landfill sites.",
         "Plastic in the sea entangles or is swallowed by marine animals.",
         "Plastics break into microplastics, pieces smaller than 5 mm, which are found in water, food and living things.",
-        "Burning plastics recovers energy but releases CO₂, and burning some plastics, such as PVC (poly(chloroethene)), releases toxic gases such as hydrogen chloride unless done in controlled incinerators."
+        "Burning plastics recovers energy but releases CO₂, and burning some plastics, such as PVC (poly(chloroethene)), releases toxic gases such as hydrogen chloride unless done in controlled incinerators (furnaces built to burn waste safely)."
       ]
     },
     {
       "h": "Option 3: plastic waste, solutions and limits",
+      "b": "Solutions work at different points: avoiding waste, reusing material, or changing the plastic itself. Each has limits you should be able to state.",
       "points": [
         "Reducing and reusing plastics avoids the waste altogether.",
         "Recycling involves sorting, washing, shredding, melting and remoulding, but only some plastics can be recycled and only for a limited number of cycles.",
         "Biodegradable and bio-based plastics, deposit-return schemes, bans and levies are other responses; Ireland introduced a plastic bag levy in March 2002."
-      ]
+      ],
+      "tip": "You may be asked for the benefits of recycling, so state them together with the limits: only some plastics can be recycled, and only a limited number of times."
     },
     {
       "h": "Option 4: energy dependence, the research question",
-      "b": "Research question, e.g. “How does Ireland's dependence on imported oil and gas affect energy prices and security?”",
+      "b": "Research question, e.g. “How does Ireland's dependence on imported oil and gas affect energy prices and security?” Hydrocarbons are built into the economy, so a country that must import them is exposed to events elsewhere.",
       "points": [
         "Modern economies depend on hydrocarbons for transport, heating, electricity generation, farming, where fuel and fertiliser are made from natural gas, and plastics.",
         "Jobs and government revenue depend on the industry.",
-        "Fossil fuels are finite and unevenly spread, so countries without their own reserves must import them and are exposed to price shocks and supply cuts.",
-        "The 1973 oil crisis was an oil embargo by Arab oil-producing countries, and in 2022 gas and electricity prices rose sharply after Russia invaded Ukraine in February 2022.",
+        "Fossil fuels are finite and unevenly spread, so countries without their own reserves must import them and are exposed to price shocks (sudden sharp rises in price) and supply cuts.",
+        "The 1973 oil crisis was an oil embargo (a ban on supplying oil) by Arab oil-producing countries, and in 2022 gas and electricity prices rose sharply after Russia invaded Ukraine in February 2022.",
         "Ireland imports most of its energy.",
         "Ireland's own natural gas has come from the Kinsale Head gas field, off Co. Cork, which stopped producing in 2020, and from the Corrib gas field off Co. Mayo."
       ]
     },
     {
       "h": "Option 4: energy dependence, risks",
+      "b": "Getting oil and gas out of the ground and moving it around the world carries risks, and accidents have real economic costs.",
       "points": [
         "Extraction and transport carry risks with economic costs.",
         "Oil spills such as the Exxon Valdez (Alaska, 1989), the Prestige (off Galicia, Spain, 2002) and Deepwater Horizon (Gulf of Mexico, 2010) damaged fisheries, tourism and wildlife."
-      ]
+      ],
+      "tip": "Questions on environmental damage from oil spills can be answered with these named spills and the three things they damaged: fisheries, tourism and wildlife."
     },
     {
       "h": "Option 4: energy dependence, solutions and limits",
+      "b": "Ireland can cut its reliance on imported fuel, but the options have costs and trade-offs.",
       "points": [
-        "Home-produced renewable energy, energy efficiency and electrification reduce imports.",
+        "Home-produced renewable energy, energy efficiency and electrification (switching from burning fuels to using electricity) reduce imports.",
         "The transition needs investment and takes time.",
         "Hydrocarbons are still needed as feedstocks for plastics, medicines and fertilisers, so some argue they should be conserved for these uses rather than burned."
       ]
     },
     {
       "h": "Writing the conclusion",
+      "b": "The conclusion ties the investigation together. It should answer the question and show that the answer follows from the evidence.",
       "points": [
         "State the answer to the research question in one or two sentences.",
         "Support the answer with the strongest evidence and the chemistry, using equations and data.",
         "Weigh the benefits against the harms, and assess the proposed solutions for cost, practicality and who is affected.",
         "Note the limitations of the sources used and what further research would help."
-      ]
+      ],
+      "tip": "Conclusions should be justified from the evidence and should acknowledge uncertainty or what the sources could not show."
     }
   ],
   "keyTerms": [

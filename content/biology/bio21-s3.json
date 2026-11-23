@@ -6,35 +6,48 @@
   "notes": [
     {
       "h": "Coordination",
-      "b": "Coordination is the process of linking stimuli with responses so the body works as a whole. Humans have two coordinating systems: the nervous system and the hormonal (endocrine) system."
+      "b": "The cells of the body need to act together when something changes, such as a hot surface or a rise in blood sugar. Coordination is the process of linking stimuli (changes in the surroundings or inside the body) with responses so the body works as a whole. Humans have two coordinating systems: the nervous system and the hormonal (endocrine) system.",
+      "points": [
+        "The nervous system coordinates using electrical impulses carried along nerve cells (neurons), so it can act within a fraction of a second.",
+        "The hormonal system coordinates using chemical messengers called hormones, which are released into the blood and carried around the body.",
+        "Both systems link a stimulus to a response, so the body works as a whole rather than as separate cells acting alone."
+      ],
+      "tip": "Start any comparison answer by naming both systems. 'Compare' means you refer to both systems in every point, not one after the other."
     },
     {
       "h": "Differences between nervous and hormonal coordination",
+      "b": "The two systems do the same job in different ways. The differences come down to what carries the message and where it goes, and from these follow how fast and how long the effect lasts. Each point below is a pair: nervous first, then hormonal.",
       "points": [
-        "Nature of the message: nervous, electrical impulses along neurons, with chemical neurotransmitters at synapses; hormonal, chemical hormones.",
-        "Route: nervous, along neurons directly to particular cells; hormonal, in the blood to all parts of the body.",
-        "Speed: nervous, very fast, with impulses arriving in a fraction of a second; hormonal, slower, taking seconds to hours as hormones travel in the blood.",
-        "Duration: nervous, short-lived, ending when the impulses stop; hormonal, longer-lasting, because hormones stay in the blood until they are broken down, mainly in the liver.",
-        "Area affected: nervous, localised to the muscle or gland the neuron reaches; hormonal, widespread, reaching every target cell with receptors for the hormone, possibly in many organs.",
-        "Effectors: nervous, muscles and glands; hormonal, target cells in organs and tissues.",
-        "Typical uses: nervous, rapid responses such as reflexes and movement; hormonal, long-term processes such as growth, metabolism, puberty and the menstrual cycle, and steady control of blood glucose."
-      ]
+        "Nature of the message: nervous coordination uses electrical impulses along neurons, with chemical neurotransmitters (chemicals that pass the message across the gap between neurons) at synapses; hormonal coordination uses chemical hormones.",
+        "Route: nervous messages travel along neurons directly to particular cells; hormones travel in the blood to all parts of the body, because the blood reaches every organ.",
+        "Speed: nervous coordination is very fast, with impulses arriving in a fraction of a second; hormonal coordination is slower, taking seconds to hours, because hormones must travel in the blood.",
+        "Duration: nervous effects are short-lived and end when the impulses stop; hormonal effects are longer-lasting because hormones stay in the blood until they are broken down, mainly in the liver.",
+        "Area affected: nervous effects are localised to the muscle or gland the neuron reaches; hormonal effects are widespread, reaching every target cell with receptors for the hormone, possibly in many organs.",
+        "Effectors (the parts that carry out the response): nervous coordination acts on muscles and glands; hormonal coordination acts on target cells in organs and tissues.",
+        "Typical uses: nervous coordination suits rapid responses such as reflexes and movement; hormonal coordination suits long-term processes such as growth, metabolism, puberty and the menstrual cycle, and steady control of blood glucose."
+      ],
+      "tip": "Exams ask for two or three differences, so pick pairs you can state clearly, such as speed, duration and route, and always give both systems in each pair. Do not give exact impulse speeds or hormone half-lives, and do not say hormones travel only to their target organ: they travel everywhere in the blood and only target cells respond."
     },
     {
       "h": "Similarities",
+      "b": "Despite their differences, the two systems share the same basic design. Both pass information to cells using chemicals, and both keep conditions in the body steady.",
       "points": [
-        "Both use chemical messengers that bind to specific receptors on target cells: neurotransmitters in the nervous system and hormones in the hormonal system.",
-        "Both carry information from receptors or control centres to effectors, and both take part in homeostasis through negative feedback."
-      ]
+        "Both use chemical messengers that bind to specific receptors (molecules that fit the messenger, like a lock and key) on target cells: neurotransmitters in the nervous system and hormones in the hormonal system.",
+        "Both carry information from receptors (which detect a change) or control centres (which decide what to do) to effectors (which carry out the response).",
+        "Both take part in homeostasis (keeping the internal environment steady) through negative feedback, in which a change triggers a response that reverses that change."
+      ],
+      "tip": "If asked for one similarity, the shared use of chemical messengers binding to specific receptors is a safe answer. Say 'bind to specific receptors on target cells' so it is clear why only certain cells respond."
     },
     {
       "h": "How the two systems work together",
+      "b": "The two systems are not rivals. They are linked, and many responses use both: the nervous system acts first and fast, and the hormonal system follows with a longer-lasting effect.",
       "points": [
-        "The hypothalamus links the two systems: it is part of the brain but controls the pituitary gland.",
+        "The hypothalamus links the two systems: it is part of the brain, which is nervous tissue, but it controls the pituitary gland, which releases hormones.",
         "In danger, nerve impulses stimulate the adrenal glands to release adrenaline, so a fast nervous response is followed by a longer-lasting hormonal one.",
-        "Touching a hot plate: nervous, a reflex, under a second, affecting one arm.",
-        "Rising blood glucose: hormonal, insulin, taking minutes to hours, affecting cells throughout the body."
-      ]
+        "Touching a hot plate is nervous coordination: it is a reflex, takes under a second, and affects one arm.",
+        "Rising blood glucose is hormonal coordination: the hormone insulin is released, it takes minutes to hours, and it affects cells throughout the body."
+      ],
+      "tip": "If asked which system controls a named response and why, use the response itself: a quick, local reaction such as a reflex is nervous, while a slow, widespread or long-term change such as blood glucose control is hormonal. Do not repeat neuron or synapse structure or the list of glands here; refer to them by their own subsections. There is more on this in The Endocrine System."
     }
   ],
   "keyTerms": [

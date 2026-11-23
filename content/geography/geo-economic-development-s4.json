@@ -9,224 +9,256 @@
       "b": "Global issues are problems that cross borders and affect the whole world, such as poverty, inequality, trade rules, debt, climate change and migration. A justice perspective asks whether the distribution of wealth and power is fair, who decides, and who benefits. It treats development as a matter of rights, not charity.",
       "points": [
         "The Universal Declaration of Human Rights, adopted by the UN General Assembly on 10 December 1948, includes rights to food, health, education and decent work.",
-        "Poverty denies these rights, so a justice perspective treats poverty as a rights failure rather than a matter of charity."
-      ]
+        "Poverty denies these rights, so a justice perspective treats poverty as a rights failure rather than a matter of charity. In other words, people are owed these things, not given them as a favour."
+      ],
+      "tip": "Exams ask you to examine global issues from a justice perspective, for example trade, debt, aid or worker exploitation, with examples. For each issue, say why it is unjust, give a named example, then give the responses and their limits."
     },
     {
       "h": "Global poverty and inequality",
+      "b": "Justice questions start from the scale of the problem. The figures below show how many people are extremely poor, where they live, and how unevenly wealth is shared.",
       "points": [
-        "About 700 million people lived in extreme poverty in 2022, most of them in sub-Saharan Africa. The World Bank measures extreme poverty as living on under $2.15 a day (2017 prices).",
-        "The share of the world's population in extreme poverty fell from over a third in 1990 to under a tenth by 2019.",
-        "The richest 10% own about 76% of global wealth, while the poorest half own about 2% (World Inequality Report 2022)."
-      ]
+        "About 700 million people lived in extreme poverty in 2022, most of them in sub-Saharan Africa (the part of Africa south of the Sahara). The World Bank, the UN-linked development lender, measures extreme poverty as living on under 2.15 US dollars a day (2017 prices).",
+        "The share of the world's population in extreme poverty fell from over a third in 1990 to under a tenth by 2019, so the trend is strongly downward even though the numbers remain large.",
+        "The richest 10% own about 76% of global wealth, while the poorest half own about 2% (World Inequality Report 2022). This shows how unequal the sharing of wealth is."
+      ],
+      "tip": "Give the poverty line exactly as 2.15 US dollars a day (2017 prices) with the 2022 figure. Do not quote 1 dollar a day or 1.90 dollars as current, and do not mix lines."
     },
     {
       "h": "Global goals: MDGs and SDGs",
+      "b": "The UN has set global targets to measure progress against poverty and injustice. The first set ran from 2000 to 2015 and the second runs to 2030.",
       "points": [
-        "The Millennium Development Goals (2000–2015) had eight goals. The target of halving the share of people in extreme poverty from 1990 was met by 2010, five years early, largely thanks to China.",
-        "The Sustainable Development Goals were adopted by the UN in September 2015. They have 17 goals, to be met by 2030.",
+        "The Millennium Development Goals (MDGs, 2000-2015) had eight goals. The target of halving the share of people in extreme poverty from 1990 was met by 2010, five years early, largely thanks to China.",
+        "The Sustainable Development Goals (SDGs) were adopted by the UN in September 2015. They have 17 goals, to be met by 2030.",
         "The SDGs target poverty (SDG 1), hunger (SDG 2), quality education (SDG 4), gender equality (SDG 5), reduced inequalities (SDG 10) and climate action (SDG 13). Other targets cover health, clean water and climate.",
-        "The world is off track to meet most SDG targets by 2030."
-      ]
+        "The world is off track to meet most SDG targets by 2030, so shortfalls remain alongside the progress."
+      ],
+      "tip": "The MDGs had 8 goals and the SDGs have 17. Do not swap them, and do not give 2025 as the SDG deadline."
     },
     {
       "h": "Unfair trade: commodities and the value chain",
+      "b": "Trade rules and prices can leave poor countries poorer. Many depend on selling raw materials, and the biggest profits are made further along the chain, in rich countries.",
       "points": [
-        "Many developing countries depend on exporting a few primary commodities, such as coffee, cocoa, cotton and minerals, whose prices are low and unstable.",
-        "The terms of trade tend to move against these countries, so their exports buy fewer imports over time while they import manufactured goods.",
-        "Most of the final price of coffee, chocolate or clothing goes to processors, brands and retailers in rich countries. The grower receives a small share.",
-        "Tariff escalation: rich countries charge higher tariffs on processed goods than on raw materials, which discourages poor countries from processing their own crops."
+        "Many developing countries depend on exporting a few primary commodities (raw materials such as coffee, cocoa, cotton and minerals), whose prices are low and unstable. This makes their income hard to plan around.",
+        "The terms of trade (the amount of imports a country's exports can buy) tend to move against these countries. Their exports buy fewer imports over time, while they import manufactured goods.",
+        "Most of the final price of coffee, chocolate or clothing goes to processors, brands and retailers in rich countries. The grower, at the start of the value chain (the steps from raw material to finished product), receives a small share.",
+        "Tariff escalation: rich countries charge higher tariffs (taxes on imports) on processed goods than on raw materials. This discourages poor countries from processing their own crops, so they stay stuck exporting raw materials."
       ]
     },
     {
       "h": "Unfair trade: farm subsidies and the cotton case",
+      "b": "Rich countries also help their own farmers with money, and this can push down the prices poor farmers receive. Cotton is the clearest example.",
       "points": [
-        "Rich-country farm subsidies, such as US cotton subsidies and the EU's Common Agricultural Policy in the past, let surpluses be sold cheaply abroad. This is called dumping, and it undercuts poor farmers.",
+        "Rich-country farm subsidies (government payments to farmers), such as US cotton subsidies and the EU's Common Agricultural Policy in the past, let surpluses be sold cheaply abroad. This is called dumping, and it undercuts poor farmers who cannot match the low price.",
         "The Cotton-4 West African producers, Benin, Burkina Faso, Chad and Mali, were harmed by these subsidies.",
-        "The WTO ruled in Brazil's favour against US cotton subsidies in 2004–05."
+        "The WTO (World Trade Organization, the body that rules on trade disputes) ruled in Brazil's favour against US cotton subsidies in 2004-05."
       ]
     },
     {
       "h": "Responses to unfair trade",
+      "b": "Governments and trade bodies have tried to make trade fairer for poor countries, with mixed success. Fair trade is a third response, because it works through consumers rather than governments.",
       "points": [
-        "The WTO Doha Development Round was launched in 2001 but has stalled without agreement.",
-        "The EU's 'Everything But Arms' scheme (2001) gives the least developed countries duty-free and quota-free access to the EU for all products except arms and ammunition."
+        "The WTO Doha Development Round (a set of global trade talks meant to help developing countries) was launched in 2001 but has stalled without agreement.",
+        "The EU's 'Everything But Arms' scheme (2001) gives the least developed countries duty-free (no tariffs) and quota-free (no limit on amounts) access to the EU for all products except arms and ammunition."
       ]
     },
     {
       "h": "Fair trade: how it works",
-      "b": "Fair trade is a trading model in which producers receive guaranteed terms and the Fairtrade Mark identifies certified products.",
+      "b": "Fair trade is a trading model in which producers receive guaranteed terms and the Fairtrade Mark identifies certified products. It tries to give growers a bigger and steadier share than the normal market does.",
       "points": [
         "The Fairtrade Minimum Price covers the cost of sustainable production. It is a guaranteed floor, not a guaranteed higher price: when the market price is higher, producers receive the market price plus the premium.",
-        "The Fairtrade Premium is paid to producer co-operatives for community projects such as schools, clinics and clean water.",
+        "The Fairtrade Premium is paid to producer co-operatives (groups of farmers who work together and share the benefits) for community projects such as schools, clinics and clean water.",
         "Fair trade also requires long-term contracts, decent working conditions, no child labour, environmental standards and democratically run co-operatives.",
-        "Fair trade covers coffee, tea, cocoa, bananas, sugar and cotton.",
+        "Fair trade covers coffee, tea, cocoa, bananas, sugar and cotton, for example, which are the kinds of crops whose growers get a small share of the price.",
         "The first fair trade label, Max Havelaar, was launched in the Netherlands in 1988 for Mexican coffee. Fairtrade International now coordinates the Fairtrade Mark."
-      ]
+      ],
+      "tip": "Fair trade guarantees a minimum price, not always a higher price than the market. Exams can ask you to explain fair trade's aims, how it works, and one advantage for producers."
     },
     {
       "h": "Fair trade in Ireland and its limits",
+      "b": "Ireland has its own fair trade links, but fair trade has weaknesses that an evaluation should include.",
       "points": [
-        "Fairtrade Ireland (Fairtrade Mark Ireland) licenses the Fairtrade Mark in Ireland.",
+        "Fairtrade Ireland (Fairtrade Mark Ireland) licenses the Fairtrade Mark in Ireland, meaning it gives permission for products to carry it.",
         "Irish towns and schools can apply for Fairtrade status. Fairtrade Fortnight takes place each year in late February and March.",
-        "Fair trade makes up only a tiny share of world trade.",
-        "Certified products can cost consumers more, and certification is expensive for small producers.",
-        "Fair trade does not change the trade rules that cause unfair trade in the first place."
-      ]
+        "Limit: fair trade makes up only a tiny share of world trade, so it reaches few producers.",
+        "Limit: certified products can cost consumers more, and certification is expensive for small producers.",
+        "Limit: fair trade does not change the trade rules that cause unfair trade in the first place, so it treats the symptoms rather than the cause."
+      ],
+      "tip": "Exams ask students to explain fair trade's aims, how it works and its limits. Give the limits as well as the benefits."
     },
     {
       "h": "Debt: how the crisis arose",
+      "b": "In the 1970s and 1980s, cheap lending turned into a debt crisis for many developing countries. Each step below made repayment harder.",
       "points": [
-        "When oil prices rose sharply, oil-exporting countries deposited their surplus money in banks. Banks lent these deposits, called petrodollars, to developing countries.",
-        "Interest rates then rose sharply and commodity prices fell, so many borrowers could not afford repayments.",
-        "Mexico announced in August 1982 that it could not pay its debts, starting the Latin American debt crisis.",
-        "Many African and Latin American countries could not repay their debts."
+        "1. When oil prices rose sharply, oil-exporting countries deposited their surplus money in banks. Banks lent these deposits, called petrodollars, to developing countries.",
+        "2. Interest rates then rose sharply and commodity prices fell. Borrowers earned less from their exports while owing more, so many could not afford repayments.",
+        "3. Mexico announced in August 1982 that it could not pay its debts, starting the Latin American debt crisis.",
+        "4. Many African and Latin American countries could not repay their debts."
       ]
     },
     {
       "h": "Debt: effects and the justice argument",
+      "b": "Heavy debt took money away from the people it was meant to help, and in some cases the people repaying had never benefited from the loan.",
       "points": [
-        "Governments spent more on debt repayments than on health and education.",
+        "Governments spent more on debt repayments than on health and education, so public services suffered.",
         "Countries took new loans to repay old ones, so the debt grew.",
-        "The 1980s 'lost decade' hit Latin America and Africa hard.",
-        "Some debts were 'odious': dictators borrowed the money and stole or wasted it, yet the people were made to repay it."
+        "The 1980s 'lost decade' hit Latin America and Africa hard, because debt blocked progress in those years.",
+        "Some debts were 'odious': dictators borrowed the money and stole or wasted it, yet the people were made to repay it. This is the clearest justice argument against debt."
       ]
     },
     {
       "h": "Debt: structural adjustment",
+      "b": "Lenders did not simply hand over money. The IMF (International Monetary Fund) and the World Bank attached conditions to their loans, which is different from tied aid.",
       "points": [
-        "IMF and World Bank loans came with conditions. These cut public spending, introduced school and health fees, privatised state firms, removed food subsidies, devalued the currency and opened markets to imports.",
-        "Structural adjustment programmes were criticised for hurting the poorest people most (see Case study of a developing economy)."
-      ]
+        "IMF and World Bank loans came with conditions. These cut public spending, introduced school and health fees, privatised state firms (sold them to private owners), removed food subsidies, devalued the currency (lowered its value against others) and opened markets to imports.",
+        "Structural adjustment programmes, as these packages of conditions were called, were criticised for hurting the poorest people most. There is more on this in Case study of a developing economy."
+      ],
+      "tip": "Keep tied aid and conditional loans distinct. Tied aid must be spent on the donor's goods and services, while conditional loans, as in structural adjustment, have policy conditions attached."
     },
     {
       "h": "Debt: relief and its results",
+      "b": "Campaigns and lenders eventually cancelled some debt for the poorest countries, with conditions. Relief had real results, but debt is building up again.",
       "points": [
-        "The Jubilee 2000 campaign pressed for debt cancellation by the millennium.",
+        "The Jubilee 2000 campaign pressed for debt cancellation by the millennium, so that poor countries could stop repaying old debts.",
         "The Heavily Indebted Poor Countries (HIPC) Initiative was launched in 1996 by the IMF and World Bank.",
-        "The Multilateral Debt Relief Initiative (2005) followed the G8 summit at Gleneagles, Scotland, in July 2005. It was backed by the Make Poverty History campaign and the Live 8 concerts.",
+        "The Multilateral Debt Relief Initiative (2005) followed the G8 summit (a meeting of leaders of major rich countries) at Gleneagles, Scotland, in July 2005. It was backed by the Make Poverty History campaign and the Live 8 concerts.",
         "More than 30 countries, most in Africa, have received debt relief under HIPC, on condition that the savings go to poverty reduction.",
-        "Relief has funded results such as free primary education in some relieved countries.",
-        "Debt is rising again in the 2020s."
+        "Relief has funded results such as free primary education in some relieved countries, so more children are in school.",
+        "Debt is rising again in the 2020s, so relief has not ended the problem."
       ]
     },
     {
       "h": "Types of aid",
+      "b": "Aid is help given to poorer countries. It comes in different forms, depending on its purpose, who gives it and how it is channelled.",
       "points": [
-        "Emergency (humanitarian) aid responds to disasters and famines.",
-        "Long-term development aid funds projects that build lasting capacity.",
-        "Bilateral aid passes from one government to another.",
-        "Multilateral aid is channelled through bodies such as the UN, the World Bank and the EU.",
-        "NGO (voluntary) aid is given by non-governmental organisations.",
-        "Tied aid must be spent on goods or services from the donor country."
-      ]
+        "Emergency (humanitarian) aid responds to disasters and famines, so it is short-term and urgent.",
+        "Long-term development aid funds projects that build lasting capacity, such as a country's ability to meet its own needs.",
+        "Bilateral aid passes from one government to another, so the donor government decides directly where it goes.",
+        "Multilateral aid is channelled through bodies such as the UN, the World Bank and the EU, so several donors pool their money.",
+        "NGO (voluntary) aid is given by non-governmental organisations, which are charities independent of governments.",
+        "Tied aid must be spent on goods or services from the donor country, so it benefits the donor as well as the receiver."
+      ],
+      "tip": "Short questions ask you to explain tied aid. Say that it must be spent on goods or services from the donor country."
     },
     {
       "h": "The UN aid target",
+      "b": "The UN has set a target for how much rich countries should give, and most do not meet it.",
       "points": [
-        "The UN target, set in 1970, is that rich countries give 0.7% of their gross national income as official development aid.",
-        "Norway, Sweden, Luxembourg and Denmark have reached or exceeded the target in recent years.",
+        "The UN target, set in 1970, is that rich countries give 0.7% of their gross national income (the total income earned by a country's people and firms) as official development aid.",
+        "Norway, Sweden, Luxembourg and Denmark have reached or exceeded the target in recent years, so only a few countries reach it.",
         "Ireland has not yet reached the target (2020s)."
       ]
     },
     {
       "h": "How aid helps and hinders",
+      "b": "Aid is neither all good nor all bad. A balanced answer gives both sides, with reasons, and ends with what better aid looks like.",
       "points": [
         "Helps: aid saves lives in emergencies and funds schools, clinics, wells and vaccination programmes.",
         "Helps: aid builds roads and infrastructure, trains teachers, nurses and farmers, and supports women's groups and small businesses.",
-        "Hinders: tied aid benefits donor firms and may supply unsuitable technology.",
-        "Hinders: corrupt elites can steal aid, and food aid can undercut local farmers.",
+        "Hinders: tied aid benefits donor firms and may supply unsuitable technology, because the receiver must buy what the donor sells.",
+        "Hinders: corrupt elites can steal aid, and food aid can undercut local farmers, who cannot compete with free food.",
         "Hinders: aid can create dependency instead of self-reliance, and loans add to debt.",
         "Hinders: donors' political or strategic interests decide who gets aid, rather than need.",
         "Hinders: large prestige projects, such as dams, can displace people.",
-        "Better aid is untied, targeted at the poorest, and designed with local participation and ownership. It supports self-help and co-operatives and is transparent."
-      ]
+        "Better aid is untied (not required to be spent in the donor country), targeted at the poorest, and designed with local participation and ownership. It supports self-help and co-operatives and is transparent."
+      ],
+      "tip": "Do not say all aid is harmful or all aid is good. Exams set how aid can help and hinder development, so give both sides with reasons. The elective version asks for types of aid, benefits, problems, Irish Aid and NGOs."
     },
     {
       "h": "Irish Aid and Irish NGOs",
+      "b": "Ireland gives aid through its government programme and through voluntary organisations, many of them founded in response to particular crises.",
       "points": [
-        "Irish Aid is Ireland's official aid programme, part of the Department of Foreign Affairs. Its bilateral programme began in 1974.",
+        "Irish Aid is Ireland's official aid programme, part of the Department of Foreign Affairs. Its bilateral programme (government to government) began in 1974.",
         "Long-term partner countries include Ethiopia, Malawi, Mozambique, Tanzania, Uganda and Zambia in sub-Saharan Africa, and Vietnam.",
-        "Ireland's aid is untied.",
-        "'A Better World' (2019), Ireland's international development policy, focuses on the furthest behind, gender equality, climate and governance.",
+        "Ireland's aid is untied. 'A Better World' (2019), Ireland's international development policy, focuses on the furthest behind, gender equality, climate and governance.",
         "Concern Worldwide was founded in 1968 in response to the famine in Biafra during Nigeria's civil war.",
         "Trócaire was founded in 1973 by the Irish Catholic bishops. Its Lenten 'Trócaire box' raises funds, and it campaigns on human rights and climate.",
         "GOAL was founded in 1977 by John O'Shea.",
-        "Live Aid concerts in July 1985, organised by Bob Geldof, responded to the 1984–85 Ethiopian famine."
-      ]
+        "Live Aid concerts in July 1985, organised by Bob Geldof, responded to the 1984-85 Ethiopian famine."
+      ],
+      "tip": "Short questions ask you to name an Irish NGO. Concern Worldwide, Trócaire and GOAL all work. Do not give euro totals or percentages for Irish Aid or NGOs."
     },
     {
       "h": "Ireland's own history",
+      "b": "Ireland's past gives it a reason to care about hunger elsewhere.",
       "points": [
-        "The Great Famine (1845–49) killed about 1 million people and led about 1 million to emigrate. This history is one reason for Irish solidarity with developing countries."
+        "The Great Famine (1845-49) killed about 1 million people and led about 1 million to emigrate. This history is one reason for Irish solidarity (support and fellow feeling) with developing countries."
       ]
     },
     {
       "h": "Multinationals and workers",
+      "b": "Multinationals (companies operating in many countries) move work to where labour is cheapest. This brings jobs, but it can also bring exploitation.",
       "points": [
-        "Multinationals locate labour-intensive work, such as clothing, electronics assembly and mining, in low-wage countries.",
+        "Multinationals locate labour-intensive work (work needing many workers), such as clothing, electronics assembly and mining, in low-wage countries, because wage costs are lowest there.",
         "Benefits for workers include jobs, wages higher than farm work, and skills.",
-        "Exploitation includes very low wages, long hours, unsafe factories, banned trade unions and child labour."
+        "Exploitation includes very low wages, long hours, unsafe factories, banned trade unions (organisations of workers) and child labour."
       ]
     },
     {
       "h": "Rana Plaza, Bangladesh, 2013",
+      "b": "The collapse of Rana Plaza shows what can happen when global brands rely on cheap suppliers whose safety standards are not checked.",
       "points": [
         "Rana Plaza, an eight-storey building in Savar near Dhaka, housed garment factories. It collapsed on 24 April 2013, killing about 1,130 people and injuring about 2,500.",
         "Cracks had appeared the day before, but workers were ordered back in.",
         "The factories supplied Western brands, including Primark, which was founded in Dublin in 1969 as Penneys. Primark paid compensation to the victims.",
         "The Accord on Fire and Building Safety in Bangladesh was signed in May 2013 by global brands and trade unions, and eventually more than 200 brands joined. It provided independent factory inspections.",
-        "Garments make up over four-fifths of Bangladesh's exports (2020s).",
+        "Garments make up over four-fifths of Bangladesh's exports (2020s), so the country depends heavily on this industry.",
         "The case shows how brands profit from low-cost factories while the safety of workers depends on local suppliers."
-      ]
+      ],
+      "tip": "Say about 1,130 deaths. Do not call Rana Plaza a fire: it was a building collapse."
     },
     {
       "h": "Child labour and cobalt",
+      "b": "Child labour is one of the worst forms of exploitation, and it appears in the supply chains of everyday products.",
       "points": [
         "About 160 million children were in child labour worldwide in 2020 (ILO and UNICEF), about 70% of them in agriculture.",
-        "Child labour occurs in cocoa farming and in mining.",
+        "Child labour occurs in cocoa farming and in mining, for example, so everyday products such as chocolate and batteries can be linked to it.",
         "The DR Congo produces about 70% of the world's cobalt, which is used in rechargeable batteries.",
-        "Amnesty International (2016) documented child labour in the artisanal, hand-dug cobalt mines of the DR Congo."
+        "Amnesty International (2016) documented child labour in the artisanal (hand-dug) cobalt mines of the DR Congo."
       ]
     },
     {
       "h": "Land and resources",
+      "b": "Exploitation also involves land. Poor countries and poor communities can lose the land they depend on.",
       "points": [
         "Foreign companies and governments buy or lease large areas of farmland in poor countries, a practice called land grabbing.",
-        "Indigenous peoples lose land to mining, ranching and logging, as in the Amazon example in the Brazil section of Case study of a developing economy."
+        "Indigenous peoples (the original inhabitants of a region) lose land to mining, ranching and logging, as in the Amazon example in the Brazil section of Case study of a developing economy."
       ]
     },
     {
       "h": "Responses to worker exploitation",
+      "b": "Pressure to improve conditions comes from consumers, from the law and from workers themselves.",
       "points": [
-        "Ethical consumer campaigns and company codes of conduct put pressure on brands.",
+        "Ethical consumer campaigns and company codes of conduct (a company's own rules for how suppliers must treat workers) put pressure on brands.",
         "The EU Corporate Sustainability Due Diligence Directive, adopted in 2024, requires very large companies to identify and address human-rights and environmental harm in their supply chains.",
         "Trade unions represent workers and campaign for safer conditions and better wages."
       ]
     },
     {
       "h": "Climate justice",
+      "b": "Climate change is an injustice because the countries that caused it least suffer most from it.",
       "points": [
-        "The poorest countries have contributed least to greenhouse gas emissions but suffer most from climate change.",
-        "Bangladesh is a low-lying delta vulnerable to cyclones, floods and sea-level rise.",
-        "Small island states such as Tuvalu, Kiribati and the Maldives are threatened by sea-level rise.",
+        "The poorest countries have contributed least to greenhouse gas emissions (the gases that cause global warming) but suffer most from climate change.",
+        "Bangladesh is a low-lying delta vulnerable to cyclones, floods and sea-level rise, because so much of its land is barely above the sea.",
+        "Small island states such as Tuvalu, Kiribati and the Maldives are threatened by sea-level rise, because their land is low.",
         "Sub-Saharan Africa has produced only a small share of historical emissions, yet its dry regions suffer drought.",
-        "Responses include climate finance from rich countries and the Loss and Damage Fund, agreed at COP27 in Sharm el-Sheikh, Egypt (2022) and made operational at COP28 in Dubai (2023).",
-        "The Mary Robinson Foundation – Climate Justice was set up in 2010 by Mary Robinson, who was President of Ireland from 1990 to 1997 and UN High Commissioner for Human Rights from 1997 to 2002."
+        "Responses include climate finance (money from rich countries to help poorer ones cope) and the Loss and Damage Fund, agreed at COP27 in Sharm el-Sheikh, Egypt (2022) and made operational at COP28 in Dubai (2023).",
+        "The Mary Robinson Foundation - Climate Justice was set up in 2010 by Mary Robinson, who was President of Ireland from 1990 to 1997 and UN High Commissioner for Human Rights from 1997 to 2002."
       ]
     },
     {
       "h": "Progress and remaining injustice",
+      "b": "A justice evaluation weighs real progress against the problems that remain.",
       "points": [
         "Extreme poverty has fallen greatly since 1990, especially in China. Child mortality has fallen, and more children attend school.",
         "Sub-Saharan Africa lags behind other regions.",
-        "Inequality within and between countries is high.",
-        "Conflict, such as the war in Sudan (see Case study of a developing economy), and climate change are reversing gains.",
+        "Inequality within and between countries is high, so gains are not shared equally.",
+        "Conflict, such as the war in Sudan, and climate change are reversing gains. There is more on this in Case study of a developing economy.",
         "The COVID-19 pandemic in 2020 caused the first rise in global extreme poverty in about a generation (World Bank)."
       ]
     },
     {
       "h": "What individuals and Ireland can do",
+      "b": "Justice is not only for governments. Individuals and Ireland can act.",
       "points": [
         "Individuals can buy fair trade, campaign, and support NGOs. Ireland can press governments on aid, trade and debt policy."
       ]
