@@ -1,0 +1,253 @@
+[
+ {
+  "skill": "stat-srs-bias",
+  "problems": [
+   {
+    "question": "A sports club has 400 members. To find out what members think of the club facilities, the secretary asks only the members who come to Saturday morning training.\nThere are 300 members who come to Saturday morning training.\nGive a reason why this sample is biased, and find, as a percentage, the members who have no chance of being selected.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Spot the bias",
+       "lines": [
+        {
+         "text": "Asking only Saturday morning trainers leaves out members who do not train then, so the sample is biased."
+        }
+       ]
+      },
+      {
+       "title": "Find the number left out",
+       "lines": [
+        {
+         "tex": "400 - 300 &= 100",
+         "sym": "400 - 300",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write those left out as a fraction",
+       "lines": [
+        {
+         "tex": "\\frac{100}{400} &= \\frac{1}{4}",
+         "sym": "Rational(100,400)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "\\frac{1}{4} \\times 100 &= 25",
+         "sym": "Rational(1,4)*100",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "25\\%"
+    },
+    "finalSym": "25",
+    "answerSym": "Rational(400-300,400)*100"
+   }
+  ]
+ },
+ {
+  "skill": "trig-graph",
+  "problems": [
+   {
+    "question": "Draw a graph of $f(x) = 1 + 2\\sin 2x$ for $0 \\le x \\le \\pi$.\nFirst complete a table of values of $f(x)$ at $x = 0, \\frac{\\pi}{4}, \\frac{\\pi}{2}, \\frac{3\\pi}{4}, \\pi$, working in radians, then plot the points and join them with a smooth curve.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use f(x) = 1 + 2 sin 2x at each x",
+       "lines": [
+        {
+         "text": "Work in radians. Substitute each given value of $x$ into $f(x)$."
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = 0$",
+       "lines": [
+        {
+         "tex": "f\\left(0\\right) &= 1 + 2\\sin\\left(0\\right)",
+         "sym": "1 + 2*sin(0)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 + 2\\left(0\\right)",
+         "sym": "1 + 2*(0)"
+        },
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{\\pi}{4}$",
+       "lines": [
+        {
+         "tex": "f\\left(\\frac{\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{\\pi}{2}\\right)",
+         "sym": "1 + 2*sin(pi/2)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 + 2\\left(1\\right)",
+         "sym": "1 + 2*(1)"
+        },
+        {
+         "tex": "&= 3",
+         "sym": "3"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{\\pi}{2}$",
+       "lines": [
+        {
+         "tex": "f\\left(\\frac{\\pi}{2}\\right) &= 1 + 2\\sin\\left(\\pi\\right)",
+         "sym": "1 + 2*sin(pi)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 + 2\\left(0\\right)",
+         "sym": "1 + 2*(0)"
+        },
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\frac{3\\pi}{4}$",
+       "lines": [
+        {
+         "tex": "f\\left(\\frac{3\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{3\\pi}{2}\\right)",
+         "sym": "1 + 2*sin(3*pi/2)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 + 2\\left(-1\\right)",
+         "sym": "1 + 2*(-1)"
+        },
+        {
+         "tex": "&= -1",
+         "sym": "-1"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = \\pi$",
+       "lines": [
+        {
+         "tex": "f\\left(\\pi\\right) &= 1 + 2\\sin\\left(2\\pi\\right)",
+         "sym": "1 + 2*sin(2*pi)",
+         "new": true
+        },
+        {
+         "tex": "&= 1 + 2\\left(0\\right)",
+         "sym": "1 + 2*(0)"
+        },
+        {
+         "tex": "&= 1",
+         "sym": "1"
+        }
+       ]
+      },
+      {
+       "title": "Plot the five points and join them",
+       "lines": [
+        {
+         "text": "Plot $(0,1), (\\frac{\\pi}{4},3), (\\frac{\\pi}{2},1), (\\frac{3\\pi}{4},-1), (\\pi,1)$."
+        },
+        {
+         "text": "Join them with a smooth wave: it rises from 1 to a maximum of 3 at $x = \\frac{\\pi}{4}$, falls to a minimum of $-1$ at $x = \\frac{3\\pi}{4}$ and returns to 1. One full wave fits in $0 \\le x \\le \\pi$, so the period is $\\pi$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Table: } 1,\\ 3,\\ 1,\\ -1,\\ 1"
+    },
+    "finalSym": "[1, 3, 1, -1, 1]",
+    "answerSym": "[1 + 2*sin(2*0), 1 + 2*sin(2*(pi/4)), 1 + 2*sin(2*(pi/2)), 1 + 2*sin(2*(3*pi/4)), 1 + 2*sin(2*pi)]"
+   }
+  ]
+ },
+ {
+  "skill": "trig-unit-circle",
+  "problems": [
+   {
+    "question": "$P$ is a point on the unit circle with centre $O$. The line $OP$ makes an angle of $300^\\circ$ with the positive $x$-axis, measured anticlockwise.\nFind the co-ordinates of $P$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Place P on the unit circle using the angle",
+       "lines": [
+        {
+         "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+        },
+        {
+         "tex": "P &= (\\cos 300^\\circ, \\sin 300^\\circ)"
+        }
+       ]
+      },
+      {
+       "title": "Find the x co-ordinate",
+       "lines": [
+        {
+         "text": "$300^\\circ$ is in the fourth quadrant, where cos is positive. The related angle is $60^\\circ$."
+        },
+        {
+         "tex": "\\cos 300^\\circ",
+         "sym": "cos(5*pi/3)",
+         "new": true
+        },
+        {
+         "tex": "&= \\cos 60^\\circ",
+         "sym": "cos(pi/3)"
+        },
+        {
+         "tex": "&= \\frac{1}{2}",
+         "sym": "1/2"
+        }
+       ]
+      },
+      {
+       "title": "Find the y co-ordinate",
+       "lines": [
+        {
+         "text": "In the fourth quadrant sin is negative."
+        },
+        {
+         "tex": "\\sin 300^\\circ",
+         "sym": "sin(5*pi/3)",
+         "new": true
+        },
+        {
+         "tex": "&= -\\sin 60^\\circ",
+         "sym": "-sin(pi/3)"
+        },
+        {
+         "tex": "&= -\\frac{\\sqrt{3}}{2}",
+         "sym": "-sqrt(3)/2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "P = \\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)"
+    },
+    "finalSym": "(Rational(1,2), -sqrt(3)/2)",
+    "answerSym": "(cos(5*pi/3), sin(5*pi/3))"
+   }
+  ]
+ }
+]

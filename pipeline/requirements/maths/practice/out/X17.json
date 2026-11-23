@@ -1,0 +1,41 @@
+[
+{"skill": "cx-conjugate-root", "problems": [{
+"question": "$z^3 - 3z^2 + 4z - 12 = 0$ is a cubic equation with real coefficients.\nGiven that $2i$ is a root, find all the roots.",
+"level": "higher", "marks": 10,
+"workedSolution": {"steps": [
+{"title": "Use the conjugate root theorem", "lines": [{"text": "The coefficients are real, so complex roots come in conjugate pairs."}, {"tex": "\\overline{2i} &= -2i", "sym": "Eq(conjugate(2*I), -2*I)", "new": true}]},
+{"title": "Find the quadratic factor from the pair", "lines": [{"text": "Sum of the pair, then product of the pair."}, {"tex": "2i + (-2i) &= 0", "sym": "Eq(2*I + (-2*I), 0)", "new": true}, {"tex": "(2i)(-2i) &= -4i^2 = 4", "sym": "Eq(expand((2*I)*(-2*I)), 4)", "new": true}, {"text": "So the quadratic factor is $z^2 + 4$."}]},
+{"title": "Divide to find the linear factor", "lines": [{"text": "Compare constant terms: $4 \\times (\\text{constant}) = -12$, so the constant is $-3$."}, {"tex": "z^3 - 3z^2 + 4z - 12 &= (z^2 + 4)(z - 3)", "sym": "Eq(z**3 - 3*z**2 + 4*z - 12, expand((z**2 + 4)*(z - 3)))", "new": true}]},
+{"title": "Read off the third root", "lines": [{"tex": "z - 3 &= 0", "sym": "Eq(z - 3, 0)", "new": true}, {"tex": "z &= 3", "sym": "Eq(z, 3)"}]}
+], "finalAnswer": "z = 2i,\\ -2i,\\ 3"},
+"finalSym": "[2*I, -2*I, 3]",
+"answerSym": "solve(Eq(z**3 - 3*z**2 + 4*z - 12, 0), z)"}]},
+{"skill": "fin-estimate", "problems": [{
+"question": "Fabric costs €$5.25$ per metre.\nFind the exact cost of $24.8$ metres of the fabric.\nBy rounding each number to the nearest whole number, estimate the cost and check that your answer is sensible.",
+"level": "ordinary", "marks": 10,
+"workedSolution": {"steps": [
+{"title": "Calculate the exact cost", "lines": [{"tex": "24.8 \\times 5.25 &= 130.2", "sym": "Rational(248,10)*Rational(525,100)", "new": true}]},
+{"title": "Round each number and estimate", "lines": [{"tex": "24.8 &\\approx 25", "sym": "25", "new": true, "approx": true}, {"tex": "5.25 &\\approx 5", "sym": "5", "new": true, "approx": true}, {"tex": "25 \\times 5 &= 125", "sym": "25*5", "new": true}]},
+{"title": "Compare", "lines": [{"text": "The estimate €$125$ is close to the exact cost €$130.20$, so the answer is sensible."}]}
+], "finalAnswer": "\\text{€}130.20 \\text{ (estimate €}125\\text{)}"},
+"finalSym": "Rational(1302,10)",
+"answerSym": "Rational(248,10)*Rational(525,100)"}]},
+{"skill": "fn-injective-surjective", "problems": [{
+"question": "The function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = 7 - 4x$.\nProve that $f$ is injective.",
+"level": "higher", "marks": 5,
+"workedSolution": {"steps": [
+{"title": "Assume two inputs give the same output", "lines": [{"text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."}, {"tex": "f(a) &= f(b)"}, {"tex": "7 - 4a &= 7 - 4b", "sym": "Eq(7 - 4*a, 7 - 4*b)", "new": true}]},
+{"title": "Solve for a", "lines": [{"tex": "-4a &= -4b", "sym": "Eq(-4*a, -4*b)"}, {"tex": "a &= b", "sym": "Eq(a, b)"}, {"text": "Different inputs always give different outputs, so $f$ is injective."}]}
+], "finalAnswer": "f(a) = f(b) \\Rightarrow a = b \\text{, so } f \\text{ is injective}"},
+"finalSym": "0",
+"answerSym": "expand((7 - 4*a) - (7 - 4*b) + 4*(a - b))"}]},
+{"skill": "geo-cor3", "problems": [{
+"question": "$A$, $B$ and $C$ are points on a circle and $[AB]$ is a diameter.\n$|AC| = 6$ cm and $|BC| = 8$ cm.\nFind the length of the diameter $|AB|$.",
+"level": "ordinary", "marks": 5,
+"workedSolution": {"steps": [
+{"title": "Use the angle in a semicircle", "lines": [{"text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."}, {"tex": "|\\angle ACB| &= 90^\\circ", "sym": "90", "new": true}]},
+{"title": "Use Pythagoras in triangle ABC", "lines": [{"tex": "|AB|^2 &= 6^2 + 8^2", "sym": "Eq(AB**2, 6**2 + 8**2)", "new": true}, {"tex": "&= 100", "sym": "Eq(AB**2, 100)"}, {"tex": "|AB| &= 10", "sym": "Eq(AB, 10)", "new": true}]}
+], "finalAnswer": "|AB| = 10 \\text{ cm}"},
+"finalSym": "10",
+"answerSym": "sqrt(6**2 + 8**2)"}]}
+]
