@@ -5,135 +5,165 @@
   "syllabusRef": "I5 P; S",
   "notes": [
     {
-      "h": "Northern Ireland's constitutional position, 1949",
-      "b": "Northern Ireland had its own parliament at Stormont from 1921, but its place in the United Kingdom was the central question for both communities.",
+      "h": "Partition, the two communities and the 1949 guarantee",
+      "b": "Northern Ireland was born of partition in 1920-21 and held two rival loyalties. The events of 1949 then fixed its place in the United Kingdom in law.",
       "points": [
-        "The Government of Ireland Act 1920 created Northern Ireland from six counties, with a devolved parliament at Stormont in Belfast; the other twenty-six counties got a separate settlement.",
+        "The Government of Ireland Act 1920 created Northern Ireland from six counties, with its own devolved parliament (a parliament with powers over local affairs) that opened in 1921, later housed at Stormont in Belfast. The other twenty-six counties got a separate settlement.",
+        "The population was split into mostly Protestant unionists, who were loyal to the Union with Britain and to the Crown, and mostly Catholic nationalists, who wanted a united Ireland. Catholics were about a third of the population (35 per cent in the 1961 census).",
         "The Republic of Ireland Act 1948 took effect on 18 April 1949, ending Ireland's membership of the Commonwealth and formally declaring the twenty-six counties a republic.",
-        "The Ireland Act 1949, passed at Westminster in response, declared that Northern Ireland would not cease to be part of the United Kingdom without the consent of its parliament.",
-        "This guarantee gave unionists a legal safeguard against a united Ireland imposed by Westminster without their consent.",
-        "Unionists held a majority in the Stormont parliament at every election from 1921 to 1972, so nationalists formed a permanent opposition.",
-        "Local government elections used first-past-the-post after the 1922 abolition of proportional representation, which helped unionists win control of councils in mixed areas.",
-        "Local election voting was restricted to ratepayers and their spouses, and company directors had extra votes, until the franchise was reformed in the late 1960s; nationalists called this the business vote.",
-        "The Stormont general election of 10 February 1949, sometimes called the chapel-gate election, was fought on the border question after the declaration of the Republic, and the Unionist Party won 37 of the 52 seats.",
-        "The Flags and Emblems (Display) Act (Northern Ireland) 1954 allowed the police to remove an Irish tricolour if its display was thought likely to cause a breach of the peace, which nationalists resented."
-      ]
+        "Westminster responded with the Ireland Act 1949, which declared that Northern Ireland would not cease to be part of the United Kingdom without the consent of the Northern Ireland parliament.",
+        "This consent guarantee gave unionists a legal safeguard against a united Ireland imposed without their agreement, so the border question seemed settled for as long as unionists held a majority at Stormont."
+      ],
+      "tip": "Do not mix up the two 1949 measures: the Republic of Ireland Act 1948 came from Dublin and took effect in April 1949, while the Ireland Act 1949 was passed at Westminster and contains the consent guarantee."
     },
     {
-      "h": "Brookeborough's government, 1943–1963",
-      "b": "Sir Basil Brooke, later Lord Brookeborough, led the Unionist government for twenty years and put stability and loyalty to the Crown first.",
+      "h": "Stormont politics and local government",
+      "b": "The Unionist Party never lost power at Stormont, and the rules for local elections helped it hold councils even where Catholics were numerous. This is the political system that Brookeborough inherited and left alone.",
       "points": [
-        "Basil Brooke became Prime Minister of Northern Ireland in 1943 and was succeeded by Terence O'Neill in 1963.",
-        "His government resisted reform of local government and the franchise, and it saw no need to change a system that kept unionists in power.",
-        "As Minister of Agriculture in the 1930s Brooke urged loyalists to employ Protestants rather than Catholics, speeches that nationalists cited for decades as evidence of sectarian attitudes at the top of the Unionist Party.",
-        "The Civil Authorities (Special Powers) Act (Northern Ireland) 1922 stayed in force, allowing detention without trial and the banning of organisations.",
-        "The Ulster Special Constabulary, including the part-time B Specials, was kept as an armed reserve alongside the Royal Ulster Constabulary, and it was almost wholly Protestant.",
-        "The Royal Ulster Constabulary was the main police force, and Catholics made up only a small minority of its ranks.",
-        "The Nationalist Party abstained from Stormont for long periods and accepted the role of official opposition only in 1965, so there was little effective challenge to the government in the 1950s.",
-        "Brooke retired in March 1963 at the age of 74 and Terence O'Neill succeeded him."
-      ]
+        "The Unionist Party governed continuously from 1921 to 1972 and held a majority at every Stormont election, so nationalists formed a permanent opposition with no chance of forming a government.",
+        "The Stormont general election of 10 February 1949 was fought on the border question after the declaration of the Republic, and is called the border election. Nationalists ran an anti-partition campaign and the Unionist Party won 37 of the 52 seats.",
+        "Proportional representation (a voting system that gives parties seats in line with their share of votes) was abolished for local elections in 1922. The first-past-the-post system that replaced it helped unionists win control of councils in mixed areas.",
+        "The local franchise (the right to vote) was limited to ratepayers and their spouses, and company directors had extra votes, known as the business vote. Reforms from 1969 removed this system, so many poorer people and lodgers had no local vote.",
+        "The Flags and Emblems (Display) Act (Northern Ireland) 1954 let the police remove a flag if its display was likely to cause a breach of the peace. It applied to any flag, but in practice the target was the Irish tricolour, which nationalists resented."
+      ],
+      "tip": "The business vote and ratepayer franchise are a separate grievance from gerrymandering, which is about boundaries. Do not say the business vote ended in a single year; say reforms from 1969 removed it."
+    },
+    {
+      "h": "Brookeborough's government, 1943-1963",
+      "b": "Basil Brooke led the Unionist government for twenty years and put stability and loyalty to the Crown first. He saw no reason to change a system that kept his party in power.",
+      "points": [
+        "Basil Brooke was Prime Minister of Northern Ireland from 1943. He was created Viscount Brookeborough in 1952, so he is only correctly called Brookeborough from then. He came from County Fermanagh and died in 1973.",
+        "His government resisted reform of local government and the franchise, because the existing system kept unionists in power and he saw no need to change it.",
+        "As Minister of Agriculture in the 1930s he urged loyalists to employ Protestants rather than Catholics, in speeches of 1933 and 1934 as reported. Nationalists cited these for decades as proof of sectarian attitudes at the top of the Unionist Party.",
+        "Brooke retired in March 1963 at the age of 74 and was succeeded as Prime Minister by Terence O'Neill."
+      ],
+      "tip": "Keep the dates straight: Brookeborough was Prime Minister 1943-63 and O'Neill took over from March 1963. Brooke was not Brookeborough until 1952. Never link his retirement to the border campaign."
+    },
+    {
+      "h": "The security state and the Nationalist Party",
+      "b": "Unionist rule rested on emergency law and a police system that nationalists did not trust. Meanwhile the opposition was too divided and too reluctant to take part to challenge the government.",
+      "points": [
+        "The Civil Authorities (Special Powers) Act (Northern Ireland) 1922 stayed in force. It allowed internment (detention without trial) and the banning of organisations, which nationalists saw as a weapon aimed at them.",
+        "The Royal Ulster Constabulary (RUC) was the regular police force, and Catholics made up only a small minority of its ranks.",
+        "The Ulster Special Constabulary, including the part-time B Specials, was kept as an armed reserve alongside the RUC. It was almost wholly Protestant, with almost no Catholics in the Specials.",
+        "The Nationalist Party abstained from Stormont for long periods (refused to take its seats) and accepted the role of official opposition only in 1965. This meant there was little effective challenge to the government in the 1950s."
+      ],
+      "tip": "Do not confuse the Special Powers Act 1922 with the Flags and Emblems Act 1954, or the part-time B Specials with the regular RUC."
+    },
+    {
+      "h": "The welfare state and parity with Britain",
+      "b": "In the 1940s, after the Second World War, Britain built a welfare state, a system in which the government pays for health care, education, housing and benefits. Northern Ireland followed it on a basis of parity, meaning its services matched Britain's.",
+      "points": [
+        "The reforms followed the Beveridge Report (1942), which set out a plan to tackle want and ill health, and the laws passed by the Labour government of 1945-51, with the main legislation coming in 1945 to 1948.",
+        "National Insurance, unemployment benefit and pensions were run on a UK-wide basis, so benefits in Northern Ireland matched those in Britain.",
+        "The principle of parity meant Stormont was expected to follow British social policy, which limited its freedom to set different rules.",
+        "The National Health Service began in Northern Ireland on 5 July 1948, the same day as in England, Scotland and Wales.",
+        "The Social Services Agreement of 1949 formalised parity. Britain's subsidy covered what Northern Ireland's own taxes could not, so the cost was met largely by the British Treasury.",
+        "The Catholic minority benefited from the same services as Protestants, but this did not remove discrimination in the allocation of houses and jobs."
+      ],
+      "tip": "For a short answer on parity, say that benefits and services matched Britain's, and give the 1949 Social Services Agreement and the NHS start date of 5 July 1948. Each correct dated point earns marks."
     },
     {
       "h": "Education: the Education Act (Northern Ireland) 1947",
-      "b": "Stormont adopted the British welfare settlement for schooling, but the system kept religious divisions and set a selection test at age eleven.",
+      "b": "Stormont copied Britain's school reforms, which opened secondary schooling to every child. The system still kept the two communities apart and selected pupils at eleven.",
       "points": [
-        "The Education Act (Northern Ireland) 1947 provided free secondary education for all pupils, extending the opportunities available to children from poorer families.",
-        "It set up a tripartite system of grammar, technical and secondary intermediate schools.",
-        "Pupils moved on at about age eleven after the eleven-plus examination, which decided who went to a grammar school.",
-        "Voluntary schools, mostly Catholic, kept their own management and received a state capital grant towards building costs of 65 per cent, while controlled schools were run by the education authorities.",
-        "The Act also extended state scholarships and grants for university study, so more Catholic students reached Queen's University Belfast from the 1950s.",
-        "Free secondary education gave Catholic children access to a wider range of qualifications, and by the 1960s a new educated Catholic middle class was emerging.",
-        "Education remained segregated by religion, so Protestant and Catholic children grew up in separate schools."
-      ]
-    },
-    {
-      "h": "Health, housing and the Housing Trust",
-      "b": "The National Health Service and the state housing programme reached Northern Ireland, but local councils controlled the allocation of council houses.",
-      "points": [
-        "The National Health Service began in Northern Ireland on 5 July 1948, the same day as in England, Scotland and Wales.",
-        "The Northern Ireland Housing Trust, set up in 1945, built houses and estates in towns and cities across the province.",
-        "The Housing Trust allocated its houses on a points system and was regarded as fair, but most council houses were allocated by local councils, and many unionist-controlled councils allocated houses in ways that favoured Protestant families.",
-        "Londonderry Corporation was controlled by unionists even though Catholics formed a majority of the city's population, because the ward boundaries were drawn in 1936 to place most Catholic voters in one ward.",
-        "Gerrymandering was the drawing of electoral boundaries so that one group's voters were concentrated in a few wards, and unionists won more seats than their share of the vote.",
-        "Catholic and Protestant families were increasingly housed in separate estates, which later made segregated housing a feature of Belfast and Derry.",
-        "In Fermanagh and Tyrone, where Catholics were roughly half the population, unionist-controlled councils also held power, a pattern nationalists cited in the 1960s."
-      ]
-    },
-    {
-      "h": "Welfare parity with Britain",
-      "points": [
-        "National Insurance, unemployment benefit and pensions were run on a UK-wide basis, so benefits in Northern Ireland matched those in Britain.",
-        "The welfare reforms of the 1940s followed the Beveridge Report (1942) and the post-war Labour government's legislation of 1945 to 1948.",
-        "The principle of parity meant Stormont was expected to follow British social policy, which limited its freedom to set different rules.",
-        "The welfare state was therefore a shared British settlement, and its cost in Northern Ireland was met largely by the British Treasury.",
-        "The Social Services Agreement of 1949 formalised parity, and the British subsidy paid for public services that Northern Ireland could not fund from its own tax revenue.",
-        "Welfare parity meant that the Catholic minority benefited from the same services as Protestants, but it did not remove discrimination in allocation and jobs."
+        "The Education Act (Northern Ireland) 1947 provided free secondary education for all pupils, so children from poorer families could stay in school beyond primary level.",
+        "It set up a tripartite (three-part) system of grammar, technical and secondary intermediate schools.",
+        "Pupils transferred at about age eleven after the eleven-plus, an examination that decided who went to a grammar school, the route to university.",
+        "Voluntary schools, mostly Catholic, kept their own management and received a state capital grant (money towards building costs only) of 65 per cent. Controlled schools were run by the education authorities.",
+        "State awards helped more Catholic students reach Queen's University Belfast from the 1950s.",
+        "Free secondary education gave Catholic children access to a wider range of qualifications, so by the 1960s a new educated Catholic middle class was emerging.",
+        "Education stayed segregated by religion, so Protestant and Catholic children grew up in separate schools."
       ],
-      "b": "The welfare reforms of the 1940s were extended to Northern Ireland on a basis of parity with Britain."
+      "tip": "Exams ask what the Education Act did and why a Catholic middle class grew: name the 1947 Act, free secondary education and the eleven-plus, then link education to the 1960s. Say the 65 per cent grant was a capital grant."
+    },
+    {
+      "h": "Housing: the Housing Trust and council housing",
+      "b": "State housing was a major gain, but who controlled allocation mattered as much as how many houses were built. The Housing Trust and the local councils behaved differently.",
+      "points": [
+        "The Northern Ireland Housing Trust was set up in 1945 and built houses and estates in towns and cities across the province.",
+        "The Trust allocated its houses on a points system (applicants scored by need) and was regarded as fair.",
+        "Most council houses, however, were allocated by local councils, and many unionist-controlled councils allocated houses in ways that favoured Protestant families. Not all housing was discriminatory.",
+        "Control of housing mattered because a house could decide where a family lived and, in places, which ward it voted in, so allocation tied housing to political power.",
+        "Catholic and Protestant families were increasingly housed in separate estates, which later made segregated housing a feature of Belfast and Derry."
+      ],
+      "tip": "Housing answers must separate the Housing Trust (fair points system) from council allocation (criticised). Do not say all housing was discriminatory."
+    },
+    {
+      "h": "Gerrymandering: the Derry example",
+      "b": "Gerrymandering was the standard example of how electoral rules could be used to keep one group in control. Derry shows it most clearly.",
+      "points": [
+        "Gerrymandering means drawing electoral boundaries so that one group's voters are concentrated in a few wards and the other group wins more seats than its share of the vote justifies.",
+        "Londonderry Corporation was controlled by unionists even though Catholics were a majority of the city's population.",
+        "The ward boundaries were redrawn in 1936 to concentrate Catholic voters in one ward, so they could win only a few seats however many Catholics there were.",
+        "Control of the council mattered because councils allocated houses and were major employers, so gerrymandering fed the housing and jobs grievances."
+      ],
+      "tip": "Explain gerrymandering with the Derry example and say why it mattered: control of the council meant control of housing and jobs."
     },
     {
       "h": "Economic decline and new industry",
-      "b": "Northern Ireland's economy depended on shipbuilding and linen, which declined from the 1950s, while new industry was concentrated in unionist areas.",
+      "b": "Northern Ireland's economy depended on old industries that declined from the 1950s. The new industry that replaced some of them was not spread evenly.",
       "points": [
         "Harland and Wolff, Belfast's main shipyard, had built the Titanic, completed in 1912, but its workforce shrank in the post-war decades as shipbuilding declined.",
-        "Linen manufacturing, once a major employer in County Antrim and the Lagan valley, declined as cheaper foreign competition and synthetic fibres spread.",
-        "Unemployment in Northern Ireland stayed above the UK average and was the highest of any UK region for much of the period.",
+        "Linen manufacturing, once a major employer, declined as cheaper foreign competition and synthetic fibres spread.",
+        "Unemployment stayed well above the UK average, and emigration drained the province of young people, so the economy lagged behind Britain throughout the Brookeborough years.",
         "The Stormont government offered grants and incentives to attract new industry, including man-made fibre plants and aircraft production at Short Brothers.",
-        "Most new industrial investment was placed in the Belfast area and towns east of the River Bann, leaving the largely Catholic west, including Derry, with fewer jobs.",
-        "Emigration drained the province of young people, and the economy lagged behind Britain throughout the Brookeborough years.",
+        "Most new investment went to the Belfast area and towns east of the River Bann, so the largely Catholic west, including Derry, had fewer jobs.",
         "Agriculture remained a large employer, and the farming economy was supported by British agricultural subsidies."
-      ]
+      ],
+      "tip": "Economic answers should name the old industries (shipbuilding, linen), unemployment and emigration, government grants, and the imbalance east and west of the Bann. Say unemployment was well above the UK average, not that it was the highest in every year."
     },
     {
       "h": "Discrimination in employment and public life",
-      "b": "Catholics made up about a third of the population but were under-represented in public employment, policing and senior posts.",
+      "b": "Discrimination means unequal treatment of Catholics, and it was the main grievance of the minority. Historians and contemporaries disagreed about how far it went.",
       "points": [
-        "Catholics made up about a third of the population of Northern Ireland, 35 per cent in the 1961 census.",
-        "Catholics were under-represented in the Royal Ulster Constabulary and in senior civil service posts.",
+        "Catholics made up about a third of the population but were under-represented in the RUC, in senior civil service posts and in local-council posts.",
         "Some large private employers, especially in Belfast's shipyards and engineering works, employed very few Catholics.",
-        "Nationalists argued that Stormont treated the minority as second-class citizens and that discrimination was systematic.",
+        "Local councils in unionist hands were also major employers, and nationalists complained that they hired few Catholics for senior posts.",
+        "Nationalists argued that Stormont treated the minority as second-class citizens and that discrimination in housing, jobs and local voting was systematic.",
         "Unionists argued that discrimination was exaggerated and that Catholics had equal access to state services and to the vote.",
-        "Unionist governments saw the Specials and the RUC as essential defences against republican violence, not as sectarian forces.",
-        "Local councils in Unionist hands were also major employers, and nationalists complained that they too hired few Catholics for senior posts."
-      ]
-    },
-    {
-      "h": "The IRA border campaign, 1956–1962",
-      "b": "The IRA's Border Campaign was an attempt to end partition by force, and it failed to win popular support.",
-      "points": [
-        "The IRA launched its campaign, codenamed Operation Harvest, in December 1956, with attacks on RUC barracks, customs posts and border installations.",
-        "The campaign aimed to end partition by force, but it attracted little support from the nationalist community.",
-        "Stormont introduced internment without trial in 1957, and the Dublin government also acted against IRA activity in the Republic.",
-        "The campaign began with raids such as the attack on Brookeborough RUC barracks on 1 January 1957, in which the IRA men Seán South and Feargal O'Hanlon were killed; both became republican martyrs and South was remembered in song.",
-        "The IRA Army Council called off the campaign in February 1962, after which the movement was weak for several years.",
-        "The failure led some republicans to rethink their strategy, and in the 1960s a faction turned towards left-wing politics and social campaigns.",
-        "The campaign was mostly confined to the border counties, and its members were largely rounded up under internment north and south of the border."
-      ]
+        "Unionist governments saw the Specials and the RUC as essential defences against republican violence, not as sectarian forces, which is why they rejected criticism of the security forces."
+      ],
+      "tip": "Exams reward both interpretations: nationalists said discrimination was systematic, unionists said it was exaggerated and that security needs explained the police. Give no percentages for Catholics in the RUC or civil service."
     },
     {
       "h": "Sectarianism in everyday life",
-      "b": "Sectarianism was the hostility between Protestants and Catholics that shaped jobs, housing, marriage and social life in Northern Ireland.",
+      "b": "Sectarianism is hostility and discrimination between Protestants and Catholics, tied to political allegiance. It shaped where people lived, worked and went to school.",
       "points": [
-        "The Belfast riots of 1920 to 1922 killed hundreds of people and left lasting memories of violence on both sides.",
-        "The Orange Order and the Ancient Order of Hibernians were the main Protestant and Catholic fraternal bodies, each with a political dimension.",
         "Religious segregation in schools, housing and workplaces meant that most people had little regular contact with the other community.",
+        "The Orange Order (Protestant) and the Ancient Order of Hibernians (Catholic) were the main fraternal bodies, each with a political dimension.",
         "Mixed marriages were uncommon, and religious differences were a factor in many social and personal decisions.",
         "Sectarian prejudice was strongest in working-class areas where jobs and houses were scarce and rival communities lived side by side.",
-        "Parades and the display of flags marked out territory, so symbols of identity were also symbols of division."
+        "Parades and the display of flags marked out territory, so symbols of identity were also symbols of division.",
+        "The Belfast riots of 1920 to 1922, which killed hundreds, were background memory of violence that both sides carried into the 1950s."
       ]
     },
     {
-      "h": "Assessment: Brookeborough's achievements and failures",
+      "h": "The IRA border campaign, 1956-1962",
+      "b": "The IRA's Border Campaign, called Operation Harvest, was an attempt to end partition by force. It failed to win popular support and ended in defeat.",
       "points": [
-        "Achievement: the welfare reforms in health, education and housing raised living standards for citizens across Northern Ireland.",
-        "Achievement: Stormont kept political stability through the 1950s, with no sustained challenge to the Union, and it defeated the IRA border campaign.",
-        "Failure: the Catholic minority continued to face discrimination in housing, jobs and local voting, and this grievance was later taken up by the civil rights movement.",
-        "Failure: the economy stayed weak, with unemployment and emigration above the UK level, and new industry was poorly distributed between east and west.",
-        "Contemporary view: unionists praised Brooke's stability and his loyalty to the Crown, and his supporters saw his government as the guardian of the Union.",
+        "The IRA launched the campaign in December 1956 with attacks on RUC barracks, customs posts and border installations. Its aim was to end partition by force.",
+        "On 1 January 1957 the IRA raided Brookeborough RUC barracks. Seán South and Feargal O'Hanlon were killed and became republican martyrs, and South was commemorated in a ballad.",
+        "Internment without trial was introduced in the North in 1957, and the Republic also interned IRA men that year, so the IRA was hit on both sides of the border.",
+        "The campaign attracted little support from the nationalist community, which is why it failed, and its members were largely rounded up under internment north and south.",
+        "The IRA Army Council called off the campaign in February 1962, after which the movement was weak for several years.",
+        "The failure led some republicans to rethink their strategy, and a faction turned towards left-wing politics and social campaigns in the 1960s."
+      ],
+      "tip": "The campaign is usually one point inside a wider 1950s answer, so a short dated paragraph is enough: start in December 1956, aim, internment, end in February 1962. Do not confuse Operation Harvest with the Provisional IRA campaign from 1970."
+    },
+    {
+      "h": "Assessment: Brookeborough's achievements and failures",
+      "b": "Brookeborough's record can be judged by what his government delivered and what it left untouched. Contemporaries and later historians weigh these differently.",
+      "points": [
+        "Achievement: the welfare reforms in health, education and housing raised living standards for citizens of both communities across Northern Ireland.",
+        "Achievement: Stormont kept political stability through the 1950s, with no sustained challenge to the Union, and the IRA border campaign was defeated.",
+        "Failure: discrimination in housing, jobs and local voting, and gerrymandering, were left untouched, and this grievance was later taken up by the civil rights movement.",
+        "Failure: the economy stayed weak, with unemployment and emigration, and new industry was poorly distributed between east and west. There was no outreach to Catholics.",
+        "Contemporary view: unionists praised Brooke's stability and loyalty to the Crown, and saw his government as the guardian of the Union.",
         "Contemporary view: nationalists condemned the Special Powers Act and discrimination as proof that the state was sectarian.",
-        "Later view: historians stress that the welfare reforms were real, but that the failure to share power meant they could not satisfy the Catholic community.",
-        "Achievement: the 1947 education reforms and the NHS gave Catholic and Protestant families alike better health and wider opportunities."
-      ]
+        "Later view: historians stress that the welfare gains were real, but that without power sharing or reform the grievances stayed alive and fed the civil rights movement of the 1960s."
+      ],
+      "tip": "Examiners want a clear verdict: successes (stability, welfare reforms, the IRA defeated) set against failures (no reform of discrimination, a poor economy, no outreach to Catholics)."
     }
   ],
   "keyTerms": [

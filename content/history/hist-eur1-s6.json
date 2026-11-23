@@ -5,122 +5,376 @@
   "syllabusRef": "E1 P",
   "notes": [
     {
-      "h": "The restored Bourbons and the Charter, 1814–1830",
-      "b": "After Napoleon's first abdication the Bourbon monarchy was restored, but it accepted a constitution. Its later refusal to respect that constitution brought the July Revolution of 1830.",
+      "h": "Background: the legacy France inherited in 1815",
+      "b": "Every French regime after 1815 had to live with the memory of the Revolution of 1789 and of Napoleon I. This inheritance explains why no government was ever fully accepted by the whole country.",
       "points": [
-        "Louis XVIII returned to the throne in 1814 and issued the Charter (Charte constitutionnelle) in June, which kept many Napoleonic institutions and set up a two-chamber legislature, with the king alone proposing laws.",
-        "The franchise under the Charter was very narrow: only men who paid high direct taxes could vote, so the electorate was a small minority of wealthy property owners.",
-        "Louis XVIII's government carried out a White Terror in 1815 against Bonapartists and Revolutionaries, with summary violence and reprisals, especially in the south.",
-        "Charles X succeeded in 1824 and tried to restore the authority of the Church and the nobility, passing a law on sacrilege (1825) and compensating the émigrés for lands lost in the Revolution.",
-        "The elections of 1827 returned a liberal opposition majority against the government, and in August 1829 Charles X appointed Prince Polignac, whose ministry lacked support in the chamber.",
-        "On 25 July 1830 Charles X issued the July Ordinances, which dissolved the Chamber, restricted the press and changed the electoral rules.",
-        "Paris rose on 27–29 July 1830 (the Three Glorious Days), and Charles X abdicated on 2 August and went into exile in Britain; his one lasting success was the conquest of Algiers in 1830."
+        "The Revolution of 1789 put forward liberty, equality and the sovereignty of the people (the idea that power belongs to the nation, not to a king). The First Republic followed in 1792, and Louis XVI was executed in January 1793.",
+        "It left France divided between those who accepted the Revolution and those, the nobles and much of the Church, who rejected it, so every later regime was contested from the start.",
+        "Napoleon I was crowned Emperor in December 1804. He left behind the Code Napoléon (the Civil Code of 1804), a centralised administration run by prefects (officials appointed by the government to run each department) and the Concordat of 1801, an agreement with the Church.",
+        "After his final defeat at Waterloo on 18 June 1815 and exile to St Helena, where he died in 1821, a Napoleonic legend of glory and order grew up, which his nephew later used to win support.",
+        "The Vienna settlement restored the Bourbons under the principle of legitimacy (the idea that the rightful old dynasties should be returned to their thrones). It left France a defeated power under Allied occupation until 1818 (the Congress of Aix-la-Chapelle ended it), so the Bourbons were later identified with foreign bayonets.",
+        "France was highly centralised and Paris dominated it, so a rising in Paris could overthrow a government. This pattern repeats in 1830, 1848 and 1870.",
+        "The population was about 30 million in 1815 and about 35 million by 1848. Most people were peasants, many owning small farms gained since the Revolution, and they were socially conservative, which often put the provinces at odds with radical Paris."
       ]
     },
     {
-      "h": "The July Monarchy of Louis-Philippe, 1830–1848",
+      "h": "Key concepts: liberalism, democracy, autocracy and the rival groups",
+      "b": "Four ideas and five political camps run through the whole period. Knowing exactly what each word meant in France stops the regimes from blurring together.",
       "points": [
-        "The liberal deputies chose Louis-Philippe, Duke of Orléans, as King of the French, which made the monarchy a constitutional one with a middle-class character.",
-        "The 1831 electoral law lowered the tax qualification, which raised the electorate from roughly 100,000 to about 170,000, and it had reached about 240,000 by 1848, still under 1 per cent of the population.",
-        "François Guizot, the leading minister from 1840 to 1848, opposed any further extension of the vote and urged the middle class to enrich themselves through work and thrift.",
-        "The opposition used the banquet campaign of 1847–48, public dinners at which reform was demanded, to put pressure on the government.",
-        "Guizot banned a banquet planned for Paris in February 1848, and the ban led directly to the crowds that brought down the July Monarchy.",
-        "Opposition came from legitimists, Bonapartists and republicans, and the regime met workers' risings in Lyon (1831 and 1834) and an assassination attempt in 1835 that led to repressive press laws.",
-        "An economic crisis in 1846–47, with poor harvests and unemployment, weakened the regime before the banquet campaign."
+        "Liberalism means constitutional government, an elected parliament, civil liberties such as a free press, and limits on the ruler. In France it meant the Charter, then the July Monarchy, with a vote restricted to property owners.",
+        "Democracy means rule by the people through representatives elected by all adult men in this period. In France it meant universal male suffrage (the vote for all men), which came in 1848.",
+        "Autocracy means rule by one person whose power is not limited by a parliament or constitution. The early Second Empire was authoritarian with autocratic features, though it rested on plebiscites and kept an elected but weak legislature.",
+        "Ultras were extreme royalists who wanted the old order back. Legitimists supported the senior Bourbon line, and Orleanists supported Louis-Philippe, who came from the Orléans branch of the royal family.",
+        "Bonapartists wanted the Bonaparte family restored, and republicans wanted a republic. The rivalry of all five groups is a main cause of instability, because each regime was hated by at least two camps.",
+        "A plebiscite is a yes/no vote of all voters on a single question. Bonapartism combined strong personal rule with universal male suffrage and plebiscites, promising order and prosperity.",
+        "Liberalism is not democracy. The July Monarchy was liberal but not democratic, while the Second Empire was democratic in its franchise but not liberal until the 1860s."
+      ],
+      "tip": "Keep liberalism and democracy apart in essays: liberal means rights and a parliament with a property franchise, democratic means the vote for all men."
+    },
+    {
+      "h": "The restored Bourbons and the Charter, 1814-1815",
+      "b": "After Napoleon's first abdication the Bourbon monarchy was restored, but it accepted a constitution. The compromise was fragile because the franchise was tiny and 1815 brought violent revenge.",
+      "points": [
+        "Louis XVIII, brother of the executed Louis XVI, returned to France in April-May 1814. Napoleon's Hundred Days (his return to Paris in March 1815) interrupted his rule, and after Waterloo the second restoration followed in July 1815. Louis XVIII died in 1824.",
+        "He issued the Charter (Charte constitutionnelle) on 4 June 1814. It was a constitution granted by the king, not won from him, and it set up two chambers: a Chamber of Peers appointed by the king and an elected Chamber of Deputies.",
+        "Under the Charter the king alone proposed laws and appointed ministers, so real power stayed with the crown. Civil equality and some liberties were guaranteed, and Catholicism was the state religion with other faiths tolerated.",
+        "The Charter kept many Napoleonic institutions, including the Napoleonic Code and the Concordat, and it accepted the sale of Church and noble lands during the Revolution. This reassured the many families who had gained from the Revolution.",
+        "The franchise was very narrow. Men aged 30 or over paying 300 francs a year in direct taxes could vote, and candidates had to be 40 or over and pay 1,000 francs, so the electorate was only about 90,000-100,000 wealthy property owners in a country of about 30 million.",
+        "In 1815 royalist mobs carried out the White Terror, killing Bonapartists, Protestants and former revolutionaries, mainly in the south. The government followed with an official purge, and Marshal Ney was tried and shot in December 1815."
+      ],
+      "tip": "On the White Terror, say that royalist mobs carried it out and that the government followed with purges. Do not say the government carried out the killings."
+    },
+    {
+      "h": "The Ultras and Charles X, 1820-1827",
+      "b": "Within a few years the Ultras, the extreme royalists who wanted to undo the Revolution, gained the upper hand. Under Charles X the monarchy came to look like a return to the old regime, which pushed moderates into opposition.",
+      "points": [
+        "The Duc de Berry, nephew of Louis XVIII and heir in the next generation, was murdered on 13 February 1820. The Ultras, led by the Comte d'Artois (the future Charles X), used the murder to press for a harder line.",
+        "The Law of the Double Vote (1820) let the richest quarter of voters vote twice, which strengthened the wealthy landowners who backed the Ultras, and censorship was tightened. Villèle was chief minister from 1822 to 1828, so the Ultras ran the government.",
+        "Charles X was king from 1824 to 1830 and was crowned at Reims in 1825 with the old ceremony of the monarchy. This signalled a return to the old regime and to Church power.",
+        "In 1825 he passed a law on sacrilege (a crime of profaning Church objects or rites) and paid compensation to the émigrés (nobles who fled the Revolution) for their lost lands. It was often called the émigrés' billion, about one billion francs.",
+        "In 1827 he disbanded the Paris National Guard (the citizen militia of Paris, a force of the middle class). Together with the laws of 1825, this convinced many that he aimed to restore the authority of the Church and the nobility."
+      ],
+      "tip": "Examiners ask for the causes of each regime change with dated evidence, so learn the Charles X measures (sacrilege law, émigrés' compensation, National Guard disbanded) as evidence of why the Restoration lost support."
+    },
+    {
+      "h": "Growing opposition to Charles X, 1827-1830",
+      "b": "From 1827 the government steadily lost the support of the electorate. Charles X chose confrontation over compromise, and this chain of events led to the ordinances that brought him down.",
+      "points": [
+        "The elections of November 1827 went against the government and Villèle resigned in January 1828. The anti-Villèle majority joined liberals and discontented royalists, so it was a coalition against the Ultras and not a purely liberal victory.",
+        "Martignac's moderate ministry (1828-29) was brief, because Charles X would not work with it or give it real support.",
+        "In August 1829 Charles X appointed Prince Jules de Polignac, a leading Ultra whose ministry lacked support in the Chamber. This was a deliberate challenge to the elected deputies.",
+        "In March 1830 the Address of the 221 deputies told the king that the ministry lacked the Chamber's confidence. The king dissolved the Chamber, but the elections of June-July 1830 increased the opposition.",
+        "Algiers was captured on 5 July 1830, the start of the French conquest of Algeria, and his one lasting success. It came too late to save Charles X, because the election result had already gone against him."
+      ],
+      "tip": "Do not say the 1827 elections returned a liberal majority. Say they went against the government and Villèle resigned."
+    },
+    {
+      "h": "The July Ordinances and the July Revolution, 1830",
+      "b": "Faced with a hostile Chamber, Charles X chose to break the Charter instead of accepting defeat. Paris rose within days, which is the clearest example of a trigger (the Ordinances) acting on deeper causes.",
+      "points": [
+        "On 25 July 1830 (published 26 July) Charles X issued the July Ordinances. They suspended freedom of the press, dissolved the newly elected Chamber, changed the electoral law to cut the electorate, and called new elections.",
+        "A group of journalists led by Adolphe Thiers of Le National published a protest. Press freedom was at stake, so newspaper workers, printers and students were among the first to join the crowds.",
+        "Paris rose on 27-29 July 1830, the Three Glorious Days (Les Trois Glorieuses). Barricades went up across the city, and the king's troops could not hold it.",
+        "Charles X abdicated on 2 August 1830 and went into exile in Britain, the end of the Bourbon senior line's rule.",
+        "Louis-Philippe, Duke of Orléans, was made Lieutenant-General of the kingdom on 31 July and King of the French on 9 August 1830, with the help of liberal deputies, Thiers and Lafayette. Liberal leaders chose him to prevent a republic.",
+        "The Restoration fell because it was identified with the nobles, the Church and foreign bayonets (the Allied armies that had restored it). Charles X had broken the Charter, the narrow franchise left most men outside politics, and Paris rose."
+      ],
+      "tip": "Name the trigger and the deeper cause for each regime change. For 1830 the trigger is the July Ordinances and the deeper causes are the identification with nobles and Church, the broken Charter and the narrow franchise."
+    },
+    {
+      "h": "The July Monarchy of Louis-Philippe: a bourgeois monarchy, 1830-1848",
+      "b": "The new regime accepted the Revolution's symbols but kept power in the hands of the wealthy middle class (the bourgeoisie). It was liberal but not democratic, a distinction that explains why it fell.",
+      "points": [
+        "Louis-Philippe was called King of the French, not of France, to show his throne rested on the nation and not on divine right. The tricolour (the Revolution's red, white and blue flag) was restored. He came from the Orléans branch, not the senior Bourbon line.",
+        "The Charter was revised in 1830. Catholicism became only the religion of the majority of the French and no longer the state religion, and censorship was abolished.",
+        "Under the revised Charter both chambers could propose laws and the king lost the power to issue ordinances suspending laws, so the July Ordinances could not be repeated.",
+        "It was called a bourgeois monarchy or the citizen king's regime because it served the wealthy middle class. It followed the juste milieu (middle way) between the old Ultras and the republicans.",
+        "The 1831 electoral law cut the voting qualification from 300 to 200 francs, so more men could vote. The electorate rose from about 100,000 to about 170,000 in 1831 and to about 240,000-250,000 by 1846-48, still under 1 per cent of the population."
+      ],
+      "tip": "Ordinary Level questions ask who replaced Charles X: it was Louis-Philippe. Learn the regime sequence and dates exactly: Louis XVIII, Charles X, Louis-Philippe, Second Republic, Napoleon III, Third Republic."
+    },
+    {
+      "h": "Opposition and unrest under the July Monarchy, 1831-1840",
+      "b": "The regime disappointed everyone outside the narrow circle of voters. From the start it faced risings and plots from every camp, and met them with repression.",
+      "points": [
+        "The Lyon silk workers (canuts) rose in November 1831 and April 1834 over wages and conditions. Their risings were put down by force, so workers learned that they had no voice under a property franchise.",
+        "Republicans rose in Paris in June 1832 and again in April 1834. The April 1834 rising included the massacre in the rue Transnonain in Paris, which hardened republican hatred of the regime.",
+        "Legitimists, supporters of the senior Bourbon line, rose in 1832 under the Duchesse de Berry. Bonapartists plotted too, for example Louis-Napoleon's attempts at Strasbourg (1836) and Boulogne (1840) both failed.",
+        "Fieschi's attempt to assassinate the king on 28 July 1835 led to the September Laws of 1835, which restricted the press. The regime responded to danger by cutting freedoms, which fed the republican opposition."
       ]
     },
     {
-      "h": "The February Revolution and the Second Republic, 1848",
+      "h": "Guizot and a regime without glory, 1840-1847",
+      "b": "In the 1840s the July Monarchy became rigid. Its dominant minister refused all reform, and its cautious foreign policy bored a country that remembered Napoleonic glory.",
       "points": [
-        "Fighting in Paris on 22–24 February 1848 brought barricades, the defection of much of the National Guard and the dismissal of Guizot, and Louis-Philippe abdicated on 24 February.",
-        "A provisional government was proclaimed the Second Republic on 24 February 1848, with the poet Alphonse de Lamartine as one of its leading members.",
-        "The provisional government granted universal male suffrage on 2 March 1848, which raised the electorate from about 250,000 to about 9 million men.",
-        "National Workshops (Ateliers nationaux) were set up in late February 1848 to give work to the unemployed, which became a heavy cost to the government and a target for conservatives.",
-        "The National Workshops were closed in June 1848, and workers resisted the closure with the June Days (23–26 June 1848), an insurrection in Paris.",
-        "General Louis-Eugène Cavaignac, given emergency powers, crushed the June Days with troops, leading to many deaths and thousands of arrests."
+        "François Guizot was the leading minister from October 1840 and head of the government in name from 1847. He refused any widening of the vote and opposed lowering the tax qualification, so only the wealthy kept political power.",
+        "His advice to those who wanted the vote is remembered as enrich yourselves, by work and saving. It summed up a regime that told the middle class to prosper instead of asking for political rights.",
+        "Guizot governed by patronage (giving jobs and favours to win loyalty) and a docile chamber. Bribery scandals involving former ministers in 1847 damaged the regime's reputation.",
+        "The regime had a cautious, peaceful foreign policy that was seen as weak. In a speech of 1839 Alphonse de Lamartine said France is bored (La France s'ennuie).",
+        "In December 1840 Napoleon I's remains were brought back from St Helena and placed in Les Invalides. The ceremony fed the Napoleonic legend, so a memory of glory was alive for his nephew to use."
       ]
     },
     {
-      "h": "The presidency and Louis-Napoleon's election, 1848–1851",
+      "h": "Crisis, the banquet campaign and the fall of the July Monarchy, 1846-1848",
+      "b": "A harsh economic downturn hit a regime that already refused reform. The opposition found a way to campaign, and the government's response set off the revolution.",
       "points": [
-        "A constitution of November 1848 established a president elected by universal male suffrage for a single four-year term, with a single-chamber Legislative Assembly.",
-        "Louis-Napoléon Bonaparte, nephew of Napoleon I, was elected president on 10 December 1848 with about three-quarters of the vote, beating Cavaignac.",
-        "Louis-Napoléon had been imprisoned at Ham after an attempted rising at Boulogne in 1840, and he had lived in exile in Britain and elsewhere.",
-        "The Party of Order, made up of monarchists and conservatives, won a large majority in the Legislative Assembly elections of May 1849.",
-        "The Falloux Law (March 1850) gave the Catholic Church a major role in education, and in May 1850 the conservative majority restricted the franchise, removing about three million voters.",
-        "Louis-Napoléon's campaign to change the constitution to allow his re-election failed in the Assembly in July 1851."
+        "The potato disease of 1845-46 and the bad harvest of 1846 caused high food prices. Industrial and financial depression in 1847 added unemployment, so the poor suffered at the same time as the regime's reputation fell.",
+        "From July 1847 the opposition ran a banquet campaign for electoral reform. Public dinners were used to demand reform, so the campaign put pressure on the government.",
+        "The Paris banquet set for 22 February 1848 was banned, and the ban led directly to the crowds that brought down the July Monarchy.",
+        "The July Monarchy fell because of its narrow base and its refusal to reform. The economic crisis, the loss of the National Guard's loyalty and a Paris rising finished it."
+      ],
+      "tip": "For the 1848 regime change, the trigger is the banquet ban of February 1848. The deeper causes are the narrow franchise, the refusal to reform and the economic crisis."
+    },
+    {
+      "h": "The February Revolution and the proclamation of the Second Republic, 1848",
+      "b": "In three days of fighting the July Monarchy collapsed. A republic was declared at once, and Paris's example set off revolutions elsewhere in Europe.",
+      "points": [
+        "The February Days ran from 22 to 24 February 1848, with crowds and barricades in Paris. Guizot was dismissed on 23 February, and that evening troops fired on a crowd on the Boulevard des Capucines, killing dozens, whose bodies were paraded through Paris.",
+        "The National Guard sided with reform, so the king lost the force he relied on. Louis-Philippe abdicated on 24 February in favour of his grandson, the Count of Paris, and fled to England, where he died in 1850.",
+        "A republic was proclaimed at the Hôtel de Ville on 24 February 1848. The Provisional Government included Lamartine (foreign affairs), Alexandre Ledru-Rollin (interior), the socialist Louis Blanc and the worker Albert.",
+        "The revolution in Paris set off risings in other parts of Europe in 1848."
       ]
     },
     {
-      "h": "The coup and the Second Empire, 1851–1860",
+      "h": "Early reforms and the National Workshops, 1848",
+      "b": "The Provisional Government tried to satisfy both middle-class republicans and workers. Its measures were bold but they split the country between Paris and the provinces.",
       "points": [
-        "On 2 December 1851 Louis-Napoléon carried out a coup d'état, arresting deputies and dissolving the Assembly, and armed resistance in Paris and the provinces was suppressed.",
-        "A plebiscite in December 1851 approved the coup by a very large majority and a new constitution of January 1852 gave the president a ten-year term and wide powers; the plebiscite of November 1852 approved the restoration of the empire.",
-        "Louis-Napoléon proclaimed the Second Empire on 2 December 1852 and took the name Napoleon III, with the title of Emperor of the French.",
-        "The Second Empire in its early years was authoritarian: the press was censored, political opponents were exiled, and elections were controlled by official candidates.",
-        "The Crédit Mobilier, founded in 1852 by the Pereire brothers, financed railways, industry and urban development, and rapid economic growth followed in the 1850s.",
-        "The Paris Exposition of 1855 and the rebuilding of Paris under Haussmann showed the regime's commitment to modern economy and prestige.",
-        "Napoleon III married Eugénie de Montijo in 1853, and the regime promoted railway building and large public works."
+        "Universal male suffrage for men aged 21 or over came by the decree of 5 March 1848. It raised the electorate from about 250,000 to about 9 million, which made France the most democratic state in Europe in its franchise.",
+        "Other reforms included the abolition of slavery in the colonies in April 1848 (under Victor Schoelcher), the cutting of the working day to ten hours in Paris (decree of 2 March 1848) and the abolition of the death penalty for political offences.",
+        "The government recognised a right to work and set up the Luxembourg Commission on labour, chaired by Louis Blanc, to consider workers' conditions.",
+        "National Workshops (Ateliers nationaux) were set up by the decree of 26 February 1848 to give work to the unemployed. Numbers passed 100,000 in Paris by June 1848, so the cost grew very fast.",
+        "Pay was low and much of the work was unproductive earth-moving, so the workshops became a heavy cost to the government and a target for conservative hostility.",
+        "The 45-centime tax, a 45 per cent surcharge on direct taxes in March 1848, fell mainly on peasants. It angered them against the Paris government, so the provinces turned against Paris.",
+        "The Constituent Assembly was elected on 23 April 1848 with high turnout. It had a moderate republican and conservative majority, and socialists did badly. A crowd invaded the Assembly on 15 May 1848."
+      ],
+      "tip": "Date universal male suffrage to 5 March 1848 or just March 1848. The decree of 2 March cut the working day in Paris."
+    },
+    {
+      "h": "The June Days and the move to the right, 1848",
+      "b": "The conservative Assembly turned on the workshops, and the workers of Paris answered with a rising. Its defeat shaped everything that followed.",
+      "points": [
+        "The closure of the National Workshops was announced on 21 June 1848, with young members told to join the army or go to the provinces. Workers resisted, so the closure sparked the June Days.",
+        "The June Days (23-26 June 1848) were an insurrection in Paris. General Louis-Eugène Cavaignac was given full powers and crushed it with troops.",
+        "Archbishop Affre of Paris was shot on the barricades on 25 June while trying to make peace. Thousands were killed, thousands arrested and several thousand transported to Algeria.",
+        "The June Days alienated workers from the republic, because it was a republican government that had shot them.",
+        "Property owners and peasants became afraid of the reds (radical and socialist republicans). France moved to the right, and this fear gave Louis-Napoleon his chance."
+      ],
+      "tip": "Cavaignac crushed the June Days (1848) while MacMahon crushed the Commune (1871). The June Days were a rising crushed by a republican government, not a successful revolution."
+    },
+    {
+      "h": "The constitution of November 1848 and the election of Louis-Napoleon",
+      "b": "The Republic's constitution made one man the head of the state, chosen by all men. That gave a well-known name an overwhelming advantage.",
+      "points": [
+        "The constitution of 4 November 1848 set up a president elected by universal male suffrage for four years, not immediately re-eligible, and a single-chamber Legislative Assembly of 750.",
+        "Because both the president and the Assembly were elected by the people, each could claim to speak for the nation, which set up a conflict between them.",
+        "His name was already known: Louis-Napoleon Bonaparte, nephew of Napoleon I, had been elected to the Assembly in by-elections in June and September 1848.",
+        "On 10 December 1848 he was elected president with about 5.4 million votes, about 74 per cent. Cavaignac won about 1.4 million, Ledru-Rollin about 370,000 and Lamartine under 20,000.",
+        "He won because of his famous name, peasant votes, conservative backing and a vague programme, while the other candidates had been discredited."
       ]
     },
     {
-      "h": "The liberal Empire and foreign policy, 1860–1870",
+      "h": "The presidency, 1849-1851",
+      "b": "For three years the president worked with a conservative Assembly, but their aims drifted apart. The Assembly's conservative laws gave him the issue he needed.",
       "points": [
-        "The Cobden–Chevalier Treaty of 1860 with Britain reduced French tariffs, opening French markets to British goods and encouraging French industry to modernise.",
-        "From 1860 the regime gave the legislature more freedom to debate, and in 1864 it legalised the right to strike, though trade unions remained illegal; the press law of 1868 relaxed censorship.",
-        "France fought in the Crimean War (1854–56) as Britain's ally and it helped Piedmont in 1859, which led to the French gains of Nice and Savoy in 1860.",
-        "Napoleon III's plan for a French-backed empire in Mexico under the Habsburg Archduke Maximilian collapsed, French troops withdrew by 1867, and Maximilian was executed by Mexican republicans.",
-        "Napoleon III's government lost prestige after the Austrian war of 1866 and the Prussian victory, which had changed the balance of power in Europe.",
-        "Émile Ollivier formed a liberal ministry in 1870, and a plebiscite in May 1870 approved the liberal reforms by a large majority."
-      ]
+        "In July 1849 French troops under General Oudinot took Rome, crushed the Roman Republic and restored the rule of Pius IX, which won Catholic support for Louis-Napoleon.",
+        "In May 1849 the Party of Order (monarchists and conservatives) won a clear majority, about 450 of 750 seats. The democratic-socialists, the Montagne, won a substantial minority.",
+        "Ledru-Rollin's protest rising in Paris on 13 June 1849 failed and he fled to exile in London.",
+        "The Falloux Law of 15 March 1850 gave the Catholic Church a large role in education. It showed that the Party of Order put Church influence first, such as in schooling.",
+        "The electoral law of 31 May 1850 required three years' residence, removing about 3 million voters, mostly workers. Louis-Napoleon later posed as the defender of universal suffrage against the Assembly.",
+        "In July 1851 a majority of the Assembly voted to let him stand again, but fell short of the three-quarters the constitution required, so the revision failed."
+      ],
+      "tip": "Do not mix up the assemblies: the Constituent Assembly (April 1848) wrote the constitution, the Legislative Assembly (May 1849) had the Party of Order, the Corps législatif belonged to the Second Empire, and the National Assembly was elected in February 1871."
+    },
+    {
+      "h": "The coup and the Second Empire, 1851-1852",
+      "b": "Blocked by the constitution, Louis-Napoleon seized power by force and then asked the voters to approve it. Each step was endorsed by a plebiscite.",
+      "points": [
+        "On 2 December 1851 Louis-Napoléon carried out a coup d'état. The date was the anniversary of Napoleon I's coronation (1804) and of Austerlitz (1805).",
+        "Charles de Morny, his half-brother, was Minister of the Interior. Deputies were arrested, including Thiers and Cavaignac, the Assembly was dissolved, and universal male suffrage was restored to win popular support.",
+        "Resistance came with barricades in Paris on 3-4 December, where the deputy Baudin was killed and troops fired on crowds on the boulevards, and with risings in parts of the centre and south.",
+        "About 26,000-27,000 people were arrested and thousands were transported to Algeria or French Guiana, so resistance was broken.",
+        "A plebiscite on 20-21 December 1851 approved the coup by about 7.4 million yes to about 640,000 no. The constitution of 14 January 1852 gave a ten-year presidency, a Senate, a Council of State and a weak elected Corps législatif.",
+        "In his Bordeaux speech on 9 October 1852 he said the Empire means peace (L'Empire, c'est la paix). A plebiscite on 21-22 November 1852 approved the Empire by about 7.8 million yes to about 250,000 no.",
+        "The Second Empire was proclaimed on 2 December 1852. Louis-Napoléon took the name Napoleon III, with the title Emperor of the French."
+      ],
+      "tip": "There are two 2 December events (the coup in 1851 and the Empire in 1852) and three plebiscites under Louis-Napoleon (December 1851, November 1852, May 1870). Do not mix their figures."
     },
     {
       "h": "Key personality: Napoleon III",
-      "b": "Napoleon III was a participant in the political events of 1848 to 1870 and a symbol of the French regime. Contemporaries and historians disagree about whether he was a modernising leader or an autocrat who led France into disaster.",
+      "b": "Napoleon III was a participant in the political events of 1848 to 1870 and the central figure of the regime. Contemporaries and historians disagree about whether he was a modernising leader or an autocrat who led France into disaster.",
       "points": [
-        "Louis-Napoléon Bonaparte was born in Paris in 1808, the son of Louis Bonaparte, King of Holland, and the nephew of Napoleon I.",
-        "He attempted coups in Strasbourg (1836) and Boulogne (1840), both of which failed, and he spent about six years in prison at Ham, where he wrote on social questions, before escaping in 1846.",
-        "As president of the Second Republic he won the election of December 1848 by appealing to peasants and to the memory of his uncle, and he was supported by conservatives who expected to use him.",
-        "His coup of December 1851 and the Second Empire that followed made him the central political figure in France until 1870.",
-        "In foreign policy he backed Piedmont in 1859, joined the Crimean War, supported the Mexican adventure and then led France into war with Prussia in 1870.",
-        "He was captured at Sedan on 2 September 1870, was held in Germany and then went into exile in England, where he died in 1873.",
-        "Contemporaries were divided: supporters praised economic growth and Paris, while republicans and liberals such as Victor Hugo denounced him as a usurper.",
-        "Hugo and Marx, in Napoléon le Petit and The Eighteenth Brumaire of Louis Bonaparte, depicted him as a usurper and a parody of his uncle; revisionist historians such as Theodore Zeldin and Roger Price stress his interest in social reform, his economic programme and his liberalising steps, though they judge his foreign policy a failure."
+        "Born in Paris on 20 April 1808, Louis-Napoléon Bonaparte was the son of Louis Bonaparte, King of Holland, and Hortense de Beauharnais, and the nephew of Napoleon I. After 1815 he grew up in exile, mostly at Arenenberg in Switzerland.",
+        "He took part in the 1831 rising in the Papal States. His coups at Strasbourg (October 1836) and Boulogne (August 1840) failed, so he was jailed at Ham for about six years, where he wrote The Extinction of Pauperism (1844). He escaped in May 1846, lived in London.",
+        "After Napoleon I's son died in 1832 he headed the Bonaparte claim. His ideas were order with universal male suffrage, economic modernisation, concern for the poor, national glory and support for nationalities against the 1815 settlement.",
+        "As president he won the election of December 1848 by appealing to peasants and the memory of his uncle, and conservatives backed him expecting to use him. The fear of the reds after June 1848 gave him his chance, so events shaped him as well as him shaping events.",
+        "He made the coup of 1851 and the Empire of 1852 and personally directed policy at home and abroad until 1870, which is why the regime's failures were blamed on him.",
+        "Ill health and war with Prussia ended his reign. He surrendered at Sedan on 2 September 1870, was held at Wilhelmshöhe near Kassel, then went into exile at Chislehurst, Kent, where he died on 9 January 1873.",
+        "Contemporaries were divided. Peasants, businessmen and Catholics (until 1859) supported him, while republicans and liberals saw a usurper, as in Hugo's Napoleon the Little and Marx's Eighteenth Brumaire of Louis Bonaparte (1852), where history repeats itself first as tragedy, then as farce. Foreign powers distrusted his ambitions.",
+        "The older view was of a dictator and adventurer whose regime ended in disaster. Revisionists Theodore Zeldin (The Political System of Napoleon III, 1958) and Roger Price stress modernisation, social concern and liberal reforms, though his foreign policy after 1860 failed, so he was more effective at home than abroad."
+      ],
+      "tip": "Ordinary Level paragraphs on him are rewarded for each correct, relevant, dated statement, so cover birth and family, Strasbourg and Boulogne, Ham, the 1848 election and its result, the coup and plebiscite, the Empire, growth, liberal reforms, foreign policy and Sedan and exile."
+    },
+    {
+      "h": "The authoritarian Empire, 1852-1860",
+      "b": "In its early years the Second Empire kept the form of universal male suffrage but gave voters little real power. It rested on the emperor, the prefects (the government's local officials) and plebiscites.",
+      "points": [
+        "Ministers were answerable only to the emperor, so parliament could not control them. The Senate was appointed for life, the Council of State drafted laws, and the Corps législatif was elected by universal male suffrage but could only vote on laws put to it.",
+        "Official candidates backed by the prefects dominated elections, and plebiscites were the link between the emperor and the people. This was why the regime was democratic in its franchise but not in practice.",
+        "The press decree of February 1852 required newspapers to get government authorisation, and two official warnings could lead to suspension. Opponents were exiled.",
+        "After Felice Orsini's bomb attack of 14 January 1858 the Law of General Security (February 1858) allowed arrest and deportation without trial.",
+        "Opposition in the Corps législatif was weak because it was only a handful of republican deputies, the Five, including Émile Ollivier."
+      ],
+      "tip": "Do not say five republican deputies were all elected in 1857. Say a handful of republican deputies (the Five), including Ollivier."
+    },
+    {
+      "h": "Economic growth, Paris and social policy under the Empire",
+      "b": "The regime justified itself by prosperity and prestige. State-encouraged investment and a showpiece capital were meant to win the loyalty that votes alone could not.",
+      "points": [
+        "The Crédit Mobilier, founded in 1852 by the Pereire brothers (Émile and Isaac), financed railways, industry and urban development. The Crédit Foncier was also founded in 1852, the Crédit Lyonnais in 1863 and the Société Générale in 1864.",
+        "Railways grew from about 3,000-3,500 km in 1851 to about 17,000-18,000 km by 1870. This was the basis of the boom, together with Saint-Simonian ideas (a belief in state-led investment in industry and railways).",
+        "The Paris Exhibitions (Expositions Universelles) of 1855 and 1867 showed France's economy and prestige. The Suez Canal, built by Ferdinand de Lesseps, opened in November 1869 with Empress Eugénie present.",
+        "The rebuilding of Paris under Haussmann (Prefect of the Seine, 1853-70) was part of domestic policy, aimed at prestige, health, traffic and control of riots.",
+        "Social policy included encouragement of mutual aid societies, the right to strike (1864) and Victor Duruy's expansion of primary schooling as Minister of Public Instruction (1863-69).",
+        "Napoleon III married Eugénie de Montijo, a Spanish noblewoman, in January 1853, and the Prince Imperial was born in March 1856. An heir meant that the dynasty seemed secure."
       ]
+    },
+    {
+      "h": "The liberal Empire, 1860-1870",
+      "b": "From 1860 Napoleon III loosened his grip. The aim was to secure the dynasty by broadening its support, but each concession gave the opposition more room.",
+      "points": [
+        "He liberalised because Catholics were angry at his Italian policy, manufacturers were angry at free trade, and he wanted to secure the dynasty and broaden support.",
+        "The Cobden-Chevalier Treaty of 23 January 1860 lowered tariffs with Britain, which was good for consumers and modernisation but resented by protected industries.",
+        "The decree of 24 November 1860 allowed debate on the Address and the publication of debates. Interpellation (the right to question ministers) came in 1867, so ministers had to answer to deputies, and laws of 1868 eased press controls and allowed public meetings.",
+        "The right to strike was legalised in 1864 (proposed by Ollivier), but unions were still illegal. Trade unions were tolerated from 1868 but not legalised until 1884.",
+        "Opposition grew. Republicans gained in the 1863 and 1869 elections, Thiers was elected in 1863, and Léon Gambetta's Belleville programme of 1869 was radical and republican. Morny, the regime's skilled manager of the Chamber, had died in 1865.",
+        "Ollivier's ministry took office on 2 January 1870. A plebiscite on 8 May 1870 approved the liberal Empire by about 7.3 million yes to about 1.5 million no, just months before its collapse."
+      ],
+      "tip": "Examiners reward paired achievements and limits for the home policy: order, growth, banks, railways, Paris, social measures and liberal reforms against repression and a weak legislature."
+    },
+    {
+      "h": "Foreign policy: aims, Crimea and Italy, 1854-1860",
+      "b": "Napoleon III wanted to undo the humiliation of 1815 and win glory while claiming the Empire means peace. His early successes made the regime look strong.",
+      "points": [
+        "His aims were to undo the humiliation of 1815, win prestige and glory, support nationalities and gain territory, while claiming the Empire means peace.",
+        "France and Britain declared war on Russia in March 1854 in the Crimean War (1854-56), so France fought as Britain's ally. Sebastopol fell in September 1855 after the French took the Malakoff.",
+        "The Congress of Paris (February-March 1856, Treaty of Paris on 30 March 1856) was held in Paris and showed France's restored standing.",
+        "In Italy he met Cavour at Plombières in July 1858. The war of 1859 brought the victories of Magenta (4 June) and Solferino (24 June), then the sudden armistice of Villafranca on 11 July 1859.",
+        "By the Treaty of Turin in March 1860 Nice and Savoy went to France, confirmed by plebiscites in April 1860.",
+        "The 1859 war angered French Catholics, and the French garrison kept in Rome until August 1870 angered Italian nationalists."
+      ],
+      "tip": "Do not confuse the Treaty of Paris (1856, Crimea), the Treaty of Turin (1860, Nice and Savoy) and the Treaty of Frankfurt (1871)."
+    },
+    {
+      "h": "Colonies, Poland and Mexico, 1859-1867",
+      "b": "Overseas, the Empire expanded, but where Napoleon III tried to do more his policy ended in failure. Mexico was the costliest.",
+      "points": [
+        "Algeria was completed, and expansion in Senegal was led by Governor Louis Faidherbe. Saigon was taken in 1859, Cochinchina (southern Vietnam) was ceded in 1862, and a protectorate was set up over Cambodia in 1863.",
+        "In Poland the rising against Russia began in January 1863. France showed sympathy but took no action, so it annoyed Russia and won nothing.",
+        "In Mexico a joint intervention with Britain and Spain over Mexican debts began from late 1861. Britain and Spain withdrew in 1862, but France stayed, so it was left alone in Mexico.",
+        "The French were defeated at Puebla on 5 May 1862 but took Mexico City in 1863. Archduke Maximilian of Austria (Franz Joseph's brother) accepted the crown in 1864.",
+        "Benito Juárez led the Mexican republicans. After the American Civil War ended in 1865 the USA pressed for withdrawal, and French troops left in 1866-67.",
+        "Maximilian was shot at Querétaro on 19 June 1867. It was a costly humiliation, so the regime's prestige suffered."
+      ]
+    },
+    {
+      "h": "Prussia and the war of 1870",
+      "b": "After 1865 Napoleon III misjudged Prussia. The quick Prussian victory of 1866 changed the balance of power, and in 1870 France went to war isolated and unprepared.",
+      "points": [
+        "At Biarritz in October 1865 he met Bismarck, and France stayed neutral in 1866. The quick Prussian victory at Königgrätz (Sadowa) on 3 July 1866 changed the balance of power, and French demands for compensation failed.",
+        "The Luxembourg crisis of 1867 was settled at the London conference, which neutralised Luxembourg. Marshal Niel's army law of 1868 was weakened by the Corps législatif, so army reform came to little.",
+        "The Hohenzollern candidature (Prince Leopold of Hohenzollern-Sigmaringen offered the Spanish throne) was withdrawn on 12 July 1870, but France demanded guarantees.",
+        "The Ems telegram of 13 July 1870 was edited by Bismarck and published. France declared war on 19 July 1870, isolated and unprepared.",
+        "Marshal Bazaine's army was shut up in Metz from August 1870, so it could not help elsewhere, and it surrendered on 27 October 1870.",
+        "At Sedan, the battle of 1 September 1870 and the surrender on 2 September ended in the capture of Marshal MacMahon's army and the emperor.",
+        "The judgement on foreign policy is successes to 1860 (Crimea, Italy, Nice and Savoy), then failures (Poland, Mexico, 1866 and 1870) that destroyed the regime."
+      ],
+      "tip": "Do not mix up Sedan (1-2 September 1870, the emperor captured), Metz (surrendered in October 1870) and the siege of Paris (September 1870 to January 1871)."
     },
     {
       "h": "Key personality: Victor Hugo, opponent and exile",
-      "b": "Hugo was a politician as well as a writer. His political role in this period was as a deputy and an opponent of the Empire; his literary work is covered in the notes on cultural nationalism.",
+      "b": "Victor Hugo, born in Besançon on 26 February 1802, son of a general under Napoleon, was a leading Romantic writer, but here we deal with his political role as a deputy and an opponent of Napoleon III. He was a royalist in the 1820s, writing royalist odes and receiving a royal pension, and Louis-Philippe made him a peer of France in 1845.",
       "points": [
-        "Victor Hugo, born in 1802, was a leading Romantic writer and a monarchist in the 1820s, and he had become a republican by 1848.",
-        "He was elected to the Constituent Assembly of 1848 and the Legislative Assembly, where he defended freedom of the press and education and opposed the restriction of the franchise.",
-        "He supported Louis-Napoléon's candidacy in 1848 but broke with him, and by 1851 was a leader of the democratic opposition in the Legislative Assembly.",
-        "After the coup of December 1851 he was forced to leave France, first to Brussels, then to Jersey (1852–55) and Guernsey (1855–70).",
-        "His pamphlet Napoléon le Petit (1852) and his satirical poems Les Châtiments (1853) attacked Napoleon III and made him a symbol of republican resistance.",
-        "He refused the amnesty offered in 1859 and stayed in exile on Guernsey as a protest against the regime.",
-        "Hugo returned to Paris on 5 September 1870, the day after the Third Republic was proclaimed; during the Commune he criticised its excesses but opposed the repression and offered asylum to fugitives in Brussels.",
-        "Contemporaries saw him as a republican hero, while critics saw his shifts from royalism to republicanism as inconsistent; his funeral in 1885 drew huge crowds, and historians now see him as a principled defender of liberty and democracy."
+        "He was elected to the Constituent Assembly in a by-election in June 1848 and to the Legislative Assembly in May 1849. At first close to the conservatives, he defended press freedom and education, and his sons' newspaper L'Événement (founded 1848) backed Louis-Napoleon for president.",
+        "From 1849 to 1851 he moved to the democratic left. He made his speech on destitution in July 1849, spoke against the Falloux Law in January 1850 and opposed the law of 31 May 1850, because it took the vote from about 3 million men.",
+        "In the revision debate of July 1851 he attacked Louis-Napoleon's ambition, mocking the idea that Napoleon the Great must be followed by Napoleon the Little. This is the origin of the nickname.",
+        "He tried to organise resistance to the coup of December 1851 and fled to Brussels on 11 December 1851. Banished, he lived on Jersey (1852-55, until expelled) and then on Guernsey (1855-70), at Hauteville House.",
+        "His weapons from exile were Napoléon le Petit (1852) and the satirical poems Les Châtiments (1853), smuggled into France. He also published Les Misérables (1862) while in exile.",
+        "He refused the amnesty for exiles of August 1859 and stayed in exile as a symbol of republican resistance. A line from Les Châtiments ran: And if only one remains, I shall be that one (Et s'il n'en reste qu'un, je serai celui-là).",
+        "He returned to Paris on 5 September 1870, the day after the Third Republic was proclaimed, and stayed in Paris during the siege. He was elected to the National Assembly in February 1871 and resigned in March 1871.",
+        "In spring 1871 he was in Brussels, handling the affairs of his son Charles, who died in March. He condemned both the Commune's killing of hostages and the government's reprisals, offered refuge to Communards, was expelled from Belgium in May 1871 and later campaigned for their amnesty."
+      ],
+      "tip": "A question on Hugo needs his political career, not just his literary work: the move from royalist peer to opponent of Napoleon III, the 1851 resistance, the exile, Napoléon le Petit and Les Châtiments, the refused amnesty and the return in 1870."
+    },
+    {
+      "h": "Hugo in contemporary and later judgement",
+      "b": "Contemporaries and historians have judged Hugo differently, but both agree that his exile gave the republican cause a voice.",
+      "points": [
+        "Republicans admired him as the conscience of resistance because he stayed in exile, while opponents mocked him for his changes of side from royalism to republicanism.",
+        "He became a senator in 1876. His state funeral followed his death on 22 May 1885: he lay in state under the Arc de Triomphe and was buried in the Panthéon, and the crowds are often put at about two million.",
+        "Historians see a sincere if changeable defender of liberty, democracy and the poor. His exile gave the republican cause a voice."
+      ],
+      "tip": "Do not say Hugo had become a republican by 1848: in 1848 he was elected as a conservative and backed Louis-Napoleon. Say he turned against Louis-Napoleon and towards the democratic left in 1849-51."
+    },
+    {
+      "h": "Sedan, the Third Republic and the siege of Paris, 1870-1871",
+      "b": "Napoleon III's surrender ended the Empire at once. A republic was declared and the war went on, but defeat made peace unavoidable.",
+      "points": [
+        "After Sedan the Empire collapsed. On 4 September 1870 the republic was proclaimed at the Hôtel de Ville in Paris by Gambetta, Jules Favre and Jules Ferry, in an almost bloodless revolution.",
+        "A Government of National Defence was set up under General Louis-Jules Trochu to continue the war, and Empress Eugénie fled to England.",
+        "The siege of Paris began on 19 September 1870. Gambetta left Paris by balloon on 7 October 1870 for Tours to raise armies in the provinces, and Parisians ate horses, rats and zoo animals.",
+        "German bombardment of Paris came in January 1871, so hunger and shelling forced the armistice of 28 January 1871.",
+        "The National Assembly was elected on 8 February 1871 and about 400 of its roughly 650 members were monarchists, a peace-seeking majority elected mainly by the countryside. Thiers became chief of the executive power, and the Assembly sat at Bordeaux and then at Versailles, not Paris.",
+        "The Treaty of Frankfurt (10 May 1871) gave Alsace and much of Lorraine to Germany, with an indemnity of 5 billion francs and German occupation until it was paid."
       ]
     },
     {
-      "h": "Sedan, the Third Republic and the Paris Commune",
+      "h": "The Paris Commune, 1871",
+      "b": "Paris did not accept the peace or the monarchist Assembly. The result was a second civil conflict, this time between Paris and the government of the republic.",
       "points": [
-        "After Sedan the Empire collapsed, and a republic was proclaimed in Paris on 4 September 1870 by deputies from Paris, including Léon Gambetta.",
-        "A Government of National Defence continued the war against Prussia, and Paris was besieged from September 1870 until the armistice of January 1871; Gambetta left the city by balloon to organise resistance in the provinces.",
-        "The National Assembly elected in February 1871 was dominated by monarchists, with Adolphe Thiers as head of the executive, and it sat at Bordeaux and then at Versailles, not in Paris.",
-        "The Paris Commune of 18 March to 28 May 1871 began when Thiers's troops tried to seize the National Guard's cannon on Montmartre; it was a revolutionary government of Parisian radicals and socialists, suppressed by government troops in the Bloody Week with many thousands killed.",
-        "The Third Republic was confirmed in 1875 by constitutional laws, which established a parliamentary system with a president."
+        "Paris rose because of the humiliation of defeat and of the German victory parade of 1 March 1871, the end of the moratorium on rents and debts and the end of National Guard pay.",
+        "A monarchist Assembly at Versailles and the radical and socialist traditions of Paris made conflict likely, because Parisians feared the Assembly would end the republic.",
+        "The Commune lasted from 18 March to 28 May 1871. It began when troops sent to take the National Guard's cannon on Montmartre failed, Generals Lecomte and Clément-Thomas were killed by the crowd, and Thiers withdrew the government to Versailles.",
+        "The Commune was elected on 26 March 1871 and was a mix of Jacobins, Blanquists and socialists. Louise Michel was a leading Communard.",
+        "Its measures included the separation of Church and State, the end of night work in bakeries, the red flag and the pulling down of the Vendôme Column on 16 May 1871.",
+        "In the Bloody Week (21-28 May 1871) government troops under MacMahon retook Paris. Communards shot Archbishop Georges Darboy as a hostage on 24 May, and the Tuileries Palace and Hôtel de Ville were burned.",
+        "The last fighting was at Père Lachaise cemetery. Estimates of the dead range from several thousand to about 20,000. About 40,000 were arrested and thousands transported to New Caledonia."
       ]
+    },
+    {
+      "h": "Why the Commune mattered",
+      "b": "The Commune left a lasting mark on French politics. It shaped how both left and right saw the republic.",
+      "points": [
+        "Socialists made a martyr myth of the Commune because thousands had been killed, and Marx wrote The Civil War in France (1871) as a critic of the repression.",
+        "The right was left with a lasting fear of revolution, so it backed order, and the workers' movement was crushed for years.",
+        "The republic survived because it had crushed the Commune and the monarchists were divided. Thiers became president in August 1871 and MacMahon in 1873.",
+        "Constitutional laws of 1875 confirmed the Third Republic with a parliamentary system and a president, beyond this period. An amnesty for Communards followed in 1880."
+      ]
+    },
+    {
+      "h": "Assessment: Napoleon III at home and abroad",
+      "b": "Napoleon III is best judged by pairing his achievements with their limits, at home and abroad.",
+      "points": [
+        "At home he brought order, prosperity, modernisation, a rebuilt Paris and, from 1860, liberal reforms, which won him real support.",
+        "Against this, the regime depended on repression, a rubber-stamp legislature and the personal authority of one man.",
+        "Abroad he achieved Crimea, Italy, Nice and Savoy and colonies.",
+        "Against this came Mexico, Poland, 1866 and the disaster of 1870. Overall he was more successful at home than abroad."
+      ],
+      "tip": "Examiners reward paired achievements and limits on each side and a clear verdict, usually that he was more successful at home than abroad."
     },
     {
       "h": "Assessment: why France was unstable",
+      "b": "Five regimes in fifty-seven years show that France lacked agreement about who should govern and how. Several causes combined, and the strongest answers rank them.",
       "points": [
         "Five regimes between 1814 and 1871 (the Bourbon Restoration, the July Monarchy, the Second Republic, the Second Empire and the Third Republic) reflected the lack of agreement about the basis of government.",
-        "The Bourbon and July regimes were limited by narrow franchises, and the exclusion of most men from political life made opposition likely.",
-        "The Second Republic showed that universal male suffrage could bring a president who would destroy the republic, and it deepened the divide between the urban poor and the conservative countryside.",
-        "The Second Empire gave France economic growth and prestige but depended on the personal authority of Napoleon III, and its foreign policy failures weakened it.",
-        "Overall: France's regimes were unstable because each one lacked a broad consensus, and the authority of the state rested on the personal position of its rulers rather than on a settled constitutional system."
-      ]
+        "The divided legacy of 1789 and rival dynasties and groups meant that no regime could win everyone, because each camp rejected the others.",
+        "The Bourbon and July regimes were limited by narrow franchises, and the exclusion of most men made opposition likely.",
+        "Paris was powerful and its crowd could topple governments, as in 1830 and 1848, and economic crises such as 1846-47 made this worse.",
+        "Rulers would not compromise, for example Charles X, who broke the Charter, and Guizot, who refused to extend the vote.",
+        "The Second Republic showed that universal male suffrage could bring a president who would destroy the republic. It deepened the divide between the urban poor and the conservative countryside, and the constitution pitted president against assembly.",
+        "Regimes ended in revolution (1830, 1848), coup (1851) or military defeat (1870). The town-country split (Paris radical, the provinces conservative) appears in April 1848, December 1848 and February 1871.",
+        "Beneath the changes the centralised state, the Code, the prefects and the Concordat survived every regime. Overall, each regime lacked a broad consensus and rested on personal rulers rather than a settled system. Thiers said in 1850 that the republic was the government that divides us least."
+      ],
+      "tip": "Build the essay on factors, each with a concrete example, and end with a judgement on which mattered most. The town-country split is an effective linking point."
     }
   ],
   "keyTerms": [
