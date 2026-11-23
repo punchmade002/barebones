@@ -1,0 +1,646 @@
+{
+ "bio22-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.0.1",
+    "strength": "helpful",
+    "why": "animal-to-human transmission",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.6.2",
+    "strength": "helpful",
+    "why": "symptom-free infectious carriers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.2.0",
+    "strength": "helpful",
+    "why": "droplet and aerosol spread",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.8.4",
+    "strength": "helpful",
+    "why": "mutation producing SARS-CoV-2 variants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.4.5",
+    "strength": "helpful",
+    "why": "migrating birds carry avian influenza",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.9.0",
+    "strength": "helpful",
+    "why": "mixing with human flu virus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s7.2.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s7.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s7.2.3",
+    "strength": "helpful",
+    "why": "fruit bats as reservoir",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.2.5",
+    "strength": "essential",
+    "why": "Nipah outbreak being controlled",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.2.6",
+    "strength": "helpful",
+    "why": "biting midges as vectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.2.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.2.7",
+    "strength": "essential",
+    "why": "Schmallenberg virus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.3.0",
+    "strength": "essential",
+    "why": "ToBRFV identity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.2.3",
+    "strength": "helpful",
+    "why": "indirect contact via hands and tools",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.9.2",
+    "strength": "helpful",
+    "why": "mutation overcoming crop resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.3.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s7.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.13.0",
+    "strength": "helpful",
+    "why": "monoculture genetic uniformity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.4.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s7.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.13.2",
+    "strength": "helpful",
+    "why": "reliance on one crop: Great Famine",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s7.5.0",
+    "strength": "helpful",
+    "why": "self versus non-self",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s7.5.1",
+    "strength": "essential",
+    "why": "tolerance of self antigens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.5.0",
+    "strength": "essential",
+    "why": "autoimmune disease definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.5.0",
+    "strength": "essential",
+    "why": "autoimmune disease definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.5.0",
+    "strength": "essential",
+    "why": "autoimmune disease definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s7.5.0",
+    "strength": "essential",
+    "why": "autoimmune disease definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.5.0",
+    "strength": "essential",
+    "why": "autoimmune disease definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s7.5.2",
+    "strength": "helpful",
+    "why": "antibodies attacking self antigen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.7.1",
+    "strength": "essential",
+    "why": "cross-reacting antibodies after infection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.7.1",
+    "strength": "helpful",
+    "why": "infection triggering autoimmunity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s7.5.1",
+    "strength": "helpful",
+    "why": "immune regulation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.5.0",
+    "strength": "helpful",
+    "why": "autoimmune disease definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s7.6.0",
+    "strength": "helpful",
+    "why": "insulin replacement example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.15.0",
+    "strength": "essential",
+    "why": "R0 meaning",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s6.6.0",
+    "strength": "helpful",
+    "why": "infectious period length",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.18.2",
+    "strength": "essential",
+    "why": "bringing R below 1",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.19.0",
+    "strength": "essential",
+    "why": "herd-immunity threshold",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.8.3",
+    "strength": "helpful",
+    "why": "vaccines updated for mutation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.14.5",
+    "strength": "helpful",
+    "why": "reducing mobility reduces spread",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.4.2",
+    "strength": "helpful",
+    "why": "trade moves plant pathogens",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s7.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.13.0",
+    "strength": "essential",
+    "why": "genetic uniformity in monocultures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s6.11.0",
+    "strength": "helpful",
+    "why": "misuse of antibiotics speeds resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s7.0.2",
+    "strength": "essential",
+    "why": "spillover from wildlife contact",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.10.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.15.0",
+    "strength": "essential",
+    "why": "R0 meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.12.0",
+    "strength": "essential",
+    "why": "herd immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.3.2",
+    "strength": "helpful",
+    "why": "2001 foot-and-mouth epidemic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.13.2",
+    "strength": "helpful",
+    "why": "Irish Great Famine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s6.5.1",
+    "strength": "helpful",
+    "why": "chytrid amphibian decline",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s7.12.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.13.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s7.13.5": {
+  "cost": 1,
+  "needs": []
+ }
+}
