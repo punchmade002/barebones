@@ -1,0 +1,785 @@
+{
+ "bio28-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.1.0",
+    "strength": "helpful",
+    "why": "aerobic respiration uses oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.0.0",
+    "strength": "helpful",
+    "why": "respiration definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "diffusion as transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.0.3",
+    "strength": "essential",
+    "why": "why diffusion alone is not enough",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.1.0",
+    "strength": "essential",
+    "why": "nose filters, warms, moistens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.1.2",
+    "strength": "helpful",
+    "why": "pharynx shared by air and food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.1.3",
+    "strength": "essential",
+    "why": "epiglottis closes airway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.4.0",
+    "strength": "helpful",
+    "why": "pressure falls in inhalation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio28-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.2.0",
+    "strength": "essential",
+    "why": "C-shaped cartilage rings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.2.4",
+    "strength": "helpful",
+    "why": "bronchi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.2.2",
+    "strength": "essential",
+    "why": "ciliated, mucus-secreting lining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.2.0",
+    "strength": "helpful",
+    "why": "trachea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.2.4",
+    "strength": "essential",
+    "why": "bronchi branching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.2.5",
+    "strength": "essential",
+    "why": "bronchioles end in alveoli",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio28-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.3.1",
+    "strength": "essential",
+    "why": "pleural fluid between membranes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.3.0",
+    "strength": "helpful",
+    "why": "rib cage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.2.6",
+    "strength": "helpful",
+    "why": "alveoli wrapped in capillaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.3.2",
+    "strength": "helpful",
+    "why": "lungs follow thorax",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.4.0",
+    "strength": "essential",
+    "why": "pressure and volume principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.7.0",
+    "strength": "helpful",
+    "why": "brain controls breathing muscles",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio28-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.3.3",
+    "strength": "essential",
+    "why": "diaphragm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.3.4",
+    "strength": "essential",
+    "why": "intercostal muscles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.4.0",
+    "strength": "essential",
+    "why": "pressure fall draws air in",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.0.4",
+    "strength": "helpful",
+    "why": "ATP powers muscle contraction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.4.3",
+    "strength": "helpful",
+    "why": "diaphragm and intercostal action",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.3.3",
+    "strength": "helpful",
+    "why": "diaphragm dome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.9.5",
+    "strength": "helpful",
+    "why": "elastic recoil",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio28-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.4.1",
+    "strength": "essential",
+    "why": "volume change alters pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.3.4",
+    "strength": "essential",
+    "why": "intercostal muscles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.5.0",
+    "strength": "helpful",
+    "why": "passive exhalation contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.4.3",
+    "strength": "essential",
+    "why": "diaphragm in inhalation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.4.4",
+    "strength": "essential",
+    "why": "external intercostals in inhalation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.4.0",
+    "strength": "essential",
+    "why": "volume and pressure principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.5.0",
+    "strength": "helpful",
+    "why": "passive exhalation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.4.0",
+    "strength": "essential",
+    "why": "volume and pressure principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.3.5",
+    "strength": "helpful",
+    "why": "breathing system labels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio28-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.7.0",
+    "strength": "helpful",
+    "why": "automatic control contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.7.0",
+    "strength": "essential",
+    "why": "breathing centre",
+    "confidence": "high"
+   },
+   {
+    "id": "bio15-s1.1.0",
+    "strength": "helpful",
+    "why": "respiration produces CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.7.2",
+    "strength": "essential",
+    "why": "CO2 controls breathing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.7.4",
+    "strength": "essential",
+    "why": "rate and tidal volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion down concentration gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.8.0",
+    "strength": "essential",
+    "why": "diffusion across alveolus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.8.0",
+    "strength": "essential",
+    "why": "diffusion across alveolus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio28-s1.9.2",
+    "strength": "helpful",
+    "why": "moist lining dissolves gas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.8.0",
+    "strength": "essential",
+    "why": "diffusion across alveolus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.8.2",
+    "strength": "helpful",
+    "why": "oxygenated blood leaving lungs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "essential",
+    "why": "steep gradient speeds diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.7",
+    "strength": "helpful",
+    "why": "blood flow keeps gradient steep",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "helpful",
+    "why": "larger surface area speeds diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "helpful",
+    "why": "shorter distance speeds diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.8.2",
+    "strength": "helpful",
+    "why": "oxygen dissolves in moisture",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.8.6",
+    "strength": "essential",
+    "why": "blood flow steepens gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio29-s5.3.2",
+    "strength": "helpful",
+    "why": "narrow capillary lumen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.5.2",
+    "strength": "helpful",
+    "why": "elastic recoil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.8.2",
+    "strength": "helpful",
+    "why": "oxygen moves into blood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.10.0",
+    "strength": "helpful",
+    "why": "compare with inhaled air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.10.1",
+    "strength": "essential",
+    "why": "oxygen content of exhaled air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.10.1",
+    "strength": "essential",
+    "why": "CO2 content of exhaled air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio28-s1.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.2.2",
+    "strength": "essential",
+    "why": "cilia and mucus lining",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.9.0",
+    "strength": "essential",
+    "why": "large alveolar surface area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio28-s1.8.2",
+    "strength": "helpful",
+    "why": "haemoglobin carries oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio28-s1.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio28-s1.2.5",
+    "strength": "essential",
+    "why": "bronchiole smooth muscle",
+    "confidence": "high"
+   }
+  ]
+ }
+}
