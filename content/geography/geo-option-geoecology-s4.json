@@ -1,7 +1,7 @@
 {
   "loId": "geo-option-geoecology-s4",
   "chapterId": "geo-option-geoecology",
-  "subsection": "4. One major biome in detail",
+  "subsection": "4. One major biome in detail: hot desert or tropical rainforest",
   "syllabusRef": "7.3",
   "notes": [
     {
@@ -209,7 +209,8 @@
         "Smaller areas: Central America, West Africa, eastern Madagascar and north-east Australia (the Daintree, Queensland).",
         "Rainforests, though small in area, cover only about 6% of the earth's land surface but are widely estimated to hold over half of the world's land plant and animal species. This is a widely quoted estimate.",
         "Map cue: shade the equatorial belt, then mark the three main basins and regions."
-      ]
+      ],
+      "tip": "Place each region on the right continent: the Amazon in South America, the Congo in Central Africa, and Indonesia, Malaysia and Papua New Guinea in South-East Asia. On a map, keep the belt within about 10° of the equator."
     },
     {
       "h": "Tropical rainforest: temperature",
@@ -233,7 +234,8 @@
         "The low-pressure belt of rising air along the equator, the ITCZ (Inter-Tropical Convergence Zone, also called the doldrums), drives this; some areas have a short drier season when it shifts.",
         "Relative humidity (the amount of water vapour in the air) is often over 80%.",
         "A large share of the Amazon's rain is water recycled from the forest by evapotranspiration (water given off by plants and evaporated from the ground and leaves)."
-      ]
+      ],
+      "tip": "When asked to account for the climate, give the cause, not just the figures: the high sun, morning heating, rising moist air, cumulonimbus clouds and afternoon storms, all driven by the ITCZ."
     },
     {
       "h": "Tropical rainforest: soils and the nutrient cycle",
@@ -257,7 +259,8 @@
         "The shrub layer grows in the dim light below.",
         "The forest floor is dark and humid; only about 2% of the sunlight reaching the canopy arrives there.",
         "Diagram cue: a labelled vertical profile of the layers, with approximate heights."
-      ]
+      ],
+      "tip": "If you draw the layers, label each one with an approximate height range and a named tree, such as kapok or the Brazil nut for the emergents."
     },
     {
       "h": "Tropical rainforest: plant adaptations to the soil, rain and light",
@@ -267,9 +270,10 @@
         "Shallow roots catch nutrients from the litter layer, because that is where the nutrients are.",
         "Drip tips and waxy leaves shed heavy rain, so the leaves do not stay waterlogged.",
         "Large leaves in the understorey capture the little light that reaches it, because the canopy above blocks most of it.",
-        "Thin, smooth bark, because the trunk needs no thick insulation.",
+        "Thin, smooth bark, because the trunk needs no thick insulation in the constant warmth, and a smooth surface makes it harder for epiphytes to cling.",
         "Evergreen, with leaves shed and replaced all year. When a tree falls it opens a light gap, and young trees grow rapidly upwards into it."
-      ]
+      ],
+      "tip": "Link every adaptation to the condition it answers: buttress roots to shallow soil, drip tips to heavy rain, large leaves to dim light. A feature without its reason earns less."
     },
     {
       "h": "Tropical rainforest: climbers, epiphytes and unusual plants",
@@ -280,15 +284,20 @@
         "Strangler figs start as epiphytes high in the canopy, where there is light, and enclose their host tree.",
         "Pitcher plants (Nepenthes) in the nutrient-poor soils of South-East Asia trap and digest insects.",
         "Rafflesia arnoldii, a parasite on vines in Sumatra and Borneo, has the largest single flower in the world, about 1 m across, and smells of rotting meat to attract flies."
-      ]
+      ],
+      "tip": "Name the plant with its adaptation: lianas climbing to the light, bromeliads holding water, strangler figs enclosing their host, pitcher plants trapping insects in poor soil."
     },
     {
       "h": "Tropical rainforest: biodiversity",
       "b": "Rainforest has extremely high species diversity of plants and animals. The pattern is many species but few individuals of each.",
       "points": [
-        "For example, hundreds of tree species can grow in a single hectare of Amazon rainforest, compared with a handful in an Irish wood.",
-        "Many species grow in each hectare, but each species is represented by few individuals."
-      ]
+        "Hundreds of tree species can grow in a single hectare of Amazon rainforest, compared with a handful in an Irish wood.",
+        "Many species grow in each hectare, but each species is represented by few individuals, so a tree's nearest neighbour of the same species may be far away.",
+        "The climate is warm and wet all year with no cold or dry season to survive, so plants grow all year round and many species can coexist.",
+        "The layers of the forest create many separate niches (ways of living, each with its own light, food and shelter), from the sunny emergents to the dark forest floor, so more species can live side by side.",
+        "This richness depends on the closed nutrient cycle: when the forest is cleared, both the species and the nutrients stored in them are lost together."
+      ],
+      "tip": "If asked about flora or fauna, start from biodiversity: many species, few of each, and why the stable climate and the layers allow it. Then give named examples."
     },
     {
       "h": "Tropical rainforest: animal adaptations in the canopy",
@@ -306,11 +315,13 @@
       "h": "Tropical rainforest: other animal adaptations",
       "b": "Beyond the canopy, forest animals rely on camouflage, warning colours and swimming. Place each animal on the correct continent.",
       "points": [
-        "Most animals live in the canopy (arboreal), so adaptations for climbing and camouflage are common.",
-        "Poison dart frogs, Central and South America: bright colours warn predators of their toxic skin.",
-        "Jaguar: the largest cat in the Americas, with a spotted coat for camouflage; a strong swimmer.",
-        "Okapi, Congo rainforest: a forest relative of the giraffe, with striped legs for camouflage.",
-        "For example, gorillas and bonobos live in the Congo Basin; bonobos are found only south of the Congo River."
+        "Poison dart frogs, Central and South America: bright colours warn predators of their toxic skin, so predators learn to leave them alone.",
+        "Jaguar: the largest cat in the Americas, with a spotted coat that breaks up its outline in the dappled light of the forest floor; a strong swimmer that hunts along rivers.",
+        "Many animals are strong swimmers or live in water, because rivers flood the forest for months each wet season: the anaconda, a huge snake, hunts in flooded forest and rivers, and the Amazon river (pink) dolphin swims among the flooded trees.",
+        "Capybara, South America: the world's largest rodent, a semi-aquatic grazer that escapes predators by diving into water.",
+        "Many animals are nocturnal (active at night), which avoids daytime predators and competition, and some canopy animals glide between trees rather than climbing down.",
+        "Okapi, Congo rainforest: a forest relative of the giraffe, with striped legs for camouflage in the dim forest.",
+        "Gorillas and bonobos live in the Congo Basin; bonobos are found only south of the Congo River."
       ],
       "tip": "Gorillas and okapi are not in the Amazon, and jaguars are not in Africa or Asia."
     },
@@ -322,7 +333,8 @@
         "Mutualism: Azteca ants live inside Cecropia trees, which give them shelter and food; in return the ants attack herbivores and clear climbing plants from the tree.",
         "Leafcutter ants cut leaves to grow the fungus they eat, so the leaves are food for the fungus, not the ants.",
         "Brazil nut: pollinated mainly by large orchid bees and dispersed by agoutis, rodents that bury the nuts; trees produce poorly in plantations away from intact forest."
-      ]
+      ],
+      "tip": "Biotic inter-relationships earn marks only with named partners: the Brazil nut with orchid bees and agoutis, or Azteca ants with Cecropia trees."
     },
     {
       "h": "Tropical rainforest: people of the forest",
@@ -331,7 +343,8 @@
         "The Yanomami (Brazil and Venezuela border), the Kayapó (Brazilian Amazon) and the Mbuti (Ituri forest, Democratic Republic of the Congo) are hunter-gatherers.",
         "Hunting, gathering and shifting cultivation (slash and burn, clearing a patch and moving on) at low density, because small numbers of people take little, let the forest and soil recover.",
         "There is more on commercial felling in Human alteration of biomes."
-      ]
+      ],
+      "tip": "Keep this to how forest peoples lived in balance with the forest. The causes and effects of commercial felling belong in Human alteration of biomes."
     },
     {
       "h": "Tropical rainforest: no European example",
@@ -347,63 +360,217 @@
         "Annual range: the warmest monthly mean minus the coolest, for example 28 °C minus 25 °C gives an annual range of 3 °C (invented illustrative values).",
         "Total rainfall: the sum of the twelve monthly rainfall bars, for example 2,400 mm (invented illustrative values); rain falls in every month, with no dry season.",
         "Seasonality: describe the pattern as even, with temperatures near constant through the year (invented illustrative values)."
-      ]
+      ],
+      "tip": "Read the values from the graph you are given and quote them with units. Say that the annual range is small and that rain falls in every month."
     }
   ],
   "keyTerms": [
-    { "term": "Aridisol", "definition": "A thin, immature desert soil with very little humus, in which salts or lime are often brought up near the surface." },
-    { "term": "Hadley cell", "definition": "The circulation in which air rising at the equator sinks at about 30 degrees north and south, warming and drying as it descends." },
-    { "term": "Rain shadow", "definition": "The dry leeward side of a mountain, where air that has dropped its rain on the windward side descends and warms." },
-    { "term": "Diurnal range", "definition": "The difference between the highest and lowest temperature in one day." },
-    { "term": "Xerophyte", "definition": "A plant adapted to survive long periods of drought." },
-    { "term": "Succulent", "definition": "A plant that stores water in its stems or leaves." },
-    { "term": "Ephemeral", "definition": "A plant whose seeds lie dormant until rain, then germinate, flower and seed within weeks." },
-    { "term": "Estivation", "definition": "Dormancy through the hottest and driest part of the year." },
-    { "term": "Hamada", "definition": "A bare rock plateau in a hot desert." },
-    { "term": "Erg", "definition": "A sand sea of dunes." },
-    { "term": "Wadi", "definition": "A dry river bed that flows only after rain." },
-    { "term": "Desert pavement", "definition": "A surface of stones left behind when wind has removed the fine particles." },
-    { "term": "Calcrete", "definition": "A hard layer of lime (calcium carbonate) formed near the surface where capillary rise has brought it up." },
-    { "term": "Halophyte", "definition": "A plant that tolerates salty soils." },
-    { "term": "Latosol", "definition": "A deep, red or yellow, acidic rainforest soil that is laterised and infertile." },
-    { "term": "Laterisation", "definition": "The process in which heavy rainfall leaches silica and other minerals from the soil, leaving iron and aluminium oxides behind." },
-    { "term": "Mycorrhizae", "definition": "Fungi that grow on plant roots and pass nutrients to the plant." },
-    { "term": "Emergent", "definition": "A tree that rises above the main canopy of the rainforest." },
-    { "term": "Liana", "definition": "A woody climber, rooted in the soil, that climbs trees to reach light." },
-    { "term": "Epiphyte", "definition": "A plant that grows on the branches of other plants and takes moisture from the air and rain." },
-    { "term": "Convectional rain", "definition": "Rain formed when intense heating makes moist air rise, cool and condense into storm clouds." },
-    { "term": "ITCZ", "definition": "The Inter-Tropical Convergence Zone, a low-pressure belt of rising air along the equator." },
-    { "term": "Evapotranspiration", "definition": "The loss of water to the atmosphere from both evaporation and the transpiration of plants." },
-    { "term": "Mutualism", "definition": "A relationship in which two species each gain from the other." }
+    {
+      "term": "Aridisol",
+      "definition": "A thin, immature desert soil with very little humus, in which salts or lime are often brought up near the surface."
+    },
+    {
+      "term": "Hadley cell",
+      "definition": "The circulation in which air rising at the equator sinks at about 30 degrees north and south, warming and drying as it descends."
+    },
+    {
+      "term": "Rain shadow",
+      "definition": "The dry leeward side of a mountain, where air that has dropped its rain on the windward side descends and warms."
+    },
+    {
+      "term": "Diurnal range",
+      "definition": "The difference between the highest and lowest temperature in one day."
+    },
+    {
+      "term": "Xerophyte",
+      "definition": "A plant adapted to survive long periods of drought."
+    },
+    {
+      "term": "Succulent",
+      "definition": "A plant that stores water in its stems or leaves."
+    },
+    {
+      "term": "Ephemeral",
+      "definition": "A plant whose seeds lie dormant until rain, then germinate, flower and seed within weeks."
+    },
+    {
+      "term": "Estivation",
+      "definition": "Dormancy through the hottest and driest part of the year."
+    },
+    {
+      "term": "Hamada",
+      "definition": "A bare rock plateau in a hot desert."
+    },
+    {
+      "term": "Erg",
+      "definition": "A sand sea of dunes."
+    },
+    {
+      "term": "Wadi",
+      "definition": "A dry river bed that flows only after rain."
+    },
+    {
+      "term": "Desert pavement",
+      "definition": "A surface of stones left behind when wind has removed the fine particles."
+    },
+    {
+      "term": "Calcrete",
+      "definition": "A hard layer of lime (calcium carbonate) formed near the surface where capillary rise has brought it up."
+    },
+    {
+      "term": "Halophyte",
+      "definition": "A plant that tolerates salty soils."
+    },
+    {
+      "term": "Latosol",
+      "definition": "A deep, red or yellow, acidic rainforest soil that is laterised and infertile."
+    },
+    {
+      "term": "Laterisation",
+      "definition": "The process in which heavy rainfall leaches silica and other minerals from the soil, leaving iron and aluminium oxides behind."
+    },
+    {
+      "term": "Mycorrhizae",
+      "definition": "Fungi that grow on plant roots and pass nutrients to the plant."
+    },
+    {
+      "term": "Emergent",
+      "definition": "A tree that rises above the main canopy of the rainforest."
+    },
+    {
+      "term": "Liana",
+      "definition": "A woody climber, rooted in the soil, that climbs trees to reach light."
+    },
+    {
+      "term": "Epiphyte",
+      "definition": "A plant that grows on the branches of other plants and takes moisture from the air and rain."
+    },
+    {
+      "term": "Convectional rain",
+      "definition": "Rain formed when intense heating makes moist air rise, cool and condense into storm clouds."
+    },
+    {
+      "term": "ITCZ",
+      "definition": "The Inter-Tropical Convergence Zone, a low-pressure belt of rising air along the equator."
+    },
+    {
+      "term": "Evapotranspiration",
+      "definition": "The loss of water to the atmosphere from both evaporation and the transpiration of plants."
+    },
+    {
+      "term": "Mutualism",
+      "definition": "A relationship in which two species each gain from the other."
+    }
   ],
   "factCards": [
-    { "term": "Hot desert biome: location and named deserts", "definition": "Under 250 mm of rain a year, about 15–30° N and S, mainly on west sides and in continental interiors. The Sahara (about 9 million km²) is the largest; others are the Arabian, Thar, Namib, Atacama, Sonoran, Mojave, Great Victoria and Simpson Deserts." },
-    { "term": "Hot desert: five causes of aridity", "definition": "Subtropical high pressure, where sinking air warms so clouds cannot form; offshore trade winds from the dry interior; cold ocean currents that make the air stable, giving fog not rain; rain shadow behind mountains; continentality, far from the sea." },
-    { "term": "Hot deserts: match each to its cold current or rain shadow", "definition": "Canary Current: western Sahara. Benguela Current: Namib. Humboldt Current: Atacama. California Current: Baja California and the Sonoran coast. The Andes shelter the Atacama; the Sierra Nevada shelters the Mojave, including Death Valley." },
-    { "term": "Hot desert temperature: characteristics and the world record", "definition": "Summer days often exceed 40 °C; clear, dry air gives a diurnal range of 20–30 °C or more, with winter nights near freezing. Record: 56.7 °C at Furnace Creek, Death Valley, 10 July 1913 (WMO); the 58 °C El Azizia reading was rejected in 2012." },
-    { "term": "Hot desert rainfall: characteristics and two extreme deserts", "definition": "Rain is scarce and unreliable, often in short, intense convectional downpours causing flash floods; evaporation far exceeds rainfall. The Atacama is the driest non-polar desert; the Namib gets much of its moisture as fog from the cold Benguela Current." },
-    { "term": "Aridisols: characteristics and when they become fertile", "definition": "Thin and immature (slow, mainly physical weathering); coarse, with little humus, so pale grey, yellow or red; little leaching, so capillary rise leaves salt crusts and calcrete; alkaline. Fertile when irrigated, as in the Nile valley and the Imperial Valley." },
-    { "term": "Saguaro cactus: where it grows, three adaptations and its size and age", "definition": "Only in the Sonoran Desert (Arizona and Sonora, Mexico). Its pleated stem expands to store water after rain; spines replace leaves; shallow roots spread widely just below the surface; it can grow over 12 m tall and live over 150 years." },
-    { "term": "Desert plants: four ways leaves and stems cut water loss", "definition": "Spines in place of leaves, which also deter animals; a thick, waxy cuticle; few, sunken stomata that in many succulents open only at night (CAM photosynthesis); small or light-coloured leaves, or leaves shed in drought." },
-    { "term": "Desert plants: root and life-cycle strategies, with named plants", "definition": "Mesquite tap roots reach tens of metres to groundwater; acacias have deep roots, small leaves and thorns; ephemerals bloom within weeks of rain, as in the Atacama's flowering desert in wet El Niño years and Death Valley's superbloom of 2016." },
-    { "term": "Welwitschia and creosote bush: what makes each special", "definition": "Welwitschia mirabilis (Namib): only two leaves, which grow throughout its life; absorbs fog moisture; some are thought to be over 1,000 years old. Creosote bush (Mojave, Sonoran): evenly spaced plants whose roots and chemicals limit competitors." },
-    { "term": "Dromedary camel: five adaptations to the desert", "definition": "Its hump stores fat, not water; it can go days without drinking, then drink over 100 litres in minutes; its body temperature rises by day to save sweat; long eyelashes and closable nostrils keep out sand; broad, padded feet spread its weight." },
-    { "term": "Fennec fox and kangaroo rat: how each survives the desert", "definition": "Fennec fox (Sahara): the smallest fox; very large ears radiate heat; nocturnal; burrows; furry soles for hot sand. Kangaroo rat (North America): gets water from seeds and its metabolism, has very concentrated urine, and seals its burrow by day." },
-    { "term": "Desert animals: three ways to get or save water", "definition": "The Namib fog-basking beetle stands head-down on dunes at dawn so fog runs to its mouth; the thorny devil lizard's skin grooves channel water to its mouth; the spadefoot toad estivates underground and its tadpoles develop before pools dry up." },
-    { "term": "Hot desert: biotic inter-relationships with named species", "definition": "Lesser long-nosed bats pollinate saguaro and agave flowers at night; Gila woodpeckers dig nest holes in saguaros that elf owls later use; food chains are short, and seed-eating rodents are prey for snakes, owls and foxes." },
-    { "term": "Tabernas Desert: Europe's example of a desert", "definition": "In Almería province, Andalusia, south-east Spain: semi-arid badlands in the rain shadow of surrounding mountains, often called Europe's only desert; a film set for spaghetti westerns in the 1960s and 1970s." },
-    { "term": "Tropical rainforest biome: location and main regions", "definition": "Mainly within about 10° of the equator. The Amazon Basin is largest (about 5.5 million km², roughly 60% in Brazil); then the Congo Basin; then South-East Asia (Indonesia, Malaysia, Papua New Guinea); smaller areas include the Daintree, Queensland." },
-    { "term": "Rainforest biodiversity: key figures", "definition": "Rainforests cover only about 6% of the earth's land but are widely estimated to hold over half of its land plant and animal species. Hundreds of tree species can grow in one hectare of Amazon forest, against a handful in an Irish wood." },
-    { "term": "Rainforest temperature: figures and why it barely changes", "definition": "Monthly means about 26–28 °C, an annual range of only about 2–3 °C, because the sun is always high (overhead at the equinoxes in March and September) and day length barely changes. The daily range exceeds the annual range; there is no summer or winter season." },
-    { "term": "Rainforest rainfall: amount and the daily convection cycle", "definition": "Over 2,000 mm a year (Manaus about 2,300 mm). Morning heating makes moist air rise; it cools and cumulonimbus build; heavy afternoon thunderstorms follow almost daily, driven by the ITCZ. Humidity is often over 80% and much rain is recycled from the forest." },
-    { "term": "Rainforest nutrient cycle: how lush forest grows on infertile soil", "definition": "Latosols are acidic with little humus, but litter decomposes within weeks, and shallow roots and mycorrhizal fungi take up nutrients almost at once. Most nutrients are held in the living vegetation, so the cycle is rapid and closed." },
-    { "term": "Rainforest layers: heights and features of each", "definition": "Emergents about 45–60 m or more (kapok, Brazil nut, dipterocarps); dense canopy about 25–40 m, holding most animal life; understorey up to about 15 m; shrub layer; dark forest floor getting about 2% of the sunlight that reaches the canopy." },
-    { "term": "Rainforest trees: five adaptations to the climate and soil", "definition": "Buttress roots support tall, shallow-rooted trees such as kapok and Brazil nut; shallow roots catch nutrients from litter; drip tips and waxy leaves shed heavy rain; large understorey leaves catch dim light; thin, smooth bark, as no insulation is needed." },
-    { "term": "Rainforest climbers, epiphytes and plants of poor soils: named examples", "definition": "Lianas climb trees to the light; epiphytes such as orchids and bromeliads grow on branches; strangler figs enclose their host; pitcher plants (Nepenthes) digest insects; Rafflesia arnoldii, a parasite, has the largest flower, about 1 m across." },
-    { "term": "Rainforest canopy animals: adaptations of five named species", "definition": "Spider and howler monkeys: prehensile tails as a fifth limb. Three-toed sloth: slow metabolism suits a leaf diet; algae in its fur camouflage it. Toucan: large, light bill reaches fruit. Orangutan (Borneo, Sumatra only): largest tree-living mammal, long arms." },
-    { "term": "Rainforest animals: camouflage, warning colours and predators", "definition": "Poison dart frogs' bright colours warn of toxic skin; the jaguar, the largest cat in the Americas, has a spotted, camouflaged coat and swims strongly; the okapi of the Congo has striped legs for camouflage; the harpy eagle hunts monkeys and sloths." },
-    { "term": "Rainforest mutualism: three named examples", "definition": "Azteca ants live in Cecropia trees, which give shelter and food, and attack herbivores and climbers; leafcutter ants grow the fungus they eat; the Brazil nut needs orchid bees to pollinate it and agoutis to bury its nuts, so it yields poorly in plantations." },
-    { "term": "Rainforest peoples: three named groups and how they used the forest", "definition": "The Yanomami (Brazil–Venezuela border), Kayapó (Brazilian Amazon) and Mbuti (Ituri forest, Democratic Republic of the Congo). Hunting, gathering and shifting cultivation at low density let the forest and soil recover." }
+    {
+      "term": "Hot desert biome: location and named deserts",
+      "definition": "Under 250 mm of rain a year, about 15–30° N and S, mainly on west sides and in continental interiors. The Sahara (about 9 million km²) is the largest; others are the Arabian, Thar, Namib, Atacama, Sonoran, Mojave, Great Victoria and Simpson Deserts."
+    },
+    {
+      "term": "Hot desert: five causes of aridity",
+      "definition": "Subtropical high pressure, where sinking air warms so clouds cannot form; offshore trade winds from the dry interior; cold ocean currents that make the air stable, giving fog not rain; rain shadow behind mountains; continentality, far from the sea."
+    },
+    {
+      "term": "Hot deserts: match each to its cold current or rain shadow",
+      "definition": "Canary Current: western Sahara. Benguela Current: Namib. Humboldt Current: Atacama. California Current: Baja California and the Sonoran coast. The Andes shelter the Atacama; the Sierra Nevada shelters the Mojave, including Death Valley."
+    },
+    {
+      "term": "Hot desert temperature: characteristics and the world record",
+      "definition": "Summer days often exceed 40 °C; clear, dry air gives a diurnal range of 20–30 °C or more, with winter nights near freezing. Record: 56.7 °C at Furnace Creek, Death Valley, 10 July 1913 (WMO); the 58 °C El Azizia reading was rejected in 2012."
+    },
+    {
+      "term": "Hot desert rainfall: characteristics and two extreme deserts",
+      "definition": "Rain is scarce and unreliable, often in short, intense convectional downpours causing flash floods; evaporation far exceeds rainfall. The Atacama is the driest non-polar desert; the Namib gets much of its moisture as fog from the cold Benguela Current."
+    },
+    {
+      "term": "Aridisols: characteristics and when they become fertile",
+      "definition": "Thin and immature (slow, mainly physical weathering); coarse, with little humus, so pale grey, yellow or red; little leaching, so capillary rise leaves salt crusts and calcrete; alkaline. Fertile when irrigated, as in the Nile valley and the Imperial Valley."
+    },
+    {
+      "term": "Saguaro cactus: where it grows, three adaptations and its size and age",
+      "definition": "Only in the Sonoran Desert (Arizona and Sonora, Mexico). Its pleated stem expands to store water after rain; spines replace leaves; shallow roots spread widely just below the surface; it can grow over 12 m tall and live over 150 years."
+    },
+    {
+      "term": "Desert plants: four ways leaves and stems cut water loss",
+      "definition": "Spines in place of leaves, which also deter animals; a thick, waxy cuticle; few, sunken stomata that in many succulents open only at night (CAM photosynthesis); small or light-coloured leaves, or leaves shed in drought."
+    },
+    {
+      "term": "Desert plants: root and life-cycle strategies, with named plants",
+      "definition": "Mesquite tap roots reach tens of metres to groundwater; acacias have deep roots, small leaves and thorns; ephemerals bloom within weeks of rain, as in the Atacama's flowering desert in wet El Niño years and Death Valley's superbloom of 2016."
+    },
+    {
+      "term": "Welwitschia and creosote bush: what makes each special",
+      "definition": "Welwitschia mirabilis (Namib): only two leaves, which grow throughout its life; absorbs fog moisture; some are thought to be over 1,000 years old. Creosote bush (Mojave, Sonoran): evenly spaced plants whose roots and chemicals limit competitors."
+    },
+    {
+      "term": "Dromedary camel: five adaptations to the desert",
+      "definition": "Its hump stores fat, not water; it can go days without drinking, then drink over 100 litres in minutes; its body temperature rises by day to save sweat; long eyelashes and closable nostrils keep out sand; broad, padded feet spread its weight."
+    },
+    {
+      "term": "Fennec fox and kangaroo rat: how each survives the desert",
+      "definition": "Fennec fox (Sahara): the smallest fox; very large ears radiate heat; nocturnal; burrows; furry soles for hot sand. Kangaroo rat (North America): gets water from seeds and its metabolism, has very concentrated urine, and seals its burrow by day."
+    },
+    {
+      "term": "Desert animals: three ways to get or save water",
+      "definition": "The Namib fog-basking beetle stands head-down on dunes at dawn so fog runs to its mouth; the thorny devil lizard's skin grooves channel water to its mouth; the spadefoot toad estivates underground and its tadpoles develop before pools dry up."
+    },
+    {
+      "term": "Hot desert: biotic inter-relationships with named species",
+      "definition": "Lesser long-nosed bats pollinate saguaro and agave flowers at night; Gila woodpeckers dig nest holes in saguaros that elf owls later use; food chains are short, and seed-eating rodents are prey for snakes, owls and foxes."
+    },
+    {
+      "term": "Tabernas Desert: Europe's example of a desert",
+      "definition": "In Almería province, Andalusia, south-east Spain: semi-arid badlands in the rain shadow of surrounding mountains, often called Europe's only desert; a film set for spaghetti westerns in the 1960s and 1970s."
+    },
+    {
+      "term": "Tropical rainforest biome: location and main regions",
+      "definition": "Mainly within about 10° of the equator. The Amazon Basin is largest (about 5.5 million km², roughly 60% in Brazil); then the Congo Basin; then South-East Asia (Indonesia, Malaysia, Papua New Guinea); smaller areas include the Daintree, Queensland."
+    },
+    {
+      "term": "Rainforest biodiversity: key figures",
+      "definition": "Rainforests cover only about 6% of the earth's land but are widely estimated to hold over half of its land plant and animal species. Hundreds of tree species can grow in one hectare of Amazon forest, against a handful in an Irish wood."
+    },
+    {
+      "term": "Rainforest temperature: figures and why it barely changes",
+      "definition": "Monthly means about 26–28 °C, an annual range of only about 2–3 °C, because the sun is always high (overhead at the equinoxes in March and September) and day length barely changes. The daily range exceeds the annual range; there is no summer or winter season."
+    },
+    {
+      "term": "Rainforest rainfall: amount and the daily convection cycle",
+      "definition": "Over 2,000 mm a year (Manaus about 2,300 mm). Morning heating makes moist air rise; it cools and cumulonimbus build; heavy afternoon thunderstorms follow almost daily, driven by the ITCZ. Humidity is often over 80% and much rain is recycled from the forest."
+    },
+    {
+      "term": "Rainforest nutrient cycle: how lush forest grows on infertile soil",
+      "definition": "Latosols are acidic with little humus, but litter decomposes within weeks, and shallow roots and mycorrhizal fungi take up nutrients almost at once. Most nutrients are held in the living vegetation, so the cycle is rapid and closed."
+    },
+    {
+      "term": "Rainforest layers: heights and features of each",
+      "definition": "Emergents about 45–60 m or more (kapok, Brazil nut, dipterocarps); dense canopy about 25–40 m, holding most animal life; understorey up to about 15 m; shrub layer; dark forest floor getting about 2% of the sunlight that reaches the canopy."
+    },
+    {
+      "term": "Rainforest trees: five adaptations to the climate and soil",
+      "definition": "Buttress roots support tall, shallow-rooted trees such as kapok and Brazil nut; shallow roots catch nutrients from litter; drip tips and waxy leaves shed heavy rain; large understorey leaves catch dim light; thin, smooth bark, as no insulation is needed."
+    },
+    {
+      "term": "Rainforest climbers, epiphytes and plants of poor soils: named examples",
+      "definition": "Lianas climb trees to the light; epiphytes such as orchids and bromeliads grow on branches; strangler figs enclose their host; pitcher plants (Nepenthes) digest insects; Rafflesia arnoldii, a parasite, has the largest flower, about 1 m across."
+    },
+    {
+      "term": "Rainforest canopy animals: adaptations of five named species",
+      "definition": "Spider and howler monkeys: prehensile tails as a fifth limb. Three-toed sloth: slow metabolism suits a leaf diet; algae in its fur camouflage it. Toucan: large, light bill reaches fruit. Orangutan (Borneo, Sumatra only): largest tree-living mammal, long arms."
+    },
+    {
+      "term": "Rainforest animals: camouflage, warning colours and predators",
+      "definition": "Poison dart frogs' bright colours warn of toxic skin; the jaguar, the largest cat in the Americas, has a spotted, camouflaged coat and swims strongly; the okapi of the Congo has striped legs for camouflage; the harpy eagle hunts monkeys and sloths."
+    },
+    {
+      "term": "Rainforest mutualism: three named examples",
+      "definition": "Azteca ants live in Cecropia trees, which give shelter and food, and attack herbivores and climbers; leafcutter ants grow the fungus they eat; the Brazil nut needs orchid bees to pollinate it and agoutis to bury its nuts, so it yields poorly in plantations."
+    },
+    {
+      "term": "Rainforest peoples: three named groups and how they used the forest",
+      "definition": "The Yanomami (Brazil–Venezuela border), Kayapó (Brazilian Amazon) and Mbuti (Ituri forest, Democratic Republic of the Congo). Hunting, gathering and shifting cultivation at low density let the forest and soil recover."
+    }
   ],
   "questions": [
     {

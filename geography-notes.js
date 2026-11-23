@@ -19832,7 +19832,8 @@
      "Smaller areas: Central America, West Africa, eastern Madagascar and north-east Australia (the Daintree, Queensland).",
      "Rainforests, though small in area, cover only about 6% of the earth's land surface but are widely estimated to hold over half of the world's land plant and animal species. This is a widely quoted estimate.",
      "Map cue: shade the equatorial belt, then mark the three main basins and regions."
-    ]
+    ],
+    "tip": "Place each region on the right continent: the Amazon in South America, the Congo in Central Africa, and Indonesia, Malaysia and Papua New Guinea in South-East Asia. On a map, keep the belt within about 10° of the equator."
    },
    {
     "b": "Temperature in the rainforest is high and almost constant, because the sun stays high in the sky all year. The daily swing is bigger than any seasonal one.",
@@ -19856,7 +19857,8 @@
      "The low-pressure belt of rising air along the equator, the ITCZ (Inter-Tropical Convergence Zone, also called the doldrums), drives this; some areas have a short drier season when it shifts.",
      "Relative humidity (the amount of water vapour in the air) is often over 80%.",
      "A large share of the Amazon's rain is water recycled from the forest by evapotranspiration (water given off by plants and evaporated from the ground and leaves)."
-    ]
+    ],
+    "tip": "When asked to account for the climate, give the cause, not just the figures: the high sun, morning heating, rising moist air, cumulonimbus clouds and afternoon storms, all driven by the ITCZ."
    },
    {
     "b": "The lush forest grows on poor soil. It survives because nutrients are locked in the living plants and recycled very quickly, rather than stored in the ground.",
@@ -19880,7 +19882,8 @@
      "The shrub layer grows in the dim light below.",
      "The forest floor is dark and humid; only about 2% of the sunlight reaching the canopy arrives there.",
      "Diagram cue: a labelled vertical profile of the layers, with approximate heights."
-    ]
+    ],
+    "tip": "If you draw the layers, label each one with an approximate height range and a named tree, such as kapok or the Brazil nut for the emergents."
    },
    {
     "b": "Rainforest plants are adapted to heavy rain, thin soils and competition for light. Each feature below answers one of those pressures.",
@@ -19890,9 +19893,10 @@
      "Shallow roots catch nutrients from the litter layer, because that is where the nutrients are.",
      "Drip tips and waxy leaves shed heavy rain, so the leaves do not stay waterlogged.",
      "Large leaves in the understorey capture the little light that reaches it, because the canopy above blocks most of it.",
-     "Thin, smooth bark, because the trunk needs no thick insulation.",
+     "Thin, smooth bark, because the trunk needs no thick insulation in the constant warmth, and a smooth surface makes it harder for epiphytes to cling.",
      "Evergreen, with leaves shed and replaced all year. When a tree falls it opens a light gap, and young trees grow rapidly upwards into it."
-    ]
+    ],
+    "tip": "Link every adaptation to the condition it answers: buttress roots to shallow soil, drip tips to heavy rain, large leaves to dim light. A feature without its reason earns less."
    },
    {
     "b": "In a crowded forest, many plants reach the light by climbing or growing on other plants, and some cope with poor soil by trapping insects or living as parasites.",
@@ -19903,15 +19907,20 @@
      "Strangler figs start as epiphytes high in the canopy, where there is light, and enclose their host tree.",
      "Pitcher plants (Nepenthes) in the nutrient-poor soils of South-East Asia trap and digest insects.",
      "Rafflesia arnoldii, a parasite on vines in Sumatra and Borneo, has the largest single flower in the world, about 1 m across, and smells of rotting meat to attract flies."
-    ]
+    ],
+    "tip": "Name the plant with its adaptation: lianas climbing to the light, bromeliads holding water, strangler figs enclosing their host, pitcher plants trapping insects in poor soil."
    },
    {
     "b": "Rainforest has extremely high species diversity of plants and animals. The pattern is many species but few individuals of each.",
     "h": "Tropical rainforest: biodiversity",
     "points": [
-     "For example, hundreds of tree species can grow in a single hectare of Amazon rainforest, compared with a handful in an Irish wood.",
-     "Many species grow in each hectare, but each species is represented by few individuals."
-    ]
+     "Hundreds of tree species can grow in a single hectare of Amazon rainforest, compared with a handful in an Irish wood.",
+     "Many species grow in each hectare, but each species is represented by few individuals, so a tree's nearest neighbour of the same species may be far away.",
+     "The climate is warm and wet all year with no cold or dry season to survive, so plants grow all year round and many species can coexist.",
+     "The layers of the forest create many separate niches (ways of living, each with its own light, food and shelter), from the sunny emergents to the dark forest floor, so more species can live side by side.",
+     "This richness depends on the closed nutrient cycle: when the forest is cleared, both the species and the nutrients stored in them are lost together."
+    ],
+    "tip": "If asked about flora or fauna, start from biodiversity: many species, few of each, and why the stable climate and the layers allow it. Then give named examples."
    },
    {
     "b": "Most animals live in the canopy (arboreal, meaning tree-living), where the food and sunlight are. Their adaptations suit life in the trees.",
@@ -19929,11 +19938,13 @@
     "b": "Beyond the canopy, forest animals rely on camouflage, warning colours and swimming. Place each animal on the correct continent.",
     "h": "Tropical rainforest: other animal adaptations",
     "points": [
-     "Most animals live in the canopy (arboreal), so adaptations for climbing and camouflage are common.",
-     "Poison dart frogs, Central and South America: bright colours warn predators of their toxic skin.",
-     "Jaguar: the largest cat in the Americas, with a spotted coat for camouflage; a strong swimmer.",
-     "Okapi, Congo rainforest: a forest relative of the giraffe, with striped legs for camouflage.",
-     "For example, gorillas and bonobos live in the Congo Basin; bonobos are found only south of the Congo River."
+     "Poison dart frogs, Central and South America: bright colours warn predators of their toxic skin, so predators learn to leave them alone.",
+     "Jaguar: the largest cat in the Americas, with a spotted coat that breaks up its outline in the dappled light of the forest floor; a strong swimmer that hunts along rivers.",
+     "Many animals are strong swimmers or live in water, because rivers flood the forest for months each wet season: the anaconda, a huge snake, hunts in flooded forest and rivers, and the Amazon river (pink) dolphin swims among the flooded trees.",
+     "Capybara, South America: the world's largest rodent, a semi-aquatic grazer that escapes predators by diving into water.",
+     "Many animals are nocturnal (active at night), which avoids daytime predators and competition, and some canopy animals glide between trees rather than climbing down.",
+     "Okapi, Congo rainforest: a forest relative of the giraffe, with striped legs for camouflage in the dim forest.",
+     "Gorillas and bonobos live in the Congo Basin; bonobos are found only south of the Congo River."
     ],
     "tip": "Gorillas and okapi are not in the Amazon, and jaguars are not in Africa or Asia."
    },
@@ -19945,7 +19956,8 @@
      "Mutualism: Azteca ants live inside Cecropia trees, which give them shelter and food; in return the ants attack herbivores and clear climbing plants from the tree.",
      "Leafcutter ants cut leaves to grow the fungus they eat, so the leaves are food for the fungus, not the ants.",
      "Brazil nut: pollinated mainly by large orchid bees and dispersed by agoutis, rodents that bury the nuts; trees produce poorly in plantations away from intact forest."
-    ]
+    ],
+    "tip": "Biotic inter-relationships earn marks only with named partners: the Brazil nut with orchid bees and agoutis, or Azteca ants with Cecropia trees."
    },
    {
     "b": "Indigenous people have long lived in the forest by methods that let it recover.",
@@ -19954,7 +19966,8 @@
      "The Yanomami (Brazil and Venezuela border), the Kayapó (Brazilian Amazon) and the Mbuti (Ituri forest, Democratic Republic of the Congo) are hunter-gatherers.",
      "Hunting, gathering and shifting cultivation (slash and burn, clearing a patch and moving on) at low density, because small numbers of people take little, let the forest and soil recover.",
      "There is more on commercial felling in Human alteration of biomes."
-    ]
+    ],
+    "tip": "Keep this to how forest peoples lived in balance with the forest. The causes and effects of commercial felling belong in Human alteration of biomes."
    },
    {
     "b": "The syllabus asks for European examples where appropriate, but this biome has none.",
@@ -19970,7 +19983,8 @@
      "Annual range: the warmest monthly mean minus the coolest, for example 28 °C minus 25 °C gives an annual range of 3 °C (invented illustrative values).",
      "Total rainfall: the sum of the twelve monthly rainfall bars, for example 2,400 mm (invented illustrative values); rain falls in every month, with no dry season.",
      "Seasonality: describe the pattern as even, with temperatures near constant through the year (invented illustrative values)."
-    ]
+    ],
+    "tip": "Read the values from the graph you are given and quote them with units. Say that the annual range is small and that rain falls in every month."
    }
   ],
   "questions": [
@@ -29187,6 +29201,1659 @@
     "marks": 30,
     "model": "India had a density of 382 people per km² in Census 2011, but population is very unevenly spread. Dense areas: the Ganges plain has fertile alluvium, water, flat land and a long history of settlement, and Bihar is the densest state at about 1,100 per km². The deltas and coastal plains, such as Kerala and West Bengal, are dense because of fertile land, water and access to the sea and trade. Cities such as Mumbai, Delhi and Kolkata draw dense populations because of industry, jobs and transport. Sparse areas: the Thar Desert is sparse because of aridity and low rainfall. The Himalayas are sparse because of cold temperatures, steep slopes and thin soils. The forested hills of the north-east and the central plateaus are sparse because of relief, soils and limited farming. Human factors such as history, farming, industry, transport and government policy reinforce these physical patterns. The contrast is clearest between Bihar, at about 1,100 per km², and Arunachal Pradesh, at about 17 per km².",
     "prompt": "Account for the distribution of population in India.",
+    "type": "short"
+   }
+  ]
+ },
+ "geo-region-continental-s2": {
+  "keyTerms": [
+   {
+    "definition": "The Intertropical Convergence Zone, a belt where winds from north and south meet and air rises, bringing heavy rain that moves north and south with the overhead sun.",
+    "term": "ITCZ"
+   },
+   {
+    "definition": "The semi-arid interior of the Northeast, with low and unreliable rain and a drought-prone climate.",
+    "term": "Sertão"
+   },
+   {
+    "definition": "The Polígono das Secas, the officially defined drought-prone area of the Northeast interior.",
+    "term": "Drought polygon"
+   },
+   {
+    "definition": "A deep, red-yellow, acidic soil of the Amazon and Cerrado that is low in nutrients because heat and rain have leached it.",
+    "term": "Latosol"
+   },
+   {
+    "definition": "A deep, dark red and fertile soil weathered from the basalt of the Paraná Plateau, the soil of the coffee boom.",
+    "term": "Terra roxa"
+   },
+   {
+    "definition": "A dark, clay-rich and fertile soil of the humid Northeast coast, the base of colonial sugar plantations.",
+    "term": "Massapê"
+   },
+   {
+    "definition": "Forest and land flooded each year by silt-laden white-water rivers, giving some of the few fertile soils in the Amazon.",
+    "term": "Várzea"
+   },
+   {
+    "definition": "Dark fertile soil made by pre-Columbian Amazon peoples by adding charcoal, food waste and pottery.",
+    "term": "Terra preta"
+   },
+   {
+    "definition": "The dry thorn scrub biome of the sertão, found only in Brazil.",
+    "term": "Caatinga"
+   },
+   {
+    "definition": "The world's largest tropical wetland, a flat, seasonally flooded depression mainly in Mato Grosso and Mato Grosso do Sul.",
+    "term": "Pantanal"
+   },
+   {
+    "definition": "A steep slope, such as the Serra do Mar, which forces air to rise and acts as a barrier to transport.",
+    "term": "Escarpment"
+   },
+   {
+    "definition": "The tidal bore of the Amazon, a wave that travels upstream at the river mouth.",
+    "term": "Pororoca"
+   },
+   {
+    "definition": "The Brazilian Agricultural Research Corporation, founded in 1973, which bred tropical crops and made the Cerrado productive.",
+    "term": "EMBRAPA"
+   },
+   {
+    "definition": "The second crop of maize planted after the soya harvest in the same rainy season.",
+    "term": "Safrinha"
+   },
+   {
+    "definition": "A very large agricultural estate.",
+    "term": "Latifúndio"
+   },
+   {
+    "definition": "A tiny plot of farmland.",
+    "term": "Minifúndio"
+   },
+   {
+    "definition": "The Landless Rural Workers' Movement, founded 1984, which presses for land redistribution.",
+    "term": "MST"
+   },
+   {
+    "definition": "A policy of making goods at home that were once imported, protecting new factories with tariffs.",
+    "term": "Import substitution industrialisation"
+   },
+   {
+    "definition": "The 'Brazil cost': extra business costs from high taxes, bureaucracy and poor transport.",
+    "term": "Custo Brasil"
+   },
+   {
+    "definition": "Oil fields discovered in 2006 to 2007 deep under the ocean floor beneath a thick layer of salt.",
+    "term": "Pre-salt"
+   },
+   {
+    "definition": "An area, such as Manaus (1967), where firms get tax breaks to attract industry.",
+    "term": "Free trade zone"
+   },
+   {
+    "definition": "A protected forest area where local people harvest products such as rubber without clearing it.",
+    "term": "Extractive reserve"
+   },
+   {
+    "definition": "A dam that stores the waste mud from a mine.",
+    "term": "Tailings dam"
+   },
+   {
+    "definition": "The 1975 National Alcohol Programme to make ethanol fuel from sugar cane.",
+    "term": "Proálcool"
+   },
+   {
+    "definition": "A migrant from the Northeast of Brazil, especially one who moved from the sertão to São Paulo or Rio de Janeiro.",
+    "term": "Nordestino"
+   },
+   {
+    "definition": "An informal, self-built urban settlement, often on steep hills or the urban edge, with poor services.",
+    "term": "Favela"
+   },
+   {
+    "definition": "The Brazilian census category for people of mixed ancestry, the largest group in the 2022 Census at about 45 percent.",
+    "term": "Pardo"
+   },
+   {
+    "definition": "The blending of two belief systems, as when Candomblé joins West African spirits to Catholic saints.",
+    "term": "Syncretism"
+   },
+   {
+    "definition": "An Afro-Brazilian religion from Yoruba and other West African traditions, strongest in Salvador, Bahia.",
+    "term": "Candomblé"
+   },
+   {
+    "definition": "A cash-transfer scheme begun in 2003 that pays families on condition that children attend school and are vaccinated.",
+    "term": "Bolsa Família"
+   },
+   {
+    "definition": "Death rates fell from the mid-20th century while births stayed high, then fertility fell from about 6 children per woman in 1960 to about 1.6.",
+    "term": "Demographic transition as applied to Brazil"
+   },
+   {
+    "definition": "São Paulo's 1997 scheme that bans cars from the central area at rush hours on one weekday, by the last digit of the number plate.",
+    "term": "Rodízio"
+   },
+   {
+    "definition": "A town outside a planned city, such as Ceilândia near Brasília, that houses workers the plan did not provide for.",
+    "term": "Satellite city"
+   },
+   {
+    "definition": "The claim that Brazil mixed its peoples without racism; in reality Black and pardo Brazilians earn less.",
+    "term": "Racial democracy"
+   },
+   {
+    "definition": "The Landless Rural Workers' Movement, founded in 1984, which occupies unused estates to press for land redistribution.",
+    "term": "MST"
+   },
+   {
+    "definition": "The dry, semi-arid interior of the Northeast, which has low and unreliable rain and is prone to drought.",
+    "term": "Sertão"
+   },
+   {
+    "definition": "About 8.5 million km², the world's fifth-largest country and about half of South America, with an Atlantic coastline of about 7,400 km.",
+    "term": "Brazil: size, rank and coastline"
+   },
+   {
+    "definition": "Chile and Ecuador.",
+    "term": "Which two South American countries does Brazil not border?"
+   },
+   {
+    "definition": "Monthly means of about 26-28 degrees C and about 2,300 mm of rain a year.",
+    "term": "Manaus climate figures"
+   },
+   {
+    "definition": "It lies in the rain shadow of the coastal plateau, sinking air limits convection, the ITCZ reaches it only briefly, and El Niño years bring drought.",
+    "term": "Why is the sertão dry? Four reasons"
+   },
+   {
+    "definition": "Roughly 250-800 mm a year, falling in a short rainy season and varying greatly from year to year.",
+    "term": "Rainfall of the sertão"
+   },
+   {
+    "definition": "January 2011 floods and landslides killed more than 900 people, Brazil's worst natural disaster.",
+    "term": "2011 Rio de Janeiro mountain region disaster"
+   },
+   {
+    "definition": "Amazon about 49%, Cerrado about 24%, Atlantic Forest about 13%, Caatinga about 10%, Pampa about 2%, Pantanal about 2%.",
+    "term": "Share of Brazil's area by biome"
+   },
+   {
+    "definition": "Purple earth in Portuguese, from its dark red colour; it weathers from the basalt of the Paraná Plateau in Paraná and São Paulo states.",
+    "term": "Terra roxa: meaning and origin"
+   },
+   {
+    "definition": "Pico da Neblina, about 2,995 m, in the Guiana Highlands in Amazonas state on the border with Venezuela.",
+    "term": "Brazil's highest peak"
+   },
+   {
+    "definition": "About 275 separate falls on the Iguaçu River on the Brazil-Argentina border, over the basalt edge of the Paraná Plateau; a UNESCO World Heritage Site.",
+    "term": "Iguaçu Falls"
+   },
+   {
+    "definition": "About 6,400 km long, a basin of about 7 million km², about a fifth of the fresh water rivers deliver to the oceans, and ocean ships reach Manaus about 1,500 km inland.",
+    "term": "Amazon: key figures"
+   },
+   {
+    "definition": "Rises in the Serra da Canastra, Minas Gerais, flows about 2,800 km north then east to the Atlantic; irrigated grapes and mangoes at Petrolina-Juazeiro; transposition project from 2007.",
+    "term": "São Francisco River: course and uses"
+   },
+   {
+    "definition": "On the Xingu, Pará, completed 2019; opposed by the Kayapó and it displaced thousands of people.",
+    "term": "Belo Monte Dam: why controversial"
+   },
+   {
+    "definition": "Liming and fertiliser, EMBRAPA's tropical soya varieties, cheap flat land for machines and reliable summer rain.",
+    "term": "Cerrado soya: four reasons for success"
+   },
+   {
+    "definition": "The 'black frost' of July 1975 destroyed most coffee trees in Paraná, and Minas Gerais became the leading state.",
+    "term": "Coffee: why it moved north in 1975"
+   },
+   {
+    "definition": "A rubber tapper and union leader murdered at Xapuri, Acre, on 22 December 1988. The Extractive Reserve was created in 1990.",
+    "term": "Chico Mendes"
+   },
+   {
+    "definition": "The world's largest iron-ore mine, in Pará, run by Vale, with the ore carried about 890 km by railway to São Luís.",
+    "term": "Carajás"
+   },
+   {
+    "definition": "Fundão dam, Mariana, 5 November 2015: 19 deaths. Vale dam, Brumadinho, 25 January 2019: about 270 deaths.",
+    "term": "Mariana and Brumadinho"
+   },
+   {
+    "definition": "The warm Brazil Current is low in plankton, so there is little fish food along the coast.",
+    "term": "Why Brazil's fishing is small"
+   },
+   {
+    "definition": "Discovered in 2006 to 2007 in the Santos Basin, up to about 300 km offshore, beneath a thick layer of salt, and now supplying most of Brazil's oil.",
+    "term": "Pre-salt oil"
+   },
+   {
+    "definition": "Vargas used tariffs and built the CSN steelworks at Volta Redonda (1946); Kubitschek brought foreign car makers to the ABC region.",
+    "term": "Vargas and Kubitschek: industrial policy"
+   },
+   {
+    "definition": "Set up in 1967 with tax breaks to attract assembly of electronics, phones and motorbikes in the Amazon.",
+    "term": "Manaus Free Trade Zone"
+   },
+   {
+    "definition": "São Paulo, Rio de Janeiro and Belo Horizonte in the Southeast.",
+    "term": "Brazil's industrial triangle"
+   },
+   {
+    "definition": "Ford ended car production in Brazil in 2021, a sign of deindustrialisation and the Brazil cost.",
+    "term": "Why Ford left Brazil"
+   },
+   {
+    "definition": "Positive: jobs, foreign exchange, infrastructure and conservation funding. Negative: pollution at Guanabara Bay, unused stadiums and evictions at Vila Autódromo.",
+    "term": "Tourism: positive and negative impacts"
+   },
+   {
+    "definition": "About 4,000 km, begun in 1970 and opened in 1972, with long stretches still unpaved.",
+    "term": "Trans-Amazonian Highway"
+   },
+   {
+    "definition": "About 203 million in the 2022 Census, growing about 0.5 percent a year since 2010, the slowest ever recorded.",
+    "term": "Brazil's population and growth, 2022"
+   },
+   {
+    "definition": "Southeast about 42 percent, Northeast about 27 percent, South about 15 percent, North about 8.5 percent, Centre-West about 8 percent.",
+    "term": "Regional shares of population, 2022 Census"
+   },
+   {
+    "definition": "São Paulo has about 44 million people at about 180 per km²; Amazonas has under 3 per km².",
+    "term": "São Paulo state against Amazonas: density"
+   },
+   {
+    "definition": "Dense forest, heat and humidity, leached soils, disease and poor access.",
+    "term": "Why the Amazon is sparsely populated"
+   },
+   {
+    "definition": "About 6 children per woman in 1960 down to about 1.6 in the early 2020s, below the replacement level of 2.1.",
+    "term": "Brazil's fertility change"
+   },
+   {
+    "definition": "Pardo about 45 percent, white about 44 percent, Black about 10 percent, Indigenous and Asian each under 1 percent.",
+    "term": "Ethnic groups in the 2022 Census"
+   },
+   {
+    "definition": "Roman Catholic about 65 percent, evangelical about 22 percent, no religion about 8 percent, Spiritist about 2 percent.",
+    "term": "Religion in the 2010 Census"
+   },
+   {
+    "definition": "Portuguese is the national language; Indigenous languages such as Nheengatu are co-official in São Gabriel da Cachoeira; Hunsrik and Talian are spoken in the South.",
+    "term": "Languages of Brazil: three examples"
+   },
+   {
+    "definition": "Founded by Jesuits on 25 January 1554, it grew through coffee, the railway to Santos in 1867, immigration and industry.",
+    "term": "São Paulo: founding and growth"
+   },
+   {
+    "definition": "Favelas such as Heliópolis, traffic and air pollution, the 2014-15 water crisis, and flooding and inequality.",
+    "term": "São Paulo: four problems"
+   },
+   {
+    "definition": "About 36 percent in 1950 and about 87 percent in the 2020s.",
+    "term": "Urban share of Brazil's people"
+   },
+   {
+    "definition": "Inaugurated on 21 April 1960, planned by Lúcio Costa with buildings by Oscar Niemeyer.",
+    "term": "Brasília: who planned it and when"
+   },
+   {
+    "definition": "Bolsa Família, One Million Cisterns, Luz para Todos and Fome Zero.",
+    "term": "Rural development schemes since 2003"
+   },
+   {
+    "definition": "Brasília (1960), the March to the West, the Trans-Amazonian Highway (1970s) and Rondônia along the BR-364 (1980s).",
+    "term": "Policies to move people inland"
+   }
+  ],
+  "notes": [
+   {
+    "b": "The region studied is the Federative Republic of Brazil, a country so large that it fills about half of a continent. Its position across the tropics shapes almost everything else about it.",
+    "h": "Location and size",
+    "points": [
+     "Brazil is in eastern South America and covers about 8.5 million km², the world's fifth-largest country by area and about half of South America.",
+     "The equator crosses the far north, near the mouth of the Amazon, and the Tropic of Capricorn (the line of latitude south of the equator marking the edge of the tropics) passes close to São Paulo, so most of Brazil is tropical.",
+     "It has an Atlantic coastline of about 7,400 km, which is why early settlement and today's biggest cities cluster near the sea.",
+     "Brazil borders every South American country except Chile and Ecuador, but those neighbours are only neighbours, not part of the region studied.",
+     "The country has 26 states and the Federal District, and its capital is Brasília."
+    ],
+    "tip": "The capital is Brasília, not Rio de Janeiro or São Paulo. Rio was the capital until 1960, and São Paulo is the largest and richest city."
+   },
+   {
+    "b": "A region is an area with something that unites it. Brazil is big enough to be treated like a continent in its own right, and it holds together as one unit.",
+    "h": "Why Brazil is a continental region",
+    "points": [
+     "Its continental size: it is larger than most continents' individual countries and contains very different climates, landscapes and economies.",
+     "It is a single federal state (a country made of states that share a central government) with one language, Portuguese, surrounded by Spanish-speaking countries, which sets it apart culturally.",
+     "It has its own culture and economy, shaped by Portuguese colonisation, African and Indigenous peoples and later immigrants.",
+     "It has clear internal regions, the five macro-regions, which let you study how physical, economic and human processes interact inside one country."
+    ],
+    "tip": "Brazilians speak Portuguese, not Spanish. Say so whenever you explain why Brazil is a distinct region."
+   },
+   {
+    "b": "Brazil is divided officially into five macro-regions (large groupings of states). You will use these names in almost every answer, so learn what each is known for.",
+    "h": "The five macro-regions",
+    "points": [
+     "North: the Amazon, the largest region by area and the least populated.",
+     "Northeast: the sugar coast and the semi-arid interior called the sertão; it is the poorest region.",
+     "Centre-West: the Cerrado (tropical savanna), the soya frontier and the capital, Brasília.",
+     "Southeast: São Paulo, Rio de Janeiro and Minas Gerais; this is the economic core of the country.",
+     "South: a cooler region of European immigrant settlement with prosperous farming and industry."
+    ],
+    "tip": "When an exam question asks about regional differences, name the macro-regions and give each one a one-word character, such as North for Amazon or Southeast for core."
+   },
+   {
+    "b": "A sketch map earns marks for an accurate outline and for showing and naming each feature asked for. Learn one example of each feature and exactly where it goes. Names may go on the map or in a key.",
+    "h": "Sketch map of Brazil",
+    "points": [
+     "Outline: a broad northern bulge across the Amazon, an eastward shoulder at the Northeast, then the coast running south-west and the country tapering towards the south.",
+     "Relief: outline the Brazilian Highlands (the east-centre, inland from the coast, from the Northeast down to the south) or the Amazon Basin lowland (the north-west and north).",
+     "River: draw the Amazon entering in the far west, flowing east past Manaus, where the Rio Negro joins from the north-west, and ending at a wide estuary close to the equator. Mark Marajó Island at the mouth.",
+     "Urban centres as dots: São Paulo just inland behind the south-east coast near the Tropic of Capricorn, and Rio de Janeiro on the coast east-north-east of São Paulo.",
+     "Agricultural region as an outlined area: the soya region of Mato Grosso in the centre-west, south of the Amazon lowland.",
+     "Industrial region as an outlined area: the triangle joining São Paulo, Rio de Janeiro and Belo Horizonte. Other placing cues: Manaus in the centre-north, Brasília in the centre and Salvador on the Northeast coast."
+    ],
+    "tip": "Examiners ask for an outline, a named relief feature shown as an outline, the course of a named river, one or two urban centres and sometimes an outlined agricultural or industrial region. Put coastal cities on the coast and inland cities inland."
+   },
+   {
+    "b": "Six controls explain why Brazil has so many climates inside one country. Each one pushes temperature or rainfall up or down in a particular area.",
+    "h": "What controls Brazil's climate",
+    "points": [
+     "Latitude: most of Brazil lies between the equator and the Tropic of Capricorn, so it gets strong sun and is mostly hot.",
+     "The ITCZ (Intertropical Convergence Zone, the belt where winds from north and south meet and air rises to give heavy rain) moves north and south with the overhead sun, so it brings rain to different areas in different seasons.",
+     "The south-east trade winds blow in off the warm Atlantic, carrying moist air onto the east coast.",
+     "Altitude: the plateau is cooler than the coast because air cools with height.",
+     "Relief: the coastal escarpment (a steep slope) forces moist air to rise, cool and drop rain on the seaward side.",
+     "Cold fronts from the south reach the South and parts of the Southeast, bringing sudden falls in temperature and sometimes frost."
+    ],
+    "tip": "Physical processes questions ask how climate influences the region or its economy. Name the controls and link each to a specific place, such as the escarpment and the east coast."
+   },
+   {
+    "b": "The North has an equatorial climate (found on or near the equator): hot, wet and with almost no seasons. This is the climate that supports the rainforest.",
+    "h": "Equatorial climate of the Amazon",
+    "points": [
+     "It is hot all year, with Manaus monthly means of about 26-28 degrees C, so the annual temperature range is small.",
+     "Manaus gets about 2,300 mm of rain a year, with heavy rain in every month, because strong heating makes warm moist air rise and form storm clouds (convectional rain).",
+     "The climate sustains the Amazon rainforest biome, which is dealt with in the Geoecology option."
+    ],
+    "tip": "Not all of Brazil is rainforest. The Amazon biome covers about half the country, so don't describe the whole of Brazil as equatorial."
+   },
+   {
+    "b": "The Cerrado has a tropical wet-and-dry (savanna) climate, with a clear rainy summer and a long dry winter. The change comes from the movement of the ITCZ and the overhead sun.",
+    "h": "Tropical wet-and-dry climate of the Centre-West",
+    "points": [
+     "The rainy season runs from about October to April, when the ITCZ and the overhead sun move south, so warm moist air rises over the Centre-West.",
+     "The dry season runs from about May to September, when the ITCZ has moved north, so the winter is long and dry.",
+     "Brasília is the example: it follows this wet and dry pattern, and its altitude of about 1,100 m keeps it milder than the lowlands.",
+     "This clear wet season matters for farming, because crops such as soya are planted with the first rains."
+    ],
+    "tip": "Use Brasília as your named example of this climate, and give both seasons with their months."
+   },
+   {
+    "b": "The interior of the Northeast is the driest part of Brazil even though it lies in the tropics. The sertão (the semi-arid Northeast interior) has low and unreliable rain, which is behind many of the region's problems.",
+    "h": "Semi-arid climate of the sertão",
+    "points": [
+     "The sertão gets roughly 250-800 mm a year, falling in a short rainy season and varying greatly from year to year.",
+     "It lies in the rain shadow (the dry area on the sheltered side of high ground) of the coastal plateau, so moist air from the Atlantic loses its rain before it arrives.",
+     "Sinking air limits convection, and the ITCZ reaches the area only briefly, so there are few chances for heavy rain.",
+     "El Niño years (when the Pacific Ocean is unusually warm) bring drought, so the rains can fail altogether.",
+     "The officially defined drought-prone area is the drought polygon (Polígono das Secas). A severe drought hit the Northeast from 2012 to 2017."
+    ],
+    "tip": "If asked why the sertão is dry, give at least three causes: rain shadow, sinking air, brief ITCZ presence and El Niño."
+   },
+   {
+    "b": "The east coast is wet while the interior behind it is dry. Winds off the ocean and the shape of the land explain the difference.",
+    "h": "Humid tropical east coast",
+    "points": [
+     "The south-east trade winds bring moisture off the warm Atlantic, so the air arriving at the coast is already full of water vapour.",
+     "Where the air meets the coastal escarpment, such as the Serra do Mar behind the coast of São Paulo and Rio de Janeiro states, it is forced to rise and cool, giving relief rain.",
+     "This creates a wet coastal strip that once carried the Atlantic Forest.",
+     "The wet coast contrasts with the semi-arid sertão further inland, which lies beyond the rain-giving slopes."
+    ],
+    "tip": "Link this block to the sertão: the escarpment and plateau take the rain on the coast and leave the interior dry."
+   },
+   {
+    "b": "In the Southeast, height above sea level matters as much as latitude. The plateau is noticeably cooler than the coast at the same latitude.",
+    "h": "Tropical highland climate of the Southeast",
+    "points": [
+     "Temperatures fall with altitude, so the plateau moderates the heat of the tropics.",
+     "São Paulo, on the plateau, is cooler than Rio de Janeiro on the coast, which is why the highlands are comfortable for people and suit crops such as coffee.",
+     "This cooler climate is one reason the plateau became the centre of settlement, farming and industry."
+    ],
+    "tip": "A good contrast to quote is São Paulo (plateau, cooler) against Rio de Janeiro (coast, hotter)."
+   },
+   {
+    "b": "The far south lies furthest from the equator, and it is the only part of Brazil with a real winter. This affects what can be grown.",
+    "h": "Humid subtropical climate of the South",
+    "points": [
+     "It has four seasons and rain all year, because cold fronts from the south bring rain in every season.",
+     "Winter frosts occur, and there is occasional snow in the highlands of Santa Catarina and Rio Grande do Sul.",
+     "Porto Alegre is the main city of the far south.",
+     "The frost risk shaped where coffee is grown, because frost kills the trees. This is why coffee moved north after the frost of 1975, which the coffee notes deal with in full."
+    ],
+    "tip": "Frost in the south is a classic example of a physical problem for farming. Pair it with the 1975 coffee frost if asked."
+   },
+   {
+    "b": "Brazil's climate is not safe or steady. Droughts and floods both cause deaths and damage, and some hazards are linked to El Niño and to forest loss.",
+    "h": "Climate hazards and change",
+    "points": [
+     "Droughts in the Northeast are repeated and severe, as in 2012 to 2017.",
+     "In 2023 a severe Amazon drought brought the Rio Negro at Manaus to its lowest level on record, in October 2023, stranding river communities.",
+     "In May 2024 floods in Rio Grande do Sul killed more than 170 people and displaced hundreds of thousands, and Porto Alegre was flooded.",
+     "In January 2011 floods and landslides in the mountain region of Rio de Janeiro state killed more than 900 people, Brazil's worst natural disaster. Landslides also hit Petrópolis in February 2022.",
+     "El Niño links droughts in the north and east to Pacific warming, and deforestation reduces rainfall recycling (the forest returning water to the air), which may make drought worse."
+    ],
+    "tip": "Name a year and a place for each hazard, for example the 2011 mountain region floods or the 2023 Amazon drought."
+   },
+   {
+    "b": "Climate decides what can be grown, where people live and how energy is produced. Four effects are worth learning.",
+    "h": "Why climate matters for human activity",
+    "points": [
+     "Warm temperatures in the tropics allow two or three crops a year, which raises farm output.",
+     "Drought drives migration out of the sertão, because people cannot farm when the rains fail.",
+     "Heavy rainfall over much of the country feeds the rivers that power hydroelectricity.",
+     "Beaches, sun and warm weather attract tourists, so climate supports the tourist industry."
+    ],
+    "tip": "For a question on how climate influences economic activity, give one effect for farming, one for energy and one for people, each with a place."
+   },
+   {
+    "b": "Many people expect tropical soils to be rich because of the lush forest. In fact most Amazon and Cerrado soils are poor, and the reason is climate.",
+    "h": "Latosols, the soils of the Amazon and Cerrado",
+    "points": [
+     "Latosols (also called ferralsols or oxisols) are deep, red-yellow soils that cover much of the Amazon and Cerrado.",
+     "Heat and heavy rain leach them (wash nutrients out of them), so they are acidic and low in nutrients.",
+     "The fertility is held in the living vegetation and its litter, not in the soil, so cleared land loses its fertility fast.",
+     "The process that produces these soils, laterisation, is explained in the Geoecology option."
+    ],
+    "tip": "Don't call Amazon soils fertile. Only the várzea and terra preta soils are exceptions."
+   },
+   {
+    "b": "The Cerrado soils were once thought useless for crops. Science changed that, and now they are a major farming area.",
+    "h": "Cerrado soils and how they were improved",
+    "points": [
+     "Cerrado soils are acidic and high in aluminium, which damages plant roots.",
+     "Liming (adding crushed limestone) cuts the acidity, and fertiliser adds nutrients.",
+     "EMBRAPA (Brazilian Agricultural Research Corporation, founded 1973) developed these methods.",
+     "The result was that infertile savanna became productive farmland, a change that underlies the soya belt covered in the agriculture notes."
+    ],
+    "tip": "Examiners like technology as a factor in farming. EMBRAPA and liming are your named example."
+   },
+   {
+    "b": "Two soils explain much of Brazil's farming history. Both are deep and fertile, and each was the base of a famous crop.",
+    "h": "Terra roxa and massapê, the fertile soils",
+    "points": [
+     "Terra roxa means purple earth in Portuguese, from its dark red colour. It is deep and fertile.",
+     "It weathers from the basalt of the Paraná Plateau in Paraná and São Paulo states, and it was the soil of the coffee boom.",
+     "Massapê is a dark, clay-rich, fertile soil found on the humid Northeast coast, in the Zona da Mata (the wet coastal strip around Recife and Salvador).",
+     "Massapê was the base of the colonial sugar plantations, which is why sugar grew there first."
+    ],
+    "tip": "Terra roxa comes from basalt on the Paraná Plateau, not from the Amazon. Mixing this up is a known error."
+   },
+   {
+    "b": "Two soils break the rule that Amazon soils are poor. One is natural and one is made by people.",
+    "h": "Várzea soils and terra preta",
+    "points": [
+     "Várzea (floodplain) soils are renewed every year by silt left by floods, so they are among the few fertile Amazon soils.",
+     "Terra preta (black earth) is dark, fertile soil made by pre-Columbian Amazon peoples (those living there before European contact) by adding charcoal, food waste and pottery.",
+     "Terra preta shows that people can improve tropical soils, and not only damage them."
+    ],
+    "tip": "These two are the exceptions to quote when a question says Amazon soils are infertile."
+   },
+   {
+    "b": "Soils can be lost or damaged as well as improved. Three main problems affect Brazilian farmland.",
+    "h": "Sertão soils and soil problems",
+    "points": [
+     "Sertão soils are thin and stony, and easily eroded because there is little vegetation to hold them.",
+     "Erosion follows forest clearance, because rain then washes away the exposed topsoil.",
+     "Old pasture suffers nutrient loss and compaction (being pressed hard by cattle) so grass grows poorly.",
+     "Salinisation (a build-up of salt) occurs in irrigated areas where the water evaporates and leaves the salt behind."
+    ],
+    "tip": "For a soil problem question, give the cause and the place: erosion after clearance, salinisation in irrigated areas, thin soil in the sertão."
+   },
+   {
+    "b": "Brazil has six biomes (large natural vegetation regions). They show that Brazil is not all rainforest.",
+    "h": "Brazil's six biomes",
+    "points": [
+     "Amazon rainforest covers about 49% of Brazil's area, the largest biome.",
+     "Cerrado (tropical savanna) covers about 24%, and is often called the world's most biodiverse savanna.",
+     "Atlantic Forest covers about 13%, but only about an eighth of the original forest remains because it grew where most Brazilians live.",
+     "Caatinga (dry thorn scrub of the sertão) covers about 10% and is found only in Brazil.",
+     "Pampa (grassland) covers about 2% and so does the Pantanal (wetland)."
+    ],
+    "tip": "Not all of Brazil is rainforest. Quote the shares to show the Amazon is about half and give the Caatinga as a Brazil-only biome."
+   },
+   {
+    "b": "Each biome matches a climate and soil. Link the vegetation to what causes it.",
+    "h": "Features of each vegetation region",
+    "points": [
+     "The Cerrado has a wet and dry climate and acidic soils, so it supports tropical grassland with scattered trees.",
+     "The Caatinga's dry thorn scrub matches the semi-arid climate of the sertão, because only drought-tolerant plants survive there.",
+     "The Atlantic Forest grew on the wet east coast fed by the trade winds, and its heavy loss came from settlement and farming along the coast.",
+     "The Pantanal is a seasonally flooded wetland, and the Pampa is a grassland in the south where gaúchos herd cattle in Rio Grande do Sul."
+    ],
+    "tip": "A short match of biome to climate earns marks. For example, Caatinga with semi-arid sertão."
+   },
+   {
+    "b": "Relief is the shape of the land. Brazil is mostly old, low or gently rising ground, with five main divisions to learn.",
+    "h": "The main relief divisions",
+    "points": [
+     "The Brazilian Highlands (Planalto) cover the centre, east and south.",
+     "The Amazon lowland (basin) lies across the north.",
+     "The Guiana Highlands lie on the northern border.",
+     "The Pantanal lowland is in the Centre-West, and a narrow coastal plain runs along the Atlantic.",
+     "These divisions are the starting point for the sketch map relief feature."
+    ],
+    "tip": "The Andes are not in Brazil. Don't list them as part of Brazil's relief."
+   },
+   {
+    "b": "Brazil sits in the middle of a tectonic plate, which explains why its landscapes are old and quiet.",
+    "h": "Geology of Brazil",
+    "points": [
+     "Brazil lies in the centre of the South American plate, far from plate boundaries, so it has no active volcanoes and few strong earthquakes.",
+     "The highlands are part of the ancient Brazilian Shield (an old crystalline block of hard rock), once part of Gondwanaland.",
+     "Mesosaurus fossils are found in Brazil and southern Africa, evidence that the two were joined."
+    ],
+    "tip": "Brazil has no active volcanoes because it is mid-plate. The Andes are not in Brazil."
+   },
+   {
+    "b": "The Highlands are the main block of high ground. They are old, worn-down and tilted, and this shapes where rivers go.",
+    "h": "The Brazilian Highlands",
+    "points": [
+     "They are old, worn-down plateaus and tablelands, mostly 300-900 m high, shaped over a very long time by weathering and erosion.",
+     "They tilt from a high eastern edge towards the interior, so many rivers rise near the coast but flow inland.",
+     "This tilt is one reason the Paraná and São Francisco flow away from the nearest sea."
+    ],
+    "tip": "Use the tilt of the plateau to explain river direction in a drainage answer."
+   },
+   {
+    "b": "Behind the coast of the Southeast the land rises steeply. This steep edge has had a big effect on settlement and transport.",
+    "h": "The Great Escarpment",
+    "points": [
+     "The Serra do Mar and Serra da Mantiqueira rise steeply behind the coast, so the coastal plain is very narrow.",
+     "São Paulo sits on the plateau about 800 m above sea level and about 70 km from the port of Santos.",
+     "The slope is a barrier to transport between ports and the plateau, so roads and railways were costly to build.",
+     "It also forces moist air to rise, giving the relief rain described under the east coast climate."
+    ],
+    "tip": "Use São Paulo and Santos as your example of the escarpment as a transport barrier."
+   },
+   {
+    "b": "In the south the Highlands are covered by lava. This basalt created the best coffee soil and one of the world's great waterfalls.",
+    "h": "The Paraná Plateau",
+    "points": [
+     "Thick layers of basalt (a dark volcanic rock) formed from ancient fissure eruptions, flood basalts about 130 million years old.",
+     "The basalt weathers into terra roxa, the soil of the coffee boom.",
+     "The Iguaçu Falls drop over its basalt edge on the Iguaçu River on the Brazil-Argentina border, about 275 separate falls and a UNESCO World Heritage Site."
+    ],
+    "tip": "Say that the Iguaçu Falls are shared with Argentina when you name them."
+   },
+   {
+    "b": "The north has a very different relief from the Highlands. One block is the lowest, flattest part of Brazil, and the other holds its highest peak.",
+    "h": "The Amazon lowland and the Guiana Highlands",
+    "points": [
+     "The Amazon lowland is a vast, low, flat basin of sedimentary rocks and alluvium (river-deposited sediment), between the Guiana and Brazilian Highlands.",
+     "It widens to the west.",
+     "The Guiana Highlands lie on the northern border with Venezuela.",
+     "Pico da Neblina, about 2,995 m, in Amazonas state, is Brazil's highest peak."
+    ],
+    "tip": "Brazil's highest peak is Pico da Neblina, not Aconcagua, which is in the Andes outside Brazil."
+   },
+   {
+    "b": "The Pantanal is a lowland that floods and drains with the seasons. It is a special type of landscape in Brazil.",
+    "h": "The Pantanal",
+    "points": [
+     "It is a huge, flat, seasonally flooded depression in the Centre-West, mainly in Mato Grosso and Mato Grosso do Sul.",
+     "It is flooded for several months each wet season, because rivers spill over the flat land.",
+     "It is the world's largest tropical wetland.",
+     "It extends into Bolivia and Paraguay, so it is a shared feature."
+    ],
+    "tip": "Say the Pantanal extends into Bolivia and Paraguay. Brazil does not hold it alone."
+   },
+   {
+    "b": "The coast has two very different kinds of scenery, hard rock in the Southeast and sand in the Northeast.",
+    "h": "Coastal landforms",
+    "points": [
+     "At Rio de Janeiro, granite domes and steep hills rise by the sea. Sugarloaf Mountain (Pão de Açúcar) is a granite-gneiss dome about 396 m high.",
+     "In the Northeast, Lençóis Maranhenses in Maranhão has white sand dunes with rain-filled lagoons.",
+     "Both are tourist attractions, which links relief to the tertiary sector."
+    ],
+    "tip": "Name Sugarloaf for hard rock and Lençóis Maranhenses for dunes."
+   },
+   {
+    "b": "Relief decides where people farm, build and travel. Four patterns stand out.",
+    "h": "Relief and human activity",
+    "points": [
+     "The plateau carries most farming, industry and cities, because the land is gently sloping and the climate is cooler.",
+     "The escarpment limited early inland settlement and needs costly roads and railways.",
+     "The lowland Amazon is sparsely settled, because of dense forest, flooding and difficult access.",
+     "Steep coastal hills host favelas (informal housing areas) that are prone to landslides."
+    ],
+    "tip": "For a relief question, give one advantage and one problem for people, each with a place."
+   },
+   {
+    "b": "A river basin is the area drained by a river and its tributaries. Brazil has several enormous ones, and the pattern is shaped by the tilt of the Highlands.",
+    "h": "The main river basins",
+    "points": [
+     "The Amazon basin drains the north.",
+     "The Paraná-Paraguay basin drains the south and centre.",
+     "The São Francisco basin drains the east.",
+     "The Tocantins-Araguaia basin is a fourth, flowing north through the Centre-West."
+    ],
+    "tip": "Learn these four basins, with a direction for each: north, south and centre, east, and Centre-West to north."
+   },
+   {
+    "b": "The Amazon is the world's largest river by discharge and basin area. Do not call it the longest, because that is disputed with the Nile.",
+    "h": "The Amazon River",
+    "points": [
+     "It rises in the Andes of Peru, is about 6,400 km long and has a basin of about 7 million km², the world's largest.",
+     "It carries about a fifth of all the fresh water that rivers deliver to the oceans, and it has over a thousand tributaries.",
+     "In Brazil it is called the Solimões until it meets the Rio Negro at Manaus, the Meeting of the Waters, where dark and pale water flow side by side for several kilometres before mixing.",
+     "It flows east to the Atlantic near the equator, ending in a wide estuary around Marajó Island rather than a large delta.",
+     "Ocean-going ships can reach Manaus, about 1,500 km inland."
+    ],
+    "tip": "The Andes are not in Brazil. The Amazon rises in the Peruvian Andes. Say it ends in an estuary, not a delta."
+   },
+   {
+    "b": "The Amazon is not a simple channel. It floods, it has two kinds of water and it is shaped by the tide at its mouth.",
+    "h": "Features of the Amazon",
+    "points": [
+     "The annual flood rises many metres and spreads into the várzea (forest and land flooded by silt-laden white-water rivers).",
+     "It also spreads into the igapó (flooded black-water forest).",
+     "Black-water rivers such as the Rio Negro are acidic and low in silt, while white-water rivers such as the Solimões are silt-laden from the Andes.",
+     "The pororoca (a tidal bore, a wave that travels upstream) occurs at the mouth."
+    ],
+    "tip": "Learn the three terms: várzea, igapó and pororoca. They are easy marks."
+   },
+   {
+    "b": "The Paraná is the main river of the south and centre. Its flow is controlled by dams that supply the Southeast.",
+    "h": "The Paraná River",
+    "points": [
+     "It rises on the Brazilian Highlands and flows south-west into Argentina and the Río de la Plata.",
+     "It is heavily dammed for hydroelectricity.",
+     "Itaipu Dam, on the Brazil-Paraguay border and shared by the two countries, began generating in 1984 and is one of the world's largest hydroelectric plants by output.",
+     "The Iguaçu Falls are on a tributary."
+    ],
+    "tip": "Say Itaipu is shared with Paraguay, and the Iguaçu Falls with Argentina."
+   },
+   {
+    "b": "The São Francisco brings water to the dry Northeast, which is why it is called the river of national integration.",
+    "h": "The São Francisco River",
+    "points": [
+     "It rises in the Serra da Canastra, Minas Gerais, is about 2,800 km long, flows north through the semi-arid Northeast and turns east to reach the Atlantic between Alagoas and Sergipe.",
+     "It is a lifeline for the sertão, because it is one of few permanent water sources in a dry area.",
+     "Dams give power, and the Sobradinho Dam forms one of the world's largest artificial lakes by area.",
+     "Petrolina (Pernambuco) and Juazeiro (Bahia) face each other across the river and export irrigated grapes and mangoes.",
+     "The transposition project, begun in 2007, carries water by canals to the drier states of Ceará, Paraíba, Pernambuco and Rio Grande do Norte."
+    ],
+    "tip": "Use the São Francisco as your example of a river that supports farming in a dry area."
+   },
+   {
+    "b": "Dams supply cheap power, but they also remove land and people from their homes.",
+    "h": "Hydroelectric dams and their controversy",
+    "points": [
+     "Itaipu on the Paraná supplies power to the industrial Southeast.",
+     "Tucuruí Dam on the Tocantins, Pará (1984), powers aluminium smelting.",
+     "Belo Monte Dam on the Xingu, Pará, was completed in 2019.",
+     "Belo Monte was opposed by the Kayapó, displaced thousands of people and flooded forest, so the controversy is about the cost to people and nature."
+    ],
+    "tip": "A balanced answer on dams gives a benefit (power) and a cost (displacement, with Belo Monte as the example)."
+   },
+   {
+    "b": "Rivers are under pressure from mining and cities. Three examples show the problem.",
+    "h": "River pollution and threats",
+    "points": [
+     "Mercury from illegal gold mining pollutes rivers in Yanomami territory in Roraima, which harms the health of people who eat the fish.",
+     "The Rio Doce was polluted by mine waste after the Mariana disaster, which the mining notes explain.",
+     "The Tietê at São Paulo is heavily polluted by sewage from the city."
+    ],
+    "tip": "Name the river and the cause for each example: mercury in Yanomami territory, mine waste in the Rio Doce, sewage in the Tietê."
+   },
+   {
+    "b": "Rivers provide transport, food and water, but both floods and droughts can disrupt them.",
+    "h": "Rivers and people",
+    "points": [
+     "The Amazon is the main highway of the North, because there are few roads in the forest.",
+     "Rivers supply fish, and water for irrigation and cities.",
+     "Hydroelectricity comes from rivers with a steep fall and a large flow.",
+     "Floods and droughts both disrupt river transport, as in the 2023 drought when the Rio Negro fell to a record low."
+    ],
+    "tip": "When asked how drainage influences the economy, cover transport, irrigation and hydroelectricity, with a river for each."
+   },
+   {
+    "b": "Brazil is an agricultural superpower. Its farms feed the world market far more than they employ its own people, which shows how mechanised and commercial the leading sector is.",
+    "h": "Why agriculture matters to Brazil",
+    "points": [
+     "Brazil is the world's largest producer and exporter of soya beans, and the largest producer and exporter of coffee, which is about a third of world output (2020s).",
+     "It is also the largest producer of sugar cane and orange juice, and the largest exporter of beef and chicken, so it leads the world in several different foods.",
+     "Agriculture itself is under a tenth of GDP and of jobs (early 2020s). This is small because a few huge, machine-run farms produce the crops with few workers.",
+     "Agribusiness as a whole (farming plus processing and trade) is much larger than farming alone, and it makes up a large share of Brazil's exports."
+    ],
+    "tip": "Use the contrast between a world-leading output and a small share of GDP and jobs to show that Brazilian farming is highly mechanised."
+   },
+   {
+    "b": "Brazilian farming ranges from giant mechanised farms to tiny family plots. Exams ask for two types, so learn each with a crop and a place.",
+    "h": "Types of agriculture",
+    "points": [
+     "Large commercial mechanised farms grow soya, maize and cotton in the Cerrado (the tropical savanna of the Centre-West). Machines suit the flat land, so a few workers farm huge areas.",
+     "Plantations grow one crop on a large estate for sale abroad, such as sugar cane, coffee and oranges.",
+     "Extensive cattle ranching uses large areas of land with few animals per hectare and little labour, on the Cerrado, the Pantanal and cleared Amazon land.",
+     "Subsistence and family farming grows food for the household and local sale: cassava (manioc), beans and maize. It includes shifting cultivation in the Amazon and small farms in the sertão (the dry Northeast interior).",
+     "Irrigated fruit farming uses river water to grow export fruit in the dry Northeast, for example grapes and mangoes."
+    ],
+    "tip": "If asked for two types, name the type, one crop and one region for each, for example mechanised soya in the Cerrado and family farms in the sertão."
+   },
+   {
+    "b": "The Cerrado has a rainy summer and a dry winter, and farmers have fitted two crops into the rains. This doubles what each field yields in a year.",
+    "h": "The Cerrado farming calendar",
+    "points": [
+     "Soya is planted with the first rains, about October, because the seeds need moist soil to germinate.",
+     "The soya is harvested about January to February, which clears the field while the rains are still falling.",
+     "A second crop of maize, called the safrinha (Portuguese for 'little harvest'), is then planted in the same rainy season, so the same land gives two crops a year.",
+     "The dry winter, about May to September, is the harvest and rest period. The calendar works only because the rain is reliable in summer."
+    ]
+   },
+   {
+    "b": "Coffee made 19th-century São Paulo rich, but frost pushed the crop north. Its history links climate, soil, labour and ports.",
+    "h": "Coffee: boom, frost and move north",
+    "points": [
+     "The coffee boom in São Paulo state in the 19th century was worked first by enslaved Africans and then by European immigrants, and the beans were exported through the port of Santos.",
+     "The 'black frost' of July 1975 destroyed most coffee trees in Paraná, because coffee bushes die in hard frost. The risk of frost shaped where coffee is now grown.",
+     "Minas Gerais is now the leading coffee state, and Brazil remains the world's largest coffee producer, with about a third of world output."
+    ],
+    "tip": "Link coffee to terra roxa (the soil from basalt that suited it), and to frost in the south, to show physical factors at work."
+   },
+   {
+    "b": "Within a few decades Brazil turned acidic, infertile savanna into the world's biggest soya belt. Science, flat land and cheap land made it possible.",
+    "h": "The Cerrado soya revolution",
+    "points": [
+     "Cerrado soils are acidic and high in aluminium, so for a long time they were thought useless for crops. Adding crushed limestone (liming) and fertiliser made them productive.",
+     "EMBRAPA, the state agricultural research body founded in 1973, bred tropical soya varieties that grow well in the heat and day length of the Cerrado.",
+     "The land is cheap and flat, which suits large machines, and the summer rain is reliable, so two crops a year are possible.",
+     "Mato Grosso is Brazil's leading soya state, and China buys most of Brazil's soya exports (2020s), which gives farmers a huge market."
+    ],
+    "tip": "Examiners ask about technology such as EMBRAPA's work. Give the problem (acid soil), the solution (liming, new varieties) and the result (Mato Grosso soya)."
+   },
+   {
+    "b": "Sugar was Brazil's first great export crop and is now also a fuel. The story shows how a colonial crop became a modern energy industry.",
+    "h": "Sugar cane and ethanol",
+    "points": [
+     "Colonial sugar plantations grew on the dark, fertile massapê soils of the Northeast coast, using enslaved labour.",
+     "Today São Paulo state is the leading sugar-cane state, and Brazil is the world's largest producer of sugar cane.",
+     "Proálcool (the National Alcohol Programme, 1975) was launched after the oil crisis so that Brazil could make fuel from cane instead of importing oil.",
+     "Flex-fuel cars, sold from 2003, run on ethanol, petrol or any mix, so drivers can choose whichever is cheaper."
+    ]
+   },
+   {
+    "b": "Brazil has more cattle than people, and ranching is one of its biggest land uses. It brings export income but also forest loss.",
+    "h": "Cattle ranching",
+    "points": [
+     "Brazil has one of the world's largest cattle herds, with more cattle than people (2020s), and it is the largest exporter of beef.",
+     "Extensive ranching takes place on the Cerrado, in the Pantanal wetland and on cleared Amazon land, because cattle need large areas of cheap grass.",
+     "Cattle ranching is the largest single cause of Amazon clearance, as ranchers burn forest to make pasture.",
+     "Gaúchos (cattle herders) work the grasslands of the Pampa in Rio Grande do Sul in the far south."
+    ],
+    "tip": "Keep deforestation to one sentence here: ranching is the largest single cause of Amazon clearance."
+   },
+   {
+    "b": "In a dry region, a river can turn desert-like land into export farmland. The São Francisco does this for the Northeast.",
+    "h": "Irrigated fruit in the São Francisco valley",
+    "points": [
+     "Petrolina (Pernambuco) and Juazeiro (Bahia) face each other across the São Francisco River and export grapes and mangoes.",
+     "Water comes from the river and its dams, such as Sobradinho, whose lake is one of the world's largest artificial lakes by area.",
+     "Irrigation turns the semi-arid sertão, where rain is low and unreliable, into reliable farmland, and the sunny climate suits fruit.",
+     "Where irrigation water evaporates it can leave salt in the soil (salinisation), which is a risk for these farms."
+    ]
+   },
+   {
+    "b": "Brazil's land, climate and rivers give it natural advantages that few countries can match.",
+    "h": "Physical advantages for farming",
+    "points": [
+     "A huge area of flat land makes it easy to use big machines and to expand farms.",
+     "Tropical temperatures allow two or three crops a year, because there is no cold season to stop growth in most regions.",
+     "Heavy rainfall over most of the country supplies crops without irrigation.",
+     "Fertile soils, such as terra roxa on the Paraná Plateau basalt and massapê on the Northeast coast, give high yields for coffee and sugar.",
+     "Rivers provide water for irrigation, for example the São Francisco in the Northeast."
+    ],
+    "tip": "Terra roxa comes from basalt, not from the Amazon. Do not call Amazon soils fertile, except várzea and terra preta."
+   },
+   {
+    "b": "Climate and soil also hold farming back in many areas. Each problem has a cause in the physical geography.",
+    "h": "Physical problems for farming",
+    "points": [
+     "Latosols (the red-yellow Amazon and Cerrado soils) are leached by heat and rain and are acidic and low in nutrients, so crops fail without lime and fertiliser.",
+     "Drought in the sertão (rain about 250 to 800 mm a year, varying greatly) makes farming unreliable and drives people away.",
+     "Frost in the south destroys crops such as coffee, as in July 1975.",
+     "Erosion after clearance strips thin soil once trees no longer hold it, and pests and diseases thrive in the warm, humid tropics."
+    ]
+   },
+   {
+    "b": "Land ownership shapes who farms and who gains. Brazil's is among the most unequal in the world.",
+    "h": "Human and economic factors: who owns the land",
+    "points": [
+     "A latifúndio is a very large estate; a minifúndio is a tiny plot. Huge estates sit beside tiny plots, so most farmland is held by few owners.",
+     "Landless rural workers press for land, and the MST (Movimento dos Trabalhadores Rurais Sem Terra, founded 1984) is their movement, not a government body.",
+     "Family farms grow most of the food eaten at home, while big agribusiness exports, so the biggest earners are not the main food growers.",
+     "Credit and technology favour large farms, so small farmers struggle to buy machines and inputs.",
+     "High transport costs to the ports cut profits, especially for farms far inland."
+    ],
+    "tip": "The MST is a movement, not a government body, and Bolsa Família is a cash-transfer scheme, not land reform."
+   },
+   {
+    "b": "Where crops can be sold, and what the state does, decide what farmers grow.",
+    "h": "Markets and government policy in farming",
+    "points": [
+     "Export markets such as China and the EU buy soya, beef and coffee and set demand and prices.",
+     "Mercosur (founded 1991 by the Treaty of Asunción: Brazil, Argentina, Uruguay and Paraguay) gives Brazilian farm goods a regional market.",
+     "EMBRAPA research improves seeds, soils and methods, so yields keep rising.",
+     "The Amazon soy moratorium (2006) is an agreement by traders not to buy soya grown on newly cleared Amazon land.",
+     "Farm credit for family farms helps small producers buy seed and equipment."
+    ],
+    "tip": "Examiners list markets, technology, land ownership and government policy among the factors influencing agriculture. Pick factors and give a named example for each."
+   },
+   {
+    "b": "Brazil's farming success has costs, from violence to dependence on world prices.",
+    "h": "Challenges and conflict in farming",
+    "points": [
+     "Land conflict and violence are common on the Amazon frontier, where ranchers, farmers and settlers fight over land.",
+     "Deforestation for pasture and soya clears forest, which brings international criticism.",
+     "Heavy pesticide use pollutes land and water and affects the health of workers.",
+     "Dependence on world commodity prices means that when the price of soya or coffee falls, farm incomes and export earnings fall too."
+    ]
+   },
+   {
+    "b": "The Amazon forest gives timber and other products. Some are taken sustainably and some are not.",
+    "h": "Forestry and forest extraction",
+    "points": [
+     "Amazon timber is heavily logged, much of it illegally. Mahogany was one of the most heavily logged species.",
+     "Brazil nuts are collected from wild trees and rubber is tapped from standing forest, so these products can be harvested without clearing it.",
+     "The rubber boom, about 1879 to 1912, was centred on Manaus and built its wealth, for example the Teatro Amazonas opera house (1896).",
+     "The boom collapsed because Henry Wickham took rubber seeds from the Amazon to Britain in 1876, and plantations in British Asia (Malaya) later undercut wild Amazon rubber on price."
+    ]
+   },
+   {
+    "b": "Extractive reserves let local people earn a living from the forest while keeping it standing.",
+    "h": "Extractive reserves and Chico Mendes",
+    "points": [
+     "Chico Mendes was a rubber tapper and union leader who campaigned to protect the forest and the people who tapped it.",
+     "He was murdered at Xapuri, Acre, on 22 December 1988, which brought world attention to the fight over the Amazon.",
+     "The Chico Mendes Extractive Reserve in Acre was created in 1990. In reserves like it, local people harvest forest products, such as rubber and nuts, without clearing the forest."
+    ]
+   },
+   {
+    "b": "Fast-growing plantations meet industrial demand, and satellite figures show how fast natural forest has been lost.",
+    "h": "Plantation forestry and deforestation figures",
+    "points": [
+     "Eucalyptus plantations in the Southeast and South supply pulp and paper, because eucalyptus grows fast in the warm, wet climate.",
+     "Brazil is the world's largest exporter of pulp (2020s).",
+     "PRODES (the satellite measure of Amazon clearance) recorded about 27,800 km² cleared in 2004, about 4,600 km² in 2012 and about 13,000 km² in 2021.",
+     "About a fifth of the Brazilian Amazon's original forest has been cleared.",
+     "The Forest Code says Amazon landholders must keep 80% of their land under forest, and the Amazon Fund (2008), paid for mainly by Norway and also Germany, finances protection."
+    ],
+    "tip": "Use the PRODES figures to show a fall from 2004 to 2012 and a rise by 2021. There is more on this in the Geoecology notes on the felling of the Amazon."
+   },
+   {
+    "b": "Brazil has a very long coast but a small fishing industry, and the reason is in the ocean.",
+    "h": "Fishing",
+    "points": [
+     "The warm Brazil Current flows south along the coast and is low in plankton, so there is little food for fish and fishing is small for so long a coastline (about 7,400 km).",
+     "Artisanal (small-boat) fishing is the main sea fishing on the Northeast coast.",
+     "Amazon river fisheries catch pirarucu (arapaima, one of the largest freshwater fish) and tambaqui.",
+     "Aquaculture is growing: tilapia is the main farmed fish, and shrimp farms are found in Ceará and Rio Grande do Norte in the Northeast."
+    ]
+   },
+   {
+    "b": "Brazil has huge mineral wealth, especially iron ore, and the mines shape regions.",
+    "h": "Mining",
+    "points": [
+     "Carajás in Pará, discovered in 1967 and run by Vale, is the world's largest iron-ore mine. The ore travels about 890 km by the Carajás Railway to the port of São Luís in Maranhão.",
+     "The Iron Quadrangle (Quadrilátero Ferrífero) in Minas Gerais is another iron-ore region, and the 18th-century gold rush happened around Ouro Preto.",
+     "Bauxite (the ore of aluminium) is mined at Trombetas in Pará.",
+     "Brazil produces most of the world's niobium, used in steel alloys, at Araxá in Minas Gerais."
+    ]
+   },
+   {
+    "b": "Mining brings export income, but accidents and illegal mines cause deaths and lasting pollution.",
+    "h": "The costs of mining",
+    "points": [
+     "A tailings dam stores the waste mud from a mine. At Mariana, Minas Gerais, on 5 November 2015 the Fundão dam (Samarco, owned by Vale and BHP) collapsed, killing 19 people, and mud polluted the Rio Doce all the way to the Atlantic.",
+     "At Brumadinho, Minas Gerais, on 25 January 2019 a Vale tailings dam collapsed, with about 270 deaths.",
+     "Illegal gold miners (garimpeiros) in Yanomami territory in Roraima pollute rivers with mercury, which poisons fish and people.",
+     "A health emergency was declared among the Yanomami in 2023 because of illegal mining."
+    ],
+    "tip": "Give the date, the place, the owner and the deaths for each dam disaster to turn a general point about mining costs into named examples."
+   },
+   {
+    "b": "Brazil's rain-fed rivers give it one of the cleanest electricity supplies of any large economy.",
+    "h": "The energy mix",
+    "points": [
+     "Hydroelectricity supplies about three-fifths of Brazil's electricity, because heavy rain on the plateau feeds fast-flowing rivers.",
+     "Renewables (hydro, wind, solar and biomass) give about 85 to 90% of electricity (early 2020s), so Brazil's electricity is among the cleanest of large economies.",
+     "Wind farms in Bahia and Rio Grande do Norte, and solar, are growing fast in the Northeast, where winds and sun are strong."
+    ]
+   },
+   {
+    "b": "From a state-owned company to deep-sea discoveries, oil has made Brazil a major producer.",
+    "h": "Oil and gas",
+    "points": [
+     "Petrobras was founded in 1953 under the slogan 'the oil is ours', as a state company to control Brazil's oil.",
+     "The Campos Basin, off Rio de Janeiro state, has been producing from the 1970s.",
+     "Pre-salt fields in the Santos Basin were discovered in 2006 to 2007. They lie up to about 300 km offshore, several kilometres below the sea surface and under a thick layer of salt, so drilling is hard and costly.",
+     "The pre-salt fields now supply most of Brazil's oil, and Brazil is one of the world's ten largest oil producers (2020s)."
+    ]
+   },
+   {
+    "b": "Brazil also gets energy from crops and a little from uranium.",
+    "h": "Biofuels and nuclear power",
+    "points": [
+     "Ethanol from sugar cane is a transport fuel, used in flex-fuel cars, which cuts Brazil's need for imported oil.",
+     "Angra dos Reis, in Rio de Janeiro state, has Brazil's nuclear power station, a small share of its supply."
+    ]
+   },
+   {
+    "b": "Brazil's early economy sent raw goods abroad, so manufacturing started late.",
+    "h": "Colonial legacy: exporting raw materials",
+    "points": [
+     "Brazilwood, sugar, gold, rubber and coffee were exported raw, so little manufacturing developed before 1900.",
+     "Coffee profits later financed São Paulo's first factories, which is why São Paulo became the industrial centre."
+    ]
+   },
+   {
+    "b": "From the 1930s the state decided to build industry behind tariff walls rather than import factory goods.",
+    "h": "Import substitution industrialisation (ISI)",
+    "points": [
+     "Import substitution industrialisation (ISI) means making goods at home that were once imported, protecting the new factories with tariffs.",
+     "Under Getúlio Vargas (in power 1930 to 1945 and 1951 to 1954) the state built heavy industry: the CSN steelworks at Volta Redonda began production in 1946, and Petrobras was founded in 1953.",
+     "Under Juscelino Kubitschek (president 1956 to 1961), whose slogan was 'fifty years of progress in five', foreign car makers were invited into the ABC region (Santo André, São Bernardo do Campo and São Caetano do Sul) near São Paulo. Volkswagen's São Bernardo plant opened in 1959."
+    ]
+   },
+   {
+    "b": "Rule by the generals mixed fast growth with huge state projects and then a debt crisis.",
+    "h": "The military period and the Brazilian miracle",
+    "points": [
+     "Military rule lasted from 1964 to 1985, and the 'Brazilian miracle', about 1968 to 1973, was a period of very fast growth.",
+     "State projects included Itaipu, Carajás and the Trans-Amazonian Highway (begun 1970, opened 1972).",
+     "Embraer was founded in 1969 at São José dos Campos and is now the world's third-largest maker of commercial jets.",
+     "The 1980s brought a debt crisis and hyperinflation (prices rising very fast)."
+    ]
+   },
+   {
+    "b": "From the 1990s Brazil ended hyperinflation and opened its economy.",
+    "h": "Liberalisation and stabilisation",
+    "points": [
+     "The Real Plan (1994) ended hyperinflation, which gave firms stable prices for investing.",
+     "Privatisation sold state firms: Embraer in 1994 and Vale in 1997.",
+     "Mercosur (1991) opened a regional market for Brazilian manufactured goods."
+    ]
+   },
+   {
+    "b": "Industry grows where its inputs are, and Brazil has many raw materials near its industry. This is one of the factors examiners ask for.",
+    "h": "Raw materials as a location factor",
+    "points": [
+     "Iron ore from Minas Gerais and Carajás feeds the steel industry, for example the CSN works at Volta Redonda.",
+     "Sugar cane is turned into ethanol.",
+     "Soya and meat supply food processing, and JBS is the world's largest meat-processing company.",
+     "Eucalyptus supplies the pulp and paper industry.",
+     "Oil supplies petrochemicals, so oil fields lead to refining and chemical plants."
+    ],
+    "tip": "If asked for two factors, raw materials is a safe choice. Name the material, the industry it feeds and the place."
+   },
+   {
+    "b": "Factories need power, and cheap hydroelectricity has pulled industry to certain places.",
+    "h": "Energy as a location factor",
+    "points": [
+     "Itaipu, on the Paraná and shared with Paraguay, supplies the Southeast industrial core with cheap hydroelectricity.",
+     "Tucuruí Dam on the Tocantins in Pará (1984) powers aluminium smelting in the Amazon, a very energy-hungry industry.",
+     "Rain on the plateau feeds the rivers, so cheap power is available at low cost to industry."
+    ],
+    "tip": "Itaipu is shared with Paraguay. Say so when you name it."
+   },
+   {
+    "b": "Industry needs workers, and Brazil's population has supplied both cheap labour and skills.",
+    "h": "Labour as a location factor",
+    "points": [
+     "A large, low-cost workforce keeps wages low for factories, which attracts foreign firms.",
+     "European and Japanese immigrants brought skills to São Paulo and the South.",
+     "Migrants from the Northeast came to work in the ABC factories.",
+     "Skilled engineers at São José dos Campos support aerospace, so Embraer grew there."
+    ]
+   },
+   {
+    "b": "Factories locate close to buyers, and Brazil has a big home market.",
+    "h": "Markets as a location factor",
+    "points": [
+     "A domestic market of over 200 million people, with a growing middle class, buys cars, goods and food.",
+     "Mercosur (the trade bloc of Brazil, Argentina, Uruguay and Paraguay) opens neighbouring markets.",
+     "Export markets take iron ore, jets, meat and other goods."
+    ]
+   },
+   {
+    "b": "Industry needs money and links to move goods, and these are concentrated in the Southeast.",
+    "h": "Capital and infrastructure as location factors",
+    "points": [
+     "Coffee wealth, foreign multinationals, state firms and the BNDES development bank (1952) supplied the capital.",
+     "The port of Santos, the largest in Latin America, exports and imports for São Paulo.",
+     "The dense road network of the Southeast links factories to ports and markets.",
+     "Infrastructure is weak elsewhere, which keeps industry away from many regions."
+    ],
+    "tip": "The capital is Brasília, not Rio or São Paulo. São Paulo is the largest and richest city."
+   },
+   {
+    "b": "The state has steered where factories are built, using tariffs and incentives.",
+    "h": "Government policy as a location factor",
+    "points": [
+     "ISI tariffs protected home industry under Vargas and Kubitschek.",
+     "The Manaus Free Trade Zone (1967) used tax breaks to bring firms to assemble electronics, televisions, phones and motorbikes (Honda) in the Amazon.",
+     "SUDENE (Superintendency for the Development of the Northeast, 1959), led by economist Celso Furtado, gave incentives to the poorer Northeast, for example the Camaçari petrochemical complex in Bahia.",
+     "SUDAM (the Amazon development agency, 1966) did the same for the North."
+    ]
+   },
+   {
+    "b": "Industry is not spread evenly. It is packed into a core and thin elsewhere.",
+    "h": "The pattern of manufacturing",
+    "points": [
+     "Industry is concentrated in the Southeast 'industrial triangle' of São Paulo, Rio de Janeiro and Belo Horizonte, and São Paulo state alone produces the largest share.",
+     "The concentration builds on itself (cumulative causation): factories draw workers, suppliers and services, which attract more factories, so a core region grows.",
+     "Secondary clusters are in the South (Porto Alegre, Curitiba, Joinville), in Manaus and on the Northeast coast."
+    ],
+    "tip": "For a question on distribution, explain the core in terms of raw materials, ports, markets and cumulative causation."
+   },
+   {
+    "b": "Examiners reward named firms and places. Learn one for each industry.",
+    "h": "Key industries and named examples",
+    "points": [
+     "Cars: the ABC region and Fiat (now Stellantis) at Betim, Minas Gerais.",
+     "Aircraft: Embraer at São José dos Campos.",
+     "Steel: CSN at Volta Redonda.",
+     "Oil and petrochemicals: Petrobras.",
+     "Meat processing: JBS, and pulp and paper.",
+     "Shoes and textiles: the shoe industry of the Vale dos Sinos in Rio Grande do Sul, in the South."
+    ]
+   },
+   {
+    "b": "Brazilian industry has struggled in recent decades.",
+    "h": "Challenges for manufacturing",
+    "points": [
+     "The 'Brazil cost' (Custo Brasil) is the extra cost from high taxes, complex bureaucracy and poor transport.",
+     "Deindustrialisation since the 2010s means industry's share of the economy has shrunk, with competition from China.",
+     "Ford ended car production in Brazil in 2021.",
+     "Regional imbalance remains, with industry concentrated in the Southeast."
+    ]
+   },
+   {
+    "b": "Services are now the biggest part of the economy, and São Paulo leads them.",
+    "h": "Services and the economy",
+    "points": [
+     "Services produce well over half of GDP and employ about seven in ten workers (early 2020s).",
+     "São Paulo is Latin America's leading financial centre, with the B3 (Brasil Bolsa Balcão) stock exchange and Avenida Paulista, its financial street."
+    ]
+   },
+   {
+    "b": "Rio is Brazil's best-known tourist city. Exams ask for two named attractions, so know these.",
+    "h": "Tourist attractions: Rio de Janeiro",
+    "points": [
+     "Christ the Redeemer, a statue on Corcovado completed in 1931, was voted one of the New Seven Wonders of the World (2007).",
+     "Sugarloaf Mountain (Pão de Açúcar), a granite-gneiss dome about 396 m high, and the beaches of Copacabana and Ipanema draw visitors.",
+     "Rio's landscapes between mountain and sea are a UNESCO World Heritage Site (2012).",
+     "Carnival parades take place in the Sambadrome, designed by Oscar Niemeyer (1984)."
+    ],
+    "tip": "Carnival is the festival before Lent (the Catholic calendar), not a harvest festival."
+   },
+   {
+    "b": "Away from Rio, Brazil's wildlife, heritage and landscapes draw visitors.",
+    "h": "Tourist attractions: nature, culture and history",
+    "points": [
+     "Iguaçu Falls on the Brazil-Argentina border, about 275 separate falls, is a UNESCO World Heritage Site.",
+     "The Amazon offers Manaus, jungle lodges and the Teatro Amazonas, the opera house (1896) built with rubber wealth.",
+     "The Pantanal is known for wildlife, including jaguars.",
+     "Salvador's Pelourinho (the historic centre, a UNESCO site) shows Afro-Brazilian culture, and Ouro Preto is a colonial UNESCO site.",
+     "Brasília's modernist architecture is a UNESCO site (1987).",
+     "Fernando de Noronha is a marine park, and the Lençóis Maranhenses has white sand dunes with rain-filled lagoons."
+    ]
+   },
+   {
+    "b": "Several attractions at once make Brazil a magnet.",
+    "h": "Why tourists come",
+    "points": [
+     "Tropical beaches and warm climate suit holidays.",
+     "Carnival and festivals bring crowds.",
+     "Unique wildlife and landscapes, such as the Amazon, Pantanal and Iguaçu Falls, draw nature lovers.",
+     "Culture, including music, football, food and Afro-Brazilian heritage, appeals to visitors.",
+     "Events such as the 2014 FIFA World Cup and the 2016 Olympics in Rio (the first in South America) put Brazil on world screens."
+    ],
+    "tip": "For two named attractions and why tourists come, give the attraction, what it is and what draws visitors."
+   },
+   {
+    "b": "Brazil gets fewer foreign tourists than its size suggests, but home tourism is large.",
+    "h": "Development and access in tourism",
+    "points": [
+     "About 6 million foreign tourists arrived in 2019, small for a country of its size, and Argentina is the largest source country.",
+     "Domestic tourism is far larger.",
+     "Long-haul distance and flight costs hold back arrivals.",
+     "Embratur, the tourism promotion agency, markets Brazil abroad.",
+     "The mega-events brought airport and metro investment in Rio."
+    ]
+   },
+   {
+    "b": "Tourism gives income and jobs, and can pay for protecting places.",
+    "h": "Positive impacts of tourism",
+    "points": [
+     "Jobs and income arise in hotels, guiding, transport and restaurants.",
+     "Foreign exchange comes from visitors paying in foreign currency.",
+     "Infrastructure improves, such as the airports and metro built for the mega-events in Rio.",
+     "Eco-tourism in the Amazon and the Pantanal funds conservation, since the wildlife is the attraction.",
+     "Pride in culture grows when visitors value Carnival, music and heritage."
+    ]
+   },
+   {
+    "b": "Tourism also brings pollution, pressure on places and waste.",
+    "h": "Negative impacts and challenges of tourism",
+    "points": [
+     "Crime and safety fears put visitors off.",
+     "Pollution: Guanabara Bay was polluted by sewage, an issue before the 2016 Olympic sailing events.",
+     "Fragile places suffer pressure, so Fernando de Noronha limits visitor numbers and charges an environmental fee.",
+     "Costly stadiums were left little used after the World Cup, such as the Arena da Amazônia in Manaus.",
+     "Vila Autódromo, a community, was largely evicted for the Olympic Park.",
+     "Seasonality means demand peaks around Carnival and then falls."
+    ],
+    "tip": "Pair each negative impact with a named place, such as Guanabara Bay or Vila Autódromo."
+   },
+   {
+    "b": "Roads carry most of Brazil's freight and have opened the interior.",
+    "h": "Transport: roads",
+    "points": [
+     "Roads carry about three-fifths of Brazil's freight (2020s).",
+     "The BR-116 runs along the eastern side of the country.",
+     "The Trans-Amazonian Highway (BR-230), about 4,000 km, opened in 1972, and long stretches are still unpaved.",
+     "The BR-163 links Cuiabá (Mato Grosso) to Santarém (Pará) on the Amazon and is the soya route, paved along most of its length by about 2020.",
+     "Roads open the Amazon to settlement and clearance. Rondônia, along the BR-364, shows the fishbone pattern of clearings along roads."
+    ],
+    "tip": "Keep deforestation brief: roads open the forest to settlers, so clearings spread out along them."
+   },
+   {
+    "b": "Rail is small, but rivers and ports are vital for freight.",
+    "h": "Transport: rail, water and ports",
+    "points": [
+     "The rail network is small and mostly used for ore, such as the Carajás Railway to São Luís.",
+     "The Amazon and its tributaries are waterways, and the Tietê-Paraná waterway links the south.",
+     "Ports include Santos (São Paulo state), Paranaguá (Paraná), São Luís (Maranhão) and Santarém (Pará).",
+     "The 'Northern Arc' (Arco Norte) of Amazon river ports now ships much of the soya harvest."
+    ]
+   },
+   {
+    "b": "Distance makes air travel essential, and cities have tried new ways to move people.",
+    "h": "Transport: air and urban",
+    "points": [
+     "Great distances make air travel vital, and São Paulo-Guarulhos is the busiest airport in South America.",
+     "Curitiba's bus rapid transit (BRT), begun in 1974 under mayor Jaime Lerner, has been copied worldwide.",
+     "São Paulo's metro and congestion are managed by the rodízio scheme (1997), which bans cars from the centre at rush hours on one weekday according to the last digit of the number plate."
+    ]
+   },
+   {
+    "b": "Transport holds a continental country together and lowers costs.",
+    "h": "Why transport matters",
+    "points": [
+     "It integrates a country of 8.5 million km², linking regions.",
+     "It lowers export costs for soya and ore.",
+     "It opens the interior, such as Brasília and the Centre-West.",
+     "Road-building in the Amazon brings deforestation, so there is a cost."
+    ],
+    "tip": "For a Higher question on development of transport, give types, named routes and then importance and problems."
+   },
+   {
+    "b": "Brazil is one of the most populous countries in the world, but its growth has slowed sharply. The latest count comes from the 2022 Census.",
+    "h": "Size and growth of Brazil's population",
+    "points": [
+     "The 2022 Census counted about 203 million people, up from about 191 million in the 2010 Census.",
+     "Annual growth between 2010 and 2022 was only about 0.5 percent, the slowest ever recorded in Brazil, so the population is close to levelling off.",
+     "The census was due in 2020 but was delayed until 2022, so the 2022 Census is Brazil's latest, not a 2020 census."
+    ],
+    "tip": "Label population figures as 2022 Census and religion figures as 2010 Census. Never call the latest census the 2020 census."
+   },
+   {
+    "b": "The demographic transition is the shift from high birth and death rates to low ones as a country develops. Brazil has moved through it quickly since the mid-20th century.",
+    "h": "Demographic transition in Brazil",
+    "points": [
+     "Death rates fell from the mid-20th century because of vaccination, clean water and better medicine, while birth rates stayed high, so the population grew fast.",
+     "Fertility then collapsed, from about 6 children per woman in 1960 to about 1.6 in the early 2020s, which is below the replacement level of 2.1 (the level needed to keep numbers steady).",
+     "Urbanisation lowered fertility, because children cost more to raise in cities and are no longer needed as farm labour.",
+     "Women's education and paid work, and wider use of contraception, let women choose smaller families."
+    ],
+    "tip": "For a population distribution question, give no more than one sentence on fertility. Save the detail for a question on population dynamics."
+   },
+   {
+    "b": "Falling fertility has changed the shape of the population pyramid (a chart of the share of people at each age). Brazil is ageing.",
+    "h": "Population structure and ageing",
+    "points": [
+     "The base of the pyramid is shrinking, because fewer children are being born each year.",
+     "Life expectancy is about 76 years (early 2020s), so more people reach old age and the older age groups are growing.",
+     "Old-age dependency is rising, which means fewer workers support each retired person.",
+     "A pension reform in 2019 raised the retirement age to ease the cost of pensions."
+    ]
+   },
+   {
+    "b": "Brazil's people are spread very unevenly. Comparing the five macro-regions shows where most of them live.",
+    "h": "Regional shares and density",
+    "points": [
+     "The 2022 Census gave these shares of the population: Southeast about 42 percent, Northeast about 27 percent, South about 15 percent, North about 8.5 percent and Centre-West about 8 percent.",
+     "The North covers about 45 percent of Brazil's area but holds only about 8.5 percent of its people, which shows how thinly the Amazon is settled.",
+     "National density in 2022 was about 24 people per km², low for a big country because so much of the interior is empty.",
+     "In general the population is dense along the coast and in the Southeast, and sparse in the Amazon and the interior."
+    ],
+    "tip": "Population distribution is a frequent Higher Level question. Use these shares and density figures, and explain dense and sparse areas with both physical and human factors."
+   },
+   {
+    "b": "The densest part of Brazil is the Southeast, where good land, a mild climate and jobs come together.",
+    "h": "Dense areas: the Southeast and the cities",
+    "points": [
+     "Colonial settlement came from the sea, so people clustered near ports; the saying is that Brazilians were 'clinging to the coast like crabs'.",
+     "The Southeast plateau has a cooler highland climate, with São Paulo cooler than Rio de Janeiro on the coast, which made it pleasant and healthy to settle.",
+     "Fertile terra roxa (deep red soil formed from basalt) supported the coffee boom and drew farm workers and then their families.",
+     "The industrial jobs and services of São Paulo, Rio de Janeiro and Belo Horizonte keep pulling migrants, so the cities have grown very large.",
+     "São Paulo state holds about 44 million people (2022 Census), the most populous state in Brazil."
+    ]
+   },
+   {
+    "b": "The Atlantic coast is dense because the Portuguese arrived by sea and found rich farmland and good harbours there.",
+    "h": "Dense areas: the coast and the sugar coast",
+    "points": [
+     "Ports such as Santos and Salvador gave trade routes to Portugal, so towns grew where ships could land.",
+     "On the humid coastal strip of the Northeast, the Zona da Mata around Recife and Salvador, massapê (dark, clay-rich, fertile soil) supported sugar plantations.",
+     "The sugar plantations needed large workforces, first enslaved Africans and later poor rural families, so this strip filled with people early.",
+     "Rain from the south-east trade winds is heavy on the coast, so water supply for crops and towns is reliable, unlike the dry interior."
+    ]
+   },
+   {
+    "b": "Large parts of the North have very few people. The Amazon basin makes everyday life and farming hard.",
+    "h": "Sparse areas: the Amazon",
+    "points": [
+     "The dense rainforest is hard to clear and travel through, and there are few roads, so access is poor.",
+     "Heat and humidity all year, with tropical disease, make settlement unattractive for many people.",
+     "Most Amazon soils are latosols (deep, leached, acidic and low in nutrients), so cleared land gives poor crops after a few years.",
+     "Amazonas state has a density under 3 people per km² (2022 Census), and Roraima is the least populous state."
+    ],
+    "tip": "Don't call Amazon soils fertile. The exceptions are the várzea (floodplain soils) and terra preta, which are small areas."
+   },
+   {
+    "b": "Two more regions are thinly settled for different reasons: one because of isolation, the other because of drought.",
+    "h": "Sparse areas: the Centre-West and the sertão",
+    "points": [
+     "The Centre-West was isolated for centuries, far from the coast and ports, with no roads, so few settlers went there before Brasília was built in 1960.",
+     "The sertão (the dry interior of the Northeast) is semi-arid, with roughly 250 to 800 mm of rain a year that varies greatly from year to year.",
+     "Droughts in the sertão, such as the severe one from 2012 to 2017, destroy crops and push people out, so the region has lost many people.",
+     "Thin, stony sertão soils erode easily, so farming there gives little income to support large numbers."
+    ]
+   },
+   {
+    "b": "A direct comparison of two states is a strong way to finish a distribution answer.",
+    "h": "Density contrast: São Paulo and Amazonas",
+    "points": [
+     "São Paulo state has about 44 million people (2022 Census) at a density of about 180 per km².",
+     "Amazonas state has a density under 3 per km², so São Paulo is at least sixty times denser.",
+     "The contrast comes from the factors above: São Paulo has a plateau climate, fertile soil, ports, industry and services, while Amazonas has forest, heat, poor soils and few roads."
+    ]
+   },
+   {
+    "b": "Because so many people lived on the coast, governments tried to open up the empty interior.",
+    "h": "Policies to move people inland: Brasília and the March to the West",
+    "points": [
+     "Brasília, the new capital, was inaugurated on 21 April 1960 in the centre of the country to draw people and investment inland.",
+     "The 'March to the West' was the drive to settle the Centre-West, and the new capital and roads made it possible.",
+     "The Centre-West later became the soya frontier, so the interior now holds more people and farms than before Brasília."
+    ],
+    "tip": "The capital is Brasília, not Rio de Janeiro or São Paulo. Rio was the capital until 1960."
+   },
+   {
+    "b": "From 1970 the government tried to settle the Amazon, but many schemes failed.",
+    "h": "Colonising the Amazon: Trans-Amazonian Highway and Rondônia",
+    "points": [
+     "The Programme of National Integration (1970) built the Trans-Amazonian Highway, opened in 1972, using the slogan 'a land without people for people without land'.",
+     "INCRA (the National Institute for Colonisation and Agrarian Reform, 1970) gave plots of land to settlers.",
+     "In the 1980s the Polonoroeste programme settled families in Rondônia along the BR-364 road.",
+     "Many schemes failed because the poor soils gave low yields and the settlers lived far from markets, so many farmers sold up or moved on."
+    ]
+   },
+   {
+    "b": "Internal migration is movement within Brazil. The biggest flow has been from the Northeast to the Southeast.",
+    "h": "Internal migration: nordestinos",
+    "points": [
+     "Nordestinos (migrants from the Northeast) moved from the sertão to São Paulo and Rio de Janeiro, mainly from the 1950s to the 1980s.",
+     "Push factors: drought, poverty and the concentration of land in few hands left many with no work.",
+     "Pull factors: factory jobs, for example in the ABC car plants near São Paulo, offered wages and a chance of a better life.",
+     "More recently, people have moved to the Centre-West farm frontier, and some have returned to the Northeast."
+    ]
+   },
+   {
+    "b": "Brazil's people came from many places. Immigration shaped the population and the economy.",
+    "h": "International migration into Brazil",
+    "points": [
+     "Portuguese settlers arrived from 1500 and set up the colony.",
+     "About 4 to 5 million enslaved Africans were brought to Brazil, more than to any other country, to work sugar, gold and coffee.",
+     "Italian and German immigrants came, especially to São Paulo and the South, as coffee and farm labour.",
+     "Japanese immigration began in 1908 with the ship Kasato Maru; Brazil has the largest population of Japanese descent outside Japan, centred on São Paulo.",
+     "Recent arrivals include Venezuelans, received at Pacaraima in Roraima under Operation Welcome (2018), and people from Haiti."
+    ]
+   },
+   {
+    "b": "Brazil abolished slavery late, and some Brazilians now leave to work abroad.",
+    "h": "Slavery and emigration from Brazil",
+    "points": [
+     "Slavery was abolished on 13 May 1888, so Brazil was the last country in the Americas to end it.",
+     "Brazilians have emigrated to the USA, Portugal, Japan and Ireland.",
+     "In Ireland, a Brazilian community grew in Gort, Co. Galway, from the late 1990s through meat-plant work, and there is another in Dublin.",
+     "About 27,000 Brazilian citizens lived in Ireland in the 2022 Census of Ireland."
+    ]
+   },
+   {
+    "b": "Brazil's population is a mixture of Indigenous peoples, Portuguese colonists, enslaved Africans and later immigrants. Census categories are based on how people describe themselves.",
+    "h": "Ethnic composition",
+    "points": [
+     "In the 2022 Census, pardo (mixed) was the largest group at about 45 percent, and it was the largest for the first time since 1991.",
+     "White (branco) was about 44 percent and Black (preto) about 10 percent.",
+     "Indigenous and Asian (amarelo) people were each under 1 percent.",
+     "This mix comes from colonisation, the slave trade and later immigration from Europe and Japan."
+    ]
+   },
+   {
+    "b": "Brazil's first peoples live in hundreds of groups. They face pressure on their land.",
+    "h": "Indigenous peoples",
+    "points": [
+     "The Indigenous population was about 1.7 million in the 2022 Census, in hundreds of ethnic groups.",
+     "Examples are the Yanomami (Roraima and Amazonas), the Kayapó (Pará and Mato Grosso) and the Guarani (south and Centre-West).",
+     "Demarcated Indigenous lands (areas legally set aside for them) cover about 13 percent of Brazil, mostly in the Amazon.",
+     "Mining, ranching and dams threaten these lands; for example, the Kayapó opposed the Belo Monte Dam."
+    ]
+   },
+   {
+    "b": "Mixing has not meant equality. Colour still follows income in Brazil.",
+    "h": "Racial inequality",
+    "points": [
+     "Black and pardo Brazilians earn less on average than white Brazilians and are over-represented in favelas.",
+     "The idea of 'racial democracy' (that Brazil mixed peoples without racism) is a claim, not reality.",
+     "The Law of Quotas (2012) reserves places in federal universities for state-school students, with places for Black, pardo and Indigenous students, to widen access."
+    ],
+    "tip": "Racial democracy is a myth, not a fact. Don't write that Brazil has no racism."
+   },
+   {
+    "b": "Portuguese gives Brazil a single common language across a continental-sized country.",
+    "h": "Language: Portuguese",
+    "points": [
+     "The Treaty of Tordesillas (1494) divided new lands between Spain and Portugal, and Pedro Álvares Cabral reached Brazil in 1500, so Portuguese came with colonisation.",
+     "Brazil is the only Portuguese-speaking country in the Americas and the largest Portuguese-speaking country in the world.",
+     "Brazil won independence from Portugal in 1822 yet kept the language.",
+     "One language unites the country, unlike India, which has many major languages."
+    ],
+    "tip": "Brazilians speak Portuguese, not Spanish. Brazil is surrounded by Spanish-speaking neighbours."
+   },
+   {
+    "b": "Over time, Brazilian Portuguese has drifted away from the Portuguese of Portugal.",
+    "h": "Brazilian Portuguese",
+    "points": [
+     "It differs from European Portuguese in sound and vocabulary.",
+     "It took in many Tupi (Indigenous) words, including place names and the names of plants and animals such as jaguar, piranha and tapioca.",
+     "It also absorbed words from African languages, brought by enslaved people."
+    ]
+   },
+   {
+    "b": "Hundreds of Indigenous languages survive, but they are under threat.",
+    "h": "Indigenous languages",
+    "points": [
+     "The 2010 Census recorded 305 Indigenous ethnic groups speaking 274 Indigenous languages, mostly in the Amazon.",
+     "Most of these languages are endangered, because speakers are few and children learn Portuguese at school.",
+     "In 2002 Nheengatu, Tukano and Baniwa became co-official languages of São Gabriel da Cachoeira (Amazonas), the first municipality to do this."
+    ]
+   },
+   {
+    "b": "Other languages came with later settlers.",
+    "h": "Immigrant languages and sign language",
+    "points": [
+     "Hunsrik (a German dialect) and Talian (an Italian dialect) are spoken in the South, where German and Italian farmers settled.",
+     "Japanese is spoken in São Paulo, in districts such as Liberdade, because of Japanese immigration from 1908.",
+     "Libras (Brazilian Sign Language) was recognised by law in 2002."
+    ]
+   },
+   {
+    "b": "Language shapes who Brazil trades with and how easily visitors and firms can do business.",
+    "h": "Language and the economy",
+    "points": [
+     "Portuguese ties Brazil to Portugal, Angola and Mozambique through the Community of Portuguese Language Countries.",
+     "Few Brazilians speak English, a barrier to tourism and global business compared with India.",
+     "Brazil's Mercosur neighbours speak Spanish, so language separates it from its trading partners even within the bloc."
+    ]
+   },
+   {
+    "b": "Brazil has the largest Catholic population of any country, but its religious make-up is changing.",
+    "h": "Religious composition and origins",
+    "points": [
+     "In the 2010 Census, Roman Catholic was about 65 percent, evangelical (Protestant, mainly Pentecostal) about 22 percent, no religion about 8 percent and Spiritist about 2 percent.",
+     "Catholicism came with Portuguese colonisation and the Jesuit missions (Catholic priests who founded mission settlements).",
+     "São Paulo itself was founded as a Jesuit mission on 25 January 1554 by Manuel da Nóbrega and José de Anchieta.",
+     "Surveys since 2010 show Catholics falling further and evangelicals rising."
+    ],
+    "tip": "Label these religion figures as 2010 Census, not 2022."
+   },
+   {
+    "b": "Enslaved Africans brought their own beliefs, which blended with the Catholicism they were made to follow.",
+    "h": "Afro-Brazilian religions",
+    "points": [
+     "Candomblé (from Yoruba and other West African traditions) and Umbanda are Afro-Brazilian religions.",
+     "They show syncretism (the blending of two belief systems), because African spirits were linked with Catholic saints.",
+     "They are strongest in Salvador, Bahia."
+    ]
+   },
+   {
+    "b": "The religious map is shifting, with social and political effects.",
+    "h": "Religious change and conflict",
+    "points": [
+     "Catholicism is declining while Pentecostal churches grow, especially among the urban poor.",
+     "The Universal Church of the Kingdom of God was founded in Rio de Janeiro in 1977, and the Assemblies of God is the largest Pentecostal denomination.",
+     "Evangelicals have gained political power, and there is intolerance against Afro-Brazilian religions.",
+     "Brazil has been a secular republic since the 1891 Constitution, so there is no official state religion."
+    ]
+   },
+   {
+    "b": "Religious events bring money and visitors.",
+    "h": "Religion and economic life",
+    "points": [
+     "Carnival is the festival of the days before Ash Wednesday and Lent (a Catholic season), and it draws huge numbers of tourists and spending, especially in Rio de Janeiro.",
+     "The Basilica of Our Lady of Aparecida (São Paulo state) is the shrine of Brazil's patron saint and one of the largest Catholic churches in the world, so it attracts pilgrims.",
+     "The Círio de Nazaré procession in Belém each October draws about two million people.",
+     "Together these make religious tourism a real source of jobs and income."
+    ],
+    "tip": "Carnival is the festival before Lent, not a harvest festival."
+   },
+   {
+    "b": "Brazil has changed from a rural to an urban country in about seventy years.",
+    "h": "Urbanisation",
+    "points": [
+     "About 36 percent of people lived in towns in 1950, and about 87 percent do today (2020s).",
+     "Rural-urban migration drove this, as people left farms for cities.",
+     "Mechanisation of farming cut the need for workers, and land concentration left many with no land.",
+     "Drought pushed people from the sertão, while industrial jobs in cities pulled them."
+    ]
+   },
+   {
+    "b": "A few huge cities dominate, followed by regional capitals.",
+    "h": "The urban hierarchy",
+    "points": [
+     "São Paulo (about 11.5 million, and over 20 million in Greater São Paulo) and Rio de Janeiro (about 6.2 million) are the two megacities (2022 Census).",
+     "Next come the regional capitals: Brasília about 2.8 million, Fortaleza and Salvador about 2.4 million each, Belo Horizonte about 2.3 million and Manaus about 2.1 million (2022 Census).",
+     "The largest city is São Paulo, but the capital is Brasília."
+    ],
+    "tip": "The capital is Brasília. São Paulo is the largest and richest city."
+   },
+   {
+    "b": "São Paulo is Brazil's largest city. Its site, the actual spot where it was built, helped it grow.",
+    "h": "São Paulo: site",
+    "points": [
+     "It sits on the plateau about 800 m above sea level, behind the Serra do Mar escarpment, and about 70 km from the port of Santos.",
+     "The Tietê river runs through it.",
+     "It began as a Jesuit mission, founded on 25 January 1554.",
+     "The plateau gives a cooler climate than the coast, though the escarpment between plateau and coast made travel to the port hard."
+    ]
+   },
+   {
+    "b": "Several factors, one building on the last, made a small mission into a megacity.",
+    "h": "São Paulo: factors in its growth",
+    "points": [
+     "The coffee boom of the 19th century brought wealth, and the coffee was exported through Santos.",
+     "The São Paulo Railway to Santos (1867, British-built) linked the plateau to the port.",
+     "Immigrants, including Italians and Japanese (in the district of Liberdade), supplied labour and skills.",
+     "Industrialisation followed, with coffee profits funding first factories and then the ABC car plants.",
+     "Migrants from the Northeast supplied cheap labour for the factories.",
+     "Today São Paulo is Brazil's financial and service capital."
+    ],
+    "tip": "Questions ask for factors that influenced the development of one urban area, or the reasons for its growth. São Paulo is the expected case study, so link each factor to growth."
+   },
+   {
+    "b": "Fast growth outran planning, and the city has serious problems.",
+    "h": "São Paulo: problems",
+    "points": [
+     "Favelas (informal, self-built housing) and self-built housing spread on the urban edge, such as Heliópolis, the largest favela, and Paraisópolis beside the wealthy district of Morumbi.",
+     "Traffic and air pollution are severe in a city of this size.",
+     "The 2014-15 water crisis saw the Cantareira reservoir system fall to a few percent of capacity.",
+     "Flooding is a regular problem, and the Tietê is heavily polluted by sewage.",
+     "Inequality and crime are widespread."
+    ]
+   },
+   {
+    "b": "The city and government have tried several responses.",
+    "h": "São Paulo: responses",
+    "points": [
+     "The rodízio scheme (1997) bans cars from the central area at rush hours on one weekday, depending on the last digit of the number plate, to cut congestion.",
+     "Metro and bus corridors have been built to move people without cars.",
+     "Favela upgrading improves existing neighbourhoods instead of clearing them.",
+     "Minha Casa Minha Vida ('My House, My Life', 2009) is a social housing programme."
+    ]
+   },
+   {
+    "b": "Rio is the second megacity and was Brazil's capital for almost two centuries.",
+    "h": "Rio de Janeiro",
+    "points": [
+     "Its site is on Guanabara Bay between mountains and sea, which gives it a famous setting and a good harbour.",
+     "It was the capital from 1763 to 1960, before Brasília.",
+     "Its economy rests on its port, tourism and oil services.",
+     "Hillside favelas such as Rocinha are among Brazil's largest, and the steep slopes make landslides a risk, as in the mountain region in 2011.",
+     "Pacifying Police Units (UPPs) began in 2008 to bring security to favelas."
+    ]
+   },
+   {
+    "b": "Brasília was built from nothing to open the interior.",
+    "h": "Brasília: a planned capital",
+    "points": [
+     "It was inaugurated on 21 April 1960 as the capital.",
+     "Lúcio Costa drew the Pilot Plan, shaped like an aeroplane or bird, and Oscar Niemeyer designed the buildings.",
+     "It was built to open the interior of the country to settlement.",
+     "Unplanned satellite cities such as Ceilândia (towns outside the plan for workers) grew up, which shows segregation between planned and unplanned areas."
+    ]
+   },
+   {
+    "b": "Two smaller cases show how one city grew from a river and another from planning.",
+    "h": "Manaus and Curitiba",
+    "points": [
+     "Manaus is a river port in the heart of the Amazon, which ocean ships can reach.",
+     "Rubber wealth built the Teatro Amazonas, and the Free Trade Zone revived the city after the boom.",
+     "Growth has cleared nearby forest.",
+     "Curitiba is a model of planning: its bus rapid transit began in 1974, it has parks on flood-prone land, and it runs recycling schemes."
+    ]
+   },
+   {
+    "b": "Problems found across Brazilian cities have a common root in rapid migration.",
+    "h": "Urban problems in general",
+    "points": [
+     "About 16 million people, about 8 percent of the population, live in favelas and urban communities (2022 Census).",
+     "Many people work in the informal economy (jobs without contracts or tax), so their income is low and insecure.",
+     "Poor sanitation affects areas with no sewers or piped water.",
+     "Violence is common, and wealthy people live in gated communities beside favelas."
+    ],
+    "tip": "Don't say all urban poor live in favelas, and don't give a population for any single favela."
+   },
+   {
+    "b": "Rural Brazil is a small and shrinking share of the population, and it has serious problems.",
+    "h": "Rural Brazil and its problems",
+    "points": [
+     "The rural population is concentrated in the Northeast and the North.",
+     "Poverty is worst in the Northeast sertão, where drought destroys crops.",
+     "Land is concentrated in few hands, so many families are landless, and there is rural violence over land.",
+     "Services such as water, electricity, health and schools are poor, so young people leave."
+    ]
+   },
+   {
+    "b": "The unfair division of land is the central rural issue.",
+    "h": "Land reform and the MST",
+    "points": [
+     "The MST (Landless Rural Workers' Movement, founded 1984) occupies unused estates to press for redistribution (sharing the land more fairly).",
+     "INCRA runs official settlements, but progress is slow and contested.",
+     "The MST is a movement, not a government body."
+    ],
+    "tip": "The MST is a movement, not a government body, and Bolsa Família is a cash scheme, not land reform."
+   },
+   {
+    "b": "The government has tried to reduce rural poverty with payments and services.",
+    "h": "Rural development policies",
+    "points": [
+     "Bolsa Família (2003) pays cash on condition that children attend school and are vaccinated; it was relaunched in 2023, reaching about 20 million families.",
+     "Fome Zero ('Zero Hunger', 2003) fought hunger, and Brazil left the UN Hunger Map in 2014.",
+     "One Million Cisterns (from 2003, run with the civil-society network ASA) provides rainwater tanks in the sertão.",
+     "Luz para Todos ('Light for All', 2003) brought electricity to rural homes.",
+     "Credit for family farms and SUDENE support the Northeast."
+    ],
+    "tip": "Bolsa Família is a cash-transfer scheme, not land reform."
+   },
+   {
+    "b": "Two rural areas show how human, economic and physical processes interact.",
+    "h": "Contrasting outcomes: Mato Grosso and the sertão",
+    "points": [
+     "Mato Grosso is Brazil's leading soya state, where reliable summer rain, flat land and liming (adding crushed limestone to acidic soil) support agribusiness boom towns.",
+     "The sertão is poor because of low, unreliable rain, thin soils and unequal land ownership.",
+     "The gap shows that farming wealth depends on technology, markets and land ownership as well as climate and soil."
+    ]
+   },
+   {
+    "b": "Brazil is divided into a richer core and a poorer periphery, which shows human, economic and physical processes working together.",
+    "h": "Regional inequality within Brazil",
+    "points": [
+     "The core is the Southeast and the South, where industry, ports and services are concentrated; the periphery is the Northeast and North.",
+     "The Federal District and São Paulo have the highest income per person, while Maranhão and Piauí in the Northeast are among the poorest states.",
+     "The causes are rooted in climate (drought in the sertão), soils, colonial history (the sugar coast was left behind when coffee and then industry moved south) and the concentration of industry in São Paulo.",
+     "Responses include SUDENE (1959, for the Northeast), SUDAM (1966, for the Amazon) and the Manaus Free Trade Zone (1967).",
+     "Brazil is among the most unequal countries in the world."
+    ],
+    "tip": "Examiners expect the human processes to be tied to economic and physical ones, and this block is the way to do it."
+   },
+   {
+    "b": "Physical, economic and human processes in Brazil are linked in chains, and these make strong conclusions.",
+    "h": "Chains of interaction",
+    "points": [
+     "Coffee on terra roxa brought wealth, which funded São Paulo industry, which drew migrants from the drought-hit sertão and led to favelas.",
+     "Cerrado liming and EMBRAPA research led to a soya boom, which needed the BR-163 road and northern ports and put pressure on the Amazon.",
+     "Rainfall and plateau rivers give hydroelectricity, which powers industry.",
+     "Portuguese colonisation left Brazil with its language, its religion and an export economy."
+    ],
+    "tip": "For a Higher Level question on the impact of human processes on development, pick two processes and link each to economic and physical processes."
+   }
+  ],
+  "questions": [
+   {
+    "marks": 20,
+    "model": "Draw the outline of Brazil with a broad northern bulge across the Amazon, an eastward shoulder at the Northeast, then the coast running south-west and the country tapering to the south. Relief: outline the Brazilian Highlands as an area in the east-centre of the country, inland from the coast, running from the Northeast down to the south, and label it Brazilian Highlands. River: draw the Amazon as a line entering Brazil in the far west and flowing east past Manaus, where the Rio Negro joins from the north-west, to the Atlantic at a wide estuary close to the equator, and mark Marajó Island at the mouth. Urban centres: put a dot for São Paulo inland, just behind the south-east coast near the Tropic of Capricorn, and a dot for Rio de Janeiro on the coast, east-north-east of São Paulo, and name both. Agricultural region: outline the soya region of Mato Grosso in the centre-west, south of the Amazon lowland, and label it soya, Mato Grosso.",
+    "prompt": "Draw an outline map of Brazil. On it, show and name a feature of relief, the course of a river, two urban centres and an agricultural region.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Raw materials and energy. Brazil's industry grew where its raw materials were. Iron ore from Minas Gerais and Carajás feeds steel, and the CSN steelworks at Volta Redonda began production in 1946. Carajás in Pará is the world's largest iron-ore mine, and its ore goes by railway to São Luís for export. Sugar cane is turned into ethanol, so cane in São Paulo state supports a fuel industry. Soya and meat supply food processing, such as JBS. Hydroelectricity from Itaipu, on the Paraná and shared with Paraguay, supplies the Southeast industrial core with cheap power. Tucuruí, on the Tocantins, powers aluminium smelting in the Amazon. Together these resources explain why industry clusters in the Southeast. Government policy. From the 1930s Getúlio Vargas used import substitution industrialisation, protecting factories with tariffs and building heavy industry such as the CSN steelworks and Petrobras. Under Juscelino Kubitschek (1956 to 1961) foreign car makers were invited into the ABC region near São Paulo, and Volkswagen's São Bernardo plant opened in 1959. The Manaus Free Trade Zone (1967) used tax breaks to bring electronics and motorbike assembly to the Amazon. SUDENE (1959) gave incentives to the Northeast, leading to the Camaçari petrochemical complex in Bahia. The Real Plan (1994) ended hyperinflation, and privatisation of Embraer in 1994 and Vale in 1997 opened the economy. The effect was a concentrated industrial triangle of São Paulo, Rio de Janeiro and Belo Horizonte, with smaller clusters at Manaus and in the Northeast.",
+    "prompt": "Examine how two factors have influenced the development of secondary economic activity in Brazil.",
+    "type": "short"
+   },
+   {
+    "marks": 30,
+    "model": "Brazil's overall density is low, about 24 people per km² (2022 Census), because the population of about 203 million is very unevenly spread. The 2022 Census shows the Southeast has about 42 percent of the population, the Northeast about 27 percent, the South about 15 percent, the North about 8.5 percent and the Centre-West about 8 percent. The North covers about 45 percent of the area but holds only about 8.5 percent of the people. Dense areas first. The Southeast is densest, because the plateau climate is cooler than the coast and fertile terra roxa from basalt supported the coffee boom. Its industrial jobs in São Paulo, Rio de Janeiro and Belo Horizonte, and its services, keep drawing migrants, so São Paulo state has about 44 million people. The coast is dense because colonial settlement came from the sea, with ports such as Santos and Salvador. On the Northeast sugar coast, the Zona da Mata, fertile massapê soils and reliable rain from the trade winds supported plantations that needed large workforces. Cities such as São Paulo, Rio de Janeiro, Salvador and Fortaleza are dense because they offer jobs and services; the urban share has risen from about 36 percent in 1950 to about 87 percent. Now the sparse areas. The Amazon is sparse because of dense forest that is hard to clear, heat and humidity, disease, poor access and leached latosol soils that fail quickly once cleared. The Centre-West was thinly settled because it was isolated, far from the coast and with few roads, before Brasília was built in 1960. The sertão is sparse because semi-arid rainfall of roughly 250 to 800 mm varies year to year, droughts destroy crops and the soils are thin and stony, so many people left. The contrast is clear: São Paulo state has about 180 people per km² while Amazonas has under 3. Governments tried to move people inland. Brasília was inaugurated on 21 April 1960, the March to the West opened the interior, and the Trans-Amazonian Highway (1970s) and settlement of Rondônia along the BR-364 (1980s) tried to settle the Amazon. Many schemes failed because of poor soils and distance from markets, so the coast and the Southeast still hold most people.",
+    "prompt": "Account for the distribution of population in Brazil.",
     "type": "short"
    }
   ]
