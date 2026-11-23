@@ -31,7 +31,7 @@ The wave of African independence
 - [ ] W2 Tunisia and Morocco independent in 1956 (the Algerian war's neighbours and FLN bases).
 - [ ] W3 The Loi-cadre (Defferre, 1956): elected assemblies and governments in French African territories.
 - [ ] W4 De Gaulle's 1958 offer at Brazzaville (24 August) of Community or independence; the earlier Brazzaville Conference (1944) promised reform but not self-government.
-- [ ] W5 Guinea's "No" in the September 1958 referendum: independence on 2 October 1958; the first French colony to leave.
+- [ ] W5 Guinea's "No" in the September 1958 referendum: independence on 2 October 1958; the first French colony in sub-Saharan Africa to become independent.
 - [ ] W6 1960, the "Year of Africa": 17 states independent; most French territories (and Madagascar) left the Community by negotiation and signed co-operation accords.
 - [ ] W7 Macmillan's Cape Town speech, 3 February 1960: the "wind of change"; British transfers of power mostly negotiated, unlike France in Algeria.
 
@@ -159,6 +159,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "French government gave orders to prevent their organised transfer" without qualification; say the government refused or obstructed organised rescue and officers who helped were punished (only this level of detail).
 - Do not use: "Algeria became independent on 5 July 1962" without noting the 1 July vote; 5 July is the date celebrated, after the referendum result, and 3 July was when France recognised it.
 - Do not use: "de Gaulle was invested as president on 1 June 1958"; he became prime minister then.
+- Do not use: "Guinea was the first French colony to leave", because Vietnam, Laos, Cambodia, Tunisia and Morocco had already left French rule; say Guinea was the first French colony in sub-Saharan Africa to become independent.
 
 Doubtful quotations: do not use "Algérie algérienne", "I have understood you" attributed to any other place or date, or any quotation of Macmillan beyond the phrase above.
 

@@ -107,7 +107,7 @@ Do not name any person, place, date or figure that is not on this list.
 | F1 | Teddy boys: 1950s Britain, Edwardian-style jackets. |
 | F2 | Mods and Rockers clashed at English seaside resorts in 1964 (Clacton, Margate, Brighton); the press coverage produced a "moral panic" (give 1964; do not give one date for all three). |
 | F3 | Mary Quant (London, the miniskirt, 1960s); Carnaby Street (London); hippies of the late 1960s: long hair, flowers, communal living. |
-| F5 | Punk, 1976–77: the Sex Pistols, The Clash; *God Save the Queen* released in the Silver Jubilee week of 1977. |
+| F5 | Punk, 1976–77: the Sex Pistols, The Clash; *God Save the Queen* released in May 1977, just before the Silver Jubilee (June 1977), and in the charts during Jubilee week. |
 | P2 | Student protest began at Nanterre (March 1968), moved to the Sorbonne (May). Night of the Barricades, 10–11 May 1968, in the Latin Quarter. A general strike of millions of workers followed (say "millions"). |
 | P3 | De Gaulle left Paris briefly on 29 May 1968. His supporters won a large majority in the June 1968 election. He resigned in April 1969 after losing a referendum. |
 | P4 | West Germany: Rudi Dutschke. Poland: student protests of March 1968 suppressed. Czechoslovakia: students backed the Prague Spring (1968). Also unrest in Italy. |
@@ -138,6 +138,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "Pelé, Johan Cruyff and George Best" as European television-era examples without noting Pelé is Brazilian.
 - Do not use: Mary Quant "popularised the miniskirt in 1960s" as an exact invention claim; say she helped make it famous.
 - Do not use: the Beatles "broke up after the death of Epstein"; say disputes over business and music contributed (Epstein's death in 1967 weakened them).
+- Do not use: "God Save the Queen released in the Silver Jubilee week of 1977", because it was released on 27 May 1977, about ten days before the Jubilee bank holiday (7 June); it was in the charts during Jubilee week (reaching number 2).
 - Do not use: a global audience figure for Live Aid or for Our World; none is checked.
 
 Doubtful quotations: do not use any song lyric or any quotation of Lennon's remark about Jesus in quotation marks; give it as reported speech.

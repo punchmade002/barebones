@@ -129,7 +129,7 @@ Do not name any person, place, date or figure that is not on this list.
 | L2 | Day of Deliverance, 22 December 1939. |
 | L3 | Lahore Resolution adopted 23 March 1940: independent states in Muslim-majority zones. The name "Pakistan" was coined in 1933 by Choudhry Rahmat Ali, a Cambridge student. Jinnah argued Hindus and Muslims were two nations. |
 | L4 | Simla Conference, 25 June to 14 July 1945, called by Viceroy Wavell; failed over Jinnah's insistence that the League alone name Muslim members. |
-| L5 | 1945–46 elections: the League won all 30 Muslim seats in the central assembly and the great majority (about 75 per cent) of Muslim provincial seats; Congress won most general seats. |
+| L5 | 1945–46 elections: the League won all 30 Muslim seats in the central assembly and the great majority of Muslim provincial seats (no percentage given); Congress won most general seats. |
 | L6 | Punjab (Muslim majority, large Hindu and Sikh minorities) and Bengal (Muslim majority, large Hindu minority). |
 | D1 | Labour won the July 1945 election (result declared 26 July); Attlee prime minister 26 July 1945. |
 | D2 | About 3.75 billion dollars borrowed from the US (1945–46). Britain owed India over one billion pounds in sterling balances by 1945 (use "over one billion pounds"). |
@@ -167,6 +167,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "Hindus and Sikhs moved into India and Muslims into Pakistan" as a statement of equal flows to a single total without the range; use only "about 10 to 15 million".
 - Do not use: a single casualty figure for partition, or the unsourced "hundreds killed at Amritsar" as a precise number.
 - Do not use: Ghana's independence and other African independence dates in these notes, because they belong to the Africa notes. Burma and Ceylon (1948) are acceptable as brief examples.
+- Do not use: "about 75 per cent of Muslim provincial seats", because about 75 per cent is the League's approximate share of the Muslim provincial vote, not of seats; its seat share was far higher (roughly 85 to 90 per cent). Give no percentage, and never state a vote share as a seat share.
 - Do not use: the Bengal famine as caused by Churchill alone, or as a single-cause event; historians debate the causes.
 
 Doubtful quotations: do not use any quotation not in section 2. "Do or die" and "a tryst with destiny" are the only ones allowed. Never put words in quotation marks for Jinnah, Attlee or Mountbatten.

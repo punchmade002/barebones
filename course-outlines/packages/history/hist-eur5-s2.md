@@ -108,11 +108,11 @@ Do not name any person, place, date or figure that is not on this list.
 | D2 | Pancasila speech by Sukarno, 1 June 1945: five principles for the new state. |
 | D3 | 17 August 1945, Jakarta: Sukarno and Mohammad Hatta proclaimed independence, two days after Japan announced surrender. Sukarno became president, Hatta vice-president. |
 | D4 | Battle of Surabaya, November 1945 (British and Indonesian forces); British forces withdrew in 1946; Dutch troops returned. |
-| D5 | Linggadjati Agreement, November 1946: the Netherlands recognised the Republic's authority over Java, Madura and Sumatra and agreed a federal United States of Indonesia linked to the Netherlands in a union. The Dutch and Republic then disagreed over its meaning. |
+| D5 | Linggadjati Agreement, November 1946: the Netherlands recognised the Republic's de facto authority over Java, Madura and Sumatra (Dutch sovereignty was retained in the interim) and agreed a federal United States of Indonesia linked to the Netherlands in a union. The Dutch and Republic then disagreed over its meaning. |
 | D6 | First police action began July 1947. UN Security Council called for a ceasefire in August 1947 and set up a Good Offices Committee. Renville Agreement, January 1948, signed aboard the US ship Renville; Dutch forces held large areas. |
 | D7 | Madiun, September 1948: the Republic's forces put down a communist rising. |
 | D8 | Second police action, 19 December 1948: Dutch forces took Yogyakarta (the Republic's capital) and arrested Sukarno and Hatta; a government in exile on Sumatra continued. |
-| D9 | The United States pressed the Netherlands, including the threat that Marshall Plan aid could be affected; the UN Security Council condemned the action and demanded release of the leaders. |
+| D9 | The United States pressed the Netherlands, including the threat that Marshall Plan aid could be affected; the UN Security Council demanded a ceasefire and the release of the leaders. |
 | D10 | Round Table Conference at The Hague, 1949 (August–November). Sovereignty transferred 27 December 1949 to the Republic of the United States of Indonesia. Indonesia took over about 4.3 billion guilders of Dutch East Indies debt. West New Guinea left to later negotiation. A Netherlands-Indonesian Union was set up (a weak link). |
 | S1 | First free national election, September 1955: four parties of similar size (PNI, Masjumi, Nahdlatul Ulama, PKI). Cabinets unstable. |
 | S2 | Regional rebellions 1957–58: the PRRI in Sumatra and Permesta in Sulawesi, put down by the army. |
@@ -140,6 +140,8 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "recognised ... as a free state within the French Union" without the Indochinese Federation, because the March 1946 text named both.
 - Do not use: "more than 10,000" French captured, because counts vary; say about 10,000.
 - Do not use: "Dien Bien Phu ... news reached Geneva the day after the surrender"; say the Indochina talks opened on 8 May 1954, the day after the surrender, but give no more.
+- Do not use: "the Netherlands recognised the Republic's authority over Java, Madura and Sumatra" without "de facto"; Dutch sovereignty was retained in the interim, and that ambiguity caused the later dispute over meaning.
+- Do not use: "the UN Security Council condemned the Dutch action"; the resolutions of December 1948 and January 1949 called for a ceasefire, release of the leaders and restoration of the Republic's government, but did not formally condemn.
 - Do not use: "Linggadjati Agreement of 15 November 1946" without noting that this was when it was initialled; formal signing followed in 1947.
 - Do not use: the Haiphong death toll or any figure for Indonesian killings other than the stated range.
 - Do not use: the claim that Ho's Viet Minh "fought the Japanese from the hills" as a large campaign; their wartime fighting was small-scale guerrilla activity.
