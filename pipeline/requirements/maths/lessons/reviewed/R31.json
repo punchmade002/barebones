@@ -1,0 +1,722 @@
+[
+ {
+  "skill": "stat-distribution-shape",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-outlier-effect",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-outliers",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-percentiles",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-plan-collect",
+  "verdict": "fixed",
+  "issues": "Unified colour roles across the 3 problems (slot 1 = number to select, slot 2 = population or rate, slot 4 = group size or interval)",
+  "problems": [
+   {
+    "part": "practice-stat-plan-collect-1",
+    "note": null,
+    "legend": {
+     "1": "the number to select, the sample size or number wanted",
+     "2": "the population size or the sampling rate",
+     "3": "the answer",
+     "4": "the group size or interval, k"
+    },
+    "steps": [
+     {
+      "ask": "Should every year group get the same number of places, or a share that matches its size?",
+      "title": "Set up the plan",
+      "lines": [
+       {
+        "text": "Each year group is sampled in proportion to its size, so every year is fairly represented."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the whole school is second year? Take that share of the sample of 60.",
+      "title": "Find the number",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{4}{180}}{\\hl{2}{600}} \\times \\hl{1}{60}"
+       },
+       {
+        "tex": "&= \\hl{3}{18}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{18}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-plan-collect-2",
+    "note": "Changed from problem 1: the plan is now systematic, picking every 30th member after a random start, and the answer is a member number rather than a count from one year group. The steps still find an interval first, then apply it.",
+    "legend": {
+     "1": "the number to select, the sample size or number wanted",
+     "2": "the population size or the sampling rate",
+     "3": "the answer",
+     "4": "the group size or interval, k"
+    },
+    "steps": [
+     {
+      "ask": "How many members are on the list, and how many are to be chosen? What do you do with those two numbers to get the gap between picks?",
+      "title": "Find the interval",
+      "lines": [
+       {
+        "tex": "\\hl{4}{k} &= \\frac{\\hl{2}{1200}}{\\hl{1}{40}}"
+       },
+       {
+        "tex": "&= \\hl{4}{30}"
+       }
+      ]
+     },
+     {
+      "ask": "The first pick is member 17. How many gaps come after it before the 5th pick?",
+      "title": "Find the 5th member",
+      "lines": [
+       {
+        "tex": "17 + 4 \\times \\hl{4}{30}"
+       },
+       {
+        "tex": "&= \\hl{3}{137}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{137}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-plan-collect-3",
+    "note": "Changed from problem 2: the question now works backwards from 140 wanted replies and a 35% reply rate to the number to post, using an equation rather than a gap between picks. The idea of a planned share of a target is the same.",
+    "legend": {
+     "1": "the number to select, the sample size or number wanted",
+     "2": "the population size or the sampling rate",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "How would you write the number sent as a letter, and what must 35% of it equal?",
+      "title": "Set up",
+      "lines": [
+       {
+        "text": "Let $\\hl{3}{n}$ be the number sent. Then 35% of $\\hl{3}{n}$ must equal 140."
+       }
+      ]
+     },
+     {
+      "ask": "How do you undo multiplying by 0.35 to find the number sent?",
+      "title": "Solve",
+      "lines": [
+       {
+        "tex": "\\hl{2}{0.35} \\hl{3}{n} &= \\hl{1}{140}"
+       },
+       {
+        "tex": "\\hl{3}{n} &= \\frac{\\hl{1}{140}}{\\hl{2}{0.35}}"
+       },
+       {
+        "tex": "&= \\hl{3}{400}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{400}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-populations-samples",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "stat-sampling-methods-hl",
+  "verdict": "fixed",
+  "issues": "Unified colour roles (slot 1 sample size, slot 2 group share); problem 1 re-marked to match",
+  "problems": [
+   {
+    "part": "practice-stat-sampling-methods-hl-1",
+    "note": null,
+    "legend": {
+     "1": "the sample size to share out",
+     "2": "the group's share of the population",
+     "3": "the answer, the number chosen from the group"
+    },
+    "steps": [
+     {
+      "ask": "What fraction of the whole school is third year?",
+      "title": "Find third year's share",
+      "lines": [
+       {
+        "text": "Stratified sampling takes from each group in proportion to its size."
+       },
+       {
+        "tex": "\\text{Share} &= \\hl{2}{\\frac{500}{1200}}"
+       }
+      ]
+     },
+     {
+      "ask": "Take that share of the sample of 60. What number of third-year students does that give?",
+      "title": "Apply to the sample",
+      "lines": [
+       {
+        "tex": "\\text{Number} &= \\hl{2}{\\frac{500}{1200}} \\times \\hl{1}{60}"
+       },
+       {
+        "tex": "&= \\hl{3}{25}"
+       },
+       {
+        "text": "Choose these 25 students at random from the third-year students."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{25}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q10#(d)",
+    "note": "Changed from problem 1: the groups are now split 50/50 by pet ownership out of 2520 students, and the last step judges whether that split helps. The proportional stratified method is the same.",
+    "legend": {
+     "1": "the sample size to share out",
+     "2": "the group's share of the population",
+     "3": "the answer, the number chosen from the group"
+    },
+    "steps": [
+     {
+      "ask": "Stratified sampling needs groups. What are the two groups here, and what share of the students is each?",
+      "title": "Split the students into two groups",
+      "lines": [
+       {
+        "text": "Stratified sampling takes a sample from each group in proportion to its size. Here the groups are students with a pet and students without a pet."
+       },
+       {
+        "text": "Each group is 50% of the students, so each should make up 50% of the sample."
+       }
+      ]
+     },
+     {
+      "ask": "If each group is half the students, what size should each sample be out of the 2520?",
+      "title": "Work out the size of each sample",
+      "lines": [
+       {
+        "tex": "\\text{Sample size} &= \\hl{2}{\\frac{50}{100}} \\times \\hl{1}{2520}"
+       },
+       {
+        "tex": "&= \\hl{3}{1260}"
+       }
+      ]
+     },
+     {
+      "ask": "How should the students be picked within each group?",
+      "title": "Choose the students at random",
+      "lines": [
+       {
+        "text": "Take a random sample of 1260 from all the students in country Z who have a pet."
+       },
+       {
+        "text": "Take a random sample of 1260 from all the students in country Z who do not have a pet."
+       }
+      ]
+     },
+     {
+      "ask": "Does owning a pet tell you anything about maths scores? What would you expect?",
+      "title": "Why this is probably not useful",
+      "lines": [
+       {
+        "text": "There is probably no connection between owning a pet and maths scores, so splitting by pet ownership gives no better estimate of the scores."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Random sample of \\hl{3}{1260} pet owners and \\hl{3}{1260} non-owners; pet ownership is probably unrelated to maths scores}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-sampling-methods-hl-2",
+    "note": "Changed from problem 2: this is quota sampling, not stratified random sampling, so the interviewer chooses who to ask. The arithmetic is still a share of a total, as in problem 1.",
+    "legend": {
+     "1": "the sample size to share out",
+     "2": "the group's share of the population",
+     "3": "the answer, the number chosen from the group"
+    },
+    "steps": [
+     {
+      "ask": "If the quota copies the town, what share of the 80 interviews should be women?",
+      "title": "Find the number of women",
+      "lines": [
+       {
+        "text": "A quota sample copies the make-up of the population, so 55% of the 80 must be women."
+       },
+       {
+        "tex": "\\hl{2}{\\frac{55}{100}} \\times \\hl{1}{80} &= \\hl{3}{44}"
+       }
+      ]
+     },
+     {
+      "ask": "Who picks the people in a quota sample, and is that choice random?",
+      "title": "Comment on bias",
+      "lines": [
+       {
+        "text": "The interviewer chooses who to ask, not a random method, so they may pick people who are easy to approach. This can bias the sample."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{44}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-srs-bias",
+  "verdict": "fixed",
+  "issues": "Same legend wording for all 3 problems",
+  "problems": [
+   {
+    "part": "practice-stat-srs-bias-1",
+    "note": null,
+    "legend": {
+     "1": "the main count given",
+     "2": "the other count used with it",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What must be true of every student's chance for the method to count as simple random?",
+      "title": "Say why the method is a simple random sample",
+      "lines": [
+       {
+        "text": "Every student has the same chance of selection, so there is no bias."
+       }
+      ]
+     },
+     {
+      "ask": "How many students are chosen out of how many, and what fraction of the group is that?",
+      "title": "Find the probability",
+      "lines": [
+       {
+        "tex": "\\hl{3}{P} &= \\frac{\\hl{2}{25}}{\\hl{1}{300}} = \\hl{3}{\\frac{1}{12}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\frac{1}{12}}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-srs-bias-2",
+    "note": "Changed from problem 1: the method is now a phone poll at 11 a.m. on a weekday, which leaves out people at work, so it is biased. The question asks for the share left out as a percentage, not a probability.",
+    "legend": {
+     "1": "the main count given",
+     "2": "the other count used with it",
+     "3": "the answer",
+     "4": "the fraction"
+    },
+    "steps": [
+     {
+      "ask": "Who is likely to be missed by calling at this time of day?",
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "ask": "Which number goes on top of the fraction for those left out: the number phoned or the number left out?",
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{2}{180}}{\\hl{1}{500}} &= \\hl{4}{\\frac{9}{25}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply a fraction by to turn it into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\frac{9}{25}} \\times 100 &= \\hl{3}{36}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{36}\\%",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q9#(a)(i), (iii)",
+    "note": "Changed from problem 2: this asks for a maximum count from grouped frequencies rather than a percentage, and the last step judges a non-random sample. Spotting the bias stays the same.",
+    "legend": {
+     "1": "the main count given",
+     "2": "the other count used with it",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Which class could contain students over 100, and which classes lie entirely above it?",
+      "title": "(i) Pick the classes that could be over 100",
+      "lines": [
+       {
+        "text": "The class 90 to 120 includes students above 100, and every class above it is entirely above 100."
+       },
+       {
+        "text": "At most, all 59 students in 90 to 120 read for more than 100 minutes."
+       }
+      ]
+     },
+     {
+      "ask": "Once you know which classes could be over 100, what do you do with their frequencies?",
+      "title": "(i) Add the frequencies",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= \\hl{1}{59} + \\hl{2}{18} + \\hl{2}{10}"
+       },
+       {
+        "tex": "&= \\hl{3}{87}"
+       }
+      ]
+     },
+     {
+      "ask": "What is wrong with taking the first 200 students to arrive as the sample?",
+      "title": "(iii) Say why the sampling method is limited",
+      "lines": [
+       {
+        "text": "Only the first 200 students to arrive were asked, so the sample is not random."
+       },
+       {
+        "text": "These could be local students, or students arriving together on school buses."
+       },
+       {
+        "text": "Students who arrive later are left out, so the sample may not be representative."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{87} \\text{ students}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-study-types",
+  "verdict": "fixed",
+  "issues": "Slot 2 now the counted part in every problem; same legend wording",
+  "problems": [
+   {
+    "part": "practice-stat-study-types-1",
+    "note": null,
+    "legend": {
+     "1": "the total",
+     "2": "the count used with the total",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Who decides which patients get the tablet: the researchers or the patients?",
+      "title": "Identify the type of study",
+      "lines": [
+       {
+        "text": "The researchers choose who gets the treatment, so this is a designed experiment."
+       }
+      ]
+     },
+     {
+      "ask": "How many equal groups are there, and what do you divide the 60 patients by?",
+      "title": "Split the patients equally",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{1}{60}}{\\hl{2}{2}} &= \\hl{3}{30}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{30}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-study-types-2",
+    "note": "Changed from problem 1: the study is observational, so nothing is given to anyone, and the answer is a percentage of the people who are not smokers. Identifying the type first stays the same.",
+    "legend": {
+     "1": "the total",
+     "2": "the count used with the total",
+     "3": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "Does the researcher change anything for these people, or only record what is already there?",
+      "title": "Identify the type of study",
+      "lines": [
+       {
+        "text": "The researcher only records what is already happening and gives no treatment, so it is observational."
+       }
+      ]
+     },
+     {
+      "ask": "How do you find the people who are not smokers from the total and the number who smoke?",
+      "title": "Find the number of non-smokers",
+      "lines": [
+       {
+        "tex": "\\hl{1}{240} - 48 &= \\hl{2}{192}"
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the 240 are non-smokers, and what do you multiply that fraction by to get a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{2}{192}}{\\hl{1}{240}} \\times 100 &= \\hl{3}{80}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{80}\\%",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-study-types-3",
+    "note": "Changed from problem 2: this is a survey, not an observational study, and the percentage is the response rate, replies out of those asked. The steps stay the same: name the type, make a fraction, convert to a percentage.",
+    "legend": {
+     "1": "the total",
+     "2": "the count used with the total",
+     "3": "the answer",
+     "4": "the fraction"
+    },
+    "steps": [
+     {
+      "ask": "What does the researcher do to these people, apart from asking them questions?",
+      "title": "Identify the type of study",
+      "lines": [
+       {
+        "text": "People are only asked questions, so this is a survey, not an experiment."
+       }
+      ]
+     },
+     {
+      "ask": "Which number is the replies, and which is the number asked, when you write them as a fraction?",
+      "title": "Write the replies as a fraction of those asked",
+      "lines": [
+       {
+        "tex": "\\frac{\\hl{2}{360}}{\\hl{1}{500}} &= \\hl{4}{\\frac{18}{25}}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you convert this fraction into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{4}{\\frac{18}{25}} \\times 100 &= \\hl{3}{72}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{72}\\%",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "inf-confidence-width",
+  "verdict": "fixed",
+  "issues": "A given value (200) no longer in the answer slot",
+  "problems": [
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(c)",
+    "note": null,
+    "legend": {
+     "1": "the sample size, n",
+     "2": "the margin of error"
+    },
+    "steps": [
+     {
+      "ask": "What is the distance from the centre of the interval to its upper limit?",
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "text": "The interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$."
+       },
+       {
+        "tex": "\\hl{2}{\\text{margin}} &= 0.435 - 0.35"
+       },
+       {
+        "tex": "&= \\hl{2}{0.085}"
+       }
+      ]
+     },
+     {
+      "ask": "Which expression do you need for the standard error, and what is it when $\\hat{p} = 0.35$?",
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.35 \\times 0.65"
+       },
+       {
+        "tex": "&= 0.2275"
+       }
+      ]
+     },
+     {
+      "ask": "How are the margin of error and the standard error linked by the z-value $1.96$?",
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.2275}{\\hl{1}{n}}} &= \\hl{2}{0.085}"
+       }
+      ]
+     },
+     {
+      "ask": "How can you remove the square root from the left-hand side?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.2275}{\\hl{1}{n}}} &= \\frac{\\hl{2}{0.085}}{1.96}"
+       },
+       {
+        "tex": "\\frac{0.2275}{\\hl{1}{n}} &= \\left(\\frac{\\hl{2}{0.085}}{1.96}\\right)^2"
+       },
+       {
+        "tex": "\\hl{1}{n} &= \\frac{0.2275}{\\left(\\frac{\\hl{2}{0.085}}{1.96}\\right)^2}"
+       },
+       {
+        "tex": "&= 120.96\\ldots"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{121}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{n} = \\hl{1}{121}",
+    "graph": null
+   },
+   {
+    "part": "practice-inf-confidence-width-1",
+    "note": "Same goal as Problem 1, finding the sample size for a given margin. It changes from solving one equation with a known p-hat to comparing two margins with a ratio, and the margin is halved from 0.06 to 0.03.",
+    "legend": {
+     "1": "the sample size, n",
+     "2": "the margin of error",
+     "3": "the first survey's sample size"
+    },
+    "steps": [
+     {
+      "ask": "Which part of the margin of error formula changes when $n$ changes, and which part stays the same?",
+      "title": "Write the margin of error using n",
+      "lines": [
+       {
+        "text": "Let $k = 1.96\\sqrt{\\hat{p}(1-\\hat{p})}$. It does not change, so the margin of error is $\\frac{k}{\\sqrt{n}}$."
+       }
+      ]
+     },
+     {
+      "ask": "Write one equation for each margin. Which quantity is different between the two surveys?",
+      "title": "Write the two margins",
+      "lines": [
+       {
+        "tex": "\\frac{k}{\\sqrt{\\hl{3}{200}}} &= \\hl{2}{0.06}"
+       },
+       {
+        "tex": "\\frac{k}{\\sqrt{\\hl{1}{n}}} &= \\hl{2}{0.03}"
+       }
+      ]
+     },
+     {
+      "ask": "If you divide one margin equation by the other, what happens to $k$, and what is left?",
+      "title": "Divide the second by the first",
+      "lines": [
+       {
+        "tex": "\\frac{\\sqrt{\\hl{3}{200}}}{\\sqrt{\\hl{1}{n}}} &= \\frac{1}{2}"
+       },
+       {
+        "tex": "\\frac{\\hl{3}{200}}{\\hl{1}{n}} &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "What must $n$ be to halve the margin, and how does that compare with the first sample size?",
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\hl{1}{n} &= \\hl{1}{800}"
+       },
+       {
+        "text": "Halving the margin of error needs 4 times the sample size."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{n} = \\hl{1}{800}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+    "note": "Changes from calculating n to judging four statements about how the standard error responds to the sample size and p-hat. No numbers are calculated, so the method is different; it is the only other candidate for this skill.",
+    "legend": {
+     "1": "the sample size, n"
+    },
+    "steps": [
+     {
+      "ask": "A higher confidence level changes which $z$-value is used. What does a bigger $z$-value do to the margin of error?",
+      "title": "Statement 1: Always true",
+      "lines": [
+       {
+        "text": "A higher confidence level needs a larger $z$-value, so the margin of error, and the interval, gets wider."
+       }
+      ]
+     },
+     {
+      "ask": "Does $\\hat{p}(1-\\hat{p})$ always go up or always go down as $\\hat{p}$ changes? Try $\\hat{p} = 0$, $0.5$ and $1$.",
+      "title": "Statement 2: Sometimes true",
+      "lines": [
+       {
+        "tex": "\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{\\hl{1}{n}}}"
+       },
+       {
+        "text": "$\\hat{p}(1-\\hat{p})$ increases as $\\hat{p}$ rises towards $0.5$ and then decreases, so the standard error does not always increase."
+       }
+      ]
+     },
+     {
+      "ask": "With $n$ fixed, what happens to the standard error when $\\hat{p}(1-\\hat{p})$ rises?",
+      "title": "Statement 3: Always true",
+      "lines": [
+       {
+        "text": "With $\\hl{1}{n}$ fixed, the standard error is the square root of $\\hat{p}(1-\\hat{p})$ divided by $\\hl{1}{n}$, so it rises whenever $\\hat{p}(1-\\hat{p})$ rises."
+       }
+      ]
+     },
+     {
+      "ask": "What happens to a fraction when its denominator gets bigger?",
+      "title": "Statement 4: Never true",
+      "lines": [
+       {
+        "text": "Increasing $\\hl{1}{n}$ makes $\\frac{\\hat{p}(1-\\hat{p})}{\\hl{1}{n}}$ smaller, so the standard error always decreases."
+       }
+      ]
+     }
+    ],
+    "final": "1\\text{ Always},\\ 2\\text{ Sometimes},\\ 3\\text{ Always},\\ 4\\text{ Never}",
+    "graph": null
+   }
+  ]
+ }
+]
