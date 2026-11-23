@@ -1,0 +1,506 @@
+[
+ {
+  "skill": "geo-thm6",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, the side $BC$ is extended to a point $D$ beyond $C$. $\\angle BAC = 48^\\circ$ and $\\angle ABC = 57^\\circ$.\nFind $\\angle ACD$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the exterior angle",
+       "lines": [
+        {
+         "text": "$\\angle ACD$ is the exterior angle at $C$. The two opposite interior angles are $\\angle BAC$ and $\\angle ABC$."
+        }
+       ]
+      },
+      {
+       "title": "Add the opposite interior angles",
+       "lines": [
+        {
+         "tex": "\\angle ACD &= 48^\\circ + 57^\\circ",
+         "sym": "48 + 57",
+         "new": true
+        },
+        {
+         "tex": "&= 105^\\circ",
+         "sym": "105"
+        },
+        {
+         "text": "Reason: Theorem 6, an exterior angle equals the sum of the two interior opposite angles."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle ACD = 105^\\circ"
+    },
+    "finalSym": "105",
+    "answerSym": "48 + 57"
+   },
+   {
+    "question": "In triangle $PQR$, the side $QR$ is extended to a point $S$ beyond $R$.\n$\\angle PRS = (4x + 10)^\\circ$, $\\angle QPR = (x + 20)^\\circ$ and $\\angle PQR = (2x + 15)^\\circ$.\nFind the value of $x$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use Theorem 6",
+       "lines": [
+        {
+         "text": "$\\angle PRS$ is the exterior angle at $R$. It equals the sum of the opposite interior angles $\\angle QPR$ and $\\angle PQR$."
+        },
+        {
+         "tex": "4x + 10 &= (x + 20) + (2x + 15)",
+         "sym": "Eq(4*x + 10, (x + 20) + (2*x + 15))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Simplify",
+       "lines": [
+        {
+         "tex": "4x + 10 &= 3x + 35",
+         "sym": "Eq(4*x + 10, 3*x + 35)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for $x$",
+       "lines": [
+        {
+         "tex": "x &= 35 - 10",
+         "sym": "Eq(x, 35 - 10)",
+         "new": true
+        },
+        {
+         "tex": "&= 25",
+         "sym": "Eq(x, 25)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 25"
+    },
+    "finalSym": "[25]",
+    "answerSym": "solve(Eq(4*x + 10, (x + 20) + (2*x + 15)), x)"
+   },
+   {
+    "question": "In triangle $ABC$, $|AB| = |AC|$. The side $BC$ is extended to a point $D$ beyond $C$ and $\\angle ACD = 130^\\circ$.\nFind $\\angle BAC$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $\\angle ACB$",
+       "lines": [
+        {
+         "text": "$B$, $C$ and $D$ lie on a straight line."
+        },
+        {
+         "tex": "\\angle ACB &= 180^\\circ - 130^\\circ",
+         "sym": "180 - 130",
+         "new": true
+        },
+        {
+         "tex": "&= 50^\\circ",
+         "sym": "50"
+        }
+       ]
+      },
+      {
+       "title": "Find $\\angle ABC$",
+       "lines": [
+        {
+         "text": "$|AB| = |AC|$, so the base angles are equal."
+        },
+        {
+         "tex": "\\angle ABC &= 50^\\circ",
+         "sym": "50",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use Theorem 6",
+       "lines": [
+        {
+         "text": "The exterior angle $\\angle ACD$ equals $\\angle BAC + \\angle ABC$."
+        },
+        {
+         "tex": "130 &= \\angle BAC + 50",
+         "sym": "Eq(130, a + 50)",
+         "new": true
+        },
+        {
+         "tex": "\\angle BAC &= 130 - 50",
+         "sym": "Eq(a, 130 - 50)"
+        },
+        {
+         "tex": "&= 80^\\circ",
+         "sym": "Eq(a, 80)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle BAC = 80^\\circ"
+    },
+    "finalSym": "80",
+    "answerSym": "130 - (180 - 130)"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm7",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, $|AB| = 9$ cm, $|BC| = 7$ cm and $|AC| = 5$ cm. The three angles of the triangle measure $33^\\circ$, $52^\\circ$ and $95^\\circ$ in some order.\nFind $\\angle ABC$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Match each side to its opposite angle",
+       "lines": [
+        {
+         "text": "$|AB|$ is opposite $\\angle ACB$, $|BC|$ is opposite $\\angle BAC$ and $|AC|$ is opposite $\\angle ABC$."
+        }
+       ]
+      },
+      {
+       "title": "Order the sides",
+       "lines": [
+        {
+         "tex": "5 &< 7 < 9",
+         "sym": "And(5 < 7, 7 < 9)",
+         "new": true
+        },
+        {
+         "text": "$|AC|$ is the shortest side."
+        }
+       ]
+      },
+      {
+       "title": "Use Theorem 7",
+       "lines": [
+        {
+         "text": "The smaller side is opposite the smaller angle, so $|AC|$ is opposite the smallest angle."
+        },
+        {
+         "tex": "\\angle ABC &= 33^\\circ",
+         "sym": "33",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle ABC = 33^\\circ"
+    },
+    "finalSym": "33",
+    "answerSym": "Min(33, 52, 95)"
+   },
+   {
+    "question": "In triangle $DEF$, $|DE| > |DF| > |EF|$. The three angles of the triangle measure $34^\\circ$, $62^\\circ$ and $84^\\circ$ in some order.\nFind $\\angle DEF$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Match each side to its opposite angle",
+       "lines": [
+        {
+         "text": "$|DE|$ is opposite $\\angle DFE$, $|DF|$ is opposite $\\angle DEF$ and $|EF|$ is opposite $\\angle EDF$."
+        }
+       ]
+      },
+      {
+       "title": "Use Theorem 7",
+       "lines": [
+        {
+         "text": "The greatest side is opposite the greatest angle, so $\\angle DFE = 84^\\circ$."
+        },
+        {
+         "text": "The least side $|EF|$ is opposite the least angle, so $\\angle EDF = 34^\\circ$."
+        },
+        {
+         "text": "$|DF|$ is the middle side, so $\\angle DEF$ is the middle angle."
+        }
+       ]
+      },
+      {
+       "title": "Find $\\angle DEF$",
+       "lines": [
+        {
+         "tex": "\\angle DEF &= 180^\\circ - 84^\\circ - 34^\\circ",
+         "sym": "180 - 84 - 34",
+         "new": true
+        },
+        {
+         "tex": "&= 62^\\circ",
+         "sym": "62"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle DEF = 62^\\circ"
+    },
+    "finalSym": "62",
+    "answerSym": "180 - 84 - 34"
+   },
+   {
+    "question": "In triangle $ABC$, $\\angle A = 40^\\circ$, $\\angle B = (2x)^\\circ$ and $\\angle C = (x + 20)^\\circ$.\nFind the measure of the angle that is opposite the longest side.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $x$",
+       "lines": [
+        {
+         "text": "The angles in a triangle add up to $180^\\circ$."
+        },
+        {
+         "tex": "40 + 2x + (x + 20) &= 180",
+         "sym": "Eq(40 + 2*x + (x + 20), 180)",
+         "new": true
+        },
+        {
+         "tex": "3x + 60 &= 180",
+         "sym": "Eq(3*x + 60, 180)"
+        },
+        {
+         "tex": "x &= 40",
+         "sym": "Eq(x, 40)"
+        }
+       ]
+      },
+      {
+       "title": "Find the angles",
+       "lines": [
+        {
+         "tex": "\\angle B &= 2(40) = 80^\\circ",
+         "sym": "2*40",
+         "new": true
+        },
+        {
+         "tex": "\\angle C &= 40 + 20 = 60^\\circ",
+         "sym": "40 + 20",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use Theorem 7",
+       "lines": [
+        {
+         "tex": "80 &> 60 > 40",
+         "sym": "And(80 > 60, 60 > 40)",
+         "new": true
+        },
+        {
+         "text": "The greatest side is opposite the greatest angle, so the angle opposite the longest side is $\\angle B$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "80^\\circ"
+    },
+    "finalSym": "80",
+    "answerSym": "2*(180 - 40 - 20)/3"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm8",
+  "problems": [
+   {
+    "question": "Two sides of a triangle measure 8 cm and 5 cm. The third side measures $x$ cm, where $x$ is a whole number.\nFind the greatest possible value of $x$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Recall Theorem 8",
+       "lines": [
+        {
+         "text": "Two sides of a triangle together are greater than the third side."
+        }
+       ]
+      },
+      {
+       "title": "Write the condition",
+       "lines": [
+        {
+         "tex": "x &< 8 + 5",
+         "sym": "x < 8 + 5",
+         "new": true
+        },
+        {
+         "tex": "x &< 13",
+         "sym": "x < 13"
+        }
+       ]
+      },
+      {
+       "title": "Pick the greatest whole number",
+       "lines": [
+        {
+         "tex": "x &= 12",
+         "sym": "Eq(x, 12)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 12"
+    },
+    "finalSym": "12",
+    "answerSym": "8 + 5 - 1"
+   },
+   {
+    "question": "The sides of a triangle measure 4 cm, 11 cm and $x$ cm, where $x$ is a whole number.\nFind the smallest possible value of $x$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Recall Theorem 8",
+       "lines": [
+        {
+         "text": "Two sides of a triangle together are greater than the third side. The strongest condition comes from the two shorter sides reaching the longest side, $11$."
+        }
+       ]
+      },
+      {
+       "title": "Write the condition",
+       "lines": [
+        {
+         "tex": "4 + x &> 11",
+         "sym": "4 + x > 11",
+         "new": true
+        },
+        {
+         "tex": "x &> 7",
+         "sym": "x > 7"
+        }
+       ]
+      },
+      {
+       "title": "Pick the smallest whole number",
+       "lines": [
+        {
+         "tex": "x &= 8",
+         "sym": "Eq(x, 8)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 8"
+    },
+    "finalSym": "8",
+    "answerSym": "11 - 4 + 1"
+   }
+  ]
+ },
+ {
+  "skill": "geo-thm15",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, $|AB| = 15$ cm, $|BC| = 20$ cm and $|AC| = 25$ cm.\nFind $\\angle ABC$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test the sides",
+       "lines": [
+        {
+         "tex": "15^2 + 20^2 &= 225 + 400",
+         "sym": "15**2 + 20**2",
+         "new": true
+        },
+        {
+         "tex": "&= 625",
+         "sym": "625"
+        },
+        {
+         "tex": "25^2 &= 625",
+         "sym": "25**2"
+        }
+       ]
+      },
+      {
+       "title": "Use Theorem 15",
+       "lines": [
+        {
+         "text": "$|AB|^2 + |BC|^2 = |AC|^2$, so by the converse of Pythagoras the angle opposite $|AC|$ is a right angle."
+        },
+        {
+         "tex": "\\angle ABC &= 90^\\circ",
+         "sym": "90",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\angle ABC = 90^\\circ"
+    },
+    "finalSym": "90",
+    "answerSym": "acos((15**2 + 20**2 - 25**2)/(2*15*20))*180/pi"
+   },
+   {
+    "question": "A triangle has sides of length 5 cm, 12 cm and 13 cm.\nFind the area of the triangle.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Test the sides",
+       "lines": [
+        {
+         "tex": "5^2 + 12^2 &= 25 + 144",
+         "sym": "5**2 + 12**2",
+         "new": true
+        },
+        {
+         "tex": "&= 169",
+         "sym": "169"
+        },
+        {
+         "tex": "13^2 &= 169",
+         "sym": "13**2"
+        },
+        {
+         "text": "By the converse of Pythagoras, the triangle has a right angle between the sides of length 5 and 12."
+        }
+       ]
+      },
+      {
+       "title": "Find the area",
+       "lines": [
+        {
+         "text": "The two shorter sides are perpendicular, so they are the base and the height."
+        },
+        {
+         "tex": "\\text{Area} &= \\tfrac{1}{2}(5)(12)",
+         "sym": "Rational(1, 2)*5*12",
+         "new": true
+        },
+        {
+         "tex": "&= 30",
+         "sym": "30"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "30 \\text{ cm}^2"
+    },
+    "finalSym": "30",
+    "answerSym": "Rational(1, 2)*5*12"
+   }
+  ]
+ }
+]
