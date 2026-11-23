@@ -859,7 +859,8 @@ const COURSE_DATA = {
     ] },
     { id: "geo-region-continental", number: 14, subject: "geography", title: "A Continental / Subcontinental Region", examQuestions: [], learningOutcomes: [
         { id: "geo-region-continental-1", code: "GEO14", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
-        { id: "geo-region-continental-s1", code: "GEO14.1", syllabusRef: "2.2", title: "India", notes: [], keyTerms: [], questions: [] }
+        { id: "geo-region-continental-s1", code: "GEO14.1", syllabusRef: "2.2", title: "India", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-region-continental-s2", code: "GEO14.2", syllabusRef: "2.2", title: "Brazil", notes: [], keyTerms: [], questions: [] }
     ] },
     { id: "geo-economic-development", number: 15, subject: "geography", title: "Economic Development — Measuring Development and the Distribution of Wealth", examQuestions: [], learningOutcomes: [
         { id: "geo-economic-development-1", code: "GEO15", title: "Chapter review", notes: [], keyTerms: [], questions: [] },
@@ -937,7 +938,7 @@ const COURSE_DATA = {
         { id: "geo-option-geoecology-s1", code: "GEO24.1", syllabusRef: "7.1", title: "Soil composition and characteristics", notes: [], keyTerms: [], questions: [] },
         { id: "geo-option-geoecology-s2", code: "GEO24.2", syllabusRef: "7.2", title: "Soil processes and the global pattern of soils", notes: [], keyTerms: [], questions: [] },
         { id: "geo-option-geoecology-s3", code: "GEO24.3", syllabusRef: "7.2", title: "Human interference with soils", notes: [], keyTerms: [], questions: [] },
-        { id: "geo-option-geoecology-s4", code: "GEO24.4", syllabusRef: "7.3", title: "One major biome in detail", notes: [], keyTerms: [], questions: [] },
+        { id: "geo-option-geoecology-s4", code: "GEO24.4", syllabusRef: "7.3", title: "One major biome in detail: hot desert or tropical rainforest", notes: [], keyTerms: [], questions: [] },
         { id: "geo-option-geoecology-s5", code: "GEO24.5", syllabusRef: "7.4", title: "Human alteration of biomes", notes: [], keyTerms: [], questions: [] }
     ] },
     { id: "geo-option-global-interdependence", number: 25, subject: "geography", title: "Option — Global Interdependence", examQuestions: [], learningOutcomes: [
