@@ -1,0 +1,237 @@
+TARGET bio35-s2: DNA profiling
+[bio35-s2.0.b] Every person's DNA is slightly different, and DNA profiling turns those differences into a pattern that can be compared between samples. It is used to link people to evidence, to each other or to a remains sample.
+[bio35-s2.0.0] DNA profiling (also called DNA fingerprinting) is a method of making a pattern of bands (or peaks) from a sample of a person's DNA, so that the DNA of different samples can be compared.
+[bio35-s2.0.1] Except for identical twins, the pattern is unique to each person, which is why it can identify an individual.
+[bio35-s2.0.2] Identical twins come from one zygote (the single cell formed at fertilisation), so they have the same DNA and the same profile. Non-identical twins and other siblings do not share a profile.
+[bio35-s2.0.3] How a profile is made, in outline: 1. DNA is extracted from cells. 2. Many copies of the repeat regions are made by PCR, so there is enough to detect (in older methods the DNA was cut with restriction enzymes).
+[bio35-s2.0.4] 3. The fragments are separated by size by gel electrophoresis, so that different lengths form different bands. 4. The pattern is analysed and compared. There is more on each step in Generating a DNA profile (Higher Level).
+[bio35-s2.1.b] A profile does not read a person's genes. It looks at stretches of DNA that do not code for protein, where short sequences are repeated, because the number of repeats differs so much from person to person.
+[bio35-s2.1.0] DNA profiling is based on non-coding DNA (DNA that does not code for a protein): about 98% of human DNA is non-coding.
+[bio35-s2.1.1] Parts of non-coding DNA contain short base sequences repeated many times one after another, for example short tandem repeats (STRs), a short sequence, often four bases (e.g. GATA), is repeated end to end, e.g. GATAGATAGATA…
+[bio35-s2.1.2] The number of repeats at a particular place on a chromosome (a locus) varies greatly between people, so the length of that piece of DNA varies too. This length difference is what a profile detects.
+[bio35-s2.1.3] Profiling is therefore not a test of a person's genes, their whole genome, their appearance or their health.
+[bio35-s2.2.b] Because we inherit one of each chromosome pair from each parent, every person has two copies of each locus. This is what gives the pattern its structure and lets it be used for family relationships.
+[bio35-s2.2.0] Each person has two copies of every locus, one on the chromosome inherited from the mother and one on the chromosome inherited from the father.
+[bio35-s2.2.1] Each copy can have a different number of repeats (two alleles, giving two bands), or the same number (giving one band, twice as strong because both copies run to the same position).
+[bio35-s2.2.2] So a child's profile at each locus has one band from the mother and one from the father. A child has half its bands from each parent, not most from the father.
+[bio35-s2.3.b] One locus on its own would match many people by chance. Testing many loci together makes a full match very strong evidence.
+[bio35-s2.3.0] A profile tests many loci at once; modern forensic profiles use more than ten.
+[bio35-s2.3.1] The chance that two unrelated people match at every locus is extremely small, which is why a full match is strong evidence of identity.
+[bio35-s2.3.2] The exception is identical twins, who share the same DNA and so the same profile at every locus.
+[bio35-s2.4.b] In gel electrophoresis, DNA fragments are pulled through a gel by an electric field and sorted by size. Knowing which way they move and which sizes go furthest lets you read a profile.
+[bio35-s2.4.0] On a gel, each band is a group of DNA fragments of the same length.
+[bio35-s2.4.1] DNA is negatively charged (because of its phosphate groups), so in an electric field it moves through the gel towards the positive electrode, away from the wells (the small slots) where samples are loaded.
+[bio35-s2.4.2] Shorter fragments (fewer repeats) move faster and travel further from the wells, because they pass through the gel more easily; longer fragments (more repeats) stay nearer the wells. So band position shows fragment length.
+[bio35-s2.4.3] Comparing band positions with a ladder of fragments of known length (a size marker) lets lengths be read.
+[bio35-s2.4.4] In modern laboratories the fragments are labelled with fluorescent dyes and separated by machine. The result is printed as a graph of peaks, each peak being one allele labelled with its number of repeats, rather than as bands. The rules for matching are the same.
+[bio35-s2.4.5] Diagram: a gel with wells at the top (negative electrode) and the positive electrode at the bottom; lanes for a ladder, a crime-scene sample and three suspects; one suspect's bands match the crime-scene lane exactly. Label wells, lanes, bands, "shorter fragments travel further", + and − electrodes.
+[bio35-s2.5.b] Once the bands are on the gel, you compare lanes. The rule for a match is strict: everything must line up.
+[bio35-s2.5.0] Two samples match only if every band is in the same position.
+[bio35-s2.5.1] A single band that differs, at any locus, shows that they did not come from the same person, because the same DNA would give identical bands; this is an exclusion.
+[bio35-s2.5.2] Paternity uses the same logic: every band in a child's profile must come from the mother or the father, so a man whose profile lacks a band the child must have inherited from its father is excluded as the father.
+[bio35-s2.6.b] DNA profiling is a recent method, and its first uses showed that it can both convict and clear people.
+[bio35-s2.6.0] DNA profiling was invented by Alec Jeffreys at the University of Leicester, England, in 1984.
+[bio35-s2.6.1] It was first used to convict a murderer, Colin Pitchfork, in 1988, which showed that it works as evidence in court.
+[bio35-s2.6.2] The same investigation first cleared an innocent suspect, who had confessed to one of the killings but whose DNA did not match.
+[bio35-s2.7.b] The two best-known uses compare a person's profile with other evidence or other people. In crime it links or excludes suspects, and in families it tests who is related to whom.
+[bio35-s2.7.0] Forensic science (crime): DNA from blood, semen, saliva, skin cells or hair roots left at a crime scene is compared with a suspect's DNA (taken from a mouth swab).
+[bio35-s2.7.1] A match links the suspect to the scene; a mismatch excludes them, because a single differing band shows the DNA came from someone else.
+[bio35-s2.7.2] Profiles are stored in national DNA databases so that new crime-scene samples can be compared with them, which can identify a suspect.
+[bio35-s2.7.3] Old crime-scene samples can be retested, solving "cold cases" (unsolved old crimes) and freeing people wrongly convicted.
+[bio35-s2.7.4] Paternity and other family relationships: DNA profiling is also used to establish maternity, to reunite separated families, and in immigration cases where family relationships must be proven.
+[bio35-s2.8.b] When a body is unrecognisable or old, a profile can still identify it by comparing with relatives or personal items. When nuclear DNA is not usable, other DNA can trace ancestry.
+[bio35-s2.8.0] Identifying human remains, e.g. victims of disasters, wars and accidents, or missing persons, by comparing their DNA with that of relatives or with DNA from their personal items (e.g. a toothbrush), which carry the person's own DNA.
+[bio35-s2.8.1] Mitochondrial DNA and Y-chromosome profiles trace family lines when nuclear DNA is too damaged or no close relative is available. Mitochondrial DNA is passed down the female line and the Y chromosome down the male line, so each follows one line of ancestors.
+[bio35-s2.8.2] Example: the skeleton found under a car park in Leicester in 2012 was confirmed in 2013 to be King Richard III, partly by matching its mitochondrial DNA to living descendants of his sister's female line.
+[bio35-s2.8.3] There is more on these two kinds of inheritance in Nuclear and non-nuclear inheritance.
+[bio35-s2.9.b] DNA profiling is not only for people. It is also applied to wildlife, farm and breeding animals, food and medicine.
+[bio35-s2.9.0] Animals, plants and conservation: identifying illegally traded wildlife products (e.g. ivory, meat from protected species), and checking the pedigree (parentage) of animals used for breeding.
+[bio35-s2.9.1] It also helps keep breeding programmes for endangered species from inbreeding (mating between close relatives).
+[bio35-s2.9.2] Food: DNA tests identify the species in food, so they show fraud when the food is not what the label says. Species tests check for a species' DNA, not an individual's profile.
+[bio35-s2.9.3] Example: in January 2013 the Food Safety Authority of Ireland found horse DNA in beef burgers on sale in Ireland, which revealed a Europe-wide horsemeat scandal.
+[bio35-s2.9.4] Medicine: DNA-based tests also help match donors and patients for bone-marrow transplants, and identify the strain of a disease-causing microorganism in an outbreak.
+[bio35-s2.10.b] The two are easily confused because both use DNA. They answer different questions.
+[bio35-s2.10.0] DNA profiling compares band patterns of mostly non-coding DNA to identify a person or a relationship; it tells nothing about health.
+[bio35-s2.10.1] Genetic screening (DNA testing) looks at particular genes to find whether a person has, or carries, an allele linked to a disease. There is more on this in Bioinformatics: genome databases and, for screening of newborns, in Prenatal and postnatal care.
+[bio35-s2.11.b] DNA evidence is powerful but not perfect. Problems can arise before, during and after the test.
+[bio35-s2.11.0] Contamination of a sample with another person's DNA (e.g. by investigators) can give a false link, so samples must be collected with gloves, masks and sealed bags.
+[bio35-s2.11.1] DNA can be degraded by heat, moisture, bacteria or time, giving incomplete profiles that are harder to interpret.
+[bio35-s2.11.2] A match shows that the DNA came from that person (or an identical twin), not when or how it got there; DNA can be transferred innocently, e.g. by touch or on shared objects.
+[bio35-s2.11.3] So DNA evidence must be weighed with other evidence; it does not prove guilt alone.
+[bio35-s2.11.4] Mistakes in labelling or interpretation, and the human judgement needed for mixed samples from several people, can lead to errors, for example if a sample is attributed to the wrong person.
+
+CANDIDATES bio10-s1: Nucleotides, DNA and RNA
+[bio10-s1.0.b] Cells need a way to store instructions for building and running themselves. They use nucleic acids, long molecules made by joining many small units, and the unit that is repeated is the nucleotide. There are four kinds of nucleotide, which differ in their base.
+[bio10-s1.0.0] Nucleic acids, DNA and RNA, are large molecules (polymers) built from many small units called nucleotides joined in a chain, much as beads are threaded on a string.
+[bio10-s1.0.1] DNA is deoxyribonucleic acid; RNA is ribonucleic acid. Both contain the elements carbon, hydrogen, oxygen, nitrogen and phosphorus.
+[bio10-s1.0.2] Each nucleotide has three parts: a five-carbon (pentose) sugar, a phosphate group, and a nitrogenous base (a nitrogen-containing molecule) attached to the sugar.
+[bio10-s1.0.3] The sugar is deoxyribose in DNA and ribose in RNA. Deoxyribose has one fewer oxygen atom than ribose, which is where its name comes from: deoxy means an oxygen has been removed.
+[bio10-s1.0.4] Each nucleic acid has four bases. DNA: adenine (A), thymine (T), cytosine (C) and guanine (G). RNA: adenine (A), uracil (U), cytosine (C) and guanine (G); uracil takes the place of thymine.
+[bio10-s1.0.5] Adenine and guanine are larger, double-ringed bases, called purines; cytosine, thymine and uracil are smaller, single-ringed bases, called pyrimidines.
+[bio10-s1.0.6] A nucleotide is the building block of DNA and RNA, and its base is one letter of the genetic information. The order, or sequence, of bases along a strand carries the information, just as the order of letters makes a word.
+[bio10-s1.0.7] Modified nucleotides also carry energy. There is more on this in ATP.
+[bio10-s1.0.8] Diagram: one nucleotide drawn as a circle (phosphate) joined to a pentagon (sugar) joined to a rectangle (base), labelled phosphate, deoxyribose or ribose, and nitrogenous base.
+[bio10-s1.1.b] One nucleotide holds one letter of information, so to store a whole message the cell must link many of them together. The way they link leaves a strong chain with the bases free to carry the code.
+[bio10-s1.1.0] Nucleotides join by bonds between the sugar of one nucleotide and the phosphate of the next. These bonds are made in condensation reactions, in which a molecule of water is removed for each bond.
+[bio10-s1.1.1] The repeating sugar–phosphate–sugar–phosphate chain is the sugar–phosphate backbone. The bonds within it are strong covalent bonds, not hydrogen bonds.
+[bio10-s1.1.2] The bases stick out from the backbone, one per sugar. The backbone is the same in every DNA molecule; only the sequence of bases differs, so the bases carry the information and the backbone gives strength and support.
+[bio10-s1.2.b] DNA is not one chain but two, held together in a regular pattern. This shape explains how DNA can store information and be copied accurately.
+[bio10-s1.2.0] DNA is double-stranded: two strands of nucleotides lie side by side, with the sugar–phosphate backbones on the outside and the bases pointing inwards, like the rails and rungs of a ladder.
+[bio10-s1.2.1] The bases pair up: adenine always pairs with thymine (A–T) and cytosine always pairs with guanine (C–G). These are complementary base pairs.
+[bio10-s1.2.2] Each pair is one purine with one pyrimidine, so every rung is the same width and the ladder stays an even shape.
+[bio10-s1.2.3] The bases in a pair are held together by hydrogen bonds (weak attractions between molecules): two between A and T, and three between C and G.
+[bio10-s1.2.4] Each hydrogen bond is weak, so the strands can be separated, or unzipped, when DNA is copied or read. There are millions of hydrogen bonds, so the molecule as a whole is stable.
+[bio10-s1.2.5] The two linked strands are twisted around each other into a spiral called a double helix, like a twisted ladder.
+[bio10-s1.2.6] Because pairing is fixed, the two strands are complementary: the sequence of one strand decides the sequence of the other. For example, the strand ATGCCTAG pairs with TACGGATC.
+[bio10-s1.2.7] Diagram: a short section of DNA drawn as a straight ladder of about four base pairs, labelled sugar (deoxyribose), phosphate, sugar–phosphate backbone, base pairs A–T and C–G, and hydrogen bonds; with a sketch of the twisted double helix.
+[bio10-s1.3.b] Because A always pairs with T and C always pairs with G, the amounts of the bases in double-stranded DNA are linked. This lets you work out the percentage of every base from just one.
+[bio10-s1.3.0] In double-stranded DNA the amount of A equals the amount of T, and the amount of C equals the amount of G, because every A is paired with a T and every C with a G.
+[bio10-s1.3.1] For example, if 20% of the bases in a DNA sample are adenine, then 20% are thymine. That leaves 60% shared equally between cytosine and guanine, so each is 30%.
+[bio10-s1.4.b] The order of bases in DNA is the cell's set of instructions. DNA is kept in different places in different kinds of cell.
+[bio10-s1.4.0] DNA stores the genetic information (genes) that controls the cell's activities by coding for proteins. There is more on genes and proteins in Genes, proteins and traits.
+[bio10-s1.4.1] DNA is copied before a cell divides, so each new cell receives the full set of information, which means that it is passed from parents to offspring.
+[bio10-s1.4.2] In eukaryotic cells (cells with a nucleus), DNA is found mostly in the nucleus, in the chromosomes, with small amounts in mitochondria and chloroplasts.
+[bio10-s1.4.3] In bacteria, DNA forms a loop in the cytoplasm and is also found in small rings called plasmids.
+[bio10-s1.5.b] The structure of DNA was worked out by combining physical evidence with model building. It is a good example of how scientists build on each other's data.
+[bio10-s1.5.0] The double-helix model was published by James Watson and Francis Crick in 1953. It was based on X-ray diffraction images of DNA (patterns made when X-rays pass through DNA, which reveal its shape) made by Rosalind Franklin, working with Maurice Wilkins.
+[bio10-s1.6.b] DNA stays safe in the nucleus, so the cell needs a working copy of its instructions to take out and use. That working copy is RNA, a similar molecule with a few key differences.
+[bio10-s1.6.0] RNA is usually single-stranded: one chain of nucleotides with its own sugar–phosphate backbone. RNA molecules are much shorter than DNA molecules.
+[bio10-s1.6.1] RNA nucleotides contain ribose instead of deoxyribose, and uracil instead of thymine. Uracil pairs with adenine (A–U) whenever RNA pairs with DNA or with another RNA.
+[bio10-s1.6.2] A single strand can fold back on itself where its bases pair up, giving some RNA molecules a fixed shape.
+[bio10-s1.6.3] RNA uses the information in DNA to make proteins, so it acts as the go-between for DNA and the protein-making machinery.
+[bio10-s1.6.4] Three main types of RNA are named here, with no more detail. Messenger RNA (mRNA) carries a copy of a gene from the nucleus to a ribosome (the structure that makes proteins).
+[bio10-s1.6.5] Transfer RNA (tRNA) brings amino acids to the ribosome; ribosomal RNA (rRNA) forms part of the ribosome. There is more on this in DNA Replication, Protein Synthesis and Mutations.
+[bio10-s1.6.6] RNA is made in the nucleus and works in the cytoplasm, so it carries information out to where proteins are made. It is found in the nucleus (including the nucleolus), the cytoplasm and the ribosomes.
+[bio10-s1.6.7] Diagram: a short single RNA strand of about four nucleotides, labelled ribose, phosphate, backbone and bases, including uracil.
+[bio10-s1.7.b] Put side by side, DNA and RNA differ in structure, stability and job. The differences fit their roles: DNA is a long-term store and RNA is a short-lived working copy.
+[bio10-s1.7.0] Strands: DNA is a double-stranded helix, which suits long-term storage; RNA is usually single-stranded.
+[bio10-s1.7.1] Sugar: DNA contains deoxyribose; RNA contains ribose.
+[bio10-s1.7.2] Bases: DNA has A, T, C and G; RNA has A, U, C and G, with uracil instead of thymine.
+[bio10-s1.7.3] Pairing: A–T in DNA; A–U in RNA.
+[bio10-s1.7.4] Size and life span: DNA is very long and stable and is kept for the life of the cell; RNA molecules are shorter and are broken down after use, so each copy is only a temporary message.
+[bio10-s1.7.5] Location: DNA is mainly in the nucleus, with some in mitochondria and chloroplasts; RNA is in the nucleus, the cytoplasm and the ribosomes.
+[bio10-s1.7.6] Function: DNA stores the genetic information; RNA carries and uses that information to make proteins.
+
+CANDIDATES bio11-s1: Chromosome structure and genes
+[bio11-s1.0.b] A chromosome is DNA together with protein, and it carries genes in a fixed linear order. Knowing what it is made of, how it looks in a resting and a dividing cell, and how big it is explains why cells need to pack their DNA.
+[bio11-s1.0.0] A chromosome is a single, very long molecule of DNA together with proteins. It is found in the nucleus of a eukaryotic cell (a cell with a nucleus) and carries many genes in a fixed linear order along its length.
+[bio11-s1.0.1] Chromatin is the name for the DNA and protein material of the chromosomes when the cell is not dividing. The chromosomes are then long, thin and uncoiled, spread through the nucleus, so they cannot be seen as separate threads.
+[bio11-s1.0.2] Before a cell divides, the chromatin coils and folds up tightly (condenses), so each chromosome becomes short and thick and is visible under the light microscope when stained. In other words, chromatin and chromosomes are the same material in two states.
+[bio11-s1.0.3] Human body cells are diploid (two sets of chromosomes), with 46 chromosomes in 23 pairs: 22 pairs of autosomes (chromosomes that are not sex chromosomes) and one pair of sex chromosomes, XX in females and XY in males. There is more on this in Sex determination.
+[bio11-s1.0.4] Homologous chromosomes are the two chromosomes of a pair. They are the same length, have the centromere (the narrowed region of the chromosome) in the same position and carry the same genes at the same positions, with one chromosome of each pair coming from each parent.
+[bio11-s1.0.5] The chromosome number is fixed for a species (46 in humans); a different number does not mean a more complex organism, so you cannot judge complexity by counting chromosomes.
+[bio11-s1.0.6] The human genome (all the DNA in one set of 23 chromosomes) is about 3 billion base pairs. The DNA in one human body cell, stretched out, would be about 2 m long, yet it fits in a nucleus a few micrometres across, which is why DNA must be packed.
+[bio11-s1.0.7] Prokaryotes (bacteria) differ: a bacterial cell has one circular chromosome in the cytoplasm, not wound around histones (the packing proteins of eukaryotes), plus plasmids (small extra rings of DNA).
+[bio11-s1.1.b] Histones are the proteins that pack eukaryotic DNA into a small space. Without them, about 2 m of DNA per cell could not fit in the nucleus or be moved safely when the cell divides.
+[bio11-s1.1.0] Histones are small proteins around which the DNA of a eukaryotic chromosome is wound. They are positively charged, while the phosphate groups of the DNA backbone are negatively charged, so DNA binds tightly to them.
+[bio11-s1.1.1] The DNA wraps nearly twice around a core of eight histone proteins, forming a bead called a nucleosome. Nucleosomes are joined by short stretches of linker DNA, like beads on a string.
+[bio11-s1.1.2] The string of nucleosomes coils and loops further, and before division it condenses into the visible chromosome.
+[bio11-s1.1.3] Histones do three jobs: they pack a very long DNA molecule into a small nucleus, they protect the DNA and keep it untangled during division, and they help control which genes can be read.
+[bio11-s1.1.4] DNA wound tightly around histones cannot be reached by the enzymes that read genes, so those genes are switched off; loosely packed regions are active, which means their genes can be read.
+[bio11-s1.1.5] Chemical changes to histones are one of the epigenetic mechanisms (ways of switching genes on or off without changing the DNA sequence). There is more on this in Genetic and epigenetic mechanisms.
+[bio11-s1.1.6] Diagram: DNA double helix wound around histone cores to form nucleosomes, then the coiled chromatin fibre, then a condensed chromosome; label DNA, histone, nucleosome, chromatin and chromosome.
+[bio11-s1.2.b] Before a cell divides it copies its DNA, so each chromosome ends up as two joined copies. Chromatids and the centromere are the names for those copies and for the point that holds them together.
+[bio11-s1.2.0] Before a cell divides, each chromosome's DNA is copied, a process called replication. The two identical copies stay joined together; each copy is a chromatid. There is more on this in DNA replication and mitosis in the cell cycle.
+[bio11-s1.2.1] A replicated chromosome therefore consists of two identical sister chromatids, each containing one complete DNA molecule with the same genes and the same alleles (versions of a gene).
+[bio11-s1.2.2] The centromere is the constricted (narrowed) region of a chromosome where the two sister chromatids are held together. Spindle fibres (protein threads that move chromosomes in division) attach at the centromere and pull the chromatids apart to opposite poles of the cell.
+[bio11-s1.2.3] Once separated, each chromatid is a chromosome in its own right.
+[bio11-s1.2.4] The centromere is in a fixed position for each chromosome, dividing it into two arms of equal or different length, so it is not always in the middle. Its position, together with length and banding pattern, is used to identify each chromosome.
+[bio11-s1.2.5] Before replication, a chromosome is one DNA molecule and one chromatid. After replication it is still one chromosome but has two chromatids, the X shape usually drawn; the two arms of the X are chromatids, not separate chromosomes.
+[bio11-s1.2.6] Homologous chromosomes (a pair, one from each parent) may carry different alleles, whereas sister chromatids are identical copies of each other, so they always carry identical alleles.
+[bio11-s1.2.7] Diagram: an unreplicated chromosome (single rod) beside a replicated chromosome (X shape); label chromatid, sister chromatids, centromere, arm, and a gene locus marked as a band at the same position on both chromatids. Optionally add a homologous pair of replicated chromosomes, same locus marked on each, labelled homologous chromosomes.
+[bio11-s1.3.b] A gene is the unit of heredity, the piece of information that is passed on from cell to cell and parent to offspring. Genes sit at fixed places on chromosomes and, through the proteins they code for, control traits.
+[bio11-s1.3.0] A gene is a section of DNA on a chromosome that codes for a protein. This means a chromosome is not simply a string of genes: genes are sections of its DNA.
+[bio11-s1.3.1] Each gene has a fixed position on a particular chromosome, called its locus (plural loci). The locus of a gene is the same in every member of a species.
+[bio11-s1.3.2] A gene carries the information to make one protein, although some genes code instead for RNA molecules that are used directly, such as ribosomal RNA and transfer RNA. So not every gene codes for a protein.
+[bio11-s1.3.3] Through the protein it codes for, a gene controls a trait (a characteristic of the organism). The gene is copied and passed to daughter cells in division and to offspring in gametes (sex cells).
+[bio11-s1.3.4] Humans have about 20,000 protein-coding genes spread across the 23 kinds of chromosome; each chromosome carries hundreds to thousands of genes.
+[bio11-s1.3.5] Because homologous chromosomes carry the same genes, a body cell has two copies of each autosomal gene. These may be the same or different versions, called alleles. There is more on this in Key concepts of information transfer.
+[bio11-s1.4.b] Most of the DNA in a human cell does not code for protein. Separating the small coding part from the large non-coding part shows that a chromosome is far more than a list of protein recipes.
+[bio11-s1.4.0] Coding DNA is DNA whose base sequence is used to make a protein: the protein-coding parts of genes. Only about 1–2% of human DNA is coding DNA.
+[bio11-s1.4.1] Non-coding DNA is all DNA that does not code for protein, about 98% of the human genome. It includes several kinds of sequence, listed in the next points.
+[bio11-s1.4.2] Regulatory sequences beside genes act as switches, controlling when, where and how much a gene is expressed (used to make its product).
+[bio11-s1.4.3] Genes for functional RNA (rRNA and tRNA) are non-coding DNA, as are introns, the non-coding sections within genes, which are copied into mRNA but removed before it is used to make protein.
+[bio11-s1.4.4] Repeated sequences, such as the DNA at centromeres and at the ends of chromosomes (telomeres), protect the chromosome and help it divide correctly. Some non-coding DNA has a function that is still unknown.
+[bio11-s1.4.5] Non-coding DNA was once called 'junk DNA', but much of it is now known to have functions, especially in regulating genes. Changes in regulatory DNA can change a trait without changing any protein.
+[bio11-s1.4.6] Repeated non-coding sequences vary greatly in length between people, which is why they are used in DNA profiling (identifying individuals from their DNA).
+[bio11-s1.4.7] Diagram: a stretch of a chromosome's DNA drawn as a line, with two genes shown as boxes (each with a regulatory region at one end and coding sections separated by an intron), and the DNA between genes labelled non-coding; label gene, coding DNA, non-coding DNA, regulatory sequence and intron.
+
+CANDIDATES bio35-s3: Generating a DNA profile
+[bio35-s3.0.b] A DNA profile is made by turning a tiny biological sample into a pattern of bands that can be compared between people. The process always follows the same five steps, and each step has its own reagents or equipment.
+[bio35-s3.0.0] The steps are: 1. Collect a sample, because every cell with a nucleus carries the person's DNA.
+[bio35-s3.0.1] 2. Extract the DNA, which means freeing it from the cells and separating it from everything else.
+[bio35-s3.0.2] 3. Amplify (copy) the chosen repeat regions by PCR (the polymerase chain reaction), so there is enough DNA to detect.
+[bio35-s3.0.3] 4. Separate the copies by size by gel electrophoresis.
+[bio35-s3.0.4] 5. Make the bands visible and analyse (compare) the pattern.
+[bio35-s3.0.5] In the earlier method, step 3 was replaced by cutting the DNA with restriction enzymes (enzymes that cut DNA at specific sequences). It is taught in the restriction enzymes block below.
+[bio35-s3.0.6] Diagram: a flow diagram of the five steps, with the key reagent or equipment at each: sample (swab, blood) → extraction (detergent, salt, protease, cold ethanol) → PCR (primers, nucleotides, Taq polymerase, thermal cycler) → gel electrophoresis (agarose gel, wells, electric current) → stained bands compared.
+[bio35-s3.1.b] DNA can be taken from any cell that has a nucleus, because the nucleus is where a human cell keeps its DNA. Extraction then frees the DNA from the cell in three steps, each aimed at removing one barrier.
+[bio35-s3.1.0] Sources are any cells with a nucleus, e.g. white blood cells (mature red blood cells have no nucleus, so they contain no nuclear DNA), cheek cells from a mouth swab, skin cells, hair roots (not the cut hair shaft, which has no usable nucleus), saliva and semen.
+[bio35-s3.1.1] Samples are collected with gloves and stored sealed and cold to avoid contamination (DNA from the collector or other sources getting in) and breakdown of the DNA.
+[bio35-s3.1.2] Extraction, step 1 (lysis, meaning breaking open the cells): a detergent breaks down the phospholipid membranes (the cell membrane and the nuclear envelope), releasing the DNA.
+[bio35-s3.1.3] Step 2: a protease enzyme digests proteins, including the histones (the proteins the DNA is wound around in a chromosome) bound to the DNA, leaving the DNA free.
+[bio35-s3.1.4] Step 3: DNA is insoluble in cold ethanol, so it comes out of solution (precipitates) and can be collected. Salt helps the DNA strands clump together.
+[bio35-s3.1.5] Forensic laboratories use the same principles (break cells, remove protein, purify DNA) with purified kits, because crime-scene samples are tiny and need careful handling.
+[bio35-s3.2.b] The school version of extraction uses onion, a plant tissue, and everyday chemicals. The first five steps break the tissue down and protect the DNA from damage.
+[bio35-s3.2.0] 1. Chop the onion finely, to break cell walls and give a large surface area.
+[bio35-s3.2.1] 2. Add it to a beaker containing a solution of washing-up liquid (detergent) and table salt.
+[bio35-s3.2.2] 3. Stand the beaker in a water bath at 60 °C for 15 minutes. The heat helps the detergent work and denatures enzymes that would break down the DNA; longer heating would start to break the DNA itself.
+[bio35-s3.2.3] 4. Cool the beaker in an ice-water bath for 5 minutes, slowing any enzyme breakdown of the DNA.
+[bio35-s3.2.4] 5. Blend in a food processor for no more than a few seconds, because longer blending would break the long DNA strands.
+[bio35-s3.2.5] Kiwi or strawberry also work in place of onion.
+[bio35-s3.3.b] The last four steps remove the debris, digest the proteins and then bring the DNA out of solution so it can be seen. Each reagent has one job.
+[bio35-s3.3.0] 6. Filter through coffee filter paper (or several layers of muslin) to remove cell debris, collecting the liquid filtrate in a test tube.
+[bio35-s3.3.1] 7. Add a few drops of protease to digest proteins.
+[bio35-s3.3.2] 8. Pour ice-cold ethanol gently down the side of the tilted test tube so it forms a layer on top of the filtrate.
+[bio35-s3.3.3] 9. DNA appears at the boundary as white, stringy threads that can be wound onto a glass rod.
+[bio35-s3.3.4] In short: detergent breaks the membranes, salt clumps the DNA, protease removes proteins and cold ethanol precipitates the DNA.
+[bio35-s3.3.5] Safety for this practical: ethanol is highly flammable (no flames nearby); take care with blender blades and hot water; wear safety glasses.
+[bio35-s3.4.b] A crime-scene sample may hold only a few cells, far too little DNA to see on a gel. PCR solves this by copying a chosen stretch of DNA many times over.
+[bio35-s3.4.0] PCR makes millions to billions of copies of a chosen short region of DNA (here, the STR regions, short repeated sequences that differ between people) from a tiny sample, e.g. a single hair root or a spot of blood, so that there is enough DNA to see on a gel.
+[bio35-s3.4.1] PCR is DNA replication carried out in a tube. It copies only the chosen region, not the whole genome.
+[bio35-s3.4.2] The reaction mixture contains the extracted DNA (the template, the DNA to be copied).
+[bio35-s3.4.3] It also contains primers, which are short single-stranded pieces of DNA made to be complementary to the sequences on either side of the region to be copied. This is why only that region is copied: the primers decide which region.
+[bio35-s3.4.4] DNA polymerase can only add nucleotides onto an existing strand, so a primer is needed to start each new strand.
+[bio35-s3.4.5] It also contains a supply of the four DNA nucleotides (A, T, C, G), the building blocks of the new strands, a heat-stable DNA polymerase (Taq polymerase), and a buffer solution.
+[bio35-s3.4.6] The tubes are placed in a thermal cycler, a machine that changes the temperature automatically.
+[bio35-s3.5.b] PCR involves repeated heating to a very high temperature, which would destroy most enzymes. The solution was an enzyme from a heat-loving organism.
+[bio35-s3.5.0] Taq polymerase comes from Thermus aquaticus, a bacterium found in hot springs (first found in Yellowstone National Park, USA).
+[bio35-s3.5.1] Its structure holds its shape at high temperatures, so it is not denatured (permanently unfolded) at 95 °C and works best at about 72 °C.
+[bio35-s3.5.2] A human DNA polymerase would be denatured in the first heating step, and fresh enzyme would have to be added every cycle.
+[bio35-s3.5.3] This is why PCR can be run automatically in a thermal cycler: the same enzyme survives every cycle.
+[bio35-s3.6.b] Each PCR cycle has three temperature steps in a fixed order: hot, cool, then warm. Each step does one job in copying the DNA.
+[bio35-s3.6.0] Step 1, denaturation: heat to about 95 °C. The hydrogen bonds between the complementary bases break and the two strands of each DNA molecule separate. Heat does here what helicase (the enzyme that unwinds DNA) does in cells.
+[bio35-s3.6.1] Step 2, annealing: cool to about 55 °C (usually between 50 and 65 °C, depending on the primers). The primers bind (anneal) by complementary base pairing to their matching sequences on each single strand.
+[bio35-s3.6.2] Step 3, extension: heat to about 72 °C, the optimum temperature of Taq polymerase. Taq polymerase adds nucleotides to the end of each primer, complementary to the template strand, building a new strand.
+[bio35-s3.6.3] Each double-stranded region becomes two.
+[bio35-s3.6.4] Diagram: the PCR cycle as three stages in a circle: DNA at 95 °C → separated strands; primers binding at 55 °C; extension at 72 °C → two copies; “cycle repeats, doubling the DNA each time” (1 → 2 → 4 → 8). Labels: template strand, primer, nucleotides, Taq polymerase, new strand, three temperatures.
+[bio35-s3.7.b] Because every cycle doubles the DNA, the number of copies grows very quickly. This is what makes a tiny sample usable.
+[bio35-s3.7.0] Each cycle takes a few minutes and doubles the number of copies of the target region, so after n cycles one molecule gives 2ⁿ copies.
+[bio35-s3.7.1] 10 cycles give 1,024 copies (2¹⁰); 30 cycles give 2³⁰, about 1 billion (1,073,741,824).
+[bio35-s3.7.2] A run is usually 25–35 cycles and takes a few hours.
+[bio35-s3.7.3] Kary Mullis invented PCR in 1983 and shared the Nobel Prize in Chemistry in 1993.
+[bio35-s3.7.4] Using Taq polymerase, an enzyme discovered in basic research on bacteria of hot springs, made PCR quick and automatic.
+[bio35-s3.7.5] Other uses of PCR: diagnosing infections by detecting a pathogen’s DNA or RNA (e.g. PCR tests for COVID-19), detecting alleles that cause genetic diseases, and preparing DNA for sequencing (reading the order of bases).
+[bio35-s3.8.b] Before PCR was used, DNA profiles were made by cutting the DNA rather than copying it. This is the method of Alec Jeffreys, who first developed DNA profiling.
+[bio35-s3.8.0] In Alec Jeffreys’ original method, the extracted DNA was cut with restriction enzymes, which cut at specific recognition sequences on either side of the repeat regions.
+[bio35-s3.8.1] Because people have different numbers of repeats between the cutting sites, the fragments differed in length between people, and these were separated by gel electrophoresis.
+[bio35-s3.8.2] This needed much more DNA than PCR-based profiling, which has replaced it.
+[bio35-s3.9.b] Gel electrophoresis separates DNA fragments by size using an electric current. Before the current is switched on, the gel, the buffer and the samples must be set up the right way round.
+[bio35-s3.9.0] The gel is usually agarose, a jelly made from a polysaccharide extracted from seaweed; it is full of tiny pores that act like a sieve.
+[bio35-s3.9.1] The gel is made with a row of small holes (wells) near one end and placed in a tank of buffer solution, which conducts electricity, with the wells at the negative electrode (cathode) end.
+[bio35-s3.9.2] Each DNA sample is mixed with a loading dye, which is dense so the sample sinks into the well, and coloured so that the progress of the run can be seen.
+[bio35-s3.9.3] Each sample is placed in its own well with a micropipette (a tool for measuring tiny volumes).
+[bio35-s3.9.4] One well holds a DNA ladder (size marker): a mixture of fragments of known lengths, which lets you work out the size of the other fragments.
+[bio35-s3.10.b] Once the current is on, the DNA moves and sorts itself by size. Because DNA is colourless, the bands then need to be made visible.
+[bio35-s3.10.0] Running: when the current is switched on, the negatively charged DNA (its phosphate groups carry the charge) moves through the gel towards the positive electrode (anode).
+[bio35-s3.10.1] Small fragments pass through the pores more easily and move faster, so after a set time fragments of different lengths are separated into bands, the smallest furthest from the wells.
+[bio35-s3.10.2] The current is switched off before the loading dye reaches the end of the gel, so that no fragments run off the gel.
+[bio35-s3.10.3] Making the bands visible: DNA is colourless, so the gel is stained. In schools a safe stain such as methylene blue is used, showing blue bands under white light.
+[bio35-s3.10.4] Research laboratories use fluorescent stains that glow under ultraviolet light. The older stain ethidium bromide is a mutagen (it can cause mutations) and must be handled with gloves.
+[bio35-s3.10.5] Modern forensic profiling uses primers labelled with fluorescent dyes and separates the fragments in a thin capillary tube in a machine, which reads the result as peaks.
+[bio35-s3.10.6] Diagram: an electrophoresis tank, side and top views: gel in buffer, wells at the negative (black) end, positive (red) electrode at the other, power pack, ladder and sample lanes, arrow showing DNA direction. Labels: agarose gel, well, buffer solution, cathode (−), anode (+), DNA ladder, bands, “smaller fragments travel further”.
+[bio35-s3.11.b] The final step compares the patterns of bands to decide whether DNA samples match.
+[bio35-s3.11.0] The band positions (or peak sizes) of the samples are compared with each other and with the ladder, which gives the size of each fragment.
+[bio35-s3.11.1] Matching at every locus (position on the DNA) indicates the same person.
+[bio35-s3.11.2] Inheritance of one band per locus from each parent is used in paternity cases, because a child's DNA is a mix of the mother's and the father's.
+[bio35-s3.11.3] There is more on this in Investigation: DNA-profile patterns.

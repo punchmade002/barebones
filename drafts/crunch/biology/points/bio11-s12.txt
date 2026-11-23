@@ -1,0 +1,237 @@
+TARGET bio11-s12: Benefits and limitations of Mendelian genetics
+[bio11-s12.0.b] Gregor Mendel worked out simple rules for how single genes are passed from parents to offspring. Mendelian genetics is the set of ideas built on those rules, and you need to know them before you can judge where they work and where they fail.
+[bio11-s12.0.0] Mendelian genetics is the study of how traits controlled by single genes are inherited, using Mendel's principles.
+[bio11-s12.0.1] Principle 1: each organism has two alleles (versions) of each gene, one from each parent, and the two alleles separate into different gametes (sex cells), so each gamete carries only one.
+[bio11-s12.0.2] Principle 2: one allele can be dominant over the other, meaning it decides the trait when both are present.
+[bio11-s12.0.3] Principle 3: alleles of different genes are inherited independently of one another.
+[bio11-s12.0.4] Because the rules are so regular, Mendelian genetics predicts offspring ratios using genetic crosses. There is more on this in Monohybrid crosses.
+[bio11-s12.0.5] A Mendelian (single-gene) trait is controlled by one gene with clear alternative forms.
+[bio11-s12.0.6] This gives discontinuous variation, which means an individual falls into one category or another with nothing in between, for example tall or dwarf pea plants, or having cystic fibrosis or not.
+[bio11-s12.1.b] The main strength of Mendelian genetics is predictive power: if you know the parents' genotypes, you can work out the chances for their children. Medicine uses this idea in genetic counselling for single-gene disorders.
+[bio11-s12.1.0] Predicting offspring: knowing the parents' genotypes, a cross predicts the probability of each genotype and phenotype in the offspring. For example, two carriers of cystic fibrosis (people with one faulty recessive allele who are not themselves affected) have a 1 in 4 chance of an affected child.
+[bio11-s12.1.1] Genetic counselling and screening in medicine: families with a history of a single-gene disorder can be told the risks to future children, so they can make informed decisions.
+[bio11-s12.1.2] Carrier testing tells people whether they carry a recessive allele before they have children, which matters because carriers usually show no symptoms.
+[bio11-s12.1.3] Cystic fibrosis is an important example in Ireland, which has the highest rate of cystic fibrosis in the world; about 1 in 19 Irish people is a carrier.
+[bio11-s12.1.4] Sickle-cell anaemia is a single-gene disorder inherited as a recessive trait, so both parents must pass on the faulty allele for a child to be affected.
+[bio11-s12.1.5] Huntington's disease is dominant, so one faulty allele is enough: an affected heterozygous parent has a 1 in 2 chance of passing it to each child.
+[bio11-s12.1.6] Haemophilia and colour blindness are sex-linked (carried on the sex chromosomes), but their inheritance still follows Mendel's rules once that is allowed for. There is more on this in Sex-linked traits.
+[bio11-s12.2.b] Mendel's rules also let us work backwards from what we can see to what is hidden, and forwards to design organisms with useful combinations of traits. Both uses matter in medicine and farming.
+[bio11-s12.2.0] Identifying an unknown genotype: a test cross or a pedigree (a family tree showing who has a trait) reveals whether an individual carries a hidden recessive allele. For example, a breeder can check whether a breeding animal carries an allele for an inherited disease before it is used for breeding.
+[bio11-s12.2.1] Plant and animal breeding: breeders use Mendel's principles to produce true-breeding varieties, which always pass on the same trait because they carry identical alleles.
+[bio11-s12.2.2] Breeders can also combine desirable traits from two parents into one variety, for example a high yield from one variety with disease resistance from another, and predict how many offspring of each kind to expect.
+[bio11-s12.2.3] New combinations of traits arise from independent assortment, which is why breeding for two traits at once can work. There is more on this in Dihybrid crosses.
+[bio11-s12.3.b] Mendel's work did more than explain pea plants. His idea of separate units of inheritance opened the way to later discoveries, and it is still used to interpret modern genetic tests.
+[bio11-s12.3.0] Mendel's idea that traits are passed on by separate, unchanging units (genes) that segregate in gametes is the basis of later discoveries, such as genes being carried on chromosomes, DNA being the genetic material, and gene mapping.
+[bio11-s12.3.1] It also explains how hidden recessive alleles keep variation in a population, because they are carried unseen by heterozygotes. Natural selection acts on this variation. There is more on this in Variation.
+[bio11-s12.3.2] Genetic databases and testing: modern genetic tests and genome databases identify alleles known to cause single-gene diseases.
+[bio11-s12.3.3] Mendel's rules then turn a test result into a risk for a person's children, so the database finding becomes useful advice for a family. There is more on database searches in Bioinformatics: genome databases.
+[bio11-s12.4.b] Mendel's laws work best for traits controlled by one gene. Most traits are more complicated, because many genes combine, genes affect each other, and the environment also plays a part.
+[bio11-s12.4.0] Complex traits involve multiple gene interactions (polygenic traits): most traits are controlled by many genes, each with a small effect, for example human height, skin colour and eye colour.
+[bio11-s12.4.1] Polygenic traits show continuous variation (a range of values, not a few categories), so they don't give simple ratios such as 3 : 1 and can't be predicted with a Punnett square (a grid used to show the possible offspring of a cross).
+[bio11-s12.4.2] Genes interacting with one another: the effect of one gene can depend on other genes. For example, a gene that blocks all pigment production (as in albinism) hides the effects of the other genes for colour.
+[bio11-s12.4.3] Because of this, the offspring ratios no longer match the simple Mendelian ratios.
+[bio11-s12.4.4] Environmental factors: the phenotype (the observable trait) results from the genotype and the environment together, not the genotype alone.
+[bio11-s12.4.5] A person's height depends on diet and health in childhood as well as genes; identical twins, with the same genotype, can differ in height and weight.
+[bio11-s12.4.6] The flowers of some hydrangea plants are blue in acidic soil and pink in alkaline soil; a plant grown in poor light or poor soil is shorter than its genotype allows.
+[bio11-s12.4.7] So Mendelian ratios can't predict traits strongly affected by the environment.
+[bio11-s12.5.b] Many of the diseases people worry about most are not caused by a single gene. They arise from genes and lifestyle together, and the environment can even alter how genes are switched on.
+[bio11-s12.5.0] Common diseases are multifactorial (caused by several factors together): conditions such as heart disease, type 2 diabetes and most cancers depend on many genes plus lifestyle and environment (diet, exercise, smoking).
+[bio11-s12.5.1] So a person's risk can be estimated but not predicted from a simple cross. There is more on this in Causes, prevention and treatment of cancer.
+[bio11-s12.5.2] Epigenetic effects: environment and behaviour can switch genes on or off without changing the DNA sequence, and some such changes can be passed on, which Mendel's laws don't account for. There is more on this in Genetic and epigenetic mechanisms.
+[bio11-s12.6.b] Even some single-gene situations break the patterns Mendel described. Each exception below has its own pattern, so a simple 3 : 1 prediction fails.
+[bio11-s12.6.0] Linked genes on the same chromosome don't assort independently, because they tend to be inherited together. There is more on this in Linkage.
+[bio11-s12.6.1] With incomplete dominance neither allele fully hides the other, so the heterozygote is intermediate and the F2 (second generation) gives 1 : 2 : 1 not 3 : 1.
+[bio11-s12.6.2] Sex-linked genes (on the sex chromosomes) give different results in sons and daughters.
+[bio11-s12.6.3] Many genes have more than two alleles in a population, for example the ABO blood group gene has three (A, B and O). This is multiple alleles, which is different from polygenic inheritance.
+[bio11-s12.7.b] Not all genes sit in the nucleus, and even for nuclear genes Mendel's ratios are only chances. Both facts limit how far a prediction can be trusted.
+[bio11-s12.7.0] Non-nuclear inheritance: genes in mitochondria (and chloroplasts) are passed on mainly through the egg's cytoplasm, so they are inherited from the mother only and don't follow Mendel's rules. There is more on this in Nuclear and non-nuclear inheritance.
+[bio11-s12.7.1] Predictions are probabilities: a ratio describes chances, not exact outcomes, and is reliable only for large numbers of offspring.
+[bio11-s12.7.2] Human families are small, so a couple with a 1 in 4 risk may have no affected children or several.
+[bio11-s12.7.3] Mendelian genetics also can't say which child will be affected.
+[bio11-s12.8.b] Putting the benefits and limitations together gives a balanced judgement. Mendel's work is still valuable, but it is not the whole story of heredity.
+[bio11-s12.8.0] Mendelian genetics remains accurate and useful for single-gene traits, in genetic counselling, carrier testing and breeding.
+[bio11-s12.8.1] Most human traits and common diseases are complex, so Mendel's rules alone cannot predict them.
+[bio11-s12.8.2] Modern genetics adds polygenic risk, gene–environment interaction, epigenetics and whole-genome sequencing (reading all of a person's DNA) to Mendel's principles rather than replacing them.
+
+CANDIDATES bio11-s5: Monohybrid crosses
+[bio11-s5.0.b] A genetic cross predicts what offspring a pair of parents can have. It works only because of how alleles (the different versions of a gene) are shared out when gametes (sex cells) are made and joined.
+[bio11-s5.0.0] Each body cell carries two alleles of each gene, one on each chromosome of a homologous pair (two matching chromosomes, one inherited from each parent).
+[bio11-s5.0.1] Each gamete carries only one of the two alleles, because meiosis (the cell division that makes gametes) separates the two chromosomes of each homologous pair.
+[bio11-s5.0.2] At fertilisation the zygote (the first cell of the new organism) again has two alleles, one from each parent, so the pair is restored.
+[bio11-s5.0.3] There is more on this in the subsections on chromosome structure and genes, mitosis and meiosis, and the key concepts of information transfer, where allele, homozygous, heterozygous, pure-breeding and carrier are defined.
+[bio11-s5.1.b] Before you can set out any cross you must work out which gametes each parent can make. This depends only on whether the parent is homozygous (two identical alleles) or heterozygous (two different alleles).
+[bio11-s5.1.0] A homozygous individual (TT or tt) makes only one type of gamete for that gene: T from TT, or t from tt, because both of its alleles are the same.
+[bio11-s5.1.1] A heterozygous individual (Tt) makes two types of gamete, T and t, in equal numbers, half of its gametes each, because the two chromosomes separate at random in meiosis.
+[bio11-s5.1.2] True-breeding is another name for pure-breeding (homozygous): crossed with one like itself, it always gives offspring with the same trait.
+[bio11-s5.2.b] A monohybrid cross is the simplest kind of genetic cross, because it follows just one characteristic at a time. Labels for the generations let you say clearly which individuals you mean.
+[bio11-s5.2.0] A monohybrid cross follows the inheritance of one trait, controlled by one gene with two alleles.
+[bio11-s5.2.1] Unlinked means the gene is considered on its own, without other genes on the same chromosome affecting the result. There is more on this in Linkage.
+[bio11-s5.2.2] P (parental generation) are the parents crossed.
+[bio11-s5.2.3] F1 (first filial generation) are their offspring, for example the plants grown from the seeds of the P cross.
+[bio11-s5.2.4] F2 (second filial generation) are the offspring of crossing F1 individuals with each other.
+[bio11-s5.2.5] “First generation” means the offspring of the cross being modelled, so you only need to work out the offspring of one cross.
+[bio11-s5.3.b] Symbols are shorthand for alleles. A key at the start tells the examiner what each symbol means, so your answer can be read without guessing.
+[bio11-s5.3.0] Use the first letter of the dominant trait: a capital for the dominant allele and a lower-case letter for the recessive allele, e.g. T = tall, t = dwarf.
+[bio11-s5.3.1] Use the letters a question gives, because the marking scheme is written with them.
+[bio11-s5.3.2] Avoid letters whose capital and lower case look alike when handwritten, because the examiner cannot tell which allele you mean: C/c, O/o, S/s, W/w, P/p, K/k, V/v, X/x, Z/z.
+[bio11-s5.3.3] Always state a key first, e.g. “T = allele for tall, t = allele for dwarf”.
+[bio11-s5.4.b] Every line is shown, in this order, because marks are given for each. Working in the same sequence every time also stops you missing a step.
+[bio11-s5.4.0] Step 1: the key, so that the examiner knows what each letter means.
+[bio11-s5.4.1] Step 2: the parents' phenotypes (the visible traits), e.g. tall × dwarf.
+[bio11-s5.4.2] Step 3: the parents' genotypes (the alleles they carry), e.g. TT × tt.
+[bio11-s5.4.3] Step 4: the gametes, each different allele each parent can pass on, written once and usually circled (T from TT; t from tt; T and t from Tt).
+[bio11-s5.4.4] Step 5: the Punnett square (a grid that combines the gametes), or fertilisation lines joining every gamete of one parent to every gamete of the other.
+[bio11-s5.4.5] Step 6: the offspring genotypes, with their ratio, such as 1 TT : 2 Tt : 1 tt.
+[bio11-s5.4.6] Step 7: the offspring phenotypes, with their ratio, such as 3 tall : 1 dwarf.
+[bio11-s5.5.b] A Punnett square is a grid that shows every possible fertilisation between the gametes of two parents. It makes sure you do not miss a combination.
+[bio11-s5.5.0] One parent's gametes go across the top and the other parent's gametes down the side.
+[bio11-s5.5.1] Each box takes the allele from its column and the allele from its row, with the dominant allele written first (Tt, not tT), so that identical genotypes are always written the same way.
+[bio11-s5.5.2] Each box is one equally likely outcome of fertilisation; with two gametes from each parent, each box is a 1 in 4 (25%) chance.
+[bio11-s5.5.3] Diagram: a 2 × 2 Punnett square for Tt × Tt: gametes T and t across the top (labelled “gametes of parent 1”), T and t down the side (labelled “gametes of parent 2”); boxes TT, Tt, Tt, tt; each box labelled with its phenotype (tall, tall, tall, dwarf).
+[bio11-s5.6.b] A cross predicts chances, not certainties. Each fertilisation is a separate chance event, so the ratio describes what is expected on average.
+[bio11-s5.6.0] A ratio is a prediction of the proportions expected, not an exact count.
+[bio11-s5.6.1] Each fertilisation is independent, so in a family where the first child is affected, the chance for the next child is unchanged.
+[bio11-s5.6.2] A 3 : 1 ratio is a probability, not a guarantee that a family of four has exactly one affected child.
+[bio11-s5.6.3] Ratios can be given as a ratio (3 : 1), a fraction (3/4), a percentage (75%) or a probability (0.75, or “a 3 in 4 chance”).
+[bio11-s5.6.4] Observed results come close to the predicted ratio only with large numbers of offspring (e.g. hundreds of pea plants), not in a small human family, because chance has more effect on small samples.
+[bio11-s5.7.b] Pea plants: tall (T) is dominant to dwarf (t). Here two heterozygous tall plants are crossed, and every line of the standard layout is shown.
+[bio11-s5.7.0] Key: T = tall, t = dwarf.
+[bio11-s5.7.1] Parents' phenotypes: tall × tall.
+[bio11-s5.7.2] Parents' genotypes: Tt × Tt (both heterozygous, so each makes two types of gamete).
+[bio11-s5.7.3] Gametes: T, t × T, t, because each heterozygous parent makes both types.
+[bio11-s5.7.4] Punnett square: TT, Tt / Tt, tt.
+[bio11-s5.7.5] Offspring genotypes: 1 TT : 2 Tt : 1 tt, because Tt arises in two boxes of the square.
+[bio11-s5.7.6] Offspring phenotypes: 3 tall : 1 dwarf (75% tall, 25% dwarf), because TT and both Tt boxes are tall.
+[bio11-s5.7.7] Of the tall offspring, 1/3 are homozygous (TT) and 2/3 heterozygous (Tt), because the three tall offspring are TT, Tt and Tt.
+[bio11-s5.8.b] In the cross above there are two different ratios, one for genotypes and one for phenotypes. They differ because of dominance.
+[bio11-s5.8.0] The genotype ratio (1 : 2 : 1) differs from the phenotype ratio (3 : 1) because TT and Tt look the same: the dominant allele masks the recessive one.
+[bio11-s5.8.1] A recessive trait reappears in offspring of parents who both show the dominant trait only if both parents are heterozygous, because only then can each parent pass on a recessive allele.
+[bio11-s5.9.b] Crossing a true-breeding tall plant with a true-breeding dwarf plant is the simplest case, because each parent makes only one type of gamete.
+[bio11-s5.9.0] Parents' phenotypes: true-breeding tall × true-breeding dwarf.
+[bio11-s5.9.1] Parents' genotypes: TT × tt (both homozygous, so true-breeding).
+[bio11-s5.9.2] Gametes: T × t, because each parent makes only one type.
+[bio11-s5.9.3] Offspring genotypes: all Tt (heterozygous), because each gets T from one parent and t from the other.
+[bio11-s5.9.4] Offspring phenotypes: all (100%) tall, because the dominant T masks t.
+[bio11-s5.9.5] This is Mendel's P → F1 cross; crossing these F1 plants together (Tt × Tt) gives the F2 result of the heterozygous × heterozygous example above, in which the dwarf trait reappears.
+[bio11-s5.9.6] Mendel's own figures are in Mendel's Laws.
+[bio11-s5.10.b] In this cross a heterozygous tall plant is crossed with a dwarf plant. It gives a different ratio from the first example, because one parent can pass on only the recessive allele.
+[bio11-s5.10.0] Parents' phenotypes: tall × dwarf.
+[bio11-s5.10.1] Parents' genotypes: Tt × tt (one heterozygous parent, so only the Tt parent makes two types of gamete).
+[bio11-s5.10.2] Gametes: T, t × t, because the tt parent can give only t.
+[bio11-s5.10.3] Punnett square (2 × 1, or 2 × 2 with t written twice): Tt, tt.
+[bio11-s5.10.4] Offspring genotypes: 1 Tt : 1 tt.
+[bio11-s5.10.5] Offspring phenotypes: 1 tall : 1 dwarf (50% each), because Tt is tall and tt is dwarf.
+[bio11-s5.11.b] With one gene and two alleles there are only three genotypes, TT, Tt and tt, so only six different crosses are possible. Knowing all six lets you recognise any monohybrid cross quickly.
+[bio11-s5.11.0] Cross 1: TT × TT → all TT → all tall, because both parents can only pass on T.
+[bio11-s5.11.1] Cross 2: TT × Tt → 1 TT : 1 Tt → all tall.
+[bio11-s5.11.2] Cross 3: TT × tt → all Tt → all tall, because T masks t.
+[bio11-s5.11.3] Cross 4: Tt × Tt → 1 TT : 2 Tt : 1 tt → 3 tall : 1 dwarf.
+[bio11-s5.11.4] Cross 5: Tt × tt → 1 Tt : 1 tt → 1 tall : 1 dwarf.
+[bio11-s5.11.5] Cross 6: tt × tt → all tt → all dwarf, because both parents can only pass on t.
+[bio11-s5.12.b] You can also work from the offspring back to the parents. The ratio of offspring tells you which genotypes the parents must have had.
+[bio11-s5.12.0] Offspring in a 3 : 1 ratio mean both parents are heterozygous, because only Tt × Tt gives this ratio.
+[bio11-s5.12.1] A 1 : 1 ratio means one parent is heterozygous and the other homozygous recessive, so only one parent makes two kinds of gamete.
+[bio11-s5.12.2] Any offspring showing the recessive trait mean each parent carries at least one recessive allele, because an offspring needs two recessive alleles, one from each parent.
+[bio11-s5.13.b] An organism showing the dominant trait could be TT or Tt, and you cannot tell by looking. A test cross finds out by crossing it with a recessive organism.
+[bio11-s5.13.0] A test cross finds the unknown genotype of an organism showing the dominant trait (TT or Tt) by crossing it with a homozygous recessive (tt) organism.
+[bio11-s5.13.1] The tt parent can give only t, so each offspring's phenotype shows directly which allele came from the unknown parent.
+[bio11-s5.13.2] If all offspring show the dominant trait (all tall), the unknown parent is almost certainly TT (TT × tt → all Tt).
+[bio11-s5.13.3] If any offspring show the recessive trait (about half dwarf), the unknown parent is Tt (Tt × tt → 1 : 1), because it must have passed on a recessive allele.
+[bio11-s5.13.4] Many offspring are needed to be confident that a TT result is not chance.
+[bio11-s5.14.b] Cystic fibrosis is an inherited disorder that follows the same rules as the pea plants. Two parents who do not have the disease can still have an affected child, if both are carriers.
+[bio11-s5.14.0] Cystic fibrosis is caused by a recessive allele of a gene on an autosome (a chromosome that is not a sex chromosome).
+[bio11-s5.14.1] Key: F = normal allele, f = cystic fibrosis allele, with the normal allele dominant.
+[bio11-s5.14.2] Parents: two unaffected carriers (people who carry the recessive allele but do not have the disease).
+[bio11-s5.14.3] Parents' genotypes: Ff × Ff.
+[bio11-s5.14.4] Gametes: F, f × F, f, because each carrier makes both types.
+[bio11-s5.14.5] Offspring genotypes: 1 FF : 2 Ff : 1 ff.
+[bio11-s5.14.6] Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis, because only ff has the disease.
+[bio11-s5.14.7] Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither.
+[bio11-s5.14.8] Why the mutation causes the disease is in Mutations, and its use in genetic counselling is in Benefits and limitations of Mendelian genetics.
+
+CANDIDATES bio11-s4: Genetic and epigenetic mechanisms
+[bio11-s4.0.b] Genetic inheritance is the passing of instructions from one generation to the next, and it works by passing on DNA itself. Here is how that information is stored, copied and changed, and where it falls short of explaining everything.
+[bio11-s4.0.0] Genetic inheritance works by passing on DNA: the sequence of bases (the letters A, T, C and G) in the genes is copied when cells divide and passed to offspring in the gametes (sex cells). There is more on this in Nuclear and non-nuclear inheritance.
+[bio11-s4.0.1] The information is stored in the base sequence itself. DNA is copied very accurately, so the information is stable over many generations.
+[bio11-s4.0.2] It changes only by mutation, a change in the base sequence or in the chromosomes. There is more on this in Variation.
+[bio11-s4.0.3] A mutation is usually permanent: it is copied into every cell descended from the cell where it happened and, if it is in a gamete, into the offspring.
+[bio11-s4.0.4] The genetic code is the same in every body cell, so genetic mechanisms alone cannot explain why cells with the same DNA become different (a liver cell and a nerve cell, for example), or why identical twins grow more different with age. Epigenetic mechanisms explain these.
+[bio11-s4.1.b] Every body cell carries the same DNA, yet cells behave differently because different genes are active in them. Epigenetics is the study of how that activity is controlled without altering the DNA sequence.
+[bio11-s4.1.0] Epigenetics is the study of changes in gene expression (which genes are switched on or off, and how strongly) that are not caused by changes in the DNA base sequence.
+[bio11-s4.1.1] 'Epi-' means 'on top of': the changes are chemical marks added on top of the DNA. The full set of marks in a cell is its epigenome.
+[bio11-s4.1.2] Epigenetic marks are caused by development and by the environment and behaviour, such as diet, stress, smoking, exposure to pollutants and other chemicals, and temperature. In insects, the food a larva is given is a trigger.
+[bio11-s4.1.3] The marks are copied when a cell divides by mitosis, so a change can last for the rest of an organism's life. This is why they keep specialised cells specialised: a liver cell's daughter cells are liver cells.
+[bio11-s4.1.4] Some epigenetic changes are reversible, because marks can be added and removed by enzymes, for example in response to a change in diet or lifestyle.
+[bio11-s4.1.5] In humans, smokers' blood cells show changed patterns of marks on some genes, and some of these changes partly reverse after a person stops smoking. This shows behaviour can change the epigenome, and quitting can partly undo it.
+[bio11-s4.2.b] Epigenetic marks can last through a lifetime, but whether they reach the next generation is a separate question. The answer differs between mammals and plants, and twins show how the environment reshapes the epigenome with age.
+[bio11-s4.2.0] In mammals most marks are erased and reset in the gametes and early embryo, so epigenetic changes are usually not passed on. Some escape erasure and are inherited, as in agouti mice.
+[bio11-s4.2.1] In plants, marks are more often passed on through seeds, as in toadflax. Passing marks to the next generation in this way is epigenetic inheritance.
+[bio11-s4.2.2] Identical twins have the same DNA, and when young their epigenetic marks are very similar. In older twins, especially those who have lived apart or had different lifestyles, the marks are much more different, matching differences in health.
+[bio11-s4.2.3] The environment changes the epigenome over a lifetime. This is why twins with identical DNA grow more different with age.
+[bio11-s4.3.b] Epigenetic marks work by controlling how easily a gene can be read. There are two main kinds of mark, one placed on the DNA itself and one on the proteins it is wound around.
+[bio11-s4.3.0] DNA methylation: an enzyme adds a small chemical group, a methyl group (CH₃), to cytosine bases in the DNA, especially in the control region at the start of a gene.
+[bio11-s4.3.1] Methylation usually switches the gene off (silences it), because the cell's machinery can no longer read it. Removing the methyl groups can switch it back on.
+[bio11-s4.3.2] The base sequence is unchanged: a methylated C still pairs with G. This is why methylation is not a mutation.
+[bio11-s4.3.3] Histone modification: chemical groups are added to or removed from the histone proteins that the DNA is wound around, like thread on spools. There is more on this in Chromosome structure and genes.
+[bio11-s4.3.4] Adding acetyl groups loosens the packing so the genes there can be read and are switched on; other changes tighten the packing so the genes cannot be read and are switched off.
+[bio11-s4.3.5] Tightly packed, heavily methylated DNA is inactive; loosely packed, unmethylated DNA is active. So the same DNA can give different phenotypes depending on its marks.
+[bio11-s4.3.6] Diagram: the same gene twice. Left: DNA loosely wound on histones, no methyl groups, arrow 'gene read → protein made → gene switched on'. Right: DNA tightly packed, methyl groups as small flags, cross through 'gene read → gene switched off'. Label DNA, histone, methyl group, gene on, gene off.
+[bio11-s4.4.b] Genetic and epigenetic mechanisms both affect the phenotype, but they differ in what changes, what causes it, how long it lasts and whether it is inherited. Learn them as paired points.
+[bio11-s4.4.0] What changes: the DNA base sequence (genetic) versus gene expression, through chemical marks on the DNA and histones (epigenetic). The base sequence is unchanged in epigenetic change.
+[bio11-s4.4.1] Cause: mutation, from random copying errors or mutagens (agents that cause mutations) such as radiation (genetic), versus the environment, behaviour and development, such as diet, stress, chemicals and temperature (epigenetic).
+[bio11-s4.4.2] Reversibility: usually permanent (genetic) versus often reversible (epigenetic).
+[bio11-s4.4.3] Speed: genetic change in a population is slow, spreading over many generations, whereas epigenetic change can happen within an organism's lifetime, in response to its surroundings.
+[bio11-s4.4.4] Inheritance: reliably passed on in every generation through the gametes, following Mendel's laws for nuclear genes (genetic), versus usually erased in the gametes and early embryo in mammals (epigenetic). Epigenetic marks are sometimes passed on, more often in plants, and often fade over a few generations.
+[bio11-s4.4.5] Within one organism: the same in all body cells, except for new mutations (genetic), versus different in different cell types and tissues (epigenetic).
+[bio11-s4.4.6] Similarities: both change the phenotype by changing which proteins are made, and both are copied when cells divide by mitosis.
+[bio11-s4.4.7] Both can be involved in disease. For example, some cancers involve both mutations and abnormal methylation that silences genes which normally control cell division. There is more on this in Causes, prevention and treatment of cancer.
+[bio11-s4.5.b] A honeybee colony shows how diet can switch on different sets of genes in animals with identical DNA. The marks last through the bee's life, but they are not passed to her offspring.
+[bio11-s4.5.0] The queen (large, fertile, lays the eggs, lives for years) and the workers (smaller, sterile females that forage and care for the larvae, living for weeks in summer) develop from genetically identical female larvae.
+[bio11-s4.5.1] Trigger: diet. All young larvae are fed royal jelly, a secretion of worker bees, for the first few days.
+[bio11-s4.5.2] A larva fed royal jelly throughout its development, in a special large cell, becomes a queen; the rest are switched to a diet including pollen and honey and become workers.
+[bio11-s4.5.3] Mechanism: the different diets produce different patterns of DNA methylation in the developing bee, switching on different sets of genes.
+[bio11-s4.5.4] Evidence: in 2008, researchers in Australia reduced the activity of the enzyme that adds methyl groups to DNA in newly hatched larvae. Most of these larvae developed into queens with working ovaries, as if they had been fed royal jelly.
+[bio11-s4.5.5] What it shows: one genotype gives two very different phenotypes because the environment (food) changes gene expression during development.
+[bio11-s4.5.6] The marks are passed on through every cell division in the developing bee, but the caste is not passed to the queen's offspring, because each larva's caste is decided by its own diet.
+[bio11-s4.6.b] Agouti mice show a clear link between a mother's diet, methylation of one gene and the colour and health of her offspring. They are also a true case of epigenetic inheritance in a mammal.
+[bio11-s4.6.0] The agouti gene in mice normally controls fur colour, giving brown fur. In mice with a variant called agouti viable yellow, an extra stretch of DNA inserted beside the gene can switch it on in every cell all the time.
+[bio11-s4.6.1] When that region is unmethylated, the gene is always on: the mice have yellow fur and become obese, with a higher risk of diabetes and cancer.
+[bio11-s4.6.2] When it is heavily methylated, the gene is switched off and the mice are brown and lean; partly methylated mice are mottled. Genetically identical mice in the same litter can be any of these.
+[bio11-s4.6.3] Effect of the mother's diet: in a study published in 2003 (Robert Waterland and Randy Jirtle), pregnant mothers given extra methyl-donor nutrients (folic acid, vitamin B12, choline and betaine) had more brown, healthy offspring, because more methyl groups were added to the gene in the embryos.
+[bio11-s4.6.4] In later work, exposing pregnant mothers to the plastics chemical bisphenol A (BPA) reduced methylation and gave more yellow offspring. Methyl-donor supplements cancelled this effect.
+[bio11-s4.6.5] Inheritance: the offspring's coat colour tends to resemble its mother's, because the marks on this gene are not fully erased when the eggs are made. So it is a true example of epigenetic inheritance.
+[bio11-s4.6.6] The effects can be changed (reversed) by diet.
+[bio11-s4.7.b] The Dutch Hunger Winter is a human case of the environment before birth leaving a lasting epigenetic mark. It is clear evidence within one lifetime, but weaker evidence for inheritance.
+[bio11-s4.7.0] In the winter of 1944–1945, during the Second World War, a German blockade cut food supplies to the occupied western Netherlands. Food rations fell well below 1,000 kilocalories a day.
+[bio11-s4.7.1] About 20,000 people died before the region was liberated in May 1945.
+[bio11-s4.7.2] The famine had a clear start and end, and records of births were kept, so scientists could study people who were in the womb during it. Those whose mothers were starved in early pregnancy had higher rates of obesity, heart disease and some other conditions as adults.
+[bio11-s4.7.3] A study published in 2008 found that, about 60 years later, people exposed to the famine around conception had less methylation of a growth gene, IGF2 (insulin-like growth factor 2), than their brothers or sisters of the same sex who were not exposed.
+[bio11-s4.7.4] The environment before birth left a lasting mark on gene expression, even decades later.
+[bio11-s4.7.5] Some studies report effects on the next generation (the grandchildren of the starved mothers), but this evidence is weaker and debated.
+[bio11-s4.7.6] So this is clear evidence of a lasting epigenetic effect of the environment in humans, and possible but uncertain evidence of inheritance across generations.
+[bio11-s4.8.b] Some plants use an epigenetic 'memory' of winter to decide when to flower. The mark is remembered for the rest of that plant's life, but it is reset in the next generation.
+[bio11-s4.8.0] Vernalisation is the need of some plants to experience a long period of cold (winter) before they can flower. It stops them flowering in autumn and makes them flower in spring, when conditions suit seed production.
+[bio11-s4.8.1] In thale cress (Arabidopsis thaliana), a small wild plant, a gene called FLC (FLOWERING LOCUS C) blocks flowering.
+[bio11-s4.8.2] During weeks of cold, histone modifications gradually switch FLC off, and the longer the cold lasts, the more cells have FLC switched off.
+[bio11-s4.8.3] FLC stays switched off after the weather warms, because the marks are copied through all later cell divisions, so the plant flowers in spring.
+[bio11-s4.8.4] The change is epigenetic: the FLC gene's base sequence is unchanged.
+[bio11-s4.8.5] The change is reset in each generation: FLC is switched back on in the seeds, so each new plant must go through its own winter. This is an epigenetic memory within one plant's life, not inheritance to offspring.
+[bio11-s4.8.6] Many crops, such as winter wheat, need vernalisation, which is why they are sown in autumn.
+[bio11-s4.9.b] Common toadflax shows a natural variant caused by an epigenetic mark rather than a mutation, and it is passed on to the next generation. Together with agouti mice, it is a main example of epigenetic inheritance.
+[bio11-s4.9.0] Common toadflax (Linaria vulgaris), a wild plant, normally has flowers with one plane of symmetry (bilaterally symmetrical) and a single spur.
+[bio11-s4.9.1] A natural variant, the peloric form, has radially symmetrical flowers (the same all the way round) with five spurs. Carl Linnaeus first described it in the 1740s.
+[bio11-s4.9.2] In 1999, Enrico Coen's group at the John Innes Centre in Norwich showed that peloric plants have the same base sequence in the key flower-symmetry gene (Lcyc) as normal plants, but the gene is heavily methylated and switched off.
+[bio11-s4.9.3] This is an epigenetic change (sometimes called an epimutation), not a mutation, because the DNA sequence is the same.
+[bio11-s4.9.4] The methylated, switched-off state is passed on through the seeds to the next generation, so the peloric form is inherited in wild populations.
+[bio11-s4.9.5] Occasionally the methylation is lost and branches with normal flowers appear, showing the change is reversible.
+[bio11-s4.9.6] This is a heritable natural variation, noticed for more than 250 years, caused by an epigenetic mark rather than a change in DNA sequence.
+[bio11-s4.10.b] Research one example of epigenetic inheritance in detail, using the steps below. Following the same order every time makes sure you cover trigger, mechanism, effect and evidence.
+[bio11-s4.10.0] 1. Choose an example and find reliable sources (scientific organisations, universities and review articles). There is more on this in Recognising bias and evaluating sources.
+[bio11-s4.10.1] 2. Identify the organism and the trait.
+[bio11-s4.10.2] 3. Identify the environmental or behavioural trigger.
+[bio11-s4.10.3] 4. Identify the gene and the epigenetic change (methylation or histone modification), if known.
+[bio11-s4.10.4] 5. Describe the effect on the phenotype.
+[bio11-s4.10.5] 6. Describe the evidence that the change is epigenetic (same DNA sequence, different marks).
+[bio11-s4.10.6] 7. State whether it is reversible and whether it is passed to offspring.
+[bio11-s4.10.7] 8. Evaluate the strength of the evidence, for example animal studies versus observational studies in humans.
+[bio11-s4.10.8] Worked model, agouti mice: mouse fur colour; the mother's diet; methylation of the agouti gene; yellow obese or brown lean mice; genetically identical mice with different methylation; passed on partly through the mother, and reversed by methyl donors.

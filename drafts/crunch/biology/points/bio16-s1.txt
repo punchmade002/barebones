@@ -1,0 +1,180 @@
+TARGET bio16-s1: The cell cycle
+[bio16-s1.0.b] Before you can follow the cell cycle you need to know what is being copied and shared out: the chromosomes. How many a cell has, and how they are arranged, decides whether it is diploid or haploid.
+[bio16-s1.0.0] A chromosome is one long DNA molecule wound around proteins, carrying many genes (the units of inheritance). There is more on this in Chromosome structure and genes.
+[bio16-s1.0.1] Between divisions the chromosomes are long, thin and spread out as chromatin (DNA with its proteins). Before division they coil up (condense) and become short and thick, so they can be seen with the light microscope when stained.
+[bio16-s1.0.2] Homologous chromosomes are a pair of chromosomes of the same size and shape, with the same genes at the same positions, one inherited from each parent; the alleles (versions of a gene) on them may differ. Human body cells contain 23 such pairs.
+[bio16-s1.0.3] Diploid (2n): a cell or organism with two sets of chromosomes, so that its chromosomes lie in homologous pairs. Human body (somatic) cells are diploid, 2n = 46. The 46 counts chromosomes, not pairs.
+[bio16-s1.0.4] Haploid (n): a cell with one set of chromosomes, one chromosome from each homologous pair. Human gametes (sperm and egg cells) are haploid, n = 23. Haploid means one complete set, not half a chromosome.
+[bio16-s1.0.5] When two haploid gametes fuse at fertilisation, the zygote (the first cell of the new organism) is diploid again (23 + 23 = 46), so the chromosome number stays the same from generation to generation.
+[bio16-s1.0.6] Haploid cells are made by meiosis, a division that halves the chromosome number; mitosis keeps the chromosome number the same. There is more on this in Mitosis and meiosis.
+[bio16-s1.0.7] Each species has its own chromosome number: human 2n = 46, the fruit fly Drosophila 2n = 8, the garden pea 2n = 14. The number does not reflect how complex an organism is.
+[bio16-s1.1.b] Cells don't just divide and stop: each one lives through a repeating sequence of events called the cell cycle. It shows how a cell prepares for division and then carries it out.
+[bio16-s1.1.0] The cell cycle is the sequence of events in the life of a cell, from the time it is formed by division until it divides itself into two daughter cells.
+[bio16-s1.1.1] It has three main activities, in this order. First, growth: the cell makes new proteins and organelles (the working parts of a cell) and gets bigger.
+[bio16-s1.1.2] Second, DNA synthesis: every chromosome is copied, so the cell has two copies of its genetic information to hand out.
+[bio16-s1.1.3] Third, division: the nucleus divides so that each new nucleus gets one copy of every chromosome, then the cytoplasm divides to give two cells.
+[bio16-s1.1.4] The phase between divisions, when growth and DNA synthesis happen, is interphase. A cell spends most of its life in interphase, about 90% of the cycle, so division is short.
+[bio16-s1.1.5] In many human cells grown in the laboratory, one cycle takes about 24 hours.
+[bio16-s1.1.6] Interphase is not a resting stage. The cell is very active, carrying out its normal functions as well as preparing to divide.
+[bio16-s1.1.7] One cycle, including division, produces two daughter cells, each with the same number and type of chromosomes as the parent cell and genetically identical to it.
+[bio16-s1.2.b] Not every cell divides at the same pace, and no cell divides without being told it is safe to. Whether a cell cycles depends on its job and on control checks built into the cycle.
+[bio16-s1.2.0] Some cells leave the cycle once they are specialised and stop dividing, for example most mature nerve cells. Mature red blood cells have no nucleus and can't divide.
+[bio16-s1.2.1] Other cells divide often throughout life, for example cells of the skin, the lining of the gut and the bone marrow, and in plants the cells at root and shoot tips (meristems, regions where growth happens).
+[bio16-s1.2.2] The cycle is controlled. Proteins inside the cell check at several points (checkpoints) that the cell is large enough, that the DNA has been copied correctly and is undamaged, and that the chromosomes are attached correctly before the cell moves on.
+[bio16-s1.2.3] Signals from other cells (growth factors, chemical messages) tell a cell whether to divide. There is more on how loss of this control leads to cancer in Cancer.
+[bio16-s1.2.4] Diagram: the cell cycle as a circle. Large sector: interphase (cell growth and DNA replication). Small sector: division (mitosis, then cytokinesis). Arrow for direction. Higher Level: also label G1, S, G2 and the four stages of mitosis.
+[bio16-s1.3.b] Interphase is long and busy, and it has three parts: G1, S and G2. Together they prepare the cell so that division can be quick and accurate.
+[bio16-s1.3.0] G1 (first growth phase): the cell grows, makes proteins (including the enzymes needed to copy DNA) and organelles, and carries out its normal job.
+[bio16-s1.3.1] S (synthesis) phase: DNA replication, so each chromosome now consists of two identical copies called sister chromatids, joined at the centromere (the narrow point where they are held together).
+[bio16-s1.3.2] G2 (second growth phase): further growth and more organelles, for example mitochondria. The proteins of the spindle (the fibres that later pull chromosomes apart) are made, and ATP is stored for division.
+[bio16-s1.3.3] A cell that stops dividing leaves the cycle from G1 into a non-dividing state (sometimes called G0), for example mature nerve cells.
+[bio16-s1.3.4] Throughout interphase the nuclear membrane (envelope) is intact, the nucleolus is visible and the chromosomes are uncoiled as chromatin, so individual chromosomes can't be seen.
+[bio16-s1.4.b] Mitosis is the division of the nucleus. It runs as one smooth process, but it is split into four stages to make it easier to describe, and each stage has a characteristic look and job.
+[bio16-s1.4.0] Nuclear division (mitosis) is a continuous process, divided for convenience into four stages in this order: prophase, metaphase, anaphase and telophase. It is followed by cytokinesis, which is division of the cytoplasm and not a stage of mitosis.
+[bio16-s1.4.1] Prophase: the chromosomes condense (shorten and thicken) and become visible, each as two sister chromatids joined at a centromere. The nucleolus disappears, the nuclear membrane breaks down, and spindle fibres (protein tubes called microtubules) begin to form.
+[bio16-s1.4.2] In animal cells, two centrioles move to opposite ends (poles) of the cell and the spindle forms between them. Plant cells have no centrioles but still form a spindle.
+[bio16-s1.4.3] Metaphase: the chromosomes line up singly on the equator (middle) of the spindle; each is attached by its centromere to spindle fibres from both poles.
+[bio16-s1.4.4] Anaphase: the centromeres split and the spindle fibres shorten, pulling the sister chromatids apart to opposite poles, centromere first, which gives a V shape.
+[bio16-s1.4.5] Once separated, each chromatid is called a chromosome, so each pole now has a full set of identical chromosomes. Energy for the movement comes from ATP, the cell's energy carrier.
+[bio16-s1.4.6] Telophase: the chromosomes reach the poles and uncoil back into chromatin; a nuclear membrane forms around each set; the nucleoli reappear; the spindle breaks down. There are now two nuclei, each genetically identical to the original.
+[bio16-s1.4.7] Diagram: the four stages of mitosis in an animal cell, 2n = 4 (one long and one short homologous pair, shaded to show the two parents). Labels: chromosome, sister chromatids, centromere, spindle fibres, centriole, pole, equator, nuclear membrane (breaking down, re-forming), cell membrane, cleavage furrow (end of telophase).
+[bio16-s1.5.b] You can tell which stage a cell is in just by looking at how its chromosomes are arranged under the microscope. Counting dividing cells then tells you how fast a tissue is dividing.
+[bio16-s1.5.0] In stained cells from a growing root tip (for example onion or garlic) viewed at ×400, most cells are in interphase, seen as a nucleus with no visible chromosomes, because interphase is the longest part of the cycle.
+[bio16-s1.5.1] Dividing cells are identified by the arrangement of their chromosomes: condensed and scattered for prophase; in a line across the middle for metaphase.
+[bio16-s1.5.2] Two groups moving apart is anaphase; two groups at opposite ends, with new nuclei forming, is telophase.
+[bio16-s1.5.3] The mitotic index is the percentage of cells in a sample that are dividing. For example, 24 dividing cells out of 200 gives (24 ÷ 200) × 100 = 12%.
+[bio16-s1.5.4] A high mitotic index shows a tissue that is dividing rapidly, such as a root tip or a tumour.
+[bio16-s1.6.b] After the nucleus has divided, the cell still has to split in two. Cytokinesis divides the cytoplasm, and plant and animal cells do it differently because plant cells have a rigid wall.
+[bio16-s1.6.0] Cytokinesis is the division of the cytoplasm to form two separate daughter cells. It usually starts during late telophase. Organelles such as mitochondria are shared between the two cells.
+[bio16-s1.6.1] In animal cells the cell membrane is pulled inwards around the middle of the cell, forming a groove (cleavage furrow) that deepens until the cell pinches into two.
+[bio16-s1.6.2] In plant cells the rigid cell wall can't pinch in. Instead, vesicles (small membrane sacs) from the Golgi apparatus collect across the middle of the cell and fuse to form a cell plate.
+[bio16-s1.6.3] The cell plate grows outwards to the sides and becomes the new cell membranes and cell wall between the two cells.
+[bio16-s1.6.4] Diagram: an animal cell with a cleavage furrow beside a plant cell with a cell plate forming, each labelled.
+
+CANDIDATES bio7-s3: Structures and organelles of animal and plant cells
+[bio7-s3.0.b] Every cell needs a boundary that holds it together and controls what gets in and out. Plant cells have two layers of boundary: a tough cell wall outside and a thin cell membrane just inside it.
+[bio7-s3.0.0] Cell wall: a rigid layer outside the cell membrane, made mainly of cellulose fibres in plants. It is fully permeable, so water and dissolved substances pass through it freely.
+[bio7-s3.0.1] The cell wall gives strength, support and a fixed shape. It stops the cell bursting when it takes in water by osmosis (water moving in across the membrane), so the cell becomes firm (turgid), which supports non-woody plants.
+[bio7-s3.0.2] Cell walls are found in plant cells, in fungi (where they are made of chitin) and in bacteria, but not in animal cells. The cell wall is visible with the light microscope.
+[bio7-s3.0.3] Cell membrane (plasma membrane): a very thin, flexible boundary around every cell, made of a double layer of phospholipids (fatty molecules) with proteins in it. It is selectively permeable, so it controls which substances enter and leave, and it holds the cell contents together.
+[bio7-s3.0.4] Proteins in the cell membrane act as receptors that recognise hormones and other signals, and as markers that let cells recognise each other.
+[bio7-s3.0.5] The cell membrane is found in all cells, and lies inside the wall in plant cells. With the light microscope it is seen only as a line. There is more on this in Transport Across Membranes.
+[bio7-s3.1.b] Inside the membrane, the cell's contents sit in a watery fluid, and plant cells also have a large fluid-filled sac that helps hold them firm. Together these provide the setting for the cell's chemistry and its support.
+[bio7-s3.1.0] Cytoplasm: everything inside the cell membrane except the nucleus. It is a watery, jelly-like fluid (cytosol) containing dissolved nutrients, salts and enzymes (proteins that speed up reactions), in which the organelles (the cell's specialised working parts) are suspended.
+[bio7-s3.1.1] The cytoplasm is the site of many metabolic reactions (the chemical reactions of the cell), for example the first stage of respiration (glucose broken down to pyruvate) and anaerobic respiration (respiration without oxygen). It is also where proteins are made at free ribosomes. It is found in all cells.
+[bio7-s3.1.2] Vacuole: a fluid-filled sac surrounded by a single membrane. A mature plant cell has one large permanent central vacuole filled with cell sap, which is water containing sugars, salts and sometimes pigments, for example the red of beetroot.
+[bio7-s3.1.3] The plant vacuole stores water, food and waste. It takes in water by osmosis and pushes the cytoplasm against the wall, which keeps the cell turgid and the plant upright. When water is lost, plants wilt.
+[bio7-s3.1.4] Animal cells have only small, temporary vacuoles, for example food vacuoles. Some single-celled protists such as Amoeba have contractile vacuoles that pump out excess water.
+[bio7-s3.1.5] The plant vacuole is visible with the light microscope.
+[bio7-s3.2.b] Cells need a constant supply of usable energy. Mitochondria are the organelles that release it from food, so cells with high energy demands are packed with them.
+[bio7-s3.2.0] Mitochondrion (plural mitochondria): a rod- or sausage-shaped organelle with a double membrane. The outer membrane is smooth, and the inner membrane is folded into cristae.
+[bio7-s3.2.1] The folds of the cristae give a large surface area for the enzymes of the later stages of aerobic respiration (respiration using oxygen). The fluid inside the inner membrane is the matrix.
+[bio7-s3.2.2] Function: the site of most of aerobic respiration, releasing energy from food to make most of the cell's ATP (the molecule that carries energy for cell activities).
+[bio7-s3.2.3] Mitochondria are found in almost all eukaryotic cells (cells with a nucleus), in plants as well as animals. Plant cells respire as well as photosynthesise, so they need mitochondria too.
+[bio7-s3.2.4] Cells that need a lot of energy have many mitochondria, for example muscle cells, liver cells, nerve cells and the middle section of sperm.
+[bio7-s3.2.5] Mitochondria contain their own DNA and ribosomes. They are too small to show detail with the light microscope, so their structure is seen with the electron microscope.
+[bio7-s3.2.6] Diagram: a mitochondrion in section labelled outer membrane, inner membrane, cristae and matrix.
+[bio7-s3.3.b] Plants make their own food by photosynthesis, and the organelle that does this is the chloroplast. Its green pigment captures light, and its fluid interior builds sugar.
+[bio7-s3.3.0] Chloroplast: a disc-shaped organelle with a double membrane. It contains stacks of flattened membrane sacs (thylakoids; a stack is a granum) that carry the green pigment chlorophyll.
+[bio7-s3.3.1] The chloroplast is surrounded by a fluid called the stroma, and starch grains may be stored in the stroma.
+[bio7-s3.3.2] Function: the site of photosynthesis. Chlorophyll in the thylakoid membranes absorbs light energy (the light-dependent stage). The stroma contains the enzymes that use this energy to make glucose from carbon dioxide (the light-independent stage).
+[bio7-s3.3.3] The many stacked membranes give a large surface area for absorbing light. There is more on this in Photosynthesis.
+[bio7-s3.3.4] Chloroplasts are found only in plant cells (and algae), in parts exposed to light, especially the palisade cells of leaves and guard cells.
+[bio7-s3.3.5] Not all plant cells have chloroplasts. They are not found in root cells or in onion bulb cells, which are not exposed to light, and they are never found in animal cells.
+[bio7-s3.3.6] Chloroplasts are visible as green discs with the light microscope. They contain their own DNA and ribosomes.
+[bio7-s3.3.7] Diagram: a chloroplast labelled double membrane, thylakoids, granum, stroma and starch grain.
+[bio7-s3.4.b] The nucleus is the cell's control centre. It holds the instructions for making proteins, and nuclear pores are the gateways that let the right materials move between the nucleus and the rest of the cell.
+[bio7-s3.4.0] Nucleus: usually the largest organelle, round or oval, surrounded by a double membrane called the nuclear envelope. It contains the cell's DNA as chromatin, which is DNA wound around histone proteins.
+[bio7-s3.4.1] Function: the nucleus controls the cell's activities, because its DNA carries the genes that code for the cell's proteins, including the enzymes that control every reaction.
+[bio7-s3.4.2] The nucleus is where DNA is copied before cell division, and where genes are copied into messenger RNA (mRNA, the working copy of a gene that carries the code out to the ribosomes).
+[bio7-s3.4.3] The nucleolus is a dense region inside the nucleus where ribosomes are made.
+[bio7-s3.4.4] The nucleus is found in all eukaryotic cells except a few that lose it, for example mature human red blood cells. It is visible with the light microscope, especially when stained.
+[bio7-s3.4.5] Nuclear pore: one of many openings through the nuclear envelope, each lined with proteins that control what passes through it.
+[bio7-s3.4.6] mRNA and ribosome parts pass out to the cytoplasm. Proteins such as enzymes and histones, nucleotides (the building blocks of DNA and RNA) and ATP pass in. The DNA is too large to leave, so it stays protected in the nucleus.
+[bio7-s3.4.7] Nuclear pores are seen only with the electron microscope, because they are too small for the light microscope.
+[bio7-s3.5.b] The DNA in the nucleus is not a loose tangle. It is organised into chromosomes, which carry the genes and are passed on when cells divide and when organisms reproduce.
+[bio7-s3.5.0] Chromosome: a long thread of DNA wound around proteins (histones), carrying many genes (sections of DNA that code for proteins).
+[bio7-s3.5.1] For most of the cell's life the chromosomes are long, thin and spread out as chromatin, which is why they cannot be seen.
+[bio7-s3.5.2] Before division the chromosomes coil up tightly, becoming short and thick, and can then be seen with the light microscope when stained.
+[bio7-s3.5.3] Human body cells have 46 chromosomes (23 pairs).
+[bio7-s3.5.4] Function: chromosomes carry genetic information and pass it to new cells and offspring. There is more on this in Genetic Inheritance, and division is in Cell Division and Cancer.
+[bio7-s3.6.b] Proteins are made on tiny organelles called ribosomes, which read the code carried by mRNA. Every cell needs them, so they are one of the few organelles found in all cells.
+[bio7-s3.6.0] Ribosome: a very small organelle with no membrane, made of ribosomal RNA (rRNA) and protein, in two subunits.
+[bio7-s3.6.1] Function: the ribosome is the site of protein synthesis, where amino acids (the building blocks of proteins) are joined in the order coded for by mRNA.
+[bio7-s3.6.2] Ribosomes are found in all cells, prokaryotic (without a nucleus) and eukaryotic, free in the cytoplasm. There are many in cells making a lot of protein.
+[bio7-s3.6.3] Ribosomes are seen only with the electron microscope, as dots, because they are very small. There is more on this in DNA Replication, Protein Synthesis and Mutations.
+[bio7-s3.6.4] RNA but no DNA is found in ribosomes and in the cytoplasm of eukaryotic cells. DNA is in the nucleus, mitochondria and chloroplasts.
+[bio7-s3.7.b] Some proteins are not used inside the cell but are exported, such as digestive enzymes. The endoplasmic reticulum is the first stage of the assembly line that folds and transports them, and it also makes lipids.
+[bio7-s3.7.0] Endoplasmic reticulum (ER): a network of membrane-bound flattened sacs and tubes running through the cytoplasm, continuous with the outer membrane of the nuclear envelope. It forms channels that transport materials through the cell.
+[bio7-s3.7.1] Rough ER is covered with ribosomes. Proteins made at these ribosomes enter the ER, where they are folded and transported. These are mainly proteins that will be secreted from the cell (for example digestive enzymes made by pancreas cells, and antibodies) or built into membranes.
+[bio7-s3.7.2] Proteins made at free ribosomes stay in the cytoplasm. Cells that secrete a lot of protein have a lot of rough ER, as in pancreas cells secreting digestive enzymes.
+[bio7-s3.7.3] Smooth ER has no ribosomes. It makes lipids, including phospholipids for membranes and steroid hormones. In liver cells it helps to break down (detoxify) drugs and alcohol.
+[bio7-s3.7.4] The ER is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.b] The Golgi apparatus is the second stage of the assembly line: it modifies, sorts and packages proteins from the ER and ships them out of the cell.
+[bio7-s3.8.0] Golgi apparatus (Golgi body): a stack of flattened, curved membrane sacs, usually near the nucleus, with small membrane bubbles (vesicles) budding off it.
+[bio7-s3.8.1] The Golgi apparatus receives proteins from the ER in vesicles, modifies them (for example adding carbohydrate to make glycoproteins), and sorts and packages them into vesicles that carry them to where they are needed.
+[bio7-s3.8.2] Secretory vesicles move to the cell membrane, fuse with it and release their contents outside the cell (exocytosis). In plant cells the Golgi apparatus also makes materials for the cell wall.
+[bio7-s3.8.3] The Golgi apparatus is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.4] Secretory pathway, in order: gene in the nucleus, then mRNA leaves through a nuclear pore, then protein is made at a ribosome on the rough ER, then folded and carried in the ER.
+[bio7-s3.8.5] The protein then moves in a transport vesicle to the Golgi apparatus (modified and packaged), then in a secretory vesicle, which fuses with the cell membrane, and the protein is released, for example a digestive enzyme.
+[bio7-s3.8.6] Diagram: add rough ER (with ribosomes), smooth ER and the Golgi apparatus (with vesicles) to the animal-cell diagram, with arrows showing the secretory pathway.
+[bio7-s3.9.b] Plant and animal cells share the same core set of organelles, but plant cells have three extra structures that suit a life of making food and standing upright without a skeleton.
+[bio7-s3.9.0] Both have a cell membrane, cytoplasm, a nucleus with nuclear pores and chromosomes, mitochondria and ribosomes.
+[bio7-s3.9.1] Only plant cells have a cellulose cell wall, a large permanent central vacuole, and chloroplasts in green parts.
+[bio7-s3.9.2] Plant cells usually have a fixed, regular (often rectangular) shape, because the rigid wall holds them in place, and they store carbohydrate as starch.
+[bio7-s3.9.3] Animal cells have a flexible, irregular or rounded shape, no wall, only small temporary vacuoles, and store carbohydrate as glycogen.
+[bio7-s3.9.4] Seen with the light microscope: the cell wall, vacuole, chloroplasts and nucleus, with the cell membrane seen only as a line. Mitochondria, nuclear pores and ribosomes need the electron microscope.
+[bio7-s3.9.5] Diagram: a typical animal cell as seen with the electron microscope, labelled cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, nucleolus, chromatin, mitochondrion and ribosomes.
+[bio7-s3.9.6] Diagram: a typical plant cell (for example a palisade cell) as seen with the electron microscope, labelled cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes.
+
+CANDIDATES bio10-s1: Nucleotides, DNA and RNA
+[bio10-s1.0.b] Cells need a way to store instructions for building and running themselves. They use nucleic acids, long molecules made by joining many small units, and the unit that is repeated is the nucleotide. There are four kinds of nucleotide, which differ in their base.
+[bio10-s1.0.0] Nucleic acids, DNA and RNA, are large molecules (polymers) built from many small units called nucleotides joined in a chain, much as beads are threaded on a string.
+[bio10-s1.0.1] DNA is deoxyribonucleic acid; RNA is ribonucleic acid. Both contain the elements carbon, hydrogen, oxygen, nitrogen and phosphorus.
+[bio10-s1.0.2] Each nucleotide has three parts: a five-carbon (pentose) sugar, a phosphate group, and a nitrogenous base (a nitrogen-containing molecule) attached to the sugar.
+[bio10-s1.0.3] The sugar is deoxyribose in DNA and ribose in RNA. Deoxyribose has one fewer oxygen atom than ribose, which is where its name comes from: deoxy means an oxygen has been removed.
+[bio10-s1.0.4] Each nucleic acid has four bases. DNA: adenine (A), thymine (T), cytosine (C) and guanine (G). RNA: adenine (A), uracil (U), cytosine (C) and guanine (G); uracil takes the place of thymine.
+[bio10-s1.0.5] Adenine and guanine are larger, double-ringed bases, called purines; cytosine, thymine and uracil are smaller, single-ringed bases, called pyrimidines.
+[bio10-s1.0.6] A nucleotide is the building block of DNA and RNA, and its base is one letter of the genetic information. The order, or sequence, of bases along a strand carries the information, just as the order of letters makes a word.
+[bio10-s1.0.7] Modified nucleotides also carry energy. There is more on this in ATP.
+[bio10-s1.0.8] Diagram: one nucleotide drawn as a circle (phosphate) joined to a pentagon (sugar) joined to a rectangle (base), labelled phosphate, deoxyribose or ribose, and nitrogenous base.
+[bio10-s1.1.b] One nucleotide holds one letter of information, so to store a whole message the cell must link many of them together. The way they link leaves a strong chain with the bases free to carry the code.
+[bio10-s1.1.0] Nucleotides join by bonds between the sugar of one nucleotide and the phosphate of the next. These bonds are made in condensation reactions, in which a molecule of water is removed for each bond.
+[bio10-s1.1.1] The repeating sugar–phosphate–sugar–phosphate chain is the sugar–phosphate backbone. The bonds within it are strong covalent bonds, not hydrogen bonds.
+[bio10-s1.1.2] The bases stick out from the backbone, one per sugar. The backbone is the same in every DNA molecule; only the sequence of bases differs, so the bases carry the information and the backbone gives strength and support.
+[bio10-s1.2.b] DNA is not one chain but two, held together in a regular pattern. This shape explains how DNA can store information and be copied accurately.
+[bio10-s1.2.0] DNA is double-stranded: two strands of nucleotides lie side by side, with the sugar–phosphate backbones on the outside and the bases pointing inwards, like the rails and rungs of a ladder.
+[bio10-s1.2.1] The bases pair up: adenine always pairs with thymine (A–T) and cytosine always pairs with guanine (C–G). These are complementary base pairs.
+[bio10-s1.2.2] Each pair is one purine with one pyrimidine, so every rung is the same width and the ladder stays an even shape.
+[bio10-s1.2.3] The bases in a pair are held together by hydrogen bonds (weak attractions between molecules): two between A and T, and three between C and G.
+[bio10-s1.2.4] Each hydrogen bond is weak, so the strands can be separated, or unzipped, when DNA is copied or read. There are millions of hydrogen bonds, so the molecule as a whole is stable.
+[bio10-s1.2.5] The two linked strands are twisted around each other into a spiral called a double helix, like a twisted ladder.
+[bio10-s1.2.6] Because pairing is fixed, the two strands are complementary: the sequence of one strand decides the sequence of the other. For example, the strand ATGCCTAG pairs with TACGGATC.
+[bio10-s1.2.7] Diagram: a short section of DNA drawn as a straight ladder of about four base pairs, labelled sugar (deoxyribose), phosphate, sugar–phosphate backbone, base pairs A–T and C–G, and hydrogen bonds; with a sketch of the twisted double helix.
+[bio10-s1.3.b] Because A always pairs with T and C always pairs with G, the amounts of the bases in double-stranded DNA are linked. This lets you work out the percentage of every base from just one.
+[bio10-s1.3.0] In double-stranded DNA the amount of A equals the amount of T, and the amount of C equals the amount of G, because every A is paired with a T and every C with a G.
+[bio10-s1.3.1] For example, if 20% of the bases in a DNA sample are adenine, then 20% are thymine. That leaves 60% shared equally between cytosine and guanine, so each is 30%.
+[bio10-s1.4.b] The order of bases in DNA is the cell's set of instructions. DNA is kept in different places in different kinds of cell.
+[bio10-s1.4.0] DNA stores the genetic information (genes) that controls the cell's activities by coding for proteins. There is more on genes and proteins in Genes, proteins and traits.
+[bio10-s1.4.1] DNA is copied before a cell divides, so each new cell receives the full set of information, which means that it is passed from parents to offspring.
+[bio10-s1.4.2] In eukaryotic cells (cells with a nucleus), DNA is found mostly in the nucleus, in the chromosomes, with small amounts in mitochondria and chloroplasts.
+[bio10-s1.4.3] In bacteria, DNA forms a loop in the cytoplasm and is also found in small rings called plasmids.
+[bio10-s1.5.b] The structure of DNA was worked out by combining physical evidence with model building. It is a good example of how scientists build on each other's data.
+[bio10-s1.5.0] The double-helix model was published by James Watson and Francis Crick in 1953. It was based on X-ray diffraction images of DNA (patterns made when X-rays pass through DNA, which reveal its shape) made by Rosalind Franklin, working with Maurice Wilkins.
+[bio10-s1.6.b] DNA stays safe in the nucleus, so the cell needs a working copy of its instructions to take out and use. That working copy is RNA, a similar molecule with a few key differences.
+[bio10-s1.6.0] RNA is usually single-stranded: one chain of nucleotides with its own sugar–phosphate backbone. RNA molecules are much shorter than DNA molecules.
+[bio10-s1.6.1] RNA nucleotides contain ribose instead of deoxyribose, and uracil instead of thymine. Uracil pairs with adenine (A–U) whenever RNA pairs with DNA or with another RNA.
+[bio10-s1.6.2] A single strand can fold back on itself where its bases pair up, giving some RNA molecules a fixed shape.
+[bio10-s1.6.3] RNA uses the information in DNA to make proteins, so it acts as the go-between for DNA and the protein-making machinery.
+[bio10-s1.6.4] Three main types of RNA are named here, with no more detail. Messenger RNA (mRNA) carries a copy of a gene from the nucleus to a ribosome (the structure that makes proteins).
+[bio10-s1.6.5] Transfer RNA (tRNA) brings amino acids to the ribosome; ribosomal RNA (rRNA) forms part of the ribosome. There is more on this in DNA Replication, Protein Synthesis and Mutations.
+[bio10-s1.6.6] RNA is made in the nucleus and works in the cytoplasm, so it carries information out to where proteins are made. It is found in the nucleus (including the nucleolus), the cytoplasm and the ribosomes.
+[bio10-s1.6.7] Diagram: a short single RNA strand of about four nucleotides, labelled ribose, phosphate, backbone and bases, including uracil.
+[bio10-s1.7.b] Put side by side, DNA and RNA differ in structure, stability and job. The differences fit their roles: DNA is a long-term store and RNA is a short-lived working copy.
+[bio10-s1.7.0] Strands: DNA is a double-stranded helix, which suits long-term storage; RNA is usually single-stranded.
+[bio10-s1.7.1] Sugar: DNA contains deoxyribose; RNA contains ribose.
+[bio10-s1.7.2] Bases: DNA has A, T, C and G; RNA has A, U, C and G, with uracil instead of thymine.
+[bio10-s1.7.3] Pairing: A–T in DNA; A–U in RNA.
+[bio10-s1.7.4] Size and life span: DNA is very long and stable and is kept for the life of the cell; RNA molecules are shorter and are broken down after use, so each copy is only a temporary message.
+[bio10-s1.7.5] Location: DNA is mainly in the nucleus, with some in mitochondria and chloroplasts; RNA is in the nucleus, the cytoplasm and the ribosomes.
+[bio10-s1.7.6] Function: DNA stores the genetic information; RNA carries and uses that information to make proteins.

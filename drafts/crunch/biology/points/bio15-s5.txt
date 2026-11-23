@@ -1,0 +1,268 @@
+TARGET bio15-s5: The mitochondrion's internal structure and ATP synthase
+[bio15-s5.0.b] A mitochondrion is an organelle (a specialised compartment inside a cell). Its inside is divided into distinct regions by two membranes, and each region has a job.
+[bio15-s5.0.0] Outer membrane: smooth, it surrounds the mitochondrion and is permeable to small molecules such as pyruvate, ADP and ATP, so these can move freely in and out.
+[bio15-s5.0.1] Inner membrane: folded into many cristae (singular crista), which greatly increase its surface area. It holds the electron transport chains and ATP synthase (the enzyme that makes ATP). It is impermeable to protons except through ATP synthase.
+[bio15-s5.0.2] Intermembrane space: the narrow space between the outer and inner membranes, into which protons are moved. This is the space "outside the inner membrane" in the specification's wording, not outside the mitochondrion.
+[bio15-s5.0.3] Matrix: the fluid inside the inner membrane. It contains the enzymes of the link step and the citric acid cycle (the earlier stages of respiration that deliver electrons to the chain).
+[bio15-s5.0.4] The matrix also holds the mitochondrion's own small loop of DNA and its ribosomes (the structures that build proteins), so the mitochondrion makes some of its own proteins.
+[bio15-s5.0.5] Diagram: electron-microscope-level drawing of a mitochondrion in section. Label outer membrane, inner membrane, cristae, intermembrane space, matrix, DNA, ribosomes, and ATP synthase drawn as small knobs on the matrix side of the cristae.
+[bio15-s5.1.b] The electron transport chain is the machinery that passes electrons along a series of steps, releasing energy at each one. It is built into the inner membrane, so the membrane's structure matters.
+[bio15-s5.1.0] The chain is made of a number of large protein complexes embedded in, and spanning, the inner membrane (reaching from one side to the other).
+[bio15-s5.1.1] Smaller mobile electron carriers link the complexes. They move within or along the membrane and carry electrons from one complex to the next, so the electrons are handed on step by step.
+[bio15-s5.1.2] NADH (the carrier that brings electrons from earlier stages of respiration) delivers electrons to the first complex. The electrons then move from complex to complex, each at a lower energy level.
+[bio15-s5.1.3] At the last complex the electrons are passed to oxygen, forming water. There is more on this in Second-stage process.
+[bio15-s5.2.b] The electrons do not make ATP directly. Their energy is used to build up a store of protons on one side of the inner membrane, and the protons' flow back drives ATP synthase. The sequence runs in seven steps.
+[bio15-s5.2.0] 1. Electrons arrive: high-energy electrons from NADH are transferred to a protein complex in the inner membrane. Electrons are negatively charged, so their arrival gives the complex a negative charge, a charge difference.
+[bio15-s5.2.1] 2. Protons are attracted: the charge difference attracts positively charged protons (H⁺) to the complex. The protons are given by donor molecules: NADH releases a proton when it gives up its electrons, and more protons come from the solution in the matrix.
+[bio15-s5.2.2] 3. Protons are moved out: the protons pass through the complex from the matrix side to the outside of the inner membrane, into the intermembrane space. Energy from the electrons drives this. It happens at several complexes along the chain as the electrons pass from one to the next. Textbooks call this proton pumping.
+[bio15-s5.2.3] 4. A gradient builds: protons accumulate in the narrow intermembrane space, giving a high concentration of protons outside the inner membrane and a low concentration in the matrix. This proton (concentration) gradient is a store of energy, like water held behind a dam. It also makes the intermembrane space more positive and more acidic than the matrix.
+[bio15-s5.2.4] 5. Protons flow back: the inner membrane lets protons through only at the enzyme ATP synthase. They flow back down their gradient, from the intermembrane space across the inner membrane into the matrix, through a channel in ATP synthase. They do not pass back through the electron transport complexes.
+[bio15-s5.2.5] 6. ATP is made: ATP synthase harnesses the flow of protons. It turns part of the enzyme, like a water wheel or turbine, and uses the energy to join ADP and Pi (inorganic phosphate) into ATP on the matrix side.
+[bio15-s5.2.6] 7. Oxygen keeps the system running: oxygen accepts the electrons and protons at the end of the chain, forming water, so electrons keep flowing and protons keep being moved out. Without oxygen, the gradient is not maintained and ATP synthase stops.
+[bio15-s5.2.7] Diagram: inner membrane, matrix below, intermembrane space above. Show NADH → NAD⁺ + H⁺ + 2e⁻; electron arrow; many H⁺ up; ½O₂ + 2H⁺ + 2e⁻ → H₂O; H⁺ down ATP synthase, ADP + Pi → ATP. Label protein complex, mobile electron carrier, inner membrane, intermembrane space, matrix, ATP synthase, proton gradient.
+[bio15-s5.3.b] The process in the last block has a name, and its history shows how a new scientific idea can win acceptance.
+[bio15-s5.3.0] Making ATP using a proton gradient across a membrane is called chemiosmosis.
+[bio15-s5.3.1] Nature of Science: the idea was proposed by the British biochemist Peter Mitchell in 1961 and was at first widely doubted. He was awarded the Nobel Prize in Chemistry in 1978, once experiments had supported it.
+[bio15-s5.4.b] Each feature of the mitochondrion's structure suits the way the proton gradient is built and used. Linking a feature to its effect is how you answer structure-and-function questions.
+[bio15-s5.4.0] Cristae: folding gives a large area of inner membrane, which holds very many electron transport chains and ATP synthase molecules, so more ATP can be made. Mitochondria in very active cells, such as heart and flight muscle, have more densely packed cristae.
+[bio15-s5.4.1] Narrow intermembrane space: its small volume means that protons moved into it quickly build up a high concentration and a steep gradient.
+[bio15-s5.4.2] Impermeable inner membrane: the gradient is kept, and protons can return only through ATP synthase, so their energy is not wasted.
+[bio15-s5.4.3] Complexes embedded in the membrane in a fixed order: electrons pass quickly and in sequence, and protons are moved in one direction only, across the membrane.
+[bio15-s5.4.4] Matrix next to the inner membrane: the enzymes of the link step and the citric acid cycle are right beside the chains, so NADH is delivered quickly. ATP is made into the matrix, from where it is exported to the cytoplasm.
+[bio15-s5.4.5] Double membrane: separates the matrix's enzymes and conditions from the cytoplasm. The outer and inner membranes together create the intermembrane space.
+[bio15-s5.4.6] Own DNA and ribosomes: the mitochondrion makes some of its own proteins, including some of the chain's, and can divide to make more mitochondria when a cell needs more energy, for example in muscles during training.
+[bio15-s5.5.b] Chloroplasts (the organelles where photosynthesis happens) make ATP using a very similar mechanism, built into their thylakoid membranes (flattened internal membrane sacs). The two organelles are alike in several ways, then differ in the details.
+[bio15-s5.5.0] Both have electron transport chains of protein complexes and mobile electron carriers embedded in a membrane.
+[bio15-s5.5.1] Both use the energy of electrons passing along the chain to move protons across the membrane, building a proton gradient, and both make ATP as protons flow back through ATP synthase (chemiosmosis).
+[bio15-s5.5.2] Both have a large membrane area, from cristae in the mitochondrion or stacked thylakoids in the chloroplast, so each can hold many chains and ATP synthase molecules.
+[bio15-s5.5.3] Both organelles have their own DNA and ribosomes.
+[bio15-s5.6.b] The shared mechanism is fed by different energy and electron sources, and it sits in different membranes and compartments. Compare each feature as a pair.
+[bio15-s5.6.0] Source of energy: the mitochondrion uses chemical energy from food (glucose), delivered as electrons by NADH; the chloroplast uses light energy, absorbed by chlorophyll.
+[bio15-s5.6.1] Source of electrons: NADH, from glucose, in the mitochondrion; water, via the reaction-centre chlorophyll, in the chloroplast.
+[bio15-s5.6.2] Final electron acceptor: oxygen, forming water, in the mitochondrion; NADP⁺, forming NADPH, in the chloroplast (non-cyclic pathway).
+[bio15-s5.6.3] Oxygen: used at the end of the chain in mitochondria; released by photolysis (the splitting of water) in chloroplasts.
+[bio15-s5.6.4] Which membrane: the inner membrane of the envelope (cristae) in the mitochondrion; the thylakoid membrane, a separate internal membrane system, in the chloroplast, not its envelope.
+[bio15-s5.6.5] Where protons build up: in the intermembrane space, between the inner and outer membranes, in the mitochondrion; inside the thylakoid space in the chloroplast.
+[bio15-s5.6.6] Where ATP is made and used: in the matrix, then exported for use all over the cell, in the mitochondrion; in the stroma (the fluid around the thylakoids), where it is used in the light-independent reactions, in the chloroplast.
+[bio15-s5.6.7] Diagram: side-by-side sketches of a section of the inner mitochondrial membrane and a section of the thylakoid membrane. Each shows its chain, the direction of proton movement, the high-proton compartment (intermembrane space; thylakoid space) and ATP synthase. Label the electron source and final acceptor on each.
+
+CANDIDATES bio7-s3: Structures and organelles of animal and plant cells
+[bio7-s3.0.b] Every cell needs a boundary that holds it together and controls what gets in and out. Plant cells have two layers of boundary: a tough cell wall outside and a thin cell membrane just inside it.
+[bio7-s3.0.0] Cell wall: a rigid layer outside the cell membrane, made mainly of cellulose fibres in plants. It is fully permeable, so water and dissolved substances pass through it freely.
+[bio7-s3.0.1] The cell wall gives strength, support and a fixed shape. It stops the cell bursting when it takes in water by osmosis (water moving in across the membrane), so the cell becomes firm (turgid), which supports non-woody plants.
+[bio7-s3.0.2] Cell walls are found in plant cells, in fungi (where they are made of chitin) and in bacteria, but not in animal cells. The cell wall is visible with the light microscope.
+[bio7-s3.0.3] Cell membrane (plasma membrane): a very thin, flexible boundary around every cell, made of a double layer of phospholipids (fatty molecules) with proteins in it. It is selectively permeable, so it controls which substances enter and leave, and it holds the cell contents together.
+[bio7-s3.0.4] Proteins in the cell membrane act as receptors that recognise hormones and other signals, and as markers that let cells recognise each other.
+[bio7-s3.0.5] The cell membrane is found in all cells, and lies inside the wall in plant cells. With the light microscope it is seen only as a line. There is more on this in Transport Across Membranes.
+[bio7-s3.1.b] Inside the membrane, the cell's contents sit in a watery fluid, and plant cells also have a large fluid-filled sac that helps hold them firm. Together these provide the setting for the cell's chemistry and its support.
+[bio7-s3.1.0] Cytoplasm: everything inside the cell membrane except the nucleus. It is a watery, jelly-like fluid (cytosol) containing dissolved nutrients, salts and enzymes (proteins that speed up reactions), in which the organelles (the cell's specialised working parts) are suspended.
+[bio7-s3.1.1] The cytoplasm is the site of many metabolic reactions (the chemical reactions of the cell), for example the first stage of respiration (glucose broken down to pyruvate) and anaerobic respiration (respiration without oxygen). It is also where proteins are made at free ribosomes. It is found in all cells.
+[bio7-s3.1.2] Vacuole: a fluid-filled sac surrounded by a single membrane. A mature plant cell has one large permanent central vacuole filled with cell sap, which is water containing sugars, salts and sometimes pigments, for example the red of beetroot.
+[bio7-s3.1.3] The plant vacuole stores water, food and waste. It takes in water by osmosis and pushes the cytoplasm against the wall, which keeps the cell turgid and the plant upright. When water is lost, plants wilt.
+[bio7-s3.1.4] Animal cells have only small, temporary vacuoles, for example food vacuoles. Some single-celled protists such as Amoeba have contractile vacuoles that pump out excess water.
+[bio7-s3.1.5] The plant vacuole is visible with the light microscope.
+[bio7-s3.2.b] Cells need a constant supply of usable energy. Mitochondria are the organelles that release it from food, so cells with high energy demands are packed with them.
+[bio7-s3.2.0] Mitochondrion (plural mitochondria): a rod- or sausage-shaped organelle with a double membrane. The outer membrane is smooth, and the inner membrane is folded into cristae.
+[bio7-s3.2.1] The folds of the cristae give a large surface area for the enzymes of the later stages of aerobic respiration (respiration using oxygen). The fluid inside the inner membrane is the matrix.
+[bio7-s3.2.2] Function: the site of most of aerobic respiration, releasing energy from food to make most of the cell's ATP (the molecule that carries energy for cell activities).
+[bio7-s3.2.3] Mitochondria are found in almost all eukaryotic cells (cells with a nucleus), in plants as well as animals. Plant cells respire as well as photosynthesise, so they need mitochondria too.
+[bio7-s3.2.4] Cells that need a lot of energy have many mitochondria, for example muscle cells, liver cells, nerve cells and the middle section of sperm.
+[bio7-s3.2.5] Mitochondria contain their own DNA and ribosomes. They are too small to show detail with the light microscope, so their structure is seen with the electron microscope.
+[bio7-s3.2.6] Diagram: a mitochondrion in section labelled outer membrane, inner membrane, cristae and matrix.
+[bio7-s3.3.b] Plants make their own food by photosynthesis, and the organelle that does this is the chloroplast. Its green pigment captures light, and its fluid interior builds sugar.
+[bio7-s3.3.0] Chloroplast: a disc-shaped organelle with a double membrane. It contains stacks of flattened membrane sacs (thylakoids; a stack is a granum) that carry the green pigment chlorophyll.
+[bio7-s3.3.1] The chloroplast is surrounded by a fluid called the stroma, and starch grains may be stored in the stroma.
+[bio7-s3.3.2] Function: the site of photosynthesis. Chlorophyll in the thylakoid membranes absorbs light energy (the light-dependent stage). The stroma contains the enzymes that use this energy to make glucose from carbon dioxide (the light-independent stage).
+[bio7-s3.3.3] The many stacked membranes give a large surface area for absorbing light. There is more on this in Photosynthesis.
+[bio7-s3.3.4] Chloroplasts are found only in plant cells (and algae), in parts exposed to light, especially the palisade cells of leaves and guard cells.
+[bio7-s3.3.5] Not all plant cells have chloroplasts. They are not found in root cells or in onion bulb cells, which are not exposed to light, and they are never found in animal cells.
+[bio7-s3.3.6] Chloroplasts are visible as green discs with the light microscope. They contain their own DNA and ribosomes.
+[bio7-s3.3.7] Diagram: a chloroplast labelled double membrane, thylakoids, granum, stroma and starch grain.
+[bio7-s3.4.b] The nucleus is the cell's control centre. It holds the instructions for making proteins, and nuclear pores are the gateways that let the right materials move between the nucleus and the rest of the cell.
+[bio7-s3.4.0] Nucleus: usually the largest organelle, round or oval, surrounded by a double membrane called the nuclear envelope. It contains the cell's DNA as chromatin, which is DNA wound around histone proteins.
+[bio7-s3.4.1] Function: the nucleus controls the cell's activities, because its DNA carries the genes that code for the cell's proteins, including the enzymes that control every reaction.
+[bio7-s3.4.2] The nucleus is where DNA is copied before cell division, and where genes are copied into messenger RNA (mRNA, the working copy of a gene that carries the code out to the ribosomes).
+[bio7-s3.4.3] The nucleolus is a dense region inside the nucleus where ribosomes are made.
+[bio7-s3.4.4] The nucleus is found in all eukaryotic cells except a few that lose it, for example mature human red blood cells. It is visible with the light microscope, especially when stained.
+[bio7-s3.4.5] Nuclear pore: one of many openings through the nuclear envelope, each lined with proteins that control what passes through it.
+[bio7-s3.4.6] mRNA and ribosome parts pass out to the cytoplasm. Proteins such as enzymes and histones, nucleotides (the building blocks of DNA and RNA) and ATP pass in. The DNA is too large to leave, so it stays protected in the nucleus.
+[bio7-s3.4.7] Nuclear pores are seen only with the electron microscope, because they are too small for the light microscope.
+[bio7-s3.5.b] The DNA in the nucleus is not a loose tangle. It is organised into chromosomes, which carry the genes and are passed on when cells divide and when organisms reproduce.
+[bio7-s3.5.0] Chromosome: a long thread of DNA wound around proteins (histones), carrying many genes (sections of DNA that code for proteins).
+[bio7-s3.5.1] For most of the cell's life the chromosomes are long, thin and spread out as chromatin, which is why they cannot be seen.
+[bio7-s3.5.2] Before division the chromosomes coil up tightly, becoming short and thick, and can then be seen with the light microscope when stained.
+[bio7-s3.5.3] Human body cells have 46 chromosomes (23 pairs).
+[bio7-s3.5.4] Function: chromosomes carry genetic information and pass it to new cells and offspring. There is more on this in Genetic Inheritance, and division is in Cell Division and Cancer.
+[bio7-s3.6.b] Proteins are made on tiny organelles called ribosomes, which read the code carried by mRNA. Every cell needs them, so they are one of the few organelles found in all cells.
+[bio7-s3.6.0] Ribosome: a very small organelle with no membrane, made of ribosomal RNA (rRNA) and protein, in two subunits.
+[bio7-s3.6.1] Function: the ribosome is the site of protein synthesis, where amino acids (the building blocks of proteins) are joined in the order coded for by mRNA.
+[bio7-s3.6.2] Ribosomes are found in all cells, prokaryotic (without a nucleus) and eukaryotic, free in the cytoplasm. There are many in cells making a lot of protein.
+[bio7-s3.6.3] Ribosomes are seen only with the electron microscope, as dots, because they are very small. There is more on this in DNA Replication, Protein Synthesis and Mutations.
+[bio7-s3.6.4] RNA but no DNA is found in ribosomes and in the cytoplasm of eukaryotic cells. DNA is in the nucleus, mitochondria and chloroplasts.
+[bio7-s3.7.b] Some proteins are not used inside the cell but are exported, such as digestive enzymes. The endoplasmic reticulum is the first stage of the assembly line that folds and transports them, and it also makes lipids.
+[bio7-s3.7.0] Endoplasmic reticulum (ER): a network of membrane-bound flattened sacs and tubes running through the cytoplasm, continuous with the outer membrane of the nuclear envelope. It forms channels that transport materials through the cell.
+[bio7-s3.7.1] Rough ER is covered with ribosomes. Proteins made at these ribosomes enter the ER, where they are folded and transported. These are mainly proteins that will be secreted from the cell (for example digestive enzymes made by pancreas cells, and antibodies) or built into membranes.
+[bio7-s3.7.2] Proteins made at free ribosomes stay in the cytoplasm. Cells that secrete a lot of protein have a lot of rough ER, as in pancreas cells secreting digestive enzymes.
+[bio7-s3.7.3] Smooth ER has no ribosomes. It makes lipids, including phospholipids for membranes and steroid hormones. In liver cells it helps to break down (detoxify) drugs and alcohol.
+[bio7-s3.7.4] The ER is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.b] The Golgi apparatus is the second stage of the assembly line: it modifies, sorts and packages proteins from the ER and ships them out of the cell.
+[bio7-s3.8.0] Golgi apparatus (Golgi body): a stack of flattened, curved membrane sacs, usually near the nucleus, with small membrane bubbles (vesicles) budding off it.
+[bio7-s3.8.1] The Golgi apparatus receives proteins from the ER in vesicles, modifies them (for example adding carbohydrate to make glycoproteins), and sorts and packages them into vesicles that carry them to where they are needed.
+[bio7-s3.8.2] Secretory vesicles move to the cell membrane, fuse with it and release their contents outside the cell (exocytosis). In plant cells the Golgi apparatus also makes materials for the cell wall.
+[bio7-s3.8.3] The Golgi apparatus is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.4] Secretory pathway, in order: gene in the nucleus, then mRNA leaves through a nuclear pore, then protein is made at a ribosome on the rough ER, then folded and carried in the ER.
+[bio7-s3.8.5] The protein then moves in a transport vesicle to the Golgi apparatus (modified and packaged), then in a secretory vesicle, which fuses with the cell membrane, and the protein is released, for example a digestive enzyme.
+[bio7-s3.8.6] Diagram: add rough ER (with ribosomes), smooth ER and the Golgi apparatus (with vesicles) to the animal-cell diagram, with arrows showing the secretory pathway.
+[bio7-s3.9.b] Plant and animal cells share the same core set of organelles, but plant cells have three extra structures that suit a life of making food and standing upright without a skeleton.
+[bio7-s3.9.0] Both have a cell membrane, cytoplasm, a nucleus with nuclear pores and chromosomes, mitochondria and ribosomes.
+[bio7-s3.9.1] Only plant cells have a cellulose cell wall, a large permanent central vacuole, and chloroplasts in green parts.
+[bio7-s3.9.2] Plant cells usually have a fixed, regular (often rectangular) shape, because the rigid wall holds them in place, and they store carbohydrate as starch.
+[bio7-s3.9.3] Animal cells have a flexible, irregular or rounded shape, no wall, only small temporary vacuoles, and store carbohydrate as glycogen.
+[bio7-s3.9.4] Seen with the light microscope: the cell wall, vacuole, chloroplasts and nucleus, with the cell membrane seen only as a line. Mitochondria, nuclear pores and ribosomes need the electron microscope.
+[bio7-s3.9.5] Diagram: a typical animal cell as seen with the electron microscope, labelled cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, nucleolus, chromatin, mitochondrion and ribosomes.
+[bio7-s3.9.6] Diagram: a typical plant cell (for example a palisade cell) as seen with the electron microscope, labelled cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes.
+
+CANDIDATES bio9-s1: ATP
+[bio9-s1.0.b] A transfer molecule carries energy, or electrons and hydrogen, from the reaction that releases them to the reaction that uses them.
+[bio9-s1.0.0] A transfer molecule is not used up: after handing on its load it returns to be recharged, like a rechargeable battery, so a cell needs only a small amount of each one, recycled continuously.
+[bio9-s1.0.1] ATP is the main energy-transfer molecule in all living cells, from bacteria to humans, which is why it is called the energy currency of the cell: it is the common 'money' every reaction accepts.
+[bio9-s1.0.2] Metabolism is all the chemical reactions in a cell. These reactions fall into two types, catabolic and anabolic.
+[bio9-s1.0.3] Catabolic reactions break large molecules into smaller ones and release energy, e.g. respiration, which breaks down food such as glucose.
+[bio9-s1.0.4] Anabolic reactions build large molecules from smaller ones and need energy, e.g. protein synthesis and photosynthesis.
+[bio9-s1.0.5] ATP links the two: catabolic reactions make ATP, and anabolic reactions and other cell work use it, so energy released in one place can be spent in another. There is more on this in Biomolecules and metabolism.
+[bio9-s1.1.b] ATP is a small molecule with three parts, and its name tells you what they are. Knowing the parts matters because the exam asks you to name them and draw them.
+[bio9-s1.1.0] ATP stands for adenosine triphosphate. It is made of three parts: the nitrogenous base adenine, the five-carbon sugar ribose, and a chain of three phosphate groups attached to the ribose.
+[bio9-s1.1.1] Adenine joined to ribose is called adenosine; 'tri' means three phosphates. So adenosine triphosphate is adenosine with three phosphates attached.
+[bio9-s1.1.2] ATP is a modified nucleotide, built to the same plan of base, sugar and phosphate as an RNA nucleotide (a building block of RNA). There is more on this in Nucleotides, DNA and RNA.
+[bio9-s1.1.3] ADP (adenosine diphosphate) has only two phosphate groups, one fewer than ATP.
+[bio9-s1.1.4] Pi (inorganic phosphate) is a single free phosphate group, not attached to any larger molecule.
+[bio9-s1.1.5] Diagram: ATP drawn as a box labelled adenine, joined to a pentagon labelled ribose, joined to a chain of three circles labelled phosphate, with the bond to the third (end) phosphate marked as the one broken to release energy; a second sketch showing ADP + Pi.
+[bio9-s1.2.b] A cell gets energy from ATP by removing its end phosphate. The reaction is simple, but its features explain why ATP is such a useful energy source.
+[bio9-s1.2.0] Energy is released when the end phosphate is removed: ATP + H₂O → ADP + Pi + energy. So the products of ATP breakdown are ADP, Pi and energy.
+[bio9-s1.2.1] The reaction uses water to split the molecule, so it is a hydrolysis reaction. It is catalysed (sped up) by an enzyme called ATPase.
+[bio9-s1.2.2] The bond to the end phosphate is often called a high-energy bond: it is easily broken, and the reaction releases about 30 kJ per mole of ATP (30.5 kJ/mol) under standard conditions.
+[bio9-s1.2.3] The energy is released in one quick step, in a small packet that suits a single reaction and is available right where the cell needs it.
+[bio9-s1.2.4] Often the released phosphate is attached to another molecule, such as a carrier protein or a reactant (a molecule taking part in a reaction). This makes it more reactive or changes its shape so that it can do work.
+[bio9-s1.3.b] ATP is not used up for good. Once its end phosphate has been removed, the cell puts a phosphate back on to ADP, which needs an input of energy.
+[bio9-s1.3.0] ATP is remade by adding a phosphate group back on to ADP: ADP + Pi + energy → ATP + H₂O.
+[bio9-s1.3.1] Adding phosphate is called phosphorylation. It is catalysed by enzymes, mainly ATP synthase, the enzyme that makes most of the cell's ATP.
+[bio9-s1.3.2] In all living cells, the energy to make ATP comes from respiration, the breakdown of food such as glucose. Some ATP is made in the cytoplasm and most in the mitochondria. There is more on this in Respiration.
+[bio9-s1.3.3] In plants and algae, ATP is also made in the light-dependent stage of photosynthesis in the chloroplasts, using light energy. This ATP is used inside the chloroplast to make glucose.
+[bio9-s1.4.b] Breaking down ATP and remaking it are two halves of one loop. Because the loop runs all the time, a cell can keep spending energy without running out of ATP.
+[bio9-s1.4.0] ATP is continuously broken down to ADP + Pi to release energy for cell work, and ADP + Pi are continuously rebuilt into ATP using energy from respiration (or light). This loop is the ATP/ADP cycle.
+[bio9-s1.4.1] Cells hold only a small store of ATP at any time. Each molecule is recycled many times, so ATP must be made constantly while a cell is alive.
+[bio9-s1.4.2] When respiration stops, for example after a long time without oxygen or in the presence of a poison that blocks respiration, ATP runs out within minutes and cell processes fail.
+[bio9-s1.4.3] Diagram: the ATP/ADP cycle as a circle, with ATP at the top and ADP + Pi at the bottom; one arrow down labelled energy released for cell work: muscle contraction, active transport, synthesis; one arrow up labelled energy in from respiration (and light in photosynthesis).
+[bio9-s1.5.b] Almost every energy-demanding job in a cell runs on ATP. The main uses are movement, moving substances across membranes and building molecules.
+[bio9-s1.5.0] Muscle contraction: ATP provides the energy for protein filaments in muscle fibres to slide past each other, shortening the muscle. Very active muscle cells therefore contain many mitochondria, to make plenty of ATP.
+[bio9-s1.5.1] Active transport: carrier proteins in the cell membrane use energy from ATP to pump substances against their concentration gradient (from low to high concentration), e.g. root hair cells taking in mineral ions from dilute soil water.
+[bio9-s1.5.2] The sodium–potassium pump in nerve cells uses ATP to restore the ion balance after an impulse. There is more on this in Transport Across Membranes.
+[bio9-s1.5.3] Synthesis (anabolic reactions): ATP is needed to join amino acids into proteins at ribosomes, to make DNA when it is copied before cell division, and to make glycogen and starch from glucose.
+[bio9-s1.5.4] The light-independent stage of photosynthesis uses ATP to build glucose from carbon dioxide.
+[bio9-s1.5.5] Other uses: cell division (moving chromosomes), movement of cilia and flagella (hair-like and whip-like projections), and the light produced by fireflies (bioluminescence), where the enzyme luciferase uses ATP.
+[bio9-s1.6.b] Glucose holds a lot of energy, yet cells do not run reactions straight from it. They first use its energy to make ATP, and this is the better arrangement for several reasons.
+[bio9-s1.6.0] Breaking down one glucose molecule releases far more energy than any single reaction needs, and it does so over many steps.
+[bio9-s1.6.1] ATP releases a small, manageable amount, matched to one reaction, in a single step, so less energy is wasted as heat.
+[bio9-s1.6.2] ATP is available instantly where it is needed and is easily recycled. One type of molecule can supply energy to every kind of reaction in the cell.
+[bio9-s1.6.3] ATP is a short-term energy carrier, not a store. Long-term energy is stored in starch (plants), glycogen (animals and fungi) and fats and oils, which respiration uses to make ATP when needed.
+[bio9-s1.7.b] Fireflies make light using ATP, and this has been put to practical use. Because the light needs ATP, it can reveal whether living material is present.
+[bio9-s1.7.0] Because every living cell contains ATP, hygiene tests in food factories and hospitals swab a surface and add luciferase, the firefly enzyme that gives off light when ATP is present.
+[bio9-s1.7.1] Light given off shows that ATP is present, and therefore that living or recently living material, such as bacteria or food residue, is on the surface.
+
+CANDIDATES bio15-s4: Second-stage process
+[bio15-s4.0.b] Glycolysis (the first stage of respiration, in the cytoplasm) only splits glucose part of the way and ends with pyruvate. If oxygen is available, the cell passes pyruvate on to the second stage, and the first job there is a short link step that prepares it for the citric acid cycle.
+[bio15-s4.0.0] When oxygen is present, each pyruvate (a 3-carbon molecule, C₃) made in glycolysis moves from the cytoplasm into the matrix of a mitochondrion. The matrix is the fluid-filled space inside the inner membrane.
+[bio15-s4.0.1] In the matrix, pyruvate is broken down. One carbon atom is removed as one molecule of carbon dioxide, and hydrogen is removed and picked up by NAD⁺ (a hydrogen carrier), which turns it into NADH.
+[bio15-s4.0.2] The remaining two-carbon (acetyl) group is joined to coenzyme A, a carrier molecule, forming acetyl coenzyme A (acetyl CoA, C₂). Per pyruvate: pyruvate + coenzyme A + NAD⁺ → acetyl CoA + CO₂ + NADH.
+[bio15-s4.0.3] Each glucose gives two pyruvate, so this link step happens twice per glucose, producing 2 CO₂ and 2 NADH.
+[bio15-s4.1.b] Acetyl CoA is the fuel for the citric acid cycle, which strips the carbon from the acetyl group off as CO₂ and loads hydrogen onto carriers. Because the cycle rebuilds its starting compound every turn, it can keep running as long as acetyl CoA keeps arriving.
+[bio15-s4.1.0] The citric acid cycle, also called the Krebs cycle, is a cycle of enzyme-controlled reactions in the matrix of the mitochondrion, not on the cristae (the folds of the inner membrane).
+[bio15-s4.1.1] 1. The acetyl CoA passes its two-carbon acetyl group into the cycle, where it joins a four-carbon compound to form citric acid (C₆), which gives the cycle its name. Coenzyme A is released to collect another acetyl group.
+[bio15-s4.1.2] 2. In a series of steps, citric acid is broken down back to the four-carbon compound. This is regenerated to accept the next acetyl group, which is why it is a cycle.
+[bio15-s4.1.3] 3. During each turn, two carbon atoms are removed as two molecules of CO₂, so the carbon of the acetyl group leaves as CO₂.
+[bio15-s4.1.4] 4. Hydrogen, as protons and electrons, is removed at several steps and loaded onto NAD⁺, forming NADH. A small amount of ATP, one per turn, is also made directly.
+[bio15-s4.1.5] The cycle turns twice for each glucose, once per acetyl CoA. With the link step, all six carbon atoms of glucose have now left as six molecules of CO₂, matching the 6CO₂ in the respiration equation. Glycolysis releases none.
+[bio15-s4.1.6] The specification's products are CO₂ and H₂O. The CO₂ is released directly. The hydrogen removed is carried by NADH to the electron transport chain, where it ends up in water, so water is not made in the cycle itself.
+[bio15-s4.1.7] The cycle does not need oxygen directly, but it stops without oxygen, because NADH cannot be unloaded and NAD⁺ runs out.
+[bio15-s4.2.b] Most of the energy in glucose is still locked up in the hydrogen carried by NADH. The electron transport chain releases it in small steps and uses it to make ATP, which is why far more ATP per glucose is made in the second stage than the net 2 ATP of glycolysis. Aerobic respiration (respiration with oxygen) therefore releases many times more energy per glucose than fermentation.
+[bio15-s4.2.0] The electron transport chain is a series of electron carriers (protein complexes and mobile carriers) in the inner mitochondrial membrane, especially on the folds called cristae.
+[bio15-s4.2.1] 1. NADH from glycolysis, the link step and the citric acid cycle delivers its high-energy electrons and protons to the start of the chain. NAD⁺ is released to collect more.
+[bio15-s4.2.2] 2. The electrons are passed from carrier to carrier, each at a lower energy level. The energy released at each transfer is used to make ATP from ADP and Pi (phosphate).
+[bio15-s4.2.3] 3. Oxygen is the final electron acceptor. At the end of the chain, low-energy electrons combine with oxygen and protons (H⁺) to form water: 4e⁻ + 4H⁺ + O₂ → 2H₂O. It is the only step of respiration using oxygen directly, and the source of the 6H₂O in the equation.
+[bio15-s4.2.4] 4. If oxygen is absent, electrons cannot leave the end of the chain, so the whole chain stops. NADH cannot be unloaded, so the citric acid cycle and the link step stop too, and the cell can then only carry out glycolysis and fermentation.
+[bio15-s4.2.5] Cyanide is a poison because it blocks the last complex of the chain, which has the same effect as having no oxygen: the chain stops and aerobic ATP production collapses.
+[bio15-s4.2.6] 5. The ATP made is exported from the mitochondrion to the cytoplasm and used for other biochemical reactions in the cell, such as synthesis of proteins, active transport and muscle contraction.
+[bio15-s4.2.7] Most of the ATP from aerobic respiration is made here, via a proton gradient and ATP synthase. There is more on this in The mitochondrion's internal structure and ATP synthase.
+[bio15-s4.3.b] Respiration can be modelled as two stages joined by carrier molecules that shuttle electrons, hydrogen, acetyl groups and energy around the cell. Putting the stages together shows where each product comes from and where each reactant is used. There is more on the membrane comparison with photosynthesis in The mitochondrion's internal structure and ATP synthase.
+[bio15-s4.3.0] Stage 1, glycolysis, takes place in the cytoplasm: glucose becomes 2 pyruvate, a net 2 ATP is made directly, and NAD⁺ is converted to NADH.
+[bio15-s4.3.1] Stage 2 takes place in the mitochondrion. The link step and the citric acid cycle, in the matrix, turn pyruvate into acetyl CoA and then into CO₂, converting NAD⁺ to NADH and making a little ATP directly.
+[bio15-s4.3.2] The electron transport chain, on the inner membrane (cristae), unloads NADH to NAD⁺, passes electrons to oxygen to form water, and makes most of the ATP from ADP and Pi.
+[bio15-s4.3.3] Transfer molecules carry energy and electrons between the stages. NAD⁺/NADH carries electrons and hydrogen from the breakdown of glucose (glycolysis, link step and cycle) to the electron transport chain, and returns empty. Coenzyme A carries the acetyl group into the cycle and returns.
+[bio15-s4.3.4] ATP carries energy from the mitochondrion and cytoplasm to the cell's activities, returning as ADP + Pi to be reloaded. All the transfer molecules are recycled, so only small amounts are needed.
+[bio15-s4.3.5] Tracing the atoms: the carbon of glucose leaves as CO₂ in the link step and the cycle. The hydrogen of glucose ends up in water, formed by combining with oxygen breathed in at the electron transport chain. The oxygen breathed in therefore ends up in water, not in CO₂.
+[bio15-s4.3.6] Comparison with photosynthesis: in photosynthesis, NADPH and ATP are made in stage 1, using light energy, and used in stage 2 to build glucose. In respiration, NADH is made as glucose is broken down and is used at the end of stage 2 to make ATP.
+[bio15-s4.3.7] Diagram: cytoplasm and a mitochondrion (outer membrane, inner membrane with cristae, matrix). Label: glucose, 2 pyruvate, NAD⁺ → NADH, acetyl CoA, CO₂, citric acid cycle (acetyl group + C₄ → citric acid (C₆) → back to C₄), electron transport chain, O₂ + H⁺ → H₂O, ATP, NAD⁺; what each carrier carries.
+
+CANDIDATES bio9-s2: NAD⁺ and NADP⁺
+[bio9-s2.0.b] Cells need a way to move electrons and hydrogen from the reactions that release them to the reactions that need them. NAD⁺ and NADP⁺ do this job: they are electron carriers, transfer molecules that carry electrons and hydrogen between reactions.
+[bio9-s2.0.0] NAD⁺ is nicotinamide adenine dinucleotide. NADP⁺ is nicotinamide adenine dinucleotide phosphate, which is the same molecule with one extra phosphate group.
+[bio9-s2.0.1] Both are made in the body from niacin (vitamin B3), which is why niacin is needed in the diet. There is more on this in Vitamins.
+[bio9-s2.0.2] Both pick up high-energy electrons, together with hydrogen, in one reaction and hand them on to another reaction, then return to pick up more. In this way they work like shuttle buses that run the same route again and again.
+[bio9-s2.0.3] Gaining electrons is reduction and losing electrons is oxidation (OIL RIG: oxidation is loss, reduction is gain).
+[bio9-s2.0.4] NAD⁺ and NADP⁺ are the oxidised forms, the empty carriers that have no electrons to give. NADH and NADPH are the reduced forms, the loaded carriers that have gained electrons.
+[bio9-s2.1.b] A carrier is useful only if it can be filled, emptied and filled again. The electrons it carries also hold energy, and that energy is what the cell uses.
+[bio9-s2.1.0] Loading: each carrier accepts two electrons and a proton (H⁺, a hydrogen ion): NAD⁺ + 2e⁻ + H⁺ → NADH, and NADP⁺ + 2e⁻ + H⁺ → NADPH.
+[bio9-s2.1.1] In respiration, enzymes called dehydrogenases remove electrons and hydrogen from food molecules and pass them to NAD⁺, which is how the NAD⁺ gets loaded.
+[bio9-s2.1.2] Unloading: NADH and NADPH give up their electrons and hydrogen to the next reaction and become NAD⁺ and NADP⁺ again. This means the same small supply is reused over and over, like ATP.
+[bio9-s2.1.3] The electrons carry energy. When NADH's electrons pass along an electron transport chain (a series of proteins that pass electrons on), the energy released is used to make ATP.
+[bio9-s2.1.4] When NADPH's electrons are added to carbon dioxide, they help build glucose. This reducing power (the ability to hand over electrons) is what makes the carriers useful.
+[bio9-s2.2.b] Respiration is a catabolic pathway, meaning one that breaks glucose down to release energy. NAD⁺ is the carrier that collects the electrons released along the way and delivers them where ATP is made. There is more on this in Respiration.
+[bio9-s2.2.0] NAD⁺ collects electrons and hydrogen released as glucose is broken down. This happens first in glycolysis in the cytoplasm, then in the Krebs (citric acid) cycle in the mitochondrial matrix (the fluid inside the mitochondrion). NAD⁺ becomes NADH.
+[bio9-s2.2.1] NADH carries the electrons to the electron transport chain on the inner membrane of the mitochondrion. The energy released as the electrons pass along the chain is used to make most of the cell's ATP.
+[bio9-s2.2.2] At the end of the chain, the electrons, with hydrogen ions, are passed to oxygen, the final electron acceptor (the last molecule to receive the electrons), which forms water. NAD⁺ is released to collect more electrons.
+[bio9-s2.2.3] Without oxygen, the chain stops and NADH cannot unload there. In fermentation, NADH passes its hydrogen to pyruvate (the end product of glycolysis), forming lactic acid in animals and some bacteria, or ethanol and carbon dioxide in yeast and plants.
+[bio9-s2.2.4] This regenerates NAD⁺ so that glycolysis can continue making a little ATP, which is why fermentation keeps cells going when oxygen is absent.
+[bio9-s2.3.b] Photosynthesis is an anabolic pathway, meaning one that builds glucose from carbon dioxide and water. NADP⁺ is the carrier that moves electrons and hydrogen from the light-capturing stage to the glucose-building stage. There is more on this in Photosynthesis.
+[bio9-s2.3.0] In the light-dependent stage, on the thylakoid membranes of the chloroplast (the flattened sacs inside it), light energises electrons in chlorophyll. These high-energy electrons pass along an electron transport chain to NADP⁺.
+[bio9-s2.3.1] NADP⁺ also takes up protons (H⁺) from the photolysis of water (the splitting of water by light), which releases oxygen. NADP⁺ becomes NADPH.
+[bio9-s2.3.2] NADPH carries the electrons and hydrogen to the light-independent stage in the stroma of the chloroplast (the fluid around the thylakoids). There they are added to carbon dioxide to make glucose, using energy from ATP.
+[bio9-s2.3.3] NADP⁺ and ADP + Pi then return to the light-dependent stage to be loaded again, so none of them is used up.
+[bio9-s2.4.b] NAD⁺ and NADP⁺ are very alike in structure but serve opposite kinds of pathway. Comparing them point by point shows how each fits its job.
+[bio9-s2.4.0] Process: NAD⁺ works in respiration; NADP⁺ works in photosynthesis.
+[bio9-s2.4.1] Type of pathway: NAD⁺ in a catabolic (breaking-down) pathway; NADP⁺ in an anabolic (building-up) pathway.
+[bio9-s2.4.2] Where loaded: NAD⁺ in the cytoplasm and mitochondrial matrix, with electrons from glucose; NADP⁺ on the thylakoid membranes, with electrons from chlorophyll, which are replaced by electrons from water.
+[bio9-s2.4.3] Where unloaded and final electron acceptor: NADH at the electron transport chain on the inner mitochondrial membrane, with oxygen as the final acceptor, forming water; NADPH in the stroma, with carbon dioxide as the final acceptor, forming glucose.
+[bio9-s2.4.4] Use of the electrons' energy: NADH's energy is used to make ATP; NADPH's energy is used to build glucose.
+[bio9-s2.4.5] Structure: NADP⁺ has one extra phosphate group, which lets enzymes tell the two apart. This means the carriers for breaking down and for building up are kept separate.
+[bio9-s2.4.6] ATP compared with both: ATP transfers energy, carried as a phosphate group, while NAD⁺ and NADP⁺ transfer electrons and hydrogen. All three are reused, not used up.
+[bio9-s2.4.7] Diagram: two loops. Respiration: NAD⁺ → (electrons, hydrogen from glucose; glycolysis, Krebs cycle) → NADH → (electron transport chain, ATP made, electrons to oxygen) → NAD⁺. Photosynthesis: NADP⁺ → (electrons from chlorophyll, H⁺ from water; light-dependent) → NADPH → (light-independent, CO₂ to glucose) → NADP⁺.
+
+CANDIDATES bio14-s5: The chloroplast's internal structure
+[bio14-s5.0.b] Photosynthesis happens inside the chloroplast, and its two stages happen in different parts of it. Each internal part has a structure that suits its job.
+[bio14-s5.0.0] Envelope: two membranes, an outer and an inner, surround the chloroplast. The inner membrane controls which substances enter and leave, such as CO₂ going in and the products of photosynthesis going out, so the stroma (the fluid inside the envelope) keeps its enzymes and conditions separate from the cytoplasm.
+[bio14-s5.0.1] Thylakoids are flattened membrane sacs inside the chloroplast, separate from the envelope. Each one encloses a fluid-filled space called the thylakoid space, or lumen.
+[bio14-s5.0.2] Thylakoids are stacked like piles of coins into grana (singular: granum). Grana are joined by single, unstacked thylakoid membranes called intergranal lamellae, so the whole system is one connected network of membranes.
+[bio14-s5.0.3] The thylakoid membranes hold the pigments (molecules that absorb light, such as chlorophyll) in their clusters and reaction centres, the electron transport chains (chains of electron carriers) and the enzyme ATP synthase. This is why they are the site of the light-dependent reactions, the first stage of photosynthesis.
+[bio14-s5.0.4] The stroma contains the enzymes of the light-independent reactions, the second stage of photosynthesis, so it is the site of those reactions. It also holds starch grains, which are a temporary store of glucose, lipid droplets, ribosomes (the small structures that make proteins) and a small loop of DNA.
+[bio14-s5.0.5] The chloroplast makes some of its own proteins, including some of the proteins of the thylakoid membrane and of the light-independent reactions, using its own DNA and ribosomes. There is more on this in Nuclear and non-nuclear inheritance.
+[bio14-s5.0.6] Diagram: an electron-microscope-level drawing of a chloroplast in section, labelled outer membrane, inner membrane, stroma, granum, thylakoid, thylakoid space, intergranal lamella, starch grain, ribosomes and DNA.
+[bio14-s5.1.b] The light-dependent reactions need a chain that moves electrons along and releases their energy bit by bit. In the chloroplast, this chain is built into the thylakoid membrane.
+[bio14-s5.1.0] An electron transport chain is a series of electron carriers that pass electrons from one to the next, each at a slightly lower energy level. It releases energy in small steps that can be used, such as water running downhill in stages, losing height and so energy at each step.
+[bio14-s5.1.1] In the thylakoid membrane, the chain is made of a number of large protein complexes (large groups of proteins that work together) embedded in, or spanning, the membrane. Smaller mobile electron carriers that move within or along the membrane link the complexes, carrying electrons from one to the next.
+[bio14-s5.1.2] Some protein complexes contain the clusters of pigment molecules and the reaction-centre chlorophyll, the special chlorophyll molecule that loses electrons when light hits it. Others pass electrons on and use their energy.
+[bio14-s5.1.3] NADP⁺, a carrier that takes up electrons and hydrogen, is reduced (gains electrons) to NADPH, as NADP⁺ + 2e⁻ + H⁺ → NADPH, on the stroma side of the membrane. This means NADPH is made right where the light-independent reactions use it.
+[bio14-s5.1.4] Embedding the complexes in a membrane holds them in a fixed order and close together, so electrons pass quickly and in the right sequence. The energy released can move protons across the membrane, setting up a proton gradient (a difference in proton concentration across it) that drives ATP making.
+[bio14-s5.2.b] The energy released by the electron transport chain is used to move protons (H⁺) into a small enclosed space. The protons then flow back out through an enzyme, and this flow powers the making of ATP.
+[bio14-s5.2.0] As electrons pass along the chain, protons (H⁺, hydrogen ions) are moved from the stroma into the thylakoid space. Protons released by the photolysis of water (splitting water using light energy) are also released there, so the small, enclosed thylakoid space builds up a high concentration of protons.
+[bio14-s5.2.1] Photolysis happens on the thylakoid-space side of the membrane, and its equation is 2H₂O → 4H⁺ + 4e⁻ + O₂, so the protons it makes go straight into the thylakoid space.
+[bio14-s5.2.2] The protons flow back out of the thylakoid space into the stroma through ATP synthase in the thylakoid membrane. The enzyme uses this flow to make ATP from ADP and phosphate (Pi), as ADP + Pi → ATP, on the stroma side, where the light-independent reactions need it.
+[bio14-s5.2.3] The same mechanism makes ATP in mitochondria. There is more on this in The mitochondrion's internal structure and ATP synthase.
+[bio14-s5.3.b] Exams ask how the structure of the chloroplast suits it to photosynthesis. The key idea is that each feature gives the reactions more room to work, or keeps them in the right place.
+[bio14-s5.3.0] Large surface area: the many stacked thylakoids give a huge area of membrane for pigment clusters, electron transport chains and ATP synthase, so more light can be absorbed and more ATP and NADPH can be made.
+[bio14-s5.3.1] Organisation of pigments: grouping many pigment molecules around each reaction centre funnels the energy of photons absorbed over a wide area, and over a range of colours, to the reaction centres. This means more of the light energy reaches the reaction centres.
+[bio14-s5.3.2] Separate compartments: the thylakoid space is a small, enclosed compartment, so protons can be concentrated in it to drive ATP synthase. The thylakoid membrane is not freely permeable to protons, so the gradient is kept.
+[bio14-s5.3.3] Two stages side by side: the light-dependent reactions on the membranes and the light-independent reactions in the stroma are next to each other, so ATP and NADPH are released into the stroma directly where they are used. ADP + Pi and NADP⁺ return only a short distance.
+[bio14-s5.3.4] The stroma holds all the enzymes of the light-independent reactions in one compartment, with their substrates (the substances they act on), so they meet easily. It stores its glucose temporarily as starch.
+[bio14-s5.3.5] Own DNA and ribosomes let the chloroplast make some of its own proteins on the spot, such as the membrane and enzyme proteins its two stages need.
+[bio14-s5.3.6] Related: the palisade mesophyll, the leaf cells that do most photosynthesis, are packed with chloroplasts, which can move within the cell towards or away from the light.
+[bio14-s5.3.7] Diagram: a thylakoid membrane, stroma above and thylakoid space below. Draw pigment clusters, protein complexes and electron carriers with electron arrows, water splitting and H⁺ building up inside, and ATP synthase making ATP in the stroma. Label thylakoid membrane, thylakoid space, stroma, protein complex, mobile electron carrier, ATP synthase.

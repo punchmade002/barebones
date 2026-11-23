@@ -1,0 +1,190 @@
+TARGET bio11-s9: Linkage
+[bio11-s9.0.b] Genes that sit on the same chromosome are passed on together, because a chromosome goes into a gamete as one piece. This is called linkage.
+[bio11-s9.0.0] Each chromosome carries many genes in a fixed order along one DNA molecule, and a chromosome passes into a gamete (a sex cell) as one unit, so any two genes on it travel together.
+[bio11-s9.0.1] Linked genes are not joined to each other in any special way. They are simply on the same DNA molecule, which is why they are inherited together.
+[bio11-s9.0.2] All the genes on one chromosome form a linkage group, so there are as many linkage groups as there are chromosome pairs.
+[bio11-s9.0.3] Linked genotypes show the alleles (versions of a gene) on each chromosome together, with a line or slash for the pair of chromosomes. AB/ab means one chromosome carries A and B and its homologue (the matching chromosome of the pair) carries a and b.
+[bio11-s9.0.4] Diagram: two vertical bars (a homologous pair), one labelled with A above B, the other with a above b, at matching positions; label “homologous chromosomes”, “linked genes” and “locus”.
+[bio11-s9.1.b] Independent assortment means the alleles of one gene are sorted into gametes without affecting the alleles of another gene. That only works if the genes are on separate chromosomes, so linkage is an exception to it.
+[bio11-s9.1.0] The Law of Independent Assortment holds only for genes on different chromosomes. The Law of Segregation still applies to each gene, so linkage is an exception to one law, not a refutation of Mendel.
+[bio11-s9.1.1] Linked genes do not assort independently: the alleles on one chromosome move together into the same gamete when the homologous chromosomes separate in meiosis (the cell division that makes gametes).
+[bio11-s9.1.2] A double heterozygote (heterozygous for both genes) with linked genes, AB/ab, produces only two types of gamete, AB and ab, in equal numbers.
+[bio11-s9.1.3] An unlinked double heterozygote produces four types (AB, Ab, aB, ab) instead. The gametes Ab and aB (new combinations) are not formed when the genes are linked, because A and B stay together on one chromosome.
+[bio11-s9.1.4] Offspring show only (or mostly) the parental combinations of traits, while the new combinations seen with unlinked genes are missing (or rare).
+[bio11-s9.1.5] So linkage gives fewer types of offspring and less variation, and the ratios differ from 9 : 3 : 3 : 1 and 1 : 1 : 1 : 1.
+[bio11-s9.1.6] In real organisms, linked genes are occasionally separated, so a small number of offspring with new combinations can appear. The reason is crossing over, and genes are more likely to stay together the closer they lie on the chromosome.
+[bio11-s9.1.7] Diagram: side by side, (a) unlinked genes: two chromosome pairs (A/a on one, B/b on the other) giving four gamete types AB, Ab, aB, ab; (b) linked genes: one chromosome pair, A and B on one homologue, a and b on the other, giving two gamete types AB and ab.
+[bio11-s9.2.b] A test cross mates an individual of unknown genotype with a homozygous recessive one, so the offspring reveal which gametes it makes. With linked genes, only two kinds of offspring appear.
+[bio11-s9.2.0] Key: A = dominant allele of gene 1, a = recessive; B = dominant allele of gene 2, b = recessive; A and B on the same chromosome.
+[bio11-s9.2.1] Parents' phenotypes: AB/ab shows both dominant traits; ab/ab shows both recessive traits. Parents' genotypes: AB/ab × ab/ab.
+[bio11-s9.2.2] Gametes: AB, ab × ab. The recessive parent can only give ab, so each offspring's type shows which gamete came from the other parent.
+[bio11-s9.2.3] Offspring genotypes: AB/ab (AaBb) and ab/ab (aabb), 1 : 1. Offspring phenotypes: 1 showing both dominant traits : 1 showing both recessive traits.
+[bio11-s9.2.4] If the genes were unlinked, the same cross (AaBb × aabb) would give four phenotypes, 1 : 1 : 1 : 1. Linkage removes the two new combinations.
+[bio11-s9.2.5] The arrangement matters. If the double heterozygote has the dominant allele of one gene with the recessive allele of the other on each chromosome (Ab/aB), its gametes are Ab and aB, and the test cross gives 1 Aabb : 1 aaBb, i.e. only the two mixed phenotypes.
+[bio11-s9.2.6] Always read which alleles are on the same chromosome, because AB/ab and Ab/aB are different genotypes that give different offspring.
+[bio11-s9.3.b] Crossing two linked double heterozygotes (the F1, or first-generation offspring) shows how linkage changes the familiar dihybrid ratio.
+[bio11-s9.3.0] Parents: AB/ab × AB/ab.
+[bio11-s9.3.1] Gametes: AB, ab × AB, ab. Each parent makes only two gamete types because the genes are linked.
+[bio11-s9.3.2] Punnett square: AB/AB, AB/ab / AB/ab, ab/ab.
+[bio11-s9.3.3] Offspring genotypes: 1 AABB : 2 AaBb : 1 aabb.
+[bio11-s9.3.4] Phenotypes: 3 both dominant : 1 both recessive (3 : 1), compared with 9 : 3 : 3 : 1 if the genes were unlinked, because no offspring show a dominant and a recessive trait together.
+[bio11-s9.4.b] The fruit fly gives a real case of two genes inherited together. Both genes sit on the same chromosome, so the results of a test cross do not match the unlinked pattern.
+[bio11-s9.4.0] In the fruit fly Drosophila melanogaster, the genes for body colour (grey dominant to black) and wing shape (normal wings dominant to vestigial wings) are on the same chromosome.
+[bio11-s9.4.1] A test cross of a fly heterozygous for both (with grey and normal on one chromosome) with a black, vestigial fly gives mostly grey normal-winged and black vestigial-winged offspring, the parental combinations.
+[bio11-s9.4.2] Only a few grey vestigial or black normal flies appear, not the 1 : 1 : 1 : 1 expected for unlinked genes, because the genes are usually inherited together.
+[bio11-s9.5.b] In an exam you may be given offspring results and asked whether the genes are linked. You decide by comparing them with the ratios expected for unlinked genes.
+[bio11-s9.5.0] A dihybrid cross (a cross following two genes) whose offspring show mainly the parental combinations suggests that the two genes are linked.
+[bio11-s9.5.1] Fewer phenotype classes than expected, or a ratio far from 9 : 3 : 3 : 1 (F1 × F1) or 1 : 1 : 1 : 1 (test cross), also suggests that the two genes are linked, because linked alleles stay together instead of mixing.
+
+CANDIDATES bio11-s8: Dihybrid crosses
+[bio11-s8.0.b] A monohybrid cross follows one gene. A dihybrid cross follows two genes at once, which is how you predict offspring when two traits are inherited together.
+[bio11-s8.0.0] A dihybrid cross follows the inheritance of two different traits (two genes) at the same time, e.g. seed shape and seed colour in peas.
+[bio11-s8.0.1] “Unlinked” means the two genes are on different chromosomes, so they assort independently (are sorted into gametes without affecting each other) and every combination of their alleles is equally likely in the gametes. There is more on genes on the same chromosome in Linkage.
+[bio11-s8.0.2] Key for the worked examples: R = round seed, r = wrinkled; Y = yellow seed, y = green. Capital letters are dominant alleles (the version that shows when present), lower case are recessive.
+[bio11-s8.0.3] A genotype always has two letters for each gene (four letters in all), written with the two alleles of one gene together and the dominant first: RrYy, not RYry. Keeping each gene's pair together stops you mixing the genes up.
+[bio11-s8.1.b] Before you can fill in a Punnett square you need the gametes (sex cells) each parent can make. This is a short method you can use on any two-gene genotype.
+[bio11-s8.1.0] Each gamete gets one allele of each gene, so every gamete has two letters, one for each gene; never two of the same gene: RY, not Rr.
+[bio11-s8.1.1] Method: pair each allele of the first gene with each allele of the second gene.
+[bio11-s8.1.2] For RrYy: R with Y, R with y, r with Y, r with y, giving RY, Ry, rY, ry, in equal numbers. This equal mixing is the Law of Independent Assortment: the alleles of one gene are sorted into gametes independently of the other gene.
+[bio11-s8.1.3] The number of gamete types depends on how many genes are heterozygous (have two different alleles): RRYY gives one type (RY); RRYy gives two (RY, Ry); Rryy gives two (Ry, ry).
+[bio11-s8.1.4] RrYy, heterozygous for both genes, gives four (RY, Ry, rY, ry); rryy gives one (ry). Write each different gamete once, however many times it could be made.
+[bio11-s8.2.b] The first step in Mendel's style of cross is to breed two pure lines together. The offspring, the F1 (first filial) generation, are all identical, which sets up the F2.
+[bio11-s8.2.0] Parents' phenotypes (the visible traits): round yellow × wrinkled green (both true-breeding, meaning homozygous, so they always pass on the same alleles).
+[bio11-s8.2.1] Parents' genotypes: RRYY × rryy, so each parent is homozygous for both genes.
+[bio11-s8.2.2] Gametes: RY × ry, because each parent has only one type of gamete.
+[bio11-s8.2.3] F1 genotype: all RrYy, as every offspring gets one dominant and one recessive allele of each gene.
+[bio11-s8.2.4] F1 phenotype: all round yellow (both dominant traits), because the dominant alleles hide the recessive ones.
+[bio11-s8.3.b] Crossing two F1 plants is the core dihybrid cross. Both parents are heterozygous for both genes, so each makes four types of gamete and the Punnett square (a grid showing every possible gamete pairing) is 4 × 4.
+[bio11-s8.3.0] Parents (F1): round yellow × round yellow. Genotypes: RrYy × RrYy, so both are heterozygous for both genes.
+[bio11-s8.3.1] Gametes: RY, Ry, rY, ry × RY, Ry, rY, ry.
+[bio11-s8.3.2] Punnett square: 4 × 4 = 16 boxes, each a 1/16 chance, because every gamete pairing is equally likely.
+[bio11-s8.3.3] Punnett square, row by row (gametes RY, Ry, rY, ry across the top and down the side). Row 1 (gamete RY): RRYY, RRYy, RrYY, RrYy. Row 2 (gamete Ry): RRYy, RRyy, RrYy, Rryy.
+[bio11-s8.3.4] Row 3 (gamete rY): RrYY, RrYy, rrYY, rrYy. Row 4 (gamete ry): RrYy, Rryy, rrYy, rryy.
+[bio11-s8.3.5] F2 genotypes (nine kinds): 1 RRYY, 2 RRYy, 2 RrYY, 4 RrYy, 1 RRyy, 2 Rryy, 1 rrYY, 2 rrYy, 1 rryy (total 16). Count repeated genotypes from the squares to get these numbers.
+[bio11-s8.4.b] The 16 boxes contain nine genotypes but only four phenotypes, because a dominant allele hides the recessive one. Counting those phenotypes gives the famous dihybrid ratio.
+[bio11-s8.4.0] F2 phenotypes: 9 round yellow (at least one R and at least one Y) : 3 round green (at least one R, yy) : 3 wrinkled yellow (rr, at least one Y) : 1 wrinkled green (rryy).
+[bio11-s8.4.1] The ratio 9 : 3 : 3 : 1 is the signature of a dihybrid F2 with two unlinked genes, each with complete dominance (the heterozygote looks the same as the dominant homozygote). There is more on Mendel's F2 counts, close to this ratio, in Mendel's Laws.
+[bio11-s8.5.b] Look at the F2 phenotypes against the original parents. Some combinations of traits appear that neither the P nor the F1 plants showed.
+[bio11-s8.5.0] Two of the four F2 phenotypes (round green and wrinkled yellow) are new combinations, found in neither the P nor the F1 generation.
+[bio11-s8.5.1] They appear because the genes assort independently, so any seed shape allele can end up with any seed colour allele. They are a source of variation in offspring.
+[bio11-s8.5.2] Diagram: the full 4 × 4 Punnett square of the F1 × F1 cross, with gametes labelled on both sides, and the boxes coloured or marked by phenotype (9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green).
+[bio11-s8.6.b] A 16-box square is slow and easy to miscount. Because the two genes are independent, you can work out each gene separately and multiply, which gives a quick check.
+[bio11-s8.6.0] Because the genes are independent, the dihybrid result is the two monohybrid results multiplied.
+[bio11-s8.6.1] Rr × Rr gives 3/4 round and 1/4 wrinkled; Yy × Yy gives 3/4 yellow and 1/4 green, so each gene is treated as its own monohybrid cross.
+[bio11-s8.6.2] So round yellow = 3/4 × 3/4 = 9/16, round green = 3/4 × 1/4 = 3/16, wrinkled yellow = 3/16, wrinkled green = 1/4 × 1/4 = 1/16.
+[bio11-s8.6.3] Use this to check a Punnett square; show the full square in an exam answer when asked for a genetic cross.
+[bio11-s8.7.b] A test cross crosses an individual showing the dominant traits with one that is homozygous recessive for both genes. The recessive parent makes only one type of gamete, so the offspring reveal exactly which gametes the other parent makes.
+[bio11-s8.7.0] Round yellow (RrYy) × wrinkled green (rryy) is the dihybrid test cross.
+[bio11-s8.7.1] Gametes: RY, Ry, rY, ry × ry, because rryy can only make ry.
+[bio11-s8.7.2] Offspring genotypes: RrYy, Rryy, rrYy, rryy (1 : 1 : 1 : 1).
+[bio11-s8.7.3] Phenotypes: 1 round yellow : 1 round green : 1 wrinkled yellow : 1 wrinkled green (25% each), because each of the four gametes has a 1/4 chance.
+[bio11-s8.7.4] A 1 : 1 : 1 : 1 result shows that the dominant-looking parent was heterozygous for both genes and that the genes assort independently. There is more on the same cross with linked genes in Linkage.
+[bio11-s8.7.5] The same pattern with other traits: in peas with tall (T) dominant to dwarf (t) and yellow (Y) dominant to green (y), TtYy × ttyy gives 1 tall yellow (TtYy) : 1 tall green (Ttyy) : 1 dwarf yellow (ttYy) : 1 dwarf green (ttyy).
+[bio11-s8.8.b] Not every cross has two double heterozygotes. Here one parent is heterozygous for only one gene, so it makes just two gamete types and the square is 4 × 2.
+[bio11-s8.8.0] Round yellow × round green: RrYy × Rryy, so the second parent is homozygous recessive for colour and heterozygous for shape.
+[bio11-s8.8.1] Gametes: RY, Ry, rY, ry × Ry, ry.
+[bio11-s8.8.2] Punnett square: 4 × 2 = 8 boxes; column Ry: RRYy, RRyy, RrYy, Rryy; column ry: RrYy, Rryy, rrYy, rryy.
+[bio11-s8.8.3] Phenotypes: 3 round yellow : 3 round green : 1 wrinkled yellow : 1 wrinkled green (3 : 3 : 1 : 1).
+[bio11-s8.8.4] Check: 3/4 round × 1/2 yellow = 3/8 round yellow, matching the 3 round yellow out of 8 boxes.
+[bio11-s8.9.b] When one gene shows incomplete dominance, the heterozygote has a blend in between the two homozygotes. This changes the phenotype count but the method for crossing two genes stays the same.
+[bio11-s8.9.0] Snapdragons: tall (T) is dominant to dwarf (t); red (R) and white (W) flower colour show incomplete dominance (RW = pink).
+[bio11-s8.9.1] Parents' phenotypes: homozygous dwarf red × tall pink (heterozygous for height). Parents' genotypes: ttRR × TtRW.
+[bio11-s8.9.2] Gametes: tR × TR, TW, tR, tW, because the ttRR parent can only make tR while the TtRW parent makes four types.
+[bio11-s8.9.3] Offspring: TtRR (tall, red), TtRW (tall, pink), ttRR (dwarf, red), ttRW (dwarf, pink), in a 1 : 1 : 1 : 1 ratio.
+[bio11-s8.9.4] So 50% of the offspring have pink flowers (two of four genotypes) and 50% are tall.
+[bio11-s8.9.5] To the second generation: TTRR × ttWW gives an F1 of all TtRW (tall pink).
+[bio11-s8.9.6] F1 × F1 gives 3 tall red : 6 tall pink : 3 tall white : 1 dwarf red : 2 dwarf pink : 1 dwarf white (out of 16).
+[bio11-s8.9.7] These are found by multiplying 3/4 tall and 1/4 dwarf by 1/4 red, 1/2 pink and 1/4 white, because the two genes are independent.
+
+CANDIDATES bio11-s7: Mendel's Laws
+[bio11-s7.0.b] Mendel bred pea plants in a monastery garden and worked out the basic rules of inheritance long before anyone knew about genes, chromosomes or DNA.
+[bio11-s7.0.0] Gregor Mendel (1822–1884) was an Augustinian friar, later abbot, at the monastery of St Thomas in Brno (then Brünn, in the Austrian Empire; now in the Czech Republic).
+[bio11-s7.0.1] He bred garden pea plants (Pisum sativum) between 1856 and 1863, presented his results in 1865 and published them in 1866.
+[bio11-s7.0.2] His work was largely ignored until 1900, when it was rediscovered independently by other botanists, including Hugo de Vries and Carl Correns.
+[bio11-s7.0.3] He worked before chromosomes, meiosis (the cell division that makes gametes) or DNA were understood, so he called the units of inheritance “factors”. We now call them genes, and their different versions alleles.
+[bio11-s7.1.b] Mendel's choice of organism was part of why his experiments worked. Garden peas had four features that made clean, countable results possible.
+[bio11-s7.1.0] Peas had many varieties with clear contrasting forms of a trait (for example tall or dwarf, with nothing in between), so every offspring could be sorted into one group or the other.
+[bio11-s7.1.1] Peas normally self-pollinate (a flower pollinates itself), so true-breeding lines were available. True-breeding means offspring always look like their parents, generation after generation.
+[bio11-s7.1.2] They can be cross-pollinated by hand: the anthers (pollen-producing parts) of one flower are removed and its stigma (the pollen-receiving part) is dusted with pollen from another. This lets the experimenter choose the parents.
+[bio11-s7.1.3] They grow quickly and produce many seeds, giving large numbers to count, which is needed to see clear ratios.
+[bio11-s7.2.b] Mendel's method was careful and quantitative, which is why his results were clear. He followed simple, clear-cut traits and treated inheritance as something to be counted and calculated.
+[bio11-s7.2.0] The seven traits he studied, dominant form first: seed shape (round / wrinkled), seed colour (yellow / green), flower colour (purple / white), pod shape (inflated / constricted), pod colour (green / yellow), flower position (axial, along the stem / terminal, at the tip), stem length (tall / dwarf).
+[bio11-s7.2.1] He started with true-breeding parents and studied one trait at a time, then two. Looking at one trait at a time kept the results simple enough to interpret.
+[bio11-s7.2.2] He counted large numbers of offspring, because small samples can give misleading ratios by chance.
+[bio11-s7.2.3] He recorded results over several generations: P (the parents), F1 (their offspring) and F2 (the offspring of the F1 crossed with each other).
+[bio11-s7.2.4] He used mathematics (ratios) to analyse the results, and repeated each cross for several traits to check that the pattern held.
+[bio11-s7.3.b] Mendel's crosses gave the same pattern every time. That pattern led him to the idea that each trait is controlled by two factors, one of which can hide the other.
+[bio11-s7.3.0] Crossing true-breeding tall with true-breeding dwarf gave an F1 that was all tall; none were dwarf and none were in between.
+[bio11-s7.3.1] Self-pollinating the F1 gave an F2 of tall and dwarf in about 3 : 1.
+[bio11-s7.3.2] F2 figures: 787 tall : 277 dwarf (2.84 : 1); 5474 round : 1850 wrinkled seeds (2.96 : 1); 6022 yellow : 2001 green seeds (3.01 : 1). Large numbers bring the ratio very close to 3 : 1.
+[bio11-s7.3.3] The dwarf trait disappeared in the F1 and reappeared in the F2, so the dwarf “factor” must have been present, hidden, in the F1.
+[bio11-s7.3.4] He concluded that each plant has two factors for each trait, one from each parent, and that one (dominant) can mask the other (recessive).
+[bio11-s7.4.b] Mendel's first law explains the 3 : 1 ratio. It is about the two alleles of a single gene, and what happens to them when gametes (sex cells) are made.
+[bio11-s7.4.0] Statement: “The two alleles (factors) of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene.”
+[bio11-s7.4.1] Shorter accepted form: “Inherited traits are controlled by pairs of factors (alleles), which separate during gamete formation.”
+[bio11-s7.4.2] A heterozygous tall plant (Tt, carrying two different alleles) forms two types of gamete, T and t, in equal numbers, so half the gametes carry T and half carry t.
+[bio11-s7.4.3] Random fertilisation of these gametes in Tt × Tt gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, the 3 : 1 Mendel observed. There is more on this in Monohybrid crosses.
+[bio11-s7.4.4] Chromosome basis (Mendel did not know this): the two alleles of a gene lie at the same locus (position) on the two chromosomes of a homologous pair, the matching pair of chromosomes, one from each parent.
+[bio11-s7.4.5] In meiosis the homologous chromosomes separate into different cells, carrying one allele each into each gamete. This is why the alleles segregate.
+[bio11-s7.4.6] Diagram: a diploid cell with one homologous pair, one chromosome carrying T and the other t at the same position, dividing by meiosis into gametes, half with T and half with t. Labels: homologous pair, allele T, allele t, locus, meiosis, gametes (haploid).
+[bio11-s7.5.b] Mendel's second law deals with two different genes at once. It says that how one gene's alleles are shared out into gametes does not affect how another gene's alleles are shared out.
+[bio11-s7.5.0] Statement: “When gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene.”
+[bio11-s7.5.1] Equivalent: “Each member of a pair of factors can combine randomly with either member of another pair.”
+[bio11-s7.5.2] The law applies to genes on different chromosomes (unlinked genes). Genes close together on the same chromosome tend to be inherited together and break this rule.
+[bio11-s7.5.3] A plant heterozygous for seed shape and seed colour (RrYy) forms four types of gamete, RY, Ry, rY and ry, in equal numbers (1/4 each).
+[bio11-s7.5.4] This is because whether a gamete gets R or r has no effect on whether it gets Y or y.
+[bio11-s7.5.5] Chromosome basis: when homologous pairs line up in meiosis, the way one pair lines up is independent of the way another pair lines up.
+[bio11-s7.5.6] With R and Y on different chromosome pairs, half the cells put R with Y (giving RY and ry gametes) and half put R with y (giving Ry and rY gametes), so all four types are made in equal numbers.
+[bio11-s7.5.7] Diagram: a cell with two homologous pairs (a long pair carrying R and r, a short pair carrying Y and y) in the two possible arrangements. Arrangement 1 gives RY and ry; arrangement 2 gives Ry and rY. Labels: homologous pairs, alleles, two equally likely arrangements, four gamete types.
+[bio11-s7.6.b] A dihybrid cross follows two traits at the same time. Mendel's results from one showed that the two traits were inherited independently of each other.
+[bio11-s7.6.0] Mendel's dihybrid cross: true-breeding round yellow × wrinkled green gave an F1 that was all round yellow.
+[bio11-s7.6.1] Self-pollinating the F1 gave an F2 of 315 round yellow : 108 round green : 101 wrinkled yellow : 32 wrinkled green (total 556), close to 9 : 3 : 3 : 1.
+[bio11-s7.6.2] The new combinations (round green and wrinkled yellow) can only arise if the two genes are inherited independently, because neither parent had those pairings of traits. There is more on this in Dihybrid crosses.
+[bio11-s7.7.b] Mendel's biggest contribution was a new way of thinking about heredity. His laws still underpin how we predict the outcome of genetic crosses.
+[bio11-s7.7.0] Mendel showed that inheritance is particulate: traits are passed on by separate units that stay unchanged from generation to generation, rather than by blending of the parents' characteristics.
+[bio11-s7.7.1] A blended trait could never reappear unchanged, as the dwarf trait did in the F2, so the reappearance is evidence for separate units.
+[bio11-s7.7.2] His laws are the basis of the predictions in Benefits and limitations of Mendelian genetics.
+
+CANDIDATES bio11-s1: Chromosome structure and genes
+[bio11-s1.0.b] A chromosome is DNA together with protein, and it carries genes in a fixed linear order. Knowing what it is made of, how it looks in a resting and a dividing cell, and how big it is explains why cells need to pack their DNA.
+[bio11-s1.0.0] A chromosome is a single, very long molecule of DNA together with proteins. It is found in the nucleus of a eukaryotic cell (a cell with a nucleus) and carries many genes in a fixed linear order along its length.
+[bio11-s1.0.1] Chromatin is the name for the DNA and protein material of the chromosomes when the cell is not dividing. The chromosomes are then long, thin and uncoiled, spread through the nucleus, so they cannot be seen as separate threads.
+[bio11-s1.0.2] Before a cell divides, the chromatin coils and folds up tightly (condenses), so each chromosome becomes short and thick and is visible under the light microscope when stained. In other words, chromatin and chromosomes are the same material in two states.
+[bio11-s1.0.3] Human body cells are diploid (two sets of chromosomes), with 46 chromosomes in 23 pairs: 22 pairs of autosomes (chromosomes that are not sex chromosomes) and one pair of sex chromosomes, XX in females and XY in males. There is more on this in Sex determination.
+[bio11-s1.0.4] Homologous chromosomes are the two chromosomes of a pair. They are the same length, have the centromere (the narrowed region of the chromosome) in the same position and carry the same genes at the same positions, with one chromosome of each pair coming from each parent.
+[bio11-s1.0.5] The chromosome number is fixed for a species (46 in humans); a different number does not mean a more complex organism, so you cannot judge complexity by counting chromosomes.
+[bio11-s1.0.6] The human genome (all the DNA in one set of 23 chromosomes) is about 3 billion base pairs. The DNA in one human body cell, stretched out, would be about 2 m long, yet it fits in a nucleus a few micrometres across, which is why DNA must be packed.
+[bio11-s1.0.7] Prokaryotes (bacteria) differ: a bacterial cell has one circular chromosome in the cytoplasm, not wound around histones (the packing proteins of eukaryotes), plus plasmids (small extra rings of DNA).
+[bio11-s1.1.b] Histones are the proteins that pack eukaryotic DNA into a small space. Without them, about 2 m of DNA per cell could not fit in the nucleus or be moved safely when the cell divides.
+[bio11-s1.1.0] Histones are small proteins around which the DNA of a eukaryotic chromosome is wound. They are positively charged, while the phosphate groups of the DNA backbone are negatively charged, so DNA binds tightly to them.
+[bio11-s1.1.1] The DNA wraps nearly twice around a core of eight histone proteins, forming a bead called a nucleosome. Nucleosomes are joined by short stretches of linker DNA, like beads on a string.
+[bio11-s1.1.2] The string of nucleosomes coils and loops further, and before division it condenses into the visible chromosome.
+[bio11-s1.1.3] Histones do three jobs: they pack a very long DNA molecule into a small nucleus, they protect the DNA and keep it untangled during division, and they help control which genes can be read.
+[bio11-s1.1.4] DNA wound tightly around histones cannot be reached by the enzymes that read genes, so those genes are switched off; loosely packed regions are active, which means their genes can be read.
+[bio11-s1.1.5] Chemical changes to histones are one of the epigenetic mechanisms (ways of switching genes on or off without changing the DNA sequence). There is more on this in Genetic and epigenetic mechanisms.
+[bio11-s1.1.6] Diagram: DNA double helix wound around histone cores to form nucleosomes, then the coiled chromatin fibre, then a condensed chromosome; label DNA, histone, nucleosome, chromatin and chromosome.
+[bio11-s1.2.b] Before a cell divides it copies its DNA, so each chromosome ends up as two joined copies. Chromatids and the centromere are the names for those copies and for the point that holds them together.
+[bio11-s1.2.0] Before a cell divides, each chromosome's DNA is copied, a process called replication. The two identical copies stay joined together; each copy is a chromatid. There is more on this in DNA replication and mitosis in the cell cycle.
+[bio11-s1.2.1] A replicated chromosome therefore consists of two identical sister chromatids, each containing one complete DNA molecule with the same genes and the same alleles (versions of a gene).
+[bio11-s1.2.2] The centromere is the constricted (narrowed) region of a chromosome where the two sister chromatids are held together. Spindle fibres (protein threads that move chromosomes in division) attach at the centromere and pull the chromatids apart to opposite poles of the cell.
+[bio11-s1.2.3] Once separated, each chromatid is a chromosome in its own right.
+[bio11-s1.2.4] The centromere is in a fixed position for each chromosome, dividing it into two arms of equal or different length, so it is not always in the middle. Its position, together with length and banding pattern, is used to identify each chromosome.
+[bio11-s1.2.5] Before replication, a chromosome is one DNA molecule and one chromatid. After replication it is still one chromosome but has two chromatids, the X shape usually drawn; the two arms of the X are chromatids, not separate chromosomes.
+[bio11-s1.2.6] Homologous chromosomes (a pair, one from each parent) may carry different alleles, whereas sister chromatids are identical copies of each other, so they always carry identical alleles.
+[bio11-s1.2.7] Diagram: an unreplicated chromosome (single rod) beside a replicated chromosome (X shape); label chromatid, sister chromatids, centromere, arm, and a gene locus marked as a band at the same position on both chromatids. Optionally add a homologous pair of replicated chromosomes, same locus marked on each, labelled homologous chromosomes.
+[bio11-s1.3.b] A gene is the unit of heredity, the piece of information that is passed on from cell to cell and parent to offspring. Genes sit at fixed places on chromosomes and, through the proteins they code for, control traits.
+[bio11-s1.3.0] A gene is a section of DNA on a chromosome that codes for a protein. This means a chromosome is not simply a string of genes: genes are sections of its DNA.
+[bio11-s1.3.1] Each gene has a fixed position on a particular chromosome, called its locus (plural loci). The locus of a gene is the same in every member of a species.
+[bio11-s1.3.2] A gene carries the information to make one protein, although some genes code instead for RNA molecules that are used directly, such as ribosomal RNA and transfer RNA. So not every gene codes for a protein.
+[bio11-s1.3.3] Through the protein it codes for, a gene controls a trait (a characteristic of the organism). The gene is copied and passed to daughter cells in division and to offspring in gametes (sex cells).
+[bio11-s1.3.4] Humans have about 20,000 protein-coding genes spread across the 23 kinds of chromosome; each chromosome carries hundreds to thousands of genes.
+[bio11-s1.3.5] Because homologous chromosomes carry the same genes, a body cell has two copies of each autosomal gene. These may be the same or different versions, called alleles. There is more on this in Key concepts of information transfer.
+[bio11-s1.4.b] Most of the DNA in a human cell does not code for protein. Separating the small coding part from the large non-coding part shows that a chromosome is far more than a list of protein recipes.
+[bio11-s1.4.0] Coding DNA is DNA whose base sequence is used to make a protein: the protein-coding parts of genes. Only about 1–2% of human DNA is coding DNA.
+[bio11-s1.4.1] Non-coding DNA is all DNA that does not code for protein, about 98% of the human genome. It includes several kinds of sequence, listed in the next points.
+[bio11-s1.4.2] Regulatory sequences beside genes act as switches, controlling when, where and how much a gene is expressed (used to make its product).
+[bio11-s1.4.3] Genes for functional RNA (rRNA and tRNA) are non-coding DNA, as are introns, the non-coding sections within genes, which are copied into mRNA but removed before it is used to make protein.
+[bio11-s1.4.4] Repeated sequences, such as the DNA at centromeres and at the ends of chromosomes (telomeres), protect the chromosome and help it divide correctly. Some non-coding DNA has a function that is still unknown.
+[bio11-s1.4.5] Non-coding DNA was once called 'junk DNA', but much of it is now known to have functions, especially in regulating genes. Changes in regulatory DNA can change a trait without changing any protein.
+[bio11-s1.4.6] Repeated non-coding sequences vary greatly in length between people, which is why they are used in DNA profiling (identifying individuals from their DNA).
+[bio11-s1.4.7] Diagram: a stretch of a chromosome's DNA drawn as a line, with two genes shown as boxes (each with a regulatory region at one end and coding sections separated by an intron), and the DNA between genes labelled non-coding; label gene, coding DNA, non-coding DNA, regulatory sequence and intron.

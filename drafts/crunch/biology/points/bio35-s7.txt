@@ -1,0 +1,410 @@
+TARGET bio35-s7: Ethics of genetic technologies
+[bio35-s7.0.b] Genetic technologies raise questions that experiments cannot answer, so exam answers need a method for reasoning about them. Follow the same five steps every time and you will always cover both sides and reach a conclusion.
+[bio35-s7.0.0] 1. Say what the technology does and what is new about it, so that the reader knows exactly what is being judged.
+[bio35-s7.0.1] 2. Identify who is affected: the person tested or treated, relatives, future children, society, other species, and the environment.
+[bio35-s7.0.2] 3. Give arguments for and against, linking each to a principle: autonomy and consent (people decide for themselves, with full information), doing good (beneficence), avoiding harm (non-maleficence), justice and fairness, privacy, and the precautionary principle.
+[bio35-s7.0.3] The precautionary principle means taking care when the risks are unknown. There is more on these principles in “Science, scientists and society”.
+[bio35-s7.0.4] 4. Say what rules or safeguards exist or could be added, such as laws, consent procedures or ethics committees.
+[bio35-s7.0.5] 5. Reach a justified conclusion, which means a decision that follows from the arguments you have given.
+[bio35-s7.0.6] Ethics is decided by reasoning about values informed by evidence: science says what can be done and with what risks, not whether it should be done. This is why two people can agree on the science and still disagree on the ethics.
+[bio35-s7.1.b] Genetic data is the information in a person’s DNA, for example a genome sequence or a test result. It raises ethical problems that ordinary personal data does not, for three reasons.
+[bio35-s7.1.0] Genetic data is permanent: it cannot be changed like a password, so once it is leaked the damage cannot be undone.
+[bio35-s7.1.1] It identifies a person, and it predicts some future health risks, so it is both highly personal and potentially harmful if misused.
+[bio35-s7.1.2] It is shared with relatives, so one person’s test reveals information about family members who did not consent.
+[bio35-s7.1.3] Under the EU’s General Data Protection Regulation (GDPR, applying since 2018), genetic data is a special category of personal data with extra protection.
+[bio35-s7.2.b] Researchers can learn far more about disease when they can study many people’s genomes alongside their health records. This benefit has to be set against the risks to the people who donate their data.
+[bio35-s7.2.0] For: large databases of genomes and health records (biobanks) speed research into the causes and treatments of disease, and allow faster diagnosis of rare diseases. There is more on this in “Bioinformatics: genome databases”.
+[bio35-s7.2.1] Against: there is a risk of data leaks, or of re-identification of people from “anonymous” data, because a genome is so distinctive that removing a name does not always hide who it belongs to.
+[bio35-s7.2.2] Against: people must give informed consent and know how their data will be used and shared, otherwise their autonomy is not respected.
+[bio35-s7.2.3] Against: questions arise about who profits from discoveries made with donated data, because the people who donated it may not share in the benefit.
+[bio35-s7.3.b] Insurers and employers would like to know about a person’s health risks. Genetic data could give them that knowledge, which is why laws now limit its use.
+[bio35-s7.3.0] Risk: insurers or employers could charge more or refuse people with a high genetic risk. This would be unjust, because people don’t choose their genes, and fear of it could stop people having useful tests.
+[bio35-s7.3.1] In Ireland the Disability Act 2005 prohibits the use of genetic test results in insurance, pensions, mortgages and employment.
+[bio35-s7.3.2] In the USA the Genetic Information Nondiscrimination Act (2008) protects against discrimination in health insurance and employment.
+[bio35-s7.3.3] Argument on the other side: insurers say that if customers know their risk and insurers don’t, pricing becomes unfair, because people at high risk could buy cover cheaply.
+[bio35-s7.4.b] Police can store DNA profiles (the pattern of a person’s DNA used to identify them) from crime scenes and from people they arrest. This helps solve crimes but puts a great deal of personal information in state hands.
+[bio35-s7.4.0] For: national DNA databases solve crimes, including old cases, and clear innocent people.
+[bio35-s7.4.1] Ireland’s database was set up under the Criminal Justice (Forensic Evidence and DNA Database System) Act 2014.
+[bio35-s7.4.2] Against: privacy, especially when profiles are kept of people who were arrested but never convicted.
+[bio35-s7.4.3] In S and Marper v United Kingdom (2008), the European Court of Human Rights ruled that the UK’s keeping of the DNA of people not convicted of any crime breached their right to privacy.
+[bio35-s7.4.4] Against: groups that are policed more heavily are over-represented on databases, so they are more likely to be matched or wrongly suspected.
+[bio35-s7.4.5] Against: a match can be given too much weight in court. There is more on this in “DNA profiling”.
+[bio35-s7.5.b] People send DNA to companies to learn about their ancestry. That data can be used for purposes the customer never intended, and it also exposes their relatives.
+[bio35-s7.5.0] People send DNA to companies for ancestry tests, and may upload it to public genealogy websites so that they can find relatives.
+[bio35-s7.5.1] In 2018 police in California identified the “Golden State Killer”, Joseph James DeAngelo, by matching crime-scene DNA with distant relatives who had uploaded their DNA to such a website.
+[bio35-s7.5.2] For: serious crimes were solved. Against: the relatives never consented to police use of their DNA, which shows how one person’s upload can expose others.
+[bio35-s7.5.3] Company data can be hacked or sold: in 2023 a data breach at the testing company 23andMe exposed the ancestry information of millions of customers.
+[bio35-s7.6.b] Developing genetic tests and treatments is expensive, and companies protect their investment with patents (legal rights to be the only seller of an invention). The question is whether a part of the human body can be owned.
+[bio35-s7.6.0] For: companies invest in genetic tests and treatments and need patents to recover the cost.
+[bio35-s7.6.1] Against: patenting human genes lets one company control testing and set high prices.
+[bio35-s7.6.2] In 2013 the US Supreme Court ruled, in the case against Myriad Genetics, which held patents on the BRCA1 and BRCA2 genes (genes linked to breast cancer risk), that naturally occurring human DNA cannot be patented.
+[bio35-s7.6.3] After this ruling, other laboratories began offering BRCA tests, so patent control had been keeping testing limited. There is more on BRCA genes in “Causes, prevention and treatment of cancer”.
+[bio35-s7.6.4] Justice: benefits from the genetic resources of poorer countries (e.g. crop varieties, local plants) should be shared with them, rather than all the profit going to the companies that develop them.
+[bio35-s7.7.b] Genetic data is also collected on crops and farm animals, and the same questions of access and ownership arise.
+[bio35-s7.7.0] For: genetic data on crops and livestock speeds the breeding of higher-yielding, disease-resistant varieties, because breeders can pick out useful alleles quickly.
+[bio35-s7.7.1] Against: control of seed varieties and their genetic data by a few large companies, and loss of traditional varieties, which could leave farmers dependent and food supplies less varied.
+[bio35-s7.8.b] A GM (genetically modified) crop has had a gene from another organism added to its DNA. Supporters see this as a way to grow more food with less damage to the environment.
+[bio35-s7.8.0] Higher yields and less crop loss, because the crop resists pests or disease or tolerates harsh conditions.
+[bio35-s7.8.1] Bt crops (which make a natural insecticide, the Bt toxin) need less insecticide spraying, which protects farm workers and other insects. There is more on this in “Genetic engineering”.
+[bio35-s7.8.2] Crops can be modified for drought or salt tolerance, or for added nutrition, such as Golden Rice, which is designed to help tackle vitamin A deficiency.
+[bio35-s7.8.3] GM crops could help feed a growing population on less land.
+[bio35-s7.8.4] Major scientific bodies have found approved GM foods to be as safe to eat as their conventional equivalents.
+[bio35-s7.9.b] Opponents of GM crops raise concerns about the environment, farmers’ independence, people’s right to choose, and whether it is right to modify living things.
+[bio35-s7.9.0] Genes can spread in pollen to wild relatives or to non-GM and organic crops nearby, a process called gene flow.
+[bio35-s7.9.1] Weeds have evolved resistance to the herbicide glyphosate where herbicide-tolerant crops are sprayed repeatedly, and some insect pests have evolved resistance to Bt toxins. This is natural selection: resistant individuals survive and pass on their alleles. There is more on this in “The theory of evolution by natural selection”.
+[bio35-s7.9.2] Large areas of a single crop reduce biodiversity, because fewer kinds of plant and animal can live there.
+[bio35-s7.9.3] Patented seed must be bought each year, making farmers dependent on companies.
+[bio35-s7.9.4] Consumers have a right to choose, so the EU requires food containing more than 0.9% GM material to be labelled.
+[bio35-s7.9.5] Some people object that GM is unnatural (“playing God”).
+[bio35-s7.10.b] Golden Rice is an example of a GM crop designed to improve health, and it shows both sides of the debate clearly.
+[bio35-s7.10.0] Supporters say opposition has delayed a way to save children’s sight and lives, because vitamin A deficiency can cause blindness and death.
+[bio35-s7.10.1] Opponents say vitamin A deficiency is better tackled by a more varied diet and supplements.
+[bio35-s7.10.2] Its approval in the Philippines has been challenged in court.
+[bio35-s7.11.b] Animals can also be genetically modified, either to produce more food or to help medical research. Animals feel pain and can escape, so the issues differ from those for crops.
+[bio35-s7.11.0] For: faster-growing food animals such as AquAdvantage salmon need less feed per kilogram of food. There is more on this in “Genetic engineering”.
+[bio35-s7.11.1] For: GM animals model human diseases in medical research, so treatments can be studied before they are tried in people.
+[bio35-s7.11.2] Against: animal welfare, judged using the 3Rs (replace, reduce, refine animal use). There is more on this in “Science, scientists and society”.
+[bio35-s7.11.3] Against: risk to wild populations if GM fish escape and breed, because their modified genes could spread.
+[bio35-s7.11.4] Against: public unease about eating GM animals.
+[bio35-s7.12.b] Gene therapy and gene editing change the DNA of a person’s own body cells (somatic cells, those that are not eggs or sperm) to treat disease. Because the change is not inherited, the ethical issues are fewer than for germline editing.
+[bio35-s7.12.0] For: these can treat or cure serious genetic diseases, e.g. the CRISPR treatment for sickle-cell disease approved in the UK in 2023. There is more on this in “Genetic engineering”.
+[bio35-s7.12.1] For: the changes are in the patient’s body cells only, so only a consenting patient is affected and nothing is passed on to children.
+[bio35-s7.12.2] Against: long-term risks are not yet known, including edits at the wrong place in the genome.
+[bio35-s7.12.3] Against: treatments are extremely expensive, so access is unequal (justice).
+[bio35-s7.13.b] Germline editing changes eggs, sperm or embryos (the germline). Every cell of the resulting person carries the change, and so do their descendants, which makes it far more controversial than somatic therapy.
+[bio35-s7.13.0] Changes to eggs, sperm or embryos would be passed to all future generations, who cannot consent.
+[bio35-s7.13.1] In November 2018 the scientist He Jiankui announced in China the birth of twin girls whose embryos he had edited with CRISPR to try to make them resistant to HIV.
+[bio35-s7.13.2] It was condemned worldwide as unsafe, unnecessary and done without proper consent, and he was sentenced to three years in prison in 2019.
+[bio35-s7.13.3] For: it could in future remove a serious disease allele from a family permanently.
+[bio35-s7.13.4] Against: unknown risks to future generations.
+[bio35-s7.13.5] Against: it could lead to “designer babies” chosen for traits such as height or intelligence rather than to prevent disease, and could increase inequality.
+[bio35-s7.13.6] Germline editing is not allowed in most countries.
+[bio35-s7.14.b] Some serious diseases are caused by faulty mitochondrial DNA, which a child inherits from the mother’s egg. Mitochondrial donation replaces the faulty mitochondria with a donor’s healthy ones; the UK permitted it by law in 2015. There is more on the technique in “Nuclear and non-nuclear inheritance”.
+[bio35-s7.14.0] For: it lets a woman with a mitochondrial disease have a genetically related child free of that disease.
+[bio35-s7.14.1] For: the donor contributes only the mitochondrial DNA (37 genes), not the nuclear DNA that determines the child’s characteristics.
+[bio35-s7.14.2] Against: it is a germline change, passed on by daughters to their children.
+[bio35-s7.14.3] Against: long-term safety is still being studied.
+[bio35-s7.14.4] Against: questions arise about the donor’s relationship to the child (the “three-parent baby”).
+[bio35-s7.14.5] Against: some fear it is a step towards other germline changes.
+[bio35-s7.15.b] DNA testing looks for disease alleles in a person’s DNA, unlike DNA profiling, which identifies people. The ethics depend on what the test is for, so each kind is taken in turn, starting with the most straightforward.
+[bio35-s7.15.0] For: diagnostic testing confirms a diagnosis so that treatment can start.
+[bio35-s7.15.1] For: carrier testing (finding out whether a healthy person carries one copy of a recessive disease allele, e.g. for cystic fibrosis, common in Ireland) informs people’s choices before having children. There is more on this in “Benefits and limitations of Mendelian genetics”.
+[bio35-s7.15.2] Against: a positive result may reveal that relatives are also carriers, raising questions about whether and how to tell them.
+[bio35-s7.16.b] Predictive testing finds out whether a healthy person will develop a disease later in life. It is most controversial when the disease has no cure.
+[bio35-s7.16.0] Huntington’s disease is an example of a late-onset disease (one that appears in adulthood) with no cure. It is dominant, so a child of an affected parent has a 1 in 2 risk.
+[bio35-s7.16.1] For: predictive testing gives certainty, and the chance to plan life, career and family.
+[bio35-s7.16.2] Against: a positive result may cause great distress, and many people at risk choose not to be tested.
+[bio35-s7.16.3] Against: the right not to know (autonomy) must be respected.
+[bio35-s7.16.4] Testing children is usually delayed until they can decide for themselves, because they cannot give informed consent and cannot be helped by knowing early.
+[bio35-s7.16.5] Genetic counselling before and after testing is essential, so that people understand the choices and are supported with the result.
+[bio35-s7.17.b] Some alleles only raise the chance of disease rather than guaranteeing it, and tests can also be done on embryos. Both create hard choices.
+[bio35-s7.17.0] Testing for risk alleles (e.g. BRCA1 and BRCA2): a positive result gives a raised risk, not certainty, so people face hard decisions about preventive surgery. There is more on this in “Causes, prevention and treatment of cancer”.
+[bio35-s7.17.1] A negative result may give false reassurance, because the person can still develop the disease for other reasons.
+[bio35-s7.17.2] Preimplantation genetic diagnosis (PGD) tests embryos made by IVF (in vitro fertilisation, fertilising eggs outside the body) so that only embryos without a serious disease allele are implanted. Prenatal tests on the foetus and newborn screening belong to “Prenatal and postnatal care”.
+[bio35-s7.17.3] For: parents avoid passing on a serious disease.
+[bio35-s7.17.4] Against: unused embryos are destroyed, which some people believe is wrong because an embryo has the moral status of a person.
+[bio35-s7.17.5] Against: there is worry about choosing embryos for non-medical traits (sex, appearance).
+[bio35-s7.17.6] Against: concern that it devalues the lives of people living with the condition.
+[bio35-s7.18.b] Some companies sell genetic tests straight to the public, online, without a doctor’s involvement.
+[bio35-s7.18.0] For: tests bought online are cheap and convenient, and respect autonomy because people choose to find out for themselves.
+[bio35-s7.18.1] Against: results given without counselling may be misunderstood, and accuracy varies.
+[bio35-s7.18.2] Against: they may reveal unexpected family relationships, e.g. that a parent is not the biological parent.
+[bio35-s7.18.3] Against: data privacy, because the company holds the customer’s permanent genetic data. The ancestry tests and police access block above gives an example.
+[bio35-s7.19.b] Stem cells are the body’s raw material for growing and repairing tissue. Their ethics depend on where they come from, so first learn the types and what each can become.
+[bio35-s7.19.0] A stem cell is an unspecialised cell that can divide by mitosis to make more stem cells, and can differentiate (become specialised) into specialised cell types. There is more on this in “Levels of organisation”.
+[bio35-s7.19.1] Embryonic stem cells, from the inner cell mass of an embryo about five days old (a blastocyst), are pluripotent: they can become any type of body cell.
+[bio35-s7.19.2] Adult (tissue) stem cells, e.g. in bone marrow, skin and the lining of the gut, are multipotent: they can become only a few related cell types. Bone-marrow stem cells give rise to the blood cells.
+[bio35-s7.19.3] Induced pluripotent stem (iPS) cells are adult body cells (e.g. skin cells) reprogrammed in the laboratory, by switching on a few genes, to behave like embryonic stem cells.
+[bio35-s7.19.4] Shinya Yamanaka first made iPS cells (in mice) in 2006, and shared the 2012 Nobel Prize in Physiology or Medicine with John Gurdon.
+[bio35-s7.19.5] iPS cells avoid the use of embryos and, made from a patient’s own cells, would not be rejected by the immune system, because the cells are recognised as the patient’s own.
+[bio35-s7.20.b] Because stem cells can replace lost or damaged cells, they are used or being tested as treatments for many conditions.
+[bio35-s7.20.0] Bone-marrow (stem-cell) transplants already treat leukaemia and some other blood disorders. There is more on this in “Causes, prevention and treatment of cancer”.
+[bio35-s7.20.1] Skin grown from stem cells treats severe burns.
+[bio35-s7.20.2] Stem-cell treatments are being tested in clinical trials for conditions where cells are lost, e.g. Parkinson’s disease, type 1 diabetes, spinal cord injury, heart damage and some forms of blindness.
+[bio35-s7.20.3] Stem cells grown into tissues are used to test new drugs and to study diseases.
+[bio35-s7.21.b] A clone is a genetically identical copy. The same laboratory method can be used for two very different purposes, depending on whether the embryo is allowed to grow into an animal.
+[bio35-s7.21.0] A clone is a genetically identical copy.
+[bio35-s7.21.1] Reproductive cloning makes a whole organism by somatic cell nuclear transfer: the nucleus of a body cell is put into an egg cell whose own nucleus has been removed, the egg is stimulated to divide into an embryo, and the embryo is placed in a surrogate mother.
+[bio35-s7.21.2] Dolly the sheep was born on 5 July 1996 at the Roslin Institute near Edinburgh, Scotland. She was the first mammal cloned from an adult body cell (a cell from the udder), not an embryo cell.
+[bio35-s7.21.3] Dolly was one success from 277 attempts, and died in 2003 aged six.
+[bio35-s7.21.4] Therapeutic cloning uses the same method to make an early embryo only to obtain embryonic stem cells that match the patient; the embryo is not implanted, so no baby is produced.
+[bio35-s7.21.5] Diagram: somatic cell nuclear transfer as a flow diagram: body cell from adult A → nucleus removed; egg from female B → its nucleus removed; nucleus of A inserted into the empty egg → embryo; then two arrows: implanted in surrogate mother → clone of A (reproductive cloning), or grown in the laboratory → embryonic stem cells → specialised cells for the patient (therapeutic cloning).
+[bio35-s7.22.b] Embryonic stem cells can become any type of body cell, but getting them means destroying an embryo. This is why they are ethically controversial.
+[bio35-s7.22.0] For: they have the potential to treat many serious diseases and relieve great suffering (beneficence).
+[bio35-s7.22.1] For: the embryos used are often spare embryos from IVF that would otherwise be discarded.
+[bio35-s7.22.2] Against: obtaining the cells destroys an embryo, which those who believe life begins at fertilisation regard as killing a human being.
+[bio35-s7.22.3] Against: there is concern about creating embryos for research.
+[bio35-s7.23.b] Adult stem cells and iPS cells largely avoid the embryo issue, but they have their own concerns.
+[bio35-s7.23.0] iPS cells may carry a risk of tumours.
+[bio35-s7.23.1] Unproven “stem-cell clinics” sell untested, expensive and sometimes harmful treatments to desperate patients.
+[bio35-s7.23.2] Consent is needed from donors of cells and tissues.
+[bio35-s7.24.b] Reproductive cloning produces a living animal or, in principle, a person. The arguments differ a great deal between animals and humans.
+[bio35-s7.24.0] In animals, for: copying valuable farm animals or conserving endangered species.
+[bio35-s7.24.1] In animals, against: low success rates, many failed pregnancies and animal suffering, and clones’ health problems (animal welfare).
+[bio35-s7.24.2] Reproductive cloning in humans is almost universally rejected, because of the risk of serious abnormality, the clone’s identity and individuality, and the use of people as means to an end.
+[bio35-s7.24.3] It is prohibited by the Charter of Fundamental Rights of the European Union.
+[bio35-s7.24.4] Research fraud has also damaged trust in this field (the Hwang Woo-suk case). There is more on this in “Science as a global enterprise”.
+[bio35-s7.25.b] Therapeutic cloning aims to make stem cells genetically matched to a patient, but it raises the embryo issue again and adds a new problem about eggs.
+[bio35-s7.25.0] For: it produces stem cells that exactly match the patient, so there is no rejection.
+[bio35-s7.25.1] Against: embryos are created to be destroyed.
+[bio35-s7.25.2] Against: it needs many donated eggs, and egg donation carries health risks and could exploit poor women if they are paid.
+[bio35-s7.25.3] Against: it may make reproductive cloning easier.
+[bio35-s7.26.b] The separate issues above keep returning to the same few principles, which is why they make a good checklist for any new genetic technology.
+[bio35-s7.26.0] Common threads in all these issues: consent (including that of relatives and future generations, who cannot consent); privacy of permanent, shared genetic information; and fair access to expensive technologies (justice).
+[bio35-s7.26.1] Two more threads: the precautionary principle where long-term effects are unknown, and the need for laws and independent ethics committees to keep up with fast-changing technology.
+
+CANDIDATES bio35-s1: Genetic engineering
+[bio35-s1.0.b] Genetic engineering lets scientists give an organism a new trait by changing its DNA directly, rather than waiting for the trait to arise by breeding. Three terms name the technique, its products and the DNA it creates.
+[bio35-s1.0.0] Genetic engineering (genetic modification, GM) is the deliberate change of an organism’s DNA by artificial means, usually by cutting a gene out of one organism and inserting it into the DNA of another, often a different species.
+[bio35-s1.0.1] The organism produced is a genetically modified organism (GMO). One carrying a gene from another species is transgenic, which means it holds DNA that did not come from its own species.
+[bio35-s1.0.2] DNA made by joining DNA from two different sources is recombinant DNA, because the pieces have been recombined into a new combination that did not exist before.
+[bio35-s1.1.b] A gene from one species can work in another, and that is what separates genetic engineering from older methods of improving organisms. The technique is also quite recent.
+[bio35-s1.1.0] It works because the genetic code is universal: every organism uses the same code to read DNA, so a host cell reads a gene from any species and makes the same protein.
+[bio35-s1.1.1] The inserted gene must include the instructions the host needs to switch it on, so that it is transcribed (copied into mRNA) and translated (built into a protein) in the host.
+[bio35-s1.1.2] Selective breeding (artificial selection, where humans choose which organisms reproduce) mixes whole sets of genes between members of the same or closely related species, and takes many generations.
+[bio35-s1.1.3] Genetic engineering instead moves one chosen gene, even between unrelated species (for example bacterium to plant, or human to bacterium), in one generation. This is why selective breeding is not genetic engineering.
+[bio35-s1.1.4] In 1973 Stanley Cohen and Herbert Boyer in the USA inserted foreign DNA into a plasmid (a small ring of DNA found in bacteria) and put it into bacteria, which copied it: the first genetically engineered organism.
+[bio35-s1.1.5] Bacterial restriction enzymes (enzymes that cut DNA), discovered in the late 1960s and early 1970s, made this possible.
+[bio35-s1.2.b] A gene cannot get into a host cell on its own, so it is carried in. The carrier is called a vector, and several kinds are used depending on the host.
+[bio35-s1.2.0] A vector is a carrier that takes the gene into the host cell.
+[bio35-s1.2.1] A plasmid is a small circle of double-stranded DNA found in bacteria, separate from the main chromosome. It copies itself independently and is passed on when the bacterium divides, so the new gene is copied too.
+[bio35-s1.2.2] Plasmids are the most common vector for bacteria and yeast.
+[bio35-s1.2.3] Plasmids used as vectors usually carry a marker gene (for example for resistance to an antibiotic) so that cells which have taken them up can be identified.
+[bio35-s1.2.4] Modified viruses are also vectors, because viruses naturally inject their DNA into cells. Bacteriophages (viruses that infect bacteria) are used for bacteria. Harmless modified viruses are used for human and animal cells in gene therapy and some vaccines.
+[bio35-s1.2.5] Agrobacterium tumefaciens, a soil bacterium, naturally transfers part of its plasmid (the Ti plasmid) into plant cells, so it is used to modify plants.
+[bio35-s1.2.6] Some methods use no vector. In microinjection, DNA is injected into a fertilised animal egg with a fine needle. A “gene gun” fires tiny metal particles coated with DNA into plant cells.
+[bio35-s1.3.b] To move a gene, scientists first need a way to cut DNA at exact places. Restriction enzymes do this, and the way they cut makes it easy to join pieces back together.
+[bio35-s1.3.0] Restriction enzymes (restriction endonucleases) cut DNA at a specific short base sequence, the recognition site, usually 4 to 8 base pairs long.
+[bio35-s1.3.1] In nature restriction enzymes protect bacteria by cutting up the DNA of invading viruses.
+[bio35-s1.3.2] Many restriction enzymes cut the two strands at slightly different points, leaving short single-stranded overhangs called sticky ends. Others cut straight across, leaving blunt ends.
+[bio35-s1.3.3] Worked example: the restriction enzyme EcoRI (from the bacterium Escherichia coli) recognises GAATTC and cuts between G and A on each strand: …G | AATTC… on one strand and …CTTAA | G… on the other, leaving the four-base sticky ends AATT.
+[bio35-s1.3.4] Any two pieces of DNA cut with the same enzyme have complementary sticky ends, so they can base-pair (A with T, C with G). This is why the gene and the plasmid are cut with the same enzyme.
+[bio35-s1.3.5] Diagram: a double strand with GAATTC/CTTAAG, the staggered cut shown, and the two fragments with their AATT overhangs labelled “sticky end”.
+[bio35-s1.4.b] Sticky ends hold two fragments together only weakly. A second enzyme is needed to make the join permanent.
+[bio35-s1.4.0] DNA ligase is the enzyme that joins DNA fragments by re-forming the sugar–phosphate backbone (the long chain on the outside of each DNA strand) where the sticky ends have paired.
+[bio35-s1.4.1] The sticky ends pair by hydrogen bonds between bases, which are weak. DNA ligase makes the strong backbone bonds, so it is sometimes called “molecular glue”.
+[bio35-s1.5.b] Making a recombinant plasmid has three stages: get the DNA, cut it, then join the gene into the plasmid. Human insulin is the standard example.
+[bio35-s1.5.0] 1. DNA isolation: the donor DNA containing the gene is extracted from the donor cells (for example human cells for the insulin gene). Separately, plasmids are extracted from bacteria by breaking the cells open.
+[bio35-s1.5.1] 2. Cutting: the donor DNA and the plasmid are cut with the same restriction enzyme.
+[bio35-s1.5.2] This cuts the gene out of the donor DNA and opens the plasmid ring once, so both have matching sticky ends.
+[bio35-s1.5.3] 3. Ligation: the gene and the opened plasmids are mixed. Their complementary sticky ends base-pair, and DNA ligase seals the backbone, giving a recombinant plasmid that contains the new gene.
+[bio35-s1.6.b] The recombinant plasmid now has to get into bacteria and be put to work. The bacteria then become small factories for the protein.
+[bio35-s1.6.0] 4. Transformation: bacteria take up the recombinant plasmid from their surroundings. Transformation means a cell taking up and keeping foreign DNA.
+[bio35-s1.6.1] In the laboratory, uptake is increased by treating the bacteria with calcium chloride and a brief heat shock.
+[bio35-s1.6.2] Only a small fraction of bacteria take up a plasmid, so they are selected. They are grown on agar containing the antibiotic, and only bacteria carrying the plasmid’s resistance marker gene survive.
+[bio35-s1.6.3] 5. Expression: the transformed bacteria are cloned, each dividing repeatedly by binary fission (splitting in two) to produce millions of identical copies, each with the plasmid.
+[bio35-s1.6.4] The bacteria transcribe and translate the inserted gene and make the protein; the gene is “expressed”.
+[bio35-s1.6.5] They are grown in large numbers in a fermenter (bioreactor, a large vessel for growing microorganisms), and the protein is extracted and purified.
+[bio35-s1.6.6] Diagram: flow chart: donor cell → gene cut out by restriction enzyme; bacterium → plasmid cut by the same enzyme; gene + plasmid joined by DNA ligase → recombinant plasmid; recombinant plasmid taken up by a bacterium (transformation); bacteria multiply and make the protein (expression).
+[bio35-s1.6.7] Diagram labels: donor DNA, gene, restriction enzyme, sticky ends, plasmid, DNA ligase, recombinant plasmid, host bacterium, marker gene.
+[bio35-s1.7.b] Bacteria, yeast and other cells that carry a human gene can make human proteins cheaply and in large amounts.
+[bio35-s1.7.0] Human insulin: the human insulin gene is inserted into bacteria (or yeast), which make human insulin for people with type 1 diabetes.
+[bio35-s1.7.1] In 1982 human insulin became the first genetically engineered medicine approved for use.
+[bio35-s1.7.2] Advantages over insulin from cattle and pig pancreases: it is identical to human insulin, so there are fewer allergic reactions; the supply is unlimited and consistent; and no animal slaughter is needed, avoiding religious and vegetarian objections.
+[bio35-s1.7.3] Other medicines are made by genetically engineered cells, such as human growth hormone, for children who lack it.
+[bio35-s1.7.4] Clotting factor VIII for people with haemophilia A (a condition where blood does not clot properly) is made by genetically engineered mammalian cells grown in culture, which removes the risk of infection from donated blood.
+[bio35-s1.7.5] The hepatitis B vaccine is made from a viral protein produced by genetically modified yeast.
+[bio35-s1.7.6] Many industrial and food enzymes are made by genetically modified microorganisms carrying the gene for the enzyme, for example chymosin for cheese-making, replacing rennet from calves’ stomachs, and enzymes in biological detergents.
+[bio35-s1.8.b] Plants are modified to protect themselves from pests, to tolerate weed-killers and to carry more nutrients. Each example below inserts a gene from another organism.
+[bio35-s1.8.0] Insect-resistant crops: a gene from the soil bacterium Bacillus thuringiensis (Bt) for a protein toxic to certain insect larvae (for example caterpillars and corn borers) is inserted into maize or cotton, giving Bt maize and Bt cotton.
+[bio35-s1.8.1] Larvae that eat the plant die, so farmers spray less insecticide. The protein is harmless to mammals, birds and most other insects.
+[bio35-s1.8.2] Herbicide-tolerant crops: a gene for resistance to a herbicide (weed-killer) such as glyphosate is inserted into crops such as soya and maize, so the field can be sprayed to kill weeds without harming the crop.
+[bio35-s1.8.3] Improved nutrition: Golden Rice has genes from other organisms inserted so that its grain makes beta-carotene, which the body converts to vitamin A. The beta-carotene gives the rice its yellow colour.
+[bio35-s1.8.4] Golden Rice was developed to reduce vitamin A deficiency, a cause of childhood blindness and death where rice is the main food. It was approved for growing in the Philippines in 2021.
+[bio35-s1.8.5] The EU regulates GM crops strictly. The only GM crop grown commercially in the EU is a Bt maize, grown mostly in Spain.
+[bio35-s1.8.6] No GM crops are grown commercially in Ireland, but GM soya and maize are imported, mainly for animal feed.
+[bio35-s1.9.b] Genes can also be added to animals, and to human cells to treat disease. The effect depends on which cells are changed.
+[bio35-s1.9.0] GM animals: AquAdvantage salmon carries a growth-hormone gene from another salmon species (the Chinook salmon), so it grows to market size faster.
+[bio35-s1.9.1] AquAdvantage salmon was approved for food in the USA in 2015, the first GM animal approved for food there.
+[bio35-s1.9.2] GM animals, especially mice, are also used in medical research as models of human diseases.
+[bio35-s1.9.3] Gene therapy: a working copy of a gene is inserted into a patient’s own cells to treat a genetic disease caused by a faulty allele (version of a gene), usually using a harmless modified virus as the vector.
+[bio35-s1.9.4] Somatic gene therapy changes body cells only, so the change is not inherited.
+[bio35-s1.9.5] Germline changes (in eggs, sperm or embryos) would be inherited by the patient’s children, and are not allowed in most countries.
+[bio35-s1.10.b] Plasmid methods add a new gene. Gene editing is a newer approach that changes a gene exactly where it already sits in the genome (all of an organism’s DNA).
+[bio35-s1.10.0] CRISPR-Cas9 is a gene-editing tool adapted from a system that bacteria use to defend themselves against viruses.
+[bio35-s1.10.1] A short guide RNA, made to be complementary to the target DNA sequence, leads the enzyme Cas9 to that exact place in the genome, where Cas9 cuts both DNA strands.
+[bio35-s1.10.2] When the cell repairs the cut, the gene can be switched off, or a corrected sequence supplied by scientists can be built in.
+[bio35-s1.10.3] Unlike the earlier plasmid method, which adds a new gene carried in a vector, CRISPR changes a gene in its own place in the organism’s DNA (editing). It is faster, cheaper and more precise.
+[bio35-s1.10.4] Jennifer Doudna and Emmanuelle Charpentier shared the 2020 Nobel Prize in Chemistry for developing it.
+[bio35-s1.10.5] In 2023 the UK became the first country to approve a CRISPR-based treatment, for sickle-cell disease and beta thalassaemia. The patient’s own blood stem cells are edited outside the body and returned.
+[bio35-s1.11.b] The uses of genetic engineering fall into three themes, which is a useful way to organise an answer.
+[bio35-s1.11.0] Health: medicines (insulin, growth hormone, clotting factors, vaccines), gene therapy and gene editing.
+[bio35-s1.11.1] Sustainability: crops needing less insecticide, nutrition-enhanced crops, and enzymes replacing harsh chemical processes.
+[bio35-s1.11.2] Technology: genetic engineering is a core biotechnology (the use of living organisms to make useful products).
+
+CANDIDATES bio35-s2: DNA profiling
+[bio35-s2.0.b] Every person's DNA is slightly different, and DNA profiling turns those differences into a pattern that can be compared between samples. It is used to link people to evidence, to each other or to a remains sample.
+[bio35-s2.0.0] DNA profiling (also called DNA fingerprinting) is a method of making a pattern of bands (or peaks) from a sample of a person's DNA, so that the DNA of different samples can be compared.
+[bio35-s2.0.1] Except for identical twins, the pattern is unique to each person, which is why it can identify an individual.
+[bio35-s2.0.2] Identical twins come from one zygote (the single cell formed at fertilisation), so they have the same DNA and the same profile. Non-identical twins and other siblings do not share a profile.
+[bio35-s2.0.3] How a profile is made, in outline: 1. DNA is extracted from cells. 2. Many copies of the repeat regions are made by PCR, so there is enough to detect (in older methods the DNA was cut with restriction enzymes).
+[bio35-s2.0.4] 3. The fragments are separated by size by gel electrophoresis, so that different lengths form different bands. 4. The pattern is analysed and compared. There is more on each step in Generating a DNA profile (Higher Level).
+[bio35-s2.1.b] A profile does not read a person's genes. It looks at stretches of DNA that do not code for protein, where short sequences are repeated, because the number of repeats differs so much from person to person.
+[bio35-s2.1.0] DNA profiling is based on non-coding DNA (DNA that does not code for a protein): about 98% of human DNA is non-coding.
+[bio35-s2.1.1] Parts of non-coding DNA contain short base sequences repeated many times one after another, for example short tandem repeats (STRs), a short sequence, often four bases (e.g. GATA), is repeated end to end, e.g. GATAGATAGATA…
+[bio35-s2.1.2] The number of repeats at a particular place on a chromosome (a locus) varies greatly between people, so the length of that piece of DNA varies too. This length difference is what a profile detects.
+[bio35-s2.1.3] Profiling is therefore not a test of a person's genes, their whole genome, their appearance or their health.
+[bio35-s2.2.b] Because we inherit one of each chromosome pair from each parent, every person has two copies of each locus. This is what gives the pattern its structure and lets it be used for family relationships.
+[bio35-s2.2.0] Each person has two copies of every locus, one on the chromosome inherited from the mother and one on the chromosome inherited from the father.
+[bio35-s2.2.1] Each copy can have a different number of repeats (two alleles, giving two bands), or the same number (giving one band, twice as strong because both copies run to the same position).
+[bio35-s2.2.2] So a child's profile at each locus has one band from the mother and one from the father. A child has half its bands from each parent, not most from the father.
+[bio35-s2.3.b] One locus on its own would match many people by chance. Testing many loci together makes a full match very strong evidence.
+[bio35-s2.3.0] A profile tests many loci at once; modern forensic profiles use more than ten.
+[bio35-s2.3.1] The chance that two unrelated people match at every locus is extremely small, which is why a full match is strong evidence of identity.
+[bio35-s2.3.2] The exception is identical twins, who share the same DNA and so the same profile at every locus.
+[bio35-s2.4.b] In gel electrophoresis, DNA fragments are pulled through a gel by an electric field and sorted by size. Knowing which way they move and which sizes go furthest lets you read a profile.
+[bio35-s2.4.0] On a gel, each band is a group of DNA fragments of the same length.
+[bio35-s2.4.1] DNA is negatively charged (because of its phosphate groups), so in an electric field it moves through the gel towards the positive electrode, away from the wells (the small slots) where samples are loaded.
+[bio35-s2.4.2] Shorter fragments (fewer repeats) move faster and travel further from the wells, because they pass through the gel more easily; longer fragments (more repeats) stay nearer the wells. So band position shows fragment length.
+[bio35-s2.4.3] Comparing band positions with a ladder of fragments of known length (a size marker) lets lengths be read.
+[bio35-s2.4.4] In modern laboratories the fragments are labelled with fluorescent dyes and separated by machine. The result is printed as a graph of peaks, each peak being one allele labelled with its number of repeats, rather than as bands. The rules for matching are the same.
+[bio35-s2.4.5] Diagram: a gel with wells at the top (negative electrode) and the positive electrode at the bottom; lanes for a ladder, a crime-scene sample and three suspects; one suspect's bands match the crime-scene lane exactly. Label wells, lanes, bands, "shorter fragments travel further", + and − electrodes.
+[bio35-s2.5.b] Once the bands are on the gel, you compare lanes. The rule for a match is strict: everything must line up.
+[bio35-s2.5.0] Two samples match only if every band is in the same position.
+[bio35-s2.5.1] A single band that differs, at any locus, shows that they did not come from the same person, because the same DNA would give identical bands; this is an exclusion.
+[bio35-s2.5.2] Paternity uses the same logic: every band in a child's profile must come from the mother or the father, so a man whose profile lacks a band the child must have inherited from its father is excluded as the father.
+[bio35-s2.6.b] DNA profiling is a recent method, and its first uses showed that it can both convict and clear people.
+[bio35-s2.6.0] DNA profiling was invented by Alec Jeffreys at the University of Leicester, England, in 1984.
+[bio35-s2.6.1] It was first used to convict a murderer, Colin Pitchfork, in 1988, which showed that it works as evidence in court.
+[bio35-s2.6.2] The same investigation first cleared an innocent suspect, who had confessed to one of the killings but whose DNA did not match.
+[bio35-s2.7.b] The two best-known uses compare a person's profile with other evidence or other people. In crime it links or excludes suspects, and in families it tests who is related to whom.
+[bio35-s2.7.0] Forensic science (crime): DNA from blood, semen, saliva, skin cells or hair roots left at a crime scene is compared with a suspect's DNA (taken from a mouth swab).
+[bio35-s2.7.1] A match links the suspect to the scene; a mismatch excludes them, because a single differing band shows the DNA came from someone else.
+[bio35-s2.7.2] Profiles are stored in national DNA databases so that new crime-scene samples can be compared with them, which can identify a suspect.
+[bio35-s2.7.3] Old crime-scene samples can be retested, solving "cold cases" (unsolved old crimes) and freeing people wrongly convicted.
+[bio35-s2.7.4] Paternity and other family relationships: DNA profiling is also used to establish maternity, to reunite separated families, and in immigration cases where family relationships must be proven.
+[bio35-s2.8.b] When a body is unrecognisable or old, a profile can still identify it by comparing with relatives or personal items. When nuclear DNA is not usable, other DNA can trace ancestry.
+[bio35-s2.8.0] Identifying human remains, e.g. victims of disasters, wars and accidents, or missing persons, by comparing their DNA with that of relatives or with DNA from their personal items (e.g. a toothbrush), which carry the person's own DNA.
+[bio35-s2.8.1] Mitochondrial DNA and Y-chromosome profiles trace family lines when nuclear DNA is too damaged or no close relative is available. Mitochondrial DNA is passed down the female line and the Y chromosome down the male line, so each follows one line of ancestors.
+[bio35-s2.8.2] Example: the skeleton found under a car park in Leicester in 2012 was confirmed in 2013 to be King Richard III, partly by matching its mitochondrial DNA to living descendants of his sister's female line.
+[bio35-s2.8.3] There is more on these two kinds of inheritance in Nuclear and non-nuclear inheritance.
+[bio35-s2.9.b] DNA profiling is not only for people. It is also applied to wildlife, farm and breeding animals, food and medicine.
+[bio35-s2.9.0] Animals, plants and conservation: identifying illegally traded wildlife products (e.g. ivory, meat from protected species), and checking the pedigree (parentage) of animals used for breeding.
+[bio35-s2.9.1] It also helps keep breeding programmes for endangered species from inbreeding (mating between close relatives).
+[bio35-s2.9.2] Food: DNA tests identify the species in food, so they show fraud when the food is not what the label says. Species tests check for a species' DNA, not an individual's profile.
+[bio35-s2.9.3] Example: in January 2013 the Food Safety Authority of Ireland found horse DNA in beef burgers on sale in Ireland, which revealed a Europe-wide horsemeat scandal.
+[bio35-s2.9.4] Medicine: DNA-based tests also help match donors and patients for bone-marrow transplants, and identify the strain of a disease-causing microorganism in an outbreak.
+[bio35-s2.10.b] The two are easily confused because both use DNA. They answer different questions.
+[bio35-s2.10.0] DNA profiling compares band patterns of mostly non-coding DNA to identify a person or a relationship; it tells nothing about health.
+[bio35-s2.10.1] Genetic screening (DNA testing) looks at particular genes to find whether a person has, or carries, an allele linked to a disease. There is more on this in Bioinformatics: genome databases and, for screening of newborns, in Prenatal and postnatal care.
+[bio35-s2.11.b] DNA evidence is powerful but not perfect. Problems can arise before, during and after the test.
+[bio35-s2.11.0] Contamination of a sample with another person's DNA (e.g. by investigators) can give a false link, so samples must be collected with gloves, masks and sealed bags.
+[bio35-s2.11.1] DNA can be degraded by heat, moisture, bacteria or time, giving incomplete profiles that are harder to interpret.
+[bio35-s2.11.2] A match shows that the DNA came from that person (or an identical twin), not when or how it got there; DNA can be transferred innocently, e.g. by touch or on shared objects.
+[bio35-s2.11.3] So DNA evidence must be weighed with other evidence; it does not prove guilt alone.
+[bio35-s2.11.4] Mistakes in labelling or interpretation, and the human judgement needed for mixed samples from several people, can lead to errors, for example if a sample is attributed to the wrong person.
+
+CANDIDATES bio3-s2: Science, scientists and society
+[bio3-s2.0.b] Scientists add to society in several ways, and the words 'discovery' and 'invention' mean different things. Knowing the difference, and how research is organised and paid for, lets you describe any scientist's contribution accurately.
+[bio3-s2.0.0] A discovery is finding something that already exists in nature but was not known, for example the structure of DNA, or that a mould kills bacteria. The thing was always there; the scientist is the first to find and describe it.
+[bio3-s2.0.1] An invention is creating a new device, process or product that did not exist before, for example the electron microscope, PCR (a method of copying small samples of DNA) or a vaccine.
+[bio3-s2.0.2] Discoveries often lead to inventions. The discovery of penicillin's effect on bacteria led to the invention of methods to mass-produce it, so that it could be given to many patients.
+[bio3-s2.0.3] Basic (pure) research aims to understand nature with no particular use in mind. Applied research aims to solve a practical problem, such as finding a cure for a disease.
+[bio3-s2.0.4] Many applications come from basic research done decades earlier. For example, the enzymes used in PCR and in DNA profiling (identifying people from their DNA) came from the study of bacteria, long before anyone planned such uses.
+[bio3-s2.0.5] Most discoveries are now made by teams, often international, working in universities, hospitals, public research institutes and companies. They are funded by governments, the EU, charities and industry, and who funds research influences which questions are studied. There is more on this in Science as a global enterprise.
+[bio3-s2.0.6] Scientists also contribute by advising governments, for example with public health advice in a pandemic (a disease outbreak spreading across many countries). They assess the risks of new technologies, communicate with the public, and warn about problems, as Rachel Carson did in the DDT case study.
+[bio3-s2.1.b] To evaluate the impact of a scientific contribution is to judge it using evidence. Four factors give you a checklist: economic, social, sustainability and ethical. Each comes with questions you can ask about any discovery or technology.
+[bio3-s2.1.0] Economic means the costs and benefits in money and jobs. Ask who pays for the research and the product, and who profits (companies, through patents). Ask whether it creates jobs or industries.
+[bio3-s2.1.1] Economic questions also cover savings and affordability. Ask whether it saves money, for example fewer days lost to illness or higher crop yields, and whether poorer people and countries can afford it.
+[bio3-s2.1.2] Social means the effects on people's health, lives and communities, and on how people live. Ask who benefits and who is harmed, and whether it changes life expectancy or quality of life. Ask whether it increases or reduces inequality, and how the public accepts it.
+[bio3-s2.1.3] Sustainability means meeting present needs without harming the ability of future generations to meet theirs. Ask what the effects are on the environment, biodiversity, resources and climate, and whether the benefits are long-lasting.
+[bio3-s2.1.4] Sustainability questions also cover side effects. Ask whether it causes problems such as resistance (pests or bacteria no longer killed by a chemical or drug) or pollution.
+[bio3-s2.1.5] Ethical means whether something is right or wrong. Ask whether it is fair (justice) and whether it does good and avoids harm. Ask whether people were informed and gave consent, whether animals were used and, if so, whether their use was justified, and who decides.
+[bio3-s2.1.6] Ethical questions are answered by reasoning about values, informed by evidence. This means science alone cannot settle them: the facts can show what happens, but people must decide what is acceptable.
+[bio3-s2.2.b] Ethical questions in biology are not left to opinion alone. Researchers and doctors use a small set of agreed principles to decide what is acceptable, and these give you the vocabulary for the ethical factor.
+[bio3-s2.2.0] The four principles of medical ethics are autonomy (respecting people's right to decide for themselves, through informed consent, which means agreeing after being told the risks and benefits), beneficence (doing good), non-maleficence (doing no harm) and justice (treating people fairly and sharing benefits and burdens fairly).
+[bio3-s2.2.1] For animal research, the 3Rs were proposed by Russell and Burch in 1959. Replacement means using non-animal methods where possible, Reduction means using as few animals as possible, and Refinement means minimising pain and distress.
+[bio3-s2.2.2] The precautionary principle says that where an action might cause serious harm and the science is uncertain, you should take care or not proceed until there is more evidence. In other words, uncertainty is a reason for caution, not for going ahead.
+[bio3-s2.2.3] International research conventions, for example the Declaration of Helsinki, set ethical rules for research across countries. There is more on this in Science as a global enterprise.
+[bio3-s2.3.b] Penicillin is an antibiotic (a medicine that kills bacteria), and it began the era of antibiotics. Its story shows a discovery turning into an invention through the work of different scientists, and how its benefits are now at risk.
+[bio3-s2.3.0] What happened: in 1928 Alexander Fleming, at St Mary's Hospital in London, noticed that a mould (Penicillium) contaminating a culture plate (a dish in which bacteria are grown) of Staphylococcus bacteria had killed the bacteria around it.
+[bio3-s2.3.1] Howard Florey and Ernst Chain, at the University of Oxford, purified penicillin and showed that it cured infections, from 1940. It was mass-produced during the Second World War.
+[bio3-s2.3.2] Fleming, Florey and Chain shared the Nobel Prize in Physiology or Medicine in 1945. Fleming did not purify or mass-produce penicillin; Florey and Chain did, so Fleming made the discovery and the Oxford team turned it into a usable drug.
+[bio3-s2.3.3] Social impact (positive): bacterial infections that were often fatal, such as infected wounds, pneumonia and sepsis (blood poisoning), became curable. Surgery and childbirth became much safer, and the era of antibiotics began.
+[bio3-s2.3.4] Economic impact (positive): penicillin created a large pharmaceutical industry, healthier workers and fewer deaths, and antibiotics are cheap to make.
+[bio3-s2.3.5] Sustainability impact (negative): overuse and misuse of antibiotics in medicine and farming have selected for resistant bacteria, such as MRSA, by natural selection. This threatens to make infections untreatable again, and Fleming warned of this in his Nobel lecture in 1945. There is more on this in Evidence for evolution.
+[bio3-s2.3.6] Ethical impact: access is unequal in poorer countries. Using antibiotics to make farm animals grow faster, which has been banned in the EU since 2006, raises resistance for everyone. Prescribing responsibly, known as antibiotic stewardship, is now an ethical duty.
+[bio3-s2.3.7] Judgement: one of the most beneficial discoveries in medicine, whose benefits are now threatened by the way it has been used.
+[bio3-s2.4.b] Insulin is the hormone that lowers blood glucose, and people with type 1 diabetes cannot make enough of it. This case study shows a discovery that saved lives, a decision to give up profit, and a later invention that changed how the medicine is made.
+[bio3-s2.4.0] What happened: in 1921 at the University of Toronto, Frederick Banting and Charles Best extracted insulin from the pancreases of dogs and showed that it lowered blood glucose in diabetic dogs.
+[bio3-s2.4.1] In 1922 insulin was first used to treat a person with type 1 diabetes, a 14-year-old boy named Leonard Thompson. Social impact (positive): type 1 diabetes changed from a fatal disease to a manageable condition.
+[bio3-s2.4.2] Banting and John Macleod received the Nobel Prize in 1923. The discoverers sold the patent (the legal right to profit from an invention) to the University of Toronto for a token sum so that insulin could be made widely available.
+[bio3-s2.4.3] Insulin was extracted from cattle and pig pancreases until 1982, when human insulin made by genetically modified bacteria became the first genetically engineered medicine approved for use. There is more on this in Genetic engineering.
+[bio3-s2.4.4] Economic impact: a large global insulin industry has grown. In some countries, notably the USA, high insulin prices mean that some patients cannot afford enough.
+[bio3-s2.4.5] Sustainability impact (positive): making insulin in bacteria in fermenters (large tanks where microbes are grown) gives an unlimited, consistent supply without relying on slaughterhouse animals.
+[bio3-s2.4.6] Ethical impact: experiments on dogs should be assessed using the 3Rs. Animal-derived insulin raised religious and vegetarian concerns that human insulin from bacteria removes. Fair access is a justice issue.
+[bio3-s2.4.7] Judgement: overwhelmingly positive, but access is unequal.
+[bio3-s2.5.b] DDT is a chemical that kills insects. It saved lives, but it also did lasting damage to wildlife. This case study shows how a scientist can contribute by warning society about a problem, and how one technology can have major benefits and major harms.
+[bio3-s2.5.0] What happened: in 1939 Paul Müller discovered that the chemical DDT is a powerful insecticide. He received the Nobel Prize in 1948. DDT was used to control insects that spread malaria and typhus, and to protect crops.
+[bio3-s2.5.1] In 1962 the American biologist Rachel Carson published Silent Spring, presenting evidence that DDT and other pesticides were harming wildlife, especially birds.
+[bio3-s2.5.2] DDT is not broken down quickly, so it builds up in food chains and reaches high concentrations in top predators such as birds of prey. There it causes thin eggshells that break. There is more on this in Energy and nutrient transfer.
+[bio3-s2.5.3] The USA banned most uses of DDT in 1972. The Stockholm Convention (2001) restricts it worldwide but allows its use to control malaria-carrying mosquitoes.
+[bio3-s2.5.4] Social impact (positive): millions of people were protected from malaria and typhus, and food production increased. Economic impact: DDT was cheap and effective, so it raised crop yields, but chemical companies attacked Carson's work.
+[bio3-s2.5.5] Sustainability impact (negative): persistence and build-up in food chains harmed birds of prey and other wildlife, and insects evolved resistance to DDT. Silent Spring helped to start the modern environmental movement.
+[bio3-s2.5.6] Ethical impact: weighing human lives saved from malaria against harm to wildlife and long-term ecological damage, applying the precautionary principle, and respecting the public's right to be told the risks.
+[bio3-s2.5.7] Judgement: the same scientific contribution can have major benefits and major harms, and scientists also contribute by evaluating technologies.
+[bio3-s2.6.b] Ivermectin is a drug against parasitic worms, developed with the help of an Irish scientist. It shows how basic research on soil microorganisms can lead to a medicine, and how a company can share a discovery with people who cannot pay for it.
+[bio3-s2.6.0] What happened: William Campbell, born in 1930 in Ramelton, Co. Donegal, and a graduate of Trinity College Dublin, worked at the drug company Merck in the USA.
+[bio3-s2.6.1] Satoshi Ōmura in Japan isolated a soil bacterium, a Streptomyces species, that produced useful compounds. Campbell's team found that one of them, avermectin, killed parasitic worms, and developed the drug ivermectin from it. Ōmura isolated the bacterium; Campbell did not.
+[bio3-s2.6.2] Ivermectin is used against river blindness (onchocerciasis), caused by a parasitic worm spread by the bites of blackflies, and against lymphatic filariasis. Social impact (positive): it has protected many millions of people in Africa and Latin America from river blindness and other parasitic diseases.
+[bio3-s2.6.3] Campbell and Ōmura shared the 2015 Nobel Prize in Physiology or Medicine with Tu Youyou, who discovered the antimalarial drug artemisinin.
+[bio3-s2.6.4] Economic impact: the drug was first sold as a veterinary drug for livestock and pets, which made it highly profitable. Healthier people can work and attend school.
+[bio3-s2.6.5] Ethical impact (positive): since 1987 Merck has donated the human form, Mectizan, free for as long as it is needed, through the Mectizan Donation Program. This is a model of a company sharing a discovery with people who cannot pay.
+[bio3-s2.6.6] Sustainability impact (negative): heavy use in livestock has led to resistance in some livestock parasites, and residues in animal dung can harm dung-feeding insects.
+[bio3-s2.6.7] Judgement: a discovery from basic research on soil microorganisms, with an enormous health benefit, shared ethically.
+[bio3-s2.7.b] Thalidomide shows what can go wrong when a drug is released without enough testing. Unlike the other case studies, its main lesson is a warning, and its legacy is the strict system of drug testing we have today.
+[bio3-s2.7.0] What happened: thalidomide was sold from 1957, first in West Germany and then in many countries including Ireland and the UK, as a sedative. It was given to pregnant women for morning sickness.
+[bio3-s2.7.1] It had not been tested for effects on the developing foetus. It caused severe birth defects, especially shortened or missing limbs, in more than 10,000 babies before it was withdrawn in 1961.
+[bio3-s2.7.2] In the USA, Frances Kelsey, a reviewer at the Food and Drug Administration (FDA), refused to approve it because the safety evidence was inadequate. Her refusal shows why independent review matters.
+[bio3-s2.7.3] Social impact (negative): lifelong disability for survivors and their families, and loss of public trust in medicines. Economic impact: compensation costs, and new regulation made developing drugs slower and more expensive.
+[bio3-s2.7.4] Ethical impact (negative): patients were harmed by a drug released without adequate testing. Survivors campaigned for decades for compensation and an apology.
+[bio3-s2.7.5] Lasting effect: much stricter laws on testing drugs before sale, including testing for effects in pregnancy, and systems to report side effects.
+[bio3-s2.7.6] Thalidomide is now used, under strict controls, to treat leprosy complications and a blood cancer, multiple myeloma.
+[bio3-s2.7.7] Judgement: shows why scientists and regulators must test new technologies carefully, and why independent review matters.
+[bio3-s2.8.b] The syllabus asks you to research a scientist's contribution and present it, not just recall case studies. This is the method to follow, whichever scientist or team you choose.
+[bio3-s2.8.0] 1. Choose a scientist or team and their discovery or invention.
+[bio3-s2.8.1] 2. Research using reliable sources (sources you can trust, such as scientific journals and established institutions): who the scientists were, the problem, what they did and how, the evidence, and how the work was received. There is more on this in Recognising bias and evaluating sources.
+[bio3-s2.8.2] 3. Describe the impact under the four factors (economic, social, sustainability and ethical), positive and negative, using specific evidence.
+[bio3-s2.8.3] 4. Make and justify a judgement: say whether the overall impact was positive or negative, and give your reasons.
+[bio3-s2.8.4] 5. Present the work for the audience, for example as a poster, a slide presentation or a short report, with references so that others can check your sources.
+
+CANDIDATES bio16-s2: Mitosis and meiosis
+[bio16-s2.0.b] When a cell divides, its genetic information has to go somewhere. In mitosis the information is passed on unchanged, so the new cells are exact genetic copies of the cell they came from.
+[bio16-s2.0.0] Mitosis is nuclear division (division of the nucleus, which holds the chromosomes) that produces two nuclei, each with the same number of chromosomes as the parent nucleus and genetically identical to it.
+[bio16-s2.0.1] A diploid cell (one with two sets of chromosomes) gives two diploid cells (2n to 2n). A haploid cell (one with a single set), in organisms that have haploid stages, gives haploid cells (n to n).
+[bio16-s2.0.2] Every chromosome is copied exactly before mitosis. During mitosis the two identical copies of each chromosome are separated, so each new nucleus receives one copy of every chromosome. This is one division giving two daughter cells.
+[bio16-s2.0.3] Homologous chromosomes (the matching pair, one from each parent) do not pair up in mitosis. There is more on this in 'DNA replication and mitosis in the cell cycle'.
+[bio16-s2.0.4] Cells produced by mitosis from one parent cell form a clone: a group of genetically identical cells or organisms.
+[bio16-s2.0.5] Mitosis on its own produces no genetic variation, because the information is copied exactly. The only source of difference is a rare mistake in copying, called a mutation.
+[bio16-s2.1.b] Sexual reproduction needs cells with half the usual number of chromosomes, and it also produces variety. Meiosis does both: it halves the chromosome number and shuffles the genetic information, so no two cells are alike.
+[bio16-s2.1.0] Meiosis is nuclear division that halves the chromosome number, producing four haploid nuclei from one diploid nucleus (2n to n). It involves two divisions, one after the other, after the DNA has been copied once.
+[bio16-s2.1.1] In the first division, homologous chromosomes pair up and then separate, one of each pair going to each new cell, so each cell receives one complete set. In the second division the two copies of each chromosome separate.
+[bio16-s2.1.2] The four cells differ from each other and from the parent because the homologous pairs line up and separate independently of one another (random, or independent, assortment). Each gamete (sex cell) therefore receives a random mixture of maternal and paternal chromosomes.
+[bio16-s2.1.3] With 23 pairs, one person can make 2²³ (more than 8 million) different combinations of chromosomes in their gametes. This is the basis of Mendel's Law of Independent Assortment. There is more on this in 'Mendel's Laws'.
+[bio16-s2.1.4] Homologous chromosomes can also exchange matching segments during the first division (crossing over), mixing their alleles (versions of a gene) further.
+[bio16-s2.1.5] Random fertilisation adds further variation, since any one of a huge number of different sperm may fuse with any one of a huge number of different eggs. So offspring of sexual reproduction differ from their parents and from each other, except identical twins. Variation from sexual reproduction and its role in evolution are in 'Variation'.
+[bio16-s2.1.6] Meiosis keeps the chromosome number constant across generations: gametes are haploid, so the zygote (the cell formed at fertilisation) is diploid (n + n = 2n). Without meiosis the number would double every generation.
+[bio16-s2.2.b] A unicellular organism is a single cell, so when it divides it is reproducing. Mitosis gives it a fast way to reproduce, and meiosis gives some of them a way to add variation.
+[bio16-s2.2.0] In unicellular eukaryotes (organisms made of one cell with a nucleus) such as Amoeba and yeast, mitosis followed by division of the cell is asexual reproduction: one organism becomes two genetically identical organisms. In yeast this happens by budding.
+[bio16-s2.2.1] Asexual reproduction is fast, needs only one parent and passes on a successful set of genes unchanged, so a population can grow quickly when conditions are good.
+[bio16-s2.2.2] The drawback is that all the offspring are alike, so one change in conditions, such as a new disease, can affect them all.
+[bio16-s2.2.3] Some unicellular eukaryotes also reproduce sexually, using meiosis to produce varied haploid cells, often when conditions become poor. For example, starved diploid yeast cells undergo meiosis to form four haploid spores, which can survive harsh conditions.
+[bio16-s2.2.4] The variation from meiosis makes it more likely that some offspring survive a changed environment.
+[bio16-s2.2.5] Prokaryotes (bacteria, which have no nucleus) have neither mitosis nor meiosis. They copy their single circular chromosome and divide by binary fission. There is more on this in 'Prokaryotic and eukaryotic cells'.
+[bio16-s2.3.b] A multicellular organism uses mitosis to build and maintain its body, and meiosis only to make cells for sexual reproduction. Keeping these jobs separate matters for what offspring inherit.
+[bio16-s2.3.0] Mitosis for growth: a multicellular organism develops from a single cell, the zygote, by repeated mitosis, so every body cell has the same genetic information as the zygote.
+[bio16-s2.3.1] In plants, growth by mitosis is concentrated at the tips of roots and shoots (regions called meristems).
+[bio16-s2.3.2] Mitosis for repair and replacement: cells that wear out or are damaged are replaced, for example when a cut heals, when skin cells and the cells lining the gut are replaced, and when new blood cells are made in the bone marrow (stem cells there divide by mitosis).
+[bio16-s2.3.3] Mitosis for asexual reproduction: some multicellular organisms, including many plants, also reproduce asexually by mitosis, producing clones of the parent. Methods of asexual reproduction in plants are not on the specification.
+[bio16-s2.3.4] Meiosis for sexual reproduction takes place only in the reproductive organs. In humans it happens in the testes (forming sperm) and the ovaries (forming eggs). There is more on how human gametes form in 'Gametes and fertilisation'. In flowering plants it happens in the anthers and the ovules, leading to the pollen grains and the egg cell.
+[bio16-s2.3.5] Because body cells are made by mitosis and gametes by meiosis, a change to the DNA of a body cell, such as a skin cell, is not passed to offspring. A change in a cell that gives rise to gametes can be.
+[bio16-s2.3.6] There is more on this in 'Mutations', which is Higher Level only.
+[bio16-s2.4.b] Both divisions share machinery but do different jobs. Comparing them point by point shows how mitosis keeps information the same and meiosis varies it.
+[bio16-s2.4.0] Similarities: both are nuclear divisions of eukaryotic cells; both follow DNA replication (copying of the DNA) in interphase (the period between divisions); both use a spindle (a structure of fibres) to separate chromosomes; both are followed by cytokinesis (division of the cytoplasm).
+[bio16-s2.4.1] Number of divisions and cells: mitosis has one division and gives two cells; meiosis has two divisions and gives four cells.
+[bio16-s2.4.2] Chromosome number: mitosis keeps it the same (2n to 2n); meiosis halves it (2n to n), so its cells are haploid.
+[bio16-s2.4.3] Genetic make-up of the cells produced: mitosis gives cells identical to each other and to the parent; meiosis gives cells that differ from each other and from the parent. Homologous chromosomes do not pair in mitosis; in meiosis they pair and then separate.
+[bio16-s2.4.4] Where it happens: mitosis in body cells throughout the organism; meiosis only in the reproductive organs (testes, ovaries, anthers and ovules).
+[bio16-s2.4.5] Role of meiosis: it produces gametes or spores for sexual reproduction, giving variation and keeping the chromosome number constant across generations.
+[bio16-s2.4.6] Role in unicellular and multicellular organisms: mitosis serves growth, repair, replacement and asexual reproduction in both.
+[bio16-s2.4.7] Diagram: two flow diagrams for a cell with 2n = 4 (one long, one short homologous pair, parents' chromosomes shaded differently). Mitosis: two cells, 2n = 4, same shading as the parent. Meiosis: four cells, n = 2, different shadings. Label diploid, haploid, homologous pair.

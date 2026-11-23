@@ -1,0 +1,211 @@
+TARGET bio11-s11: Sex-linked traits
+[bio11-s11.0.b] Some genes sit on the sex chromosomes rather than on the other chromosomes, and this changes how they are inherited. Because males and females carry different sex chromosomes, the same allele can have a different effect in each sex.
+[bio11-s11.0.0] Sex-linked genes are almost all on the X chromosome (X-linked), because the Y carries very few genes.
+[bio11-s11.0.1] A sex-linked trait is a trait controlled by such a gene. The Y has no matching allele for most X-linked genes, so in males the X-linked gene has no second copy to pair with.
+[bio11-s11.0.2] Females (XX) have two copies of each X-linked gene, so they can be homozygous (two identical alleles) or heterozygous (two different alleles).
+[bio11-s11.0.3] A heterozygous female with one recessive allele is a carrier (she carries the allele but does not show the trait), because her dominant allele masks it.
+[bio11-s11.0.4] Males (XY) have only one copy, so whatever allele their single X carries is expressed, with no second allele to mask it.
+[bio11-s11.0.5] This is why a male cannot be a carrier, and why one recessive allele is enough for him to show the trait.
+[bio11-s11.0.6] X-linked recessive conditions are therefore much more common in males than in females.
+[bio11-s11.0.7] A female shows the condition only if she inherits the recessive allele from both parents, which means an affected father and a carrier or affected mother.
+[bio11-s11.1.b] To predict who inherits an X-linked allele, follow the sex chromosomes. A child's sex is decided by the sex chromosome the father contributes, and that also decides where the X-linked allele comes from.
+[bio11-s11.1.0] A father passes his X to all his daughters and his Y to all his sons.
+[bio11-s11.1.1] So an affected father never passes an X-linked condition to his sons, because sons get his Y, which carries no allele for the gene.
+[bio11-s11.1.2] All his daughters are at least carriers, because each receives his X with the recessive allele.
+[bio11-s11.1.3] A son's X-linked allele always comes from his mother, since his only X is the one she gave him.
+[bio11-s11.2.b] Genetics questions use a fixed way of writing X-linked genotypes so that the sex and the alleles are both clear at a glance.
+[bio11-s11.2.0] Write the allele as a superscript on the X, and the Y with no allele, because the Y has no matching allele for these genes.
+[bio11-s11.2.1] Colour blindness: Xᴮ = normal colour vision, Xᵇ = colour blind. Haemophilia: Xᴴ = normal clotting, Xʰ = haemophilia.
+[bio11-s11.2.2] Colour-blindness genotypes: female XᴮXᴮ (normal), XᴮXᵇ (carrier), XᵇXᵇ (colour blind); male XᴮY (normal), XᵇY (colour blind).
+[bio11-s11.2.3] Use the letters a question gives.
+[bio11-s11.3.b] Red-green colour blindness is the standard example of an X-linked recessive condition, and the one most often used in crosses.
+[bio11-s11.3.0] Red-green colour blindness is an X-linked recessive condition in which a person has difficulty telling red and green apart.
+[bio11-s11.3.1] The genes for the red- and green-sensitive light-absorbing pigments of the cone cells of the retina (the colour-detecting cells at the back of the eye) are on the X chromosome. The recessive allele gives a pigment that is missing or works abnormally.
+[bio11-s11.3.2] It affects about 1 in 12 men (8%) and about 1 in 200 women (0.5%) of northern European ancestry. The difference fits the pattern that males need only one recessive allele.
+[bio11-s11.3.3] It is detected with coloured-dot test charts (Ishihara plates).
+[bio11-s11.3.4] It is not treatable, but most people adapt to it.
+[bio11-s11.4.b] Haemophilia is the second named X-linked recessive condition. It shows how a single faulty gene can affect the whole body, because it removes one step in blood clotting.
+[bio11-s11.4.0] Haemophilia is an X-linked recessive condition in which blood does not clot properly because a clotting protein is missing or faulty.
+[bio11-s11.4.1] Haemophilia A lacks clotting factor VIII; haemophilia B lacks factor IX.
+[bio11-s11.4.2] Bleeding after injury lasts much longer, and bleeding can occur into joints and muscles.
+[bio11-s11.4.3] Haemophilia A affects about 1 in 5,000 male births.
+[bio11-s11.4.4] It is treated by injections of the missing clotting factor, now mostly produced by genetically engineered cells. There is more on this in Genetic engineering.
+[bio11-s11.5.b] Haemophilia in European royal families is a well-known real case of an X-linked allele passing through carrier daughters to affected grandsons.
+[bio11-s11.5.0] Queen Victoria (1819–1901) was a carrier of haemophilia.
+[bio11-s11.5.1] Her son Leopold had haemophilia. Through two of her daughters, who were carriers, it passed into the royal families of Russia (Tsarevich Alexei, son of Tsar Nicholas II) and Spain.
+[bio11-s11.6.b] Haemophilia and colour blindness are not the only X-linked recessive conditions. A third example is useful when a question asks for one other than haemophilia.
+[bio11-s11.6.0] Duchenne muscular dystrophy is another X-linked recessive condition, caused by a lack of the muscle protein dystrophin, which causes progressive muscle weakness (muscles get steadily weaker over time).
+[bio11-s11.6.1] It is almost always in boys, which fits the pattern for X-linked recessive conditions.
+[bio11-s11.7.b] A mother who is a carrier of colour blindness has a partner with normal vision, so we can work out what their children could inherit.
+[bio11-s11.7.0] Parents' phenotypes: normal-vision (carrier) female × normal-vision male.
+[bio11-s11.7.1] Parents' genotypes: carrier female XᴮXᵇ × normal male XᴮY.
+[bio11-s11.7.2] Gametes (each carries one sex chromosome with its allele): carrier female Xᴮ, Xᵇ × normal male Xᴮ, Y.
+[bio11-s11.7.3] Punnett square: XᴮXᴮ, XᴮY / XᴮXᵇ, XᵇY.
+[bio11-s11.7.4] Offspring genotypes and phenotypes: 1 normal female (XᴮXᴮ) : 1 carrier female (XᴮXᵇ) : 1 normal male (XᴮY) : 1 colour-blind male (XᵇY).
+[bio11-s11.7.5] Half the sons are expected to be colour blind and half the daughters carriers; no daughters are colour blind, because every daughter gets the father's normal Xᴮ. 25% of all children are colour blind.
+[bio11-s11.7.6] Diagram: the Punnett square for this cross, with the mother's gametes Xᴮ and Xᵇ on one side and the father's Xᴮ and Y on the other, each box labelled with genotype and phenotype (normal female, carrier female, normal male, colour-blind male).
+[bio11-s11.8.b] Here the father has haemophilia and the mother has two normal alleles. This cross shows what an affected father passes on.
+[bio11-s11.8.0] Parents' phenotypes: normal female × affected male.
+[bio11-s11.8.1] Parents' genotypes: normal female XᴴXᴴ × affected male XʰY.
+[bio11-s11.8.2] Gametes: normal female Xᴴ × affected male Xʰ, Y.
+[bio11-s11.8.3] Offspring: XᴴXʰ (carrier daughters) and XᴴY (normal sons), 1 : 1.
+[bio11-s11.8.4] All daughters are carriers, because each gets the father's Xʰ. No children have haemophilia, because the sons get his Y and the mother's normal Xᴴ.
+[bio11-s11.9.b] When both parents contribute a recessive allele, a daughter can be affected. This cross shows how that happens.
+[bio11-s11.9.0] Parents' phenotypes: carrier female × colour-blind male.
+[bio11-s11.9.1] Parents' genotypes: carrier female XᴮXᵇ × colour-blind male XᵇY.
+[bio11-s11.9.2] Gametes: carrier female Xᴮ, Xᵇ × colour-blind male Xᵇ, Y.
+[bio11-s11.9.3] Offspring: XᴮXᵇ (carrier female), XᵇXᵇ (colour-blind female), XᴮY (normal male), XᵇY (colour-blind male), 1 : 1 : 1 : 1.
+[bio11-s11.9.4] Half the daughters and half the sons are colour blind. This is how a colour-blind daughter can arise: she inherits Xᵇ from both her mother and her father.
+[bio11-s11.10.b] This cross reverses the sexes of the affected parent. It shows that an affected mother passes the condition to every son.
+[bio11-s11.10.0] Parents' phenotypes: affected female × normal male.
+[bio11-s11.10.1] Parents' genotypes: affected female XʰXʰ × normal male XᴴY.
+[bio11-s11.10.2] Gametes: affected female Xʰ × normal male Xᴴ, Y.
+[bio11-s11.10.3] Offspring: XᴴXʰ (carrier daughters) and XʰY (sons with haemophilia).
+[bio11-s11.10.4] All sons are affected, because their only X comes from the mother; all daughters are carriers, because they also get the father's normal Xᴴ.
+[bio11-s11.10.5] Females with haemophilia are very rare; this cross is used to show the pattern.
+[bio11-s11.11.b] A pedigree shows how a trait passes through several generations of a family. Before you can use one, you need to know what its symbols and lines mean.
+[bio11-s11.11.0] A pedigree is a family-tree diagram showing which members of a family have a trait.
+[bio11-s11.11.1] Symbols: square = male; circle = female; shaded = affected; half-shaded (or a dot in the centre) = carrier.
+[bio11-s11.11.2] A horizontal line joining a male and a female = parents; a vertical line down to a horizontal line = their children, in birth order from left to right.
+[bio11-s11.11.3] Generations are numbered I, II, III and individuals 1, 2, 3 within each, so every person can be named, for example II-2.
+[bio11-s11.12.b] Four features of a pedigree point to an X-linked recessive trait. Each follows from the rules on how X chromosomes are passed on.
+[bio11-s11.12.0] Many more affected males than females, because a male needs only one recessive allele.
+[bio11-s11.12.1] Affected males usually have unaffected parents, because the mother is a carrier.
+[bio11-s11.12.2] The trait can skip a generation, passing from an affected man through his carrier daughters to his grandsons.
+[bio11-s11.12.3] It is never passed from father to son, because a son gets his father's Y, not his X.
+[bio11-s11.13.b] To give the genotype of a named person, or the chance that a child is affected or a carrier, work through the pedigree in a fixed order. This starts with the people whose genotype is certain.
+[bio11-s11.13.0] 1. Write XY for every male and XX for every female.
+[bio11-s11.13.1] 2. Fill in the alleles of affected males (XʰY) and unaffected males (XᴴY), which follow directly from their phenotype.
+[bio11-s11.13.2] 3. Any daughter of an affected male is at least a carrier; any mother of an affected son is a carrier or affected.
+[bio11-s11.13.3] 4. Use these to fill in the remaining females.
+[bio11-s11.13.4] 5. Then work any further cross with a Punnett square.
+[bio11-s11.13.5] Diagram: a three-generation X-linked recessive pedigree. Generation I: normal man, carrier woman. Generation II: affected son, normal son, carrier daughter, normal daughter. Generation III: the carrier daughter's children with a normal man, including an affected grandson. Label symbols and generations.
+[bio11-s11.14.b] Genes on the Y chromosome follow a different pattern from X-linked genes, because only males have a Y.
+[bio11-s11.14.0] Genes on the Y chromosome (for example SRY) are passed only from father to son and are found only in males. There is more on SRY in Sex determination.
+
+CANDIDATES bio11-s10: Sex determination
+[bio11-s10.0.b] Whether a person is female or male depends on one pair of chromosomes out of 23. Knowing what that pair looks like in each sex is the starting point for working out how sex is inherited.
+[bio11-s10.0.0] A human body cell has 46 chromosomes in 23 pairs: 22 pairs of autosomes (the chromosomes that are the same in both sexes) and one pair of sex chromosomes, which decide the person's sex. There is more on this in Chromosome structure and genes.
+[bio11-s10.0.1] Females have two X chromosomes (XX); males have one X and one Y (XY). Every body cell carries this pair, not just the gametes (sex cells).
+[bio11-s10.0.2] The X is a large chromosome carrying roughly 800–900 protein-coding genes, so it carries many genes for the body generally.
+[bio11-s10.0.3] The Y is much smaller and carries well under 100 genes, most of them concerned with male development and sperm production.
+[bio11-s10.0.4] A karyotype is a photograph or diagram of a cell's chromosomes arranged in their pairs by size; it shows the sex chromosomes as XX or XY, so the sex of the person can be read straight from it.
+[bio11-s10.0.5] Diagram: a simplified karyotype of 22 numbered autosome pairs plus the sex-chromosome pair, with a female (XX) and a male (XY) version of pair 23, the Y drawn clearly smaller than the X.
+[bio11-s10.1.b] Body cells have two sex chromosomes, but gametes are made by meiosis (the cell division that halves the chromosome number), so each gamete gets only one. Writing out which gametes each parent makes lets you model the cross and predict the sexes of the children.
+[bio11-s10.1.0] Gametes are haploid (they have half the usual chromosome number), with 23 chromosomes: 22 autosomes and one sex chromosome.
+[bio11-s10.1.1] All of a woman's eggs carry an X (23,X), because she has only X chromosomes to pass on.
+[bio11-s10.1.2] A man's sperm carry either an X (23,X) or a Y (23,Y), in equal numbers, because the X and Y separate into different cells in meiosis.
+[bio11-s10.1.3] Parents' phenotypes (what they are): female × male.
+[bio11-s10.1.4] Parents' genotypes (their sex chromosomes): XX × XY.
+[bio11-s10.1.5] Gametes: X × X, Y.
+[bio11-s10.1.6] Punnett square (a grid showing every possible gamete combination): XX, XX / XY, XY (or 2 × 1: XX, XY). Offspring genotypes: 1 XX : 1 XY. Offspring phenotypes: 1 female : 1 male (50% each).
+[bio11-s10.1.7] Diagram: the Punnett square of this cross, with the mother's egg (X) on one side and the father's sperm (X and Y) on the other, each box labelled with genotype and sex.
+[bio11-s10.2.b] The cross shows that every egg is the same but sperm come in two kinds. So the result of fertilisation, when a sperm and egg fuse, depends on which sperm wins.
+[bio11-s10.2.0] The sex of a child is decided at fertilisation by the sperm: an X-carrying sperm gives a girl (XX); a Y-carrying sperm gives a boy (XY).
+[bio11-s10.2.1] So the father's gamete decides the sex; the mother always gives an X, so her egg cannot make the difference.
+[bio11-s10.2.2] Every pregnancy has an independent 1 in 2 chance of a girl or a boy, whatever the sex of earlier children, because each fertilisation is a fresh chance event.
+[bio11-s10.2.3] Across a large population the sex ratio is close to 1 : 1, because X and Y sperm are made in equal numbers.
+[bio11-s10.2.4] A boy receives his X from his mother and his Y from his father; a girl receives one X from each parent.
+[bio11-s10.2.5] This is why X-linked traits (traits carried by genes on the X) pass from mother to son. There is more on this in Sex-linked traits.
+[bio11-s10.3.b] Having XY or XX is only the start. The Y chromosome carries a particular gene that sets an embryo on the male path, and without it development follows the female path.
+[bio11-s10.3.0] The Y chromosome carries the SRY gene (sex-determining region of the Y).
+[bio11-s10.3.1] In an XY embryo, from about the sixth to seventh week of development, SRY switches on the development of the undifferentiated gonads (gonads that have not yet become either testes or ovaries) into testes.
+[bio11-s10.3.2] The testes then make testosterone, which brings about the development of the male reproductive system.
+[bio11-s10.3.3] In an XX embryo, with no Y and so no SRY, the gonads develop into ovaries and the female reproductive system develops.
+[bio11-s10.3.4] So it is the presence of a Y (SRY), not the number of X chromosomes, that makes the embryo male.
+
+CANDIDATES bio11-s5: Monohybrid crosses
+[bio11-s5.0.b] A genetic cross predicts what offspring a pair of parents can have. It works only because of how alleles (the different versions of a gene) are shared out when gametes (sex cells) are made and joined.
+[bio11-s5.0.0] Each body cell carries two alleles of each gene, one on each chromosome of a homologous pair (two matching chromosomes, one inherited from each parent).
+[bio11-s5.0.1] Each gamete carries only one of the two alleles, because meiosis (the cell division that makes gametes) separates the two chromosomes of each homologous pair.
+[bio11-s5.0.2] At fertilisation the zygote (the first cell of the new organism) again has two alleles, one from each parent, so the pair is restored.
+[bio11-s5.0.3] There is more on this in the subsections on chromosome structure and genes, mitosis and meiosis, and the key concepts of information transfer, where allele, homozygous, heterozygous, pure-breeding and carrier are defined.
+[bio11-s5.1.b] Before you can set out any cross you must work out which gametes each parent can make. This depends only on whether the parent is homozygous (two identical alleles) or heterozygous (two different alleles).
+[bio11-s5.1.0] A homozygous individual (TT or tt) makes only one type of gamete for that gene: T from TT, or t from tt, because both of its alleles are the same.
+[bio11-s5.1.1] A heterozygous individual (Tt) makes two types of gamete, T and t, in equal numbers, half of its gametes each, because the two chromosomes separate at random in meiosis.
+[bio11-s5.1.2] True-breeding is another name for pure-breeding (homozygous): crossed with one like itself, it always gives offspring with the same trait.
+[bio11-s5.2.b] A monohybrid cross is the simplest kind of genetic cross, because it follows just one characteristic at a time. Labels for the generations let you say clearly which individuals you mean.
+[bio11-s5.2.0] A monohybrid cross follows the inheritance of one trait, controlled by one gene with two alleles.
+[bio11-s5.2.1] Unlinked means the gene is considered on its own, without other genes on the same chromosome affecting the result. There is more on this in Linkage.
+[bio11-s5.2.2] P (parental generation) are the parents crossed.
+[bio11-s5.2.3] F1 (first filial generation) are their offspring, for example the plants grown from the seeds of the P cross.
+[bio11-s5.2.4] F2 (second filial generation) are the offspring of crossing F1 individuals with each other.
+[bio11-s5.2.5] “First generation” means the offspring of the cross being modelled, so you only need to work out the offspring of one cross.
+[bio11-s5.3.b] Symbols are shorthand for alleles. A key at the start tells the examiner what each symbol means, so your answer can be read without guessing.
+[bio11-s5.3.0] Use the first letter of the dominant trait: a capital for the dominant allele and a lower-case letter for the recessive allele, e.g. T = tall, t = dwarf.
+[bio11-s5.3.1] Use the letters a question gives, because the marking scheme is written with them.
+[bio11-s5.3.2] Avoid letters whose capital and lower case look alike when handwritten, because the examiner cannot tell which allele you mean: C/c, O/o, S/s, W/w, P/p, K/k, V/v, X/x, Z/z.
+[bio11-s5.3.3] Always state a key first, e.g. “T = allele for tall, t = allele for dwarf”.
+[bio11-s5.4.b] Every line is shown, in this order, because marks are given for each. Working in the same sequence every time also stops you missing a step.
+[bio11-s5.4.0] Step 1: the key, so that the examiner knows what each letter means.
+[bio11-s5.4.1] Step 2: the parents' phenotypes (the visible traits), e.g. tall × dwarf.
+[bio11-s5.4.2] Step 3: the parents' genotypes (the alleles they carry), e.g. TT × tt.
+[bio11-s5.4.3] Step 4: the gametes, each different allele each parent can pass on, written once and usually circled (T from TT; t from tt; T and t from Tt).
+[bio11-s5.4.4] Step 5: the Punnett square (a grid that combines the gametes), or fertilisation lines joining every gamete of one parent to every gamete of the other.
+[bio11-s5.4.5] Step 6: the offspring genotypes, with their ratio, such as 1 TT : 2 Tt : 1 tt.
+[bio11-s5.4.6] Step 7: the offspring phenotypes, with their ratio, such as 3 tall : 1 dwarf.
+[bio11-s5.5.b] A Punnett square is a grid that shows every possible fertilisation between the gametes of two parents. It makes sure you do not miss a combination.
+[bio11-s5.5.0] One parent's gametes go across the top and the other parent's gametes down the side.
+[bio11-s5.5.1] Each box takes the allele from its column and the allele from its row, with the dominant allele written first (Tt, not tT), so that identical genotypes are always written the same way.
+[bio11-s5.5.2] Each box is one equally likely outcome of fertilisation; with two gametes from each parent, each box is a 1 in 4 (25%) chance.
+[bio11-s5.5.3] Diagram: a 2 × 2 Punnett square for Tt × Tt: gametes T and t across the top (labelled “gametes of parent 1”), T and t down the side (labelled “gametes of parent 2”); boxes TT, Tt, Tt, tt; each box labelled with its phenotype (tall, tall, tall, dwarf).
+[bio11-s5.6.b] A cross predicts chances, not certainties. Each fertilisation is a separate chance event, so the ratio describes what is expected on average.
+[bio11-s5.6.0] A ratio is a prediction of the proportions expected, not an exact count.
+[bio11-s5.6.1] Each fertilisation is independent, so in a family where the first child is affected, the chance for the next child is unchanged.
+[bio11-s5.6.2] A 3 : 1 ratio is a probability, not a guarantee that a family of four has exactly one affected child.
+[bio11-s5.6.3] Ratios can be given as a ratio (3 : 1), a fraction (3/4), a percentage (75%) or a probability (0.75, or “a 3 in 4 chance”).
+[bio11-s5.6.4] Observed results come close to the predicted ratio only with large numbers of offspring (e.g. hundreds of pea plants), not in a small human family, because chance has more effect on small samples.
+[bio11-s5.7.b] Pea plants: tall (T) is dominant to dwarf (t). Here two heterozygous tall plants are crossed, and every line of the standard layout is shown.
+[bio11-s5.7.0] Key: T = tall, t = dwarf.
+[bio11-s5.7.1] Parents' phenotypes: tall × tall.
+[bio11-s5.7.2] Parents' genotypes: Tt × Tt (both heterozygous, so each makes two types of gamete).
+[bio11-s5.7.3] Gametes: T, t × T, t, because each heterozygous parent makes both types.
+[bio11-s5.7.4] Punnett square: TT, Tt / Tt, tt.
+[bio11-s5.7.5] Offspring genotypes: 1 TT : 2 Tt : 1 tt, because Tt arises in two boxes of the square.
+[bio11-s5.7.6] Offspring phenotypes: 3 tall : 1 dwarf (75% tall, 25% dwarf), because TT and both Tt boxes are tall.
+[bio11-s5.7.7] Of the tall offspring, 1/3 are homozygous (TT) and 2/3 heterozygous (Tt), because the three tall offspring are TT, Tt and Tt.
+[bio11-s5.8.b] In the cross above there are two different ratios, one for genotypes and one for phenotypes. They differ because of dominance.
+[bio11-s5.8.0] The genotype ratio (1 : 2 : 1) differs from the phenotype ratio (3 : 1) because TT and Tt look the same: the dominant allele masks the recessive one.
+[bio11-s5.8.1] A recessive trait reappears in offspring of parents who both show the dominant trait only if both parents are heterozygous, because only then can each parent pass on a recessive allele.
+[bio11-s5.9.b] Crossing a true-breeding tall plant with a true-breeding dwarf plant is the simplest case, because each parent makes only one type of gamete.
+[bio11-s5.9.0] Parents' phenotypes: true-breeding tall × true-breeding dwarf.
+[bio11-s5.9.1] Parents' genotypes: TT × tt (both homozygous, so true-breeding).
+[bio11-s5.9.2] Gametes: T × t, because each parent makes only one type.
+[bio11-s5.9.3] Offspring genotypes: all Tt (heterozygous), because each gets T from one parent and t from the other.
+[bio11-s5.9.4] Offspring phenotypes: all (100%) tall, because the dominant T masks t.
+[bio11-s5.9.5] This is Mendel's P → F1 cross; crossing these F1 plants together (Tt × Tt) gives the F2 result of the heterozygous × heterozygous example above, in which the dwarf trait reappears.
+[bio11-s5.9.6] Mendel's own figures are in Mendel's Laws.
+[bio11-s5.10.b] In this cross a heterozygous tall plant is crossed with a dwarf plant. It gives a different ratio from the first example, because one parent can pass on only the recessive allele.
+[bio11-s5.10.0] Parents' phenotypes: tall × dwarf.
+[bio11-s5.10.1] Parents' genotypes: Tt × tt (one heterozygous parent, so only the Tt parent makes two types of gamete).
+[bio11-s5.10.2] Gametes: T, t × t, because the tt parent can give only t.
+[bio11-s5.10.3] Punnett square (2 × 1, or 2 × 2 with t written twice): Tt, tt.
+[bio11-s5.10.4] Offspring genotypes: 1 Tt : 1 tt.
+[bio11-s5.10.5] Offspring phenotypes: 1 tall : 1 dwarf (50% each), because Tt is tall and tt is dwarf.
+[bio11-s5.11.b] With one gene and two alleles there are only three genotypes, TT, Tt and tt, so only six different crosses are possible. Knowing all six lets you recognise any monohybrid cross quickly.
+[bio11-s5.11.0] Cross 1: TT × TT → all TT → all tall, because both parents can only pass on T.
+[bio11-s5.11.1] Cross 2: TT × Tt → 1 TT : 1 Tt → all tall.
+[bio11-s5.11.2] Cross 3: TT × tt → all Tt → all tall, because T masks t.
+[bio11-s5.11.3] Cross 4: Tt × Tt → 1 TT : 2 Tt : 1 tt → 3 tall : 1 dwarf.
+[bio11-s5.11.4] Cross 5: Tt × tt → 1 Tt : 1 tt → 1 tall : 1 dwarf.
+[bio11-s5.11.5] Cross 6: tt × tt → all tt → all dwarf, because both parents can only pass on t.
+[bio11-s5.12.b] You can also work from the offspring back to the parents. The ratio of offspring tells you which genotypes the parents must have had.
+[bio11-s5.12.0] Offspring in a 3 : 1 ratio mean both parents are heterozygous, because only Tt × Tt gives this ratio.
+[bio11-s5.12.1] A 1 : 1 ratio means one parent is heterozygous and the other homozygous recessive, so only one parent makes two kinds of gamete.
+[bio11-s5.12.2] Any offspring showing the recessive trait mean each parent carries at least one recessive allele, because an offspring needs two recessive alleles, one from each parent.
+[bio11-s5.13.b] An organism showing the dominant trait could be TT or Tt, and you cannot tell by looking. A test cross finds out by crossing it with a recessive organism.
+[bio11-s5.13.0] A test cross finds the unknown genotype of an organism showing the dominant trait (TT or Tt) by crossing it with a homozygous recessive (tt) organism.
+[bio11-s5.13.1] The tt parent can give only t, so each offspring's phenotype shows directly which allele came from the unknown parent.
+[bio11-s5.13.2] If all offspring show the dominant trait (all tall), the unknown parent is almost certainly TT (TT × tt → all Tt).
+[bio11-s5.13.3] If any offspring show the recessive trait (about half dwarf), the unknown parent is Tt (Tt × tt → 1 : 1), because it must have passed on a recessive allele.
+[bio11-s5.13.4] Many offspring are needed to be confident that a TT result is not chance.
+[bio11-s5.14.b] Cystic fibrosis is an inherited disorder that follows the same rules as the pea plants. Two parents who do not have the disease can still have an affected child, if both are carriers.
+[bio11-s5.14.0] Cystic fibrosis is caused by a recessive allele of a gene on an autosome (a chromosome that is not a sex chromosome).
+[bio11-s5.14.1] Key: F = normal allele, f = cystic fibrosis allele, with the normal allele dominant.
+[bio11-s5.14.2] Parents: two unaffected carriers (people who carry the recessive allele but do not have the disease).
+[bio11-s5.14.3] Parents' genotypes: Ff × Ff.
+[bio11-s5.14.4] Gametes: F, f × F, f, because each carrier makes both types.
+[bio11-s5.14.5] Offspring genotypes: 1 FF : 2 Ff : 1 ff.
+[bio11-s5.14.6] Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis, because only ff has the disease.
+[bio11-s5.14.7] Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither.
+[bio11-s5.14.8] Why the mutation causes the disease is in Mutations, and its use in genetic counselling is in Benefits and limitations of Mendelian genetics.

@@ -1,0 +1,204 @@
+TARGET bio11-s8: Dihybrid crosses
+[bio11-s8.0.b] A monohybrid cross follows one gene. A dihybrid cross follows two genes at once, which is how you predict offspring when two traits are inherited together.
+[bio11-s8.0.0] A dihybrid cross follows the inheritance of two different traits (two genes) at the same time, e.g. seed shape and seed colour in peas.
+[bio11-s8.0.1] “Unlinked” means the two genes are on different chromosomes, so they assort independently (are sorted into gametes without affecting each other) and every combination of their alleles is equally likely in the gametes. There is more on genes on the same chromosome in Linkage.
+[bio11-s8.0.2] Key for the worked examples: R = round seed, r = wrinkled; Y = yellow seed, y = green. Capital letters are dominant alleles (the version that shows when present), lower case are recessive.
+[bio11-s8.0.3] A genotype always has two letters for each gene (four letters in all), written with the two alleles of one gene together and the dominant first: RrYy, not RYry. Keeping each gene's pair together stops you mixing the genes up.
+[bio11-s8.1.b] Before you can fill in a Punnett square you need the gametes (sex cells) each parent can make. This is a short method you can use on any two-gene genotype.
+[bio11-s8.1.0] Each gamete gets one allele of each gene, so every gamete has two letters, one for each gene; never two of the same gene: RY, not Rr.
+[bio11-s8.1.1] Method: pair each allele of the first gene with each allele of the second gene.
+[bio11-s8.1.2] For RrYy: R with Y, R with y, r with Y, r with y, giving RY, Ry, rY, ry, in equal numbers. This equal mixing is the Law of Independent Assortment: the alleles of one gene are sorted into gametes independently of the other gene.
+[bio11-s8.1.3] The number of gamete types depends on how many genes are heterozygous (have two different alleles): RRYY gives one type (RY); RRYy gives two (RY, Ry); Rryy gives two (Ry, ry).
+[bio11-s8.1.4] RrYy, heterozygous for both genes, gives four (RY, Ry, rY, ry); rryy gives one (ry). Write each different gamete once, however many times it could be made.
+[bio11-s8.2.b] The first step in Mendel's style of cross is to breed two pure lines together. The offspring, the F1 (first filial) generation, are all identical, which sets up the F2.
+[bio11-s8.2.0] Parents' phenotypes (the visible traits): round yellow × wrinkled green (both true-breeding, meaning homozygous, so they always pass on the same alleles).
+[bio11-s8.2.1] Parents' genotypes: RRYY × rryy, so each parent is homozygous for both genes.
+[bio11-s8.2.2] Gametes: RY × ry, because each parent has only one type of gamete.
+[bio11-s8.2.3] F1 genotype: all RrYy, as every offspring gets one dominant and one recessive allele of each gene.
+[bio11-s8.2.4] F1 phenotype: all round yellow (both dominant traits), because the dominant alleles hide the recessive ones.
+[bio11-s8.3.b] Crossing two F1 plants is the core dihybrid cross. Both parents are heterozygous for both genes, so each makes four types of gamete and the Punnett square (a grid showing every possible gamete pairing) is 4 × 4.
+[bio11-s8.3.0] Parents (F1): round yellow × round yellow. Genotypes: RrYy × RrYy, so both are heterozygous for both genes.
+[bio11-s8.3.1] Gametes: RY, Ry, rY, ry × RY, Ry, rY, ry.
+[bio11-s8.3.2] Punnett square: 4 × 4 = 16 boxes, each a 1/16 chance, because every gamete pairing is equally likely.
+[bio11-s8.3.3] Punnett square, row by row (gametes RY, Ry, rY, ry across the top and down the side). Row 1 (gamete RY): RRYY, RRYy, RrYY, RrYy. Row 2 (gamete Ry): RRYy, RRyy, RrYy, Rryy.
+[bio11-s8.3.4] Row 3 (gamete rY): RrYY, RrYy, rrYY, rrYy. Row 4 (gamete ry): RrYy, Rryy, rrYy, rryy.
+[bio11-s8.3.5] F2 genotypes (nine kinds): 1 RRYY, 2 RRYy, 2 RrYY, 4 RrYy, 1 RRyy, 2 Rryy, 1 rrYY, 2 rrYy, 1 rryy (total 16). Count repeated genotypes from the squares to get these numbers.
+[bio11-s8.4.b] The 16 boxes contain nine genotypes but only four phenotypes, because a dominant allele hides the recessive one. Counting those phenotypes gives the famous dihybrid ratio.
+[bio11-s8.4.0] F2 phenotypes: 9 round yellow (at least one R and at least one Y) : 3 round green (at least one R, yy) : 3 wrinkled yellow (rr, at least one Y) : 1 wrinkled green (rryy).
+[bio11-s8.4.1] The ratio 9 : 3 : 3 : 1 is the signature of a dihybrid F2 with two unlinked genes, each with complete dominance (the heterozygote looks the same as the dominant homozygote). There is more on Mendel's F2 counts, close to this ratio, in Mendel's Laws.
+[bio11-s8.5.b] Look at the F2 phenotypes against the original parents. Some combinations of traits appear that neither the P nor the F1 plants showed.
+[bio11-s8.5.0] Two of the four F2 phenotypes (round green and wrinkled yellow) are new combinations, found in neither the P nor the F1 generation.
+[bio11-s8.5.1] They appear because the genes assort independently, so any seed shape allele can end up with any seed colour allele. They are a source of variation in offspring.
+[bio11-s8.5.2] Diagram: the full 4 × 4 Punnett square of the F1 × F1 cross, with gametes labelled on both sides, and the boxes coloured or marked by phenotype (9 round yellow, 3 round green, 3 wrinkled yellow, 1 wrinkled green).
+[bio11-s8.6.b] A 16-box square is slow and easy to miscount. Because the two genes are independent, you can work out each gene separately and multiply, which gives a quick check.
+[bio11-s8.6.0] Because the genes are independent, the dihybrid result is the two monohybrid results multiplied.
+[bio11-s8.6.1] Rr × Rr gives 3/4 round and 1/4 wrinkled; Yy × Yy gives 3/4 yellow and 1/4 green, so each gene is treated as its own monohybrid cross.
+[bio11-s8.6.2] So round yellow = 3/4 × 3/4 = 9/16, round green = 3/4 × 1/4 = 3/16, wrinkled yellow = 3/16, wrinkled green = 1/4 × 1/4 = 1/16.
+[bio11-s8.6.3] Use this to check a Punnett square; show the full square in an exam answer when asked for a genetic cross.
+[bio11-s8.7.b] A test cross crosses an individual showing the dominant traits with one that is homozygous recessive for both genes. The recessive parent makes only one type of gamete, so the offspring reveal exactly which gametes the other parent makes.
+[bio11-s8.7.0] Round yellow (RrYy) × wrinkled green (rryy) is the dihybrid test cross.
+[bio11-s8.7.1] Gametes: RY, Ry, rY, ry × ry, because rryy can only make ry.
+[bio11-s8.7.2] Offspring genotypes: RrYy, Rryy, rrYy, rryy (1 : 1 : 1 : 1).
+[bio11-s8.7.3] Phenotypes: 1 round yellow : 1 round green : 1 wrinkled yellow : 1 wrinkled green (25% each), because each of the four gametes has a 1/4 chance.
+[bio11-s8.7.4] A 1 : 1 : 1 : 1 result shows that the dominant-looking parent was heterozygous for both genes and that the genes assort independently. There is more on the same cross with linked genes in Linkage.
+[bio11-s8.7.5] The same pattern with other traits: in peas with tall (T) dominant to dwarf (t) and yellow (Y) dominant to green (y), TtYy × ttyy gives 1 tall yellow (TtYy) : 1 tall green (Ttyy) : 1 dwarf yellow (ttYy) : 1 dwarf green (ttyy).
+[bio11-s8.8.b] Not every cross has two double heterozygotes. Here one parent is heterozygous for only one gene, so it makes just two gamete types and the square is 4 × 2.
+[bio11-s8.8.0] Round yellow × round green: RrYy × Rryy, so the second parent is homozygous recessive for colour and heterozygous for shape.
+[bio11-s8.8.1] Gametes: RY, Ry, rY, ry × Ry, ry.
+[bio11-s8.8.2] Punnett square: 4 × 2 = 8 boxes; column Ry: RRYy, RRyy, RrYy, Rryy; column ry: RrYy, Rryy, rrYy, rryy.
+[bio11-s8.8.3] Phenotypes: 3 round yellow : 3 round green : 1 wrinkled yellow : 1 wrinkled green (3 : 3 : 1 : 1).
+[bio11-s8.8.4] Check: 3/4 round × 1/2 yellow = 3/8 round yellow, matching the 3 round yellow out of 8 boxes.
+[bio11-s8.9.b] When one gene shows incomplete dominance, the heterozygote has a blend in between the two homozygotes. This changes the phenotype count but the method for crossing two genes stays the same.
+[bio11-s8.9.0] Snapdragons: tall (T) is dominant to dwarf (t); red (R) and white (W) flower colour show incomplete dominance (RW = pink).
+[bio11-s8.9.1] Parents' phenotypes: homozygous dwarf red × tall pink (heterozygous for height). Parents' genotypes: ttRR × TtRW.
+[bio11-s8.9.2] Gametes: tR × TR, TW, tR, tW, because the ttRR parent can only make tR while the TtRW parent makes four types.
+[bio11-s8.9.3] Offspring: TtRR (tall, red), TtRW (tall, pink), ttRR (dwarf, red), ttRW (dwarf, pink), in a 1 : 1 : 1 : 1 ratio.
+[bio11-s8.9.4] So 50% of the offspring have pink flowers (two of four genotypes) and 50% are tall.
+[bio11-s8.9.5] To the second generation: TTRR × ttWW gives an F1 of all TtRW (tall pink).
+[bio11-s8.9.6] F1 × F1 gives 3 tall red : 6 tall pink : 3 tall white : 1 dwarf red : 2 dwarf pink : 1 dwarf white (out of 16).
+[bio11-s8.9.7] These are found by multiplying 3/4 tall and 1/4 dwarf by 1/4 red, 1/2 pink and 1/4 white, because the two genes are independent.
+
+CANDIDATES bio11-s5: Monohybrid crosses
+[bio11-s5.0.b] A genetic cross predicts what offspring a pair of parents can have. It works only because of how alleles (the different versions of a gene) are shared out when gametes (sex cells) are made and joined.
+[bio11-s5.0.0] Each body cell carries two alleles of each gene, one on each chromosome of a homologous pair (two matching chromosomes, one inherited from each parent).
+[bio11-s5.0.1] Each gamete carries only one of the two alleles, because meiosis (the cell division that makes gametes) separates the two chromosomes of each homologous pair.
+[bio11-s5.0.2] At fertilisation the zygote (the first cell of the new organism) again has two alleles, one from each parent, so the pair is restored.
+[bio11-s5.0.3] There is more on this in the subsections on chromosome structure and genes, mitosis and meiosis, and the key concepts of information transfer, where allele, homozygous, heterozygous, pure-breeding and carrier are defined.
+[bio11-s5.1.b] Before you can set out any cross you must work out which gametes each parent can make. This depends only on whether the parent is homozygous (two identical alleles) or heterozygous (two different alleles).
+[bio11-s5.1.0] A homozygous individual (TT or tt) makes only one type of gamete for that gene: T from TT, or t from tt, because both of its alleles are the same.
+[bio11-s5.1.1] A heterozygous individual (Tt) makes two types of gamete, T and t, in equal numbers, half of its gametes each, because the two chromosomes separate at random in meiosis.
+[bio11-s5.1.2] True-breeding is another name for pure-breeding (homozygous): crossed with one like itself, it always gives offspring with the same trait.
+[bio11-s5.2.b] A monohybrid cross is the simplest kind of genetic cross, because it follows just one characteristic at a time. Labels for the generations let you say clearly which individuals you mean.
+[bio11-s5.2.0] A monohybrid cross follows the inheritance of one trait, controlled by one gene with two alleles.
+[bio11-s5.2.1] Unlinked means the gene is considered on its own, without other genes on the same chromosome affecting the result. There is more on this in Linkage.
+[bio11-s5.2.2] P (parental generation) are the parents crossed.
+[bio11-s5.2.3] F1 (first filial generation) are their offspring, for example the plants grown from the seeds of the P cross.
+[bio11-s5.2.4] F2 (second filial generation) are the offspring of crossing F1 individuals with each other.
+[bio11-s5.2.5] “First generation” means the offspring of the cross being modelled, so you only need to work out the offspring of one cross.
+[bio11-s5.3.b] Symbols are shorthand for alleles. A key at the start tells the examiner what each symbol means, so your answer can be read without guessing.
+[bio11-s5.3.0] Use the first letter of the dominant trait: a capital for the dominant allele and a lower-case letter for the recessive allele, e.g. T = tall, t = dwarf.
+[bio11-s5.3.1] Use the letters a question gives, because the marking scheme is written with them.
+[bio11-s5.3.2] Avoid letters whose capital and lower case look alike when handwritten, because the examiner cannot tell which allele you mean: C/c, O/o, S/s, W/w, P/p, K/k, V/v, X/x, Z/z.
+[bio11-s5.3.3] Always state a key first, e.g. “T = allele for tall, t = allele for dwarf”.
+[bio11-s5.4.b] Every line is shown, in this order, because marks are given for each. Working in the same sequence every time also stops you missing a step.
+[bio11-s5.4.0] Step 1: the key, so that the examiner knows what each letter means.
+[bio11-s5.4.1] Step 2: the parents' phenotypes (the visible traits), e.g. tall × dwarf.
+[bio11-s5.4.2] Step 3: the parents' genotypes (the alleles they carry), e.g. TT × tt.
+[bio11-s5.4.3] Step 4: the gametes, each different allele each parent can pass on, written once and usually circled (T from TT; t from tt; T and t from Tt).
+[bio11-s5.4.4] Step 5: the Punnett square (a grid that combines the gametes), or fertilisation lines joining every gamete of one parent to every gamete of the other.
+[bio11-s5.4.5] Step 6: the offspring genotypes, with their ratio, such as 1 TT : 2 Tt : 1 tt.
+[bio11-s5.4.6] Step 7: the offspring phenotypes, with their ratio, such as 3 tall : 1 dwarf.
+[bio11-s5.5.b] A Punnett square is a grid that shows every possible fertilisation between the gametes of two parents. It makes sure you do not miss a combination.
+[bio11-s5.5.0] One parent's gametes go across the top and the other parent's gametes down the side.
+[bio11-s5.5.1] Each box takes the allele from its column and the allele from its row, with the dominant allele written first (Tt, not tT), so that identical genotypes are always written the same way.
+[bio11-s5.5.2] Each box is one equally likely outcome of fertilisation; with two gametes from each parent, each box is a 1 in 4 (25%) chance.
+[bio11-s5.5.3] Diagram: a 2 × 2 Punnett square for Tt × Tt: gametes T and t across the top (labelled “gametes of parent 1”), T and t down the side (labelled “gametes of parent 2”); boxes TT, Tt, Tt, tt; each box labelled with its phenotype (tall, tall, tall, dwarf).
+[bio11-s5.6.b] A cross predicts chances, not certainties. Each fertilisation is a separate chance event, so the ratio describes what is expected on average.
+[bio11-s5.6.0] A ratio is a prediction of the proportions expected, not an exact count.
+[bio11-s5.6.1] Each fertilisation is independent, so in a family where the first child is affected, the chance for the next child is unchanged.
+[bio11-s5.6.2] A 3 : 1 ratio is a probability, not a guarantee that a family of four has exactly one affected child.
+[bio11-s5.6.3] Ratios can be given as a ratio (3 : 1), a fraction (3/4), a percentage (75%) or a probability (0.75, or “a 3 in 4 chance”).
+[bio11-s5.6.4] Observed results come close to the predicted ratio only with large numbers of offspring (e.g. hundreds of pea plants), not in a small human family, because chance has more effect on small samples.
+[bio11-s5.7.b] Pea plants: tall (T) is dominant to dwarf (t). Here two heterozygous tall plants are crossed, and every line of the standard layout is shown.
+[bio11-s5.7.0] Key: T = tall, t = dwarf.
+[bio11-s5.7.1] Parents' phenotypes: tall × tall.
+[bio11-s5.7.2] Parents' genotypes: Tt × Tt (both heterozygous, so each makes two types of gamete).
+[bio11-s5.7.3] Gametes: T, t × T, t, because each heterozygous parent makes both types.
+[bio11-s5.7.4] Punnett square: TT, Tt / Tt, tt.
+[bio11-s5.7.5] Offspring genotypes: 1 TT : 2 Tt : 1 tt, because Tt arises in two boxes of the square.
+[bio11-s5.7.6] Offspring phenotypes: 3 tall : 1 dwarf (75% tall, 25% dwarf), because TT and both Tt boxes are tall.
+[bio11-s5.7.7] Of the tall offspring, 1/3 are homozygous (TT) and 2/3 heterozygous (Tt), because the three tall offspring are TT, Tt and Tt.
+[bio11-s5.8.b] In the cross above there are two different ratios, one for genotypes and one for phenotypes. They differ because of dominance.
+[bio11-s5.8.0] The genotype ratio (1 : 2 : 1) differs from the phenotype ratio (3 : 1) because TT and Tt look the same: the dominant allele masks the recessive one.
+[bio11-s5.8.1] A recessive trait reappears in offspring of parents who both show the dominant trait only if both parents are heterozygous, because only then can each parent pass on a recessive allele.
+[bio11-s5.9.b] Crossing a true-breeding tall plant with a true-breeding dwarf plant is the simplest case, because each parent makes only one type of gamete.
+[bio11-s5.9.0] Parents' phenotypes: true-breeding tall × true-breeding dwarf.
+[bio11-s5.9.1] Parents' genotypes: TT × tt (both homozygous, so true-breeding).
+[bio11-s5.9.2] Gametes: T × t, because each parent makes only one type.
+[bio11-s5.9.3] Offspring genotypes: all Tt (heterozygous), because each gets T from one parent and t from the other.
+[bio11-s5.9.4] Offspring phenotypes: all (100%) tall, because the dominant T masks t.
+[bio11-s5.9.5] This is Mendel's P → F1 cross; crossing these F1 plants together (Tt × Tt) gives the F2 result of the heterozygous × heterozygous example above, in which the dwarf trait reappears.
+[bio11-s5.9.6] Mendel's own figures are in Mendel's Laws.
+[bio11-s5.10.b] In this cross a heterozygous tall plant is crossed with a dwarf plant. It gives a different ratio from the first example, because one parent can pass on only the recessive allele.
+[bio11-s5.10.0] Parents' phenotypes: tall × dwarf.
+[bio11-s5.10.1] Parents' genotypes: Tt × tt (one heterozygous parent, so only the Tt parent makes two types of gamete).
+[bio11-s5.10.2] Gametes: T, t × t, because the tt parent can give only t.
+[bio11-s5.10.3] Punnett square (2 × 1, or 2 × 2 with t written twice): Tt, tt.
+[bio11-s5.10.4] Offspring genotypes: 1 Tt : 1 tt.
+[bio11-s5.10.5] Offspring phenotypes: 1 tall : 1 dwarf (50% each), because Tt is tall and tt is dwarf.
+[bio11-s5.11.b] With one gene and two alleles there are only three genotypes, TT, Tt and tt, so only six different crosses are possible. Knowing all six lets you recognise any monohybrid cross quickly.
+[bio11-s5.11.0] Cross 1: TT × TT → all TT → all tall, because both parents can only pass on T.
+[bio11-s5.11.1] Cross 2: TT × Tt → 1 TT : 1 Tt → all tall.
+[bio11-s5.11.2] Cross 3: TT × tt → all Tt → all tall, because T masks t.
+[bio11-s5.11.3] Cross 4: Tt × Tt → 1 TT : 2 Tt : 1 tt → 3 tall : 1 dwarf.
+[bio11-s5.11.4] Cross 5: Tt × tt → 1 Tt : 1 tt → 1 tall : 1 dwarf.
+[bio11-s5.11.5] Cross 6: tt × tt → all tt → all dwarf, because both parents can only pass on t.
+[bio11-s5.12.b] You can also work from the offspring back to the parents. The ratio of offspring tells you which genotypes the parents must have had.
+[bio11-s5.12.0] Offspring in a 3 : 1 ratio mean both parents are heterozygous, because only Tt × Tt gives this ratio.
+[bio11-s5.12.1] A 1 : 1 ratio means one parent is heterozygous and the other homozygous recessive, so only one parent makes two kinds of gamete.
+[bio11-s5.12.2] Any offspring showing the recessive trait mean each parent carries at least one recessive allele, because an offspring needs two recessive alleles, one from each parent.
+[bio11-s5.13.b] An organism showing the dominant trait could be TT or Tt, and you cannot tell by looking. A test cross finds out by crossing it with a recessive organism.
+[bio11-s5.13.0] A test cross finds the unknown genotype of an organism showing the dominant trait (TT or Tt) by crossing it with a homozygous recessive (tt) organism.
+[bio11-s5.13.1] The tt parent can give only t, so each offspring's phenotype shows directly which allele came from the unknown parent.
+[bio11-s5.13.2] If all offspring show the dominant trait (all tall), the unknown parent is almost certainly TT (TT × tt → all Tt).
+[bio11-s5.13.3] If any offspring show the recessive trait (about half dwarf), the unknown parent is Tt (Tt × tt → 1 : 1), because it must have passed on a recessive allele.
+[bio11-s5.13.4] Many offspring are needed to be confident that a TT result is not chance.
+[bio11-s5.14.b] Cystic fibrosis is an inherited disorder that follows the same rules as the pea plants. Two parents who do not have the disease can still have an affected child, if both are carriers.
+[bio11-s5.14.0] Cystic fibrosis is caused by a recessive allele of a gene on an autosome (a chromosome that is not a sex chromosome).
+[bio11-s5.14.1] Key: F = normal allele, f = cystic fibrosis allele, with the normal allele dominant.
+[bio11-s5.14.2] Parents: two unaffected carriers (people who carry the recessive allele but do not have the disease).
+[bio11-s5.14.3] Parents' genotypes: Ff × Ff.
+[bio11-s5.14.4] Gametes: F, f × F, f, because each carrier makes both types.
+[bio11-s5.14.5] Offspring genotypes: 1 FF : 2 Ff : 1 ff.
+[bio11-s5.14.6] Offspring phenotypes: 3 unaffected : 1 with cystic fibrosis, because only ff has the disease.
+[bio11-s5.14.7] Each child has a 1 in 4 (25%) chance of having cystic fibrosis, a 1 in 2 (50%) chance of being a carrier, and a 1 in 4 chance of being neither.
+[bio11-s5.14.8] Why the mutation causes the disease is in Mutations, and its use in genetic counselling is in Benefits and limitations of Mendelian genetics.
+
+CANDIDATES bio11-s7: Mendel's Laws
+[bio11-s7.0.b] Mendel bred pea plants in a monastery garden and worked out the basic rules of inheritance long before anyone knew about genes, chromosomes or DNA.
+[bio11-s7.0.0] Gregor Mendel (1822–1884) was an Augustinian friar, later abbot, at the monastery of St Thomas in Brno (then Brünn, in the Austrian Empire; now in the Czech Republic).
+[bio11-s7.0.1] He bred garden pea plants (Pisum sativum) between 1856 and 1863, presented his results in 1865 and published them in 1866.
+[bio11-s7.0.2] His work was largely ignored until 1900, when it was rediscovered independently by other botanists, including Hugo de Vries and Carl Correns.
+[bio11-s7.0.3] He worked before chromosomes, meiosis (the cell division that makes gametes) or DNA were understood, so he called the units of inheritance “factors”. We now call them genes, and their different versions alleles.
+[bio11-s7.1.b] Mendel's choice of organism was part of why his experiments worked. Garden peas had four features that made clean, countable results possible.
+[bio11-s7.1.0] Peas had many varieties with clear contrasting forms of a trait (for example tall or dwarf, with nothing in between), so every offspring could be sorted into one group or the other.
+[bio11-s7.1.1] Peas normally self-pollinate (a flower pollinates itself), so true-breeding lines were available. True-breeding means offspring always look like their parents, generation after generation.
+[bio11-s7.1.2] They can be cross-pollinated by hand: the anthers (pollen-producing parts) of one flower are removed and its stigma (the pollen-receiving part) is dusted with pollen from another. This lets the experimenter choose the parents.
+[bio11-s7.1.3] They grow quickly and produce many seeds, giving large numbers to count, which is needed to see clear ratios.
+[bio11-s7.2.b] Mendel's method was careful and quantitative, which is why his results were clear. He followed simple, clear-cut traits and treated inheritance as something to be counted and calculated.
+[bio11-s7.2.0] The seven traits he studied, dominant form first: seed shape (round / wrinkled), seed colour (yellow / green), flower colour (purple / white), pod shape (inflated / constricted), pod colour (green / yellow), flower position (axial, along the stem / terminal, at the tip), stem length (tall / dwarf).
+[bio11-s7.2.1] He started with true-breeding parents and studied one trait at a time, then two. Looking at one trait at a time kept the results simple enough to interpret.
+[bio11-s7.2.2] He counted large numbers of offspring, because small samples can give misleading ratios by chance.
+[bio11-s7.2.3] He recorded results over several generations: P (the parents), F1 (their offspring) and F2 (the offspring of the F1 crossed with each other).
+[bio11-s7.2.4] He used mathematics (ratios) to analyse the results, and repeated each cross for several traits to check that the pattern held.
+[bio11-s7.3.b] Mendel's crosses gave the same pattern every time. That pattern led him to the idea that each trait is controlled by two factors, one of which can hide the other.
+[bio11-s7.3.0] Crossing true-breeding tall with true-breeding dwarf gave an F1 that was all tall; none were dwarf and none were in between.
+[bio11-s7.3.1] Self-pollinating the F1 gave an F2 of tall and dwarf in about 3 : 1.
+[bio11-s7.3.2] F2 figures: 787 tall : 277 dwarf (2.84 : 1); 5474 round : 1850 wrinkled seeds (2.96 : 1); 6022 yellow : 2001 green seeds (3.01 : 1). Large numbers bring the ratio very close to 3 : 1.
+[bio11-s7.3.3] The dwarf trait disappeared in the F1 and reappeared in the F2, so the dwarf “factor” must have been present, hidden, in the F1.
+[bio11-s7.3.4] He concluded that each plant has two factors for each trait, one from each parent, and that one (dominant) can mask the other (recessive).
+[bio11-s7.4.b] Mendel's first law explains the 3 : 1 ratio. It is about the two alleles of a single gene, and what happens to them when gametes (sex cells) are made.
+[bio11-s7.4.0] Statement: “The two alleles (factors) of a gene separate (segregate) from each other during gamete formation, so that each gamete receives only one allele of each gene.”
+[bio11-s7.4.1] Shorter accepted form: “Inherited traits are controlled by pairs of factors (alleles), which separate during gamete formation.”
+[bio11-s7.4.2] A heterozygous tall plant (Tt, carrying two different alleles) forms two types of gamete, T and t, in equal numbers, so half the gametes carry T and half carry t.
+[bio11-s7.4.3] Random fertilisation of these gametes in Tt × Tt gives 1 TT : 2 Tt : 1 tt and 3 tall : 1 dwarf, the 3 : 1 Mendel observed. There is more on this in Monohybrid crosses.
+[bio11-s7.4.4] Chromosome basis (Mendel did not know this): the two alleles of a gene lie at the same locus (position) on the two chromosomes of a homologous pair, the matching pair of chromosomes, one from each parent.
+[bio11-s7.4.5] In meiosis the homologous chromosomes separate into different cells, carrying one allele each into each gamete. This is why the alleles segregate.
+[bio11-s7.4.6] Diagram: a diploid cell with one homologous pair, one chromosome carrying T and the other t at the same position, dividing by meiosis into gametes, half with T and half with t. Labels: homologous pair, allele T, allele t, locus, meiosis, gametes (haploid).
+[bio11-s7.5.b] Mendel's second law deals with two different genes at once. It says that how one gene's alleles are shared out into gametes does not affect how another gene's alleles are shared out.
+[bio11-s7.5.0] Statement: “When gametes form, the alleles of one gene separate independently of the alleles of another gene, so either allele of one gene can combine at random with either allele of another gene.”
+[bio11-s7.5.1] Equivalent: “Each member of a pair of factors can combine randomly with either member of another pair.”
+[bio11-s7.5.2] The law applies to genes on different chromosomes (unlinked genes). Genes close together on the same chromosome tend to be inherited together and break this rule.
+[bio11-s7.5.3] A plant heterozygous for seed shape and seed colour (RrYy) forms four types of gamete, RY, Ry, rY and ry, in equal numbers (1/4 each).
+[bio11-s7.5.4] This is because whether a gamete gets R or r has no effect on whether it gets Y or y.
+[bio11-s7.5.5] Chromosome basis: when homologous pairs line up in meiosis, the way one pair lines up is independent of the way another pair lines up.
+[bio11-s7.5.6] With R and Y on different chromosome pairs, half the cells put R with Y (giving RY and ry gametes) and half put R with y (giving Ry and rY gametes), so all four types are made in equal numbers.
+[bio11-s7.5.7] Diagram: a cell with two homologous pairs (a long pair carrying R and r, a short pair carrying Y and y) in the two possible arrangements. Arrangement 1 gives RY and ry; arrangement 2 gives Ry and rY. Labels: homologous pairs, alleles, two equally likely arrangements, four gamete types.
+[bio11-s7.6.b] A dihybrid cross follows two traits at the same time. Mendel's results from one showed that the two traits were inherited independently of each other.
+[bio11-s7.6.0] Mendel's dihybrid cross: true-breeding round yellow × wrinkled green gave an F1 that was all round yellow.
+[bio11-s7.6.1] Self-pollinating the F1 gave an F2 of 315 round yellow : 108 round green : 101 wrinkled yellow : 32 wrinkled green (total 556), close to 9 : 3 : 3 : 1.
+[bio11-s7.6.2] The new combinations (round green and wrinkled yellow) can only arise if the two genes are inherited independently, because neither parent had those pairings of traits. There is more on this in Dihybrid crosses.
+[bio11-s7.7.b] Mendel's biggest contribution was a new way of thinking about heredity. His laws still underpin how we predict the outcome of genetic crosses.
+[bio11-s7.7.0] Mendel showed that inheritance is particulate: traits are passed on by separate units that stay unchanged from generation to generation, rather than by blending of the parents' characteristics.
+[bio11-s7.7.1] A blended trait could never reappear unchanged, as the dwarf trait did in the F2, so the reappearance is evidence for separate units.
+[bio11-s7.7.2] His laws are the basis of the predictions in Benefits and limitations of Mendelian genetics.

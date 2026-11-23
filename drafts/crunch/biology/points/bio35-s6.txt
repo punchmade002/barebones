@@ -1,0 +1,213 @@
+TARGET bio35-s6: Investigation: DNA-profile patterns
+[bio35-s6.0.b] A DNA profile is a pattern of bands on a gel (a jelly-like slab), one set of bands for each person. This investigation uses those patterns to answer two questions about who a piece of DNA came from.
+[bio35-s6.0.0] Aim: to compare DNA profiles in order to (a) find whether a suspect’s DNA matches DNA from a crime scene and (b) find which of several men could be the biological father of a child.
+[bio35-s6.0.1] The data may be primary, which means you collect it yourself: a gel the student runs with DNA samples supplied in a school kit, already copied or cut and ready to load.
+[bio35-s6.0.2] Or the data may be secondary, which means someone else collected it: profiles given as diagrams, tables of band sizes or repeat numbers, or from a published case or simulation.
+[bio35-s6.0.3] Hypotheses to write, for example: “The crime-scene DNA came from suspect B”; “Man X is the biological father of the child”. The null outcome (the result if the hypothesis is wrong) is an exclusion, meaning the person is ruled out.
+[bio35-s6.1.b] A fair test changes one thing and keeps everything else the same. Here the only thing that should differ between lanes is whose DNA is loaded, and controls let you trust the bands you see.
+[bio35-s6.1.0] Independent variable (the thing you change): the source of each DNA sample, that is, each person.
+[bio35-s6.1.1] Dependent variable (the thing you measure): the position of each band, measured as the distance it travels from the well (the slot the sample is loaded into) in mm, or its size read from the ladder.
+[bio35-s6.1.2] Controlled variables (kept the same): the gel, with all samples on the same gel and the same agarose and buffer, the volume of each sample loaded, the voltage and running time, and the staining time.
+[bio35-s6.1.3] Control: a DNA ladder (size marker, a mixture of fragments of known sizes) in one lane, so band sizes can be read and different gels compared.
+[bio35-s6.1.4] Negative control: a lane loaded with loading dye and buffer but no DNA should show no bands, so any band there shows contamination.
+[bio35-s6.1.5] In a real case, a reference sample of known origin (positive control) is run beside the unknowns, so you can see that the method works and what a known person’s profile looks like.
+[bio35-s6.2.b] The equipment makes a gel, passes an electric current through it and makes the invisible DNA visible. Knowing what each item is for helps you recall the list.
+[bio35-s6.2.0] Making the gel: gel casting tray and comb (the comb makes the wells), agarose powder and running buffer as the kit instructions give, a conical flask, and a microwave (or hot plate) to melt the agarose, with a heat-resistant glove.
+[bio35-s6.2.1] Running the gel: electrophoresis tank with lid and electrodes, and a power pack to supply the current.
+[bio35-s6.2.2] Loading: micropipette and tips (or fine plastic droppers), DNA samples with loading dye (crime scene and suspects; or mother, child and possible fathers), and a DNA ladder.
+[bio35-s6.2.3] Staining and recording: a DNA stain safe for schools (for example methylene blue, which is viewed in white light) and a staining tray, a white light box, a ruler, and a camera or phone to record the gel.
+[bio35-s6.2.4] Protection: gloves and safety glasses.
+[bio35-s6.3.b] Electrophoresis separates DNA fragments by size in an electric field. First you make the agarose gel with wells in it, then load each person’s sample into its own well.
+[bio35-s6.3.0] 1. Mix agarose powder with running buffer in a conical flask and heat it, swirling, until it dissolves and the liquid is clear.
+[bio35-s6.3.1] 2. Let it cool until the flask can be held (about 55–60 °C), then pour it into the casting tray with the comb in place at one end. Leave it to set (it becomes firm and cloudy). Remove the comb gently, leaving a row of wells.
+[bio35-s6.3.2] 3. Place the gel in the tank with the wells at the negative (black) electrode end, and pour in running buffer until the gel is just covered. DNA is negatively charged, so it will move away from the wells towards the positive end.
+[bio35-s6.3.3] 4. Using a fresh micropipette tip for each sample, so that samples don’t mix, load the same volume of each sample into its own well. Hold the tip just inside the well without piercing the bottom of the gel, and push the plunger slowly.
+[bio35-s6.3.4] Load the ladder in the first well and the no-DNA control in another. Record which sample is in which lane, because the lanes cannot be told apart once the gel is stained.
+[bio35-s6.4.b] Once the samples are loaded, the current moves the DNA through the gel. The bands then have to be stained before you can see and measure them.
+[bio35-s6.4.0] 5. Put the lid on and connect the leads, black to black (negative) and red to red (positive): DNA “runs to red”. Switch on at the voltage the kit instructions give. Bubbles rising from the electrodes show that current is flowing.
+[bio35-s6.4.1] 6. Run until the coloured loading dye has moved about three-quarters of the length of the gel, without letting it run off the end, because the DNA would be lost with it. Switch off the power pack before removing the lid.
+[bio35-s6.4.2] 7. Wearing gloves, move the gel to a staining tray, cover it with stain for the time the kit gives, then pour off the stain and rinse (destain) with water until the bands show clearly against a pale background.
+[bio35-s6.4.3] 8. View the gel on a white light box, photograph it beside a ruler, and measure the distance from the well to each band.
+[bio35-s6.4.4] 9. Repeat with a second gel, or compare with other groups’ gels, to check that the pattern is repeatable.
+[bio35-s6.4.5] Option where no DNA kit is available: food dyes loaded on an agarose gel separate into bands as they move in the electric field. This models the method (loading, running, band patterns), but the dyes separate by their charge and size, not as DNA fragments.
+[bio35-s6.5.b] This practical combines electricity, water, hot liquid and chemical stains, so each stage has its own hazard and its own precaution.
+[bio35-s6.5.0] Electricity and water: switch the power pack off before connecting or disconnecting leads or opening the lid; keep the lid on while running; don’t touch the buffer while the current is on; keep hands and bench dry; use only low-voltage equipment designed for schools.
+[bio35-s6.5.1] Hot agarose can boil over suddenly in a microwave and cause burns: heat in short bursts, swirl with a heat-resistant glove, point the flask away from people, and wear safety glasses.
+[bio35-s6.5.2] Stains mark skin and clothing, and some are harmful, so wear gloves and glasses. Don’t use ethidium bromide or UV light in school.
+[bio35-s6.5.3] Handle micropipettes carefully, dispose of gels and tips as the teacher directs, and wash hands after the practical.
+[bio35-s6.6.b] In a forensic case you compare DNA left at a crime scene with DNA from each suspect. This is an invented teaching example, not a real case. Each number is the number of repeats of an allele (a version of the gene region); each allele is one band, and more repeats means a longer fragment, nearer the wells.
+[bio35-s6.6.0] Method: 1. Compare the crime-scene lane with each suspect’s lane, one locus (a fixed position on a chromosome, shown as a band or pair of bands) at a time.
+[bio35-s6.6.1] 2. A suspect matches only if every band is in the same position as a crime-scene band and there are no extra or missing bands.
+[bio35-s6.6.2] 3. One mismatched band at any locus excludes the suspect, because the DNA cannot have come from someone with a different pattern.
+[bio35-s6.6.3] 4. A single band at a locus means the person has two alleles with the same number of repeats, so both alleles run at the same position.
+[bio35-s6.6.4] Crime scene: locus 1, 12 and 15; locus 2, 8 only; locus 3, 10 and 13. Suspect A: 12 and 15; 8 and 9; 10 and 13. Suspect B: 12 and 15; 8 only; 10 and 13. Suspect C: 11 and 15; 8 only; 10 and 13.
+[bio35-s6.6.5] Analysis: suspect A has an extra band (9) at locus 2, so is excluded; suspect C has 11 instead of 12 at locus 1, so is excluded; suspect B matches at all three loci.
+[bio35-s6.6.6] Conclusion: suspect B cannot be excluded and is very likely the source of the crime-scene DNA; A and C did not leave it.
+[bio35-s6.6.7] A real profile tests more than ten loci, which makes a chance match between unrelated people extremely unlikely. There is more on this in DNA profiling.
+[bio35-s6.7.b] A child inherits one allele at each locus from the mother and one from the father. To test a possible father, first remove the mother’s contribution, then see which man has the bands that are left. This is an invented teaching example, not a real case.
+[bio35-s6.7.0] Method: 1. At each locus, find which of the child’s bands it shares with the mother (the maternal band).
+[bio35-s6.7.1] 2. The child’s other band must have come from the father (the paternal band).
+[bio35-s6.7.2] 3. A man who lacks the paternal band at any locus is excluded as the father. 4. A man who has every paternal band cannot be excluded; he is very likely to be the father.
+[bio35-s6.7.3] Mother: locus 1, 10 and 14; locus 2, 7 and 9; locus 3, 11 and 12. Child: locus 1, 10 and 16; locus 2, 9 only (two alleles of 9); locus 3, 12 and 15.
+[bio35-s6.7.4] Man X: 13 and 16; 6 and 9; 15 only. Man Y: 16 and 17; 7 and 8; 11 and 15. Man Z: 12 and 16; 9 and 10; 13 and 14.
+[bio35-s6.7.5] Analysis: the child’s maternal bands are 10 (locus 1), 9 (locus 2) and 12 (locus 3), all present in the mother. So the paternal bands must be 16, 9 and 15.
+[bio35-s6.7.6] Man X has 16, 9 and 15, so he cannot be excluded. Man Y has no 9 at locus 2, so he is excluded. Man Z has no 15 at locus 3, so he is excluded. Conclusion: man X is very likely the biological father.
+[bio35-s6.7.7] Diagram: a gel for the paternity case, lanes for ladder, mother, child, X, Y and Z; join each of the child’s bands by a line to the matching band in the mother or man X. Labels: wells, ladder, maternal band, paternal band.
+[bio35-s6.7.8] The forensic case can be drawn the same way.
+[bio35-s6.8.b] Results need to be recorded in a form someone else can check. The conclusion then says who matches or is excluded, which band decides it, and whether the hypothesis is supported.
+[bio35-s6.8.0] Record primary data as a labelled drawing or photograph of the gel, and a table of each lane’s bands (distance from the well in mm, or size read from the ladder). Bands at the same distance on the same gel are the same size.
+[bio35-s6.8.1] Reading sizes: compare each band with the ladder; for a more exact size, plot a graph of the ladder’s known fragment sizes (on a logarithmic scale) against distance travelled, and read the unknown bands’ sizes from it.
+[bio35-s6.8.2] Conclusion: state whether each person matches or is excluded, giving the locus or band that decides it, and say whether the results support the hypothesis.
+[bio35-s6.8.3] A match supports, but does not prove, that the DNA came from that person, because unrelated people could share a pattern by chance; an exclusion is definite if the results are reliable. There is more on this in DNA profiling.
+[bio35-s6.8.4] Identical twins give identical profiles, because they come from one fertilised egg and so have the same DNA.
+[bio35-s6.8.5] Brothers and sisters share some but not all bands, because each inherits a random one of each parent’s two alleles at each locus.
+[bio35-s6.8.6] Every band of a child is found in at least one parent, because the child receives one allele at each locus from each parent.
+[bio35-s6.9.b] A gel can go wrong at every stage, from loading to staining, and the faults show up in particular ways. Knowing the cause of each fault lets you name an error and say how it affects the bands.
+[bio35-s6.9.0] Contamination: DNA from the student or a reused tip gives extra bands, shown by bands in the no-DNA control lane.
+[bio35-s6.9.1] Loading errors: piercing the well bottom loses sample; air bubbles or overfilling cause sample to spill into the next well, mixing lanes; unequal volumes give bands of different strength.
+[bio35-s6.9.2] Running errors: wells at the positive end send the DNA off the gel into the buffer; too short a run leaves bands too close together to separate; too long a run sends small fragments off the end.
+[bio35-s6.9.3] Smeared or faint bands come from too much or degraded DNA, or from too short a staining time.
+[bio35-s6.9.4] Measuring band distances by eye and ruler has limited precision; repeat measurements or have a second person check them.
+[bio35-s6.9.5] Secondary data: check the source and whether profiles were run on the same gel; bands on different gels can be compared only through the ladder.
+
+CANDIDATES bio35-s3: Generating a DNA profile
+[bio35-s3.0.b] A DNA profile is made by turning a tiny biological sample into a pattern of bands that can be compared between people. The process always follows the same five steps, and each step has its own reagents or equipment.
+[bio35-s3.0.0] The steps are: 1. Collect a sample, because every cell with a nucleus carries the person's DNA.
+[bio35-s3.0.1] 2. Extract the DNA, which means freeing it from the cells and separating it from everything else.
+[bio35-s3.0.2] 3. Amplify (copy) the chosen repeat regions by PCR (the polymerase chain reaction), so there is enough DNA to detect.
+[bio35-s3.0.3] 4. Separate the copies by size by gel electrophoresis.
+[bio35-s3.0.4] 5. Make the bands visible and analyse (compare) the pattern.
+[bio35-s3.0.5] In the earlier method, step 3 was replaced by cutting the DNA with restriction enzymes (enzymes that cut DNA at specific sequences). It is taught in the restriction enzymes block below.
+[bio35-s3.0.6] Diagram: a flow diagram of the five steps, with the key reagent or equipment at each: sample (swab, blood) → extraction (detergent, salt, protease, cold ethanol) → PCR (primers, nucleotides, Taq polymerase, thermal cycler) → gel electrophoresis (agarose gel, wells, electric current) → stained bands compared.
+[bio35-s3.1.b] DNA can be taken from any cell that has a nucleus, because the nucleus is where a human cell keeps its DNA. Extraction then frees the DNA from the cell in three steps, each aimed at removing one barrier.
+[bio35-s3.1.0] Sources are any cells with a nucleus, e.g. white blood cells (mature red blood cells have no nucleus, so they contain no nuclear DNA), cheek cells from a mouth swab, skin cells, hair roots (not the cut hair shaft, which has no usable nucleus), saliva and semen.
+[bio35-s3.1.1] Samples are collected with gloves and stored sealed and cold to avoid contamination (DNA from the collector or other sources getting in) and breakdown of the DNA.
+[bio35-s3.1.2] Extraction, step 1 (lysis, meaning breaking open the cells): a detergent breaks down the phospholipid membranes (the cell membrane and the nuclear envelope), releasing the DNA.
+[bio35-s3.1.3] Step 2: a protease enzyme digests proteins, including the histones (the proteins the DNA is wound around in a chromosome) bound to the DNA, leaving the DNA free.
+[bio35-s3.1.4] Step 3: DNA is insoluble in cold ethanol, so it comes out of solution (precipitates) and can be collected. Salt helps the DNA strands clump together.
+[bio35-s3.1.5] Forensic laboratories use the same principles (break cells, remove protein, purify DNA) with purified kits, because crime-scene samples are tiny and need careful handling.
+[bio35-s3.2.b] The school version of extraction uses onion, a plant tissue, and everyday chemicals. The first five steps break the tissue down and protect the DNA from damage.
+[bio35-s3.2.0] 1. Chop the onion finely, to break cell walls and give a large surface area.
+[bio35-s3.2.1] 2. Add it to a beaker containing a solution of washing-up liquid (detergent) and table salt.
+[bio35-s3.2.2] 3. Stand the beaker in a water bath at 60 °C for 15 minutes. The heat helps the detergent work and denatures enzymes that would break down the DNA; longer heating would start to break the DNA itself.
+[bio35-s3.2.3] 4. Cool the beaker in an ice-water bath for 5 minutes, slowing any enzyme breakdown of the DNA.
+[bio35-s3.2.4] 5. Blend in a food processor for no more than a few seconds, because longer blending would break the long DNA strands.
+[bio35-s3.2.5] Kiwi or strawberry also work in place of onion.
+[bio35-s3.3.b] The last four steps remove the debris, digest the proteins and then bring the DNA out of solution so it can be seen. Each reagent has one job.
+[bio35-s3.3.0] 6. Filter through coffee filter paper (or several layers of muslin) to remove cell debris, collecting the liquid filtrate in a test tube.
+[bio35-s3.3.1] 7. Add a few drops of protease to digest proteins.
+[bio35-s3.3.2] 8. Pour ice-cold ethanol gently down the side of the tilted test tube so it forms a layer on top of the filtrate.
+[bio35-s3.3.3] 9. DNA appears at the boundary as white, stringy threads that can be wound onto a glass rod.
+[bio35-s3.3.4] In short: detergent breaks the membranes, salt clumps the DNA, protease removes proteins and cold ethanol precipitates the DNA.
+[bio35-s3.3.5] Safety for this practical: ethanol is highly flammable (no flames nearby); take care with blender blades and hot water; wear safety glasses.
+[bio35-s3.4.b] A crime-scene sample may hold only a few cells, far too little DNA to see on a gel. PCR solves this by copying a chosen stretch of DNA many times over.
+[bio35-s3.4.0] PCR makes millions to billions of copies of a chosen short region of DNA (here, the STR regions, short repeated sequences that differ between people) from a tiny sample, e.g. a single hair root or a spot of blood, so that there is enough DNA to see on a gel.
+[bio35-s3.4.1] PCR is DNA replication carried out in a tube. It copies only the chosen region, not the whole genome.
+[bio35-s3.4.2] The reaction mixture contains the extracted DNA (the template, the DNA to be copied).
+[bio35-s3.4.3] It also contains primers, which are short single-stranded pieces of DNA made to be complementary to the sequences on either side of the region to be copied. This is why only that region is copied: the primers decide which region.
+[bio35-s3.4.4] DNA polymerase can only add nucleotides onto an existing strand, so a primer is needed to start each new strand.
+[bio35-s3.4.5] It also contains a supply of the four DNA nucleotides (A, T, C, G), the building blocks of the new strands, a heat-stable DNA polymerase (Taq polymerase), and a buffer solution.
+[bio35-s3.4.6] The tubes are placed in a thermal cycler, a machine that changes the temperature automatically.
+[bio35-s3.5.b] PCR involves repeated heating to a very high temperature, which would destroy most enzymes. The solution was an enzyme from a heat-loving organism.
+[bio35-s3.5.0] Taq polymerase comes from Thermus aquaticus, a bacterium found in hot springs (first found in Yellowstone National Park, USA).
+[bio35-s3.5.1] Its structure holds its shape at high temperatures, so it is not denatured (permanently unfolded) at 95 °C and works best at about 72 °C.
+[bio35-s3.5.2] A human DNA polymerase would be denatured in the first heating step, and fresh enzyme would have to be added every cycle.
+[bio35-s3.5.3] This is why PCR can be run automatically in a thermal cycler: the same enzyme survives every cycle.
+[bio35-s3.6.b] Each PCR cycle has three temperature steps in a fixed order: hot, cool, then warm. Each step does one job in copying the DNA.
+[bio35-s3.6.0] Step 1, denaturation: heat to about 95 °C. The hydrogen bonds between the complementary bases break and the two strands of each DNA molecule separate. Heat does here what helicase (the enzyme that unwinds DNA) does in cells.
+[bio35-s3.6.1] Step 2, annealing: cool to about 55 °C (usually between 50 and 65 °C, depending on the primers). The primers bind (anneal) by complementary base pairing to their matching sequences on each single strand.
+[bio35-s3.6.2] Step 3, extension: heat to about 72 °C, the optimum temperature of Taq polymerase. Taq polymerase adds nucleotides to the end of each primer, complementary to the template strand, building a new strand.
+[bio35-s3.6.3] Each double-stranded region becomes two.
+[bio35-s3.6.4] Diagram: the PCR cycle as three stages in a circle: DNA at 95 °C → separated strands; primers binding at 55 °C; extension at 72 °C → two copies; “cycle repeats, doubling the DNA each time” (1 → 2 → 4 → 8). Labels: template strand, primer, nucleotides, Taq polymerase, new strand, three temperatures.
+[bio35-s3.7.b] Because every cycle doubles the DNA, the number of copies grows very quickly. This is what makes a tiny sample usable.
+[bio35-s3.7.0] Each cycle takes a few minutes and doubles the number of copies of the target region, so after n cycles one molecule gives 2ⁿ copies.
+[bio35-s3.7.1] 10 cycles give 1,024 copies (2¹⁰); 30 cycles give 2³⁰, about 1 billion (1,073,741,824).
+[bio35-s3.7.2] A run is usually 25–35 cycles and takes a few hours.
+[bio35-s3.7.3] Kary Mullis invented PCR in 1983 and shared the Nobel Prize in Chemistry in 1993.
+[bio35-s3.7.4] Using Taq polymerase, an enzyme discovered in basic research on bacteria of hot springs, made PCR quick and automatic.
+[bio35-s3.7.5] Other uses of PCR: diagnosing infections by detecting a pathogen’s DNA or RNA (e.g. PCR tests for COVID-19), detecting alleles that cause genetic diseases, and preparing DNA for sequencing (reading the order of bases).
+[bio35-s3.8.b] Before PCR was used, DNA profiles were made by cutting the DNA rather than copying it. This is the method of Alec Jeffreys, who first developed DNA profiling.
+[bio35-s3.8.0] In Alec Jeffreys’ original method, the extracted DNA was cut with restriction enzymes, which cut at specific recognition sequences on either side of the repeat regions.
+[bio35-s3.8.1] Because people have different numbers of repeats between the cutting sites, the fragments differed in length between people, and these were separated by gel electrophoresis.
+[bio35-s3.8.2] This needed much more DNA than PCR-based profiling, which has replaced it.
+[bio35-s3.9.b] Gel electrophoresis separates DNA fragments by size using an electric current. Before the current is switched on, the gel, the buffer and the samples must be set up the right way round.
+[bio35-s3.9.0] The gel is usually agarose, a jelly made from a polysaccharide extracted from seaweed; it is full of tiny pores that act like a sieve.
+[bio35-s3.9.1] The gel is made with a row of small holes (wells) near one end and placed in a tank of buffer solution, which conducts electricity, with the wells at the negative electrode (cathode) end.
+[bio35-s3.9.2] Each DNA sample is mixed with a loading dye, which is dense so the sample sinks into the well, and coloured so that the progress of the run can be seen.
+[bio35-s3.9.3] Each sample is placed in its own well with a micropipette (a tool for measuring tiny volumes).
+[bio35-s3.9.4] One well holds a DNA ladder (size marker): a mixture of fragments of known lengths, which lets you work out the size of the other fragments.
+[bio35-s3.10.b] Once the current is on, the DNA moves and sorts itself by size. Because DNA is colourless, the bands then need to be made visible.
+[bio35-s3.10.0] Running: when the current is switched on, the negatively charged DNA (its phosphate groups carry the charge) moves through the gel towards the positive electrode (anode).
+[bio35-s3.10.1] Small fragments pass through the pores more easily and move faster, so after a set time fragments of different lengths are separated into bands, the smallest furthest from the wells.
+[bio35-s3.10.2] The current is switched off before the loading dye reaches the end of the gel, so that no fragments run off the gel.
+[bio35-s3.10.3] Making the bands visible: DNA is colourless, so the gel is stained. In schools a safe stain such as methylene blue is used, showing blue bands under white light.
+[bio35-s3.10.4] Research laboratories use fluorescent stains that glow under ultraviolet light. The older stain ethidium bromide is a mutagen (it can cause mutations) and must be handled with gloves.
+[bio35-s3.10.5] Modern forensic profiling uses primers labelled with fluorescent dyes and separates the fragments in a thin capillary tube in a machine, which reads the result as peaks.
+[bio35-s3.10.6] Diagram: an electrophoresis tank, side and top views: gel in buffer, wells at the negative (black) end, positive (red) electrode at the other, power pack, ladder and sample lanes, arrow showing DNA direction. Labels: agarose gel, well, buffer solution, cathode (−), anode (+), DNA ladder, bands, “smaller fragments travel further”.
+[bio35-s3.11.b] The final step compares the patterns of bands to decide whether DNA samples match.
+[bio35-s3.11.0] The band positions (or peak sizes) of the samples are compared with each other and with the ladder, which gives the size of each fragment.
+[bio35-s3.11.1] Matching at every locus (position on the DNA) indicates the same person.
+[bio35-s3.11.2] Inheritance of one band per locus from each parent is used in paternity cases, because a child's DNA is a mix of the mother's and the father's.
+[bio35-s3.11.3] There is more on this in Investigation: DNA-profile patterns.
+
+CANDIDATES bio35-s2: DNA profiling
+[bio35-s2.0.b] Every person's DNA is slightly different, and DNA profiling turns those differences into a pattern that can be compared between samples. It is used to link people to evidence, to each other or to a remains sample.
+[bio35-s2.0.0] DNA profiling (also called DNA fingerprinting) is a method of making a pattern of bands (or peaks) from a sample of a person's DNA, so that the DNA of different samples can be compared.
+[bio35-s2.0.1] Except for identical twins, the pattern is unique to each person, which is why it can identify an individual.
+[bio35-s2.0.2] Identical twins come from one zygote (the single cell formed at fertilisation), so they have the same DNA and the same profile. Non-identical twins and other siblings do not share a profile.
+[bio35-s2.0.3] How a profile is made, in outline: 1. DNA is extracted from cells. 2. Many copies of the repeat regions are made by PCR, so there is enough to detect (in older methods the DNA was cut with restriction enzymes).
+[bio35-s2.0.4] 3. The fragments are separated by size by gel electrophoresis, so that different lengths form different bands. 4. The pattern is analysed and compared. There is more on each step in Generating a DNA profile (Higher Level).
+[bio35-s2.1.b] A profile does not read a person's genes. It looks at stretches of DNA that do not code for protein, where short sequences are repeated, because the number of repeats differs so much from person to person.
+[bio35-s2.1.0] DNA profiling is based on non-coding DNA (DNA that does not code for a protein): about 98% of human DNA is non-coding.
+[bio35-s2.1.1] Parts of non-coding DNA contain short base sequences repeated many times one after another, for example short tandem repeats (STRs), a short sequence, often four bases (e.g. GATA), is repeated end to end, e.g. GATAGATAGATA…
+[bio35-s2.1.2] The number of repeats at a particular place on a chromosome (a locus) varies greatly between people, so the length of that piece of DNA varies too. This length difference is what a profile detects.
+[bio35-s2.1.3] Profiling is therefore not a test of a person's genes, their whole genome, their appearance or their health.
+[bio35-s2.2.b] Because we inherit one of each chromosome pair from each parent, every person has two copies of each locus. This is what gives the pattern its structure and lets it be used for family relationships.
+[bio35-s2.2.0] Each person has two copies of every locus, one on the chromosome inherited from the mother and one on the chromosome inherited from the father.
+[bio35-s2.2.1] Each copy can have a different number of repeats (two alleles, giving two bands), or the same number (giving one band, twice as strong because both copies run to the same position).
+[bio35-s2.2.2] So a child's profile at each locus has one band from the mother and one from the father. A child has half its bands from each parent, not most from the father.
+[bio35-s2.3.b] One locus on its own would match many people by chance. Testing many loci together makes a full match very strong evidence.
+[bio35-s2.3.0] A profile tests many loci at once; modern forensic profiles use more than ten.
+[bio35-s2.3.1] The chance that two unrelated people match at every locus is extremely small, which is why a full match is strong evidence of identity.
+[bio35-s2.3.2] The exception is identical twins, who share the same DNA and so the same profile at every locus.
+[bio35-s2.4.b] In gel electrophoresis, DNA fragments are pulled through a gel by an electric field and sorted by size. Knowing which way they move and which sizes go furthest lets you read a profile.
+[bio35-s2.4.0] On a gel, each band is a group of DNA fragments of the same length.
+[bio35-s2.4.1] DNA is negatively charged (because of its phosphate groups), so in an electric field it moves through the gel towards the positive electrode, away from the wells (the small slots) where samples are loaded.
+[bio35-s2.4.2] Shorter fragments (fewer repeats) move faster and travel further from the wells, because they pass through the gel more easily; longer fragments (more repeats) stay nearer the wells. So band position shows fragment length.
+[bio35-s2.4.3] Comparing band positions with a ladder of fragments of known length (a size marker) lets lengths be read.
+[bio35-s2.4.4] In modern laboratories the fragments are labelled with fluorescent dyes and separated by machine. The result is printed as a graph of peaks, each peak being one allele labelled with its number of repeats, rather than as bands. The rules for matching are the same.
+[bio35-s2.4.5] Diagram: a gel with wells at the top (negative electrode) and the positive electrode at the bottom; lanes for a ladder, a crime-scene sample and three suspects; one suspect's bands match the crime-scene lane exactly. Label wells, lanes, bands, "shorter fragments travel further", + and − electrodes.
+[bio35-s2.5.b] Once the bands are on the gel, you compare lanes. The rule for a match is strict: everything must line up.
+[bio35-s2.5.0] Two samples match only if every band is in the same position.
+[bio35-s2.5.1] A single band that differs, at any locus, shows that they did not come from the same person, because the same DNA would give identical bands; this is an exclusion.
+[bio35-s2.5.2] Paternity uses the same logic: every band in a child's profile must come from the mother or the father, so a man whose profile lacks a band the child must have inherited from its father is excluded as the father.
+[bio35-s2.6.b] DNA profiling is a recent method, and its first uses showed that it can both convict and clear people.
+[bio35-s2.6.0] DNA profiling was invented by Alec Jeffreys at the University of Leicester, England, in 1984.
+[bio35-s2.6.1] It was first used to convict a murderer, Colin Pitchfork, in 1988, which showed that it works as evidence in court.
+[bio35-s2.6.2] The same investigation first cleared an innocent suspect, who had confessed to one of the killings but whose DNA did not match.
+[bio35-s2.7.b] The two best-known uses compare a person's profile with other evidence or other people. In crime it links or excludes suspects, and in families it tests who is related to whom.
+[bio35-s2.7.0] Forensic science (crime): DNA from blood, semen, saliva, skin cells or hair roots left at a crime scene is compared with a suspect's DNA (taken from a mouth swab).
+[bio35-s2.7.1] A match links the suspect to the scene; a mismatch excludes them, because a single differing band shows the DNA came from someone else.
+[bio35-s2.7.2] Profiles are stored in national DNA databases so that new crime-scene samples can be compared with them, which can identify a suspect.
+[bio35-s2.7.3] Old crime-scene samples can be retested, solving "cold cases" (unsolved old crimes) and freeing people wrongly convicted.
+[bio35-s2.7.4] Paternity and other family relationships: DNA profiling is also used to establish maternity, to reunite separated families, and in immigration cases where family relationships must be proven.
+[bio35-s2.8.b] When a body is unrecognisable or old, a profile can still identify it by comparing with relatives or personal items. When nuclear DNA is not usable, other DNA can trace ancestry.
+[bio35-s2.8.0] Identifying human remains, e.g. victims of disasters, wars and accidents, or missing persons, by comparing their DNA with that of relatives or with DNA from their personal items (e.g. a toothbrush), which carry the person's own DNA.
+[bio35-s2.8.1] Mitochondrial DNA and Y-chromosome profiles trace family lines when nuclear DNA is too damaged or no close relative is available. Mitochondrial DNA is passed down the female line and the Y chromosome down the male line, so each follows one line of ancestors.
+[bio35-s2.8.2] Example: the skeleton found under a car park in Leicester in 2012 was confirmed in 2013 to be King Richard III, partly by matching its mitochondrial DNA to living descendants of his sister's female line.
+[bio35-s2.8.3] There is more on these two kinds of inheritance in Nuclear and non-nuclear inheritance.
+[bio35-s2.9.b] DNA profiling is not only for people. It is also applied to wildlife, farm and breeding animals, food and medicine.
+[bio35-s2.9.0] Animals, plants and conservation: identifying illegally traded wildlife products (e.g. ivory, meat from protected species), and checking the pedigree (parentage) of animals used for breeding.
+[bio35-s2.9.1] It also helps keep breeding programmes for endangered species from inbreeding (mating between close relatives).
+[bio35-s2.9.2] Food: DNA tests identify the species in food, so they show fraud when the food is not what the label says. Species tests check for a species' DNA, not an individual's profile.
+[bio35-s2.9.3] Example: in January 2013 the Food Safety Authority of Ireland found horse DNA in beef burgers on sale in Ireland, which revealed a Europe-wide horsemeat scandal.
+[bio35-s2.9.4] Medicine: DNA-based tests also help match donors and patients for bone-marrow transplants, and identify the strain of a disease-causing microorganism in an outbreak.
+[bio35-s2.10.b] The two are easily confused because both use DNA. They answer different questions.
+[bio35-s2.10.0] DNA profiling compares band patterns of mostly non-coding DNA to identify a person or a relationship; it tells nothing about health.
+[bio35-s2.10.1] Genetic screening (DNA testing) looks at particular genes to find whether a person has, or carries, an allele linked to a disease. There is more on this in Bioinformatics: genome databases and, for screening of newborns, in Prenatal and postnatal care.
+[bio35-s2.11.b] DNA evidence is powerful but not perfect. Problems can arise before, during and after the test.
+[bio35-s2.11.0] Contamination of a sample with another person's DNA (e.g. by investigators) can give a false link, so samples must be collected with gloves, masks and sealed bags.
+[bio35-s2.11.1] DNA can be degraded by heat, moisture, bacteria or time, giving incomplete profiles that are harder to interpret.
+[bio35-s2.11.2] A match shows that the DNA came from that person (or an identical twin), not when or how it got there; DNA can be transferred innocently, e.g. by touch or on shared objects.
+[bio35-s2.11.3] So DNA evidence must be weighed with other evidence; it does not prove guilt alone.
+[bio35-s2.11.4] Mistakes in labelling or interpretation, and the human judgement needed for mixed samples from several people, can lead to errors, for example if a sample is attributed to the wrong person.

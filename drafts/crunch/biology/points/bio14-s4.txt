@@ -1,0 +1,143 @@
+TARGET bio14-s4: The light-independent reactions
+[bio14-s4.0.b] The second stage of photosynthesis is where glucose is actually built. It uses the ATP and NADPH made in the first stage as its energy and hydrogen supply, and in return sends the empty carriers back.
+[bio14-s4.0.0] Location: the stroma (the fluid that fills the chloroplast), which contains the enzymes for these reactions. The reactions need no light directly, but they depend on the ATP and NADPH made in the light-dependent reactions on the thylakoids.
+[bio14-s4.0.1] 1. Carbon dioxide diffuses into the stroma, from the air spaces of the leaf through the cell and the chloroplast's membranes. It is taken up, or fixed, by combining with a carbon dioxide-accepting compound already present in the stroma.
+[bio14-s4.0.2] 2. NADPH and ATP from the light-dependent reactions enter the reactions, because they supply the hydrogen and the energy that CO₂ needs to become glucose.
+[bio14-s4.0.3] 3. Protons and electrons, that is hydrogen, are transferred from NADPH to the carbon compounds made from CO₂. This adds hydrogen to the carbon, which is reduction, turning CO₂ into carbohydrate. NADPH becomes NADP⁺.
+[bio14-s4.0.4] 4. The energy to achieve this conversion comes from ATP, which is broken down to ADP + Pi (phosphate).
+[bio14-s4.0.5] 5. Glucose (C₆H₁₂O₆) is the product. Six molecules of CO₂ are fixed for each molecule of glucose, because each supplies one of its six carbon atoms. The glucose is then used, or converted to sucrose, starch and cellulose.
+[bio14-s4.0.6] 6. ADP + Pi and NADP⁺ return to the light-dependent reactions on the thylakoid membranes, where they are reloaded to ATP and NADPH and can be re-used.
+[bio14-s4.0.7] The reactions form a cycle, the Calvin cycle. Most of the carbon compounds made regenerate the CO₂-accepting compound, so the cycle can keep fixing CO₂, and the rest is built into glucose.
+[bio14-s4.1.b] Once you know the inputs and outputs, you can explain why this stage responds to temperature and CO₂ and why it stops soon after dark, even though it uses no light directly.
+[bio14-s4.1.0] Summary in words: carbon dioxide + hydrogen (from NADPH) + energy (from ATP) → glucose, with NADP⁺ and ADP + Pi released, so the carriers are free to be reloaded.
+[bio14-s4.1.1] Every step is catalysed by enzymes in the stroma, so the rate rises with temperature up to an optimum, and falls when the enzymes are denatured. This is why temperature affects the rate of photosynthesis.
+[bio14-s4.1.2] CO₂ is the raw material of this stage, so its supply directly limits the rate of glucose production.
+[bio14-s4.1.3] In darkness the light-dependent reactions stop, so ATP and NADPH run out within a short time. The light-independent reactions then stop too, even though they do not use light directly.
+[bio14-s4.2.b] Photosynthesis is best understood as two linked stages joined by recycled carrier molecules. Modelling it means showing what goes in and out of each stage and what the carriers move between them.
+[bio14-s4.2.0] Stage 1, the light-dependent reactions on the thylakoid membranes (the flattened sacs inside the chloroplast): light energy, absorbed by chlorophyll, splits water and drives electron transfer. This produces O₂, which is released, and loads the transfer molecules: ADP + Pi → ATP and NADP⁺ → NADPH.
+[bio14-s4.2.1] Stage 2, the light-independent reactions in the stroma: the transfer molecules are unloaded, which is why this stage needs stage 1. NADPH gives its protons and electrons to CO₂, and ATP gives the energy, producing glucose. NADPH → NADP⁺ and ATP → ADP + Pi.
+[bio14-s4.2.2] The transfer molecules link the two stages. They carry energy (ATP) and electrons and hydrogen (NADPH) from stage 1 to stage 2, and return empty, as ADP + Pi and NADP⁺, from stage 2 to stage 1.
+[bio14-s4.2.3] Because the transfer molecules are recycled, the chloroplast needs only a small supply of each.
+[bio14-s4.2.4] Tracing the atoms: the oxygen gas comes from water (stage 1). The carbon and the oxygen in glucose come from CO₂ (stage 2). The hydrogen in glucose comes from water, carried by NADPH.
+[bio14-s4.2.5] Diagram: thylakoid (stage 1) beside stroma (stage 2). Stage 1: in light, H₂O; out O₂. Stage 2: in CO₂; out glucose. Two loops between them: ATP across and ADP + Pi back, NADPH across and NADP⁺ back, each arrow labelled energy, or protons and electrons.
+
+CANDIDATES bio14-s3: The light-dependent reactions
+[bio14-s3.0.b] The light-dependent reactions start when light hits a leaf. Before any chemistry can happen, the plant has to catch that light energy and channel it to one special chlorophyll molecule, which uses it to fire off an electron.
+[bio14-s3.0.0] Light travels as tiny packets of energy called photons. A pigment is a molecule that absorbs light of particular colours (wavelengths).
+[bio14-s3.0.1] The thylakoid membranes hold several pigments: chlorophyll a, chlorophyll b, and yellow and orange pigments called carotenoids. Each absorbs slightly different colours, so having several widens the range of light the plant can use.
+[bio14-s3.0.2] The pigment molecules sit in clusters of hundreds, called light-harvesting or antenna complexes, around a reaction centre. The cluster works like a satellite dish, collecting light over a wide area and focusing it on one point.
+[bio14-s3.0.3] When any pigment in the cluster absorbs a photon, the energy is passed from one pigment molecule to the next until it reaches the reaction centre, a special chlorophyll a molecule.
+[bio14-s3.0.4] At the reaction centre, the energy raises (excites) one of the chlorophyll's electrons to a high energy level. This energised electron leaves the chlorophyll and is taken up by an electron acceptor, the first carrier of an electron transport chain.
+[bio14-s3.0.5] Because an electron carries a negative charge, losing one leaves the reaction-centre chlorophyll positively charged. It must get an electron back before it can fire off another one, and in the non-cyclic pathway it takes that electron from water.
+[bio14-s3.1.b] The energised electron now has to go somewhere useful. In the non-cyclic pathway, it travels one way, from water to NADP⁺, and along the way its energy is used to make the two things the second stage of photosynthesis needs: ATP and NADPH.
+[bio14-s3.1.0] 1. Light energy reaches the reaction centre, and energised electrons leave the chlorophyll.
+[bio14-s3.1.1] 2. The electrons are passed along an electron transport chain, a series of electron carriers in the thylakoid membrane. At each hand-over they lose a little energy, like a ball bouncing down a staircase, and this released energy is used to make ATP from ADP and phosphate (Pi).
+[bio14-s3.1.2] 3. At the end of the chain, the electrons, now at lower energy, are passed to NADP⁺, a hydrogen carrier. Each NADP⁺ takes two electrons and one proton (H⁺) to form NADPH: NADP⁺ + 2e⁻ + H⁺ → NADPH.
+[bio14-s3.1.3] 4. The chlorophyll is still positively charged, so it strongly attracts electrons and pulls them from water molecules. This splits the water, a step called photolysis (splitting by light, because the energy for it ultimately came from light): 2H₂O → 4H⁺ + 4e⁻ + O₂.
+[bio14-s3.1.4] 5. The electrons from water replace the ones the chlorophyll lost, so it is neutral again and ready to absorb more energy.
+[bio14-s3.1.5] The protons (H⁺) from photolysis are used to form NADPH, and they also build up inside the thylakoid, where this crowd of protons is used to power ATP-making. There is more on this in The chloroplast's internal structure.
+[bio14-s3.1.6] The oxygen from photolysis is a by-product. It is used in the cell's respiration or released through the stomata.
+[bio14-s3.1.7] It is called non-cyclic because the electrons go one way only, from water through the chlorophyll and the chain to NADP⁺, and never return to where they started. The electrons aren't used up; they end up on NADPH.
+[bio14-s3.1.8] Products of the non-cyclic pathway: ATP, NADPH and oxygen.
+[bio14-s3.2.b] Sometimes the energised electrons take a shortcut. In the cyclic pathway they loop back to the chlorophyll they came from, making ATP on the way but nothing else.
+[bio14-s3.2.0] In the cyclic pathway, some energised electrons leaving the reaction-centre chlorophyll pass along carriers of the electron transport chain and then return to the same chlorophyll molecule, instead of going on to NADP⁺.
+[bio14-s3.2.1] As they pass along the carriers, they give up their extra energy, which is used to make ATP from ADP and Pi.
+[bio14-s3.2.2] Because the electrons come back, the chlorophyll is neutral again without needing electrons from water. So water is not split, no oxygen is released and no NADPH is made.
+[bio14-s3.2.3] Products of the cyclic pathway: ATP only.
+[bio14-s3.2.4] Why the plant needs it: the light-independent reactions use more ATP than NADPH, 3 ATP for every 2 NADPH for each CO₂ molecule fixed (built into sugar) in the light-independent reactions, the second stage that makes glucose. The cyclic pathway tops up the extra ATP.
+[bio14-s3.2.5] It also runs when NADP⁺ is in short supply because most of it is already loaded as NADPH. The energised electrons then still have somewhere to go.
+[bio14-s3.3.b] Exams ask you to tell the two pathways apart. The differences all come back to one thing: where the electrons end up.
+[bio14-s3.3.0] Route of the electrons: non-cyclic goes one way, from water to NADP⁺; cyclic goes from the chlorophyll round the carriers and back to the same chlorophyll.
+[bio14-s3.3.1] Final electron acceptor: NADP⁺ in the non-cyclic pathway; the chlorophyll molecule itself in the cyclic pathway.
+[bio14-s3.3.2] Water: split by photolysis in the non-cyclic pathway, to replace the lost electrons; not needed in the cyclic pathway, because the electrons come back.
+[bio14-s3.3.3] Products: non-cyclic makes ATP, NADPH and oxygen; cyclic makes ATP only.
+[bio14-s3.3.4] What they share: both start with light energy reaching the reaction centre and an energised electron leaving the chlorophyll, both pass electrons along carriers to make ATP, and both happen on the thylakoid membranes.
+[bio14-s3.3.5] Older Irish textbooks and past papers call the cyclic pathway pathway 1 and the non-cyclic pathway pathway 2, and describe NADP⁺ first picking up two electrons (becoming NADP⁻) and then a proton. Recognise these names, but learn the single step to NADPH given above.
+[bio14-s3.3.6] Diagram: one energy diagram with chlorophyll at the bottom receiving light from pigment molecules; the electron rising to an acceptor; a downhill chain (ATP made) ending at NADP⁺ → NADPH; water entering below the chlorophyll; a loop back to the chlorophyll for the cyclic pathway (ATP made).
+[bio14-s3.4.b] Put together, the light-dependent reactions turn light into a form of energy the rest of the chloroplast can use, and hand it on to the second stage.
+[bio14-s3.4.0] Location: the thylakoid membranes (grana) of the chloroplast, because that is where the pigments and electron carriers are held.
+[bio14-s3.4.1] Inputs: light energy, water, ADP + Pi and NADP⁺.
+[bio14-s3.4.2] Outputs: ATP and NADPH, which pass into the stroma for the light-independent reactions, and oxygen, released as a by-product.
+[bio14-s3.4.3] Energy conversion: light energy becomes chemical energy, stored in ATP and in the high-energy electrons carried by NADPH.
+[bio14-s3.4.4] The two products have different jobs: ATP carries energy, and NADPH carries electrons and hydrogen to reduce carbon dioxide to glucose. After use, they return as ADP + Pi and NADP⁺ to be reloaded. There is more on this in The light-independent reactions.
+
+CANDIDATES bio9-s2: NAD⁺ and NADP⁺
+[bio9-s2.0.b] Cells need a way to move electrons and hydrogen from the reactions that release them to the reactions that need them. NAD⁺ and NADP⁺ do this job: they are electron carriers, transfer molecules that carry electrons and hydrogen between reactions.
+[bio9-s2.0.0] NAD⁺ is nicotinamide adenine dinucleotide. NADP⁺ is nicotinamide adenine dinucleotide phosphate, which is the same molecule with one extra phosphate group.
+[bio9-s2.0.1] Both are made in the body from niacin (vitamin B3), which is why niacin is needed in the diet. There is more on this in Vitamins.
+[bio9-s2.0.2] Both pick up high-energy electrons, together with hydrogen, in one reaction and hand them on to another reaction, then return to pick up more. In this way they work like shuttle buses that run the same route again and again.
+[bio9-s2.0.3] Gaining electrons is reduction and losing electrons is oxidation (OIL RIG: oxidation is loss, reduction is gain).
+[bio9-s2.0.4] NAD⁺ and NADP⁺ are the oxidised forms, the empty carriers that have no electrons to give. NADH and NADPH are the reduced forms, the loaded carriers that have gained electrons.
+[bio9-s2.1.b] A carrier is useful only if it can be filled, emptied and filled again. The electrons it carries also hold energy, and that energy is what the cell uses.
+[bio9-s2.1.0] Loading: each carrier accepts two electrons and a proton (H⁺, a hydrogen ion): NAD⁺ + 2e⁻ + H⁺ → NADH, and NADP⁺ + 2e⁻ + H⁺ → NADPH.
+[bio9-s2.1.1] In respiration, enzymes called dehydrogenases remove electrons and hydrogen from food molecules and pass them to NAD⁺, which is how the NAD⁺ gets loaded.
+[bio9-s2.1.2] Unloading: NADH and NADPH give up their electrons and hydrogen to the next reaction and become NAD⁺ and NADP⁺ again. This means the same small supply is reused over and over, like ATP.
+[bio9-s2.1.3] The electrons carry energy. When NADH's electrons pass along an electron transport chain (a series of proteins that pass electrons on), the energy released is used to make ATP.
+[bio9-s2.1.4] When NADPH's electrons are added to carbon dioxide, they help build glucose. This reducing power (the ability to hand over electrons) is what makes the carriers useful.
+[bio9-s2.2.b] Respiration is a catabolic pathway, meaning one that breaks glucose down to release energy. NAD⁺ is the carrier that collects the electrons released along the way and delivers them where ATP is made. There is more on this in Respiration.
+[bio9-s2.2.0] NAD⁺ collects electrons and hydrogen released as glucose is broken down. This happens first in glycolysis in the cytoplasm, then in the Krebs (citric acid) cycle in the mitochondrial matrix (the fluid inside the mitochondrion). NAD⁺ becomes NADH.
+[bio9-s2.2.1] NADH carries the electrons to the electron transport chain on the inner membrane of the mitochondrion. The energy released as the electrons pass along the chain is used to make most of the cell's ATP.
+[bio9-s2.2.2] At the end of the chain, the electrons, with hydrogen ions, are passed to oxygen, the final electron acceptor (the last molecule to receive the electrons), which forms water. NAD⁺ is released to collect more electrons.
+[bio9-s2.2.3] Without oxygen, the chain stops and NADH cannot unload there. In fermentation, NADH passes its hydrogen to pyruvate (the end product of glycolysis), forming lactic acid in animals and some bacteria, or ethanol and carbon dioxide in yeast and plants.
+[bio9-s2.2.4] This regenerates NAD⁺ so that glycolysis can continue making a little ATP, which is why fermentation keeps cells going when oxygen is absent.
+[bio9-s2.3.b] Photosynthesis is an anabolic pathway, meaning one that builds glucose from carbon dioxide and water. NADP⁺ is the carrier that moves electrons and hydrogen from the light-capturing stage to the glucose-building stage. There is more on this in Photosynthesis.
+[bio9-s2.3.0] In the light-dependent stage, on the thylakoid membranes of the chloroplast (the flattened sacs inside it), light energises electrons in chlorophyll. These high-energy electrons pass along an electron transport chain to NADP⁺.
+[bio9-s2.3.1] NADP⁺ also takes up protons (H⁺) from the photolysis of water (the splitting of water by light), which releases oxygen. NADP⁺ becomes NADPH.
+[bio9-s2.3.2] NADPH carries the electrons and hydrogen to the light-independent stage in the stroma of the chloroplast (the fluid around the thylakoids). There they are added to carbon dioxide to make glucose, using energy from ATP.
+[bio9-s2.3.3] NADP⁺ and ADP + Pi then return to the light-dependent stage to be loaded again, so none of them is used up.
+[bio9-s2.4.b] NAD⁺ and NADP⁺ are very alike in structure but serve opposite kinds of pathway. Comparing them point by point shows how each fits its job.
+[bio9-s2.4.0] Process: NAD⁺ works in respiration; NADP⁺ works in photosynthesis.
+[bio9-s2.4.1] Type of pathway: NAD⁺ in a catabolic (breaking-down) pathway; NADP⁺ in an anabolic (building-up) pathway.
+[bio9-s2.4.2] Where loaded: NAD⁺ in the cytoplasm and mitochondrial matrix, with electrons from glucose; NADP⁺ on the thylakoid membranes, with electrons from chlorophyll, which are replaced by electrons from water.
+[bio9-s2.4.3] Where unloaded and final electron acceptor: NADH at the electron transport chain on the inner mitochondrial membrane, with oxygen as the final acceptor, forming water; NADPH in the stroma, with carbon dioxide as the final acceptor, forming glucose.
+[bio9-s2.4.4] Use of the electrons' energy: NADH's energy is used to make ATP; NADPH's energy is used to build glucose.
+[bio9-s2.4.5] Structure: NADP⁺ has one extra phosphate group, which lets enzymes tell the two apart. This means the carriers for breaking down and for building up are kept separate.
+[bio9-s2.4.6] ATP compared with both: ATP transfers energy, carried as a phosphate group, while NAD⁺ and NADP⁺ transfer electrons and hydrogen. All three are reused, not used up.
+[bio9-s2.4.7] Diagram: two loops. Respiration: NAD⁺ → (electrons, hydrogen from glucose; glycolysis, Krebs cycle) → NADH → (electron transport chain, ATP made, electrons to oxygen) → NAD⁺. Photosynthesis: NADP⁺ → (electrons from chlorophyll, H⁺ from water; light-dependent) → NADPH → (light-independent, CO₂ to glucose) → NADP⁺.
+
+CANDIDATES bio9-s1: ATP
+[bio9-s1.0.b] A transfer molecule carries energy, or electrons and hydrogen, from the reaction that releases them to the reaction that uses them.
+[bio9-s1.0.0] A transfer molecule is not used up: after handing on its load it returns to be recharged, like a rechargeable battery, so a cell needs only a small amount of each one, recycled continuously.
+[bio9-s1.0.1] ATP is the main energy-transfer molecule in all living cells, from bacteria to humans, which is why it is called the energy currency of the cell: it is the common 'money' every reaction accepts.
+[bio9-s1.0.2] Metabolism is all the chemical reactions in a cell. These reactions fall into two types, catabolic and anabolic.
+[bio9-s1.0.3] Catabolic reactions break large molecules into smaller ones and release energy, e.g. respiration, which breaks down food such as glucose.
+[bio9-s1.0.4] Anabolic reactions build large molecules from smaller ones and need energy, e.g. protein synthesis and photosynthesis.
+[bio9-s1.0.5] ATP links the two: catabolic reactions make ATP, and anabolic reactions and other cell work use it, so energy released in one place can be spent in another. There is more on this in Biomolecules and metabolism.
+[bio9-s1.1.b] ATP is a small molecule with three parts, and its name tells you what they are. Knowing the parts matters because the exam asks you to name them and draw them.
+[bio9-s1.1.0] ATP stands for adenosine triphosphate. It is made of three parts: the nitrogenous base adenine, the five-carbon sugar ribose, and a chain of three phosphate groups attached to the ribose.
+[bio9-s1.1.1] Adenine joined to ribose is called adenosine; 'tri' means three phosphates. So adenosine triphosphate is adenosine with three phosphates attached.
+[bio9-s1.1.2] ATP is a modified nucleotide, built to the same plan of base, sugar and phosphate as an RNA nucleotide (a building block of RNA). There is more on this in Nucleotides, DNA and RNA.
+[bio9-s1.1.3] ADP (adenosine diphosphate) has only two phosphate groups, one fewer than ATP.
+[bio9-s1.1.4] Pi (inorganic phosphate) is a single free phosphate group, not attached to any larger molecule.
+[bio9-s1.1.5] Diagram: ATP drawn as a box labelled adenine, joined to a pentagon labelled ribose, joined to a chain of three circles labelled phosphate, with the bond to the third (end) phosphate marked as the one broken to release energy; a second sketch showing ADP + Pi.
+[bio9-s1.2.b] A cell gets energy from ATP by removing its end phosphate. The reaction is simple, but its features explain why ATP is such a useful energy source.
+[bio9-s1.2.0] Energy is released when the end phosphate is removed: ATP + H₂O → ADP + Pi + energy. So the products of ATP breakdown are ADP, Pi and energy.
+[bio9-s1.2.1] The reaction uses water to split the molecule, so it is a hydrolysis reaction. It is catalysed (sped up) by an enzyme called ATPase.
+[bio9-s1.2.2] The bond to the end phosphate is often called a high-energy bond: it is easily broken, and the reaction releases about 30 kJ per mole of ATP (30.5 kJ/mol) under standard conditions.
+[bio9-s1.2.3] The energy is released in one quick step, in a small packet that suits a single reaction and is available right where the cell needs it.
+[bio9-s1.2.4] Often the released phosphate is attached to another molecule, such as a carrier protein or a reactant (a molecule taking part in a reaction). This makes it more reactive or changes its shape so that it can do work.
+[bio9-s1.3.b] ATP is not used up for good. Once its end phosphate has been removed, the cell puts a phosphate back on to ADP, which needs an input of energy.
+[bio9-s1.3.0] ATP is remade by adding a phosphate group back on to ADP: ADP + Pi + energy → ATP + H₂O.
+[bio9-s1.3.1] Adding phosphate is called phosphorylation. It is catalysed by enzymes, mainly ATP synthase, the enzyme that makes most of the cell's ATP.
+[bio9-s1.3.2] In all living cells, the energy to make ATP comes from respiration, the breakdown of food such as glucose. Some ATP is made in the cytoplasm and most in the mitochondria. There is more on this in Respiration.
+[bio9-s1.3.3] In plants and algae, ATP is also made in the light-dependent stage of photosynthesis in the chloroplasts, using light energy. This ATP is used inside the chloroplast to make glucose.
+[bio9-s1.4.b] Breaking down ATP and remaking it are two halves of one loop. Because the loop runs all the time, a cell can keep spending energy without running out of ATP.
+[bio9-s1.4.0] ATP is continuously broken down to ADP + Pi to release energy for cell work, and ADP + Pi are continuously rebuilt into ATP using energy from respiration (or light). This loop is the ATP/ADP cycle.
+[bio9-s1.4.1] Cells hold only a small store of ATP at any time. Each molecule is recycled many times, so ATP must be made constantly while a cell is alive.
+[bio9-s1.4.2] When respiration stops, for example after a long time without oxygen or in the presence of a poison that blocks respiration, ATP runs out within minutes and cell processes fail.
+[bio9-s1.4.3] Diagram: the ATP/ADP cycle as a circle, with ATP at the top and ADP + Pi at the bottom; one arrow down labelled energy released for cell work: muscle contraction, active transport, synthesis; one arrow up labelled energy in from respiration (and light in photosynthesis).
+[bio9-s1.5.b] Almost every energy-demanding job in a cell runs on ATP. The main uses are movement, moving substances across membranes and building molecules.
+[bio9-s1.5.0] Muscle contraction: ATP provides the energy for protein filaments in muscle fibres to slide past each other, shortening the muscle. Very active muscle cells therefore contain many mitochondria, to make plenty of ATP.
+[bio9-s1.5.1] Active transport: carrier proteins in the cell membrane use energy from ATP to pump substances against their concentration gradient (from low to high concentration), e.g. root hair cells taking in mineral ions from dilute soil water.
+[bio9-s1.5.2] The sodium–potassium pump in nerve cells uses ATP to restore the ion balance after an impulse. There is more on this in Transport Across Membranes.
+[bio9-s1.5.3] Synthesis (anabolic reactions): ATP is needed to join amino acids into proteins at ribosomes, to make DNA when it is copied before cell division, and to make glycogen and starch from glucose.
+[bio9-s1.5.4] The light-independent stage of photosynthesis uses ATP to build glucose from carbon dioxide.
+[bio9-s1.5.5] Other uses: cell division (moving chromosomes), movement of cilia and flagella (hair-like and whip-like projections), and the light produced by fireflies (bioluminescence), where the enzyme luciferase uses ATP.
+[bio9-s1.6.b] Glucose holds a lot of energy, yet cells do not run reactions straight from it. They first use its energy to make ATP, and this is the better arrangement for several reasons.
+[bio9-s1.6.0] Breaking down one glucose molecule releases far more energy than any single reaction needs, and it does so over many steps.
+[bio9-s1.6.1] ATP releases a small, manageable amount, matched to one reaction, in a single step, so less energy is wasted as heat.
+[bio9-s1.6.2] ATP is available instantly where it is needed and is easily recycled. One type of molecule can supply energy to every kind of reaction in the cell.
+[bio9-s1.6.3] ATP is a short-term energy carrier, not a store. Long-term energy is stored in starch (plants), glycogen (animals and fungi) and fats and oils, which respiration uses to make ATP when needed.
+[bio9-s1.7.b] Fireflies make light using ATP, and this has been put to practical use. Because the light needs ATP, it can reveal whether living material is present.
+[bio9-s1.7.0] Because every living cell contains ATP, hygiene tests in food factories and hospitals swab a surface and add luciferase, the firefly enzyme that gives off light when ATP is present.
+[bio9-s1.7.1] Light given off shows that ATP is present, and therefore that living or recently living material, such as bacteria or food residue, is on the surface.

@@ -1,0 +1,164 @@
+TARGET bio6-s3: Classification
+[bio6-s3.0.b] There are so many kinds of living thing that biologists sort them into groups, the way a library sorts books into sections, shelves and titles. The groups sit inside one another in a fixed set of levels.
+[bio6-s3.0.0] Classification is the grouping of organisms according to their shared characteristics. Taxonomy is the science of naming, describing and classifying organisms.
+[bio6-s3.0.1] Organisms are placed in a hierarchy of ranks (taxa, the levels of grouping), from broadest to narrowest: domain, kingdom, phylum, class, order, family, genus, species.
+[bio6-s3.0.2] Moving down the ranks, each group has fewer members, which share more features and are more closely related. This is why two species in the same genus are far more alike than two in the same kingdom.
+[bio6-s3.0.3] Worked example, human: domain Eukarya, kingdom Animalia, phylum Chordata, class Mammalia, order Primates, family Hominidae, genus Homo, species Homo sapiens.
+[bio6-s3.1.b] The species is the smallest rank, so it needs a clear definition and a universal name. Every species gets a two-part scientific name, which is called binomial nomenclature.
+[bio6-s3.1.0] A species is a group of organisms with similar features that can interbreed to produce fertile offspring (young that can themselves reproduce). A horse and a donkey can mate, but their offspring, a mule, is infertile, so they are different species.
+[bio6-s3.1.1] Limitation of the species definition: it cannot be applied to organisms that reproduce only asexually (e.g. bacteria), because they do not interbreed at all, or to fossils, because dead organisms cannot be tested for interbreeding.
+[bio6-s3.1.2] Binomial nomenclature: every species has a two-part scientific name, the genus name (capital first letter) followed by the species name (lower case), printed in italics or underlined when handwritten.
+[bio6-s3.1.3] Examples of binomial names: Homo sapiens (human), Escherichia coli (a gut bacterium), Rhizopus stolonifer (black bread mould).
+[bio6-s3.1.4] The Swedish botanist Carl Linnaeus introduced binomial nomenclature; his Species Plantarum (1753) used it for all plants.
+[bio6-s3.1.5] Species in the same genus are closely related, which is why they share the first part of their name. The lion (Panthera leo) and tiger (Panthera tigris) share the genus Panthera.
+[bio6-s3.2.b] Before sorting living things into kingdoms, biologists ask one basic question about their cells: is there a nucleus (the compartment that holds the DNA) or not? The answer splits cellular life into two big groups.
+[bio6-s3.2.0] The first division of cellular life is by cell type. Prokaryotic cells have no nucleus and no membrane-bound organelles (the small working parts of a cell). Eukaryotic cells have a nucleus surrounded by a membrane, and membrane-bound organelles. There is more on this in Prokaryotic and eukaryotic cells.
+[bio6-s3.2.1] Two kingdoms are prokaryotic, Bacteria and Archaea, each forming its own domain. Four kingdoms are eukaryotic, Protista, Fungi, Plantae and Animalia, all in the domain Eukarya.
+[bio6-s3.2.2] The distinction became clear only once the electron microscope showed cell interiors, because the details inside prokaryotic and eukaryotic cells are too small to see with a light microscope.
+[bio6-s3.3.b] Both prokaryotic kingdoms are single-celled with no nucleus, so cell structure alone does not separate them. One way of telling them apart is the chemistry of their cell walls, and another is rRNA. Each is described by cell type, number of cells, cell wall, nutrition and examples.
+[bio6-s3.3.0] Bacteria: prokaryotic and unicellular, with cell walls of peptidoglycan (a mesh of sugars and amino acids). They reproduce by binary fission (one cell splits into two).
+[bio6-s3.3.1] Bacterial nutrition varies. Bacteria are autotrophic (make their own food), either photosynthetic or chemosynthetic, or heterotrophic (take in food made by others), either saprophytic (feeding on dead matter) or parasitic (feeding on a living host).
+[bio6-s3.3.2] Bacteria examples: Escherichia coli, Lactobacillus (used to make yoghurt) and Streptococcus.
+[bio6-s3.3.3] Archaea: prokaryotic and unicellular, with cell walls that have no peptidoglycan. This difference in cell wall is one way of telling them apart from bacteria. Many live in extreme environments.
+[bio6-s3.3.4] Archaea examples: methanogens (methane-producing archaea) in cattle digestive systems, and Halobacterium in salt lakes.
+[bio6-s3.4.b] The four eukaryotic kingdoms all have a nucleus. They are separated by how many cells they have, what their cell walls are made of, how they get food and how they store carbohydrate.
+[bio6-s3.4.0] Protista: eukaryotic and mostly unicellular, though some are multicellular algae such as seaweeds (kelp). They have no tissues (groups of similar cells doing one job) of the kind found in plants and animals. Some are photosynthetic (algae) and some are heterotrophic.
+[bio6-s3.4.1] Protista includes eukaryotes that do not belong in the other three eukaryotic kingdoms. Examples: Amoeba, Paramecium, Plasmodium (causes malaria) and Phytophthora infestans (causes potato blight, which caused the Great Famine in Ireland, 1845–1849).
+[bio6-s3.4.2] Fungi: eukaryotic and mostly multicellular, made of thread-like hyphae forming a mycelium (a tangled mass of threads), though yeasts are unicellular. They have no chlorophyll, so they cannot photosynthesise, and their cell walls are made of chitin.
+[bio6-s3.4.3] Fungi are heterotrophic: they secrete enzymes onto food and absorb the digested products, living as saprophytes or parasites. They store carbohydrate as glycogen and reproduce by spores. Examples: Rhizopus (bread mould), yeast (Saccharomyces cerevisiae), mushrooms and Penicillium.
+[bio6-s3.4.4] Plantae: eukaryotic and multicellular, with cell walls of cellulose and chloroplasts (where photosynthesis happens). They are autotrophic by photosynthesis, store carbohydrate as starch, and mostly do not move. Examples: mosses, ferns, conifers, and flowering plants such as the daisy and oak.
+[bio6-s3.4.5] Animalia: eukaryotic and multicellular, with no cell walls. They are heterotrophic, taking in (ingesting) food, and store carbohydrate as glycogen. Most can move and have nerves and muscles. Examples: sponges, earthworms, insects, fish and mammals.
+[bio6-s3.5.b] Classification by kingdom and domain only works for things made of cells. Viruses fall outside it.
+[bio6-s3.5.0] Viruses are not in any kingdom or domain, because they are not cells. There is more on this in Viruses.
+[bio6-s3.6.b] Grouping by appearance can mislead, so modern classification also asks which organisms share a recent ancestor. This evolutionary family-tree approach is called phylogeny.
+[bio6-s3.6.0] Phylogeny is the evolutionary history of a group of organisms. Phylogenetic classification groups organisms by how closely related they are by descent from common ancestors, rather than by appearance alone.
+[bio6-s3.6.1] A phylogenetic tree shows these relationships. Each branch point (node) represents a common ancestor, and the closer two species' branches join, the more recent their common ancestor and the more closely related they are.
+[bio6-s3.6.2] Species in the same genus share a very recent common ancestor; genera in the same family share an older one. This is how the ranks of the hierarchy reflect evolutionary history.
+[bio6-s3.6.3] Example: the lion and tiger (genus Panthera) are more closely related to each other than either is to the domestic cat (Felis catus), but all three are in the cat family (Felidae).
+[bio6-s3.6.4] The dog (Canis familiaris, also written Canis lupus familiaris) is in a different family, Canidae, and all four animals are in the order Carnivora.
+[bio6-s3.6.5] Evidence used to work out phylogeny includes shared anatomical structures with the same basic plan, e.g. the five-digit limb of mammals, birds, reptiles and amphibians; embryology (the study of early development); and fossils. There is more on this in Evolution: The Origins of Life.
+[bio6-s3.6.6] The most powerful evidence is comparison of DNA base sequences and protein amino-acid sequences: the fewer the differences, the more closely related the organisms, because less time has passed for differences to build up.
+[bio6-s3.6.7] Appearance can mislead. Whales and dolphins look like fish but are mammals: they breathe air with lungs, are warm-blooded and feed their young on milk.
+[bio6-s3.6.8] Diagram: a phylogenetic tree for lion, tiger, domestic cat and dog, with the nodes for genus Panthera, family Felidae and order Carnivora labelled.
+[bio6-s3.7.b] Classification is not fixed. Each time scientists gained a new tool for looking at living things, the groupings were redrawn, which is why you will meet different numbers of kingdoms in the history of the subject.
+[bio6-s3.7.0] Early systems had two kingdoms, plants and animals. Linnaeus, in the 18th century, classified organisms by visible features.
+[bio6-s3.7.1] Microscopes revealed single-celled organisms that fitted neither kingdom. In 1866 Ernst Haeckel proposed a third kingdom, Protista.
+[bio6-s3.7.2] In 1969 Robert Whittaker proposed five kingdoms: Monera, Protista, Fungi, Plantae and Animalia. Monera held all the prokaryotes.
+[bio6-s3.7.3] Fungi were separated from plants in Whittaker's system because they have chitin walls, no chlorophyll and absorb their food.
+[bio6-s3.7.4] rRNA sequencing (reading the sequence of a molecule found in ribosomes) by Carl Woese showed that prokaryotes form two very different groups. This gave three domains (1990).
+[bio6-s3.7.5] The six kingdoms used in this course followed, with Monera split into Bacteria and Archaea. There is more on this in Domains of life.
+[bio6-s3.7.6] Systems change because new technology provides new evidence, e.g. the light microscope, the electron microscope, biochemistry and DNA sequencing. Classification is revised to reflect evolutionary relationships more accurately. It is a model that scientists keep testing and improving.
+[bio6-s3.8.b] DNA sequencing, reading the order of bases in an organism's DNA, is now the strongest tool for classification. It is still moving organisms between groups and adding new ones.
+[bio6-s3.8.0] DNA sequencing and whole-genome comparisons are now the main evidence for classification, and have moved many organisms. Phytophthora (potato blight) was long classed as a fungus because it grows as threads. Its DNA and its cellulose cell walls show that it belongs with the protists (water moulds).
+[bio6-s3.8.1] DNA evidence placed the giant panda in the bear family.
+[bio6-s3.8.2] Environmental DNA sequencing, which sequences all the DNA in a soil or water sample, has revealed huge numbers of microorganisms that have never been grown in a laboratory. These add new branches to the tree of life.
+[bio6-s3.8.3] Asgard archaea were first reported in 2015 from DNA in sediment near the Loki's Castle hydrothermal vents in the Arctic Ocean. They share many genes with eukaryotes.
+[bio6-s3.8.4] Some scientists argue that eukaryotes arose from within the archaea, which would mean only two primary domains. This is still debated, so classification remains a work in progress.
+[bio6-s3.8.5] DNA barcoding uses a short standard gene sequence to identify species quickly, e.g. to identify species from tiny samples or to detect mislabelled food.
+[bio6-s3.9.b] A dichotomous key is a tool for naming an unknown organism by answering a series of either/or questions about what you can see. The worked key below identifies six invertebrates (animals without backbones).
+[bio6-s3.9.0] A dichotomous key identifies an organism by a series of steps. Each step gives a choice between two contrasting statements (a couplet) about a visible feature. Each statement leads either to a name or to the number of the next couplet.
+[bio6-s3.9.1] Worked example: a key to six invertebrates.
+[bio6-s3.9.2] 1. Legs present → go to 2; legs absent → go to 4.
+[bio6-s3.9.3] 2. Three pairs of legs → ladybird (an insect); more than three pairs of legs → go to 3.
+[bio6-s3.9.4] 3. Four pairs of legs → spider; seven pairs of legs → woodlouse.
+[bio6-s3.9.5] 4. Shell present → snail; no visible shell → go to 5.
+[bio6-s3.9.6] 5. Body divided into rings (segments) → earthworm; body not divided into rings → slug.
+[bio6-s3.10.b] To use a key, start at couplet 1 and follow the numbers until you reach a name. Practise tracing a route for each organism so you can do it in the exam.
+[bio6-s3.10.0] Using the key: an animal with eight legs goes 1 (legs present) → 2 (more than three pairs) → 3 (four pairs) → spider. Eight legs means four pairs, which is why it ends at spider.
+[bio6-s3.10.1] Write the route for one more organism: the slug goes 1 → 4 → 5 → slug, because it has no legs, no visible shell and a body that is not divided into rings.
+[bio6-s3.11.b] You may have to build a key of your own, or use the features of the kingdoms to place an unknown organism. Both rely on picking features that give a clear yes or no.
+[bio6-s3.11.0] To construct a key, list the organisms, choose a feature that splits them into two groups, and keep splitting each group in two until each organism is on its own.
+[bio6-s3.11.1] Use features that are easy to observe and do not vary between individuals or seasons, e.g. number of legs, not size or colour, because size and colour change with age and season and would give unreliable answers.
+[bio6-s3.11.2] A key for n organisms needs n − 1 couplets. For example, the six-invertebrate key above has five couplets.
+[bio6-s3.11.3] To classify an unknown organism to a kingdom, use the features in order. Does it have a nucleus? If not, it is a bacterium or an archaeon, separated by cell-wall chemistry or rRNA.
+[bio6-s3.11.4] If it has a nucleus, ask further questions. Is it multicellular with tissues? What is its cell wall made of? Is it autotrophic or heterotrophic?
+[bio6-s3.11.5] Worked example: a newly found organism is eukaryotic, is made of hyphae with chitin walls, and absorbs food from dead leaves. It is in the kingdom Fungi.
+[bio6-s3.12.b] Classification is more than tidy labelling. It makes biology easier to study, communicate and apply to health, farming and conservation.
+[bio6-s3.12.0] It organises the enormous diversity of life into manageable groups, making it easier to study and to find information.
+[bio6-s3.12.1] Scientific names are universal and unique, which avoids the confusion of common names. The robin of Europe (Erithacus rubecula) and the robin of North America (Turdus migratorius) are different species in different genera.
+[bio6-s3.12.2] It shows evolutionary relationships, so features of a new organism can be predicted from its relatives. For example, relatives of a plant that produces a useful drug may produce similar compounds.
+[bio6-s3.12.3] Health: correctly identifying a pathogen (a disease-causing organism) decides the treatment. A bacterial infection may respond to an antibiotic, but a fungal or viral one will not.
+[bio6-s3.12.4] Agriculture and the environment: identifying pests, invasive species and endangered species is needed for control and conservation, and for measuring biodiversity (the variety of living things in an area).
+
+CANDIDATES bio6-s2: Domains of life
+[bio6-s2.0.b] Living things are sorted into ranks, from broad groups down to single species. A domain is the highest, broadest rank in the classification of living things, above kingdom. All cellular life is placed in three domains: Bacteria, Archaea and Eukarya (the specification calls the last one eukaryota).
+[bio6-s2.0.0] The system was developed by the American microbiologist Carl Woese. In 1977, with George Fox, he showed that archaea are a separate group from bacteria. In 1990 Woese and colleagues formally proposed the three domains.
+[bio6-s2.0.1] Before this, all prokaryotes (cells with no nucleus) were placed in one group, the kingdom "Monera" in the five-kingdom system. Archaea look like bacteria under the microscope, so the difference could only be found from their molecules.
+[bio6-s2.0.2] Genetic basis: Woese compared the base sequences of ribosomal RNA (rRNA), specifically the RNA of the small ribosome subunit. Every cell has ribosomes (the structures that build proteins), and the rRNA does the same job in all of them.
+[bio6-s2.0.3] rRNA is a good tool for comparing all life because its sequence changes very slowly over evolutionary time, so even distantly related organisms still have sequences that can be lined up and compared.
+[bio6-s2.0.4] The more similar two organisms' rRNA sequences are, the more closely related they are. This is how a molecule can be used to work out family relationships between organisms that look nothing alike.
+[bio6-s2.0.5] The results showed three deep branches of life, not two (prokaryote and eukaryote). Archaea differ from bacteria about as much as either differs from eukaryotes.
+[bio6-s2.0.6] In several genetic features archaea are more similar to eukaryotes than to bacteria, so archaea and eukaryotes share a more recent common ancestor with each other than either does with bacteria.
+[bio6-s2.0.7] Diagram: a three-domain tree with one common ancestor at the base; one branch to Bacteria; and a second branch that splits into Archaea and Eukarya. Label the four eukaryotic kingdoms (Protista, Fungi, Plantae, Animalia) on the Eukarya branch.
+[bio6-s2.1.b] Bacteria are the first prokaryotic domain, and the one most people picture when they think of microbes. They live almost everywhere and do very different jobs.
+[bio6-s2.1.0] Bacteria are prokaryotic: they have no nucleus or membrane-bound organelles, so their DNA lies loose in the cell rather than inside a nuclear membrane.
+[bio6-s2.1.1] Bacteria have a single circular chromosome without histone proteins (the proteins eukaryotes wind their DNA around), and their cell walls contain peptidoglycan, a strengthening molecule found in bacterial walls.
+[bio6-s2.1.2] Bacteria are found almost everywhere. They include decomposers, nitrogen-fixing bacteria, photosynthetic cyanobacteria and pathogens (disease-causing organisms) such as Streptococcus and some strains of Escherichia coli.
+[bio6-s2.1.3] Many bacteria are killed by antibiotics, which is why bacterial infections can often be treated with them.
+[bio6-s2.2.b] Archaea look like bacteria, but their chemistry is different, and in several ways it is closer to that of eukaryotes. Archaea are not "ancient bacteria" and not a type of bacterium, even though the old name was "archaebacteria".
+[bio6-s2.2.0] Archaea are prokaryotic and single-celled, similar in size and shape to bacteria. This is why they were once classified with bacteria.
+[bio6-s2.2.1] Their cell walls lack peptidoglycan, and their membrane lipids (the fats that make up the cell membrane) have a different chemical structure from those of all other organisms.
+[bio6-s2.2.2] Their DNA is wound around histone-like proteins, and their enzymes for copying DNA and making RNA are more like those of eukaryotes. This is part of the evidence that archaea and eukaryotes are closer relatives.
+[bio6-s2.2.3] Most antibiotics that kill bacteria do not affect archaea, because archaea have different cell walls and different molecular machinery for the antibiotics to target.
+[bio6-s2.2.4] Many archaea are extremophiles (organisms living in extreme conditions). Thermophiles live in hot springs and deep-sea hydrothermal vents; halophiles live in very salty water such as salt lakes, e.g. Halobacterium.
+[bio6-s2.2.5] Methanogens live where there is no oxygen, e.g. in bogs, rice paddies and the digestive systems of cattle, and make methane.
+[bio6-s2.2.6] Archaea are also common in ordinary soil and the oceans. Archaea are not restricted to extreme environments, and no archaea are known to cause disease in humans.
+[bio6-s2.3.b] The third domain contains every organism whose cells are built on the more complex eukaryotic plan, from single-celled protists to plants, fungi and animals.
+[bio6-s2.3.0] Eukarya are all organisms whose cells have a nucleus enclosed by a membrane and membrane-bound organelles (compartments with their own membrane), e.g. mitochondria.
+[bio6-s2.3.1] Eukaryotic cells have several linear chromosomes, with DNA wound around histones, unlike the single circular chromosome of bacteria.
+[bio6-s2.3.2] Eukarya are unicellular or multicellular. The domain contains the kingdoms Protista, Fungi, Plantae and Animalia, which are the four kingdoms that sit on the Eukarya branch of the tree.
+[bio6-s2.4.b] Putting the domains side by side shows what separates them. Two features (peptidoglycan and the type of membrane lipid) set bacteria and archaea apart, while archaea share others, such as histone-like proteins, with eukaryotes.
+[bio6-s2.4.0] Nucleus: absent in bacteria, absent in archaea, present in eukaryotes. The two prokaryotic domains therefore keep their DNA unenclosed.
+[bio6-s2.4.1] Membrane-bound organelles: absent in bacteria, absent in archaea, present in eukaryotes.
+[bio6-s2.4.2] Peptidoglycan in the cell wall: present in bacteria, absent in archaea, absent in eukaryotes. So peptidoglycan is a feature unique to bacteria.
+[bio6-s2.4.3] Membrane lipids: bacterial-type in bacteria, a unique archaeal type in archaea, bacterial-type in eukaryotes. Archaea are the odd one out here.
+[bio6-s2.4.4] Histones: absent in bacteria, histone-like in archaea, present in eukaryotes. This is one feature in which archaea resemble eukaryotes more than bacteria.
+[bio6-s2.4.5] Ribosome size: 70S in bacteria, 70S in archaea, 80S in the cytoplasm of eukaryotes. Ribosomes are the structures that build proteins, and the S number is explained below.
+[bio6-s2.4.6] Sensitivity to common antibiotics: many bacteria are affected, archaea are generally not, and eukaryotes are not affected.
+[bio6-s2.4.7] Examples: Escherichia coli and Streptococcus for bacteria; Halobacterium and methanogens for archaea; the kingdoms Protista, Fungi, Plantae and Animalia for Eukarya.
+[bio6-s2.5.b] The ribosome sizes in the comparison (70S and 80S) are written in S units, so you need to know what the S means.
+[bio6-s2.5.0] The S number (Svedberg unit) measures how fast a particle settles in a centrifuge (a machine that spins samples at high speed). A larger number means a larger particle, which is why 80S eukaryotic ribosomes are the larger type.
+[bio6-s2.6.b] The three domains change how we picture the living world, and they show how classification changes as new evidence arrives.
+[bio6-s2.6.0] The biggest division in life is not plant versus animal, or even prokaryote versus eukaryote, but these three lineages. Animals, plants and fungi are just three small branches of one domain.
+[bio6-s2.6.1] The domain system is based on genetic evidence, which reflects evolutionary relationships, rather than on appearance. This is why archaea, which look like bacteria, are placed in a separate domain.
+[bio6-s2.6.2] It is an example of how new technology (gene sequencing, which reads the order of bases in DNA or RNA) changes classification. There is more on this in Classification.
+
+CANDIDATES bio7-s1: Prokaryotic and eukaryotic cells
+[bio7-s1.0.b] Biologists sort all cells into two types, depending on whether the DNA is enclosed in a nucleus. The names themselves tell you the difference, and you need the units to talk about how big cells are.
+[bio7-s1.0.0] A prokaryotic cell has no nucleus and no membrane-bound organelles (compartments wrapped in their own membrane). Its DNA lies free in the cytoplasm, the jelly-like fluid that fills the cell. “Pro” means before and “karyon” means kernel or nucleus. Bacteria and archaea are prokaryotes.
+[bio7-s1.0.1] A eukaryotic cell has its DNA enclosed in a nucleus surrounded by a double membrane (the nuclear envelope), and it has membrane-bound organelles such as mitochondria. “Eu” means true, so eukaryote means “true nucleus”. Protists, fungi, plants and animals are eukaryotes.
+[bio7-s1.0.2] Cells are far too small for millimetres to be a handy unit, so their sizes are given in micrometres. 1 mm = 1000 µm (micrometres) and 1 µm = 1000 nm (nanometres). Cell sizes are given in µm.
+[bio7-s1.1.b] Prokaryotic and eukaryotic cells look very different, but both are living cells that must do the same basic jobs. So they share a core set of features.
+[bio7-s1.1.0] Both have a cell membrane that controls what enters and leaves the cell, and cytoplasm, the fluid where many of the cell's reactions take place.
+[bio7-s1.1.1] Both have ribosomes (the tiny structures that make proteins), and both use DNA as the genetic material, reading it with the same genetic code.
+[bio7-s1.1.2] Both respire, releasing energy from food, and both use ATP (the molecule cells use to carry energy) as the energy currency.
+[bio7-s1.1.3] These shared features suggest that all cells evolved from a common ancestor, because such an unusual set of identical features is unlikely to have arisen separately.
+[bio7-s1.2.b] The most important difference between the two cell types is how the DNA is stored. This affects where the DNA sits, what shape it has and what it is packed with.
+[bio7-s1.2.0] Nucleus: prokaryotes have none. Their DNA is concentrated in a region of the cytoplasm called the nucleoid, which has no membrane around it. Eukaryotes have a true nucleus with a nuclear envelope and nuclear pores (small channels through the envelope).
+[bio7-s1.2.1] Number and shape of chromosomes: prokaryotes have one circular chromosome (a closed loop of DNA). Eukaryotes have several linear chromosomes (DNA with two ends).
+[bio7-s1.2.2] Packaging: eukaryotic DNA is wound around histone proteins, which help to pack it. In bacteria the circular chromosome is not wound around histone proteins.
+[bio7-s1.2.3] Prokaryotes often also have plasmids, small extra rings of DNA separate from the main chromosome. Plasmids can carry genes such as antibiotic resistance, which is why resistance can spread between bacteria.
+[bio7-s1.2.4] Plasmids are found in prokaryotes (and in yeast), not in all eukaryotes, so do not say that eukaryotes have none or that all have them.
+[bio7-s1.3.b] Eukaryotic cells divide their work between membrane-bound organelles, whereas prokaryotes have to do everything without them. Ribosomes are the one structure both have, but they differ in size.
+[bio7-s1.3.0] Membrane-bound organelles: prokaryotes have none, so no mitochondria, no chloroplasts and no other membrane-bound organelles. Eukaryotes have mitochondria, and plants and algae also have chloroplasts.
+[bio7-s1.3.1] Without organelles, prokaryotes carry out respiration and, in photosynthetic bacteria, photosynthesis on the cell membrane or on infoldings of it (folds of the membrane that increase its area).
+[bio7-s1.3.2] Mitochondria and chloroplasts contain their own small circular DNA and 70S ribosomes, like a prokaryote. This is one more way these organelles resemble prokaryotic cells.
+[bio7-s1.3.3] Ribosomes: both cell types have them, but prokaryotic ribosomes are smaller (70S) than those in eukaryotic cytoplasm (80S). The S number is a measure of size.
+[bio7-s1.3.4] Many antibiotics work by blocking 70S ribosomes, so they stop bacteria making proteins and harm bacteria but not human cells, which use 80S ribosomes in their cytoplasm.
+[bio7-s1.4.b] The remaining differences are about the whole cell: how big it is, what surrounds it, and how the organism is built and reproduces.
+[bio7-s1.4.0] Size: prokaryotic cells are small, most about 1–10 µm long. Eukaryotic cells are usually about 10–100 µm, so they are roughly ten times larger in length.
+[bio7-s1.4.1] Cell wall: almost all prokaryotes have one, made of peptidoglycan in bacteria. Among eukaryotes, plant cells have cellulose walls, fungal cells have chitin walls, and animal cells have none.
+[bio7-s1.4.2] Some prokaryotes have extra outer structures: a capsule (slime layer) for protection, and a flagellum, a whip-like tail, for movement. There is more on the full bacterial cell in Microorganisms.
+[bio7-s1.4.3] Organisation: prokaryotes are almost all unicellular (made of a single cell) and divide by binary fission, in which one cell splits in two. Eukaryotes can be unicellular or multicellular and divide by mitosis.
+[bio7-s1.4.4] Examples: prokaryotes are bacteria and archaea. Eukaryotes are protists, fungi, plants and animals.
+[bio7-s1.5.b] How a cell looks in a micrograph (a photograph taken through a microscope) depends on the microscope, because a light microscope cannot show very small structures but an electron microscope can. Knowing what each shows lets you identify a cell.
+[bio7-s1.5.0] Under a light microscope at ×400, a bacterium appears as a tiny dot, rod or spiral with no visible internal structure. It is too small (about 1–10 µm) for the light microscope to show its parts.
+[bio7-s1.5.1] Under a light microscope, eukaryotic cells show the nucleus (especially when stained), the cytoplasm and the cell membrane as a line. Plant cells also show the cell wall, a large vacuole (a fluid-filled sac) and chloroplasts.
+[bio7-s1.5.2] Electron micrographs show what the light microscope cannot. In prokaryotes they show the nucleoid, ribosomes as tiny dots, plasmids and the layers of the wall.
+[bio7-s1.5.3] In eukaryotes, electron micrographs show the double nuclear envelope and its pores, the internal membranes of mitochondria and chloroplasts, and ribosomes.
+[bio7-s1.5.4] Diagram: side-by-side labelled diagrams of a generalised prokaryotic cell (cell wall, cell membrane, cytoplasm, nucleoid with circular DNA, plasmid, ribosomes, capsule, flagellum) and a eukaryotic animal cell (cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, mitochondria, ribosomes), with the eukaryotic cell drawn much larger.
+[bio7-s1.6.b] You may be given a micrograph and asked whether the cell is prokaryotic or eukaryotic, and to justify the answer. Work through the same checks in order.
+[bio7-s1.6.0] 1. Check for a nucleus. If one is present, the cell is eukaryotic, because only eukaryotes enclose their DNA in a nucleus.
+[bio7-s1.6.1] 2. Check the scale bar or stated magnification to estimate size. A cell of about 1–10 µm suggests a prokaryote, since eukaryotic cells are usually about 10–100 µm.
+[bio7-s1.6.2] 3. Look for membrane-bound organelles, which only eukaryotes have.
+[bio7-s1.6.3] 4. For a eukaryote, look for a cell wall, a large vacuole and chloroplasts, which mean a plant cell, or their absence, which suggests an animal cell. There is more on this in Structures and organelles of animal and plant cells.

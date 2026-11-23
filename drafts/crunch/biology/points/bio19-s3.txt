@@ -1,0 +1,118 @@
+TARGET bio19-s3: Neurons
+[bio19-s3.0.b] Your body has to pass information quickly between receptors (cells that detect changes), the brain and spinal cord, and muscles and glands. Neurons are the cells that do this job, and there are three types, each with its own role.
+[bio19-s3.0.0] A neuron, or nerve cell, is the basic unit of the nervous system; it carries electrochemical nerve impulses (tiny electrical-and-chemical signals that travel along the cell).
+[bio19-s3.0.1] Neurons are long and thin, so a single cell can connect distant parts of the body, for example the skin of the foot and the spinal cord.
+[bio19-s3.0.2] Sensory neurons carry impulses from receptors (cells that detect a stimulus) to the CNS (the central nervous system: brain and spinal cord).
+[bio19-s3.0.3] Motor neurons carry impulses from the CNS to effectors (muscles or glands, which carry out the response).
+[bio19-s3.0.4] Interneurons, also called relay or connector neurons, carry impulses between neurons within the CNS, so they link the incoming and outgoing pathways.
+[bio19-s3.1.b] Every neuron is built from the same three main regions: a cell body, branched dendrites that receive signals, and an axon that sends them on. The shape of each region suits its job.
+[bio19-s3.1.0] The cell body contains the nucleus and most of the cytoplasm and organelles, which keeps the cell alive.
+[bio19-s3.1.1] The cell body also makes the neurotransmitter (the chemical that passes the signal to the next cell) and the proteins the neuron needs.
+[bio19-s3.1.2] Dendrites are short, branched extensions that receive impulses from other neurons or receptors and carry them towards the cell body.
+[bio19-s3.1.3] Branching gives dendrites a large surface, so one neuron can receive signals from many others.
+[bio19-s3.1.4] The axon is a long single fibre that carries impulses away from the cell body.
+[bio19-s3.1.5] The axon's length lets impulses reach distant effectors, for example a muscle in the foot.
+[bio19-s3.2.b] Many axons are wrapped in a fatty coat that makes impulses travel faster. Fast conduction matters because the body must respond quickly, for example when you pull your hand from something hot.
+[bio19-s3.2.0] The myelin sheath is a fatty insulating layer around many axons, so the impulse does not leak away along the way.
+[bio19-s3.2.1] It speeds up the impulse, which jumps between the small gaps in the sheath called nodes of Ranvier.
+[bio19-s3.2.2] Schwann cells are cells that wrap around the axon in the PNS (the peripheral nervous system: the nerves outside the brain and spinal cord), their membrane forming the myelin sheath.
+[bio19-s3.3.b] At its far end an axon has to hand the impulse on to the next cell, whether another neuron, a muscle or a gland. The axon terminals are built for this hand-over.
+[bio19-s3.3.0] The axon ends in swollen synaptic knobs, also called axon terminals.
+[bio19-s3.3.1] Neurotransmitter vesicles are tiny sacs in the synaptic knobs that store neurotransmitter, so a supply is ready to be released.
+[bio19-s3.3.2] The neurotransmitter is released to pass the impulse to the next cell. There is more on this in Neurotransmission.
+[bio19-s3.4.b] A motor neuron carries the command from the CNS out to an effector. Its structure is arranged to collect many inputs inside the CNS and then send one signal a long way out.
+[bio19-s3.4.0] A motor neuron has its cell body at one end, inside the CNS, with many dendrites.
+[bio19-s3.4.1] Its many dendrites receive input from many interneurons, so one motor neuron can combine signals from many sources.
+[bio19-s3.4.2] It has one long axon, which ends in axon terminals on a muscle or gland, so the axon reaches the effector wherever it lies in the body.
+[bio19-s3.5.b] A sensory neuron brings information in from a receptor to the CNS. It has a different layout from a motor neuron, with its cell body off to one side.
+[bio19-s3.5.0] A sensory neuron has a long fibre, the dendron, which carries impulses from the receptor to the cell body. A dendron is not the same as a dendrite, which is short and branched.
+[bio19-s3.5.1] Its cell body sits to one side of the fibre, in a ganglion (a cluster of cell bodies) outside the CNS.
+[bio19-s3.5.2] A shorter axon carries the impulse on into the CNS.
+[bio19-s3.5.3] The long dendron reaches from a receptor, for example in the skin of the foot, to the spinal cord.
+[bio19-s3.5.4] The cell body lies off the main pathway, so it does not slow the impulse.
+[bio19-s3.6.b] Between the sensory and motor neurons sits a third type that links them. Interneurons make the CNS a network rather than a set of separate wires.
+[bio19-s3.6.0] Interneurons are short, with many branched connections, so each can link with many other neurons.
+[bio19-s3.6.1] They are found only in the CNS.
+[bio19-s3.6.2] They connect sensory neurons to motor neurons and link many neurons together.
+[bio19-s3.7.b] You are often asked to label a neuron diagram or to say which type is shown. Practise drawing both types so that you can place every part and show the direction of the impulse.
+[bio19-s3.7.0] Diagram: a motor neuron and a sensory neuron, labelling cell body, nucleus, dendrites, dendron (sensory), axon, myelin sheath, Schwann cell, node of Ranvier, axon terminals, neurotransmitter vesicles, and an arrow for the direction of the impulse.
+[bio19-s3.8.b] The importance of myelin shows when it is damaged. Multiple sclerosis is a disease in which this happens.
+[bio19-s3.8.0] Multiple sclerosis (MS) is an autoimmune disease (the immune system attacks the body's own tissue) in which the body's immune system damages the myelin sheath in the CNS.
+[bio19-s3.8.1] Damaged myelin slows or blocks impulses, because the insulation that lets them jump between the nodes of Ranvier is lost.
+[bio19-s3.8.2] Symptoms include problems with movement, balance and vision.
+
+CANDIDATES bio7-s3: Structures and organelles of animal and plant cells
+[bio7-s3.0.b] Every cell needs a boundary that holds it together and controls what gets in and out. Plant cells have two layers of boundary: a tough cell wall outside and a thin cell membrane just inside it.
+[bio7-s3.0.0] Cell wall: a rigid layer outside the cell membrane, made mainly of cellulose fibres in plants. It is fully permeable, so water and dissolved substances pass through it freely.
+[bio7-s3.0.1] The cell wall gives strength, support and a fixed shape. It stops the cell bursting when it takes in water by osmosis (water moving in across the membrane), so the cell becomes firm (turgid), which supports non-woody plants.
+[bio7-s3.0.2] Cell walls are found in plant cells, in fungi (where they are made of chitin) and in bacteria, but not in animal cells. The cell wall is visible with the light microscope.
+[bio7-s3.0.3] Cell membrane (plasma membrane): a very thin, flexible boundary around every cell, made of a double layer of phospholipids (fatty molecules) with proteins in it. It is selectively permeable, so it controls which substances enter and leave, and it holds the cell contents together.
+[bio7-s3.0.4] Proteins in the cell membrane act as receptors that recognise hormones and other signals, and as markers that let cells recognise each other.
+[bio7-s3.0.5] The cell membrane is found in all cells, and lies inside the wall in plant cells. With the light microscope it is seen only as a line. There is more on this in Transport Across Membranes.
+[bio7-s3.1.b] Inside the membrane, the cell's contents sit in a watery fluid, and plant cells also have a large fluid-filled sac that helps hold them firm. Together these provide the setting for the cell's chemistry and its support.
+[bio7-s3.1.0] Cytoplasm: everything inside the cell membrane except the nucleus. It is a watery, jelly-like fluid (cytosol) containing dissolved nutrients, salts and enzymes (proteins that speed up reactions), in which the organelles (the cell's specialised working parts) are suspended.
+[bio7-s3.1.1] The cytoplasm is the site of many metabolic reactions (the chemical reactions of the cell), for example the first stage of respiration (glucose broken down to pyruvate) and anaerobic respiration (respiration without oxygen). It is also where proteins are made at free ribosomes. It is found in all cells.
+[bio7-s3.1.2] Vacuole: a fluid-filled sac surrounded by a single membrane. A mature plant cell has one large permanent central vacuole filled with cell sap, which is water containing sugars, salts and sometimes pigments, for example the red of beetroot.
+[bio7-s3.1.3] The plant vacuole stores water, food and waste. It takes in water by osmosis and pushes the cytoplasm against the wall, which keeps the cell turgid and the plant upright. When water is lost, plants wilt.
+[bio7-s3.1.4] Animal cells have only small, temporary vacuoles, for example food vacuoles. Some single-celled protists such as Amoeba have contractile vacuoles that pump out excess water.
+[bio7-s3.1.5] The plant vacuole is visible with the light microscope.
+[bio7-s3.2.b] Cells need a constant supply of usable energy. Mitochondria are the organelles that release it from food, so cells with high energy demands are packed with them.
+[bio7-s3.2.0] Mitochondrion (plural mitochondria): a rod- or sausage-shaped organelle with a double membrane. The outer membrane is smooth, and the inner membrane is folded into cristae.
+[bio7-s3.2.1] The folds of the cristae give a large surface area for the enzymes of the later stages of aerobic respiration (respiration using oxygen). The fluid inside the inner membrane is the matrix.
+[bio7-s3.2.2] Function: the site of most of aerobic respiration, releasing energy from food to make most of the cell's ATP (the molecule that carries energy for cell activities).
+[bio7-s3.2.3] Mitochondria are found in almost all eukaryotic cells (cells with a nucleus), in plants as well as animals. Plant cells respire as well as photosynthesise, so they need mitochondria too.
+[bio7-s3.2.4] Cells that need a lot of energy have many mitochondria, for example muscle cells, liver cells, nerve cells and the middle section of sperm.
+[bio7-s3.2.5] Mitochondria contain their own DNA and ribosomes. They are too small to show detail with the light microscope, so their structure is seen with the electron microscope.
+[bio7-s3.2.6] Diagram: a mitochondrion in section labelled outer membrane, inner membrane, cristae and matrix.
+[bio7-s3.3.b] Plants make their own food by photosynthesis, and the organelle that does this is the chloroplast. Its green pigment captures light, and its fluid interior builds sugar.
+[bio7-s3.3.0] Chloroplast: a disc-shaped organelle with a double membrane. It contains stacks of flattened membrane sacs (thylakoids; a stack is a granum) that carry the green pigment chlorophyll.
+[bio7-s3.3.1] The chloroplast is surrounded by a fluid called the stroma, and starch grains may be stored in the stroma.
+[bio7-s3.3.2] Function: the site of photosynthesis. Chlorophyll in the thylakoid membranes absorbs light energy (the light-dependent stage). The stroma contains the enzymes that use this energy to make glucose from carbon dioxide (the light-independent stage).
+[bio7-s3.3.3] The many stacked membranes give a large surface area for absorbing light. There is more on this in Photosynthesis.
+[bio7-s3.3.4] Chloroplasts are found only in plant cells (and algae), in parts exposed to light, especially the palisade cells of leaves and guard cells.
+[bio7-s3.3.5] Not all plant cells have chloroplasts. They are not found in root cells or in onion bulb cells, which are not exposed to light, and they are never found in animal cells.
+[bio7-s3.3.6] Chloroplasts are visible as green discs with the light microscope. They contain their own DNA and ribosomes.
+[bio7-s3.3.7] Diagram: a chloroplast labelled double membrane, thylakoids, granum, stroma and starch grain.
+[bio7-s3.4.b] The nucleus is the cell's control centre. It holds the instructions for making proteins, and nuclear pores are the gateways that let the right materials move between the nucleus and the rest of the cell.
+[bio7-s3.4.0] Nucleus: usually the largest organelle, round or oval, surrounded by a double membrane called the nuclear envelope. It contains the cell's DNA as chromatin, which is DNA wound around histone proteins.
+[bio7-s3.4.1] Function: the nucleus controls the cell's activities, because its DNA carries the genes that code for the cell's proteins, including the enzymes that control every reaction.
+[bio7-s3.4.2] The nucleus is where DNA is copied before cell division, and where genes are copied into messenger RNA (mRNA, the working copy of a gene that carries the code out to the ribosomes).
+[bio7-s3.4.3] The nucleolus is a dense region inside the nucleus where ribosomes are made.
+[bio7-s3.4.4] The nucleus is found in all eukaryotic cells except a few that lose it, for example mature human red blood cells. It is visible with the light microscope, especially when stained.
+[bio7-s3.4.5] Nuclear pore: one of many openings through the nuclear envelope, each lined with proteins that control what passes through it.
+[bio7-s3.4.6] mRNA and ribosome parts pass out to the cytoplasm. Proteins such as enzymes and histones, nucleotides (the building blocks of DNA and RNA) and ATP pass in. The DNA is too large to leave, so it stays protected in the nucleus.
+[bio7-s3.4.7] Nuclear pores are seen only with the electron microscope, because they are too small for the light microscope.
+[bio7-s3.5.b] The DNA in the nucleus is not a loose tangle. It is organised into chromosomes, which carry the genes and are passed on when cells divide and when organisms reproduce.
+[bio7-s3.5.0] Chromosome: a long thread of DNA wound around proteins (histones), carrying many genes (sections of DNA that code for proteins).
+[bio7-s3.5.1] For most of the cell's life the chromosomes are long, thin and spread out as chromatin, which is why they cannot be seen.
+[bio7-s3.5.2] Before division the chromosomes coil up tightly, becoming short and thick, and can then be seen with the light microscope when stained.
+[bio7-s3.5.3] Human body cells have 46 chromosomes (23 pairs).
+[bio7-s3.5.4] Function: chromosomes carry genetic information and pass it to new cells and offspring. There is more on this in Genetic Inheritance, and division is in Cell Division and Cancer.
+[bio7-s3.6.b] Proteins are made on tiny organelles called ribosomes, which read the code carried by mRNA. Every cell needs them, so they are one of the few organelles found in all cells.
+[bio7-s3.6.0] Ribosome: a very small organelle with no membrane, made of ribosomal RNA (rRNA) and protein, in two subunits.
+[bio7-s3.6.1] Function: the ribosome is the site of protein synthesis, where amino acids (the building blocks of proteins) are joined in the order coded for by mRNA.
+[bio7-s3.6.2] Ribosomes are found in all cells, prokaryotic (without a nucleus) and eukaryotic, free in the cytoplasm. There are many in cells making a lot of protein.
+[bio7-s3.6.3] Ribosomes are seen only with the electron microscope, as dots, because they are very small. There is more on this in DNA Replication, Protein Synthesis and Mutations.
+[bio7-s3.6.4] RNA but no DNA is found in ribosomes and in the cytoplasm of eukaryotic cells. DNA is in the nucleus, mitochondria and chloroplasts.
+[bio7-s3.7.b] Some proteins are not used inside the cell but are exported, such as digestive enzymes. The endoplasmic reticulum is the first stage of the assembly line that folds and transports them, and it also makes lipids.
+[bio7-s3.7.0] Endoplasmic reticulum (ER): a network of membrane-bound flattened sacs and tubes running through the cytoplasm, continuous with the outer membrane of the nuclear envelope. It forms channels that transport materials through the cell.
+[bio7-s3.7.1] Rough ER is covered with ribosomes. Proteins made at these ribosomes enter the ER, where they are folded and transported. These are mainly proteins that will be secreted from the cell (for example digestive enzymes made by pancreas cells, and antibodies) or built into membranes.
+[bio7-s3.7.2] Proteins made at free ribosomes stay in the cytoplasm. Cells that secrete a lot of protein have a lot of rough ER, as in pancreas cells secreting digestive enzymes.
+[bio7-s3.7.3] Smooth ER has no ribosomes. It makes lipids, including phospholipids for membranes and steroid hormones. In liver cells it helps to break down (detoxify) drugs and alcohol.
+[bio7-s3.7.4] The ER is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.b] The Golgi apparatus is the second stage of the assembly line: it modifies, sorts and packages proteins from the ER and ships them out of the cell.
+[bio7-s3.8.0] Golgi apparatus (Golgi body): a stack of flattened, curved membrane sacs, usually near the nucleus, with small membrane bubbles (vesicles) budding off it.
+[bio7-s3.8.1] The Golgi apparatus receives proteins from the ER in vesicles, modifies them (for example adding carbohydrate to make glycoproteins), and sorts and packages them into vesicles that carry them to where they are needed.
+[bio7-s3.8.2] Secretory vesicles move to the cell membrane, fuse with it and release their contents outside the cell (exocytosis). In plant cells the Golgi apparatus also makes materials for the cell wall.
+[bio7-s3.8.3] The Golgi apparatus is found in plant and animal cells, and is seen only with the electron microscope.
+[bio7-s3.8.4] Secretory pathway, in order: gene in the nucleus, then mRNA leaves through a nuclear pore, then protein is made at a ribosome on the rough ER, then folded and carried in the ER.
+[bio7-s3.8.5] The protein then moves in a transport vesicle to the Golgi apparatus (modified and packaged), then in a secretory vesicle, which fuses with the cell membrane, and the protein is released, for example a digestive enzyme.
+[bio7-s3.8.6] Diagram: add rough ER (with ribosomes), smooth ER and the Golgi apparatus (with vesicles) to the animal-cell diagram, with arrows showing the secretory pathway.
+[bio7-s3.9.b] Plant and animal cells share the same core set of organelles, but plant cells have three extra structures that suit a life of making food and standing upright without a skeleton.
+[bio7-s3.9.0] Both have a cell membrane, cytoplasm, a nucleus with nuclear pores and chromosomes, mitochondria and ribosomes.
+[bio7-s3.9.1] Only plant cells have a cellulose cell wall, a large permanent central vacuole, and chloroplasts in green parts.
+[bio7-s3.9.2] Plant cells usually have a fixed, regular (often rectangular) shape, because the rigid wall holds them in place, and they store carbohydrate as starch.
+[bio7-s3.9.3] Animal cells have a flexible, irregular or rounded shape, no wall, only small temporary vacuoles, and store carbohydrate as glycogen.
+[bio7-s3.9.4] Seen with the light microscope: the cell wall, vacuole, chloroplasts and nucleus, with the cell membrane seen only as a line. Mitochondria, nuclear pores and ribosomes need the electron microscope.
+[bio7-s3.9.5] Diagram: a typical animal cell as seen with the electron microscope, labelled cell membrane, cytoplasm, nucleus, nuclear envelope, nuclear pore, nucleolus, chromatin, mitochondrion and ribosomes.
+[bio7-s3.9.6] Diagram: a typical plant cell (for example a palisade cell) as seen with the electron microscope, labelled cell wall, cell membrane, cytoplasm, large vacuole, chloroplast, mitochondrion, nucleus, nuclear pore and ribosomes.
