@@ -1,0 +1,521 @@
+[
+ {
+  "skill": "inf-sampling-distribution",
+  "what": {
+   "say": [
+    "You give it a population mean $\\mu$, a standard deviation $\\sigma$ and a sample size $n$. It tells you how the mean of a sample, $\\bar{x}$, behaves.",
+    "The key idea: sample means centre on $\\mu$, but they spread out much less than single values. The spread is the **standard error**, $\\frac{\\sigma}{\\sqrt{n}}$. Use it in place of $\\sigma$ when you standardise."
+   ],
+   "in": "$\\mu,\\ \\sigma,\\ n$",
+   "out": "standard error and $P(\\bar{x})$"
+  },
+  "how": {
+   "higher": "Higher level only, on Paper 2, as part of the statistics question: find the standard error, then a probability for a sample mean. It is worth 5 to 20 marks."
+  },
+  "example": {
+   "question": "The weight of a bag of flour is normally distributed with mean $500$ g and standard deviation $12$ g. A sample of $36$ bags is taken. Find the probability that the mean weight of the sample is greater than $503$ g.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the standard error",
+      "say": "The sample mean has the same mean, $500$. Its spread is the standard error: divide $\\sigma$ by $\\sqrt{n}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{SE}} &= \\frac{12}{\\sqrt{36}}",
+        "sym": "12/sqrt(36)",
+        "new": true
+       },
+       {
+        "tex": "&= 2",
+        "sym": "2"
+       },
+       {
+        "text": "Use $\\hl{1}{2}$, not $12$, from here on."
+       }
+      ]
+     },
+     {
+      "title": "Standardise the sample mean",
+      "say": "Turn $503$ into a $z$-score. Use the standard error as the spread.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{z} &= \\frac{503 - 500}{\\hl{1}{2}}",
+        "sym": "(503-500)/2",
+        "new": true
+       },
+       {
+        "tex": "&= 1.5",
+        "sym": "1.5"
+       }
+      ]
+     },
+     {
+      "title": "Read the tables",
+      "say": "The tables give the area to the left of $z$. We want the area to the right, so take it from $1$.",
+      "lines": [
+       {
+        "text": "From the tables, $P(z < 1.5) = 0.9332$."
+       },
+       {
+        "tex": "P(\\bar{x} > 503) &= 1 - 0.9332",
+        "sym": "1-0.9332",
+        "new": true
+       },
+       {
+        "tex": "&= 0.0668",
+        "sym": "0.0668"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.0668"
+   },
+   "finalSym": "0.0668",
+   "answerSym": "1-(1+erf(((503-500)/(12/sqrt(36)))/sqrt(2)))/2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write down the mean and the standard error of the sample mean. That is already work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(b)(i)",
+       "quote": "Mean or standard deviation"
+      }
+     ]
+    },
+    {
+     "tip": "You must use $\\sqrt{n}$ to get above low partial credit. A $z$-score with plain $\\sigma$ will not earn the marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(b)(i)",
+       "quote": "must be used in order to be"
+      }
+     ]
+    },
+    {
+     "tip": "When a question asks why sample means are normal, say it in context and mention a sample of 30 or more.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q9#(c)",
+       "quote": "The distribution of sample means will be"
+      }
+     ]
+    },
+    {
+     "tip": "End by saying what the probability means in the question.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q8#(d)",
+       "quote": "This is the probability that the bus with 40"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "inf-ci-proportion",
+  "what": {
+   "say": [
+    "You give it a sample proportion $\\hat{p}$ and the sample size $n$. It gives an interval that the true proportion lies in, with $95\\%$ confidence.",
+    "The key idea: the standard error of a proportion is $\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$. Go $1.96$ of those either side of $\\hat{p}$."
+   ],
+   "in": "$\\hat{p},\\ n$",
+   "out": "interval for $p$"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 2, as a part of its own in the statistics question, worth 5 to 15 marks. The interval is then often used to test a claim.",
+   "ordinary": "Ordinary level asks for it on Paper 2, usually as a 5 mark part. It uses the shorter version, $\\hat{p} \\pm \\frac{1}{\\sqrt{n}}$, after a part that finds $\\frac{1}{\\sqrt{n}}$."
+  },
+  "example": {
+   "question": "In a random sample of $500$ voters, $120$ say they will vote for a new candidate. Find a $95\\%$ confidence interval for the proportion of all voters who will vote for her. Give the limits to $4$ decimal places.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the sample proportion",
+      "say": "The sample proportion is the number who said yes, divided by the sample size.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\hat{p}} &= \\frac{120}{500}",
+        "sym": "120/500",
+        "new": true
+       },
+       {
+        "tex": "&= 0.24",
+        "sym": "0.24"
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "say": "The margin of error is $1.96$ times the standard error. Put $\\hl{1}{0.24}$ and $n = 500$ into the formula.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{E} &= 1.96\\sqrt{\\frac{0.24 \\times 0.76}{500}}",
+        "sym": "1.96*sqrt(0.24*0.76/500)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.0374",
+        "sym": "0.0374",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Go either side of the proportion",
+      "say": "Subtract $\\hl{2}{E}$ for the lower limit and add it for the upper limit.",
+      "lines": [
+       {
+        "tex": "\\hat{p} - E &= 0.24 - 0.0374",
+        "sym": "0.24-0.0374",
+        "new": true
+       },
+       {
+        "tex": "&= 0.2026",
+        "sym": "0.2026"
+       },
+       {
+        "tex": "\\hat{p} + E &= 0.24 + 0.0374",
+        "sym": "0.24+0.0374",
+        "new": true
+       },
+       {
+        "tex": "&= 0.2774",
+        "sym": "0.2774"
+       },
+       {
+        "text": "State it as an interval: $0.2026 \\le p \\le 0.2774$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "0.2026 \\le p \\le 0.2774"
+   },
+   "finalSym": "[0.2026, 0.2774]",
+   "answerSym": "[120/500-1.96*sqrt((120/500)*(1-120/500)/500), 120/500+1.96*sqrt((120/500)*(1-120/500)/500)]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the formula and substitute into it. Some correct substitution earns marks even if the arithmetic goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q5#(a)(iii)",
+       "quote": "Some substitution into correct formula"
+      }
+     ]
+    },
+    {
+     "tip": "Fully substitute $\\hat{p}$, $1-\\hat{p}$ and $n$ before you evaluate. That is a mark point of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q8#(a)(ii)",
+       "quote": "CI fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Even one end of the interval earns high partial credit, so work out both ends carefully, one at a time.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q5#(a)(iii)",
+       "quote": "Finds the maximum or minimum of the"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Reuse the margin of error from the part before. Working correctly from it earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q3#(a)(ii)",
+       "quote": "Works correctly with margin of error"
+      }
+     ]
+    },
+    {
+     "tip": "If you give the answer as a percentage, show the multiplication by $100$. It is marked.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q7#(b)(ii)",
+       "quote": "Reference to multiplication by 100"
+      }
+     ]
+    },
+    {
+     "tip": "Forming one boundary, $\\hat{p}$ minus or plus the margin, is high partial credit. Always write at least one.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q8#(b)(ii)",
+       "quote": "One boundary formed"
+      }
+     ]
+    },
+    {
+     "tip": "The higher level formula is accepted at ordinary level, so you do not lose marks for using it.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q3#(a)(ii)",
+       "quote": "Accept use of version of formula from HL"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "inf-ci-mean",
+  "what": {
+   "say": [
+    "You give it a sample mean $\\bar{x}$, a standard deviation and a sample size $n$. It gives an interval that the population mean lies in, with $95\\%$ confidence.",
+    "The key idea: the sample mean is off from $\\mu$ by about one standard error, $\\frac{\\sigma}{\\sqrt{n}}$. Go $1.96$ standard errors either side of $\\bar{x}$."
+   ],
+   "in": "$\\bar{x},\\ \\sigma,\\ n$",
+   "out": "interval for $\\mu$"
+  },
+  "how": {
+   "higher": "Higher level only, on Paper 2, as a part of the statistics question worth 5 to 10 marks. The interval is often then used to test a claim."
+  },
+  "example": {
+   "question": "A sample of $64$ batteries has a mean life of $41.5$ hours. The standard deviation of the life of all batteries is $6$ hours. Find a $95\\%$ confidence interval for the mean life of all batteries.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the standard error",
+      "say": "Divide the standard deviation by the square root of the sample size.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{\\sigma}{\\sqrt{n}}} &= \\frac{6}{\\sqrt{64}}",
+        "sym": "6/sqrt(64)",
+        "new": true
+       },
+       {
+        "tex": "&= 0.75",
+        "sym": "0.75"
+       }
+      ]
+     },
+     {
+      "title": "Find the margin of error",
+      "say": "Multiply the standard error by $1.96$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{E} &= 1.96 \\times \\hl{1}{0.75}",
+        "sym": "1.96*0.75",
+        "new": true
+       },
+       {
+        "tex": "&= 1.47",
+        "sym": "1.47"
+       }
+      ]
+     },
+     {
+      "title": "Go either side of the mean",
+      "say": "Subtract $\\hl{2}{E}$ from $\\bar{x}$, then add it.",
+      "lines": [
+       {
+        "tex": "\\bar{x} - E &= 41.5 - 1.47",
+        "sym": "41.5-1.47",
+        "new": true
+       },
+       {
+        "tex": "&= 40.03",
+        "sym": "40.03"
+       },
+       {
+        "tex": "\\bar{x} + E &= 41.5 + 1.47",
+        "sym": "41.5+1.47",
+        "new": true
+       },
+       {
+        "tex": "&= 42.97",
+        "sym": "42.97"
+       },
+       {
+        "text": "State it as an interval: $40.03 \\le \\mu \\le 42.97$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "40.03 \\le \\mu \\le 42.97"
+   },
+   "finalSym": "[40.03, 42.97]",
+   "answerSym": "[41.5-1.96*6/sqrt(64), 41.5+1.96*6/sqrt(64)]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Find both endpoints. An interval with only one end cannot earn full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q10#(b)",
+       "quote": "Two endpoints must be found for"
+      }
+     ]
+    },
+    {
+     "tip": "Do not forget $\\sqrt{n}$. If it is left out, the most you can get is low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(b)(i)",
+       "quote": "award Low Partial Credit at most"
+      }
+     ]
+    },
+    {
+     "tip": "Write the whole interval with every number substituted before you work it out. That is a mark point of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(b)(i)",
+       "quote": "Confidence interval fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Set up the interval with fully correct substitution. It earns high partial credit even if you slip afterwards.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q9#(b)",
+       "quote": "interval formulated with fully correct substitution"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "inf-z-test",
+  "what": {
+   "say": [
+    "You give it a claimed mean $\\mu_0$ and a sample: $\\bar{x}$, $\\sigma$ and $n$. It decides whether the sample is far enough from the claim to reject it.",
+    "The key idea: the $z$ statistic counts how many standard errors $\\bar{x}$ is from $\\mu_0$. At the $5\\%$ level, beyond $\\pm 1.96$ is too far to be chance."
+   ],
+   "in": "$\\mu_0,\\ \\bar{x},\\ \\sigma,\\ n$",
+   "out": "$z$ and a conclusion"
+  },
+  "how": {
+   "higher": "Higher level only, on Paper 2, in most years. It is a part of the statistics question worth 10 to 15 marks: state the hypotheses, find $z$, then give a conclusion in context."
+  },
+  "example": {
+   "question": "A machine is set to fill bags with a mean of $250$ g. The standard deviation is $6$ g. A sample of $36$ bags has a mean of $247.9$ g. Test, at the $5\\%$ level of significance, whether the mean fill has changed. State your hypotheses and your conclusion.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "State the hypotheses",
+      "say": "The null hypothesis says nothing has changed. The alternative says the mean is different, in either direction.",
+      "lines": [
+       {
+        "text": "$H_0$: the mean fill is $250$ g."
+       },
+       {
+        "text": "$H_1$: the mean fill is not $250$ g."
+       }
+      ]
+     },
+     {
+      "title": "Find the z statistic",
+      "say": "Subtract the claimed mean from $\\bar{x}$. Divide by the standard error, $\\frac{\\sigma}{\\sqrt{n}}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{z} &= \\frac{\\bar{x} - \\mu_0}{\\sigma / \\sqrt{n}}"
+       },
+       {
+        "tex": "&= \\frac{247.9 - 250}{6 / \\sqrt{36}}",
+        "sym": "(247.9-250)/(6/sqrt(36))",
+        "new": true
+       },
+       {
+        "tex": "&= -2.1",
+        "sym": "-2.1"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the limits",
+      "say": "At the $5\\%$ level, the limits are $-1.96$ and $1.96$. Is $\\hl{1}{z}$ outside them?",
+      "lines": [
+       {
+        "text": "$-2.1$ is less than $-1.96$, so $z$ is in the rejection zone."
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "Say what it means for the machine, not just for $H_0$.",
+      "lines": [
+       {
+        "text": "Reject $H_0$. There is evidence that the mean fill of the machine has changed."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "z = -2.1 < -1.96 \\text{, so reject } H_0"
+   },
+   "finalSym": "-2.1",
+   "answerSym": "(247.9-250)/(6/sqrt(36))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks are given for four things: the hypotheses, the calculation, the conclusion and the reason. Write all four.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q5#(b)",
+       "quote": "Reason (must match calculations)"
+      }
+     ]
+    },
+    {
+     "tip": "A conclusion with no calculation behind it earns nothing. Always show the $z$ working.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q5#(b)",
+       "quote": "Conclusion (not considered correct without"
+      }
+     ]
+    },
+    {
+     "tip": "Put the conclusion in the context of the question. Leaving it out costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q10#(c)(i), (ii)",
+       "quote": "If the context is not mentioned in"
+      }
+     ]
+    },
+    {
+     "tip": "Fully substituting the $z$ formula is high partial credit, so write it out before you evaluate.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q8#(c)",
+       "quote": "z score fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
