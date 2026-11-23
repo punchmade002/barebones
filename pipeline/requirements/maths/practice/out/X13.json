@@ -1,0 +1,222 @@
+[
+ {
+  "skill": "stat-choose-display",
+  "problems": [
+   {
+    "question": "In a survey of 90 students, 25 said a cat is their favourite pet.\nThe survey results are to be shown in a display that compares each type of pet as a part of the whole group.\nName a suitable display and find the angle that would represent cats in it.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Choose the display",
+       "lines": [
+        {
+         "text": "Favourite pet is categorical data and the question compares parts of a whole, so a pie chart suits it."
+        }
+       ]
+      },
+      {
+       "title": "Find the angle for cats",
+       "lines": [
+        {
+         "tex": "\\text{angle} &= \\frac{25}{90} \\times 360^\\circ",
+         "sym": "Rational(25,90)*360",
+         "new": true
+        },
+        {
+         "tex": "&= 100",
+         "sym": "100"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Pie chart};\\; 100^\\circ"
+    },
+    "finalSym": "100",
+    "answerSym": "Rational(25,90)*360"
+   },
+   {
+    "question": "A school canteen sells 420 lunches in a week. Of these, 56 are salads.\nThe canteen manager wants to show how the lunches sold are shared between the different types of lunch.\nName a suitable display and find the angle that would represent salads in it.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Choose the display",
+       "lines": [
+        {
+         "text": "Type of lunch is categorical data and the manager wants to show shares of a whole, so a pie chart suits it."
+        }
+       ]
+      },
+      {
+       "title": "Find the angle for salads",
+       "lines": [
+        {
+         "tex": "\\text{angle} &= \\frac{56}{420} \\times 360^\\circ",
+         "sym": "Rational(56,420)*360",
+         "new": true
+        },
+        {
+         "tex": "&= 48",
+         "sym": "48"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{Pie chart};\\; 48^\\circ"
+    },
+    "finalSym": "48",
+    "answerSym": "Rational(56,420)*360"
+   }
+  ]
+ },
+ {
+  "skill": "stat-correlation-calc",
+  "problems": [
+   {
+    "question": "Five students recorded the number of hours, $x$, they studied for a test and their score, $y$.\n$(1, 2), \\; (2, 4), \\; (3, 5), \\; (4, 4), \\; (5, 5)$\nUse the statistics mode on your calculator to find the correlation coefficient $r$, correct to four decimal places.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the statistics mode on the calculator",
+       "lines": [
+        {
+         "text": "Enter the hours as the $x$ values and the scores as the $y$ values."
+        },
+        {
+         "text": "Read off the correlation coefficient $r$."
+        },
+        {
+         "tex": "r &\\approx 0.7746",
+         "sym": "sqrt(15)/5",
+         "new": true,
+         "approx": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "r = 0.7746"
+    },
+    "finalSym": "sqrt(15)/5",
+    "answerSym": "((1-3)*(2-4)+(2-3)*(4-4)+(3-3)*(5-4)+(4-3)*(4-4)+(5-3)*(5-4))/sqrt(((1-3)**2+(2-3)**2+(3-3)**2+(4-3)**2+(5-3)**2)*((2-4)**2+(4-4)**2+(5-4)**2+(4-4)**2+(5-4)**2))"
+   }
+  ]
+ },
+ {
+  "skill": "stat-populations-samples",
+  "problems": [
+   {
+    "question": "A scientist wants to find the mean length of the 800 trout in a lake. She catches 40 of the trout and measures them.\nIdentify the population and the sample, and write the sample as a percentage of the population.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the population and the sample",
+       "lines": [
+        {
+         "text": "Population: all 800 trout in the lake. Sample: the 40 trout caught and measured."
+        }
+       ]
+      },
+      {
+       "title": "Write the sample as a fraction of the population",
+       "lines": [
+        {
+         "tex": "\\text{Fraction} &= \\frac{40}{800} = \\frac{1}{20}",
+         "sym": "Rational(40,800)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "\\frac{1}{20} \\times 100 &= 5",
+         "sym": "Rational(1,20)*100",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5\\%"
+    },
+    "finalSym": "5",
+    "answerSym": "Rational(40,800)*100"
+   }
+  ]
+ },
+ {
+  "skill": "stat-quartiles-iqr",
+  "problems": [
+   {
+    "question": "The number of text messages sent by 11 students in one day is shown, in order.\n$3, \\; 5, \\; 6, \\; 8, \\; 9, \\; 12, \\; 14, \\; 15, \\; 17, \\; 20, \\; 22$\nFind $Q_1$, $Q_3$ and the interquartile range.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the median and split the ranked values into halves",
+       "lines": [
+        {
+         "text": "There are 11 values, so the median is the 6th value, $12$."
+        },
+        {
+         "text": "The lower half is $3, 5, 6, 8, 9$ and the upper half is $14, 15, 17, 20, 22$, leaving the median out."
+        }
+       ]
+      },
+      {
+       "title": "Find Q1 as the median of the lower half",
+       "lines": [
+        {
+         "text": "The median of 5 values is the 3rd value."
+        },
+        {
+         "tex": "Q_1 &= 6"
+        }
+       ]
+      },
+      {
+       "title": "Find Q3 as the median of the upper half",
+       "lines": [
+        {
+         "text": "The median of 5 values is the 3rd value."
+        },
+        {
+         "tex": "Q_3 &= 17"
+        }
+       ]
+      },
+      {
+       "title": "Subtract to get the interquartile range",
+       "lines": [
+        {
+         "tex": "\\text{IQR} &= Q_3 - Q_1",
+         "sym": "17-6",
+         "new": true
+        },
+        {
+         "tex": "&= 17 - 6",
+         "sym": "17-6"
+        },
+        {
+         "tex": "&= 11",
+         "sym": "11"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "Q_1 = 6, \\quad Q_3 = 17, \\quad \\text{IQR} = 11"
+    },
+    "finalSym": "[6, 17, 11]",
+    "answerSym": "[6, 17, 17-6]"
+   }
+  ]
+ }
+]
