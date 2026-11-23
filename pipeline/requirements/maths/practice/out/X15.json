@@ -89,7 +89,7 @@
          "text": "$210^\\circ$ is in the third quadrant, where cos is negative. The related angle is $30^\\circ$."
         },
         {
-         "tex": "\\cos 210^\\circ &= -\\cos 30^\\circ",
+         "tex": "\\cos 210^\\circ",
          "sym": "cos(7*pi/6)",
          "new": true
         },
@@ -110,7 +110,7 @@
          "text": "In the third quadrant sin is also negative."
         },
         {
-         "tex": "\\sin 210^\\circ &= -\\sin 30^\\circ",
+         "tex": "\\sin 210^\\circ",
          "sym": "sin(7*pi/6)",
          "new": true
         },
