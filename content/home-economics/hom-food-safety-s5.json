@@ -6,50 +6,61 @@
   "notes": [
     {
       "h": "What enzymes are and how they act",
-      "b": "Enzymes are proteins that speed up chemical reactions. They occur naturally in fruit, vegetables, fish and meat, and keep working after harvest or slaughter.",
+      "b": "Enzymes are proteins that speed up chemical reactions, and food is full of them. Plant and animal foods contain their own enzymes, which keep working after harvest or slaughter, so food can spoil without any micro-organisms being involved.",
       "points": [
-        "Each enzyme has an active site, a shaped region into which its specific substrate fits to be broken down.",
-        "Enzyme activity needs warmth and moisture, so drying slows enzyme action.",
-        "Heat denatures enzymes, changing the shape of the active site so that they stop working; cooking therefore inactivates them.",
-        "Low temperatures slow enzyme activity without destroying it, so enzymes resume working when food warms."
-      ]
+        "Enzymes occur naturally in fruit, vegetables, fish and meat. Because they keep working after the food is picked or killed, they slowly change its colour, texture and flavour.",
+        "Each enzyme has an active site, a shaped region into which its specific substrate (the one substance it acts on) fits to be broken down. This is why each enzyme acts on only one kind of substance.",
+        "Enzymes work best in warmth and moisture, so removing water from food leaves them unable to act.",
+        "Heat denatures enzymes, which means it changes the shape of the active site so that the substrate no longer fits and the enzyme stops working. Cooking therefore inactivates them.",
+        "Low temperatures slow enzyme activity without destroying it, so enzymes resume working when the food warms up again."
+      ],
+      "tip": "Enzymes are not micro-organisms, so do not describe enzymic spoilage as caused by bacteria. Remember that cold only slows enzymes, while heat destroys them."
     },
     {
       "h": "Ripening and over-ripening",
+      "b": "Fruit does not stop changing when it is picked. Its ripening enzymes carry on working, and if they are left long enough they turn good fruit into spoiled fruit.",
       "points": [
-        "Ripening enzymes continue to act after fruit is picked, converting starch to sugar and softening the cell walls.",
-        "As enzymes change colour, texture and flavour, fruit moves from ripe to over-ripe and then decays.",
+        "Ripening enzymes continue to act after fruit is picked, converting starch to sugar and softening the cell walls, so the fruit becomes sweeter and softer.",
+        "As enzymes change colour, texture and flavour, fruit moves from ripe to over-ripe and then decays, becoming soft and mushy before it rots.",
         "Over-ripening: a hard, under-ripe banana becomes soft and sweet, and then black, as enzymes continue to break it down."
-      ]
+      ],
+      "tip": "In a discuss-the-role-of-enzymes question, over-ripening with the banana is one of the three expected points. Say that the enzymes keep acting after harvest."
     },
     {
       "h": "Enzymic browning",
+      "b": "Cut an apple and leave it, and the flesh turns brown. This is enzymic browning, and it needs three things: damaged cells, the enzyme and oxygen from the air.",
       "points": [
-        "When the surface of apples, bananas or potatoes is cut or bruised, enzymes are released from the damaged cells.",
+        "When the surface of apples, bananas or potatoes is cut, peeled or bruised, enzymes are released from the damaged cells.",
         "Polyphenol oxidase, also called oxidase, acts on phenolic compounds in the presence of oxygen.",
-        "The reaction forms brown pigments on the cut surface, which is why cut apples and potatoes discolour."
-      ]
+        "The reaction forms brown pigments on the cut surface, which is why cut apples and potatoes discolour.",
+        "Browning changes the appearance and flavour of the food but is not a safety hazard."
+      ],
+      "tip": "Name the enzyme (oxidase) and say oxygen is needed, using apple or potato as the example. Browning of food in the oven is a different process, so do not confuse the two."
     },
     {
       "h": "Enzymic deterioration (rotting)",
+      "b": "Enzymes also break down fish, fats and vegetables, even when the food is stored in the cold. The damage shows up as off-odours, rancidity, poor colour and texture, and lost nutrients, and it shortens shelf life.",
       "points": [
-        "Lipase in fish and oily foods breaks down fats into fatty acids and glycerol, causing rancidity and off-flavours.",
+        "Lipase in fish and oily foods breaks down fats (triglycerides) into fatty acids and glycerol, causing rancidity (the stale, unpleasant taste of spoiled fat) and off-flavours.",
         "Enzymes in fish continue to break down the flesh even at low temperatures, producing odour.",
-        "Vegetables that are not blanched before freezing keep their enzymes active during storage, which spoils colour, texture and flavour.",
-        "Oxidase in the cell walls of plants is activated by oxygen and destroys thiamine, vitamin C and carotene."
-      ]
+        "Vegetables that are not blanched before freezing keep their enzymes active during storage, which spoils colour, texture and flavour in the freezer.",
+        "Oxidase in the cell walls of plants is activated by oxygen and can destroy thiamine (vitamin B1), vitamin C and carotene, so some nutritive value is lost."
+      ],
+      "tip": "A full answer on enzymic deterioration gives fish, unblanched vegetables and the vitamin loss. Say that oxidase can destroy these nutrients, not that it always does."
     },
     {
       "h": "Controlling enzymic spoilage (Higher Level only)",
-      "b": "Control works by inactivating enzymes, slowing their action or excluding oxygen.",
+      "b": "Control works by inactivating enzymes, slowing their action or excluding oxygen. In other words, enzymes are controlled by destroying them (heat), changing their conditions (acid, cold, dryness) or removing a reactant (oxygen).",
       "points": [
-        "Heat: blanching, a brief immersion of vegetables in boiling water or steam, inactivates enzymes before freezing; cooking denatures them.",
-        "Acid: adding lemon juice to cut apples lowers the pH and inactivates the enzymes that cause browning.",
-        "Low temperature: refrigeration and freezing slow enzyme activity but do not stop it completely.",
-        "Sulphur dioxide: used as a preservative in dried fruit and fruit juices, it prevents browning and inhibits enzyme action.",
-        "Removing oxygen: vacuum packing, or treating cut fruit with ascorbic acid (vitamin C), prevents oxidase from browning the food.",
-        "Drying: removing moisture makes enzymes inactive, which preserves herbs and dried fruit."
-      ]
+        "Heat: blanching, a brief immersion of vegetables in boiling water or steam followed by rapid cooling, inactivates enzymes before freezing; cooking denatures them.",
+        "Acid: adding lemon juice or vinegar to cut apples lowers the pH and inactivates the enzymes that cause browning.",
+        "Low temperature: refrigeration and freezing slow enzyme activity but do not stop or destroy it, so enzymes become active again on thawing. This is why frozen vegetables need blanching first.",
+        "Sulphur dioxide: used as a preservative in dried fruit and in fruit and vegetable juices, it prevents browning and inhibits enzyme action.",
+        "Removing oxygen: vacuum packing, covering cut surfaces with water or sugar syrup, or treating cut fruit with an antioxidant such as ascorbic acid (vitamin C) prevents oxidase from browning the food.",
+        "Drying: removing water makes enzymes inactive because they need it to act, which preserves herbs and dried fruit.",
+        "Irradiation is also listed as a control for enzymic spoilage."
+      ],
+      "tip": "Give the reason each method works: heat denatures, acid lowers the pH, drying removes the water enzymes need, and excluding oxygen stops browning. Blanching inactivates enzymes, it does not kill bacteria, and cold slows enzymes without destroying them."
     }
   ],
   "keyTerms": [

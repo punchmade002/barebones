@@ -5,57 +5,91 @@
   "syllabusRef": "3.1.1",
   "notes": [
     {
-      "h": "Society and culture",
-      "b": "Sociology studies how people organise their lives together. A society is the basic unit of that study.",
+      "h": "Society",
+      "b": "Sociology is the study of how people live together in groups and societies. Its starting point is the society itself, because human life is organised, not random.",
       "points": [
-        "A society is a group of people who share a territory, a set of institutions and a common way of life.",
-        "Culture is the learned way of life of a society: its language, customs, beliefs, values, norms, art and objects.",
-        "Culture is not inherited biologically; it is learned through socialisation and passed from one generation to the next.",
-        "Material culture is the physical objects a society makes and uses, such as clothing, tools and housing.",
-        "Non-material culture is the intangible side of culture: language, beliefs, values, norms, customs and rituals.",
-        "Members of a society share common symbols and meanings, such as the Irish language and traditional Irish music.",
-        "A subculture is a smaller group within a larger society that holds some distinct norms and values, such as a musical or sporting subculture.",
-        "Ethnocentrism is judging another culture by the standards of one's own culture.",
-        "Cultural relativism is understanding a culture by its own standards rather than by the standards of another culture."
-      ]
+        "A society is a group of people who live in a defined territory and share a way of life, a set of institutions (the established organisations and arrangements of social life) and a sense of belonging.",
+        "Social life in a society is organised: people depend on one another and follow common rules, which is why daily life is predictable rather than chaotic.",
+        "The term applies at different scales, such as Irish society, a small rural community or Western society, so always be clear which group you mean."
+      ],
+      "tip": "Do not mix up society and culture. Society is the people; culture is their way of life."
     },
     {
-      "h": "Norms, mores and sanctions",
-      "b": "Norms are the rules that tell people how to behave in a given situation.",
+      "h": "Culture",
+      "b": "Culture is what makes the way of life of one society different from another. It is much wider than the arts, because it covers almost everything a group of people share and hand on.",
       "points": [
-        "A norm is a rule of behaviour that a society expects its members to follow.",
-        "Folkways are everyday conventions, such as queueing at a bus stop; breaking them brings mild disapproval.",
-        "Mores are norms with strong moral significance, such as the prohibition on theft or violence; breaking them brings serious disapproval.",
-        "Laws are norms that are formally written down and enforced by the state through officially appointed bodies such as the courts.",
-        "A sanction is a reward for conforming to a norm or a penalty for breaking one.",
-        "Positive sanctions reward conformity, for example praise, awards or promotion.",
-        "Negative sanctions punish deviance, for example ridicule or ostracism (informal) or fines and imprisonment (formal).",
-        "Deviance is behaviour that breaks a norm; what counts as deviance varies between societies and changes over time.",
-        "Norms about punctuality, personal space and greeting differ from one culture to another."
-      ]
+        "Culture is the whole way of life of a society, passed from one generation to the next. It includes language, customs, beliefs, values, norms, mores, music, art, dress, food, religion, technology and objects. Irish culture is a good example.",
+        "Culture is learned, not inherited biologically, so a child raised in any society picks up that society's way of life through socialisation (the process of learning how to live in a society).",
+        "Material culture is the physical objects a society makes and uses, such as clothing, tools, buildings and housing. Non-material culture is the intangible side: language, beliefs, values, norms, customs and rituals.",
+        "Cultures differ between societies, and a culture changes over time. Differences show up in language, dress, food, religious practice, wedding customs and attitudes to age and gender roles.",
+        "Members of a society share common symbols and meanings, though not every member values every symbol.",
+        "Safe Irish examples of culture include Irish traditional music, the GAA, the Irish language as a cultural symbol, St Patrick's Day, Christmas customs and Irish wedding customs. Symbols like these carry shared meanings for those who value them.",
+        "A subculture is a smaller group within a society with some distinct values, norms or styles of its own, such as a youth music scene, a sporting club or a religious minority. It still shares the main culture.",
+        "Ethnocentrism is judging another culture by the standards of your own culture. Cultural relativism is understanding a culture on its own terms, by its own standards, rather than by those of another culture."
+      ],
+      "tip": "A mark is lost for saying culture is music and art. Define it as the way of life of a society passed on from generation to generation, and add an example such as Irish culture. Irish culture is not one fixed thing: Ireland has subcultures and growing diversity, so do not say all Irish people share one language, religion or custom."
+    },
+    {
+      "h": "Norms and mores",
+      "b": "Every society has rules about how to behave, most of them unwritten. These rules come in different strengths, from everyday habits to rules with serious moral weight.",
+      "points": [
+        "A norm is an accepted, expected way of behaving in a given situation. It is a rule, mostly unwritten. The standard example is forming a queue; others are greeting people, keeping quiet in a library, turning up on time and dressing suitably for an interview or a funeral.",
+        "Norms vary between cultures, between social settings and over time. For example, what is acceptable at a match is not acceptable in church, and what was normal fifty years ago may not be now. Norms about punctuality, personal space and greeting also differ from one culture to another.",
+        "Mores (pronounced MOR-ays) are norms with strong moral weight, whose breach is seen as seriously wrong, such as the ban on theft, violence or disrespect to the dead. Breaking a more brings serious disapproval or punishment.",
+        "Customs, also called folkways, are everyday conventions and traditional ways of doing things, such as queueing, shaking hands, a birthday custom or a wedding custom. Breaking them is rude, not wrong, and brings only mild disapproval. This helps separate a norm from a more.",
+        "Laws are norms that are written down and enforced by the State through officially appointed bodies such as the courts. Some mores become laws, such as the bans on theft and assault, but many norms are not laws, such as queueing."
+      ],
+      "tip": "Do not say mores are laws. Mores are norms with strong moral weight; laws are written and enforced by the State. Some mores are also laws, but some, such as serious social disapproval of lying, are not. Be ready with one example each of a norm, a more and a custom."
+    },
+    {
+      "h": "Sanctions, conformity and deviance",
+      "b": "A norm only works if there is some pressure to follow it. Societies apply that pressure through sanctions, and the result is either conformity or deviance.",
+      "points": [
+        "A sanction is how a society enforces norms: a reward for conforming to a norm or a penalty for breaking one.",
+        "Positive sanctions reward conformity, for example praise, a prize, an award or promotion.",
+        "Negative sanctions punish breaking norms, for example a frown, ridicule, ostracism (being left out) or, at the formal end, fines and imprisonment.",
+        "Informal sanctions come from family, friends and neighbours. Formal sanctions come from official bodies such as the courts, schools and employers.",
+        "Conformity means following norms. Deviance is behaviour that breaks a norm.",
+        "What counts as deviance depends on the society and the time, because norms vary between cultures and change over time, so the same behaviour may be deviant in one place and normal in another."
+      ],
+      "tip": "Examiners ask for one example each of a norm, a more, a custom, a value and a sanction, so prepare one for each."
     },
     {
       "h": "Values",
       "b": "Values sit behind norms. A norm is the specific rule; a value is the broad belief that the rule expresses.",
       "points": [
-        "A value is a broad belief about what is desirable, important or worth striving for.",
-        "Values are general and abstract; norms are specific rules that put a value into practice.",
-        "Example of a value and its norm: a value placed on respect for life underpins the norm against violence.",
-        "Examples of Irish values include family, education, honesty and equality.",
+        "Values are the beliefs and attitudes a society holds about what is right and wrong, good and bad, important and worth striving for.",
+        "Values are general, abstract and long-lasting; norms are the specific rules that carry values into everyday behaviour. A value of respect for life lies behind the norm against violence, and a value of honesty lies behind the norm of not cheating in exams.",
+        "Examples of values given in Irish and Western societies include family, education, honesty, fairness and equality, respect for others, religious belief, freedom, community and care for the vulnerable. These are examples of values, not a claim about every person.",
         "Core values are held strongly and change slowly; peripheral values are held less firmly and change more readily.",
-        "Values are transmitted through socialisation, first in the family and later through school, peers and the media.",
-        "Values can conflict, for example individual freedom and obligation to the community, and societies resolve such conflicts through norms and laws."
-      ]
+        "Values are learned from the family first, then from school, peers, religion and the media. They differ between families, groups and generations.",
+        "Values change over time, for example attitudes to marriage, gender equality and diversity. The changes feed through into new norms and laws.",
+        "Values can conflict, such as personal freedom against duty to family, or career against family time. Individuals must balance them, and societies resolve such conflicts through norms and laws."
+      ],
+      "tip": "Students often define norms and values the same way. Respect for elders is a value; standing up when an older person enters the room is a norm. Use the wording the schemes credit for values: beliefs about what is right and wrong."
+    },
+    {
+      "h": "How the terms link together",
+      "b": "The terms in this subsection are not separate lists. They fit together as one system, with culture as the umbrella.",
+      "points": [
+        "Culture is the umbrella. Values, norms, mores, customs, language, beliefs and symbols are its parts.",
+        "Values are the broad beliefs. Norms and mores are the rules that put them into practice.",
+        "Sanctions enforce norms and mores, and laws are the formal, written version of them.",
+        "A chain to remember: a value of honesty leads to a norm of not cheating, and cheating brings a sanction such as a teacher's disapproval or a penalty."
+      ],
+      "tip": "Questions on how the family transmits values and norms expect you to link the terms: the family passes on values, which show up as norms."
     },
     {
       "h": "Answering questions that ask you to explain a set of terms",
+      "b": "Exams often ask you to explain four or five terms together, such as culture, norms, values and role. Each term is marked separately, so a clear layout earns the marks.",
       "points": [
-        "Give each term its own answer so that each one can be credited separately.",
-        "Open with a one-sentence definition that uses the correct sociological meaning.",
+        "Give each term its own line or short paragraph so that each one can be credited separately.",
+        "Open with a one-sentence definition that uses the correct sociological meaning. Use the wording the schemes credit: way of life of a society for culture, accepted way of behaving for norms, and beliefs about what is right and wrong for values.",
         "Add the point that separates the term from the one most often confused with it, such as folkways from mores or norms from values.",
-        "Give a specific example from Irish or everyday life for each term.",
-        "Where a term links to another in the set, say how: for example, values underpin norms, and norms are enforced by sanctions."
-      ]
+        "Give a specific example from Irish or everyday life for each term, such as queueing for a norm or Irish culture for culture.",
+        "Where a term links to another in the set, say how: for example, values underpin norms, and norms are enforced by sanctions. A three-mark term answer is one definition point, one example or extension point and, where terms are related, a link."
+      ],
+      "tip": "Each term earns about 3 marks, so give one definition plus one example per term, with no essay. Examiners give little for a bare definition with no example."
     }
   ],
   "keyTerms": [

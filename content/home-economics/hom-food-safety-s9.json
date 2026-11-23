@@ -5,52 +5,82 @@
   "syllabusRef": "1.3.7",
   "notes": [
     {
+      "h": "How food law fits together",
+      "b": "Food law protects consumers by making sure food is safe and honestly described. It comes from two sources, the EU and Ireland, and the two work together.",
+      "points": [
+        "An EU regulation applies directly in every member state, so it is not an Irish law. Regulation (EC) No 852/2004 and Regulation (EU) No 1169/2011 are EU regulations, not Irish Acts.",
+        "Ireland also makes national regulations (called statutory instruments) to give an EU regulation effect, which means they set out how it is enforced and which bodies enforce it.",
+        "The Oireachtas (the Irish parliament) passes Acts, such as the Food Safety Authority of Ireland Act 1998.",
+        "The purpose of all of this law is consumer protection: food that is safe to eat and described honestly."
+      ],
+      "tip": "Do not call an EU regulation an Irish law. Say that the regulation applies across the EU and that the Irish regulations give it effect."
+    },
+    {
       "h": "Food hygiene legislation",
-      "b": "Regulation (EC) No 852/2004 on the hygiene of foodstuffs is an EU regulation, which applies directly in every member state. Ireland gives effect to it through national regulations.",
+      "b": "Regulation (EC) No 852/2004 on the hygiene of foodstuffs is an EU regulation, which applies directly in every member state. It lays down hygiene rules for food businesses at all stages after primary production (the growing or rearing of the raw food). Ireland gives effect to it through national regulations.",
       "points": [
         "The European Communities (Hygiene of Foodstuffs) Regulations 2006, amended in 2009 and 2010, give effect to Regulation (EC) No 852/2004 in Ireland.",
-        "The Regulations set hygiene standards for food premises.",
-        "They require food businesses to operate a food safety system based on HACCP.",
-        "They require staff to be trained in hygiene and to follow hygiene procedures.",
-        "They require food premises to be registered.",
-        "They permit the closure of premises, and the destruction of food, where public health is immediately threatened."
-      ]
+        "The Regulations set hygiene standards for food premises, equipment, food handling, water supply, waste and the personal hygiene of food handlers, so that every step where food could be contaminated is covered.",
+        "They require food businesses to put in place and operate a food safety system based on HACCP (a system that finds the points where food could become unsafe and controls them).",
+        "They require staff to be trained and supervised in food hygiene and to follow hygiene procedures, so that the people handling food know how to prevent contamination.",
+        "They require food premises to be registered with the relevant competent authority (the official body in charge of checking them).",
+        "They permit authorised officers, for example environmental health officers, to inspect premises, and to close them or have food destroyed where public health is immediately threatened.",
+        "How this protects the consumer: food is prepared in clean premises by trained staff under a system that prevents contamination, and unfit food can be taken off sale."
+      ],
+      "tip": "A Higher Level question asked students to describe the protection these Regulations give consumers. Cover hygiene standards for premises, a HACCP-based system, staff training, registration, and closure of premises or destruction of food where health is immediately threatened. Keep hygiene (852/2004) separate from labelling (1169/2011)."
     },
     {
       "h": "Food labelling (Higher Level only)",
-      "b": "Regulation (EU) No 1169/2011 on the provision of food information to consumers is given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014.",
+      "b": "Regulation (EU) No 1169/2011 on the provision of food information to consumers is given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014. It applies from 13 December 2014, and the nutrition declaration from 13 December 2016. It lists the information that must appear on pre-packed food, so that shoppers can choose safely.",
       "points": [
-        "A label must give the name of the food and a list of ingredients in descending order of weight at the time of manufacture.",
-        "Fourteen named allergens must be emphasised wherever they appear in the list of ingredients.",
-        "A label must give the net quantity of the food and the storage conditions needed to keep it safe.",
-        "A use-by date must appear on highly perishable food, after which the food must not be eaten.",
-        "A best-before date shows the date until which the food keeps its quality.",
-        "A label must give the name and address of the food business operator.",
+        "A label must give the name of the food and a list of ingredients in descending order of weight at the time of manufacture, so the main ingredient comes first.",
+        "Fourteen named allergens must be emphasised wherever they appear in the list of ingredients, so that people with an allergy can spot them at once.",
+        "A label must give the net quantity of the food, and any special storage conditions or instructions for use where needed.",
+        "A label must give the name and address of the food business operator, so the food can be traced to a named business.",
+        "Country of origin or place of provenance must be given where leaving it out would mislead the consumer, and for certain meats and fresh produce.",
+        "Drinks over 1.2% alcohol must show their alcoholic strength.",
         "A nutrition declaration gives the energy value, fat, saturates, carbohydrate, sugars, protein and salt of the food.",
-        "Labelling must not mislead the consumer about the nature, origin or characteristics of the food."
-      ]
+        "Labelling must not mislead the consumer about the nature, identity, properties, origin or method of production of the food. Nutrition and health claims are regulated separately."
+      ],
+      "tip": "Exams ask which items a food label must carry and why each protects the consumer: ingredients, allergens, date marks, quantity, business name and address, nutrition declaration and storage. Link each item to a protection, such as informed choice, allergy safety, safe storage and use, and traceability."
+    },
+    {
+      "h": "Allergens and date marks (Higher Level only)",
+      "b": "Two parts of the label matter most for safety: the allergens and the date mark. Both help the consumer avoid harm, but they work in different ways.",
+      "points": [
+        "The 14 allergens that must be emphasised are cereals containing gluten, crustaceans, eggs, fish, peanuts, soybeans, milk, tree nuts, celery, mustard, sesame, sulphur dioxide and sulphites (above a set level), lupin and molluscs.",
+        "A use-by date must appear on highly perishable food, because such food can become unsafe to eat. After this date the food must not be eaten.",
+        "A best-before date (the date of minimum durability) shows the date until which the food keeps its quality, so food past this date is a matter of quality, not safety."
+      ],
+      "tip": "Use-by and best-before are different: use-by is about safety and best-before is about quality. Do not mix them up."
     },
     {
       "h": "General framework of food law (Higher Level only)",
+      "b": "Alongside the rules on hygiene and labelling, there is a general framework that sets the principles for all food law. In Ireland this is the Food Safety Authority of Ireland Act 1998. Across the EU it is Regulation (EC) No 178/2002, known as general food law.",
       "points": [
-        "The Food Safety Authority of Ireland Act 1998 provides the Irish legal framework for food safety and for the functions of the FSAI.",
-        "Regulation (EC) No 178/2002, known as general food law, sets the general principles and requirements of food law across the EU.",
-        "Under general food law, food that is unsafe must not be placed on the market.",
-        "Food businesses must be able to trace food one step back to their supplier and one step forward to their customers.",
-        "General food law set up the European Food Safety Authority and the Rapid Alert System for Food and Feed.",
-        "Risk analysis under general food law has three parts: risk assessment, risk management and risk communication."
-      ]
+        "The Food Safety Authority of Ireland Act 1998 provides the Irish legal framework for food safety. It set up the FSAI and gave it the functions of coordinating food safety law and its enforcement.",
+        "The 1998 Act also names the official agencies that carry out controls under service contracts.",
+        "Regulation (EC) No 178/2002 sets the general principles and requirements of food law across the EU.",
+        "Under general food law, food that is unsafe must not be placed on the market, and responsibility for safety rests with the food business.",
+        "Food businesses must be able to trace food one step back to their supplier and one step forward to their customers, so that unsafe food can be found and withdrawn quickly.",
+        "General food law set up the European Food Safety Authority (EFSA) and the Rapid Alert System for Food and Feed.",
+        "Risk analysis under general food law has three parts: risk assessment (scientific, carried out by EFSA), risk management (decisions by the authorities) and risk communication. The precautionary principle may apply where the science is uncertain.",
+        "The result is a common high level of protection of health and consumer interests from farm to fork, with fast withdrawal of unsafe food."
+      ],
+      "tip": "At Higher Level expect a three- or four-mark point on this instrument. Give its name, what it requires and who enforces it. Do not mix general food law (178/2002) with official controls (2017/625)."
     },
     {
       "h": "Official controls (Higher Level only)",
+      "b": "Rules only protect consumers if someone checks that businesses follow them. Regulation (EU) 2017/625 sets out the rules for official controls, which are checks by public authorities that food businesses comply with food law at every stage of the food chain.",
       "points": [
-        "Regulation (EU) 2017/625 sets out the rules for official controls, which check that food businesses comply with food law at every stage of the food chain.",
-        "It is given effect in Ireland by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020.",
-        "Official controls include inspection, sampling, analysis and audit.",
-        "Official controls are carried out by competent authorities, which in Ireland are the FSAI and the official agencies it contracts.",
-        "Official controls are carried out on a risk basis, so that higher-risk businesses are checked more often.",
-        "Inspectors can take samples of food for testing as part of an official control."
-      ]
+        "Regulation (EU) 2017/625 is given effect in Ireland by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020.",
+        "Official controls include inspection, sampling and analysis, and audit (a formal check of a business's records and systems).",
+        "Official controls are regular and risk-based, so that higher-risk businesses are checked more often. They are carried out without prior warning in most cases.",
+        "Inspectors can take samples of food for testing as part of an official control.",
+        "In Ireland the FSAI is the competent authority with overall responsibility. The official agencies (HSE, DAFM, SFPA and local authorities) carry out controls on its behalf under service contracts.",
+        "How this protects the consumer: independent checks on all food businesses, with enforcement action such as improvement notices, closure and withdrawal where the law is broken."
+      ],
+      "tip": "At Higher Level expect a three- or four-mark point on this instrument. Give its name, what it requires and who enforces it: the FSAI is the competent authority, and the agencies act on its behalf."
     }
   ],
   "keyTerms": [

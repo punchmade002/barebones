@@ -5,81 +5,116 @@
   "syllabusRef": "1.3.8",
   "notes": [
     {
+      "h": "Why bacteria cause food poisoning (Higher Level only)",
+      "b": "Most bacteria in food are harmless or even useful, so only a few cause illness. Food poisoning is illness caused by eating food contaminated with pathogenic (disease-causing) bacteria or their toxins.",
+      "points": [
+        "Six environmental factors affect bacterial growth: food, moisture, warmth, oxygen requirement, pH and time. Protein-rich, moist foods are high risk because they give bacteria what they need to grow.",
+        "Most food poisoning bacteria favour a near-neutral pH, neither strongly acid nor strongly alkaline.",
+        "Under good conditions a bacterium divides by binary fission (splitting in two) about every 20 minutes, so numbers rise very quickly and a few bacteria can become millions within hours.",
+        "The danger zone, about 5 to 63 °C, is the range in which food poisoning bacteria multiply fastest. Below 5 °C growth slows down, and above 63 °C most bacteria stop multiplying and thorough cooking destroys them."
+      ],
+      "tip": "Name all six growth factors when asked what bacteria need to grow, and give the danger zone as 5 to 63 °C."
+    },
+    {
       "h": "Temperature groups of micro-organisms (Higher Level only)",
+      "b": "Micro-organisms are grouped by the temperature at which they grow best. This explains why the danger zone sits around body temperature.",
       "points": [
         "Psychrophiles grow best at about −5 to 20 °C, in cold conditions such as refrigerated food.",
-        "Mesophiles grow best at about 20 to 45 °C; most food poisoning bacteria are mesophiles.",
-        "Salmonella has an optimum growth temperature of about 37 °C.",
+        "Mesophiles grow best at about 20 to 45 °C. Most food poisoning bacteria are mesophiles, which is why the danger zone is close to body temperature.",
+        "Salmonella has an optimum (best) growth temperature of about 37 °C, which is normal body temperature.",
         "Thermophiles grow best at about 45 to 75 °C, in hot environments.",
         "The danger zone, about 5 to 63 °C, is the range in which mesophilic food poisoning bacteria multiply rapidly."
-      ]
+      ],
+      "tip": "The groups describe where a micro-organism grows best, not the temperature that kills it. Give the three ranges with each group name."
     },
     {
       "h": "Oxygen requirements (Higher Level only)",
+      "b": "Micro-organisms also differ in their need for oxygen. This decides which foods and storage conditions suit each one.",
       "points": [
         "Aerobic micro-organisms require oxygen to survive and grow; moulds are aerobic.",
-        "Anaerobic micro-organisms thrive without oxygen; Clostridium botulinum is an example.",
-        "Facultative micro-organisms adapt to either aerobic or anaerobic conditions; Salmonella, Staphylococcus aureus and yeast are facultative."
-      ]
+        "Anaerobic micro-organisms thrive without oxygen, so sealed foods suit them; Clostridium botulinum is an example.",
+        "Facultative micro-organisms adapt to either aerobic or anaerobic conditions, so they can grow with or without oxygen; Salmonella, Staphylococcus aureus and yeast are facultative."
+      ],
+      "tip": "A question on aerobic, anaerobic and facultative micro-organisms wants a definition and an example for each term."
     },
     {
       "h": "Salmonella (Higher Level only)",
-      "b": "Salmonella is a common infectious food poisoning bacterium.",
+      "b": "Salmonella is a common infectious food poisoning bacterium, meaning the illness comes from eating the living bacteria themselves.",
       "points": [
-        "Structure: a rod-shaped, Gram-negative bacterium that does not form spores; it reproduces by binary fission.",
-        "Habitat and sources: the intestines of humans, animals and birds; faeces; polluted water; unwashed hands.",
+        "Structure: a rod-shaped, Gram-negative bacterium that does not form spores (tough resting cells). It reproduces by binary fission.",
+        "Habitat and sources: the intestines of humans, animals and birds; faeces; polluted water; unwashed hands, which carry it onto food.",
         "High-risk foods: raw or undercooked poultry, meat, fish and eggs; unpasteurised milk and dairy products.",
-        "Growth: needs food, moisture and time, and favours a near-neutral pH.",
-        "Incubation period: usually 12 to 72 hours after eating contaminated food.",
+        "Growth: needs food, moisture and time, and favours a near-neutral pH. It is a mesophile with an optimum of about 37 °C, and it is facultative.",
+        "Incubation period: usually about 12 to 36 hours after eating contaminated food, with a wider range of 12 to 72 hours.",
         "Symptoms: diarrhoea, nausea, vomiting, abdominal pain and fever."
-      ]
+      ],
+      "tip": "Salmonella is infectious, not toxic, so do not call it toxic. In a detailed account give its shape, Gram reaction, spores, habitat, growth conditions, binary fission, high-risk foods and symptoms."
     },
     {
       "h": "Staphylococcus aureus (Higher Level only)",
-      "b": "Staphylococcus aureus is a common toxic food poisoning bacterium.",
+      "b": "Staphylococcus aureus is a common toxic food poisoning bacterium. It makes a poison in the food as it grows, and the poison causes the illness.",
       "points": [
-        "Structure: a Gram-positive, spherical cell that forms grape-like clusters; it does not form spores.",
-        "Habitat and sources: the skin, nose and throat of humans and their hair; infected cuts and boils; it spreads to food by handling.",
+        "Structure: a Gram-positive, spherical cell (a coccus) that forms grape-like clusters; it does not form spores.",
+        "Habitat and sources: the skin, nose and throat of humans and their hair; infected cuts and boils. It spreads to food by handling.",
         "High-risk foods: cooked meats, poultry, ham, egg products, cream-filled cakes, custard and egg or potato salads made with mayonnaise.",
-        "Growth: a mesophile that grows at about 37 °C and tolerates salt and sugar better than most bacteria.",
-        "Toxin: produces an enterotoxin in food; the toxin is heat-stable and is not destroyed by normal cooking.",
-        "Incubation period: about 1 to 6 hours, often around 2 hours.",
+        "Growth: a mesophile that grows at about 37 °C and is facultative. It tolerates salt and sugar better than most bacteria.",
+        "Toxin: it produces an enterotoxin (a toxin that acts on the gut) in food. The toxin is heat-stable, so it is not destroyed by normal cooking.",
+        "Incubation period: short, usually about 2 to 4 hours, within a wider range of about 1 to 6 hours.",
         "Symptoms: sudden nausea, vomiting, abdominal cramps and diarrhoea."
-      ]
+      ],
+      "tip": "Staphylococcus aureus is toxic. It is the toxin that survives cooking, so do not write that the bacterium itself is not killed by cooking."
     },
     {
       "h": "Clostridium botulinum (Higher Level only)",
-      "b": "Clostridium botulinum is a toxic food poisoning bacterium that produces a very potent neurotoxin.",
+      "b": "Clostridium botulinum is a toxic food poisoning bacterium that produces a very potent neurotoxin (a poison that attacks the nerves). It is rare but dangerous.",
       "points": [
-        "Structure: a rod-shaped, Gram-positive, spore-forming bacterium that is an obligate anaerobe.",
+        "Structure: a rod-shaped, Gram-positive, spore-forming bacterium that is an obligate anaerobe, meaning it can only grow where there is no oxygen.",
         "Habitat and sources: soil and water, from which its spores reach vegetables and other foods.",
-        "High-risk foods: home-canned low-acid vegetables, vacuum-packed or canned foods, cured meats, and honey given to infants.",
-        "Growth: multiplies in sealed, low-acid foods where no oxygen is present.",
-        "Toxin: a neurotoxin that blocks nerve impulses to muscles, causing paralysis; the toxin is destroyed by boiling, but the spores survive ordinary cooking.",
+        "High-risk foods: home-canned low-acid vegetables, badly processed canned or vacuum-packed foods, cured meats, and honey, which must not be given to babies under one year.",
+        "Growth: it multiplies in sealed, low-acid foods where no oxygen is present, because these are the conditions it needs.",
+        "Toxin: a neurotoxin that blocks nerve signals to muscles, causing paralysis. The toxin is destroyed by boiling for about 10 minutes, but the spores survive ordinary cooking.",
         "Incubation period: typically 12 to 36 hours after eating contaminated food.",
-        "Symptoms: double vision, drooping eyelids, difficulty swallowing and speaking, and breathing difficulties."
-      ]
+        "Symptoms: double vision, drooping eyelids, difficulty swallowing and speaking, muscle weakness, paralysis and breathing difficulties; it can be fatal."
+      ],
+      "tip": "Spores are not the toxin. Botulinum spores survive ordinary cooking, which is why home canning of low-acid food is risky."
+    },
+    {
+      "h": "Other food poisoning bacteria (Higher Level only)",
+      "b": "A question may ask for any common strain, so it helps to know a few more with one typical high-risk food each.",
+      "points": [
+        "Listeria is infectious. It is found in pâté, coleslaw, soft cheese and smoked fish, and it grows at fridge temperature. It is serious for pregnant women, newborns and the elderly.",
+        "E. coli is infectious. High-risk foods are undercooked minced meat, polluted water and unpasteurised milk.",
+        "Campylobacter is infectious. High-risk foods are raw poultry and unpasteurised milk.",
+        "Bacillus cereus is linked to cooked rice and reheated rice.",
+        "Clostridium perfringens is toxic. High-risk foods are stews, gravies and large cooked joints that cool slowly."
+      ],
+      "tip": "For a short question naming bacteria with a high-risk food, pair them correctly: Salmonella with eggs or poultry, E. coli with meat or polluted water, Listeria with pâté or coleslaw, C. botulinum with canned food, Bacillus cereus with cooked rice."
     },
     {
       "h": "Infectious and toxic food poisoning compared (Higher Level only)",
-      "b": "Incubation period is the time between eating contaminated food and the appearance of symptoms.",
+      "b": "Food poisoning falls into two types, depending on whether the harm comes from the bacteria or from their toxin. Incubation period is the time between eating contaminated food and the appearance of the first symptoms.",
       "points": [
-        "Infectious food poisoning: caused by eating food containing large numbers of living pathogenic bacteria, which multiply in the body.",
+        "Infectious food poisoning: caused by eating food containing large numbers of living pathogenic bacteria, which multiply in the gut.",
         "Infectious food poisoning: the bacteria release endotoxins, which are made inside their cells and released when the cells die.",
-        "Infectious food poisoning: endotoxins and bacteria are easily destroyed by proper cooking and reheating; incubation is usually more than 12 hours; examples are Salmonella, E. coli, Campylobacter and Listeria.",
-        "Toxic food poisoning: caused by eating food that already contains exotoxin, produced by bacteria as they grow in the food.",
-        "Toxic food poisoning: exotoxins are hard to destroy and may need boiling for 30 minutes; symptoms appear quickly, often within 2 hours; examples are Staphylococcus aureus and Clostridium botulinum."
-      ]
+        "Infectious food poisoning: endotoxins and bacteria are easily destroyed by proper cooking and reheating, so the risk comes from undercooked food. Incubation is usually more than 12 hours; examples are Salmonella, E. coli, Campylobacter and Listeria.",
+        "Toxic food poisoning: caused by eating food that already contains exotoxin, a poison produced by bacteria as they grow in the food.",
+        "Toxic food poisoning: exotoxins are hard to destroy and may need boiling for 30 minutes, so cooking may not make the food safe. Symptoms appear quickly, often within 2 hours; examples are Staphylococcus aureus, Clostridium botulinum and Clostridium perfringens.",
+        "In one line each: infectious means the bacteria themselves are eaten, onset is slower and cooking destroys them; toxic means the toxin is eaten, onset is fast and the toxin survives cooking."
+      ],
+      "tip": "This is the most examined point. Infectious: you eat the bacteria, endotoxin is in the cell and released at death, and onset is slow. Toxic: you eat the toxin, exotoxin is made in the food, and onset is fast. Do not swap the toxin words, and do not define incubation period as how long the symptoms last."
     },
     {
       "h": "Contributing factors in food poisoning (Higher Level only)",
+      "b": "Outbreaks usually trace back to a few handling failures that let bacteria reach food or multiply in it. Each one links to the growth conditions bacteria need.",
       "points": [
         "Undercooked poultry or minced meat allows surviving bacteria to cause illness.",
         "Cooked food left at room temperature allows bacteria to multiply in the danger zone.",
         "Cross-contamination from raw meat or poultry transfers bacteria to food that is eaten without cooking.",
-        "Food handlers with poor personal hygiene, such as not washing hands after using the toilet, transfer bacteria to food.",
-        "Contaminated water or unpasteurised dairy products introduce bacteria before any cooking takes place."
-      ]
+        "Food handlers with poor personal hygiene or illness, such as not washing hands after using the toilet, transfer bacteria to food.",
+        "Contaminated water or unpasteurised dairy products introduce bacteria before any cooking takes place.",
+        "Slow cooling of large batches, inadequate reheating and preparing food too far in advance also give bacteria time to grow or survive."
+      ],
+      "tip": "In a described case, pick out the temperature, time and handling failure and link each to the growth conditions. Look for failures in storage, cooking, cross-contamination and hygiene."
     }
   ],
   "keyTerms": [
