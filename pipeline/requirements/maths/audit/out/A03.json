@@ -1,0 +1,149 @@
+[
+ {
+  "skill": "cubic-unknown-coefficient",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Uses the factor theorem once, then factorises the cubic and reads off roots instead of solving for two unknown coefficients.",
+  "method": "Substitutes each given factor's root into f(x)=0 to get two equations, then solves them simultaneously for the unknown coefficients."
+ },
+ {
+  "skill": "cubic-unknown-coefficient",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Compares coefficients of an expanded product instead of using the factor theorem.",
+  "method": "Substitutes each given factor's root into f(x)=0 to get two equations, then solves them simultaneously for the unknown coefficients."
+ },
+ {
+  "skill": "cx-conjugate-properties",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Proves the conjugate-of-a-sum rule in general with a, b, c, d rather than computing with numbers.",
+  "method": "Takes specific complex numbers, calculates the conjugate of a product/sum both ways and compares the results."
+ },
+ {
+  "skill": "cx-conjugate-root",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Finds unknown coefficients p and q using sum and product of roots rather than forming and dividing by a quadratic factor to find all roots.",
+  "method": "Uses the conjugate root theorem to write the quadratic factor from the pair, divides it into the polynomial and reads off the remaining root."
+ },
+ {
+  "skill": "num-decimal-fraction",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Converts a recurring decimal using let x = ..., multiply and subtract, instead of writing over a power of 10 and simplifying.",
+  "method": "Writes a terminating decimal over a power of 10 and divides top and bottom by the common factor."
+ },
+ {
+  "skill": "num-prime-factors",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "A timing/LCM word problem solved by listing multiples, with no prime factorisation.",
+  "method": "Writes each number as a product of primes and uses the common primes (lowest powers) to find the HCF."
+ },
+ {
+  "skill": "num-prime-factors",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Counts factors of prime powers instead of factorising a number into primes.",
+  "method": "Writes each number as a product of primes and uses the common primes (lowest powers) to find the HCF."
+ },
+ {
+  "skill": "num-surds",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Multiplies equations and takes a square root in a volume context, with no surd simplification or rationalising.",
+  "method": "Simplifies surds by writing each as a perfect square times a surd, then adds like surds (or rationalises a denominator)."
+ },
+ {
+  "skill": "diff-curve-sketch",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Uses given turning-point y-values and a vertical shift to find a range for a, with no differentiation.",
+  "method": "Differentiates, sets dy/dx = 0, finds y-values and classifies the turning points with the second derivative."
+ },
+ {
+  "skill": "diff-curve-sketch",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Reads the shape of a derivative graph in a context and compares end values rather than finding and classifying turning points of a formula.",
+  "method": "Differentiates, sets dy/dx = 0, finds y-values and classifies the turning points with the second derivative."
+ },
+ {
+  "skill": "diff-point-given-slope",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Finds tangents by drawing and reading x-values from a graph instead of differentiating and solving an equation.",
+  "method": "Differentiates the curve, sets the derivative equal to the required slope, solves for x and finds y."
+ },
+ {
+  "skill": "diff-sketch-derivative",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Differentiates and finds the minimum of f' by calculus, rather than reading f's graph to get the key points of f'.",
+  "method": "Reads gradients at key points of f (turning points give roots of f') and plots them to sketch f'."
+ },
+ {
+  "skill": "fin-estimate",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Tests which of several statements is sensible by dividing, rather than computing an exact value then rounding to estimate.",
+  "method": "Calculates the exact value, rounds each number to estimate, and compares the two."
+ },
+ {
+  "skill": "fin-mortgage-derive",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "A numerical calculation of a repayment with a calculator, rather than deriving the formula algebraically.",
+  "method": "Writes the loan as the sum of repayments in today's money, sums the geometric series algebraically and makes A the subject."
+ },
+ {
+  "skill": "fn-graph-log",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Finds an x-intercept by setting y = 0 and converting to index form, rather than building a table and plotting.",
+  "method": "Substitutes values into the log function to complete a table, then plots the points and joins them with a smooth curve."
+ },
+ {
+  "skill": "fn-injective-surjective",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Uses arrow diagrams and composite evaluation, including a new not-surjective check, instead of algebraically assuming equal outputs.",
+  "method": "Assumes f(a) = f(b) and solves algebraically to show the function is injective."
+ },
+ {
+  "skill": "geo-cor1",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Finds a triangle's area with Heron's formula, which is a different skill, with Corollary 1 only as the last step.",
+  "method": "Finds the angles/sides of a parallelogram by applying Corollary 1 that a diagonal splits it into two congruent triangles."
+ },
+ {
+  "skill": "geo-thm11",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "A proof set-up (draw the diagram, state given and to prove) rather than a numerical application of the theorem.",
+  "method": "Applies Theorem 11 to equal segments on the transversals and adds or solves for lengths."
+ },
+ {
+  "skill": "geo-thm12",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Uses Pythagoras and parallel-line reasoning to find lengths, with no direct ratio set-up from Theorem 12.",
+  "method": "States the ratio of the divided sides from Theorem 12 and solves for the unknown length."
+ },
+ {
+  "skill": "logic-terms-hl",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Decides whether a statement is true or false with a counter-example, rather than proving by contradiction.",
+  "method": "Assumes the opposite, reasons to a contradiction and states it."
+ },
+ {
+  "skill": "log-definition",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Explains what log_6 m means and compares m with 6, with no conversion or solving.",
+  "method": "Converts between log form and index form and solves for the unknown."
+ }
+]
