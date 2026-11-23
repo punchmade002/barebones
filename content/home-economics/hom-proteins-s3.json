@@ -5,41 +5,58 @@
   "syllabusRef": "1.1.2",
   "notes": [
     {
-      "h": "Simple proteins",
-      "b": "Simple proteins yield only amino acids when they are hydrolysed. They are classed by source as animal or plant proteins.",
+      "h": "How proteins are classified",
+      "b": "There are thousands of different proteins, so they are sorted into groups by what they are made of and where they come from. The two main groups are simple proteins and conjugated proteins.",
       "points": [
-        "Animal simple proteins are found in meat, fish, eggs, milk, cheese and yoghurt.",
-        "Plant simple proteins are found in cereals, pulses, soya beans, nuts and seeds.",
-        "Settings: a poster with one named food example for each class of protein."
-      ]
+        "Simple proteins are made of amino acids only, while conjugated proteins are a protein part joined to a non-protein part. This is the split to use first in any classification answer.",
+        "A third group, derived proteins, is formed when chemical action or an enzyme (a biological catalyst) acts on a protein that already exists. An example is caseinogen digested by rennin to give casein, and gelatine made from collagen.",
+        "Proteins can also be classed by origin as animal proteins (high biological value) or plant proteins (low biological value). Exam schemes accept this as an alternative way to classify."
+      ],
+      "tip": "For a classification answer, give each class a one-line definition plus a named example. Simple and conjugated is the safest pair to use, and animal/plant (high or low biological value) is also accepted."
+    },
+    {
+      "h": "Simple proteins",
+      "b": "Simple proteins are the plain proteins: break one down by hydrolysis (splitting with water) and you get amino acids and nothing else. They are classed by source as animal or plant proteins.",
+      "points": [
+        "Animal simple proteins are found in meat, fish, eggs, milk, cheese and yoghurt, so any dairy food or flesh food is a source.",
+        "Plant simple proteins are found in cereals, pulses, soya beans, nuts and seeds, so vegetarian diets get their protein from these foods.",
+        "Poster setting: give one named food example for each class of protein, for example egg white for an animal simple protein and wheat for a plant simple protein."
+      ],
+      "tip": "Simple does not mean easy or small. It means made of amino acids only, with no non-protein part."
     },
     {
       "h": "Conjugated proteins",
-      "b": "A conjugated protein is a protein part combined with a non-protein part, called the prosthetic group.",
+      "b": "A conjugated protein is a protein part combined with a non-protein part, called the prosthetic group. The type of prosthetic group decides which sub-group the protein belongs to.",
       "points": [
-        "Lipoproteins: protein combined with a lipid, found in cell membranes and egg yolk.",
+        "Lipoproteins: protein combined with a lipid (fat), found in cell membranes and egg yolk.",
         "Phosphoproteins: protein combined with a phosphate group, such as casein in milk.",
         "Nucleoproteins: protein combined with a nucleic acid, found in chromosomes and cell nuclei.",
-        "Chromoproteins: protein combined with a coloured non-protein part, such as haemoglobin in blood, whose prosthetic group is haem.",
-        "On hydrolysis a conjugated protein yields amino acids together with its non-protein part, unlike a simple protein."
-      ]
+        "Chromoproteins: protein combined with a coloured non-protein part, such as haemoglobin in blood. Its prosthetic group is haem, which contains iron and gives blood its colour.",
+        "On hydrolysis a conjugated protein yields amino acids together with its non-protein part, unlike a simple protein, which yields amino acids only."
+      ],
+      "tip": "Learn one named example and its food or body source for each of the four conjugated types. Casein is a phosphoprotein (conjugated), not a simple protein like albumin, and haemoglobin is a chromoprotein because of its haem group."
     },
     {
       "h": "Fibrous and globular animal proteins (Higher Level only)",
+      "b": "Simple animal proteins divide again according to the shape of their chains. The shape decides whether the protein is tough and structural or compact and soluble.",
       "points": [
-        "Fibrous animal proteins have long chains arranged in strands, which gives tough structural tissue.",
-        "Examples of fibrous proteins: collagen in connective tissue, elastin in elastic ligaments and myosin in muscle.",
-        "Globular animal proteins have compact, roughly spherical chains, and most of them dissolve in water.",
-        "Examples of globular proteins: albumin in egg white, lactalbumin in milk and myoglobin in meat."
-      ]
+        "Fibrous animal proteins have long chains arranged in strands, which gives tough, insoluble structural tissue.",
+        "Examples of fibrous proteins: collagen in connective tissue (found in meat and fish), elastin in elastic ligaments and myosin in muscle. Keratin, in hair and nails, is also fibrous.",
+        "Globular animal proteins have compact, roughly spherical chains, and most of them dissolve in water because the folded shape suits it.",
+        "Examples of globular proteins: albumin (ovalbumin) in egg white, lactalbumin in milk and myoglobin in meat."
+      ],
+      "tip": "A higher-level table asks for group, sub-group, example and food source, with six rows as the usual target. Put myosin under fibrous and albumin under simple globular, and do not swap casein and albumin."
     },
     {
       "h": "Glutelins and prolamines (Higher Level only)",
+      "b": "Simple plant proteins divide into sub-groups too, and the two to know are the main proteins of cereal grains. They are told apart by what they dissolve in.",
       "points": [
-        "Glutelins and prolamines are the main protein types of cereal grains, and they are classed as plant simple proteins.",
-        "Glutelins dissolve in dilute acid or alkali but not in water or alcohol; they occur in wheat as glutenin and in rice as oryzenin.",
-        "Prolamines dissolve in 70 to 80 per cent alcohol but not in water; they occur in wheat as gliadin and in maize as zein."
-      ]
+        "Glutelins and prolamines are the main protein types of cereal grains such as wheat, rice and maize, and they are classed as plant simple proteins.",
+        "Glutelins dissolve in dilute acid or alkali but not in water or alcohol. They occur in wheat as glutenin and in rice as oryzenin.",
+        "Prolamines dissolve in 70 to 80 per cent alcohol but not in water. They occur in wheat as gliadin and in maize (corn) as zein.",
+        "When wheat flour is mixed with water, gliadin and glutenin together form gluten."
+      ],
+      "tip": "Gliadin is a prolamine and glutenin is a glutelin, and together they make gluten. Do not call gluten itself a prolamine. Gliadin and glutenin are the wheat proteins, and zein is maize."
     }
   ],
   "keyTerms": [
