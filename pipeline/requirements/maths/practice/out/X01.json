@@ -1,0 +1,516 @@
+[
+ {
+  "skill": "cx-quadratic",
+  "problems": [
+   {
+    "question": "Solve the equation $z(z + 6) = -34$, where $z \\in \\mathbb{C}$.\\nGive your answers in the form $a + bi$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write in the form $az^2 + bz + c = 0$",
+       "lines": [
+        {
+         "tex": "z(z+6) &= -34",
+         "sym": "Eq(z*(z+6), -34)"
+        },
+        {
+         "tex": "z^2 + 6z + 34 &= 0",
+         "sym": "Eq(z**2 + 6*z + 34, 0)"
+        },
+        {
+         "text": "Here $a = 1$, $b = 6$, $c = 34$."
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the quadratic formula",
+       "lines": [
+        {
+         "tex": "z &= \\frac{-6 \\pm \\sqrt{6^2 - 4(1)(34)}}{2(1)}",
+         "sym": "[(-6-sqrt(6**2-4*1*34))/2, (-6+sqrt(6**2-4*1*34))/2]",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Simplify under the square root",
+       "lines": [
+        {
+         "tex": "z &= \\frac{-6 \\pm \\sqrt{36 - 136}}{2}",
+         "sym": "[(-6-sqrt(36-136))/2, (-6+sqrt(36-136))/2]"
+        },
+        {
+         "tex": "&= \\frac{-6 \\pm \\sqrt{-100}}{2}",
+         "sym": "[(-6-sqrt(-100))/2, (-6+sqrt(-100))/2]"
+        }
+       ]
+      },
+      {
+       "title": "Write the root using i",
+       "lines": [
+        {
+         "text": "$\\sqrt{-100} = \\sqrt{100} \\times \\sqrt{-1} = 10i$."
+        },
+        {
+         "tex": "z &= \\frac{-6 \\pm 10i}{2}",
+         "sym": "[(-6-10*I)/2, (-6+10*I)/2]"
+        }
+       ]
+      },
+      {
+       "title": "Divide each term by 2",
+       "lines": [
+        {
+         "tex": "z &= -3 \\pm 5i",
+         "sym": "[-3-5*I, -3+5*I]"
+        },
+        {
+         "text": "The roots are a conjugate pair."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "z = -3 + 5i \\text{ and } z = -3 - 5i"
+    },
+    "finalSym": "[-3-5*I, -3+5*I]",
+    "answerSym": "solve(Eq(z*(z+6), -34), z)"
+   }
+  ]
+ },
+ {
+  "skill": "ind-negative-fractional",
+  "problems": [
+   {
+    "question": "Evaluate $4^{-\\frac{3}{2}} \\times 27^{\\frac{2}{3}}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Evaluate $4^{-\frac{3}{2}}$",
+       "lines": [
+        {
+         "text": "Remove the negative index, then take the square root and cube."
+        },
+        {
+         "tex": "4^{-\\frac{3}{2}} &= \\frac{1}{4^{\\frac{3}{2}}}",
+         "sym": "Eq(4**Rational(-3,2), 1/4**Rational(3,2))",
+         "new": true
+        },
+        {
+         "tex": "4^{\\frac{3}{2}} &= \\left(\\sqrt{4}\\right)^3",
+         "sym": "Eq(4**Rational(3,2), sqrt(4)**3)",
+         "new": true
+        },
+        {
+         "tex": "&= 2^3 = 8",
+         "sym": "Eq(sqrt(4)**3, 8)"
+        },
+        {
+         "tex": "4^{-\\frac{3}{2}} &= \\frac{1}{8}",
+         "sym": "Eq(4**Rational(-3,2), Rational(1,8))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Evaluate $27^{\frac{2}{3}}$",
+       "lines": [
+        {
+         "text": "The denominator is the root and the numerator is the power."
+        },
+        {
+         "tex": "27^{\\frac{2}{3}} &= \\left(\\sqrt[3]{27}\\right)^2",
+         "sym": "Eq(27**Rational(2,3), (27**Rational(1,3))**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 3^2",
+         "sym": "Eq((27**Rational(1,3))**2, 3**2)"
+        },
+        {
+         "tex": "&= 9",
+         "sym": "Eq(3**2, 9)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the two values",
+       "lines": [
+        {
+         "tex": "4^{-\\frac{3}{2}} \\times 27^{\\frac{2}{3}} &= \\frac{1}{8} \\times 9",
+         "sym": "Eq(4**Rational(-3,2)*27**Rational(2,3), Rational(1,8)*9)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{9}{8}",
+         "sym": "Eq(Rational(1,8)*9, Rational(9,8))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{9}{8}"
+    },
+    "finalSym": "Rational(9,8)",
+    "answerSym": "4**Rational(-3,2)*27**Rational(2,3)"
+   }
+  ]
+ },
+ {
+  "skill": "stat-data-types",
+  "problems": [
+   {
+    "question": "A café records four variables for each customer.\nSize of coffee ordered (small, medium, large)\nNumber of sugars added\nTime taken to serve the customer\nType of milk (dairy, oat, soy)\nHow many of these variables are categorical?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Recall what categorical means",
+       "lines": [
+        {
+         "text": "Categorical data is sorted into groups, not counted or measured. It is ordinal if the groups have a natural order and nominal if they do not."
+        }
+       ]
+      },
+      {
+       "title": "Classify each variable",
+       "lines": [
+        {
+         "text": "Size of coffee: categorical ordinal (small, medium, large have an order)."
+        },
+        {
+         "text": "Type of milk: categorical nominal (no order)."
+        },
+        {
+         "text": "Number of sugars: numerical discrete. Time taken: numerical continuous."
+        }
+       ]
+      },
+      {
+       "title": "Count the categorical ones",
+       "lines": [
+        {
+         "tex": "\\text{Count} &= 1 + 1",
+         "sym": "1 + 1",
+         "new": true
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2"
+    },
+    "finalSym": "2",
+    "answerSym": "1 + 1"
+   }
+  ]
+ },
+ {
+  "skill": "trig-exact-values",
+  "problems": [
+   {
+    "question": "Write $\\tan 300^\\circ$ as an exact value in surd form.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the reference angle",
+       "lines": [
+        {
+         "text": "$300^\\circ$ is in the fourth quadrant."
+        },
+        {
+         "tex": "\\text{reference angle} &= 360^\\circ - 300^\\circ",
+         "sym": "360 - 300"
+        },
+        {
+         "tex": "&= 60^\\circ",
+         "sym": "60"
+        }
+       ]
+      },
+      {
+       "title": "Fix the sign",
+       "lines": [
+        {
+         "text": "Tangent is negative in the fourth quadrant."
+        },
+        {
+         "tex": "\\tan 300^\\circ &= -\\tan 60^\\circ",
+         "sym": "Eq(tan(5*pi/3), -tan(pi/3))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the exact value",
+       "lines": [
+        {
+         "text": "$\\tan 60^\\circ = \\dfrac{\\sqrt{3}}{1}$."
+        },
+        {
+         "tex": "&= -\\sqrt{3}",
+         "sym": "-sqrt(3)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-\\sqrt{3}"
+    },
+    "finalSym": "-sqrt(3)",
+    "answerSym": "tan(5*pi/3)"
+   }
+  ]
+ },
+ {
+  "skill": "circ-tangents-from-point",
+  "problems": [
+   {
+    "question": "The circle $c$ has equation $x^2 + y^2 = 20$.\\nThe point $P(10, 0)$ lies outside $c$.\\nFind the equations of the two tangents from $P$ to $c$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the line through $P(10, 0)$ with slope $m$",
+       "lines": [
+        {
+         "tex": "y &= m(x - 10)",
+         "sym": "Eq(y, m*(x-10))",
+         "new": true
+        },
+        {
+         "tex": "mx - y - 10m &= 0",
+         "sym": "Eq(m*x - y - 10*m, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Distance from the centre $(0, 0)$ equals the radius $\\sqrt{20}$",
+       "lines": [
+        {
+         "tex": "\\frac{|-10m|}{\\sqrt{m^2 + 1}} &= \\sqrt{20}",
+         "sym": "Eq(Abs(-10*m)/sqrt(m**2+1), sqrt(20))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Square both sides and solve",
+       "lines": [
+        {
+         "tex": "100m^2 &= 20(m^2 + 1)",
+         "sym": "Eq(100*m**2, 20*(m**2+1))"
+        },
+        {
+         "tex": "80m^2 &= 20",
+         "sym": "Eq(80*m**2, 20)"
+        },
+        {
+         "tex": "m^2 &= \\frac{1}{4}",
+         "sym": "Eq(m**2, Rational(1,4))"
+        },
+        {
+         "tex": "m &= \\frac{1}{2} \\text{ or } m = -\\frac{1}{2}",
+         "sym": "Or(Eq(m, Rational(1,2)), Eq(m, -Rational(1,2)))"
+        }
+       ]
+      },
+      {
+       "title": "Write each tangent",
+       "lines": [
+        {
+         "tex": "y &= \\frac{1}{2}(x - 10) \\text{ or } y = -\\frac{1}{2}(x - 10)",
+         "sym": "Or(Eq(y, Rational(1,2)*(x-10)), Eq(y, -Rational(1,2)*(x-10)))",
+         "new": true
+        },
+        {
+         "tex": "y &= \\frac{1}{2}x - 5 \\text{ or } y = -\\frac{1}{2}x + 5",
+         "sym": "Or(Eq(y, x/2 - 5), Eq(y, -x/2 + 5))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "y = \\frac{1}{2}x - 5 \\text{ and } y = -\\frac{1}{2}x + 5"
+    },
+    "finalSym": "[Eq(y, x/2 - 5), Eq(y, -x/2 + 5)]",
+    "answerSym": "[Eq(y, solve(Eq(Abs(-10*m)/sqrt(m**2+1), sqrt(20)), m)[1]*(x-10)), Eq(y, solve(Eq(Abs(-10*m)/sqrt(m**2+1), sqrt(20)), m)[0]*(x-10))]"
+   }
+  ]
+ },
+ {
+  "skill": "line-collinear",
+  "problems": [
+   {
+    "question": "The points $P(-1, 4)$, $Q(2, k)$ and $R(5, -2)$ are collinear.\\nFind the value of $k$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of PR",
+       "lines": [
+        {
+         "text": "Slope formula for $P(-1,4)$ and $R(5,-2)$."
+        },
+        {
+         "tex": "m_{PR} &= \\frac{-2-4}{5-(-1)}",
+         "sym": "(-2-4)/(5-(-1))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{-6}{6}",
+         "sym": "Rational(-6,6)"
+        },
+        {
+         "tex": "&= -1",
+         "sym": "-1"
+        }
+       ]
+      },
+      {
+       "title": "Find the slope of PQ",
+       "lines": [
+        {
+         "text": "Slope formula for $P(-1,4)$ and $Q(2,k)$."
+        },
+        {
+         "tex": "m_{PQ} &= \\frac{k-4}{2-(-1)}",
+         "sym": "(k-4)/(2-(-1))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{k-4}{3}",
+         "sym": "(k-4)/3"
+        }
+       ]
+      },
+      {
+       "title": "Make the slopes equal",
+       "lines": [
+        {
+         "text": "The points are collinear, so $m_{PQ} = m_{PR}$."
+        },
+        {
+         "tex": "\\frac{k-4}{3} &= -1",
+         "sym": "Eq((k-4)/3, -1)",
+         "new": true
+        },
+        {
+         "tex": "k - 4 &= -3",
+         "sym": "Eq(k-4, -3)"
+        },
+        {
+         "tex": "k &= 1",
+         "sym": "Eq(k, 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = 1"
+    },
+    "finalSym": "[1]",
+    "answerSym": "solve(Eq((k-4)/(2-(-1)), (-2-4)/(5-(-1))), k)"
+   }
+  ]
+ },
+ {
+  "skill": "line-from-distance",
+  "problems": [
+   {
+    "question": "The point $A$ is $(1, -2)$ and the point $B$ is $(6, 3)$.\\nA line through $A$ is a distance of $1$ from $B$.\\nFind the slopes of the two possible lines.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the line through A",
+       "lines": [
+        {
+         "text": "Slope $m$ through $(1,-2)$: $y + 2 = m(x - 1)$."
+        },
+        {
+         "tex": "y + 2 &= m(x-1)",
+         "sym": "Eq(y+2, m*(x-1))",
+         "new": true
+        },
+        {
+         "tex": "mx - y - m - 2 &= 0",
+         "sym": "Eq(m*x - y - m - 2, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Use the distance formula",
+       "lines": [
+        {
+         "text": "Distance from $B(6,3)$ equals $1$."
+        },
+        {
+         "tex": "\\frac{|6m - 3 - m - 2|}{\\sqrt{m^2+1}} &= 1",
+         "sym": "Eq(Abs(6*m-3-m-2)/sqrt(m**2+1), 1)",
+         "new": true
+        },
+        {
+         "tex": "\\frac{|5m - 5|}{\\sqrt{m^2+1}} &= 1",
+         "sym": "Eq(Abs(5*m-5)/sqrt(m**2+1), 1)"
+        },
+        {
+         "tex": "(5m-5)^2 &= m^2+1",
+         "sym": "Eq((5*m-5)**2, m**2+1)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Form the quadratic",
+       "lines": [
+        {
+         "tex": "25m^2 - 50m + 25 &= m^2 + 1",
+         "sym": "Eq(25*m**2-50*m+25, m**2+1)"
+        },
+        {
+         "tex": "24m^2 - 50m + 24 &= 0",
+         "sym": "Eq(24*m**2-50*m+24, 0)"
+        },
+        {
+         "tex": "12m^2 - 25m + 12 &= 0",
+         "sym": "Eq(12*m**2-25*m+12, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Solve with the quadratic formula",
+       "lines": [
+        {
+         "tex": "m &= \\frac{25 \\pm \\sqrt{625 - 576}}{24}",
+         "sym": "[(25-sqrt(625-576))/24, (25+sqrt(625-576))/24]",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{25 \\pm 7}{24}",
+         "sym": "[(25-7)/24, (25+7)/24]"
+        },
+        {
+         "tex": "&= \\frac34 \\text{ or } \\frac43",
+         "sym": "[Rational(3,4), Rational(4,3)]"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m = \\frac34 \\text{ or } m = \\frac43"
+    },
+    "finalSym": "[Rational(3,4), Rational(4,3)]",
+    "answerSym": "solve(Eq(Abs(6*m-3-m-2)/sqrt(m**2+1), 1), m)"
+   }
+  ]
+ }
+]
