@@ -1,0 +1,858 @@
+{
+ "bio17-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s2.0.0",
+    "strength": "helpful",
+    "why": "gene as protein code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.0",
+    "strength": "helpful",
+    "why": "two DNA strands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.2.6",
+    "strength": "essential",
+    "why": "complementary strands",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.0.2",
+    "strength": "helpful",
+    "why": "nucleotide structure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.2",
+    "strength": "essential",
+    "why": "RNA polymerase building strand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codon definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.6.4",
+    "strength": "helpful",
+    "why": "mRNA role",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.4",
+    "strength": "helpful",
+    "why": "mRNA as the copy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.7.1",
+    "strength": "helpful",
+    "why": "amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.2.0",
+    "strength": "essential",
+    "why": "anticodon pairs with codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.0",
+    "strength": "helpful",
+    "why": "tRNA carries amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.6.5",
+    "strength": "helpful",
+    "why": "rRNA forms ribosome",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.7.4",
+    "strength": "essential",
+    "why": "peptide bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s2.1.3",
+    "strength": "helpful",
+    "why": "rRNA in ribosome",
+    "confidence": "high"
+   },
+   {
+    "id": "bio17-s2.1.1",
+    "strength": "helpful",
+    "why": "tRNA binding",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.5",
+    "strength": "helpful",
+    "why": "ribosome structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.5",
+    "strength": "helpful",
+    "why": "ribosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "essential",
+    "why": "complementary base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.2",
+    "strength": "essential",
+    "why": "RNA polymerase unwinding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.1",
+    "strength": "essential",
+    "why": "template strand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.6.1",
+    "strength": "essential",
+    "why": "U pairs with A",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.2",
+    "strength": "helpful",
+    "why": "RNA polymerase joins nucleotides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.1",
+    "strength": "helpful",
+    "why": "DNA unchanged",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.2.3",
+    "strength": "helpful",
+    "why": "RNA polymerase moving",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.4",
+    "strength": "helpful",
+    "why": "mRNA carries code out",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.2.2",
+    "strength": "helpful",
+    "why": "labels from transcription steps",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.0",
+    "strength": "helpful",
+    "why": "tRNA carries amino acid",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.6.2",
+    "strength": "essential",
+    "why": "RNA folds and base-pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.3.0",
+    "strength": "helpful",
+    "why": "folded tRNA shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.0",
+    "strength": "helpful",
+    "why": "tRNA carries amino acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.2.0",
+    "strength": "essential",
+    "why": "anticodon definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codon of three bases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s2.3.2",
+    "strength": "essential",
+    "why": "amino acid attachment site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.3.4",
+    "strength": "helpful",
+    "why": "three-base codon reading",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.3.0",
+    "strength": "helpful",
+    "why": "tRNA structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.7.5",
+    "strength": "helpful",
+    "why": "polypeptide chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.1.0",
+    "strength": "essential",
+    "why": "start codon AUG",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s2.4.0",
+    "strength": "essential",
+    "why": "start codon pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.1",
+    "strength": "essential",
+    "why": "anticodon pairs with codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.7.4",
+    "strength": "essential",
+    "why": "peptide bond condensation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.4.3",
+    "strength": "helpful",
+    "why": "peptide bond joins amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.4.b",
+    "strength": "helpful",
+    "why": "translation start steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.4.2",
+    "strength": "helpful",
+    "why": "tRNA positions in ribosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.5.0",
+    "strength": "helpful",
+    "why": "ribosome move exposes codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.5.1",
+    "strength": "helpful",
+    "why": "repeating cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s3.1.1",
+    "strength": "essential",
+    "why": "stop codons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.5.3",
+    "strength": "helpful",
+    "why": "stop codon ends translation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.5",
+    "strength": "helpful",
+    "why": "ribosome translating mRNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.3.2",
+    "strength": "helpful",
+    "why": "ATP attaches amino acid",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s2.4.3",
+    "strength": "helpful",
+    "why": "peptide bond forming",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s2.1.1",
+    "strength": "helpful",
+    "why": "sequence determines folding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s2.1.1",
+    "strength": "helpful",
+    "why": "sequence determines folding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.8.0",
+    "strength": "helpful",
+    "why": "protein structure bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.8.1",
+    "strength": "helpful",
+    "why": "quaternary structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s2.1.2",
+    "strength": "helpful",
+    "why": "shape determines function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.6.1",
+    "strength": "essential",
+    "why": "bonds folding the chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s2.1.7",
+    "strength": "helpful",
+    "why": "ribosomes on rough ER",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.4.3",
+    "strength": "helpful",
+    "why": "bacterial DNA in cytoplasm",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.2.b",
+    "strength": "helpful",
+    "why": "transcription base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.4",
+    "strength": "helpful",
+    "why": "mRNA product",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.1",
+    "strength": "helpful",
+    "why": "template strand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.2",
+    "strength": "essential",
+    "why": "RNA polymerase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.7.1",
+    "strength": "helpful",
+    "why": "ribose vs deoxyribose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.0.5",
+    "strength": "helpful",
+    "why": "mRNA broken down",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.2.2",
+    "strength": "essential",
+    "why": "complementary RNA pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.0.1",
+    "strength": "essential",
+    "why": "codons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.1",
+    "strength": "essential",
+    "why": "anticodon pairs with codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s3.3.2",
+    "strength": "helpful",
+    "why": "using codon table",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.5.3",
+    "strength": "helpful",
+    "why": "stop codon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.8.b",
+    "strength": "helpful",
+    "why": "five-step method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s2.8.0",
+    "strength": "essential",
+    "why": "writing mRNA from template",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.8.2",
+    "strength": "essential",
+    "why": "anticodon method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.8.3",
+    "strength": "helpful",
+    "why": "codon table lookup",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.4.3",
+    "strength": "helpful",
+    "why": "peptide bond count",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio17-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.2.6",
+    "strength": "helpful",
+    "why": "mRNA moves to ribosome",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio17-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.1.1",
+    "strength": "helpful",
+    "why": "tRNA anticodon and amino acid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s2.4.3",
+    "strength": "helpful",
+    "why": "peptide bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio17-s2.10.3": {
+  "cost": 1,
+  "needs": []
+ }
+}
