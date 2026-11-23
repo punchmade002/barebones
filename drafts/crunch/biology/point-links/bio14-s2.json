@@ -1,0 +1,792 @@
+{
+ "bio14-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.5.3",
+    "strength": "essential",
+    "why": "photolysis releases oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.5.5",
+    "strength": "essential",
+    "why": "light energy trapped as ATP, hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.5.7",
+    "strength": "essential",
+    "why": "CO2 used in light-independent stage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s1.6.2",
+    "strength": "essential",
+    "why": "stage 2 reactions enzyme-controlled",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.4",
+    "strength": "helpful",
+    "why": "enzymes and optimum temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.6",
+    "strength": "essential",
+    "why": "limiting factor definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s1.1.0",
+    "strength": "essential",
+    "why": "respiration uses oxygen",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s2.0.1",
+    "strength": "helpful",
+    "why": "oxygen as product measured",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.1.0",
+    "strength": "essential",
+    "why": "net rate equals photosynthesis minus respiration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.1.0",
+    "strength": "helpful",
+    "why": "respiration takes in oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "essential",
+    "why": "fair test, one variable changed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.2",
+    "strength": "essential",
+    "why": "light intensity effect on rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.3",
+    "strength": "essential",
+    "why": "CO2 effect on rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.4",
+    "strength": "essential",
+    "why": "temperature effect via enzymes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s2.0.5",
+    "strength": "helpful",
+    "why": "denaturation above optimum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.1",
+    "strength": "helpful",
+    "why": "oxygen bubbles as measurable product",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s2.0.2",
+    "strength": "helpful",
+    "why": "light intensity as factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.3.0",
+    "strength": "essential",
+    "why": "independent variable structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.3.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio14-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.2.1",
+    "strength": "helpful",
+    "why": "hydrogencarbonate as CO2 source",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.3.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.3.6",
+    "strength": "helpful",
+    "why": "NaHCO3 supplies CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.3.2",
+    "strength": "helpful",
+    "why": "temperature as controlled variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats and means",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.3.7",
+    "strength": "helpful",
+    "why": "funnel, graduated tube apparatus",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.6",
+    "strength": "essential",
+    "why": "collecting gas volume method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.b",
+    "strength": "essential",
+    "why": "basic set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.3.0",
+    "strength": "helpful",
+    "why": "lamp distance sets light intensity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.5",
+    "strength": "essential",
+    "why": "counting method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.5.2",
+    "strength": "essential",
+    "why": "repeat counting procedure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.5.5",
+    "strength": "helpful",
+    "why": "lamp heating the water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.3.1",
+    "strength": "essential",
+    "why": "invalid if two variables change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.5.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio14-s2.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.5.6",
+    "strength": "essential",
+    "why": "inverse square law",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.3.6",
+    "strength": "helpful",
+    "why": "NaHCO3 supplies CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.3.2",
+    "strength": "helpful",
+    "why": "controlling other variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.5",
+    "strength": "helpful",
+    "why": "counting bubbles method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.b",
+    "strength": "helpful",
+    "why": "basic set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.5",
+    "strength": "helpful",
+    "why": "denaturation at high temperature",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.3.4",
+    "strength": "essential",
+    "why": "darkness control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats and means",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.9.0",
+    "strength": "helpful",
+    "why": "results table data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.0.2",
+    "strength": "essential",
+    "why": "light intensity effect on rate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s2.0.6",
+    "strength": "helpful",
+    "why": "limiting factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.0.3",
+    "strength": "essential",
+    "why": "CO2 effect on rate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s2.0.6",
+    "strength": "helpful",
+    "why": "limiting factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.0.5",
+    "strength": "essential",
+    "why": "denaturation above optimum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.6",
+    "strength": "essential",
+    "why": "limiting factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.3.5",
+    "strength": "helpful",
+    "why": "equipment list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.9.2",
+    "strength": "helpful",
+    "why": "light graph shape",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s2.9.4",
+    "strength": "helpful",
+    "why": "temperature graph shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.4",
+    "strength": "helpful",
+    "why": "larger sample, reliability",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s2.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s2.0.6",
+    "strength": "essential",
+    "why": "limiting factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.11.1",
+    "strength": "essential",
+    "why": "reading overlapping curves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.0.7",
+    "strength": "essential",
+    "why": "raising limiting factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.11.3",
+    "strength": "essential",
+    "why": "glasshouse factor control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s2.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.7",
+    "strength": "helpful",
+    "why": "volume more accurate than counting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.4",
+    "strength": "helpful",
+    "why": "darkened room set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.5.5",
+    "strength": "helpful",
+    "why": "bulb heating the plant",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.1.0",
+    "strength": "essential",
+    "why": "net rate after respiration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.6.0",
+    "strength": "helpful",
+    "why": "NaHCO3 supplies CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.12.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s2.4.5",
+    "strength": "helpful",
+    "why": "adjustment time before counting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s2.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats and means",
+    "confidence": "high"
+   }
+  ]
+ }
+}
