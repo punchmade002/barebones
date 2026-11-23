@@ -1,0 +1,1241 @@
+[
+ {
+  "skill": {
+   "id": "trig-graph",
+   "title": "Graph sin, cos and tan",
+   "level": "HL",
+   "input": "function + domain",
+   "output": "graph with period and range"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q9#(b)(iv)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Look at how steep the graph is",
+      "lines": [
+       {
+        "text": "A 1 degree change in $\\alpha$ moves $C$ most where the graph of $f$ is steepest."
+       }
+      ]
+     },
+     {
+      "title": "Compare the three diagrams",
+      "lines": [
+       {
+        "text": "In Diagram 1, $D$ is near $\\alpha = 0^\\circ$, where the graph is almost flat (a maximum), so $C$ hardly moves. In Diagram 3, the graph is also flatter at $D$, so $C$ moves less than in Diagram 2."
+       },
+       {
+        "text": "In Diagram 2, $D$ is between these, on the steep part of the graph, so $C$ moves most. Equivalently, the closer $\\angle CDO$ is to a right angle, the more a small turn of the crank pushes or pulls the rod."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Diagram 2}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q9#(b)(iii)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the axes",
+      "lines": [
+       {
+        "text": "Put $\\alpha$ from $0^\\circ$ to $360^\\circ$ on the horizontal axis and $f(\\alpha)$ from $0$ to $30$ on the vertical axis."
+       }
+      ]
+     },
+     {
+      "title": "Plot the five points from the table",
+      "lines": [
+       {
+        "text": "Plot $(0^\\circ, 30)$, $(90^\\circ, 18.28)$, $(180^\\circ, 10)$, $(270^\\circ, 18.28)$ and $(360^\\circ, 30)$."
+       }
+      ]
+     },
+     {
+      "title": "Join them with a smooth curve",
+      "lines": [
+       {
+        "text": "The curve starts at a maximum, falls to a minimum of $10$ at $180^\\circ$ and rises again, like an ordinary cosine wave."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Smooth curve through } (0^\\circ,30),\\ (90^\\circ,18.28),\\ (180^\\circ,10),\\ (270^\\circ,18.28),\\ (360^\\circ,30)"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "$\\sin x$ has period $2\\pi$."
+       },
+       {
+        "text": "The modulus flips the negative half of each wave upwards, so the graph repeats twice as often, in half the length."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{1}{2}(2\\pi)"
+       },
+       {
+        "tex": "&= \\pi"
+       }
+      ]
+     },
+     {
+      "title": "Start with the range of |sin x|",
+      "lines": [
+       {
+        "text": "$\\sin x$ lies between $-1$ and $1$, and the modulus removes the negatives."
+       },
+       {
+        "tex": "0 \\le |\\sin x| &\\le 1"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 4",
+      "lines": [
+       {
+        "tex": "0 \\le 4|\\sin x| &\\le 4"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 1",
+      "lines": [
+       {
+        "tex": "-1 \\le 4|\\sin x| - 1 &\\le 3"
+       },
+       {
+        "text": "This matches the graph: the lowest points are at $y = -1$ and the highest at $y = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = \\pi, \\quad \\text{Range} = [-1, 3]"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
+      "lines": [
+       {
+        "text": "Work in radians. $h(1) = 42$ is given, so we find the other eight values."
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 0",
+      "lines": [
+       {
+        "tex": "h(0) &= 72 - 60\\cos\\left(0\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 2",
+      "lines": [
+       {
+        "tex": "h(2) &= 72 - 60\\cos\\left(\\frac{2\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 3",
+      "lines": [
+       {
+        "tex": "h(3) &= 72 - 60\\cos\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 72 + 60"
+       },
+       {
+        "tex": "&= 132"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 4",
+      "lines": [
+       {
+        "tex": "h(4) &= 72 - 60\\cos\\left(\\frac{4\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 5",
+      "lines": [
+       {
+        "tex": "h(5) &= 72 - 60\\cos\\left(\\frac{5\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 6",
+      "lines": [
+       {
+        "tex": "h(6) &= 72 - 60\\cos\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 7",
+      "lines": [
+       {
+        "tex": "h(7) &= 72 - 60\\cos\\left(\\frac{7\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "tex": "h(8) &= 72 - 60\\cos\\left(\\frac{8\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,12), (1,42), (2,102), (3,132), (4,102), (5,42), (6,12), (7,42), (8,102)$."
+       },
+       {
+        "text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 12,\\ 42,\\ 102,\\ 132,\\ 102,\\ 42,\\ 12,\\ 42,\\ 102"
+   },
+   {
+    "part": "practice-trig-graph-1",
+    "level": "higher",
+    "year": null,
+    "question": "Copy and complete the table of values of $g(x) = 1 - 2\\sin x$, where $x$ is in radians.\n\n| $x$ | $0$ | $\\frac{\\pi}{6}$ | $\\frac{\\pi}{2}$ | $\\frac{5\\pi}{6}$ | $\\pi$ | $\\frac{7\\pi}{6}$ | $\\frac{3\\pi}{2}$ | $\\frac{11\\pi}{6}$ | $2\\pi$ |\n| $g(x)$ | | | | | | | | | |\n\nHence plot the graph of $g(x)$ for $0 \\le x \\le 2\\pi$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use g(x) = 1 - 2sin x at each x",
+      "lines": [
+       {
+        "text": "Work in radians. Find $g(x)$ at $x = 0, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}, 2\\pi$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 0$",
+      "lines": [
+       {
+        "tex": "g\\left(0\\right) &= 1 - 2\\sin\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(1\\right)"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{5\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{5\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{5\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(\\pi\\right) &= 1 - 2\\sin\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{7\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{7\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{7\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{3\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{3\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{3\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{11\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{11\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{11\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 2\\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(2\\pi\\right) &= 1 - 2\\sin\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,1), (\\frac{\\pi}{6},0), (\\frac{\\pi}{2},-1), (\\frac{5\\pi}{6},0), (\\pi,1), (\\frac{7\\pi}{6},2), (\\frac{3\\pi}{2},3), (\\frac{11\\pi}{6},2), (2\\pi,1)$."
+       },
+       {
+        "text": "Join them with a smooth wave: it falls from 1 to a minimum of $-1$ at $x = \\frac{\\pi}{2}$, rises to a maximum of 3 at $x = \\frac{3\\pi}{2}$ and returns to 1."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 1,\\ 0,\\ -1,\\ 0,\\ 1,\\ 2,\\ 3,\\ 2,\\ 1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-graph-abc",
+   "title": "Graph and analyse a + b sin cθ / a + b cos cθ",
+   "level": "HL",
+   "input": "a, b, c (or the graph)",
+   "output": "graph, period 2π/c, range [a − |b|, a + |b|]; a, b, c from graph"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(e)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Read the low and high tide from the graph",
+      "lines": [
+       {
+        "text": "High tide is the highest point, $3.1$ m. Low tide is the lowest point, $0.1$ m."
+       },
+       {
+        "tex": "\\text{Difference} &= 3.1 - 0.1"
+       },
+       {
+        "tex": "&= 3\\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "3\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2015-higher-p1-q9#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute t = 76 (calculator in radian mode)",
+      "lines": [
+       {
+        "tex": "f(76) &= 12.25 + 4.75\\sin\\left(\\frac{2\\pi}{365}\\times 76\\right)"
+       },
+       {
+        "tex": "&= 12.25 + 4.75\\sin(1.3083)"
+       },
+       {
+        "tex": "&= 12.25 + 4.75(0.9657)"
+       },
+       {
+        "tex": "&= 12.25 + 4.587"
+       },
+       {
+        "tex": "&= 16.837\\ \\text{hours}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to hours and minutes",
+      "lines": [
+       {
+        "tex": "0.837 \\times 60 &\\approx 50\\ \\text{minutes}"
+       }
+      ]
+     }
+    ],
+    "final": "16\\ \\text{hours } 50\\ \\text{minutes}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(a)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "For $\\cos(bt)$ the period is $\\dfrac{2\\pi}{b}$. Here $b = \\dfrac{\\pi}{6}$."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{2\\pi}{\\pi/6}"
+       },
+       {
+        "tex": "&= 2\\pi \\times \\frac{6}{\\pi}"
+       },
+       {
+        "tex": "&= 12\\text{ hours}"
+       }
+      ]
+     },
+     {
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "$\\cos$ always lies between $-1$ and $1$, so the $1.5\\cos(\\cdot)$ term lies between $-1.5$ and $1.5$."
+       },
+       {
+        "tex": "\\text{Minimum} &= 1.6 - 1.5"
+       },
+       {
+        "tex": "&= 0.1"
+       },
+       {
+        "tex": "\\text{Maximum} &= 1.6 + 1.5"
+       },
+       {
+        "tex": "&= 3.1"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = 12\\text{ hours},\\quad \\text{Range} = [0.1,\\,3.1]\\text{ m}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q8#(d)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Plot the nine points from the table",
+      "lines": [
+       {
+        "text": "Plot $(t, h)$ using time on the horizontal axis and height on the vertical axis."
+       },
+       {
+        "text": "The points are $(0, 3.1)$, $(3, 1.6)$, $(6, 0.1)$, $(9, 1.6)$, $(12, 3.1)$, $(15, 1.6)$, $(18, 0.1)$, $(21, 1.6)$, $(24, 3.1)$."
+       }
+      ]
+     },
+     {
+      "title": "Join the points with a smooth curve",
+      "lines": [
+       {
+        "text": "It is a cosine wave: maximum $3.1$ at midnight, midday and the next midnight, minimum $0.1$ at 6 a.m. and 6 p.m. It crosses $1.6$ at 3 a.m., 9 a.m., 3 p.m. and 9 p.m."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Cosine curve through the nine points}"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q9#(b)(ii)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "The period of $\\cos ct$ is $\\frac{2\\pi}{c}$. It is the time between two successive high tides: 02:00 to 14:34."
+       },
+       {
+        "tex": "\\text{period} &= 12\\frac{34}{60} \\text{ hours}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for c",
+      "lines": [
+       {
+        "tex": "\\frac{2\\pi}{c} &= 12\\frac{34}{60}"
+       },
+       {
+        "tex": "c &= \\frac{2\\pi}{12\\frac{34}{60}}"
+       },
+       {
+        "tex": "c &\\approx 0.49999"
+       },
+       {
+        "tex": "c &\\approx 0.5 \\text{ (1 decimal place)}"
+       }
+      ]
+     }
+    ],
+    "final": "c = 0.5"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q9#(b)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "The crank returns to the same position after one full turn, so $f$ repeats every $2\\pi$ radians, which is $360^\\circ$."
+       }
+      ]
+     },
+     {
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "The largest $|CX|$ is $30$ (when $D$ is at $X$, $\\alpha = 0$). The smallest is $10$ (when $D$ is on the far side, $\\alpha = 180^\\circ$). So $f$ takes every value from $10$ to $30$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = 2\\pi\\ (360^\\circ),\\ \\text{Range} = [10, 30]"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-radians",
+   "title": "Use radian measure",
+   "level": "HL",
+   "input": "angle in degrees or radians",
+   "output": "converted angle"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p2-q9#(b)(iii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 6.67",
+      "lines": [
+       {
+        "text": "Make sure the calculator is in radian mode."
+       },
+       {
+        "tex": "V(6.67) &= 110\\sqrt{2}\\,\\sin(120\\pi \\times 6.67)"
+       },
+       {
+        "tex": "&= 147.95\\ldots"
+       }
+      ]
+     }
+    ],
+    "final": "147.95 \\text{ Volts}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q7#(e)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 0.5 into V(t)",
+      "lines": [
+       {
+        "text": "Set the calculator to radian mode."
+       },
+       {
+        "tex": "V(0.5) &= 2 - 0.4\\cos\\left(\\frac{\\pi}{2} \\times 0.5\\right)"
+       },
+       {
+        "tex": "&= 2 - 0.4\\cos\\left(\\frac{\\pi}{4}\\right)"
+       },
+       {
+        "tex": "&= 1.7172\\ldots"
+       },
+       {
+        "tex": "&\\approx 1.717\\ \\text{litres}"
+       }
+      ]
+     }
+    ],
+    "final": "1.717\\ \\text{litres}"
+   },
+   {
+    "part": "practice-trig-radians-1",
+    "level": "higher",
+    "year": null,
+    "question": "A wheel turns through an angle of $\\frac{5\\pi}{12}$ radians. Express this angle in degrees.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the conversion factor",
+      "lines": [
+       {
+        "text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\frac{180}{\\pi}$."
+       },
+       {
+        "tex": "\\frac{5\\pi}{12} \\times \\frac{180}{\\pi} &= \\frac{5 \\times 180}{12}"
+       },
+       {
+        "tex": "&= 75^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "75^\\circ"
+   },
+   {
+    "part": "practice-trig-radians-2",
+    "level": "higher",
+    "year": null,
+    "question": "Express $\\frac{7\\pi}{6}$ radians in degrees.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the conversion factor",
+      "lines": [
+       {
+        "text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\frac{180}{\\pi}$."
+       },
+       {
+        "tex": "\\frac{7\\pi}{6} \\times \\frac{180}{\\pi} &= \\frac{7 \\times 180}{6}"
+       },
+       {
+        "tex": "&= 210^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "210^\\circ"
+   },
+   {
+    "part": "practice-trig-radians-3",
+    "level": "higher",
+    "year": null,
+    "question": "A rotating arm turns clockwise through an angle of $-\\frac{3\\pi}{4}$ radians.\nExpress this angle in degrees.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the conversion factor",
+      "lines": [
+       {
+        "text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\frac{180}{\\pi}$."
+       },
+       {
+        "tex": "-\\frac{3\\pi}{4} \\times \\frac{180}{\\pi} &= -\\frac{3 \\times 180}{4}"
+       },
+       {
+        "tex": "&= -135^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "-135^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-unit-circle",
+   "title": "Define sin θ, cos θ, tan θ for all θ (unit circle)",
+   "level": "OL",
+   "input": "any angle",
+   "output": "value with correct sign (CAST, related angle)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p1-q8#(a)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use right-angled triangle ratios with radius 5",
+      "lines": [
+       {
+        "tex": "\\cos\\theta &= \\frac{x}{5}"
+       },
+       {
+        "tex": "x &= 5\\cos\\theta"
+       },
+       {
+        "tex": "\\sin\\theta &= \\frac{y}{5}"
+       },
+       {
+        "tex": "y &= 5\\sin\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Compare with (a cos θ, b sin θ)",
+      "lines": [
+       {
+        "tex": "(x, y) &= (5\\cos\\theta,\\ 5\\sin\\theta)"
+       },
+       {
+        "text": "So $a = 5$ and $b = 5$."
+       }
+      ]
+     }
+    ],
+    "final": "a = 5,\\ b = 5"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q10#(b)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Bound the sine term",
+      "lines": [
+       {
+        "text": "The sine of any angle lies between $-1$ and $1$."
+       },
+       {
+        "tex": "-1 &\\le \\sin\\frac{\\pi t}{5} \\le 1"
+       }
+      ]
+     },
+     {
+      "title": "Add 1.5 to find the smallest value of I(t)",
+      "lines": [
+       {
+        "tex": "0.5 &\\le 1.5 + \\sin\\frac{\\pi t}{5} \\le 2.5"
+       },
+       {
+        "tex": "I(t) &\\ge 0.5 > 0"
+       }
+      ]
+     },
+     {
+      "title": "Relate this to the radius",
+      "lines": [
+       {
+        "text": "$r(t+1) = r(t) + I(t+1)$ and $I(t+1) > 0$, so $r(t+1) > r(t)$: the radius increases every year."
+       }
+      ]
+     }
+    ],
+    "final": "r(t+1) > r(t)"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q9#(c)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Place Q on the unit circle using the angle",
+      "lines": [
+       {
+        "text": "$|\\angle QOP| = 45^\\circ$ and $P = (-1, 0)$, so $OQ$ makes $135^\\circ$ with the positive $x$-axis."
+       },
+       {
+        "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+       },
+       {
+        "tex": "Q &= (\\cos 135^\\circ, \\sin 135^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Find the x co-ordinate",
+      "lines": [
+       {
+        "tex": "\\cos 135^\\circ &= -\\cos 45^\\circ"
+       },
+       {
+        "tex": "&= -\\frac{1}{\\sqrt{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Find the y co-ordinate",
+      "lines": [
+       {
+        "tex": "\\sin 135^\\circ &= \\sin 45^\\circ"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "Q = \\left(-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)"
+   },
+   {
+    "part": "practice-trig-unit-circle-1",
+    "level": "higher",
+    "year": null,
+    "question": "$P$ is a point on the unit circle, centre $O = (0, 0)$.\nThe line $OP$ makes an angle of $210^\\circ$ with the positive $x$-axis, measured anticlockwise.\nFind the co-ordinates of $P$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Place P on the unit circle using the angle",
+      "lines": [
+       {
+        "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+       },
+       {
+        "tex": "P &= (\\cos 210^\\circ, \\sin 210^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Find the x co-ordinate",
+      "lines": [
+       {
+        "text": "$210^\\circ$ is in the third quadrant, where cos is negative. The related angle is $30^\\circ$."
+       },
+       {
+        "tex": "\\cos 210^\\circ"
+       },
+       {
+        "tex": "&= -\\cos 30^\\circ"
+       },
+       {
+        "tex": "&= -\\frac{\\sqrt{3}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the y co-ordinate",
+      "lines": [
+       {
+        "text": "In the third quadrant sin is also negative."
+       },
+       {
+        "tex": "\\sin 210^\\circ"
+       },
+       {
+        "tex": "&= -\\sin 30^\\circ"
+       },
+       {
+        "tex": "&= -\\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "P = \\left(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2}\\right)"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q10#(b)(iv)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write r(10) as r(0) plus ten yearly increases",
+      "lines": [
+       {
+        "tex": "r(10) &= r(0) + I(1) + I(2) + \\cdots + I(10)"
+       },
+       {
+        "tex": "&= 10 + 10(1.5) + \\left(\\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5} + \\cdots + \\sin\\frac{10\\pi}{5}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Show the sine terms add to zero",
+      "lines": [
+       {
+        "text": "$\\sin(\\pi + x) = -\\sin x$, so $\\sin\\frac{6\\pi}{5} = -\\sin\\frac{\\pi}{5}$, and similarly for the pairs 2 and 7, 3 and 8, 4 and 9."
+       },
+       {
+        "text": "The remaining terms are $\\sin\\pi = 0$ and $\\sin 2\\pi = 0$, so all the sine terms sum to 0."
+       }
+      ]
+     },
+     {
+      "title": "Evaluate r(10)",
+      "lines": [
+       {
+        "tex": "r(10) &= 10 + 15 + 0"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two cylinder volumes",
+      "lines": [
+       {
+        "tex": "V_1 &= \\pi (10)^2 h"
+       },
+       {
+        "tex": "V_2 &= \\pi (25)^2 h"
+       },
+       {
+        "tex": "V_2 &= kV_1"
+       },
+       {
+        "tex": "\\pi (25)^2 h &= k\\pi (10)^2 h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by \\pi h and solve for k",
+      "lines": [
+       {
+        "tex": "625 &= 100k"
+       },
+       {
+        "tex": "k &= 6.25"
+       }
+      ]
+     }
+    ],
+    "final": "r(10) = 25 \\text{ cm}, \\; k = 6.25"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "quad-form-from-roots",
+   "title": "Form a quadratic from its roots",
+   "level": "OL",
+   "input": "two whole-number roots",
+   "output": "ax² + bx + c = 0"
+  },
+  "candidates": [
+   {
+    "part": "practice-quad-form-from-roots-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write down a quadratic equation of the form $x^2 + bx + c = 0$ whose roots are $x = -1$ and $x = 6$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the factors from the roots",
+      "lines": [
+       {
+        "text": "The roots are $-1$ and $6$, so $(x + 1)$ and $(x - 6)$ are the factors."
+       },
+       {
+        "tex": "(x + 1)(x - 6) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "x^2 - 6x + x - 6 &= 0"
+       },
+       {
+        "tex": "x^2 - 5x - 6 &= 0"
+       }
+      ]
+     }
+    ],
+    "final": "x^2 - 5x - 6 = 0"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q5#(b)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the roots to write f(x) in factors",
+      "lines": [
+       {
+        "text": "The curve crosses the $x$-axis at $-2$ and $3$, so $(x + 2)$ and $(x - 3)$ are factors. The curve opens downwards, so the leading coefficient is negative."
+       },
+       {
+        "tex": "f(x) &= -(x + 2)(x - 3)"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets",
+      "lines": [
+       {
+        "tex": "f(x) &= -(x^2 - 3x + 2x - 6)"
+       },
+       {
+        "tex": "&= -(x^2 - x - 6)"
+       },
+       {
+        "tex": "&= -x^2 + x + 6"
+       }
+      ]
+     },
+     {
+      "title": "Check with the point A",
+      "lines": [
+       {
+        "tex": "f(0) &= -(0 + 2)(0 - 3)"
+       },
+       {
+        "tex": "&= 6"
+       },
+       {
+        "text": "This matches $A = (0, 6)$."
+       }
+      ]
+     }
+    ],
+    "final": "f(x) = -x^2 + x + 6"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q1#(a)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Name the two roots",
+      "lines": [
+       {
+        "text": "The roots differ by 3, so call them $\\alpha$ and $\\alpha+3$."
+       }
+      ]
+     },
+     {
+      "title": "Use the sum of the roots to find alpha",
+      "lines": [
+       {
+        "text": "For $x^2+5x+p$, the sum of the roots is $-5$."
+       },
+       {
+        "tex": "\\alpha + (\\alpha + 3) &= -5"
+       },
+       {
+        "tex": "2\\alpha + 3 &= -5"
+       },
+       {
+        "tex": "2\\alpha &= -8"
+       },
+       {
+        "tex": "\\alpha &= -4"
+       }
+      ]
+     },
+     {
+      "title": "Use the product of the roots to find p",
+      "lines": [
+       {
+        "text": "The roots are $-4$ and $-4+3=-1$. The product of the roots is $p$."
+       },
+       {
+        "tex": "p &= (-4)(-1)"
+       },
+       {
+        "tex": "p &= 4"
+       }
+      ]
+     }
+    ],
+    "final": "p = 4"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write h'(x) using its roots",
+      "lines": [
+       {
+        "text": "The graph crosses the $x$-axis at $x=-1$ and $x=3$, so $(x+1)$ and $(x-3)$ are factors."
+       },
+       {
+        "tex": "h'(x) &= a(x+1)(x-3)"
+       },
+       {
+        "tex": "&= a(x^2 - 2x - 3)"
+       }
+      ]
+     },
+     {
+      "title": "Use the point (0, 6) to find a",
+      "lines": [
+       {
+        "text": "The graph crosses the $y$-axis at $6$, so $h'(0) = 6$."
+       },
+       {
+        "tex": "6 &= a(0 + 0 - 3)"
+       },
+       {
+        "tex": "6 &= -3a"
+       },
+       {
+        "tex": "a &= -2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute a = -2 and expand",
+      "lines": [
+       {
+        "tex": "h'(x) &= -2(x^2 - 2x - 3)"
+       },
+       {
+        "tex": "&= -2x^2 + 4x + 6"
+       }
+      ]
+     }
+    ],
+    "final": "h'(x) = -2x^2 + 4x + 6"
+   }
+  ]
+ }
+]

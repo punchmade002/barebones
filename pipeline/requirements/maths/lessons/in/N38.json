@@ -1,0 +1,1203 @@
+[
+ {
+  "skill": {
+   "id": "num-prime-factors",
+   "title": "Express a number as a product of primes",
+   "level": "OL",
+   "input": "natural number",
+   "output": "prime factorisation; HCF/LCM"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-prime-factors-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write 84 and 126 each as a product of prime numbers.\nHence find the highest common factor of 84 and 126.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise 84",
+      "lines": [
+       {
+        "tex": "84 &= 2 \\times 42"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 21"
+       },
+       {
+        "tex": "&= 2^2 \\times 3 \\times 7"
+       }
+      ]
+     },
+     {
+      "title": "Factorise 126",
+      "lines": [
+       {
+        "tex": "126 &= 2 \\times 63"
+       },
+       {
+        "tex": "&= 2 \\times 3 \\times 21"
+       },
+       {
+        "tex": "&= 2 \\times 3^2 \\times 7"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the primes common to both, using the lower power of each",
+      "lines": [
+       {
+        "text": "Common: $2^1$, $3^1$ and $7^1$."
+       },
+       {
+        "tex": "\\text{HCF} &= 2 \\times 3 \\times 7"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     }
+    ],
+    "final": "42"
+   },
+   {
+    "part": "practice-num-prime-factors-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write 180 and 300 each as a product of prime numbers.\nHence find the highest common factor (HCF) of 180 and 300.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise 180",
+      "lines": [
+       {
+        "tex": "180 &= 2 \\times 90"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 45"
+       },
+       {
+        "tex": "&= 2^2 \\times 3^2 \\times 5"
+       }
+      ]
+     },
+     {
+      "title": "Factorise 300",
+      "lines": [
+       {
+        "tex": "300 &= 2 \\times 150"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 75"
+       },
+       {
+        "tex": "&= 2^2 \\times 3 \\times 5^2"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the primes common to both, using the lower power of each",
+      "lines": [
+       {
+        "text": "Common: $2^2$, $3^1$ and $5^1$."
+       },
+       {
+        "tex": "\\text{HCF} &= 2^2 \\times 3 \\times 5"
+       },
+       {
+        "tex": "&= 60"
+       }
+      ]
+     }
+    ],
+    "final": "60"
+   },
+   {
+    "part": "practice-num-prime-factors-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A baker has 60 buns, 90 scones and 150 muffins. She packs them into identical boxes with no items left over. Each box has the same number of buns, the same number of scones and the same number of muffins.\nWrite 60, 90 and 150 each as a product of primes and hence find the greatest number of boxes she can make.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise 60",
+      "lines": [
+       {
+        "tex": "60 &= 2 \\times 30"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 15"
+       },
+       {
+        "tex": "&= 2^2 \\times 3 \\times 5"
+       }
+      ]
+     },
+     {
+      "title": "Factorise 90 and 150",
+      "lines": [
+       {
+        "tex": "90 &= 2 \\times 3^2 \\times 5"
+       },
+       {
+        "tex": "150 &= 2 \\times 3 \\times 5^2"
+       }
+      ]
+     },
+     {
+      "title": "The greatest number of boxes is the HCF: multiply the primes common to all three, using the lowest power of each",
+      "lines": [
+       {
+        "text": "Common: $2^1$, $3^1$ and $5^1$."
+       },
+       {
+        "tex": "\\text{HCF} &= 2 \\times 3 \\times 5"
+       },
+       {
+        "tex": "&= 30"
+       }
+      ]
+     }
+    ],
+    "final": "30 \\text{ boxes}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q1#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "List the times each person finishes a window",
+      "lines": [
+       {
+        "text": "Máiréad finishes at $9, 18, 27, 36, \\ldots$ minutes."
+       },
+       {
+        "text": "Diarmuid finishes at $12, 24, 36, \\ldots$ minutes."
+       },
+       {
+        "text": "The first time they match is $36$ minutes (the lowest common multiple of 9 and 12)."
+       }
+      ]
+     },
+     {
+      "title": "Windows cleaned in 36 minutes together",
+      "lines": [
+       {
+        "tex": "\\text{Máiréad: } 36 \\div 9 &= 4"
+       },
+       {
+        "tex": "\\text{Diarmuid: } 36 \\div 12 &= 3"
+       },
+       {
+        "tex": "\\text{Together: } 4 + 3 &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Find how many 36-minute blocks are needed for 35 windows",
+      "lines": [
+       {
+        "tex": "35 \\div 7 &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 36 minutes",
+      "lines": [
+       {
+        "tex": "5 \\times 36 &= 180"
+       },
+       {
+        "text": "$180$ minutes is $3$ hours."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } 36 \\text{ minutes;}\\quad \\text{(ii) } 180 \\text{ minutes (3 hours)}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q9#(a)(i), (ii), (iii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "(i) List the factors of 2^4",
+      "lines": [
+       {
+        "text": "The factors of $2^4$ are the powers of 2 from $2^0$ up to $2^4$."
+       },
+       {
+        "text": "They are $2^0, 2^1, 2^2, 2^3, 2^4$, that is $1, 2, 4, 8, 16$."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Count the factors of 3^7",
+      "lines": [
+       {
+        "text": "The factors are $3^0, 3^1, 3^2, 3^3, 3^4, 3^5, 3^6, 3^7$."
+       },
+       {
+        "text": "That is 8 different factors."
+       }
+      ]
+     },
+     {
+      "title": "(iii) Count the factors of 2^10 × 3^12",
+      "lines": [
+       {
+        "text": "$2^{10}$ and $3^{12}$ share no factors, so every factor is a factor of $2^{10}$ times a factor of $3^{12}$."
+       },
+       {
+        "text": "$2^{10}$ has 11 factors ($2^0$ to $2^{10}$) and $3^{12}$ has 13 factors ($3^0$ to $3^{12}$)."
+       },
+       {
+        "tex": "\\text{factors} &= (10 + 1)(12 + 1)"
+       },
+       {
+        "tex": "&= 11 \\times 13"
+       },
+       {
+        "tex": "&= 143"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } 1, 2, 4, 8, 16 \\quad \\text{(ii) } 8 \\quad \\text{(iii) } 143"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-sci-notation",
+   "title": "Work in scientific notation",
+   "level": "OL",
+   "input": "numbers in a×10ⁿ form",
+   "output": "result in a×10ⁿ, 1 ≤ a < 10"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q2#(c)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Divide the mass of the Sun by the mass of the Earth",
+      "lines": [
+       {
+        "tex": "\\frac{1.99\\times 10^{30}}{5.97\\times 10^{24}} &= \\frac{1.99}{5.97}\\times 10^{6}"
+       },
+       {
+        "tex": "&= 333\\,333.3\\ldots"
+       },
+       {
+        "tex": "&= 333\\,333"
+       }
+      ]
+     }
+    ],
+    "final": "333\\,333"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write 165 billion as a number",
+      "lines": [
+       {
+        "text": "A billion is a thousand million, so it is $10^3 \\times 10^6$."
+       },
+       {
+        "tex": "165 \\text{ billion} &= 165 \\times 10^3 \\times 10^6"
+       },
+       {
+        "tex": "&= 165 \\times 10^9"
+       }
+      ]
+     },
+     {
+      "title": "Write 165 in the form a × 10ⁿ with 1 ≤ a < 10",
+      "lines": [
+       {
+        "tex": "165 \\times 10^9 &= 1.65 \\times 10^2 \\times 10^9"
+       },
+       {
+        "tex": "&= 1.65 \\times 10^{11}"
+       }
+      ]
+     }
+    ],
+    "final": "1.65 \\times 10^{11}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q9#(a)(iii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Atoms in 1 gram",
+      "lines": [
+       {
+        "tex": "197 \\text{ g} &= 6.02 \\times 10^{23} \\text{ atoms}"
+       },
+       {
+        "tex": "1 \\text{ g} &= \\frac{6.02 \\times 10^{23}}{197}"
+       }
+      ]
+     },
+     {
+      "title": "Atoms in 2.18 grams",
+      "lines": [
+       {
+        "tex": "2.18 \\text{ g} &= \\frac{6.02 \\times 10^{23}}{197} \\times 2.18"
+       },
+       {
+        "tex": "&= 6.6617 \\times 10^{21}"
+       },
+       {
+        "tex": "&\\approx 6.7 \\times 10^{21}"
+       }
+      ]
+     }
+    ],
+    "final": "6.7 \\times 10^{21}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q5#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write 1200 in the form a × 10ⁿ",
+      "lines": [
+       {
+        "text": "Move the decimal point so that $1 \\le a < 10$: three places, so $n = 3$."
+       },
+       {
+        "tex": "1200 &= 1.2 \\times 10^3"
+       }
+      ]
+     },
+     {
+      "title": "Write 0.27 in the form a × 10ⁿ",
+      "lines": [
+       {
+        "text": "Move the decimal point one place right to get $2.7$, so $n = -1$."
+       },
+       {
+        "tex": "0.27 &= 2.7 \\times 10^{-1}"
+       }
+      ]
+     }
+    ],
+    "final": "1.2 \\times 10^3, \\quad 2.7 \\times 10^{-1}"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write 58 000 as a number between 1 and 10 times a power of 10",
+      "lines": [
+       {
+        "text": "Put the decimal point after the first digit: $5.8$. It moved 4 places, so the power is $4$."
+       },
+       {
+        "tex": "58\\,000 &= 5.8 \\times 10\\,000"
+       },
+       {
+        "tex": "&= 5.8 \\times 10^{4}"
+       }
+      ]
+     },
+     {
+      "title": "Write 0.036 as a number between 1 and 10 times a power of 10",
+      "lines": [
+       {
+        "text": "Put the decimal point after the first non-zero digit: $3.6$. It moved 2 places to the right, so the power is $-2$."
+       },
+       {
+        "tex": "0.036 &= 3.6 \\times \\frac{1}{100}"
+       },
+       {
+        "tex": "&= 3.6 \\times 10^{-2}"
+       }
+      ]
+     }
+    ],
+    "final": "58\\,000 = 5.8 \\times 10^{4},\\quad 0.036 = 3.6 \\times 10^{-2}"
+   },
+   {
+    "part": "practice-num-sci-notation-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The Earth is about 4600 million years old.\nWrite 4600 million in the form $a \\times 10^n$, where $1 \\le a < 10$ and $n \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write 4600 million as a number",
+      "lines": [
+       {
+        "text": "A million is $10^6$."
+       },
+       {
+        "tex": "4600 \\text{ million} &= 4600 \\times 10^6"
+       }
+      ]
+     },
+     {
+      "title": "Write 4600 in the form a × 10ⁿ with 1 ≤ a < 10",
+      "lines": [
+       {
+        "tex": "4600 \\times 10^6 &= 4.6 \\times 10^3 \\times 10^6"
+       },
+       {
+        "tex": "&= 4.6 \\times 10^9"
+       }
+      ]
+     }
+    ],
+    "final": "4.6 \\times 10^9"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-surds",
+   "title": "Simplify and operate on surds",
+   "level": "OL",
+   "input": "surd expression",
+   "output": "simplified surd, rational denominator"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-surds-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\sqrt{72} + \\sqrt{18}$ in the form $a\\sqrt{2}$, where $a \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each number as a square times 2",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}"
+       },
+       {
+        "tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square roots out",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= 6\\sqrt{2}"
+       },
+       {
+        "tex": "\\sqrt{18} &= 3\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Add the like surds",
+      "lines": [
+       {
+        "tex": "6\\sqrt{2} + 3\\sqrt{2} &= 9\\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "9\\sqrt{2}"
+   },
+   {
+    "part": "practice-num-surds-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\dfrac{4}{3 - \\sqrt{5}}$ in the form $a + b\\sqrt{5}$, where $a, b \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply top and bottom by the conjugate of the denominator",
+      "lines": [
+       {
+        "tex": "\\frac{4}{3 - \\sqrt{5}} &= \\frac{4(3 + \\sqrt{5})}{(3 - \\sqrt{5})(3 + \\sqrt{5})}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the denominator",
+      "lines": [
+       {
+        "text": "$(3 - \\sqrt{5})(3 + \\sqrt{5}) = 9 - 5 = 4$."
+       },
+       {
+        "tex": "&= \\frac{4(3 + \\sqrt{5})}{9 - 5}"
+       },
+       {
+        "tex": "&= \\frac{4(3 + \\sqrt{5})}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the 4",
+      "lines": [
+       {
+        "tex": "&= 3 + \\sqrt{5}"
+       }
+      ]
+     }
+    ],
+    "final": "3 + \\sqrt{5}"
+   },
+   {
+    "part": "practice-num-surds-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Express $\\sqrt{75} - \\sqrt{12}$ in the form $a\\sqrt{b}$, where $a, b \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each number as a square times 3",
+      "lines": [
+       {
+        "tex": "\\sqrt{75} &= \\sqrt{25 \\times 3}"
+       },
+       {
+        "tex": "\\sqrt{12} &= \\sqrt{4 \\times 3}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square roots out",
+      "lines": [
+       {
+        "tex": "\\sqrt{75} &= 5\\sqrt{3}"
+       },
+       {
+        "tex": "\\sqrt{12} &= 2\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Subtract the like surds",
+      "lines": [
+       {
+        "tex": "5\\sqrt{3} - 2\\sqrt{3} &= 3\\sqrt{3}"
+       }
+      ]
+     }
+    ],
+    "final": "3\\sqrt{3}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the three face areas as equations",
+      "lines": [
+       {
+        "text": "Each face area is the product of two of the dimensions."
+       },
+       {
+        "tex": "xz &= 2\\sqrt{2}"
+       },
+       {
+        "tex": "yz &= 8\\sqrt{6}"
+       },
+       {
+        "tex": "xy &= 4\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the three equations",
+      "lines": [
+       {
+        "text": "The volume is $xyz$, and the product of the three areas is $(xyz)^2$."
+       },
+       {
+        "tex": "(xz)(yz)(xy) &= (2\\sqrt{2})(8\\sqrt{6})(4\\sqrt{3})"
+       },
+       {
+        "tex": "x^2y^2z^2 &= 2 \\times 8 \\times 4 \\times \\sqrt{2 \\times 6 \\times 3}"
+       },
+       {
+        "tex": "&= 64\\sqrt{36}"
+       },
+       {
+        "tex": "&= 64 \\times 6"
+       },
+       {
+        "tex": "&= 384"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root to get the volume",
+      "lines": [
+       {
+        "tex": "xyz &= \\sqrt{384}"
+       },
+       {
+        "tex": "&= \\sqrt{64 \\times 6}"
+       },
+       {
+        "tex": "&= 8\\sqrt{6}"
+       }
+      ]
+     }
+    ],
+    "final": "V = 8\\sqrt{6}\\ \\text{cm}^3"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-curve-sketch",
+   "title": "Sketch a curve using calculus",
+   "level": "OL",
+   "input": "f(x)",
+   "output": "sketch with intercepts, turning points"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-curve-sketch-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the coordinates of the local maximum and the local minimum of the curve $y = x^3 - 6x^2 + 9x$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate",
+      "lines": [
+       {
+        "tex": "y &= x^3 - 6x^2 + 9x"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 12x + 9"
+       }
+      ]
+     },
+     {
+      "title": "Set $\\frac{dy}{dx} = 0$",
+      "lines": [
+       {
+        "tex": "3x^2 - 12x + 9 &= 0"
+       },
+       {
+        "tex": "x^2 - 4x + 3 &= 0"
+       },
+       {
+        "tex": "(x - 1)(x - 3) &= 0"
+       },
+       {
+        "tex": "x &= 1 \\quad \\text{or} \\quad x = 3"
+       }
+      ]
+     },
+     {
+      "title": "Find the $y$-values",
+      "lines": [
+       {
+        "tex": "x = 1: \\quad y &= 1 - 6 + 9 = 4"
+       },
+       {
+        "tex": "x = 3: \\quad y &= 27 - 54 + 27 = 0"
+       }
+      ]
+     },
+     {
+      "title": "Classify using the second derivative",
+      "lines": [
+       {
+        "tex": "\\frac{d^2y}{dx^2} &= 6x - 12"
+       },
+       {
+        "text": "At $x = 1$: $6 - 12 = -6 < 0$, so $(1, 4)$ is a local maximum."
+       },
+       {
+        "text": "At $x = 3$: $18 - 12 = 6 > 0$, so $(3, 0)$ is a local minimum."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Local max } (1, 4); \\ \\text{local min } (3, 0)"
+   },
+   {
+    "part": "practice-diff-curve-sketch-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the coordinates of the local maximum and the local minimum of $y = x^3 - 12x$.\nUse the second derivative to say which is which.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate",
+      "lines": [
+       {
+        "tex": "y &= x^3 - 12x"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 12"
+       }
+      ]
+     },
+     {
+      "title": "Set $\\frac{dy}{dx} = 0$",
+      "lines": [
+       {
+        "tex": "3x^2 - 12 &= 0"
+       },
+       {
+        "tex": "x^2 - 4 &= 0"
+       },
+       {
+        "tex": "(x - 2)(x + 2) &= 0"
+       },
+       {
+        "tex": "x &= 2 \\quad \\text{or} \\quad x = -2"
+       }
+      ]
+     },
+     {
+      "title": "Find the $y$-values",
+      "lines": [
+       {
+        "tex": "x = 2: \\quad y &= 8 - 24 = -16"
+       },
+       {
+        "tex": "x = -2: \\quad y &= -8 + 24 = 16"
+       }
+      ]
+     },
+     {
+      "title": "Classify using the second derivative",
+      "lines": [
+       {
+        "tex": "\\frac{d^2y}{dx^2} &= 6x"
+       },
+       {
+        "text": "At $x = -2$: $-12 < 0$, so $(-2, 16)$ is a local maximum."
+       },
+       {
+        "text": "At $x = 2$: $12 > 0$, so $(2, -16)$ is a local minimum."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Local max } (-2, 16); \\ \\text{local min } (2, -16)"
+   },
+   {
+    "part": "practice-diff-curve-sketch-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the coordinates of the local maximum and the local minimum of $y = -x^3 + 3x^2 + 9x$.\nUse the second derivative to say which is which.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate",
+      "lines": [
+       {
+        "tex": "y &= -x^3 + 3x^2 + 9x"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= -3x^2 + 6x + 9"
+       }
+      ]
+     },
+     {
+      "title": "Set $\\frac{dy}{dx} = 0$",
+      "lines": [
+       {
+        "tex": "-3x^2 + 6x + 9 &= 0"
+       },
+       {
+        "tex": "x^2 - 2x - 3 &= 0"
+       },
+       {
+        "tex": "(x - 3)(x + 1) &= 0"
+       },
+       {
+        "tex": "x &= 3 \\quad \\text{or} \\quad x = -1"
+       }
+      ]
+     },
+     {
+      "title": "Find the $y$-values",
+      "lines": [
+       {
+        "tex": "x = 3: \\quad y &= -27 + 27 + 27 = 27"
+       },
+       {
+        "tex": "x = -1: \\quad y &= 1 + 3 - 9 = -5"
+       }
+      ]
+     },
+     {
+      "title": "Classify using the second derivative",
+      "lines": [
+       {
+        "tex": "\\frac{d^2y}{dx^2} &= -6x + 6"
+       },
+       {
+        "text": "At $x = 3$: $-18 + 6 = -12 < 0$, so $(3, 27)$ is a local maximum."
+       },
+       {
+        "text": "At $x = -1$: $6 + 6 = 12 > 0$, so $(-1, -5)$ is a local minimum."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Local max } (3, 27); \\ \\text{local min } (-1, -5)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q5#(c)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Think about the graph of $f(x) + a$",
+      "lines": [
+       {
+        "text": "Adding $a$ moves the graph of $f$ up (or down) by $a$. A cubic has only one real root when it crosses the $x$-axis once: either the local maximum is below the axis, or the local minimum is above it."
+       }
+      ]
+     },
+     {
+      "title": "Local maximum below the $x$-axis",
+      "lines": [
+       {
+        "tex": "9 + a &< 0"
+       },
+       {
+        "tex": "a &< -9"
+       }
+      ]
+     },
+     {
+      "title": "Local minimum above the $x$-axis",
+      "lines": [
+       {
+        "tex": "-\\frac{100}{27} + a &> 0"
+       },
+       {
+        "tex": "a &> \\frac{100}{27}"
+       }
+      ]
+     }
+    ],
+    "final": "a < -9 \\ \\text{ or } \\ a > \\frac{100}{27}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q8#(e)(iii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the number of turning points",
+      "lines": [
+       {
+        "text": "$T'(x) = 0$ at only one value of $x$ in $[0, 8]$, so the graph has exactly one turning point."
+       },
+       {
+        "text": "Graphs A and B each have a minimum followed by a maximum (two turning points), so reject them. The answer is C or D."
+       }
+      ]
+     },
+     {
+      "title": "Find T(0) from part (c)",
+      "lines": [
+       {
+        "text": "$x = 0$ means kayak $S$ to $A$, then run $A$ to $F$."
+       },
+       {
+        "tex": "T(0) &= \\frac{\\sqrt{0^2 + 4}}{6} + \\frac{8 - 0}{12}"
+       },
+       {
+        "tex": "&= 1 \\text{ hour}"
+       }
+      ]
+     },
+     {
+      "title": "Find T(8) from part (d)",
+      "lines": [
+       {
+        "text": "$x = 8$ means kayak straight from $S$ to $F$ (about $82$ minutes)."
+       },
+       {
+        "tex": "T(8) &= \\frac{\\sqrt{8^2 + 4}}{6} + \\frac{8 - 8}{12}"
+       },
+       {
+        "tex": "&= \\frac{\\sqrt{68}}{6}"
+       },
+       {
+        "tex": "&\\approx 1.37 \\text{ hours}"
+       }
+      ]
+     },
+     {
+      "title": "Compare the end values",
+      "lines": [
+       {
+        "text": "$T(0) = 1 < 1.37 \\approx T(8)$, so the graph ends higher than it starts."
+       },
+       {
+        "text": "Of C and D, the one that finishes above its starting height is D."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{D}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "diff-point-given-slope",
+   "title": "Find where a curve has a given slope",
+   "level": "OL",
+   "input": "f(x) and slope m (or parallel line)",
+   "output": "x (and point)"
+  },
+  "candidates": [
+   {
+    "part": "practice-diff-point-given-slope-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Find the coordinates of the point on the curve $y = x^2 - 6x + 4$ at which the slope of the tangent is $2$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate to get the slope",
+      "lines": [
+       {
+        "tex": "y &= x^2 - 6x + 4"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 2x - 6"
+       }
+      ]
+     },
+     {
+      "title": "Set the slope equal to 2",
+      "lines": [
+       {
+        "tex": "2x - 6 &= 2"
+       },
+       {
+        "tex": "2x &= 8"
+       },
+       {
+        "tex": "x &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Find y at this x-value",
+      "lines": [
+       {
+        "tex": "y &= (4)^2 - 6(4) + 4"
+       },
+       {
+        "tex": "&= -4"
+       }
+      ]
+     }
+    ],
+    "final": "(4, -4)"
+   },
+   {
+    "part": "practice-diff-point-given-slope-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The tangent to the curve $y = x^3 - 3x^2 - 9x + 2$ is parallel to the line $y = -9x + 4$ at two points.\nFind the coordinates of the two points.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the slope of the line",
+      "lines": [
+       {
+        "text": "The line $y = -9x + 4$ has slope $-9$, so the tangent has slope $-9$."
+       }
+      ]
+     },
+     {
+      "title": "Differentiate the curve",
+      "lines": [
+       {
+        "tex": "y &= x^3 - 3x^2 - 9x + 2"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 3x^2 - 6x - 9"
+       }
+      ]
+     },
+     {
+      "title": "Set the slope equal to -9 and solve",
+      "lines": [
+       {
+        "tex": "3x^2 - 6x - 9 &= -9"
+       },
+       {
+        "tex": "3x^2 - 6x &= 0"
+       },
+       {
+        "tex": "3x(x - 2) &= 0"
+       },
+       {
+        "tex": "x &= 0 \\text{ or } x = 2"
+       }
+      ]
+     },
+     {
+      "title": "Find y for each x-value",
+      "lines": [
+       {
+        "tex": "x = 0:\\quad y &= 2"
+       },
+       {
+        "tex": "x = 2:\\quad y &= 8 - 12 - 18 + 2"
+       },
+       {
+        "tex": "&= -20"
+       }
+      ]
+     }
+    ],
+    "final": "(0, 2) \\text{ and } (2, -20)"
+   },
+   {
+    "part": "practice-diff-point-given-slope-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A curve has equation $y = x^2 + 4x - 1$.\nFind the point on the curve where the tangent is parallel to the line $2x + y = 5$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the slope of the line",
+      "lines": [
+       {
+        "tex": "2x + y &= 5"
+       },
+       {
+        "tex": "y &= -2x + 5"
+       },
+       {
+        "text": "The line has slope $-2$, so the tangent has slope $-2$."
+       }
+      ]
+     },
+     {
+      "title": "Differentiate the curve",
+      "lines": [
+       {
+        "tex": "y &= x^2 + 4x - 1"
+       },
+       {
+        "tex": "\\frac{dy}{dx} &= 2x + 4"
+       }
+      ]
+     },
+     {
+      "title": "Set the slope equal to $-2$ and solve",
+      "lines": [
+       {
+        "tex": "2x + 4 &= -2"
+       },
+       {
+        "tex": "2x &= -6"
+       },
+       {
+        "tex": "x &= -3"
+       }
+      ]
+     },
+     {
+      "title": "Find y at this x-value",
+      "lines": [
+       {
+        "tex": "y &= (-3)^2 + 4(-3) - 1"
+       },
+       {
+        "tex": "&= -4"
+       }
+      ]
+     }
+    ],
+    "final": "(-3, -4)"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q3#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the slope of l",
+      "lines": [
+       {
+        "text": "$l$ passes through $(6, 0)$ and $(10, 2)$."
+       },
+       {
+        "tex": "m &= \\frac{2 - 0}{10 - 6}"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Translate the condition into a slope",
+      "lines": [
+       {
+        "text": "$l'(x) = \\frac{1}{2}$ for every $x$, since $l$ is a straight line."
+       },
+       {
+        "text": "So $p'(x) = l'(x)$ means the tangent to $p$ has slope $\\frac{1}{2}$, parallel to $l$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the two parallel tangents",
+      "lines": [
+       {
+        "text": "Place a ruler along $l$ and slide it down and to the left until it just touches the curve near the lower left. Draw this tangent in blue."
+       },
+       {
+        "text": "Slide it up and to the right until it just touches the curve near the maximum. Draw this second tangent in blue."
+       }
+      ]
+     },
+     {
+      "title": "Read the x-values from the touching points",
+      "lines": [
+       {
+        "text": "Draw a vertical line from each touching point down to the x-axis and read off the values."
+       },
+       {
+        "text": "The first touches at about $x = 2.2$ and the second at about $x = 6.8$."
+       }
+      ]
+     }
+    ],
+    "final": "x \\approx 2.2 \\text{ and } x \\approx 6.8"
+   }
+  ]
+ }
+]

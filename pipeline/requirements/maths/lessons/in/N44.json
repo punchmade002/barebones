@@ -1,0 +1,1026 @@
+[
+ {
+  "skill": {
+   "id": "seq-verify-formula",
+   "title": "Verify and justify a formula from a number pattern",
+   "level": "HL",
+   "input": "pattern + proposed formula",
+   "output": "checked/justified formula"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute the formula for T_n",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\frac{n(n+1)}{2} + (n+1)"
+       }
+      ]
+     },
+     {
+      "title": "Write over a common denominator of 2",
+      "lines": [
+       {
+        "tex": "&= \\frac{n(n+1)}{2} + \\frac{2(n+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1) + 2(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)(n+2)}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{(n+1)(n+2)}{2}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(ii)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the sum of the two consecutive terms",
+      "lines": [
+       {
+        "tex": "T_{n+1} + T_n &= \\frac{(n+1)(n+2)}{2} + \\frac{n(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Combine and factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[(n+2) + n\\big]}{2}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n+2)}{2}"
+       },
+       {
+        "tex": "&= \\frac{2(n+1)(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the 2",
+      "lines": [
+       {
+        "tex": "&= (n+1)^2"
+       },
+       {
+        "text": "$n+1 \\in \\mathbb{N}$, so the sum is a square $k^2$ with $k = n+1$."
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} + T_n = (n+1)^2"
+   },
+   {
+    "part": "practice-seq-verify-formula-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove by induction that $1 + 4 + 7 + \\dots + (3n - 2) = \\frac{n(3n-1)}{2}$ for all $n \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Test the formula for $n = 1$",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 1"
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{1(3-1)}{2} = 1"
+       },
+       {
+        "text": "LHS = RHS, so the formula is true for $n = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Assume it is true for $n = k$",
+      "lines": [
+       {
+        "text": "Assume $1 + 4 + \\dots + (3k-2) = \\frac{k(3k-1)}{2}$."
+       }
+      ]
+     },
+     {
+      "title": "Add the next term for $n = k + 1$",
+      "lines": [
+       {
+        "tex": "S_{k+1} &= \\frac{k(3k-1)}{2} + \\big(3(k+1) - 2\\big)"
+       },
+       {
+        "tex": "&= \\frac{k(3k-1) + 2(3k+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{3k^2 + 5k + 2}{2}"
+       },
+       {
+        "tex": "&= \\frac{(k+1)(3k+2)}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the formula at $n = k + 1$",
+      "lines": [
+       {
+        "tex": "\\frac{(k+1)\\big(3(k+1)-1\\big)}{2} &= \\frac{(k+1)(3k+2)}{2}"
+       },
+       {
+        "text": "This matches, so true for $n=k$ implies true for $n=k+1$. By induction the formula holds for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "1 + 4 + \\dots + (3n-2) = \\frac{n(3n-1)}{2}"
+   },
+   {
+    "part": "practice-seq-verify-formula-2",
+    "level": "higher",
+    "year": null,
+    "question": "The sum of the first $n$ square numbers is $T_n = \\frac{n(n+1)(2n+1)}{6}$.\nThe next term is $T_{n+1} = T_n + (n+1)^2$.\nSubstitute the formula for $T_n$ and show that $T_{n+1} = \\frac{(n+1)(n+2)(2n+3)}{6}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute the formula for $T_n$",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\frac{n(n+1)(2n+1)}{6} + (n+1)^2"
+       }
+      ]
+     },
+     {
+      "title": "Write over a common denominator of 6",
+      "lines": [
+       {
+        "tex": "&= \\frac{n(n+1)(2n+1)}{6} + \\frac{6(n+1)^2}{6}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1)(2n+1) + 6(n+1)^2}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Factor out $(n+1)$",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[n(2n+1) + 6(n+1)\\big]}{6}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n^2 + 7n + 6)}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "2n^2 + 7n + 6 &= (n+2)(2n+3)"
+       },
+       {
+        "tex": "T_{n+1} &= \\frac{(n+1)(n+2)(2n+3)}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} = \\frac{(n+1)(n+2)(2n+3)}{6}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-back-to-back",
+   "title": "Compare data sets with back-to-back stem-and-leaf plots",
+   "level": "OL",
+   "input": "two data sets",
+   "output": "plot and comparison of centre/spread"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the 175 to 180 bars",
+      "lines": [
+       {
+        "text": "Answer: Yes. Girls: $5.8\\%$. Boys: about $11.5\\%$."
+       },
+       {
+        "text": "Both samples have 500 students, so percentages compare numbers directly. $2 \\times 5.8 = 11.6 \\approx 11.5$, so about twice as many boys."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Yes}"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(c)(iv)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the tall groups",
+      "lines": [
+       {
+        "text": "Answer: No. Take tall to mean 175 cm or more."
+       },
+       {
+        "text": "Girls: $5.8\\% + 2\\% = 7.8\\%$. Boys: about $11.5\\% + 9.3\\% = 20.8\\%$. A larger percentage of boys are tall, so there are more tall boys than tall girls."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{No}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the two sides of the plot",
+      "lines": [
+       {
+        "text": "Day X: weights run from 4.5 kg to 7.4 kg, with most leaves on stems 5 and 6."
+       },
+       {
+        "text": "Day Y: weights run from 4.8 kg to 8.1 kg, with more leaves on stems 6, 7 and 8."
+       },
+       {
+        "text": "Each dog's Day Y weight is above its Day X weight, so the weights have increased."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The weights of the dogs increased from Day X to Day Y.}"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}"
+   },
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $0, 5, 7, 8$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $0, 6, 7$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $3, 8, 9$."
+       }
+      ]
+     },
+     {
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $2, 8$. $113, 118$ in row 11 as leaves $3, 8$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Split each weight into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the whole number of kg. The leaf is the digit after the decimal point."
+       },
+       {
+        "text": "The key $6 | 0 = 6.0$ kg means the stem 6 and leaf 0 give 6.0 kg."
+       }
+      ]
+     },
+     {
+      "title": "List the Day X leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.5, 4.9 so leaves 5, 9."
+       },
+       {
+        "text": "Stem 5: 5.3, 5.3, 5.5, 5.7 so leaves 3, 3, 5, 7."
+       },
+       {
+        "text": "Stem 6: 6.7, 6.9 so leaves 7, 9."
+       },
+       {
+        "text": "Stem 7: 7.3, 7.4 so leaves 3, 4. Stem 8: no leaves."
+       }
+      ]
+     },
+     {
+      "title": "List the Day Y leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.8 so leaf 8."
+       },
+       {
+        "text": "Stem 5: 5.4, 5.5 so leaves 4, 5."
+       },
+       {
+        "text": "Stem 6: 6.0, 6.1, 6.3 so leaves 0, 1, 3."
+       },
+       {
+        "text": "Stem 7: 7.0, 7.6, 7.9 so leaves 0, 6, 9. Stem 8: 8.1 so leaf 1."
+       }
+      ]
+     },
+     {
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Day X leaves on the left of the stem and Day Y leaves on the right, smallest next to the stem."
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each dog."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Back-to-back stem-and-leaf plot as drawn}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-choose-display",
+   "title": "Select an appropriate graphical/numerical summary",
+   "level": "OL",
+   "input": "data type + question",
+   "output": "chosen method with reason"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Explain the problem",
+      "lines": [
+       {
+        "text": "The means treat every age group as equal, but the groups did not have equal numbers of voters."
+       },
+       {
+        "text": "Table 2 gives percentages only. The number of voters in each age group is not used, so the means are unreliable."
+       },
+       {
+        "text": "The real result (Table 1) was Leave 52%, so the Remain mean of 52.33% does not reflect the outcome."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The number of voters in each age group is not used, so the means are unreliable.}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(b)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose a year and give a reason",
+      "lines": [
+       {
+        "text": "Answer: 2006."
+       },
+       {
+        "text": "Reason: 2006 had the least rainfall (47 mm) and the most sunshine (239 hours)."
+       }
+      ]
+     }
+    ],
+    "final": "2006"
+   },
+   {
+    "part": "practice-stat-choose-display-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A survey asked 120 students for their favourite sport.\nSoccer 54, GAA 36, rugby 18, other 12.\nA pie chart is a suitable display for this data. Find the angle of the sector for GAA.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose the display",
+      "lines": [
+       {
+        "text": "Favourite sport is categorical data and the question compares parts of a whole, so a pie chart suits it."
+       }
+      ]
+     },
+     {
+      "title": "Find the angle for GAA",
+      "lines": [
+       {
+        "tex": "\\text{angle} &= \\frac{36}{120} \\times 360^\\circ"
+       },
+       {
+        "tex": "&= 108"
+       }
+      ]
+     }
+    ],
+    "final": "108^\\circ"
+   },
+   {
+    "part": "practice-stat-choose-display-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In a survey of 90 students, 25 said a cat is their favourite pet.\nThe survey results are to be shown in a display that compares each type of pet as a part of the whole group.\nName a suitable display and find the angle that would represent cats in it.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose the display",
+      "lines": [
+       {
+        "text": "Favourite pet is categorical data and the question compares parts of a whole, so a pie chart suits it."
+       }
+      ]
+     },
+     {
+      "title": "Find the angle for cats",
+      "lines": [
+       {
+        "tex": "\\text{angle} &= \\frac{25}{90} \\times 360^\\circ"
+       },
+       {
+        "tex": "&= 100"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pie chart};\\; 100^\\circ"
+   },
+   {
+    "part": "practice-stat-choose-display-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school canteen sells 420 lunches in a week. Of these, 56 are salads.\nThe canteen manager wants to show how the lunches sold are shared between the different types of lunch.\nName a suitable display and find the angle that would represent salads in it.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose the display",
+      "lines": [
+       {
+        "text": "Type of lunch is categorical data and the manager wants to show shares of a whole, so a pie chart suits it."
+       }
+      ]
+     },
+     {
+      "title": "Find the angle for salads",
+      "lines": [
+       {
+        "tex": "\\text{angle} &= \\frac{56}{420} \\times 360^\\circ"
+       },
+       {
+        "tex": "&= 48"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pie chart};\\; 48^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-correlation-calc",
+   "title": "Calculate the correlation coefficient (calculator)",
+   "level": "HL",
+   "input": "bivariate data",
+   "output": "r"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the statistics mode on the calculator",
+      "lines": [
+       {
+        "text": "Enter the speeds as the $x$ values and the fuel consumption as the $y$ values."
+       },
+       {
+        "text": "Read off the correlation coefficient $r$."
+       },
+       {
+        "tex": "r &= -0.957"
+       }
+      ]
+     }
+    ],
+    "final": "r = -0.957"
+   },
+   {
+    "part": "practice-stat-correlation-calc-1",
+    "level": "higher",
+    "year": null,
+    "question": "Five students recorded the number of hours, $x$, they studied for a test and their score, $y$.\n$(1, 2), \\; (2, 4), \\; (3, 5), \\; (4, 4), \\; (5, 5)$\nUse the statistics mode on your calculator to find the correlation coefficient $r$, correct to four decimal places.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the statistics mode on the calculator",
+      "lines": [
+       {
+        "text": "Enter the hours as the $x$ values and the scores as the $y$ values."
+       },
+       {
+        "text": "Read off the correlation coefficient $r$."
+       },
+       {
+        "tex": "r &\\approx 0.7746"
+       }
+      ]
+     }
+    ],
+    "final": "r = 0.7746"
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q1#(b), (c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Compare the two tests",
+      "lines": [
+       {
+        "text": "Every student swam further in the re-test than in the initial test, so everyone improved."
+       },
+       {
+        "text": "The improvements were not equal: 22 m rose by 3 m, but 61 m rose by 289 m."
+       },
+       {
+        "text": "The points curve upwards, not along a straight line, so the stronger swimmers improved by much more than the weaker ones."
+       }
+      ]
+     },
+     {
+      "title": "Find r with the calculator",
+      "lines": [
+       {
+        "text": "Enter the initial test distances as $x$ and the re-test distances as $y$ in statistics mode, then read the correlation coefficient."
+       },
+       {
+        "tex": "r &= 0.91451\\ldots"
+       },
+       {
+        "tex": "r &\\approx 0.9145"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The better swimmers improved more;}\\; r = 0.9145"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q8#(a)(v), (b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sums needed",
+      "lines": [
+       {
+        "text": "Let $x$ be city and $y$ be motorway, with $n = 8$ cars."
+       },
+       {
+        "tex": "\\sum x &= 172, \\quad \\sum y = 257"
+       },
+       {
+        "tex": "\\sum xy &= 5722, \\quad \\sum x^2 = 3900, \\quad \\sum y^2 = 8461"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the top of the formula",
+      "lines": [
+       {
+        "text": "$r = \\dfrac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}$"
+       },
+       {
+        "tex": "n\\sum xy - \\sum x \\sum y &= 8(5722) - (172)(257)"
+       },
+       {
+        "tex": "&= 45776 - 44204"
+       },
+       {
+        "tex": "&= 1572"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the bottom of the formula",
+      "lines": [
+       {
+        "tex": "n\\sum x^2 - (\\sum x)^2 &= 8(3900) - 172^2"
+       },
+       {
+        "tex": "&= 1616"
+       },
+       {
+        "tex": "n\\sum y^2 - (\\sum y)^2 &= 8(8461) - 257^2"
+       },
+       {
+        "tex": "&= 1639"
+       }
+      ]
+     },
+     {
+      "title": "Calculate r",
+      "lines": [
+       {
+        "tex": "r &= \\frac{1572}{\\sqrt{1616 \\times 1639}}"
+       },
+       {
+        "tex": "&= 0.9659\\ldots"
+       },
+       {
+        "tex": "&= 0.966"
+       }
+      ]
+     },
+     {
+      "title": "Explain why r can be close to 0 in part (b)",
+      "lines": [
+       {
+        "text": "The correlation coefficient measures how well the points fit a straight line. These points follow a quadratic (U-shaped) curve, which is symmetrical, so no straight line fits them and $r_{FS}$ is close to 0."
+       }
+      ]
+     }
+    ],
+    "final": "r = 0.966;\\ \\text{correlation measures linear relationships, and this data is quadratic}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q5#(a)(i), (ii), (iii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "(i) List the red cubes and find their total",
+      "lines": [
+       {
+        "text": "Red cubes per trial (A to G): $0, 3, 2, 2, 4, 5, 1$."
+       },
+       {
+        "tex": "\\sum x &= 0 + 3 + 2 + 2 + 4 + 5 + 1"
+       },
+       {
+        "tex": "&= 17"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the mean",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{\\sum x}{n} = \\frac{17}{7}"
+       },
+       {
+        "tex": "&= 2.42\\ldots"
+       },
+       {
+        "tex": "&= 2.4"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the sum of the squares of the red values",
+      "lines": [
+       {
+        "tex": "\\sum x^2 &= 0^2 + 3^2 + 2^2 + 2^2 + 4^2 + 5^2 + 1^2"
+       },
+       {
+        "tex": "&= 0 + 9 + 4 + 4 + 16 + 25 + 1"
+       },
+       {
+        "tex": "&= 59"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the variance",
+      "lines": [
+       {
+        "text": "Use $\\sigma^2 = \\dfrac{\\sum x^2}{n} - \\bar{x}^2$."
+       },
+       {
+        "tex": "\\sigma^2 &= \\frac{59}{7} - \\left(\\frac{17}{7}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{413}{49} - \\frac{289}{49}"
+       },
+       {
+        "tex": "&= \\frac{124}{49}"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the standard deviation",
+      "lines": [
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{124}{49}}"
+       },
+       {
+        "tex": "&= 1.59\\ldots"
+       },
+       {
+        "tex": "&= 1.6"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Set up the correlation calculation",
+      "lines": [
+       {
+        "text": "Let $x$ be the red cubes and $y$ the green cubes, with $n = 7$. Green cubes per trial: $4, 2, 0, 3, 0, 0, 2$."
+       },
+       {
+        "tex": "\\sum y &= 4 + 2 + 0 + 3 + 0 + 0 + 2"
+       },
+       {
+        "tex": "&= 11"
+       },
+       {
+        "tex": "\\sum y^2 &= 16 + 4 + 0 + 9 + 0 + 0 + 4"
+       },
+       {
+        "tex": "&= 33"
+       },
+       {
+        "tex": "\\sum xy &= 0(4) + 3(2) + 2(0) + 2(3) + 4(0) + 5(0) + 1(2)"
+       },
+       {
+        "tex": "&= 0 + 6 + 0 + 6 + 0 + 0 + 2"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Substitute into the correlation formula",
+      "lines": [
+       {
+        "text": "Use $\\sum x = 17$, $\\sum x^2 = 59$, $\\sum y = 11$, $\\sum y^2 = 33$, $\\sum xy = 14$."
+       },
+       {
+        "tex": "r &= \\frac{n\\sum xy - \\sum x \\sum y}{\\sqrt{\\left(n\\sum x^2 - (\\sum x)^2\\right)\\left(n\\sum y^2 - (\\sum y)^2\\right)}}"
+       },
+       {
+        "tex": "&= \\frac{7(14) - (17)(11)}{\\sqrt{\\left(7(59) - 17^2\\right)\\left(7(33) - 11^2\\right)}}"
+       },
+       {
+        "tex": "&= \\frac{98 - 187}{\\sqrt{(413 - 289)(231 - 121)}}"
+       },
+       {
+        "tex": "&= \\frac{-89}{\\sqrt{124 \\times 110}}"
+       },
+       {
+        "tex": "&= \\frac{-89}{\\sqrt{13640}}"
+       },
+       {
+        "tex": "&= -0.76204\\ldots"
+       },
+       {
+        "tex": "&= -0.762"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Explain why the correlation is negative",
+      "lines": [
+       {
+        "text": "Each trial picks exactly $5$ cubes, so the red, green and blue counts always add to $5$."
+       },
+       {
+        "text": "If a trial has more red cubes, there is less room for green cubes, so fewer green cubes are likely."
+       },
+       {
+        "text": "As the number of red cubes increases, the number of green cubes tends to decrease, so the correlation coefficient is negative."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{mean} = 2.4, \\quad \\sigma = 1.6, \\quad r = -0.762"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-populations-samples",
+   "title": "Distinguish population and sample; judge generalisation",
+   "level": "OL",
+   "input": "study description",
+   "output": "population, sample, how far conclusions generalise"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q10#(a)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Give an advantage of a sample",
+      "lines": [
+       {
+        "text": "A sample is cheaper and faster than surveying everyone in the population."
+       }
+      ]
+     },
+     {
+      "title": "Give a disadvantage of a sample",
+      "lines": [
+       {
+        "text": "A sample is less accurate, and it may be biased if it does not represent the whole population."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Advantage: cheaper or faster. Disadvantage: less accurate (sampling bias).}"
+   },
+   {
+    "part": "practice-stat-populations-samples-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school has 1200 students. A sample of 150 of them is surveyed about travel to school.\nWhat percentage of the population is in the sample?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: all 1200 students. Sample: the 150 students surveyed."
+       }
+      ]
+     },
+     {
+      "title": "Write the sample as a fraction of the population",
+      "lines": [
+       {
+        "tex": "\\text{Fraction} &= \\frac{150}{1200} = \\frac{1}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{1}{8} \\times 100 &= 12.5"
+       }
+      ]
+     }
+    ],
+    "final": "12.5\\%"
+   },
+   {
+    "part": "practice-stat-populations-samples-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A town has 4500 adults. A sample of 90 adults is chosen to find out how they feel about a new bypass.\nThe sample is 1 in every how many adults in the town?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: the 4500 adults in the town. Sample: the 90 adults chosen."
+       }
+      ]
+     },
+     {
+      "title": "Divide the population by the sample",
+      "lines": [
+       {
+        "tex": "\\frac{4500}{90} &= 50"
+       }
+      ]
+     },
+     {
+      "title": "State the result",
+      "lines": [
+       {
+        "text": "The sample is 1 in every 50 adults, so conclusions only generalise if these 90 represent the town."
+       }
+      ]
+     }
+    ],
+    "final": "50"
+   },
+   {
+    "part": "practice-stat-populations-samples-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A scientist wants to find the mean length of the 800 trout in a lake. She catches 40 of the trout and measures them.\nIdentify the population and the sample, and write the sample as a percentage of the population.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: all 800 trout in the lake. Sample: the 40 trout caught and measured."
+       }
+      ]
+     },
+     {
+      "title": "Write the sample as a fraction of the population",
+      "lines": [
+       {
+        "tex": "\\text{Fraction} &= \\frac{40}{800} = \\frac{1}{20}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{1}{20} \\times 100 &= 5"
+       }
+      ]
+     }
+    ],
+    "final": "5\\%"
+   }
+  ]
+ }
+]

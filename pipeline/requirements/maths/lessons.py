@@ -273,14 +273,20 @@ def jobs():
 def outputs(reviewed=True):
     """Lessons by skill: first pass out/L*.json, replaced by fix-round fixed/F*.json, then by Sonnet-reviewed
     reviewed/R*.json where the reviewer rewrote it (problems not null) and the rewrite passes check_lesson."""
+    path = HERE / 'audit' / 'dropped.json'
+    dropped = json.loads(path.read_text()) if path.exists() else {}
+    stale = lambda o: any(p.get('part') in dropped.get(o['skill'], ()) for p in o.get('problems') or [])
     outs = {}
-    for f in sorted((WORK / 'out').glob('*.json')) + sorted((WORK / 'fixed').glob('F*.json')):
+    for f in sorted((WORK / 'out').glob('*.json')):
         outs.update({o['skill']: o for o in json.loads(f.read_text())})
+    # a fix or review only replaces a lesson if it still holds: no part the method audit dropped
+    for f in sorted((WORK / 'fixed').glob('F*.json')):
+        outs.update({o['skill']: o for o in json.loads(f.read_text()) if not stale(o)})
     if reviewed:
         js = jobs()
         for f in sorted((WORK / 'reviewed').glob('R*.json')):
             for o in json.loads(f.read_text()):
-                if o.get('problems') and o['skill'] in js and not check_lesson(js[o['skill']], o):
+                if o.get('problems') and o['skill'] in js and not stale(o) and not check_lesson(js[o['skill']], o):
                     outs[o['skill']] = o
     return outs
 

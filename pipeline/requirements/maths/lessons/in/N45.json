@@ -1,0 +1,1141 @@
+[
+ {
+  "skill": {
+   "id": "stat-quartiles-iqr",
+   "title": "Find quartiles and the interquartile range",
+   "level": "OL",
+   "input": "data set",
+   "output": "Q₁, Q₂, Q₃, IQR"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(b)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the smallest and largest possible heights",
+      "lines": [
+       {
+        "text": "The tallest girl is at most $185$ cm and the shortest is at least $145$ cm."
+       },
+       {
+        "tex": "\\text{Range} &= 185 - 145"
+       },
+       {
+        "tex": "&= 40 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "40 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Range = highest minus lowest",
+      "lines": [
+       {
+        "text": "Highest rainfall is 155 mm (2003). Lowest is 47 mm (2006)."
+       },
+       {
+        "tex": "\\text{Range} &= 155 - 47"
+       },
+       {
+        "tex": "&= 108 \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "title": "Year of highest rainfall",
+      "lines": [
+       {
+        "text": "The largest rainfall value, 155 mm, is in 2003."
+       }
+      ]
+     },
+     {
+      "title": "Year of least sunshine",
+      "lines": [
+       {
+        "text": "The smallest sunshine value, 124 hours, is in 2002."
+       }
+      ]
+     }
+    ],
+    "final": "108 \\text{ mm}, \\ 2003, \\ 2002"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(a)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the maximum, minimum and range for Fish",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 177"
+       },
+       {
+        "tex": "\\text{Minimum} &= 59"
+       },
+       {
+        "tex": "\\text{Range} &= 177 - 59"
+       },
+       {
+        "tex": "&= 118"
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum, minimum and range for Milk, Cheese and Eggs",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 175"
+       },
+       {
+        "tex": "\\text{Minimum} &= 65"
+       },
+       {
+        "tex": "\\text{Range} &= 175 - 65"
+       },
+       {
+        "tex": "&= 110"
+       }
+      ]
+     },
+     {
+      "title": "Find the maximum, minimum and range for Fruits, Vegetables and Potatoes",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 172"
+       },
+       {
+        "tex": "\\text{Minimum} &= 48"
+       },
+       {
+        "tex": "\\text{Range} &= 172 - 48"
+       },
+       {
+        "tex": "&= 124"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Fish } 177, 59, 118;\\ \\text{Milk } 175, 65, 110;\\ \\text{Fruit } 172, 48, 124"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p2-q1#(b)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split the 12 ranked values into a lower and upper half",
+      "lines": [
+       {
+        "text": "There are 12 values, so the lower half is the first 6: $42, 64, 93, 94, 114, 114$."
+       }
+      ]
+     },
+     {
+      "title": "Find Q1 as the median of the lower half",
+      "lines": [
+       {
+        "text": "The median of 6 values is the mean of the 3rd and 4th values: $93$ and $94$."
+       },
+       {
+        "tex": "Q_1 &= \\frac{93+94}{2}"
+       },
+       {
+        "tex": "&= \\frac{187}{2}"
+       },
+       {
+        "tex": "&= 93.5 \\text{ mm}"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to get the interquartile range",
+      "lines": [
+       {
+        "tex": "\\text{IQR} &= Q_3 - Q_1"
+       },
+       {
+        "tex": "&= 183 - 93.5"
+       },
+       {
+        "tex": "&= 89.5 \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "Q_1 = 93.5 \\text{ mm}, \\quad \\text{IQR} = 89.5 \\text{ mm}"
+   },
+   {
+    "part": "practice-stat-quartiles-iqr-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The number of text messages sent by 11 students in one day is shown, in order.\n$3, \\; 5, \\; 6, \\; 8, \\; 9, \\; 12, \\; 14, \\; 15, \\; 17, \\; 20, \\; 22$\nFind $Q_1$, $Q_3$ and the interquartile range.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the median and split the ranked values into halves",
+      "lines": [
+       {
+        "text": "There are 11 values, so the median is the 6th value, $12$."
+       },
+       {
+        "text": "The lower half is $3, 5, 6, 8, 9$ and the upper half is $14, 15, 17, 20, 22$, leaving the median out."
+       }
+      ]
+     },
+     {
+      "title": "Find Q1 as the median of the lower half",
+      "lines": [
+       {
+        "text": "The median of 5 values is the 3rd value."
+       },
+       {
+        "tex": "Q_1 &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Find Q3 as the median of the upper half",
+      "lines": [
+       {
+        "text": "The median of 5 values is the 3rd value."
+       },
+       {
+        "tex": "Q_3 &= 17"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to get the interquartile range",
+      "lines": [
+       {
+        "tex": "\\text{IQR} &= Q_3 - Q_1"
+       },
+       {
+        "tex": "&= 17 - 6"
+       },
+       {
+        "tex": "&= 11"
+       }
+      ]
+     }
+    ],
+    "final": "Q_1 = 6, \\quad Q_3 = 17, \\quad \\text{IQR} = 11"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(a)(i), (ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the median using the middle two values",
+      "lines": [
+       {
+        "text": "There are 12 ages, so the median is the mean of the 6th and 7th values. These are $x$ and $18$."
+       },
+       {
+        "tex": "\\text{Median} &= \\frac{x + 18}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Set the median equal to 17.5 and solve",
+      "lines": [
+       {
+        "tex": "\\frac{x + 18}{2} &= 17.5"
+       },
+       {
+        "tex": "x + 18 &= 35"
+       },
+       {
+        "tex": "x &= 17"
+       }
+      ]
+     },
+     {
+      "title": "Find Q3 from the top six ages",
+      "lines": [
+       {
+        "text": "With $x = 17$ the top six ages are $18, 18, 19, 22, 25, 30$. $Q_3$ is the median of these, the mean of the 3rd and 4th."
+       },
+       {
+        "tex": "Q_3 &= \\frac{19 + 22}{2}"
+       },
+       {
+        "tex": "&= \\frac{41}{2}"
+       },
+       {
+        "tex": "&= 20.5"
+       }
+      ]
+     },
+     {
+      "title": "Work out the interquartile range",
+      "lines": [
+       {
+        "tex": "\\text{IQR} &= Q_3 - Q_1"
+       },
+       {
+        "tex": "&= 20.5 - 13"
+       },
+       {
+        "tex": "&= 7.5"
+       }
+      ]
+     }
+    ],
+    "final": "x = 17, \\quad \\text{IQR} = 7.5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-sd",
+   "title": "Calculate standard deviation (calculator)",
+   "level": "OL",
+   "input": "data set or frequency table",
+   "output": "σ"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(d)(ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Compare the spreads",
+      "lines": [
+       {
+        "text": "The girls' standard deviation ($7.7$ cm) is smaller than the boys' ($8.9$ cm), so the girls' heights are less spread out and closer to their mean. The boys' heights vary more."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Girls' heights are less spread out}"
+   },
+   {
+    "part": "maths-pp-2019-ordinary-p2-q7#(c)(ii)",
+    "level": "ordinary",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the calculator in statistics mode",
+      "lines": [
+       {
+        "text": "Enter the 13 Meat values into the calculator and read off the population standard deviation $\\sigma$."
+       },
+       {
+        "tex": "\\sigma &\\approx 50.99"
+       },
+       {
+        "tex": "&\\approx 51"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}51"
+   },
+   {
+    "part": "practice-stat-sd-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The number of minutes late that 8 trains arrived at a station is\n$3,\\ 5,\\ 5,\\ 5,\\ 6,\\ 6,\\ 8,\\ 10$\nUse your calculator to find the standard deviation $\\sigma$ of these values.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the calculator in statistics mode",
+      "lines": [
+       {
+        "text": "Enter the 8 values into the calculator and read off the population standard deviation $\\sigma$."
+       }
+      ]
+     },
+     {
+      "title": "Read off the answer",
+      "lines": [
+       {
+        "tex": "\\sigma &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   },
+   {
+    "part": "practice-stat-sd-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A café records how many minutes each of 12 customers waited for their order.\n\n| Minutes | 3 | 6 | 9 | 12 | 15 |\n| Customers | 1 | 2 | 6 | 2 | 1 |\n\nUse your calculator to find the standard deviation $\\sigma$ of the waiting time.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the calculator in statistics mode",
+      "lines": [
+       {
+        "text": "Enter the minutes as the values and the number of customers as their frequencies, then read off the population standard deviation $\\sigma$."
+       }
+      ]
+     },
+     {
+      "title": "Read off the answer",
+      "lines": [
+       {
+        "tex": "\\sigma &= 3"
+       },
+       {
+        "text": "The standard deviation is 3 minutes."
+       }
+      ]
+     }
+    ],
+    "final": "3"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q7#(e)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the mean of the rainfall",
+      "lines": [
+       {
+        "tex": "\\text{Sum} &= 72+133+155+101+94+47+149+134+94+84"
+       },
+       {
+        "tex": "&= 1063"
+       },
+       {
+        "tex": "\\mu &= \\frac{1063}{10}"
+       },
+       {
+        "tex": "&= 106.3"
+       }
+      ]
+     },
+     {
+      "title": "Square each difference from the mean",
+      "lines": [
+       {
+        "tex": "(72 - 106.3)^2 &= 1176.49"
+       },
+       {
+        "tex": "(133 - 106.3)^2 &= 712.89"
+       },
+       {
+        "tex": "(155 - 106.3)^2 &= 2371.69"
+       },
+       {
+        "tex": "(101 - 106.3)^2 &= 28.09"
+       },
+       {
+        "tex": "(94 - 106.3)^2 &= 151.29"
+       },
+       {
+        "tex": "(47 - 106.3)^2 &= 3516.49"
+       },
+       {
+        "tex": "(149 - 106.3)^2 &= 1823.29"
+       },
+       {
+        "tex": "(134 - 106.3)^2 &= 767.29"
+       },
+       {
+        "tex": "(94 - 106.3)^2 &= 151.29"
+       },
+       {
+        "tex": "(84 - 106.3)^2 &= 497.29"
+       }
+      ]
+     },
+     {
+      "title": "Add the squares",
+      "lines": [
+       {
+        "tex": "\\sum (x-\\mu)^2 &= 1176.49+712.89+2371.69+28.09+151.29+3516.49+1823.29+767.29+151.29+497.29"
+       },
+       {
+        "tex": "&= 11196.1"
+       }
+      ]
+     },
+     {
+      "title": "Divide by n and take the square root",
+      "lines": [
+       {
+        "tex": "\\sigma^2 &= \\frac{11196.1}{10}"
+       },
+       {
+        "tex": "&= 1119.61"
+       },
+       {
+        "tex": "\\sigma &= \\sqrt{1119.61}"
+       },
+       {
+        "tex": "&= 33.46"
+       },
+       {
+        "tex": "&\\approx 33.5 \\text{ mm}"
+       }
+      ]
+     }
+    ],
+    "final": "33.5 \\text{ mm}"
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q4#(c)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the range",
+      "lines": [
+       {
+        "text": "Range = largest value $-$ smallest value."
+       },
+       {
+        "tex": "\\text{Range} &= 113 - 82"
+       },
+       {
+        "tex": "&= 31"
+       }
+      ]
+     },
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "tex": "\\bar{x} &= \\frac{104 + 82 + 94 + 113 + 98 + 105}{6}"
+       },
+       {
+        "tex": "&= \\frac{596}{6}"
+       },
+       {
+        "tex": "&= \\frac{298}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the standard deviation formula",
+      "lines": [
+       {
+        "text": "$\\sigma = \\sqrt{\\dfrac{\\sum (x - \\bar{x})^2}{n}}$ with $n = 6$. You can also read $\\sigma$ straight from a calculator."
+       },
+       {
+        "tex": "\\sigma &= \\sqrt{\\frac{(104 - \\bar{x})^2 + (82 - \\bar{x})^2 + (94 - \\bar{x})^2 + (113 - \\bar{x})^2 + (98 - \\bar{x})^2 + (105 - \\bar{x})^2}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\left(\\frac{14}{3}\\right)^2 + \\left(-\\frac{52}{3}\\right)^2 + \\left(-\\frac{16}{3}\\right)^2 + \\left(\\frac{41}{3}\\right)^2 + \\left(-\\frac{4}{3}\\right)^2 + \\left(\\frac{17}{3}\\right)^2}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{196}{9} + \\frac{2704}{9} + \\frac{256}{9} + \\frac{1681}{9} + \\frac{16}{9} + \\frac{289}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{196 + 2704 + 256 + 1681 + 16 + 289}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{\\frac{5142}{9}}{6}}"
+       },
+       {
+        "tex": "&= \\sqrt{\\frac{857}{9}}"
+       },
+       {
+        "tex": "&= 9.758\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Round to 1 decimal place",
+      "lines": [
+       {
+        "tex": "\\sigma &\\approx 9.8"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Range} = 31, \\quad \\sigma = 9.8"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-srs-bias",
+   "title": "Select a simple random sample and spot bias",
+   "level": "OL",
+   "input": "population + sampling method",
+   "output": "SRS procedure; source of bias"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-srs-bias-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A teacher numbers her 300 students from 1 to 300 and uses a random number generator to pick 25 different numbers. Every student is equally likely to be chosen.\nFind the probability that a particular student is in the sample.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Say why the method is a simple random sample",
+      "lines": [
+       {
+        "text": "Every student has the same chance of selection, so there is no bias."
+       }
+      ]
+     },
+     {
+      "title": "Find the probability",
+      "lines": [
+       {
+        "tex": "P &= \\frac{25}{300} = \\frac{1}{12}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{12}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q9#(a)(i), (iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Pick the classes that could be over 100",
+      "lines": [
+       {
+        "text": "The class 90 to 120 includes students above 100, and every class above it is entirely above 100."
+       },
+       {
+        "text": "At most, all 59 students in 90 to 120 read for more than 100 minutes."
+       }
+      ]
+     },
+     {
+      "title": "(i) Add the frequencies",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 59 + 18 + 10"
+       },
+       {
+        "tex": "&= 87"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Say why the sampling method is limited",
+      "lines": [
+       {
+        "text": "Only the first 200 students to arrive were asked, so the sample is not random."
+       },
+       {
+        "text": "These could be local students, or students arriving together on school buses."
+       },
+       {
+        "text": "Students who arrive later are left out, so the sample may not be representative."
+       }
+      ]
+     }
+    ],
+    "final": "87 \\text{ students}"
+   },
+   {
+    "part": "practice-stat-srs-bias-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A radio station phones 500 residents at 11 a.m. on a weekday to ask about a new road. 180 of the residents are at work and do not answer.\nWhat percentage of the residents are left out of the poll?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{180}{500} &= \\frac{9}{25}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{9}{25} \\times 100 &= 36"
+       }
+      ]
+     }
+    ],
+    "final": "36\\%"
+   },
+   {
+    "part": "practice-stat-srs-bias-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A radio station wants to know what the 2500 adults in a town think of a new library opening time. It asks listeners to vote on its website. 600 of the adults in the town do not use the internet.\nExplain why this method is biased, and write the percentage of the adults who are left out.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "A website vote leaves out adults who do not use the internet, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{600}{2500} &= \\frac{6}{25}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{6}{25} \\times 100 &= 24"
+       }
+      ]
+     }
+    ],
+    "final": "24\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-confidence-width",
+   "title": "Relate confidence level, sample size and interval width",
+   "level": "HL",
+   "input": "interval requirements",
+   "output": "wider/narrower; n needed for a margin"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Statement 1: Always true",
+      "lines": [
+       {
+        "text": "A higher confidence level needs a larger $z$-value, so the margin of error, and the interval, gets wider."
+       }
+      ]
+     },
+     {
+      "title": "Statement 2: Sometimes true",
+      "lines": [
+       {
+        "tex": "\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}"
+       },
+       {
+        "text": "$\\hat{p}(1-\\hat{p})$ increases as $\\hat{p}$ rises towards $0.5$ and then decreases, so the standard error does not always increase."
+       }
+      ]
+     },
+     {
+      "title": "Statement 3: Always true",
+      "lines": [
+       {
+        "text": "With $n$ fixed, the standard error is the square root of $\\hat{p}(1-\\hat{p})$ divided by $n$, so it rises whenever $\\hat{p}(1-\\hat{p})$ rises."
+       }
+      ]
+     },
+     {
+      "title": "Statement 4: Never true",
+      "lines": [
+       {
+        "text": "Increasing $n$ makes $\\frac{\\hat{p}(1-\\hat{p})}{n}$ smaller, so the standard error always decreases."
+       }
+      ]
+     }
+    ],
+    "final": "1\\text{ Always},\\ 2\\text{ Sometimes},\\ 3\\text{ Always},\\ 4\\text{ Never}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(c)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "text": "The interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$."
+       },
+       {
+        "tex": "\\text{margin} &= 0.435 - 0.35"
+       },
+       {
+        "tex": "&= 0.085"
+       }
+      ]
+     },
+     {
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.35 \\times 0.65"
+       },
+       {
+        "tex": "&= 0.2275"
+       }
+      ]
+     },
+     {
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.2275}{n}} &= 0.085"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.2275}{n}} &= \\frac{0.085}{1.96}"
+       },
+       {
+        "tex": "\\frac{0.2275}{n} &= \\left(\\frac{0.085}{1.96}\\right)^2"
+       },
+       {
+        "tex": "n &= \\frac{0.2275}{\\left(\\frac{0.085}{1.96}\\right)^2}"
+       },
+       {
+        "tex": "&= 120.96\\ldots"
+       },
+       {
+        "tex": "&\\approx 121"
+       }
+      ]
+     }
+    ],
+    "final": "n = 121"
+   },
+   {
+    "part": "practice-inf-confidence-width-1",
+    "level": "higher",
+    "year": null,
+    "question": "A 95% confidence interval for a population proportion is constructed from a random sample of size $n = 200$. The margin of error is $0.06$.\nThe sample proportion $\\hat{p}$ stays the same. Find the sample size needed to reduce the margin of error to $0.03$, at the same confidence level.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the margin of error using n",
+      "lines": [
+       {
+        "text": "Let $k = 1.96\\sqrt{\\hat{p}(1-\\hat{p})}$. It does not change, so the margin of error is $\\frac{k}{\\sqrt{n}}$."
+       }
+      ]
+     },
+     {
+      "title": "Write the two margins",
+      "lines": [
+       {
+        "tex": "\\frac{k}{\\sqrt{200}} &= 0.06"
+       },
+       {
+        "tex": "\\frac{k}{\\sqrt{n}} &= 0.03"
+       }
+      ]
+     },
+     {
+      "title": "Divide the second by the first",
+      "lines": [
+       {
+        "tex": "\\frac{\\sqrt{200}}{\\sqrt{n}} &= \\frac{1}{2}"
+       },
+       {
+        "tex": "\\frac{200}{n} &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "n &= 800"
+       },
+       {
+        "text": "Halving the margin of error needs 4 times the sample size."
+       }
+      ]
+     }
+    ],
+    "final": "n = 800"
+   },
+   {
+    "part": "practice-inf-confidence-width-2",
+    "level": "higher",
+    "year": null,
+    "question": "A 95% confidence interval for a population proportion is $(0.1608,\\ 0.2392)$.\nIt was found from a random sample of size $n$. Find $n$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{0.1608 + 0.2392}{2} = 0.2"
+       },
+       {
+        "tex": "\\text{margin} &= 0.2392 - 0.2 = 0.0392"
+       }
+      ]
+     },
+     {
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.2 \\times 0.8"
+       },
+       {
+        "tex": "&= 0.16"
+       }
+      ]
+     },
+     {
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.16}{n}} &= 0.0392"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.16}{n}} &= 0.02"
+       },
+       {
+        "tex": "\\frac{0.16}{n} &= 0.0004"
+       },
+       {
+        "tex": "n &= 400"
+       }
+      ]
+     }
+    ],
+    "final": "n = 400"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-interpret",
+   "title": "Interpret an analysis and relate it to the original question",
+   "level": "OL",
+   "input": "results of analysis",
+   "output": "conclusion in context"
+  },
+  "candidates": [
+   {
+    "part": "practice-inf-interpret-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A survey asks 400 randomly chosen people whether they prefer brand A to brand B. 56% prefer brand A. The margin of error is $\\dfrac{1}{\\sqrt{n}}$, where $n$ is the sample size.\nFind the lower end of the interval for the true percentage who prefer A, and use it to say whether most people prefer A.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "\\frac{1}{\\sqrt{400}} &= \\frac{1}{20}"
+       },
+       {
+        "tex": "&= 0.05"
+       },
+       {
+        "tex": "&= 5\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the interval",
+      "lines": [
+       {
+        "tex": "56 - 5 &= 51"
+       },
+       {
+        "tex": "56 + 5 &= 61"
+       },
+       {
+        "text": "The true percentage is likely to be between $51\\%$ and $61\\%$."
+       }
+      ]
+     },
+     {
+      "title": "Answer the survey question",
+      "lines": [
+       {
+        "text": "The whole interval is above $50\\%$, so the survey suggests that most people prefer brand A."
+       }
+      ]
+     }
+    ],
+    "final": "51\\%"
+   },
+   {
+    "part": "practice-inf-interpret-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A games company claims that 40% of its players buy an upgrade. A random sample of players gives a 95% confidence interval of $[43.1\\%,\\ 52.9\\%]$ for the true percentage who buy an upgrade.\nFind the sample percentage, which is the centre of the interval, and say whether the interval supports the company's claim.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the sample percentage",
+      "lines": [
+       {
+        "tex": "\\frac{43.1 + 52.9}{2} &= \\frac{96}{2}"
+       },
+       {
+        "tex": "&= 48"
+       }
+      ]
+     },
+     {
+      "title": "Compare the claim with the interval",
+      "lines": [
+       {
+        "text": "$H_0$: $p = 40\\%$. $H_1$: $p \\ne 40\\%$."
+       },
+       {
+        "tex": "40 &\\notin [43.1,\\ 52.9]"
+       },
+       {
+        "text": "The claimed $40\\%$ is outside the interval, so reject $H_0$."
+       }
+      ]
+     },
+     {
+      "title": "Conclude in context",
+      "lines": [
+       {
+        "text": "The sample does not support the claim. The percentage of players who buy an upgrade is probably higher than $40\\%$."
+       }
+      ]
+     }
+    ],
+    "final": "48\\%"
+   },
+   {
+    "part": "practice-inf-interpret-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school says the mean time its students spend on homework is 50 minutes. A random sample of 100 students has a mean of 52 minutes and a standard deviation of 10 minutes. Test $H_0: \\mu = 50$ against $H_1: \\mu \\ne 50$ at the 5% level of significance.\nFind the test statistic $z$ and use it to state your conclusion.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the test statistic",
+      "lines": [
+       {
+        "text": "Use $z = \\dfrac{\\bar{x} - \\mu}{s / \\sqrt{n}}$."
+       },
+       {
+        "tex": "z &= \\frac{52 - 50}{10/\\sqrt{100}}"
+       },
+       {
+        "tex": "&= \\frac{2}{10/10}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Compare with the critical values",
+      "lines": [
+       {
+        "text": "At the 5% level, two-tailed, the critical values are $\\pm 1.96$."
+       },
+       {
+        "tex": "2 &> 1.96"
+       }
+      ]
+     },
+     {
+      "title": "Conclude in context",
+      "lines": [
+       {
+        "text": "$z$ is outside $[-1.96,\\ 1.96]$, so reject $H_0$. There is evidence that the mean homework time is not $50$ minutes. It is probably longer."
+       }
+      ]
+     }
+    ],
+    "final": "z = 2 > 1.96\\text{, so reject } H_0"
+   },
+   {
+    "part": "practice-inf-interpret-4",
+    "level": "ordinary",
+    "year": null,
+    "question": "In a poll of 400 randomly chosen voters, $46\\%$ said they would vote for Ciara in an election between two candidates.\nUse the margin of error $\\frac{1}{\\sqrt{n}}$ to find an interval for the true percentage of voters who support Ciara, and say whether the poll shows she will win.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the margin of error",
+      "lines": [
+       {
+        "tex": "\\frac{1}{\\sqrt{400}} &= \\frac{1}{20}"
+       },
+       {
+        "tex": "&= 0.05"
+       },
+       {
+        "tex": "&= 5\\%"
+       }
+      ]
+     },
+     {
+      "title": "Find the interval",
+      "lines": [
+       {
+        "tex": "46 - 5 &= 41"
+       },
+       {
+        "tex": "46 + 5 &= 51"
+       },
+       {
+        "text": "The true percentage is likely to be between $41\\%$ and $51\\%$."
+       }
+      ]
+     },
+     {
+      "title": "Answer the question",
+      "lines": [
+       {
+        "text": "The interval includes values below $50\\%$ and above $50\\%$, so the poll does not show that Ciara will win. The result is too close to call."
+       }
+      ]
+     }
+    ],
+    "final": "[41\\%,\\ 51\\%]"
+   }
+  ]
+ }
+]
