@@ -82,6 +82,15 @@ def as_answer(text):
     return ('list', list(v)) if kind == 'one' and isinstance(v, (list, tuple, mv.sp.Tuple)) else (kind, v)
 
 
+def has_control(o):
+    if isinstance(o, str):
+        return bool(re.search(r'[\x00-\x09\x0b-\x1f]', o))
+    return any(map(has_control, o.values() if isinstance(o, dict) else o if isinstance(o, list) else []))
+
+
+assert has_control({'a': ['\x0crac']}) and not has_control({'a': ['x\ny']})
+
+
 def check_problem(pr):
     errs = []
     if isinstance(pr.get('question'), str):
@@ -95,6 +104,8 @@ def check_problem(pr):
             errs.append(f'missing {f}')
     if errs:
         return errs
+    if has_control(pr):
+        errs.append('control character: a single backslash such as \\frac or \\theta was read as a JSON escape')
     if pr['level'] not in ('higher', 'ordinary'):
         errs.append(f'level {pr["level"]!r}')
     if bare_tex(pr['question']):

@@ -89,7 +89,7 @@
     "workedSolution": {
      "steps": [
       {
-       "title": "Evaluate $4^{-\frac{3}{2}}$",
+       "title": "Evaluate $4^{-\\frac{3}{2}}$",
        "lines": [
         {
          "text": "Remove the negative index, then take the square root and cube."
@@ -116,7 +116,7 @@
        ]
       },
       {
-       "title": "Evaluate $27^{\frac{2}{3}}$",
+       "title": "Evaluate $27^{\\frac{2}{3}}$",
        "lines": [
         {
          "text": "The denominator is the root and the numerator is the power."
