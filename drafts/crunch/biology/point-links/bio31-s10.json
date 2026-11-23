@@ -1,0 +1,778 @@
+{
+ "bio31-s10.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.2.0",
+    "strength": "helpful",
+    "why": "ecosystem defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "helpful",
+    "why": "feeding position in food chain",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s1.2.2",
+    "strength": "essential",
+    "why": "abiotic factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.3.0",
+    "strength": "essential",
+    "why": "habitat as address",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "essential",
+    "why": "niche as role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.0.2",
+    "strength": "essential",
+    "why": "habitat versus niche",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.0.5",
+    "strength": "helpful",
+    "why": "fungi as decomposers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "essential",
+    "why": "niche as way of life",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "essential",
+    "why": "niche as resources used",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "essential",
+    "why": "same niche means same resources",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.1.0",
+    "strength": "essential",
+    "why": "competitive exclusion example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.1.1",
+    "strength": "essential",
+    "why": "grey squirrel advantage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.1.0",
+    "strength": "essential",
+    "why": "competition being reduced",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "helpful",
+    "why": "niche differences",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.1.3",
+    "strength": "essential",
+    "why": "different times of activity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "helpful",
+    "why": "niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "helpful",
+    "why": "niche breadth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.2.0",
+    "strength": "essential",
+    "why": "specialist example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.2.0",
+    "strength": "helpful",
+    "why": "contrast with specialist",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "essential",
+    "why": "niche filled by native",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s10.1.0",
+    "strength": "helpful",
+    "why": "outcompeting natives",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.2.3",
+    "strength": "essential",
+    "why": "invasive species",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s10.1.1",
+    "strength": "helpful",
+    "why": "grey squirrel outcompetes red",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "essential",
+    "why": "niche parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.1.0",
+    "strength": "essential",
+    "why": "trophic level",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s1.3.0",
+    "strength": "helpful",
+    "why": "habitat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.2.0",
+    "strength": "helpful",
+    "why": "food web position",
+    "confidence": "low"
+   },
+   {
+    "id": "bio31-s10.0.0",
+    "strength": "helpful",
+    "why": "activity pattern in niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.0.1",
+    "strength": "essential",
+    "why": "tolerated conditions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s10.0.4",
+    "strength": "essential",
+    "why": "adaptations match niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.4.b": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "helpful",
+    "why": "photosynthesising producers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "essential",
+    "why": "producer",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s10.3.0",
+    "strength": "helpful",
+    "why": "niche answer structure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.4.0",
+    "strength": "helpful",
+    "why": "insect catching niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.4.1",
+    "strength": "helpful",
+    "why": "trapped insect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.4.0",
+    "strength": "essential",
+    "why": "nitrogen-poor peat niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.4.0",
+    "strength": "helpful",
+    "why": "photosynthesis in sunny habitat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.4.1",
+    "strength": "essential",
+    "why": "sticky tentacles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s10.4.2",
+    "strength": "essential",
+    "why": "tentacles bending",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.2",
+    "strength": "helpful",
+    "why": "grazer as consumer",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.2",
+    "strength": "essential",
+    "why": "primary consumer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.5.0",
+    "strength": "helpful",
+    "why": "wave-exposed grazer niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.5.0",
+    "strength": "helpful",
+    "why": "niche conditions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.5.2",
+    "strength": "helpful",
+    "why": "clamping to rock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.5.0",
+    "strength": "essential",
+    "why": "feeds on algae film",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.5.3",
+    "strength": "essential",
+    "why": "home scar sealing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.6.0",
+    "strength": "helpful",
+    "why": "nocturnal hunting niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.3",
+    "strength": "essential",
+    "why": "secondary/tertiary consumer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.6.0",
+    "strength": "essential",
+    "why": "nocturnal predator",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.6.0",
+    "strength": "helpful",
+    "why": "hunting by sound",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.6.2",
+    "strength": "helpful",
+    "why": "locating prey by sound",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.6.0",
+    "strength": "helpful",
+    "why": "hunting in dark",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.6.0",
+    "strength": "helpful",
+    "why": "catching prey",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.7.0",
+    "strength": "helpful",
+    "why": "pollinator niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.0.2",
+    "strength": "essential",
+    "why": "primary consumer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.7.0",
+    "strength": "essential",
+    "why": "feeds on nectar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.7.0",
+    "strength": "essential",
+    "why": "pollen transfer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.7.0",
+    "strength": "helpful",
+    "why": "pollen as food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.7.1",
+    "strength": "helpful",
+    "why": "finding nectar",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.7.0",
+    "strength": "helpful",
+    "why": "flowers as food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.8.0",
+    "strength": "helpful",
+    "why": "detritivore niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s7.0.6",
+    "strength": "essential",
+    "why": "detritivore",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.8.0",
+    "strength": "helpful",
+    "why": "earthworm niche",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.2.0",
+    "strength": "helpful",
+    "why": "prey in food web",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.8.1",
+    "strength": "helpful",
+    "why": "burrowing lifestyle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.8.2",
+    "strength": "helpful",
+    "why": "burrowing body",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.8.1",
+    "strength": "helpful",
+    "why": "burrow walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.8.0",
+    "strength": "helpful",
+    "why": "damp soil niche",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.8.0",
+    "strength": "helpful",
+    "why": "feeding on leaves",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s7.0.6",
+    "strength": "helpful",
+    "why": "detritivore feeding",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s10.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.9.0",
+    "strength": "helpful",
+    "why": "pioneer niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s7.0.0",
+    "strength": "essential",
+    "why": "producer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s10.9.0",
+    "strength": "essential",
+    "why": "dry sand niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.9.0",
+    "strength": "helpful",
+    "why": "dry sand niche",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.9.0",
+    "strength": "essential",
+    "why": "binding sand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s10.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s10.9.0",
+    "strength": "helpful",
+    "why": "shifting sand niche",
+    "confidence": "high"
+   }
+  ]
+ }
+}

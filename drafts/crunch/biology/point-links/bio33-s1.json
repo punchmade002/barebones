@@ -1,0 +1,949 @@
+{
+ "bio33-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.0.2",
+    "strength": "helpful",
+    "why": "decomposers releasing minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.0.3",
+    "strength": "essential",
+    "why": "decomposers return minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.0.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio33-s1.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.0.3",
+    "strength": "helpful",
+    "why": "ammonium released by decomposers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s1.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.0.6",
+    "strength": "helpful",
+    "why": "nitrate produced by nitrification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "helpful",
+    "why": "prokaryote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.2",
+    "strength": "helpful",
+    "why": "micrometre unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.1.2",
+    "strength": "essential",
+    "why": "the cell wall described",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.1.2",
+    "strength": "essential",
+    "why": "cell wall structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.1.5",
+    "strength": "essential",
+    "why": "capsule structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.3.1",
+    "strength": "helpful",
+    "why": "no mitochondria in prokaryotes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.2.0",
+    "strength": "helpful",
+    "why": "nucleoid versus nucleus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.2.2",
+    "strength": "essential",
+    "why": "nucleoid defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.2.4",
+    "strength": "essential",
+    "why": "plasmids defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.1.1",
+    "strength": "helpful",
+    "why": "ribosomes make proteins",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s1.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.2.6",
+    "strength": "essential",
+    "why": "70S ribosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s1.3.3",
+    "strength": "essential",
+    "why": "80S eukaryotic ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.3.1",
+    "strength": "helpful",
+    "why": "pili defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.2.4",
+    "strength": "essential",
+    "why": "plasmid defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s1.5.4",
+    "strength": "helpful",
+    "why": "prokaryote diagram",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.4.0",
+    "strength": "helpful",
+    "why": "coccus shapes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.2.2",
+    "strength": "helpful",
+    "why": "circular chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.5.0",
+    "strength": "essential",
+    "why": "binary fission first stage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.5.0",
+    "strength": "helpful",
+    "why": "binary fission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.5.1",
+    "strength": "helpful",
+    "why": "identical cells from fission",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.2.5",
+    "strength": "helpful",
+    "why": "plasmid gene transfer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.5.4",
+    "strength": "essential",
+    "why": "endospore formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.5.5",
+    "strength": "helpful",
+    "why": "endospore structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.5.6",
+    "strength": "essential",
+    "why": "endospore survival",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.6.0",
+    "strength": "helpful",
+    "why": "autotrophic bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.6.1",
+    "strength": "helpful",
+    "why": "photosynthetic bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.6.0",
+    "strength": "helpful",
+    "why": "autotrophic bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.6.3",
+    "strength": "essential",
+    "why": "chemosynthesis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.0.6",
+    "strength": "helpful",
+    "why": "nitrifying bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.7.0",
+    "strength": "helpful",
+    "why": "heterotrophic feeding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.7.1",
+    "strength": "essential",
+    "why": "secreted enzymes digest food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.7.0",
+    "strength": "helpful",
+    "why": "heterotrophic feeding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.7.5",
+    "strength": "helpful",
+    "why": "aerobes versus anaerobes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.7.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.7.5",
+    "strength": "helpful",
+    "why": "aerobic respiration need",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.1",
+    "strength": "essential",
+    "why": "eukaryote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.4.1",
+    "strength": "helpful",
+    "why": "cell wall types",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.8.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio33-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.3",
+    "strength": "essential",
+    "why": "hyphae defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.3",
+    "strength": "helpful",
+    "why": "mycelium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.8.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio33-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.9.0",
+    "strength": "helpful",
+    "why": "yeast cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.8.3",
+    "strength": "essential",
+    "why": "hyphae and mycelium",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.8.4",
+    "strength": "helpful",
+    "why": "cross-walls (septa)",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.10.2",
+    "strength": "essential",
+    "why": "hyphae of mycelium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.10.3",
+    "strength": "helpful",
+    "why": "stolon touches food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.10.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.10.4",
+    "strength": "essential",
+    "why": "rhizoids defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.10.3",
+    "strength": "helpful",
+    "why": "grow up from stolons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.10.6",
+    "strength": "essential",
+    "why": "sporangiophore tip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.11.0",
+    "strength": "essential",
+    "why": "sporangium defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.11.0",
+    "strength": "essential",
+    "why": "sporangium releases spores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.6",
+    "strength": "helpful",
+    "why": "fungal spores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.7.1",
+    "strength": "helpful",
+    "why": "saprophyte feeding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.11.1",
+    "strength": "helpful",
+    "why": "sporangium and columella",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.2",
+    "strength": "helpful",
+    "why": "no chlorophyll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.7.1",
+    "strength": "helpful",
+    "why": "extracellular digestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.12.1",
+    "strength": "essential",
+    "why": "extracellular digestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.12.2",
+    "strength": "helpful",
+    "why": "digestive products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.0.2",
+    "strength": "helpful",
+    "why": "decomposers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s1.12.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.12.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.0.0",
+    "strength": "helpful",
+    "why": "prokaryote definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s1.0.1",
+    "strength": "helpful",
+    "why": "eukaryote definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.2.2",
+    "strength": "helpful",
+    "why": "bacterial chromosome",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s1.2.2",
+    "strength": "helpful",
+    "why": "histone packaging",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s1.3.3",
+    "strength": "helpful",
+    "why": "70S and 80S ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.1.2",
+    "strength": "helpful",
+    "why": "peptidoglycan wall",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.8.1",
+    "strength": "helpful",
+    "why": "chitin wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.13.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.3",
+    "strength": "helpful",
+    "why": "hyphae and mycelium",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.13.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.14.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.6.0",
+    "strength": "helpful",
+    "why": "autotrophic bacteria",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.7.0",
+    "strength": "helpful",
+    "why": "heterotrophic bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.14.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.5.0",
+    "strength": "helpful",
+    "why": "binary fission",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.8.6",
+    "strength": "helpful",
+    "why": "fungal spores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.14.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.1.4",
+    "strength": "helpful",
+    "why": "penicillin and cell wall",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.2.7",
+    "strength": "helpful",
+    "why": "ribosome-blocking antibiotics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s1.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s1.14.4": {
+  "cost": 1,
+  "needs": []
+ }
+}
