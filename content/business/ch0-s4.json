@@ -162,20 +162,20 @@
   "keyTerms": [
     { "term": "Investigative Study", "definition": "A student-led research report on a business question set by an SEC brief, worth 40% of Leaving Certificate Business." },
     { "term": "Descriptors of Quality", "definition": "The NCCA descriptions of high, moderate and low achievement in planning, investigating, applying and communicating." },
-    { "term": "Overall Coherence", "definition": "The 50 marks awarded for the whole report's organisation, clarity, structure, evidence of planning and reflection, terminology and referencing." },
+    { "term": "Overall Coherence", "definition": "The 50 marks the 2027 SEC brief awards for the report as a whole, not a section; the communicating descriptor rewards coherent, consistent language, clear graphics and acknowledged references." },
     { "term": "Research question", "definition": "The focused question the study sets out to answer, tested against SMART criteria before data collection begins." },
     { "term": "Investigative folder", "definition": "A record of the student's thoughts, sources and changes during the study, which is encouraged but not submitted to the SEC." },
-    { "term": "Authentication", "definition": "The process by which the student, teacher and principal confirm, on Form P.2, that the submitted work is the student's own." },
+    { "term": "Authentication", "definition": "The process by which the student, teacher and school confirm, as the SEC brief instructs, that the submitted work is the student's own." },
     { "term": "Digital work practice", "definition": "A way of doing work that depends on digital tools, such as video calls or shared cloud files." },
     { "term": "Acknowledgement", "definition": "Recording and crediting every source used, including any AI tool with its name, date and how it was used, within the report." },
-    { "term": "Maximum report length", "definition": "1,500 words, not counting references, data tables, graphs, diagrams, images or labels." }
+    { "term": "Maximum report length", "definition": "1,500 words in the 2027 SEC brief, not counting references, data tables, graphs, diagrams, images or labels." }
   ],
   "factCards": [
-    { "term": "Length of the 2027 report", "definition": "No more than 1,500 words; references, data tables, graphs, diagrams, images and labels are not counted." },
+    { "term": "Length of the 2027 report", "definition": "The 2027 SEC brief sets no more than 1,500 words; references, data tables, graphs, diagrams, images and labels are not counted." },
     { "term": "Image allowance in the report", "definition": "No more than 10 images, each labelled as a Figure if referred to, and never used to carry extra text." },
-    { "term": "Date the study goes to the teacher", "definition": "12 March 2027." },
+    { "term": "Date the study goes to the teacher", "definition": "12 March 2027, per the 2027 SEC brief (check the brief itself)." },
     { "term": "Weight of the Investigative Study", "definition": "40% of the overall marks, which is 200 marks." },
-    { "term": "SEC mark allocation for the study", "definition": "Introduction 20, Investigation, Findings, Analysis and Evaluation 100, Conclusion 30, Overall Coherence 50." },
+    { "term": "SEC mark allocation for the study", "definition": "The 2027 SEC brief allocates: Introduction 20, Investigation, Findings, Analysis and Evaluation 100, Conclusion 30, Overall Coherence 50." },
     { "term": "The five report headings", "definition": "Introduction, Investigation and Findings, Analysis and Evaluation, Conclusions, and References, each starting on a new page." },
     { "term": "Suggested word counts by section", "definition": "Introduction about 200, Investigation and Findings about 400, Analysis and Evaluation about 600, Conclusions about 300." },
     { "term": "Report formatting rules", "definition": "Arial, black, size 14 bold headings and size 12 body at 1.5 spacing, portrait, 20 mm margins, page numbers bottom centre, SEC cover page first." },
@@ -184,7 +184,7 @@
   ],
   "questions": [
     { "marks": 20, "prompt": "Explain what the investigating descriptor rewards, and describe what high achievement looks like for a study of a digital work practice.", "model": "The investigating descriptor rewards the range of sources used and the judgement applied to them. High achievement identifies and evaluates the potential value of a wide range of appropriate sources, such as a survey of employees, an interview with a manager and an independent report on the practice, and justifies why each was chosen. Each source is judged for relevance, reliability, how recent it is, bias and purpose, and this judgement is visible in the report rather than assumed. Limitations are clearly identified across the question, the research and the analysis, for example a small survey sample drawn from one workplace." },
-    { "marks": 15, "prompt": "The project plan is not submitted with the Investigative Study. Explain how a student can still earn credit for planning.", "model": "Planning is rewarded through the report itself. The Introduction must reflect on how the student engaged with the project plan, and the Conclusions must outline how planning contributed to completing the study, so the student should keep dated notes of problems met and changes made, such as changing a survey after a low response rate. Evidence of planning and reflection throughout also feeds the 50 marks for Overall Coherence. Sharing the plan with the teacher during the study supports authentication, but the marks depend on specific, honest reflection written into the report." },
+    { "marks": 15, "prompt": "The project plan is not submitted with the Investigative Study. Explain how a student can still earn credit for planning.", "model": "Planning is rewarded through the report itself. The Introduction must reflect on how the student engaged with the project plan, and the Conclusions must outline how planning contributed to completing the study, so the student should keep dated notes of problems met and changes made, such as changing a survey after a low response rate. Sharing the plan with the teacher during the study supports authentication, but the marks depend on specific, honest reflection written into the report." },
     { "marks": 10, "prompt": "State two rules on formatting that a student must follow in the report, and explain why each matters.", "model": "The report body must be no more than 1,500 words, which requires a word budget for each section so that the report stays focused; going over may lose marks. The report must be converted to a PDF that is printed and proof-read, with nothing in the 20 mm margins, because anything that is not visible on the printed copy cannot be seen by the examiner and earns no marks." }
   ]
 }

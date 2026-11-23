@@ -159,7 +159,7 @@
     },
     {
       "term": "AI practices banned outright",
-      "definition": "Social scoring by public authorities and emotion recognition in workplaces and schools."
+      "definition": "Social scoring, and emotion recognition in workplaces and schools."
     },
     {
       "term": "AI Act duties for high-risk uses",
@@ -167,7 +167,7 @@
     },
     {
       "term": "Reporting standards under the CSRD",
-      "definition": "The European Sustainability Reporting Standards, applied with double materiality."
+      "definition": "The European Sustainability Reporting Standards (as first adopted; they were reduced by the 2026 simplification)."
     },
     {
       "term": "Items banned by the Single-Use Plastics Directive",
@@ -178,12 +178,12 @@
     {
       "marks": 25,
       "prompt": "Name an EU regulation, explain how it has been implemented in Ireland, and examine two positive and two negative impacts on named stakeholders.",
-      "model": "The Digital Services Act is an EU regulation, so it applies directly in Ireland without a separate Irish Act, and Coimisiún na Meán acts as Ireland's Digital Services Coordinator to supervise platforms established here. Irish platforms must put notice-and-action systems in place so that users can report illegal content and receive a reason if their content is removed. Positive impact one: consumers gain clearer complaint and appeal routes, which builds trust and protects them from illegal content such as scams. Positive impact two: Irish small businesses that sell through online marketplaces gain a clearer process for disputes with platforms, and one EU-wide standard to follow. Negative impact one: smaller platforms and start-ups face high compliance costs for transparency reports, risk assessments and complaint systems, which can slow their growth. Negative impact two: platforms facing fines of up to 6 per cent of global turnover may remove lawful content to avoid risk, which can restrict the freedom of expression of users. Overall the regulation strengthens user protection and transparency, but its benefits depend on proportionate enforcement."
+      "model": "The Digital Services Act is an EU regulation, so it applies directly in Ireland, and the Digital Services Act 2024 designates Coimisiún na Meán as Ireland's Digital Services Coordinator to supervise platforms established here. Irish platforms must put notice-and-action systems in place so that users can report illegal content and receive a reason if their content is removed. Positive impact one: consumers gain clearer complaint and appeal routes, which builds trust and protects them from illegal content such as scams. Positive impact two: Irish small businesses that sell through online marketplaces gain a clearer process for disputes with platforms, and one EU-wide standard to follow. Negative impact one: smaller platforms and start-ups face high compliance costs for transparency reports, risk assessments and complaint systems, which can slow their growth. Negative impact two: critics argue that fines of up to 6 per cent of global turnover may encourage platforms to remove lawful content to avoid risk, which can restrict the freedom of expression of users. Overall the regulation strengthens user protection and transparency, but its benefits depend on proportionate enforcement."
     },
     {
       "marks": 20,
       "prompt": "Name an EU directive, explain its purpose and evaluate its impact on business in Ireland.",
-      "model": "The Corporate Sustainability Reporting Directive is an EU directive that requires large companies to report on sustainability using the European Sustainability Reporting Standards. Its purpose is to give investors, lenders and other stakeholders reliable and comparable information on environmental, social and governance performance, so that finance is directed toward sustainable firms. Ireland has transposed it into Irish company law, and the duties apply in phases, so a firm must check when it falls within scope. For large Irish firms, the directive requires new data on emissions, workforce and supply chains, which adds cost, but it can reveal efficiency savings and improve access to finance from investors who value sustainability. Smaller Irish suppliers to large companies may be asked for data they do not hold, which adds cost. Overall the directive raises the standard of sustainability reporting and supports ethical practice, although the administrative burden on smaller firms is a real limitation."
+      "model": "The Corporate Sustainability Reporting Directive is an EU directive that requires large companies to report on sustainability using the European Sustainability Reporting Standards. Its purpose is to give investors, lenders and other stakeholders reliable and comparable information on environmental, social and governance performance, so that finance is directed toward sustainable firms. Ireland transposed it into Irish company law in 2024, but the 2026 Omnibus I directive has narrowed the scope to companies with more than 1,000 employees and more than EUR 450 million net turnover (as of 2026), and member states must transpose that change. For large Irish firms, the directive requires new data on emissions, workforce and supply chains, which adds cost, but it can reveal efficiency savings and improve access to finance from investors who value sustainability. Smaller Irish suppliers to large companies may still be asked for data, which adds cost, although under the 2026 changes firms with fewer than 1,000 employees may refuse requests that go beyond a voluntary standard. Overall the directive raises the standard of sustainability reporting and supports ethical practice, although the administrative burden on smaller firms is a real limitation."
     }
   ]
 }

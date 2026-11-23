@@ -137,20 +137,20 @@
     { "term": "Consumer Rights Act 2022", "definition": "The Irish statute that sets out consumer rights and remedies for goods, services, digital content and digital services." },
     { "term": "Consumer Protection Act 2007", "definition": "The Irish statute that prohibits unfair, misleading and aggressive commercial practices towards consumers." },
     { "term": "CCPC", "definition": "The Irish body that enforces consumer protection law and competition law, established under the Competition and Consumer Protection Act 2014." },
-    { "term": "Short-term right to reject", "definition": "The right to return faulty goods for a full refund within a short period after purchase." },
+    { "term": "Short-term right to reject", "definition": "The right to return faulty goods for a full refund within 30 days of delivery, or a shorter period for goods that deteriorate quickly." },
     { "term": "Misleading action", "definition": "A commercial practice that gives false or deceptive information about a product or a trader." },
     { "term": "Aggressive practice", "definition": "A commercial practice that uses harassment, coercion or undue influence to restrict a consumer's freedom of choice." },
     { "term": "Unfair contract term", "definition": "A term in a standard consumer contract that creates a significant imbalance against the consumer." },
     { "term": "Alternative dispute resolution", "definition": "A method of settling a complaint outside the courts, using a neutral third party." }
   ],
   "factCards": [
-    { "term": "Remedies for faulty goods, in order", "definition": "Short-term right to reject, then repair or replacement, then a price reduction or a final right to reject." },
-    { "term": "Length of the legal guarantee for goods", "definition": "Consumers have up to two years from delivery to claim, with a fault in the first 12 months presumed to have existed at delivery." },
+    { "term": "Remedies for faulty goods, in order", "definition": "In the first 30 days, the short-term right to reject (or repair or replacement if the consumer prefers); then repair or replacement; then a price reduction or a final right to reject." },
+    { "term": "Length of the legal guarantee for goods", "definition": "Consumers can seek a remedy for faulty goods for up to six years, if the goods could reasonably be expected to last that long under normal use, with a fault in the first 12 months presumed to have existed at delivery." },
     { "term": "Cancellation period for online purchases", "definition": "Consumers can normally cancel distance purchases, such as online orders, within 14 days of receiving the goods." },
     { "term": "Example of bait advertising", "definition": "Promoting a product at an attractive price with no real intention of supplying it on those terms, so that customers are steered to a different item." },
     { "term": "Redress steps in order", "definition": "Complain to the seller, use alternative dispute resolution, use the Small Claims procedure, then go to court." },
     { "term": "Consumer responsibilities", "definition": "Keep receipts, read the terms, act promptly and use goods properly." },
-    { "term": "Who enforces advertising standards", "definition": "The Advertising Standards Authority for Ireland, which enforces the industry code for advertising and marketing communications." }
+    { "term": "Who enforces advertising standards", "definition": "The Advertising Standards Authority (ASA, formerly ASAI), a self-regulatory body that administers the code for advertising and marketing communications and handles complaints." }
   ],
   "questions": [
     { "marks": 20, "prompt": "A consumer buys a laptop from a shop and it develops a fault. Explain the remedies available under the Consumer Rights Act 2022 depending on when the fault appears, and outline the steps the consumer should take.", "model": "If the fault appears within 30 days of purchase, the consumer can use the short-term right to reject and return the laptop for a full refund. After that period, the consumer is normally entitled to ask for a repair or a replacement, which the retailer must carry out within a reasonable time and without significant inconvenience. If the repair or replacement fails or is not possible, the consumer may be entitled to a price reduction or to end the contract and receive a refund. Because a fault that appears within the first 12 months is presumed to have existed when the laptop was delivered, the retailer must show otherwise, so the consumer does not have to prove that the fault was present from the start. The consumer should keep the receipt and order confirmation, report the fault promptly and in writing, and state the remedy wanted. If the retailer refuses to act, the consumer can escalate the complaint through alternative dispute resolution or the Small Claims procedure." },

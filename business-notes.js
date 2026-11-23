@@ -10,11 +10,11 @@
     "term": "SMART objectives"
    },
    {
-    "definition": "Data collected first-hand by the student for the specific study, such as through a survey or an interview.",
+    "definition": "Original documents or first-hand information, such as a firm's own accounts, interviews or surveys.",
     "term": "Primary source"
    },
    {
-    "definition": "Existing data collected by someone else for another purpose, such as a government statistic or an annual report.",
+    "definition": "Information that interprets or reports on data collected by others for another purpose, such as a news article analysing a firm's published results.",
     "term": "Secondary source"
    },
    {
@@ -234,7 +234,7 @@
     "term": "Progress log"
    },
    {
-    "definition": "The collection of notes, data, sources and drafts kept throughout a study as evidence of the process.",
+    "definition": "The collection of notes, data, sources and drafts kept throughout a study as evidence of the process; students are encouraged to keep one, but it is not submitted.",
     "term": "Investigative folder"
    },
    {
@@ -611,7 +611,7 @@
     "term": "Descriptors of Quality"
    },
    {
-    "definition": "The 50 marks awarded for the whole report's organisation, clarity, structure, evidence of planning and reflection, terminology and referencing.",
+    "definition": "The 50 marks the 2027 SEC brief awards for the report as a whole, not a section; the communicating descriptor rewards coherent, consistent language, clear graphics and acknowledged references.",
     "term": "Overall Coherence"
    },
    {
@@ -623,7 +623,7 @@
     "term": "Investigative folder"
    },
    {
-    "definition": "The process by which the student, teacher and principal confirm, on Form P.2, that the submitted work is the student's own.",
+    "definition": "The process by which the student, teacher and school confirm, as the SEC brief instructs, that the submitted work is the student's own.",
     "term": "Authentication"
    },
    {
@@ -635,11 +635,11 @@
     "term": "Acknowledgement"
    },
    {
-    "definition": "1,500 words, not counting references, data tables, graphs, diagrams, images or labels.",
+    "definition": "1,500 words in the 2027 SEC brief, not counting references, data tables, graphs, diagrams, images or labels.",
     "term": "Maximum report length"
    },
    {
-    "definition": "No more than 1,500 words; references, data tables, graphs, diagrams, images and labels are not counted.",
+    "definition": "The 2027 SEC brief sets no more than 1,500 words; references, data tables, graphs, diagrams, images and labels are not counted.",
     "term": "Length of the 2027 report"
    },
    {
@@ -647,7 +647,7 @@
     "term": "Image allowance in the report"
    },
    {
-    "definition": "12 March 2027.",
+    "definition": "12 March 2027, per the 2027 SEC brief (check the brief itself).",
     "term": "Date the study goes to the teacher"
    },
    {
@@ -655,7 +655,7 @@
     "term": "Weight of the Investigative Study"
    },
    {
-    "definition": "Introduction 20, Investigation, Findings, Analysis and Evaluation 100, Conclusion 30, Overall Coherence 50.",
+    "definition": "The 2027 SEC brief allocates: Introduction 20, Investigation, Findings, Analysis and Evaluation 100, Conclusion 30, Overall Coherence 50.",
     "term": "SEC mark allocation for the study"
    },
    {
@@ -844,7 +844,7 @@
    },
    {
     "marks": 15,
-    "model": "Planning is rewarded through the report itself. The Introduction must reflect on how the student engaged with the project plan, and the Conclusions must outline how planning contributed to completing the study, so the student should keep dated notes of problems met and changes made, such as changing a survey after a low response rate. Evidence of planning and reflection throughout also feeds the 50 marks for Overall Coherence. Sharing the plan with the teacher during the study supports authentication, but the marks depend on specific, honest reflection written into the report.",
+    "model": "Planning is rewarded through the report itself. The Introduction must reflect on how the student engaged with the project plan, and the Conclusions must outline how planning contributed to completing the study, so the student should keep dated notes of problems met and changes made, such as changing a survey after a low response rate. Sharing the plan with the teacher during the study supports authentication, but the marks depend on specific, honest reflection written into the report.",
     "prompt": "The project plan is not submitted with the Investigative Study. Explain how a student can still earn credit for planning.",
     "type": "short"
    },
@@ -1396,7 +1396,7 @@
     "tip": "When asked to explain the importance of prioritising, give reasons with an effect on the business for each. A common mistake is saying only that some stakeholders are more important, without the reason. When asked to prioritise, order the stakeholders, justify the order and treat weaker voices fairly."
    },
    {
-    "b": "A map is a snapshot of judgements that may be wrong or out of date. Its limitations must be stated when the map informs a decision.",
+    "b": "A map is a snapshot of judgements that may be wrong or out of date. Its limitations must be stated when the map informs a decision. Three main weaknesses are that positions change, judgements are subjective and the grid oversimplifies; a fourth is that hidden stakeholders may be missed.",
     "h": "Limitations of stakeholder mapping",
     "points": [
      "Positions change: a stakeholder's interest can rise suddenly after a news story, so the map needs regular updating.",
@@ -1480,7 +1480,7 @@
   "questions": [
    {
     "marks": 20,
-    "model": "Owners: high power over the decision and high interest in profit, so they are managed closely through a full costing of the change and their approval of the plan. Restaurant staff: low power over the decision but high interest in hours and pay, so they are kept informed and their concerns are addressed in rota planning, which also avoids staff losses. Hotel guests who dine in the restaurant: moderate power through their choice of hotel and high interest in service, so they are kept informed through notices and given alternatives nearby. Local food suppliers: low power and moderate interest because the order volume will fall, so they are monitored and notified early so they can adjust. The priority order follows from power and interest, with owners and staff addressed first.",
+    "model": "Owners: high power over the decision and high interest in profit, so they are managed closely through a full costing of the change and their approval of the plan. Restaurant staff: low power over the decision but high interest in hours and pay, so they are kept informed and their concerns are addressed in rota planning, which also avoids staff losses. Hotel guests who dine in the restaurant: low power over the decision, because individual guests rarely change it, but high interest in service, so they are kept informed through notices and given alternatives nearby. Local food suppliers: low power and low interest, because the order volume falls only slightly, so they are monitored and notified early so they can adjust. The priority order follows from power and interest, with owners and staff addressed first.",
     "prompt": "Conduct stakeholder mapping to identify and prioritise four stakeholders affected by a decision of an Irish hotel to close its restaurant on Mondays.",
     "type": "short"
    },
@@ -1710,7 +1710,7 @@
    },
    {
     "definition": "Rent, insurance and salaries of permanent staff.",
-    "term": "Three overheads that do not change with output"
+    "term": "Three fixed costs (overheads) that do not change with output"
    },
    {
     "definition": "It has a fixed standing charge as well as a charge that rises with usage.",
@@ -1726,7 +1726,7 @@
    },
    {
     "definition": "Profit is very sensitive to any fall in sales.",
-    "term": "Main risk of a large overhead base"
+    "term": "Main risk of a large fixed-cost base"
    },
    {
     "definition": "Costs are paid before the sales they support turn into cash.",
@@ -2401,7 +2401,7 @@
     "tip": "An indirect competitor offers a different product for the same need, and a substitute is the same idea seen as a force on the whole industry. Teach the link rather than treating them as unrelated."
    },
    {
-    "b": "Rivalry is the intensity of competition among firms that already operate in the market.",
+    "b": "Rivalry is the intensity of competition among firms that already operate in the market. Intense rivalry, through price cuts and heavy promotion, lowers profit for every firm in it.",
     "h": "Competitive rivalry",
     "points": [
      "Many competitors of similar size make rivalry intense, because no single firm dominates and each can respond to the others.",
@@ -2417,7 +2417,7 @@
     "points": [
      "1. Define the industry and the firm you are analysing, so that every force is judged for the same market.",
      "2. Rate each of the five forces as high, medium or low and give the reasons, tied to who the suppliers, customers, substitutes, rivals and possible entrants really are.",
-     "3. Judge industry attractiveness. The industry is most attractive where entry barriers are high, supplier and customer power are low, substitutes are few and rivalry is moderate.",
+     "3. Judge industry attractiveness. The industry is most attractive where entry barriers are high, supplier and customer power are low, substitutes are few and rivalry is moderate, because profits are then protected from being competed away.",
      "4. Identify the firm's competitive advantage by choosing the one that best fits the forces it faces: cost leadership where buyers are price-sensitive, and differentiation or focus where rivalry is high and products are alike.",
      "5. Conclude and recommend a strategy, saying what the firm should do and why."
     ],
@@ -2540,7 +2540,7 @@
      "Diversification (selling a wider range of products or in more markets) spreads risk, so a fall in one product or market does not sink the whole business.",
      "Growth can be necessary for survival, because a growing competitor with lower costs may squeeze a small firm out of the market. Firms often grow to defend or build their competitive advantage."
     ],
-    "tip": "When asked why a firm expands, give the motive and its effect on the business, for example economies of scale lower cost per unit, which lowers the cost of each unit."
+    "tip": "When asked why a firm expands, give the motive and its effect on the business, for example economies of scale lower cost per unit, which lets the firm cut prices or raise its profit margin."
    },
    {
     "b": "Organic (internal) growth uses the firm's own resources, such as its profits, staff and brand. It is slower than external growth but keeps control within the firm.",
@@ -3241,7 +3241,7 @@
     "term": "Three third-party liability covers"
    },
    {
-    "definition": "Employer's liability insurance and motor third-party cover for vehicles on public roads.",
+    "definition": "Only motor third-party cover for vehicles on public roads. Employer's liability insurance is not compulsory in Ireland, though most employers hold it.",
     "term": "Compulsory insurance in Ireland"
    },
    {
@@ -3424,7 +3424,7 @@
    },
    {
     "marks": 15,
-    "model": "First, risk exposure: the firm should identify its main risks, such as professional negligence claims from clients and the loss of a key staff member, and buy cover that addresses them, so that it does not pay for cover it does not need. Second, cost against cover: the firm should compare the premium with the potential loss and check the excess, because cover that costs more than the losses it would prevent may not be worthwhile. Third, legal requirements: the firm must hold any cover the law makes compulsory, such as employer's liability if it employs staff and motor third-party cover if it uses vehicles on public roads.",
+    "model": "First, risk exposure: the firm should identify its main risks, such as professional negligence claims from clients and the loss of a key staff member, and buy cover that addresses them, so that it does not pay for cover it does not need. Second, cost against cover: the firm should compare the premium with the potential loss and check the excess, because cover that costs more than the losses it would prevent may not be worthwhile. Third, legal requirements: the firm must hold any cover the law makes compulsory, which in Ireland means motor third-party cover if it uses vehicles on public roads. Employer's liability is not compulsory in Ireland, but most employers hold it.",
     "prompt": "A consultancy firm is choosing its insurance cover. Explain three factors it should consider when choosing insurance.",
     "type": "short"
    }
@@ -3659,7 +3659,7 @@
    },
    {
     "marks": 10,
-    "model": "A strong culture aligns staff behaviour with the firm's goals, so employees make consistent decisions that serve customers without waiting for instructions. A culture that values experimentation encourages staff to propose and test new ideas, which can lead to new products and services. Ryanair's focus on keeping costs low has shaped every part of its operating model, from pricing to the use of its aircraft, and that consistency has supported its business model.",
+    "model": "A strong culture aligns staff behaviour with the firm's goals, so employees make consistent decisions that serve customers without waiting for instructions. A culture that values experimentation encourages staff to propose and test new ideas, which can lead to new products and services. Ryanair's focus on keeping costs low has shaped every part of its operating model, in its pricing and operating model, and that consistency has supported its business model.",
     "prompt": "Analyse how a strong organisational culture can help a firm succeed, giving one example.",
     "type": "short"
    }
@@ -4280,7 +4280,7 @@
  "ch14-s3": {
   "keyTerms": [
    {
-    "definition": "The knowledge, skills, experience and abilities that employees bring to a business, which create value for it.",
+    "definition": "The competencies embodied in people, invested in, and developed to help them to be more productive and realise their potential.",
     "term": "Human capital"
    },
    {
@@ -4659,7 +4659,7 @@
     "term": "Proximity bias"
    },
    {
-    "definition": "The entitlement of employees to switch off from work and not be penalised for not responding to work contact outside working hours.",
+    "definition": "Under the 2021 WRC Code of Practice on the Right to Disconnect, the expectation that employees can switch off from work and not be penalised for not responding to work contact outside working hours; it is a code of practice, not a law.",
     "term": "Right to disconnect"
    },
    {
@@ -4667,8 +4667,8 @@
     "term": "Right to request remote working"
    },
    {
-    "definition": "Technology that changes established products, services or ways of working so quickly that existing practices become obsolete.",
-    "term": "Disruptive technology"
+    "definition": "How digital technology can change the way in which businesses operate (including within the workplace) and how consumers interact with business. It can be both positive and negative.",
+    "term": "Disruptive impact"
    },
    {
     "definition": "Wider talent pool, office cost savings, productivity gains, retention and business continuity.",
@@ -4687,7 +4687,7 @@
     "term": "Employee challenges"
    },
    {
-    "definition": "Surveillance, data protection, fairness, equal access, the right to disconnect and mental health.",
+    "definition": "Surveillance, data protection, fairness, equal access, the Right to Disconnect Code of Practice and mental health.",
     "term": "Ethical issues of remote work"
    },
    {
@@ -4699,7 +4699,7 @@
     "term": "Digital technologies changing work"
    },
    {
-    "definition": "Consider the request properly, weigh business needs, decide on reasonable grounds, explain any refusal and keep decisions consistent.",
+    "definition": "Consider the request properly, weigh business needs, decide objectively, fairly and reasonably (WRC code), explain any refusal and keep decisions consistent.",
     "term": "Handling a request for remote working"
    }
   ],
@@ -4829,7 +4829,7 @@
   "questions": [
    {
     "marks": 25,
-    "model": "For employers, blended working widens the talent pool, so a firm in a regional town can recruit specialists who would never commute to its office. Smaller offices can cut rent and running costs, and some firms report productivity gains where staff have fewer interruptions. The challenges are real, however. Managers cannot watch staff work, so they must manage by results, which needs clear objectives and regular communication. Culture can weaken when people seldom meet, and staff working on home networks raise the risk of data breaches and phishing. Employers also keep a duty of care for remote workers, and a two-tier workforce can emerge if office-based staff gain more visibility and promotion. For employees, flexibility is the main benefit: people can organise their day around childcare or study, save time and money on commuting and often gain more control over their work. Yet isolation, blurred boundaries that make it hard to switch off, and the risk of proximity bias in promotion are serious downsides, and some employees carry extra household costs. Ethically, monitoring software that tracks keystrokes or screen time intrudes on privacy and can damage trust unless it is transparent, proportionate and lawful under the General Data Protection Regulation. Fairness is also at stake: measuring visible activity rather than results penalises efficient workers and people with caring duties, and employees without a suitable home workspace are disadvantaged. The right to disconnect protects wellbeing, and an employer must watch for always-on expectations that cause stress. On sustainability, fewer commutes reduce transport emissions and congestion, and remote work can support rural development. But home heating and lighting can offset part of the saving, and the extra devices add to electronic waste. The overall environmental effect therefore depends on energy sources, equipment reuse and how much travel is still needed for meetings.",
+    "model": "For employers, blended working widens the talent pool, so a firm in a regional town can recruit specialists who would never commute to its office. Smaller offices can cut rent and running costs, and some firms report productivity gains where staff have fewer interruptions. The challenges are real, however. Managers cannot watch staff work, so they must manage by results, which needs clear objectives and regular communication. Culture can weaken when people seldom meet, and staff working on home networks raise the risk of data breaches and phishing. Employers also keep a duty of care for remote workers, and a two-tier workforce can emerge if office-based staff gain more visibility and promotion. For employees, flexibility is the main benefit: people can organise their day around childcare or study, save time and money on commuting and often gain more control over their work. Yet isolation, blurred boundaries that make it hard to switch off, and the risk of proximity bias in promotion are serious downsides, and some employees carry extra household costs. Ethically, monitoring software that tracks keystrokes or screen time intrudes on privacy and can damage trust unless it is transparent, proportionate and lawful under the General Data Protection Regulation. Fairness is also at stake: measuring visible activity rather than results penalises efficient workers and people with caring duties, and employees without a suitable home workspace are disadvantaged. The Right to Disconnect Code of Practice protects wellbeing, and an employer must watch for always-on expectations that cause stress. On sustainability, fewer commutes reduce transport emissions and congestion, and remote work can support rural development. But home heating and lighting can offset part of the saving, and the extra devices add to electronic waste. The overall environmental effect therefore depends on energy sources, equipment reuse and how much travel is still needed for meetings.",
     "prompt": "Evaluate the opportunities and challenges of blended working for an employer and for its employees, and analyse the ethical and sustainability issues it raises.",
     "type": "short"
    },
@@ -4841,7 +4841,7 @@
    },
    {
     "marks": 10,
-    "model": "The Work Life Balance and Miscellaneous Provisions Act 2023 gives employees a statutory right to ask their employer for remote working. This is a right to make a request, not a right to be granted remote working. The employer must consider the request properly, weigh it against business needs, and refuse only on reasonable grounds, explaining the reasons to the employee. Consistent handling across staff, guided by the Workplace Relations Commission code of practice, helps the employer avoid claims of unfair treatment.",
+    "model": "The Work Life Balance and Miscellaneous Provisions Act 2023 gives employees a statutory right to ask their employer for remote working. This is a right to make a request, not a right to be granted remote working. The employer must consider the request properly, weigh it against business needs, and decide objectively, fairly and reasonably, as the Workplace Relations Commission code requires, explaining the reasons to the employee. Consistent handling across staff, guided by the Workplace Relations Commission code of practice, helps the employer avoid claims of unfair treatment.",
     "prompt": "Outline the right of an Irish employee to request remote working, and explain how an employer should respond.",
     "type": "short"
    }
@@ -5125,7 +5125,7 @@
      "Jargon: technical or specialist terms confuse listeners who do not share the same knowledge, so the message is lost.",
      "Information overload: receiving too many messages makes it hard to identify the ones that matter.",
      "Poor listening: a listener who is distracted or who interrupts may miss key points or misunderstand them.",
-     "Wrong medium: a complex change explained in a short text message may be misunderstood, while a simple reminder may not need a meeting.",
+     "Wrong medium: a complex change sent as a short text message may be misunderstood, while a simple reminder may not need a meeting.",
      "Culture and language: differences in customs or first language can change how a message is read and whether it is understood.",
      "Hierarchy: employees may hesitate to question senior managers, so problems stay hidden.",
      "Timing: a message delivered at a busy moment, or after a decision has been made, may be ignored or resented."
@@ -5662,7 +5662,7 @@
     "term": "Order of the planning cycle after analysis"
    },
    {
-    "definition": "Each force is scored from 1 for weak to 5 for strong, and the scores for each side are totalled.",
+    "definition": "Each force is normally scored from 1 for weak to 5 for strong (a teaching convention, not set by the specification), and the scores for each side are totalled.",
     "term": "Scoring scale in force-field analysis"
    }
   ],
@@ -5845,7 +5845,7 @@
   "questions": [
    {
     "marks": 20,
-    "model": "Driving forces, scored from 1 (weak) to 5 (strong). Real-time stock data would let the retailer see sales across its shops and website as they happen, scored 4. Fewer stock-counting errors and less time spent on manual counts, scored 4. Competitors already use similar systems, scored 3. Reduced overstocking would cut the cost of unsold clothing, scored 3. Driving total: 14. Restraining forces. Staff unfamiliar with the software need training, scored 3. Licence and set-up costs must be paid up front, scored 3. Errors during the transfer of stock records could cause serious problems, scored 4. Disruption during the switchover in the busy season could hurt sales, scored 3. Restraining total: 13. Conclusion: the balance is slightly favourable at 14 to 13, so the decision is marginal. The retailer should strengthen the drivers by piloting the system in one shop to produce evidence of time saved and stock accuracy. It should weaken the restraints by backing up all data before the transfer, training staff in advance and scheduling the switch after the busy season. Re-scoring after these steps would show whether the balance has moved clearly in favour of the change, and the scores should be checked with managers because they are subjective.",
+    "model": "Driving forces, normally scored from 1 (weak) to 5 (strong). Real-time stock data would let the retailer see sales across its shops and website as they happen, scored 4. Fewer stock-counting errors and less time spent on manual counts, scored 4. Competitors already use similar systems, scored 3. Reduced overstocking would cut the cost of unsold clothing, scored 3. Driving total: 14. Restraining forces. Staff unfamiliar with the software need training, scored 3. Licence and set-up costs must be paid up front, scored 3. Errors during the transfer of stock records could cause serious problems, scored 4. Disruption during the switchover in the busy season could hurt sales, scored 3. Restraining total: 13. Conclusion: the balance is slightly favourable at 14 to 13, so the decision is marginal. The retailer should strengthen the drivers by piloting the system in one shop to produce evidence of time saved and stock accuracy. It should weaken the restraints by backing up all data before the transfer, training staff in advance and scheduling the switch after the busy season. Re-scoring after these steps would show whether the balance has moved clearly in favour of the change, and the scores should be checked with managers because they are subjective.",
     "prompt": "A clothing retailer is considering moving its stock management to a new online system. Use a force-field analysis to examine the decision, identifying at least four driving forces and four restraining forces with scores, and reach a conclusion.",
     "type": "short"
    },
@@ -6078,7 +6078,7 @@
     "term": "CCPC"
    },
    {
-    "definition": "The right to return faulty goods for a full refund within a short period after purchase.",
+    "definition": "The right to return faulty goods for a full refund within 30 days of delivery, or a shorter period for goods that deteriorate quickly.",
     "term": "Short-term right to reject"
    },
    {
@@ -6098,11 +6098,11 @@
     "term": "Alternative dispute resolution"
    },
    {
-    "definition": "Short-term right to reject, then repair or replacement, then a price reduction or a final right to reject.",
+    "definition": "In the first 30 days, the short-term right to reject (or repair or replacement if the consumer prefers); then repair or replacement; then a price reduction or a final right to reject.",
     "term": "Remedies for faulty goods, in order"
    },
    {
-    "definition": "Consumers have up to two years from delivery to claim, with a fault in the first 12 months presumed to have existed at delivery.",
+    "definition": "Consumers can seek a remedy for faulty goods for up to six years, if the goods could reasonably be expected to last that long under normal use, with a fault in the first 12 months presumed to have existed at delivery.",
     "term": "Length of the legal guarantee for goods"
    },
    {
@@ -6122,7 +6122,7 @@
     "term": "Consumer responsibilities"
    },
    {
-    "definition": "The Advertising Standards Authority for Ireland, which enforces the industry code for advertising and marketing communications.",
+    "definition": "The Advertising Standards Authority (ASA, formerly ASAI), a self-regulatory body that administers the code for advertising and marketing communications and handles complaints.",
     "term": "Who enforces advertising standards"
    }
   ],
@@ -6511,7 +6511,7 @@
     "term": "Rights of people whose data is held"
    },
    {
-    "definition": "Within 72 hours where feasible, to the supervisory authority.",
+    "definition": "To the supervisory authority without undue delay and, where feasible, within 72 hours of becoming aware, unless the breach is unlikely to result in a risk to individuals.",
     "term": "Reporting deadline for a personal data breach"
    },
    {
@@ -6647,7 +6647,7 @@
   "questions": [
    {
     "marks": 20,
-    "model": "Name, email address and delivery details are personal data, so the GDPR applies to the retailer's handling of them. The retailer needs a lawful basis for each use. Contract covers processing the order and delivery, while marketing emails need consent, which must be freely given, specific and capable of being withdrawn. The retailer must follow the principles, collecting only the data it needs, keeping it no longer than necessary and protecting it against unauthorised access. The consumer has rights, including access to a copy of their data, correction of errors, erasure in certain circumstances and objection to direct marketing, and the retailer must respond to such requests. If a breach occurs, such as a hacked customer database, the retailer must report it to the Data Protection Commission within 72 hours where feasible, and it must inform affected customers if there is a high risk to them. The Commission can investigate and impose sanctions, including fines and orders to change practices.",
+    "model": "Name, email address and delivery details are personal data, so the GDPR applies to the retailer's handling of them. The retailer needs a lawful basis for each use. Contract covers processing the order and delivery, while marketing emails need consent, which must be freely given, specific and capable of being withdrawn. The retailer must follow the principles, collecting only the data it needs, keeping it no longer than necessary and protecting it against unauthorised access. The consumer has rights, including access to a copy of their data, correction of errors, erasure in certain circumstances and objection to direct marketing, and the retailer must respond to such requests. If a breach occurs, such as a hacked customer database, the retailer must report it to the Data Protection Commission without undue delay and, where feasible, within 72 hours of becoming aware, unless the breach is unlikely to risk individuals, and it must inform affected customers if there is a high risk to them. The Commission can investigate and impose sanctions, including fines and orders to change practices.",
     "prompt": "Explain how the GDPR protects the personal data of an Irish consumer who has shared details with an online retailer, and discuss the obligations this places on the retailer.",
     "type": "short"
    },
@@ -7037,7 +7037,7 @@
    },
    {
     "marks": 20,
-    "model": "The variable-rate mortgage carries interest rate risk, because repayments rise when the lender raises its rate, which could strain the household budget. The investment fund carries loss of capital risk, because its value can fall and leave less than was invested, and it may also carry hidden charges that reduce returns. To reduce these risks, the consumer should match the mortgage to what the household could still afford at a higher rate, check whether a fixed-rate option is available, and invest only money not needed in the short term. The consumer should also check the product's terms and charges and seek regulated advice, such as MABS or a Central Bank authorised adviser, before committing.",
+    "model": "The variable-rate mortgage carries interest rate risk, because repayments rise when the lender raises its rate, which could strain the household budget. The investment fund carries loss of capital risk, because its value can fall and leave less than was invested, and it may also carry hidden charges that reduce returns. To reduce these risks, the consumer should match the mortgage to what the household could still afford at a higher rate, check whether a fixed-rate option is available, and invest only money not needed in the short term. The consumer should also check the product's terms and charges and seek advice from a Central Bank authorised adviser before committing.",
     "prompt": "Analyse the risks facing a consumer who is considering a variable-rate mortgage and a higher-risk investment fund, and explain how the consumer could reduce these risks.",
     "type": "short"
    },
@@ -7723,7 +7723,7 @@
     "term": "Four types of union"
    },
    {
-    "definition": "Control over how the work is done, integration into the business, and mutual obligations, among other factors.",
+    "definition": "Control over how the work is done, integration into the business, and whether the person is in business on their own account, among other factors.",
     "term": "Factors used to test employee status"
    },
    {
@@ -8489,7 +8489,7 @@
   "questions": [
    {
     "marks": 20,
-    "model": "Liability: a sole trader has unlimited liability, so the owner's personal assets such as a home can be used to pay business debts, whereas shareholders of a private limited company have limited liability and normally lose only the amount invested. Control: the sole trader makes all decisions alone, while a private limited company is managed by directors who are answerable to shareholders at the annual general meeting. Finance: a sole trader relies on personal savings and bank loans, which limits growth, while a private limited company can raise capital through share issues to a small group of investors. Evaluation: the sole trader is cheaper and simpler to run, but the company offers greater protection for owners and better access to finance for growth.",
+    "model": "Liability: a sole trader has unlimited liability, so the owner's personal assets such as a home can be used to pay business debts, whereas shareholders of a private limited company have limited liability and normally lose only the amount invested. Control: the sole trader makes all decisions alone, while a private limited company is managed by directors who are answerable to shareholders, who vote on major decisions at general meetings. Finance: a sole trader relies on personal savings and bank loans, which limits growth, while a private limited company can raise capital through share issues to a small group of investors. Evaluation: the sole trader is cheaper and simpler to run, but the company offers greater protection for owners and better access to finance for growth.",
     "prompt": "Distinguish between a sole trader and a private limited company, referring to liability, control and finance.",
     "type": "short"
    },
@@ -8930,11 +8930,11 @@
     "term": "Two risks of depending on a few large foreign firms"
    },
    {
-    "definition": "High-value manufacturing and technology services add more value per worker than retail or hospitality.",
+    "definition": "Industry, including manufacturing, adds far more value per worker than services such as distribution or construction (CSO, 2022 figures).",
     "term": "Why GVA per worker differs across sectors"
    },
    {
-    "definition": "With Irish-owned SMEs spread across the country.",
+    "definition": "In SMEs, which provided about two thirds of persons employed in the CSO's 2023 figures.",
     "term": "Where most Irish business employment sits"
    }
   ],
@@ -9047,7 +9047,7 @@
   "questions": [
    {
     "marks": 20,
-    "model": "The business economy is made up of a very large number of enterprises, most of them micro and small firms. Turnover and GVA are concentrated in a smaller number of large firms, many of them foreign-owned, so their share of sales and value added is much larger than their share of enterprises. Employment is more evenly spread, with SMEs providing a large share of jobs, particularly in retail, hospitality and construction. The patterns also vary by sector and by region, with high-value manufacturing and technology adding more value per worker, and Dublin and the east holding a larger share of turnover and employment than other regions.",
+    "model": "The business economy is made up of a very large number of enterprises, most of them micro and small firms. Turnover and GVA are concentrated in a smaller number of large firms, many of them foreign-owned, so their share of sales and value added is much larger than their share of enterprises. Employment is more evenly spread, with SMEs providing a large share of jobs, particularly in retail, hospitality and construction. The patterns also vary by sector and by region, with industry adding far more value per worker than services, and Dublin and Cork holding the most enterprises (CSO, 2023).",
     "prompt": "Describe the value of the business economy in Ireland, referring to enterprises, turnover and employment, and outline the patterns in the data.",
     "type": "short"
    },
@@ -9098,7 +9098,7 @@
     "term": "Passage of a Bill into law"
    },
    {
-    "definition": "IBEC represents employers generally, ISME represents small and medium enterprises, and Chambers Ireland represents local chambers of commerce.",
+    "definition": "Ibec represents employers generally, ISME represents small and medium enterprises, and Chambers Ireland represents local chambers of commerce.",
     "term": "Business bodies that represent employers"
    },
    {
@@ -9110,7 +9110,7 @@
     "term": "Body that oversees the lobbying register"
    },
    {
-    "definition": "Energy, transport, agriculture and buildings.",
+    "definition": "Electricity, transport, buildings, industry and agriculture.",
     "term": "Sectors named in the Climate Action Plan"
    },
    {
@@ -9214,13 +9214,13 @@
   "questions": [
    {
     "marks": 15,
-    "model": "Government policy is a statement of intent that sets out what the government plans to achieve and how, but on its own it does not bind citizens or businesses. An example is Housing for All, which sets goals to increase the supply and affordability of homes up to 2030. Legislation is law passed by the Oireachtas, which is enforceable and must be obeyed. An example is the National Minimum Wage Act 2000, which sets a legal minimum hourly pay that employers must follow. The key difference is that a policy states an aim while legislation compels behaviour, although a policy goal may later be turned into an Act.",
+    "model": "Government policy is a statement of intent that sets out what the government plans to achieve and how, but on its own it does not bind citizens or businesses. An example is 'Delivering Homes, Building Communities 2025-2030: An Action Plan on Housing Supply and Targeting Homelessness', published in November 2025, which aims for 300,000 new homes by the end of 2030 (as of November 2025). Legislation is law passed by the Oireachtas, which is enforceable and must be obeyed. An example is the National Minimum Wage Act 2000, which sets a legal minimum hourly pay that employers must follow. The key difference is that a policy states an aim while legislation compels behaviour, although a policy goal may later be turned into an Act.",
     "prompt": "Explain the difference between government policy and legislation, giving one Irish example of each.",
     "type": "short"
    },
    {
     "marks": 20,
-    "model": "First, the Climate Action Plan affects the energy and transport sectors. It sets emissions targets, so power generators must shift toward renewable sources, and hauliers face carbon tax costs that encourage investment in efficient or electric vehicles. Second, Food Vision 2030 affects the agri-food sector. Its aim is to grow sustainable production and export value, so farmers and processors such as Glanbia can find new export markets, although they must also meet sustainability requirements that add cost. Third, Housing for All affects the construction sector. It aims to increase the supply of homes, which creates demand for builders and developers, although planning delays and material costs can limit how quickly firms can respond. Each policy creates both opportunities and costs, and the size of the effect differs by sector.",
+    "model": "First, the Climate Action Plan affects the energy and transport sectors. It sets emissions targets, so power generators must shift toward renewable sources, and hauliers face carbon tax costs that encourage investment in efficient or electric vehicles. Second, Food Vision 2030 affects the agri-food sector. Its aim is to grow sustainable production and export value, so farmers and processors such as Glanbia can find new export markets, although they must also meet sustainability requirements that add cost. Third, 'Delivering Homes, Building Communities 2025-2030' (the November 2025 housing plan, which succeeded Housing for All) affects the construction sector. It aims to increase the supply of homes, which creates demand for builders and developers, although planning delays and material costs can limit how quickly firms can respond. Each policy creates both opportunities and costs, and the size of the effect differs by sector.",
     "prompt": "Outline three Irish government policies that affect three different sectors, and explain how each affects business.",
     "type": "short"
    }
@@ -9273,7 +9273,7 @@
     "term": "Who proposes most EU laws"
    },
    {
-    "definition": "Parliament votes on the Commission's proposal and the Council adopts it, so both must agree.",
+    "definition": "Parliament and the Council both consider the Commission's proposal, and the law is adopted only when both agree (the ordinary legislative procedure, which can involve several readings).",
     "term": "Who votes on an EU law"
    },
    {
@@ -9421,7 +9421,7 @@
    },
    {
     "marks": 20,
-    "model": "The European Commission proposes most EU laws, so it writes the first draft of rules that Irish firms must follow, such as sustainability reporting. The European Parliament, directly elected by EU citizens, examines and votes on proposals and can amend them, so it shapes the detail of rules affecting Irish firms. The Council of the European Union, where Irish ministers represent the government, adopts laws together with Parliament, giving Ireland a direct voice on rules such as trade and agriculture. The European Central Bank sets monetary policy for the euro area, so its interest rate decisions affect borrowing costs for Irish firms, although it does not make business regulation. Together these bodies set the rules Irish firms follow and the economic conditions they face.",
+    "model": "The European Commission proposes most EU laws, so it writes the first draft of rules that Irish firms must follow, such as sustainability reporting. The European Parliament, directly elected by EU citizens, examines and votes on proposals and can amend them, so it shapes the detail of rules affecting Irish firms. The Council of the European Union, where Irish ministers represent the government, adopts laws together with Parliament, giving Ireland a direct voice on rules such as trade and agriculture. The European Central Bank sets monetary policy for the euro area, so its interest rate decisions affect borrowing costs for Irish firms, although it sets monetary policy and does not propose or adopt the general laws that regulate business. Together these bodies set the rules Irish firms follow and the economic conditions they face.",
     "prompt": "Identify the four key EU decision-makers in policy development and explain how each affects business policy in Ireland.",
     "type": "short"
    }
@@ -9470,7 +9470,7 @@
     "term": "Digital Services Act maximum fine"
    },
    {
-    "definition": "Social scoring by public authorities and emotion recognition in workplaces and schools.",
+    "definition": "Social scoring, and emotion recognition in workplaces and schools.",
     "term": "AI practices banned outright"
    },
    {
@@ -9478,7 +9478,7 @@
     "term": "AI Act duties for high-risk uses"
    },
    {
-    "definition": "The European Sustainability Reporting Standards, applied with double materiality.",
+    "definition": "The European Sustainability Reporting Standards (as first adopted; they were reduced by the 2026 simplification).",
     "term": "Reporting standards under the CSRD"
    },
    {
@@ -9600,13 +9600,13 @@
   "questions": [
    {
     "marks": 25,
-    "model": "The Digital Services Act is an EU regulation, so it applies directly in Ireland without a separate Irish Act, and Coimisiún na Meán acts as Ireland's Digital Services Coordinator to supervise platforms established here. Irish platforms must put notice-and-action systems in place so that users can report illegal content and receive a reason if their content is removed. Positive impact one: consumers gain clearer complaint and appeal routes, which builds trust and protects them from illegal content such as scams. Positive impact two: Irish small businesses that sell through online marketplaces gain a clearer process for disputes with platforms, and one EU-wide standard to follow. Negative impact one: smaller platforms and start-ups face high compliance costs for transparency reports, risk assessments and complaint systems, which can slow their growth. Negative impact two: platforms facing fines of up to 6 per cent of global turnover may remove lawful content to avoid risk, which can restrict the freedom of expression of users. Overall the regulation strengthens user protection and transparency, but its benefits depend on proportionate enforcement.",
+    "model": "The Digital Services Act is an EU regulation, so it applies directly in Ireland, and the Digital Services Act 2024 designates Coimisiún na Meán as Ireland's Digital Services Coordinator to supervise platforms established here. Irish platforms must put notice-and-action systems in place so that users can report illegal content and receive a reason if their content is removed. Positive impact one: consumers gain clearer complaint and appeal routes, which builds trust and protects them from illegal content such as scams. Positive impact two: Irish small businesses that sell through online marketplaces gain a clearer process for disputes with platforms, and one EU-wide standard to follow. Negative impact one: smaller platforms and start-ups face high compliance costs for transparency reports, risk assessments and complaint systems, which can slow their growth. Negative impact two: critics argue that fines of up to 6 per cent of global turnover may encourage platforms to remove lawful content to avoid risk, which can restrict the freedom of expression of users. Overall the regulation strengthens user protection and transparency, but its benefits depend on proportionate enforcement.",
     "prompt": "Name an EU regulation, explain how it has been implemented in Ireland, and examine two positive and two negative impacts on named stakeholders.",
     "type": "short"
    },
    {
     "marks": 20,
-    "model": "The Corporate Sustainability Reporting Directive is an EU directive that requires large companies to report on sustainability using the European Sustainability Reporting Standards. Its purpose is to give investors, lenders and other stakeholders reliable and comparable information on environmental, social and governance performance, so that finance is directed toward sustainable firms. Ireland has transposed it into Irish company law, and the duties apply in phases, so a firm must check when it falls within scope. For large Irish firms, the directive requires new data on emissions, workforce and supply chains, which adds cost, but it can reveal efficiency savings and improve access to finance from investors who value sustainability. Smaller Irish suppliers to large companies may be asked for data they do not hold, which adds cost. Overall the directive raises the standard of sustainability reporting and supports ethical practice, although the administrative burden on smaller firms is a real limitation.",
+    "model": "The Corporate Sustainability Reporting Directive is an EU directive that requires large companies to report on sustainability using the European Sustainability Reporting Standards. Its purpose is to give investors, lenders and other stakeholders reliable and comparable information on environmental, social and governance performance, so that finance is directed toward sustainable firms. Ireland transposed it into Irish company law in 2024, but the 2026 Omnibus I directive has narrowed the scope to companies with more than 1,000 employees and more than EUR 450 million net turnover (as of 2026), and member states must transpose that change. For large Irish firms, the directive requires new data on emissions, workforce and supply chains, which adds cost, but it can reveal efficiency savings and improve access to finance from investors who value sustainability. Smaller Irish suppliers to large companies may still be asked for data, which adds cost, although under the 2026 changes firms with fewer than 1,000 employees may refuse requests that go beyond a voluntary standard. Overall the directive raises the standard of sustainability reporting and supports ethical practice, although the administrative burden on smaller firms is a real limitation.",
     "prompt": "Name an EU directive, explain its purpose and evaluate its impact on business in Ireland.",
     "type": "short"
    }
@@ -9952,7 +9952,7 @@
     "term": "Globalisation"
    },
    {
-    "definition": "A situation in which countries and firms rely on one another for trade, inputs, markets and finance.",
+    "definition": "Interdependence arises when one group becomes dependent on another for the supply of necessary goods and services.",
     "term": "Interdependence"
    },
    {
@@ -10192,7 +10192,7 @@
     "term": "Greenfield versus acquisition"
    },
    {
-    "definition": "A 15 per cent minimum effective tax rate for very large multinational groups under the OECD agreement.",
+    "definition": "A 15 per cent minimum effective tax rate under the OECD Pillar Two rules, for groups with consolidated revenue of at least EUR 750 million in two of the four preceding years (Ireland applied them from 31 December 2023).",
     "term": "Pillar Two minimum rate"
    },
    {
@@ -10491,7 +10491,7 @@
   "questions": [
    {
     "marks": 20,
-    "model": "An entrepreneur starts and runs a new venture and carries the financial risk personally, as two Irish brothers did when they founded Stripe, a payments company that now operates globally. An intrapreneur develops new products or processes inside an existing organisation using its resources, so the firm rather than the employee carries most of the financial risk, for example a bank employee who designs a savings app within the bank. The first benefit for an established firm is continued innovation: it can respond to changing customer needs without the cost of setting up a separate company. The second benefit is retention, because staff whose ideas are supported internally are less likely to leave and start a rival business. The third benefit is reduced risk, since ideas can be tested on a small scale inside a firm that already has customers, a brand and finance. The limits are real, though: if the firm does not share the rewards of a successful idea, staff motivation falls and the process stops working.",
+    "model": "An entrepreneur starts and runs a new venture and carries the financial risk personally, as the brothers Patrick and John Collison did when they co-founded Stripe, a payments company with headquarters in Dublin and San Francisco. An intrapreneur develops new products or processes inside an existing organisation using its resources, so the firm rather than the employee carries most of the financial risk, for example a bank employee who designs a savings app within the bank. The first benefit for an established firm is continued innovation: it can respond to changing customer needs without the cost of setting up a separate company. The second benefit is retention, because staff whose ideas are supported internally are less likely to leave and start a rival business. The third benefit is reduced risk, since ideas can be tested on a small scale inside a firm that already has customers, a brand and finance. The limits are real, though: if the firm does not share the rewards of a successful idea, staff motivation falls and the process stops working.",
     "prompt": "Distinguish between an entrepreneur and an intrapreneur, using an Irish example of each, and assess the benefits of intrapreneurship for an established firm.",
     "type": "short"
    },
@@ -10516,7 +10516,7 @@
     "term": "Market failure"
    },
    {
-    "definition": "A local support centre, based within local authorities, that gives grants, training and advice to small firms.",
+    "definition": "A local support centre, each serving a local authority area, that gives grants, training and advice to small firms.",
     "term": "Local Enterprise Office"
    },
    {
@@ -10556,7 +10556,7 @@
     "term": "Enterprise Ireland compared with IDA Ireland"
    },
    {
-    "definition": "A low headline corporation tax rate, the research and development tax credit, start-up reliefs and the EIIS.",
+    "definition": "A low headline corporation tax rate, the research and development tax credit, Start-Up Relief for Entrepreneurs (SURE, an income tax refund for the founder) and the EIIS.",
     "term": "Tax measures that support enterprise"
    },
    {
@@ -10720,7 +10720,7 @@
    },
    {
     "marks": 15,
-    "model": "Direct grants are targeted, so the state can choose firms that match its priorities, such as digital start-ups or exporters, and it can see what it is paying for. However, grants need applications and administration, and they may favour firms skilled at applying. Tax reliefs apply automatically to any firm that qualifies, which reduces paperwork, but they help firms that make a taxable profit, so a loss-making start-up gets little from them. The better approach is usually a mix, since tax reliefs keep the system simple while targeted grants address specific gaps that tax cannot reach.",
+    "model": "Direct grants are targeted, so the state can choose firms that match its priorities, such as digital start-ups or exporters, and it can see what it is paying for. However, grants need applications and administration, and they may favour firms skilled at applying. Tax reliefs apply to any firm or person that qualifies, which reduces paperwork, but some reliefs, such as SURE, depend on tax the founder has already paid, so they help only some founders. The better approach is usually a mix, since tax reliefs keep the system simple while targeted grants address specific gaps that tax cannot reach.",
     "prompt": "Evaluate whether tax reliefs or direct grants are the better way for government to support new firms.",
     "type": "short"
    }
@@ -11244,7 +11244,7 @@
    },
    {
     "marks": 15,
-    "model": "A feasibility study reduces risk, because it finds problems such as weak demand or an unexpected legal requirement before money is spent on equipment and premises. It also supports applications for funding, since banks and state agencies are more willing to lend when the owner has evidence that the idea works. The main limitation is cost: the study takes time and money, which may be a heavy burden for a very small firm with few resources. A further limitation is uncertainty, because forecasts of sales and costs are estimates, so a positive study may still prove wrong if customer behaviour changes after launch.",
+    "model": "A feasibility study reduces risk, because it finds problems such as weak demand or an unexpected legal requirement before money is spent on equipment and premises. It also supports applications for funding, since banks and state support agencies are more willing to provide funding when the owner has evidence that the idea works. The main limitation is cost: the study takes time and money, which may be a heavy burden for a very small firm with few resources. A further limitation is uncertainty, because forecasts of sales and costs are estimates, so a positive study may still prove wrong if customer behaviour changes after launch.",
     "prompt": "Discuss the benefits and limitations of carrying out a feasibility study before launching a business.",
     "type": "short"
    },
@@ -11339,7 +11339,7 @@
      "Direction and goals: it gives owners and staff a clear route and measurable targets to aim for, so everyone is working towards the same aims.",
      "Raising finance: it persuades banks, investors and grant bodies that the business is viable (able to earn enough income to cover its costs and stay financially workable) and that its owners have thought the venture through.",
      "Benchmark for control: actual results are compared with the plan, so managers spot variances early and take corrective action before a small gap becomes a big problem.",
-     "Testing viability: writing the figures down shows whether the idea can cover its costs and earn a return before money is committed.",
+     "Testing viability: writing the figures down shows whether the idea can cover its costs and earn a return before money is committed, so a weak idea can be changed or dropped cheaply.",
      "Communicating with stakeholders (anyone affected by the business or able to affect it): employees, suppliers, landlords and advisers can all see what the business is trying to do."
     ],
     "tip": "To explain a function, name it and then give the reason it works, for example that the benchmark is compared with actual results so a variance is spotted early. Do not mix up the benchmark (the planned figure) with the variance (the gap). A common mistake is to list sections of a plan when the question asks for functions, or to give one point twice in different words."
@@ -11357,7 +11357,7 @@
      "Risks: the main threats to the business and the actions planned to reduce them or respond if they occur.",
      "Irish example: the Local Enterprise Offices publish free business plan templates and guides for start-ups. One template lists an executive summary, market, market strategy, organisation and management, production and operations, and costings and finance, with projected financial statements in the appendices."
     ],
-    "tip": "Remember that the executive summary is written last but placed first. When asked to identify sections, short one-line answers are enough."
+    "tip": "Remember that the executive summary is written last, because only then are the final details known, but placed first. When asked to identify sections, short one-line answers are enough."
    },
    {
     "b": "The purpose of the plan shifts as a business moves from start-up to growth, so the emphasis of the plan changes with it. This is how a plan supports start-up, operations, funding and development.",
@@ -11374,8 +11374,8 @@
     "b": "Ethics is about fair and honest treatment of people. Ethical planning builds that fair treatment and honesty into the business from the outset, rather than adding them after problems appear.",
     "h": "Ethics in business planning",
     "points": [
-     "Fair treatment of staff: pay, working conditions and training are planned so that employees are treated fairly and can be retained.",
-     "Fair treatment of suppliers: payment terms and purchasing agreements are set so that small suppliers are not exploited.",
+     "Fair treatment of staff: pay, working conditions and training are planned so that employees are treated fairly and can be retained, which saves the cost of constantly recruiting replacements.",
+     "Fair treatment of suppliers: payment terms and purchasing agreements are set so that small suppliers are not exploited, for example by being paid very late.",
      "Honest marketing: promises made to customers in the plan must be accurate and must not mislead buyers about what the product does.",
      "Responsible sourcing: the plan checks whether materials are produced legally and without exploiting the workers who make them.",
      "Digital ethics: a plan should say how the business will use digital channels, data and technology, and how it will protect customer data. Honest and lawful use of customers' data is an ethical point as well as a legal one."
@@ -11408,7 +11408,7 @@
     "b": "Digital tools have changed how plans are produced and kept up to date.",
     "h": "Digital tools and the plan",
     "points": [
-     "Plans are now commonly written, shared and updated with spreadsheets and cloud tools.",
+     "Plans are now commonly written, shared and updated with spreadsheets and cloud tools, so several people can work on one version.",
      "A plan can be updated as live data, such as sales and website traffic, comes in, which keeps the benchmark close to what is really happening."
     ]
    }
@@ -11776,7 +11776,7 @@
      "Key features include a tracked referral link, which records which customers the affiliate sent, reliance on a website, social media channel or blog, and no need to hold stock.",
      "Advantages: low start-up costs, little or no need for premises or stock, and the ability to work from home.",
      "Disadvantages: income depends on the merchant's programme terms (the rules set by the firm whose products are promoted), which can change.",
-     "Disadvantage: commission rates are often modest.",
+     "Disadvantage: commission rates are often modest, so a large income needs a large audience.",
      "Example: a sample business is a blogger who reviews kitchen appliances and earns commission on sales made through links on the review page."
     ],
     "tip": "The signal for an affiliate in a question is commission on referrals through a link. If the business runs its own outlet under another firm's brand, it is a franchise instead."
@@ -11893,7 +11893,7 @@
     "points": [
      "E-commerce (selling online) lets a business reach customers anywhere, which reduces the need for physical premises in every location.",
      "Platforms connect buyers and sellers, or users and content, so the platform owner earns income from the connections it makes possible rather than from making the product itself.",
-     "Data collected from customers lets a business target products and spot buying patterns that were previously hidden.",
+     "Data collected from customers lets a business target products and spot buying patterns that were previously hidden, such as which items sell together or at what time of year.",
      "Artificial intelligence (software that performs tasks needing judgement) and automation (machines or software doing routine work) cut labour costs and speed up tasks such as customer service and stock control. They can also displace some jobs.",
      "Digital change has internal drivers, such as a business seeking lower costs, and external drivers, such as customers who now shop online.",
      "Digital change is both a threat and an opportunity: a business that adapts can reach new customers and cut costs, while one that does not may lose customers to online competitors."
@@ -12097,7 +12097,7 @@
      "The same census found the over-70s were the fastest-growing age group (up 26% since 2016) and the 40 to 44 group was the largest share of the population, which is demographic data a business could use.",
      "Online analytics from a company's own website or social media pages are classed here as secondary data about its existing customers, because the information already exists and was not gathered for one specific question.",
      "Strength: desk research is fast and inexpensive, and it can cover a wide area or a long period of time.",
-     "Weakness: the data may be out of date, may not match the exact question being asked, and may be available to rivals too."
+     "Weakness: the data may be out of date, may not match the exact question being asked, and may be available to rivals too, so it gives no edge over them."
     ],
     "tip": "A common mistake is to call an interview or a business's own analytics the wrong type of research. Interviews are primary, and online analytics from the firm's own site are secondary. Give the Census 2022 figures only with their date."
    },
@@ -12212,7 +12212,7 @@
  "ch9-s2": {
   "keyTerms": [
    {
-    "definition": "The set of controllable decisions a business makes about its offer, price, promotion and distribution to meet target market needs.",
+    "definition": "The set of decisions a business controls to satisfy its target market: the seven Ps of product/service, pricing, promotion, people, packaging, process and place.",
     "term": "marketing mix"
    },
    {
@@ -12268,7 +12268,7 @@
     "term": "Methods of promotion in the mix"
    },
    {
-    "definition": "It is intangible, variable and perishable, so quality depends on the people who deliver it.",
+    "definition": "Services are usually described as intangible, variable and perishable, so quality depends on the people who deliver them.",
     "term": "How a service differs from a product"
    },
    {
@@ -12591,7 +12591,7 @@
  "ch9-s4": {
   "keyTerms": [
    {
-    "definition": "The effect of a new technology or business model that reshapes an established market, sometimes displacing existing firms.",
+    "definition": "How digital technology can change the way in which businesses operate (including within the workplace) and how consumers interact with business. It can be both positive and negative.",
     "term": "disruptive impact"
    },
    {
@@ -12690,7 +12690,7 @@
     "h": "Benefits and drawbacks for firms and consumers",
     "points": [
      "For firms: lower cost per contact, measurable results and the ability to test campaigns quickly and change them.",
-     "For firms: heavy dependence on platforms controlled by others, which can change their rules or fees without notice.",
+     "For firms: heavy dependence on platforms controlled by others, which can change their rules or fees without notice, so a firm's reach can be cut or made dearer overnight.",
      "For consumers: easier comparison of prices and a wider choice of suppliers.",
      "For consumers: exposure to tracking, targeted pressure and misleading content that is hard to identify as advertising."
     ],
@@ -12756,7 +12756,7 @@
  "ch9-s5": {
   "keyTerms": [
    {
-    "definition": "A matrix that plots stakeholders by their power over a business and their interest in its decisions, to decide how to manage each group.",
+    "definition": "A form of stakeholder mapping which considers the motivations of stakeholders and their ability to exert influence (either positive or negative) thereby mapping them according to their relative power and interest.",
     "term": "power-interest grid"
    },
    {
@@ -12827,7 +12827,7 @@
     "tip": "A common mistake is placing a group without a reason. For each customer group, say why its power is high or low and why its interest is high or low, then place it."
    },
    {
-    "b": "The grid is a method, not just a picture. Working through four steps in order turns a list of customers into a set of decisions about the marketing mix (the seven Ps).",
+    "b": "The grid is a method, not just a picture. Working through four steps in order turns a list of customers into a set of decisions about the marketing mix (the seven Ps: product/service, pricing, promotion, people, packaging, process and place).",
     "h": "Using the grid step by step",
     "points": [
      "1. List the customer groups the business sells to, such as retail buyers, regular business customers, online fans and occasional buyers.",
