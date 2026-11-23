@@ -1,0 +1,572 @@
+[
+ {
+  "skill": {
+   "id": "alg-collect-like",
+   "title": "Collect like terms",
+   "level": "JC",
+   "input": "expression",
+   "output": "simplified expression"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-collect-like-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Simplify $5x + 3y - 2x + 7y - y$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Group the like terms",
+      "lines": [
+       {
+        "tex": "5x + 3y - 2x + 7y - y &= (5x - 2x) + (3y + 7y - y)"
+       }
+      ]
+     },
+     {
+      "title": "Combine each group",
+      "lines": [
+       {
+        "tex": "&= 3x + 9y"
+       }
+      ]
+     }
+    ],
+    "final": "3x + 9y"
+   },
+   {
+    "part": "practice-alg-collect-like-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Simplify $\\frac{1}{2}a - \\frac{3}{4}b + \\frac{3}{2}a + \\frac{1}{4}b$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Group the $a$ terms and the $b$ terms",
+      "lines": [
+       {
+        "tex": "\\frac{1}{2}a - \\frac{3}{4}b + \\frac{3}{2}a + \\frac{1}{4}b &= \\left(\\frac{1}{2}a + \\frac{3}{2}a\\right) + \\left(-\\frac{3}{4}b + \\frac{1}{4}b\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Combine each group",
+      "lines": [
+       {
+        "tex": "&= 2a - \\frac{2}{4}b"
+       },
+       {
+        "tex": "&= 2a - \\frac{1}{2}b"
+       }
+      ]
+     }
+    ],
+    "final": "2a - \\frac{1}{2}b"
+   },
+   {
+    "part": "practice-alg-collect-like-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "The sides of a triangle have lengths $(4x + 3)$ cm, $(2x - 5)$ cm and $(x + 7)$ cm.\nWrite the perimeter of the triangle in terms of $x$, in its simplest form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the three sides",
+      "lines": [
+       {
+        "tex": "P &= (4x + 3) + (2x - 5) + (x + 7)"
+       }
+      ]
+     },
+     {
+      "title": "Group the $x$ terms and the numbers",
+      "lines": [
+       {
+        "tex": "&= (4x + 2x + x) + (3 - 5 + 7)"
+       }
+      ]
+     },
+     {
+      "title": "Combine each group",
+      "lines": [
+       {
+        "tex": "&= 7x + 5"
+       }
+      ]
+     }
+    ],
+    "final": "7x + 5\\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-expand-binomials",
+   "title": "Multiply out two brackets",
+   "level": "OL",
+   "input": "(x ± y)(w ± z)",
+   "output": "expanded, simplified expression"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the square as a product",
+      "lines": [
+       {
+        "tex": "(2x-4)^2 - 6 &= (2x-4)(2x-4) - 6"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out each term",
+      "lines": [
+       {
+        "tex": "&= 4x^2 - 8x - 8x + 16 - 6"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 4x^2 - 16x + 10"
+       }
+      ]
+     }
+    ],
+    "final": "4x^2 - 16x + 10"
+   },
+   {
+    "part": "practice-alg-expand-binomials-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Multiply out $(4x - 3)(x + 5)$ and simplify.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply each term in the first bracket by the second",
+      "lines": [
+       {
+        "tex": "(4x-3)(x+5) &= 4x(x+5) - 3(x+5)"
+       }
+      ]
+     },
+     {
+      "title": "Expand each part",
+      "lines": [
+       {
+        "tex": "&= 4x^2 + 20x - 3x - 15"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 4x^2 + 17x - 15"
+       }
+      ]
+     }
+    ],
+    "final": "4x^2 + 17x - 15"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Split the first bracket into its two terms",
+      "lines": [
+       {
+        "text": "Multiply the whole second bracket by $4x$, then by $-10\\sqrt{x}$."
+       },
+       {
+        "tex": "(4x - 10\\sqrt{x})(2x + 5\\sqrt{x} - 7) &= 4x(2x + 5\\sqrt{x} - 7) - 10\\sqrt{x}(2x + 5\\sqrt{x} - 7)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out $4x$ times the second bracket",
+      "lines": [
+       {
+        "tex": "4x(2x + 5\\sqrt{x} - 7) &= 4x \\times 2x + 4x \\times 5\\sqrt{x} - 4x \\times 7"
+       },
+       {
+        "tex": "&= 8x^2 + 20x\\sqrt{x} - 28x"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out $-10\\sqrt{x}$ times the second bracket",
+      "lines": [
+       {
+        "tex": "-10\\sqrt{x}(2x + 5\\sqrt{x} - 7) &= -20x\\sqrt{x} - 50\\sqrt{x}\\sqrt{x} + 70\\sqrt{x}"
+       },
+       {
+        "text": "$\\sqrt{x} \\times \\sqrt{x} = x$, so $-50\\sqrt{x}\\sqrt{x} = -50x$."
+       },
+       {
+        "tex": "&= -20x\\sqrt{x} - 50x + 70\\sqrt{x}"
+       }
+      ]
+     },
+     {
+      "title": "Add the two results and collect like terms",
+      "lines": [
+       {
+        "tex": "&= 8x^2 + 20x\\sqrt{x} - 28x - 20x\\sqrt{x} - 50x + 70\\sqrt{x}"
+       },
+       {
+        "text": "The $x\\sqrt{x}$ terms cancel, and $-28x - 50x = -78x$."
+       },
+       {
+        "tex": "&= 8x^2 - 78x + 70\\sqrt{x}"
+       }
+      ]
+     }
+    ],
+    "final": "8x^2 - 78x + 70\\sqrt{x}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-expand-single",
+   "title": "Expand a bracket by a term",
+   "level": "JC",
+   "input": "a(bx ± cy ± d)",
+   "output": "expanded expression"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q3#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Multiply out each bracket",
+      "lines": [
+       {
+        "tex": "3(4-5x) - 2(5-6x) &= 12 - 15x - 10 + 12x"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= (12-10) + (-15x+12x)"
+       },
+       {
+        "tex": "&= 2 - 3x"
+       }
+      ]
+     }
+    ],
+    "final": "2-3x"
+   },
+   {
+    "part": "practice-alg-expand-single-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Multiply out $-3(2x - 4y + 5)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply every term in the bracket by $-3$",
+      "lines": [
+       {
+        "tex": "-3(2x - 4y + 5) &= (-3)(2x) + (-3)(-4y) + (-3)(5)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify each term",
+      "lines": [
+       {
+        "tex": "&= -6x + 12y - 15"
+       }
+      ]
+     }
+    ],
+    "final": "-6x + 12y - 15"
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p1-q8#(d)(i)",
+    "level": "ordinary",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the area formula",
+      "lines": [
+       {
+        "tex": "A &= xy"
+       }
+      ]
+     },
+     {
+      "title": "Substitute y = 10.5 − x",
+      "lines": [
+       {
+        "tex": "A &= x(10.5 - x)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "A &= 10.5x - x^2"
+       }
+      ]
+     }
+    ],
+    "final": "A = 10.5x - x^2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-factor-cubes",
+   "title": "Factorise a sum/difference of two cubes",
+   "level": "HL",
+   "input": "a³ ± b³",
+   "output": "(a ± b)(a² ∓ ab + b²)"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-factor-cubes-1",
+    "level": "higher",
+    "year": null,
+    "question": "Factorise $27x^3 + 8$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each term as a cube",
+      "lines": [
+       {
+        "tex": "27x^3 + 8 &= (3x)^3 + 2^3"
+       }
+      ]
+     },
+     {
+      "title": "Use $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$ with $a=3x$, $b=2$",
+      "lines": [
+       {
+        "tex": "&= (3x+2)\\left((3x)^2 - (3x)(2) + 2^2\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the second bracket",
+      "lines": [
+       {
+        "tex": "&= (3x+2)(9x^2 - 6x + 4)"
+       }
+      ]
+     }
+    ],
+    "final": "(3x+2)(9x^2-6x+4)"
+   },
+   {
+    "part": "practice-alg-factor-cubes-2",
+    "level": "higher",
+    "year": null,
+    "question": "Factorise $x^3 - 64y^3$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each term as a cube",
+      "lines": [
+       {
+        "tex": "x^3 - 64y^3 &= x^3 - (4y)^3"
+       }
+      ]
+     },
+     {
+      "title": "Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a=x$, $b=4y$",
+      "lines": [
+       {
+        "tex": "&= (x-4y)\\left(x^2 + x(4y) + (4y)^2\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the second bracket",
+      "lines": [
+       {
+        "tex": "&= (x-4y)(x^2 + 4xy + 16y^2)"
+       }
+      ]
+     }
+    ],
+    "final": "(x-4y)(x^2+4xy+16y^2)"
+   },
+   {
+    "part": "practice-alg-factor-cubes-3",
+    "level": "higher",
+    "year": null,
+    "question": "Factorise fully $54x^3 - 2$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Take out the common factor 2",
+      "lines": [
+       {
+        "tex": "54x^3 - 2 &= 2(27x^3 - 1)"
+       }
+      ]
+     },
+     {
+      "title": "Write the bracket as a difference of cubes",
+      "lines": [
+       {
+        "tex": "&= 2\\left((3x)^3 - 1^3\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a=3x$, $b=1$",
+      "lines": [
+       {
+        "tex": "&= 2(3x-1)\\left((3x)^2 + (3x)(1) + 1^2\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the second bracket",
+      "lines": [
+       {
+        "tex": "&= 2(3x-1)(9x^2 + 3x + 1)"
+       }
+      ]
+     }
+    ],
+    "final": "2(3x-1)(9x^2+3x+1)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-factor-dots",
+   "title": "Factorise a difference of two squares",
+   "level": "OL",
+   "input": "a² − b²",
+   "output": "(a − b)(a + b)"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-factor-dots-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Factorise $4x^2 - 25$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write as a difference of two squares",
+      "lines": [
+       {
+        "tex": "4x^2 - 25 &= (2x)^2 - 5^2"
+       }
+      ]
+     },
+     {
+      "title": "Use $a^2 - b^2 = (a - b)(a + b)$ with $a = 2x$ and $b = 5$",
+      "lines": [
+       {
+        "tex": "&= (2x - 5)(2x + 5)"
+       }
+      ]
+     }
+    ],
+    "final": "(2x - 5)(2x + 5)"
+   },
+   {
+    "part": "practice-alg-factor-dots-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Without a calculator, use factors to evaluate $53^2 - 47^2$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Treat it as a difference of two squares",
+      "lines": [
+       {
+        "text": "$a^2 - b^2 = (a - b)(a + b)$ with $a = 53$ and $b = 47$."
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "53^2 - 47^2 &= (53 - 47)(53 + 47)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "&= 6 \\times 100"
+       },
+       {
+        "tex": "&= 600"
+       }
+      ]
+     }
+    ],
+    "final": "600"
+   },
+   {
+    "part": "practice-alg-factor-dots-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Solve the equation $9x^2 - 25 = 0$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Factorise the left-hand side as a difference of two squares",
+      "lines": [
+       {
+        "tex": "9x^2 - 25 &= 0"
+       },
+       {
+        "tex": "(3x)^2 - 5^2 &= 0"
+       },
+       {
+        "tex": "(3x - 5)(3x + 5) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Set each factor equal to zero",
+      "lines": [
+       {
+        "tex": "3x - 5 = 0 \\quad&\\text{or}\\quad 3x + 5 = 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "x = \\frac{5}{3} \\quad&\\text{or}\\quad x = -\\frac{5}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{5}{3} \\text{ or } x = -\\frac{5}{3}"
+   }
+  ]
+ }
+]

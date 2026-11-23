@@ -1,0 +1,697 @@
+[
+ {
+  "skill": {
+   "id": "num-fractions",
+   "title": "Operate on fractions",
+   "level": "JC",
+   "input": "fractions/mixed numbers",
+   "output": "simplified fraction"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-fractions-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Aoife spends $\\frac{1}{4}$ of her savings on a book and $\\frac{2}{5}$ of her savings on a concert ticket.\nWhat fraction of her savings is left?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add the fractions spent",
+      "lines": [
+       {
+        "tex": "\\frac{1}{4} + \\frac{2}{5} &= \\frac{5}{20} + \\frac{8}{20}"
+       },
+       {
+        "tex": "&= \\frac{13}{20}"
+       }
+      ]
+     },
+     {
+      "title": "Subtract from the whole",
+      "lines": [
+       {
+        "tex": "1 - \\frac{13}{20} &= \\frac{20}{20} - \\frac{13}{20}"
+       },
+       {
+        "tex": "&= \\frac{7}{20}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{7}{20}"
+   },
+   {
+    "part": "practice-num-fractions-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Calculate $2\\frac{1}{2} + 1\\frac{2}{3}$.\nGive your answer as a fraction in its simplest form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the mixed numbers as improper fractions",
+      "lines": [
+       {
+        "tex": "2\\frac{1}{2} + 1\\frac{2}{3} &= \\frac{5}{2} + \\frac{5}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Use the common denominator 6",
+      "lines": [
+       {
+        "tex": "&= \\frac{15}{6} + \\frac{10}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Add",
+      "lines": [
+       {
+        "tex": "&= \\frac{25}{6}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{25}{6}"
+   },
+   {
+    "part": "practice-num-fractions-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Calculate $\\frac{3}{4} \\div 1\\frac{1}{8}$.\nGive your answer as a fraction in its simplest form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the mixed number as an improper fraction",
+      "lines": [
+       {
+        "tex": "1\\frac{1}{8} &= \\frac{9}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Divide by multiplying by the reciprocal",
+      "lines": [
+       {
+        "tex": "\\frac{3}{4} \\div \\frac{9}{8} &= \\frac{3}{4} \\times \\frac{8}{9}"
+       },
+       {
+        "tex": "&= \\frac{24}{36}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "lines": [
+       {
+        "tex": "&= \\frac{2}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2}{3}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-order-operations",
+   "title": "Apply order of operations",
+   "level": "JC",
+   "input": "numerical expression with brackets/powers",
+   "output": "single value"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-order-operations-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Evaluate $20 - 3 \\times (4 - 7)^2 + 5$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Brackets first",
+      "lines": [
+       {
+        "tex": "20 - 3 \\times (4-7)^2 + 5 &= 20 - 3 \\times (-3)^2 + 5"
+       }
+      ]
+     },
+     {
+      "title": "Then the power",
+      "lines": [
+       {
+        "tex": "&= 20 - 3 \\times 9 + 5"
+       }
+      ]
+     },
+     {
+      "title": "Then multiply",
+      "lines": [
+       {
+        "tex": "&= 20 - 27 + 5"
+       }
+      ]
+     },
+     {
+      "title": "Then add and subtract from left to right",
+      "lines": [
+       {
+        "tex": "&= -7 + 5"
+       },
+       {
+        "tex": "&= -2"
+       }
+      ]
+     }
+    ],
+    "final": "-2"
+   },
+   {
+    "part": "practice-num-order-operations-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Evaluate $\\left(\\frac12\\right)^2 + 6 \\times \\frac13 - \\frac34$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Powers first",
+      "lines": [
+       {
+        "tex": "\\left(\\frac12\\right)^2 + 6 \\times \\frac13 - \\frac34 &= \\frac14 + 6 \\times \\frac13 - \\frac34"
+       }
+      ]
+     },
+     {
+      "title": "Then multiply",
+      "lines": [
+       {
+        "tex": "&= \\frac14 + 2 - \\frac34"
+       }
+      ]
+     },
+     {
+      "title": "Write over a common denominator",
+      "lines": [
+       {
+        "tex": "&= \\frac14 + \\frac84 - \\frac34"
+       }
+      ]
+     },
+     {
+      "title": "Add and subtract",
+      "lines": [
+       {
+        "tex": "&= \\frac64"
+       },
+       {
+        "tex": "&= \\frac32"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac32"
+   },
+   {
+    "part": "practice-num-order-operations-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Evaluate $\\dfrac{(5 - 2)^3 + 9}{4 \\times 3 - 6} - \\sqrt{49}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Brackets and powers on the top",
+      "lines": [
+       {
+        "tex": "(5-2)^3 + 9 &= 3^3 + 9"
+       },
+       {
+        "tex": "&= 27 + 9"
+       },
+       {
+        "tex": "&= 36"
+       }
+      ]
+     },
+     {
+      "title": "Multiply on the bottom",
+      "lines": [
+       {
+        "tex": "4 \\times 3 - 6 &= 12 - 6"
+       },
+       {
+        "tex": "&= 6"
+       }
+      ]
+     },
+     {
+      "title": "Divide, and find the root",
+      "lines": [
+       {
+        "tex": "\\frac{36}{6} - \\sqrt{49} &= 6 - 7"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "lines": [
+       {
+        "tex": "6 - 7 &= -1"
+       }
+      ]
+     }
+    ],
+    "final": "-1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-prime-factors",
+   "title": "Express a number as a product of primes",
+   "level": "OL",
+   "input": "natural number",
+   "output": "prime factorisation; HCF/LCM"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-prime-factors-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write 84 and 126 each as a product of prime numbers.\nHence find the highest common factor of 84 and 126.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise 84",
+      "lines": [
+       {
+        "tex": "84 &= 2 \\times 42"
+       },
+       {
+        "tex": "&= 2 \\times 2 \\times 21"
+       },
+       {
+        "tex": "&= 2^2 \\times 3 \\times 7"
+       }
+      ]
+     },
+     {
+      "title": "Factorise 126",
+      "lines": [
+       {
+        "tex": "126 &= 2 \\times 63"
+       },
+       {
+        "tex": "&= 2 \\times 3 \\times 21"
+       },
+       {
+        "tex": "&= 2 \\times 3^2 \\times 7"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the primes common to both, using the lower power of each",
+      "lines": [
+       {
+        "text": "Common: $2^1$, $3^1$ and $7^1$."
+       },
+       {
+        "tex": "\\text{HCF} &= 2 \\times 3 \\times 7"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     }
+    ],
+    "final": "42"
+   },
+   {
+    "part": "maths-pp-2025-ordinary-p1-q1#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "List the times each person finishes a window",
+      "lines": [
+       {
+        "text": "Máiréad finishes at $9, 18, 27, 36, \\ldots$ minutes."
+       },
+       {
+        "text": "Diarmuid finishes at $12, 24, 36, \\ldots$ minutes."
+       },
+       {
+        "text": "The first time they match is $36$ minutes (the lowest common multiple of 9 and 12)."
+       }
+      ]
+     },
+     {
+      "title": "Windows cleaned in 36 minutes together",
+      "lines": [
+       {
+        "tex": "\\text{Máiréad: } 36 \\div 9 &= 4"
+       },
+       {
+        "tex": "\\text{Diarmuid: } 36 \\div 12 &= 3"
+       },
+       {
+        "tex": "\\text{Together: } 4 + 3 &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Find how many 36-minute blocks are needed for 35 windows",
+      "lines": [
+       {
+        "tex": "35 \\div 7 &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 36 minutes",
+      "lines": [
+       {
+        "tex": "5 \\times 36 &= 180"
+       },
+       {
+        "text": "$180$ minutes is $3$ hours."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } 36 \\text{ minutes;}\\quad \\text{(ii) } 180 \\text{ minutes (3 hours)}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q9#(a)(i), (ii), (iii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "(i) List the factors of 2^4",
+      "lines": [
+       {
+        "text": "The factors of $2^4$ are the powers of 2 from $2^0$ up to $2^4$."
+       },
+       {
+        "text": "They are $2^0, 2^1, 2^2, 2^3, 2^4$, that is $1, 2, 4, 8, 16$."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Count the factors of 3^7",
+      "lines": [
+       {
+        "text": "The factors are $3^0, 3^1, 3^2, 3^3, 3^4, 3^5, 3^6, 3^7$."
+       },
+       {
+        "text": "That is 8 different factors."
+       }
+      ]
+     },
+     {
+      "title": "(iii) Count the factors of 2^10 × 3^12",
+      "lines": [
+       {
+        "text": "$2^{10}$ and $3^{12}$ share no factors, so every factor is a factor of $2^{10}$ times a factor of $3^{12}$."
+       },
+       {
+        "text": "$2^{10}$ has 11 factors ($2^0$ to $2^{10}$) and $3^{12}$ has 13 factors ($3^0$ to $3^{12}$)."
+       },
+       {
+        "tex": "\\text{factors} &= (10 + 1)(12 + 1)"
+       },
+       {
+        "tex": "&= 11 \\times 13"
+       },
+       {
+        "tex": "&= 143"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } 1, 2, 4, 8, 16 \\quad \\text{(ii) } 8 \\quad \\text{(iii) } 143"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-sets",
+   "title": "Classify numbers into N, Z, Q, R, C",
+   "level": "OL",
+   "input": "a number",
+   "output": "its smallest set; place on number line"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-sets-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The numbers $-7$, $\\frac{3}{4}$, $\\sqrt{25}$, $\\sqrt{10}$ and $\\frac{-12}{3}$ are given.\nWhich of them belong to $\\mathbb{Z}$ but do not belong to $\\mathbb{N}$?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Simplify each number",
+      "lines": [
+       {
+        "tex": "\\sqrt{25} &= 5"
+       },
+       {
+        "tex": "\\frac{-12}{3} &= -4"
+       },
+       {
+        "text": "$\\frac{3}{4}$ is a fraction and $\\sqrt{10}$ is irrational, so neither is an integer."
+       }
+      ]
+     },
+     {
+      "title": "Pick out the integers that are not natural numbers",
+      "lines": [
+       {
+        "text": "$5 \\in \\mathbb{N}$, so it is excluded. The negative integers $-7$ and $-4$ are in $\\mathbb{Z}$ but not $\\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "final": "-7, -4"
+   },
+   {
+    "part": "practice-num-sets-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$x \\in \\mathbb{Z}$ and $-2.5 < x \\le 1.5$.\nList all the possible values of $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Whole numbers only",
+      "lines": [
+       {
+        "text": "$x \\in \\mathbb{Z}$ means $x$ is a whole number, positive, negative or zero."
+       }
+      ]
+     },
+     {
+      "title": "Read off the values between $-2.5$ and $1.5$",
+      "lines": [
+       {
+        "text": "The smallest integer above $-2.5$ is $-2$. The largest integer up to $1.5$ is $1$."
+       },
+       {
+        "tex": "x &\\in \\{-2, -1, 0, 1\\}"
+       }
+      ]
+     }
+    ],
+    "final": "-2, -1, 0, 1"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q3#(b)(i), (ii), (iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "(i) Real numbers up to 2.8",
+      "lines": [
+       {
+        "text": "$x \\in \\mathbb{R}$ includes every point on the line. Put a closed dot at $2.8$ (because of $\\le$) and shade to the left with an arrow."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Integers up to 2.8",
+      "lines": [
+       {
+        "text": "$x \\in \\mathbb{Z}$ means whole numbers only. Put a dot on each of $-4, -3, -2, -1, 0, 1, 2$ and continue to the left with an arrow. Do not shade between the dots."
+       }
+      ]
+     },
+     {
+      "title": "(iii) Natural numbers up to 2.8",
+      "lines": [
+       {
+        "text": "$x \\in \\mathbb{N}$ means $1, 2, 3, \\ldots$ (the scheme also accepts $0$). Only $1$ and $2$ are at most $2.8$, so put a dot on each of them and nothing else."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) shaded line to } 2.8;\\ \\text{(ii) dots } \\ldots,-1,0,1,2;\\ \\text{(iii) dots } 1, 2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-surds",
+   "title": "Simplify and operate on surds",
+   "level": "OL",
+   "input": "surd expression",
+   "output": "simplified surd, rational denominator"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-surds-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\sqrt{72} + \\sqrt{18}$ in the form $a\\sqrt{2}$, where $a \\in \\mathbb{N}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write each number as a square times 2",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}"
+       },
+       {
+        "tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square roots out",
+      "lines": [
+       {
+        "tex": "\\sqrt{72} &= 6\\sqrt{2}"
+       },
+       {
+        "tex": "\\sqrt{18} &= 3\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Add the like surds",
+      "lines": [
+       {
+        "tex": "6\\sqrt{2} + 3\\sqrt{2} &= 9\\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "9\\sqrt{2}"
+   },
+   {
+    "part": "practice-num-surds-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\dfrac{4}{3 - \\sqrt{5}}$ in the form $a + b\\sqrt{5}$, where $a, b \\in \\mathbb{N}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply top and bottom by the conjugate of the denominator",
+      "lines": [
+       {
+        "tex": "\\frac{4}{3 - \\sqrt{5}} &= \\frac{4(3 + \\sqrt{5})}{(3 - \\sqrt{5})(3 + \\sqrt{5})}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the denominator",
+      "lines": [
+       {
+        "text": "$(3 - \\sqrt{5})(3 + \\sqrt{5}) = 9 - 5 = 4$."
+       },
+       {
+        "tex": "&= \\frac{4(3 + \\sqrt{5})}{9 - 5}"
+       },
+       {
+        "tex": "&= \\frac{4(3 + \\sqrt{5})}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the 4",
+      "lines": [
+       {
+        "tex": "&= 3 + \\sqrt{5}"
+       }
+      ]
+     }
+    ],
+    "final": "3 + \\sqrt{5}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the three face areas as equations",
+      "lines": [
+       {
+        "text": "Each face area is the product of two of the dimensions."
+       },
+       {
+        "tex": "xz &= 2\\sqrt{2}"
+       },
+       {
+        "tex": "yz &= 8\\sqrt{6}"
+       },
+       {
+        "tex": "xy &= 4\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the three equations",
+      "lines": [
+       {
+        "text": "The volume is $xyz$, and the product of the three areas is $(xyz)^2$."
+       },
+       {
+        "tex": "(xz)(yz)(xy) &= (2\\sqrt{2})(8\\sqrt{6})(4\\sqrt{3})"
+       },
+       {
+        "tex": "x^2y^2z^2 &= 2 \\times 8 \\times 4 \\times \\sqrt{2 \\times 6 \\times 3}"
+       },
+       {
+        "tex": "&= 64\\sqrt{36}"
+       },
+       {
+        "tex": "&= 64 \\times 6"
+       },
+       {
+        "tex": "&= 384"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root to get the volume",
+      "lines": [
+       {
+        "tex": "xyz &= \\sqrt{384}"
+       },
+       {
+        "tex": "&= \\sqrt{64 \\times 6}"
+       },
+       {
+        "tex": "&= 8\\sqrt{6}"
+       }
+      ]
+     }
+    ],
+    "final": "V = 8\\sqrt{6}\\ \\text{cm}^3"
+   }
+  ]
+ }
+]

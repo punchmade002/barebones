@@ -1,0 +1,712 @@
+[
+ {
+  "skill": {
+   "id": "trig-prove-identity",
+   "title": "Prove a trig identity",
+   "level": "HL",
+   "input": "identity",
+   "output": "one side transformed to the other"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-prove-identity-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove that $\\dfrac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} = \\tan 2A$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Sum-to-product on the numerator",
+      "lines": [
+       {
+        "tex": "\\sin 3A + \\sin A &= 2\\sin\\left(\\frac{3A + A}{2}\\right)\\cos\\left(\\frac{3A - A}{2}\\right)"
+       },
+       {
+        "tex": "&= 2\\sin 2A\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Sum-to-product on the denominator",
+      "lines": [
+       {
+        "tex": "\\cos 3A + \\cos A &= 2\\cos\\left(\\frac{3A + A}{2}\\right)\\cos\\left(\\frac{3A - A}{2}\\right)"
+       },
+       {
+        "tex": "&= 2\\cos 2A\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Divide and cancel",
+      "lines": [
+       {
+        "tex": "\\frac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} &= \\frac{2\\sin 2A\\cos A}{2\\cos 2A\\cos A}"
+       },
+       {
+        "tex": "&= \\frac{\\sin 2A}{\\cos 2A}"
+       }
+      ]
+     },
+     {
+      "title": "Write as a tangent",
+      "lines": [
+       {
+        "tex": "&= \\tan 2A"
+       }
+      ]
+     }
+    ],
+    "final": "\\dfrac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} = \\tan 2A"
+   },
+   {
+    "part": "practice-trig-prove-identity-2",
+    "level": "higher",
+    "year": null,
+    "question": "Prove that $\\dfrac{1 - \\tan^2 A}{1 + \\tan^2 A} = \\cos 2A$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write $\\tan A$ as $\\frac{\\sin A}{\\cos A}$",
+      "lines": [
+       {
+        "tex": "\\frac{1 - \\tan^2 A}{1 + \\tan^2 A} &= \\frac{1 - \\dfrac{\\sin^2 A}{\\cos^2 A}}{1 + \\dfrac{\\sin^2 A}{\\cos^2 A}}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply top and bottom by $\\cos^2 A$",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\cos^2 A - \\sin^2 A}{\\cos^2 A + \\sin^2 A}"
+       }
+      ]
+     },
+     {
+      "title": "Use $\\cos^2 A + \\sin^2 A = 1$",
+      "lines": [
+       {
+        "tex": "&= \\cos^2 A - \\sin^2 A"
+       }
+      ]
+     },
+     {
+      "title": "Use the double angle formula",
+      "lines": [
+       {
+        "text": "$\\cos 2A = \\cos^2 A - \\sin^2 A$."
+       },
+       {
+        "tex": "&= \\cos 2A"
+       }
+      ]
+     }
+    ],
+    "final": "\\dfrac{1 - \\tan^2 A}{1 + \\tan^2 A} = \\cos 2A"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q5#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write tan in terms of sin and cos",
+      "lines": [
+       {
+        "tex": "\\tan(A+B) &= \\frac{\\sin(A+B)}{\\cos(A+B)}"
+       }
+      ]
+     },
+     {
+      "title": "Expand the compound angle formulae",
+      "lines": [
+       {
+        "text": "Use $\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B$ and $\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B$."
+       },
+       {
+        "tex": "&= \\frac{\\sin A\\cos B+\\cos A\\sin B}{\\cos A\\cos B-\\sin A\\sin B}"
+       }
+      ]
+     },
+     {
+      "title": "Divide top and bottom by $\\cos A\\cos B$",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\dfrac{\\sin A\\cos B}{\\cos A\\cos B}+\\dfrac{\\cos A\\sin B}{\\cos A\\cos B}}{\\dfrac{\\cos A\\cos B}{\\cos A\\cos B}-\\dfrac{\\sin A\\sin B}{\\cos A\\cos B}}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel common factors",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\dfrac{\\sin A}{\\cos A}+\\dfrac{\\sin B}{\\cos B}}{1-\\dfrac{\\sin A}{\\cos A}\\cdot\\dfrac{\\sin B}{\\cos B}}"
+       }
+      ]
+     },
+     {
+      "title": "Replace $\\frac{\\sin}{\\cos}$ by $\\tan$",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}"
+       }
+      ]
+     }
+    ],
+    "final": "\\tan(A+B) = \\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-pythag-identity",
+   "title": "Use cos²A + sin²A = 1 (formula 1)",
+   "level": "HL",
+   "input": "one ratio + quadrant",
+   "output": "other ratios; simplified expression"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-pythag-identity-1",
+    "level": "higher",
+    "year": null,
+    "question": "$A$ is an angle in the second quadrant ($90^\\circ < A < 180^\\circ$) and $\\sin A = \\frac{5}{13}$.\nFind $\\cos A$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the identity",
+      "lines": [
+       {
+        "tex": "\\cos^2 A &= 1 - \\sin^2 A"
+       },
+       {
+        "tex": "&= 1 - \\left(\\frac{5}{13}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{144}{169}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "\\cos A &= \\pm\\frac{12}{13}"
+       }
+      ]
+     },
+     {
+      "title": "Choose the sign",
+      "lines": [
+       {
+        "text": "In the second quadrant cosine is negative."
+       },
+       {
+        "tex": "\\cos A &= -\\frac{12}{13}"
+       }
+      ]
+     }
+    ],
+    "final": "\\cos A = -\\frac{12}{13}"
+   },
+   {
+    "part": "practice-trig-pythag-identity-2",
+    "level": "higher",
+    "year": null,
+    "question": "Simplify $(\\sin\\theta + \\cos\\theta)^2 + (\\sin\\theta - \\cos\\theta)^2$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Expand both brackets",
+      "lines": [
+       {
+        "tex": "(\\sin\\theta + \\cos\\theta)^2 + (\\sin\\theta - \\cos\\theta)^2 &= \\sin^2\\theta + 2\\sin\\theta\\cos\\theta + \\cos^2\\theta + \\sin^2\\theta - 2\\sin\\theta\\cos\\theta + \\cos^2\\theta"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 2\\sin^2\\theta + 2\\cos^2\\theta"
+       },
+       {
+        "tex": "&= 2(\\sin^2\\theta + \\cos^2\\theta)"
+       }
+      ]
+     },
+     {
+      "title": "Use the identity",
+      "lines": [
+       {
+        "text": "$\\sin^2\\theta + \\cos^2\\theta = 1$."
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   },
+   {
+    "part": "practice-trig-pythag-identity-3",
+    "level": "higher",
+    "year": null,
+    "question": "Given that $\\cos\\theta = \\frac{4}{5}$ and that $\\theta$ is in the fourth quadrant ($270^\\circ < \\theta < 360^\\circ$), find $\\tan\\theta$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find sin² θ",
+      "lines": [
+       {
+        "tex": "\\sin^2\\theta &= 1 - \\cos^2\\theta"
+       },
+       {
+        "tex": "&= 1 - \\left(\\frac{4}{5}\\right)^2"
+       },
+       {
+        "tex": "&= \\frac{9}{25}"
+       }
+      ]
+     },
+     {
+      "title": "Choose the sign of sin θ",
+      "lines": [
+       {
+        "text": "In the fourth quadrant sine is negative."
+       },
+       {
+        "tex": "\\sin\\theta &= -\\frac{3}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Find tan θ",
+      "lines": [
+       {
+        "tex": "\\tan\\theta &= \\frac{\\sin\\theta}{\\cos\\theta}"
+       },
+       {
+        "tex": "&= \\frac{-3/5}{4/5}"
+       },
+       {
+        "tex": "&= -\\frac{3}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "\\tan\\theta = -\\frac{3}{4}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-radians",
+   "title": "Use radian measure",
+   "level": "HL",
+   "input": "angle in degrees or radians",
+   "output": "converted angle"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p2-q9#(b)(iii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 6.67",
+      "lines": [
+       {
+        "text": "Make sure the calculator is in radian mode."
+       },
+       {
+        "tex": "V(6.67) &= 110\\sqrt{2}\\,\\sin(120\\pi \\times 6.67)"
+       },
+       {
+        "tex": "&= 147.95\\ldots"
+       }
+      ]
+     }
+    ],
+    "final": "147.95 \\text{ Volts}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q7#(e)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 0.5 into V(t)",
+      "lines": [
+       {
+        "text": "Set the calculator to radian mode."
+       },
+       {
+        "tex": "V(0.5) &= 2 - 0.4\\cos\\left(\\frac{\\pi}{2} \\times 0.5\\right)"
+       },
+       {
+        "tex": "&= 2 - 0.4\\cos\\left(\\frac{\\pi}{4}\\right)"
+       },
+       {
+        "tex": "&= 1.7172\\ldots"
+       },
+       {
+        "tex": "&\\approx 1.717\\ \\text{litres}"
+       }
+      ]
+     }
+    ],
+    "final": "1.717\\ \\text{litres}"
+   },
+   {
+    "part": "practice-trig-radians-1",
+    "level": "higher",
+    "year": null,
+    "question": "A wheel turns through an angle of $\\frac{5\\pi}{12}$ radians. Express this angle in degrees.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the conversion factor",
+      "lines": [
+       {
+        "text": "$\\pi$ radians $= 180^\\circ$, so multiply by $\\frac{180}{\\pi}$."
+       },
+       {
+        "tex": "\\frac{5\\pi}{12} \\times \\frac{180}{\\pi} &= \\frac{5 \\times 180}{12}"
+       },
+       {
+        "tex": "&= 75^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "75^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-solve-quadratic",
+   "title": "Solve trig equations reducible to quadratics",
+   "level": "HL",
+   "input": "equation in sin θ / cos θ (possibly via identities)",
+   "output": "all solutions"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-solve-quadratic-1",
+    "level": "higher",
+    "year": null,
+    "question": "Solve $2\\cos^2\\theta + \\cos\\theta - 1 = 0$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "2\\cos^2\\theta + \\cos\\theta - 1 &= 0"
+       },
+       {
+        "tex": "(2\\cos\\theta - 1)(\\cos\\theta + 1) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve each factor",
+      "lines": [
+       {
+        "tex": "\\cos\\theta &= \\tfrac{1}{2}\\quad\\text{or}\\quad\\cos\\theta = -1"
+       }
+      ]
+     },
+     {
+      "title": "Find the angles",
+      "lines": [
+       {
+        "text": "$\\cos\\theta = \\tfrac{1}{2}$: cosine is positive, so $\\theta = 60^\\circ$ or $360^\\circ - 60^\\circ = 300^\\circ$."
+       },
+       {
+        "text": "$\\cos\\theta = -1$: $\\theta = 180^\\circ$."
+       }
+      ]
+     }
+    ],
+    "final": "\\theta = 60^\\circ,\\ 180^\\circ,\\ 300^\\circ"
+   },
+   {
+    "part": "practice-trig-solve-quadratic-2",
+    "level": "higher",
+    "year": null,
+    "question": "Solve $2\\sin^2\\theta + 3\\cos\\theta - 3 = 0$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace $\\sin^2\\theta$",
+      "lines": [
+       {
+        "text": "Use $\\sin^2\\theta = 1 - \\cos^2\\theta$."
+       },
+       {
+        "tex": "2(1 - \\cos^2\\theta) + 3\\cos\\theta - 3 &= 0"
+       },
+       {
+        "tex": "2\\cos^2\\theta - 3\\cos\\theta + 1 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "(2\\cos\\theta - 1)(\\cos\\theta - 1) &= 0"
+       },
+       {
+        "tex": "\\cos\\theta &= \\tfrac{1}{2}\\quad\\text{or}\\quad\\cos\\theta = 1"
+       }
+      ]
+     },
+     {
+      "title": "Find the angles",
+      "lines": [
+       {
+        "text": "$\\cos\\theta = \\tfrac{1}{2}$: $\\theta = 60^\\circ$ or $300^\\circ$."
+       },
+       {
+        "text": "$\\cos\\theta = 1$: $\\theta = 0^\\circ$ or $360^\\circ$."
+       }
+      ]
+     }
+    ],
+    "final": "\\theta = 0^\\circ,\\ 60^\\circ,\\ 300^\\circ,\\ 360^\\circ"
+   },
+   {
+    "part": "practice-trig-solve-quadratic-3",
+    "level": "higher",
+    "year": null,
+    "question": "Solve $2\\cos^2\\theta = 3\\sin\\theta$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace $\\cos^2\\theta$",
+      "lines": [
+       {
+        "text": "Use $\\cos^2\\theta = 1 - \\sin^2\\theta$."
+       },
+       {
+        "tex": "2(1 - \\sin^2\\theta) &= 3\\sin\\theta"
+       },
+       {
+        "tex": "2\\sin^2\\theta + 3\\sin\\theta - 2 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise",
+      "lines": [
+       {
+        "tex": "(2\\sin\\theta - 1)(\\sin\\theta + 2) &= 0"
+       },
+       {
+        "tex": "\\sin\\theta &= \\tfrac{1}{2}\\quad\\text{or}\\quad\\sin\\theta = -2"
+       }
+      ]
+     },
+     {
+      "title": "Reject and solve",
+      "lines": [
+       {
+        "text": "$\\sin\\theta = -2$ has no solution, since $-1 \\le \\sin\\theta \\le 1$."
+       },
+       {
+        "text": "$\\sin\\theta = \\tfrac{1}{2}$: sine is positive, so $\\theta = 30^\\circ$ or $180^\\circ - 30^\\circ = 150^\\circ$."
+       }
+      ]
+     }
+    ],
+    "final": "\\theta = 30^\\circ,\\ 150^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-sine-ambiguous",
+   "title": "Handle the ambiguous case of the sine rule",
+   "level": "HL",
+   "input": "two sides + non-included angle",
+   "output": "both possible triangles"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-higher-p2-q3#(c)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the sine rule",
+      "lines": [
+       {
+        "text": "$|MK|$ is opposite $\\angle KLM = 25^\\circ$, and $|ML|$ is opposite $\\theta = \\angle LKM$."
+       },
+       {
+        "tex": "\\frac{\\sin\\theta}{|ML|} &= \\frac{\\sin|\\angle KLM|}{|MK|}"
+       },
+       {
+        "tex": "\\frac{\\sin\\theta}{45} &= \\frac{\\sin 25^\\circ}{15\\sqrt{3}}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for sin θ",
+      "lines": [
+       {
+        "tex": "\\sin\\theta &= \\frac{45\\sin 25^\\circ}{15\\sqrt{3}}"
+       },
+       {
+        "tex": "&= \\frac{45(0.4226\\ldots)}{15\\sqrt{3}}"
+       },
+       {
+        "tex": "&= 0.73196\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Find both angles between 0° and 180°",
+      "lines": [
+       {
+        "text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."
+       },
+       {
+        "tex": "\\theta &= \\sin^{-1}(0.73196) = 47.05^\\circ"
+       },
+       {
+        "tex": "\\theta &= 180^\\circ - 47.05^\\circ = 132.95^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Round to the nearest degree",
+      "lines": [
+       {
+        "tex": "\\theta &= 47^\\circ \\ \\text{or}\\ 133^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\theta = 47^\\circ \\ \\text{or} \\ 133^\\circ"
+   },
+   {
+    "part": "practice-trig-sine-ambiguous-1",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $ABC$, $|AB| = 10$ cm, $|BC| = 7$ cm and $\\angle BAC = 30^\\circ$.\nFind the two possible values of $\\angle ACB$, correct to the nearest degree.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the sine rule",
+      "lines": [
+       {
+        "text": "$|AB|$ is opposite $\\angle ACB = C$, and $|BC|$ is opposite $\\angle BAC = 30^\\circ$."
+       },
+       {
+        "tex": "\\frac{\\sin C}{10} &= \\frac{\\sin 30^\\circ}{7}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $\\sin C$",
+      "lines": [
+       {
+        "tex": "\\sin C &= \\frac{10\\sin 30^\\circ}{7}"
+       },
+       {
+        "tex": "&= \\frac{5}{7}"
+       }
+      ]
+     },
+     {
+      "title": "Find both angles between $0^\\circ$ and $180^\\circ$",
+      "lines": [
+       {
+        "text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."
+       },
+       {
+        "tex": "C &= \\sin^{-1}(5/7) = 45.58^\\circ"
+       },
+       {
+        "tex": "C &= 180^\\circ - 45.58^\\circ = 134.42^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Round to the nearest degree",
+      "lines": [
+       {
+        "tex": "C &= 46^\\circ \\ \\text{or}\\ 134^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "C = 46^\\circ \\ \\text{or}\\ 134^\\circ"
+   },
+   {
+    "part": "practice-trig-sine-ambiguous-2",
+    "level": "higher",
+    "year": null,
+    "question": "In triangle $PQR$, $|PQ| = 12$ cm, $|QR| = 8$ cm and $\\angle QPR = 25^\\circ$.\nFind the two possible values of $\\angle PRQ$, correct to the nearest degree.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the sine rule",
+      "lines": [
+       {
+        "text": "$|PQ|$ is opposite $\\angle PRQ = R$, and $|QR|$ is opposite $\\angle QPR = 25^\\circ$."
+       },
+       {
+        "tex": "\\frac{\\sin R}{12} &= \\frac{\\sin 25^\\circ}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $\\sin R$",
+      "lines": [
+       {
+        "tex": "\\sin R &= \\frac{12\\sin 25^\\circ}{8}"
+       },
+       {
+        "tex": "&= 0.633927\\ldots"
+       }
+      ]
+     },
+     {
+      "title": "Find both angles between $0^\\circ$ and $180^\\circ$",
+      "lines": [
+       {
+        "text": "Sine is positive in the 1st and 2nd quadrants, so there are two angles."
+       },
+       {
+        "tex": "R &= \\sin^{-1}(0.6339) = 39.34^\\circ"
+       },
+       {
+        "tex": "R &= 180^\\circ - 39.34^\\circ = 140.66^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Round to the nearest degree",
+      "lines": [
+       {
+        "tex": "R &= 39^\\circ \\ \\text{or}\\ 141^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "R = 39^\\circ \\ \\text{or}\\ 141^\\circ"
+   }
+  ]
+ }
+]

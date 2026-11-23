@@ -1,0 +1,747 @@
+[
+ {
+  "skill": {
+   "id": "geo-thm21",
+   "title": "Apply Theorem 21: Perpendicular from the centre bisects a chord; perpendicular bisector of a chord passes through the centre",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 21"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm21-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$[AB]$ is a chord of a circle with centre $O$ and radius $10$ cm.\n$|AB| = 16$ cm.\nFind the distance from $O$ to the chord $AB$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Bisect the chord (Theorem 21)",
+      "lines": [
+       {
+        "text": "The perpendicular from the centre $O$ to the chord meets it at its midpoint $M$ (Theorem 21)."
+       },
+       {
+        "tex": "|AM| &= \\frac{1}{2} \\times 16"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in triangle $OMA$",
+      "lines": [
+       {
+        "text": "$OMA$ has a right angle at $M$ and hypotenuse $|OA| = 10$."
+       },
+       {
+        "tex": "|OM|^2 &= 10^2 - 8^2"
+       },
+       {
+        "tex": "&= 100 - 64"
+       },
+       {
+        "tex": "&= 36"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "|OM| &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "|OM| = 6 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm21-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A circle has centre $O$ and radius $13$ cm.\n$M$ is the foot of the perpendicular from $O$ to a chord $[PQ]$, and $|OM| = 5$ cm.\nFind $|PQ|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Pythagoras in triangle $OMP$",
+      "lines": [
+       {
+        "text": "$OM \\perp PQ$, so $OMP$ has a right angle at $M$ and hypotenuse $|OP| = 13$."
+       },
+       {
+        "tex": "|PM|^2 &= 13^2 - 5^2"
+       },
+       {
+        "tex": "&= 169 - 25"
+       },
+       {
+        "tex": "&= 144"
+       }
+      ]
+     },
+     {
+      "title": "Find $|PM|$",
+      "lines": [
+       {
+        "tex": "|PM| &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Double it (Theorem 21)",
+      "lines": [
+       {
+        "text": "The perpendicular from the centre bisects the chord (Theorem 21), so $M$ is the midpoint of $[PQ]$."
+       },
+       {
+        "tex": "|PQ| &= 2 \\times 12"
+       },
+       {
+        "tex": "&= 24"
+       }
+      ]
+     }
+    ],
+    "final": "|PQ| = 24 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm21-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A horizontal pipe has a circular cross-section.\nThe surface of the water in the pipe is a chord of the circle of length $48$ cm.\nThe water is $8$ cm deep at its deepest point, which is directly below the midpoint of the chord.\nFind the radius of the pipe.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Set up the right-angled triangle",
+      "lines": [
+       {
+        "text": "Let $O$ be the centre and $r$ the radius. The line from $O$ to the midpoint $M$ of the chord is perpendicular to the chord (Theorem 21), so it is the vertical line through the deepest point."
+       },
+       {
+        "text": "Half the chord is $24$ cm, and $|OM| = r - 8$."
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in the triangle with sides $r$, $24$ and $r-8$",
+      "lines": [
+       {
+        "tex": "r^2 &= 24^2 + (r-8)^2"
+       },
+       {
+        "tex": "&= 576 + r^2 - 16r + 64"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $r$",
+      "lines": [
+       {
+        "tex": "16r &= 640"
+       },
+       {
+        "tex": "r &= 40"
+       }
+      ]
+     }
+    ],
+    "final": "r = 40 \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm3",
+   "title": "Apply Theorem 3: Alternate angles are equal ⇔ lines parallel",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 3"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm3-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$ABCD$ is a quadrilateral with $[AB] \\parallel [DC]$.\n$|\\angle BAC| = 35^\\circ$ and $|\\angle ACB| = 80^\\circ$.\nFind $|\\angle BCD|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the angle ACD",
+      "lines": [
+       {
+        "text": "$[AB] \\parallel [DC]$ and $AC$ crosses them, so $\\angle BAC$ and $\\angle ACD$ are alternate angles, and equal."
+       },
+       {
+        "tex": "|\\angle ACD| &= 35"
+       }
+      ]
+     },
+     {
+      "title": "Add the two parts of angle BCD",
+      "lines": [
+       {
+        "tex": "|\\angle BCD| &= |\\angle ACB| + |\\angle ACD|"
+       },
+       {
+        "tex": "&= 80 + 35"
+       },
+       {
+        "tex": "&= 115"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle BCD| = 115^\\circ"
+   },
+   {
+    "part": "maths-pp-2015-ordinary-p2-q4#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 20,
+    "steps": [
+     {
+      "title": "Find x",
+      "lines": [
+       {
+        "text": "The top and bottom sides of the parallelogram are parallel, and the diagonal crosses them."
+       },
+       {
+        "tex": "x &= 30^\\circ"
+       },
+       {
+        "text": "Reason: alternate angles are equal."
+       }
+      ]
+     },
+     {
+      "title": "Find y",
+      "lines": [
+       {
+        "text": "The triangle at the left has angles $110^\\circ$, $30^\\circ$ and $y^\\circ$."
+       },
+       {
+        "tex": "y &= 180^\\circ - 110^\\circ - 30^\\circ"
+       },
+       {
+        "tex": "&= 40^\\circ"
+       },
+       {
+        "text": "Reason: the angles in a triangle add up to $180^\\circ$."
+       }
+      ]
+     },
+     {
+      "title": "Find z",
+      "lines": [
+       {
+        "text": "$z$ matches the whole angle at the bottom left, which is $x + y$."
+       },
+       {
+        "tex": "z &= x + y"
+       },
+       {
+        "tex": "&= 30^\\circ + 40^\\circ"
+       },
+       {
+        "tex": "&= 70^\\circ"
+       },
+       {
+        "text": "Reason: corresponding angles are equal (the left and right sides are parallel). Equivalently, an exterior angle equals the sum of the two opposite interior angles."
+       }
+      ]
+     }
+    ],
+    "final": "x = 30^\\circ,\\; y = 40^\\circ,\\; z = 70^\\circ"
+   },
+   {
+    "part": "practice-geo-thm3-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$AB$ and $CD$ are parallel lines.\nA line meets $AB$ at $P$ and $CD$ at $Q$, with $A$ and $D$ on opposite sides of $PQ$.\n$|\\angle APQ| = (2x + 15)^\\circ$ and $|\\angle PQD| = (4x - 25)^\\circ$.\nFind $|\\angle PQD|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use alternate angles",
+      "lines": [
+       {
+        "text": "$\\angle APQ$ and $\\angle PQD$ are alternate angles between parallel lines, so they are equal."
+       },
+       {
+        "tex": "2x + 15 &= 4x - 25"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "40 &= 2x"
+       },
+       {
+        "tex": "x &= 20"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle PQD",
+      "lines": [
+       {
+        "tex": "|\\angle PQD| &= 4(20) - 25"
+       },
+       {
+        "tex": "&= 55"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle PQD| = 55^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm5",
+   "title": "Apply Theorem 5: Corresponding angles are equal ⇔ lines parallel",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 5"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm5-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In the triangle $ABC$, the point $D$ is on $[AB]$ and the point $E$ is on $[AC]$, with $[DE] \\parallel [BC]$.\n$|\\angle ADE| = 52^\\circ$ and $|\\angle ACB| = 61^\\circ$.\nFind $|\\angle BAC|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use corresponding angles",
+      "lines": [
+       {
+        "text": "$[DE] \\parallel [BC]$ and $AB$ crosses them, so $\\angle ADE$ and $\\angle ABC$ are corresponding angles, and equal."
+       },
+       {
+        "tex": "|\\angle ABC| &= 52"
+       }
+      ]
+     },
+     {
+      "title": "Use the angles of triangle ABC",
+      "lines": [
+       {
+        "text": "The angles in a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle BAC| &= 180 - 52 - 61"
+       },
+       {
+        "tex": "&= 67"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle BAC| = 67^\\circ"
+   },
+   {
+    "part": "practice-geo-thm5-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$AB$ and $CD$ are parallel lines.\nA line meets $AB$ at $P$ and $CD$ at $Q$. $E$ is a point on this line above $P$, and $B$ and $D$ are on the same side of it.\n$|\\angle EPB| = (5x - 20)^\\circ$ and $|\\angle PQD| = (3x + 20)^\\circ$.\nFind $|\\angle PQC|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use corresponding angles",
+      "lines": [
+       {
+        "text": "$\\angle EPB$ and $\\angle PQD$ are corresponding angles between parallel lines, so they are equal."
+       },
+       {
+        "tex": "5x - 20 &= 3x + 20"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "2x &= 40"
+       },
+       {
+        "tex": "x &= 20"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle PQD",
+      "lines": [
+       {
+        "tex": "|\\angle PQD| &= 3(20) + 20"
+       },
+       {
+        "tex": "&= 80"
+       }
+      ]
+     },
+     {
+      "title": "Use the straight line CD",
+      "lines": [
+       {
+        "text": "$\\angle PQC$ and $\\angle PQD$ lie on a straight line, so they add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle PQC| &= 180 - 80"
+       },
+       {
+        "tex": "&= 100"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle PQC| = 100^\\circ"
+   },
+   {
+    "part": "practice-geo-thm5-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "$AB$ and $CD$ are parallel lines.\nA line meets $AB$ at $P$ and $CD$ at $Q$. $E$ is a point on this line above $P$, and $B$ and $D$ are on the same side of it.\n$|\\angle EPB| = (x + 2y)^\\circ$, $|\\angle PQD| = 70^\\circ$ and $|\\angle PQC| = (3x + y)^\\circ$.\nFind the value of $x$ and the value of $y$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use corresponding angles",
+      "lines": [
+       {
+        "text": "$\\angle EPB$ and $\\angle PQD$ are corresponding angles between parallel lines, so they are equal."
+       },
+       {
+        "tex": "x + 2y &= 70"
+       }
+      ]
+     },
+     {
+      "title": "Use the straight line CD",
+      "lines": [
+       {
+        "text": "$\\angle PQC$ and $\\angle PQD$ lie on a straight line, so they add to $180^\\circ$."
+       },
+       {
+        "tex": "(3x + y) + 70 &= 180"
+       },
+       {
+        "tex": "3x + y &= 110"
+       }
+      ]
+     },
+     {
+      "title": "Eliminate x",
+      "lines": [
+       {
+        "tex": "x &= 70 - 2y"
+       },
+       {
+        "tex": "3(70 - 2y) + y &= 110"
+       },
+       {
+        "tex": "210 - 5y &= 110"
+       },
+       {
+        "tex": "y &= 20"
+       }
+      ]
+     },
+     {
+      "title": "Find x",
+      "lines": [
+       {
+        "tex": "x &= 70 - 2(20)"
+       },
+       {
+        "tex": "x &= 30"
+       }
+      ]
+     }
+    ],
+    "final": "x = 30, \\quad y = 20"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm6",
+   "title": "Apply Theorem 6: Exterior angle = sum of interior opposite angles",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 6"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm6-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, the side $BC$ is extended to a point $D$ beyond $C$. $\\angle BAC = 48^\\circ$ and $\\angle ABC = 57^\\circ$.\nFind $\\angle ACD$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the exterior angle",
+      "lines": [
+       {
+        "text": "$\\angle ACD$ is the exterior angle at $C$. The two opposite interior angles are $\\angle BAC$ and $\\angle ABC$."
+       }
+      ]
+     },
+     {
+      "title": "Add the opposite interior angles",
+      "lines": [
+       {
+        "tex": "\\angle ACD &= 48^\\circ + 57^\\circ"
+       },
+       {
+        "tex": "&= 105^\\circ"
+       },
+       {
+        "text": "Reason: Theorem 6, an exterior angle equals the sum of the two interior opposite angles."
+       }
+      ]
+     }
+    ],
+    "final": "\\angle ACD = 105^\\circ"
+   },
+   {
+    "part": "practice-geo-thm6-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $PQR$, the side $QR$ is extended to a point $S$ beyond $R$.\n$\\angle PRS = (4x + 10)^\\circ$, $\\angle QPR = (x + 20)^\\circ$ and $\\angle PQR = (2x + 15)^\\circ$.\nFind the value of $x$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Theorem 6",
+      "lines": [
+       {
+        "text": "$\\angle PRS$ is the exterior angle at $R$. It equals the sum of the opposite interior angles $\\angle QPR$ and $\\angle PQR$."
+       },
+       {
+        "tex": "4x + 10 &= (x + 20) + (2x + 15)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "lines": [
+       {
+        "tex": "4x + 10 &= 3x + 35"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "x &= 35 - 10"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     }
+    ],
+    "final": "x = 25"
+   },
+   {
+    "part": "practice-geo-thm6-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $|AB| = |AC|$. The side $BC$ is extended to a point $D$ beyond $C$ and $\\angle ACD = 130^\\circ$.\nFind $\\angle BAC$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $\\angle ACB$",
+      "lines": [
+       {
+        "text": "$B$, $C$ and $D$ lie on a straight line."
+       },
+       {
+        "tex": "\\angle ACB &= 180^\\circ - 130^\\circ"
+       },
+       {
+        "tex": "&= 50^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find $\\angle ABC$",
+      "lines": [
+       {
+        "text": "$|AB| = |AC|$, so the base angles are equal."
+       },
+       {
+        "tex": "\\angle ABC &= 50^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 6",
+      "lines": [
+       {
+        "text": "The exterior angle $\\angle ACD$ equals $\\angle BAC + \\angle ABC$."
+       },
+       {
+        "tex": "130 &= \\angle BAC + 50"
+       },
+       {
+        "tex": "\\angle BAC &= 130 - 50"
+       },
+       {
+        "tex": "&= 80^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\angle BAC = 80^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm7",
+   "title": "Apply Theorem 7: Greater side is opposite the greater angle (and converse)",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 7"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm7-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $|AB| = 9$ cm, $|BC| = 7$ cm and $|AC| = 5$ cm. The three angles of the triangle measure $33^\\circ$, $52^\\circ$ and $95^\\circ$ in some order.\nFind $\\angle ABC$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Match each side to its opposite angle",
+      "lines": [
+       {
+        "text": "$|AB|$ is opposite $\\angle ACB$, $|BC|$ is opposite $\\angle BAC$ and $|AC|$ is opposite $\\angle ABC$."
+       }
+      ]
+     },
+     {
+      "title": "Order the sides",
+      "lines": [
+       {
+        "tex": "5 &< 7 < 9"
+       },
+       {
+        "text": "$|AC|$ is the shortest side."
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 7",
+      "lines": [
+       {
+        "text": "The smaller side is opposite the smaller angle, so $|AC|$ is opposite the smallest angle."
+       },
+       {
+        "tex": "\\angle ABC &= 33^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\angle ABC = 33^\\circ"
+   },
+   {
+    "part": "practice-geo-thm7-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $DEF$, $|DE| > |DF| > |EF|$. The three angles of the triangle measure $34^\\circ$, $62^\\circ$ and $84^\\circ$ in some order.\nFind $\\angle DEF$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Match each side to its opposite angle",
+      "lines": [
+       {
+        "text": "$|DE|$ is opposite $\\angle DFE$, $|DF|$ is opposite $\\angle DEF$ and $|EF|$ is opposite $\\angle EDF$."
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 7",
+      "lines": [
+       {
+        "text": "The greatest side is opposite the greatest angle, so $\\angle DFE = 84^\\circ$."
+       },
+       {
+        "text": "The least side $|EF|$ is opposite the least angle, so $\\angle EDF = 34^\\circ$."
+       },
+       {
+        "text": "$|DF|$ is the middle side, so $\\angle DEF$ is the middle angle."
+       }
+      ]
+     },
+     {
+      "title": "Find $\\angle DEF$",
+      "lines": [
+       {
+        "tex": "\\angle DEF &= 180^\\circ - 84^\\circ - 34^\\circ"
+       },
+       {
+        "tex": "&= 62^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\angle DEF = 62^\\circ"
+   },
+   {
+    "part": "practice-geo-thm7-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $\\angle A = 40^\\circ$, $\\angle B = (2x)^\\circ$ and $\\angle C = (x + 20)^\\circ$.\nFind the measure of the angle that is opposite the longest side.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $x$",
+      "lines": [
+       {
+        "text": "The angles in a triangle add up to $180^\\circ$."
+       },
+       {
+        "tex": "40 + 2x + (x + 20) &= 180"
+       },
+       {
+        "tex": "3x + 60 &= 180"
+       },
+       {
+        "tex": "x &= 40"
+       }
+      ]
+     },
+     {
+      "title": "Find the angles",
+      "lines": [
+       {
+        "tex": "\\angle B &= 2(40) = 80^\\circ"
+       },
+       {
+        "tex": "\\angle C &= 40 + 20 = 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 7",
+      "lines": [
+       {
+        "tex": "80 &> 60 > 40"
+       },
+       {
+        "text": "The greatest side is opposite the greatest angle, so the angle opposite the longest side is $\\angle B$."
+       }
+      ]
+     }
+    ],
+    "final": "80^\\circ"
+   }
+  ]
+ }
+]

@@ -1,0 +1,556 @@
+[
+ {
+  "skill": {
+   "id": "stat-plan-collect",
+   "title": "Design a plan and questions to collect data",
+   "level": "OL",
+   "input": "research question",
+   "output": "data-collection plan, unbiased questions"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-plan-collect-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school has 600 students: 150 in first year, 180 in second year, 270 in third year.\nA researcher plans to survey 60 students, with the number from each year in proportion to the size of the year (a stratified sample).\nHow many second-year students should be surveyed?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the plan",
+      "lines": [
+       {
+        "text": "Each year group is sampled in proportion to its size, so every year is fairly represented."
+       }
+      ]
+     },
+     {
+      "title": "Find the number",
+      "lines": [
+       {
+        "tex": "\\frac{180}{600} \\times 60"
+       },
+       {
+        "tex": "&= 18"
+       }
+      ]
+     }
+    ],
+    "final": "18"
+   },
+   {
+    "part": "practice-stat-plan-collect-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A club has a list of 1200 members numbered 1 to 1200. A researcher plans a systematic random sample of 40 members.\nShe picks every $k$th member after a random start. The random start is member number 17.\nFind the number of the 5th member chosen.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the interval",
+      "lines": [
+       {
+        "tex": "k &= \\frac{1200}{40}"
+       },
+       {
+        "tex": "&= 30"
+       }
+      ]
+     },
+     {
+      "title": "Find the 5th member",
+      "lines": [
+       {
+        "tex": "17 + 4 \\times 30"
+       },
+       {
+        "tex": "&= 137"
+       }
+      ]
+     }
+    ],
+    "final": "137"
+   },
+   {
+    "part": "practice-stat-plan-collect-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A researcher plans to post a questionnaire to people. From past surveys, 35% of people reply.\nShe wants 140 replies.\nHow many questionnaires should she send out?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up",
+      "lines": [
+       {
+        "text": "Let $n$ be the number sent. Then 35% of $n$ must equal 140."
+       }
+      ]
+     },
+     {
+      "title": "Solve",
+      "lines": [
+       {
+        "tex": "0.35 n &= 140"
+       },
+       {
+        "tex": "n &= \\frac{140}{0.35}"
+       },
+       {
+        "tex": "&= 400"
+       }
+      ]
+     }
+    ],
+    "final": "400"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-populations-samples",
+   "title": "Distinguish population and sample; judge generalisation",
+   "level": "OL",
+   "input": "study description",
+   "output": "population, sample, how far conclusions generalise"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p2-q10#(a)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Give an advantage of a sample",
+      "lines": [
+       {
+        "text": "A sample is cheaper and faster than surveying everyone in the population."
+       }
+      ]
+     },
+     {
+      "title": "Give a disadvantage of a sample",
+      "lines": [
+       {
+        "text": "A sample is less accurate, and it may be biased if it does not represent the whole population."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Advantage: cheaper or faster. Disadvantage: less accurate (sampling bias).}"
+   },
+   {
+    "part": "practice-stat-populations-samples-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A school has 1200 students. A sample of 150 of them is surveyed about travel to school.\nWhat percentage of the population is in the sample?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: all 1200 students. Sample: the 150 students surveyed."
+       }
+      ]
+     },
+     {
+      "title": "Write the sample as a fraction of the population",
+      "lines": [
+       {
+        "tex": "\\text{Fraction} &= \\frac{150}{1200} = \\frac{1}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{1}{8} \\times 100 &= 12.5"
+       }
+      ]
+     }
+    ],
+    "final": "12.5\\%"
+   },
+   {
+    "part": "practice-stat-populations-samples-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A town has 4500 adults. A sample of 90 adults is chosen to find out how they feel about a new bypass.\nThe sample is 1 in every how many adults in the town?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: the 4500 adults in the town. Sample: the 90 adults chosen."
+       }
+      ]
+     },
+     {
+      "title": "Divide the population by the sample",
+      "lines": [
+       {
+        "tex": "\\frac{4500}{90} &= 50"
+       }
+      ]
+     },
+     {
+      "title": "State the result",
+      "lines": [
+       {
+        "text": "The sample is 1 in every 50 adults, so conclusions only generalise if these 90 represent the town."
+       }
+      ]
+     }
+    ],
+    "final": "50"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-sampling-methods-hl",
+   "title": "Define stratified, cluster and quota sampling; role of randomisation and controls",
+   "level": "HL",
+   "input": "study description",
+   "output": "method; biases, limitations, ethics; control group"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-sampling-methods-hl-1",
+    "level": "higher",
+    "year": null,
+    "question": "A school has 1200 students: 300 in first year, 400 in second year and 500 in third year.\nA stratified sample of 60 students is taken, with each year group represented in proportion to its size.\nHow many students are chosen from third year?",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find third year's share",
+      "lines": [
+       {
+        "text": "Stratified sampling takes from each group in proportion to its size."
+       },
+       {
+        "tex": "\\text{Share} &= \\frac{500}{1200}"
+       }
+      ]
+     },
+     {
+      "title": "Apply to the sample",
+      "lines": [
+       {
+        "tex": "\\text{Number} &= \\frac{500}{1200} \\times 60"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "text": "Choose these 25 students at random from the third-year students."
+       }
+      ]
+     }
+    ],
+    "final": "25"
+   },
+   {
+    "part": "practice-stat-sampling-methods-hl-2",
+    "level": "higher",
+    "year": null,
+    "question": "A market researcher uses quota sampling to interview 80 shoppers in a town where 55% of the shoppers are women.\nHow many women must be in the researcher's quota?\nState one way in which quota sampling can give a biased sample.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the number of women",
+      "lines": [
+       {
+        "text": "A quota sample copies the make-up of the population, so 55% of the 80 must be women."
+       },
+       {
+        "tex": "\\frac{55}{100} \\times 80 &= 44"
+       }
+      ]
+     },
+     {
+      "title": "Comment on bias",
+      "lines": [
+       {
+        "text": "The interviewer chooses who to ask, not a random method, so they may pick people who are easy to approach. This can bias the sample."
+       }
+      ]
+     }
+    ],
+    "final": "44"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q10#(d)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split the students into two groups",
+      "lines": [
+       {
+        "text": "Stratified sampling takes a sample from each group in proportion to its size. Here the groups are students with a pet and students without a pet."
+       },
+       {
+        "text": "Each group is 50% of the students, so each should make up 50% of the sample."
+       }
+      ]
+     },
+     {
+      "title": "Work out the size of each sample",
+      "lines": [
+       {
+        "tex": "\\text{Sample size} &= \\frac{50}{100} \\times 2520"
+       },
+       {
+        "tex": "&= 1260"
+       }
+      ]
+     },
+     {
+      "title": "Choose the students at random",
+      "lines": [
+       {
+        "text": "Take a random sample of 1260 from all the students in country Z who have a pet."
+       },
+       {
+        "text": "Take a random sample of 1260 from all the students in country Z who do not have a pet."
+       }
+      ]
+     },
+     {
+      "title": "Why this is probably not useful",
+      "lines": [
+       {
+        "text": "There is probably no connection between owning a pet and maths scores, so splitting by pet ownership gives no better estimate of the scores."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Random sample of 1260 pet owners and 1260 non-owners; pet ownership is probably unrelated to maths scores}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-srs-bias",
+   "title": "Select a simple random sample and spot bias",
+   "level": "OL",
+   "input": "population + sampling method",
+   "output": "SRS procedure; source of bias"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-srs-bias-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A teacher numbers her 300 students from 1 to 300 and uses a random number generator to pick 25 different numbers. Every student is equally likely to be chosen.\nFind the probability that a particular student is in the sample.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Say why the method is a simple random sample",
+      "lines": [
+       {
+        "text": "Every student has the same chance of selection, so there is no bias."
+       }
+      ]
+     },
+     {
+      "title": "Find the probability",
+      "lines": [
+       {
+        "tex": "P &= \\frac{25}{300} = \\frac{1}{12}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{12}"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p2-q9#(a)(i), (iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Pick the classes that could be over 100",
+      "lines": [
+       {
+        "text": "The class 90 to 120 includes students above 100, and every class above it is entirely above 100."
+       },
+       {
+        "text": "At most, all 59 students in 90 to 120 read for more than 100 minutes."
+       }
+      ]
+     },
+     {
+      "title": "(i) Add the frequencies",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 59 + 18 + 10"
+       },
+       {
+        "tex": "&= 87"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Say why the sampling method is limited",
+      "lines": [
+       {
+        "text": "Only the first 200 students to arrive were asked, so the sample is not random."
+       },
+       {
+        "text": "These could be local students, or students arriving together on school buses."
+       },
+       {
+        "text": "Students who arrive later are left out, so the sample may not be representative."
+       }
+      ]
+     }
+    ],
+    "final": "87 \\text{ students}"
+   },
+   {
+    "part": "practice-stat-srs-bias-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A radio station phones 500 residents at 11 a.m. on a weekday to ask about a new road. 180 of the residents are at work and do not answer.\nWhat percentage of the residents are left out of the poll?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{180}{500} &= \\frac{9}{25}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{9}{25} \\times 100 &= 36"
+       }
+      ]
+     }
+    ],
+    "final": "36\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-study-types",
+   "title": "Identify surveys, observational studies and designed experiments",
+   "level": "OL",
+   "input": "study description",
+   "output": "type with reason"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-study-types-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Researchers randomly assign 60 patients to two groups of equal size. One group takes a new tablet and the other takes a placebo.\nThis is a designed experiment. How many patients are in each group?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the type of study",
+      "lines": [
+       {
+        "text": "The researchers choose who gets the treatment, so this is a designed experiment."
+       }
+      ]
+     },
+     {
+      "title": "Split the patients equally",
+      "lines": [
+       {
+        "tex": "\\frac{60}{2} &= 30"
+       }
+      ]
+     }
+    ],
+    "final": "30"
+   },
+   {
+    "part": "practice-stat-study-types-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A researcher records the weekly exercise and the resting pulse of 240 people without changing anything about them. 48 of the 240 are smokers.\nThis is an observational study. What percentage of the people are not smokers?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the type of study",
+      "lines": [
+       {
+        "text": "The researcher only records what is already happening and gives no treatment, so it is observational."
+       }
+      ]
+     },
+     {
+      "title": "Find the number of non-smokers",
+      "lines": [
+       {
+        "tex": "240 - 48 &= 192"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{192}{240} \\times 100 &= 80"
+       }
+      ]
+     }
+    ],
+    "final": "80\\%"
+   },
+   {
+    "part": "practice-stat-study-types-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A survey sends a questionnaire to 500 people. 360 of them reply.\nA survey asks people questions and does not change anything for them. Find the response rate as a percentage.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify the type of study",
+      "lines": [
+       {
+        "text": "People are only asked questions, so this is a survey, not an experiment."
+       }
+      ]
+     },
+     {
+      "title": "Write the replies as a fraction of those asked",
+      "lines": [
+       {
+        "tex": "\\frac{360}{500} &= \\frac{18}{25}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{18}{25} \\times 100 &= 72"
+       }
+      ]
+     }
+    ],
+    "final": "72\\%"
+   }
+  ]
+ }
+]

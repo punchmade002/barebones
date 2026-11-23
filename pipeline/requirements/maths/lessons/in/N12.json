@@ -1,0 +1,662 @@
+[
+ {
+  "skill": {
+   "id": "geo-cor6",
+   "title": "Apply Corollary 6: Circles sharing a tangent at a point: the centres and that point are collinear",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Corollary 6"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-cor6-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Two circles touch externally at the point $T$.\nThe centres are $A$ and $B$, and the radii are $6$ cm and $9$ cm.\nFind $|AB|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Corollary 6",
+      "lines": [
+       {
+        "text": "The two centres and the point of contact $T$ are collinear, with $T$ between $A$ and $B$ (Corollary 6)."
+       }
+      ]
+     },
+     {
+      "title": "Add the radii",
+      "lines": [
+       {
+        "tex": "|AB| &= |AT| + |TB|"
+       },
+       {
+        "tex": "&= 6 + 9"
+       },
+       {
+        "tex": "&= 15"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 15 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-cor6-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A circle with centre $A$ and radius $12$ cm contains a smaller circle with centre $B$ and radius $5$ cm.\nThe circles touch internally at the point $T$.\nFind $|AB|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Corollary 6",
+      "lines": [
+       {
+        "text": "The centres $A$, $B$ and the point of contact $T$ are collinear, with $B$ between $A$ and $T$ (Corollary 6)."
+       }
+      ]
+     },
+     {
+      "title": "Subtract the radii",
+      "lines": [
+       {
+        "tex": "|AB| &= |AT| - |BT|"
+       },
+       {
+        "tex": "&= 12 - 5"
+       },
+       {
+        "tex": "&= 7"
+       }
+      ]
+     }
+    ],
+    "final": "|AB| = 7 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-cor6-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "The circle $c_1$ has centre $O(0,0)$ and passes through $T(3,4)$.\nThe circle $c_2$ has radius $10$ and touches $c_1$ externally at $T$.\nFind the coordinates of the centre of $c_2$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the radius of $c_1$",
+      "lines": [
+       {
+        "tex": "|OT|^2 &= 3^2 + 4^2"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "text": "so the radius of $c_1$ is $5$."
+       }
+      ]
+     },
+     {
+      "title": "Use Corollary 6",
+      "lines": [
+       {
+        "text": "The centre $C$ of $c_2$ lies on the line $OT$, beyond $T$ (Corollary 6)."
+       },
+       {
+        "tex": "|OC| &= 5 + 10"
+       },
+       {
+        "tex": "&= 15"
+       }
+      ]
+     },
+     {
+      "title": "Scale the point $T$",
+      "lines": [
+       {
+        "text": "$|OC| = 15 = 3 \\times |OT|$, so $C$ is $3$ times as far from $O$ as $T$ is, in the same direction."
+       },
+       {
+        "tex": "C &= (3 \\times 3, \\; 3 \\times 4)"
+       },
+       {
+        "tex": "&= (9, 12)"
+       }
+      ]
+     }
+    ],
+    "final": "(9, 12)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm1",
+   "title": "Apply Theorem 1: Vertically opposite angles are equal",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 1"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm1-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "The straight lines $AD$ and $BE$ intersect at the point $C$, with $C$ between $A$ and $D$ and between $B$ and $E$.\nIn the triangle $ABC$, $|\\angle BAC| = 50^\\circ$ and $|\\angle ABC| = 60^\\circ$.\nFind $|\\angle DCE|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the angle ACB",
+      "lines": [
+       {
+        "text": "The angles in a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle ACB| &= 180 - 50 - 60"
+       },
+       {
+        "tex": "&= 70"
+       }
+      ]
+     },
+     {
+      "title": "Use vertically opposite angles",
+      "lines": [
+       {
+        "text": "$\\angle ACB$ and $\\angle DCE$ are vertically opposite, so they are equal."
+       },
+       {
+        "tex": "|\\angle DCE| &= |\\angle ACB|"
+       },
+       {
+        "tex": "&= 70"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle DCE| = 70^\\circ"
+   },
+   {
+    "part": "practice-geo-thm1-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The straight lines $AB$ and $CD$ intersect at the point $O$.\n$|\\angle AOC| = (3x + 10)^\\circ$ and $|\\angle BOD| = (5x - 30)^\\circ$.\nFind $|\\angle AOD|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use vertically opposite angles",
+      "lines": [
+       {
+        "text": "$\\angle AOC$ and $\\angle BOD$ are vertically opposite, so they are equal."
+       },
+       {
+        "tex": "3x + 10 &= 5x - 30"
+       }
+      ]
+     },
+     {
+      "title": "Solve for x",
+      "lines": [
+       {
+        "tex": "40 &= 2x"
+       },
+       {
+        "tex": "x &= 20"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle AOC",
+      "lines": [
+       {
+        "tex": "|\\angle AOC| &= 3(20) + 10"
+       },
+       {
+        "tex": "&= 70"
+       }
+      ]
+     },
+     {
+      "title": "Use the straight line AB",
+      "lines": [
+       {
+        "text": "$\\angle AOC$ and $\\angle AOD$ lie on the straight line $CD$, so they add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle AOD| &= 180 - 70"
+       },
+       {
+        "tex": "&= 110"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle AOD| = 110^\\circ"
+   },
+   {
+    "part": "practice-geo-thm1-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The straight lines $AB$ and $CD$ intersect at the point $O$.\n$|\\angle AOC| = (2x + y)^\\circ$, $|\\angle BOD| = 70^\\circ$ and $|\\angle AOD| = (x + 3y)^\\circ$.\nFind the value of $x$ and the value of $y$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use vertically opposite angles",
+      "lines": [
+       {
+        "text": "$\\angle AOC$ and $\\angle BOD$ are vertically opposite, so they are equal."
+       },
+       {
+        "tex": "2x + y &= 70"
+       }
+      ]
+     },
+     {
+      "title": "Use the straight line CD",
+      "lines": [
+       {
+        "text": "$\\angle AOC$ and $\\angle AOD$ lie on a straight line, so they add to $180^\\circ$."
+       },
+       {
+        "tex": "(2x + y) + (x + 3y) &= 180"
+       },
+       {
+        "tex": "3x + 4y &= 180"
+       }
+      ]
+     },
+     {
+      "title": "Eliminate y",
+      "lines": [
+       {
+        "tex": "y &= 70 - 2x"
+       },
+       {
+        "tex": "3x + 4(70 - 2x) &= 180"
+       },
+       {
+        "tex": "-5x + 280 &= 180"
+       },
+       {
+        "tex": "x &= 20"
+       }
+      ]
+     },
+     {
+      "title": "Find y",
+      "lines": [
+       {
+        "tex": "y &= 70 - 2(20)"
+       },
+       {
+        "tex": "y &= 30"
+       }
+      ]
+     }
+    ],
+    "final": "x = 20, \\quad y = 30"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm10",
+   "title": "Apply Theorem 10: Diagonals of a parallelogram bisect each other",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 10"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm10-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$ABCD$ is a parallelogram. Its diagonals $[AC]$ and $[BD]$ intersect at $E$.\n$|AC| = 18$ cm and $|BD| = 11$ cm.\nFind $|BE|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 10",
+      "lines": [
+       {
+        "text": "The diagonals of a parallelogram bisect each other, so $E$ is the midpoint of $[BD]$."
+       }
+      ]
+     },
+     {
+      "title": "Find $|BE|$",
+      "lines": [
+       {
+        "tex": "|BE| &= \\tfrac{1}{2}|BD|"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2}(11)"
+       },
+       {
+        "tex": "&= 5.5 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "5.5 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm10-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$PQRS$ is a parallelogram. Its diagonals meet at $M$.\n$|PM| = 3x + 1$ and $|MR| = 5x - 5$.\nFind the value of $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 10",
+      "lines": [
+       {
+        "text": "The diagonals bisect each other, so $M$ is the midpoint of $[PR]$ and $|PM| = |MR|$."
+       }
+      ]
+     },
+     {
+      "title": "Form an equation",
+      "lines": [
+       {
+        "tex": "3x + 1 &= 5x - 5"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "6 &= 2x"
+       },
+       {
+        "tex": "x &= 3"
+       }
+      ]
+     }
+    ],
+    "final": "x = 3"
+   },
+   {
+    "part": "practice-geo-thm10-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "$ABCD$ is a parallelogram. Its diagonals meet at $E$.\n$|AE| = 2x + 3$ and $|AC| = 5x - 1$.\nFind the value of $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 10",
+      "lines": [
+       {
+        "text": "The diagonals bisect each other, so $E$ is the midpoint of $[AC]$ and $|AC| = 2|AE|$."
+       }
+      ]
+     },
+     {
+      "title": "Form an equation",
+      "lines": [
+       {
+        "tex": "5x - 1 &= 2(2x + 3)"
+       },
+       {
+        "tex": "&= 4x + 6"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "x &= 7"
+       }
+      ]
+     }
+    ],
+    "final": "x = 7"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm11",
+   "title": "Apply Theorem 11: Three parallel lines cutting equal segments on one transversal cut equal segments on any",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 11"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm11-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Three parallel lines cut two transversals, one at $A$, $B$, $C$ and the other at $D$, $E$, $F$.\n$|AB| = |BC|$ and $|DE| = 4.5$ cm.\nFind $|DF|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "Three parallel lines cutting equal segments on one transversal cut equal segments on any transversal. $|AB| = |BC|$, so $|DE| = |EF|$."
+       },
+       {
+        "tex": "|EF| &= 4.5 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Add the segments",
+      "lines": [
+       {
+        "tex": "|DF| &= |DE| + |EF|"
+       },
+       {
+        "tex": "&= 4.5 + 4.5"
+       },
+       {
+        "tex": "&= 9 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "9 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm11-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Three parallel lines cut two transversals, one at $A$, $B$, $C$ and the other at $D$, $E$, $F$.\n$|AB| = |BC|$, $|DE| = (x + 6)$ cm and $|EF| = (3x - 2)$ cm.\nFind the value of $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 11",
+      "lines": [
+       {
+        "text": "$|AB| = |BC|$, so the parallel lines cut equal segments on the other transversal: $|DE| = |EF|$."
+       },
+       {
+        "tex": "x + 6 &= 3x - 2"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "8 &= 2x"
+       },
+       {
+        "tex": "x &= 4"
+       }
+      ]
+     }
+    ],
+    "final": "x = 4"
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q6#(b) Diagram and Given",
+    "level": "higher",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Draw the diagram",
+      "lines": [
+       {
+        "text": "Draw three parallel lines through $A$ and $D$, through $B$ and $E$, and through $C$ and $F$."
+       },
+       {
+        "text": "Draw one transversal cutting them at $A$, $B$, $C$ and another cutting them at $D$, $E$, $F$."
+       },
+       {
+        "text": "Mark $|AB|=|BC|$ with equal tick marks."
+       }
+      ]
+     },
+     {
+      "title": "State what is given and what is to be proved",
+      "lines": [
+       {
+        "text": "Given: $AD \\parallel BE \\parallel CF$, with $|AB|=|BC|$."
+       },
+       {
+        "text": "To prove: $|DE|=|EF|$."
+       }
+      ]
+     }
+    ],
+    "final": "|DE| = |EF|"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm12",
+   "title": "Apply Theorem 12: A line parallel to one side of a triangle divides the other two in the same ratio",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 12"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm12-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| = 6$ cm, $|DB| = 4$ cm and $|AE| = 9$ cm.\nFind $|EC|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $DE$ divides $[AB]$ and $[AC]$ in the same ratio (Theorem 12)."
+       },
+       {
+        "tex": "\\frac{|AD|}{|DB|} &= \\frac{|AE|}{|EC|}"
+       },
+       {
+        "tex": "\\frac{6}{4} &= \\frac{9}{|EC|}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $|EC|$",
+      "lines": [
+       {
+        "tex": "6|EC| &= 36"
+       },
+       {
+        "tex": "|EC| &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "|EC| = 6 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm12-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $|AC| = 15$ cm.\nThe point $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| : |DB| = 4 : 6$.\nFind $|AE|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set up the ratio (Theorem 12)",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $|AE| : |EC| = |AD| : |DB| = 4 : 6$ (Theorem 12)."
+       },
+       {
+        "text": "Let $|AE| = x$, so $|EC| = 15 - x$."
+       },
+       {
+        "tex": "\\frac{x}{15 - x} &= \\frac{4}{6}"
+       }
+      ]
+     },
+     {
+      "title": "Cross-multiply and solve",
+      "lines": [
+       {
+        "tex": "6x &= 4(15 - x)"
+       },
+       {
+        "tex": "10x &= 60"
+       },
+       {
+        "tex": "x &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "|AE| = 6 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $|XY|$ by Pythagoras in the right-angled triangle $AXY$",
+      "lines": [
+       {
+        "tex": "|XY|^2 &= 4^2 + 3^2"
+       },
+       {
+        "tex": "&= 25"
+       },
+       {
+        "tex": "|XY| &= 5"
+       }
+      ]
+     },
+     {
+      "title": "Find $|ZC|$",
+      "lines": [
+       {
+        "text": "$XY \\parallel BC$ and $XZ \\parallel AC$, so $XYCZ$ is a parallelogram and opposite sides are equal."
+       },
+       {
+        "tex": "|ZC| &= |XY| = 5"
+       }
+      ]
+     },
+     {
+      "title": "Use the parallel lines to find $|BZ|$",
+      "lines": [
+       {
+        "text": "$XZ \\parallel AC$ cuts $[BA]$ and $[BC]$ in the same ratio, so $|BZ| : |ZC| = |BX| : |XA|$."
+       },
+       {
+        "text": "Since $|AX| : |XB| = 1 : 2$ and $|AX| = 4$, we get $|XB| = 8$."
+       },
+       {
+        "tex": "\\frac{|BZ|}{5} &= \\frac{8}{4}"
+       },
+       {
+        "tex": "|BZ| &= 10"
+       }
+      ]
+     }
+    ],
+    "final": "|BZ| = 10 \\text{ cm}"
+   }
+  ]
+ }
+]

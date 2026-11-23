@@ -1,0 +1,671 @@
+[
+ {
+  "skill": {
+   "id": "geo-thm13",
+   "title": "Apply Theorem 13: Similar triangles have proportional sides",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 13"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm13-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $D$ is on $[AB]$ and $E$ is on $[AC]$ with $DE \\parallel BC$.\n$|AD| = 4$ cm, $|DB| = 2$ cm and $|DE| = 6$ cm.\nFind $|BC|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Show the triangles are similar",
+      "lines": [
+       {
+        "text": "$DE \\parallel BC$, so $|\\angle ADE| = |\\angle ABC|$ (corresponding angles). Angle $A$ is common."
+       },
+       {
+        "text": "Triangles $ADE$ and $ABC$ are equiangular, so they are similar."
+       }
+      ]
+     },
+     {
+      "title": "Find $|AB|$",
+      "lines": [
+       {
+        "tex": "|AB| &= 4 + 2"
+       },
+       {
+        "tex": "&= 6 \\text{ cm}"
+       }
+      ]
+     },
+     {
+      "title": "Write the ratio of corresponding sides (Theorem 13)",
+      "lines": [
+       {
+        "text": "$D \\leftrightarrow B$ and $E \\leftrightarrow C$, so $[DE]$ corresponds to $[BC]$ and $[AD]$ to $[AB]$."
+       },
+       {
+        "tex": "\\frac{|BC|}{|DE|} &= \\frac{|AB|}{|AD|}"
+       },
+       {
+        "tex": "\\frac{|BC|}{6} &= \\frac{6}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $|BC|$",
+      "lines": [
+       {
+        "tex": "|BC| &= 6 \\times \\frac{6}{4}"
+       },
+       {
+        "tex": "&= 9 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "9 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2016-higher-p2-q4#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Match corresponding sides of the similar triangles",
+      "lines": [
+       {
+        "text": "$A$ matches $D$, $B$ matches $B$, $D$ matches $C$, so $[AB]$ matches $[DB]$ and $[BD]$ matches $[BC]$."
+       },
+       {
+        "tex": "\\frac{|AB|}{|DB|} &= \\frac{|BD|}{|BC|}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the given lengths",
+      "lines": [
+       {
+        "tex": "\\frac{x}{y} &= \\frac{y}{1}"
+       },
+       {
+        "tex": "y^2 &= x"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "lines": [
+       {
+        "text": "$y$ is a length, so it is positive."
+       },
+       {
+        "tex": "y &= \\sqrt{x}"
+       }
+      ]
+     }
+    ],
+    "final": "y = \\sqrt{x}"
+   },
+   {
+    "part": "maths-pp-2021-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find two pairs of equal angles",
+      "lines": [
+       {
+        "text": "$PA \\parallel BR$, so $|\\angle HBQ| = |\\angle HAP|$. Reason: alternate angles."
+       },
+       {
+        "text": "$|\\angle QHB| = |\\angle PHA|$. Reason: vertically opposite angles."
+       }
+      ]
+     },
+     {
+      "title": "Conclude the triangles are similar",
+      "lines": [
+       {
+        "text": "Two angles are equal, so $\\triangle AHP$ and $\\triangle BHQ$ are equiangular, hence similar."
+       }
+      ]
+     },
+     {
+      "title": "Write the ratio of corresponding sides",
+      "lines": [
+       {
+        "text": "$A \\leftrightarrow B$ and $H \\leftrightarrow H$, so $AH$ corresponds to $BH$ and $AP$ corresponds to $BQ$."
+       },
+       {
+        "text": "Corresponding sides of similar triangles are proportional: $\\dfrac{|AH|}{|HB|} = \\dfrac{|AP|}{|QB|}$."
+       }
+      ]
+     },
+     {
+      "title": "Cross-multiply",
+      "lines": [
+       {
+        "text": "Multiply both sides by $|HB|\\,|QB|$: $|AH| \\times |QB| = |AP| \\times |HB|$."
+       }
+      ]
+     }
+    ],
+    "final": "|AH| \\times |QB| = |AP| \\times |HB|"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm15",
+   "title": "Apply Theorem 15: Converse of Pythagoras",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 15"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm15-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $|AB| = 15$ cm, $|BC| = 20$ cm and $|AC| = 25$ cm.\nFind $\\angle ABC$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Test the sides",
+      "lines": [
+       {
+        "tex": "15^2 + 20^2 &= 225 + 400"
+       },
+       {
+        "tex": "&= 625"
+       },
+       {
+        "tex": "25^2 &= 625"
+       }
+      ]
+     },
+     {
+      "title": "Use Theorem 15",
+      "lines": [
+       {
+        "text": "$|AB|^2 + |BC|^2 = |AC|^2$, so by the converse of Pythagoras the angle opposite $|AC|$ is a right angle."
+       },
+       {
+        "tex": "\\angle ABC &= 90^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\angle ABC = 90^\\circ"
+   },
+   {
+    "part": "practice-geo-thm15-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A triangle has sides of length 5 cm, 12 cm and 13 cm.\nFind the area of the triangle.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Test the sides",
+      "lines": [
+       {
+        "tex": "5^2 + 12^2 &= 25 + 144"
+       },
+       {
+        "tex": "&= 169"
+       },
+       {
+        "tex": "13^2 &= 169"
+       },
+       {
+        "text": "By the converse of Pythagoras, the triangle has a right angle between the sides of length 5 and 12."
+       }
+      ]
+     },
+     {
+      "title": "Find the area",
+      "lines": [
+       {
+        "text": "The two shorter sides are perpendicular, so they are the base and the height."
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}(5)(12)"
+       },
+       {
+        "tex": "&= 30"
+       }
+      ]
+     }
+    ],
+    "final": "30 \\text{ cm}^2"
+   },
+   {
+    "part": "maths-pp-2016-higher-p1-q5#(a)(ii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the three sides when x = 10",
+      "lines": [
+       {
+        "tex": "x - 1 &= 10 - 1 = 9"
+       },
+       {
+        "tex": "4x &= 4(10) = 40"
+       },
+       {
+        "tex": "5x - 9 &= 5(10) - 9 = 41"
+       }
+      ]
+     },
+     {
+      "title": "Check Pythagoras for 9, 40, 41",
+      "lines": [
+       {
+        "tex": "9^2 + 40^2 &= 81 + 1600"
+       },
+       {
+        "tex": "&= 1681"
+       },
+       {
+        "tex": "41^2 &= 1681"
+       },
+       {
+        "text": "Since $9^2 + 40^2 = 41^2$, the sides 9, 40, 41 form a pythagorean triple."
+       }
+      ]
+     }
+    ],
+    "final": "9^2 + 40^2 = 41^2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm16",
+   "title": "Apply Theorem 16: Base × height is the same for every side of a triangle",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 16"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm16-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A triangular plot of land has an area of $54\\text{ m}^2$. One side of the plot is $9$ m long.\nFind the perpendicular distance from the opposite corner to this side.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the area using the $9$ m side as base",
+      "lines": [
+       {
+        "text": "By Theorem 16, any side can be the base. Let $h$ be the height to the $9$ m side."
+       },
+       {
+        "tex": "\\tfrac{1}{2}(9)h &= 54"
+       },
+       {
+        "tex": "9h &= 108"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $h$",
+      "lines": [
+       {
+        "tex": "h &= \\tfrac{108}{9}"
+       },
+       {
+        "tex": "&= 12 \\text{ m}"
+       }
+      ]
+     }
+    ],
+    "final": "12 \\text{ m}"
+   },
+   {
+    "part": "practice-geo-thm16-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $|BC| = 10$ cm and the perpendicular distance from $A$ to $BC$ is $6$ cm.\n$|AC| = 8$ cm.\nFind the perpendicular distance from $B$ to $AC$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the area using base $[BC]$",
+      "lines": [
+       {
+        "text": "Area is half the base times the perpendicular height."
+       },
+       {
+        "tex": "|\\triangle ABC| &= \\tfrac{1}{2}(10)(6)"
+       },
+       {
+        "tex": "&= 30 \\text{ cm}^2"
+       }
+      ]
+     },
+     {
+      "title": "Use base $[AC]$ (Theorem 16)",
+      "lines": [
+       {
+        "text": "By Theorem 16, base × height is the same for every side, so the area is the same using $[AC]$ as base. Let $h$ be the height from $B$."
+       },
+       {
+        "tex": "\\tfrac{1}{2}(8)h &= 30"
+       },
+       {
+        "tex": "4h &= 30"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $h$",
+      "lines": [
+       {
+        "tex": "h &= \\tfrac{30}{4}"
+       },
+       {
+        "tex": "&= 7.5 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "7.5 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm16-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $PQR$, $|PQ| = 15$ cm and the perpendicular distance from $R$ to $PQ$ is $8$ cm.\nThe perpendicular distance from $P$ to $QR$ is $10$ cm.\nFind $|QR|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the area using base $[PQ]$",
+      "lines": [
+       {
+        "tex": "|\\triangle PQR| &= \\tfrac{1}{2}(15)(8)"
+       },
+       {
+        "tex": "&= 60 \\text{ cm}^2"
+       }
+      ]
+     },
+     {
+      "title": "Use base $[QR]$ (Theorem 16)",
+      "lines": [
+       {
+        "text": "By Theorem 16 the area is the same with $[QR]$ as base and height $10$. Let $q = |QR|$."
+       },
+       {
+        "tex": "\\tfrac{1}{2}(q)(10) &= 60"
+       },
+       {
+        "tex": "5q &= 60"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $q$",
+      "lines": [
+       {
+        "tex": "q &= 12 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "|QR| = 12 \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm17",
+   "title": "Apply Theorem 17: A diagonal bisects the area of a parallelogram",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 17"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q4#(b)(i), (ii)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the area of triangle ABD",
+      "lines": [
+       {
+        "text": "The diagonal $[BD]$ cuts the parallelogram into two triangles of equal area."
+       },
+       {
+        "tex": "|\\triangle ABD| &= \\tfrac{1}{2}(480)"
+       },
+       {
+        "tex": "&= 240 \\text{ m}^2"
+       }
+      ]
+     },
+     {
+      "title": "Find the area of triangle BCE",
+      "lines": [
+       {
+        "text": "Triangle $BCD$ is the other half of the parallelogram, so its area is $240\\text{ m}^2$."
+       },
+       {
+        "text": "$E$ is the midpoint of $[CD]$, so $[CE]$ is half of $[CD]$. Triangles $BCE$ and $BCD$ have the same height from $B$, so $BCE$ has half the area."
+       },
+       {
+        "tex": "|\\triangle BCE| &= \\tfrac{1}{2} \\times 240"
+       },
+       {
+        "tex": "&= 120 \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "240 \\text{ m}^2,\\; 120 \\text{ m}^2"
+   },
+   {
+    "part": "practice-geo-thm17-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$PQRS$ is a parallelogram with area $84\\text{ m}^2$. $M$ is the midpoint of the side $[QR]$.\nFind the area of the triangle $PQM$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Area of triangle $PQR$",
+      "lines": [
+       {
+        "text": "The diagonal $[PR]$ cuts the parallelogram into two triangles of equal area."
+       },
+       {
+        "tex": "|\\triangle PQR| &= \\tfrac{1}{2}(84)"
+       },
+       {
+        "tex": "&= 42 \\text{ m}^2"
+       }
+      ]
+     },
+     {
+      "title": "Area of triangle $PQM$",
+      "lines": [
+       {
+        "text": "$M$ is the midpoint of $[QR]$. Triangles $PQM$ and $PQR$ have the same height from $P$, so $PQM$ has half the area."
+       },
+       {
+        "tex": "|\\triangle PQM| &= \\tfrac{1}{2}(42)"
+       },
+       {
+        "tex": "&= 21 \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "21 \\text{ m}^2"
+   },
+   {
+    "part": "practice-geo-thm17-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$ABCD$ is a parallelogram. The diagonal $[AC]$ divides it into two triangles.\nThe area of $\\triangle ABC$ is $(3x + 9)\\text{ cm}^2$ and the area of $\\triangle ACD$ is $(5x - 3)\\text{ cm}^2$.\nFind the value of $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 17",
+      "lines": [
+       {
+        "text": "A diagonal bisects the area of a parallelogram, so the two triangles have equal areas."
+       }
+      ]
+     },
+     {
+      "title": "Form an equation",
+      "lines": [
+       {
+        "tex": "3x + 9 &= 5x - 3"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "12 &= 2x"
+       },
+       {
+        "tex": "x &= 6"
+       }
+      ]
+     }
+    ],
+    "final": "x = 6"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-thm18",
+   "title": "Apply Theorem 18: Area of a parallelogram = base × height",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 18"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-thm18-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A parallelogram has a base of length $12$ cm. The perpendicular height of the parallelogram is $7.5$ cm.\nFind its area.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Theorem 18",
+      "lines": [
+       {
+        "text": "The area of a parallelogram is base $\\times$ perpendicular height."
+       }
+      ]
+     },
+     {
+      "title": "Calculate the area",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= 12 \\times 7.5"
+       },
+       {
+        "tex": "&= 90 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "90 \\text{ cm}^2"
+   },
+   {
+    "part": "practice-geo-thm18-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A field is in the shape of a parallelogram. Its base is $24$ m and its perpendicular height is $13$ m.\nGrass seed costs $€0.50$ per $\\text{m}^2$.\nFind the cost of seeding the whole field.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Area of the field",
+      "lines": [
+       {
+        "text": "Area of a parallelogram is base $\\times$ perpendicular height (Theorem 18)."
+       },
+       {
+        "tex": "\\text{Area} &= 24 \\times 13"
+       },
+       {
+        "tex": "&= 312 \\text{ m}^2"
+       }
+      ]
+     },
+     {
+      "title": "Cost",
+      "lines": [
+       {
+        "tex": "\\text{Cost} &= 312 \\times 0.50"
+       },
+       {
+        "tex": "&= €156"
+       }
+      ]
+     }
+    ],
+    "final": "€156"
+   },
+   {
+    "part": "practice-geo-thm18-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$ABCD$ is a parallelogram with $|AB| = 15$ cm and $|AD| = 9$ cm.\nThe perpendicular distance between $[AB]$ and $[DC]$ is $6$ cm.\nFind the perpendicular distance between $[AD]$ and $[BC]$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Area using base $[AB]$",
+      "lines": [
+       {
+        "text": "The area of a parallelogram is base $\\times$ perpendicular height (Theorem 18)."
+       },
+       {
+        "tex": "\\text{Area} &= 15 \\times 6"
+       },
+       {
+        "tex": "&= 90 \\text{ cm}^2"
+       }
+      ]
+     },
+     {
+      "title": "Area using base $[AD]$",
+      "lines": [
+       {
+        "text": "Use $[AD]$ as the base and let $h$ be the height."
+       },
+       {
+        "tex": "9h &= 90"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $h$",
+      "lines": [
+       {
+        "tex": "h &= \\tfrac{90}{9}"
+       },
+       {
+        "tex": "&= 10 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "10 \\text{ cm}"
+   }
+  ]
+ }
+]

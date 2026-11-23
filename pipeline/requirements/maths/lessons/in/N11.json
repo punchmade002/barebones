@@ -1,0 +1,681 @@
+[
+ {
+  "skill": {
+   "id": "fn-limits-continuity",
+   "title": "Find limits and explore continuity informally",
+   "level": "HL",
+   "input": "f(x), point a",
+   "output": "lim f(x), continuous or not"
+  },
+  "candidates": [
+   {
+    "part": "practice-fn-limits-continuity-1",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\lim_{x \\to -2} \\frac{x^2 + 5x + 6}{x + 2}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Try substituting",
+      "lines": [
+       {
+        "text": "$x = -2$ gives $\\frac{0}{0}$, so factorise the numerator."
+       }
+      ]
+     },
+     {
+      "title": "Factorise and cancel",
+      "lines": [
+       {
+        "tex": "\\frac{x^2+5x+6}{x+2} &= \\frac{(x+2)(x+3)}{x+2}"
+       },
+       {
+        "tex": "&= x + 3"
+       }
+      ]
+     },
+     {
+      "title": "Let x approach -2",
+      "lines": [
+       {
+        "tex": "\\lim_{x\\to-2}(x+3) &= -2 + 3"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     }
+    ],
+    "final": "1"
+   },
+   {
+    "part": "practice-fn-limits-continuity-2",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\lim_{x \\to 1} \\frac{2x^2 - x - 1}{x - 1}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Try substituting",
+      "lines": [
+       {
+        "text": "$x = 1$ gives $\\frac{0}{0}$, so factorise the numerator."
+       }
+      ]
+     },
+     {
+      "title": "Factorise and cancel",
+      "lines": [
+       {
+        "tex": "\\frac{2x^2-x-1}{x-1} &= \\frac{(2x+1)(x-1)}{x-1}"
+       },
+       {
+        "tex": "&= 2x + 1"
+       }
+      ]
+     },
+     {
+      "title": "Let x approach 1",
+      "lines": [
+       {
+        "tex": "\\lim_{x\\to1}(2x+1) &= 2(1) + 1"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     }
+    ],
+    "final": "3"
+   },
+   {
+    "part": "practice-fn-limits-continuity-3",
+    "level": "higher",
+    "year": null,
+    "question": "The function $f$ is defined by\n$f(x) = \\frac{x^2 - x - 6}{x - 3}$ for $x \\neq 3$, and $f(3) = k$.\nFind the value of $k$ for which $f$ is continuous at $x = 3$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Continuity condition",
+      "lines": [
+       {
+        "text": "$f$ is continuous at $x = 3$ when $\\lim_{x\\to3} f(x) = f(3) = k$."
+       }
+      ]
+     },
+     {
+      "title": "Factorise and cancel",
+      "lines": [
+       {
+        "tex": "\\frac{x^2-x-6}{x-3} &= \\frac{(x-3)(x+2)}{x-3}"
+       },
+       {
+        "tex": "&= x + 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the limit",
+      "lines": [
+       {
+        "tex": "\\lim_{x\\to3}(x+2) &= 3 + 2"
+       },
+       {
+        "tex": "&= 5"
+       }
+      ]
+     },
+     {
+      "title": "Set k equal to the limit",
+      "lines": [
+       {
+        "tex": "k &= 5"
+       }
+      ]
+     }
+    ],
+    "final": "k = 5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-cor1",
+   "title": "Apply Corollary 1: A diagonal divides a parallelogram into two congruent triangles",
+   "level": "HL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Corollary 1"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-cor1-1",
+    "level": "higher",
+    "year": null,
+    "question": "$ABCD$ is a parallelogram.\n$|\\angle CAB| = 35^\\circ$ and $|\\angle ACB| = 70^\\circ$.\nFind $|\\angle ADC|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $|\\angle ABC|$ in triangle $ABC$",
+      "lines": [
+       {
+        "text": "The angles of a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle ABC| &= 180 - 35 - 70"
+       },
+       {
+        "tex": "&= 75^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use Corollary 1",
+      "lines": [
+       {
+        "text": "The diagonal $[AC]$ divides the parallelogram into two congruent triangles, $ABC$ and $CDA$, with $B$ matching $D$."
+       },
+       {
+        "text": "So the angles at $B$ and $D$ are equal."
+       },
+       {
+        "tex": "|\\angle ADC| &= |\\angle ABC| = 75^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "75^\\circ"
+   },
+   {
+    "part": "practice-geo-cor1-2",
+    "level": "higher",
+    "year": null,
+    "question": "$PQRS$ is a parallelogram with $|PQ| = 8$ cm, $|QR| = 6$ cm and diagonal $|PR| = 10$ cm.\nFind the area of $PQRS$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the semi-perimeter of triangle $PQR$",
+      "lines": [
+       {
+        "tex": "s &= \\frac{8 + 6 + 10}{2}"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Find the area of triangle $PQR$",
+      "lines": [
+       {
+        "text": "Use Heron's formula."
+       },
+       {
+        "tex": "|\\triangle PQR| &= \\sqrt{12(12-8)(12-6)(12-10)}"
+       },
+       {
+        "tex": "&= \\sqrt{576}"
+       },
+       {
+        "tex": "&= 24 \\text{ cm}^2"
+       }
+      ]
+     },
+     {
+      "title": "Use Corollary 1",
+      "lines": [
+       {
+        "text": "The diagonal $[PR]$ divides the parallelogram into two congruent triangles, so the parallelogram has twice the area of triangle $PQR$."
+       },
+       {
+        "tex": "|PQRS| &= 2 \\times 24"
+       },
+       {
+        "tex": "&= 48 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "48 \\text{ cm}^2"
+   },
+   {
+    "part": "practice-geo-cor1-3",
+    "level": "higher",
+    "year": null,
+    "question": "$ABCD$ is a parallelogram.\n$|\\angle BCA| = (2x + 10)^\\circ$ and $|\\angle DAC| = (3x - 20)^\\circ$.\nFind the value of $x$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Corollary 1",
+      "lines": [
+       {
+        "text": "The diagonal $[AC]$ divides the parallelogram into congruent triangles $ABC$ and $CDA$, with $C$ matching $A$."
+       },
+       {
+        "text": "So $|\\angle BCA| = |\\angle DAC|$."
+       },
+       {
+        "tex": "2x + 10 &= 3x - 20"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "30 &= x"
+       },
+       {
+        "tex": "x &= 30"
+       }
+      ]
+     },
+     {
+      "title": "Check",
+      "lines": [
+       {
+        "text": "Each angle is $70^\\circ$."
+       },
+       {
+        "tex": "2(30) + 10 &= 70"
+       },
+       {
+        "tex": "3(30) - 20 &= 70"
+       }
+      ]
+     }
+    ],
+    "final": "x = 30"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-cor2",
+   "title": "Apply Corollary 2: Angles standing on the same arc are equal",
+   "level": "HL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Corollary 2"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-cor2-1",
+    "level": "higher",
+    "year": null,
+    "question": "$A$, $B$, $C$ and $D$ are points on a circle.\n$|\\angle ABD| = (3x + 6)^\\circ$ and $|\\angle ACD| = (5x - 18)^\\circ$.\nBoth angles stand on the arc $AD$.\nFind $|\\angle ABD|$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use angles standing on the same arc",
+      "lines": [
+       {
+        "text": "$\\angle ABD$ and $\\angle ACD$ both stand on the arc $AD$, so they are equal."
+       },
+       {
+        "tex": "3x + 6 &= 5x - 18"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "24 &= 2x"
+       },
+       {
+        "tex": "x &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "lines": [
+       {
+        "tex": "|\\angle ABD| &= 3(12) + 6"
+       },
+       {
+        "tex": "&= 42^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle ABD| = 42^\\circ"
+   },
+   {
+    "part": "practice-geo-cor2-2",
+    "level": "higher",
+    "year": null,
+    "question": "$A$, $B$, $C$ and $D$ are points on a circle. The chords $[AC]$ and $[BD]$ cross at $E$.\n$|\\angle ADB| = 38^\\circ$ and $|\\angle CBD| = 27^\\circ$.\nFind $|\\angle AEB|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use angles standing on the same arc",
+      "lines": [
+       {
+        "text": "$\\angle ADB$ and $\\angle ACB$ both stand on the arc $AB$, so they are equal."
+       },
+       {
+        "tex": "|\\angle ACB| &= 38^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Look at triangle $BEC$",
+      "lines": [
+       {
+        "text": "$\\angle AEB$ is an exterior angle of triangle $BEC$, so it equals the sum of the two opposite interior angles."
+       },
+       {
+        "tex": "|\\angle AEB| &= |\\angle ECB| + |\\angle EBC|"
+       }
+      ]
+     },
+     {
+      "title": "Add",
+      "lines": [
+       {
+        "tex": "|\\angle AEB| &= 38 + 27"
+       },
+       {
+        "tex": "&= 65^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle AEB| = 65^\\circ"
+   },
+   {
+    "part": "practice-geo-cor2-3",
+    "level": "higher",
+    "year": null,
+    "question": "$[AB]$ is a diameter of a circle with centre $O$. $C$ and $D$ are points on the circle, on the same side of $[AC]$ as $B$.\n$|\\angle CAB| = 24^\\circ$.\nFind $|\\angle ADC|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Angle in a semicircle",
+      "lines": [
+       {
+        "text": "$[AB]$ is a diameter, so the angle at $C$ is a right angle."
+       },
+       {
+        "tex": "|\\angle ACB| &= 90^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Angles in triangle $ABC$ add to $180^\\circ$",
+      "lines": [
+       {
+        "tex": "|\\angle ABC| &= 180 - 90 - 24"
+       },
+       {
+        "tex": "&= 66^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use angles standing on the same arc",
+      "lines": [
+       {
+        "text": "$\\angle ABC$ and $\\angle ADC$ both stand on the arc $AC$, so they are equal."
+       },
+       {
+        "tex": "|\\angle ADC| &= 66^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle ADC| = 66^\\circ"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-cor4",
+   "title": "Apply Corollary 4: A right angle at the circle stands on a diameter",
+   "level": "JC",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Corollary 4"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-cor4-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$[PQ]$ is a diameter of a circle and $R$ is another point on the circle.\n$\\angle RPQ = 38°$.\nFind $\\angle PQR$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Corollary 4",
+      "lines": [
+       {
+        "text": "$[PQ]$ is a diameter, so the angle at the circle, $\\angle PRQ$, is $90°$."
+       }
+      ]
+     },
+     {
+      "title": "Angles in triangle $PQR$",
+      "lines": [
+       {
+        "tex": "\\angle PQR &= 180° - 90° - 38°"
+       },
+       {
+        "tex": "&= 52°"
+       }
+      ]
+     }
+    ],
+    "final": "52°"
+   },
+   {
+    "part": "practice-geo-cor4-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$A$, $B$ and $C$ are points on a circle. $\\angle ABC = 90°$, $|AB| = 5$ cm and $|BC| = 12$ cm.\nFind the radius of the circle.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Corollary 4",
+      "lines": [
+       {
+        "text": "A right angle at the circle stands on a diameter, so $[AC]$ is a diameter."
+       }
+      ]
+     },
+     {
+      "title": "Find $|AC|$ by Pythagoras",
+      "lines": [
+       {
+        "tex": "|AC|^2 &= 5^2 + 12^2"
+       },
+       {
+        "tex": "&= 169"
+       },
+       {
+        "tex": "|AC| &= 13"
+       }
+      ]
+     },
+     {
+      "title": "Find the radius",
+      "lines": [
+       {
+        "tex": "r &= \\tfrac{13}{2}"
+       },
+       {
+        "tex": "&= 6.5 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "6.5 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-cor4-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "$A$, $B$ and $C$ are points on a circle with centre $O$. $\\angle ABC = 90°$ and $\\angle BAC = 28°$.\nFind $\\angle OBC$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Corollary 4",
+      "lines": [
+       {
+        "text": "A right angle at the circle stands on a diameter, so $[AC]$ is a diameter and $O$ lies on $[AC]$."
+       }
+      ]
+     },
+     {
+      "title": "Triangle $OAB$ is isosceles",
+      "lines": [
+       {
+        "text": "$|OA| = |OB|$ (radii), so $\\angle ABO = \\angle BAO = 28°$."
+       }
+      ]
+     },
+     {
+      "title": "Find $\\angle OBC$",
+      "lines": [
+       {
+        "tex": "\\angle OBC &= \\angle ABC - \\angle ABO"
+       },
+       {
+        "tex": "&= 90° - 28°"
+       },
+       {
+        "tex": "&= 62°"
+       }
+      ]
+     }
+    ],
+    "final": "62°"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "geo-cor5",
+   "title": "Apply Corollary 5: Opposite angles of a cyclic quadrilateral sum to 180°",
+   "level": "HL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Corollary 5"
+  },
+  "candidates": [
+   {
+    "part": "practice-geo-cor5-1",
+    "level": "higher",
+    "year": null,
+    "question": "$A$, $B$, $C$ and $D$ are four points, in that order, on a circle.\n$\\angle ABC = 105^\\circ$.\nFind $\\angle ADC$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use Corollary 5",
+      "lines": [
+       {
+        "text": "$ABCD$ is a cyclic quadrilateral, so opposite angles sum to $180^\\circ$ (Corollary 5)."
+       },
+       {
+        "tex": "\\angle ABC + \\angle ADC &= 180^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Solve",
+      "lines": [
+       {
+        "tex": "\\angle ADC &= 180^\\circ - 105^\\circ"
+       },
+       {
+        "tex": "&= 75^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\angle ADC = 75^\\circ"
+   },
+   {
+    "part": "practice-geo-cor5-3",
+    "level": "higher",
+    "year": null,
+    "question": "$A$, $B$, $C$ and $D$ are points, in that order, on a circle.\nIn triangle $ACD$, $\\angle CAD = 35^\\circ$ and $\\angle ACD = 60^\\circ$.\nFind $\\angle ABC$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $\\angle ADC$ in triangle $ACD$",
+      "lines": [
+       {
+        "text": "The angles of a triangle sum to $180^\\circ$."
+       },
+       {
+        "tex": "\\angle ADC &= 180^\\circ - 35^\\circ - 60^\\circ"
+       },
+       {
+        "tex": "&= 85^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use Corollary 5",
+      "lines": [
+       {
+        "text": "$ABCD$ is a cyclic quadrilateral, so opposite angles sum to $180^\\circ$ (Corollary 5)."
+       },
+       {
+        "tex": "\\angle ABC &= 180^\\circ - 85^\\circ"
+       },
+       {
+        "tex": "&= 95^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\angle ABC = 95^\\circ"
+   },
+   {
+    "part": "practice-geo-cor5-2",
+    "level": "higher",
+    "year": null,
+    "question": "$ABCD$ is a cyclic quadrilateral.\n$\\angle DAB = (3x + 10)^\\circ$ and $\\angle BCD = (5x - 30)^\\circ$.\nFind $\\angle BCD$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Corollary 5",
+      "lines": [
+       {
+        "text": "Opposite angles of a cyclic quadrilateral sum to $180^\\circ$ (Corollary 5)."
+       },
+       {
+        "tex": "(3x + 10) + (5x - 30) &= 180"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "8x - 20 &= 180"
+       },
+       {
+        "tex": "8x &= 200"
+       },
+       {
+        "tex": "x &= 25"
+       }
+      ]
+     },
+     {
+      "title": "Find $\\angle BCD$",
+      "lines": [
+       {
+        "tex": "\\angle BCD &= 5(25) - 30"
+       },
+       {
+        "tex": "&= 95^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "\\angle BCD = 95^\\circ"
+   }
+  ]
+ }
+]

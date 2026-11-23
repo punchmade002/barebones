@@ -1,0 +1,935 @@
+[
+ {
+  "skill": {
+   "id": "quad-complete-square-use",
+   "title": "Use completed-square form for roots and turning point",
+   "level": "HL",
+   "input": "a(x + p)² + q",
+   "output": "roots, turning point, sketch"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Read the minimum from the completed square",
+      "lines": [
+       {
+        "text": "A square is never negative, so $2\\left(x - \\frac{7}{4}\\right)^2$ is smallest (zero) when $x - \\frac{7}{4} = 0$."
+       },
+       {
+        "tex": "x - \\frac{7}{4} &= 0"
+       },
+       {
+        "tex": "x &= \\frac{7}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Find the minimum value",
+      "lines": [
+       {
+        "tex": "f\\left(\\frac{7}{4}\\right) &= 2(0)^2 - \\frac{129}{8}"
+       },
+       {
+        "tex": "&= -\\frac{129}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\left(\\frac{7}{4},\\; -\\frac{129}{8}\\right)"
+   },
+   {
+    "part": "maths-pp-2017-higher-p1-q1#(c)(ii)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the completed-square form equal to zero",
+      "lines": [
+       {
+        "tex": "2\\left(x - \\frac{7}{4}\\right)^2 - \\frac{129}{8} &= 0"
+       },
+       {
+        "tex": "2\\left(x - \\frac{7}{4}\\right)^2 &= \\frac{129}{8}"
+       },
+       {
+        "tex": "\\left(x - \\frac{7}{4}\\right)^2 &= \\frac{129}{16}"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root of both sides",
+      "lines": [
+       {
+        "tex": "x - \\frac{7}{4} &= \\pm\\sqrt{\\frac{129}{16}}"
+       },
+       {
+        "tex": "x &= \\frac{7}{4} \\pm \\sqrt{\\frac{129}{16}}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\frac{7}{4} \\pm \\sqrt{\\frac{129}{16}}"
+   },
+   {
+    "part": "practice-quad-complete-square-use-1",
+    "level": "higher",
+    "year": null,
+    "question": "The function $f(x) = -2(x - 3)^2 + 8$ is written in completed-square form.\nUse this form to find the values of $x$ for which the graph of $f$ crosses the $x$-axis.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Set the completed-square form equal to zero",
+      "lines": [
+       {
+        "tex": "-2(x-3)^2 + 8 &= 0"
+       },
+       {
+        "tex": "-2(x-3)^2 &= -8"
+       },
+       {
+        "tex": "(x-3)^2 &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Take the square root of both sides",
+      "lines": [
+       {
+        "tex": "x - 3 &= \\pm 2"
+       },
+       {
+        "tex": "x &= 3 \\pm 2"
+       }
+      ]
+     },
+     {
+      "title": "State the roots",
+      "lines": [
+       {
+        "text": "The graph crosses the $x$-axis at two points."
+       },
+       {
+        "tex": "x &= 1 \\text{ or } x = 5"
+       }
+      ]
+     }
+    ],
+    "final": "x = 1 \\text{ or } x = 5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "sim-linear-quadratic-hl",
+   "title": "Solve linear + order-2 with any coefficients",
+   "level": "HL",
+   "input": "linear + quadratic in x, y",
+   "output": "intersection points"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Make x the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "2x + 3y &= -1"
+       },
+       {
+        "tex": "2x &= -3y - 1"
+       },
+       {
+        "tex": "x &= \\frac{-3y - 1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic equation",
+      "lines": [
+       {
+        "tex": "\\left(\\frac{-3y-1}{2}\\right)^2 + \\left(\\frac{-3y-1}{2}\\right)y + 2y^2 &= 4"
+       },
+       {
+        "text": "Multiply every term by 4 to clear the fractions."
+       },
+       {
+        "tex": "(-3y-1)^2 + 2y(-3y-1) + 8y^2 &= 16"
+       },
+       {
+        "tex": "9y^2 + 6y + 1 - 6y^2 - 2y + 8y^2 &= 16"
+       },
+       {
+        "tex": "11y^2 + 4y + 1 &= 16"
+       },
+       {
+        "tex": "11y^2 + 4y - 15 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve for y",
+      "lines": [
+       {
+        "tex": "(11y + 15)(y - 1) &= 0"
+       },
+       {
+        "tex": "y = -\\frac{15}{11} \\quad &\\text{or} \\quad y = 1"
+       }
+      ]
+     },
+     {
+      "title": "Find x for each y using x = (-3y - 1)/2",
+      "lines": [
+       {
+        "tex": "y = 1: \\quad x &= \\frac{-3(1) - 1}{2}"
+       },
+       {
+        "tex": "&= -2"
+       },
+       {
+        "tex": "y = -\\tfrac{15}{11}: \\quad x &= \\frac{-3\\left(-\\frac{15}{11}\\right) - 1}{2}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{34}{11}}{2}"
+       },
+       {
+        "tex": "&= \\frac{17}{11}"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = \\left(\\frac{17}{11}, -\\frac{15}{11}\\right) \\text{ or } (-2, 1)"
+   },
+   {
+    "part": "practice-sim-linear-quadratic-hl-1",
+    "level": "higher",
+    "year": null,
+    "question": "Solve the simultaneous equations\n$3x - y = 4$\n$x^2 + y^2 = 2$",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Make $y$ the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "3x - y &= 4"
+       },
+       {
+        "tex": "y &= 3x - 4"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic equation",
+      "lines": [
+       {
+        "tex": "x^2 + (3x-4)^2 &= 2"
+       },
+       {
+        "tex": "x^2 + 9x^2 - 24x + 16 &= 2"
+       },
+       {
+        "tex": "10x^2 - 24x + 14 &= 0"
+       },
+       {
+        "tex": "5x^2 - 12x + 7 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$ with the formula",
+      "lines": [
+       {
+        "tex": "x &= \\frac{12 \\pm \\sqrt{144 - 140}}{10}"
+       },
+       {
+        "tex": "x &= \\frac{12 \\pm 2}{10}"
+       },
+       {
+        "tex": "x &= \\frac{7}{5} \\text{ or } x = 1"
+       }
+      ]
+     },
+     {
+      "title": "Find $y$ for each $x$ using $y = 3x - 4$",
+      "lines": [
+       {
+        "tex": "x = 1: \\quad y &= 3(1) - 4 = -1"
+       },
+       {
+        "tex": "x = \\tfrac{7}{5}: \\quad y &= \\tfrac{21}{5} - 4 = \\tfrac{1}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (1, -1) \\text{ or } \\left(\\tfrac{7}{5}, \\tfrac{1}{5}\\right)"
+   },
+   {
+    "part": "practice-sim-linear-quadratic-hl-2",
+    "level": "higher",
+    "year": null,
+    "question": "Solve the simultaneous equations\n$x - y = 2$\n$x^2 + xy + y^2 = 7$\nGive your answers in the form $a + b\\sqrt{2}$, where $a, b \\in \\mathbb{Z}$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Make $x$ the subject of the linear equation",
+      "lines": [
+       {
+        "tex": "x - y &= 2"
+       },
+       {
+        "tex": "x &= y + 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic equation",
+      "lines": [
+       {
+        "tex": "(y+2)^2 + (y+2)y + y^2 &= 7"
+       },
+       {
+        "tex": "y^2 + 4y + 4 + y^2 + 2y + y^2 &= 7"
+       },
+       {
+        "tex": "3y^2 + 6y - 3 &= 0"
+       },
+       {
+        "tex": "y^2 + 2y - 1 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $y$ with the formula",
+      "lines": [
+       {
+        "tex": "y &= \\frac{-2 \\pm \\sqrt{4 + 4}}{2}"
+       },
+       {
+        "tex": "y &= -1 \\pm \\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find $x$ for each $y$ using $x = y + 2$",
+      "lines": [
+       {
+        "tex": "y = -1 + \\sqrt{2}: \\quad x &= 1 + \\sqrt{2}"
+       },
+       {
+        "tex": "y = -1 - \\sqrt{2}: \\quad x &= 1 - \\sqrt{2}"
+       }
+      ]
+     }
+    ],
+    "final": "(x, y) = (1 + \\sqrt{2},\\ -1 + \\sqrt{2}) \\text{ or } (1 - \\sqrt{2},\\ -1 - \\sqrt{2})"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "sim-word-problem",
+   "title": "Form simultaneous equations from a context",
+   "level": "OL",
+   "input": "verbal problem",
+   "output": "equations, solution, interpretation"
+  },
+  "candidates": [
+   {
+    "part": "practice-sim-word-problem-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A café sells small coffees and large coffees.\n4 small coffees and 3 large coffees cost $€20.50$.\n2 small coffees and 5 large coffees cost $€22.50$.\nFind the price of a small coffee and the price of a large coffee.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Let letters stand for the prices",
+      "lines": [
+       {
+        "text": "Let $s$ be the price of a small coffee and $l$ the price of a large coffee, in euro."
+       }
+      ]
+     },
+     {
+      "title": "Write an equation for each purchase",
+      "lines": [
+       {
+        "tex": "4s + 3l &= 20.5"
+       },
+       {
+        "tex": "2s + 5l &= 22.5"
+       }
+      ]
+     },
+     {
+      "title": "Eliminate $s$",
+      "lines": [
+       {
+        "text": "Multiply the second equation by 2, then subtract the first."
+       },
+       {
+        "tex": "4s + 10l &= 45"
+       },
+       {
+        "tex": "7l &= 24.5"
+       },
+       {
+        "tex": "l &= 3.5"
+       }
+      ]
+     },
+     {
+      "title": "Find $s$ and check",
+      "lines": [
+       {
+        "tex": "4s + 3(3.5) &= 20.5"
+       },
+       {
+        "tex": "4s &= 10"
+       },
+       {
+        "tex": "s &= 2.5"
+       },
+       {
+        "text": "Check: $2(2.5) + 5(3.5) = 5 + 17.5 = 22.5$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{small} = €2.50,\\ \\text{large} = €3.50"
+   },
+   {
+    "part": "practice-sim-word-problem-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A mother is 5 times as old as her daughter.\nIn 6 years' time she will be 3 times as old as her daughter.\nFind the present age of each.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Let letters stand for the ages",
+      "lines": [
+       {
+        "text": "Let $m$ be the mother's age and $d$ the daughter's age now."
+       }
+      ]
+     },
+     {
+      "title": "Write an equation for each statement",
+      "lines": [
+       {
+        "tex": "m &= 5d"
+       },
+       {
+        "text": "In 6 years the ages are $m + 6$ and $d + 6$."
+       },
+       {
+        "tex": "m + 6 &= 3(d + 6)"
+       },
+       {
+        "tex": "m - 3d &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $m = 5d$",
+      "lines": [
+       {
+        "tex": "5d - 3d &= 12"
+       },
+       {
+        "tex": "2d &= 12"
+       },
+       {
+        "tex": "d &= 6"
+       }
+      ]
+     },
+     {
+      "title": "Find $m$ and check",
+      "lines": [
+       {
+        "tex": "m &= 5(6) = 30"
+       },
+       {
+        "text": "Check: in 6 years they are 36 and 12, and $36 = 3 \\times 12$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{mother} = 30,\\ \\text{daughter} = 6"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q1#(c)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Equation from the first fraction",
+      "lines": [
+       {
+        "text": "$\\frac{3}{5}$ of the class are girls."
+       },
+       {
+        "tex": "\\frac{g}{b+g} &= \\frac{3}{5}"
+       },
+       {
+        "tex": "5g &= 3(b+g)"
+       },
+       {
+        "tex": "5g &= 3b + 3g"
+       },
+       {
+        "tex": "2g &= 3b"
+       }
+      ]
+     },
+     {
+      "title": "Equation after 4 boys and 4 girls join",
+      "lines": [
+       {
+        "text": "There are now $g+4$ girls and $b+g+8$ students."
+       },
+       {
+        "tex": "\\frac{g+4}{b+g+8} &= \\frac{4}{7}"
+       },
+       {
+        "tex": "7(g+4) &= 4(b+g+8)"
+       },
+       {
+        "tex": "7g + 28 &= 4b + 4g + 32"
+       },
+       {
+        "tex": "3g - 4b &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Substitute b = 2g/3 to find g",
+      "lines": [
+       {
+        "tex": "b &= \\frac{2g}{3}"
+       },
+       {
+        "tex": "3g - 4\\left(\\frac{2g}{3}\\right) &= 4"
+       },
+       {
+        "tex": "3g - \\frac{8g}{3} &= 4"
+       },
+       {
+        "tex": "\\frac{g}{3} &= 4"
+       },
+       {
+        "tex": "g &= 12"
+       }
+      ]
+     },
+     {
+      "title": "Find b",
+      "lines": [
+       {
+        "tex": "b &= \\frac{2(12)}{3}"
+       },
+       {
+        "tex": "b &= 8"
+       }
+      ]
+     },
+     {
+      "title": "Check",
+      "lines": [
+       {
+        "text": "Now $12$ boys and $16$ girls: $\\frac{16}{28} = \\frac{4}{7}$, as required."
+       }
+      ]
+     }
+    ],
+    "final": "b = 8,\\ g = 12"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "eq-rational",
+   "title": "Solve a/(bx+c) ± p/(qx+r) = e/f",
+   "level": "OL",
+   "input": "equation with algebraic denominators",
+   "output": "x (check denominators ≠ 0)"
+  },
+  "candidates": [
+   {
+    "part": "practice-eq-rational-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Solve for $x$:\n$\\frac{3}{x+1} - \\frac{2}{x+2} = \\frac{1}{2}$",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every term by the common denominator $2(x+1)(x+2)$",
+      "lines": [
+       {
+        "tex": "\\frac{3}{x+1} - \\frac{2}{x+2} &= \\frac{1}{2}"
+       },
+       {
+        "tex": "6(x+2) - 4(x+1) &= (x+1)(x+2)"
+       }
+      ]
+     },
+     {
+      "title": "Expand both sides",
+      "lines": [
+       {
+        "tex": "6x + 12 - 4x - 4 &= x^2 + 3x + 2"
+       },
+       {
+        "tex": "2x + 8 &= x^2 + 3x + 2"
+       }
+      ]
+     },
+     {
+      "title": "Move everything to one side",
+      "lines": [
+       {
+        "tex": "x^2 + x - 6 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "lines": [
+       {
+        "tex": "(x+3)(x-2) &= 0"
+       },
+       {
+        "tex": "x &= -3 \\text{ or } x = 2"
+       },
+       {
+        "text": "Both values are allowed, since neither is $-1$ or $-2$."
+       }
+      ]
+     }
+    ],
+    "final": "x = -3 \\text{ or } x = 2"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p1-q6#(b)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Multiply every term by the common denominator 2x(x + 3)",
+      "lines": [
+       {
+        "text": "The denominators are $x+3$, $x$ and $2$, so the common denominator is $2x(x+3)$."
+       },
+       {
+        "tex": "2x(x+3)\\left(\\frac{5}{x+3} - \\frac{1}{x}\\right) &= \\frac{1}{2}\\,(2x)(x+3)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the denominators",
+      "lines": [
+       {
+        "tex": "10x - 2(x+3) &= x(x+3)"
+       }
+      ]
+     },
+     {
+      "title": "Expand both sides",
+      "lines": [
+       {
+        "tex": "10x - 2x - 6 &= x^2 + 3x"
+       },
+       {
+        "tex": "8x - 6 &= x^2 + 3x"
+       }
+      ]
+     },
+     {
+      "title": "Move everything to one side",
+      "lines": [
+       {
+        "tex": "0 &= x^2 + 3x - 8x + 6"
+       },
+       {
+        "tex": "x^2 - 5x + 6 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "lines": [
+       {
+        "tex": "(x-2)(x-3) &= 0"
+       },
+       {
+        "tex": "x &= 2 \\text{ or } x = 3"
+       },
+       {
+        "text": "Both values are allowed, since neither is $-3$ or $0$."
+       }
+      ]
+     }
+    ],
+    "final": "x = 2 \\text{ or } x = 3"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find a common denominator",
+      "lines": [
+       {
+        "text": "The denominators are $2x+1$, $5$ and $3x-1$, so the common denominator is $5(2x+1)(3x-1)$."
+       },
+       {
+        "tex": "\\frac{3}{2x+1} + \\frac{2}{5} &= \\frac{2}{3x-1}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply every term by the common denominator",
+      "lines": [
+       {
+        "tex": "15(3x-1) + 2(2x+1)(3x-1) &= 10(2x+1)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out each side",
+      "lines": [
+       {
+        "tex": "(2x+1)(3x-1) &= 6x^2 - 2x + 3x - 1"
+       },
+       {
+        "tex": "&= 6x^2 + x - 1"
+       },
+       {
+        "tex": "45x - 15 + 2(6x^2 + x - 1) &= 20x + 10"
+       },
+       {
+        "tex": "45x - 15 + 12x^2 + 2x - 2 &= 20x + 10"
+       },
+       {
+        "tex": "12x^2 + 47x - 17 &= 20x + 10"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange to a quadratic equal to zero",
+      "lines": [
+       {
+        "tex": "12x^2 + 27x - 27 &= 0"
+       },
+       {
+        "tex": "4x^2 + 9x - 9 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "lines": [
+       {
+        "tex": "(x+3)(4x-3) &= 0"
+       },
+       {
+        "tex": "x &= -3 \\text{ or } x = \\tfrac{3}{4}"
+       }
+      ]
+     }
+    ],
+    "final": "x = -3 \\text{ or } x = \\tfrac{3}{4}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "eq-rational-hl",
+   "title": "Solve (ax+b)/(ex+f) ± (cx+d)/(qx+r) = k",
+   "level": "HL",
+   "input": "equation with algebraic numerators and denominators",
+   "output": "x"
+  },
+  "candidates": [
+   {
+    "part": "practice-eq-rational-hl-1",
+    "level": "higher",
+    "year": null,
+    "question": "Solve for $x$:\n$\\dfrac{2x+1}{x+2} + \\dfrac{x-1}{x-3} = 1$",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every term by $(x+2)(x-3)$",
+      "lines": [
+       {
+        "tex": "\\frac{2x+1}{x+2} + \\frac{x-1}{x-3} &= 1"
+       },
+       {
+        "tex": "(2x+1)(x-3) + (x-1)(x+2) &= (x+2)(x-3)"
+       }
+      ]
+     },
+     {
+      "title": "Expand each product",
+      "lines": [
+       {
+        "tex": "2x^2 - 5x - 3 + x^2 + x - 2 &= x^2 - x - 6"
+       },
+       {
+        "tex": "3x^2 - 4x - 5 &= x^2 - x - 6"
+       }
+      ]
+     },
+     {
+      "title": "Collect into a quadratic equation",
+      "lines": [
+       {
+        "tex": "2x^2 - 3x + 1 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve with the quadratic formula",
+      "lines": [
+       {
+        "text": "Here $a = 2$, $b = -3$, $c = 1$."
+       },
+       {
+        "tex": "x &= \\frac{3 \\pm \\sqrt{(-3)^2 - 4(2)(1)}}{2(2)}"
+       },
+       {
+        "tex": "&= \\frac{3 \\pm 1}{4}"
+       },
+       {
+        "tex": "x &= 1 \\text{ or } x = \\tfrac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "x = 1 \\text{ or } x = \\tfrac{1}{2}"
+   },
+   {
+    "part": "practice-eq-rational-hl-2",
+    "level": "higher",
+    "year": null,
+    "question": "Solve for $x$:\n$\\dfrac{3x}{x+1} - \\dfrac{2x-1}{x-1} = -1$",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every term by $(x+1)(x-1)$",
+      "lines": [
+       {
+        "tex": "\\frac{3x}{x+1} - \\frac{2x-1}{x-1} &= -1"
+       },
+       {
+        "tex": "3x(x-1) - (2x-1)(x+1) &= -(x+1)(x-1)"
+       }
+      ]
+     },
+     {
+      "title": "Expand, taking care with the minus sign",
+      "lines": [
+       {
+        "tex": "3x^2 - 3x - (2x^2 + x - 1) &= -(x^2 - 1)"
+       },
+       {
+        "tex": "x^2 - 4x + 1 &= -x^2 + 1"
+       }
+      ]
+     },
+     {
+      "title": "Collect into a quadratic equation",
+      "lines": [
+       {
+        "tex": "2x^2 - 4x &= 0"
+       },
+       {
+        "tex": "2x(x - 2) &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$",
+      "lines": [
+       {
+        "tex": "x &= 0 \\text{ or } x = 2"
+       }
+      ]
+     }
+    ],
+    "final": "x = 0 \\text{ or } x = 2"
+   },
+   {
+    "part": "practice-eq-rational-hl-3",
+    "level": "higher",
+    "year": null,
+    "question": "Solve for $x$:\n$\\dfrac{2x}{x-1} = 1 - \\dfrac{x+1}{x+2}$",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every term by $(x-1)(x+2)$",
+      "lines": [
+       {
+        "tex": "\\frac{2x}{x-1} &= 1 - \\frac{x+1}{x+2}"
+       },
+       {
+        "tex": "2x(x+2) &= (x-1)(x+2) - (x+1)(x-1)"
+       }
+      ]
+     },
+     {
+      "title": "Expand each product",
+      "lines": [
+       {
+        "tex": "2x^2 + 4x &= x^2 + x - 2 - (x^2 - 1)"
+       },
+       {
+        "tex": "2x^2 + 4x &= x - 1"
+       }
+      ]
+     },
+     {
+      "title": "Collect into a quadratic equation",
+      "lines": [
+       {
+        "tex": "2x^2 + 3x + 1 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Solve with the quadratic formula",
+      "lines": [
+       {
+        "text": "Here $a = 2$, $b = 3$, $c = 1$."
+       },
+       {
+        "tex": "x &= \\frac{-3 \\pm \\sqrt{3^2 - 4(2)(1)}}{2(2)}"
+       },
+       {
+        "tex": "&= \\frac{-3 \\pm 1}{4}"
+       },
+       {
+        "tex": "x &= -\\tfrac{1}{2} \\text{ or } x = -1"
+       }
+      ]
+     }
+    ],
+    "final": "x = -\\tfrac{1}{2} \\text{ or } x = -1"
+   }
+  ]
+ }
+]

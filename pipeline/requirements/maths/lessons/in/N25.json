@@ -1,0 +1,623 @@
+[
+ {
+  "skill": {
+   "id": "stat-data-types",
+   "title": "Classify data",
+   "level": "OL",
+   "input": "variable description",
+   "output": "categorical (nominal/ordinal) or numerical (discrete/continuous); univariate/bivariate"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p2-q9#(a)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Decide the type of data",
+      "lines": [
+       {
+        "text": "Tick Numerical Continuous."
+       },
+       {
+        "text": "Height is a number that is measured, and it can take any value in a range, such as 164.37 cm, so it is continuous."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Numerical Continuous}"
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q9#(a)(i)",
+    "level": "ordinary",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Subtract the valid votes from the total votes",
+      "lines": [
+       {
+        "text": "Total votes = valid votes + invalid or blank votes."
+       },
+       {
+        "tex": "33\\,577\\,342 - 33\\,551\\,983 &= 25\\,359"
+       }
+      ]
+     },
+     {
+      "title": "Fill in the table",
+      "lines": [
+       {
+        "text": "Write $25\\,359$ in the \"Invalid or blank votes\" row of Table 1."
+       }
+      ]
+     }
+    ],
+    "final": "25\\,359"
+   },
+   {
+    "part": "practice-stat-data-types-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A class records five variables: the time to run 100 m, the number of goals scored in a match, the mass of a parcel, eye colour, and shoe size.\nHow many of these variables are numerical continuous?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Recall what continuous means",
+      "lines": [
+       {
+        "text": "Numerical continuous data is measured and can take any value in a range."
+       }
+      ]
+     },
+     {
+      "title": "Classify each variable",
+      "lines": [
+       {
+        "text": "Time to run 100 m: continuous. Mass of a parcel: continuous."
+       },
+       {
+        "text": "Number of goals and shoe size: numerical discrete. Eye colour: categorical."
+       }
+      ]
+     },
+     {
+      "title": "Count the continuous ones",
+      "lines": [
+       {
+        "tex": "\\text{Count} &= 1 + 1 &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-distribution-shape",
+   "title": "Describe a distribution's shape",
+   "level": "OL",
+   "input": "histogram/stem plot",
+   "output": "symmetric, positive/negative skew; effect on mean vs median"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-distribution-shape-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The number of goals scored by ten teams in a season is shown in a stem-and-leaf plot. The values are:\n$2, 3, 3, 4, 4, 5, 6, 8, 15, 30$\nThe plot has a long tail on the right, so the distribution is positively skewed. Find the mean minus the median.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "tex": "\\text{mean} &= \\frac{2+3+3+4+4+5+6+8+15+30}{10}"
+       },
+       {
+        "tex": "&= 8"
+       }
+      ]
+     },
+     {
+      "title": "Find the median",
+      "lines": [
+       {
+        "tex": "\\text{median} &= \\frac{4+5}{2}"
+       },
+       {
+        "tex": "&= 4.5"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "lines": [
+       {
+        "tex": "8 - 4.5 &= 3.5"
+       },
+       {
+        "text": "The mean is greater than the median, as expected for a positive skew."
+       }
+      ]
+     }
+    ],
+    "final": "3.5"
+   },
+   {
+    "part": "practice-stat-distribution-shape-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Ten students' marks in a test are:\n$10, 45, 60, 62, 64, 65, 66, 68, 70, 70$\nThe histogram has a long tail on the left, so the distribution is negatively skewed. Find the median minus the mean.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "tex": "\\text{mean} &= \\frac{580}{10}"
+       },
+       {
+        "tex": "&= 58"
+       }
+      ]
+     },
+     {
+      "title": "Find the median",
+      "lines": [
+       {
+        "tex": "\\text{median} &= \\frac{64+65}{2}"
+       },
+       {
+        "tex": "&= 64.5"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "lines": [
+       {
+        "tex": "64.5 - 58 &= 6.5"
+       },
+       {
+        "text": "The median is greater than the mean, as expected for a negative skew."
+       }
+      ]
+     }
+    ],
+    "final": "6.5"
+   },
+   {
+    "part": "practice-stat-distribution-shape-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Eleven students recorded the hours they spent online in a week:\n$4, 5, 6, 6, 7, 7, 7, 8, 8, 9, 10$\nThe dot plot is symmetric about the middle value. Find the mean minus the median.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the mean",
+      "lines": [
+       {
+        "tex": "\\text{mean} &= \\frac{77}{11}"
+       },
+       {
+        "tex": "&= 7"
+       }
+      ]
+     },
+     {
+      "title": "Find the median",
+      "lines": [
+       {
+        "text": "There are 11 values, so the median is the 6th value."
+       },
+       {
+        "tex": "\\text{median} &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Subtract",
+      "lines": [
+       {
+        "tex": "7 - 7 &= 0"
+       },
+       {
+        "text": "The mean equals the median, as expected for a symmetric distribution."
+       }
+      ]
+     }
+    ],
+    "final": "0"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-outlier-effect",
+   "title": "Explain the effect of outliers on summary statistics",
+   "level": "HL",
+   "input": "data set with outlier",
+   "output": "effect on mean/median/σ/IQR"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2025-higher-p2-q4#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Say how the mean is affected",
+      "lines": [
+       {
+        "text": "Making the biggest number bigger increases the total (sum) of the 10 numbers."
+       },
+       {
+        "text": "The mean is the total divided by 10, so the mean increases as well."
+       }
+      ]
+     },
+     {
+      "title": "Say how the median is affected",
+      "lines": [
+       {
+        "text": "For 10 numbers the median depends only on the middle two values, the 5th and 6th biggest."
+       },
+       {
+        "text": "The biggest number is the 10th, so changing it does not change the 5th or 6th values. The median stays the same."
+       }
+      ]
+     },
+     {
+      "title": "State the answer",
+      "lines": [
+       {
+        "text": "Tick the box for the mean only."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{the mean only}"
+   },
+   {
+    "part": "practice-stat-outlier-effect-1",
+    "level": "higher",
+    "year": null,
+    "question": "Five numbers are $10, 12, 14, 16, 18$. The largest number, 18, is replaced by 38.\nFind how much the mean increases by, and say whether the median changes.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the original and new means",
+      "lines": [
+       {
+        "tex": "\\text{Original mean} &= \\frac{10+12+14+16+18}{5} = 14"
+       },
+       {
+        "tex": "\\text{New mean} &= \\frac{10+12+14+16+38}{5} = 18"
+       }
+      ]
+     },
+     {
+      "title": "Find the increase",
+      "lines": [
+       {
+        "tex": "18 - 14 &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Check the median",
+      "lines": [
+       {
+        "text": "The median is the middle value, 14, before and after. The median does not change."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{mean increases by } 4;\\ \\text{median unchanged}"
+   },
+   {
+    "part": "practice-stat-outlier-effect-2",
+    "level": "higher",
+    "year": null,
+    "question": "The data set $6, 7, 8, 9, 60$ contains an outlier, 60.\nFind how much the mean decreases by when 60 is removed.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the mean with the outlier",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{6+7+8+9+60}{5} = 18"
+       }
+      ]
+     },
+     {
+      "title": "Find the mean without it",
+      "lines": [
+       {
+        "tex": "\\text{Mean} &= \\frac{6+7+8+9}{4} = 7.5"
+       }
+      ]
+     },
+     {
+      "title": "Find the change",
+      "lines": [
+       {
+        "tex": "18 - 7.5 &= 10.5"
+       },
+       {
+        "text": "The median only moves from 8 to 7.5, so the outlier affects the mean far more."
+       }
+      ]
+     }
+    ],
+    "final": "10.5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-outliers",
+   "title": "Recognise outliers",
+   "level": "OL",
+   "input": "data set",
+   "output": "outliers (e.g. beyond 1.5 × IQR)"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-outliers-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The number of text messages sent by ten students in one day was:\n$12, 14, 15, 15, 16, 17, 18, 19, 20, 52$\nAn outlier is a value more than $1.5 \\times IQR$ above $Q_3$ or below $Q_1$.\nFind the upper limit above which a value is an outlier.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the quartiles",
+      "lines": [
+       {
+        "text": "The lower half is $12, 14, 15, 15, 16$, so $Q_1 = 15$."
+       },
+       {
+        "text": "The upper half is $17, 18, 19, 20, 52$, so $Q_3 = 19$."
+       }
+      ]
+     },
+     {
+      "title": "Find the interquartile range",
+      "lines": [
+       {
+        "tex": "IQR &= 19 - 15 = 4"
+       }
+      ]
+     },
+     {
+      "title": "Find the upper limit",
+      "lines": [
+       {
+        "tex": "Q_3 + 1.5 \\times IQR &= 19 + 1.5(4)"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "$52 > 25$, so 52 is an outlier."
+       }
+      ]
+     }
+    ],
+    "final": "25"
+   },
+   {
+    "part": "practice-stat-outliers-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The ages of ten members of a club are:\n$3, 41, 43, 44, 46, 47, 49, 50, 52, 90$\nAn outlier is a value more than $1.5 \\times IQR$ above $Q_3$ or below $Q_1$.\nFind the value below which an age would be an outlier.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the quartiles",
+      "lines": [
+       {
+        "text": "The lower half is $3, 41, 43, 44, 46$, so $Q_1 = 43$."
+       },
+       {
+        "text": "The upper half is $47, 49, 50, 52, 90$, so $Q_3 = 50$."
+       }
+      ]
+     },
+     {
+      "title": "Find the interquartile range",
+      "lines": [
+       {
+        "tex": "IQR &= 50 - 43 = 7"
+       }
+      ]
+     },
+     {
+      "title": "Find the lower limit",
+      "lines": [
+       {
+        "tex": "Q_1 - 1.5 \\times IQR &= 43 - 1.5(7)"
+       },
+       {
+        "tex": "&= 32.5"
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "$3 < 32.5$, so the age 3 is an outlier."
+       }
+      ]
+     }
+    ],
+    "final": "32.5"
+   },
+   {
+    "part": "practice-stat-outliers-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Nine houses on a road have these numbers of residents:\n$6, 8, 9, 9, 10, 11, 12, 13, 14$\nAn outlier is a value more than $1.5 \\times IQR$ above $Q_3$ or below $Q_1$.\nUsing the quartiles of these nine values, find the smallest whole number of residents that would be an outlier above the data.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the quartiles",
+      "lines": [
+       {
+        "text": "Leave out the median, 10. The lower half is $6, 8, 9, 9$, so $Q_1 = 8.5$."
+       },
+       {
+        "text": "The upper half is $11, 12, 13, 14$, so $Q_3 = 12.5$."
+       }
+      ]
+     },
+     {
+      "title": "Find the interquartile range",
+      "lines": [
+       {
+        "tex": "IQR &= 12.5 - 8.5 = 4"
+       }
+      ]
+     },
+     {
+      "title": "Find the upper limit",
+      "lines": [
+       {
+        "tex": "Q_3 + 1.5 \\times IQR &= 12.5 + 1.5(4)"
+       },
+       {
+        "tex": "&= 18.5"
+       }
+      ]
+     },
+     {
+      "title": "Choose the smallest whole number",
+      "lines": [
+       {
+        "text": "A value must be more than 18.5, so the smallest whole number is 19."
+       }
+      ]
+     }
+    ],
+    "final": "19"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-percentiles",
+   "title": "Use percentiles for relative standing",
+   "level": "HL",
+   "input": "data set or distribution + value",
+   "output": "percentile rank / value at percentile"
+  },
+  "candidates": [
+   {
+    "part": "practice-stat-percentiles-1",
+    "level": "higher",
+    "year": null,
+    "question": "In a test taken by 50 students, Aoife scored more marks than 36 of the other students.\nFind Aoife's percentile rank.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the fraction scoring below",
+      "lines": [
+       {
+        "text": "The percentile rank is the percentage of students who scored below Aoife."
+       },
+       {
+        "tex": "\\frac{36}{50} &= 0.72"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "0.72 \\times 100 &= 72"
+       },
+       {
+        "text": "Aoife is at the 72nd percentile."
+       }
+      ]
+     }
+    ],
+    "final": "72"
+   },
+   {
+    "part": "practice-stat-percentiles-3",
+    "level": "higher",
+    "year": null,
+    "question": "A student's mark in a national exam is at the 85th percentile. 40 students sat the exam.\nHow many students scored lower than this student?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the meaning of percentile",
+      "lines": [
+       {
+        "text": "The 85th percentile means 85% of the students scored lower."
+       }
+      ]
+     },
+     {
+      "title": "Find 85% of 40",
+      "lines": [
+       {
+        "tex": "\\frac{85}{100} \\times 40 &= 34"
+       }
+      ]
+     }
+    ],
+    "final": "34"
+   },
+   {
+    "part": "practice-stat-percentiles-2",
+    "level": "higher",
+    "year": null,
+    "question": "The times, in minutes, taken by 12 runners to finish a race are:\n$3,\\ 4,\\ 6,\\ 7,\\ 8,\\ 9,\\ 10,\\ 12,\\ 14,\\ 16,\\ 18,\\ 20$\nFind the 75th percentile of the times.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Link the percentile to a quartile",
+      "lines": [
+       {
+        "text": "The 75th percentile is the upper quartile $Q_3$."
+       }
+      ]
+     },
+     {
+      "title": "Find the upper half of the data",
+      "lines": [
+       {
+        "text": "There are 12 values, so the upper half is the 6 largest: $10, 12, 14, 16, 18, 20$."
+       }
+      ]
+     },
+     {
+      "title": "Find the median of the upper half",
+      "lines": [
+       {
+        "tex": "Q_3 &= \\frac{14 + 16}{2}"
+       },
+       {
+        "tex": "&= 15"
+       }
+      ]
+     }
+    ],
+    "final": "15"
+   }
+  ]
+ }
+]

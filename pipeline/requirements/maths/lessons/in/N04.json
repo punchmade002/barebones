@@ -1,0 +1,699 @@
+[
+ {
+  "skill": {
+   "id": "cx-polar-multiply",
+   "title": "Multiply and divide in polar form",
+   "level": "HL",
+   "input": "two numbers in polar form",
+   "output": "product/quotient (multiply moduli, add arguments)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q2#(b)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write w in polar form",
+      "lines": [
+       {
+        "text": "$|w| = 3$ and the angle is $30^\\circ = \\frac{\\pi}{6}$."
+       },
+       {
+        "tex": "w &= 3\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply z and w",
+      "lines": [
+       {
+        "text": "To multiply in polar form, multiply the moduli and add the angles."
+       },
+       {
+        "tex": "zw &= 2\\left(\\cos\\frac{5\\pi}{6} + i\\sin\\frac{5\\pi}{6}\\right)\\times 3\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 6\\left(\\cos\\left(\\frac{5\\pi}{6}+\\frac{\\pi}{6}\\right) + i\\sin\\left(\\frac{5\\pi}{6}+\\frac{\\pi}{6}\\right)\\right)"
+       },
+       {
+        "tex": "&= 6(\\cos\\pi + i\\sin\\pi)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "t &= 6(-1 + 0i)"
+       },
+       {
+        "tex": "&= -6"
+       }
+      ]
+     }
+    ],
+    "final": "t = -6"
+   },
+   {
+    "part": "practice-cx-polar-multiply-1",
+    "level": "higher",
+    "year": null,
+    "question": "$u = 12\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)$ and $v = 3\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)$.\nFind $\\dfrac{u}{v}$ in the form $a + bi$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Divide the moduli and subtract the angles",
+      "lines": [
+       {
+        "text": "To divide in polar form, divide the moduli and subtract the arguments."
+       },
+       {
+        "tex": "\\frac{u}{v} &= \\frac{12}{3}\\left(\\cos\\left(\\frac{2\\pi}{3} - \\frac{\\pi}{6}\\right) + i\\sin\\left(\\frac{2\\pi}{3} - \\frac{\\pi}{6}\\right)\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the angle",
+      "lines": [
+       {
+        "tex": "\\frac{2\\pi}{3} - \\frac{\\pi}{6} &= \\frac{4\\pi}{6} - \\frac{\\pi}{6}"
+       },
+       {
+        "tex": "&= \\frac{\\pi}{2}"
+       },
+       {
+        "tex": "\\frac{u}{v} &= 4\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "\\frac{u}{v} &= 4(0 + i)"
+       },
+       {
+        "tex": "&= 4i"
+       }
+      ]
+     }
+    ],
+    "final": "\\dfrac{u}{v} = 4i"
+   },
+   {
+    "part": "practice-cx-polar-multiply-2",
+    "level": "higher",
+    "year": null,
+    "question": "$z = 4\\left(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}\\right)$ and $w = \\sqrt{3} + i$.\nWrite $w$ in polar form and hence find $zw$ in the form $a + bi$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the modulus of w",
+      "lines": [
+       {
+        "tex": "|w| &= \\sqrt{(\\sqrt{3})^2 + 1^2}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Find the argument of w",
+      "lines": [
+       {
+        "text": "$\\tan\\theta = \\dfrac{1}{\\sqrt{3}}$ and $w$ is in the first quadrant, so $\\theta = \\dfrac{\\pi}{6}$."
+       },
+       {
+        "tex": "w &= 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the moduli and add the angles",
+      "lines": [
+       {
+        "tex": "zw &= 4 \\times 2\\left(\\cos\\left(\\frac{\\pi}{3} + \\frac{\\pi}{6}\\right) + i\\sin\\left(\\frac{\\pi}{3} + \\frac{\\pi}{6}\\right)\\right)"
+       },
+       {
+        "tex": "&= 8\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "zw &= 8(0 + i)"
+       },
+       {
+        "tex": "&= 8i"
+       }
+      ]
+     }
+    ],
+    "final": "w = 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right),\\ zw = 8i"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-powers-i",
+   "title": "Simplify powers of i",
+   "level": "OL",
+   "input": "iⁿ",
+   "output": "1, i, −1 or −i"
+  },
+  "candidates": [
+   {
+    "part": "practice-cx-powers-i-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Simplify $i^{23}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Split off the largest multiple of 4 in the power",
+      "lines": [
+       {
+        "text": "$i^4 = 1$, so write $23 = 20 + 3$."
+       },
+       {
+        "tex": "i^{23} &= (i^4)^5 \\cdot i^3"
+       }
+      ]
+     },
+     {
+      "title": "Replace $i^4$ with 1",
+      "lines": [
+       {
+        "tex": "&= 1^5 \\cdot i^3"
+       }
+      ]
+     },
+     {
+      "title": "Use $i^3 = -i$",
+      "lines": [
+       {
+        "tex": "&= -i"
+       }
+      ]
+     }
+    ],
+    "final": "-i"
+   },
+   {
+    "part": "practice-cx-powers-i-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Simplify $3i^{10} - 2i^{5}$.\nGive your answer in the form $a + bi$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Reduce each power using $i^4 = 1$",
+      "lines": [
+       {
+        "tex": "i^{10} &= (i^4)^2 \\cdot i^2 = i^2 = -1"
+       },
+       {
+        "tex": "i^{5} &= i^4 \\cdot i = i"
+       }
+      ]
+     },
+     {
+      "title": "Substitute",
+      "lines": [
+       {
+        "tex": "3i^{10} - 2i^5 &= 3(-1) - 2(i)"
+       }
+      ]
+     },
+     {
+      "title": "Write in the form $a + bi$",
+      "lines": [
+       {
+        "tex": "&= -3 - 2i"
+       }
+      ]
+     }
+    ],
+    "final": "-3 - 2i"
+   },
+   {
+    "part": "practice-cx-powers-i-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Simplify $(i^9)^3$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply the indices",
+      "lines": [
+       {
+        "tex": "(i^9)^3 &= i^{27}"
+       }
+      ]
+     },
+     {
+      "title": "Split off the largest multiple of 4 in the power",
+      "lines": [
+       {
+        "text": "Write $27 = 24 + 3$."
+       },
+       {
+        "tex": "i^{27} &= (i^4)^6 \\cdot i^3"
+       }
+      ]
+     },
+     {
+      "title": "Replace $i^4$ with 1 and use $i^3 = -i$",
+      "lines": [
+       {
+        "tex": "&= 1^6 \\cdot (-i)"
+       },
+       {
+        "tex": "&= -i"
+       }
+      ]
+     }
+    ],
+    "final": "-i"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-quadratic",
+   "title": "Solve a quadratic with complex roots",
+   "level": "HL",
+   "input": "quadratic with b² − 4ac < 0",
+   "output": "conjugate pair of roots"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q1#(c)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the sum of the roots",
+      "lines": [
+       {
+        "text": "For $z^2 + bz + c = 0$ the roots add up to $-b$. Here $b = -2 + i$."
+       },
+       {
+        "tex": "(1+i) + z_1 &= -(-2 + i)"
+       },
+       {
+        "tex": "&= 2 - i"
+       }
+      ]
+     },
+     {
+      "title": "Solve for the other root",
+      "lines": [
+       {
+        "tex": "z_1 &= 2 - i - (1 + i)"
+       },
+       {
+        "tex": "&= 2 - i - 1 - i"
+       },
+       {
+        "tex": "&= 1 - 2i"
+       }
+      ]
+     }
+    ],
+    "final": "1 - 2i"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q2#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Identify a, b and c",
+      "lines": [
+       {
+        "tex": "z^2 + 12z + 261 &= 0"
+       },
+       {
+        "text": "Here $a = 1$, $b = 12$, $c = 261$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the quadratic formula",
+      "lines": [
+       {
+        "tex": "z &= \\frac{-12 \\pm \\sqrt{12^2 - 4(1)(261)}}{2(1)}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify under the square root",
+      "lines": [
+       {
+        "tex": "z &= \\frac{-12 \\pm \\sqrt{144 - 1044}}{2}"
+       },
+       {
+        "tex": "z &= \\frac{-12 \\pm \\sqrt{-900}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Write the root using i",
+      "lines": [
+       {
+        "text": "$\\sqrt{-900} = \\sqrt{900} \\times \\sqrt{-1} = 30i$."
+       },
+       {
+        "tex": "z &= \\frac{-12 \\pm 30i}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term by 2",
+      "lines": [
+       {
+        "tex": "z &= -6 \\pm 15i"
+       },
+       {
+        "tex": "z &= -6 + 15i \\text{ or } z = -6 - 15i"
+       }
+      ]
+     }
+    ],
+    "final": "-6 + 15i \\text{ and } -6 - 15i"
+   },
+   {
+    "part": "practice-cx-quadratic-1",
+    "level": "higher",
+    "year": null,
+    "question": "Solve $4z^2 - 8z + 13 = 0$, where $z \\in \\mathbb{C}$.\nGive your answers in the form $a + bi$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Identify a, b and c",
+      "lines": [
+       {
+        "tex": "4z^2 - 8z + 13 &= 0"
+       },
+       {
+        "text": "Here $a = 4$, $b = -8$, $c = 13$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the formula",
+      "lines": [
+       {
+        "tex": "z &= \\frac{8 \\pm \\sqrt{(-8)^2 - 4(4)(13)}}{2(4)}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify under the square root",
+      "lines": [
+       {
+        "tex": "z &= \\frac{8 \\pm \\sqrt{64 - 208}}{8}"
+       },
+       {
+        "tex": "&= \\frac{8 \\pm \\sqrt{-144}}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Write the root using i",
+      "lines": [
+       {
+        "text": "$\\sqrt{-144} = 12i$."
+       },
+       {
+        "tex": "z &= \\frac{8 \\pm 12i}{8}"
+       }
+      ]
+     },
+     {
+      "title": "Divide each term by 8",
+      "lines": [
+       {
+        "tex": "z &= 1 \\pm \\frac{3}{2}i"
+       },
+       {
+        "text": "The roots are a conjugate pair."
+       }
+      ]
+     }
+    ],
+    "final": "z = 1 + \\tfrac{3}{2}i \\text{ and } z = 1 - \\tfrac{3}{2}i"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "cx-transformations",
+   "title": "Interpret operations as transformations on the Argand diagram",
+   "level": "OL",
+   "input": "z and an operation (+w, ×i, ×k)",
+   "output": "translation / rotation / enlargement"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-ordinary-p1-q2#(c)",
+    "level": "ordinary",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write down the conjugate of $w$",
+      "lines": [
+       {
+        "text": "The conjugate changes the sign of the imaginary part."
+       },
+       {
+        "tex": "\\overline{w} &= 1 - 2i"
+       }
+      ]
+     },
+     {
+      "title": "Match it to the diagram",
+      "lines": [
+       {
+        "text": "$1 - 2i$ has the same real part as $w$ and lies the same distance below the real axis, so it is $w$ reflected in the real axis. That is point $C$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Box } C \\text{ (the conjugate is the reflection of } w \\text{ in the real axis)}"
+   },
+   {
+    "part": "practice-cx-transformations-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "On an Argand diagram, the point $z = 2 - 3i$ is mapped to the point $3z$.\nFind $3z$ and describe the transformation that maps $z$ to $3z$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find 3z",
+      "lines": [
+       {
+        "tex": "3z &= 3(2 - 3i)"
+       },
+       {
+        "tex": "&= 6 - 9i"
+       }
+      ]
+     },
+     {
+      "title": "Plot both points",
+      "lines": [
+       {
+        "text": "$z = 2 - 3i$ is the point $(2, -3)$."
+       },
+       {
+        "text": "$3z = 6 - 9i$ is the point $(6, -9)$. It lies on the same line through the origin, three times as far from it."
+       }
+      ]
+     },
+     {
+      "title": "Name the transformation",
+      "lines": [
+       {
+        "text": "Multiplying by $3$ multiplies the distance from the origin by $3$ and keeps the direction."
+       },
+       {
+        "text": "This is an enlargement with centre the origin and scale factor $3$."
+       }
+      ]
+     }
+    ],
+    "final": "3z = 6 - 9i;\\ \\text{enlargement, centre the origin, scale factor } 3"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q4#(c)(i), (ii), (iii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Find iu",
+      "lines": [
+       {
+        "tex": "iu &= i(a + bi)"
+       },
+       {
+        "tex": "&= ai + bi^2"
+       },
+       {
+        "text": "Use $i^2 = -1$."
+       },
+       {
+        "tex": "&= -b + ai"
+       }
+      ]
+     },
+     {
+      "title": "(i) Find the conjugate of iu",
+      "lines": [
+       {
+        "text": "The conjugate changes the sign of the imaginary part."
+       },
+       {
+        "tex": "\\overline{iu} &= -b - ai"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Plot iu and its conjugate",
+      "lines": [
+       {
+        "text": "$iu = -b + ai$ is the point $(-b, a)$: left of the imaginary axis and a small height above the real axis."
+       },
+       {
+        "text": "$\\overline{iu} = -b - ai$ is the point $(-b, -a)$, the reflection of $iu$ in the real axis."
+       }
+      ]
+     },
+     {
+      "title": "(iii) Describe a transformation from u to the conjugate of iu",
+      "lines": [
+       {
+        "text": "Multiplying by $i$ turns $u$ into $iu$: a rotation of $90^\\circ$ anticlockwise about the origin."
+       },
+       {
+        "text": "Then reflecting $iu$ in the real axis gives $\\overline{iu}$."
+       }
+      ]
+     }
+    ],
+    "final": "iu = -b + ai,\\ \\overline{iu} = -b - ai;\\ \\text{rotate } 90^\\circ \\text{ anticlockwise about the origin, then reflect in the real axis}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "num-decimal-fraction",
+   "title": "Convert decimals and fractions",
+   "level": "OL",
+   "input": "terminating/recurring decimal or fraction",
+   "output": "equivalent form"
+  },
+  "candidates": [
+   {
+    "part": "practice-num-decimal-fraction-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\frac{7}{16}$ as a decimal.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Divide the numerator by the denominator",
+      "lines": [
+       {
+        "tex": "\\frac{7}{16} &= 7 \\div 16"
+       },
+       {
+        "tex": "&= 0.4375"
+       }
+      ]
+     }
+    ],
+    "final": "0.4375"
+   },
+   {
+    "part": "practice-num-decimal-fraction-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $0.625$ as a fraction in its simplest form.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write over a power of 10",
+      "lines": [
+       {
+        "tex": "0.625 &= \\frac{625}{1000}"
+       }
+      ]
+     },
+     {
+      "title": "Divide top and bottom by 125",
+      "lines": [
+       {
+        "tex": "&= \\frac{5}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{5}{8}"
+   },
+   {
+    "part": "practice-num-decimal-fraction-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $0.\\dot{3}\\dot{6}$ as a fraction in its simplest form.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Let $x$ equal the decimal and multiply by 100",
+      "lines": [
+       {
+        "text": "$x = 0.363636\\ldots$"
+       },
+       {
+        "text": "$100x = 36.363636\\ldots$"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to remove the repeating part",
+      "lines": [
+       {
+        "tex": "100x - x &= 36.\\dot{3}\\dot{6} - 0.\\dot{3}\\dot{6}"
+       },
+       {
+        "tex": "99x &= 36"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $x$ and simplify",
+      "lines": [
+       {
+        "tex": "x &= \\frac{36}{99}"
+       },
+       {
+        "tex": "&= \\frac{4}{11}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{4}{11}"
+   }
+  ]
+ }
+]

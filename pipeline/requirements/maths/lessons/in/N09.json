@@ -1,0 +1,794 @@
+[
+ {
+  "skill": {
+   "id": "fin-mortgage-derive",
+   "title": "Derive the mortgage repayment formula",
+   "level": "HL",
+   "input": "loan = sum of PVs of repayments",
+   "output": "formula"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2017-higher-p1-q8#(a)",
+    "level": "higher",
+    "year": 2017,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the loan as the sum of the repayments in today's money",
+      "lines": [
+       {
+        "text": "A repayment $A$ made at the end of period $k$ is worth $\\frac{A}{(1+i)^k}$ today. Today's value of all $t$ repayments is the loan $P$."
+       },
+       {
+        "tex": "P &= \\frac{A}{1+i} + \\frac{A}{(1+i)^2} + \\cdots + \\frac{A}{(1+i)^t}"
+       }
+      ]
+     },
+     {
+      "title": "Use the sum of a geometric series",
+      "lines": [
+       {
+        "text": "This is a geometric series with first term $a = \\frac{A}{1+i}$, common ratio $r = \\frac{1}{1+i}$ and $t$ terms, so $S_t = \\frac{a(1 - r^t)}{1 - r}$."
+       },
+       {
+        "tex": "P &= \\frac{\\frac{A}{1+i}\\left(1 - \\left(\\frac{1}{1+i}\\right)^t\\right)}{1 - \\frac{1}{1+i}}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{A}{1+i}\\left(1 - \\frac{1}{(1+i)^t}\\right)}{1 - \\frac{1}{1+i}}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the denominator",
+      "lines": [
+       {
+        "tex": "1 - \\frac{1}{1+i} &= \\frac{1+i-1}{1+i}"
+       },
+       {
+        "tex": "&= \\frac{i}{1+i}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the factor 1/(1+i) and tidy up",
+      "lines": [
+       {
+        "tex": "P &= \\frac{\\frac{A}{1+i}\\left(1 - \\frac{1}{(1+i)^t}\\right)}{\\frac{i}{1+i}}"
+       },
+       {
+        "tex": "&= \\frac{A\\left(1 - \\frac{1}{(1+i)^t}\\right)}{i}"
+       },
+       {
+        "tex": "&= \\frac{A\\left(\\frac{(1+i)^t - 1}{(1+i)^t}\\right)}{i}"
+       },
+       {
+        "tex": "&= \\frac{A\\left((1+i)^t - 1\\right)}{i(1+i)^t}"
+       }
+      ]
+     },
+     {
+      "title": "Make A the subject",
+      "lines": [
+       {
+        "text": "Multiply both sides by $i(1+i)^t$, then divide both sides by $(1+i)^t - 1$."
+       },
+       {
+        "tex": "P\\, i(1+i)^t &= A\\left((1+i)^t - 1\\right)"
+       },
+       {
+        "tex": "A &= \\frac{P\\, i(1+i)^t}{(1+i)^t - 1}"
+       }
+      ]
+     }
+    ],
+    "final": "A = \\frac{P\\, i(1+i)^t}{(1+i)^t - 1}"
+   },
+   {
+    "part": "practice-fin-mortgage-derive-1",
+    "level": "higher",
+    "year": null,
+    "question": "A loan of $\\text{€}P$ is repaid by $t$ equal monthly repayments of $\\text{€}A$. The first repayment is made immediately and each of the others is made at the end of each following month. The monthly interest rate is $i$.\nBy writing $P$ as the sum of the present values of the repayments, prove that\n$A = \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}.$",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the loan as the sum of the repayments in today's money",
+      "lines": [
+       {
+        "text": "The first repayment is made now, so it is worth $A$. A repayment made after $k$ months is worth $\\frac{A}{(1+i)^k}$ today."
+       },
+       {
+        "tex": "P &= A + \\frac{A}{1+i} + \\frac{A}{(1+i)^2} + \\cdots + \\frac{A}{(1+i)^{t-1}}"
+       }
+      ]
+     },
+     {
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "text": "Geometric with first term $a = A$, common ratio $r = \\frac{1}{1+i}$ and $t$ terms."
+       },
+       {
+        "tex": "P &= \\frac{A\\left(1 - \\left(\\frac{1}{1+i}\\right)^t\\right)}{1 - \\frac{1}{1+i}}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the denominator",
+      "lines": [
+       {
+        "tex": "1 - \\frac{1}{1+i} &= \\frac{1+i-1}{1+i}"
+       },
+       {
+        "tex": "&= \\frac{i}{1+i}"
+       }
+      ]
+     },
+     {
+      "title": "Divide by the fraction and tidy up",
+      "lines": [
+       {
+        "tex": "P &= \\frac{A(1+i)\\left(1 - \\frac{1}{(1+i)^t}\\right)}{i}"
+       },
+       {
+        "tex": "&= \\frac{A(1+i)\\left((1+i)^t - 1\\right)}{i(1+i)^t}"
+       },
+       {
+        "tex": "&= \\frac{A\\left((1+i)^t - 1\\right)}{i(1+i)^{t-1}}"
+       }
+      ]
+     },
+     {
+      "title": "Make A the subject",
+      "lines": [
+       {
+        "text": "Multiply both sides by $i(1+i)^{t-1}$, then divide by $(1+i)^t - 1$."
+       },
+       {
+        "tex": "A &= \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}"
+       }
+      ]
+     }
+    ],
+    "final": "A = \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q7#(b)(i), (ii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write the monthly rate as a decimal",
+      "lines": [
+       {
+        "text": "Each month the debt grows by a factor of $1 + 0.00279 = 1.00279$."
+       },
+       {
+        "tex": "0.279\\% &= 0.00279"
+       }
+      ]
+     },
+     {
+      "title": "Present value of repayment 1",
+      "lines": [
+       {
+        "text": "A payment made after $n$ months is divided by $1.00279$ once for each month."
+       },
+       {
+        "tex": "PV_1 &= \\frac{1647.75}{1.00279}"
+       }
+      ]
+     },
+     {
+      "title": "Present value of repayment 2",
+      "lines": [
+       {
+        "tex": "PV_2 &= \\frac{1647.75}{(1.00279)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Present value of repayment 3",
+      "lines": [
+       {
+        "tex": "PV_3 &= \\frac{1647.75}{(1.00279)^3}"
+       }
+      ]
+     },
+     {
+      "title": "Set up the amount borrowed as a sum",
+      "lines": [
+       {
+        "text": "The loan equals the sum of the present values of all $25 \\times 12 = 300$ repayments."
+       },
+       {
+        "tex": "P &= \\frac{1647.75}{1.00279} + \\frac{1647.75}{(1.00279)^2} + \\cdots + \\frac{1647.75}{(1.00279)^{300}}"
+       }
+      ]
+     },
+     {
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "text": "This is a geometric series with $n = 300$, first term $a$ and common ratio $r$."
+       },
+       {
+        "tex": "a &= \\frac{1647.75}{1.00279}"
+       },
+       {
+        "tex": "r &= \\frac{1}{1.00279}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute into the geometric sum formula",
+      "lines": [
+       {
+        "text": "$S_n = \\dfrac{a(1 - r^n)}{1 - r}$"
+       },
+       {
+        "tex": "P &= \\frac{\\frac{1647.75}{1.00279}\\left[1 - \\left(\\frac{1}{1.00279}\\right)^{300}\\right]}{1 - \\frac{1}{1.00279}}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate and round",
+      "lines": [
+       {
+        "tex": "P &= 334\\,562.61\\ldots"
+       },
+       {
+        "tex": "P &\\approx 334\\,563"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}334\\,563"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fin-present-value",
+   "title": "Find the present value of a future sum",
+   "level": "HL",
+   "input": "F, i, t",
+   "output": "P = F/(1 + i)ᵗ"
+  },
+  "candidates": [
+   {
+    "part": "practice-fin-present-value-1",
+    "level": "higher",
+    "year": null,
+    "question": "Ciara will receive €$22{,}050$ in 2 years' time.\nThe interest rate is $5\\%$ per year, compounded annually.\nFind the present value of this sum.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the compound interest formula",
+      "lines": [
+       {
+        "tex": "F &= P(1 + i)^t"
+       },
+       {
+        "text": "Here $F = 22050$, $i = 0.05$ and $t = 2$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute and solve for $P$",
+      "lines": [
+       {
+        "tex": "22050 &= P(1.05)^2"
+       },
+       {
+        "tex": "P &= \\frac{22050}{1.05^2}"
+       },
+       {
+        "tex": "&= 20000"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}20{,}000"
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q8#(b)(i), (ii)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Explain present value",
+      "lines": [
+       {
+        "text": "The present value of €1000 in 1 year's time is the amount that should be invested today, at that interest rate, to grow to exactly €1000 in 1 year."
+       }
+      ]
+     },
+     {
+      "title": "(ii) Write the compound interest formula for Chen",
+      "lines": [
+       {
+        "text": "Let $P$ be the amount Chen put in. After 6 years at $0.024$ per year:"
+       },
+       {
+        "tex": "4000 &= P(1 + 0.024)^6"
+       },
+       {
+        "tex": "4000 &= P(1.024)^6"
+       }
+      ]
+     },
+     {
+      "title": "Divide both sides by 1.024^6",
+      "lines": [
+       {
+        "tex": "P &= \\frac{4000}{1.024^6}"
+       },
+       {
+        "tex": "&= 3469.45"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) amount to invest now to equal €1000 in 1 year; (ii) €3469.45}"
+   },
+   {
+    "part": "practice-fin-present-value-2",
+    "level": "higher",
+    "year": null,
+    "question": "A club is promised a prize of €$6{,}655$ in 3 years' time.\nThe interest rate is $10\\%$ per year, compounded annually.\nFind the amount that, invested now, would grow to the prize.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "State what is known",
+      "lines": [
+       {
+        "text": "Future value $F = 6655$, rate $i = 0.1$, time $t = 3$ years. Let $P$ be the amount invested now."
+       }
+      ]
+     },
+     {
+      "title": "Use the compound interest formula",
+      "lines": [
+       {
+        "tex": "6655 &= P(1.1)^3"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $1.1^3$",
+      "lines": [
+       {
+        "tex": "P &= \\frac{6655}{1.1^3}"
+       },
+       {
+        "tex": "&= \\frac{6655}{1.331}"
+       },
+       {
+        "tex": "&= 5000"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}5000"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-composite",
+   "title": "Form a composite function",
+   "level": "OL",
+   "input": "f(x), g(x)",
+   "output": "f(g(x))"
+  },
+  "candidates": [
+   {
+    "part": "practice-fn-composite-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "$f(x) = 3x - 2$ and $g(x) = x^2 + 1$.\nFind $g(f(x))$, in the form $ax^2 + bx + c$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Put $f(x)$ in place of $x$ in $g$",
+      "lines": [
+       {
+        "tex": "g(f(x)) &= g(3x - 2)"
+       },
+       {
+        "tex": "&= (3x - 2)^2 + 1"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the bracket",
+      "lines": [
+       {
+        "tex": "&= (3x-2)(3x-2) + 1"
+       },
+       {
+        "tex": "&= 9x^2 - 12x + 4 + 1"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 9x^2 - 12x + 5"
+       }
+      ]
+     }
+    ],
+    "final": "9x^2 - 12x + 5"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Work out f(g(x))",
+      "lines": [
+       {
+        "text": "Put $g(x)$ in place of $x$ in $f(x) = 6x - 5$."
+       },
+       {
+        "tex": "f(g(x)) &= f\\left(\\frac{x+5}{6}\\right)"
+       },
+       {
+        "tex": "&= 6\\left(\\frac{x+5}{6}\\right) - 5"
+       },
+       {
+        "tex": "&= x + 5 - 5"
+       },
+       {
+        "tex": "&= x"
+       }
+      ]
+     },
+     {
+      "title": "Work out g(f(x))",
+      "lines": [
+       {
+        "text": "Put $f(x)$ in place of $x$ in $g(x) = \\frac{x+5}{6}$."
+       },
+       {
+        "tex": "g(f(x)) &= g(6x - 5)"
+       },
+       {
+        "tex": "&= \\frac{(6x - 5) + 5}{6}"
+       },
+       {
+        "tex": "&= \\frac{6x}{6}"
+       },
+       {
+        "tex": "&= x"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two results",
+      "lines": [
+       {
+        "text": "Both compositions simplify to $x$, so they are equal."
+       }
+      ]
+     }
+    ],
+    "final": "f(g(x)) = g(f(x)) = x \\text{, so yes they are equal}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q6#(b)(iii)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute f(x) into g",
+      "lines": [
+       {
+        "text": "$g$ takes the square root and then the natural log, so replace $x$ in $g$ by $e^{9x}$."
+       },
+       {
+        "tex": "g(f(x)) &= \\ln\\sqrt{e^{9x}}"
+       }
+      ]
+     },
+     {
+      "title": "Write the square root as a power",
+      "lines": [
+       {
+        "tex": "&= \\ln\\left(e^{9x}\\right)^{\\frac{1}{2}}"
+       },
+       {
+        "tex": "&= \\ln e^{\\frac{9x}{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the log with the exponential",
+      "lines": [
+       {
+        "text": "$\\ln e^{k} = k$."
+       },
+       {
+        "tex": "&= \\frac{9x}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "g(f(x)) = \\frac{9x}{2}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-definition",
+   "title": "Recognise a function and its domain/codomain/range",
+   "level": "OL",
+   "input": "mapping, rule or graph",
+   "output": "is/isn't a function, domain, range"
+  },
+  "candidates": [
+   {
+    "part": "practice-fn-definition-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The function $f$ is given by the set of pairs $\\{(1, 2), (2, 4), (3, 6), (4, 8)\\}$.\nWrite down the range of $f$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Check that it is a function",
+      "lines": [
+       {
+        "text": "Each input (first number) appears once, so each input has exactly one output. It is a function."
+       }
+      ]
+     },
+     {
+      "title": "Read off the outputs",
+      "lines": [
+       {
+        "text": "The range is the set of second numbers."
+       },
+       {
+        "tex": "\\text{Range} &= \\{2, 4, 6, 8\\}"
+       }
+      ]
+     }
+    ],
+    "final": "\\{2, 4, 6, 8\\}"
+   },
+   {
+    "part": "practice-fn-definition-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A function is defined by $f(x) = 3x - 1$ with domain $\\{-1, 0, 1, 2\\}$.\nFind the range of $f$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Put each domain value into the rule",
+      "lines": [
+       {
+        "tex": "f(-1) &= 3(-1) - 1 = -4"
+       },
+       {
+        "tex": "f(0) &= 3(0) - 1 = -1"
+       },
+       {
+        "tex": "f(1) &= 3(1) - 1 = 2"
+       },
+       {
+        "tex": "f(2) &= 3(2) - 1 = 5"
+       }
+      ]
+     },
+     {
+      "title": "Collect the outputs",
+      "lines": [
+       {
+        "text": "The range is the set of all the outputs."
+       },
+       {
+        "tex": "\\text{Range} &= \\{-4, -1, 2, 5\\}"
+       }
+      ]
+     }
+    ],
+    "final": "\\{-4, -1, 2, 5\\}"
+   },
+   {
+    "part": "practice-fn-definition-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A relation $R$ is given by the set of pairs $\\{(0, 3), (1, 5), (2, 7), (2, 9), (3, 11)\\}$.\n$R$ is not a function.\nWrite down the value of $x$ in the domain that is mapped to two different values.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Recall what a function needs",
+      "lines": [
+       {
+        "text": "In a function, every input has exactly one output."
+       }
+      ]
+     },
+     {
+      "title": "Look for a repeated input",
+      "lines": [
+       {
+        "text": "The inputs are $0, 1, 2, 2, 3$. Only $2$ appears twice."
+       },
+       {
+        "text": "$(2, 7)$ and $(2, 9)$ give two different outputs for the same input."
+       },
+       {
+        "tex": "x &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "fn-exp-model",
+   "title": "Fit an exponential model to data",
+   "level": "HL",
+   "input": "A·e^(kt) or a·bˣ + two data points",
+   "output": "A, k (or a, b); prediction"
+  },
+  "candidates": [
+   {
+    "part": "practice-fn-exp-model-1",
+    "level": "higher",
+    "year": null,
+    "question": "A radioactive sample has a mass of $80$ g at time $t = 0$.\nAfter $5$ hours its mass is $20$ g.\nThe mass $m$ grams at time $t$ hours is modelled by $m = 80e^{kt}$.\nFind the exact value of $k$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Substitute t = 5 and m = 20",
+      "lines": [
+       {
+        "tex": "20 &= 80e^{5k}"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the exponential",
+      "lines": [
+       {
+        "tex": "e^{5k} &= \\frac{20}{80}"
+       },
+       {
+        "tex": "e^{5k} &= \\frac14"
+       }
+      ]
+     },
+     {
+      "title": "Take natural logs of both sides",
+      "lines": [
+       {
+        "tex": "5k &= \\ln\\left(\\tfrac14\\right)"
+       },
+       {
+        "tex": "5k &= -\\ln 4"
+       },
+       {
+        "tex": "k &= -\\frac{\\ln 4}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Check with a decimal",
+      "lines": [
+       {
+        "tex": "k &\\approx -0.277"
+       },
+       {
+        "text": "$k$ is negative, as the mass is decreasing."
+       }
+      ]
+     }
+    ],
+    "final": "k = -\\frac{\\ln 4}{5} \\approx -0.277"
+   },
+   {
+    "part": "practice-fn-exp-model-2",
+    "level": "higher",
+    "year": null,
+    "question": "The value $V$ of a machine, in euro, $t$ years after it was bought is modelled by $V = a \\cdot b^{t}$, where $a$ and $b$ are positive constants.\nThe machine was worth $\\text{€}20\\,000$ after $1$ year and $\\text{€}12\\,800$ after $3$ years.\nFind the value of $a$ and the value of $b$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Write an equation for each data point",
+      "lines": [
+       {
+        "tex": "ab &= 20000"
+       },
+       {
+        "tex": "ab^3 &= 12800"
+       }
+      ]
+     },
+     {
+      "title": "Divide the second equation by the first",
+      "lines": [
+       {
+        "tex": "\\frac{ab^3}{ab} &= \\frac{12800}{20000}"
+       },
+       {
+        "tex": "b^2 &= 0.64"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "tex": "b &= 0.8"
+       }
+      ]
+     },
+     {
+      "title": "Substitute b into the first equation",
+      "lines": [
+       {
+        "tex": "a(0.8) &= 20000"
+       },
+       {
+        "tex": "a &= \\frac{20000}{0.8}"
+       },
+       {
+        "tex": "a &= 25000"
+       }
+      ]
+     }
+    ],
+    "final": "a = 25\\,000, \\quad b = 0.8"
+   },
+   {
+    "part": "maths-pp-2023-ordinary-p1-q9#(b)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute t = 14 and K = 21309",
+      "lines": [
+       {
+        "tex": "21309 &= a \\times 0.83^{14}"
+       }
+      ]
+     },
+     {
+      "title": "Divide by 0.83^14",
+      "lines": [
+       {
+        "tex": "a &= \\frac{21309}{0.83^{14}}"
+       },
+       {
+        "tex": "a &\\approx 289380.84"
+       }
+      ]
+     },
+     {
+      "title": "Write in the form b × 10^n",
+      "lines": [
+       {
+        "tex": "a &\\approx 2.89 \\times 10^{5}"
+       }
+      ]
+     }
+    ],
+    "final": "a = 2.89 \\times 10^{5}"
+   }
+  ]
+ }
+]

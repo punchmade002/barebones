@@ -1,0 +1,739 @@
+[
+ {
+  "skill": "trig-derive-3",
+  "problems": [
+   {
+    "question": "In triangle $ABC$, let $a = |BC|$, $b = |CA|$ and $c = |AB|$. The angle $A$ is acute. $D$ is the foot of the perpendicular from $C$ to $AB$, and $D$ lies between $A$ and $B$.\nProve that $a^2 = b^2 + c^2 - 2bc\\cos A$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $CD$ and $AD$ in triangle $ACD$",
+       "lines": [
+        {
+         "text": "Triangle $ACD$ is right-angled at $D$ and its hypotenuse is $AC = b$."
+        },
+        {
+         "tex": "AD &= b\\cos A",
+         "sym": "Eq(AD, b*cos(A))",
+         "new": true
+        },
+        {
+         "tex": "CD &= b\\sin A",
+         "sym": "Eq(CD, b*sin(A))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find $DB$",
+       "lines": [
+        {
+         "text": "$D$ lies between $A$ and $B$, so $DB = AB - AD$."
+        },
+        {
+         "tex": "DB &= c - b\\cos A",
+         "sym": "Eq(DB, c - b*cos(A))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply Pythagoras in triangle $BDC$",
+       "lines": [
+        {
+         "tex": "a^2 &= CD^2 + DB^2",
+         "sym": "Eq(a**2, CD**2 + DB**2)",
+         "new": true
+        },
+        {
+         "tex": "&= (b\\sin A)^2 + (c - b\\cos A)^2",
+         "sym": "Eq(a**2, (b*sin(A))**2 + (c - b*cos(A))**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Expand the brackets",
+       "lines": [
+        {
+         "tex": "a^2 &= b^2\\sin^2 A + c^2 - 2bc\\cos A + b^2\\cos^2 A",
+         "sym": "Eq(a**2, b**2*sin(A)**2 + c**2 - 2*b*c*cos(A) + b**2*cos(A)**2)"
+        },
+        {
+         "tex": "&= b^2(\\sin^2 A + \\cos^2 A) + c^2 - 2bc\\cos A",
+         "sym": "Eq(a**2, b**2*(sin(A)**2 + cos(A)**2) + c**2 - 2*b*c*cos(A))"
+        }
+       ]
+      },
+      {
+       "title": "Use $\\cos^2 A + \\sin^2 A = 1$",
+       "lines": [
+        {
+         "tex": "a^2 &= b^2 + c^2 - 2bc\\cos A",
+         "sym": "Eq(a**2, b**2 + c**2 - 2*b*c*cos(A))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a^2 = b^2 + c^2 - 2bc\\cos A"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify((c - b*cos(A))**2 + (0 - b*sin(A))**2 - (b**2 + c**2 - 2*b*c*cos(A)))"
+   },
+   {
+    "question": "In triangle $ABC$, let $a = |BC|$, $b = |CA|$ and $c = |AB|$. The angle $C$ is acute. $D$ is the foot of the perpendicular from $A$ to $BC$, and $D$ lies between $B$ and $C$.\nProve that $c^2 = a^2 + b^2 - 2ab\\cos C$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $AD$ and $CD$ in triangle $ACD$",
+       "lines": [
+        {
+         "text": "Triangle $ACD$ is right-angled at $D$ and its hypotenuse is $AC = b$."
+        },
+        {
+         "tex": "CD &= b\\cos C",
+         "sym": "Eq(CD, b*cos(C))",
+         "new": true
+        },
+        {
+         "tex": "AD &= b\\sin C",
+         "sym": "Eq(AD, b*sin(C))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find $DB$",
+       "lines": [
+        {
+         "text": "$D$ lies between $B$ and $C$, so $DB = BC - CD$."
+        },
+        {
+         "tex": "DB &= a - b\\cos C",
+         "sym": "Eq(DB, a - b*cos(C))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply Pythagoras in triangle $ABD$",
+       "lines": [
+        {
+         "tex": "c^2 &= AD^2 + DB^2",
+         "sym": "Eq(c**2, AD**2 + DB**2)",
+         "new": true
+        },
+        {
+         "tex": "&= (b\\sin C)^2 + (a - b\\cos C)^2",
+         "sym": "Eq(c**2, (b*sin(C))**2 + (a - b*cos(C))**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Expand the brackets",
+       "lines": [
+        {
+         "tex": "c^2 &= b^2\\sin^2 C + a^2 - 2ab\\cos C + b^2\\cos^2 C",
+         "sym": "Eq(c**2, b**2*sin(C)**2 + a**2 - 2*a*b*cos(C) + b**2*cos(C)**2)"
+        },
+        {
+         "tex": "&= b^2(\\sin^2 C + \\cos^2 C) + a^2 - 2ab\\cos C",
+         "sym": "Eq(c**2, b**2*(sin(C)**2 + cos(C)**2) + a**2 - 2*a*b*cos(C))"
+        }
+       ]
+      },
+      {
+       "title": "Use $\\cos^2 C + \\sin^2 C = 1$",
+       "lines": [
+        {
+         "tex": "c^2 &= a^2 + b^2 - 2ab\\cos C",
+         "sym": "Eq(c**2, a**2 + b**2 - 2*a*b*cos(C))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "c^2 = a^2 + b^2 - 2ab\\cos C"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify((a - b*cos(C))**2 + (0 - b*sin(C))**2 - (a**2 + b**2 - 2*a*b*cos(C)))"
+   },
+   {
+    "question": "In triangle $ABC$, let $a = |BC|$, $b = |CA|$ and $c = |AB|$. The angle $A$ is obtuse. $D$ is the foot of the perpendicular from $C$ to the line $BA$ extended, so that $A$ lies between $B$ and $D$.\nProve that $a^2 = b^2 + c^2 - 2bc\\cos A$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $AD$ and $CD$ in triangle $ACD$",
+       "lines": [
+        {
+         "text": "$\\angle CAD = 180^\\circ - A$, and triangle $ACD$ is right-angled at $D$ with hypotenuse $AC = b$."
+        },
+        {
+         "tex": "AD &= b\\cos(180^\\circ - A) = -b\\cos A",
+         "sym": "Eq(AD, b*cos(pi - A))",
+         "new": true
+        },
+        {
+         "tex": "CD &= b\\sin(180^\\circ - A) = b\\sin A",
+         "sym": "Eq(CD, b*sin(pi - A))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find $BD$",
+       "lines": [
+        {
+         "text": "$A$ lies between $B$ and $D$, so $BD = AB + AD$."
+        },
+        {
+         "tex": "BD &= c - b\\cos A",
+         "sym": "Eq(BD, c + (-b*cos(A)))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply Pythagoras in triangle $BDC$",
+       "lines": [
+        {
+         "tex": "a^2 &= CD^2 + BD^2",
+         "sym": "Eq(a**2, CD**2 + BD**2)",
+         "new": true
+        },
+        {
+         "tex": "&= (b\\sin A)^2 + (c - b\\cos A)^2",
+         "sym": "Eq(a**2, (b*sin(A))**2 + (c - b*cos(A))**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Expand and simplify",
+       "lines": [
+        {
+         "tex": "a^2 &= b^2\\sin^2 A + c^2 - 2bc\\cos A + b^2\\cos^2 A",
+         "sym": "Eq(a**2, b**2*sin(A)**2 + c**2 - 2*b*c*cos(A) + b**2*cos(A)**2)"
+        },
+        {
+         "tex": "&= b^2(\\sin^2 A + \\cos^2 A) + c^2 - 2bc\\cos A",
+         "sym": "Eq(a**2, b**2*(sin(A)**2 + cos(A)**2) + c**2 - 2*b*c*cos(A))"
+        },
+        {
+         "tex": "&= b^2 + c^2 - 2bc\\cos A",
+         "sym": "Eq(a**2, b**2 + c**2 - 2*b*c*cos(A))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a^2 = b^2 + c^2 - 2bc\\cos A"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify((c + b*cos(pi - A))**2 + (b*sin(pi - A))**2 - (b**2 + c**2 - 2*b*c*cos(A)))"
+   }
+  ]
+ },
+ {
+  "skill": "trig-prove-identity",
+  "problems": [
+   {
+    "question": "Prove that $\\dfrac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} = \\tan 2A$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Sum-to-product on the numerator",
+       "lines": [
+        {
+         "tex": "\\sin 3A + \\sin A &= 2\\sin\\left(\\frac{3A + A}{2}\\right)\\cos\\left(\\frac{3A - A}{2}\\right)",
+         "sym": "Eq(sin(3*A) + sin(A), 2*sin((3*A + A)/2)*cos((3*A - A)/2))",
+         "new": true
+        },
+        {
+         "tex": "&= 2\\sin 2A\\cos A",
+         "sym": "Eq(sin(3*A) + sin(A), 2*sin(2*A)*cos(A))"
+        }
+       ]
+      },
+      {
+       "title": "Sum-to-product on the denominator",
+       "lines": [
+        {
+         "tex": "\\cos 3A + \\cos A &= 2\\cos\\left(\\frac{3A + A}{2}\\right)\\cos\\left(\\frac{3A - A}{2}\\right)",
+         "sym": "Eq(cos(3*A) + cos(A), 2*cos((3*A + A)/2)*cos((3*A - A)/2))",
+         "new": true
+        },
+        {
+         "tex": "&= 2\\cos 2A\\cos A",
+         "sym": "Eq(cos(3*A) + cos(A), 2*cos(2*A)*cos(A))"
+        }
+       ]
+      },
+      {
+       "title": "Divide and cancel",
+       "lines": [
+        {
+         "tex": "\\frac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} &= \\frac{2\\sin 2A\\cos A}{2\\cos 2A\\cos A}",
+         "sym": "Eq((sin(3*A) + sin(A))/(cos(3*A) + cos(A)), (2*sin(2*A)*cos(A))/(2*cos(2*A)*cos(A)))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{\\sin 2A}{\\cos 2A}",
+         "sym": "Eq((sin(3*A) + sin(A))/(cos(3*A) + cos(A)), sin(2*A)/cos(2*A))"
+        }
+       ]
+      },
+      {
+       "title": "Write as a tangent",
+       "lines": [
+        {
+         "tex": "&= \\tan 2A",
+         "sym": "Eq((sin(3*A) + sin(A))/(cos(3*A) + cos(A)), tan(2*A))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\dfrac{\\sin 3A + \\sin A}{\\cos 3A + \\cos A} = \\tan 2A"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify((sin(3*A) + sin(A))/(cos(3*A) + cos(A)) - tan(2*A))"
+   },
+   {
+    "question": "Prove that $\\dfrac{1 - \\tan^2 A}{1 + \\tan^2 A} = \\cos 2A$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write $\\tan A$ as $\\frac{\\sin A}{\\cos A}$",
+       "lines": [
+        {
+         "tex": "\\frac{1 - \\tan^2 A}{1 + \\tan^2 A} &= \\frac{1 - \\dfrac{\\sin^2 A}{\\cos^2 A}}{1 + \\dfrac{\\sin^2 A}{\\cos^2 A}}",
+         "sym": "Eq((1 - tan(A)**2)/(1 + tan(A)**2), (1 - sin(A)**2/cos(A)**2)/(1 + sin(A)**2/cos(A)**2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Multiply top and bottom by $\\cos^2 A$",
+       "lines": [
+        {
+         "tex": "&= \\frac{\\cos^2 A - \\sin^2 A}{\\cos^2 A + \\sin^2 A}",
+         "sym": "Eq((1 - tan(A)**2)/(1 + tan(A)**2), (cos(A)**2 - sin(A)**2)/(cos(A)**2 + sin(A)**2))"
+        }
+       ]
+      },
+      {
+       "title": "Use $\\cos^2 A + \\sin^2 A = 1$",
+       "lines": [
+        {
+         "tex": "&= \\cos^2 A - \\sin^2 A",
+         "sym": "Eq((1 - tan(A)**2)/(1 + tan(A)**2), cos(A)**2 - sin(A)**2)"
+        }
+       ]
+      },
+      {
+       "title": "Use the double angle formula",
+       "lines": [
+        {
+         "text": "$\\cos 2A = \\cos^2 A - \\sin^2 A$."
+        },
+        {
+         "tex": "&= \\cos 2A",
+         "sym": "Eq((1 - tan(A)**2)/(1 + tan(A)**2), cos(2*A))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\dfrac{1 - \\tan^2 A}{1 + \\tan^2 A} = \\cos 2A"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify((1 - tan(A)**2)/(1 + tan(A)**2) - cos(2*A))"
+   }
+  ]
+ },
+ {
+  "skill": "trig-derive-4",
+  "problems": [
+   {
+    "question": "$P$ and $Q$ are the points $(\\cos A, \\sin A)$ and $(\\cos B, \\sin B)$ on the unit circle with centre $O$, where $A > B$, so that $\\angle POQ = A - B$.\nFind $|PQ|^2$ by the distance formula, then by the cosine rule in triangle $OPQ$, and so prove that $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Distance formula",
+       "lines": [
+        {
+         "tex": "|PQ|^2 &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2",
+         "sym": "Eq(PQ2, (cos(A) - cos(B))**2 + (sin(A) - sin(B))**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Expand and group",
+       "lines": [
+        {
+         "tex": "|PQ|^2 &= \\cos^2 A - 2\\cos A\\cos B + \\cos^2 B + \\sin^2 A - 2\\sin A\\sin B + \\sin^2 B",
+         "sym": "Eq(PQ2, cos(A)**2 - 2*cos(A)*cos(B) + cos(B)**2 + sin(A)**2 - 2*sin(A)*sin(B) + sin(B)**2)"
+        },
+        {
+         "tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2(\\cos A\\cos B + \\sin A\\sin B)",
+         "sym": "Eq(PQ2, (cos(A)**2 + sin(A)**2) + (cos(B)**2 + sin(B)**2) - 2*(cos(A)*cos(B) + sin(A)*sin(B)))"
+        },
+        {
+         "tex": "&= 2 - 2(\\cos A\\cos B + \\sin A\\sin B)",
+         "sym": "Eq(PQ2, 2 - 2*(cos(A)*cos(B) + sin(A)*sin(B)))"
+        }
+       ]
+      },
+      {
+       "title": "Cosine rule in triangle $OPQ$",
+       "lines": [
+        {
+         "text": "$|OP| = |OQ| = 1$ and $\\angle POQ = A - B$."
+        },
+        {
+         "tex": "|PQ|^2 &= 1^2 + 1^2 - 2(1)(1)\\cos(A - B)",
+         "sym": "Eq(PQ2, 1**2 + 1**2 - 2*1*1*cos(A - B))",
+         "new": true
+        },
+        {
+         "tex": "&= 2 - 2\\cos(A - B)",
+         "sym": "Eq(PQ2, 2 - 2*cos(A - B))"
+        }
+       ]
+      },
+      {
+       "title": "Equate the two results",
+       "lines": [
+        {
+         "tex": "2 - 2\\cos(A - B) &= 2 - 2(\\cos A\\cos B + \\sin A\\sin B)",
+         "sym": "Eq(2 - 2*cos(A - B), 2 - 2*(cos(A)*cos(B) + sin(A)*sin(B)))",
+         "new": true
+        },
+        {
+         "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B",
+         "sym": "Eq(cos(A - B), cos(A)*cos(B) + sin(A)*sin(B))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(cos(A - B)) - (cos(A)*cos(B) + sin(A)*sin(B)))"
+   },
+   {
+    "question": "On the unit circle with centre $O$, let $P = (\\cos A, \\sin A)$, $Q = (\\cos B, \\sin B)$, $R = (1, 0)$ and $S = (\\cos(A - B), \\sin(A - B))$, where $A > B$. The chords $[PQ]$ and $[RS]$ are equal in length, because each subtends an angle $A - B$ at $O$.\nUse this to prove that $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $|RS|^2$",
+       "lines": [
+        {
+         "tex": "|RS|^2 &= (\\cos(A - B) - 1)^2 + (\\sin(A - B) - 0)^2",
+         "sym": "Eq(RS2, (cos(A - B) - 1)**2 + (sin(A - B) - 0)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\cos^2(A - B) - 2\\cos(A - B) + 1 + \\sin^2(A - B)",
+         "sym": "Eq(RS2, cos(A - B)**2 - 2*cos(A - B) + 1 + sin(A - B)**2)"
+        },
+        {
+         "tex": "&= 2 - 2\\cos(A - B)",
+         "sym": "Eq(RS2, 2 - 2*cos(A - B))"
+        }
+       ]
+      },
+      {
+       "title": "Find $|PQ|^2$",
+       "lines": [
+        {
+         "tex": "|PQ|^2 &= (\\cos A - \\cos B)^2 + (\\sin A - \\sin B)^2",
+         "sym": "Eq(PQ2, (cos(A) - cos(B))**2 + (sin(A) - sin(B))**2)",
+         "new": true
+        },
+        {
+         "tex": "&= (\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2\\cos A\\cos B - 2\\sin A\\sin B",
+         "sym": "Eq(PQ2, (cos(A)**2 + sin(A)**2) + (cos(B)**2 + sin(B)**2) - 2*cos(A)*cos(B) - 2*sin(A)*sin(B))"
+        },
+        {
+         "tex": "&= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B",
+         "sym": "Eq(PQ2, 2 - 2*cos(A)*cos(B) - 2*sin(A)*sin(B))"
+        }
+       ]
+      },
+      {
+       "title": "Equate the squared lengths",
+       "lines": [
+        {
+         "tex": "2 - 2\\cos(A - B) &= 2 - 2\\cos A\\cos B - 2\\sin A\\sin B",
+         "sym": "Eq(2 - 2*cos(A - B), 2 - 2*cos(A)*cos(B) - 2*sin(A)*sin(B))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Solve for $\\cos(A - B)$",
+       "lines": [
+        {
+         "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B",
+         "sym": "Eq(cos(A - B), cos(A)*cos(B) + sin(A)*sin(B))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(cos(A - B)) - (cos(A)*cos(B) + sin(A)*sin(B)))"
+   },
+   {
+    "question": "$P$ and $Q$ are the points $(r\\cos A, r\\sin A)$ and $(r\\cos B, r\\sin B)$ on a circle of radius $r$ with centre $O$, where $A > B$, so that $\\angle POQ = A - B$.\nFind $|PQ|^2$ by the distance formula and by the cosine rule, and so prove that $\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Distance formula",
+       "lines": [
+        {
+         "tex": "|PQ|^2 &= (r\\cos A - r\\cos B)^2 + (r\\sin A - r\\sin B)^2",
+         "sym": "Eq(PQ2, (r*cos(A) - r*cos(B))**2 + (r*sin(A) - r*sin(B))**2)",
+         "new": true
+        },
+        {
+         "tex": "&= r^2\\left[(\\cos^2 A + \\sin^2 A) + (\\cos^2 B + \\sin^2 B) - 2(\\cos A\\cos B + \\sin A\\sin B)\\right]",
+         "sym": "Eq(PQ2, r**2*((cos(A)**2 + sin(A)**2) + (cos(B)**2 + sin(B)**2) - 2*(cos(A)*cos(B) + sin(A)*sin(B))))"
+        },
+        {
+         "tex": "&= r^2\\left[2 - 2(\\cos A\\cos B + \\sin A\\sin B)\\right]",
+         "sym": "Eq(PQ2, r**2*(2 - 2*(cos(A)*cos(B) + sin(A)*sin(B))))"
+        }
+       ]
+      },
+      {
+       "title": "Cosine rule in triangle $OPQ$",
+       "lines": [
+        {
+         "text": "$|OP| = |OQ| = r$ and $\\angle POQ = A - B$."
+        },
+        {
+         "tex": "|PQ|^2 &= r^2 + r^2 - 2r^2\\cos(A - B)",
+         "sym": "Eq(PQ2, r**2 + r**2 - 2*r**2*cos(A - B))",
+         "new": true
+        },
+        {
+         "tex": "&= r^2\\left[2 - 2\\cos(A - B)\\right]",
+         "sym": "Eq(PQ2, r**2*(2 - 2*cos(A - B)))"
+        }
+       ]
+      },
+      {
+       "title": "Equate and cancel $r^2$",
+       "lines": [
+        {
+         "tex": "r^2\\left[2 - 2\\cos(A - B)\\right] &= r^2\\left[2 - 2(\\cos A\\cos B + \\sin A\\sin B)\\right]",
+         "sym": "Eq(r**2*(2 - 2*cos(A - B)), r**2*(2 - 2*(cos(A)*cos(B) + sin(A)*sin(B))))",
+         "new": true
+        },
+        {
+         "tex": "\\cos(A - B) &= \\cos A\\cos B + \\sin A\\sin B",
+         "sym": "Eq(cos(A - B), cos(A)*cos(B) + sin(A)*sin(B))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos(A - B) = \\cos A\\cos B + \\sin A\\sin B"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(cos(A - B)) - (cos(A)*cos(B) + sin(A)*sin(B)))"
+   }
+  ]
+ },
+ {
+  "skill": "trig-derive-5",
+  "problems": [
+   {
+    "question": "Given that $\\cos(X - Y) = \\cos X\\cos Y + \\sin X\\sin Y$ for all angles $X$ and $Y$, and that $\\cos(-\\theta) = \\cos\\theta$ and $\\sin(-\\theta) = -\\sin\\theta$, prove that $\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write $A + B$ as a difference",
+       "lines": [
+        {
+         "tex": "\\cos(A + B) &= \\cos\\big(A - (-B)\\big)",
+         "sym": "Eq(cos(A + B), cos(A - (-B)))"
+        }
+       ]
+      },
+      {
+       "title": "Use the formula for $\\cos(X - Y)$",
+       "lines": [
+        {
+         "text": "Take $X = A$ and $Y = -B$."
+        },
+        {
+         "tex": "&= \\cos A\\cos(-B) + \\sin A\\sin(-B)",
+         "sym": "Eq(cos(A + B), cos(A)*cos(-B) + sin(A)*sin(-B))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use $\\cos(-B)$ and $\\sin(-B)$",
+       "lines": [
+        {
+         "tex": "&= \\cos A\\cos B + \\sin A(-\\sin B)",
+         "sym": "Eq(cos(A + B), cos(A)*cos(B) + sin(A)*(-sin(B)))"
+        },
+        {
+         "tex": "&= \\cos A\\cos B - \\sin A\\sin B",
+         "sym": "Eq(cos(A + B), cos(A)*cos(B) - sin(A)*sin(B))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(cos(A + B)) - (cos(A)*cos(B) - sin(A)*sin(B)))"
+   },
+   {
+    "question": "Given that $\\cos(X - Y) = \\cos X\\cos Y + \\sin X\\sin Y$ for all angles $X$ and $Y$, prove that $\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B$.\nYou may use that reflecting the point $(\\cos\\theta, \\sin\\theta)$ on the unit circle in the $x$-axis gives the point $(\\cos(-\\theta), \\sin(-\\theta))$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $\\cos(-B)$ and $\\sin(-B)$",
+       "lines": [
+        {
+         "text": "The reflection keeps the $x$-coordinate and changes the sign of the $y$-coordinate."
+        },
+        {
+         "tex": "\\cos(-B) &= \\cos B",
+         "sym": "Eq(cos(-B), cos(B))",
+         "new": true
+        },
+        {
+         "tex": "\\sin(-B) &= -\\sin B",
+         "sym": "Eq(sin(-B), -sin(B))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write $A + B$ as a difference",
+       "lines": [
+        {
+         "tex": "A + B &= A - (-B)",
+         "sym": "Eq(A + B, A - (-B))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply the formula for $\\cos(X - Y)$",
+       "lines": [
+        {
+         "text": "Take $X = A$ and $Y = -B$."
+        },
+        {
+         "tex": "\\cos(A + B) &= \\cos A\\cos(-B) + \\sin A\\sin(-B)",
+         "sym": "Eq(cos(A + B), cos(A)*cos(-B) + sin(A)*sin(-B))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute for $\\cos(-B)$ and $\\sin(-B)$",
+       "lines": [
+        {
+         "tex": "&= \\cos A(\\cos B) + \\sin A(-\\sin B)",
+         "sym": "Eq(cos(A + B), cos(A)*cos(B) + sin(A)*(-sin(B)))"
+        },
+        {
+         "tex": "&= \\cos A\\cos B - \\sin A\\sin B",
+         "sym": "Eq(cos(A + B), cos(A)*cos(B) - sin(A)*sin(B))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos(A + B) = \\cos A\\cos B - \\sin A\\sin B"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(cos(A + B)) - (cos(A)*cos(B) - sin(A)*sin(B)))"
+   },
+   {
+    "question": "Given that $\\cos(X - Y) = \\cos X\\cos Y + \\sin X\\sin Y$ for all angles $X$ and $Y$, prove that $\\cos(P + Q) = \\cos P\\cos Q - \\sin P\\sin Q$, using $\\cos(-\\theta) = \\cos\\theta$ and $\\sin(-\\theta) = -\\sin\\theta$.\nThen check the result for $P = 60^\\circ$ and $Q = 30^\\circ$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write $P + Q$ as a difference and apply the formula",
+       "lines": [
+        {
+         "tex": "\\cos(P + Q) &= \\cos\\big(P - (-Q)\\big)",
+         "sym": "Eq(cos(P + Q), cos(P - (-Q)))"
+        },
+        {
+         "tex": "&= \\cos P\\cos(-Q) + \\sin P\\sin(-Q)",
+         "sym": "Eq(cos(P + Q), cos(P)*cos(-Q) + sin(P)*sin(-Q))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use $\\cos(-Q) = \\cos Q$ and $\\sin(-Q) = -\\sin Q$",
+       "lines": [
+        {
+         "tex": "&= \\cos P\\cos Q - \\sin P\\sin Q",
+         "sym": "Eq(cos(P + Q), cos(P)*cos(Q) - sin(P)*sin(Q))"
+        }
+       ]
+      },
+      {
+       "title": "Check with $P = 60^\\circ$, $Q = 30^\\circ$",
+       "lines": [
+        {
+         "tex": "\\cos 90^\\circ &= 0",
+         "sym": "Eq(cos(pi/2), 0)",
+         "new": true
+        },
+        {
+         "tex": "\\cos 60^\\circ\\cos 30^\\circ - \\sin 60^\\circ\\sin 30^\\circ &= \\frac12\\cdot\\frac{\\sqrt3}{2} - \\frac{\\sqrt3}{2}\\cdot\\frac12 = 0",
+         "sym": "Eq(cos(pi/3)*cos(pi/6) - sin(pi/3)*sin(pi/6), 0)",
+         "new": true
+        },
+        {
+         "text": "Both sides equal $0$, so the formula checks out."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\cos(P + Q) = \\cos P\\cos Q - \\sin P\\sin Q"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand_trig(cos(P + Q)) - (cos(P)*cos(Q) - sin(P)*sin(Q)))"
+   }
+  ]
+ }
+]

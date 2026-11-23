@@ -1,0 +1,673 @@
+[
+ {
+  "skill": {
+   "id": "alg-factor-grouping",
+   "title": "Factorise by grouping",
+   "level": "JC",
+   "input": "four-term expression",
+   "output": "product of two brackets"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-factor-grouping-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Factorise $3ax + 6a + bx + 2b$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise the first pair and the second pair",
+      "lines": [
+       {
+        "tex": "3ax + 6a + bx + 2b &= 3a(x + 2) + b(x + 2)"
+       }
+      ]
+     },
+     {
+      "title": "Take out the common bracket",
+      "lines": [
+       {
+        "tex": "&= (3a + b)(x + 2)"
+       }
+      ]
+     }
+    ],
+    "final": "(3a + b)(x + 2)"
+   },
+   {
+    "part": "practice-alg-factor-grouping-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Factorise $2xy - 6x - y + 3$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Take $2x$ out of the first pair and $-1$ out of the second",
+      "lines": [
+       {
+        "tex": "2xy - 6x - y + 3 &= 2x(y - 3) - 1(y - 3)"
+       }
+      ]
+     },
+     {
+      "title": "Take out the common bracket",
+      "lines": [
+       {
+        "tex": "&= (2x - 1)(y - 3)"
+       }
+      ]
+     }
+    ],
+    "final": "(2x - 1)(y - 3)"
+   },
+   {
+    "part": "maths-pp-2019-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Group the terms in pairs",
+      "lines": [
+       {
+        "tex": "3xy - 9x + 4y - 12 &= (3xy - 9x) + (4y - 12)"
+       }
+      ]
+     },
+     {
+      "title": "Take out the common factor of each pair",
+      "lines": [
+       {
+        "tex": "&= 3x(y-3) + 4(y-3)"
+       }
+      ]
+     },
+     {
+      "title": "Take out the common bracket",
+      "lines": [
+       {
+        "tex": "&= (3x+4)(y-3)"
+       }
+      ]
+     }
+    ],
+    "final": "(3x+4)(y-3)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-factor-hcf",
+   "title": "Factorise by highest common factor",
+   "level": "JC",
+   "input": "expression",
+   "output": "factor × bracket"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-factor-hcf-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Factorise $12x^2y - 18xy^2$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the highest common factor",
+      "lines": [
+       {
+        "text": "The HCF of 12 and 18 is $6$. Both terms contain $x$ and $y$ at least once, so the HCF is $6xy$."
+       }
+      ]
+     },
+     {
+      "title": "Write each term as the HCF times something",
+      "lines": [
+       {
+        "tex": "12x^2y - 18xy^2 &= 6xy\\cdot 2x - 6xy\\cdot 3y"
+       }
+      ]
+     },
+     {
+      "title": "Take the HCF outside a bracket",
+      "lines": [
+       {
+        "tex": "&= 6xy(2x - 3y)"
+       }
+      ]
+     }
+    ],
+    "final": "6xy(2x - 3y)"
+   },
+   {
+    "part": "practice-alg-factor-hcf-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Factorise $8a^3 - 12a^2 + 4a$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the highest common factor",
+      "lines": [
+       {
+        "text": "The HCF of 8, 12 and 4 is $4$, and every term contains $a$, so the HCF is $4a$."
+       }
+      ]
+     },
+     {
+      "title": "Write each term as the HCF times something",
+      "lines": [
+       {
+        "tex": "8a^3 - 12a^2 + 4a &= 4a\\cdot 2a^2 - 4a\\cdot 3a + 4a\\cdot 1"
+       }
+      ]
+     },
+     {
+      "title": "Take the HCF outside a bracket",
+      "lines": [
+       {
+        "tex": "&= 4a(2a^2 - 3a + 1)"
+       }
+      ]
+     }
+    ],
+    "final": "4a(2a^2 - 3a + 1)"
+   },
+   {
+    "part": "practice-alg-factor-hcf-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "The total surface area of a closed cylinder with radius $r$ and height $h$ is given by $A = 2\\pi r^2 + 2\\pi rh$.\nWrite the right-hand side as a product of $2\\pi r$ and a bracket.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the highest common factor",
+      "lines": [
+       {
+        "text": "Both terms contain $2\\pi r$, so the HCF is $2\\pi r$."
+       }
+      ]
+     },
+     {
+      "title": "Write each term as the HCF times something",
+      "lines": [
+       {
+        "tex": "A &= 2\\pi r\\cdot r + 2\\pi r\\cdot h"
+       }
+      ]
+     },
+     {
+      "title": "Take the HCF outside a bracket",
+      "lines": [
+       {
+        "tex": "&= 2\\pi r(r + h)"
+       }
+      ]
+     }
+    ],
+    "final": "A = 2\\pi r(r + h)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-factor-quadratic",
+   "title": "Factorise a quadratic trinomial",
+   "level": "OL",
+   "input": "ax² + bx + c",
+   "output": "(px + q)(rx + s)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2025-ordinary-p1-q3#(c)(i), (ii)",
+    "level": "ordinary",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Choose k and t with k × t = 12",
+      "lines": [
+       {
+        "text": "Pick a factor pair of 12, for example 6 and 2."
+       },
+       {
+        "tex": "6 \\times 2 &= 12"
+       },
+       {
+        "text": "So $k = 6$ and $t = 2$."
+       }
+      ]
+     },
+     {
+      "title": "Expand (x + 6)(x + 2)",
+      "lines": [
+       {
+        "tex": "(x + 6)(x + 2) &= x^2 + 2x + 6x + 12"
+       },
+       {
+        "tex": "&= x^2 + 8x + 12"
+       }
+      ]
+     },
+     {
+      "title": "Compare with x² + bx + 12",
+      "lines": [
+       {
+        "text": "The coefficient of $x$ is $8$, so $b = 8$."
+       },
+       {
+        "tex": "b &= 8"
+       }
+      ]
+     }
+    ],
+    "final": "k = 6,\\; t = 2,\\; b = 8"
+   },
+   {
+    "part": "practice-alg-factor-quadratic-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Factorise $3x^2 - 10x + 8$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find two numbers with product $3 \\times 8 = 24$ and sum $-10$",
+      "lines": [
+       {
+        "text": "The numbers are $-4$ and $-6$."
+       }
+      ]
+     },
+     {
+      "title": "Split the middle term",
+      "lines": [
+       {
+        "tex": "3x^2 - 10x + 8 &= 3x^2 - 6x - 4x + 8"
+       }
+      ]
+     },
+     {
+      "title": "Factorise by grouping",
+      "lines": [
+       {
+        "tex": "&= 3x(x - 2) - 4(x - 2)"
+       },
+       {
+        "tex": "&= (3x - 4)(x - 2)"
+       }
+      ]
+     }
+    ],
+    "final": "(3x - 4)(x - 2)"
+   },
+   {
+    "part": "practice-alg-factor-quadratic-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The area of a rectangle is $2x^2 + x - 15$.\nIts sides are two linear expressions in $x$.\nFactorise $2x^2 + x - 15$ to find them.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find two numbers with product $2 \\times (-15) = -30$ and sum $1$",
+      "lines": [
+       {
+        "text": "The numbers are $6$ and $-5$."
+       }
+      ]
+     },
+     {
+      "title": "Split the middle term",
+      "lines": [
+       {
+        "tex": "2x^2 + x - 15 &= 2x^2 + 6x - 5x - 15"
+       }
+      ]
+     },
+     {
+      "title": "Factorise by grouping",
+      "lines": [
+       {
+        "tex": "&= 2x(x + 3) - 5(x + 3)"
+       },
+       {
+        "tex": "&= (2x - 5)(x + 3)"
+       }
+      ]
+     }
+    ],
+    "final": "(2x - 5)(x + 3)"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-fractions-add",
+   "title": "Add/subtract algebraic fractions",
+   "level": "OL",
+   "input": "a/(bx+c) ± p/(qx+r)",
+   "output": "single fraction"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-fractions-add-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\frac{3}{x+2} + \\frac{4}{x-1}$ as a single fraction.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Find the common denominator",
+      "lines": [
+       {
+        "text": "The common denominator is $(x+2)(x-1)$."
+       },
+       {
+        "tex": "\\frac{3}{x+2} + \\frac{4}{x-1} &= \\frac{3(x-1)}{(x+2)(x-1)} + \\frac{4(x+2)}{(x+2)(x-1)}"
+       }
+      ]
+     },
+     {
+      "title": "Combine into one fraction",
+      "lines": [
+       {
+        "tex": "&= \\frac{3(x-1) + 4(x+2)}{(x+2)(x-1)}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the brackets in the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{3x - 3 + 4x + 8}{(x+2)(x-1)}"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= \\frac{7x + 5}{(x+2)(x-1)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{7x+5}{(x+2)(x-1)}"
+   },
+   {
+    "part": "practice-alg-fractions-add-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Write $\\frac{5}{2x+1} - \\frac{2}{x-3}$ as a single fraction.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the common denominator",
+      "lines": [
+       {
+        "text": "The common denominator is $(2x+1)(x-3)$."
+       },
+       {
+        "tex": "\\frac{5}{2x+1} - \\frac{2}{x-3} &= \\frac{5(x-3)}{(2x+1)(x-3)} - \\frac{2(2x+1)}{(2x+1)(x-3)}"
+       }
+      ]
+     },
+     {
+      "title": "Combine into one fraction",
+      "lines": [
+       {
+        "text": "Keep the minus sign in front of the whole second term."
+       },
+       {
+        "tex": "&= \\frac{5(x-3) - 2(2x+1)}{(2x+1)(x-3)}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the brackets in the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{5x - 15 - 4x - 2}{(2x+1)(x-3)}"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= \\frac{x - 17}{(2x+1)(x-3)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{x-17}{(2x+1)(x-3)}"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write both fractions over the common denominator",
+      "lines": [
+       {
+        "text": "The common denominator is $(2t+1)(12t)$."
+       },
+       {
+        "tex": "\\frac{4}{2t+1} - \\frac{7}{12t} &= \\frac{4(12t)}{(2t+1)(12t)} - \\frac{7(2t+1)}{(2t+1)(12t)}"
+       }
+      ]
+     },
+     {
+      "title": "Combine into one fraction",
+      "lines": [
+       {
+        "tex": "&= \\frac{4(12t) - 7(2t+1)}{(2t+1)(12t)}"
+       }
+      ]
+     },
+     {
+      "title": "Expand the brackets in the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{48t - 14t - 7}{(2t+1)(12t)}"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms in the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{34t - 7}{(2t+1)(12t)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{34t - 7}{(2t+1)(12t)}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-fractions-simplify",
+   "title": "Multiply, divide and simplify rational expressions",
+   "level": "HL",
+   "input": "rational algebraic expressions",
+   "output": "simplified fraction"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-fractions-simplify-1",
+    "level": "higher",
+    "year": null,
+    "question": "Write $\\frac{x}{x^2-4} - \\frac{1}{x+2}$ as a single fraction in its simplest form.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Factorise the first denominator",
+      "lines": [
+       {
+        "tex": "x^2 - 4 &= (x-2)(x+2)"
+       },
+       {
+        "text": "This is the common denominator, since $x+2$ is already a factor."
+       }
+      ]
+     },
+     {
+      "title": "Write both fractions over the common denominator",
+      "lines": [
+       {
+        "tex": "\\frac{x}{x^2-4} - \\frac{1}{x+2} &= \\frac{x}{(x-2)(x+2)} - \\frac{1\\cdot(x-2)}{(x+2)(x-2)}"
+       }
+      ]
+     },
+     {
+      "title": "Combine and simplify the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{x - (x-2)}{(x-2)(x+2)}"
+       },
+       {
+        "tex": "&= \\frac{x - x + 2}{(x-2)(x+2)}"
+       },
+       {
+        "tex": "&= \\frac{2}{(x-2)(x+2)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2}{(x-2)(x+2)}"
+   },
+   {
+    "part": "practice-alg-fractions-simplify-2",
+    "level": "higher",
+    "year": null,
+    "question": "Simplify $\\frac{x^2-x-6}{x^2-1} \\div \\frac{x^2-2x-3}{x^2+3x+2}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Turn the division into a multiplication",
+      "lines": [
+       {
+        "text": "Invert the second fraction."
+       },
+       {
+        "tex": "\\frac{x^2-x-6}{x^2-1} \\div \\frac{x^2-2x-3}{x^2+3x+2} &= \\frac{x^2-x-6}{x^2-1} \\times \\frac{x^2+3x+2}{x^2-2x-3}"
+       }
+      ]
+     },
+     {
+      "title": "Factorise every quadratic",
+      "lines": [
+       {
+        "tex": "x^2 - x - 6 &= (x-3)(x+2)"
+       },
+       {
+        "tex": "x^2 - 1 &= (x-1)(x+1)"
+       },
+       {
+        "tex": "x^2 + 3x + 2 &= (x+1)(x+2)"
+       },
+       {
+        "tex": "x^2 - 2x - 3 &= (x-3)(x+1)"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the factors",
+      "lines": [
+       {
+        "tex": "&= \\frac{(x-3)(x+2)}{(x-1)(x+1)} \\times \\frac{(x+1)(x+2)}{(x-3)(x+1)}"
+       }
+      ]
+     },
+     {
+      "title": "Cancel common factors",
+      "lines": [
+       {
+        "text": "Cancel $(x-3)$ and one $(x+1)$ from top and bottom."
+       },
+       {
+        "tex": "&= \\frac{(x+2)(x+2)}{(x-1)(x+1)}"
+       },
+       {
+        "tex": "&= \\frac{(x+2)^2}{(x-1)(x+1)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{(x+2)^2}{(x-1)(x+1)}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q10#(d)(ii)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Replace n by (t − 1)/2",
+      "lines": [
+       {
+        "tex": "Q(n) &= \\frac{(n+1)^2}{(2n+1)^2}"
+       },
+       {
+        "tex": "&= \\frac{\\left(\\frac{t-1}{2}+1\\right)^2}{\\left(2\\cdot\\frac{t-1}{2}+1\\right)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the numerator bracket",
+      "lines": [
+       {
+        "text": "Write $1$ as $\\frac{2}{2}$ and add."
+       },
+       {
+        "tex": "&= \\frac{\\left(\\frac{t-1+2}{2}\\right)^2}{\\left(2\\cdot\\frac{t-1}{2}+1\\right)^2}"
+       },
+       {
+        "tex": "&= \\frac{\\left(\\frac{t+1}{2}\\right)^2}{\\left(2\\cdot\\frac{t-1}{2}+1\\right)^2}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the denominator bracket",
+      "lines": [
+       {
+        "text": "The 2 cancels with the denominator 2."
+       },
+       {
+        "tex": "&= \\frac{\\left(\\frac{t+1}{2}\\right)^2}{(t-1+1)^2}"
+       },
+       {
+        "tex": "&= \\frac{\\left(\\frac{t+1}{2}\\right)^2}{t^2}"
+       }
+      ]
+     },
+     {
+      "title": "Square the fraction in the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{\\frac{(t+1)^2}{2^2}}{t^2}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{(t+1)^2}{4}}{t^2}"
+       },
+       {
+        "tex": "&= \\frac{(t+1)^2}{4t^2}"
+       }
+      ]
+     },
+     {
+      "title": "Expand the numerator",
+      "lines": [
+       {
+        "tex": "&= \\frac{t^2 + 2t + 1}{4t^2}"
+       }
+      ]
+     }
+    ],
+    "final": "Q(n) = \\frac{t^2 + 2t + 1}{4t^2}"
+   }
+  ]
+ }
+]

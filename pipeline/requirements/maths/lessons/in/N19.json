@@ -1,0 +1,681 @@
+[
+ {
+  "skill": {
+   "id": "int-trig",
+   "title": "Integrate sin ax and cos ax",
+   "level": "HL",
+   "input": "sin ax, cos ax",
+   "output": "−(1/a)cos ax + c, (1/a)sin ax + c"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2024-higher-p1-q3#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use the rule for integrating cos(ax)",
+      "lines": [
+       {
+        "text": "$\\int \\cos ax \\, dx = \\frac{1}{a}\\sin ax + C$. Here $a = 6$."
+       }
+      ]
+     },
+     {
+      "title": "Write the integral",
+      "lines": [
+       {
+        "tex": "\\int \\cos 6x \\, dx &= \\frac{1}{6}\\sin 6x + C"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{6}\\sin 6x + C"
+   },
+   {
+    "part": "practice-int-trig-1",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\int_0^{\\pi/6} \\sin 3x\\,dx$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate $\\sin 3x$",
+      "lines": [
+       {
+        "text": "$\\int \\sin ax\\,dx = -\\frac{1}{a}\\cos ax$, here $a = 3$."
+       },
+       {
+        "tex": "\\int_0^{\\pi/6} \\sin 3x\\,dx &= \\left[-\\tfrac{1}{3}\\cos 3x\\right]_0^{\\pi/6}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= -\\tfrac{1}{3}\\cos\\left(\\tfrac{\\pi}{2}\\right) + \\tfrac{1}{3}\\cos 0"
+       },
+       {
+        "tex": "&= 0 + \\tfrac{1}{3}"
+       },
+       {
+        "tex": "&= \\tfrac{1}{3}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{1}{3}"
+   },
+   {
+    "part": "practice-int-trig-2",
+    "level": "higher",
+    "year": null,
+    "question": "Evaluate $\\int_0^{\\pi/2} \\left(4\\cos 2x - \\sin x\\right)dx$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "text": "$\\int \\cos 2x\\,dx = \\frac{1}{2}\\sin 2x$ and $\\int \\sin x\\,dx = -\\cos x$."
+       },
+       {
+        "tex": "\\int_0^{\\pi/2} \\left(4\\cos 2x - \\sin x\\right)dx &= \\left[2\\sin 2x + \\cos x\\right]_0^{\\pi/2}"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\left(2\\sin\\pi + \\cos\\tfrac{\\pi}{2}\\right) - \\left(2\\sin 0 + \\cos 0\\right)"
+       },
+       {
+        "tex": "&= (0 + 0) - (0 + 1)"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     }
+    ],
+    "final": "-1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "int-trig-identity",
+   "title": "Integrate using a trig formula",
+   "level": "HL",
+   "input": "sin²x, cos²x, sin A cos B, …",
+   "output": "antiderivative + c"
+  },
+  "candidates": [
+   {
+    "part": "practice-int-trig-identity-1",
+    "level": "higher",
+    "year": null,
+    "question": "Find $\\int \\cos^2 3x \\,dx$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the half-angle formula",
+      "lines": [
+       {
+        "text": "$\\cos^2 A = \\dfrac{1 + \\cos 2A}{2}$. Here $A = 3x$, so $2A = 6x$."
+       },
+       {
+        "tex": "\\cos^2 3x &= \\frac{1 + \\cos 6x}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Write the integral with the formula",
+      "lines": [
+       {
+        "tex": "\\int \\cos^2 3x\\,dx &= \\int \\left(\\frac{1}{2} + \\frac{1}{2}\\cos 6x\\right) dx"
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "text": "$\\int \\cos 6x\\,dx = \\dfrac{\\sin 6x}{6}$."
+       },
+       {
+        "tex": "&= \\frac{x}{2} + \\frac{1}{2}\\cdot\\frac{\\sin 6x}{6} + c"
+       },
+       {
+        "tex": "&= \\frac{x}{2} + \\frac{\\sin 6x}{12} + c"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{x}{2} + \\frac{\\sin 6x}{12} + c"
+   },
+   {
+    "part": "practice-int-trig-identity-2",
+    "level": "higher",
+    "year": null,
+    "question": "Find $\\int \\sin 5x \\cos 3x \\,dx$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use the product-to-sum formula",
+      "lines": [
+       {
+        "text": "$\\sin A\\cos B = \\tfrac{1}{2}\\left[\\sin(A+B) + \\sin(A-B)\\right]$. Here $A = 5x$ and $B = 3x$."
+       },
+       {
+        "tex": "\\sin 5x \\cos 3x &= \\frac{1}{2}\\left[\\sin 8x + \\sin 2x\\right]"
+       }
+      ]
+     },
+     {
+      "title": "Write the integral with the formula",
+      "lines": [
+       {
+        "tex": "\\int \\sin 5x\\cos 3x\\,dx &= \\frac{1}{2}\\int (\\sin 8x + \\sin 2x)\\,dx"
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "text": "$\\int \\sin kx\\,dx = -\\dfrac{\\cos kx}{k}$."
+       },
+       {
+        "tex": "&= \\frac{1}{2}\\left[-\\frac{\\cos 8x}{8} - \\frac{\\cos 2x}{2}\\right] + c"
+       },
+       {
+        "tex": "&= -\\frac{\\cos 8x}{16} - \\frac{\\cos 2x}{4} + c"
+       }
+      ]
+     }
+    ],
+    "final": "-\\frac{\\cos 8x}{16} - \\frac{\\cos 2x}{4} + c"
+   },
+   {
+    "part": "practice-int-trig-identity-3",
+    "level": "higher",
+    "year": null,
+    "question": "Find $\\int (\\sin x + \\cos x)^2 \\,dx$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Expand the square",
+      "lines": [
+       {
+        "tex": "(\\sin x + \\cos x)^2 &= \\sin^2 x + 2\\sin x\\cos x + \\cos^2 x"
+       }
+      ]
+     },
+     {
+      "title": "Use the identities",
+      "lines": [
+       {
+        "text": "$\\sin^2 x + \\cos^2 x = 1$ and $2\\sin x\\cos x = \\sin 2x$."
+       },
+       {
+        "tex": "&= 1 + \\sin 2x"
+       }
+      ]
+     },
+     {
+      "title": "Integrate each term",
+      "lines": [
+       {
+        "text": "$\\int \\sin 2x\\,dx = -\\dfrac{\\cos 2x}{2}$."
+       },
+       {
+        "tex": "\\int (1 + \\sin 2x)\\,dx &= x - \\frac{\\cos 2x}{2} + c"
+       }
+      ]
+     }
+    ],
+    "final": "x - \\frac{\\cos 2x}{2} + c"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-add-subtract",
+   "title": "Add/subtract linear and quadratic expressions",
+   "level": "OL",
+   "input": "(ax²+bx+c) ± (dx²+ex+f)",
+   "output": "simplified expression"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-ordinary-p1-q7#(g)",
+    "level": "ordinary",
+    "year": 2015,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Use white = total − black",
+      "lines": [
+       {
+        "text": "$W_n + B_n = T_n$, so $W_n = T_n - B_n$, with $B_n = \\tfrac12 n^2 + \\tfrac32 n + 1$."
+       },
+       {
+        "tex": "W_n &= (n+1)^2 - \\left(\\tfrac{1}{2}n^2 + \\tfrac{3}{2}n + 1\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Expand and simplify",
+      "lines": [
+       {
+        "tex": "W_n &= n^2 + 2n + 1 - \\tfrac{1}{2}n^2 - \\tfrac{3}{2}n - 1"
+       },
+       {
+        "tex": "&= \\tfrac{1}{2}n^2 + \\tfrac{1}{2}n"
+       }
+      ]
+     }
+    ],
+    "final": "W_n = \\tfrac{1}{2}n^2 + \\tfrac{1}{2}n"
+   },
+   {
+    "part": "practice-alg-add-subtract-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Simplify $(3x^2 + 2x - 5) - (x^2 - 4x + 3)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Remove the brackets, changing every sign in the second",
+      "lines": [
+       {
+        "tex": "(3x^2+2x-5)-(x^2-4x+3) &= 3x^2 + 2x - 5 - x^2 + 4x - 3"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 2x^2 + 6x - 8"
+       }
+      ]
+     }
+    ],
+    "final": "2x^2 + 6x - 8"
+   },
+   {
+    "part": "practice-alg-add-subtract-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Simplify $(2x^2 - x + 4) + (x^2 + 5x - 9) - (3x^2 - 2x + 1)$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Remove the brackets, changing signs in the last one",
+      "lines": [
+       {
+        "tex": "&2x^2 - x + 4 + x^2 + 5x - 9 - 3x^2 + 2x - 1"
+       }
+      ]
+     },
+     {
+      "title": "Collect the $x^2$ terms",
+      "lines": [
+       {
+        "tex": "2x^2 + x^2 - 3x^2 &= 0"
+       }
+      ]
+     },
+     {
+      "title": "Collect the $x$ terms and the numbers",
+      "lines": [
+       {
+        "tex": "-x + 5x + 2x &= 6x"
+       },
+       {
+        "tex": "4 - 9 - 1 &= -6"
+       }
+      ]
+     },
+     {
+      "title": "Write the result",
+      "lines": [
+       {
+        "tex": "&= 6x - 6"
+       }
+      ]
+     }
+    ],
+    "final": "6x - 6"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-binomial-expand",
+   "title": "Expand with the binomial theorem",
+   "level": "HL",
+   "input": "(a + b)ⁿ, n ∈ N",
+   "output": "full expansion"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-binomial-expand-1",
+    "level": "higher",
+    "year": null,
+    "question": "Use the binomial theorem to expand $(2 - x)^4$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write the binomial pattern with $a=2$, $b=-x$",
+      "lines": [
+       {
+        "text": "The terms are $\\binom{4}{k}2^{4-k}(-x)^k$ for $k=0,1,2,3,4$."
+       },
+       {
+        "tex": "(2-x)^4 &= \\binom{4}{0}2^4 + \\binom{4}{1}2^3(-x) + \\binom{4}{2}2^2(-x)^2 + \\binom{4}{3}2(-x)^3 + \\binom{4}{4}(-x)^4"
+       }
+      ]
+     },
+     {
+      "title": "Find the coefficients",
+      "lines": [
+       {
+        "text": "$\\binom{4}{0}=1,\\ \\binom{4}{1}=4,\\ \\binom{4}{2}=6,\\ \\binom{4}{3}=4,\\ \\binom{4}{4}=1$."
+       },
+       {
+        "tex": "(2-x)^4 &= 1(16) + 4(8)(-x) + 6(4)(x^2) + 4(2)(-x^3) + 1(x^4)"
+       }
+      ]
+     },
+     {
+      "title": "Multiply out each term",
+      "lines": [
+       {
+        "tex": "(2-x)^4 &= 16 - 32x + 24x^2 - 8x^3 + x^4"
+       }
+      ]
+     }
+    ],
+    "final": "16 - 32x + 24x^2 - 8x^3 + x^4"
+   },
+   {
+    "part": "practice-alg-binomial-expand-2",
+    "level": "higher",
+    "year": null,
+    "question": "Expand $\\left(x + \\dfrac{1}{x}\\right)^5$ and write your answer in terms of powers of $x$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the binomial pattern with $a=x$, $b=\\frac{1}{x}$",
+      "lines": [
+       {
+        "text": "The terms are $\\binom{5}{k}x^{5-k}\\left(\\frac{1}{x}\\right)^k$ for $k=0$ to $5$."
+       },
+       {
+        "tex": "\\left(x+\\frac1x\\right)^5 &= \\binom50 x^5 + \\binom51 x^4\\cdot\\frac1x + \\binom52 x^3\\cdot\\frac1{x^2} + \\binom53 x^2\\cdot\\frac1{x^3} + \\binom54 x\\cdot\\frac1{x^4} + \\binom55\\cdot\\frac1{x^5}"
+       }
+      ]
+     },
+     {
+      "title": "Find the coefficients",
+      "lines": [
+       {
+        "text": "$\\binom50=1,\\ \\binom51=5,\\ \\binom52=10,\\ \\binom53=10,\\ \\binom54=5,\\ \\binom55=1$."
+       }
+      ]
+     },
+     {
+      "title": "Simplify each power of $x$ using the laws of indices",
+      "lines": [
+       {
+        "text": "$x^4\\cdot x^{-1}=x^3$, $x^3\\cdot x^{-2}=x$, $x^2\\cdot x^{-3}=x^{-1}$, $x\\cdot x^{-4}=x^{-3}$."
+       },
+       {
+        "tex": "\\left(x+\\frac1x\\right)^5 &= x^5 + 5x^3 + 10x + \\frac{10}{x} + \\frac{5}{x^3} + \\frac{1}{x^5}"
+       }
+      ]
+     }
+    ],
+    "final": "x^5 + 5x^3 + 10x + \\frac{10}{x} + \\frac{5}{x^3} + \\frac{1}{x^5}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p1-q6#(a)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the binomial pattern for the first three terms",
+      "lines": [
+       {
+        "text": "In $(a+b)^7$ the terms are $\\binom{7}{k}a^{7-k}b^k$ with $a=2p$, $b=3$ and $k=0,1,2$."
+       },
+       {
+        "tex": "(2p+3)^7 &= \\binom{7}{0}(2p)^7 + \\binom{7}{1}(2p)^6(3) + \\binom{7}{2}(2p)^5(3)^2 + \\cdots"
+       }
+      ]
+     },
+     {
+      "title": "First term",
+      "lines": [
+       {
+        "tex": "\\binom{7}{0}(2p)^7 &= 1\\times 128p^7"
+       },
+       {
+        "tex": "&= 128p^7"
+       }
+      ]
+     },
+     {
+      "title": "Second term",
+      "lines": [
+       {
+        "tex": "\\binom{7}{1}(2p)^6(3) &= 7\\times 64p^6\\times 3"
+       },
+       {
+        "tex": "&= 1344p^6"
+       }
+      ]
+     },
+     {
+      "title": "Third term",
+      "lines": [
+       {
+        "text": "$\\binom{7}{2} = \\frac{7\\times 6}{2} = 21$."
+       },
+       {
+        "tex": "\\binom{7}{2}(2p)^5(3)^2 &= 21\\times 32p^5\\times 9"
+       },
+       {
+        "tex": "&= 6048p^5"
+       }
+      ]
+     },
+     {
+      "title": "Write the three terms together",
+      "lines": [
+       {
+        "tex": "\\text{First 3 terms} &= 128p^7 + 1344p^6 + 6048p^5"
+       }
+      ]
+     }
+    ],
+    "final": "128p^7 + 1344p^6 + 6048p^5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-binomial-term",
+   "title": "Find a given term/coefficient of a binomial expansion",
+   "level": "HL",
+   "input": "(a + b)ⁿ + required power",
+   "output": "general term Tᵣ₊₁ and its value"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-binomial-term-3",
+    "level": "higher",
+    "year": null,
+    "question": "The coefficient of $x^3$ in the expansion of $(1 + ax)^5$ is $80$, where $a \\in \\mathbb{R}$.\nFind the value of $a$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the term in $x^3$",
+      "lines": [
+       {
+        "text": "Here $a$ is the constant in $b=ax$. The term is $\\binom{5}{k}1^{5-k}(ax)^k$ with $k=3$."
+       },
+       {
+        "tex": "T_4 &= \\binom53 (ax)^3"
+       }
+      ]
+     },
+     {
+      "title": "Find the coefficient",
+      "lines": [
+       {
+        "tex": "\\binom53 &= 10"
+       },
+       {
+        "tex": "T_4 &= 10a^3x^3"
+       }
+      ]
+     },
+     {
+      "title": "Set the coefficient equal to 80 and solve",
+      "lines": [
+       {
+        "tex": "10a^3 &= 80"
+       },
+       {
+        "tex": "a^3 &= 8"
+       },
+       {
+        "tex": "a &= 2"
+       }
+      ]
+     }
+    ],
+    "final": "a = 2"
+   },
+   {
+    "part": "practice-alg-binomial-term-1",
+    "level": "higher",
+    "year": null,
+    "question": "Find the coefficient of $x^3$ in the expansion of $(2 + 3x)^6$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the general term",
+      "lines": [
+       {
+        "text": "In $(a+b)^n$ the term is $T_{k+1}=\\binom{n}{k}a^{n-k}b^k$. Here $a=2$, $b=3x$, $n=6$."
+       },
+       {
+        "tex": "T_{k+1} &= \\binom{6}{k}2^{6-k}(3x)^k"
+       }
+      ]
+     },
+     {
+      "title": "Choose $k$ so the power of $x$ is 3",
+      "lines": [
+       {
+        "text": "$(3x)^k$ gives $x^k$, so $k=3$."
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the term",
+      "lines": [
+       {
+        "text": "$\\binom63=\\frac{6\\times5\\times4}{3\\times2\\times1}=20$."
+       },
+       {
+        "tex": "T_4 &= 20\\times 2^3\\times 3^3 x^3"
+       },
+       {
+        "tex": "&= 20\\times 8\\times 27\\, x^3"
+       },
+       {
+        "tex": "&= 4320x^3"
+       }
+      ]
+     },
+     {
+      "title": "State the coefficient",
+      "lines": [
+       {
+        "text": "The coefficient of $x^3$ is $4320$."
+       }
+      ]
+     }
+    ],
+    "final": "4320"
+   },
+   {
+    "part": "practice-alg-binomial-term-2",
+    "level": "higher",
+    "year": null,
+    "question": "Find the term independent of $x$ in the expansion of $\\left(x^2 + \\dfrac{1}{x}\\right)^6$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the general term",
+      "lines": [
+       {
+        "text": "Here $a=x^2$, $b=x^{-1}$, $n=6$."
+       },
+       {
+        "tex": "T_{k+1} &= \\binom{6}{k}(x^2)^{6-k}(x^{-1})^k"
+       }
+      ]
+     },
+     {
+      "title": "Combine the powers of $x$ using the laws of indices",
+      "lines": [
+       {
+        "tex": "T_{k+1} &= \\binom{6}{k}x^{12-2k}x^{-k}"
+       },
+       {
+        "tex": "&= \\binom{6}{k}x^{12-3k}"
+       }
+      ]
+     },
+     {
+      "title": "Find $k$ for the term independent of $x$",
+      "lines": [
+       {
+        "text": "The power of $x$ must be 0."
+       },
+       {
+        "tex": "12 - 3k &= 0"
+       },
+       {
+        "tex": "k &= 4"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate the term",
+      "lines": [
+       {
+        "text": "$\\binom64=\\binom62=\\frac{6\\times5}{2}=15$."
+       },
+       {
+        "tex": "T_5 &= 15x^0 = 15"
+       }
+      ]
+     }
+    ],
+    "final": "15"
+   }
+  ]
+ }
+]

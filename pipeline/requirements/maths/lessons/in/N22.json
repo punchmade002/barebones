@@ -1,0 +1,760 @@
+[
+ {
+  "skill": {
+   "id": "alg-poly-divide",
+   "title": "Divide a polynomial by a linear or quadratic",
+   "level": "HL",
+   "input": "dividend, divisor",
+   "output": "quotient (and remainder)"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-poly-divide-1",
+    "level": "higher",
+    "year": null,
+    "question": "Divide $x^3 - 8$ by $x - 2$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "First term",
+      "lines": [
+       {
+        "text": "Write $x^3 - 8$ as $x^3 + 0x^2 + 0x - 8$. Divide the leading terms."
+       },
+       {
+        "tex": "x^3 \\div x &= x^2"
+       },
+       {
+        "tex": "x^2(x-2) &= x^3 - 2x^2"
+       },
+       {
+        "tex": "(x^3 + 0x^2 - 0x - 8) - (x^3 - 2x^2) &= 2x^2 - 8"
+       }
+      ]
+     },
+     {
+      "title": "Second term",
+      "lines": [
+       {
+        "text": "Bring down the next term and divide the leading terms."
+       },
+       {
+        "tex": "2x^2 \\div x &= 2x"
+       },
+       {
+        "tex": "2x(x-2) &= 2x^2 - 4x"
+       },
+       {
+        "tex": "(2x^2 - 8) - (2x^2 - 4x) &= 4x - 8"
+       }
+      ]
+     },
+     {
+      "title": "Third term",
+      "lines": [
+       {
+        "tex": "4x \\div x &= 4"
+       },
+       {
+        "tex": "4(x-2) &= 4x - 8"
+       },
+       {
+        "tex": "(4x - 8) - (4x - 8) &= 0"
+       },
+       {
+        "text": "The remainder is $0$, so the quotient is $x^2 + 2x + 4$."
+       }
+      ]
+     }
+    ],
+    "final": "x^2 + 2x + 4"
+   },
+   {
+    "part": "practice-alg-poly-divide-2",
+    "level": "higher",
+    "year": null,
+    "question": "Divide $x^4 - 3x^3 + 2x^2 + x - 5$ by $x^2 - x + 1$.\nFind the quotient and the remainder.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "First term",
+      "lines": [
+       {
+        "text": "Divide the leading terms."
+       },
+       {
+        "tex": "x^4 \\div x^2 &= x^2"
+       },
+       {
+        "tex": "x^2(x^2 - x + 1) &= x^4 - x^3 + x^2"
+       },
+       {
+        "tex": "(x^4 - 3x^3 + 2x^2 + x - 5) - (x^4 - x^3 + x^2) &= -2x^3 + x^2 + x - 5"
+       }
+      ]
+     },
+     {
+      "title": "Second term",
+      "lines": [
+       {
+        "tex": "-2x^3 \\div x^2 &= -2x"
+       },
+       {
+        "tex": "-2x(x^2 - x + 1) &= -2x^3 + 2x^2 - 2x"
+       },
+       {
+        "tex": "(-2x^3 + x^2 + x - 5) - (-2x^3 + 2x^2 - 2x) &= -x^2 + 3x - 5"
+       }
+      ]
+     },
+     {
+      "title": "Third term",
+      "lines": [
+       {
+        "tex": "-x^2 \\div x^2 &= -1"
+       },
+       {
+        "tex": "-1(x^2 - x + 1) &= -x^2 + x - 1"
+       },
+       {
+        "tex": "(-x^2 + 3x - 5) - (-x^2 + x - 1) &= 2x - 4"
+       }
+      ]
+     },
+     {
+      "title": "Read off the quotient and remainder",
+      "lines": [
+       {
+        "text": "The remainder $2x - 4$ has lower degree than the divisor, so we stop."
+       },
+       {
+        "tex": "x^4 - 3x^3 + 2x^2 + x - 5 &= (x^2 - x + 1)(x^2 - 2x - 1) + (2x - 4)"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{quotient } x^2 - 2x - 1,\\ \\text{remainder } 2x - 4"
+   },
+   {
+    "part": "practice-alg-poly-divide-3",
+    "level": "higher",
+    "year": null,
+    "question": "Divide $6x^3 - 5x^2 - 3x + 2$ by $(2x - 1)$.\nHence find all the roots of $6x^3 - 5x^2 - 3x + 2 = 0$.",
+    "marks": 15,
+    "steps": [
+     {
+      "title": "First term",
+      "lines": [
+       {
+        "text": "Divide the leading terms."
+       },
+       {
+        "tex": "6x^3 \\div 2x &= 3x^2"
+       },
+       {
+        "tex": "3x^2(2x-1) &= 6x^3 - 3x^2"
+       },
+       {
+        "tex": "(6x^3 - 5x^2 - 3x + 2) - (6x^3 - 3x^2) &= -2x^2 - 3x + 2"
+       }
+      ]
+     },
+     {
+      "title": "Second term",
+      "lines": [
+       {
+        "tex": "-2x^2 \\div 2x &= -x"
+       },
+       {
+        "tex": "-x(2x-1) &= -2x^2 + x"
+       },
+       {
+        "tex": "(-2x^2 - 3x + 2) - (-2x^2 + x) &= -4x + 2"
+       }
+      ]
+     },
+     {
+      "title": "Third term",
+      "lines": [
+       {
+        "tex": "-4x \\div 2x &= -2"
+       },
+       {
+        "tex": "-2(2x-1) &= -4x + 2"
+       },
+       {
+        "tex": "(-4x + 2) - (-4x + 2) &= 0"
+       },
+       {
+        "text": "The remainder is $0$, so the quotient is $3x^2 - x - 2$."
+       },
+       {
+        "tex": "6x^3 - 5x^2 - 3x + 2 &= (2x-1)(3x^2 - x - 2)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "text": "Find two numbers with product $3 \\times (-2) = -6$ and sum $-1$: they are $-3$ and $2$."
+       },
+       {
+        "tex": "3x^2 - x - 2 &= 3x^2 - 3x + 2x - 2"
+       },
+       {
+        "tex": "&= 3x(x - 1) + 2(x - 1)"
+       },
+       {
+        "tex": "&= (3x + 2)(x - 1)"
+       }
+      ]
+     },
+     {
+      "title": "Solve each factor",
+      "lines": [
+       {
+        "tex": "(2x-1)(3x+2)(x-1) &= 0"
+       },
+       {
+        "tex": "x &= \\frac{1}{2},\\ -\\frac{2}{3},\\ 1"
+       }
+      ]
+     }
+    ],
+    "final": "x = -\\frac{2}{3},\\ \\frac{1}{2},\\ 1"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-poly-multiply",
+   "title": "Multiply polynomials",
+   "level": "HL",
+   "input": "two polynomials",
+   "output": "expanded polynomial"
+  },
+  "candidates": [
+   {
+    "part": "practice-alg-poly-multiply-3",
+    "level": "higher",
+    "year": null,
+    "question": "Show that $(x - 2)(x + 2)(x^2 + 4) = x^4 - 16$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply the first two brackets",
+      "lines": [
+       {
+        "tex": "(x-2)(x+2) &= x^2 + 2x - 2x - 4"
+       },
+       {
+        "tex": "&= x^2 - 4"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the result by the third bracket",
+      "lines": [
+       {
+        "tex": "(x-2)(x+2)(x^2+4) &= (x^2-4)(x^2+4)"
+       },
+       {
+        "tex": "&= x^4 + 4x^2 - 4x^2 - 16"
+       },
+       {
+        "tex": "&= x^4 - 16"
+       }
+      ]
+     }
+    ],
+    "final": "x^4 - 16"
+   },
+   {
+    "part": "practice-alg-poly-multiply-1",
+    "level": "higher",
+    "year": null,
+    "question": "Multiply out $(x^2 + 2x - 3)(x^2 - x + 4)$ and write your answer in descending powers of $x$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply each term of the first bracket by the second",
+      "lines": [
+       {
+        "tex": "(x^2+2x-3)(x^2-x+4) &= x^2(x^2-x+4) + 2x(x^2-x+4) - 3(x^2-x+4)"
+       }
+      ]
+     },
+     {
+      "title": "Expand each product",
+      "lines": [
+       {
+        "tex": "&= (x^4 - x^3 + 4x^2) + (2x^3 - 2x^2 + 8x) + (-3x^2 + 3x - 12)"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= x^4 + x^3 - x^2 + 11x - 12"
+       }
+      ]
+     }
+    ],
+    "final": "x^4 + x^3 - x^2 + 11x - 12"
+   },
+   {
+    "part": "practice-alg-poly-multiply-2",
+    "level": "higher",
+    "year": null,
+    "question": "Multiply $(2x^3 - x + 5)$ by $(x^2 + 3x - 1)$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Multiply each term of the first polynomial by the second",
+      "lines": [
+       {
+        "tex": "(2x^3-x+5)(x^2+3x-1) &= 2x^3(x^2+3x-1) - x(x^2+3x-1) + 5(x^2+3x-1)"
+       }
+      ]
+     },
+     {
+      "title": "Expand each product",
+      "lines": [
+       {
+        "tex": "&= (2x^5 + 6x^4 - 2x^3) + (-x^3 - 3x^2 + x) + (5x^2 + 15x - 5)"
+       }
+      ]
+     },
+     {
+      "title": "Collect like terms",
+      "lines": [
+       {
+        "tex": "&= 2x^5 + 6x^4 - 3x^3 + 2x^2 + 16x - 5"
+       }
+      ]
+     }
+    ],
+    "final": "2x^5 + 6x^4 - 3x^3 + 2x^2 + 16x - 5"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "alg-surd-expressions",
+   "title": "Simplify algebraic expressions with surds",
+   "level": "HL",
+   "input": "expression with surds and brackets",
+   "output": "simplified / rationalised form"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2016-higher-p1-q9#(b)(iii)",
+    "level": "higher",
+    "year": 2016,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Expand (1 + √5)³",
+      "lines": [
+       {
+        "tex": "(1+\\sqrt5)^3 &= 1 + 3\\sqrt5 + 3(\\sqrt5)^2 + (\\sqrt5)^3"
+       },
+       {
+        "tex": "&= 1 + 3\\sqrt5 + 15 + 5\\sqrt5"
+       },
+       {
+        "tex": "&= 16 + 8\\sqrt5"
+       }
+      ]
+     },
+     {
+      "title": "Expand (1 − √5)³",
+      "lines": [
+       {
+        "tex": "(1-\\sqrt5)^3 &= 1 - 3\\sqrt5 + 3(\\sqrt5)^2 - (\\sqrt5)^3"
+       },
+       {
+        "tex": "&= 1 - 3\\sqrt5 + 15 - 5\\sqrt5"
+       },
+       {
+        "tex": "&= 16 - 8\\sqrt5"
+       }
+      ]
+     },
+     {
+      "title": "Subtract to get the numerator",
+      "lines": [
+       {
+        "tex": "(1+\\sqrt5)^3 - (1-\\sqrt5)^3 &= (16 + 8\\sqrt5) - (16 - 8\\sqrt5)"
+       },
+       {
+        "tex": "&= 16\\sqrt5"
+       }
+      ]
+     },
+     {
+      "title": "Substitute n = 3 and simplify",
+      "lines": [
+       {
+        "tex": "G_3 &= \\frac{16\\sqrt5}{2^3\\sqrt5}"
+       },
+       {
+        "tex": "&= \\frac{16\\sqrt5}{8\\sqrt5}"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     }
+    ],
+    "final": "G_3 = 2"
+   },
+   {
+    "part": "practice-alg-surd-expressions-1",
+    "level": "higher",
+    "year": null,
+    "question": "Simplify $\\frac{1}{\\sqrt{a}-\\sqrt{b}} - \\frac{1}{\\sqrt{a}+\\sqrt{b}}$, where $a > b > 0$.\nGive your answer as a single fraction with no surds in the denominator.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write over a common denominator",
+      "lines": [
+       {
+        "tex": "\\frac{1}{\\sqrt{a}-\\sqrt{b}} - \\frac{1}{\\sqrt{a}+\\sqrt{b}} &= \\frac{(\\sqrt{a}+\\sqrt{b}) - (\\sqrt{a}-\\sqrt{b})}{(\\sqrt{a}-\\sqrt{b})(\\sqrt{a}+\\sqrt{b})}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the numerator",
+      "lines": [
+       {
+        "tex": "(\\sqrt{a}+\\sqrt{b}) - (\\sqrt{a}-\\sqrt{b}) &= \\sqrt{a}+\\sqrt{b}-\\sqrt{a}+\\sqrt{b}"
+       },
+       {
+        "tex": "&= 2\\sqrt{b}"
+       }
+      ]
+     },
+     {
+      "title": "Simplify the denominator (difference of two squares)",
+      "lines": [
+       {
+        "tex": "(\\sqrt{a}-\\sqrt{b})(\\sqrt{a}+\\sqrt{b}) &= (\\sqrt{a})^2 - (\\sqrt{b})^2"
+       },
+       {
+        "tex": "&= a - b"
+       }
+      ]
+     },
+     {
+      "title": "Put the numerator over the denominator",
+      "lines": [
+       {
+        "tex": "\\frac{1}{\\sqrt{a}-\\sqrt{b}} - \\frac{1}{\\sqrt{a}+\\sqrt{b}} &= \\frac{2\\sqrt{b}}{a-b}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{2\\sqrt{b}}{a-b}"
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(c)",
+    "level": "higher",
+    "year": 2020,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute k = 3",
+      "lines": [
+       {
+        "tex": "N_3 &= \\left(\\frac{(3+2\\sqrt{2})^3 - (3-2\\sqrt{2})^3}{4\\sqrt{2}}\\right)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand (3 + 2√2) squared",
+      "lines": [
+       {
+        "tex": "(3+2\\sqrt{2})^2 &= 9 + 12\\sqrt{2} + 8"
+       },
+       {
+        "tex": "&= 17 + 12\\sqrt{2}"
+       }
+      ]
+     },
+     {
+      "title": "Expand (3 + 2√2) cubed",
+      "lines": [
+       {
+        "tex": "(3+2\\sqrt{2})^3 &= (17 + 12\\sqrt{2})(3 + 2\\sqrt{2})"
+       },
+       {
+        "tex": "&= 51 + 34\\sqrt{2} + 36\\sqrt{2} + 48"
+       },
+       {
+        "tex": "&= 99 + 70\\sqrt{2}"
+       },
+       {
+        "text": "Changing the sign of $\\sqrt{2}$ gives $(3-2\\sqrt{2})^3 = 99 - 70\\sqrt{2}$."
+       }
+      ]
+     },
+     {
+      "title": "Subtract and divide",
+      "lines": [
+       {
+        "tex": "(3+2\\sqrt{2})^3 - (3-2\\sqrt{2})^3 &= (99 + 70\\sqrt{2}) - (99 - 70\\sqrt{2})"
+       },
+       {
+        "tex": "&= 140\\sqrt{2}"
+       },
+       {
+        "tex": "\\frac{140\\sqrt{2}}{4\\sqrt{2}} &= 35"
+       }
+      ]
+     },
+     {
+      "title": "Square the result",
+      "lines": [
+       {
+        "tex": "N_3 &= 35^2"
+       },
+       {
+        "tex": "&= 1225"
+       }
+      ]
+     }
+    ],
+    "final": "N_3 = 1225"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-first-success",
+   "title": "Find the probability the first success is on trial n",
+   "level": "OL",
+   "input": "p, n",
+   "output": "(1 − p)ⁿ⁻¹ p"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-ordinary-p2-q2#(a)(ii)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "List the three attempts",
+      "lines": [
+       {
+        "text": "First time on the third attempt means fail, fail, then success."
+       }
+      ]
+     },
+     {
+      "title": "Multiply the probabilities",
+      "lines": [
+       {
+        "tex": "P &= 0.66 \\times 0.66 \\times 0.34"
+       },
+       {
+        "tex": "&= 0.4356 \\times 0.34"
+       },
+       {
+        "tex": "&= 0.148104"
+       },
+       {
+        "tex": "&\\approx 0.148"
+       }
+      ]
+     }
+    ],
+    "final": "0.148"
+   },
+   {
+    "part": "practice-prob-first-success-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The probability that a spinner lands on red is $\\frac{1}{5}$.\nThe spinner is spun until it lands on red.\nFind the probability that it first lands on red on the 4th spin.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "List the four spins",
+      "lines": [
+       {
+        "text": "First red on the 4th spin means not red, not red, not red, then red."
+       },
+       {
+        "text": "$P(\\text{not red}) = 1 - \\frac{1}{5} = \\frac{4}{5}$."
+       },
+       {
+        "tex": "P(\\text{not red}) &= 1 - \\frac{1}{5}"
+       },
+       {
+        "tex": "&= \\frac{4}{5}"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the probabilities",
+      "lines": [
+       {
+        "tex": "P &= \\frac{4}{5}\\times\\frac{4}{5}\\times\\frac{4}{5}\\times\\frac{1}{5}"
+       },
+       {
+        "tex": "&= \\left(\\frac{4}{5}\\right)^3\\times\\frac{1}{5}"
+       },
+       {
+        "tex": "&= \\frac{64}{125}\\times\\frac{1}{5}"
+       },
+       {
+        "tex": "&= \\frac{64}{625}"
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{64}{625}"
+   },
+   {
+    "part": "maths-pp-2022-higher-p2-q10#(b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set up the probability",
+      "lines": [
+       {
+        "text": "No false start in races 1 to 3, then a false start in race 4. $P(\\text{no false start}) = 1-0.05 = 0.95$."
+       },
+       {
+        "tex": "P &= 0.95 \\times 0.95 \\times 0.95 \\times 0.05"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "&= 0.0428\\ldots"
+       },
+       {
+        "tex": "&\\approx 0.0429"
+       }
+      ]
+     }
+    ],
+    "final": "0.0429"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "prob-npr",
+   "title": "Count arrangements of r objects from n",
+   "level": "OL",
+   "input": "n, r",
+   "output": "ⁿPᵣ"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-ordinary-p2-q3#(a)(iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Choose and order 3 different letters",
+      "lines": [
+       {
+        "text": "Order matters, and no letter is repeated: 7 choices, then 6, then 5."
+       },
+       {
+        "tex": "\\text{Ways} &= 7 \\times 6 \\times 5"
+       },
+       {
+        "tex": "&= 210"
+       }
+      ]
+     }
+    ],
+    "final": "210"
+   },
+   {
+    "part": "maths-pp-2018-ordinary-p2-q3#(a)(i), (ii)",
+    "level": "ordinary",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Arrange all 7 letters",
+      "lines": [
+       {
+        "text": "All 7 letters are different, so there are $7!$ arrangements."
+       },
+       {
+        "tex": "7! &= 7 \\times 6 \\times 5 \\times 4 \\times 3 \\times 2 \\times 1"
+       },
+       {
+        "tex": "&= 5040"
+       }
+      ]
+     },
+     {
+      "title": "(ii) Arrange 3 of the 7 letters",
+      "lines": [
+       {
+        "text": "There are 7 choices for the first letter, 6 for the second and 5 for the third."
+       },
+       {
+        "tex": "7 \\times 6 \\times 5 &= 42 \\times 5"
+       },
+       {
+        "tex": "&= 210"
+       }
+      ]
+     }
+    ],
+    "final": "5040 \\text{ and } 210"
+   },
+   {
+    "part": "practice-prob-npr-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A club has 8 members. A chairperson, a secretary and a treasurer are to be chosen from them. No member can hold more than one of these roles.\nIn how many different ways can the three roles be filled?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Count the choices for each role",
+      "lines": [
+       {
+        "text": "Order matters, since each role is different, and no member is used twice."
+       },
+       {
+        "text": "There are 8 choices for chairperson, then 7 for secretary, then 6 for treasurer."
+       }
+      ]
+     },
+     {
+      "title": "Multiply the choices",
+      "lines": [
+       {
+        "tex": "\\text{Ways} &= 8 \\times 7 \\times 6"
+       },
+       {
+        "tex": "&= 56 \\times 6"
+       },
+       {
+        "tex": "&= 336"
+       }
+      ]
+     }
+    ],
+    "final": "336"
+   }
+  ]
+ }
+]

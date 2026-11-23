@@ -1,0 +1,864 @@
+[
+ {
+  "skill": {
+   "id": "trig-triangle-problems",
+   "title": "Solve multi-step 2D triangle problems",
+   "level": "OL",
+   "input": "context with several triangles",
+   "output": "chained use of sine/cosine rules and area"
+  },
+  "candidates": [
+   {
+    "part": "practice-trig-triangle-problems-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "In triangle $ABC$, $|AB| = 60$ m and $\\angle CAB = \\angle CBA = 30^\\circ$.\nD is a point such that $|AD| = 40$ m and $\\angle CAD = 60^\\circ$.\nFind the area of triangle $ACD$, in $\\text{m}^2$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $\\angle ACB$",
+      "lines": [
+       {
+        "text": "The angles of a triangle add to $180^\\circ$."
+       },
+       {
+        "tex": "|\\angle ACB| &= 180^\\circ - 30^\\circ - 30^\\circ"
+       },
+       {
+        "tex": "&= 120^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find $|AC|$ with the sine rule",
+      "lines": [
+       {
+        "text": "$AC$ is opposite $\\angle ABC = 30^\\circ$, and $AB$ is opposite $\\angle ACB = 120^\\circ$."
+       },
+       {
+        "tex": "\\frac{|AC|}{\\sin 30^\\circ} &= \\frac{60}{\\sin 120^\\circ}"
+       },
+       {
+        "tex": "|AC| &= \\frac{60 \\sin 30^\\circ}{\\sin 120^\\circ}"
+       },
+       {
+        "tex": "&= \\frac{30}{\\frac{\\sqrt{3}}{2}}"
+       },
+       {
+        "tex": "&= 20\\sqrt{3}"
+       }
+      ]
+     },
+     {
+      "title": "Area of triangle $ACD$",
+      "lines": [
+       {
+        "text": "Use the two sides at $A$, $|AC|$ and $|AD|$, with the angle $60^\\circ$ between them."
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}(20\\sqrt{3})(40)\\sin 60^\\circ"
+       },
+       {
+        "tex": "&= 400\\sqrt{3} \\cdot \\frac{\\sqrt{3}}{2}"
+       },
+       {
+        "tex": "&= 600 \\text{ m}^2"
+       }
+      ]
+     }
+    ],
+    "final": "600 \\text{ m}^2"
+   },
+   {
+    "part": "practice-trig-triangle-problems-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "In the quadrilateral $PQRS$, $|PQ| = 3$ cm, $|QR| = 5$ cm and $\\angle PQR = 120^\\circ$.\nIn triangle $PRS$, $\\angle PRS = 45^\\circ$ and $\\angle PSR = 30^\\circ$.\nFind $|PS|$, correct to one decimal place.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $|PR|$ with the cosine rule",
+      "lines": [
+       {
+        "text": "$PR$ is opposite the angle $120^\\circ$ in triangle $PQR$."
+       },
+       {
+        "tex": "|PR|^2 &= 3^2 + 5^2 - 2(3)(5)\\cos 120^\\circ"
+       },
+       {
+        "tex": "&= 9 + 25 + 15"
+       },
+       {
+        "tex": "&= 49"
+       },
+       {
+        "tex": "|PR| &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Set up the sine rule in triangle $PRS$",
+      "lines": [
+       {
+        "text": "$PS$ is opposite $\\angle PRS = 45^\\circ$, and $PR$ is opposite $\\angle PSR = 30^\\circ$."
+       },
+       {
+        "tex": "\\frac{|PS|}{\\sin 45^\\circ} &= \\frac{7}{\\sin 30^\\circ}"
+       }
+      ]
+     },
+     {
+      "title": "Solve for $|PS|$",
+      "lines": [
+       {
+        "tex": "|PS| &= \\frac{7 \\sin 45^\\circ}{\\sin 30^\\circ}"
+       },
+       {
+        "tex": "&= 7\\sqrt{2}"
+       },
+       {
+        "tex": "&\\approx 9.9 \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "9.9 \\text{ cm}"
+   },
+   {
+    "part": "practice-trig-triangle-problems-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "In the quadrilateral $ABCD$, $|AB| = 5$ cm, $|BC| = 8$ cm and $\\angle ABC = 60^\\circ$.\nThe diagonal $AC$ divides the quadrilateral into two triangles. In triangle $ACD$, $|CD| = 8$ cm and $\\angle ACD = 30^\\circ$.\nFind the area of the quadrilateral $ABCD$, correct to one decimal place.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find $|AC|$ with the cosine rule",
+      "lines": [
+       {
+        "text": "$AC$ is opposite the angle $60^\\circ$ in triangle $ABC$."
+       },
+       {
+        "tex": "|AC|^2 &= 5^2 + 8^2 - 2(5)(8)\\cos 60^\\circ"
+       },
+       {
+        "tex": "&= 25 + 64 - 40"
+       },
+       {
+        "tex": "&= 49"
+       },
+       {
+        "tex": "|AC| &= 7"
+       }
+      ]
+     },
+     {
+      "title": "Area of triangle $ABC$",
+      "lines": [
+       {
+        "text": "Use $\\frac{1}{2}ab\\sin C$ with the two sides at $B$."
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}(5)(8)\\sin 60^\\circ"
+       },
+       {
+        "tex": "&= 10\\sqrt{3}"
+       },
+       {
+        "tex": "&\\approx 17.32"
+       }
+      ]
+     },
+     {
+      "title": "Area of triangle $ACD$",
+      "lines": [
+       {
+        "text": "Use the two sides $|AC| = 7$ and $|CD| = 8$ with the angle between them."
+       },
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}(7)(8)\\sin 30^\\circ"
+       },
+       {
+        "tex": "&= 14"
+       }
+      ]
+     },
+     {
+      "title": "Add the two areas",
+      "lines": [
+       {
+        "tex": "\\text{Total} &= 17.32 + 14"
+       },
+       {
+        "tex": "&\\approx 31.3 \\text{ cm}^2"
+       }
+      ]
+     }
+    ],
+    "final": "31.3 \\text{ cm}^2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ineq-double",
+   "title": "Solve a combined (double) linear inequality",
+   "level": "OL",
+   "input": "k₁ ≤ ax + b < k₂",
+   "output": "interval"
+  },
+  "candidates": [
+   {
+    "part": "practice-ineq-double-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "Solve the inequality $2 \\le 3x - 1 < 11$, where $x \\in \\mathbb{R}$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Add 1 to every part",
+      "lines": [
+       {
+        "tex": "2 &\\le 3x - 1 < 11"
+       },
+       {
+        "tex": "3 &\\le 3x < 12"
+       }
+      ]
+     },
+     {
+      "title": "Divide every part by 3",
+      "lines": [
+       {
+        "tex": "1 &\\le x < 4"
+       }
+      ]
+     }
+    ],
+    "final": "1 \\le x < 4"
+   },
+   {
+    "part": "practice-ineq-double-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "Solve the inequality $-4 \\le \\dfrac{x + 2}{3} < 1$, where $x \\in \\mathbb{R}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply every part by 3",
+      "lines": [
+       {
+        "tex": "-4 &\\le \\frac{x+2}{3} < 1"
+       },
+       {
+        "tex": "-12 &\\le x + 2 < 3"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 2 from every part",
+      "lines": [
+       {
+        "tex": "-14 &\\le x < 1"
+       }
+      ]
+     }
+    ],
+    "final": "-14 \\le x < 1"
+   },
+   {
+    "part": "practice-ineq-double-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "Solve the inequality $-7 < 5 - 2x \\le 3$, where $x \\in \\mathbb{R}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Subtract 5 from every part",
+      "lines": [
+       {
+        "tex": "-7 &< 5 - 2x \\le 3"
+       },
+       {
+        "tex": "-12 &< -2x \\le -2"
+       }
+      ]
+     },
+     {
+      "title": "Divide by $-2$ and reverse both signs",
+      "lines": [
+       {
+        "text": "Dividing by a negative number reverses the inequality signs."
+       },
+       {
+        "tex": "6 &> x \\ge 1"
+       }
+      ]
+     },
+     {
+      "title": "Write in order, smallest first",
+      "lines": [
+       {
+        "tex": "1 &\\le x < 6"
+       }
+      ]
+     }
+    ],
+    "final": "1 \\le x < 6"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ineq-prove",
+   "title": "Prove an algebraic inequality",
+   "level": "HL",
+   "input": "inequality in a, b",
+   "output": "proof via a square ≥ 0"
+  },
+  "candidates": [
+   {
+    "part": "practice-ineq-prove-1",
+    "level": "higher",
+    "year": null,
+    "question": "Prove that $a^2 + b^2 \\ge 2ab$ for all $a, b \\in \\mathbb{R}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Look at the difference of the two sides",
+      "lines": [
+       {
+        "text": "It is enough to show that $a^2 + b^2 - 2ab \\ge 0$."
+       }
+      ]
+     },
+     {
+      "title": "Recognise a perfect square",
+      "lines": [
+       {
+        "tex": "a^2 + b^2 - 2ab &= (a - b)^2"
+       }
+      ]
+     },
+     {
+      "title": "A square is never negative",
+      "lines": [
+       {
+        "text": "For any real $a, b$, $(a-b)^2 \\ge 0$."
+       },
+       {
+        "tex": "a^2 + b^2 - 2ab &\\ge 0"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "Hence $a^2 + b^2 \\ge 2ab$ for all real $a$ and $b$."
+       }
+      ]
+     }
+    ],
+    "final": "a^2 + b^2 \\ge 2ab"
+   },
+   {
+    "part": "practice-ineq-prove-2",
+    "level": "higher",
+    "year": null,
+    "question": "Prove that $(a + b)^2 \\le 2(a^2 + b^2)$ for all $a, b \\in \\mathbb{R}$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Form the difference of the two sides",
+      "lines": [
+       {
+        "text": "It is enough to show that $2(a^2+b^2) - (a+b)^2 \\ge 0$."
+       }
+      ]
+     },
+     {
+      "title": "Multiply out the brackets",
+      "lines": [
+       {
+        "tex": "2(a^2 + b^2) - (a+b)^2 &= 2a^2 + 2b^2 - (a^2 + 2ab + b^2)"
+       },
+       {
+        "tex": "&= a^2 - 2ab + b^2"
+       }
+      ]
+     },
+     {
+      "title": "Recognise a perfect square",
+      "lines": [
+       {
+        "tex": "a^2 - 2ab + b^2 &= (a - b)^2"
+       }
+      ]
+     },
+     {
+      "title": "A square is never negative",
+      "lines": [
+       {
+        "text": "$(a-b)^2 \\ge 0$, so $2(a^2+b^2) - (a+b)^2 \\ge 0$. Hence $(a+b)^2 \\le 2(a^2+b^2)$."
+       }
+      ]
+     }
+    ],
+    "final": "(a+b)^2 \\le 2(a^2 + b^2)"
+   },
+   {
+    "part": "practice-ineq-prove-3",
+    "level": "higher",
+    "year": null,
+    "question": "$a$ and $b$ are positive real numbers. Prove that $\\dfrac{a}{b} + \\dfrac{b}{a} \\ge 2$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write as a single fraction",
+      "lines": [
+       {
+        "tex": "\\frac{a}{b} + \\frac{b}{a} &= \\frac{a^2 + b^2}{ab}"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 2 from both sides",
+      "lines": [
+       {
+        "tex": "\\frac{a}{b} + \\frac{b}{a} - 2 &= \\frac{a^2 + b^2 - 2ab}{ab}"
+       },
+       {
+        "tex": "&= \\frac{(a-b)^2}{ab}"
+       }
+      ]
+     },
+     {
+      "title": "Check the sign",
+      "lines": [
+       {
+        "text": "$(a-b)^2 \\ge 0$, and $ab > 0$ because $a, b > 0$. So the fraction is $\\ge 0$."
+       },
+       {
+        "tex": "\\frac{a}{b} + \\frac{b}{a} - 2 &\\ge 0"
+       }
+      ]
+     },
+     {
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "Hence $\\dfrac{a}{b} + \\dfrac{b}{a} \\ge 2$."
+       }
+      ]
+     }
+    ],
+    "final": "\\frac{a}{b} + \\frac{b}{a} \\ge 2"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ineq-quadratic",
+   "title": "Solve a quadratic inequality",
+   "level": "HL",
+   "input": "ax² + bx + c ≤ k",
+   "output": "interval(s)"
+  },
+  "candidates": [
+   {
+    "part": "practice-ineq-quadratic-1",
+    "level": "higher",
+    "year": null,
+    "question": "Find the values of $x \\in \\mathbb{R}$ for which $3x^2 + x \\le 14$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Rearrange to compare with zero",
+      "lines": [
+       {
+        "tex": "3x^2 + x &\\le 14"
+       },
+       {
+        "tex": "3x^2 + x - 14 &\\le 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise to find the roots",
+      "lines": [
+       {
+        "tex": "(3x + 7)(x - 2) &\\le 0"
+       },
+       {
+        "text": "The roots are $x = -\\frac{7}{3}$ and $x = 2$."
+       }
+      ]
+     },
+     {
+      "title": "Read off where the quadratic is negative",
+      "lines": [
+       {
+        "text": "The graph of $3x^2 + x - 14$ is a U-shape, so it is below or on the axis between the roots."
+       },
+       {
+        "tex": "-\\frac{7}{3} &\\le x \\le 2"
+       }
+      ]
+     }
+    ],
+    "final": "-\\frac{7}{3} \\le x \\le 2"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q5#(a)(ii)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Differentiate g(x)",
+      "lines": [
+       {
+        "tex": "g'(x) &= 36"
+       }
+      ]
+     },
+     {
+      "title": "Form the inequality f'(x) > g'(x)",
+      "lines": [
+       {
+        "tex": "6x^2 + 12x - 12 &> 36"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange to compare with zero",
+      "lines": [
+       {
+        "tex": "6x^2 + 12x - 48 &> 0"
+       },
+       {
+        "tex": "x^2 + 2x - 8 &> 0"
+       }
+      ]
+     },
+     {
+      "title": "Find the roots of the quadratic",
+      "lines": [
+       {
+        "tex": "(x+4)(x-2) &> 0"
+       },
+       {
+        "text": "The roots are $x = -4$ and $x = 2$."
+       }
+      ]
+     },
+     {
+      "title": "Read off where the quadratic is positive",
+      "lines": [
+       {
+        "text": "The graph of $x^2+2x-8$ is a U-shape, so it is positive outside the roots."
+       },
+       {
+        "tex": "x &< -4 \\quad \\text{or} \\quad x > 2"
+       }
+      ]
+     }
+    ],
+    "final": "x < -4 \\text{ or } x > 2"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q10#(b)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Write the inequality for P'(x) > 24",
+      "lines": [
+       {
+        "tex": "1.1 + 2.73x - 0.078x^2 &> 24"
+       }
+      ]
+     },
+     {
+      "title": "Rearrange so one side is zero",
+      "lines": [
+       {
+        "text": "Subtract 24 from both sides."
+       },
+       {
+        "tex": "-0.078x^2 + 2.73x - 22.9 &> 0"
+       },
+       {
+        "text": "Multiply both sides by $-1$ and reverse the inequality sign."
+       },
+       {
+        "tex": "0.078x^2 - 2.73x + 22.9 &< 0"
+       }
+      ]
+     },
+     {
+      "title": "Find the roots with the quadratic formula",
+      "lines": [
+       {
+        "text": "Solve $0.078x^2 - 2.73x + 22.9 = 0$ with $a = 0.078$, $b = -2.73$, $c = 22.9$."
+       },
+       {
+        "tex": "x &= \\frac{2.73 \\pm \\sqrt{(2.73)^2 - 4(0.078)(22.9)}}{2(0.078)}"
+       },
+       {
+        "tex": "&= \\frac{2.73 \\pm \\sqrt{7.4529 - 7.1448}}{0.156}"
+       },
+       {
+        "tex": "&= \\frac{2.73 \\pm \\sqrt{0.3081}}{0.156}"
+       },
+       {
+        "tex": "x &\\approx 21.06 \\text{ or } x \\approx 13.94"
+       }
+      ]
+     },
+     {
+      "title": "Choose the values between the roots",
+      "lines": [
+       {
+        "text": "The graph of $0.078x^2 - 2.73x + 22.9$ opens upwards, so it is below zero between the roots."
+       },
+       {
+        "tex": "13.94 &< x < 21.06"
+       }
+      ]
+     },
+     {
+      "title": "Round each value to the nearest whole number",
+      "lines": [
+       {
+        "tex": "14 &\\le x \\le 21"
+       }
+      ]
+     }
+    ],
+    "final": "14 \\le x \\le 21"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "ineq-rational",
+   "title": "Solve a rational inequality",
+   "level": "HL",
+   "input": "(ax + b)/(cx + d) ≤ k",
+   "output": "interval(s), excluding x = −d/c"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p1-q1#(b)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply both sides by (x + 2)^2",
+      "lines": [
+       {
+        "text": "$(x+2)^2$ is always positive (as $x \\ne -2$), so the inequality sign does not change."
+       },
+       {
+        "tex": "\\frac{2x-3}{x+2} &\\ge 3"
+       },
+       {
+        "tex": "(2x-3)(x+2) &\\ge 3(x+2)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand both sides",
+      "lines": [
+       {
+        "tex": "2x^2 + 4x - 3x - 6 &\\ge 3(x^2 + 4x + 4)"
+       },
+       {
+        "tex": "2x^2 + x - 6 &\\ge 3x^2 + 12x + 12"
+       }
+      ]
+     },
+     {
+      "title": "Collect all terms on one side",
+      "lines": [
+       {
+        "tex": "0 &\\ge 3x^2 - 2x^2 + 12x - x + 12 + 6"
+       },
+       {
+        "tex": "0 &\\ge x^2 + 11x + 18"
+       },
+       {
+        "tex": "x^2 + 11x + 18 &\\le 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise to find the roots",
+      "lines": [
+       {
+        "tex": "(x+2)(x+9) &\\le 0"
+       },
+       {
+        "text": "The roots are $x = -2$ and $x = -9$."
+       }
+      ]
+     },
+     {
+      "title": "Choose the values between the roots",
+      "lines": [
+       {
+        "text": "The product of two brackets is negative or zero only between the roots, since the $x^2$ coefficient is positive."
+       },
+       {
+        "tex": "-9 &\\le x \\le -2"
+       },
+       {
+        "text": "The original fraction is undefined at $x = -2$, so exclude it."
+       },
+       {
+        "tex": "-9 &\\le x < -2"
+       }
+      ]
+     }
+    ],
+    "final": "-9 \\le x < -2"
+   },
+   {
+    "part": "practice-ineq-rational-1",
+    "level": "higher",
+    "year": null,
+    "question": "Solve the inequality $\\dfrac{x - 1}{x + 3} \\ge 2$, where $x \\in \\mathbb{R}$, $x \\ne -3$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply both sides by $(x+3)^2$",
+      "lines": [
+       {
+        "text": "$(x+3)^2$ is positive (as $x \\ne -3$), so the inequality sign does not change."
+       },
+       {
+        "tex": "\\frac{x-1}{x+3} &\\ge 2"
+       },
+       {
+        "tex": "(x-1)(x+3) &\\ge 2(x+3)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand both sides",
+      "lines": [
+       {
+        "tex": "x^2 + 2x - 3 &\\ge 2x^2 + 12x + 18"
+       }
+      ]
+     },
+     {
+      "title": "Collect all terms on one side",
+      "lines": [
+       {
+        "tex": "0 &\\ge x^2 + 10x + 21"
+       },
+       {
+        "tex": "x^2 + 10x + 21 &\\le 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise to find the roots",
+      "lines": [
+       {
+        "tex": "(x+3)(x+7) &\\le 0"
+       },
+       {
+        "text": "The roots are $x = -3$ and $x = -7$."
+       }
+      ]
+     },
+     {
+      "title": "Choose the values between the roots",
+      "lines": [
+       {
+        "text": "The quadratic is negative or zero between its roots."
+       },
+       {
+        "tex": "-7 &\\le x \\le -3"
+       },
+       {
+        "text": "The fraction is undefined at $x = -3$, so exclude it."
+       },
+       {
+        "tex": "-7 &\\le x < -3"
+       }
+      ]
+     }
+    ],
+    "final": "-7 \\le x < -3"
+   },
+   {
+    "part": "practice-ineq-rational-2",
+    "level": "higher",
+    "year": null,
+    "question": "Solve the inequality $\\dfrac{2x + 1}{x - 3} < 1$, where $x \\in \\mathbb{R}$, $x \\ne 3$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Multiply both sides by $(x-3)^2$",
+      "lines": [
+       {
+        "text": "$(x-3)^2$ is positive (as $x \\ne 3$), so the inequality sign does not change."
+       },
+       {
+        "tex": "\\frac{2x+1}{x-3} &< 1"
+       },
+       {
+        "tex": "(2x+1)(x-3) &< (x-3)^2"
+       }
+      ]
+     },
+     {
+      "title": "Expand both sides",
+      "lines": [
+       {
+        "tex": "2x^2 - 5x - 3 &< x^2 - 6x + 9"
+       }
+      ]
+     },
+     {
+      "title": "Collect all terms on one side",
+      "lines": [
+       {
+        "tex": "x^2 + x - 12 &< 0"
+       }
+      ]
+     },
+     {
+      "title": "Factorise to find the roots",
+      "lines": [
+       {
+        "tex": "(x+4)(x-3) &< 0"
+       },
+       {
+        "text": "The roots are $x = -4$ and $x = 3$."
+       }
+      ]
+     },
+     {
+      "title": "Choose the values between the roots",
+      "lines": [
+       {
+        "text": "The quadratic is negative between its roots. Since the inequality is strict, $x = 3$ is already excluded."
+       },
+       {
+        "tex": "-4 &< x < 3"
+       }
+      ]
+     }
+    ],
+    "final": "-4 < x < 3"
+   }
+  ]
+ }
+]
