@@ -5,77 +5,151 @@
   "syllabusRef": "1.1.5",
   "notes": [
     {
-      "h": "Vitamin C (ascorbic acid): sources and functions",
+      "h": "Water-soluble vitamins and the RDA",
+      "b": "Vitamin C, vitamin B12 and folate are water-soluble vitamins, so they behave differently from vitamins that dissolve in fat. Knowing this explains why they are needed every day and why cooking can ruin them.",
       "points": [
-        "Citrus fruit, blackcurrants, rosehips, kiwi, strawberries, peppers, broccoli, tomatoes, cabbage and new potatoes are good sources of vitamin C.",
-        "Vitamin C is needed to make collagen, the connective tissue that gives strength to skin, blood vessels, gums, bones and teeth.",
-        "By supporting collagen formation, vitamin C speeds up the healing of wounds.",
-        "Vitamin C converts non-haem iron from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
-        "Vitamin C is an antioxidant that protects cells from damage by free radicals.",
-        "Vitamin C supports the immune system, helping the body resist infection."
-      ]
+        "Water-soluble vitamins (the B group and C) dissolve in water and are not stored in useful amounts in the body. Any excess is lost in urine, so they are needed regularly in the diet.",
+        "The exception is vitamin B12, which the liver stores, so a store builds up that can last for several years.",
+        "Because they dissolve in water, these vitamins are lost into cooking water and are easily destroyed during storage, preparation and cooking.",
+        "The RDA (recommended daily allowance) is the daily amount of a nutrient that meets the needs of almost everyone in a group. It varies with age, sex, pregnancy and breastfeeding, and smokers are advised more vitamin C."
+      ],
+      "tip": "Exams use gap-fill and true or false questions on vitamin C and iron absorption, so learn the basic features of water-soluble vitamins along with the specific vitamins."
+    },
+    {
+      "h": "Vitamin C (ascorbic acid): sources",
+      "b": "Vitamin C is the most-asked vitamin in the exam, and it comes mainly from fruit and vegetables. Fresh, raw and in-season produce has the most.",
+      "points": [
+        "Citrus fruit (oranges, lemons, grapefruit), blackcurrants, rosehips, kiwi fruit and strawberries are rich sources of vitamin C.",
+        "Peppers, broccoli, sprouts, cabbage, tomatoes, new potatoes and peas are good vegetable sources.",
+        "Fresh fruit juices and smoothies, and fortified drinks, also supply vitamin C, and a supplement can too. Any fruit or vegetable is accepted as a source in an answer."
+      ],
+      "tip": "When asked to name a source, give a specific food such as citrus fruit, blackcurrants, peppers or kiwi."
+    },
+    {
+      "h": "Vitamin C: functions",
+      "b": "Vitamin C does several different jobs in the body, and exam questions usually ask for two or three of them. The key one is collagen, because so many other effects follow from it.",
+      "points": [
+        "Vitamin C is needed to make collagen, the protein of connective tissue that gives strength to skin, blood vessels, gums, cartilage, bones and teeth.",
+        "By supporting collagen formation, vitamin C speeds up the healing of wounds, because new tissue can be built.",
+        "Vitamin C aids iron absorption. It converts non-haem iron (the iron in plant foods) from the ferric form (Fe³⁺) to the ferrous form (Fe²⁺), which is absorbed more readily.",
+        "Vitamin C also aids calcium absorption, which marking schemes accept.",
+        "Vitamin C is an antioxidant: it neutralises free radicals (damaging particles) and so protects cells from damage.",
+        "Vitamin C supports the immune system, helping the body resist infection, and it prevents scurvy."
+      ],
+      "tip": "Say that vitamin C changes ferric iron (Fe³⁺) to ferrous iron (Fe²⁺), not that it turns iron into haem iron. It does not directly strengthen bones: it makes the collagen framework that bone and teeth are built on. Don't write that it cures or prevents colds."
     },
     {
       "h": "Vitamin C: deficiency (scurvy)",
+      "b": "If the diet lacks vitamin C for a long time, collagen cannot be made properly and the body's tissues start to fail. The deficiency disease is scurvy.",
       "points": [
         "Scurvy develops after a severe and prolonged lack of vitamin C in the diet.",
-        "Weak collagen causes bleeding gums, loose teeth and easy bruising.",
+        "Weak collagen causes bleeding, sore and swollen gums, loose teeth, easy bruising and painful joints.",
         "Wounds heal slowly because new tissue cannot be formed properly.",
         "Reduced iron absorption can lead to anaemia, with tiredness and pale skin.",
-        "The body becomes more susceptible to infection."
-      ]
+        "The body becomes more susceptible to infection because its resistance is lowered."
+      ],
+      "tip": "Scurvy is the vitamin C disease; beri-beri is B1, pellagra is niacin and rickets is D, and past papers test this matching. For a deficiency answer give scurvy, bleeding gums, bruising, slow healing, anaemia and infections."
     },
     {
-      "h": "Vitamin B12 (cobalamin): sources and functions",
+      "h": "Retaining vitamin C when preparing and cooking",
+      "b": "Vitamin C is easily lost, but the loss depends on method and time. Cooking does not destroy all of it: steaming, microwaving and short cooking keep most.",
       "points": [
-        "Vitamin B12 occurs naturally only in animal foods: liver and kidney, red meat, oily fish, eggs, milk and cheese.",
-        "Plant foods contain no natural vitamin B12; vegans need fortified foods such as some breakfast cereals and yeast extracts.",
+        "Buy fresh produce and use it quickly, and eat it raw where possible.",
+        "Wash vegetables before cutting rather than soaking them, prepare them just before cooking and cut them in large pieces, so less of the surface is exposed.",
+        "Cook in a little boiling water for a short time with the lid on, or steam, microwave or stir-fry, so less vitamin C dissolves or is destroyed.",
+        "Do not use bicarbonate of soda or copper pans, which destroy the vitamin.",
+        "Serve at once rather than keeping the food hot, and use the cooking water in soups and sauces to recover the vitamin that dissolved into it."
+      ],
+      "tip": "Questions on retaining vitamin C expect: use fresh, avoid soaking, cook briefly, use minimum water, put the lid on, and avoid bicarbonate of soda and copper pans."
+    },
+    {
+      "h": "Properties of vitamin C (Higher Level only)",
+      "b": "Ascorbic acid is a very unstable vitamin, and its properties explain every rule for keeping it in food. Higher Level answers on vitamin C add these properties to sources, functions and deficiency.",
+      "points": [
+        "Vitamin C is a white, crystalline, acidic substance with a sweet-sour taste, and it is very soluble in water.",
+        "Because it is water-soluble, vitamin C is lost into cooking water when vegetables are boiled or soaked.",
+        "Vitamin C is destroyed by prolonged heat, by light, by alkalis such as bicarbonate of soda, and by oxidation in air.",
+        "The enzyme oxidase is released when plant cells are cut or bruised and destroys vitamin C, so cut vegetables should be cooked promptly.",
+        "Copper and brass pans destroy vitamin C, and it is also lost during long storage and dehydration.",
+        "Vitamin C is an antioxidant, which means it acts as a reducing agent (it donates electrons), and this is how it changes ferric iron to ferrous iron."
+      ],
+      "tip": "For the Higher Level properties, learn the list: water-soluble, crystalline acid, unstable to heat, air, light, alkali, oxidase, copper and dehydration. For how vitamin C helps iron absorption, say it changes ferric iron to ferrous iron as a reducing agent."
+    },
+    {
+      "h": "Vitamin B12 (cobalamin): sources and absorption",
+      "b": "Vitamin B12 is unusual because only animal foods contain it naturally. Its absorption also needs a helper made in the stomach.",
+      "points": [
+        "Vitamin B12 occurs naturally only in animal foods: liver and kidney, meat, fish and oily fish, eggs, milk, cheese and yoghurt.",
+        "Plant foods contain no natural vitamin B12, so vegans rely on fortified foods such as some breakfast cereals, plant milks and yeast extract, or on supplements.",
+        "The lining of the stomach makes intrinsic factor, a protein that binds vitamin B12 so that it can be absorbed in the ileum (the end of the small intestine).",
+        "The liver stores vitamin B12, and the store can last for several years, so deficiency develops slowly."
+      ],
+      "tip": "Expect vegan diet questions on B12: the answer is that plant foods have no natural B12, so fortified foods or supplements are needed."
+    },
+    {
+      "h": "Vitamin B12: functions",
+      "b": "B12 is needed wherever cells are being made or nerves are working, which is why its deficiency affects both the blood and the nervous system.",
+      "points": [
         "Vitamin B12 works with folate to form healthy red blood cells.",
-        "Vitamin B12 maintains the myelin sheath, the fatty layer that insulates nerve fibres and keeps nerve impulses working normally.",
-        "Vitamin B12 is needed for the synthesis of DNA in cells that divide rapidly.",
-        "The stomach makes intrinsic factor, a protein that binds vitamin B12 so that it can be absorbed in the ileum.",
-        "The liver stores vitamin B12, and the store can last for several years."
-      ]
+        "Vitamin B12 is needed for the synthesis of DNA, so it is needed for cell division, especially in cells that divide rapidly.",
+        "Vitamin B12 maintains the myelin sheath, the fatty layer that insulates nerve fibres and keeps nerve impulses working normally, so it keeps nerve cells healthy.",
+        "Vitamin B12 is also involved in the body's use of fatty acids and amino acids."
+      ],
+      "tip": "Higher Level questions expect red blood cell formation and the nerve myelin sheath."
     },
     {
       "h": "Vitamin B12: deficiency",
+      "b": "A lack of B12 harms both the blood and the nerves. The cause can be the diet or a failure to absorb the vitamin.",
       "points": [
-        "Pernicious anaemia results when B12 is lacking and red blood cells are large, immature and unable to carry oxygen effectively.",
-        "Symptoms of anaemia include tiredness, weakness, pale skin and breathlessness.",
-        "Nerve damage causes numbness and tingling in the hands and feet, and poor balance.",
-        "Lack of intrinsic factor, often through an autoimmune condition, prevents B12 absorption even when the diet is adequate.",
-        "A strict vegan diet without fortified foods can also cause deficiency."
+        "B12 deficiency causes megaloblastic anaemia, in which red blood cells are too large and immature and cannot carry oxygen effectively.",
+        "Symptoms of this anaemia include tiredness, weakness, pale skin and breathlessness.",
+        "Nerve damage causes numbness and tingling in the hands and feet, poor balance and memory problems.",
+        "A strict vegan diet without fortified foods or supplements can cause deficiency.",
+        "Pernicious anaemia is the form of B12 deficiency caused by a lack of intrinsic factor, often through an autoimmune condition, which prevents B12 absorption even when the diet is adequate.",
+        "Failure to absorb B12 can also come from stomach or gut disease, and older people absorb less."
+      ],
+      "tip": "Pernicious anaemia is specifically B12 deficiency because intrinsic factor is missing; a vegan with a B12-poor diet has B12-deficiency (megaloblastic) anaemia, not strictly pernicious anaemia. Only B12 deficiency, not folate deficiency, damages nerves."
+    },
+    {
+      "h": "Properties of vitamin B12 (Higher Level only)",
+      "b": "B12 is more stable than vitamin C, but it is not indestructible.",
+      "points": [
+        "Vitamin B12 is water-soluble, so some is lost into cooking water.",
+        "Vitamin B12 is a red crystalline compound that contains the mineral cobalt, which gives it the name cobalamin.",
+        "Vitamin B12 is stable to heat in ordinary cooking but is destroyed by light and by strong acids and alkalis."
       ]
     },
     {
       "h": "Folate (folic acid): sources and functions",
+      "b": "Folate is the natural form of vitamin B9, and folic acid is the synthetic form. Folate is needed for making new cells, which matters most in early pregnancy.",
       "points": [
-        "Natural folate is found in dark green leafy vegetables such as spinach and broccoli, in pulses such as chickpeas and lentils, in asparagus, oranges and liver.",
-        "Folic acid is the synthetic form used in supplements and in fortified foods such as breakfast cereals.",
-        "Folate is needed to synthesise DNA and RNA, so it is essential for cell division and growth.",
+        "Natural folate is found in dark green leafy vegetables such as spinach, broccoli, sprouts and cabbage, in pulses such as chickpeas, lentils and beans, and in asparagus, oranges, liver and yeast extract.",
+        "Wholegrain and fortified breakfast cereals also supply folate.",
+        "Folic acid is the synthetic form used in supplements and in fortified foods such as breakfast cereals. It is not a different vitamin from folate.",
+        "Folate is needed to synthesise DNA and RNA, so it is essential for cell division and growth, including the growth of the foetus.",
         "Folate works with vitamin B12 to form red blood cells.",
-        "In early pregnancy, folate is essential for the development of the neural tube, which becomes the brain and spinal cord."
-      ]
+        "In the first weeks of pregnancy, folate is essential for the formation of the neural tube, the early brain and spinal cord, and it protects against neural tube defects such as spina bifida and anencephaly."
+      ],
+      "tip": "Questions ask for two or three functions of folate plus two sources: red blood cells, DNA and RNA synthesis, foetal development and preventing neural tube defects; green leafy vegetables, pulses, liver and fortified cereals."
     },
     {
       "h": "Folate: deficiency and protection",
+      "b": "The neural tube forms in the first weeks of pregnancy, before many women know they are pregnant, so folate advice is aimed at women before they conceive.",
       "points": [
-        "A lack of folate causes megaloblastic anaemia, with the same large, immature red blood cells as B12 deficiency.",
-        "Neural tube defects, such as spina bifida and anencephaly, can develop in the unborn baby if folate is lacking in early pregnancy.",
-        "Folic acid supplements are recommended before conception and during early pregnancy to reduce the risk of neural tube defects."
-      ]
+        "A lack of folate causes megaloblastic anaemia, with the same large, immature red blood cells as B12 deficiency, and tiredness, weakness, pale skin, breathlessness and a sore tongue.",
+        "Neural tube defects, such as spina bifida and anencephaly, can develop in the unborn baby if the mother lacks folate in early pregnancy.",
+        "Poor growth is also an effect of folate deficiency.",
+        "Women who may become pregnant are advised, in HSE advice, to take a folic acid supplement before conception and during early pregnancy to reduce the risk of neural tube defects, as well as eating folate-rich foods."
+      ],
+      "tip": "Neural tube defect prevention by folic acid is asked as a gap-fill. Folate and B12 deficiency give the same type of anaemia, but only B12 deficiency damages nerves."
     },
     {
-      "h": "Properties of vitamins C, B12 and folate (Higher Level only)",
+      "h": "Properties of folate (Higher Level only)",
+      "b": "Folate is fragile in the kitchen, which is why fortified foods use the more stable synthetic form.",
       "points": [
-        "Vitamin C is a white, crystalline, acidic substance with a sweet-sour taste.",
-        "Vitamin C is water-soluble and is lost into cooking water when vegetables are boiled or soaked.",
-        "Vitamin C is destroyed by prolonged heat, by alkalis and by oxidation in air.",
-        "The enzyme oxidase destroys vitamin C once vegetables are cut or bruised, so cut vegetables should be cooked promptly.",
-        "Copper and brass pans destroy vitamin C, and alkalis such as bicarbonate of soda do too.",
-        "Folate is water-soluble and is sensitive to heat, light and oxygen.",
+        "Folate is water-soluble and is sensitive to heat, light and oxygen, so it is destroyed by prolonged cooking and storage.",
         "Folate is lost into cooking water during prolonged boiling.",
-        "Vitamin B12 contains the mineral cobalt, which gives it the name cobalamin."
+        "Synthetic folic acid is more stable than natural folate, which is why it is used in fortification."
       ]
     }
   ],

@@ -5,77 +5,95 @@
   "syllabusRef": "1.1.3",
   "notes": [
     {
-      "h": "Enzymes and hydrolysis of carbohydrates (assumed knowledge)",
-      "b": "Carbohydrate digestion is the hydrolysis of the glycosidic bonds that link sugar units.",
+      "h": "Enzymes and hydrolysis of carbohydrates",
+      "b": "Food carbohydrates are too big to pass into the blood, so digestion chops them into small sugar units. This is done by hydrolysis, the splitting of the glycosidic bonds (the links) that join sugar units together.",
       "points": [
-        "Starch is a polysaccharide made of many glucose units joined by glycosidic bonds.",
-        "Maltose is two glucose units joined together; sucrose is glucose joined to fructose; lactose is glucose joined to galactose.",
-        "Hydrolysis adds water across a glycosidic bond, splitting a disaccharide into two monosaccharides or a polysaccharide into smaller units.",
-        "Each carbohydrate-digesting enzyme acts on one substrate: amylase on starch, maltase on maltose, sucrase on sucrose and lactase on lactose.",
-        "Diagram: glucose unit linked to a second glucose unit by a glycosidic bond, with the water added during hydrolysis labelled."
-      ]
+        "Digestion turns large food molecules into small soluble ones by hydrolysis, using enzymes. Enzymes are biological catalysts, each specific to one substrate, and they work at about 37 °C, body temperature.",
+        "Starch is a polysaccharide made of many glucose units joined by glycosidic bonds, so it is a very large molecule that must be broken down before it can be absorbed.",
+        "Maltose is two glucose units joined together; sucrose is glucose joined to fructose; lactose is glucose joined to galactose. These three are disaccharides (double sugars).",
+        "Hydrolysis adds water across a glycosidic bond, splitting a disaccharide into two monosaccharides or a polysaccharide into smaller units. The end products are the monosaccharides glucose, fructose and galactose, the only forms small enough to be absorbed.",
+        "Each carbohydrate-digesting enzyme acts on one substrate, and its name ends in -ase and names that substrate: amylase on starch, maltase on maltose, sucrase on sucrose and lactase on lactose.",
+        "Diagram: glucose unit linked to a second glucose unit by a glycosidic bond, with the water added during hydrolysis labelled, giving two monosaccharides."
+      ],
+      "tip": "Keep the pairs separate: amylase acts on starch and gives maltose, while maltase acts on maltose and gives glucose. Students often blur these two."
     },
     {
       "h": "Mouth: starch digestion begins",
+      "b": "Carbohydrate digestion starts in the mouth, where chewing and saliva begin to break down starch.",
       "points": [
+        "Chewing breaks food into smaller pieces (mechanical digestion), which gives the enzymes more surface to work on.",
         "Organ and secretion: the salivary glands secrete saliva, which contains salivary amylase.",
-        "Substrate and product: salivary amylase hydrolyses starch into dextrins and maltose.",
+        "Substrate and product: salivary amylase hydrolyses starch into dextrins (shorter chains of glucose units) and maltose.",
         "Digestion in the mouth is brief, because food is chewed and swallowed quickly, so much of the starch reaches the small intestine undigested.",
         "Diagram: the alimentary canal, with the mouth, salivary glands and oesophagus labelled."
-      ]
+      ],
+      "tip": "When asked for the enzyme, name which amylase you mean: salivary amylase in the mouth, giving dextrins and maltose. Salivary amylase starting starch digestion in the mouth has been asked at Ordinary Level."
     },
     {
       "h": "Stomach: carbohydrate digestion stops",
+      "b": "Starch digestion pauses in the stomach, because the conditions there do not suit the enzyme that arrives from the mouth.",
       "points": [
-        "The acid of the stomach, hydrochloric acid, denatures salivary amylase and stops its action on starch.",
+        "The acid of the stomach, hydrochloric acid, denatures salivary amylase (changes its shape so it no longer works) and stops its action on starch.",
         "The stomach secretes no enzyme that digests carbohydrate.",
-        "Starch, dextrins and maltose leave the stomach as part of the chyme and pass into the duodenum."
-      ]
+        "Starch, dextrins and maltose leave the stomach as part of the chyme (the semi-liquid mixture of food and gastric juice) and pass into the duodenum, the first part of the small intestine."
+      ],
+      "tip": "Never say the stomach digests carbohydrate. Starch digestion happens in two places, the mouth and the duodenum, with a pause in between."
     },
     {
       "h": "Small intestine: carbohydrate digestion is completed",
+      "b": "Most starch is digested in the small intestine. Pancreatic juice finishes the starch, then enzymes from the intestine wall split the disaccharides into single sugars.",
       "points": [
-        "Organ and secretion: the pancreas secretes pancreatic juice, which contains pancreatic amylase.",
-        "Pancreatic amylase hydrolyses the remaining starch and dextrins into maltose.",
-        "The wall of the small intestine secretes intestinal juice, which contains maltase, sucrase and lactase.",
+        "Organ and secretion: the pancreas, a gland, secretes pancreatic juice, which contains pancreatic amylase. It enters the duodenum by the pancreatic duct.",
+        "Pancreatic amylase hydrolyses the remaining starch and dextrins into maltose. It is a different enzyme from salivary amylase but acts on the same substrate.",
+        "Pancreatic juice is alkaline, which neutralises the acidic chyme so the intestinal enzymes can work.",
+        "The wall of the small intestine secretes intestinal juice from glands in its wall. It contains maltase, sucrase and lactase, which finish the job, and each acts only on its own substrate.",
         "Maltase hydrolyses maltose into two glucose molecules.",
         "Sucrase hydrolyses sucrose into glucose and fructose.",
-        "Lactase hydrolyses lactose into glucose and galactose.",
-        "Non-starch polysaccharides (dietary fibre) are not hydrolysed by human enzymes and pass into the large intestine."
-      ]
+        "Lactase hydrolyses lactose into glucose and galactose, so the products of the disaccharidases are not all glucose.",
+        "Non-starch polysaccharides (dietary fibre) are not hydrolysed by human enzymes, so they pass into the large intestine. Fibre is the carbohydrate that is not digested."
+      ],
+      "tip": "The Section A table gives a secretion or organ and asks for enzyme, substrate and product, and any row can come up. For lactose give both glucose and galactose, and name the secretion and enzyme together with the organ. Learn all five rows: salivary amylase, pancreatic amylase, maltase, sucrase, lactase."
     },
     {
       "h": "Route through the alimentary canal",
+      "b": "Putting the stages in order shows how starch travels from the mouth to the blood and on to the liver.",
       "points": [
         "Mouth: salivary amylase begins starch digestion.",
         "Stomach: acid stops amylase action, and food is mixed to form chyme.",
         "Duodenum: pancreatic amylase and intestinal juice complete digestion to monosaccharides.",
         "Villi of the small intestine: monosaccharides are absorbed into the capillaries inside each villus.",
-        "Hepatic portal vein: carries the monosaccharides from the small intestine to the liver.",
-        "Liver: receives the glucose and galactose first, before glucose enters the general circulation.",
-        "Diagram: the digestive system, labelled mouth, stomach, pancreas, small intestine, liver and hepatic portal vein."
-      ]
+        "Hepatic portal vein: carries all the monosaccharides, glucose, fructose and galactose, from the small intestine to the liver.",
+        "Liver: converts fructose and galactose to glucose, and glucose then enters the general circulation.",
+        "Diagram: the digestive system, labelled mouth, salivary glands, stomach, pancreas, small intestine, liver and hepatic portal vein, with where each enzyme acts."
+      ],
+      "tip": "For a long answer on the digestion and absorption of starch, follow this route in order: mouth, stomach pause, duodenum, small intestine, absorption, then the hepatic portal vein."
     },
     {
       "h": "Absorption of monosaccharides",
+      "b": "Only monosaccharides are small enough to cross the wall of the small intestine. The wall is built to absorb them quickly and has two different ways of moving them across.",
       "points": [
-        "Villi increase the surface area of the small intestine wall; each villus contains a capillary network.",
-        "Glucose and galactose are absorbed by active transport, which uses energy and is coupled with sodium ions.",
-        "Fructose is absorbed by facilitated diffusion, which moves it down its concentration gradient through carrier proteins.",
-        "Monosaccharides leave the villi in the blood of the capillaries, which join to form the hepatic portal vein.",
-        "Diagram: cross-section of a villus showing the capillary network and the direction of glucose and fructose movement."
-      ]
+        "The small intestine is very long and its lining is folded into villi, with microvilli on their cells, so the surface area for absorption is large.",
+        "Each villus has a thin wall, so sugars cross quickly, and a capillary network that carries them away. It also has a central lacteal, which is used for fat.",
+        "Glucose and galactose are absorbed by active transport, which uses energy and carrier proteins and is coupled with sodium ions.",
+        "Fructose is absorbed by facilitated diffusion, which moves it down its concentration gradient through carrier proteins without using energy.",
+        "Monosaccharides leave the villi in the blood of the capillaries, which join to form the hepatic portal vein. The vein carries all of them to the liver.",
+        "Diagram: cross-section of a villus showing the capillary network, the lacteal and the direction of glucose and fructose movement."
+      ],
+      "tip": "Fructose is absorbed differently from glucose and galactose: facilitated diffusion, with no energy, rather than active transport. Say that the end products are monosaccharides, not just sugar."
     },
     {
       "h": "Utilisation of glucose (Higher Level only)",
+      "b": "Once glucose is in the blood it has several possible fates: it is used for energy, stored, or converted to fat. Two pancreatic hormones keep the blood glucose level steady.",
       "points": [
-        "Glucose is the main fuel for the brain and red blood cells.",
-        "Cells oxidise glucose in respiration, releasing energy that is stored in ATP.",
-        "Surplus glucose is stored as glycogen, a branched polysaccharide, in the liver and muscles.",
+        "Glucose in the blood is carried to the cells, where cells oxidise it in respiration, releasing heat and energy, some of which is stored in ATP. It is the main fuel for the brain and red blood cells.",
+        "Carbohydrate spares protein: because glucose supplies the energy, protein can be used for growth and repair instead.",
+        "Surplus glucose is stored as glycogen, a branched polysaccharide of glucose, in the liver and muscles. Glycogen is the animal store, whereas starch is the plant store.",
         "Insulin, released from the beta cells of the pancreas, promotes the uptake of glucose into cells and its storage as glycogen, which lowers blood glucose.",
         "Glucagon, released from the alpha cells of the pancreas, causes the liver to break down glycogen and release glucose, which raises blood glucose.",
-        "When glycogen stores are full, the liver converts surplus glucose into fatty acids and triglycerides."
-      ]
+        "When glycogen stores are full, the liver converts surplus glucose into fatty acids and triglycerides, which are stored as fat in adipose tissue.",
+        "Insulin and glucagon are hormones released into the blood, not digestive secretions, so they are a different job of the pancreas from making pancreatic juice."
+      ],
+      "tip": "Marks go for oxidation to give heat and energy, storage as glycogen in the liver and muscles, conversion of the excess to fat, and the roles of insulin and glucagon if the question is about regulation. Glycogen is stored in the liver and muscles, not in the pancreas or blood."
     }
   ],
   "keyTerms": [
