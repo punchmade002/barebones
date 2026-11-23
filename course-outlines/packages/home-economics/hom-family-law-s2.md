@@ -43,7 +43,7 @@ No case names, no dates other than 1976 and 1995, no figures.
 ## 3. Traps
 
 - Do not use: "the Act protects rented homes", because whether a tenancy of the family home is protected could not be settled (s.3(6) treats lessees as purchasers); leave it out unless confirmed. Do not say the Act does not apply to rented homes.
-- Do not use: "a spouse's right of occupation can be registered as a burden on the title", because this is unconfirmed after searching; leave out any registration detail.
+- Do not use: "a spouse's right of occupation can be registered as a burden on the title", because the Act gives no right of occupation; what a spouse can register (s.12) is a notice of the marriage against the property, which warns buyers and lenders that consent is needed.
 - Do not use: the Act "protects essential services (such as electricity or heating) from being cut off", because marking-scheme summaries mention it but it could not be confirmed.
 - Do not use: "the non-consenting spouse can ask the court to set the sale aside" as the route, because a dealing without prior written consent is void by the Act itself; the court's role is to dispense with consent (C1). The earlier notes' step 4 should say the dealing is void.
 - Do not use: "right of occupation" as a technical term, because the Act is expressed as a consent rule. Say "protection against the home being sold, leased or mortgaged without agreement".
