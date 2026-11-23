@@ -1,0 +1,181 @@
+[
+{"skill": "num-fractions", "problems": [
+ {"part": "practice-num-fractions-1", "note": null,
+  "legend": {"1": "the fractions set up for the operation", "2": "the result before the last step", "3": "the answer"},
+  "steps": [
+   {"ask": "How many halves are in 2½, and how many thirds are in 1⅔?", "title": "Write the mixed numbers as improper fractions",
+    "lines": [{"tex": "2\\frac{1}{2} + 1\\frac{2}{3} &= \\frac{5}{2} + \\frac{5}{3}"}]},
+   {"ask": "Which number do both denominators 2 and 3 divide into, so you can rewrite both fractions over it?", "title": "Use the common denominator 6",
+    "lines": [{"tex": "&= \\hl{1}{\\frac{15}{6}} + \\hl{1}{\\frac{10}{6}}"}]},
+   {"ask": "With matching denominators, what do you do with the top numbers?", "title": "Add",
+    "lines": [{"tex": "&= \\hl{2}{\\frac{25}{6}}"}]}
+  ],
+  "final": "\\hl{3}{\\frac{25}{6}}", "graph": null},
+ {"part": "practice-num-fractions-2", "note": "Changed from problem 1: two proper fractions with no whole numbers, set in a savings context, and a subtraction from 1. Still adds fractions over a common denominator and then simplifies.",
+  "legend": {"1": "the fractions set up for the operation", "2": "the result before the last step", "3": "the answer"},
+  "steps": [
+   {"ask": "What must the denominators of ¼ and ⅖ be before you can add them?", "title": "Add the fractions spent",
+    "lines": [{"tex": "\\frac{1}{4} + \\frac{2}{5} &= \\hl{1}{\\frac{5}{20}} + \\hl{1}{\\frac{8}{20}}"}, {"tex": "&= \\hl{2}{\\frac{13}{20}}"}]},
+   {"ask": "The whole savings is 1. What do you take away from it to find what is left?", "title": "Subtract from the whole",
+    "lines": [{"tex": "1 - \\hl{2}{\\frac{13}{20}} &= \\frac{20}{20} - \\hl{2}{\\frac{13}{20}}"}, {"tex": "&= \\hl{3}{\\frac{7}{20}}"}]}
+  ],
+  "final": "\\hl{3}{\\frac{7}{20}}", "graph": null},
+ {"part": "practice-num-fractions-3", "note": "Changed from problem 2: the operation is now division, so the second fraction is turned upside down and multiplied. Still starts from a mixed number written as an improper fraction.",
+  "legend": {"1": "the fractions set up for the operation", "2": "the result before the last step", "3": "the answer"},
+  "steps": [
+   {"ask": "How many eighths make 1⅛?", "title": "Write the mixed number as an improper fraction",
+    "lines": [{"tex": "1\\frac{1}{8} &= \\hl{1}{\\frac{9}{8}}"}]},
+   {"ask": "What do you do with the second fraction so that dividing becomes multiplying?", "title": "Divide by multiplying by the reciprocal",
+    "lines": [{"tex": "\\hl{1}{\\frac{3}{4}} \\div \\hl{1}{\\frac{9}{8}} &= \\hl{1}{\\frac{3}{4}} \\times \\hl{1}{\\frac{8}{9}}"}, {"tex": "&= \\hl{2}{\\frac{24}{36}}"}]},
+   {"ask": "What is the largest number that divides both 24 and 36?", "title": "Simplify",
+    "lines": [{"tex": "&= \\hl{3}{\\frac{2}{3}}"}]}
+  ],
+  "final": "\\hl{3}{\\frac{2}{3}}", "graph": null}
+]},
+{"skill": "num-order-operations", "problems": [
+ {"part": "practice-num-order-operations-1", "note": null,
+  "legend": {"1": "the power, worked out", "2": "the product (multiply step), worked out", "3": "the answer"},
+  "steps": [
+   {"ask": "Which part of the expression must be worked out first, and why?", "title": "Brackets first",
+    "lines": [{"tex": "20 - 3 \\times (4-7)^2 + 5 &= 20 - 3 \\times \\hl{1}{(-3)^2} + 5"}]},
+   {"ask": "What do you do with (−3) before multiplying by 3?", "title": "Then the power",
+    "lines": [{"tex": "&= 20 - 3 \\times \\hl{1}{9} + 5"}]},
+   {"ask": "Which comes next: the multiplication or the adding and subtracting?", "title": "Then multiply",
+    "lines": [{"tex": "&= 20 - \\hl{2}{27} + 5"}]},
+   {"ask": "Working from the left, what is the first addition or subtraction to do?", "title": "Then add and subtract from left to right",
+    "lines": [{"tex": "&= -7 + 5"}, {"tex": "&= \\hl{3}{-2}"}]}
+  ],
+  "final": "\\hl{3}{-2}", "graph": null},
+ {"part": "practice-num-order-operations-2", "note": "Changed from problem 1: the numbers are fractions, and the power is on a fraction instead of a bracket of integers. The order stays the same: powers, then multiply, then add and subtract.",
+  "legend": {"1": "the power, worked out", "2": "the product (multiply step), worked out", "3": "the answer"},
+  "steps": [
+   {"ask": "What is (½)² as a single fraction?", "title": "Powers first",
+    "lines": [{"tex": "\\left(\\frac12\\right)^2 + 6 \\times \\frac13 - \\frac34 &= \\hl{1}{\\frac14} + 6 \\times \\frac13 - \\frac34"}]},
+   {"ask": "Which comes next: the multiplication 6 × ⅓, or the adding and subtracting?", "title": "Then multiply",
+    "lines": [{"tex": "&= \\hl{1}{\\frac14} + \\hl{2}{2} - \\frac34"}]},
+   {"ask": "What common denominator can you use for ¼, 2 and ¾ so they can be added?", "title": "Write over a common denominator",
+    "lines": [{"tex": "&= \\hl{1}{\\frac14} + \\frac84 - \\frac34"}]},
+   {"ask": "What is the numerator when you calculate 1 + 8 − 3?", "title": "Add and subtract",
+    "lines": [{"tex": "&= \\frac64"}, {"tex": "&= \\hl{3}{\\frac32}"}]}
+  ],
+  "final": "\\hl{3}{\\frac32}", "graph": null},
+ {"part": "practice-num-order-operations-3", "note": "Changed from problem 2: there is now a fraction bar and a square root, so the top and the bottom are worked out separately first. The order of operations is the same.",
+  "legend": {"1": "the power, worked out", "2": "the product (multiply step), worked out", "3": "the answer"},
+  "steps": [
+   {"ask": "What is 5 − 2, and what do you do with the power next?", "title": "Brackets and powers on the top",
+    "lines": [{"tex": "(5-2)^3 + 9 &= \\hl{1}{3^3} + 9"}, {"tex": "&= \\hl{1}{27} + 9"}, {"tex": "&= 36"}]},
+   {"ask": "What must you multiply on the bottom before you subtract 6?", "title": "Multiply on the bottom",
+    "lines": [{"tex": "\\hl{2}{4 \\times 3} - 6 &= \\hl{2}{12} - 6"}, {"tex": "&= 6"}]},
+   {"ask": "What is the square root of 49, and how does the fraction bar treat 36 and 6?", "title": "Divide, and find the root",
+    "lines": [{"tex": "\\frac{36}{6} - \\sqrt{49} &= 6 - 7"}]},
+   {"ask": "What is 6 − 7?", "title": "Subtract",
+    "lines": [{"tex": "6 - 7 &= \\hl{3}{-1}"}]}
+  ],
+  "final": "\\hl{3}{-1}", "graph": null}
+]},
+{"skill": "num-prime-factors", "problems": [
+ {"part": "practice-num-prime-factors-1", "note": null,
+  "legend": {"1": "the working value (prime factors, LCM or factor count)", "2": "the answer"},
+  "steps": [
+   {"ask": "What is the smallest prime that divides 84?", "title": "Factorise 84",
+    "lines": [{"tex": "84 &= 2 \\times 42"}, {"tex": "&= 2 \\times 2 \\times 21"}, {"tex": "&= \\hl{1}{2^2 \\times 3 \\times 7}"}]},
+   {"ask": "Which prime divides 126, and what do you get when you divide it out?", "title": "Factorise 126",
+    "lines": [{"tex": "126 &= 2 \\times 63"}, {"tex": "&= 2 \\times 3 \\times 21"}, {"tex": "&= \\hl{1}{2 \\times 3^2 \\times 7}"}]},
+   {"ask": "Which primes appear in both lists, and which power of each is the smaller?", "title": "Multiply the primes common to both, using the lower power of each",
+    "lines": [{"text": "Common: $2^1$, $3^1$ and $7^1$."}, {"tex": "\\text{HCF} &= \\hl{1}{2 \\times 3 \\times 7}"}, {"tex": "&= \\hl{2}{42}"}]}
+  ],
+  "final": "\\hl{2}{42}", "graph": null},
+ {"part": "maths-pp-2025-ordinary-p1-q1#(b)(i), (ii)", "note": "Changed from problem 1: this is a timing question, and the lowest common multiple (36) is found by listing multiples, not by prime factors or an HCF. The 36 is marked as the working value.",
+  "legend": {"1": "the working value (prime factors, LCM or factor count)", "2": "the answer"},
+  "steps": [
+   {"ask": "At what times does each person finish a window, and when do they both finish together?", "title": "List the times each person finishes a window",
+    "lines": [{"text": "Máiréad finishes at $9, 18, 27, \\hl{1}{36}, \\ldots$ minutes."}, {"text": "Diarmuid finishes at $12, 24, \\hl{1}{36}, \\ldots$ minutes."}, {"text": "The first time they match is $\\hl{1}{36}$ minutes (the lowest common multiple of 9 and 12)."}]},
+   {"ask": "In 36 minutes, how many windows does each person clean?", "title": "Windows cleaned in 36 minutes together",
+    "lines": [{"tex": "\\text{Máiréad: } \\hl{1}{36} \\div 9 &= 4"}, {"tex": "\\text{Diarmuid: } \\hl{1}{36} \\div 12 &= 3"}, {"tex": "\\text{Together: } 4 + 3 &= 7"}]},
+   {"ask": "How many blocks of 7 windows does it take to clean 35 windows?", "title": "Find how many 36-minute blocks are needed for 35 windows",
+    "lines": [{"tex": "35 \\div 7 &= 5"}]},
+   {"ask": "How many minutes do 5 blocks of 36 minutes take, and how many hours is that?", "title": "Multiply by 36 minutes",
+    "lines": [{"tex": "5 \\times \\hl{1}{36} &= \\hl{2}{180}"}, {"text": "$\\hl{2}{180}$ minutes is $3$ hours."}]}
+  ],
+  "final": "\\text{(i) } \\hl{1}{36} \\text{ minutes;}\\quad \\text{(ii) } \\hl{2}{180} \\text{ minutes (3 hours)}", "graph": null},
+ {"part": "maths-pp-2023-higher-p1-q9#(a)(i), (ii), (iii)", "note": "Changed from problem 2: it counts the factors of prime powers rather than finding a common factor, so prime factorisation is used in a different way. It keeps the prime-power idea, with 2^10 and 3^12 instead of 84 and 126.",
+  "legend": {"1": "the working value (prime factors, LCM or factor count)", "2": "the answer"},
+  "steps": [
+   {"ask": "Which powers of 2 divide exactly into 2⁴?", "title": "(i) List the factors of 2^4",
+    "lines": [{"text": "The factors of $2^4$ are the powers of 2 from $2^0$ up to $2^4$."}, {"text": "They are $2^0, 2^1, 2^2, 2^3, 2^4$, that is $1, 2, 4, 8, 16$."}]},
+   {"ask": "How many powers of 3, from 3⁰ up to 3⁷, are there?", "title": "(ii) Count the factors of 3^7",
+    "lines": [{"text": "The factors are $3^0, 3^1, 3^2, 3^3, 3^4, 3^5, 3^6, 3^7$."}, {"text": "That is 8 different factors."}]},
+   {"ask": "If the two primes share no factors, how do the counts for each prime combine?", "title": "(iii) Count the factors of 2^10 × 3^12",
+    "lines": [{"text": "$\\hl{1}{2^{10}}$ and $\\hl{1}{3^{12}}$ share no factors, so every factor is a factor of $\\hl{1}{2^{10}}$ times a factor of $\\hl{1}{3^{12}}$."},
+              {"text": "$\\hl{1}{2^{10}}$ has $\\hl{1}{11}$ factors ($2^0$ to $\\hl{1}{2^{10}}$) and $\\hl{1}{3^{12}}$ has $\\hl{1}{13}$ factors ($3^0$ to $\\hl{1}{3^{12}}$)."},
+              {"tex": "\\text{factors} &= (10 + 1)(12 + 1)"}, {"tex": "&= \\hl{1}{11 \\times 13}"}, {"tex": "&= \\hl{2}{143}"}]}
+  ],
+  "final": "\\text{(i) } 1, 2, 4, 8, 16 \\quad \\text{(ii) } 8 \\quad \\text{(iii) } \\hl{2}{143}", "graph": null}
+]},
+{"skill": "num-sets", "problems": [
+ {"part": "practice-num-sets-1", "note": null,
+  "legend": {"1": "the number being classified or listed", "2": "the set it must belong to"},
+  "steps": [
+   {"ask": "Which of these simplify to whole numbers? Try the root and the division first.", "title": "Simplify each number",
+    "lines": [{"tex": "\\sqrt{25} &= \\hl{1}{5}"}, {"tex": "\\frac{-12}{3} &= \\hl{1}{-4}"}, {"text": "$\\frac{3}{4}$ is a fraction and $\\sqrt{10}$ is irrational, so neither is an integer."}]},
+   {"ask": "Which whole numbers are not counting numbers (1, 2, 3, …)?", "title": "Pick out the integers that are not natural numbers",
+    "lines": [{"text": "$\\hl{1}{5} \\in \\hl{2}{\\mathbb{N}}$, so it is excluded. The negative integers $\\hl{1}{-7}$ and $\\hl{1}{-4}$ are in $\\hl{2}{\\mathbb{Z}}$ but not $\\hl{2}{\\mathbb{N}}$."}]}
+  ],
+  "final": "-7, -4", "graph": null},
+ {"part": "practice-num-sets-2", "note": "Changed from problem 1: instead of sorting given numbers, you list the whole numbers in an inequality interval. The set symbol still tells you which kind of number to pick.",
+  "legend": {"1": "the number being classified or listed", "2": "the set it must belong to"},
+  "steps": [
+   {"ask": "Which set symbol tells you what kind of number x must be?", "title": "Whole numbers only",
+    "lines": [{"text": "$x \\in \\hl{2}{\\mathbb{Z}}$ means $x$ is a whole number, positive, negative or zero."}]},
+   {"ask": "Which whole numbers are greater than −2.5 and at most 1.5?", "title": "Read off the values between $-2.5$ and $1.5$",
+    "lines": [{"text": "The smallest integer above $-2.5$ is $\\hl{1}{-2}$. The largest integer up to $1.5$ is $\\hl{1}{1}$."}, {"tex": "x &\\in \\{-2, -1, 0, 1\\}"}]}
+  ],
+  "final": "-2, -1, 0, 1", "graph": null},
+ {"part": "maths-pp-2023-ordinary-p1-q3#(b)(i), (ii), (iii)", "note": "Changed from problem 2: the answer is a picture on a number line, for ℝ, then ℤ, then ℕ, rather than a list. The set symbol still decides which points get a dot.",
+  "legend": {"1": "the number being classified or listed", "2": "the set it must belong to"},
+  "steps": [
+   {"ask": "Is 2.8 itself included in x ≤ 2.8, and what does that mean for the dot?", "title": "(i) Real numbers up to 2.8",
+    "lines": [{"text": "$x \\in \\hl{2}{\\mathbb{R}}$ includes every point on the line. Put a closed dot at $2.8$ (because of $\\le$) and shade to the left with an arrow."}]},
+   {"ask": "Which whole numbers are at most 2.8, and which of them get a dot?", "title": "(ii) Integers up to 2.8",
+    "lines": [{"text": "$x \\in \\hl{2}{\\mathbb{Z}}$ means whole numbers only. Put a dot on each of $-4, -3, -2, -1, 0, 1, 2$ and continue to the left with an arrow. Do not shade between the dots."}]},
+   {"ask": "Which counting numbers are at most 2.8?", "title": "(iii) Natural numbers up to 2.8",
+    "lines": [{"text": "$x \\in \\hl{2}{\\mathbb{N}}$ means $1, 2, 3, \\ldots$ (the scheme also accepts $0$). Only $\\hl{1}{1}$ and $\\hl{1}{2}$ are at most $2.8$, so put a dot on each of them and nothing else."}]}
+  ],
+  "final": "\\text{(i) shaded line to } 2.8;\\ \\text{(ii) dots } \\ldots,-1,0,1,2;\\ \\text{(iii) dots } 1, 2", "graph": null}
+]},
+{"skill": "num-surds", "problems": [
+ {"part": "practice-num-surds-1", "note": null,
+  "legend": {"1": "the expression being combined or multiplied", "2": "the answer"},
+  "steps": [
+   {"ask": "Which square number divides 72 and leaves a 2 under the root?", "title": "Write each number as a square times 2",
+    "lines": [{"tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}"}, {"tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}"}]},
+   {"ask": "What is the square root of 36, and of 9?", "title": "Take the square roots out",
+    "lines": [{"tex": "\\sqrt{72} &= 6\\sqrt{2}"}, {"tex": "\\sqrt{18} &= 3\\sqrt{2}"}]},
+   {"ask": "Both terms now have √2. What do you do with the numbers in front of it?", "title": "Add the like surds",
+    "lines": [{"tex": "\\hl{1}{6\\sqrt{2} + 3\\sqrt{2}} &= \\hl{2}{9\\sqrt{2}}"}]}
+  ],
+  "final": "\\hl{2}{9\\sqrt{2}}", "graph": null},
+ {"part": "practice-num-surds-2", "note": "Changed from problem 1: the surd sits in a denominator, so you multiply by the conjugate instead of adding like surds. Still simplifies surds using the same rules.",
+  "legend": {"1": "the expression being combined or multiplied", "2": "the answer"},
+  "steps": [
+   {"ask": "What could you multiply the bottom by so that the √5 disappears?", "title": "Multiply top and bottom by the conjugate of the denominator",
+    "lines": [{"tex": "\\frac{4}{3 - \\sqrt{5}} &= \\frac{4(\\hl{1}{3 + \\sqrt{5}})}{(3 - \\sqrt{5})(\\hl{1}{3 + \\sqrt{5}})}"}]},
+   {"ask": "What do you get when you expand (3 − √5)(3 + √5)?", "title": "Simplify the denominator",
+    "lines": [{"text": "$(3 - \\sqrt{5})(3 + \\sqrt{5}) = 9 - 5 = 4$."}, {"tex": "&= \\frac{4(\\hl{1}{3 + \\sqrt{5}})}{9 - 5}"}, {"tex": "&= \\frac{4(\\hl{1}{3 + \\sqrt{5}})}{4}"}]},
+   {"ask": "What is 4(3 + √5) divided by 4?", "title": "Cancel the 4",
+    "lines": [{"tex": "&= \\hl{2}{3 + \\sqrt{5}}"}]}
+  ],
+  "final": "\\hl{2}{3 + \\sqrt{5}}", "graph": null},
+ {"part": "maths-pp-2021-higher-p1-q3#(a)", "note": "Changed from problem 2: the surds are multiplied together and a square root is taken, in a volume context, instead of rationalising a denominator. Still simplifies surds.",
+  "legend": {"1": "the expression being combined or multiplied", "2": "the answer"},
+  "steps": [
+   {"ask": "Which two dimensions multiply together to give each face area?", "title": "Write the three face areas as equations",
+    "lines": [{"text": "Each face area is the product of two of the dimensions."}, {"tex": "xz &= 2\\sqrt{2}"}, {"tex": "yz &= 8\\sqrt{6}"}, {"tex": "xy &= 4\\sqrt{3}"}]},
+   {"ask": "What do you get when you multiply the three face areas together, and what does that product equal in terms of xyz?", "title": "Multiply the three equations",
+    "lines": [{"text": "The volume is $xyz$, and the product of the three areas is $(xyz)^2$."}, {"tex": "(xz)(yz)(xy) &= \\hl{1}{(2\\sqrt{2})(8\\sqrt{6})(4\\sqrt{3})}"}, {"tex": "x^2y^2z^2 &= 2 \\times 8 \\times 4 \\times \\sqrt{2 \\times 6 \\times 3}"}, {"tex": "&= 64\\sqrt{36}"}, {"tex": "&= 64 \\times 6"}, {"tex": "&= 384"}]},
+   {"ask": "Since (xyz)² = 384, what does xyz equal?", "title": "Take the square root to get the volume",
+    "lines": [{"tex": "xyz &= \\sqrt{384}"}, {"tex": "&= \\sqrt{64 \\times 6}"}, {"tex": "&= \\hl{2}{8\\sqrt{6}}"}]}
+  ],
+  "final": "V = \\hl{2}{8\\sqrt{6}}\\ \\text{cm}^3", "graph": null}
+]}
+]
