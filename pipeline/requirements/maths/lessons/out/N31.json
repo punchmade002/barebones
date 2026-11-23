@@ -167,7 +167,7 @@
   {"part": "maths-pp-2018-higher-p1-q1#(b)", "note": null,
    "legend": {"1": "the quadratic, compared with 0", "2": "the smaller root", "3": "the larger root, also the excluded value"},
    "steps": [
-    {"ask": "What do you multiply both sides by to clear the fraction, and is that quantity always positive?", "title": "Multiply both sides by $(x+2)^2$",
+    {"ask": "What do you multiply both sides by to clear the fraction, and is that quantity always positive?", "title": "Multiply both sides by (x + 2)^2",
      "lines": [{"text": "$(x+2)^2$ is always positive (as $x \\ne -2$), so the inequality sign does not change."}, {"tex": "\\frac{2x-3}{x+2} &\\ge 3"}, {"tex": "(2x-3)(x+2) &\\ge 3(x+2)^2"}]},
     {"ask": "What do you get when you expand both brackets?", "title": "Expand both sides",
      "lines": [{"tex": "2x^2 + 4x - 3x - 6 &\\ge 3(x^2 + 4x + 4)"}, {"tex": "2x^2 + x - 6 &\\ge 3x^2 + 12x + 12"}]},
