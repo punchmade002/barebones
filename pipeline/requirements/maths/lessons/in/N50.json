@@ -1,0 +1,1364 @@
+[
+ {
+  "skill": {
+   "id": "geo-thm20",
+   "title": "Apply Theorem 20: Tangent is perpendicular to the radius at the point of contact (and converse)",
+   "level": "OL",
+   "input": "geometric diagram with unknown angles/lengths",
+   "output": "unknown found, justified by citing Theorem 20"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2015-higher-p2-q7#(a)",
+    "level": "higher",
+    "year": 2015,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Draw BT parallel to KH",
+      "lines": [
+       {
+        "text": "$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle."
+       },
+       {
+        "tex": "|TH| &= |BK| = r"
+       },
+       {
+        "tex": "|BT| &= |HK| = 8r"
+       },
+       {
+        "tex": "|AT| &= 4r - r"
+       },
+       {
+        "tex": "&= 3r"
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras in the right-angled triangle ATB",
+      "lines": [
+       {
+        "text": "$|\\angle ATB| = 90^{\\circ}$, so the hypotenuse is $[AB]$."
+       },
+       {
+        "tex": "|AB|^2 &= |AT|^2 + |BT|^2"
+       },
+       {
+        "tex": "\\left(20\\sqrt{73}\\right)^2 &= (3r)^2 + (8r)^2"
+       },
+       {
+        "tex": "400 \\times 73 &= 9r^2 + 64r^2"
+       },
+       {
+        "tex": "29200 &= 73r^2"
+       },
+       {
+        "tex": "r^2 &= 400"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "r &= 20"
+       }
+      ]
+     }
+    ],
+    "final": "r = 20 \\text{ cm}"
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q5#(b)",
+    "level": "higher",
+    "year": 2019,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Show triangle ODC is equilateral",
+      "lines": [
+       {
+        "text": "$|CD| = \\frac{1}{2}|AB|$ and $|OB|$ is a radius, which is half the diameter, so $|CD| = |OB|$."
+       },
+       {
+        "text": "$|OC|$ and $|OD|$ are also radii, so all three sides of $\\triangle ODC$ are equal."
+       },
+       {
+        "text": "An equilateral triangle has all angles $60^\\circ$, so $|\\angle ODC| = 60^\\circ$."
+       }
+      ]
+     },
+     {
+      "title": "Use the parallel lines",
+      "lines": [
+       {
+        "text": "$CD \\parallel AB$, so the alternate angles are equal."
+       },
+       {
+        "tex": "|\\angle AOD| &= |\\angle ODC| = 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Find the angle at A in triangle AOD",
+      "lines": [
+       {
+        "text": "$|OA| = |OD|$ (radii), so $\\triangle AOD$ is isosceles and its base angles are equal."
+       },
+       {
+        "tex": "|\\angle OAD| &= \\frac{180 - 60}{2}"
+       },
+       {
+        "tex": "&= 60^\\circ"
+       }
+      ]
+     },
+     {
+      "title": "Use the tangent",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius (diameter) at the point of contact, so $|\\angle ABE| = 90^\\circ$."
+       },
+       {
+        "text": "In $\\triangle ABE$ the angles add to $180^\\circ$, and $|\\angle BAE| = |\\angle OAD| = 60^\\circ$."
+       },
+       {
+        "tex": "|\\angle BEA| &= 180 - 90 - 60"
+       },
+       {
+        "tex": "&= 30^\\circ"
+       }
+      ]
+     }
+    ],
+    "final": "|\\angle BEA| = 30^\\circ"
+   },
+   {
+    "part": "practice-geo-thm20-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "A circle has centre $O$. $P$ is a point outside the circle and $[PT]$ is a tangent to the circle at $T$.\n$|PT| = 15$ cm and $|OP| = 17$ cm.\nFind the radius of the circle.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Theorem 20",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $[OP]$ is the hypotenuse of triangle $OTP$."
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "|OT|^2 + |TP|^2 &= |OP|^2"
+       },
+       {
+        "tex": "r^2 + 15^2 &= 17^2"
+       },
+       {
+        "tex": "r^2 + 225 &= 289"
+       },
+       {
+        "tex": "r^2 &= 64"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "r &= 8"
+       }
+      ]
+     }
+    ],
+    "final": "r = 8 \\text{ cm}"
+   },
+   {
+    "part": "practice-geo-thm20-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A circle has centre $O$ and radius $5$ cm. The point $P$ is outside the circle. The line $PT$ is a tangent to the circle at $T$.\n$|OP| = 13$ cm.\nFind $|PT|$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use Theorem 20",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $[OP]$ is the hypotenuse of triangle $OTP$."
+       }
+      ]
+     },
+     {
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "|OT|^2 + |TP|^2 &= |OP|^2"
+       },
+       {
+        "tex": "5^2 + |TP|^2 &= 13^2"
+       },
+       {
+        "tex": "25 + |TP|^2 &= 169"
+       },
+       {
+        "tex": "|TP|^2 &= 144"
+       }
+      ]
+     },
+     {
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A length cannot be negative."
+       },
+       {
+        "tex": "|TP| &= 12"
+       }
+      ]
+     }
+    ],
+    "final": "|PT| = 12 \\text{ cm}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "seq-arith-find-ad",
+   "title": "Find a and d from given terms or sums",
+   "level": "OL",
+   "input": "two facts about the sequence",
+   "output": "a, d"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q6#(a)(ii)",
+    "level": "ordinary",
+    "year": 2022,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 2 to find T_2",
+      "lines": [
+       {
+        "tex": "T_2 &= -254 + (2-1)(4)"
+       },
+       {
+        "tex": "&= -254 + 4"
+       },
+       {
+        "tex": "&= -250"
+       }
+      ]
+     },
+     {
+      "title": "Subtract T_1 from T_2",
+      "lines": [
+       {
+        "tex": "d &= T_2 - T_1"
+       },
+       {
+        "tex": "&= -250 + 254"
+       },
+       {
+        "tex": "&= 4"
+       }
+      ]
+     }
+    ],
+    "final": "d = 4"
+   },
+   {
+    "part": "maths-pp-2021-ordinary-p1-q6#(a)(i)",
+    "level": "ordinary",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the two common differences equal",
+      "lines": [
+       {
+        "text": "In an arithmetic sequence, $T_2 - T_1 = T_3 - T_2$."
+       },
+       {
+        "tex": "k - (-5) &= 1 - k"
+       },
+       {
+        "tex": "k + 5 &= 1 - k"
+       }
+      ]
+     },
+     {
+      "title": "Solve for k",
+      "lines": [
+       {
+        "tex": "k + k &= 1 - 5"
+       },
+       {
+        "tex": "2k &= -4"
+       },
+       {
+        "tex": "k &= -2"
+       }
+      ]
+     },
+     {
+      "title": "Show the common difference is 3",
+      "lines": [
+       {
+        "tex": "d &= k - (-5)"
+       },
+       {
+        "tex": "&= -2 + 5"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     }
+    ],
+    "final": "k = -2, \\quad d = 3"
+   },
+   {
+    "part": "maths-pp-2024-higher-p1-q5#(a)",
+    "level": "higher",
+    "year": 2024,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Set the two common differences equal",
+      "lines": [
+       {
+        "text": "In an arithmetic sequence $T_2 - T_1 = T_3 - T_2$."
+       },
+       {
+        "tex": "(5p-3) - (2p+1) &= (6p+7) - (5p-3)"
+       },
+       {
+        "tex": "5p - 3 - 2p - 1 &= 6p + 7 - 5p + 3"
+       },
+       {
+        "tex": "3p - 4 &= p + 10"
+       }
+      ]
+     },
+     {
+      "title": "Solve for p",
+      "lines": [
+       {
+        "tex": "2p - 4 &= 10"
+       },
+       {
+        "tex": "2p &= 14"
+       },
+       {
+        "tex": "p &= 7"
+       }
+      ]
+     }
+    ],
+    "final": "p = 7"
+   },
+   {
+    "part": "practice-seq-arith-find-ad-1",
+    "level": "ordinary",
+    "year": null,
+    "question": "The $n$th term of an arithmetic sequence is $T_n = 3 - 4n$.\nFind the first term $a$ and the common difference $d$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 1 and n = 2",
+      "lines": [
+       {
+        "tex": "T_1 &= 3 - 4(1)"
+       },
+       {
+        "tex": "&= -1"
+       },
+       {
+        "tex": "T_2 &= 3 - 4(2)"
+       },
+       {
+        "tex": "&= -5"
+       }
+      ]
+     },
+     {
+      "title": "Read off a and subtract to find d",
+      "lines": [
+       {
+        "tex": "a &= T_1 = -1"
+       },
+       {
+        "tex": "d &= T_2 - T_1"
+       },
+       {
+        "tex": "&= -5 + 1"
+       },
+       {
+        "tex": "&= -4"
+       }
+      ]
+     }
+    ],
+    "final": "a = -1,\\ d = -4"
+   },
+   {
+    "part": "practice-seq-arith-find-ad-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "The $n$th term of an arithmetic sequence is $T_n = \\frac{3n - 1}{2}$.\nFind $a$, the first term, and $d$, the common difference.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Substitute n = 1 and n = 2",
+      "lines": [
+       {
+        "tex": "T_1 &= \\frac{3(1) - 1}{2}"
+       },
+       {
+        "tex": "&= 1"
+       },
+       {
+        "tex": "T_2 &= \\frac{3(2) - 1}{2}"
+       },
+       {
+        "tex": "&= \\frac{5}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Read off a and subtract to find d",
+      "lines": [
+       {
+        "tex": "a &= T_1 = 1"
+       },
+       {
+        "tex": "d &= T_2 - T_1"
+       },
+       {
+        "tex": "&= \\frac{5}{2} - 1"
+       },
+       {
+        "tex": "&= \\frac{3}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "a = 1,\\ d = \\frac{3}{2}"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "stat-srs-bias",
+   "title": "Select a simple random sample and spot bias",
+   "level": "OL",
+   "input": "population + sampling method",
+   "output": "SRS procedure; source of bias"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2023-ordinary-p2-q9#(a)(i), (iii)",
+    "level": "ordinary",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "(i) Pick the classes that could be over 100",
+      "lines": [
+       {
+        "text": "The class 90 to 120 includes students above 100, and every class above it is entirely above 100."
+       },
+       {
+        "text": "At most, all 59 students in 90 to 120 read for more than 100 minutes."
+       }
+      ]
+     },
+     {
+      "title": "(i) Add the frequencies",
+      "lines": [
+       {
+        "tex": "\\text{Maximum} &= 59 + 18 + 10"
+       },
+       {
+        "tex": "&= 87"
+       }
+      ]
+     },
+     {
+      "title": "(iii) Say why the sampling method is limited",
+      "lines": [
+       {
+        "text": "Only the first 200 students to arrive were asked, so the sample is not random."
+       },
+       {
+        "text": "These could be local students, or students arriving together on school buses."
+       },
+       {
+        "text": "Students who arrive later are left out, so the sample may not be representative."
+       }
+      ]
+     }
+    ],
+    "final": "87 \\text{ students}"
+   },
+   {
+    "part": "practice-stat-srs-bias-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "A radio station phones 500 residents at 11 a.m. on a weekday to ask about a new road. 180 of the residents are at work and do not answer.\nWhat percentage of the residents are left out of the poll?",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{180}{500} &= \\frac{9}{25}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{9}{25} \\times 100 &= 36"
+       }
+      ]
+     }
+    ],
+    "final": "36\\%"
+   },
+   {
+    "part": "practice-stat-srs-bias-3",
+    "level": "ordinary",
+    "year": null,
+    "question": "A radio station wants to know what the 2500 adults in a town think of a new library opening time. It asks listeners to vote on its website. 600 of the adults in the town do not use the internet.\nExplain why this method is biased, and write the percentage of the adults who are left out.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "A website vote leaves out adults who do not use the internet, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{600}{2500} &= \\frac{6}{25}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{6}{25} \\times 100 &= 24"
+       }
+      ]
+     }
+    ],
+    "final": "24\\%"
+   },
+   {
+    "part": "practice-stat-srs-bias-4",
+    "level": "ordinary",
+    "year": null,
+    "question": "A sports club has 400 members. To find out what members think of the club facilities, the secretary asks only the members who come to Saturday morning training.\nThere are 300 members who come to Saturday morning training.\nGive a reason why this sample is biased, and find, as a percentage, the members who have no chance of being selected.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Spot the bias",
+      "lines": [
+       {
+        "text": "Asking only Saturday morning trainers leaves out members who do not train then, so the sample is biased."
+       }
+      ]
+     },
+     {
+      "title": "Find the number left out",
+      "lines": [
+       {
+        "tex": "400 - 300 &= 100"
+       }
+      ]
+     },
+     {
+      "title": "Write those left out as a fraction",
+      "lines": [
+       {
+        "tex": "\\frac{100}{400} &= \\frac{1}{4}"
+       }
+      ]
+     },
+     {
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\frac{1}{4} \\times 100 &= 25"
+       }
+      ]
+     }
+    ],
+    "final": "25\\%"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "inf-confidence-width",
+   "title": "Relate confidence level, sample size and interval width",
+   "level": "HL",
+   "input": "interval requirements",
+   "output": "wider/narrower; n needed for a margin"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Statement 1: Always true",
+      "lines": [
+       {
+        "text": "A higher confidence level needs a larger $z$-value, so the margin of error, and the interval, gets wider."
+       }
+      ]
+     },
+     {
+      "title": "Statement 2: Sometimes true",
+      "lines": [
+       {
+        "tex": "\\text{SE} &= \\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}"
+       },
+       {
+        "text": "$\\hat{p}(1-\\hat{p})$ increases as $\\hat{p}$ rises towards $0.5$ and then decreases, so the standard error does not always increase."
+       }
+      ]
+     },
+     {
+      "title": "Statement 3: Always true",
+      "lines": [
+       {
+        "text": "With $n$ fixed, the standard error is the square root of $\\hat{p}(1-\\hat{p})$ divided by $n$, so it rises whenever $\\hat{p}(1-\\hat{p})$ rises."
+       }
+      ]
+     },
+     {
+      "title": "Statement 4: Never true",
+      "lines": [
+       {
+        "text": "Increasing $n$ makes $\\frac{\\hat{p}(1-\\hat{p})}{n}$ smaller, so the standard error always decreases."
+       }
+      ]
+     }
+    ],
+    "final": "1\\text{ Always},\\ 2\\text{ Sometimes},\\ 3\\text{ Always},\\ 4\\text{ Never}"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q8#(c)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "text": "The interval is centred on $\\hat{p} = 0.35$ and its upper limit is $0.435$."
+       },
+       {
+        "tex": "\\text{margin} &= 0.435 - 0.35"
+       },
+       {
+        "tex": "&= 0.085"
+       }
+      ]
+     },
+     {
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.35 \\times 0.65"
+       },
+       {
+        "tex": "&= 0.2275"
+       }
+      ]
+     },
+     {
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.2275}{n}} &= 0.085"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.2275}{n}} &= \\frac{0.085}{1.96}"
+       },
+       {
+        "tex": "\\frac{0.2275}{n} &= \\left(\\frac{0.085}{1.96}\\right)^2"
+       },
+       {
+        "tex": "n &= \\frac{0.2275}{\\left(\\frac{0.085}{1.96}\\right)^2}"
+       },
+       {
+        "tex": "&= 120.96\\ldots"
+       },
+       {
+        "tex": "&\\approx 121"
+       }
+      ]
+     }
+    ],
+    "final": "n = 121"
+   },
+   {
+    "part": "practice-inf-confidence-width-2",
+    "level": "higher",
+    "year": null,
+    "question": "A 95% confidence interval for a population proportion is $(0.1608,\\ 0.2392)$.\nIt was found from a random sample of size $n$. Find $n$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{0.1608 + 0.2392}{2} = 0.2"
+       },
+       {
+        "tex": "\\text{margin} &= 0.2392 - 0.2 = 0.0392"
+       }
+      ]
+     },
+     {
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.2 \\times 0.8"
+       },
+       {
+        "tex": "&= 0.16"
+       }
+      ]
+     },
+     {
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.16}{n}} &= 0.0392"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.16}{n}} &= 0.02"
+       },
+       {
+        "tex": "\\frac{0.16}{n} &= 0.0004"
+       },
+       {
+        "tex": "n &= 400"
+       }
+      ]
+     }
+    ],
+    "final": "n = 400"
+   },
+   {
+    "part": "practice-inf-confidence-width-3",
+    "level": "higher",
+    "year": null,
+    "question": "A random sample of $n$ people is surveyed and a $95\\%$ confidence interval for the proportion who cycle to work is found to be $(0.5608,\\ 0.6392)$.\nFind the sample size $n$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Find the sample proportion and margin of error",
+      "lines": [
+       {
+        "tex": "\\hat{p} &= \\frac{0.5608 + 0.6392}{2} = 0.6"
+       },
+       {
+        "tex": "\\text{margin} &= 0.6392 - 0.6 = 0.0392"
+       }
+      ]
+     },
+     {
+      "title": "Find p-hat times (1 - p-hat)",
+      "lines": [
+       {
+        "tex": "\\hat{p}(1 - \\hat{p}) &= 0.6 \\times 0.4"
+       },
+       {
+        "tex": "&= 0.24"
+       }
+      ]
+     },
+     {
+      "title": "Set up the margin of error equation",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.24}{n}} &= 0.0392"
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.24}{n}} &= 0.02"
+       },
+       {
+        "tex": "\\frac{0.24}{n} &= 0.0004"
+       },
+       {
+        "tex": "n &= 600"
+       }
+      ]
+     }
+    ],
+    "final": "n = 600"
+   }
+  ]
+ },
+ {
+  "skill": {
+   "id": "trig-graph",
+   "title": "Graph sin, cos and tan",
+   "level": "HL",
+   "input": "function + domain",
+   "output": "graph with period and range"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2018-higher-p2-q9#(b)(iv)",
+    "level": "higher",
+    "year": 2018,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Look at how steep the graph is",
+      "lines": [
+       {
+        "text": "A 1 degree change in $\\alpha$ moves $C$ most where the graph of $f$ is steepest."
+       }
+      ]
+     },
+     {
+      "title": "Compare the three diagrams",
+      "lines": [
+       {
+        "text": "In Diagram 1, $D$ is near $\\alpha = 0^\\circ$, where the graph is almost flat (a maximum), so $C$ hardly moves. In Diagram 3, the graph is also flatter at $D$, so $C$ moves less than in Diagram 2."
+       },
+       {
+        "text": "In Diagram 2, $D$ is between these, on the steep part of the graph, so $C$ moves most. Equivalently, the closer $\\angle CDO$ is to a right angle, the more a small turn of the crank pushes or pulls the rod."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Diagram 2}"
+   },
+   {
+    "part": "maths-pp-2025-higher-p2-q6#(b)",
+    "level": "higher",
+    "year": 2025,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Find the period",
+      "lines": [
+       {
+        "text": "$\\sin x$ has period $2\\pi$."
+       },
+       {
+        "text": "The modulus flips the negative half of each wave upwards, so the graph repeats twice as often, in half the length."
+       },
+       {
+        "tex": "\\text{Period} &= \\frac{1}{2}(2\\pi)"
+       },
+       {
+        "tex": "&= \\pi"
+       }
+      ]
+     },
+     {
+      "title": "Start with the range of |sin x|",
+      "lines": [
+       {
+        "text": "$\\sin x$ lies between $-1$ and $1$, and the modulus removes the negatives."
+       },
+       {
+        "tex": "0 \\le |\\sin x| &\\le 1"
+       }
+      ]
+     },
+     {
+      "title": "Multiply by 4",
+      "lines": [
+       {
+        "tex": "0 \\le 4|\\sin x| &\\le 4"
+       }
+      ]
+     },
+     {
+      "title": "Subtract 1",
+      "lines": [
+       {
+        "tex": "-1 \\le 4|\\sin x| - 1 &\\le 3"
+       },
+       {
+        "text": "This matches the graph: the lowest points are at $y = -1$ and the highest at $y = 3$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Period} = \\pi, \\quad \\text{Range} = [-1, 3]"
+   },
+   {
+    "part": "maths-pp-2022-higher-p1-q8#(a), (b)",
+    "level": "higher",
+    "year": 2022,
+    "marks": 15,
+    "steps": [
+     {
+      "title": "Use h(t) = 72 - 60cos(πt/3) at each t",
+      "lines": [
+       {
+        "text": "Work in radians. $h(1) = 42$ is given, so we find the other eight values."
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 0",
+      "lines": [
+       {
+        "tex": "h(0) &= 72 - 60\\cos\\left(0\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 2",
+      "lines": [
+       {
+        "tex": "h(2) &= 72 - 60\\cos\\left(\\frac{2\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 3",
+      "lines": [
+       {
+        "tex": "h(3) &= 72 - 60\\cos\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 72 + 60"
+       },
+       {
+        "tex": "&= 132"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 4",
+      "lines": [
+       {
+        "tex": "h(4) &= 72 - 60\\cos\\left(\\frac{4\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 5",
+      "lines": [
+       {
+        "tex": "h(5) &= 72 - 60\\cos\\left(\\frac{5\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 6",
+      "lines": [
+       {
+        "tex": "h(6) &= 72 - 60\\cos\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(1\\right)"
+       },
+       {
+        "tex": "&= 72 - 60"
+       },
+       {
+        "tex": "&= 12"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 7",
+      "lines": [
+       {
+        "tex": "h(7) &= 72 - 60\\cos\\left(\\frac{7\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 - 30"
+       },
+       {
+        "tex": "&= 42"
+       }
+      ]
+     },
+     {
+      "title": "Substitute t = 8",
+      "lines": [
+       {
+        "tex": "h(8) &= 72 - 60\\cos\\left(\\frac{8\\pi}{3}\\right)"
+       },
+       {
+        "tex": "&= 72 - 60\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 72 + 30"
+       },
+       {
+        "tex": "&= 102"
+       }
+      ]
+     },
+     {
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,12), (1,42), (2,102), (3,132), (4,102), (5,42), (6,12), (7,42), (8,102)$."
+       },
+       {
+        "text": "Join them with a smooth wave-shaped curve: it starts at its lowest value 12, rises to 132 at $t = 3$, falls to 12 at $t = 6$, then rises again."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 12,\\ 42,\\ 102,\\ 132,\\ 102,\\ 42,\\ 12,\\ 42,\\ 102"
+   },
+   {
+    "part": "practice-trig-graph-2",
+    "level": "higher",
+    "year": null,
+    "question": "Draw a graph of $f(x) = 1 + 2\\sin 2x$ for $0 \\le x \\le \\pi$.\nFirst complete a table of values of $f(x)$ at $x = 0, \\frac{\\pi}{4}, \\frac{\\pi}{2}, \\frac{3\\pi}{4}, \\pi$, working in radians, then plot the points and join them with a smooth curve.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use f(x) = 1 + 2 sin 2x at each x",
+      "lines": [
+       {
+        "text": "Work in radians. Substitute each given value of $x$ into $f(x)$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 0$",
+      "lines": [
+       {
+        "tex": "f\\left(0\\right) &= 1 + 2\\sin\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{4}$",
+      "lines": [
+       {
+        "tex": "f\\left(\\frac{\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(1\\right)"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "f\\left(\\frac{\\pi}{2}\\right) &= 1 + 2\\sin\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{3\\pi}{4}$",
+      "lines": [
+       {
+        "tex": "f\\left(\\frac{3\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{3\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(-1\\right)"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\pi$",
+      "lines": [
+       {
+        "tex": "f\\left(\\pi\\right) &= 1 + 2\\sin\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 + 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Plot the five points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,1), (\\frac{\\pi}{4},3), (\\frac{\\pi}{2},1), (\\frac{3\\pi}{4},-1), (\\pi,1)$."
+       },
+       {
+        "text": "Join them with a smooth wave: it rises from 1 to a maximum of 3 at $x = \\frac{\\pi}{4}$, falls to a minimum of $-1$ at $x = \\frac{3\\pi}{4}$ and returns to 1. One full wave fits in $0 \\le x \\le \\pi$, so the period is $\\pi$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 1,\\ 3,\\ 1,\\ -1,\\ 1"
+   },
+   {
+    "part": "practice-trig-graph-1",
+    "level": "higher",
+    "year": null,
+    "question": "Copy and complete the table of values of $g(x) = 1 - 2\\sin x$, where $x$ is in radians.\n\n| $x$ | $0$ | $\\frac{\\pi}{6}$ | $\\frac{\\pi}{2}$ | $\\frac{5\\pi}{6}$ | $\\pi$ | $\\frac{7\\pi}{6}$ | $\\frac{3\\pi}{2}$ | $\\frac{11\\pi}{6}$ | $2\\pi$ |\n| $g(x)$ | | | | | | | | | |\n\nHence plot the graph of $g(x)$ for $0 \\le x \\le 2\\pi$.",
+    "marks": 10,
+    "steps": [
+     {
+      "title": "Use g(x) = 1 - 2sin x at each x",
+      "lines": [
+       {
+        "text": "Work in radians. Find $g(x)$ at $x = 0, \\frac{\\pi}{6}, \\frac{\\pi}{2}, \\frac{5\\pi}{6}, \\pi, \\frac{7\\pi}{6}, \\frac{3\\pi}{2}, \\frac{11\\pi}{6}, 2\\pi$."
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 0$",
+      "lines": [
+       {
+        "tex": "g\\left(0\\right) &= 1 - 2\\sin\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(1\\right)"
+       },
+       {
+        "tex": "&= -1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{5\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{5\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{5\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 0"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(\\pi\\right) &= 1 - 2\\sin\\left(\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{7\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{7\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{7\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{3\\pi}{2}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{3\\pi}{2}\\right) &= 1 - 2\\sin\\left(\\frac{3\\pi}{2}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-1\\right)"
+       },
+       {
+        "tex": "&= 3"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = \\frac{11\\pi}{6}$",
+      "lines": [
+       {
+        "tex": "g\\left(\\frac{11\\pi}{6}\\right) &= 1 - 2\\sin\\left(\\frac{11\\pi}{6}\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(-\\frac{1}{2}\\right)"
+       },
+       {
+        "tex": "&= 2"
+       }
+      ]
+     },
+     {
+      "title": "Substitute $x = 2\\pi$",
+      "lines": [
+       {
+        "tex": "g\\left(2\\pi\\right) &= 1 - 2\\sin\\left(2\\pi\\right)"
+       },
+       {
+        "tex": "&= 1 - 2\\left(0\\right)"
+       },
+       {
+        "tex": "&= 1"
+       }
+      ]
+     },
+     {
+      "title": "Plot the nine points and join them",
+      "lines": [
+       {
+        "text": "Plot $(0,1), (\\frac{\\pi}{6},0), (\\frac{\\pi}{2},-1), (\\frac{5\\pi}{6},0), (\\pi,1), (\\frac{7\\pi}{6},2), (\\frac{3\\pi}{2},3), (\\frac{11\\pi}{6},2), (2\\pi,1)$."
+       },
+       {
+        "text": "Join them with a smooth wave: it falls from 1 to a minimum of $-1$ at $x = \\frac{\\pi}{2}$, rises to a maximum of 3 at $x = \\frac{3\\pi}{2}$ and returns to 1."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Table: } 1,\\ 0,\\ -1,\\ 0,\\ 1,\\ 2,\\ 3,\\ 2,\\ 1"
+   }
+  ]
+ }
+]

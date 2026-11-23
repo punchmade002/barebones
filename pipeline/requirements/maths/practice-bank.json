@@ -6756,6 +6756,68 @@
   "answerSym": "sqrt(75) - sqrt(12)",
   "skill": "num-surds"
  },
+ "practice-num-surds-4": {
+  "question": "Write $3\\sqrt{20} + \\sqrt{45} - \\sqrt{80}$ in the form $a\\sqrt{b}$, where $a, b \\in \\mathbb{N}$ and $b$ is prime.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Write each number as a square times 5",
+     "lines": [
+      {
+       "tex": "\\sqrt{20} &= \\sqrt{4 \\times 5}",
+       "sym": "sqrt(20)"
+      },
+      {
+       "tex": "\\sqrt{45} &= \\sqrt{9 \\times 5}",
+       "sym": "sqrt(45)",
+       "new": true
+      },
+      {
+       "tex": "\\sqrt{80} &= \\sqrt{16 \\times 5}",
+       "sym": "sqrt(80)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Take the square roots out",
+     "lines": [
+      {
+       "tex": "3\\sqrt{20} &= 3 \\times 2\\sqrt{5} = 6\\sqrt{5}",
+       "sym": "6*sqrt(5)",
+       "new": true
+      },
+      {
+       "tex": "\\sqrt{45} &= 3\\sqrt{5}",
+       "sym": "3*sqrt(5)",
+       "new": true
+      },
+      {
+       "tex": "\\sqrt{80} &= 4\\sqrt{5}",
+       "sym": "4*sqrt(5)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Add and subtract the like surds",
+     "lines": [
+      {
+       "tex": "6\\sqrt{5} + 3\\sqrt{5} - 4\\sqrt{5} &= 5\\sqrt{5}",
+       "sym": "5*sqrt(5)",
+       "new": true
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "5\\sqrt{5}"
+  },
+  "finalSym": "5*sqrt(5)",
+  "answerSym": "3*sqrt(20) + sqrt(45) - sqrt(80)",
+  "skill": "num-surds"
+ },
  "practice-cx-equate-parts-1": {
   "question": "Find real numbers $a$ and $b$ such that\n$a + bi = (3 - 2i)^2$.",
   "level": "ordinary",
@@ -7633,6 +7695,80 @@
   },
   "finalSym": "[-1 - 2*I, -2]",
   "answerSym": "solve(Eq((z**3 + 4*z**2 + 9*z + 10)/(z - (-1 + 2*I)), 0), z)",
+  "skill": "cx-conjugate-root"
+ },
+ "practice-cx-conjugate-root-3": {
+  "question": "$z^3 - 3z^2 + 4z - 12 = 0$ is a cubic equation with real coefficients.\nGiven that $2i$ is a root, find all the roots.",
+  "level": "higher",
+  "marks": 10,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Use the conjugate root theorem",
+     "lines": [
+      {
+       "text": "The coefficients are real, so complex roots come in conjugate pairs."
+      },
+      {
+       "tex": "\\overline{2i} &= -2i",
+       "sym": "Eq(conjugate(2*I), -2*I)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Find the quadratic factor from the pair",
+     "lines": [
+      {
+       "text": "Sum of the pair, then product of the pair."
+      },
+      {
+       "tex": "2i + (-2i) &= 0",
+       "sym": "Eq(2*I + (-2*I), 0)",
+       "new": true
+      },
+      {
+       "tex": "(2i)(-2i) &= -4i^2 = 4",
+       "sym": "Eq(expand((2*I)*(-2*I)), 4)",
+       "new": true
+      },
+      {
+       "text": "So the quadratic factor is $z^2 + 4$."
+      }
+     ]
+    },
+    {
+     "title": "Divide to find the linear factor",
+     "lines": [
+      {
+       "text": "Compare constant terms: $4 \\times (\\text{constant}) = -12$, so the constant is $-3$."
+      },
+      {
+       "tex": "z^3 - 3z^2 + 4z - 12 &= (z^2 + 4)(z - 3)",
+       "sym": "Eq(z**3 - 3*z**2 + 4*z - 12, expand((z**2 + 4)*(z - 3)))",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Read off the third root",
+     "lines": [
+      {
+       "tex": "z - 3 &= 0",
+       "sym": "Eq(z - 3, 0)",
+       "new": true
+      },
+      {
+       "tex": "z &= 3",
+       "sym": "Eq(z, 3)"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "z = 2i,\\ -2i,\\ 3"
+  },
+  "finalSym": "[2*I, -2*I, 3]",
+  "answerSym": "solve(Eq(z**3 - 3*z**2 + 4*z - 12, 0), z)",
   "skill": "cx-conjugate-root"
  },
  "practice-cx-de-moivre-identity-1": {
@@ -9733,6 +9869,59 @@
   "answerSym": "Rational(6125,10)/Rational(49,10)",
   "skill": "fin-estimate"
  },
+ "practice-fin-estimate-3": {
+  "question": "Fabric costs €$5.25$ per metre.\nFind the exact cost of $24.8$ metres of the fabric.\nBy rounding each number to the nearest whole number, estimate the cost and check that your answer is sensible.",
+  "level": "ordinary",
+  "marks": 10,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Calculate the exact cost",
+     "lines": [
+      {
+       "tex": "24.8 \\times 5.25 &= 130.2",
+       "sym": "Rational(248,10)*Rational(525,100)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Round each number and estimate",
+     "lines": [
+      {
+       "tex": "24.8 &\\approx 25",
+       "sym": "25",
+       "new": true,
+       "approx": true
+      },
+      {
+       "tex": "5.25 &\\approx 5",
+       "sym": "5",
+       "new": true,
+       "approx": true
+      },
+      {
+       "tex": "25 \\times 5 &= 125",
+       "sym": "25*5",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Compare",
+     "lines": [
+      {
+       "text": "The estimate €$125$ is close to the exact cost €$130.20$, so the answer is sensible."
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "\\text{€}130.20 \\text{ (estimate €}125\\text{)}"
+  },
+  "finalSym": "Rational(1302,10)",
+  "answerSym": "Rational(248,10)*Rational(525,100)",
+  "skill": "fin-estimate"
+ },
  "practice-fin-present-value-1": {
   "question": "Ciara will receive €$22{,}050$ in 2 years' time.\nThe interest rate is $5\\%$ per year, compounded annually.\nFind the present value of this sum.",
   "level": "higher",
@@ -10781,6 +10970,51 @@
   },
   "finalSym": "0",
   "answerSym": "solve(Eq(a/3 + 4, b/3 + 4), a)[0] - b",
+  "skill": "fn-injective-surjective"
+ },
+ "practice-fn-injective-surjective-3": {
+  "question": "The function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = 7 - 4x$.\nProve that $f$ is injective.",
+  "level": "higher",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Assume two inputs give the same output",
+     "lines": [
+      {
+       "text": "$f$ is injective if $f(a) = f(b)$ forces $a = b$."
+      },
+      {
+       "tex": "f(a) &= f(b)"
+      },
+      {
+       "tex": "7 - 4a &= 7 - 4b",
+       "sym": "Eq(7 - 4*a, 7 - 4*b)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Solve for a",
+     "lines": [
+      {
+       "tex": "-4a &= -4b",
+       "sym": "Eq(-4*a, -4*b)"
+      },
+      {
+       "tex": "a &= b",
+       "sym": "Eq(a, b)"
+      },
+      {
+       "text": "Different inputs always give different outputs, so $f$ is injective."
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "f(a) = f(b) \\Rightarrow a = b \\text{, so } f \\text{ is injective}"
+  },
+  "finalSym": "0",
+  "answerSym": "expand((7 - 4*a) - (7 - 4*b) + 4*(a - b))",
   "skill": "fn-injective-surjective"
  },
  "practice-fn-inverse-1": {
@@ -18841,6 +19075,57 @@
   "answerSym": "Rational(600,2500)*100",
   "skill": "stat-srs-bias"
  },
+ "practice-stat-srs-bias-4": {
+  "question": "A sports club has 400 members. To find out what members think of the club facilities, the secretary asks only the members who come to Saturday morning training.\nThere are 300 members who come to Saturday morning training.\nGive a reason why this sample is biased, and find, as a percentage, the members who have no chance of being selected.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Spot the bias",
+     "lines": [
+      {
+       "text": "Asking only Saturday morning trainers leaves out members who do not train then, so the sample is biased."
+      }
+     ]
+    },
+    {
+     "title": "Find the number left out",
+     "lines": [
+      {
+       "tex": "400 - 300 &= 100",
+       "sym": "400 - 300",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Write those left out as a fraction",
+     "lines": [
+      {
+       "tex": "\\frac{100}{400} &= \\frac{1}{4}",
+       "sym": "Rational(100,400)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Convert to a percentage",
+     "lines": [
+      {
+       "tex": "\\frac{1}{4} \\times 100 &= 25",
+       "sym": "Rational(1,4)*100",
+       "new": true
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "25\\%"
+  },
+  "finalSym": "25",
+  "answerSym": "Rational(400-300,400)*100",
+  "skill": "stat-srs-bias"
+ },
  "practice-stat-study-types-1": {
   "question": "Researchers randomly assign 60 patients to two groups of equal size. One group takes a new tablet and the other takes a placebo.\nThis is a designed experiment. How many patients are in each group?",
   "level": "ordinary",
@@ -20704,6 +20989,75 @@
   },
   "finalSym": "400",
   "answerSym": "Rational(16,100)*(Rational(196,100)/(Rational(2392,10000) - Rational(1608,10000))*2)**2",
+  "skill": "inf-confidence-width"
+ },
+ "practice-inf-confidence-width-3": {
+  "question": "A random sample of $n$ people is surveyed and a $95\\%$ confidence interval for the proportion who cycle to work is found to be $(0.5608,\\ 0.6392)$.\nFind the sample size $n$.",
+  "level": "higher",
+  "marks": 10,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Find the sample proportion and margin of error",
+     "lines": [
+      {
+       "tex": "\\hat{p} &= \\frac{0.5608 + 0.6392}{2} = 0.6",
+       "sym": "(Rational(5608,10000) + Rational(6392,10000))/2",
+       "new": true
+      },
+      {
+       "tex": "\\text{margin} &= 0.6392 - 0.6 = 0.0392",
+       "sym": "Rational(6392,10000) - Rational(6,10)",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Find p-hat times (1 - p-hat)",
+     "lines": [
+      {
+       "tex": "\\hat{p}(1 - \\hat{p}) &= 0.6 \\times 0.4",
+       "sym": "Rational(6,10)*Rational(4,10)",
+       "new": true
+      },
+      {
+       "tex": "&= 0.24",
+       "sym": "Rational(24,100)"
+      }
+     ]
+    },
+    {
+     "title": "Set up the margin of error equation",
+     "lines": [
+      {
+       "tex": "1.96\\sqrt{\\frac{0.24}{n}} &= 0.0392",
+       "sym": "Eq(Rational(196,100)*sqrt(Rational(24,100)/n), Rational(392,10000))",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Solve for n",
+     "lines": [
+      {
+       "tex": "\\sqrt{\\frac{0.24}{n}} &= 0.02",
+       "sym": "Eq(sqrt(Rational(24,100)/n), Rational(2,100))"
+      },
+      {
+       "tex": "\\frac{0.24}{n} &= 0.0004",
+       "sym": "Eq(Rational(24,100)/n, Rational(4,10000))"
+      },
+      {
+       "tex": "n &= 600",
+       "sym": "Eq(n, 600)"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "n = 600"
+  },
+  "finalSym": "600",
+  "answerSym": "Rational(24,100)/((Rational(6392,10000) - Rational(5608,10000))/2/Rational(196,100))**2",
   "skill": "inf-confidence-width"
  },
  "practice-trig-radians-1": {
@@ -24202,6 +24556,51 @@
   "answerSym": "180 - 90 - 38",
   "skill": "geo-cor3"
  },
+ "practice-geo-cor3-2": {
+  "question": "$A$, $B$ and $C$ are points on a circle and $[AB]$ is a diameter.\n$|AC| = 6$ cm and $|BC| = 8$ cm.\nFind the length of the diameter $|AB|$.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Use the angle in a semicircle",
+     "lines": [
+      {
+       "text": "$[AB]$ is a diameter, so the angle at $C$ on the circle is a right angle."
+      },
+      {
+       "tex": "|\\angle ACB| &= 90^\\circ",
+       "sym": "90",
+       "new": true
+      }
+     ]
+    },
+    {
+     "title": "Use Pythagoras in triangle ABC",
+     "lines": [
+      {
+       "tex": "|AB|^2 &= 6^2 + 8^2",
+       "sym": "Eq(AB**2, 6**2 + 8**2)",
+       "new": true
+      },
+      {
+       "tex": "&= 100",
+       "sym": "Eq(AB**2, 100)"
+      },
+      {
+       "tex": "|AB| &= 10",
+       "sym": "Eq(AB, 10)",
+       "new": true
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "|AB| = 10 \\text{ cm}"
+  },
+  "finalSym": "10",
+  "answerSym": "sqrt(6**2 + 8**2)",
+  "skill": "geo-cor3"
+ },
  "practice-geo-thm20-1": {
   "question": "A circle has centre $O$. $P$ is a point outside the circle and $[PT]$ is a tangent to the circle at $T$.\n$|PT| = 15$ cm and $|OP| = 17$ cm.\nFind the radius of the circle.",
   "level": "ordinary",
@@ -24255,6 +24654,61 @@
   },
   "finalSym": "8",
   "answerSym": "sqrt(17**2 - 15**2)",
+  "skill": "geo-thm20"
+ },
+ "practice-geo-thm20-2": {
+  "question": "A circle has centre $O$ and radius $5$ cm. The point $P$ is outside the circle. The line $PT$ is a tangent to the circle at $T$.\n$|OP| = 13$ cm.\nFind $|PT|$.",
+  "level": "ordinary",
+  "marks": 10,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Use Theorem 20",
+     "lines": [
+      {
+       "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $[OP]$ is the hypotenuse of triangle $OTP$."
+      }
+     ]
+    },
+    {
+     "title": "Use Pythagoras",
+     "lines": [
+      {
+       "tex": "|OT|^2 + |TP|^2 &= |OP|^2"
+      },
+      {
+       "tex": "5^2 + |TP|^2 &= 13^2",
+       "sym": "Eq(5**2 + x**2, 13**2)",
+       "new": true
+      },
+      {
+       "tex": "25 + |TP|^2 &= 169",
+       "sym": "Eq(25 + x**2, 169)"
+      },
+      {
+       "tex": "|TP|^2 &= 144",
+       "sym": "Eq(x**2, 144)"
+      }
+     ]
+    },
+    {
+     "title": "Take the positive square root",
+     "lines": [
+      {
+       "text": "A length cannot be negative."
+      },
+      {
+       "tex": "|TP| &= 12",
+       "sym": "Eq(x, 12)",
+       "new": true
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "|PT| = 12 \\text{ cm}"
+  },
+  "finalSym": "12",
+  "answerSym": "sqrt(13**2 - 5**2)",
   "skill": "geo-thm20"
  },
  "practice-geo-transformations-1": {
@@ -24606,6 +25060,65 @@
   },
   "finalSym": "[-1, -4]",
   "answerSym": "[3 - 4*1, (3 - 4*2) - (3 - 4*1)]",
+  "skill": "seq-arith-find-ad"
+ },
+ "practice-seq-arith-find-ad-2": {
+  "question": "The $n$th term of an arithmetic sequence is $T_n = \\frac{3n - 1}{2}$.\nFind $a$, the first term, and $d$, the common difference.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Substitute n = 1 and n = 2",
+     "lines": [
+      {
+       "tex": "T_1 &= \\frac{3(1) - 1}{2}",
+       "sym": "(3*1 - 1)/2",
+       "new": true
+      },
+      {
+       "tex": "&= 1",
+       "sym": "1"
+      },
+      {
+       "tex": "T_2 &= \\frac{3(2) - 1}{2}",
+       "sym": "(3*2 - 1)/2",
+       "new": true
+      },
+      {
+       "tex": "&= \\frac{5}{2}",
+       "sym": "Rational(5,2)"
+      }
+     ]
+    },
+    {
+     "title": "Read off a and subtract to find d",
+     "lines": [
+      {
+       "tex": "a &= T_1 = 1",
+       "sym": "1",
+       "new": true
+      },
+      {
+       "tex": "d &= T_2 - T_1",
+       "sym": "Rational(5,2) - 1",
+       "new": true
+      },
+      {
+       "tex": "&= \\frac{5}{2} - 1",
+       "sym": "Rational(5,2) - 1"
+      },
+      {
+       "tex": "&= \\frac{3}{2}",
+       "sym": "Rational(3,2)"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "a = 1,\\ d = \\frac{3}{2}"
+  },
+  "finalSym": "(1, Rational(3,2))",
+  "answerSym": "(Rational(3*1 - 1, 2), Rational(3*2 - 1, 2) - Rational(3*1 - 1, 2))",
   "skill": "seq-arith-find-ad"
  },
  "practice-seq-geo-unknown-n-1": {
@@ -25100,6 +25613,128 @@
   "answerSym": "[1 - 2*sin(0), 1 - 2*sin(pi/6), 1 - 2*sin(pi/2), 1 - 2*sin(5*pi/6), 1 - 2*sin(pi), 1 - 2*sin(7*pi/6), 1 - 2*sin(3*pi/2), 1 - 2*sin(11*pi/6), 1 - 2*sin(2*pi)]",
   "skill": "trig-graph"
  },
+ "practice-trig-graph-2": {
+  "question": "Draw a graph of $f(x) = 1 + 2\\sin 2x$ for $0 \\le x \\le \\pi$.\nFirst complete a table of values of $f(x)$ at $x = 0, \\frac{\\pi}{4}, \\frac{\\pi}{2}, \\frac{3\\pi}{4}, \\pi$, working in radians, then plot the points and join them with a smooth curve.",
+  "level": "higher",
+  "marks": 10,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Use f(x) = 1 + 2 sin 2x at each x",
+     "lines": [
+      {
+       "text": "Work in radians. Substitute each given value of $x$ into $f(x)$."
+      }
+     ]
+    },
+    {
+     "title": "Substitute $x = 0$",
+     "lines": [
+      {
+       "tex": "f\\left(0\\right) &= 1 + 2\\sin\\left(0\\right)",
+       "sym": "1 + 2*sin(0)",
+       "new": true
+      },
+      {
+       "tex": "&= 1 + 2\\left(0\\right)",
+       "sym": "1 + 2*(0)"
+      },
+      {
+       "tex": "&= 1",
+       "sym": "1"
+      }
+     ]
+    },
+    {
+     "title": "Substitute $x = \\frac{\\pi}{4}$",
+     "lines": [
+      {
+       "tex": "f\\left(\\frac{\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{\\pi}{2}\\right)",
+       "sym": "1 + 2*sin(pi/2)",
+       "new": true
+      },
+      {
+       "tex": "&= 1 + 2\\left(1\\right)",
+       "sym": "1 + 2*(1)"
+      },
+      {
+       "tex": "&= 3",
+       "sym": "3"
+      }
+     ]
+    },
+    {
+     "title": "Substitute $x = \\frac{\\pi}{2}$",
+     "lines": [
+      {
+       "tex": "f\\left(\\frac{\\pi}{2}\\right) &= 1 + 2\\sin\\left(\\pi\\right)",
+       "sym": "1 + 2*sin(pi)",
+       "new": true
+      },
+      {
+       "tex": "&= 1 + 2\\left(0\\right)",
+       "sym": "1 + 2*(0)"
+      },
+      {
+       "tex": "&= 1",
+       "sym": "1"
+      }
+     ]
+    },
+    {
+     "title": "Substitute $x = \\frac{3\\pi}{4}$",
+     "lines": [
+      {
+       "tex": "f\\left(\\frac{3\\pi}{4}\\right) &= 1 + 2\\sin\\left(\\frac{3\\pi}{2}\\right)",
+       "sym": "1 + 2*sin(3*pi/2)",
+       "new": true
+      },
+      {
+       "tex": "&= 1 + 2\\left(-1\\right)",
+       "sym": "1 + 2*(-1)"
+      },
+      {
+       "tex": "&= -1",
+       "sym": "-1"
+      }
+     ]
+    },
+    {
+     "title": "Substitute $x = \\pi$",
+     "lines": [
+      {
+       "tex": "f\\left(\\pi\\right) &= 1 + 2\\sin\\left(2\\pi\\right)",
+       "sym": "1 + 2*sin(2*pi)",
+       "new": true
+      },
+      {
+       "tex": "&= 1 + 2\\left(0\\right)",
+       "sym": "1 + 2*(0)"
+      },
+      {
+       "tex": "&= 1",
+       "sym": "1"
+      }
+     ]
+    },
+    {
+     "title": "Plot the five points and join them",
+     "lines": [
+      {
+       "text": "Plot $(0,1), (\\frac{\\pi}{4},3), (\\frac{\\pi}{2},1), (\\frac{3\\pi}{4},-1), (\\pi,1)$."
+      },
+      {
+       "text": "Join them with a smooth wave: it rises from 1 to a maximum of 3 at $x = \\frac{\\pi}{4}$, falls to a minimum of $-1$ at $x = \\frac{3\\pi}{4}$ and returns to 1. One full wave fits in $0 \\le x \\le \\pi$, so the period is $\\pi$."
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "\\text{Table: } 1,\\ 3,\\ 1,\\ -1,\\ 1"
+  },
+  "finalSym": "[1, 3, 1, -1, 1]",
+  "answerSym": "[1 + 2*sin(2*0), 1 + 2*sin(2*(pi/4)), 1 + 2*sin(2*(pi/2)), 1 + 2*sin(2*(3*pi/4)), 1 + 2*sin(2*pi)]",
+  "skill": "trig-graph"
+ },
  "practice-trig-graph-abc-1": {
   "question": "The height, in metres, of a seat on a Ferris wheel above the ground, $t$ seconds after the ride starts, is\n$h(t) = 8 - 6\\sin\\left(\\frac{\\pi t}{10}\\right)$, where the angle is in radians.\nFind the period and the range of $h$.",
   "level": "higher",
@@ -25224,6 +25859,72 @@
   },
   "finalSym": "(-sqrt(3)/2, -1/2)",
   "answerSym": "(cos(7*pi/6), sin(7*pi/6))",
+  "skill": "trig-unit-circle"
+ },
+ "practice-trig-unit-circle-2": {
+  "question": "$P$ is a point on the unit circle with centre $O$. The line $OP$ makes an angle of $300^\\circ$ with the positive $x$-axis, measured anticlockwise.\nFind the co-ordinates of $P$.",
+  "level": "ordinary",
+  "marks": 5,
+  "workedSolution": {
+   "steps": [
+    {
+     "title": "Place P on the unit circle using the angle",
+     "lines": [
+      {
+       "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+      },
+      {
+       "tex": "P &= (\\cos 300^\\circ, \\sin 300^\\circ)"
+      }
+     ]
+    },
+    {
+     "title": "Find the x co-ordinate",
+     "lines": [
+      {
+       "text": "$300^\\circ$ is in the fourth quadrant, where cos is positive. The related angle is $60^\\circ$."
+      },
+      {
+       "tex": "\\cos 300^\\circ",
+       "sym": "cos(5*pi/3)",
+       "new": true
+      },
+      {
+       "tex": "&= \\cos 60^\\circ",
+       "sym": "cos(pi/3)"
+      },
+      {
+       "tex": "&= \\frac{1}{2}",
+       "sym": "1/2"
+      }
+     ]
+    },
+    {
+     "title": "Find the y co-ordinate",
+     "lines": [
+      {
+       "text": "In the fourth quadrant sin is negative."
+      },
+      {
+       "tex": "\\sin 300^\\circ",
+       "sym": "sin(5*pi/3)",
+       "new": true
+      },
+      {
+       "tex": "&= -\\sin 60^\\circ",
+       "sym": "-sin(pi/3)"
+      },
+      {
+       "tex": "&= -\\frac{\\sqrt{3}}{2}",
+       "sym": "-sqrt(3)/2"
+      }
+     ]
+    }
+   ],
+   "finalAnswer": "P = \\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)"
+  },
+  "finalSym": "(Rational(1,2), -sqrt(3)/2)",
+  "answerSym": "(cos(5*pi/3), sin(5*pi/3))",
   "skill": "trig-unit-circle"
  }
 }

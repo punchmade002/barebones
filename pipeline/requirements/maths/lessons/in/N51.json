@@ -1,0 +1,277 @@
+[
+ {
+  "skill": {
+   "id": "trig-unit-circle",
+   "title": "Define sin θ, cos θ, tan θ for all θ (unit circle)",
+   "level": "OL",
+   "input": "any angle",
+   "output": "value with correct sign (CAST, related angle)"
+  },
+  "candidates": [
+   {
+    "part": "maths-pp-2021-higher-p1-q10#(b)(i)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Bound the sine term",
+      "lines": [
+       {
+        "text": "The sine of any angle lies between $-1$ and $1$."
+       },
+       {
+        "tex": "-1 &\\le \\sin\\frac{\\pi t}{5} \\le 1"
+       }
+      ]
+     },
+     {
+      "title": "Add 1.5 to find the smallest value of I(t)",
+      "lines": [
+       {
+        "tex": "0.5 &\\le 1.5 + \\sin\\frac{\\pi t}{5} \\le 2.5"
+       },
+       {
+        "tex": "I(t) &\\ge 0.5 > 0"
+       }
+      ]
+     },
+     {
+      "title": "Relate this to the radius",
+      "lines": [
+       {
+        "text": "$r(t+1) = r(t) + I(t+1)$ and $I(t+1) > 0$, so $r(t+1) > r(t)$: the radius increases every year."
+       }
+      ]
+     }
+    ],
+    "final": "r(t+1) > r(t)"
+   },
+   {
+    "part": "maths-pp-2023-higher-p2-q9#(c)(i)",
+    "level": "higher",
+    "year": 2023,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Place Q on the unit circle using the angle",
+      "lines": [
+       {
+        "text": "$|\\angle QOP| = 45^\\circ$ and $P = (-1, 0)$, so $OQ$ makes $135^\\circ$ with the positive $x$-axis."
+       },
+       {
+        "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+       },
+       {
+        "tex": "Q &= (\\cos 135^\\circ, \\sin 135^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Find the x co-ordinate",
+      "lines": [
+       {
+        "tex": "\\cos 135^\\circ &= -\\cos 45^\\circ"
+       },
+       {
+        "tex": "&= -\\frac{1}{\\sqrt{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Find the y co-ordinate",
+      "lines": [
+       {
+        "tex": "\\sin 135^\\circ &= \\sin 45^\\circ"
+       },
+       {
+        "tex": "&= \\frac{1}{\\sqrt{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "Q = \\left(-\\frac{1}{\\sqrt{2}}, \\frac{1}{\\sqrt{2}}\\right)"
+   },
+   {
+    "part": "maths-pp-2021-higher-p1-q10#(b)(iv)",
+    "level": "higher",
+    "year": 2021,
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Write r(10) as r(0) plus ten yearly increases",
+      "lines": [
+       {
+        "tex": "r(10) &= r(0) + I(1) + I(2) + \\cdots + I(10)"
+       },
+       {
+        "tex": "&= 10 + 10(1.5) + \\left(\\sin\\frac{\\pi}{5} + \\sin\\frac{2\\pi}{5} + \\cdots + \\sin\\frac{10\\pi}{5}\\right)"
+       }
+      ]
+     },
+     {
+      "title": "Show the sine terms add to zero",
+      "lines": [
+       {
+        "text": "$\\sin(\\pi + x) = -\\sin x$, so $\\sin\\frac{6\\pi}{5} = -\\sin\\frac{\\pi}{5}$, and similarly for the pairs 2 and 7, 3 and 8, 4 and 9."
+       },
+       {
+        "text": "The remaining terms are $\\sin\\pi = 0$ and $\\sin 2\\pi = 0$, so all the sine terms sum to 0."
+       }
+      ]
+     },
+     {
+      "title": "Evaluate r(10)",
+      "lines": [
+       {
+        "tex": "r(10) &= 10 + 15 + 0"
+       },
+       {
+        "tex": "&= 25"
+       }
+      ]
+     },
+     {
+      "title": "Compare the two cylinder volumes",
+      "lines": [
+       {
+        "tex": "V_1 &= \\pi (10)^2 h"
+       },
+       {
+        "tex": "V_2 &= \\pi (25)^2 h"
+       },
+       {
+        "tex": "V_2 &= kV_1"
+       },
+       {
+        "tex": "\\pi (25)^2 h &= k\\pi (10)^2 h"
+       }
+      ]
+     },
+     {
+      "title": "Divide by \\pi h and solve for k",
+      "lines": [
+       {
+        "tex": "625 &= 100k"
+       },
+       {
+        "tex": "k &= 6.25"
+       }
+      ]
+     }
+    ],
+    "final": "r(10) = 25 \\text{ cm}, \\; k = 6.25"
+   },
+   {
+    "part": "practice-trig-unit-circle-2",
+    "level": "ordinary",
+    "year": null,
+    "question": "$P$ is a point on the unit circle with centre $O$. The line $OP$ makes an angle of $300^\\circ$ with the positive $x$-axis, measured anticlockwise.\nFind the co-ordinates of $P$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Place P on the unit circle using the angle",
+      "lines": [
+       {
+        "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+       },
+       {
+        "tex": "P &= (\\cos 300^\\circ, \\sin 300^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Find the x co-ordinate",
+      "lines": [
+       {
+        "text": "$300^\\circ$ is in the fourth quadrant, where cos is positive. The related angle is $60^\\circ$."
+       },
+       {
+        "tex": "\\cos 300^\\circ"
+       },
+       {
+        "tex": "&= \\cos 60^\\circ"
+       },
+       {
+        "tex": "&= \\frac{1}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the y co-ordinate",
+      "lines": [
+       {
+        "text": "In the fourth quadrant sin is negative."
+       },
+       {
+        "tex": "\\sin 300^\\circ"
+       },
+       {
+        "tex": "&= -\\sin 60^\\circ"
+       },
+       {
+        "tex": "&= -\\frac{\\sqrt{3}}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "P = \\left(\\frac{1}{2}, -\\frac{\\sqrt{3}}{2}\\right)"
+   },
+   {
+    "part": "practice-trig-unit-circle-1",
+    "level": "higher",
+    "year": null,
+    "question": "$P$ is a point on the unit circle, centre $O = (0, 0)$.\nThe line $OP$ makes an angle of $210^\\circ$ with the positive $x$-axis, measured anticlockwise.\nFind the co-ordinates of $P$.",
+    "marks": 5,
+    "steps": [
+     {
+      "title": "Place P on the unit circle using the angle",
+      "lines": [
+       {
+        "text": "On the unit circle, a point at angle $\\theta$ is $(\\cos\\theta, \\sin\\theta)$."
+       },
+       {
+        "tex": "P &= (\\cos 210^\\circ, \\sin 210^\\circ)"
+       }
+      ]
+     },
+     {
+      "title": "Find the x co-ordinate",
+      "lines": [
+       {
+        "text": "$210^\\circ$ is in the third quadrant, where cos is negative. The related angle is $30^\\circ$."
+       },
+       {
+        "tex": "\\cos 210^\\circ"
+       },
+       {
+        "tex": "&= -\\cos 30^\\circ"
+       },
+       {
+        "tex": "&= -\\frac{\\sqrt{3}}{2}"
+       }
+      ]
+     },
+     {
+      "title": "Find the y co-ordinate",
+      "lines": [
+       {
+        "text": "In the third quadrant sin is also negative."
+       },
+       {
+        "tex": "\\sin 210^\\circ"
+       },
+       {
+        "tex": "&= -\\sin 30^\\circ"
+       },
+       {
+        "tex": "&= -\\frac{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "P = \\left(-\\frac{\\sqrt{3}}{2}, -\\frac{1}{2}\\right)"
+   }
+  ]
+ }
+]
