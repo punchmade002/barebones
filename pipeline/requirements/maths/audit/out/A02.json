@@ -1,0 +1,100 @@
+[
+ {
+  "skill": "seq-geo-unknown-n",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Tests n = 6 and n = 7 by trial instead of solving with logs.",
+  "method": "Sets the term or sum equal to a target and solves for n by taking logs."
+ },
+ {
+  "skill": "stat-back-to-back",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Only reads and compares a finished plot instead of building one.",
+  "method": "Builds a back-to-back stem-and-leaf plot by splitting values into stems and leaves for each data set."
+ },
+ {
+  "skill": "stat-correlation-calc",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Works r out by hand from the formula sums instead of using the calculator.",
+  "method": "Enters the paired data in calculator statistics mode and reads off r."
+ },
+ {
+  "skill": "stat-quartiles-iqr",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Solves a box-plot puzzle from a mix of summary statistics rather than finding quartiles/IQR from a list.",
+  "method": "Splits ranked data into halves, takes medians for Q1 and Q3, and subtracts for the IQR."
+ },
+ {
+  "skill": "stat-sd",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Calculates the standard deviation by hand step by step instead of the calculator.",
+  "method": "Enters the data in calculator statistics mode and reads off the standard deviation."
+ },
+ {
+  "skill": "stat-sd",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Calculates the standard deviation by hand step by step instead of the calculator.",
+  "method": "Enters the data in calculator statistics mode and reads off the standard deviation."
+ },
+ {
+  "skill": "trig-graph",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Finds period and range of an |sin| expression with no plotting.",
+  "method": "Substitutes values into a trig function to make a table, then plots and joins the points."
+ },
+ {
+  "skill": "trig-graph-abc",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Plots points from a table and joins a curve instead of finding period/range from a, b, c.",
+  "method": "Reads the period and range of a + b sin c\u03b8 from the values of b and c."
+ },
+ {
+  "skill": "trig-unit-circle",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Bounds a sine expression to find a minimum rather than placing a point on the unit circle.",
+  "method": "Uses the angle to find cos \u03b8 and sin \u03b8 as the x and y coordinates of a point on the unit circle."
+ },
+ {
+  "skill": "quad-form-from-roots",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Uses sum and product of roots to find unknowns instead of writing factors from roots.",
+  "method": "Writes the quadratic in factor form from its roots, then expands."
+ },
+ {
+  "skill": "mens-nets",
+  "problem": 2,
+  "verdict": "shift",
+  "reason": "Converts lengths by a scale and draws a net rather than finding unknown side lengths of the net.",
+  "method": "Finds the dimensions of a net's rectangle using the height and the circumference of the base."
+ },
+ {
+  "skill": "mens-nets",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Only reads dimensions off a diagram with no calculation.",
+  "method": "Finds the dimensions of a net's rectangle using the height and the circumference of the base."
+ },
+ {
+  "skill": "circ-touching",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Finds a line through the centres and picks a point rather than comparing distance with radii.",
+  "method": "Compares the distance between the centres with the sum or difference of the radii."
+ },
+ {
+  "skill": "line-point-on",
+  "problem": 3,
+  "verdict": "shift",
+  "reason": "Reads a point off a graph instead of substituting into the equation.",
+  "method": "Substitutes the coordinates into the line's equation to test whether it is satisfied."
+ }
+]
