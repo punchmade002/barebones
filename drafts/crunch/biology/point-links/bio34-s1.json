@@ -1,0 +1,504 @@
+{
+"bio34-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s7.3.4",
+"strength": "helpful",
+"why": "energy flows one way",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.0.3": {
+"cost": 2,
+"needs": []
+},
+"bio34-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.0.3",
+"strength": "helpful",
+"why": "stores of carbon",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s1.0.0",
+"strength": "helpful",
+"why": "photosynthesis uses CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s1.0.0",
+"strength": "essential",
+"why": "photosynthesis makes glucose from CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.1.0",
+"strength": "helpful",
+"why": "photosynthesis fixes carbon",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s1.2.1",
+"strength": "helpful",
+"why": "aquatic plants use dissolved CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio34-s1.1.2",
+"strength": "helpful",
+"why": "dissolved CO2 in water",
+"confidence": "low"
+}
+]
+},
+"bio34-s1.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.1.3",
+"strength": "essential",
+"why": "calcium carbonate shells",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.0.5",
+"strength": "helpful",
+"why": "respiration releases carbon as CO2",
+"confidence": "high"
+},
+{
+"id": "bio31-s7.0.2",
+"strength": "helpful",
+"why": "herbivores and carnivores as consumers",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s7.1.0",
+"strength": "essential",
+"why": "trophic levels",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.0.3",
+"strength": "helpful",
+"why": "dead organic matter as a store",
+"confidence": "high"
+},
+{
+"id": "bio31-s7.0.5",
+"strength": "helpful",
+"why": "decomposers feed on dead matter",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "essential",
+"why": "respiration breaks glucose to CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio34-s1.3.0",
+"strength": "essential",
+"why": "respiration releases CO2",
+"confidence": "high"
+},
+{
+"id": "bio34-s1.1.0",
+"strength": "helpful",
+"why": "photosynthesis takes in carbon",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio31-s7.0.5",
+"strength": "helpful",
+"why": "saprophytic nutrition by decomposers",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.4.0",
+"strength": "essential",
+"why": "decomposers digest then respire",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.4.0",
+"strength": "essential",
+"why": "decomposers return CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "helpful",
+"why": "aerobic respiration needs oxygen",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.4.3",
+"strength": "essential",
+"why": "conditions for fast decomposition",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.4.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "anaerobic respiration without oxygen",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.4.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.4.5",
+"strength": "essential",
+"why": "methane-producing microorganisms",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.5.0",
+"strength": "essential",
+"why": "what fossil fuels are",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s1.0.2",
+"strength": "helpful",
+"why": "light energy stored as chemical energy",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.5.0",
+"strength": "helpful",
+"why": "fossil fuel store",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.5.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio34-s1.5.0",
+"strength": "essential",
+"why": "fossil fuels as carbon store",
+"confidence": "high"
+},
+{
+"id": "bio34-s1.1.0",
+"strength": "helpful",
+"why": "photosynthesis removes CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s1.4.0",
+"strength": "helpful",
+"why": "carbon sink definition",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.6.0",
+"strength": "essential",
+"why": "sink versus source",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio34-s1.6.0",
+"strength": "helpful",
+"why": "sinks and stores",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio34-s1.6.0",
+"strength": "helpful",
+"why": "inputs balancing outputs",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.6.4",
+"strength": "essential",
+"why": "balanced CO2 uptake and release",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.6.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio34-s1.3.1",
+"strength": "helpful",
+"why": "photosynthesis versus respiration balance",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio34-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.0.3",
+"strength": "essential",
+"why": "stores as boxes",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio34-s1.7.0",
+"strength": "essential",
+"why": "labelled boxes for the arrows",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.7.1",
+"strength": "essential",
+"why": "continues the arrow list",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.3.2",
+"strength": "helpful",
+"why": "combustion releases CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.4.3",
+"strength": "helpful",
+"why": "aerobic decomposers need air",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.4.2",
+"strength": "essential",
+"why": "decomposers return minerals and CO2",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.7.1",
+"strength": "helpful",
+"why": "diagram of the cycle",
+"confidence": "high"
+}
+]
+},
+"bio34-s1.7.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio34-s1.4.3",
+"strength": "helpful",
+"why": "warmth speeds decomposition",
+"confidence": "high"
+}
+]
+}
+}

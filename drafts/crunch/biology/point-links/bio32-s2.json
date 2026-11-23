@@ -1,0 +1,1228 @@
+{
+ "bio32-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.10.1",
+    "strength": "helpful",
+    "why": "records of catches",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.0.0",
+    "strength": "helpful",
+    "why": "abundance versus presence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.0.2",
+    "strength": "essential",
+    "why": "DAFOR scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.0.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio32-s2.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.0.4",
+    "strength": "essential",
+    "why": "quantitative data",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s1.4.3",
+    "strength": "helpful",
+    "why": "species diversity meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.1.0",
+    "strength": "helpful",
+    "why": "representative sample idea",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.1.1",
+    "strength": "essential",
+    "why": "random sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.1.2",
+    "strength": "essential",
+    "why": "grid axes laid out",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.1.3",
+    "strength": "essential",
+    "why": "coordinates to walk to",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "essential",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.1.1",
+    "strength": "helpful",
+    "why": "random sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.1.1",
+    "strength": "helpful",
+    "why": "contrast with random sampling",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.7.b",
+    "strength": "helpful",
+    "why": "transect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.1.0",
+    "strength": "helpful",
+    "why": "representative sample",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat samples",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.2.2",
+    "strength": "essential",
+    "why": "running mean",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "essential",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat frame",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "essential",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "essential",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "essential",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.1",
+    "strength": "essential",
+    "why": "gridded quadrat",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.3.2",
+    "strength": "essential",
+    "why": "point quadrat",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.1.3",
+    "strength": "helpful",
+    "why": "random coordinate grid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.0",
+    "strength": "essential",
+    "why": "percentage frequency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.0",
+    "strength": "essential",
+    "why": "percentage frequency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.0",
+    "strength": "essential",
+    "why": "percentage frequency",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.0",
+    "strength": "essential",
+    "why": "percentage frequency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.0",
+    "strength": "essential",
+    "why": "frequency formula",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.4.4",
+    "strength": "essential",
+    "why": "sample data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.5",
+    "strength": "helpful",
+    "why": "results to plot",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.1",
+    "strength": "essential",
+    "why": "gridded quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.5.1",
+    "strength": "essential",
+    "why": "gridded cover method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.2",
+    "strength": "essential",
+    "why": "point quadrat hits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.5.3",
+    "strength": "essential",
+    "why": "point-quadrat cover formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.5.4",
+    "strength": "essential",
+    "why": "sample data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.5.3",
+    "strength": "helpful",
+    "why": "pin hits on layers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.5.1",
+    "strength": "helpful",
+    "why": "grid method",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.5.3",
+    "strength": "helpful",
+    "why": "point method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat counts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.6.0",
+    "strength": "essential",
+    "why": "density",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.6.0",
+    "strength": "essential",
+    "why": "density formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.6.3",
+    "strength": "essential",
+    "why": "sample data",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.6.0",
+    "strength": "essential",
+    "why": "density formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.6.1",
+    "strength": "essential",
+    "why": "population estimate formula",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.6.2",
+    "strength": "helpful",
+    "why": "habitat area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.6.0",
+    "strength": "helpful",
+    "why": "counting individuals",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.5.0",
+    "strength": "helpful",
+    "why": "percentage cover alternative",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.2.0",
+    "strength": "helpful",
+    "why": "systematic sampling gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.7.b",
+    "strength": "helpful",
+    "why": "transect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.7.1",
+    "strength": "essential",
+    "why": "rope laid out",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.7.2",
+    "strength": "essential",
+    "why": "recording species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.7.2",
+    "strength": "essential",
+    "why": "presence at points",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.0.6",
+    "strength": "helpful",
+    "why": "distribution versus abundance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.2.0",
+    "strength": "essential",
+    "why": "systematic sampling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.7.1",
+    "strength": "helpful",
+    "why": "line transect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "essential",
+    "why": "quadrat",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.7.b",
+    "strength": "helpful",
+    "why": "line transect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.8.0",
+    "strength": "essential",
+    "why": "belt transect",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.4.0",
+    "strength": "helpful",
+    "why": "measures recorded",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.2.2",
+    "strength": "essential",
+    "why": "abiotic factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.8.0",
+    "strength": "essential",
+    "why": "belt transect",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.3.0",
+    "strength": "helpful",
+    "why": "quadrats unsuited to movers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.4.0",
+    "strength": "essential",
+    "why": "pitfall trap",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.9.1",
+    "strength": "helpful",
+    "why": "animals caught",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.9.2",
+    "strength": "essential",
+    "why": "marked animals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.9.1",
+    "strength": "essential",
+    "why": "same capture method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.9.2",
+    "strength": "essential",
+    "why": "M marked count",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.9.4",
+    "strength": "essential",
+    "why": "C and R counts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.9.5",
+    "strength": "essential",
+    "why": "formula N=(M×C)/R",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.9.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.9.5",
+    "strength": "essential",
+    "why": "formula N=(M×C)/R",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.9.5",
+    "strength": "essential",
+    "why": "formula meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.9.4",
+    "strength": "essential",
+    "why": "definition of R",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.9.5",
+    "strength": "essential",
+    "why": "constant population assumption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.9.5",
+    "strength": "essential",
+    "why": "random mixing assumption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.9.2",
+    "strength": "helpful",
+    "why": "marking method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.10.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.9.5",
+    "strength": "essential",
+    "why": "R in the formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.7.0",
+    "strength": "helpful",
+    "why": "sweep net",
+    "confidence": "low"
+   },
+   {
+    "id": "bio32-s1.4.0",
+    "strength": "helpful",
+    "why": "pitfall trap",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.6.2",
+    "strength": "helpful",
+    "why": "finding habitat area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.11.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio32-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.0.0",
+    "strength": "essential",
+    "why": "species list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s1.2.2",
+    "strength": "essential",
+    "why": "abiotic factors",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.8.2",
+    "strength": "helpful",
+    "why": "measuring abiotic factors",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.2.1",
+    "strength": "essential",
+    "why": "biotic factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.11.4",
+    "strength": "essential",
+    "why": "biotic factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.11.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.11.1",
+    "strength": "helpful",
+    "why": "map and data used",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.11.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.11.b",
+    "strength": "helpful",
+    "why": "model meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.6",
+    "strength": "helpful",
+    "why": "bar chart of frequency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.7.b",
+    "strength": "helpful",
+    "why": "transect",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.12.3",
+    "strength": "helpful",
+    "why": "kite diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.12.2",
+    "strength": "essential",
+    "why": "abundance along transect",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.7.b",
+    "strength": "essential",
+    "why": "transect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.12.3",
+    "strength": "essential",
+    "why": "kite diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.0.4",
+    "strength": "helpful",
+    "why": "abundance measures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.13.1",
+    "strength": "helpful",
+    "why": "areas compared",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.4.0",
+    "strength": "helpful",
+    "why": "frequency measure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.13.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.1.2",
+    "strength": "helpful",
+    "why": "random coordinates",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.3.4",
+    "strength": "helpful",
+    "why": "same quadrat size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.2.3",
+    "strength": "helpful",
+    "why": "no true control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.13.3",
+    "strength": "helpful",
+    "why": "abundance measures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.13.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio32-s2.13.1",
+    "strength": "essential",
+    "why": "hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.1.1",
+    "strength": "essential",
+    "why": "representative sampling",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.1.2",
+    "strength": "helpful",
+    "why": "random coordinates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.5.7",
+    "strength": "essential",
+    "why": "subjective cover estimate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio32-s2.3.5",
+    "strength": "helpful",
+    "why": "edge rules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s1.18.1",
+    "strength": "helpful",
+    "why": "season affects catches",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio32-s2.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.10.3",
+    "strength": "essential",
+    "why": "capture-recapture assumptions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio32-s2.14.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio32-s2.14.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio32-s2.2.2",
+    "strength": "helpful",
+    "why": "more samples more reliable",
+    "confidence": "high"
+   }
+  ]
+ }
+}

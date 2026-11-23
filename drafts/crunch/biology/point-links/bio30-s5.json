@@ -1,1194 +1,1108 @@
 {
-"bio30-s5.0.b": {
-"cost": 2,
-"needs": []
-},
-"bio30-s5.0.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.b",
-"strength": "essential",
-"why": "concentration gradient",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.0.1": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.0.b",
-"strength": "helpful",
-"why": "concentration gradient",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.0.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.2.5",
-"strength": "helpful",
-"why": "wilting when water short",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.0.3": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.0.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.2.0",
-"strength": "helpful",
-"why": "water loss via cuticle and stomata",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.0.5": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s2.3.b",
-"strength": "helpful",
-"why": "stomata open and close",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.0.6": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.4.0",
-"strength": "helpful",
-"why": "CO2 and stomatal control",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.0.7": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.b",
-"strength": "essential",
-"why": "concentration gradient",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.1.b": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.1.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.1.b",
-"strength": "helpful",
-"why": "one factor at a time",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.1.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.1.b",
-"strength": "essential",
-"why": "hypothesis as testable prediction",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.1.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.1.b",
-"strength": "helpful",
-"why": "hypothesis as testable prediction",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.1.3": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.1.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.1.3",
-"strength": "helpful",
-"why": "potometer measures uptake",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.2.b": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.2.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.0.1",
-"strength": "essential",
-"why": "independent variable",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.2.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.0.2",
-"strength": "essential",
-"why": "dependent variable",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.2.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.0.3",
-"strength": "essential",
-"why": "controlled variables",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.2.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.2.2",
-"strength": "helpful",
-"why": "controlled variables list",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.2.4": {
-"cost": 2,
-"needs": [
-{
-"id": "bio2-s2.2.1",
-"strength": "essential",
-"why": "control as comparison",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.2.5": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.2.1",
-"strength": "helpful",
-"why": "control as comparison",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.3.b": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.3.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.1.3",
-"strength": "helpful",
-"why": "potometer measures uptake",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.3.1": {
-"cost": 2,
-"needs": []
-},
-"bio30-s5.3.2": {
-"cost": 2,
-"needs": []
-},
-"bio30-s5.3.3": {
-"cost": 2,
-"needs": []
-},
-"bio30-s5.3.4": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.4.b": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.4.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.9.1",
-"strength": "helpful",
-"why": "air breaks xylem column",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.4.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.9.1",
-"strength": "helpful",
-"why": "air breaks xylem column",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.4.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.0",
-"strength": "helpful",
-"why": "bubble potometer parts",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.4.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.0",
-"strength": "helpful",
-"why": "potometer parts",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.4.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.0",
-"strength": "helpful",
-"why": "capillary tube",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.4.5": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.1",
-"strength": "helpful",
-"why": "petroleum jelly use",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.4.6": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.5.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.4.b",
-"strength": "essential",
-"why": "built potometer",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.5.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.0",
-"strength": "helpful",
-"why": "capillary tube",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.5.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.2.3",
-"strength": "helpful",
-"why": "time allowed to adjust",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.5.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.0",
-"strength": "essential",
-"why": "air bubble in capillary",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.5.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.2",
-"strength": "helpful",
-"why": "bubble distance measurement",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.5.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.5.2",
-"strength": "helpful",
-"why": "repeats and mean",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.5.5": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.3.0",
-"strength": "essential",
-"why": "potometer parts",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.6.b": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.6.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.2",
-"strength": "essential",
-"why": "bubble distance moved",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.6.1": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.6.0",
-"strength": "helpful",
-"why": "bubble distance and rate",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.6.2": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.6.1",
-"strength": "essential",
-"why": "volume formula",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.6.3": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.6.0",
-"strength": "helpful",
-"why": "rate of uptake",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.6.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.6.3",
-"strength": "essential",
-"why": "dividing by leaf area",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.6.5": {
-"cost": 2,
-"needs": []
-},
-"bio30-s5.6.6": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.6.5",
-"strength": "essential",
-"why": "percentage mass loss",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.7.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.0",
-"strength": "helpful",
-"why": "air movement effect",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.7.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.2",
-"strength": "essential",
-"why": "potometer reading method",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.7.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.2",
-"strength": "helpful",
-"why": "fan apparatus",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.7.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.7.1",
-"strength": "essential",
-"why": "fan settings",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.7.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.2.2",
-"strength": "helpful",
-"why": "temperature controlled",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.7.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.0",
-"strength": "essential",
-"why": "air movement raises rate",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.8.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.1",
-"strength": "helpful",
-"why": "temperature effect",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.8.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.2",
-"strength": "helpful",
-"why": "potometer reading method",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.8.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.1",
-"strength": "helpful",
-"why": "adjusting to conditions",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.8.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.2",
-"strength": "helpful",
-"why": "heat shield",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.8.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.5",
-"strength": "helpful",
-"why": "light affects rate",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.8.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.1",
-"strength": "essential",
-"why": "temperature raises rate",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.9.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.3",
-"strength": "helpful",
-"why": "surface area effect",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.9.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.2",
-"strength": "helpful",
-"why": "potometer reading method",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.9.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.1",
-"strength": "helpful",
-"why": "petroleum jelly use",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.9.2": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.9.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.6.3",
-"strength": "essential",
-"why": "leaf area on graph paper",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.9.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.3",
-"strength": "essential",
-"why": "surface area effect",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.10.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.4",
-"strength": "helpful",
-"why": "cuticle and water loss",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.10.0": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.10.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.2.5",
-"strength": "helpful",
-"why": "untreated control leaf",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.10.2": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.10.3": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.10.4": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.10.5": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.6.5",
-"strength": "essential",
-"why": "percentage mass loss",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.10.6": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.0.4",
-"strength": "essential",
-"why": "cuticle and stomata water loss",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.10.7": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.10.6",
-"strength": "helpful",
-"why": "expected results",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.11.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.10.b",
-"strength": "helpful",
-"why": "cuticle comparison",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.11.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.10.1",
-"strength": "helpful",
-"why": "coating leaf surfaces",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.11.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.4",
-"strength": "helpful",
-"why": "thick cuticle",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.12.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.1.1",
-"strength": "helpful",
-"why": "water vapour leaves via stomata",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.12.0": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.12.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.4",
-"strength": "helpful",
-"why": "cobalt chloride apparatus",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.12.2": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.12.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.4.3",
-"strength": "helpful",
-"why": "stomata on lower surface",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.13.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s2.3.b",
-"strength": "helpful",
-"why": "stomata open and close",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.13.0": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.13.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.2",
-"strength": "helpful",
-"why": "heat shield",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.13.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.13.1",
-"strength": "helpful",
-"why": "lamp set-up",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.13.3": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.13.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.5",
-"strength": "helpful",
-"why": "lamp warms leaf",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.13.5": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.5",
-"strength": "essential",
-"why": "light controls stomata",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.14.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.7",
-"strength": "helpful",
-"why": "humidity in bag",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.14.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.2.1",
-"strength": "helpful",
-"why": "control for bag effect",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.14.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.3",
-"strength": "helpful",
-"why": "CO2 method apparatus",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.14.2": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.3.3",
-"strength": "helpful",
-"why": "soda lime",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.14.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.7",
-"strength": "helpful",
-"why": "humidity builds in bag",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.14.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.6",
-"strength": "essential",
-"why": "CO2 and stomata",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.15.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.7.0",
-"strength": "helpful",
-"why": "risk assessment",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.15.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.7.4",
-"strength": "helpful",
-"why": "cutting safely",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.15.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.7.6",
-"strength": "helpful",
-"why": "electricity and water",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.15.2": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.15.3": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.15.4": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.15.5": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.16.b": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.16.0": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.6.0",
-"strength": "helpful",
-"why": "rate calculation",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.16.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.10.5",
-"strength": "helpful",
-"why": "percentage mass loss",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.16.2": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.16.3": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.0.b",
-"strength": "helpful",
-"why": "factors affecting rate",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.16.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.5",
-"strength": "essential",
-"why": "stomata fully open",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.16.5": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.16.3",
-"strength": "helpful",
-"why": "expected patterns",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.16.6": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s5.10.1",
-"strength": "essential",
-"why": "leaves A to D treatments",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.17.b": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.16.b",
-"strength": "helpful",
-"why": "primary data",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.17.0": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.17.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio2-s2.5.4",
-"strength": "helpful",
-"why": "larger sample reliability",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.17.2": {
-"cost": 2,
-"needs": [
-{
-"id": "bio30-s2.4.1",
-"strength": "helpful",
-"why": "stomata close at night",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.17.3": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.17.2",
-"strength": "helpful",
-"why": "daily transpiration graph",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.17.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.2",
-"strength": "helpful",
-"why": "wilting closes stomata",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.17.5": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.0.6",
-"strength": "essential",
-"why": "CO2 closes stomata",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.17.6": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.18.b": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.18.0": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.1.3",
-"strength": "essential",
-"why": "uptake versus loss",
-"confidence": "high"
-}
-]
-},
-"bio30-s5.18.1": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.4.1",
-"strength": "helpful",
-"why": "air breaks water column",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.18.2": {
-"cost": 2,
-"needs": [
-{
-"id": "bio2-s2.3.1",
-"strength": "helpful",
-"why": "changing one factor changes another",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.18.3": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.18.4": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.1",
-"strength": "helpful",
-"why": "adjusting time",
-"confidence": "low"
-}
-]
-},
-"bio30-s5.18.5": {
-"cost": 1,
-"needs": []
-},
-"bio30-s5.18.6": {
-"cost": 1,
-"needs": [
-{
-"id": "bio30-s5.5.4",
-"strength": "helpful",
-"why": "repeat and mean",
-"confidence": "low"
-}
-]
-}
+ "bio30-s5.0.b": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s5.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.b",
+    "strength": "essential",
+    "why": "concentration gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.0.b",
+    "strength": "essential",
+    "why": "concentration gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s2.1.1",
+    "strength": "helpful",
+    "why": "evaporation from mesophyll walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.4.2",
+    "strength": "helpful",
+    "why": "wilting closes stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.2.0",
+    "strength": "helpful",
+    "why": "cuticle and stomata water loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.4.0",
+    "strength": "helpful",
+    "why": "stomata open in daylight",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.4.1",
+    "strength": "helpful",
+    "why": "high CO2 closes stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.b",
+    "strength": "essential",
+    "why": "concentration gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test, one variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.1.b",
+    "strength": "helpful",
+    "why": "one factor at a time",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.1.b",
+    "strength": "essential",
+    "why": "hypothesis meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.1.b",
+    "strength": "essential",
+    "why": "hypothesis meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.3.0",
+    "strength": "helpful",
+    "why": "bubble potometer apparatus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.1.3",
+    "strength": "essential",
+    "why": "uptake versus loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.b",
+    "strength": "helpful",
+    "why": "variable types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "what a control is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "what a control is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s5.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.3.2",
+    "strength": "helpful",
+    "why": "heat shield purpose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.3.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s5.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.3.0",
+    "strength": "helpful",
+    "why": "potometer parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.0.0",
+    "strength": "helpful",
+    "why": "xylem carries water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.9.1",
+    "strength": "essential",
+    "why": "air breaks the water column",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.3.0",
+    "strength": "helpful",
+    "why": "capillary tube and scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.5.0",
+    "strength": "essential",
+    "why": "bubble introduced in capillary tube",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats and mean",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.3.0",
+    "strength": "essential",
+    "why": "potometer parts to label",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.2.1",
+    "strength": "helpful",
+    "why": "rate of uptake as dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.6.0",
+    "strength": "essential",
+    "why": "distance moved by bubble",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.6.1",
+    "strength": "essential",
+    "why": "volume = pi r squared x distance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.6.2",
+    "strength": "helpful",
+    "why": "rate to be divided by area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.6.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.6.3",
+    "strength": "essential",
+    "why": "dividing rate by leaf area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.6.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s5.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.6.5",
+    "strength": "essential",
+    "why": "percentage mass loss formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.0",
+    "strength": "helpful",
+    "why": "air movement keeps gradient steep",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.5.2",
+    "strength": "helpful",
+    "why": "potometer baseline reading",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.1",
+    "strength": "helpful",
+    "why": "temperature changes rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.0",
+    "strength": "helpful",
+    "why": "moving air removes humid layer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.1",
+    "strength": "helpful",
+    "why": "temperature affects rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.3.2",
+    "strength": "helpful",
+    "why": "heat shield apparatus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.5",
+    "strength": "helpful",
+    "why": "light affects rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.1",
+    "strength": "helpful",
+    "why": "rate rises with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.3",
+    "strength": "helpful",
+    "why": "leaf area and stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.6.3",
+    "strength": "essential",
+    "why": "measuring leaf area on graph paper",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.3",
+    "strength": "helpful",
+    "why": "rate proportional to leaf area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.4",
+    "strength": "helpful",
+    "why": "cuticle reduces water loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "helpful",
+    "why": "untreated leaf as control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.6.5",
+    "strength": "essential",
+    "why": "percentage mass loss formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.10.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.10.1",
+    "strength": "essential",
+    "why": "which surface each leaf has coated",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s2.4.3",
+    "strength": "helpful",
+    "why": "most stomata on lower surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.10.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.10.6",
+    "strength": "essential",
+    "why": "results supporting the conclusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.10.b",
+    "strength": "helpful",
+    "why": "cuticle comparison method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.10.1",
+    "strength": "helpful",
+    "why": "coating surfaces with petroleum jelly",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.4",
+    "strength": "helpful",
+    "why": "thick cuticle loses less water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.12.0",
+    "strength": "helpful",
+    "why": "colour change of paper",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.12.0",
+    "strength": "helpful",
+    "why": "pink means water absorbed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.4.3",
+    "strength": "helpful",
+    "why": "most stomata on lower surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.5",
+    "strength": "helpful",
+    "why": "light controls stomatal opening",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.3.2",
+    "strength": "helpful",
+    "why": "heat shield apparatus",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s5.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.5",
+    "strength": "helpful",
+    "why": "lamp warms the leaf",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.5",
+    "strength": "helpful",
+    "why": "stomata open in light, close in dark",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.14.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.7",
+    "strength": "helpful",
+    "why": "humid air in bag",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.2.5",
+    "strength": "helpful",
+    "why": "bag control for humidity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.3.3",
+    "strength": "helpful",
+    "why": "CO2 source apparatus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.3.3",
+    "strength": "helpful",
+    "why": "soda lime apparatus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.6",
+    "strength": "helpful",
+    "why": "CO2 closes stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.15.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.15.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.15.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.15.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.15.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.6.0",
+    "strength": "helpful",
+    "why": "rate calculation from distance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.10.5",
+    "strength": "helpful",
+    "why": "percentage mass loss method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.16.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.2.0",
+    "strength": "helpful",
+    "why": "independent variable on x-axis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.16.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s5.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.5",
+    "strength": "helpful",
+    "why": "stomata fully open limits rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.16.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.1.1",
+    "strength": "helpful",
+    "why": "hypothesis being supported",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.16.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.10.1",
+    "strength": "essential",
+    "why": "leaves A to D treatments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.3",
+    "strength": "helpful",
+    "why": "sample size and reliability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.17.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.4.1",
+    "strength": "helpful",
+    "why": "stomata close at night",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.1",
+    "strength": "helpful",
+    "why": "temperature raises rate",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s5.17.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.0.2",
+    "strength": "essential",
+    "why": "wilting closes stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.17.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.0.6",
+    "strength": "helpful",
+    "why": "CO2 reduces stomatal opening",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.17.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s5.17.0",
+    "strength": "helpful",
+    "why": "secondary data meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.1.3",
+    "strength": "essential",
+    "why": "uptake versus loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.4.1",
+    "strength": "helpful",
+    "why": "air bubble breaks water column",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.18.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.3.1",
+    "strength": "helpful",
+    "why": "changing a second variable invalidates test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.18.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.5.1",
+    "strength": "helpful",
+    "why": "time to adjust",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s5.18.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s5.18.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s5.5.4",
+    "strength": "helpful",
+    "why": "repeats and mean",
+    "confidence": "high"
+   }
+  ]
+ }
 }
