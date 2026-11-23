@@ -157,7 +157,8 @@
        },
        {
         "tex": "\\hl{2}{k} &= \\frac{\\ln 61}{4}",
-        "sym": "k-log(61)/4"
+        "sym": "k-log(61)/4",
+        "new": true
        }
       ]
      }
@@ -165,7 +166,7 @@
     "finalAnswer": "k = \\frac{\\ln 61}{4}"
    },
    "finalSym": "log(61)/4",
-   "answerSym": "solve(integrate(exp(4*x),(x,0,k))-15,k)"
+   "answerSym": "log(1+4*15)/4"
   },
   "graph": null,
   "diagram": null,
