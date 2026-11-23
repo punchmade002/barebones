@@ -1,0 +1,563 @@
+{
+ "bio25-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.0.3",
+    "strength": "helpful",
+    "why": "cell membrane structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.0.0",
+    "strength": "helpful",
+    "why": "phospholipid bilayer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.0.0",
+    "strength": "essential",
+    "why": "bilayer and proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s3.0.0",
+    "strength": "helpful",
+    "why": "plant cell wall example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.0.4",
+    "strength": "helpful",
+    "why": "contrast with other barrier types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "helpful",
+    "why": "ATP as cell energy carrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "net movement down gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "diffusion of gases",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "diffusion examples",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.0.3",
+    "strength": "essential",
+    "why": "channel and carrier proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion and gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "essential",
+    "why": "factors affecting diffusion rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.0.4",
+    "strength": "helpful",
+    "why": "semi-permeable membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.0.6",
+    "strength": "essential",
+    "why": "solute and water concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.2",
+    "strength": "essential",
+    "why": "why water moves",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.0.1",
+    "strength": "helpful",
+    "why": "cell wall resists osmotic uptake",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis water movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.3.0",
+    "strength": "essential",
+    "why": "hypotonic and hypertonic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.3.0",
+    "strength": "essential",
+    "why": "hypertonic solution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.3.0",
+    "strength": "essential",
+    "why": "hypotonic solution",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.1.2",
+    "strength": "helpful",
+    "why": "vacuole structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.3.3",
+    "strength": "essential",
+    "why": "turgid cell and wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.3.4",
+    "strength": "essential",
+    "why": "plasmolysis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.0.4",
+    "strength": "helpful",
+    "why": "cell wall fully permeable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.3.4",
+    "strength": "essential",
+    "why": "turgid, flaccid, plasmolysed",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.3.2",
+    "strength": "helpful",
+    "why": "crenated red blood cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "concentration gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "helpful",
+    "why": "ATP energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "active transport needs ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "essential",
+    "why": "mitochondria make ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "against gradient uptake",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "against gradient absorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.0.3",
+    "strength": "helpful",
+    "why": "carrier proteins in membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.5.0",
+    "strength": "essential",
+    "why": "carrier protein pump",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "helpful",
+    "why": "ATP releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.5.1",
+    "strength": "essential",
+    "why": "shape change of carrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.5.2",
+    "strength": "essential",
+    "why": "carrier shape change",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.5.0",
+    "strength": "helpful",
+    "why": "four-step pump process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "active transport against gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.5.0",
+    "strength": "helpful",
+    "why": "carrier protein pump",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.6.0",
+    "strength": "essential",
+    "why": "Na+ and K+ pumping",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.1",
+    "strength": "essential",
+    "why": "diffusion is passive",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.4.1",
+    "strength": "helpful",
+    "why": "active transport needs ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion down gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "active transport against gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.1",
+    "strength": "helpful",
+    "why": "osmosis moves water only",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.1",
+    "strength": "helpful",
+    "why": "osmosis needs membrane",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.5.0",
+    "strength": "helpful",
+    "why": "carrier proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.4.1",
+    "strength": "essential",
+    "why": "depends on respiration",
+    "confidence": "high"
+   }
+  ]
+ }
+}

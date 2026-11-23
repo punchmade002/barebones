@@ -19,3 +19,4 @@ Write ONLY this JSON to the output path you are given, one key per target item i
 Then check it: it must parse, contain every TARGET id exactly once, and every "id" in needs must appear in the package. Reply with just: item count, link count, how many cost 2, how many low-confidence.
 
 If you write any helper script, put it ONLY in /Users/gabrielwhelan/barebones/drafts/crunch/biology/tmp/<your subsection id>/ (create it). Other agents run at the same time; never use /tmp or a shared scratchpad, and never run a script you didn't write.
+Read every item's FULL text before rating it (use the Read tool on the package). Never shorten or truncate item text when printing it; a cost rating made on a cut-off item is wrong.

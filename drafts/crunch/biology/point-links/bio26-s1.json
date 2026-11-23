@@ -1,0 +1,892 @@
+{
+ "bio26-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.0",
+    "strength": "essential",
+    "why": "excretion of metabolic wastes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.0.0",
+    "strength": "helpful",
+    "why": "urea as a metabolic waste",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.2",
+    "strength": "essential",
+    "why": "urea production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.1",
+    "strength": "helpful",
+    "why": "wastes kidneys remove into urine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.4",
+    "strength": "helpful",
+    "why": "kidneys transfer between blood and urine",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.0.0",
+    "strength": "essential",
+    "why": "excretion defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.0.b",
+    "strength": "helpful",
+    "why": "homeostasis meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.0.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.0.6",
+    "strength": "helpful",
+    "why": "the two kidney roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.1.0",
+    "strength": "helpful",
+    "why": "kidney position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.1.0",
+    "strength": "helpful",
+    "why": "kidney location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.1.0",
+    "strength": "helpful",
+    "why": "kidney position",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.7",
+    "strength": "helpful",
+    "why": "filtration needs pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.1.4",
+    "strength": "helpful",
+    "why": "renal artery counterpart",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.1.4",
+    "strength": "essential",
+    "why": "renal artery blood",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.0.7",
+    "strength": "helpful",
+    "why": "filtration and reabsorption removing substances",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.1.4",
+    "strength": "helpful",
+    "why": "renal artery from aorta",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.2.0",
+    "strength": "helpful",
+    "why": "ureters",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.2.4",
+    "strength": "helpful",
+    "why": "sphincter muscles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.3",
+    "strength": "helpful",
+    "why": "renal pelvis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.2.0",
+    "strength": "essential",
+    "why": "ureter structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.2.2",
+    "strength": "essential",
+    "why": "bladder",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.2.2",
+    "strength": "essential",
+    "why": "bladder outlet",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.2.2",
+    "strength": "helpful",
+    "why": "bladder as urine source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.2.5",
+    "strength": "essential",
+    "why": "urethra",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.0",
+    "strength": "essential",
+    "why": "kidney regions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.1.2",
+    "strength": "helpful",
+    "why": "renal capsule",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.0",
+    "strength": "essential",
+    "why": "kidney regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.0",
+    "strength": "essential",
+    "why": "kidney regions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.2.0",
+    "strength": "helpful",
+    "why": "ureter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.0",
+    "strength": "helpful",
+    "why": "cortex and medulla",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.0",
+    "strength": "essential",
+    "why": "nephron tubules",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.3.3",
+    "strength": "helpful",
+    "why": "renal pelvis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.4.0",
+    "strength": "essential",
+    "why": "nephron structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.1.4",
+    "strength": "helpful",
+    "why": "high-pressure renal blood supply",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.4.2",
+    "strength": "essential",
+    "why": "filtration into capsule",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.0.2",
+    "strength": "helpful",
+    "why": "selective permeability and size",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.4.0",
+    "strength": "essential",
+    "why": "nephron regions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.4.4",
+    "strength": "helpful",
+    "why": "reabsorption by active transport",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.4.3",
+    "strength": "essential",
+    "why": "filtrate contents",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.4.4",
+    "strength": "essential",
+    "why": "reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.3.0",
+    "strength": "essential",
+    "why": "kidney regions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.4.0",
+    "strength": "essential",
+    "why": "nephron structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.1",
+    "strength": "helpful",
+    "why": "substances excreted in urine",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.3",
+    "strength": "essential",
+    "why": "protein not filtered",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.4.5",
+    "strength": "essential",
+    "why": "glucose reabsorbed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.5",
+    "strength": "helpful",
+    "why": "water reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.5",
+    "strength": "helpful",
+    "why": "water reabsorption",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.5.2",
+    "strength": "helpful",
+    "why": "dilute urine contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.7.1",
+    "strength": "helpful",
+    "why": "ADH controls water reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.5",
+    "strength": "helpful",
+    "why": "salt reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.3.2",
+    "strength": "helpful",
+    "why": "animal cells shrink or swell",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.1",
+    "strength": "helpful",
+    "why": "hydrogen ions excreted",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s2.2.0",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.0.b",
+    "strength": "essential",
+    "why": "homeostasis defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.1",
+    "strength": "essential",
+    "why": "collecting ducts to renal pelvis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.4.5",
+    "strength": "helpful",
+    "why": "urine formed",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.2.1",
+    "strength": "essential",
+    "why": "peristalsis in ureter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.2.3",
+    "strength": "essential",
+    "why": "stretchy bladder wall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.2.4",
+    "strength": "essential",
+    "why": "sphincter muscles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.2.3",
+    "strength": "helpful",
+    "why": "bladder contracts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.2.5",
+    "strength": "essential",
+    "why": "urethra",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.1.2",
+    "strength": "essential",
+    "why": "fat layer cushions kidney",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.1.4",
+    "strength": "essential",
+    "why": "renal artery supply",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.0",
+    "strength": "essential",
+    "why": "nephrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.2",
+    "strength": "essential",
+    "why": "filtration in cortex",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.4.4",
+    "strength": "essential",
+    "why": "reabsorption sites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.3.3",
+    "strength": "essential",
+    "why": "renal pelvis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.2.1",
+    "strength": "essential",
+    "why": "peristalsis in ureters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.2.3",
+    "strength": "essential",
+    "why": "elastic bladder",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.2.4",
+    "strength": "essential",
+    "why": "sphincters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.5.1",
+    "strength": "essential",
+    "why": "no glucose in healthy urine",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.4.5",
+    "strength": "helpful",
+    "why": "glucose reabsorption",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.5.1",
+    "strength": "essential",
+    "why": "no protein in healthy urine",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.4.3",
+    "strength": "helpful",
+    "why": "filters keep protein back",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio26-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.0.6",
+    "strength": "helpful",
+    "why": "kidney roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.10.0",
+    "strength": "helpful",
+    "why": "kidney failure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.10.1",
+    "strength": "essential",
+    "why": "transplant as treatment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.0.4",
+    "strength": "essential",
+    "why": "semi-permeable membrane",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.10.1",
+    "strength": "helpful",
+    "why": "dialysis treatment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion down gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.11.0",
+    "strength": "essential",
+    "why": "dialysis setup",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio26-s1.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio26-s1.11.1",
+    "strength": "helpful",
+    "why": "diffusion across membrane",
+    "confidence": "high"
+   },
+   {
+    "id": "bio26-s1.4.3",
+    "strength": "helpful",
+    "why": "size limits what crosses",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio26-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio26-s1.11.0",
+    "strength": "helpful",
+    "why": "dialysis machine",
+    "confidence": "high"
+   }
+  ]
+ }
+}
