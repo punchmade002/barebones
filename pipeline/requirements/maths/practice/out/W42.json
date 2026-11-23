@@ -93,9 +93,8 @@
          "sym": "Eq(sin(R), 12*sin(25*pi/180)/8)"
         },
         {
-         "tex": "&= 0.63393\\ldots",
-         "sym": "Eq(sin(R), 0.63393)",
-         "approx": true
+         "tex": "&= 0.633927\\ldots",
+         "sym": "Eq(sin(R), 3*sin(25*pi/180)/2)"
         }
        ]
       },

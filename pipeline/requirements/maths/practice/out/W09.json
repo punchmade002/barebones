@@ -1,0 +1,650 @@
+[
+ {
+  "skill": "circ-tangent-test",
+  "problems": [
+   {
+    "question": "Show that the line $4x - 3y + 19 = 0$ is a tangent to the circle $x^2 + y^2 - 6x - 4y - 12 = 0$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the centre",
+       "lines": [
+        {
+         "text": "Here $2g = -6$, $2f = -4$ and $c = -12$, so $g = -3$ and $f = -2$."
+        },
+        {
+         "text": "The centre is $(-g, -f) = (3, 2)$."
+        }
+       ]
+      },
+      {
+       "title": "Find the radius",
+       "lines": [
+        {
+         "tex": "r &= \\sqrt{(-3)^2 + (-2)^2 - (-12)}",
+         "sym": "sqrt((-3)**2 + (-2)**2 - (-12))",
+         "new": true
+        },
+        {
+         "tex": "&= \\sqrt{25}",
+         "sym": "sqrt(25)"
+        },
+        {
+         "tex": "&= 5",
+         "sym": "5"
+        }
+       ]
+      },
+      {
+       "title": "Find the distance from the centre to the line",
+       "lines": [
+        {
+         "tex": "d &= \\frac{|4(3) - 3(2) + 19|}{\\sqrt{4^2 + (-3)^2}}",
+         "sym": "Abs(4*3 - 3*2 + 19)/sqrt(4**2 + (-3)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{25}{5}",
+         "sym": "25/5"
+        },
+        {
+         "tex": "&= 5",
+         "sym": "5"
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "The distance from the centre to the line equals the radius, so the line is a tangent."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "d = r = 5"
+    },
+    "finalSym": "0",
+    "answerSym": "Abs(4*3 - 3*2 + 19)/sqrt(4**2 + 3**2) - sqrt(3**2 + 2**2 + 12)"
+   },
+   {
+    "question": "Show that the line $y = 2x - 9$ is a tangent to the circle $x^2 + y^2 - 2x + 4y = 0$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the centre",
+       "lines": [
+        {
+         "text": "Here $2g = -2$, $2f = 4$ and $c = 0$, so $g = -1$ and $f = 2$."
+        },
+        {
+         "text": "The centre is $(1, -2)$."
+        }
+       ]
+      },
+      {
+       "title": "Find the radius",
+       "lines": [
+        {
+         "tex": "r &= \\sqrt{(-1)^2 + 2^2 - 0}",
+         "sym": "sqrt((-1)**2 + 2**2 - 0)",
+         "new": true
+        },
+        {
+         "tex": "&= \\sqrt{5}",
+         "sym": "sqrt(5)"
+        }
+       ]
+      },
+      {
+       "title": "Write the line as $ax + by + c = 0$",
+       "lines": [
+        {
+         "tex": "2x - y - 9 &= 0",
+         "sym": "Eq(2*x - y - 9, 0)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the distance from the centre to the line",
+       "lines": [
+        {
+         "tex": "d &= \\frac{|2(1) - (-2) - 9|}{\\sqrt{2^2 + (-1)^2}}",
+         "sym": "Abs(2*1 - (-2) - 9)/sqrt(2**2 + (-1)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{5}{\\sqrt{5}}",
+         "sym": "5/sqrt(5)"
+        },
+        {
+         "tex": "&= \\sqrt{5}",
+         "sym": "sqrt(5)"
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "The distance equals the radius, so the line is a tangent."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "d = r = \\sqrt{5}"
+    },
+    "finalSym": "0",
+    "answerSym": "Abs(2*1 - (-2) - 9)/sqrt(2**2 + 1) - sqrt(1 + 4)"
+   },
+   {
+    "question": "Show that the line $x + 2y + 10 = 0$ is a tangent to the circle $(x - 2)^2 + (y + 1)^2 = 20$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Read off the centre and radius",
+       "lines": [
+        {
+         "text": "The centre is $(2, -1)$."
+        },
+        {
+         "tex": "r &= \\sqrt{20}",
+         "sym": "sqrt(20)",
+         "new": true
+        },
+        {
+         "tex": "&= 2\\sqrt{5}",
+         "sym": "2*sqrt(5)"
+        }
+       ]
+      },
+      {
+       "title": "Find the distance from the centre to the line",
+       "lines": [
+        {
+         "tex": "d &= \\frac{|2 + 2(-1) + 10|}{\\sqrt{1^2 + 2^2}}",
+         "sym": "Abs(2 + 2*(-1) + 10)/sqrt(1**2 + 2**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{10}{\\sqrt{5}}",
+         "sym": "10/sqrt(5)"
+        },
+        {
+         "tex": "&= 2\\sqrt{5}",
+         "sym": "2*sqrt(5)"
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "The distance equals the radius, so the line is a tangent."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "d = r = 2\\sqrt{5}"
+    },
+    "finalSym": "0",
+    "answerSym": "Abs(2 + 2*(-1) + 10)/sqrt(1**2 + 2**2) - sqrt(20)"
+   }
+  ]
+ },
+ {
+  "skill": "circ-line-general",
+  "problems": [
+   {
+    "question": "Find the points where the line $y = x - 1$ meets the circle $x^2 + y^2 - 6x + 2y + 5 = 0$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Substitute $y = x - 1$ into the circle",
+       "lines": [
+        {
+         "tex": "x^2 + (x - 1)^2 - 6x + 2(x - 1) + 5 &= 0",
+         "sym": "Eq(x**2 + (x - 1)**2 - 6*x + 2*(x - 1) + 5, 0)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Collect terms",
+       "lines": [
+        {
+         "tex": "2x^2 - 6x + 4 &= 0",
+         "sym": "Eq(2*x**2 - 6*x + 4, 0)"
+        },
+        {
+         "tex": "x^2 - 3x + 2 &= 0",
+         "sym": "Eq(x**2 - 3*x + 2, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise and solve",
+       "lines": [
+        {
+         "tex": "(x - 1)(x - 2) &= 0",
+         "sym": "Eq((x - 1)*(x - 2), 0)"
+        },
+        {
+         "tex": "x &= 1 \\text{ or } x = 2",
+         "sym": "Or(Eq(x, 1), Eq(x, 2))"
+        }
+       ]
+      },
+      {
+       "title": "Find the $y$ values using $y = x - 1$",
+       "lines": [
+        {
+         "text": "When $x = 1$, $y = 0$. When $x = 2$, $y = 1$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(1, 0) \\text{ and } (2, 1)"
+    },
+    "finalSym": "[(1, 0), (2, 1)]",
+    "answerSym": "solve([Eq(y, x - 1), Eq(x**2 + y**2 - 6*x + 2*y + 5, 0)], [x, y])"
+   },
+   {
+    "question": "Find the points where the line $x + 2y = 4$ meets the circle $x^2 + y^2 + 2x - 9 = 0$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write $x$ in terms of $y$",
+       "lines": [
+        {
+         "tex": "x &= 4 - 2y",
+         "sym": "Eq(x, 4 - 2*y)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the circle",
+       "lines": [
+        {
+         "tex": "(4 - 2y)^2 + y^2 + 2(4 - 2y) - 9 &= 0",
+         "sym": "Eq((4 - 2*y)**2 + y**2 + 2*(4 - 2*y) - 9, 0)",
+         "new": true
+        },
+        {
+         "tex": "5y^2 - 20y + 15 &= 0",
+         "sym": "Eq(5*y**2 - 20*y + 15, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise and solve",
+       "lines": [
+        {
+         "tex": "y^2 - 4y + 3 &= 0",
+         "sym": "Eq(y**2 - 4*y + 3, 0)"
+        },
+        {
+         "tex": "(y - 1)(y - 3) &= 0",
+         "sym": "Eq((y - 1)*(y - 3), 0)"
+        },
+        {
+         "tex": "y &= 1 \\text{ or } y = 3",
+         "sym": "Or(Eq(y, 1), Eq(y, 3))"
+        }
+       ]
+      },
+      {
+       "title": "Find the $x$ values using $x = 4 - 2y$",
+       "lines": [
+        {
+         "text": "When $y = 1$, $x = 2$. When $y = 3$, $x = -2$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(2, 1) \\text{ and } (-2, 3)"
+    },
+    "finalSym": "[(-2, 3), (2, 1)]",
+    "answerSym": "solve([Eq(x + 2*y, 4), Eq(x**2 + y**2 + 2*x - 9, 0)], [x, y])"
+   }
+  ]
+ },
+ {
+  "skill": "circ-common-chord",
+  "problems": [
+   {
+    "question": "The circles $x^2 + y^2 + 4x - 2y - 20 = 0$ and $x^2 + y^2 - 2x + 4y - 8 = 0$ intersect at two points.\nFind the equation of the line through these two points.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Subtract the two equations",
+       "lines": [
+        {
+         "tex": "(x^2 + y^2 + 4x - 2y - 20) - (x^2 + y^2 - 2x + 4y - 8) &= 0",
+         "sym": "Eq((x**2 + y**2 + 4*x - 2*y - 20) - (x**2 + y**2 - 2*x + 4*y - 8), 0)",
+         "new": true
+        },
+        {
+         "tex": "6x - 6y - 12 &= 0",
+         "sym": "Eq(6*x - 6*y - 12, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Simplify",
+       "lines": [
+        {
+         "text": "The $x^2$ and $y^2$ terms cancel, leaving the equation of the common chord."
+        },
+        {
+         "tex": "x - y - 2 &= 0",
+         "sym": "Eq(x - y - 2, 0)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x - y - 2 = 0"
+    },
+    "finalSym": "Eq(x - y - 2, 0)",
+    "answerSym": "Eq(expand(((x**2 + y**2 + 4*x - 2*y - 20) - (x**2 + y**2 - 2*x + 4*y - 8))/6), 0)"
+   },
+   {
+    "question": "Find the coordinates of the two points where the circles $x^2 + y^2 = 13$ and $x^2 + y^2 - 10x - 2y + 13 = 0$ meet.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Subtract the equations to get the common chord",
+       "lines": [
+        {
+         "tex": "(x^2 + y^2 - 13) - (x^2 + y^2 - 10x - 2y + 13) &= 0",
+         "sym": "Eq((x**2 + y**2 - 13) - (x**2 + y**2 - 10*x - 2*y + 13), 0)",
+         "new": true
+        },
+        {
+         "tex": "10x + 2y - 26 &= 0",
+         "sym": "Eq(10*x + 2*y - 26, 0)"
+        },
+        {
+         "tex": "5x + y - 13 &= 0",
+         "sym": "Eq(5*x + y - 13, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Write $y$ in terms of $x$",
+       "lines": [
+        {
+         "tex": "y &= 13 - 5x",
+         "sym": "Eq(y, 13 - 5*x)"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into $x^2 + y^2 = 13$",
+       "lines": [
+        {
+         "tex": "x^2 + (13 - 5x)^2 &= 13",
+         "sym": "Eq(x**2 + (13 - 5*x)**2, 13)",
+         "new": true
+        },
+        {
+         "tex": "26x^2 - 130x + 156 &= 0",
+         "sym": "Eq(26*x**2 - 130*x + 156, 0)"
+        },
+        {
+         "tex": "x^2 - 5x + 6 &= 0",
+         "sym": "Eq(x**2 - 5*x + 6, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Solve",
+       "lines": [
+        {
+         "tex": "(x - 2)(x - 3) &= 0",
+         "sym": "Eq((x - 2)*(x - 3), 0)"
+        },
+        {
+         "tex": "x &= 2 \\text{ or } x = 3",
+         "sym": "Or(Eq(x, 2), Eq(x, 3))"
+        },
+        {
+         "text": "Using $y = 13 - 5x$: $x = 2$ gives $y = 3$, and $x = 3$ gives $y = -2$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(2, 3) \\text{ and } (3, -2)"
+    },
+    "finalSym": "[(2, 3), (3, -2)]",
+    "answerSym": "solve([Eq(x**2 + y**2, 13), Eq(x**2 + y**2 - 10*x - 2*y + 13, 0)], [x, y])"
+   },
+   {
+    "question": "The circles $x^2 + y^2 = 25$ and $x^2 + y^2 - 2x - 2y - 15 = 0$ intersect at two points.\nFind the length of the common chord.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Subtract the equations to get the common chord",
+       "lines": [
+        {
+         "tex": "(x^2 + y^2 - 25) - (x^2 + y^2 - 2x - 2y - 15) &= 0",
+         "sym": "Eq((x**2 + y**2 - 25) - (x**2 + y**2 - 2*x - 2*y - 15), 0)",
+         "new": true
+        },
+        {
+         "tex": "2x + 2y - 10 &= 0",
+         "sym": "Eq(2*x + 2*y - 10, 0)"
+        },
+        {
+         "tex": "y &= 5 - x",
+         "sym": "Eq(y, 5 - x)"
+        }
+       ]
+      },
+      {
+       "title": "Find where the chord meets $x^2 + y^2 = 25$",
+       "lines": [
+        {
+         "tex": "x^2 + (5 - x)^2 &= 25",
+         "sym": "Eq(x**2 + (5 - x)**2, 25)",
+         "new": true
+        },
+        {
+         "tex": "2x^2 - 10x &= 0",
+         "sym": "Eq(2*x**2 - 10*x, 0)"
+        },
+        {
+         "tex": "x(x - 5) &= 0",
+         "sym": "Eq(x*(x - 5), 0)"
+        }
+       ]
+      },
+      {
+       "title": "Find the two points",
+       "lines": [
+        {
+         "text": "$x = 0$ gives $y = 5$ and $x = 5$ gives $y = 0$. The points are $(0, 5)$ and $(5, 0)$."
+        }
+       ]
+      },
+      {
+       "title": "Find the distance between them",
+       "lines": [
+        {
+         "tex": "d &= \\sqrt{(5 - 0)^2 + (0 - 5)^2}",
+         "sym": "sqrt((5 - 0)**2 + (0 - 5)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= \\sqrt{50}",
+         "sym": "sqrt(50)"
+        },
+        {
+         "tex": "&= 5\\sqrt{2}",
+         "sym": "5*sqrt(2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "5\\sqrt{2}"
+    },
+    "finalSym": "5*sqrt(2)",
+    "answerSym": "2*sqrt(25 - (5/sqrt(2))**2)"
+   }
+  ]
+ },
+ {
+  "skill": "circ-tangents-from-point",
+  "problems": [
+   {
+    "question": "The line $L$ passes through the point $(0, 10)$ and is a tangent to the circle $x^2 + y^2 = 10$.\nFind the two possible values of the slope of $L$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the line through $(0, 10)$ with slope $m$",
+       "lines": [
+        {
+         "tex": "y &= mx + 10",
+         "sym": "Eq(y, m*x + 10)",
+         "new": true
+        },
+        {
+         "tex": "mx - y + 10 &= 0",
+         "sym": "Eq(m*x - y + 10, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Distance from the centre $(0, 0)$ equals the radius $\\sqrt{10}$",
+       "lines": [
+        {
+         "tex": "\\frac{|10|}{\\sqrt{m^2 + 1}} &= \\sqrt{10}",
+         "sym": "Eq(10/sqrt(m**2 + 1), sqrt(10))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Square both sides and solve",
+       "lines": [
+        {
+         "tex": "100 &= 10(m^2 + 1)",
+         "sym": "Eq(100, 10*(m**2 + 1))"
+        },
+        {
+         "tex": "m^2 + 1 &= 10",
+         "sym": "Eq(m**2 + 1, 10)"
+        },
+        {
+         "tex": "m^2 &= 9",
+         "sym": "Eq(m**2, 9)"
+        },
+        {
+         "tex": "m &= 3 \\text{ or } m = -3",
+         "sym": "Or(Eq(m, 3), Eq(m, -3))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m = 3 \\text{ or } m = -3"
+    },
+    "finalSym": "[-3, 3]",
+    "answerSym": "solve(Eq(100, 10*(m**2 + 1)), m)"
+   },
+   {
+    "question": "The point $P(-3, 1)$ lies outside the circle $x^2 + y^2 - 4x - 2y - 4 = 0$.\nFind the slopes of the two tangents from $P$ to the circle.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the centre and radius",
+       "lines": [
+        {
+         "text": "Here $g = -2$, $f = -1$ and $c = -4$, so the centre is $(2, 1)$."
+        },
+        {
+         "tex": "r &= \\sqrt{(-2)^2 + (-1)^2 - (-4)}",
+         "sym": "sqrt((-2)**2 + (-1)**2 - (-4))",
+         "new": true
+        },
+        {
+         "tex": "&= 3",
+         "sym": "3"
+        }
+       ]
+      },
+      {
+       "title": "Write the line through $P$ with slope $m$",
+       "lines": [
+        {
+         "tex": "y - 1 &= m(x + 3)",
+         "sym": "Eq(y - 1, m*(x + 3))",
+         "new": true
+        },
+        {
+         "tex": "mx - y + 3m + 1 &= 0",
+         "sym": "Eq(m*x - y + 3*m + 1, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Distance from the centre equals the radius",
+       "lines": [
+        {
+         "tex": "\\frac{|2m - 1 + 3m + 1|}{\\sqrt{m^2 + 1}} &= 3",
+         "sym": "Eq(Abs(2*m - 1 + 3*m + 1)/sqrt(m**2 + 1), 3)",
+         "new": true
+        },
+        {
+         "tex": "\\frac{5|m|}{\\sqrt{m^2 + 1}} &= 3",
+         "sym": "Eq(5*Abs(m)/sqrt(m**2 + 1), 3)"
+        }
+       ]
+      },
+      {
+       "title": "Square both sides and solve",
+       "lines": [
+        {
+         "tex": "25m^2 &= 9(m^2 + 1)",
+         "sym": "Eq(25*m**2, 9*(m**2 + 1))"
+        },
+        {
+         "tex": "16m^2 &= 9",
+         "sym": "Eq(16*m**2, 9)"
+        },
+        {
+         "tex": "m &= \\frac{3}{4} \\text{ or } m = -\\frac{3}{4}",
+         "sym": "Or(Eq(m, Rational(3, 4)), Eq(m, -Rational(3, 4)))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m = \\frac{3}{4} \\text{ or } m = -\\frac{3}{4}"
+    },
+    "finalSym": "[-3/4, 3/4]",
+    "answerSym": "solve(Eq((2*m - 1 + 3*m + 1)**2, 9*(m**2 + 1)), m)"
+   }
+  ]
+ }
+]
