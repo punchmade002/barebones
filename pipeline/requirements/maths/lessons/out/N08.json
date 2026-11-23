@@ -1,0 +1,990 @@
+[
+ {
+  "skill": "diff-show-identity",
+  "problems": [
+   {
+    "part": "practice-diff-show-identity-1",
+    "note": null,
+    "legend": {
+     "1": "the first derivative, y′",
+     "2": "the second derivative, y″",
+     "3": "the answer: the left-hand side reduces to 0"
+    },
+    "steps": [
+     {
+      "ask": "What rule do you need to differentiate $xe^{2x}$, which is a product of two functions?",
+      "title": "Find the first derivative (product rule)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= e^{2x} + 2xe^{2x}"
+       },
+       {
+        "tex": "&= e^{2x}(1 + 2x)"
+       }
+      ]
+     },
+     {
+      "ask": "Which rule do you use when differentiating $y'$ again?",
+      "title": "Find the second derivative",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= 2e^{2x}(1 + 2x) + 2e^{2x}"
+       },
+       {
+        "tex": "&= e^{2x}(4 + 4x)"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put $y''$, $y'$ and $y$ into the left-hand side?",
+      "title": "Substitute into the left-hand side",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} - 4\\hl{1}{y'} + 4y &= e^{2x}(4 + 4x) - 4e^{2x}(1 + 2x) + 4xe^{2x}"
+       },
+       {
+        "tex": "&= e^{2x}(4 + 4x - 4 - 8x + 4x)"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "How does the left-hand side compare with the right-hand side?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The left-hand side equals $\\hl{3}{0}$, the right-hand side, so the relation is shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-show-identity-2",
+    "note": "The factor x is replaced by sin 2x and the exponent is -x, so the chain rule is needed for the sine as well. The steps and slots stay the same.",
+    "legend": {
+     "1": "the first derivative, y′",
+     "2": "the second derivative, y″",
+     "3": "the answer: the left-hand side reduces to 0"
+    },
+    "steps": [
+     {
+      "ask": "Which rules do you need to differentiate $e^{-x}\\sin 2x$?",
+      "title": "Find $y'$ (product and chain rules)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= -e^{-x}\\sin 2x + 2e^{-x}\\cos 2x"
+       },
+       {
+        "tex": "&= e^{-x}(2\\cos 2x - \\sin 2x)"
+       }
+      ]
+     },
+     {
+      "ask": "Which rule do you use when differentiating $y'$ a second time?",
+      "title": "Find $y''$",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= -e^{-x}(2\\cos 2x - \\sin 2x) + e^{-x}(-4\\sin 2x - 2\\cos 2x)"
+       },
+       {
+        "tex": "&= e^{-x}(-4\\cos 2x - 3\\sin 2x)"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you put $y''$, $2y'$ and $5y$ into the left-hand side?",
+      "title": "Substitute into the left-hand side",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} + 2\\hl{1}{y'} + 5y &= e^{-x}(-4\\cos 2x - 3\\sin 2x) + 2e^{-x}(2\\cos 2x - \\sin 2x) + 5e^{-x}\\sin 2x"
+       },
+       {
+        "tex": "&= e^{-x}\\big[(-4 + 4)\\cos 2x + (-3 - 2 + 5)\\sin 2x\\big]"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "How does the left-hand side compare with the right-hand side?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The left-hand side equals $\\hl{3}{0}$, so the relation is shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0}",
+    "graph": null
+   },
+   {
+    "part": "practice-diff-show-identity-3",
+    "note": "The function is now sin(ln x) rather than a product, so y′ uses the chain rule and y″ uses the quotient rule, and the relation has x² and x coefficients. The slots and steps stay the same.",
+    "legend": {
+     "1": "the first derivative, y′",
+     "2": "the second derivative, y″",
+     "3": "the answer: the left-hand side reduces to 0"
+    },
+    "steps": [
+     {
+      "ask": "What does the chain rule give for the derivative of $\\sin(\\ln x)$?",
+      "title": "Find $y'$ (chain rule)",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y'} &= \\cos(\\ln x)\\cdot\\frac{1}{x}"
+       }
+      ]
+     },
+     {
+      "ask": "How do you differentiate $y'$, which is a fraction in $x$?",
+      "title": "Find $y''$ (quotient rule)",
+      "lines": [
+       {
+        "tex": "\\hl{2}{y''} &= \\frac{-\\sin(\\ln x) \\cdot \\frac{1}{x}\\cdot x - \\cos(\\ln x)\\cdot 1}{x^2}"
+       },
+       {
+        "tex": "&= \\frac{-\\sin(\\ln x) - \\cos(\\ln x)}{x^2}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you get when you multiply $y''$ by $x^2$, $y'$ by $x$, and add $y$?",
+      "title": "Substitute into the left-hand side",
+      "lines": [
+       {
+        "tex": "x^2\\hl{2}{y''} + x\\hl{1}{y'} + y &= -\\sin(\\ln x) - \\cos(\\ln x) + \\cos(\\ln x) + \\sin(\\ln x)"
+       },
+       {
+        "tex": "&= \\hl{3}{0}"
+       }
+      ]
+     },
+     {
+      "ask": "How does the left-hand side compare with the right-hand side?",
+      "title": "Conclude",
+      "lines": [
+       {
+        "text": "The left-hand side equals $\\hl{3}{0}$, so the relation is shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{0}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-amortisation",
+  "problems": [
+   {
+    "part": "maths-pp-2017-higher-p1-q8#(b)(iii)",
+    "note": null,
+    "legend": {
+     "1": "interest for the period",
+     "2": "capital repaid (the part of the payment that reduces the debt)",
+     "3": "balance owed"
+    },
+    "steps": [
+     {
+      "ask": "Which balance does the interest for month 1 apply to, and what is 1.65% of it?",
+      "title": "Month 1: interest is 1.65% of the balance, and the payment is €125",
+      "lines": [
+       {
+        "text": "Each month the interest is $1.65\\%$ of the previous balance. The part of the €125 payment left after the interest reduces the debt."
+       },
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.0165 \\times \\hl{3}{5000}"
+       },
+       {
+        "tex": "&= \\hl{1}{82.50}"
+       },
+       {
+        "tex": "\\hl{2}{\\text{Previous balance reduced by}} &= 125 - \\hl{1}{82.50}"
+       },
+       {
+        "tex": "&= \\hl{2}{42.50}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{New balance}} &= \\hl{3}{5000} - \\hl{2}{42.50}"
+       },
+       {
+        "tex": "&= \\hl{3}{4957.50}"
+       }
+      ]
+     },
+     {
+      "ask": "What balance does month 2 start with, and what is the interest on it?",
+      "title": "Month 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.0165 \\times \\hl{3}{4957.50}"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{81.80}"
+       },
+       {
+        "tex": "\\hl{2}{\\text{Previous balance reduced by}} &= 125 - \\hl{1}{81.80}"
+       },
+       {
+        "tex": "&= \\hl{2}{43.20}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{New balance}} &= \\hl{3}{4957.50} - \\hl{2}{43.20}"
+       },
+       {
+        "tex": "&= \\hl{3}{4914.30}"
+       }
+      ]
+     },
+     {
+      "ask": "What balance does month 3 start with, and how much of the €125 payment is left after the interest?",
+      "title": "Month 3",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.0165 \\times \\hl{3}{4914.30}"
+       },
+       {
+        "tex": "&\\approx \\hl{1}{81.09}"
+       },
+       {
+        "tex": "\\hl{2}{\\text{Previous balance reduced by}} &= 125 - \\hl{1}{81.09}"
+       },
+       {
+        "tex": "&= \\hl{2}{43.91}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{New balance}} &= \\hl{3}{4914.30} - \\hl{2}{43.91}"
+       },
+       {
+        "tex": "&= \\hl{3}{4870.39}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Payment } 1\\text{: } 125,\\ \\hl{1}{82.50},\\ \\hl{2}{42.50},\\ \\hl{3}{4957.50} \\quad \\text{Payment } 2\\text{: } 125,\\ \\hl{1}{81.80},\\ \\hl{2}{43.20},\\ \\hl{3}{4914.30} \\quad \\text{Payment } 3\\text{: } 125,\\ \\hl{1}{81.09},\\ \\hl{2}{43.91},\\ \\hl{3}{4870.39}",
+    "graph": null
+   },
+   {
+    "part": "practice-fin-amortisation-1",
+    "note": "The rate is 1% a month instead of 1.65%, and the loan and repayment are €10000 and €500 instead of €5000 and €125. The question asks for the balance after the third payment, and the steps are the same.",
+    "legend": {
+     "1": "interest for the period",
+     "2": "capital repaid (the part of the payment that reduces the debt)",
+     "3": "balance owed"
+    },
+    "steps": [
+     {
+      "ask": "How much interest is charged on the €10000 in month 1, and how much of the €500 payment is left?",
+      "title": "Month 1: interest is 1% of the balance",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.01 \\times \\hl{3}{10000}"
+       },
+       {
+        "tex": "&= \\hl{1}{100}"
+       },
+       {
+        "tex": "\\hl{2}{\\text{Capital repaid}} &= 500 - \\hl{1}{100}"
+       },
+       {
+        "tex": "&= \\hl{2}{400}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{New balance}} &= \\hl{3}{10000} - \\hl{2}{400}"
+       },
+       {
+        "tex": "&= \\hl{3}{9600}"
+       }
+      ]
+     },
+     {
+      "ask": "What balance is owed at the start of month 2, and what interest does that give?",
+      "title": "Month 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.01 \\times \\hl{3}{9600}"
+       },
+       {
+        "tex": "&= \\hl{1}{96}"
+       },
+       {
+        "tex": "\\hl{2}{\\text{Capital repaid}} &= 500 - \\hl{1}{96}"
+       },
+       {
+        "tex": "&= \\hl{2}{404}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{New balance}} &= \\hl{3}{9600} - \\hl{2}{404}"
+       },
+       {
+        "tex": "&= \\hl{3}{9196}"
+       }
+      ]
+     },
+     {
+      "ask": "What balance is owed at the start of month 3, and what new balance does its payment leave?",
+      "title": "Month 3",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.01 \\times \\hl{3}{9196}"
+       },
+       {
+        "tex": "&= \\hl{1}{91.96}"
+       },
+       {
+        "tex": "\\hl{2}{\\text{Capital repaid}} &= 500 - \\hl{1}{91.96}"
+       },
+       {
+        "tex": "&= \\hl{2}{408.04}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{New balance}} &= \\hl{3}{9196} - \\hl{2}{408.04}"
+       },
+       {
+        "tex": "&= \\hl{3}{8787.96}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{8787.96}",
+    "graph": null
+   },
+   {
+    "part": "practice-fin-amortisation-2",
+    "note": "This is a yearly loan with a €2000 payment, and the question asks for the capital repaid in year 3 instead of the balance. The method is the same: interest first, then the rest of the payment reduces the debt.",
+    "legend": {
+     "1": "interest for the period",
+     "2": "capital repaid (the part of the payment that reduces the debt)",
+     "3": "balance owed"
+    },
+    "steps": [
+     {
+      "ask": "What is the interest on the €20000 owed in year 1, and how much of the €2000 payment is left after it?",
+      "title": "Year 1",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.06 \\times \\hl{3}{20000}"
+       },
+       {
+        "tex": "&= \\hl{1}{1200}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{Balance}} &= \\hl{3}{20000} - (2000 - \\hl{1}{1200})"
+       },
+       {
+        "tex": "&= \\hl{3}{19200}"
+       }
+      ]
+     },
+     {
+      "ask": "What balance is owed at the start of year 2, and what interest does that give?",
+      "title": "Year 2",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.06 \\times \\hl{3}{19200}"
+       },
+       {
+        "tex": "&= \\hl{1}{1152}"
+       },
+       {
+        "tex": "\\hl{3}{\\text{Balance}} &= \\hl{3}{19200} - (2000 - \\hl{1}{1152})"
+       },
+       {
+        "tex": "&= \\hl{3}{18352}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the interest on the balance at the start of year 3, and how much of the €2000 payment reduces the debt?",
+      "title": "Year 3: interest, then capital repaid",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\text{Interest}} &= 0.06 \\times \\hl{3}{18352}"
+       },
+       {
+        "tex": "&= \\hl{1}{1101.12}"
+       },
+       {
+        "tex": "\\hl{2}{\\text{Capital repaid}} &= 2000 - \\hl{1}{1101.12}"
+       },
+       {
+        "tex": "&= \\hl{2}{898.88}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{2}{898.88}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-annuity-fv",
+  "problems": [
+   {
+    "part": "practice-fin-annuity-fv-1",
+    "note": null,
+    "legend": {
+     "1": "the growth factor per period",
+     "2": "the deposit each period",
+     "3": "the total value of savings"
+    },
+    "steps": [
+     {
+      "ask": "What single number multiplies a balance each year when it earns 2%?",
+      "title": "Each deposit grows by 1.02 per year",
+      "lines": [
+       {
+        "text": "$2\\% = 0.02$, so the yearly factor is $\\hl{1}{1.02}$."
+       },
+       {
+        "text": "The first deposit earns interest for 4 years, the last for 1 year."
+       }
+      ]
+     },
+     {
+      "ask": "How many years of interest does each deposit earn, and what power of 1.02 goes with it?",
+      "title": "Write the total as a series",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{500}(\\hl{1}{1.02})^4 + \\hl{2}{500}(\\hl{1}{1.02})^3 + \\hl{2}{500}(\\hl{1}{1.02})^2 + \\hl{2}{500}(\\hl{1}{1.02})"
+       }
+      ]
+     },
+     {
+      "ask": "Which power of 1.02 is smallest, and what do the four terms have in common?",
+      "title": "Reverse the order and take out 500",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{500}\\left[\\hl{1}{1.02} + \\hl{1}{1.02}^2 + \\hl{1}{1.02}^3 + \\hl{1}{1.02}^4\\right]"
+       }
+      ]
+     },
+     {
+      "ask": "Which number is the first term a, which is the common ratio r, and how many terms n are there?",
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "text": "The bracket is geometric with $a = \\hl{1}{1.02}$, $r = \\hl{1}{1.02}$ and $n = 4$."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula fits the bracket, and what do you get when you substitute a, r and n?",
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_4 &= \\frac{a(r^n - 1)}{r - 1}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{1.02}\\left(\\hl{1}{1.02}^4 - 1\\right)}{0.02}"
+       },
+       {
+        "tex": "&\\approx 4.20404"
+       },
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{500} \\times 4.20404"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{2102.02}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{2102.02}",
+    "graph": null
+   },
+   {
+    "part": "practice-fin-annuity-fv-2",
+    "note": "The payments are €150 at the end of each month for 60 months, so the first earns 59 months of interest and the last earns none. The method is the same as the first problem, but the deposits are monthly and made at the end of each month.",
+    "legend": {
+     "1": "the growth factor per period",
+     "2": "the deposit each period",
+     "3": "the total value of savings"
+    },
+    "steps": [
+     {
+      "ask": "What single number multiplies a balance each month when it earns 0.4%, and how many monthly payments are there?",
+      "title": "Monthly factor and number of payments",
+      "lines": [
+       {
+        "text": "$0.4\\% = 0.004$, so the monthly factor is $\\hl{1}{1.004}$."
+       },
+       {
+        "text": "There are $5 \\times 12 = 60$ payments."
+       }
+      ]
+     },
+     {
+      "ask": "How many months of interest does the first payment earn, and what does the last one earn?",
+      "title": "Write the total as a series",
+      "lines": [
+       {
+        "text": "The first payment earns interest for 59 months. The last earns none."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{150}(\\hl{1}{1.004})^{59} + \\hl{2}{150}(\\hl{1}{1.004})^{58} + \\cdots + \\hl{2}{150}(\\hl{1}{1.004}) + \\hl{2}{150}"
+       }
+      ]
+     },
+     {
+      "ask": "Starting from the smallest power, what are a, r and n for this bracket?",
+      "title": "Reverse the order and identify the geometric series",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{150}\\left[1 + \\hl{1}{1.004} + \\hl{1}{1.004}^2 + \\cdots + \\hl{1}{1.004}^{59}\\right]"
+       },
+       {
+        "text": "The bracket is geometric with $a = 1$, $r = \\hl{1}{1.004}$ and $n = 60$."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula gives the sum of n terms, and what do you substitute into it?",
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_{60} &= \\frac{1\\left(\\hl{1}{1.004}^{60} - 1\\right)}{\\hl{1}{1.004} - 1}"
+       },
+       {
+        "tex": "&\\approx 67.6602"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply the sum by to get the total?",
+      "title": "Multiply by 150",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{150} \\times 67.6602"
+       },
+       {
+        "tex": "&\\approx \\hl{3}{10149.03}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{10149.03}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q8#(d)(i), (ii)",
+    "note": "The monthly deposits are the same kind as the second problem, but the total is fixed at €12 000 and the question asks for the deposit A, so the sum is set equal to 12 000 and solved. The deposit is now the answer.",
+    "legend": {
+     "1": "the growth factor per period",
+     "2": "the deposit each period",
+     "3": "the total value of savings"
+    },
+    "steps": [
+     {
+      "ask": "What number multiplies the balance each month when the interest is 0.11%?",
+      "title": "(i) Each month's deposit grows by 1.0011 per month",
+      "lines": [
+       {
+        "text": "$0.11\\% = 0.0011$, so the monthly factor is $\\hl{1}{1.0011}$."
+       },
+       {
+        "text": "The first deposit earns interest for 36 months, the second for 35 months, and so on. The last deposit earns interest for 1 month."
+       }
+      ]
+     },
+     {
+      "ask": "How many months does the first deposit earn interest for, and how many does the last one earn?",
+      "title": "(i) Write the total as a series",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{A}(\\hl{1}{1.0011})^{36} + \\hl{2}{A}(\\hl{1}{1.0011})^{35} + \\cdots + \\hl{2}{A}(\\hl{1}{1.0011})^2 + \\hl{2}{A}(\\hl{1}{1.0011})"
+       }
+      ]
+     },
+     {
+      "ask": "Which way round should the terms go, and what is common to every term?",
+      "title": "(ii) Reverse the order and take out A",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Total}} &= \\hl{2}{A}(\\hl{1}{1.0011}) + \\hl{2}{A}(\\hl{1}{1.0011})^2 + \\cdots + \\hl{2}{A}(\\hl{1}{1.0011})^{35} + \\hl{2}{A}(\\hl{1}{1.0011})^{36}"
+       },
+       {
+        "tex": "&= \\hl{2}{A}\\left[\\hl{1}{1.0011} + (\\hl{1}{1.0011})^2 + \\cdots + (\\hl{1}{1.0011})^{35} + (\\hl{1}{1.0011})^{36}\\right]"
+       }
+      ]
+     },
+     {
+      "ask": "Which number is the first term a, which is the common ratio r, and how many terms are there?",
+      "title": "(ii) Identify the geometric series",
+      "lines": [
+       {
+        "text": "The bracket is geometric with first term $a = \\hl{1}{1.0011}$, common ratio $r = \\hl{1}{1.0011}$ and $n = 36$ terms."
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula fits this bracket, and what does the savings total have to be?",
+      "title": "(ii) Use the sum formula and set the total to 12 000",
+      "lines": [
+       {
+        "tex": "S_{36} &= \\frac{a(1 - r^n)}{1 - r}"
+       },
+       {
+        "tex": "&= \\frac{\\hl{1}{1.0011}\\left(1 - \\hl{1}{1.0011}^{36}\\right)}{1 - \\hl{1}{1.0011}}"
+       },
+       {
+        "tex": "&= 36.742"
+       },
+       {
+        "tex": "\\hl{2}{A}(36.742) &= \\hl{3}{12000}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you divide both sides by to find A?",
+      "title": "(ii) Solve for A",
+      "lines": [
+       {
+        "tex": "\\hl{2}{A} &= \\frac{\\hl{3}{12000}}{36.742}"
+       },
+       {
+        "tex": "&= \\hl{2}{326.60}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{A} = \\text{€}\\hl{2}{326.60}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-annuity-pv",
+  "problems": [
+   {
+    "part": "practice-fin-annuity-pv-1",
+    "note": null,
+    "legend": {
+     "1": "the discount factor per period (divide by it)",
+     "2": "the payment",
+     "3": "the present value (the answer)"
+    },
+    "steps": [
+     {
+      "ask": "How many years of discounting does the first payment get, and how many does the 15th get?",
+      "title": "Present value of each payment",
+      "lines": [
+       {
+        "text": "A payment made after $k$ years is divided by $\\hl{1}{1.04}$ once for each year."
+       },
+       {
+        "text": "$\\hl{3}{PV} = \\dfrac{\\hl{2}{12000}}{\\hl{1}{1.04}} + \\dfrac{\\hl{2}{12000}}{\\hl{1}{1.04}^2} + \\cdots + \\dfrac{\\hl{2}{12000}}{\\hl{1}{1.04}^{15}}$"
+       }
+      ]
+     },
+     {
+      "ask": "Which number is the first term a, and what number is the common ratio r?",
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "text": "Geometric with $n = 15$ terms."
+       },
+       {
+        "tex": "a &= \\frac{\\hl{2}{12000}}{\\hl{1}{1.04}}"
+       },
+       {
+        "tex": "r &= \\frac{1}{\\hl{1}{1.04}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula applies to 15 terms, and what do you put in for a and r?",
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "\\hl{3}{S_{15}} &= \\frac{a(1 - r^n)}{1 - r}"
+       },
+       {
+        "tex": "&= \\frac{\\frac{\\hl{2}{12000}}{\\hl{1}{1.04}}\\left(1 - \\left(\\frac{1}{\\hl{1}{1.04}}\\right)^{15}\\right)}{1 - \\frac{1}{\\hl{1}{1.04}}}"
+       }
+      ]
+     },
+     {
+      "ask": "What does the expression come to on your calculator, and what is it to the nearest euro?",
+      "title": "Evaluate",
+      "lines": [
+       {
+        "tex": "\\hl{3}{PV} &\\approx \\hl{3}{133\\,420.65}"
+       },
+       {
+        "text": "To the nearest euro this is $\\text{€}\\hl{3}{133\\,421}$."
+       },
+       {
+        "tex": "\\hl{3}{PV} &\\approx \\hl{3}{133\\,421}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{133\\,421}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q5#(b)",
+    "note": "This is a loan with 168 repayments of €1771 left, discounted at 0.3% a month, instead of yearly payments discounted at 4%. The sum method is the same as the first problem.",
+    "legend": {
+     "1": "the discount factor per period (divide by it)",
+     "2": "the payment",
+     "3": "the present value (the answer)"
+    },
+    "steps": [
+     {
+      "ask": "How many times is the first remaining repayment divided by the monthly factor?",
+      "title": "Find the present value of each remaining repayment",
+      "lines": [
+       {
+        "text": "Each repayment is divided by $\\hl{1}{1.003}$ once for every month from now until it is paid."
+       },
+       {
+        "text": "After 11 years, $14 \\times 12 = 168$ repayments remain."
+       },
+       {
+        "text": "The first remaining repayment is 1 month away, the last is 168 months away."
+       }
+      ]
+     },
+     {
+      "ask": "What power of 1.003 goes with the last repayment, and what pattern links the terms?",
+      "title": "Write down the series",
+      "lines": [
+       {
+        "tex": "&\\frac{\\hl{2}{1771}}{\\hl{1}{1.003}} + \\frac{\\hl{2}{1771}}{\\hl{1}{1.003}^2} + \\cdots + \\frac{\\hl{2}{1771}}{\\hl{1}{1.003}^{167}} + \\frac{\\hl{2}{1771}}{\\hl{1}{1.003}^{168}}"
+       }
+      ]
+     },
+     {
+      "ask": "Which number is the first term a, which is the common ratio r, and how many terms n are there?",
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "text": "First term $a = \\dfrac{\\hl{2}{1771}}{\\hl{1}{1.003}}$, common ratio $r = \\dfrac{1}{\\hl{1}{1.003}}$, and $n = 168$ terms."
+       },
+       {
+        "tex": "\\hl{3}{S_{168}} &= \\frac{a(r^{168} - 1)}{r - 1}"
+       },
+       {
+        "tex": "\\hl{3}{S_{168}} &= \\frac{\\frac{\\hl{2}{1771}}{\\hl{1}{1.003}}\\left[\\left(\\frac{1}{\\hl{1}{1.003}}\\right)^{168} - 1\\right]}{\\frac{1}{\\hl{1}{1.003}} - 1}"
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula gives S₁₆₈, and what value does it come to on the calculator?",
+      "title": "Evaluate with a calculator",
+      "lines": [
+       {
+        "tex": "\\hl{3}{S_{168}} &= \\text{€}\\hl{3}{233438.25}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{233438.25}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2018-higher-p2-q8#(c)",
+    "note": "The payments grow by 1% a year and the first one is not discounted, so the bracket is a geometric series with ratio 1.01 over 1.024 and 26 terms. The method is the same as the first problem.",
+    "legend": {
+     "1": "the discount factor per period (divide by it)",
+     "2": "the payment",
+     "3": "the present value (the answer)"
+    },
+    "steps": [
+     {
+      "ask": "How many years of discounting does the first payment get, and how many does the second get?",
+      "title": "Set up the present value of each payment",
+      "lines": [
+       {
+        "text": "The first payment of $\\text{€}\\hl{2}{20\\,000}$ is paid on the day of retirement. Then 25 more payments follow, each $1\\%$ larger. Each is discounted by $\\hl{1}{1.024}$ per year."
+       },
+       {
+        "tex": "\\hl{3}{PV} &= \\hl{2}{20\\,000} + \\frac{\\hl{2}{20\\,000}(1.01)}{\\hl{1}{1.024}} + \\frac{\\hl{2}{20\\,000}(1.01)^2}{\\hl{1}{1.024}^2} + \\cdots + \\frac{\\hl{2}{20\\,000}(1.01)^{25}}{\\hl{1}{1.024}^{25}}"
+       }
+      ]
+     },
+     {
+      "ask": "What is common to every term once 20 000 is taken out?",
+      "title": "Factor out 20 000",
+      "lines": [
+       {
+        "tex": "\\hl{3}{PV} &= \\hl{2}{20\\,000}\\left[1 + \\frac{1.01}{\\hl{1}{1.024}} + \\left(\\frac{1.01}{\\hl{1}{1.024}}\\right)^2 + \\cdots + \\left(\\frac{1.01}{\\hl{1}{1.024}}\\right)^{25}\\right]"
+       }
+      ]
+     },
+     {
+      "ask": "Which values are a, r and n for this bracket, and what is the first power?",
+      "title": "Identify the geometric series",
+      "lines": [
+       {
+        "text": "The terms inside the bracket form a GP. There are 26 terms, from power 0 to power 25."
+       },
+       {
+        "tex": "a &= 1"
+       },
+       {
+        "tex": "r &= \\frac{1.01}{\\hl{1}{1.024}} = \\frac{505}{512}"
+       },
+       {
+        "tex": "n &= 26"
+       }
+      ]
+     },
+     {
+      "ask": "Which sum formula gives S₂₆, and how does the present value follow from it?",
+      "title": "Use the sum formula",
+      "lines": [
+       {
+        "tex": "S_{26} &= \\frac{1\\left(1 - \\left(\\frac{505}{512}\\right)^{26}\\right)}{1 - \\frac{505}{512}}"
+       },
+       {
+        "tex": "\\hl{3}{PV} &= \\hl{2}{20\\,000} \\times S_{26}"
+       },
+       {
+        "tex": "&= \\text{€}\\hl{3}{440\\,132.40}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{3}{440\\,132.40}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fin-estimate",
+  "problems": [
+   {
+    "part": "practice-fin-estimate-1",
+    "note": null,
+    "legend": {
+     "1": "the exact calculated value",
+     "2": "the rounded estimate"
+    },
+    "steps": [
+     {
+      "ask": "What is 198 multiplied by 4.95?",
+      "title": "Calculate the exact cost",
+      "lines": [
+       {
+        "tex": "198 \\times 4.95 &= \\hl{1}{980.1}"
+       }
+      ]
+     },
+     {
+      "ask": "Which whole numbers close to 198 and 4.95 are easy to multiply?",
+      "title": "Round each number and estimate",
+      "lines": [
+       {
+        "tex": "198 &\\approx 200"
+       },
+       {
+        "tex": "4.95 &\\approx 5"
+       },
+       {
+        "tex": "200 \\times 5 &= \\hl{2}{1000}"
+       }
+      ]
+     },
+     {
+      "ask": "Is your estimate close to the exact cost, and what does that tell you?",
+      "title": "Compare",
+      "lines": [
+       {
+        "text": "The estimate €$\\hl{2}{1000}$ is close to the exact cost €$\\hl{1}{980.10}$, so the answer is sensible."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{€}\\hl{1}{980.10} \\text{ (estimate €}\\hl{2}{1000}\\text{)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2017-ordinary-p2-q7#(b)(ii)",
+    "note": "This divides instead of multiplying, and the result is rounded to a whole number with no comparison step. The idea of working out the exact value and then rounding is the same as the first problem.",
+    "legend": {
+     "1": "the exact calculated value",
+     "2": "the rounded estimate"
+    },
+    "steps": [
+     {
+      "ask": "Which operation turns the total area into the number of litres needed?",
+      "title": "Divide the area by the area one litre covers",
+      "lines": [
+       {
+        "tex": "\\text{Litres} &= \\frac{497.77}{12.25}"
+       },
+       {
+        "tex": "&= \\hl{1}{40.63}"
+       }
+      ]
+     },
+     {
+      "ask": "To the nearest whole litre, what is 40.63?",
+      "title": "Round to the nearest litre",
+      "lines": [
+       {
+        "tex": "&\\approx \\hl{2}{41}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{41}\\text{ litres}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q9#(a)",
+    "note": "This checks which of three statements gives a sensible height by dividing 8.5 m by 3, 8 and 5, rather than rounding one calculation. The sense-check idea is the same, but the question is different.",
+    "legend": {
+     "1": "the exact calculated value",
+     "2": "the rounded estimate"
+    },
+    "steps": [
+     {
+      "ask": "If the shed is 3 times Seán's height, how tall is Seán, and is that realistic?",
+      "title": "Test each statement against a sensible height",
+      "lines": [
+       {
+        "text": "The shed is 8.5 m high at its highest point. A person is usually about 1.5 m to 2 m tall."
+       },
+       {
+        "text": "Height of Seán if the shed is 3 times as high: $8.5 \\div 3 \\approx \\hl{2}{2.8}$ m. This is too tall for most people."
+       },
+       {
+        "text": "Height of Seán if the shed is 8 times as high: $8.5 \\div 8 \\approx \\hl{2}{1.06}$ m. This is too short for an adult."
+       }
+      ]
+     },
+     {
+      "ask": "Which divisor gives a realistic adult height for Seán, and what is that height?",
+      "title": "Check the 5 times statement",
+      "lines": [
+       {
+        "tex": "8.5 \\div 5 &= \\hl{1}{1.7}"
+       },
+       {
+        "tex": "&= \\hl{1}{1.7}"
+       },
+       {
+        "text": "1.7 m is a realistic height, so tick '5 times as high as Seán'."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{5 times as high; Seán} = \\hl{1}{1.7} \\text{ m}",
+    "graph": null
+   }
+  ]
+ }
+]
