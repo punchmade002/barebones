@@ -1,0 +1,403 @@
+{
+ "bio21-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s1.0.0",
+    "strength": "helpful",
+    "why": "stimulus and response defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.0.1",
+    "strength": "essential",
+    "why": "receptor, coordinator, effector pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.0.1",
+    "strength": "helpful",
+    "why": "receptor role in pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.0.1",
+    "strength": "essential",
+    "why": "coordinator in pathway",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.1.0",
+    "strength": "helpful",
+    "why": "sensory neurons carry impulses to CNS",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio21-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio19-s1.1.1",
+    "strength": "essential",
+    "why": "motor neurons carry impulses to effectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.1.1",
+    "strength": "helpful",
+    "why": "electrical impulses along neurons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s1.1.2",
+    "strength": "essential",
+    "why": "pathway parts to label",
+    "confidence": "high"
+   },
+   {
+    "id": "bio19-s1.1.0",
+    "strength": "helpful",
+    "why": "sensory neuron",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "helpful",
+    "why": "hormone definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.0.0",
+    "strength": "essential",
+    "why": "target cells respond to hormone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s1.1.3",
+    "strength": "essential",
+    "why": "nervous speed to compare",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.5.1",
+    "strength": "helpful",
+    "why": "adrenaline in danger",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio21-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.2.1",
+    "strength": "helpful",
+    "why": "hormone travels to target organ",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.0.1",
+    "strength": "essential",
+    "why": "effector in response pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.3.1",
+    "strength": "essential",
+    "why": "muscles pulling on bones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.3.1",
+    "strength": "helpful",
+    "why": "muscle, bone, joint relationship",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio21-s1.4.0",
+    "strength": "essential",
+    "why": "antigens and pathogens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio20-s1.5.1",
+    "strength": "helpful",
+    "why": "adrenaline released in danger",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s1.2.0",
+    "strength": "helpful",
+    "why": "glands release hormones",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio21-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio20-s1.5.3",
+    "strength": "helpful",
+    "why": "adrenaline fuels muscles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.3.0",
+    "strength": "essential",
+    "why": "muscles as effectors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.4.0",
+    "strength": "helpful",
+    "why": "pathogens defined",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio21-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.7.1",
+    "strength": "helpful",
+    "why": "waxy cuticle",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s1.7.0",
+    "strength": "helpful",
+    "why": "spiny leaves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.8.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio21-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.7.2",
+    "strength": "essential",
+    "why": "stinging hairs as anatomical defence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.4.0",
+    "strength": "helpful",
+    "why": "pathogen defined",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio21-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio21-s1.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.6.0",
+    "strength": "helpful",
+    "why": "plants rely on protective features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.1.3",
+    "strength": "helpful",
+    "why": "nervous responses are fast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.6.0",
+    "strength": "helpful",
+    "why": "plant structure and chemicals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio21-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s1.6.0",
+    "strength": "helpful",
+    "why": "plants cannot run away",
+    "confidence": "high"
+   }
+  ]
+ }
+}

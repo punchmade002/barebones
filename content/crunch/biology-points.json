@@ -20071,6 +20071,348 @@
 }
 ]
 },
+"bio14-s5.0.b": {
+"hash": "05e4c102",
+"cost": 1,
+"needs": []
+},
+"bio14-s5.0.0": {
+"hash": "55553acb",
+"cost": 1,
+"needs": [
+{
+"id": "bio25-s1.0.2",
+"strength": "helpful",
+"why": "selectively permeable membrane",
+"confidence": "low"
+}
+]
+},
+"bio14-s5.0.1": {
+"hash": "440eca40",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "helpful",
+"why": "thylakoids as chloroplast membrane sacs",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.0.2": {
+"hash": "0137391e",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.1",
+"strength": "essential",
+"why": "thylakoid structure",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.0.3": {
+"hash": "a8b1e5a2",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.0.2",
+"strength": "essential",
+"why": "pigment clusters and reaction centres",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.1.0",
+"strength": "helpful",
+"why": "electron transport chain",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.0.4": {
+"hash": "eb81bf10",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.6.1",
+"strength": "helpful",
+"why": "ribosomes make proteins",
+"confidence": "low"
+}
+]
+},
+"bio14-s5.0.5": {
+"hash": "2d284e4d",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.4",
+"strength": "essential",
+"why": "chloroplast DNA and ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.0.6": {
+"hash": "07bc44d3",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.2",
+"strength": "helpful",
+"why": "grana and lamellae structure",
+"confidence": "low"
+}
+]
+},
+"bio14-s5.1.b": {
+"hash": "d60b8388",
+"cost": 1,
+"needs": []
+},
+"bio14-s5.1.0": {
+"hash": "95f37912",
+"cost": 1,
+"needs": []
+},
+"bio14-s5.1.1": {
+"hash": "d250113c",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.1.0",
+"strength": "essential",
+"why": "electron transport chain",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.1.2": {
+"hash": "adbbb9fe",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.4",
+"strength": "essential",
+"why": "reaction centre loses electron",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.1.3": {
+"hash": "1d646bf3",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.1.2",
+"strength": "essential",
+"why": "NADP+ forming NADPH",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.1.4": {
+"hash": "d0e8ce64",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s5.1.1",
+"strength": "helpful",
+"why": "protein complexes in membrane",
+"confidence": "high"
+},
+{
+"id": "bio25-s1.1.0",
+"strength": "helpful",
+"why": "concentration gradient",
+"confidence": "low"
+}
+]
+},
+"bio14-s5.2.b": {
+"hash": "f2a84c8a",
+"cost": 1,
+"needs": []
+},
+"bio14-s5.2.0": {
+"hash": "a0aee56c",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s5.0.1",
+"strength": "essential",
+"why": "thylakoid space",
+"confidence": "high"
+},
+{
+"id": "bio14-s3.1.3",
+"strength": "essential",
+"why": "photolysis of water",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.2.1": {
+"hash": "4b37c557",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.1.3",
+"strength": "essential",
+"why": "photolysis equation",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.2.0",
+"strength": "helpful",
+"why": "protons build up in thylakoid space",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.2.2": {
+"hash": "44088097",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s5.2.0",
+"strength": "essential",
+"why": "proton build-up in thylakoid space",
+"confidence": "high"
+},
+{
+"id": "bio14-s3.1.1",
+"strength": "helpful",
+"why": "ATP made from ADP and Pi",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.2.3": {
+"hash": "52a7dab9",
+"cost": 1,
+"needs": []
+},
+"bio14-s5.3.b": {
+"hash": "121e9735",
+"cost": 1,
+"needs": []
+},
+"bio14-s5.3.0": {
+"hash": "76e44673",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.2",
+"strength": "essential",
+"why": "stacked thylakoids in grana",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.0.3",
+"strength": "helpful",
+"why": "what thylakoid membranes hold",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.3.1": {
+"hash": "8bf28937",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.2",
+"strength": "essential",
+"why": "antenna complexes around reaction centre",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.3.2": {
+"hash": "bd3b9739",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s5.2.0",
+"strength": "essential",
+"why": "proton concentration in thylakoid space",
+"confidence": "high"
+},
+{
+"id": "bio25-s1.0.2",
+"strength": "helpful",
+"why": "selective permeability",
+"confidence": "low"
+}
+]
+},
+"bio14-s5.3.3": {
+"hash": "d16b1057",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.4",
+"strength": "helpful",
+"why": "stroma hosts light-independent reactions",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.3.4": {
+"hash": "869ec601",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.4",
+"strength": "essential",
+"why": "stroma enzymes and starch",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.3.5": {
+"hash": "af83f660",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.5",
+"strength": "essential",
+"why": "chloroplast makes own proteins",
+"confidence": "high"
+}
+]
+},
+"bio14-s5.3.6": {
+"hash": "cdf3ae7a",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.4",
+"strength": "helpful",
+"why": "chloroplasts in palisade cells",
+"confidence": "low"
+}
+]
+},
+"bio14-s5.3.7": {
+"hash": "0eb28762",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s5.2.2",
+"strength": "helpful",
+"why": "ATP synthase and proton flow",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.1.1",
+"strength": "helpful",
+"why": "protein complexes and carriers",
+"confidence": "low"
+}
+]
+},
 "bio15-s1.0.b": {
 "hash": "add54b1e",
 "cost": 1,
@@ -20572,6 +20914,11489 @@
 "strength": "helpful",
 "why": "respiration for contrast",
 "confidence": "low"
+}
+]
+},
+"bio15-s2.0.b": {
+"hash": "e7860fa6",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.0.0": {
+"hash": "aa04a511",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "anaerobic respiration",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.0.1": {
+"hash": "ee1aaa16",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.0",
+"strength": "essential",
+"why": "yeast fermentation products",
+"confidence": "high"
+},
+{
+"id": "bio15-s2.5.5",
+"strength": "helpful",
+"why": "iodoform test result",
+"confidence": "low"
+}
+]
+},
+"bio15-s2.0.2": {
+"hash": "9e38d27d",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.0.7",
+"strength": "helpful",
+"why": "respiratory substrate",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.0.3": {
+"hash": "9f6fdffe",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.0.0",
+"strength": "helpful",
+"why": "enzyme-catalysed respiration",
+"confidence": "low"
+}
+]
+},
+"bio15-s2.0.4": {
+"hash": "06a5acb3",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "essential",
+"why": "aerobic respiration products",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.2.2",
+"strength": "helpful",
+"why": "yeast ethanol equation",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.0.5": {
+"hash": "985aa743",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.0.3",
+"strength": "essential",
+"why": "enzymes carry out fermentation",
+"confidence": "high"
+},
+{
+"id": "bio33-s2.8.3",
+"strength": "helpful",
+"why": "denaturation of enzymes",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.0.6": {
+"hash": "c603ece7",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.6",
+"strength": "helpful",
+"why": "facultative anaerobe",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.1.b": {
+"hash": "f95b369b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.0",
+"strength": "helpful",
+"why": "fair test",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.1.0": {
+"hash": "de785ba7",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.1.1": {
+"hash": "f318eecd",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.0",
+"strength": "helpful",
+"why": "yeast fermentation products",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.1.2": {
+"hash": "497bda1f",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.0",
+"strength": "helpful",
+"why": "fair test design",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.1.3": {
+"hash": "5f8d35ae",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.1.4": {
+"hash": "9353992a",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.1.5": {
+"hash": "993dfe21",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.1.6": {
+"hash": "7af9979f",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control experiment",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.2.b": {
+"hash": "1e1b1b7c",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.2.0": {
+"hash": "6ebf666f",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.2.1": {
+"hash": "51bd3aea",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.3.2",
+"strength": "helpful",
+"why": "oil layer excludes air",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.2.2": {
+"hash": "3c60760d",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.5.b",
+"strength": "helpful",
+"why": "iodoform ethanol test",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.2.3": {
+"hash": "c2f77384",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.6.2",
+"strength": "helpful",
+"why": "measuring gas volume",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.3.b": {
+"hash": "d70f82d2",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.3.0": {
+"hash": "aa734a78",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.4",
+"strength": "helpful",
+"why": "removing oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.3.1": {
+"hash": "2695efe9",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.3.2": {
+"hash": "7b1b9b27",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.4",
+"strength": "helpful",
+"why": "anaerobic condition",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.3.3": {
+"hash": "09df9c1e",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.2.0",
+"strength": "helpful",
+"why": "limewater and fermentation lock",
+"confidence": "low"
+}
+]
+},
+"bio15-s2.3.4": {
+"hash": "7e41a3dd",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.3.5": {
+"hash": "6d888ea6",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.0.1",
+"strength": "helpful",
+"why": "CO2 as evidence",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.3.6": {
+"hash": "ecdd8b46",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.2.3",
+"strength": "helpful",
+"why": "gas collection apparatus",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.3.7": {
+"hash": "919becdb",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.5.b",
+"strength": "helpful",
+"why": "ethanol test",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.4.b": {
+"hash": "9a84dc1d",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.4.0": {
+"hash": "c9196c2d",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.2",
+"strength": "essential",
+"why": "sugar needed",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.4.1": {
+"hash": "182179a0",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.1.6",
+"strength": "helpful",
+"why": "boiled yeast control",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.4.2": {
+"hash": "08895b26",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.4",
+"strength": "essential",
+"why": "oxygen prevents fermentation",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.4.3": {
+"hash": "752783d3",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.0.4",
+"strength": "essential",
+"why": "aerobic vs anaerobic products",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.4.4": {
+"hash": "9494d401",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.4.5": {
+"hash": "02902bfa",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.0.5",
+"strength": "essential",
+"why": "enzymes and temperature",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.4.6": {
+"hash": "927f5504",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.5",
+"strength": "essential",
+"why": "denaturation at high temperature",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.5.b": {
+"hash": "44cc4c96",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.5.0": {
+"hash": "fd78411f",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.5.1": {
+"hash": "a901eed9",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.5.2": {
+"hash": "42d52060",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.5.3": {
+"hash": "1f107dfa",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.5.4": {
+"hash": "30a8f0f0",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.3",
+"strength": "helpful",
+"why": "negative control",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.2.4",
+"strength": "helpful",
+"why": "positive control",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.5.5": {
+"hash": "c528a528",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.5.6": {
+"hash": "b5060447",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.6.b": {
+"hash": "12765bef",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.6.0": {
+"hash": "804750b6",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.3",
+"strength": "helpful",
+"why": "lactic acid fermentation",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.6.1": {
+"hash": "a8f6181d",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.6.2": {
+"hash": "ba11ac52",
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s2.9.b",
+"strength": "helpful",
+"why": "pH meaning",
+"confidence": "low"
+}
+]
+},
+"bio15-s2.6.3": {
+"hash": "cf06fd2c",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.1",
+"strength": "helpful",
+"why": "limewater detects CO2",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.7.b": {
+"hash": "061eab01",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.7.0": {
+"hash": "c1122402",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.7.3",
+"strength": "helpful",
+"why": "corrosive reagent precautions",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.7.1": {
+"hash": "fc13f620",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.7.2": {
+"hash": "70a31cba",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.7.3": {
+"hash": "a47ca578",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.7.4": {
+"hash": "0d835aef",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.7.5",
+"strength": "helpful",
+"why": "microorganism safety",
+"confidence": "low"
+}
+]
+},
+"bio15-s2.8.b": {
+"hash": "ac1ffdae",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.8.0": {
+"hash": "75a7f2a2",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.8.1": {
+"hash": "1a7acb5b",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.8.2": {
+"hash": "305101fb",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.4.3",
+"strength": "helpful",
+"why": "aerated flask result",
+"confidence": "low"
+}
+]
+},
+"bio15-s2.8.3": {
+"hash": "b4752892",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.4.5",
+"strength": "helpful",
+"why": "temperature series result",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.8.4": {
+"hash": "9b0b195a",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.0.0",
+"strength": "helpful",
+"why": "fermentation products",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.8.5": {
+"hash": "0a0da584",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.3.3",
+"strength": "helpful",
+"why": "set-up with lock",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.8.6": {
+"hash": "9b45dc4a",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.9.b": {
+"hash": "9e7bfcfc",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.9.0": {
+"hash": "a28f77d4",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.5.0",
+"strength": "helpful",
+"why": "reliability and repeats",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.9.1": {
+"hash": "01f0b0e5",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.0.4",
+"strength": "helpful",
+"why": "anaerobic conditions for ethanol",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.10.b": {
+"hash": "1f4e14eb",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.10.0": {
+"hash": "07d29290",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.3.2",
+"strength": "helpful",
+"why": "oil layer excludes oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.10.1": {
+"hash": "f2221b1c",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.0.4",
+"strength": "helpful",
+"why": "facultative aerobic/anaerobic",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.10.2": {
+"hash": "b894ab93",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s2.3.6",
+"strength": "helpful",
+"why": "gas collection method",
+"confidence": "low"
+}
+]
+},
+"bio15-s2.10.3": {
+"hash": "89050483",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s2.0.1",
+"strength": "helpful",
+"why": "limewater test for CO2",
+"confidence": "high"
+}
+]
+},
+"bio15-s2.10.4": {
+"hash": "d6d4e265",
+"cost": 1,
+"needs": []
+},
+"bio15-s2.10.5": {
+"hash": "97c69b19",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.5.2",
+"strength": "helpful",
+"why": "repeats and means",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.0.b": {
+"hash": "d63f7362",
+"cost": 1,
+"needs": []
+},
+"bio15-s3.0.0": {
+"hash": "7d9ec305",
+"cost": 1,
+"needs": []
+},
+"bio15-s3.0.1": {
+"hash": "7fad43e7",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.1.0",
+"strength": "helpful",
+"why": "ATP and phosphate groups",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.0.2": {
+"hash": "e5642189",
+"cost": 1,
+"needs": []
+},
+"bio15-s3.0.3": {
+"hash": "90c53e26",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.1.1",
+"strength": "essential",
+"why": "dehydrogenases load NAD+ with hydrogen",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.0.4": {
+"hash": "92e058aa",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.3.0",
+"strength": "essential",
+"why": "phosphate added to ADP makes ATP",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.0.5": {
+"hash": "ab232822",
+"cost": 1,
+"needs": []
+},
+"bio15-s3.0.6": {
+"hash": "8415e3be",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.0.4",
+"strength": "helpful",
+"why": "net ATP yield of glycolysis",
+"confidence": "low"
+}
+]
+},
+"bio15-s3.1.b": {
+"hash": "64337c04",
+"cost": 1,
+"needs": []
+},
+"bio15-s3.1.0": {
+"hash": "380c9e7d",
+"cost": 1,
+"needs": []
+},
+"bio15-s3.1.1": {
+"hash": "346679c2",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.0.0",
+"strength": "helpful",
+"why": "glycolysis pathway itself",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.2.b": {
+"hash": "34e9f02f",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.0.b",
+"strength": "helpful",
+"why": "NAD+ as hydrogen carrier",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.2.0": {
+"hash": "1b1e0508",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.0.4",
+"strength": "helpful",
+"why": "ATP used and made in glycolysis",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.2.1": {
+"hash": "6a49faeb",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.0.3",
+"strength": "essential",
+"why": "NAD+ accepts hydrogen forming NADH",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.2.2": {
+"hash": "70c409f8",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.1",
+"strength": "essential",
+"why": "NADH to electron transport chain",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.2.3": {
+"hash": "43e85626",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.3",
+"strength": "essential",
+"why": "fermentation passes hydrogen to pyruvate",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.3.b": {
+"hash": "15c92705",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.2.1",
+"strength": "helpful",
+"why": "NAD+ must be regenerated",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.3.0": {
+"hash": "133567e7",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.2.1",
+"strength": "essential",
+"why": "NAD+ regeneration needed for glycolysis",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.3.1": {
+"hash": "6ddd1303",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.2.0",
+"strength": "helpful",
+"why": "net 2 ATP from glycolysis",
+"confidence": "low"
+}
+]
+},
+"bio15-s3.3.2": {
+"hash": "51af6209",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.0.5",
+"strength": "essential",
+"why": "pyruvate as glycolysis product",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.3.3": {
+"hash": "4c56a0aa",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.3.2",
+"strength": "essential",
+"why": "lactic acid fermentation overall",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.3.4": {
+"hash": "be72facf",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.0.5",
+"strength": "essential",
+"why": "pyruvate loses carbon as CO2",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.3.5": {
+"hash": "4f7afba4",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.3.4",
+"strength": "essential",
+"why": "alcoholic fermentation steps",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.3.6": {
+"hash": "7ee6ba73",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.3.4",
+"strength": "helpful",
+"why": "carbon lost as CO2 in ethanol",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.4.b": {
+"hash": "20968f5e",
+"cost": 1,
+"needs": []
+},
+"bio15-s3.4.0": {
+"hash": "a09af9dc",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.3.2",
+"strength": "helpful",
+"why": "lactic acid fermentation",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.4.1": {
+"hash": "bfaf2a58",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.3.0",
+"strength": "helpful",
+"why": "fermentation when oxygen absent",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.4.2": {
+"hash": "3b9509ac",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "anaerobic releases less energy",
+"confidence": "high"
+}
+]
+},
+"bio15-s3.4.3": {
+"hash": "f002cab3",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.3.0",
+"strength": "helpful",
+"why": "fermentation branch of pathway",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.0.b": {
+"hash": "f3207a92",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.0.5",
+"strength": "helpful",
+"why": "pyruvate as glycolysis product",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.0.0": {
+"hash": "37d3905b",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.0.5",
+"strength": "essential",
+"why": "pyruvate made in glycolysis",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.0.1": {
+"hash": "13535afc",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.1.0",
+"strength": "helpful",
+"why": "NAD+ loading to NADH",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.0.2": {
+"hash": "7685ccc8",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.0.1",
+"strength": "essential",
+"why": "acetyl group left after CO2 removal",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.0.3": {
+"hash": "0acc97e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.0.5",
+"strength": "essential",
+"why": "two pyruvate per glucose",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.b": {
+"hash": "2eda3bd3",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.0.2",
+"strength": "helpful",
+"why": "acetyl CoA from link step",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.0": {
+"hash": "a5fcfde1",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.0.0",
+"strength": "helpful",
+"why": "mitochondrial matrix",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.1": {
+"hash": "737baa70",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.0.2",
+"strength": "essential",
+"why": "acetyl CoA carries acetyl group",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.2": {
+"hash": "4951d94f",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.1.1",
+"strength": "essential",
+"why": "citric acid formation in cycle",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.3": {
+"hash": "3f77218c",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.1.1",
+"strength": "helpful",
+"why": "acetyl group entering cycle",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.4": {
+"hash": "8289a9c3",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.1.0",
+"strength": "helpful",
+"why": "NAD+ loading to NADH",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.5": {
+"hash": "571ec4b6",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.0.3",
+"strength": "essential",
+"why": "link step twice per glucose",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.6": {
+"hash": "ceb36367",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.2.3",
+"strength": "helpful",
+"why": "water formed at chain end",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.1.7": {
+"hash": "db4c50cf",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.2.4",
+"strength": "helpful",
+"why": "no oxygen stops chain and cycle",
+"confidence": "low"
+}
+]
+},
+"bio15-s4.2.b": {
+"hash": "98d96254",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s3.0.4",
+"strength": "helpful",
+"why": "net 2 ATP of glycolysis",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.0": {
+"hash": "e690d46e",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.1",
+"strength": "helpful",
+"why": "inner membrane and cristae",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.1": {
+"hash": "4599da77",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.2.0",
+"strength": "essential",
+"why": "electron transport chain structure",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.2": {
+"hash": "7329e10b",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.2.1",
+"strength": "essential",
+"why": "electrons arriving from NADH",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.0",
+"strength": "helpful",
+"why": "ATP made from ADP and Pi",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.3": {
+"hash": "e61122f1",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.2.2",
+"strength": "essential",
+"why": "electrons passed down chain",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.4": {
+"hash": "fb4de4fa",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.2.3",
+"strength": "essential",
+"why": "oxygen as final acceptor",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.5": {
+"hash": "b6bf52db",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.2.4",
+"strength": "essential",
+"why": "chain stops without oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.6": {
+"hash": "ab9ed98f",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.5.b",
+"strength": "helpful",
+"why": "ATP uses in cells",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.2.7": {
+"hash": "ea3334f7",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.2.b",
+"strength": "helpful",
+"why": "proton gradient drives ATP synthase",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.b": {
+"hash": "08eee0ad",
+"cost": 1,
+"needs": []
+},
+"bio15-s4.3.0": {
+"hash": "50828ec6",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s3.0.6",
+"strength": "essential",
+"why": "glycolysis summary products",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.1": {
+"hash": "76a0c654",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.0.2",
+"strength": "helpful",
+"why": "acetyl CoA from pyruvate",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.2": {
+"hash": "214e98c5",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.2.3",
+"strength": "helpful",
+"why": "electrons passed to oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.3": {
+"hash": "f875b56a",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.2.0",
+"strength": "helpful",
+"why": "NAD+ collects electrons",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.4": {
+"hash": "d18a8099",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.4.0",
+"strength": "helpful",
+"why": "ATP/ADP cycle",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.5": {
+"hash": "ab255584",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.2.3",
+"strength": "essential",
+"why": "water formed with oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.6": {
+"hash": "bc24d9ff",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.3.2",
+"strength": "essential",
+"why": "NADPH and ATP build glucose",
+"confidence": "high"
+}
+]
+},
+"bio15-s4.3.7": {
+"hash": "b76f1d10",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s4.3.2",
+"strength": "helpful",
+"why": "chain, oxygen and ATP summary",
+"confidence": "low"
+}
+]
+},
+"bio15-s5.0.b": {
+"hash": "309705b2",
+"cost": 1,
+"needs": []
+},
+"bio15-s5.0.0": {
+"hash": "7c1fb020",
+"cost": 1,
+"needs": []
+},
+"bio15-s5.0.1": {
+"hash": "509fdf82",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.1.b",
+"strength": "helpful",
+"why": "electron transport chain",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.0.2": {
+"hash": "e1c31f6a",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.2.2",
+"strength": "helpful",
+"why": "protons moved into space",
+"confidence": "low"
+}
+]
+},
+"bio15-s5.0.3": {
+"hash": "4cf19364",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.1.0",
+"strength": "helpful",
+"why": "citric acid cycle in matrix",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.0.4": {
+"hash": "c1d0ba20",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.6.1",
+"strength": "helpful",
+"why": "ribosome makes proteins",
+"confidence": "low"
+}
+]
+},
+"bio15-s5.0.5": {
+"hash": "3214c2ae",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.0.1",
+"strength": "essential",
+"why": "cristae and ATP synthase placement",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.1.b": {
+"hash": "55fe42f5",
+"cost": 1,
+"needs": []
+},
+"bio15-s5.1.0": {
+"hash": "aa0fd687",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.1",
+"strength": "helpful",
+"why": "inner membrane holds chains",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.1.1": {
+"hash": "8faa59f6",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.1.0",
+"strength": "essential",
+"why": "protein complexes of the chain",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.1.2": {
+"hash": "acee1bbf",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.2.1",
+"strength": "helpful",
+"why": "NADH carries electrons to chain",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.1.3": {
+"hash": "89adefdd",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s4.2.3",
+"strength": "helpful",
+"why": "oxygen final electron acceptor",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.b": {
+"hash": "d6bde9b3",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.1.b",
+"strength": "helpful",
+"why": "electron transport chain",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.0": {
+"hash": "ab521367",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.1.0",
+"strength": "essential",
+"why": "protein complexes in membrane",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.1": {
+"hash": "7a0d139c",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.2.0",
+"strength": "essential",
+"why": "charge from arriving electrons",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.2": {
+"hash": "d418ee97",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.0.2",
+"strength": "essential",
+"why": "intermembrane space location",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.3": {
+"hash": "10f964d2",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.2.2",
+"strength": "essential",
+"why": "protons pumped into space",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.4": {
+"hash": "dd46e2d8",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.2.3",
+"strength": "essential",
+"why": "proton gradient",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.5": {
+"hash": "a73c527c",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.2.4",
+"strength": "essential",
+"why": "proton flow drives ATP synthase",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.6": {
+"hash": "2ee71eac",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.1.3",
+"strength": "essential",
+"why": "oxygen final acceptor",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.2.7": {
+"hash": "be96f94e",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.2.4",
+"strength": "helpful",
+"why": "steps shown in diagram",
+"confidence": "low"
+}
+]
+},
+"bio15-s5.3.b": {
+"hash": "946c650c",
+"cost": 1,
+"needs": []
+},
+"bio15-s5.3.0": {
+"hash": "33b76e6e",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.2.4",
+"strength": "essential",
+"why": "proton gradient making ATP",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.3.1": {
+"hash": "4960e285",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.3.0",
+"strength": "helpful",
+"why": "chemiosmosis idea",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.4.b": {
+"hash": "5186cc9c",
+"cost": 1,
+"needs": []
+},
+"bio15-s5.4.0": {
+"hash": "cc7bfcfb",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.1",
+"strength": "essential",
+"why": "cristae fold inner membrane",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.4.1": {
+"hash": "97b6e073",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.2.3",
+"strength": "essential",
+"why": "gradient built in space",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.4.2": {
+"hash": "05cd8087",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.2.4",
+"strength": "essential",
+"why": "protons return via ATP synthase",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.4.3": {
+"hash": "e8f79eb3",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.1.0",
+"strength": "helpful",
+"why": "complexes embedded in membrane",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.4.4": {
+"hash": "b306f335",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.3",
+"strength": "essential",
+"why": "matrix enzymes",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.4.5": {
+"hash": "48317c19",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.2",
+"strength": "helpful",
+"why": "intermembrane space",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.4.6": {
+"hash": "566d53ed",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.4",
+"strength": "essential",
+"why": "own DNA and ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.5.b": {
+"hash": "ebe7d3b9",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.1",
+"strength": "helpful",
+"why": "thylakoid membrane sacs",
+"confidence": "low"
+}
+]
+},
+"bio15-s5.5.0": {
+"hash": "2f785615",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.1.0",
+"strength": "essential",
+"why": "protein complexes in membrane",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.5.1": {
+"hash": "fef0e27f",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.2.3",
+"strength": "essential",
+"why": "proton gradient",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.2.2",
+"strength": "helpful",
+"why": "chloroplast ATP synthase flow",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.5.2": {
+"hash": "fb2e7104",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.4.0",
+"strength": "helpful",
+"why": "cristae give large area",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.3.0",
+"strength": "helpful",
+"why": "stacked thylakoid area",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.5.3": {
+"hash": "41cacf84",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.4.6",
+"strength": "helpful",
+"why": "own DNA and ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.6.b": {
+"hash": "0ec3a85f",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.5.b",
+"strength": "helpful",
+"why": "shared mechanism",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.6.0": {
+"hash": "3b935a47",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.3.0",
+"strength": "helpful",
+"why": "light energises chlorophyll electrons",
+"confidence": "low"
+}
+]
+},
+"bio15-s5.6.1": {
+"hash": "ec99218d",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.3.1",
+"strength": "helpful",
+"why": "water supplies electrons",
+"confidence": "low"
+}
+]
+},
+"bio15-s5.6.2": {
+"hash": "631d7484",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.4.3",
+"strength": "helpful",
+"why": "final acceptors compared",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.6.3": {
+"hash": "121e74c9",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.3.1",
+"strength": "helpful",
+"why": "photolysis of water",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.6.4": {
+"hash": "6005233f",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.1",
+"strength": "essential",
+"why": "inner membrane cristae",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.0.1",
+"strength": "essential",
+"why": "thylakoid membrane",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.6.5": {
+"hash": "41871fe9",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.2",
+"strength": "essential",
+"why": "intermembrane space",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.2.0",
+"strength": "essential",
+"why": "thylakoid space protons",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.6.6": {
+"hash": "618cfe69",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s5.0.3",
+"strength": "essential",
+"why": "matrix",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.0.4",
+"strength": "essential",
+"why": "stroma",
+"confidence": "high"
+}
+]
+},
+"bio15-s5.6.7": {
+"hash": "73184c54",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s5.6.4",
+"strength": "helpful",
+"why": "membranes compared",
+"confidence": "low"
+}
+]
+},
+"bio16-s1.0.b": {
+"hash": "3476e2fe",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.0.0": {
+"hash": "f2cb1660",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.5.0",
+"strength": "helpful",
+"why": "chromosome as DNA with genes",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.0.1": {
+"hash": "00c0f4bf",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.0",
+"strength": "essential",
+"why": "chromosome structure",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.0.2": {
+"hash": "faca5178",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.0.0",
+"strength": "essential",
+"why": "chromosome",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.0.3": {
+"hash": "d925a079",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.2",
+"strength": "essential",
+"why": "homologous pairs",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.0.4": {
+"hash": "78cda271",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.3",
+"strength": "helpful",
+"why": "sets of chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.0.5": {
+"hash": "a61c5470",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.4",
+"strength": "essential",
+"why": "haploid gametes",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.0.6": {
+"hash": "fd664513",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.4",
+"strength": "helpful",
+"why": "haploid cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.0.7": {
+"hash": "28ce7129",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.3",
+"strength": "helpful",
+"why": "2n chromosome number",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.1.b": {
+"hash": "4b6cbe7d",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.1.0": {
+"hash": "2d4ddba6",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.1.1": {
+"hash": "394703b4",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.0",
+"strength": "helpful",
+"why": "cell cycle growth",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.1.2": {
+"hash": "4c6e0924",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.0",
+"strength": "helpful",
+"why": "chromosome being copied",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.1.3": {
+"hash": "b4e5e341",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.2",
+"strength": "essential",
+"why": "copied chromosomes shared out",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.1.4": {
+"hash": "37533d7a",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.2",
+"strength": "helpful",
+"why": "DNA synthesis in interphase",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.1.5": {
+"hash": "fffec78f",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.1.6": {
+"hash": "d244197a",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.4",
+"strength": "essential",
+"why": "interphase",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.1.7": {
+"hash": "19af57d9",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.3",
+"strength": "helpful",
+"why": "same chromosome number",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.2.b": {
+"hash": "aa5468a5",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.2.0": {
+"hash": "e1f1a1cf",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.0",
+"strength": "helpful",
+"why": "leaving the cell cycle",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.2.1": {
+"hash": "feb1c8bf",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.0",
+"strength": "helpful",
+"why": "repeated cell cycles",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.2.2": {
+"hash": "e1e19136",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.1.2",
+"strength": "helpful",
+"why": "DNA copying checked",
+"confidence": "low"
+}
+]
+},
+"bio16-s1.2.3": {
+"hash": "66dadb2a",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.2.4": {
+"hash": "e3f399e4",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.1.4",
+"strength": "essential",
+"why": "interphase and division",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.4.0",
+"strength": "helpful",
+"why": "mitosis stages",
+"confidence": "low"
+}
+]
+},
+"bio16-s1.3.b": {
+"hash": "b4815e74",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.3.0": {
+"hash": "182fbbf0",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.1",
+"strength": "helpful",
+"why": "growth activity",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.3.1": {
+"hash": "1132e088",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.1.2",
+"strength": "essential",
+"why": "DNA replication",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.3.2": {
+"hash": "95b0d003",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.2.2",
+"strength": "helpful",
+"why": "ATP as energy carrier",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.3.3": {
+"hash": "74bca647",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.3.0",
+"strength": "helpful",
+"why": "G1 phase",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.3.4": {
+"hash": "d4f8b711",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.1",
+"strength": "essential",
+"why": "chromatin uncoiled",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "nuclear envelope",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.4.b": {
+"hash": "4d59996f",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.4.0": {
+"hash": "25accfd3",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.6.0",
+"strength": "helpful",
+"why": "cytokinesis",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.4.1": {
+"hash": "d34261e2",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.0.1",
+"strength": "essential",
+"why": "condensing chromosomes",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.3.1",
+"strength": "essential",
+"why": "sister chromatids",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.4.3",
+"strength": "helpful",
+"why": "nucleolus",
+"confidence": "low"
+}
+]
+},
+"bio16-s1.4.2": {
+"hash": "3787a818",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.4.1",
+"strength": "helpful",
+"why": "spindle forming",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.4.3": {
+"hash": "4f0ac9cb",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.4.1",
+"strength": "essential",
+"why": "spindle fibres",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.4.4": {
+"hash": "0f1f5f79",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.3.1",
+"strength": "essential",
+"why": "sister chromatids",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.4.3",
+"strength": "helpful",
+"why": "metaphase alignment",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.4.5": {
+"hash": "39eae3f5",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.4.4",
+"strength": "essential",
+"why": "chromatids separating",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.2.2",
+"strength": "helpful",
+"why": "ATP",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.4.6": {
+"hash": "22193d5d",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.4.1",
+"strength": "essential",
+"why": "reverses prophase changes",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.0.1",
+"strength": "helpful",
+"why": "chromatin",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.4.7": {
+"hash": "5c6def8e",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.4.0",
+"strength": "essential",
+"why": "four stages of mitosis",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.0.2",
+"strength": "helpful",
+"why": "homologous pair",
+"confidence": "low"
+}
+]
+},
+"bio16-s1.5.b": {
+"hash": "3f329cc4",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.5.0": {
+"hash": "823a1c95",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.4",
+"strength": "essential",
+"why": "interphase",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.5.1": {
+"hash": "487cd682",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.4.1",
+"strength": "essential",
+"why": "prophase chromosomes",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.4.3",
+"strength": "essential",
+"why": "metaphase line-up",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.5.2": {
+"hash": "a7935d79",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.4.4",
+"strength": "essential",
+"why": "anaphase",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.4.6",
+"strength": "essential",
+"why": "telophase",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.5.3": {
+"hash": "67295e43",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.4.0",
+"strength": "helpful",
+"why": "dividing cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.5.4": {
+"hash": "40d8e433",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.5.3",
+"strength": "essential",
+"why": "mitotic index",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.6.b": {
+"hash": "2b3908bf",
+"cost": 1,
+"needs": []
+},
+"bio16-s1.6.0": {
+"hash": "fb410ac0",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.4.0",
+"strength": "helpful",
+"why": "nuclear division first",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.6.1": {
+"hash": "527ba0a0",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "essential",
+"why": "cell membrane",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.6.2": {
+"hash": "99bfe790",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.0.0",
+"strength": "essential",
+"why": "rigid cell wall",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.8.0",
+"strength": "helpful",
+"why": "Golgi vesicles",
+"confidence": "high"
+}
+]
+},
+"bio16-s1.6.3": {
+"hash": "bd1262f8",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.6.2",
+"strength": "essential",
+"why": "cell plate",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane",
+"confidence": "low"
+}
+]
+},
+"bio16-s1.6.4": {
+"hash": "02ab239c",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.6.1",
+"strength": "helpful",
+"why": "cleavage furrow",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.6.2",
+"strength": "helpful",
+"why": "cell plate",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.0.b": {
+"hash": "bc28b538",
+"cost": 1,
+"needs": []
+},
+"bio16-s2.0.0": {
+"hash": "e1fb4ebd",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.0",
+"strength": "helpful",
+"why": "chromosome definition",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.0.1": {
+"hash": "31b0dad9",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.3",
+"strength": "essential",
+"why": "diploid definition",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.0.4",
+"strength": "essential",
+"why": "haploid definition",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.0.2": {
+"hash": "767a89c1",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.2",
+"strength": "essential",
+"why": "chromosome copying in DNA synthesis",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.2.1",
+"strength": "helpful",
+"why": "sister chromatids as copies",
+"confidence": "low"
+}
+]
+},
+"bio16-s2.0.3": {
+"hash": "269c6f2e",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.2",
+"strength": "essential",
+"why": "homologous chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.0.4": {
+"hash": "5e7ef94d",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.0",
+"strength": "helpful",
+"why": "genetically identical nuclei",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.0.5": {
+"hash": "23e41814",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.2",
+"strength": "helpful",
+"why": "exact copying of chromosomes",
+"confidence": "high"
+},
+{
+"id": "bio12-s1.3.0",
+"strength": "helpful",
+"why": "mutation as DNA change",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.1.b": {
+"hash": "06191afb",
+"cost": 1,
+"needs": []
+},
+"bio16-s2.1.0": {
+"hash": "926689d2",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.0.3",
+"strength": "essential",
+"why": "diploid to haploid",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.1.2",
+"strength": "helpful",
+"why": "DNA copied once",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.1.1": {
+"hash": "4d5e8ea9",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s2.1.0",
+"strength": "essential",
+"why": "two divisions of meiosis",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.0.2",
+"strength": "essential",
+"why": "homologous pairs",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.2.1",
+"strength": "helpful",
+"why": "copies of each chromosome",
+"confidence": "low"
+}
+]
+},
+"bio16-s2.1.2": {
+"hash": "2874cd77",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s2.1.1",
+"strength": "essential",
+"why": "homologous pairs separate in first division",
+"confidence": "high"
+},
+{
+"id": "bio12-s1.2.1",
+"strength": "helpful",
+"why": "independent assortment explained",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.1.3": {
+"hash": "34c3ad19",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.2",
+"strength": "essential",
+"why": "independent assortment of pairs",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.1.4": {
+"hash": "5e5334a6",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.1",
+"strength": "essential",
+"why": "first division pairing of homologues",
+"confidence": "high"
+},
+{
+"id": "bio11-s1.3.5",
+"strength": "helpful",
+"why": "alleles on homologues",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.1.5": {
+"hash": "36dcd722",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.2",
+"strength": "helpful",
+"why": "varied gametes",
+"confidence": "high"
+},
+{
+"id": "bio12-s1.2.2",
+"strength": "helpful",
+"why": "random fertilisation",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.1.6": {
+"hash": "d1c68492",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.0",
+"strength": "essential",
+"why": "gametes haploid from meiosis",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.0.5",
+"strength": "helpful",
+"why": "zygote diploid at fertilisation",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.2.b": {
+"hash": "d81e04f0",
+"cost": 1,
+"needs": []
+},
+"bio16-s2.2.0": {
+"hash": "7df8a1d4",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.0",
+"strength": "essential",
+"why": "mitosis gives identical nuclei",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.2.1": {
+"hash": "a1888b45",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.2.0",
+"strength": "essential",
+"why": "asexual reproduction by mitosis",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.2.2": {
+"hash": "1cf4271a",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.2.1",
+"strength": "helpful",
+"why": "offspring identical",
+"confidence": "high"
+},
+{
+"id": "bio12-s1.2.5",
+"strength": "helpful",
+"why": "clones share vulnerability",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.2.3": {
+"hash": "cdf3553d",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s2.1.0",
+"strength": "essential",
+"why": "meiosis gives haploid cells",
+"confidence": "high"
+},
+{
+"id": "bio16-s2.2.0",
+"strength": "helpful",
+"why": "unicellular eukaryotes",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.2.4": {
+"hash": "de4828ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.2",
+"strength": "helpful",
+"why": "meiosis varies offspring",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.2.5": {
+"hash": "29944d8e",
+"cost": 1,
+"needs": []
+},
+"bio16-s2.3.b": {
+"hash": "c4b496a1",
+"cost": 1,
+"needs": []
+},
+"bio16-s2.3.0": {
+"hash": "9b875d35",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.0",
+"strength": "essential",
+"why": "mitosis gives identical cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.3.1": {
+"hash": "58ea1d4d",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.2.1",
+"strength": "helpful",
+"why": "meristems dividing regions",
+"confidence": "low"
+}
+]
+},
+"bio16-s2.3.2": {
+"hash": "ba5736bd",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.0",
+"strength": "helpful",
+"why": "mitosis replaces cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.3.3": {
+"hash": "2442a5db",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.4",
+"strength": "essential",
+"why": "clone",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.3.4": {
+"hash": "f39615c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.0",
+"strength": "essential",
+"why": "meiosis makes gametes",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.3.5": {
+"hash": "77dda3fe",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s2.3.4",
+"strength": "essential",
+"why": "gametes made by meiosis",
+"confidence": "high"
+},
+{
+"id": "bio12-s1.6.1",
+"strength": "helpful",
+"why": "somatic mutations not inherited",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.3.6": {
+"hash": "dbd1e914",
+"cost": 1,
+"needs": []
+},
+"bio16-s2.4.b": {
+"hash": "c4ff8672",
+"cost": 1,
+"needs": []
+},
+"bio16-s2.4.0": {
+"hash": "ef69d4e4",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.1.4",
+"strength": "helpful",
+"why": "interphase",
+"confidence": "high"
+},
+{
+"id": "bio16-s1.6.0",
+"strength": "helpful",
+"why": "cytokinesis",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.4.1": {
+"hash": "d6087ed2",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.2",
+"strength": "helpful",
+"why": "one division mitosis",
+"confidence": "high"
+},
+{
+"id": "bio16-s2.1.0",
+"strength": "helpful",
+"why": "two divisions meiosis",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.4.2": {
+"hash": "05a2aa01",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.0.1",
+"strength": "helpful",
+"why": "2n to 2n",
+"confidence": "high"
+},
+{
+"id": "bio16-s2.1.0",
+"strength": "helpful",
+"why": "2n to n",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.4.3": {
+"hash": "54aa2672",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.2",
+"strength": "helpful",
+"why": "meiosis cells differ",
+"confidence": "high"
+},
+{
+"id": "bio16-s2.0.3",
+"strength": "helpful",
+"why": "no pairing in mitosis",
+"confidence": "high"
+},
+{
+"id": "bio16-s2.1.1",
+"strength": "helpful",
+"why": "pairing in meiosis",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.4.4": {
+"hash": "d576a7fd",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.3.4",
+"strength": "helpful",
+"why": "meiosis in reproductive organs",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.4.5": {
+"hash": "75820993",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.1.6",
+"strength": "helpful",
+"why": "constant chromosome number",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.4.6": {
+"hash": "b52895f2",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s2.3.0",
+"strength": "helpful",
+"why": "mitosis for growth",
+"confidence": "high"
+},
+{
+"id": "bio16-s2.2.0",
+"strength": "helpful",
+"why": "asexual reproduction",
+"confidence": "high"
+}
+]
+},
+"bio16-s2.4.7": {
+"hash": "ff21cfd9",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s2.4.2",
+"strength": "helpful",
+"why": "chromosome numbers compared",
+"confidence": "high"
+},
+{
+"id": "bio16-s2.1.1",
+"strength": "helpful",
+"why": "homologous pair separation",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.0.b": {
+"hash": "faf38f21",
+"cost": 1,
+"needs": []
+},
+"bio16-s3.0.0": {
+"hash": "3afa8b3e",
+"cost": 1,
+"needs": []
+},
+"bio16-s3.0.1": {
+"hash": "e820e492",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.1.4",
+"strength": "essential",
+"why": "interphase",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.0.2": {
+"hash": "ec9806aa",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.0.0",
+"strength": "helpful",
+"why": "chromosome as DNA molecule",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.0.3": {
+"hash": "80557e46",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s3.0.0",
+"strength": "helpful",
+"why": "replication gives identical copies",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.1.b": {
+"hash": "3ad55811",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.0",
+"strength": "essential",
+"why": "double-stranded DNA structure",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.1.0": {
+"hash": "e8fc4a66",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.4",
+"strength": "essential",
+"why": "weak hydrogen bonds allow unzipping",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.1.1",
+"strength": "helpful",
+"why": "sugar-phosphate backbone strong bonds",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.1.1": {
+"hash": "fd39873f",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s3.1.0",
+"strength": "essential",
+"why": "separated strands exposing bases",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.1.2": {
+"hash": "15c9065c",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "complementary base pairing A-T, C-G",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.1.3": {
+"hash": "91000b66",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s3.1.2",
+"strength": "essential",
+"why": "nucleotides lined up on template",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.1.0",
+"strength": "helpful",
+"why": "nucleotides joining into backbone",
+"confidence": "low"
+}
+]
+},
+"bio16-s3.1.4": {
+"hash": "f50a9119",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s3.1.3",
+"strength": "essential",
+"why": "new complementary strand formed",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.1.5": {
+"hash": "9dde0ec4",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s3.1.4",
+"strength": "essential",
+"why": "one parent, one new strand",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.2.b": {
+"hash": "e5c688e6",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "fixed base pairing",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.2.0": {
+"hash": "b3194aa4",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.6",
+"strength": "essential",
+"why": "complementary strands from fixed pairing",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.2.1": {
+"hash": "b1927394",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s3.2.0",
+"strength": "essential",
+"why": "new strand complements template",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "applying A-T, C-G pairing",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.2.2": {
+"hash": "7508eac1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.1.3",
+"strength": "helpful",
+"why": "proofreading and repair enzymes",
+"confidence": "low"
+}
+]
+},
+"bio16-s3.2.3": {
+"hash": "c08c1c67",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s3.1.4",
+"strength": "helpful",
+"why": "parent and daughter molecules",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.3.b": {
+"hash": "b10a5df7",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.4.0",
+"strength": "helpful",
+"why": "mitosis and cytokinesis",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.3.0": {
+"hash": "35d40eb2",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.3.1",
+"strength": "essential",
+"why": "sister chromatids after S phase",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.3.1": {
+"hash": "a19c2d5d",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s3.3.0",
+"strength": "essential",
+"why": "chromosomes with two copies",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.3.2": {
+"hash": "7714ff35",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.6.0",
+"strength": "essential",
+"why": "cytokinesis divides cytoplasm",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.3.3": {
+"hash": "d56b6998",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s3.3.1",
+"strength": "helpful",
+"why": "daughter nuclei get identical chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.3.4": {
+"hash": "3a99c951",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.2.2",
+"strength": "helpful",
+"why": "checkpoints in the cell cycle",
+"confidence": "high"
+}
+]
+},
+"bio16-s3.3.5": {
+"hash": "5f05094a",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s3.3.0",
+"strength": "essential",
+"why": "DNA doubled after replication",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.0.b": {
+"hash": "5f9575d4",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.0.0": {
+"hash": "360ee808",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.0.1": {
+"hash": "5bfba9b8",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.0.0",
+"strength": "helpful",
+"why": "cancer cells lose division control",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.0.2": {
+"hash": "bf0beb38",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.0.3": {
+"hash": "ca193ef7",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.0.4": {
+"hash": "7651ab91",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.0.5": {
+"hash": "e6426b85",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.0.6": {
+"hash": "f981cb6c",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.0",
+"strength": "helpful",
+"why": "mutation as DNA change",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.1.b": {
+"hash": "5b77b46a",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.1.0": {
+"hash": "5340fa00",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.1.1": {
+"hash": "5f4d6b20",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s1.2.2",
+"strength": "essential",
+"why": "checkpoints in the cell cycle",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.1.2": {
+"hash": "50d723de",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.0",
+"strength": "helpful",
+"why": "growth factor signals to divide",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.1.3": {
+"hash": "a5c057ae",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.1",
+"strength": "essential",
+"why": "checkpoints that stop the cycle",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.1.4": {
+"hash": "85aa89bc",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.1.5": {
+"hash": "854a5e13",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.3",
+"strength": "essential",
+"why": "tumour suppressor genes stop cycle",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.1.6": {
+"hash": "aff58628",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.1.5",
+"strength": "essential",
+"why": "p53 protein and TP53 gene",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.1.7": {
+"hash": "91f43661",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.1.8": {
+"hash": "a3cd9f1e",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s1.0.0",
+"strength": "helpful",
+"why": "chromosome structure",
+"confidence": "low"
+}
+]
+},
+"bio16-s4.2.b": {
+"hash": "93bd9e9f",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.1.2",
+"strength": "helpful",
+"why": "accelerator and brakes genes",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.2.0": {
+"hash": "934c85cb",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.2",
+"strength": "essential",
+"why": "proto-oncogenes stimulate cell cycle",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.2.1": {
+"hash": "1ca065ea",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.3",
+"strength": "essential",
+"why": "tumour suppressor genes act as brakes",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.2.2": {
+"hash": "293b8aa3",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.2.1",
+"strength": "essential",
+"why": "inactivated tumour suppressor gene",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.2.3": {
+"hash": "af803a25",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.2.4": {
+"hash": "f53809eb",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.2.3",
+"strength": "essential",
+"why": "mutations build up over time",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.2.5": {
+"hash": "68547790",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.0.6",
+"strength": "helpful",
+"why": "cancer cells descended from one cell",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.2.6": {
+"hash": "b01ee008",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.3.b": {
+"hash": "64a9ea08",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.3.0": {
+"hash": "5a245eea",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.1.0",
+"strength": "essential",
+"why": "normal division needs signals",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.3.1": {
+"hash": "33eba337",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.4",
+"strength": "essential",
+"why": "apoptosis",
+"confidence": "high"
+},
+{
+"id": "bio16-s4.1.8",
+"strength": "essential",
+"why": "telomere shortening limits division",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.3.2": {
+"hash": "c59d5384",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.1.7",
+"strength": "essential",
+"why": "contact inhibition in normal cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.3.3": {
+"hash": "186b4d2a",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.3.4": {
+"hash": "020767bc",
+"cost": 2,
+"needs": []
+},
+"bio16-s4.3.5": {
+"hash": "85dd13a5",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.3.6": {
+"hash": "03dc5305",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.3.7": {
+"hash": "b0827805",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.3.1",
+"strength": "helpful",
+"why": "immortal cancer cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.3.8": {
+"hash": "d625a9c4",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.3.7",
+"strength": "essential",
+"why": "HeLa cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.4.b": {
+"hash": "68d3094b",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.4.0": {
+"hash": "d07bf5e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.0.0",
+"strength": "helpful",
+"why": "uncontrolled division",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.4.1": {
+"hash": "141c0b03",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.4.0",
+"strength": "helpful",
+"why": "tumour definition",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.4.2": {
+"hash": "96e436b2",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.4.1",
+"strength": "helpful",
+"why": "benign tumour features",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.4.3": {
+"hash": "c7cc9677",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.4.1",
+"strength": "helpful",
+"why": "contrast with benign tumour",
+"confidence": "low"
+}
+]
+},
+"bio16-s4.4.4": {
+"hash": "30808f53",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.4.1",
+"strength": "essential",
+"why": "benign tumour features",
+"confidence": "high"
+},
+{
+"id": "bio16-s4.4.3",
+"strength": "essential",
+"why": "malignant tumour features",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.4.5": {
+"hash": "6b5198fa",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.4.3",
+"strength": "essential",
+"why": "malignant tumour is cancer",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.5.b": {
+"hash": "9e9f44ec",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.5.0": {
+"hash": "6dce3d9c",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.0.6",
+"strength": "helpful",
+"why": "cancer arises from one mutated cell",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.5.1": {
+"hash": "4a69579f",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.5.0",
+"strength": "essential",
+"why": "clone of abnormal cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.5.2": {
+"hash": "307cf635",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.5.3": {
+"hash": "dafe3442",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.0.1",
+"strength": "helpful",
+"why": "cancer cells invade tissues",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.5.4": {
+"hash": "eb37a598",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.5.3",
+"strength": "helpful",
+"why": "invasion precedes spread",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.5.5": {
+"hash": "91ff8d49",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.5.4",
+"strength": "essential",
+"why": "cells carried in vessels",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.5.6": {
+"hash": "fd23db24",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.5.5",
+"strength": "essential",
+"why": "steps ending in metastasis",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.6.b": {
+"hash": "8034751d",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.6.0": {
+"hash": "312327e6",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.5.5",
+"strength": "essential",
+"why": "secondary tumours",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.6.1": {
+"hash": "c1d9fc22",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.6.0",
+"strength": "essential",
+"why": "metastasis",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.6.2": {
+"hash": "0c500547",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.6.0",
+"strength": "essential",
+"why": "metastasis",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.6.3": {
+"hash": "145b576e",
+"cost": 1,
+"needs": []
+},
+"bio16-s4.6.4": {
+"hash": "33eef6b3",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.0.5",
+"strength": "helpful",
+"why": "leukaemia starts in bone marrow",
+"confidence": "high"
+}
+]
+},
+"bio16-s4.6.5": {
+"hash": "4946e5e7",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.0.b": {
+"hash": "da9c229c",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.0.0": {
+"hash": "7d8db0e2",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.2.3",
+"strength": "helpful",
+"why": "several mutations accumulate",
+"confidence": "low"
+}
+]
+},
+"bio16-s5.0.1": {
+"hash": "89f85259",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.0.2": {
+"hash": "4cb9fafa",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.2",
+"strength": "essential",
+"why": "proto-oncogenes",
+"confidence": "high"
+},
+{
+"id": "bio16-s4.1.3",
+"strength": "essential",
+"why": "tumour suppressor genes",
+"confidence": "high"
+},
+{
+"id": "bio17-s3.0.3",
+"strength": "helpful",
+"why": "mutagens damage DNA",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.0.3": {
+"hash": "8bba4059",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.0.4": {
+"hash": "6e3009e8",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.0.1",
+"strength": "helpful",
+"why": "risk factor",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.1.b": {
+"hash": "e1613216",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.1.0": {
+"hash": "7e0290fe",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.3",
+"strength": "essential",
+"why": "tumour suppressor proteins",
+"confidence": "high"
+},
+{
+"id": "bio16-s4.1.5",
+"strength": "helpful",
+"why": "p53 function",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.1.1": {
+"hash": "90ed4cb8",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.1.0",
+"strength": "helpful",
+"why": "HPV and cervix infection",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.1.2": {
+"hash": "90b29983",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.1.3": {
+"hash": "ab8f4aba",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.0.2",
+"strength": "helpful",
+"why": "mutation during replication",
+"confidence": "low"
+}
+]
+},
+"bio16-s5.1.4": {
+"hash": "5e56fc9e",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.1.5": {
+"hash": "440aade1",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.1.6": {
+"hash": "088cb993",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.1.0",
+"strength": "essential",
+"why": "HPV disrupting cell cycle control",
+"confidence": "high"
+},
+{
+"id": "bio16-s5.1.3",
+"strength": "helpful",
+"why": "inflammation and repair division",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.1.7": {
+"hash": "78693235",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.2.6",
+"strength": "helpful",
+"why": "immune system destroys abnormal cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.2.b": {
+"hash": "ec1d4aeb",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.2.0": {
+"hash": "8fb11c27",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.5",
+"strength": "essential",
+"why": "TP53 and p53 protein",
+"confidence": "high"
+},
+{
+"id": "bio16-s5.0.2",
+"strength": "helpful",
+"why": "carcinogen causing mutations",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.2.1": {
+"hash": "2926f729",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.2.2": {
+"hash": "65533bf1",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.2.3": {
+"hash": "3f9553fa",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.3.b": {
+"hash": "cb3a8581",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.3.0": {
+"hash": "584a46b5",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.0.3",
+"strength": "helpful",
+"why": "UV as a mutagen",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.3.1": {
+"hash": "8727ca3f",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.3.2": {
+"hash": "3f1e1221",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.3",
+"strength": "helpful",
+"why": "ionising radiation as mutagen",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.3.3": {
+"hash": "7c5bfbf2",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.3.4": {
+"hash": "2954997f",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.3.2",
+"strength": "helpful",
+"why": "ionising radiation damages DNA",
+"confidence": "low"
+}
+]
+},
+"bio16-s5.4.b": {
+"hash": "8af91475",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.4.0": {
+"hash": "4f128472",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.4.1": {
+"hash": "07e76dec",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.4.2": {
+"hash": "313a02f2",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.4.3": {
+"hash": "4a7ef869",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.4.4": {
+"hash": "7a0e14bd",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.4.5": {
+"hash": "6cf3ecfd",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.2.4",
+"strength": "helpful",
+"why": "mutations build up with age",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.5.b": {
+"hash": "4d6e0e07",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.5.0": {
+"hash": "53cfd47a",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.1.0",
+"strength": "essential",
+"why": "somatic mutations not inherited",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.5.1": {
+"hash": "6877e8d7",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.2.2",
+"strength": "essential",
+"why": "both alleles must be inactivated",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.5.2": {
+"hash": "03666593",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.5.1",
+"strength": "essential",
+"why": "one faulty copy inherited",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.5.3": {
+"hash": "fd494399",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.1.3",
+"strength": "essential",
+"why": "tumour suppressor genes",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.5.4": {
+"hash": "841ee19f",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.5.5": {
+"hash": "11550337",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.5.6": {
+"hash": "62f2bafe",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.5.7": {
+"hash": "dd284462",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.5.3",
+"strength": "helpful",
+"why": "BRCA gene testing",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.6.b": {
+"hash": "489273c3",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.6.0": {
+"hash": "c1d1736f",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.6.1": {
+"hash": "af13ce78",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.6.2": {
+"hash": "f13eedfe",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.2.3",
+"strength": "essential",
+"why": "dose-response relationship",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.6.3": {
+"hash": "fca04a95",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.6.4": {
+"hash": "be8e739f",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.4.0",
+"strength": "helpful",
+"why": "asbestos multiplies risk",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.6.5": {
+"hash": "2f813b26",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.5.3",
+"strength": "helpful",
+"why": "inherited BRCA mutation",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.6.6": {
+"hash": "36c8abd3",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.6.7": {
+"hash": "76aeabda",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.2.2",
+"strength": "helpful",
+"why": "second-hand smoke",
+"confidence": "low"
+}
+]
+},
+"bio16-s5.7.b": {
+"hash": "78e7bc25",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.7.0": {
+"hash": "29561fd0",
+"cost": 2,
+"needs": []
+},
+"bio16-s5.7.1": {
+"hash": "5dc6920d",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.8.b": {
+"hash": "9f0ef19b",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.8.0": {
+"hash": "76b0cd4c",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.2.2",
+"strength": "helpful",
+"why": "second-hand smoke",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.8.1": {
+"hash": "80074fc9",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.3.0",
+"strength": "helpful",
+"why": "UV causes DNA damage",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.8.2": {
+"hash": "c650055a",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.9.b": {
+"hash": "ba42c103",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.9.0": {
+"hash": "c355bf61",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.1.1",
+"strength": "essential",
+"why": "HPV types cause cervical cancer",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.9.1": {
+"hash": "3cafae9d",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.9.0",
+"strength": "essential",
+"why": "HPV vaccine",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.9.2": {
+"hash": "98184691",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.9.0",
+"strength": "essential",
+"why": "HPV vaccine",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.9.3": {
+"hash": "ccfd7d32",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.1.3",
+"strength": "essential",
+"why": "hepatitis B causes liver cancer",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.9.4": {
+"hash": "6548b5b4",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.1.3",
+"strength": "helpful",
+"why": "hepatitis C and liver cancer",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.9.5": {
+"hash": "e75890ea",
+"cost": 2,
+"needs": []
+},
+"bio16-s5.9.6": {
+"hash": "a1953a65",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.10.b": {
+"hash": "0d32b9d7",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.10.0": {
+"hash": "40dc9688",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s4.5.5",
+"strength": "helpful",
+"why": "metastases spread",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.10.1": {
+"hash": "40e53e82",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.10.2": {
+"hash": "6c553def",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.1.0",
+"strength": "helpful",
+"why": "high-risk HPV",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.10.3": {
+"hash": "4e993c5f",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.10.4": {
+"hash": "4dbcb59f",
+"cost": 2,
+"needs": []
+},
+"bio16-s5.10.5": {
+"hash": "e310a9c5",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.10.6": {
+"hash": "bdf6d8f1",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.10.7": {
+"hash": "6913b7b9",
+"cost": 2,
+"needs": []
+},
+"bio16-s5.11.b": {
+"hash": "701eba1e",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.11.0": {
+"hash": "976e1038",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.11.1": {
+"hash": "08949adb",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.3.2",
+"strength": "helpful",
+"why": "ionising radiation damages DNA",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.11.2": {
+"hash": "304a06b2",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.5.5",
+"strength": "helpful",
+"why": "spread to other sites",
+"confidence": "low"
+}
+]
+},
+"bio16-s5.11.3": {
+"hash": "5324f5d8",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.11.2",
+"strength": "helpful",
+"why": "chemotherapy acts on mitosis",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.11.4": {
+"hash": "a2cd7088",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.11.2",
+"strength": "essential",
+"why": "chemotherapy kills dividing cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.11.5": {
+"hash": "0cf5f4e2",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.11.6": {
+"hash": "645a2f92",
+"cost": 2,
+"needs": []
+},
+"bio16-s5.12.b": {
+"hash": "b8c34976",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.12.0": {
+"hash": "7e584664",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.2.0",
+"strength": "helpful",
+"why": "oncogene mutated protein",
+"confidence": "low"
+}
+]
+},
+"bio16-s5.12.1": {
+"hash": "48af2825",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.11.2",
+"strength": "essential",
+"why": "BCR-ABL fusion gene",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.12.2": {
+"hash": "c0acfba0",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.12.3": {
+"hash": "c05f2788",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s4.2.6",
+"strength": "helpful",
+"why": "immune system destroys abnormal cells",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.12.4": {
+"hash": "68a87efb",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.12.3",
+"strength": "helpful",
+"why": "T cells and immunotherapy",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.12.5": {
+"hash": "5f568a88",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.12.3",
+"strength": "helpful",
+"why": "immunotherapy",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.12.6": {
+"hash": "abb9b119",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.12.0",
+"strength": "helpful",
+"why": "targeted drug for mutated gene",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.12.7": {
+"hash": "926c18a0",
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s5.12.3",
+"strength": "helpful",
+"why": "immune system training",
+"confidence": "low"
+}
+]
+},
+"bio16-s5.13.b": {
+"hash": "93858864",
+"cost": 1,
+"needs": []
+},
+"bio16-s5.13.0": {
+"hash": "7f37bb04",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.10.6",
+"strength": "helpful",
+"why": "biopsy",
+"confidence": "high"
+}
+]
+},
+"bio16-s5.13.1": {
+"hash": "7a21becf",
+"cost": 1,
+"needs": [
+{
+"id": "bio16-s5.13.0",
+"strength": "essential",
+"why": "liquid biopsy",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.0.b": {
+"hash": "c8eefad4",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.0.0": {
+"hash": "0fe9d849",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.0.1": {
+"hash": "7f851b15",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.0.2": {
+"hash": "78d2f2e0",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.0.3": {
+"hash": "3063258f",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.0.7",
+"strength": "helpful",
+"why": "nucleotides carry energy",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.1.b": {
+"hash": "ef94c546",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.1.0": {
+"hash": "ac87a9c3",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.3",
+"strength": "essential",
+"why": "hydrogen bonds between bases",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.1.1": {
+"hash": "a1b21ff2",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "complementary base pairing",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.1.2": {
+"hash": "e4ab49e7",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.1.1",
+"strength": "helpful",
+"why": "sugar-phosphate backbone",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.1.3": {
+"hash": "dcb4228b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.1.2",
+"strength": "helpful",
+"why": "DNA polymerase enzyme",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.1.4": {
+"hash": "9bd9d3d0",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.1.2",
+"strength": "helpful",
+"why": "DNA polymerase joins nucleotides",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.1.5": {
+"hash": "172ea90a",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.5",
+"strength": "helpful",
+"why": "double helix shape",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.1.6": {
+"hash": "41418fd0",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.1.5",
+"strength": "helpful",
+"why": "new DNA molecules identical",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.1.7": {
+"hash": "1a60f9f8",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.1.0",
+"strength": "helpful",
+"why": "helicase at replication fork",
+"confidence": "high"
+},
+{
+"id": "bio17-s1.1.2",
+"strength": "helpful",
+"why": "DNA polymerase adding nucleotides",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.2.b": {
+"hash": "246339b7",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.2.0": {
+"hash": "4a259d3a",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.1.5",
+"strength": "helpful",
+"why": "new molecules from template strands",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.2.1": {
+"hash": "e7b3f9d5",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "base-pairing model",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.2.2": {
+"hash": "ed9f45ff",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.2.3": {
+"hash": "9d0164de",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.3.b": {
+"hash": "135e6aae",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.3.0": {
+"hash": "e67c1055",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.3.1": {
+"hash": "3e3c9f11",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.3.0",
+"strength": "helpful",
+"why": "heavy versus light nitrogen",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.3.2": {
+"hash": "230af910",
+"cost": 2,
+"needs": []
+},
+"bio17-s1.3.3": {
+"hash": "63255ba1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.3.0",
+"strength": "essential",
+"why": "all DNA heavy 15N",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.3.4": {
+"hash": "5288cf0e",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.3.2",
+"strength": "essential",
+"why": "density bands in gradient",
+"confidence": "high"
+},
+{
+"id": "bio17-s1.2.2",
+"strength": "essential",
+"why": "conservative model prediction",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.3.5": {
+"hash": "85817772",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.3.2",
+"strength": "essential",
+"why": "density bands in gradient",
+"confidence": "high"
+},
+{
+"id": "bio17-s1.2.3",
+"strength": "essential",
+"why": "dispersive model prediction",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.3.6": {
+"hash": "920fc82d",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.2.0",
+"strength": "essential",
+"why": "semi-conservative model",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.3.7": {
+"hash": "5927ca4a",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.3.4",
+"strength": "helpful",
+"why": "band positions per generation",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.4.b": {
+"hash": "d48a3fa1",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.4.0": {
+"hash": "69ad503e",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "A-T, C-G base pairing",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.4.1": {
+"hash": "92783c9f",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.6",
+"strength": "essential",
+"why": "complementary strand sequences",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.4.2": {
+"hash": "94195832",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.2.0",
+"strength": "helpful",
+"why": "one old, one new strand",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.4.3": {
+"hash": "f06e8fa3",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.1.1",
+"strength": "helpful",
+"why": "free nucleotides pair with template",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.4.4": {
+"hash": "855af1c7",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.3.0",
+"strength": "essential",
+"why": "A equals T in DNA",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.4.5": {
+"hash": "427213a3",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.3.0",
+"strength": "essential",
+"why": "C equals G in DNA",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.5.b": {
+"hash": "8df35c6c",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.5.0": {
+"hash": "549ec37b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.2.0",
+"strength": "helpful",
+"why": "each replication makes two molecules",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.5.1": {
+"hash": "9b61fee5",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.5.0",
+"strength": "essential",
+"why": "doubling per generation",
+"confidence": "high"
+},
+{
+"id": "bio17-s1.2.0",
+"strength": "essential",
+"why": "original strands conserved",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.5.2": {
+"hash": "c29093a6",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "helpful",
+"why": "bases pair only with partners",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.5.3": {
+"hash": "d4d6be78",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.2.0",
+"strength": "helpful",
+"why": "semi-conservation old and new",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.5.4": {
+"hash": "d85deecb",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.5.2",
+"strength": "helpful",
+"why": "physical model described",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.5.5": {
+"hash": "65cf2405",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.1.0",
+"strength": "helpful",
+"why": "enzymes in replication",
+"confidence": "low"
+}
+]
+},
+"bio17-s1.6.b": {
+"hash": "72f5f97b",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.6.0": {
+"hash": "8145532e",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.3",
+"strength": "helpful",
+"why": "RNA as go-between",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.6.1": {
+"hash": "117e2df1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.6.0",
+"strength": "essential",
+"why": "flow of information",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.6.2": {
+"hash": "6bf442bd",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.4",
+"strength": "essential",
+"why": "mRNA carries gene copy",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.6.3": {
+"hash": "41a3304e",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.6.2",
+"strength": "essential",
+"why": "mRNA made by transcription",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.6.4": {
+"hash": "b9995b8b",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.6.2",
+"strength": "essential",
+"why": "mRNA read at ribosome",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.5",
+"strength": "helpful",
+"why": "tRNA brings amino acids",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.6.5": {
+"hash": "7d86d2c4",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.6.4",
+"strength": "essential",
+"why": "codons read, amino acids joined",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.6.6": {
+"hash": "faf06358",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.6.0",
+"strength": "helpful",
+"why": "DNA to mRNA to protein",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.7.b": {
+"hash": "8c4d2c7e",
+"cost": 1,
+"needs": []
+},
+"bio17-s1.7.0": {
+"hash": "85f84dbc",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.6.2",
+"strength": "helpful",
+"why": "mRNA copy made in nucleus",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.7.1": {
+"hash": "0ca87ce1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.6.4",
+"strength": "helpful",
+"why": "ribosomes read mRNA",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.7.2": {
+"hash": "c4352178",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.7.4",
+"strength": "helpful",
+"why": "RNA broken down after use",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.7.3": {
+"hash": "84bf6171",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s1.6.0",
+"strength": "essential",
+"why": "normal DNA to RNA flow",
+"confidence": "high"
+}
+]
+},
+"bio17-s1.7.4": {
+"hash": "9b29d760",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s1.6.0",
+"strength": "helpful",
+"why": "direction of information flow",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.0.b": {
+"hash": "57b86f11",
+"cost": 1,
+"needs": []
+},
+"bio17-s2.0.0": {
+"hash": "79b61bc0",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.0.0",
+"strength": "helpful",
+"why": "gene as protein code",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.0.1": {
+"hash": "42b9678a",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.0",
+"strength": "helpful",
+"why": "two DNA strands",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.0.2": {
+"hash": "ec1c2c2f",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.2.6",
+"strength": "essential",
+"why": "complementary strands",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.0.2",
+"strength": "helpful",
+"why": "nucleotide structure",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.0.3": {
+"hash": "fccc353c",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.2",
+"strength": "essential",
+"why": "RNA polymerase building strand",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.0.4": {
+"hash": "aea09ab7",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codon definition",
+"confidence": "high"
+},
+{
+"id": "bio10-s1.6.4",
+"strength": "helpful",
+"why": "mRNA role",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.0.5": {
+"hash": "d70a0e6b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.4",
+"strength": "helpful",
+"why": "mRNA as the copy",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.1.b": {
+"hash": "fccf6e01",
+"cost": 1,
+"needs": []
+},
+"bio17-s2.1.0": {
+"hash": "9f66c8c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.1",
+"strength": "helpful",
+"why": "amino acids",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.1.1": {
+"hash": "b9a8e0e7",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.2.0",
+"strength": "essential",
+"why": "anticodon pairs with codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.1.2": {
+"hash": "8779ec1d",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.0",
+"strength": "helpful",
+"why": "tRNA carries amino acids",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.1.3": {
+"hash": "bcac30a3",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.6.5",
+"strength": "helpful",
+"why": "rRNA forms ribosome",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.1.4": {
+"hash": "19ecde7c",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.4",
+"strength": "essential",
+"why": "peptide bond",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.1.5": {
+"hash": "9fdea819",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s2.1.3",
+"strength": "helpful",
+"why": "rRNA in ribosome",
+"confidence": "high"
+},
+{
+"id": "bio17-s2.1.1",
+"strength": "helpful",
+"why": "tRNA binding",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.1.6": {
+"hash": "f551e466",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.5",
+"strength": "helpful",
+"why": "ribosome structure",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.1.7": {
+"hash": "ef774d43",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.5",
+"strength": "helpful",
+"why": "ribosome",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.b": {
+"hash": "b8c9c601",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.2.1",
+"strength": "essential",
+"why": "complementary base pairing",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.0": {
+"hash": "c8c665b0",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.2",
+"strength": "essential",
+"why": "RNA polymerase unwinding",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.1": {
+"hash": "419a7115",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.1",
+"strength": "essential",
+"why": "template strand",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.2": {
+"hash": "710a9381",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.1",
+"strength": "essential",
+"why": "U pairs with A",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.3": {
+"hash": "ef19d378",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.2",
+"strength": "helpful",
+"why": "RNA polymerase joins nucleotides",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.4": {
+"hash": "474e34f5",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.1",
+"strength": "helpful",
+"why": "DNA unchanged",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.5": {
+"hash": "9fe9ef7e",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.2.3",
+"strength": "helpful",
+"why": "RNA polymerase moving",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.6": {
+"hash": "8c24ea4f",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.4",
+"strength": "helpful",
+"why": "mRNA carries code out",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.2.7": {
+"hash": "1d815b6a",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.2.2",
+"strength": "helpful",
+"why": "labels from transcription steps",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.3.b": {
+"hash": "c1381e44",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.0",
+"strength": "helpful",
+"why": "tRNA carries amino acid",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.3.0": {
+"hash": "1f60781c",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.6.2",
+"strength": "essential",
+"why": "RNA folds and base-pairs",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.3.1": {
+"hash": "b92e560d",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.3.0",
+"strength": "helpful",
+"why": "folded tRNA shape",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.3.2": {
+"hash": "257f68fa",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.0",
+"strength": "helpful",
+"why": "tRNA carries amino acid",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.3.3": {
+"hash": "be244af1",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.2.0",
+"strength": "essential",
+"why": "anticodon definition",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.3.4": {
+"hash": "3842ba26",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codon of three bases",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.3.5": {
+"hash": "9cedd450",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s2.3.2",
+"strength": "essential",
+"why": "amino acid attachment site",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.3.6": {
+"hash": "06689bc7",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.3.4",
+"strength": "helpful",
+"why": "three-base codon reading",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.3.7": {
+"hash": "1e936ae5",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.3.0",
+"strength": "helpful",
+"why": "tRNA structure",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.4.b": {
+"hash": "c6e037e7",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.7.5",
+"strength": "helpful",
+"why": "polypeptide chain",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.4.0": {
+"hash": "6b71372d",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.1.0",
+"strength": "essential",
+"why": "start codon AUG",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.4.1": {
+"hash": "2137c9d4",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s2.4.0",
+"strength": "essential",
+"why": "start codon pairing",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.4.2": {
+"hash": "50beaefc",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.1",
+"strength": "essential",
+"why": "anticodon pairs with codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.4.3": {
+"hash": "d0ed51d5",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.7.4",
+"strength": "essential",
+"why": "peptide bond condensation",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.4.4": {
+"hash": "ca281247",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.4.3",
+"strength": "helpful",
+"why": "peptide bond joins amino acids",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.b": {
+"hash": "96cf0167",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.4.b",
+"strength": "helpful",
+"why": "translation start steps",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.0": {
+"hash": "7120ea9b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.4.2",
+"strength": "helpful",
+"why": "tRNA positions in ribosome",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.1": {
+"hash": "283528bb",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.5.0",
+"strength": "helpful",
+"why": "ribosome move exposes codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.2": {
+"hash": "57f344cd",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.5.1",
+"strength": "helpful",
+"why": "repeating cycle",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.3": {
+"hash": "35613561",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.1.1",
+"strength": "essential",
+"why": "stop codons",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.4": {
+"hash": "2a8df3f8",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.5.3",
+"strength": "helpful",
+"why": "stop codon ends translation",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.5": {
+"hash": "71a7732f",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.5",
+"strength": "helpful",
+"why": "ribosome translating mRNA",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.5.6": {
+"hash": "5f5df8ae",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.3.2",
+"strength": "helpful",
+"why": "ATP attaches amino acid",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.5.7": {
+"hash": "9c7e45a7",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s2.4.3",
+"strength": "helpful",
+"why": "peptide bond forming",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.6.b": {
+"hash": "dda403b4",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.1.1",
+"strength": "helpful",
+"why": "sequence determines folding",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.6.0": {
+"hash": "f856ad91",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.1.1",
+"strength": "helpful",
+"why": "sequence determines folding",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.6.1": {
+"hash": "a544fb10",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s2.8.0",
+"strength": "helpful",
+"why": "protein structure bonds",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.6.2": {
+"hash": "780a5f2d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s2.8.1",
+"strength": "helpful",
+"why": "quaternary structure",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.6.3": {
+"hash": "e3c22f17",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s2.1.2",
+"strength": "helpful",
+"why": "shape determines function",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.6.4": {
+"hash": "a00dd82d",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.6.1",
+"strength": "essential",
+"why": "bonds folding the chain",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.6.5": {
+"hash": "54e2e8fc",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s2.1.7",
+"strength": "helpful",
+"why": "ribosomes on rough ER",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.6.6": {
+"hash": "b1260542",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s1.4.3",
+"strength": "helpful",
+"why": "bacterial DNA in cytoplasm",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.7.b": {
+"hash": "dc0703fb",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.2.b",
+"strength": "helpful",
+"why": "transcription base pairing",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.7.0": {
+"hash": "d28a2e4b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.4",
+"strength": "helpful",
+"why": "mRNA product",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.7.1": {
+"hash": "d39486c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.1",
+"strength": "helpful",
+"why": "template strand",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.7.2": {
+"hash": "3f4a3e03",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.2",
+"strength": "essential",
+"why": "RNA polymerase",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.7.3": {
+"hash": "08274df4",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s1.7.1",
+"strength": "helpful",
+"why": "ribose vs deoxyribose",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.7.4": {
+"hash": "8239d5d7",
+"cost": 1,
+"needs": []
+},
+"bio17-s2.7.5": {
+"hash": "8abe7f4c",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.0.5",
+"strength": "helpful",
+"why": "mRNA broken down",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.8.b": {
+"hash": "330190fa",
+"cost": 1,
+"needs": []
+},
+"bio17-s2.8.0": {
+"hash": "5d06739c",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.2.2",
+"strength": "essential",
+"why": "complementary RNA pairing",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.8.1": {
+"hash": "b08b7120",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codons",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.8.2": {
+"hash": "0bae84b6",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.1",
+"strength": "essential",
+"why": "anticodon pairs with codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.8.3": {
+"hash": "94609fa8",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.3.2",
+"strength": "helpful",
+"why": "using codon table",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.8.4": {
+"hash": "c99b9787",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.5.3",
+"strength": "helpful",
+"why": "stop codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.9.b": {
+"hash": "c7cb17be",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.8.b",
+"strength": "helpful",
+"why": "five-step method",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.9.0": {
+"hash": "d6293793",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s2.8.0",
+"strength": "essential",
+"why": "writing mRNA from template",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.9.1": {
+"hash": "b3b53857",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.8.2",
+"strength": "essential",
+"why": "anticodon method",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.9.2": {
+"hash": "aa2305dc",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.8.3",
+"strength": "helpful",
+"why": "codon table lookup",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.9.3": {
+"hash": "42b1884e",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.4.3",
+"strength": "helpful",
+"why": "peptide bond count",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.10.b": {
+"hash": "9bcf0922",
+"cost": 1,
+"needs": []
+},
+"bio17-s2.10.0": {
+"hash": "44d18a3e",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.2.6",
+"strength": "helpful",
+"why": "mRNA moves to ribosome",
+"confidence": "low"
+}
+]
+},
+"bio17-s2.10.1": {
+"hash": "748e1450",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.1.1",
+"strength": "helpful",
+"why": "tRNA anticodon and amino acid",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.10.2": {
+"hash": "f029c7f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.4.3",
+"strength": "helpful",
+"why": "peptide bonds",
+"confidence": "high"
+}
+]
+},
+"bio17-s2.10.3": {
+"hash": "207f8391",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.0.b": {
+"hash": "351094a7",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.0.0": {
+"hash": "5ab851f7",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "helpful",
+"why": "gene as DNA section",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.0.1": {
+"hash": "85f4e7b8",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.0",
+"strength": "helpful",
+"why": "gene mutation defined",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.0.2": {
+"hash": "77dd7a3d",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.2.0",
+"strength": "helpful",
+"why": "DNA replication",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.0.3": {
+"hash": "e24c9d2f",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.0",
+"strength": "helpful",
+"why": "what a mutation is",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.0.4": {
+"hash": "dc6ae902",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.3",
+"strength": "helpful",
+"why": "mutagen defined",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.0.5": {
+"hash": "d0cb7099",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.2",
+"strength": "helpful",
+"why": "errors in replication",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.1.b": {
+"hash": "aee4c8fd",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.1.0": {
+"hash": "e46b1212",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.0",
+"strength": "helpful",
+"why": "mutation as DNA change",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.1.1": {
+"hash": "a9ecfed1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.1.0",
+"strength": "helpful",
+"why": "contrast with somatic mutation",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.1.2": {
+"hash": "6e98f745",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.4.1",
+"strength": "essential",
+"why": "non-coding DNA",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.1.3": {
+"hash": "94fb54d6",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s2.6.4",
+"strength": "helpful",
+"why": "sequence change alters protein shape",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.1.4": {
+"hash": "96e92d56",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.1.5": {
+"hash": "25870dc6",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.1.4",
+"strength": "helpful",
+"why": "beneficial mutation in environment",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.1.6": {
+"hash": "f9e1d979",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.1",
+"strength": "essential",
+"why": "mutation creates new allele",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.b": {
+"hash": "3e7e9f14",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "helpful",
+"why": "codon of three bases",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.0": {
+"hash": "e8431c92",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.3.0",
+"strength": "helpful",
+"why": "gene as DNA section",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.1": {
+"hash": "05806b7b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.0.2",
+"strength": "helpful",
+"why": "replication errors",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.2": {
+"hash": "49c9b5ad",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.2.0",
+"strength": "helpful",
+"why": "DNA replication",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.3": {
+"hash": "e16ec82d",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.0.1",
+"strength": "essential",
+"why": "codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.4": {
+"hash": "d07ab854",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.2.3",
+"strength": "essential",
+"why": "substitution changes one codon",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.1.3",
+"strength": "helpful",
+"why": "degenerate code",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.5": {
+"hash": "d5b72420",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.3",
+"strength": "essential",
+"why": "substitution changes one codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.2.6": {
+"hash": "88ede03e",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.1.1",
+"strength": "essential",
+"why": "stop codons",
+"confidence": "high"
+},
+{
+"id": "bio17-s3.2.3",
+"strength": "helpful",
+"why": "substitution changes one codon",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.3.b": {
+"hash": "23f5349a",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.3.0": {
+"hash": "20e59ef6",
+"cost": 2,
+"needs": [
+{
+"id": "bio10-s3.1.2",
+"strength": "essential",
+"why": "code read in threes, frameshift",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.3.1": {
+"hash": "23aeda31",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.3.0",
+"strength": "essential",
+"why": "frameshift",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.3.2": {
+"hash": "6e6e3400",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.3.0",
+"strength": "essential",
+"why": "frameshift",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.3.3": {
+"hash": "e8e8a389",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.3.0",
+"strength": "essential",
+"why": "frameshift contrast",
+"confidence": "high"
+},
+{
+"id": "bio17-s2.6.4",
+"strength": "helpful",
+"why": "missing amino acid alters folding",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.4.b": {
+"hash": "f6e2ab3e",
+"cost": 1,
+"needs": [
+{
+"id": "bio10-s3.3.2",
+"strength": "helpful",
+"why": "using the codon table",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.4.0": {
+"hash": "568ac36b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.4",
+"strength": "helpful",
+"why": "silent substitution",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.4.1": {
+"hash": "65a057be",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.5",
+"strength": "helpful",
+"why": "missense substitution",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.4.2": {
+"hash": "47aa3437",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.6",
+"strength": "helpful",
+"why": "nonsense substitution",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.4.3": {
+"hash": "ed2f8107",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.3.0",
+"strength": "essential",
+"why": "frameshift from insertion",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.4.4": {
+"hash": "9a537181",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.3.0",
+"strength": "essential",
+"why": "frameshift from deletion",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.4.5": {
+"hash": "4f2aed9d",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.3.3",
+"strength": "essential",
+"why": "three-base deletion, no frameshift",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.4.6": {
+"hash": "c77ed18b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.3.0",
+"strength": "helpful",
+"why": "frameshift analogy",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.5.b": {
+"hash": "03db12f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.3",
+"strength": "helpful",
+"why": "substitution",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.5.0": {
+"hash": "bcc76500",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.3",
+"strength": "helpful",
+"why": "substitution",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.5.1": {
+"hash": "f9deb459",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.5.0",
+"strength": "essential",
+"why": "beta-globin gene substitution",
+"confidence": "high"
+},
+{
+"id": "bio10-s3.0.1",
+"strength": "helpful",
+"why": "codon",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.5.2": {
+"hash": "a73293e2",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.5.1",
+"strength": "essential",
+"why": "valine replacing glutamic acid",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.5.3": {
+"hash": "e8a2dcc3",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.5.2",
+"strength": "essential",
+"why": "sickled red cells",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.5.4": {
+"hash": "4d7e0460",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.5.5": {
+"hash": "3b7191b1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.5.4",
+"strength": "essential",
+"why": "carrier resistant to malaria",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.6.b": {
+"hash": "d6b327d7",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.3.3",
+"strength": "helpful",
+"why": "three-base deletion",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.6.0": {
+"hash": "c7dd884f",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.0",
+"strength": "helpful",
+"why": "chromosome",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.6.1": {
+"hash": "a597c3a7",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.3.3",
+"strength": "essential",
+"why": "three-base deletion, no frameshift",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.6.2": {
+"hash": "ead39a16",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.6.1",
+"strength": "essential",
+"why": "missing amino acid",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.6.3": {
+"hash": "9d759822",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.6.4": {
+"hash": "c9c42aab",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.6.2",
+"strength": "helpful",
+"why": "faulty protein folding",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.6.5": {
+"hash": "9f701d85",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.6.0",
+"strength": "helpful",
+"why": "cystic fibrosis cause",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.7.b": {
+"hash": "27dd997c",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.0",
+"strength": "helpful",
+"why": "point mutation contrast",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.7.0": {
+"hash": "d34723c1",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.0",
+"strength": "essential",
+"why": "chromosome",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.7.1": {
+"hash": "977a67a2",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.0.3",
+"strength": "helpful",
+"why": "ionising radiation as mutagen",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.7.2": {
+"hash": "18315abf",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.7.3": {
+"hash": "9f4a483e",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.2.2",
+"strength": "helpful",
+"why": "centromere",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.7.4": {
+"hash": "3933e831",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.3",
+"strength": "essential",
+"why": "lettered chromosome notation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.8.b": {
+"hash": "49847342",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.3",
+"strength": "helpful",
+"why": "chromosome letter model",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.8.0": {
+"hash": "ae41bd66",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.3",
+"strength": "essential",
+"why": "chromosome letter model",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.8.1": {
+"hash": "3b94e4cc",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.8.0",
+"strength": "essential",
+"why": "deletion",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.8.2": {
+"hash": "a3dab45e",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.3",
+"strength": "essential",
+"why": "chromosome letter model",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.8.3": {
+"hash": "c1874dff",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.8.2",
+"strength": "essential",
+"why": "duplication",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.9.b": {
+"hash": "c17c39c5",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.0",
+"strength": "helpful",
+"why": "chromosomal mutation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.9.0": {
+"hash": "fa4e9638",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.3",
+"strength": "essential",
+"why": "chromosome letter model",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.9.1": {
+"hash": "7e35cc44",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.9.0",
+"strength": "essential",
+"why": "inversion",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.9.2": {
+"hash": "5f713b73",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.4",
+"strength": "essential",
+"why": "non-homologous chromosome",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.9.3": {
+"hash": "b1626b6e",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.9.2",
+"strength": "essential",
+"why": "reciprocal translocation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.9.4": {
+"hash": "fa1c3cdf",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.9.2",
+"strength": "essential",
+"why": "translocation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.9.5": {
+"hash": "5ad4b06a",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.3",
+"strength": "helpful",
+"why": "chromosome letter model",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.10.b": {
+"hash": "a7c027b8",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.10.0": {
+"hash": "c6569dbc",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.8.0",
+"strength": "essential",
+"why": "deletion",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.10.1": {
+"hash": "04f2886a",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.10.0",
+"strength": "essential",
+"why": "cri du chat",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.10.2": {
+"hash": "b5ade6e4",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.8.2",
+"strength": "essential",
+"why": "duplication",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.10.3": {
+"hash": "55c4cc54",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.10.2",
+"strength": "essential",
+"why": "Charcot-Marie-Tooth duplication",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.10.4": {
+"hash": "e68c86a8",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.9.0",
+"strength": "essential",
+"why": "inversion breaks gene",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.10.5": {
+"hash": "143f198e",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.9.1",
+"strength": "helpful",
+"why": "inversion often harmless",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.11.b": {
+"hash": "dc7a1948",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.9.2",
+"strength": "helpful",
+"why": "translocation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.11.0": {
+"hash": "634c3400",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.11.1": {
+"hash": "3c8a19df",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.9.2",
+"strength": "essential",
+"why": "reciprocal translocation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.11.2": {
+"hash": "e5a191f6",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.11.1",
+"strength": "essential",
+"why": "translocation joins ABL and BCR",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.11.3": {
+"hash": "316a8545",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.11.2",
+"strength": "essential",
+"why": "BCR-ABL fusion gene",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.11.4": {
+"hash": "aedcb84b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.1.0",
+"strength": "essential",
+"why": "somatic mutation not inherited",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.11.5": {
+"hash": "a5bbe1a2",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.9.2",
+"strength": "helpful",
+"why": "translocation",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.11.6": {
+"hash": "7ba187c1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.11.3",
+"strength": "essential",
+"why": "BCR-ABL enzyme",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.12.b": {
+"hash": "3c93d66b",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.0",
+"strength": "helpful",
+"why": "structural chromosomal mutation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.12.0": {
+"hash": "086387c7",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.0",
+"strength": "helpful",
+"why": "structural change types",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.12.1": {
+"hash": "ff329b0d",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.4",
+"strength": "essential",
+"why": "homologous pair",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.12.2": {
+"hash": "a091ea7a",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.12.1",
+"strength": "essential",
+"why": "non-disjunction",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.12.3": {
+"hash": "5c3a38eb",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.12.2",
+"strength": "essential",
+"why": "Down syndrome",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.12.4": {
+"hash": "c049c47a",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.12.2",
+"strength": "essential",
+"why": "Down syndrome",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.12.5": {
+"hash": "ddbcad6b",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.9.2",
+"strength": "essential",
+"why": "translocation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.13.b": {
+"hash": "12ef0b68",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.13.2",
+"strength": "helpful",
+"why": "karyotype",
+"confidence": "low"
+}
+]
+},
+"bio17-s3.13.0": {
+"hash": "b7493c8f",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.3",
+"strength": "essential",
+"why": "sex chromosomes XX XY",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.13.1": {
+"hash": "4d1cfcbb",
+"cost": 1,
+"needs": [
+{
+"id": "bio11-s1.0.3",
+"strength": "essential",
+"why": "sex chromosomes XX XY",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.13.2": {
+"hash": "4b9be36f",
+"cost": 2,
+"needs": [
+{
+"id": "bio11-s1.0.4",
+"strength": "essential",
+"why": "homologous pairs",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.13.3": {
+"hash": "032c2383",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.13.2",
+"strength": "essential",
+"why": "karyotype",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.14.b": {
+"hash": "9d62f9f2",
+"cost": 1,
+"needs": []
+},
+"bio17-s3.14.0": {
+"hash": "f6169358",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.0",
+"strength": "essential",
+"why": "point mutation",
+"confidence": "high"
+},
+{
+"id": "bio17-s3.7.0",
+"strength": "essential",
+"why": "chromosomal mutation",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.14.1": {
+"hash": "37b2e1a1",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.2.1",
+"strength": "helpful",
+"why": "mispairing in replication",
+"confidence": "high"
+},
+{
+"id": "bio17-s3.7.1",
+"strength": "helpful",
+"why": "chromosome breakage",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.14.2": {
+"hash": "f3ec50b3",
+"cost": 1,
+"needs": [
+{
+"id": "bio17-s3.7.2",
+"strength": "essential",
+"why": "karyotype",
+"confidence": "high"
+}
+]
+},
+"bio17-s3.14.3": {
+"hash": "e88eecef",
+"cost": 2,
+"needs": [
+{
+"id": "bio17-s3.5.0",
+"strength": "helpful",
+"why": "sickle-cell example",
+"confidence": "low"
+}
+]
+},
+"bio18-s1.0.b": {
+"hash": "b0541e4a",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.0.0": {
+"hash": "3de0f0c1",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.0.1": {
+"hash": "c4f06c4d",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.0",
+"strength": "helpful",
+"why": "bones",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.0.2": {
+"hash": "ff63ae8c",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.0",
+"strength": "essential",
+"why": "bones and joints",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.0.3": {
+"hash": "b84d781b",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.0.4": {
+"hash": "ef8f4484",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.0.5": {
+"hash": "01e668dd",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.0.4",
+"strength": "essential",
+"why": "axial group of skeleton",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.0.6": {
+"hash": "1d2c24aa",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.0.4",
+"strength": "essential",
+"why": "appendicular group of skeleton",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.1.b": {
+"hash": "9f115400",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.1.0": {
+"hash": "6a71f5a4",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.1.1": {
+"hash": "9411e745",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.1.0",
+"strength": "helpful",
+"why": "bone as tissue",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.1.2": {
+"hash": "a913a089",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.1.1",
+"strength": "helpful",
+"why": "bone matrix",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.1.3": {
+"hash": "328a6c89",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.2.b": {
+"hash": "22b43eaf",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.2.0": {
+"hash": "88fb72b2",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.2.1": {
+"hash": "96e30ae2",
+"cost": 2,
+"needs": []
+},
+"bio18-s1.2.2": {
+"hash": "84ced7a4",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.2",
+"strength": "helpful",
+"why": "bones as levers",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.2.3": {
+"hash": "0203c0b2",
+"cost": 2,
+"needs": []
+},
+"bio18-s1.2.4": {
+"hash": "b924bbf4",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.2.3",
+"strength": "essential",
+"why": "red marrow",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.2.5": {
+"hash": "2ee14fc6",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.2.4",
+"strength": "helpful",
+"why": "long bones",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.2.6": {
+"hash": "7178d267",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.1.1",
+"strength": "helpful",
+"why": "calcium phosphate in bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.2.7": {
+"hash": "b108e20c",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.2.6",
+"strength": "essential",
+"why": "bone stores calcium",
+"confidence": "high"
+},
+{
+"id": "bio18-s1.5.3",
+"strength": "helpful",
+"why": "calcium needed for muscle",
+"confidence": "high"
+},
+{
+"id": "bio21-s2.0.b",
+"strength": "helpful",
+"why": "keeping factors constant",
+"confidence": "low"
+}
+]
+},
+"bio18-s1.3.b": {
+"hash": "454a1b53",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.3.0": {
+"hash": "cd8bab4f",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.1",
+"strength": "helpful",
+"why": "tendons attach muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.3.1": {
+"hash": "cd6a908d",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.3.0",
+"strength": "helpful",
+"why": "skeletal muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.3.2": {
+"hash": "a65ebb8d",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.3.3": {
+"hash": "29eadfbe",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.3.2",
+"strength": "essential",
+"why": "smooth muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.3.4": {
+"hash": "c66e9081",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.4.b": {
+"hash": "363f4b99",
+"cost": 1,
+"needs": [
+{
+"id": "bio21-s2.1.3",
+"strength": "essential",
+"why": "effector definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.4.0": {
+"hash": "7ae14a7a",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.3.0",
+"strength": "helpful",
+"why": "skeletal muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.4.1": {
+"hash": "a34e45e7",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.4.0",
+"strength": "essential",
+"why": "muscle fibres",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.4.2": {
+"hash": "b616ec87",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.4.0",
+"strength": "essential",
+"why": "muscle fibres",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.4.3": {
+"hash": "ded43e7e",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.4.2",
+"strength": "essential",
+"why": "actin and myosin filaments",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.5.b": {
+"hash": "013022bd",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.5.0": {
+"hash": "afa0e4ea",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.3.0",
+"strength": "helpful",
+"why": "voluntary control of skeletal muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.5.1": {
+"hash": "d705c37d",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.5.0",
+"strength": "essential",
+"why": "motor neuron stimulates muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.5.2": {
+"hash": "30dc8ce9",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.5.1",
+"strength": "essential",
+"why": "neuromuscular junction",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.5.3": {
+"hash": "a7a63d3c",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.5.2",
+"strength": "essential",
+"why": "impulse in the fibre",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.5.4": {
+"hash": "291b4f31",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.5.3",
+"strength": "essential",
+"why": "calcium release",
+"confidence": "high"
+},
+{
+"id": "bio18-s1.4.2",
+"strength": "essential",
+"why": "actin and myosin",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.5.5": {
+"hash": "23f86e30",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.4.1",
+"strength": "helpful",
+"why": "mitochondria in fibres",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.6.b": {
+"hash": "7f22b21e",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.6.0": {
+"hash": "c0d4a93a",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.5.3",
+"strength": "essential",
+"why": "calcium released in contraction",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.6.1": {
+"hash": "1b9ff90e",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.6.0",
+"strength": "helpful",
+"why": "relaxation of muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.6.2": {
+"hash": "2dfd0901",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.6.3": {
+"hash": "eb5b729a",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.2",
+"strength": "essential",
+"why": "muscle pulls bone at joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.6.4": {
+"hash": "28f0fe30",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.5.0",
+"strength": "helpful",
+"why": "motor neuron stimulation",
+"confidence": "high"
+},
+{
+"id": "bio18-s1.4.0",
+"strength": "essential",
+"why": "muscle fibres",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.6.5": {
+"hash": "e10e4a0c",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.5.4",
+"strength": "helpful",
+"why": "partial contraction",
+"confidence": "low"
+}
+]
+},
+"bio18-s1.6.6": {
+"hash": "2537fa5b",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.5.0",
+"strength": "helpful",
+"why": "voluntary response pathway",
+"confidence": "high"
+},
+{
+"id": "bio18-s1.4.2",
+"strength": "helpful",
+"why": "actin and myosin filaments",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.7.b": {
+"hash": "27675f75",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.7.0": {
+"hash": "04f7affc",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.7.1": {
+"hash": "dd580c6b",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.7.2": {
+"hash": "baf5e589",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.6.5",
+"strength": "helpful",
+"why": "muscle tone",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.7.3": {
+"hash": "67aa8de8",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.5",
+"strength": "helpful",
+"why": "ribs",
+"confidence": "low"
+}
+]
+},
+"bio18-s1.7.4": {
+"hash": "d543e818",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.7.5": {
+"hash": "c2c8f51c",
+"cost": 1,
+"needs": [
+{
+"id": "bio21-s2.4.4",
+"strength": "helpful",
+"why": "shivering releases heat",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.8.b": {
+"hash": "07dc598d",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.8.0": {
+"hash": "a769b4f7",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.5.0",
+"strength": "essential",
+"why": "motor neuron stimulates muscle",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.8.1": {
+"hash": "b74878c5",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.8.2": {
+"hash": "fe7dfb73",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.5.5",
+"strength": "helpful",
+"why": "respiration supplies ATP",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.8.3": {
+"hash": "acebabf1",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.8.2",
+"strength": "helpful",
+"why": "oxygen supply to muscle",
+"confidence": "high"
+},
+{
+"id": "bio18-s1.5.5",
+"strength": "helpful",
+"why": "ATP from respiration",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.8.4": {
+"hash": "e3f04807",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.8.3",
+"strength": "essential",
+"why": "lactic acid produced",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.8.5": {
+"hash": "5e74fbc1",
+"cost": 1,
+"needs": []
+},
+"bio18-s1.8.6": {
+"hash": "ff705a75",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.1.3",
+"strength": "helpful",
+"why": "bone adapts to forces",
+"confidence": "high"
+}
+]
+},
+"bio18-s1.8.7": {
+"hash": "887f886b",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.1.1",
+"strength": "helpful",
+"why": "calcium in bone matrix",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.0.b": {
+"hash": "12c112a4",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.0.0": {
+"hash": "c134b80a",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.0.1": {
+"hash": "fffa6f67",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.0.0",
+"strength": "helpful",
+"why": "the four parts",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.1.b": {
+"hash": "76654998",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.1.0": {
+"hash": "b7125b14",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.1.1": {
+"hash": "06183a11",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.1.2": {
+"hash": "aaaeac71",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.1.0",
+"strength": "helpful",
+"why": "cranium bones",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.1.3": {
+"hash": "a364fdca",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.0",
+"strength": "helpful",
+"why": "joints",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.1.4": {
+"hash": "e0ed38b9",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.1.1",
+"strength": "helpful",
+"why": "orbits as facial feature",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.1.5": {
+"hash": "0b474849",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.1.0",
+"strength": "helpful",
+"why": "base of cranium",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.1.6": {
+"hash": "b863df57",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.1.2",
+"strength": "helpful",
+"why": "fused cranial bones, sutures",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.1.7": {
+"hash": "5c274ecc",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.1.0",
+"strength": "helpful",
+"why": "skull parts labelled",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.2.b": {
+"hash": "6305d989",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.2.0": {
+"hash": "1cc32e58",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.2.1": {
+"hash": "92a6bc69",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.6",
+"strength": "helpful",
+"why": "pelvic girdle",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.2.2": {
+"hash": "0ac6f937",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.0",
+"strength": "helpful",
+"why": "vertebrae of the column",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.2.3": {
+"hash": "2c1a4e19",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.6.0",
+"strength": "helpful",
+"why": "ribs",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.2.4": {
+"hash": "3da9c07e",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.2.5": {
+"hash": "501e94b7",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.1",
+"strength": "helpful",
+"why": "pelvic girdle",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.2.6": {
+"hash": "9a47fb76",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.5",
+"strength": "helpful",
+"why": "fused vertebrae",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.2.7": {
+"hash": "9f9ec5ba",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.4",
+"strength": "helpful",
+"why": "lumbar vertebrae largest",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.3.b": {
+"hash": "3ceff73a",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.3.0": {
+"hash": "adfb5245",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.2",
+"strength": "helpful",
+"why": "first cervical vertebra",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.3.1": {
+"hash": "51e3b478",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.3.0",
+"strength": "essential",
+"why": "atlas turns on peg",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.3.2": {
+"hash": "7c6d32d8",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.2.0",
+"strength": "helpful",
+"why": "vertebral column regions",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.3.3": {
+"hash": "f26a420e",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.3.2",
+"strength": "essential",
+"why": "the S-shaped curves",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.3.4": {
+"hash": "61ee4e6c",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.3.2",
+"strength": "helpful",
+"why": "S-shaped curves",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.4.b": {
+"hash": "8edc8323",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.4.0": {
+"hash": "0035aeed",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.4.1": {
+"hash": "e0d92659",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.1",
+"strength": "helpful",
+"why": "spinal cord protection",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.4.2": {
+"hash": "e86964bd",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.2",
+"strength": "helpful",
+"why": "bones as levers",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.4.3": {
+"hash": "269211a3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.3",
+"strength": "helpful",
+"why": "thoracic vertebrae join ribs",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.4.4": {
+"hash": "f7bf3a17",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.4.1",
+"strength": "helpful",
+"why": "spinal cord in neural canal",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.4.5": {
+"hash": "aad9e5b4",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.4.1",
+"strength": "helpful",
+"why": "neural arch and canal",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.5.b": {
+"hash": "b4d4d681",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.5.0": {
+"hash": "11a5fb59",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.4.0",
+"strength": "essential",
+"why": "centrum of vertebra",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.5.1": {
+"hash": "95f114e8",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.5",
+"strength": "essential",
+"why": "fused sacrum and coccyx",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.5.2": {
+"hash": "7fe454e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.0",
+"strength": "helpful",
+"why": "cartilage",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.5.3": {
+"hash": "08707930",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.5.2",
+"strength": "helpful",
+"why": "disc structure",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.5.4": {
+"hash": "2c6bc987",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.5.0",
+"strength": "helpful",
+"why": "discs between vertebrae",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.5.5": {
+"hash": "cda0968e",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.5.2",
+"strength": "helpful",
+"why": "disc structure",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.5.6": {
+"hash": "65e4d8b0",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.4.2",
+"strength": "helpful",
+"why": "ligaments",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.5.7": {
+"hash": "0aa37bcc",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.5.3",
+"strength": "essential",
+"why": "discs compress under load",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.6.b": {
+"hash": "12a66828",
+"cost": 1,
+"needs": []
+},
+"bio18-s2.6.0": {
+"hash": "68ff2df2",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.3",
+"strength": "helpful",
+"why": "thoracic vertebrae",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.6.1": {
+"hash": "7f83b572",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.6.6",
+"strength": "helpful",
+"why": "sternum",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.6.2": {
+"hash": "1f042df7",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.6.1",
+"strength": "essential",
+"why": "costal cartilage, rib numbering",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.6.3": {
+"hash": "90a2aa3a",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.6.0",
+"strength": "helpful",
+"why": "ribs joined to vertebrae",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.6.4": {
+"hash": "9f760ed4",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.2.1",
+"strength": "helpful",
+"why": "protection function",
+"confidence": "low"
+}
+]
+},
+"bio18-s2.6.5": {
+"hash": "a151930d",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.6.1",
+"strength": "helpful",
+"why": "flexible costal cartilage",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.6.6": {
+"hash": "a7fec36d",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s1.2.4",
+"strength": "helpful",
+"why": "red marrow in flat bones",
+"confidence": "high"
+}
+]
+},
+"bio18-s2.6.7": {
+"hash": "6d59a640",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.6.3",
+"strength": "helpful",
+"why": "rib types",
+"confidence": "low"
+}
+]
+},
+"bio18-s3.0.b": {
+"hash": "b144bc03",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.0.0",
+"strength": "helpful",
+"why": "axial skeleton parts",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.0.0": {
+"hash": "07ee4534",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.0.1": {
+"hash": "fd964fea",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.2",
+"strength": "helpful",
+"why": "bones as levers for muscles",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.1.b": {
+"hash": "b3c3ba47",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.1.0": {
+"hash": "ec7a54a3",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.1.1": {
+"hash": "edab8e55",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.1.0",
+"strength": "helpful",
+"why": "shaft of a long bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.1.2": {
+"hash": "5351074e",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.2.3",
+"strength": "helpful",
+"why": "red marrow in spongy bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.1.3": {
+"hash": "35edb91a",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.2.5",
+"strength": "helpful",
+"why": "yellow marrow in shafts",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.1.4": {
+"hash": "a2631fb7",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.0",
+"strength": "helpful",
+"why": "cartilage and joints",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.1.5": {
+"hash": "2f737916",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.1",
+"strength": "helpful",
+"why": "tendons join muscle to bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.1.6": {
+"hash": "1e2b67eb",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.1.2",
+"strength": "helpful",
+"why": "spongy bone and red marrow",
+"confidence": "low"
+}
+]
+},
+"bio18-s3.2.b": {
+"hash": "411108df",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.0.0",
+"strength": "helpful",
+"why": "girdle definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.2.0": {
+"hash": "87e14871",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.0.0",
+"strength": "essential",
+"why": "girdle definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.2.1": {
+"hash": "dd654474",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.6.6",
+"strength": "helpful",
+"why": "sternum",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.2.2": {
+"hash": "b23b310e",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.2.1",
+"strength": "helpful",
+"why": "clavicle shape and position",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.2.3": {
+"hash": "b7daa098",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.2.1",
+"strength": "essential",
+"why": "clavicle-sternum joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.2.4": {
+"hash": "5483efe5",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.2.5": {
+"hash": "bd108a99",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.2.4",
+"strength": "essential",
+"why": "scapula",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.2.6": {
+"hash": "0823120f",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.2.4",
+"strength": "essential",
+"why": "scapula surface",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.2.7": {
+"hash": "e0a354c1",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.2.4",
+"strength": "essential",
+"why": "scapula socket",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.3.b": {
+"hash": "c361c29e",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.0.0",
+"strength": "helpful",
+"why": "girdle definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.3.0": {
+"hash": "42779d1c",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s2.2.5",
+"strength": "essential",
+"why": "sacrum",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.3.1": {
+"hash": "b63dc29d",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.3.0",
+"strength": "helpful",
+"why": "hip bones",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.3.2": {
+"hash": "a00ab719",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.3.0",
+"strength": "essential",
+"why": "pelvic girdle joined to sacrum",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.3.3": {
+"hash": "0ab20747",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.3.0",
+"strength": "essential",
+"why": "pelvic girdle structure",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.3.4": {
+"hash": "2ee339d5",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.3.3",
+"strength": "essential",
+"why": "deep hip socket",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.3.5": {
+"hash": "d5670ecc",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.2.1",
+"strength": "helpful",
+"why": "protection function of bones",
+"confidence": "low"
+}
+]
+},
+"bio18-s3.3.6": {
+"hash": "524c7f80",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.3.7": {
+"hash": "c8115dae",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.3.0",
+"strength": "helpful",
+"why": "pelvic girdle structure",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.4.b": {
+"hash": "73c17296",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.4.0": {
+"hash": "edfe2258",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.3.2",
+"strength": "helpful",
+"why": "rigid pelvic girdle",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.4.1": {
+"hash": "896b9e4c",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.2.7",
+"strength": "essential",
+"why": "shallow shoulder socket",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.4.2": {
+"hash": "e7452bc0",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.4.0",
+"strength": "helpful",
+"why": "attachment comparison",
+"confidence": "low"
+}
+]
+},
+"bio18-s3.5.b": {
+"hash": "f0b53cf1",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.5.0": {
+"hash": "342db16e",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.2.7",
+"strength": "essential",
+"why": "shoulder ball-and-socket joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.5.1": {
+"hash": "fdabb39f",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.5.0",
+"strength": "helpful",
+"why": "humerus",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.5.2": {
+"hash": "16d8a374",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.5.3": {
+"hash": "2bb3581c",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.5.1",
+"strength": "essential",
+"why": "elbow hinge joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.5.4": {
+"hash": "ba866edc",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.5.2",
+"strength": "essential",
+"why": "ulna",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.5.5": {
+"hash": "dcd98862",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.5.6": {
+"hash": "cfe69271",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.5.5",
+"strength": "essential",
+"why": "radius",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.5.7": {
+"hash": "838d1f96",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.5.6",
+"strength": "essential",
+"why": "radius rotation",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.6.b": {
+"hash": "35b6705f",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.6.0": {
+"hash": "38bc3e30",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.6.1": {
+"hash": "82bb56d8",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.3.3",
+"strength": "essential",
+"why": "hip socket of pelvic girdle",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.6.2": {
+"hash": "b8715c62",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.6.0",
+"strength": "helpful",
+"why": "femur",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.6.3": {
+"hash": "0c113ef3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s1.0.1",
+"strength": "helpful",
+"why": "tendons join muscle to bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.6.4": {
+"hash": "bd9e0111",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.6.3",
+"strength": "essential",
+"why": "patella in quadriceps tendon",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.6.5": {
+"hash": "93a618df",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.6.1",
+"strength": "helpful",
+"why": "knee joint with femur",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.6.6": {
+"hash": "009275ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.6.5",
+"strength": "helpful",
+"why": "tibia",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.6.7": {
+"hash": "f1a91282",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.7.b": {
+"hash": "d83807d4",
+"cost": 1,
+"needs": []
+},
+"bio18-s3.7.0": {
+"hash": "382db75a",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.5.b",
+"strength": "helpful",
+"why": "arm bone layout",
+"confidence": "low"
+}
+]
+},
+"bio18-s3.7.1": {
+"hash": "539b2d4e",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s3.7.0",
+"strength": "essential",
+"why": "limb plan pattern",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.8.b": {
+"hash": "a043821d",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s3.0.b",
+"strength": "helpful",
+"why": "axial and appendicular parts",
+"confidence": "high"
+}
+]
+},
+"bio18-s3.8.0": {
+"hash": "689bb2f6",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s2.0.0",
+"strength": "essential",
+"why": "axial skeleton parts",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.0.b": {
+"hash": "5d4ea650",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.0.0": {
+"hash": "b5a9eaff",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.0.1": {
+"hash": "cd6f7000",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.0",
+"strength": "helpful",
+"why": "joint definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.0.2": {
+"hash": "e157a8f3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.0",
+"strength": "helpful",
+"why": "joint definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.0.3": {
+"hash": "8c10304f",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.0",
+"strength": "helpful",
+"why": "joint definition",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.b": {
+"hash": "8f387219",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "essential",
+"why": "freely movable joints",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.0": {
+"hash": "14a107a3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.1": {
+"hash": "97d4e2bf",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.2": {
+"hash": "8c88b009",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.1.3": {
+"hash": "063455d1",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "freely movable joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.b": {
+"hash": "7c0cf349",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "essential",
+"why": "synovial joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.0": {
+"hash": "8ae5a627",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "essential",
+"why": "synovial joint cavity",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.1": {
+"hash": "2a128b1c",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.2": {
+"hash": "41e19d0a",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.4",
+"strength": "helpful",
+"why": "synovial fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.3": {
+"hash": "7f07f259",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.0",
+"strength": "helpful",
+"why": "joint capsule",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.4": {
+"hash": "19e5855f",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.3",
+"strength": "helpful",
+"why": "membrane secretes the fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.2.5": {
+"hash": "f8bb1c64",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.4",
+"strength": "essential",
+"why": "synovial fluid",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.2",
+"strength": "helpful",
+"why": "cartilage lacks blood supply",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.b": {
+"hash": "08e036d1",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.3.0": {
+"hash": "4ec31bfa",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.4",
+"strength": "helpful",
+"why": "synovial fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.1": {
+"hash": "fda93d1f",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.3.2": {
+"hash": "f364bb89",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.1",
+"strength": "essential",
+"why": "ligament structure",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.3": {
+"hash": "c4d772d4",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.1",
+"strength": "essential",
+"why": "ligament definition",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.0",
+"strength": "helpful",
+"why": "capsule",
+"confidence": "low"
+}
+]
+},
+"bio18-s4.3.4": {
+"hash": "ac49464c",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.3.5": {
+"hash": "c80a5203",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendon structure",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.6": {
+"hash": "a0ab8a73",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "helpful",
+"why": "cartilage at joints",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.3.7": {
+"hash": "f9ab0aa4",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.0",
+"strength": "helpful",
+"why": "joint capsule",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.0",
+"strength": "helpful",
+"why": "articular cartilage",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.b": {
+"hash": "5ad32fe8",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.0.3",
+"strength": "helpful",
+"why": "synovial joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.0": {
+"hash": "32e39e68",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.4",
+"strength": "helpful",
+"why": "synovial fluid",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.1": {
+"hash": "23a66034",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.2",
+"strength": "essential",
+"why": "ligament function",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.4.2": {
+"hash": "3118ccf3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.5",
+"strength": "essential",
+"why": "tendon transmits pull",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.5.b": {
+"hash": "85905288",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.5.0": {
+"hash": "582e06cd",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.1",
+"strength": "essential",
+"why": "ligament definition",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendon definition",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.0",
+"strength": "essential",
+"why": "articular cartilage",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.5.1": {
+"hash": "b138ad59",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.2",
+"strength": "essential",
+"why": "ligament elasticity",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.5",
+"strength": "essential",
+"why": "tendon inelastic",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.1",
+"strength": "helpful",
+"why": "cartilage absorbs shock",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.5.2": {
+"hash": "6a2fe330",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.2",
+"strength": "essential",
+"why": "ligament function",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.3.5",
+"strength": "essential",
+"why": "tendon function",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.2.1",
+"strength": "essential",
+"why": "cartilage function",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.b": {
+"hash": "be976f32",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.6.0": {
+"hash": "b63d9444",
+"cost": 1,
+"needs": []
+},
+"bio18-s4.6.1": {
+"hash": "95633ed7",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.0",
+"strength": "essential",
+"why": "muscle only pulls",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.2": {
+"hash": "7fa62c15",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "helpful",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.3": {
+"hash": "def3ba3b",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendons join muscle to bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.6.4": {
+"hash": "9ae1d547",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.b": {
+"hash": "890388cb",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "essential",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.0": {
+"hash": "5f7d43f7",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.1": {
+"hash": "b1c79e67",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.2": {
+"hash": "7404c255",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.2",
+"strength": "essential",
+"why": "flexion and flexor",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.6.4",
+"strength": "helpful",
+"why": "contraction moves bone",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.3": {
+"hash": "26b98278",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.2",
+"strength": "essential",
+"why": "extension and extensor",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.7.2",
+"strength": "helpful",
+"why": "opposite of flexion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.7.4": {
+"hash": "0fb0ed89",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.2",
+"strength": "essential",
+"why": "flexor and extensor",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.b": {
+"hash": "53d973d3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "helpful",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.0": {
+"hash": "b60c725a",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.1.1",
+"strength": "helpful",
+"why": "elbow hinge joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.1": {
+"hash": "67ddb4b2",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.8.0",
+"strength": "essential",
+"why": "lever and pivot",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.7.0",
+"strength": "helpful",
+"why": "biceps insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.2": {
+"hash": "d5d8a8c2",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "essential",
+"why": "antagonistic pair",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.1.1",
+"strength": "helpful",
+"why": "motor neurons carry impulses",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.3": {
+"hash": "5f939cf1",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "essential",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.8.4": {
+"hash": "6e94fe7d",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.7.2",
+"strength": "essential",
+"why": "bending the arm",
+"confidence": "high"
+},
+{
+"id": "bio18-s4.7.3",
+"strength": "essential",
+"why": "straightening the arm",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.b": {
+"hash": "38055ac3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.1",
+"strength": "helpful",
+"why": "antagonistic pair",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.0": {
+"hash": "c1ef7da3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.1.1",
+"strength": "helpful",
+"why": "hinge joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.1": {
+"hash": "43f5e5af",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.6.3",
+"strength": "essential",
+"why": "origin and insertion",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.2": {
+"hash": "324195ca",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.7.2",
+"strength": "helpful",
+"why": "flexion of arm",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.3": {
+"hash": "80b94c93",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.7.3",
+"strength": "helpful",
+"why": "extension of arm",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.4": {
+"hash": "dc72774d",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.0",
+"strength": "essential",
+"why": "muscle only pulls",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.9.5": {
+"hash": "4b45dc90",
+"cost": 2,
+"needs": [
+{
+"id": "bio18-s4.8.1",
+"strength": "essential",
+"why": "lever action",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.b": {
+"hash": "ba6ab0f5",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.9.b",
+"strength": "helpful",
+"why": "the arm model",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.0": {
+"hash": "157db6a3",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.6.4",
+"strength": "helpful",
+"why": "muscles shorten and fatten",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.1": {
+"hash": "03772831",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.2.1",
+"strength": "helpful",
+"why": "cartilage reduces friction",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.2": {
+"hash": "292395a2",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.1.2",
+"strength": "helpful",
+"why": "radius rotation, pivot joint",
+"confidence": "high"
+}
+]
+},
+"bio18-s4.10.3": {
+"hash": "3dc382a2",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.5",
+"strength": "helpful",
+"why": "nerve impulses",
+"confidence": "low"
+}
+]
+},
+"bio18-s4.10.4": {
+"hash": "ab030843",
+"cost": 1,
+"needs": [
+{
+"id": "bio18-s4.3.4",
+"strength": "essential",
+"why": "tendons are inelastic",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.0.b": {
+"hash": "fdcdff44",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.0.0": {
+"hash": "f891f5bd",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.0.1": {
+"hash": "0a5d3b17",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.0",
+"strength": "essential",
+"why": "defined relative to the CNS",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.0.2": {
+"hash": "0f209727",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.0",
+"strength": "helpful",
+"why": "CNS as brain and spinal cord",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.0.3": {
+"hash": "d83afe03",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.5",
+"strength": "essential",
+"why": "nerve impulses",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.0.0",
+"strength": "helpful",
+"why": "CNS",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.0.4": {
+"hash": "af8dfe2f",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.0.5": {
+"hash": "46c8d8f1",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.4",
+"strength": "helpful",
+"why": "neuron",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.1.b": {
+"hash": "dec40ac7",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.1.0": {
+"hash": "434ec4a0",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.4",
+"strength": "essential",
+"why": "neuron",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.1.1": {
+"hash": "9f8f8234",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.4",
+"strength": "essential",
+"why": "neuron",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.1.2": {
+"hash": "4b76c4f0",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.4",
+"strength": "essential",
+"why": "nerves as bundles of fibres",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.1.3": {
+"hash": "300dee3f",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.1.2",
+"strength": "helpful",
+"why": "spinal nerves are nerves",
+"confidence": "low"
+}
+]
+},
+"bio19-s1.1.4": {
+"hash": "5120d63d",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.1.3",
+"strength": "essential",
+"why": "spinal nerves",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.1.5": {
+"hash": "ef2211b9",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.1.4",
+"strength": "essential",
+"why": "roots of spinal nerve",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.1.6": {
+"hash": "0763f15b",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.1.4",
+"strength": "essential",
+"why": "roots of spinal nerve",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.2.b": {
+"hash": "5c29222f",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.2.0": {
+"hash": "70ee28cf",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.1.5",
+"strength": "essential",
+"why": "dorsal root",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.2.1": {
+"hash": "8b017229",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.1.6",
+"strength": "essential",
+"why": "ventral root",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.4.1",
+"strength": "helpful",
+"why": "grey matter",
+"confidence": "low"
+}
+]
+},
+"bio19-s1.2.2": {
+"hash": "791b031b",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.0",
+"strength": "helpful",
+"why": "CNS as brain and spinal cord",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.3.b": {
+"hash": "b651f734",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.3.0": {
+"hash": "a9dcaf77",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.1.0",
+"strength": "helpful",
+"why": "sensory and motor impulses",
+"confidence": "low"
+}
+]
+},
+"bio19-s1.3.1": {
+"hash": "792f4061",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.3.0",
+"strength": "helpful",
+"why": "spinal cord function",
+"confidence": "low"
+}
+]
+},
+"bio19-s1.4.b": {
+"hash": "05b49224",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.4.0": {
+"hash": "f9ee2b3a",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.4.1": {
+"hash": "ad83a942",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.4.0",
+"strength": "helpful",
+"why": "central canal position",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.4.2": {
+"hash": "bf629904",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.4.1",
+"strength": "helpful",
+"why": "surrounds the grey matter",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.4.3": {
+"hash": "14e8f6e7",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.4.1",
+"strength": "essential",
+"why": "grey matter",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.4.4": {
+"hash": "5202a09a",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.4.2",
+"strength": "essential",
+"why": "white matter",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.4.5": {
+"hash": "94ec8c01",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.4.1",
+"strength": "essential",
+"why": "grey matter",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.4.6": {
+"hash": "13c977b1",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.4.1",
+"strength": "essential",
+"why": "grey and white matter layout",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.1.5",
+"strength": "helpful",
+"why": "dorsal root",
+"confidence": "low"
+}
+]
+},
+"bio19-s1.5.b": {
+"hash": "8b6876d3",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.5.0": {
+"hash": "a4d7aa39",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.5.1": {
+"hash": "e5cc2a8f",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.3.b",
+"strength": "helpful",
+"why": "spinal cord in vertebral column",
+"confidence": "low"
+}
+]
+},
+"bio19-s1.5.2": {
+"hash": "7f98816b",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.5.3": {
+"hash": "edd6076f",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.5.2",
+"strength": "essential",
+"why": "meninges",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.5.4": {
+"hash": "aad56a06",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.5.3",
+"strength": "essential",
+"why": "cerebrospinal fluid",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.5.5": {
+"hash": "576de1f6",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.5.2",
+"strength": "essential",
+"why": "meninges",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.6.b": {
+"hash": "1cb9c4b1",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.6.0": {
+"hash": "8d704981",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.6.1": {
+"hash": "e5db8056",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.6.0",
+"strength": "essential",
+"why": "cerebrum",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.6.2": {
+"hash": "42b98fbe",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.6.0",
+"strength": "essential",
+"why": "cerebral hemispheres",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.6.3": {
+"hash": "8dee57da",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.6.0",
+"strength": "helpful",
+"why": "cerebrum",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.6.4": {
+"hash": "551dc050",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.6.0",
+"strength": "helpful",
+"why": "cerebrum",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.7.b": {
+"hash": "86b0a65f",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.7.0": {
+"hash": "f1b46d74",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.6.0",
+"strength": "helpful",
+"why": "position relative to cerebrum",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.7.1": {
+"hash": "84923876",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.7.0",
+"strength": "essential",
+"why": "cerebellum",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.8.b": {
+"hash": "2819491a",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.8.0": {
+"hash": "5517a77d",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.3.b",
+"strength": "helpful",
+"why": "joins the spinal cord",
+"confidence": "low"
+}
+]
+},
+"bio19-s1.8.1": {
+"hash": "525a5c8c",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.8.0",
+"strength": "essential",
+"why": "medulla oblongata",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.8.2": {
+"hash": "034b7afc",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.8.0",
+"strength": "essential",
+"why": "medulla oblongata",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.9.b": {
+"hash": "3b5f5312",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.9.0": {
+"hash": "7bfe30de",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.6.0",
+"strength": "helpful",
+"why": "position below cerebrum",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.9.1": {
+"hash": "0cba4b59",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.9.0",
+"strength": "essential",
+"why": "hypothalamus",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.9.2": {
+"hash": "0f78716c",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.9.0",
+"strength": "essential",
+"why": "hypothalamus",
+"confidence": "high"
+}
+]
+},
+"bio19-s1.10.b": {
+"hash": "ff388b3f",
+"cost": 1,
+"needs": []
+},
+"bio19-s1.10.0": {
+"hash": "598e6d1b",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.6.0",
+"strength": "helpful",
+"why": "cerebrum",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.7.0",
+"strength": "helpful",
+"why": "cerebellum",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.8.0",
+"strength": "helpful",
+"why": "medulla oblongata",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.9.0",
+"strength": "helpful",
+"why": "hypothalamus",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.0.b": {
+"hash": "2265ff29",
+"cost": 1,
+"needs": []
+},
+"bio19-s2.0.0": {
+"hash": "776f605d",
+"cost": 1,
+"needs": []
+},
+"bio19-s2.0.1": {
+"hash": "0d58d1f0",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.0.5",
+"strength": "helpful",
+"why": "nerve impulse",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.0.2": {
+"hash": "bbecbc72",
+"cost": 1,
+"needs": []
+},
+"bio19-s2.1.b": {
+"hash": "bff703b7",
+"cost": 1,
+"needs": []
+},
+"bio19-s2.1.0": {
+"hash": "50bbb3ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.0.0",
+"strength": "helpful",
+"why": "stimulus",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.1.1": {
+"hash": "7c0504f9",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.1.0",
+"strength": "essential",
+"why": "reflex action definition",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.1.2": {
+"hash": "90656fc3",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.1.0",
+"strength": "helpful",
+"why": "reflex action definition",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.1.3": {
+"hash": "9d0cb293",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.1.0",
+"strength": "helpful",
+"why": "reflex action definition",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.1.4": {
+"hash": "4da11bac",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.1.0",
+"strength": "helpful",
+"why": "reflex action definition",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.2.b": {
+"hash": "1004003e",
+"cost": 1,
+"needs": []
+},
+"bio19-s2.2.0": {
+"hash": "8d1284d2",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s1.1.0",
+"strength": "essential",
+"why": "sensory neuron carries impulses in",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.1.1",
+"strength": "essential",
+"why": "motor neuron carries impulses out",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.0.4",
+"strength": "essential",
+"why": "interneuron connects neurons",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.4.1",
+"strength": "helpful",
+"why": "grey matter of cord",
+"confidence": "low"
+}
+]
+},
+"bio19-s2.2.1": {
+"hash": "fb4dcf2b",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.2.0",
+"strength": "helpful",
+"why": "sensory neuron in the arc",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.2.2": {
+"hash": "92d3ab72",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.2.0",
+"strength": "helpful",
+"why": "motor neuron in the arc",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.2.3": {
+"hash": "713e237e",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s2.2.0",
+"strength": "essential",
+"why": "order of reflex arc parts",
+"confidence": "high"
+},
+{
+"id": "bio19-s2.2.1",
+"strength": "essential",
+"why": "dorsal root and ganglion",
+"confidence": "high"
+},
+{
+"id": "bio19-s2.2.2",
+"strength": "essential",
+"why": "ventral root",
+"confidence": "high"
+},
+{
+"id": "bio19-s1.4.2",
+"strength": "helpful",
+"why": "white matter in cord section",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.3.b": {
+"hash": "e594dfea",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.2.0",
+"strength": "helpful",
+"why": "reflex arc pathway",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.3.0": {
+"hash": "68efb453",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.0.1",
+"strength": "helpful",
+"why": "receptor detects stimulus",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.3.1": {
+"hash": "5ae93c8c",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.1.0",
+"strength": "helpful",
+"why": "sensory neuron",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.3.2": {
+"hash": "5dbd14eb",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.4",
+"strength": "helpful",
+"why": "interneuron",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.3.3": {
+"hash": "d5f540ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.1.1",
+"strength": "helpful",
+"why": "motor neuron",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.3.4": {
+"hash": "81bab48d",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.0.2",
+"strength": "essential",
+"why": "effector",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.3.5": {
+"hash": "9a457630",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.0.2",
+"strength": "helpful",
+"why": "muscle effector contracts",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.4.b": {
+"hash": "0828755a",
+"cost": 1,
+"needs": []
+},
+"bio19-s2.4.0": {
+"hash": "e43252db",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s2.3.2",
+"strength": "helpful",
+"why": "synapse as gap between neurons",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.4.1": {
+"hash": "8bc5ed42",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.4.0",
+"strength": "helpful",
+"why": "short route",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.4.2": {
+"hash": "87005fa1",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.4",
+"strength": "helpful",
+"why": "interneuron",
+"confidence": "low"
+}
+]
+},
+"bio19-s2.4.3": {
+"hash": "0452f6e7",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.1.0",
+"strength": "helpful",
+"why": "reflex action definition",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.5.b": {
+"hash": "ee4931b5",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.2.0",
+"strength": "helpful",
+"why": "reflex arc with interneuron",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.5.0": {
+"hash": "7dfd7645",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.0.0",
+"strength": "helpful",
+"why": "stimulus",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.5.1": {
+"hash": "d4a836d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.2.0",
+"strength": "essential",
+"why": "sensory-interneuron-motor pathway",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.5.2": {
+"hash": "9ab72b8e",
+"cost": 1,
+"needs": []
+},
+"bio19-s2.6.b": {
+"hash": "2eea7395",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.1.0",
+"strength": "helpful",
+"why": "reflex action definition",
+"confidence": "high"
+}
+]
+},
+"bio19-s2.6.0": {
+"hash": "75691747",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s2.2.0",
+"strength": "helpful",
+"why": "spinal cord reflex arc",
+"confidence": "low"
+}
+]
+},
+"bio19-s2.6.1": {
+"hash": "2a0aa7e0",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s1.8.2",
+"strength": "helpful",
+"why": "medulla controls reflexes",
+"confidence": "low"
+}
+]
+},
+"bio19-s3.0.b": {
+"hash": "17ac03b3",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.0.0": {
+"hash": "db33cd21",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.0.1": {
+"hash": "a3dcc266",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.0.2": {
+"hash": "dfc41492",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.0",
+"strength": "helpful",
+"why": "neuron as nerve cell",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.0.3": {
+"hash": "72ed852c",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.0",
+"strength": "helpful",
+"why": "neuron as nerve cell",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.0.4": {
+"hash": "0519e9a6",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.2",
+"strength": "helpful",
+"why": "sensory pathway",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.0.3",
+"strength": "helpful",
+"why": "motor pathway",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.1.b": {
+"hash": "03c86924",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.1.0": {
+"hash": "d43e2f3a",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "nucleus and organelles",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.1.1": {
+"hash": "23407b95",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.6.1",
+"strength": "helpful",
+"why": "protein synthesis at ribosomes",
+"confidence": "low"
+}
+]
+},
+"bio19-s3.1.2": {
+"hash": "2230e2d8",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.0",
+"strength": "helpful",
+"why": "cell body",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.1.3": {
+"hash": "d20319dd",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.2",
+"strength": "essential",
+"why": "dendrites",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.1.4": {
+"hash": "d1483870",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.0",
+"strength": "helpful",
+"why": "cell body",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.1.5": {
+"hash": "1e65a582",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.4",
+"strength": "essential",
+"why": "axon",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.2.b": {
+"hash": "4345b180",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.2.0": {
+"hash": "a52d54f9",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.4",
+"strength": "essential",
+"why": "axon",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.2.1": {
+"hash": "f58f9489",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s3.2.0",
+"strength": "essential",
+"why": "myelin sheath",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.2.2": {
+"hash": "60f1a1dc",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.2.0",
+"strength": "essential",
+"why": "myelin sheath",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.3.b": {
+"hash": "8299e3cd",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.3.0": {
+"hash": "16a42d8b",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.4",
+"strength": "essential",
+"why": "axon",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.3.1": {
+"hash": "85175de5",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.3.0",
+"strength": "essential",
+"why": "synaptic knobs",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.3.2": {
+"hash": "076f07f9",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.3.1",
+"strength": "essential",
+"why": "vesicles store neurotransmitter",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.4.b": {
+"hash": "7151f0fb",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.4.0": {
+"hash": "3391c974",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.3",
+"strength": "helpful",
+"why": "motor neuron role",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.4.1": {
+"hash": "86ba862d",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.4.0",
+"strength": "essential",
+"why": "motor neuron dendrites",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.0.4",
+"strength": "essential",
+"why": "interneurons",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.4.2": {
+"hash": "41708251",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.4",
+"strength": "helpful",
+"why": "axon",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.3.0",
+"strength": "helpful",
+"why": "axon terminals",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.5.b": {
+"hash": "a876a0fd",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.5.0": {
+"hash": "d6ce307c",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.2",
+"strength": "helpful",
+"why": "dendrite comparison",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.0.2",
+"strength": "helpful",
+"why": "sensory neuron role",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.5.1": {
+"hash": "fb090eed",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.0",
+"strength": "helpful",
+"why": "cell body",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.5.2": {
+"hash": "b14d2f93",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.1.4",
+"strength": "helpful",
+"why": "axon",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.5.3": {
+"hash": "cc7c1dc4",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.5.0",
+"strength": "essential",
+"why": "dendron",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.5.4": {
+"hash": "3095fa14",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s3.5.1",
+"strength": "essential",
+"why": "cell body position",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.6.b": {
+"hash": "873684ae",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.6.0": {
+"hash": "e3227573",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.4",
+"strength": "essential",
+"why": "interneurons",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.6.1": {
+"hash": "362fa302",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.4",
+"strength": "essential",
+"why": "interneurons",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.6.2": {
+"hash": "3eb08296",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.0.2",
+"strength": "helpful",
+"why": "sensory neurons",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.0.3",
+"strength": "helpful",
+"why": "motor neurons",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.7.b": {
+"hash": "f7216d7d",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.7.0": {
+"hash": "9df88711",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s3.4.0",
+"strength": "essential",
+"why": "motor neuron structure",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.5.0",
+"strength": "essential",
+"why": "sensory neuron structure",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.2.2",
+"strength": "helpful",
+"why": "Schwann cell",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.2.1",
+"strength": "helpful",
+"why": "nodes of Ranvier",
+"confidence": "high"
+},
+{
+"id": "bio19-s3.3.1",
+"strength": "helpful",
+"why": "vesicles",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.8.b": {
+"hash": "b2d04242",
+"cost": 1,
+"needs": []
+},
+"bio19-s3.8.0": {
+"hash": "3d8a284a",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.2.0",
+"strength": "essential",
+"why": "myelin sheath",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.8.1": {
+"hash": "10b3cf40",
+"cost": 2,
+"needs": [
+{
+"id": "bio19-s3.2.1",
+"strength": "essential",
+"why": "impulse jumps between nodes",
+"confidence": "high"
+}
+]
+},
+"bio19-s3.8.2": {
+"hash": "63550d98",
+"cost": 1,
+"needs": [
+{
+"id": "bio19-s3.8.0",
+"strength": "helpful",
+"why": "multiple sclerosis",
+"confidence": "high"
 }
 ]
 },
