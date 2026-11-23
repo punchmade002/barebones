@@ -1,0 +1,468 @@
+[
+ {
+  "skill": "seq-verify-formula",
+  "what": {
+   "say": [
+    "You give it a formula that claims to give the sum, or the $n$th term, of a pattern. It proves the formula is true for **every** $n$, not just the ones you tried.",
+    "The key idea is induction: show it works for $n = 1$, then show that if it works for one number $k$, it must work for the next one, $k+1$. Each case then pulls the next one along."
+   ],
+   "in": "pattern + formula",
+   "out": "formula proved for all $n$"
+  },
+  "how": {
+   "higher": "Higher level asks for it as the last part of a long Paper 1 question (2020 and 2025), usually as a proof by induction worth 15 marks."
+  },
+  "example": {
+   "question": "Prove by induction that $2 + 4 + 6 + \\dots + 2n = n(n+1)$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check n equals 1",
+      "say": "Test the formula on the first case, $n = 1$. The sum has one term, so check both sides give the same number.",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 2",
+        "sym": "2",
+        "new": true
+       },
+       {
+        "tex": "\\text{RHS} &= 1(1+1)",
+        "sym": "1*(1+1)"
+       },
+       {
+        "text": "Both sides are $2$. So $P(1)$ is true."
+       }
+      ]
+     },
+     {
+      "title": "Assume it works for k",
+      "say": "Now assume the formula is true for $n = k$. This is the statement $P(k)$ and you may use it.",
+      "lines": [
+       {
+        "tex": "2 + 4 + \\dots + 2k &= \\hl{1}{k(k+1)}"
+       }
+      ]
+     },
+     {
+      "title": "Prove it for k plus 1",
+      "say": "Now look at $n = k+1$. Add the next term, $2(k+1)$, to both sides of $P(k)$. The left side becomes the sum up to $k+1$. Replace the old sum with $\\hl{1}{k(k+1)}$.",
+      "lines": [
+       {
+        "tex": "2 + 4 + \\dots + 2(k+1) &= \\hl{1}{k(k+1)} + 2(k+1)",
+        "sym": "k*(k+1)+2*(k+1)",
+        "new": true
+       },
+       {
+        "tex": "&= (k+1)(k+2)",
+        "sym": "(k+1)*(k+2)"
+       },
+       {
+        "text": "This is the formula with $n = k+1$: $(k+1)\\big((k+1)+1\\big)$."
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "Say what you have shown. A proof by induction is not finished without this sentence.",
+      "lines": [
+       {
+        "text": "$P(1)$ is true. If $P(k)$ is true then $P(k+1)$ is true. So $P(n)$ is true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2 + 4 + \\dots + 2n = n(n+1)"
+   },
+   "finalSym": "0",
+   "answerSym": "summation(2*i,(i,1,n))-n*(n+1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "End with the full conclusion. Leaving out part or all of it costs a mark, even if the algebra is perfect.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q10#(e)(i), (ii)",
+       "quote": "Omits part or all of conclusion but"
+      }
+     ]
+    },
+    {
+     "tip": "Showing the formula works for a few numbers is not a proof. It earns low partial credit at best, so go on to $P(k)$ and $P(k+1)$.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+       "quote": "Particular case verification"
+      }
+     ]
+    },
+    {
+     "tip": "The base case and the assumption $P(k)$ can come in either order. Both must be written down.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q10#(e)(i), (ii)",
+       "quote": "Steps 1 and 2 can be in any order."
+      }
+     ]
+    },
+    {
+     "tip": "Close the proof with a sentence saying it is true for $n = k+1$ if true for $n = k$, and true for $n = 1$.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+       "quote": "Thus the proposition is true for"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "seq-geo-sum-infinity",
+  "what": {
+   "say": [
+    "You give it a geometric series with first term $a$ and common ratio $r$, where $r$ is between $-1$ and $1$. It gives back the **sum** of all the terms, even though there are infinitely many.",
+    "The key idea: when $|r| < 1$ the terms shrink towards zero, so the total settles at a fixed number, $S_\\infty = \\dfrac{a}{1-r}$."
+   ],
+   "in": "$a$ and $r$, $|r|<1$",
+   "out": "$S_\\infty$"
+  },
+  "how": {
+   "higher": "Higher level uses it almost every year on Paper 1, either as a part of its own worth 5 or 10 marks or as the last step in a longer question about a dose, a pattern of shapes or a value of $x$."
+  },
+  "example": {
+   "question": "Find the sum to infinity of the series $20 + 12 + 7{\\cdot}2 + \\dots$",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find a and r",
+      "say": "The first term is $\\hl{1}{a}$. The common ratio $\\hl{2}{r}$ is any term divided by the one before it.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= 20",
+        "sym": "20",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{12}{20}",
+        "sym": "Rational(12,20)",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{3}{5}",
+        "sym": "Rational(3,5)"
+       }
+      ]
+     },
+     {
+      "title": "Check r is allowed",
+      "say": "The sum to infinity only exists when $|r| < 1$. Check it before you use the formula.",
+      "lines": [
+       {
+        "text": "$|\\hl{2}{r}| = \\frac{3}{5} < 1$, so the series has a sum to infinity."
+       }
+      ]
+     },
+     {
+      "title": "Use the formula",
+      "say": "Put $\\hl{1}{a}$ and $\\hl{2}{r}$ into $S_\\infty = \\dfrac{a}{1-r}$.",
+      "lines": [
+       {
+        "tex": "\\hl{3}{S_\\infty} &= \\frac{20}{1 - \\frac{3}{5}}",
+        "sym": "20/(1-Rational(3,5))",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{20}{\\frac{2}{5}}",
+        "sym": "20/Rational(2,5)"
+       },
+       {
+        "tex": "&= 50",
+        "sym": "50"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "50"
+   },
+   "finalSym": "50",
+   "answerSym": "summation(20*Rational(3,5)**n,(n,0,oo))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Check $|r| < 1$ and say so. If $|r| > 1$ there is no sum to infinity, and the marks drop to low partial credit at most.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p1-q7#(a)(iii)",
+       "quote": "then award low partial"
+      },
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(c)",
+       "quote": "then Low Partial Credit at"
+      }
+     ]
+    },
+    {
+     "tip": "Write the formula $S_\\infty = \\dfrac{a}{1-r}$ and substitute into it. Partial credit is given for the formula with some substitution.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q9#(e)",
+       "quote": "formula with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "If $x$ is unknown, test each value you find. Substitute it, work out $r$, and reject the one that gives no sum to infinity.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q2#(c)",
+       "quote": "Substitution used to exclude"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "seq-geo-unknown-n",
+  "what": {
+   "say": [
+    "You give it a geometric series and a target, such as a term that must pass a value. It finds the **number of terms** $n$ needed.",
+    "The key idea: $n$ sits in a power, so take logs to bring it down. Then round $n$ to a whole number the right way."
+   ],
+   "in": "$a$, $r$ and a target",
+   "out": "$n$ (a whole number)"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 1 (and once on Paper 2, in 2015), as a 10 or 15 mark part: on which day or swing does a value first pass or drop below a target.",
+   "ordinary": "Ordinary level asked it once, in 2023, as a 5 mark part about cases doubling every 5 days."
+  },
+  "example": {
+   "question": "A geometric sequence has first term $3$ and common ratio $2$. Find the least value of $n$ for which $T_n > 5000$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the nth term",
+      "say": "Write $T_n = ar^{n-1}$ with $a = 3$ and $r = 2$. Then set it greater than $5000$.",
+      "lines": [
+       {
+        "tex": "T_n &= 3 \\times 2^{n-1}",
+        "sym": "3*2**(n-1)",
+        "new": true
+       },
+       {
+        "tex": "3 \\times 2^{n-1} &> 5000"
+       }
+      ]
+     },
+     {
+      "title": "Isolate the power",
+      "say": "Divide both sides by $3$, so the power stands on its own.",
+      "lines": [
+       {
+        "tex": "2^{n-1} &> \\frac{5000}{3}"
+       }
+      ]
+     },
+     {
+      "title": "Take logs",
+      "say": "Take $\\ln$ of both sides. The power $\\hl{1}{n-1}$ comes down in front. $\\ln 2$ is positive, so the inequality keeps its direction when you divide by it.",
+      "lines": [
+       {
+        "tex": "(\\hl{1}{n-1}) \\ln 2 &> \\ln \\frac{5000}{3}"
+       },
+       {
+        "tex": "\\hl{1}{n-1} &> \\frac{\\ln \\frac{5000}{3}}{\\ln 2}",
+        "sym": "log(Rational(5000,3))/log(2)",
+        "new": true
+       },
+       {
+        "tex": "&> 10{\\cdot}70",
+        "sym": "10.70",
+        "approx": true
+       },
+       {
+        "tex": "n &> 11{\\cdot}70",
+        "sym": "11.70",
+        "approx": true,
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Round up to a whole number",
+      "say": "$n$ counts terms, so it is a whole number. It must be bigger than $11{\\cdot}70$, so the least value is $12$.",
+      "lines": [
+       {
+        "text": "Check: $T_{11} = 3072$ is too small. $T_{12} = 6144 > 5000$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "n = 12"
+   },
+   "finalSym": "12",
+   "answerSym": "ceiling(log(Rational(5000,3),2)+1)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "If you solve by trial and improvement, you must evaluate the term just before and just after the crossing point to get full marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+       "quote": "If solving by trial and improvement"
+      },
+      {
+       "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+       "quote": "must both be evaluated for Full"
+      }
+     ]
+    },
+    {
+     "tip": "Take logs of both sides and bring the index down. A log equation without indices earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q7#(a)(iv)",
+       "quote": "log equation without indices"
+      }
+     ]
+    },
+    {
+     "tip": "When you divide by a log of a ratio smaller than $1$ the number is negative, so the inequality turns around. Say why you flip it.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q4#(a)",
+       "quote": "is negative)"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Keep doubling, step by step, until you pass the target. Repeated doubling earns marks even without a formula.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q9#(a)(iv)",
+       "quote": "Doubling the cases more than"
+      }
+     ]
+    },
+    {
+     "tip": "Write each day with its value in a list, and stop at the first day over the target.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p1-q9#(a)(iv)",
+       "quote": "Day 46 >100,000"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "seq-recurring-decimal",
+  "what": {
+   "say": [
+    "You give it a recurring decimal such as $0.272727\\dots$ It gives back the same number as a **fraction**.",
+    "The key idea: a recurring decimal is a geometric series. The repeating block is the first term $a$, and shifting along one block multiplies by $r = \\frac{1}{10^k}$, so $S_\\infty$ gives the fraction."
+   ],
+   "in": "recurring decimal",
+   "out": "fraction $\\frac{p}{q}$"
+  },
+  "how": {},
+  "example": {
+   "question": "Write $0.272727\\dots$ as a fraction in its simplest form, using the sum to infinity.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split into a series",
+      "say": "Write the decimal as a sum of the repeating blocks.",
+      "lines": [
+       {
+        "tex": "0.272727\\dots &= 0.27 + 0.0027 + 0.000027 + \\dots",
+        "sym": "Rational(27,100)+Rational(27,10000)",
+        "approx": false,
+        "new": true
+       },
+       {
+        "text": "Each block is $\\frac{1}{100}$ of the one before. It is a geometric series."
+       }
+      ]
+     },
+     {
+      "title": "Find a and r",
+      "say": "The first block is $\\hl{1}{a}$. Each term is $\\frac{1}{100}$ times the last, so $\\hl{2}{r} = 0.01$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{a} &= \\frac{27}{100}",
+        "sym": "Rational(27,100)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{r} &= \\frac{1}{100}",
+        "sym": "Rational(1,100)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the formula",
+      "say": "$|r| < 1$, so the series has a sum to infinity. Put $\\hl{1}{a}$ and $\\hl{2}{r}$ into $S_\\infty = \\dfrac{a}{1-r}$.",
+      "lines": [
+       {
+        "tex": "\\hl{3}{S_\\infty} &= \\frac{\\frac{27}{100}}{1 - \\frac{1}{100}}",
+        "sym": "Rational(27,100)/(1-Rational(1,100))",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{\\frac{27}{100}}{\\frac{99}{100}}",
+        "sym": "Rational(27,100)/Rational(99,100)"
+       },
+       {
+        "tex": "&= \\frac{27}{99}",
+        "sym": "Rational(27,99)"
+       }
+      ]
+     },
+     {
+      "title": "Simplify",
+      "say": "Divide top and bottom by $9$.",
+      "lines": [
+       {
+        "tex": "&= \\frac{3}{11}",
+        "sym": "Rational(3,11)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{3}{11}"
+   },
+   "finalSym": "Rational(3,11)",
+   "answerSym": "summation(27*Rational(1,100)**n,(n,1,oo))"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]

@@ -180,8 +180,8 @@
     ],
     "finalAnswer": "\\hl{1}{0.0391}"
    },
-   "finalSym": "N(binomial(7,2)*Rational(1,6)**3*Rational(5,6)**5,4)",
-   "answerSym": "N(binomial(7,2)*(1/6.)**3*(5/6.)**5,4)"
+   "finalSym": "binomial(7,2)*Rational(1,6)**3*Rational(5,6)**5",
+   "answerSym": "21*5**5/6**8"
   },
   "graph": null,
   "diagram": null,

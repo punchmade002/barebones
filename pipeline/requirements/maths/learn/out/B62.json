@@ -1,0 +1,491 @@
+[
+ {
+  "skill": "log-solve-exponential",
+  "what": {
+   "say": [
+    "You give it an equation with the unknown in the **power**, like $a^{x} = b$. It finds $x$.",
+    "The key idea: taking a log of both sides lets the log law $\\ln a^{x} = x \\ln a$ bring the exponent down to ground level, where you can solve for it."
+   ],
+   "in": "$a^{x} = b$",
+   "out": "$x$"
+  },
+  "how": {
+   "higher": "It is a part of its own on Paper 1 in most years from 2016, worth 5 to 10 marks, and a step inside longer modelling questions on decay, cooling and growth, where you solve for the time."
+  },
+  "example": {
+   "question": "A town's population is modelled by $P(t) = 200(1.05)^{t}$, where $t$ is the time in years. Find, correct to one decimal place, when the population reaches $500$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Isolate the power",
+      "say": "Put $P = 500$. Then get the power $1.05^{\\hl{1}{t}}$ on its own by dividing both sides by $200$.",
+      "lines": [
+       {
+        "tex": "200(1.05)^{\\hl{1}{t}} &= 500",
+        "sym": "Eq(200*1.05**t, 500)",
+        "new": true
+       },
+       {
+        "tex": "(1.05)^{\\hl{1}{t}} &= 2.5",
+        "sym": "Eq(1.05**t, 2.5)"
+       }
+      ]
+     },
+     {
+      "title": "Take logs",
+      "say": "Take $\\ln$ of both sides. The log law brings the exponent $\\hl{1}{t}$ down in front.",
+      "lines": [
+       {
+        "tex": "\\ln (1.05)^{\\hl{1}{t}} &= \\ln 2.5",
+        "sym": "Eq(log(1.05**t), log(2.5))",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{t} \\ln 1.05 &= \\ln 2.5",
+        "sym": "Eq(t*log(1.05), log(2.5))",
+        "new": true
+       },
+       {
+        "text": "Any base works. Use the same log on both sides."
+       }
+      ]
+     },
+     {
+      "title": "Solve for t",
+      "say": "Divide both sides by $\\ln 1.05$. Then use the calculator and round.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{t} &= \\frac{\\ln 2.5}{\\ln 1.05}",
+        "sym": "Eq(t, log(2.5)/log(1.05))",
+        "new": true
+       },
+       {
+        "tex": "&\\approx 18.8",
+        "sym": "Eq(t, 18.8)",
+        "new": true,
+        "approx": true
+       },
+       {
+        "text": "The population reaches $500$ after $18.8$ years."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "t \\approx 18.8"
+   },
+   "finalSym": "log(5/2)/log(1.05)",
+   "answerSym": "solve(Eq(200*1.05**t, 500), t)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Get the power on its own before you take logs. The marks are tied to that first step.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q9#(b)",
+       "quote": "Isolates"
+      }
+     ]
+    },
+    {
+     "tip": "You can take logs to any base, so use $\\ln$ or $\\log_{10}$, whichever you like.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q9#(b)",
+       "quote": "Converts to log equation"
+      },
+      {
+       "part": "maths-pp-2022-higher-p1-q9#(b)",
+       "quote": "necessarily to base"
+      }
+     ]
+    },
+    {
+     "tip": "Handle the logs correctly. An equation in $t$ with no indices, logs done properly, earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q9#(b)",
+       "quote": "(logs handled correctly)"
+      }
+     ]
+    },
+    {
+     "tip": "Round as the question asks. A wrong or missing rounding costs one mark off full credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(b)(ii)",
+       "quote": "Apply a * for answer not rounded"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "ind-hidden-quadratic",
+  "what": {
+   "say": [
+    "You give it an equation with $a^{2x}$, $a^{x}$ and a number, like $a^{2x} + b\\,a^{x} + c = 0$. It finds $x$.",
+    "The key idea: $a^{2x} = (a^{x})^{2}$, so call $a^{x}$ by one letter and the equation is an ordinary **quadratic**. Solve it, then turn each answer back into $x$."
+   ],
+   "in": "$a^{2x} + b\\,a^{x} + c = 0$",
+   "out": "$x$"
+  },
+  "how": {
+   "higher": "It is a 10-mark part on Paper 1 (2016, 2021 and 2022), usually straight after a part that sets up or solves a similar quadratic, so you reuse that method with $a^{x}$ in place of $x$."
+  },
+  "example": {
+   "question": "Solve $3^{2x} + 6 \\cdot 3^{x} - 27 = 0$ for $x \\in \\mathbb{R}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "See the quadratic",
+      "say": "Write $3^{2x}$ as $(3^{x})^{2}$. Now the equation is a quadratic in $\\hl{1}{3^{x}}$.",
+      "lines": [
+       {
+        "tex": "3^{2x} + 6 \\cdot 3^{x} - 27 &= 0",
+        "sym": "Eq(3**(2*x) + 6*3**x - 27, 0)"
+       },
+       {
+        "tex": "(\\hl{1}{3^{x}})^{2} + 6(\\hl{1}{3^{x}}) - 27 &= 0",
+        "sym": "Eq((3**x)**2 + 6*3**x - 27, 0)"
+       }
+      ]
+     },
+     {
+      "title": "Use a new letter",
+      "say": "Let $\\hl{1}{y} = \\hl{1}{3^{x}}$. It is easier to factorise with a plain letter.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y}^{2} + 6\\hl{1}{y} - 27 &= 0",
+        "sym": "Eq(y**2 + 6*y - 27, 0)",
+        "new": true
+       },
+       {
+        "tex": "(\\hl{1}{y} + 9)(\\hl{1}{y} - 3) &= 0",
+        "sym": "Eq((y + 9)*(y - 3), 0)"
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "say": "Each bracket gives a value of $\\hl{1}{y}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{y} &= -9",
+        "sym": "Eq(y, -9)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{y} &= 3",
+        "sym": "Eq(y, 3)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Go back to x",
+      "say": "Replace $\\hl{1}{y}$ with $3^{x}$. A power of $3$ is never negative, so $3^{x} = -9$ has no solution. Cross it out.",
+      "lines": [
+       {
+        "text": "$3^{x} = -9$ is impossible."
+       },
+       {
+        "tex": "3^{x} &= 3",
+        "sym": "Eq(3**x, 3)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{2}{x} &= 1",
+        "sym": "Eq(x, 1)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = 1"
+   },
+   "finalSym": "[1]",
+   "answerSym": "solve(Eq(3**(2*x) + 6*3**x - 27, 0), x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Turn the equation into a quadratic first. Some work in writing it that way earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q3#(b)(ii)",
+       "quote": "Some work in writing given equation"
+      }
+     ]
+    },
+    {
+     "tip": "Rule out the negative value of $a^{x}$ and say why. Leaving it in loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q3#(b)(ii)",
+       "quote": "explicitly excluded"
+      }
+     ]
+    },
+    {
+     "tip": "Treat it as a quadratic. Simplifying it some other way earns low partial credit at most.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q3#(b)",
+       "quote": "oversimplification of equation"
+      }
+     ]
+    },
+    {
+     "tip": "When both roots are valid, turn both back into $x$. Finding only one loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q4#(b)(ii)",
+       "quote": "only 1 value of"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "induction-geo-sum",
+  "what": {
+   "say": [
+    "You give it the sum formula for a geometric series, $a + ar + \\cdots + ar^{n-1} = \\frac{a(1 - r^{n})}{1 - r}$. It **proves** it is true for every $n \\ge 1$.",
+    "Induction is a line of dominoes. Show the first one falls. Then show that any one falling knocks the next. For a sum, the next sum is the last sum plus one new term."
+   ],
+   "in": "$a + ar + \\cdots + ar^{n-1}$",
+   "out": "proof for all $n \\ge 1$"
+  },
+  "how": {},
+  "example": {
+   "question": "Prove by induction that $5 + 15 + 45 + \\cdots + 5(3^{n-1}) = \\frac{5(3^{n} - 1)}{2}$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check n = 1",
+      "say": "Test the formula for $n = 1$. The sum has one term.",
+      "lines": [
+       {
+        "tex": "\\text{LHS} &= 5",
+        "sym": "5",
+        "new": true
+       },
+       {
+        "tex": "\\text{RHS} &= \\frac{5(3^{1} - 1)}{2} = 5",
+        "sym": "5*(3**1 - 1)/2",
+        "new": true
+       },
+       {
+        "text": "They match, so it is true for $n = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Assume true for k",
+      "say": "Assume the formula is true for $n = k$. You will use it in the next step.",
+      "lines": [
+       {
+        "tex": "5 + 15 + \\cdots + 5(3^{k-1}) &= \\hl{1}{\\frac{5(3^{k} - 1)}{2}}"
+       }
+      ]
+     },
+     {
+      "title": "Prove for k + 1",
+      "say": "Take $n = k + 1$. The sum is the sum to $k$ terms plus the next term, $5(3^{k})$. Replace the sum to $k$ terms with $\\hl{1}{\\frac{5(3^{k} - 1)}{2}}$.",
+      "lines": [
+       {
+        "text": "To prove: the sum to $k + 1$ terms is $\\frac{5(3^{k+1} - 1)}{2}$."
+       },
+       {
+        "tex": "S_{k+1} &= \\hl{1}{\\frac{5(3^{k} - 1)}{2}} + 5(3^{k})",
+        "sym": "5*(3**k - 1)/2 + 5*3**k",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{5(3^{k} - 1) + 10(3^{k})}{2}",
+        "sym": "(5*(3**k - 1) + 10*3**k)/2"
+       },
+       {
+        "tex": "&= \\frac{15(3^{k}) - 5}{2}",
+        "sym": "(15*3**k - 5)/2"
+       },
+       {
+        "tex": "&= \\frac{5(3^{k+1} - 1)}{2}",
+        "sym": "5*(3**(k + 1) - 1)/2"
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "State all three parts of the conclusion.",
+      "lines": [
+       {
+        "text": "True for $n = 1$. If true for $n = k$, then true for $n = k + 1$. So true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{True for all } n \\in \\mathbb{N}"
+   },
+   "finalSym": "0",
+   "answerSym": "simplify(summation(5*3**(i - 1), (i, 1, n)) - 5*(3**n - 1)/2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "induction-divisibility",
+  "what": {
+   "say": [
+    "You give it a claim that a number $d$ divides an expression in $n$, like \"$3$ divides $4^{n} + 2$\". It **proves** it for every $n \\ge 1$.",
+    "The key idea: assume it for $n = k$ by writing the expression as a multiple of $d$. Then rebuild the $n = k + 1$ expression out of that multiple and take out a factor of $d$."
+   ],
+   "in": "\"$d$ divides $f(n)$\"",
+   "out": "proof for all $n \\ge 1$"
+  },
+  "how": {
+   "higher": "It is a 15-mark part on Paper 1 (2016 and 2021, both Question 4(a)), where the statement is given and you prove it by induction."
+  },
+  "example": {
+   "question": "Prove by induction that $4^{n} + 2$ is divisible by $3$ for all $n \\in \\mathbb{N}$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Check n = 1",
+      "say": "Test $n = 1$. Show the answer is a multiple of $3$.",
+      "lines": [
+       {
+        "tex": "4^{1} + 2 &= 6",
+        "sym": "4**1 + 2",
+        "new": true
+       },
+       {
+        "tex": "&= 3(2)",
+        "sym": "3*2"
+       },
+       {
+        "text": "It is divisible by $3$, so it is true for $n = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Assume true for k",
+      "say": "Assume it is true for $n = k$. Write the expression as $3$ times a whole number $M$, then rearrange for $4^{k}$.",
+      "lines": [
+       {
+        "text": "Assume $4^{k} + 2$ is divisible by $3$."
+       },
+       {
+        "tex": "4^{k} + 2 &= 3M",
+        "sym": "Eq(4**k + 2, 3*M)",
+        "new": true
+       },
+       {
+        "tex": "4^{k} &= \\hl{1}{3M - 2}",
+        "sym": "Eq(4**k, 3*M - 2)"
+       }
+      ]
+     },
+     {
+      "title": "Prove for k + 1",
+      "say": "Take $n = k + 1$. Split off one factor of $4$, so $4^{k}$ appears. Replace $4^{k}$ with $\\hl{1}{3M - 2}$.",
+      "lines": [
+       {
+        "tex": "4^{k+1} + 2 &= 4(4^{k}) + 2",
+        "sym": "4**(k + 1) + 2",
+        "new": true
+       },
+       {
+        "tex": "&= 4(\\hl{1}{3M - 2}) + 2",
+        "sym": "4*(3*M - 2) + 2",
+        "new": true
+       },
+       {
+        "tex": "&= 12M - 8 + 2",
+        "sym": "12*M - 8 + 2"
+       },
+       {
+        "tex": "&= 12M - 6",
+        "sym": "12*M - 6"
+       },
+       {
+        "tex": "&= 3(4M - 2)",
+        "sym": "3*(4*M - 2)"
+       },
+       {
+        "text": "This is $3$ times a whole number, so $4^{k+1} + 2$ is divisible by $3$."
+       }
+      ]
+     },
+     {
+      "title": "Write the conclusion",
+      "say": "State all three parts of the conclusion.",
+      "lines": [
+       {
+        "text": "True for $n = 1$. If true for $n = k$, then true for $n = k + 1$. So true for all $n \\in \\mathbb{N}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{True for all } n \\in \\mathbb{N}"
+   },
+   "finalSym": "0",
+   "answerSym": "Mod(4**7 + 2, 3)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Each of the three steps earns marks: $P(1)$, the assumption $P(k)$ and $P(k+1)$. They can be in any order.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q4#(a)",
+       "quote": "in any order"
+      }
+     ]
+    },
+    {
+     "tip": "The higher marks come from using $P(k)$ to prove $P(k+1)$. Writing out the steps is not enough.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q4#(a)",
+       "quote": "Some valid work in using Step"
+      }
+     ]
+    },
+    {
+     "tip": "Write the conclusion. Leaving it out costs a mark even if the rest is correct.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p1-q4#(a)",
+       "quote": "Omits conclusion but otherwise"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
