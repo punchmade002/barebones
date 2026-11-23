@@ -114,7 +114,32 @@ def merge(subject):
     target = ROOT / "content" / "crunch" / f"{subject}-points.json"
     target.write_text(json.dumps(merged, indent=0, ensure_ascii=False) + "\n")
     (ROOT / "drafts" / "crunch" / subject / "point-cycles.json").write_text(json.dumps(cyc, indent=0))
+    text = {i: t for _, rows in all_items.values() for i, t, _ in rows}
+    (ROOT / "drafts" / "crunch" / subject / "point-review.md").write_text(review(subject, merged, cyc, text))
     return 1 if bad else 0
+
+
+def review(subject, merged, cyc, text):
+    """Spot-check list: every cycle, a random sample of links by confidence, and of cost ratings."""
+    import random
+    rng = random.Random(0)
+    short = lambda i: f"`{i}` {text[i][:140]}{'…' if len(text[i]) > 140 else ''}"
+    link = lambda a, l: f"- [ ] {short(a)}\n  **needs** ({l['strength']}, {l['why']}) {short(l['id'])}"
+    rows = [(a, l) for a, r in merged.items() for l in r["needs"]]
+    out = [f"# {subject} point-level review", "",
+           "Tick what's right; note anything wrong. Cycles must lose at least one link each.", ""]
+    out += [f"## Cycles ({len(cyc)})", ""]
+    for c in cyc:
+        out += [link(a, l) for a, b in zip(c, c[1:]) for l in merged[a]["needs"] if l["id"] == b] + [""]
+    for conf, n in (("low", 40), ("high", 40)):
+        pool = [r for r in rows if r[1]["confidence"] == conf]
+        out += [f"## Random {conf}-confidence links ({min(n, len(pool))} of {len(pool)})", ""]
+        out += [link(*r) for r in sorted(rng.sample(pool, min(n, len(pool))), key=lambda r: r[0])] + [""]
+    for cost in (2, 1):
+        pool = [i for i, r in merged.items() if r["cost"] == cost]
+        out += [f"## Random cost-{cost} items (20 of {len(pool)})", ""]
+        out += [f"- [ ] {short(i)}" for i in sorted(rng.sample(pool, min(20, len(pool))))] + [""]
+    return "\n".join(out)
 
 
 if __name__ == "__main__":
