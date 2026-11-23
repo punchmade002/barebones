@@ -1,0 +1,585 @@
+{
+ "bio8-s8.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.0",
+    "strength": "helpful",
+    "why": "qualitative vs quantitative",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "helpful",
+    "why": "reducing sugar defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.1",
+    "strength": "helpful",
+    "why": "hypothesis format",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.5",
+    "strength": "essential",
+    "why": "copper(II) reduced to copper(I) oxide",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.4",
+    "strength": "helpful",
+    "why": "colour scale and precipitate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s8.0.2",
+    "strength": "essential",
+    "why": "colour change principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.3",
+    "strength": "helpful",
+    "why": "fair test controls",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.2",
+    "strength": "essential",
+    "why": "independent and dependent variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s7.0.3",
+    "strength": "helpful",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.4",
+    "strength": "essential",
+    "why": "negative control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.5",
+    "strength": "essential",
+    "why": "positive control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "helpful",
+    "why": "sucrose non-reducing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.2.0",
+    "strength": "essential",
+    "why": "stock solution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s8.2.1",
+    "strength": "essential",
+    "why": "dilution range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.2.1",
+    "strength": "helpful",
+    "why": "range of standards",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.2.0",
+    "strength": "helpful",
+    "why": "preparing food solution",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.2.0",
+    "strength": "helpful",
+    "why": "crushing releases nutrients",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.2.1",
+    "strength": "helpful",
+    "why": "filtering food solution",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.2.2",
+    "strength": "helpful",
+    "why": "dilution calculation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.2.1",
+    "strength": "helpful",
+    "why": "standards range",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.2.1",
+    "strength": "essential",
+    "why": "standards to be tested",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.1",
+    "strength": "helpful",
+    "why": "Benedict's method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.2",
+    "strength": "helpful",
+    "why": "water bath heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.2.1",
+    "strength": "essential",
+    "why": "standards form scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.9.5",
+    "strength": "helpful",
+    "why": "repeats check repeatability",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.0.2",
+    "strength": "helpful",
+    "why": "colour scale principle",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.4.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.4.4",
+    "strength": "helpful",
+    "why": "matching tubes to scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.0.2",
+    "strength": "helpful",
+    "why": "colorimeter gives objective reading",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s8.4.2",
+    "strength": "essential",
+    "why": "heated tubes with precipitate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.5.1",
+    "strength": "helpful",
+    "why": "prepared tubes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s7.4.5",
+    "strength": "essential",
+    "why": "copper(II) ions used up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s8.5.3",
+    "strength": "essential",
+    "why": "absorbance falls with sugar",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s4.5.0",
+    "strength": "helpful",
+    "why": "axes and variables",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s8.5.4",
+    "strength": "essential",
+    "why": "calibration curve",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s8.3.3",
+    "strength": "helpful",
+    "why": "dilution factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.6.0",
+    "strength": "helpful",
+    "why": "strip pad colour",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "essential",
+    "why": "reducing sugars list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.3.3",
+    "strength": "helpful",
+    "why": "diluting samples",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.0.6",
+    "strength": "essential",
+    "why": "primary data defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.1.0",
+    "strength": "helpful",
+    "why": "results table layout",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.0.2",
+    "strength": "helpful",
+    "why": "colour indicates sugar level",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "helpful",
+    "why": "sucrose non-reducing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s4.10.1",
+    "strength": "helpful",
+    "why": "justifying conclusions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.0.2",
+    "strength": "helpful",
+    "why": "objective vs subjective data",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s8.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.5.0",
+    "strength": "helpful",
+    "why": "colorimeter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.0.4",
+    "strength": "essential",
+    "why": "Benedict's in excess",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s8.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.9.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s8.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s8.2.1",
+    "strength": "helpful",
+    "why": "range of standards",
+    "confidence": "low"
+   }
+  ]
+ }
+}
