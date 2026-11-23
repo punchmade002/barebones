@@ -4,51 +4,110 @@
   "subsection": "2. The value of the business economy in Ireland",
   "syllabusRef": "1.3.2",
   "notes": [
-    { "h": "What the business economy covers", "b": "The business economy is the part of the economy in which firms produce goods and services for sale, and the CSO uses it to measure business activity.", "points": [
-      "It generally covers market-based activity such as industry, construction, distribution, transport, accommodation and food, information and communication, and professional services.",
-      "It generally leaves out the public administration, health and education sectors, which are funded mainly through the State rather than by sales.",
-      "The exact sector list is set by the CSO, so the latest CSO release should be checked when describing the business economy in an exam."
-    ] },
-    { "h": "Headline measures", "b": "Four measures describe the size and output of the business economy.", "points": [
-      "The number of enterprises counts the businesses operating in the economy, and it is dominated by very small firms.",
-      "Turnover is the total sales revenue earned by enterprises from trading in a period, and it shows the scale of commercial activity.",
-      "Gross value added, GVA, is the value an enterprise adds to the materials and services it buys from others, and it shows the contribution to national output.",
-      "Persons employed counts the people working in enterprises, and it shows how many jobs the business economy supports."
-    ] },
-    { "h": "Size pattern: SMEs and large firms", "b": "A small share of large firms accounts for a disproportionate share of turnover and value added, while small firms employ a large share of the workforce.", "points": [
-      "The EU classifies small and medium enterprises, SMEs, by staff numbers, with micro, small and medium categories, and they make up the vast majority of enterprises.",
-      "Large firms are few in number but generate a large share of turnover and GVA, because they operate at a much bigger scale.",
-      "SMEs employ a large share of the workforce, especially in retail, hospitality and construction, so they are central to local employment.",
-      "Productivity, measured as GVA per person employed, is generally lower in SMEs than in large firms, which points to a productivity gap that policy tries to close."
-    ] },
-    { "h": "Ownership pattern: Irish-owned and foreign-owned firms", "b": "Foreign-owned multinationals and Irish-owned firms contribute to the economy in different ways.", "points": [
-      "Foreign-owned firms account for a large share of turnover, exports and GVA, because many are large multinationals operating in high-value sectors.",
-      "Irish-owned firms, which are mostly SMEs, account for a large share of employment, and they tend to serve the domestic market.",
-      "The gap between the two groups means the share of value added can be far higher than the share of jobs for foreign-owned firms.",
-      "Foreign-owned firms have stronger links to global supply chains, while Irish-owned firms have more links to local suppliers and customers."
-    ] },
-    { "h": "Sector pattern", "b": "Sectors differ widely in how much value each worker produces and in how many people they employ.", "points": [
-      "High-value manufacturing, such as pharmaceuticals, and information and communication technology produce a lot of GVA per worker.",
-      "Retail, hospitality and construction employ large numbers of people, but generally produce less GVA per worker than high-value manufacturing.",
-      "Food processing is an important Irish sector, with companies such as Kerry Group and Glanbia having a large presence in global markets.",
-      "Professional services, such as legal and accounting firms, are heavily concentrated in urban areas and serve both domestic and international clients."
-    ] },
-    { "h": "Regional pattern", "b": "Business activity is unevenly spread across Ireland, with Dublin and the east holding the largest share.", "points": [
-      "Dublin and the eastern region hold a larger share of turnover and employment than any other region.",
-      "Regions outside Dublin rely more heavily on SMEs, agriculture-related food businesses and tourism, which makes local economies more exposed to changes in those sectors.",
-      "Rural areas depend on small firms for much of their employment, so the loss of a single local business can have a large local effect."
-    ] },
-    { "h": "Recent trends", "b": "Recent years have brought several trends that shape the business economy and its future.", "points": [
-      "The shift towards digital services and online trade is changing how many firms sell, and it creates demand for digital skills.",
-      "Labour shortages in sectors such as hospitality and construction have increased wages and pushed some firms to automate or change their services.",
-      "The green transition creates demand for investment in energy efficiency and low-carbon technologies, which affects firms of every size."
-    ] },
-    { "h": "What the patterns mean for Irish business", "b": "The patterns show both the strengths and the vulnerabilities of the Irish business economy.", "points": [
-      "Dependence on a few large foreign firms exposes the economy to decisions made abroad about investment, location and tax, and a small number of firms pay a large share of corporation tax.",
-      "SMEs provide resilient local employment and a base for entrepreneurship, but their lower productivity limits their contribution to national output growth.",
-      "Closing the productivity gap through digital transformation, skills and access to finance is a key challenge for SMEs if they are to grow.",
-      "Ethics and sustainability also shape the outlook, because customers, investors and regulators increasingly expect firms of every size to manage their environmental and social impact."
-    ] }
+    {
+      "h": "What the business economy covers",
+      "b": "The business economy is the market-based part of the economy, where firms produce goods and services for sale. The CSO (Central Statistics Office, Ireland's national statistics office) measures it, so its definition decides which sectors count.",
+      "points": [
+        "An enterprise is a business organisation producing goods or services for sale, and in statistics each one is counted as a single unit. This is the unit the CSO counts when it measures the business economy.",
+        "The CSO's Business in Ireland 2023 statistics cover mining, manufacturing, electricity and gas, water and waste, construction, wholesale and retail, transport and storage, accommodation and food, information and communication, financial and insurance, real estate, and professional, scientific and technical activities.",
+        "They also cover administrative and support services, education, human health and social work, arts, entertainment and recreation, and other services. Public administration is left out, because it is run by the State rather than selling to customers, and so are membership organisations (S94).",
+        "The sector list is set by the CSO and can change between releases, so name the CSO as the source when you describe the business economy in an exam."
+      ],
+      "tip": "The business economy is not the whole economy (GDP). If asked to outline it, describe the market-based firms the CSO counts, not the economy as a whole."
+    },
+    {
+      "h": "Headline measures",
+      "b": "Four measures describe the size of the business economy. They answer different questions, so a good answer keeps them apart, especially turnover and GVA.",
+      "points": [
+        "The number of enterprises counts the businesses operating in the economy. It is dominated by very small firms, so a large count does not mean large output.",
+        "Turnover is the total sales revenue earned by enterprises from trading in a period. It shows the scale of commercial activity, but it includes the cost of everything the firm bought in.",
+        "Gross value added (GVA) is the value a business adds to the inputs it buys from others, found as output minus the cost of materials and services bought in. Because it strips out those bought-in costs, it shows the contribution to national output.",
+        "Persons employed counts the people working in enterprises. It shows how many jobs the business economy supports, which is a different question from how much it sells.",
+        "Productivity is GVA per person employed. Dividing by the workforce lets you compare sectors: in 2022 the CSO found industry at €619,693, services €144,089, distribution €76,217 and construction €62,067, against €185,023 overall.",
+        "In 2023 there were 401,359 active enterprises (up 3.0% on 2022) and 2,345,457 persons employed (up 2.3%). In 2022 turnover was €1,288,729 million and GVA €424,182 million. Treat these as dated examples of scale, not numbers to learn."
+      ],
+      "tip": "A common mistake is confusing turnover (sales revenue) with GVA (output minus inputs bought in), or number of enterprises with persons employed. Always give the year with any figure."
+    },
+    {
+      "h": "Size pattern: SMEs and large firms",
+      "b": "A tiny share of large firms accounts for most turnover and value added, while the great majority of firms are small and employ about two thirds of workers. The contrast is the point of the pattern.",
+      "points": [
+        "The EU classifies small and medium enterprises (SMEs) into three categories, mainly by staff numbers: micro is under 10 staff, small is under 50 and medium is under 250, with limits on turnover and balance sheet total as well. A large firm has 250 or more staff.",
+        "SMEs were 99.8% of active enterprises in 2023, and about two thirds of persons employed (66.9% in 2023). Micro firms alone were 92.6% of enterprises, so a typical Irish business is very small.",
+        "Large firms are 0.2% of enterprises (935 in 2023) but employed 33.1% of persons in 2023. In 2022 they produced 56.9% of turnover and 59.4% of GVA, because they operate at a much bigger scale.",
+        "SMEs are central to local employment, especially in retail, hospitality and construction. In 2023 large enterprises grew fastest, while small enterprises were the only size class to contract.",
+        "Productivity (GVA per person employed) is generally lower in SMEs than in large firms. This points to a productivity gap that policy tries to close."
+      ],
+      "tip": "Describe the contrast: few firms with big output versus many firms with many jobs. Do not mix years in one comparison, and note that everyday talk of a small business is not the same as the SME definition, which uses staff numbers."
+    },
+    {
+      "h": "Ownership pattern: Irish-owned and foreign-owned firms",
+      "b": "Who owns a firm changes what it contributes. Foreign-owned multinationals are few but produce most of the output, while Irish-owned firms provide most of the rest of the jobs.",
+      "points": [
+        "A multinational company owns or controls operations in more than one country. A foreign-owned firm is one whose ultimate owners are outside Ireland, often a multinational with a subsidiary here. An Irish-owned firm can also be a multinational if it has operations abroad.",
+        "In 2022 foreign-owned multinationals were 3.2% of enterprises but produced 71.4% of turnover (€920.6 billion) and 71.0% of GVA (€301 billion), because many are large multinationals in high-value sectors.",
+        "They employed 623,128 people, 27% of employment. So their share of value added is far higher than their share of jobs.",
+        "Irish-owned firms, mostly SMEs, provide most of the rest of employment and tend to serve the domestic market.",
+        "Foreign-owned firms have stronger links to global supply chains, which ties them to decisions made abroad. Irish-owned firms have more links to local suppliers and customers, so their spending circulates locally."
+      ],
+      "tip": "Do not claim Irish-owned firms account for most turnover, and do not quote any turnover or GVA figure for them. Say only that they provide most of the remaining employment, and keep foreign-owned firm and multinational as separate ideas."
+    },
+    {
+      "h": "Sector pattern",
+      "b": "Sectors differ widely in how much value each worker produces and in how many people they employ. A sector can be a big employer without being a big producer of value.",
+      "points": [
+        "High-value manufacturing, such as pharmaceuticals, and information and communication technology produce a lot of GVA per worker. In 2022 industry's GVA per person employed was €619,693, many times that of distribution at €76,217.",
+        "Retail, hospitality and construction employ large numbers of people but produce less GVA per worker. In 2023 wholesale and retail had 17.9% of persons employed and construction 8.8%, and construction had 20.2% of enterprises.",
+        "Industry had 12.8% of persons employed in 2023 and 5.5% of enterprises.",
+        "Pharmaceuticals matter for the State's finances too: Revenue attributes the rise in manufacturing corporation tax, from about €3 billion in 2019 to over €10 billion in 2025, largely to pharmaceutical companies.",
+        "Food and nutrition is an important Irish sector. Kerry Group, headquartered in Tralee, County Kerry, and Glanbia, headquartered in Kilkenny, are Irish food and nutrition groups with international operations.",
+        "Professional services, such as legal and accounting firms, are heavily concentrated in urban areas and serve both domestic and international clients."
+      ],
+      "tip": "Pair each sector with its measure: many jobs but lower GVA per worker for retail, hospitality and construction, and high GVA per worker for industry and ICT. Give no figures for Kerry Group or Glanbia."
+    },
+    {
+      "h": "Regional pattern",
+      "b": "Business activity is unevenly spread across Ireland. Where a firm is located affects how exposed local jobs are to change.",
+      "points": [
+        "Dublin had 136,809 enterprises and Cork 42,176 in 2023, together 44.6% of all enterprises. Leitrim (2,667) and Longford (2,755) had the fewest, though all counties grew.",
+        "Regions outside Dublin rely more heavily on SMEs, agri-food businesses and tourism. This makes local economies more exposed to changes in those sectors, because there are fewer other employers to absorb the shock.",
+        "Rural areas depend on small firms for much of their employment, so the loss of a single local business can have a large local effect."
+      ],
+      "tip": "Say Dublin and Cork hold the most enterprises. Do not say Dublin and the east hold the largest share of turnover or employment, because only enterprise counts by county are available."
+    },
+    {
+      "h": "Recent trends",
+      "b": "Recent years have brought trends that shape how the business economy changes, from growth in the numbers of firms to digital, labour-market and green pressures.",
+      "points": [
+        "Enterprise numbers and employment grew in 2023 (3.0% and 2.3%), led by large firms, while small enterprises contracted.",
+        "New firms start in large numbers but many do not last. There were 47,542 enterprise births in 2023, 98.7% of them micro enterprises, and 79.8% of 2022 births were still active in 2023. Only 47.6% of 2018 births were still active in 2023, so fewer than half survive five years.",
+        "The shift towards digital services and online trade is changing how many firms sell, and it creates demand for digital skills.",
+        "A tight labour market, where employers struggle to find workers, can raise wages and push some firms to automate or change their services.",
+        "The green transition creates demand for investment in energy efficiency and low-carbon technologies, which affects firms of every size."
+      ]
+    },
+    {
+      "h": "What the patterns mean for Irish business",
+      "b": "The patterns show both strengths and vulnerabilities. The same facts that bring jobs, investment and exports also create risk when a few firms matter so much.",
+      "points": [
+        "Dependence on a few large foreign firms exposes the economy to decisions made abroad about investment, location and tax. In 2025 the ten biggest companies paid 56% of net corporation tax, and foreign-owned multinationals paid €28.8 billion (87%).",
+        "The same Revenue figures show that foreign-owned multinationals were 11% of paying companies, while over 82% of payers were non-multinationals paying 7%. So State finances are concentrated in a handful of firms.",
+        "SMEs provide resilient local employment and a base for entrepreneurship, but their lower productivity limits their contribution to national output growth.",
+        "Closing the productivity gap through digital transformation, skills and access to finance is a key challenge for SMEs if they are to grow. Digital capability is the digital angle here.",
+        "Ethics and sustainability also shape the outlook. Customers, investors and regulators increasingly expect firms of every size to manage their environmental and social impact, and the fairness of the tax contribution and the quality of jobs are the ethical angle."
+      ],
+      "tip": "When asked what a pattern means, give both sides: risk from decisions abroad and concentrated tax receipts, but also jobs, exports and investment. Link the answer to SMEs and local employment, and use a dated figure with its consequence for workers, SMEs or the State."
+    },
+    {
+      "h": "Applying my learning: current Irish news",
+      "b": "News stories can be read through the business-economy patterns. Name the measure, read the trend and link it to the effect on firms.",
+      "points": [
+        "Inflation reached 4.3% in the 12 months to October 2026, the highest since December 2023, led by housing and energy (10.7%) and transport (9.0%), according to the CSO on 11 November 2026, covered by The Irish Times the same day.",
+        "Rising costs reach small firms with little room to absorb them, which can squeeze their margins.",
+        "The Irish Times reported on 3 November 2026 that the monthly credit union consumer sentiment survey stood at 61.6 for October 2026, well below its 30-year average of 83. Cautious households spend less, which cuts demand for retail and hospitality SMEs."
+      ],
+      "tip": "To analyse a headline or graph, name the measure, read the trend and link it to business effects. A fuller answer judges whether the economy is more exposed or more resilient and justifies it."
+    }
   ],
   "keyTerms": [
     { "term": "Business economy", "definition": "The market-based part of the economy in which firms produce goods and services for sale, as measured by the CSO." },
@@ -64,11 +123,11 @@
     { "term": "Four headline measures of the business economy", "definition": "Number of enterprises, turnover, gross value added and persons employed." },
     { "term": "Three EU categories of SME", "definition": "Micro, small and medium." },
     { "term": "Two risks of depending on a few large foreign firms", "definition": "Exposure to decisions on investment, location and tax made abroad, and concentration of tax revenue in a few firms." },
-    { "term": "Why GVA per worker differs across sectors", "definition": "High-value manufacturing and technology services add more value per worker than retail or hospitality." },
-    { "term": "Where most Irish business employment sits", "definition": "With Irish-owned SMEs spread across the country." }
+    { "term": "Why GVA per worker differs across sectors", "definition": "Industry, including manufacturing, adds far more value per worker than services such as distribution or construction (CSO, 2022 figures)." },
+    { "term": "Where most Irish business employment sits", "definition": "In SMEs, which provided about two thirds of persons employed in the CSO's 2023 figures." }
   ],
   "questions": [
-    { "marks": 20, "prompt": "Describe the value of the business economy in Ireland, referring to enterprises, turnover and employment, and outline the patterns in the data.", "model": "The business economy is made up of a very large number of enterprises, most of them micro and small firms. Turnover and GVA are concentrated in a smaller number of large firms, many of them foreign-owned, so their share of sales and value added is much larger than their share of enterprises. Employment is more evenly spread, with SMEs providing a large share of jobs, particularly in retail, hospitality and construction. The patterns also vary by sector and by region, with high-value manufacturing and technology adding more value per worker, and Dublin and the east holding a larger share of turnover and employment than other regions." },
+    { "marks": 20, "prompt": "Describe the value of the business economy in Ireland, referring to enterprises, turnover and employment, and outline the patterns in the data.", "model": "The business economy is made up of a very large number of enterprises, most of them micro and small firms. Turnover and GVA are concentrated in a smaller number of large firms, many of them foreign-owned, so their share of sales and value added is much larger than their share of enterprises. Employment is more evenly spread, with SMEs providing a large share of jobs, particularly in retail, hospitality and construction. The patterns also vary by sector and by region, with industry adding far more value per worker than services, and Dublin and Cork holding the most enterprises (CSO, 2023)." },
     { "marks": 15, "prompt": "Explain what the large share of turnover and value added held by foreign-owned firms means for Irish business and the economy.", "model": "Foreign-owned firms bring investment, high-skilled jobs, exports and links to global markets, which raise national output and support tax revenue. However, the economy depends on decisions made abroad about investment, location and tax, so a change in a parent company's strategy can have a large effect on Irish jobs and public finances. Irish-owned SMEs are then more important for local employment and resilience, and they need productivity gains, digital skills and access to finance to share in the benefits of growth." }
   ]
 }

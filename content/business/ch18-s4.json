@@ -4,60 +4,138 @@
   "subsection": "4. Regulation of financial services and financial fraud",
   "syllabusRef": "4.2.6, 4.2.7, 4.2.9",
   "notes": [
-    { "h": "The Central Bank of Ireland", "b": "The Central Bank of Ireland regulates banks, insurers, credit unions and other financial firms operating in Ireland, and it has several distinct roles.", "points": [
-      "Consumer protection: the Consumer Protection Code sets standards on how firms treat customers, including fair terms, clear information and proper handling of complaints.",
-      "Prudential supervision: the Central Bank checks that firms hold enough capital and manage their risks soundly, so they can meet their obligations to customers.",
-      "Mortgage measures: the Central Bank sets limits on how much a borrower can borrow relative to the value of the property and to income, to reduce the risk of over-borrowing.",
-      "Authorisation: firms and individual advisers must be authorised by the Central Bank, so an unauthorised firm operating in Ireland is breaking the law."
-    ] },
-    { "h": "Redress and protection for consumers", "points": [
-      "The Financial Services and Pensions Ombudsman (FSPO) is an independent body that investigates unresolved complaints about financial service providers and pension providers.",
-      "A consumer should first complain to the firm itself, and take the matter to the FSPO only if the firm's response does not resolve it.",
-      "The deposit guarantee scheme protects eligible deposits in covered Irish institutions up to a set limit per depositor if a bank fails.",
-      "Investor compensation schemes protect some investors when an authorised investment firm fails and cannot return client assets."
-    ] },
-    { "h": "EU supervision and EU rules", "points": [
-      "The European Central Bank supervises the significant banks in the euro area directly, working alongside national authorities such as the Central Bank of Ireland.",
-      "The European Banking Authority (EBA) sets common rules and standards for banks across the EU, so that firms compete on a level playing field.",
-      "The European Securities and Markets Authority (ESMA) oversees securities markets and investment firms, and promotes consistent rules across the EU.",
-      "EU directives on payment services and consumer credit set minimum standards that Irish law must implement.",
-      "Financial markets are integrated, so a weakness in one country can spread to others, which is why supervision at EU level matters."
-    ] },
-    { "h": "Risk in pensions, mortgages, credit and crypto", "points": [
-      "Pensions carry risk from investment returns, inflation, charges and changes to pension rules or retirement age.",
-      "Mortgages carry the risk of rising repayments on variable-rate loans, and of negative equity if property values fall below the debt.",
-      "Credit products such as credit cards and buy-now-pay-later can trap people in debt because they are easy to use and carry high costs.",
-      "Crypto-finance carries high volatility and limited protection, and EU rules for the sector have only recently come into application.",
-      "Managing these risks means spreading investments, keeping borrowing affordable and checking the terms of a product before committing."
-    ] },
-    { "h": "Consequences of under-regulation", "points": [
-      "The 2008 banking crisis: lax lending, a property bubble and weak oversight left Irish banks with heavy losses, and the State had to inject large sums into them to keep them open.",
-      "The State guaranteed bank liabilities in 2008, which shifted the cost of bank failures onto taxpayers.",
-      "The tracker-mortgage scandal: some lenders moved borrowers off tracker rates in ways the Central Bank found unacceptable, and redress was later paid to affected customers.",
-      "Under-regulation allows mis-selling to spread, weakens public trust in finance, and leaves consumers unprotected when firms fail."
-    ] },
-    { "h": "Types of financial fraud", "points": [
-      "Phishing: fake emails that imitate a bank or official body to steal login details or payment information.",
-      "Smishing: the same tactic delivered by SMS text, often with a link to a fake website.",
-      "Vishing: a caller pretends to be from a bank in order to obtain security codes or persuade the consumer to move money.",
-      "Investment scams promise high returns with little risk, often through social media adverts or fake trading platforms.",
-      "Identity theft: a criminal uses a person's personal details without permission to open accounts or take out credit in their name.",
-      "Money muling: a person allows their account to receive and pass on criminal proceeds, often after being recruited through a fake job offer, and can face prosecution.",
-      "Card fraud: stolen card details are used online or copied to make payments in person."
-    ] },
-    { "h": "Protecting yourself from fraud", "points": [
-      "Never share a PIN, password or one-time security code, even with a caller who seems to be from the bank, because a genuine bank will not ask for them.",
-      "Verify any contact by ringing the number on the bank's official website or on the back of the card, not a number given in the message.",
-      "Turn on two-factor authentication for online banking and keep devices updated with security fixes.",
-      "Check bank statements regularly for transactions you do not recognise, and report them at once, since quick reporting improves the chance of recovery.",
-      "Report scams to the Gardaí as well as to the bank, so that the fraud is recorded."
-    ] },
-    { "h": "Discussing finance stories in the news", "points": [
-      "Identify the product or practice at the centre of the story, and whether it is a regulated product.",
-      "Identify who is affected: individual savers, borrowers, investors or taxpayers.",
-      "Decide whether the story shows a regulatory failure, a firm's failure, or a consumer's poor decision, since each points to a different lesson.",
-      "Consider the response: did the regulator act, is redress available, and did the rules change afterwards?"
-    ] }
+    {
+      "h": "Why financial services are regulated",
+      "b": "Money products are easy to get wrong and costly when they fail, so the State and the EU set rules for the firms that sell them. Knowing the reasons makes every regulator below easier to place.",
+      "points": [
+        "Consumers usually know far less than the provider about a mortgage, pension or investment (this gap is called information asymmetry), so rules force firms to give clear information and fair terms.",
+        "A bank takes in deposits and lends them out, so it never holds all deposits in cash. If it fails or customers rush to withdraw (a bank run), depositors lose money and lending to households and businesses dries up.",
+        "Failures harm many people at once, and trust in finance underpins the whole economy, which is why regulation protects both individual consumers and the system as a whole.",
+        "Regulation (setting the rules), supervision (checking that firms follow them) and redress (putting things right for a customer, through the Ombudsman or compensation schemes) are three different jobs."
+      ],
+      "tip": "Keep the three words distinct in your answers: regulation is the rules, supervision is the checking, redress is the remedy for the customer."
+    },
+    {
+      "h": "The Central Bank of Ireland",
+      "b": "The Central Bank of Ireland is both the central bank in the euro area system and the regulator of financial services in Ireland. It regulates banks, insurers, credit unions and other financial firms operating in Ireland, and it has several distinct roles.",
+      "points": [
+        "Consumer protection: the Consumer Protection Code sets standards on how firms treat customers, including fair terms, clear information and proper handling of complaints.",
+        "The Central Bank published the Consumer Protection Code 2025 on 24 March 2025. It came into force on 24 March 2026 and replaced the 2012 Code, so the 2025 Code is the one that now applies.",
+        "The revised Code adds new protections on digitalisation, mortgage switching, unregulated activities, frauds and scams, and vulnerable consumers, plus a new Standard for Business on informing customers effectively.",
+        "Prudential supervision: the Central Bank checks that firms hold enough capital and manage their risks soundly, so they can meet their obligations to customers. This is about the firm's soundness, not how it treats customers.",
+        "Mortgage measures: the Central Bank limits how much a borrower can borrow relative to income and to the value of the property, to reduce the risk of over-borrowing. These system-wide limits are called macroprudential policy.",
+        "As of 2026, the loan-to-income limit was 4 times gross income for first-time buyers and 3.5 times for second and subsequent buyers.",
+        "As of 2026, the loan-to-value limit was 90% for first-time and for second and subsequent buyers (a 10% deposit), and 70% for buy-to-let. The Central Bank reviews the limits, so they can be changed.",
+        "Authorisation: firms and individual advisers must be authorised by the Central Bank, so an unauthorised firm operating in Ireland is breaking the law. Authorisation also gives consumers a register they can check before dealing with a firm."
+      ],
+      "tip": "Do not confuse the macroprudential mortgage limits, which apply to all lenders, with a single lender's own affordability test. Also name the 2025 Code, not the 2012 one, as the current Code."
+    },
+    {
+      "h": "Redress and protection for consumers",
+      "b": "Rules are not enough if a customer has no way to put things right. Ireland provides an independent complaints route and two schemes that protect people's money when a firm fails.",
+      "points": [
+        "The Financial Services and Pensions Ombudsman (FSPO), set up under the Financial Services and Pensions Ombudsman Act 2017, is an independent body that investigates unresolved complaints about financial service providers and pension providers. This gives a consumer a route without going to court.",
+        "The route matters: a consumer should first complain to the firm itself, and take the matter to the FSPO only if the firm's response does not resolve it.",
+        "The firm may take up to 40 working days to deal with the complaint, and the FSPO may in limited circumstances investigate earlier.",
+        "The Deposit Guarantee Scheme repays eligible deposits at protected institutions up to a set limit if a bank fails. The limit is 100,000 euro per depositor per institution. It is run by the Central Bank of Ireland and funded by the institutions it protects.",
+        "The scheme applies only to deposits at institutions authorised by the Central Bank. It covers deposits only, not investments, shares, pensions or crypto, so it does not protect all of a person's money.",
+        "Investor compensation schemes protect some investors when an authorised investment firm fails and cannot return client assets, because investments held through a firm are not deposits and the deposit scheme does not cover them."
+      ],
+      "tip": "Common mistakes are saying the deposit guarantee covers all money, and sending a consumer straight to the FSPO. Give the order: firm first, then the Ombudsman if unresolved."
+    },
+    {
+      "h": "EU supervision and EU rules",
+      "b": "Banks and investment firms work across borders, so Ireland's regulator does not act alone. Several EU bodies supervise or set rules for the sector, and each has a different job that is easy to mix up.",
+      "points": [
+        "The European Central Bank (ECB) supervises the significant banks in the euro area directly, through the Single Supervisory Mechanism, working alongside national authorities such as the Central Bank of Ireland. The ECB is not the Central Bank of Ireland: it also runs euro-area monetary policy.",
+        "The European Banking Authority (EBA), set up in 2011, sets common rules and standards for banks across the EU, so that firms compete on a level playing field.",
+        "The European Securities and Markets Authority (ESMA), also set up in 2011, oversees securities markets and investment firms, and promotes consistent rules across the EU.",
+        "A directive sets goals that each member state must write into its own law, while a regulation applies directly across the EU. Directives on payment services and consumer credit set minimum standards that Irish law must implement.",
+        "Examples include the Payment Services Directive 2 (Directive (EU) 2015/2366), the Consumer Credit Directive 2008/48/EC and the Mortgage Credit Directive 2014/17/EU. EU rules on consumer credit are being updated.",
+        "MiCA, Regulation (EU) 2023/1114, is the EU regulation for crypto, so crypto firms in Ireland must follow EU rules.",
+        "Financial markets are integrated, so a weakness in one country can spread to others, which is why supervision at EU level matters."
+      ],
+      "tip": "When asked to name a body, give its role in one clause: ECB directly supervises significant banks, EBA sets bank rules, ESMA oversees securities markets."
+    },
+    {
+      "h": "Risk in pensions, mortgages, credit and crypto",
+      "b": "Every financial product carries risk, and regulation reduces it without removing it. Four product types show different kinds of risk, and the consumer still has to manage them.",
+      "points": [
+        "Pensions carry risk from investment returns, which can fall and leave a smaller fund; from inflation, which reduces what the money buys; from charges, which eat into the fund; and from changes to pension rules or retirement age.",
+        "Mortgages carry the risk of rising repayments on variable-rate loans, because the rate can go up while income does not. They also carry the risk of negative equity, which is when property values fall below the debt.",
+        "Credit products such as credit cards and buy-now-pay-later can trap people in debt because they are easy to use and carry high costs.",
+        "Crypto-finance carries high volatility, meaning prices swing sharply, and limited protection for the buyer. EU rules for the sector have only recently come into application.",
+        "Managing these risks means spreading investments rather than relying on one, keeping borrowing affordable, and checking the terms of a product before committing."
+      ],
+      "tip": "For each product, name the specific risk and one way to manage it."
+    },
+    {
+      "h": "Consequences of under-regulation",
+      "b": "When regulation is too weak, the cost falls on ordinary people and on the State. Ireland's own recent history gives two clear examples to use in a discuss answer.",
+      "points": [
+        "The 2008 banking crisis: lax lending, a property bubble and weak oversight left Irish banks with heavy losses, and the State had to inject large sums into them to keep them open.",
+        "On 30 September 2008 the Government guaranteed the liabilities of the main Irish banks, and the Credit Institutions (Financial Support) Act 2008, passed in October 2008, gave this legal effect. This shifted the cost of bank failures onto taxpayers.",
+        "The tracker-mortgage scandal: some lenders moved borrowers off tracker rates (rates that follow the ECB rate) in ways the Central Bank found unacceptable. The Central Bank's final report on 16 July 2019 said lenders had identified about 40,100 affected customers.",
+        "Lenders paid about 683 million euro in redress and compensation to the end of May 2019. Beyond the regulatory failure, this was an ethical failure, because firms owed customers fair treatment.",
+        "In general, under-regulation allows mis-selling to spread, weakens public trust in finance, and leaves consumers unprotected when firms fail.",
+        "The balancing point: over-regulation raises costs for firms and can limit access to credit. The aim is proportionate regulation, not the maximum possible rules."
+      ],
+      "tip": "For a discuss answer, give three or four developed points with cause and effect on consumers and taxpayers, then add the balancing point that over-regulation has costs too. Do not give a total figure for the 2008 guarantee."
+    },
+    {
+      "h": "Types of financial fraud",
+      "b": "Fraud works by tricking people into handing over money or details, and the channel is what separates one type from another. Fraudsters rely on trust and pressure, and digital finance has widened the opportunities.",
+      "points": [
+        "Phishing: fake emails that imitate a bank or official body to steal login details or payment information.",
+        "Smishing: the same tactic delivered by SMS text, often with a link to a fake website. Phishing is email and smishing is text, so name the channel.",
+        "Vishing: a caller pretends to be from a bank in order to obtain security codes or persuade the consumer to move money. This is a voice call.",
+        "Investment scams promise high returns with little risk, often through social media adverts or fake trading platforms. AI-generated adverts and deepfake investment ads make them look more convincing.",
+        "Identity theft: a criminal uses a person's personal details without permission to open accounts or take out credit in their name.",
+        "Money muling: a person allows their account to receive and pass on criminal proceeds, often after being recruited through a fake job offer, and can face prosecution. Young people can be targeted, and the mule is not the criminal who sends the money.",
+        "Card fraud: stolen card details are used online or copied to make payments in person. This differs from identity theft, which uses a whole identity to open new accounts."
+      ],
+      "tip": "A full fraud answer names the type, says how it works and gives one protective step. Describing phishing and smishing as the same thing, without the channel, is a common mistake."
+    },
+    {
+      "h": "Protecting yourself from fraud",
+      "b": "Most scams need the victim to act, so a few habits stop most of them. Fraud awareness in Ireland is led by FraudSMART, an initiative of Banking & Payments Federation Ireland, and the Gardaí investigate fraud.",
+      "points": [
+        "Never share a PIN, password or one-time security code, even with a caller who seems to be from the bank, because a genuine bank will not ask for them.",
+        "Verify any contact by ringing the number on the bank's official website or on the back of the card, not a number given in the message, because the number in a scam message leads to the scammer.",
+        "Turn on two-factor authentication for online banking and keep devices updated with security fixes, which closes gaps that criminals use.",
+        "Check bank statements regularly for transactions you do not recognise, and report them at once, since quick reporting improves the chance of recovery.",
+        "Report scams to the Gardaí as well as to the bank, so that the fraud is recorded.",
+        "Central Bank research published on 28 April 2026 found 57 per cent of victims who reported fraud recovered their money, against 13 per cent of those who did not. It also found 38 per cent of victims never reported it.",
+        "The same research found 35 per cent of Irish adults have experienced fraud or scams, and nearly two-thirds of victims lost money. Risky online behaviours, such as shopping on unfamiliar websites, sharing card details over insecure channels and not using multi-factor authentication, were the strongest predictor of fraud."
+      ],
+      "tip": "For a scam stimulus, state the type of fraud, who the target was and what the person should do: do not share codes, ring the official number, and report to the bank and the Gardaí. Avoid answers that say only be careful."
+    },
+    {
+      "h": "Ethics, sustainability and digital angles",
+      "b": "Regulation is not only about rules and penalties. It rests on fairness to customers, and it has to keep up with how finance is now delivered and marketed.",
+      "points": [
+        "Ethical: firms have a duty to treat customers fairly, which is why the tracker scandal counts as an ethical failure as well as a regulatory one.",
+        "Scams exploit trust and vulnerable people, such as older people, and young people recruited as money mules.",
+        "Sustainability: regulators and EU rules increasingly require firms to disclose sustainability risks in investment products and to avoid misleading green claims, so investors are not misled about how green a product is.",
+        "Digital: digital finance extends fraud risk through scam texts, social media and AI-generated adverts, and good cyber-security habits are part of protection.",
+        "Regulators now cover digitalisation, scams and unregulated activities in consumer protection, as in the revised Consumer Protection Code."
+      ]
+    },
+    {
+      "h": "Discussing finance stories in the news",
+      "b": "A news story about money is a case of the ideas above in action. A four-step method lets you apply the regulation and fraud content to any story, and two recent Irish examples show it at work.",
+      "points": [
+        "Step 1: identify the product or practice at the centre of the story, and whether it is a regulated product.",
+        "Step 2: identify who is affected: individual savers, borrowers, investors or taxpayers.",
+        "Step 3: decide whether the story shows a regulatory failure, a firm's failure, or a consumer's poor decision, since each points to a different lesson.",
+        "Step 4: consider the response: did the regulator act, is redress available, and did the rules change afterwards?",
+        "News example 1: Central Bank of Ireland fraud research, 28 April 2026. It found 35 per cent of adults had experienced fraud or scams and 38 per cent of victims never reported it, while 57 per cent of reporters recovered their money, against 13 per cent of non-reporters.",
+        "Applying the method: the product is everyday payments, affecting ordinary consumers. It shows regulator research and consumer behaviour, since general financial literacy gave no protective effect but fraud-specific literacy was linked to lower fraud. Consumers should report quickly and use multi-factor authentication.",
+        "News example 2: Central Bank of Ireland payment fraud statistics, 4 September 2026. Payment fraud reported by Irish payment service providers was 179 million euro in 2025, up 27 per cent from 140.8 million euro in 2024.",
+        "Authorised push payment fraud (victims tricked into authorising payments) was 45 per cent of payment fraud by value in 2025, about 75 million euro. This points to under-protection against social engineering, vishing and impersonation, so consumers should never share codes and should ring the official number."
+      ],
+      "tip": "For a news story apply the four steps (product and regulation, who is affected, whose failure, response) and finish with a justified viewpoint. Use only the 2025 figure of 179 million euro up 27 per cent for the year-on-year comparison."
+    }
   ],
   "keyTerms": [
     { "term": "Financial Services and Pensions Ombudsman", "definition": "An independent body that investigates unresolved complaints about financial service and pension providers." },

@@ -4,70 +4,121 @@
   "subsection": "3. Protecting personal data and making informed consumer decisions",
   "syllabusRef": "4.1.4, 4.1.5",
   "notes": [
-    { "h": "The GDPR: scope and definitions", "b": "The General Data Protection Regulation is an EU regulation that applies directly in every member state, including Ireland.", "points": [
-      "The GDPR applied from 25 May 2018 and replaced earlier EU data protection rules.",
-      "It covers organisations that process the personal data of people in the EU, wherever the organisation is based.",
-      "Personal data is any information relating to an identified or identifiable living person, such as a name, email address or location.",
-      "Special category data, such as health information, has stronger protection and needs an additional condition before it can be processed."
-    ] },
-    { "h": "Controllers and processors", "b": "The GDPR distinguishes between the organisation that decides how data is used and the organisation that processes it on that organisation's behalf.", "points": [
-      "A data controller decides the purposes and means of processing personal data, so it carries the main responsibility for compliance.",
-      "A data processor handles personal data on the controller's behalf and follows the controller's instructions.",
-      "An online shop is usually the controller for its customers' data, because it decides why the data is collected.",
-      "A business that stores data or sends emails for the shop, using the shop's customer list, is typically a processor.",
-      "Controllers must have a written contract with each processor that sets out how the data must be protected."
-    ] },
-    { "h": "Lawful bases for processing", "b": "Processing personal data requires one of six lawful bases, and consent is only one of them.", "points": [
-      "Consent: the person has given clear permission for their data to be used for a specific purpose.",
-      "Contract: processing is necessary to perform a contract with the person, such as delivering an order they have placed.",
-      "Legal obligation: the law requires the processing, such as keeping records that tax law demands.",
-      "Vital interests, public task and legitimate interests are the other three bases, covering emergencies, public functions and business interests weighed against individual rights.",
-      "Consent must be freely given, specific, informed and unambiguous, shown by a clear positive action, so a pre-ticked box is not valid.",
-      "Consent can be withdrawn at any time, and withdrawing it must be as easy as giving it."
-    ] },
-    { "h": "Core principles", "b": "Article 5 of the GDPR sets out principles that every organisation must follow when processing personal data.", "points": [
-      "Lawfulness, fairness and transparency: data is used legally, fairly and in a way that people can understand.",
-      "Purpose limitation: data is collected for specified purposes and is not used in ways incompatible with them.",
-      "Data minimisation: only the data needed for the stated purpose is collected.",
-      "Accuracy: data is kept accurate and up to date, and errors are corrected without delay.",
-      "Storage limitation: data is not kept for longer than it is needed.",
-      "Integrity and confidentiality: data is protected against unauthorised access, loss or damage.",
-      "Accountability: the organisation must be able to demonstrate that it complies with these principles."
-    ] },
-    { "h": "Rights of data subjects", "b": "People whose personal data is held have several rights, which they can exercise against the organisation holding their data.", "points": [
-      "Right of access: a person can ask for a copy of the personal data an organisation holds about them.",
-      "Right to rectification: inaccurate or incomplete data must be corrected.",
-      "Right to erasure: a person can ask for their data to be deleted in certain circumstances, sometimes called the right to be forgotten.",
-      "Right to data portability: a person can receive their data in a structured, commonly used format and transfer it to another provider.",
-      "Right to object: a person can object to processing, including use for direct marketing, and that marketing must then stop."
-    ] },
-    { "h": "Breaches, enforcement and fines", "b": "The GDPR requires organisations to act quickly when a breach occurs, and it sets significant penalties for failures.", "points": [
-      "A personal data breach, such as a lost laptop containing customer records, must be reported to the supervisory authority within 72 hours where feasible.",
-      "Affected individuals must be told without undue delay where the breach is likely to result in a high risk to their rights and freedoms.",
-      "The Data Protection Commission is Ireland's supervisory authority and enforces the GDPR against organisations established in Ireland.",
-      "The Data Protection Act 2018 gives further effect to the GDPR in Irish law and sets out the powers of the Data Protection Commission.",
-      "The higher tier of fines can reach a fixed sum or a percentage of worldwide annual turnover, whichever is higher.",
-      "Fines are not the only sanction, because the Commission can also order an organisation to comply or to stop processing."
-    ] },
-    { "h": "What the GDPR means for consumers and businesses", "b": "The rules give consumers control over their data and require businesses to build privacy into their operations.", "points": [
-      "Consumers gain rights to see, correct and delete their data, and they can complain to the Data Protection Commission if those rights are not respected.",
-      "Businesses must be transparent in privacy notices, explaining what data they collect, why they collect it and how long they keep it.",
-      "Businesses must consider data protection when designing products and services, which is known as data protection by design.",
-      "Compliance has costs, such as staff training and data audits, but responsible handling of data builds customer trust."
-    ] },
-    { "h": "Protecting your own data", "b": "Consumers can reduce their exposure to misuse of personal data through simple habits.", "points": [
-      "Use strong, unique passwords for each account and enable two-factor authentication where it is available.",
-      "Review privacy settings on social media and apps, and limit the data you share with them.",
-      "Decline non-essential cookies where the option is offered, since cookies are how many sites track browsing across visits.",
-      "Treat unsolicited messages that ask for personal or payment details with caution, as they may be phishing attempts.",
-      "Read privacy notices before signing up, and ask for an account and its data to be deleted when it is no longer used."
-    ] },
-    { "h": "Why informed consumer decisions matter", "b": "A well-informed consumer gets better value, avoids fraud and makes choices that match their values.", "points": [
-      "Comparing prices, quality and terms helps the consumer get value for money rather than paying for avoidable extras.",
-      "Checking a seller's identity, reviews and payment security helps avoid scams and fraud.",
-      "Considering ethics and sustainability as part of a purchase aligns spending with personal values.",
-      "News stories about consumers misled by a trader or defrauded online show how the rules in this chapter work in practice, and students should check the facts of any story they use."
-    ] }
+    {
+      "h": "The GDPR: scope and definitions",
+      "b": "Businesses collect personal data all the time, through orders, accounts, loyalty cards and website tracking, and consumers hand it over in exchange for a service. The General Data Protection Regulation (GDPR) is the EU law that controls how that data may be used.",
+      "points": [
+        "The GDPR is an EU regulation, which means it is binding law in every member state, including Ireland, without each country having to turn it into national law first (a directive, by contrast, does need that step).",
+        "It is Regulation (EU) 2016/679. It applied from 25 May 2018 and replaced earlier EU data protection rules.",
+        "Its scope is any organisation that processes the personal data of people in the EU, wherever the organisation is based, so a firm outside the EU that sells to EU customers is covered.",
+        "Personal data is any information relating to an identified or identifiable living person, such as a name, email address or location, because each of these can be used to point to a particular individual.",
+        "Special category data, such as health information, has stronger protection and needs an additional condition before it can be processed, because misuse of it can do more harm to the person."
+      ],
+      "tip": "Don't mix up personal data and special category data: personal data is any information about an identifiable living person, and special category data (for example health) is the more sensitive group that needs an extra condition."
+    },
+    {
+      "h": "Controllers and processors",
+      "b": "The GDPR gives different duties to the organisation that decides how data is used and the organisation that handles it on that organisation's behalf. Knowing which is which tells you who carries the main responsibility.",
+      "points": [
+        "A data controller decides the purposes (why) and means (how) of processing personal data, so it carries the main responsibility for compliance.",
+        "A data processor handles personal data on the controller's behalf and follows the controller's instructions; it does not decide why the data is collected.",
+        "An online shop is usually the controller for its customers' data, because it decides why the data is collected, for example to deliver orders.",
+        "A business that stores data or sends emails for the shop, using the shop's customer list, is typically a processor, because it acts only on the shop's instructions.",
+        "Controllers must have a written contract with each processor that sets out how the data must be protected."
+      ],
+      "tip": "When asked to distinguish controller and processor, give the difference (who decides why and how, versus who acts on instructions) and one example of each, such as the online shop and the firm sending emails from its list."
+    },
+    {
+      "h": "Lawful bases for processing",
+      "b": "An organisation may only process personal data if it has a lawful basis, a legal reason that justifies it. There are six, and consent is only one of them.",
+      "points": [
+        "Consent: the person has given clear permission for their data to be used for a specific purpose, such as agreeing to receive a shop's newsletter.",
+        "Contract: processing is necessary to perform a contract with the person, such as using a customer's address to deliver an order they have placed.",
+        "Legal obligation: the law requires the processing, such as keeping records that tax law demands.",
+        "Vital interests, public task and legitimate interests are the other three bases, covering emergencies, public functions and business interests weighed against individual rights.",
+        "Consent must be freely given, specific, informed and unambiguous, shown by a clear positive action, so a pre-ticked box is not valid because the person has done nothing to agree.",
+        "Consent can be withdrawn at any time, and withdrawing it must be as easy as giving it, so a firm cannot make it simple to sign up but hard to opt out."
+      ],
+      "tip": "Never write that consent is the only lawful basis. Name the six, and for consent, contract and legal obligation say what each means with an example."
+    },
+    {
+      "h": "Core principles",
+      "b": "Article 5 of the GDPR sets out seven principles that every organisation must follow whenever it processes personal data. They describe good practice from the moment data is collected to the moment it is deleted.",
+      "points": [
+        "Lawfulness, fairness and transparency: data is used legally, fairly and in a way that people can understand.",
+        "Purpose limitation: data is collected for specified purposes and is not used in ways incompatible with them, so email addresses given for order updates are not sold for unrelated marketing.",
+        "Data minimisation: only the data needed for the stated purpose is collected, which also reduces the harm if a breach happens.",
+        "Accuracy: data is kept accurate and up to date, and errors are corrected without delay.",
+        "Storage limitation: data is not kept for longer than it is needed.",
+        "Integrity and confidentiality: data is protected against unauthorised access, loss or damage.",
+        "Accountability: the organisation must be able to demonstrate that it complies with these principles, not just claim that it does."
+      ],
+      "tip": "When asked to describe or explain a principle, name it, say what it obliges the business to do, and add a short example. A list of names with no meaning is a common mistake."
+    },
+    {
+      "h": "Rights of data subjects",
+      "b": "A data subject is a person whose personal data is held. The GDPR gives data subjects rights they can exercise against any organisation holding their data.",
+      "points": [
+        "Right of access: a person can ask for a copy of the personal data an organisation holds about them.",
+        "Right to rectification: inaccurate or incomplete data must be corrected.",
+        "Right to erasure: a person can ask for their data to be deleted in certain circumstances, sometimes called the right to be forgotten. It is not absolute: it applies only in certain circumstances.",
+        "Right to data portability: a person can receive their data in a structured, commonly used format and transfer it to another provider, which makes switching supplier easier.",
+        "Right to object: a person can object to processing, including use for direct marketing (promotional messages sent to named individuals), and that marketing must then stop."
+      ],
+      "tip": "Give each right a meaning and an example, such as a customer asking a shop to delete their account data. Write erasure as applying in certain circumstances, not always."
+    },
+    {
+      "h": "Breaches, enforcement and fines",
+      "b": "A personal data breach is a security failure that exposes personal data, such as a lost laptop containing customer records. The GDPR requires organisations to act quickly when one occurs, and it sets significant penalties for failures.",
+      "points": [
+        "Under Article 33, a breach must be reported to the supervisory authority (the public body that enforces the GDPR) without undue delay and, where feasible, within 72 hours of becoming aware of it, unless the breach is unlikely to risk individuals.",
+        "Affected individuals must be told without undue delay where the breach is likely to result in a high risk to their rights and freedoms, so that they can protect themselves.",
+        "The Data Protection Commission (DPC) is Ireland's supervisory authority and enforces the GDPR against organisations established in Ireland, including in cross-border cases as lead authority.",
+        "The Data Protection Act 2018 is the Irish Act that gives further effect to the GDPR in Irish law and sets out the powers of the Data Protection Commission.",
+        "The higher tier of fines is up to EUR 20 million or 4% of total worldwide annual turnover of the preceding financial year, whichever is higher, so a large firm cannot treat a fine as a small cost.",
+        "Fines are not the only sanction, because the Commission can also order an organisation to comply or to stop processing."
+      ],
+      "tip": "In a data-breach question, identify the breach, state the duty to notify the supervisory authority (within 72 hours where feasible), say who else must be told and name the possible penalty. Never write 72 hours without 'where feasible'. Don't confuse the DPC (data protection regulator) with the CCPC (consumer and competition regulator), or the GDPR (EU regulation) with the Data Protection Act 2018 (Irish Act)."
+    },
+    {
+      "h": "What the GDPR means for consumers and businesses",
+      "b": "The rules give consumers control over their data and require businesses to build privacy into their operations. Each side gains something and each carries a cost or duty.",
+      "points": [
+        "Consumers gain rights to see, correct and delete their data, and they can complain to the Data Protection Commission if those rights are not respected.",
+        "Businesses must be transparent in privacy notices, explaining what data they collect, why they collect it and how long they keep it.",
+        "Businesses must consider data protection when designing products and services, which is known as data protection by design, so privacy is built in from the start instead of added later.",
+        "Compliance has costs, such as staff training and data audits, and breaking the rules risks fines, but responsible handling of data builds customer trust.",
+        "Digital tools make this more pressing: online tracking, cookies, targeted advertising, apps and the use of data by AI all depend on collecting personal data, so firms that collect only what they need (data minimisation) and handle it ethically earn more trust."
+      ],
+      "tip": "When asked to discuss or evaluate the impact of the GDPR, give both sides, rights and trust for consumers, and compliance costs and fines set against trust for businesses, then reach a judgement. One-sided answers are a common mistake."
+    },
+    {
+      "h": "Protecting your own data",
+      "b": "Consumers can reduce their exposure to misuse of personal data through simple habits. These are the essential steps to give if asked to outline how a consumer can protect their data.",
+      "points": [
+        "Use strong, unique passwords for each account and enable two-factor authentication where it is available, so one stolen password does not unlock every account.",
+        "Review privacy settings on social media and apps, and limit the data you share with them.",
+        "Decline non-essential cookies where the option is offered, since cookies are how many sites track browsing across visits.",
+        "Treat unsolicited messages that ask for personal or payment details with caution, as they may be phishing (fake messages designed to trick you into giving up details).",
+        "Read privacy notices before signing up, and ask for an account and its data to be deleted when it is no longer used."
+      ],
+      "tip": "For an 'outline' question, give the essential points briefly: passwords, privacy settings, cookies and phishing."
+    },
+    {
+      "h": "Why informed consumer decisions matter",
+      "b": "A well-informed consumer gets better value, avoids fraud and makes choices that match their values. Applying this to a real news story shows how the rules work in practice.",
+      "points": [
+        "Value for money: comparing price, quality and terms helps the consumer avoid paying for avoidable extras.",
+        "Avoiding fraud and scams: checking a seller's identity, reviews and payment security reduces the risk of being defrauded online.",
+        "Sustainability and ethics: considering these as part of a purchase aligns spending with personal values.",
+        "Applying my learning: choose a current Irish news story, check its facts, and use it to show how the rules work, linking it to the consumer right that the story shows being used or breached, and give an informed opinion.",
+        "A checked example is the May 2026 decision in which the DPC fined Permanent TSB (PTSB) EUR 277,500 in total after three data breaches at its contact centre, where people posed as customers to access accounts.",
+        "Of that total, EUR 250,000 was for security failures (Articles 5(1)(f) and 32(1)) and EUR 27,500 was for failing to notify the DPC without undue delay and within 72 hours (Article 33(1)).",
+        "The bank also received a reprimand. The decision is dated 30 April 2026 and was announced on 8 May 2026.",
+        "The PTSB case shows breach notification, security duties and fines at work. In January 2026 it was reported that the DPC was owed over EUR 4 billion in fines imposed since May 2018, which gives context for how much enforcement there has been."
+      ],
+      "tip": "To discuss a news story, state the facts briefly, link it to the rule it shows, say what the business and consumers should learn, and give an informed opinion. Use a real, accurate example such as the PTSB decision."
+    }
   ],
   "keyTerms": [
     { "term": "GDPR", "definition": "The EU General Data Protection Regulation, which sets rules for processing personal data across the European Union." },
@@ -82,13 +133,13 @@
   "factCards": [
     { "term": "Principles for processing personal data", "definition": "Lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality; accountability." },
     { "term": "Rights of people whose data is held", "definition": "Access, rectification, erasure, portability and objection." },
-    { "term": "Reporting deadline for a personal data breach", "definition": "Within 72 hours where feasible, to the supervisory authority." },
+    { "term": "Reporting deadline for a personal data breach", "definition": "To the supervisory authority without undue delay and, where feasible, within 72 hours of becoming aware, unless the breach is unlikely to result in a risk to individuals." },
     { "term": "The six lawful bases for processing", "definition": "Consent, contract, legal obligation, vital interests, public task and legitimate interests." },
     { "term": "Simple steps to protect personal data", "definition": "Strong unique passwords, two-factor authentication, reviewing privacy settings, declining non-essential cookies and treating unsolicited requests with caution." },
     { "term": "Benefits of an informed consumer decision", "definition": "Better value for money, fewer scams, and choices that reflect ethical and sustainability values." }
   ],
   "questions": [
-    { "marks": 20, "prompt": "Explain how the GDPR protects the personal data of an Irish consumer who has shared details with an online retailer, and discuss the obligations this places on the retailer.", "model": "Name, email address and delivery details are personal data, so the GDPR applies to the retailer's handling of them. The retailer needs a lawful basis for each use. Contract covers processing the order and delivery, while marketing emails need consent, which must be freely given, specific and capable of being withdrawn. The retailer must follow the principles, collecting only the data it needs, keeping it no longer than necessary and protecting it against unauthorised access. The consumer has rights, including access to a copy of their data, correction of errors, erasure in certain circumstances and objection to direct marketing, and the retailer must respond to such requests. If a breach occurs, such as a hacked customer database, the retailer must report it to the Data Protection Commission within 72 hours where feasible, and it must inform affected customers if there is a high risk to them. The Commission can investigate and impose sanctions, including fines and orders to change practices." },
+    { "marks": 20, "prompt": "Explain how the GDPR protects the personal data of an Irish consumer who has shared details with an online retailer, and discuss the obligations this places on the retailer.", "model": "Name, email address and delivery details are personal data, so the GDPR applies to the retailer's handling of them. The retailer needs a lawful basis for each use. Contract covers processing the order and delivery, while marketing emails need consent, which must be freely given, specific and capable of being withdrawn. The retailer must follow the principles, collecting only the data it needs, keeping it no longer than necessary and protecting it against unauthorised access. The consumer has rights, including access to a copy of their data, correction of errors, erasure in certain circumstances and objection to direct marketing, and the retailer must respond to such requests. If a breach occurs, such as a hacked customer database, the retailer must report it to the Data Protection Commission without undue delay and, where feasible, within 72 hours of becoming aware, unless the breach is unlikely to risk individuals, and it must inform affected customers if there is a high risk to them. The Commission can investigate and impose sanctions, including fines and orders to change practices." },
     { "marks": 10, "prompt": "Distinguish between a data controller and a data processor, giving one example of each in an everyday business setting.", "model": "A data controller is the organisation that decides why and how personal data is used. For example, an online clothes shop decides to collect customer addresses in order to deliver orders, so it is the controller. A data processor handles the data on the controller's behalf and follows its instructions. For example, an email marketing company that sends the shop's newsletters from the shop's customer list acts as a processor, under a written contract with the shop." },
     { "marks": 15, "prompt": "Explain three steps a consumer can take to protect personal data when shopping online.", "model": "Using strong, unique passwords and turning on two-factor authentication prevents an attacker who obtains one password from accessing several accounts. Reviewing the privacy notice and declining non-essential cookies limits how much data is collected and how far browsing is tracked. Treating unsolicited emails or messages that ask for payment or personal details with caution helps avoid phishing, because the consumer checks the sender before giving anything away." }
   ]

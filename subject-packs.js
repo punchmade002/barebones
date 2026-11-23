@@ -9,7 +9,7 @@
 // After adding, removing or renaming topics, re-run: deno run -A scripts/build_subject_index.ts
 (function () {
   var PACKS = {
-    business: ["./business-notes.js?v=2"],
+    business: ["./business-notes.js?v=3"],
     pe: [
       "./pe-content.js?v=1",
       "./pe-flashcards.js?v=3",

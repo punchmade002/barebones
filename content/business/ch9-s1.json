@@ -4,49 +4,124 @@
   "subsection": "1. Market research and identifying the target market",
   "syllabusRef": "2.4.1",
   "notes": [
-    { "h": "Purpose of market research", "b": "Market research gathers information about customers, competitors and markets so that a business can make decisions based on evidence.", "points": [
-      "It identifies the target market, meaning the group of customers the business most wants to reach.",
-      "It tests demand for a product or service before large sums are spent developing it.",
-      "It reveals what customers value, what they are willing to pay and where gaps exist in the market.",
-      "It reduces the risk that a business launches a product that customers do not want."
-    ] },
-    { "h": "The target market", "b": "The target market is the specific group of customers a business chooses to focus on, identified through research and segmentation.", "points": [
-      "A target market is narrower than the whole market, so the business can tailor its products and marketing to a group it understands.",
-      "Choosing a target market depends on segmentation, which divides a market into groups that share similar characteristics.",
-      "A niche market is a small, specialised group with distinctive needs, while a mass market is a large group with broadly common needs.",
-      "A consumer profile sketches a typical customer in the target market, using age, lifestyle, needs and buying habits."
-    ] },
-    { "h": "Bases for segmentation", "b": "Segmentation uses four main bases to divide a market into groups that a business can target.", "points": [
-      "Demographic: age, gender, income, occupation and family size, for example students as a group with limited budgets.",
-      "Geographic: region, town or country, for example customers in rural areas who need home delivery.",
-      "Psychographic: personality, values, attitudes and lifestyle, for example customers who prioritise environmental values.",
-      "Behavioural: purchase habits, loyalty, usage rate and the benefits sought, for example people who shop online every week."
-    ] },
-    { "h": "Desk research (secondary)", "b": "Desk research uses information that already exists, collected by others for another purpose, and it is usually quicker and cheaper to obtain.", "points": [
-      "Sources include Central Statistics Office (CSO) publications, industry reports, trade associations and competitors' published accounts.",
-      "Online analytics from a company's own website or social media pages provide secondary data about its existing customers.",
-      "Strength: it is fast and inexpensive, and it can cover a wide area or a long period of time.",
-      "Weakness: the data may be out of date, may not match the exact question being asked, and may be available to rivals too."
-    ] },
-    { "h": "Field research (primary)", "b": "Field research collects new data directly from customers or the market for the specific purpose of the business.", "points": [
-      "Surveys are questionnaires given to a sample, by post, online, by phone or in person, and they usually produce quantitative data.",
-      "Interviews are one-to-one conversations that produce detailed insight into customers' motives and attitudes.",
-      "Focus groups bring a small group together for a guided discussion, which reveals shared views and reactions to a product.",
-      "Observation records what customers actually do in a shop or online, rather than what they say they do.",
-      "Test marketing launches a product in a limited area to see how customers respond before a full launch.",
-      "Strength: the data is specific to the business's question and is up to date; weakness: it is expensive and slower to collect."
-    ] },
-    { "h": "Quantitative and qualitative data", "b": "Research produces two types of data, and businesses often use both to build a full picture of the market.", "points": [
-      "Quantitative data is numerical and can be counted or measured, such as the number of respondents who prefer a particular flavour.",
-      "Quantitative data can be statistically analysed, which makes it useful for comparing groups and spotting trends.",
-      "Qualitative data is descriptive and explores opinions, motives and feelings, usually gathered through interviews and focus groups.",
-      "Quantitative results show how many customers hold a view, while qualitative results explain why they hold it."
-    ] },
-    { "h": "Sampling (assumed knowledge)", "b": "A sample is a subset of a population that is surveyed, and its results are used to draw conclusions about the whole population.", "points": [
-      "A representative sample reflects the key characteristics of the population, such as age and location, so its results are more reliable.",
-      "A sample that is too small or biased, such as surveying only friends, produces misleading results.",
-      "Random sampling gives every member of the population an equal chance of selection, which reduces bias."
-    ] }
+    {
+      "h": "Why businesses carry out market research",
+      "b": "A market is the set of actual and potential buyers of a product or service, and those buyers differ in needs, income and habits, so no business can serve everyone equally well. Market research is gathering and analysing information about customers, competitors and the market, so that decisions rest on evidence rather than guesswork.",
+      "points": [
+        "A business exists to meet customer needs at a profit, so decisions made without evidence carry the risk of a failed product that nobody wants to buy.",
+        "It identifies the target market, meaning the group of customers the business most wants to reach.",
+        "It tests demand for a product or service before large sums are spent developing it, which protects the business from costly mistakes.",
+        "It shows what customers value, what they are willing to pay and where gaps exist in the market that a new product could fill.",
+        "It reduces the risk of launching something customers do not want.",
+        "A clear, specific research question keeps the work focused. The specification calls this refining a question using SMART objectives: \"Refining a question for research based on it being specific, measurable, achievable, relevant, and timebound.\""
+      ],
+      "tip": "If asked to appreciate why research or the target market matters, show it through a consequence for the business, such as the cost of a failed launch, rather than just saying it helps the business."
+    },
+    {
+      "h": "Desk (secondary) research",
+      "b": "Desk research uses information that already exists, collected by others for another purpose, so it is usually quicker and cheaper to obtain. The specification defines the two kinds of source together: \"Sources of information can be either primary or secondary. Primary sources involve original documents or first-hand information and can include interviews and surveys while secondary sources often interpret primary information.\"",
+      "points": [
+        "Sources include Central Statistics Office (CSO) publications, industry reports, trade associations and competitors' published accounts.",
+        "The CSO is Ireland's national statistical office. Its Census of Population 2022 recorded a State population of 5,149,139 on 3 April 2022 and an average age of 38.8, the kind of age profile a business could use to segment its market.",
+        "The same census found the over-70s were the fastest-growing age group (up 26% since 2016) and the 40 to 44 group was the largest share of the population, which is demographic data a business could use.",
+        "Online analytics from a company's own website or social media pages are classed here as secondary data about its existing customers, because the information already exists and was not gathered for one specific question.",
+        "Strength: desk research is fast and inexpensive, and it can cover a wide area or a long period of time.",
+        "Weakness: the data may be out of date, may not match the exact question being asked, and may be available to rivals too, so it gives no edge over them."
+      ],
+      "tip": "A common mistake is to call an interview or a business's own analytics the wrong type of research. Interviews are primary, and online analytics from the firm's own site are secondary. Give the Census 2022 figures only with their date."
+    },
+    {
+      "h": "Field (primary) research",
+      "b": "Field research collects new data first-hand from customers or the market, for the business's own question. Because it is designed for that one purpose, it answers exactly what the business needs to know.",
+      "points": [
+        "Surveys are questionnaires given to a sample, by post, online, by phone or in person, and they usually produce quantitative data. Online surveys are now among the cheapest ways to reach customers.",
+        "Interviews are one-to-one conversations that give detailed insight into customers' motives and attitudes, because the interviewer can ask follow-up questions.",
+        "Focus groups bring a small group together for a guided discussion, which reveals shared views and reactions to a product.",
+        "Observation records what customers actually do in a shop or online, rather than what they say they do, which matters because people do not always act as they claim.",
+        "Test marketing launches a product in a limited area to see how customers respond before a full launch. For example, a small food producer might test a new product at a farmers' market (a sample business).",
+        "Strength: the data is specific to the business's question and is up to date.",
+        "Weakness: it is expensive and slower to collect than desk research."
+      ],
+      "tip": "When asked to outline how a business can conduct market research, name two or three methods and give each a one-line description. A list of method names alone is a common mistake. Say surveys are usually quantitative and interviews usually qualitative, never always."
+    },
+    {
+      "h": "Combining desk and field research and choosing a method",
+      "b": "Most businesses do not pick one type of research alone. Each has strengths that cover the other's weaknesses, and the choice depends on the business and the decision it faces.",
+      "points": [
+        "Businesses usually start with desk research to frame the question and save cost, then use field research to fill the gaps that existing data cannot answer.",
+        "The method chosen depends on the question being asked, the cost, the time available, the accuracy needed and the size of the business.",
+        "A small business with a limited budget may rely on desk research and a short survey, because the cost and time of research must be weighed against the value of the decision it informs."
+      ],
+      "tip": "To discuss primary against secondary research, give strengths and weaknesses of both, tie them to the size and budget of the business in the question, and end with a judgement. One-sided answers are a common mistake."
+    },
+    {
+      "h": "Quantitative and qualitative data",
+      "b": "Research produces two types of data, and businesses often use both to build a full picture of the market. One tells the business how many, the other tells it why.",
+      "points": [
+        "Quantitative data is numerical and can be counted or measured, such as the number of respondents who prefer a particular flavour.",
+        "Quantitative data can be statistically analysed, which makes it useful for comparing groups and spotting trends.",
+        "Qualitative data is descriptive and explores opinions, motives and feelings, usually gathered through interviews and focus groups.",
+        "Quantitative results show how many customers hold a view, while qualitative results explain why they hold it."
+      ],
+      "tip": "To distinguish the two, give an example of each. Surveys can include open questions and interviews can be structured, so say 'usually' rather than 'always'."
+    },
+    {
+      "h": "Sampling and judging how reliable research is",
+      "b": "A business cannot ask every customer, so it surveys a sample, a subset of a population (the whole group being studied), and uses the results to draw conclusions about the whole population. The conclusions are only as good as the sample and the questions.",
+      "points": [
+        "A representative sample reflects the key characteristics of the population, such as age and location, so its results are more reliable.",
+        "A sample that is too small or biased, such as surveying only friends, produces misleading results.",
+        "Random sampling gives every member of the population an equal chance of selection, which reduces bias.",
+        "Biased or leading questions push respondents towards an answer, so the results do not show what customers really think.",
+        "Out-of-date data no longer matches today's customers, so decisions based on it can be wrong.",
+        "What people say and what they do can differ, which is why observation is a useful check on survey answers."
+      ],
+      "tip": "A common mistake is forgetting that a sample must be representative. Do not give a minimum number of people for a sample, because the specification gives none."
+    },
+    {
+      "h": "Ethical, sustainability and digital issues in research",
+      "b": "Research involves real people and their personal information, so a business must collect it responsibly. The same tools that make research cheap online also raise questions about how data is used.",
+      "points": [
+        "Respondents must be told how their data will be used, and taking part must be voluntary.",
+        "Data must be stored securely, and children and vulnerable people need extra care.",
+        "Personal data is protected by law. The General Data Protection Regulation (GDPR), in force in Ireland since 25 May 2018, and the Data Protection Act 2018 require that personal data collected in research is lawfully collected and used for the stated purpose. The Data Protection Commission is the Irish regulator.",
+        "Online analytics and online surveys are now the cheapest sources of customer data for a business.",
+        "Research can show whether customers value sustainable products, which helps a business decide what to offer.",
+        "A biased or misleading survey wastes resources and damages the trust of customers."
+      ]
+    },
+    {
+      "h": "The target market and segmentation",
+      "b": "Once research has shown who the customers are, a business chooses which of them to focus on. That focus is the target market, and the way to find it is segmentation.",
+      "points": [
+        "The target market is the specific group of customers a business chooses to focus on, found through research and segmentation. It is narrower than the whole market.",
+        "Identifying it matters because a narrower group lets the business tailor its product and marketing to customers it understands, and use limited money where it counts. The target market also drives the marketing mix, the combination of choices a business makes to sell its product.",
+        "Market segmentation divides a market into groups that share similar characteristics or needs.",
+        "The sequence is to segment the market, then choose one or more segments to target, then build a profile of the typical customer in them."
+      ],
+      "tip": "Confusing segmentation with the target market is a common mistake. Segmentation divides the market, the target market is the segment or segments chosen, and the consumer profile describes the typical customer in it."
+    },
+    {
+      "h": "Bases for segmentation",
+      "b": "Segmentation uses four main bases to divide a market into groups that a business can target. Each base looks at customers from a different angle, and a business can combine them.",
+      "points": [
+        "Demographic: age, gender, income, occupation and family size, for example students on a budget as a group with limited money to spend.",
+        "Geographic: region, town, country, and urban or rural location, for example rural customers who need home delivery.",
+        "Psychographic: personality, values, attitudes and lifestyle, for example environmentally minded buyers who choose products on their values.",
+        "Behavioural: purchase habits, loyalty, usage rate and the benefits sought, for example weekly online shoppers."
+      ],
+      "tip": "A question may give a short stimulus, such as a firm segmenting by age, and ask you to identify the base. Name the base in one line and use an example from the stimulus."
+    },
+    {
+      "h": "Niche markets, mass markets and consumer profiles",
+      "b": "A business can aim at a small specialised group or at a large general one, and either way it needs a clear picture of who it is selling to.",
+      "points": [
+        "A niche market is a small, specialised group with distinctive needs. Its advantage is that a business can serve those needs closely with less competition, but its risk is that the group is small, so sales may be limited.",
+        "A mass market is a large group with broadly common needs. Its advantage is a large number of potential buyers, but its risk is stronger competition and a product that suits no one group closely.",
+        "A consumer profile sketches a typical customer in the target market, using age, lifestyle, needs and buying habits, so the business can picture who it is designing for."
+      ],
+      "tip": "To distinguish niche from mass market, give an example of each and link it to the business in the question."
+    }
   ],
   "keyTerms": [
     { "term": "market research", "definition": "The systematic gathering and analysis of information about customers, competitors and markets to support business decisions." },

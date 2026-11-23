@@ -4,55 +4,104 @@
   "subsection": "2. Risk tolerance, reliable information, switching providers and credit ratings",
   "syllabusRef": "4.2.2, 4.2.3, 4.2.5",
   "notes": [
-    { "h": "Risk tolerance", "b": "Risk tolerance decides which financial products suit a person, and it has to be judged honestly against the person's circumstances.", "points": [
-      "Risk tolerance is the degree of uncertainty about the value of money that a person is willing to accept in pursuit of a higher return.",
-      "Risk capacity is the ability to absorb a loss without serious hardship, and it can be lower than willingness, for example for someone with a young family and a tight budget.",
-      "A low risk tolerance suits deposit accounts and State-backed savings, while a higher tolerance may suit shares or investment funds held for many years.",
-      "Risk tolerance changes with age, income, dependants and experience, so it should be reviewed when personal circumstances change."
-    ] },
-    { "h": "Risks facing consumers of financial products", "points": [
-      "Loss of capital: an investment can fall in value, so the amount returned can be less than the amount put in.",
-      "Inflation risk: money held in low-return products can shrink in real value over time.",
-      "Interest rate risk: the repayments on a variable-rate loan rise when the lender's rate rises.",
-      "Mis-selling: a product is sold to a consumer whose needs or attitude to risk it does not suit, such as a high-risk investment sold to someone who needs security.",
-      "Hidden charges: fees, exit penalties and small-print costs reduce returns or raise the total cost of borrowing.",
-      "Over-indebtedness: borrowing more than can be repaid leads to arrears, repossession and damage to the credit record."
-    ] },
-    { "h": "Finding reliable financial information", "points": [
-      "Regulated sources are the most dependable, including the Central Bank of Ireland's consumer information service, MoneySense.",
-      "The Money Advice and Budgeting Service (MABS) gives free, confidential help to people in debt, and is funded by the State.",
-      "A regulated financial adviser must be authorised by the Central Bank and must assess a client's needs before recommending a product.",
-      "Unregulated social media commentators, sometimes called finfluencers, may promote products without disclosing payments, and without knowing a follower's circumstances.",
-      "Comparison websites help consumers compare prices, but the consumer should check whether the site earns commission from the products it lists.",
-      "A simple test for any source: is it regulated, does it gain from a sale, and does it explain the risks as well as the rewards?"
-    ] },
-    { "h": "Switching providers", "b": "Switching means moving a product to a different provider to get a better rate, lower charges or better service.", "points": [
-      "Switching can apply to a current account, savings account, mortgage or insurance policy, and is the main way a consumer can end a poor deal.",
-      "Loyalty can be penalised in some markets, because new customers are sometimes offered better rates than existing customers.",
-      "The process involves comparing products, checking exit charges, applying to the new provider and then closing or transferring the old product.",
-      "Barriers include early repayment charges, exit fees, lock-in periods on fixed-rate products, the time and paperwork involved, and inertia.",
-      "Switching a mortgage can involve valuation and legal costs, so the saving must be large enough to outweigh the cost of making the move."
-    ] },
-    { "h": "Credit ratings and the Central Credit Register", "points": [
-      "A credit rating is a record of how reliably a person has handled borrowing, built up from their financial history.",
-      "The Central Credit Register (CCR), run by the Central Bank of Ireland, holds records of consumers' loans and credit agreements, and lenders can check it before lending.",
-      "The record includes details of loans and credit cards, repayment history and whether payments were late or missed.",
-      "Negative entries stay on the record for a period set by the rules, so a poor history can affect borrowing for years after a problem is resolved.",
-      "Lenders use the credit history to decide whether to lend and on what terms, including the interest rate charged."
-    ] },
-    { "h": "Factors that affect a credit rating", "points": [
-      "Repayment history: a consistent record of paying on time is the strongest positive factor.",
-      "Arrears: missed or late payments are recorded and weigh heavily against the borrower.",
-      "Level of debt: high borrowing relative to income suggests the borrower may struggle with further repayments.",
-      "Number of applications: many credit applications in a short period can suggest financial stress.",
-      "Court judgments: a judgment for an unpaid debt is a serious negative entry on the record."
-    ] },
-    { "h": "Consequences of a poor rating", "points": [
-      "A lender may refuse a loan, credit card or mortgage application, and some landlords and service providers may also check credit history.",
-      "A borrower judged to be higher risk is offered credit at higher interest rates, which increases the cost of everything borrowed.",
-      "The record travels with the person, so the effects can last for years, and they ease only as the negative entries age off the record.",
-      "Steps to improve a record include paying on time, reducing debt, avoiding unnecessary applications, and seeking early help from MABS or the lender."
-    ] }
+    {
+      "h": "Risk tolerance and risk capacity",
+      "b": "Financial products come from regulated providers (banks, insurers, investment firms) and are bought by consumers, meaning individuals buying for personal use. Risk and return go together: a higher potential return usually means a higher chance of losing money, so a consumer has to decide how much risk suits them.",
+      "points": [
+        "Risk tolerance is the degree of uncertainty about the value of money that a person is willing to accept in pursuit of a higher return. It is about willingness: how comfortable you are with your money going up and down.",
+        "Risk capacity is the ability to absorb a loss without serious hardship. It can be lower than willingness, for example for someone with a young family and a tight budget who feels bold but could not cope with losing savings.",
+        "Do not confuse the two: tolerance is willingness to accept uncertainty, capacity is ability to survive a loss. A sensible choice of product respects whichever is lower.",
+        "A low risk tolerance suits deposit accounts and State-backed savings, because the money is very unlikely to fall in value. A higher tolerance may suit shares or investment funds held for many years, because there is time to recover from falls.",
+        "Risk tolerance changes with age, income, dependants (people who rely on you financially) and experience, so it should be reviewed whenever personal circumstances change, such as a new child or a change of job."
+      ],
+      "tip": "Examiners can ask you to explain risk tolerance. Give the definition, then link it to a product that suits it. Keep tolerance (willingness) separate from capacity (ability to absorb a loss)."
+    },
+    {
+      "h": "Risks facing consumers of financial products",
+      "b": "Every financial product carries some risk for the consumer, and the risk is not always obvious when the product is sold. Knowing the main risks lets a consumer ask the right questions before signing.",
+      "points": [
+        "Loss of capital: an investment can fall in value, so the amount returned can be less than the amount put in. This is the price of seeking a higher return.",
+        "Inflation risk: money held in low-return products can shrink in real value over time, because prices rise faster than the money grows, so it buys less than before.",
+        "Interest rate risk: the repayments on a variable-rate loan (one where the rate can change) rise when the lender's rate rises, which can make a loan that was affordable at the start a strain.",
+        "Mis-selling: a product is sold to a consumer whose needs or attitude to risk it does not suit, such as a high-risk investment sold to someone who needs security. It is also an ethical failure by the provider.",
+        "Hidden charges: fees, exit penalties and small-print costs reduce returns or raise the total cost of borrowing, so the headline rate may not show what the consumer really pays.",
+        "Over-indebtedness: borrowing more than can be repaid leads to arrears (missed repayments), repossession of the home or goods bought on credit, and damage to the credit record.",
+        "Digital risk: buying products online exposes consumers to fraud and scams, so check that the provider is genuine before handing over details."
+      ],
+      "tip": "When asked for one risk of a financial product, name it and say what happens to the consumer. For example, loss of capital means less is returned than was put in."
+    },
+    {
+      "h": "Finding reliable financial information",
+      "b": "Choosing a product well depends on good information, and not everyone who offers financial advice is trustworthy. Reliable sources are regulated, independent and honest about risk.",
+      "points": [
+        "The Central Bank of Ireland runs a consumer hub with explainers for the public, and the Competition and Consumer Protection Commission (CCPC) publishes consumer money pages, including a guide to your credit history. Both are regulated, independent sources.",
+        "The Money Advice and Budgeting Service (MABS) gives free, confidential help to people in debt, and is funded and supported by the Citizens Information Board.",
+        "A regulated financial adviser is authorised by the Central Bank and must assess a client's needs before recommending a product. This protects the consumer, because the advice has to fit the person.",
+        "Unregulated social media commentators, sometimes called finfluencers, may promote products without disclosing payments, and without knowing a follower's circumstances. This matters because a MABS survey of post-primary students found 34 per cent learn about money on social media.",
+        "Comparison websites help consumers compare prices quickly online, but the consumer should check whether the site earns commission from the products it lists, because that may shape which products it shows first. Undisclosed commission is an ethical failure.",
+        "A simple three-question test for any source: is it regulated, does it gain from a sale, and does it explain the risks as well as the rewards? A reliable source is regulated, has no stake in a sale and is honest about risk."
+      ],
+      "tip": "Use the three-question test (regulated, gains from a sale, explains the risks) to judge an unfamiliar source in a stimulus. Do not confuse an adviser who must assess your needs with a commentator or comparison site that earns commission."
+    },
+    {
+      "h": "Switching providers",
+      "b": "Switching means moving a product to a different provider to get a better rate, lower charges or better service. It is the main way a consumer can end a poor deal.",
+      "points": [
+        "Switching can apply to a current account, savings account, mortgage or insurance policy.",
+        "Loyalty can be penalised in some markets, because new customers are sometimes offered better rates than existing customers. This is a fairness question: staying put can cost more than moving.",
+        "The process has four steps: 1. compare products. 2. check exit charges on the old product. 3. apply to the new provider. 4. close or transfer the old product.",
+        "Barriers to switching include early repayment charges, exit fees, lock-in periods on fixed-rate products (where leaving early is penalised), the time and paperwork involved, and inertia, meaning people simply do not get round to it.",
+        "Switching a mortgage can involve valuation and legal costs, so the saving must outweigh the cost of making the move. The Central Bank's Consumer Protection Code now covers mortgage switching.",
+        "Comparing and applying are quicker online, which lowers the time barrier."
+      ],
+      "tip": "For a question on why switching matters, give the benefit (better rate, lower charges, better service) and then one barrier. Switching a provider is not the same as refinancing a loan."
+    },
+    {
+      "h": "Credit ratings and the Central Credit Register",
+      "b": "Credit means borrowing against a promise to repay, and a lender decides whether to lend by judging how likely repayment is. A credit rating (also called a credit history) is the record the lender looks at: how reliably a person has handled borrowing.",
+      "points": [
+        "The Central Credit Register (CCR) is run by the Central Bank of Ireland. It was set up under the Credit Reporting Act 2013, and it collects personal and credit information from lenders every month.",
+        "Lenders can check the CCR before lending, and individuals can request their own credit report, which can be done online. The report shows positive and negative records, but it does not show a single credit score.",
+        "Records include credit cards, overdrafts, personal loans, mortgages, hire purchase, PCP and asset finance, along with repayment history and whether payments were late or missed. Loans of 500 euro or more are recorded, and so are credit applications.",
+        "Utility bills, salary, tax and deposit accounts are not recorded.",
+        "Loan information is kept for up to five years after the loan is repaid, written off or discharged. Applications are kept for six months. For an unsettled default, the five years starts only when the lender reports it discharged.",
+        "Lenders use the history to decide whether to lend and on what terms, including the interest rate charged."
+      ],
+      "tip": "The CCR gives a credit report, not a number. Keep credit rating (the record) separate from credit score (a number the CCR does not show)."
+    },
+    {
+      "h": "Factors that affect a credit rating",
+      "b": "A lender reading a credit report is asking one question: how likely is this person to repay? Each factor below is evidence for or against.",
+      "points": [
+        "Repayment history: a consistent record of paying on time is the strongest positive factor, because it shows past borrowing was handled reliably.",
+        "Arrears: missed or late payments are recorded and weigh against the borrower, because they suggest repayments may be missed again.",
+        "Level of debt: high borrowing relative to income suggests the borrower may struggle to meet further repayments.",
+        "Number of applications: many credit applications in a short period can suggest financial stress, and every application is recorded.",
+        "Legal action or court judgments: legal action by a lender over an unpaid debt is a serious negative marker. Settling a loan for less than is owed is also recorded as a negative."
+      ],
+      "tip": "For an outline of three factors, state three distinct factors in a short phrase each, with a clause on why each counts. A common mistake is giving a consequence (loan refused) instead of a factor, repeating late payment in three ways, or confusing credit rating with income."
+    },
+    {
+      "h": "Consequences of a poor rating and how to improve it",
+      "b": "A poor credit record makes borrowing harder and dearer, and because it is held on the register it travels with the person over time.",
+      "points": [
+        "A lender may refuse a loan, credit card or mortgage application, because the record suggests a higher chance of non-repayment. Some landlords and service providers may also check credit history.",
+        "A borrower judged to be higher risk is offered credit at higher interest rates, which increases the cost of everything borrowed.",
+        "The effects can last for years and ease only as the negative entries age off the record, which is why a problem is not forgotten the day it is resolved.",
+        "Steps to improve a record include paying on time, reducing debt, avoiding unnecessary applications, and seeking early help from MABS or the lender.",
+        "Ethically, lenders have a duty to treat borrowers in difficulty fairly, which is another reason to contact the lender early."
+      ],
+      "tip": "When asked what a poor rating leads to, give refusal of credit and credit at higher interest rates, then say the effects last for years. When asked to describe, add how entries age off the record."
+    },
+    {
+      "h": "Ethical, digital and sustainability angles",
+      "b": "Ethical, digital and sustainability thinking can be applied to financial choices. Each of these angles links back to the earlier blocks.",
+      "points": [
+        "Ethical: mis-selling and undisclosed commission are ethical failures by providers, finfluencers who do not disclose payments mislead followers, and loyalty penalties on existing customers raise questions of fairness.",
+        "Digital: switching and comparison are quicker online, and credit history is held digitally and can be requested online. Social media is now a common route to financial information and to scams, so always check the source.",
+        "Sustainability: ask whether a provider publishes how it invests, for example in sustainable funds or green mortgages, so that a consumer can choose products that fit their values as well as their budget."
+      ]
+    }
   ],
   "keyTerms": [
     { "term": "Risk tolerance", "definition": "The degree of uncertainty about the value of money that a person is willing to accept in pursuit of a higher return." },
@@ -77,7 +126,7 @@
   ],
   "questions": [
     { "marks": 15, "prompt": "Explain three factors that can lower a person's credit history, and outline two consequences of a poor history for that person.", "model": "First, arrears: missed or late repayments are recorded and count heavily against the borrower. Second, a high level of debt relative to income signals that further repayments may be difficult. Third, many credit applications in a short time can suggest financial stress to a lender. Consequences include refusal of loans, cards or mortgages, and higher interest rates on any credit that is approved, which raises the total cost of borrowing." },
-    { "marks": 20, "prompt": "Analyse the risks facing a consumer who is considering a variable-rate mortgage and a higher-risk investment fund, and explain how the consumer could reduce these risks.", "model": "The variable-rate mortgage carries interest rate risk, because repayments rise when the lender raises its rate, which could strain the household budget. The investment fund carries loss of capital risk, because its value can fall and leave less than was invested, and it may also carry hidden charges that reduce returns. To reduce these risks, the consumer should match the mortgage to what the household could still afford at a higher rate, check whether a fixed-rate option is available, and invest only money not needed in the short term. The consumer should also check the product's terms and charges and seek regulated advice, such as MABS or a Central Bank authorised adviser, before committing." },
+    { "marks": 20, "prompt": "Analyse the risks facing a consumer who is considering a variable-rate mortgage and a higher-risk investment fund, and explain how the consumer could reduce these risks.", "model": "The variable-rate mortgage carries interest rate risk, because repayments rise when the lender raises its rate, which could strain the household budget. The investment fund carries loss of capital risk, because its value can fall and leave less than was invested, and it may also carry hidden charges that reduce returns. To reduce these risks, the consumer should match the mortgage to what the household could still afford at a higher rate, check whether a fixed-rate option is available, and invest only money not needed in the short term. The consumer should also check the product's terms and charges and seek advice from a Central Bank authorised adviser before committing." },
     { "marks": 10, "prompt": "Outline the process of switching providers and identify two barriers a consumer might face.", "model": "Switching involves comparing products, checking any exit charges, applying to the new provider and then closing or transferring the old product. Two barriers are early repayment charges, which make leaving a fixed-rate loan expensive, and the time and paperwork involved, which can discourage consumers from acting even when a better deal exists." }
   ]
 }

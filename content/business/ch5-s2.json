@@ -4,61 +4,107 @@
   "subsection": "2. Trading internationally, and the balance of payments",
   "syllabusRef": "1.5.4, 1.5.5, 1.5.6",
   "notes": [
-    { "h": "Ireland as a small open economy", "b": "Ireland has a small home market and depends heavily on trade, so international markets matter for businesses and for national income.", "points": [
-      "A small open economy has a small domestic market and relies on exports and imports to sustain growth and living standards.",
-      "Because the home market is small, Irish firms often need overseas customers before they can grow beyond a certain size.",
-      "Trade dependence means that a fall in demand from a major trading partner can quickly reach Irish businesses and jobs.",
-      "Ireland exports large volumes of pharmaceuticals, ICT services and food, much of it produced by multinational firms based here.",
-      "Because foreign-owned exporters send a share of their profits abroad, export earnings do not all stay in the Irish economy."
-    ] },
-    { "h": "Why Irish businesses trade internationally", "b": "Firms expand abroad to grow, spread risk and access resources that the home market cannot provide.", "points": [
-      "Growth: overseas markets offer more customers than a small home market, so sales can keep growing.",
-      "Economies of scale: higher output for export markets can lower average costs per unit and improve competitiveness.",
-      "Spreading risk: sales in several countries reduce dependence on one economy or one large customer.",
-      "Access to inputs: firms may source raw materials, components or skilled staff abroad where they are cheaper or better."
-    ] },
-    { "h": "Factors to consider before entering an international market", "b": "Six factors shape the cost, risk and feasibility of trading in a foreign market.", "points": [
-      "Taxes and tariffs: import duties and local taxes can make a product uncompetitive, so a firm must compare the duty payable with local rivals' costs.",
-      "Costs: labour, transport, distribution and rent differ between countries, which changes the profitability of entering a market.",
-      "Exchange rates: a stronger euro makes Irish exports more expensive for overseas buyers, and currency movements change the euro value of earnings.",
-      "Regulation: product standards, labelling and licensing rules differ between countries, and compliance can be costly.",
-      "Competition: the number and strength of local rivals determines how easily a new entrant can win customers.",
-      "Language and culture: differences in language, customs and buying habits affect marketing, and a poor fit can damage a brand."
-    ] },
-    { "h": "Methods of entering a foreign market", "b": "Firms choose an entry method according to how much control, cost and risk they are willing to accept.", "points": [
-      "Exporting sends goods from the home country and is the least costly and least committed method, though it gives limited control.",
-      "Agents and distributors sell on the firm's behalf in the foreign market, which brings local knowledge but less control over pricing.",
-      "Licensing lets a foreign firm use the company's patents, brand or technology in return for royalties.",
-      "Franchising lets a foreign operator use the brand and business model in return for fees.",
-      "A joint venture shares ownership and risk with a local partner, which helps with local knowledge and regulation.",
-      "Direct investment, such as a subsidiary or factory, offers the most control and commitment but carries the highest risk."
-    ] },
-    { "h": "Benefits and challenges of trading internationally", "b": "Trade can raise sales and profits, but it exposes firms to new costs and risks.", "points": [
-      "Benefit: a larger customer base can raise sales and profits, which can make investment in products and jobs at home more viable.",
-      "Benefit: exposure to international competition can push firms to improve quality, productivity and innovation.",
-      "Benefit: firms with diversified markets are less affected when one market slows down.",
-      "Challenge: foreign languages, legal systems and business customs add time and cost to deals.",
-      "Challenge: currency movements can change the euro value of overseas earnings and costs.",
-      "Challenge: trade barriers, sanctions or political change can close a market quickly.",
-      "Challenge: distance raises transport costs and delivery times, especially for perishable goods."
-    ] },
-    { "h": "Balance of trade and balance of payments", "b": "The balance of trade counts only visible goods, while the balance of payments records all transactions between Ireland and the rest of the world.", "points": [
-      "Visible trade means physical goods that cross borders, such as machinery, food and pharmaceuticals.",
-      "Balance of trade equals the value of visible exports minus the value of visible imports over a period.",
-      "A surplus means exports exceed imports; a deficit means imports exceed exports.",
-      "The current account records goods, services, primary income such as profits and interest, and secondary income such as transfers.",
-      "The capital account records capital transfers, and the financial account records investment flows such as foreign direct investment.",
-      "Balance of payments is the combined total of the current, capital and financial accounts, and the accounts are reconciled with an errors and omissions item.",
-      "Because the current account includes profit flows, Irish current account figures are heavily influenced by multinational companies."
-    ] },
-    { "h": "Worked calculation with sample figures", "b": "The figures below are invented for illustration and are labelled sample figures. They are not Irish statistics.", "points": [
-      "Sample figures, goods: exports €60 billion and imports €45 billion. Balance of trade = €60 billion minus €45 billion = €15 billion surplus.",
-      "Sample figures, services: exports €35 billion and imports €25 billion, so the net services balance = €10 billion surplus.",
-      "Sample figures, income and transfers: net primary income = minus €20 billion (profit outflows exceed inflows) and net secondary income = minus €2 billion.",
-      "Sample figures, current account = goods balance + services balance + primary income + secondary income = €15 billion + €10 billion minus €20 billion minus €2 billion = €3 billion surplus.",
-      "Sample figures, deficit case: goods exports €30 billion and imports €38 billion give a balance of trade of minus €8 billion, a deficit.",
-      "The current account (€3 billion surplus) and the balance of trade (€15 billion surplus) differ because the current account also includes services and income flows."
-    ] }
+    {
+      "h": "Ireland as a small open economy",
+      "b": "Ireland has a small home market and depends heavily on trade, so international markets matter for businesses and for national income. An open economy is one that trades a great deal with the rest of the world.",
+      "points": [
+        "Exports are goods and services sold abroad and imports are goods and services bought from abroad. A small open economy has a small domestic market and relies on both to sustain growth and living standards.",
+        "Because the home market is small, Irish firms often need overseas customers before they can grow beyond a certain size, since there are simply not enough buyers at home.",
+        "Trade dependence means that a fall in demand from a major trading partner can quickly reach Irish businesses and jobs, because so many firms sell a large share of their output abroad.",
+        "Ireland exports large volumes of pharmaceuticals, ICT services and food, much of it produced by multinational firms (companies based in several countries) located here. Much of the export value comes from foreign-owned firms, not from Irish-owned ones.",
+        "Because foreign-owned exporters send a share of their profits abroad, export earnings do not all stay in the Irish economy. This is why high export figures do not translate fully into Irish incomes."
+      ],
+      "tip": "When asked why Irish businesses trade globally with reference to the open economy, link the small home market to the need for exports and give a reason for each point you make."
+    },
+    {
+      "h": "Why Irish businesses trade internationally",
+      "b": "Firms expand abroad to grow, spread risk and access resources that the home market cannot provide. Each reason below has a different effect on the business.",
+      "points": [
+        "Growth: overseas markets offer more customers than a small home market, so sales can keep growing after the Irish market is saturated.",
+        "Economies of scale: producing more for export markets can lower the average cost per unit (cost of making each item falls as output rises), which improves competitiveness.",
+        "Spreading risk: sales in several countries reduce dependence on one economy or one large customer, so a slump in one market does not sink the firm.",
+        "Access to inputs: firms may source raw materials, components or skilled staff abroad where they are cheaper or better, which lowers costs or raises quality."
+      ]
+    },
+    {
+      "h": "Factors to consider before entering an international market",
+      "b": "Six factors shape the cost, risk and feasibility of trading in a foreign market. A firm weighs each one against its own product and plans before deciding to enter.",
+      "points": [
+        "Taxes and tariffs: a tariff is a tax on imports, and import duties and local taxes can make a product uncompetitive. A firm must compare the duty payable with local rivals' costs, because a tariff raises the price against them.",
+        "Costs: labour, transport, distribution and rent differ between countries, which changes the profitability of entering a market. A cheap market with high transport costs may still not pay.",
+        "Exchange rates: the exchange rate is the price of one currency in terms of another. A stronger euro makes Irish exports more expensive for overseas buyers, and currency movements change the euro value of earnings.",
+        "Regulation: product standards, labelling and licensing rules differ between countries, and compliance can be costly because a product may need to be changed before it can be sold.",
+        "Competition: the number and strength of local rivals determines how easily a new entrant can win customers, since strong rivals can cut prices or already hold customer loyalty.",
+        "Language and culture: differences in language, customs and buying habits affect marketing, and a poor fit can damage a brand. A sample Irish food exporter, for example, might need new labels and recipes for a different market."
+      ],
+      "tip": "If asked for three factors, give three distinct ones and explain each one's effect on the firm, for example a tariff raises the price against local rivals. A common mistake is naming factors with no effect, or giving two that are really the same. Remember a stronger euro hurts exporters but helps importers; do not state it the other way round."
+    },
+    {
+      "h": "Methods of entering a foreign market",
+      "b": "Firms choose an entry method according to how much control, cost and risk they are willing to accept. The methods run from low commitment to high commitment.",
+      "points": [
+        "Exporting sends goods from the home country and is the least costly and least committed method, though it gives limited control over how the product is sold abroad.",
+        "Agents and distributors sell on the firm's behalf in the foreign market, which brings local knowledge but less control over pricing.",
+        "Licensing lets a foreign firm use the company's patents, brand or technology in return for royalties (payments for each use or sale).",
+        "Franchising lets a foreign operator use the brand and the whole business model in return for fees. Licensing is paid by royalties for the right to use something; franchising is fees for a complete business package.",
+        "A joint venture shares ownership and risk with a local partner, which helps with local knowledge and regulation.",
+        "Direct investment, such as setting up a subsidiary or building a factory abroad, offers the most control and commitment but carries the highest risk because the firm puts its own capital at stake."
+      ],
+      "tip": "Do not confuse exporting with direct investment: exporting ships goods from home, while direct investment means owning operations abroad. Keep licensing (royalties) separate from franchising (fees and the whole business model)."
+    },
+    {
+      "h": "Benefits and challenges of trading internationally",
+      "b": "Trade can raise sales and profits, but it exposes firms to new costs and risks. To compare them, set each benefit against the challenge that works against it.",
+      "points": [
+        "Benefit: a larger customer base can raise sales and profits, which can make investment in products and jobs at home more viable.",
+        "Benefit: exposure to international competition can push firms to improve quality, productivity and innovation, because they must match the best rivals to survive.",
+        "Benefit: firms with diversified markets (sales spread over several countries) are less affected when one market slows down.",
+        "Challenge: foreign languages, legal systems and business customs add time and cost to deals.",
+        "Challenge: currency movements can change the euro value of overseas earnings and costs, so a profitable deal can become less profitable.",
+        "Challenge: trade barriers, sanctions or political change can close a market quickly. A quota, a limit on the quantity of imports allowed, is one such barrier.",
+        "Challenge: distance raises transport costs and delivery times, especially for perishable goods that spoil on the way."
+      ],
+      "tip": "When asked to compare, cover both benefits and challenges, refer to each throughout, and end with a judgement. A common mistake is writing two separate lists with no comparison."
+    },
+    {
+      "h": "Ethical, sustainability and digital angles of trading abroad",
+      "b": "International trade also raises questions about the environment and about how suppliers are treated, and technology has made it easier for small firms to take part.",
+      "points": [
+        "Sustainability: longer supply chains and freight add emissions, so sourcing nearer home cuts transport emissions.",
+        "Ethical: sourcing inputs where labour costs are lowest raises concerns about wages and working conditions in supplier factories, and businesses may be expected to check their suppliers.",
+        "Digital: online marketplaces and websites let small Irish firms sell abroad without a local presence, which lowers the cost of entering a market.",
+        "Digital customs documentation and payment systems make exporting easier, because paperwork and payments can be handled online.",
+        "Digital services, such as software, count as part of services trade in the balance of payments."
+      ]
+    },
+    {
+      "h": "Balance of trade and balance of payments",
+      "b": "The balance of trade counts only visible goods, while the balance of payments records all transactions between Ireland and the rest of the world over a period. Knowing exactly what each one includes is how you tell them apart.",
+      "points": [
+        "Visible trade means physical goods that cross borders, such as machinery, food and pharmaceuticals. Invisible trade means services, such as software or tourism, which cannot be touched.",
+        "Balance of trade equals the value of visible exports minus the value of visible imports over a period. It counts goods only, so services are left out.",
+        "A surplus is a positive balance, where exports exceed imports; a deficit is a negative balance, where imports exceed exports.",
+        "The balance of payments is the record of all transactions between Ireland and the rest of the world over a period. It records the current account together with the capital and financial accounts.",
+        "The current account records goods, services, primary income such as profits and interest, and secondary income such as transfers. The current account balance is the figure normally calculated when a question asks for a balance of payments surplus or deficit.",
+        "The capital account records capital transfers, and the financial account records investment flows such as foreign direct investment (a firm investing in a business abroad). An errors and omissions item reconciles the accounts because the recorded figures never match exactly.",
+        "A trade surplus does not mean a current account surplus, because services and income flows can reverse it. Profit outflows are large for Ireland.",
+        "Because the current account includes profit flows, Irish figures are heavily influenced by multinational companies. The CSO therefore publishes modified measures, such as the modified current account (CA*), that strip out globalisation effects."
+      ],
+      "tip": "A common mistake in fill-in-the-blank items is including services in the balance of trade; it is visible goods only. When asked to distinguish the two, say what each records and give at least one difference: goods only versus goods, services, income and financial flows."
+    },
+    {
+      "h": "Worked calculation with sample figures",
+      "b": "The figures below are invented for illustration and are labelled sample figures, not Irish statistics. Work through the stages in order, keeping the sign of each line.",
+      "points": [
+        "1. Sample figures, goods: exports €60 billion and imports €45 billion. Balance of trade = €60 billion minus €45 billion = €15 billion surplus.",
+        "2. Sample figures, services: exports €35 billion and imports €25 billion, so the net services balance = €10 billion surplus.",
+        "3. Sample figures, income and transfers: net primary income = minus €20 billion (profit outflows exceed inflows) and net secondary income = minus €2 billion.",
+        "4. Sample figures, current account = goods balance + services balance + primary income + secondary income = €15 billion + €10 billion minus €20 billion minus €2 billion = €3 billion surplus.",
+        "Sample figures, deficit case: goods exports €30 billion and imports €38 billion give a balance of trade of minus €8 billion, a deficit.",
+        "The current account (€3 billion surplus) and the balance of trade (€15 billion surplus) differ because the current account also includes services and income flows."
+      ],
+      "tip": "In a calculation, show every stage of the working, give the answer with its unit, and label it surplus or deficit. A common mistake is the wrong sign on the net income lines, or leaving out the surplus or deficit label."
+    }
   ],
   "keyTerms": [
     { "term": "Small open economy", "definition": "An economy with a small domestic market that depends heavily on international trade for growth." },

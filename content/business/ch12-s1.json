@@ -4,50 +4,96 @@
   "subsection": "1. The risks of enterprise and why risk management matters",
   "syllabusRef": "2.7.1, 2.7.2",
   "notes": [
-    { "h": "Enterprise and risk", "b": "Enterprise means taking a business idea forward and running a venture. The person who starts it carries the risk that the venture fails.", "points": [
-      "An entrepreneur brings together money, premises, people and ideas to pursue a business opportunity, and bears the financial loss if it fails.",
-      "Risk is the chance that an event will harm a business or stop it reaching its objectives.",
-      "The outcome of a new venture is uncertain, so risk cannot be removed entirely; it can only be identified, reduced and managed.",
-      "Profit is often seen as the reward for bearing risk, which is why taking sensible risks is central to enterprise."
-    ] },
-    { "h": "Challenges of starting a business", "b": "New businesses face several challenges that can threaten their survival in the first years.", "points": [
-      "Finance: raising start-up capital and keeping enough cash flowing until sales cover costs is often the hardest challenge.",
-      "Competition: established firms and new rivals can take market share and force prices down.",
-      "Time: the owner often works very long hours and may struggle to balance running the business with other demands.",
-      "Skills: a founder may lack experience in marketing, accounting or managing staff, which raises the chance of costly mistakes.",
-      "Regulation: licences, employment law, tax obligations and health and safety rules add cost and paperwork from the start."
-    ] },
-    { "h": "Categories of business risk", "b": "Grouping risks into categories helps a firm identify each one in a structured way.", "points": [
-      "Financial risk: losses caused by poor cash flow, rising borrowing costs, bad debts or movements in exchange rates.",
-      "Market risk: falls in demand, changes in customer tastes or actions by competitors that reduce sales or prices.",
-      "Operational risk: failures in processes, equipment breakdown, supplier problems or loss of key staff that disrupt production or service.",
-      "Legal and compliance risk: breaking contract, employment, consumer, tax or data protection law.",
-      "Reputational risk: damage to a brand from poor product quality, a safety incident or a public complaint, which can lose customers.",
-      "Cyber and technological risk: hacking, ransomware, data loss or system failure that halts trading or exposes customer data.",
-      "Environmental and climate risk: flooding, extreme weather, shortages of raw materials or new carbon rules that affect costs and premises.",
-      "Personal risk to the entrepreneur: illness, loss of income, or personal guarantees given to lenders that can put the owner's own assets at risk."
-    ] },
-    { "h": "The risk assessment process", "b": "Risk assessment is a repeating cycle that shows a firm which risks need action first.", "points": [
-      "Step one, identify: list the risks the business faces, using the main categories and the knowledge of staff.",
-      "Step two, evaluate: estimate the likelihood of each risk occurring and the impact on the business if it does.",
-      "Step three, prioritise: place each risk on a risk matrix so that high-likelihood, high-impact risks are dealt with first.",
-      "Step four, act: choose a response such as avoiding, reducing, transferring or accepting the risk.",
-      "Step five, monitor: review the risk register regularly, because likelihood and impact change as the business and its environment change."
-    ] },
-    { "h": "Why managing risk matters", "b": "Managing risk protects a business against threats that could stop it trading and lets it pursue opportunities with a clear view of the downside.", "points": [
-      "Survival: a single uninsured fire, lawsuit or serious cyber attack can close a small business, so managing risk protects its ability to keep trading.",
-      "Lower costs: good controls, such as fire safety and security measures, can help a firm obtain lower insurance premiums.",
-      "Legal duty: the Safety, Health and Welfare at Work Act 2005 requires employers to manage risks to the safety and health of employees, and the Health and Safety Authority enforces it.",
-      "Investor and lender confidence: banks and investors are more willing to finance firms that show they identify and control their risks.",
-      "Continuity: planning for disruption, such as a supplier failure or flood, lets a firm recover quickly and keep serving customers.",
-      "Better decisions: knowing the risks helps managers judge whether an opportunity is worth its potential downside."
-    ] },
-    { "h": "Risk, sustainability and digital change", "b": "The four cross-cutting angles of the course all create or change business risk.", "points": [
-      "Environmental risk includes the cost of meeting climate rules, such as limits on carbon emissions from transport and manufacturing.",
-      "An ethical lapse, such as unsafe working conditions among a supplier's staff, creates both legal risk and reputational risk for the buyer.",
-      "Moving sales online adds cyber risk: a firm must protect customer payment data and comply with data protection law.",
-      "An entrepreneur who plans for risk from the start, rather than reacting to it, is more likely to build a business that lasts."
-    ] }
+    {
+      "h": "Enterprise and risk",
+      "b": "Enterprise means taking a business idea forward and running a venture. Whoever starts it carries the risk that it fails, so risk sits at the centre of enterprise.",
+      "points": [
+        "An entrepreneur (the person who starts the venture) brings together money, premises, people and ideas to pursue a business opportunity, and bears the financial loss if it fails.",
+        "Risk is the chance that an event will harm a business or stop it reaching its objectives. A sample business such as a new shop, for example, risks losing its start-up money if customers do not come.",
+        "Risk management means identifying, assessing, responding to and monitoring risks so the business can protect itself and still pursue its goals.",
+        "A risk is measured in two ways: likelihood (how probable the event is) and impact (how big the damage would be if it happened).",
+        "The outcome of a new venture is uncertain, so risk cannot be removed entirely. It can only be identified, reduced and managed.",
+        "Profit is often seen as the reward for bearing risk, which is why taking sensible risks is central to enterprise.",
+        "Risks fall on different stakeholders (anyone affected by the business): a failure hits the owner's money, staff jobs, lenders' repayments, customers' orders and suppliers' payments."
+      ],
+      "tip": "Keep three pairs apart: risk (a chance of harm) versus uncertainty (an outcome nobody can know), likelihood versus impact, and a risk (a possible event) versus a loss (the damage once it has happened)."
+    },
+    {
+      "h": "Challenges of starting a business",
+      "b": "New businesses face several challenges that can threaten their survival in the first years. Each one has an effect on the business that you should be able to state.",
+      "points": [
+        "Finance: raising start-up capital and keeping enough cash flowing until sales cover costs is often the hardest challenge, because bills arrive before customers pay.",
+        "Competition: established firms and new rivals can take market share and force prices down, which squeezes the new firm's income.",
+        "Time: the owner often works very long hours and may struggle to balance running the business with other demands, such as family life.",
+        "Skills: a founder may lack experience in marketing, accounting or managing staff, so mistakes are costlier.",
+        "Regulation: licences, employment law, tax obligations and health and safety rules add cost and paperwork from the start."
+      ],
+      "tip": "For 'outline', give each challenge briefly with its main effect. If a question gives you a specific business, name that business and its sector rather than describing challenges in general terms."
+    },
+    {
+      "h": "Categories of business risk",
+      "b": "Grouping risks into categories helps a firm identify each one in a structured way, so none is overlooked. There are eight categories, each with its own typical causes.",
+      "points": [
+        "Financial risk: losses caused by poor cash flow, rising borrowing costs, bad debts (customers who never pay) or movements in exchange rates.",
+        "Market risk: falls in demand, changes in customer tastes or actions by competitors that reduce sales or prices.",
+        "Operational risk: failures in processes, equipment breakdown, supplier problems or loss of key staff that disrupt production or service.",
+        "Legal and compliance risk: breaking contract, employment, consumer, tax or data protection law.",
+        "Reputational risk: damage to a brand from poor product quality, a safety incident or a public complaint, which can lose customers.",
+        "Cyber and technological risk: hacking, ransomware (malicious software that locks a firm's data until a payment is made), data loss or system failure that halts trading or exposes customer data.",
+        "Environmental and climate risk: flooding, extreme weather, shortages of raw materials or new carbon rules that affect costs and premises.",
+        "Personal risk to the entrepreneur: illness, loss of income, or personal guarantees given to lenders that can put the owner's own assets at risk."
+      ],
+      "tip": "When a stimulus describes an event, name the category and tie it to the facts given. A ransomware attack is cyber and technological risk, with a reputational knock-on if customers lose trust."
+    },
+    {
+      "h": "Real examples of risk: Storm Éowyn, the HSE and cyber attacks",
+      "b": "Real events show how these categories turn into costs for businesses.",
+      "points": [
+        "Environmental and climate risk: Storm Éowyn hit Ireland in January 2025. As of August 2025 the final insurance bill was over €301 million, the most expensive weather event in Irish insurance history.",
+        "Of the 33,768 Storm Éowyn claims, 9,725 were business claims worth €165.6 million (as of August 2025), so extreme weather damaged many firms' premises and trading.",
+        "Cyber risk: a ransomware attack on the Health Service Executive (the public health service) in May 2021 is an example of cyber and technological risk.",
+        "The Hiscox Cyber Readiness Report 2026 surveyed 300 Irish businesses with fewer than 250 staff. As of September 2026, small and medium enterprises hit by a successful attack averaged 34 hours of disruption over 12 months.",
+        "In the same survey, 36% of affected small and medium enterprises lost business opportunities or partnerships, and 48% ranked reputational damage or loss of customer trust among their greatest cyber risks."
+      ],
+      "tip": "Use the stimulus a question gives you. Say who is affected (owner, staff, customers, lenders) and how, so that your answer applies to that business rather than to risk in general."
+    },
+    {
+      "h": "The risk assessment process",
+      "b": "Risk assessment is a repeating cycle of five steps that shows a firm which risks need action first. It is repeated because the risks change over time.",
+      "points": [
+        "1. Identify: list the risks the business faces, using the main categories and the knowledge of staff, who know where things go wrong.",
+        "2. Evaluate: estimate the likelihood of each risk occurring and the impact on the business if it does.",
+        "3. Prioritise: place each risk on a risk matrix, a grid that plots likelihood on one axis and impact on the other, so that high-likelihood, high-impact risks are dealt with first.",
+        "4. Act: choose a response, such as avoiding, reducing, transferring or accepting the risk.",
+        "5. Monitor: review the risk register (the written list of risks) regularly, because likelihood and impact change as the business and its environment change.",
+        "Under the Safety, Health and Welfare at Work Act 2005, an employer must identify hazards in the workplace, assess the risks and keep a written risk assessment. The employer also prepares a written safety statement, reviewed when there is a significant change."
+      ],
+      "tip": "Do not confuse risk assessment (find, evaluate, prioritise) with risk response (avoid, spread, prevent, transfer, retain). For 'outline the stages of risk assessment', name the steps in order and add one line on each."
+    },
+    {
+      "h": "Why managing risk matters",
+      "b": "Managing risk protects a business against threats that could stop it trading, and lets it pursue opportunities with a clear view of the downside. There are six reasons, and each works through a cause and an effect.",
+      "points": [
+        "Survival: a single uninsured fire, lawsuit or serious cyber attack can close a small business, so managing risk protects its ability to keep trading.",
+        "Lower costs: good controls, such as fire safety and security measures, can help a firm obtain lower insurance premiums.",
+        "Legal duty: the Safety, Health and Welfare at Work Act 2005 requires employers to manage risks to the safety and health of employees, and the Health and Safety Authority enforces it.",
+        "Investor and lender confidence: banks and investors are more willing to finance firms that show they identify and control their risks.",
+        "Continuity: planning for disruption, such as a supplier failure or flood, lets a firm recover quickly and keep serving customers.",
+        "Better decisions: knowing the risks helps managers judge whether an opportunity is worth its potential downside."
+      ],
+      "tip": "To 'explain two reasons', give two separate reasons, each with cause and effect on the business, for example survival because one uninsured event can close a small firm, and lender confidence. Common mistakes are listing two words with no explanation, giving two reasons that are really the same, ignoring the stimulus, and defining risk instead of giving reasons."
+    },
+    {
+      "h": "Risk, sustainability, ethics and digital change",
+      "b": "The cross-cutting themes of the course (sustainability, ethics and digital change) all create or change business risk.",
+      "points": [
+        "Sustainability: environmental risk includes extreme weather, as in Storm Éowyn, and the cost of meeting carbon-reduction rules, such as limits on carbon emissions from transport and manufacturing, which raise costs for premises and operations.",
+        "Ethics: an ethical lapse, such as unsafe conditions in a supplier's workplace, creates both legal risk and reputational risk for the buyer.",
+        "Digital: moving sales online adds cyber risk, so a firm must protect customer payment data and comply with data protection law.",
+        "An entrepreneur who plans for risk from the start, rather than reacting to it, is more likely to build a business that lasts."
+      ],
+      "tip": "In a longer answer, show how a risk affects more than one group: for example a data breach hits customers whose data is exposed, the owner whose reputation suffers, and staff whose jobs depend on trading."
+    }
   ],
   "keyTerms": [
     { "term": "Risk", "definition": "The chance that an event will harm a business or prevent it from achieving its objectives." },

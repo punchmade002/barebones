@@ -6,80 +6,112 @@
   "notes": [
     {
       "h": "How to structure an evaluation",
-      "b": "The exam asks for one regulation and one directive, so a strong answer names the instrument, its Irish implementation, its impact on named stakeholders and a verdict.",
+      "b": "The specification asks you to evaluate one EU regulation and one EU directive. A strong answer follows a five-part frame, so that nothing the examiner looks for is left out.",
       "points": [
-        "Name the instrument in full and state whether it is a regulation or a directive, because the exam tests that distinction.",
-        "State its purpose in one or two sentences, linking it to a problem the EU wanted to solve.",
-        "Explain the Irish implementation: a regulation applies directly and needs a named national authority, while a directive is transposed by an Act or statutory instrument.",
-        "Name the stakeholders who are actually affected, such as consumers, small firms, large firms, workers or the environment, and name them in each impact point.",
-        "Give each impact a reason and an example, so that every point reads as effect, explanation and application to business.",
-        "Finish with a verdict on whether the instrument fosters ethical and sustainable practice or the use of technology, and name one strength and one limitation."
-      ]
+        "Evaluate means to collect and examine evidence to make judgments and appraisals, and to identify the limitations of evidence. So a full answer always ends in a reasoned verdict, not just a list of effects.",
+        "Part 1: name the instrument in full and say whether it is a regulation or a directive. A regulation applies directly in Ireland and needs a national authority to supervise it. A directive is transposed (turned into Irish law) by an Act or statutory instrument by a deadline.",
+        "Part 2: state its purpose in one or two sentences, linking it to the problem the EU wanted to solve and the people it protects.",
+        "Part 3: explain the Irish implementation. For a regulation, say that it applies directly and name the Irish authority that supervises it. For a directive, name the Irish Act or statutory instrument that transposed it.",
+        "Part 4: give positive and negative impacts on named stakeholders (anyone affected by the business or able to affect it), such as consumers, small firms, large firms, workers or the environment. Each impact needs the stakeholder, the effect, a reason and an example.",
+        "Part 5: give a verdict on whether the instrument fosters ethical and sustainable practice and the use of technology, answering each in turn with a reason. Name one strength and one limitation.",
+        "ESG stands for environmental, social and governance. These factors are the pillars of ESG frameworks, and businesses may in some cases be expected to report their performance and progress under them."
+      ],
+      "tip": "A common mistake is to list general effects such as good for the environment with no stakeholder, or to give only positives. Tie each impact to a named stakeholder with a reason and a business example, and never leave out the verdict."
+    },
+    {
+      "h": "Choosing and preparing your options",
+      "b": "You choose one regulation and one directive, so it pays to prepare more than one of each. The choice is yours, but some instruments are ruled out.",
+      "points": [
+        "Prepare at least two options of each type. If the question on your first choice is worded differently from what you expected, you can switch to the other without starting again.",
+        "Avoid GDPR and the employment directives, such as the Work-Life Balance Directive and the Platform Work Directive, because the specification asks for instruments different from those used for consumer and employee legislation.",
+        "Do not confuse the Digital Services Act (duties for online platforms) with the Digital Markets Act (competition rules for very large platforms called gatekeepers) or with GDPR (personal data). Only the Digital Services Act is an option here.",
+        "Keep every impact specific: the stakeholder, the effect, the reason and an example. For instance, a small online seller (stakeholder) gains a clearer dispute process (effect) because platforms must follow set rules (reason).",
+        "Rules in this area are being changed by EU simplification measures, so check what you write. Only state facts you can stand over, and write a vague date or figure as it was given, or leave it out."
+      ],
+      "tip": "Examiners expect the full name of the instrument and its type. A common mistake is saying a directive applies automatically in Ireland; it only takes effect through an Irish Act or statutory instrument."
     },
     {
       "h": "Option 1 regulation: the Digital Services Act",
-      "b": "The Digital Services Act is an EU regulation that sets duties for online intermediaries, including social media platforms, online marketplaces and search engines.",
+      "b": "The Digital Services Act is an EU regulation, Regulation (EU) 2022/2065, published in the Official Journal on 27 October 2022. It sets duties for online intermediaries, meaning platforms such as social media, online marketplaces and search engines.",
       "points": [
-        "Purpose: to make online platforms safer, reduce the spread of illegal content and give users more rights, including the right to a reason when content is removed.",
-        "Irish implementation: the regulation applies directly, and Coimisiún na Meán is Ireland's Digital Services Coordinator, supervising platforms established in Ireland.",
-        "Positive impact on consumers: clearer reporting and appeal routes for removed content, and a ban on targeted advertising to minors.",
-        "Positive impact on smaller sellers: a clearer process for disputes with the platforms on which they sell, and one set of rules across the EU.",
-        "Negative impact on smaller platforms and start-ups: compliance costs for risk assessments, transparency reports and complaint systems can be heavy for firms with few staff.",
-        "Negative impact on freedom of expression: platforms facing fines of up to 6 per cent of global annual turnover may remove lawful content to avoid risk.",
-        "Verdict: strong on transparency and on regulating recommender systems and advertising technology, but weaker on sustainability, which is largely outside its scope."
-      ]
+        "Purpose: to make online platforms safer, reduce the spread of illegal content and give users more rights. For example, users must be given a reason when content is removed and have a route to appeal.",
+        "Irish implementation: as a regulation it applies directly. The Digital Services Act 2024 makes Coimisiún na Meán Ireland's Digital Services Coordinator, with lead responsibility for the regulation in Ireland.",
+        "The Competition and Consumer Protection Commission handles the articles on online marketplaces. Both bodies can apply for blocking orders and impose administrative penalties, and the framework was fully operative from 17 February 2024.",
+        "Positive impact on consumers: clearer reporting and appeal routes for removed content, and limits on profiling-based advertising to users the platform knows are minors, which protects children.",
+        "Positive impact on smaller sellers: a clearer process for disputes with the platforms they sell on, and one set of rules across the EU.",
+        "Negative impact on smaller platforms and start-ups: compliance costs for risk assessments, transparency reports and complaint systems can be heavy for firms with few staff. Some duties are lighter for micro and small firms.",
+        "Negative argument on freedom of expression: critics say that fines of up to 6 per cent of global annual turnover may push platforms to remove lawful content to avoid risk. This is a criticism, not a finding.",
+        "Verdict: strong on the ethical side (fairness and child protection) and on the digital side, because it governs technology such as recommender systems (the tools that choose what users see) and advertising. It is weak on sustainability, which it largely does not cover."
+      ],
+      "tip": "Say profiling-based advertising to minors, not a ban on all targeted advertising, and do not claim the Act covers sustainability. Present the over-removal point as an argument critics make."
+    },
+    {
+      "h": "Irish news example: Coimisiún na Meán and Meta",
+      "b": "You may be asked to read a current Irish news story about an EU rule and give an informed opinion with evidence. The Digital Services Act has a recent Irish example you can use.",
+      "points": [
+        "The Irish Times reported on 5 May 2026 that Coimisiún na Meán opened two formal investigations under the Digital Services Act into Meta, the owner of Facebook and Instagram.",
+        "The investigations ask whether users can choose and change their recommender system, and whether there are manipulative design tricks called dark patterns. Meta says it is not in breach.",
+        "No finding or fine has been checked, so describe this as an investigation only. Do not say Meta has broken the law.",
+        "Use the story to show the three things a news question wants: the instrument (a regulation), the Irish authority (Coimisiún na Meán), and the stakeholders (platform users and Meta), followed by your reasoned opinion."
+      ],
+      "tip": "For an unseen headline on an EU rule, identify the instrument, the Irish authority and the stakeholders, then give an opinion supported by evidence from the story."
     },
     {
       "h": "Option 2 regulation: the AI Act",
-      "b": "The AI Act is an EU regulation that sorts artificial intelligence systems into risk levels and sets duties that increase with the level of risk.",
+      "b": "The AI Act is an EU regulation, Regulation (EU) 2024/1689. It sorts artificial intelligence systems into risk levels and sets duties that rise with the level of risk, which is called risk-based regulation: the stricter the rules, the greater the possible harm.",
       "points": [
         "Purpose: to ensure that AI systems used in the EU are safe, respect fundamental rights and are transparent, while still supporting innovation.",
-        "Risk-based approach: some practices are banned, such as social scoring by public authorities and emotion recognition in workplaces and schools.",
-        "High-risk systems, such as AI used in recruitment, credit scoring or education admissions, must meet duties on documentation, risk management and human oversight.",
-        "Irish implementation: the Act applies directly, and Ireland must designate national authorities to supervise it.",
-        "Timing: the Act applies in phases, with the bans on unacceptable-risk systems first and the duties for other systems following over several years, so Irish firms must prepare in advance.",
-        "Positive impact on consumers: protection from manipulative or discriminatory AI, and a right to know when they are dealing with an AI system such as a chatbot.",
+        "Some practices are banned outright, such as social scoring and emotion recognition in workplaces and schools, because the harm they can do to people is judged unacceptable.",
+        "High-risk uses, such as AI in recruitment, credit scoring or access to education, must meet duties on documentation, risk management and human oversight.",
+        "Irish implementation: as a regulation it applies directly. Ireland has already designated national authorities, and a Bill on regulating AI was published in 2026.",
+        "Timing: the Act was in force from 1 August 2024, and the general provisions and prohibitions applied from 2 February 2025. The high-risk duties were postponed by an EU simplification measure in 2026, so check current dates before writing them.",
+        "Positive impact on consumers: protection from manipulative or discriminatory AI, and a right to know when they are dealing with an AI system, such as a chatbot.",
         "Negative impact on start-ups: a small firm using AI for hiring or lending may face high compliance costs that larger rivals can absorb more easily.",
-        "Verdict: strong on ethics and on regulating technology directly, but sustainability is a weak point, since the Act addresses energy use only in limited reporting duties."
-      ]
+        "Verdict: strong on ethics and on directly regulating technology. Sustainability is a weak point."
+      ],
+      "tip": "Say social scoring, not social scoring by public authorities, and do not say Ireland must designate authorities, because it already has. Give no dates beyond those above."
     },
     {
       "h": "Option 1 directive: the Corporate Sustainability Reporting Directive",
-      "b": "The CSRD is an EU directive that requires large companies to report on sustainability using detailed standards, extending earlier non-financial reporting rules.",
+      "b": "The CSRD is an EU directive, Directive (EU) 2022/2464. It requires large companies to report on sustainability to common standards, so that readers can compare firms.",
       "points": [
-        "Purpose: to give investors, lenders and other stakeholders reliable, comparable information on environmental, social and governance performance, which supports sustainable finance.",
-        "Reporting uses the European Sustainability Reporting Standards and applies double materiality, so firms report both how sustainability issues affect the business and how the business affects people and the environment.",
-        "Irish implementation: the directive was transposed into Irish company law, with reporting phased in by company size, starting with the largest companies.",
-        "Positive impact on investors and consumers: comparable data on carbon emissions, supply-chain labour standards and governance helps them make informed choices.",
-        "Positive impact on firms: reporting can reveal efficiency savings and improve reputation with customers and lenders, linking it to ESG reporting.",
-        "Negative impact on smaller suppliers: SMEs in the supply chains of large companies are asked for data they may not hold, and the cost of providing it can be high.",
-        "Verdict: strong on ethical and sustainable practice and on digital transformation, since reports must be tagged digitally, but the administrative burden and the risk of box-ticking are limitations."
-      ]
+        "Purpose: to give investors, lenders and other stakeholders reliable, comparable information on ESG (environmental, social and governance) performance. The CSRD is the legal duty to report, while ESG is the concept being reported on.",
+        "Double materiality means reporting both how sustainability issues affect the firm and how the firm affects people and the environment. The standards behind the reports were simplified in 2026, so use this definition only.",
+        "Irish implementation: it was transposed by the European Union (Corporate Sustainability Reporting) Regulations 2024, S.I. No. 336 of 2024, with effect from 6 July 2024. This statutory instrument amended company law, the Companies Act 2014 and the Transparency Regulations 2007.",
+        "The 2026 EU simplification measure (Directive (EU) 2026/470) narrowed who is covered. As of 2026 the scope is EU companies with more than 1,000 employees and more than EUR 450 million net turnover, and member states have 12 months to transpose the changes.",
+        "Positive impact on investors and consumers: comparable data on emissions, labour standards and governance helps them make informed choices.",
+        "Positive impact on firms: reporting can reveal efficiency savings and improve reputation with customers and lenders, which links to ESG.",
+        "Negative impact on smaller suppliers: large customers may ask them for data, and the cost of providing it can be high. Under the 2026 changes, firms with fewer than 1,000 employees may refuse requests that go beyond a voluntary standard.",
+        "Verdict: strong on ethical and sustainable practice. Reporting depends on collecting and reporting data digitally. Limitations are the administrative burden and the risk of box-ticking."
+      ],
+      "tip": "Write the scope figures with as of 2026, and do not say reporting is phased in by company size. Do not say the reports must be tagged digitally, as that detail is not checked."
     },
     {
       "h": "Option 2 directive: the Single-Use Plastics Directive",
-      "b": "The Single-Use Plastics Directive targets the plastic items most often found as litter on beaches and in the sea.",
+      "b": "The Single-Use Plastics Directive, Directive (EU) 2019/904, targets the plastic items most often found as litter on beaches and in the sea.",
       "points": [
         "Purpose: to reduce marine litter by banning certain single-use plastic products and making producers pay for the clean-up of others.",
-        "Products banned from the EU market since July 2021 include cutlery, plates, straws, stirrers, cotton bud sticks, balloon sticks and expanded polystyrene food containers.",
-        "Extended producer responsibility applies to items such as tobacco filters, fishing gear and wet wipes, so producers fund collection and clean-up.",
-        "Irish implementation: transposed into Irish law by regulations made in 2021, building on the plastic bag levy Ireland introduced in 2002.",
-        "Positive impact on the environment and coastal communities: fewer plastic items in the sea and on beaches supports marine life and tourism.",
-        "Negative impact on cafes, takeaways and small retailers: they must replace stock and packaging, and alternatives are often more expensive.",
-        "Negative impact on disabled people and some consumers: alternatives can be less convenient, so accessible options must be found for those who rely on plastic straws.",
-        "Verdict: strong on sustainability and on ethical product choices, but some alternatives have a larger carbon or water footprint over their life cycle, which weakens the environmental case."
-      ]
+        "Products banned from July 2021 include cutlery, plates, straws, stirrers, cotton bud sticks, balloon sticks and expanded polystyrene food containers.",
+        "Extended producer responsibility means producers fund collection and clean-up of what they put on the market. It applies to items such as tobacco filters, fishing gear and wet wipes.",
+        "Irish implementation: it was transposed by statutory instrument in 2021. The European Union (Single Use Plastics) Regulations 2021, S.I. No. 326 of 2021, banned listed products from 3 July 2021 and were replaced by S.I. No. 516 of 2021. Ireland's plastic bag levy, introduced in 2002, was earlier national policy.",
+        "Positive impact on the environment, coastal communities and tourism: fewer plastic items in the sea and on beaches supports marine life and makes coastal areas more attractive to visit.",
+        "Negative impact on cafes, takeaways and small retailers: they must replace stock and packaging, and alternatives often cost more.",
+        "Negative argument for disabled people and some consumers: alternatives can be less convenient, so accessible options must be found for those who rely on plastic items such as straws.",
+        "Verdict: strong on sustainability and on ethical product choices. Technology plays little direct part, apart from product redesign and reuse systems. A limitation is that some alternatives can have a larger footprint over their life cycle, which weakens the environmental case."
+      ],
+      "tip": "Do not give a plastic bag levy rate or fine amounts. In your answer, use a sample business, such as a takeaway, rather than naming one, and give each impact a stakeholder and a reason."
     },
     {
-      "h": "Choosing and comparing your options",
-      "b": "Pick the two options whose impacts you understand best, and keep your facts current, because EU digital and sustainability rules are changing.",
+      "h": "Comparing the four options",
+      "b": "Setting the options side by side shows how a regulation differs from a directive, and where each is strong or weak on ethics, sustainability and technology.",
       "points": [
-        "Avoid GDPR, which is covered in a later chapter, and avoid employment directives such as work-life balance or platform work rules.",
-        "Choose a regulation and a directive that are different from the Irish legislation already used in this chapter.",
-        "Keep impacts specific to Irish business by naming the Irish firms, sectors or regulator affected.",
-        "Check current dates, thresholds and transposition details before writing them, since simplification proposals may have changed them.",
-        "Prepare both options so that you can switch between them if the exam question on your chosen instrument is worded differently."
-      ]
+        "Digital Services Act (regulation): online platforms must act. The Irish route is direct application, supervised by Coimisiún na Meán. Main gain: safer users and clearer rights. Main cost: compliance work for small platforms. Verdict: strong on ethics and technology governance, weak on sustainability.",
+        "AI Act (regulation): firms providing or using AI must act. The Irish route is direct application, with designated national authorities. Main gain: protection from harmful AI. Main cost: compliance for small firms. Verdict: strong on ethics and technology, weak on sustainability.",
+        "CSRD (directive): the companies in scope must report. The Irish route is transposition by statutory instrument. Main gain: comparable ESG information. Main cost: administrative burden. Verdict: strong on ethics and sustainability, with a digital angle in the data it relies on.",
+        "Single-Use Plastics Directive (directive): producers and sellers of plastic items must act. The Irish route is transposition by statutory instrument. Main gain: less marine litter. Main cost: replacing stock. Verdict: strong on sustainability and ethical choice, little on technology.",
+        "Note the confusable point: the statutory instruments that transpose the two directives are titled Regulations, but the directives themselves are not regulations."
+      ],
+      "tip": "If a question asks about ethics, sustainability or technology, answer each in turn with a reason, rather than giving one general sentence."
     }
   ],
   "keyTerms": [
@@ -127,7 +159,7 @@
     },
     {
       "term": "AI practices banned outright",
-      "definition": "Social scoring by public authorities and emotion recognition in workplaces and schools."
+      "definition": "Social scoring, and emotion recognition in workplaces and schools."
     },
     {
       "term": "AI Act duties for high-risk uses",
@@ -135,7 +167,7 @@
     },
     {
       "term": "Reporting standards under the CSRD",
-      "definition": "The European Sustainability Reporting Standards, applied with double materiality."
+      "definition": "The European Sustainability Reporting Standards (as first adopted; they were reduced by the 2026 simplification)."
     },
     {
       "term": "Items banned by the Single-Use Plastics Directive",
@@ -146,12 +178,12 @@
     {
       "marks": 25,
       "prompt": "Name an EU regulation, explain how it has been implemented in Ireland, and examine two positive and two negative impacts on named stakeholders.",
-      "model": "The Digital Services Act is an EU regulation, so it applies directly in Ireland without a separate Irish Act, and Coimisiún na Meán acts as Ireland's Digital Services Coordinator to supervise platforms established here. Irish platforms must put notice-and-action systems in place so that users can report illegal content and receive a reason if their content is removed. Positive impact one: consumers gain clearer complaint and appeal routes, which builds trust and protects them from illegal content such as scams. Positive impact two: Irish small businesses that sell through online marketplaces gain a clearer process for disputes with platforms, and one EU-wide standard to follow. Negative impact one: smaller platforms and start-ups face high compliance costs for transparency reports, risk assessments and complaint systems, which can slow their growth. Negative impact two: platforms facing fines of up to 6 per cent of global turnover may remove lawful content to avoid risk, which can restrict the freedom of expression of users. Overall the regulation strengthens user protection and transparency, but its benefits depend on proportionate enforcement."
+      "model": "The Digital Services Act is an EU regulation, so it applies directly in Ireland, and the Digital Services Act 2024 designates Coimisiún na Meán as Ireland's Digital Services Coordinator to supervise platforms established here. Irish platforms must put notice-and-action systems in place so that users can report illegal content and receive a reason if their content is removed. Positive impact one: consumers gain clearer complaint and appeal routes, which builds trust and protects them from illegal content such as scams. Positive impact two: Irish small businesses that sell through online marketplaces gain a clearer process for disputes with platforms, and one EU-wide standard to follow. Negative impact one: smaller platforms and start-ups face high compliance costs for transparency reports, risk assessments and complaint systems, which can slow their growth. Negative impact two: critics argue that fines of up to 6 per cent of global turnover may encourage platforms to remove lawful content to avoid risk, which can restrict the freedom of expression of users. Overall the regulation strengthens user protection and transparency, but its benefits depend on proportionate enforcement."
     },
     {
       "marks": 20,
       "prompt": "Name an EU directive, explain its purpose and evaluate its impact on business in Ireland.",
-      "model": "The Corporate Sustainability Reporting Directive is an EU directive that requires large companies to report on sustainability using the European Sustainability Reporting Standards. Its purpose is to give investors, lenders and other stakeholders reliable and comparable information on environmental, social and governance performance, so that finance is directed toward sustainable firms. Ireland has transposed it into Irish company law, and the duties apply in phases, so a firm must check when it falls within scope. For large Irish firms, the directive requires new data on emissions, workforce and supply chains, which adds cost, but it can reveal efficiency savings and improve access to finance from investors who value sustainability. Smaller Irish suppliers to large companies may be asked for data they do not hold, which adds cost. Overall the directive raises the standard of sustainability reporting and supports ethical practice, although the administrative burden on smaller firms is a real limitation."
+      "model": "The Corporate Sustainability Reporting Directive is an EU directive that requires large companies to report on sustainability using the European Sustainability Reporting Standards. Its purpose is to give investors, lenders and other stakeholders reliable and comparable information on environmental, social and governance performance, so that finance is directed toward sustainable firms. Ireland transposed it into Irish company law in 2024, but the 2026 Omnibus I directive has narrowed the scope to companies with more than 1,000 employees and more than EUR 450 million net turnover (as of 2026), and member states must transpose that change. For large Irish firms, the directive requires new data on emissions, workforce and supply chains, which adds cost, but it can reveal efficiency savings and improve access to finance from investors who value sustainability. Smaller Irish suppliers to large companies may still be asked for data, which adds cost, although under the 2026 changes firms with fewer than 1,000 employees may refuse requests that go beyond a voluntary standard. Overall the directive raises the standard of sustainability reporting and supports ethical practice, although the administrative burden on smaller firms is a real limitation."
     }
   ]
 }

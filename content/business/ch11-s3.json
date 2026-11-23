@@ -4,52 +4,93 @@
   "subsection": "3. Cost-benefit analysis of expansion",
   "syllabusRef": "2.6.5",
   "notes": [
-    { "h": "What cost-benefit analysis is", "b": "Cost-benefit analysis compares the expected costs of a decision with its expected benefits, so the business can judge whether the decision is worth making.", "points": [
-      "It makes the business weigh the downside of a decision as well as the upside, which guards against decisions based only on optimism.",
-      "It can be applied to any major decision, such as opening a new site, buying a rival or launching a product.",
-      "Its result depends on forecasts, so it is only as good as the figures entered."
-    ] },
-    { "h": "Steps in the analysis", "b": "The method follows five stages, which should be completed in order.", "points": [
-      "Identify the decision and the alternatives being compared.",
-      "List all costs and benefits, both financial and non-financial, for the firm and for stakeholders such as staff, customers and the local community.",
-      "Quantify each item where possible by giving it a money value.",
-      "Compare total benefits with total costs over the period chosen.",
-      "Decide, and justify the decision by reference to the comparison and to any non-financial factors."
-    ] },
-    { "h": "Tangible and intangible items", "b": "Items in the analysis fall into two groups, and each needs a different kind of treatment.", "points": [
-      "Tangible items can be measured in money, such as sales revenue, equipment cost and rent.",
-      "Intangible items are real but hard to measure in money, such as brand reputation, staff morale and customer goodwill.",
-      "Intangible items should still be listed, because leaving them out can distort the decision.",
-      "A common approach is to estimate a money value for an intangible item, or to record it as a qualitative factor in the final recommendation."
-    ] },
-    { "h": "Opportunity cost and timing", "b": "Two further factors change the comparison: what is given up by choosing an option, and when costs and benefits arise.", "points": [
-      "Opportunity cost is the value of the next best alternative given up when a choice is made, such as using the cash to fund marketing instead.",
-      "Start-up costs such as a fit-out usually arise before benefits, so the timing of costs and benefits affects the comparison.",
-      "A short-term view looks at the first year's cash position, while a longer view counts benefits over several years."
-    ] },
-    { "h": "Worked example: investment figures and yearly results", "b": "The example uses invented sample figures for a bakery deciding whether to open a second shop in Galway. Sales are held at the same level in each year after the opening.", "points": [
-      "Sample figures, one-off costs in year 1: fit-out and equipment €180,000, initial marketing €15,000.",
-      "Sample figures, annual running costs: rent €36,000, wages €60,000, and ingredients and packaging €90,000, which is 30 per cent of sales.",
-      "Sample figures, annual sales from the Galway shop: €300,000 in each year.",
-      "Sample figures, year 1: benefits €300,000, costs €381,000 (€180,000 + €15,000 + €36,000 + €60,000 + €90,000), net result minus €81,000.",
-      "Sample figures, year 2: benefits €300,000, costs €186,000 (€36,000 + €60,000 + €90,000), net result €114,000.",
-      "Sample figures, year 3: benefits €300,000, costs €186,000, net result €114,000.",
-      "Sample figures, three-year total: minus €81,000 + €114,000 + €114,000, which is €147,000."
-    ] },
-    { "h": "Worked example: payback, sensitivity and decision", "b": "The remaining steps test how quickly the outlay is recovered and whether the result survives a fall in sales.", "points": [
-      "Sample figures, payback: the cumulative position moves from minus €81,000 at the end of year 1 to €33,000 at the end of year 2, so the outlay is recovered in year 2.",
-      "Sample figures, sensitivity: if sales fall 10 per cent to €270,000 a year and ingredients fall to €81,000, the three-year total is €84,000, which is still positive.",
-      "Non-financial benefits include new jobs in Galway, a stronger brand presence in the west and management experience for staff.",
-      "Non-financial costs include the management time the owners must give to the Galway project, which may slow the development of the existing Limerick shop.",
-      "Recommendation: proceed, because the three-year result stays positive even if sales fall 10 per cent, and the outlay is recovered in year 2, provided a staffing plan limits disruption to the Limerick shop."
-    ] },
-    { "h": "Limitations of cost-benefit analysis", "b": "The method is a useful guide, but its result has limits that the decision-maker should state.", "points": [
-      "Results depend on forecasts, which can be wrong, particularly sales forecasts for a new location.",
-      "Intangible effects are hard to value, so the final figure may leave out factors that matter most to stakeholders.",
-      "The choice of time period can change the answer: a short period may hide benefits that arrive later, while a long one relies on distant forecasts.",
-      "The result shows a net gain but not the risk of failure or the cash the firm must find before benefits start to arrive.",
-      "The analysis takes time and money to prepare, which may not be worthwhile for small, low-risk decisions."
-    ] }
+    {
+      "h": "What cost-benefit analysis is",
+      "b": "When a business is thinking about expanding, it needs a fair way to judge whether the move is worth it. Cost-benefit analysis is a decision tool that lays the gains and the sacrifices side by side.",
+      "points": [
+        "Cost-benefit analysis compares the expected costs of a decision with its expected benefits, so the business can judge whether the decision is worth making.",
+        "It makes the business weigh the downside of a decision as well as the upside, which guards against decisions based only on optimism.",
+        "It can be applied to any major decision, such as opening a new site, buying a rival (a takeover) or launching a product.",
+        "Its result depends on forecasts (estimates of future sales and costs), so it is only as good as the figures entered. Spreadsheets and forecasting tools make it quick to try different scenarios, but data-based forecasts still depend on good inputs.",
+        "Net benefit means total benefits minus total costs. It is not the same as profit, because profit comes from the firm's accounts, while this analysis also counts items for stakeholders and items that are hard to measure in money."
+      ],
+      "tip": "If asked to define cost-benefit analysis, give the comparison of expected costs with expected benefits and say why it is done (to judge whether the decision is worth making), then add a one-line example."
+    },
+    {
+      "h": "Steps in the analysis",
+      "b": "Cost-benefit analysis is an applied tool: you follow a method, in order, and finish with a recommendation. The same five stages of the comparison work for any expansion decision.",
+      "points": [
+        "1. Identify the decision and the alternatives being compared, for example opening a second shop or doing nothing.",
+        "2. List all costs and benefits, both financial and non-financial, for the firm and for stakeholders (the people affected by the decision) such as staff, customers, suppliers, owners and the local community.",
+        "3. Quantify each item where possible by giving it a money value, so that items can be added up and compared.",
+        "4. Compare total benefits with total costs over the period chosen. The period matters because costs often come before benefits.",
+        "5. Decide, and justify the decision by reference to the comparison and to any non-financial factors, because a figure alone does not cover everything that matters.",
+        "Ethical angle: include costs and benefits to wider stakeholders, such as jobs created or lost and effects on local suppliers and competitors, not only the owners. A costly effect on others should not be hidden."
+      ],
+      "tip": "In a conduct-style question a table of costs and benefits is expected. A common mistake is listing items without a comparison, or finishing with no recommendation, or with one that contradicts the figures. Your recommendation can be proceed, do not proceed, or proceed with conditions."
+    },
+    {
+      "h": "Tangible and intangible items",
+      "b": "Not everything that matters in a decision can be priced. Items in the analysis fall into two groups, and each needs a different kind of treatment.",
+      "points": [
+        "Tangible items can be measured in money, such as sales revenue, equipment cost and rent. They go straight into the totals.",
+        "Intangible items are real but hard to measure in money, such as brand reputation, staff morale and customer goodwill.",
+        "Intangible items should still be listed, because leaving them out can distort the decision. A plan that looks profitable may damage goodwill, and that cost would be missed.",
+        "A common approach is to estimate a money value for an intangible item, or to record it as a qualitative factor (one put into words, not figures) in the final recommendation.",
+        "Sustainability angle: list environmental costs (energy use, transport, waste) and benefits (energy savings, lower carbon) as items, often intangible. A plan that is profitable but damages the environment may carry a reputation cost."
+      ],
+      "tip": "Do not confuse tangible and intangible (can it be measured in money?) with financial and non-financial (is it in the firm's accounts?). An intangible item may still be given a money estimate. Exams ask you to separate tangible from intangible items."
+    },
+    {
+      "h": "Opportunity cost and timing",
+      "b": "Two further factors change the comparison: what is given up by choosing an option, and when costs and benefits arise.",
+      "points": [
+        "Opportunity cost is the value of the next best alternative given up when a choice is made, such as using the cash to fund marketing instead. It is something forgone, not a payment made.",
+        "Start-up costs such as a fit-out (building and equipping new premises) usually arise before benefits, so the timing of costs and benefits affects the comparison. This is a cash flow point: money goes out before it comes in.",
+        "A short-term view looks at the first year's cash position, while a longer view counts benefits over several years. The same project can look poor in year 1 and good over three years."
+      ],
+      "tip": "For opportunity cost, name the alternative given up, not just the money spent. A one-line example, such as the cash used on the project that could have funded marketing, is enough for a short item."
+    },
+    {
+      "h": "Worked example: investment figures and yearly results",
+      "b": "The example uses invented sample figures for a sample bakery with a shop in Limerick that is deciding whether to open a second shop in Galway. Sales are held at the same level in each year after the opening, and no real firm is meant.",
+      "points": [
+        "Sample figures, one-off costs in year 1: fit-out and equipment €180,000, initial marketing €15,000. These are start-up costs, paid before the shop earns anything.",
+        "Sample figures, annual running costs: rent €36,000, wages €60,000, and ingredients and packaging €90,000, which is 30 per cent of sales.",
+        "Sample figures, annual sales from the Galway shop: €300,000 in each year.",
+        "Sample figures, year 1: benefits €300,000, costs €381,000 (€180,000 + €15,000 + €36,000 + €60,000 + €90,000), net result minus €81,000. The one-off costs make year 1 a loss.",
+        "Sample figures, year 2: benefits €300,000, costs €186,000 (€36,000 + €60,000 + €90,000), net result €114,000. The one-off costs are gone, so only running costs remain.",
+        "Sample figures, year 3: benefits €300,000, costs €186,000, net result €114,000.",
+        "Sample figures, three-year total: minus €81,000 + €114,000 + €114,000, which is €147,000."
+      ],
+      "tip": "When you use figures from a stimulus or a sample, show each year's costs and benefits and the net result, then total them. Use only the data you are given, because using data not in the question is a common mistake."
+    },
+    {
+      "h": "Worked example: payback, sensitivity and decision",
+      "b": "The remaining steps test how quickly the outlay (the money put in at the start) is recovered and whether the result survives a fall in sales, before the non-financial items and the decision are added.",
+      "points": [
+        "Sample figures, payback: at base-case sales the cumulative position (the running total of net results) moves from minus €81,000 at the end of year 1 to €33,000 at the end of year 2, so the outlay is recovered in year 2.",
+        "Sample figures, sensitivity (testing what happens if a forecast turns out worse): if sales fall 10 per cent to €270,000 a year and ingredients fall to €81,000, the three-year total is €84,000, which is still positive. Year 1 net is minus €102,000 and years 2 and 3 are €93,000 each.",
+        "At those lower sales the cumulative position at the end of year 2 is minus €9,000, so payback moves to year 3. Year 2 is the payback year for the base case only.",
+        "Non-financial benefits include new jobs in Galway, a stronger brand presence in the west and management experience for staff.",
+        "Non-financial costs include the management time the owners must give to the Galway project, which may slow the development of the existing Limerick shop.",
+        "Recommendation: proceed, because the three-year result stays positive even if sales fall 10 per cent and the outlay is recovered within three years (year 2 at base sales), provided a staffing plan limits disruption to the Limerick shop.",
+        "Payback here is just a step in this example, the time taken to recover the outlay. It is not a separate finance method."
+      ],
+      "tip": "A good recommendation names the figures behind it and any condition attached. A common mistake is a recommendation that contradicts the figures, or one that leaves out non-financial items and wider stakeholders."
+    },
+    {
+      "h": "Limitations of cost-benefit analysis",
+      "b": "The method is a useful guide, but its result has limits that the decision-maker should state. Knowing them lets you discuss how far the analysis can be trusted.",
+      "points": [
+        "Results depend on forecasts, which can be wrong, particularly sales forecasts for a new location where the business has no trading history.",
+        "Intangible effects are hard to value, so the final figure may leave out factors that matter most to stakeholders.",
+        "The choice of time period can change the answer: a short period may hide benefits that arrive later, while a long one relies on distant forecasts.",
+        "The result shows a net gain but not the risk of failure or the cash the firm must find before benefits start to arrive.",
+        "The analysis takes time and money to prepare, which may not be worthwhile for small, low-risk decisions."
+      ],
+      "tip": "For a discuss or evaluate question, give three or four developed points on how useful the analysis is against its limitations, then finish with a judgement. Short items may ask you to outline limitations."
+    }
   ],
   "keyTerms": [
     { "term": "Cost-benefit analysis", "definition": "A method of comparing the expected costs of a decision with its expected benefits to decide whether it is worthwhile." },

@@ -4,55 +4,120 @@
   "subsection": "3. Contingency planning and crisis management",
   "syllabusRef": "3.4.8, 3.4.9",
   "notes": [
-    { "h": "Key definitions", "b": "Contingency planning is one part of a wider approach to crisis management, so the terms need to be kept distinct.", "points": [
-      "A crisis is a sudden, unexpected event that threatens an organisation's people, operations, reputation or survival and needs an urgent response.",
-      "Crisis management is the process of preventing, preparing for, responding to, recovering from and reviewing such events.",
-      "A contingency plan is a prepared course of action to follow if a specified event occurs, such as a failure of the main computer system.",
-      "A contingency plan is written in advance, so that decisions are made calmly before the pressure of an actual event builds up."
-    ] },
-    { "h": "Local and national crises", "b": "Crises can start in one location or affect a whole country, and planning should cover both.", "points": [
-      "A local crisis affects one site or business, such as a fire at a production plant or the sudden loss of a key member of staff.",
-      "A cyber-attack on a firm's systems can be local to that business but still expose customer data and disrupt sales.",
-      "The 2021 ransomware attack on the Health Service Executive showed how a cyber-attack can halt core services across a whole public organisation.",
-      "A national crisis affects many businesses at once, such as a severe storm that damages power networks or a pandemic that closes workplaces.",
-      "A product recall, such as the withdrawal of a contaminated food product, may start with one supplier but affects every retailer that stocked it.",
-      "A supply failure, such as a disruption to imported components, can spread from one firm's supply chain to whole sectors of the economy."
-    ] },
-    { "h": "Stages of crisis management", "b": "The five stages form a cycle, because the review of one crisis improves prevention and preparation for the next.", "points": [
-      "Prevention reduces the chance of a crisis happening, for example through safety procedures and regular checks of systems and equipment.",
-      "Preparation means writing contingency plans, training staff and arranging backups before any crisis occurs.",
-      "Response is the immediate action taken once a crisis begins, guided by the contingency plan and by clear lines of command.",
-      "Recovery restores normal operations, which may include repairing systems, serving customers again and supporting affected staff.",
-      "Review examines what happened, what worked and what failed, and feeds those lessons back into prevention and preparation."
-    ] },
-    { "h": "What a contingency plan contains", "b": "A useful plan is specific enough to act on quickly, and it must be kept up to date.", "points": [
-      "Triggers define the events or warning signs that activate the plan, so that action starts at the right moment.",
-      "Responsibilities name who makes decisions and who carries out each task during the crisis.",
-      "A communication plan sets out who is told what, through which channels and how quickly, covering staff, customers and suppliers.",
-      "Backups provide copies of data and spare equipment, so operations can continue if the originals are lost or damaged.",
-      "Alternative suppliers provide a second source of essential goods or services if the main supplier fails."
-    ] },
-    { "h": "Factors to weigh when developing a plan", "b": "Each factor affects which contingency measures are worth paying for and how they should be prioritised.", "points": [
-      "Cost: the expense of each measure must be weighed against the losses it would prevent.",
-      "Time: some measures, such as qualifying a standby supplier, take time to set up, so they must be arranged before they are needed.",
-      "Risk likelihood and impact: a risk that is likely and severe deserves more attention than one that is rare and minor.",
-      "Resources: the availability of staff, money and equipment limits what can realistically be prepared.",
-      "Legal duties: obligations under health and safety law, such as the Safety, Health and Welfare at Work Act 2005, and under data protection law may require specific measures.",
-      "Stakeholders: the interests of customers, employees, suppliers and the public must be considered when priorities are set."
-    ] },
-    { "h": "Benefits and limits of contingency planning", "b": "Contingency planning reduces the damage from a crisis but cannot remove every risk.", "points": [
-      "It allows faster decisions in a crisis, because people already know their roles before the event occurs.",
-      "It can protect the reputation of the business, since a planned and prompt response appears competent to customers.",
-      "It can reduce costs by limiting the scale of losses and the length of any downtime.",
-      "Plans cost money and time to prepare and maintain, and a business may judge that the cost is too high for rare events.",
-      "A plan becomes out of date if it is not tested and updated, and an untested plan may fail when it is needed.",
-      "No plan can anticipate every event, so flexibility and judgement are still needed during a crisis."
-    ] },
-    { "h": "Contingency planning and digital transformation", "b": "As businesses rely more on digital systems, their contingency plans must cover technology failures as well as physical events.", "points": [
-      "Greater reliance on online systems means a system outage can quickly stop sales and operations.",
-      "Backups kept in a separate location allow recovery even when a local system has been compromised by an attack.",
-      "Staff training on phishing and security procedures reduces the chance that a cyber-attack succeeds."
-    ] }
+    {
+      "h": "Key definitions: crisis, crisis management and contingency plan",
+      "b": "Three terms sound alike but name different things, and mixing them up is a common mistake. A crisis is the event, a contingency plan is the prepared response to a specified event, and crisis management is the whole process around both.",
+      "points": [
+        "A crisis is a sudden, unexpected event that threatens an organisation's people, operations, reputation or survival and needs an urgent response. A fire, a data breach and a collapsed supply chain are all crises.",
+        "Crisis management is the process of preventing, preparing for, responding to, recovering from and reviewing such events. It is wider than any single plan because it runs before, during and after the event.",
+        "A contingency plan is a prepared course of action to follow if a specified event occurs, such as a failure of the main computer system. It answers the question 'what do we do if this happens?'",
+        "A contingency plan is written in advance, so that decisions are made calmly before the pressure of an actual event builds up. In a crisis, time is short and people under stress decide badly.",
+        "Contingency planning is not the same as strategic planning. Strategic planning sets the long-term direction of the business and is ongoing, while a contingency plan prepares for one specified unwanted event."
+      ],
+      "tip": "If asked to distinguish the terms, give one example and keep the roles separate: the crisis is the event, the plan is the prepared response, and crisis management is the whole five-stage process. Don't mix up contingency planning with strategic planning."
+    },
+    {
+      "h": "Local and national crises",
+      "b": "Crises differ in reach. A local crisis hits one business or site, while a national crisis hits many businesses at once, and a plan should cover both. The same type of event, such as a cyber-attack, can be either, depending on how far it spreads.",
+      "points": [
+        "A local crisis affects one site or business, such as a fire at a production plant or the sudden loss of a key member of staff who holds knowledge nobody else has.",
+        "A cyber-attack (an attempt to break into or disable a firm's computer systems) can be local to one business but still expose customer data and disrupt sales.",
+        "The ransomware attack on the Health Service Executive (HSE) on 14 May 2021 showed how a cyber-attack can disrupt services across a whole public organisation. Its IT systems were shut down nationwide, so services were disrupted across the organisation.",
+        "A national crisis affects many businesses at once, such as a severe storm that damages power networks or the COVID-19 pandemic from March 2020, which closed many workplaces.",
+        "Storm Éowyn on 24 January 2025 is an Irish example. ESB Networks reported more than 700,000 homes, farms and businesses without power at the peak, and supply was not restored to all customers until about 11 February 2025.",
+        "A product recall, such as the withdrawal of a contaminated food product from shops, may start with one supplier but affects every retailer that stocked it. The Food Safety Authority of Ireland is the authority for food recalls in Ireland.",
+        "A supply failure, such as a disruption to imported components, can spread from one firm's supply chain to whole sectors of the economy, because many firms depend on the same suppliers."
+      ],
+      "tip": "Say how far the crisis reaches and who is affected. When a question gives a cyber-attack, decide whether it is local or national from the stimulus, because the same type of event can be either."
+    },
+    {
+      "h": "Stages of crisis management",
+      "b": "Crisis management has five stages that form a cycle, because the review of one crisis improves prevention and preparation for the next.",
+      "points": [
+        "1. Prevention reduces the chance of a crisis happening, for example through safety procedures and regular checks of systems and equipment.",
+        "2. Preparation means writing contingency plans, training staff and arranging backups before any crisis occurs. It readies the response in case the event happens anyway.",
+        "3. Response is the immediate action taken once a crisis begins, guided by the contingency plan and by clear lines of command (who gives orders and who follows them).",
+        "4. Recovery restores normal operations, which may include repairing systems, serving customers again and supporting affected staff.",
+        "5. Review examines what happened, what worked and what failed, and feeds those lessons back into prevention and preparation, which is why the stages form a cycle."
+      ],
+      "tip": "Keep the pairs apart. Prevention lowers the chance of the event while preparation readies the response, and response is immediate action while recovery restores normal operations."
+    },
+    {
+      "h": "What a contingency plan contains",
+      "b": "A useful plan is specific enough to act on quickly, and it must be kept tested and up to date. It has five main parts.",
+      "points": [
+        "Triggers define the events or warning signs that activate the plan, so that action starts at the right moment. For example, a supplier delivery arriving late by a set period could trigger the switch to another supplier.",
+        "Responsibilities name who makes decisions and who carries out each task during the crisis, so nobody wastes time deciding who is in charge.",
+        "A communication plan sets out who is told what, through which channels and how quickly, covering staff, customers and suppliers. It includes online channels such as a website notice or social media.",
+        "Backups provide copies of data and spare equipment, so operations can continue if the originals are lost or damaged.",
+        "Alternative suppliers provide a second source of essential goods or services if the main supplier fails.",
+        "Example, a sample small food manufacturer relying on one supplier for a key ingredient: vet an alternative supplier, agree terms in advance, set a late delivery as the trigger, name the decision-makers and plan the message to retailers. Food safety rules apply to any new ingredient."
+      ],
+      "tip": "Name at least three contents of a plan and link each to the stimulus. Listing contents without saying how they reduce the damage is a common mistake, and the plan must be written before the crisis."
+    },
+    {
+      "h": "Factors to weigh when developing a plan",
+      "b": "A business cannot prepare for everything, so each factor affects which contingency measures are worth paying for and how they should be prioritised.",
+      "points": [
+        "Cost: the expense of each measure must be weighed against the losses it would prevent. A costly measure may still be worth it if the risk is likely and severe. Insurance can also transfer part of the cost of a loss.",
+        "Time: some measures, such as qualifying a standby supplier (checking and approving it in advance), take time to set up, so they must be arranged before they are needed.",
+        "Risk likelihood and impact: likelihood is how probable the event is and impact is how severe its effects would be. A risk that is likely and severe deserves more attention than one that is rare and minor.",
+        "Resources: the availability of staff, money and equipment limits what can realistically be prepared, so a small firm will plan differently from a large one.",
+        "Legal duties: obligations under health and safety law may require specific measures. The Safety, Health and Welfare at Work Act 2005 requires employers to identify hazards (section 19), assess risks and have emergency procedures (section 11), which a contingency plan builds on.",
+        "Data protection law also applies: the General Data Protection Regulation (EU) 2016/679, in force in Ireland since May 2018, and the Data Protection Act 2018 require a firm to protect personal data and report a breach.",
+        "Stakeholders: the interests of customers, employees, suppliers and the public must be considered when priorities are set, because they are the people harmed if the plan fails."
+      ],
+      "tip": "For a question that asks you to discuss the factors, cover at least three or four, apply each to the stimulus and add a balanced point, such as that a costly measure can be justified when the risk is likely and severe. Naming factors only, or giving a one-sided answer, is a common mistake."
+    },
+    {
+      "h": "Benefits and limits of contingency planning",
+      "b": "Contingency planning reduces the damage from a crisis but cannot remove every risk, so a balanced answer gives both sides.",
+      "points": [
+        "It allows faster decisions in a crisis, because people already know their roles before the event occurs.",
+        "It can protect the reputation of the business, since a planned and prompt response appears competent to customers.",
+        "It can reduce costs by limiting the scale of losses and the length of any downtime (the time the business cannot operate).",
+        "Plans cost money and time to prepare and maintain, and a business may judge that the cost is too high for rare events.",
+        "A plan becomes out of date if it is not tested and updated, and an untested plan may fail when it is needed. The independent review of the 2021 HSE attack found that the HSE had no documented cyber incident response plan.",
+        "No plan can anticipate every event, so flexibility and judgement are still needed during a crisis."
+      ],
+      "tip": "Give limits as well as benefits when the question asks for an evaluation of contingency planning. The point that untested plans fail is a strong one to include."
+    },
+    {
+      "h": "Contingency planning and digital transformation",
+      "b": "As businesses rely more on digital systems, their contingency plans must cover technology failures as well as physical events. Digital change can be both positive and negative for a business, and a cyber-attack is a negative example.",
+      "points": [
+        "Greater reliance on online systems means a system outage can quickly stop sales and operations, so even a short failure can cost a business customers.",
+        "Backups kept in a separate location (including cloud storage, where data is held on remote servers) allow recovery even when a local system has been compromised by an attack.",
+        "Staff training on phishing (fake messages that trick people into giving access) and security procedures reduces the chance that a cyber-attack succeeds.",
+        "A communication plan should cover online channels, so that customers can be told quickly if a website is down.",
+        "Example, a sample online retailer: offsite backups, a standby server arrangement, staff trained on phishing and a plan for messaging customers if the website is down."
+      ],
+      "tip": "Where the stimulus involves a technology failure, name the digital measures: backups in a separate location, phishing training and an online communication plan."
+    },
+    {
+      "h": "Ethical and sustainability angles",
+      "b": "A crisis tests how a business treats the people it affects, and a growing number of crises are linked to the climate. Both ideas show applied understanding when the stimulus allows.",
+      "points": [
+        "Duty of care means a business has a responsibility to look after staff, customers and the public in a crisis. For example, a sample hotel facing a fire or flood needs an evacuation plan and alternative accommodation for guests.",
+        "Honest and prompt communication is an ethical requirement as well as good practice, because staff, customers and the media need accurate information, such as a statement to guests and the media after a hotel fire.",
+        "Protecting personal data is an ethical duty as well as a legal one, because a breach harms the customers whose details are exposed.",
+        "Climate-related events such as storms and flooding are a growing risk, so plans can include energy resilience such as backup power.",
+        "Plans can also reduce waste, for example by limiting the stock that is spoiled or thrown away during a recall or a power cut."
+      ]
+    },
+    {
+      "h": "Analysing Irish news examples",
+      "b": "Examination questions may give a news item and ask for an informed opinion. A good approach is to identify the event, say whether it is local or national, name the stakeholders affected, state the plan measures that would reduce the damage and give an opinion with a reason.",
+      "points": [
+        "Cyber-attack, March 2026 (RTÉ and Irish Times, 11 March 2026): Stryker, a US medical device company with a large base in Cork, suffered a cyber-attack that disrupted its Windows computers.",
+        "Staff in Ireland could not log in to work devices, and a group claimed responsibility. The National Cyber Security Centre said it was aware of the incident.",
+        "Analysis of the Stryker case: this is a multinational's Irish operations hit by a cyber-attack, so offsite backups, an incident response plan and a communication plan to staff and customers would limit the damage. Cost, time and the likelihood of attack would all shape how much was spent on them.",
+        "Storm, January 2025 (ESB Networks and Irish Times): Storm Éowyn was a national crisis for power supply. Backup power would keep a business running, and a communication plan would keep customers informed.",
+        "The factors at stake in the storm are the cost of backup equipment, risk likelihood and impact, and stakeholders such as staff and customers.",
+        "To give an opinion, state a view and a reason. For example, a firm should invest in backups, because backups and a plan would limit the time the business is left without systems or power."
+      ],
+      "tip": "Apply the same steps to any news item: event, local or national reach, stakeholders, plan measures, and an opinion with a reason. Use the facts the stimulus gives and don't invent figures."
+    }
   ],
   "keyTerms": [
     { "term": "Crisis", "definition": "A sudden, unexpected event that threatens an organisation's people, operations, reputation or survival." },

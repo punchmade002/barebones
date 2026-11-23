@@ -4,48 +4,106 @@
   "subsection": "1. How business ideas are developed",
   "syllabusRef": "2.2.1",
   "notes": [
-    { "h": "Internal sources of ideas", "b": "Ideas from inside a firm come from people and records the firm already has.", "points": [
-      "Staff are a strong internal source because they see customer problems and work practices first-hand.",
-      "Intrapreneurs inside a firm can propose new products, which gives the firm innovation without setting up a new start-up.",
-      "Research and development produces new products or processes through structured testing and experiment.",
-      "Brainstorming sessions bring staff together to generate many ideas quickly, to be screened later.",
-      "Existing products suggest extensions, such as a new size or flavour of a popular line.",
-      "Sales data shows which products sell, to whom and when, and can reveal gaps or changing demand."
-    ] },
-    { "h": "External sources of ideas", "b": "Ideas from outside the firm show what customers want, what competitors offer and where the wider world is moving.", "points": [
-      "Customers reveal ideas through complaints, reviews and direct requests, which show needs the firm is not meeting.",
-      "Competitors show what the market already offers and where it is weak or overcrowded.",
-      "Market research, such as surveys and focus groups, tests whether an idea has demand before the firm invests in it.",
-      "Trends in lifestyle, population and spending, such as growing interest in plant-based food, point to new markets.",
-      "New technology can make a product possible or cheaper to produce, such as mobile payment apps.",
-      "Travel exposes entrepreneurs to products and services that are not yet available at home.",
-      "Hobbies and personal interests give ideas that the founder understands well enough to judge their quality.",
-      "Government and university research produce findings that firms can commercialise, often through partnership or licensing."
-    ] },
-    { "h": "Idea generation and screening", "b": "Generation produces many ideas, and screening narrows the list to those worth developing.", "points": [
-      "Idea generation aims for quantity first, because early judgement can stop creative ideas before they are properly considered.",
-      "Screening tests each idea against criteria such as fit with the firm's goals, likely cost and likely demand.",
-      "A simple screening matrix scores each idea on each criterion and gives the most important criteria the highest weighting.",
-      "Ideas that pass screening move to development, where the firm checks their feasibility in more detail."
-    ] },
-    { "h": "Factors that help an idea develop", "b": "Several factors decide whether an idea grows into a viable business.", "points": [
-      "Market demand: a strong and growing need for the product improves its chance of success.",
-      "Competition: the number and strength of rivals affects how easily a new idea can win customers.",
-      "Finance: an idea needs money for development, production and marketing before it earns revenue.",
-      "Skills and experience: a founder or team with the right skills reduces the risk of poor execution.",
-      "Technology: available technology determines whether a product can be made at a reasonable cost."
-    ] },
-    { "h": "Factors that hinder an idea", "b": "The same kinds of factor can also block an idea or delay it.", "points": [
-      "Legal and regulatory constraints, such as food safety rules or planning permission, can delay or stop a product.",
-      "Economic conditions, such as high interest rates or weak consumer spending, reduce demand and make borrowing costly.",
-      "Ethics and sustainability: an idea that harms the environment or breaks ethical standards may be rejected or lose customers.",
-      "Timing: an idea can arrive before its market is ready, or the market can move on before the firm launches."
-    ] },
-    { "h": "Illustrative examples", "b": "These examples are illustrative, showing how an idea can start from a particular source. They are not historical claims.", "points": [
-      "A Cork food producer might develop a new snack from sales data showing growing demand for healthy snacks in supermarkets.",
-      "A Dublin software firm might develop a booking app from a hobby or personal frustration of its founder that other customers also share.",
-      "Stripe, founded by two Irish brothers, grew from the problem of how online businesses take payments, an example of an idea shaped by digital trade."
-    ] }
+    {
+      "h": "What a business idea is and where ideas come from",
+      "b": "A business idea is a concept for a product or service that meets a need. Many ideas never become businesses, so firms generate several and filter them, and every idea has a source: inside the firm or outside it.",
+      "points": [
+        "An entrepreneur starts a new business. An intrapreneur is an employee who develops and leads a new idea inside an existing firm. Innovation means turning an idea into something new that is actually used.",
+        "An internal source is a person or record inside the firm that suggests an idea. An external source is anything outside the firm, such as customers, competitors or new technology.",
+        "Internal sources are cheap, fast and build on what the firm already knows, because the people and records are already there.",
+        "External sources widen the firm's view and guard against making a product that customers do not want, because they bring in what the market actually says and does."
+      ],
+      "tip": "Do not mix up intrapreneur (inside an existing firm) and entrepreneur (starts a new firm). A good answer on internal versus external sources ends with a judgement on which matters more for the named business."
+    },
+    {
+      "h": "Internal sources of ideas",
+      "b": "Ideas from inside a firm come from people and records the firm already has. Because the firm owns these sources, they cost little and the ideas fit what the firm can already do.",
+      "points": [
+        "Staff are a strong internal source because they see customer problems and work practices first-hand, so they can suggest improvements and new products.",
+        "Intrapreneurs are employees who propose and lead new ventures inside the firm. This gives the firm innovation without setting up a new start-up.",
+        "Research and development (R&D) is structured testing and experiment that produces new or improved products and processes.",
+        "Brainstorming brings staff together to generate many ideas quickly, with judgement held back. The ideas are screened later.",
+        "Existing products suggest extensions, such as a new size, flavour or use of a popular line the firm already sells.",
+        "Sales data shows what sells, to whom and when, so it can reveal gaps or changing demand. Online sales and website analytics make this data fast and detailed.",
+        "Intercom, a software company with an R&D office in Dublin, began as a small feature built into Exceptional, the founders' own error-tracking app. The founders wanted to talk to their customers but found it slow, so they built a messaging tool.",
+        "Intercom's blog dates private beta to July 2011 and the company's founding to August 2011."
+      ],
+      "tip": "Name the source and say why it produces ideas, then link it to the case in the question. Listing sources with no link to the business is a common mistake. For a sample business, an intrapreneur might be a shop assistant who proposes a new product line to management."
+    },
+    {
+      "h": "External sources of ideas",
+      "b": "Ideas from outside the firm show what customers want, what competitors offer and where the wider world is moving.",
+      "points": [
+        "Customers reveal ideas through complaints, reviews, direct requests and feedback, which show needs the firm is not meeting.",
+        "Competitors show what the market already offers and where it is weak or overcrowded, so a firm can aim at a gap.",
+        "Market research, such as surveys and focus groups, tests whether an idea has demand before the firm invests. Primary research is gathered first-hand (surveys, interviews, focus groups) and secondary research uses existing published data.",
+        "Trends in lifestyle, population and spending, such as growing interest in plant-based food, point to new markets. Sustainability trends, such as reuse, lower carbon and the circular economy (keeping materials in use rather than throwing them away), also create openings.",
+        "New technology can make a product possible or cheaper to produce, such as mobile payment apps, artificial intelligence and automation.",
+        "Travel exposes entrepreneurs to products and services that are not yet available at home, which they can then introduce.",
+        "Hobbies and personal interests give ideas that the founder understands well enough to judge their quality.",
+        "Government and university research produce findings that firms can commercialise (turn into products to sell), often through partnership or licensing."
+      ],
+      "tip": "Remember that market research is both an external source of ideas and a way of testing them later. Treating it only as a check on an idea you already have is a common mistake."
+    },
+    {
+      "h": "Irish examples of ideas and supports",
+      "b": "Real Irish cases show how an idea starts from a particular source, and how the State helps turn research into marketable ideas.",
+      "points": [
+        "Stripe: Patrick and John Collison grew up in Dromineer, Co. Tipperary. Aged 21 and 19 in 2010, they were building an online payments business. Stripe aimed to make handling online payments far simpler for businesses, an idea that came from a problem in digital trade.",
+        "Intercom grew from a feature in an existing product, shaped by the firm's own contact with its customers. It is an example of an internal source, since the idea came from the founders' own product and its users.",
+        "Enterprise Ireland's Innovation Voucher lets a small or medium-sized Irish limited company work with a registered, publicly funded knowledge provider, such as a university, institute of technology or a state body like Teagasc, to explore a business problem and find an innovative solution.",
+        "As of 2026 the standard voucher is worth €10,000 and is valid for 18 months. A co-funded version brings a project to €20,000, with the company paying 50% in cash. Market research and standard website or software development are not eligible.",
+        "Enterprise Ireland's Commercialisation Fund is a programme that supports research-based ideas moving to market.",
+        "Local Enterprise Offices run a Feasibility Grant that helps promoters research market demand and technical viability before launch."
+      ],
+      "tip": "If you name a firm, keep the detail to what is certain. Naming a firm with a wrong detail is a common mistake, so a short accurate statement is better than a long uncertain one."
+    },
+    {
+      "h": "Idea generation and screening",
+      "b": "Generation produces many ideas, and screening narrows the list to those worth developing.",
+      "points": [
+        "Idea generation aims for quantity first, because early judgement can stop creative ideas before they are properly considered.",
+        "Screening is a quick comparison of ideas against criteria: fit with the firm's goals, likely cost and whether it can be funded, likely demand, and whether it can be made and sold legally.",
+        "A simple screening matrix scores each idea against each criterion and gives the most important criteria the highest weighting. Adding the scores for each idea shows which ones rank highest.",
+        "Ideas that pass screening move on to a feasibility study, a detailed evidence-gathering report on one idea."
+      ],
+      "tip": "Do not confuse screening with a feasibility study. Screening is a quick comparison of several ideas, while a feasibility study gathers detailed evidence on one idea."
+    },
+    {
+      "h": "Factors that help an idea develop",
+      "b": "Several factors decide whether an idea grows into a viable business. Each one can help or hinder, depending on the idea.",
+      "points": [
+        "Market demand: a strong and growing need for the product improves its chance of success, because customers are already waiting to buy.",
+        "Competition: the number and strength of rivals affects how easily a new idea can win customers. Few rivals make it easier.",
+        "Finance: an idea needs money for development, production and marketing before it earns revenue, so a firm with funding can carry it through the early period.",
+        "Skills and experience: a founder or team with the right skills reduces the risk of poor execution.",
+        "Technology: available technology determines whether a product can be made at a reasonable cost."
+      ],
+      "tip": "For a question asking you to determine the factors that affect an idea, name the factor, say whether it helps or hinders in the situation given, and state the effect on the business (cost, demand, delay, reputation). A factor with no effect on the business is a common mistake."
+    },
+    {
+      "h": "Factors that hinder an idea",
+      "b": "The same kinds of factor can also block an idea or delay it.",
+      "points": [
+        "Legal and regulatory constraints, such as food safety rules, planning permission or data protection for apps, can delay or stop a product.",
+        "Economic conditions, such as high interest rates, weak consumer spending or inflation, reduce demand and make borrowing costly.",
+        "Ethics and sustainability: an idea that harms the environment, exploits workers or breaks ethical standards may be rejected or lose customers.",
+        "The positive side also applies: a sustainable idea can attract customers and funding.",
+        "Timing: an idea can arrive before its market is ready, which is too early, or the market can move on before the firm launches, which is too late."
+      ],
+      "tip": "Each factor can help or hinder depending on the idea, so say which way it cuts for the business in the question and give the effect on it. Expect a sustainability or ethics factor and a digital source such as data, apps or AI."
+    },
+    {
+      "h": "Illustrative examples",
+      "b": "These sample businesses are invented to show how an idea can start from a particular source. They are not real firms.",
+      "points": [
+        "A sample Cork food producer might develop a new snack from sales data showing growing demand for healthy snacks in supermarkets.",
+        "A sample Dublin software firm might develop a booking app from a hobby or personal frustration of its founder that other customers also share.",
+        "A sample small Irish food business might meet a trend towards plant-based food by adding a new line to a product it already sells.",
+        "A sample mobile banking app in Ireland shows how new technology can make a service possible that customers could not use before."
+      ],
+      "tip": "In a case question, link each source or factor to the business in the stem rather than listing them in general terms."
+    }
   ],
   "keyTerms": [
     { "term": "Internal sources of ideas", "definition": "Ideas that come from within the firm, such as staff, existing products, research and development, and sales records." },

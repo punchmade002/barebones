@@ -4,65 +4,127 @@
   "subsection": "2. Strategies to adapt or expand, and the role of technology",
   "syllabusRef": "2.6.3, 2.6.4",
   "notes": [
-    { "h": "Why businesses expand", "b": "Expansion is a decision to grow output, markets or products. Each reason below is a motive for growth.", "points": [
-      "Economies of scale lower the average cost per unit as output rises, through bulk buying, specialised equipment and spreading fixed overheads.",
-      "Growing market share increases bargaining power and brand recognition.",
-      "Diversification spreads risk, so a fall in one product or market does not sink the whole business.",
-      "Growth can be necessary for survival, because a growing competitor may squeeze a small firm out of the market."
-    ] },
-    { "h": "Organic strategies", "b": "Organic (internal) growth uses the firm's own resources. It is slower than external growth but keeps control within the firm.", "points": [
-      "New product development adds products to the range, building on the firm's existing brand and skills.",
-      "Entering new markets means selling existing or new products to new customer groups or places.",
-      "Increasing capacity means investing in more premises, machinery or staff so the firm can produce more.",
-      "Franchising out lets the firm grow by licensing its brand and system to franchisees, who pay fees and royalties.",
-      "Exporting sells goods or services abroad, either directly or through agents or distributors."
-    ] },
-    { "h": "Advantages and disadvantages of organic growth", "b": "Organic strategies suit firms that want steady growth and tight control, but they can be too slow when a market is moving fast.", "points": [
-      "Organic growth avoids paying a purchase premium and keeps decisions within the existing business.",
-      "Organic growth is slow, and the firm may lack the skills or capital to enter new markets quickly.",
-      "Franchising spreads the capital needed for growth across franchisees, but the franchisor loses direct control over quality and service.",
-      "Exporting adds transport and distribution costs and reduces the firm's direct control over how its product is sold abroad.",
-      "A new product can fail if customers do not accept it, which is why demand should be tested before the firm commits."
-    ] },
-    { "h": "Inorganic strategies", "b": "Inorganic (external) growth combines with or buys other businesses. It is fast but brings integration risk.", "points": [
-      "A merger joins two firms into one new combined business, usually to gain scale and share skills.",
-      "A takeover or acquisition is when one firm buys control of another, which may be agreed with the target's board or forced on it.",
-      "A strategic alliance is a cooperation agreement between independent firms that share resources or markets without merging.",
-      "A joint venture creates a separate new business owned jointly by two or more firms, which share its costs, risks and profits."
-    ] },
-    { "h": "Advantages and disadvantages of inorganic growth", "b": "Each external strategy trades speed for control, and the trade-off differs between a full merger and a looser alliance.", "points": [
-      "Mergers and takeovers give rapid access to customers, markets and skills that would take years to build.",
-      "Acquisitions are costly, often requiring a premium over market value, and may be financed with debt or share issues.",
-      "Culture clashes and integration problems can destroy the value a merger was meant to create.",
-      "Strategic alliances are flexible and cheap to set up, but disputes over control and the risk of a partner learning the firm's methods are drawbacks.",
-      "Joint ventures share risk and bring in partner expertise, but conflicting goals and slow joint decisions are common problems.",
-      "Large mergers and takeovers may need clearance from the Competition and Consumer Protection Commission, which can delay or block them."
-    ] },
-    { "h": "Before expanding abroad", "b": "Expansion into an international market needs checks that a domestic expansion does not.", "points": [
-      "Market research must show real demand for the product in the target country, not just assumed demand.",
-      "Legal and regulatory requirements, such as product standards and tax rules, must be met before selling.",
-      "Exchange rate movements change the euro value of sales and costs, so currency risk must be assessed.",
-      "Cultural and language differences can affect the product, its packaging and the promotion message."
-    ] },
-    { "h": "Financing expansion", "b": "Expansion costs money, so the source of finance should match the scale and time horizon of the project.", "points": [
-      "The sources of finance covered earlier in this course apply here, and the choice should match how long the investment takes to pay back.",
-      "Long-term assets such as premises suit long-term finance, while a temporary build-up of stock suits short-term borrowing such as an overdraft.",
-      "Funding expansion from retained earnings avoids interest and loss of control, but growth is then limited to what profits allow."
-    ] },
-    { "h": "Technology that supports growth", "b": "Technology lets a business reach more customers, cut costs and make better decisions without the same investment in physical capacity.", "points": [
-      "E-commerce and online marketplaces let a small firm sell to national or international customers quickly.",
-      "Automation, such as robotic production or automated stock management, raises output without matching increases in labour.",
-      "Cloud computing lets a firm rent computing power and software as needed, so it can scale up without buying servers.",
-      "Data and AI tools help predict demand, personalise offers and spot trends faster than manual analysis.",
-      "Remote working widens the pool of workers a firm can hire and can reduce the need for office space."
-    ] },
-    { "h": "Risks of growing too fast", "b": "Rapid growth can break a business that has not built the systems to manage it.", "points": [
-      "Overtrading happens when sales grow faster than the working capital needed to fund them, so the firm runs short of cash despite healthy sales.",
-      "Quality can fall when production or service is stretched across more customers and new staff.",
-      "Management may be overstretched, with decisions made too slowly for a larger organisation.",
-      "Rapid growth funded by heavy borrowing increases fixed repayments and the risk of default.",
-      "Growth can dilute the brand and culture the business was built on."
-    ] }
+    {
+      "h": "Why businesses expand",
+      "b": "A business is not static: it has to adapt to customers, competitors and technology to survive. Expansion is a decision to grow output, markets or products, and each reason below is a motive for growth.",
+      "points": [
+        "Economies of scale lower the average cost per unit as output rises, through bulk buying (suppliers give discounts on large orders), specialised equipment and spreading fixed overheads over more units.",
+        "Growing market share (the firm's percentage of total sales in its market) increases its bargaining power with suppliers and its brand recognition with customers.",
+        "Diversification (selling a wider range of products or in more markets) spreads risk, so a fall in one product or market does not sink the whole business.",
+        "Growth can be necessary for survival, because a growing competitor with lower costs may squeeze a small firm out of the market. Firms often grow to defend or build their competitive advantage."
+      ],
+      "tip": "When asked why a firm expands, give the motive and its effect on the business, for example economies of scale lower cost per unit, which lets the firm cut prices or raise its profit margin."
+    },
+    {
+      "h": "Organic strategies",
+      "b": "Organic (internal) growth uses the firm's own resources, such as its profits, staff and brand. It is slower than external growth but keeps control within the firm.",
+      "points": [
+        "New product development adds products to the range, building on the firm's existing brand and skills, so customers already trust the name.",
+        "Entering new markets means selling existing or new products to new customer groups or places, for example a new region or age group.",
+        "Increasing capacity means investing in more premises, machinery or staff so the firm can produce more to meet rising demand.",
+        "Franchising out lets the firm grow its brand with other people's capital: it licenses its brand and system to franchisees, who pay fees and royalties. It is treated as organic growth here, although some textbooks class it as inorganic.",
+        "Exporting sells goods or services abroad, either directly to customers or through agents or distributors (middlemen who handle sales in the foreign market).",
+        "E-commerce is an organic route too: selling online reaches new customers without opening new premises."
+      ],
+      "tip": "Keep franchising in organic growth and say it grows the brand with other people's capital. A full answer on any strategy names it, says what it involves, then gives an advantage and a disadvantage."
+    },
+    {
+      "h": "Advantages and disadvantages of organic growth",
+      "b": "Organic strategies suit firms that want steady growth and tight control, but they can be too slow when a market is moving fast.",
+      "points": [
+        "Organic growth avoids paying a purchase premium (the extra over market value paid to buy another firm) and keeps decisions within the existing business.",
+        "Organic growth is slow, and the firm may lack the skills or capital to enter new markets quickly.",
+        "Franchising spreads the capital needed for growth across franchisees, but the franchisor loses direct control over quality and service, so one poor outlet can harm the whole brand.",
+        "Exporting adds transport and distribution costs and reduces the firm's direct control over how its product is sold abroad.",
+        "A new product can fail if customers do not accept it, which is why demand should be tested before the firm commits money to it."
+      ],
+      "tip": "To compare organic and inorganic growth, refer to both throughout and give similarities as well as differences. For example, organic growth suits a firm that wants control and has time."
+    },
+    {
+      "h": "Inorganic strategies",
+      "b": "Inorganic (external) growth combines with or buys other businesses. It is fast but brings integration risk, because two organisations must be made to work as one. These four terms are easy to confuse, so learn what separates them.",
+      "points": [
+        "A merger joins two firms into one new combined business by agreement, usually to gain scale and share skills.",
+        "A takeover or acquisition is when one firm buys control of another. It may be agreed with the target's board or forced on it against the board's wishes (a hostile takeover).",
+        "A strategic alliance is a cooperation agreement between independent firms that share resources or markets without merging. No new company is created and each firm stays independent.",
+        "A joint venture creates a separate new business owned jointly by two or more firms, which share its costs, risks and profits."
+      ],
+      "tip": "Merger means two firms become one new firm, by agreement. Takeover means one firm buys control, possibly hostile. Alliance creates no new company, while a joint venture does. Mixing these pairs up is a common mistake."
+    },
+    {
+      "h": "Advantages and disadvantages of inorganic growth",
+      "b": "Each external strategy trades speed for control, and the trade-off differs between a full merger and a looser alliance.",
+      "points": [
+        "Mergers and takeovers give rapid access to customers, markets and skills that would take years to build organically.",
+        "Acquisitions are costly, often requiring a premium over market value, and may be financed with debt or share issues.",
+        "Culture clashes (different ways of working and values) and integration problems can destroy the value a merger was meant to create.",
+        "Strategic alliances are flexible and cheap to set up, but disputes over control and the risk of a partner learning the firm's methods are drawbacks.",
+        "Joint ventures share risk and bring in partner expertise, but conflicting goals and slow joint decisions are common problems.",
+        "Large mergers and takeovers may need clearance from the Competition and Consumer Protection Commission (CCPC), which can delay or block them. Under the Competition Act 2002 (as amended), notification is mandatory if turnover thresholds in the State are met, and must be made before the merger takes effect.",
+        "The CCPC can also require notification of a below-threshold merger it believes may affect competition.",
+        "Example: Kingspan, a building-materials group based in Co Cavan, agreed to buy Duggan Profiles & Steel Service Centre Ltd, Kilkenny, and notified the CCPC in January 2026.",
+        "The CCPC cleared the Kingspan deal on 25 May 2026, saying it would not substantially lessen competition in any market for goods or services in the State."
+      ],
+      "tip": "For discuss or evaluate questions, give three or four developed points, each with its effect, then a justified view. Do not quote CCPC threshold amounts: they changed in 2026."
+    },
+    {
+      "h": "Before expanding abroad",
+      "b": "Expansion into an international market needs checks that a domestic expansion does not, because the firm faces unfamiliar customers, laws and currencies.",
+      "points": [
+        "Market research must show real demand for the product in the target country, not just assumed demand, so the firm does not invest in a market that will not buy.",
+        "Legal and regulatory requirements, such as product standards and tax rules, must be met before selling, or the goods may be refused entry.",
+        "Exchange rate movements change the euro value of sales and costs, so currency risk must be assessed. A weaker foreign currency, for example, makes each foreign sale worth fewer euro.",
+        "Cultural and language differences can affect the product, its packaging and the promotion message, so these may need to be adapted for the new market."
+      ],
+      "tip": "When asked to outline factors before expanding abroad, give three distinct factors, each with a one-line reason tied to the business in the question. Common mistakes are naming a factor with no reason, giving three versions of cost, and ignoring the firm in the stimulus."
+    },
+    {
+      "h": "Financing expansion",
+      "b": "Expansion costs money, so the source of finance should match the scale and time horizon of the project. The usual sources (share capital, loans, retained earnings and overdrafts) all apply to expansion.",
+      "points": [
+        "The choice of source should match how long the investment takes to pay back, so the firm is not repaying a loan long before the project earns anything.",
+        "Long-term assets such as premises suit long-term finance, while a temporary build-up of stock suits short-term borrowing such as an overdraft.",
+        "Funding expansion from retained earnings (profits kept in the business) avoids interest and loss of control, but growth is then limited to what profits allow."
+      ],
+      "tip": "Link the source of finance to the project: say what the money is for, how long it takes to pay back, and why that source fits."
+    },
+    {
+      "h": "Technology that supports growth",
+      "b": "Technology lets a business reach more customers, cut costs and make better decisions without the same investment in physical capacity. A small firm can use it to grow faster than its size would otherwise allow.",
+      "points": [
+        "E-commerce and online marketplaces let a small firm sell to national or international customers quickly, without opening shops in each place.",
+        "Automation, such as robotic production or automated stock management, raises output without matching increases in labour.",
+        "Cloud computing lets a firm rent computing power and software as needed, so it can scale up without buying its own servers.",
+        "Data and AI tools help predict demand, personalise offers and spot trends faster than manual analysis.",
+        "Remote working widens the pool of workers a firm can hire and can reduce the need for office space.",
+        "Digital risks grow with the firm: collecting more customer data raises the need for cyber-security and data protection (GDPR compliance), and dependence on a few platforms leaves the firm exposed if one changes its terms or fails.",
+        "Sustainability angle: cloud computing and remote working can reduce travel and office use, though growth in general raises resource use and waste."
+      ],
+      "tip": "Questions on technology ask you to appreciate its potential: state its value and give an example of how it supports growth. Do not name a platform or product."
+    },
+    {
+      "h": "Risks of growing too fast",
+      "b": "Rapid growth can break a business that has not built the systems to manage it.",
+      "points": [
+        "Overtrading happens when sales grow faster than the working capital (the cash needed to run the business day to day) available to fund them, so the firm runs short of cash despite healthy sales.",
+        "Quality can fall when production or service is stretched across more customers and new staff.",
+        "Management may be overstretched, with decisions made too slowly for a larger organisation.",
+        "Rapid growth funded by heavy borrowing increases fixed repayments and the risk of default (failing to repay).",
+        "Growth can dilute the brand and culture the business was built on."
+      ],
+      "tip": "Overtrading is a cash-flow problem, not the same as overcapacity. Remember to include the risks in any answer on growth, as forgetting them is a common mistake."
+    },
+    {
+      "h": "Ethical and sustainability angles on growth",
+      "b": "Growth affects people and the environment as well as profit.",
+      "points": [
+        "Takeovers can cost jobs and close local sites, so stakeholders (staff, suppliers and communities) should be weighed before a takeover goes ahead.",
+        "Franchisors and joint-venture partners owe each other fair treatment, because each depends on the other's conduct and reputation.",
+        "Growth raises resource use, transport emissions (especially through exporting) and waste.",
+        "Expansion plans can reduce this impact by including energy-efficient premises and sustainable supply chains."
+      ],
+      "tip": "Add an ethical or sustainability point to an expansion answer and say who is affected, for example staff facing job losses after a takeover."
+    }
   ],
   "keyTerms": [
     { "term": "Diversification", "definition": "Spreading a business's risk by adding products or markets that do not all move together." },
