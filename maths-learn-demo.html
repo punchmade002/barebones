@@ -34,9 +34,6 @@ button, a { font: inherit }
 .phases { display: flex; gap: 6px; font-size: 0.78rem; font-weight: 700 }
 .phases span { padding: 5px 12px; border-radius: 999px; color: var(--muted); background: rgba(255,255,255,.55) }
 .phases .now { background: var(--ink); color: #fff }
-.level { margin-left: auto; display: inline-flex; padding: 3px; border-radius: 999px; background: rgba(255,255,255,.7); border: 1px solid var(--line) }
-.level button { border: 0; background: transparent; padding: 5px 12px; border-radius: 999px; font-size: 0.78rem; font-weight: 700; color: var(--muted); cursor: pointer }
-.level button[aria-checked="true"] { background: #fff; color: var(--ink); box-shadow: 0 1px 4px rgba(26,25,22,.12) }
 
 /* the whiteboard */
 .wrap { max-width: 1240px; margin: 0 auto; padding: 16px 20px 120px; display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 28px; align-items: start }
@@ -182,9 +179,6 @@ a.chip:hover { border-color: var(--ink) }
 <header class="bar">
   <a class="back" href="maths-skill.html">← All skills</a>
   <div class="phases" aria-label="Skill phases"><span class="now" aria-current="step">1 · Learn</span><span>2 · Practice Problems</span></div>
-  <div class="level" role="radiogroup" aria-label="Your level">
-    <button role="radio" data-level="higher">Higher</button><button role="radio" data-level="ordinary">Ordinary</button>
-  </div>
 </header>
 <div class="wrap">
   <ol class="rail" id="rail" aria-label="Sections">
@@ -229,9 +223,13 @@ const SKILL = {
   },
 };
 
-// shortcut: the student's level lives here until the profile stores it; the real app passes it in
-const LEVEL_KEY = 'bb-maths-level';
-let LEVEL = (() => { try { return localStorage.getItem(LEVEL_KEY) === 'ordinary' ? 'ordinary' : 'higher' } catch { return 'higher' } })();
+// the student's maths level from onboarding (app.js saves the whole state under this key); Higher until they choose
+const LEVEL = (() => {
+  try {
+    const app = JSON.parse(localStorage.getItem('bare-bones-app-v4')) || {};
+    return app.usersByName?.[app.session?.currentUser]?.onboarding?.levels?.maths === 'ordinary' ? 'ordinary' : 'higher';
+  } catch { return 'higher' }
+})();
 
 const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' }, trust: c => c.command === '\\htmlClass' };
 const tex = (s, display = false) => katex.renderToString(s, { ...KATEX_OPTS, displayMode: display });
@@ -582,17 +580,6 @@ $('all').onclick = showAll;
 $('replay').onclick = () => start();
 board.addEventListener('click', e => { if (e.target.closest('[data-act=replay]')) start() });
 document.addEventListener('keydown', e => { if (e.code === 'Space' && e.target === document.body) { e.preventDefault(); $('play').click() } });
-
-// level switch: the exam section and tips follow it. Finished → redraw at once; still playing → start again
-const levelButtons = document.querySelectorAll('[data-level]');
-const markLevel = () => levelButtons.forEach(b => b.setAttribute('aria-checked', String(b.dataset.level === LEVEL)));
-levelButtons.forEach(b => b.onclick = () => {
-  if (b.dataset.level === LEVEL) return;
-  LEVEL = b.dataset.level; markLevel();
-  try { localStorage.setItem(LEVEL_KEY, LEVEL) } catch { /* private mode: keep it for this visit */ }
-  start(run.state === 'done');
-});
-markLevel();
 
 // reduced motion: the whole board at once, no writing animation
 start(matchMedia('(prefers-reduced-motion: reduce)').matches);
