@@ -1,0 +1,602 @@
+[
+ {
+  "skill": "prob-npr",
+  "what": {
+   "say": [
+    "You give it $n$ objects and a number $r$. It counts the ways to pick $r$ of them **in order**, written $^nP_r$.",
+    "The key idea: each pick uses one object up, so the choices shrink by one each time. Multiply the $r$ shrinking numbers."
+   ],
+   "in": "$n,\\ r$",
+   "out": "$^nP_r$"
+  },
+  "how": {
+   "ordinary": "Ordinary level asks for it on Paper 2, as a short 5-mark part on arranging letters or objects, or inside a longer counting question."
+  },
+  "example": {
+   "question": "A club has $8$ members. A chairperson, a secretary and a treasurer are chosen, in that order. In how many ways can the three jobs be filled?",
+   "level": "ordinary",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count the choices",
+      "say": "Fill the jobs one at a time. Eight people can be chairperson. That person is used up, so seven are left for secretary, then six for treasurer.",
+      "lines": [
+       {
+        "text": "Chairperson: $8$ choices. Secretary: $7$. Treasurer: $6$."
+       },
+       {
+        "tex": "n = 8, \\quad r = 3"
+       }
+      ]
+     },
+     {
+      "title": "Multiply the choices",
+      "say": "Order matters, so multiply the numbers of choices.",
+      "lines": [
+       {
+        "tex": "^8P_3 &= 8 \\times 7 \\times 6",
+        "sym": "8*7*6",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{336}",
+        "sym": "336"
+       }
+      ]
+     },
+     {
+      "title": "Check with factorials",
+      "say": "The same count comes from the factorial formula for $^nP_r$.",
+      "lines": [
+       {
+        "tex": "^8P_3 &= \\frac{8!}{5!}",
+        "sym": "factorial(8)/factorial(5)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{336}",
+        "sym": "336"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "336"
+   },
+   "finalSym": "336",
+   "answerSym": "factorial(8)/factorial(5)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show the multiplication. If you list the factors and stop, the scheme still gives high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q3#(a)(i), (ii)",
+       "quote": "multiplication clearly indicated but answers not worked out"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(iii)",
+       "quote": "All terms listed but not multiplied"
+      }
+     ]
+    },
+    {
+     "tip": "Either form is accepted: the $^nP_r$ notation or the product of the shrinking numbers.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(iii)",
+       "quote": "(7)(6)(5) = 210"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p2-q10#(b)(ii), (iii)",
+       "quote": "5 × 4 = 20"
+      }
+     ]
+    },
+    {
+     "tip": "If you cannot finish, write down the numbers you do know. Naming one of them earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(iii)",
+       "quote": "7 or 6 or 5 identified"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no working still earns full marks, but working protects you if you slip.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q10#(b)(ii), (iii)",
+       "quote": "Accept correct answers without work"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p2-q3#(a)(iii)",
+       "quote": "Correct answer without supporting work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-addition-rule",
+  "what": {
+   "say": [
+    "You give it $P(A)$, $P(B)$ and $P(A \\cap B)$. It gives you the probability of $A$ **or** $B$, $P(A \\cup B)$.",
+    "The key idea: adding $P(A)$ and $P(B)$ counts the overlap twice, so take the overlap away once."
+   ],
+   "in": "$P(A),\\ P(B),\\ P(A \\cap B)$",
+   "out": "$P(A \\cup B)$"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 2, often as a 5-mark part, to find a missing probability so that independence can be tested.",
+   "ordinary": "Ordinary level uses it on Paper 2 in short 5-mark parts, usually to find the probability of one outcome or another from a table or list of outcomes."
+  },
+  "example": {
+   "question": "$A$ and $B$ are events with $P(A) = \\frac{3}{5}$, $P(B) = \\frac{3}{10}$ and $P(A \\cup B) = \\frac{7}{10}$. Find $P(A \\cap B)$. Hence state whether $A$ and $B$ are independent.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the addition rule",
+      "say": "Start with the rule for $A$ or $B$. It has $P(A \\cap B)$ in it, and that is what we want.",
+      "lines": [
+       {
+        "tex": "P(A \\cup B) &= P(A) + P(B) - P(A \\cap B)"
+       }
+      ]
+     },
+     {
+      "title": "Find the overlap",
+      "say": "Put the numbers in and make $\\hl{1}{P(A \\cap B)}$ the subject.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{P(A \\cap B)} &= \\frac{3}{5} + \\frac{3}{10} - \\frac{7}{10}",
+        "sym": "Rational(3,5)+Rational(3,10)-Rational(7,10)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{1}{5}}",
+        "sym": "Rational(1,5)"
+       }
+      ]
+     },
+     {
+      "title": "Test for independence",
+      "say": "Independent events satisfy $P(A) \\times P(B) = P(A \\cap B)$. Multiply $P(A)$ and $P(B)$ and compare with $\\hl{1}{\\frac{1}{5}}$.",
+      "lines": [
+       {
+        "tex": "P(A) \\times P(B) &= \\frac{3}{5} \\times \\frac{3}{10}",
+        "sym": "Rational(3,5)*Rational(3,10)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{9}{50}}",
+        "sym": "Rational(9,50)"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "Compare the two values.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{\\frac{9}{50}} &\\neq \\hl{1}{\\frac{1}{5}}"
+       },
+       {
+        "text": "They are not equal, so $A$ and $B$ are **not independent**."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "P(A \\cap B) = \\frac{1}{5}, \\text{ so } A \\text{ and } B \\text{ are not independent}"
+   },
+   "finalSym": "Rational(1,5)",
+   "answerSym": "Rational(3,5)+Rational(3,10)-Rational(7,10)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the addition rule first. A correct relevant formula on its own earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q2#(b)",
+       "quote": "correct relevant formula, such as"
+      }
+     ]
+    },
+    {
+     "tip": "To test independence, check $P(A) \\times P(B) = P(A \\cap B)$ with real values and finish with a conclusion.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q5#(a)(ii)",
+       "quote": "with a valid conclusion"
+      }
+     ]
+    },
+    {
+     "tip": "Draw a Venn diagram and put the given probabilities in. Even part of it earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q2#(b)",
+       "quote": "draws Venn diagram with some relevant use of"
+      }
+     ]
+    },
+    {
+     "tip": "In a longer part, each step is marked: find the pieces first, then substitute them into the rule.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q3#(a)(ii)",
+       "quote": "Consider solution as requiring 4 steps"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q3#(a)(ii)",
+       "quote": "Step 4. Substitute in"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "A probability is never above $1$. An answer above $1$ with no work earns nothing.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+       "quote": "Probability > 1, without work"
+      },
+      {
+       "part": "maths-pp-2019-ordinary-p2-q3#(a)",
+       "quote": "Probability > 1, without work"
+      }
+     ]
+    },
+    {
+     "tip": "For 'this or that', work out each probability and then add. Both must be right for high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q1#(c)(ii)",
+       "quote": "Both probabilities calculated correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Write favourable outcomes over total outcomes as a fraction. That alone earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q1#(b)(ii)",
+       "quote": "A valid #E or #S in fraction format with no work shown"
+      }
+     ]
+    },
+    {
+     "tip": "A correct answer with no work still earns full credit, but write the working in case of a slip.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-ordinary-p2-q3#(a)",
+       "quote": "Correct answer without work"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-tree",
+  "what": {
+   "say": [
+    "You give it a list of stages, each with its probabilities. It draws a **tree** and gives the probability of any combined outcome.",
+    "The key idea: multiply along the branches to get one outcome, and add the outcomes you want."
+   ],
+   "in": "stages with probabilities",
+   "out": "probability of combined outcomes"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 2 in most years, as a 10 or 15-mark part where you fill in a tree and then use it for a total or conditional probability.",
+   "ordinary": "Ordinary level uses it on Paper 2 as a 10-mark part: complete or continue a tree, then multiply along branches to answer questions."
+  },
+  "example": {
+   "question": "Sam takes two penalty kicks. The probability that he scores any one kick is $\\frac{7}{10}$. Draw a tree diagram and find the probability that he scores at least one of the two kicks.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the branches",
+      "say": "Each kick has two branches: score ($S$) with $\\frac{7}{10}$ and miss ($M$) with $\\frac{3}{10}$. Both first-kick branches split again for the second kick.",
+      "lines": [
+       {
+        "text": "First kick: $S$ $\\frac{7}{10}$, $M$ $\\frac{3}{10}$."
+       },
+       {
+        "text": "Second kick: the same two branches from each of those."
+       }
+      ]
+     },
+     {
+      "title": "Multiply along the branches",
+      "say": "The probability of one outcome is the product of the numbers along its branches.",
+      "lines": [
+       {
+        "tex": "P(S,S) &= \\frac{7}{10} \\times \\frac{7}{10} = \\frac{49}{100}",
+        "sym": "Rational(49,100)",
+        "new": true
+       },
+       {
+        "tex": "P(S,M) &= \\frac{7}{10} \\times \\frac{3}{10} = \\frac{21}{100}",
+        "sym": "Rational(21,100)",
+        "new": true
+       },
+       {
+        "tex": "P(M,S) &= \\frac{3}{10} \\times \\frac{7}{10} = \\frac{21}{100}",
+        "sym": "Rational(21,100)",
+        "new": true
+       },
+       {
+        "tex": "P(M,M) &= \\frac{3}{10} \\times \\frac{3}{10} = \\hl{2}{\\frac{9}{100}}",
+        "sym": "Rational(9,100)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Add the outcomes you want",
+      "say": "At least one score means $S,S$ or $S,M$ or $M,S$. Add those three outcomes.",
+      "lines": [
+       {
+        "tex": "P(\\text{at least one}) &= \\frac{49}{100} + \\frac{21}{100} + \\frac{21}{100}",
+        "sym": "Rational(49,100)+Rational(21,100)+Rational(21,100)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{91}{100}}",
+        "sym": "Rational(91,100)"
+       }
+      ]
+     },
+     {
+      "title": "Check with the opposite",
+      "say": "The only way to score none is $M,M$. Take $\\hl{2}{\\frac{9}{100}}$ away from $1$.",
+      "lines": [
+       {
+        "tex": "1 - P(M,M) &= 1 - \\hl{2}{\\frac{9}{100}}",
+        "sym": "1-Rational(9,100)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{91}{100}}",
+        "sym": "Rational(91,100)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{91}{100}"
+   },
+   "finalSym": "Rational(91,100)",
+   "answerSym": "1-Rational(3,10)**2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Fill in every branch. Marks go for each correct value, and values correct relative to your earlier ones are accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q9#(a)(i), (ii)",
+       "quote": "values may be correct, relative to values that"
+      },
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(d)(i)",
+       "quote": "followed from left to right as a single"
+      }
+     ]
+    },
+    {
+     "tip": "Multiply along each branch and write every product you need. Each relevant probability written earns credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q6#(a)",
+       "quote": "Any 1 relevant probability from line 3"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q9#(a)(i), (ii)",
+       "quote": "Work of merit, for example, finds 1 relevant probability"
+      }
+     ]
+    },
+    {
+     "tip": "Round only at the end and to the places asked. Incorrect rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q9#(a)(i), (ii)",
+       "quote": "Incorrect rounding"
+      },
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(d)(i)",
+       "quote": "Incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "For a conditional probability, write the formula and substitute into it. That earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p2-q8#(b)(i)",
+       "quote": "Formula fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Round as the question asks. No rounding or incorrect rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q7#(a)(i), (ii)",
+       "quote": "Apply a * for no or incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "If you cannot finish the numbers, still continue the tree. Extending it correctly earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q1#(b)",
+       "quote": "Any relevant continuation of the tree diagram"
+      }
+     ]
+    },
+    {
+     "tip": "A fully correct tree diagram earns high partial credit by itself.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p2-q1#(b)",
+       "quote": "Tree diagram fully correct"
+      }
+     ]
+    },
+    {
+     "tip": "Where a part only reads off or subtracts, a correct answer alone is accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q7#(a)(i), (ii)",
+       "quote": "Accept correct answer without work in (i)"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-ncr",
+  "what": {
+   "say": [
+    "You give it $n$ objects and a number $r$. It counts the ways to **choose** $r$ of them when order does not matter, written $^nC_r$.",
+    "The key idea: count the ordered picks, $^nP_r$, then divide by $r!$, because every group was counted $r!$ times."
+   ],
+   "in": "$n,\\ r$",
+   "out": "$^nC_r$"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 2 as a step inside bigger questions: counting selections, pairs or teams, or as the coefficient in a binomial probability.",
+   "ordinary": "Ordinary level asks for it once, as a short part on Paper 2: how many ways can three of six be chosen."
+  },
+  "example": {
+   "question": "In a game, $4$ numbers are chosen from the numbers $1$ to $15$, and the order does not matter. (i) How many different selections are possible? (ii) A player buys one ticket. Find the probability that it matches the chosen numbers.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use the formula",
+      "say": "Order does not matter, so this is a selection. Use $^nC_r = \\frac{n!}{r!\\,(n-r)!}$ with $n = 15$ and $r = 4$.",
+      "lines": [
+       {
+        "tex": "^{15}C_4 &= \\frac{15!}{4!\\,11!}",
+        "sym": "factorial(15)/(factorial(4)*factorial(11))",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Cancel the factorials",
+      "say": "Cancel $11!$ from top and bottom. Four numbers are left on each side.",
+      "lines": [
+       {
+        "tex": "&= \\frac{15 \\times 14 \\times 13 \\times 12}{4 \\times 3 \\times 2 \\times 1}",
+        "sym": "15*14*13*12/(4*3*2*1)"
+       },
+       {
+        "tex": "&= \\hl{1}{1365}",
+        "sym": "1365"
+       }
+      ]
+     },
+     {
+      "title": "Find the probability",
+      "say": "Only one of the $\\hl{1}{1365}$ selections matches, so the probability is one over that.",
+      "lines": [
+       {
+        "tex": "P(\\text{match}) &= \\frac{1}{\\hl{1}{1365}}",
+        "sym": "Rational(1,1365)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "1365 \\text{ selections; } P = \\frac{1}{1365}"
+   },
+   "finalSym": "Rational(1,1365)",
+   "answerSym": "1/binomial(15,4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Order of the pair may be treated either way, but be consistent. Mixing ordered and unordered in one question caps your marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q6#(c)(i), (ii)",
+       "quote": "Accept solutions where pairs are considered unordered or ordered"
+      },
+      {
+       "part": "maths-pp-2024-higher-p2-q6#(c)(i), (ii)",
+       "quote": "treated as ordered in one part and unordered in the other"
+      }
+     ]
+    },
+    {
+     "tip": "For probability by counting, count the favourable selections and put them over the total number of selections. Finding either earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q10#(d)",
+       "quote": "Finds 50 and puts over a relevant number"
+      },
+      {
+       "part": "maths-pp-2022-higher-p2-q10#(d)",
+       "quote": "indicates at least two possible pairs"
+      }
+     ]
+    },
+    {
+     "tip": "A correct count with no working earns full credit, but write the formula in case you slip.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q6#(c)(i), (ii)",
+       "quote": "Accept for full credit correct answers without work"
+      }
+     ]
+    },
+    {
+     "tip": "When a count feeds into a decimal probability, round to the places asked. No rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q1#(b)",
+       "quote": "Incorrect rounding or no rounding"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "If you cannot recall the formula, list the selections. The scheme lists all $20$ groups, each once.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-ordinary-p2-q1#(c)",
+       "quote": "123,124,125,126,134,135,136,145,146,156,"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
