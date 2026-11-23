@@ -1,0 +1,565 @@
+{
+ "bio9-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio9-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.0.b",
+    "strength": "essential",
+    "why": "transfer molecule definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.0.b",
+    "strength": "essential",
+    "why": "transfer molecule definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio9-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.0.2",
+    "strength": "essential",
+    "why": "catabolic reaction type",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.0.2",
+    "strength": "essential",
+    "why": "anabolic reaction type",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.0.3",
+    "strength": "essential",
+    "why": "catabolic reactions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.0.4",
+    "strength": "essential",
+    "why": "anabolic reactions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.0.1",
+    "strength": "helpful",
+    "why": "ATP as energy carrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio9-s1.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.1.b",
+    "strength": "helpful",
+    "why": "three-part ATP structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.1.0",
+    "strength": "essential",
+    "why": "adenine, ribose, phosphates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.1.0",
+    "strength": "essential",
+    "why": "base, sugar, phosphate parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.1.0",
+    "strength": "essential",
+    "why": "ATP's three phosphates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.1.0",
+    "strength": "helpful",
+    "why": "phosphate group in ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.1.0",
+    "strength": "essential",
+    "why": "parts of ATP",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.1.3",
+    "strength": "helpful",
+    "why": "ADP structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.2.2",
+    "strength": "helpful",
+    "why": "end bond broken for energy",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio9-s1.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.1.0",
+    "strength": "helpful",
+    "why": "end phosphate of ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.1.3",
+    "strength": "essential",
+    "why": "ADP as product",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.1.4",
+    "strength": "essential",
+    "why": "Pi as product",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "essential",
+    "why": "ATP breakdown reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "end phosphate removal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "energy release from ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "essential",
+    "why": "released phosphate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.1.4",
+    "strength": "helpful",
+    "why": "Pi as free phosphate",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio9-s1.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "ATP breakdown to ADP",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.1.3",
+    "strength": "helpful",
+    "why": "ADP structure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio9-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "essential",
+    "why": "reverse of ATP breakdown",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.1.3",
+    "strength": "helpful",
+    "why": "ADP structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "essential",
+    "why": "phosphate added to ADP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "essential",
+    "why": "energy needed to make ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "essential",
+    "why": "ATP made from ADP + Pi",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.3.2",
+    "strength": "helpful",
+    "why": "ATP made in respiration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio9-s1.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "ATP breakdown half",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "helpful",
+    "why": "ATP remaking half",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "essential",
+    "why": "ATP breakdown",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "essential",
+    "why": "ATP remaking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.4.0",
+    "strength": "essential",
+    "why": "ATP/ADP cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.4.1",
+    "strength": "helpful",
+    "why": "small ATP store",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.3.2",
+    "strength": "helpful",
+    "why": "ATP made by respiration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.4.0",
+    "strength": "essential",
+    "why": "ATP/ADP cycle",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.5.b",
+    "strength": "helpful",
+    "why": "cell work uses ATP",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio9-s1.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "ATP energy release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "ATP releases energy",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.3.2",
+    "strength": "helpful",
+    "why": "mitochondria make ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "ATP releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.5.1",
+    "strength": "essential",
+    "why": "active transport by pumps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.0.4",
+    "strength": "essential",
+    "why": "anabolic reactions need energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.0.4",
+    "strength": "helpful",
+    "why": "photosynthesis is anabolic",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.3.3",
+    "strength": "helpful",
+    "why": "light stage makes ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "ATP releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.3.2",
+    "strength": "helpful",
+    "why": "glucose makes ATP in respiration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio9-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.2.3",
+    "strength": "essential",
+    "why": "small single-step packet",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.6.0",
+    "strength": "helpful",
+    "why": "glucose releases too much",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.4.0",
+    "strength": "helpful",
+    "why": "ATP recycled in cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.3.2",
+    "strength": "helpful",
+    "why": "respiration makes ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.5.5",
+    "strength": "helpful",
+    "why": "firefly bioluminescence uses ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.5.5",
+    "strength": "essential",
+    "why": "luciferase uses ATP for light",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio9-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.7.0",
+    "strength": "essential",
+    "why": "luciferase light shows ATP",
+    "confidence": "high"
+   }
+  ]
+ }
+}
