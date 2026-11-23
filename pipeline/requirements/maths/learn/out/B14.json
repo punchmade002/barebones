@@ -103,8 +103,8 @@
     ],
     "finalAnswer": "\\hl{2}{7} \\text{ m}"
    },
-   "finalSym": "[7]",
-   "answerSym": "solve(Eq(x*(x+5),84),x)"
+   "finalSym": "7",
+   "answerSym": "sqrt(84+Rational(25,4))-Rational(5,2)"
   },
   "graph": null,
   "diagram": null,

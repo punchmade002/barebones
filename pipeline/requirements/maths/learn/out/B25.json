@@ -466,28 +466,28 @@
    ],
    "ordinary": [
     {
-     "tip": "Write out the substitution first. Correct substitution on its own earns partial credit.",
+     "tip": "Write out the substitution first, then distribute. Correct substitution on its own earns partial credit.",
      "sources": [
       {
-       "part": "maths-pp-2016-ordinary-p1-q2#(b)",
-       "quote": "Any correct substitution"
+       "part": "maths-pp-2018-ordinary-p1-q2#(a)",
+       "quote": "Some correct substitution"
       },
       {
-       "part": "maths-pp-2021-ordinary-p1-q2#(b)",
-       "quote": "Some correct substitution"
+       "part": "maths-pp-2023-ordinary-p1-q2#(a)(iii)",
+       "quote": "Full substitution and distribution"
       }
      ]
     },
     {
-     "tip": "Show the multiplication line by line. Any correct multiplication is rewarded, and a fully correct one earns more.",
+     "tip": "Show the multiplication line by line. Some correct multiplication is rewarded even if the final answer is wrong.",
      "sources": [
       {
-       "part": "maths-pp-2017-ordinary-p1-q2#(a)(i)",
-       "quote": "any correct multiplication"
+       "part": "maths-pp-2020-ordinary-p1-q3#(a)(i), (ii)",
+       "quote": "Some multiplication above and below"
       },
       {
-       "part": "maths-pp-2016-ordinary-p1-q2#(b)",
-       "quote": "Correct multiplication"
+       "part": "maths-pp-2021-ordinary-p1-q2#(a)",
+       "quote": "Some multiplication above and below"
       }
      ]
     }

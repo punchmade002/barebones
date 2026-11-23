@@ -13,7 +13,7 @@
    "higher": "On Higher Paper 1 it is a step inside a bigger complex-number question: 2016 Q1(c) (a quadratic with a complex coefficient) and 2019 Q5(a) (finding $p$ and $q$), each worth 10 marks."
   },
   "example": {
-   "question": "$2 + i$ is a root of $z^3 - 6z^2 + 13z - 10 = 0$, where $z \\in \\mathbb{C}$. Find the other two roots.",
+   "question": "$2 + i$ is a root of $z^3 - 6z^2 + 13z - 10 = 0$, where $z \\in \\mathbb{C}$. Find all the roots.",
    "level": "higher",
    "marks": 10,
    "workedSolution": {
@@ -66,9 +66,9 @@
       ]
      }
     ],
-    "finalAnswer": "2 - i \\text{ and } 2"
+    "finalAnswer": "2,\\; 2 - i,\\; 2 + i"
    },
-   "finalSym": "[2-I, 2]",
+   "finalSym": "[2, 2-I, 2+I]",
    "answerSym": "solve(z**3-6*z**2+13*z-10,z)"
   },
   "graph": null,
@@ -204,7 +204,7 @@
     ],
     "finalAnswer": "z = \\pm\\sqrt{2} \\pm \\sqrt{2}\\,i"
    },
-   "finalSym": "[sqrt(2)+sqrt(2)*I, -sqrt(2)+sqrt(2)*I, -sqrt(2)-sqrt(2)*I, sqrt(2)-sqrt(2)*I]",
+   "finalSym": "[-sqrt(2)-sqrt(2)*I, -sqrt(2)+sqrt(2)*I, sqrt(2)-sqrt(2)*I, sqrt(2)+sqrt(2)*I]",
    "answerSym": "solve(z**4+16,z)"
   },
   "graph": null,

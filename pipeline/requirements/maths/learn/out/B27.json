@@ -246,7 +246,7 @@
     "finalAnswer": "a = 3,\\; b = 2"
    },
    "finalSym": "{a:3,b:2}",
-   "answerSym": "solve([Eq(re(expand((a+b*I)*(1+I))),1),Eq(im(expand((a+b*I)*(1+I))),5)],[a,b])"
+   "answerSym": "solve([Eq(expand((a+b*I)*(1+I)).subs(I,0),1),Eq((expand((a+b*I)*(1+I))-expand((a+b*I)*(1+I)).subs(I,0)).subs(I,1),5)],[a,b])"
   },
   "graph": null,
   "diagram": null,

@@ -356,7 +356,7 @@
     "finalAnswer": "(\\hl{2}{3}, \\hl{3}{2})"
    },
    "finalSym": "(3,2)",
-   "answerSym": "solve([x+2*y-7,3*x-2*y-5],[x,y])"
+   "answerSym": "[(7+5)/4,(7-(7+5)/4)/2]"
   },
   "graph": null,
   "diagram": null,
@@ -452,7 +452,8 @@
        },
        {
         "tex": "y &= -\\frac{2}{3}x + 2",
-        "sym": "(-2*x+6)/3"
+        "sym": "(-2*x+6)/3",
+        "new": true
        },
        {
         "tex": "\\hl{1}{m_l} &= \\hl{1}{-\\frac{2}{3}}",
