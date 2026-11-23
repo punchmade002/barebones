@@ -109,11 +109,14 @@ def pack(prefix='L', only=()):
         skills = {s: v for s, v in skills.items() if (s in only if only else s not in done)}   # only: redo these
     (WORK / 'in').mkdir(parents=True, exist_ok=True)
     (WORK / 'out').mkdir(exist_ok=True)
+    # exam parts the method audit (audit/out) found teach a different method from the lesson's main problem
+    path = HERE / 'audit' / 'dropped.json'
+    dropped = json.loads(path.read_text()) if path.exists() else {}
     jobs = []
     for sid in sorted(skills, key=lambda s: (SKILLS[s]['chapter'], s)):
         s = SKILLS[sid]
         prefer = 'ordinary' if s['level'] in ('JC', 'OL') else 'higher'
-        cands = sorted(skills[sid], key=lambda pid: (parts[pid]['q']['level'] != prefer,
+        cands = sorted(set(skills[sid]) - set(dropped.get(sid, [])), key=lambda pid: (parts[pid]['q']['level'] != prefer,
                                                      len(parts[pid]['p']['workedSolution']['steps']), pid))
         jobs.append(dict(skill=dict(id=sid, title=s['title'], level=s['level'], input=s['input'], output=s['output']),
                          candidates=[dict(part=pid, level=parts[pid]['q']['level'], year=parts[pid]['q']['year'],
