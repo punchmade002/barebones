@@ -1,0 +1,648 @@
+[
+ {
+  "skill": "seq-verify-formula",
+  "problems": [
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(i)",
+    "note": null,
+    "legend": {
+     "1": "the given formula for T_n",
+     "2": "the simplified result, the formula for T_{n+1}"
+    },
+    "steps": [
+     {
+      "ask": "What is $T_{n+1}$ in terms of $T_n$, and what do you put in for $T_n$?",
+      "title": "Substitute the formula for T_n",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\hl{1}{\\frac{n(n+1)}{2}} + (n+1)"
+       }
+      ]
+     },
+     {
+      "ask": "How can you write $(n + 1)$ with a denominator of 2 so that both terms match?",
+      "title": "Write over a common denominator of 2",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\frac{n(n+1)}{2}} + \\frac{2(n+1)}{2}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1) + 2(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What factor do the two parts of the numerator have in common?",
+      "title": "Factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{\\frac{(n+1)(n+2)}{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{(n+1)(n+2)}{2}}",
+    "graph": null
+   },
+   {
+    "part": "practice-seq-verify-formula-2",
+    "note": "The formula for T_n is now a cubic over 6, and the added term is (n + 1)², not n + 1. The steps are the same, with one extra step to factorise the quadratic.",
+    "legend": {
+     "1": "the given formula for T_n",
+     "2": "the simplified result, the formula for T_{n+1}"
+    },
+    "steps": [
+     {
+      "ask": "What do you add to the formula for $T_n$ to get $T_{n+1}$?",
+      "title": "Substitute the formula for $T_n$",
+      "lines": [
+       {
+        "tex": "T_{n+1} &= \\hl{1}{\\frac{n(n+1)(2n+1)}{6}} + (n+1)^2"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply $(n+1)^2$ by to get a denominator of 6?",
+      "title": "Write over a common denominator of 6",
+      "lines": [
+       {
+        "tex": "&= \\hl{1}{\\frac{n(n+1)(2n+1)}{6}} + \\frac{6(n+1)^2}{6}"
+       },
+       {
+        "tex": "&= \\frac{n(n+1)(2n+1) + 6(n+1)^2}{6}"
+       }
+      ]
+     },
+     {
+      "ask": "Which factor is common to both parts of the numerator?",
+      "title": "Factor out $(n+1)$",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[n(2n+1) + 6(n+1)\\big]}{6}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n^2 + 7n + 6)}{6}"
+       }
+      ]
+     },
+     {
+      "ask": "Can you find two brackets whose product is $2n^2 + 7n + 6$?",
+      "title": "Factorise the quadratic",
+      "lines": [
+       {
+        "tex": "2n^2 + 7n + 6 &= (n+2)(2n+3)"
+       },
+       {
+        "tex": "T_{n+1} &= \\hl{2}{\\frac{(n+1)(n+2)(2n+3)}{6}}"
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} = \\hl{2}{\\frac{(n+1)(n+2)(2n+3)}{6}}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2020-higher-p1-q7#(b)(ii)",
+    "note": "Two triangle-number formulas are added instead of one formula plus a term, and the answer is a square, (n + 1)². The steps stay the same: substitute, common denominator, factor out (n + 1), then cancel.",
+    "legend": {
+     "1": "the given formula for T_n",
+     "2": "the simplified result, (n + 1)²"
+    },
+    "steps": [
+     {
+      "ask": "What are $T_{n+1}$ and $T_n$ as formulas, and how do you add them?",
+      "title": "Write the sum of the two consecutive terms",
+      "lines": [
+       {
+        "tex": "T_{n+1} + T_n &= \\frac{(n+1)(n+2)}{2} + \\hl{1}{\\frac{n(n+1)}{2}}"
+       }
+      ]
+     },
+     {
+      "ask": "What is the common factor of the two numerator parts once they are over one denominator?",
+      "title": "Combine and factor out (n + 1)",
+      "lines": [
+       {
+        "tex": "&= \\frac{(n+1)\\big[(n+2) + n\\big]}{2}"
+       },
+       {
+        "tex": "&= \\frac{(n+1)(2n+2)}{2}"
+       },
+       {
+        "tex": "&= \\frac{2(n+1)(n+1)}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What can you cancel from the top and bottom of the fraction?",
+      "title": "Cancel the 2",
+      "lines": [
+       {
+        "tex": "&= \\hl{2}{(n+1)^2}"
+       },
+       {
+        "text": "$n+1 \\in \\mathbb{N}$, so the sum is a square $k^2$ with $k = n+1$."
+       }
+      ]
+     }
+    ],
+    "final": "T_{n+1} + T_n = \\hl{2}{(n+1)^2}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-back-to-back",
+  "problems": [
+   {
+    "part": "maths-pp-2024-ordinary-p2-q7#(a)(i)",
+    "note": null,
+    "legend": {
+     "1": "the left-side leaves (before exercise)",
+     "2": "the right-side leaves (after exercise)"
+    },
+    "steps": [
+     {
+      "ask": "Which digit of each value is the stem, and which is the leaf?",
+      "title": "Put the stem for each value in its row",
+      "lines": [
+       {
+        "text": "The stem is the tens (and hundreds) part. The leaf is the units digit."
+       },
+       {
+        "text": "Sort the leaves in each row so they increase moving away from the stem."
+       }
+      ]
+     },
+     {
+      "ask": "Which values belong in row 6, and what is the units digit of each?",
+      "title": "Fill in the before-exercise leaves (left side)",
+      "lines": [
+       {
+        "text": "$60, 65, 67, 68$ go in row 6 as leaves $\\hl{1}{0, 5, 7, 8}$."
+       },
+       {
+        "text": "$70, 76, 77$ go in row 7 as leaves $\\hl{1}{0, 6, 7}$."
+       },
+       {
+        "text": "$83, 88, 89$ go in row 8 as leaves $\\hl{1}{3, 8, 9}$."
+       }
+      ]
+     },
+     {
+      "ask": "Which after-exercise values have three digits, and what are their leaves?",
+      "title": "Fill in the after-exercise leaves (right side)",
+      "lines": [
+       {
+        "text": "$71, 79$ in row 7. $81, 83, 87$ in row 8. $91$ in row 9."
+       },
+       {
+        "text": "$102, 108$ in row 10 as leaves $\\hl{2}{2, 8}$. $113, 118$ in row 11 as leaves $\\hl{2}{3, 8}$."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Completed back-to-back plot (see diagram)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p2-q7#(a)(i)",
+    "note": "The values are now weights in kg with decimals, so each leaf is the digit after the decimal point and each stem is whole kg. The plot is still back-to-back, with Day X on the left and Day Y on the right.",
+    "legend": {},
+    "steps": [
+     {
+      "ask": "What part of a weight in kg is the stem, and what part is the leaf?",
+      "title": "Split each weight into a stem and a leaf",
+      "lines": [
+       {
+        "text": "The stem is the whole number of kg. The leaf is the digit after the decimal point."
+       },
+       {
+        "text": "The key $6 | 0 = 6.0$ kg means the stem 6 and leaf 0 give 6.0 kg."
+       }
+      ]
+     },
+     {
+      "ask": "Which Day X weights belong to stem 5, and what digit follows the decimal point for each?",
+      "title": "List the Day X leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.5, 4.9 so leaves 5, 9."
+       },
+       {
+        "text": "Stem 5: 5.3, 5.3, 5.5, 5.7 so leaves 3, 3, 5, 7."
+       },
+       {
+        "text": "Stem 6: 6.7, 6.9 so leaves 7, 9."
+       },
+       {
+        "text": "Stem 7: 7.3, 7.4 so leaves 3, 4. Stem 8: no leaves."
+       }
+      ]
+     },
+     {
+      "ask": "Which Day Y weights belong to stem 6, and what digit follows the decimal point for each?",
+      "title": "List the Day Y leaves for each stem",
+      "lines": [
+       {
+        "text": "Stem 4: 4.8 so leaf 8."
+       },
+       {
+        "text": "Stem 5: 5.4, 5.5 so leaves 4, 5."
+       },
+       {
+        "text": "Stem 6: 6.0, 6.1, 6.3 so leaves 0, 1, 3."
+       },
+       {
+        "text": "Stem 7: 7.0, 7.6, 7.9 so leaves 0, 6, 9. Stem 8: 8.1 so leaf 1."
+       }
+      ]
+     },
+     {
+      "ask": "Which side of the stem does each day go on, and in what order are the leaves written?",
+      "title": "Draw the plot with leaves in order outwards",
+      "lines": [
+       {
+        "text": "Put Day X leaves on the left of the stem and Day Y leaves on the right, smallest next to the stem."
+       },
+       {
+        "text": "Check: each side has 10 leaves, one for each dog."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Back-to-back stem-and-leaf plot as drawn}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2016-ordinary-p2-q5#(c)",
+    "note": "Now there is only one data set, so the leaves go on one side of the stem only. The steps are the same: order the values, group them by stem, then write the leaves next to the stem.",
+    "legend": {},
+    "steps": [
+     {
+      "ask": "What is the smallest Week 2 value, and how many values are there in total?",
+      "title": "Put the Week 2 values in order",
+      "lines": [
+       {
+        "text": "6, 9, 12, 15, 15, 16, 16, 17, 18, 18, 23, 27, 28, 29, 32, 40. There are 16 values."
+       }
+      ]
+     },
+     {
+      "ask": "Which tens digit does each value have, and which values share it?",
+      "title": "Group the values by stem",
+      "lines": [
+       {
+        "text": "Stem 0: 6, 9. Stem 1: 2, 5, 5, 6, 6, 7, 8, 8. Stem 2: 3, 7, 8, 9. Stem 3: 2. Stem 4: 0."
+       }
+      ]
+     },
+     {
+      "ask": "Which leaf should sit closest to the stem, and how can you check that every value is shown?",
+      "title": "Write the leaves on the left of the stem",
+      "lines": [
+       {
+        "text": "Put the smallest leaf of each row next to the stem, so the leaves get bigger as they move left. Check that 2 + 8 + 4 + 1 + 1 = 16 leaves are shown."
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Week 2 leaves added to the left of the stems}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-choose-display",
+  "problems": [
+   {
+    "part": "practice-stat-choose-display-1",
+    "note": null,
+    "legend": {
+     "1": "the share of the whole (part ÷ total)",
+     "2": "the angle, the answer",
+     "3": "the full turn, 360°"
+    },
+    "steps": [
+     {
+      "ask": "What kind of data is it, and what does the question want to show?",
+      "title": "Choose the display",
+      "lines": [
+       {
+        "text": "Favourite sport is categorical data and the question compares parts of a whole, so a pie chart suits it."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of all the students chose GAA, and what must the sector angles add up to?",
+      "title": "Find the angle for GAA",
+      "lines": [
+       {
+        "tex": "\\text{angle} &= \\hl{1}{\\frac{36}{120}} \\times \\hl{3}{360^\\circ}"
+       },
+       {
+        "tex": "&= \\hl{2}{108}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{108^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-choose-display-2",
+    "note": "The display is not given this time, so you must name a pie chart first. The numbers also change, to 25 cats out of 90 students.",
+    "legend": {
+     "1": "the share of the whole (part ÷ total)",
+     "2": "the angle, the answer",
+     "3": "the full turn, 360°"
+    },
+    "steps": [
+     {
+      "ask": "Is favourite pet categorical or numerical, and what does the display need to show?",
+      "title": "Choose the display",
+      "lines": [
+       {
+        "text": "Favourite pet is categorical data and the question compares parts of a whole, so a pie chart suits it."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the 90 students said cat, and what must the sector angles add up to?",
+      "title": "Find the angle for cats",
+      "lines": [
+       {
+        "tex": "\\text{angle} &= \\hl{1}{\\frac{25}{90}} \\times \\hl{3}{360^\\circ}"
+       },
+       {
+        "tex": "&= \\hl{2}{100}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pie chart};\\; \\hl{2}{100^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-choose-display-3",
+    "note": "The context changes to school lunches, with 420 lunches and 56 salads, but the display and method are the same as before.",
+    "legend": {
+     "1": "the share of the whole (part ÷ total)",
+     "2": "the angle, the answer",
+     "3": "the full turn, 360°"
+    },
+    "steps": [
+     {
+      "ask": "Is the type of lunch categorical or numerical, and what is the manager trying to show?",
+      "title": "Choose the display",
+      "lines": [
+       {
+        "text": "Type of lunch is categorical data and the manager wants to show shares of a whole, so a pie chart suits it."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the 420 lunches were salads, and what must the sector angles add up to?",
+      "title": "Find the angle for salads",
+      "lines": [
+       {
+        "tex": "\\text{angle} &= \\hl{1}{\\frac{56}{420}} \\times \\hl{3}{360^\\circ}"
+       },
+       {
+        "tex": "&= \\hl{2}{48}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{Pie chart};\\; \\hl{2}{48^\\circ}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-correlation-calc",
+  "problems": [
+   {
+    "part": "maths-pp-2017-higher-p2-q2#(a)",
+    "note": null,
+    "legend": {
+     "1": "the correlation coefficient r",
+     "2": "the x-values (first list)",
+     "3": "the y-values (second list)"
+    },
+    "steps": [
+     {
+      "ask": "Which values go in as x and which go in as y?",
+      "title": "Use the statistics mode on the calculator",
+      "lines": [
+       {
+        "text": "Enter the speeds as the $\\hl{2}{x}$ values and the fuel consumption as the $\\hl{3}{y}$ values."
+       },
+       {
+        "text": "Read off the correlation coefficient $\\hl{1}{r}$."
+       },
+       {
+        "tex": "\\hl{1}{r} &= \\hl{1}{-0.957}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{r} = \\hl{1}{-0.957}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-correlation-calc-1",
+    "note": "The data are now five listed pairs of hours and scores, and the answer is needed to four decimal places. The calculator steps are the same.",
+    "legend": {
+     "1": "the correlation coefficient r",
+     "2": "the x-values (first list)",
+     "3": "the y-values (second list)"
+    },
+    "steps": [
+     {
+      "ask": "Which values go in as x and which go in as y?",
+      "title": "Use the statistics mode on the calculator",
+      "lines": [
+       {
+        "text": "Enter the hours as the $\\hl{2}{x}$ values and the scores as the $\\hl{3}{y}$ values."
+       },
+       {
+        "text": "Read off the correlation coefficient $\\hl{1}{r}$."
+       },
+       {
+        "tex": "\\hl{1}{r} &\\approx \\hl{1}{0.7746}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{r} = \\hl{1}{0.7746}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2024-higher-p2-q1#(b), (c)",
+    "note": "Only one step is added at the front, comparing the two tests before the calculator is used. The data are now swimming distances, but the calculator method for r is the same.",
+    "legend": {
+     "1": "the correlation coefficient r",
+     "2": "the x-values (first list)",
+     "3": "the y-values (second list)"
+    },
+    "steps": [
+     {
+      "ask": "What do the distances show about each student, and are the gains the same size?",
+      "title": "Compare the two tests",
+      "lines": [
+       {
+        "text": "Every student swam further in the re-test than in the initial test, so everyone improved."
+       },
+       {
+        "text": "The improvements were not equal: 22 m rose by 3 m, but 61 m rose by 289 m."
+       },
+       {
+        "text": "The points curve upwards, not along a straight line, so the stronger swimmers improved by much more than the weaker ones."
+       }
+      ]
+     },
+     {
+      "ask": "Which values go in as x and which as y, and which result do you read off?",
+      "title": "Find r with the calculator",
+      "lines": [
+       {
+        "text": "Enter the initial test distances as $\\hl{2}{x}$ and the re-test distances as $\\hl{3}{y}$ in statistics mode, then read the correlation coefficient."
+       },
+       {
+        "tex": "\\hl{1}{r} &= \\hl{1}{0.91451\\ldots}"
+       },
+       {
+        "tex": "\\hl{1}{r} &\\approx \\hl{1}{0.9145}"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{The better swimmers improved more;}\\; \\hl{1}{r} = \\hl{1}{0.9145}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "stat-populations-samples",
+  "problems": [
+   {
+    "part": "practice-stat-populations-samples-1",
+    "note": null,
+    "legend": {
+     "1": "the sample as a fraction of the population",
+     "2": "the answer, as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "Who is the whole group you want to know about, and who was actually surveyed?",
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: all 1200 students. Sample: the 150 students surveyed."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the whole group is the sample, in simplest form?",
+      "title": "Write the sample as a fraction of the population",
+      "lines": [
+       {
+        "tex": "\\text{Fraction} &= \\hl{1}{\\frac{150}{1200}} = \\hl{1}{\\frac{1}{8}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply a fraction by to turn it into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{1}{8}} \\times 100 &= \\hl{2}{12.5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{12.5\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-populations-samples-3",
+    "note": "The context changes from a school to a lake, with 40 of 800 trout measured instead of 150 of 1200 students. The steps are the same.",
+    "legend": {
+     "1": "the sample as a fraction of the population",
+     "2": "the answer, as a percentage"
+    },
+    "steps": [
+     {
+      "ask": "What is the whole group of fish, and what smaller group was measured?",
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: all 800 trout in the lake. Sample: the 40 trout caught and measured."
+       }
+      ]
+     },
+     {
+      "ask": "What fraction of the 800 trout did she measure, in simplest form?",
+      "title": "Write the sample as a fraction of the population",
+      "lines": [
+       {
+        "tex": "\\text{Fraction} &= \\hl{1}{\\frac{40}{800}} = \\hl{1}{\\frac{1}{20}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do you multiply a fraction by to turn it into a percentage?",
+      "title": "Convert to a percentage",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{1}{20}} \\times 100 &= \\hl{2}{5}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{5\\%}",
+    "graph": null
+   },
+   {
+    "part": "practice-stat-populations-samples-2",
+    "note": "The answer is now 1 in every 50 adults, found by dividing the population by the sample, not a percentage. The last step also asks whether the 90 adults can stand for the whole town.",
+    "legend": {
+     "1": "the population divided by the sample",
+     "2": "the answer, 1 in every 50"
+    },
+    "steps": [
+     {
+      "ask": "Which group is the whole town, and which group was chosen to be asked?",
+      "title": "Identify the population and the sample",
+      "lines": [
+       {
+        "text": "Population: the 4500 adults in the town. Sample: the 90 adults chosen."
+       }
+      ]
+     },
+     {
+      "ask": "What operation tells you how many sample-sized groups fit into the population?",
+      "title": "Divide the population by the sample",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{4500}{90}} &= \\hl{2}{50}"
+       }
+      ]
+     },
+     {
+      "ask": "Can the views of these 90 adults be taken as the views of the whole town, and why?",
+      "title": "State the result",
+      "lines": [
+       {
+        "text": "The sample is 1 in every 50 adults, so conclusions only generalise if these 90 represent the town."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{50}",
+    "graph": null
+   }
+  ]
+ }
+]

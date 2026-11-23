@@ -1,0 +1,401 @@
+[
+{"skill": "cubic-solve", "problems": [
+ {"part": "maths-pp-2018-higher-p1-q2#(b)", "note": null,
+  "legend": {"1": "the root, x = r", "2": "the factor (x − r)", "3": "the quadratic factor", "4": "the roots from the quadratic"},
+  "steps": [
+   {"ask": "What is f(1)? Work out the value and see whether it is 0.", "title": "Substitute x = 1 into f(x)",
+    "lines": [
+     {"tex": "f(\\hl{1}{1}) &= (1)^3 - 17(1)^2 + 80(1) - 64"},
+     {"tex": "&= 1 - 17 + 80 - 64"},
+     {"tex": "&= 0"},
+     {"text": "So $f(\\hl{1}{1}) = 0$, which means $\\hl{2}{(x-1)}$ is a factor of $f(x)$."}
+    ]},
+   {"ask": "How can you split the −17x² and the 80x terms so that (x − 1) is in every group?", "title": "Split the terms so (x - 1) can be taken out",
+    "lines": [
+     {"tex": "f(x) &= x^3 - 17x^2 + 80x - 64"},
+     {"tex": "&= x^3 - x^2 - 16x^2 + 80x - 64"},
+     {"tex": "&= x^2\\hl{2}{(x-1)} - 16x^2 + 80x - 64"},
+     {"tex": "&= x^2\\hl{2}{(x-1)} - 16x^2 + 16x + 64x - 64"},
+     {"tex": "&= x^2\\hl{2}{(x-1)} - 16x\\hl{2}{(x-1)} + 64x - 64"},
+     {"tex": "&= x^2\\hl{2}{(x-1)} - 16x\\hl{2}{(x-1)} + 64\\hl{2}{(x-1)}"},
+     {"tex": "&= \\hl{2}{(x-1)}\\hl{3}{(x^2 - 16x + 64)}"}
+    ]},
+   {"ask": "The factor (x − 1) already gives one root. What is left to solve?", "title": "Solve the quadratic factor",
+    "lines": [
+     {"text": "Set $f(x) = 0$. The factor $\\hl{2}{(x-1)}$ gives $\\hl{1}{x = 1}$, so look at the quadratic."},
+     {"tex": "\\hl{3}{x^2 - 16x + 64} &= 0"},
+     {"tex": "\\hl{3}{(x-8)(x-8)} &= 0"},
+     {"tex": "\\hl{4}{x} &= \\hl{4}{8}"}
+    ]}
+  ],
+  "final": "\\hl{4}{x = 8}",
+  "graph": null},
+ {"part": "practice-cubic-solve-1", "note": "Same method as problem 1: test a root, split out its factor, then solve the quadratic. The root is −1 instead of 1, and this quadratic does not factorise, so the formula gives surd roots.",
+  "legend": {"1": "the root, x = r", "2": "the factor (x − r)", "3": "the quadratic factor", "4": "the roots from the quadratic"},
+  "steps": [
+   {"ask": "What is f(−1)? Work out the value and see whether it is 0.", "title": "Substitute $x = -1$ into $f(x)$",
+    "lines": [
+     {"tex": "f(\\hl{1}{-1}) &= (-1)^3 - 3(-1)^2 - 3(-1) + 1"},
+     {"tex": "&= -1 - 3 + 3 + 1"},
+     {"tex": "&= 0"},
+     {"text": "So $f(\\hl{1}{-1}) = 0$ and $\\hl{2}{(x+1)}$ is a factor of $f(x)$."}
+    ]},
+   {"ask": "How can you write −3x² as a sum of two terms so that (x + 1) appears in each group?", "title": "Split the terms so $(x + 1)$ can be taken out",
+    "lines": [
+     {"tex": "f(x) &= x^3 - 3x^2 - 3x + 1"},
+     {"tex": "&= x^3 + x^2 - 4x^2 - 3x + 1"},
+     {"tex": "&= x^2\\hl{2}{(x+1)} - 4x^2 - 4x + x + 1"},
+     {"tex": "&= x^2\\hl{2}{(x+1)} - 4x\\hl{2}{(x+1)} + \\hl{2}{(x+1)}"},
+     {"tex": "&= \\hl{2}{(x+1)}\\hl{3}{(x^2 - 4x + 1)}"}
+    ]},
+   {"ask": "The factor (x + 1) gives one root. How do you solve the quadratic that is left?", "title": "Solve the quadratic factor with the formula",
+    "lines": [
+     {"text": "The factor $\\hl{2}{(x+1)}$ gives $\\hl{1}{x = -1}$. For the quadratic, $a = 1$, $b = -4$, $c = 1$."},
+     {"tex": "\\hl{3}{x^2 - 4x + 1} &= 0"},
+     {"tex": "\\hl{4}{x} &= \\frac{4 \\pm \\sqrt{16 - 4}}{2}"},
+     {"tex": "&= \\frac{4 \\pm \\sqrt{12}}{2}"},
+     {"tex": "&= \\frac{4 \\pm 2\\sqrt{3}}{2}"},
+     {"tex": "&= \\hl{4}{2 \\pm \\sqrt{3}}"}
+    ]}
+  ],
+  "final": "\\hl{1}{x = -1},\\ \\hl{4}{2 + \\sqrt{3}},\\ \\hl{4}{2 - \\sqrt{3}}",
+  "graph": null},
+ {"part": "maths-pp-2019-higher-p1-q4#(b)(ii)", "note": "Compared with problem 2, the root x = 2 is given by point A rather than tested, so there is no substitution step. The quadratic has leading coefficient 2 and a fractional root 9/2, and it is factorised by splitting rather than with the formula.",
+  "legend": {"1": "the root, x = r", "2": "the factor (x − r)", "3": "the quadratic factor", "4": "the roots from the quadratic"},
+  "steps": [
+   {"ask": "What factor does the point A(2, 0) tell you is in f(x)?", "title": "Use the known root x = 2 to get a factor",
+    "lines": [
+     {"text": "$A(2,0)$ is on the graph, so $\\hl{1}{x = 2}$ is a root and $\\hl{2}{(x-2)}$ is a factor."},
+     {"text": "B and C are where $f(x) = 0$. Split $f(x)$ so that every group contains $\\hl{2}{(x-2)}$."}
+    ]},
+   {"ask": "How can you split the −27x² and the 109x terms so that every group contains (x − 2)?", "title": "Factor (x - 2) out of the cubic",
+    "lines": [
+     {"tex": "f(x) &= 2x^3 - 27x^2 + 109x - 126"},
+     {"tex": "&= 2x^2\\hl{2}{(x-2)} - 23x^2 + 109x - 126"},
+     {"tex": "&= 2x^2\\hl{2}{(x-2)} - 23x\\hl{2}{(x-2)} + 63x - 126"},
+     {"tex": "&= 2x^2\\hl{2}{(x-2)} - 23x\\hl{2}{(x-2)} + 63\\hl{2}{(x-2)}"},
+     {"tex": "&= \\hl{2}{(x-2)}\\hl{3}{(2x^2 - 23x + 63)}"}
+    ]},
+   {"ask": "What two numbers multiply to 2 × 63 and add to −23?", "title": "Factorise the quadratic",
+    "lines": [
+     {"tex": "\\hl{3}{2x^2 - 23x + 63} &= 2x^2 - 14x - 9x + 63"},
+     {"tex": "&= 2x(x-7) - 9(x-7)"},
+     {"tex": "&= \\hl{3}{(2x-9)(x-7)}"}
+    ]},
+   {"ask": "If (x − 2)(2x − 9)(x − 7) = 0, what value of x makes each factor zero?", "title": "Solve f(x) = 0",
+    "lines": [
+     {"tex": "\\hl{2}{(x-2)}\\hl{3}{(2x-9)(x-7)} &= 0"},
+     {"tex": "x &= \\hl{1}{2},\\ \\hl{4}{\\tfrac{9}{2}},\\ \\hl{4}{7}"},
+     {"text": "$\\hl{1}{x = 2}$ is point $A$, so $B$ and $C$ have $\\hl{4}{x = 4.5}$ and $\\hl{4}{x = 7}$ (B is left of C on the graph). Their $y$-coordinate is $0$."}
+    ]}
+  ],
+  "final": "B = \\left(\\hl{4}{\\tfrac{9}{2}}, 0\\right), \\quad C = (\\hl{4}{7}, 0)",
+  "graph": null}
+ ]},
+{"skill": "cubic-unknown-coefficient", "problems": [
+ {"part": "practice-cubic-unknown-coefficient-1", "note": null,
+  "legend": {"1": "equation from factor (x − 1)", "2": "equation from factor (x + 2)", "3": "the value of p", "4": "the value of q"},
+  "steps": [
+   {"ask": "If (x − 1) is a factor, what must f(1) equal?", "title": "Use the factor theorem for (x − 1)",
+    "lines": [
+     {"text": "Since $(x - 1)$ is a factor, $f(1) = 0$."},
+     {"tex": "\\hl{1}{1 + p + q - 6} &= 0"},
+     {"tex": "\\hl{1}{p + q} &= \\hl{1}{5}"}
+    ]},
+   {"ask": "If (x + 2) is a factor, what must f(−2) equal? Substitute x = −2 and work it out.", "title": "Use the factor theorem for (x + 2)",
+    "lines": [
+     {"text": "Since $(x + 2)$ is a factor, $f(-2) = 0$."},
+     {"tex": "\\hl{2}{-8 + 4p - 2q - 6} &= 0"},
+     {"tex": "\\hl{2}{4p - 2q} &= \\hl{2}{14}"},
+     {"tex": "\\hl{2}{2p - q} &= \\hl{2}{7}"}
+    ]},
+   {"ask": "Which two equations can you add so that q disappears?", "title": "Add the two equations to eliminate q",
+    "lines": [
+     {"tex": "\\hl{1}{(p + q)} + \\hl{2}{(2p - q)} &= \\hl{1}{5} + \\hl{2}{7}"},
+     {"tex": "\\hl{3}{3p} &= 12"},
+     {"tex": "\\hl{3}{p} &= \\hl{3}{4}"}
+    ]},
+   {"ask": "Put p = 4 into one of the two equations. What does q equal?", "title": "Find q",
+    "lines": [
+     {"tex": "\\hl{1}{4 + q} &= \\hl{1}{5}"},
+     {"tex": "\\hl{4}{q} &= \\hl{4}{1}"}
+    ]}
+  ],
+  "final": "\\hl{3}{p = 4}, \\quad \\hl{4}{q = 1}",
+  "graph": null},
+ {"part": "practice-cubic-unknown-coefficient-2", "note": "Same method and steps as problem 1, with factors (x − 2) and (x + 3), a constant of +12 and unknowns a and b. Only the numbers and the names change.",
+  "legend": {"1": "equation from factor (x − 2)", "2": "equation from factor (x + 3)", "3": "the value of a", "4": "the value of b"},
+  "steps": [
+   {"ask": "If (x − 2) is a factor, what must f(2) equal?", "title": "Use the factor theorem for $(x - 2)$",
+    "lines": [
+     {"text": "Since $(x - 2)$ is a factor, $f(2) = 0$."},
+     {"tex": "\\hl{1}{8 + 4a + 2b + 12} &= 0"},
+     {"tex": "\\hl{1}{4a + 2b} &= \\hl{1}{-20}"},
+     {"tex": "\\hl{1}{2a + b} &= \\hl{1}{-10}"}
+    ]},
+   {"ask": "If (x + 3) is a factor, what must f(−3) equal? Substitute x = −3 and work it out.", "title": "Use the factor theorem for $(x + 3)$",
+    "lines": [
+     {"text": "Since $(x + 3)$ is a factor, $f(-3) = 0$."},
+     {"tex": "\\hl{2}{-27 + 9a - 3b + 12} &= 0"},
+     {"tex": "\\hl{2}{9a - 3b} &= \\hl{2}{15}"},
+     {"tex": "\\hl{2}{3a - b} &= \\hl{2}{5}"}
+    ]},
+   {"ask": "Which two equations can you add so that b disappears?", "title": "Add the two equations to eliminate $b$",
+    "lines": [
+     {"tex": "\\hl{1}{(2a + b)} + \\hl{2}{(3a - b)} &= \\hl{1}{-10} + \\hl{2}{5}"},
+     {"tex": "\\hl{3}{5a} &= -5"},
+     {"tex": "\\hl{3}{a} &= \\hl{3}{-1}"}
+    ]},
+   {"ask": "Put a = −1 into one of the two equations. What does b equal?", "title": "Find $b$",
+    "lines": [
+     {"tex": "\\hl{1}{2(-1) + b} &= \\hl{1}{-10}"},
+     {"tex": "\\hl{4}{b} &= \\hl{4}{-8}"}
+    ]}
+  ],
+  "final": "\\hl{3}{a = -1}, \\quad \\hl{4}{b = -8}",
+  "graph": null},
+ {"part": "practice-cubic-unknown-coefficient-3", "note": "Compared with problem 2, the second factor is (2x − 1) and the leading coefficient is 2. So you substitute x = 1/2, the equations contain fractions, and q is found before p.",
+  "legend": {"1": "equation from factor (x + 1)", "2": "equation from factor (2x − 1)", "3": "the value of p", "4": "the value of q"},
+  "steps": [
+   {"ask": "If (x + 1) is a factor, what must f(−1) equal?", "title": "Use the factor theorem for $(x + 1)$",
+    "lines": [
+     {"text": "Since $(x + 1)$ is a factor, $f(-1) = 0$."},
+     {"tex": "\\hl{1}{2(-1)^3 + p(-1)^2 + q(-1) - 6} &= 0"},
+     {"tex": "\\hl{1}{-2 + p - q - 6} &= 0"},
+     {"tex": "\\hl{1}{p - q} &= \\hl{1}{8}"}
+    ]},
+   {"ask": "If (2x − 1) is a factor, which value of x makes it zero, and what must f of that value be?", "title": "Use the factor theorem for $(2x - 1)$",
+    "lines": [
+     {"text": "Since $(2x - 1)$ is a factor, $f\\left(\\tfrac{1}{2}\\right) = 0$."},
+     {"tex": "\\hl{2}{2\\left(\\tfrac{1}{2}\\right)^3 + p\\left(\\tfrac{1}{2}\\right)^2 + q\\left(\\tfrac{1}{2}\\right) - 6} &= 0"},
+     {"tex": "\\hl{2}{\\tfrac{1}{4} + \\tfrac{p}{4} + \\tfrac{q}{2} - 6} &= 0"},
+     {"text": "Multiply by 4."},
+     {"tex": "\\hl{2}{1 + p + 2q - 24} &= 0"},
+     {"tex": "\\hl{2}{p + 2q} &= \\hl{2}{23}"}
+    ]},
+   {"ask": "Which equation do you subtract from the other so that p disappears?", "title": "Subtract to eliminate $p$",
+    "lines": [
+     {"tex": "\\hl{2}{(p + 2q)} - \\hl{1}{(p - q)} &= \\hl{2}{23} - \\hl{1}{8}"},
+     {"tex": "\\hl{4}{3q} &= 15"},
+     {"tex": "\\hl{4}{q} &= \\hl{4}{5}"}
+    ]},
+   {"ask": "Put q = 5 into one of the two equations. What does p equal?", "title": "Find $p$",
+    "lines": [
+     {"tex": "\\hl{1}{p - 5} &= \\hl{1}{8}"},
+     {"tex": "\\hl{3}{p} &= \\hl{3}{13}"}
+    ]}
+  ],
+  "final": "\\hl{3}{p = 13}, \\quad \\hl{4}{q = 5}",
+  "graph": null}
+ ]},
+{"skill": "cx-conjugate-properties", "problems": [
+ {"part": "practice-cx-conjugate-properties-4", "note": null,
+  "legend": {"1": "the combined number, z₁ + z₂ or z₁z₂", "2": "the conjugate of the combined number", "3": "the conjugates z̄₁ and z̄₂", "4": "the combined conjugates, z̄₁ + z̄₂ or z̄₁z̄₂"},
+  "steps": [
+   {"ask": "What is z₁ + z₂ when you add the real parts and the imaginary parts?", "title": "Find the sum $z_1 + z_2$",
+    "lines": [
+     {"tex": "\\hl{1}{z_1 + z_2} &= (3 - 2i) + (-1 + 4i)"},
+     {"tex": "&= \\hl{1}{2 + 2i}"}
+    ]},
+   {"ask": "What happens to the sign of the imaginary part when you take the conjugate?", "title": "Conjugate the sum",
+    "lines": [
+     {"text": "Change the sign of the imaginary part."},
+     {"tex": "\\hl{2}{\\overline{z_1 + z_2}} &= \\hl{2}{2 - 2i}"}
+    ]},
+   {"ask": "What are z̄₁ and z̄₂, and what do you get when you add them?", "title": "Add the conjugates",
+    "lines": [
+     {"tex": "\\hl{3}{\\overline{z_1}} &= \\hl{3}{3 + 2i}"},
+     {"tex": "\\hl{3}{\\overline{z_2}} &= \\hl{3}{-1 - 4i}"},
+     {"tex": "\\hl{4}{\\overline{z_1} + \\overline{z_2}} &= (3 + 2i) + (-1 - 4i)"},
+     {"tex": "&= \\hl{4}{2 - 2i}"}
+    ]},
+   {"ask": "Do the two results match?", "title": "Compare",
+    "lines": [
+     {"text": "Both are $2 - 2i$, so $\\hl{2}{\\overline{z_1 + z_2}} = \\hl{4}{\\overline{z_1} + \\overline{z_2}}$."}
+    ]}
+  ],
+  "final": "\\hl{2}{\\overline{z_1 + z_2}} = \\hl{2}{2 - 2i} = \\hl{4}{\\overline{z_1} + \\overline{z_2}}",
+  "graph": null},
+ {"part": "practice-cx-conjugate-properties-2", "note": "Changed from problem 1: the numbers are replaced by letters a, b, c and d, so this is a general proof rather than a check. The steps stay the same.",
+  "legend": {"1": "the combined number, z₁ + z₂ or z₁z₂", "2": "the conjugate of the combined number", "3": "the conjugates z̄₁ and z̄₂", "4": "the combined conjugates, z̄₁ + z̄₂ or z̄₁z̄₂"},
+  "steps": [
+   {"ask": "What is z₁ + z₂ when you add the real parts and the imaginary parts?", "title": "Add z₁ and z₂",
+    "lines": [
+     {"tex": "\\hl{1}{z_1 + z_2} &= (a + bi) + (c + di)"},
+     {"tex": "&= \\hl{1}{(a + c) + (b + d)i}"}
+    ]},
+   {"ask": "What happens to the sign of the imaginary part when you take the conjugate?", "title": "Conjugate the sum",
+    "lines": [
+     {"text": "Change the sign of the imaginary part."},
+     {"tex": "\\hl{2}{\\overline{z_1 + z_2}} &= \\hl{2}{(a + c) - (b + d)i}"}
+    ]},
+   {"ask": "What is the conjugate of a + bi, and of c + di?", "title": "Conjugate each number first",
+    "lines": [
+     {"tex": "\\hl{3}{\\overline{z_1}} &= \\hl{3}{a - bi}"},
+     {"tex": "\\hl{3}{\\overline{z_2}} &= \\hl{3}{c - di}"}
+    ]},
+   {"ask": "What do you get when you add the two conjugates from the step before?", "title": "Add the conjugates",
+    "lines": [
+     {"tex": "\\hl{4}{\\overline{z_1} + \\overline{z_2}} &= \\hl{4}{(a - bi) + (c - di)}"},
+     {"tex": "&= \\hl{4}{(a + c) - (b + d)i}"}
+    ]},
+   {"ask": "Do both sides give the same expression?", "title": "Compare",
+    "lines": [
+     {"text": "Both equal $(a + c) - (b + d)i$, so the two sides are equal for all $z_1, z_2$."}
+    ]}
+  ],
+  "final": "\\hl{2}{\\overline{z_1 + z_2}} = \\hl{4}{\\overline{z_1} + \\overline{z_2}}",
+  "graph": null},
+ {"part": "practice-cx-conjugate-properties-1", "note": "Changed from problem 2: the operation is a product, not a sum, and the numbers are back in. The steps are the same: multiply, conjugate, then compare with the product of the conjugates.",
+  "legend": {"1": "the combined number, z₁ + z₂ or z₁z₂", "2": "the conjugate of the combined number", "3": "the conjugates z̄₁ and z̄₂", "4": "the combined conjugates, z̄₁ + z̄₂ or z̄₁z̄₂"},
+  "steps": [
+   {"ask": "What do you get when you expand (2 + i)(1 − 4i)?", "title": "Find the product z₁z₂",
+    "lines": [
+     {"tex": "\\hl{1}{z_1 z_2} &= (2 + i)(1 - 4i)"},
+     {"tex": "&= 2 - 8i + i - 4i^2"},
+     {"text": "Use $i^2 = -1$."},
+     {"tex": "&= \\hl{1}{6 - 7i}"}
+    ]},
+   {"ask": "What happens to the imaginary part when you take the conjugate?", "title": "Conjugate the product",
+    "lines": [
+     {"text": "Change the sign of the imaginary part."},
+     {"tex": "\\hl{2}{\\overline{z_1 z_2}} &= \\hl{2}{6 + 7i}"}
+    ]},
+   {"ask": "What are the conjugates of z₁ and z₂, and what do you get when you multiply them?", "title": "Multiply the conjugates",
+    "lines": [
+     {"tex": "\\hl{3}{\\overline{z_1}} &= \\hl{3}{2 - i}"},
+     {"tex": "\\hl{3}{\\overline{z_2}} &= \\hl{3}{1 + 4i}"},
+     {"tex": "\\hl{4}{\\overline{z_1}\\,\\overline{z_2}} &= (2 - i)(1 + 4i)"},
+     {"tex": "&= 2 + 8i - i - 4i^2"},
+     {"tex": "&= \\hl{4}{6 + 7i}"}
+    ]},
+   {"ask": "Are the two results the same?", "title": "Compare",
+    "lines": [
+     {"text": "Both are $6 + 7i$, so $\\hl{2}{\\overline{z_1 z_2}} = \\hl{4}{\\overline{z_1}\\,\\overline{z_2}}$."}
+    ]}
+  ],
+  "final": "\\hl{2}{\\overline{z_1 z_2}} = \\hl{2}{6 + 7i} = \\hl{4}{\\overline{z_1}\\,\\overline{z_2}}",
+  "graph": null}
+ ]},
+{"skill": "cx-conjugate-root", "problems": [
+ {"part": "practice-cx-conjugate-root-1", "note": null,
+  "legend": {"1": "the given complex root", "2": "its conjugate, the second root", "3": "the quadratic factor from the pair", "4": "the third root, from the linear factor"},
+  "steps": [
+   {"ask": "What is the conjugate of 2 − i, given that the coefficients are real?", "title": "Use the conjugate root theorem",
+    "lines": [
+     {"text": "The coefficients are real, so complex roots come in conjugate pairs."},
+     {"tex": "\\overline{\\hl{1}{2 - i}} &= \\hl{2}{2 + i}"}
+    ]},
+   {"ask": "What are the sum and the product of the pair 2 − i and 2 + i?", "title": "Find the quadratic factor from the pair",
+    "lines": [
+     {"text": "Sum of the pair, then product of the pair."},
+     {"tex": "\\hl{1}{(2 - i)} + \\hl{2}{(2 + i)} &= 4"},
+     {"tex": "\\hl{1}{(2 - i)}\\hl{2}{(2 + i)} &= 4 - i^2 = 5"},
+     {"text": "So the quadratic factor is $\\hl{3}{z^2 - 4z + 5}$."}
+    ]},
+   {"ask": "What linear factor, multiplied by z² − 4z + 5, gives the constant term −5?", "title": "Divide to find the linear factor",
+    "lines": [
+     {"text": "Compare constant terms: $5 \\times (\\text{constant}) = -5$, so the constant is $-1$."},
+     {"tex": "z^3 - 5z^2 + 9z - 5 &= \\hl{3}{(z^2 - 4z + 5)}\\hl{4}{(z - 1)}"}
+    ]},
+   {"ask": "What value of z makes the linear factor equal to 0?", "title": "Read off the third root",
+    "lines": [
+     {"tex": "\\hl{4}{z - 1} &= 0"},
+     {"tex": "\\hl{4}{z} &= \\hl{4}{1}"}
+    ]}
+  ],
+  "final": "z = \\hl{1}{2 - i},\\ \\hl{2}{2 + i},\\ \\hl{4}{1}",
+  "graph": null},
+ {"part": "practice-cx-conjugate-root-2", "note": "Same three steps as problem 1, with a different real polynomial and root. This time the question asks only for the other two roots, so the final answer lists two values.",
+  "legend": {"1": "the given complex root", "2": "its conjugate, the second root", "3": "the quadratic factor from the pair", "4": "the third root, from the linear factor"},
+  "steps": [
+   {"ask": "What is the conjugate of −1 + 2i?", "title": "Use the conjugate root theorem",
+    "lines": [
+     {"text": "The coefficients are real, so complex roots come in conjugate pairs."},
+     {"tex": "\\overline{\\hl{1}{-1 + 2i}} &= \\hl{2}{-1 - 2i}"}
+    ]},
+   {"ask": "What are the sum and the product of −1 + 2i and −1 − 2i?", "title": "Find the quadratic factor from the pair",
+    "lines": [
+     {"text": "Sum of the pair, then product of the pair."},
+     {"tex": "\\hl{1}{(-1 + 2i)} + \\hl{2}{(-1 - 2i)} &= -2"},
+     {"tex": "\\hl{1}{(-1 + 2i)}\\hl{2}{(-1 - 2i)} &= 1 - 4i^2 = 5"},
+     {"text": "So the quadratic factor is $\\hl{3}{z^2 + 2z + 5}$."}
+    ]},
+   {"ask": "What linear factor, multiplied by z² + 2z + 5, gives the constant term 10?", "title": "Divide to find the linear factor",
+    "lines": [
+     {"text": "Compare constant terms: $5 \\times (\\text{constant}) = 10$, so the constant is $2$."},
+     {"tex": "z^3 + 4z^2 + 9z + 10 &= \\hl{3}{(z^2 + 2z + 5)}\\hl{4}{(z + 2)}"}
+    ]},
+   {"ask": "What value of z makes the linear factor equal to 0?", "title": "Read off the third root",
+    "lines": [
+     {"tex": "\\hl{4}{z + 2} &= 0"},
+     {"tex": "\\hl{4}{z} &= \\hl{4}{-2}"}
+    ]}
+  ],
+  "final": "z = \\hl{2}{-1 - 2i},\\ \\hl{4}{-2}",
+  "graph": null},
+ {"part": "maths-pp-2016-higher-p1-q1#(a)", "note": "Only the first move is needed here: the question asks only for the conjugate, so the quadratic and linear-factor steps from problem 1 are not used.",
+  "legend": {"1": "the given complex root", "2": "its conjugate, the second root"},
+  "steps": [
+   {"ask": "If the coefficients are real, what must the conjugate of −4 + 3i be?", "title": "Use the conjugate root theorem",
+    "lines": [
+     {"text": "The coefficients $a, b, c$ are real, so complex roots come in conjugate pairs."},
+     {"text": "$\\hl{1}{-4 + 3i}$ is a root, so its conjugate is a root."},
+     {"tex": "\\overline{\\hl{1}{-4 + 3i}} &= \\hl{2}{-4 - 3i}"}
+    ]}
+  ],
+  "final": "\\hl{2}{-4 - 3i}",
+  "graph": null}
+ ]},
+{"skill": "num-decimal-fraction", "problems": [
+ {"part": "practice-num-decimal-fraction-1", "note": null,
+  "legend": {"1": "the given decimal", "2": "the fraction before simplifying", "3": "the simplified fraction, the answer"},
+  "steps": [
+   {"ask": "How many decimal places does 0.625 have, and what power of 10 does that suggest?", "title": "Write over a power of 10",
+    "lines": [
+     {"tex": "\\hl{1}{0.625} &= \\hl{2}{\\frac{625}{1000}}"}
+    ]},
+   {"ask": "What is the largest number that divides both 625 and 1000?", "title": "Divide top and bottom by 125",
+    "lines": [
+     {"tex": "&= \\hl{3}{\\frac{5}{8}}"}
+    ]}
+  ],
+  "final": "\\hl{3}{\\frac{5}{8}}",
+  "graph": null},
+ {"part": "practice-num-decimal-fraction-4", "note": "Changed from problem 1: the decimal has a whole-number part, so the answer is an improper fraction, 25/8. The method is the same.",
+  "legend": {"1": "the given decimal", "2": "the fraction before simplifying", "3": "the simplified fraction, the answer"},
+  "steps": [
+   {"ask": "How many decimal places does 3.125 have, and what power of 10 does that suggest?", "title": "Write over a power of 10",
+    "lines": [
+     {"tex": "\\hl{1}{3.125} &= \\hl{2}{\\frac{3125}{1000}}"}
+    ]},
+   {"ask": "What number divides both 3125 and 1000 exactly?", "title": "Divide top and bottom by 125",
+    "lines": [
+     {"tex": "&= \\hl{3}{\\frac{25}{8}}"}
+    ]}
+  ],
+  "final": "\\hl{3}{\\frac{25}{8}}",
+  "graph": null},
+ {"part": "practice-num-decimal-fraction-3", "note": "Changed from problem 2: the decimal repeats, so the power-of-10 method cannot be used directly. Multiply by 100 and subtract to remove the repeating part, then simplify.",
+  "legend": {"1": "the given decimal", "2": "the fraction before simplifying", "3": "the simplified fraction, the answer"},
+  "steps": [
+   {"ask": "What do you get when you multiply the decimal by 100?", "title": "Let $x$ equal the decimal and multiply by 100",
+    "lines": [
+     {"text": "$x = \\hl{1}{0.363636\\ldots}$"},
+     {"text": "$100x = 36.363636\\ldots$"}
+    ]},
+   {"ask": "What does subtracting the original number from the shifted one do to the repeating part?", "title": "Subtract to remove the repeating part",
+    "lines": [
+     {"tex": "100x - x &= 36.\\dot{3}\\dot{6} - 0.\\dot{3}\\dot{6}"},
+     {"tex": "99x &= 36"}
+    ]},
+   {"ask": "What is x when you divide both sides by 99, and can that fraction be simplified?", "title": "Solve for $x$ and simplify",
+    "lines": [
+     {"tex": "x &= \\hl{2}{\\frac{36}{99}}"},
+     {"tex": "&= \\hl{3}{\\frac{4}{11}}"}
+    ]}
+  ],
+  "final": "\\hl{3}{\\frac{4}{11}}",
+  "graph": null}
+ ]}
+]
