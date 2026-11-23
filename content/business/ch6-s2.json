@@ -4,56 +4,133 @@
   "subsection": "2. The role of government in supporting enterprise",
   "syllabusRef": "2.1.3",
   "notes": [
-    { "h": "Why government supports enterprise", "b": "Governments support enterprise because small firms create jobs and exports, and private markets may not fund some good ideas.", "points": [
-      "Market failure occurs when private finance is not available for good ideas that are too risky or too small for banks to lend to.",
-      "Support helps firms grow into exporters, which brings foreign earnings into the economy.",
-      "Support for enterprise outside Dublin and the other large cities spreads jobs across regions.",
-      "Support can also encourage firms to adopt sustainable and digital practices, which benefits society as well as the firm."
-    ] },
-    { "h": "Local Enterprise Offices", "b": "Local Enterprise Offices are the main first point of contact for small firms and are based within local authorities.", "points": [
-      "Local Enterprise Offices focus on micro and small firms, including start-ups and firms that want to grow.",
-      "They offer grants for start-up and expansion costs, such as equipment and technology.",
-      "They provide mentoring, training and advice on business planning, financial management and marketing.",
-      "The Trading Online Voucher scheme is a voucher scheme that helps small firms build an online presence and sell online."
-    ] },
-    { "h": "Enterprise Ireland and IDA Ireland", "b": "These two agencies support different kinds of firms, Irish-owned and foreign-owned.", "points": [
-      "Enterprise Ireland supports Irish-owned firms, particularly high-potential start-ups and firms that export or want to.",
-      "Enterprise Ireland helps firms with market research, export marketing and introductions to overseas buyers.",
-      "IDA Ireland attracts foreign direct investment, meaning investment by multinational firms that set up factories, offices or research centres in Ireland.",
-      "Foreign investment brings jobs and skills, and Irish suppliers can benefit by selling to the foreign firms that set up here."
-    ] },
-    { "h": "Finance and state-backed lending", "b": "Finance is often the main barrier to a growing firm, and the state supports lending where banks are cautious.", "points": [
-      "MicroFinance Ireland provides small loans to people who cannot get a bank loan for their business, usually with mentoring attached.",
-      "The Strategic Banking Corporation of Ireland, SBCI, funds loan schemes that partner banks offer to small and medium-sized firms, which lowers the cost of borrowing.",
-      "State-backed lending reduces the risk for banks, which makes them willing to lend to firms they would otherwise refuse.",
-      "Údarás na Gaeltachta supports enterprise in Irish-speaking areas through grants, advice and property for firms that locate there."
-    ] },
-    { "h": "Tax measures", "b": "Tax measures reduce what firms pay or reward specific activity, but they cost the state revenue.", "points": [
-      "A low headline rate of corporation tax makes Ireland attractive for profitable firms and for foreign investors.",
-      "The research and development tax credit reduces tax for firms that spend money on research and development work.",
-      "Start-up tax reliefs reduce tax for new firms in their early years, easing cash flow when money is tight.",
-      "The Employment and Investment Incentive Scheme gives income tax relief to investors who buy shares in qualifying small firms, which makes equity easier to raise.",
-      "Tax measures cost the state revenue, so their value must be weighed against the activity they encourage."
-    ] },
-    { "h": "Education, training and infrastructure", "b": "Skills and infrastructure remove barriers to growth, especially for small firms and rural firms.", "points": [
-      "Skillnet Ireland supports business networks that fund training for groups of firms, so small firms can access training they could not afford alone.",
-      "Education and Training Boards, ETBs, offer courses in business, technology and craft skills that firms need.",
-      "Good broadband and transport infrastructure allow rural firms to sell online and reach customers across the country.",
-      "Regional and rural supports, including grants and place-based programmes, help firms in areas with weaker markets."
-    ] },
-    { "h": "Government as regulator and protector", "b": "Government also sets the rules firms must follow, and those rules protect both consumers and firms.", "points": [
-      "Regulation sets standards such as food safety and employment rights that firms must meet, which protects consumers and workers.",
-      "Clear rules protect fair competition, so that firms with honest practices are not undercut by firms that break the law.",
-      "Government can reduce red tape, which lowers the time and cost of meeting legal requirements for small firms.",
-      "National enterprise strategy sets priorities for support over several years, which gives firms some certainty about what help is available."
-    ] },
-    { "h": "Benefits and limits of state support", "b": "Support helps firms but has costs and limits, and its value depends on how well it targets real gaps.", "points": [
-      "Benefits include access to finance, advice, training and export contacts that a small firm would struggle to find alone.",
-      "A limit is dependence: firms may rely on grants and fail to build a business that survives when the support ends.",
-      "Support can favour firms that are good at applying for it, not necessarily the firms with the best ideas.",
-      "The state funds support from taxes, so schemes compete with other public spending on health and education.",
-      "Evaluation: support works best where it addresses a real gap, such as finance for exporters, rather than subsidising firms that would succeed anyway."
-    ] }
+    {
+      "h": "Why government supports enterprise",
+      "b": "Left alone, private markets do not fund every good business idea, so the government steps in. It does this because small firms create jobs and exports, and because some gaps would otherwise stay open.",
+      "points": [
+        "Market failure occurs when private finance is not available for good ideas that are too risky or too small for banks to lend to. State support fills that gap, so viable ideas are not lost for lack of money.",
+        "Support helps firms grow into exporters, which brings foreign earnings into the economy. Money earned abroad adds to national income and supports jobs at home.",
+        "Support for enterprise outside Dublin and the other large cities spreads jobs across regions, so that work and spending are not concentrated in a few places.",
+        "Support can also encourage firms to adopt sustainable and digital practices, which benefits society as well as the firm. Public money is used to push firms towards climate readiness and online trading.",
+        "Supports are aimed at three common barriers facing firms: finance (getting money), skills and training (having the know-how), and access to markets (finding customers, at home or abroad).",
+        "Support works at two levels. Locally, a Local Enterprise Office serves each local authority area. Nationally, agencies such as Enterprise Ireland and IDA Ireland, and government departments, set and deliver support."
+      ],
+      "tip": "Exams ask you to match a support to a firm's barrier. Name the barrier first (finance, skills or markets), then the support that fixes it."
+    },
+    {
+      "h": "Local Enterprise Offices",
+      "b": "Local Enterprise Offices (LEOs) are the first stop for a person starting or growing a small business. Each LEO serves a local authority area, so help is available close to home.",
+      "points": [
+        "LEOs focus on micro and small firms (very small businesses), including start-ups and firms that want to grow. They are the first point of contact, so a firm with an idea starts here before looking at national agencies.",
+        "They offer grants for start-up and expansion costs, such as equipment and technology. A grant is money that does not have to be repaid, which makes it different from a loan.",
+        "They provide mentoring (one-to-one guidance from an experienced adviser), training and advice on business planning, financial management and marketing. They also run the Start Your Own Business programme for new entrepreneurs.",
+        "The Trading Online Voucher scheme helps small firms build an online presence and sell online. It co-funds an online trading project, so the firm pays part of the cost itself; only third-party costs count, and approval is needed before any spending.",
+        "The scheme is aimed at businesses with a limited or no e-commerce presence. Brochure websites, which only display information, are not funded. This is the digital angle: public money is used to get small firms selling online.",
+        "LEOs work with Enterprise Ireland to bring on first-time exporters, so a small local firm that wants to sell abroad can be passed on to national support."
+      ],
+      "tip": "If asked how a LEO supports a start-up, name its services (grant, mentoring, training, advice) and say what each does for the firm. Do not just say it helps."
+    },
+    {
+      "h": "Enterprise Ireland and IDA Ireland",
+      "b": "Two national agencies support different kinds of firms: Enterprise Ireland backs Irish-owned firms, and IDA Ireland brings in foreign-owned ones. Students often confuse them, so keep the difference clear.",
+      "points": [
+        "Enterprise Ireland is the government's trade and innovation agency. It supports Irish-owned firms, particularly high-potential start-ups and firms that export or want to, helping them start, compete, scale and connect globally.",
+        "It helps firms with market research (finding out where customers are), export marketing and introductions to overseas buyers, which tackles the access-to-markets barrier. It has more than 40 international offices.",
+        "Its programmes include High Potential Start-Up (HPSU) support and the Pre-Seed Start Fund, aimed at start-ups with the potential to grow and sell abroad.",
+        "IDA Ireland is the inward investment agency. It wins and keeps foreign direct investment (FDI), meaning money invested by a foreign company to set up or expand operations here, such as factories, offices or research centres.",
+        "IDA Ireland partners with its client companies and gives grant assistance. Its strategy for 2025 to 2029, called Adapt Intelligently, targets digitalisation and AI, semiconductors, health and sustainability, and locations outside Dublin.",
+        "Foreign investment brings jobs and skills, and Irish suppliers can benefit by selling to the foreign firms that set up here. This is a reasoned effect: the more foreign firms operate here, the more they need local suppliers.",
+        "In short: Enterprise Ireland helps Irish firms sell abroad (exports), while IDA Ireland attracts foreign firms to set up here (FDI). A LEO deals with micro and small firms locally."
+      ],
+      "tip": "Do not mix up FDI and exports. FDI is a foreign firm setting up in Ireland; exports are Irish firms selling abroad. Examiners ask you to tell the agencies apart."
+    },
+    {
+      "h": "Finance and state-backed lending",
+      "b": "Finance is often the main barrier to a growing firm, and the state supports lending where banks are cautious. Three bodies do this in different ways.",
+      "points": [
+        "MicroFinance Ireland is a state-supported lender of small loans to micro-enterprises (fewer than 10 employees) that cannot get finance from commercial lenders such as banks. Unlike a LEO grant, this money is a loan and must be repaid.",
+        "Applying through a LEO adds business advice and mentoring, which supports a first-time borrower.",
+        "The Strategic Banking Corporation of Ireland (SBCI) is state-owned and does not lend to firms directly. It funds loan schemes that partner banks and other lenders offer to small and medium-sized firms.",
+        "Because SBCI funding is cheaper, the partner lenders must pass the benefit on, which lowers the cost of borrowing for the firm. It also runs guarantee schemes that share risk with lenders, and the Future Growth Loan Scheme for long-term strategic investment.",
+        "State-backed lending reduces the risk for banks through the guarantee schemes, which makes them more willing to lend to firms they would otherwise refuse.",
+        "Údarás na Gaeltachta supports enterprise in Irish-speaking areas through grants, advice and enterprise development. Its overall aim is that Irish remains the main community language of the Gaeltacht, so creating jobs there helps people stay in the area."
+      ],
+      "tip": "Keep the three apart: MicroFinance Ireland lends directly, a LEO grant does not have to be repaid, and SBCI funds other lenders and never lends to firms itself."
+    },
+    {
+      "h": "Tax measures",
+      "b": "Tax measures reduce what firms or their investors pay, or reward specific activity. They encourage enterprise, but they cost the state revenue.",
+      "points": [
+        "Ireland's standard corporation tax rate is 12.5%, in place since 2003. A low headline rate makes Ireland attractive for profitable firms and for foreign investors choosing where to locate.",
+        "An effective rate of 15% applies only to in-scope multinational groups with consolidated revenues of 750 million euro or more. Over 99% of companies in Ireland are outside that rule.",
+        "The research and development (R&D) tax credit is a corporation tax credit for qualifying spending on research and development. A credit reduces the tax bill directly, which rewards firms for innovating.",
+        "Start-Up Relief for Entrepreneurs (SURE), currently on Revenue's list of reliefs, refunds income tax paid in earlier years to a person who leaves mainly PAYE employment and sets up a new company in a new qualifying trade. It eases the founder's early years.",
+        "To qualify, the founder works full-time in the new company and invests cash in new shares, which must be held for at least four years.",
+        "The Employment and Investment Incentive Scheme (EIIS) gives income tax relief to investors who buy shares in qualifying small firms. Shares must be held for at least four years, and this makes equity (money from selling shares) easier to raise.",
+        "Tax measures cost the state revenue, so their value must be weighed against the activity they encourage."
+      ],
+      "tip": "A tax credit reduces the tax bill, while a relief or exemption reduces what is taxed. Name the measure and say who benefits: SURE benefits the founder, and the EIIS benefits investors."
+    },
+    {
+      "h": "Education, training and infrastructure",
+      "b": "Skills and infrastructure remove barriers to growth, especially for small firms and rural firms. A firm cannot grow without trained staff or a way to reach customers.",
+      "points": [
+        "Skillnet Ireland is government-backed and funded through the National Training Fund. It funds business networks (groups of firms in a sector or region) that deliver subsidised training, part-funded by the participating firms.",
+        "Small firms can access training through a network that they could not afford alone, because the cost is shared across the group.",
+        "Education and Training Boards (ETBs) provide further education and training courses, including business, technology and craft skills that firms need.",
+        "Good broadband and transport infrastructure allow rural firms to sell online and reach customers across the country. Without them, a firm far from the main cities is cut off from the market.",
+        "Regional and rural supports, including grants and place-based programmes (supports aimed at a particular area), help firms in areas with weaker markets, where fewer local customers and workers make growth harder."
+      ],
+      "tip": "A rural firm needs infrastructure and regional help, not just a grant. Match the support to the firm's barrier when you answer."
+    },
+    {
+      "h": "Government as regulator and protector",
+      "b": "Government also sets the rules firms must follow, and those rules protect both consumers and firms. Regulation is a form of support because it creates a fair, predictable place to do business.",
+      "points": [
+        "Regulation sets standards such as food safety and employment rights that firms must meet, which protects consumers and workers from harm.",
+        "Clear rules protect fair competition, so that firms with honest practices are not undercut by firms that break the law.",
+        "Government can reduce red tape (the paperwork and procedures of meeting legal requirements), which lowers the time and cost of compliance for small firms.",
+        "National enterprise strategy sets priorities for support over several years, which gives firms some certainty about what help is available. The White Paper on Enterprise 2022-2030, published in December 2022, is Ireland's national enterprise policy framework.",
+        "The White Paper's vision is success built on competitive advantage through sustainability, innovation and productivity, and it is delivered through rolling two-year implementation plans."
+      ]
+    },
+    {
+      "h": "Benefits and limits of state support",
+      "b": "Support helps firms but has costs and limits, and its value depends on how well it targets real gaps. A balanced answer gives both sides and then a judgement.",
+      "points": [
+        "Benefits include access to finance, advice, training and export contacts that a small firm would struggle to find alone.",
+        "A limit is dependence: firms may rely on grants and fail to build a business that survives when the support ends.",
+        "Support can favour firms that are good at applying for it, not necessarily the firms with the best ideas.",
+        "The state funds support from taxes, so schemes compete with other public spending on health and education.",
+        "Ethical angle: because public money is used, the state needs accountability (showing how funds were spent and what they achieved) and fairness of access, so that every eligible firm has an equal chance to apply.",
+        "Evaluation: support works best where it addresses a real gap, such as finance for exporters, rather than subsidising firms that would succeed anyway."
+      ],
+      "tip": "To evaluate, give benefits, then limits (dependence, favouring good applicants, cost to taxpayers), then a reasoned conclusion about when support works. A list of agency names with no effect is a common mistake."
+    },
+    {
+      "h": "Discussing support for a growing firm",
+      "b": "A typical question asks how the government can support a growing Irish firm. A strong answer gives distinct supports, develops each one, and adds a limit.",
+      "points": [
+        "Choose three different kinds of support, not three grants. For example: finance through a state-backed scheme such as SBCI, advice and export help from Enterprise Ireland, and training through Skillnet Ireland.",
+        "For each support, say what it does and what effect it has on the firm. For example, SBCI-funded loans lower the cost of borrowing, so the firm can afford to expand.",
+        "Focus on what a growing firm needs: exporting, scaling up and financing matter more than start-up basics.",
+        "Add a limit or condition where you can, such as dependence on grants, or the cost to taxpayers."
+      ],
+      "tip": "The 2025 Higher Level Sample 2 paper asks students to discuss three ways the government can support a growing firm. Common mistakes are listing agency names with no effect, giving three supports that are all grants, and ignoring the word growing."
+    },
+    {
+      "h": "Applying support to a news story",
+      "b": "Exams give a real, current Irish firm or story, so you must apply support to it rather than recite a list of agencies. Analyse any news item in the same four steps.",
+      "points": [
+        "1. Name the agency or support involved. 2. Name the barrier it addresses (finance, skills or markets). 3. Say who gains, such as the firm, workers, the region or the economy. 4. Give one limit, then a short justified opinion.",
+        "Example 1: in early May 2026, Enterprise Ireland reported that it invested 32.9 million euro in Irish start-ups in 2025, supporting 198 start-ups, 90 of them high-potential.",
+        "About half of the start-ups it supported have AI central to their product or service. The agency is Enterprise Ireland, the barrier is finance, and the digital angle is the AI focus.",
+        "Example 2: in 2026, a programme called Get Exporting, for first-time exporters, was announced by Minister Burke. It was developed with Enterprise Ireland, InterTradeIreland, the LEOs and Údarás na Gaeltachta. The barrier is access to markets, and the firms that gain are new exporters.",
+        "Budget 2026, in October 2025, brought enhanced funding for LEOs, which help small and medium-sized firms with digital and climate-readiness initiatives. This is the sustainability and digital angle of public support.",
+        "A limit to bring up in your opinion: public money is limited, so support must be fair and accountable, and it works best where it fills a real gap."
+      ],
+      "tip": "Match the support to the firm's barrier: a first-time exporter needs market advice and finance, a start-up needs mentoring and a small loan, and a rural firm needs infrastructure and regional help."
+    }
   ],
   "keyTerms": [
     { "term": "Market failure", "definition": "A situation in which markets left alone do not supply something useful, such as finance for risky start-ups." },

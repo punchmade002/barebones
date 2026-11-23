@@ -4,46 +4,103 @@
   "subsection": "2. Design thinking",
   "syllabusRef": "2.2.2",
   "notes": [
-    { "h": "Design thinking as an approach", "b": "Design thinking is an innovative approach to problem solving that starts from the needs of the end user.", "points": [
-      "It is innovative because it treats problem solving as a creative process that generates new ideas, not only as analysis of existing data.",
-      "It is non-linear: teams move back and forth between phases rather than completing each step once in order.",
-      "It is solution-centred because it aims to produce a practical answer to the user's problem.",
-      "It is person-centred because the user's needs, feelings and behaviour drive each decision.",
-      "Design thinking supports idea development by reducing the risk of building something people do not want."
-    ] },
-    { "h": "Phase one: clarify", "b": "Clarify means understanding the user and defining the real problem before any solution is chosen.", "points": [
-      "Empathy and user research: observe users, interview them and learn their needs, frustrations and habits.",
-      "A problem statement sums up what the user needs and why, and guides every later phase.",
-      "Clarifying prevents a firm from solving the wrong problem, which is a common cause of product failure."
-    ] },
-    { "h": "Phase two: ideate", "b": "Ideate means generating a wide range of possible solutions before choosing one.", "points": [
-      "Brainstorming produces many ideas quickly, with judgement held back until the list is complete.",
-      "Ideas are sorted using criteria such as user need and feasibility, so that the team chooses which ones to prototype.",
-      "Ideation works best when the group includes different perspectives, such as sales, design and users."
-    ] },
-    { "h": "Phase three: develop", "b": "Develop turns the chosen idea into a prototype and tests it with real users.", "points": [
-      "Prototyping builds a simple, low-cost version of the product, such as a paper mock-up or clickable app screens.",
-      "Testing shows how real users respond to the prototype and reveals problems the team did not expect.",
-      "Feedback from users is used to improve the design, and the cycle repeats until the design works well.",
-      "Developing is iterative because each test can send the team back to clarify the problem or to ideate again."
-    ] },
-    { "h": "Phase four: implement", "b": "Implement means launching the solution to customers and checking its results.", "points": [
-      "Launch brings the product to customers through a planned marketing mix, including promotion, pricing and place.",
-      "After launch the firm monitors sales and customer feedback, which feeds into future improvements.",
-      "Implementation can reveal new problems, which send the team back to earlier phases."
-    ] },
-    { "h": "Design thinking as a loop", "b": "The four phases form a loop, so each cycle improves the solution.", "points": [
-      "The process is iterative: it repeats, and each cycle refines the solution from the last.",
-      "For example, a café chain notices long lunchtime queues. It clarifies the problem by observing customers, ideates ordering apps and counter layouts, develops a prototype app and tests it with regular customers.",
-      "If the app test shows that customers want to pay at a table, the team returns to ideate, and only then does it implement a rollout across the outlets."
-    ] },
-    { "h": "Benefits and drawbacks", "b": "Design thinking has clear advantages and some costs.", "points": [
-      "Benefit: products that meet real user needs are more likely to succeed in the market.",
-      "Benefit: testing early reduces the cost of fixing faults after launch.",
-      "Drawback: the process takes time, and repeated testing can delay the launch.",
-      "Drawback: research with a small group of users may not represent the whole market.",
-      "Drawback: the firm needs staff with the right skills, and running the process may require training."
-    ] }
+    {
+      "h": "Design thinking as an approach",
+      "b": "Once a business has an idea, it still has to make sure the product or service fits what people actually want. Design thinking is a way of doing this. It starts from the end user, the person who will actually use the product (the customer may be someone else, such as a parent buying for a child).",
+      "points": [
+        "The glossary definition is: \"An innovative, non-linear approach to the development of products and services which focuses on solutions for the end user.\" Design thinking is a key term.",
+        "It is innovative because it treats problem solving as a creative process that generates new ideas, not only as analysis of existing data.",
+        "It is non-linear because teams move back and forth between phases. The phases are named in an order, but they are not completed once and then finished.",
+        "It is solution-centred because it aims to produce a practical answer to the user's problem.",
+        "It is person-centred because the user's needs, feelings and behaviour drive each decision.",
+        "It is iterative, which means the process repeats in cycles and each cycle refines the solution from the one before. Iterative (repeats, each cycle improving the last) is not the same as non-linear (steps can be revisited).",
+        "Design thinking supports idea development by reducing the risk of building something people do not want."
+      ],
+      "tip": "Define it with both halves of the glossary meaning: creative and non-linear, and focused on solutions for the end user. A common mistake is to say only 'creative'. Solution-centred and person-centred are different words, so do not treat them as one. If asked why it is iterative, give the cause and effect: each test or launch gives feedback that sends the team back, and the solution improves with each cycle."
+    },
+    {
+      "h": "The four phases: clarify, ideate, develop, implement",
+      "b": "The specification names exactly four phases, in this order: clarify, ideate, develop and implement. Empathy research, problem statements, brainstorming, prototyping and testing are tools used inside these phases, not phases themselves.",
+      "points": [
+        "1. Clarify: understand the user and define the real problem before any solution is chosen.",
+        "2. Ideate: generate a wide range of possible solutions, then sort them and choose which to prototype.",
+        "3. Develop: turn the chosen idea into a prototype (a low-cost early version) and test it with real users.",
+        "4. Implement: launch the solution to customers, then monitor the results.",
+        "The order is only a guide. Results from testing or launch can send the team back to clarify, ideate or develop, so the phases form a loop and not a straight line of four steps."
+      ],
+      "tip": "Use the specification's phase names. Writing empathise, define, prototype and test as the four phases is a common mistake. Describing the process as a one-off sequence is another."
+    },
+    {
+      "h": "Phase one: clarify",
+      "b": "Clarify means understanding the user and defining the real problem before any solution is chosen.",
+      "points": [
+        "Empathy and user research means observing users, interviewing them and learning their needs, frustrations and habits. This is what makes the process person-centred.",
+        "A problem statement sums up what the user needs and why, and it guides every later phase.",
+        "Clarifying prevents a firm from solving the wrong problem, which is a common cause of product failure.",
+        "Ethical angle: user research must respect privacy and consent, because it collects personal information, which data protection law protects.",
+        "Ethical angle: designing for inclusion and accessibility from the start means the product works for all users, including those with disabilities.",
+        "Digital angle: online surveys let a firm reach many users quickly."
+      ],
+      "tip": "Expect the ethical, sustainability and digital themes to be assessed. User privacy and consent is a natural point to make for clarify."
+    },
+    {
+      "h": "Phase two: ideate",
+      "b": "Ideate means generating a wide range of possible solutions before choosing one. Brainstorming here is a tool inside this phase.",
+      "points": [
+        "Brainstorming produces many ideas quickly, with judgement held back until the list is complete, so that good ideas are not dismissed too early.",
+        "Ideas are then sorted against criteria such as user need and feasibility (whether the firm can actually make it), so the team chooses which ones to prototype.",
+        "Ideation works best when the group includes different perspectives, such as sales, design and users, because each sees different possibilities and problems.",
+        "Digital angle: collaboration software lets team members share and develop ideas even when they work in different places."
+      ],
+      "tip": "Do not confuse this with brainstorming as a source of business ideas. Here it is a phase tool for answering the problem stated in clarify."
+    },
+    {
+      "h": "Phase three: develop",
+      "b": "Develop turns the chosen idea into a prototype and tests it with real users. A prototype is a test version used to learn, not the launched product, and the test group is small.",
+      "points": [
+        "Prototyping builds a simple, low-cost version of the product, such as a paper mock-up or clickable app screens, so mistakes are cheap to correct.",
+        "Testing shows how real users respond to the prototype and reveals problems the team did not expect.",
+        "Feedback from users is used to improve the design, and the cycle repeats until the design works well.",
+        "Developing is iterative because each test can send the team back to clarify the problem or to ideate again.",
+        "Sustainability angle: the team can design for durability, less packaging and less waste, and test the environmental cost of a design before it is made in large numbers.",
+        "Digital angle: clickable app prototypes let the team test a digital product without building it fully."
+      ]
+    },
+    {
+      "h": "Phase four: implement",
+      "b": "Implement means launching the solution to customers and checking its results. Launch is not the end of the process.",
+      "points": [
+        "Launch brings the product to customers through a planned marketing mix, including promotion, pricing and place (here they are only named).",
+        "After launch the firm monitors sales and customer feedback, which feeds into future improvements.",
+        "Implementation can reveal new problems, which send the team back to earlier phases.",
+        "Digital angle: user analytics show how customers use a digital product, and digital products can be updated continuously after implementation."
+      ],
+      "tip": "A common mistake is to treat the launch as the end. Include the monitoring of sales and feedback, and the loop back."
+    },
+    {
+      "h": "Design thinking as a loop: a sample business",
+      "b": "The four phases form a loop, so each cycle improves the solution. A sample business shows how one product moves through all four phases and then back.",
+      "points": [
+        "Sample business: a café chain notices long lunchtime queues. It clarifies the problem by observing customers, ideates ordering apps and counter layouts, develops a prototype app and tests it with regular customers.",
+        "If the app test shows that customers want to pay at a table, the team returns to ideate, and only then does it implement a rollout across the outlets.",
+        "After the rollout it monitors sales and customer feedback, and any new problem starts another cycle.",
+        "Second sample business for practice: a regional bakery launching a gluten-free range. It clarifies by interviewing customers about what they cannot buy, ideates recipes and packaging, tests samples with a small group of customers, then launches and monitors sales."
+      ],
+      "tip": "For a question on how a firm can use each phase to meet a client's expectations, name the four phases in order. For each, give what the firm does, the tool used and a link to the client's expectations, such as user needs, quality, cost and feedback. Use the firm's actual product from the question, not a copy of the phase list."
+    },
+    {
+      "h": "Benefits and drawbacks",
+      "b": "Design thinking has clear advantages and some costs. Which matters more depends on the firm and the product.",
+      "points": [
+        "Benefit: products that meet real user needs are more likely to succeed in the market.",
+        "Benefit: testing early reduces the cost of fixing faults after launch, because a fault in a prototype is cheaper to fix than one in a product already sold.",
+        "Drawback: the process takes time, and repeated testing can delay the launch.",
+        "Drawback: research with a small group of users may not represent the whole market.",
+        "Drawback: the firm needs staff with the right skills, and running the process may require training.",
+        "Evaluation: a small firm facing a fast-moving competitor may find the delay costly, while a firm with a complex product gains most from early testing."
+      ],
+      "tip": "For a discuss question, give three or four developed points with their effect on a small firm (cost of fixing faults, time to launch, how representative the research is, skills needed) and finish with a judgement."
+    }
   ],
   "keyTerms": [
     { "term": "Design thinking", "definition": "An innovative, non-linear approach to solving problems that focuses on solutions for the end user through four phases." },

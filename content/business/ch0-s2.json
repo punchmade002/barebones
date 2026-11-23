@@ -4,49 +4,134 @@
   "subsection": "2. Project planning",
   "syllabusRef": "U3.1, U3.2, U3.3",
   "notes": [
-    { "h": "What a project plan is for", "b": "A project plan turns a research question into a set of actions with owners, dates and checkpoints. It makes the study manageable and provides evidence of the student's process.", "points": [
-      "A clear purpose states what the study is trying to find out and why the answer matters to a business or community.",
-      "Goals are the outcomes the study must achieve, such as a completed analysis of three data sources.",
-      "Criteria for success state in advance how the student will judge whether the goals have been met, such as a conclusion supported by at least two independent sources.",
-      "Without a plan, evidence collection is often left too late and the analysis is rushed at the end."
-    ] },
-    { "h": "Roles and responsibilities", "b": "The plan should show who is responsible for each task, including people outside the study who must provide information or access.", "points": [
-      "Roles name the person responsible for each task, such as the student for analysis, or a business owner agreeing to an interview.",
-      "Responsibilities state what each person must provide and by when, such as a completed questionnaire returned within one week.",
-      "Recording roles shows who must be contacted if a person becomes unavailable, so the plan can be adjusted quickly."
-    ] },
-    { "h": "Resources, objectives and the time schedule", "b": "Resources are what the study needs in order to be completed. Objectives are the specific steps that lead to the goals.", "points": [
-      "Resources include time, money, equipment, software, access to people and access to data, such as a library database or a company's published accounts.",
-      "Objectives are measurable steps, such as interviewing five local business owners or comparing three years of sales data.",
-      "A detailed time schedule breaks the study into tasks with start and end dates, which shows whether the timetable is realistic.",
-      "A Gantt-style chart shows each task as a bar along a timeline, so overlaps and dependencies are visible at a glance.",
-      "A dependency is a task that cannot start until another task is finished, such as analysis that must wait for data collection."
-    ] },
-    { "h": "Risk assessment", "b": "A risk assessment identifies events that could stop or weaken the study, judges how likely and serious each one is, and sets out a response.", "points": [
-      "A risk is any event that could delay the study or damage the quality of its evidence, such as a business refusing an interview.",
-      "Likelihood and impact are each rated, for example as low, medium or high, so the most serious risks receive attention first.",
-      "Each risk needs a planned response, such as contacting a second business in case the first one declines.",
-      "Risks should be reviewed during the study, because new ones appear as the work progresses."
-    ] },
-    { "h": "Monitoring progress and keeping records", "b": "Monitoring checks actual progress against the plan. Milestones, logs and the investigative folder are the main tools.", "points": [
-      "A milestone is a fixed point in the plan marking completed work, such as finishing data collection by a set date.",
-      "A progress log records what was done, when, what problems arose and what changed as a result, giving a dated trail of decisions.",
-      "The investigative folder holds the notes, data, sources and drafts kept throughout the study, as recommended by the specification.",
-      "A task that falls behind shows up in the monitoring record early enough to adjust the schedule, rather than forcing a rush at the end."
-    ] },
-    { "h": "Evaluating the plan and the process", "b": "Evaluation looks back at whether the plan worked. It feeds into the report's reflection and the student's own learning.", "points": [
-      "Evaluation compares planned dates and outcomes with what actually happened, and explains the reasons for any differences.",
-      "A plan can prove too ambitious when tasks are given too little time, and evaluation should name that cause and the adjustment made.",
-      "Evaluating the process also covers the quality of the information gathered and how any gaps in it were handled."
-    ] },
-    { "h": "A complete sample plan for a 20-hour study", "b": "This is a planning model showing how the elements fit together over a fixed number of hours. It is not a template for a student's report.", "points": [
-      "Hours 1 to 2: choose a business topic and write three possible research questions, testing each against the SMART criteria.",
-      "Hours 3 to 4: write the project plan, covering purpose, goals, criteria for success, roles, resources, objectives, a Gantt-style schedule and a risk assessment.",
-      "Hours 5 to 9: collect primary data through questionnaires or interviews, gather at least two secondary sources, and record and reference every item as it is gathered.",
-      "Hours 10 to 13: organise the data, interpret the tables and charts, and compare findings across the sources.",
-      "Hours 14 to 16: evaluate the sources and findings, draw conclusions justified by the analysis, and note how the plan and the student's perspective changed.",
-      "Hours 17 to 20: write up the study, check the references and length, reflect on any change in perspective, and update the monitoring log."
-    ] }
+    {
+      "h": "Why a project plan matters: purpose, goals and criteria for success",
+      "b": "A study of up to 20 hours is easy to start well and finish badly. A detailed plan gives a clear route from the research question to a conclusion, and it is the first thing a student writes once the question is set.",
+      "points": [
+        "A plan makes the study manageable: it breaks the work into goals small enough to achieve, so the student always knows what to do next.",
+        "It gives early warning of delay, because a task that is behind its planned date is visible while there is still time to adjust.",
+        "It is also evidence of the student's process: dated plans, changes and reasons show how the study was actually carried out.",
+        "The purpose states what the study will find out and why the answer matters to a business, for example whether a sample business should change how it sells online.",
+        "Goals are what the study must achieve, such as a completed analysis of three data sources. Criteria for success are how the student will judge, in advance, whether the goals were met, such as a conclusion supported by at least two independent sources.",
+        "Without a plan, evidence collection is left too late, analysis is rushed at the end and the study can be left unfinished."
+      ],
+      "tip": "Keep the three ideas apart: goals are what the study will achieve, and criteria for success are how you will judge that you achieved them. If asked to explain why a plan matters, give a reason, its effect on the study and a short example."
+    },
+    {
+      "h": "The main elements of a plan",
+      "b": "A project plan has several elements, and an outline of a plan should name all of them. Each one answers a different planning question.",
+      "points": [
+        "Purpose, goals and criteria for success: what the study is for, what it must achieve and how success will be judged.",
+        "Roles and responsibilities: who does each task, and who must provide information or access.",
+        "Resources: what the study needs, such as time, money, equipment, software and access to people, data and libraries.",
+        "Objectives: measurable steps linked to the research question.",
+        "A detailed time schedule: tasks with start and end dates, within the up-to-20-hour limit.",
+        "Risk assessment: what could go wrong, how likely and serious it is, and a planned response.",
+        "Monitoring and evaluation: checking progress during the study and judging afterwards how far the plan helped."
+      ],
+      "tip": "An outline answer means the main points only: name every element with a few words on each. For a question that asks you to develop a plan, include every element with named tasks, dates within the available hours, and a risk with its response."
+    },
+    {
+      "h": "Roles and responsibilities",
+      "b": "A plan should show who is responsible for each task, including people outside the study whose help the student depends on.",
+      "points": [
+        "Roles name who does each task: the student carries out the research and analysis, while others, such as the teacher or an interviewee, play a part at particular points.",
+        "Responsibilities state what each person must provide and by when, such as a business owner agreeing to an interview, or a questionnaire returned within one week.",
+        "Recording roles shows who to contact if someone becomes unavailable, so the plan can be adjusted quickly instead of stalling."
+      ]
+    },
+    {
+      "h": "Resources and objectives",
+      "b": "Resources are what the study needs in order to be completed, and objectives are the specific steps that lead to the goals. Between them they turn a broad question into things the student can actually do.",
+      "points": [
+        "Resources include time, money, equipment, software, access to people and access to data, such as a library database or a company's published accounts.",
+        "Objectives are measurable steps linked to the research question, such as interviewing five local business owners or comparing three years of sales data.",
+        "Goals say what the study will achieve, while objectives are the measurable steps that lead towards them. A goal of understanding local businesses might have the objective of interviewing five local business owners.",
+        "Digital tools can supply some of these resources: a shared calendar, a spreadsheet and a cloud folder."
+      ],
+      "tip": "Examiners expect you to separate goals from objectives. A goal is the outcome; an objective is a measurable step towards it."
+    },
+    {
+      "h": "The time schedule",
+      "b": "A time schedule turns objectives into tasks with dates. The whole Investigative Study is envisaged to take up to 20 hours, so the schedule must fit the time available.",
+      "points": [
+        "A detailed schedule lists each task with a start and end date, which shows whether the timetable is realistic. Counting backwards from the deadline shows when each task must start.",
+        "A Gantt-style chart shows each task as a bar along a timeline, so overlaps between tasks are visible at a glance. A spreadsheet is a simple way to build one.",
+        "A dependency is a task that cannot start until another one finishes, such as analysis that must wait for data collection. Spotting dependencies stops the student scheduling work that cannot yet be done.",
+        "The NCCA gives indicative times by stage: getting started 2 to 3 hours, developing a question 1 to 2 hours, and the project plan 1 to 2 hours.",
+        "The NCCA's indicative times continue: finding sources and data and then analysing and evaluating them 6 to 8 hours together, applying learning and conclusions 1 to 2 hours, and compiling the report 2 to 3 hours.",
+        "Together the stage times add up to roughly 13 to 20 hours. They are only a guide, and a student's own split depends on the brief and the study."
+      ],
+      "tip": "A common mistake is a plan with no dates. Whenever you are asked to develop a plan, give each task start and end dates (or hours) that fit within the 20-hour limit."
+    },
+    {
+      "h": "Risk assessment",
+      "b": "A risk assessment looks ahead to events that could weaken the study, and plans a response before any of them happen. Planning for risk and adapting to change is part of the entrepreneurial mindset the specification builds in this strand.",
+      "points": [
+        "A risk is something that could happen and delay the study or damage its evidence, such as an interviewee declining, too few questionnaires being returned, or a file being lost.",
+        "An issue is different: it is a problem that has already happened. A risk is only a possibility, and planning deals with it in advance.",
+        "One method is to rate each risk's likelihood and impact, for example as low, medium or high, so the most serious risks get attention first. This is a common project-management method, not a requirement.",
+        "Each risk needs a planned response, such as arranging a second interviewee in case the first declines. Doing this is called diversifying: not depending on a single source.",
+        "Backing up files in a cloud folder is the planned response to the risk of a lost file.",
+        "Risks should be reviewed as the study goes on, because new ones appear and old ones pass."
+      ],
+      "tip": "When asked to identify a risk and give a response, name a specific risk to this study, not just that something goes wrong, and a response planned in advance. A common mistake is giving risks unrelated to the study."
+    },
+    {
+      "h": "Ethical, sustainable and digital planning",
+      "b": "The plan should include steps for acting responsibly as well as for finishing on time. Digital tools help with both.",
+      "points": [
+        "Ethical steps belong in the plan: ask permission before interviewing someone, and protect the privacy of the information they give.",
+        "Using digital sources before printing or travelling is more sustainable where it is suitable, because it saves paper and journeys.",
+        "Digital tools support planning: a shared calendar for dates, a spreadsheet for a Gantt-style chart, and a cloud folder with backups, which also guards against the risk of lost files."
+      ]
+    },
+    {
+      "h": "Monitoring progress and keeping records",
+      "b": "Monitoring means checking actual progress against the plan while the study is under way. It is what lets the student react to problems rather than discover them at the end.",
+      "points": [
+        "A milestone is a fixed point in the plan marking completed work, such as finishing data collection by a set date. A milestone is a point in time, whereas a task is an activity that takes time.",
+        "A progress log is a dated record of what was done, what issues arose and how they were overcome, which feeds into the student's reflection later.",
+        "The investigative folder holds notes, data, sources, drafts, the dates sources were accessed and thoughts, including how those thoughts change. The NCCA encourages students to keep one; it is not compulsory and it is not submitted.",
+        "The plan should be revisited regularly, with any change and the reason for it noted.",
+        "A task that falls behind shows up early in the monitoring record, so the schedule can be adjusted instead of forcing a rush at the end."
+      ],
+      "tip": "A common mistake is to treat monitoring as a final check. Monitoring happens during the study; evaluating is the later judgement of how far the plan helped."
+    },
+    {
+      "h": "Evaluating the plan and the process",
+      "b": "Evaluation looks back and judges how far the planning helped the study to be completed. This is what the student reflects on in the report.",
+      "points": [
+        "Evaluation compares planned dates and outcomes with what actually happened, and explains the reasons for any differences.",
+        "A plan can prove too ambitious when tasks are given too little time. A good evaluation names that cause and the adjustment that was made.",
+        "Evaluating also looks at the quality of the information gathered and how any gaps in it were dealt with.",
+        "The final step is a judgement: it states how far the planning helped the study to be completed and gives reasons for that judgement."
+      ],
+      "tip": "Reporting only that a plan was made is a common mistake. To evaluate how far planning helped, compare planned with actual, give a cause for any change and judge its effect on the study."
+    },
+    {
+      "h": "The plan and the Investigative Study",
+      "b": "The plan is a working document for the student rather than part of what is handed in, but it still matters to the final report.",
+      "points": [
+        "The plan is not submitted to the SEC and the report has no separate plan section.",
+        "Instead, the report refers to the plan as appropriate and reflects on and evaluates how far the planning supported the effective completion of the study.",
+        "Sharing the plan with the teacher is an important step in the ongoing authentication process."
+      ],
+      "tip": "Remember that the plan is not submitted, but you must still reflect on it in the report."
+    },
+    {
+      "h": "A sample plan for a 20-hour study",
+      "b": "This sample, for a sample business, shows how the elements fit together over a fixed number of hours. It is a model, not a template, and the stage times are the NCCA's indicative ones, so a real study will vary with its brief.",
+      "points": [
+        "Purpose and goal: find out why customers of a sample business buy online or in store. Criteria for success: a conclusion supported by at least two independent sources.",
+        "Roles: the student does the research and analysis; the business owner agrees to an interview; the teacher sees the plan.",
+        "Resources: about 20 hours, a spreadsheet, a library database and the business's published information.",
+        "Objectives: interviews with five local business owners completed by a set date, linked to the research question.",
+        "Schedule, roughly: getting started 2 to 3 hours, developing the question 1 to 2 hours, the plan 1 to 2 hours, sources, data, analysis and evaluation 6 to 8 hours, conclusions 1 to 2 hours, compiling the report 2 to 3 hours.",
+        "Risks and responses: the owner declines, so contact a second business; too few questionnaires come back, so send them early; a file is lost, so keep a cloud backup.",
+        "Monitoring and evaluation: a milestone at the end of data collection, a dated progress log, and a comparison of planned and actual times at the end."
+      ]
+    }
   ],
   "keyTerms": [
     { "term": "Project plan", "definition": "A document setting out a study's purpose, goals, roles, resources, objectives, schedule, risks and monitoring arrangements." },

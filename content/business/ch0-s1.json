@@ -4,51 +4,112 @@
   "subsection": "1. Developing research questions, managing information and acknowledging sources",
   "syllabusRef": "U1.1, U2.1, U2.2, U2.3, U2.4, U2.5, U2.6, U6.1",
   "notes": [
-    { "h": "SMART objectives for a research question", "b": "SMART is a test for whether a research question is usable. Each letter checks one property the question needs before data collection starts.", "points": [
-      "Specific: the question names the business, market, group or decision it concerns, so the student knows exactly what is being studied.",
-      "Measurable: the question points to evidence that can be counted, compared or rated, such as sales figures, customer numbers or survey scores.",
-      "Achievable: the data needed can be obtained within the time, budget and skills the student has.",
-      "Relevant: the question links the business concept being studied to a real decision or problem facing a business.",
-      "Timebound: the question names a period, such as the three years since a product launch, so that figures are current and comparable."
-    ] },
-    { "h": "Refining a weak question", "b": "Refining means adding detail until the question passes the SMART tests. A refined question shows exactly what evidence the study needs.", "points": [
-      "A weak question names a topic only: how do businesses use social media? It has no business, no period and no measurable outcome.",
-      "A refined question names a business type, a place, a customer group and a period, such as how a named Cork café has used Instagram to promote new menu items to 18 to 30 year olds over the past two years.",
-      "A weak question asking whether something is good or bad leads to opinion, because no test has been set for judging it.",
-      "Refining moves from a topic to a question that can be answered with evidence, by adding a business, a group, a place, a time period and a measurable outcome."
-    ] },
-    { "h": "Primary and secondary sources", "b": "Primary data is collected first-hand for the study. Secondary data already exists, having been collected by someone else for another purpose.", "points": [
-      "Primary methods include questionnaires, interviews, observation and a practical test or trial, and each produces data matched to the research question.",
-      "Primary data takes time and resources to collect, and a small or unrepresentative sample may limit what it can show.",
-      "Secondary sources include annual reports, government statistics, industry reports, news articles and company websites.",
-      "Secondary data is usually quicker and cheaper to obtain, but it was collected for a different purpose, so it may not match the question exactly.",
-      "Combining both types lets primary findings check, or explain, secondary figures, which strengthens the conclusions."
-    ] },
-    { "h": "Judging the credibility of a source", "b": "Every source must be assessed before its information is used. Five checks show whether a source can be trusted and how far.", "points": [
-      "Author and expertise: who wrote the source and whether they have relevant qualifications or experience on the topic.",
-      "Date: whether the information is recent enough for the question, since business conditions change quickly.",
-      "Purpose and bias: whether the source is trying to sell, persuade or defend a position, which may slant what it reports.",
-      "Evidence: whether the claims are backed by named data, methods or references rather than assertion alone.",
-      "Corroboration: whether independent sources report the same facts, which makes a claim more reliable."
-    ] },
-    { "h": "Perspectives, representative samples and gaps", "b": "A study is only as strong as the range of views and data behind it. Sampling and gap checks show whether conclusions can be trusted.", "points": [
-      "Considering a variety of perspectives means seeking views from groups with different interests, such as owners, staff, customers and regulators.",
-      "A representative sample reflects the make-up of the group being studied, such as customers of different ages and locations.",
-      "A sample drawn only from friends, or from one type of customer, gives biased results that cannot support a general conclusion.",
-      "An information gap is missing data needed to answer the question, and the study must state what is missing and how it would change the conclusion."
-    ] },
-    { "h": "Recording data and identifying key points", "b": "Organised records make analysis possible and show where each fact came from.", "points": [
-      "Record each data item with its source, date and collection method at the moment it is gathered, rather than trying to recall it later.",
-      "Key points are the findings most relevant to the research question, and grouping notes under each sub-question makes them easier to find.",
-      "The same finding can matter differently to different groups: a price rise may matter more to customers than to owners, so state which group it affects."
-    ] },
-    { "h": "Referencing and acknowledging sources", "b": "All sources, primary or secondary and in any format, must be recorded and acknowledged. Acknowledgement protects the student from plagiarism.", "points": [
-      "A consistent referencing style such as Harvard uses an in-text citation in the text and a full reference list at the end.",
-      "An in-text citation gives the author and year in brackets beside the claim, so the reader can find the matching entry in the reference list.",
-      "Primary sources must also be acknowledged, for example by stating when and how the questionnaire or interview data was collected.",
-      "Plagiarism is presenting another person's work or ideas as your own, whether copied directly or reworded without acknowledgement.",
-      "The SEC rules require any use of artificial intelligence in the study to be acknowledged, in the same way as any other source."
-    ] }
+    {
+      "h": "Developing and refining research questions",
+      "b": "Before any data is collected, a research question is developed and refined so that it is clear and so that enough good-quality information exists to answer it. A vague question wastes time because nobody can tell what evidence would answer it.",
+      "points": [
+        "Develop several possible questions first, then test each against the SMART tests below and choose the one that passes best. This is why a range of questions is written before one is chosen.",
+        "SMART objectives (for research) means refining a question for research based on it being specific, measurable, achievable, relevant and timebound. Each letter checks one property the question needs before data collection starts.",
+        "Specific: the question names the business, market, group or decision it concerns, so you know exactly what is being studied.",
+        "Measurable: the question points to evidence that can be counted, compared or rated, such as sales figures, customer numbers or survey scores.",
+        "Achievable: the data needed can be obtained within the time, budget and skills you have.",
+        "Relevant: the question links the business concept being studied to a real decision or problem facing a business.",
+        "Timebound: the question names a period, such as the three years since a product launch, so that figures are current and comparable.",
+        "A question may be refined again as the study progresses, because early findings can show it is too broad or that the data does not exist. When this happens, note that it was refined and why."
+      ],
+      "tip": "If asked which SMART letter a question fails, name the letter and give one phrase of reason, such as 'not timebound, because no period is named'. Don't just say a SMART question is a good question: define each letter."
+    },
+    {
+      "h": "Refining a weak question",
+      "b": "Refining means adding detail until the question passes the SMART tests. A refined question shows exactly what evidence the study needs.",
+      "points": [
+        "A weak question names a topic only, such as how do businesses use social media? It has no business, no period and no measurable outcome, so you cannot tell what evidence would answer it.",
+        "A refined question names a business type, a place, a customer group and a period, such as how a sample café has used Instagram to promote new menu items to 18 to 30 year olds over the past two years.",
+        "A weak question asking whether something is good or bad leads to opinion, because no test has been set for judging it.",
+        "Refining moves from a topic to a question that can be answered with evidence, by adding a business, a group, a place, a time period and a measurable outcome."
+      ],
+      "tip": "For an outline of how to refine a question, give three or four distinct steps: add the business, the group, the place and period, and a measurable outcome."
+    },
+    {
+      "h": "Primary and secondary sources",
+      "b": "Sources of information can be primary or secondary. Primary sources involve original documents or first-hand information and can include interviews and surveys, while secondary sources often interpret primary information.",
+      "points": [
+        "Primary methods include questionnaires (written sets of questions), interviews, observation and a practical trial or test, and each produces data matched to the research question.",
+        "Primary data takes time and resources to collect, and a small or unrepresentative sample (the group of people actually asked) may limit what it can show.",
+        "Secondary sources include industry reports, news and media articles, government statistics and company websites, which were produced by someone else for another purpose.",
+        "Say a source is secondary when it interprets or reports on information collected by others. A firm's own accounts are original documents and can be primary, while a news article interpreting them is secondary.",
+        "Secondary data is usually quicker and cheaper to obtain, but it was collected for a different purpose, so it may not match the question exactly.",
+        "Primary data is not automatically more reliable. A small or unrepresentative sample makes it weak, and well-sourced secondary data can be stronger.",
+        "Combining both types lets each check or explain the other, which strengthens the conclusions.",
+        "A variety of perspectives is needed because owners, employees, customers, regulators and the community each see an issue differently, and a study using only one view is one-sided."
+      ],
+      "tip": "To distinguish primary from secondary data, name both, give a method and a strength and weakness of each, and make the contrast explicit. Class a given source by whether it is first-hand or interprets information collected by others."
+    },
+    {
+      "h": "Judging the credibility of a source",
+      "b": "Every source must be assessed before its information is used. The credibility, context and accuracy of a source decide how far it can be trusted, and five checks help you judge them.",
+      "points": [
+        "Author and expertise: who wrote the source and whether they have relevant qualifications or experience on the topic.",
+        "Date: whether the information is recent and up to date enough for the question, since business conditions change quickly.",
+        "Purpose and bias: whether the source is trying to sell, persuade or defend a position, which may slant what it reports. Bias is a one-sided slant, which is different from an honest error.",
+        "Evidence: whether the claims are backed by named data, methods or references rather than assertion alone.",
+        "Corroboration: whether independent sources report the same facts, which makes a claim more reliable. Two copies of the same press release count as one source, not two.",
+        "Fact versus opinion: check whether a statement can be verified or is someone's view, and whether it is relevant to your question. Ask too whether alternative perspectives or limitations exist.",
+        "A source can be reliable (consistent and trustworthy) but of little value to this question, because it does not answer what you are asking. Reliability and value are judged separately."
+      ],
+      "tip": "When asked to assess a source, apply at least three checks to the source described, such as a firm's own report, and then reach a judgement on how far it can be used. Listing the five checks without applying them is a common mistake, as is calling any online source reliable."
+    },
+    {
+      "h": "Perspectives, representative data and gaps",
+      "b": "A study is only as strong as the range of views and data behind it. Checks on whose view is heard, who was sampled and what is missing show whether conclusions can be trusted.",
+      "points": [
+        "The same finding matters differently to different groups, so state who is affected. A price rise may matter more to customers than to owners.",
+        "Analysing a source for different groups means asking what an issue means for owners, staff, customers and regulators, not only for the business.",
+        "Representative and comprehensive data means a sample reflecting the make-up of the group being studied, such as customers of different ages and locations.",
+        "A sample drawn only from friends, one location or one type of customer gives biased results that cannot support a general conclusion.",
+        "A large sample is not the same as a representative one: a large but unrepresentative sample is still biased.",
+        "An information gap is missing data needed to answer the question. Name the gap first, then assess its impact: what the study cannot show, and how the conclusion might change if the data were found."
+      ],
+      "tip": "If you say a sample is too small, state what that would make the study unable to show. For a gap, say what is missing and why it weakens the conclusion."
+    },
+    {
+      "h": "Recording data and identifying key points",
+      "b": "Organised records make analysis possible and show where each fact came from.",
+      "points": [
+        "Record each data item with its source, date and collection method at the moment it is gathered, rather than trying to recall it later.",
+        "For online sources, also record the hyperlink and the date accessed, because web pages change and the reader must be able to find the version you used.",
+        "Key points are the findings or ideas in each source that are most relevant to the research question, so identify them for every source.",
+        "Group notes under the research question or its sub-questions, which makes the key points easier to find when you analyse them."
+      ]
+    },
+    {
+      "h": "Referencing and acknowledging sources",
+      "b": "All sources, primary or secondary and in any format, must be recorded and acknowledged. Acknowledging a source means crediting it, which protects you from plagiarism.",
+      "points": [
+        "A reference list covers books, newspapers, magazines, journals, government reports, online sources such as videos and podcasts, specialist organisations, relevant individuals and AI-generated material. It is separate from the word count.",
+        "Use an in-text citation beside the claim and a full reference list at the end. For a sample, a citation such as (Murphy, 2025) gives the author and year so the reader can find the matching list entry.",
+        "No particular formal style is required, but be consistent and give enough accurate detail for the reader to find and authenticate the source. Harvard is one example of a consistent style, not a requirement.",
+        "A print source is referenced with the author's name, title, year and, if necessary, page or chapter. An online source adds the hyperlink and the date read or downloaded.",
+        "Primary data is acknowledged too, by stating when and how it was collected, for example the date and method of a questionnaire or interview.",
+        "Plagiarism is a serious offence. It occurs when work other than your own is used without clear acknowledgement, whether copied directly or reworded, and it includes AI-generated material. Direct copying without acknowledgement may incur penalties, up to and including withholding of related results.",
+        "AI use must be acknowledged: give the name of the tool, the date the content was generated and a brief explanation of how it was used. Include the shareable URL if the tool gives one, and otherwise the tool name and the prompt used.",
+        "Acknowledging is not the same as quoting. Quoting uses the exact words, while acknowledging credits any idea or data you used, quoted or not."
+      ],
+      "tip": "When asked how to acknowledge sources, give the in-text citation, the reference list, the extra detail for online sources and the acknowledgement of primary data and AI use. Don't say any single style is compulsory."
+    },
+    {
+      "h": "Ethical, digital and sustainability angles on research",
+      "b": "Research must be done honestly and responsibly, and digital sources bring extra risks. These points apply at every stage, from choosing a question to listing sources.",
+      "points": [
+        "Conduct research in a responsible, safe and ethical manner: do not mislead respondents, keep their details private and collect data safely. Responses should be informed, voluntary and anonymous.",
+        "Report limitations honestly and credit every source, because copying without credit is dishonest and is plagiarism.",
+        "For online sources, check who runs the site and when it was last updated, since anyone can publish online.",
+        "Search engines and AI tools can give wrong or invented answers, so check every claim against a source before using it.",
+        "Digital survey tools collect primary data quickly, but they still need a representative sample or the results will be biased.",
+        "A source on a business's environmental claims should be checked for greenwashing, meaning a claim with no evidence behind it."
+      ],
+      "tip": "In a stimulus question on a company profile or news headline, bring in this angle: ask whether the environmental claim is backed by evidence and whether the source has an interest in the claim."
+    }
   ],
   "keyTerms": [
     { "term": "SMART objectives", "definition": "A test requiring a research question or objective to be specific, measurable, achievable, relevant and timebound." },
