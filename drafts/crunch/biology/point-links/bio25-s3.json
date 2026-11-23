@@ -1,0 +1,923 @@
+{
+ "bio25-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "water movement by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.0.1",
+    "strength": "helpful",
+    "why": "percentage change in mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.3.0",
+    "strength": "helpful",
+    "why": "Visking tubing semi-permeable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.1.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio25-s3.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.1.3",
+    "strength": "essential",
+    "why": "making 1.0 M solution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "helpful",
+    "why": "replicates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.0.4",
+    "strength": "helpful",
+    "why": "semi-permeable definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.3.0",
+    "strength": "essential",
+    "why": "semi-permeable pores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.0.5",
+    "strength": "essential",
+    "why": "selectively permeable living membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.3.0",
+    "strength": "helpful",
+    "why": "Visking tubing properties",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "concentration gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "concentration gradient",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "net water movement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.2.0",
+    "strength": "essential",
+    "why": "steps for making bag",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.2.5",
+    "strength": "helpful",
+    "why": "blotting method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.11.0",
+    "strength": "essential",
+    "why": "change in mass and rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.0.5",
+    "strength": "helpful",
+    "why": "living membrane permeability",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.1.2",
+    "strength": "helpful",
+    "why": "cork borer equipment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.1.4",
+    "strength": "helpful",
+    "why": "making sucrose range",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.11.1",
+    "strength": "essential",
+    "why": "percentage change formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.6.3",
+    "strength": "helpful",
+    "why": "percentage change in mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "helpful",
+    "why": "osmosis direction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.6.5",
+    "strength": "essential",
+    "why": "egg method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "essential",
+    "why": "temperature raises diffusion rate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.1.1",
+    "strength": "helpful",
+    "why": "kinetic energy of particles",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.3.2",
+    "strength": "helpful",
+    "why": "Visking versus living membranes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.2.0",
+    "strength": "essential",
+    "why": "steps for making bag",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.5.3",
+    "strength": "helpful",
+    "why": "weighing procedure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.11.0",
+    "strength": "essential",
+    "why": "rate calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.7",
+    "strength": "helpful",
+    "why": "surface area and diffusion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.6",
+    "strength": "essential",
+    "why": "surface area raises rate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.9.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio25-s3.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.9.3",
+    "strength": "helpful",
+    "why": "surface area calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.9.3",
+    "strength": "helpful",
+    "why": "surface area calculation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.9.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "helpful",
+    "why": "control experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.6.0",
+    "strength": "helpful",
+    "why": "cutting potato pieces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.10.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.11.1",
+    "strength": "essential",
+    "why": "percentage change formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.11.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.11.0",
+    "strength": "helpful",
+    "why": "change in mass",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.11.1",
+    "strength": "essential",
+    "why": "rate and percentage formulas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.11.1",
+    "strength": "essential",
+    "why": "percentage change formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.11.1",
+    "strength": "essential",
+    "why": "percentage change formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent and dependent variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.11.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.11.5",
+    "strength": "helpful",
+    "why": "plotting graphs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "hazards and control measures",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.2",
+    "strength": "helpful",
+    "why": "hot water hazard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.12.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.13.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.4.0",
+    "strength": "essential",
+    "why": "concentration gradient hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "helpful",
+    "why": "concentration gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.3.3",
+    "strength": "essential",
+    "why": "turgid and flaccid cells",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.3.0",
+    "strength": "helpful",
+    "why": "hypotonic and hypertonic",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.13.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.3.0",
+    "strength": "essential",
+    "why": "isotonic meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.7.0",
+    "strength": "helpful",
+    "why": "temperature hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.13.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s3.7.4",
+    "strength": "helpful",
+    "why": "tubing not living tissue",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio25-s3.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.9.0",
+    "strength": "helpful",
+    "why": "surface area hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.13.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio25-s3.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.2.5",
+    "strength": "helpful",
+    "why": "blotting method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.3.1",
+    "strength": "helpful",
+    "why": "sucrose slowly passing tubing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.2.3",
+    "strength": "helpful",
+    "why": "same volume in each bag",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s3.8.4",
+    "strength": "helpful",
+    "why": "checking bath temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.4.3",
+    "strength": "essential",
+    "why": "balance resolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "helpful",
+    "why": "replicates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio25-s3.14.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.0.5",
+    "strength": "essential",
+    "why": "selectively permeable membranes",
+    "confidence": "high"
+   }
+  ]
+ }
+}
