@@ -1,0 +1,141 @@
+[
+{"skill": "geo-thm8", "problems": [
+{"part": "maths-pp-2016-ordinary-p2-q6#(b)", "note": null,
+ "legend": {"1": "sum of the two sides that must reach", "2": "the side they must reach"},
+ "steps": [
+  {"ask": "What must be true of the two shorter sides compared with the longest side, for a triangle to be possible?", "title": "Recall the rule for building a triangle", "lines": [{"text": "A triangle can be constructed only if the two shorter sides add up to more than the longest side."}]},
+  {"ask": "What do the two shorter sides of Triangle 1 add up to, and is that more than the longest side?", "title": "Test Triangle 1", "lines": [{"tex": "\\hl{1}{3.2 + 2.9} &= \\hl{1}{6.1}"}, {"tex": "\\hl{1}{6.1} &> \\hl{2}{5.4}"}, {"text": "$\\hl{1}{6.1} > \\hl{2}{5.4}$, so the two short sides can reach. Triangle 1 can be constructed."}]},
+  {"ask": "What do the two shorter sides of Triangle 2 add up to, and do they reach the side of length 15?", "title": "Test Triangle 2", "lines": [{"tex": "\\hl{1}{6 + 7} &= \\hl{1}{13}"}, {"tex": "\\hl{1}{13} &< \\hl{2}{15}"}, {"text": "$\\hl{1}{13} < \\hl{2}{15}$, so the sides of length 6 and 7 are not long enough to reach the side of length 15."}]}
+ ],
+ "final": "\\text{Triangle 2, because } \\hl{1}{6 + 7} < \\hl{2}{15}",
+ "graph": null},
+{"part": "practice-geo-thm8-1", "note": "Changed from the last problem: the lengths are not tested here, because the third side x is unknown and we find its greatest whole-number value. The rule, that the two known sides must reach the third side, is the same.",
+ "legend": {"1": "sum of the two sides that must reach", "2": "the side they must reach", "3": "the answer"},
+ "steps": [
+  {"ask": "Which two sides must add up to more than the third side, and which side is the third?", "title": "Recall Theorem 8", "lines": [{"text": "Two sides of a triangle together are greater than the third side."}]},
+  {"ask": "Which two known sides are added here, and which side must they reach?", "title": "Write the condition", "lines": [{"tex": "\\hl{2}{x} &< \\hl{1}{8 + 5}"}, {"tex": "\\hl{2}{x} &< \\hl{1}{13}"}]},
+  {"ask": "Which whole numbers are less than 13, and which of them is the greatest?", "title": "Pick the greatest whole number", "lines": [{"tex": "\\hl{2}{x} &= \\hl{3}{12}"}]}
+ ],
+ "final": "\\hl{2}{x} = \\hl{3}{12}",
+ "graph": null},
+{"part": "practice-geo-thm8-2", "note": "Changed from the last problem: we now want the smallest whole number, so the condition is a lower bound and the side of length 11 is the one to reach. The steps are the same.",
+ "legend": {"1": "sum of the two sides that must reach", "2": "the side they must reach", "3": "the answer"},
+ "steps": [
+  {"ask": "Which two sides here are the shorter ones, and which is the longest?", "title": "Recall Theorem 8", "lines": [{"text": "Two sides of a triangle together are greater than the third side. The strongest condition comes from the two shorter sides reaching the longest side, $\\hl{2}{11}$."}]},
+  {"ask": "What must 4 plus x be greater than? Write that as an inequality and solve it for x.", "title": "Write the condition", "lines": [{"tex": "\\hl{1}{4 + x} &> \\hl{2}{11}"}, {"tex": "x &> 7"}]},
+  {"ask": "Which whole number is the smallest one greater than 7?", "title": "Pick the smallest whole number", "lines": [{"tex": "x &= \\hl{3}{8}"}]}
+ ],
+ "final": "x = \\hl{3}{8}",
+ "graph": null}
+]},
+{"skill": "logic-terms", "problems": [
+{"part": "practice-logic-terms-1", "note": null,
+ "legend": {"1": "first quantity compared, 15²", "2": "second quantity compared, 9² + 12²", "3": "the answer, the largest angle"},
+ "steps": [
+  {"ask": "Which side is the longest, and what do you get when you square it?", "title": "Test the converse", "lines": [{"text": "Square the longest side and compare."}, {"tex": "\\hl{1}{15^2} &= 225"}, {"tex": "\\hl{2}{9^2 + 12^2} &= 81 + 144 = 225"}]},
+  {"ask": "Since the two quantities match, what does the converse of Theorem 14 tell you about the angle opposite the longest side?", "title": "Apply the converse", "lines": [{"text": "$\\hl{1}{15^2} = \\hl{2}{9^2 + 12^2}$, so by the converse of Theorem 14 the angle opposite the side of length $15$ is a right angle."}, {"tex": "\\hl{3}{\\text{Largest angle}} &= \\hl{3}{90^\\circ}"}]}
+ ],
+ "final": "\\hl{3}{90^\\circ}",
+ "graph": null},
+{"part": "practice-logic-terms-2", "note": "Changed from the last problem: the converse now says two equal angles give equal sides (not squares), and the answer is a perimeter. The method is the same: state the converse, use it to match sides, then use the result.",
+ "legend": {"1": "first quantity compared, ∠P", "2": "second quantity compared, ∠Q", "3": "the answer, the perimeter"},
+ "steps": [
+  {"ask": "The theorem goes from equal sides to equal angles. What does the converse go from and to?", "title": "State the converse", "lines": [{"text": "The converse is: if two angles of a triangle are equal, then the sides opposite them are equal."}]},
+  {"ask": "Which side is opposite ∠P, and which side is opposite ∠Q?", "title": "Apply it", "lines": [{"text": "$\\hl{1}{\\angle P}$ is opposite $[QR]$ and $\\hl{2}{\\angle Q}$ is opposite $[PR]$. These angles are equal, so the sides are equal."}, {"tex": "|QR| &= |PR| = 9"}]},
+  {"ask": "Which three side lengths do you now know, and what do they add up to?", "title": "Add the three sides", "lines": [{"tex": "\\hl{3}{\\text{Perimeter}} &= \\hl{3}{9 + 9 + 6}"}, {"tex": "&= \\hl{3}{24 \\text{ cm}}"}]}
+ ],
+ "final": "\\hl{3}{24 \\text{ cm}}",
+ "graph": null},
+{"part": "practice-logic-terms-3", "note": "Changed from the last problem: this uses a corollary of the angle sum theorem rather than a converse, so there is no check to make. The steps are still: name the two interior opposite angles, add them, then check with the straight-line angle. The answer is an angle, as before.",
+ "legend": {"1": "first quantity compared, 47°", "2": "second quantity compared, 58°", "3": "the answer, the exterior angle"},
+ "steps": [
+  {"ask": "Which two interior angles are opposite the exterior angle at the third vertex?", "title": "Use the corollary", "lines": [{"text": "The exterior angle at the third vertex equals the sum of the other two interior angles (the interior opposite angles)."}, {"tex": "\\hl{3}{\\text{Exterior angle}} &= \\hl{1}{47} + \\hl{2}{58}"}, {"tex": "&= \\hl{3}{105^\\circ}"}]},
+  {"ask": "The third interior angle and the exterior angle lie on a straight line. What do they add up to, and what is the third interior angle?", "title": "Check with the theorem", "lines": [{"text": "The third angle is $180 - 47 - 58 = 75^\\circ$. It lies on a straight line with the exterior angle."}, {"tex": "\\hl{3}{\\text{Exterior angle}} &= 180 - 75"}, {"tex": "&= \\hl{3}{105^\\circ}"}]}
+ ],
+ "final": "\\hl{3}{105^\\circ}",
+ "graph": null}
+]},
+{"skill": "logic-terms-hl", "problems": [
+{"part": "practice-logic-terms-hl-1", "note": null,
+ "legend": {"1": "the two factors, (a − b) and (a + b)", "2": "the answer", "3": "the product, 2, tested for a multiple of 4"},
+ "steps": [
+  {"ask": "Proof by contradiction starts by assuming what? Write that assumption and the equation it gives.", "title": "Assume the opposite", "lines": [{"text": "Assume that there are positive integers $a$ and $b$ with the following property."}, {"tex": "a^2 - b^2 &= \\hl{3}{2}"}]},
+  {"ask": "Can a² − b² be written as a product? What are the two factors?", "title": "Factorise", "lines": [{"tex": "\\hl{1}{(a - b)(a + b)} &= \\hl{3}{2}"}]},
+  {"ask": "How do the two factors differ, and what does that say about whether each one is odd or even?", "title": "Compare the two factors", "lines": [{"text": "The factors differ by an even number, so they are both even or both odd."}, {"tex": "\\hl{1}{(a + b)} - \\hl{1}{(a - b)} &= 2b"}, {"text": "The product is $\\hl{3}{2}$, which is even, so the factors cannot both be odd. Both are therefore even."}]},
+  {"ask": "If both factors are even, what must their product be a multiple of? Can the product be 2?", "title": "State the contradiction", "lines": [{"text": "If both factors are even, their product is a multiple of $4$. But the product is $\\hl{3}{2}$, which is not a multiple of $4$."}, {"text": "This is a contradiction, so the assumption is false. Therefore there are no such integers $a$ and $b$."}]}
+ ],
+ "final": "\\hl{2}{\\text{No such integers exist}}",
+ "graph": null},
+{"part": "maths-pp-2022-higher-p2-q6#(c)", "note": "Changed from the last problem: the contradiction is about angles at a circle (the centre and the circumference), not algebra, and it has four steps. The method is the same: assume the opposite, bound one quantity, compare it with another, then state the contradiction.",
+ "legend": {"1": "the angle at the centre, ∠POQ", "2": "the answer", "3": "the angle at R, ∠PRQ"},
+ "steps": [
+  {"ask": "What position for O do you assume, so that you can reach a contradiction? Which two lines do you join?", "title": "Assume the opposite", "lines": [{"text": "Assume that $O$ is inside the triangle $PQR$."}, {"text": "Join $P$ to $O$ and $Q$ to $O$."}]},
+  {"ask": "Triangle POQ sits inside triangle PQR. How large can the angle at O be?", "title": "Bound the angle at the centre", "lines": [{"text": "If $O$ is inside the triangle, $\\hl{1}{\\angle POQ}$ is an angle inside triangle $POQ$, so it is less than a straight angle."}, {"tex": "|\\hl{1}{\\angle POQ}| &< 180^\\circ"}]},
+  {"ask": "How does the angle at the centre relate to the angle at the circumference on the same arc? What does that make ∠PRQ?", "title": "Compare with the angle at the circumference", "lines": [{"text": "The angle at the centre is twice the angle at the circumference on the same arc $PQ$, so $|\\hl{3}{\\angle PRQ}|$ is half of $|\\hl{1}{\\angle POQ}|$."}, {"tex": "|\\hl{3}{\\angle PRQ}| &= \\frac{1}{2}|\\hl{1}{\\angle POQ}|"}, {"tex": "&< \\frac{1}{2}(180^\\circ) = 90^\\circ"}]},
+  {"ask": "What is known about the angle at R, and does it clash with the bound you just found?", "title": "State the contradiction", "lines": [{"text": "But the angle at $\\hl{3}{R}$ is greater than $90^\\circ$. This contradicts the result above, so the assumption is false."}, {"text": "Therefore $O$ cannot be inside the triangle $PQR$."}]}
+ ],
+ "final": "\\hl{2}{O \\text{ cannot be inside triangle } PQR}",
+ "graph": null},
+{"part": "maths-pp-2023-higher-p2-q6#(a)", "note": "Changed from the last problem: this is a true or false check of an 'if and only if' statement, settled by one counter-example, not a proof by contradiction. It is the nearest candidate rather than the same method, and only one quantity is marked.",
+ "legend": {"1": "the equal angles, 60°", "2": "the answer"},
+ "steps": [
+  {"ask": "Does the statement hold in both directions? Test the direction from equal angles to vertically opposite angles.", "title": "Decide whether the statement is true or false", "lines": [{"text": "\"If and only if\" means the statement must work in both directions."}, {"text": "Vertically opposite angles are always equal, but equal angles need not be vertically opposite."}, {"text": "So the statement is false."}]},
+  {"ask": "Can you find a pair of equal angles that are not vertically opposite?", "title": "Justify with a counter-example", "lines": [{"text": "In an equilateral triangle all three angles are $\\hl{1}{60^\\circ}$, so they are equal in size."}, {"text": "These angles are next to each other, not vertically opposite."}, {"text": "So equal angles are not always vertically opposite."}]}
+ ],
+ "final": "\\hl{2}{\\text{False}}",
+ "graph": null}
+]},
+{"skill": "num-construct-root2-3", "problems": [
+{"part": "practice-num-construct-root2-3-1", "note": null,
+ "legend": {"1": "sum of the squares of the two sides", "2": "the number under the root", "3": "the answer, the constructed length"},
+ "steps": [
+  {"ask": "Which side is the hypotenuse, and what does Theorem 14 say its square equals?", "title": "Use Pythagoras (Theorem 14)", "lines": [{"tex": "h^2 &= \\hl{1}{1^2 + 1^2}"}, {"tex": "&= \\hl{2}{2}"}]},
+  {"ask": "What positive number has a square equal to 2?", "title": "Take the square root", "lines": [{"tex": "\\hl{3}{h} &= \\hl{3}{\\sqrt{2}}"}]}
+ ],
+ "final": "\\hl{3}{\\sqrt{2}} \\text{ cm}",
+ "graph": null},
+{"part": "practice-num-construct-root2-3-2", "note": "Changed from the last problem: one leg is now the constructed √2 cm instead of 1 cm, and the answer is √3 cm. The same method applies: Pythagoras on the right angle, then the square root.",
+ "legend": {"1": "sum of the squares of the two sides", "2": "the number under the root", "3": "the answer, the constructed length"},
+ "steps": [
+  {"ask": "Which segment is the hypotenuse of triangle OAB, and what are its two legs?", "title": "Use Pythagoras (Theorem 14)", "lines": [{"text": "The angle at $A$ is a right angle, so $[OB]$ is the hypotenuse of triangle $OAB$."}, {"tex": "|OB|^2 &= \\hl{1}{(\\sqrt{2})^2 + 1^2}"}, {"tex": "&= \\hl{2}{3}"}]},
+  {"ask": "What positive number has a square equal to the value you just found?", "title": "Take the square root", "lines": [{"tex": "\\hl{3}{|OB|} &= \\hl{3}{\\sqrt{3}}"}]}
+ ],
+ "final": "\\hl{3}{|OB|} = \\hl{3}{\\sqrt{3}} \\text{ cm}",
+ "graph": null},
+{"part": "practice-num-construct-root2-3-3", "note": "Changed from the last problem: the leg is now √3 cm instead of √2 cm, so the total comes to 4 and the constructed length is the whole number 2 cm. The steps are the same.",
+ "legend": {"1": "sum of the squares of the two sides", "2": "the number under the root", "3": "the answer, the constructed length"},
+ "steps": [
+  {"ask": "Which segment is the hypotenuse of triangle OBC, and what are its two legs?", "title": "Use Pythagoras (Theorem 14)", "lines": [{"text": "The angle at $B$ is a right angle, so $[OC]$ is the hypotenuse of triangle $OBC$."}, {"tex": "|OC|^2 &= \\hl{1}{(\\sqrt{3})^2 + 1^2}"}, {"tex": "&= \\hl{2}{4}"}]},
+  {"ask": "What positive number has a square equal to 4?", "title": "Take the square root", "lines": [{"tex": "\\hl{3}{|OC|} &= \\hl{3}{2} \\text{ cm}"}]}
+ ],
+ "final": "\\hl{3}{2} \\text{ cm}",
+ "graph": null}
+]},
+{"skill": "ind-express-as-power", "problems": [
+{"part": "practice-ind-express-as-power-1", "note": null,
+ "legend": {"1": "the base", "2": "the index, the exponent being found"},
+ "steps": [
+  {"ask": "What power of 2 gives √2? What power of 2 gives 16?", "title": "Write each part as a power of 2", "lines": [{"tex": "\\sqrt{2} &= \\hl{1}{2}^{\\frac{1}{2}}"}, {"tex": "16 &= \\hl{1}{2}^4"}]},
+  {"ask": "When you divide two powers with the same base, what happens to the indices?", "title": "Divide the powers", "lines": [{"text": "Subtract the indices."}, {"tex": "\\frac{\\sqrt{2}}{16} &= \\frac{\\hl{1}{2}^{\\frac{1}{2}}}{\\hl{1}{2}^4}"}, {"tex": "&= \\hl{1}{2}^{\\hl{2}{\\frac{1}{2}-4}}"}, {"tex": "&= \\hl{1}{2}^{\\hl{2}{-\\frac{7}{2}}}"}]}
+ ],
+ "final": "\\hl{1}{2}^{\\hl{2}{-\\frac{7}{2}}}",
+ "graph": null},
+{"part": "practice-ind-express-as-power-3", "note": "Changed from the last problem: the base is 5 instead of 2, and the root sits in the denominator, so the index is a whole power minus a half. The steps are the same.",
+ "legend": {"1": "the base", "2": "the index, the exponent being found"},
+ "steps": [
+  {"ask": "What power of 5 is 25? What power of 5 is √5?", "title": "Write each part as a power of 5", "lines": [{"tex": "25 &= \\hl{1}{5}^2"}, {"tex": "\\sqrt{5} &= \\hl{1}{5}^{\\frac{1}{2}}"}]},
+  {"ask": "When you divide two powers with the same base, what happens to the indices?", "title": "Divide the powers", "lines": [{"text": "Subtract the indices."}, {"tex": "\\frac{25}{\\sqrt{5}} &= \\frac{\\hl{1}{5}^2}{\\hl{1}{5}^{\\frac{1}{2}}}"}, {"tex": "&= \\hl{1}{5}^{\\hl{2}{2-\\frac{1}{2}}}"}, {"tex": "&= \\hl{1}{5}^{\\hl{2}{\\frac{3}{2}}}"}]}
+ ],
+ "final": "\\hl{1}{5}^{\\hl{2}{\\frac{3}{2}}}",
+ "graph": null},
+{"part": "practice-ind-express-as-power-2", "note": "Changed from the last problem: the question asks for x rather than a power, so the last steps solve an equation by equating the indices. Writing both sides as powers of 3 and multiplying the indices is the same method as before.",
+ "legend": {"1": "the base, 3", "2": "the index, the exponent being found"},
+ "steps": [
+  {"ask": "What power of 3 is 9, and what power of 3 is 27?", "title": "Write both sides as powers of 3", "lines": [{"tex": "9^{x+1} &= (\\hl{1}{3}^2)^{x+1}"}, {"tex": "27^{x-1} &= (\\hl{1}{3}^3)^{x-1}"}]},
+  {"ask": "When a power is raised to another power, what happens to the indices?", "title": "Multiply the indices", "lines": [{"text": "Use $(a^m)^n = a^{mn}$."}, {"tex": "(\\hl{1}{3}^2)^{x+1} &= \\hl{1}{3}^{2x+2}"}, {"tex": "(\\hl{1}{3}^3)^{x-1} &= \\hl{1}{3}^{3x-3}"}]},
+  {"ask": "If two powers of 3 are equal, what must be true of their indices?", "title": "Equate the indices", "lines": [{"text": "The bases are equal, so the powers must be equal."}, {"tex": "\\hl{1}{3}^{\\hl{2}{2x+2}} &= \\hl{1}{3}^{\\hl{2}{3x-3}}"}, {"tex": "\\hl{2}{2x + 2} &= \\hl{2}{3x - 3}"}, {"tex": "\\hl{2}{x} &= \\hl{2}{5}"}]}
+ ],
+ "final": "\\hl{2}{x} = \\hl{2}{5}",
+ "graph": null}
+]}
+]

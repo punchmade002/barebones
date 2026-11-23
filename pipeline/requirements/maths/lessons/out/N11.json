@@ -1,0 +1,186 @@
+[
+{"skill": "fn-limits-continuity", "problems": [
+ {"part": "practice-fn-limits-continuity-1", "note": null,
+  "legend": {"1": "the simplified function, after cancelling", "2": "the value x approaches, a", "3": "the limit value"},
+  "steps": [
+   {"ask": "What happens if you substitute x = −2 into the fraction directly? What could you do with the numerator?", "title": "Try substituting",
+    "lines": [{"text": "$x = \\hl{2}{-2}$ gives $\\frac{0}{0}$, so factorise the numerator."}]},
+   {"ask": "What two numbers multiply to give 6 and add to give 5?", "title": "Factorise and cancel",
+    "lines": [{"tex": "\\frac{x^2+5x+6}{x+2} &= \\frac{(x+2)(x+3)}{x+2}"}, {"tex": "&= \\hl{1}{x + 3}"}]},
+   {"ask": "Once the factor x + 2 has cancelled, what does the remaining expression approach as x gets close to −2?", "title": "Let x approach -2",
+    "lines": [{"tex": "\\lim_{x\\to\\hl{2}{-2}}\\hl{1}{(x+3)} &= \\hl{2}{-2} + 3"}, {"tex": "&= \\hl{3}{1}"}]}
+  ],
+  "final": "\\hl{3}{1}",
+  "graph": null},
+ {"part": "practice-fn-limits-continuity-2", "note": "The point changes from −2 to 1, and the numerator now has a leading 2, so it factorises as (2x + 1)(x − 1). The steps are the same as Problem 1.",
+  "legend": {"1": "the simplified function, after cancelling", "2": "the value x approaches, a", "3": "the limit value"},
+  "steps": [
+   {"ask": "What happens if you substitute x = 1 into the fraction directly? What could you do with the numerator?", "title": "Try substituting",
+    "lines": [{"text": "$x = \\hl{2}{1}$ gives $\\frac{0}{0}$, so factorise the numerator."}]},
+   {"ask": "Is x − 1 a factor of the numerator? If so, what is the other bracket?", "title": "Factorise and cancel",
+    "lines": [{"tex": "\\frac{2x^2-x-1}{x-1} &= \\frac{(2x+1)(x-1)}{x-1}"}, {"tex": "&= \\hl{1}{2x + 1}"}]},
+   {"ask": "Once the factor x − 1 has cancelled, what does 2x + 1 approach as x gets close to 1?", "title": "Let x approach 1",
+    "lines": [{"tex": "\\lim_{x\\to\\hl{2}{1}}\\hl{1}{(2x+1)} &= 2(\\hl{2}{1}) + 1"}, {"tex": "&= \\hl{3}{3}"}]}
+  ],
+  "final": "\\hl{3}{3}",
+  "graph": null},
+ {"part": "practice-fn-limits-continuity-3", "note": "The function is now a formula with a gap at x = 3, and k must make the limit match f(3). The steps are the same as Problem 1 (factorise, cancel, find the limit), with one extra step that sets k equal to the limit.",
+  "legend": {"1": "the simplified function, after cancelling", "2": "the value x approaches, a", "3": "the limit value", "4": "k, the value f(3) must take"},
+  "steps": [
+   {"ask": "What must be true about the limit at x = 3 and the value f(3) for f to be continuous there?", "title": "Continuity condition",
+    "lines": [{"text": "$f$ is continuous at $x = \\hl{2}{3}$ when $\\lim_{x\\to\\hl{2}{3}} f(x) = f(\\hl{2}{3}) = \\hl{4}{k}$."}]},
+   {"ask": "Does x − 3 divide the numerator? If so, what is the other bracket?", "title": "Factorise and cancel",
+    "lines": [{"tex": "\\frac{x^2-x-6}{x-3} &= \\frac{(x-3)(x+2)}{x-3}"}, {"tex": "&= \\hl{1}{x + 2}"}]},
+   {"ask": "Once the factor x − 3 has cancelled, what does x + 2 approach as x gets close to 3?", "title": "Find the limit",
+    "lines": [{"tex": "\\lim_{x\\to\\hl{2}{3}}\\hl{1}{(x+2)} &= \\hl{2}{3} + 2"}, {"tex": "&= \\hl{3}{5}"}]},
+   {"ask": "Which value must k take so that f(3) matches the limit?", "title": "Set k equal to the limit",
+    "lines": [{"tex": "\\hl{4}{k} &= \\hl{3}{5}"}]}
+  ],
+  "final": "\\hl{4}{k = 5}",
+  "graph": null}
+]},
+{"skill": "geo-cor1", "problems": [
+ {"part": "practice-geo-cor1-1", "note": null,
+  "legend": {"1": "the matching angle, ∠ABC", "2": "the answer, ∠ADC"},
+  "steps": [
+   {"ask": "Which angle of triangle ABC is missing, and what do the angles of any triangle add to?", "title": "Find $|\\angle ABC|$ in triangle $ABC$",
+    "lines": [{"text": "The angles of a triangle add to $180^\\circ$."}, {"tex": "\\hl{1}{|\\angle ABC|} &= 180 - 35 - 70"}, {"tex": "&= \\hl{1}{75^\\circ}"}]},
+   {"ask": "The diagonal AC makes two triangles. What can you say about the angle at D compared with the angle at B?", "title": "Use Corollary 1",
+    "lines": [{"text": "The diagonal $[AC]$ divides the parallelogram into two congruent triangles, $ABC$ and $CDA$, with $B$ matching $D$."}, {"text": "So the angles at $B$ and $D$ are equal."}, {"tex": "\\hl{2}{|\\angle ADC|} &= \\hl{1}{|\\angle ABC|} = \\hl{2}{75^\\circ}"}]}
+  ],
+  "final": "\\hl{2}{75^\\circ}",
+  "graph": null},
+ {"part": "practice-geo-cor1-3", "note": "Here the angles are written in x, so Corollary 1 gives an equation to solve instead of an angle to copy. The method is the same as Problem 1, with a solve and a check added.",
+  "legend": {"1": "the matching angle", "2": "the answer, x"},
+  "steps": [
+   {"ask": "With C matching A, which angle in the other triangle must ∠BCA be equal to?", "title": "Use Corollary 1",
+    "lines": [{"text": "The diagonal $[AC]$ divides the parallelogram into congruent triangles $ABC$ and $CDA$, with $C$ matching $A$."}, {"text": "So $\\hl{1}{|\\angle BCA|} = \\hl{1}{|\\angle DAC|}$."}, {"tex": "\\hl{1}{2x + 10} &= \\hl{1}{3x - 20}"}]},
+   {"ask": "How do you solve an equation with x on both sides?", "title": "Solve for $x$",
+    "lines": [{"tex": "30 &= \\hl{2}{x}"}, {"tex": "\\hl{2}{x} &= 30"}]},
+   {"ask": "Does your value of x give the same angle in both expressions?", "title": "Check",
+    "lines": [{"text": "Each angle is $\\hl{1}{70^\\circ}$."}, {"tex": "2(30) + 10 &= \\hl{1}{70}"}, {"tex": "3(30) - 20 &= \\hl{1}{70}"}]}
+  ],
+  "final": "\\hl{2}{x = 30}",
+  "graph": null},
+ {"part": "practice-geo-cor1-2", "note": "The matching quantity is now an area, so Heron's formula finds the triangle's area first and Corollary 1 doubles it. Only the last Corollary 1 step matches Problem 1; the earlier steps are a different method, and this is the closest candidate available for this skill.",
+  "legend": {"1": "the matching quantity, area of triangle PQR", "2": "the answer, area of PQRS"},
+  "steps": [
+   {"ask": "What is the semi-perimeter of triangle PQR, and what formula uses it?", "title": "Find the semi-perimeter of triangle $PQR$",
+    "lines": [{"tex": "s &= \\frac{8 + 6 + 10}{2}"}, {"tex": "&= 12"}]},
+   {"ask": "Which formula finds the area of a triangle from its three sides?", "title": "Find the area of triangle $PQR$",
+    "lines": [{"text": "Use Heron's formula."}, {"tex": "\\hl{1}{|\\triangle PQR|} &= \\sqrt{12(12-8)(12-6)(12-10)}"}, {"tex": "&= \\sqrt{576}"}, {"tex": "&= \\hl{1}{24 \\text{ cm}^2}"}]},
+   {"ask": "The diagonal makes two congruent triangles. How does the parallelogram's area compare with the triangle's area?", "title": "Use Corollary 1",
+    "lines": [{"text": "The diagonal $[PR]$ divides the parallelogram into two congruent triangles, so the parallelogram has twice the area of triangle $PQR$."}, {"tex": "\\hl{2}{|PQRS|} &= 2 \\times \\hl{1}{24}"}, {"tex": "&= \\hl{2}{48 \\text{ cm}^2}"}]}
+  ],
+  "final": "\\hl{2}{48 \\text{ cm}^2}",
+  "graph": null}
+]},
+{"skill": "geo-cor2", "problems": [
+ {"part": "practice-geo-cor2-1", "note": null,
+  "legend": {"1": "the answer, ∠ABD", "2": "the matching angle on the same arc, ∠ACD", "3": "x, the unknown"},
+  "steps": [
+   {"ask": "What do you know about two angles that stand on the same arc?", "title": "Use angles standing on the same arc",
+    "lines": [{"text": "$\\angle ABD$ and $\\angle ACD$ both stand on the arc $AD$, so they are equal."}, {"tex": "\\hl{1}{3x + 6} &= \\hl{2}{5x - 18}"}]},
+   {"ask": "How do you collect the x terms on one side of this equation?", "title": "Solve for $x$",
+    "lines": [{"tex": "24 &= \\hl{3}{2x}"}, {"tex": "\\hl{3}{x} &= 12"}]},
+   {"ask": "Now that you know x, what do you substitute into the expression for ∠ABD?", "title": "Find the angle",
+    "lines": [{"tex": "\\hl{1}{|\\angle ABD|} &= 3(\\hl{3}{12}) + 6"}, {"tex": "&= \\hl{1}{42^\\circ}"}]}
+  ],
+  "final": "\\hl{1}{|\\angle ABD| = 42^\\circ}",
+  "graph": null},
+ {"part": "practice-geo-cor2-2", "note": "Problem 1 needed x, but here the arc step gives an angle directly from 38°, and an exterior angle of triangle BEC gives the answer. The arc reasoning is the same; the second step is new.",
+  "legend": {"1": "the answer, ∠AEB", "2": "the matching angle on the same arc, ∠ACB"},
+  "steps": [
+   {"ask": "Which angle at C stands on the same arc AB as ∠ADB?", "title": "Use angles standing on the same arc",
+    "lines": [{"text": "$\\angle ADB$ and $\\angle ACB$ both stand on the arc $AB$, so they are equal."}, {"tex": "\\hl{2}{|\\angle ACB|} &= \\hl{2}{38^\\circ}"}]},
+   {"ask": "Since A, E and C are in a straight line, how is ∠AEB related to the two angles inside triangle BEC?", "title": "Look at triangle $BEC$",
+    "lines": [{"text": "$\\angle AEB$ is an exterior angle of triangle $BEC$, so it equals the sum of the two opposite interior angles."}, {"tex": "\\hl{1}{|\\angle AEB|} &= |\\angle ECB| + |\\angle EBC|"}]},
+   {"ask": "What do you get when you add the two known angles in triangle BEC?", "title": "Add",
+    "lines": [{"tex": "\\hl{1}{|\\angle AEB|} &= \\hl{2}{38} + 27"}, {"tex": "&= \\hl{1}{65^\\circ}"}]}
+  ],
+  "final": "\\hl{1}{|\\angle AEB| = 65^\\circ}",
+  "graph": null},
+ {"part": "practice-geo-cor2-3", "note": "A diameter gives a right angle first (angle in a semicircle), then a triangle sum finds the angle at B before the arc step. The arc step is the same as in Problems 1 and 2.",
+  "legend": {"1": "the answer, ∠ADC", "2": "the matching angle on the same arc, ∠ABC"},
+  "steps": [
+   {"ask": "What do you know about an angle at the circle that stands on a diameter?", "title": "Angle in a semicircle",
+    "lines": [{"text": "$[AB]$ is a diameter, so the angle at $C$ is a right angle."}, {"tex": "|\\angle ACB| &= 90^\\circ"}]},
+   {"ask": "What do the angles of triangle ABC add to, and which one is still missing?", "title": "Angles in triangle $ABC$ add to $180^\\circ$",
+    "lines": [{"tex": "\\hl{2}{|\\angle ABC|} &= 180 - 90 - 24"}, {"tex": "&= \\hl{2}{66^\\circ}"}]},
+   {"ask": "Which angle at D stands on the same arc AC as ∠ABC?", "title": "Use angles standing on the same arc",
+    "lines": [{"text": "$\\angle ABC$ and $\\angle ADC$ both stand on the arc $AC$, so they are equal."}, {"tex": "\\hl{1}{|\\angle ADC|} &= \\hl{2}{66^\\circ}"}]}
+  ],
+  "final": "\\hl{1}{|\\angle ADC| = 66^\\circ}",
+  "graph": null}
+]},
+{"skill": "geo-cor4", "problems": [
+ {"part": "practice-geo-cor4-2", "note": null,
+  "legend": {"1": "the answer, ∠PQR", "2": "the Corollary 4 piece, the right angle (90°)", "3": "the given angle, ∠RPQ (38°)"},
+  "steps": [
+   {"ask": "What can you say about the angle at R, which stands on the diameter PQ?", "title": "Use Corollary 4",
+    "lines": [{"text": "$[PQ]$ is a diameter, so the angle at the circle, $\\angle PRQ$, is $\\hl{2}{90°}$."}]},
+   {"ask": "What do the angles of triangle PQR add to? Which two are known?", "title": "Angles in triangle $PQR$",
+    "lines": [{"tex": "\\hl{1}{\\angle PQR} &= 180° - \\hl{2}{90°} - \\hl{3}{38°}"}, {"tex": "&= \\hl{1}{52°}"}]}
+  ],
+  "final": "\\hl{1}{52°}",
+  "graph": null},
+ {"part": "practice-geo-cor4-3", "note": "The answer is now an angle inside an isosceles triangle, so the equal radii are used as well as the right angle. The Corollary 4 step is the same as in Problem 1.",
+  "legend": {"1": "the answer, ∠OBC", "2": "the Corollary 4 piece, the right angle ∠ABC (90°)", "3": "the given angle, ∠BAC (28°)"},
+  "steps": [
+   {"ask": "What does a right angle at the circle tell you about the chord AC?", "title": "Use Corollary 4",
+    "lines": [{"text": "A right angle at the circle stands on a diameter, so $[AC]$ is a diameter and $O$ lies on $[AC]$."}]},
+   {"ask": "Which two sides of triangle OAB are equal, and what does that do to the base angles?", "title": "Triangle $OAB$ is isosceles",
+    "lines": [{"text": "$|OA| = |OB|$ (radii), so $\\angle ABO = \\angle BAO = \\hl{3}{28°}$."}]},
+   {"ask": "How is ∠OBC related to the angles ∠ABC and ∠ABO at B?", "title": "Find $\\angle OBC$",
+    "lines": [{"tex": "\\hl{1}{\\angle OBC} &= \\hl{2}{\\angle ABC} - \\hl{3}{\\angle ABO}"}, {"tex": "&= \\hl{2}{90°} - \\hl{3}{28°}"}, {"tex": "&= \\hl{1}{62°}"}]}
+  ],
+  "final": "\\hl{1}{62°}",
+  "graph": null},
+ {"part": "practice-geo-cor4-1", "note": "Here the answer is a length: Pythagoras finds the diameter, and the radius is half of it. The Corollary 4 step is the same as in Problem 2; the rest is new.",
+  "legend": {"1": "the answer, the radius", "2": "the Corollary 4 piece, the diameter |AC|", "3": "the given sides, 5 and 12"},
+  "steps": [
+   {"ask": "Which chord does the right angle at B stand on, and what does that make it?", "title": "Use Corollary 4",
+    "lines": [{"text": "A right angle at the circle stands on a diameter, so $[AC]$ is a diameter."}]},
+   {"ask": "What theorem links the three sides of a right-angled triangle?", "title": "Find $|AC|$ by Pythagoras",
+    "lines": [{"tex": "\\hl{2}{|AC|^2} &= \\hl{3}{5^2 + 12^2}"}, {"tex": "&= 169"}, {"tex": "\\hl{2}{|AC|} &= \\hl{2}{13}"}]},
+   {"ask": "What is the radius, given the diameter you have just found?", "title": "Find the radius",
+    "lines": [{"tex": "\\hl{1}{r} &= \\hl{1}{\\tfrac{13}{2}}"}, {"tex": "&= \\hl{1}{6.5 \\text{ cm}}"}]}
+  ],
+  "final": "\\hl{1}{6.5 \\text{ cm}}",
+  "graph": null}
+]},
+{"skill": "geo-cor5", "problems": [
+ {"part": "practice-geo-cor5-1", "note": null,
+  "legend": {"1": "the answer, ∠ADC", "2": "the opposite angle, ∠ABC (105°, given)"},
+  "steps": [
+   {"ask": "ABCD is on a circle. What can you say about ∠ABC and the angle opposite it, ∠ADC?", "title": "Use Corollary 5",
+    "lines": [{"text": "$ABCD$ is a cyclic quadrilateral, so opposite angles sum to $180^\\circ$ (Corollary 5)."}, {"tex": "\\hl{2}{\\angle ABC} + \\hl{1}{\\angle ADC} &= 180^\\circ"}]},
+   {"ask": "How do you find ∠ADC once you know ∠ABC?", "title": "Solve",
+    "lines": [{"tex": "\\hl{1}{\\angle ADC} &= 180^\\circ - \\hl{2}{105^\\circ}"}, {"tex": "&= \\hl{1}{75^\\circ}"}]}
+  ],
+  "final": "\\hl{1}{\\angle ADC} = \\hl{1}{75^\\circ}",
+  "graph": null},
+ {"part": "practice-geo-cor5-3", "note": "The opposite angle ∠ADC is not given, so you first find it from triangle ACD, then use the same cyclic rule. Otherwise the steps match Problem 1.",
+  "legend": {"1": "the answer, ∠ABC", "2": "the opposite angle, ∠ADC"},
+  "steps": [
+   {"ask": "Two angles of triangle ACD are given. What is the third one?", "title": "Find $\\angle ADC$ in triangle $ACD$",
+    "lines": [{"text": "The angles of a triangle sum to $180^\\circ$."}, {"tex": "\\hl{2}{\\angle ADC} &= 180^\\circ - 35^\\circ - 60^\\circ"}, {"tex": "&= \\hl{2}{85^\\circ}"}]},
+   {"ask": "ABCD sits on a circle. How does ∠ABC relate to the angle opposite it, ∠ADC?", "title": "Use Corollary 5",
+    "lines": [{"text": "$ABCD$ is a cyclic quadrilateral, so opposite angles sum to $180^\\circ$ (Corollary 5)."}, {"tex": "\\hl{1}{\\angle ABC} &= 180^\\circ - \\hl{2}{85^\\circ}"}, {"tex": "&= \\hl{1}{95^\\circ}"}]}
+  ],
+  "final": "\\hl{1}{\\angle ABC} = \\hl{1}{95^\\circ}",
+  "graph": null},
+ {"part": "practice-geo-cor5-2", "note": "Both opposite angles are written in x, so you set their sum to 180° and solve for x before finding ∠BCD. Compared with Problem 2 there is no triangle step, and the cyclic rule is the same as in Problem 1.",
+  "legend": {"1": "the answer, ∠BCD", "2": "the opposite angle, ∠DAB", "3": "x, the unknown"},
+  "steps": [
+   {"ask": "Which pair of opposite angles in ABCD can you write as an equation?", "title": "Use Corollary 5",
+    "lines": [{"text": "Opposite angles of a cyclic quadrilateral sum to $180^\\circ$ (Corollary 5)."}, {"tex": "\\hl{2}{(3x + 10)} + \\hl{1}{(5x - 30)} &= 180"}]},
+   {"ask": "How do you isolate x in 8x − 20 = 180?", "title": "Solve for $x$",
+    "lines": [{"tex": "8x - 20 &= 180"}, {"tex": "8x &= 200"}, {"tex": "\\hl{3}{x} &= 25"}]},
+   {"ask": "Substitute x into 5x − 30. What is ∠BCD?", "title": "Find $\\angle BCD$",
+    "lines": [{"tex": "\\hl{1}{\\angle BCD} &= 5(\\hl{3}{25}) - 30"}, {"tex": "&= \\hl{1}{95^\\circ}"}]}
+  ],
+  "final": "\\hl{1}{\\angle BCD} = \\hl{1}{95^\\circ}",
+  "graph": null}
+]}
+]
