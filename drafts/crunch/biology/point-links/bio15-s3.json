@@ -1,0 +1,272 @@
+{
+ "bio15-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s3.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.1.0",
+    "strength": "helpful",
+    "why": "ATP and phosphate groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s3.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s2.1.1",
+    "strength": "essential",
+    "why": "dehydrogenases load NAD+ with hydrogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "essential",
+    "why": "phosphate added to ADP makes ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s3.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s3.0.4",
+    "strength": "helpful",
+    "why": "net ATP yield of glycolysis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.0.0",
+    "strength": "helpful",
+    "why": "glycolysis pathway itself",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s2.0.b",
+    "strength": "helpful",
+    "why": "NAD+ as hydrogen carrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.0.4",
+    "strength": "helpful",
+    "why": "ATP used and made in glycolysis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s3.0.3",
+    "strength": "essential",
+    "why": "NAD+ accepts hydrogen forming NADH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s2.2.1",
+    "strength": "essential",
+    "why": "NADH to electron transport chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s2.2.3",
+    "strength": "essential",
+    "why": "fermentation passes hydrogen to pyruvate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.2.1",
+    "strength": "helpful",
+    "why": "NAD+ must be regenerated",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s3.2.1",
+    "strength": "essential",
+    "why": "NAD+ regeneration needed for glycolysis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.2.0",
+    "strength": "helpful",
+    "why": "net 2 ATP from glycolysis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s3.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s3.0.5",
+    "strength": "essential",
+    "why": "pyruvate as glycolysis product",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.3.2",
+    "strength": "essential",
+    "why": "lactic acid fermentation overall",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s3.0.5",
+    "strength": "essential",
+    "why": "pyruvate loses carbon as CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s3.3.4",
+    "strength": "essential",
+    "why": "alcoholic fermentation steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.3.4",
+    "strength": "helpful",
+    "why": "carbon lost as CO2 in ethanol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.3.2",
+    "strength": "helpful",
+    "why": "lactic acid fermentation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s3.3.0",
+    "strength": "helpful",
+    "why": "fermentation when oxygen absent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.2.0",
+    "strength": "helpful",
+    "why": "anaerobic releases less energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s3.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s3.3.0",
+    "strength": "helpful",
+    "why": "fermentation branch of pathway",
+    "confidence": "high"
+   }
+  ]
+ }
+}

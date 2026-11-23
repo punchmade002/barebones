@@ -1,0 +1,571 @@
+{
+ "bio16-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.5.0",
+    "strength": "helpful",
+    "why": "chromosome as DNA with genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.0",
+    "strength": "essential",
+    "why": "chromosome structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.0.0",
+    "strength": "essential",
+    "why": "chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.2",
+    "strength": "essential",
+    "why": "homologous pairs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.3",
+    "strength": "helpful",
+    "why": "sets of chromosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.4",
+    "strength": "essential",
+    "why": "haploid gametes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.4",
+    "strength": "helpful",
+    "why": "haploid cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.3",
+    "strength": "helpful",
+    "why": "2n chromosome number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.0",
+    "strength": "helpful",
+    "why": "cell cycle growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.0",
+    "strength": "helpful",
+    "why": "chromosome being copied",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.2",
+    "strength": "essential",
+    "why": "copied chromosomes shared out",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.2",
+    "strength": "helpful",
+    "why": "DNA synthesis in interphase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.4",
+    "strength": "essential",
+    "why": "interphase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.3",
+    "strength": "helpful",
+    "why": "same chromosome number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.0",
+    "strength": "helpful",
+    "why": "leaving the cell cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.0",
+    "strength": "helpful",
+    "why": "repeated cell cycles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.1.2",
+    "strength": "helpful",
+    "why": "DNA copying checked",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.1.4",
+    "strength": "essential",
+    "why": "interphase and division",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.4.0",
+    "strength": "helpful",
+    "why": "mitosis stages",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.1",
+    "strength": "helpful",
+    "why": "growth activity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.1.2",
+    "strength": "essential",
+    "why": "DNA replication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "helpful",
+    "why": "ATP as energy carrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.3.0",
+    "strength": "helpful",
+    "why": "G1 phase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.0.1",
+    "strength": "essential",
+    "why": "chromatin uncoiled",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.4.0",
+    "strength": "helpful",
+    "why": "nuclear envelope",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.6.0",
+    "strength": "helpful",
+    "why": "cytokinesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.0.1",
+    "strength": "essential",
+    "why": "condensing chromosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.3.1",
+    "strength": "essential",
+    "why": "sister chromatids",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.4.3",
+    "strength": "helpful",
+    "why": "nucleolus",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.4.1",
+    "strength": "helpful",
+    "why": "spindle forming",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.4.1",
+    "strength": "essential",
+    "why": "spindle fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.3.1",
+    "strength": "essential",
+    "why": "sister chromatids",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.4.3",
+    "strength": "helpful",
+    "why": "metaphase alignment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.4.4",
+    "strength": "essential",
+    "why": "chromatids separating",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "helpful",
+    "why": "ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.4.1",
+    "strength": "essential",
+    "why": "reverses prophase changes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.0.1",
+    "strength": "helpful",
+    "why": "chromatin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.4.0",
+    "strength": "essential",
+    "why": "four stages of mitosis",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.0.2",
+    "strength": "helpful",
+    "why": "homologous pair",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.1.4",
+    "strength": "essential",
+    "why": "interphase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.4.1",
+    "strength": "essential",
+    "why": "prophase chromosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.4.3",
+    "strength": "essential",
+    "why": "metaphase line-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.4.4",
+    "strength": "essential",
+    "why": "anaphase",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.4.6",
+    "strength": "essential",
+    "why": "telophase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio16-s1.4.0",
+    "strength": "helpful",
+    "why": "dividing cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.5.3",
+    "strength": "essential",
+    "why": "mitotic index",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio16-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.4.0",
+    "strength": "helpful",
+    "why": "nuclear division first",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.0.3",
+    "strength": "essential",
+    "why": "cell membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s3.0.0",
+    "strength": "essential",
+    "why": "rigid cell wall",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.8.0",
+    "strength": "helpful",
+    "why": "Golgi vesicles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio16-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.6.2",
+    "strength": "essential",
+    "why": "cell plate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.0.3",
+    "strength": "helpful",
+    "why": "cell membrane",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio16-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio16-s1.6.1",
+    "strength": "helpful",
+    "why": "cleavage furrow",
+    "confidence": "high"
+   },
+   {
+    "id": "bio16-s1.6.2",
+    "strength": "helpful",
+    "why": "cell plate",
+    "confidence": "high"
+   }
+  ]
+ }
+}

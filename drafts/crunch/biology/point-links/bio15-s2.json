@@ -1,0 +1,648 @@
+{
+ "bio15-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.2.0",
+    "strength": "helpful",
+    "why": "anaerobic respiration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.0",
+    "strength": "essential",
+    "why": "yeast fermentation products",
+    "confidence": "high"
+   },
+   {
+    "id": "bio15-s2.5.5",
+    "strength": "helpful",
+    "why": "iodoform test result",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.0.7",
+    "strength": "helpful",
+    "why": "respiratory substrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.0.0",
+    "strength": "helpful",
+    "why": "enzyme-catalysed respiration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s1.1.0",
+    "strength": "essential",
+    "why": "aerobic respiration products",
+    "confidence": "high"
+   },
+   {
+    "id": "bio15-s1.2.2",
+    "strength": "helpful",
+    "why": "yeast ethanol equation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.0.3",
+    "strength": "essential",
+    "why": "enzymes carry out fermentation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s2.8.3",
+    "strength": "helpful",
+    "why": "denaturation of enzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.2.6",
+    "strength": "helpful",
+    "why": "facultative anaerobe",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.0",
+    "strength": "helpful",
+    "why": "yeast fermentation products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test design",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.3.2",
+    "strength": "helpful",
+    "why": "oil layer excludes air",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.5.b",
+    "strength": "helpful",
+    "why": "iodoform ethanol test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.6.2",
+    "strength": "helpful",
+    "why": "measuring gas volume",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.4",
+    "strength": "helpful",
+    "why": "removing oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.4",
+    "strength": "helpful",
+    "why": "anaerobic condition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.2.0",
+    "strength": "helpful",
+    "why": "limewater and fermentation lock",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s2.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.0.1",
+    "strength": "helpful",
+    "why": "CO2 as evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.2.3",
+    "strength": "helpful",
+    "why": "gas collection apparatus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.5.b",
+    "strength": "helpful",
+    "why": "ethanol test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.2",
+    "strength": "essential",
+    "why": "sugar needed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.1.6",
+    "strength": "helpful",
+    "why": "boiled yeast control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.4",
+    "strength": "essential",
+    "why": "oxygen prevents fermentation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.0.4",
+    "strength": "essential",
+    "why": "aerobic vs anaerobic products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.0.5",
+    "strength": "essential",
+    "why": "enzymes and temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.5",
+    "strength": "essential",
+    "why": "denaturation at high temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.3",
+    "strength": "helpful",
+    "why": "negative control",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.2.4",
+    "strength": "helpful",
+    "why": "positive control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s1.2.3",
+    "strength": "helpful",
+    "why": "lactic acid fermentation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s2.9.b",
+    "strength": "helpful",
+    "why": "pH meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.1",
+    "strength": "helpful",
+    "why": "limewater detects CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.3",
+    "strength": "helpful",
+    "why": "corrosive reagent precautions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.5",
+    "strength": "helpful",
+    "why": "microorganism safety",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.4.3",
+    "strength": "helpful",
+    "why": "aerated flask result",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.4.5",
+    "strength": "helpful",
+    "why": "temperature series result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.0.0",
+    "strength": "helpful",
+    "why": "fermentation products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.3.3",
+    "strength": "helpful",
+    "why": "set-up with lock",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.5.0",
+    "strength": "helpful",
+    "why": "reliability and repeats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.0.4",
+    "strength": "helpful",
+    "why": "anaerobic conditions for ethanol",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.3.2",
+    "strength": "helpful",
+    "why": "oil layer excludes oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.0.4",
+    "strength": "helpful",
+    "why": "facultative aerobic/anaerobic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio15-s2.3.6",
+    "strength": "helpful",
+    "why": "gas collection method",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio15-s2.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio15-s2.0.1",
+    "strength": "helpful",
+    "why": "limewater test for CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio15-s2.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio15-s2.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "repeats and means",
+    "confidence": "high"
+   }
+  ]
+ }
+}
