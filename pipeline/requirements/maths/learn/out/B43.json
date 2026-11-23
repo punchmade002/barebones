@@ -131,38 +131,38 @@
    ],
    "ordinary": [
     {
-     "tip": "Mark the points on the graph. Points marked on the graph earn partial credit even if your readings are off.",
+     "tip": "Show your work on the graph. Relevant work on the graph earns partial credit even when the value you read is off.",
      "sources": [
       {
-       "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
-       "quote": "Point(s) marked on graph"
+       "part": "maths-pp-2025-ordinary-p1-q7#(a)(i), (ii)",
+       "quote": "relevant work on the graph"
       }
      ]
     },
     {
-     "tip": "Count the values the question needs before you stop. In 2022 four were required: two in part (i) and the two end points in part (ii).",
+     "tip": "Do not give just the answers. Correct answers with no work on the graph lose marks.",
      "sources": [
       {
-       "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
-       "quote": "NOTE: 4 values are required, the 2 values in"
+       "part": "maths-pp-2024-ordinary-p1-q6#(a)(i), (ii)",
+       "quote": "Both answers correct but no work"
       }
      ]
     },
     {
-     "tip": "For a range of $x$, use strict inequalities when the curves only touch at the ends. Including the end points loses a mark.",
+     "tip": "When one answer builds on the last, keep them consistent. A bare answer in a later part must match your earlier reading.",
      "sources": [
       {
-       "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
-       "quote": "4 values correct, but includes endpoints"
+       "part": "maths-pp-2025-ordinary-p1-q5#(c)(i), (ii)",
+       "quote": "must be consistent with answer from (i)"
       }
      ]
     },
     {
-     "tip": "Make the point of intersection clearly visible on the diagram. That alone earns partial credit.",
+     "tip": "When asked how many roots, give the reason from the graph: how many times it cuts the $x$-axis.",
      "sources": [
       {
-       "part": "maths-pp-2016-ordinary-p1-q9#(b)",
-       "quote": "Point clearly indicated on graph"
+       "part": "maths-pp-2023-ordinary-p1-q4#(a)(i), (ii), (iii)",
+       "quote": "Only cuts x-axis once."
       }
      ]
     }

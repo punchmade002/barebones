@@ -1,0 +1,381 @@
+[
+ {
+  "skill": "con-7",
+  "what": {
+   "say": [
+    "You give it a segment $[AB]$ and a number $n$. It cuts the segment into $n$ **equal parts** without measuring.",
+    "The key idea: parallel lines cut equal pieces off any two lines they cross. Step off equal pieces on a spare ray, then carry them across to $[AB]$ with parallels."
+   ],
+   "in": "segment $[AB]$, number $n$",
+   "out": "$n$ equal parts"
+  },
+  "how": {},
+  "example": {
+   "question": "Divide the segment $[AB]$ into three equal parts, using only a compass and straight edge.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw a spare ray",
+      "say": "From $A$, draw a ray at any angle to $[AB]$. Make it long enough to hold three equal steps.",
+      "lines": [
+       {
+        "text": "Any angle works. It only has to be a different direction from $[AB]$."
+       }
+      ]
+     },
+     {
+      "title": "Step off three equal arcs",
+      "say": "Set the compass to any small width. Put the point on $A$ and mark $C_1$ on the ray. Keep the width. Move to $C_1$ and mark $C_2$. Move to $C_2$ and mark $C_3$.",
+      "lines": [
+       {
+        "text": "Do not change the compass width between marks, so $|AC_1| = |C_1C_2| = |C_2C_3|$."
+       }
+      ]
+     },
+     {
+      "title": "Join the last mark to B",
+      "say": "With the ruler, join $C_3$ to $B$.",
+      "lines": [
+       {
+        "text": "This line is the one the others will be parallel to."
+       }
+      ]
+     },
+     {
+      "title": "Draw the parallels",
+      "say": "Copy the angle at $C_3$ up to $C_2$ and $C_1$ with the compass. Draw a line through $C_2$ parallel to $C_3B$, meeting $[AB]$ at $D_2$. Draw another through $C_1$, meeting $[AB]$ at $D_1$.",
+      "lines": [
+       {
+        "text": "Leave all arcs and lines on the page. They are the construction lines."
+       }
+      ]
+     },
+     {
+      "title": "State the result",
+      "say": "The parallels cut equal pieces on both lines, so the three pieces on $[AB]$ are equal.",
+      "lines": [
+       {
+        "text": "$|AD_1| = |D_1D_2| = |D_2B|$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|AD_1| = |D_1D_2| = |D_2B|"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M40 180 L260 180\"/><path d=\"M40 180 L160 40\"/><path d=\"M80 133 L114 180\" stroke-dasharray=\"3 3\"/><path d=\"M120 87 L186 180\" stroke-dasharray=\"3 3\"/><path d=\"M160 40 L260 180\"/><text x=\"26\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"258\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"154\" y=\"34\" fill=\"#1A1916\" stroke=\"none\">C₃</text><text x=\"60\" y=\"128\" fill=\"#1A1916\" stroke=\"none\">C₁</text><text x=\"100\" y=\"82\" fill=\"#1A1916\" stroke=\"none\">C₂</text><text x=\"108\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">D₁</text><text x=\"182\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">D₂</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-22",
+  "what": {
+   "say": [
+    "You give it a triangle. It finds the **orthocentre**, the point where the three altitudes meet.",
+    "The key idea: an altitude is a line from a vertex perpendicular to the opposite side. Draw two of them and where they cross is the orthocentre."
+   ],
+   "in": "triangle $ABC$",
+   "out": "orthocentre $H$"
+  },
+  "how": {
+   "higher": "It appeared on Paper 2 in 2019 as part (a) of a 25-mark question, a construction of its own worth a scale of 15 marks."
+  },
+  "example": {
+   "question": "Construct the orthocentre of the triangle $ABC$.",
+   "level": "higher",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Altitude from C",
+      "say": "Put the compass point on $C$. Draw an arc that cuts $[AB]$ at two points. From each of those points, draw an arc below $[AB]$ with the same width. Join $C$ to where the arcs cross.",
+      "lines": [
+       {
+        "text": "This is Construction 3: a perpendicular to a line through a point not on it."
+       }
+      ]
+     },
+     {
+      "title": "Altitude from A",
+      "say": "Repeat from $A$ on the side $[BC]$. Extend $[BC]$ if the arcs cannot reach it. Join $A$ to where the arcs cross.",
+      "lines": [
+       {
+        "text": "Each altitude meets its side at $90^\\circ$."
+       }
+      ]
+     },
+     {
+      "title": "Mark the crossing",
+      "say": "The two altitudes cross at one point. Label it $H$.",
+      "lines": [
+       {
+        "text": "Two correct altitudes that do not cross earn only part of the marks. Extend them until they meet."
+       }
+      ]
+     },
+     {
+      "title": "Check with the third",
+      "say": "Draw the altitude from $B$ to $[AC]$ in the same way. It should pass through $H$.",
+      "lines": [
+       {
+        "text": "If it misses $H$, one of the arcs was drawn with a changed compass width."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "H \\text{ is the orthocentre}"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><path d=\"M50 180 L240 180 L130 40 Z\"/><path d=\"M130 40 L130 180\" stroke-dasharray=\"3 3\"/><path d=\"M50 180 L167 88\" stroke-dasharray=\"3 3\"/><path d=\"M240 180 L97 98\" stroke-dasharray=\"3 3\"/><text x=\"36\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"238\" y=\"198\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"126\" y=\"32\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"136\" y=\"112\" fill=\"#1A1916\" stroke=\"none\">H</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Draw each altitude fully. One correct altitude earns more than a vague sketch, and two correct altitudes earn more again.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q5#(a)",
+       "quote": "One correct altitude"
+      }
+     ]
+    },
+    {
+     "tip": "Two altitudes are not enough on their own. They must meet, so extend them until they cross.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q5#(a)",
+       "quote": "Two correct altitudes but not intersecting."
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "num-construct-root2-3",
+  "what": {
+   "say": [
+    "You give it a unit length. It builds segments of length $\\sqrt{2}$ and $\\sqrt{3}$ with a compass and straight edge.",
+    "The key idea: Pythagoras. A right angle with sides $1$ and $1$ has hypotenuse $\\sqrt{2}$. Put $1$ against that, and the hypotenuse is $\\sqrt{3}$."
+   ],
+   "in": "unit length $1$",
+   "out": "$\\sqrt{2}$ and $\\sqrt{3}$"
+  },
+  "how": {},
+  "example": {
+   "question": "Starting with a segment of length 1 unit, construct a segment of length $\\sqrt{3}$ units. Show by calculation that its length is $\\sqrt{3}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Build the right angle",
+      "say": "Draw a line and mark $A$ and $B$ with $|AB| = 1$. Construct a perpendicular to $[AB]$ at $B$ (Construction 4). Mark $C$ on it with $|BC| = 1$.",
+      "lines": [
+       {
+        "text": "Use the compass to copy the unit length each time."
+       }
+      ]
+     },
+     {
+      "title": "Find the first hypotenuse",
+      "say": "Join $A$ to $C$. By Pythagoras, the square of $|AC|$ is the sum of the squares of the other two sides.",
+      "lines": [
+       {
+        "tex": "|AC|^2 &= 1^2 + 1^2",
+        "sym": "1**2+1**2",
+        "new": true
+       },
+       {
+        "tex": "&= 2",
+        "sym": "2"
+       },
+       {
+        "tex": "|AC| &= \\hl{1}{\\sqrt{2}}",
+        "sym": "sqrt(2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Build the second right angle",
+      "say": "Construct a perpendicular to $[AC]$ at $C$. Mark $D$ on it with $|CD| = 1$. Join $A$ to $D$.",
+      "lines": [
+       {
+        "text": "The two sides of the new triangle are $|AC| = \\sqrt{2}$ and $|CD| = 1$."
+       }
+      ]
+     },
+     {
+      "title": "Find the second hypotenuse",
+      "say": "Apply Pythagoras to the new triangle.",
+      "lines": [
+       {
+        "tex": "|AD|^2 &= (\\hl{1}{\\sqrt{2}})^2 + 1^2",
+        "sym": "sqrt(2)**2+1**2",
+        "new": true
+       },
+       {
+        "tex": "&= 2 + 1",
+        "sym": "2+1"
+       },
+       {
+        "tex": "&= 3",
+        "sym": "3"
+       },
+       {
+        "tex": "|AD| &= \\hl{2}{\\sqrt{3}}",
+        "sym": "sqrt(3)",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|AD| = \\sqrt{3}"
+   },
+   "finalSym": "sqrt(3)",
+   "answerSym": "sqrt(1**2+(sqrt(1**2+1**2))**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "logic-terms-hl",
+  "what": {
+   "say": [
+    "You give it a statement. It tells you whether $P \\Leftrightarrow Q$ (\"$P$ if and only if $Q$\") is **true**, by checking both directions, or whether a **contradiction** shows it cannot hold.",
+    "The key idea: $P \\Leftrightarrow Q$ means $P \\Rightarrow Q$ and $Q \\Rightarrow P$. If either direction fails, the statement is false."
+   ],
+   "in": "statement $P \\Leftrightarrow Q$",
+   "out": "true or false, with proof"
+  },
+  "how": {
+   "higher": "It appeared on Paper 2 in 2022 and 2023, as 5-mark parts: deciding whether an \"if and only if\" statement is true, and finishing a proof by contradiction."
+  },
+  "example": {
+   "question": "Prove that $2x + 3 = 11$ if and only if $x = 4$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Split into two directions",
+      "say": "\"If and only if\" has two parts. Prove each one on its own.",
+      "lines": [
+       {
+        "text": "First: $2x + 3 = 11 \\Rightarrow x = 4$."
+       },
+       {
+        "text": "Second: $x = 4 \\Rightarrow 2x + 3 = 11$."
+       }
+      ]
+     },
+     {
+      "title": "Prove the first direction",
+      "say": "Assume $2x + 3 = 11$. Subtract $3$, then divide by $2$.",
+      "lines": [
+       {
+        "tex": "2x &= 11 - 3",
+        "sym": "11-3",
+        "new": true
+       },
+       {
+        "tex": "&= 8",
+        "sym": "8"
+       },
+       {
+        "tex": "x &= \\hl{1}{8 \\div 2}",
+        "sym": "8/2",
+        "new": true
+       },
+       {
+        "tex": "&= 4",
+        "sym": "4"
+       }
+      ]
+     },
+     {
+      "title": "Prove the second direction",
+      "say": "Assume $x = 4$. Substitute it into $2x + 3$.",
+      "lines": [
+       {
+        "tex": "2x + 3 &= 2(\\hl{1}{4}) + 3",
+        "sym": "2*4+3",
+        "new": true
+       },
+       {
+        "tex": "&= 11",
+        "sym": "11"
+       }
+      ]
+     },
+     {
+      "title": "State the conclusion",
+      "say": "Both directions hold, so the two statements are equivalent.",
+      "lines": [
+       {
+        "text": "$2x + 3 = 11 \\Leftrightarrow x = 4$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2x + 3 = 11 \\Leftrightarrow x = 4"
+   },
+   "finalSym": "0",
+   "answerSym": "(2*x+3-11)-2*(x-4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To show an \"if and only if\" statement is false, give one situation where it fails. A counterexample is enough justification.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q6#(a)",
+       "quote": "Describes or draws any situation where"
+      }
+     ]
+    },
+    {
+     "tip": "Writing true or false with no reason earns only partial credit. Always add the justification.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q6#(a)",
+       "quote": "Correct answer with no"
+      }
+     ]
+    },
+    {
+     "tip": "Do not ignore the \"and only if\" half. Justifying one direction and calling it true earns only partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q6#(a)",
+       "quote": "States True and justifies"
+      }
+     ]
+    },
+    {
+     "tip": "In a proof by contradiction, finish by naming the contradiction.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(c)",
+       "quote": "a contradiction."
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
