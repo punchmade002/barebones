@@ -1,0 +1,594 @@
+[
+ {
+  "skill": "fn-solve-graphically",
+  "what": {
+   "say": [
+    "You give it the graphs of two functions, or one graph and a number. It finds the $x$ values where $f(x) = 0$, $f(x) = k$ or $f(x) = g(x)$, by reading them off the graph.",
+    "The key idea: an equation is a question about where two heights match. Draw the second height as a line or curve, and the answers are the $x$ values of the points where the two meet."
+   ],
+   "in": "graphs of $f$ and $g$",
+   "out": "$x$ where they meet"
+  },
+  "how": {
+   "higher": "Higher level uses it as a short part inside a longer Paper 1 or Paper 2 question: read where two plotted functions meet, or how long a tide stays above a level.",
+   "ordinary": "Ordinary level tests it nearly every year on Paper 1, usually as a 5 or 10-mark part: read the roots, a value or a range of $x$ off a graph the question has already drawn or asked you to plot."
+  },
+  "example": {
+   "question": "The graph of $f(x) = x^2 - 2x - 8$ is drawn for $-4 \\le x \\le 6$. Use the graph to estimate the values of $x$ for which $f(x) = 5$. Give your answers correct to one decimal place.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Read the question as a height",
+      "say": "The equation $f(x) = \\hl{1}{5}$ asks: where is the curve at height $\\hl{1}{5}$?",
+      "lines": [
+       {
+        "text": "On the graph, find the points of the curve whose $y$ value is $\\hl{1}{5}$."
+       }
+      ]
+     },
+     {
+      "title": "Draw a horizontal line",
+      "say": "Draw a horizontal line across the graph at $y = \\hl{1}{5}$. Mark each point where it cuts the curve.",
+      "lines": [
+       {
+        "text": "The line cuts the curve in two places, so there are two answers."
+       }
+      ]
+     },
+     {
+      "title": "Read down to the x-axis",
+      "say": "From each point, go straight down to the $x$-axis and read the value.",
+      "lines": [
+       {
+        "text": "Left point: $x \\approx \\hl{2}{-2.7}$."
+       },
+       {
+        "text": "Right point: $x \\approx \\hl{2}{4.7}$."
+       }
+      ]
+     },
+     {
+      "title": "Check by algebra",
+      "say": "Put the equation equal to zero and solve it. The answers should agree with your readings.",
+      "lines": [
+       {
+        "tex": "x^2 - 2x - 8 &= \\hl{1}{5}",
+        "sym": "Eq(x**2-2*x-8,5)",
+        "new": true
+       },
+       {
+        "tex": "x^2 - 2x - 13 &= 0",
+        "sym": "Eq(x**2-2*x-13,0)"
+       },
+       {
+        "text": "The formula gives $x = 1 \\pm \\sqrt{14}$, which is $\\hl{2}{-2.7}$ and $\\hl{2}{4.7}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x \\approx \\hl{2}{-2.7} \\ \\text{or} \\ x \\approx \\hl{2}{4.7}"
+   },
+   "finalSym": "[1-sqrt(14), 1+sqrt(14)]",
+   "answerSym": "solve(Eq(x**2-2*x-8,5),x)"
+  },
+  "graph": {
+   "f": "x**2 - 2*x - 8",
+   "box": [
+    -4,
+    16,
+    6,
+    -10
+   ],
+   "points": [
+    {
+     "x": -2.741657386773941,
+     "y": 5,
+     "name": "x ≈ -2.7"
+    },
+    {
+     "x": 4.741657386773941,
+     "y": 5,
+     "name": "x ≈ 4.7"
+    }
+   ],
+   "slots": {
+    "x": 2,
+    "y": 1
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Mark the intersection on the graph itself. The marks are tied to it, even when the value of $x$ is not stated.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q7#(e)(i)",
+       "quote": "Point of intersection indicated on graph"
+      }
+     ]
+    },
+    {
+     "tip": "Values read from a graph are accepted within a tolerance, so read carefully but do not over-polish.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q7#(e)(i)",
+       "quote": "Tolerance: ± 2 wpm"
+      }
+     ]
+    },
+    {
+     "tip": "A clearly marked intersection earns partial credit on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q3#(a)(iii)",
+       "quote": "point of intersection clearly indicated on"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Mark the points on the graph. Points marked on the graph earn partial credit even if your readings are off.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+       "quote": "Point(s) marked on graph"
+      }
+     ]
+    },
+    {
+     "tip": "Count the values the question needs before you stop. In 2022 four were required: two in part (i) and the two end points in part (ii).",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+       "quote": "NOTE: 4 values are required, the 2 values in"
+      }
+     ]
+    },
+    {
+     "tip": "For a range of $x$, use strict inequalities when the curves only touch at the ends. Including the end points loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+       "quote": "4 values correct, but includes endpoints"
+      }
+     ]
+    },
+    {
+     "tip": "Make the point of intersection clearly visible on the diagram. That alone earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q9#(b)",
+       "quote": "Point clearly indicated on graph"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-compare-graphs",
+  "what": {
+   "say": [
+    "You give it two functions, $f$ and $g$. It finds where they are **equal**, and the ranges of $x$ where one graph is above the other.",
+    "The key idea: the two graphs meet exactly where $f(x) = g(x)$. Between those meeting points, one graph stays above the other, so one test value tells you which."
+   ],
+   "in": "$f(x)$ and $g(x)$",
+   "out": "where $f = g$; where $f < g$"
+  },
+  "how": {
+   "higher": "Higher level uses it inside bigger questions on Paper 1: set the functions equal to find the meeting points, then use them as limits for an area or to judge which function is larger.",
+   "ordinary": "Ordinary level asks for it as a part of a Paper 1 question: read where two plotted graphs meet, say which is cheaper or larger, or find the range of $x$ where one is below the other."
+  },
+  "example": {
+   "question": "Let $f(x) = x^2$ and $g(x) = 2x + 3$. Find the values of $x$ for which $f(x) = g(x)$. Hence state the values of $x$ for which $f(x) < g(x)$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Set the functions equal",
+      "say": "The graphs meet where $f(x) = g(x)$. Write that as an equation and move everything to one side.",
+      "lines": [
+       {
+        "tex": "x^2 &= 2x + 3",
+        "sym": "Eq(x**2,2*x+3)",
+        "new": true
+       },
+       {
+        "tex": "x^2 - 2x - 3 &= 0",
+        "sym": "Eq(x**2-2*x-3,0)"
+       }
+      ]
+     },
+     {
+      "title": "Factorise and solve",
+      "say": "Factorise. Each bracket can be zero, so $\\hl{1}{x}$ has two values.",
+      "lines": [
+       {
+        "tex": "(x + 1)(x - 3) &= 0",
+        "sym": "Eq((x+1)*(x-3),0)"
+       },
+       {
+        "tex": "x + 1 &= 0 \\ \\Rightarrow \\ x = \\hl{1}{-1}",
+        "sym": "Eq(x+1,0)",
+        "new": true
+       },
+       {
+        "tex": "x - 3 &= 0 \\ \\Rightarrow \\ x = \\hl{1}{3}",
+        "sym": "Eq(x-3,0)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Test between the meeting points",
+      "say": "The graphs cross at $\\hl{1}{-1}$ and $\\hl{1}{3}$, so one is above the other all the way between them. Test one value in that gap.",
+      "lines": [
+       {
+        "text": "Take $x = 0$. Then $f(0) = 0$ and $g(0) = 3$."
+       },
+       {
+        "text": "So $f$ is below $g$ between the meeting points."
+       }
+      ]
+     },
+     {
+      "title": "State the range",
+      "say": "Use strict inequalities. At the meeting points the two are equal, not less.",
+      "lines": [
+       {
+        "text": "$f(x) < g(x)$ when $\\hl{1}{-1} < x < \\hl{1}{3}$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "x = \\hl{1}{-1} \\ \\text{or} \\ x = \\hl{1}{3}; \\quad f(x) < g(x) \\ \\text{for} \\ \\hl{1}{-1} < x < \\hl{1}{3}"
+   },
+   "finalSym": "[-1, 3]",
+   "answerSym": "solve(Eq(x**2,2*x+3),x)"
+  },
+  "graph": {
+   "f": "x**2",
+   "box": [
+    -3,
+    10,
+    5,
+    -3
+   ],
+   "points": [
+    {
+     "x": -1,
+     "y": 1,
+     "name": "meet (-1, 1)"
+    },
+    {
+     "x": 3,
+     "y": 9,
+     "name": "meet (3, 9)"
+    }
+   ],
+   "slots": {
+    "x": 1,
+    "y": null
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Start by writing $f(x) = g(x)$ as an equation. That step has marks of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q6#(a)(i)",
+       "quote": "equation correctly established"
+      }
+     ]
+    },
+    {
+     "tip": "If you can, check one answer by substituting it back. The scheme lists a verified answer as high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q6#(a)(i)",
+       "quote": "One correct answer verified"
+      }
+     ]
+    },
+    {
+     "tip": "Factorise the equation fully. A fully factorised equation is a stage with marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q6#(a)",
+       "quote": "Equation factorised"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Write the equation that sets the two functions equal. A correct equation earns credit before any solving.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q7#(d)(iii)",
+       "quote": "Correct equation created"
+      }
+     ]
+    },
+    {
+     "tip": "When asked for a range of $x$, use strict inequalities. Including the end points where the functions are equal loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+       "quote": "4 values correct, but includes endpoints"
+      }
+     ]
+    },
+    {
+     "tip": "When you say which graph is larger or cheaper, give the reason too. An answer with no reason earns only partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-ordinary-p1-q9#(b)",
+       "quote": "B given as answer but no reason"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "fn-injective-surjective",
+  "what": {
+   "say": [
+    "You give it a function with its domain and codomain. It tells you whether the function is **injective**, **surjective**, both (**bijective**), or neither, and gives the reason.",
+    "The key idea: injective means no two inputs share an output. Surjective means every element of the codomain gets hit. A function that is both has an inverse."
+   ],
+   "in": "$f$ with domain and codomain",
+   "out": "injective, surjective or bijective"
+  },
+  "how": {
+   "higher": "Higher level tests it on Paper 1 as a part of a function question: 5 marks to show a function is bijective and find its inverse (2016), and 10 marks to explain why a mapping between sets is injective but not surjective (2023)."
+  },
+  "example": {
+   "question": "The function $f: \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = 7 - 2x$. Show that $f$ is bijective.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Test injective",
+      "say": "Injective means two inputs with the same output must be equal. Take two inputs $a$ and $b$ with $f(a) = f(b)$ and see what that forces.",
+      "lines": [
+       {
+        "tex": "7 - 2a &= 7 - 2b",
+        "sym": "Eq(7-2*a,7-2*b)",
+        "new": true
+       },
+       {
+        "tex": "-2a &= -2b",
+        "sym": "Eq(-2*a,-2*b)"
+       },
+       {
+        "tex": "a &= b",
+        "sym": "Eq(a,b)"
+       },
+       {
+        "text": "So $f$ is **injective**."
+       }
+      ]
+     },
+     {
+      "title": "Solve for x in terms of y",
+      "say": "Surjective means every $y$ in the codomain is an output. Take any $y$ and try to solve $y = f(x)$ for $\\hl{1}{x}$.",
+      "lines": [
+       {
+        "tex": "y &= 7 - 2x",
+        "sym": "Eq(y,7-2*x)",
+        "new": true
+       },
+       {
+        "tex": "2x &= 7 - y",
+        "sym": "Eq(2*x,7-y)"
+       },
+       {
+        "tex": "x &= \\hl{1}{\\tfrac{7 - y}{2}}",
+        "sym": "Eq(x,(7-y)/2)"
+       }
+      ]
+     },
+     {
+      "title": "Check it is hit",
+      "say": "For every real $y$, $\\hl{1}{\\tfrac{7 - y}{2}}$ is a real number, so it is in the domain. Put it into $f$ to confirm it gives $y$.",
+      "lines": [
+       {
+        "tex": "f\\left(\\hl{1}{\\tfrac{7 - y}{2}}\\right) &= 7 - 2\\left(\\tfrac{7 - y}{2}\\right) = y",
+        "sym": "Eq(7-2*((7-y)/2),y)",
+        "new": true
+       },
+       {
+        "text": "So $f$ is **surjective**. It is injective and surjective, so it is bijective."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f \\ \\text{is injective and surjective, so bijective}"
+   },
+   "finalSym": "0",
+   "answerSym": "7-2*((7-y)/2)-y"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To show injective, say no element of the codomain is used more than once. Any valid reason is accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(c)(i), (ii)",
+       "quote": "no element of C is used more"
+      }
+     ]
+    },
+    {
+     "tip": "To show not surjective, compare the range with the codomain: if they differ, it is not surjective.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q5#(c)(i), (ii)",
+       "quote": "Range ≠ Codomain"
+      }
+     ]
+    },
+    {
+     "tip": "A function is bijective if its inverse exists. Writing that, or $f^{-1}$, earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q5#(b)(i)",
+       "quote": "Function is bijective if inverse exists"
+      }
+     ]
+    },
+    {
+     "tip": "The horizontal line test is an accepted way to show a function is injective.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q5#(b)(i)",
+       "quote": "Horizontal line test"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fn-transformations",
+  "what": {
+   "say": [
+    "You give it a function $f(x)$ and a transformation, such as $f(x) + k$, $f(x + h)$ or $kf(x)$. It gives the new graph or its equation.",
+    "The key idea: a change **outside** the brackets moves or stretches the graph up and down. A change **inside** the brackets acts on $x$, so it works sideways and backwards: $f(x - 2)$ moves the graph two to the **right**."
+   ],
+   "in": "$f(x)$ and a change",
+   "out": "new graph or equation"
+  },
+  "how": {
+   "higher": "Higher level uses it on Paper 1 as a short part: sketch the image of a given graph after a shift (10 marks), or substitute $0.8x$ into a cubic to model a stretch (5 marks).",
+   "ordinary": "Ordinary level uses it as a step in a Paper 1 question: add a number to a function value, or plot a shifted copy of a graph from a table of values."
+  },
+  "example": {
+   "question": "Let $f(x) = x^2 - 3x$. The graph of $f$ is moved 2 units to the right and then 4 units up. Write the equation of the new graph, $g(x)$, in the form $x^2 + bx + c$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Move right by 2",
+      "say": "A move of 2 to the right replaces every $x$ with $\\hl{1}{x - 2}$. It acts inside the brackets, so it works the opposite way to what you expect.",
+      "lines": [
+       {
+        "tex": "f(x - 2) &= (\\hl{1}{x - 2})^2 - 3(\\hl{1}{x - 2})",
+        "sym": "(x-2)**2-3*(x-2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Expand and simplify",
+      "say": "Multiply out both brackets, then collect like terms.",
+      "lines": [
+       {
+        "tex": "f(x - 2) &= x^2 - 4x + 4 - 3x + 6",
+        "sym": "x**2-4*x+4-3*x+6"
+       },
+       {
+        "tex": "f(x - 2) &= x^2 - 7x + 10",
+        "sym": "x**2-7*x+10"
+       }
+      ]
+     },
+     {
+      "title": "Move up by 4",
+      "say": "A move up of 4 adds $\\hl{2}{4}$ to the whole function. It acts outside the brackets, so it does what you expect.",
+      "lines": [
+       {
+        "tex": "g(x) &= x^2 - 7x + 10 + \\hl{2}{4}",
+        "sym": "x**2-7*x+10+4",
+        "new": true
+       },
+       {
+        "tex": "g(x) &= x^2 - 7x + 14",
+        "sym": "x**2-7*x+14"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "g(x) = x^2 - 7x + 14"
+   },
+   "finalSym": "x**2-7*x+14",
+   "answerSym": "expand((x-2)**2-3*(x-2)+4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Transform a few key points of the graph and plot them. One point correctly transformed earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q2#(c)(i), (ii)",
+       "quote": "one point correctly"
+      }
+     ]
+    },
+    {
+     "tip": "Write the transformation in terms of the original function first, for example $h(x) + 15$. That alone is work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q7#(g)",
+       "quote": "𝑏(𝑥) = ℎ(𝑥) + 15"
+      }
+     ]
+    },
+    {
+     "tip": "For a stretch like $0.8x$, replace every $x$ and then expand. Starting the substitution earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p1-q7#(g)",
+       "quote": "some substitution of"
+      }
+     ]
+    },
+    {
+     "tip": "If the question is in radians, give the period in radians. A period in degrees costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q6#(b)",
+       "quote": "Period given in degrees"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "When you shift a plotted graph, plot every shifted point and join them. One point wrong, or no joining, costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p1-q8#(c)(i), (ii)",
+       "quote": "Apply a * if one point plotted"
+      }
+     ]
+    },
+    {
+     "tip": "Build a table of values for the new function. Three correct entries earn high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p1-q5#(b)(iii)",
+       "quote": "Three correct points or table entries"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

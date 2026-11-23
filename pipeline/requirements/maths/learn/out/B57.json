@@ -1,0 +1,392 @@
+[
+ {
+  "skill": "con-6",
+  "what": {
+   "say": [
+    "You give it a line segment $[AB]$. It splits it into **equal parts** with no ruler marks, only a compass and straight edge.",
+    "The key idea: equal steps along a slanted ray, joined back to $B$ with parallel lines, cut $[AB]$ into equal steps too."
+   ],
+   "in": "segment $[AB]$",
+   "out": "2 or 3 equal parts"
+  },
+  "how": {},
+  "example": {
+   "question": "Divide the segment $[AB]$ into three equal parts using only a compass and straight edge. Show your construction lines.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw a slanted ray",
+      "say": "Start at $A$. Draw a ray from $A$ at any angle to $[AB]$. Make it fairly long.",
+      "lines": [
+       {
+        "text": "With the straight edge, draw a ray from $A$ going up and to the right."
+       }
+      ]
+     },
+     {
+      "title": "Step off three equal arcs",
+      "say": "Set the compass to any small width. Do not change it again.",
+      "lines": [
+       {
+        "text": "With the compass point on $A$, draw an arc across the ray. Call the crossing $1$."
+       },
+       {
+        "text": "Move the point to $1$ and, keeping the same width, draw another arc. Call the crossing $2$."
+       },
+       {
+        "text": "Move the point to $2$, same width, and mark $3$."
+       }
+      ]
+     },
+     {
+      "title": "Join the last mark to B",
+      "say": "The three arcs are equal. Join $3$ to $B$.",
+      "lines": [
+       {
+        "text": "With the straight edge, draw the line from $3$ to $B$."
+       }
+      ]
+     },
+     {
+      "title": "Draw two parallel lines",
+      "say": "Copy the angle at $3$ to the points $2$ and $1$, so each new line is parallel to $[3B]$.",
+      "lines": [
+       {
+        "text": "Through $2$, draw a line parallel to $[3B]$. It meets $[AB]$ at $Q$."
+       },
+       {
+        "text": "Through $1$, draw a line parallel to $[3B]$. It meets $[AB]$ at $P$."
+       },
+       {
+        "text": "Then $|AP| = |PQ| = |QB|$. Leave all arcs and lines showing."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|AP| = |PQ| = |QB|"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><line x1=\"30\" y1=\"170\" x2=\"270\" y2=\"170\"/><line x1=\"30\" y1=\"170\" x2=\"110\" y2=\"60\"/><circle cx=\"56\" cy=\"134\" r=\"2.5\"/><circle cx=\"83\" cy=\"97\" r=\"2.5\"/><circle cx=\"109\" cy=\"61\" r=\"2.5\"/><line x1=\"109\" y1=\"61\" x2=\"270\" y2=\"170\"/><line x1=\"83\" y1=\"97\" x2=\"190\" y2=\"170\"/><line x1=\"56\" y1=\"134\" x2=\"110\" y2=\"170\"/><circle cx=\"110\" cy=\"170\" r=\"2.5\"/><circle cx=\"190\" cy=\"170\" r=\"2.5\"/><text x=\"14\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"268\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"115.41176470588236\" y=\"60.80882352941177\" fill=\"#1A1916\" stroke=\"none\">3</text><text x=\"108\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">P</text><text x=\"188\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">Q</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-18",
+  "what": {
+   "say": [
+    "You give it a line segment $[AB]$. It builds an angle of **60°** at $A$ with no protractor and no set square.",
+    "The key idea: a triangle with three equal sides has three angles of $60^\\circ$, and a compass makes equal sides."
+   ],
+   "in": "segment $[AB]$",
+   "out": "angle of $60^\\circ$ at $A$"
+  },
+  "how": {},
+  "example": {
+   "question": "Using only a compass and straight edge, construct an angle of $60^\\circ$ at the point $A$ on the line $[AB]$.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Fix the compass width",
+      "say": "Open the compass to the length $|AB|$. Keep it this width for the whole construction.",
+      "lines": [
+       {
+        "text": "Place the compass point on $A$ and the pencil on $B$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the first arc",
+      "say": "The point $C$ must be $|AB|$ from $A$, so it lies on an arc centred at $A$.",
+      "lines": [
+       {
+        "text": "With the compass point on $A$, draw a long arc above the line."
+       }
+      ]
+     },
+     {
+      "title": "Draw the second arc",
+      "say": "The point $C$ must also be $|AB|$ from $B$. The two arcs cross at $C$.",
+      "lines": [
+       {
+        "text": "With the compass point on $B$, same width, draw an arc that crosses the first. Call the crossing $C$."
+       }
+      ]
+     },
+     {
+      "title": "Join A to C",
+      "say": "Now $|AB| = |AC| = |BC|$, so triangle $ABC$ is equilateral.",
+      "lines": [
+       {
+        "text": "With the straight edge, draw $[AC]$."
+       },
+       {
+        "text": "Every angle of an equilateral triangle is $60^\\circ$, so $|\\angle BAC| = 60^\\circ$."
+       },
+       {
+        "text": "Leave both arcs showing."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|\\angle BAC| = 60^\\circ"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><line x1=\"60\" y1=\"170\" x2=\"220\" y2=\"170\"/><line x1=\"60\" y1=\"170\" x2=\"140\" y2=\"31\"/><path d=\"M220 170 A160 160 0 0 0 140 31\"/><path d=\"M115 28 Q140 37 165 28\" transform=\"translate(0 0)\"/><text x=\"44\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"224\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"148\" y=\"35.43593539448983\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"88\" y=\"162\" fill=\"#1A1916\" stroke=\"none\">60°</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "con-20",
+  "what": {
+   "say": [
+    "You give it two side lengths and the angle between them. It builds the **parallelogram** to exact size.",
+    "The key idea: opposite sides of a parallelogram are equal, so the fourth corner is where two arcs, one from each end, cross."
+   ],
+   "in": "two sides and the angle between them",
+   "out": "parallelogram $ABCD$"
+  },
+  "how": {
+   "ordinary": "Ordinary level has set it as part (a) of a Paper 2 Question 6 (2023, 15 marks), followed by angle work on the parallelogram's properties."
+  },
+  "example": {
+   "question": "Construct the parallelogram $ABCD$ with $|AB| = 6$ cm, $|AD| = 4$ cm and $|\\angle DAB| = 70^\\circ$.",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the base",
+      "say": "Start with the side you are given first. Draw it on the horizontal so the angle is easy to measure.",
+      "lines": [
+       {
+        "text": "With the ruler, draw $[AB]$ of length $6$ cm."
+       }
+      ]
+     },
+     {
+      "title": "Measure the angle at A",
+      "say": "The angle sits at $A$, between $[AB]$ and $[AD]$.",
+      "lines": [
+       {
+        "text": "Put the protractor centre on $A$ with its base along $[AB]$."
+       },
+       {
+        "text": "Mark $70^\\circ$ and draw a ray from $A$ through the mark."
+       }
+      ]
+     },
+     {
+      "title": "Mark D",
+      "say": "$D$ is on that ray, $4$ cm from $A$.",
+      "lines": [
+       {
+        "text": "With the ruler, measure $4$ cm along the ray from $A$. Label it $D$."
+       }
+      ]
+     },
+     {
+      "title": "Find C with two arcs",
+      "say": "Opposite sides are equal, so $|BC| = 4$ cm and $|DC| = 6$ cm.",
+      "lines": [
+       {
+        "text": "With the compass point on $B$, open to $4$ cm and draw an arc."
+       },
+       {
+        "text": "With the compass point on $D$, open to $6$ cm and draw an arc that crosses it. Label the crossing $C$."
+       }
+      ]
+     },
+     {
+      "title": "Complete the shape",
+      "say": "Join the corners in order.",
+      "lines": [
+       {
+        "text": "Draw $[BC]$, $[CD]$. Label every corner and leave the arcs showing."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "ABCD\\text{ with }|AB| = |CD| = 6,\\ |AD| = |BC| = 4"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><polygon points=\"50,170 220,170 251,85 81,85\"/><text x=\"34\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"224\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"256.7818128993102\" y=\"89.42766412926825\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"64.7818128993102\" y=\"83.42766412926825\" fill=\"#1A1916\" stroke=\"none\">D</text><text x=\"88\" y=\"162\" fill=\"#1A1916\" stroke=\"none\">70°</text><text x=\"125\" y=\"186\" fill=\"#1A1916\" stroke=\"none\">6</text><text x=\"24\" y=\"120\" fill=\"#1A1916\" stroke=\"none\">4</text></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Label a rough pilot diagram and mark the given lengths and angle on it. Work on the diagram earns marks even if the construction is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(a)",
+       "quote": "Work on diagram"
+      }
+     ]
+    },
+    {
+     "tip": "The marks are for the separate elements: each side, the angle and the final corner. Get as many of them correct as you can.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(a)",
+       "quote": "THREE or more elements correct"
+      }
+     ]
+    },
+    {
+     "tip": "Draw the base on the horizontal. If side $[AD]$ lies along the horizontal and everything is correct, you lose only one mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(a)",
+       "quote": "If [AD] is on the horizontal and the"
+      }
+     ]
+    },
+    {
+     "tip": "Even one correct element of the construction earns credit, so always draw something.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q6#(a)",
+       "quote": "ONE correct element"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "con-16",
+  "what": {
+   "say": [
+    "You give it a triangle. It finds the **circumcentre** and draws the circle that passes through all three corners.",
+    "The key idea: every point on the perpendicular bisector of a side is the same distance from both ends of that side, so where two bisectors meet is the same distance from all three corners."
+   ],
+   "in": "triangle $ABC$",
+   "out": "circumcentre $O$ and circumcircle"
+  },
+  "how": {
+   "higher": "Higher level has set it as part (a) of a Paper 2 Question 6 (2022, 15 marks), where you find and label the circumcentre.",
+   "ordinary": "Ordinary level has set it as part (a)(ii) of a Paper 2 Question 6 (2021, 10 marks), after a perpendicular bisector of one side."
+  },
+  "example": {
+   "question": "Construct the circumcentre and circumcircle of the triangle $ABC$ with $|AB| = 7$ cm, $|BC| = 6$ cm and $|AC| = 5$ cm. Use a compass and straight edge and show your construction lines.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Draw the triangle",
+      "say": "Draw the longest side first, then find the third corner with two arcs.",
+      "lines": [
+       {
+        "text": "Draw $[AB]$ of length $7$ cm."
+       },
+       {
+        "text": "From $A$, draw an arc of radius $5$ cm. From $B$, draw an arc of radius $6$ cm. Label the crossing $C$ and join up the triangle."
+       }
+      ]
+     },
+     {
+      "title": "Bisect the first side",
+      "say": "The circumcentre is the same distance from $A$ and $B$, so it lies on the perpendicular bisector of $[AB]$.",
+      "lines": [
+       {
+        "text": "Open the compass past half of $|AB|$. Draw an arc above and below $[AB]$ from $A$, then from $B$ with the same width."
+       },
+       {
+        "text": "Join the two crossings with the straight edge."
+       }
+      ]
+     },
+     {
+      "title": "Bisect a second side",
+      "say": "It is also the same distance from $A$ and $C$, so it lies on the perpendicular bisector of $[AC]$.",
+      "lines": [
+       {
+        "text": "Repeat the construction on $[AC]$."
+       },
+       {
+        "text": "The two bisectors cross. Label that point $O$."
+       }
+      ]
+     },
+     {
+      "title": "Draw the circle",
+      "say": "$O$ is the same distance from all three corners.",
+      "lines": [
+       {
+        "text": "Put the compass point on $O$ and the pencil on $A$."
+       },
+       {
+        "text": "Draw the circle. It passes through $A$, $B$ and $C$. Leave all arcs showing."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "O\\text{ is where the perpendicular bisectors meet; circle with centre }O\\text{ through }A,B,C"
+   }
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"1.5\" font-family=\"Outfit\" font-size=\"14\"><circle cx=\"155\" cy=\"132\" r=\"95\"/><polygon points=\"70,175 240,175 130,40\"/><line x1=\"155\" y1=\"105\" x2=\"155\" y2=\"245\"/><line x1=\"36\" y1=\"79\" x2=\"164\" y2=\"136\"/><circle cx=\"155\" cy=\"132\" r=\"2.5\"/><text x=\"54\" y=\"187\" fill=\"#1A1916\" stroke=\"none\">A</text><text x=\"244\" y=\"187\" fill=\"#1A1916\" stroke=\"none\">B</text><text x=\"136\" y=\"36\" fill=\"#1A1916\" stroke=\"none\">C</text><text x=\"161.0\" y=\"125.94444444444446\" fill=\"#1A1916\" stroke=\"none\">O</text></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show your construction lines and label the circumcentre. Forgetting the label costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(a)",
+       "quote": "Circumcentre correctly drawn, with construction"
+      }
+     ]
+    },
+    {
+     "tip": "Two perpendicular bisectors drawn without construction lines earn only high partial credit. Show your arcs.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q6#(a)",
+       "quote": "2 intersecting perpendicular bisectors drawn, without"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Bisect the sides you are asked about. Bisecting a different side is a misreading and loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q6#(a)(ii)",
+       "quote": "Draws perpendicular bisector of the side [𝐴𝐵] or [𝐵𝐶]"
+      }
+     ]
+    },
+    {
+     "tip": "Your arcs and lines are measured, so be accurate to within 2 mm.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q6#(a)(ii)",
+       "quote": "Note: Tolerance ± 0·2 cm"
+      }
+     ]
+    },
+    {
+     "tip": "Finding the circumcentre but not drawing the circle loses marks. Finish the circle.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q6#(a)(ii)",
+       "quote": "Correct construction of circumcentre"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
