@@ -6,101 +6,134 @@
   "notes": [
     {
       "h": "What additives are and how they are classified",
-      "b": "A food additive is a natural or artificial substance added to food during manufacture to improve colour, taste, texture, appearance, keeping qualities or nutritive value, or to aid processing.",
+      "b": "A food additive is a natural or artificial substance added to food during manufacture to improve colour, taste, texture, appearance, keeping qualities or nutritive value, or to aid processing. Because each additive is added for a particular job, additives are sorted into classes by that job.",
       "points": [
-        "Additives are grouped into classes by their function: colourings, flavourings, sweeteners, preservatives, antioxidants, nutritional supplements and, at Higher Level, physical conditioning agents.",
-        "Each class has natural and artificial examples, and the function of the additive is the basis for its class.",
-        "Settings: examine food labels to find the additives used, identify the class of each from its name or E number, and suggest the reason it was added."
-      ]
+        "Additives are grouped into classes by their function: colourings, flavourings (including flavour enhancers), sweeteners, preservatives, antioxidants, nutritional supplements and, at Higher Level, physical conditioning agents.",
+        "Each class has natural examples (from plants, animals or minerals) and artificial examples (made by chemical synthesis), and the function of the additive, not its origin, is the basis for its class.",
+        "Natural does not mean safer: both natural and artificial additives must be approved before they can be used in food.",
+        "Settings: examine a food label to find the additives used, identify the class of each from its name or E number (a code given to an approved additive), and suggest the reason it was added.",
+        "Additives have disadvantages: some people react to them (allergy, intolerance, or a hyperactivity warning on certain colours), and they may mask poor-quality food or encourage a diet of processed foods.",
+        "Two further disadvantages are specific to one additive each: sulphur dioxide destroys thiamine (vitamin B1), and polyols (bulk sweeteners) can cause diarrhoea if eaten in excess."
+      ],
+      "tip": "To define a food additive, state that it is natural or artificial, added during manufacture, and name the improvements (colour, taste, texture, appearance, keeping qualities, nutritive value or processing). If asked for two disadvantages, pick two from the list above and say why each is a problem."
     },
     {
       "h": "Colourings",
+      "b": "Processing, such as heating or canning, can fade or change the natural colour of food, and shoppers judge food by its look. Colourings are added to put this right.",
       "points": [
-        "Function: colourings restore colour lost in processing, make food more attractive and give a consistent appearance from batch to batch.",
-        "Natural colourings include caramel (E150), chlorophyll (E140), carotene (E160a), cochineal (E120) and turmeric (E100).",
+        "Function: colourings restore colour lost in processing, make food more attractive and give a consistent, uniform appearance from batch to batch.",
+        "Natural colourings include caramel (E150), chlorophyll (E140), carotene (E160a), cochineal (E120) and turmeric (E100, also called curcumin).",
         "Artificial colourings include tartrazine (E102), a yellow dye used in soft drinks and sweets.",
-        "Colourings are used in sweets, soft drinks, desserts, baked goods and cheese products."
-      ]
+        "Colourings are used in foods such as sweets, soft drinks, desserts, baked goods and cheese products.",
+        "Tartrazine and some other azo colours (a group of synthetic dyes) must carry a warning that they may affect activity and attention in children, which is one reason some people avoid them."
+      ],
+      "tip": "Turmeric is the standard correct example of a natural colouring when exams ask you to name a class of additive with one example. Give 'restores colour lost in processing' as a function, not just 'adds colour'."
     },
     {
       "h": "Flavourings and flavour enhancers",
+      "b": "Some foods taste bland to begin with and others lose flavour during processing. Flavourings put taste back or add it, while flavour enhancers work differently by making a flavour already there seem stronger.",
       "points": [
-        "Natural flavourings include herbs, spices, sugar and salt, which add flavour to bland food or replace flavour lost in processing.",
-        "Artificial flavourings are chemical compounds such as esters and aldehydes; ethyl acetate gives a rum flavour, amyl acetate a pear flavour and benzaldehyde a cherry flavour.",
-        "Flavour enhancers improve an existing flavour and make it seem stronger; monosodium glutamate (E621) is the most common example.",
-        "Monosodium glutamate is used in soups, sauces, stock cubes and prepared meals."
-      ]
+        "Function: flavourings add flavour to bland food, replace flavour lost in processing, and (as enhancers) strengthen an existing flavour.",
+        "Natural flavourings include herbs, spices, sugar and salt, used in foods such as jam, tinned beans, cereals, meat products, sauces, stock cubes, cheese and butter.",
+        "Artificial flavourings are chemical compounds made by synthesis, such as esters and aldehydes; ethyl acetate gives a rum flavour, amyl acetate a pear flavour, benzaldehyde a cherry flavour, and maltol is another example. They are used in baked goods and cakes.",
+        "Flavour enhancers (in the E600 to E699 range) improve an existing flavour and make it seem stronger; monosodium glutamate (E621) is the most common example.",
+        "Monosodium glutamate is used in soups, sauces, stock cubes and prepared meals.",
+        "Flavourings in the narrow sense carry no E number, but flavour enhancers do, so do not say that every additive has an E number."
+      ],
+      "tip": "For a flavourings account, split them into natural and artificial, give two examples of each class with a function and a use, and mention enhancers. Do not mix up the two roles: a flavouring adds or replaces flavour, an enhancer strengthens flavour already present."
     },
     {
       "h": "Preservatives",
+      "b": "Bacteria, yeasts and moulds spoil food. Preservatives slow this down so that food stays safe and edible for longer.",
       "points": [
-        "Preservatives inhibit the growth of micro-organisms, delaying spoilage and extending shelf life.",
-        "Natural preservatives include salt, sugar, vinegar and smoke.",
-        "Chemical preservatives include sulphur dioxide (E220) and potassium sorbate (E202), used in soft drinks, jams and baked goods.",
-        "Sulphur dioxide destroys some vitamin B, so its use reduces the nutritive value of the food."
-      ]
+        "Preservatives inhibit the growth of micro-organisms (bacteria, yeasts and moulds), which delays spoilage and extending shelf life.",
+        "Natural preservatives include salt, sugar, vinegar and smoke, which are accepted as natural preservatives.",
+        "Chemical preservatives include sulphur dioxide (E220) and potassium sorbate (E202), used in soft drinks, jams, baked goods, dried fruit and wine.",
+        "Sulphur dioxide destroys some thiamine (vitamin B1), so its use reduces the nutritive value of the food.",
+        "Sulphur dioxide must be declared on the label as an allergen, because some people react to it."
+      ],
+      "tip": "Sugar, salt and sulphur dioxide are accepted preservative examples. Keep preservatives apart from antioxidants: a preservative stops micro-organisms growing, whereas an antioxidant stops fat going rancid."
     },
     {
       "h": "Sweeteners",
+      "b": "Sweeteners give a sweet taste, but they fall into very different groups. Nutritive sweeteners supply energy, intense sweeteners replace sugar with almost no energy, and bulk sweeteners (polyols) sweeten while also adding body.",
       "points": [
         "Nutritive sweeteners such as sugar, honey, glucose syrup and fructose supply energy as well as sweetness.",
-        "Intense sweeteners are many times sweeter than sugar, so only a tiny amount is needed and they contribute negligible energy.",
+        "Intense sweeteners (high-intensity, non-nutritive sweeteners) are many times sweeter than sugar, so only a tiny amount is needed and they contribute negligible energy.",
         "Intense sweeteners include saccharin (E954), aspartame (E951), acesulfame K (E950) and sucralose (E955).",
         "Because the quantity used is so small, intense sweeteners do not provide sugar's bulk, browning, preservation or texture, so a bulking agent may also be needed.",
-        "Intense sweeteners are used in low-energy soft drinks, tabletop sweeteners, yoghurts, desserts and foods for people reducing their sugar intake.",
-        "Products containing aspartame carry a label warning for people with phenylketonuria, as it contains phenylalanine.",
-        "Bulk sweeteners, or polyols, include sorbitol (E420) and mannitol (E421); they are less intensely sweet, are used in larger amounts and give bulk and texture.",
-        "Polyols are found in sugar-free confectionery and chewing gum, and excessive amounts can have a laxative effect.",
-        "Artificial sweeteners are useful in slimming and diabetic products because they reduce sucrose, although the energy and portion size of the whole product still matter."
-      ]
+        "Intense sweeteners are used in low-energy and diet soft drinks, tabletop sweeteners, yoghurts, desserts and foods for people reducing their sugar intake.",
+        "Products containing aspartame carry a label warning for people with phenylketonuria, as aspartame is a source of phenylalanine (an amino acid they cannot process).",
+        "Bulk sweeteners, or polyols, include sorbitol (E420), mannitol (E421) and xylitol; they are less intensely sweet, are used in larger amounts, give bulk and texture, and also act as humectants (they hold moisture in food).",
+        "Polyols are found in sugar-free confectionery and chewing gum, and excessive amounts can have a laxative effect (loosen the bowel)."
+      ],
+      "tip": "Exams ask you to classify sweeteners as intense or bulk and give an example of each, then state the limits: intense sweeteners give no bulk, polyols can have a laxative effect, and a slimming or diabetic product still has energy and portion size to count. Artificial sweeteners help by reducing sucrose, not by making the whole product energy-free. Say only that approved sweeteners are safety-tested."
+    },
+    {
+      "h": "Sweeteners in special diets",
+      "b": "Intense sweeteners are used wherever sugar must be cut, but that does not make the food automatically healthy or suitable for everyone.",
+      "points": [
+        "Artificial sweeteners are useful in slimming and diabetic products because they reduce sucrose, although the energy and portion size of the whole product still matter.",
+        "Sweeteners are not permitted in food for infants and young children."
+      ],
+      "tip": "In a 'limits of sweeteners' answer, say that a slimming or diabetic product still has energy and portion size to count, so you must look at the whole product."
     },
     {
       "h": "Antioxidants",
+      "b": "Fats and oils go rancid (stale and unpleasant-tasting) when oxygen attacks them. Antioxidants take up the oxygen first so the fat is protected.",
       "points": [
-        "Antioxidants react with oxygen so that it cannot attack the fats and oils in food, preventing oxidative rancidity.",
+        "Antioxidants react with oxygen, so it cannot attack the fats and oils in food, preventing oxidative rancidity.",
         "Natural antioxidants include vitamin C (E300, ascorbic acid) and vitamin E (E306, tocopherols).",
         "Artificial antioxidants include BHA (E320) and BHT (E321).",
-        "Antioxidants are used in fats, cooking oils, crisps, biscuits, stock cubes, cheese spread, chewing gum and tinned fish.",
-        "By slowing rancidity, antioxidants extend shelf life and reduce food waste."
-      ]
+        "Antioxidants are used in fats, cooking oils, crisps, biscuits, stock cubes, cheese spread, chewing gum, tinned fish, fruit drinks and jams.",
+        "By slowing rancidity, antioxidants extend shelf life and reduce food waste, because less food spoils before it can be eaten."
+      ],
+      "tip": "For an antioxidants table give an example (vitamin E), the function (prevents oxidative rancidity) and a use (for example crisps or cooking oils). Longer shelf life and less waste are the usual benefits examiners want. Remember that antioxidants are for all candidates, not just Higher Level."
     },
     {
       "h": "Nutritional supplements",
+      "b": "Some additives are added for nutrition rather than for how the food looks, tastes or keeps.",
       "points": [
-        "Nutritional supplements are vitamins, minerals and other nutrients added to food to raise its nutrient content.",
+        "Nutritional supplements are vitamins, minerals and other nutrients added to food to raise or restore its nutrient content.",
         "They are the additives used for fortification, so the food supplies more of a nutrient than it naturally contains.",
         "Unlike sweeteners, preservatives and colourings, their purpose is nutritional rather than technological."
-      ]
+      ],
+      "tip": "Here 'nutritional supplements' means nutrients added to food, not supplement tablets. State that the purpose is nutritional."
     },
     {
-      "h": "Emulsifiers and stabilisers (Higher Level only)",
+      "h": "Physical conditioning agents: emulsifiers and stabilisers (Higher Level only)",
+      "b": "Physical conditioning agents are additives that change or maintain the physical properties of food, such as texture, consistency, moisture, stability and appearance. Emulsifiers and stabilisers work as a pair to keep mixtures like mayonnaise smooth.",
       "points": [
-        "An emulsifier holds two immiscible liquids, such as oil and water, together so that they do not separate.",
-        "An emulsifier molecule has a hydrophilic head that attaches to water and a hydrophobic tail that attaches to oil, linking the two phases.",
+        "An emulsifier holds two immiscible liquids (liquids that do not mix), such as oil and water, together so that they do not separate.",
+        "An emulsifier molecule has a hydrophilic (water-loving) head that attaches to water and a hydrophobic (oil-loving) tail that attaches to oil, so it links the two phases.",
         "Examples are lecithin (E322) and mono- and diglycerides of fatty acids (E471).",
-        "Emulsifiers are used in mayonnaise, ice cream and sauces.",
-        "A stabiliser prevents an emulsion from separating over time; alginates, guar gum and carrageenan are examples.",
+        "Emulsifiers are used in mayonnaise, ice cream, sauces, margarine and chocolate.",
+        "A stabiliser prevents an emulsion (a mixture of two liquids that do not normally mix) from separating over time; alginates (E401), carrageenan (E407), guar gum (E412) and pectin (E440) are examples, with stabilisers and thickeners used in ice cream, sauces and desserts.",
         "Diagram: an emulsifier molecule with a hydrophilic head and a hydrophobic tail, shown at the boundary between an oil droplet and water."
-      ]
+      ],
+      "tip": "To explain the role of an emulsifier, name the hydrophilic head and hydrophobic tail and say which liquid each attaches to. Do not confuse the two: an emulsifier joins oil and water, a stabiliser keeps them joined."
     },
     {
-      "h": "Humectants, anti-caking agents and setting agents (Higher Level only)",
+      "h": "Physical conditioning agents: humectants, anti-caking agents and setting agents (Higher Level only)",
+      "b": "These agents protect the texture of food by controlling moisture, lumping and firmness. One function in a single clause is enough when you are asked to name an agent and give its function.",
       "points": [
         "A humectant attracts and retains water, preventing food from losing moisture, drying out and hardening; sorbitol and mannitol are examples.",
         "Humectants are used in marzipan, cakes and sweets, so that they stay soft.",
-        "An anti-caking agent prevents lumps forming in dried or powdered foods; polyphosphates are an example that also increases water retention.",
+        "An anti-caking agent prevents lumps forming in dried or powdered foods such as cake mixes and dried milk; polyphosphates (E450 to E452) are an example that also increases water retention.",
         "A setting agent helps a food to set; pectin aids the setting of jams.",
         "A firming agent keeps fruit and vegetables firm during processing."
-      ]
+      ],
+      "tip": "Learn one-line functions: humectant, prevents drying; anti-caking agent or polyphosphate, stops lumping and retains water; setting agent, pectin in jam; firming agent, keeps fruit and vegetables firm. Do not mix up the two: a humectant keeps moisture in, an anti-caking agent stops lumps."
     },
     {
       "h": "Other physical conditioning agents (Higher Level only)",
+      "b": "Some agents control what happens in the pan, in the packet or on the processing line, rather than in the food itself.",
       "points": [
         "Anti-foaming agents prevent scum and froth forming on the surface of food as it boils.",
         "Anti-spattering agents keep water droplets apart in cooking oils, preventing spatter.",
-        "Buffers maintain the pH of a food at the level required for processing or taste.",
+        "Buffers maintain (control) the pH of a food at the level required for processing or taste.",
         "Packaging gases, such as nitrogen, are sealed into sachet foods to replace air and prevent oxidation.",
-        "Release agents form a coating that stops foods from sticking to each other or to equipment."
+        "Release agents form a coating, so food does not stick: it stops foods from sticking to each other or to equipment."
       ]
     }
   ],

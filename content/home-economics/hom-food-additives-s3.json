@@ -6,59 +6,81 @@
   "notes": [
     {
       "h": "What contaminants are and how they enter food",
-      "b": "A contaminant is an unwanted substance that gets into food by accident, at any stage from farm to plate.",
+      "b": "A contaminant is an unwanted substance that gets into food by accident, or that is not meant to be there, at any stage from farm to plate. This is the opposite of an additive, which is added deliberately and legally.",
       "points": [
-        "Contaminants can enter during primary production on the farm, during processing, during packaging, during storage and during cooking.",
-        "A residue is a small amount of a substance left in food after it was used legitimately, such as a pesticide or a veterinary medicine.",
-        "General food law, set out in Regulation (EC) No 178/2002, requires that food placed on the market is not unsafe.",
-        "The Food Safety Authority of Ireland coordinates national enforcement of food safety, including control of contaminants."
-      ]
+        "Contaminants can enter during primary production on the farm (from soil, water, air, animal feed, sprays and veterinary treatments), during processing, during packaging, during storage and transport, and during cooking in the kitchen.",
+        "In processing, the sources include equipment, lubricants and cleaning chemicals, so contamination can happen even when the raw ingredients were clean.",
+        "A residue is a small amount of a substance left in food after it was used legitimately, such as a pesticide or a veterinary medicine. Contaminant is the broader word; residue is the case where the substance was used properly.",
+        "Foreign bodies such as glass or metal fragments are physical contaminants, as opposed to chemical contaminants such as pesticides, antibiotics and metals.",
+        "General food law, set out in Regulation (EC) No 178/2002, requires that unsafe food must not be placed on the market, so a food business is responsible for what it sells.",
+        "The Food Safety Authority of Ireland coordinates national enforcement of food safety, including control of contaminants. Official agencies working under FSAI service contracts, including the Department of Agriculture, Food and the Marine, the HSE (including the Public Analyst Laboratories), local authorities and the Sea-Fisheries Protection Authority, sample and test food."
+      ],
+      "tip": "Do not mix up the two words: a contaminant is accidental and unwanted, an additive is deliberate. If you are asked for contaminants, name the substance, then give a source and an effect on the body for each."
     },
     {
       "h": "Pesticide residues",
+      "b": "Farmers spray crops to protect them, but some of the chemical can stay on the plant and end up on your plate. These leftovers are pesticide residues.",
       "points": [
         "Pesticides are chemicals used on crops: insecticides against insects, fungicides against fungi and herbicides against weeds.",
-        "A withdrawal period is the minimum time between the last spraying and harvest, allowing residues to fall to a safe level.",
-        "Residues can remain on fruit, vegetables and cereals and so enter the diet.",
-        "Washing and peeling reduce the amount of pesticide residue on fresh produce.",
+        "Contamination happens when crops are sprayed, when spray drifts through the air, when it runs off into water, and when plants and soil organisms take it up. Residues can remain on fruit, vegetables and cereals and so enter the diet.",
+        "Possible effects on the body include respiratory problems, heart and circulatory problems, damage to the nervous system and birth defects, and some pesticides may cause cancer.",
+        "The required wait between the last spraying and harvest is called the pre-harvest interval. Observing it allows residues to fall to a safe level before the crop is picked.",
+        "Farmers should use only approved products, at the approved rate. Maximum residue limits are set in EU law, and the limits are checked by testing.",
+        "Washing and peeling reduce the amount of pesticide residue on fresh produce, so consumers can lower their own exposure.",
         "Residues are monitored by official testing carried out by agencies under FSAI service contracts, including the Department of Agriculture, Food and the Marine and the HSE Public Analyst Laboratories."
-      ]
+      ],
+      "tip": "A common exam question asks how pesticide contamination occurs and one possible effect on the body. Give crop spraying or run-off as the source, and one effect such as nervous system damage, respiratory problems, birth defects or cancer. Organic food uses fewer synthetic pesticides but is not free of all residues."
     },
     {
       "h": "Antibiotic and veterinary medicine residues",
+      "b": "Animals on farms are sometimes given medicines, and traces can pass into the milk and meat people eat. Antibiotics are the example the syllabus names.",
       "points": [
         "Antibiotics are given to livestock to treat or prevent disease.",
-        "If milk or meat is sold before the withdrawal period has passed, antibiotic residues remain in the food.",
-        "Antibiotic residues in milk can prevent the lactic acid bacteria used for yoghurt and cheese from fermenting, so the product fails to set or ripen properly.",
-        "Antibiotic residues can cause allergic reactions in sensitive people and may contribute to the spread of antibiotic-resistant bacteria."
-      ]
+        "For veterinary medicines the required wait before sale is called the withdrawal period. If milk or meat is sold before it has passed, antibiotic residues remain in the food.",
+        "Antibiotic residues in milk can prevent the lactic acid bacteria used for yoghurt and cheese from fermenting, so the product fails to set or ripen properly. This is an effect on the food industry.",
+        "Antibiotic residues can cause allergic reactions in sensitive people.",
+        "Residues may also contribute to the spread of antibiotic-resistant bacteria, which means infections become harder to treat.",
+        "Growth-promoting hormones are banned in EU animal production. Residues from legitimate veterinary treatments are controlled by withdrawal periods and monitored in Ireland through the national residue control plan, run by the Department of Agriculture, Food and the Marine."
+      ],
+      "tip": "If asked what goes wrong when milk is sold before the withdrawal period ends, give two effects: the processing effect (yoghurt and cheese fail to set or ripen) and a health effect (allergic reaction or antibiotic resistance)."
     },
     {
       "h": "Heavy metals and environmental contaminants",
+      "b": "Metals such as lead, mercury and cadmium do not break down, so once they get into the environment they can find their way into food. They are a concern because the body cannot easily get rid of them.",
       "points": [
         "Heavy metals such as lead, cadmium and mercury enter food from soil, water and air contaminated by industry or traffic.",
-        "Plants grown in contaminated soil can absorb metals, and shellfish filtering polluted water can accumulate them.",
-        "Mercury accumulates in large predatory fish such as shark and swordfish, a process known as bioaccumulation.",
-        "Because metals build up in the body over time, repeated exposure is a greater concern than a single exposure."
-      ]
+        "Lead can also come from old lead water pipes, and metals can come from food containers and cooking equipment.",
+        "Plants grown in contaminated soil can absorb metals, and shellfish filtering polluted water can accumulate them. Mercury in shellfish and large predatory fish comes from industrial pollution of coastal waters.",
+        "Mercury accumulates in large predatory fish such as shark and swordfish, a process known as bioaccumulation: the contaminant builds up in an organism over time and is more concentrated further up the food chain.",
+        "Because metals build up in the body over time, repeated exposure is a greater concern than a single exposure.",
+        "Possible effects on the body include stomach cramps, damage to the kidneys and liver, damage to the nervous system and central nervous system, headaches and effects on the immune system.",
+        "Other environmental contaminants include dioxins, and micro-organisms such as bacteria from poor hygiene, undercooked meat or unwashed hands, which cause nausea, vomiting and food poisoning."
+      ],
+      "tip": "Mercury or lead make strong answers for a two-contaminant question: give industrial pollution of shellfish and water, or old pipes, as the source, and central nervous system or kidney damage as the effect. Use lead from old water pipes as your lead example."
     },
     {
       "h": "Chemical contaminants from processing and packaging",
+      "b": "Chemicals that belong in a food factory or kitchen, such as cleaners and lubricants, can become contaminants if they get into the food. Packaging can also pass chemicals into the food it holds.",
       "points": [
         "Cleaning agents, lubricants and sanitisers used in food premises can contaminate food if they are not rinsed off or are misused.",
-        "Chemicals can migrate from packaging or other food-contact materials into food, particularly fatty or acidic foods.",
-        "Food-grade materials and separate storage of chemicals from food reduce the risk of contamination.",
-        "Pest control chemicals stored near food can contaminate it if the storage is not properly separated."
+        "Lubricants from industrial waste can cause nausea and central nervous system damage.",
+        "Chemicals can migrate (move) from packaging or other food-contact materials into food, particularly fatty or acidic foods.",
+        "Food-grade materials (materials made safe for contact with food) reduce the risk of migration.",
+        "Pest control chemicals stored near food can contaminate it if the storage is not properly separated, so they must be stored away from food. Separate storage of chemicals from food reduces the risk generally."
       ]
     },
     {
       "h": "Controlling contaminants",
+      "b": "No single step can keep every contaminant out of food, so control happens at every level from the farm to the consumer.",
       "points": [
-        "On the farm, good agricultural practice and observance of withdrawal periods control pesticide and veterinary residues.",
-        "Food businesses buy raw materials from approved suppliers and test them on reception.",
-        "Traceability records, including lot codes, allow a contaminated batch to be identified and recalled quickly.",
-        "Official control agencies sample and test food and raw materials to check that the limits on contaminants are met."
-      ]
+        "Farm level: good agricultural practice, use of approved products only, and observance of the required wait before sale or harvest (the pre-harvest interval for crops, withdrawal periods for veterinary medicines) control pesticide and veterinary residues.",
+        "Industry level: food businesses buy raw materials from approved suppliers and test them on reception, so a problem is caught before it reaches the product.",
+        "Traceability records, including lot codes, allow a contaminated batch to be identified and recalled quickly, which limits how many consumers are affected.",
+        "Official level: control agencies sample and test food and raw materials to check that the limits on contaminants are met, and unsafe food is recalled.",
+        "Consumer level: wash and peel produce, buy from reputable sources and follow storage and cooking guidance.",
+        "Varying the diet limits exposure to any one contaminant."
+      ],
+      "tip": "Longer questions ask how contamination can be prevented in the food chain. Organise your answer by level (farm, factory, official, consumer) and give one control for each."
     }
   ],
   "keyTerms": [
