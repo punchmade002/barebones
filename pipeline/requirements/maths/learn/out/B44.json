@@ -1,0 +1,477 @@
+[
+ {
+  "skill": "fn-inverse",
+  "what": {
+   "say": [
+    "You give it a function, $f(x)$. It gives back the **inverse**, $f^{-1}(x)$, the function that undoes $f$.",
+    "The key idea: $f$ takes $x$ to $y$, so its inverse takes $y$ back to $x$. Swap the letters $x$ and $y$, then solve for $y$."
+   ],
+   "in": "$y = f(x)$",
+   "out": "$f^{-1}(x)$"
+  },
+  "how": {
+   "higher": "Higher level asks it on Paper 1 as a 5-mark part (2016, 2018), once as the last step after showing a function is bijective and once as the inverse of a cubic."
+  },
+  "example": {
+   "question": "The function $f : \\mathbb{R} \\to \\mathbb{R}$ is defined by $f(x) = \\frac{3x + 4}{2}$. $f$ is bijective. Find $f^{-1}(x)$.",
+   "level": "higher",
+   "marks": 5,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write f as y",
+      "say": "Replace $f(x)$ with $y$. This is the rule that takes $x$ to $y$.",
+      "lines": [
+       {
+        "tex": "y &= \\frac{3x + 4}{2}",
+        "sym": "(3*x+4)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Swap x and y",
+      "say": "The inverse takes $y$ back to $x$, so swap the two letters. Now $\\hl{1}{y}$ is the output we want.",
+      "lines": [
+       {
+        "tex": "x &= \\frac{3\\hl{1}{y} + 4}{2}",
+        "sym": "(3*y+4)/2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for y",
+      "say": "Rearrange to get $\\hl{1}{y}$ on its own. Clear the fraction first.",
+      "lines": [
+       {
+        "tex": "2x &= 3\\hl{1}{y} + 4",
+        "sym": "3*y+4",
+        "new": true
+       },
+       {
+        "tex": "3\\hl{1}{y} &= 2x - 4",
+        "sym": "2*x-4",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{y} &= \\frac{2x - 4}{3}",
+        "sym": "(2*x-4)/3",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Name the inverse",
+      "say": "This $y$ is the inverse function. Write it as $f^{-1}(x)$.",
+      "lines": [
+       {
+        "tex": "f^{-1}(x) &= \\frac{2x - 4}{3}",
+        "sym": "(2*x-4)/3"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f^{-1}(x) = \\frac{2x - 4}{3}"
+   },
+   "finalSym": "(2*x-4)/3",
+   "answerSym": "solve(Eq(x,(3*y+4)/2),y)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say why the inverse exists: a function is bijective if its inverse exists. Writing $f^{-1}(x)$ in part (i) is already work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q5#(b)(ii)",
+       "quote": "Function is bijective if inverse exists"
+      }
+     ]
+    },
+    {
+     "tip": "Rearranging the formula for $x$ in terms of $y$ earns partial credit even if you slip afterwards.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p1-q5#(b)(ii)",
+       "quote": "any relevant transpose"
+      }
+     ]
+    },
+    {
+     "tip": "For an inverse found from points, getting two image points right earns partial credit. Swap the coordinates of each point carefully.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q6#(b)(ii)",
+       "quote": "2 correct image points"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fn-inverse-sketch",
+  "what": {
+   "say": [
+    "You give it the graph of a function $f$. It draws the graph of its inverse, $f^{-1}$.",
+    "The key idea: the inverse swaps $x$ and $y$, so every point $(a, b)$ on $f$ becomes $(b, a)$. That is a **reflection** in the line $y = x$."
+   ],
+   "in": "graph of $f$",
+   "out": "reflection in $y = x$"
+  },
+  "how": {
+   "higher": "Higher level asks it on Paper 1 (2018, 2025): a 5-mark part giving the inverse of a function from its graph, and a 15-mark question where the graph of $g^{-1}$ is drawn on a given diagram."
+  },
+  "example": {
+   "question": "The graph of $f(x) = 2^x$ is shown. Sketch the graph of $f^{-1}$ by reflecting in the line $y = x$, and write down $f^{-1}(x)$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Pick points on f",
+      "say": "Read three points off the graph of $f$. Use easy ones.",
+      "lines": [
+       {
+        "tex": "f(0) &= 2^0 = 1",
+        "sym": "1",
+        "new": true
+       },
+       {
+        "tex": "f(1) &= 2^1 = 2",
+        "sym": "2",
+        "new": true
+       },
+       {
+        "tex": "f(3) &= 2^3 = 8",
+        "sym": "8",
+        "new": true
+       },
+       {
+        "text": "The points are $(0, 1)$, $(1, 2)$ and $(3, 8)$."
+       }
+      ]
+     },
+     {
+      "title": "Swap the coordinates",
+      "say": "A reflection in $y = x$ swaps $x$ and $y$. Each point $(a, b)$ becomes $(b, a)$.",
+      "lines": [
+       {
+        "text": "$(0, 1) \\to (\\hl{1}{1}, \\hl{2}{0})$"
+       },
+       {
+        "text": "$(1, 2) \\to (\\hl{1}{2}, \\hl{2}{1})$"
+       },
+       {
+        "text": "$(3, 8) \\to (\\hl{1}{8}, \\hl{2}{3})$"
+       }
+      ]
+     },
+     {
+      "title": "Draw and label",
+      "say": "Draw the line $y = x$, plot the new points and join them with a smooth curve. Label it $f^{-1}$. The curve never touches the $y$-axis.",
+      "lines": [
+       {
+        "text": "The inverse of $2^x$ is the **log** to base $2$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "f^{-1}(x) = \\log_2 x"
+   },
+   "finalSym": "log(x)/log(2)",
+   "answerSym": "log(x,2)"
+  },
+  "graph": {
+   "f": "2**x",
+   "box": [
+    -3,
+    9,
+    4,
+    -1
+   ],
+   "points": [
+    {
+     "x": 0,
+     "y": 1,
+     "name": "(0, 1)"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "name": "(1, 2)"
+    },
+    {
+     "x": 3,
+     "y": 8,
+     "name": "(3, 8)"
+    }
+   ],
+   "slots": {
+    "x": null,
+    "y": null
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Label your inverse graph. A correct curve with no label loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(b)(i), (ii), (iii)",
+       "quote": "labelled in part (iii)"
+      }
+     ]
+    },
+    {
+     "tip": "Show your work on the diagram itself, with lines or marks on the graph. Answers with no work shown lose a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p1-q2#(b)(i), (ii), (iii)",
+       "quote": "work not shown on the"
+      }
+     ]
+    },
+    {
+     "tip": "Plotting just two correct image points of the reflection earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q6#(b)(ii)",
+       "quote": "2 correct image points"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fn-graph-log",
+  "what": {
+   "say": [
+    "You give it a log function like $\\log_2 x$. It draws the **log curve**.",
+    "The key idea: $y = \\log_a x$ means $x = a^y$. So it is the graph of $a^x$ reflected in $y = x$: choose $y$, work out $x$, plot $(x, y)$."
+   ],
+   "in": "$\\log_a x$ or $\\ln x$",
+   "out": "log curve"
+  },
+  "how": {
+   "higher": "Higher level asks it on Paper 1 (2018) inside a 20-mark modelling question, where a table of values for a log-based function is completed and plotted."
+  },
+  "example": {
+   "question": "Draw the graph of $y = \\log_2 x$ for $\\frac{1}{4} \\le x \\le 8$. Use a table of values.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Change to index form",
+      "say": "A log is hard to evaluate for chosen $x$. Turn it into index form: $y = \\log_2 x$ means $x = 2^y$.",
+      "lines": [
+       {
+        "tex": "x &= 2^{\\hl{1}{y}}",
+        "sym": "2**y",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Choose y, find x",
+      "say": "Pick whole numbers for $\\hl{1}{y}$ and work out $x$.",
+      "lines": [
+       {
+        "tex": "y = -2:\\quad x &= 2^{-2} = \\frac{1}{4}",
+        "sym": "1/4",
+        "new": true
+       },
+       {
+        "tex": "y = -1:\\quad x &= 2^{-1} = \\frac{1}{2}",
+        "sym": "1/2",
+        "new": true
+       },
+       {
+        "tex": "y = 0:\\quad x &= 2^{0} = 1",
+        "sym": "1",
+        "new": true
+       },
+       {
+        "tex": "y = 1:\\quad x &= 2^{1} = 2",
+        "sym": "2",
+        "new": true
+       },
+       {
+        "tex": "y = 3:\\quad x &= 2^{3} = 8",
+        "sym": "8",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Plot and join",
+      "say": "Plot $(x, y)$ for each pair and join the points with a smooth curve. It rises slowly and never reaches the $y$-axis.",
+      "lines": [
+       {
+        "text": "Points: $(\\frac14, -2)$, $(\\frac12, -1)$, $(1, 0)$, $(2, 1)$, $(8, 3)$."
+       },
+       {
+        "text": "The curve crosses the $x$-axis at $(1, 0)$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{Curve through } (\\tfrac14,-2),\\ (1,0),\\ (2,1),\\ (8,3)"
+   },
+   "finalSym": "log(x)/log(2)",
+   "answerSym": "log(x,2)"
+  },
+  "graph": {
+   "f": "log(x)/log(2)",
+   "box": [
+    -1,
+    4,
+    9,
+    -3
+   ],
+   "points": [
+    {
+     "x": 1,
+     "y": 0,
+     "name": "(1, 0)"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "name": "(2, 1)"
+    },
+    {
+     "x": 8,
+     "y": 3,
+     "name": "(8, 3)"
+    }
+   ],
+   "slots": {
+    "x": null,
+    "y": null
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Fill the table first. Even one correct entry earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q7#(c)",
+       "quote": "One entry correct"
+      }
+     ]
+    },
+    {
+     "tip": "Plot every value from your own table. Plots that match your table still earn marks, as long as at least one table value is right.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q7#(c)",
+       "quote": "All plots consistent with candidates table"
+      }
+     ]
+    },
+    {
+     "tip": "A correct table with wrong plots still earns high partial credit, so take care with the plotting.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p1-q7#(c)",
+       "quote": "Table correct but incorrect plots"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "fn-limits-continuity",
+  "what": {
+   "say": [
+    "You give it a function $f(x)$ and a point $a$. It finds the **limit**, the value $f(x)$ gets close to as $x$ gets close to $a$, and tells you if the function is continuous there.",
+    "The key idea: the limit does not need $f(a)$ to exist. If putting in $a$ gives $\\frac{0}{0}$, simplify first, then put in $a$."
+   ],
+   "in": "$f(x)$ and $x \\to a$",
+   "out": "limit, continuous or not"
+  },
+  "how": {},
+  "example": {
+   "question": "Find $\\lim_{x \\to 5} \\frac{x^2 - 3x - 10}{x - 5}$. Is $f(x) = \\frac{x^2 - 3x - 10}{x - 5}$ continuous at $x = 5$?",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Try substituting",
+      "say": "Put $x = 5$ straight in. If it fails, we need to simplify.",
+      "lines": [
+       {
+        "tex": "5^2 - 3(5) - 10 &= 0",
+        "sym": "25-15-10",
+        "new": true
+       },
+       {
+        "text": "The bottom is $5 - 5 = 0$ too, so we get $\\frac{0}{0}$. That means nothing yet."
+       }
+      ]
+     },
+     {
+      "title": "Factorise the top",
+      "say": "The top is a quadratic, so factorise it. Look for a factor $(x - 5)$ to cancel.",
+      "lines": [
+       {
+        "tex": "\\frac{x^2 - 3x - 10}{x - 5} &= \\frac{(x - 5)(x + 2)}{x - 5}",
+        "sym": "(x-5)*(x+2)/(x-5)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Cancel and substitute",
+      "say": "For $x \\ne 5$ the $(x - 5)$ cancels. The limit only cares about $x$ near $5$, not at $5$. Put $x = 5$ into what is left.",
+      "lines": [
+       {
+        "tex": "&= x + 2",
+        "sym": "x+2"
+       },
+       {
+        "tex": "\\lim_{x \\to 5} (x + 2) &= \\hl{1}{7}",
+        "sym": "7",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Check continuity",
+      "say": "Continuous at $5$ needs $f(5)$ to exist and to equal the limit.",
+      "lines": [
+       {
+        "text": "$f(5) = \\frac{0}{0}$ is not defined, so $f$ is **not continuous** at $x = 5$."
+       },
+       {
+        "text": "The limit $\\hl{1}{7}$ exists, but there is a gap in the graph at $x = 5$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\text{limit} = 7;\\ f \\text{ is not continuous at } x = 5"
+   },
+   "finalSym": "7",
+   "answerSym": "limit((x**2-3*x-10)/(x-5),x,5)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ }
+]
