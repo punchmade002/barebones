@@ -17,3 +17,5 @@ For EVERY target item, output:
 Write ONLY this JSON to the output path you are given, one key per target item in order:
 {"bio15-s1.0.b": {"cost": 1, "needs": []}, "bio15-s1.0.0": {"cost": 2, "needs": [{"id": "bio9-s1.1.2", "strength": "essential", "why": "ATP as energy carrier", "confidence": "high"}]}}
 Then check it: it must parse, contain every TARGET id exactly once, and every "id" in needs must appear in the package. Reply with just: item count, link count, how many cost 2, how many low-confidence.
+
+If you write any helper script, put it ONLY in /Users/gabrielwhelan/barebones/drafts/crunch/biology/tmp/<your subsection id>/ (create it). Other agents run at the same time; never use /tmp or a shared scratchpad, and never run a script you didn't write.

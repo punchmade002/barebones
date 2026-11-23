@@ -1,0 +1,775 @@
+{
+ "bio6-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.0.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.0.1",
+    "strength": "essential",
+    "why": "rank hierarchy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.0.1",
+    "strength": "essential",
+    "why": "list of ranks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.0.1",
+    "strength": "helpful",
+    "why": "species as a rank",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.1.0",
+    "strength": "essential",
+    "why": "species definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.0.1",
+    "strength": "helpful",
+    "why": "genus and species ranks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.1.2",
+    "strength": "helpful",
+    "why": "binomial name format",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.1.2",
+    "strength": "helpful",
+    "why": "binomial nomenclature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.1.2",
+    "strength": "essential",
+    "why": "genus as first name part",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.2.0",
+    "strength": "essential",
+    "why": "prokaryotic vs eukaryotic cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.2.0",
+    "strength": "helpful",
+    "why": "prokaryote/eukaryote cell types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.2.1",
+    "strength": "helpful",
+    "why": "two prokaryotic kingdoms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.2.1",
+    "strength": "essential",
+    "why": "Bacteria as prokaryotic kingdom",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s3.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.3.0",
+    "strength": "essential",
+    "why": "peptidoglycan walls in bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.2.1",
+    "strength": "helpful",
+    "why": "four eukaryotic kingdoms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.4.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s3.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.4.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s3.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.4.2",
+    "strength": "helpful",
+    "why": "fungi features",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.4.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s3.4.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio6-s3.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.2.1",
+    "strength": "helpful",
+    "why": "kingdoms and domains",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.2.1",
+    "strength": "helpful",
+    "why": "kingdoms and domains",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.0.0",
+    "strength": "helpful",
+    "why": "classification by shared features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.6.0",
+    "strength": "essential",
+    "why": "phylogeny and common ancestors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.1",
+    "strength": "essential",
+    "why": "common ancestor in tree",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.0.1",
+    "strength": "helpful",
+    "why": "genus and family ranks",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.2",
+    "strength": "helpful",
+    "why": "genus and family relatedness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.3",
+    "strength": "helpful",
+    "why": "family and order example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.0",
+    "strength": "helpful",
+    "why": "phylogeny evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.6.0",
+    "strength": "helpful",
+    "why": "phylogeny evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.6.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.6.1",
+    "strength": "essential",
+    "why": "reading phylogenetic trees",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.6.3",
+    "strength": "helpful",
+    "why": "lion, tiger, cat relationships",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.4.0",
+    "strength": "helpful",
+    "why": "Protista kingdom",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.7.1",
+    "strength": "helpful",
+    "why": "Protista in sequence",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s2.0.1",
+    "strength": "helpful",
+    "why": "Monera prokaryotes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.4.2",
+    "strength": "essential",
+    "why": "fungal chitin walls and no chlorophyll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.0.2",
+    "strength": "essential",
+    "why": "rRNA sequence comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.7.2",
+    "strength": "essential",
+    "why": "Monera in five kingdoms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.7.4",
+    "strength": "helpful",
+    "why": "rRNA sequencing example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.6",
+    "strength": "helpful",
+    "why": "DNA base sequence comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.6.6",
+    "strength": "essential",
+    "why": "DNA comparison evidence",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.4.1",
+    "strength": "helpful",
+    "why": "Phytophthora as protist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.6",
+    "strength": "helpful",
+    "why": "DNA evidence for relatedness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.8.b",
+    "strength": "helpful",
+    "why": "DNA sequencing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.3.3",
+    "strength": "helpful",
+    "why": "Archaea kingdom",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s2.0.6",
+    "strength": "essential",
+    "why": "archaea closer to eukaryotes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.8.3",
+    "strength": "helpful",
+    "why": "Asgard archaea evidence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio6-s3.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.8.b",
+    "strength": "helpful",
+    "why": "DNA sequencing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "dichotomous key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "couplet structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "couplet structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "couplet structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "couplet structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "couplet structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.10.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "using a dichotomous key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.9.2",
+    "strength": "essential",
+    "why": "key couplet 2",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.9.3",
+    "strength": "essential",
+    "why": "key couplet 3",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.9.2",
+    "strength": "essential",
+    "why": "key couplet 1",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.9.5",
+    "strength": "essential",
+    "why": "key couplet 4",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.9.6",
+    "strength": "essential",
+    "why": "key couplet 5",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "helpful",
+    "why": "dichotomous keys",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.9.0",
+    "strength": "essential",
+    "why": "dichotomous key couplets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.11.0",
+    "strength": "helpful",
+    "why": "building a key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.9.1",
+    "strength": "essential",
+    "why": "six-invertebrate key",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.2.1",
+    "strength": "essential",
+    "why": "nucleus splits prokaryote/eukaryote",
+    "confidence": "high"
+   },
+   {
+    "id": "bio6-s3.3.3",
+    "strength": "helpful",
+    "why": "cell wall or rRNA separation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.11.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s3.4.b",
+    "strength": "essential",
+    "why": "eukaryote kingdom distinguishing features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.4.2",
+    "strength": "essential",
+    "why": "fungi features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.0.0",
+    "strength": "helpful",
+    "why": "classification groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.1.2",
+    "strength": "essential",
+    "why": "binomial scientific names",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio6-s3.6.0",
+    "strength": "helpful",
+    "why": "evolutionary relationships",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio6-s3.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio6-s3.12.4": {
+  "cost": 1,
+  "needs": []
+ }
+}
