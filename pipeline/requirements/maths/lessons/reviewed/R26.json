@@ -1,0 +1,437 @@
+[
+ {
+  "skill": "logic-terms",
+  "verdict": "fixed",
+  "issues": "problem 3 note said there was no check, but step 2 is a check",
+  "problems": [
+   {
+    "part": "practice-logic-terms-1",
+    "note": null,
+    "legend": {
+     "1": "first quantity compared, 15²",
+     "2": "second quantity compared, 9² + 12²",
+     "3": "the answer, the largest angle"
+    },
+    "steps": [
+     {
+      "ask": "Which side is the longest, and what do you get when you square it?",
+      "title": "Test the converse",
+      "lines": [
+       {
+        "text": "Square the longest side and compare."
+       },
+       {
+        "tex": "\\hl{1}{15^2} &= 225"
+       },
+       {
+        "tex": "\\hl{2}{9^2 + 12^2} &= 81 + 144 = 225"
+       }
+      ]
+     },
+     {
+      "ask": "Since the two quantities match, what does the converse of Theorem 14 tell you about the angle opposite the longest side?",
+      "title": "Apply the converse",
+      "lines": [
+       {
+        "text": "$\\hl{1}{15^2} = \\hl{2}{9^2 + 12^2}$, so by the converse of Theorem 14 the angle opposite the side of length $15$ is a right angle."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Largest angle}} &= \\hl{3}{90^\\circ}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{90^\\circ}",
+    "graph": null
+   },
+   {
+    "part": "practice-logic-terms-2",
+    "note": "Changed from the last problem: the converse now says two equal angles give equal sides (not squares), and the answer is a perimeter. The method is the same: state the converse, use it to match sides, then use the result.",
+    "legend": {
+     "1": "first quantity compared, ∠P",
+     "2": "second quantity compared, ∠Q",
+     "3": "the answer, the perimeter"
+    },
+    "steps": [
+     {
+      "ask": "The theorem goes from equal sides to equal angles. What does the converse go from and to?",
+      "title": "State the converse",
+      "lines": [
+       {
+        "text": "The converse is: if two angles of a triangle are equal, then the sides opposite them are equal."
+       }
+      ]
+     },
+     {
+      "ask": "Which side is opposite ∠P, and which side is opposite ∠Q?",
+      "title": "Apply it",
+      "lines": [
+       {
+        "text": "$\\hl{1}{\\angle P}$ is opposite $[QR]$ and $\\hl{2}{\\angle Q}$ is opposite $[PR]$. These angles are equal, so the sides are equal."
+       },
+       {
+        "tex": "|QR| &= |PR| = 9"
+       }
+      ]
+     },
+     {
+      "ask": "Which three side lengths do you now know, and what do they add up to?",
+      "title": "Add the three sides",
+      "lines": [
+       {
+        "tex": "\\hl{3}{\\text{Perimeter}} &= \\hl{3}{9 + 9 + 6}"
+       },
+       {
+        "tex": "&= \\hl{3}{24 \\text{ cm}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{24 \\text{ cm}}",
+    "graph": null
+   },
+   {
+    "part": "practice-logic-terms-3",
+    "note": "Changed from the last problem: this uses a corollary of the angle sum theorem rather than a converse, so the answer comes from adding two angles rather than matching sides. The steps are: name the two interior opposite angles, add them, then check with the straight-line angle.",
+    "legend": {
+     "1": "first quantity compared, 47°",
+     "2": "second quantity compared, 58°",
+     "3": "the answer, the exterior angle"
+    },
+    "steps": [
+     {
+      "ask": "Which two interior angles are opposite the exterior angle at the third vertex?",
+      "title": "Use the corollary",
+      "lines": [
+       {
+        "text": "The exterior angle at the third vertex equals the sum of the other two interior angles (the interior opposite angles)."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Exterior angle}} &= \\hl{1}{47} + \\hl{2}{58}"
+       },
+       {
+        "tex": "&= \\hl{3}{105^\\circ}"
+       }
+      ]
+     },
+     {
+      "ask": "The third interior angle and the exterior angle lie on a straight line. What do they add up to, and what is the third interior angle?",
+      "title": "Check with the theorem",
+      "lines": [
+       {
+        "text": "The third angle is $180 - 47 - 58 = 75^\\circ$. It lies on a straight line with the exterior angle."
+       },
+       {
+        "tex": "\\hl{3}{\\text{Exterior angle}} &= 180 - 75"
+       },
+       {
+        "tex": "&= \\hl{3}{105^\\circ}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{105^\\circ}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "logic-terms-hl",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "num-construct-root2-3",
+  "verdict": "fixed",
+  "issues": "asks gave away the value under the root",
+  "problems": [
+   {
+    "part": "practice-num-construct-root2-3-1",
+    "note": null,
+    "legend": {
+     "1": "sum of the squares of the two sides",
+     "2": "the number under the root",
+     "3": "the answer, the constructed length"
+    },
+    "steps": [
+     {
+      "ask": "Which side is the hypotenuse, and what does Theorem 14 say its square equals?",
+      "title": "Use Pythagoras (Theorem 14)",
+      "lines": [
+       {
+        "tex": "h^2 &= \\hl{1}{1^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\hl{2}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "What positive number has a square equal to the value you just found?",
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "\\hl{3}{h} &= \\hl{3}{\\sqrt{2}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{\\sqrt{2}} \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "practice-num-construct-root2-3-2",
+    "note": "Changed from the last problem: one leg is now the constructed √2 cm instead of 1 cm, and the answer is √3 cm. The same method applies: Pythagoras on the right angle, then the square root.",
+    "legend": {
+     "1": "sum of the squares of the two sides",
+     "2": "the number under the root",
+     "3": "the answer, the constructed length"
+    },
+    "steps": [
+     {
+      "ask": "Which segment is the hypotenuse of triangle OAB, and what are its two legs?",
+      "title": "Use Pythagoras (Theorem 14)",
+      "lines": [
+       {
+        "text": "The angle at $A$ is a right angle, so $[OB]$ is the hypotenuse of triangle $OAB$."
+       },
+       {
+        "tex": "|OB|^2 &= \\hl{1}{(\\sqrt{2})^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\hl{2}{3}"
+       }
+      ]
+     },
+     {
+      "ask": "What positive number has a square equal to the value you just found?",
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "\\hl{3}{|OB|} &= \\hl{3}{\\sqrt{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{|OB|} = \\hl{3}{\\sqrt{3}} \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "practice-num-construct-root2-3-3",
+    "note": "Changed from the last problem: the leg is now √3 cm instead of √2 cm, so the total comes to 4 and the constructed length is the whole number 2 cm. The steps are the same.",
+    "legend": {
+     "1": "sum of the squares of the two sides",
+     "2": "the number under the root",
+     "3": "the answer, the constructed length"
+    },
+    "steps": [
+     {
+      "ask": "Which segment is the hypotenuse of triangle OBC, and what are its two legs?",
+      "title": "Use Pythagoras (Theorem 14)",
+      "lines": [
+       {
+        "text": "The angle at $B$ is a right angle, so $[OC]$ is the hypotenuse of triangle $OBC$."
+       },
+       {
+        "tex": "|OC|^2 &= \\hl{1}{(\\sqrt{3})^2 + 1^2}"
+       },
+       {
+        "tex": "&= \\hl{2}{4}"
+       }
+      ]
+     },
+     {
+      "ask": "What positive number has a square equal to the value you just found?",
+      "title": "Take the square root",
+      "lines": [
+       {
+        "tex": "\\hl{3}{|OC|} &= \\hl{3}{2} \\text{ cm}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{2} \\text{ cm}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "ind-express-as-power",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "ind-laws",
+  "verdict": "fixed",
+  "issues": "marked the final index in problems 2 and 3 as in problem 1",
+  "problems": [
+   {
+    "part": "maths-pp-2022-ordinary-p1-q2#(b)",
+    "note": null,
+    "legend": {
+     "1": "the index from the law, as worked out"
+    },
+    "steps": [
+     {
+      "ask": "What do you do with the two indices when a power is raised to another power?",
+      "title": "Simplify the power of a power",
+      "lines": [
+       {
+        "text": "Multiply the indices: $(a^m)^n = a^{mn}$."
+       },
+       {
+        "tex": "(3^4)^5 &= 3^{\\hl{1}{4 \\times 5}}"
+       },
+       {
+        "tex": "&= 3^{\\hl{1}{20}}"
+       }
+      ]
+     },
+     {
+      "ask": "The expression is a power divided by a power with the same base. What do you do with the two indices?",
+      "title": "Divide the powers",
+      "lines": [
+       {
+        "text": "Subtract the indices: $a^m \\div a^n = a^{m-n}$."
+       },
+       {
+        "tex": "\\frac{3^{\\hl{1}{20}}}{3^6} &= 3^{\\hl{1}{20 - 6}}"
+       },
+       {
+        "tex": "&= 3^{\\hl{1}{14}}"
+       }
+      ]
+     }
+    ],
+    "final": "3^{\\hl{1}{14}}",
+    "graph": null
+   },
+   {
+    "part": "practice-ind-laws-1",
+    "note": "Adds a third step: a power of 5 is multiplied by another power of 5 before the division. The power-of-a-power and divide rules stay the same.",
+    "legend": {
+     "1": "the index from the law, as worked out"
+    },
+    "steps": [
+     {
+      "ask": "What do you do with the indices 2 and 6 when a power is raised to a power?",
+      "title": "Simplify the power of a power",
+      "lines": [
+       {
+        "text": "Multiply the indices: $(a^m)^n = a^{mn}$."
+       },
+       {
+        "tex": "(5^2)^6 &= 5^{\\hl{1}{2 \\times 6}}"
+       },
+       {
+        "tex": "&= 5^{\\hl{1}{12}}"
+       }
+      ]
+     },
+     {
+      "ask": "Two powers of 5 are multiplied together. What happens to their indices?",
+      "title": "Multiply the powers",
+      "lines": [
+       {
+        "text": "Add the indices: $a^m \\cdot a^n = a^{m+n}$."
+       },
+       {
+        "tex": "5^{\\hl{1}{12}} \\cdot 5^3 &= 5^{\\hl{1}{12+3}}"
+       },
+       {
+        "tex": "&= 5^{\\hl{1}{15}}"
+       }
+      ]
+     },
+     {
+      "ask": "Now a power of 5 is divided by another power of 5. What do you do to the indices?",
+      "title": "Divide the powers",
+      "lines": [
+       {
+        "text": "Subtract the indices: $a^m \\div a^n = a^{m-n}$."
+       },
+       {
+        "tex": "\\frac{5^{\\hl{1}{15}}}{5^8} &= 5^{\\hl{1}{15-8}}"
+       },
+       {
+        "tex": "&= 5^{\\hl{1}{7}}"
+       }
+      ]
+     }
+    ],
+    "final": "5^{\\hl{1}{7}}",
+    "graph": null
+   },
+   {
+    "part": "practice-ind-laws-2",
+    "note": "The bracket holds a coefficient 2 and a letter, so the 2 is raised to the power too, and the numbers divide as well. The index rules are the same as before.",
+    "legend": {
+     "1": "the index from the law, as worked out"
+    },
+    "steps": [
+     {
+      "ask": "Both the 2 and the a³ are inside the bracket. What must the power 4 do to each of them?",
+      "title": "Raise the numerator to the power",
+      "lines": [
+       {
+        "text": "Apply the power to the $2$ and to $a^3$."
+       },
+       {
+        "tex": "(2a^3)^4 &= 2^4 a^{\\hl{1}{3 \\times 4}}"
+       },
+       {
+        "tex": "&= 16a^{\\hl{1}{12}}"
+       }
+      ]
+     },
+     {
+      "ask": "What do the 16 and the 8 become, and what do you do with the two indices of a?",
+      "title": "Divide the numbers and subtract the indices",
+      "lines": [
+       {
+        "tex": "\\frac{16a^{\\hl{1}{12}}}{8a^5} &= \\frac{16}{8}\\, a^{\\hl{1}{12-5}}"
+       },
+       {
+        "tex": "&= 2a^{\\hl{1}{7}}"
+       }
+      ]
+     }
+    ],
+    "final": "2a^{\\hl{1}{7}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "ind-negative-fractional",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "log-change-base",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "log-definition",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "induction-divisibility",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "induction-geo-sum",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]

@@ -1,0 +1,195 @@
+[
+ {
+  "skill": "induction-inequality",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "induction-sum",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "proof-root2-irrational",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "int-area-axis",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "int-exponential",
+  "verdict": "fixed",
+  "issues": "reordered so both e-based problems come first, then base 3; rewrote notes to match",
+  "problems": [
+   {
+    "part": "practice-int-exponential-1",
+    "note": null,
+    "legend": {
+     "1": "the antiderivative, F(x), in the bracket",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the rule for integrating $e^{ax}$, and what value does $a$ take here?",
+      "title": "Integrate $e^{3x}$",
+      "lines": [
+       {
+        "text": "$\\int e^{ax}\\,dx = \\frac{1}{a}e^{ax}$, here $a = 3$."
+       },
+       {
+        "tex": "\\int_0^{\\ln 2} e^{3x}\\,dx &= \\left[\\hl{1}{\\tfrac{1}{3}e^{3x}}\\right]_0^{\\ln 2}"
+       }
+      ]
+     },
+     {
+      "ask": "Which limit goes in first, and what is subtracted from what?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\tfrac{1}{3}e^{3\\ln 2} - \\tfrac{1}{3}e^{0}"
+       }
+      ]
+     },
+     {
+      "ask": "What whole number does $e^{3\\ln 2}$ equal?",
+      "title": "Use $e^{3\\ln 2} = e^{\\ln 8} = 8$",
+      "lines": [
+       {
+        "tex": "&= \\tfrac{8}{3} - \\tfrac{1}{3}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\tfrac{7}{3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{7}{3}}",
+    "graph": null
+   },
+   {
+    "part": "practice-int-exponential-2",
+    "note": "Changes from problem 1: the function is $4e^{-2x}$, with a negative power and a constant multiplier of 4, and it is framed as an area under a curve. The method is the same: integrate, then substitute the limits.",
+    "legend": {
+     "1": "the antiderivative, F(x), in the bracket",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What integral gives the area under $y = 4e^{-2x}$ between $x = 0$ and $x = \\ln 3$?",
+      "title": "Set up the area as an integral",
+      "lines": [
+       {
+        "tex": "A &= \\int_0^{\\ln 3} 4e^{-2x}\\,dx"
+       }
+      ]
+     },
+     {
+      "ask": "What is the integral of $e^{-2x}$, and how does the 4 come into it?",
+      "title": "Integrate",
+      "lines": [
+       {
+        "text": "$\\int e^{-2x}\\,dx = -\\frac{1}{2}e^{-2x}$."
+       },
+       {
+        "tex": "A &= \\left[\\hl{1}{-2e^{-2x}}\\right]_0^{\\ln 3}"
+       }
+      ]
+     },
+     {
+      "ask": "Which limit goes in first, and what does $e^{0}$ equal?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "A &= -2e^{-2\\ln 3} + 2e^{0}"
+       },
+       {
+        "tex": "&= -2\\left(\\tfrac{1}{9}\\right) + 2"
+       },
+       {
+        "tex": "&= \\hl{2}{\\tfrac{16}{9}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{16}{9}} \\text{ square units}",
+    "graph": null
+   },
+   {
+    "part": "practice-int-exponential-3",
+    "note": "Changes from problem 2: the base is 3 instead of e, so the antiderivative divides by $\\ln 3$ rather than by the power's coefficient. The method is the same: integrate, then substitute the limits.",
+    "legend": {
+     "1": "the antiderivative, F(x), in the bracket",
+     "2": "the answer"
+    },
+    "steps": [
+     {
+      "ask": "What is the integral of $a^x$, and what is $a$ in this question?",
+      "title": "Integrate $3^x$",
+      "lines": [
+       {
+        "text": "$\\int a^x\\,dx = \\frac{a^x}{\\ln a}$, here $a = 3$."
+       },
+       {
+        "tex": "\\int_0^2 3^x\\,dx &= \\left[\\hl{1}{\\frac{3^x}{\\ln 3}}\\right]_0^2"
+       }
+      ]
+     },
+     {
+      "ask": "After substituting, what do the two fractions combine to over $\\ln 3$?",
+      "title": "Substitute the limits",
+      "lines": [
+       {
+        "tex": "&= \\frac{3^2}{\\ln 3} - \\frac{3^0}{\\ln 3}"
+       },
+       {
+        "tex": "&= \\frac{9 - 1}{\\ln 3}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{8}{\\ln 3}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{2}{\\frac{8}{\\ln 3}}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "int-find-function",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "int-power",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "int-reciprocal",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "int-reverse",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "int-trig",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]
