@@ -1,0 +1,489 @@
+{
+ "bio8-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "helpful",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "helpful",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.3",
+    "strength": "helpful",
+    "why": "negative control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.4",
+    "strength": "helpful",
+    "why": "positive control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.4",
+    "strength": "essential",
+    "why": "negative control colour",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s7.0.5",
+    "strength": "essential",
+    "why": "positive control colour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.2.0",
+    "strength": "helpful",
+    "why": "crushed food in water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.3.1",
+    "strength": "helpful",
+    "why": "starch as plant storage",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.4",
+    "strength": "helpful",
+    "why": "negative control",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s7.0.5",
+    "strength": "helpful",
+    "why": "positive control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.3.1",
+    "strength": "helpful",
+    "why": "starch",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s7.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.0.2",
+    "strength": "helpful",
+    "why": "mono/disaccharide sugars",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.4",
+    "strength": "helpful",
+    "why": "negative control",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s7.0.5",
+    "strength": "helpful",
+    "why": "positive control",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "essential",
+    "why": "reducing sugar definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "essential",
+    "why": "reducing sugar reduces copper(II)",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s7.4.4",
+    "strength": "helpful",
+    "why": "colour sequence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.4",
+    "strength": "helpful",
+    "why": "brick-red result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.2.2",
+    "strength": "essential",
+    "why": "hydrolysis of disaccharide",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s2.2.4",
+    "strength": "helpful",
+    "why": "sucrose = glucose + fructose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.7.4",
+    "strength": "helpful",
+    "why": "peptide bonds join amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.7.4",
+    "strength": "essential",
+    "why": "peptide bonds",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.4.1",
+    "strength": "helpful",
+    "why": "lipids insoluble in water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.6.0",
+    "strength": "essential",
+    "why": "grease-spot method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.4.1",
+    "strength": "helpful",
+    "why": "lipid dissolves dye, not water",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s7.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.6.3",
+    "strength": "essential",
+    "why": "Sudan III method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.2",
+    "strength": "helpful",
+    "why": "Benedict's water bath heating",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.6.3",
+    "strength": "helpful",
+    "why": "Sudan III stain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "helpful",
+    "why": "sucrose non-reducing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.1",
+    "strength": "helpful",
+    "why": "hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.0.6",
+    "strength": "helpful",
+    "why": "comparing with controls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.2.0",
+    "strength": "helpful",
+    "why": "crushing breaks open cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.0",
+    "strength": "essential",
+    "why": "reducing vs non-reducing sugar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s7.9.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s7.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s7.4.2",
+    "strength": "helpful",
+    "why": "hot water bath step",
+    "confidence": "high"
+   }
+  ]
+ }
+}
