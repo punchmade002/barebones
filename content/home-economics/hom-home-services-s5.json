@@ -6,89 +6,156 @@
   "notes": [
     {
       "h": "Heat transfer in the home",
+      "b": "Heat is a form of energy that always moves from warmer places to cooler ones. It does so in three ways, and every heating system and control in this topic relies on one or more of them.",
       "points": [
-        "Conduction: heat passes through a solid because vibrating particles pass energy to their neighbours. Metals conduct well; air, wool and polystyrene conduct poorly.",
-        "Convection: a warmed fluid becomes less dense and rises, and cooler fluid moves in to replace it, setting up a circulating current.",
-        "Radiation: heat travels as infrared waves through air without heating the air, so a warm surface heats the objects it faces, such as a bar fire or a sunlit wall.",
-        "A radiator heats a room mainly by convection, with some heat given off by radiation from its surface.",
-        "Solids, liquids and gases expand when heated, and different metals expand by different amounts."
-      ]
+        "Conduction: heat passes through a solid because vibrating particles pass energy to their neighbours. Metals conduct well, so they feel cold and carry heat away quickly; air, wool and polystyrene conduct poorly, so they are used to keep heat in.",
+        "Convection: in a liquid or gas, the warmed part becomes less dense and rises, and cooler fluid moves in to replace it. This sets up a circulating current, which is how warmth spreads through room air or water.",
+        "Radiation: heat travels as infrared waves, which need no material to carry them. The waves pass through air without heating it and warm the objects they hit, so a bar fire or a sunlit wall heats whatever it faces.",
+        "A radiator heats a room mainly by convection, because the air beside it warms and rises. Some heat is also given off by radiation from its surface.",
+        "Solids, liquids and gases expand when heated, and different metals expand by different amounts. This is the basis of the thermostat and of the expansion tank in a central heating system."
+      ],
+      "tip": "If asked how a radiator heats a room, say mainly convection with some radiation. Do not say it heats only by radiation."
     },
     {
       "h": "Thermal comfort and the factors that affect it",
-      "b": "Thermal comfort is the feeling of warmth that suits a person's clothing and activity.",
+      "b": "Thermal comfort is the feeling that the temperature of a room suits the people in it, their clothing and what they are doing. Heating a home well means controlling more than the air temperature.",
       "points": [
-        "Six factors determine thermal comfort: air temperature, the temperature of surrounding surfaces, humidity, air movement, clothing and activity level.",
+        "Six factors determine thermal comfort: air temperature, the temperature of surrounding surfaces (walls, windows, floor), humidity, air movement (draughts), clothing and activity level.",
         "A cold wall or single-glazed window makes a person feel cold even when the air temperature is correct, because the body loses heat by radiation to cold surfaces.",
-        "Each room needs a different temperature: living spaces need more warmth than bedrooms, and older people, babies and people who are ill need warm rooms with a steady temperature.",
-        "Insulation, draught proofing and controlled ventilation reduce heat loss and cold surfaces without creating draughts."
+        "Each room needs a different temperature because people do different things in it: living spaces need more warmth than bedrooms, where people are under bedclothes.",
+        "Recommended temperatures: sitting room 19 to 23 °C, living room 17 to 21 °C, kitchen 15 to 19 °C, bathroom 16 to 19 °C and bedroom 10 to 16 °C.",
+        "Babies, older people and people who are ill need warm rooms with a steady temperature, and older people need at least 20 °C."
+      ],
+      "tip": "Levels of thermal comfort are usually asked with room examples. Give the temperature for each room named, the six factors, and how each is controlled."
+    },
+    {
+      "h": "Controlling thermal comfort",
+      "b": "Thermal comfort is kept steady by heating that suits the house, by controls that switch it on and off, and by reducing heat loss.",
+      "points": [
+        "A heating system sized to the house gives enough heat without wasting fuel, because too small a system never warms the rooms and too large a one overheats them.",
+        "Zoning gives each area its own control, so rooms are heated only when and to the level they are needed.",
+        "Timers, thermostats and thermostatic radiator valves control when heat is supplied and how much.",
+        "Insulation, draught proofing and controlled ventilation reduce heat loss and cold surfaces without creating draughts.",
+        "Clothing is also a control, since adding or removing layers changes how warm a person feels without changing the heating."
       ]
     },
     {
       "h": "Thermostats and how they work",
+      "b": "A thermostat is a temperature-sensing switch. It turns a heat source off at a set temperature and back on as it cools, so the temperature stays steady without anyone watching it.",
       "points": [
-        "A thermostat is a temperature-sensing switch that turns a heat source off at a set temperature and back on as it cools.",
-        "Its working part is a bimetal strip, made of brass and invar bonded together.",
-        "Brass expands more than invar when heated, so the strip bends and breaks the electric circuit, switching the appliance off.",
+        "Its working part is a bimetal strip, made of two metals, brass and invar, bonded together so they cannot slide apart.",
+        "Brass expands much more than invar when heated, so the strip bends away from the contact and breaks the electric circuit, switching the appliance off.",
         "As the strip cools it straightens and reconnects the circuit, switching the appliance on again.",
-        "Bimetal thermostats operate kettles, irons, ovens, immersion heaters, electric blankets and refrigerators.",
-        "A boiler thermostat stops the boiler when the water reaches its target temperature and restarts it when the water falls.",
-        "A room thermostat senses air temperature and switches the heating circuit on or off to keep the room at its set level.",
-        "A thermostatic radiator valve (TRV) controls the flow of hot water into one radiator, so each room can have its own setting.",
         "Diagram: a bimetal strip with brass on one side and invar on the other, shown curved when hot and straight when cool, with the contacts that make and break the circuit."
-      ]
+      ],
+      "tip": "State that the strip bends because brass expands more than invar, never that it melts. Name both metals and describe the make and break of the circuit, and be ready to draw the strip."
+    },
+    {
+      "h": "Uses and types of thermostat",
+      "b": "The same bimetal principle is used wherever a temperature must be held steady, and in heating there are different thermostats for different jobs.",
+      "points": [
+        "Bimetal thermostats operate kettles (each with its own control), irons, ovens, immersion heaters, electric blankets, refrigerators and freezers, and electric showers.",
+        "A boiler thermostat stops the boiler when the water reaches its target temperature and restarts it when the water falls.",
+        "A room thermostat senses air temperature and switches the boiler or heating circuit on or off to keep the room at its set level. It is placed in a main living area away from direct heat, so a nearby fire does not give a false reading.",
+        "A cylinder thermostat keeps the stored hot water at its set temperature.",
+        "A thermostatic radiator valve (TRV) is fitted to one radiator and opens or closes to control the flow of hot water into it, so each room can have its own setting."
+      ],
+      "tip": "Keep the controls apart. A thermostat switches a heat source, a timer switches by the clock, and a TRV controls hot water flow to one radiator. Describe the bimetal strip for the thermostat only, not the TRV."
     },
     {
       "h": "Heating controls and energy saving",
+      "b": "Controls make sure heat is supplied only when and where it is needed. This saves fuel and keeps a home comfortable.",
       "points": [
-        "A programmer (timer) switches heating and hot water on and off at preset times, such as before the family wakes and before they return home.",
-        "Timers and thermostats used together prevent heating empty rooms and overheating, so less fuel is burned.",
+        "A programmer (timer) switches heating and hot water on and off at preset times, such as before the family wakes and before they return home, so rooms are not heated when empty. It may be mechanical, electronic or smart.",
+        "Timers and thermostats used together prevent heating empty rooms and overheating, so less fuel is burned and bills are lower.",
         "Zoning gives each area its own timer and thermostat, so bedrooms, living spaces and unused rooms can run at different settings.",
         "Smart controls allow a household to change heating schedules from a phone when its plans change."
-      ]
+      ],
+      "tip": "Three benefits of timers and thermostats are often asked: heat only when needed, less fuel used, and a steady temperature. Smartphone control and lower bills also earn marks."
     },
     {
-      "h": "Heating options",
+      "h": "Heating options: how much of the house is heated",
+      "b": "Heating options are first described by how much of the dwelling they heat. The four types are easily confused, so learn what makes each one different.",
       "points": [
         "Full central heating: one boiler heats water that is pumped to radiators throughout the whole dwelling, and it can also supply hot water.",
         "Partial central heating: radiators heat only some rooms, usually the main living areas.",
         "Background heating: a low, steady level of heat is supplied to the whole house, with local heaters used for extra warmth.",
-        "Local heating: individual room heaters, such as electric fires, gas heaters or stoves, heat only the room they are in.",
-        "Storage heating (dry system): electric elements inside thermal blocks of fireclay or concrete are charged on off-peak night electricity and release heat through the day, often with an afternoon boost.",
-        "Underfloor heating: pipes or electric cables beneath the floor warm the floor, which then heats the room by radiation and convection.",
+        "Local heating: individual room heaters, such as electric fires, gas heaters or stoves, heat only the room they are in."
+      ],
+      "tip": "Background heating is low steady heat through the house, whereas local heating is a heater in one room. Do not mix them up."
+    },
+    {
+      "h": "Heating options: types of system and fuel",
+      "b": "Systems also differ in how the heat is made and delivered. Some heat water, some use electricity directly, and some draw on renewable sources.",
+      "points": [
+        "Storage heating (a dry system, with no water): electric elements inside thermal blocks of fireclay or concrete are charged on off-peak night electricity and release heat through the day, often with an afternoon boost.",
+        "Underfloor heating: pipes (water) or electric cables beneath the floor warm the floor, which then heats the room by radiation and convection. It leaves walls clear and works well with low-temperature heat sources.",
         "Ground-source heating: pipes buried in the ground collect heat, and a heat pump raises it to a temperature suitable for heating the house.",
+        "A heat pump (ground-source or air-source) uses a refrigerant to take heat from the ground, air or water, and a compressor raises its temperature before the heat passes to the heating water. It runs on electricity but delivers more heat than the electrical energy it uses.",
+        "Heat pumps work best in a well-insulated house with underfloor heating or large radiators, and they qualify for SEAI grants.",
         "Passive solar heating: large south-facing windows admit winter sunlight, which the walls and floors absorb and release as heat.",
-        "Active solar heating: solar collectors absorb sunlight, transfer the heat to water and store it in a cylinder."
-      ]
+        "Active solar heating: solar collectors absorb sunlight and heat a fluid, which transfers the heat to water stored in a cylinder.",
+        "Biomass boilers burning wood pellets or wood chips are another low-carbon option."
+      ],
+      "tip": "Active solar heating collects heat in a fluid. It is not photovoltaic electricity, so do not describe it as making electricity."
     },
     {
       "h": "Factors in choosing a heating system",
+      "b": "No single system suits every home, so a choice weighs cost, the house and the people who live in it. Examiners ask for these factors as a list, each with a reason.",
       "points": [
         "Installation, running and maintenance costs must all be considered, not only the purchase price.",
         "Fuel price and availability differ between oil, gas, solid fuel and electricity.",
         "Energy efficiency: an efficient system uses less fuel for the same heat output, and a condensing boiler recovers heat from its flue gases.",
         "Environmental impact: fossil fuels release carbon dioxide, while wood and solar energy are renewable sources.",
         "Heat output must match the house: floor area, insulation, number of occupants and hot-water demand decide the size of system needed.",
-        "Family needs: households with babies, older people or illness need reliable and precise control of warmth.",
-        "Convenience and control: timers, thermostats and smart controls make a system easier to run economically.",
-        "Safety: radiator surfaces and any open flame need consideration where young children are present.",
-        "Space and appearance: boilers, tanks and radiators take up wall or floor space, while underfloor systems leave walls clear."
+        "Family needs: households with babies, older people or illness need reliable and precise control of warmth."
       ]
     },
     {
-      "h": "Wet central heating: components and principle",
-      "b": "A wet system heats water in a boiler and circulates it round a closed loop of pipes to radiators.",
+      "h": "Choosing a heating system: practical considerations",
+      "b": "Beyond cost and efficiency, a system has to fit the home, be safe to live with and be easy to run.",
       "points": [
-        "Parts: boiler, circulating pump, small-bore pipes, radiators, an expansion tank with an overflow pipe, and a hot-water cylinder that acts as a heat exchanger.",
-        "The boiler may be fired by oil, gas, electricity, solid fuel or solar energy.",
+        "Convenience and control: timers, thermostats and smart controls make a system easier to run economically.",
+        "Safety: radiator surfaces and any open flame need consideration where young children are present.",
+        "Space and appearance: boilers, tanks, fuel storage and radiators take up wall or floor space, while underfloor systems leave walls clear.",
+        "Hot water needs and available grants also affect the choice."
+      ],
+      "tip": "Factors in choosing a system are often asked as a list. Cost, safety, space, convenience, appearance, environment, hot water, house size and fuel storage all earn marks."
+    },
+    {
+      "h": "Wet central heating: components and principle",
+      "b": "A wet system heats water in a boiler and circulates it round a closed loop of pipes to radiators. It is the usual system to describe in an exam, because it shows all three kinds of heat transfer.",
+      "points": [
+        "Parts: boiler, circulating pump, small-bore pipes (flow and return), radiators, a feed and expansion tank with an overflow pipe, and a hot-water cylinder with a heat exchanger coil.",
+        "The boiler burns oil, gas or solid fuel, or uses electricity. Solar collectors feed a cylinder rather than the boiler.",
         "Water heated in the boiler expands, becomes less dense and rises up the flow pipe to the radiators by convection.",
         "A pump drives the water round the closed loop, so the system works in long pipe runs where natural convection would be too weak.",
         "Each radiator warms the air beside it by convection and gives off heat from its surface by radiation.",
         "The cooler water returns through the return pipe to the boiler to be reheated.",
-        "As water heats it expands; the expansion tank, usually in the roof space, takes up the extra water and acts as an overflow for steam and excess water.",
-        "The hot-water cylinder transfers heat from the circulating water to the stored domestic hot water.",
         "Diagram: plan of the closed loop showing the boiler, pump, flow and return pipes, radiators, expansion tank in the roof space and hot-water cylinder, with arrows showing the direction of water flow."
+      ],
+      "tip": "The pump circulates the water. Convection happens in the boiler, in the radiator and in the room air, so do not give the pump's job to convection alone."
+    },
+    {
+      "h": "Wet central heating: expansion tank, cylinder and control",
+      "b": "Water that is heated must have room to expand, and the same boiler can also heat the water used at the taps.",
+      "points": [
+        "As water heats it expands. The expansion tank, usually in the roof space, takes up the extra water, tops up the system, and acts as an overflow for steam and excess water through its overflow pipe.",
+        "The hot-water cylinder transfers heat from the circulating water to the stored domestic hot water through the heat exchanger coil. The cylinder is heated indirectly, so the water in the loop and the domestic hot water do not mix.",
+        "The thermostat and timer control the boiler, and a room thermostat, TRVs and a cylinder thermostat control the heat further.",
+        "A condensing boiler recovers heat from its flue gases, and an annual service keeps the boiler running efficiently.",
+        "One boiler supplies heat for the whole house and hot water."
       ]
+    },
+    {
+      "h": "Environmental impact of central heating",
+      "b": "The impact of a heating system depends mainly on its fuel, and this is a part of any exam answer on central heating.",
+      "points": [
+        "Burning fuel gives off carbon dioxide, so fossil fuels add to emissions. A flue removes the gases from the house, and a boiler needs ventilation so it has air to burn the fuel.",
+        "Renewable options, such as heat pumps, solar heating and biomass, lower emissions.",
+        "New dwellings are built to a near-zero-energy standard under Part L of the Building Regulations. Its performance requirements have effectively phased out fossil-fuel boilers as the main heating in new homes."
+      ],
+      "tip": "When asked to describe one system, choose one and name its fuel, working principle (transfer methods), control devices and environmental impact."
     }
   ],
   "keyTerms": [
