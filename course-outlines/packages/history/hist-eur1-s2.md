@@ -24,7 +24,7 @@ Background (assumed knowledge)
 - [ ] X3 (assumed) The Zollverein (1834) had already linked most German states economically under Prussia, without Austria. One clause only.
 
 1848 across Europe
-- [ ] E1 "The year of revolutions": the sequence and speed (Palermo, Paris, then Vienna, Milan, Venice, Berlin, Budapest, Prague within weeks).
+- [ ] E1 "The year of revolutions": the sequence and speed (Palermo January, Paris February, then Vienna 13 March, Budapest 15 March, Venice 17 March, Milan and Berlin 18 March; the Prague rising was in June, see R1).
 - [ ] E2 Common causes across Europe: economic crisis of 1846–47; liberal demands for constitutions; nationalist demands; the example of Paris spread by newspapers, railways and the telegraph.
 - [ ] E3 Britain and Russia escaped revolution; by 1849 nearly every rising had been defeated.
 
@@ -125,7 +125,7 @@ only where the table does.
 | X1 | German Confederation set up 1815; 39 states at its foundation; Diet at Frankfurt with Austria presiding. |
 | X2 | Carlsbad Decrees 1819. Metternich resigned and fled Vienna in March 1848 (13 March rising in Vienna). |
 | X3 | Zollverein came into force 1834, led by Prussia, Austria outside it. |
-| E1 | Palermo rising January 1848 (the first). Paris 22–24 February 1848: Louis-Philippe fell, Second Republic declared. Vienna 13 March; Berlin 18 March; Milan's Five Days 18–22 March; Venice, Budapest and Prague in March. |
+| E1 | Palermo rising January 1848 (the first). Paris 22–24 February 1848: Louis-Philippe fell, Second Republic declared. Vienna 13 March; Budapest 15 March; Venice 17 March; Berlin 18 March; Milan's Five Days 18–22 March (from 18 March). Prague: March petitions only; the rising was in June (see R1). |
 | E3 | Britain and Russia had no revolution in 1848. Russian troops helped Austria crush Hungary in 1849. |
 | C1 | Potato blight from 1845; poor grain harvests 1846 and 1847; food prices rose sharply; hunger riots. |
 | C2 | Commercial and industrial depression 1847. Silesian weavers' rising 1844. |
@@ -182,6 +182,7 @@ only where the table does.
 
 Do not use (doubtful or wrong in the current notes):
 - Do not use "about 585 deputies were elected": the number of seats and of deputies present varied and sources give different figures. Use only "about 800 men sat at some point, including substitutes", or give no number.
+- Do not use "Prague in March" as the date of the Prague rising: it was June 1848 (R1). Do not list the March revolutions with Berlin before Budapest or Venice: Vienna 13, Budapest 15, Venice 17, Milan and Berlin 18 March.
 - Do not use "about 300 civilians dead" in Berlin as a single figure: sources differ (roughly 200 to 300). Use the range.
 - Do not use "many rebels were executed" after Rastatt: executions were in the dozens, not the hundreds. Say "some rebels were executed and many imprisoned".
 - Do not call the Confederation "the 39 states" in 1848 as an exact figure: 39 was the number in 1815 and it changed slightly. Say "39 states at its foundation" or "nearly forty states".

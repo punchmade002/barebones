@@ -35,7 +35,7 @@ Jarrow and Palmers (causes)
 - [ ] B6 The steelworks refusal: the 1934 scheme for a modern steelworks on the site, put forward by T. Vosper Salt, abandoned after opposition from the British Iron and Steel Federation, which wanted no new competitor.
 - [ ] B7 Unemployment levels in Jarrow, compared with the national level (use the range in section 2).
 - [ ] B8 Social conditions: poverty, poor and overcrowded housing, ill health and high death rates; J.B. Priestley's description of the town in English Journey (1934) as a source.
-- [ ] B9 The government's attitude before the march: Runciman's 1936 remark that Jarrow must work out its own salvation.
+- [ ] B9 The government's attitude before the march: the remark by Walter Runciman, President of the Board of Trade, that Jarrow must work out its own salvation (give no year for the remark).
 
 Organising the Crusade
 - [ ] C1 The town council's initiative and the cross-party approach: Labour, Conservative and Liberal support in the town; called a "crusade", not a hunger march, to show it was non-political and respectable.
@@ -103,7 +103,7 @@ only where the table does.
 | B6 | 1934: T. Vosper Salt proposed a modern steelworks on the Palmers site; the British Iron and Steel Federation opposed it and the scheme was dropped. |
 | B7 | Jarrow unemployment in the mid-1930s: about two-thirds to over 70 per cent of insured workers (figures quoted vary; give the range, never one exact figure). National insured unemployment in 1936: about 13 per cent. |
 | B8 | J.B. Priestley visited Jarrow for English Journey (1934) and described it as a town without work or hope (paraphrase; do not quote). |
-| B9 | Walter Runciman, President of the Board of Trade, 1936: "Jarrow must work out its own salvation" (may be quoted, attributed to Runciman). |
+| B9 | Walter Runciman, President of the Board of Trade, told Jarrow it must work out its own salvation (may be quoted, attributed to Runciman; the year of the remark is not certain, so give none). |
 | C1 | Jarrow Borough Council organised the march; supported by Labour, Conservatives and Liberals locally. Its name: the Jarrow Crusade. |
 | C2 | Ellen Wilkinson (1891–1947), "Red Ellen" (for her politics and red hair); an early member of the Communist Party of Great Britain, she left it in the 1920s; trade union organiser; Labour MP for Middlesbrough East 1924–31; Labour MP for Jarrow from 1935. Left the march early on to attend the Labour Party conference in Edinburgh, and rejoined it. |
 | C3 | Councillor David Riley: marshal and leader of the marchers. |
@@ -149,13 +149,14 @@ Doubtful claims to avoid:
 - Do not say Wilkinson walked the whole way, or that she shared the men's sleeping quarters.
 - Do not call the Jarrow march a hunger march or a Communist march; it was cross-party and deliberately kept apart from the NUWM.
 - Do not say Labour opposed the cause: the national leadership withheld official support from the march; local Labour parties helped.
+- Do not date Runciman's "Jarrow must work out its own salvation" remark (not 1936, not 1934): the year is disputed and unchecked. Attribute it to Runciman, President of the Board of Trade, and say it shows the government's attitude before the march.
 - Do not invent quotations from the petition, Wilkinson, Baldwin, Henson or the marchers. Only Runciman's remark (B9) may be quoted.
 - Do not give totals for money raised, men who finished, or miles per day.
 
 Confusables:
 - National Shipbuilders Security (closed the yard, 1934) vs the British Iron and Steel Federation (blocked the steelworks, 1934). Two different bodies and two different refusals.
 - The Bishop of Jarrow (blessed the march) vs the Bishop of Durham, Hensley Henson (condemned it).
-- Walter Runciman (Board of Trade, "own salvation", 1936) vs Stanley Baldwin (Prime Minister, refused to meet the marchers).
+- Walter Runciman (Board of Trade, "own salvation") vs Stanley Baldwin (Prime Minister, refused to meet the marchers).
 - Sir John Jarvis (Conservative MP who helped bring firms to Jarrow) vs David Riley (march leader) vs Charles Mark Palmer (founder of the yard, 1851).
 - The Jarrow Crusade (about 200 men, cross-party, October 1936) vs the NUWM's national hunger march (Communist-led, reached London in November 1936).
 - The Special Areas Act 1934 vs the Special Areas (Amendment) Act 1937.

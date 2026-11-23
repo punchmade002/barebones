@@ -52,7 +52,7 @@ Industrialisation in Britain
 
 The spread of industrialisation to the continent
 - [ ] I8 Why the continent was slower: the French wars, poorer transport, internal tariffs and many states (German lands), less accessible coal, smaller markets, a peasantry that stayed on the land; continental states copied British machines and hired British engineers.
-- [ ] I9 Belgium, first on the continent: coal in Hainaut and Liège; John Cockerill's ironworks and engineering at Seraing; the first railway on the European continent, Brussels–Mechelen (1835), part of a state-planned network.
+- [ ] I9 Belgium, first on the continent: coal in Hainaut and Liège; John Cockerill's ironworks and engineering at Seraing; Belgium's first railway, the steam-worked Brussels–Mechelen line (1835), part of a state-planned network.
 - [ ] I10 France: slower, mixed growth; textiles in Alsace (Mulhouse) and Normandy (Rouen); the Schneider works at Le Creusot; the Saint-Étienne–Andrézieux line for coal (1827); the Railway Law of 1842 (state builds the track bed, companies run the lines); faster growth in the 1850s and 1860s under the Second Empire (one clause; Napoleon III's economic policy belongs to the notes on France).
 - [ ] I11 The German lands: the Zollverein (1834) removed internal tariffs (one clause; its founding belongs to the Metternich and unification notes); the first German railway, Nuremberg–Fürth (1835); coal and iron in the Ruhr and Silesia; Krupp at Essen expanding from the 1850s; Friedrich List's case for railways and protective tariffs (1841); by 1871 Germany was becoming Europe's leading industrial power on the continent.
 - [ ] I12 Banks and the state: continental industry relied more on investment banks and state help (railways, tariffs) than Britain, where firms grew largely from their own profits and private capital.
@@ -134,7 +134,7 @@ only where the table does.
 | I4 | Abraham Darby, coke smelting, Coalbrookdale (Shropshire), 1709. Henry Bessemer's converter, 1856. |
 | I5 | Stockton and Darlington Railway, 1825. Rainhill Trials, 1829, won by Rocket, built by George and Robert Stephenson. Liverpool and Manchester Railway opened 15 September 1830. "Railway mania" in Britain, mid-1840s. |
 | I7 | Great Exhibition, Hyde Park, London, 1851, in the Crystal Palace. "Workshop of the world" may be used as a nickname for Britain, attributed to no one. |
-| I9 | Belgium: coalfields of Hainaut and Liège. John Cockerill (English-born) set up ironworks and engineering works at Seraing, near Liège, in 1817. Brussels–Mechelen railway, 5 May 1835, the first on the European continent; Belgian state-built network. |
+| I9 | Belgium: coalfields of Hainaut and Liège. John Cockerill (English-born) set up ironworks and engineering works at Seraing, near Liège, in 1817. Brussels–Mechelen railway, opened 5 May 1835: Belgium's first railway, steam-worked, the first stage of a Belgian state-built network (do not call it the first on the continent; see Traps). |
 | I10 | Textiles in Alsace (Mulhouse) and Normandy (Rouen). Schneider brothers took over Le Creusot in 1836. Saint-Étienne–Andrézieux line, 1827, for coal (horse-drawn at first). Railway Law of 11 June 1842: the state provided land and track bed, private companies laid track and ran the lines. |
 | I11 | Zollverein, 1834. Nuremberg–Fürth railway, 7 December 1835 (Bavaria), the first in Germany. Ruhr and Silesian coalfields. Krupp works at Essen (Alfred Krupp) expanded from the 1850s. Friedrich List, The National System of Political Economy, 1841. |
 | I12 | Crédit Mobilier, France, 1852 (Pereire brothers): an investment bank for railways and industry (one clause; belongs mainly to the notes on France). |
@@ -178,6 +178,7 @@ Do not use (doubtful or wrong in the current notes):
 - Do not use "The Guizot Law ... required each commune to maintain a boys' primary school": the law required a primary school; that these were in practice for boys is the point. Use the E3 wording.
 - Do not use "the Public Health Act of 1848 ... with powers over drainage" without saying it was largely permissive (H5).
 - Do not use "Prussia had required children to attend school since ... a decree of 1763" as the first such law: there were earlier decrees; say "compulsory schooling from the eighteenth century, confirmed by the General School Regulations of 1763" (E2).
+- Do not use "the first railway on the European continent" (or "first on the continent") for Brussels–Mechelen, 1835: the Saint-Étienne–Andrézieux line (1827, horse-drawn at first) is earlier, and other claims (e.g. Saint-Étienne–Lyon) are contested. Say "Belgium's first railway, steam-worked, opened 5 May 1835" (I9).
 - Do not use "Industrial growth on the continent was often financed by banks ..., while in Britain it was financed mainly from profits" as absolute: say "more" and "largely" (I12).
 
 Figures and quotations not to use:
@@ -190,7 +191,7 @@ Confusables:
 - The domestic system (work at home, putting out) vs the factory system.
 - Factory Act 1833 (children in textile mills, inspectors) vs Mines Act 1842 (underground work) vs Ten Hours Act 1847 (women and young persons) vs Factory Act 1844 (Peel).
 - Public Health Act 1848 (permissive) vs 1875 (compulsory, after the period).
-- Stockton and Darlington (1825) vs Liverpool and Manchester (1830); Brussels–Mechelen (May 1835, first on the continent) vs Nuremberg–Fürth (December 1835, first in Germany).
+- Stockton and Darlington (1825) vs Liverpool and Manchester (1830); Brussels–Mechelen (May 1835, Belgium's first) vs Nuremberg–Fürth (December 1835, first in Germany).
 - National Society (Anglican) vs British and Foreign School Society (Nonconformist).
 - Guizot Law (1833, primary schools) vs Falloux Law (1850, church role, notes on the churches) vs Duruy (1867, girls' schools).
 - The Newcastle Commission (1858–61, report on education) vs the Revised Code (1862, Lowe's response).

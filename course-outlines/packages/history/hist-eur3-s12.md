@@ -53,7 +53,7 @@ Books, art and the Olympics
 - [ ] B1 Book burning, 10 May 1933: students and party members burned books by Jewish, Marxist, liberal and pacifist authors in Berlin and other university towns; Goebbels spoke in Berlin; named authors from section 2; Heine's warning (section 2).
 - [ ] B2 Degenerate art: modern art (Expressionism, abstract art) condemned and removed from galleries; the Degenerate Art exhibition, Munich, July 1937, beside the Great German Art Exhibition of approved art; named artists from section 2; the degenerate exhibition drew far more visitors.
 - [ ] B3 Music: jazz condemned as "degenerate"; works by Jewish composers banned (one bullet, no names needed).
-- [ ] B4 The 1936 Olympics (Winter Games at Garmisch-Partenkirchen in February, Summer Games in Berlin in August): a showcase of a peaceful, modern, efficient Germany; anti-Semitic signs removed for the games; Germany won the most medals; Jesse Owens's four gold medals as a limit on the racial message.
+- [ ] B4 The 1936 Olympics (Winter Games at Garmisch-Partenkirchen in February, Summer Games in Berlin in August): a showcase of a peaceful, modern, efficient Germany; anti-Semitic signs removed for the games; at the Summer Games in Berlin, Germany won the most medals (Norway, not Germany, topped the Winter Games table); Jesse Owens's four gold medals as a limit on the racial message.
 
 Propaganda in war
 - [ ] W1 Propaganda in wartime: early victories celebrated in newsreels; after Stalingrad (early 1943) the message shifted to endurance and fear of the enemy, and credibility declined as defeats mounted.
@@ -135,7 +135,7 @@ entry, describe it without one.
 | M9 | Slogan: "Ein Volk, ein Reich, ein Führer" (one people, one empire, one leader), used around the Anschluss, 1938. Heinrich Hoffmann: Hitler's personal photographer. Hitler's birthday: 20 April. |
 | B1 | Book burning: 10 May 1933, Opernplatz, Berlin, and other university towns; organised by the German Student Union; Goebbels spoke in Berlin. Authors burned included Karl Marx, Sigmund Freud, Erich Maria Remarque (All Quiet on the Western Front) and Heinrich Heine. Heine's line from 1821: "Where they burn books, they will in the end burn people too." |
 | B2 | Degenerate Art (Entartete Kunst) exhibition: Munich, opened July 1937, the day after the Great German Art Exhibition opened in the new House of German Art. About two million visitors. Artists shown included Otto Dix, George Grosz, Emil Nolde, Ernst Ludwig Kirchner and Paul Klee. |
-| B4 | Winter Olympics: Garmisch-Partenkirchen, February 1936. Summer Olympics: Berlin, August 1936. Germany won the most medals. Jesse Owens (USA) won four gold medals. |
+| B4 | Winter Olympics: Garmisch-Partenkirchen, February 1936. Summer Olympics: Berlin, August 1936. At the Summer Games in Berlin, Germany won the most medals (about 89, ahead of the USA). At the Winter Games Norway topped the medal table, not Germany. Jesse Owens (USA) won four gold medals. |
 | W1, W2 | German surrender at Stalingrad: early February 1943. Total war speech: Berlin Sportpalast, 18 February 1943; "Do you want total war?" (Wollt ihr den totalen Krieg?). |
 | G1 | Goebbels born 1897, Rheydt (Rhineland). Club foot. Doctorate, University of Heidelberg (1921). |
 | G2 | Gregor Strasser: leader of the party's northern, more "socialist" wing. Goebbels won over by Hitler in 1926. |
@@ -170,6 +170,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: the rally grounds "to the south of the old city", because they lie to the south-east, around the Dutzendteich.
 - Do not use: Hitler's speeches "usually delivered at night or in the evening when crowds were most receptive", because it is an unchecked generalisation (his main rally speeches were at various times). Name only the night-time ceremonies (the political leaders' assembly with the cathedral of light, torchlight processions).
 - Do not use: "free food and accommodation" or "much of the cost was met by the party and by industry", because neither is checked. Say participants lived in tent camps and came on special trains.
+- Do not use: "Germany won the most medals" in 1936 without saying which Games, because it is true only of the Berlin Summer Games; Norway topped the Winter Games table. Say "at the Summer Games in Berlin, Germany won the most medals".
 - Do not use: the armed forces' day "from 1935", because army units took part in 1934 too. Say the armed forces had their own day, with no first year.
 - Do not use: Riefenstahl "classified as a fellow traveller in 1952", because the hearings ran from 1948 to 1952 and sources differ on which ruling counts. Give no year.
 - Do not use: Goebbels joined the party "in 1924", because sources give 1924 or 1925. Say "in the mid-1920s".

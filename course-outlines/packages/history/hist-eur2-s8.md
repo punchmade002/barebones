@@ -65,7 +65,7 @@ The 1905 Revolution
 - [ ] V4 The October Manifesto (17 October 1905, Russian calendar): civil liberties, an elected Duma with power over laws, a wider franchise; issued on Witte's advice; Witte then became the first chairman of the Council of Ministers (prime minister).
 - [ ] V5 Why the regime survived: the Manifesto split the opposition (Octobrists accepted it, the Kadets wanted more, the socialists rejected it); the army stayed loyal once peace came; the Soviet's leaders arrested (December 1905) and the Moscow rising crushed (December 1905); redemption payments halved and then abolished from 1907.
 - [ ] V6 The large French loan (April 1906) let the government survive without the Duma.
-- [ ] V7 The Fundamental Laws (April 1906): the tsar kept the title of autocrat, control of ministers, army and foreign policy, an absolute veto, the right to dissolve the Duma and to rule by decree between sessions.
+- [ ] V7 The Fundamental Laws (6 May 1906; 23 April Russian calendar): the tsar kept the title of autocrat, control of ministers, army and foreign policy, an absolute veto, the right to dissolve the Duma and to rule by decree between sessions.
 
 The Dumas and Stolypin
 - [ ] D1 The First Duma (1906) demanded land reform and responsible ministers and was dissolved after about ten weeks; the Second Duma (1907) also dissolved.
@@ -92,7 +92,7 @@ The Provisional Government and the October Revolution
 - [ ] O1 Dual power: the Provisional Government (Lvov, then Kerensky from July) shared authority with the Petrograd Soviet; the Soviet's Order No. 1 (soldiers to obey the Provisional Government's military orders only if the Soviet agreed).
 - [ ] O2 Its mistakes: it granted civil liberties but kept fighting the war and postponed land reform until a Constituent Assembly met; the failed July (Kerensky) offensive; desertions and peasant land seizures.
 - [ ] O3 Lenin's return from Switzerland (April 1917, through Germany) and the April Theses: "all power to the Soviets"; "peace, land and bread".
-- [ ] O4 The July Days (failed Bolshevik-backed rising; Lenin fled to Finland); the Kornilov affair (August–September), defeated with Bolshevik help, which armed the Red Guards and boosted the Bolsheviks.
+- [ ] O4 The July Days (failed Bolshevik-backed rising; Lenin fled to Finland); the Kornilov affair (mid-September 1917; late August / early September Russian calendar), defeated with Bolshevik help, which armed the Red Guards and boosted the Bolsheviks.
 - [ ] O5 Bolshevik majorities in the Petrograd and Moscow Soviets (September); Trotsky chairman of the Petrograd Soviet and organiser of its Military Revolutionary Committee.
 - [ ] O6 The seizure of power (6–8 November 1917; 24–26 October Russian calendar): stations, bridges and the telegraph seized; the Winter Palace taken; the Second Congress of Soviets; the Council of People's Commissars (Sovnarkom) under Lenin.
 - [ ] O7 First decrees: peace, land, the rights of the peoples of Russia to self-determination; the Cheka (December 1917).
@@ -159,7 +159,7 @@ figure here, describe it without one. Russian-calendar dates are given in bracke
 | V4 | October Manifesto, 30 October 1905 (17 October). Witte chairman of the Council of Ministers, October 1905 – April 1906. |
 | V5 | Octobrists (Alexander Guchkov) accepted the Manifesto; Constitutional Democrats (Kadets, Pavel Milyukov) wanted a constituent assembly and more power for the Duma. Soviet leaders arrested December 1905. Moscow armed rising crushed December 1905. Redemption payments halved for 1906 and abolished from 1 January 1907 (announced November 1905). |
 | V6 | French-led international loan, April 1906, about 2,250 million francs (or say "a very large loan"). |
-| V7 | Fundamental Laws, April 1906 (published shortly before the First Duma met): the tsar remained "Supreme Autocrat" (the word "unlimited" was dropped); he appointed ministers, controlled army and foreign policy, had an absolute veto, could dissolve the Duma and issue emergency decrees when it was not sitting (Article 87). An upper house, the State Council, half appointed. |
+| V7 | Fundamental Laws, 6 May 1906 (23 April Russian calendar), published shortly before the First Duma met on 10 May (27 April): the tsar remained "Supreme Autocrat" (the word "unlimited" was dropped); he appointed ministers, controlled army and foreign policy, had an absolute veto, could dissolve the Duma and issue emergency decrees when it was not sitting (Article 87). An upper house, the State Council, half appointed. |
 | D1 | First Duma May–July 1906 (about 72 days); Second Duma February–June 1907. |
 | D2 | Electoral law changed by decree in June 1907 (the "coup of 3 June"). Third Duma 1907–12; Fourth Duma 1912–17. |
 | D3 | Peter Stolypin, Prime Minister (chairman of the Council of Ministers) July 1906 – September 1911, also Minister of the Interior. Field courts-martial from August 1906; more than a thousand executed. "Stolypin's necktie": the hangman's noose. |
@@ -178,7 +178,7 @@ figure here, describe it without one. Russian-calendar dates are given in bracke
 | O1 | Prince Georgy Lvov head of the Provisional Government March–July 1917; Alexander Kerensky from July. Order No. 1 issued by the Petrograd Soviet, March 1917. "Dual power" (dvoevlastie). |
 | O2 | July (Kerensky) offensive 1917 failed. |
 | O3 | Lenin arrived at Petrograd's Finland Station, April 1917 (16 April; 3 April), having crossed Germany by train with German permission. April Theses April 1917. Slogans "All power to the Soviets" and "Peace, land and bread". |
-| O4 | July Days, July 1917; Lenin went into hiding in Finland. General Lavr Kornilov, commander-in-chief, moved troops towards Petrograd in early September 1917 (late August); Kerensky armed the Petrograd workers (Red Guards) and released Bolshevik prisoners. |
+| O4 | July Days, July 1917; Lenin went into hiding in Finland. General Lavr Kornilov, commander-in-chief, moved troops towards Petrograd in mid-September 1917 (late August / early September Russian calendar); Kerensky armed the Petrograd workers (Red Guards) and released Bolshevik prisoners. |
 | O5 | Bolshevik majorities in Petrograd and Moscow Soviets, September 1917. Trotsky chairman of the Petrograd Soviet from October 1917 (late September); Military Revolutionary Committee formed October 1917. |
 | O6 | Rising began 6–7 November (24–25 October); the Winter Palace was taken in the early hours of 8 November (26 October); the Second All-Russian Congress of Soviets met 7–8 November (25–26 October). Council of People's Commissars (Sovnarkom), chairman Lenin. |
 | O7 | Decree on Peace and Decree on Land, 8 November 1917 (26 October). Declaration of the Rights of the Peoples of Russia, November 1917. Cheka founded December 1917 under Felix Dzerzhinsky. |
@@ -197,6 +197,8 @@ figure here, describe it without one. Russian-calendar dates are given in bracke
 ## 3. Traps
 
 Do not use (wrong or doubtful facts in the current notes):
+- Do not use: the Kornilov affair as "early September 1917 (late August)" or "August–September"; the Russian dates (about 25 August to 1 September) are about 7 to 14 September in Western dates. Say mid-September 1917 (late August / early September Russian calendar).
+- Do not use: the Fundamental Laws as "April 1906" with no calendar; they are dated 6 May 1906 (23 April Russian calendar).
 - Do not use: Leopold Haimson as an "optimist", because his best-known argument is the pessimist one (Russia was heading for revolution before 1914). Also drop Hans Rogger as an optimist "in some respects"; it is too vague to teach. Use X6.
 - Do not use: the Bolsheviks took the bridges and the telegraph "and the Winter Palace fell" all on the night of 6–7 November, because the Winter Palace fell in the early hours of 8 November (26 October). Use O6.
 - Do not use: "17 October 1905" without saying it is the Russian date (30 October Western). The same applies to every Russian-calendar date: always say which calendar.
@@ -219,7 +221,7 @@ Confusable people, terms and dates
 - Witte (Finance Minister 1892–1903; prime minister 1905–06; industrialisation and the October Manifesto) vs Stolypin (Prime Minister 1906–11; land reform and repression). Students regularly swap them.
 - Vyshnegradsky (Finance Minister 1887–92, grain exports) vs Witte (his successor).
 - Plehve (Interior Minister, "short victorious war", killed 1904) vs Stolypin (killed 1911).
-- The October Manifesto (October 1905, promises) vs the Fundamental Laws (April 1906, limits that took much back).
+- The October Manifesto (October 1905, promises) vs the Fundamental Laws (6 May 1906, limits that took much back).
 - The Petrograd Soviet (a council of workers' and soldiers' deputies) vs the Duma (the elected parliament) vs the Provisional Government (the ministers drawn from the Duma).
 - Bolsheviks (Lenin) vs Mensheviks (Martov) vs SRs (peasant socialists, largest vote in 1917) vs Kadets (liberals) vs Octobrists (moderate conservatives).
 - Lvov (first head of the Provisional Government) vs Kerensky (from July 1917). Kornilov (general, failed coup) vs Kolchak (admiral, White leader in Siberia).

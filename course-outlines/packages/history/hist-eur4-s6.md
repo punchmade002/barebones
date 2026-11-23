@@ -103,13 +103,13 @@ Do not name any person, place, date or figure that is not on this list.
 | B4 | Benelux customs union: convention signed 1944 (London), operating from 1 January 1948. |
 | B5 | ECSC: Treaty of Paris 1951, in force 1952 (coal and steel). EEC: Treaty of Rome signed 25 March 1957, in force 1 January 1958; six members (Belgium, France, West Germany, Italy, Luxembourg, Netherlands). EFTA: Stockholm Convention 1960 (Britain, Norway, Sweden, Denmark, Austria, Switzerland, Portugal). |
 | B6 | EEC internal industrial tariffs abolished 1 July 1968, 18 months early. Common Agricultural Policy in operation from 1962. |
-| G1 | Currency reform 20 June 1948 introduced the Deutsche Mark in the Western zones (an Allied measure). Ludwig Erhard, then director of economic administration, ended most price controls days later; economics minister 1949–63. Growth in the 1950s over 7 per cent a year on average; unemployment below 1 per cent by 1960–61. "Wirtschaftswunder" and "social market economy" terms. |
+| G1 | Currency reform 20 June 1948 introduced the Deutsche Mark in the Western zones (an Allied measure). Ludwig Erhard, then director of economic administration, ended most price controls days later; economics minister 1949–63. Growth in the 1950s over 7 per cent a year on average; unemployment under 1 per cent from 1961 (about 1.3 per cent in 1960). "Wirtschaftswunder" and "social market economy" terms. |
 | G2 | Jean Monnet's Plan of 1946–47 led by the Commissariat général du Plan; priorities were coal, electricity, steel, cement, transport and farm machinery. "Trente glorieuses" was coined by the economist Jean Fourastié (1979), covering about 1945–75. Renault was nationalised in 1945. |
 | G3 | Italian boom roughly 1958–63; Fiat cars and domestic appliances; mass migration from the Mezzogiorno (southern Italy) to Turin, Milan and abroad. |
 | G4 | Britain grew more slowly than the continental economies; balance-of-payments crises produced "stop-go" policy. |
 | I2 | West Germany's recruitment agreements: Italy 1955, Spain and Greece 1960, Turkey 1961, Yugoslavia 1968; Berlin Wall built August 1961; recruitment halted November 1973, by which time there were well over two million foreign workers. |
 | I3 | Independence of Algeria 1962; several hundred thousand pieds-noirs (settlers of European origin) moved to France; workers from Algeria, Morocco, Tunisia and Portugal in construction and car plants. |
-| I4 | Empire Windrush docked at Tilbury 22 June 1948 with about 500 Caribbean passengers. British Nationality Act 1948; Commonwealth Immigrants Acts 1962 and 1968; Race Relations Act 1965. Migrants also came from India, Pakistan and the Caribbean and worked in the NHS, transport and textiles. |
+| I4 | Empire Windrush docked at Tilbury 22 June 1948 with several hundred Caribbean passengers (over 1,000 passengers on board). British Nationality Act 1948; Commonwealth Immigrants Acts 1962 and 1968; Race Relations Act 1965. Migrants also came from India, Pakistan and the Caribbean and worked in the NHS, transport and textiles. |
 | W1 | Beveridge Report, December 1942: five giant evils of want, disease, ignorance, squalor and idleness. Sir William Beveridge. |
 | W2 | Clement Attlee, prime minister 1945–51. National Insurance Act 1946; National Health Service founded 5 July 1948 (Aneurin Bevan, minister of health); coal nationalised 1947, railways 1948, Bank of England 1946. Education Act 1944 (secondary education free). |
 | W3 | French social security system created by ordinances of October 1945. |
@@ -129,6 +129,8 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: the Netherlands receiving migrants from Surinam as a 1945–73 example, because most Surinamese came around 1975; keep to Indonesia (Dutch-Indonesians from 1945 onwards).
 - Do not use: "from the cradle to the grave" as a Beveridge phrase; it was not in the report.
 - Do not use: "Marshall Aid supported Christian Democratic and social democratic parties against the communists" as a claim of direct party funding; say aid was meant to strengthen stability and weaken communism's appeal.
+- Do not use: "about 500 Caribbean passengers" on the Windrush, because the ship carried over 1,000 passengers, several hundred of them from the Caribbean; about 492 is only the Jamaican group; say "several hundred Caribbean passengers".
+- Do not use: West German unemployment "below 1 per cent by 1960", because it was about 1.3 per cent in 1960 and under 1 per cent only from 1961.
 - Do not use: the Common Agricultural Policy as dated 1968; it began in 1962, with the 1968 date relating to the removal of industrial tariffs and the common farm prices.
 
 Confusable people, terms and dates

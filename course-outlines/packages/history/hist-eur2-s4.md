@@ -168,7 +168,7 @@ only where the table does.
 | J5 | Grey proposed a conference on 26 July; Germany declined. Telegrams between Wilhelm II and Nicholas II ("Willy–Nicky" telegrams), late July 1914. Sergei Sazonov, Russian foreign minister. |
 | J6 | Austria-Hungary declared war on Serbia 28 July 1914; Belgrade shelled from 29 July. |
 | J7 | Russia: partial mobilisation 29 July, general mobilisation 30 July. Germany demanded Russia stop (31 July). Germany and France ordered general mobilisation 1 August. Germany declared war on Russia 1 August. Austria-Hungary declared war on Russia 6 August. |
-| J8 | Alfred von Schlieffen, Chief of the German General Staff 1891–1905, drew up the plan (1905). Helmuth von Moltke (the Younger), Chief of the General Staff in 1914, modified it. Aim: defeat France in about six weeks through Belgium before Russia was fully mobilised, then turn east. |
+| J8 | Alfred von Schlieffen, Chief of the German General Staff 1891–1906 (stepped down 1 January 1906), drew up the plan (memorandum of December 1905). Helmuth von Moltke (the Younger), Chief of the General Staff in 1914, modified it. Aim: defeat France in about six weeks through Belgium before Russia was fully mobilised, then turn east. |
 | J9 | German ultimatum to Belgium 2 August; Belgium refused 3 August. Germany declared war on France 3 August; invaded Belgium 4 August. |
 | J10 | Treaty of London 1839: Britain among the guarantors of Belgian neutrality. Britain's ultimatum to Germany expired at 11 pm (London time) on 4 August 1914 and Britain was at war. Bethmann Hollweg called the 1839 treaty "a scrap of paper" (to the British ambassador, Sir Edward Goschen, 4 August 1914). |
 | J11 | Italy declared neutrality in early August 1914 (it entered the war on the Entente side in 1915). |
@@ -223,7 +223,7 @@ Confusables:
 - Obrenović (pro-Austrian dynasty to 1903) vs Karadjordjević (pro-Russian dynasty from 1903).
 - The Black Hand (Unification or Death, officers, 1911) vs the Narodna Odbrana (National Defence, 1908, a public nationalist society) vs Young Bosnia (Bosnian youth, Princip's group).
 - Aehrenthal (Austrian foreign minister in 1908) vs Berchtold (in 1914). Izvolsky (Russian foreign minister in 1908) vs Sazonov (in 1914).
-- Schlieffen (drew up the plan, retired 1905) vs Moltke the Younger (commanded in 1914).
+- Schlieffen (drew up the plan in 1905, retired early 1906) vs Moltke the Younger (commanded in 1914).
 - Partial mobilisation (against Austria-Hungary only) vs general mobilisation (which Germany treated as a cause of war).
 - Karl Liebknecht (Luxemburg's partner in the Spartacists, murdered with her) vs his father Wilhelm Liebknecht (SPD founder). Do not mention the father.
 - The Second International (1889–1914, socialist parties) vs the Third International (Comintern, 1919, communist) vs the First International (1864, Marx's era; one clause at most).

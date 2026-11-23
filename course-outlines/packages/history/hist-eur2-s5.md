@@ -49,7 +49,7 @@ The Western Front, 1915–1917: attrition
 - [ ] W2 Verdun (21 February–18 December 1916): Falkenhayn's attack and his later claimed aim to "bleed France white"; losses of hundreds of thousands on each side; the French held.
 - [ ] W3 Pétain at Verdun: rotation of divisions, the Sacred Way (Voie Sacrée) supply road; Verdun as the symbol of French endurance.
 - [ ] W4 The Somme (1 July–18 November 1916): joint Anglo-French, partly to relieve Verdun; the week-long bombardment; first day about 57,000 British casualties, about 19,000 killed, the worst day in the British Army's history.
-- [ ] W5 The Somme's results: a few kilometres gained; over a million casualties across all armies; Kitchener's volunteer "Pals" battalions; first use of tanks (T6); German losses also heavy.
+- [ ] W5 The Somme's results: ground gained up to about 10 kilometres at the deepest point (far less on most of the front); over a million casualties across all armies; Kitchener's volunteer "Pals" battalions; first use of tanks (T6); German losses also heavy.
 - [ ] W6 Irish divisions on the Western Front: the 36th (Ulster) Division at Thiepval on 1 July 1916; the 16th (Irish) Division at Guillemont and Ginchy (September 1916); both side by side at Messines (June 1917).
 - [ ] W7 Nivelle's offensive on the Chemin des Dames (April 1917) failed; French army mutinies (spring 1917); Pétain replaced Nivelle and restored morale by improving conditions and avoiding big attacks.
 - [ ] W8 Arras (April 1917): British offensive, including the Canadian capture of Vimy Ridge.
@@ -100,7 +100,7 @@ The USA's entry and the end of the war, 1917–1918
 
 Key personality: Douglas Haig
 - [ ] H1 Who he was: born in Edinburgh in 1861 into the Haig whisky family; Oxford and Sandhurst; cavalry officer (7th Hussars); Staff College; service in the Sudan (Omdurman, 1898) and the Boer War.
-- [ ] H2 1914–15: commanded I Corps in the BEF (Mons, the retreat, First Ypres), then the First Army (1915, including Loos).
+- [ ] H2 1914–15: commanded I Corps in the BEF (Mons, the retreat, First Ypres), then the First Army from December 1914 (it fought at Neuve Chapelle and Loos in 1915).
 - [ ] H3 Commander-in-chief of the BEF from December 1915 (succeeding Sir John French) to the end of the war; field marshal from 1 January 1917.
 - [ ] H4 His battles: the Somme (1916); Arras and Passchendaele (1917); the defence against the 1918 Spring Offensive and the "backs to the wall" order; the Hundred Days, in which the BEF played the leading part and took many prisoners.
 - [ ] H5 His methods and beliefs: a believer in attrition and in the decisive breakthrough with cavalry to exploit it; confidence before battle (his diary on the eve of the Somme); support for new weapons such as tanks.
@@ -132,7 +132,7 @@ Assessment
 | W2 | Verdun, 21 February–18 December 1916. Falkenhayn, German chief of staff. Each side lost over 300,000 casualties; total about 700,000 (say "about"). |
 | W3 | Pétain took command at Verdun in late February 1916. Voie Sacrée (Sacred Way): the road from Bar-le-Duc. |
 | W4 | Somme, 1 July–18 November 1916. First day: about 57,000 British casualties, about 19,000 killed. The bombardment lasted about a week (from 24 June). |
-| W5 | Maximum advance about 10 kilometres. Total casualties over a million, all armies. Example of a Pals battalion: the Accrington Pals. |
+| W5 | Maximum advance about 10 kilometres at the deepest point; far less on most of the front. Total casualties over a million, all armies. Example of a Pals battalion: the Accrington Pals. |
 | W6 | 36th (Ulster) Division at Thiepval, 1 July 1916; 16th (Irish) Division took Guillemont and Ginchy, 3 and 9 September 1916; Tom Kettle killed at Ginchy (9 September 1916); both divisions took Wytschaete at Messines, June 1917, where Major Willie Redmond MP was killed. |
 | W7 | Nivelle offensive, Chemin des Dames, from 16 April 1917; mutinies affected many French divisions in May–June 1917; Pétain replaced Nivelle in May 1917. |
 | W8 | Arras, from 9 April 1917; Canadian Corps took Vimy Ridge, 9–12 April 1917. |
@@ -169,7 +169,7 @@ Assessment
 | U7 | Armistice signed at Compiègne about 5 a.m. on 11 November 1918, in effect 11 a.m. Foch led the Allied delegation. |
 | U8 | Military deaths about 9 to 10 million (some estimates lower, about 8.5 million). |
 | H1 | Born Edinburgh, 1861; studied at Oxford (Brasenose College) and Sandhurst; 7th Hussars; Omdurman 1898; Boer War 1899–1902. |
-| H2 | I Corps 1914; First Army from early 1915; Loos, September 1915. |
+| H2 | I Corps 1914; First Army from December 1914 (formed about 25-26 December); Neuve Chapelle, March 1915; Loos, September 1915. |
 | H3 | C-in-C BEF from December 1915; field marshal 1 January 1917. |
 | H7 | Earl Haig 1919; £100,000 voted by Parliament; British Legion founded 1921 with Haig as its first president; died 29 January 1928. |
 | H9 | Lloyd George, War Memoirs, published in the 1930s. Alan Clark, The Donkeys, 1961. Oh! What a Lovely War, stage 1963, film 1969. Blackadder Goes Forth, 1989. Denis Winter, Haig's Command (1991); Gerard De Groot, a critical biography of Haig (1988). |
@@ -179,6 +179,8 @@ Assessment
 ## 3. Traps
 
 Do not use (wrong or doubtful facts in the current notes):
+- Do not use: the Somme gained "a few kilometres" as the only figure, because the maximum advance was about 10 km; say up to about 10 km at the deepest point.
+- Do not use: Haig's First Army formed "from early 1915", because it was formed in December 1914; say First Army from December 1914.
 - Do not use: the Marne halted the Germans "about 40 kilometres from Paris", because the distance varies by source; say the Germans came close to Paris.
 - Do not use: gas at Second Ypres "released against French colonial and Canadian troops" as one event, because on 22 April the chlorine hit French and Algerian troops; the Canadians were gassed two days later. Use the wording in section 2.
 - Do not use: the Somme "wiped out the male population of some local communities", because it overstates; say the Pals battalions brought heavy losses to particular towns, such as Accrington, at once.

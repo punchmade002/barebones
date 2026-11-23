@@ -132,7 +132,7 @@ entry, describe it without one.
 | J2 | Visit to Poland 2–10 June 1979, his first as pope. Open-air Mass in Victory Square, Warsaw, 2 June 1979, where he prayed: "Let your Spirit descend, and renew the face of the earth, the face of this land." Millions saw him in person during the visit (give no exact figure). |
 | J3 | August 1980: the pope's picture hung on the Gdańsk shipyard gate during the strike. Return visits to Poland in June 1983 (met Wałęsa) and June 1987. |
 | J4 | Shot in St Peter's Square, Rome, 13 May 1981 by Mehmet Ali Ağca, a Turkish gunman; he recovered. Claims of Bulgarian or Soviet involvement have never been proven. |
-| J5 | Received Gorbachev in the Vatican, 1 December 1989: the first meeting of a Soviet leader and a pope. |
+| J5 | Received Gorbachev in the Vatican, 1 December 1989: the first Soviet Communist Party leader (General Secretary) to meet a pope. |
 | J6 | Gorbachev later wrote (1992) that what happened in Eastern Europe would have been impossible without the pope (paraphrase; no quotation marks). |
 | S1 | December 1970: price rises caused strikes on the Baltic coast (Gdańsk, Gdynia, Szczecin); troops fired on workers; Gomułka replaced by Edward Gierek. Gierek borrowed heavily from the West in the 1970s; protests at price rises in 1976. Meat-price rises: July 1980. |
 | S2 | Strike at the Lenin Shipyard, Gdańsk, began 14 August 1980 (sparked by the sacking of the crane operator Anna Walentynowicz). Inter-factory strike committee's 21 demands (free trade unions, right to strike, release of political prisoners, access to the media, better supplies). Gdańsk Agreement signed 31 August 1980. |
@@ -175,6 +175,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "Charter 77 … led by Václav Havel", because it had three first spokesmen (Havel, Patočka, Hájek) and no single leader. Say Havel was one of its spokesmen and its best-known figure.
 - Do not use: "the first non-communist government in the Soviet bloc since 1948" for Mazowiecki, because the "1948" is doubtful (Poland's communists dominated government from 1945–47); say "the first non-communist-led government in the Soviet bloc in over forty years".
 - Do not use: "in 1988 he became chairman of the Supreme Soviet", because in 1988 he became chairman of the Presidium of the Supreme Soviet (head of state); the chairmanship of the new Supreme Soviet came in 1989. Say "head of state from 1988".
+- Do not use: "the first meeting of a Soviet leader and a pope" (Gorbachev, 1 December 1989), because Soviet head of state Podgorny met Paul VI in 1967 and Gromyko met Paul VI (1966) and John Paul II (1979); say "the first Soviet Communist Party leader to meet a pope".
 - Do not use: "a Mass attended by hundreds of thousands" or any crowd figure for the 1979 visit, because estimates vary widely; say "huge crowds".
 - Do not use: "it spread to hundreds of towns before it was crushed" alongside "suppressed in East Berlin and other towns" as two separate facts; say it once.
 - Do not use: "Soviet archives show the Soviet leaders did not plan to send troops in" as settled fact, because historians still debate how to read the December 1981 records and whether the threat was real; present both views.

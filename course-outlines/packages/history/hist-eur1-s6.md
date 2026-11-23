@@ -67,7 +67,7 @@ The February Revolution and the Second Republic, 1848
 
 The presidency and the road to Empire, 1849–1852
 - [ ] P1 The Roman expedition (1849): French troops crushed the Roman Republic and restored Pius IX, winning Catholic support.
-- [ ] P2 The Legislative Assembly elections (May 1849): a large Party of Order majority (monarchists and conservatives), but a strong democratic-socialist left; Ledru-Rollin's failed protest (June 1849) and exile.
+- [ ] P2 The Legislative Assembly elections (May 1849): a clear Party of Order majority (monarchists and conservatives, about 450 of 750 seats), but a strong democratic-socialist left; Ledru-Rollin's failed protest (June 1849) and exile.
 - [ ] P3 The conservative laws: the Falloux Law (March 1850) gave the Church a large role in education; the law of 31 May 1850 cut about three million voters. Louis-Napoleon later posed as the defender of universal suffrage against the Assembly.
 - [ ] P4 The failed revision (July 1851): a majority voted to let him stand again, but not the three-quarters the constitution required.
 - [ ] P5 The coup of 2 December 1851: the date's symbolism, Morny, arrests of deputies, universal suffrage restored, resistance in Paris and the provinces, mass arrests and transportation.
@@ -86,7 +86,7 @@ Key personality: Napoleon III (one block, every point)
 
 The authoritarian Empire, 1852–1860
 - [ ] E1 How the system worked: ministers answerable only to the emperor; an appointed Senate; the Corps législatif could not propose laws; official candidates backed by the prefects; plebiscites as the link with the people.
-- [ ] E2 Repression: press controls (the 1852 press decree's system of warnings and suspensions), exile of opponents, the Orsini bomb (1858) and the Law of General Security; only five republican deputies elected in 1857 ("the Five").
+- [ ] E2 Repression: press controls (the 1852 press decree's system of warnings and suspensions), exile of opponents, the Orsini bomb (1858) and the Law of General Security; only a handful of republican deputies ("the Five", including Ollivier).
 - [ ] E3 Economic growth: new banks (Crédit Mobilier and Crédit Foncier, 1852), a railway boom, the Paris Exhibitions of 1855 and 1867, the Suez Canal (opened 1869); Saint-Simonian ideas of state-led investment.
 - [ ] E4 The rebuilding of Paris under Haussmann (from 1853): one bullet only, as part of domestic policy (prestige, health, traffic, control of riots).
 - [ ] E5 Social policy: mutual aid societies, the right to strike (1864), Victor Duruy's expansion of primary schooling (minister 1863–69).
@@ -173,7 +173,7 @@ Do not name any person, place, date or figure that is not on this list.
 | R8 | Constitution of 4 November 1848: president elected by universal male suffrage for four years, not re-eligible at once; single-chamber Legislative Assembly of 750. |
 | R9 | 10 December 1848: Louis-Napoleon about 5.4 million votes (about 74 per cent); Cavaignac about 1.4 million; Ledru-Rollin about 370,000; Lamartine under 20,000. Louis-Napoleon had been elected to the Assembly in by-elections of June and September 1848. |
 | P1 | French troops under General Oudinot took Rome, July 1849, and restored Pius IX's rule. |
-| P2 | Legislative Assembly elections, May 1849: the Party of Order won a large majority (roughly two-thirds of seats); the democratic-socialists (the "Montagne") won a substantial minority. Ledru-Rollin's protest rising in Paris, 13 June 1849, failed; he fled to exile in London. |
+| P2 | Legislative Assembly elections, May 1849: the Party of Order won a clear majority (about 450 of 750 seats, roughly 60 per cent); the democratic-socialists (the "Montagne") won a substantial minority. Ledru-Rollin's protest rising in Paris, 13 June 1849, failed; he fled to exile in London. |
 | P3 | Falloux Law, 15 March 1850 (named after the minister Alfred de Falloux). Electoral law of 31 May 1850: three years' residence required, removing about 3 million voters, mostly workers. |
 | P4 | Revision vote, July 1851: a majority for, but short of the three-quarters required. |
 | P5 | 2 December 1851: anniversary of Napoleon I's coronation (1804) and of Austerlitz (1805). Charles de Morny, his half-brother, was Minister of the Interior. Deputies arrested, including Thiers and Cavaignac; the Assembly dissolved; universal male suffrage restored. Barricades in Paris (3–4 December), where the deputy Baudin was killed and troops fired on crowds on the boulevards; risings in parts of the centre and south. About 26,000–27,000 arrested; thousands transported to Algeria or French Guiana. |
@@ -185,7 +185,7 @@ Do not name any person, place, date or figure that is not on this list.
 | N6 | Karl Marx, The Eighteenth Brumaire of Louis Bonaparte (1852): history repeats itself "the first time as tragedy, the second time as farce". |
 | N7 | Theodore Zeldin, The Political System of Napoleon III (1958). Roger Price, books on the Second Empire (1997, 2001). |
 | E1 | Senate appointed for life; Council of State drafted laws; Corps législatif elected by universal male suffrage but could only vote on laws put to it. |
-| E2 | Press decree, February 1852: newspapers needed government authorisation; two official warnings could lead to suspension. Felice Orsini's bombs, 14 January 1858; Law of General Security, February 1858, allowed arrest and deportation without trial. 1857 elections: five republican deputies ("the Five"), among them Émile Ollivier. |
+| E2 | Press decree, February 1852: newspapers needed government authorisation; two official warnings could lead to suspension. Felice Orsini's bombs, 14 January 1858; Law of General Security, February 1858, allowed arrest and deportation without trial. Opposition: a handful of republican deputies ("the Five"), including Émile Ollivier. |
 | E3 | Crédit Mobilier founded 1852 by Émile and Isaac Pereire; Crédit Foncier 1852; Crédit Lyonnais 1863; Société Générale 1864. Railways grew from about 3,000–3,500 km in 1851 to about 17,000–18,000 km by 1870. Paris Exhibitions (Expositions Universelles) 1855 and 1867. Suez Canal, built by Ferdinand de Lesseps, opened November 1869 with Empress Eugénie present. |
 | E4 | Georges-Eugène Haussmann, Prefect of the Seine, 1853–70. |
 | E5 | Law of 1864 legalised strikes (proposed by Ollivier). Victor Duruy, Minister of Public Instruction 1863–69. |
@@ -221,6 +221,8 @@ Do not name any person, place, date or figure that is not on this list.
 ## 3. Traps
 
 Do not use (wrong or doubtful facts in the current notes):
+- Do not use: the Party of Order won "roughly two-thirds of seats" in May 1849, because the conservatives won about 450 of 750 seats, roughly 60 per cent. Say "a clear majority, about 450 of 750 seats".
+- Do not use: "five republican deputies elected in 1857" as the Five, because the group usually called the Five (Ollivier, Darimon, Hénon, Favre, Picard) was not all elected in 1857: Favre and Picard entered in 1858 by-elections. Say "a handful of republican deputies (the Five), including Ollivier".
 - Do not use: universal male suffrage granted "on 2 March 1848", because the decree on universal suffrage was dated 5 March 1848; the 2 March decree cut the working day in Paris. Write "March 1848" or "5 March 1848". (The fact card dated 2 March is wrong; the notes must not repeat it.)
 - Do not use: "Louis XVIII's government carried out a White Terror", because the killings of 1815 were mainly by royalist mobs in the south; the government's part was the official purge that followed (Ney's execution). Say royalist mobs carried out the White Terror and the government followed with purges.
 - Do not use: "the elections of 1827 returned a liberal opposition majority", because the anti-Villèle majority combined liberals and discontented royalists. Say the 1827 elections went against the government and Villèle resigned.

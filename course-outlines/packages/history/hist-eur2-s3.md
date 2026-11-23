@@ -143,8 +143,8 @@ example here, describe it without one.
 | N6 | The Navy Laws fixed the size of the fleet and the replacement of ships in law, so later Reichstags had to fund them. |
 | N7 | The Navy Office's News Bureau organised press and lecture campaigns; academic supporters were called Flottenprofessoren ("fleet professors"). The Navy League was funded in part by industrialists including Krupp. Give no membership figure; describe it as a mass organisation. |
 | N8 | Krupp of Essen supplied armour plate and guns; Blohm & Voss (Hamburg) built warships. |
-| N9 | First Navy Law passed by the Reichstag on 26 March 1898: 19 battleships, with cruisers and coastal armoured ships, to be built by 1904; spending fixed for about seven years. |
-| N10 | Second Navy Law, June 1900: the battleship target doubled to 38 (to be reached over about twenty years), plus more cruisers. In January 1900 the Royal Navy stopped and searched German mail steamers (including the Bundesrath) off East Africa, suspecting contraband for the Boers; this caused anger in Germany that helped pass the law. |
+| N9 | First Navy Law passed by the Reichstag on 26 March 1898: 19 battleships, with cruisers and coastal armoured ships, to be built by 1904; spending fixed in law up to 1904. |
+| N10 | Second Navy Law, June 1900: the battleship target doubled to 38 (to be reached over about twenty years), plus more cruisers. From late December 1899 to January 1900 the Royal Navy stopped and searched German mail steamers (Bundesrath, Herzog, General) off south-east Africa, suspecting contraband for the Boers; this caused anger in Germany that helped pass the law. |
 | N11 | Sir John Fisher (later Lord Fisher) First Sea Lord October 1904–1910 and again 1914–15. He scrapped many old ships and brought warships home to face the North Sea. The Riddle of the Sands by Erskine Childers (1903), a novel about a German invasion plan; William Le Queux's The Invasion of 1910 (1906), serialised in the Daily Mail. A British Navy League existed from 1894. |
 | N12 | HMS Dreadnought launched 10 February 1906 at Portsmouth by Edward VII; completed in December 1906. Ten 12-inch guns, steam turbines, a speed of about 21 knots. "Dreadnought" became the name for all battleships of her type ("pre-dreadnought" for older ones). |
 | N13 | SMS Nassau, Germany's first dreadnought, launched March 1908. The 1906 supplementary law added large cruisers and provided for widening the Kiel Canal; the 1908 law cut the life of a battleship from 25 to 20 years, so Germany would build four capital ships a year for 1908–11. The widened Kiel Canal reopened in June 1914. |
@@ -164,9 +164,11 @@ example here, describe it without one.
 
 Do not use (wrong or doubtful facts in the current notes):
 - Do not use: Wilhelm II was "first cousin to Tsar Nicholas II", because they were only distant cousins; George V and Tsarina Alexandra were his first cousins.
+- Do not use: the First Navy Law fixed spending "for about seven years" or was a "Septennat"; the term is for the army budget, and the naval programme is usually called a six-year one. Say spending was fixed in law up to 1904.
+- Do not use: the Bundesrath was seized in January 1900; it was stopped off Delagoa Bay on 29 December 1899.
 - Do not use: the First Navy Law authorised "19 battleships, 8 large cruisers and 12 small cruisers", because the cruiser figures are wrong or doubtful. Give 19 battleships, with cruisers and coastal ships, by 1904.
 - Do not use: the Second Navy Law planned "20 large cruisers" or "four squadrons of eight, plus a flagship and reserve" as exact composition, because the breakdown is doubtful; give 38 battleships over about twenty years.
-- Do not use: the Second Navy Law "was passed amid British anger over the Boer War"; the anger was German, at the British stopping of German mail steamers (January 1900).
+- Do not use: the Second Navy Law "was passed amid British anger over the Boer War"; the anger was German, at the British stopping of German mail steamers (late December 1899 to January 1900; the Bundesrath was seized off Delagoa Bay on 29 December 1899).
 - Do not use: "as a boy he had been impressed by Queen Victoria's fleet at Spithead", because the childhood detail is unverified; use his honorary British admiralty and the 1889 Spithead review.
 - Do not use: the Navy League "grew to over a million members", because the figure counts affiliated bodies and sources differ; call it a mass organisation.
 - Do not use: "diplomats such as Holstein ... saw him as unpredictable and dangerous" as a named contemporary view, because the attribution is doubtful; describe critics in general terms.
