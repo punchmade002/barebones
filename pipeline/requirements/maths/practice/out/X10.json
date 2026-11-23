@@ -64,7 +64,7 @@
      "finalAnswer": "60"
     },
     "finalSym": "60",
-    "answerSym": "igcd(180, 300)"
+    "answerSym": "gcd(180, 300)"
    },
    {
     "question": "A baker has 60 buns, 90 scones and 150 muffins. She packs them into identical boxes with no items left over. Each box has the same number of buns, the same number of scones and the same number of muffins.\nWrite 60, 90 and 150 each as a product of primes and hence find the greatest number of boxes she can make.",
@@ -125,7 +125,7 @@
      "finalAnswer": "30 \\text{ boxes}"
     },
     "finalSym": "30",
-    "answerSym": "igcd(igcd(60, 90), 150)"
+    "answerSym": "gcd(gcd(60, 90), 150)"
    }
   ]
  },
