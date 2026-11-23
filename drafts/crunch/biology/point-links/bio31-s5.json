@@ -1,0 +1,450 @@
+{
+ "bio31-s5.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.0",
+    "strength": "essential",
+    "why": "four population change processes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.0.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s5.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.4",
+    "strength": "essential",
+    "why": "limiting factor idea",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.3",
+    "strength": "essential",
+    "why": "carrying capacity definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.3",
+    "strength": "essential",
+    "why": "carrying capacity as upper limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.2.2",
+    "strength": "helpful",
+    "why": "abiotic factors defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.4",
+    "strength": "helpful",
+    "why": "water as limiting factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s5.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s5.1.0",
+    "strength": "helpful",
+    "why": "water shortage on dunes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.1.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s5.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.1.2",
+    "strength": "essential",
+    "why": "oxygen limits aquatic animals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.1.4",
+    "strength": "helpful",
+    "why": "territory and space",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.1.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s5.1.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s5.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.1.7",
+    "strength": "helpful",
+    "why": "soil as limiting factor",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s5.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.1.7",
+    "strength": "helpful",
+    "why": "soil limits plants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.1.7",
+    "strength": "helpful",
+    "why": "soil limits plants",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s5.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.2.2",
+    "strength": "helpful",
+    "why": "canopy shading of floor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s1.2.1",
+    "strength": "helpful",
+    "why": "biotic factors defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.0",
+    "strength": "helpful",
+    "why": "food limits animals",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s5.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.2",
+    "strength": "helpful",
+    "why": "disease limiting populations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.3.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s5.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.4",
+    "strength": "essential",
+    "why": "competition between species",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.6",
+    "strength": "essential",
+    "why": "predation limits prey",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.6",
+    "strength": "helpful",
+    "why": "predation limits herbivores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.6",
+    "strength": "helpful",
+    "why": "predator absence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio31-s5.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.4.0",
+    "strength": "essential",
+    "why": "deer without predators",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.4.1",
+    "strength": "helpful",
+    "why": "deer damage to habitat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.5.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio31-s5.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.5.0",
+    "strength": "essential",
+    "why": "density-dependent factors",
+    "confidence": "high"
+   },
+   {
+    "id": "bio31-s5.0.3",
+    "strength": "essential",
+    "why": "carrying capacity K",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.5.0",
+    "strength": "helpful",
+    "why": "contrast with density-dependent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.5.2",
+    "strength": "essential",
+    "why": "density-independent factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.6",
+    "strength": "helpful",
+    "why": "carrying capacity changes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.5.4",
+    "strength": "helpful",
+    "why": "human effects on capacity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.5",
+    "strength": "helpful",
+    "why": "factors acting together",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.5.0",
+    "strength": "essential",
+    "why": "density-dependent limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.6",
+    "strength": "helpful",
+    "why": "predation as limiting factor",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.3.2",
+    "strength": "helpful",
+    "why": "disease spreads in dense populations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio31-s5.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.5.2",
+    "strength": "essential",
+    "why": "density-independent factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s5.0.5",
+    "strength": "essential",
+    "why": "factors acting together set K",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio31-s5.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio31-s5.0.3",
+    "strength": "essential",
+    "why": "carrying capacity K",
+    "confidence": "high"
+   }
+  ]
+ }
+}

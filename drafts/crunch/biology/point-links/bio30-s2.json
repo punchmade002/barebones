@@ -1,0 +1,754 @@
+{
+ "bio30-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.2.0",
+    "strength": "helpful",
+    "why": "xylem carries water",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "helpful",
+    "why": "stomata as pores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.0.6",
+    "strength": "helpful",
+    "why": "dilute vs concentrated solutions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis direction of water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "osmosis cell to cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.5.6",
+    "strength": "helpful",
+    "why": "endodermis around vascular tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.1.2",
+    "strength": "helpful",
+    "why": "transpiration pull as driving force",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.0",
+    "strength": "helpful",
+    "why": "root pressure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s2.8.0",
+    "strength": "helpful",
+    "why": "cohesion-tension model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "helpful",
+    "why": "osmosis into mesophyll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion down gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.1.1",
+    "strength": "essential",
+    "why": "evaporation from leaves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.1.2",
+    "strength": "helpful",
+    "why": "transpiration pull is passive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.0.0",
+    "strength": "helpful",
+    "why": "route of water",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "helpful",
+    "why": "stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.2.0",
+    "strength": "helpful",
+    "why": "transpiration definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.0.1",
+    "strength": "helpful",
+    "why": "transpiration stream",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.3.3",
+    "strength": "helpful",
+    "why": "turgid cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.b",
+    "strength": "helpful",
+    "why": "stomata let CO2 in",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s2.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.3.3",
+    "strength": "helpful",
+    "why": "turgor and wilting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.2.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "essential",
+    "why": "stoma between guard cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "active transport of K+",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "water enters by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.3.0",
+    "strength": "essential",
+    "why": "thick inner wall",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.3.3",
+    "strength": "helpful",
+    "why": "turgid cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.3.1",
+    "strength": "essential",
+    "why": "reverse of opening",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.3.2",
+    "strength": "helpful",
+    "why": "open guard cell shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.2.4",
+    "strength": "helpful",
+    "why": "CO2 needed via stomata",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.4.0",
+    "strength": "helpful",
+    "why": "when stomata open",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.2.5",
+    "strength": "helpful",
+    "why": "wilting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.2",
+    "strength": "helpful",
+    "why": "stomata on shaded lower surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.9.0",
+    "strength": "helpful",
+    "why": "waxy cuticle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.5.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio25-s1.4.0",
+    "strength": "essential",
+    "why": "active transport against gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio25-s1.1.0",
+    "strength": "essential",
+    "why": "diffusion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.6.1",
+    "strength": "essential",
+    "why": "active transport needs ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.6.3",
+    "strength": "essential",
+    "why": "roots need oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.0.1",
+    "strength": "essential",
+    "why": "transpiration stream carries minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.6.1",
+    "strength": "essential",
+    "why": "ion pumping into root",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.0",
+    "strength": "helpful",
+    "why": "xylem",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s2.7.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.6.1",
+    "strength": "helpful",
+    "why": "active pumping of ions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio25-s1.2.0",
+    "strength": "essential",
+    "why": "water enters by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.1",
+    "strength": "helpful",
+    "why": "root pressure cause",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.0",
+    "strength": "helpful",
+    "why": "root pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.3",
+    "strength": "essential",
+    "why": "guttation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.1",
+    "strength": "helpful",
+    "why": "active process in living cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.5",
+    "strength": "essential",
+    "why": "conditions that stop it",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.0",
+    "strength": "helpful",
+    "why": "root pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.7.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.0",
+    "strength": "helpful",
+    "why": "root pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.1.1",
+    "strength": "helpful",
+    "why": "evaporation and diffusion from leaf",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.1.0",
+    "strength": "helpful",
+    "why": "water to mesophyll by osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s2.1.2",
+    "strength": "essential",
+    "why": "transpiration pull",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.8.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.8.4",
+    "strength": "helpful",
+    "why": "cohesion of water column",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s2.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.0.2",
+    "strength": "helpful",
+    "why": "water into root hairs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s2.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.6",
+    "strength": "helpful",
+    "why": "lignin stops collapse",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.8.3",
+    "strength": "essential",
+    "why": "tension in xylem",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.8.3",
+    "strength": "essential",
+    "why": "xylem under tension",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.9.1",
+    "strength": "essential",
+    "why": "air breaks column",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.8.5",
+    "strength": "helpful",
+    "why": "adhesion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.0",
+    "strength": "essential",
+    "why": "root pressure pushes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s2.8.3",
+    "strength": "essential",
+    "why": "tension pulls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.1",
+    "strength": "helpful",
+    "why": "root pressure uses ATP",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s2.8.7",
+    "strength": "helpful",
+    "why": "passive cohesion-tension",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.8",
+    "strength": "helpful",
+    "why": "root pressure weak",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s2.7.7",
+    "strength": "helpful",
+    "why": "root pressure timing",
+    "confidence": "high"
+   }
+  ]
+ }
+}

@@ -1,0 +1,860 @@
+{
+ "bio30-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.0.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio30-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.0.0",
+    "strength": "helpful",
+    "why": "leaves make sugar by photosynthesis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "xylem and phloem as transport tissues",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "xylem and phloem as vascular tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.0",
+    "strength": "helpful",
+    "why": "epidermis as dermal tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.0",
+    "strength": "helpful",
+    "why": "epidermis as dermal tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.1.2",
+    "strength": "helpful",
+    "why": "vacuole as fluid-filled sac",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.1.3",
+    "strength": "essential",
+    "why": "ground tissue definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.0.1",
+    "strength": "helpful",
+    "why": "turgid cells from water pressure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "xylem and phloem roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "xylem carries water and minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.1",
+    "strength": "essential",
+    "why": "dead hollow xylem cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.1",
+    "strength": "helpful",
+    "why": "dead hollow xylem cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.3",
+    "strength": "essential",
+    "why": "pits in tracheid walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.1",
+    "strength": "helpful",
+    "why": "xylem cell walls",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.2.5",
+    "strength": "essential",
+    "why": "lignin thickening of walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.2",
+    "strength": "essential",
+    "why": "xylem vessel structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.2.3",
+    "strength": "helpful",
+    "why": "tracheid structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "phloem carries dissolved food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.3.0",
+    "strength": "helpful",
+    "why": "phloem carries sap",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.3.1",
+    "strength": "essential",
+    "why": "sieve tube elements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.3.1",
+    "strength": "essential",
+    "why": "sieve tube elements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.3.3",
+    "strength": "essential",
+    "why": "companion cell beside sieve tube",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "essential",
+    "why": "mitochondria make ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.5",
+    "strength": "helpful",
+    "why": "lignin in xylem walls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.3.1",
+    "strength": "essential",
+    "why": "sieve tube and sieve plate",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.3.3",
+    "strength": "helpful",
+    "why": "companion cell",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.1",
+    "strength": "essential",
+    "why": "xylem cells dead and hollow",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.3.4",
+    "strength": "helpful",
+    "why": "companion cells load sucrose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.5",
+    "strength": "essential",
+    "why": "lignin thickening",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.3.5",
+    "strength": "helpful",
+    "why": "phloem walls cellulose only",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.2",
+    "strength": "essential",
+    "why": "vessels have no end walls",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.3.1",
+    "strength": "essential",
+    "why": "sieve plates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.0",
+    "strength": "helpful",
+    "why": "xylem contents",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.3.0",
+    "strength": "helpful",
+    "why": "phloem contents",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.0",
+    "strength": "helpful",
+    "why": "xylem direction",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.3.0",
+    "strength": "helpful",
+    "why": "phloem direction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.2.6",
+    "strength": "helpful",
+    "why": "xylem supports plant",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.3.5",
+    "strength": "helpful",
+    "why": "phloem little support",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.5.1",
+    "strength": "helpful",
+    "why": "root tip growth region",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.2",
+    "strength": "helpful",
+    "why": "root hairs from epidermal cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.5.3",
+    "strength": "essential",
+    "why": "root hair structure",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s3.1.3",
+    "strength": "helpful",
+    "why": "vacuole and osmosis",
+    "confidence": "low"
+   },
+   {
+    "id": "bio7-s3.2.2",
+    "strength": "helpful",
+    "why": "mitochondria supply ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.4",
+    "strength": "helpful",
+    "why": "cortex as ground tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.5.5",
+    "strength": "essential",
+    "why": "cortex structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.6",
+    "strength": "helpful",
+    "why": "vascular tissue in root core",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.5.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.5.5",
+    "strength": "helpful",
+    "why": "cortex",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.5.7",
+    "strength": "helpful",
+    "why": "root vascular core",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "xylem and phloem roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.3.0",
+    "strength": "helpful",
+    "why": "chloroplasts photosynthesise",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.1",
+    "strength": "helpful",
+    "why": "cuticle on epidermis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.4",
+    "strength": "helpful",
+    "why": "ground tissue roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.6",
+    "strength": "helpful",
+    "why": "vascular bundles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.6.4",
+    "strength": "essential",
+    "why": "ring of bundles near edge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.6.4",
+    "strength": "essential",
+    "why": "vascular bundle arrangement",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.6.2",
+    "strength": "helpful",
+    "why": "epidermis and cuticle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.2",
+    "strength": "helpful",
+    "why": "bark replaces epidermis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.7.0",
+    "strength": "helpful",
+    "why": "lenticel definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.7.1",
+    "strength": "essential",
+    "why": "lenticel air spaces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.7.1",
+    "strength": "helpful",
+    "why": "lenticel structure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "helpful",
+    "why": "stomata guard cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.7.0",
+    "strength": "helpful",
+    "why": "lenticel",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.0.0",
+    "strength": "helpful",
+    "why": "photosynthesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.8.0",
+    "strength": "helpful",
+    "why": "leaf functions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.0.5",
+    "strength": "helpful",
+    "why": "vascular tissue in veins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.1",
+    "strength": "helpful",
+    "why": "cuticle on epidermis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.3.0",
+    "strength": "helpful",
+    "why": "chloroplasts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s3.3.0",
+    "strength": "helpful",
+    "why": "chloroplasts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.9.2",
+    "strength": "helpful",
+    "why": "mesophyll layers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio30-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.9.3",
+    "strength": "essential",
+    "why": "spongy mesophyll air spaces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.8.3",
+    "strength": "essential",
+    "why": "veins as vascular bundles",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.1.5",
+    "strength": "helpful",
+    "why": "xylem and phloem roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio30-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.1.1",
+    "strength": "helpful",
+    "why": "stomata and guard cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "essential",
+    "why": "stoma and guard cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "essential",
+    "why": "stomata on lower epidermis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio30-s1.9.2",
+    "strength": "helpful",
+    "why": "palisade and spongy mesophyll",
+    "confidence": "high"
+   },
+   {
+    "id": "bio30-s1.9.5",
+    "strength": "essential",
+    "why": "vascular bundle layout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio30-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio30-s1.10.0",
+    "strength": "essential",
+    "why": "stoma and guard cells",
+    "confidence": "high"
+   }
+  ]
+ }
+}
