@@ -1,0 +1,685 @@
+[
+ {
+  "skill": "line-collinear",
+  "problems": [
+   {
+    "question": "Show that the points $P(-2, 5)$, $Q(1, 2)$ and $R(4, -1)$ are collinear.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of PQ",
+       "lines": [
+        {
+         "text": "Slope formula for $P(-2,5)$ and $Q(1,2)$."
+        },
+        {
+         "tex": "m_{PQ} &= \\frac{2-5}{1-(-2)}",
+         "sym": "(2-5)/(1-(-2))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{-3}{3}",
+         "sym": "Rational(-3,3)"
+        },
+        {
+         "tex": "&= -1",
+         "sym": "-1"
+        }
+       ]
+      },
+      {
+       "title": "Find the slope of QR",
+       "lines": [
+        {
+         "text": "Slope formula for $Q(1,2)$ and $R(4,-1)$."
+        },
+        {
+         "tex": "m_{QR} &= \\frac{-1-2}{4-1}",
+         "sym": "(-1-2)/(4-1)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{-3}{3}",
+         "sym": "Rational(-3,3)"
+        },
+        {
+         "tex": "&= -1",
+         "sym": "-1"
+        }
+       ]
+      },
+      {
+       "title": "Compare the slopes",
+       "lines": [
+        {
+         "text": "$m_{PQ} = m_{QR} = -1$, and $Q$ is on both segments, so $P$, $Q$ and $R$ lie on one line."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m_{PQ} = m_{QR} = -1 \\text{, so } P, Q, R \\text{ are collinear}"
+    },
+    "finalSym": "0",
+    "answerSym": "Rational(2-5,1-(-2)) - Rational(-1-2,4-1)"
+   },
+   {
+    "question": "Show that the points $A(-3, -2)$, $B(1, 0)$ and $C(9, 4)$ are collinear.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of AB",
+       "lines": [
+        {
+         "text": "Slope formula for $A(-3,-2)$ and $B(1,0)$."
+        },
+        {
+         "tex": "m_{AB} &= \\frac{0-(-2)}{1-(-3)}",
+         "sym": "(0-(-2))/(1-(-3))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{2}{4}",
+         "sym": "Rational(2,4)"
+        },
+        {
+         "tex": "&= \\frac12",
+         "sym": "Rational(1,2)"
+        }
+       ]
+      },
+      {
+       "title": "Find the slope of BC",
+       "lines": [
+        {
+         "text": "Slope formula for $B(1,0)$ and $C(9,4)$."
+        },
+        {
+         "tex": "m_{BC} &= \\frac{4-0}{9-1}",
+         "sym": "(4-0)/(9-1)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{4}{8}",
+         "sym": "Rational(4,8)"
+        },
+        {
+         "tex": "&= \\frac12",
+         "sym": "Rational(1,2)"
+        }
+       ]
+      },
+      {
+       "title": "Compare the slopes",
+       "lines": [
+        {
+         "text": "$m_{AB} = m_{BC} = \\frac12$, and $B$ is on both segments, so $A$, $B$ and $C$ lie on one line."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m_{AB} = m_{BC} = \\tfrac12 \\text{, so } A, B, C \\text{ are collinear}"
+    },
+    "finalSym": "0",
+    "answerSym": "Rational(0-(-2),1-(-3)) - Rational(4-0,9-1)"
+   }
+  ]
+ },
+ {
+  "skill": "line-unknown-coefficient",
+  "problems": [
+   {
+    "question": "The line $2x + ky = 7$ is perpendicular to the line $3x - 2y = 4$.\nFind the value of $k$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of each line",
+       "lines": [
+        {
+         "text": "Make $y$ the subject of each equation."
+        },
+        {
+         "tex": "2x + ky &= 7",
+         "sym": "Eq(2*x+k*y,7)",
+         "new": true
+        },
+        {
+         "tex": "y &= -\\frac{2}{k}x + \\frac{7}{k}",
+         "sym": "Eq(y, -2/k*x + 7/k)",
+         "new": false
+        },
+        {
+         "text": "So $m_1 = -\\frac{2}{k}$."
+        },
+        {
+         "tex": "3x - 2y &= 4",
+         "sym": "Eq(3*x-2*y,4)",
+         "new": true
+        },
+        {
+         "tex": "y &= \\frac32 x - 2",
+         "sym": "Eq(y, Rational(3,2)*x - 2)"
+        },
+        {
+         "text": "So $m_2 = \\frac32$."
+        }
+       ]
+      },
+      {
+       "title": "Use the perpendicular condition",
+       "lines": [
+        {
+         "text": "Perpendicular lines have $m_1 m_2 = -1$."
+        },
+        {
+         "tex": "-\\frac{2}{k} \\cdot \\frac32 &= -1",
+         "sym": "Eq(-2/k*Rational(3,2), -1)",
+         "new": true
+        },
+        {
+         "tex": "-\\frac{3}{k} &= -1",
+         "sym": "Eq(-3/k, -1)"
+        }
+       ]
+      },
+      {
+       "title": "Solve for k",
+       "lines": [
+        {
+         "tex": "k &= 3",
+         "sym": "Eq(k, 3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = 3"
+    },
+    "finalSym": "[3]",
+    "answerSym": "solve(Eq((-2/k)*Rational(3,2), -1), k)"
+   },
+   {
+    "question": "The line $kx - 3y + 4 = 0$ is parallel to the line through $A(1, 2)$ and $B(4, 8)$.\nFind the value of $k$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of AB",
+       "lines": [
+        {
+         "tex": "m &= \\frac{8-2}{4-1}",
+         "sym": "(8-2)/(4-1)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{6}{3}",
+         "sym": "Rational(6,3)"
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        }
+       ]
+      },
+      {
+       "title": "Find the slope of the first line",
+       "lines": [
+        {
+         "tex": "kx - 3y + 4 &= 0",
+         "sym": "Eq(k*x-3*y+4,0)",
+         "new": true
+        },
+        {
+         "tex": "3y &= kx + 4",
+         "sym": "Eq(3*y,k*x+4)"
+        },
+        {
+         "tex": "y &= \\frac{k}{3}x + \\frac43",
+         "sym": "Eq(y,k/3*x+Rational(4,3))"
+        },
+        {
+         "text": "So the slope is $\\frac{k}{3}$."
+        }
+       ]
+      },
+      {
+       "title": "Parallel lines have equal slopes",
+       "lines": [
+        {
+         "tex": "\\frac{k}{3} &= 2",
+         "sym": "Eq(k/3, 2)",
+         "new": true
+        },
+        {
+         "tex": "k &= 6",
+         "sym": "Eq(k, 6)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = 6"
+    },
+    "finalSym": "[6]",
+    "answerSym": "solve(Eq(k/3, Rational(8-2,4-1)), k)"
+   },
+   {
+    "question": "The line $4x + (k+1)y = 9$ is parallel to the line $6x - 3y = 2$.\nFind the value of $k$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the slope of $6x - 3y = 2$",
+       "lines": [
+        {
+         "tex": "6x - 3y &= 2",
+         "sym": "Eq(6*x-3*y,2)",
+         "new": true
+        },
+        {
+         "tex": "3y &= 6x - 2",
+         "sym": "Eq(3*y,6*x-2)"
+        },
+        {
+         "tex": "y &= 2x - \\frac23",
+         "sym": "Eq(y,2*x-Rational(2,3))"
+        },
+        {
+         "text": "So the slope is $2$."
+        }
+       ]
+      },
+      {
+       "title": "Find the slope of $4x + (k+1)y = 9$",
+       "lines": [
+        {
+         "tex": "(k+1)y &= -4x + 9",
+         "sym": "Eq((k+1)*y,-4*x+9)",
+         "new": true
+        },
+        {
+         "tex": "y &= -\\frac{4}{k+1}x + \\frac{9}{k+1}",
+         "sym": "Eq(y,-4/(k+1)*x+9/(k+1))"
+        },
+        {
+         "text": "So the slope is $-\\frac{4}{k+1}$."
+        }
+       ]
+      },
+      {
+       "title": "Parallel lines have equal slopes",
+       "lines": [
+        {
+         "tex": "-\\frac{4}{k+1} &= 2",
+         "sym": "Eq(-4/(k+1), 2)",
+         "new": true
+        },
+        {
+         "tex": "-4 &= 2(k+1)",
+         "sym": "Eq(-4, 2*(k+1))"
+        },
+        {
+         "tex": "-4 &= 2k + 2",
+         "sym": "Eq(-4, 2*k+2)"
+        },
+        {
+         "tex": "2k &= -6",
+         "sym": "Eq(2*k, -6)"
+        },
+        {
+         "tex": "k &= -3",
+         "sym": "Eq(k, -3)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "k = -3"
+    },
+    "finalSym": "[-3]",
+    "answerSym": "solve(Eq(-4/(k+1), Rational(6,3)), k)"
+   }
+  ]
+ },
+ {
+  "skill": "line-from-distance",
+  "problems": [
+   {
+    "question": "Find the slopes of the two lines through the origin that are at a perpendicular distance of $5$ from the point $(7, 1)$.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the line through the origin",
+       "lines": [
+        {
+         "text": "A line through $O(0,0)$ with slope $m$ is $y = mx$."
+        },
+        {
+         "tex": "mx - y &= 0",
+         "sym": "Eq(m*x-y,0)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the distance formula",
+       "lines": [
+        {
+         "text": "Distance from $(7,1)$ to $mx - y = 0$ equals $5$."
+        },
+        {
+         "tex": "\\frac{|7m - 1|}{\\sqrt{m^2+1}} &= 5",
+         "sym": "Eq(Abs(7*m-1)/sqrt(m**2+1), 5)",
+         "new": true
+        },
+        {
+         "tex": "(7m-1)^2 &= 25(m^2+1)",
+         "sym": "Eq((7*m-1)**2, 25*(m**2+1))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Form the quadratic",
+       "lines": [
+        {
+         "tex": "49m^2 - 14m + 1 &= 25m^2 + 25",
+         "sym": "Eq(49*m**2-14*m+1, 25*m**2+25)"
+        },
+        {
+         "tex": "24m^2 - 14m - 24 &= 0",
+         "sym": "Eq(24*m**2-14*m-24, 0)"
+        },
+        {
+         "tex": "12m^2 - 7m - 12 &= 0",
+         "sym": "Eq(12*m**2-7*m-12, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Solve with the quadratic formula",
+       "lines": [
+        {
+         "tex": "m &= \\frac{7 \\pm \\sqrt{49 + 576}}{24}",
+         "sym": "[(7-sqrt(49+576))/24, (7+sqrt(49+576))/24]",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{7 \\pm 25}{24}",
+         "sym": "[(7-25)/24, (7+25)/24]"
+        },
+        {
+         "tex": "&= -\\frac34 \\text{ or } \\frac43",
+         "sym": "[Rational(-3,4), Rational(4,3)]"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m = -\\frac34 \\text{ or } m = \\frac43"
+    },
+    "finalSym": "[Rational(-3,4), Rational(4,3)]",
+    "answerSym": "solve(Eq((7*m-1)**2/(m**2+1), 25), m)"
+   },
+   {
+    "question": "A straight pipe starts at the point $A(2, 3)$ and must pass at a perpendicular distance of exactly $1$ from a post at $B(6, 10)$.\nFind the slopes of the two possible lines for the pipe.",
+    "level": "higher",
+    "marks": 15,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the line through A",
+       "lines": [
+        {
+         "text": "Slope $m$ through $(2,3)$: $y - 3 = m(x - 2)$."
+        },
+        {
+         "tex": "y - 3 &= m(x-2)",
+         "sym": "Eq(y-3, m*(x-2))",
+         "new": true
+        },
+        {
+         "tex": "mx - y + 3 - 2m &= 0",
+         "sym": "Eq(m*x-y+3-2*m, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Use the distance formula",
+       "lines": [
+        {
+         "text": "Distance from $B(6,10)$ equals $1$."
+        },
+        {
+         "tex": "\\frac{|6m - 10 + 3 - 2m|}{\\sqrt{m^2+1}} &= 1",
+         "sym": "Eq(Abs(6*m-10+3-2*m)/sqrt(m**2+1), 1)",
+         "new": true
+        },
+        {
+         "tex": "\\frac{|4m - 7|}{\\sqrt{m^2+1}} &= 1",
+         "sym": "Eq(Abs(4*m-7)/sqrt(m**2+1), 1)"
+        },
+        {
+         "tex": "(4m-7)^2 &= m^2+1",
+         "sym": "Eq((4*m-7)**2, m**2+1)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Form the quadratic",
+       "lines": [
+        {
+         "tex": "16m^2 - 56m + 49 &= m^2 + 1",
+         "sym": "Eq(16*m**2-56*m+49, m**2+1)"
+        },
+        {
+         "tex": "15m^2 - 56m + 48 &= 0",
+         "sym": "Eq(15*m**2-56*m+48, 0)"
+        }
+       ]
+      },
+      {
+       "title": "Solve with the quadratic formula",
+       "lines": [
+        {
+         "tex": "m &= \\frac{56 \\pm \\sqrt{3136 - 2880}}{30}",
+         "sym": "[(56-sqrt(3136-2880))/30, (56+sqrt(3136-2880))/30]",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{56 \\pm 16}{30}",
+         "sym": "[(56-16)/30, (56+16)/30]"
+        },
+        {
+         "tex": "&= \\frac43 \\text{ or } \\frac{12}{5}",
+         "sym": "[Rational(4,3), Rational(12,5)]"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "m = \\frac43 \\text{ or } m = \\frac{12}{5}"
+    },
+    "finalSym": "[Rational(4,3), Rational(12,5)]",
+    "answerSym": "solve(Eq((m*(6-2)-(10-3))**2/(m**2+1), 1), m)"
+   }
+  ]
+ },
+ {
+  "skill": "num-order-operations",
+  "problems": [
+   {
+    "question": "Evaluate $20 - 3 \\times (4 - 7)^2 + 5$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Brackets first",
+       "lines": [
+        {
+         "tex": "20 - 3 \\times (4-7)^2 + 5 &= 20 - 3 \\times (-3)^2 + 5",
+         "sym": "20 - 3*(-3)**2 + 5"
+        }
+       ]
+      },
+      {
+       "title": "Then the power",
+       "lines": [
+        {
+         "tex": "&= 20 - 3 \\times 9 + 5",
+         "sym": "20 - 3*9 + 5"
+        }
+       ]
+      },
+      {
+       "title": "Then multiply",
+       "lines": [
+        {
+         "tex": "&= 20 - 27 + 5",
+         "sym": "20 - 27 + 5"
+        }
+       ]
+      },
+      {
+       "title": "Then add and subtract from left to right",
+       "lines": [
+        {
+         "tex": "&= -7 + 5",
+         "sym": "-7 + 5"
+        },
+        {
+         "tex": "&= -2",
+         "sym": "-2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-2"
+    },
+    "finalSym": "-2",
+    "answerSym": "20 - 3*(4-7)**2 + 5"
+   },
+   {
+    "question": "Evaluate $\\left(\\frac12\\right)^2 + 6 \\times \\frac13 - \\frac34$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Powers first",
+       "lines": [
+        {
+         "tex": "\\left(\\frac12\\right)^2 + 6 \\times \\frac13 - \\frac34 &= \\frac14 + 6 \\times \\frac13 - \\frac34",
+         "sym": "Rational(1,4) + 6*Rational(1,3) - Rational(3,4)"
+        }
+       ]
+      },
+      {
+       "title": "Then multiply",
+       "lines": [
+        {
+         "tex": "&= \\frac14 + 2 - \\frac34",
+         "sym": "Rational(1,4) + 2 - Rational(3,4)"
+        }
+       ]
+      },
+      {
+       "title": "Write over a common denominator",
+       "lines": [
+        {
+         "tex": "&= \\frac14 + \\frac84 - \\frac34",
+         "sym": "Rational(1,4) + Rational(8,4) - Rational(3,4)"
+        }
+       ]
+      },
+      {
+       "title": "Add and subtract",
+       "lines": [
+        {
+         "tex": "&= \\frac64",
+         "sym": "Rational(6,4)"
+        },
+        {
+         "tex": "&= \\frac32",
+         "sym": "Rational(3,2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac32"
+    },
+    "finalSym": "Rational(3,2)",
+    "answerSym": "Rational(1,2)**2 + 6*Rational(1,3) - Rational(3,4)"
+   },
+   {
+    "question": "Evaluate $\\dfrac{(5 - 2)^3 + 9}{4 \\times 3 - 6} - \\sqrt{49}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Brackets and powers on the top",
+       "lines": [
+        {
+         "tex": "(5-2)^3 + 9 &= 3^3 + 9",
+         "sym": "3**3 + 9",
+         "new": true
+        },
+        {
+         "tex": "&= 27 + 9",
+         "sym": "27 + 9"
+        },
+        {
+         "tex": "&= 36",
+         "sym": "36"
+        }
+       ]
+      },
+      {
+       "title": "Multiply on the bottom",
+       "lines": [
+        {
+         "tex": "4 \\times 3 - 6 &= 12 - 6",
+         "sym": "12 - 6",
+         "new": true
+        },
+        {
+         "tex": "&= 6",
+         "sym": "6"
+        }
+       ]
+      },
+      {
+       "title": "Divide, and find the root",
+       "lines": [
+        {
+         "tex": "\\frac{36}{6} - \\sqrt{49} &= 6 - 7",
+         "sym": "6 - 7",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Subtract",
+       "lines": [
+        {
+         "tex": "6 - 7 &= -1",
+         "sym": "-1"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-1"
+    },
+    "finalSym": "-1",
+    "answerSym": "((5-2)**3 + 9)/(4*3 - 6) - sqrt(49)"
+   }
+  ]
+ }
+]
