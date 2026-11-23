@@ -1,0 +1,414 @@
+[
+ {
+  "skill": "line-collinear",
+  "problems": [
+   {
+    "part": "practice-line-collinear-1",
+    "note": null,
+    "legend": {
+     "1": "slope of the first segment, PQ",
+     "2": "slope of the second segment, QR",
+     "3": "the answer: collinear"
+    },
+    "steps": [
+     {
+      "ask": "Which formula gives the slope between two points? Apply it to P and Q.",
+      "title": "Find the slope of PQ",
+      "lines": [
+       {
+        "text": "Slope formula for $P(-2,5)$ and $Q(1,2)$."
+       },
+       {
+        "tex": "\\hl{1}{m_{PQ}} &= \\frac{2-5}{1-(-2)}"
+       },
+       {
+        "tex": "&= \\frac{-3}{3}"
+       },
+       {
+        "tex": "&= \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Use the same formula on the other pair. Which two points make up QR?",
+      "title": "Find the slope of QR",
+      "lines": [
+       {
+        "text": "Slope formula for $Q(1,2)$ and $R(4,-1)$."
+       },
+       {
+        "tex": "\\hl{2}{m_{QR}} &= \\frac{-1-2}{4-1}"
+       },
+       {
+        "tex": "&= \\frac{-3}{3}"
+       },
+       {
+        "tex": "&= \\hl{2}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Compare the two slopes. What do you need about the slopes, and about Q, to say P, Q and R lie on one line?",
+      "title": "Compare the slopes",
+      "lines": [
+       {
+        "text": "$\\hl{1}{m_{PQ}} = \\hl{2}{m_{QR}} = -1$, and $Q$ is on both segments, so $P$, $Q$ and $R$ lie on one line."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{m_{PQ}} = \\hl{2}{m_{QR}} = -1 \\text{, so } \\hl{3}{P, Q, R \\text{ are collinear}}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-collinear-2",
+    "note": "The points change to A, B and C, and the common slope is one half instead of minus one, so the fractions need simplifying. The method is the same: two slopes, then compare them.",
+    "legend": {
+     "1": "slope of the first segment, AB",
+     "2": "slope of the second segment, BC",
+     "3": "the answer: collinear"
+    },
+    "steps": [
+     {
+      "ask": "Which formula gives the slope between A and B? Watch the negative signs.",
+      "title": "Find the slope of AB",
+      "lines": [
+       {
+        "text": "Slope formula for $A(-3,-2)$ and $B(1,0)$."
+       },
+       {
+        "tex": "\\hl{1}{m_{AB}} &= \\frac{0-(-2)}{1-(-3)}"
+       },
+       {
+        "tex": "&= \\frac{2}{4}"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac12}"
+       }
+      ]
+     },
+     {
+      "ask": "Find the slope between B and C. How does it compare with the slope of AB?",
+      "title": "Find the slope of BC",
+      "lines": [
+       {
+        "text": "Slope formula for $B(1,0)$ and $C(9,4)$."
+       },
+       {
+        "tex": "\\hl{2}{m_{BC}} &= \\frac{4-0}{9-1}"
+       },
+       {
+        "tex": "&= \\frac{4}{8}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac12}"
+       }
+      ]
+     },
+     {
+      "ask": "For A, B and C to lie on one line, what must be true of the two slopes at the shared point B?",
+      "title": "Compare the slopes",
+      "lines": [
+       {
+        "text": "$\\hl{1}{m_{AB}} = \\hl{2}{m_{BC}} = \\frac12$, and $B$ is on both segments, so $A$, $B$ and $C$ lie on one line."
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{m_{AB}} = \\hl{2}{m_{BC}} = \\tfrac12 \\text{, so } \\hl{3}{A, B, C \\text{ are collinear}}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-collinear-3",
+    "note": "Changes from problem 2: Q is now (2, k) with an unknown k, so the last step solves for k instead of checking the points. The two slopes are found the same way; PR is worked out first.",
+    "legend": {
+     "1": "slope of the first segment, PR",
+     "2": "slope of the second segment, PQ",
+     "3": "the answer, k"
+    },
+    "steps": [
+     {
+      "ask": "Which formula gives the slope through P and R?",
+      "title": "Find the slope of PR",
+      "lines": [
+       {
+        "text": "Slope formula for $P(-1,4)$ and $R(5,-2)$."
+       },
+       {
+        "tex": "\\hl{1}{m_{PR}} &= \\frac{-2-4}{5-(-1)}"
+       },
+       {
+        "tex": "&= \\frac{-6}{6}"
+       },
+       {
+        "tex": "&= \\hl{1}{-1}"
+       }
+      ]
+     },
+     {
+      "ask": "Now find the slope through P and Q. Why does k still appear in it?",
+      "title": "Find the slope of PQ",
+      "lines": [
+       {
+        "text": "Slope formula for $P(-1,4)$ and $Q(2,k)$."
+       },
+       {
+        "tex": "\\hl{2}{m_{PQ}} &= \\frac{k-4}{2-(-1)}"
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{k-4}{3}}"
+       }
+      ]
+     },
+     {
+      "ask": "What must be true of the two slopes if P, Q and R are collinear? Use that to find k.",
+      "title": "Make the slopes equal",
+      "lines": [
+       {
+        "text": "The points are collinear, so $\\hl{2}{m_{PQ}} = \\hl{1}{m_{PR}}$."
+       },
+       {
+        "tex": "\\hl{2}{\\frac{k-4}{3}} &= \\hl{1}{-1}"
+       },
+       {
+        "tex": "k - 4 &= -3"
+       },
+       {
+        "tex": "\\hl{3}{k} &= \\hl{3}{1}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{3}{k} = \\hl{3}{1}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "line-from-distance",
+  "problems": [
+   {
+    "part": "practice-line-from-distance-1",
+    "note": null,
+    "legend": {
+     "1": "the slope m",
+     "2": "the quadratic in m",
+     "3": "the answer: the slopes",
+     "4": "the given distance"
+    },
+    "steps": [
+     {
+      "ask": "What is the equation of a line through the origin with slope m? Rearrange it into the form ax + by + c = 0.",
+      "title": "Write the line through the origin",
+      "lines": [
+       {
+        "text": "A line through $O(0,0)$ with slope $\\hl{1}{m}$ is $y = mx$."
+       },
+       {
+        "tex": "mx - y &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which formula gives the distance from a point to the line ax + by + c = 0? Which point do you use, and what is the distance?",
+      "title": "Use the distance formula",
+      "lines": [
+       {
+        "text": "Distance from $(7,1)$ to $mx - y = 0$ equals $\\hl{4}{5}$."
+       },
+       {
+        "tex": "\\frac{|7m - 1|}{\\sqrt{m^2+1}} &= \\hl{4}{5}"
+       },
+       {
+        "tex": "(7m-1)^2 &= 25(m^2+1)"
+       }
+      ]
+     },
+     {
+      "ask": "Expand both sides and collect everything on one side. What quadratic in m do you get?",
+      "title": "Form the quadratic",
+      "lines": [
+       {
+        "tex": "49m^2 - 14m + 1 &= 25m^2 + 25"
+       },
+       {
+        "tex": "24m^2 - 14m - 24 &= 0"
+       },
+       {
+        "tex": "\\hl{2}{12m^2 - 7m - 12} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which method solves a quadratic in standard form? Use it and find both values of m.",
+      "title": "Solve with the quadratic formula",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m} &= \\frac{7 \\pm \\sqrt{49 + 576}}{24}"
+       },
+       {
+        "tex": "&= \\frac{7 \\pm 25}{24}"
+       },
+       {
+        "tex": "&= \\hl{3}{-\\frac34} \\text{ or } \\hl{3}{\\frac43}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{m} = \\hl{3}{-\\frac34} \\text{ or } \\hl{1}{m} = \\hl{3}{\\frac43}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-from-distance-2",
+    "note": "Changes from problem 1: the line now passes through (2, 3) instead of the origin, so it has a constant term, and the distance is measured from (6, 10) with distance 1. The steps stay the same: write the line, apply the distance formula, then form and solve the quadratic in m.",
+    "legend": {
+     "1": "the slope m",
+     "2": "the quadratic in m",
+     "3": "the answer: the slopes",
+     "4": "the given distance"
+    },
+    "steps": [
+     {
+      "ask": "What is the equation of a line through A with slope m? Rearrange it into the form ax + by + c = 0.",
+      "title": "Write the line through A",
+      "lines": [
+       {
+        "text": "Slope $\\hl{1}{m}$ through $(2,3)$: $y - 3 = m(x - 2)$."
+       },
+       {
+        "tex": "y - 3 &= m(x-2)"
+       },
+       {
+        "tex": "mx - y + 3 - 2m &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which point is the distance measured from? Put it into the distance formula for your line.",
+      "title": "Use the distance formula",
+      "lines": [
+       {
+        "text": "Distance from $B(6,10)$ equals $\\hl{4}{1}$."
+       },
+       {
+        "tex": "\\frac{|6m - 10 + 3 - 2m|}{\\sqrt{m^2+1}} &= \\hl{4}{1}"
+       },
+       {
+        "tex": "\\frac{|4m - 7|}{\\sqrt{m^2+1}} &= \\hl{4}{1}"
+       },
+       {
+        "tex": "(4m-7)^2 &= m^2+1"
+       }
+      ]
+     },
+     {
+      "ask": "Clear the square root by squaring both sides, then expand. What quadratic in m do you get?",
+      "title": "Form the quadratic",
+      "lines": [
+       {
+        "tex": "16m^2 - 56m + 49 &= m^2 + 1"
+       },
+       {
+        "tex": "\\hl{2}{15m^2 - 56m + 48} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which method solves a quadratic in standard form? Find both values of m.",
+      "title": "Solve with the quadratic formula",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m} &= \\frac{56 \\pm \\sqrt{3136 - 2880}}{30}"
+       },
+       {
+        "tex": "&= \\frac{56 \\pm 16}{30}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac43} \\text{ or } \\hl{3}{\\frac{12}{5}}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{m} = \\hl{3}{\\frac43} \\text{ or } \\hl{1}{m} = \\hl{3}{\\frac{12}{5}}",
+    "graph": null
+   },
+   {
+    "part": "practice-line-from-distance-3",
+    "note": "Changes from problem 2: the line now passes through (1, -2) and the distance is measured from (6, 3), so the quadratic has smaller numbers and the slopes are 3/4 and 4/3. The steps are the same.",
+    "legend": {
+     "1": "the slope m",
+     "2": "the quadratic in m",
+     "3": "the answer: the slopes",
+     "4": "the given distance"
+    },
+    "steps": [
+     {
+      "ask": "What is the equation of a line through A with slope m? Rearrange it into the form ax + by + c = 0.",
+      "title": "Write the line through A",
+      "lines": [
+       {
+        "text": "Slope $\\hl{1}{m}$ through $(1,-2)$: $y + 2 = m(x - 1)$."
+       },
+       {
+        "tex": "y + 2 &= m(x-1)"
+       },
+       {
+        "tex": "mx - y - m - 2 &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which point is the distance measured from? Put it into the distance formula for your line.",
+      "title": "Use the distance formula",
+      "lines": [
+       {
+        "text": "Distance from $B(6,3)$ equals $\\hl{4}{1}$."
+       },
+       {
+        "tex": "\\frac{|6m - 3 - m - 2|}{\\sqrt{m^2+1}} &= \\hl{4}{1}"
+       },
+       {
+        "tex": "\\frac{|5m - 5|}{\\sqrt{m^2+1}} &= \\hl{4}{1}"
+       },
+       {
+        "tex": "(5m-5)^2 &= m^2+1"
+       }
+      ]
+     },
+     {
+      "ask": "Clear the square root and expand. What quadratic in m do you get?",
+      "title": "Form the quadratic",
+      "lines": [
+       {
+        "tex": "25m^2 - 50m + 25 &= m^2 + 1"
+       },
+       {
+        "tex": "24m^2 - 50m + 24 &= 0"
+       },
+       {
+        "tex": "\\hl{2}{12m^2 - 25m + 12} &= 0"
+       }
+      ]
+     },
+     {
+      "ask": "Which method solves a quadratic in standard form? Find both values of m.",
+      "title": "Solve with the quadratic formula",
+      "lines": [
+       {
+        "tex": "\\hl{1}{m} &= \\frac{25 \\pm \\sqrt{625 - 576}}{24}"
+       },
+       {
+        "tex": "&= \\frac{25 \\pm 7}{24}"
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac34} \\text{ or } \\hl{3}{\\frac43}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{m} = \\hl{3}{\\frac34} \\text{ or } \\hl{1}{m} = \\hl{3}{\\frac43}",
+    "graph": null
+   }
+  ]
+ }
+]
