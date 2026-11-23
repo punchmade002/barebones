@@ -52,7 +52,7 @@
     {"ask": "Where is the centre O relative to the water surface, and how far is it from the chord in terms of r?", "title": "Set up the right-angled triangle",
      "lines": [
       {"text": "Let $O$ be the centre and $\\hl{1}{r}$ the radius. The line from $O$ to the midpoint $M$ of the chord is perpendicular to the chord (Theorem 21), so it is the vertical line through the deepest point."},
-      {"text": "Half the chord is $\\hl{3}{24}$ cm, and $\\hl{2}{|OM|} = \\hl{1}{r}-8$."}
+      {"text": "Half the chord is $\\hl{3}{24}$ cm, and $\\hl{2}{|OM|} = \\hl{1}{r} - 8$."}
      ]},
     {"ask": "Which side of this triangle is the hypotenuse? How does Pythagoras relate r, 24 and r - 8?", "title": "Use Pythagoras in the triangle with sides $r$, $24$ and $r-8$",
      "lines": [

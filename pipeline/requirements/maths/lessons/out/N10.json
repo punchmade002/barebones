@@ -1,0 +1,323 @@
+[
+ {"skill": "fn-graph-log", "problems": [
+  {"part": "maths-pp-2018-higher-p1-q7#(c)", "note": null,
+   "legend": {"1": "the input x", "2": "the output t(x), the height"},
+   "steps": [
+    {"ask": "To find t(0), what do you put in place of x in the formula?", "title": "Substitute x = 0, 10, 20, 30 into t(x)", "lines": [
+      {"text": "Use $t(x) = -62.5\\ln\\left(1-\\frac{x}{80}\\right)$ and round each answer to a whole number."},
+      {"tex": "\\hl{2}{t(0)} &= -62.5\\ln(1)"},
+      {"tex": "&= \\hl{2}{0}"},
+      {"tex": "\\hl{2}{t(10)} &= -62.5\\ln\\left(1-\\frac{10}{80}\\right)"},
+      {"tex": "&\\approx \\hl{2}{8}"},
+      {"tex": "\\hl{2}{t(20)} &= -62.5\\ln\\left(1-\\frac{20}{80}\\right)"},
+      {"tex": "&\\approx \\hl{2}{18}"},
+      {"tex": "\\hl{2}{t(30)} &= -62.5\\ln\\left(1-\\frac{30}{80}\\right)"},
+      {"tex": "&\\approx \\hl{2}{29}"}
+    ]},
+    {"ask": "Does the same substitution work for x = 40? What is 1 minus 40 over 80?", "title": "Substitute x = 40, 50, 60, 70 into t(x)", "lines": [
+      {"tex": "\\hl{2}{t(40)} &= -62.5\\ln\\left(1-\\frac{40}{80}\\right)"},
+      {"tex": "&\\approx \\hl{2}{43}"},
+      {"tex": "\\hl{2}{t(50)} &= -62.5\\ln\\left(1-\\frac{50}{80}\\right)"},
+      {"tex": "&\\approx \\hl{2}{61}"},
+      {"tex": "\\hl{2}{t(60)} &= -62.5\\ln\\left(1-\\frac{60}{80}\\right)"},
+      {"tex": "&\\approx \\hl{2}{87}"},
+      {"tex": "\\hl{2}{t(70)} &= -62.5\\ln\\left(1-\\frac{70}{80}\\right)"},
+      {"tex": "&\\approx \\hl{2}{130}"}
+    ]},
+    {"ask": "Which numbers go in the top row of the table, and which go in the bottom row?", "title": "Read off the completed table", "lines": [
+      {"text": "$\\hl{1}{x}$: 0, 10, 20, 30, 40, 50, 60, 70."},
+      {"text": "$\\hl{2}{t(x)}$: 0, 8, 18, 29, 43, 61, 87, 130."}
+    ]},
+    {"ask": "Which pair (x, t(x)) would you plot first, and where should the curve begin?", "title": "Plot the points and join them with a smooth curve", "lines": [
+      {"text": "Plot each pair $(\\hl{1}{x}, \\hl{2}{t(x)})$, e.g. $(\\hl{1}{10}, \\hl{2}{8})$, $(\\hl{1}{40}, \\hl{2}{43})$, $(\\hl{1}{70}, \\hl{2}{130})$."},
+      {"text": "Join the points with a smooth curve starting at the origin."}
+    ]}
+   ],
+   "final": "t(x):\\ \\hl{2}{0,\\ 8,\\ 18,\\ 29,\\ 43,\\ 61,\\ 87,\\ 130}",
+   "graph": {"f": "-62.5*log(1 - x/80)", "box": [-5, 150, 75, -5], "tangent": false, "points": [{"x": 0, "y": 0, "name": "(0, 0)"}, {"x": 70, "y": 129.97, "name": "(70, 130)"}], "line": null, "slots": {"x": 1, "y": 2, "line": null}}},
+  {"part": "practice-fn-graph-log-1",
+   "note": "The base changes from e to 3, and the values come from index form instead of a calculator. The method is the same: find the output for each input, then read off the table.",
+   "legend": {"1": "the input x", "2": "the output y, the power of 3"},
+   "steps": [
+    {"ask": "How can the equation y = log₃ x be rewritten as a power of 3?", "title": "Convert to index form", "lines": [
+      {"text": "$y = \\log_3 x$ means $x = 3^y$. Find the power of $3$ that gives each $x$."}
+    ]},
+    {"ask": "Which power of 3 gives 1/9?", "title": "x = 1/9", "lines": [
+      {"tex": "3^y &= \\hl{1}{\\frac{1}{9}}"},
+      {"tex": "&= 3^{-2}"},
+      {"tex": "\\hl{2}{y} &= \\hl{2}{-2}"}
+    ]},
+    {"ask": "What power of 3 gives 1, and what power of 3 gives 3?", "title": "x = 1 and x = 3", "lines": [
+      {"tex": "3^y &= \\hl{1}{1} = 3^0 \\Rightarrow \\hl{2}{y} = \\hl{2}{0}"},
+      {"tex": "3^y &= \\hl{1}{3} = 3^1 \\Rightarrow \\hl{2}{y} = \\hl{2}{1}"}
+    ]},
+    {"ask": "What power of 3 gives 9?", "title": "x = 9", "lines": [
+      {"tex": "3^y &= \\hl{1}{9} = 3^2"},
+      {"tex": "\\hl{2}{y} &= \\hl{2}{2}"}
+    ]},
+    {"ask": "Which values belong in the x row of the table, and which in the y row?", "title": "Read off the table", "lines": [
+      {"text": "$\\hl{1}{x}$: $\\hl{1}{\\frac19}$, $\\hl{1}{1}$, $\\hl{1}{3}$, $\\hl{1}{9}$. $\\hl{2}{y}$: $\\hl{2}{-2}$, $\\hl{2}{0}$, $\\hl{2}{1}$, $\\hl{2}{2}$."}
+    ]}
+   ],
+   "final": "y:\\ \\hl{2}{-2,\\ 0,\\ 1,\\ 2}",
+   "graph": {"f": "log(x)/log(3)", "box": [0.05, 2.5, 10, -3], "tangent": false, "points": [{"x": 0.1111, "y": -2, "name": "(1/9, -2)"}, {"x": 1, "y": 0, "name": "(1, 0)"}, {"x": 3, "y": 1, "name": "(3, 1)"}, {"x": 9, "y": 2, "name": "(9, 2)"}], "line": null, "slots": {"x": 1, "y": 2, "line": null}}},
+  {"part": "practice-fn-graph-log-2",
+   "note": "This asks where the graph crosses the x-axis, not for a table of values, so the steps are different. It keeps the log idea: set the output to a value, rewrite the log as an index (power) form, then solve for x.",
+   "legend": {"1": "the input x", "2": "the output y, here 0 on the x-axis"},
+   "steps": [
+    {"ask": "On the x-axis, what is the value of y?", "title": "Put y = 0", "lines": [
+      {"tex": "\\ln(\\hl{1}{x}-2) &= \\hl{2}{0}"}
+    ]},
+    {"ask": "What is ln(x − 2) = 0 equivalent to, using e as the base?", "title": "Convert to index form", "lines": [
+      {"tex": "\\hl{1}{x} - 2 &= e^0"},
+      {"tex": "\\hl{1}{x} - 2 &= 1"}
+    ]},
+    {"ask": "What value of x makes x − 2 equal 1?", "title": "Solve for x", "lines": [
+      {"tex": "\\hl{1}{x} &= \\hl{1}{3}"}
+    ]},
+    {"ask": "Which two coordinates describe the point where the graph crosses the x-axis?", "title": "Write the point", "lines": [
+      {"text": "The graph crosses the $x$-axis at $(\\hl{1}{3}, \\hl{2}{0})$."}
+    ]}
+   ],
+   "final": "(\\hl{1}{3}, \\hl{2}{0})",
+   "graph": {"f": "log(x - 2)", "box": [1.8, 2, 6.2, -3], "tangent": false, "points": [{"x": 3, "y": 0, "name": "x-intercept (3, 0)"}], "line": null, "slots": {"x": 1, "y": 2, "line": null}}}
+ ]},
+ {"skill": "fn-injective-surjective", "problems": [
+  {"part": "maths-pp-2016-higher-p1-q5#(b)(i)", "note": null,
+   "legend": {"1": "outputs: f(a) and f(b), or elements of C", "2": "inputs: a and b, or elements of B"},
+   "steps": [
+    {"ask": "If two inputs give the same output, what do you need to check about those inputs?", "title": "Assume two inputs give the same output", "lines": [
+      {"text": "$f$ is injective if $\\hl{1}{f(a) = f(b)}$ forces $\\hl{2}{a = b}$."},
+      {"tex": "\\hl{1}{f(a)} &= \\hl{1}{f(b)}"},
+      {"tex": "\\hl{1}{3a - 2} &= \\hl{1}{3b - 2}"}
+    ]},
+    {"ask": "What do you get when you simplify both sides of 3a − 2 = 3b − 2?", "title": "Solve for a", "lines": [
+      {"tex": "3a &= 3b"},
+      {"tex": "\\hl{2}{a} &= \\hl{2}{b}"},
+      {"text": "Different inputs always give different outputs, so $f$ is injective."}
+    ]}
+   ],
+   "final": "\\hl{1}{f(a) = f(b)} \\Rightarrow \\hl{2}{a = b} \\text{, so } f \\text{ is injective}",
+   "graph": null},
+  {"part": "practice-fn-injective-surjective-1", "note": "Same test as problem 1: set f(a) = f(b) and solve. But f is a quadratic, so the algebra gives two inputs and the answer is not injective, rather than a proof that it is. What stays the same is setting the outputs equal.",
+   "legend": {"1": "outputs: f(a) and f(b), or elements of C", "2": "inputs: a and b, or elements of B"},
+   "steps": [
+    {"ask": "What is f(0)? Substitute x = 0 into the rule.", "title": "Find $f(0)$", "lines": [
+      {"tex": "\\hl{1}{f(0)} &= 0^2 - 6(0) + 5 = \\hl{1}{5}"}
+    ]},
+    {"ask": "Which equation must f(b) satisfy to give the same output as f(0)?", "title": "Look for another input with the same output", "lines": [
+      {"text": "$f$ is injective only if $\\hl{1}{f(a) = f(b)}$ forces $\\hl{2}{a = b}$. Set $\\hl{1}{f(b) = 5}$."},
+      {"tex": "\\hl{1}{b^2 - 6b + 5} &= \\hl{1}{5}"},
+      {"tex": "b^2 - 6b &= 0"},
+      {"tex": "b(b - 6) &= 0"}
+    ]},
+    {"ask": "Which of the two values of b is different from 0?", "title": "Choose the value other than 0", "lines": [
+      {"tex": "\\hl{2}{b} &= \\hl{2}{0} \\text{ or } \\hl{2}{b = 6}"},
+      {"text": "Since $\\hl{2}{b \\neq 0}$, $\\hl{2}{b = 6}$. Then $\\hl{1}{f(6)} = 36 - 36 + 5 = 5 = \\hl{1}{f(0)}$ with $6 \\neq 0$, so $f$ is not injective."}
+    ]}
+   ],
+   "final": "\\hl{2}{b = 6}",
+   "graph": null},
+  {"part": "maths-pp-2023-higher-p1-q5#(c)(i), (ii)", "note": "This is an arrow diagram, not a formula, and it also asks for g(f(3)) first. The injective check (no two inputs share an output) and the not-surjective check (an output is missed) are the same ideas as problems 1 and 2, but they are read off the arrows instead of solved.",
+   "legend": {"1": "outputs: f(a) and f(b), or elements of C", "2": "inputs: a and b, or elements of B"},
+   "steps": [
+    {"ask": "Which element does f send 3 to, and where does g send that element?", "title": "(i) Follow 3 through f, then through g", "lines": [
+      {"text": "In the diagram, $f$ sends $3$ to the globe."},
+      {"tex": "f(3) &= \\text{globe}"},
+      {"text": "$g$ sends the globe to $\\hl{1}{w}$."},
+      {"tex": "g(f(3)) &= g(\\hl{2}{\\text{globe}}) = \\hl{1}{w}"}
+    ]},
+    {"ask": "Do any two different elements of B go to the same element of C?", "title": "(ii) Show g is injective (one-to-one)", "lines": [
+      {"text": "The three elements of $B$ (plane, globe, cloud) go to three different elements of $C$: $\\hl{1}{x}$, $\\hl{1}{w}$ and $\\hl{1}{z}$."},
+      {"text": "No element of $C$ is used more than once, so $g$ is injective."}
+    ]},
+    {"ask": "Is there an element of C that no arrow reaches?", "title": "(ii) Show g is not surjective (not onto)", "lines": [
+      {"text": "The element $\\hl{1}{y}$ in $C$ has no arrow pointing to it."},
+      {"text": "So the range $\\{\\hl{1}{x}, \\hl{1}{w}, \\hl{1}{z}\\}$ is not all of $C$, and $g$ is not surjective."}
+    ]}
+   ],
+   "final": "g(f(3)) = \\hl{1}{w}",
+   "graph": null}
+ ]},
+ {"skill": "fn-inverse", "problems": [
+  {"part": "maths-pp-2016-higher-p1-q5#(b)(ii)", "note": null,
+   "legend": {"1": "the function's rule, f(x), in x or y", "2": "the inverse, f⁻¹(x), the answer"},
+   "steps": [
+    {"ask": "How do you write f(x) when you use y for the output?", "title": "Write y = f(x)", "lines": [
+      {"tex": "y &= \\hl{1}{3x - 2}"}
+    ]},
+    {"ask": "What happens to the roles of x and y when you swap them to find the inverse?", "title": "Swap x and y", "lines": [
+      {"tex": "x &= \\hl{1}{3y - 2}"}
+    ]},
+    {"ask": "Which operations undo the −2 and the 3 here, and in what order?", "title": "Solve for y", "lines": [
+      {"tex": "x + 2 &= 3y"},
+      {"tex": "y &= \\hl{2}{\\frac{x+2}{3}}"}
+    ]},
+    {"ask": "What notation names the inverse function?", "title": "Write the inverse", "lines": [
+      {"tex": "\\hl{2}{f^{-1}(x)} &= \\hl{2}{\\frac{x+2}{3}}"}
+    ]}
+   ],
+   "final": "\\hl{2}{f^{-1}(x) = \\frac{x+2}{3}}",
+   "graph": null},
+  {"part": "practice-fn-inverse-1", "note": "The function now has a negative x term and a fraction over 3, so the solve step takes one more rearranging line (3x = 5 − 2y, then 2y = 5 − 3x). The method is the same: write y = f(x), swap x and y, solve for y.",
+   "legend": {"1": "the function's rule, f(x), in x or y", "2": "the inverse, f⁻¹(x), the answer"},
+   "steps": [
+    {"ask": "What does f(x) become when you write y for it?", "title": "Write y = f(x)", "lines": [
+      {"tex": "y &= \\hl{1}{\\frac{5-2x}{3}}"}
+    ]},
+    {"ask": "After you swap x and y, what must you solve for?", "title": "Swap x and y", "lines": [
+      {"tex": "x &= \\hl{1}{\\frac{5-2y}{3}}"}
+    ]},
+    {"ask": "What must you multiply both sides by to clear the fraction?", "title": "Solve for y", "lines": [
+      {"tex": "3x &= 5 - 2y"},
+      {"tex": "2y &= 5 - 3x"},
+      {"tex": "y &= \\hl{2}{\\frac{5-3x}{2}}"}
+    ]},
+    {"ask": "How should the inverse be written?", "title": "Write the inverse", "lines": [
+      {"tex": "\\hl{2}{f^{-1}(x)} &= \\hl{2}{\\frac{5-3x}{2}}"}
+    ]}
+   ],
+   "final": "\\hl{2}{f^{-1}(x) = \\frac{5-3x}{2}}",
+   "graph": null},
+  {"part": "practice-fn-inverse-2", "note": "Same swap-and-solve method, but the function is a fraction with x on the top and bottom. After swapping, you clear the fraction and collect the y terms, which adds steps before solving for y.",
+   "legend": {"1": "the function's rule, f(x), in x or y", "2": "the inverse, f⁻¹(x), the answer"},
+   "steps": [
+    {"ask": "What does the equation look like after you swap x and y?", "title": "Write y = f(x) and swap x and y", "lines": [
+      {"tex": "y &= \\hl{1}{\\frac{x+1}{x-2}}"},
+      {"tex": "x &= \\hl{1}{\\frac{y+1}{y-2}}"}
+    ]},
+    {"ask": "What can you multiply both sides by to remove the denominator y − 2?", "title": "Clear the fraction", "lines": [
+      {"tex": "x(y-2) &= y+1"},
+      {"tex": "xy - 2x &= y + 1"}
+    ]},
+    {"ask": "Which terms contain y, and which should stay on the other side?", "title": "Collect the y terms and factorise", "lines": [
+      {"tex": "xy - y &= 2x + 1"},
+      {"tex": "y(x-1) &= 2x + 1"}
+    ]},
+    {"ask": "What do you divide both sides by to get y on its own?", "title": "Solve for y", "lines": [
+      {"tex": "y &= \\hl{2}{\\frac{2x+1}{x-1}}"}
+    ]},
+    {"ask": "What notation names the new function?", "title": "Write the inverse", "lines": [
+      {"tex": "\\hl{2}{f^{-1}(x)} &= \\hl{2}{\\frac{2x+1}{x-1}}"}
+    ]}
+   ],
+   "final": "\\hl{2}{f^{-1}(x) = \\frac{2x+1}{x-1}}",
+   "graph": null}
+ ]},
+ {"skill": "fn-inverse-sketch", "problems": [
+  {"part": "maths-pp-2018-higher-p1-q6#(b)(ii)", "note": null,
+   "legend": {"1": "a point (a, b) on the original graph", "2": "the reflected point (b, a), or the inverse graph's equation"},
+   "steps": [
+    {"ask": "What happens to the coordinates of a point when it is reflected in y = x?", "title": "Use the reflection property", "lines": [
+      {"text": "The graph of $k^{-1}$ is the reflection of the graph of $k$ in the line $y = x$. Swap the coordinates of points on $k$."},
+      {"text": "$(1, 1)$, $(0, 0)$ and $(-1, -1)$ lie on $y = x$, so they stay fixed."}
+    ]},
+    {"ask": "Pick a point on k that is not on y = x. What are its new coordinates after reflection?", "title": "Plot and join", "lines": [
+      {"text": "For example $\\hl{1}{(0.5, 0.125)}$ on $k$ becomes $\\hl{2}{(0.125, 0.5)}$ on $k^{-1}$."},
+      {"text": "Draw a smooth curve through $(-1,-1)$, $(0,0)$ and $(1,1)$ that is steep at the origin."},
+      {"tex": "\\hl{2}{k^{-1}(x)} &= \\hl{2}{\\sqrt[3]{x}}"}
+    ]}
+   ],
+   "final": "\\hl{2}{k^{-1}(x) = \\sqrt[3]{x}}",
+   "graph": null},
+  {"part": "practice-fn-inverse-sketch-1", "note": "What changed: the function is now exponential, and the question asks for one point where the inverse crosses the x-axis, not for an equation. What stays the same: reflect a point on f by swapping its coordinates, then read the answer off the inverse.",
+   "legend": {"1": "a point (a, b) on the original graph", "2": "the reflected point (b, a), or the inverse graph's equation"},
+   "steps": [
+    {"ask": "Which two coordinates change places when you reflect a point in y = x?", "title": "Use the reflection property", "lines": [
+      {"text": "Reflecting in $y = x$ swaps the coordinates of each point $\\hl{1}{(a, b)}$ to $\\hl{2}{(b, a)}$."}
+    ]},
+    {"ask": "What is f(0), and which point on f does that give?", "title": "Swap the coordinates of the point on f with x = 0", "lines": [
+      {"tex": "f(0) &= 3^0"},
+      {"tex": "&= 1"},
+      {"tex": "\\hl{1}{(0, 1)} &\\to \\hl{2}{(1, 0)}"}
+    ]},
+    {"ask": "Which value of x makes log₃ x equal 0?", "title": "Check with the inverse", "lines": [
+      {"text": "$f^{-1}(x) = \\log_3 x$, which is $0$ when $x = 1$, so the graph crosses the $x$-axis at $\\hl{2}{(1, 0)}$."}
+    ]}
+   ],
+   "final": "\\hl{2}{(1, 0)}",
+   "graph": null},
+  {"part": "maths-pp-2025-higher-p1-q2#(b)(i), (ii), (iii)", "note": "This is a straight-line graph in pieces, and the part also asks for a slope and g(g(3)) first. Only the reflection steps in (iii) match problems 1 and 2. The method is the same: reflect key points by swapping coordinates, then join them.",
+   "legend": {"1": "a point (a, b) on the original graph", "2": "the reflected point (b, a), or the inverse graph's equation"},
+   "steps": [
+    {"ask": "What is the slope between two points, and which two points bound each segment?", "title": "(i) Find the slope of each segment", "lines": [
+      {"text": "$g'(x)$ is the slope of the graph. Find the slope of each line segment."},
+      {"tex": "\\text{First segment, } (0,0) \\text{ to } (3,1): \\quad m &= \\frac{1 - 0}{3 - 0}"},
+      {"tex": "&= \\frac{1}{3}"},
+      {"tex": "\\text{Second segment, } (3,1) \\text{ to } (4,4): \\quad m &= \\frac{4 - 1}{4 - 3}"},
+      {"tex": "&= 3"},
+      {"text": "Only the second segment has slope greater than $2$, so $g'(x) > 2$ for $3 < x \\le 4$."}
+    ]},
+    {"ask": "Which point on the graph has x = 3, and what is its y-coordinate?", "title": "(ii) Find $g(3)$ from the graph", "lines": [
+      {"text": "Go up from $x = 3$ to the graph at $(3, 1)$ (blue dashed line on the diagram). So $g(3) = 1$."},
+      {"tex": "g(3) &= 1"}
+    ]},
+    {"ask": "What is g(3), and which input do you need next to find g(g(3))?", "title": "(ii) Find $g(1)$, the value of $g(g(3))$", "lines": [
+      {"text": "Now find $g(1)$. Go across from $(3, 1)$ to the line $y = x$ at $(1, 1)$. Go straight down to the graph at $(1, \\frac{1}{3})$, then across to the $y$-axis."},
+      {"text": "The first segment passes through $(0,0)$ with slope $\\frac{1}{3}$, so it has equation $y = \\frac{1}{3}x$."},
+      {"tex": "g(g(3)) &= g(1)"},
+      {"tex": "&= \\frac{1}{3}(1)"},
+      {"tex": "&= \\frac{1}{3}"}
+    ]},
+    {"ask": "What happens to the coordinates of each key point when it is reflected in y = x?", "title": "(iii) Swap the $x$ and $y$ coordinates of key points", "lines": [
+      {"text": "Reflecting in $y = x$ swaps each point $\\hl{1}{(x, y)}$ to $\\hl{2}{(y, x)}$."},
+      {"tex": "\\hl{1}{(0, 0)} &\\to \\hl{2}{(0, 0)}"},
+      {"tex": "\\hl{1}{(3, 1)} &\\to \\hl{2}{(1, 3)}"},
+      {"tex": "\\hl{1}{(4, 4)} &\\to \\hl{2}{(4, 4)}"}
+    ]},
+    {"ask": "Which reflected points should you join, and what should the new graph be labelled?", "title": "(iii) Draw and label $g^{-1}$", "lines": [
+      {"text": "Join $\\hl{2}{(0,0)}$ to $\\hl{2}{(1,3)}$, then $\\hl{2}{(1,3)}$ to $\\hl{2}{(4,4)}$, with straight lines."},
+      {"text": "Label the new graph $\\hl{2}{y = g^{-1}(x)}$ (blue in the diagram)."}
+    ]}
+   ],
+   "final": "3 < x \\le 4, \\quad g(g(3)) = \\frac{1}{3}, \\quad \\hl{2}{g^{-1} \\text{ joins } (0,0),\\ (1,3),\\ (4,4)}",
+   "graph": null}
+ ]},
+ {"skill": "fn-limit-concept", "problems": [
+  {"part": "maths-pp-2021-higher-p1-q9#(a)(ii)", "note": null,
+   "legend": {"1": "the exponential term that shrinks to 0"},
+   "steps": [
+    {"ask": "As t gets very large, what does e to the power −0.081t get close to?", "title": "See what happens as time goes on", "lines": [
+      {"text": "As $t$ gets very large, $\\hl{1}{e^{-0.081t}}$ gets closer and closer to 0."},
+      {"text": "So $\\hl{1}{75e^{-0.081t}}$ approaches 0 and $T(t)$ approaches 20."}
+    ]},
+    {"ask": "What does a limit of 20 mean for the coffee?", "title": "Interpret in context", "lines": [
+      {"text": "20 is the lowest temperature the coffee will cool to: the room temperature."}
+    ]}
+   ],
+   "final": "\\text{The temperature the coffee cools towards (room temperature, 20 °C)}",
+   "graph": null},
+  {"part": "practice-fn-limit-concept-2", "note": "Same method: let the exponential term go to 0 as t gets very large, then substitute. The numbers change (rate 0.2 instead of 0.081, coefficient 40 instead of 75, offset 5 instead of 20), and the interpretation step is left out.",
+   "legend": {"1": "the exponential term that shrinks to 0", "2": "the limit, the temperature T(t) approaches"},
+   "steps": [
+    {"ask": "What does e to the power −0.2t approach as t gets very large?", "title": "See what happens to the exponential", "lines": [
+      {"text": "As $t$ gets very large, $\\hl{1}{e^{-0.2t}}$ gets closer and closer to $0$."},
+      {"tex": "\\lim_{t \\to \\infty} \\hl{1}{e^{-0.2t}} &= 0"}
+    ]},
+    {"ask": "Once the exponential term is 0, what does T(t) become?", "title": "Put this into $T(t)$", "lines": [
+      {"tex": "T(t) &\\to \\hl{2}{5 + 40(0)}"},
+      {"tex": "&= \\hl{2}{5}"}
+    ]}
+   ],
+   "final": "\\hl{2}{5}",
+   "graph": null},
+  {"part": "practice-fn-limit-concept-1", "note": "This asks for the limit as x approaches 3, a finite point, rather than as time grows, and the function is a fraction, so the first step simplifies it. What stays the same is checking the values on both sides and reading off the limit.",
+   "legend": {"1": "f(x) near x = 3, the values being checked", "2": "the limit of f(x) as x approaches 3"},
+   "steps": [
+    {"ask": "Can the top line be factorised, and does it share a factor with x − 3?", "title": "Simplify the function for $x \\neq 3$", "lines": [
+      {"tex": "\\frac{x^2 - 9}{x - 3} &= \\frac{(x-3)(x+3)}{x-3}"},
+      {"tex": "&= x + 3"}
+    ]},
+    {"ask": "What is f(x) when x is just below 3, and what is it when x is just above 3?", "title": "Try values just below and just above 3", "lines": [
+      {"tex": "\\hl{1}{f(2.99)} &= 2.99 + 3 = \\hl{1}{5.99}"},
+      {"tex": "\\hl{1}{f(3.01)} &= 3.01 + 3 = \\hl{1}{6.01}"}
+    ]},
+    {"ask": "What value do the outputs get closer to from both sides?", "title": "State the limiting value", "lines": [
+      {"text": "From both sides, $f(x)$ gets closer and closer to $\\hl{2}{6}$."},
+      {"tex": "\\lim_{x \\to 3} f(x) &= 3 + 3 = \\hl{2}{6}"}
+    ]}
+   ],
+   "final": "\\hl{2}{6}",
+   "graph": null}
+ ]}
+]
