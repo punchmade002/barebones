@@ -1,21 +1,27 @@
 {
+ "diff-slope-tangent": [
+  "maths-pp-2016-ordinary-p1-q4#(c)(ii): not one of the candidates"
+ ],
  "seq-geo-unknown-n": [
   "2017-higher-p1-q4#(a): its solution talks about the marking scheme; choose another candidate"
  ],
  "stat-back-to-back": [
-  "2022-ordinary-p2-q7#(a)(i): no \\hl marks",
+  "maths-pp-2022-ordinary-p2-q7#(a)(i): not one of the candidates",
   "2016-ordinary-p2-q5#(c): no \\hl marks"
  ],
  "trig-graph": [
   "maths-pp-2016-higher-p2-q8#(d)(ii): not one of the candidates"
+ ],
+ "trig-graph-abc": [
+  "maths-pp-2018-higher-p2-q9#(b)(i): not one of the candidates"
+ ],
+ "line-point-on": [
+  "maths-pp-2021-ordinary-p2-q10#(c)(ii): not one of the candidates"
  ],
  "fn-graph-log": [
   "2018-higher-p1-q7#(c): graph point {'x': 10, 'y': 8, 'name': '(10, 8)'} is not on f (f(10) = 8.345712039032664)"
  ],
  "seq-derive-sum-infinity": [
   "practice-seq-derive-sum-infinity-2: note has LaTeX outside $…$"
- ],
- "seq-verify-formula": [
-  "practice-seq-verify-formula-2: note has LaTeX outside $…$"
  ]
 }

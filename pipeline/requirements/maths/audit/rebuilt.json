@@ -1,61 +1,217 @@
 {
- "skills": [
-  "alg-factor-quadratic",
-  "alg-fractions-simplify",
-  "alg-surd-expressions",
-  "circ-general-form",
-  "circ-touching",
-  "cubic-solve",
-  "cubic-unknown-coefficient",
-  "cx-conjugate-properties",
-  "cx-conjugate-root",
-  "diff-curve-sketch",
-  "diff-point-given-slope",
-  "diff-sketch-derivative",
-  "diff-slope-tangent",
-  "fin-estimate",
-  "fin-mortgage-derive",
-  "fn-compare-graphs",
-  "fn-graph-log",
-  "fn-injective-surjective",
-  "fn-transformations",
-  "geo-cor1",
-  "geo-cor3",
-  "geo-thm11",
-  "geo-thm12",
-  "geo-thm20",
-  "geo-transformations",
-  "inf-confidence-width",
-  "inf-interpret",
-  "line-point-on",
-  "log-definition",
-  "logic-terms-hl",
-  "mens-nets",
-  "num-decimal-fraction",
-  "num-prime-factors",
-  "num-sci-notation",
-  "num-surds",
-  "prob-relative-frequency",
-  "prob-selection-restrictions",
-  "quad-form-from-roots",
-  "seq-arith-find-ad",
-  "seq-classify",
-  "seq-derive-sum-infinity",
-  "seq-geo-unknown-n",
-  "seq-verify-formula",
-  "stat-back-to-back",
-  "stat-choose-display",
-  "stat-correlation-calc",
-  "stat-populations-samples",
-  "stat-quartiles-iqr",
-  "stat-sd",
-  "stat-srs-bias",
-  "trig-graph",
-  "trig-graph-abc",
-  "trig-radians",
-  "trig-unit-circle"
- ],
- "after": {
+ "alg-factor-quadratic": {
+  "F": 12,
+  "R": 35
+ },
+ "alg-fractions-simplify": {
+  "F": 12,
+  "R": 35
+ },
+ "alg-surd-expressions": {
+  "F": 12,
+  "R": 35
+ },
+ "circ-general-form": {
+  "F": 12,
+  "R": 35
+ },
+ "circ-touching": {
+  "F": 12,
+  "R": 35
+ },
+ "cubic-solve": {
+  "F": 12,
+  "R": 35
+ },
+ "cubic-unknown-coefficient": {
+  "F": 12,
+  "R": 35
+ },
+ "cx-conjugate-properties": {
+  "F": 12,
+  "R": 35
+ },
+ "cx-conjugate-root": {
+  "F": 12,
+  "R": 35
+ },
+ "diff-curve-sketch": {
+  "F": 12,
+  "R": 35
+ },
+ "diff-point-given-slope": {
+  "F": 12,
+  "R": 35
+ },
+ "diff-sketch-derivative": {
+  "F": 12,
+  "R": 35
+ },
+ "diff-slope-tangent": {
+  "F": 14,
+  "R": 35
+ },
+ "fin-estimate": {
+  "F": 12,
+  "R": 35
+ },
+ "fin-mortgage-derive": {
+  "F": 12,
+  "R": 35
+ },
+ "fn-compare-graphs": {
+  "F": 12,
+  "R": 35
+ },
+ "fn-graph-log": {
+  "F": 12,
+  "R": 35
+ },
+ "fn-injective-surjective": {
+  "F": 12,
+  "R": 35
+ },
+ "fn-transformations": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-cor1": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-cor3": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-thm11": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-thm12": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-thm20": {
+  "F": 12,
+  "R": 35
+ },
+ "geo-transformations": {
+  "F": 12,
+  "R": 35
+ },
+ "inf-confidence-width": {
+  "F": 12,
+  "R": 35
+ },
+ "inf-interpret": {
+  "F": 12,
+  "R": 35
+ },
+ "line-point-on": {
+  "F": 14,
+  "R": 35
+ },
+ "log-definition": {
+  "F": 12,
+  "R": 35
+ },
+ "logic-terms-hl": {
+  "F": 12,
+  "R": 35
+ },
+ "mens-nets": {
+  "F": 12,
+  "R": 35
+ },
+ "num-decimal-fraction": {
+  "F": 12,
+  "R": 35
+ },
+ "num-prime-factors": {
+  "F": 12,
+  "R": 35
+ },
+ "num-sci-notation": {
+  "F": 12,
+  "R": 35
+ },
+ "num-surds": {
+  "F": 12,
+  "R": 35
+ },
+ "prob-relative-frequency": {
+  "F": 12,
+  "R": 35
+ },
+ "prob-selection-restrictions": {
+  "F": 12,
+  "R": 35
+ },
+ "quad-form-from-roots": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-arith-find-ad": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-classify": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-derive-sum-infinity": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-geo-unknown-n": {
+  "F": 12,
+  "R": 35
+ },
+ "seq-verify-formula": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-back-to-back": {
+  "F": 14,
+  "R": 35
+ },
+ "stat-choose-display": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-correlation-calc": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-populations-samples": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-quartiles-iqr": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-sd": {
+  "F": 12,
+  "R": 35
+ },
+ "stat-srs-bias": {
+  "F": 12,
+  "R": 35
+ },
+ "trig-graph": {
+  "F": 12,
+  "R": 35
+ },
+ "trig-graph-abc": {
+  "F": 14,
+  "R": 35
+ },
+ "trig-radians": {
+  "F": 12,
+  "R": 35
+ },
+ "trig-unit-circle": {
   "F": 12,
   "R": 35
  }

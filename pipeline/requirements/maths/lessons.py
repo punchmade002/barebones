@@ -109,6 +109,8 @@ def pack(prefix='L', only=()):
         skills = {s: v for s, v in skills.items() if (s in only if only else s not in done)}   # only: redo these
     (WORK / 'in').mkdir(parents=True, exist_ok=True)
     (WORK / 'out').mkdir(exist_ok=True)
+    # practice problems were written for this skill, so they always go in; exam parts fill the rest
+    keep = lambda c: [p for p in c if not p.startswith('practice-')][:max(0, MAX_CANDIDATES - sum(p.startswith('practice-') for p in c))] + [p for p in c if p.startswith('practice-')]
     # exam parts the method audit (audit/out) found teach a different method from the lesson's main problem
     path = HERE / 'audit' / 'dropped.json'
     dropped = json.loads(path.read_text()) if path.exists() else {}
@@ -126,7 +128,7 @@ def pack(prefix='L', only=()):
                                                                                 for ln in st['lines']])
                                                  for st in parts[pid]['p']['workedSolution']['steps']],
                                           final=parts[pid]['p']['workedSolution']['finalAnswer'])
-                                     for pid in cands[:MAX_CANDIDATES]]))
+                                     for pid in keep(cands)]))
     start = len(list((WORK / 'in').glob('N*.json'))) if prefix == 'N' else 0   # never overwrite an earlier N batch
     for n in range(0, len(jobs), PER_BATCH):
         (WORK / 'in' / f'{prefix}{start + n // PER_BATCH + 1:02}.json').write_text(json.dumps(jobs[n:n + PER_BATCH], ensure_ascii=False, indent=1))
@@ -277,9 +279,9 @@ def outputs(reviewed=True):
     dropped = json.loads(path.read_text()) if path.exists() else {}
     # rebuilt skills (audit/rebuilt.json) take only fixes/reviews numbered after the rebuild
     path = HERE / 'audit' / 'rebuilt.json'
-    rebuilt = json.loads(path.read_text()) if path.exists() else {'skills': [], 'after': {}}
+    rebuilt = json.loads(path.read_text()) if path.exists() else {}   # {skill: {"F": last fix before, "R": last review before}}
     def stale(o, f):
-        old = o['skill'] in rebuilt['skills'] and int(f.stem[1:]) <= rebuilt['after'].get(f.stem[0], 0)
+        old = int(f.stem[1:]) <= rebuilt.get(o['skill'], {}).get(f.stem[0], 0)
         return old or any(p.get('part') in dropped.get(o['skill'], ()) for p in o.get('problems') or [])
     outs = {}
     for f in sorted((WORK / 'out').glob('*.json')):
