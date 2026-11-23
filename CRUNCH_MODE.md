@@ -88,5 +88,18 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
 - `scripts/crunch_points.py`: item ids and one package per subsection →
   `drafts/crunch/<subject>/points/`. The agent prompt is
   `drafts/crunch/<subject>/point-prompt.md`.
+- `python3 scripts/crunch_points.py <subject> merge`: checks every agent output
+  against its package → `content/crunch/<subject>-points.json`
+  (`{item: {hash, cost, needs:[{id, strength, why, confidence}]}}`), loops in
+  `drafts/crunch/<subject>/point-cycles.json`, spot-check list in
+  `drafts/crunch/<subject>/point-review.md`. `drafts/crunch/<subject>/audit.py`
+  flags packages with an odd cost-2 rate, link density or default-filled runs.
 - Not under `content/<subject>/`: `build_notes.py` reads every `.json` there as a
   subsection.
+
+## Status (2026-11-23)
+Biology point graph drafted by Sonnet, one agent per subsection: 10,583 items,
+8,389 links (3,590 essential), 2,113 cost-2 items (total cost 12,696), 29 two-way
+loops. Four packages were re-run after their agents misbehaved (truncated reads,
+confidence set to mean strength, default-filled items). Not yet reviewed by
+Gabriel. The loops must be resolved before any scoring code runs.

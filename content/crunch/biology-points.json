@@ -79661,6 +79661,2255 @@
 }
 ]
 },
+"bio32-s1.0.b": {
+"hash": "da7cb351",
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s1.3.0",
+"strength": "helpful",
+"why": "habitat",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.0.0": {
+"hash": "bad2b656",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.1.0",
+"strength": "helpful",
+"why": "species concept",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.0.1": {
+"hash": "63fb97cc",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.0.2": {
+"hash": "a68d326a",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.0.3": {
+"hash": "01edcb1e",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.0.4": {
+"hash": "9436dc83",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.0.5": {
+"hash": "668b70af",
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s1.2.2",
+"strength": "helpful",
+"why": "abiotic factors",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.0.6": {
+"hash": "06fc6b4f",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.0.7": {
+"hash": "37be641a",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.1.b": {
+"hash": "aeab288d",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.1.0": {
+"hash": "b6aae4f9",
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s1.3.1",
+"strength": "helpful",
+"why": "microhabitat",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.1.1": {
+"hash": "567b31a9",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.1.2": {
+"hash": "6ba11909",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.1.3": {
+"hash": "30141119",
+"cost": 2,
+"needs": []
+},
+"bio32-s1.1.4": {
+"hash": "33e50952",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.0",
+"strength": "helpful",
+"why": "identification keys",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.1.5": {
+"hash": "d6ab0f6d",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.2.b": {
+"hash": "93a46aad",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.2.0": {
+"hash": "d94328fa",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.2.1": {
+"hash": "ee815613",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.2.2": {
+"hash": "f2d508a5",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.2.3": {
+"hash": "5542a833",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.3.b": {
+"hash": "3d0b72fe",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.3.0": {
+"hash": "cee30e1f",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.3.1": {
+"hash": "75b666d4",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.3.2": {
+"hash": "a8cc9790",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.3.3": {
+"hash": "399b3853",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.3.4": {
+"hash": "f3dc3343",
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s1.3.1",
+"strength": "helpful",
+"why": "microhabitat",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.3.5": {
+"hash": "5aef28cb",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.3.6": {
+"hash": "8b8f6470",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.0",
+"strength": "helpful",
+"why": "checking against keys",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.4.b": {
+"hash": "78da16b7",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.4.0": {
+"hash": "db5d240b",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.4.1": {
+"hash": "2de4b590",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.0",
+"strength": "essential",
+"why": "pitfall trap design",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.4.2": {
+"hash": "1505460f",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.0",
+"strength": "helpful",
+"why": "pitfall trap",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.4.3": {
+"hash": "de25dea2",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.0",
+"strength": "helpful",
+"why": "pitfall trap",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.4.4": {
+"hash": "fada4f85",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.0",
+"strength": "helpful",
+"why": "pitfall trap",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.4.5": {
+"hash": "78ccc28a",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.0",
+"strength": "essential",
+"why": "pitfall trap structure",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.5.b": {
+"hash": "307bf4bc",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.5.0": {
+"hash": "b21e6017",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.5.1": {
+"hash": "e4ea05ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.5.0",
+"strength": "essential",
+"why": "Tullgren funnel",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.5.2": {
+"hash": "aceebfa0",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.5.1",
+"strength": "essential",
+"why": "funnel set-up with lamp",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.5.3": {
+"hash": "d3a7f3b3",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.5.1",
+"strength": "helpful",
+"why": "funnel beaker position",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.5.4": {
+"hash": "5ab6aed4",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.5.0",
+"strength": "helpful",
+"why": "Tullgren funnel",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.5.5": {
+"hash": "262f4679",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.5.1",
+"strength": "essential",
+"why": "mesh and lamp",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.5.6": {
+"hash": "581aa8f5",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.5.1",
+"strength": "essential",
+"why": "funnel parts",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.6.b": {
+"hash": "19806b18",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.6.0": {
+"hash": "ecbe9614",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.6.1": {
+"hash": "9a941f7a",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.6.0",
+"strength": "helpful",
+"why": "earthworm collection",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.6.2": {
+"hash": "1082b05d",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.6.3": {
+"hash": "123b550c",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.6.2",
+"strength": "essential",
+"why": "small-mammal trap",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.6.4": {
+"hash": "6071b843",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.7.b": {
+"hash": "147f99f1",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.7.0": {
+"hash": "7a4adf2e",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.7.1": {
+"hash": "60c19b85",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.7.0",
+"strength": "essential",
+"why": "sweep net",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.7.2": {
+"hash": "e9a191a0",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.7.0",
+"strength": "helpful",
+"why": "sweep net",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.7.3": {
+"hash": "e0fa07d8",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.2.2",
+"strength": "helpful",
+"why": "controlled variables, fair comparison",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.7.4": {
+"hash": "d40dd7ff",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.7.0",
+"strength": "essential",
+"why": "sweep net",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.7.5": {
+"hash": "fb0c52cc",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.7.6": {
+"hash": "bc32c27f",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.7.5",
+"strength": "essential",
+"why": "beating tray",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.8.b": {
+"hash": "563ca11e",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.8.0": {
+"hash": "fec45bcb",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.8.1": {
+"hash": "419e4afa",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.8.0",
+"strength": "essential",
+"why": "pooter structure",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.8.2": {
+"hash": "1121fd81",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.8.1",
+"strength": "essential",
+"why": "mouthpiece tube use",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.8.3": {
+"hash": "75d27c04",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.8.0",
+"strength": "helpful",
+"why": "pooter",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.8.4": {
+"hash": "6964405b",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.8.5": {
+"hash": "4a7010ab",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.8.1",
+"strength": "essential",
+"why": "pooter parts and airflow",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.9.b": {
+"hash": "bbd8c976",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.9.0": {
+"hash": "b25f6bb6",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.9.1": {
+"hash": "5ff979d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.9.0",
+"strength": "helpful",
+"why": "butterfly net",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.9.2": {
+"hash": "dbd5dd39",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.9.3": {
+"hash": "bfa903f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.9.2",
+"strength": "essential",
+"why": "light trap",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.10.b": {
+"hash": "f7d047b7",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.10.0": {
+"hash": "10f64f34",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.10.1": {
+"hash": "7ca0c811",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.10.2": {
+"hash": "2b11893c",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.10.3": {
+"hash": "7afe8d0c",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.11.b": {
+"hash": "ad57c972",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.11.0": {
+"hash": "5f297cd4",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.11.1": {
+"hash": "0da23a34",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.0",
+"strength": "essential",
+"why": "identification key",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.11.2": {
+"hash": "1f11473b",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.1",
+"strength": "essential",
+"why": "couplets",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.11.3": {
+"hash": "ee4bef39",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.11.0",
+"strength": "helpful",
+"why": "identification key",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.11.4": {
+"hash": "70a40173",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.3",
+"strength": "helpful",
+"why": "good key features",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.b": {
+"hash": "43f7813a",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.12.0": {
+"hash": "36196b24",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.1",
+"strength": "essential",
+"why": "couplets",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.1": {
+"hash": "6662e9ad",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.12.0",
+"strength": "essential",
+"why": "key continues",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.2": {
+"hash": "7cd0213d",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.12.1",
+"strength": "essential",
+"why": "key continues",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.3": {
+"hash": "c75a1235",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.12.2",
+"strength": "essential",
+"why": "key continues",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.4": {
+"hash": "0289125b",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.12.3",
+"strength": "essential",
+"why": "whole key",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.5": {
+"hash": "3835d102",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.1",
+"strength": "helpful",
+"why": "two-way splits",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.6": {
+"hash": "45741bc5",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.12.5",
+"strength": "essential",
+"why": "making a key",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.12.7": {
+"hash": "77ac08bd",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.12.5",
+"strength": "helpful",
+"why": "key splits",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.13.b": {
+"hash": "01f51a45",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.13.0": {
+"hash": "33d83aaf",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.13.1": {
+"hash": "b9c288ad",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.0",
+"strength": "helpful",
+"why": "checking against a key",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.13.2": {
+"hash": "eb9246aa",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.13.3": {
+"hash": "1a59fa08",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.14.b": {
+"hash": "5d71217d",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.14.0": {
+"hash": "a9f585b9",
+"cost": 2,
+"needs": []
+},
+"bio32-s1.14.1": {
+"hash": "9bb416e0",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.14.2": {
+"hash": "06749007",
+"cost": 2,
+"needs": []
+},
+"bio32-s1.14.3": {
+"hash": "f0464423",
+"cost": 2,
+"needs": []
+},
+"bio32-s1.15.b": {
+"hash": "f81eb883",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.15.0": {
+"hash": "a812229f",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.7.5",
+"strength": "helpful",
+"why": "beating tray",
+"confidence": "high"
+},
+{
+"id": "bio32-s1.4.0",
+"strength": "helpful",
+"why": "pitfall trap",
+"confidence": "high"
+},
+{
+"id": "bio32-s1.5.0",
+"strength": "helpful",
+"why": "Tullgren funnel",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.15.1": {
+"hash": "a68e5a36",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.0",
+"strength": "helpful",
+"why": "seaweed key",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.15.2": {
+"hash": "74e80b7f",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.15.3": {
+"hash": "5cd27723",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.7.0",
+"strength": "helpful",
+"why": "sweeping like sweep net",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.15.4": {
+"hash": "394ba132",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.15.3",
+"strength": "helpful",
+"why": "pond net",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.15.5": {
+"hash": "62520244",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s1.15.4",
+"strength": "essential",
+"why": "kick sampling",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.15.6": {
+"hash": "6dd1e5a4",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.15.7": {
+"hash": "346b4ce3",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.b": {
+"hash": "e07e82a6",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.0": {
+"hash": "da56deac",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.1": {
+"hash": "529d7519",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.2": {
+"hash": "a398e1bd",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.3": {
+"hash": "84854492",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.4": {
+"hash": "0d4c4f71",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.5": {
+"hash": "69d62066",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.16.6": {
+"hash": "abb54927",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.17.b": {
+"hash": "730d144b",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.17.0": {
+"hash": "ba4f239a",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.17.1": {
+"hash": "b4d9162a",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.17.2": {
+"hash": "7a099aa3",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.17.3": {
+"hash": "ae55cf58",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.17.4": {
+"hash": "a7342caa",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.18.b": {
+"hash": "3cc9f38f",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.18.0": {
+"hash": "2bdc645c",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.0",
+"strength": "helpful",
+"why": "pitfall trap limits",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.18.1": {
+"hash": "b272a5b3",
+"cost": 1,
+"needs": []
+},
+"bio32-s1.18.2": {
+"hash": "c69e009e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.2.2",
+"strength": "helpful",
+"why": "controlling variables",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.18.3": {
+"hash": "c6168907",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.3",
+"strength": "helpful",
+"why": "checking traps",
+"confidence": "high"
+}
+]
+},
+"bio32-s1.18.4": {
+"hash": "28261595",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.11.0",
+"strength": "helpful",
+"why": "identification keys",
+"confidence": "low"
+}
+]
+},
+"bio32-s1.18.5": {
+"hash": "9c685af4",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.0.b": {
+"hash": "01c5e109",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.0.0": {
+"hash": "bc326fbc",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.0.1": {
+"hash": "8e720a72",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.0.0",
+"strength": "helpful",
+"why": "species list from fieldwork",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.0.2": {
+"hash": "a92b0a7e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.0.0",
+"strength": "helpful",
+"why": "qualitative survey",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.0.3": {
+"hash": "ecf6f3ab",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.0.2",
+"strength": "essential",
+"why": "DAFOR scale",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.0.4": {
+"hash": "30f904c3",
+"cost": 2,
+"needs": []
+},
+"bio32-s2.0.5": {
+"hash": "521d2a63",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.0.4",
+"strength": "essential",
+"why": "quantitative survey data",
+"confidence": "high"
+},
+{
+"id": "bio31-s1.4.4",
+"strength": "helpful",
+"why": "Simpson index and diversity",
+"confidence": "low"
+}
+]
+},
+"bio32-s2.0.6": {
+"hash": "1260c00b",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.1.b": {
+"hash": "c0a8e886",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.1.0": {
+"hash": "2823b260",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.1.1": {
+"hash": "c693a157",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.1.2": {
+"hash": "8cc58ee2",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.1.1",
+"strength": "helpful",
+"why": "random sampling procedure",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.1.3": {
+"hash": "7bcde14e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.1.2",
+"strength": "essential",
+"why": "grid axes from tapes",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.1.4": {
+"hash": "94d068ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.1.3",
+"strength": "essential",
+"why": "random coordinates",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.1.5": {
+"hash": "c824707c",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.1.4",
+"strength": "helpful",
+"why": "placing quadrat randomly",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.2.b": {
+"hash": "9f4d65d8",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.2.0": {
+"hash": "96ba1a72",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.7.b",
+"strength": "helpful",
+"why": "transect",
+"confidence": "low"
+}
+]
+},
+"bio32-s2.2.1": {
+"hash": "9e137a16",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.1.0",
+"strength": "helpful",
+"why": "representative sample",
+"confidence": "low"
+}
+]
+},
+"bio32-s2.2.2": {
+"hash": "5c502366",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.2.1",
+"strength": "helpful",
+"why": "number of samples",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.2.3": {
+"hash": "6bc2e166",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.2.2",
+"strength": "essential",
+"why": "running mean method",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.3.b": {
+"hash": "9d51962b",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.3.0": {
+"hash": "38438817",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.3.1": {
+"hash": "e10ce5d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "essential",
+"why": "quadrat",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.3.2": {
+"hash": "e5754cfc",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "helpful",
+"why": "quadrat",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.3.3": {
+"hash": "c2832a4d",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "essential",
+"why": "quadrat",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.3.4": {
+"hash": "667c8595",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "helpful",
+"why": "quadrat size",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.3.5": {
+"hash": "d73eee5d",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "helpful",
+"why": "quadrat edge counting",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.3.6": {
+"hash": "2bf3ffb8",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.1",
+"strength": "essential",
+"why": "gridded quadrat",
+"confidence": "high"
+},
+{
+"id": "bio32-s2.3.2",
+"strength": "essential",
+"why": "point quadrat",
+"confidence": "high"
+},
+{
+"id": "bio32-s2.1.3",
+"strength": "helpful",
+"why": "random coordinates grid",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.4.b": {
+"hash": "06e03779",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.4.0": {
+"hash": "2bcfdf9f",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "helpful",
+"why": "quadrat samples",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.4.1": {
+"hash": "4eae9759",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.4.0",
+"strength": "essential",
+"why": "percentage frequency",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.4.2": {
+"hash": "dd758d5f",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.4.0",
+"strength": "essential",
+"why": "percentage frequency",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.4.3": {
+"hash": "cff66966",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.4.0",
+"strength": "essential",
+"why": "percentage frequency",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.4.4": {
+"hash": "e0553eb2",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.4.0",
+"strength": "helpful",
+"why": "percentage frequency data",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.4.5": {
+"hash": "00352123",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.4.0",
+"strength": "essential",
+"why": "frequency formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.4.6": {
+"hash": "980fe4fe",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.4.5",
+"strength": "helpful",
+"why": "results to graph",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.b": {
+"hash": "4554363f",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.5.0": {
+"hash": "cc383041",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.b",
+"strength": "helpful",
+"why": "percentage cover",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.1": {
+"hash": "8fa4ce29",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.3.1",
+"strength": "essential",
+"why": "gridded quadrat",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.2": {
+"hash": "f93f8d9a",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.1",
+"strength": "essential",
+"why": "gridded cover method",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.3": {
+"hash": "b6fa7eb9",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.3.2",
+"strength": "essential",
+"why": "point quadrat pins",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.4": {
+"hash": "449111c5",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.3",
+"strength": "essential",
+"why": "point cover formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.5": {
+"hash": "84d95070",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.3",
+"strength": "essential",
+"why": "point cover formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.6": {
+"hash": "e1454faf",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.b",
+"strength": "helpful",
+"why": "percentage cover",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.5.7": {
+"hash": "471db690",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.3",
+"strength": "helpful",
+"why": "point method",
+"confidence": "low"
+}
+]
+},
+"bio32-s2.6.b": {
+"hash": "1e11298a",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.6.0": {
+"hash": "0e585c40",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "helpful",
+"why": "quadrat",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.6.1": {
+"hash": "78777552",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.6.0",
+"strength": "essential",
+"why": "density",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.6.2": {
+"hash": "1c836676",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.6.3": {
+"hash": "411ffdb9",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.6.0",
+"strength": "essential",
+"why": "density formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.6.4": {
+"hash": "a6be0d8a",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.6.3",
+"strength": "essential",
+"why": "worked data",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.6.5": {
+"hash": "154e4474",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.6.1",
+"strength": "essential",
+"why": "population estimate formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.6.6": {
+"hash": "76de58c1",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.0",
+"strength": "helpful",
+"why": "percentage cover alternative",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.7.b": {
+"hash": "6ed0e668",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.7.0": {
+"hash": "d3e374c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.2.0",
+"strength": "helpful",
+"why": "gradient and systematic sampling",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.7.1": {
+"hash": "1f34c7ea",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.7.b",
+"strength": "helpful",
+"why": "transect",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.7.2": {
+"hash": "4b2fc415",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.7.1",
+"strength": "essential",
+"why": "line transect step 1",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.7.3": {
+"hash": "d5299e16",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.7.2",
+"strength": "essential",
+"why": "line transect step 2",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.7.4": {
+"hash": "509b2885",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.0.6",
+"strength": "helpful",
+"why": "distribution vs abundance",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.7.5": {
+"hash": "76b94e8f",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.2.0",
+"strength": "essential",
+"why": "systematic sampling",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.7.6": {
+"hash": "e2183f87",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.7.1",
+"strength": "helpful",
+"why": "line transect",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.8.b": {
+"hash": "ca9149ca",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.7.1",
+"strength": "helpful",
+"why": "line transect",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.8.0": {
+"hash": "47cae230",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.7.1",
+"strength": "essential",
+"why": "line transect",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.8.1": {
+"hash": "46b6e165",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.8.0",
+"strength": "essential",
+"why": "belt transect quadrats",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.8.2": {
+"hash": "8d6579c8",
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s1.2.2",
+"strength": "helpful",
+"why": "abiotic factors",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.8.3": {
+"hash": "8549d454",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.8.0",
+"strength": "essential",
+"why": "belt transect",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.9.b": {
+"hash": "eeff0818",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.9.0": {
+"hash": "dbba148e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.3.0",
+"strength": "helpful",
+"why": "quadrats for plants",
+"confidence": "low"
+}
+]
+},
+"bio32-s2.9.1": {
+"hash": "d643e168",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.4.0",
+"strength": "essential",
+"why": "pitfall trap",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.9.2": {
+"hash": "a10858ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.1",
+"strength": "essential",
+"why": "caught sample",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.9.3": {
+"hash": "d7c1468f",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.2",
+"strength": "essential",
+"why": "marked animals",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.9.4": {
+"hash": "1edfe245",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.3",
+"strength": "essential",
+"why": "released marked animals",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.9.5": {
+"hash": "7f14e7f3",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.9.4",
+"strength": "essential",
+"why": "M, C and R values",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.9.6": {
+"hash": "3ab8b225",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.5",
+"strength": "essential",
+"why": "capture-recapture formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.9.7": {
+"hash": "4630f59b",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.5",
+"strength": "essential",
+"why": "capture-recapture formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.b": {
+"hash": "00acb113",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.5",
+"strength": "helpful",
+"why": "capture-recapture formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.0": {
+"hash": "9727792e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.5",
+"strength": "essential",
+"why": "N, M, C meanings",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.1": {
+"hash": "406825ef",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.4",
+"strength": "essential",
+"why": "R from second sample",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.2": {
+"hash": "98e4ac08",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.5",
+"strength": "helpful",
+"why": "population stays same",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.3": {
+"hash": "cf1ad3d7",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.5",
+"strength": "helpful",
+"why": "marked fraction equals population fraction",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.4": {
+"hash": "2e4e7315",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.9.2",
+"strength": "helpful",
+"why": "marking animals",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.5": {
+"hash": "bef15497",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.9.5",
+"strength": "essential",
+"why": "R in formula",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.10.6": {
+"hash": "5462aa1e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.7.0",
+"strength": "helpful",
+"why": "sweep net",
+"confidence": "low"
+}
+]
+},
+"bio32-s2.11.b": {
+"hash": "63c69b44",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.11.0": {
+"hash": "52a9f8f7",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.6.2",
+"strength": "helpful",
+"why": "measuring area",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.11.1": {
+"hash": "de4903a0",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.11.2": {
+"hash": "554f3f49",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.0.4",
+"strength": "helpful",
+"why": "quantitative survey measures",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.11.3": {
+"hash": "ddbee881",
+"cost": 1,
+"needs": [
+{
+"id": "bio31-s1.2.2",
+"strength": "helpful",
+"why": "abiotic factors",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.11.4": {
+"hash": "21c36236",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.0.6",
+"strength": "helpful",
+"why": "feeding relationships",
+"confidence": "low"
+}
+]
+},
+"bio32-s2.11.5": {
+"hash": "4bf64e38",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.11.4",
+"strength": "helpful",
+"why": "biotic factors",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.11.6": {
+"hash": "afa6ea92",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.11.b",
+"strength": "helpful",
+"why": "model meaning",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.11.7": {
+"hash": "8eeb432c",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.11.b",
+"strength": "helpful",
+"why": "model meaning",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.12.b": {
+"hash": "a222c0a9",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.12.0": {
+"hash": "7fd7b525",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.12.1": {
+"hash": "2a7b2300",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.4.0",
+"strength": "helpful",
+"why": "percentage frequency",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.12.2": {
+"hash": "bfbcb411",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.7.0",
+"strength": "helpful",
+"why": "transect abundance",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.12.3": {
+"hash": "5d662afe",
+"cost": 2,
+"needs": [
+{
+"id": "bio32-s2.12.2",
+"strength": "essential",
+"why": "abundance along transect",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.12.4": {
+"hash": "4a18afa5",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.12.3",
+"strength": "essential",
+"why": "kite diagram",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.b": {
+"hash": "a1d7eb5d",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.13.0": {
+"hash": "59a4cb71",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.0.6",
+"strength": "helpful",
+"why": "abundance and distribution",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.1": {
+"hash": "b474dddf",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.13.b",
+"strength": "helpful",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.2": {
+"hash": "eb2e49ae",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.2.0",
+"strength": "helpful",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.3": {
+"hash": "ee9a665a",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.2.1",
+"strength": "helpful",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.4": {
+"hash": "f6c4589e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.2.2",
+"strength": "helpful",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.5": {
+"hash": "24bb3aa7",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s1.2.3",
+"strength": "helpful",
+"why": "no true control",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.6": {
+"hash": "38d8954e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.13.3",
+"strength": "helpful",
+"why": "abundance measure",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.13.7": {
+"hash": "8306049e",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.13.1",
+"strength": "helpful",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.14.b": {
+"hash": "2773cbb1",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.14.0": {
+"hash": "18024f38",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.1.0",
+"strength": "helpful",
+"why": "representative random samples",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.14.1": {
+"hash": "f23dd85d",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.14.2": {
+"hash": "c1a353e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.5.7",
+"strength": "helpful",
+"why": "subjective cover estimate",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.14.3": {
+"hash": "c5de198c",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.14.4": {
+"hash": "69538ba9",
+"cost": 1,
+"needs": [
+{
+"id": "bio32-s2.10.2",
+"strength": "helpful",
+"why": "capture-recapture assumptions",
+"confidence": "high"
+}
+]
+},
+"bio32-s2.14.5": {
+"hash": "30279ca8",
+"cost": 1,
+"needs": []
+},
+"bio32-s2.14.6": {
+"hash": "b162123c",
+"cost": 1,
+"needs": []
+},
 "bio32-s3.0.b": {
 "hash": "c657ed13",
 "cost": 1,
