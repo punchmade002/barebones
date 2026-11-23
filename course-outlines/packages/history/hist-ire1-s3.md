@@ -87,7 +87,7 @@ Do not name any person, place, date or figure that is not on this list.
 | Item | Checked facts |
 |---|---|
 | A1 | Act of Union in force 1 January 1801. |
-| A4 | Irish Poor Law Act, 1838 (130 unions in all). |
+| A4 | Irish Poor Law Act, 1838: about 130 unions at first (all in place by about 1842); unions were later subdivided, so the number was not fixed. |
 | C1–C8 | No landlord count. Classes from top to bottom: landlords, middlemen, strong farmers (30 acres or more, about), smallholders (about 5–30 acres, mostly tenants-at-will), cottiers, landless labourers using conacre. Use "about" for acreages. |
 | P1 | Population about 5 million around 1800; 8.2 million at the 1841 census; about 6.6 million in 1851. |
 | P3 | Potato; lumper variety (high yield, poor quality). Potatoes eaten with buttermilk. |
@@ -132,6 +132,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: Trevelyan "declared the Famine over" (1847 or 1850), because the dates are not well fixed. Say he and ministers treated the crisis as over once the soup kitchens closed, and that distress continued.
 - Do not use: "the government treated the Famine as over by 1850" as a fact without qualification; say distress in the west continued after 1850.
 - Do not use: "costs shared between the Treasury and the county cess" for Peel's works as a precise rule; say costs fell largely on local taxes.
+- Do not use: "130 unions in all" as a final total, because unions were subdivided during and after the Famine; say "about 130 unions at first" and do not give a union count for the Famine years.
 - Do not use: "twenty-two unions" in the rate-in-aid; say "bankrupt western unions".
 - Do not use: Trevelyan's remarks about Providence in quotation marks; give them as reported belief.
 

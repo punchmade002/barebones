@@ -29,7 +29,7 @@ Key concepts (each defined as used in this topic; also in keyTerms)
 - [ ] K4 Essential terms (also keyTerms): Provisional Government, Free State, Civil War, Cumann na nGaedheal, Garda Síochána, Public Safety Acts, Electoral Amendment Act 1927, Fianna Fáil, Shannon Scheme.
 
 The split and the road to war, January–June 1922
-- [ ] S1 The two authorities: Provisional Government (Collins) and the Dáil government (Griffith); National Army recruited.
+- [ ] S1 The two authorities: Provisional Government (Collins) and the Dáil government (Griffith); National Army recruited (under Mulcahy).
 - [ ] S2 The IRA split: the March 1922 convention; O'Connor and Lynch; barracks taken as British troops left.
 - [ ] S3 Four Courts occupied, 14 April 1922.
 - [ ] S4 Collins-de Valera pact (20 May) and its repudiation.
@@ -101,7 +101,7 @@ Do not name any person, place, date or figure that is not on this list.
 | Item | Checked facts |
 |---|---|
 | A1 | Treaty signed 6 December 1921. Dáil vote 64-57, 7 January 1922. Dáil President de Valera resigned on 9 January; Griffith was elected President of the Dáil on 10 January 1922. |
-| S1 | Provisional Government took office in January 1922 (Collins chairman; handover of Dublin Castle on 16 January 1922). Collins was also commander-in-chief of the National Army (recruited from early 1922). Griffith led the Dáil government. |
+| S1 | Provisional Government took office in January 1922 (Collins chairman; handover of Dublin Castle on 16 January 1922). Collins was also Minister for Finance. The National Army was recruited from early 1922 under Mulcahy (Minister for Defence and chief of staff). Griffith led the Dáil government. |
 | S2 | The anti-Treaty IRA officers held a convention on 26 March 1922 and rejected the authority of the Dáil. Rory O'Connor and Liam Lynch were leaders (Lynch became chief of staff of the anti-Treaty IRA). British troops handed over barracks from January 1922. |
 | S3 | Four Courts occupied on 14 April 1922 by the anti-Treaty IRA under Rory O'Connor. |
 | S4 | Collins-de Valera pact: 20 May 1922; a joint Sinn Féin panel; Collins repudiated it in mid-June, just before the poll. |
@@ -156,6 +156,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: any account of who fired the shot that killed Collins; state only that he was killed in an ambush.
 - Do not use: an exact date for the Electoral Amendment Act; say Fianna Fáil entered the Dáil on 12 August 1927 under the threat of it.
 - Do not use: any quotation attributed to Collins or Cosgrave.
+- Do not use: "Collins was commander-in-chief of the National Army from early 1922"; Mulcahy ran the army as it was recruited, and Collins became commander-in-chief only in July 1922 (after the Civil War began).
 
 Confusable people, terms and dates
 - Provisional Government (Collins, January 1922) vs the Dáil government (Griffith, as President of the Dáil) vs the Executive Council of the Free State (from December 1922; Cosgrave).

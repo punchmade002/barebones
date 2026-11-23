@@ -129,7 +129,7 @@ Do not name any person, place, date or figure that is not on this list.
 | MA5 | Barred from boxing for over three years; returned October 1970. Lost to Joe Frazier, "Fight of the Century", Madison Square Garden, 8 March 1971. Beat George Foreman at Kinshasa, Zaire, 30 October 1974 ("Rumble in the Jungle") to regain the title. Beat Frazier in the "Thrilla in Manila", 1975. Retired 1981; lived with Parkinson's disease. |
 | MA6 | "Float like a butterfly, sting like a bee." David Remnick, *King of the World* (1998). |
 | C1 | Summer of Love, 1967, Haight-Ashbury, San Francisco. |
-| C2 | Timothy Leary, former Harvard psychologist, "turn on, tune in, drop out" (1966). LSD banned in California in 1966. |
+| C2 | Timothy Leary, former Harvard psychologist, "turn on, tune in, drop out" (coined c.1966, popularised in January 1967). LSD banned in California in 1966. |
 | C3 | Bob Dylan, Jimi Hendrix, the Beatles' *Sgt Pepper* (1967); *Easy Rider* (1969). |
 | C4 | Woodstock, near Bethel, New York, 15–18 August 1969; about 400,000 (estimates vary). |
 | C5 | Altamont Speedway, California, December 1969: a man was killed by Hells Angels during a Rolling Stones concert. |
@@ -153,6 +153,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "Stonewall began the modern gay rights movement" as flat fact; say it is widely seen as a turning point, as organisations existed before 1969.
 - Do not use: Woodstock's crowd as a single exact figure; say about 400,000, estimates vary.
 - Do not use: a cause of Monroe's death beyond "barbiturate overdose, ruled probable suicide"; no conspiracy claim is supported.
+- Do not use: "turn on, tune in, drop out" dated flatly to 1966, because the phrase is usually dated to Leary's public use at the Human Be-In, San Francisco, 14 January 1967; Leary says he coined it in 1966, so the date is contested.
 - Do not use: a full date for Ali's change of name; say March 1964.
 
 Confusable people, terms and dates

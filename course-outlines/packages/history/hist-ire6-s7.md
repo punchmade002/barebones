@@ -40,7 +40,7 @@ Regional and social funds
 Foreign investment, industry and the decline of protected firms
 - [ ] I1 Foreign firms came to sell into the EEC, drawn by IDA grants, an English-speaking young workforce and low taxes.
 - [ ] I2 The 10 per cent tax rate on manufacturing profits (1981).
-- [ ] I3 New leading sectors: electronics, pharmaceuticals, chemicals, engineering (example: Digital in Galway).
+- [ ] I3 New leading sectors: electronics, pharmaceuticals, chemicals, engineering (example: Digital in Galway, opened 1971, before entry).
 - [ ] I4 Decline of protected firms (clothing, textiles, footwear): lost protection, closures, job losses.
 - [ ] I5 Unemployment of the late 1970s and 1980s: membership did not solve all weaknesses.
 - [ ] I6 Exports diversified; manufactured goods became the larger share of exports.
@@ -106,7 +106,7 @@ Do not name any person, place, date or figure that is not on this list. No quota
 | R4 | 1988 reform of the structural funds, linked to the Single European Act (1987), roughly doubled the money; Ireland's programme ran 1989–93. |
 | I1 | Industrial Development Authority (IDA) grants; low tax; young, English-speaking workforce; access to the EEC market. |
 | I2 | From 1981 manufacturing profits were taxed at 10 per cent. |
-| I3 | Digital opened a plant in Galway. Leading sectors: electronics, pharmaceuticals, chemicals, engineering. |
+| I3 | Digital opened a plant in Galway in 1971, before entry in 1973 (so not an example of EEC-membership effects). Leading sectors: electronics, pharmaceuticals, chemicals, engineering. |
 | W1 | Equal pay directive 1975; equal treatment (employment) directive 1976. Irish laws: Anti-Discrimination (Pay) Act 1974; Employment Equality Act 1977. |
 | W2 | Marriage bar lifted in the civil service in 1973. Directive on equal treatment in social welfare adopted 1978; Ireland had to change payments to married women in the 1980s. |
 | W4 | Crotty case (1987) and the Single European Act: pointer only; detail is in the notes on the UN and the EEC. |
@@ -123,7 +123,8 @@ Do not name any person, place, date or figure that is not on this list. No quota
 ## 3. Traps
 
 Do not use (wrong or doubtful facts in the current notes):
-- Do not use: "Intel at Leixlip" as an example of foreign investment, because Intel's Leixlip plant dates from 1989 at the very end of the period and its start year is not certain. Use Digital in Galway.
+- Do not use: "Intel at Leixlip" as an example of foreign investment, because Intel's Leixlip plant dates from 1989 at the very end of the period and its start year is not certain. Digital in Galway is usable only as an example of foreign investment drawn by IDA grants and sectors, dated 1971.
+- Do not use: Digital in Galway as an example of firms drawn by EEC membership or market access after entry. It opened in 1971, before entry in 1973; say "opened 1971, before entry".
 - Do not use: the marriage bar's removal in 1973 as a result of EEC directives. It followed the Commission on the Status of Women (1970–72) and fell in the year of entry; say "lifted in 1973, the year of entry", not that the EEC forced it.
 - Do not use: the Common Market Defence Campaign as the source of the fishing complaint. It opposed entry on sovereignty grounds in general; the fishing grievance came from fishermen's organisations and critics of the terms.
 - Do not use: "the government replied that Ireland could not manage the waters alone" as a reported government statement, because it is not well sourced. Give the government's side as: it got the best terms it could (the 12-mile zone and the Hague preferences) and fishing mattered little beside farming.

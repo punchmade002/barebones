@@ -45,8 +45,8 @@ Hollywood's Irish
 - [ ] H11 (context) Film in Ireland: Censorship of Films Act 1923, Ardmore Studios 1958; Irish audiences saw mainly Hollywood and British films.
 
 Key personality: Maureen O'Hara (one block, every point)
-- [ ] P1 Who she was: born Maureen FitzSimons, Ranelagh, Dublin, 1920; Abbey Theatre school; to Britain, then America.
-- [ ] P2 Career with dates: Jamaica Inn (1939, Hitchcock); How Green Was My Valley (1941); Miracle on 34th Street (1947).
+- [ ] P1 Who she was: born Maureen FitzSimons, Ranelagh, Dublin, 1920; Abbey Theatre school; film career began in Britain, then to Hollywood (1939).
+- [ ] P2 Career with dates: Jamaica Inn (1939, Hitchcock, made in Britain; her breakthrough film); The Hunchback of Notre Dame (1939, Hollywood, with Charles Laughton); How Green Was My Valley (1941); Miracle on 34th Street (1947).
 - [ ] P3 What she did with Ford: Rio Grande (1950), The Quiet Man (1952), Mary Kate Danaher opposite John Wayne.
 - [ ] P4 Participant in making the image: her roles as spirited, fiery Irish heroines; how contemporaries saw her (Irish-American audiences embraced her; Irish critics questioned the picture of Irish women).
 - [ ] P5 Shaped by events: Dublin and Abbey training, then the Hollywood studio system and the roles it offered.
@@ -103,7 +103,7 @@ for this subsection; do not use any.
 | H10 | Man of Aran, 1934, documentary by the American Robert Flaherty on the Aran Islands. Odd Man Out, 1947, directed by Carol Reed, set in Belfast, starring James Mason. |
 | H11 | Censorship of Films Act, 1923. Ardmore Studios, Bray, Co. Wicklow, opened 1958. |
 | P1 | Born Maureen FitzSimons, Ranelagh, Dublin, 1920; trained at the Abbey Theatre school. |
-| P2 | Jamaica Inn, 1939, directed by Alfred Hitchcock (her first Hollywood film); How Green Was My Valley, 1941; Miracle on 34th Street, 1947. |
+| P2 | Jamaica Inn, 1939, a British production directed by Alfred Hitchcock in Britain (her breakthrough film; his last film before he moved to Hollywood); The Hunchback of Notre Dame, 1939, with Charles Laughton (her first Hollywood film); How Green Was My Valley, 1941; Miracle on 34th Street, 1947. |
 | P3 | Rio Grande, 1950; The Quiet Man, 1952; she played Mary Kate Danaher. |
 | P7 | US citizen; honorary Academy Award, 2014; died 2015. |
 | M1 | When Irish Eyes Are Smiling, 1912 (an Irish-American stage song associated with Olcott). Danny Boy: lyrics by the English lawyer and songwriter Frederic Weatherly (1910, rewritten 1913 to the air known as the Londonderry Air). |
@@ -123,6 +123,7 @@ for this subsection; do not use any.
 ## 3. Traps
 
 Do not use (wrong or doubtful facts in the current notes):
+- Do not use: Jamaica Inn (1939) as "her first Hollywood film", because it was a British production made in Britain. It was her breakthrough film under Hitchcock; her first Hollywood film was The Hunchback of Notre Dame (1939).
 - Do not use: Danny Boy "written in 1910 ... to an Irish air" or as a product of the Irish-American song industry, because the lyrics were by an Englishman (1910) and were fitted to the Londonderry Air only in 1913. Use the wording in section 2.
 - Do not use: "Irish critics objected" to The Quiet Man as if Irish opinion was united, because contemporary Irish reception was mixed and the film was popular; criticism of its stereotypes is strongest in later commentary. Say "some critics".
 - Do not use: Gael-Linn recordings "reaching emigrant audiences", An Coimisiún le Rincí Gaelacha, the Irish Hospitals' Sweepstake and the 1939 New York World's Fair pavilion; they are not in the outline's scope, and the emigrant-audience claim is unchecked.

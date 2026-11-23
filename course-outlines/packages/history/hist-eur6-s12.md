@@ -52,7 +52,7 @@ Mass media
 
 Mass higher education
 - [ ] E1 The GI Bill (1944, effects after 1945): veterans, first-generation students.
-- [ ] E2 Growth in numbers, 1945-1970, and the reasons for it (affluence, Sputnik and the National Defense Education Act 1958, baby boom, the Higher Education Act 1965).
+- [ ] E2 Growth in numbers, 1950-1970, and the reasons for it (affluence, Sputnik and the National Defense Education Act 1958, baby boom, the Higher Education Act 1965).
 - [ ] E3 State universities and the California Master Plan (1960); the "multiversity" (Clark Kerr).
 - [ ] E4 The Free Speech Movement at Berkeley (September-December 1964): causes, Savio, Sproul Hall, arrests, outcome.
 - [ ] E5 Campus protest spreading: Columbia (1968), the anti-war movement, Kent State and Jackson State (May 1970).
@@ -92,7 +92,7 @@ Do not name any person, place, date or figure that is not on this list.
 | M6 | Public Broadcasting Act, 1967, created the Corporation for Public Broadcasting; the Public Broadcasting Service began 1970. |
 | M8 | FCC abolished the Fairness Doctrine in 1987. CNN launched 1980, MTV 1981. |
 | E1 | Servicemen's Readjustment Act (GI Bill), June 1944; about 2 million veterans attended college under it by the mid-1950s (say "about two million"; about 7.8 million used some training or education benefit). |
-| E2 | College enrolment roughly tripled between 1945 and 1970, from under three million to about eight million (say "about"). National Defense Education Act, 1958, after Sputnik (1957). Higher Education Act, 1965. |
+| E2 | College enrolment roughly tripled between about 1950 and 1970, from under three million to about eight million (say "about"; the 1945 baseline was lower, about 1.7 million, depressed by the war). National Defense Education Act, 1958, after Sputnik (1957). Higher Education Act, 1965. |
 | E3 | California Master Plan for Higher Education, 1960: University of California, state colleges, community colleges. Clark Kerr, president of the University of California, called the large research university a "multiversity". |
 | E4 | Free Speech Movement, Berkeley, from September 1964 after the university banned political tables and recruiting on a strip of campus. Mario Savio's speech, 2 December 1964, on the "gears" and the "machine" (give as reported speech). Sit-in at Sproul Hall; about 800 arrested on 2-3 December 1964. Students were allowed more freedom of political activity in the following weeks. |
 | E5 | Columbia University occupation, April 1968. Kent State University, Ohio, 4 May 1970: four students killed by National Guard. Jackson State College, Mississippi, May 1970: two killed by police. Hundreds of campuses went on strike afterwards. |
@@ -102,7 +102,8 @@ No checked example: private university examples (Harvard, Columbia beyond 1968),
 ## 3. Traps
 
 Do not use (wrong or doubtful facts in the current notes):
-- Do not use: "2.6 million in 1950 to more than 8 million by 1970", because the 1950 figure is unreliable and sources differ; use "about" with the rounded range in section 2.
+- Do not use: "2.6 million in 1950 to more than 8 million by 1970", because the exact 1950 figure is unreliable and sources differ; use "about" with the rounded range in section 2 (under three million to about eight million, 1950-1970).
+- Do not use: enrolment "tripled since 1945" or "from 1945 to 1970", because the war-depressed 1945 level was about 1.7 million; date the tripling from about 1950.
 - Do not use: Graham "declined to join Falwell's Moral Majority in 1979", because there is no clear record of an invitation; say he kept his distance from it and warned against mixing religion with party politics.
 - Do not use: the Houston speech claim that Kennedy "declared his religion was his private affair" as a quotation; give the separation of church and state point only.
 - Do not use: "Church membership ... reaching a high point by the end of the decade" with a precise percentage; use "roughly two-thirds".

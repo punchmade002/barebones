@@ -42,7 +42,7 @@ Preparations and the change of government
 De Valera, the legate and the Governor-General
 - [ ] G1 Cardinal Lorenzo Lauri, the Pope's legate; arrival at Dún Laoghaire on 21 June 1932, welcomed by de Valera and Archbishop Byrne.
 - [ ] G2 The snub to the Governor-General, James McNeill: not invited to the legate's reception at Dublin Castle.
-- [ ] G3 Result: part of the conflict ending in McNeill's dismissal in October 1932.
+- [ ] G3 Result: part of the conflict ending in McNeill's dismissal on 1 November 1932.
 - [ ] G4 De Valera presented his government as both Catholic and independent of the Crown.
 
 Events, 22-26 June 1932
@@ -87,7 +87,7 @@ Assessment (final block, paired points)
 | Papal legate | Cardinal Lorenzo Lauri; arrived at Dún Laoghaire 21 June 1932. |
 | Pope | Pius XI; his message was broadcast by radio to the crowd. |
 | Government change | Fianna Fáil won the February 1932 election; de Valera became President of the Executive Council on 9 March 1932; Cosgrave's government had begun the planning. |
-| Governor-General | James McNeill, not invited to the legate's reception at Dublin Castle; dismissed by the government in October 1932. |
+| Governor-General | James McNeill, not invited to the legate's reception at Dublin Castle; dismissed on 1 November 1932 after the government advised the King to remove him. |
 | Children's Mass | 25 June, Phoenix Park, about 100,000 children. |
 | Closing Mass | 26 June, Phoenix Park; crowd often put at about a million (an estimate; say "often estimated"). |
 | John McCormack | Tenor; sang César Franck's Panis Angelicus at a Mass of the Congress. |
@@ -101,6 +101,7 @@ Assessment (final block, paired points)
 - Do not use: "36,000 schoolchildren lined the route", "McNeill held a rival dinner and wrote to de Valera on 7 July", and "Ministers would have walked out", because the figure, date and claim are not firmly attested.
 - Do not use: "four processions", "Ballymena train attack with injured pilgrims", and the claim that Cardinal Lauri was made cardinal in 1926, because they are uncertain.
 - Do not use: "crowds exceeded those at the 1979 papal Mass", and "the largest religious gathering in Irish history compared with 1979", because the comparison is unsupported.
+- Do not use: "McNeill was dismissed in October 1932", because the dismissal was on 1 November 1932.
 - Do not use: "the Congress ended with large crowds along the quays", because it is vague and unsourced.
 - Do not use: "the Pope's blessing was conveyed" as a separate event; use only the radio message.
 - McCormack's Panis Angelicus: sources place it at the opening High Mass (past exam answers) or at the Phoenix Park closing Mass. Say "at a Mass of the Congress"; do not give a date.

@@ -143,7 +143,7 @@ Confusable people, terms and dates
 - Telefís Éireann (launch, 1961) vs RTÉ (the Authority's name for radio and television); Radio Éireann vs RTÉ.
 - Section 31 (ministerial direction, 1971 first order) vs the sacking of the Authority (1972); different events, a year apart.
 - The Late Late Show (1962) vs the Late Late Toy Show (later, outside this case study).
-- Lemass (Taoiseach to 1966) vs Lynch (1966–73): Seven Days began after Lemass left office; the moneylending row and Section 31 were Lynch-era.
+- Lemass (Taoiseach to 1966) vs Lynch (1966–73): Seven Days began in autumn 1966, shortly before Lemass left office (Lynch became Taoiseach in November 1966); most of its run, the moneylending row and Section 31 were Lynch-era.
 - Seven Days (current affairs, 1966) vs This Week (radio, 1972, the Mac Stíofáin interview).
 - Gerry Collins (Minister for Posts and Telegraphs in 1971–72) vs Michael Collins.
 - Gay Byrne (broadcaster) vs Gabriel Byrne (actor).

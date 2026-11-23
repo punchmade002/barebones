@@ -32,7 +32,7 @@ Case study: the First Programme for Economic Expansion, 1958–1963
 - [ ] C1 Why protection and drift ended: small home market, small inefficient firms, one customer (Britain), emigration, population decline, stop-go crises.
 - [ ] C2 Fianna Fáil back in government (March 1957): Lemass at Industry and Commerce, Ryan at Finance.
 - [ ] C3 Whitaker as Secretary of the Department of Finance (1956): the group of younger officials; the Department's change of attitude.
-- [ ] C4 Economic Development (May 1958): what it argued (protection had failed; emigration a symptom; productive over social investment; welcome foreign capital; export-led growth).
+- [ ] C4 Economic Development (completed May 1958; published later in 1958): what it argued (protection had failed; emigration a symptom; productive over social investment; welcome foreign capital; export-led growth).
 - [ ] C5 The government's acceptance and the Programme (published November 1958; five years, 1959–63).
 - [ ] C6 Aims: raise output and living standards, halt emigration, create jobs in export industry and farming; modest target of about 2 per cent annual growth, deliberately low.
 - [ ] C7 Measures: ending the foreign-ownership rule (1958 Act); Export Profits Tax Relief; IDA grants and a larger IDA role, with better terms in the west; Shannon Free Airport Development Company (1959); An Foras Talúntais (1958) and farm productivity; the shift of public capital to productive investment.
@@ -91,7 +91,7 @@ Do not name any person, place, date or figure that is not on this list.
 | C1 | Net emigration in the 1950s was about 400,000 (the decade 1951–61). Population fell through the 1950s to about 2.82 million in 1961. Balance of payments crises 1951–52 and 1955–56 were met with deflation. |
 | C2 | Fianna Fáil returned to government in March 1957. Lemass: Minister for Industry and Commerce (and Tánaiste). James Ryan: Minister for Finance. |
 | C3 | Thomas Kenneth Whitaker became Secretary of the Department of Finance in 1956, aged 39. |
-| C4 | Economic Development published May 1958, written in the Department of Finance under Whitaker. |
+| C4 | Economic Development was completed in May 1958 and submitted to Ministers; it was published later in 1958, around the time of the Programme. Written in the Department of Finance under Whitaker. |
 | C5 | The Programme for Economic Expansion (the First Programme) was published in November 1958 and covered 1959 to 1963. |
 | C6 | Target: about 2 per cent annual growth in gross national product, deliberately modest. |
 | C7 | Industrial Development (Encouragement of External Investment) Act 1958. Export Profits Tax Relief: introduced in 1956 by the Second Inter-Party Government and kept and widened by Fianna Fáil. IDA set up 1949; its role and grants expanded in the late 1950s. Shannon Free Airport Development Company set up 1959. An Foras Talúntais (agricultural research institute) set up 1958. |
@@ -104,7 +104,7 @@ Do not name any person, place, date or figure that is not on this list.
 | T1 | EEC application 31 July 1961; Britain applied nine days later (9 August 1961). |
 | T2 | De Gaulle vetoed British entry on 14 January 1963. |
 | T3 | Anglo-Irish Free Trade Agreement: signed 14 December 1965; in force 1 July 1966; tariffs removed over ten years. |
-| T5 | Lemass at Stormont 14 January 1965; O'Neill in Dublin 9 February 1965; the first such meetings since partition. Terence O'Neill was Prime Minister of Northern Ireland. |
+| T5 | Lemass at Stormont 14 January 1965; O'Neill in Dublin 9 February 1965; the first meetings between the heads of the two governments since the 1920s. Terence O'Neill was Prime Minister of Northern Ireland. |
 | W1–W2 | Whitaker born 1916, Rostrevor, Co. Down; civil service 1934; Secretary of Finance 1956–69; Governor of the Central Bank 1969–76; senator 1977–82; chaired the Constitution Review Group (mid-1990s); died 2017 aged 100. |
 | M1–M2 | Lemass born Dublin 1899; fought in 1916 and on the anti-Treaty side; brother Noel killed 1923; co-founded Fianna Fáil 1926; Industry and Commerce 1932–39, 1941–48, 1951–54, 1957–59; Supplies 1939–45. |
 | Quotations | None. Do not quote Lemass, Whitaker or the documents. |
@@ -115,8 +115,10 @@ Do not name any person, place, date or figure that is not on this list.
 - Do not use: "Whitaker was more sceptical than Lemass about the Second Programme's targets" (the notes say this), because it is not established; say only that the Second Programme was abandoned in 1967.
 - Do not use: "grants ... with the best terms in the poorer western areas" as a named act or amount; say only that incentives favoured less developed areas, with no figures.
 - Do not use: "Economic Development was presented under the authority of the government", because it appeared as a Finance Department study that the government then adopted. Say the government accepted its analysis.
+- Do not use: "Economic Development was published in May 1958", because May 1958 is when it was completed and submitted to Ministers; it reached the public later in 1958, so do not place it months before the Programme as a public document.
+- Do not use: "the first such meetings since partition" for the 1965 Lemass-O'Neill meetings, because Collins and Craig met in 1922 and Cosgrave and Craig in 1925; say only the first between the heads of the two governments since the 1920s.
 - Do not use a day or figure for the Programme's capital spending, exports or unemployment; none is checked.
-- Confusable: Economic Development (the May 1958 report, an analysis) vs the Programme for Economic Expansion (the November 1958 white paper, the plan). The Programme is a government document, not a Whitaker report.
+- Confusable: Economic Development (the report completed in May 1958, an analysis) vs the Programme for Economic Expansion (the November 1958 white paper, the plan). The Programme is a government document, not a Whitaker report.
 - Confusable: First Programme (1959–63, target about 2 per cent, achieved about 4) vs Second Programme (1963, target about 4, abandoned 1967). Do not swap the targets.
 - Confusable: Export Profits Tax Relief began under the Inter-Party government (1956), not under the Programme.
 - Confusable: Ireland joined GATT in 1967, after Lemass had retired; the Free Trade Agreement (1965–66) is with Britain only; the EEC application (1961) is separate and was blocked by de Gaulle's veto of Britain.

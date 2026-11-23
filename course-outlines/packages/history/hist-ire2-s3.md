@@ -140,8 +140,8 @@ Do not name any person, place, date or figure that is not on this list.
 | G1 | Hawarden Kite, 17 December 1885; Hawarden is Gladstone's home in Flintshire; Herbert Gladstone, his son. |
 | G2 | Salisbury defeated 26 January 1886 on Jesse Collings's allotments amendment; Gladstone's third ministry, February 1886; John Morley, Chief Secretary for Ireland. |
 | G3 | Chamberlain and Sir George Trevelyan resigned from the Cabinet in March 1886. |
-| G4 | Government of Ireland Bill introduced 8 April 1886. Irish contribution: one fifteenth of imperial expenditure. Gladstone's phrase: Ireland "stands at your bar, expectant, hopeful, almost suppliant" (use only as a short phrase). |
-| D1 | Second reading defeated 8 June 1886 by 341 to 311, a majority of 30. |
+| G4 | Government of Ireland Bill introduced 8 April 1886. Irish contribution: one fifteenth of imperial expenditure. |
+| D1 | Second reading defeated 8 June 1886 by 341 to 311, a majority of 30. Gladstone's closing speech, 7 June 1886 (the night of the division): Ireland "stands at your bar, expectant, hopeful, almost suppliant" (use only as a short phrase). |
 | D2 | About 93 Liberals voted against. Lord Hartington; Joseph Chamberlain; John Bright. |
 | D3 | Gladstone dissolved Parliament in late June 1886. |
 | U1 | Churchill's letter of February 1886: the Orange card was the one to play. Ulster Hall, Belfast, 22 February 1886. |
@@ -165,6 +165,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "the Liberals' lead over the Conservatives was almost exactly the Irish total" as a fact; say about 335 to about 249 and that Irish votes could decide who governed.
 - Do not use: "(some sources give 343 to 313)", because the divisions I am sure of are 341 to 311 (majority 30). Give majority 30 and 341 to 311.
 - Do not use: Parnell objected to "its control of the police"; say only that he objected to its financial terms.
+- Do not use: "stands at your bar, expectant, hopeful, almost suppliant" as part of the 8 April 1886 introduction speech; it comes from Gladstone's closing speech on the second reading, 7 June 1886, before the defeat.
 - Do not use: the date "4 June 1886" for the first riot, because sources vary; say early June 1886.
 - Do not use: "at least 30 killed, and hundreds injured" without hedging; say "about 30 or more killed, estimates vary".
 - Do not use: "sitting together" for the two orders; say the legislature had two orders and leave it there.

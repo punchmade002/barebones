@@ -10,7 +10,7 @@
   Cousins); the Irish Citizen; militancy in 1912 (window-breaking, Asquith's Dublin visit,
   prison and hunger strike); the Irish Party's opposition (Redmond and Dillon); suffragists
   divided over nationalism and unionism. Education: the Intermediate Education Act (1878) and
-  payment by results; the Royal University (1879) and women graduates; Alexandra College and
+  payment by results; the Royal University (1879/80) and women graduates (degrees opened to women 1882); Alexandra College and
   convent schools; the Irish Universities Act (1908: NUI and Queen's University Belfast); Irish
   compulsory for NUI matriculation (decided 1910, applied from 1913); the 1900 revised primary
   programme. Key personalities: Isabella Tod; Hanna Sheehy-Skeffington. Key concepts: feminism;
@@ -41,7 +41,7 @@ Key personality: Isabella Tod (one block, every point)
 - [ ] T1 Who: Presbyterian reformer, born Edinburgh 1836, settled in Belfast, died 1896.
 - [ ] T2 Belfast suffrage society, early 1870s, first in Ulster.
 - [ ] T3 Married women's property campaign (Act of 1882).
-- [ ] T4 Girls' education: Ladies' Institute (1867), work with Margaret Byers, inclusion of girls in the Intermediate Act and the Royal University charter.
+- [ ] T4 Girls' education: Ladies' Institute (1867), work with Margaret Byers, inclusion of girls in the Intermediate Act and the opening of Royal University degrees to women (1882).
 - [ ] T5 Other causes: temperance (Belfast Women's Temperance Association, 1874), Contagious Diseases Acts.
 - [ ] T6 Unionism: Liberal Unionist, opposed Home Rule (1886); Irish Women's Liberal Unionist Association.
 - [ ] T7 Participant in the campaigns; contemporaries' view (respected speaker, limited among nationalists); historians' view (pioneer).
@@ -73,7 +73,7 @@ Educational reforms
 - [ ] D3 Effects: financed denominational schools without controlling them; girls' schools grew; criticism (cramming, narrow curriculum).
 - [ ] D4 Girls' secondary schools: Alexandra College (Dublin, 1866), Victoria College (Belfast, founded 1859 as the Ladies' Collegiate School by Margaret Byers), Loreto and Dominican convent schools.
 - [ ] D5 Primary education: Revised Programme of 1900 ended payment by results in national schools, broadened the curriculum, Irish allowed as an ordinary subject; bilingual programme 1904.
-- [ ] D6 Royal University of Ireland (1879): an examining body, degrees open to women, first women graduates early 1880s; replaced Queen's University.
+- [ ] D6 Royal University of Ireland (Act 1879, charter 1880): an examining body, degrees opened to women by supplemental charter 1882, first women graduates early 1880s; replaced Queen's University.
 - [ ] D7 The Catholic university question: Trinity's ethos, bishops' ban, Catholic grievance.
 - [ ] D8 Irish Universities Act 1908 (Birrell): NUI (colleges at Dublin, Cork, Galway) and Queen's University Belfast; NUI acceptable to Catholics, open to women; Walsh as first chancellor.
 - [ ] D9 Irish compulsory for NUI matriculation: decided 1910, applied from 1913 (Gaelic League campaign).
@@ -96,7 +96,7 @@ Do not name any person, place, date or figure that is not on this list.
 | E3 | Anna Haslam (1829–1922), a Quaker, and her husband Thomas Haslam founded the Dublin Women's Suffrage Association in 1876; it later became the Irish Women's Suffrage and Local Government Association. |
 | E4 | Local Government (Ireland) Act 1898: women could vote in county and district council elections and stand for district councils and boards of guardians, not for county councils. An Act of 1911 later opened county and borough councils to women. |
 | T1–T2 | Isabella Tod, born Edinburgh 1836, lived in Belfast until her death in 1896. She organised a suffrage society in Belfast in the early 1870s (the outline gives 1872), the first in Ulster. |
-| T3–T4 | Ladies' Institute, Belfast, 1867; Margaret Byers, Ladies' Collegiate School (founded 1859, later Victoria College); Tod helped win the inclusion of girls in the Intermediate Education Act (1878) and the Royal University charter (1879); Married Women's Property Act 1882. |
+| T3–T4 | Ladies' Institute, Belfast, 1867; Margaret Byers, Ladies' Collegiate School (founded 1859, later Victoria College); Tod helped win the inclusion of girls in the Intermediate Education Act (1878) and the opening of Royal University degrees to women (1882); Married Women's Property Act 1882. |
 | T5 | Belfast Women's Temperance Association, 1874; campaign against the Contagious Diseases Acts. |
 | T6 | Liberal Unionist; opposed Home Rule (1886); helped found the Irish Women's Liberal Unionist Association. |
 | S1 | Irish Women's Franchise League, 1908 (radical); Irish Women's Suffrage Federation, 1911 (peaceful, founded by Louie Bennett and others). |
@@ -112,7 +112,7 @@ Do not name any person, place, date or figure that is not on this list.
 | D1–D2 | Intermediate Education (Ireland) Act 1878; Intermediate Board; public examinations (junior, middle, senior grades) from 1879 for boys and girls; results fees; prizes and exhibitions. |
 | D4 | Alexandra College, Dublin, founded 1866; Victoria College, Belfast; Loreto and Dominican convent schools. |
 | D5 | Revised Programme of 1900 (national schools): ended payment by results, added drawing, practical work, nature study, and Irish as an ordinary subject; bilingual programme 1904. |
-| D6 | Royal University of Ireland, 1879, an examining body that replaced Queen's University; women graduated from the early 1880s. |
+| D6 | Royal University of Ireland (Act 1879, charter 1880), an examining body that replaced Queen's University; degrees opened to women by supplemental charter 1882; women graduated from the early 1880s. |
 | D8 | Irish Universities Act 1908, prepared by Chief Secretary Augustine Birrell; National University of Ireland (constituent colleges in Dublin, Cork and Galway) and Queen's University Belfast replaced the Royal University; Archbishop William Walsh of Dublin first chancellor of NUI; open to women. |
 | D9 | NUI Senate decided in 1910 to make Irish compulsory for matriculation, applied from 1913. |
 
@@ -121,6 +121,7 @@ Do not name any person, place, date or figure that is not on this list.
 Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "Women ratepayers won the municipal vote in 1887" and "women were first elected as poor law guardians in 1896", because the years and wording are not checked. Say only that women gained local government votes and office, with the 1898 Act as the key date.
 - Do not use: the Tod society date as "1871 to 1873"; give "the early 1870s" (or 1872 if a single year is wanted).
+- Do not use: "Royal University charter (1879)" or crediting Tod with that charter; the Act was 1879, the charter 1880, degrees opened to women by supplemental charter 1882. Write "Royal University (1879/80), degrees opened to women in 1882".
 - Do not use: the King and Queen's College of Physicians licensing women in 1877, because it is outside the outline and not needed.
 - Do not use: "the Royal University replaced the old Queen's University" without care; say it replaced the Queen's University as the examining and degree-awarding body.
 - Do not use: "Suffragists tried to have an amendment added to the Third Home Rule Bill, which the Irish Party and the government opposed" as a detailed event; give it only as the suffragists' demand for women's votes in a Home Rule settlement.
@@ -132,7 +133,7 @@ Confusable people, terms and dates
 - Isabella Tod (Presbyterian, Belfast, unionist, born 1836) vs Hanna Sheehy-Skeffington (Catholic nationalist family, Dublin, born 1877).
 - Margaret Cousins (IWFL co-founder) vs Margaret Byers (Victoria College principal).
 - Hanna Sheehy-Skeffington (suffragist) vs her husband Francis; Francis is the one shot in 1916.
-- Intermediate Act 1878 (secondary, exams 1879) vs Revised Programme 1900 (primary) vs Royal University 1879 vs NUI/Queen's 1908.
+- Intermediate Act 1878 (secondary, exams 1879) vs Revised Programme 1900 (primary) vs Royal University 1879/80 vs NUI/Queen's 1908.
 - WSPU (English suffragettes who visited Ireland in 1912) vs the Irish Women's Franchise League.
 - Local Government Act 1898 (county and district vote) vs the 1918 parliamentary vote.
 - Payment by results (Intermediate system from 1879) vs the national school system that the 1900 programme ended.

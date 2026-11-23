@@ -60,7 +60,7 @@ Information technology
 - [ ] I9 Links between the three fields: defence money, the space race and computing feeding one another.
 
 Satellites and spin-offs
-- [ ] T1 TIROS 1 (1960) weather satellite; Telstar (1962) live transatlantic television; the Communications Satellite Act (1962).
+- [ ] T1 TIROS 1 (1960) weather satellite; Telstar (launched 10 July 1962; first public live transatlantic television 23 July 1962); the Communications Satellite Act (1962).
 - [ ] T2 Spin-offs (miniaturised electronics, materials) and the historians' debate over how large they were.
 
 Assessment (final block, paired points)
@@ -109,10 +109,11 @@ Do not name any person, place, date or figure that is not on this list.
 | I6 | ARPANET, funded by ARPA (Defense Department); first message sent on 29 October 1969 from the University of California, Los Angeles (UCLA) to the Stanford Research Institute. |
 | I7 | Apple II, 1977; IBM Personal Computer, 1981, with an operating system supplied by Microsoft; Apple Macintosh, 1984, with a graphical interface. |
 | I8 | Silicon Valley (Santa Clara Valley, California, south of San Francisco); Stanford University; Hewlett-Packard, Fairchild Semiconductor, Intel. Early chips were bought by the US military and by NASA for missiles and the Apollo computer. |
-| T1 | TIROS 1, 1 April 1960, first successful weather satellite. Telstar, 10 July 1962, relayed live television across the Atlantic. Communications Satellite Act, 1962, created the Communications Satellite Corporation (COMSAT). |
+| T1 | TIROS 1, 1 April 1960, first successful weather satellite. Telstar launched 10 July 1962; first live transatlantic television broadcasts followed (public broadcasts 23 July 1962). Communications Satellite Act, 1962, created the Communications Satellite Corporation (COMSAT). |
 
 ## 3. Traps
 
+- Do not use: 10 July 1962 as the date live television crossed the Atlantic, because that is Telstar's launch date; the first public live transatlantic broadcasts were on 23 July 1962.
 - Do not use: "no human has been beyond low Earth orbit since" (Apollo 17), because it is a present-day claim that may be out of date; say instead that the last Apollo Moon landing was December 1972.
 - Do not use: reconnaissance satellites let the US monitor the Soviet Union "without flying over Soviet territory", because satellites do pass over it; the point is that they replaced risky U-2 aircraft flights (Powers was shot down in 1960).
 - Do not use: the Apollo programme ran "from 1967 to 1972" (the programme began in 1961; the first crewed flight was 1968; 1967 is the Apollo 1 fire), because it misdates the start.

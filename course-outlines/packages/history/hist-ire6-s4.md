@@ -106,12 +106,12 @@ Do not name any person, place, date or figure that is not on this list.
 | A1 | Lynch became Taoiseach on 10 November 1966, after Seán Lemass resigned. Parties: Fianna Fáil, Fine Gael, Labour. |
 | A3 | Ireland and the UK joined the EEC on 1 January 1973. |
 | E1 | Yom Kippur War, October 1973; Arab oil producers (OPEC members) cut supplies and raised prices. Ireland imported nearly all of its oil. |
-| E2 | The National Coalition of Fine Gael and Labour governed from March 1973 to June 1977 under Liam Cosgrave. |
+| E2 | The National Coalition of Fine Gael and Labour governed from March 1973 until 5 July 1977 under Liam Cosgrave; it lost the June 1977 general election. |
 | E3 | Iranian Revolution, 1979; second oil shock. Inflation reached about 20 per cent around 1981. |
 | E4 | The European Monetary System began in March 1979; Ireland joined and Britain did not, so Ireland broke its link with sterling in 1979. Do not give a century for the earlier link. |
 | L1 | John Mary "Jack" Lynch, born in Cork in 1917; hurling and football with Cork, six All-Ireland medals in a row (1941-46: five in hurling, one in football); barrister; first elected to the Dáil in 1948. |
 | L2 | Minister for Education (from 1957), Industry and Commerce (from 1959), Finance (from 1965). |
-| L3 | Taoiseach 10 November 1966 to March 1973, and from June 1977 to December 1979. Won the June 1969 general election with a majority of seats; lost the February 1973 election to Fine Gael and Labour. |
+| L3 | Taoiseach 10 November 1966 to March 1973, and from 5 July 1977 (elected by the Dáil after Fianna Fáil won the general election of 16 June 1977) to December 1979. Won the June 1969 general election with a majority of seats; lost the February 1973 election to Fine Gael and Labour. |
 | L4 | Broadcast of 13 August 1969: the government could "no longer stand by" while people were injured. The army set up field hospitals near the border; he ruled out sending troops across it. |
 | L5 | Internment introduced in Northern Ireland on 9 August 1971 and condemned by Lynch. Bloody Sunday, 30 January 1972: Lynch called a day of mourning and recalled the Irish ambassador from London. Bombs in Dublin on 1 December 1972; the Offences Against the State (Amendment) Act passed in response. |
 | AC1-4 | Special Branch information reached Lynch in April 1970. On 6 May 1970 Lynch dismissed Charles Haughey (Finance) and Neil Blaney (Agriculture); Kevin Boland resigned in protest. Charged with conspiracy to import arms: Haughey, Blaney, Captain James Kelly (army intelligence), John Kelly (Belfast) and Albert Luykx (Belgian businessman). The case against Blaney was dropped; Haughey and the others were acquitted in October 1970. |
@@ -152,6 +152,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "largest majority in the history of the state" without "then"; later elections have produced different majorities.
 - Do not use: inflation "about 20 per cent in 1981" as an exact date; say "about 20 per cent around 1981".
 - Do not use: any exact tax, deficit, debt-interest or unemployment figure other than those in section 2.
+- Do not use: "Taoiseach from June 1977" or "the coalition governed to June 1977" as dates of office; Fianna Fáil won the election on 16 June 1977 but Lynch was elected Taoiseach on 5 July 1977, the day the Cosgrave coalition ended. Say "from July 1977" or "after the June 1977 election".
 
 Confusable people, terms and dates
 - Lynch (Fianna Fáil, Taoiseach 1966-73 and 1977-79) vs Cosgrave (Fine Gael, 1973-77): the 1973-77 coalition was Cosgrave's, not Lynch's.

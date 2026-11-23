@@ -51,7 +51,7 @@ Lemass, O'Neill and the Free Trade Agreement, 1965
 
 Lynch and the Troubles, 1969–1973
 - [ ] Y1 August 1969: riots in Derry and Belfast, Lynch's broadcast, no troops across the border, British army deployed.
-- [ ] Y2 Hillery in Belfast and the approach to the United Nations (August 1969).
+- [ ] Y2 Hillery's visit to Belfast (4 September 1969) and the approach to the United Nations (August 1969).
 - [ ] Y3 The Arms Crisis of 1970 and what it showed about divisions in Fianna Fáil (brief; detail belongs elsewhere).
 - [ ] Y4 Chequers, September 1971: Lynch, Heath and Faulkner; the "Irish dimension".
 - [ ] Y5 Internment (9 August 1971), Irish protest and the case at the European Court of Human Rights.
@@ -121,7 +121,7 @@ Do not name any person, place, date or figure that is not on this list.
 | L4 | Ian Paisley and other unionists protested at the meetings. |
 | L5 | Anglo-Irish Free Trade Agreement signed 14 December 1965; tariff cuts began in 1966 and were phased in over a number of years. |
 | Y1 | In a broadcast on 13 August 1969 Lynch said the Irish government could no longer stand by (give as reported speech, not in quotation marks). He refused to send troops across the border; the British army was deployed on the streets on 14 August 1969. |
-| Y2 | Patrick Hillery (Minister for External Affairs) visited the Falls Road in Belfast in August 1969. Ireland raised the crisis at the United Nations in August 1969 without result. |
+| Y2 | Patrick Hillery (Minister for External Affairs) visited the Falls Road in Belfast on 4 September 1969, after the August crisis. Ireland raised the crisis at the United Nations in August 1969 without result. |
 | Y3 | Arms Crisis, May 1970: Lynch dismissed Charles Haughey and Neil Blaney (6 May 1970). |
 | Y4 | Lynch met Edward Heath and Brian Faulkner at Chequers in September 1971. |
 | Y5 | Internment introduced 9 August 1971. Ireland took the United Kingdom to the European Commission and Court of Human Rights; the Court's judgment in January 1978 found that the interrogation techniques used amounted to inhuman and degrading treatment (not torture). |
@@ -156,6 +156,7 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "Desmond O'Malley, expelled from the party for supporting [the agreement]", because he was expelled in February 1985, before the agreement, over a family planning vote. Say he left Fianna Fáil's ranks in 1985 and founded the Progressive Democrats in December 1985, in opposition to Haughey's leadership.
 - Do not use: "Lemass's approach implied that the North would not change without the consent of its people", because it overstates him. Say Lemass accepted the North's existence in practice and talked of cooperation; the Irish government's declaration on consent came in 1973 (Sunningdale) and 1985.
 - Do not use: "Dublin protested that the Northern Ireland parliament was unrepresentative" as a fact about 1949, because it is vague and unchecked; say only that the Irish government saw the Ireland Act as a guarantee of partition.
+- Do not use: "Hillery visited the Falls Road in August 1969"; the visit was on 4 September 1969. Only the approach to the UN (around 20 August 1969) was in August.
 - Do not use: "a request Britain blocked" for the United Nations in 1969; say Ireland raised the matter at the UN and nothing came of it.
 - Do not use: "roughly three-quarters", "less than half" as exact; use "about 70 to 75 per cent" and "under half".
 - Do not use: "the Irish government accepted that the status of Northern Ireland would not change without majority consent" as if it ended the constitutional claim; Articles 2 and 3 stayed until 1998.

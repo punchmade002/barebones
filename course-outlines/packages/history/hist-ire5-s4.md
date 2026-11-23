@@ -121,14 +121,14 @@ Do not name any person, place, date or figure that is not on this list.
 | L4 | William Craig founded the Ulster Vanguard in 1972; large rallies against the loss of Stormont's powers. |
 | F1 | Brian Faulkner born 1921; Minister of Home Affairs 1959–63; Minister of Commerce 1963–69; resigned from the cabinet in 1969; died in 1977; his memoirs were published in 1978. |
 | F2 | Prime Minister from 23 March 1971; won the party vote against William Craig. |
-| F3 | Internment began 9 August 1971 (Faulkner asked London to authorise it; the UK Prime Minister was Edward Heath). In 1971 he offered the opposition committee chairmanships; the SDLP refused and left Stormont. |
+| F3 | Internment began 9 August 1971 (Faulkner asked London to authorise it; the UK Prime Minister was Edward Heath). In June 1971 he offered the opposition committee chairmanships; the SDLP did not take up the offer and withdrew from Stormont in July 1971 after the Derry shootings (see P6). |
 | F4 | He and his ministers resigned on 24 March 1972; he had refused London's demand to transfer security powers. |
 | I1 | Operation Demetrius, 9 August 1971: about 340 people arrested in the first sweep, almost all Catholics; no loyalist was interned until 1973. |
 | I2 | The "five techniques" (including hooding and sleep deprivation) used on fourteen men, the Hooded Men; the European Court of Human Rights ruled in 1978 that they were inhuman and degrading treatment, not torture. |
 | I3 | Ballymurphy: 11 civilians died, 9–11 August 1971, including Father Hugh Mullan; the coroner's inquest of 2021 found they were innocent. |
 | I4 | 1971 was the first year Troubles deaths passed 100. |
 | B1 | Bloody Sunday, 30 January 1972, Derry: NICRA march against internment (banned); soldiers of the 1st Battalion, Parachute Regiment; thirteen killed on the day, a fourteenth died later. |
-| B2 | Widgery Report, 19 April 1972, largely accepted the army's account. Saville Inquiry reported June 2010: the firing was "unjustified and unjustifiable" and no casualty had posed a threat; David Cameron apologised. British embassy in Dublin burned, 2 February 1972. |
+| B2 | Widgery Report, 19 April 1972, largely accepted the army's account. Saville Inquiry reported 15 June 2010: soldiers of 1 PARA caused the deaths and injuries, and no casualty had posed a threat of causing death or serious injury. David Cameron, in his Commons statement that day, called the killings "unjustified and unjustifiable" and apologised. British embassy in Dublin burned, 2 February 1972. |
 | D1 | Stormont suspended from 30 March 1972. The Unionist government resigned 24 March. |
 | D2 | Northern Ireland (Temporary Provisions) Act 1972; William Whitelaw first Secretary of State for Northern Ireland; Stormont formally abolished by the Northern Ireland Constitution Act 1973. |
 | D3 | Special category status granted June 1972; Whitelaw met Provisional IRA leaders in London on 7 July 1972; the talks failed. |
@@ -144,6 +144,8 @@ Do not use (wrong or doubtful facts in the current notes):
 - Do not use: "Loyalist paramilitaries killed hundreds of people between 1969 and 1993, the great majority of them civilians, mostly Catholics", because the figure is vague and the period wrong for this subsection. Say instead that most loyalist victims were Catholic civilians, with no figure.
 - Do not use: a cumulative death toll "since 1969" for the end of 1972; use only the nearly 500 deaths in 1972.
 - Do not use: "Chichester-Clark resigned after the British government refused to send more troops and reinforce the security policy he wanted" as it stands, because it overstates London's refusal. Say he resigned in March 1971 after London would not give him the security measures he wanted.
+- Do not use: "unjustified and unjustifiable" as a quotation from the Saville Report, because it is David Cameron's wording in his statement of 15 June 2010. Attribute to Saville only the findings (1 PARA soldiers caused the deaths; no casualty posed a threat).
+- Do not use: "the SDLP refused the offer of chairmanships and left Stormont" as one step, because it implies they quit over the offer. The offer came in June 1971; they withdrew in July 1971 after the Derry shootings.
 - Do not use: the number "more than 12,000 soldiers" for Motorman; say "about 12,000".
 - Do not use: "Direct Rule lasted throughout the period to 1993" without the exception of the 1974 executive; also the 1982–86 Assembly was only a partial devolution scheme and belongs to a later subsection.
 - The UVF bullet in the current notes appears twice; write it once.
