@@ -212,8 +212,8 @@
     ],
     "finalAnswer": "x = 1"
    },
-   "finalSym": "FiniteSet(1)",
-   "answerSym": "solveset(Eq(3**(2*x) + 6*3**x - 27, 0), x, Reals)"
+   "finalSym": "1.0",
+   "answerSym": "nsolve(3**(2*x) + 6*3**x - 27, x, 0.5)"
   },
   "graph": null,
   "diagram": null,
