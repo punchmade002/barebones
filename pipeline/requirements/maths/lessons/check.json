@@ -1,54 +1,12 @@
 {
- "cx-conjugate-properties": [
-  "no output"
- ],
- "cx-conjugate-root": [
-  "no output"
- ],
- "cx-de-moivre-identity": [
-  "no output"
- ],
- "cx-de-moivre-prove": [
-  "no output"
- ],
- "cx-equate-parts": [
-  "no output"
- ],
  "cx-quadratic": [
   "need exactly 3 different problems"
  ],
  "num-prime-factors": [
   "2023-higher-p1-q9#(a)(i), (ii), (iii): note has LaTeX outside $…$"
  ],
- "diff-apply-hl": [
-  "no output"
- ],
  "diff-curve-sketch": [
-  "no output"
- ],
- "diff-increasing-interval": [
-  "no output"
- ],
- "diff-point-given-slope": [
-  "no output"
- ],
- "diff-sketch-derivative": [
-  "no output"
- ],
- "diff-show-identity": [
-  "no output"
- ],
- "fin-amortisation": [
-  "no output"
- ],
- "fin-annuity-fv": [
-  "no output"
- ],
- "fin-annuity-pv": [
-  "no output"
- ],
- "fin-estimate": [
-  "no output"
+  "2025-higher-p1-q8#(e)(iii): no \\hl marks"
  ],
  "ind-negative-fractional": [
   "need exactly 3 different problems"
@@ -68,217 +26,28 @@
   "practice-induction-inequality-1 step 4: ask has LaTeX outside $…$",
   "practice-induction-inequality-1 step 6: ask has LaTeX outside $…$"
  ],
- "int-trig": [
-  "no output"
- ],
- "int-trig-identity": [
-  "no output"
- ],
- "alg-add-subtract": [
-  "no output"
- ],
- "alg-binomial-expand": [
-  "no output"
- ],
- "alg-binomial-term": [
-  "no output"
- ],
  "alg-factor-quadratic": [
   "2025-ordinary-p1-q3#(c)(i), (ii): no \\hl marks"
  ],
- "alg-poly-divide": [
-  "no output"
- ],
- "alg-poly-multiply": [
-  "no output"
- ],
- "alg-surd-expressions": [
-  "no output"
- ],
- "prob-first-success": [
-  "no output"
- ],
- "prob-npr": [
-  "no output"
- ],
- "prob-relative-frequency": [
-  "no output"
- ],
- "prob-selection-restrictions": [
-  "no output"
- ],
  "seq-classify": [
-  "no output"
- ],
- "seq-convergence-range": [
-  "no output"
- ],
- "seq-derive-sum-infinity": [
-  "no output"
- ],
- "seq-recurring-decimal": [
-  "no output"
- ],
- "seq-sigma": [
-  "no output"
- ],
- "seq-verify-formula": [
-  "no output"
- ],
- "stat-choose-display": [
-  "no output"
- ],
- "stat-compare-hl": [
-  "no output"
+  "2015-higher-p2-q8#(e)(i): note has LaTeX outside $…$"
  ],
  "stat-data-types": [
-  "no output"
- ],
- "stat-distribution-shape": [
-  "no output"
- ],
- "stat-outlier-effect": [
-  "no output"
- ],
- "stat-outliers": [
-  "no output"
- ],
- "stat-percentiles": [
-  "no output"
- ],
- "stat-plan-collect": [
-  "no output"
+  "need exactly 3 different problems"
  ],
  "stat-populations-samples": [
-  "no output"
- ],
- "stat-sampling-methods-hl": [
-  "no output"
- ],
- "stat-srs-bias": [
-  "no output"
- ],
- "stat-study-types": [
-  "no output"
- ],
- "inf-confidence-width": [
-  "no output"
- ],
- "inf-histogram": [
-  "no output"
- ],
- "inf-hypothesis-concept": [
-  "no output"
- ],
- "inf-interpret": [
-  "no output"
- ],
- "inf-sampling-variability": [
-  "no output"
- ],
- "trig-derive-1": [
-  "no output"
- ],
- "trig-derive-2": [
-  "no output"
- ],
- "trig-derive-3": [
-  "no output"
- ],
- "trig-derive-4": [
-  "no output"
- ],
- "trig-derive-5": [
-  "no output"
- ],
- "trig-derive-6": [
-  "no output"
- ],
- "trig-derive-7": [
-  "no output"
- ],
- "trig-derive-9": [
-  "no output"
+  "2022-ordinary-p2-q10#(a): no \\hl marks"
  ],
  "trig-exact-values": [
-  "no output"
- ],
- "trig-products-sums": [
-  "no output"
- ],
- "trig-prove-identity": [
-  "no output"
- ],
- "trig-pythag-identity": [
-  "no output"
- ],
- "trig-radians": [
-  "no output"
- ],
- "trig-solve-quadratic": [
-  "no output"
- ],
- "trig-sine-ambiguous": [
-  "no output"
- ],
- "trig-triangle-problems": [
-  "no output"
- ],
- "ineq-double": [
-  "no output"
- ],
- "ineq-prove": [
-  "no output"
- ],
- "ineq-quadratic": [
-  "no output"
- ],
- "ineq-rational": [
-  "no output"
- ],
- "quad-complete-square-use": [
-  "no output"
- ],
- "sim-linear-quadratic-hl": [
-  "no output"
- ],
- "sim-word-problem": [
-  "no output"
- ],
- "eq-rational": [
-  "no output"
- ],
- "eq-rational-hl": [
-  "no output"
- ],
- "circ-common-chord": [
-  "no output"
- ],
- "circ-general-form": [
-  "no output"
- ],
- "circ-line-general": [
-  "no output"
- ],
- "circ-line-origin": [
-  "no output"
- ],
- "circ-tangent-length": [
-  "no output"
- ],
- "circ-tangent-test": [
-  "no output"
+  "need exactly 3 different problems"
  ],
  "circ-tangents-from-point": [
-  "no output"
+  "need exactly 3 different problems"
  ],
  "line-collinear": [
-  "no output"
+  "need exactly 3 different problems"
  ],
  "line-from-distance": [
-  "no output"
- ],
- "line-unknown-coefficient": [
-  "no output"
+  "need exactly 3 different problems"
  ]
 }
