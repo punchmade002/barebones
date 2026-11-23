@@ -1,0 +1,566 @@
+{
+ "bio24-s2.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.5.b",
+    "strength": "helpful",
+    "why": "structure matches pollination agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.1.3",
+    "strength": "helpful",
+    "why": "petals and nectar guides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.1.3",
+    "strength": "helpful",
+    "why": "petals in wind-pollinated flowers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.1.4",
+    "strength": "helpful",
+    "why": "nectary secretes nectar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.1.4",
+    "strength": "helpful",
+    "why": "nectaries and nectar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.0.5",
+    "strength": "helpful",
+    "why": "hazel catkins",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.0.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio24-s2.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.2.0",
+    "strength": "helpful",
+    "why": "anther and filament",
+    "confidence": "high"
+   },
+   {
+    "id": "bio24-s1.3.1",
+    "strength": "helpful",
+    "why": "stigma receives pollen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.2.2",
+    "strength": "helpful",
+    "why": "filament holds anther",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.2.2",
+    "strength": "helpful",
+    "why": "filament holds anther",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.3.1",
+    "strength": "helpful",
+    "why": "sticky stigma catches pollen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.3.1",
+    "strength": "helpful",
+    "why": "large feathery stigma",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio24-s1.3.6",
+    "strength": "helpful",
+    "why": "half-flower diagram labels",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.2.0",
+    "strength": "helpful",
+    "why": "contrast with insect pollen amount",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.2.2",
+    "strength": "helpful",
+    "why": "insect pollen grain features",
+    "confidence": "high"
+   },
+   {
+    "id": "bio24-s2.2.3",
+    "strength": "helpful",
+    "why": "wind pollen grain features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "helpful",
+    "why": "control group idea",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio24-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "independent variable compared",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.3.2",
+    "strength": "helpful",
+    "why": "qualitative versus quantitative",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "helpful",
+    "why": "controlled variables kept same",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.5.2",
+    "strength": "helpful",
+    "why": "means from repeats",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "helpful",
+    "why": "controlled variables kept same",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.3.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio24-s2.3.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.1.b",
+    "strength": "helpful",
+    "why": "anther and stigma positions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio24-s1.0.0",
+    "strength": "helpful",
+    "why": "flower parts in rings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.1.4",
+    "strength": "helpful",
+    "why": "nectaries at petal base",
+    "confidence": "high"
+   },
+   {
+    "id": "bio24-s1.3.1",
+    "strength": "helpful",
+    "why": "sticky stigma",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.3.2",
+    "strength": "helpful",
+    "why": "style",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.4.0",
+    "strength": "essential",
+    "why": "steps 1 to 4",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s1.3.6",
+    "strength": "helpful",
+    "why": "half-flower section diagram",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.4.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio24-s2.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio24-s2.2.2",
+    "strength": "helpful",
+    "why": "pollen size and surface",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.0",
+    "strength": "helpful",
+    "why": "risk assessment control measures",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.7.4",
+    "strength": "helpful",
+    "why": "scalpel cutting precaution",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio24-s2.3.2",
+    "strength": "helpful",
+    "why": "features recorded",
+    "confidence": "high"
+   },
+   {
+    "id": "bio24-s2.3.3",
+    "strength": "helpful",
+    "why": "measured features",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio24-s2.6.0",
+    "strength": "helpful",
+    "why": "results table rows",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio24-s2.6.1",
+    "strength": "helpful",
+    "why": "insect flower comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio24-s2.3.1",
+    "strength": "helpful",
+    "why": "hypothesis to check",
+    "confidence": "high"
+   },
+   {
+    "id": "bio24-s2.1.3",
+    "strength": "helpful",
+    "why": "feathery stigma adaptation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.2.2",
+    "strength": "helpful",
+    "why": "pollen grain surface",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.7.3",
+    "strength": "helpful",
+    "why": "secondary data meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio24-s2.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.4",
+    "strength": "helpful",
+    "why": "sample size and representativeness",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "helpful",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.4.3",
+    "strength": "helpful",
+    "why": "instrument resolution",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.4.3",
+    "strength": "helpful",
+    "why": "precision of measurement",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio24-s2.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.7.1",
+    "strength": "helpful",
+    "why": "SEM images of pollen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio24-s2.3.2",
+    "strength": "helpful",
+    "why": "qualitative features",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio24-s2.8.6": {
+  "cost": 1,
+  "needs": []
+ }
+}
