@@ -34,7 +34,7 @@
     "home-economics": [
       "./home-economics-flashcards.js?v=4",
       "./home-economics-test-questions.js?v=2",
-      "./home-economics-notes.js?v=4",
+      "./home-economics-notes.js?v=5",
     ],
     geography: [
       "./geography-test-questions.js?v=1",
