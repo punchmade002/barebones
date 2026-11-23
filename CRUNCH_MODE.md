@@ -7,7 +7,10 @@ This is the site's USP, so every number has to be explainable.
 ## Decided
 
 **Unit.** One learning outcome (`bio5-s2` etc.) is the thing that gets scored and
-cut. Biology has 163. Notes, key terms and flashcards hang off outcomes already,
+cut. These are the app's subsections, not the syllabus codes. Biology has 35
+chapters → 163 subsections (built from ~128 syllabus codes; 2 are acronym lists)
+→ 1,662 note blocks → 9,016 note points, plus 1,778 key terms. Notes, key terms
+and flashcards hang off outcomes already,
 and past-paper parts are already tagged to them (`notesRefs`).
 
 **Setup.** Per subject, from the subject page: target %, expected coursework %,
@@ -32,6 +35,12 @@ cut ~70% of the course. Foundations survive only because they score high.
 - *Gap discount*: if a kept outcome's prerequisite is cut, its expected marks are
   discounted (more for essential links than for helpful ones). The cut is greedy
   and recomputes after each removal, so it naturally prefers coherent bundles.
+
+**Learning cost.** Every outcome has a cost: the sum of its note points' costs.
+A simple point costs 1. A long or complicated point costs 2, the same as two
+simple ones. The cut ranks outcomes by score ÷ cost. When two outcomes are worth
+the same, the costlier one goes first, so the student keeps the most marks for
+the least studying.
 
 **Dependencies.** Within one subject only. Two kinds, stored separately:
 - *Prerequisite*: "can't understand A without B". Strength `essential` or
@@ -58,9 +67,9 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
 - Exam value formula (frequency vs marks, recency weighting, question choice such
   as "answer 5 of 6"). Biology's bank is the old course (`legacy: true`), so its
   values will be weaker.
-- Should outcome *size* matter? Covering 75% of marks with the least content means
-  dividing value by study effort (note count or word count), so a small 5-mark
-  outcome beats a huge 6-mark one.
+- Learning cost rating: is "long" a word-count threshold, and does the AI rate
+  "complex", or does one AI rating cover both? Do key terms and flashcards add
+  cost?
 - The exact numbers: hop decay, essential vs helpful weights, gap discount sizes.
   Tune these on Biology by eye.
 - Home Ec and Maths exam banks have no `notesRefs` yet, so they have no co-tested
