@@ -416,7 +416,7 @@ function exampleGraph(parent, G) {
     async names(tok) {        // finally, what each point is
       if (slot.x) await G_.xs(tok);
       await G_.ys(tok);
-      for (const p of pts) if (p.name) await fadeIn(text(P.sx(p.x), P.sy(p.y) + (above(p) ? -14 : 22), p.name, { 'text-anchor': anchor(p), class: 'lab' }), 350, tok);
+      for (const p of pts) if (p.name) await fadeIn(text(P.sx(p.x), P.sy(p.y) + (above(p) ? -14 : 22), p.name.replace(/-(?=\d)/g, '−'), { 'text-anchor': anchor(p), class: 'lab' }), 350, tok);
     },
     // called after each row of working: a slot's colour appearing means that number has just been found
     async row(src, tok) {
