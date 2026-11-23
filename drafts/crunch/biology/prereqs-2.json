@@ -1,0 +1,566 @@
+{
+ "bio9-s2": [
+  {
+   "needs": "bio9-s1",
+   "strength": "helpful",
+   "why": "NAD+/NADP+ are compared with ATP as energy-transfer carriers",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s1",
+   "strength": "helpful",
+   "why": "carriers shuttle electrons in metabolic reactions",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio15-s1",
+   "strength": "helpful",
+   "why": "NAD+ role in respiration is illustrated there",
+   "confidence": "low"
+  }
+ ],
+ "bio10-s1": [
+  {
+   "needs": "bio8-s2",
+   "strength": "essential",
+   "why": "nucleotides and nucleic acids are biomolecule structures; polymerisation of monomers",
+   "confidence": "high"
+  }
+ ],
+ "bio10-s2": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "genes are DNA sequences coding for proteins",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s2",
+   "strength": "helpful",
+   "why": "protein structure determines function and trait",
+   "confidence": "high"
+  }
+ ],
+ "bio10-s3": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "codons/anticodons rest on base pairing and RNA types",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s2",
+   "strength": "essential",
+   "why": "the code links gene to protein",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s1": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "chromosomes are packaged DNA",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s2",
+   "strength": "helpful",
+   "why": "gene as a coding unit; coding vs non-coding DNA",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s2": [
+  {
+   "needs": "bio11-s1",
+   "strength": "essential",
+   "why": "alleles are versions of genes at loci on chromosomes",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s2",
+   "strength": "helpful",
+   "why": "gene expression, genotype to phenotype",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s3": [
+  {
+   "needs": "bio11-s2",
+   "strength": "essential",
+   "why": "nuclear genes, alleles and gametes passing information",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio7-s3",
+   "strength": "helpful",
+   "why": "mitochondria and chloroplasts carry their own DNA",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio23-s3",
+   "strength": "helpful",
+   "why": "maternal inheritance depends on egg cytoplasm at fertilisation",
+   "confidence": "low"
+  }
+ ],
+ "bio11-s4": [
+  {
+   "needs": "bio11-s2",
+   "strength": "essential",
+   "why": "gene expression, genotype and phenotype",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s1",
+   "strength": "helpful",
+   "why": "DNA/histone modification of expression",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s5": [
+  {
+   "needs": "bio11-s2",
+   "strength": "essential",
+   "why": "alleles, dominance, genotype and phenotype used in crosses",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio16-s2",
+   "strength": "helpful",
+   "why": "gametes formed by meiosis carry one allele each",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s6": [
+  {
+   "needs": "bio11-s5",
+   "strength": "essential",
+   "why": "cross layout and Punnett squares reused with codominant ratios",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s2",
+   "strength": "helpful",
+   "why": "dominant/recessive contrasted with blending",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s7": [
+  {
+   "needs": "bio11-s5",
+   "strength": "essential",
+   "why": "Mendel's results are monohybrid ratios",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio16-s2",
+   "strength": "helpful",
+   "why": "segregation and assortment are explained by meiosis",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s8": [
+  {
+   "needs": "bio11-s5",
+   "strength": "essential",
+   "why": "dihybrid cross extends monohybrid method",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s7",
+   "strength": "essential",
+   "why": "uses the Law of Independent Assortment",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s9": [
+  {
+   "needs": "bio11-s8",
+   "strength": "essential",
+   "why": "linkage is a departure from dihybrid 9:3:3:1 ratios",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s7",
+   "strength": "essential",
+   "why": "linkage breaks independent assortment",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s1",
+   "strength": "helpful",
+   "why": "genes on the same chromosome",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s10": [
+  {
+   "needs": "bio11-s2",
+   "strength": "helpful",
+   "why": "alleles and gametes used in the sex cross",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s5",
+   "strength": "helpful",
+   "why": "1:1 cross layout for XX x XY",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s11": [
+  {
+   "needs": "bio11-s10",
+   "strength": "essential",
+   "why": "X and Y chromosomes and sex determination",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s5",
+   "strength": "essential",
+   "why": "cross method with X-linked alleles",
+   "confidence": "high"
+  }
+ ],
+ "bio11-s12": [
+  {
+   "needs": "bio11-s5",
+   "strength": "essential",
+   "why": "Mendelian predictions of offspring are being evaluated",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s4",
+   "strength": "helpful",
+   "why": "epigenetics as a limitation",
+   "confidence": "low"
+  }
+ ],
+ "bio12-s1": [
+  {
+   "needs": "bio10-s1",
+   "strength": "helpful",
+   "why": "mutation is a change in DNA",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio16-s2",
+   "strength": "helpful",
+   "why": "meiosis shuffles alleles to create variation",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s2",
+   "strength": "helpful",
+   "why": "alleles",
+   "confidence": "high"
+  }
+ ],
+ "bio12-s2": [
+  {
+   "needs": "bio12-s1",
+   "strength": "essential",
+   "why": "natural selection acts on heritable variation",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s2",
+   "strength": "helpful",
+   "why": "inheritance of alleles",
+   "confidence": "high"
+  }
+ ],
+ "bio12-s3": [
+  {
+   "needs": "bio12-s2",
+   "strength": "essential",
+   "why": "evidence is used to support the theory",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio10-s1",
+   "strength": "helpful",
+   "why": "molecular evidence compares DNA/proteins",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio6-s3",
+   "strength": "helpful",
+   "why": "phylogeny relates to classification",
+   "confidence": "low"
+  }
+ ],
+ "bio12-s4": [
+  {
+   "needs": "bio12-s2",
+   "strength": "essential",
+   "why": "evaluates the theory of natural selection",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio1-s1",
+   "strength": "helpful",
+   "why": "what makes a scientific theory",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio12-s3",
+   "strength": "helpful",
+   "why": "why the theory is widely accepted",
+   "confidence": "high"
+  }
+ ],
+ "bio13-s1": [
+  {
+   "needs": "bio8-s2",
+   "strength": "essential",
+   "why": "enzymes are proteins",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s1",
+   "strength": "helpful",
+   "why": "catabolic and anabolic metabolism",
+   "confidence": "high"
+  }
+ ],
+ "bio13-s2": [
+  {
+   "needs": "bio13-s1",
+   "strength": "essential",
+   "why": "extends active site and enzyme-substrate complex",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s2",
+   "strength": "essential",
+   "why": "protein 3D structure and bonds",
+   "confidence": "high"
+  }
+ ],
+ "bio13-s3": [
+  {
+   "needs": "bio13-s1",
+   "strength": "essential",
+   "why": "measures enzyme activity",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "variables, controls and reliability in investigations",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s4",
+   "strength": "helpful",
+   "why": "presenting data",
+   "confidence": "high"
+  }
+ ],
+ "bio13-s4": [
+  {
+   "needs": "bio13-s1",
+   "strength": "essential",
+   "why": "enzymes as selective catalysts",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio33-s3",
+   "strength": "helpful",
+   "why": "microbial sources of industrial enzymes",
+   "confidence": "low"
+  }
+ ],
+ "bio14-s1": [
+  {
+   "needs": "bio13-s1",
+   "strength": "helpful",
+   "why": "anabolic reactions and enzymes",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s2",
+   "strength": "helpful",
+   "why": "glucose, starch, cellulose structures",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio8-s1",
+   "strength": "helpful",
+   "why": "anabolism",
+   "confidence": "high"
+  }
+ ],
+ "bio14-s2": [
+  {
+   "needs": "bio14-s1",
+   "strength": "essential",
+   "why": "rate and limiting factors of photosynthesis",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "variables and controls",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio15-s1",
+   "strength": "helpful",
+   "why": "net rate involves respiration",
+   "confidence": "low"
+  }
+ ],
+ "bio14-s3": [
+  {
+   "needs": "bio14-s1",
+   "strength": "essential",
+   "why": "two-stage overview",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s2",
+   "strength": "essential",
+   "why": "NADP+ is loaded in the light reactions",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s1",
+   "strength": "essential",
+   "why": "ATP is made",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio14-s5",
+   "strength": "helpful",
+   "why": "thylakoid structure hosts the reactions",
+   "confidence": "high"
+  }
+ ],
+ "bio14-s4": [
+  {
+   "needs": "bio14-s3",
+   "strength": "essential",
+   "why": "uses ATP and NADPH from light stage",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s2",
+   "strength": "essential",
+   "why": "NADPH reduces carbon",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s1",
+   "strength": "essential",
+   "why": "ATP energy input",
+   "confidence": "high"
+  }
+ ],
+ "bio14-s5": [
+  {
+   "needs": "bio14-s3",
+   "strength": "essential",
+   "why": "structure serves light reactions",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio7-s3",
+   "strength": "helpful",
+   "why": "chloroplast and membranes",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "helpful",
+   "why": "proton gradient and diffusion across membranes",
+   "confidence": "low"
+  }
+ ],
+ "bio15-s1": [
+  {
+   "needs": "bio8-s1",
+   "strength": "helpful",
+   "why": "catabolism",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s1",
+   "strength": "helpful",
+   "why": "ATP as the product of respiration",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio7-s3",
+   "strength": "helpful",
+   "why": "mitochondria location",
+   "confidence": "low"
+  }
+ ],
+ "bio15-s2": [
+  {
+   "needs": "bio15-s1",
+   "strength": "essential",
+   "why": "anaerobic respiration and fermentation",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "variables and controls",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio33-s2",
+   "strength": "helpful",
+   "why": "culturing microorganisms",
+   "confidence": "low"
+  }
+ ],
+ "bio15-s3": [
+  {
+   "needs": "bio15-s1",
+   "strength": "essential",
+   "why": "overall sequence of respiration",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s2",
+   "strength": "essential",
+   "why": "NAD+ reduced in glycolysis and regenerated in fermentation",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s1",
+   "strength": "essential",
+   "why": "ATP yield",
+   "confidence": "high"
+  }
+ ],
+ "bio15-s4": [
+  {
+   "needs": "bio15-s3",
+   "strength": "essential",
+   "why": "pyruvate from glycolysis feeds this stage",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s2",
+   "strength": "essential",
+   "why": "NADH and FADH carry electrons",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio9-s1",
+   "strength": "essential",
+   "why": "ATP synthesis",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio15-s5",
+   "strength": "helpful",
+   "why": "mitochondrion structure and ATP synthase",
+   "confidence": "low"
+  }
+ ]
+}

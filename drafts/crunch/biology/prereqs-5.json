@@ -1,0 +1,522 @@
+{
+ "bio31-s1": [
+  {
+   "needs": "bio5-s2",
+   "strength": "essential",
+   "why": "Uses levels of organisation (population, community, ecosystem, biosphere).",
+   "confidence": "high"
+  }
+ ],
+ "bio31-s2": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Builds on biodiversity, habitats and ecosystems.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s10",
+   "strength": "helpful",
+   "why": "Invasive species outcompete natives by overlapping niches.",
+   "confidence": "low"
+  }
+ ],
+ "bio31-s3": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Species diversity and biodiversity are the measured outcome.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio32-s2",
+   "strength": "essential",
+   "why": "Uses quadrats and sampling to survey plant diversity.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Planning controlled investigations with variables.",
+   "confidence": "low"
+  }
+ ],
+ "bio31-s4": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "The index quantifies species richness and evenness (biodiversity).",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio32-s2",
+   "strength": "helpful",
+   "why": "Counts from quadrat sampling supply the data.",
+   "confidence": "high"
+  }
+ ],
+ "bio31-s5": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Population within an ecosystem and its abiotic/biotic environment.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio32-s3",
+   "strength": "helpful",
+   "why": "Abiotic factors such as light and soil act as limiting factors.",
+   "confidence": "low"
+  }
+ ],
+ "bio31-s6": [
+  {
+   "needs": "bio31-s5",
+   "strength": "essential",
+   "why": "Curves plateau at carrying capacity set by limiting factors.",
+   "confidence": "high"
+  }
+ ],
+ "bio31-s7": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Feeding relationships operate within ecosystems.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio14-s1",
+   "strength": "helpful",
+   "why": "Producers capture light energy via photosynthesis.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio15-s1",
+   "strength": "helpful",
+   "why": "Respiration explains energy loss at each trophic level.",
+   "confidence": "low"
+  }
+ ],
+ "bio31-s8": [
+  {
+   "needs": "bio31-s7",
+   "strength": "essential",
+   "why": "Pyramids display trophic levels and food chains.",
+   "confidence": "high"
+  }
+ ],
+ "bio31-s9": [
+  {
+   "needs": "bio31-s7",
+   "strength": "essential",
+   "why": "Biomass at trophic levels with energy loss.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s8",
+   "strength": "essential",
+   "why": "Compared directly with pyramids of numbers.",
+   "confidence": "high"
+  }
+ ],
+ "bio31-s10": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Niche is a species' role within its habitat/ecosystem.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s7",
+   "strength": "helpful",
+   "why": "Feeding role (trophic level) is part of a niche.",
+   "confidence": "low"
+  }
+ ],
+ "bio32-s1": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Sampling organisms from habitats within an ecosystem.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio6-s3",
+   "strength": "helpful",
+   "why": "Identification keys rely on classification.",
+   "confidence": "low"
+  }
+ ],
+ "bio32-s2": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Surveying populations and habitats in an ecosystem.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio32-s1",
+   "strength": "helpful",
+   "why": "Same grassland study; collection precedes surveying.",
+   "confidence": "low"
+  }
+ ],
+ "bio32-s3": [
+  {
+   "needs": "bio31-s1",
+   "strength": "essential",
+   "why": "Abiotic factors as part of the ecosystem.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio32-s2",
+   "strength": "helpful",
+   "why": "Uses quadrat sampling in the quantitative investigation.",
+   "confidence": "low"
+  }
+ ],
+ "bio32-s4": [
+  {
+   "needs": "bio31-s7",
+   "strength": "essential",
+   "why": "Uses food chains, webs, producers and consumers directly.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s5",
+   "strength": "helpful",
+   "why": "Predator-prey cycles and competition regulate population size.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s10",
+   "strength": "helpful",
+   "why": "Competition arises from overlapping niches.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio34-s2",
+   "strength": "helpful",
+   "why": "Rhizobium mutualism relates to nitrogen fixation.",
+   "confidence": "low"
+  }
+ ],
+ "bio33-s1": [
+  {
+   "needs": "bio7-s1",
+   "strength": "essential",
+   "why": "Bacteria are prokaryotes; fungi eukaryotes; cell structure comparison.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio6-s2",
+   "strength": "helpful",
+   "why": "Domains of life place bacteria and fungi.",
+   "confidence": "low"
+  }
+ ],
+ "bio33-s2": [
+  {
+   "needs": "bio33-s1",
+   "strength": "essential",
+   "why": "Needs the biology of bacteria and fungi being grown.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Designing controlled investigations.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio25-s1",
+   "strength": "helpful",
+   "why": "Water and solute effects on microbes use osmosis.",
+   "confidence": "low"
+  }
+ ],
+ "bio33-s3": [
+  {
+   "needs": "bio33-s1",
+   "strength": "essential",
+   "why": "Industrial microbes are bacteria and fungi.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio15-s1",
+   "strength": "helpful",
+   "why": "Fermentation underlies bread, beer, yogurt products.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio33-s2",
+   "strength": "helpful",
+   "why": "Growth conditions and measurement inform bioreactors and growth curves.",
+   "confidence": "high"
+  }
+ ],
+ "bio33-s4": [
+  {
+   "needs": "bio33-s1",
+   "strength": "essential",
+   "why": "Microbiome consists of bacteria and fungi.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio34-s2",
+   "strength": "helpful",
+   "why": "Soil microbiome roles in nitrogen cycle.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio34-s1",
+   "strength": "helpful",
+   "why": "Soil microbiome and the carbon cycle.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio35-s4",
+   "strength": "helpful",
+   "why": "Microbiomes studied by DNA sequencing.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio27-s3",
+   "strength": "helpful",
+   "why": "Gut microbes aid digestion.",
+   "confidence": "low"
+  }
+ ],
+ "bio34-s1": [
+  {
+   "needs": "bio14-s1",
+   "strength": "essential",
+   "why": "Photosynthesis removes atmospheric carbon.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio15-s1",
+   "strength": "essential",
+   "why": "Respiration returns CO2 to atmosphere.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s7",
+   "strength": "helpful",
+   "why": "Carbon moves along food chains.",
+   "confidence": "high"
+  }
+ ],
+ "bio34-s2": [
+  {
+   "needs": "bio33-s1",
+   "strength": "essential",
+   "why": "Nitrogen-fixing, nitrifying and denitrifying bacteria.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s7",
+   "strength": "helpful",
+   "why": "Nitrogen passes along food chains.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio10-s2",
+   "strength": "helpful",
+   "why": "Nitrogen is needed for proteins and nucleic acids.",
+   "confidence": "low"
+  }
+ ],
+ "bio34-s3": [
+  {
+   "needs": "bio34-s1",
+   "strength": "essential",
+   "why": "Carbon cycle ideas behind deforestation and peat issues.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio34-s2",
+   "strength": "essential",
+   "why": "Nitrogen cycle explains fertiliser and eutrophication.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio31-s2",
+   "strength": "helpful",
+   "why": "Biodiversity loss and bogs case studies.",
+   "confidence": "low"
+  }
+ ],
+ "bio34-s4": [
+  {
+   "needs": "bio34-s1",
+   "strength": "essential",
+   "why": "Carbon sinks and sources; CO2 fluxes.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio14-s1",
+   "strength": "helpful",
+   "why": "Plants and algae as sinks via photosynthesis.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio34-s2",
+   "strength": "helpful",
+   "why": "Nitrous oxide from nitrogen cycle and fertiliser.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio34-s3",
+   "strength": "helpful",
+   "why": "Peat/bog and deforestation issues overlap.",
+   "confidence": "low"
+  }
+ ],
+ "bio35-s1": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "DNA structure is what is cut and joined.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio13-s2",
+   "strength": "essential",
+   "why": "Restriction enzymes and ligase act with specificity.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s2",
+   "strength": "essential",
+   "why": "Expression of inserted gene via transcription and translation.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio33-s1",
+   "strength": "helpful",
+   "why": "Bacteria and plasmids as hosts and vectors.",
+   "confidence": "high"
+  }
+ ],
+ "bio35-s2": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "Based on DNA and repeats in non-coding DNA.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s1",
+   "strength": "helpful",
+   "why": "Alleles and inheritance of bands.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio35-s3",
+   "strength": "helpful",
+   "why": "Generating the profile explains the gel patterns.",
+   "confidence": "low"
+  }
+ ],
+ "bio35-s3": [
+  {
+   "needs": "bio35-s2",
+   "strength": "essential",
+   "why": "The profile being generated and interpreted.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio13-s2",
+   "strength": "essential",
+   "why": "Restriction enzymes and Taq polymerase are enzymes with specificity.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s1",
+   "strength": "helpful",
+   "why": "PCR resembles DNA replication.",
+   "confidence": "high"
+  }
+ ],
+ "bio35-s4": [
+  {
+   "needs": "bio10-s1",
+   "strength": "essential",
+   "why": "Reads nucleotide sequence of DNA.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s1",
+   "strength": "essential",
+   "why": "Chain termination uses DNA replication with polymerase.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio35-s3",
+   "strength": "helpful",
+   "why": "Uses PCR-like cycles and gel electrophoresis.",
+   "confidence": "high"
+  }
+ ],
+ "bio35-s5": [
+  {
+   "needs": "bio35-s4",
+   "strength": "essential",
+   "why": "Databases store sequence data.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio17-s3",
+   "strength": "helpful",
+   "why": "Spotting a mutation in sequences.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio11-s5",
+   "strength": "helpful",
+   "why": "Disease alleles and inheritance.",
+   "confidence": "low"
+  }
+ ],
+ "bio35-s6": [
+  {
+   "needs": "bio35-s3",
+   "strength": "essential",
+   "why": "Uses gel electrophoresis to run samples.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio35-s2",
+   "strength": "essential",
+   "why": "Interprets matching and paternity profiles.",
+   "confidence": "high"
+  }
+ ],
+ "bio35-s7": [
+  {
+   "needs": "bio35-s1",
+   "strength": "essential",
+   "why": "Ethics of GM crops, animals and gene therapy.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio35-s2",
+   "strength": "helpful",
+   "why": "DNA databases and forensic use.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio3-s2",
+   "strength": "helpful",
+   "why": "Science, society and ethical discussion.",
+   "confidence": "low"
+  },
+  {
+   "needs": "bio16-s2",
+   "strength": "helpful",
+   "why": "Stem cells and cloning relate to cell division/differentiation.",
+   "confidence": "low"
+  }
+ ]
+}

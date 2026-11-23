@@ -1,0 +1,296 @@
+{
+ "bio1-s1": [],
+ "bio1-s2": [
+  {
+   "needs": "bio1-s1",
+   "strength": "helpful",
+   "why": "Peer review and reproducibility build on how science tests and revises ideas.",
+   "confidence": "low"
+  }
+ ],
+ "bio1-s3": [
+  {
+   "needs": "bio1-s2",
+   "strength": "helpful",
+   "why": "Evaluating sources uses ideas of peer review and reliability.",
+   "confidence": "low"
+  }
+ ],
+ "bio2-s1": [
+  {
+   "needs": "bio1-s1",
+   "strength": "helpful",
+   "why": "Hypotheses and testable predictions come from the nature of scientific knowledge.",
+   "confidence": "low"
+  }
+ ],
+ "bio2-s2": [
+  {
+   "needs": "bio2-s1",
+   "strength": "essential",
+   "why": "Designing an investigation starts from a testable hypothesis and chosen strategy.",
+   "confidence": "high"
+  }
+ ],
+ "bio2-s3": [
+  {
+   "needs": "bio2-s2",
+   "strength": "essential",
+   "why": "Random/systematic error and blinding build on validity, accuracy and reliability.",
+   "confidence": "high"
+  }
+ ],
+ "bio2-s4": [
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Analysis uses the variables and sample-size ideas from design.",
+   "confidence": "high"
+  }
+ ],
+ "bio2-s5": [
+  {
+   "needs": "bio2-s2",
+   "strength": "essential",
+   "why": "Evaluating means judging the design, validity and reliability.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s3",
+   "strength": "essential",
+   "why": "Evaluation identifies sources of error and bias.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s4",
+   "strength": "helpful",
+   "why": "Evaluation uses data analysis and anomalies.",
+   "confidence": "high"
+  }
+ ],
+ "bio2-s6": [
+  {
+   "needs": "bio2-s4",
+   "strength": "helpful",
+   "why": "Reports present processed data, graphs and conclusions.",
+   "confidence": "high"
+  }
+ ],
+ "bio2-s7": [
+  {
+   "needs": "bio2-s2",
+   "strength": "essential",
+   "why": "The investigation requires designing and planning an investigation.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s4",
+   "strength": "essential",
+   "why": "The investigation requires analysing data and drawing conclusions.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s6",
+   "strength": "essential",
+   "why": "The report is the communication of results.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio3-s2",
+   "strength": "helpful",
+   "why": "Descriptor 4 relates the work to scientists in society.",
+   "confidence": "high"
+  }
+ ],
+ "bio3-s1": [
+  {
+   "needs": "bio1-s3",
+   "strength": "essential",
+   "why": "Evaluating media evidence uses bias and source-reliability criteria.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s4",
+   "strength": "helpful",
+   "why": "Judging evidence uses correlation versus causation.",
+   "confidence": "high"
+  }
+ ],
+ "bio3-s2": [
+  {
+   "needs": "bio1-s2",
+   "strength": "helpful",
+   "why": "Scientists' contributions depend on collaboration and peer review.",
+   "confidence": "low"
+  }
+ ],
+ "bio3-s3": [
+  {
+   "needs": "bio3-s2",
+   "strength": "helpful",
+   "why": "Applying lenses to issues uses the impact-evaluation factors.",
+   "confidence": "low"
+  }
+ ],
+ "bio4-s1": [
+  {
+   "needs": "bio1-s1",
+   "strength": "helpful",
+   "why": "Models are compared with theories and revised as ideas change.",
+   "confidence": "high"
+  }
+ ],
+ "bio4-s2": [
+  {
+   "needs": "bio5-s2",
+   "strength": "helpful",
+   "why": "Systems and form-fits-function use levels of organisation.",
+   "confidence": "low"
+  }
+ ],
+ "bio5-s1": [],
+ "bio5-s2": [
+  {
+   "needs": "bio5-s1",
+   "strength": "essential",
+   "why": "Organisation and the cell are the first characteristic of life it expands.",
+   "confidence": "high"
+  }
+ ],
+ "bio6-s1": [
+  {
+   "needs": "bio5-s1",
+   "strength": "essential",
+   "why": "Whether a virus is living is judged against the characteristics of life.",
+   "confidence": "high"
+  }
+ ],
+ "bio6-s2": [
+  {
+   "needs": "bio7-s1",
+   "strength": "helpful",
+   "why": "Comparing domains uses prokaryotic versus eukaryotic cell features.",
+   "confidence": "high"
+  }
+ ],
+ "bio6-s3": [
+  {
+   "needs": "bio6-s2",
+   "strength": "essential",
+   "why": "Kingdoms are placed within the domains.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio7-s1",
+   "strength": "helpful",
+   "why": "Prokaryotic/eukaryotic is a classification basis.",
+   "confidence": "high"
+  }
+ ],
+ "bio7-s1": [
+  {
+   "needs": "bio5-s1",
+   "strength": "helpful",
+   "why": "Builds on the cell as the unit of life.",
+   "confidence": "low"
+  }
+ ],
+ "bio7-s2": [
+  {
+   "needs": "bio7-s1",
+   "strength": "helpful",
+   "why": "Light and electron micrographs of cells illustrate magnification and resolution use.",
+   "confidence": "low"
+  }
+ ],
+ "bio7-s3": [
+  {
+   "needs": "bio7-s1",
+   "strength": "essential",
+   "why": "Organelles are described against the prokaryote/eukaryote comparison.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio5-s2",
+   "strength": "helpful",
+   "why": "Specialised cells relate to organelle function.",
+   "confidence": "low"
+  }
+ ],
+ "bio7-s4": [
+  {
+   "needs": "bio7-s2",
+   "strength": "essential",
+   "why": "The investigation uses the light microscope and slide preparation.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio7-s3",
+   "strength": "essential",
+   "why": "Cell structures are observed and related to function.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Variables, controls and error sources are used in the write-up.",
+   "confidence": "low"
+  }
+ ],
+ "bio8-s1": [],
+ "bio8-s2": [
+  {
+   "needs": "bio8-s1",
+   "strength": "essential",
+   "why": "Structures are built from monomers by condensation into polymers.",
+   "confidence": "high"
+  }
+ ],
+ "bio8-s3": [
+  {
+   "needs": "bio8-s2",
+   "strength": "essential",
+   "why": "Roles follow from the structures of the biomolecules.",
+   "confidence": "high"
+  }
+ ],
+ "bio8-s4": [],
+ "bio8-s5": [],
+ "bio8-s6": [],
+ "bio8-s7": [
+  {
+   "needs": "bio8-s2",
+   "strength": "essential",
+   "why": "Food tests detect starch, sugars, protein and lipid.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s2",
+   "strength": "helpful",
+   "why": "Planning uses variables and controls.",
+   "confidence": "low"
+  }
+ ],
+ "bio8-s8": [
+  {
+   "needs": "bio8-s7",
+   "strength": "essential",
+   "why": "Extends the Benedict's reducing sugar test quantitatively.",
+   "confidence": "high"
+  },
+  {
+   "needs": "bio2-s4",
+   "strength": "helpful",
+   "why": "Uses standard solutions and calibration against a scale.",
+   "confidence": "low"
+  }
+ ],
+ "bio9-s1": [
+  {
+   "needs": "bio8-s1",
+   "strength": "helpful",
+   "why": "ATP/ADP cycle links to anabolism and catabolism.",
+   "confidence": "low"
+  }
+ ]
+}
