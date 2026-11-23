@@ -1,0 +1,542 @@
+[
+ {
+  "skill": "alg-binomial-expand",
+  "problems": [
+   {
+    "question": "Use the binomial theorem to expand $(2 - x)^4$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the binomial pattern with $a=2$, $b=-x$",
+       "lines": [
+        {
+         "text": "The terms are $\\binom{4}{k}2^{4-k}(-x)^k$ for $k=0,1,2,3,4$."
+        },
+        {
+         "tex": "(2-x)^4 &= \\binom{4}{0}2^4 + \\binom{4}{1}2^3(-x) + \\binom{4}{2}2^2(-x)^2 + \\binom{4}{3}2(-x)^3 + \\binom{4}{4}(-x)^4",
+         "sym": "Eq((2-x)**4, binomial(4,0)*2**4 + binomial(4,1)*2**3*(-x) + binomial(4,2)*2**2*(-x)**2 + binomial(4,3)*2*(-x)**3 + binomial(4,4)*(-x)**4)"
+        }
+       ]
+      },
+      {
+       "title": "Find the coefficients",
+       "lines": [
+        {
+         "text": "$\\binom{4}{0}=1,\\ \\binom{4}{1}=4,\\ \\binom{4}{2}=6,\\ \\binom{4}{3}=4,\\ \\binom{4}{4}=1$."
+        },
+        {
+         "tex": "(2-x)^4 &= 1(16) + 4(8)(-x) + 6(4)(x^2) + 4(2)(-x^3) + 1(x^4)",
+         "sym": "Eq((2-x)**4, 16 + 4*8*(-x) + 6*4*x**2 + 4*2*(-x**3) + x**4)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply out each term",
+       "lines": [
+        {
+         "tex": "(2-x)^4 &= 16 - 32x + 24x^2 - 8x^3 + x^4",
+         "sym": "Eq((2-x)**4, 16 - 32*x + 24*x**2 - 8*x**3 + x**4)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "16 - 32x + 24x^2 - 8x^3 + x^4"
+    },
+    "finalSym": "16 - 32*x + 24*x**2 - 8*x**3 + x**4",
+    "answerSym": "expand((2 - x)**4)"
+   },
+   {
+    "question": "Expand $\\left(x + \\dfrac{1}{x}\\right)^5$ and write your answer in terms of powers of $x$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the binomial pattern with $a=x$, $b=\\frac{1}{x}$",
+       "lines": [
+        {
+         "text": "The terms are $\\binom{5}{k}x^{5-k}\\left(\\frac{1}{x}\\right)^k$ for $k=0$ to $5$."
+        },
+        {
+         "tex": "\\left(x+\\frac1x\\right)^5 &= \\binom50 x^5 + \\binom51 x^4\\cdot\\frac1x + \\binom52 x^3\\cdot\\frac1{x^2} + \\binom53 x^2\\cdot\\frac1{x^3} + \\binom54 x\\cdot\\frac1{x^4} + \\binom55\\cdot\\frac1{x^5}",
+         "sym": "Eq((x+1/x)**5, binomial(5,0)*x**5 + binomial(5,1)*x**4/x + binomial(5,2)*x**3/x**2 + binomial(5,3)*x**2/x**3 + binomial(5,4)*x/x**4 + binomial(5,5)/x**5)"
+        }
+       ]
+      },
+      {
+       "title": "Find the coefficients",
+       "lines": [
+        {
+         "text": "$\\binom50=1,\\ \\binom51=5,\\ \\binom52=10,\\ \\binom53=10,\\ \\binom54=5,\\ \\binom55=1$."
+        }
+       ]
+      },
+      {
+       "title": "Simplify each power of $x$ using the laws of indices",
+       "lines": [
+        {
+         "text": "$x^4\\cdot x^{-1}=x^3$, $x^3\\cdot x^{-2}=x$, $x^2\\cdot x^{-3}=x^{-1}$, $x\\cdot x^{-4}=x^{-3}$."
+        },
+        {
+         "tex": "\\left(x+\\frac1x\\right)^5 &= x^5 + 5x^3 + 10x + \\frac{10}{x} + \\frac{5}{x^3} + \\frac{1}{x^5}",
+         "sym": "Eq((x+1/x)**5, x**5 + 5*x**3 + 10*x + 10/x + 5/x**3 + 1/x**5)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x^5 + 5x^3 + 10x + \\frac{10}{x} + \\frac{5}{x^3} + \\frac{1}{x^5}"
+    },
+    "finalSym": "x**5 + 5*x**3 + 10*x + 10/x + 5/x**3 + 1/x**5",
+    "answerSym": "expand((x + 1/x)**5)"
+   }
+  ]
+ },
+ {
+  "skill": "alg-binomial-term",
+  "problems": [
+   {
+    "question": "Find the coefficient of $x^3$ in the expansion of $(2 + 3x)^6$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the general term",
+       "lines": [
+        {
+         "text": "In $(a+b)^n$ the term is $T_{k+1}=\\binom{n}{k}a^{n-k}b^k$. Here $a=2$, $b=3x$, $n=6$."
+        },
+        {
+         "tex": "T_{k+1} &= \\binom{6}{k}2^{6-k}(3x)^k"
+        }
+       ]
+      },
+      {
+       "title": "Choose $k$ so the power of $x$ is 3",
+       "lines": [
+        {
+         "text": "$(3x)^k$ gives $x^k$, so $k=3$."
+        }
+       ]
+      },
+      {
+       "title": "Evaluate the term",
+       "lines": [
+        {
+         "text": "$\\binom63=\\frac{6\\times5\\times4}{3\\times2\\times1}=20$."
+        },
+        {
+         "tex": "T_4 &= 20\\times 2^3\\times 3^3 x^3",
+         "sym": "Eq(T4, 20*2**3*3**3*x**3)",
+         "new": true
+        },
+        {
+         "tex": "&= 20\\times 8\\times 27\\, x^3",
+         "sym": "Eq(T4, 20*8*27*x**3)"
+        },
+        {
+         "tex": "&= 4320x^3",
+         "sym": "Eq(T4, 4320*x**3)"
+        }
+       ]
+      },
+      {
+       "title": "State the coefficient",
+       "lines": [
+        {
+         "text": "The coefficient of $x^3$ is $4320$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "4320"
+    },
+    "finalSym": "4320",
+    "answerSym": "binomial(6,3)*2**3*3**3"
+   },
+   {
+    "question": "Find the term independent of $x$ in the expansion of $\\left(x^2 + \\dfrac{1}{x}\\right)^6$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the general term",
+       "lines": [
+        {
+         "text": "Here $a=x^2$, $b=x^{-1}$, $n=6$."
+        },
+        {
+         "tex": "T_{k+1} &= \\binom{6}{k}(x^2)^{6-k}(x^{-1})^k",
+         "sym": "Eq(T, binomial(6,k)*(x**2)**(6-k)*(x**-1)**k)"
+        }
+       ]
+      },
+      {
+       "title": "Combine the powers of $x$ using the laws of indices",
+       "lines": [
+        {
+         "tex": "T_{k+1} &= \\binom{6}{k}x^{12-2k}x^{-k}",
+         "sym": "Eq(T, binomial(6,k)*x**(12-2*k)*x**(-k))"
+        },
+        {
+         "tex": "&= \\binom{6}{k}x^{12-3k}",
+         "sym": "Eq(T, binomial(6,k)*x**(12-3*k))"
+        }
+       ]
+      },
+      {
+       "title": "Find $k$ for the term independent of $x$",
+       "lines": [
+        {
+         "text": "The power of $x$ must be 0."
+        },
+        {
+         "tex": "12 - 3k &= 0",
+         "sym": "Eq(12-3*k, 0)",
+         "new": true
+        },
+        {
+         "tex": "k &= 4",
+         "sym": "Eq(k, 4)"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate the term",
+       "lines": [
+        {
+         "text": "$\\binom64=\\binom62=\\frac{6\\times5}{2}=15$."
+        },
+        {
+         "tex": "T_5 &= 15x^0 = 15",
+         "sym": "Eq(T, 15)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "15"
+    },
+    "finalSym": "15",
+    "answerSym": "binomial(6,4)"
+   },
+   {
+    "question": "The coefficient of $x^3$ in the expansion of $(1 + ax)^5$ is $80$, where $a \\in \\mathbb{R}$.\nFind the value of $a$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the term in $x^3$",
+       "lines": [
+        {
+         "text": "Here $a$ is the constant in $b=ax$. The term is $\\binom{5}{k}1^{5-k}(ax)^k$ with $k=3$."
+        },
+        {
+         "tex": "T_4 &= \\binom53 (ax)^3",
+         "sym": "Eq(T4, binomial(5,3)*(a*x)**3)"
+        }
+       ]
+      },
+      {
+       "title": "Find the coefficient",
+       "lines": [
+        {
+         "tex": "\\binom53 &= 10",
+         "sym": "Eq(binomial(5,3), 10)",
+         "new": true
+        },
+        {
+         "tex": "T_4 &= 10a^3x^3",
+         "sym": "Eq(T4, 10*a**3*x**3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Set the coefficient equal to 80 and solve",
+       "lines": [
+        {
+         "tex": "10a^3 &= 80",
+         "sym": "Eq(10*a**3, 80)",
+         "new": true
+        },
+        {
+         "tex": "a^3 &= 8",
+         "sym": "Eq(a**3, 8)"
+        },
+        {
+         "tex": "a &= 2",
+         "sym": "Eq(a, 2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = 2"
+    },
+    "finalSym": "Eq(a, 2)",
+    "answerSym": "Eq(a, Rational(80,binomial(5,3))**Rational(1,3))"
+   }
+  ]
+ },
+ {
+  "skill": "alg-poly-multiply",
+  "problems": [
+   {
+    "question": "Multiply out $(x^2 + 2x - 3)(x^2 - x + 4)$ and write your answer in descending powers of $x$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply each term of the first bracket by the second",
+       "lines": [
+        {
+         "tex": "(x^2+2x-3)(x^2-x+4) &= x^2(x^2-x+4) + 2x(x^2-x+4) - 3(x^2-x+4)",
+         "sym": "Eq((x**2+2*x-3)*(x**2-x+4), x**2*(x**2-x+4) + 2*x*(x**2-x+4) - 3*(x**2-x+4))"
+        }
+       ]
+      },
+      {
+       "title": "Expand each product",
+       "lines": [
+        {
+         "tex": "&= (x^4 - x^3 + 4x^2) + (2x^3 - 2x^2 + 8x) + (-3x^2 + 3x - 12)",
+         "sym": "Eq((x**2+2*x-3)*(x**2-x+4), (x**4-x**3+4*x**2) + (2*x**3-2*x**2+8*x) + (-3*x**2+3*x-12))"
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= x^4 + x^3 - x^2 + 11x - 12",
+         "sym": "Eq((x**2+2*x-3)*(x**2-x+4), x**4+x**3-x**2+11*x-12)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x^4 + x^3 - x^2 + 11x - 12"
+    },
+    "finalSym": "x**4 + x**3 - x**2 + 11*x - 12",
+    "answerSym": "expand((x**2 + 2*x - 3)*(x**2 - x + 4))"
+   },
+   {
+    "question": "Multiply $(2x^3 - x + 5)$ by $(x^2 + 3x - 1)$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply each term of the first polynomial by the second",
+       "lines": [
+        {
+         "tex": "(2x^3-x+5)(x^2+3x-1) &= 2x^3(x^2+3x-1) - x(x^2+3x-1) + 5(x^2+3x-1)",
+         "sym": "Eq((2*x**3-x+5)*(x**2+3*x-1), 2*x**3*(x**2+3*x-1) - x*(x**2+3*x-1) + 5*(x**2+3*x-1))"
+        }
+       ]
+      },
+      {
+       "title": "Expand each product",
+       "lines": [
+        {
+         "tex": "&= (2x^5 + 6x^4 - 2x^3) + (-x^3 - 3x^2 + x) + (5x^2 + 15x - 5)",
+         "sym": "Eq((2*x**3-x+5)*(x**2+3*x-1), (2*x**5+6*x**4-2*x**3) + (-x**3-3*x**2+x) + (5*x**2+15*x-5))"
+        }
+       ]
+      },
+      {
+       "title": "Collect like terms",
+       "lines": [
+        {
+         "tex": "&= 2x^5 + 6x^4 - 3x^3 + 2x^2 + 16x - 5",
+         "sym": "Eq((2*x**3-x+5)*(x**2+3*x-1), 2*x**5+6*x**4-3*x**3+2*x**2+16*x-5)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2x^5 + 6x^4 - 3x^3 + 2x^2 + 16x - 5"
+    },
+    "finalSym": "2*x**5 + 6*x**4 - 3*x**3 + 2*x**2 + 16*x - 5",
+    "answerSym": "expand((2*x**3 - x + 5)*(x**2 + 3*x - 1))"
+   },
+   {
+    "question": "Show that $(x - 2)(x + 2)(x^2 + 4) = x^4 - 16$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply the first two brackets",
+       "lines": [
+        {
+         "tex": "(x-2)(x+2) &= x^2 + 2x - 2x - 4",
+         "sym": "Eq((x-2)*(x+2), x**2+2*x-2*x-4)"
+        },
+        {
+         "tex": "&= x^2 - 4",
+         "sym": "Eq((x-2)*(x+2), x**2-4)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the result by the third bracket",
+       "lines": [
+        {
+         "tex": "(x-2)(x+2)(x^2+4) &= (x^2-4)(x^2+4)",
+         "sym": "Eq((x-2)*(x+2)*(x**2+4), (x**2-4)*(x**2+4))",
+         "new": true
+        },
+        {
+         "tex": "&= x^4 + 4x^2 - 4x^2 - 16",
+         "sym": "Eq((x-2)*(x+2)*(x**2+4), x**4+4*x**2-4*x**2-16)"
+        },
+        {
+         "tex": "&= x^4 - 16",
+         "sym": "Eq((x-2)*(x+2)*(x**2+4), x**4-16)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x^4 - 16"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(expand((x - 2)*(x + 2)*(x**2 + 4)) - (x**4 - 16))"
+   }
+  ]
+ },
+ {
+  "skill": "alg-factor-cubes",
+  "problems": [
+   {
+    "question": "Factorise $27x^3 + 8$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each term as a cube",
+       "lines": [
+        {
+         "tex": "27x^3 + 8 &= (3x)^3 + 2^3",
+         "sym": "Eq(27*x**3+8, (3*x)**3+2**3)"
+        }
+       ]
+      },
+      {
+       "title": "Use $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$ with $a=3x$, $b=2$",
+       "lines": [
+        {
+         "tex": "&= (3x+2)\\left((3x)^2 - (3x)(2) + 2^2\\right)",
+         "sym": "Eq(27*x**3+8, (3*x+2)*((3*x)**2-(3*x)*2+2**2))"
+        }
+       ]
+      },
+      {
+       "title": "Simplify the second bracket",
+       "lines": [
+        {
+         "tex": "&= (3x+2)(9x^2 - 6x + 4)",
+         "sym": "Eq(27*x**3+8, (3*x+2)*(9*x**2-6*x+4))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(3x+2)(9x^2-6x+4)"
+    },
+    "finalSym": "(3*x+2)*(9*x**2-6*x+4)",
+    "answerSym": "factor(27*x**3 + 8)"
+   },
+   {
+    "question": "Factorise $x^3 - 64y^3$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each term as a cube",
+       "lines": [
+        {
+         "tex": "x^3 - 64y^3 &= x^3 - (4y)^3",
+         "sym": "Eq(x**3-64*y**3, x**3-(4*y)**3)"
+        }
+       ]
+      },
+      {
+       "title": "Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a=x$, $b=4y$",
+       "lines": [
+        {
+         "tex": "&= (x-4y)\\left(x^2 + x(4y) + (4y)^2\\right)",
+         "sym": "Eq(x**3-64*y**3, (x-4*y)*(x**2+x*4*y+(4*y)**2))"
+        }
+       ]
+      },
+      {
+       "title": "Simplify the second bracket",
+       "lines": [
+        {
+         "tex": "&= (x-4y)(x^2 + 4xy + 16y^2)",
+         "sym": "Eq(x**3-64*y**3, (x-4*y)*(x**2+4*x*y+16*y**2))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "(x-4y)(x^2+4xy+16y^2)"
+    },
+    "finalSym": "(x-4*y)*(x**2+4*x*y+16*y**2)",
+    "answerSym": "factor(x**3 - 64*y**3)"
+   },
+   {
+    "question": "Factorise fully $54x^3 - 2$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Take out the common factor 2",
+       "lines": [
+        {
+         "tex": "54x^3 - 2 &= 2(27x^3 - 1)",
+         "sym": "Eq(54*x**3-2, 2*(27*x**3-1))"
+        }
+       ]
+      },
+      {
+       "title": "Write the bracket as a difference of cubes",
+       "lines": [
+        {
+         "tex": "&= 2\\left((3x)^3 - 1^3\\right)",
+         "sym": "Eq(54*x**3-2, 2*((3*x)**3-1**3))"
+        }
+       ]
+      },
+      {
+       "title": "Use $a^3 - b^3 = (a-b)(a^2 + ab + b^2)$ with $a=3x$, $b=1$",
+       "lines": [
+        {
+         "tex": "&= 2(3x-1)\\left((3x)^2 + (3x)(1) + 1^2\\right)",
+         "sym": "Eq(54*x**3-2, 2*(3*x-1)*((3*x)**2+(3*x)*1+1**2))"
+        }
+       ]
+      },
+      {
+       "title": "Simplify the second bracket",
+       "lines": [
+        {
+         "tex": "&= 2(3x-1)(9x^2 + 3x + 1)",
+         "sym": "Eq(54*x**3-2, 2*(3*x-1)*(9*x**2+3*x+1))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2(3x-1)(9x^2+3x+1)"
+    },
+    "finalSym": "2*(3*x-1)*(9*x**2+3*x+1)",
+    "answerSym": "factor(54*x**3 - 2)"
+   }
+  ]
+ }
+]

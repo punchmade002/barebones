@@ -1,0 +1,522 @@
+[
+ {
+  "skill": "fin-annuity-fv",
+  "problems": [
+   {
+    "question": "Maria saves $\\text{€}500$ at the start of each year for 4 years. The account pays $2\\%$ interest per year.\\nFind the total value of her savings at the end of the 4 years, correct to the nearest cent.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Each deposit grows by 1.02 per year",
+       "lines": [
+        {
+         "text": "$2\\% = 0.02$, so the yearly factor is $1.02$."
+        },
+        {
+         "text": "The first deposit earns interest for 4 years, the last for 1 year."
+        }
+       ]
+      },
+      {
+       "title": "Write the total as a series",
+       "lines": [
+        {
+         "tex": "\\text{Total} &= 500(1.02)^4 + 500(1.02)^3 + 500(1.02)^2 + 500(1.02)",
+         "sym": "500*1.02**4 + 500*1.02**3 + 500*1.02**2 + 500*1.02",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Reverse the order and take out 500",
+       "lines": [
+        {
+         "tex": "\\text{Total} &= 500\\left[1.02 + 1.02^2 + 1.02^3 + 1.02^4\\right]",
+         "sym": "500*(1.02 + 1.02**2 + 1.02**3 + 1.02**4)"
+        }
+       ]
+      },
+      {
+       "title": "Identify the geometric series",
+       "lines": [
+        {
+         "text": "The bracket is geometric with $a = 1.02$, $r = 1.02$ and $n = 4$."
+        }
+       ]
+      },
+      {
+       "title": "Use the sum formula",
+       "lines": [
+        {
+         "tex": "S_4 &= \\frac{a(r^n - 1)}{r - 1}",
+         "sym": "1.02*(1.02**4 - 1)/(1.02 - 1)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{1.02\\left(1.02^4 - 1\\right)}{0.02}",
+         "sym": "1.02*(1.02**4 - 1)/0.02"
+        },
+        {
+         "tex": "&\\approx 4.20404",
+         "sym": "4.20404",
+         "approx": true
+        },
+        {
+         "tex": "\\text{Total} &= 500 \\times 4.20404",
+         "sym": "500*4.20404",
+         "new": true,
+         "approx": true
+        },
+        {
+         "tex": "&\\approx 2102.02",
+         "sym": "2102.02",
+         "approx": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}2102.02"
+    },
+    "finalSym": "2102.02",
+    "answerSym": "500*Rational(102,100)*(Rational(102,100)**4 - 1)/(Rational(102,100) - 1)"
+   },
+   {
+    "question": "Dara pays $\\text{€}150$ into a savings account at the end of each month for 5 years. The account pays $0.4\\%$ interest per month. The last payment earns no interest.\\nFind the value of the account immediately after the last payment, correct to the nearest cent.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Monthly factor and number of payments",
+       "lines": [
+        {
+         "text": "$0.4\\% = 0.004$, so the monthly factor is $1.004$."
+        },
+        {
+         "text": "There are $5 \\times 12 = 60$ payments."
+        }
+       ]
+      },
+      {
+       "title": "Write the total as a series",
+       "lines": [
+        {
+         "text": "The first payment earns interest for 59 months. The last earns none."
+        },
+        {
+         "tex": "\\text{Total} &= 150(1.004)^{59} + 150(1.004)^{58} + \\cdots + 150(1.004) + 150"
+        }
+       ]
+      },
+      {
+       "title": "Reverse the order and identify the geometric series",
+       "lines": [
+        {
+         "tex": "\\text{Total} &= 150\\left[1 + 1.004 + 1.004^2 + \\cdots + 1.004^{59}\\right]"
+        },
+        {
+         "text": "The bracket is geometric with $a = 1$, $r = 1.004$ and $n = 60$."
+        }
+       ]
+      },
+      {
+       "title": "Use the sum formula",
+       "lines": [
+        {
+         "tex": "S_{60} &= \\frac{1\\left(1.004^{60} - 1\\right)}{1.004 - 1}",
+         "sym": "(1.004**60 - 1)/(1.004 - 1)",
+         "new": true
+        },
+        {
+         "tex": "&\\approx 67.6602",
+         "sym": "67.6602",
+         "approx": true
+        }
+       ]
+      },
+      {
+       "title": "Multiply by 150",
+       "lines": [
+        {
+         "tex": "\\text{Total} &= 150 \\times 67.6602",
+         "sym": "150*67.6602",
+         "new": true,
+         "approx": true
+        },
+        {
+         "tex": "&\\approx 10149.03",
+         "sym": "10149.03",
+         "approx": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}10149.03"
+    },
+    "finalSym": "10149.03",
+    "answerSym": "150*(Rational(1004,1000)**60 - 1)/(Rational(1004,1000) - 1)"
+   }
+  ]
+ },
+ {
+  "skill": "fin-annuity-pv",
+  "problems": [
+   {
+    "question": "A pension fund pays $\\text{€}12\\,000$ at the end of each year for 15 years. Money is discounted at $4\\%$ per year.\\nFind the present value of all 15 payments, correct to the nearest euro.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Present value of each payment",
+       "lines": [
+        {
+         "text": "A payment made after $k$ years is divided by $1.04$ once for each year."
+        },
+        {
+         "text": "$PV = \\dfrac{12000}{1.04} + \\dfrac{12000}{1.04^2} + \\cdots + \\dfrac{12000}{1.04^{15}}$"
+        }
+       ]
+      },
+      {
+       "title": "Identify the geometric series",
+       "lines": [
+        {
+         "text": "Geometric with $n = 15$ terms."
+        },
+        {
+         "tex": "a &= \\frac{12000}{1.04}",
+         "sym": "12000/1.04",
+         "new": true
+        },
+        {
+         "tex": "r &= \\frac{1}{1.04}",
+         "sym": "1/1.04",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Use the sum formula",
+       "lines": [
+        {
+         "tex": "S_{15} &= \\frac{a(1 - r^n)}{1 - r}",
+         "sym": "(12000/1.04)*(1 - (1/1.04)**15)/(1 - 1/1.04)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{\\frac{12000}{1.04}\\left(1 - \\left(\\frac{1}{1.04}\\right)^{15}\\right)}{1 - \\frac{1}{1.04}}",
+         "sym": "(12000/1.04)*(1 - (1/1.04)**15)/(1 - 1/1.04)"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate",
+       "lines": [
+        {
+         "tex": "PV &\\approx 133\\,420.65",
+         "sym": "133420.65",
+         "approx": true
+        },
+        {
+         "text": "To the nearest euro this is $\\text{€}133\\,421$."
+        },
+        {
+         "tex": "PV &\\approx 133\\,421",
+         "sym": "133421",
+         "approx": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}133\\,421"
+    },
+    "finalSym": "133421",
+    "answerSym": "round(sum(12000/Rational(104,100)**k for k in range(1,16)))"
+   }
+  ]
+ },
+ {
+  "skill": "fin-mortgage-derive",
+  "problems": [
+   {
+    "question": "A loan of $\\text{€}P$ is repaid by $t$ equal monthly repayments of $\\text{€}A$. The first repayment is made immediately and each of the others is made at the end of each following month. The monthly interest rate is $i$.\\nBy writing $P$ as the sum of the present values of the repayments, prove that\\n$$A = \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}.$$",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the loan as the sum of the repayments in today's money",
+       "lines": [
+        {
+         "text": "The first repayment is made now, so it is worth $A$. A repayment made after $k$ months is worth $\\frac{A}{(1+i)^k}$ today."
+        },
+        {
+         "tex": "P &= A + \\frac{A}{1+i} + \\frac{A}{(1+i)^2} + \\cdots + \\frac{A}{(1+i)^{t-1}}"
+        }
+       ]
+      },
+      {
+       "title": "Identify the geometric series",
+       "lines": [
+        {
+         "text": "Geometric with first term $a = A$, common ratio $r = \\frac{1}{1+i}$ and $t$ terms."
+        },
+        {
+         "tex": "P &= \\frac{A\\left(1 - \\left(\\frac{1}{1+i}\\right)^t\\right)}{1 - \\frac{1}{1+i}}",
+         "sym": "A*(1 - (1/(1+i))**t)/(1 - 1/(1+i))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Simplify the denominator",
+       "lines": [
+        {
+         "tex": "1 - \\frac{1}{1+i} &= \\frac{1+i-1}{1+i}",
+         "sym": "Eq(1 - 1/(1+i), (1+i-1)/(1+i))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{i}{1+i}",
+         "sym": "Eq(1 - 1/(1+i), i/(1+i))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Divide by the fraction and tidy up",
+       "lines": [
+        {
+         "tex": "P &= \\frac{A(1+i)\\left(1 - \\frac{1}{(1+i)^t}\\right)}{i}",
+         "sym": "A*(1+i)*(1 - 1/(1+i)**t)/i",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{A(1+i)\\left((1+i)^t - 1\\right)}{i(1+i)^t}",
+         "sym": "A*(1+i)*((1+i)**t - 1)/(i*(1+i)**t)"
+        },
+        {
+         "tex": "&= \\frac{A\\left((1+i)^t - 1\\right)}{i(1+i)^{t-1}}",
+         "sym": "A*((1+i)**t - 1)/(i*(1+i)**(t-1))"
+        }
+       ]
+      },
+      {
+       "title": "Make A the subject",
+       "lines": [
+        {
+         "text": "Multiply both sides by $i(1+i)^{t-1}$, then divide by $(1+i)^t - 1$."
+        },
+        {
+         "tex": "A &= \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}",
+         "sym": "Eq(A, P*i*(1+i)**(t-1)/((1+i)**t - 1))",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "A = \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(summation(1/Rational(101,100)**k,(k,0,11)) - (Rational(101,100)**12 - 1)/(Rational(1,100)*Rational(101,100)**11))"
+   }
+  ]
+ },
+ {
+  "skill": "fin-amortisation",
+  "problems": [
+   {
+    "question": "A loan of $\\text{€}10\\,000$ is repaid by monthly repayments of $\\text{€}500$. Interest is charged at $1\\%$ per month on the balance owed. The first repayment is made one month after the loan is taken.\\nFind the balance owed after the third repayment.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Month 1: interest is 1% of the balance",
+       "lines": [
+        {
+         "tex": "\\text{Interest} &= 0.01 \\times 10000",
+         "sym": "0.01*10000",
+         "new": true
+        },
+        {
+         "tex": "&= 100",
+         "sym": "100"
+        },
+        {
+         "tex": "\\text{Capital repaid} &= 500 - 100",
+         "sym": "500 - 100",
+         "new": true
+        },
+        {
+         "tex": "&= 400",
+         "sym": "400"
+        },
+        {
+         "tex": "\\text{New balance} &= 10000 - 400",
+         "sym": "10000 - 400",
+         "new": true
+        },
+        {
+         "tex": "&= 9600",
+         "sym": "9600"
+        }
+       ]
+      },
+      {
+       "title": "Month 2",
+       "lines": [
+        {
+         "tex": "\\text{Interest} &= 0.01 \\times 9600",
+         "sym": "0.01*9600",
+         "new": true
+        },
+        {
+         "tex": "&= 96",
+         "sym": "96"
+        },
+        {
+         "tex": "\\text{Capital repaid} &= 500 - 96",
+         "sym": "500 - 96",
+         "new": true
+        },
+        {
+         "tex": "&= 404",
+         "sym": "404"
+        },
+        {
+         "tex": "\\text{New balance} &= 9600 - 404",
+         "sym": "9600 - 404",
+         "new": true
+        },
+        {
+         "tex": "&= 9196",
+         "sym": "9196"
+        }
+       ]
+      },
+      {
+       "title": "Month 3",
+       "lines": [
+        {
+         "tex": "\\text{Interest} &= 0.01 \\times 9196",
+         "sym": "0.01*9196",
+         "new": true
+        },
+        {
+         "tex": "&= 91.96",
+         "sym": "91.96"
+        },
+        {
+         "tex": "\\text{Capital repaid} &= 500 - 91.96",
+         "sym": "500 - 91.96",
+         "new": true
+        },
+        {
+         "tex": "&= 408.04",
+         "sym": "408.04"
+        },
+        {
+         "tex": "\\text{New balance} &= 9196 - 408.04",
+         "sym": "9196 - 408.04",
+         "new": true
+        },
+        {
+         "tex": "&= 8787.96",
+         "sym": "8787.96"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}8787.96"
+    },
+    "finalSym": "8787.96",
+    "answerSym": "10000*Rational(101,100)**3 - 500*(Rational(101,100)**2 + Rational(101,100) + 1)"
+   },
+   {
+    "question": "Sean borrows $\\text{€}20\\,000$. Interest is charged at $6\\%$ per year on the balance owed. He repays $\\text{€}2000$ at the end of each year.\\nFind how much of the third repayment reduces the amount he owes (the capital repaid).",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Year 1",
+       "lines": [
+        {
+         "tex": "\\text{Interest} &= 0.06 \\times 20000",
+         "sym": "0.06*20000",
+         "new": true
+        },
+        {
+         "tex": "&= 1200",
+         "sym": "1200"
+        },
+        {
+         "tex": "\\text{Balance} &= 20000 - (2000 - 1200)",
+         "sym": "20000 - (2000 - 1200)",
+         "new": true
+        },
+        {
+         "tex": "&= 19200",
+         "sym": "19200"
+        }
+       ]
+      },
+      {
+       "title": "Year 2",
+       "lines": [
+        {
+         "tex": "\\text{Interest} &= 0.06 \\times 19200",
+         "sym": "0.06*19200",
+         "new": true
+        },
+        {
+         "tex": "&= 1152",
+         "sym": "1152"
+        },
+        {
+         "tex": "\\text{Balance} &= 19200 - (2000 - 1152)",
+         "sym": "19200 - (2000 - 1152)",
+         "new": true
+        },
+        {
+         "tex": "&= 18352",
+         "sym": "18352"
+        }
+       ]
+      },
+      {
+       "title": "Year 3: interest, then capital repaid",
+       "lines": [
+        {
+         "tex": "\\text{Interest} &= 0.06 \\times 18352",
+         "sym": "0.06*18352",
+         "new": true
+        },
+        {
+         "tex": "&= 1101.12",
+         "sym": "1101.12"
+        },
+        {
+         "tex": "\\text{Capital repaid} &= 2000 - 1101.12",
+         "sym": "2000 - 1101.12",
+         "new": true
+        },
+        {
+         "tex": "&= 898.88",
+         "sym": "898.88"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}898.88"
+    },
+    "finalSym": "898.88",
+    "answerSym": "2000 - Rational(6,100)*(20000*Rational(106,100)**2 - 2000*(Rational(106,100) + 1))"
+   }
+  ]
+ }
+]

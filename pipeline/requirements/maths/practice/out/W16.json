@@ -1,0 +1,453 @@
+[
+ {
+  "skill": "diff-apply-hl",
+  "problems": [
+   {
+    "question": "A cup of coffee cools in a room. Its temperature, $T$ degrees Celsius, $t$ minutes after it is poured is $T(t) = 20 + 70e^{-0.1t}$.\nFind the value of $t$ for which the temperature is falling at a rate of $3.5$ degrees per minute.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate to get the rate",
+       "lines": [
+        {
+         "tex": "T'(t) &= -7e^{-0.1t}",
+         "sym": "-7*exp(-t/10)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Set the rate equal to $-3.5$",
+       "lines": [
+        {
+         "tex": "-7e^{-0.1t} &= -3.5",
+         "sym": "Eq(-7*exp(-t/10), -Rational(7,2))",
+         "new": true
+        },
+        {
+         "tex": "e^{-0.1t} &= \\frac{1}{2}",
+         "sym": "Eq(exp(-t/10), Rational(1,2))"
+        }
+       ]
+      },
+      {
+       "title": "Take natural logs and solve",
+       "lines": [
+        {
+         "tex": "-0.1t &= \\ln\\left(\\tfrac{1}{2}\\right) = -\\ln 2",
+         "sym": "Eq(-t/10, -log(2))",
+         "new": true
+        },
+        {
+         "tex": "t &= 10\\ln 2",
+         "sym": "Eq(t, 10*log(2))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "t = 10\\ln 2 \\approx 6.93 \\text{ minutes}"
+    },
+    "finalSym": "10*log(2)",
+    "answerSym": "solve(Eq(diff(20 + 70*exp(-t/10), t), -Rational(7,2)), t)[0]"
+   },
+   {
+    "question": "The concentration of a drug in the blood, in mg per litre, $t$ hours after it is taken is $C(t) = 12te^{-t/2}$, for $t \\ge 0$.\nFind the value of $t$ at which the concentration is greatest. Justify your answer.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate using the product rule",
+       "lines": [
+        {
+         "tex": "C'(t) &= 12e^{-t/2} + 12t\\left(-\\tfrac{1}{2}\\right)e^{-t/2}",
+         "sym": "12*exp(-t/2) + 12*t*(-Rational(1,2))*exp(-t/2)",
+         "new": true
+        },
+        {
+         "tex": "&= 12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right)",
+         "sym": "12*exp(-t/2)*(1 - t/2)"
+        }
+       ]
+      },
+      {
+       "title": "Set $C'(t) = 0$",
+       "lines": [
+        {
+         "tex": "12e^{-t/2}\\left(1 - \\tfrac{t}{2}\\right) &= 0",
+         "sym": "Eq(12*exp(-t/2)*(1 - t/2), 0)",
+         "new": true
+        },
+        {
+         "text": "$e^{-t/2}$ is never $0$, so the bracket must be $0$."
+        },
+        {
+         "tex": "1 - \\tfrac{t}{2} &= 0",
+         "sym": "Eq(1 - t/2, 0)",
+         "new": true
+        },
+        {
+         "tex": "t &= 2",
+         "sym": "Eq(t, 2)"
+        }
+       ]
+      },
+      {
+       "title": "Differentiate again to classify",
+       "lines": [
+        {
+         "tex": "C''(t) &= 12e^{-t/2}\\left(\\tfrac{t}{4} - 1\\right)",
+         "sym": "12*exp(-t/2)*(t/4 - 1)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Evaluate at $t = 2$",
+       "lines": [
+        {
+         "tex": "C''(2) &= -12e^{-1} < 0",
+         "sym": "-12*exp(-1)",
+         "new": true
+        },
+        {
+         "text": "$C''(2) < 0$, so $t = 2$ gives a maximum."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "t = 2 \\text{ hours}"
+    },
+    "finalSym": "2",
+    "answerSym": "solve(diff(12*t*exp(-t/2), t), t)[0]"
+   }
+  ]
+ },
+ {
+  "skill": "diff-rational-power",
+  "problems": [
+   {
+    "question": "$f(x) = \\dfrac{6}{\\sqrt[3]{x}}$.\nFind $f'(8)$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write as a power of $x$",
+       "lines": [
+        {
+         "tex": "f(x) &= 6x^{-\\frac{1}{3}}",
+         "sym": "6*x**(-Rational(1,3))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Differentiate",
+       "lines": [
+        {
+         "tex": "f'(x) &= 6\\left(-\\tfrac{1}{3}\\right)x^{-\\frac{4}{3}}",
+         "sym": "6*(-Rational(1,3))*x**(-Rational(4,3))",
+         "new": true
+        },
+        {
+         "tex": "&= -2x^{-\\frac{4}{3}}",
+         "sym": "-2*x**(-Rational(4,3))"
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = 8$",
+       "lines": [
+        {
+         "tex": "f'(8) &= -2(8)^{-\\frac{4}{3}} = -\\frac{2}{16}",
+         "sym": "-2*8**(-Rational(4,3))",
+         "new": true
+        },
+        {
+         "tex": "&= -\\frac{1}{8}",
+         "sym": "-Rational(1,8)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "f'(8) = -\\frac{1}{8}"
+    },
+    "finalSym": "-Rational(1,8)",
+    "answerSym": "diff(6/x**Rational(1,3), x).subs(x, 8)"
+   },
+   {
+    "question": "$g(x) = \\dfrac{x^2 + 3}{\\sqrt{x}}$, for $x > 0$.\nFind $g'(4)$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Divide through and write as powers",
+       "lines": [
+        {
+         "tex": "g(x) &= x^{\\frac{3}{2}} + 3x^{-\\frac{1}{2}}",
+         "sym": "x**Rational(3,2) + 3*x**(-Rational(1,2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Differentiate term by term",
+       "lines": [
+        {
+         "tex": "g'(x) &= \\tfrac{3}{2}x^{\\frac{1}{2}} - \\tfrac{3}{2}x^{-\\frac{3}{2}}",
+         "sym": "Rational(3,2)*x**Rational(1,2) - Rational(3,2)*x**(-Rational(3,2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = 4$",
+       "lines": [
+        {
+         "tex": "g'(4) &= \\tfrac{3}{2}(2) - \\tfrac{3}{2}\\cdot\\tfrac{1}{8}",
+         "sym": "Rational(3,2)*2 - Rational(3,2)*Rational(1,8)",
+         "new": true
+        },
+        {
+         "tex": "&= 3 - \\tfrac{3}{16} = \\tfrac{45}{16}",
+         "sym": "Rational(45,16)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "g'(4) = \\frac{45}{16}"
+    },
+    "finalSym": "Rational(45,16)",
+    "answerSym": "diff((x**2 + 3)/sqrt(x), x).subs(x, 4)"
+   }
+  ]
+ },
+ {
+  "skill": "diff-inverse-trig",
+  "problems": [
+   {
+    "question": "$f(x) = \\tan^{-1}\\left(\\dfrac{x}{5}\\right)$.\nFind the slope of the tangent to the curve $y = f(x)$ at $x = 5$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Differentiate using the standard result with $a = 5$",
+       "lines": [
+        {
+         "tex": "f'(x) &= \\frac{5}{25 + x^2}",
+         "sym": "5/(25 + x**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = 5$",
+       "lines": [
+        {
+         "tex": "f'(5) &= \\frac{5}{25 + 25}",
+         "sym": "5/(25 + 25)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{1}{10}",
+         "sym": "Rational(1,10)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{1}{10}"
+    },
+    "finalSym": "Rational(1,10)",
+    "answerSym": "diff(atan(x/5), x).subs(x, 5)"
+   },
+   {
+    "question": "Find $\\dfrac{dy}{dx}$ when $x = 2$, given that $y = x\\tan^{-1}\\left(\\dfrac{x}{2}\\right)$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the product rule",
+       "lines": [
+        {
+         "text": "$u = x$, $v = \\tan^{-1}(x/2)$."
+        },
+        {
+         "tex": "u' &= 1",
+         "sym": "1",
+         "new": true
+        },
+        {
+         "tex": "v' &= \\frac{2}{4 + x^2}",
+         "sym": "2/(4 + x**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Combine",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= \\tan^{-1}\\left(\\tfrac{x}{2}\\right) + \\frac{2x}{4 + x^2}",
+         "sym": "atan(x/2) + 2*x/(4 + x**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute $x = 2$",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= \\tan^{-1}(1) + \\frac{4}{8}",
+         "sym": "atan(1) + Rational(4,8)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{\\pi}{4} + \\frac{1}{2}",
+         "sym": "pi/4 + Rational(1,2)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{\\pi}{4} + \\frac{1}{2}"
+    },
+    "finalSym": "pi/4 + Rational(1,2)",
+    "answerSym": "diff(x*atan(x/2), x).subs(x, 2)"
+   },
+   {
+    "question": "Find the equation of the tangent to the curve $y = \\sin^{-1}\\left(\\dfrac{x}{2}\\right)$ at the point where $x = 1$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the point on the curve",
+       "lines": [
+        {
+         "tex": "y(1) &= \\sin^{-1}\\left(\\tfrac{1}{2}\\right)",
+         "sym": "asin(Rational(1,2))",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{\\pi}{6}",
+         "sym": "pi/6"
+        }
+       ]
+      },
+      {
+       "title": "Differentiate using the standard result with $a = 2$",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= \\frac{1}{\\sqrt{4 - x^2}}",
+         "sym": "1/sqrt(4 - x**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find the slope at $x = 1$",
+       "lines": [
+        {
+         "tex": "m &= \\frac{1}{\\sqrt{3}}",
+         "sym": "1/sqrt(3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write the tangent",
+       "lines": [
+        {
+         "tex": "y - \\frac{\\pi}{6} &= \\frac{1}{\\sqrt{3}}(x - 1)",
+         "sym": "Eq(y - pi/6, (x - 1)/sqrt(3))",
+         "new": true
+        },
+        {
+         "tex": "y &= \\frac{\\pi}{6} + \\frac{x - 1}{\\sqrt{3}}",
+         "sym": "Eq(y, pi/6 + (x - 1)/sqrt(3))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "y = \\dfrac{\\pi}{6} + \\dfrac{x - 1}{\\sqrt{3}}"
+    },
+    "finalSym": "Eq(y, pi/6 + (x - 1)/sqrt(3))",
+    "answerSym": "Eq(y, asin(Rational(1,2)) + diff(asin(x/2), x).subs(x, 1)*(x - 1))"
+   }
+  ]
+ },
+ {
+  "skill": "diff-quotient",
+  "problems": [
+   {
+    "question": "$f(x) = \\dfrac{x^2}{x - 2}$, for $x \\ne 2$.\nFind the values of $x$ at which the tangent to the curve $y = f(x)$ is horizontal.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Name $u$ and $v$ and differentiate each",
+       "lines": [
+        {
+         "tex": "u &= x^2, \\quad u' = 2x",
+         "sym": "2*x",
+         "new": true
+        },
+        {
+         "tex": "v &= x - 2, \\quad v' = 1",
+         "sym": "1",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the quotient rule",
+       "lines": [
+        {
+         "tex": "f'(x) &= \\frac{(x-2)(2x) - x^2(1)}{(x-2)^2}",
+         "sym": "((x - 2)*2*x - x**2)/(x - 2)**2",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Simplify the numerator",
+       "lines": [
+        {
+         "tex": "&= \\frac{x^2 - 4x}{(x-2)^2}",
+         "sym": "(x**2 - 4*x)/(x - 2)**2"
+        },
+        {
+         "tex": "&= \\frac{x(x-4)}{(x-2)^2}",
+         "sym": "x*(x - 4)/(x - 2)**2"
+        }
+       ]
+      },
+      {
+       "title": "Set $f'(x) = 0$",
+       "lines": [
+        {
+         "tex": "x(x-4) &= 0",
+         "sym": "Eq(x*(x - 4), 0)",
+         "new": true
+        },
+        {
+         "tex": "x &= 0 \\text{ or } x = 4",
+         "sym": "Or(Eq(x, 0), Eq(x, 4))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 0 \\text{ or } x = 4"
+    },
+    "finalSym": "[0, 4]",
+    "answerSym": "solve(diff(x**2/(x - 2), x), x)"
+   }
+  ]
+ }
+]

@@ -1,0 +1,446 @@
+[
+ {
+  "skill": "cx-conjugate",
+  "problems": [
+   {
+    "question": "$z = -4 - 7i$.\nWrite down $\\overline{z}$, the complex conjugate of $z$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the real and imaginary parts",
+       "lines": [
+        {
+         "text": "$z = -4 - 7i$ has real part $-4$ and imaginary part $-7$."
+        },
+        {
+         "tex": "z &= -4 - 7i",
+         "sym": "-4 - 7*I"
+        }
+       ]
+      },
+      {
+       "title": "Change the sign of the imaginary part",
+       "lines": [
+        {
+         "tex": "\\overline{z} &= -4 + 7i",
+         "sym": "-4 + 7*I",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\overline{z} = -4 + 7i"
+    },
+    "finalSym": "-4 + 7*I",
+    "answerSym": "conjugate(-4 - 7*I)"
+   },
+   {
+    "question": "$z = 3i - 8$.\nWrite down $\\overline{z}$, the complex conjugate of $z$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write $z$ in the form $a + bi$",
+       "lines": [
+        {
+         "tex": "z &= 3i - 8",
+         "sym": "3*I - 8"
+        },
+        {
+         "tex": "&= -8 + 3i",
+         "sym": "-8 + 3*I"
+        }
+       ]
+      },
+      {
+       "title": "Change the sign of the imaginary part",
+       "lines": [
+        {
+         "text": "The real part $-8$ stays the same; $+3i$ becomes $-3i$."
+        },
+        {
+         "tex": "\\overline{z} &= -8 - 3i",
+         "sym": "-8 - 3*I",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\overline{z} = -8 - 3i"
+    },
+    "finalSym": "-8 - 3*I",
+    "answerSym": "conjugate(3*I - 8)"
+   }
+  ]
+ },
+ {
+  "skill": "cx-powers-i",
+  "problems": [
+   {
+    "question": "Simplify $i^{23}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split off the largest multiple of 4 in the power",
+       "lines": [
+        {
+         "text": "$i^4 = 1$, so write $23 = 20 + 3$."
+        },
+        {
+         "tex": "i^{23} &= (i^4)^5 \\cdot i^3",
+         "sym": "(I**4)**5*I**3"
+        }
+       ]
+      },
+      {
+       "title": "Replace $i^4$ with 1",
+       "lines": [
+        {
+         "tex": "&= 1^5 \\cdot i^3",
+         "sym": "1**5*I**3"
+        }
+       ]
+      },
+      {
+       "title": "Use $i^3 = -i$",
+       "lines": [
+        {
+         "tex": "&= -i",
+         "sym": "-I"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-i"
+    },
+    "finalSym": "-I",
+    "answerSym": "I**23"
+   },
+   {
+    "question": "Simplify $3i^{10} - 2i^{5}$.\nGive your answer in the form $a + bi$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Reduce each power using $i^4 = 1$",
+       "lines": [
+        {
+         "tex": "i^{10} &= (i^4)^2 \\cdot i^2 = i^2 = -1",
+         "sym": "-1",
+         "new": true
+        },
+        {
+         "tex": "i^{5} &= i^4 \\cdot i = i",
+         "sym": "I",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Substitute",
+       "lines": [
+        {
+         "tex": "3i^{10} - 2i^5 &= 3(-1) - 2(i)",
+         "sym": "3*(-1) - 2*I",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write in the form $a + bi$",
+       "lines": [
+        {
+         "tex": "&= -3 - 2i",
+         "sym": "-3 - 2*I"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-3 - 2i"
+    },
+    "finalSym": "-3 - 2*I",
+    "answerSym": "3*I**10 - 2*I**5"
+   },
+   {
+    "question": "Simplify $(i^9)^3$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply the indices",
+       "lines": [
+        {
+         "tex": "(i^9)^3 &= i^{27}",
+         "sym": "I**27"
+        }
+       ]
+      },
+      {
+       "title": "Split off the largest multiple of 4 in the power",
+       "lines": [
+        {
+         "text": "Write $27 = 24 + 3$."
+        },
+        {
+         "tex": "i^{27} &= (i^4)^6 \\cdot i^3",
+         "sym": "(I**4)**6*I**3"
+        }
+       ]
+      },
+      {
+       "title": "Replace $i^4$ with 1 and use $i^3 = -i$",
+       "lines": [
+        {
+         "tex": "&= 1^6 \\cdot (-i)",
+         "sym": "1**6*(-I)"
+        },
+        {
+         "tex": "&= -i",
+         "sym": "-I"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "-i"
+    },
+    "finalSym": "-I",
+    "answerSym": "(I**9)**3"
+   }
+  ]
+ },
+ {
+  "skill": "num-surds",
+  "problems": [
+   {
+    "question": "Write $\\sqrt{72} + \\sqrt{18}$ in the form $a\\sqrt{2}$, where $a \\in \\mathbb{N}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each number as a square times 2",
+       "lines": [
+        {
+         "tex": "\\sqrt{72} &= \\sqrt{36 \\times 2}",
+         "sym": "sqrt(72)"
+        },
+        {
+         "tex": "\\sqrt{18} &= \\sqrt{9 \\times 2}",
+         "sym": "sqrt(18)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Take the square roots out",
+       "lines": [
+        {
+         "tex": "\\sqrt{72} &= 6\\sqrt{2}",
+         "sym": "6*sqrt(2)",
+         "new": true
+        },
+        {
+         "tex": "\\sqrt{18} &= 3\\sqrt{2}",
+         "sym": "3*sqrt(2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add the like surds",
+       "lines": [
+        {
+         "tex": "6\\sqrt{2} + 3\\sqrt{2} &= 9\\sqrt{2}",
+         "sym": "9*sqrt(2)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "9\\sqrt{2}"
+    },
+    "finalSym": "9*sqrt(2)",
+    "answerSym": "sqrt(72) + sqrt(18)"
+   },
+   {
+    "question": "Write $\\dfrac{4}{3 - \\sqrt{5}}$ in the form $a + b\\sqrt{5}$, where $a, b \\in \\mathbb{N}$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Multiply top and bottom by the conjugate of the denominator",
+       "lines": [
+        {
+         "tex": "\\frac{4}{3 - \\sqrt{5}} &= \\frac{4(3 + \\sqrt{5})}{(3 - \\sqrt{5})(3 + \\sqrt{5})}",
+         "sym": "4*(3 + sqrt(5))/((3 - sqrt(5))*(3 + sqrt(5)))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Simplify the denominator",
+       "lines": [
+        {
+         "text": "$(3 - \\sqrt{5})(3 + \\sqrt{5}) = 9 - 5 = 4$."
+        },
+        {
+         "tex": "&= \\frac{4(3 + \\sqrt{5})}{9 - 5}",
+         "sym": "4*(3 + sqrt(5))/(9 - 5)"
+        },
+        {
+         "tex": "&= \\frac{4(3 + \\sqrt{5})}{4}",
+         "sym": "4*(3 + sqrt(5))/4"
+        }
+       ]
+      },
+      {
+       "title": "Cancel the 4",
+       "lines": [
+        {
+         "tex": "&= 3 + \\sqrt{5}",
+         "sym": "3 + sqrt(5)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3 + \\sqrt{5}"
+    },
+    "finalSym": "3 + sqrt(5)",
+    "answerSym": "4/(3 - sqrt(5))"
+   }
+  ]
+ },
+ {
+  "skill": "cx-equate-parts",
+  "problems": [
+   {
+    "question": "Find real numbers $a$ and $b$ such that\n$a + bi = (3 - 2i)^2$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Expand the square",
+       "lines": [
+        {
+         "tex": "(3 - 2i)^2 &= 9 - 12i + 4i^2",
+         "sym": "9 - 12*I + 4*I**2",
+         "new": false
+        },
+        {
+         "tex": "&= 9 - 12i - 4",
+         "sym": "9 - 12*I - 4"
+        },
+        {
+         "tex": "&= 5 - 12i",
+         "sym": "5 - 12*I"
+        }
+       ]
+      },
+      {
+       "title": "Equate real and imaginary parts",
+       "lines": [
+        {
+         "text": "$a + bi = 5 - 12i$, so the real parts are equal and the imaginary parts are equal."
+        },
+        {
+         "tex": "a &= 5",
+         "sym": "Eq(a, 5)",
+         "new": true
+        },
+        {
+         "tex": "b &= -12",
+         "sym": "Eq(b, -12)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "a = 5,\\ b = -12"
+    },
+    "finalSym": "[5, -12]",
+    "answerSym": "[re(expand((3 - 2*I)**2)), im(expand((3 - 2*I)**2))]"
+   },
+   {
+    "question": "Find the real numbers $x$ and $y$ such that\n$(x + yi)(1 + i) = 1 + 3i$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Expand the left-hand side",
+       "lines": [
+        {
+         "tex": "(x + yi)(1 + i) &= x + xi + yi + yi^2",
+         "sym": "(x + y*I)*(1 + I)"
+        },
+        {
+         "tex": "&= x + xi + yi - y",
+         "sym": "x + x*I + y*I - y"
+        },
+        {
+         "tex": "&= (x - y) + (x + y)i",
+         "sym": "(x - y) + (x + y)*I"
+        }
+       ]
+      },
+      {
+       "title": "Equate real and imaginary parts",
+       "lines": [
+        {
+         "tex": "x - y &= 1",
+         "sym": "Eq(x - y, 1)",
+         "new": true
+        },
+        {
+         "tex": "x + y &= 3",
+         "sym": "Eq(x + y, 3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add the two equations",
+       "lines": [
+        {
+         "tex": "2x &= 4",
+         "sym": "Eq(2*x, 4)",
+         "new": true
+        },
+        {
+         "tex": "x &= 2",
+         "sym": "Eq(x, 2)"
+        }
+       ]
+      },
+      {
+       "title": "Find $y$",
+       "lines": [
+        {
+         "tex": "y &= 3 - 2",
+         "sym": "Eq(y, 3 - 2)",
+         "new": true
+        },
+        {
+         "tex": "&= 1",
+         "sym": "Eq(y, 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "x = 2,\\ y = 1"
+    },
+    "finalSym": "[2, 1]",
+    "answerSym": "[re(expand_complex((1 + 3*I)/(1 + I))), im(expand_complex((1 + 3*I)/(1 + I)))]"
+   }
+  ]
+ }
+]

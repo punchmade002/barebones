@@ -1,0 +1,477 @@
+[
+ {
+  "skill": "cx-transformations",
+  "problems": [
+   {
+    "question": "On an Argand diagram, the point $z = 2 - 3i$ is mapped to the point $3z$.\nFind $3z$ and describe the transformation that maps $z$ to $3z$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find 3z",
+       "lines": [
+        {
+         "tex": "3z &= 3(2 - 3i)",
+         "sym": "3*(2-3*I)"
+        },
+        {
+         "tex": "&= 6 - 9i",
+         "sym": "6-9*I"
+        }
+       ]
+      },
+      {
+       "title": "Plot both points",
+       "lines": [
+        {
+         "text": "$z = 2 - 3i$ is the point $(2, -3)$."
+        },
+        {
+         "text": "$3z = 6 - 9i$ is the point $(6, -9)$. It lies on the same line through the origin, three times as far from it."
+        }
+       ]
+      },
+      {
+       "title": "Name the transformation",
+       "lines": [
+        {
+         "text": "Multiplying by $3$ multiplies the distance from the origin by $3$ and keeps the direction."
+        },
+        {
+         "text": "This is an enlargement with centre the origin and scale factor $3$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3z = 6 - 9i;\\ \\text{enlargement, centre the origin, scale factor } 3"
+    },
+    "finalSym": "6 - 9*I",
+    "answerSym": "expand(3*(2 - 3*I))"
+   }
+  ]
+ },
+ {
+  "skill": "cx-conjugate-properties",
+  "problems": [
+   {
+    "question": "Let $z_1 = 2 + i$ and $z_2 = 1 - 4i$.\nFind $\\overline{z_1 z_2}$ and show that it equals $\\overline{z_1}\\,\\overline{z_2}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the product z₁z₂",
+       "lines": [
+        {
+         "tex": "z_1 z_2 &= (2 + i)(1 - 4i)",
+         "sym": "(2+I)*(1-4*I)"
+        },
+        {
+         "tex": "&= 2 - 8i + i - 4i^2",
+         "sym": "2-8*I+I-4*I**2"
+        },
+        {
+         "text": "Use $i^2 = -1$."
+        },
+        {
+         "tex": "&= 6 - 7i",
+         "sym": "6-7*I"
+        }
+       ]
+      },
+      {
+       "title": "Conjugate the product",
+       "lines": [
+        {
+         "text": "Change the sign of the imaginary part."
+        },
+        {
+         "tex": "\\overline{z_1 z_2} &= 6 + 7i",
+         "sym": "6+7*I",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Multiply the conjugates",
+       "lines": [
+        {
+         "tex": "\\overline{z_1} &= 2 - i",
+         "sym": "2-I",
+         "new": true
+        },
+        {
+         "tex": "\\overline{z_2} &= 1 + 4i",
+         "sym": "1+4*I",
+         "new": true
+        },
+        {
+         "tex": "\\overline{z_1}\\,\\overline{z_2} &= (2 - i)(1 + 4i)",
+         "sym": "(2-I)*(1+4*I)",
+         "new": true
+        },
+        {
+         "tex": "&= 2 + 8i - i - 4i^2",
+         "sym": "2+8*I-I-4*I**2"
+        },
+        {
+         "tex": "&= 6 + 7i",
+         "sym": "6+7*I"
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "Both are $6 + 7i$, so $\\overline{z_1 z_2} = \\overline{z_1}\\,\\overline{z_2}$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\overline{z_1 z_2} = 6 + 7i = \\overline{z_1}\\,\\overline{z_2}"
+    },
+    "finalSym": "6 + 7*I",
+    "answerSym": "expand(conjugate(2 + I)*conjugate(1 - 4*I))"
+   },
+   {
+    "question": "Let $z_1 = a + bi$ and $z_2 = c + di$, where $a, b, c, d \\in \\mathbb{R}$.\nProve that $\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Add z₁ and z₂",
+       "lines": [
+        {
+         "tex": "z_1 + z_2 &= (a + bi) + (c + di)",
+         "sym": "(a+b*I)+(c+d*I)"
+        },
+        {
+         "tex": "&= (a + c) + (b + d)i",
+         "sym": "(a+c)+(b+d)*I"
+        }
+       ]
+      },
+      {
+       "title": "Conjugate the sum",
+       "lines": [
+        {
+         "text": "Change the sign of the imaginary part."
+        },
+        {
+         "tex": "\\overline{z_1 + z_2} &= (a + c) - (b + d)i",
+         "sym": "(a+c)-(b+d)*I",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Conjugate each number first",
+       "lines": [
+        {
+         "tex": "\\overline{z_1} &= a - bi",
+         "sym": "a-b*I",
+         "new": true
+        },
+        {
+         "tex": "\\overline{z_2} &= c - di",
+         "sym": "c-d*I",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Add the conjugates",
+       "lines": [
+        {
+         "tex": "\\overline{z_1} + \\overline{z_2} &= (a - bi) + (c - di)",
+         "sym": "(a-b*I)+(c-d*I)",
+         "new": true
+        },
+        {
+         "tex": "&= (a + c) - (b + d)i",
+         "sym": "(a+c)-(b+d)*I"
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "Both equal $(a + c) - (b + d)i$, so the two sides are equal for all $z_1, z_2$."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\overline{z_1 + z_2} = \\overline{z_1} + \\overline{z_2}"
+    },
+    "finalSym": "0",
+    "answerSym": "expand(((a+c)-(b+d)*I) - ((a-b*I)+(c-d*I)))"
+   },
+   {
+    "question": "Let $z = 1 + 2i$.\nBy finding $\\overline{z}$ first, find $\\overline{z^3}$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Use the product rule for conjugates",
+       "lines": [
+        {
+         "text": "$\\overline{z^3} = \\overline{z}\\,\\overline{z}\\,\\overline{z} = (\\overline{z})^3$, so conjugate first and then cube."
+        }
+       ]
+      },
+      {
+       "title": "Find the conjugate",
+       "lines": [
+        {
+         "tex": "\\overline{z} &= 1 - 2i",
+         "sym": "1-2*I",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Square it",
+       "lines": [
+        {
+         "tex": "(\\overline{z})^2 &= (1 - 2i)^2",
+         "sym": "(1-2*I)**2",
+         "new": true
+        },
+        {
+         "tex": "&= 1 - 4i + 4i^2",
+         "sym": "1-4*I+4*I**2"
+        },
+        {
+         "tex": "&= -3 - 4i",
+         "sym": "-3-4*I"
+        }
+       ]
+      },
+      {
+       "title": "Multiply by 1 - 2i again",
+       "lines": [
+        {
+         "tex": "(\\overline{z})^3 &= (-3 - 4i)(1 - 2i)",
+         "sym": "(-3-4*I)*(1-2*I)",
+         "new": true
+        },
+        {
+         "tex": "&= -3 + 6i - 4i + 8i^2",
+         "sym": "-3+6*I-4*I+8*I**2"
+        },
+        {
+         "tex": "&= -11 + 2i",
+         "sym": "-11+2*I"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\overline{z^3} = -11 + 2i"
+    },
+    "finalSym": "-11 + 2*I",
+    "answerSym": "expand(conjugate((1 + 2*I)**3))"
+   }
+  ]
+ },
+ {
+  "skill": "cx-quadratic",
+  "problems": [
+   {
+    "question": "Solve $4z^2 - 8z + 13 = 0$, where $z \\in \\mathbb{C}$.\nGive your answers in the form $a + bi$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify a, b and c",
+       "lines": [
+        {
+         "tex": "4z^2 - 8z + 13 &= 0",
+         "sym": "Eq(4*z**2-8*z+13,0)"
+        },
+        {
+         "text": "Here $a = 4$, $b = -8$, $c = 13$."
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the formula",
+       "lines": [
+        {
+         "tex": "z &= \\frac{8 \\pm \\sqrt{(-8)^2 - 4(4)(13)}}{2(4)}",
+         "sym": "Eq(z,(8+sqrt((-8)**2-4*4*13))/(2*4))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Simplify under the square root",
+       "lines": [
+        {
+         "tex": "z &= \\frac{8 \\pm \\sqrt{64 - 208}}{8}"
+        },
+        {
+         "tex": "&= \\frac{8 \\pm \\sqrt{-144}}{8}"
+        }
+       ]
+      },
+      {
+       "title": "Write the root using i",
+       "lines": [
+        {
+         "text": "$\\sqrt{-144} = 12i$."
+        },
+        {
+         "tex": "z &= \\frac{8 \\pm 12i}{8}"
+        }
+       ]
+      },
+      {
+       "title": "Divide each term by 8",
+       "lines": [
+        {
+         "tex": "z &= 1 \\pm \\frac{3}{2}i"
+        },
+        {
+         "text": "The roots are a conjugate pair."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "z = 1 + \\tfrac{3}{2}i \\text{ and } z = 1 - \\tfrac{3}{2}i"
+    },
+    "finalSym": "[1 + 3*I/2, 1 - 3*I/2]",
+    "answerSym": "solve(Eq(4*z**2 - 8*z + 13, 0), z)"
+   }
+  ]
+ },
+ {
+  "skill": "cx-polar-multiply",
+  "problems": [
+   {
+    "question": "$u = 12\\left(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3}\\right)$ and $v = 3\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)$.\nFind $\\dfrac{u}{v}$ in the form $a + bi$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Divide the moduli and subtract the angles",
+       "lines": [
+        {
+         "text": "To divide in polar form, divide the moduli and subtract the arguments."
+        },
+        {
+         "tex": "\\frac{u}{v} &= \\frac{12}{3}\\left(\\cos\\left(\\frac{2\\pi}{3} - \\frac{\\pi}{6}\\right) + i\\sin\\left(\\frac{2\\pi}{3} - \\frac{\\pi}{6}\\right)\\right)"
+        }
+       ]
+      },
+      {
+       "title": "Simplify the angle",
+       "lines": [
+        {
+         "tex": "\\frac{2\\pi}{3} - \\frac{\\pi}{6} &= \\frac{4\\pi}{6} - \\frac{\\pi}{6}",
+         "sym": "2*pi/3-pi/6"
+        },
+        {
+         "tex": "&= \\frac{\\pi}{2}",
+         "sym": "pi/2"
+        },
+        {
+         "tex": "\\frac{u}{v} &= 4\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right)",
+         "sym": "4*(cos(pi/2)+I*sin(pi/2))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Evaluate",
+       "lines": [
+        {
+         "tex": "\\frac{u}{v} &= 4(0 + i)",
+         "sym": "4*(0+I)"
+        },
+        {
+         "tex": "&= 4i",
+         "sym": "4*I"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\dfrac{u}{v} = 4i"
+    },
+    "finalSym": "4*I",
+    "answerSym": "simplify(12*(cos(2*pi/3)+I*sin(2*pi/3))/(3*(cos(pi/6)+I*sin(pi/6))))"
+   },
+   {
+    "question": "$z = 4\\left(\\cos\\frac{\\pi}{3} + i\\sin\\frac{\\pi}{3}\\right)$ and $w = \\sqrt{3} + i$.\nWrite $w$ in polar form and hence find $zw$ in the form $a + bi$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the modulus of w",
+       "lines": [
+        {
+         "tex": "|w| &= \\sqrt{(\\sqrt{3})^2 + 1^2}",
+         "sym": "sqrt((sqrt(3))**2+1**2)"
+        },
+        {
+         "tex": "&= 2",
+         "sym": "2"
+        }
+       ]
+      },
+      {
+       "title": "Find the argument of w",
+       "lines": [
+        {
+         "text": "$\\tan\\theta = \\dfrac{1}{\\sqrt{3}}$ and $w$ is in the first quadrant, so $\\theta = \\dfrac{\\pi}{6}$."
+        },
+        {
+         "tex": "w &= 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right)",
+         "sym": "2*(cos(pi/6)+I*sin(pi/6))",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Multiply the moduli and add the angles",
+       "lines": [
+        {
+         "tex": "zw &= 4 \\times 2\\left(\\cos\\left(\\frac{\\pi}{3} + \\frac{\\pi}{6}\\right) + i\\sin\\left(\\frac{\\pi}{3} + \\frac{\\pi}{6}\\right)\\right)",
+         "sym": "8*(cos(pi/3+pi/6)+I*sin(pi/3+pi/6))",
+         "new": true
+        },
+        {
+         "tex": "&= 8\\left(\\cos\\frac{\\pi}{2} + i\\sin\\frac{\\pi}{2}\\right)",
+         "sym": "8*(cos(pi/2)+I*sin(pi/2))"
+        }
+       ]
+      },
+      {
+       "title": "Evaluate",
+       "lines": [
+        {
+         "tex": "zw &= 8(0 + i)",
+         "sym": "8*(0+I)"
+        },
+        {
+         "tex": "&= 8i",
+         "sym": "8*I"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "w = 2\\left(\\cos\\frac{\\pi}{6} + i\\sin\\frac{\\pi}{6}\\right),\\ zw = 8i"
+    },
+    "finalSym": "8*I",
+    "answerSym": "simplify(expand(4*(cos(pi/3)+I*sin(pi/3))*(sqrt(3)+I)))"
+   }
+  ]
+ }
+]

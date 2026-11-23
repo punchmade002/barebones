@@ -1,0 +1,524 @@
+[
+ {
+  "skill": "diff-combined",
+  "problems": [
+   {
+    "question": "Differentiate $y = e^{3x}\\cos 2x$ with respect to $x$.\nGive your answer in its simplest form.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split into two factors",
+       "lines": [
+        {
+         "tex": "u &= e^{3x}",
+         "sym": "exp(3*x)",
+         "new": true
+        },
+        {
+         "tex": "v &= \\cos 2x",
+         "sym": "cos(2*x)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Differentiate each factor using the chain rule",
+       "lines": [
+        {
+         "tex": "u' &= 3e^{3x}",
+         "sym": "3*exp(3*x)",
+         "new": true
+        },
+        {
+         "tex": "v' &= -2\\sin 2x",
+         "sym": "-2*sin(2*x)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply the product rule and simplify",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= u'v + uv' = 3e^{3x}\\cos 2x - 2e^{3x}\\sin 2x",
+         "sym": "3*exp(3*x)*cos(2*x) - 2*exp(3*x)*sin(2*x)",
+         "new": true
+        },
+        {
+         "tex": "&= e^{3x}(3\\cos 2x - 2\\sin 2x)",
+         "sym": "exp(3*x)*(3*cos(2*x) - 2*sin(2*x))"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "e^{3x}(3\\cos 2x - 2\\sin 2x)"
+    },
+    "finalSym": "exp(3*x)*(3*cos(2*x) - 2*sin(2*x))",
+    "answerSym": "diff(exp(3*x)*cos(2*x), x)"
+   },
+   {
+    "question": "Find $\\dfrac{dy}{dx}$ when $y = \\dfrac{e^{2x}}{\\sin x}$.\nWrite your answer as a single fraction.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the numerator and denominator",
+       "lines": [
+        {
+         "tex": "u &= e^{2x}",
+         "sym": "exp(2*x)",
+         "new": true
+        },
+        {
+         "tex": "v &= \\sin x",
+         "sym": "sin(x)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Differentiate each",
+       "lines": [
+        {
+         "tex": "u' &= 2e^{2x}",
+         "sym": "2*exp(2*x)",
+         "new": true
+        },
+        {
+         "tex": "v' &= \\cos x",
+         "sym": "cos(x)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply the quotient rule",
+       "lines": [
+        {
+         "tex": "\\frac{dy}{dx} &= \\frac{u'v - uv'}{v^2} = \\frac{2e^{2x}\\sin x - e^{2x}\\cos x}{\\sin^2 x}",
+         "sym": "(2*exp(2*x)*sin(x) - exp(2*x)*cos(x))/sin(x)**2",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{e^{2x}(2\\sin x - \\cos x)}{\\sin^2 x}",
+         "sym": "exp(2*x)*(2*sin(x) - cos(x))/sin(x)**2"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\dfrac{e^{2x}(2\\sin x - \\cos x)}{\\sin^2 x}"
+    },
+    "finalSym": "exp(2*x)*(2*sin(x) - cos(x))/sin(x)**2",
+    "answerSym": "diff(exp(2*x)/sin(x), x)"
+   },
+   {
+    "question": "Differentiate $f(x) = x^2 \\ln(3x + 1)$ with respect to $x$.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Split into two factors",
+       "lines": [
+        {
+         "tex": "u &= x^2",
+         "sym": "x**2",
+         "new": true
+        },
+        {
+         "tex": "v &= \\ln(3x + 1)",
+         "sym": "log(3*x + 1)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Differentiate each (chain rule for $v$)",
+       "lines": [
+        {
+         "tex": "u' &= 2x",
+         "sym": "2*x",
+         "new": true
+        },
+        {
+         "tex": "v' &= \\frac{3}{3x + 1}",
+         "sym": "3/(3*x + 1)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Apply the product rule",
+       "lines": [
+        {
+         "tex": "f'(x) &= u'v + uv' = 2x\\ln(3x + 1) + x^2 \\cdot \\frac{3}{3x + 1}",
+         "sym": "2*x*log(3*x + 1) + x**2*3/(3*x + 1)",
+         "new": true
+        },
+        {
+         "tex": "&= 2x\\ln(3x + 1) + \\frac{3x^2}{3x + 1}",
+         "sym": "2*x*log(3*x + 1) + 3*x**2/(3*x + 1)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2x\\ln(3x + 1) + \\dfrac{3x^2}{3x + 1}"
+    },
+    "finalSym": "2*x*log(3*x + 1) + 3*x**2/(3*x + 1)",
+    "answerSym": "diff(x**2*log(3*x + 1), x)"
+   }
+  ]
+ },
+ {
+  "skill": "diff-show-identity",
+  "problems": [
+   {
+    "question": "$y = xe^{2x}$.\nShow that $\\dfrac{d^2y}{dx^2} - 4\\dfrac{dy}{dx} + 4y = 0$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the first derivative (product rule)",
+       "lines": [
+        {
+         "tex": "y' &= e^{2x} + 2xe^{2x}",
+         "sym": "exp(2*x) + 2*x*exp(2*x)",
+         "new": true
+        },
+        {
+         "tex": "&= e^{2x}(1 + 2x)",
+         "sym": "exp(2*x)*(1 + 2*x)"
+        }
+       ]
+      },
+      {
+       "title": "Find the second derivative",
+       "lines": [
+        {
+         "tex": "y'' &= 2e^{2x}(1 + 2x) + 2e^{2x}",
+         "sym": "2*exp(2*x)*(1 + 2*x) + 2*exp(2*x)",
+         "new": true
+        },
+        {
+         "tex": "&= e^{2x}(4 + 4x)",
+         "sym": "exp(2*x)*(4 + 4*x)"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the left-hand side",
+       "lines": [
+        {
+         "tex": "y'' - 4y' + 4y &= e^{2x}(4 + 4x) - 4e^{2x}(1 + 2x) + 4xe^{2x}",
+         "sym": "exp(2*x)*(4 + 4*x) - 4*exp(2*x)*(1 + 2*x) + 4*x*exp(2*x)",
+         "new": true
+        },
+        {
+         "tex": "&= e^{2x}(4 + 4x - 4 - 8x + 4x)",
+         "sym": "exp(2*x)*(4 + 4*x - 4 - 8*x + 4*x)"
+        },
+        {
+         "tex": "&= 0",
+         "sym": "0"
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "text": "The left-hand side equals $0$, the right-hand side, so the relation is shown."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(diff(x*exp(2*x), x, 2) - 4*diff(x*exp(2*x), x) + 4*x*exp(2*x))"
+   },
+   {
+    "question": "$y = e^{-x}\\sin 2x$.\nShow that $y'' + 2y' + 5y = 0$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $y'$ (product and chain rules)",
+       "lines": [
+        {
+         "tex": "y' &= -e^{-x}\\sin 2x + 2e^{-x}\\cos 2x",
+         "sym": "-exp(-x)*sin(2*x) + 2*exp(-x)*cos(2*x)",
+         "new": true
+        },
+        {
+         "tex": "&= e^{-x}(2\\cos 2x - \\sin 2x)",
+         "sym": "exp(-x)*(2*cos(2*x) - sin(2*x))"
+        }
+       ]
+      },
+      {
+       "title": "Find $y''$",
+       "lines": [
+        {
+         "tex": "y'' &= -e^{-x}(2\\cos 2x - \\sin 2x) + e^{-x}(-4\\sin 2x - 2\\cos 2x)",
+         "sym": "-exp(-x)*(2*cos(2*x) - sin(2*x)) + exp(-x)*(-4*sin(2*x) - 2*cos(2*x))",
+         "new": true
+        },
+        {
+         "tex": "&= e^{-x}(-4\\cos 2x - 3\\sin 2x)",
+         "sym": "exp(-x)*(-4*cos(2*x) - 3*sin(2*x))"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the left-hand side",
+       "lines": [
+        {
+         "tex": "y'' + 2y' + 5y &= e^{-x}(-4\\cos 2x - 3\\sin 2x) + 2e^{-x}(2\\cos 2x - \\sin 2x) + 5e^{-x}\\sin 2x",
+         "sym": "exp(-x)*(-4*cos(2*x) - 3*sin(2*x)) + 2*exp(-x)*(2*cos(2*x) - sin(2*x)) + 5*exp(-x)*sin(2*x)",
+         "new": true
+        },
+        {
+         "tex": "&= e^{-x}\\big[(-4 + 4)\\cos 2x + (-3 - 2 + 5)\\sin 2x\\big]",
+         "sym": "exp(-x)*((-4 + 4)*cos(2*x) + (-3 - 2 + 5)*sin(2*x))"
+        },
+        {
+         "tex": "&= 0",
+         "sym": "0"
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "text": "The left-hand side equals $0$, so the relation is shown."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(diff(exp(-x)*sin(2*x), x, 2) + 2*diff(exp(-x)*sin(2*x), x) + 5*exp(-x)*sin(2*x))"
+   },
+   {
+    "question": "$y = \\sin(\\ln x)$, where $x > 0$.\nShow that $x^2\\dfrac{d^2y}{dx^2} + x\\dfrac{dy}{dx} + y = 0$.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find $y'$ (chain rule)",
+       "lines": [
+        {
+         "tex": "y' &= \\cos(\\ln x)\\cdot\\frac{1}{x}",
+         "sym": "cos(log(x))/x",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Find $y''$ (quotient rule)",
+       "lines": [
+        {
+         "tex": "y'' &= \\frac{-\\sin(\\ln x) \\cdot \\frac{1}{x}\\cdot x - \\cos(\\ln x)\\cdot 1}{x^2}",
+         "sym": "(-sin(log(x))*(1/x)*x - cos(log(x)))/x**2",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{-\\sin(\\ln x) - \\cos(\\ln x)}{x^2}",
+         "sym": "(-sin(log(x)) - cos(log(x)))/x**2"
+        }
+       ]
+      },
+      {
+       "title": "Substitute into the left-hand side",
+       "lines": [
+        {
+         "tex": "x^2y'' + xy' + y &= -\\sin(\\ln x) - \\cos(\\ln x) + \\cos(\\ln x) + \\sin(\\ln x)",
+         "sym": "-sin(log(x)) - cos(log(x)) + cos(log(x)) + sin(log(x))",
+         "new": true
+        },
+        {
+         "tex": "&= 0",
+         "sym": "0"
+        }
+       ]
+      },
+      {
+       "title": "Conclude",
+       "lines": [
+        {
+         "text": "The left-hand side equals $0$, so the relation is shown."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0"
+    },
+    "finalSym": "0",
+    "answerSym": "simplify(x**2*diff(sin(log(x)), x, 2) + x*diff(sin(log(x)), x) + sin(log(x)))"
+   }
+  ]
+ },
+ {
+  "skill": "fin-estimate",
+  "problems": [
+   {
+    "question": "A school buys $198$ books at €$4.95$ each.\nCalculate the exact total cost. Then check your answer is sensible by rounding $198$ to $200$ and $4.95$ to $5$ and estimating the cost.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Calculate the exact cost",
+       "lines": [
+        {
+         "tex": "198 \\times 4.95 &= 980.1",
+         "sym": "198*Rational(495,100)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Round each number and estimate",
+       "lines": [
+        {
+         "tex": "198 &\\approx 200",
+         "sym": "200",
+         "new": true,
+         "approx": true
+        },
+        {
+         "tex": "4.95 &\\approx 5",
+         "sym": "5",
+         "new": true,
+         "approx": true
+        },
+        {
+         "tex": "200 \\times 5 &= 1000",
+         "sym": "200*5",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Compare",
+       "lines": [
+        {
+         "text": "The estimate €$1000$ is close to the exact cost €$980.10$, so the answer is sensible."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}980.10 \\text{ (estimate €}1000\\text{)}"
+    },
+    "finalSym": "Rational(9801,10)",
+    "answerSym": "Rational(198)*Rational(495,100)"
+   }
+  ]
+ },
+ {
+  "skill": "fin-present-value",
+  "problems": [
+   {
+    "question": "Ciara will receive €$22{,}050$ in 2 years' time.\nThe interest rate is $5\\%$ per year, compounded annually.\nFind the present value of this sum.",
+    "level": "higher",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write the compound interest formula",
+       "lines": [
+        {
+         "tex": "F &= P(1 + i)^t",
+         "sym": "Eq(F, P*(1 + i)**t)",
+         "new": true
+        },
+        {
+         "text": "Here $F = 22050$, $i = 0.05$ and $t = 2$."
+        }
+       ]
+      },
+      {
+       "title": "Substitute and solve for $P$",
+       "lines": [
+        {
+         "tex": "22050 &= P(1.05)^2",
+         "sym": "Eq(22050, P*Rational(105,100)**2)",
+         "new": true
+        },
+        {
+         "tex": "P &= \\frac{22050}{1.05^2}",
+         "sym": "Eq(P, 22050/Rational(105,100)**2)",
+         "new": true
+        },
+        {
+         "tex": "&= 20000",
+         "sym": "Eq(P, 20000)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}20{,}000"
+    },
+    "finalSym": "20000",
+    "answerSym": "Rational(22050)/(1 + Rational(5,100))**2"
+   },
+   {
+    "question": "A club is promised a prize of €$6{,}655$ in 3 years' time.\nThe interest rate is $10\\%$ per year, compounded annually.\nFind the amount that, invested now, would grow to the prize.",
+    "level": "higher",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "State what is known",
+       "lines": [
+        {
+         "text": "Future value $F = 6655$, rate $i = 0.1$, time $t = 3$ years. Let $P$ be the amount invested now."
+        }
+       ]
+      },
+      {
+       "title": "Use the compound interest formula",
+       "lines": [
+        {
+         "tex": "6655 &= P(1.1)^3",
+         "sym": "Eq(6655, P*Rational(11,10)**3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Divide by $1.1^3$",
+       "lines": [
+        {
+         "tex": "P &= \\frac{6655}{1.1^3}",
+         "sym": "Eq(P, 6655/Rational(11,10)**3)",
+         "new": true
+        },
+        {
+         "tex": "&= \\frac{6655}{1.331}",
+         "sym": "Eq(P, 6655/Rational(1331,1000))"
+        },
+        {
+         "tex": "&= 5000",
+         "sym": "Eq(P, 5000)"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\text{€}5000"
+    },
+    "finalSym": "5000",
+    "answerSym": "Rational(6655)/(1 + Rational(1,10))**3"
+   }
+  ]
+ }
+]
