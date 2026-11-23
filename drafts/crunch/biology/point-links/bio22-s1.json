@@ -1,0 +1,814 @@
+{
+ "bio22-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.b",
+    "strength": "essential",
+    "why": "definition of pathogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.b",
+    "strength": "helpful",
+    "why": "definition of pathogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.b",
+    "strength": "essential",
+    "why": "pathogen and host",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.2",
+    "strength": "helpful",
+    "why": "harm by invading cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.2",
+    "strength": "helpful",
+    "why": "harm by toxins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.b",
+    "strength": "helpful",
+    "why": "pathogen and host",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.b",
+    "strength": "essential",
+    "why": "pathogen and host",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.9.0",
+    "strength": "helpful",
+    "why": "malaria example of vector",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.1.0",
+    "strength": "helpful",
+    "why": "pathogen leaving host",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.2.b",
+    "strength": "helpful",
+    "why": "prion meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.2.b",
+    "strength": "helpful",
+    "why": "prion as protein particle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.2.1",
+    "strength": "essential",
+    "why": "misfolded prion protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.2.2",
+    "strength": "helpful",
+    "why": "build-up of misfolded protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.2.b",
+    "strength": "helpful",
+    "why": "prion definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.2.b",
+    "strength": "helpful",
+    "why": "prion as infectious agent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.3.0",
+    "strength": "helpful",
+    "why": "BSE as source of vCJD",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.2.b",
+    "strength": "helpful",
+    "why": "prion definition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.2.1",
+    "strength": "essential",
+    "why": "prion is misfolded own protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.3.0",
+    "strength": "essential",
+    "why": "BSE spread via feed",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s1.3.3",
+    "strength": "helpful",
+    "why": "prions survive normal sterilisation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.4.b",
+    "strength": "helpful",
+    "why": "viruses reproduce in cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s1.1.2",
+    "strength": "essential",
+    "why": "receptor-based host specificity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.4.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s1.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio6-s1.0.0",
+    "strength": "helpful",
+    "why": "viruses reproduce inside host cells",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.14.2",
+    "strength": "helpful",
+    "why": "antibiotic targets",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.1.0",
+    "strength": "helpful",
+    "why": "prokaryote meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.5.0",
+    "strength": "helpful",
+    "why": "binary fission",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.4",
+    "strength": "helpful",
+    "why": "toxins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.14.2",
+    "strength": "essential",
+    "why": "antibiotic targets wall and ribosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.5.2",
+    "strength": "helpful",
+    "why": "antibiotics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s1.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.0.4",
+    "strength": "helpful",
+    "why": "toxins",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.5.4",
+    "strength": "helpful",
+    "why": "spores/endospores",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.1.1",
+    "strength": "essential",
+    "why": "vector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.6.0",
+    "strength": "helpful",
+    "why": "related Mycobacterium TB",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.3",
+    "strength": "helpful",
+    "why": "hyphae",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.7.b",
+    "strength": "essential",
+    "why": "hyphae and parasitic feeding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.6",
+    "strength": "helpful",
+    "why": "spore reproduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.7.b",
+    "strength": "helpful",
+    "why": "parasitic fungi",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.9.0",
+    "strength": "helpful",
+    "why": "yeast as fungus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.14.2",
+    "strength": "essential",
+    "why": "antibiotic targets wall and ribosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s1.13.3",
+    "strength": "helpful",
+    "why": "fungal vs bacterial walls",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.7.b",
+    "strength": "helpful",
+    "why": "fungi as pathogens",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.1.1",
+    "strength": "essential",
+    "why": "vector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.1.1",
+    "strength": "essential",
+    "why": "vector",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s1.9.b",
+    "strength": "helpful",
+    "why": "protist parasite",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.9.0",
+    "strength": "essential",
+    "why": "malaria infection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.9.0",
+    "strength": "essential",
+    "why": "malaria and mosquito vector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.1.1",
+    "strength": "essential",
+    "why": "vector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.7.b",
+    "strength": "helpful",
+    "why": "fungus features",
+    "confidence": "low"
+   },
+   {
+    "id": "bio22-s1.9.b",
+    "strength": "helpful",
+    "why": "protists",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.10.2",
+    "strength": "essential",
+    "why": "late blight pathogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.10.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.10.2",
+    "strength": "essential",
+    "why": "late blight pathogen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.0.b",
+    "strength": "helpful",
+    "why": "host",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.11.b",
+    "strength": "helpful",
+    "why": "endoparasite",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.11.0",
+    "strength": "helpful",
+    "why": "tapeworm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.11.b",
+    "strength": "helpful",
+    "why": "parasitic animals",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.11.2",
+    "strength": "essential",
+    "why": "liver fluke",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.1.1",
+    "strength": "essential",
+    "why": "vector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.11.b",
+    "strength": "essential",
+    "why": "endoparasite contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.12.b",
+    "strength": "essential",
+    "why": "ectoparasite meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.1.1",
+    "strength": "essential",
+    "why": "vector",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.11.b",
+    "strength": "helpful",
+    "why": "parasitic worms",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s1.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.1.1",
+    "strength": "helpful",
+    "why": "vector",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s1.11.3",
+    "strength": "helpful",
+    "why": "second host in life cycle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s1.2.b",
+    "strength": "helpful",
+    "why": "prion definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.4.b",
+    "strength": "essential",
+    "why": "virus structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.13.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.5.b",
+    "strength": "essential",
+    "why": "bacterium structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.13.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.7.b",
+    "strength": "essential",
+    "why": "fungus structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.13.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.9.b",
+    "strength": "essential",
+    "why": "protist structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s1.13.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s1.11.b",
+    "strength": "essential",
+    "why": "parasitic animal",
+    "confidence": "high"
+   }
+  ]
+ }
+}

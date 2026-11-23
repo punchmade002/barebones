@@ -1,0 +1,656 @@
+{
+ "bio22-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s2.7.0",
+    "strength": "helpful",
+    "why": "antibodies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s2.9.7",
+    "strength": "essential",
+    "why": "memory cells persist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.0.0",
+    "strength": "helpful",
+    "why": "contrast with active",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.0.2",
+    "strength": "essential",
+    "why": "passive immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s2.10.0",
+    "strength": "essential",
+    "why": "primary response",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.0.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.0.0",
+    "strength": "essential",
+    "why": "active immunity, memory cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.0.0",
+    "strength": "essential",
+    "why": "active immunity",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "helpful",
+    "why": "vaccine contains antigens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.0.2",
+    "strength": "essential",
+    "why": "passive immunity",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s2.7.0",
+    "strength": "helpful",
+    "why": "antibodies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.0.2",
+    "strength": "essential",
+    "why": "passive immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.0.3",
+    "strength": "helpful",
+    "why": "passive protection short-lived",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.0.2",
+    "strength": "essential",
+    "why": "passive immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.1.5",
+    "strength": "helpful",
+    "why": "donor antibody injection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.0.1",
+    "strength": "essential",
+    "why": "active immunity slow, long-lasting",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s3.0.3",
+    "strength": "essential",
+    "why": "passive immunity fast, short-lived",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s2.6.0",
+    "strength": "essential",
+    "why": "antigen",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s3.0.0",
+    "strength": "helpful",
+    "why": "active immunity",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "essential",
+    "why": "vaccine antigens",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s2.10.0",
+    "strength": "helpful",
+    "why": "primary response",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s2.10.2",
+    "strength": "essential",
+    "why": "secondary response",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "essential",
+    "why": "vaccine presents antigen safely",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "essential",
+    "why": "vaccine presents antigen safely",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "helpful",
+    "why": "vaccine presents antigen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s2.6.0",
+    "strength": "helpful",
+    "why": "antigen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "helpful",
+    "why": "vaccine presents antigen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "helpful",
+    "why": "vaccine presents antigen",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s2.10.2",
+    "strength": "essential",
+    "why": "secondary response",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s2.9.7",
+    "strength": "helpful",
+    "why": "memory cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.0.0",
+    "strength": "essential",
+    "why": "active immunity",
+    "confidence": "high"
+   },
+   {
+    "id": "bio22-s3.0.2",
+    "strength": "essential",
+    "why": "passive immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.2.2",
+    "strength": "helpful",
+    "why": "immunity prevents disease",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.4.2",
+    "strength": "helpful",
+    "why": "who herd immunity protects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.4.2",
+    "strength": "essential",
+    "why": "herd immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.0.0",
+    "strength": "helpful",
+    "why": "active immunity from exposure",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.2.0",
+    "strength": "helpful",
+    "why": "vaccination",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.4.2",
+    "strength": "essential",
+    "why": "herd immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.3.0",
+    "strength": "essential",
+    "why": "live attenuated vaccines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.4.2",
+    "strength": "essential",
+    "why": "herd immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.6.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s3.6.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.4.2",
+    "strength": "helpful",
+    "why": "herd immunity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.7.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.8.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio22-s3.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.9.0",
+    "strength": "helpful",
+    "why": "antibodies defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.9.1",
+    "strength": "helpful",
+    "why": "bacterial cell wall target",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.9.1",
+    "strength": "helpful",
+    "why": "bacterial-only structures",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.9.2",
+    "strength": "helpful",
+    "why": "cell wall target",
+    "confidence": "low"
+   },
+   {
+    "id": "bio22-s3.9.3",
+    "strength": "helpful",
+    "why": "ribosome target",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio22-s3.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.9.0",
+    "strength": "helpful",
+    "why": "antibiotics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.9.5",
+    "strength": "helpful",
+    "why": "antibiotic use",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio22-s3.9.4",
+    "strength": "helpful",
+    "why": "virus lacks bacterial targets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s3.10.0",
+    "strength": "essential",
+    "why": "antivirals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio22-s3.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio22-s2.7.0",
+    "strength": "essential",
+    "why": "antibodies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio22-s3.10.6": {
+  "cost": 1,
+  "needs": []
+ }
+}

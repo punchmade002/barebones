@@ -1,0 +1,833 @@
+{
+"bio22-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.0.0": {
+"cost": 2,
+"needs": []
+},
+"bio22-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.0.5": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.1.3": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.1.3",
+"strength": "essential",
+"why": "mucus trapping microorganisms",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.1.5": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.2.1": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s1.0.1",
+"strength": "helpful",
+"why": "harmless microorganisms",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.3.0": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.3.0",
+"strength": "helpful",
+"why": "phagocytes defined",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.3.0",
+"strength": "essential",
+"why": "phagocyte engulfs pathogens",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.3.3": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.3.4": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.3.4",
+"strength": "essential",
+"why": "vesicle",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.3.6": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.3.7": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.3.4",
+"strength": "helpful",
+"why": "vesicle stage",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.4.0": {
+"cost": 2,
+"needs": []
+},
+"bio22-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.4.0",
+"strength": "essential",
+"why": "histamine effects on vessels",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.3.0",
+"strength": "helpful",
+"why": "phagocytes",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.4.3": {
+"cost": 2,
+"needs": []
+},
+"bio22-s2.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.4.3",
+"strength": "helpful",
+"why": "raised body temperature",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.3.0",
+"strength": "helpful",
+"why": "phagocytes engulf",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s1.4.b",
+"strength": "helpful",
+"why": "viruses",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s5.2.0",
+"strength": "helpful",
+"why": "natural killer cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.0.1",
+"strength": "helpful",
+"why": "self vs foreign markers",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.6.0",
+"strength": "essential",
+"why": "antigen",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.6.0",
+"strength": "essential",
+"why": "antigen",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.6.0",
+"strength": "essential",
+"why": "antigen",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.7.0",
+"strength": "essential",
+"why": "antibody structure",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.7.1",
+"strength": "essential",
+"why": "chains of antibody",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.7.2",
+"strength": "essential",
+"why": "antigen-binding site",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.7.2",
+"strength": "essential",
+"why": "antibody regions",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.7.2",
+"strength": "essential",
+"why": "two binding sites",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.7.3",
+"strength": "helpful",
+"why": "antibody specificity",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.3.0",
+"strength": "essential",
+"why": "phagocytes",
+"confidence": "high"
+},
+{
+"id": "bio22-s2.7.2",
+"strength": "helpful",
+"why": "constant region",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.5.0",
+"strength": "essential",
+"why": "complement",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.9.0": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.7.0",
+"strength": "essential",
+"why": "antibodies",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.9.0",
+"strength": "helpful",
+"why": "lymphocytes",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.9.1",
+"strength": "essential",
+"why": "B cells make antibodies",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.9.3",
+"strength": "essential",
+"why": "B cell receptors",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.9.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.9.4",
+"strength": "essential",
+"why": "clone of selected B cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.9.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.9.5",
+"strength": "essential",
+"why": "plasma cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.9.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.9.5",
+"strength": "essential",
+"why": "memory B cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.9.4",
+"strength": "essential",
+"why": "clonal selection",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.10.0",
+"strength": "essential",
+"why": "delay in primary response",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.10.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.9.7",
+"strength": "essential",
+"why": "memory cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.10.2",
+"strength": "essential",
+"why": "secondary response",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.10.2",
+"strength": "essential",
+"why": "primary vs secondary",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.9.2",
+"strength": "helpful",
+"why": "T cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.11.0",
+"strength": "helpful",
+"why": "cell-mediated response",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.11.0",
+"strength": "helpful",
+"why": "cell-mediated response",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.0.1",
+"strength": "essential",
+"why": "self-marker proteins",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.11.3",
+"strength": "essential",
+"why": "antigen presentation",
+"confidence": "high"
+},
+{
+"id": "bio22-s2.3.0",
+"strength": "helpful",
+"why": "engulfing pathogen",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.11.3",
+"strength": "essential",
+"why": "antigen presentation",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.11.3",
+"strength": "essential",
+"why": "antigen presentation",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.12.0",
+"strength": "helpful",
+"why": "helper T cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.12.1",
+"strength": "essential",
+"why": "cytokines",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.9.5",
+"strength": "helpful",
+"why": "plasma and memory cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.3.1",
+"strength": "helpful",
+"why": "macrophages",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.12.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.12.1",
+"strength": "helpful",
+"why": "cytokine signalling",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.12.2",
+"strength": "helpful",
+"why": "killer T cell cloning",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.13.0",
+"strength": "helpful",
+"why": "killer T cells",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s5.6.3",
+"strength": "helpful",
+"why": "memory T cells",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.11.4",
+"strength": "essential",
+"why": "antigen-presenting cells",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.8.2",
+"strength": "helpful",
+"why": "marking for destruction",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.13.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.12.0",
+"strength": "helpful",
+"why": "helper T cell activation",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.14.b": {
+"cost": 1,
+"needs": []
+},
+"bio22-s2.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.0.2",
+"strength": "helpful",
+"why": "innate present from birth",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.0.3",
+"strength": "helpful",
+"why": "adaptive specific",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.0.4",
+"strength": "helpful",
+"why": "immune memory",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.0.4",
+"strength": "helpful",
+"why": "adaptive speed",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.14.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio22-s2.3.0",
+"strength": "helpful",
+"why": "phagocytes",
+"confidence": "low"
+}
+]
+},
+"bio22-s2.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.0.5",
+"strength": "helpful",
+"why": "distribution of defences",
+"confidence": "high"
+}
+]
+},
+"bio22-s2.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio22-s2.11.4",
+"strength": "essential",
+"why": "antigen presentation by macrophages",
+"confidence": "high"
+}
+]
+}
+}
