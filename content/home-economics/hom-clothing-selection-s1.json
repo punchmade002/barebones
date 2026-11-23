@@ -6,84 +6,99 @@
   "notes": [
     {
       "h": "Why fabric care depends on fibre type",
-      "b": "The properties of a fabric come from its fibres, its yarn and its construction, and these properties decide how it reacts to water, heat, friction and detergent.",
+      "b": "A garment's care label is not arbitrary: a fabric's properties come from its fibres, its yarn and its construction, and these decide how it reacts to water, heat, friction and detergent. Knowing the fibre family tells you how to wash, dry and iron it safely.",
       "points": [
-        "Natural cellulose fibres (cotton, linen) absorb water readily, swell when wet and are strong when wet.",
-        "Protein fibres (wool, silk) absorb moisture, are damaged by alkaline detergents and high temperatures, and can felt or shrink when agitated in hot water.",
-        "Manufactured fibres such as polyester and nylon absorb very little water, dry quickly and keep their shape, but they can attract static and melt at high heat.",
-        "Blended fabrics combine the care needs of both fibres, so the more sensitive fibre sets the washing temperature.",
-        "Fabric construction matters too: a tightly woven fabric resists water penetration more than a loosely knitted one."
-      ]
+        "Natural cellulose fibres (cotton, linen) absorb water readily, swell when wet and are strong when wet, so they can be washed hot and often. They also crease easily and tend to shrink on first washing.",
+        "Protein fibres (wool, silk) absorb moisture but are damaged by alkaline detergents and high temperatures, so they need a mild or wool-specific detergent, a low temperature and gentle action. Wool is washed cool, about 30 °C, as the label states.",
+        "Wool can felt or shrink when agitated in hot water, which is why hot, rough washing ruins it.",
+        "Manufactured fibres such as polyester and nylon absorb very little water, dry quickly, keep their shape and resist creasing. They can attract static, and they melt or glaze under a hot iron or high tumble-dry heat.",
+        "Blended fabrics combine the care needs of both fibres, so the more sensitive (most delicate) fibre sets the washing temperature and ironing heat. For example, a wool/polyester mixture is washed and ironed as wool.",
+        "Fabric construction matters too: a tightly woven fabric resists water and wind more than a loosely knitted one, because the gaps between yarns are smaller. Knitted fabric stretches and can sag or shrink."
+      ],
+      "tip": "If asked why a property matters for care, link it to the use: crease resistant means easier washing and ironing, strong when wet means it can be washed often without stretching or tearing, and colour-fast means the colour does not run or fade."
     },
     {
       "h": "Shrinkage",
-      "b": "Shrinkage is the reduction in a fabric's length or width after laundering.",
+      "b": "Shrinkage is a permanent reduction in a fabric's length or width after laundering. It happens in three different ways, and the cause decides how to prevent it.",
       "points": [
-        "Relaxation shrinkage happens when fibres released from the tension of spinning and weaving return to their natural length in water, most noticeably in cotton and linen.",
-        "Felting shrinkage happens to wool when the scales on its fibres interlock under heat, moisture and agitation, and it cannot be reversed.",
-        "Heat shrinkage occurs when a fabric is washed or tumble dried above the temperature it can tolerate.",
-        "Shrinkage is calculated as the original length minus the new length, divided by the original length, multiplied by 100.",
-        "Pre-shrinking, or a shrink-proof finish, reduces shrinkage in garments that will be laundered often."
-      ]
+        "Relaxation shrinkage happens because fibres stretched during spinning, weaving and finishing relax back to their natural length in water. It is most marked in cotton, linen and viscose.",
+        "Felting shrinkage happens to wool when the scales on its fibres interlock under heat, moisture and agitation. The fabric thickens and shrinks, and this cannot be reversed.",
+        "Heat shrinkage occurs when a fabric is washed or tumble dried hotter than it can tolerate, especially in knitted and thermoplastic fabrics (those that soften with heat).",
+        "Percentage shrinkage = (original length − new length) ÷ original length × 100.",
+        "Prevention: follow the care label, wash at the stated temperature and avoid hot tumble drying, because heat is a common cause.",
+        "Pre-shrunk fabric or a shrink-resistant finish reduces shrinkage in garments that will be laundered often. Washing a test sample of fabric before cutting out a garment shows how much it will shrink."
+      ],
+      "tip": "Don't mix up the causes: felting is the shrinkage of wool, while relaxation shrinkage is mainly in cellulose fibres. Both are irreversible but have different causes."
     },
     {
       "h": "Water repellence",
-      "b": "Water repellence is the ability of a fabric to stop water wetting or passing through it.",
+      "b": "Water repellence is how well a fabric resists wetting. It matters for rainwear and for choosing the right fabric for a garment.",
       "points": [
-        "Water-repellent fabrics have a close weave or tight knit, so the gaps between yarns are too small for water to penetrate.",
-        "Fibres that do not absorb water, such as polyester and nylon, shed water more readily than cotton or linen.",
+        "Three things give a fabric water repellence: a close weave or tight knit, so the gaps between yarns are too small for water to penetrate; a fibre that absorbs little water; and a water-repellent finish.",
+        "Fibres that do not absorb water, such as polyester and nylon, shed water more readily than cotton or linen. Cotton and wool absorb water, so they are not naturally repellent.",
         "A water-repellent finish coats the surface of the fabric with a chemical so that water forms beads that roll off.",
-        "Water-repellent fabrics can still allow body moisture to pass out; breathable fabrics let perspiration escape while resisting rain.",
-        "A waterproof fabric or laminate stops water passing through entirely and is usually sealed at the seams."
-      ]
+        "Washing and wear reduce a finish, so a repellent garment may need re-proofing.",
+        "Water-repellent (showerproof) fabric resists wetting but will let water through in heavy or prolonged rain.",
+        "A waterproof fabric (coated or laminated, with sealed seams) stops water passing through entirely.",
+        "Breathable fabrics let perspiration vapour escape while keeping rain out, so the wearer stays dry inside as well as outside."
+      ],
+      "tip": "Water-repellent is not the same as waterproof, and breathable is not the same as water-repellent. Keep the three terms separate in your answer."
     },
     {
       "h": "Crease recovery",
-      "b": "Crease recovery is the ability of a fabric to return to its original smooth state after being folded or crushed.",
+      "b": "Crease recovery is how well a fabric springs back to its smooth state after being folded or crushed. It decides how much ironing a garment needs.",
       "points": [
         "A crease forms when fibres are bent and the bonds between them shift, holding the fabric in the folded position.",
-        "Cotton and linen creases easily because their cellulose chains form hydrogen bonds that break and re-form when the fabric is wet and dried.",
-        "Wool recovers well from creasing because its fibres are elastic, and wrinkles can be relaxed by steaming.",
+        "Cotton, linen and viscose have poor recovery, so they crease easily and need ironing. In cotton and linen, cellulose chains form hydrogen bonds that break and re-form when the fabric is wet and dried.",
+        "Wool recovers well because its fibres are elastic, and creases hang out or can be relaxed by steaming.",
         "Polyester and nylon have good crease recovery because their fibres spring back to shape once the folding force is removed.",
-        "Crease-resistant finishes, such as resin finishes on cotton, improve recovery and reduce the need for ironing."
-      ]
+        "Crease-resistant finishes, such as resin finishes on cotton or linen, improve recovery and cut down ironing. Blending with polyester also helps.",
+        "Care link: damp garments can be shaken and hung to reduce creases, and ironing temperature must match the fibre."
+      ],
+      "tip": "Questions on why crease resistance matters want the practical benefit: easier washing and ironing, and less creasing when worn."
     },
     {
       "h": "Fabric care symbols",
-      "b": "Care labels on garments use standard symbols, arranged in a fixed order, to show the safe method of laundering, drying, ironing and dry cleaning.",
+      "b": "Care labels use a fixed set of symbols so that anyone can read how to launder a garment safely, whatever language the label is in. Reading the label before buying and before washing helps you avoid shrinkage, colour loss and damage.",
       "points": [
-        "A washtub symbol shows that the garment can be washed; dots inside the tub give the maximum water temperature.",
-        "A washtub with a hand inside means hand wash only, usually at a low temperature and with gentle action.",
-        "A washtub with a cross through it means the garment must not be washed in water.",
-        "A triangle means bleach may be used; a crossed-out triangle means do not bleach.",
-        "A square containing a circle means the garment can be tumble dried; dots inside the circle give the drying heat, and a cross means do not tumble dry.",
-        "A square with horizontal bars means dry flat; a square with a vertical line means line dry.",
-        "An iron symbol with one dot means a low iron, two dots a medium iron and three dots a hot iron, and a cross means do not iron.",
-        "A circle symbol shows dry cleaning, with letters indicating the solvent or process the cleaner must use."
-      ]
+        "The symbols are international (standard ISO 3758; GINETEX is the European association behind them) and appear in a fixed order: washing, bleaching, drying, ironing, then professional care.",
+        "Wash: a washtub means the garment may be machine washed, and the number or dots in the tub give the maximum water temperature. Bars under the tub mean gentler action.",
+        "A hand in the tub means hand wash only, usually at a low temperature with gentle action. A cross over the tub means do not wash in water.",
+        "Bleach: a triangle means bleach may be used; a crossed-out triangle means do not bleach.",
+        "Drying: a square containing a circle means tumble drying is allowed, with dots showing the heat setting; a crossed tumble-dry symbol means do not tumble dry.",
+        "A square with a horizontal line means dry flat; a square with one vertical line means line dry. Drip dry means hang the wet garment to drip without wringing.",
+        "Iron: one dot means a cool (low) iron, two dots a warm or medium iron and three dots a hot iron; a crossed iron means do not iron.",
+        "Dry cleaning: a circle shows dry cleaning is allowed, and the letters inside tell the cleaner which solvent process to use. A crossed circle means do not dry clean.",
+        "Diagram: draw and label the washtub (with 30 or 40 or dots), hand wash, triangle with a cross, tumble dry, dry flat, iron with two dots, and circle (dry clean)."
+      ],
+      "tip": "Ordinary Level asks you to state what two shown symbols tell the consumer, for example hand wash only with do not bleach, or drip dry with do not tumble dry. Give the plain meaning in a few words, with the reason where useful (for example wool or delicates)."
     },
     {
       "h": "Detergent components and how they clean",
-      "b": "A modern laundry detergent contains several components, each with a specific job in removing soil from the fabric.",
+      "b": "A modern laundry detergent contains several components, each with a specific job in removing soil from the fabric. Choosing a detergent to match the fabric depends on knowing what each does.",
       "points": [
-        "Surfactants reduce the surface tension of water, so the water can wet the fibres thoroughly and lift oily and greasy soil away.",
-        "Surfactants form a film around loosened soil particles, keeping them suspended in the wash water so they do not redeposit on the fabric.",
-        "Enzymes are biological catalysts that break down stains: proteases break down protein stains such as blood and egg, amylases break down starch stains and lipases break down fat stains.",
-        "Enzymes work best within a specific temperature range and are damaged by very high temperatures.",
-        "Fluorescent whitening agents absorb ultraviolet light and re-emit it as blue light, which makes white fabrics look brighter and whiter.",
-        "Fluorescent agents do not remove stains; they only change how the fabric reflects light, so they are unsuitable for coloured fabrics."
-      ]
+        "Surfactants reduce the surface tension of water, so the water can wet the fibres thoroughly. One end of a surfactant molecule attracts water and the other attracts oil and grease, so they lift oily and greasy soil away and break it into small particles.",
+        "Surfactants hold the loosened soil suspended in the wash water, so it is rinsed away and does not redeposit on the fabric.",
+        "Enzymes (in biological detergents) are proteins that act as biological catalysts, speeding up the breakdown of stains: protease breaks down protein stains such as blood and egg, amylase breaks down starch stains and lipase breaks down fat stains.",
+        "Enzymes work best in warm, not hot, water and are damaged or destroyed by very high temperatures.",
+        "Fluorescent whitening agents (optical brighteners) absorb ultraviolet light and re-emit it as blue-white light, which makes white and light fabrics look brighter and whiter.",
+        "Fluorescent agents do not clean or remove stains; they only change how the fabric reflects light.",
+        "Match the detergent to the fabric: use a mild detergent for wool and silk. A biological detergent is not for wool or silk, because enzymes can attack their protein fibres."
+      ],
+      "tip": "Candidates often swap these three. Surfactants lift soil, enzymes digest stains, and fluorescents only change appearance. Higher Level has asked for the purpose of two of them."
     },
     {
       "h": "Scientific tests on fabrics",
-      "b": "Simple tests allow a consumer or student to compare how fabrics behave in relation to their general properties.",
+      "b": "Simple tests let you compare how different fabrics behave, using their general properties of shrinkage, water repellence and crease recovery. They only give useful results if the test is fair.",
       "points": [
-        "Shrinkage test: mark a set length on each sample, wash it under the same conditions, dry it, measure again and compare the percentage change.",
-        "Water repellence test: place drops of water on the fabric surface and observe whether they bead and roll off or soak in and spread.",
-        "Crease recovery test: crumple each sample in a closed fist for one minute, release and smooth it, then rate how well each sample recovers.",
-        "Each test must use equal sample sizes and the same conditions so that the results can be compared fairly.",
-        "Tests should be repeated on several samples of each fabric to give reliable results, and any variation noted."
-      ]
+        "Shrinkage test: mark and measure a square on each sample, wash and dry under identical conditions, remeasure and calculate the percentage shrinkage.",
+        "Water-repellence test: place drops of water on each sample (flat or on a slope) and time or observe whether the drops bead and roll off, or soak in and darken the fabric.",
+        "Crease-recovery test: crumple equal-sized samples in a closed fist for one minute, release, and compare how smooth each is after a set time.",
+        "Fair test: use equal-sized samples, the same conditions and the same timing, so that the only variable is the fabric. Name the fibre or fabric of each sample.",
+        "Repeat the test on several samples of each fabric to give reliable results, note any variation, and record the results in a table.",
+        "Draw a conclusion on how suitable each fabric is for a garment, using your results."
+      ],
+      "tip": "For a procedure answer, state equal samples, the same conditions and a comparison of results. Coursework expects a fair-test method, percentage shrinkage and a conclusion on suitability for a garment."
     }
   ],
   "keyTerms": [

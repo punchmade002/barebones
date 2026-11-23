@@ -5,60 +5,111 @@
   "syllabusRef": "6.7",
   "notes": [
     {
-      "h": "Voluntary organisations",
-      "b": "Voluntary organisations are non-profit bodies run largely by volunteers. Many receive some State funding, but they are independent of government.",
+      "h": "Voluntary organisations: what they are",
+      "b": "When a family loses its income, the State is not the only source of help. Voluntary organisations are non-profit bodies set up to meet a social need, and they step in where people are struggling.",
       "points": [
-        "The Society of St Vincent de Paul works through local volunteer conferences that visit households in their area confidentially and assess the help needed.",
-        "St Vincent de Paul provides food or fuel vouchers, help with essential household bills, school books and uniforms, furniture and emergency accommodation.",
-        "St Vincent de Paul raises its funds through charity shops and public and church collections.",
-        "Simon Community provides support and emergency accommodation to people who are homeless or at risk of homelessness.",
-        "Focus Ireland works to prevent homelessness and provides accommodation, training in personal and life skills, and information on job opportunities.",
-        "Voluntary organisations direct clients to State entitlements, MABS and Citizens Information, linking people to services they are entitled to.",
-        "Voluntary organisations act as pressure groups: they gather evidence on local need and campaign for changes in public policy.",
-        "Unfunded services, such as volunteer-run listening services, fill gaps that statutory services do not cover."
-      ]
+        "A voluntary organisation is a non-profit group run largely by volunteers, often with some paid staff. Because it is independent of government, it can respond quickly and locally.",
+        "Many receive some State funding, but they are still not State bodies. Statutory (State-run) bodies such as SOLAS, MABS and the Department of Social Protection are a different thing.",
+        "They are funded by donations, fundraising, charity shops and State grants, so they can keep helping people without charging them.",
+        "Unfunded services, such as volunteer-run listening services, fill gaps that statutory services do not cover, for example by giving someone a friendly person to talk to."
+      ],
+      "tip": "Voluntary organisations are not State bodies, so never name SOLAS, MABS or the HSE as a voluntary body in an answer."
+    },
+    {
+      "h": "Society of St Vincent de Paul",
+      "b": "The Society of St Vincent de Paul (SVP) is the standard example of a voluntary organisation that supports people at risk of poverty or unemployment. Its strength is that help comes from neighbours who know the local area.",
+      "points": [
+        "SVP works through local volunteer groups called conferences. They visit households in their own area, in confidence, and assess the help needed, so families are not shamed by asking publicly.",
+        "It gives practical help: food or fuel vouchers, help with essential household bills, school books and uniforms, furniture and advice, and also emergency accommodation.",
+        "It also runs hostels and housing, homework clubs and education supports, so it helps with long-term needs as well as emergencies.",
+        "SVP raises its funds through charity shops and public and church collections, such as church-gate collections, rather than relying only on the State."
+      ],
+      "tip": "If asked to name and give details of one voluntary organisation, SVP is the usual choice. Give its name, who it helps, two or three specific services and how it is funded."
+    },
+    {
+      "h": "Other voluntary organisations",
+      "b": "Several other voluntary organisations work with particular groups. Each has a clear role you can state in one line.",
+      "points": [
+        "Simon Community provides support and emergency accommodation to people who are homeless or at risk of homelessness, with housing and outreach (going out to meet people on the street).",
+        "Focus Ireland works to prevent and end homelessness. It provides accommodation, training in personal and life skills, and information on job opportunities, as well as housing, support and advice.",
+        "Barnardos supports children and families, and Age Action supports older people, so each targets a group that is at particular risk of poverty.",
+        "Rotary and Lions clubs give local fundraising and practical support, and Men's Sheds give men a place to meet and work together, which reduces isolation."
+      ],
+      "tip": "Name a real organisation and give two or three specific services. Give two or three bodies at most, each with a one-line role."
+    },
+    {
+      "h": "How voluntary organisations support a family and the community",
+      "b": "When the main earner is unemployed, a family needs more than money. Voluntary organisations meet several different needs, and they also work on behalf of everyone affected.",
+      "points": [
+        "Financial or material help: vouchers, help with bills, clothing and food, so the family can cover essentials while income is low.",
+        "Advice, information and advocacy (speaking up for someone): they direct clients to State entitlements, MABS and Citizens Information, linking people to services they are entitled to.",
+        "Coping and skills classes, and a friendly visit and someone to talk to, which ease the stress and isolation that unemployment brings.",
+        "Voluntary organisations act as pressure groups: they gather evidence on local need and campaign and lobby the Government for changes in public policy.",
+        "Voluntary work benefits the individual through purpose, skills, confidence and friendships, and it may lead to a job.",
+        "It benefits the community through quick, low-cost local services that complement State services and build community spirit."
+      ],
+      "tip": "For two types of support given to a family when the main earner is unemployed, give financial or material help and advice or advocacy."
     },
     {
       "h": "Community-based education, training and employment",
-      "b": "Community initiatives are locally run responses to unemployment and early school leaving, often funded by the State.",
+      "b": "Community initiatives are locally run responses to unemployment and early school leaving, often funded by the State. They work because they are close to the people they help.",
       "points": [
+        "Community-based projects build confidence, work experience, skills and social networks, which help people move back into paid work.",
         "Community education centres offer adult literacy and numeracy classes and personal development courses, often for people who left school early.",
-        "Community training workshops offer practical and vocational skills, often with a route to a recognised qualification.",
-        "Education and Training Boards provide adult and further education, and many community courses are delivered through them.",
-        "Community Employment provides temporary paid work on local projects such as the environment, heritage, sport and tourism, for long-term unemployed people.",
-        "Community-based projects build confidence, work experience and social networks, which help people move back into paid work.",
-        "Local groups identify training needs in their area, such as skills gaps in the local economy, and design courses to meet them."
+        "Education and Training Boards (ETBs) provide adult and further education, and many community courses are delivered through them. Youthreach is for early school leavers and the Vocational Training Opportunities Scheme (VTOS) is for unemployed adults.",
+        "Community training centres and local training projects offer practical and vocational skills, often with a route to a recognised qualification. They are funded through SOLAS and the ETBs.",
+        "Local groups identify training needs in their area, such as skills gaps in the local economy, and design courses to meet them, so training leads to real jobs."
       ]
+    },
+    {
+      "h": "Community employment schemes and SICAP",
+      "b": "Some schemes give people paid work in their own community, so they keep working habits and earn while they look for a job. These are State-funded employment schemes run locally.",
+      "points": [
+        "Community Employment (CE) provides part-time temporary paid work on local community projects for long-term unemployed people, in areas such as the environment, heritage, sport, tourism and community services.",
+        "Tús gives temporary work placements in local communities through local development companies.",
+        "The Rural Social Scheme gives income support to low-income farmers and fishers for community work.",
+        "Local development companies deliver the Social Inclusion and Community Activation Programme (SICAP 2024-2028). It is funded by the Department of Rural and Community Development and the Gaeltacht, with EU funding through the ESF+.",
+        "SICAP aims to reduce poverty and social exclusion by supporting communities and individuals, with courses, job-readiness and help starting a business."
+      ],
+      "tip": "To name and give details of one community-based initiative, name it, say who runs and funds it, and give two ways it creates employment or training."
     },
     {
       "h": "Co-operatives",
-      "b": "A co-operative is a business owned and democratically controlled by its members, who share its surplus.",
+      "b": "A co-operative is a business owned and democratically controlled by its members, who pool resources, skills and knowledge to meet their needs and share its surplus.",
       "points": [
-        "Each member has one vote regardless of how much they have invested, and members elect the board.",
-        "The surplus is shared among members in proportion to their use of the co-operative or reinvested in the business, rather than paid to outside shareholders.",
-        "Worker co-operatives are owned by their employees, consumer co-operatives by their customers, and housing co-operatives by their tenants.",
-        "Credit unions are member-owned co-operatives that offer savings accounts and affordable loans, a key service for low-income households.",
+        "Each member has one vote regardless of how much they have invested, and members elect the board. This is why no wealthy investor can take control.",
+        "The surplus (profit after costs and reserves) is shared among members in proportion to their use of the co-operative or reinvested in the business, rather than paid to outside shareholders.",
+        "Types include agricultural co-operatives (farming, dairy, fishing), housing co-operatives (owned by their members, who build or manage homes), and worker co-operatives (owned by their employees) and consumer co-operatives (owned by their customers).",
+        "Credit unions are member-owned co-operatives where members save and borrow at fair cost. They offer savings accounts and affordable loans, a key service for low-income households.",
         "A community co-operative can run a shop, a childcare service or local transport where no private business will, creating local jobs.",
-        "Profits stay with members and the local area rather than leaving the community with outside owners."
-      ]
+        "Co-operatives respond to poverty and unemployment because profits stay with members and the local area rather than leaving the community with outside owners.",
+        "Optional international principles: voluntary and open membership, democratic member control, member economic participation, autonomy and independence, education and training, co-operation among co-operatives, and concern for community."
+      ],
+      "tip": "A co-operative is owned by its members, so it is not a charity. Give one member, one vote and the profit being shared. A credit union is a type of co-operative."
     },
     {
       "h": "Cottage industries",
-      "b": "A cottage industry is small-scale production carried out in the home or a small workshop, using traditional or handmade skills.",
+      "b": "A cottage industry is small-scale production by an individual or family, usually at home or in a small workshop, using traditional or craft skills. It is a separate idea from a co-operative, which is a member-owned business.",
       "points": [
-        "Products include hand-knitted Aran jumpers, weaving, pottery and other handmade crafts, often sold to local and tourist markets.",
-        "Cottage industries give families an extra or sole source of income, especially in rural areas where other employment is limited.",
+        "Irish examples are hand-knitted Aran jumpers, hand-weaving including Donegal tweed, Carrickmacross lace, pottery and other handmade crafts, often sold to local and tourist markets.",
+        "Artisan food producers and farmers' markets are also accepted as community initiatives.",
+        "They give families an extra or sole source of income, especially in rural areas where other employment is limited, and they keep traditional skills alive.",
         "They need little capital, because the equipment is simple and production takes place at home.",
-        "Limitations include seasonal or irregular income, small output, limited marketing reach and reliance on tourism.",
-        "Local Enterprise Offices can help producers with training and grants to develop craft businesses."
-      ]
+        "Limitations include seasonal or irregular income, small output, difficulty in marketing and competing with mass production, limited marketing reach, no employment benefits and reliance on tourism.",
+        "Local Enterprise Offices can help producers with training and grants to develop craft businesses.",
+        "In the clothing and textile industry, cottage firms supply handmade clothing and textiles."
+      ],
+      "tip": "For cottage industries, give an Irish craft and the rural income benefit, and say support comes from Local Enterprise Offices."
     },
     {
       "h": "Combat Poverty Agency (former State body)",
+      "b": "The Combat Poverty Agency is a past tense topic: it was a State body, not a voluntary one, and it has been closed. Answer about it in the past tense.",
       "points": [
-        "The Combat Poverty Agency was a State body that researched poverty, advised government and funded anti-poverty projects.",
-        "It no longer exists as an independent agency, so current answers should name the bodies and organisations that carry out this work today."
-      ]
+        "The Combat Poverty Agency was a State body that researched poverty, advised government and funded local anti-poverty projects.",
+        "It was dissolved on 1 July 2009 and its work merged into the Social Inclusion Division of the Department of Social Protection (then the Department of Social and Family Affairs).",
+        "It no longer exists as an independent agency, so current answers should name the bodies and organisations that carry out this work today, such as the Department's Social Inclusion Division and the Roadmap for Social Inclusion, SICAP, and voluntary organisations such as SVP."
+      ],
+      "tip": "If asked about the Combat Poverty Agency, describe it as a State anti-poverty body doing research, advising government and funding projects, and note that it no longer exists."
     }
   ],
   "keyTerms": [

@@ -6,44 +6,55 @@
   "notes": [
     {
       "h": "What counts as unemployed",
-      "b": "Unemployment is being without paid work while being willing and able to take up work.",
+      "b": "Being out of work is not the same as being unemployed. Unemployment is being without paid work while being willing and able to take up work, and statisticians apply a strict three-part test.",
       "points": [
-        "Three conditions must all be met: the person has no paid employment, is available to start work, and is actively seeking work.",
-        "Available for work: the person could start work within a short period, normally within two weeks.",
-        "Actively seeking work: the person has taken specific steps to find work, such as applying for posts, answering advertisements or registering with Intreo, the Department of Social Protection's public employment service.",
+        "Three conditions must all be met: the person has no paid employment, is available to start work, and is actively seeking work. Missing any one of them means the person is not counted as unemployed.",
+        "Paid work is the test, so unpaid work such as volunteering or caring at home does not make a person employed.",
+        "Available for work: the person could start work within a short period, normally within two weeks, so someone who could not take a job for months is not counted.",
+        "Actively seeking work: the person has taken specific steps to find work, such as applying for posts, answering advertisements, contacting employers or registering with Intreo, the Department of Social Protection's public employment service. Registering is one such step, not proof on its own.",
         "Students, people in full-time home duties, retired people and those unable to work through illness or disability are not counted as unemployed, because they are not available for work or are not seeking it.",
-        "A person in part-time work who wants more hours is counted as employed in the standard measure."
-      ]
+        "A person in part-time work who wants more hours is counted as employed in the standard measure (such a person is underemployed)."
+      ],
+      "tip": "Write all three conditions: no paid work, available for work and actively seeking work. Do not describe unemployed people as simply 'not working', because students, home-makers, retired people and sick or disabled people who are not seeking work are outside the measure."
     },
     {
       "h": "The labour force and the unemployment rate",
+      "b": "To judge how serious unemployment is, a count of unemployed people has to be set against the number of people who could be working. That is what the unemployment rate does.",
       "points": [
         "The labour force is the number of people in employment plus the number of unemployed people.",
         "The unemployment rate is the number of unemployed people divided by the labour force, multiplied by 100.",
         "A rate is more useful than a raw total when comparing periods or areas, because the size of the labour force changes over time.",
-        "The Central Statistics Office measures unemployment in Ireland using the definition set by the International Labour Organization (ILO)."
-      ]
+        "The Central Statistics Office (CSO) measures unemployment in Ireland using the definition set by the International Labour Organization (ILO). Its Labour Force Survey is a household survey that gives the standardised unemployment rate, the official measure, published monthly and quoted seasonally adjusted.",
+        "The Live Register is the Department of Social Protection's count of people claiming jobseeker payments (signing on), mainly Jobseeker's Benefit and Jobseeker's Allowance. It includes some part-time, casual and seasonal workers, so it is not the official unemployment figure."
+      ],
+      "tip": "If asked to distinguish the Live Register from the standardised rate, say the Live Register counts people claiming jobseeker payments, including some part-time workers, while the standardised rate comes from the Labour Force Survey. Never call the Live Register 'the number of unemployed'."
     },
     {
       "h": "Short-term, frictional and long-term unemployment",
+      "b": "Unemployment is also described by how long it lasts, because a short gap between jobs is a very different problem from years without work.",
       "points": [
         "Short-term unemployment is a brief spell out of work, usually between jobs or after leaving education.",
-        "Frictional unemployment is short-term unemployment caused by the normal time workers take to move from one job to another.",
-        "Long-term unemployment is being out of work for one year or more."
-      ]
+        "Frictional unemployment is short-term unemployment caused by the normal time workers take to move from one job to another, for example while applications are made and interviews arranged.",
+        "Long-term unemployment is being out of work for one year or more.",
+        "Long-term unemployment is harder to escape because skills, habits and confidence erode with time, which makes re-entry to work harder.",
+        "Young people have tended to have higher rates of unemployment than older workers, especially in downturns."
+      ],
+      "tip": "Define short-term and long-term unemployment in a few words: a brief spell between jobs, and one year or more out of work."
     },
     {
       "h": "Extent of unemployment in Ireland (Higher Level only)",
-      "b": "The extent of unemployment is shown by rates and by the numbers affected, drawn from two main sources.",
+      "b": "The extent of unemployment means how many people are unemployed, as a rate and as a number, and how that changes over time. It follows the economic cycle: it rises in recession and falls in growth.",
       "points": [
-        "The Labour Force Survey is a household survey by the Central Statistics Office that produces the standardised unemployment rate.",
-        "The Live Register, kept by the Department of Social Protection, counts people claiming jobseeker payments, including some part-time workers, so it is not the standard measure of unemployment.",
-        "Unemployment rose sharply after the economic downturn that began in 2008, with construction and related trades worst affected.",
+        "The Labour Force Survey, a household survey by the Central Statistics Office, produces the standardised unemployment rate. The Live Register, kept by the Department of Social Protection, counts people claiming jobseeker payments, including some part-time workers, so it is not the standard measure.",
+        "Unemployment was low in the boom years of the 2000s, then rose sharply after the economic downturn that began in 2008, with construction and related professions worst affected.",
         "Retail and service industries also shed jobs during the downturn as consumer spending fell.",
-        "Recent graduates, foreign workers and young people were among the groups hit hardest by the rise in unemployment.",
-        "Unemployment peaked in the early 2010s and then fell steadily as the economy recovered.",
-        "Unemployment rates vary between regions; areas that lost major employers tend to keep higher rates for longer."
-      ]
+        "Unemployment peaked at roughly 15% in the early 2010s and then fell steadily as the economy recovered and jobs returned in construction, retail, services and multinational firms.",
+        "Emigration rose during the downturn. It held the measured rate down, because people who left are no longer in the labour force, so the rate alone understates the damage.",
+        "Unemployment is not spread evenly. It is higher among young people and among people with few or no qualifications, and rates differ between regions.",
+        "Unemployment black spots, areas that lost their main employer, tend to keep higher rates for longer than areas with plenty of work. Long-term unemployment forms a hard core that remains when the overall rate falls.",
+        "The COVID-19 pandemic in 2020 caused a sudden temporary rise in joblessness, and the State paid a temporary pandemic unemployment payment."
+      ],
+      "tip": "When commenting on a table of rates, state the trend (rise, peak, fall), name the period of sharpest change, link it to the economy (the 2008 downturn, then recovery) and add a cause or effect, and refer to the table itself. Always give a direction and a reason, and do not quote numbers unless the question supplies them."
     }
   ],
   "keyTerms": [
