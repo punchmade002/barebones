@@ -182,7 +182,7 @@
    "higher": "Higher level uses it as a step inside Paper 2 questions about flights and distances, 10 marks for the part that chains the sine or cosine rule."
   },
   "example": {
-   "question": "A field $ABCD$ is split by the diagonal $[AC]$. In triangle $ABC$, $|AB| = 7$ m, $|BC| = 9$ m and $|\\angle ABC| = 70^\\circ$. In triangle $ACD$, $|CD| = 8$ m and $|\\angle ACD| = 50^\\circ$. Find the area of the field, correct to the nearest whole number.",
+   "question": "A field $ABCD$ is split by the diagonal $[AC]$. In triangle $ABC$, $|AB| = 7$ m, $|BC| = 9$ m and $|\\angle ABC| = 70^\\circ$. In triangle $ACD$, $|CD| = 8$ m and $|\\angle ACD| = 50^\\circ$. Find the area of the field, correct to one decimal place.",
    "level": "ordinary",
    "marks": 15,
    "workedSolution": {
@@ -251,14 +251,14 @@
         "new": true
        },
        {
-        "text": "To the nearest whole number, that is $58$ m$^2$."
+        "text": "To one decimal place, that is $58.2$ m$^2$."
        }
       ]
      }
     ],
-    "finalAnswer": "58 m^2"
+    "finalAnswer": "58.2 m^2"
    },
-   "finalSym": "58",
+   "finalSym": "58.2",
    "answerSym": "1/2*7*9*sin(70*pi/180)+1/2*sqrt(7**2+9**2-2*7*9*cos(70*pi/180))*8*sin(50*pi/180)"
   },
   "graph": null,
@@ -371,8 +371,8 @@
     ],
     "finalAnswer": "48.2^\\circ \\text{ or } 131.8^\\circ"
    },
-   "finalSym": "FiniteSet(48.2, 131.8)",
-   "answerSym": "FiniteSet(asin(13*sin(35*pi/180)/10)*180/pi, 180-asin(13*sin(35*pi/180)/10)*180/pi)"
+   "finalSym": "[48.2, 131.8]",
+   "answerSym": "[asin(13*sin(35*pi/180)/10)*180/pi, 180-asin(13*sin(35*pi/180)/10)*180/pi]"
   },
   "graph": null,
   "diagram": null,
