@@ -1,0 +1,405 @@
+[
+ {
+  "skill": "trig-derive-2",
+  "what": {
+   "say": [
+    "You give it the **area** formula, $\\tfrac12 ab\\sin C$. It gives back the **sine rule**, which ties each side to the sine of the angle opposite it.",
+    "The key idea: one triangle has one area, however you work it out. Write the area three ways, make them equal, and the sides and sines line up."
+   ],
+   "in": "$\\tfrac12 ab\\sin C$",
+   "out": "$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$"
+  },
+  "how": {},
+  "example": {
+   "question": "In triangle $ABC$ the sides opposite $A$, $B$ and $C$ are $a$, $b$ and $c$. Using area $=\\tfrac12 ab\\sin C$, prove that $\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}=\\dfrac{c}{\\sin C}$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the area three ways",
+      "say": "The area formula works from any vertex: take two sides and the angle between them. Do it at $A$, at $B$ and at $C$.",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac12\\,bc\\sin A"
+       },
+       {
+        "tex": "&= \\tfrac12\\,ac\\sin B"
+       },
+       {
+        "tex": "&= \\tfrac12\\,ab\\sin C"
+       },
+       {
+        "text": "All three are the area of the same triangle, so they are equal."
+       }
+      ]
+     },
+     {
+      "title": "Divide by half abc",
+      "say": "Divide every form of the area by $\\tfrac12 abc$. In each one two letters cancel and a single $\\sin$ over a side is left.",
+      "lines": [
+       {
+        "tex": "\\frac{\\tfrac12 bc\\sin A}{\\tfrac12 abc} &= \\frac{\\sin A}{a}",
+        "sym": "(b*c*sin(A)/2)/(a*b*c/2)"
+       },
+       {
+        "tex": "&= \\hl{1}{\\frac{\\sin A}{a}}",
+        "sym": "sin(A)/a"
+       },
+       {
+        "tex": "\\frac{\\tfrac12 ac\\sin B}{\\tfrac12 abc} &= \\frac{\\sin B}{b}",
+        "sym": "(a*c*sin(B)/2)/(a*b*c/2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{2}{\\frac{\\sin B}{b}}",
+        "sym": "sin(B)/b"
+       },
+       {
+        "tex": "\\frac{\\tfrac12 ab\\sin C}{\\tfrac12 abc} &= \\frac{\\sin C}{c}",
+        "sym": "(a*b*sin(C)/2)/(a*b*c/2)",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{3}{\\frac{\\sin C}{c}}",
+        "sym": "sin(C)/c"
+       }
+      ]
+     },
+     {
+      "title": "Equate and flip",
+      "say": "The three areas are equal, so the three results are equal. Turn each fraction upside down to get the form in the tables.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\frac{\\sin A}{a}} &= \\hl{2}{\\frac{\\sin B}{b}} = \\hl{3}{\\frac{\\sin C}{c}}"
+       },
+       {
+        "tex": "\\frac{a}{\\sin A} &= \\frac{b}{\\sin B} = \\frac{c}{\\sin C}"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}"
+   },
+   "finalSym": "0",
+   "answerSym": "(b*c*sin(A)/2)/(a*b*c/2) - sin(A)/a"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><polygon points=\"50,180 260,180 170,40\"/><g stroke=\"none\" font-family=\"Outfit\" font-size=\"16\" fill=\"#1A1916\"><text x=\"32\" y=\"198\">A</text><text x=\"262\" y=\"198\">B</text><text x=\"166\" y=\"30\">C</text><text x=\"228\" y=\"100\">a</text><text x=\"98\" y=\"100\">b</text><text x=\"152\" y=\"200\">c</text></g></svg>",
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-solve-quadratic",
+  "what": {
+   "say": [
+    "You give it a trig equation with $\\sin\\theta$ and $\\cos\\theta$ in it, squared as well as to the first power. It finds **every** angle in the range that fits.",
+    "Use $\\cos^2\\theta+\\sin^2\\theta=1$ to leave one trig ratio, call it $x$, and the equation is a quadratic in $x$. Solve that, then turn each value back into angles."
+   ],
+   "in": "equation in $\\sin\\theta$, $\\cos\\theta$",
+   "out": "all the angles"
+  },
+  "how": {},
+  "example": {
+   "question": "Solve $2\\cos^2\\theta + 3\\sin\\theta = 3$ for $0^\\circ \\le \\theta \\le 360^\\circ$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Leave only sine",
+      "say": "The equation has $\\cos^2\\theta$ and $\\sin\\theta$. Replace $\\cos^2\\theta$ with $1-\\sin^2\\theta$ so that only $\\hl{1}{\\sin\\theta}$ is left.",
+      "lines": [
+       {
+        "tex": "2(1-\\sin^2\\theta)+3\\sin\\theta &= 3",
+        "sym": "2*(1-s**2)+3*s"
+       },
+       {
+        "tex": "2-2\\sin^2\\theta+3\\sin\\theta &= 3",
+        "sym": "2-2*s**2+3*s"
+       },
+       {
+        "text": "Take 3 from both sides to get $0$ on the right."
+       },
+       {
+        "tex": "2\\sin^2\\theta-3\\sin\\theta+1 &= 0",
+        "sym": "2*s**2-3*s+1",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Factorise the quadratic",
+      "say": "This is a quadratic in $\\hl{1}{\\sin\\theta}$. Factorise it, then set each bracket equal to $0$.",
+      "lines": [
+       {
+        "tex": "(2\\hl{1}{\\sin\\theta}-1)(\\hl{1}{\\sin\\theta}-1) &= 0",
+        "sym": "(2*s-1)*(s-1)"
+       },
+       {
+        "tex": "\\hl{1}{\\sin\\theta} &= \\hl{2}{\\frac12}\\ \\text{or}\\ \\hl{3}{1}",
+        "sym": "[Rational(1,2),1]",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the angles",
+      "say": "Sine is positive in the first and second quadrants, so $\\hl{2}{\\frac12}$ gives two angles. $\\hl{3}{1}$ gives only $90^\\circ$.",
+      "lines": [
+       {
+        "tex": "\\sin\\theta=\\hl{2}{\\frac12}:\\quad \\theta &= 30^\\circ,\\ 150^\\circ",
+        "sym": "[30,150]",
+        "new": true
+       },
+       {
+        "tex": "\\sin\\theta=\\hl{3}{1}:\\quad \\theta &= 90^\\circ",
+        "sym": "[90]",
+        "new": true
+       },
+       {
+        "text": "Both fall inside the range, so keep all three."
+       },
+       {
+        "tex": "\\theta &= 30^\\circ,\\ 90^\\circ,\\ 150^\\circ",
+        "sym": "[30,90,150]",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\theta = 30^\\circ,\\ 90^\\circ,\\ 150^\\circ"
+   },
+   "finalSym": "[30, 90, 150]",
+   "answerSym": "[asin(Rational(1,2))*180/pi, asin(1)*180/pi, 180 - asin(Rational(1,2))*180/pi]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-products-sums",
+  "what": {
+   "say": [
+    "You give it a **sum or difference** of two sines or cosines, such as $\\sin 5x+\\sin x$. It gives back a **product** you can factorise or cancel.",
+    "Take half the sum of the two angles and half the difference. They become the angles in the product, and the formula tells you which pair of $\\sin$ and $\\cos$ to use."
+   ],
+   "in": "$\\sin P \\pm \\sin Q$, $\\cos P \\pm \\cos Q$",
+   "out": "a product"
+  },
+  "how": {
+   "higher": "On Paper 2 it appears once, in 2016, as a 15-mark part where a sum and a difference are turned into products so a common factor cancels."
+  },
+  "example": {
+   "question": "Show that $\\dfrac{\\sin 7x-\\sin x}{\\cos 7x+\\cos x}=\\tan 3x$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Top line as a product",
+      "say": "The top is a difference of sines. Use $\\sin P-\\sin Q = 2\\cos\\frac{P+Q}{2}\\sin\\frac{P-Q}{2}$ with $P=7x$ and $Q=x$.",
+      "lines": [
+       {
+        "tex": "\\sin 7x-\\sin x &= 2\\cos\\frac{7x+x}{2}\\sin\\frac{7x-x}{2}",
+        "sym": "2*cos((7*x+x)/2)*sin((7*x-x)/2)"
+       },
+       {
+        "tex": "&= 2\\hl{1}{\\cos 4x}\\hl{2}{\\sin 3x}",
+        "sym": "2*cos(4*x)*sin(3*x)"
+       }
+      ]
+     },
+     {
+      "title": "Bottom line as a product",
+      "say": "The bottom is a sum of cosines. Use $\\cos P+\\cos Q = 2\\cos\\frac{P+Q}{2}\\cos\\frac{P-Q}{2}$.",
+      "lines": [
+       {
+        "tex": "\\cos 7x+\\cos x &= 2\\cos\\frac{7x+x}{2}\\cos\\frac{7x-x}{2}",
+        "sym": "2*cos((7*x+x)/2)*cos((7*x-x)/2)"
+       },
+       {
+        "tex": "&= 2\\hl{1}{\\cos 4x}\\hl{3}{\\cos 3x}",
+        "sym": "2*cos(4*x)*cos(3*x)"
+       }
+      ]
+     },
+     {
+      "title": "Cancel the common factor",
+      "say": "Both lines contain $2\\hl{1}{\\cos 4x}$. Cancel it and what is left is $\\sin 3x$ over $\\cos 3x$.",
+      "lines": [
+       {
+        "tex": "\\frac{2\\hl{1}{\\cos 4x}\\hl{2}{\\sin 3x}}{2\\hl{1}{\\cos 4x}\\hl{3}{\\cos 3x}} &= \\frac{\\hl{2}{\\sin 3x}}{\\hl{3}{\\cos 3x}}",
+        "sym": "(2*cos(4*x)*sin(3*x))/(2*cos(4*x)*cos(3*x))"
+       },
+       {
+        "tex": "&= \\tan 3x",
+        "sym": "tan(3*x)"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\tan 3x"
+   },
+   "finalSym": "0",
+   "answerSym": "(sin(7*x)-sin(x))/(cos(7*x)+cos(x)) - tan(3*x)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the sum-to-product formula and put the angles in. A formula with some substitution earns low partial credit; a fully substituted one earns high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2016-higher-p2-q3#(a)",
+       "quote": "sum to product formula with some"
+      },
+      {
+       "part": "maths-pp-2016-higher-p2-q3#(a)",
+       "quote": "sum to product formula fully substituted"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-double",
+  "what": {
+   "say": [
+    "You give it one trig ratio of an angle $A$. It finds the ratios of the **double angle** $2A$, or of the half angle.",
+    "The formulae come from putting $B=A$ into the compound angle formulae, so $\\sin 2A = 2\\sin A\\cos A$. Find the missing ratio of $A$ first and then substitute."
+   ],
+   "in": "$\\sin A$ and $A$ acute",
+   "out": "$\\sin 2A$, $\\cos 2A$"
+  },
+  "how": {
+   "higher": "On Paper 2 it shows up in 2016 and 2018 to 2021 and 2023, mostly as a 5 to 10 mark part: proving $\\cos 2A=1-2\\sin^2 A$, finding $\\cos\\theta$ from a half angle, or solving $\\sin 2t=\\sin t$. In 2020 Paper 1 it simplifies an area before differentiating."
+  },
+  "example": {
+   "question": "$A$ is an acute angle and $\\sin A=\\dfrac{5}{13}$. Find the exact value of $\\sin 2A$ and of $\\cos 2A$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find cos A",
+      "say": "The formula for $\\sin 2A$ needs $\\cos A$ as well. Use $\\cos^2A+\\sin^2A=1$ to find it.",
+      "lines": [
+       {
+        "tex": "\\cos^2A &= 1-\\sin^2A",
+        "sym": "1-Rational(5,13)**2"
+       },
+       {
+        "tex": "&= 1-\\frac{25}{169}",
+        "sym": "1-Rational(25,169)"
+       },
+       {
+        "tex": "&= \\frac{144}{169}",
+        "sym": "Rational(144,169)"
+       },
+       {
+        "text": "$A$ is acute, so $\\cos A$ is positive."
+       },
+       {
+        "tex": "\\cos A &= \\hl{2}{\\frac{12}{13}}",
+        "sym": "Rational(12,13)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Use the sin 2A formula",
+      "say": "Use $\\sin 2A=2\\sin A\\cos A$ and put in $\\hl{1}{\\sin A}$ and $\\hl{2}{\\cos A}$.",
+      "lines": [
+       {
+        "tex": "\\sin 2A &= 2\\times\\hl{1}{\\frac{5}{13}}\\times\\hl{2}{\\frac{12}{13}}",
+        "sym": "2*Rational(5,13)*Rational(12,13)"
+       },
+       {
+        "tex": "&= \\frac{120}{169}",
+        "sym": "Rational(120,169)"
+       }
+      ]
+     },
+     {
+      "title": "Use a cos 2A formula",
+      "say": "You know $\\hl{1}{\\sin A}$, so use the form $\\cos 2A=1-2\\sin^2A$.",
+      "lines": [
+       {
+        "tex": "\\cos 2A &= 1-2\\left(\\hl{1}{\\frac{5}{13}}\\right)^2",
+        "sym": "1-2*Rational(5,13)**2"
+       },
+       {
+        "tex": "&= 1-\\frac{50}{169}",
+        "sym": "1-Rational(50,169)"
+       },
+       {
+        "tex": "&= \\frac{119}{169}",
+        "sym": "Rational(119,169)"
+       }
+      ]
+     },
+     {
+      "title": "Check the pair",
+      "say": "A quick check: $\\sin^2 2A+\\cos^2 2A$ must be $1$.",
+      "lines": [
+       {
+        "tex": "\\left(\\frac{120}{169}\\right)^2+\\left(\\frac{119}{169}\\right)^2 &= \\frac{14400+14161}{28561}",
+        "sym": "(Rational(120,169))**2+(Rational(119,169))**2"
+       },
+       {
+        "tex": "&= 1",
+        "sym": "1"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "\\sin 2A=\\frac{120}{169},\\ \\cos 2A=\\frac{119}{169}"
+   },
+   "finalSym": "[Rational(120,169), Rational(119,169)]",
+   "answerSym": "[sin(2*asin(Rational(5,13))), cos(2*asin(Rational(5,13)))]"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "To prove a double angle formula, start from the compound angle formula and put $B=A$. Writing the formula with some substitution already earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q4#(a)",
+       "quote": "formula with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Draw and label a right-angled triangle to get the missing sine or cosine. A relevant labelled diagram earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q4#(b)",
+       "quote": "Relevant labelled diagram"
+      }
+     ]
+    },
+    {
+     "tip": "When you solve an equation, find every solution in the range. A mark is lost for each solution you leave out.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q2#(c)",
+       "quote": "each solution omitted"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]

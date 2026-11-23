@@ -276,8 +276,8 @@
     ],
     "finalAnswer": "x = \\frac{7\\pi}{12},\\ \\frac{11\\pi}{12},\\ \\frac{19\\pi}{12},\\ \\frac{23\\pi}{12}"
    },
-   "finalSym": "FiniteSet(7*pi/12, 11*pi/12, 19*pi/12, 23*pi/12)",
-   "answerSym": "solveset(sin(2*x) + Rational(1,2), x, Interval(0, 2*pi))"
+   "finalSym": "[7*pi/12, 11*pi/12, 19*pi/12, 23*pi/12]",
+   "answerSym": "Tuple(*solveset(sin(2*x) + Rational(1,2), x, Interval(0, 2*pi)))"
   },
   "graph": null,
   "diagram": null,

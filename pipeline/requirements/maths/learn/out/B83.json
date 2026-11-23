@@ -1,0 +1,547 @@
+[
+ {
+  "skill": "inf-p-value",
+  "what": {
+   "say": [
+    "You give it a test statistic, $z$. It tells you how likely a result **this far out** is if the claim were true.",
+    "The key idea: look up the tail area in the tables and, for a two-tailed test, **double** it. If the $p$-value is under $0.05$, reject the claim."
+   ],
+   "in": "$z$",
+   "out": "$p$-value, then compare with $0.05$"
+  },
+  "how": {
+   "higher": "It is the last part of a hypothesis test on Paper 2, worth 5 to 10 marks. You are asked for the p-value and then for a conclusion in words, and sometimes the question runs backwards from a given p-value to a sample mean."
+  },
+  "example": {
+   "question": "A machine is set to fill bags with a mean mass of $500$ g and a standard deviation of $12$ g. A sample of $36$ bags has a mean mass of $504.6$ g. Test, at the $5\\%$ level, whether the mean mass has changed. Use a $p$-value.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the test statistic",
+      "say": "Standardise the sample mean to find $\\hl{1}{z}$. The spread of a sample mean is $\\sigma/\\sqrt{n}$, not $\\sigma$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{z} &= \\frac{504.6 - 500}{12/\\sqrt{36}}",
+        "sym": "(504.6-500)/(12/sqrt(36))",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{4.6}{2}",
+        "sym": "4.6/2"
+       },
+       {
+        "tex": "&= 2.3",
+        "sym": "2.3"
+       }
+      ]
+     },
+     {
+      "title": "Read the tables",
+      "say": "Look up $P(z < 2.3)$ in the normal tables.",
+      "lines": [
+       {
+        "tex": "P(z < 2.3) &= 0.9893",
+        "sym": "0.9893",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Double the tail",
+      "say": "The test is two-tailed, so $\\hl{2}{p}$ counts both tails. Take the tail above $2.3$ and double it.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{p} &= 2\\,[1 - P(z < 2.3)]",
+        "sym": "2*(1-0.9893)",
+        "new": true
+       },
+       {
+        "tex": "&= 2(1 - 0.9893)",
+        "sym": "2*(1-0.9893)"
+       },
+       {
+        "tex": "&= 2(0.0107)",
+        "sym": "2*0.0107"
+       },
+       {
+        "tex": "&= 0.0214",
+        "sym": "0.0214"
+       }
+      ]
+     },
+     {
+      "title": "Compare and conclude",
+      "say": "Compare $\\hl{2}{p}$ with $0.05$. Then say what it means for the claim, in the words of the question.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{0.0214} &< 0.05",
+        "sym": "0.0214<0.05",
+        "new": true
+       },
+       {
+        "text": "$p$ is less than $0.05$, so reject the claim. There is evidence that the mean mass of the bags has changed."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "p = 0.0214 < 0.05 \\text{, so the mean mass has changed}"
+   },
+   "finalSym": "0.0214",
+   "answerSym": "round(2*(1-(1+erf((504.6-500)/(12/sqrt(36))/sqrt(2)))/2),4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Finish with a conclusion in words that refers back to the question. A $p$-value with no conclusion, or one that ignores the context, loses marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(b)(ii)",
+       "quote": "found but no or incorrect"
+      },
+      {
+       "part": "maths-pp-2025-higher-p2-q10#(c)(i), (ii)",
+       "quote": "If the context is not mentioned in"
+      }
+     ]
+    },
+    {
+     "tip": "For a two-tailed test, double the tail. Write the doubling as its own line: $2[1 - P(z < \\dots)]$ earns marks of its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q2#(c)",
+       "quote": "0·0436 × 2 = 0·0872"
+      },
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(b)(ii)",
+       "quote": "Work of merit in finding"
+      }
+     ]
+    },
+    {
+     "tip": "If your working compares $z$ with $\\pm 1.96$ instead of using a $p$-value, the conclusion is still accepted. Use whichever the question asks for.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q8#(b)(ii)",
+       "quote": "Accept conclusion based on"
+      }
+     ]
+    },
+    {
+     "tip": "When the question gives you the $p$-value and asks for the sample mean, use the direction of the change to pick the sign of $z$.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q8#(b)(i)",
+       "quote": "Because the mean has reduced"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "inf-confidence-width",
+  "what": {
+   "say": [
+    "You give it what you want from a confidence interval: a confidence level, or a target margin of error. It tells you whether the interval gets **wider** or narrower, or how big the sample must be.",
+    "The key idea: the margin is $z\\sqrt{\\hat p(1-\\hat p)/n}$, so it grows with the confidence level and shrinks with $\\sqrt{n}$. Halving the margin needs **four times** the sample."
+   ],
+   "in": "interval requirements",
+   "out": "wider or narrower, or $n$ needed"
+  },
+  "how": {
+   "higher": "It appears on Paper 2 inside the confidence-interval question: once as a 10-mark part that sets the margin of error and asks for the sample size, and once as a table of always, sometimes or never true statements about the width."
+  },
+  "example": {
+   "question": "In a poll, $40\\%$ of the people sampled support a proposal. A $95\\%$ confidence interval for the proportion who support it must have a margin of error of at most $0.03$. Find the smallest sample size, $n$, that does this.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Set up the margin of error",
+      "say": "The margin of error is the part added to and taken from $\\hat p$: $1.96\\sqrt{\\hat p(1-\\hat p)/n}$. Put in $\\hat p = 0.4$ and set the margin equal to $0.03$ to find the borderline $\\hl{1}{n}$.",
+      "lines": [
+       {
+        "tex": "1.96\\sqrt{\\frac{0.4 \\times 0.6}{\\hl{1}{n}}} &= 0.03",
+        "sym": "Eq(1.96*sqrt(0.24/n),0.03)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Isolate the root",
+      "say": "Divide both sides by $1.96$.",
+      "lines": [
+       {
+        "tex": "\\sqrt{\\frac{0.24}{\\hl{1}{n}}} &= \\frac{0.03}{1.96}",
+        "sym": "Eq(sqrt(0.24/n),0.03/1.96)"
+       }
+      ]
+     },
+     {
+      "title": "Square both sides",
+      "say": "Square to remove the root, then $n$ can be brought up from the bottom.",
+      "lines": [
+       {
+        "tex": "\\frac{0.24}{\\hl{1}{n}} &= \\left(\\frac{0.03}{1.96}\\right)^2",
+        "sym": "Eq(0.24/n,(0.03/1.96)**2)",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Solve for n",
+      "say": "Swap $n$ and the square, then work it out.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{n} &= 0.24\\left(\\frac{1.96}{0.03}\\right)^2",
+        "sym": "Eq(n,0.24*(1.96/0.03)**2)",
+        "new": true
+       },
+       {
+        "tex": "\\hl{1}{n} &= 1024.4",
+        "sym": "Eq(n,1024.43)",
+        "approx": true
+       },
+       {
+        "text": "A bigger $n$ gives a smaller margin, and $n$ must be a whole number. Round **up**."
+       },
+       {
+        "tex": "\\hl{1}{n} &= 1025",
+        "sym": "Eq(n,1025)",
+        "new": true,
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "n = 1025"
+   },
+   "finalSym": "1025",
+   "answerSym": "ceiling(Rational(24,100)*(Rational(196,100)/Rational(3,100))**2)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Subtract to find the margin first. Finding $0.085$ (the difference between the end of the interval and $\\hat p$) is a step the marks are tied to.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(c)",
+       "quote": "Finds 0.085 or equivalent"
+      }
+     ]
+    },
+    {
+     "tip": "Use the full margin $1.96\\sqrt{\\hat p(1-\\hat p)/n}$ when you know $\\hat p$. The shortcut $1/\\sqrt{n}$ caps your marks at mid partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(c)",
+       "quote": "award Mid Partial Credit at most"
+      }
+     ]
+    },
+    {
+     "tip": "Round the sample size correctly. Rounding in the wrong direction costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(c)",
+       "quote": "Incorrect rounding"
+      }
+     ]
+    },
+    {
+     "tip": "For the widest possible margin, find the $\\hat p$ that makes $\\hat p(1-\\hat p)$ biggest. Calculus or completing the square both earn marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+       "quote": "Any relevant calculus"
+      },
+      {
+       "part": "maths-pp-2018-higher-p2-q8#(b)(i)",
+       "quote": "Effort at completing the square"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "stat-z-score",
+  "what": {
+   "say": [
+    "You give it a value $x$ from a normal distribution with mean $\\mu$ and standard deviation $\\sigma$. It gives back $z$, the number of standard deviations $x$ sits **above or below** the mean.",
+    "The key idea: $z$ puts any normal distribution on one common scale, so you can read the tables, or compare two values from different distributions."
+   ],
+   "in": "$x$, $\\mu$, $\\sigma$",
+   "out": "$z = \\dfrac{x-\\mu}{\\sigma}$"
+  },
+  "how": {
+   "higher": "It is the first step of nearly every normal-distribution part on Paper 2, from 2016 to 2025. Standardise first, then use the tables to find a probability, a percentage, or a missing value. It is also tested alone when two scores must be compared."
+  },
+  "example": {
+   "question": "The marks in an exam are normally distributed with mean $58$ and standard deviation $12$. Find the percentage of students who scored more than $73$.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the z-score",
+      "say": "Standardise: take away the mean, then divide by the standard deviation. This gives $\\hl{1}{z}$.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{z} &= \\frac{73 - 58}{12}",
+        "sym": "(73-58)/12",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{15}{12}",
+        "sym": "15/12"
+       },
+       {
+        "tex": "&= 1.25",
+        "sym": "1.25"
+       }
+      ]
+     },
+     {
+      "title": "Read the tables",
+      "say": "The tables give the area to the **left** of $z$. Look up $P(z < 1.25)$.",
+      "lines": [
+       {
+        "tex": "P(z < \\hl{1}{1.25}) &= 0.8944",
+        "sym": "0.8944",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Take the area on the right",
+      "say": "We want the students above $73$, so take the left area from $1$.",
+      "lines": [
+       {
+        "tex": "P(z > 1.25) &= 1 - 0.8944",
+        "sym": "1-0.8944",
+        "new": true
+       },
+       {
+        "tex": "&= 0.1056",
+        "sym": "0.1056"
+       },
+       {
+        "tex": "&= 10.56\\%",
+        "sym": "10.56/100"
+       },
+       {
+        "text": "About $10.6\\%$ of the students scored more than $73$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "10.56\\%"
+   },
+   "finalSym": "10.56/100",
+   "answerSym": "round(1-(1+erf((73-58)/12/sqrt(2)))/2,4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write $z = \\frac{x-\\mu}{\\sigma}$ with the numbers put in. Even some correct substitution earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p2-q8#(a)",
+       "quote": "some correct substitution into relevant"
+      }
+     ]
+    },
+    {
+     "tip": "Draw the normal curve and mark the mean and the value. A sketch with relevant work on it is credited.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q10#(a)(ii)",
+       "quote": "normal curve drawn with some relevant work"
+      },
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(a)(i)",
+       "quote": "relevant diagram drawn"
+      }
+     ]
+    },
+    {
+     "tip": "To compare two scores, find the $z$-score of each, then say which is higher in words.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q2#(b)(i)",
+       "quote": "Mary did better in Maths"
+      },
+      {
+       "part": "maths-pp-2020-higher-p2-q8#(a)(ii)",
+       "quote": "Eileen is eligible to re-sit the test"
+      }
+     ]
+    },
+    {
+     "tip": "When the answer is a value of $x$, round as the question asks. Incorrect or no rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q7#(a)(i)",
+       "quote": "Apply a * for incorrect or no"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "stat-empirical-rule",
+  "what": {
+   "say": [
+    "You give it a mean, $\\mu$, and a standard deviation, $\\sigma$. It tells you what share of a normal distribution lies within **1, 2 or 3** standard deviations of the mean: $68\\%$, $95\\%$ and $99.7\\%$.",
+    "The key idea: count how many $\\sigma$ a value is from $\\mu$. The curve is symmetrical, so the leftover share splits equally between the two tails."
+   ],
+   "in": "$\\mu$, $\\sigma$",
+   "out": "$68\\%$, $95\\%$, $99.7\\%$ ranges"
+  },
+  "how": {
+   "higher": "It is used only now and then on Paper 2, as a quick estimate: the percentage between two values a whole number of standard deviations from the mean, or the values at the steps of a table.",
+   "ordinary": "It is on Paper 2 almost every year, as a 5 to 15 mark part. You fill in a normal curve, find a percentage or a number of people, or work back from a range holding 95% to the mean and standard deviation."
+  },
+  "example": {
+   "question": "The lifetime of a battery is normally distributed with mean $60$ hours and standard deviation $5$ hours. Use the empirical rule to find the percentage of batteries that last more than $70$ hours.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count the standard deviations",
+      "say": "Find how far $70$ is above the mean, then divide by $\\sigma$. This is how many $\\hl{1}{\\sigma}$ away it is.",
+      "lines": [
+       {
+        "tex": "70 - 60 &= 10",
+        "sym": "70-60",
+        "new": true
+       },
+       {
+        "tex": "\\frac{10}{5} &= \\hl{1}{2}",
+        "sym": "(70-60)/5",
+        "new": true
+       },
+       {
+        "text": "So $70$ is $2$ standard deviations above the mean."
+       }
+      ]
+     },
+     {
+      "title": "Use the rule",
+      "say": "The empirical rule says $95\\%$ of values lie within $2$ standard deviations of the mean. That is between $50$ and $70$ hours.",
+      "lines": [
+       {
+        "text": "$68\\%$ within $1\\sigma$. $\\hl{2}{95\\%}$ within $2\\sigma$. $99.7\\%$ within $3\\sigma$."
+       }
+      ]
+     },
+     {
+      "title": "Share out the tails",
+      "say": "The rest lies outside, in the two tails. We want only the **upper** tail, so split it in half.",
+      "lines": [
+       {
+        "tex": "100 - \\hl{2}{95} &= 5",
+        "sym": "100-95",
+        "new": true
+       },
+       {
+        "tex": "\\frac{5}{2} &= 2.5",
+        "sym": "5/2",
+        "new": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "2.5\\%"
+   },
+   "finalSym": "2.5",
+   "answerSym": "(100-95)/2"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say how many standard deviations each value is from the mean. Showing that link between deviation and mean earns marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q2#(b)(iii)",
+       "quote": "Evidence of relevant linking of deviation"
+      }
+     ]
+    },
+    {
+     "tip": "The rule and the tables give slightly different answers (81.5% and 81.85%). Either method is accepted.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q2#(b)(iii)",
+       "quote": "From tables:"
+      }
+     ]
+    },
+    {
+     "tip": "When a table runs in steps of $\\sigma$, each entry is $\\mu \\pm k\\sigma$. Find $\\mu$ and $\\sigma$ first.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q10#(a)(i)",
+       "quote": "Missing values: 280, 340, 400, 460"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Shade the area you want on the curve. It earns marks even if the final answer is wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-ordinary-p2-q5#(a)(i)",
+       "quote": "shades in correct area"
+      }
+     ]
+    },
+    {
+     "tip": "Write down the percentage you are using ($68\\%$, $95\\%$ or $99.7\\%$). Identifying it earns marks on its own.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q3#(b)(i)",
+       "quote": "68% identified"
+      }
+     ]
+    },
+    {
+     "tip": "If a range holds $95\\%$, the mean is the middle of it and $\\sigma$ is a quarter of its width. Explain how you used the empirical rule.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q5#(a)",
+       "quote": "Some explanation of the relevance of"
+      }
+     ]
+    },
+    {
+     "tip": "To turn a percentage into a number of people, multiply by the total.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q6#(a)(i)",
+       "quote": "× 150 = 102 students"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
