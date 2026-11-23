@@ -220,7 +220,7 @@
     "term": "Information given on the A to G efficiency scale for a fridge-freezer"
    },
    {
-    "definition": "Consumer magazines such as Consumer Choice, Citizens Information and the CCPC.",
+    "definition": "Consumer magazines and websites that test products, Citizens Information and the CCPC.",
     "term": "Three independent sources of consumer information"
    },
    {
@@ -1064,7 +1064,7 @@
     "term": "Two types of microwave cooker"
    },
    {
-    "definition": "About 2 to 4 cm, after which the centre of thicker food heats by conduction.",
+    "definition": "A few centimetres into the food; below that, the centre of thicker food heats by conduction.",
     "term": "Penetration depth of microwaves in food"
    },
    {
@@ -2025,7 +2025,7 @@
     "term": "Humectant"
    },
    {
-    "definition": "The Irish food guide that places bread, cereals, potatoes, rice and pasta at its base as the foods to eat most of.",
+    "definition": "The Irish food guide that places vegetables, salad and fruit at its base as the foods to eat most of.",
     "term": "Food Pyramid"
    },
    {
@@ -2795,7 +2795,7 @@
     "term": "Three ingredients in shortcrust pastry"
    },
    {
-    "definition": "Choux: eclairs or profiteroles; filo: spring rolls; suet: steamed pudding.",
+    "definition": "Choux: eclairs or profiteroles; filo: samosas; suet: steamed pudding.",
     "term": "Three pastry types with a dish each"
    },
    {
@@ -3826,8 +3826,8 @@
     "term": "Aran knitting"
    },
    {
-    "definition": "A local body that supports the development of small businesses and entrepreneurs in its area.",
-    "term": "Enterprise Board"
+    "definition": "A local body that supports the development of small businesses and entrepreneurs in its area; it replaced the County and City Enterprise Boards in April 2014.",
+    "term": "Local Enterprise Office"
    },
    {
     "definition": "A retailer that sells goods at low prices, relying on high sales volumes.",
@@ -4289,7 +4289,7 @@
     "term": "Three advantages of gathering information from published sources"
    },
    {
-    "definition": "The information is general rather than detailed, it is quantitative so it shows what people do rather than why, and it may not answer a specific question about a product.",
+    "definition": "The information is general rather than detailed, it was collected by someone else for another purpose, and it may not answer a specific question about a product.",
     "term": "Three limitations of relying on published sources for market information"
    },
    {
@@ -4468,8 +4468,8 @@
     "term": "Latin principle that places the duty of checking goods on the buyer"
    },
    {
-    "definition": "Right to safety, right to honest and truthful information, right to choice, right to value for money, and right to redress.",
-    "term": "Five basic consumer rights"
+    "definition": "Right to safety, right to honest and truthful information, right to choice, right to value for money, right to quality, right to redress, and right to services done to a high standard.",
+    "term": "Consumer rights named in the marking schemes"
    },
    {
     "definition": "The receipt or proof of purchase, and a record of when and where the goods were bought.",
@@ -4776,7 +4776,7 @@
     "term": "Role of the Financial Services and Pensions Ombudsman"
    },
    {
-    "definition": "Promotes legal, decent, honest and truthful advertising; investigates public complaints and can require advertisements to be changed or withdrawn.",
+    "definition": "Promotes legal, decent, honest and truthful advertising; investigates public complaints and asks the advertiser to amend or withdraw an advertisement.",
     "term": "Two functions of the Advertising Standards Authority of Ireland"
    },
    {
@@ -5495,7 +5495,7 @@
     "term": "Four guidelines for grilling"
    },
    {
-    "definition": "Its soft, moist texture is easy to chew and swallow; it adds no fat; it retains nutrients and natural flavour.",
+    "definition": "Its soft, moist texture is easy to chew and swallow; it adds no fat; it retains nutrients and keeps its colour and moisture.",
     "term": "Three reasons steaming suits an older person"
    },
    {
@@ -7029,7 +7029,7 @@
     "term": "Heating range to squeeze out more whey from curds"
    },
    {
-    "definition": "About 2%, for flavour and preservation.",
+    "definition": "Added for flavour and preservation.",
     "term": "Salt added to cheese blocks before moulding"
    },
    {
@@ -7227,7 +7227,7 @@
     "term": "Ovalbumin"
    },
    {
-    "definition": "A person who eats dairy products and eggs but no meat or fish.",
+    "definition": "A person who eats dairy products but no meat, fish or eggs.",
     "term": "Lacto-vegetarian"
    },
    {
@@ -7255,7 +7255,7 @@
     "term": "Two reasons eggs suit older people and invalids"
    },
    {
-    "definition": "They replace meat and fish as a protein; they supply HBV protein for lacto-vegetarians; they supply some B vitamins, including B12.",
+    "definition": "They replace meat and fish as a protein; they supply HBV protein for ovo-lacto vegetarians; they supply some B vitamins, including B12.",
     "term": "Three ways eggs suit a vegetarian diet"
    },
    {
@@ -8426,8 +8426,8 @@
     "term": "Length of the Leaving Certificate Programme"
    },
    {
-    "definition": "Enterprise education, preparation for work and work experience.",
-    "term": "Three link modules of the LCVP"
+    "definition": "Preparation for the World of Work and Enterprise Education.",
+    "term": "Two link modules of the LCVP"
    },
    {
     "definition": "The Education and Training Boards (ETBs).",
@@ -8777,14 +8777,10 @@
    },
    {
     "definition": "Students most at risk of leaving school early.",
-    "term": "Group most targeted by the Junior Cycle Support Programme"
+    "term": "Group most targeted by the Junior Certificate School Programme"
    },
    {
-    "definition": "The National Behaviour Support Service (NBSS), which provides counselling and anger management programmes.",
-    "term": "Service that deals with students at risk of exclusion for behaviour"
-   },
-   {
-    "definition": "Free part-time higher education courses for job seekers, aimed at improving employability.",
+    "definition": "Springboard+ courses: free part-time higher education courses for unemployed people and returners, part-funded for others, aimed at improving employability.",
     "term": "Focus of Springboard"
    }
   ],
@@ -10283,7 +10279,7 @@
     "term": "Three pieces of information on a recycling symbol"
    },
    {
-    "definition": "Remove the doors; hand the appliance to an authorised treatment facility to recover the refrigerant and foam.",
+    "definition": "Make the appliance safe, and let an authorised facility remove refrigerant and foam.",
     "term": "Two steps before disposing of an old fridge"
    }
   ],
@@ -10462,8 +10458,8 @@
     "term": "Three effects of nutrient pollution in water"
    },
    {
-    "definition": "Walk, cycle or use public transport; choose an electric or low-emission vehicle; use smokeless or renewable heat; avoid products containing CFCs.",
-    "term": "Four ways consumers can reduce air pollution"
+    "definition": "Walk, cycle or use public transport; choose an electric or low-emission vehicle; use smokeless or renewable heat.",
+    "term": "Three ways consumers can reduce air pollution"
    },
    {
     "definition": "Stress and headaches; disturbed sleep and insomnia; permanent hearing damage from long-term exposure.",
@@ -11727,8 +11723,8 @@
     "term": "Family home"
    },
    {
-    "definition": "The right of a spouse to live in the family home, which the Act protects even where that spouse does not own it.",
-    "term": "Right of occupation"
+    "definition": "Protection against the home being sold, leased or mortgaged without the other spouse's prior written consent, even where that spouse does not own it.",
+    "term": "Protection of the family home"
    },
    {
     "definition": "Agreement given in writing by one spouse before the other spouse sells, leases or mortgages the family home.",
@@ -11743,7 +11739,7 @@
     "term": "Dispensing with consent"
    },
    {
-    "definition": "An entry registered against a property's title to record a right, such as a spouse's right of occupation, that binds future owners.",
+    "definition": "An entry registered against a property's title to record a right that binds future owners.",
     "term": "Burden on title"
    },
    {
@@ -11751,16 +11747,16 @@
     "term": "Requirement before selling the family home"
    },
    {
-    "definition": "A spouse who does not own the home still has a right of occupation that the Act protects.",
-    "term": "Who can occupy the family home"
+    "definition": "The Act does not give a non-owning spouse ownership of the home; it gives that spouse a veto over any sale, lease or mortgage.",
+    "term": "Protection without ownership"
    },
    {
-    "definition": "It is open to being set aside by the court.",
+    "definition": "It is void under the Act: a dealing made without the other spouse's prior written consent.",
     "term": "Status of a transaction made without consent"
    },
    {
-    "definition": "It can be registered as a burden on the title of the property.",
-    "term": "Where the spouse's right of occupation is recorded"
+    "definition": "A notice of the marriage, registered against the property's title, which warns buyers and lenders that the other spouse's consent is needed.",
+    "term": "What a spouse can register against the home"
    }
   ],
   "notes": [
@@ -11838,7 +11834,7 @@
     "term": "Barring order"
    },
    {
-    "definition": "A court order prohibiting the respondent from molesting or threatening the applicant, without requiring them to leave the home.",
+    "definition": "A temporary order, made pending the hearing, prohibiting the respondent from molesting or threatening the applicant, without requiring them to leave the home.",
     "term": "Protection order"
    },
    {
@@ -12015,7 +12011,7 @@
     "term": "Property adjustment"
    },
    {
-    "definition": "Adultery, unreasonable behaviour, and desertion for at least one year.",
+    "definition": "Six grounds: adultery, unreasonable behaviour, one year's desertion, one year apart with consent, three years apart, and no normal marital relationship for at least one year.",
     "term": "Grounds for judicial separation under the 1989 Act"
    },
    {
@@ -12247,7 +12243,7 @@
     "term": "Legal right"
    },
    {
-    "definition": "The testator must be over 18 years of age.",
+    "definition": "The testator must be 18 or over (or married).",
     "term": "Minimum age for making a valid will"
    },
    {
@@ -12522,7 +12518,7 @@
     "term": "Judicial separation"
    },
    {
-    "definition": "A legal relationship between two people, introduced in Ireland in 2010, giving rights similar to those of marriage.",
+    "definition": "A legal relationship between two people, created by a 2010 Act that came into operation on 1 January 2011, giving rights similar to those of marriage.",
     "term": "Civil partnership"
    },
    {
@@ -14226,8 +14222,8 @@
     "term": "Pesticide"
    },
    {
-    "definition": "The minimum time that must pass after a chemical is applied or administered before the crop, milk or meat can be sold.",
-    "term": "Withdrawal period"
+    "definition": "The minimum wait after a chemical is applied or administered before the food can be sold or harvested.",
+    "term": "Withdrawal period or pre-harvest interval"
    },
    {
     "definition": "A metal such as lead, cadmium or mercury that is toxic at low levels and can accumulate in the body.",
@@ -15442,7 +15438,7 @@
    },
    {
     "definition": "Food, acidity, temperature, time, oxygen and moisture.",
-    "term": "The six conditions micro-organisms need (FAT TOM)"
+    "term": "The six conditions micro-organisms need"
    },
    {
     "definition": "Destroy micro-organisms; inactivate enzymes; prevent re-contamination; control available water; control temperature; control pH.",
@@ -15965,8 +15961,8 @@
     "term": "Rehydration"
    },
    {
-    "definition": "Oven drying, electric dehydrator drying and sun drying.",
-    "term": "Three methods of drying food at home"
+    "definition": "Oven drying, electric dehydrator drying and sun drying (used in hot, dry countries).",
+    "term": "Three methods of drying food"
    },
    {
     "definition": "Vitamin C, the B vitamins, vitamin A and vitamin E.",
@@ -16296,7 +16292,7 @@
     "term": "Four by-products of fermentation"
    },
    {
-    "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus, which convert lactose into lactic acid.",
+    "definition": "Lactobacillus bulgaricus (the exam name; now Lactobacillus delbrueckii subsp. bulgaricus) and Streptococcus thermophilus, which convert lactose into lactic acid.",
     "term": "Two bacteria used as yoghurt starter cultures"
    },
    {
@@ -16491,8 +16487,8 @@
     "term": "Two drawbacks of irradiating food"
    },
    {
-    "definition": "Potatoes and onions.",
-    "term": "Two vegetables irradiated to prevent sprouting"
+    "definition": "Irradiation can prevent sprouting in potatoes and onions.",
+    "term": "Irradiation to prevent sprouting"
    },
    {
     "definition": "It delays ripening and controls moulds on soft fruit.",
@@ -17604,8 +17600,8 @@
     "term": "Three uses of yeast in food production"
    },
    {
-    "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus.",
-    "term": "Two bacteria used to make yoghurt"
+    "definition": "Lactobacillus bulgaricus and Streptococcus thermophilus; some yoghurts add other strains.",
+    "term": "Two bacteria typically used to make yoghurt"
    },
    {
     "definition": "Penicillium roqueforti, which gives blue-green veins and flavour, as in Cashel Blue.",
@@ -17763,8 +17759,8 @@
     "term": "Why vegetables are blanched before freezing"
    },
    {
-    "definition": "Thiamine, vitamin C and carotene.",
-    "term": "Vitamins destroyed by oxidase in plant cells"
+    "definition": "Oxidase in plant cells can destroy thiamine, vitamin C and carotene.",
+    "term": "Vitamins that oxidase can destroy in plant cells"
    },
    {
     "definition": "Coating them in acid such as lemon juice, or treating them with ascorbic acid to remove the effect of oxygen.",
@@ -18064,7 +18060,7 @@
     "term": "Five stages of HACCP for a hot main course"
    },
    {
-    "definition": "72°C, held in the centre of the food to destroy bacteria.",
+    "definition": "75 °C in the centre of the food, under current FSAI guidance; 72 °C is the critical limit in the HACCP scheme.",
     "term": "Minimum core temperature for cooking poultry"
    },
    {
@@ -18598,7 +18594,7 @@
     "term": "Vitamin K in vegetables"
    },
    {
-    "definition": "At least five portions a day, under the Department of Health healthy-eating guidelines.",
+    "definition": "Five to seven servings a day, under the Department of Health healthy-eating guidelines.",
     "term": "Daily fruit and vegetable target in Irish guidance"
    }
   ],
@@ -18960,7 +18956,7 @@
     "term": "Al dente"
    },
    {
-    "definition": "Steaming, microwaving, stir-frying and boiling in the minimum amount of water with a lid.",
+    "definition": "Steaming, microwaving with very little water for a short time, stir-frying and boiling in the minimum amount of water with a lid.",
     "term": "Four cooking methods that retain most nutrients"
    },
    {
@@ -19297,7 +19293,7 @@
  "hom-home-interior-s1": {
   "keyTerms": [
    {
-    "definition": "The visual building blocks of a room: line, shape and form, colour, pattern, texture and light.",
+    "definition": "The visual building blocks of a room: line, shape and form, colour, pattern and texture.",
     "term": "Elements of design"
    },
    {
@@ -20826,7 +20822,7 @@
     "term": "Why the storage tank is placed in the attic"
    },
    {
-    "definition": "Lag the tank and pipes with insulation; insulate the attic floor and keep the heating on at a low setting in cold weather.",
+    "definition": "Lag the tank and pipes with insulation; keep the heating on at a low setting in cold weather.",
     "term": "Two ways to protect the cold water system from freezing"
    },
    {
@@ -21264,7 +21260,7 @@
     "term": "Fibre blanket"
    },
    {
-    "definition": "A rating from A1 to G that shows how much energy a dwelling needs to heat and run.",
+    "definition": "A rating from A (best) to G (worst) that shows how much energy a dwelling needs to heat and run.",
     "term": "Building Energy Rating (BER)"
    },
    {
@@ -22130,7 +22126,7 @@
     "term": "Tenement"
    },
    {
-    "definition": "The extension of mains electricity to rural homes, which in Ireland was carried out mainly in the 1950s.",
+    "definition": "The extension of mains electricity to rural homes, which in Ireland was carried out mainly in the mid-twentieth century.",
     "term": "Rural electrification"
    },
    {
@@ -22752,8 +22748,8 @@
     "term": "Three areas covered by the Building Regulations"
    },
    {
-    "definition": "Cover for major structural defects in the home; protection of the buyer's deposit if a registered builder fails.",
-    "term": "Two protections given by HomeBond's scheme"
+    "definition": "Cover for major structural defects in the home for ten years.",
+    "term": "Protection given by HomeBond's scheme"
    }
   ],
   "notes": [
@@ -23065,8 +23061,8 @@
     "term": "Marine lipid"
    },
    {
-    "definition": "Carbon, hydrogen and oxygen.",
-    "term": "Three elements in a lipid"
+    "definition": "Carbon, hydrogen and oxygen only (triglycerides).",
+    "term": "Three elements in a fat or oil"
    },
    {
     "definition": "One glycerol molecule and three fatty acid molecules.",
@@ -23883,7 +23879,7 @@
     "term": "Void marriage"
    },
    {
-    "definition": "A marriage that remains valid until a court annuls it, for example because it was never consummated.",
+    "definition": "A marriage that remains valid until a court annuls it, for example because of inability to consummate the marriage.",
     "term": "Voidable marriage"
    },
    {
@@ -24022,8 +24018,8 @@
     "term": "Officiant"
    },
    {
-    "definition": "The right to live together, the right to sexual relations, the right to faithfulness and loyalty, and the right to inherit from each other.",
-    "term": "Four rights of marriage partners"
+    "definition": "The right to live together, the right to faithfulness and loyalty, and the right to inherit from each other. Each spouse is also entitled to sexual relations with the other, and consummation is the basis of the marriage.",
+    "term": "Rights of marriage partners"
    },
    {
     "definition": "Financial support for the spouse and children, joint guardianship of the children, providing for the children's needs, and commitment to the relationship through communication.",
@@ -24996,11 +24992,11 @@
     "term": "HDL"
    },
    {
-    "definition": "A protein food made from a fungus, used in products such as Quorn; vegan versions contain no egg.",
+    "definition": "A protein food made from a fungus, used in mycoprotein products; vegan versions contain no egg.",
     "term": "Mycoprotein"
    },
    {
-    "definition": "Plant sterol spreads lower cholesterol absorption; omega-3 eggs and milk reduce heart-disease risk; prebiotic or probiotic yoghurt improves digestion.",
+    "definition": "Plant sterol spreads lower cholesterol absorption; omega-3 enriched foods supply omega-3 fatty acids; prebiotic or probiotic yoghurt improves digestion.",
     "term": "Three functional foods for coronary heart disease and their benefits"
    },
    {
@@ -25204,8 +25200,8 @@
     "term": "Three steps when planning a menu"
    },
    {
-    "definition": "Wholegrain starchy foods such as bread, cereals, potatoes, pasta and rice, eaten most often.",
-    "term": "Foods at the base of the Irish Food Pyramid"
+    "definition": "Vegetables, salad and fruit (bottom shelf) and wholemeal cereals, breads, potatoes, pasta and rice (second shelf), eaten most often.",
+    "term": "Foundation shelves of the Irish Food Pyramid"
    },
    {
     "definition": "They retain nutritional and sensory quality; they save time and money; they reduce food waste.",
@@ -26518,8 +26514,8 @@
     "term": "Consumer Credit Act 1995"
    },
    {
-    "definition": "The APR; the total cash price; the cost of credit; the number and amount of instalments; the date of each instalment.",
-    "term": "Five items a credit advertisement must show"
+    "definition": "It must be accurate and show the APR.",
+    "term": "What a credit advertisement must show"
    },
    {
     "definition": "The buyer does not own the goods until the final payment; interest can make the total cost high; missed payments can lead to repossession.",
@@ -28517,7 +28513,7 @@
    },
    {
     "definition": "Identify the problem or need; gather information; weigh the alternatives against goals and resources; choose a course of action and review it.",
-    "term": "Four steps in decision-making"
+    "term": "Steps in decision-making"
    },
    {
     "definition": "It shares information and ideas; it allocates tasks fairly; it helps to resolve conflict.",
@@ -29169,7 +29165,7 @@
     "term": "PRSI"
    },
    {
-    "definition": "Education after second level, provided in universities, institutes of technology and colleges.",
+    "definition": "Education after second level, provided in colleges and universities.",
     "term": "Third-level education"
    },
    {
@@ -29352,7 +29348,7 @@
     "term": "Contraception"
    },
    {
-    "definition": "The spouses have lived apart for four of the previous five years, there is no reasonable prospect of reconciliation, and proper provision has been made for the spouse and dependants.",
+    "definition": "The spouses have lived apart for two of the previous three years, there is no reasonable prospect of reconciliation, and proper provision has been made for the spouse and dependants.",
     "term": "Three conditions for granting a divorce under Irish law"
    },
    {
@@ -30888,8 +30884,8 @@
     "term": "Resilience"
    },
    {
-    "definition": "Combustion-modified high-resilience foam, a filling designed to resist ignition and reduce toxic fumes.",
-    "term": "CMHR foam"
+    "definition": "Foam in cushions and upholstery burns fiercely and gives off toxic fumes, so check what the filling is and whether it is fire resistant.",
+    "term": "Fire risk of foam filling"
    },
    {
     "definition": "Fabric construction (loose yarns and raised pile ignite easily); the filling material (avoid untreated synthetic foam); and a flame-retardant finish or fire-resistance label.",
@@ -31640,8 +31636,8 @@
     "term": "Sectors hardest hit by the 2008 downturn"
    },
    {
-    "definition": "Recent graduates, foreign workers and young people.",
-    "term": "Groups most affected by the post-2008 rise in joblessness"
+    "definition": "Construction and related professions, and retail and service industries.",
+    "term": "Sectors most affected by the post-2008 rise in joblessness"
    },
    {
     "definition": "Students, and people in full-time home duties who are not seeking work.",
@@ -31901,7 +31897,7 @@
     "term": "Four effects of unemployment on the family"
    },
    {
-    "definition": "Higher welfare and tax costs; crime and antisocial behaviour; emigration of skilled workers.",
+    "definition": "Higher welfare and tax costs; crime, antisocial behaviour and vandalism, which are associated with areas of high unemployment; emigration of skilled workers.",
     "term": "Three effects of unemployment on society"
    },
    {
@@ -32966,7 +32962,7 @@
     "term": "Intrinsic factor"
    },
    {
-    "definition": "An anaemia caused by lack of vitamin B12, in which the red blood cells are large and unable to carry oxygen effectively.",
+    "definition": "An anaemia caused by failure to absorb vitamin B12 because intrinsic factor is missing, in which the red blood cells are large and unable to carry oxygen effectively.",
     "term": "Pernicious anaemia"
    },
    {
@@ -33355,7 +33351,7 @@
  "hom-vitamins-minerals-s4": {
   "keyTerms": [
    {
-    "definition": "A mineral needed by the body in amounts above 100 mg a day, such as calcium, phosphorus, potassium or sodium.",
+    "definition": "A mineral the body needs in larger amounts, such as calcium, phosphorus, potassium or sodium.",
     "term": "Major mineral"
    },
    {
@@ -33773,7 +33769,7 @@
     "term": "Work ethic"
    },
    {
-    "definition": "The level of achievement, advancement and recognition a person reaches through work.",
+    "definition": "The work a person is aiming for, shaped by education, social group, aspirations and opportunity.",
     "term": "Work attainment"
    },
    {
@@ -34291,7 +34287,7 @@
  "hom-work-leisure-s4": {
   "keyTerms": [
    {
-    "definition": "A person generally under 18 years of age who is employed, and protected by the Act.",
+    "definition": "A person aged 16 or 17 who is employed, and protected by the Act.",
     "term": "Young person"
    },
    {
