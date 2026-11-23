@@ -61,7 +61,7 @@ No unemployment rates, numbers of people unemployed, or years of recession. The 
 - Do not use: any unemployment rate, number of people out of work, youth unemployment percentage, or recession year (for example from past-paper stems), because they are changing figures.
 - Do not use: FÁS as a training or employment body, because it was replaced by SOLAS and the Education and Training Boards in 2013 (the 2007 marking scheme names it).
 - Do not use: the Department of Social and Family Affairs or the Combat Poverty Agency as current bodies, because the first is now the Department of Social Protection and the second was dissolved.
-- Do not use: the old notes' list of frictional, structural, cyclical and seasonal unemployment as "the types of unemployment", because it is not the syllabus classification and duplicates the causes of unemployment taught in the neighbouring chapter.
+- Checked: frictional, structural, cyclical and seasonal unemployment are named in the 2026 Higher Level marking scheme (extent of unemployment). Keep the four types, each with its cause.
 - Do not use: JobPath or other named activation contractors, because the arrangements have changed and are unconfirmed.
 - Do not use: payment durations, qualifying contributions, the age cut-offs for jobseeker payments or the size of any redundancy payment, because they change.
 - Unemployed means seeking work: students, full-time carers and retired people are not counted as unemployed.
