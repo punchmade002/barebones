@@ -154,26 +154,39 @@ def check(batch=None):
     return ok
 
 
-def topup(sids):
-    """One more problem for each skill whose lesson came out short: its other candidates used a different
-    method. The lesson's first problem is the reference, so the writer matches its method."""
+def topup(sids, flags=None):
+    """More problems for skills whose lesson came out short or whose backups an audit flagged (audit/out/A*.json:
+    {skill, problem, reason, method}): one per flagged backup, matching the method of the lesson's good problems."""
     from lessons import outputs
     outs, parts, by = outputs(), bank_parts(), exam_parts()
+    flags = flags or {}
     jobs = []
     for sid in sids:
-        s = SKILLS[sid]
-        ref = [p['part'] for p in outs[sid]['problems']]
+        s, bad = SKILLS[sid], flags.get(sid, [])
+        drop = {f['problem'] for f in bad}
+        ref = [p['part'] for k, p in enumerate(outs[sid]['problems'], 1) if k not in drop]
+        note = 'Use the SAME method as the references (they are the lesson so far); change one thing, as usual.'
+        if bad:
+            note += f" The method: {bad[0]['method']} Earlier backups were dropped for doing this instead: " + ' '.join(f['reason'] for f in bad)
         jobs.append(dict(
             skill=dict(id=sid, title=s['title'], level=s['level'], input=s['input'], output=s['output'],
                        example=s['example'], needs=[SKILLS[p]['title'] for p in s['prereqs']]),
-            write=1, examParts=len(by.get(sid, [])),
-            note='Use the SAME method as the references (they are the lesson so far); change one thing, as usual.',
+            write=len(bad) or 1, examParts=len(by.get(sid, [])), note=note,
             references=[dict(part=p, level=parts[p]['q']['level'], marks=parts[p]['p']['marks'],
                              steps=parts[p]['p']['workedSolution']['steps'], final=parts[p]['p']['workedSolution']['finalAnswer'])
                         for p in ref if p in parts]))
-    n = len(list((WORK / 'in').glob('X*.json'))) + 1
-    (WORK / 'in' / f'X{n:02}.json').write_text(json.dumps(jobs, ensure_ascii=False))
-    print(f'{len(jobs)} skills → practice/in/X{n:02}.json')
+    n = len(list((WORK / 'in').glob('X*.json')))
+    for i in range(0, len(jobs), PER_BATCH):
+        (WORK / 'in' / f'X{n + i // PER_BATCH + 1:02}.json').write_text(json.dumps(jobs[i:i + PER_BATCH], ensure_ascii=False))
+    print(f'{len(jobs)} skills → {(len(jobs) + PER_BATCH - 1) // PER_BATCH} top-up batches from X{n + 1:02}')
+
+
+def audit_flags():
+    flags = {}
+    for f in sorted((HERE / 'audit' / 'out').glob('A*.json')):
+        for x in json.loads(f.read_text()):
+            flags.setdefault(x['skill'], []).append(x)
+    return flags
 
 
 def merge():
@@ -191,4 +204,4 @@ def merge():
 assert LEARN_ONLY.match('con-3') and LEARN_ONLY.match('geo-prove-thm11') and not LEARN_ONLY.match('geo-thm9')
 
 if __name__ == '__main__':
-    {'pack': lambda: pack(sys.argv[2:]), 'topup': lambda: topup(sys.argv[2:]), 'check': lambda: check(*sys.argv[2:3]), 'merge': merge}[sys.argv[1]]()
+    {'pack': lambda: pack(sys.argv[2:]), 'topup': lambda: topup(sys.argv[2:]), 'topup-audit': lambda: topup(sorted(audit_flags()), audit_flags()), 'check': lambda: check(*sys.argv[2:3]), 'merge': merge}[sys.argv[1]]()
