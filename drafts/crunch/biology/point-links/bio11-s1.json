@@ -1,0 +1,484 @@
+{
+ "bio11-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s2.0.0",
+    "strength": "helpful",
+    "why": "gene as coded instruction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "essential",
+    "why": "chromosome as DNA plus protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.1",
+    "strength": "essential",
+    "why": "chromatin state being condensed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.0",
+    "strength": "essential",
+    "why": "chromosome definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.3",
+    "strength": "essential",
+    "why": "chromosomes in pairs",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "helpful",
+    "why": "genes at same positions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.3",
+    "strength": "helpful",
+    "why": "human chromosome number",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.2.1",
+    "strength": "helpful",
+    "why": "base pairs",
+    "confidence": "low"
+   },
+   {
+    "id": "bio11-s1.0.3",
+    "strength": "helpful",
+    "why": "23 chromosomes in a set",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.0.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.4.3",
+    "strength": "helpful",
+    "why": "bacterial DNA loop and plasmids",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.1.0",
+    "strength": "helpful",
+    "why": "histones",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s1.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.0.6",
+    "strength": "helpful",
+    "why": "DNA length versus nucleus size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.1.1",
+    "strength": "essential",
+    "why": "negative phosphate backbone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.1.0",
+    "strength": "essential",
+    "why": "histones bind DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.1.1",
+    "strength": "essential",
+    "why": "nucleosome string",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.6",
+    "strength": "helpful",
+    "why": "need to pack long DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.1.1",
+    "strength": "essential",
+    "why": "DNA wound on nucleosomes",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s2.1.3",
+    "strength": "helpful",
+    "why": "reading gene into mRNA",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.1.4",
+    "strength": "essential",
+    "why": "histones switching genes on or off",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.1.1",
+    "strength": "essential",
+    "why": "nucleosome structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s1.4.1",
+    "strength": "helpful",
+    "why": "DNA copied before division",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.2.0",
+    "strength": "essential",
+    "why": "chromatids from replication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.2.1",
+    "strength": "essential",
+    "why": "sister chromatids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.2.2",
+    "strength": "helpful",
+    "why": "chromatids separate at centromere",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.2.2",
+    "strength": "essential",
+    "why": "centromere",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.2.0",
+    "strength": "essential",
+    "why": "replication gives chromatids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.2.1",
+    "strength": "essential",
+    "why": "sister chromatids identical",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "helpful",
+    "why": "homologous chromosomes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.2.5",
+    "strength": "essential",
+    "why": "replicated chromosome shape",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.3.1",
+    "strength": "helpful",
+    "why": "locus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio10-s2.0.0",
+    "strength": "helpful",
+    "why": "gene codes for protein",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio11-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "essential",
+    "why": "gene on chromosome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "essential",
+    "why": "gene codes for protein",
+    "confidence": "high"
+   },
+   {
+    "id": "bio10-s1.6.5",
+    "strength": "helpful",
+    "why": "tRNA and rRNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "essential",
+    "why": "gene as protein code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "helpful",
+    "why": "protein-coding genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.3.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.0.4",
+    "strength": "essential",
+    "why": "homologous chromosomes carry same genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio11-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "essential",
+    "why": "gene codes for protein",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.4.0",
+    "strength": "essential",
+    "why": "coding versus non-coding DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.3.0",
+    "strength": "helpful",
+    "why": "genes and expression",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio10-s1.6.5",
+    "strength": "helpful",
+    "why": "rRNA and tRNA",
+    "confidence": "high"
+   },
+   {
+    "id": "bio11-s1.4.1",
+    "strength": "essential",
+    "why": "non-coding DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.2.2",
+    "strength": "helpful",
+    "why": "centromere",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.4.2",
+    "strength": "helpful",
+    "why": "regulating genes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio11-s1.4.4",
+    "strength": "helpful",
+    "why": "repeated sequences",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio11-s1.4.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio11-s1.4.3",
+    "strength": "helpful",
+    "why": "introns and gene structure",
+    "confidence": "low"
+   }
+  ]
+ }
+}
