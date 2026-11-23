@@ -44,7 +44,7 @@ test("every geography chapter is split into its syllabus subsections", () => {
     });
     subsections += rest.length;
   });
-  assert.equal(subsections, 97);
+  assert.equal(subsections, 98);
 });
 
 test("authored notes attach to their subsection and replace the generated chapter notes", () => {
