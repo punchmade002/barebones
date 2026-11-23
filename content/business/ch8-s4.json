@@ -6,80 +6,107 @@
   "notes": [
     {
       "h": "Digital technology as a driver of change",
-      "b": "Digital technology has changed how businesses sell, serve customers and organise their work, creating both threats and opportunities.",
+      "b": "Digital technology has changed how businesses sell, serve customers and organise their work. Each change creates an opportunity for some firms and a threat for others that are slow to respond.",
       "points": [
-        "E-commerce lets a business sell online to customers anywhere, reducing the need for physical premises in every location.",
-        "Platforms connect buyers and sellers, or users and content, so the platform owner earns income from the connections it makes possible.",
-        "Data collected from customers allows businesses to target products and to understand buying patterns that were previously hidden.",
-        "Artificial intelligence and automation cut labour costs and speed up tasks such as customer service and stock control, but they can also displace some jobs.",
-        "Digital change can have internal drivers, such as a business seeking lower costs, or external drivers, such as customers who now shop online."
-      ]
+        "E-commerce (selling online) lets a business reach customers anywhere, which reduces the need for physical premises in every location.",
+        "Platforms connect buyers and sellers, or users and content, so the platform owner earns income from the connections it makes possible rather than from making the product itself.",
+        "Data collected from customers lets a business target products and spot buying patterns that were previously hidden.",
+        "Artificial intelligence (software that performs tasks needing judgement) and automation (machines or software doing routine work) cut labour costs and speed up tasks such as customer service and stock control. They can also displace some jobs.",
+        "Digital change has internal drivers, such as a business seeking lower costs, and external drivers, such as customers who now shop online.",
+        "Digital change is both a threat and an opportunity: a business that adapts can reach new customers and cut costs, while one that does not may lose customers to online competitors."
+      ],
+      "tip": "If asked to outline how digital technology drives change, name each technology (e-commerce, platforms, data, AI and automation) and give its effect on the business. Naming technologies with no effect is a common mistake."
     },
     {
       "h": "Marketplace model",
-      "b": "A marketplace model brings buyers and sellers together on a digital platform and earns income by charging a fee on transactions.",
+      "b": "A marketplace brings buyers and sellers together on a digital platform. The platform owns little or no stock of its own; it earns by taking a fee on transactions between others.",
       "points": [
-        "It earns income through a commission or listing fee on each sale or booking completed through the platform.",
-        "Key characteristics: the platform owns little or no stock, grows as more buyers and sellers join, and benefits from network effects.",
-        "Advantages: low inventory risk, rapid scalability and a wide reach that gives small sellers access to customers they could not reach alone.",
-        "Disadvantages: the platform must attract enough users on both sides, and it faces disputes over quality, delivery and fees.",
-        "Example: Etsy, an online marketplace where independent sellers list handmade and vintage goods for a commission."
-      ]
+        "It earns income through a commission or listing fee on each sale or booking completed through the platform, so more completed transactions mean more income.",
+        "Key characteristics: the platform owns little or no stock (keep the qualifier 'little or no', not 'none'), it grows as more buyers and sellers join, and it benefits from network effects (the platform becomes more valuable as more users join).",
+        "Advantages: low inventory risk, because the platform holds little or no stock that could go unsold, and rapid scalability, because adding another seller costs the platform very little.",
+        "A further advantage is wide reach: small sellers gain access to customers they could not reach alone.",
+        "Disadvantages: the platform must attract enough users on both sides, because buyers will not come without sellers and sellers will not come without buyers.",
+        "A second disadvantage is disputes over quality, delivery and fees, because the platform does not control the goods or the sellers.",
+        "Example: Etsy is an online marketplace where independent sellers list handmade, vintage and craft goods. Etsy charges sellers fees, such as a charge on each sale."
+      ],
+      "tip": "Do not confuse a marketplace with an e-commerce retailer: a retailer sells its own stock, while a marketplace earns a fee on sales between others. In a stimulus, a commission on bookings points to a marketplace."
     },
     {
       "h": "Subscription model in the digital economy",
-      "b": "Digital subscription models charge a recurring fee for continuous access to online content, software or services.",
+      "b": "A digital subscription charges a recurring fee for continuous access to online content, software or services, instead of a single payment for a product.",
       "points": [
-        "Revenue comes from monthly or annual payments, often with a free or cheaper tier that brings users in before they pay.",
-        "Key characteristics: revenue is predictable, the service is updated continuously and keeping customers is central to success.",
-        "Advantages: predictable income, a close link to customers through usage data and lower marketing costs for existing users.",
-        "Disadvantages: subscribers can cancel with little effort, so the business must keep adding value, and cancellations are costly.",
-        "Example: Netflix, which provides on-demand film and television for a regular fee."
-      ]
+        "Revenue comes from monthly or annual payments, often with a free or cheaper tier (a freemium tier) that brings users in before they pay.",
+        "Key characteristic: revenue is predictable, which makes forecasting easier because the business can estimate how much money will arrive each month.",
+        "Key characteristic: the service is updated continuously, so subscribers keep receiving new content or features for their payment.",
+        "Key characteristic: keeping customers is central to success, because subscribers can stop paying at any time.",
+        "Advantages: predictable income, a close link to customers through usage data (which shows what they watch or use), and lower marketing costs for existing users.",
+        "Disadvantages: subscribers can cancel with little effort, so the business must keep adding value. Cancellations (churn) are costly because the lost income and the cost of winning the customer both go.",
+        "Example: Netflix provides on-demand film and television for a regular fee. Irish Times reported on 24 September 2026 that Netflix confirmed an advertising-supported tier for Ireland, with adverts from 1 March 2027, so it is a subscription business adding a second digital model.",
+        "Vodafone Business has launched what Techbuzz Ireland (10 October 2026) reported as, in Vodafone's description, Ireland's first fully managed smartphone subscription service for businesses with 25 or more employees. Devices are leased on subscription and managed through an online platform, with repairs and replacements included."
+      ],
+      "tip": "When asked for characteristics, give each one with a reason (predictable revenue, so easier forecasting; keeping customers central, because they can cancel). A common mistake is listing advantages when characteristics were asked. Do not confuse churn (subscribers cancelling) with network effects (value rising as more users join)."
     },
     {
       "h": "Crowdfunding as a model and a source of finance",
-      "b": "Crowdfunding raises money from many people, usually through an online platform, and it is both a business model and a way of obtaining finance.",
+      "b": "Crowdfunding raises money from many people, usually through an online platform. It is both a business model and a way of obtaining finance, and there are three main types depending on what backers receive.",
       "points": [
-        "The platform takes a fee on the funds raised, while the business gains finance from many backers at once.",
+        "The platform takes a fee on the funds raised, while the business gains finance from many backers (the people who contribute money) at once.",
         "Reward crowdfunding: backers receive a product or perk in return for their contribution, which suits consumer products.",
-        "Equity crowdfunding: backers buy shares in the business, so they share in its success and its risks.",
-        "Lending crowdfunding: backers lend money to the business, which repays them with interest over an agreed period.",
-        "Advantages: finance without a bank loan, a market test for a product before launch and a ready group of supporters.",
+        "Equity crowdfunding: backers buy shares (part-ownership) in the business, so they share in its success and its risks.",
+        "Lending crowdfunding: backers lend money to the business, which repays them with interest (a charge for borrowing) over an agreed period.",
+        "Advantages: finance without a bank loan, a market test for a product before launch (strong backing suggests demand) and a ready group of supporters.",
         "Disadvantages: campaigns can fail to reach their target, platform fees apply, and reward backers may wait a long time for their items.",
-        "Example: a small food or design business that pre-sells a first product run to backers on a rewards platform."
-      ]
+        "Example (a sample business): a small food or design business pre-sells a first product run to backers on a rewards platform.",
+        "Regulation protects backers from loss and misleading claims. In Ireland, crowdfunding platforms are regulated under EU Regulation 2020/1503, which applies from 10 November 2021, and the Central Bank of Ireland authorises and supervises them under S.I. 702 of 2021."
+      ],
+      "tip": "If asked to explain crowdfunding, say money is raised from many people through an online platform, name the three types with what backers get (reward: product or perk; equity: shares; lending: repaid with interest) and give a reason or effect such as finance without a bank loan. Only saying 'people give money' is a common mistake."
     },
     {
       "h": "Advertising-supported model",
-      "b": "An advertising-supported model gives users a service free of charge and earns its income by selling access to their attention to advertisers.",
+      "b": "An advertising-supported model gives users a service free of charge and earns its income by selling access to their attention to advertisers. The users are the audience, and the advertisers are the customers.",
       "points": [
         "Advertisers pay for placements, often according to the number of views, clicks or the targeted audience reached.",
-        "Key characteristics: a large user base is essential, and the business uses data to target adverts more precisely.",
+        "Key characteristic: a large user base is essential, because income grows as the audience grows and advertisers pay for reach.",
+        "Key characteristic: the business uses data about users to target adverts more precisely, which makes the placements more valuable to advertisers.",
         "Advantages: users pay nothing, which widens reach, and income grows as the audience grows.",
-        "Disadvantages: revenue depends on the advertising market, some users dislike adverts, and privacy concerns can bring tighter regulation.",
-        "Example: a social media platform or a free search engine that funds its free service through targeted advertising."
-      ]
+        "Disadvantages: revenue depends on the advertising market, so it falls if advertisers cut spending. Some users dislike adverts, and privacy concerns can bring tighter regulation.",
+        "Ethical angle: using personal data to target adverts raises questions of privacy and consent (whether users have agreed to how their data is used), and adverts should be honest.",
+        "Example (a sample business): a social media platform or a free search engine funds its free service through targeted advertising."
+      ],
+      "tip": "Do not confuse subscription with advertising-supported. In a subscription, users pay recurring fees. In an advertising model, users pay nothing and advertisers pay. A stimulus that says free to users but paid by advertisers means advertising-supported. When asked for characteristics, give a reason with each: a large user base, because income grows with audience, and data used to target adverts."
     },
     {
       "h": "Digital models compared with non-digital models",
-      "b": "Digital models share the core logic of traditional models, but they differ in cost structure, reach, growth and the data they collect.",
+      "b": "Digital models share the core logic of traditional models, but they differ in cost structure, reach, growth and the data they collect. Use these differences to answer a compare question.",
       "points": [
         "Similarity: both must create value for customers and capture enough income to cover their costs.",
-        "Cost structure: digital models often have high fixed costs for software and data, but a low extra cost for each additional user.",
+        "Cost structure: digital models often have high fixed costs (costs that do not change with output, such as software and data) but a low extra cost for each additional user.",
         "Reach: a digital business can serve customers in other countries with little additional physical presence.",
         "Growth: network and scale effects let digital models grow faster than models that need premises or extra staff for every new customer.",
-        "Data: digital models collect customer behaviour continuously, which non-digital models rarely do on the same scale."
-      ]
+        "Data: digital models collect customer behaviour continuously, which non-digital models rarely do on the same scale.",
+        "Comparison headings for a compare answer are revenue generation (recurring fee, commission, advertising or crowd-raised funds), access and cost (paid access, free to users, or a fee on transactions), and scalability."
+      ],
+      "tip": "A compare question asks you to refer to both models throughout. Use the headings the question gives, such as revenue generation, access and cost, and scalability, and name both models in every point. Describing each model in turn is a common mistake."
     },
     {
       "h": "How Irish businesses have adapted",
-      "b": "Irish firms have moved online or added new models in response to customer demand and competition.",
+      "b": "Irish firms have moved online or added new models in response to customer demand and competition, which are examples of external drivers of change.",
       "points": [
         "A traditional retailer may sell online and offer click-and-collect, so customers order from home and collect from a local store.",
         "A food producer may launch a subscription box delivered to homes, creating recurring income from loyal customers.",
-        "Tesco Ireland offers online grocery ordering with home delivery, extending a store-based business into digital channels."
-      ]
+        "Tesco Ireland offers online grocery shopping with home delivery and Click+Collect, extending a store-based business into digital channels."
+      ],
+      "tip": "When linking a news story to a model, state the model, its effect on revenue, customers and costs, and give a reasoned opinion. Retelling the story is a common mistake."
+    },
+    {
+      "h": "Sustainability and ethics in digital models",
+      "b": "Digital models bring benefits and costs for the environment and for the people they deal with. A good answer weighs both.",
+      "points": [
+        "Digital models can cut travel and premises, for example through online selling and subscriptions that replace ownership, but data centres and deliveries use energy. A sustainable model weighs both.",
+        "Vodafone's smartphone subscription for businesses has a circular economy angle, because devices are refurbished or recycled at the end of their life. A circular economy is a model of production and consumption which extends the life cycle of products, reduces waste, and creates further value.",
+        "Ethical issues include fair treatment of gig and platform workers and sellers, clear cancellation and pricing for subscribers, and honest use of customers' data."
+      ],
+      "tip": "Expect the ethical, sustainability and digital angle to be linked to a model: data and privacy in advertising-supported models, clear cancellation in subscriptions, fair treatment of platform sellers, and the circular economy in device subscriptions."
     }
   ],
   "keyTerms": [

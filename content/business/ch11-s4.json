@@ -4,65 +4,127 @@
   "subsection": "4. Adapting to external drivers through the marketing mix and business model",
   "syllabusRef": "2.6.6",
   "notes": [
-    { "h": "External drivers and financial sustainability", "b": "External drivers are changes outside the business that force it to adapt. STEEPLE is a checklist for finding them, and the aim of adapting is to keep the business financially sustainable.", "points": [
-      "Customer demographics, such as an ageing population or a rise in single-person households, change what customers buy and how they buy.",
-      "Competition, including new entrants and substitutes, changes the prices and features a business needs to match.",
-      "Economic factors, such as inflation, interest rates and consumer incomes, change both costs and customers' spending power.",
-      "Technological, legal and environmental drivers, such as new digital channels, a rise in the minimum wage or stricter packaging rules, change costs and customer expectations.",
-      "A business that adapts early keeps its revenue and cost structure under control, while one that waits may be forced into deep cuts."
-    ] },
-    { "h": "Adapting the product or service", "b": "The product or service is the first lever, and changes here affect what customers see and what it costs to provide.", "points": [
-      "Changing the range to meet demand, such as a restaurant adding plant-based dishes as customer preferences shift.",
-      "Adjusting the offer for a customer group, such as smaller portions for older customers with smaller appetites.",
-      "Dropping low-selling or high-cost lines to protect margin when input costs rise."
-    ] },
-    { "h": "Adapting price", "b": "Price changes need care, because a rise that customers reject can lose more sales than it gains.", "points": [
-      "Passing on cost rises through price increases works only if customers still see the offer as good value.",
-      "Value packs and bundles keep customers buying when household budgets tighten.",
-      "Loyalty discounts or subscriptions give a regular price in return for commitment from the customer."
-    ] },
-    { "h": "Adapting promotion", "b": "Promotion should follow the channels customers actually use as their habits change.", "points": [
-      "Moving spending from print to digital channels, such as social media or email, when customers change how they find products.",
-      "Reaching older customers through channels they use, such as local newspapers or community noticeboards, rather than online adverts alone.",
-      "Using loyalty schemes and personal offers to keep existing customers when a competitor opens nearby."
-    ] },
-    { "h": "Adapting people and process", "b": "Staffing and operations often offset rising costs, but they must be managed with care.", "points": [
-      "People: retraining staff or hiring for new skills, such as online order handling, so the workforce matches new demands.",
-      "People: flexible rosters or part-time contracts help manage wage costs when labour costs rise, though they can affect staff morale.",
-      "Process: self-ordering screens or app-based ordering reduce the staff needed per sale, which offsets part of a higher wage bill.",
-      "Process: tighter stock control cuts waste and cost without changing what the customer receives."
-    ] },
-    { "h": "Adapting packaging and place", "b": "Packaging and place decide how the product reaches customers and how it is presented.", "points": [
-      "Packaging: eco-friendly materials respond to sustainability goals, and smaller or resealable packs suit single-person households.",
-      "Place: online ordering, delivery or click-and-collect extends the business's reach beyond its premises.",
-      "Place: opening in a town where the population is growing follows demographic change, rather than waiting for the local market to shrink."
-    ] },
-    { "h": "Adapting the business model", "b": "The business model is the widest response. It changes how the business earns money and what it does itself.", "points": [
-      "New revenue streams, such as catering, merchandise or meal kits, add income that does not depend on the core product alone.",
-      "New channels, such as a listing on a marketplace or a delivery partnership, widen the route to customers.",
-      "A subscription model turns some one-off sales into regular payments, which makes income easier to forecast.",
-      "Outsourcing non-core activities, such as payroll, delivery or cleaning, turns some fixed costs into variable payments and frees managers' time."
-    ] },
-    { "h": "Worked example: rising labour costs in a restaurant", "b": "A restaurant facing a rise in the minimum wage can combine several adaptations rather than rely on one.", "points": [
-      "The direct effect is higher labour costs, which squeeze the margin if prices and staffing stay the same.",
-      "Pricing: a modest price rise on main dishes, with a value lunch option kept, passes on part of the cost while protecting the price-sensitive lunchtime trade.",
-      "Process: tablet ordering at tables reduces the number of staff needed to take orders, which offsets part of the wage rise.",
-      "Product: a shorter menu built on shared ingredients cuts waste and speeds up service in the kitchen.",
-      "Business model: a weekly meal subscription for local office workers adds regular income to quieter weekday periods.",
-      "Evaluation: the changes take time to set up and may not fully offset the cost, so the owner should track margins after each one."
-    ] },
-    { "h": "Worked example: an ageing population in a town", "b": "A café in a town whose population is ageing adapts several parts of the marketing mix together.", "points": [
-      "Product: smaller portions, softer foods and a quieter seating area suit older customers.",
-      "Place: step-free access and accessible toilets make the café easier to use.",
-      "Promotion: flyers in community centres and local radio reach older customers who may not use social media.",
-      "Business model: a morning coffee club with a fixed monthly fee gives regular, predictable income."
-    ] },
-    { "h": "Challenges of launching a new product", "b": "Introducing a new product carries risks that the business should plan for before launch.", "points": [
-      "Low customer awareness can be tackled with a launch promotion and free samples.",
-      "High development and launch costs can be managed with a phased launch in one region before a wider roll-out.",
-      "Cannibalisation, where the new product takes sales from an existing line, can be limited by positioning it at a different customer group or price point.",
-      "Supply problems can be reduced by agreeing supplier capacity with key partners before the launch."
-    ] }
+    {
+      "h": "External drivers and financial sustainability",
+      "b": "External drivers are changes outside the business, which it cannot control, that force it to adapt. The aim of adapting is financial sustainability, meaning the business can keep covering its costs and keep operating over time.",
+      "points": [
+        "A STEEPLE analysis is a checklist for finding external drivers. It considers social (S), technological (T), economic (E), environmental (E), political (P), legal (L) and ethical (E) factors, so that no outside change is overlooked.",
+        "Customer demographics (facts about customers such as age, household type, income and location) change what and how customers buy. An ageing population or a rise in single-person households, for example, shifts demand toward different products and pack sizes.",
+        "Competition, including new entrants and substitutes, changes the prices and features a business needs to match, because customers can switch to a rival that offers better value.",
+        "Economic factors, such as inflation, interest rates and consumer incomes, change both the business's costs and its customers' spending power.",
+        "Technological, legal and environmental drivers also change costs and customer expectations. Examples are new digital channels, a rise in the minimum wage (the lowest legal hourly pay) or stricter packaging rules.",
+        "A business that adapts early keeps its revenue and cost structure under control, while one that waits may be forced into deep cuts. Revenue is the money coming in from sales, and the margin is what is left after costs.",
+        "Financial sustainability is not the same as environmental sustainability, though the two can overlap. Reducing packaging waste, for example, can protect the environment and cut costs, but a costly eco choice can pull the two apart."
+      ],
+      "tip": "Name the driver first, then the adaptation, the reason it helps and the risk. Do not mix up STEEPLE, which finds the drivers, with Porter's five forces, which analyses competition."
+    },
+    {
+      "h": "Adapting the product or service",
+      "b": "The product or service is the first lever a business can pull. Changes here affect what customers see and what it costs to provide.",
+      "points": [
+        "Change the range to meet demand, such as a restaurant adding plant-based dishes as customer preferences shift, so that it keeps customers who might otherwise go elsewhere.",
+        "Adjust the offer for a customer group, such as smaller portions for older customers with smaller appetites, so that the product fits what that group actually wants.",
+        "Drop low-selling or high-cost lines to protect margin when input costs rise, because every line that loses money drags down the profit on the rest."
+      ]
+    },
+    {
+      "h": "Adapting price",
+      "b": "Price changes need care, because a rise that customers reject can lose more sales than it gains.",
+      "points": [
+        "Passing on cost rises through price increases works only if customers still see the offer as good value. Raising prices fairly and openly also respects customers, which is an ethical point.",
+        "Value packs and bundles keep customers buying when household budgets tighten, because the customer feels they are getting more for less.",
+        "Loyalty discounts or subscriptions give the customer a regular, lower price in return for commitment, so the business gets steadier income."
+      ],
+      "tip": "A price rise is not an automatic answer to higher costs. Say it works only if customers still see good value, and give the risk of losing sales."
+    },
+    {
+      "h": "Adapting promotion",
+      "b": "Promotion should follow the channels customers actually use as their habits change, so that the message still reaches them.",
+      "points": [
+        "Move spending from print to digital channels, such as social media or email, when customers change how they find products. Digital channels also give data on customer habits that helps target future promotion.",
+        "Reach older customers through channels they use, such as local newspapers or community noticeboards, rather than online adverts alone, because many may not use social media.",
+        "Use loyalty schemes and personal offers to keep existing customers when a competitor opens nearby, because keeping a customer is cheaper than winning a new one."
+      ]
+    },
+    {
+      "h": "Adapting people and process",
+      "b": "Staffing and operations (the way work is carried out) often offset rising costs, but they must be managed with care because they affect staff and customers directly.",
+      "points": [
+        "People: retrain staff or hire for new skills, such as online order handling, so the workforce matches new demands.",
+        "People: flexible rosters or part-time contracts help manage wage costs when labour costs rise. They can hurt staff morale and wellbeing, so the ethical effect on employees must be weighed.",
+        "Process: self-ordering screens or app-based ordering reduce the staff needed per sale, which offsets part of a higher wage bill.",
+        "Process: tighter stock control cuts waste and cost without changing what the customer receives. Less waste also supports environmental sustainability."
+      ],
+      "tip": "For a rising-cost question, give the effect on staff as well as the saving. Examiners ask for the stakeholder effects, and answers that cover only the cost side are a common mistake."
+    },
+    {
+      "h": "Adapting packaging and place",
+      "b": "Packaging and place decide how the product is presented and how it reaches customers.",
+      "points": [
+        "Packaging: eco-friendly materials respond to sustainability goals and stricter packaging rules. Make only honest claims, because overstating how eco-friendly packaging is misleads customers.",
+        "Packaging: smaller or resealable packs suit single-person households, which buy less at a time and do not want waste.",
+        "Place: online ordering, delivery or click-and-collect (ordering online and collecting in person) extends the business's reach beyond its premises.",
+        "Place: opening in a town where the population is growing follows demographic change, rather than waiting for the local market to shrink."
+      ]
+    },
+    {
+      "h": "Adapting the business model",
+      "b": "The marketing mix is the 7 Ps: product/service, pricing, promotion, people, packaging, process and place. The business model is wider. A business model outlines how a company will operate, create, deliver and capture value in economic, social and cultural contexts, so changing it changes how the business earns money and what it does itself.",
+      "points": [
+        "New revenue streams, such as catering, merchandise or meal kits, add income that does not depend on the core product alone.",
+        "New channels, such as a listing on a marketplace or a delivery partnership, widen the route to customers. Marketplaces and digital channels also give access to online customers.",
+        "A subscription model turns some one-off sales into regular payments, which makes income easier to forecast.",
+        "Outsourcing non-core activities, such as payroll, delivery or cleaning (paying another firm to do them), turns some fixed costs into variable payments and frees managers' time."
+      ],
+      "tip": "Subscription and outsourcing are business-model changes, not extra Ps. Keep the marketing mix (the 7 Ps) and the business model (how the firm earns and delivers value) apart in your answer."
+    },
+    {
+      "h": "Worked example: rising labour costs in a restaurant",
+      "b": "A sample restaurant (not a real business) faces a rise in the minimum wage. It can combine several adaptations rather than rely on one.",
+      "points": [
+        "The direct effect is higher labour costs, which squeeze the margin if prices and staffing stay the same.",
+        "Pricing: a modest price rise on main dishes, with a value lunch option kept, passes on part of the cost while protecting the price-sensitive lunchtime trade.",
+        "Process: tablet ordering at tables reduces the number of staff needed to take orders, which offsets part of the wage rise.",
+        "Product: a shorter menu built on shared ingredients cuts waste and speeds up service in the kitchen.",
+        "Business model: a weekly meal subscription for local office workers adds regular income to quieter weekday periods.",
+        "Evaluation: the changes take time to set up and may not fully offset the cost, so the owner should track margins after each one."
+      ],
+      "tip": "For a minimum-wage question, give both the impact (higher labour costs, squeezed margin, effects on staff and customers) and a response. Link it to the restaurant, not just to costs in general."
+    },
+    {
+      "h": "Worked example: an ageing population in a town",
+      "b": "A sample café (not a real business) in a town whose population is ageing adapts several parts of the marketing mix together, plus its business model.",
+      "points": [
+        "Product: smaller portions, softer foods and a quieter seating area suit older customers.",
+        "Place: step-free access and accessible toilets make the café easier to use, which is also an ethical point about including older and disabled customers.",
+        "Promotion: flyers in community centres and local radio reach older customers who may not use social media.",
+        "Business model: a morning coffee club with a fixed monthly fee gives regular, predictable income."
+      ]
+    },
+    {
+      "h": "Challenges of launching a new product",
+      "b": "Introducing a new product carries risks that the business should plan for before launch. Each challenge has a matching response.",
+      "points": [
+        "Low customer awareness can be tackled with a launch promotion and free samples, so that people try the product.",
+        "High development and launch costs can be managed with a phased launch in one region before a wider roll-out, which limits the money at risk.",
+        "Cannibalisation, where the new product takes sales from an existing line of the same business, can be limited by positioning it at a different customer group or price point. It differs from competition, which comes from rival firms.",
+        "Supply problems can be reduced by agreeing supplier capacity with key partners before the launch, so that the business can meet demand."
+      ],
+      "tip": "Name each challenge (awareness, costs, cannibalisation, supply), pair it with a response and tie it to the firm in the question. A common mistake is listing challenges without how to address them."
+    },
+    {
+      "h": "Applying my learning: reading a news story about growth",
+      "b": "News stories about growth and expansion give you a chance to apply this topic. Read each one for the growth strategy, the competition, the costs and the stakeholders (the people affected), then form an informed opinion: give a view, with a reason, weighing benefits against risks.",
+      "points": [
+        "News example, growth by takeover: Kingspan, an Irish insulation and building-materials group, agreed to buy Duggan Profiles & Steel Service Centre Ltd, a Kilkenny manufacturer of building materials including steel panels. The financial terms were not disclosed (Irish Times, 25 May 2026).",
+        "The Competition and Consumer Protection Commission (CCPC) cleared the Kingspan deal on 25 May 2026, saying it would not 'substantially lessen competition in any market for goods or services in the State'. This links growth by takeover to regulation and to stakeholders such as customers and suppliers.",
+        "News example, a call-in: in March 2026 the CCPC called in Uniphar plc's acquisition of TouchStore Limited, a Limerick-based pharmacy-software firm. The deal had already completed and fell below the turnover thresholds for mandatory notification, so a business's growth plans can be reviewed even below thresholds.",
+        "The CCPC was notified in April 2026 and required TouchStore to be run as a separate business during its review.",
+        "On 3 September 2026 the CCPC opened a full Phase 2 investigation (case M/26/029) into whether the deal could lessen competition in wholesale pharmaceutical supply, pharmacy software and retail pharmacy. As of late November 2026 no decision had been made (irishlegal.com, 29 April 2026; ccpc.ie, 3 September 2026).",
+        "To read a story: first identify the driver or growth strategy, then the likely effects on stakeholders such as customers, staff, competitors and regulators, then weigh benefits against risks and give a reasoned opinion."
+      ],
+      "tip": "Expect a news headline or company profile followed by analyse or discuss. Identify the growth strategy or driver, explain the effects on stakeholders, and give a reasoned opinion with three or four developed points."
+    }
   ],
   "keyTerms": [
     { "term": "External drivers", "definition": "Changes outside a business, such as customer tastes, competitors, technology and regulation, that affect how it operates." },

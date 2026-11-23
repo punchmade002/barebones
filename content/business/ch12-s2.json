@@ -4,76 +4,160 @@
   "subsection": "2. Risk management strategies and insurance",
   "syllabusRef": "2.7.3",
   "notes": [
-    { "h": "Avoidance", "b": "Avoidance means not taking on a risk at all.", "points": [
-      "A firm avoids a risk by choosing not to enter a market, launch a product or carry out an activity whose risks outweigh its potential returns.",
-      "Avoidance removes the risk completely, so there is no loss and no ongoing cost to control it.",
-      "The cost is the lost opportunity: a business that avoids a market also gives up any profit that market could have earned.",
-      "Avoidance suits risks with severe impact that the business cannot afford, such as a hazardous activity or a market with unstable rules.",
-      "Because it limits growth, avoidance is best used for specific risks rather than as a general approach to business."
-    ] },
-    { "h": "Spread (diversification)", "b": "Spreading risk divides exposure across several areas so that one failure does not destroy the whole business.", "points": [
-      "Product diversification: offering several products so that a fall in demand for one is offset by sales of the others.",
-      "Market diversification: selling in several countries or to several customer groups, so a downturn in one market is cushioned.",
-      "Supplier diversification: using more than one supplier for key inputs, so that the failure of one supplier does not halt production.",
-      "Spread works only when the parts are not hit by the same event; if every product depends on one supplier, the spread is weak.",
-      "The cost of spreading is the extra management time and expense of running several products, markets or suppliers."
-    ] },
-    { "h": "Prevention and reduction", "b": "Prevention reduces the likelihood of a risk or limits its impact when it does happen.", "points": [
-      "Staff training teaches employees safe working methods and how to handle customer data securely.",
-      "Health and safety procedures, such as machine guards, workplace risk assessments and clear emergency exits, reduce the chance of injury.",
-      "Planned maintenance services equipment regularly, reducing breakdowns that would halt production.",
-      "Cyber security measures, such as firewalls, software updates, strong passwords and backups, reduce the chance of a data breach or ransomware attack.",
-      "Quality control checks products before sale, which lowers the likelihood of a product liability claim.",
-      "Prevention costs money and needs ongoing monitoring, so its cost should be weighed against the loss it prevents."
-    ] },
-    { "h": "Transfer", "b": "Transfer shifts the financial consequences of a risk to another party.", "points": [
-      "Insurance transfers the financial cost of an insured event to the insurer in return for a premium.",
-      "Contracts can transfer risk, for example by making a supplier responsible for defective goods or a subcontractor liable for its own work.",
-      "Outsourcing transfers some operational risk, such as payroll or IT support, to a specialist firm, although the business keeps its reputational exposure.",
-      "Transfer does not remove the risk itself, and it works only if the other party is able to pay."
-    ] },
-    { "h": "Retention", "b": "Retention means accepting a risk and paying for any resulting loss from the business's own resources.", "points": [
-      "Retention suits small, predictable losses, such as minor breakages, where the expected loss is less than the cost of insuring against it.",
-      "A business can set aside a contingency fund to meet losses it has chosen to retain.",
-      "Retention is dangerous when losses could be large, because one serious event could exceed the money set aside."
-    ] },
-    { "h": "Comparing the strategies", "b": "Each strategy suits different risks and has its own cost and limit, so most firms combine several.", "points": [
-      "Avoidance suits severe risks; its cost is lost opportunity and its limit is that the firm gains nothing from the activity it avoids.",
-      "Spread suits market and supply risks; its cost is complexity and its limit is that a common cause can still affect every part.",
-      "Prevention suits risks that procedures can control; its cost is ongoing spending and its limit is that it cannot stop every event.",
-      "Transfer suits large, unpredictable losses such as fire or liability claims; its cost is the premium and its limit is gaps in cover and exclusions.",
-      "Retention suits small, affordable losses; its cost is the amount actually lost and its limit is exposure to large losses.",
-      "A firm might insure its premises, train its staff and hold a cash reserve at the same time, using transfer, prevention and retention together."
-    ] },
-    { "h": "Insurance basics", "b": "Insurance is a contract in which an insurer agrees to pay for specified losses in return for a payment.", "points": [
-      "Premium: the payment the policyholder makes to the insurer for cover, usually monthly or yearly.",
-      "Policy: the written contract that sets out what is covered, the limits, the exclusions and the excess.",
-      "Claim: the request made by the policyholder for the insurer to pay for an insured loss.",
-      "Excess: the amount the policyholder must pay towards each claim before the insurer pays the rest; a higher excess usually means a lower premium.",
-      "Insurable risk: a risk that is accidental, can be measured and is not certain to happen, such as fire damage to premises.",
-      "Uninsurable risk: a loss that insurers will not cover, such as losses from a poor business decision or a fall in demand.",
-      "Insurance reduces the financial impact of a risk but does not prevent it, and an insurer may refuse a claim if a policy condition was breached."
-    ] },
-    { "h": "Business insurance products", "b": "Firms choose products that match the specific risks they face.", "points": [
-      "Property insurance covers buildings, stock and equipment against losses such as fire, theft and flood.",
-      "Public liability insurance covers claims by members of the public who are injured or whose property is damaged because of the business.",
-      "Employer's liability insurance covers claims by employees who are injured or become ill at work, and it is compulsory in Ireland.",
-      "Product liability insurance covers claims that a product sold by the business caused injury or damage.",
-      "Professional indemnity insurance covers claims that advice or a professional service was negligent or caused a client financial loss.",
-      "Motor insurance covers company vehicles, and third-party cover is compulsory for vehicles used on public roads in Ireland.",
-      "Business interruption insurance replaces lost income and pays some fixed costs while an insured event, such as a fire, halts trading.",
-      "Cyber insurance can cover the costs of a data breach, including response, legal costs and restoring systems.",
-      "Goods in transit insurance covers stock that is lost or damaged while being moved by road, sea or air.",
-      "Key-person insurance pays the business if a crucial employee dies or becomes unable to work, to cover lost profit or the cost of finding a replacement."
-    ] },
-    { "h": "Choosing insurance", "b": "Choosing cover means matching the policy to the firm's exposure and budget.", "points": [
-      "Risk exposure: identify which risks are most likely or most serious for this business, such as property for a manufacturer or professional indemnity for a consultant.",
-      "Cost against cover: compare the premium with the potential loss, because paying for cover of a small loss may not be worthwhile.",
-      "Legal requirements: some cover is compulsory, such as employer's liability and motor third-party insurance, so the firm must buy it.",
-      "Policy details: check the limits, exclusions and excess, because a policy that excludes the main risk offers little protection.",
-      "Review: update cover as the business grows, moves premises or adds products, since an old policy may leave new risks uncovered.",
-      "An insurance broker can compare insurers and explain policy terms, which helps a firm with no specialist knowledge make an informed choice."
-    ] }
+    {
+      "h": "Avoidance",
+      "b": "Once a business knows its risks (how likely each is and how much damage it would do), it has to decide how to respond. The simplest response is avoidance: not taking on the risk at all.",
+      "points": [
+        "A firm avoids a risk by choosing not to enter a market, launch a product or carry out an activity whose risks outweigh its potential returns.",
+        "Avoidance removes the risk completely, so there is no loss and no ongoing cost to control it. Nothing is left to manage.",
+        "The cost is the lost opportunity: a business that avoids a market also gives up any profit that market could have earned.",
+        "Avoidance suits risks with severe impact that the business cannot afford, such as a hazardous activity or a market with unstable rules, because one bad outcome could close the firm.",
+        "Because it limits growth, avoidance is best used for specific risks rather than as a general approach to business. A firm that avoided every risk would never do anything."
+      ],
+      "tip": "Don't confuse avoidance with spread: avoidance means not doing the activity at all, while spread means doing it in several places or ways. In an answer, give the cost or limit of avoidance (lost opportunity and profit) as well as what it achieves."
+    },
+    {
+      "h": "Spread (diversification)",
+      "b": "Spreading risk divides exposure across several areas so that one failure does not destroy the whole business. It is the idea behind not putting all your eggs in one basket.",
+      "points": [
+        "Product diversification: offering several products so that a fall in demand for one is offset by sales of the others.",
+        "Market diversification: selling in several countries or to several customer groups, so a downturn in one market is cushioned by the others.",
+        "Supplier diversification: using more than one supplier for key inputs, so that the failure of one supplier does not halt production.",
+        "Spread works only when the parts are not hit by the same event; if every product depends on one supplier, the spread is weak because that one supplier failing still stops everything.",
+        "The cost of spreading is the extra management time and expense of running several products, markets or suppliers."
+      ],
+      "tip": "When you name spread, say which kind you mean (product, market or supplier) and apply it to the business in the question. Add its limit: it fails if one common cause hits every part."
+    },
+    {
+      "h": "Prevention and reduction",
+      "b": "Prevention reduces the likelihood of a risk or limits its impact when it does happen. Unlike avoidance, the firm keeps doing the activity but makes it safer.",
+      "points": [
+        "Staff training teaches employees safe working methods and how to handle customer data securely, so fewer accidents and data mistakes occur.",
+        "Health and safety procedures, such as machine guards, workplace risk assessments and clear emergency exits, reduce the chance of injury.",
+        "This also meets a legal duty: the Safety, Health and Welfare at Work Act 2005 requires employers to carry out a risk assessment (section 19) and prepare a safety statement (section 20), and the Health and Safety Authority enforces it.",
+        "Planned maintenance services equipment regularly, reducing breakdowns that would halt production.",
+        "Cyber security measures, such as firewalls (software that blocks unauthorised access), software updates, strong passwords and backups, reduce the chance of a data breach or ransomware attack (where criminals lock a firm's data and demand payment). Backups and cloud services also help a business keep running after an attack.",
+        "Quality control checks products before sale, which lowers the likelihood of a product liability claim (a claim that a product caused injury or damage).",
+        "Climate-related risks can be reduced too: a firm in a flood-prone location may build flood defences to protect its premises.",
+        "Ethical sourcing of materials and fair treatment of staff are also prevention, because they lower the chance of reputational damage and of breaking employment or other laws.",
+        "Prevention costs money and needs ongoing monitoring, so its cost should be weighed against the loss it prevents."
+      ],
+      "tip": "Keep prevention and transfer apart: prevention lowers the likelihood or impact of the event, while transfer only moves the cost. A strong answer names the specific measure (for example backups against ransomware), what it does to the risk, and its cost or limit."
+    },
+    {
+      "h": "Transfer",
+      "b": "Some risks are too big for a business to carry alone, so it can pass the financial consequences to someone else. This is transfer.",
+      "points": [
+        "Insurance transfers the financial cost of an insured event to the insurer in return for a premium (the regular payment for cover).",
+        "Contracts (legally binding agreements) can transfer risk, for example by making a supplier responsible for defective goods or a subcontractor liable for its own work.",
+        "Outsourcing transfers some operational risk, such as payroll or IT support, to a specialist firm, although the business keeps its reputational exposure because customers still blame the business if things go wrong.",
+        "Transfer does not remove the risk itself, and it works only if the other party is able to pay. Insurance, for example, moves the cost of a fire but does not stop the fire."
+      ],
+      "tip": "Do not write that insurance prevents risk. It only transfers the financial cost, so say that the insurer bears the loss and the event can still happen."
+    },
+    {
+      "h": "Retention",
+      "b": "The last response is to accept a risk on purpose. Retention means accepting a risk and paying for any resulting loss from the business's own resources.",
+      "points": [
+        "Retention suits small, predictable losses, such as minor breakages, where the expected loss is less than the cost of insuring against it.",
+        "A business can set aside a contingency fund (money kept in reserve for unexpected costs) to meet losses it has chosen to retain.",
+        "Retention is dangerous when losses could be large, because one serious event could exceed the money set aside.",
+        "Retention is a considered choice, usually backed by a contingency fund. It is not the same as doing nothing about a risk without having thought about it."
+      ],
+      "tip": "Students often describe retention as ignoring the risk. Say instead that the firm has weighed it up, accepted it and set aside money to pay for it."
+    },
+    {
+      "h": "Comparing the strategies",
+      "b": "Each strategy suits different risks and has its own cost and limit, so most firms combine several. Analysing a strategy means saying what it is, why it suits a risk, what it costs and what it cannot do.",
+      "points": [
+        "Avoidance suits severe risks; its cost is lost opportunity and its limit is that the firm gains nothing from the activity it avoids.",
+        "Spread suits market and supply risks; its cost is complexity and its limit is that a common cause can still affect every part.",
+        "Prevention suits risks that procedures can control; its cost is ongoing spending and its limit is that it cannot stop every event.",
+        "Transfer suits large, unpredictable losses such as fire or liability claims; its cost is the premium and its limit is gaps in cover and exclusions (events the policy does not pay for).",
+        "Retention suits small, affordable losses; its cost is the amount actually lost and its limit is exposure to large losses.",
+        "A firm might insure its premises, train its staff and hold a cash reserve at the same time, using transfer, prevention and retention together."
+      ],
+      "tip": "The 2025 Sample Paper 1 asks students to discuss four risk management strategies. Name four different ones (avoidance, spread and prevention are the strategies the specification names; add transfer or retention), and for each say what the firm does, the effect on the risk, and a cost or limit, applied to the business in the question. Common mistakes are naming strategies with no application, treating insurance as the only strategy, and giving no limit or cost."
+    },
+    {
+      "h": "Matching a response to each kind of risk",
+      "b": "Risks fall into categories, and a good response is chosen to fit the category rather than picked at random. Linking the response to the risk is what makes the analysis convincing.",
+      "points": [
+        "Financial risk, such as a large unexpected bill: retain small losses from a contingency fund and transfer large ones by insurance, because a reserve cannot cover a very big loss.",
+        "Market risk, such as a fall in demand: spread across more products and markets, because demand falling is uninsurable and cannot be prevented by procedures.",
+        "Operational risk, such as a machine breakdown or a supplier failing: prevent with planned maintenance, spread across suppliers, or transfer some of it by outsourcing.",
+        "Legal risk, such as injury claims or breaking employment law: prevent with health and safety procedures and training, and transfer the cost of claims with liability insurance.",
+        "Reputational risk, such as bad publicity: prevent it through quality control, ethical sourcing and fair treatment of staff, because insurance cannot restore a damaged name.",
+        "Cyber risk, such as a data breach: prevent with firewalls, updates, strong passwords and backups, and transfer part of the cost with cyber insurance.",
+        "Environmental risk, such as flood or storm damage: prevent with flood defences, transfer the cost of damage with property insurance, and avoid high-risk locations where the risk is too great.",
+        "Personal risk, such as the death or illness of a crucial employee: transfer the loss with key-person insurance and reduce it by training others to cover the role."
+      ],
+      "tip": "When the question gives a business and a risk, name the category, pick the strategy that fits it, and show why. Do not list strategies with no link to the business."
+    },
+    {
+      "h": "Insurance basics",
+      "b": "Insurance is the main way firms transfer risk, so its vocabulary matters. Insurance is a contract in which an insurer agrees to pay for specified losses in return for a payment.",
+      "points": [
+        "Premium: the payment the policyholder (the business buying cover) makes to the insurer for cover, usually monthly or yearly.",
+        "Policy: the written contract that sets out what is covered, the limits, the exclusions and the excess.",
+        "Claim: the request made by the policyholder for the insurer to pay for an insured loss.",
+        "Excess: the amount the policyholder must pay towards each claim before the insurer pays the rest; a higher excess usually means a lower premium, because the insurer pays out less on each claim.",
+        "Insurable risk: a risk that is accidental, can be measured and is not certain to happen, such as fire damage to premises.",
+        "Uninsurable risk: a loss that insurers will not cover, such as losses from a poor business decision or a fall in demand, because these are business gambles rather than accidents.",
+        "Insurance reduces the financial impact of a risk but does not prevent it, and an insurer may refuse a claim if a policy condition was breached."
+      ],
+      "tip": "Premium and excess are often confused: the premium is what you pay regularly for cover, and the excess is what you pay on each claim. In a 'distinguish' question, define both terms and state the difference."
+    },
+    {
+      "h": "Business insurance products",
+      "b": "Firms choose products that match the specific risks they face. The first group covers property and the claims other people can make, so it helps to remember who is making the claim.",
+      "points": [
+        "Property insurance covers buildings, stock and equipment against losses such as fire, theft and flood.",
+        "Public liability insurance covers claims by members of the public who are injured or whose property is damaged because of the business.",
+        "Employer's liability insurance covers claims by employees who are injured or become ill at work. It is not compulsory in Ireland, unlike in Great Britain and Northern Ireland, though most employers hold it.",
+        "Product liability insurance covers claims that a product sold by the business caused injury or damage.",
+        "Professional indemnity insurance covers claims that advice or a professional service was negligent or caused a client financial loss.",
+        "Public liability, product liability, professional indemnity, cyber and key-person cover are voluntary: the general law does not require them."
+      ],
+      "tip": "Do not say that employer's liability insurance is compulsory in Ireland; the compulsory cover to name is motor third-party. Keep the liability products apart: public liability is for the public, employer's liability for employees, product liability for goods sold, and professional indemnity for advice. In a 'choose insurance' answer, link each product to a risk of the business in the question."
+    },
+    {
+      "h": "Business insurance products: people, vehicles and operations",
+      "b": "Some products cover claims that other people make against the business, and others cover the firm's own operations and key staff.",
+      "points": [
+        "Motor insurance covers company vehicles, and third-party cover is compulsory for vehicles used on public roads in Ireland (section 56 of the Road Traffic Act 1961, as amended).",
+        "Business interruption insurance replaces lost income and pays some fixed costs while an insured event, such as a fire, halts trading.",
+        "Cyber insurance can cover the costs of a data breach, including response, legal costs and restoring systems.",
+        "Goods in transit insurance covers stock that is lost or damaged while being moved by road, sea or air.",
+        "Key-person insurance pays the business if a crucial employee dies or becomes unable to work, to cover lost profit or the cost of finding a replacement."
+      ]
+    },
+    {
+      "h": "Choosing insurance",
+      "b": "Choosing cover means matching the policy to the firm's exposure and budget. A sensible choice weighs several factors rather than buying every product on offer.",
+      "points": [
+        "Risk exposure: identify which risks are most likely or most serious for this business, such as property for a manufacturer or professional indemnity for a consultant.",
+        "Cost against cover: compare the premium with the potential loss, because paying for cover of a small loss may not be worthwhile.",
+        "Legal requirements: some cover is compulsory, such as motor third-party insurance, so the firm must buy it.",
+        "Policy details: check the limits, exclusions and excess, because a policy that excludes the main risk offers little protection.",
+        "Review: update cover as the business grows, moves premises or adds products, since an old policy may leave new risks uncovered.",
+        "An insurance broker can compare insurers and explain policy terms, which helps a firm with no specialist knowledge make an informed choice.",
+        "Climate-related risks such as flood and storm affect cover and cost: a firm in a high-risk location may pay more or be refused cover, which is why prevention such as flood defences is worth weighing.",
+        "Honest disclosure to the insurer is an ethical duty, and a claim can be refused if a policy condition was breached."
+      ],
+      "tip": "A 'choose insurance for this business' question needs risks matched to named products, plus the factors for choosing (exposure, cost against cover, legal requirements, policy details), justified for the business given. A common mistake is listing products without linking them to the business's risks."
+    },
+    {
+      "h": "Risk management in the news: Storm Éowyn and cyber attacks",
+      "b": "Two recent examples show these strategies at work: a storm that tested property insurance, and a survey that shows what cyber attacks cost Irish firms.",
+      "points": [
+        "Storm Éowyn hit Ireland in January 2025. The final insurance bill was over €301 million, the most expensive event in Irish insurance history (Irish Times, 15 August 2025).",
+        "There were 33,768 claims: 9,725 business claims worth €165.6 million and 22,530 household claims worth €129.4 million. This shows transfer in action, because the losses were claimed through insurance on property and business interruption cover, and it shows the scale of climate risk.",
+        "A Hiscox Cyber Readiness Report 2026 surveyed 300 Irish firms with fewer than 250 staff (Irish Examiner, 15 September 2026). SMEs hit by a successful attack averaged 34 hours of operational disruption, and 36% lost business opportunities or partnerships.",
+        "In the same survey 64% of respondents had cyber insurance. This links prevention (security measures that lower the chance of an attack) with transfer (insurance that pays part of the cost)."
+      ],
+      "tip": "When a question gives a storm claim or a cyber attack, name prevention and transfer together. The storm points to flood defences and property insurance; the cyber attack points to security measures, backups and cyber insurance."
+    }
   ],
   "keyTerms": [
     { "term": "Risk avoidance", "definition": "A strategy of not undertaking an activity, market or product because its risks outweigh its benefits." },

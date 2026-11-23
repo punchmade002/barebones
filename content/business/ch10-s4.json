@@ -4,63 +4,132 @@
   "subsection": "4. Cash-flow analysis: forecasts, worked example and remedies",
   "syllabusRef": "2.5.3",
   "notes": [
-    { "h": "Purpose of a cash-flow forecast", "b": "A cash-flow forecast predicts the money coming in and going out of a business each month, so the owner can see when cash will run short.", "points": [
-      "It shows when cash will run short, which gives time to arrange finance before a bill cannot be paid.",
-      "Lenders expect a forecast when a business applies for finance, because it shows how repayments will be met.",
-      "It lets an owner test a decision, such as buying equipment or giving customers longer credit, before committing to it.",
-      "It is usually prepared monthly for the next twelve months and updated as actual figures come in."
-    ] },
-    { "h": "Layout of the forecast", "b": "A cash-flow forecast has a standard layout, with the same lines in the same order each month.", "points": [
-      "The opening balance is the cash held at the start of the month.",
-      "Receipts are all the cash coming in, such as cash sales, payments from debtors and any capital introduced.",
-      "Payments are all the cash going out, such as stock, wages, rent, loan repayments and equipment.",
-      "Net cash flow is total receipts minus total payments for the month.",
-      "The closing balance is the opening balance plus net cash flow, and it becomes the next month's opening balance."
-    ] },
-    { "h": "Worked example: receipts and payments", "b": "The worked example uses invented sample figures for a small café over January to March. Each bullet is one figure from the forecast.", "points": [
-      "Sample figures, opening balance January: €2,000.",
-      "Sample figures, receipts January: cash sales of €7,000.",
-      "Sample figures, receipts February: cash sales of €5,000.",
-      "Sample figures, receipts March: cash sales of €9,000.",
-      "Sample figures, payments January: stock €3,000, wages €2,500, rent €1,000, utilities €500, total €7,000.",
-      "Sample figures, payments February: stock €2,500, wages €2,500, rent €1,000, utilities €500, oven purchase €4,000, total €10,500.",
-      "Sample figures, payments March: stock €3,500, wages €2,500, rent €1,000, utilities €500, total €7,500."
-    ] },
-    { "h": "Worked example: net flow and balances", "b": "Net cash flow is receipts minus payments each month, and each closing balance carries forward to the next month.", "points": [
-      "Sample figures, net cash flow January: €7,000 minus €7,000, which is €0.",
-      "Sample figures, net cash flow February: €5,000 minus €10,500, which is minus €5,500.",
-      "Sample figures, net cash flow March: €9,000 minus €7,500, which is €1,500.",
-      "Sample figures, closing balance January: €2,000 plus €0, which is €2,000.",
-      "Sample figures, closing balance February: €2,000 minus €5,500, which is minus €3,500.",
-      "Sample figures, closing balance March: minus €3,500 plus €1,500, which is minus €2,000."
-    ] },
-    { "h": "Reading the forecast", "b": "Reading the forecast means finding the months in deficit and working out the cause before choosing a remedy.", "points": [
-      "A month is in deficit when its closing balance is negative, meaning the business needs an overdraft or another form of borrowing.",
-      "In the sample figures February is the deficit month, and the cause is the €4,000 oven purchase rather than normal trading.",
-      "Seasonality, such as quieter trading in winter for a seaside café, can cause deficits in predictable months.",
-      "Late payment by debtors delays receipts, so a business can have sales on paper but no cash in the bank that month.",
-      "Repeated deficits across several months point to a structural problem, such as prices set too low, rather than a one-off event."
-    ] },
-    { "h": "Remedies", "b": "Remedies should match the cause. A one-off gap needs different action from a shortfall that keeps recurring.", "points": [
-      "Arranging an overdraft in advance agrees the limit before it is needed, which avoids the higher charges of an unarranged overdraft.",
-      "Delaying or rescheduling payments, such as agreeing longer terms with a supplier, moves a payment out of the deficit month.",
-      "Chasing debtors with prompt invoices, deposits or reminders brings receipts forward.",
-      "Sample figures, if the oven is leased at €500 a month from February instead of bought, February closes at €0 and March at €1,000.",
-      "Cutting costs, such as reducing stock or staff hours, helps only where the saving does not reduce sales.",
-      "Injecting capital through extra owner's equity or a share issue adds cash without adding loan repayments.",
-      "Invoice discounting or factoring turns unpaid invoices into immediate cash, at the cost of a fee."
-    ] },
-    { "h": "Cash versus profit", "b": "Cash and profit measure different things, and a business can be profitable on paper and still run out of cash.", "points": [
-      "Profit records income and costs when they are earned or incurred, whereas cash flow records money actually received and paid.",
-      "Credit sales count as revenue when the sale is made, but the cash arrives only when the customer pays.",
-      "A profitable business can run out of cash if its customers pay late or its loan repayments are high.",
-      "Cash-flow forecasts are used to manage liquidity, while profit figures show whether the business earns a return."
-    ] },
-    { "h": "Evaluation", "b": "A forecast is an estimate, so its reliability depends on the assumptions behind it.", "points": [
-      "A small error in the sales estimate can change a whole month's position, so sales assumptions need the most care.",
-      "A worst-case version of the forecast shows how much cash cushion the business needs before it commits to a plan.",
-      "Remedies have their own costs, such as overdraft interest or discounts given to customers for early payment."
-    ] }
+    {
+      "h": "Purpose of a cash-flow forecast",
+      "b": "A cash-flow forecast predicts the money coming in (receipts) and going out (payments) of a business each month. Cash flow records money actually received and paid, which is different from sales and expenses, so a forecast shows when the bank balance will run short even in a month with good sales.",
+      "points": [
+        "It shows when cash will run short, which gives the owner time to arrange finance before a bill cannot be paid.",
+        "Lenders expect a forecast when a business applies for finance, because it shows how repayments will be met.",
+        "It lets an owner test a decision, such as buying equipment or giving customers longer credit, before committing to it. The forecast shows whether the business could afford the change.",
+        "It is usually prepared monthly for the next twelve months and updated as actual figures come in, so the owner can compare plan with reality."
+      ],
+      "tip": "Remember that receipts and payments are not the same as sales and expenses. A credit sale is a sale, but it is not a receipt until the customer pays."
+    },
+    {
+      "h": "Layout of the forecast",
+      "b": "A cash-flow forecast has a standard layout, with the same lines in the same order each month. Following the order stops you losing the carried-forward balance.",
+      "points": [
+        "The opening balance is the cash held at the start of the month.",
+        "Receipts are all the cash coming in, such as cash sales, payments from debtors (customers who owe the business money for goods or services supplied on credit) and any capital introduced (cash that the owner or an investor puts in).",
+        "Payments are all the cash going out, such as stock, wages, rent, loan repayments and equipment. Equipment bought (capital expenditure) appears as a payment in the month it is paid for. Creditors are the suppliers the business owes, and they are paid when the payment falls due.",
+        "Net cash flow is total receipts minus total payments for the month. It covers one month only.",
+        "The closing balance is the opening balance plus net cash flow. It is the cumulative position, and it becomes the next month's opening balance.",
+        "Capital introduced is a receipt, but it is not revenue or profit, because it is the owners' own money going in. A loan received is also a receipt, but it is a debt that must be repaid."
+      ],
+      "tip": "Common mistakes are forgetting to carry the closing balance forward as the next opening balance, and treating a loan received as profit. Net cash flow is one month; the closing balance is cumulative."
+    },
+    {
+      "h": "Worked example: receipts and payments",
+      "b": "Here is a small café's forecast for January to March, using invented sample figures. Start by filling in the receipts and payments for each month.",
+      "points": [
+        "Sample figures, opening balance January: €2,000.",
+        "Sample figures, receipts: cash sales of €7,000 in January, €5,000 in February and €9,000 in March.",
+        "Sample figures, payments January: stock €3,000, wages €2,500, rent €1,000, utilities €500, total €7,000.",
+        "Sample figures, payments February: stock €2,500, wages €2,500, rent €1,000, utilities €500, oven purchase €4,000, total €10,500. The oven is equipment, so it is a payment in the month it is bought.",
+        "Sample figures, payments March: stock €3,500, wages €2,500, rent €1,000, utilities €500, total €7,500."
+      ],
+      "tip": "If a gap is left in a cash-flow table, work out net cash flow first, then the closing balance, and show your working."
+    },
+    {
+      "h": "Worked example: net flow and balances",
+      "b": "Net cash flow is receipts minus payments each month, and each closing balance carries forward to be the next month's opening balance.",
+      "points": [
+        "Sample figures, net cash flow January: €7,000 minus €7,000, which is €0.",
+        "Sample figures, net cash flow February: €5,000 minus €10,500, which is minus €5,500.",
+        "Sample figures, net cash flow March: €9,000 minus €7,500, which is €1,500.",
+        "Sample figures, closing balance January: €2,000 plus €0, which is €2,000.",
+        "Sample figures, closing balance February: €2,000 minus €5,500, which is minus €3,500.",
+        "Sample figures, closing balance March: minus €3,500 plus €1,500, which is minus €2,000. March made a positive net cash flow, but the balance is still negative because the February deficit carries forward."
+      ],
+      "tip": "Work down the table one month at a time and carry each closing balance across. Skipping this step is the usual way to get the later months wrong."
+    },
+    {
+      "h": "Reading the forecast",
+      "b": "To analyse a forecast, break it down: find which months are in deficit, how large each deficit is, why it happened, and whether the cause is a one-off or will recur. Only then can you choose a remedy.",
+      "points": [
+        "A month is in deficit when its closing balance is negative, so the business needs an overdraft or another form of borrowing to pay its bills.",
+        "In the sample figures February and March both close negative (minus €3,500 and minus €2,000). February is the month with the negative net cash flow, and the cause is the €4,000 oven purchase, a one-off, rather than normal trading.",
+        "March stays negative only because the February deficit carries forward. Its own trading is positive, with net cash flow of €1,500.",
+        "Seasonality, such as quieter trading in winter for a seaside café, can cause deficits in predictable months, so the owner can plan for them.",
+        "Late payment by debtors delays receipts, so a business can have sales on paper but no cash in the bank that month.",
+        "Large capital payments, like the oven, cause a sudden one-month gap because the whole cost is paid at once.",
+        "Repeated deficits across several months point to a structural problem, such as prices set too low, rather than a one-off event."
+      ],
+      "tip": "In an analyse answer, state the months in deficit, the size, the cause and whether it will repeat. A common mistake is restating the figures with no cause."
+    },
+    {
+      "h": "Remedies",
+      "b": "A remedy should match the cause: a one-off gap needs different action from a shortfall that keeps recurring. The sources of finance below are used as actions, each with its effect on the forecast.",
+      "points": [
+        "Arranging an overdraft in advance (agreeing the limit with the bank before it is needed) avoids the higher charges of an unarranged overdraft, so it suits a short, uncertain gap.",
+        "Delaying or rescheduling payments, such as agreeing longer terms with a supplier, moves a payment out of the deficit month.",
+        "Chasing debtors with prompt invoices, deposits or reminders brings receipts forward, so cash arrives sooner.",
+        "Lease instead of buy. Sample figures, if the oven is leased at €500 a month from February instead of bought, February payments are €7,000, net cash flow is minus €2,000 and February closes at €0. March payments are €8,000, net cash flow is €1,000 and March closes at €1,000.",
+        "Cutting costs, such as reducing stock or staff hours, helps only where the saving does not reduce sales.",
+        "Injecting capital through extra owner's equity or a share issue adds cash without adding loan repayments.",
+        "Invoice discounting or factoring turns unpaid invoices into immediate cash, at the cost of a fee. With invoice discounting the business keeps responsibility for collecting from its customers, but with factoring the factor usually collects."
+      ],
+      "tip": "A recommend answer needs one or two remedies matched to the cause, a justification, and the cost or limit of each. A common mistake is listing every remedy with no recommendation or no link to the cause."
+    },
+    {
+      "h": "Cash versus profit",
+      "b": "Cash and profit measure different things, and a business can be profitable on paper and still run out of cash. A deficit is a timing problem and does not by itself mean the business is making a loss.",
+      "points": [
+        "Profit records income and costs when they are earned or incurred, whereas cash flow records money actually received and paid.",
+        "Credit sales count as revenue when the sale is made, but the cash arrives only when the customer pays.",
+        "A profitable business can run out of cash if its customers pay late or its loan repayments are high.",
+        "A large asset purchase, like the oven, takes a whole payment out of cash in one month, so cash drops sharply even though the business is trading normally.",
+        "Cash-flow forecasts are used to manage liquidity (the ability to pay short-term bills as they fall due), while profit figures show whether the business earns a return."
+      ],
+      "tip": "Explain the difference with credit sales or a large asset purchase. Common mistakes are saying cash and profit are the same, or saying a negative cash balance means the business is making a loss."
+    },
+    {
+      "h": "Evaluation",
+      "b": "A forecast is an estimate, so its reliability depends on the assumptions behind it. Evaluating means judging how far to trust it and what each remedy costs.",
+      "points": [
+        "A small error in the sales estimate can change a whole month's position, so sales assumptions need the most care.",
+        "A worst-case version of the forecast shows how much cash cushion the business needs before it commits to a plan.",
+        "Remedies have their own costs, such as overdraft interest, a fee for invoice discounting or factoring, or discounts given to customers for early payment."
+      ],
+      "tip": "In an evaluate answer, say that a forecast depends on its assumptions and that sales estimates are the weak point."
+    },
+    {
+      "h": "Ethical, sustainable and digital angles",
+      "b": "Cash-flow decisions affect other people and the environment, and technology now gives businesses a live view of their cash. These are the angles to apply when a question asks you to discuss a business's cash position.",
+      "points": [
+        "Ethical: forecasts given to lenders and investors should be honest, because they rely on them to decide whether to lend or invest.",
+        "Ethical: a business should pay suppliers and staff on time even when cash is tight. Late payment hurts small suppliers, who may have no cash cushion of their own.",
+        "Late payment has a legal remedy. The European Communities (Late Payment in Commercial Transactions) Regulations 2012 (S.I. 580/2012) have been in operation from 16 March 2013.",
+        "Where no contract sets a period, businesses must pay within 30 days, and the supplier can claim late-payment interest and compensation. Contracts can set their own period.",
+        "Sustainability: a business can forecast the up-front cost of energy-efficient or sustainable investments against their lower running costs. Leasing the equipment instead of buying it can protect cash.",
+        "Digital: cloud accounting software and online banking give a real-time view of the cash position, and automated invoicing and payment reminders bring receipts forward.",
+        "Digital: fintech is defined as the use of technology to deliver financial services and products to consumers. Fintech invoice finance lets a business turn unpaid invoices into cash.",
+        "Digital: online payments bring cyber and payment fraud risk."
+      ],
+      "tip": "When a question gives a business context, link your analysis to one of these angles, for example the effect of late payment on a small supplier's cash flow."
+    },
+    {
+      "h": "In the news: applying cash-flow ideas",
+      "b": "Cash-flow ideas show up in the news, and you should apply them to stories you read. Here are two Irish examples, each linked to the concepts above.",
+      "points": [
+        "An Irish Times special report on 2 October 2026 explained that profit is recorded when a sale is made but cash arrives only when the customer pays. This illustrates cash versus profit, and the cause of deficits from late debtors.",
+        "According to Bibby Financial Services research reported in October 2026, 69% of SMEs report slower invoice payments (up from 62% in late 2025), and about 22% of SMEs cite cash-flow constraints. This shows how late payment squeezes small firms' receipts.",
+        "The same report named an overdraft for short uncertain gaps, a term loan for a defined need and invoice discounting as options, and recommended regular cash-flow forecasting. These are the remedies matched to the cause.",
+        "BPFI (Banking and Payments Federation Ireland) figures published in May 2026 showed more than €1.2 billion advanced to Irish businesses through invoice finance at the end of Q4 2025, up 1.6% year on year.",
+        "BPFI describes invoice finance as a working capital or revolving credit facility that gives access to cash held up in unpaid customer invoices. This illustrates invoice discounting and factoring."
+      ],
+      "tip": "When news is the stimulus, name the concept that explains the story, such as late debtors delaying receipts or a remedy that turns invoices into cash, and show how it explains what happened."
+    }
   ],
   "keyTerms": [
     { "term": "Cash-flow forecast", "definition": "A month-by-month prediction of cash receipts, payments and balances over a future period." },

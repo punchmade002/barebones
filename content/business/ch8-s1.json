@@ -4,52 +4,98 @@
   "subsection": "1. The business plan, and ethics and sustainability in planning",
   "syllabusRef": "2.3.1, 2.3.2",
   "notes": [
-    { "h": "What a business plan is", "b": "A business plan is a written document that sets out what a business intends to do, how it will do it and what resources it needs. It is the main planning document for a business, whether it is starting up or already trading.", "points": [
-      "It describes the business idea, the product or service, the target customers and the way the business will earn money.",
-      "It states goals and the steps needed to reach them, so managers know what to do and in what order.",
-      "It sets out the resources required, including people, premises, equipment, technology and finance.",
-      "It is a working tool that managers review and update as the business learns what works in practice."
-    ] },
-    { "h": "Functions of a business plan", "b": "A business plan performs five main functions, and the emphasis placed on each one changes with the stage of the business.", "points": [
-      "Direction and goals: it gives owners and staff a clear route and measurable targets to aim for.",
-      "Raising finance: it persuades banks, investors and grant bodies that the business is viable and that its owners have thought the venture through.",
-      "Benchmark for control: actual results can be compared with the plan so managers spot variances early and take corrective action.",
-      "Testing viability: writing the figures down shows whether the idea can cover its costs and earn a return before money is committed.",
-      "Communicating with stakeholders: employees, suppliers, landlords and advisers can all see what the business is trying to do."
-    ] },
-    { "h": "Typical sections of a plan", "b": "Most business plans follow a standard structure, although the length and detail of each section depend on the purpose of the plan.", "points": [
-      "Executive summary: a short overview of the whole plan, written last but placed first, so a busy reader can judge the proposal quickly.",
-      "Business description: the legal form, the founding idea, the products or services offered and the long-term vision.",
-      "Market analysis: the target market, the size and trends of demand, and the competitors the business will face.",
-      "Marketing plan: how the business will reach customers through its marketing mix and how much it will spend on promotion.",
-      "Operations and management: premises, production or service processes, the management team and the staff needed.",
-      "Financial plan: start-up costs, sales forecasts, a cash-flow forecast, a profit forecast and the funding required.",
-      "Risks: the main threats to the business and the actions planned to reduce them or respond if they occur."
-    ] },
-    { "h": "How the plan's role changes", "b": "The purpose of the plan shifts as a business moves from start-up to growth, so the emphasis of the plan changes with it.", "points": [
-      "At start-up the plan mainly tests viability and attracts initial finance, so it relies heavily on forecasts and the owner's assumptions.",
-      "During early operations the plan becomes a control benchmark, and managers compare monthly results with the forecasts.",
-      "When a business seeks growth, the plan focuses on new markets, new products, expansion finance and the staff needed to deliver them.",
-      "A mature business revises its plan regularly, especially when market conditions or costs change significantly."
-    ] },
-    { "h": "Ethics in business planning", "b": "Ethical planning builds fair treatment of people and honesty into the business from the outset, rather than adding them after problems appear.", "points": [
-      "Fair treatment of staff: pay, working conditions and training are planned so that employees are treated fairly and can be retained.",
-      "Fair treatment of suppliers: payment terms and purchasing agreements are set so that small suppliers are not exploited.",
-      "Honest marketing: promises made to customers in the plan must be accurate and must not mislead buyers about what the product does.",
-      "Responsible sourcing: the plan checks whether materials are produced legally and without exploiting the workers who make them."
-    ] },
-    { "h": "Sustainability in business planning", "b": "Sustainability planning considers how the business affects the environment and society, and whether it can keep operating over the long term.", "points": [
-      "Environmental impact: the plan estimates energy use, waste, emissions and water use, and sets targets to reduce them.",
-      "Circular design: products are planned so they can be repaired, reused or recycled, which cuts the waste they create at the end of their life.",
-      "Social impact: the plan considers effects on the local community, such as jobs created, local purchasing and community involvement.",
-      "Long-term viability: a business that depends on scarce resources or damages its reputation may not survive, so sustainability protects future income."
-    ] },
-    { "h": "Why investors and customers expect it", "b": "Stakeholders increasingly judge businesses on their ethics and their environmental and social record, and this affects both funding and sales.", "points": [
-      "Investors often assess ESG (environmental, social and governance) factors when deciding whether to fund a business, because these factors affect long-term risk.",
-      "Customers may choose or avoid a brand because of its environmental and ethical record, so weak practice can reduce sales.",
-      "Banks and grant bodies may ask how a plan handles environmental and social risks before approving finance.",
-      "Poor ethical conduct can lead to reputational damage, staff loss and legal action, all of which raise the cost of running a business."
-    ] }
+    {
+      "h": "What a business plan is",
+      "b": "Before a business spends money, its owners need to know what they are trying to do and what it will take. A business plan is a written document that sets out what a business intends to do, how it will do it and what resources it needs. It is the main planning document, whether the business is starting up or already trading.",
+      "points": [
+        "It describes the business idea, the product or service, the target customers and the way the business will earn money, so a reader can see what is being offered and who will pay for it.",
+        "It states goals and the steps needed to reach them, so managers know what to do and in what order.",
+        "It sets out the resources required, including people, premises, equipment, technology and finance, so the owners know what must be found before trading can begin.",
+        "It is a working tool, not a document written once and filed away. Managers review and update it as the business learns what works in practice.",
+        "A coherent plan has sections that fit together. For example, the marketing plan, the operations and the financial plan must all rest on the same assumptions about sales and costs, or the plan contradicts itself."
+      ],
+      "tip": "A common mistake is to describe a business plan as just a way to get a loan. Outline its other uses too: direction, control and communication."
+    },
+    {
+      "h": "Functions of a business plan",
+      "b": "A business plan performs five main functions, and the emphasis placed on each one changes with the stage of the business. Two ideas help here: a benchmark is the planned figure that actual results are compared against, and a variance is the gap between the planned and the actual result.",
+      "points": [
+        "Direction and goals: it gives owners and staff a clear route and measurable targets to aim for, so everyone is working towards the same aims.",
+        "Raising finance: it persuades banks, investors and grant bodies that the business is viable (able to earn enough income to cover its costs and stay financially workable) and that its owners have thought the venture through.",
+        "Benchmark for control: actual results are compared with the plan, so managers spot variances early and take corrective action before a small gap becomes a big problem.",
+        "Testing viability: writing the figures down shows whether the idea can cover its costs and earn a return before money is committed.",
+        "Communicating with stakeholders (anyone affected by the business or able to affect it): employees, suppliers, landlords and advisers can all see what the business is trying to do."
+      ],
+      "tip": "To explain a function, name it and then give the reason it works, for example that the benchmark is compared with actual results so a variance is spotted early. Do not mix up the benchmark (the planned figure) with the variance (the gap). A common mistake is to list sections of a plan when the question asks for functions, or to give one point twice in different words."
+    },
+    {
+      "h": "Typical sections of a plan",
+      "b": "Most business plans follow a standard structure, although the length and detail of each section depend on the purpose of the plan. A bank, for example, may require a plan in its own format.",
+      "points": [
+        "Executive summary: a short overview of the whole plan, written last but placed first, so a busy reader can judge the proposal quickly.",
+        "Business description: the legal form, the founding idea, the products or services offered and the long-term vision.",
+        "Market analysis: the target market, the size and trends of demand, and the competitors the business will face.",
+        "Marketing plan: how the business will reach customers through its marketing mix and how much it will spend on promotion.",
+        "Operations and management: premises, production or service processes, the management team and the staff needed.",
+        "Financial plan: start-up costs, sales forecasts, a cash-flow forecast (a projection of the money expected to come in and go out over a future period), a profit forecast and the funding required.",
+        "Risks: the main threats to the business and the actions planned to reduce them or respond if they occur.",
+        "Irish example: the Local Enterprise Offices publish free business plan templates and guides for start-ups. One template lists an executive summary, market, market strategy, organisation and management, production and operations, and costings and finance, with projected financial statements in the appendices."
+      ],
+      "tip": "Remember that the executive summary is written last but placed first. When asked to identify sections, short one-line answers are enough."
+    },
+    {
+      "h": "How the plan's role changes",
+      "b": "The purpose of the plan shifts as a business moves from start-up to growth, so the emphasis of the plan changes with it. This is how a plan supports start-up, operations, funding and development.",
+      "points": [
+        "At start-up the plan mainly tests viability and attracts initial finance, so it relies heavily on forecasts and the owner's assumptions, because there are no trading results yet.",
+        "During early operations the plan becomes a control benchmark, and managers compare monthly results with the forecasts to find variances.",
+        "When a business seeks growth, the plan focuses on new markets, new products, expansion finance and the staff needed to deliver them.",
+        "A mature business revises its plan regularly, especially when market conditions or costs change significantly, so that the plan still matches reality."
+      ],
+      "tip": "In a stimulus question, name the stage first (start-up, early operations or growth) and then link it to the function that matters most at that stage. A common mistake is a generic answer that ignores the business described."
+    },
+    {
+      "h": "Ethics in business planning",
+      "b": "Ethics is about fair and honest treatment of people. Ethical planning builds that fair treatment and honesty into the business from the outset, rather than adding them after problems appear.",
+      "points": [
+        "Fair treatment of staff: pay, working conditions and training are planned so that employees are treated fairly and can be retained.",
+        "Fair treatment of suppliers: payment terms and purchasing agreements are set so that small suppliers are not exploited.",
+        "Honest marketing: promises made to customers in the plan must be accurate and must not mislead buyers about what the product does.",
+        "Responsible sourcing: the plan checks whether materials are produced legally and without exploiting the workers who make them.",
+        "Digital ethics: a plan should say how the business will use digital channels, data and technology, and how it will protect customer data. Honest and lawful use of customers' data is an ethical point as well as a legal one."
+      ],
+      "tip": "Link ethics to a specific practice and its effect on the business, such as finance, sales, reputation or cost. A common mistake is to write 'be ethical' with no practice named."
+    },
+    {
+      "h": "Sustainability in business planning",
+      "b": "Sustainability is a separate idea from ethics. It looks at how the business affects the environment and society, and whether it can keep operating over the long term.",
+      "points": [
+        "Environmental impact: the plan estimates energy use, waste, emissions and water use, and sets targets to reduce them.",
+        "Circular design: products are planned so they can be repaired, reused or recycled, which cuts the waste they create at the end of their life. This follows the circular economy, a model of production and consumption which extends the life cycle of products, reduces waste and creates further value.",
+        "Social impact: the plan considers effects on the local community, such as jobs created, local purchasing and community involvement.",
+        "Long-term viability: a business that depends on scarce resources or damages its reputation may not survive, so sustainability protects future income."
+      ],
+      "tip": "Keep ethics (fair and honest treatment of people) and sustainability (environmental and social impact and long-term survival) apart in your answer. Name a specific practice, such as circular design, and say what it does for the business."
+    },
+    {
+      "h": "Why investors and customers expect it",
+      "b": "Stakeholders increasingly judge businesses on their ethics and their environmental and social record, and this affects both funding and sales.",
+      "points": [
+        "Investors often assess ESG factors when deciding whether to fund a business, because these factors affect long-term risk. ESG stands for environmental, social and governance, the three pillars of ESG frameworks, and businesses may in some cases be expected to report their performance under them.",
+        "Customers may choose or avoid a brand because of its environmental and ethical record, so weak practice can reduce sales.",
+        "Banks and grant bodies may ask how a plan handles environmental and social risks before approving finance.",
+        "Poor ethical conduct can lead to reputational damage, staff loss and legal action, all of which raise the cost of running a business."
+      ],
+      "tip": "Always finish an ethics or sustainability point with its effect on finance, sales, reputation or cost. A statement with no effect is a common mistake."
+    },
+    {
+      "h": "Digital tools and the plan",
+      "b": "Digital tools have changed how plans are produced and kept up to date.",
+      "points": [
+        "Plans are now commonly written, shared and updated with spreadsheets and cloud tools.",
+        "A plan can be updated as live data, such as sales and website traffic, comes in, which keeps the benchmark close to what is really happening."
+      ]
+    }
   ],
   "keyTerms": [
     { "term": "business plan", "definition": "A written document that sets out a business's goals, the methods it will use to reach them and the resources it needs." },
