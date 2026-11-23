@@ -5,77 +5,96 @@
   "syllabusRef": "1.3.4",
   "notes": [
     {
-      "h": "Aims of cooking",
+      "h": "Why we cook: the aims of cooking",
+      "b": "Cooking is more than making food hot. Heat changes the food in several useful ways, and each change is a reason examiners expect you to give.",
       "points": [
-        "Cooking makes food safe by destroying harmful micro-organisms, so food must be heated right through to the centre; FSAI guidance on safe cooking applies in Irish kitchens.",
-        "Heat denatures protein, changing its structure so that digestive enzymes can act on it more easily.",
-        "Cooking gelatinises starch, which makes rice, potatoes and pasta easier to digest.",
-        "Cooking softens the cellulose in plant cell walls, making vegetables tender and easier to chew.",
-        "Heat develops flavour and changes colour and texture, making food more appetising.",
+        "Cooking makes food safe by destroying harmful micro-organisms, so food must be heated right through to the centre, because bacteria deep inside a thick piece can survive if the heat never reaches them.",
+        "Heat denatures protein (changes its structure), so that digestive enzymes can act on it more easily.",
+        "Cooking gelatinises starch (the starch grains swell and burst in water and heat), which makes rice, potatoes and pasta easier to digest.",
+        "Cooking softens the cellulose in plant cell walls, so vegetables become tender and easier to chew.",
+        "Heat develops flavour and changes colour and texture, which makes food more appetising and gives variety in the diet.",
         "Cooking destroys enzymes and most spoilage micro-organisms, which extends the time food stays fit to eat."
-      ]
+      ],
+      "tip": "When asked why food is cooked, cover safety, digestibility, flavour, colour and texture, and keeping time, and give a short reason with each."
     },
     {
       "h": "Principles of cooking",
+      "b": "Whatever the method, cooking is heat moving from a source into the food. The cook controls how much heat reaches the food, for how long, and whether moisture or fat is present.",
       "points": [
-        "Heat moves from the source into the food; the cook controls how much heat reaches the food, for how long, and whether moisture is present.",
-        "Too low a temperature or too short a time leaves food undercooked and unsafe; too high a temperature or too long a time dries, toughens and burns the surface.",
-        "Thickness governs cooking time: thin pieces cook quickly and evenly, while a large joint needs lower heat for longer so that the centre cooks before the outside burns.",
-        "Moist methods prevent drying; dry methods need added fat, basting or a covered dish to keep food juicy.",
-        "Food type governs the method: cuts rich in connective tissue need long, slow cooking, while delicate foods need short cooking.",
+        "Too low a temperature or too short a time leaves food undercooked and unsafe, because the centre never gets hot enough; too high a temperature or too long a time dries, toughens and burns the surface.",
+        "Thickness governs cooking time: thin or small pieces cook quickly and evenly, while a large joint needs lower heat for longer so that the centre cooks before the outside burns.",
+        "Moist methods prevent food drying out; dry methods need added fat, basting (spooning hot fat or juices over the food) or a covered dish to keep food juicy.",
+        "Food type governs the method: cuts rich in connective tissue need long, slow cooking, while delicate foods need short cooking at gentle heat.",
         "Cooked food must be served promptly or cooled quickly, because the danger zone of 5 to 63 °C is where bacteria multiply fastest."
-      ]
+      ],
+      "tip": "For factors affecting cooking time, name size, thickness, temperature and food type. For a given food, match the principle: tough meat slow and moist, fish and eggs gentle heat, vegetables a short time in little water."
     },
     {
       "h": "Conduction",
-      "b": "Conduction is heat transfer through a solid from one molecule to the next, without the material itself moving.",
+      "b": "Conduction is heat transfer through a solid from one molecule to the next, without the material itself moving. It is the way heat passes from a hot pan into the food.",
       "points": [
-        "As molecules are heated they vibrate faster and pass energy to their neighbours until the whole piece is hot.",
-        "Metals such as aluminium and copper conduct heat quickly, which is why cooking pans are made from them; glass and ceramic conduct heat slowly.",
-        "Pan-based methods begin with conduction: heat passes from the cooker through the pan base into the liquid or fat, and then into the food.",
-        "Boiling, poaching, stewing and shallow frying all depend on conduction through the pan base.",
+        "As molecules at the hot end are heated they vibrate faster and pass energy to their neighbours, until the whole piece is hot.",
+        "Metals such as aluminium, copper and steel conduct heat quickly, which is why saucepans have metal bases; glass, ceramic, wood, plastic and air conduct heat slowly (they are insulators), which is why handles and oven gloves are made from them.",
+        "Pan-based methods begin with conduction: the cooker heats the pan base, which heats the liquid or fat in the pan, and that then heats the food.",
+        "Boiling, poaching, stewing, shallow frying and stir-frying all depend on conduction through the pan base.",
         "Searing a steak in a hot pan: heat conducts from the pan surface into the outer layers of the meat and then gradually towards the centre.",
         "Baking trays and cake tins conduct heat into the base of a cake, so the base sets before the top.",
-        "Solids conduct heat more slowly than liquids, so a large piece of solid food takes longer to cook through.",
+        "A large solid piece of food takes longer to cook through, because the heat has to travel inwards from the surface molecule by molecule.",
         "Diagram: arrows from a gas flame through a pan base into the food, labelled as conduction, with the direction of heat flow marked."
-      ]
+      ],
+      "tip": "Define conduction as heat passing molecule to molecule through a solid. Radiation needs no medium, but conduction does, and examiners expect boiling, frying or stewing as the cooking example."
     },
     {
       "h": "Convection",
-      "b": "Convection is heat transfer through a liquid or gas by currents: the heated fluid becomes less dense and rises, and cooler, denser fluid sinks to take its place.",
+      "b": "Convection is heat transfer through a liquid or gas by currents. The heated fluid expands and becomes less dense so it rises, and cooler, denser fluid sinks to take its place and is heated in turn.",
       "points": [
-        "Natural convection occurs in a pot of boiling water, in a stew and in the hot air of a conventional oven.",
-        "Forced convection: the fan in a fan oven circulates hot air, so food cooks faster and more evenly than in a conventional oven.",
+        "Natural convection occurs in a pot of boiling water, in a stew and in the hot air of a conventional oven, because the heated fluid rises on its own and the cooler fluid sinks.",
+        "Forced convection: the fan in a fan oven circulates the hot air, so food cooks faster and more evenly than in a conventional oven.",
         "Deep-fat frying: convection currents in the hot oil carry heat to every surface of the immersed food at once.",
-        "Steaming: steam rises from boiling water and condenses on cooler food, releasing its latent heat to cook it.",
-        "Examples: boiling, steaming, deep-fat frying, and baking or roasting in a fan oven.",
+        "Steaming: hot steam rises from boiling water and carries heat to the food, and it also condenses on cooler food, releasing its latent heat (the heat stored in steam) to cook it.",
+        "Examples: boiling, stewing, steaming, deep-fat frying, and baking or roasting in an oven.",
         "Diagram: a pot of water with arrows showing hot water rising from the base, cooling at the surface and sinking at the sides."
-      ]
+      ],
+      "tip": "Define convection as currents in a liquid or gas, then give boiling, baking, roasting or steaming as the example. Steaming is convection, not radiation."
     },
     {
       "h": "Radiation",
-      "b": "Radiation is heat transfer by infrared rays that travel in straight lines from a hot source to the surface of the food. No medium is needed.",
+      "b": "Radiation is heat transfer by infrared rays that travel in straight lines from a hot source and heat the first solid surface they strike. No solid, liquid or gas is needed to carry it.",
       "points": [
-        "The surface struck by radiant heat absorbs it, so browning and crisping happen on that surface while the centre cooks by conduction.",
-        "Grilling uses an element or flame above or below the food; thin pieces cook quickly because the heat is intense.",
-        "Barbecuing and toasting use radiant heat from glowing coals, gas flames or elements.",
-        "Dark, matt surfaces absorb radiant heat more readily than shiny surfaces, which reflect it.",
-        "Radiant heat weakens with distance from the source, so the height of a grill rack is adjusted to control the heat.",
+        "The surface struck by radiant heat absorbs it, so browning and crisping happen on that surface while the inside of the food cooks by conduction.",
+        "Grilling uses an element or flame above or below the food to heat the surface, sealing and browning it; thin pieces cook quickly because the heat is intense.",
+        "Barbecuing and toasting use radiant heat from glowing coals, gas flames or electric elements.",
+        "Dark, dull (matt) surfaces absorb radiant heat more readily than shiny surfaces, which reflect it; this is why foil reflects heat.",
+        "Radiant heat weakens with distance from the source, so the height of the grill rack is adjusted to control how much heat the food receives.",
         "Diagram: straight arrows from a grill element to the top surface of a piece of food, labelled as radiation."
-      ]
+      ],
+      "tip": "Radiation is straight lines, heating the first solid object it hits, with no medium needed. For a one-method answer, give grilling as radiation."
+    },
+    {
+      "h": "Combined heat transfer and the microwave",
+      "b": "In practice most cooking uses more than one type of heat transfer at once. Microwave cooking is a special case, because the heat is made inside the food.",
+      "points": [
+        "Roasting uses radiation from the oven walls and element, convection by the hot air, and conduction inside the food.",
+        "Boiling uses conduction through the pan base, then convection in the water, which is at 100 °C when boiling.",
+        "In microwave cooking, a magnetron produces microwaves (electromagnetic waves) that make the water molecules in the food vibrate, and this makes heat inside the outer layer of the food.",
+        "Once the heat is made in the outer layer, it spreads inwards by conduction."
+      ],
+      "tip": "If microwave cooking comes up as an example, say that the heat spreads by conduction once it has been made."
     },
     {
       "h": "Applying the principles to food commodities",
+      "b": "Each type of food reacts to heat in its own way, so the principles above are applied differently to each one. The right choice gives food that is safe, tender and keeps its colour and nutrients.",
       "points": [
-        "Meat: tough cuts need long, moist cooking so that collagen converts to gelatine; tender cuts can be grilled or fried quickly.",
-        "Fish: its flesh has little connective tissue and sets quickly, so it needs short cooking at gentle heat; poaching and steaming suit it.",
-        "Eggs: egg proteins set at moderate temperatures, so eggs and custards need gentle heat; high heat makes scrambled egg rubbery and custard curdle.",
-        "Vegetables and fruit: short cooking in a little boiling water, or steaming, keeps colour and water-soluble vitamins.",
-        "Cereals and pasta: starch needs water and heat to gelatinise, so rice and pasta are cooked in plenty of boiling water.",
+        "Meat: tough cuts, rich in collagen, need long, slow, moist cooking so that collagen converts to gelatine; tender cuts can be grilled or fried quickly.",
+        "Fish: its flesh has little connective tissue and sets quickly, so it needs short cooking at gentle heat; poaching, steaming, grilling, baking and frying all suit it.",
+        "Eggs: egg proteins set (coagulate) at moderate temperatures, so eggs and custards need gentle heat; high heat makes scrambled egg rubbery and custard curdle.",
+        "Vegetables and fruit: short cooking in a little boiling water, or steaming, keeps colour, texture and water-soluble vitamins, which would otherwise dissolve into the cooking water.",
+        "Cereals, rice and pasta: starch needs water and heat to gelatinise, so they are cooked in plenty of boiling water or steam.",
         "Milk and cheese: milk scorches on direct heat and cheese turns stringy at high temperatures, so sauces containing them are cooked gently.",
-        "Fats and oils: fat overheats and smokes if heated too far, so frying oil must be watched and an oil with a high smoke point chosen for deep-fat frying.",
-        "Pastry: the fat is kept cold when rubbed in, and the dry heat of the oven sets the flaky structure."
-      ]
+        "Fats and oils: fat overheats, smokes and breaks down if heated too far, so frying oil must be watched, an oil with a high smoke point chosen for deep-fat frying, and it should not be reused too often.",
+        "Pastry and cakes: the fat is kept cold when rubbed in, the dry heat of the oven sets the flaky structure, and the oven should not be opened early when baking a cake."
+      ],
+      "tip": "When choosing a method for a given food, link the food to its principle: tough meat slow and moist, fish and eggs gentle heat, vegetables a short time and little water."
     }
   ],
   "keyTerms": [

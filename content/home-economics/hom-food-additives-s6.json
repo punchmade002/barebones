@@ -6,95 +6,131 @@
   "notes": [
     {
       "h": "Critical evaluation of dishes and meals",
-      "b": "Evaluation judges a dish against stated criteria, using evidence from the dish itself.",
+      "b": "Evaluation means judging a dish or meal against stated criteria, using evidence from the dish itself rather than just saying whether you liked it. A good evaluation always ends with a reason and an improvement.",
       "points": [
-        "Criteria include nutritional value (energy, fibre, fat, sugar and salt), cost per portion, sensory qualities, time and skill required, suitability for the household, safety and hygiene, and packaging and waste.",
-        "Method: state the criterion, give evidence from the recipe, label or tasting, make a judgement and give the reason for it, then suggest an improvement.",
-        "Settings: evaluate a family meal against a healthy-eating guideline, such as the Department of Health Food Pyramid, and suggest changes to the portions or ingredients."
-      ]
+        "Criteria include nutritional value (energy, fibre, fat, sugar and salt), cost per portion, sensory qualities (appearance, aroma, flavour and texture), time and skill required, suitability for the household or special diets, safety and hygiene, and packaging and waste.",
+        "Method: 1. State the criterion. 2. Give evidence from the recipe, label or tasting. 3. Make a judgement and give the reason for it. 4. Suggest an improvement. Evidence is what stops a judgement being just an opinion.",
+        "Recipes are modified to make them more nutritious, to suit special diets such as coeliac (a condition where gluten must be avoided), to change the quantity made, or to save cost.",
+        "Setting: evaluate a family meal against healthy-eating guidelines, such as the Department of Health Food Pyramid, and suggest changes to the portions or ingredients so that it matches the recommended balance."
+      ],
+      "tip": "Examiners want a judgement with a reason, not a description of the dish. For every criterion, give evidence, say whether it is good or poor and why, then suggest a change."
     },
     {
       "h": "Comparing home-made and commercial products",
+      "b": "A home-made dish and its shop-bought equivalent can be compared on the same set of criteria, usually in a table, before you reach an overall judgement. Neither is always better, because the result depends on the dish and the quantities.",
       "points": [
         "Cost: home-made food from basic ingredients is often cheaper per portion, whereas commercial products carry the costs of labour, packaging and distribution.",
-        "Nutrition: home-made food lets the cook control salt, sugar, fat and fibre, while the commercial nutrition declaration allows products to be compared.",
+        "Nutrition: home-made food lets the cook control salt, sugar, fat and fibre, while the commercial nutrition declaration (the nutrition information on the label) allows products to be compared.",
         "Additives: home-made food usually contains none of the preservatives, colourings or emulsifiers that many commercial products contain.",
-        "Time and skill: commercial products need little time or skill, while home-made food needs preparation, cooking and cleaning time.",
+        "Time and skill: commercial products need little time or skill, which saves effort, while home-made food needs preparation, cooking and cleaning time.",
         "Sensory quality: home-made food may taste fresher, while a commercial product gives the same taste and texture from one batch to the next.",
         "Shelf life: commercial products are processed to last longer, while home-made food usually needs refrigeration and is eaten within a short time.",
-        "Packaging and waste: home-made food bought in loose ingredients may create less packaging waste than a pre-packed commercial equivalent."
-      ]
+        "Packaging and waste: home-made food made from loose ingredients may create less packaging waste than a pre-packed commercial equivalent, which comes in more packaging.",
+        "Method: compare the same product on a set of criteria in a table, then reach a judgement that weighs them up."
+      ],
+      "tip": "Write that home-made food is 'often cheaper per portion', not simply 'cheaper', because it depends on the dish and quantities. Finish with a judgement, not just a list of differences."
     },
     {
       "h": "Uses of sensory analysis in the food industry (Higher Level only)",
-      "b": "Sensory analysis is the scientific evaluation of food using the senses, carried out under controlled conditions.",
+      "b": "Sensory analysis is the scientific evaluation of food using the senses, carried out under controlled conditions. Food companies use it so that decisions about a product are based on what consumers actually perceive, not on guesses.",
       "points": [
-        "Product development: testing samples to find which version consumers prefer before a new product is launched.",
-        "Modifying an existing product: for example reducing the salt in a product, with difference tests used to confirm that consumers cannot perceive the change.",
-        "Matching an existing product: testing so that an own-label food can be made to taste like the leading brand.",
+        "Product development: testing samples to find which version consumers prefer, and how they respond to a new product, before it is launched.",
+        "Modifying an existing product: for example reducing the salt in a product, or changing an ingredient or supplier, with difference tests used to confirm that consumers cannot perceive the change.",
+        "Matching an existing product: testing so that an own-label food can be made to taste like the leading brand, copying a well-known brand.",
         "Evaluation and quality control: checking that the final product meets its original specification, such as the shortness of a biscuit.",
         "Comparing an own-brand product with a leading brand, and supporting marketing claims about taste or texture."
-      ]
+      ],
+      "tip": "When asked when sensory analysis is used, give several different uses (product development, modifying, matching a brand, quality control) and add an example to each."
     },
     {
       "h": "Preference tests (Higher Level only)",
+      "b": "The first of three categories of sensory test is the preference test. It asks whether people like a product, not whether they can tell products apart.",
       "points": [
         "Preference tests show whether consumers like or dislike a product, or prefer one product to another.",
         "Paired preference test: the tester chooses the preferred of two coded samples.",
-        "Hedonic rating scale: the tester rates how much they like a product on a numbered scale from dislike extremely to like extremely.",
-        "Food action rating: the tester states how likely they are to buy or eat the product.",
+        "Hedonic rating scale: the tester rates how much they like a product on a numbered scale from dislike extremely to like extremely, so it measures liking.",
+        "Food action rating: the tester states how likely they are to buy or eat the product, so it measures willingness to eat or buy.",
         "Preference ranking: the tester ranks several samples from most to least preferred."
-      ]
+      ],
+      "tip": "Name a preference test with its purpose: it finds out which product people like or prefer. Do not confuse it with a difference test, which only shows whether people can tell samples apart."
     },
     {
       "h": "Difference and descriptive tests (Higher Level only)",
+      "b": "The other two categories of sensory test ask different questions. Difference tests ask whether people can tell samples apart, and descriptive tests ask what the samples are like.",
       "points": [
-        "Difference tests show whether a difference exists between samples and, if so, how noticeable it is.",
+        "Difference tests show whether a difference exists between samples and, if so, how noticeable it is, which tells a company whether consumers would notice a change.",
         "Simple difference paired comparison: the tester says whether two coded samples, which may be the same or different, are different.",
         "Directional paired comparison: the tester identifies which of two samples has a greater intensity of a stated characteristic, such as sweetness.",
-        "Triangle test: the tester identifies which of three coded samples is different from the other two.",
-        "Duo-trio test: the tester is given a reference sample and two coded samples, and identifies the coded sample that differs from the reference.",
-        "Descriptive tests describe the perceived sensory characteristics of products.",
+        "Triangle test: the tester identifies which of three coded samples is different from the other two. By chance one in three would be right.",
+        "Duo-trio test: the tester is given a reference sample and two coded samples, and identifies which coded sample is the same as the reference, so the other is different. By chance one in two would be right.",
+        "Descriptive tests describe the perceived sensory characteristics of products, such as the effect of processing, packaging or storage on quality.",
         "Descriptive ranking ranks samples by the intensity of a characteristic; descriptive rating scores that intensity on a scale."
-      ]
+      ],
+      "tip": "For three categories with one test each, give preference (paired preference), difference (triangle) and descriptive (descriptive ranking), and state each purpose: liked or preferred, does a difference exist, describe characteristics."
     },
     {
       "h": "Investigation: triangle test (Higher Level only)",
-      "b": "The triangle test checks whether testers can detect a difference between two products.",
+      "b": "The triangle test checks whether testers can detect a difference between two products, for example an established product and a lower-salt version. Each tester gets three samples and must pick out the odd one.",
       "points": [
-        "Aim: to find out whether testers can identify the odd sample among three coded samples.",
+        "Aim: to find out whether testers can identify the odd sample among three coded samples, and so whether a difference between the two products can be detected.",
         "Independent variable: the samples, two identical and one different.",
         "Dependent variable: the tester's choice of the odd sample.",
-        "Controlled variables: temperature, amount, shape, colour and container of each sample, timing of the test and the room conditions.",
-        "Method: 1. Set up a tray with three coded samples in a balanced, randomised order. 2. Each tester tastes the samples in the order given. 3. The tester identifies the sample that is different. 4. Record the responses on a sheet. 5. Reveal the codes and count the correct answers.",
-        "Chance: testers guess correctly one time in three, so the number of correct answers is compared with this chance level.",
-        "Expected result: if significantly more testers than chance identify the odd sample, a difference is detected.",
+        "Controlled variables: temperature, amount, shape, colour and container of each sample, timing of the test and the room conditions, so that only the product itself can explain a correct choice.",
+        "Method: 1. Set up a tray with three coded samples (random three-digit codes) in a balanced, randomised order. 2. Each tester tastes the samples in the order given, with water between samples and no discussion.",
+        "Method, continued: 3. The tester identifies the sample that is different. 4. Record the responses on a sheet. 5. Reveal the codes and count the correct answers.",
         "Diagram: a tray with three identical, coded containers, one marked as the odd sample for the investigator's records only."
-      ]
+      ],
+      "tip": "For a full account of one difference test, give its name, its aim, and the implementation points: coded samples, balanced serving order, rinsing, recording, comparison with chance and a conclusion."
     },
     {
-      "h": "Conditions for accurate sensory results (Higher Level only)",
+      "h": "Triangle test: serving order and results (Higher Level only)",
+      "b": "Once the testers have responded, the answers must be read against chance, because a tester who simply guesses will still be right some of the time. The serving order must also be planned so that position does not bias the answers.",
       "points": [
-        "Location: testing booths or enough space between testers, with no talking so that information is not shared.",
-        "Lighting and ventilation: bright, preferably natural, light, and ventilation that removes lingering odours.",
-        "Timing: mid-morning or mid-afternoon, when taste sensitivity is best, with no strongly flavoured food or drink for at least 30 minutes before the test.",
-        "Organisers: the people who set up the test should not take part as testers.",
-        "Samples: all samples at the same temperature, of uniform shape, colour and amount, and in identical containers, with water or a dry cracker for rinsing.",
-        "Coding and sequence: samples are coded so that the codes do not cause bias, and the order of presentation is planned and balanced.",
+        "Serving order: there are six possible orders (AAB, ABA, BAA, ABB, BAB, BBA, where A and B are the two products), and a balanced or randomised order means no sample is favoured by where it sits on the tray.",
+        "Chance: testers guess correctly one time in three, so the number of correct answers is compared with this chance level, using a significance table.",
+        "Expected result: if enough testers, compared with chance, identify the odd sample, a difference is detected.",
+        "A triangle test shows only whether a difference can be detected. A preference test would then show whether testers like the change."
+      ],
+      "tip": "A triangle test says nothing about which sample people like. Say that the result is compared with chance, and do not quote a number of testers or a significance value."
+    },
+    {
+      "h": "Conditions for accurate sensory results: place and people (Higher Level only)",
+      "b": "Sensory tests measure human perception, which is easily disturbed. The room and the testers must therefore be controlled so that the results reflect the food and nothing else.",
+      "points": [
+        "Location: a quiet, clean, odour-free room with testing booths or enough space between testers, and no talking so that information is not shared and opinions are not influenced.",
+        "Lighting and ventilation: bright, even, preferably natural, light so that samples are seen clearly, and ventilation that removes lingering odours.",
+        "Timing: mid-morning or mid-afternoon, when taste sensitivity is best, with no strongly flavoured food or drink, smoking or gum for at least 30 minutes before the test.",
+        "Testers who are ill should not take part, because illness dulls taste and smell.",
+        "Organisers: the people who set up the test should not take part as testers, because they already know which sample is which.",
+        "Instructions: clear, identical instructions are given to every tester, and one characteristic is judged at a time."
+      ],
+      "tip": "Give at least four or five conditions and attach a reason to each; a bare list of conditions earns less than conditions with reasons."
+    },
+    {
+      "h": "Conditions for accurate sensory results: samples and procedure (Higher Level only)",
+      "b": "The samples themselves must be identical in every way except the feature being tested. Otherwise a tester could be reacting to something other than what the test is measuring.",
+      "points": [
+        "Samples: all samples at the same temperature, of uniform shape, colour and amount, and in identical containers, so that nothing but the product differs.",
+        "Number of samples: it is limited so that testers do not become tired or confused.",
+        "Coding and sequence: samples are coded so that the codes do not cause bias, and the order of presentation is planned and balanced, as is the set-up of the trays.",
+        "Palate cleansing: water, or a dry or plain cracker where suitable, is used for rinsing between samples so that one taste does not carry over into the next.",
         "Hygiene and dietary needs: strict hygiene and food safety are maintained, and special dietary conditions, such as coeliac disease, are catered for."
-      ]
+      ],
+      "tip": "Samples are coded so the codes do not bias testers, and the order is balanced. Say why each condition matters, for example that identical containers stop testers judging by appearance."
     },
     {
       "h": "The senses and food choice",
+      "b": "We choose, cook and eat food with all of our senses, not just taste. Each sense gives information about whether food is fresh, safe and appetising.",
       "points": [
-        "Sight: appearance, colour, size, shape and gloss are used to judge whether food looks acceptable and fresh.",
-        "Expectations of colour matter: mould is acceptable on Stilton cheese but not on bread.",
-        "Smell: aroma and odour help to judge freshness, and a rancid or off smell leads to rejection.",
-        "Taste: the taste buds detect sweet, salt, sour and bitter, and umami is the fifth taste, given by glutamate.",
-        "Touch and mouthfeel: nerves in the mouth detect texture, temperature and chemical heat, such as the burn of chilli.",
+        "Sight: appearance, colour, size, shape, gloss and presentation are used to judge whether food looks acceptable and fresh.",
+        "Expectations of colour matter: mould is acceptable on Stilton cheese but not on bread, and lemon is associated with yellow and mint with green.",
+        "Smell: aroma and odour help to judge freshness, and a rancid or off smell leads to rejection, while a good smell makes food appetising.",
+        "Taste: the taste buds detect sweet, salt, sour and bitter, and umami is the fifth taste, savoury and given by glutamate.",
+        "Touch and mouthfeel: nerves in the mouth detect texture (such as crisp, creamy or gritty), temperature (such as ice cream) and chemical heat, such as the burn of chilli.",
         "Hearing: the sound of food, such as sizzling sausages, crunchy vegetables or fizzy drinks, influences choice and eating.",
-        "Cooking changes the senses: colour changes, flavours intensify and an aroma develops, making cooked food more appetising than raw."
-      ]
+        "Cooking changes the senses: colour changes, flavours intensify, an aroma develops and textures change, making cooked food more appetising than raw."
+      ],
+      "tip": "Taste is only sweet, salt, sour, bitter and umami. Flavour also includes aroma and mouthfeel, and chilli heat is nerves being stimulated chemically, not a taste. Give three or four developed points, each with an example."
     }
   ],
   "keyTerms": [
