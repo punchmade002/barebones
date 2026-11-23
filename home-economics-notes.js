@@ -11815,13 +11815,13 @@
   "questions": [
    {
     "marks": 6,
-    "model": "The Act gives a spouse a right of occupation in the family home, the dwelling in which the spouses ordinarily live together, even where that spouse does not hold legal title. A spouse cannot sell, lease or mortgage the home without the written consent of the other spouse. The non-owning spouse can therefore remain in the home and prevent it being dealt with without agreement.",
+    "model": "The Act protects the family home, the dwelling in which the spouses ordinarily live together, even where one spouse does not hold legal title. The owning spouse cannot sell, lease or mortgage the home without the other spouse's prior written consent. The non-owning spouse can therefore prevent the home being sold, leased or mortgaged without their agreement.",
     "prompt": "Explain why a spouse who does not own the family home is protected by the Family Home Protection Act 1976.",
     "type": "short"
    },
    {
     "marks": 16,
-    "model": "The family home is the dwelling where the spouses ordinarily live together, and the Act protects it whatever the ownership arrangements. A spouse who has no legal title keeps a right of occupation. Neither spouse may sell, lease or mortgage the home without the other's written consent. Where consent is withheld unreasonably, the court can dispense with it in certain circumstances. A transaction made without the required consent can be set aside by the court. A spouse's right of occupation can be registered as a burden on the title, so future buyers and lenders are on notice. Consent also matters for mortgage finance, since a lender will usually require both spouses to consent to a mortgage over the family home.",
+    "model": "The family home is the dwelling where the spouses ordinarily live together, and the Act protects it whatever the ownership arrangements. Neither spouse may sell, lease or mortgage the home without the other's prior written consent; an oral agreement is not enough. Where consent is withheld unreasonably, the other spouse can apply to the court to dispense with it, and the court can also do so where a spouse has deserted, cannot be found or lacks capacity. A dealing made without the required consent is void, although it is treated as not void unless a court declares it void or the parties state in writing within six years that it is void. A spouse can register a notice of the marriage against the title of the home, which warns buyers and lenders that consent is needed. Consent also matters for mortgage finance, since a lender will want the other spouse's written consent before lending on the family home.",
     "prompt": "Outline how the Family Home Protection Act 1976 protects the family home and explain the role of consent in this protection.",
     "type": "short"
    }
