@@ -1,0 +1,279 @@
+[
+ {
+  "skill": "num-prime-factors",
+  "problems": [
+   {
+    "question": "Write 180 and 300 each as a product of prime numbers.\nHence find the highest common factor (HCF) of 180 and 300.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Factorise 180",
+       "lines": [
+        {
+         "tex": "180 &= 2 \\times 90",
+         "sym": "Eq(180, 2*90)"
+        },
+        {
+         "tex": "&= 2 \\times 2 \\times 45",
+         "sym": "Eq(180, 2*2*45)"
+        },
+        {
+         "tex": "&= 2^2 \\times 3^2 \\times 5",
+         "sym": "Eq(180, 2**2*3**2*5)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise 300",
+       "lines": [
+        {
+         "tex": "300 &= 2 \\times 150",
+         "sym": "Eq(300, 2*150)",
+         "new": true
+        },
+        {
+         "tex": "&= 2 \\times 2 \\times 75",
+         "sym": "Eq(300, 2*2*75)"
+        },
+        {
+         "tex": "&= 2^2 \\times 3 \\times 5^2",
+         "sym": "Eq(300, 2**2*3*5**2)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply the primes common to both, using the lower power of each",
+       "lines": [
+        {
+         "text": "Common: $2^2$, $3^1$ and $5^1$."
+        },
+        {
+         "tex": "\\text{HCF} &= 2^2 \\times 3 \\times 5",
+         "sym": "2**2*3*5",
+         "new": true
+        },
+        {
+         "tex": "&= 60",
+         "sym": "60"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "60"
+    },
+    "finalSym": "60",
+    "answerSym": "igcd(180, 300)"
+   },
+   {
+    "question": "A baker has 60 buns, 90 scones and 150 muffins. She packs them into identical boxes with no items left over. Each box has the same number of buns, the same number of scones and the same number of muffins.\nWrite 60, 90 and 150 each as a product of primes and hence find the greatest number of boxes she can make.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Factorise 60",
+       "lines": [
+        {
+         "tex": "60 &= 2 \\times 30",
+         "sym": "Eq(60, 2*30)"
+        },
+        {
+         "tex": "&= 2 \\times 2 \\times 15",
+         "sym": "Eq(60, 2*2*15)"
+        },
+        {
+         "tex": "&= 2^2 \\times 3 \\times 5",
+         "sym": "Eq(60, 2**2*3*5)"
+        }
+       ]
+      },
+      {
+       "title": "Factorise 90 and 150",
+       "lines": [
+        {
+         "tex": "90 &= 2 \\times 3^2 \\times 5",
+         "sym": "Eq(90, 2*3**2*5)",
+         "new": true
+        },
+        {
+         "tex": "150 &= 2 \\times 3 \\times 5^2",
+         "sym": "Eq(150, 2*3*5**2)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "The greatest number of boxes is the HCF: multiply the primes common to all three, using the lowest power of each",
+       "lines": [
+        {
+         "text": "Common: $2^1$, $3^1$ and $5^1$."
+        },
+        {
+         "tex": "\\text{HCF} &= 2 \\times 3 \\times 5",
+         "sym": "2*3*5",
+         "new": true
+        },
+        {
+         "tex": "&= 30",
+         "sym": "30"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "30 \\text{ boxes}"
+    },
+    "finalSym": "30",
+    "answerSym": "igcd(igcd(60, 90), 150)"
+   }
+  ]
+ },
+ {
+  "skill": "num-sci-notation",
+  "problems": [
+   {
+    "question": "The Earth is about 4600 million years old.\nWrite 4600 million in the form $a \\times 10^n$, where $1 \\le a < 10$ and $n \\in \\mathbb{N}$.",
+    "level": "ordinary",
+    "marks": 10,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write 4600 million as a number",
+       "lines": [
+        {
+         "text": "A million is $10^6$."
+        },
+        {
+         "tex": "4600 \\text{ million} &= 4600 \\times 10^6",
+         "sym": "4600*10**6",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Write 4600 in the form a × 10ⁿ with 1 ≤ a < 10",
+       "lines": [
+        {
+         "tex": "4600 \\times 10^6 &= 4.6 \\times 10^3 \\times 10^6",
+         "sym": "4.6*10**3*10**6"
+        },
+        {
+         "tex": "&= 4.6 \\times 10^9",
+         "sym": "4.6*10**9"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "4.6 \\times 10^9"
+    },
+    "finalSym": "4.6*10**9",
+    "answerSym": "4600*10**6"
+   }
+  ]
+ },
+ {
+  "skill": "num-surds",
+  "problems": [
+   {
+    "question": "Express $\\sqrt{75} - \\sqrt{12}$ in the form $a\\sqrt{b}$, where $a, b \\in \\mathbb{N}$.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Write each number as a square times 3",
+       "lines": [
+        {
+         "tex": "\\sqrt{75} &= \\sqrt{25 \\times 3}",
+         "sym": "sqrt(75)"
+        },
+        {
+         "tex": "\\sqrt{12} &= \\sqrt{4 \\times 3}",
+         "sym": "sqrt(12)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Take the square roots out",
+       "lines": [
+        {
+         "tex": "\\sqrt{75} &= 5\\sqrt{3}",
+         "sym": "5*sqrt(3)",
+         "new": true
+        },
+        {
+         "tex": "\\sqrt{12} &= 2\\sqrt{3}",
+         "sym": "2*sqrt(3)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Subtract the like surds",
+       "lines": [
+        {
+         "tex": "5\\sqrt{3} - 2\\sqrt{3} &= 3\\sqrt{3}",
+         "sym": "3*sqrt(3)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "3\\sqrt{3}"
+    },
+    "finalSym": "3*sqrt(3)",
+    "answerSym": "sqrt(75) - sqrt(12)"
+   }
+  ]
+ },
+ {
+  "skill": "prob-relative-frequency",
+  "problems": [
+   {
+    "question": "A spinner was spun 400 times and landed on blue 92 times.\nFind the relative frequency of blue. Hence estimate how many times it will land on blue in 1500 spins.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Find the relative frequency of blue",
+       "lines": [
+        {
+         "text": "Relative frequency $= \\dfrac{\\text{number of blues}}{\\text{number of spins}}$."
+        },
+        {
+         "tex": "P(\\text{blue}) &= \\frac{92}{400}",
+         "sym": "Rational(92,400)",
+         "new": true
+        },
+        {
+         "tex": "&= 0.23",
+         "sym": "Rational(23,100)"
+        }
+       ]
+      },
+      {
+       "title": "Multiply by the number of spins",
+       "lines": [
+        {
+         "tex": "\\text{Expected blues} &= 0.23 \\times 1500",
+         "sym": "Rational(23,100)*1500",
+         "new": true
+        },
+        {
+         "tex": "&= 345",
+         "sym": "345"
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "0.23, \\quad 345"
+    },
+    "finalSym": "[Rational(23,100), 345]",
+    "answerSym": "[Rational(92,400), Rational(92,400)*1500]"
+   }
+  ]
+ }
+]
