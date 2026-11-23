@@ -212,7 +212,7 @@
     ],
     "finalAnswer": "x = 1"
    },
-   "finalSym": "1.0",
+   "finalSym": "1",
    "answerSym": "nsolve(3**(2*x) + 6*3**x - 27, x, 0.5)"
   },
   "graph": null,
