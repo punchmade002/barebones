@@ -4,46 +4,151 @@
   "subsection": "3. Stakeholder mapping and prioritising stakeholder interests",
   "syllabusRef": "1.1.4",
   "notes": [
-    { "h": "What stakeholder mapping is", "b": "Stakeholder mapping identifies each stakeholder affected by a decision and records how much power and interest each one has. The map can be written or visual.", "points": [
-      "A stakeholder map records the stakeholders, their interdependencies, their inter-relationships, and their power and influence over the decision.",
-      "Interdependencies are the reliance one stakeholder has on another, such as a supplier that depends on a retailer's orders.",
-      "Inter-relationships are the working relationships between stakeholders, which may be co-operative or competitive.",
-      "Power is the ability to affect a decision directly, such as through a vote, a contract or legal authority, while influence works indirectly through persuasion or public pressure."
-    ] },
-    { "h": "The power-interest grid", "b": "The power-interest grid places each stakeholder on two axes, power and interest, to show what action each one requires.", "points": [
-      "High power and high interest: manage closely, by involving the stakeholder in the decision and keeping them fully informed.",
-      "High power and low interest: keep satisfied, by meeting their key concerns without overloading them with detail.",
-      "Low power and high interest: keep informed, by sharing updates so the stakeholder feels heard and can respond.",
-      "Low power and low interest: monitor, by checking periodically whether their position or influence has changed."
-    ] },
-    { "h": "Mapping a decision step by step", "b": "A consistent method makes the map defensible. The same steps apply to any decision in a case study.", "points": [
-      "Step one: state the decision clearly, such as whether a restaurant should add plant-based dishes to its menu.",
-      "Step two: list every stakeholder affected, internal and external, including those affected only indirectly.",
-      "Step three: assess each stakeholder's interest in the decision and their power to influence it, giving a reason for each judgement.",
-      "Step four: place each stakeholder on the grid and state the action each quadrant requires.",
-      "Step five: note the interdependencies and likely conflicts, since these affect how the planned actions should be carried out."
-    ] },
-    { "h": "Why prioritise stakeholder interests", "b": "No business can meet every stakeholder's demands in full, so prioritising focuses limited resources where they matter most.", "points": [
-      "Limited resources: time, money and management attention are scarce, so they must go to the stakeholders with the most power and interest.",
-      "Decision speed: a clear order of priority lets the business decide and act without waiting for every group to agree.",
-      "Avoiding conflict: addressing the most powerful concerns early reduces the chance of disputes later.",
-      "Legitimacy: showing that concerns were weighed fairly makes the decision more acceptable to those affected by it.",
-      "Ethics and sustainability: a community or environmental concern may need priority even when the group holds little formal power, because the harm it describes is serious."
-    ] },
-    { "h": "Limitations of stakeholder mapping", "b": "A map is a snapshot of judgements that may be wrong or out of date. Its limitations must be stated when the map informs a decision.", "points": [
-      "Positions change: a stakeholder's interest can rise suddenly after a news story, so the map needs regular updating.",
-      "Subjective judgements: scores for power and interest depend on the mapper's view, so two people may place the same stakeholder differently.",
-      "Oversimplification: a two-dimensional grid can hide a stakeholder's values and the complexity of their concerns.",
-      "Hidden stakeholders: groups affected by the decision but not identified at the start, such as future customers, may be missed."
-    ] },
-    { "h": "Worked mapping: an Irish case", "b": "This worked example applies the method to a realistic decision. The judgements are illustrative and show how reasons are given for each placement.", "points": [
-      "Decision: a Cork bakery is considering opening a second shop in Galway.",
-      "Owners: high power and high interest, so manage closely by involving them in the choice of location and financing.",
-      "Local residents near the proposed Galway site: high interest, and moderate but real power through planning objections, so manage closely by consulting them before the planning application is made.",
-      "Employees at the existing Cork shop: low power over the decision but high interest in job security and hours, so keep informed and address their concerns in staffing plans.",
-      "The bank providing the loan: high power over whether the expansion goes ahead, but limited interest in daily operations, so keep satisfied with a clear business plan showing how the loan will be repaid.",
-      "Suppliers of flour and other ingredients: low power and low interest, although orders could grow, so monitor the position as the expansion proceeds."
-    ] }
+    {
+      "h": "What stakeholder mapping is",
+      "b": "Any business decision affects people and groups who care about the result and who may be able to change it. Stakeholder mapping is the habit of working out who they are and how much each one matters to the decision before it is made.",
+      "points": [
+        "Recall that stakeholders are the people and groups affected by a business, internal (owners, employees) and external (customers, suppliers, lenders, the community). These are the people you place on the map.",
+        "Stakeholder mapping identifies each stakeholder affected by a decision and records how much power and interest each one has. A map can be written, such as a table, or visual, such as a diagram.",
+        "The specification defines it like this: \"Stakeholder mapping involves considering the main stakeholders and their power and influence, while learning about the range of stakeholders and the need to consider a range of perspectives.\"",
+        "It continues: \"Stakeholder mapping can be written or visual and should include different stakeholders, their interdependencies and inter-relationships, and consideration of their power and influence on decision-making.\"",
+        "A full map therefore records four things: the stakeholders, their interdependencies, their inter-relationships, and their power and influence over the decision. Leaving one out gives an incomplete map.",
+        "Stakeholders often want different things, so conflict arises from competing interests. Mapping helps a business predict where conflict is likely and plan to avoid it."
+      ],
+      "tip": "Do not mix up the general activity with the tool. Stakeholder mapping is the activity; the power-interest grid is one form of it."
+    },
+    {
+      "h": "Interdependence, inter-relationships, power and influence",
+      "b": "A map is more than a list of names. It records how stakeholders depend on one another, how they get on, and how much each can change the outcome.",
+      "points": [
+        "Interdependencies are the reliance one stakeholder has on another. The specification says interdependence arises when one group becomes dependent on another for the supply of necessary goods and services, for example a supplier that depends on a retailer's orders.",
+        "Inter-relationships are the working relationships between stakeholders, which may be co-operative or competitive. Two suppliers competing for the same business are in a competitive relationship, while a business and its loyal customers are co-operative.",
+        "As a working definition, power is the ability to affect a decision directly, for example through a vote, a contract or legal authority.",
+        "Influence, by contrast, works indirectly, through persuasion or public pressure, so a group with no vote can still sway a decision. This direct and indirect split is the notes' working distinction, not the glossary's wording, which treats power and influence together.",
+        "Interest is a different thing from power: it is how much the decision matters to the stakeholder. High interest does not mean high power."
+      ],
+      "tip": "Examiners expect you to keep interdependencies (reliance on each other) separate from inter-relationships (the working relationship, co-operative or competitive)."
+    },
+    {
+      "h": "Skills: the power-interest grid",
+      "b": "The power-interest grid is a tool that turns judgements about power and interest into a clear action for each stakeholder. It is the applied form of stakeholder mapping on this course.",
+      "points": [
+        "The specification defines it like this: \"A power-interest grid is a form of stakeholder mapping which considers the motivations of stakeholders and their ability to exert influence (either positive or negative) thereby mapping them according to their relative power and interest.\"",
+        "Its purpose is to show what action each stakeholder requires. Power runs along one axis and interest along the other, and each stakeholder is placed in one of four quadrants, high or low on each axis.",
+        "High power and high interest: manage closely, by involving the stakeholder in the decision and keeping them fully informed. Their support is needed and they care enough to act.",
+        "High power and low interest: keep satisfied, by meeting their key concerns without overloading them with detail. They could block the decision but are not following it closely.",
+        "Low power and high interest: keep informed, by sharing updates so the stakeholder feels heard and can respond. They care about the outcome but cannot decide it.",
+        "Low power and low interest: monitor, by checking periodically whether their position or influence has changed, so that a rise in either is noticed.",
+        "The grid has only high or low power, so every stakeholder must be placed in one quadrant and the placement justified. Manage closely is for high power, while keep informed is for low power."
+      ],
+      "tip": "A common mistake is mixing up the quadrant actions. Learn the four labels (manage closely, keep satisfied, keep informed, monitor) against high and low power."
+    },
+    {
+      "h": "Skills: mapping a decision step by step",
+      "b": "A consistent method makes a map defensible. The same five steps apply to any decision in a case study or exam stimulus.",
+      "points": [
+        "1. State the decision clearly, such as whether a restaurant should add plant-based dishes to its menu. Every later judgement is about this decision.",
+        "2. List every stakeholder affected, internal and external, including those affected only indirectly. Name only stakeholders who are really affected by the decision.",
+        "3. Assess each stakeholder's interest in the decision and their power to influence it, giving a reason for each judgement. Placing a stakeholder without a reason is a common mistake.",
+        "4. Place each stakeholder on the grid and state the action each quadrant requires: manage closely, keep satisfied, keep informed or monitor.",
+        "5. Note the interdependencies and likely conflicts, since these affect how the planned actions should be carried out. At this stage you only note where conflict is likely."
+      ],
+      "tip": "Common mistakes are placing a stakeholder without a reason, naming stakeholders the decision does not affect, and giving only one or two stakeholders when four are asked for. Name each, give power and interest with a reason, place it and state the action."
+    },
+    {
+      "h": "Why prioritise stakeholder interests",
+      "b": "No business can meet every stakeholder's demands in full, because the demands often clash and the business has limited resources. Prioritising means ranking stakeholders by importance so effort goes where it matters most.",
+      "points": [
+        "Limited resources: time, money and management attention are scarce, so they must go to the stakeholders with the most power and interest.",
+        "Decision speed: a clear order of priority lets the business decide and act without waiting for every group to agree.",
+        "Avoiding conflict: addressing the most powerful concerns early reduces the chance of disputes later.",
+        "Legitimacy: showing that concerns were weighed fairly makes the decision more acceptable to those affected by it.",
+        "Ethics and sustainability: a community or environmental concern may need priority even when the group holds little formal power, because the harm it describes is serious. Neighbours, the environment and future generations must not be dropped for having a weak voice.",
+        "Prioritising is not ignoring. Low-priority stakeholders are still monitored or kept informed, because their position can change."
+      ],
+      "tip": "When asked to explain the importance of prioritising, give reasons with an effect on the business for each. A common mistake is saying only that some stakeholders are more important, without the reason. When asked to prioritise, order the stakeholders, justify the order and treat weaker voices fairly."
+    },
+    {
+      "h": "Limitations of stakeholder mapping",
+      "b": "A map is a snapshot of judgements that may be wrong or out of date. Its limitations must be stated when the map informs a decision.",
+      "points": [
+        "Positions change: a stakeholder's interest can rise suddenly after a news story, so the map needs regular updating.",
+        "Subjective judgements: scores for power and interest depend on the mapper's view, so two people may place the same stakeholder differently.",
+        "Oversimplification: a two-dimensional grid can hide a stakeholder's values and the complexity of their concerns.",
+        "Hidden stakeholders: groups affected by the decision but not identified at the start, such as future customers, may be missed."
+      ],
+      "tip": "When asked to evaluate or discuss the tool, balance these limits with its benefits, such as a clear order of priority and a clear action for each stakeholder."
+    },
+    {
+      "h": "Ethical, sustainability and digital angles",
+      "b": "Mapping is a judgement about people, so it raises fairness questions. Digital tools also change how quickly a map goes out of date and how fast influence can grow.",
+      "points": [
+        "Ethical and sustainability: weaker voices, such as neighbours, the environment and future generations, hold little formal power. A fair map still records their interest and a responsible business weighs the harm to them in its decision.",
+        "Digital: online reviews and social media can raise a low-power group's influence quickly, because public pressure spreads fast and a business may be forced to respond. A group placed in monitor can move up the grid quickly.",
+        "Digital: spreadsheets and online whiteboards let a business keep a map up to date and share it with a team, which reduces the problem of positions changing."
+      ],
+      "tip": "Exams link placements to environmental harm, fair treatment or online pressure. Name the harm or the pressure and say how it changes the stakeholder's place on the grid."
+    },
+    {
+      "h": "Worked mapping: a Cork bakery",
+      "b": "This sample business shows the method in use. The judgements are illustrative, and each placement has a reason.",
+      "points": [
+        "Decision: a Cork bakery is considering opening a second shop in Galway.",
+        "Owners: high power and high interest, so manage closely by involving them in the choice of location and financing.",
+        "Employees at the Cork shop: low power over the decision but high interest in job security and hours, so keep informed and address their concerns in staffing plans.",
+        "The bank lending the money: high power over whether the expansion goes ahead. Its interest in daily operations is low but its interest in repayment is high, so it is placed as high power and keep satisfied, with a clear plan showing how the loan will be repaid.",
+        "Suppliers of flour and other ingredients: low power and low interest in this sample, although orders could grow, so monitor the position as the expansion proceeds. A sole supplier of an essential input would have high power, so this placement is not a rule.",
+        "Residents near the proposed Galway site: if their planning objections could block or delay the shop, they have high power and high interest, so manage closely, by consulting them before the planning application is made.",
+        "If their objections could not block the shop, residents have low power and high interest, so keep informed. Either way, state which placement you choose and give the reason.",
+        "Note interdependencies and likely conflicts: the bakery depends on its suppliers and its bank, and residents' concerns could conflict with the owners' timetable."
+      ],
+      "tip": "Present placements as judgements for the sample, not fixed facts. The same stakeholder can be placed differently in another business if you give a reason."
+    },
+    {
+      "h": "Second sample mapping: a restaurant menu",
+      "b": "The exam format asks you to identify and prioritise four stakeholders for a decision. Here the decision is a restaurant adding plant-based dishes to its menu, and the placements are illustrative.",
+      "points": [
+        "Owners: high power, because they decide, and high interest, because profit and reputation depend on the change, so manage closely.",
+        "Customers: low power individually but high interest, because the menu is the reason they come, so keep informed through menu boards and social media, where their reviews can raise their influence.",
+        "The environmental health authority, where relevant: high power through legal authority over food safety, but low interest in the menu itself, so keep satisfied by meeting the rules for handling and labelling the new dishes.",
+        "Suppliers of ingredients: low power and low interest in this sample, so monitor, although a supplier that depends on the restaurant's orders is an interdependency to note."
+      ],
+      "tip": "Rank the four in order of priority and justify the order, then give each a level of power and interest with a reason and the action for its quadrant."
+    },
+    {
+      "h": "Applying my learning: Google data centre at Grange Castle",
+      "b": "Current Irish business news shows how mapping works on a real decision. The placements are judgements made from the reported facts.",
+      "points": [
+        "Decision: whether a Google data centre extension at Grange Castle Business Park, south Dublin, should go ahead. South Dublin County Council refused permission in August 2024 over insufficient electricity grid capacity and a lack of significant on-site renewable energy.",
+        "Google appealed, and An Coimisiún Pleanála overturned the refusal and granted permission with conditions: evidence of engagement with power purchase agreements, renewable fuel for backup generators, staff incentives to use public transport, cycling or walking, and enhanced ecological value. The decision may be subject to judicial review.",
+        "Google: high power through its appeal and high interest in the extension, so manage closely. The project would bring up to 50 permanent roles and hundreds of construction jobs.",
+        "The council and planning commission: high power, because they decide whether permission is granted, but low interest in the outcome for Google, so keep satisfied with a complete application that meets the conditions.",
+        "EirGrid: high power, because grid capacity decided the council's refusal and it provided a 2021 grid connection, but low interest in the project itself, so keep satisfied.",
+        "The local community and the public: low power over the decision but high interest. An Irish Times/Ipsos B&A poll found a large majority favours pausing data centre construction, so public pressure could raise their influence. Keep informed."
+      ],
+      "tip": "When analysing a news story, name only the stakeholders in the stimulus, link each one's power and interest to the decision, and give a reasoned view. Do not just summarise the story."
+    },
+    {
+      "h": "Applying my learning: the Killala data centre decision",
+      "b": "A group with little formal power can gain influence through a legal process and public attention. The Killala case shows this, and why a map needs regular updating.",
+      "points": [
+        "In September 2026 An Coimisiún Pleanála overturned a permission that Mayo County Council had granted for a data centre at Killala, Co Mayo. The applicant was Mayo Data Hub Ltd, part of Avaio Digital.",
+        "The commission found insufficient grid capacity, no on-site renewables or renewable power purchase agreement, and inconsistency with the Climate Action Plan 2025.",
+        "Objectors included the author Sally Rooney, who called the project a \"waste of energy\" in her submission. An individual objector has low formal power, but a third party who made a submission to the planning authority may appeal within 4 weeks, which gives objectors a route to real power.",
+        "Public attention gave the objectors influence beyond their formal position. This is the first limitation of mapping in action: a stakeholder placed as keep informed or monitor can rise on the grid once a news story and the planning process give them leverage."
+      ],
+      "tip": "Use this case to show a low-power group gaining influence and why the map needs regular updating, which is the first limitation of mapping."
+    },
+    {
+      "h": "Giving an informed opinion",
+      "b": "The applying my learning outcome asks you to weigh business, community and sustainability interests and give a view, not just describe them. A good opinion is short, reasoned and open about what could change it.",
+      "points": [
+        "Write a short evaluative sentence that weighs the business interest (jobs and investment), the community interest (public opinion) and the sustainability interest (energy and grid capacity), and state your view with a reason.",
+        "Example for Grange Castle: the conditions attached to the permission are reasonable because they answer the council's reasons for refusal, although the poll shows that a large majority still want construction paused.",
+        "Say what evidence would change your opinion, such as the outcome of any judicial review, new data on grid capacity or evidence on how the conditions were met. This shows the judgement rests on evidence and is open to revision."
+      ],
+      "tip": "Examiners reward a view that is supported by the stakeholders' power and interest. Make a judgement, give the reason and avoid claiming the outcome of any judicial review."
+    }
   ],
   "keyTerms": [
     { "term": "Stakeholder mapping", "definition": "The process of identifying the stakeholders affected by a decision and recording their power, influence, interest and relationships." },
