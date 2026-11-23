@@ -541,7 +541,7 @@
      "finalAnswer": "(0, 2) \\text{ and } (2, -20)"
     },
     "finalSym": "[(0, 2), (2, -20)]",
-    "answerSym": "[(r, (x**3 - 3*x**2 - 9*x + 2).subs(x, r)) for r in solve(Eq(diff(x**3 - 3*x**2 - 9*x + 2, x), -9), x)]"
+    "answerSym": "solve([Eq(diff(x**3 - 3*x**2 - 9*x + 2, x), -9), Eq(y, x**3 - 3*x**2 - 9*x + 2)], [x, y])"
    }
   ]
  }

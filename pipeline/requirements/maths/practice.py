@@ -68,8 +68,28 @@ def pack(only=None):
     print(f'{len(jobs)} skills, {sum(j["write"] for j in jobs)} problems → {(len(jobs) + PER_BATCH - 1) // PER_BATCH} batches')
 
 
+def unescape_newlines(s):
+    """Writers often double-escape \\n in JSON; outside $…$ a literal backslash-n can only mean a line break."""
+    return re.sub(r'(\$[^$]*\$)|\\n', lambda m: m[1] or '\n', s)
+
+
+assert unescape_newlines('a\\nb $\\neq$') == 'a\nb $\\neq$'
+
+
+def as_answer(text):
+    """answerSym is computed, so solve()/div() hand back a list or tuple that parse() reads as one value."""
+    kind, v = mv.parse(text)
+    return ('list', list(v)) if kind == 'one' and isinstance(v, (list, tuple, mv.sp.Tuple)) else (kind, v)
+
+
 def check_problem(pr):
     errs = []
+    if isinstance(pr.get('question'), str):
+        pr['question'] = unescape_newlines(pr['question'])
+    for st in (pr.get('workedSolution') or {}).get('steps') or []:
+        for ln in st.get('lines', []):
+            if 'text' in ln:
+                ln['text'] = unescape_newlines(ln['text'])
     for f in ('question', 'level', 'marks', 'workedSolution', 'finalSym', 'answerSym'):
         if not pr.get(f):
             errs.append(f'missing {f}')
@@ -90,7 +110,9 @@ def check_problem(pr):
     if not any('sym' in ln for st in steps for ln in st.get('lines', [])):
         errs.append('no sym on any line: the working cannot be checked')
     try:
-        same = mv.safe_equivalent(mv.parse(pr['answerSym']), mv.parse(pr['finalSym']), mv.tolerance(pr['answerSym'], pr['finalSym']))
+        approx = '.' in pr['finalSym']   # an answer rounded to the cents or decimals shown
+        same = mv.safe_equivalent(as_answer(pr['answerSym']), mv.parse(pr['finalSym']),
+                                  mv.tolerance(pr['answerSym'], pr['finalSym'], approx=approx))
         if same is not True:
             errs.append(f'answerSym {pr["answerSym"]} does not give finalSym {pr["finalSym"]}' if same is False
                         else f'could not compare answerSym {pr["answerSym"]} with finalSym {pr["finalSym"]}')

@@ -124,8 +124,9 @@ def pack(prefix='L'):
                                                  for st in parts[pid]['p']['workedSolution']['steps']],
                                           final=parts[pid]['p']['workedSolution']['finalAnswer'])
                                      for pid in cands[:MAX_CANDIDATES]]))
+    start = len(list((WORK / 'in').glob('N*.json'))) if prefix == 'N' else 0   # never overwrite an earlier N batch
     for n in range(0, len(jobs), PER_BATCH):
-        (WORK / 'in' / f'{prefix}{n // PER_BATCH + 1:02}.json').write_text(json.dumps(jobs[n:n + PER_BATCH], ensure_ascii=False, indent=1))
+        (WORK / 'in' / f'{prefix}{start + n // PER_BATCH + 1:02}.json').write_text(json.dumps(jobs[n:n + PER_BATCH], ensure_ascii=False, indent=1))
     print(f'{len(jobs)} skills → {(len(jobs) + PER_BATCH - 1) // PER_BATCH} batches in {WORK / "in"}')
 
 
@@ -287,8 +288,12 @@ def review_pack(cap=55_000, most=10):
     d = WORK / 'review'
     d.mkdir(exist_ok=True)
     (WORK / 'reviewed').mkdir(exist_ok=True)
+    old = sorted((WORK / 'reviewed').glob('R*.json'))
+    seen = {o['skill'] for f in old for o in json.loads(f.read_text())}   # review only lessons not reviewed yet
     batches, cur, size = [], [], 0
     for sid, job in js.items():
+        if sid in seen:
+            continue
         used = {p['part'] for p in outs[sid]['problems']}
         item = dict(skill=job['skill'], lesson=outs[sid]['problems'],
                     other_candidates=[c for c in job['candidates'] if c['part'] not in used])
@@ -299,7 +304,7 @@ def review_pack(cap=55_000, most=10):
         cur.append(item)
         size += n
     batches.append(cur)
-    for i, b in enumerate(batches, 1):
+    for i, b in enumerate(batches, len(old) + 1):
         (d / f'R{i:02}.json').write_text(json.dumps(b, ensure_ascii=False))
     print(f'{len(js)} lessons → {len(batches)} review batches in {d}')
 
@@ -385,10 +390,11 @@ def fix():
     (WORK / 'fixed').mkdir(exist_ok=True)
     for old in d.glob('F*.json'):
         old.unlink()
+    start = len(list((WORK / 'fixed').glob('F*.json')))   # earlier rounds' fixed/F*.json stay
     for n in range(0, len(bad), PER_BATCH):
         batch = [dict(skill=js[sid]['skill'], errors=report[sid], candidates=js[sid]['candidates'], lesson=outs[sid]['problems'])
                  for sid in bad[n:n + PER_BATCH]]
-        (d / f'F{n // PER_BATCH + 1:02}.json').write_text(json.dumps(batch, ensure_ascii=False, indent=1))
+        (d / f'F{start + n // PER_BATCH + 1:02}.json').write_text(json.dumps(batch, ensure_ascii=False, indent=1))
     print(f'{len(bad)} failing lessons → {(len(bad) + PER_BATCH - 1) // PER_BATCH} fix batches in {d}')
 
 

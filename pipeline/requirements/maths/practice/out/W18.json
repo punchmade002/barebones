@@ -234,7 +234,7 @@
      "finalAnswer": "\\text{€}133\\,421"
     },
     "finalSym": "133421",
-    "answerSym": "round(sum(12000/Rational(104,100)**k for k in range(1,16)))"
+    "answerSym": "round(12000*(1 - Rational(104,100)**-15)/Rational(4,100))"
    }
   ]
  },
@@ -242,7 +242,7 @@
   "skill": "fin-mortgage-derive",
   "problems": [
    {
-    "question": "A loan of $\\text{€}P$ is repaid by $t$ equal monthly repayments of $\\text{€}A$. The first repayment is made immediately and each of the others is made at the end of each following month. The monthly interest rate is $i$.\\nBy writing $P$ as the sum of the present values of the repayments, prove that\\n$$A = \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}.$$",
+    "question": "A loan of $\\text{€}P$ is repaid by $t$ equal monthly repayments of $\\text{€}A$. The first repayment is made immediately and each of the others is made at the end of each following month. The monthly interest rate is $i$.\\nBy writing $P$ as the sum of the present values of the repayments, prove that\\n$A = \\frac{P\\,i(1+i)^{t-1}}{(1+i)^t - 1}.$",
     "level": "higher",
     "marks": 10,
     "workedSolution": {

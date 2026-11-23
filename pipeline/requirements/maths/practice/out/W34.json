@@ -1,0 +1,321 @@
+[
+ {
+  "skill": "stat-data-types",
+  "problems": [
+   {
+    "question": "A class records five variables: the time to run 100 m, the number of goals scored in a match, the mass of a parcel, eye colour, and shoe size.\nHow many of these variables are numerical continuous?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Recall what continuous means",
+       "lines": [
+        {
+         "text": "Numerical continuous data is measured and can take any value in a range."
+        }
+       ]
+      },
+      {
+       "title": "Classify each variable",
+       "lines": [
+        {
+         "text": "Time to run 100 m: continuous. Mass of a parcel: continuous."
+        },
+        {
+         "text": "Number of goals and shoe size: numerical discrete. Eye colour: categorical."
+        }
+       ]
+      },
+      {
+       "title": "Count the continuous ones",
+       "lines": [
+        {
+         "tex": "\\text{Count} &= 1 + 1 &= 2",
+         "sym": "1 + 1",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "2"
+    },
+    "finalSym": "2",
+    "answerSym": "1 + 1"
+   }
+  ]
+ },
+ {
+  "skill": "stat-populations-samples",
+  "problems": [
+   {
+    "question": "A school has 1200 students. A sample of 150 of them is surveyed about travel to school.\nWhat percentage of the population is in the sample?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the population and the sample",
+       "lines": [
+        {
+         "text": "Population: all 1200 students. Sample: the 150 students surveyed."
+        }
+       ]
+      },
+      {
+       "title": "Write the sample as a fraction of the population",
+       "lines": [
+        {
+         "tex": "\\text{Fraction} &= \\frac{150}{1200} = \\frac{1}{8}",
+         "sym": "Rational(150,1200)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "\\frac{1}{8} \\times 100 &= 12.5",
+         "sym": "Rational(1,8)*100",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "12.5\\%"
+    },
+    "finalSym": "12.5",
+    "answerSym": "Rational(150,1200)*100"
+   },
+   {
+    "question": "A town has 4500 adults. A sample of 90 adults is chosen to find out how they feel about a new bypass.\nThe sample is 1 in every how many adults in the town?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the population and the sample",
+       "lines": [
+        {
+         "text": "Population: the 4500 adults in the town. Sample: the 90 adults chosen."
+        }
+       ]
+      },
+      {
+       "title": "Divide the population by the sample",
+       "lines": [
+        {
+         "tex": "\\frac{4500}{90} &= 50",
+         "sym": "4500/90",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "State the result",
+       "lines": [
+        {
+         "text": "The sample is 1 in every 50 adults, so conclusions only generalise if these 90 represent the town."
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "50"
+    },
+    "finalSym": "50",
+    "answerSym": "4500/90"
+   }
+  ]
+ },
+ {
+  "skill": "stat-srs-bias",
+  "problems": [
+   {
+    "question": "A teacher numbers her 300 students from 1 to 300 and uses a random number generator to pick 25 different numbers. Every student is equally likely to be chosen.\nFind the probability that a particular student is in the sample.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Say why the method is a simple random sample",
+       "lines": [
+        {
+         "text": "Every student has the same chance of selection, so there is no bias."
+        }
+       ]
+      },
+      {
+       "title": "Find the probability",
+       "lines": [
+        {
+         "tex": "P &= \\frac{25}{300} = \\frac{1}{12}",
+         "sym": "Rational(25,300)",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "\\frac{1}{12}"
+    },
+    "finalSym": "Rational(1,12)",
+    "answerSym": "Rational(25,300)"
+   },
+   {
+    "question": "A radio station phones 500 residents at 11 a.m. on a weekday to ask about a new road. 180 of the residents are at work and do not answer.\nWhat percentage of the residents are left out of the poll?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Spot the bias",
+       "lines": [
+        {
+         "text": "Phoning at 11 a.m. on a weekday leaves out people at work, so the sample is biased."
+        }
+       ]
+      },
+      {
+       "title": "Write those left out as a fraction",
+       "lines": [
+        {
+         "tex": "\\frac{180}{500} &= \\frac{9}{25}",
+         "sym": "Rational(180,500)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "\\frac{9}{25} \\times 100 &= 36",
+         "sym": "Rational(9,25)*100",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "36\\%"
+    },
+    "finalSym": "36",
+    "answerSym": "Rational(180,500)*100"
+   }
+  ]
+ },
+ {
+  "skill": "stat-study-types",
+  "problems": [
+   {
+    "question": "Researchers randomly assign 60 patients to two groups of equal size. One group takes a new tablet and the other takes a placebo.\nThis is a designed experiment. How many patients are in each group?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the type of study",
+       "lines": [
+        {
+         "text": "The researchers choose who gets the treatment, so this is a designed experiment."
+        }
+       ]
+      },
+      {
+       "title": "Split the patients equally",
+       "lines": [
+        {
+         "tex": "\\frac{60}{2} &= 30",
+         "sym": "60/2",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "30"
+    },
+    "finalSym": "30",
+    "answerSym": "60/2"
+   },
+   {
+    "question": "A researcher records the weekly exercise and the resting pulse of 240 people without changing anything about them. 48 of the 240 are smokers.\nThis is an observational study. What percentage of the people are not smokers?",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the type of study",
+       "lines": [
+        {
+         "text": "The researcher only records what is already happening and gives no treatment, so it is observational."
+        }
+       ]
+      },
+      {
+       "title": "Find the number of non-smokers",
+       "lines": [
+        {
+         "tex": "240 - 48 &= 192",
+         "sym": "240 - 48",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "\\frac{192}{240} \\times 100 &= 80",
+         "sym": "Rational(192,240)*100",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "80\\%"
+    },
+    "finalSym": "80",
+    "answerSym": "Rational(240-48,240)*100"
+   },
+   {
+    "question": "A survey sends a questionnaire to 500 people. 360 of them reply.\nA survey asks people questions and does not change anything for them. Find the response rate as a percentage.",
+    "level": "ordinary",
+    "marks": 5,
+    "workedSolution": {
+     "steps": [
+      {
+       "title": "Identify the type of study",
+       "lines": [
+        {
+         "text": "People are only asked questions, so this is a survey, not an experiment."
+        }
+       ]
+      },
+      {
+       "title": "Write the replies as a fraction of those asked",
+       "lines": [
+        {
+         "tex": "\\frac{360}{500} &= \\frac{18}{25}",
+         "sym": "Rational(360,500)",
+         "new": true
+        }
+       ]
+      },
+      {
+       "title": "Convert to a percentage",
+       "lines": [
+        {
+         "tex": "\\frac{18}{25} \\times 100 &= 72",
+         "sym": "Rational(18,25)*100",
+         "new": true
+        }
+       ]
+      }
+     ],
+     "finalAnswer": "72\\%"
+    },
+    "finalSym": "72",
+    "answerSym": "Rational(360,500)*100"
+   }
+  ]
+ }
+]
