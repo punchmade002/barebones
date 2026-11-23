@@ -1,0 +1,574 @@
+{
+ "bio18-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.0",
+    "strength": "helpful",
+    "why": "bones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.0",
+    "strength": "essential",
+    "why": "bones and joints",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.0.4",
+    "strength": "essential",
+    "why": "axial group of skeleton",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.0.4",
+    "strength": "essential",
+    "why": "appendicular group of skeleton",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.1.0",
+    "strength": "helpful",
+    "why": "bone as tissue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.1.1",
+    "strength": "helpful",
+    "why": "bone matrix",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio18-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.2",
+    "strength": "helpful",
+    "why": "bones as levers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio18-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.2.3",
+    "strength": "essential",
+    "why": "red marrow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.2.4",
+    "strength": "helpful",
+    "why": "long bones",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.1.1",
+    "strength": "helpful",
+    "why": "calcium phosphate in bone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.2.6",
+    "strength": "essential",
+    "why": "bone stores calcium",
+    "confidence": "high"
+   },
+   {
+    "id": "bio18-s1.5.3",
+    "strength": "helpful",
+    "why": "calcium needed for muscle",
+    "confidence": "high"
+   },
+   {
+    "id": "bio21-s2.0.b",
+    "strength": "helpful",
+    "why": "keeping factors constant",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio18-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.1",
+    "strength": "helpful",
+    "why": "tendons attach muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.3.0",
+    "strength": "helpful",
+    "why": "skeletal muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.3.2",
+    "strength": "essential",
+    "why": "smooth muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.1.3",
+    "strength": "essential",
+    "why": "effector definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.3.0",
+    "strength": "helpful",
+    "why": "skeletal muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.4.0",
+    "strength": "essential",
+    "why": "muscle fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.4.0",
+    "strength": "essential",
+    "why": "muscle fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.4.2",
+    "strength": "essential",
+    "why": "actin and myosin filaments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.3.0",
+    "strength": "helpful",
+    "why": "voluntary control of skeletal muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.5.0",
+    "strength": "essential",
+    "why": "motor neuron stimulates muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.5.1",
+    "strength": "essential",
+    "why": "neuromuscular junction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.5.2",
+    "strength": "essential",
+    "why": "impulse in the fibre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.5.3",
+    "strength": "essential",
+    "why": "calcium release",
+    "confidence": "high"
+   },
+   {
+    "id": "bio18-s1.4.2",
+    "strength": "essential",
+    "why": "actin and myosin",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.4.1",
+    "strength": "helpful",
+    "why": "mitochondria in fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.5.3",
+    "strength": "essential",
+    "why": "calcium released in contraction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.6.0",
+    "strength": "helpful",
+    "why": "relaxation of muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.2",
+    "strength": "essential",
+    "why": "muscle pulls bone at joint",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.5.0",
+    "strength": "helpful",
+    "why": "motor neuron stimulation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio18-s1.4.0",
+    "strength": "essential",
+    "why": "muscle fibres",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.5.4",
+    "strength": "helpful",
+    "why": "partial contraction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio18-s1.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.5.0",
+    "strength": "helpful",
+    "why": "voluntary response pathway",
+    "confidence": "high"
+   },
+   {
+    "id": "bio18-s1.4.2",
+    "strength": "helpful",
+    "why": "actin and myosin filaments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.6.5",
+    "strength": "helpful",
+    "why": "muscle tone",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.0.5",
+    "strength": "helpful",
+    "why": "ribs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio18-s1.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio21-s2.4.4",
+    "strength": "helpful",
+    "why": "shivering releases heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.5.0",
+    "strength": "essential",
+    "why": "motor neuron stimulates muscle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.5.5",
+    "strength": "helpful",
+    "why": "respiration supplies ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio18-s1.8.2",
+    "strength": "helpful",
+    "why": "oxygen supply to muscle",
+    "confidence": "high"
+   },
+   {
+    "id": "bio18-s1.5.5",
+    "strength": "helpful",
+    "why": "ATP from respiration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.8.3",
+    "strength": "essential",
+    "why": "lactic acid produced",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio18-s1.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.1.3",
+    "strength": "helpful",
+    "why": "bone adapts to forces",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio18-s1.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio18-s1.1.1",
+    "strength": "helpful",
+    "why": "calcium in bone matrix",
+    "confidence": "high"
+   }
+  ]
+ }
+}
