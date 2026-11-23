@@ -5,62 +5,100 @@
   "syllabusRef": "1.1.2, 1.1.3, 1.1.4",
   "notes": [
     {
-      "h": "Energy-giving nutrients",
-      "b": "Protein, carbohydrate and fat (lipid) supply energy; each has a fixed energy value per gram.",
+      "h": "Energy-giving nutrients and their values per gram",
+      "b": "Only three nutrients supply energy in food: protein, carbohydrate and fat (lipid). Each releases a fixed amount of energy, measured in kilojoules (kJ) or kilocalories (kcal), for every gram eaten, and these values are the basis of every energy calculation.",
       "points": [
-        "Protein: 17 kJ (4 kcal) per gram.",
-        "Carbohydrate: 16 kJ (3.75 kcal) per gram.",
-        "Fat (lipid): 37 kJ (9 kcal) per gram.",
-        "Alcohol also supplies energy, at 29 kJ (7 kcal) per gram, but supplies no protein, vitamins or minerals.",
-        "Fibre is a carbohydrate that the body cannot digest, so it supplies very little usable energy."
+        "Protein supplies 17 kJ (4 kcal) per gram, carbohydrate supplies 16 kJ (3.75 kcal) per gram and fat (lipid) supplies 37 kJ (9 kcal) per gram. A simple table of these three values is the best way to learn them.",
+        "Fat is the most concentrated energy source, giving more than twice the energy per gram of protein or carbohydrate. This is why a high-fat diet is energy-dense and contributes strongly to weight gain.",
+        "Vitamins, minerals and water supply no energy, so they are not energy nutrients, even though the body cannot work without them.",
+        "Alcohol is not a nutrient, but it does supply energy, at 29 kJ (7 kcal) per gram. It supplies no protein, vitamins or minerals, so it is a source of empty kilocalories (energy with no nutrition).",
+        "Fibre is a carbohydrate that the body cannot digest, so it supplies very little usable energy. Do not count it with the starches and sugars, and do not give it 16 kJ per gram.",
+        "1 kcal is about 4.2 kJ, so dividing kJ by 4.2 gives kcal. Check: 37 kJ is about 9 kcal, 17 kJ is about 4 kcal, 16 kJ is about 3.75 kcal and 29 kJ is about 7 kcal."
+      ],
+      "tip": "Fat 37 kJ is the value that stands out; protein 17 is only slightly above carbohydrate 16. Say 'per gram', not 'per portion', and note that fat gives more than double. Do not include alcohol among the three energy nutrients, and do not call vitamins, minerals or water energy nutrients."
+    },
+    {
+      "h": "Method for calculating energy value",
+      "b": "A food's energy value is worked out from how many grams of each energy nutrient it contains. Food composition tables and labels give these amounts per 100 g, so the method is multiply, add, then state the unit.",
+      "points": [
+        "1. Find the grams of protein, carbohydrate and fat in the amount eaten, from the food label or a food composition table (which gives values per 100 g).",
+        "2. Multiply the grams of each nutrient by its energy value per gram: protein by 17, carbohydrate by 16 and fat by 37.",
+        "3. Add the three results to give the total energy value of the food.",
+        "4. Give the unit, kJ, and convert to kcal if asked by dividing by 4.2.",
+        "Scaling to a portion: if the table gives values per 100 g and the portion is 150 g, multiply each per-100 g value by 150 divided by 100 (or 1.5).",
+        "Without scaling, the answer is for 100 g, not for the portion eaten."
+      ],
+      "tip": "Always write the unit, and show the multiplication for each nutrient, not only the final answer. The usual calculation error is using per 100 g values for a different portion without scaling them."
+    },
+    {
+      "h": "Worked examples and percentage contribution",
+      "b": "Seeing the method on sample figures shows where the marks are: each multiplication, the total and the unit. These are invented sample foods, not facts about any named product.",
+      "points": [
+        "Worked example (sample data): 100 g of a food with 12 g protein, 60 g carbohydrate and 8 g fat gives 12 x 17 = 204 kJ, 60 x 16 = 960 kJ and 8 x 37 = 296 kJ.",
+        "These add to a total of 1460 kJ. In kcal this is about 348 (1460 divided by 4.2).",
+        "Second worked example (sample data): 100 g of a food with 20 g protein, 50 g carbohydrate and 10 g fat gives 20 x 17 = 340 kJ, 50 x 16 = 800 kJ and 10 x 37 = 370 kJ.",
+        "These add to a total of 1510 kJ, which is about 360 kcal.",
+        "Percentage contribution: divide the energy from one nutrient by the total energy, then multiply by 100. In the 1460 kJ sample, fat gives 296 out of 1460, which is about 20 per cent of the energy."
       ]
     },
     {
-      "h": "Calculating the energy value of a food",
+      "h": "Using food data to compare foods",
+      "b": "Section B data questions give a table of composition per 100 g for several foods, such as protein, fat, carbohydrate, fibre, calcium and iron. The sum is only half the answer, because you must also say what the figures mean for a diet.",
       "points": [
-        "Step 1: find the grams of protein, carbohydrate and fat in the portion, using a food composition table, which gives values per 100 g.",
-        "Step 2: multiply each nutrient by its energy value per gram.",
-        "Step 3: add the three results to give the total energy in kilojoules.",
-        "Worked example (sample data): 100 g of a food with 20 g protein, 50 g carbohydrate and 10 g fat gives 20 x 17 = 340 kJ, 50 x 16 = 800 kJ and 10 x 37 = 370 kJ, a total of 1510 kJ.",
-        "To convert kilojoules to kilocalories, divide by 4.2 (sample data: 1510 kJ is about 360 kcal)."
-      ]
+        "To rank foods by energy value, calculate the kJ for each food using the method above, then put them in order and name the highest and the lowest.",
+        "A high-fibre food helps bowel health, because fibre adds bulk and keeps waste moving through the gut.",
+        "A high-fat food is a disadvantage on a low-fat diet, because fat has the most energy per gram and contributes to weight gain.",
+        "A high-carbohydrate food is a good source of energy for the body.",
+        "The 2007H bread comparison is an example of this type of question: calculate, rank, then comment on how suitable each bread is for a given diet."
+      ],
+      "tip": "Interpretation matters as much as the sum. Examiners ask for the highest and lowest energy values and for whether each food suits a given diet, and expect high fibre linked to bowel health, high fat to weight and heart disease, and high sodium to blood pressure."
     },
     {
-      "h": "Protein",
+      "h": "Carbohydrate as an energy source",
+      "b": "Carbohydrate supplies the largest share of energy in the diet. It is the body's main and most readily available energy source.",
       "points": [
-        "Protein is made of amino acids; the body uses it mainly for growth and repair of tissue, but it can also supply energy.",
-        "Protein is not stored in the body, so surplus protein is broken down and used for energy or converted to fat.",
-        "High biological value (HBV) protein, from meat, fish, eggs, milk and cheese, contains all essential amino acids.",
-        "Protein is not a major energy source in a healthy diet: its value per gram equals that of carbohydrate, but it is eaten in smaller amounts."
-      ]
+        "Sugars and starches are digested to glucose, which cells use for energy. Any glucose not needed straight away is stored as glycogen in the liver and muscles.",
+        "Starchy foods such as bread, potatoes, rice and pasta supply carbohydrate together with fibre, vitamins and minerals, so they give energy with useful nutrition. Cereals and fruit are also sources.",
+        "Sugary foods and drinks supply carbohydrate with little nutrition, so they are a source of empty kilocalories.",
+        "Healthy eating guidelines aim for most energy to come from starchy foods, preferably wholegrain, with less from added sugars."
+      ],
+      "tip": "For the contribution to the average diet, state carbohydrate as the main source, fat second and protein smallest, and link to the guidelines to reduce fat and sugar."
     },
     {
-      "h": "Carbohydrate",
-      "points": [
-        "Carbohydrate is the body's main and most readily available source of energy.",
-        "Sugars and starches are digested to glucose, which is used by cells or stored as glycogen in the liver and muscles.",
-        "Starchy foods such as bread, potatoes, rice and pasta supply carbohydrate with fibre, vitamins and minerals.",
-        "Sugary foods and drinks supply carbohydrate with little nutrition, so they are a source of empty kilocalories."
-      ]
-    },
-    {
-      "h": "Fat (lipid)",
+      "h": "Fat (lipid) as an energy source",
+      "b": "Fat packs far more energy into each gram than the other nutrients, so it contributes strongly to the energy in the diet even when it is a smaller part of the weight of the food. It is the second largest source of energy.",
       "points": [
         "Fats and oils are lipids, mostly triglycerides, made of glycerol and fatty acids.",
         "Fat supplies the most energy per gram of the three energy nutrients, more than twice that of carbohydrate or protein.",
-        "Surplus energy from fat is stored as adipose tissue, which is why high-fat diets contribute strongly to weight gain.",
-        "Saturated fats come mainly from animal foods and some plant oils, such as palm oil; unsaturated fats come from vegetable oils, nuts, seeds and oily fish."
-      ]
+        "Surplus energy from fat is stored as adipose tissue, an energy reserve, which is why high-fat diets contribute strongly to weight gain.",
+        "Saturated fats come mainly from animal foods and some plant oils, such as palm oil. Unsaturated fats come from vegetable oils, nuts, seeds and oily fish.",
+        "Sources of fat include butter, oils, fatty meat, nuts, cheese and oily fish."
+      ],
+      "tip": "Over-consumption of fat and sugar leads to positive energy balance and obesity. Say that fat gives more than double the energy per gram of carbohydrate or protein."
+    },
+    {
+      "h": "Protein as an energy source",
+      "b": "Protein can supply energy, but this is not its main job. It makes the smallest contribution to the energy in the diet.",
+      "points": [
+        "Protein is made of amino acids. The body uses it mainly for growth and repair of tissue, but it can also supply energy.",
+        "Protein is not stored in the body as protein, so surplus protein is broken down and used for energy or converted to fat.",
+        "When carbohydrate and fat are short, protein is used for energy at the expense of its building role.",
+        "High biological value (HBV) protein, from meat, fish, eggs, milk and cheese, contains all essential amino acids. Beans are also a protein source.",
+        "Protein is not a major energy source in a healthy diet: its value per gram is close to that of carbohydrate, but it is eaten in smaller amounts."
+      ],
+      "tip": "Protein is an energy source but not the preferred one, so do not write that protein 'is for energy'. Its main work is growth and repair."
     },
     {
       "h": "Energy density and the average diet",
-      "b": "The contribution of each nutrient to a diet depends on how much of it is eaten, and on its energy density.",
+      "b": "How much each nutrient contributes to a diet depends on how much of it is eaten and on how much energy each gram of the food carries.",
       "points": [
-        "Energy density is the energy per gram of a food; foods high in fat and sugar are the most energy-dense.",
-        "Healthy eating guidelines aim for carbohydrate, mostly from starchy wholegrain foods, to supply the largest share of energy in the diet.",
-        "The average Irish diet has historically drawn a higher share of its energy from fat, and from added sugar in drinks and processed foods, than recommended.",
-        "Calculating the contribution of each nutrient: multiply the grams eaten in a day by the energy value per gram, then divide each result by the total to give its percentage share."
-      ]
+        "Energy density is the energy per gram of a food. Foods rich in fat and sugar are the most energy-dense.",
+        "Wholegrain starchy foods, fruit, vegetables and lean protein give nutrients with less energy per gram, so they are a better choice than empty kilocalories.",
+        "Healthy eating guidelines aim for most energy to come from starchy foods, preferably wholegrain, with less from fat, especially saturated fat, and less from added sugars.",
+        "The typical Irish diet gets more of its energy from saturated fat and from added sugar in drinks and processed foods than the guidelines recommend.",
+        "Calculating the contribution of each nutrient: multiply the grams eaten in a day by the energy value per gram, then divide each result by the total and multiply by 100 to give its percentage share."
+      ],
+      "tip": "Examiners link the contribution of each nutrient to the guidelines to reduce fat and sugar, and to energy balance: over-consumption of fat and sugar leads to positive energy balance and obesity."
     }
   ],
   "keyTerms": [

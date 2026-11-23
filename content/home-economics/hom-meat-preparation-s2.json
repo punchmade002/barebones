@@ -5,79 +5,156 @@
   "syllabusRef": "1.3.2",
   "notes": [
     {
-      "h": "Buying meat and meat products",
+      "h": "Judging fresh meat in the shop",
+      "b": "Meat spoils quickly, so the first job when buying is to judge how fresh it is. Your eyes, nose and fingers tell you most of what you need to know.",
       "points": [
-        "Fresh red meat is bright red, firm and moist with a fresh smell; a grey or brown colour, a sticky surface or a sour smell means the meat is spoiling.",
-        "Loose meat is cut to order at the counter; prepacked meat must be labelled with the product name, weight, storage instructions and a date mark.",
-        "A use-by date marks the end of the safe life of highly perishable meat and must not be passed; a best-before date indicates quality only.",
-        "Ingredient lists on meat products run in descending order of weight, and allergens must be highlighted, under the European Union (Provision of Food Information to Consumers) Regulations 2014, which give effect to Regulation (EU) No 1169/2011.",
-        "Fresh beef must be labelled with its country of origin under EU rules and carries a traceability code linking the meat to the animal.",
-        "Frozen meat should be solidly frozen; packs with ice crystals inside, thawed juice or freezer burn have usually been stored badly.",
-        "Buy meat last on a shopping trip and carry it home in an insulated bag to keep it chilled.",
-        "Consumers can reject faulty meat under the Consumer Rights Act 2022, which requires goods to be of satisfactory quality and fit for purpose.",
-        "The Competition and Consumer Protection Commission (CCPC) enforces the Consumer Protection Act 2007 against misleading food labelling."
+        "Fresh red meat is a bright, even colour, firm and moist with a fresh smell and little drip in the pack. Grey, brown or green patches, a sticky or slimy surface or a sour smell mean the meat is spoiling.",
+        "Fresh poultry has creamy, moist, unbroken skin and no strong smell, because broken skin and odours show bacteria are already at work.",
+        "Fat should look white to creamy and firm, not yellow and soft.",
+        "Lean cuts show little visible fat, so they suit people limiting fat. Marbling (fine streaks of fat within the muscle) in beef gives flavour and juiciness, which is why it adds to a cut's appeal.",
+        "The shape and size of a cut should suit the way you plan to cook it."
+      ],
+      "tip": "Questions on buying meat ask for signs of freshness. Give the sign and what it tells you, for example a sour smell or sticky surface means spoilage."
+    },
+    {
+      "h": "Where to buy meat and how to shop for it",
+      "b": "Where you buy meat and how you get it home both affect how safe it is, because meat that warms up gives bacteria the chance to multiply.",
+      "points": [
+        "A butcher cuts meat to order and gives advice. A supermarket sells prepacked meat with a wide choice, all labelled. Farm shops and markets are other sources.",
+        "Check that the premises look clean, that meat is kept chilled and that raw and cooked meats are kept separate, so raw juices cannot contaminate cooked meat.",
+        "Buy meat last on a shopping trip and carry it home in an insulated bag, so it stays chilled. Refrigerate or freeze it promptly when you get home.",
+        "Buy frozen meat in solid, undamaged packs. Ice crystals inside, frost, thaw juice or freezer burn usually mean the meat has been stored badly or partly thawed, and you should not buy above the load line of the freezer cabinet."
       ]
+    },
+    {
+      "h": "Labels and date marks on meat",
+      "b": "Loose meat is cut to order, but prepacked meat carries a label that tells you what you are buying and how to keep it safe. Reading it correctly is an easy source of marks.",
+      "points": [
+        "A prepacked meat label shows the name of the food, ingredients in descending order of weight (largest first) with allergens emphasised, the net quantity, a date mark, storage instructions, the name and address of the business, origin where required, and a nutrition declaration.",
+        "A use-by date goes on highly perishable foods such as raw meat. It is a safety date, so the meat must not be eaten or used after it, because it may carry harmful bacteria even if it looks and smells fine.",
+        "A best-before date, found on foods such as frozen or canned meat, is a quality date. After it the meat may be past its best but is not necessarily unsafe.",
+        "Frozen and cooked meat products should also be kept to the storage instructions on the pack."
+      ],
+      "tip": "Use-by is about safety and best-before is about quality. Mixing these up loses easy marks, and examiners expect you to say why use-by matters."
+    },
+    {
+      "h": "Origin labels and traceability",
+      "b": "Origin and traceability labelling lets a pack of meat be linked back to the animal and farm it came from, which matters when something goes wrong and meat has to be recalled.",
+      "points": [
+        "Beef labels show an animal reference code and the origin (the country of birth, rearing and slaughter, or one country) and the slaughterhouse. Origin labelling is also required for fresh, chilled and frozen pigmeat, sheep, goat and poultry under EU origin-labelling rules.",
+        "The code and origin let meat be traced back to the farm of origin, so a problem can be found and the affected meat removed."
+      ],
+      "tip": "Mention traceability as the link between the label, the farm and a recall when a question asks why labelling matters."
+    },
+    {
+      "h": "Food labelling regulation for meat (Higher Level only)",
+      "b": "At Higher Level you must name the law that sets out what a prepacked meat label has to contain.",
+      "points": [
+        "Regulation (EU) No 1169/2011 sets the EU rules on food information, including ingredients listed in descending order of weight and allergens highlighted. It is given effect in Ireland by the European Union (Provision of Food Information to Consumers) Regulations 2014."
+      ],
+      "tip": "Name the current regulation and Irish Regulations, not older labelling laws."
+    },
+    {
+      "h": "Consumer protection when buying meat",
+      "b": "If meat is faulty or unfit, you have legal rights, and State bodies enforce the rules that stop misleading claims and unsafe food.",
+      "points": [
+        "Faulty or unfit meat can be returned. The Consumer Rights Act 2022 gives rights for goods: they must be of satisfactory quality, fit for purpose and as described.",
+        "The Consumer Protection Act 2007 prohibits misleading claims, including misleading food labelling, and is enforced by the Competition and Consumer Protection Commission (CCPC).",
+        "The Food Safety Authority of Ireland Act 1998 and food law prohibit unsafe food."
+      ],
+      "tip": "Name the current Act and body, such as the Consumer Rights Act 2022 and the CCPC, not older laws."
     },
     {
       "h": "Factors affecting consumer decisions when buying meat",
+      "b": "Two shoppers can stand at the same meat counter and buy very different things. A list of influences, each with a meat example, answers this exam question well.",
       "points": [
-        "Price: cheaper cuts such as shin, neck, mince and chicken thighs cost less per portion than prime cuts such as fillet.",
-        "Convenience: ready-prepared, marinated and processed meats save time and cooking skill.",
-        "Health: lean cuts, skinless poultry and low-salt products suit people controlling their fat, salt or weight intake.",
-        "Origin: many shoppers prefer Irish meat, and the Bord Bia logo signals assured Irish produce.",
-        "Animal welfare and farming method: free-range, organic and assured production appeals to shoppers concerned about welfare and the environment.",
-        "Appearance and freshness: colour, texture and smell are used to judge quality, and marbling in beef affects its appeal.",
-        "Packaging and portion size: small packs suit single people and reduce waste; large family packs usually cost less per kilogram.",
-        "Advertising, recipes and in-store promotions influence choice and encourage shoppers to try new products.",
-        "Household size and cooking facilities: a household without an oven may buy minced or ready-to-cook meat."
-      ]
+        "Price and income: cheaper cuts such as shin, neck, mince, offal and chicken thighs or pieces cost less per portion than prime cuts such as fillet. Special offers, cost per portion, and bulk-buying with freezing also help a budget.",
+        "Convenience, time and skills: ready-prepared, marinated and processed meats save time and cooking skill. The cooking equipment at home matters too, such as a cooker, microwave and freezer space, so a household without an oven may buy minced or ready-to-cook meat.",
+        "Health: lean cuts, skinless poultry and low-fat, low-salt products suit people controlling fat, salt or weight. Red meat gives iron for those at risk of anaemia, and some people limit processed meat on advice.",
+        "Family size, age and likes: portion sizes, children's preferences and tender meat for older people all matter. Religious and cultural rules affect choice, and vegetarians in the household change what is bought.",
+        "Quality, appearance and freshness: colour, texture and smell are used to judge quality, and marbling in beef affects its appeal. Traceability and labelling also give confidence.",
+        "Origin: many shoppers prefer Irish meat, and the Bord Bia Quality Mark signals assured Irish produce.",
+        "Ethics and environment: animal welfare, organic, free-range and assured production, sustainability, food miles and packaging appeal to shoppers concerned about welfare and the environment.",
+        "Packaging and portion size: small packs suit single people and reduce waste, while large family packs usually cost less per kilogram.",
+        "Advertising, recipes, seasonality and in-store promotions influence choice and encourage shoppers to try new products."
+      ],
+      "tip": "Give at least four or five factors and explain each with a meat example, such as finance and cheaper cuts, time and skill, health, organic and welfare, traceability, labels or family tastes."
     },
     {
       "h": "Bord Bia Quality Assurance Scheme",
+      "b": "Shoppers cannot check on a farm for themselves, so Bord Bia does it for them. Its quality assurance schemes give buyers confidence that Irish meat meets agreed standards.",
       "points": [
-        "The Bord Bia Quality Assurance Scheme certifies Irish meat from farm through to processing against standards for food safety, animal welfare and traceability.",
-        "Requirements include animal welfare and care standards, regulated animal feed, competent herd management and records of veterinary medicines.",
-        "Traceability: livestock and meat are identified so each product can be traced back to the farm of origin.",
-        "Pest control and hygiene are required on farms and in processing plants, which are inspected to check compliance.",
-        "Bord Bia advises the industry and government on meat quality and promotes Irish meat to export markets."
-      ]
+        "Bord Bia is the Irish Food Board, the State agency that promotes Irish food and drink and runs quality assurance schemes. Its Quality Mark shows a product comes from an assured source.",
+        "The farm-level scheme for beef and lamb is audited independently, and separate schemes exist for pigmeat and poultry. Meat processors are assured separately under a meat processor scheme, so meat is certified from farm through to processing.",
+        "The standards cover animal welfare and care, regulated animal feed, competent herd management, records of veterinary medicines, livestock identification and traceability (each product can be traced back to its farm of origin), pest control, hygiene and the environment.",
+        "Farms and processing plants are inspected to check compliance, and non-compliances must be corrected.",
+        "Assured and non-assured product is kept apart in processing, so the assurance claim can be traced.",
+        "Consumers gain confidence in quality, safety and welfare. Producers gain market access and sustainability credentials, and Bord Bia advises industry and government and promotes Irish meat to export markets."
+      ],
+      "tip": "For a developed answer say what the scheme is, what farms must do, that farms and processors are inspected independently, and that Bord Bia advises industry and government."
     },
     {
       "h": "Official measures to keep meat safe",
+      "b": "Meat is kept safe by controls at every stage, from the farm and abattoir to the shop. Many different bodies share the work.",
       "points": [
-        "The Food Safety Authority of Ireland (FSAI) is the national food safety body, established under the Food Safety Authority of Ireland Act 1998.",
-        "The Department of Agriculture, Food and the Marine controls animal health, veterinary inspection and residue monitoring.",
-        "Veterinary inspectors examine animals before slaughter (ante-mortem inspection) and carcasses after slaughter (post-mortem inspection) in abattoirs.",
-        "Residue testing checks meat for banned substances and for drug residues left by veterinary medicines.",
-        "Regulation (EC) No 852/2004 requires food businesses to run HACCP-based food safety management, given effect in Ireland by the European Communities (Hygiene of Foodstuffs) Regulations 2006.",
-        "Regulation (EU) 2017/625, given effect by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020, governs how food premises are inspected.",
-        "Regulation (EC) No 178/2002 general food law prohibits placing unsafe food on the market and requires traceability one step back and one step forward.",
-        "Inspections of food premises are carried out by the HSE Environmental Health Service and local authorities under FSAI service contracts, alongside the Department of Agriculture, Food and the Marine."
-      ]
+        "The Department of Agriculture, Food and the Marine controls animal health, disease testing, veterinary controls on farms, residue (drug and banned-substance) testing, EU import rules, and approval and supervision of abattoirs.",
+        "Veterinary inspectors examine animals before slaughter (ante-mortem inspection) and carcasses and organs after slaughter (post-mortem inspection) in approved abattoirs. Unfit meat is condemned.",
+        "Residue testing checks meat for banned substances and for drug residues left by veterinary medicines. Hormonal growth promoters are banned in EU farm animals, and medicines have withdrawal periods before slaughter.",
+        "Farmers record the medicines and feed they use. Animals are identified with ear tags and cattle passports, so meat is traceable from farm to pack.",
+        "Regulation (EC) No 852/2004 requires food businesses to run HACCP-based food safety procedures (hygiene controls at the steps where hazards could arise). It is given effect in Ireland by the European Communities (Hygiene of Foodstuffs) Regulations 2006.",
+        "The Bord Bia scheme adds independent assurance on top of these controls."
+      ],
+      "tip": "Name current bodies only, and cover Department controls, farmer records of medicines, feed and abattoir controls, disease testing, identification and traceability, and Bord Bia assurance."
     },
     {
-      "h": "Storing meat safely",
+      "h": "The FSAI, food law and official controls (Higher Level only)",
+      "b": "At Higher Level you must know the national food safety body and the laws behind meat safety, and who actually carries out inspections.",
       "points": [
-        "Keep raw meat in the refrigerator at 5 °C or below, because bacteria multiply rapidly between 5 °C and 63 °C, the danger zone.",
-        "Store raw meat covered on the lowest shelf so that drips cannot fall onto cooked or ready-to-eat food.",
-        "Use separate boards and knives for raw meat to prevent cross-contamination.",
-        "Use fresh raw meat within 2 to 3 days of purchase, or freeze it on the day of purchase.",
-        "A freezer temperature of -18 °C or colder keeps meat safe; quality declines the longer meat is kept frozen.",
-        "Thaw frozen meat slowly in the refrigerator, in a container so juices cannot contaminate other food, and cook it fully once thawed.",
-        "Vacuum-packed meat stays in its pack until needed and must be treated as fresh once opened.",
-        "Cool cooked meat quickly and refrigerate it promptly, because hot meat left to cool slowly allows bacteria to multiply.",
-        "Minced meat and offal spoil faster than whole cuts because bacteria spread over a larger surface area."
-      ]
+        "The Food Safety Authority of Ireland (FSAI) is the independent national food safety body, established under the Food Safety Authority of Ireland Act 1998 to see that food is safe. It coordinates enforcement, advises and publishes guidance.",
+        "The FSAI is not the inspector. Official veterinary staff, the HSE Environmental Health Service and local authorities carry out inspections of food premises under FSAI service contracts, alongside the Department of Agriculture, Food and the Marine.",
+        "Regulation (EC) No 178/2002, the general food law, prohibits placing unsafe food on the market and requires traceability one step back and one step forward in the supply chain.",
+        "Regulation (EU) 2017/625, given effect by the European Union (Official Controls in Relation to Food Legislation) Regulations 2020, governs how food premises are inspected."
+      ],
+      "tip": "Remember that the FSAI coordinates while the HSE, local authorities and the Department inspect under service contracts."
+    },
+    {
+      "h": "Storing raw meat safely in the refrigerator",
+      "b": "Raw meat carries bacteria, and these multiply fast in warm conditions. Every storage rule exists to keep bacteria from growing or spreading.",
+      "points": [
+        "Keep raw meat in the refrigerator at 5 °C or below (the FSAI range is 0-5 °C), because bacteria multiply rapidly between 5 °C and 63 °C, the danger zone.",
+        "Store raw meat wrapped or in a covered container on the lowest shelf, away from cooked and ready-to-eat food, so that juices cannot drip onto it.",
+        "Use separate chopping boards and knives for raw meat, and wash hands and surfaces, to prevent cross-contamination (spreading bacteria from raw to ready-to-eat food).",
+        "Use raw meat before the use-by date on the pack, stored at 5 °C or below. If it has no date, cook or freeze it on the day of purchase.",
+        "Minced meat, sausages and offal spoil faster than joints, because bacteria can spread through them over a larger surface area. Poultry often carries Salmonella and Campylobacter on its surface, which are hazards to handle with care.",
+        "Vacuum-packed meat stays in its pack until needed and keeps longer unopened in the refrigerator, but once opened it must be treated as fresh."
+      ],
+      "tip": "Always pair a storage rule with its reason, for example the bottom shelf so raw juices cannot drip on other food."
+    },
+    {
+      "h": "Freezing, thawing and cooked meat",
+      "b": "Freezing lets you keep meat longer, but only if it goes in fresh and is thawed safely. Cooked meat needs its own care because it is often eaten without further cooking.",
+      "points": [
+        "Freeze fresh meat before its use-by date, in portions wrapped in moisture-proof packaging. Label and date it, and rotate stock so the oldest is used first.",
+        "A freezer temperature of -18 °C or colder keeps meat safe, although quality declines the longer meat is kept frozen.",
+        "Thaw frozen meat slowly in the refrigerator, on a tray or in a container on the bottom shelf, so juices cannot contaminate other food. Once thawed, cook it fully within the time on the pack.",
+        "Do not refreeze raw thawed meat, because bacteria can multiply while it thaws. Cooked dishes made from it can be frozen.",
+        "Cool cooked meat quickly, within about 1-2 hours in shallow containers, and refrigerate it promptly, because hot meat left to cool slowly allows bacteria to multiply.",
+        "Reheat cooked meat until steaming hot, to a core temperature of 75 °C, and reheat it once only."
+      ],
+      "tip": "Guidelines for storing meat questions reward the fridge temperature and bottom shelf, covered and separate from cooked food, use-by, freezing and thawing rules, and cooling cooked meat quickly."
     },
     {
       "h": "Effects of storage on meat",
+      "b": "Cold storage slows spoilage but does not stop it. Knowing what each method does and does not do explains why dates and handling rules still matter.",
       "points": [
-        "Refrigeration slows the growth of micro-organisms but does not kill them, so meat still spoils eventually.",
-        "Freezing stops microbial growth and enzyme activity but does not destroy all micro-organisms.",
-        "Slow freezing forms large ice crystals that rupture cell walls, causing drip loss and a soft texture on thawing.",
-        "Drip loss carries away soluble nutrients and extractives, so thawing liquid should be used in cooking.",
-        "Fat can go rancid in poorly stored meat, and freezer burn causes dry, discoloured patches where meat was exposed to air."
-      ]
+        "Refrigeration slows the growth of micro-organisms and enzyme action but does not kill them, so meat still spoils eventually and use-by dates apply.",
+        "Freezing inhibits enzyme activity and microbial growth but does not kill all micro-organisms, so they can regrow once the meat thaws.",
+        "Slow freezing forms large ice crystals that damage and rupture cell walls, giving drip loss on thawing and a softer texture. Fast (blast) freezing at about -30 °C forms small crystals and causes less damage.",
+        "Drip loss carries away extractives (flavour compounds) and soluble nutrients, mainly B vitamins, so the thawing liquid should be used in cooking.",
+        "Freezer burn leaves dry, grey-white or discoloured patches where air reaches the surface of the meat. Fat can also go rancid in poorly stored meat.",
+        "Spoilage shows as slime, a sour smell or a colour change. Myoglobin (the red pigment in meat) oxidises to brown metmyoglobin on exposure to air, which is harmless early on but is a quality sign."
+      ],
+      "tip": "Remember that refrigeration does not kill bacteria and freezing does not kill all bacteria."
     }
   ],
   "keyTerms": [
