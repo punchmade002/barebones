@@ -1,0 +1,361 @@
+[
+ {"skill": "circ-tangent-test", "problems": [
+  {"part": "practice-circ-tangent-test-3", "note": null,
+   "legend": {"1": "the radius, r", "2": "the distance from the centre to the line, d"},
+   "steps": [
+    {"ask": "What do the numbers in (x − a)² + (y − b)² = r² tell you about the centre and the radius?",
+     "title": "Read off the centre and radius",
+     "lines": [
+      {"text": "The centre is $(2, -1)$."},
+      {"tex": "\\hl{1}{r} &= \\hl{1}{\\sqrt{20}}"},
+      {"tex": "&= \\hl{1}{2\\sqrt{5}}"}
+     ]},
+    {"ask": "Which formula gives the perpendicular distance from a point to ax + by + c = 0, and which values go into it?",
+     "title": "Find the distance from the centre to the line",
+     "lines": [
+      {"tex": "\\hl{2}{d} &= \\hl{2}{\\frac{|2 + 2(-1) + 10|}{\\sqrt{1^2 + 2^2}}}"},
+      {"tex": "&= \\hl{2}{\\frac{10}{\\sqrt{5}}}"},
+      {"tex": "&= \\hl{2}{2\\sqrt{5}}"}
+     ]},
+    {"ask": "How does the distance compare with the radius, and what does that mean for the line?",
+     "title": "Compare",
+     "lines": [{"text": "The distance equals the radius, so the line is a tangent."}]}
+   ],
+   "final": "\\hl{2}{d} = \\hl{1}{r} = \\hl{1}{2\\sqrt{5}}",
+   "graph": null},
+  {"part": "practice-circ-tangent-test-1", "note": "The circle is now in general form and the line is 4x − 3y + 19 = 0, so the centre and radius must be found from g, f and c first. The tangent test itself is the same.",
+   "legend": {"1": "the radius, r", "2": "the distance from the centre to the line, d"},
+   "steps": [
+    {"ask": "Compare x² + y² + 2gx + 2fy + c = 0 with the circle. What are g, f and c, and where is the centre?",
+     "title": "Find the centre",
+     "lines": [
+      {"text": "Here $2g = -6$, $2f = -4$ and $c = -12$, so $g = -3$ and $f = -2$."},
+      {"text": "The centre is $(-g, -f) = (3, 2)$."}
+     ]},
+    {"ask": "What formula gives the radius from g, f and c? Substitute carefully and keep track of the signs.",
+     "title": "Find the radius",
+     "lines": [
+      {"tex": "\\hl{1}{r} &= \\hl{1}{\\sqrt{(-3)^2 + (-2)^2 - (-12)}}"},
+      {"tex": "&= \\hl{1}{\\sqrt{25}}"},
+      {"tex": "&= \\hl{1}{5}"}
+     ]},
+    {"ask": "Which distance formula applies to the centre and the line 4x − 3y + 19 = 0?",
+     "title": "Find the distance from the centre to the line",
+     "lines": [
+      {"tex": "\\hl{2}{d} &= \\hl{2}{\\frac{|4(3) - 3(2) + 19|}{\\sqrt{4^2 + (-3)^2}}}"},
+      {"tex": "&= \\hl{2}{\\frac{25}{5}}"},
+      {"tex": "&= \\hl{2}{5}"}
+     ]},
+    {"ask": "How does the distance compare with the radius, and what does that mean for the line?",
+     "title": "Compare",
+     "lines": [{"text": "The distance from the centre to the line equals the radius, so the line is a tangent."}]}
+   ],
+   "final": "\\hl{2}{d} = \\hl{1}{r} = \\hl{1}{5}",
+   "graph": null},
+  {"part": "practice-circ-tangent-test-2", "note": "The line is now given as y = 2x − 9, so it must first be rearranged into ax + by + c = 0. The circle is still in general form, this time with c = 0.",
+   "legend": {"1": "the radius, r", "2": "the distance from the centre to the line, d"},
+   "steps": [
+    {"ask": "Compare x² + y² − 2x + 4y = 0 with the general form. What are g and f, and where is the centre?",
+     "title": "Find the centre",
+     "lines": [
+      {"text": "Here $2g = -2$, $2f = 4$ and $c = 0$, so $g = -1$ and $f = 2$."},
+      {"text": "The centre is $(1, -2)$."}
+     ]},
+    {"ask": "What formula gives the radius from g, f and c?",
+     "title": "Find the radius",
+     "lines": [
+      {"tex": "\\hl{1}{r} &= \\hl{1}{\\sqrt{(-1)^2 + 2^2 - 0}}"},
+      {"tex": "&= \\hl{1}{\\sqrt{5}}"}
+     ]},
+    {"ask": "How do you rearrange y = 2x − 9 so that everything is on one side? What are a, b and c?",
+     "title": "Write the line as $ax + by + c = 0$",
+     "lines": [
+      {"tex": "2x - y - 9 &= 0"}
+     ]},
+    {"ask": "Which distance formula applies to the centre (1, −2) and the line 2x − y − 9 = 0?",
+     "title": "Find the distance from the centre to the line",
+     "lines": [
+      {"tex": "\\hl{2}{d} &= \\hl{2}{\\frac{|2(1) - (-2) - 9|}{\\sqrt{2^2 + (-1)^2}}}"},
+      {"tex": "&= \\hl{2}{\\frac{5}{\\sqrt{5}}}"},
+      {"tex": "&= \\hl{2}{\\sqrt{5}}"}
+     ]},
+    {"ask": "How does the distance compare with the radius, and what does that mean for the line?",
+     "title": "Compare",
+     "lines": [{"text": "The distance equals the radius, so the line is a tangent."}]}
+   ],
+   "final": "\\hl{2}{d} = \\hl{1}{r} = \\hl{1}{\\sqrt{5}}",
+   "graph": null}
+ ]},
+ {"skill": "circ-tangents-from-point", "problems": [
+  {"part": "practice-circ-tangents-from-point-1", "note": null,
+   "legend": {"1": "the slope, m", "2": "the radius"},
+   "steps": [
+    {"ask": "What is the y-intercept of a line through (0, 10) with slope m? Then rearrange so everything is on one side.",
+     "title": "Write the line through $(0, 10)$ with slope $m$",
+     "lines": [
+      {"tex": "y &= \\hl{1}{m}x + 10"},
+      {"tex": "\\hl{1}{m}x - y + 10 &= 0"}
+     ]},
+    {"ask": "Which distance formula from a point to a line applies, with the centre as the point? What must it equal?",
+     "title": "Distance from the centre $(0, 0)$ equals the radius $\\sqrt{10}$",
+     "lines": [
+      {"tex": "\\frac{|10|}{\\sqrt{\\hl{1}{m}^2 + 1}} &= \\hl{2}{\\sqrt{10}}"}
+     ]},
+    {"ask": "What do you get when you square both sides and clear the fraction? Solve for m.",
+     "title": "Square both sides and solve",
+     "lines": [
+      {"tex": "100 &= 10(\\hl{1}{m}^2 + 1)"},
+      {"tex": "\\hl{1}{m}^2 + 1 &= 10"},
+      {"tex": "\\hl{1}{m}^2 &= 9"},
+      {"tex": "\\hl{1}{m} &= 3 \\text{ or } \\hl{1}{m} = -3"}
+     ]}
+   ],
+   "final": "\\hl{1}{m} = 3 \\text{ or } \\hl{1}{m} = -3",
+   "graph": null},
+  {"part": "practice-circ-tangents-from-point-2", "note": "The circle is now centred at (2, 1) and given in general form, and the point is P(−3, 1), so the centre and radius are found first. The distance-equals-radius method is the same.",
+   "legend": {"1": "the slope, m", "2": "the radius"},
+   "steps": [
+    {"ask": "Compare x² + y² + 2gx + 2fy + c = 0 with the circle. What are g, f and c, and where is the centre?",
+     "title": "Find the centre and radius",
+     "lines": [
+      {"text": "Here $g = -2$, $f = -1$ and $c = -4$, so the centre is $(2, 1)$."},
+      {"tex": "\\hl{2}{r} &= \\hl{2}{\\sqrt{(-2)^2 + (-1)^2 - (-4)}}"},
+      {"tex": "&= \\hl{2}{3}"}
+     ]},
+    {"ask": "Which form gives a line through P(−3, 1) with slope m? Rearrange it so everything is on one side.",
+     "title": "Write the line through $P$ with slope $m$",
+     "lines": [
+      {"tex": "y - 1 &= \\hl{1}{m}(x + 3)"},
+      {"tex": "\\hl{1}{m}x - y + 3\\hl{1}{m} + 1 &= 0"}
+     ]},
+    {"ask": "What does the distance formula give for the centre and this line? What must it equal?",
+     "title": "Distance from the centre equals the radius",
+     "lines": [
+      {"tex": "\\frac{|2\\hl{1}{m} - 1 + 3\\hl{1}{m} + 1|}{\\sqrt{\\hl{1}{m}^2 + 1}} &= \\hl{2}{3}"},
+      {"tex": "\\frac{5|\\hl{1}{m}|}{\\sqrt{\\hl{1}{m}^2 + 1}} &= \\hl{2}{3}"}
+     ]},
+    {"ask": "What do you get after squaring both sides and collecting terms? Solve for m.",
+     "title": "Square both sides and solve",
+     "lines": [
+      {"tex": "25\\hl{1}{m}^2 &= 9(\\hl{1}{m}^2 + 1)"},
+      {"tex": "16\\hl{1}{m}^2 &= 9"},
+      {"tex": "\\hl{1}{m} &= \\frac{3}{4} \\text{ or } \\hl{1}{m} = -\\frac{3}{4}"}
+     ]}
+   ],
+   "final": "\\hl{1}{m} = \\frac{3}{4} \\text{ or } \\hl{1}{m} = -\\frac{3}{4}",
+   "graph": null}
+ ]},
+ {"skill": "line-collinear", "problems": [
+  {"part": "practice-line-collinear-1", "note": null,
+   "legend": {"1": "the slope of the first segment", "2": "the slope of the second segment"},
+   "steps": [
+    {"ask": "Which formula gives the slope between two points, and what do you substitute for P and Q?",
+     "title": "Find the slope of PQ",
+     "lines": [
+      {"text": "Slope formula for $P(-2,5)$ and $Q(1,2)$."},
+      {"tex": "\\hl{1}{m_{PQ}} &= \\hl{1}{\\frac{2-5}{1-(-2)}}"},
+      {"tex": "&= \\hl{1}{\\frac{-3}{3}}"},
+      {"tex": "&= \\hl{1}{-1}"}
+     ]},
+    {"ask": "Using the same formula with Q and R, what is the slope?",
+     "title": "Find the slope of QR",
+     "lines": [
+      {"text": "Slope formula for $Q(1,2)$ and $R(4,-1)$."},
+      {"tex": "\\hl{2}{m_{QR}} &= \\hl{2}{\\frac{-1-2}{4-1}}"},
+      {"tex": "&= \\hl{2}{\\frac{-3}{3}}"},
+      {"tex": "&= \\hl{2}{-1}"}
+     ]},
+    {"ask": "What do equal slopes through a shared point tell you about P, Q and R?",
+     "title": "Compare the slopes",
+     "lines": [
+      {"text": "$\\hl{1}{m_{PQ}} = \\hl{2}{m_{QR}} = -1$, and $Q$ is on both segments, so $P$, $Q$ and $R$ lie on one line."}
+     ]}
+   ],
+   "final": "\\hl{1}{m_{PQ}} = \\hl{2}{m_{QR}} = -1 \\text{, so } P, Q, R \\text{ are collinear}",
+   "graph": null},
+  {"part": "practice-line-collinear-2", "note": "Only the numbers change: the slopes now come out as ½ rather than whole numbers, so the fraction arithmetic is the new difficulty. The method is the same.",
+   "legend": {"1": "the slope of the first segment", "2": "the slope of the second segment"},
+   "steps": [
+    {"ask": "What is the slope between A(−3, −2) and B(1, 0)? Watch the signs.",
+     "title": "Find the slope of AB",
+     "lines": [
+      {"text": "Slope formula for $A(-3,-2)$ and $B(1,0)$."},
+      {"tex": "\\hl{1}{m_{AB}} &= \\hl{1}{\\frac{0-(-2)}{1-(-3)}}"},
+      {"tex": "&= \\hl{1}{\\frac{2}{4}}"},
+      {"tex": "&= \\hl{1}{\\frac12}"}
+     ]},
+    {"ask": "Using the same formula with B and C, what is the slope?",
+     "title": "Find the slope of BC",
+     "lines": [
+      {"text": "Slope formula for $B(1,0)$ and $C(9,4)$."},
+      {"tex": "\\hl{2}{m_{BC}} &= \\hl{2}{\\frac{4-0}{9-1}}"},
+      {"tex": "&= \\hl{2}{\\frac{4}{8}}"},
+      {"tex": "&= \\hl{2}{\\frac12}"}
+     ]},
+    {"ask": "If the two slopes are equal and share the point B, what does that say about A, B and C?",
+     "title": "Compare the slopes",
+     "lines": [
+      {"text": "$\\hl{1}{m_{AB}} = \\hl{2}{m_{BC}} = \\frac12$, and $B$ is on both segments, so $A$, $B$ and $C$ lie on one line."}
+     ]}
+   ],
+   "final": "\\hl{1}{m_{AB}} = \\hl{2}{m_{BC}} = \\tfrac12 \\text{, so } A, B, C \\text{ are collinear}",
+   "graph": null}
+ ]},
+ {"skill": "line-from-distance", "problems": [
+  {"part": "practice-line-from-distance-1", "note": null,
+   "legend": {"1": "the slope, m", "2": "the given distance"},
+   "steps": [
+    {"ask": "What is the equation of a straight line through the origin with slope m?",
+     "title": "Write the line through the origin",
+     "lines": [
+      {"text": "A line through $O(0,0)$ with slope $\\hl{1}{m}$ is $y = \\hl{1}{m}x$."},
+      {"tex": "\\hl{1}{m}x - y &= 0"}
+     ]},
+    {"ask": "Which distance formula from a point to a line applies to (7, 1) and mx − y = 0? What must it equal?",
+     "title": "Use the distance formula",
+     "lines": [
+      {"text": "Distance from $(7,1)$ to $\\hl{1}{m}x - y = 0$ equals $\\hl{2}{5}$."},
+      {"tex": "\\frac{|7\\hl{1}{m} - 1|}{\\sqrt{\\hl{1}{m}^2+1}} &= \\hl{2}{5}"},
+      {"tex": "(7\\hl{1}{m}-1)^2 &= 25(\\hl{1}{m}^2+1)"}
+     ]},
+    {"ask": "What do you get after expanding and collecting terms? Can you simplify the coefficients?",
+     "title": "Form the quadratic",
+     "lines": [
+      {"tex": "49\\hl{1}{m}^2 - 14\\hl{1}{m} + 1 &= 25\\hl{1}{m}^2 + 25"},
+      {"tex": "24\\hl{1}{m}^2 - 14\\hl{1}{m} - 24 &= 0"},
+      {"tex": "12\\hl{1}{m}^2 - 7\\hl{1}{m} - 12 &= 0"}
+     ]},
+    {"ask": "Which formula solves a quadratic in m, and what are its coefficients here?",
+     "title": "Solve with the quadratic formula",
+     "lines": [
+      {"tex": "\\hl{1}{m} &= \\frac{7 \\pm \\sqrt{49 + 576}}{24}"},
+      {"tex": "&= \\frac{7 \\pm 25}{24}"},
+      {"tex": "&= \\hl{1}{-\\frac34} \\text{ or } \\hl{1}{\\frac43}"}
+     ]}
+   ],
+   "final": "\\hl{1}{m} = \\hl{1}{-\\frac34} \\text{ or } \\hl{1}{m} = \\hl{1}{\\frac43}",
+   "graph": null},
+  {"part": "practice-line-from-distance-2", "note": "The line now passes through A(2, 3) rather than the origin, and the distance is measured from B(6, 10) to 1 instead of from (7, 1) to 5. The same quadratic method is used.",
+   "legend": {"1": "the slope, m", "2": "the given distance"},
+   "steps": [
+    {"ask": "What is the equation of a line through (2, 3) with slope m? Rearrange it so everything is on one side.",
+     "title": "Write the line through A",
+     "lines": [
+      {"text": "Slope $\\hl{1}{m}$ through $(2,3)$: $y - 3 = \\hl{1}{m}(x - 2)$."},
+      {"tex": "y - 3 &= \\hl{1}{m}(x-2)"},
+      {"tex": "\\hl{1}{m}x - y + 3 - 2\\hl{1}{m} &= 0"}
+     ]},
+    {"ask": "Which distance formula from B(6, 10) to this line applies, and what must it equal?",
+     "title": "Use the distance formula",
+     "lines": [
+      {"text": "Distance from $B(6,10)$ equals $\\hl{2}{1}$."},
+      {"tex": "\\frac{|6\\hl{1}{m} - 10 + 3 - 2\\hl{1}{m}|}{\\sqrt{\\hl{1}{m}^2+1}} &= \\hl{2}{1}"},
+      {"tex": "\\frac{|4\\hl{1}{m} - 7|}{\\sqrt{\\hl{1}{m}^2+1}} &= \\hl{2}{1}"},
+      {"tex": "(4\\hl{1}{m}-7)^2 &= \\hl{1}{m}^2+1"}
+     ]},
+    {"ask": "What do you get after squaring and collecting like terms? Simplify the coefficients.",
+     "title": "Form the quadratic",
+     "lines": [
+      {"tex": "16\\hl{1}{m}^2 - 56\\hl{1}{m} + 49 &= \\hl{1}{m}^2 + 1"},
+      {"tex": "15\\hl{1}{m}^2 - 56\\hl{1}{m} + 48 &= 0"}
+     ]},
+    {"ask": "Which formula solves a quadratic in m, and what are its coefficients here?",
+     "title": "Solve with the quadratic formula",
+     "lines": [
+      {"tex": "\\hl{1}{m} &= \\frac{56 \\pm \\sqrt{3136 - 2880}}{30}"},
+      {"tex": "&= \\frac{56 \\pm 16}{30}"},
+      {"tex": "&= \\hl{1}{\\frac43} \\text{ or } \\hl{1}{\\frac{12}{5}}"}
+     ]}
+   ],
+   "final": "\\hl{1}{m} = \\hl{1}{\\frac43} \\text{ or } \\hl{1}{m} = \\hl{1}{\\frac{12}{5}}",
+   "graph": null}
+ ]},
+ {"skill": "line-unknown-coefficient", "problems": [
+  {"part": "practice-line-unknown-coefficient-2", "note": null,
+   "legend": {"1": "the slope of the line with k", "2": "the known slope", "3": "the unknown, k"},
+   "steps": [
+    {"ask": "Which formula gives the slope through two points, and what do you substitute for A and B?",
+     "title": "Find the slope of AB",
+     "lines": [
+      {"tex": "\\hl{2}{m} &= \\hl{2}{\\frac{8-2}{4-1}}"},
+      {"tex": "&= \\hl{2}{\\frac{6}{3}}"},
+      {"tex": "&= \\hl{2}{2}"}
+     ]},
+    {"ask": "How do you rearrange kx − 3y + 4 = 0 so that y is on its own? What is the coefficient of x?",
+     "title": "Find the slope of the first line",
+     "lines": [
+      {"tex": "kx - 3y + 4 &= 0"},
+      {"tex": "3y &= kx + 4"},
+      {"tex": "y &= \\hl{1}{\\frac{k}{3}}x + \\frac43"},
+      {"text": "So the slope is $\\hl{1}{\\frac{k}{3}}$."}
+     ]},
+    {"ask": "What does parallel tell you about the two slopes, and what does that give for k?",
+     "title": "Parallel lines have equal slopes",
+     "lines": [
+      {"tex": "\\hl{1}{\\frac{k}{3}} &= \\hl{2}{2}"},
+      {"tex": "\\hl{3}{k} &= \\hl{3}{6}"}
+     ]}
+   ],
+   "final": "\\hl{3}{k} = \\hl{3}{6}",
+   "graph": null},
+  {"part": "practice-line-unknown-coefficient-3", "note": "The unknown k now sits in the y-term as (k + 1), and the known line is given in general form as 6x − 3y = 2, so both slopes need rearranging. The parallel condition is the same.",
+   "legend": {"1": "the slope of the line with k", "2": "the known slope", "3": "the unknown, k"},
+   "steps": [
+    {"ask": "What do you get when you put y on its own, and what is the coefficient of x?",
+     "title": "Find the slope of $6x - 3y = 2$",
+     "lines": [
+      {"tex": "6x - 3y &= 2"},
+      {"tex": "3y &= 6x - 2"},
+      {"tex": "y &= \\hl{2}{2}x - \\frac23"},
+      {"text": "So the slope is $\\hl{2}{2}$."}
+     ]},
+    {"ask": "How do you isolate y when its coefficient is (k + 1), and what is the coefficient of x?",
+     "title": "Find the slope of $4x + (k+1)y = 9$",
+     "lines": [
+      {"tex": "(k+1)y &= -4x + 9"},
+      {"tex": "y &= \\hl{1}{-\\frac{4}{k+1}}x + \\frac{9}{k+1}"},
+      {"text": "So the slope is $\\hl{1}{-\\frac{4}{k+1}}$."}
+     ]},
+    {"ask": "What does parallel tell you about the two slopes, and how do you clear the fraction to find k?",
+     "title": "Parallel lines have equal slopes",
+     "lines": [
+      {"tex": "\\hl{1}{-\\frac{4}{k+1}} &= \\hl{2}{2}"},
+      {"tex": "-4 &= 2(k+1)"},
+      {"tex": "-4 &= 2k + 2"},
+      {"tex": "2k &= -6"},
+      {"tex": "\\hl{3}{k} &= \\hl{3}{-3}"}
+     ]}
+   ],
+   "final": "\\hl{3}{k} = \\hl{3}{-3}",
+   "graph": null},
+  {"part": "practice-line-unknown-coefficient-1", "note": "The condition is now perpendicular, so the slopes multiply to −1 instead of being equal, and k sits alone in the y-term of 2x + ky = 7. The method is the same: find both slopes, apply the condition, then solve for k.",
+   "legend": {"1": "the slope of the line with k", "2": "the known slope", "3": "the unknown, k"},
+   "steps": [
+    {"ask": "Once y is on its own in each line, what is the coefficient of x?",
+     "title": "Find the slope of each line",
+     "lines": [
+      {"text": "Make $y$ the subject of each equation."},
+      {"tex": "2x + ky &= 7"},
+      {"tex": "y &= \\hl{1}{-\\frac{2}{k}}x + \\frac{7}{k}"},
+      {"text": "So $m_1 = \\hl{1}{-\\frac{2}{k}}$."},
+      {"tex": "3x - 2y &= 4"},
+      {"tex": "y &= \\hl{2}{\\frac32} x - 2"},
+      {"text": "So $m_2 = \\hl{2}{\\frac32}$."}
+     ]},
+    {"ask": "What does perpendicular tell you about the product of the two slopes?",
+     "title": "Use the perpendicular condition",
+     "lines": [
+      {"text": "Perpendicular lines have $m_1 m_2 = -1$."},
+      {"tex": "\\hl{1}{-\\frac{2}{k}} \\cdot \\hl{2}{\\frac32} &= -1"},
+      {"tex": "-\\frac{3}{k} &= -1"}
+     ]},
+    {"ask": "Which value of k makes the equation from the last step true?",
+     "title": "Solve for k",
+     "lines": [
+      {"tex": "\\hl{3}{k} &= \\hl{3}{3}"}
+     ]}
+   ],
+   "final": "\\hl{3}{k} = \\hl{3}{3}",
+   "graph": null}
+ ]}
+]
