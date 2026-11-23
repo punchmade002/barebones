@@ -1,0 +1,699 @@
+{
+ "bio13-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.0.0",
+    "strength": "helpful",
+    "why": "catalyst definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.0.0",
+    "strength": "essential",
+    "why": "catalyst definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.8.5",
+    "strength": "helpful",
+    "why": "globular proteins",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s2.8.0",
+    "strength": "helpful",
+    "why": "tertiary structure folding",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.7.6",
+    "strength": "helpful",
+    "why": "gene sets amino-acid sequence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.0.2",
+    "strength": "helpful",
+    "why": "enzyme as biological catalyst",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.0.0",
+    "strength": "helpful",
+    "why": "catalyst reused",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.0.0",
+    "strength": "essential",
+    "why": "catalyst unchanged",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.4.2",
+    "strength": "essential",
+    "why": "active site",
+    "confidence": "high"
+   },
+   {
+    "id": "bio13-s1.4.0",
+    "strength": "helpful",
+    "why": "substrate",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.8.3",
+    "strength": "essential",
+    "why": "denaturation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.0",
+    "strength": "essential",
+    "why": "substrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.2.0",
+    "strength": "helpful",
+    "why": "-ase naming rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.2.2",
+    "strength": "helpful",
+    "why": "intracellular contrast",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.3.0",
+    "strength": "helpful",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.3.0",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.3.0",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.3.2",
+    "strength": "helpful",
+    "why": "slow reactions at body temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.3.0",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.3.4",
+    "strength": "helpful",
+    "why": "lowered activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.3.0",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.3.6",
+    "strength": "essential",
+    "why": "energy-profile graph",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.0",
+    "strength": "helpful",
+    "why": "substrate and products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.0",
+    "strength": "essential",
+    "why": "substrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.4.2",
+    "strength": "essential",
+    "why": "active site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.3",
+    "strength": "essential",
+    "why": "complementary shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.2",
+    "strength": "helpful",
+    "why": "active site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.4.2",
+    "strength": "essential",
+    "why": "active site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.5.0",
+    "strength": "helpful",
+    "why": "enzyme-substrate binding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.3.0",
+    "strength": "essential",
+    "why": "activation energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.5.0",
+    "strength": "essential",
+    "why": "enzyme-substrate complex",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.3",
+    "strength": "essential",
+    "why": "complementary shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.5.4",
+    "strength": "essential",
+    "why": "products released",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.5.0",
+    "strength": "helpful",
+    "why": "enzyme-substrate complex",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.5.0",
+    "strength": "essential",
+    "why": "three-stage mechanism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.2",
+    "strength": "helpful",
+    "why": "active site mechanism",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.3",
+    "strength": "essential",
+    "why": "catabolism breaks molecules down",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.2.1",
+    "strength": "essential",
+    "why": "anabolism builds molecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.6.1",
+    "strength": "helpful",
+    "why": "anabolic joining reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.3",
+    "strength": "helpful",
+    "why": "active-site shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.3",
+    "strength": "essential",
+    "why": "complementary shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.7.0",
+    "strength": "essential",
+    "why": "specificity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.3",
+    "strength": "essential",
+    "why": "complementary fit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.7.2",
+    "strength": "essential",
+    "why": "lock-and-key model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.7.0",
+    "strength": "essential",
+    "why": "specificity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s2.8.3",
+    "strength": "essential",
+    "why": "denaturation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.7.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.7.6",
+    "strength": "essential",
+    "why": "amino-acid sequence set by gene",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.0",
+    "strength": "helpful",
+    "why": "metabolism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.0",
+    "strength": "helpful",
+    "why": "metabolism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.3.2",
+    "strength": "helpful",
+    "why": "reactions too slow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.8.0",
+    "strength": "helpful",
+    "why": "enzyme per reaction",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.8.2",
+    "strength": "essential",
+    "why": "metabolic pathways",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.8.2",
+    "strength": "essential",
+    "why": "metabolic pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.9.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.8.2",
+    "strength": "helpful",
+    "why": "pathway steps",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s1.0.4",
+    "strength": "helpful",
+    "why": "genes code for enzymes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.8.2",
+    "strength": "essential",
+    "why": "metabolic pathway",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio13-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.4.2",
+    "strength": "helpful",
+    "why": "enzyme blocked",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio13-s1.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.2.5",
+    "strength": "helpful",
+    "why": "lactose sugar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.10.1",
+    "strength": "essential",
+    "why": "lactase digests lactose",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s2.7.1",
+    "strength": "helpful",
+    "why": "amino acids",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio13-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s1.10.3",
+    "strength": "essential",
+    "why": "PKU",
+    "confidence": "high"
+   }
+  ]
+ }
+}
