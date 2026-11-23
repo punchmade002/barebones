@@ -76,7 +76,7 @@
     "finalAnswer": "2 + 4 + \\dots + 2n = n(n+1)"
    },
    "finalSym": "0",
-   "answerSym": "summation(2*i,(i,1,n))-n*(n+1)"
+   "answerSym": "summation(2*j,(j,1,n))-n*(n+1)"
   },
   "graph": null,
   "diagram": null,
@@ -397,10 +397,7 @@
       "say": "Write the decimal as a sum of the repeating blocks.",
       "lines": [
        {
-        "tex": "0.272727\\dots &= 0.27 + 0.0027 + 0.000027 + \\dots",
-        "sym": "Rational(27,100)+Rational(27,10000)",
-        "approx": false,
-        "new": true
+        "tex": "0.272727\\dots &= 0.27 + 0.0027 + 0.000027 + \\dots"
        },
        {
         "text": "Each block is $\\frac{1}{100}$ of the one before. It is a geometric series."

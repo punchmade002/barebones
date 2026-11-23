@@ -1,0 +1,575 @@
+[
+ {
+  "skill": "int-area-between",
+  "what": {
+   "say": [
+    "You give it two curves. It finds the area of the region **enclosed** between them.",
+    "The key idea: the area is the integral of the top curve minus the bottom curve, taken between the two $x$-values where the curves cross."
+   ],
+   "in": "two curves",
+   "out": "area $=\\int(\\text{top}-\\text{bottom})\\,dx$"
+  },
+  "how": {
+   "higher": "Higher level only: four parts as the main skill (2017, 2018, 2023, 2024), all on Paper 1 and worth 5 to 15 marks, usually after a part that finds where the curves meet."
+  },
+  "example": {
+   "question": "The curves $y = 4x - x^2$ and $y = x$ cross at two points. Find the area enclosed between them.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find where they cross",
+      "say": "The limits are where the curves meet. Set the two $y$ values equal and solve for $x$.",
+      "lines": [
+       {
+        "tex": "4x - x^2 - x &= 0",
+        "sym": "4*x-x**2-x",
+        "new": true
+       },
+       {
+        "tex": "3x - x^2 &= 0",
+        "sym": "3*x-x**2"
+       },
+       {
+        "tex": "x(3 - x) &= 0",
+        "sym": "x*(3-x)"
+       },
+       {
+        "text": "So $x = \\hl{1}{0}$ or $x = \\hl{1}{3}$. These are the limits."
+       }
+      ]
+     },
+     {
+      "title": "Find which is on top",
+      "say": "Test one $x$ between the limits. The curve with the bigger $y$ is the top curve.",
+      "lines": [
+       {
+        "tex": "\\text{curve at } x=1 &= 4(1) - (1)^2 = 3",
+        "sym": "3",
+        "new": true
+       },
+       {
+        "tex": "\\text{line at } x=1 &= 1",
+        "sym": "1",
+        "new": true
+       },
+       {
+        "text": "The curve is on top, so the integrand is curve minus line."
+       }
+      ]
+     },
+     {
+      "title": "Subtract and integrate",
+      "say": "Subtract bottom from top to get one function. Integrate it from $\\hl{1}{0}$ to $\\hl{1}{3}$.",
+      "lines": [
+       {
+        "tex": "\\hl{2}{(4x - x^2) - x} &= 3x - x^2",
+        "sym": "3*x-x**2",
+        "new": true
+       },
+       {
+        "tex": "A &= \\int_{\\hl{1}{0}}^{\\hl{1}{3}} (3x - x^2)\\,dx"
+       },
+       {
+        "tex": "&= \\left[ \\frac{3x^2}{2} - \\frac{x^3}{3} \\right]_{0}^{3}"
+       }
+      ]
+     },
+     {
+      "title": "Evaluate with the limits",
+      "say": "Put in the upper limit, then take away the value at the lower limit.",
+      "lines": [
+       {
+        "tex": "A &= \\left( \\frac{3(3)^2}{2} - \\frac{3^3}{3} \\right) - 0",
+        "sym": "27/2-9",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{27}{2} - 9",
+        "sym": "27/2-9"
+       },
+       {
+        "tex": "&= \\frac{9}{2}",
+        "sym": "9/2"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "$\\frac{9}{2}$ square units"
+   },
+   "finalSym": "9/2",
+   "answerSym": "integrate(4*x-x**2-x,(x,0,3))"
+  },
+  "graph": {
+   "f": "4*x - x**2",
+   "box": [
+    -1,
+    5,
+    5,
+    -1
+   ],
+   "points": [
+    {
+     "x": 0,
+     "y": 0,
+     "name": "cross (0, 0)"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "name": "cross (3, 3)"
+    }
+   ],
+   "slots": {
+    "x": 1,
+    "y": null
+   }
+  },
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Marks are tied to the steps: integrate each curve, combine, then evaluate with the limits. Show all of them.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-higher-p1-q6#(a)(ii)",
+       "quote": "Evaluate with Limits"
+      },
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(c)(i)",
+       "quote": "Evaluate with limits"
+      }
+     ]
+    },
+    {
+     "tip": "Write the integral with its limits first, even if you cannot finish. It earns low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(c)(i)",
+       "quote": "Integration indicated"
+      },
+      {
+       "part": "maths-pp-2018-higher-p1-q6#(b)(i)",
+       "quote": "Integral indicated"
+      }
+     ]
+    },
+    {
+     "tip": "Integrating each curve separately and subtracting is accepted as well as subtracting first.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-higher-p1-q6#(b)",
+       "quote": "integrates twice for correct area under both curves"
+      },
+      {
+       "part": "maths-pp-2023-higher-p1-q6#(a)(ii)",
+       "quote": "Method 2"
+      }
+     ]
+    },
+    {
+     "tip": "If the region is symmetric, check whether you need to double. The first-quadrant area alone loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p1-q10#(c)(i)",
+       "quote": "does not double the answer"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "prob-relative-frequency",
+  "what": {
+   "say": [
+    "You give it the results of an experiment. It gives you the **relative frequency**: how often the event happened out of all the trials.",
+    "The key idea: relative frequency is successes divided by trials, and it is your best estimate of the probability. Multiply it by a new number of trials to get an expected frequency."
+   ],
+   "in": "trial results",
+   "out": "relative frequency"
+  },
+  "how": {
+   "ordinary": "Ordinary level only: it appeared twice in 2017, Paper 2, Question 1, worth 5 marks a part. You turn real counts into a fraction of the total, then use a probability to estimate how many to expect."
+  },
+  "example": {
+   "question": "A drawing pin is dropped 80 times. It lands point up 28 times.\n(a) Find the relative frequency of landing point up.\n(b) Estimate how many times it lands point up in 500 drops.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Count successes and trials",
+      "say": "Read off how many times it landed point up, and how many times it was dropped in all.",
+      "lines": [
+       {
+        "tex": "\\text{point up} &= \\hl{1}{28}",
+        "sym": "28",
+        "new": true
+       },
+       {
+        "tex": "\\text{drops} &= \\hl{2}{80}",
+        "sym": "80",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Relative frequency",
+      "say": "Divide the successes by the trials. Cancel to lowest terms.",
+      "lines": [
+       {
+        "tex": "\\text{relative frequency} &= \\frac{\\hl{1}{28}}{\\hl{2}{80}}",
+        "sym": "28/80",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{7}{20}",
+        "sym": "7/20"
+       },
+       {
+        "tex": "&= \\hl{3}{0.35}",
+        "sym": "0.35"
+       }
+      ]
+     },
+     {
+      "title": "Expected frequency",
+      "say": "Multiply the number of new trials by the relative frequency $\\hl{3}{0.35}$.",
+      "lines": [
+       {
+        "tex": "\\text{expected} &= 500 \\times \\hl{3}{0.35}",
+        "sym": "500*0.35",
+        "new": true
+       },
+       {
+        "tex": "&= 175",
+        "sym": "175"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(a) $0.35$  (b) about $175$ times"
+   },
+   "finalSym": "175",
+   "answerSym": "500*28/80"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [],
+   "ordinary": [
+    {
+     "tip": "Show the probability as a fraction first. A percentage on its own loses a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p2-q1#(a)(i)",
+       "quote": "Answer must be shown in fraction"
+      }
+     ]
+    },
+    {
+     "tip": "When you need a count, write the subtraction. Showing it earns partial credit even if the arithmetic slips.",
+     "sources": [
+      {
+       "part": "maths-pp-2017-ordinary-p2-q1#(a)(i)",
+       "quote": "Indicates relevant subtraction"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-counting-principle",
+  "what": {
+   "say": [
+    "You give it a choice made in stages. It gives you the **total number** of outcomes.",
+    "The key idea: if there are $m$ ways for the first stage and $n$ for the second, there are $m \\times n$ in all. Multiply the stages, do not add them."
+   ],
+   "in": "choices at each stage",
+   "out": "total outcomes"
+  },
+  "how": {
+   "higher": "Higher level uses it in 2016, 2018, 2023 and 2024, mostly on Paper 2: counting codes or patterns such as $3^5$, worth 5 to 15 marks, often as the first part of a probability question.",
+   "ordinary": "Ordinary level uses it in six of the eleven years (2015 and 2020 to 2025): menus, outfits and routes, 5 to 10 marks a part, often followed by a choice of which option gives most outcomes."
+  },
+  "example": {
+   "question": "A cafe lunch deal is one soup, one sandwich and one drink. There are 2 soups, 5 sandwiches and 3 drinks.\n(a) How many different deals are there?\n(b) The cafe adds one new item to one group. Which group gives the most deals?",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Multiply the choices",
+      "say": "Each stage can be chosen in any way, whatever was picked before. So multiply the number of choices at each stage.",
+      "lines": [
+       {
+        "tex": "\\text{deals} &= 2 \\times 5 \\times 3",
+        "sym": "2*5*3",
+        "new": true
+       },
+       {
+        "tex": "&= \\hl{1}{30}",
+        "sym": "30"
+       }
+      ]
+     },
+     {
+      "title": "Try one extra item in each group",
+      "say": "Add one to one group at a time and multiply again.",
+      "lines": [
+       {
+        "tex": "\\text{extra soup} &= 3 \\times 5 \\times 3 = \\hl{2}{45}",
+        "sym": "45",
+        "new": true
+       },
+       {
+        "tex": "\\text{extra sandwich} &= 2 \\times 6 \\times 3 = 36",
+        "sym": "36",
+        "new": true
+       },
+       {
+        "tex": "\\text{extra drink} &= 2 \\times 5 \\times 4 = 40",
+        "sym": "40",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Compare",
+      "say": "The biggest total wins. State the answer in words.",
+      "lines": [
+       {
+        "text": "$\\hl{2}{45}$ is the largest, so the cafe should add a **soup**."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(a) $30$ deals  (b) add a soup, giving $45$ deals"
+   },
+   "finalSym": "30",
+   "answerSym": "2*5*3"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Say how many places there are and how many choices each has. That alone earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q3#(a)(i)",
+       "quote": "Identifies that 5 other digits are required to complete code"
+      }
+     ]
+    },
+    {
+     "tip": "If a rule fixes one position, count each case separately and add the cases.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-higher-p2-q3#(a)(i)",
+       "quote": "1 × 10 × 10 + 10 × 1 × 10 + 10 × 10 × 1"
+      }
+     ]
+    },
+    {
+     "tip": "List some of the outcomes if the count is not coming. Some correct patterns earn work of merit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q10#(c)(i)",
+       "quote": "lists some correct patterns"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "A counting question asks for a number of outcomes. An answer given as a probability earns zero.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-ordinary-p2-q1#(a)",
+       "quote": "Answer as a probability"
+      }
+     ]
+    },
+    {
+     "tip": "Choices at each stage multiply. Adding them, as in $3 + 4 + 5$, only earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q3#(b)(i)",
+       "quote": "Treats as 3 + 4 + 5"
+      }
+     ]
+    },
+    {
+     "tip": "When asked which option gives the most, work out every total and state your pick. A bare answer earns only low partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q3#(b)(i)",
+       "quote": "Correct answer without justification"
+      },
+      {
+       "part": "maths-pp-2024-ordinary-p2-q9#(a)(i), (ii)",
+       "quote": "Correct box ticked but no justification"
+      }
+     ]
+    },
+    {
+     "tip": "Write the multiplication even if it is incomplete: indicating it earns partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-ordinary-p2-q1#(a)(i)",
+       "quote": "Indication of multiplication involving any two of 4, 6, and 8"
+      },
+      {
+       "part": "maths-pp-2025-ordinary-p2-q10#(b)(i)",
+       "quote": "some relevant multiplication"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "prob-sample-space",
+  "what": {
+   "say": [
+    "You give it two experiments. It lists every possible pair of results, the **sample space**, as a table or a list.",
+    "The key idea: pair each result of the first experiment with each result of the second. Count the pairs, then count the ones you want."
+   ],
+   "in": "two experiments",
+   "out": "table of outcomes"
+  },
+  "how": {
+   "higher": "Higher level uses it in 2015, 2016 and 2020 on Paper 2: a table of two dice totals or of remainders, 5 to 10 marks, used to decide whether a game is fair.",
+   "ordinary": "Ordinary level uses it in 2018, 2023 and 2024 on Paper 2: a table of two dice, a $5 \\times 5$ table of pairs, or a list of 14 colour and number outcomes, 5 to 10 marks a part."
+  },
+  "example": {
+   "question": "A fair coin is tossed and a fair spinner numbered 1, 2, 3, 4 is spun.\n(a) List all the possible outcomes.\n(b) Find the probability of a head and an even number.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "List the outcomes",
+      "say": "Pair each coin result with each spinner number. Do one row at a time so none are missed.",
+      "lines": [
+       {
+        "tex": "\\text{Head} &: (H,1),\\ (H,2),\\ (H,3),\\ (H,4)"
+       },
+       {
+        "tex": "\\text{Tail} &: (T,1),\\ (T,2),\\ (T,3),\\ (T,4)"
+       },
+       {
+        "tex": "\\text{total} &= 2 \\times 4 = \\hl{1}{8}",
+        "sym": "8",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Pick out the ones you want",
+      "say": "Look for a head and an even number: the pairs $(H,2)$ and $(H,4)$.",
+      "lines": [
+       {
+        "tex": "\\text{wanted} &= (H,2),\\ (H,4)"
+       },
+       {
+        "tex": "\\text{count} &= \\hl{2}{2}",
+        "sym": "2",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Write the probability",
+      "say": "Divide the wanted outcomes by all outcomes.",
+      "lines": [
+       {
+        "tex": "P(\\text{head, even}) &= \\frac{\\hl{2}{2}}{\\hl{1}{8}}",
+        "sym": "2/8",
+        "new": true
+       },
+       {
+        "tex": "&= \\frac{1}{4}",
+        "sym": "1/4"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "(a) $8$ outcomes listed above  (b) $\\frac{1}{4}$"
+   },
+   "finalSym": "1/4",
+   "answerSym": "Rational(1,2)*Rational(2,4)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Finish with a conclusion. A full table with no conclusion, or an unsound one, earns only high partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2020-higher-p2-q5#(b)",
+       "quote": "All remainders listed but no conclusion or incorrect conclusion"
+      }
+     ]
+    },
+    {
+     "tip": "A part-filled table still earns marks, so fill in every entry you can.",
+     "sources": [
+      {
+       "part": "maths-pp-2015-higher-p2-q1#(a)",
+       "quote": "Partially correct table with at least 5 correct totals or couples"
+      },
+      {
+       "part": "maths-pp-2016-higher-p2-q5#(a)(ii)",
+       "quote": "1 correct column"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Set the table out in full. Marks are given by how many entries are correct.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(c)(i)",
+       "quote": "15 elements correct in table"
+      }
+     ]
+    },
+    {
+     "tip": "A tree diagram or any clear list of outcomes is accepted, so use the layout you can keep tidy.",
+     "sources": [
+      {
+       "part": "maths-pp-2023-ordinary-p2-q10#(c)(i)",
+       "quote": "Some other acceptable list of outcomes"
+      }
+     ]
+    },
+    {
+     "tip": "A probability can never be more than 1. Writing one with no working earns zero.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q1#(a)(i)",
+       "quote": "Probability > 1, without work"
+      }
+     ]
+    },
+    {
+     "tip": "Write answers where the question asks. Correct entries outside the box with no work earn zero.",
+     "sources": [
+      {
+       "part": "maths-pp-2018-ordinary-p2-q1#(a)(i)",
+       "quote": "Correct answers outside box with no work"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
