@@ -1,0 +1,307 @@
+{
+ "bio8-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.0.0",
+    "strength": "helpful",
+    "why": "four biomolecule groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.0.0",
+    "strength": "helpful",
+    "why": "biomolecule groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.0.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio8-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.1.0",
+    "strength": "essential",
+    "why": "monomer and polymer definitions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.1.0",
+    "strength": "essential",
+    "why": "polymer as repeating monomer chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.1.1",
+    "strength": "helpful",
+    "why": "glucose and amino acid monomers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.1.3",
+    "strength": "essential",
+    "why": "condensation as the opposite",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.1.4",
+    "strength": "essential",
+    "why": "hydrolysis splitting molecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.1.1",
+    "strength": "helpful",
+    "why": "polymers built from monomers",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s1.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.1.3",
+    "strength": "essential",
+    "why": "condensation reaction",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s1.1.4",
+    "strength": "essential",
+    "why": "hydrolysis reaction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.0",
+    "strength": "helpful",
+    "why": "metabolism as all reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.2.1",
+    "strength": "essential",
+    "why": "anabolism definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.0",
+    "strength": "helpful",
+    "why": "metabolism as all reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.2.3",
+    "strength": "essential",
+    "why": "catabolism definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.2.3",
+    "strength": "essential",
+    "why": "catabolic reactions release energy",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s1.2.1",
+    "strength": "essential",
+    "why": "anabolic reactions need energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.5",
+    "strength": "essential",
+    "why": "energy transfer between reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.3.0",
+    "strength": "helpful",
+    "why": "converting biomolecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s1.3.0",
+    "strength": "helpful",
+    "why": "converting biomolecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.3.0",
+    "strength": "helpful",
+    "why": "converting biomolecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.1",
+    "strength": "essential",
+    "why": "anabolism definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s1.2.3",
+    "strength": "essential",
+    "why": "catabolism definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.1",
+    "strength": "essential",
+    "why": "anabolism needs energy",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s1.2.3",
+    "strength": "essential",
+    "why": "catabolism releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s1.2.2",
+    "strength": "helpful",
+    "why": "anabolic examples",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s1.2.4",
+    "strength": "helpful",
+    "why": "catabolic examples",
+    "confidence": "high"
+   }
+  ]
+ }
+}

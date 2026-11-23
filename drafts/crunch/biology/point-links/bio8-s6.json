@@ -1,0 +1,354 @@
+{
+ "bio8-s6.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.0.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio8-s6.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.2",
+    "strength": "essential",
+    "why": "polar charges",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.0.2",
+    "strength": "essential",
+    "why": "polarity of water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.0.3",
+    "strength": "essential",
+    "why": "hydrogen bonding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.3",
+    "strength": "essential",
+    "why": "hydrogen bonding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.0.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.3",
+    "strength": "helpful",
+    "why": "hydrogen bond",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.4",
+    "strength": "helpful",
+    "why": "solvent, dissolved molecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.1.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio8-s6.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.1.1",
+    "strength": "helpful",
+    "why": "reactant vs product, hydrolysis",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s6.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.4",
+    "strength": "helpful",
+    "why": "water as solvent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.4",
+    "strength": "helpful",
+    "why": "dissolving in water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.4",
+    "strength": "helpful",
+    "why": "dissolved in water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.0.4",
+    "strength": "helpful",
+    "why": "dissolved minerals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.2.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.0.6",
+    "strength": "essential",
+    "why": "cohesion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio8-s6.2.2",
+    "strength": "essential",
+    "why": "xylem water transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.4",
+    "strength": "helpful",
+    "why": "dissolved substances",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.5",
+    "strength": "essential",
+    "why": "specific heat, latent heat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.5",
+    "strength": "essential",
+    "why": "high specific heat capacity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.0.5",
+    "strength": "essential",
+    "why": "latent heat of vaporisation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.0.3",
+    "strength": "helpful",
+    "why": "hydrogen bonds in ice",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s6.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.0.4",
+    "strength": "helpful",
+    "why": "dissolving releases ions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio8-s6.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.4.0",
+    "strength": "essential",
+    "why": "pH and H+ concentration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.4.0",
+    "strength": "helpful",
+    "why": "H+ ions and pH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.2.0",
+    "strength": "helpful",
+    "why": "plasma carries CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.5.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio8-s6.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.5.1",
+    "strength": "essential",
+    "why": "osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.5.0",
+    "strength": "essential",
+    "why": "osmoregulation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.5.1",
+    "strength": "essential",
+    "why": "osmosis into cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio8-s6.5.4",
+    "strength": "helpful",
+    "why": "turgid vs flaccid",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.5.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio8-s6.5.1",
+    "strength": "essential",
+    "why": "osmosis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio8-s6.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio8-s6.6.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

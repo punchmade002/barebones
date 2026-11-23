@@ -1,0 +1,724 @@
+{
+"bio7-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.0.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane location",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.0.0",
+"strength": "essential",
+"why": "cell wall function",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.0",
+"strength": "essential",
+"why": "cell wall",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.3": {
+"cost": 2,
+"needs": []
+},
+"bio7-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "essential",
+"why": "proteins in membrane",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "inside the cell membrane",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.1.0",
+"strength": "essential",
+"why": "cytoplasm",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.1.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.1.2",
+"strength": "essential",
+"why": "plant vacuole",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.0.0",
+"strength": "helpful",
+"why": "cell wall pressure",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.1.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.1.2",
+"strength": "helpful",
+"why": "vacuole",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.1.2",
+"strength": "essential",
+"why": "plant vacuole",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.0",
+"strength": "essential",
+"why": "cristae and membranes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.0",
+"strength": "helpful",
+"why": "mitochondrion",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.1",
+"strength": "essential",
+"why": "eukaryotic cells",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.2",
+"strength": "helpful",
+"why": "energy release by mitochondria",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.2.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.0",
+"strength": "essential",
+"why": "mitochondrion structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "essential",
+"why": "chloroplast structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "essential",
+"why": "thylakoids and chlorophyll",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "helpful",
+"why": "stacked thylakoid membranes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.4": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.4",
+"strength": "helpful",
+"why": "where chloroplasts occur",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "helpful",
+"why": "chloroplast structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.3.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.3.0",
+"strength": "essential",
+"why": "chloroplast structure",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.0.1",
+"strength": "helpful",
+"why": "eukaryotic nucleus, nuclear envelope",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "DNA in nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "DNA in nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "inside the nucleus",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "nucleus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "essential",
+"why": "nuclear envelope",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.5",
+"strength": "essential",
+"why": "nuclear pores",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.4.7": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.5",
+"strength": "essential",
+"why": "nuclear pores",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "DNA and histones",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.5.0",
+"strength": "essential",
+"why": "chromosome",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "chromatin",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.5.1",
+"strength": "helpful",
+"why": "uncoiled chromosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.5.0",
+"strength": "essential",
+"why": "chromosomes carry genes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.6.0",
+"strength": "essential",
+"why": "ribosome",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.4.2",
+"strength": "helpful",
+"why": "mRNA code",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "helpful",
+"why": "prokaryotic cells",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.6.0",
+"strength": "essential",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "DNA in nucleus",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.4.0",
+"strength": "helpful",
+"why": "nuclear envelope",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.7.0",
+"strength": "essential",
+"why": "endoplasmic reticulum",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.6.0",
+"strength": "helpful",
+"why": "ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.7.1",
+"strength": "essential",
+"why": "rough ER",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.7.0",
+"strength": "essential",
+"why": "endoplasmic reticulum",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.7.0",
+"strength": "essential",
+"why": "ER",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.8.0": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.7.1",
+"strength": "essential",
+"why": "proteins from rough ER",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.8.1",
+"strength": "essential",
+"why": "secretory vesicles from Golgi",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.0.3",
+"strength": "helpful",
+"why": "cell membrane",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.8.0",
+"strength": "essential",
+"why": "Golgi apparatus",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.6",
+"strength": "essential",
+"why": "mRNA through nuclear pore",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.7.1",
+"strength": "essential",
+"why": "rough ER protein making",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.8.1",
+"strength": "essential",
+"why": "Golgi modifies and packages",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.8.2",
+"strength": "essential",
+"why": "secretory vesicle exocytosis",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.8.4",
+"strength": "essential",
+"why": "secretory pathway",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.9.0": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.0.0",
+"strength": "helpful",
+"why": "cell wall",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.9.1",
+"strength": "helpful",
+"why": "rigid wall",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.3": {
+"cost": 1,
+"needs": []
+},
+"bio7-s3.9.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.4.7",
+"strength": "helpful",
+"why": "electron microscope structures",
+"confidence": "low"
+}
+]
+},
+"bio7-s3.9.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.9.0",
+"strength": "essential",
+"why": "shared organelles",
+"confidence": "high"
+}
+]
+},
+"bio7-s3.9.6": {
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.9.1",
+"strength": "essential",
+"why": "plant-only structures",
+"confidence": "high"
+}
+]
+}
+}

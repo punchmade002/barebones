@@ -8587,6 +8587,709 @@
 }
 ]
 },
+"bio4-s2.0.b": {
+"hash": "29cde562",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.0.0": {
+"hash": "4ddbffc3",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.0.1": {
+"hash": "49369746",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.0.2": {
+"hash": "23ebd128",
+"cost": 2,
+"needs": []
+},
+"bio4-s2.0.3": {
+"hash": "83031a4f",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.0.2",
+"strength": "helpful",
+"why": "big ideas list",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.0.4": {
+"hash": "6a83493e",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.4.3",
+"strength": "helpful",
+"why": "natural selection and adaptation",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.1.b": {
+"hash": "33742a34",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.1.0": {
+"hash": "acf8c203",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.1.1": {
+"hash": "25ce32b2",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.1.0",
+"strength": "essential",
+"why": "system as interacting parts",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.1.2": {
+"hash": "0bff8bc5",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.0.0",
+"strength": "helpful",
+"why": "levels of organisation order",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.1.3": {
+"hash": "afd6e84f",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.1.0",
+"strength": "essential",
+"why": "definition of a system",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.1.4": {
+"hash": "a2773872",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.1.0",
+"strength": "helpful",
+"why": "systems and their regulation",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.1.5": {
+"hash": "d22fbfa7",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.1.0",
+"strength": "helpful",
+"why": "systems thinking, parts affecting others",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.1.6": {
+"hash": "06e949c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.1.3",
+"strength": "helpful",
+"why": "circulatory system as example",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.2.b": {
+"hash": "4cbe2b7b",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.2.0": {
+"hash": "894e144b",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.2.1": {
+"hash": "06b6d9c2",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.2.0",
+"strength": "essential",
+"why": "interdependence",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.2.2": {
+"hash": "15f1cc63",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.2.0",
+"strength": "essential",
+"why": "interdependence",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.2.3": {
+"hash": "0fa4dbe8",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.7.0",
+"strength": "helpful",
+"why": "recycling of matter",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.2.4": {
+"hash": "7a26adc0",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.2.0",
+"strength": "helpful",
+"why": "interdependence",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.2.5": {
+"hash": "d9eb6e68",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.2.0",
+"strength": "helpful",
+"why": "interdependence",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.2.6": {
+"hash": "5dc2ef54",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.7.0",
+"strength": "helpful",
+"why": "cycling of matter",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.2.7": {
+"hash": "47d61fc6",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.2.0",
+"strength": "helpful",
+"why": "interdependence",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.3.b": {
+"hash": "1d32bb54",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.3.0": {
+"hash": "9acdb5ce",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.3.1": {
+"hash": "dda48fea",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.3.0",
+"strength": "helpful",
+"why": "unity of life",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.3.2": {
+"hash": "b7fa2cc5",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.3.0",
+"strength": "helpful",
+"why": "unity of life",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.3.3": {
+"hash": "d7dbbddc",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.3.2",
+"strength": "essential",
+"why": "universal genetic code",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.3.4": {
+"hash": "3866894f",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.3.0",
+"strength": "helpful",
+"why": "unity of life",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.3.5": {
+"hash": "e5195954",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.4.b": {
+"hash": "3cff94f3",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.4.0": {
+"hash": "9cc2fad5",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.4.1": {
+"hash": "7d1ed7bf",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.4.2": {
+"hash": "6af6703d",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.4.3": {
+"hash": "96a4075b",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.5.0",
+"strength": "helpful",
+"why": "natural selection explains adaptation",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.4.4": {
+"hash": "6bc7d81f",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.4.5": {
+"hash": "b63412d9",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.3.0",
+"strength": "essential",
+"why": "unity",
+"confidence": "high"
+},
+{
+"id": "bio4-s2.4.3",
+"strength": "essential",
+"why": "adaptation and speciation",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.4.6": {
+"hash": "b6548942",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.4.5",
+"strength": "helpful",
+"why": "unity and diversity together",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.5.b": {
+"hash": "09868ff7",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.5.0": {
+"hash": "2518f601",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.5.1": {
+"hash": "bb1dfa89",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.5.0",
+"strength": "helpful",
+"why": "natural selection and adaptation",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.5.2": {
+"hash": "77882b0e",
+"cost": 2,
+"needs": []
+},
+"bio4-s2.5.3": {
+"hash": "fe7bd304",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.1.3",
+"strength": "helpful",
+"why": "red blood cell specialisation",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.5.4": {
+"hash": "c3a8f470",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.1.6",
+"strength": "helpful",
+"why": "root hair cell specialisation",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.5.5": {
+"hash": "8da50366",
+"cost": 2,
+"needs": []
+},
+"bio4-s2.5.6": {
+"hash": "c06d7a2d",
+"cost": 2,
+"needs": []
+},
+"bio4-s2.5.7": {
+"hash": "2261ba70",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.6.b": {
+"hash": "d3e5a62f",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.6.0": {
+"hash": "97c35e7a",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.6.1": {
+"hash": "8acc1c21",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.6.0",
+"strength": "helpful",
+"why": "genetic information",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.6.2": {
+"hash": "b5d60494",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.6.3": {
+"hash": "caf73753",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.7.b": {
+"hash": "3ff8b36b",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.7.0": {
+"hash": "164bc3f8",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.7.1": {
+"hash": "3ba8a1c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.7.0",
+"strength": "helpful",
+"why": "matter recycled",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.7.2": {
+"hash": "152d4f63",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.7.1",
+"strength": "helpful",
+"why": "matter taken in",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.8.b": {
+"hash": "d8ec4797",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.8.0": {
+"hash": "75127a75",
+"cost": 2,
+"needs": []
+},
+"bio4-s2.8.1": {
+"hash": "5bf8193e",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.8.0",
+"strength": "helpful",
+"why": "energy flow",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.8.2": {
+"hash": "38216fa3",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.8.0",
+"strength": "essential",
+"why": "one-way energy flow",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.8.3": {
+"hash": "8ca4a47c",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.7.0",
+"strength": "essential",
+"why": "matter recycling",
+"confidence": "high"
+},
+{
+"id": "bio4-s2.8.0",
+"strength": "essential",
+"why": "energy flow",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.8.4": {
+"hash": "b1256944",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.8.3",
+"strength": "helpful",
+"why": "matter cycles, energy flows",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.9.b": {
+"hash": "e27cff6f",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.9.0": {
+"hash": "cc1ade44",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.9.1": {
+"hash": "64c7db09",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.0.2",
+"strength": "essential",
+"why": "big ideas to choose from",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.9.2": {
+"hash": "6f02a2be",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.0.1",
+"strength": "helpful",
+"why": "explaining means mechanism",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.9.3": {
+"hash": "ad6ffb05",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.9.4": {
+"hash": "d06c265f",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.0.3",
+"strength": "helpful",
+"why": "evolution explains why",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.10.b": {
+"hash": "f707c811",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.10.0": {
+"hash": "b1d0a6c5",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.8.1",
+"strength": "essential",
+"why": "respiration makes ATP",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.10.1": {
+"hash": "f4035d57",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.7.1",
+"strength": "helpful",
+"why": "matter taken in",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.10.2": {
+"hash": "954455b1",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.1.4",
+"strength": "essential",
+"why": "negative feedback",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.10.3": {
+"hash": "c0ec46d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.5.5",
+"strength": "essential",
+"why": "alveoli structure",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.11.b": {
+"hash": "7887dbcd",
+"cost": 1,
+"needs": []
+},
+"bio4-s2.11.0": {
+"hash": "d08e4cf0",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.2.1",
+"strength": "essential",
+"why": "predator-prey interdependence",
+"confidence": "high"
+}
+]
+},
+"bio4-s2.11.1": {
+"hash": "dfe4a0a5",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s2.8.2",
+"strength": "helpful",
+"why": "energy transfer between feeding levels",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.11.2": {
+"hash": "d7ff6f18",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.1.5",
+"strength": "helpful",
+"why": "change spreading through system",
+"confidence": "low"
+}
+]
+},
+"bio4-s2.11.3": {
+"hash": "b5098581",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s2.11.0",
+"strength": "helpful",
+"why": "prey increase effect",
+"confidence": "low"
+}
+]
+},
 "bio5-s1.0.b": {
 "hash": "ca6864ce",
 "cost": 1,
@@ -10214,5 +10917,1328 @@
 "confidence": "low"
 }
 ]
+},
+"bio6-s2.0.b": {
+"hash": "9b80952d",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.0.0": {
+"hash": "2397839a",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.0.1": {
+"hash": "923ea652",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "essential",
+"why": "prokaryote definition",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.0.2": {
+"hash": "1381e914",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.1.1",
+"strength": "helpful",
+"why": "ribosomes build proteins",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.0.3": {
+"hash": "6a992882",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.0.2",
+"strength": "essential",
+"why": "rRNA used for comparison",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.0.4": {
+"hash": "f7899e06",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.0.2",
+"strength": "essential",
+"why": "rRNA sequence comparison",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.0.5": {
+"hash": "6096e337",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.0.4",
+"strength": "helpful",
+"why": "similar rRNA means related",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.0.6": {
+"hash": "d59ed464",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.0.5",
+"strength": "helpful",
+"why": "three deep branches",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.2.2",
+"strength": "helpful",
+"why": "archaea-eukaryote genetic similarities",
+"confidence": "low"
+}
+]
+},
+"bio6-s2.0.7": {
+"hash": "058d3a02",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.0.6",
+"strength": "essential",
+"why": "archaea-eukaryote shared ancestor",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.3.2",
+"strength": "essential",
+"why": "four eukaryotic kingdoms",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.1.b": {
+"hash": "a53e0da2",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.1.0": {
+"hash": "de5474e1",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "essential",
+"why": "prokaryote: no nucleus",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.1.1": {
+"hash": "32c82f9b",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.2.1",
+"strength": "essential",
+"why": "circular vs linear chromosomes",
+"confidence": "high"
+},
+{
+"id": "bio7-s1.2.2",
+"strength": "helpful",
+"why": "histones package DNA",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.1.2": {
+"hash": "a5dd917f",
+"cost": 2,
+"needs": []
+},
+"bio6-s2.1.3": {
+"hash": "c7945c9e",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.3.4",
+"strength": "helpful",
+"why": "antibiotics block bacterial ribosomes",
+"confidence": "low"
+}
+]
+},
+"bio6-s2.2.b": {
+"hash": "bfb109c4",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.0.6",
+"strength": "helpful",
+"why": "archaea closer to eukaryotes",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.2.0": {
+"hash": "50d8fcef",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "essential",
+"why": "prokaryote definition",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.2.1": {
+"hash": "a13da2f8",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.1.1",
+"strength": "essential",
+"why": "peptidoglycan in bacterial walls",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.2.2": {
+"hash": "0b2b62f0",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.2.2",
+"strength": "essential",
+"why": "histones package DNA",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.0.6",
+"strength": "helpful",
+"why": "archaea-eukaryote relationship",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.2.3": {
+"hash": "aed32afe",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.1.3",
+"strength": "essential",
+"why": "antibiotics kill bacteria",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.2.1",
+"strength": "helpful",
+"why": "archaeal wall differences",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.2.4": {
+"hash": "b946b466",
+"cost": 2,
+"needs": []
+},
+"bio6-s2.2.5": {
+"hash": "30cbb327",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.2.6": {
+"hash": "d24e6c6c",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.3.b": {
+"hash": "84db99d9",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.3.0": {
+"hash": "d15997ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.1",
+"strength": "essential",
+"why": "eukaryote definition",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.3.1": {
+"hash": "86881397",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.1.1",
+"strength": "helpful",
+"why": "bacterial chromosome without histones",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.3.2": {
+"hash": "6033d143",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.4.b": {
+"hash": "32865763",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.2.2",
+"strength": "helpful",
+"why": "histone-like proteins in archaea",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.0": {
+"hash": "1820164f",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.0.0",
+"strength": "helpful",
+"why": "prokaryotes lack nucleus",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.1": {
+"hash": "fd93b19b",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s1.3.0",
+"strength": "helpful",
+"why": "organelles absent in prokaryotes",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.2": {
+"hash": "c3a47f35",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.1.1",
+"strength": "essential",
+"why": "peptidoglycan in bacterial walls",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.3": {
+"hash": "ca5d263f",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.2.1",
+"strength": "essential",
+"why": "archaeal membrane lipids differ",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.4": {
+"hash": "23b40963",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.2.2",
+"strength": "essential",
+"why": "histone-like proteins in archaea",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.5": {
+"hash": "e369ca81",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.3.3",
+"strength": "essential",
+"why": "70S vs 80S ribosomes",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.5.0",
+"strength": "essential",
+"why": "meaning of S number",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.6": {
+"hash": "141b3b73",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.2.3",
+"strength": "essential",
+"why": "antibiotics don't affect archaea",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.1.3",
+"strength": "helpful",
+"why": "antibiotics kill bacteria",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.4.7": {
+"hash": "6d934719",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.1.2",
+"strength": "helpful",
+"why": "bacteria examples",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.2.4",
+"strength": "helpful",
+"why": "archaea examples",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.5.b": {
+"hash": "c2f34159",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.4.5",
+"strength": "essential",
+"why": "70S and 80S ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.5.0": {
+"hash": "79ac9e3e",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s1.3.3",
+"strength": "helpful",
+"why": "S number measures size",
+"confidence": "low"
+}
+]
+},
+"bio6-s2.6.b": {
+"hash": "d001bdf7",
+"cost": 1,
+"needs": []
+},
+"bio6-s2.6.0": {
+"hash": "88ed2161",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.0.5",
+"strength": "essential",
+"why": "three deep branches",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.6.1": {
+"hash": "9b51027b",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.0.4",
+"strength": "essential",
+"why": "genetic similarity shows relationships",
+"confidence": "high"
+}
+]
+},
+"bio6-s2.6.2": {
+"hash": "9b6fe29e",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s2.0.2",
+"strength": "helpful",
+"why": "sequencing rRNA bases",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.0.b": {
+"hash": "e3091314",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.0.0": {
+"hash": "f3d34e71",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.0.1": {
+"hash": "b8b96953",
+"cost": 2,
+"needs": []
+},
+"bio6-s3.0.2": {
+"hash": "8f2fe358",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.0.1",
+"strength": "essential",
+"why": "rank hierarchy",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.0.3": {
+"hash": "a1658d86",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.0.1",
+"strength": "essential",
+"why": "list of ranks",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.1.b": {
+"hash": "0bdb5e7f",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.0.1",
+"strength": "helpful",
+"why": "species as a rank",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.1.0": {
+"hash": "be977f03",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.1.1": {
+"hash": "4e25d870",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.1.0",
+"strength": "essential",
+"why": "species definition",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.1.2": {
+"hash": "364986a4",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.0.1",
+"strength": "helpful",
+"why": "genus and species ranks",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.1.3": {
+"hash": "82a8f8fa",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.1.2",
+"strength": "helpful",
+"why": "binomial name format",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.1.4": {
+"hash": "300f73fe",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.1.2",
+"strength": "helpful",
+"why": "binomial nomenclature",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.1.5": {
+"hash": "e074b21c",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.1.2",
+"strength": "essential",
+"why": "genus as first name part",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.2.b": {
+"hash": "2aab36e2",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.2.0": {
+"hash": "88306ae3",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.2.1": {
+"hash": "ac5ff7de",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.2.0",
+"strength": "essential",
+"why": "prokaryotic vs eukaryotic cells",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.2.2": {
+"hash": "d69af36c",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.2.0",
+"strength": "helpful",
+"why": "prokaryote/eukaryote cell types",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.3.b": {
+"hash": "2706270e",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.2.1",
+"strength": "helpful",
+"why": "two prokaryotic kingdoms",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.3.0": {
+"hash": "4be2df62",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.2.1",
+"strength": "essential",
+"why": "Bacteria as prokaryotic kingdom",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.3.1": {
+"hash": "90e15ae4",
+"cost": 2,
+"needs": []
+},
+"bio6-s3.3.2": {
+"hash": "ef5927af",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.3.3": {
+"hash": "fa7106fc",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.3.0",
+"strength": "essential",
+"why": "peptidoglycan walls in bacteria",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.3.4": {
+"hash": "c11f2c10",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.4.b": {
+"hash": "f0768317",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.2.1",
+"strength": "helpful",
+"why": "four eukaryotic kingdoms",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.4.0": {
+"hash": "a8da5e51",
+"cost": 2,
+"needs": []
+},
+"bio6-s3.4.1": {
+"hash": "970cc7a2",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.4.2": {
+"hash": "d455b8ad",
+"cost": 2,
+"needs": []
+},
+"bio6-s3.4.3": {
+"hash": "4d0c4432",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.4.2",
+"strength": "helpful",
+"why": "fungi features",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.4.4": {
+"hash": "a405e1a7",
+"cost": 2,
+"needs": []
+},
+"bio6-s3.4.5": {
+"hash": "9f9f65ff",
+"cost": 2,
+"needs": []
+},
+"bio6-s3.5.b": {
+"hash": "72a7b342",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.2.1",
+"strength": "helpful",
+"why": "kingdoms and domains",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.5.0": {
+"hash": "7f203a25",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.2.1",
+"strength": "helpful",
+"why": "kingdoms and domains",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.6.b": {
+"hash": "2b898a59",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.6.0": {
+"hash": "eced4688",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.0.0",
+"strength": "helpful",
+"why": "classification by shared features",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.6.1": {
+"hash": "ab3b01cc",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.6.0",
+"strength": "essential",
+"why": "phylogeny and common ancestors",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.6.2": {
+"hash": "c430fdc5",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.6.1",
+"strength": "essential",
+"why": "common ancestor in tree",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.0.1",
+"strength": "helpful",
+"why": "genus and family ranks",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.6.3": {
+"hash": "5a2e84a7",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.6.2",
+"strength": "helpful",
+"why": "genus and family relatedness",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.6.4": {
+"hash": "249d8616",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.6.3",
+"strength": "helpful",
+"why": "family and order example",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.6.5": {
+"hash": "c4d8af70",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.6.0",
+"strength": "helpful",
+"why": "phylogeny evidence",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.6.6": {
+"hash": "90e8bf7c",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.6.0",
+"strength": "helpful",
+"why": "phylogeny evidence",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.6.7": {
+"hash": "958d21fd",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.6.8": {
+"hash": "7c646f8b",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.6.1",
+"strength": "essential",
+"why": "reading phylogenetic trees",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.6.3",
+"strength": "helpful",
+"why": "lion, tiger, cat relationships",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.7.b": {
+"hash": "9273b8cc",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.7.0": {
+"hash": "8647d1fc",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.7.1": {
+"hash": "48c95983",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.4.0",
+"strength": "helpful",
+"why": "Protista kingdom",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.7.2": {
+"hash": "4f5dbfd1",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.7.1",
+"strength": "helpful",
+"why": "Protista in sequence",
+"confidence": "high"
+},
+{
+"id": "bio6-s2.0.1",
+"strength": "helpful",
+"why": "Monera prokaryotes",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.7.3": {
+"hash": "cb046b58",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.4.2",
+"strength": "essential",
+"why": "fungal chitin walls and no chlorophyll",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.7.4": {
+"hash": "1b7cf49a",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.0.2",
+"strength": "essential",
+"why": "rRNA sequence comparison",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.7.5": {
+"hash": "92dfde81",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.7.2",
+"strength": "essential",
+"why": "Monera in five kingdoms",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.7.6": {
+"hash": "4726fb28",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.7.4",
+"strength": "helpful",
+"why": "rRNA sequencing example",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.8.b": {
+"hash": "009a0611",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.6.6",
+"strength": "helpful",
+"why": "DNA base sequence comparison",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.8.0": {
+"hash": "53d136ba",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.6.6",
+"strength": "essential",
+"why": "DNA comparison evidence",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.4.1",
+"strength": "helpful",
+"why": "Phytophthora as protist",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.8.1": {
+"hash": "d8f3db9c",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.6.6",
+"strength": "helpful",
+"why": "DNA evidence for relatedness",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.8.2": {
+"hash": "03108f17",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.8.b",
+"strength": "helpful",
+"why": "DNA sequencing",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.8.3": {
+"hash": "d3806262",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.3.3",
+"strength": "helpful",
+"why": "Archaea kingdom",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.8.4": {
+"hash": "5f7b7698",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s2.0.6",
+"strength": "essential",
+"why": "archaea closer to eukaryotes",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.8.3",
+"strength": "helpful",
+"why": "Asgard archaea evidence",
+"confidence": "low"
+}
+]
+},
+"bio6-s3.8.5": {
+"hash": "342c4900",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.8.b",
+"strength": "helpful",
+"why": "DNA sequencing",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.9.b": {
+"hash": "a74dfeba",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.9.0": {
+"hash": "3e7e2d5a",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.9.1": {
+"hash": "10606b96",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "dichotomous key",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.9.2": {
+"hash": "53ac281d",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "couplet structure",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.9.3": {
+"hash": "1a4aaea7",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "couplet structure",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.9.4": {
+"hash": "aa4646c0",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "couplet structure",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.9.5": {
+"hash": "28cd519a",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "couplet structure",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.9.6": {
+"hash": "5ba391d7",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "couplet structure",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.10.b": {
+"hash": "23b5124e",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "using a dichotomous key",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.10.0": {
+"hash": "0b67165e",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.9.2",
+"strength": "essential",
+"why": "key couplet 2",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.9.3",
+"strength": "essential",
+"why": "key couplet 3",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.10.1": {
+"hash": "29122892",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.9.2",
+"strength": "essential",
+"why": "key couplet 1",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.9.5",
+"strength": "essential",
+"why": "key couplet 4",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.9.6",
+"strength": "essential",
+"why": "key couplet 5",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.11.b": {
+"hash": "6728e584",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "helpful",
+"why": "dichotomous keys",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.11.0": {
+"hash": "5bc7254f",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.9.0",
+"strength": "essential",
+"why": "dichotomous key couplets",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.11.1": {
+"hash": "71e7d5ad",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.11.0",
+"strength": "helpful",
+"why": "building a key",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.11.2": {
+"hash": "cea567d0",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.9.1",
+"strength": "essential",
+"why": "six-invertebrate key",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.11.3": {
+"hash": "8a44cd91",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.2.1",
+"strength": "essential",
+"why": "nucleus splits prokaryote/eukaryote",
+"confidence": "high"
+},
+{
+"id": "bio6-s3.3.3",
+"strength": "helpful",
+"why": "cell wall or rRNA separation",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.11.4": {
+"hash": "f6e4dbc4",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s3.4.b",
+"strength": "essential",
+"why": "eukaryote kingdom distinguishing features",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.11.5": {
+"hash": "f8ac0491",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.4.2",
+"strength": "essential",
+"why": "fungi features",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.12.b": {
+"hash": "9ab2a17d",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.12.0": {
+"hash": "4db86d36",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.0.0",
+"strength": "helpful",
+"why": "classification groups",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.12.1": {
+"hash": "8b8739e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.1.2",
+"strength": "essential",
+"why": "binomial scientific names",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.12.2": {
+"hash": "d2b1dbd1",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s3.6.0",
+"strength": "helpful",
+"why": "evolutionary relationships",
+"confidence": "high"
+}
+]
+},
+"bio6-s3.12.3": {
+"hash": "3145f830",
+"cost": 1,
+"needs": []
+},
+"bio6-s3.12.4": {
+"hash": "0e01ec8b",
+"cost": 1,
+"needs": []
 }
 }

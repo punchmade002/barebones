@@ -1,0 +1,561 @@
+{
+ "bio7-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.0.1",
+    "strength": "essential",
+    "why": "resolution limit",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s2.0.0",
+    "strength": "essential",
+    "why": "magnification meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.0",
+    "strength": "helpful",
+    "why": "eyepiece lens",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s2.1.1",
+    "strength": "helpful",
+    "why": "objective lens",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.0.0",
+    "strength": "helpful",
+    "why": "magnification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.1.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio7-s2.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.3",
+    "strength": "helpful",
+    "why": "contrast with coarse focus",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.2",
+    "strength": "helpful",
+    "why": "stage position",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.5.2",
+    "strength": "helpful",
+    "why": "stains improve contrast",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s2.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.2.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio7-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.2.3",
+    "strength": "essential",
+    "why": "arm and base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.1",
+    "strength": "essential",
+    "why": "objective lenses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.2",
+    "strength": "essential",
+    "why": "stage and clips",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.3",
+    "strength": "essential",
+    "why": "coarse focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.0",
+    "strength": "helpful",
+    "why": "eyepiece",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.4",
+    "strength": "essential",
+    "why": "fine focus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s2.2.2",
+    "strength": "helpful",
+    "why": "diaphragm",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.3.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.4",
+    "strength": "helpful",
+    "why": "fine focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.3.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.0.3",
+    "strength": "essential",
+    "why": "total magnification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.1.3",
+    "strength": "essential",
+    "why": "coarse focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.2.0",
+    "strength": "helpful",
+    "why": "mirror as light source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.5.0",
+    "strength": "helpful",
+    "why": "wet mount",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.5.0",
+    "strength": "helpful",
+    "why": "wet mount",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.5.0",
+    "strength": "essential",
+    "why": "wet mount, coverslip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.5.0",
+    "strength": "essential",
+    "why": "wet mount coverslip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.5.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.5.4",
+    "strength": "essential",
+    "why": "coverslip use",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s2.5.2",
+    "strength": "helpful",
+    "why": "stains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.0.1",
+    "strength": "essential",
+    "why": "resolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.0.1",
+    "strength": "essential",
+    "why": "resolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.6.0",
+    "strength": "essential",
+    "why": "electron beam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.6.0",
+    "strength": "essential",
+    "why": "electron beam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.6.0",
+    "strength": "essential",
+    "why": "electron beam",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.6.2",
+    "strength": "essential",
+    "why": "TEM comparison",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s2.6.3",
+    "strength": "essential",
+    "why": "SEM",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.6.0",
+    "strength": "helpful",
+    "why": "electron microscope",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.0.0",
+    "strength": "helpful",
+    "why": "magnification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.0.1",
+    "strength": "essential",
+    "why": "resolution",
+    "confidence": "high"
+   },
+   {
+    "id": "bio7-s1.0.2",
+    "strength": "helpful",
+    "why": "nm and \u00b5m units",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.7.2",
+    "strength": "essential",
+    "why": "resolution limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.6.1",
+    "strength": "helpful",
+    "why": "vacuum, dead specimen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.6.2",
+    "strength": "helpful",
+    "why": "thin sectioning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio7-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.8.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio7-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.8.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio7-s2.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.0.1",
+    "strength": "essential",
+    "why": "resolution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.8.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio7-s2.6.0",
+    "strength": "helpful",
+    "why": "electron microscope",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.8.6",
+    "strength": "essential",
+    "why": "cryo-EM",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.8.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio7-s2.8.6",
+    "strength": "essential",
+    "why": "cryo-EM",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio7-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio7-s2.9.1": {
+  "cost": 1,
+  "needs": []
+ }
+}
