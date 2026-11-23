@@ -1,0 +1,545 @@
+[
+ {
+  "skill": "trig-cosine-rule",
+  "what": {
+   "say": [
+    "You give it two sides of a triangle and the **angle** between them, or all three sides. It finds the missing side or angle.",
+    "The key idea: the cosine rule is Pythagoras with a correction. It works in any triangle, not just a right-angled one."
+   ],
+   "in": "two sides + angle between, or three sides",
+   "out": "missing side or angle"
+  },
+  "how": {
+   "higher": "Higher level uses it almost every year on Paper 2, usually as one step in a longer question, and as a part of its own worth 10 marks.",
+   "ordinary": "Ordinary level asks for it on Paper 2 nearly every year, often as a part of its own worth 5 to 15 marks, inside a question about a field, a boat or a map."
+  },
+  "example": {
+   "question": "In triangle $ABC$, $|AB| = 9$ cm, $|AC| = 12$ cm and $|\\angle BAC| = 40^\\circ$. Find $|BC|$, correct to two decimal places.",
+   "level": "ordinary",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Write the cosine rule",
+      "say": "You know two sides and the angle between them. Use the cosine rule with $a = |BC|$ opposite the $\\hl{1}{40^\\circ}$ angle.",
+      "lines": [
+       {
+        "tex": "a^2 &= b^2 + c^2 - 2bc\\cos A"
+       }
+      ]
+     },
+     {
+      "title": "Substitute the numbers",
+      "say": "Put in $b = 12$, $c = 9$ and the angle $\\hl{1}{40^\\circ}$.",
+      "lines": [
+       {
+        "tex": "a^2 &= 12^2 + 9^2 - 2(12)(9)\\cos \\hl{1}{40^\\circ}",
+        "sym": "12**2+9**2-2*12*9*cos(40*pi/180)",
+        "new": true
+       },
+       {
+        "tex": "&= 225 - 216\\cos 40^\\circ",
+        "sym": "225-216*cos(40*pi/180)"
+       },
+       {
+        "text": "Check your calculator is in degree mode."
+       }
+      ]
+     },
+     {
+      "title": "Work out a squared",
+      "say": "Multiply, then subtract. Do not take the square root yet.",
+      "lines": [
+       {
+        "tex": "a^2 &= 59.53",
+        "sym": "59.53",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Take the square root",
+      "say": "Square root both sides to get the side $a$.",
+      "lines": [
+       {
+        "tex": "a &= \\sqrt{59.53}",
+        "sym": "sqrt(59.53)",
+        "new": true
+       },
+       {
+        "tex": "&= 7.72 \\text{ cm}",
+        "sym": "7.72",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "|BC| = 7.72 cm"
+   },
+   "finalSym": "7.72",
+   "answerSym": "sqrt(12**2+9**2-2*12*9*cos(40*pi/180))"
+  },
+  "graph": null,
+  "diagram": "<svg viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"#1A1916\" stroke-width=\"2\"><polygon points=\"40,180 260,180 190,40\"/><path d=\"M70 180 A30 30 0 0 1 62 160\"/><g fill=\"#1A1916\" stroke=\"none\" font-family=\"Outfit\" font-size=\"16\"><text x=\"24\" y=\"196\">A</text><text x=\"262\" y=\"196\">B</text><text x=\"188\" y=\"30\">C</text><text x=\"140\" y=\"198\">c</text><text x=\"236\" y=\"106\">a</text><text x=\"102\" y=\"102\">b</text></g></svg>",
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the cosine rule with the numbers put in. A formula with some substitution is already worth marks.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q9#(b)",
+       "quote": "Some correct substitution into Cosine"
+      }
+     ]
+    },
+    {
+     "tip": "A fully substituted cosine rule earns High Partial Credit, so write that line even if the arithmetic goes wrong.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q9#(b)",
+       "quote": "Fully substituted Cosine Rule"
+      }
+     ]
+    },
+    {
+     "tip": "When the question asks for the cosine rule, use it. Another method may be capped.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q10#(b)",
+       "quote": "Award Mid Partial Credit at most if the Cosine Rule is not used"
+      }
+     ]
+    },
+    {
+     "tip": "Keep the full calculator value until the end. Rounding early costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-higher-p2-q4#(b)",
+       "quote": "Early rounding and finishes correctly"
+      }
+     ]
+    }
+   ],
+   "ordinary": [
+    {
+     "tip": "Never treat the triangle as right-angled. It earns nothing when the triangle has no right angle.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q9#(e)(i)",
+       "quote": "Treats triangle as right angled"
+      },
+      {
+       "part": "maths-pp-2021-ordinary-p2-q8#(c)",
+       "quote": "Treats triangle as right-angled"
+      }
+     ]
+    },
+    {
+     "tip": "Write out the cosine rule formula first. The formula alone earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q10#(a)(iii)",
+       "quote": "cosine rule formula"
+      },
+      {
+       "part": "maths-pp-2023-ordinary-p2-q7#(c)",
+       "quote": "Some correct substitution into Cosine"
+      }
+     ]
+    },
+    {
+     "tip": "Substitute fully into the formula. A correct, fully substituted formula earns High Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-ordinary-p2-q10#(a)(iii)",
+       "quote": "Correct formula fully substituted"
+      }
+     ]
+    },
+    {
+     "tip": "Check the calculator is in degree mode. A wrong mode loses marks, but only once in the paper.",
+     "sources": [
+      {
+       "part": "maths-pp-2022-ordinary-p2-q9#(e)(i)",
+       "quote": "Incorrect calculator mode"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "skill": "trig-triangle-problems",
+  "what": {
+   "say": [
+    "You give it a shape made of several triangles, such as a field split by a diagonal. It finds the lengths, angles and **areas** one triangle at a time.",
+    "The key idea: the answer from one triangle becomes the input to the next. Start with the triangle where you know enough."
+   ],
+   "in": "shape split into triangles",
+   "out": "lengths, angles and area"
+  },
+  "how": {
+   "higher": "Higher level uses it as a step inside Paper 2 questions about flights and distances, 10 marks for the part that chains the sine or cosine rule."
+  },
+  "example": {
+   "question": "A field $ABCD$ is split by the diagonal $[AC]$. In triangle $ABC$, $|AB| = 7$ m, $|BC| = 9$ m and $|\\angle ABC| = 70^\\circ$. In triangle $ACD$, $|CD| = 8$ m and $|\\angle ACD| = 50^\\circ$. Find the area of the field, correct to the nearest whole number.",
+   "level": "ordinary",
+   "marks": 15,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the diagonal",
+      "say": "Triangle $ABC$ has two sides and the angle between them. Use the cosine rule to find $\\hl{1}{|AC|}$, which both triangles share.",
+      "lines": [
+       {
+        "tex": "|AC|^2 &= 7^2 + 9^2 - 2(7)(9)\\cos 70^\\circ",
+        "sym": "7**2+9**2-2*7*9*cos(70*pi/180)",
+        "new": true
+       },
+       {
+        "tex": "&= 86.91",
+        "sym": "86.91",
+        "approx": true
+       },
+       {
+        "tex": "\\hl{1}{|AC|} &= 9.32",
+        "sym": "9.32",
+        "approx": true,
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Area of triangle ABC",
+      "say": "Use the area formula with two sides and the angle between them.",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}(7)(9)\\sin 70^\\circ",
+        "sym": "1/2*7*9*sin(70*pi/180)",
+        "new": true
+       },
+       {
+        "tex": "&= 29.60",
+        "sym": "29.60",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Area of triangle ACD",
+      "say": "Now use the diagonal $\\hl{1}{9.32}$ with $|CD|$ and the angle between them.",
+      "lines": [
+       {
+        "tex": "\\text{Area} &= \\tfrac{1}{2}(9.32)(8)\\sin 50^\\circ",
+        "sym": "1/2*9.32*8*sin(50*pi/180)",
+        "new": true
+       },
+       {
+        "tex": "&= 28.56",
+        "sym": "28.56",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Add the two areas",
+      "say": "The field is the two triangles together.",
+      "lines": [
+       {
+        "tex": "29.60 + 28.56 &= 58.16",
+        "sym": "29.60+28.56",
+        "new": true
+       },
+       {
+        "text": "To the nearest whole number, that is $58$ m$^2$."
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "58 m^2"
+   },
+   "finalSym": "58",
+   "answerSym": "1/2*7*9*sin(70*pi/180)+1/2*sqrt(7**2+9**2-2*7*9*cos(70*pi/180))*8*sin(50*pi/180)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Write the sine or cosine rule with some substitution. That alone earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q9#(a)(i)",
+       "quote": "sine rule or cosine rule stated with some substitution"
+      },
+      {
+       "part": "maths-pp-2018-higher-p2-q9#(b)(ii)",
+       "quote": "Sine rule formulated with some substitution"
+      }
+     ]
+    },
+    {
+     "tip": "A rule with full substitution earns Mid Partial Credit, even if you do not finish.",
+     "sources": [
+      {
+       "part": "maths-pp-2021-higher-p2-q9#(a)(i)",
+       "quote": "sine rule or cosine rule with full substitution"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-sine-ambiguous",
+  "what": {
+   "say": [
+    "You give it two sides and an angle that is **not** between them. It finds the angle you want, and checks whether there are two triangles.",
+    "The key idea: $\\sin \\theta$ has two angles between $0^\\circ$ and $180^\\circ$. If the second one still fits in the triangle, both answers count."
+   ],
+   "in": "two sides + non-included angle",
+   "out": "both possible angles"
+  },
+  "how": {
+   "higher": "Higher level has asked for it once, on Paper 2 in 2024, as a 10 mark part where both angles had to be given."
+  },
+  "example": {
+   "question": "In triangle $ABC$, $|BC| = 10$ cm, $|AC| = 13$ cm and $|\\angle BAC| = 35^\\circ$. Find the two possible values of $|\\angle ABC|$, correct to one decimal place.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Use the sine rule",
+      "say": "Match each side with the angle opposite it. $|BC|$ is opposite $35^\\circ$, and $|AC|$ is opposite the angle $B$ we want.",
+      "lines": [
+       {
+        "tex": "\\frac{\\sin B}{13} &= \\frac{\\sin 35^\\circ}{10}",
+        "sym": "sin(B)/13-sin(35*pi/180)/10",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find sin B",
+      "say": "Multiply both sides by $13$ to get $\\hl{1}{\\sin B}$ on its own.",
+      "lines": [
+       {
+        "tex": "\\hl{1}{\\sin B} &= \\frac{13\\sin 35^\\circ}{10}",
+        "sym": "13*sin(35*pi/180)/10",
+        "new": true
+       },
+       {
+        "tex": "&= 0.7456",
+        "sym": "0.7456",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Find the first angle",
+      "say": "Take the inverse sine for the angle in the first quadrant.",
+      "lines": [
+       {
+        "tex": "B &= \\sin^{-1}(0.7456)",
+        "sym": "asin(0.7456)*180/pi",
+        "new": true
+       },
+       {
+        "tex": "&= 48.2^\\circ",
+        "sym": "48.2",
+        "approx": true
+       }
+      ]
+     },
+     {
+      "title": "Find the second angle",
+      "say": "The sine is positive in the second quadrant too. Subtract from $180^\\circ$. Check that it still fits: $131.8^\\circ + 35^\\circ < 180^\\circ$.",
+      "lines": [
+       {
+        "tex": "B &= 180^\\circ - 48.2^\\circ",
+        "sym": "180-48.2",
+        "new": true
+       },
+       {
+        "tex": "&= 131.8^\\circ",
+        "sym": "131.8"
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "48.2^\\circ \\text{ or } 131.8^\\circ"
+   },
+   "finalSym": "FiniteSet(48.2, 131.8)",
+   "answerSym": "FiniteSet(asin(13*sin(35*pi/180)/10)*180/pi, 180-asin(13*sin(35*pi/180)/10)*180/pi)"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Give the angle from the second quadrant as well. The scheme expects both, and one angle earns only partial credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(c)",
+       "quote": "angle in 1st and 2nd quadrants"
+      },
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(c)",
+       "quote": "One correct angle found"
+      }
+     ]
+    },
+    {
+     "tip": "Write the sine rule with the numbers put in. A fully substituted sine rule earns Mid Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(c)",
+       "quote": "Sine rule with fully correct substitution"
+      }
+     ]
+    },
+    {
+     "tip": "Round at the end, to the accuracy the question asks for. Wrong rounding costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2024-higher-p2-q3#(c)",
+       "quote": "Apply a * if not rounded correctly"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ },
+ {
+  "skill": "trig-3d",
+  "what": {
+   "say": [
+    "You give it a solid, such as a box, a pyramid or a mast with wires. It finds a length or an **angle** inside it.",
+    "The key idea: pick out a flat triangle, usually right-angled, that contains what you want. Then use Pythagoras, trigonometry, or the sine or cosine rule on it."
+   ],
+   "in": "3D solid",
+   "out": "length or angle"
+  },
+  "how": {
+   "higher": "Higher level asks for it on Paper 2 in some years, as a part worth 10 to 15 marks that chains Pythagoras with a trigonometry or cosine rule step."
+  },
+  "example": {
+   "question": "A box has a rectangular base $12$ cm by $5$ cm and a height of $6$ cm. Find the angle between a space diagonal and the base, correct to one decimal place.",
+   "level": "higher",
+   "marks": 10,
+   "workedSolution": {
+    "steps": [
+     {
+      "title": "Find the base diagonal",
+      "say": "The space diagonal, the base diagonal and the vertical edge form a right-angled triangle. First find the $\\hl{1}{\\text{base diagonal}}$ with Pythagoras.",
+      "lines": [
+       {
+        "tex": "d^2 &= 12^2 + 5^2",
+        "sym": "12**2+5**2",
+        "new": true
+       },
+       {
+        "tex": "&= 169",
+        "sym": "169"
+       },
+       {
+        "tex": "\\hl{1}{d} &= 13",
+        "sym": "13",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Pick the right triangle",
+      "say": "The angle $\\theta$ is between the space diagonal and its shadow on the base. The shadow is $\\hl{1}{13}$. The side opposite $\\theta$ is the height, $6$.",
+      "lines": [
+       {
+        "text": "Opposite $= 6$, adjacent $= 13$."
+       }
+      ]
+     },
+     {
+      "title": "Use tan",
+      "say": "We know the opposite and adjacent sides, so use tan.",
+      "lines": [
+       {
+        "tex": "\\tan\\theta &= \\frac{6}{13}",
+        "sym": "6/13",
+        "new": true
+       }
+      ]
+     },
+     {
+      "title": "Find the angle",
+      "say": "Take the inverse tan.",
+      "lines": [
+       {
+        "tex": "\\theta &= \\tan^{-1}\\left(\\frac{6}{13}\\right)",
+        "sym": "atan(6/13)*180/pi",
+        "new": true
+       },
+       {
+        "tex": "&= 24.8^\\circ",
+        "sym": "24.8",
+        "approx": true
+       }
+      ]
+     }
+    ],
+    "finalAnswer": "24.8^\\circ"
+   },
+   "finalSym": "24.8",
+   "answerSym": "atan(6/sqrt(12**2+5**2))*180/pi"
+  },
+  "graph": null,
+  "diagram": null,
+  "tips": {
+   "higher": [
+    {
+     "tip": "Show the Pythagoras step for each flat diagonal. Marks are given for finding the lengths on the way.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+       "quote": "Work of merit in both parts"
+      },
+      {
+       "part": "maths-pp-2019-higher-p2-q4#(b)",
+       "quote": "Internal diagonal found"
+      }
+     ]
+    },
+    {
+     "tip": "Write the length of any diagonal as soon as you can. It earns Low Partial Credit.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q4#(b)",
+       "quote": "Length of any diagonal formulated"
+      }
+     ]
+    },
+    {
+     "tip": "A fully substituted cosine rule earns High Partial Credit in a 3D problem.",
+     "sources": [
+      {
+       "part": "maths-pp-2019-higher-p2-q4#(b)",
+       "quote": "Fully substituted cosine rule"
+      }
+     ]
+    },
+    {
+     "tip": "Put the unit on every length. A missing or wrong unit costs a mark.",
+     "sources": [
+      {
+       "part": "maths-pp-2025-higher-p2-q8#(a)(i)",
+       "quote": "Apply a * for incorrect or no unit"
+      }
+     ]
+    }
+   ],
+   "ordinary": []
+  }
+ }
+]
