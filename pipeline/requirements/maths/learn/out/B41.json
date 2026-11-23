@@ -68,8 +68,8 @@
     ],
     "finalAnswer": "\\text{Range} = \\{1, 3, 5, 7\\}"
    },
-   "finalSym": "FiniteSet(1,3,5,7)",
-   "answerSym": "FiniteSet(2*1-1,2*2-1,2*3-1,2*4-1)"
+   "finalSym": "[1,3,5,7]",
+   "answerSym": "[2*1-1,2*2-1,2*3-1,2*4-1]"
   },
   "graph": null,
   "diagram": null,
