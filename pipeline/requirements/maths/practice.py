@@ -14,7 +14,7 @@ import re
 import sys
 from pathlib import Path
 
-HERE = Path(__file__).parent
+HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 WORK = HERE / 'practice'
 PER_BATCH = 4

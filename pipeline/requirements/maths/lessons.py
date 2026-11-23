@@ -17,7 +17,7 @@ from pathlib import Path
 
 import sympy as sp
 
-HERE = Path(__file__).parent
+HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 WORKTREE = ROOT / '.claude' / 'worktrees' / 'maths-older'      # full bank, part crops
 WORK = HERE / 'lessons'
