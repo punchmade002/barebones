@@ -1,0 +1,500 @@
+{
+ "bio1-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.0.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.0",
+    "strength": "essential",
+    "why": "source defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s2.3.0",
+    "strength": "helpful",
+    "why": "peer review meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.1",
+    "strength": "essential",
+    "why": "primary source contrasted",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.0.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.0",
+    "strength": "helpful",
+    "why": "source concept",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.1",
+    "strength": "essential",
+    "why": "primary source",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.0.3",
+    "strength": "essential",
+    "why": "primary vs secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.0.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio1-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.1.0",
+    "strength": "helpful",
+    "why": "research question guides keywords",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio1-s3.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.1",
+    "strength": "essential",
+    "why": "primary source type",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.0.3",
+    "strength": "helpful",
+    "why": "secondary data meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.2.b",
+    "strength": "essential",
+    "why": "evaluation criteria",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "helpful",
+    "why": "sources may be biased",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s2.5.0",
+    "strength": "helpful",
+    "why": "reproducing findings independently",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio1-s3.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.1.3",
+    "strength": "helpful",
+    "why": "referencing sources",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio1-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s2.3.0",
+    "strength": "essential",
+    "why": "peer review defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.1.3",
+    "strength": "helpful",
+    "why": "referencing sources",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio1-s3.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.2.2",
+    "strength": "essential",
+    "why": "currency criterion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.2.5",
+    "strength": "essential",
+    "why": "relevance criterion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.2.0",
+    "strength": "essential",
+    "why": "authority criterion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.2.6",
+    "strength": "essential",
+    "why": "accuracy criterion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.2.3",
+    "strength": "essential",
+    "why": "purpose criterion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.3.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio1-s3.3.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio1-s3.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.2",
+    "strength": "helpful",
+    "why": "secondary sources summarise",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio1-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.3",
+    "strength": "essential",
+    "why": "secondary data defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.3",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.3",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.3",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "helpful",
+    "why": "collector bias",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.3.2",
+    "strength": "helpful",
+    "why": "unclear definitions and units",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio1-s3.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.3",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.3.1",
+    "strength": "helpful",
+    "why": "sample size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s2.3.0",
+    "strength": "helpful",
+    "why": "publication follows peer review",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio1-s3.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.5.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.5.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.5",
+    "strength": "essential",
+    "why": "bias defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.5.0",
+    "strength": "helpful",
+    "why": "funding bias",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s3.2.4",
+    "strength": "helpful",
+    "why": "references support claims",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio1-s3.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.0.1",
+    "strength": "essential",
+    "why": "primary source",
+    "confidence": "high"
+   },
+   {
+    "id": "bio1-s2.3.0",
+    "strength": "helpful",
+    "why": "peer review",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.2.3",
+    "strength": "helpful",
+    "why": "purpose of source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio1-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.2.b",
+    "strength": "essential",
+    "why": "criteria for judging sources",
+    "confidence": "high"
+   }
+  ]
+ }
+}

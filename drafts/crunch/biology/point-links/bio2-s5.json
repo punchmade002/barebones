@@ -1,0 +1,417 @@
+{
+ "bio2-s5.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.3.0",
+    "strength": "helpful",
+    "why": "validity: answers the question",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s5.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.1.0",
+    "strength": "helpful",
+    "why": "water bath and buffer control",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "helpful",
+    "why": "replicates definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s4.2.3",
+    "strength": "helpful",
+    "why": "range shows spread",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.9.0",
+    "strength": "essential",
+    "why": "anomalous result",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s3.0.0",
+    "strength": "helpful",
+    "why": "subjective judgement bias",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s5.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s3.2.b",
+    "strength": "essential",
+    "why": "random error",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s3.3.b",
+    "strength": "essential",
+    "why": "systematic error",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s3.5.2",
+    "strength": "helpful",
+    "why": "spread of repeats shows repeatability",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "helpful",
+    "why": "independent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.0.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.1.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.6.1",
+    "strength": "helpful",
+    "why": "colorimeter measures objectively",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s3.2.5",
+    "strength": "helpful",
+    "why": "reducing random error",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.1.4",
+    "strength": "essential",
+    "why": "closer intervals locate optimum",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.1",
+    "strength": "essential",
+    "why": "replicates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s3.3.1",
+    "strength": "essential",
+    "why": "calibration and systematic error",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s3.3.b",
+    "strength": "helpful",
+    "why": "systematic error",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.1.4",
+    "strength": "helpful",
+    "why": "raw data recording",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.2.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio2-s5.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.9.4",
+    "strength": "helpful",
+    "why": "unexpected results and hypothesis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.6.0",
+    "strength": "helpful",
+    "why": "describing a trend",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s4.9.0",
+    "strength": "helpful",
+    "why": "anomalous result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.10.0",
+    "strength": "helpful",
+    "why": "conclusion",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s5.0.1",
+    "strength": "helpful",
+    "why": "limitations",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s5.1.0",
+    "strength": "helpful",
+    "why": "improvements",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.2.0",
+    "strength": "helpful",
+    "why": "fair test",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.5.4",
+    "strength": "helpful",
+    "why": "sample size and randomness",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "helpful",
+    "why": "control",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s4.8.0",
+    "strength": "helpful",
+    "why": "correlation vs cause",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.9.3",
+    "strength": "helpful",
+    "why": "human ethics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s5.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.0.1",
+    "strength": "essential",
+    "why": "independent variable",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s2.0.2",
+    "strength": "essential",
+    "why": "dependent variable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s2.0.3",
+    "strength": "essential",
+    "why": "controlled variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.2.1",
+    "strength": "essential",
+    "why": "control definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.5.4",
+    "strength": "essential",
+    "why": "random sample reliability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s2.9.3",
+    "strength": "essential",
+    "why": "informed consent and withdrawal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s5.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s5.3.4",
+    "strength": "helpful",
+    "why": "step 5 prediction",
+    "confidence": "high"
+   }
+  ]
+ }
+}

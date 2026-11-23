@@ -1,0 +1,10218 @@
+{
+"bio1-s1.0.b": {
+"hash": "49f34193",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.0.0": {
+"hash": "41d96549",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.0.1": {
+"hash": "c0640c1d",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.0.2": {
+"hash": "2b0543e5",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.1.b": {
+"hash": "f5b495ac",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.1.0": {
+"hash": "916dd773",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.1.1": {
+"hash": "c33c3f12",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.1.2": {
+"hash": "089bcfd9",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.0.0",
+"strength": "helpful",
+"why": "testable against evidence",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.1.3": {
+"hash": "5d6eec7a",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.1.2",
+"strength": "helpful",
+"why": "falsifiability and refutation",
+"confidence": "low"
+}
+]
+},
+"bio1-s1.2.b": {
+"hash": "603b7585",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.2.0": {
+"hash": "f53144b4",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.2.1": {
+"hash": "cd0ced96",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.2.2": {
+"hash": "97c9e056",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.2.3": {
+"hash": "c548744d",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.2.4": {
+"hash": "1d908ea1",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.2.3",
+"strength": "essential",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.2.5": {
+"hash": "6b1c15ef",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.2.4",
+"strength": "essential",
+"why": "prediction being tested",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.2.6": {
+"hash": "f86a9d72",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.2.5",
+"strength": "helpful",
+"why": "results of the experiment",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.3.b": {
+"hash": "d7f81d44",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.3.0": {
+"hash": "23f53bc4",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.2.3",
+"strength": "essential",
+"why": "hypothesis",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.2.6",
+"strength": "helpful",
+"why": "data analysed",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.3.1": {
+"hash": "1e57ccd2",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.3.0",
+"strength": "helpful",
+"why": "conclusion being repeated",
+"confidence": "low"
+}
+]
+},
+"bio1-s1.3.2": {
+"hash": "f37f573f",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.3.3": {
+"hash": "de73855b",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.3.4": {
+"hash": "bf5355e5",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.3.3",
+"strength": "helpful",
+"why": "published, peer-reviewed work",
+"confidence": "low"
+}
+]
+},
+"bio1-s1.3.5": {
+"hash": "aa5f690d",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.9.0",
+"strength": "helpful",
+"why": "what a theory is",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.10.0",
+"strength": "helpful",
+"why": "what a law is",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.3.6": {
+"hash": "a08040cd",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.3.0",
+"strength": "essential",
+"why": "rejected hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.3.7": {
+"hash": "29d9ea07",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.3.6",
+"strength": "helpful",
+"why": "loop of the cycle",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.4.b": {
+"hash": "16fca953",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.4.0": {
+"hash": "8cb93cbe",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.4.1": {
+"hash": "92bdeb76",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.5.b": {
+"hash": "017e41a2",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.5.0": {
+"hash": "88dc5fef",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.5.1": {
+"hash": "755c7ad6",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.6.b": {
+"hash": "0c7250a2",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.6.0": {
+"hash": "1ef56e1d",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.6.1": {
+"hash": "410d0a0f",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.7.b": {
+"hash": "f947013d",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.7.0": {
+"hash": "44335274",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.7.1": {
+"hash": "70fffe85",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "helpful",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.7.2": {
+"hash": "243e85db",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.7.3": {
+"hash": "53e92ba7",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.7.4": {
+"hash": "ebd356d2",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.7.5": {
+"hash": "1198b49a",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.0.0",
+"strength": "essential",
+"why": "questions of value",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.1.3",
+"strength": "helpful",
+"why": "cannot prove",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.8.b": {
+"hash": "336f068a",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.8.0": {
+"hash": "02cce477",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.8.1": {
+"hash": "75887de2",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "essential",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.8.2": {
+"hash": "f5002371",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "helpful",
+"why": "hypothesis example",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.9.b": {
+"hash": "61bf16b7",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.9.0": {
+"hash": "b3735c40",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "essential",
+"why": "hypotheses",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.9.1": {
+"hash": "bfd77257",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.9.0",
+"strength": "helpful",
+"why": "theory defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.9.2": {
+"hash": "c2de9999",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.9.0",
+"strength": "essential",
+"why": "what a theory is",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.9.3": {
+"hash": "171ac2e3",
+"cost": 2,
+"needs": []
+},
+"bio1-s1.9.4": {
+"hash": "d85a5b27",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.9.3",
+"strength": "helpful",
+"why": "cell theory",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.9.5": {
+"hash": "c9abd12f",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.9.0",
+"strength": "helpful",
+"why": "what a theory is",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.10.b": {
+"hash": "081e9079",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.10.0": {
+"hash": "66f23f3b",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.9.1",
+"strength": "helpful",
+"why": "theory explains, law describes",
+"confidence": "low"
+}
+]
+},
+"bio1-s1.10.1": {
+"hash": "4063212e",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.10.0",
+"strength": "essential",
+"why": "what a law is",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.10.2": {
+"hash": "f6005d72",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.10.0",
+"strength": "essential",
+"why": "law as pattern",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.10.3": {
+"hash": "a2812e19",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.10.0",
+"strength": "helpful",
+"why": "law as principle",
+"confidence": "low"
+}
+]
+},
+"bio1-s1.11.b": {
+"hash": "d6d00998",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.11.0": {
+"hash": "2fadef8c",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "essential",
+"why": "hypothesis",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.9.0",
+"strength": "essential",
+"why": "theory",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.10.0",
+"strength": "essential",
+"why": "law",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.11.1": {
+"hash": "60905b08",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "essential",
+"why": "hypothesis",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.9.0",
+"strength": "essential",
+"why": "theory",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.10.0",
+"strength": "essential",
+"why": "law",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.11.2": {
+"hash": "f2650f5e",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "essential",
+"why": "hypothesis",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.9.0",
+"strength": "essential",
+"why": "theory",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.10.0",
+"strength": "essential",
+"why": "law",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.11.3": {
+"hash": "f7977bc7",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.11.4": {
+"hash": "477651c4",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.10.2",
+"strength": "helpful",
+"why": "Mendel law example",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.9.1",
+"strength": "helpful",
+"why": "theory explains",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.11.5": {
+"hash": "e4a0c332",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.12.b": {
+"hash": "708817d5",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.12.0": {
+"hash": "fc0244f9",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.12.1": {
+"hash": "1243ff38",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.13.b": {
+"hash": "3f4b5ecc",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.13.0": {
+"hash": "3e365fc2",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.13.1": {
+"hash": "79d8a4c3",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.13.0",
+"strength": "essential",
+"why": "spontaneous generation idea",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.13.2": {
+"hash": "877a688c",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.13.1",
+"strength": "essential",
+"why": "Redi jars",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.13.3": {
+"hash": "82bdb5cf",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.13.0",
+"strength": "helpful",
+"why": "spontaneous generation idea",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.13.4": {
+"hash": "7a260b76",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.13.3",
+"strength": "essential",
+"why": "swan-neck flask",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.13.5": {
+"hash": "ac8c2b68",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.13.0",
+"strength": "helpful",
+"why": "old idea replaced",
+"confidence": "high"
+},
+{
+"id": "bio1-s1.9.5",
+"strength": "helpful",
+"why": "germ theory",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.14.b": {
+"hash": "8f5dd508",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.14.0": {
+"hash": "fe2f9eac",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.9.3",
+"strength": "helpful",
+"why": "cell theory",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.14.1": {
+"hash": "496b9020",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.14.0",
+"strength": "helpful",
+"why": "cell theory",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.15.b": {
+"hash": "e3ba2606",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.15.0": {
+"hash": "83f7e6db",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.15.1": {
+"hash": "8f2fb078",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.15.0",
+"strength": "helpful",
+"why": "old idea being tested",
+"confidence": "low"
+}
+]
+},
+"bio1-s1.15.2": {
+"hash": "c12be92a",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.15.1",
+"strength": "essential",
+"why": "H. pylori",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.15.3": {
+"hash": "36b996b6",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.15.2",
+"strength": "helpful",
+"why": "Marshall results",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.15.4": {
+"hash": "c01ae780",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.15.0",
+"strength": "helpful",
+"why": "old idea replaced",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.15.5": {
+"hash": "ec558115",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.15.6": {
+"hash": "818304e9",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.16.b": {
+"hash": "ed900883",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.16.0": {
+"hash": "c67d22de",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.16.1": {
+"hash": "7feab2ab",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.16.0",
+"strength": "essential",
+"why": "ward comparison",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.16.2": {
+"hash": "d16ad0b6",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.16.1",
+"strength": "helpful",
+"why": "dissection link",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.16.3": {
+"hash": "7d0d2968",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.9.5",
+"strength": "essential",
+"why": "germ theory",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.16.4": {
+"hash": "00e15065",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.16.3",
+"strength": "helpful",
+"why": "explanatory theory",
+"confidence": "high"
+}
+]
+},
+"bio1-s1.17.b": {
+"hash": "e690fd6b",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.17.0": {
+"hash": "b09d66b4",
+"cost": 1,
+"needs": []
+},
+"bio1-s1.17.1": {
+"hash": "e335b770",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.0.b": {
+"hash": "87825529",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.0.0": {
+"hash": "187d1211",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.0.1": {
+"hash": "e2de6e00",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.0.2": {
+"hash": "7c74c114",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.0.3": {
+"hash": "a42f10df",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.0.2",
+"strength": "helpful",
+"why": "Human Genome Project",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.0.4": {
+"hash": "75d7c09b",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.0.5": {
+"hash": "30df2607",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.0.6": {
+"hash": "18cd9c40",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.1.b": {
+"hash": "a296bd0e",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.1.0": {
+"hash": "666fa935",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.1.1": {
+"hash": "3d76fe47",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.1.2": {
+"hash": "9304d0ad",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s2.1.1",
+"strength": "helpful",
+"why": "paper structure continued",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.1.3": {
+"hash": "9e15963d",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.1.1",
+"strength": "essential",
+"why": "methods section of a paper",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.1.4": {
+"hash": "55bb2710",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.9.2",
+"strength": "helpful",
+"why": "theory is not a guess",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.1.5": {
+"hash": "d6d68d81",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.1.6": {
+"hash": "80ecbc8c",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.0",
+"strength": "helpful",
+"why": "peer review",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.1.7": {
+"hash": "494804dd",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.1.8": {
+"hash": "67d05054",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.2.b": {
+"hash": "b959a8af",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.2.0": {
+"hash": "0c65421a",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.2.1": {
+"hash": "62cf76ed",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.2.2": {
+"hash": "d61f6ae7",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.2.1",
+"strength": "essential",
+"why": "SI units",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.2.3": {
+"hash": "3acb4dcc",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.2.4": {
+"hash": "34c27a4c",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.2.3",
+"strength": "essential",
+"why": "binomial scientific names",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.2.5": {
+"hash": "f3cead06",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.2.6": {
+"hash": "5a82acdc",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.2.7": {
+"hash": "4bd95926",
+"cost": 2,
+"needs": []
+},
+"bio1-s2.3.b": {
+"hash": "44e02469",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.3.0": {
+"hash": "9af4a8f2",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.3.1": {
+"hash": "d401f046",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s2.3.0",
+"strength": "essential",
+"why": "peer review",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.3.2": {
+"hash": "b8cf75c3",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s2.3.1",
+"strength": "helpful",
+"why": "submission and reviewers",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.3.3": {
+"hash": "eb8add4d",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.2",
+"strength": "helpful",
+"why": "reviewers check",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.3.4": {
+"hash": "4aed00c6",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.3",
+"strength": "helpful",
+"why": "reviewer recommendations",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.3.5": {
+"hash": "b3d41a80",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.1",
+"strength": "essential",
+"why": "reviewers and authors",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.3.6": {
+"hash": "37d40c9d",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.5",
+"strength": "essential",
+"why": "single-blind review",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.3.7": {
+"hash": "11feda3a",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s2.3.4",
+"strength": "helpful",
+"why": "revise loop",
+"confidence": "low"
+}
+]
+},
+"bio1-s2.4.b": {
+"hash": "ffb9024a",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.4.0": {
+"hash": "1b70a4c5",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.0",
+"strength": "essential",
+"why": "peer review",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.4.1": {
+"hash": "46dd9667",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.2",
+"strength": "helpful",
+"why": "what reviewers check",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.4.2": {
+"hash": "0d8993e3",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.4.3": {
+"hash": "f34b7efe",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.0",
+"strength": "essential",
+"why": "peer review",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.4.4": {
+"hash": "6919fd10",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.5.0",
+"strength": "helpful",
+"why": "repeating work",
+"confidence": "low"
+}
+]
+},
+"bio1-s2.4.5": {
+"hash": "553aa949",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s2.4.4",
+"strength": "essential",
+"why": "retraction",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.5.b": {
+"hash": "2a45dea3",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.5.0": {
+"hash": "293a925f",
+"cost": 1,
+"needs": []
+},
+"bio1-s2.5.1": {
+"hash": "9c7545d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.5.0",
+"strength": "essential",
+"why": "reproducible result",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.5.2": {
+"hash": "6ca73daf",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.15.4",
+"strength": "helpful",
+"why": "H. pylori ulcer case",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.5.3": {
+"hash": "bca7ea1c",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.5.0",
+"strength": "essential",
+"why": "reproducibility",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.5.4": {
+"hash": "d57f8a0f",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s2.5.0",
+"strength": "helpful",
+"why": "reproducibility",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.5.5": {
+"hash": "57a1142b",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.5.4",
+"strength": "helpful",
+"why": "failed reproduction",
+"confidence": "high"
+}
+]
+},
+"bio1-s2.5.6": {
+"hash": "84513ac7",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.5.5",
+"strength": "helpful",
+"why": "causes of failure",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.0.b": {
+"hash": "fdb77a86",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.0.0": {
+"hash": "25bf363c",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.0.1": {
+"hash": "1a3bf22a",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.0",
+"strength": "essential",
+"why": "source defined",
+"confidence": "high"
+},
+{
+"id": "bio1-s2.3.0",
+"strength": "helpful",
+"why": "peer review meaning",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.0.2": {
+"hash": "456e8db1",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.1",
+"strength": "essential",
+"why": "primary source contrasted",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.0.3": {
+"hash": "92bd6c83",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.0",
+"strength": "helpful",
+"why": "source concept",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.0.4": {
+"hash": "22b6a268",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.1",
+"strength": "essential",
+"why": "primary source",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.0.3",
+"strength": "essential",
+"why": "primary vs secondary data",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.0.5": {
+"hash": "82aaec26",
+"cost": 2,
+"needs": []
+},
+"bio1-s3.1.b": {
+"hash": "126f3de4",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.1.0": {
+"hash": "dd0d7397",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.1.1": {
+"hash": "8c937480",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.1.0",
+"strength": "helpful",
+"why": "research question guides keywords",
+"confidence": "low"
+}
+]
+},
+"bio1-s3.1.2": {
+"hash": "cc9b83dd",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.1",
+"strength": "essential",
+"why": "primary source type",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.0.3",
+"strength": "helpful",
+"why": "secondary data meaning",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.1.3": {
+"hash": "77412a18",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.1.4": {
+"hash": "16cd6d04",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.2.b",
+"strength": "essential",
+"why": "evaluation criteria",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias definition",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.1.5": {
+"hash": "9672bcca",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "helpful",
+"why": "sources may be biased",
+"confidence": "high"
+},
+{
+"id": "bio1-s2.5.0",
+"strength": "helpful",
+"why": "reproducing findings independently",
+"confidence": "low"
+}
+]
+},
+"bio1-s3.1.6": {
+"hash": "cee66e65",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.1.3",
+"strength": "helpful",
+"why": "referencing sources",
+"confidence": "low"
+}
+]
+},
+"bio1-s3.2.b": {
+"hash": "f968b9dd",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.2.0": {
+"hash": "7b2e12a7",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.2.1": {
+"hash": "3fdcfdf8",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.0",
+"strength": "essential",
+"why": "peer review defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.2.2": {
+"hash": "a029b437",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.2.3": {
+"hash": "a6247863",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias definition",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.2.4": {
+"hash": "0c1b5b94",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.1.3",
+"strength": "helpful",
+"why": "referencing sources",
+"confidence": "low"
+}
+]
+},
+"bio1-s3.2.5": {
+"hash": "5f7b3178",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.2.6": {
+"hash": "aedcc6f4",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.2.7": {
+"hash": "a4ff2e16",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.2.2",
+"strength": "essential",
+"why": "currency criterion",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.2.5",
+"strength": "essential",
+"why": "relevance criterion",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.2.0",
+"strength": "essential",
+"why": "authority criterion",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.2.6",
+"strength": "essential",
+"why": "accuracy criterion",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.2.3",
+"strength": "essential",
+"why": "purpose criterion",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.3.b": {
+"hash": "6953fdea",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.3.0": {
+"hash": "76f59ad3",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.3.1": {
+"hash": "a69e7617",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.3.2": {
+"hash": "cafea76f",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.3.3": {
+"hash": "1e3d392d",
+"cost": 2,
+"needs": []
+},
+"bio1-s3.3.4": {
+"hash": "e4847d58",
+"cost": 2,
+"needs": []
+},
+"bio1-s3.3.5": {
+"hash": "0908e8f0",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.2",
+"strength": "helpful",
+"why": "secondary sources summarise",
+"confidence": "low"
+}
+]
+},
+"bio1-s3.4.b": {
+"hash": "b3cad9b5",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.3",
+"strength": "essential",
+"why": "secondary data defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.4.0": {
+"hash": "52968ab5",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.3",
+"strength": "essential",
+"why": "secondary data",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.4.1": {
+"hash": "05cd1f5f",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.3",
+"strength": "essential",
+"why": "secondary data",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.4.2": {
+"hash": "c24148ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.3",
+"strength": "essential",
+"why": "secondary data",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.4.3": {
+"hash": "e7a53d90",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "helpful",
+"why": "collector bias",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.3.2",
+"strength": "helpful",
+"why": "unclear definitions and units",
+"confidence": "low"
+}
+]
+},
+"bio1-s3.4.4": {
+"hash": "8ac6962f",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.3",
+"strength": "essential",
+"why": "secondary data",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.3.1",
+"strength": "helpful",
+"why": "sample size",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.5.b": {
+"hash": "59523185",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.5.0": {
+"hash": "8d8db4d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.5.1": {
+"hash": "6e0b0bdc",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.5.2": {
+"hash": "83763496",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.5.3": {
+"hash": "103dd951",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.3.0",
+"strength": "helpful",
+"why": "publication follows peer review",
+"confidence": "low"
+}
+]
+},
+"bio1-s3.5.4": {
+"hash": "63a8f7a1",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.5.5": {
+"hash": "4ea2eb30",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.5.6": {
+"hash": "df29e049",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias defined",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.5.7": {
+"hash": "7892937d",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.5.8": {
+"hash": "e43668c7",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.5",
+"strength": "essential",
+"why": "bias defined",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.5.0",
+"strength": "helpful",
+"why": "funding bias",
+"confidence": "high"
+},
+{
+"id": "bio1-s3.2.4",
+"strength": "helpful",
+"why": "references support claims",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.6.b": {
+"hash": "363c1ec8",
+"cost": 1,
+"needs": []
+},
+"bio1-s3.6.0": {
+"hash": "8ae21c6c",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.0.1",
+"strength": "essential",
+"why": "primary source",
+"confidence": "high"
+},
+{
+"id": "bio1-s2.3.0",
+"strength": "helpful",
+"why": "peer review",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.6.1": {
+"hash": "2e3275d8",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.2.3",
+"strength": "helpful",
+"why": "purpose of source",
+"confidence": "high"
+}
+]
+},
+"bio1-s3.6.2": {
+"hash": "8530f322",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.2.b",
+"strength": "essential",
+"why": "criteria for judging sources",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.0.b": {
+"hash": "8307dca3",
+"cost": 1,
+"needs": []
+},
+"bio14-s3.0.0": {
+"hash": "4d6e8b8f",
+"cost": 1,
+"needs": []
+},
+"bio14-s3.0.1": {
+"hash": "b53bdbb4",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.0",
+"strength": "helpful",
+"why": "pigment definition",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.0.2": {
+"hash": "23fc55da",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.0",
+"strength": "helpful",
+"why": "pigment molecules",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.0.3": {
+"hash": "51c497d9",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.2",
+"strength": "essential",
+"why": "antenna cluster and reaction centre",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.0.4": {
+"hash": "24b848c3",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.0.3",
+"strength": "essential",
+"why": "reaction centre chlorophyll",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.1.0",
+"strength": "helpful",
+"why": "electron transport chain",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.0.5": {
+"hash": "f1da8ca1",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.0.4",
+"strength": "essential",
+"why": "electron leaving chlorophyll",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.b": {
+"hash": "f9e4307d",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s2.0.b",
+"strength": "helpful",
+"why": "NADP+ as electron carrier",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.0": {
+"hash": "5da673b6",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.4",
+"strength": "helpful",
+"why": "energised electrons leave chlorophyll",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.1": {
+"hash": "2f49b87c",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s5.1.0",
+"strength": "essential",
+"why": "electron transport chain",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.3.0",
+"strength": "helpful",
+"why": "ATP made from ADP + Pi",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.2": {
+"hash": "b079ab82",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.1.0",
+"strength": "essential",
+"why": "NADP+ loading to NADPH",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.3": {
+"hash": "d341189a",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.0.5",
+"strength": "essential",
+"why": "positively charged chlorophyll needs electrons",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.4": {
+"hash": "4115cec9",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.3",
+"strength": "essential",
+"why": "electrons from water",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.5": {
+"hash": "bff16ae3",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.1.3",
+"strength": "essential",
+"why": "photolysis releases protons",
+"confidence": "high"
+},
+{
+"id": "bio14-s5.2.0",
+"strength": "helpful",
+"why": "proton gradient powers ATP",
+"confidence": "low"
+}
+]
+},
+"bio14-s3.1.6": {
+"hash": "3ee23b00",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.3",
+"strength": "essential",
+"why": "photolysis makes oxygen",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.7": {
+"hash": "0f5c387c",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.2",
+"strength": "essential",
+"why": "electrons end on NADPH",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.1.8": {
+"hash": "7b39efd5",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.7",
+"strength": "helpful",
+"why": "non-cyclic pathway outputs",
+"confidence": "low"
+}
+]
+},
+"bio14-s3.2.b": {
+"hash": "f11bfaf6",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.b",
+"strength": "helpful",
+"why": "non-cyclic pathway for contrast",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.2.0": {
+"hash": "5fd17a44",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.1",
+"strength": "essential",
+"why": "electron transport chain carriers",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.2.1": {
+"hash": "7b449810",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.3.0",
+"strength": "helpful",
+"why": "ATP made from ADP + Pi",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.2.2": {
+"hash": "420ff63f",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.5",
+"strength": "essential",
+"why": "chlorophyll replaces lost electrons",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.2.3": {
+"hash": "58e37a64",
+"cost": 1,
+"needs": []
+},
+"bio14-s3.2.4": {
+"hash": "b6566abb",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s1.5.7",
+"strength": "essential",
+"why": "light-independent reactions use ATP",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.2.5": {
+"hash": "9a400b58",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.1.2",
+"strength": "essential",
+"why": "NADP+ becomes loaded as NADPH",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.3.b": {
+"hash": "6b4e8c32",
+"cost": 1,
+"needs": []
+},
+"bio14-s3.3.0": {
+"hash": "5d173725",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.7",
+"strength": "essential",
+"why": "non-cyclic electron route",
+"confidence": "high"
+},
+{
+"id": "bio14-s3.2.0",
+"strength": "essential",
+"why": "cyclic electron route",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.3.1": {
+"hash": "69746d5f",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.2",
+"strength": "essential",
+"why": "NADP+ final acceptor",
+"confidence": "high"
+},
+{
+"id": "bio14-s3.2.0",
+"strength": "essential",
+"why": "cyclic returns to chlorophyll",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.3.2": {
+"hash": "dd65ef3c",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.3",
+"strength": "essential",
+"why": "photolysis of water",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.3.3": {
+"hash": "c1bd59e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.8",
+"strength": "essential",
+"why": "non-cyclic products",
+"confidence": "high"
+},
+{
+"id": "bio14-s3.2.3",
+"strength": "essential",
+"why": "cyclic product",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.3.4": {
+"hash": "a9b0352f",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.0.4",
+"strength": "helpful",
+"why": "energised electron leaves chlorophyll",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.3.5": {
+"hash": "d69f49c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s3.1.2",
+"strength": "helpful",
+"why": "NADP+ to NADPH step",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.3.6": {
+"hash": "31777e42",
+"cost": 2,
+"needs": [
+{
+"id": "bio14-s3.1.7",
+"strength": "helpful",
+"why": "non-cyclic pathway",
+"confidence": "high"
+},
+{
+"id": "bio14-s3.2.0",
+"strength": "helpful",
+"why": "cyclic loop",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.4.b": {
+"hash": "d60dbb84",
+"cost": 1,
+"needs": []
+},
+"bio14-s3.4.0": {
+"hash": "48c21779",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s5.0.3",
+"strength": "helpful",
+"why": "thylakoid membranes hold pigments",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.4.1": {
+"hash": "0bd47988",
+"cost": 1,
+"needs": []
+},
+"bio14-s3.4.2": {
+"hash": "130b4658",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s1.5.6",
+"strength": "helpful",
+"why": "stroma as site of stage 2",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.4.3": {
+"hash": "fe649af1",
+"cost": 1,
+"needs": [
+{
+"id": "bio14-s1.0.2",
+"strength": "helpful",
+"why": "light to chemical energy",
+"confidence": "high"
+}
+]
+},
+"bio14-s3.4.4": {
+"hash": "4a8f354e",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s2.1.4",
+"strength": "helpful",
+"why": "NADPH electrons build glucose",
+"confidence": "high"
+},
+{
+"id": "bio9-s1.2.0",
+"strength": "helpful",
+"why": "ATP releases energy",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.0.b": {
+"hash": "add54b1e",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.1",
+"strength": "helpful",
+"why": "ATP as energy carrier",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.0.0": {
+"hash": "889eb6c3",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.0.1",
+"strength": "helpful",
+"why": "ATP as energy carrier",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.0.1": {
+"hash": "aee7ec32",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.2.3",
+"strength": "essential",
+"why": "catabolism: breakdown releasing energy",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.0.2": {
+"hash": "8cacd48d",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.1",
+"strength": "essential",
+"why": "anabolism: building up, needs energy",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.0.1",
+"strength": "helpful",
+"why": "respiration is catabolic",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.0.3": {
+"hash": "3d5105a1",
+"cost": 2,
+"needs": [
+{
+"id": "bio9-s1.0.1",
+"strength": "helpful",
+"why": "ATP as energy currency",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.0.4": {
+"hash": "1a4f284a",
+"cost": 1,
+"needs": [
+{
+"id": "bio9-s1.5.1",
+"strength": "helpful",
+"why": "active transport uses ATP",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.0.5": {
+"hash": "a95c6eeb",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.2.2",
+"strength": "helpful",
+"why": "photosynthesis builds glucose",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.0.6": {
+"hash": "cde40b7d",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.0.5",
+"strength": "helpful",
+"why": "CO2 released by respiration",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.0.7": {
+"hash": "a635376e",
+"cost": 1,
+"needs": [
+{
+"id": "bio8-s1.1.3",
+"strength": "helpful",
+"why": "glucose units form starch, glycogen",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.1.b": {
+"hash": "9a86bd7b",
+"cost": 1,
+"needs": []
+},
+"bio15-s1.1.0": {
+"hash": "ae300025",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.0.0",
+"strength": "helpful",
+"why": "respiration breaks down glucose",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.1.1": {
+"hash": "4af9d0d9",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "essential",
+"why": "aerobic word equation",
+"confidence": "high"
+},
+{
+"id": "bio8-s1.2.2",
+"strength": "helpful",
+"why": "photosynthesis equation reversed",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.1.2": {
+"hash": "1ecceca6",
+"cost": 2,
+"needs": [
+{
+"id": "bio8-s1.3.1",
+"strength": "helpful",
+"why": "plants make starch, sucrose",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.1.3": {
+"hash": "eec484ab",
+"cost": 1,
+"needs": []
+},
+"bio15-s1.1.4": {
+"hash": "a8beeb75",
+"cost": 2,
+"needs": []
+},
+"bio15-s1.1.5": {
+"hash": "b435af2f",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "helpful",
+"why": "CO2 is aerobic product",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.1.6": {
+"hash": "873bc9d9",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "helpful",
+"why": "water is aerobic product",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.2.b": {
+"hash": "04c514ea",
+"cost": 1,
+"needs": []
+},
+"bio15-s1.2.0": {
+"hash": "054d23a8",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "essential",
+"why": "aerobic breakdown for comparison",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.2.1": {
+"hash": "0b7d7b55",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.2.0",
+"strength": "essential",
+"why": "anaerobic respiration without oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.2.2": {
+"hash": "6d065928",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.2.0",
+"strength": "essential",
+"why": "anaerobic respiration without oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.2.3": {
+"hash": "06da0075",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.2.2",
+"strength": "helpful",
+"why": "yeast makes ethanol and CO2",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.2.1",
+"strength": "helpful",
+"why": "bacteria make lactic acid",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.2.4": {
+"hash": "e6dc20ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.1",
+"strength": "essential",
+"why": "lactic acid from muscle",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.2.5": {
+"hash": "88154e28",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.2.4",
+"strength": "essential",
+"why": "lactic acid builds up in exercise",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.2.6": {
+"hash": "233c178f",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "anaerobic respiration without oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.3.b": {
+"hash": "b92aadf2",
+"cost": 1,
+"needs": []
+},
+"bio15-s1.3.0": {
+"hash": "4af079a4",
+"cost": 2,
+"needs": [
+{
+"id": "bio7-s3.1.1",
+"strength": "helpful",
+"why": "cytoplasm hosts first respiration stage",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.3.1": {
+"hash": "e7408bae",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.3.0",
+"strength": "essential",
+"why": "pyruvate from glycolysis",
+"confidence": "high"
+},
+{
+"id": "bio7-s3.2.2",
+"strength": "helpful",
+"why": "mitochondria site of aerobic respiration",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.3.2": {
+"hash": "00d31ec5",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.3.1",
+"strength": "essential",
+"why": "stage 2 in mitochondrion",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.3.3": {
+"hash": "bc6e4ba9",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.3.0",
+"strength": "essential",
+"why": "pyruvate from glycolysis",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.3.4": {
+"hash": "f17574c6",
+"cost": 1,
+"needs": [
+{
+"id": "bio7-s3.2.3",
+"strength": "helpful",
+"why": "mitochondria only in eukaryotes",
+"confidence": "low"
+}
+]
+},
+"bio15-s1.3.5": {
+"hash": "cdd1d46d",
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.3.0",
+"strength": "helpful",
+"why": "glycolysis stage 1",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.3.3",
+"strength": "helpful",
+"why": "anaerobic pyruvate conversion",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.4.b": {
+"hash": "8a849539",
+"cost": 1,
+"needs": []
+},
+"bio15-s1.4.0": {
+"hash": "5a995cb6",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "helpful",
+"why": "aerobic respiration uses oxygen",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "anaerobic respiration without oxygen",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.4.1": {
+"hash": "bf91d24a",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.3.1",
+"strength": "helpful",
+"why": "mitochondria in aerobic stage 2",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.3.3",
+"strength": "helpful",
+"why": "anaerobic stays in cytoplasm",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.4.2": {
+"hash": "5dcd41c9",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "helpful",
+"why": "complete breakdown to CO2, water",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "partial breakdown",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.4.3": {
+"hash": "67ed4ae7",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.3.0",
+"strength": "helpful",
+"why": "ATP made in glycolysis",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "partial breakdown of glucose",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.4.4": {
+"hash": "762332d3",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.3.1",
+"strength": "helpful",
+"why": "stage 2 in aerobic",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.3.3",
+"strength": "helpful",
+"why": "pyruvate conversion in anaerobic",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.4.5": {
+"hash": "85f6e5df",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.0.1",
+"strength": "helpful",
+"why": "respiration is catabolic",
+"confidence": "high"
+}
+]
+},
+"bio15-s1.4.6": {
+"hash": "07028158",
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.0.2",
+"strength": "helpful",
+"why": "photosynthesis is anabolic",
+"confidence": "high"
+},
+{
+"id": "bio15-s1.4.5",
+"strength": "helpful",
+"why": "respiration for contrast",
+"confidence": "low"
+}
+]
+},
+"bio2-s1.0.b": {
+"hash": "5d07de17",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.0.0": {
+"hash": "efb845af",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.0.1": {
+"hash": "9923a20e",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.0.2": {
+"hash": "9e982e54",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.0.0",
+"strength": "helpful",
+"why": "questions of value not scientific",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.0.3": {
+"hash": "9d7a7714",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.0.2",
+"strength": "helpful",
+"why": "value questions science cannot settle",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.0.4": {
+"hash": "56c4dc68",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.0.6",
+"strength": "helpful",
+"why": "independent and dependent variables",
+"confidence": "low"
+}
+]
+},
+"bio2-s1.0.5": {
+"hash": "c2e6358d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.0.4",
+"strength": "helpful",
+"why": "narrowing a broad question",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.0.6": {
+"hash": "d1d3a7be",
+"cost": 2,
+"needs": []
+},
+"bio2-s1.1.b": {
+"hash": "a246cd5d",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.1.0": {
+"hash": "a6d92fb9",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.2.0",
+"strength": "helpful",
+"why": "stages of scientific method",
+"confidence": "low"
+}
+]
+},
+"bio2-s1.1.1": {
+"hash": "feecc1ff",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.8.0",
+"strength": "helpful",
+"why": "hypothesis definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.1.2": {
+"hash": "31fd85f0",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "essential",
+"why": "what a hypothesis is",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.1.3": {
+"hash": "8206091e",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "helpful",
+"why": "hypothesis explains, prediction follows",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.1.4": {
+"hash": "bf08a8a9",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.1.3",
+"strength": "essential",
+"why": "what a prediction is",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.1.5": {
+"hash": "cacffca2",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "essential",
+"why": "hypothesis as explanation",
+"confidence": "high"
+},
+{
+"id": "bio2-s1.1.3",
+"strength": "essential",
+"why": "prediction as expected result",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.1.6": {
+"hash": "ef7b4d7f",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.0.6",
+"strength": "essential",
+"why": "independent and dependent variables",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.1.7": {
+"hash": "a315d167",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s1.1.0",
+"strength": "helpful",
+"why": "sequence of investigation stages",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.2.b": {
+"hash": "6d491bda",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.2.0": {
+"hash": "2b983ebe",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.1.2",
+"strength": "helpful",
+"why": "falsifiability",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.2.1": {
+"hash": "5c89152f",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.2.0",
+"strength": "essential",
+"why": "testability and falsifiability",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.2.2": {
+"hash": "32c0c842",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.0.6",
+"strength": "helpful",
+"why": "measured and controlled variables",
+"confidence": "low"
+}
+]
+},
+"bio2-s1.2.3": {
+"hash": "0c46f1d9",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "helpful",
+"why": "hypothesis based on knowledge",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.2.4": {
+"hash": "892685b2",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s1.1.2",
+"strength": "essential",
+"why": "enzyme-rate hypothesis example",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.2.5": {
+"hash": "f5d1b20b",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s1.0.5",
+"strength": "helpful",
+"why": "potato cylinder investigation",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.2.6": {
+"hash": "59250be9",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "helpful",
+"why": "hypothesis built on biology",
+"confidence": "low"
+}
+]
+},
+"bio2-s1.2.7": {
+"hash": "05199894",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s1.1.3",
+"strength": "helpful",
+"why": "evidence supports but never proves",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.3.b": {
+"hash": "b91f3888",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.3.0": {
+"hash": "94e2779a",
+"cost": 2,
+"needs": []
+},
+"bio2-s1.3.1": {
+"hash": "d536df29",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.0.6",
+"strength": "helpful",
+"why": "changing one variable",
+"confidence": "low"
+}
+]
+},
+"bio2-s1.3.2": {
+"hash": "45f20ba0",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.3.1",
+"strength": "essential",
+"why": "laboratory experiment",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.3.3": {
+"hash": "2e15abe6",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.3.1",
+"strength": "essential",
+"why": "laboratory experiment",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.4.b": {
+"hash": "f318b9b4",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.4.0": {
+"hash": "7d3d35b1",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.3.1",
+"strength": "helpful",
+"why": "contrast with changing variables",
+"confidence": "low"
+}
+]
+},
+"bio2-s1.4.1": {
+"hash": "925f0d43",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.4.0",
+"strength": "essential",
+"why": "field study",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.4.2": {
+"hash": "0226b777",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.4.0",
+"strength": "essential",
+"why": "field study",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.4.3": {
+"hash": "a45500a2",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.4.4": {
+"hash": "f2bd60e4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.4.3",
+"strength": "essential",
+"why": "secondary data",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.4.5": {
+"hash": "e81b3311",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.4.3",
+"strength": "essential",
+"why": "secondary data",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.5.b": {
+"hash": "5d1d1377",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.5.0": {
+"hash": "8c9d1f67",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.5.1": {
+"hash": "801c9416",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.5.0",
+"strength": "essential",
+"why": "models and simulations",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.5.2": {
+"hash": "53ec3f7c",
+"cost": 1,
+"needs": []
+},
+"bio2-s1.5.3": {
+"hash": "479744eb",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s1.5.2",
+"strength": "essential",
+"why": "human trials",
+"confidence": "high"
+}
+]
+},
+"bio2-s1.5.4": {
+"hash": "071fde66",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.4.0",
+"strength": "helpful",
+"why": "field survey",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.0.b": {
+"hash": "37f41943",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.0.0": {
+"hash": "8dca55ec",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.0.1": {
+"hash": "0cb737ff",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.0",
+"strength": "helpful",
+"why": "variable defined",
+"confidence": "high"
+},
+{
+"id": "bio2-s1.0.6",
+"strength": "helpful",
+"why": "independent variable defined",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.0.2": {
+"hash": "119fb990",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "depends on independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.0.3": {
+"hash": "273ca134",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "affects the dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.0.4": {
+"hash": "6ab9360f",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.0.5": {
+"hash": "97033b6b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.1.b": {
+"hash": "61bb993f",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.1.0": {
+"hash": "3737b549",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.1.1": {
+"hash": "454864e2",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.1.2": {
+"hash": "89cffd10",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.4",
+"strength": "helpful",
+"why": "cylinder size controlled",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.1.3": {
+"hash": "852e058e",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable values",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.1.4": {
+"hash": "14fda2ae",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.1.3",
+"strength": "helpful",
+"why": "range of values tested",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.1.5": {
+"hash": "56ebcea0",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.2.b": {
+"hash": "f630a4a7",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.2.0": {
+"hash": "0d7aef01",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.2.1": {
+"hash": "0f8ebbcd",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.2.0",
+"strength": "helpful",
+"why": "fair test comparison",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.2.2": {
+"hash": "ae246c6d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control set-up definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.2.3": {
+"hash": "52fcce22",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.2.4": {
+"hash": "d60720be",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.2.5": {
+"hash": "ec4a59b4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "the control",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.3.b": {
+"hash": "f76231f3",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.3.0": {
+"hash": "25e78dca",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.0",
+"strength": "essential",
+"why": "fair test",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.2",
+"strength": "helpful",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.3.1": {
+"hash": "e6d1a154",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.3.0",
+"strength": "essential",
+"why": "validity definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.3.2": {
+"hash": "8e9ff84b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.3.1",
+"strength": "essential",
+"why": "restoring validity",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.3.3": {
+"hash": "91238011",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.3.0",
+"strength": "essential",
+"why": "valid investigation",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.4.b": {
+"hash": "a3c0ff2c",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.4.0": {
+"hash": "86d06416",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.4.1": {
+"hash": "507b5bde",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.4.0",
+"strength": "helpful",
+"why": "error and true value",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.4.2": {
+"hash": "b36b106e",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.4.3": {
+"hash": "9a04615e",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.4.2",
+"strength": "helpful",
+"why": "precision defined",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.4.4": {
+"hash": "88afb225",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.4.1",
+"strength": "essential",
+"why": "accuracy",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.4.2",
+"strength": "essential",
+"why": "precision",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.4.5": {
+"hash": "f6f2e2ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.4.1",
+"strength": "essential",
+"why": "accuracy",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.4.2",
+"strength": "essential",
+"why": "precision",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.5.b": {
+"hash": "c03034db",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.5.0": {
+"hash": "f04744c2",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.5.1": {
+"hash": "c95c4618",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "values of independent variable",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.5.2": {
+"hash": "039f386c",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.5.1",
+"strength": "helpful",
+"why": "replicates versus repeats",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.5.3": {
+"hash": "034b88b6",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.5.4": {
+"hash": "8dd58279",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.5.3",
+"strength": "essential",
+"why": "sample size",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.5.5": {
+"hash": "e036147b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.5.3",
+"strength": "essential",
+"why": "sample size",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.6.b": {
+"hash": "b06448c3",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.6.0": {
+"hash": "c251245f",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.4.3",
+"strength": "essential",
+"why": "resolution of instruments",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.6.1": {
+"hash": "340743d9",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.6.2": {
+"hash": "2617d524",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.6.3": {
+"hash": "97102659",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.6.4": {
+"hash": "1fba7603",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.6.0",
+"strength": "helpful",
+"why": "resolution and equipment choice",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.7.b": {
+"hash": "96d8e90c",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.7.0": {
+"hash": "df7c0fd6",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.7.1": {
+"hash": "1540fbf8",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.7.0",
+"strength": "helpful",
+"why": "control measures",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.7.2": {
+"hash": "10b1a179",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.7.0",
+"strength": "helpful",
+"why": "hazard and control measure",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.7.3": {
+"hash": "5586beeb",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.7.0",
+"strength": "helpful",
+"why": "hazard and control measure",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.7.4": {
+"hash": "04058fce",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.7.0",
+"strength": "helpful",
+"why": "hazard and control measure",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.7.5": {
+"hash": "511b93f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.7.0",
+"strength": "helpful",
+"why": "hazard and control measure",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.7.6": {
+"hash": "6b3feaa6",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.7.0",
+"strength": "helpful",
+"why": "hazard and control measure",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.7.7": {
+"hash": "abb22711",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.8.b": {
+"hash": "be448151",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.8.0": {
+"hash": "72112c55",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.8.1": {
+"hash": "5c1e05cf",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "helpful",
+"why": "hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.8.2": {
+"hash": "635b94ac",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.8.3": {
+"hash": "b9e740b7",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "helpful",
+"why": "hypothesis",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.9.b": {
+"hash": "a10e2f08",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.9.0": {
+"hash": "4f6469f7",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.9.1": {
+"hash": "7b45c57f",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.9.0",
+"strength": "helpful",
+"why": "animal ethics context",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.9.2": {
+"hash": "c323a526",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.9.3": {
+"hash": "3598c5fc",
+"cost": 2,
+"needs": []
+},
+"bio2-s2.9.4": {
+"hash": "d89b70a4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.9.3",
+"strength": "helpful",
+"why": "participant ethics",
+"confidence": "low"
+}
+]
+},
+"bio2-s2.9.5": {
+"hash": "720a010d",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.10.b": {
+"hash": "a75b3b80",
+"cost": 1,
+"needs": []
+},
+"bio2-s2.10.0": {
+"hash": "cb490894",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s1.1.1",
+"strength": "essential",
+"why": "hypothesis",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.3",
+"strength": "helpful",
+"why": "controlled variables",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.2.1",
+"strength": "helpful",
+"why": "the control",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.10.1": {
+"hash": "8d23608f",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.5.1",
+"strength": "helpful",
+"why": "replicates",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.7.0",
+"strength": "helpful",
+"why": "risk assessment",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.10.2": {
+"hash": "d985a99b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.10.3": {
+"hash": "b8470620",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "dependent variable",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio2-s2.10.4": {
+"hash": "f55192b5",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.2",
+"strength": "essential",
+"why": "boiled enzyme control",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.5.1",
+"strength": "helpful",
+"why": "replicates",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.7.3",
+"strength": "helpful",
+"why": "hydrogen peroxide hazard",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.0.b": {
+"hash": "5f6ae3dd",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.0.0": {
+"hash": "e0a3ff66",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.0.1": {
+"hash": "d1081fff",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.6.1",
+"strength": "helpful",
+"why": "objective measuring equipment",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.0.2": {
+"hash": "d1302013",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.0.1",
+"strength": "helpful",
+"why": "colorimeter replaces judging colour",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.0.3": {
+"hash": "100c164c",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.0.4": {
+"hash": "560c8274",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.0.5": {
+"hash": "ab0113ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.0.4",
+"strength": "essential",
+"why": "random allocation and sampling",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.0.6": {
+"hash": "97521dac",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.1.0",
+"strength": "helpful",
+"why": "what blinding means in trials",
+"confidence": "low"
+}
+]
+},
+"bio2-s3.1.b": {
+"hash": "a12116ad",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.1.0": {
+"hash": "d7d85105",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "helpful",
+"why": "control group as comparison",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.1.1": {
+"hash": "3e0afd2f",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.1.0",
+"strength": "essential",
+"why": "single-blind trial idea",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.1.2": {
+"hash": "853e9e2b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "helpful",
+"why": "control group in trial",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.1.3": {
+"hash": "e7f52f9a",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.1.2",
+"strength": "essential",
+"why": "placebo definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.1.4": {
+"hash": "ac6b5006",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.2.b": {
+"hash": "ac8e6d16",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.2.0": {
+"hash": "2b0ff0e1",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.2.b",
+"strength": "essential",
+"why": "random error definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.2.1": {
+"hash": "6d09bd60",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.2.0",
+"strength": "helpful",
+"why": "random error behaviour",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.2.2": {
+"hash": "3c9493c7",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.2.0",
+"strength": "helpful",
+"why": "random error behaviour",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.2.3": {
+"hash": "cdb42498",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.4.2",
+"strength": "essential",
+"why": "precision definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.2.4": {
+"hash": "879fb414",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.2.0",
+"strength": "essential",
+"why": "random error scatter",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.5.2",
+"strength": "helpful",
+"why": "repeats and means",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.2.5": {
+"hash": "0dffe854",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.5.4",
+"strength": "helpful",
+"why": "larger sample size",
+"confidence": "low"
+},
+{
+"id": "bio2-s2.6.3",
+"strength": "helpful",
+"why": "data loggers",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.b": {
+"hash": "00fecfc3",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.2.b",
+"strength": "helpful",
+"why": "contrast with random error",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.0": {
+"hash": "abb6427d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.3.b",
+"strength": "essential",
+"why": "systematic error definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.1": {
+"hash": "75baf3ea",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.3.0",
+"strength": "essential",
+"why": "systematic error shifts results",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.2": {
+"hash": "76c055ef",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.3.0",
+"strength": "essential",
+"why": "consistent shift in readings",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.3": {
+"hash": "1b551b72",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.3.0",
+"strength": "essential",
+"why": "consistent shift in readings",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.4": {
+"hash": "32862546",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.4.1",
+"strength": "essential",
+"why": "accuracy definition",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.4.2",
+"strength": "essential",
+"why": "precision definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.5": {
+"hash": "01eaec41",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.3.0",
+"strength": "essential",
+"why": "same error each time",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.6": {
+"hash": "d8e20c62",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.3.1",
+"strength": "essential",
+"why": "calibration and zero error",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.3.7": {
+"hash": "21b1b549",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.3.0",
+"strength": "essential",
+"why": "systematic error definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.4.b": {
+"hash": "3e2d293c",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.4.0": {
+"hash": "45bc0fdb",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.2.0",
+"strength": "essential",
+"why": "random error properties",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.4.1": {
+"hash": "590b6274",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.3.0",
+"strength": "essential",
+"why": "systematic error properties",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.4.2": {
+"hash": "3f4afb12",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.4.3": {
+"hash": "df321919",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.2.1",
+"strength": "helpful",
+"why": "reaction time as random error",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.4.4": {
+"hash": "6612131a",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.2.0",
+"strength": "helpful",
+"why": "scattered readings",
+"confidence": "high"
+},
+{
+"id": "bio2-s3.3.0",
+"strength": "helpful",
+"why": "displaced readings",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.5.b": {
+"hash": "08d752df",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.5.0": {
+"hash": "bbdaddb4",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.5.1": {
+"hash": "72ceee6b",
+"cost": 1,
+"needs": []
+},
+"bio2-s3.5.2": {
+"hash": "d4ff041d",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.5.0",
+"strength": "essential",
+"why": "repeatable definition",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.5.3": {
+"hash": "3fff6f6b",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.5.1",
+"strength": "essential",
+"why": "reproducible definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.5.4": {
+"hash": "687b3e53",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.5.0",
+"strength": "essential",
+"why": "repeatable definition",
+"confidence": "high"
+},
+{
+"id": "bio2-s3.3.0",
+"strength": "helpful",
+"why": "systematic error cause",
+"confidence": "high"
+}
+]
+},
+"bio2-s3.5.5": {
+"hash": "81ba6e61",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.5.0",
+"strength": "helpful",
+"why": "repeatable data",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.0.b": {
+"hash": "3d250d0f",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.0.0": {
+"hash": "d982fabd",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.0.1": {
+"hash": "bae62c67",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.0.2": {
+"hash": "8160fe67",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.1",
+"strength": "helpful",
+"why": "quantitative data defined",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.0.3": {
+"hash": "9fe1fc0b",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.0.4": {
+"hash": "da5fcbd1",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.0.5": {
+"hash": "543d8720",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.0.6": {
+"hash": "0ea9acad",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.0.7": {
+"hash": "995d4901",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.6",
+"strength": "essential",
+"why": "primary vs secondary data",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.1.b": {
+"hash": "445069cb",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.1.0": {
+"hash": "a4416955",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "independent variable",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.2",
+"strength": "helpful",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.1.1": {
+"hash": "b9ce3fba",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.1.2": {
+"hash": "1d1f5dc5",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.4.3",
+"strength": "helpful",
+"why": "instrument resolution",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.1.3": {
+"hash": "d8d5653d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.1.0",
+"strength": "helpful",
+"why": "independent variable column",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.1.4": {
+"hash": "51834a54",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.2.b": {
+"hash": "8c58e0c2",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.2.0": {
+"hash": "e0ed2aa1",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.5.2",
+"strength": "helpful",
+"why": "anomalous result",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.2.1": {
+"hash": "22017805",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.2.0",
+"strength": "essential",
+"why": "mean calculation",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.2.2": {
+"hash": "15854e1c",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.2.0",
+"strength": "essential",
+"why": "mean excluding anomaly",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.2.3": {
+"hash": "1c105dcc",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.4.2",
+"strength": "helpful",
+"why": "precision as spread",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.2.4": {
+"hash": "bd2b38dd",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.2.3",
+"strength": "essential",
+"why": "range calculation",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.2.5": {
+"hash": "55242c50",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.3.b": {
+"hash": "6d4abb12",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.3.0": {
+"hash": "043a7f96",
+"cost": 2,
+"needs": []
+},
+"bio2-s4.3.1": {
+"hash": "99b73b73",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.3.0",
+"strength": "essential",
+"why": "percentage change formula",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.3.2": {
+"hash": "d2a3b8f7",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.3.0",
+"strength": "helpful",
+"why": "sign of percentage change",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.3.3": {
+"hash": "1d66c996",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.3.4": {
+"hash": "a316667a",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.3.3",
+"strength": "essential",
+"why": "rate formula",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.3.5": {
+"hash": "eebb7cbb",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.3.4",
+"strength": "essential",
+"why": "1 ÷ time rate",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.4.b": {
+"hash": "c7b3d117",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.4.0": {
+"hash": "9987f307",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.3",
+"strength": "essential",
+"why": "continuous data",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.4.1": {
+"hash": "1c8b7f28",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.5",
+"strength": "essential",
+"why": "categoric data",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.4.2": {
+"hash": "a35b6400",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.3",
+"strength": "essential",
+"why": "continuous data",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.4.3": {
+"hash": "1b68f021",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.6.2",
+"strength": "helpful",
+"why": "correlation meaning",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.4.4": {
+"hash": "58e13b30",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.5.b": {
+"hash": "527d80b5",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.5.0": {
+"hash": "c4455db2",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.5.1": {
+"hash": "d21f2f11",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.5.2": {
+"hash": "5e313ed0",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.2.0",
+"strength": "helpful",
+"why": "calculating the mean",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.5.3": {
+"hash": "22216827",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.9.0",
+"strength": "helpful",
+"why": "anomalous point",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.5.4": {
+"hash": "50df4a78",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.9.0",
+"strength": "essential",
+"why": "anomalous result",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.5.5": {
+"hash": "6ee5cd85",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.5.0",
+"strength": "helpful",
+"why": "independent and dependent variables",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.5.6": {
+"hash": "fe5651a2",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.4.0",
+"strength": "essential",
+"why": "line graph",
+"confidence": "high"
+},
+{
+"id": "bio2-s4.9.0",
+"strength": "helpful",
+"why": "anomalous point",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.6.b": {
+"hash": "e3bbf2d2",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.6.0": {
+"hash": "184da1f6",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.4.0",
+"strength": "helpful",
+"why": "line graph trend",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.6.1": {
+"hash": "85d2ac59",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.6.2": {
+"hash": "3fefc17f",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.4.3",
+"strength": "helpful",
+"why": "scatter graph correlation",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.6.3": {
+"hash": "0b2028f5",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.4.0",
+"strength": "helpful",
+"why": "line graph through origin",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.6.4": {
+"hash": "0e74a527",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.6.2",
+"strength": "essential",
+"why": "types of correlation",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.7.b": {
+"hash": "eaefb5e1",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.7.0": {
+"hash": "6fcfaf34",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.5.3",
+"strength": "essential",
+"why": "line of best fit",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.7.1": {
+"hash": "3103b1da",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.7.0",
+"strength": "essential",
+"why": "interpolation contrasted",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.7.2": {
+"hash": "2445a69c",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.3.3",
+"strength": "essential",
+"why": "rate as change over time",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.7.3": {
+"hash": "0cf40447",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.7.2",
+"strength": "helpful",
+"why": "gradient shows rate",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.8.b": {
+"hash": "aac22ce5",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.8.0": {
+"hash": "02056d82",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.6.2",
+"strength": "essential",
+"why": "correlation",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.8.1": {
+"hash": "d127ac13",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.8.0",
+"strength": "essential",
+"why": "correlation vs causation",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.8.2": {
+"hash": "da7e63c2",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.8.1",
+"strength": "essential",
+"why": "third variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.8.3": {
+"hash": "381b54f8",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control set-up",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.2.0",
+"strength": "helpful",
+"why": "fair test",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.8.4": {
+"hash": "7e130567",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.8.0",
+"strength": "helpful",
+"why": "correlation",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.9.b": {
+"hash": "dfee1cfb",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.9.0": {
+"hash": "8b73c299",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.5.3",
+"strength": "helpful",
+"why": "line of best fit",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.9.1": {
+"hash": "0601a066",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.9.0",
+"strength": "essential",
+"why": "anomalous result",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.9.2": {
+"hash": "96941153",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.9.0",
+"strength": "helpful",
+"why": "anomalous result",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.9.3": {
+"hash": "990d71ad",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.2.0",
+"strength": "helpful",
+"why": "mean excluding anomalies",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.8.3",
+"strength": "helpful",
+"why": "honest reporting",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.9.4": {
+"hash": "186c34af",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.9.0",
+"strength": "essential",
+"why": "anomalous result",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.10.b": {
+"hash": "bd2805ec",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.10.0": {
+"hash": "dc17787b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.10.1": {
+"hash": "e27182e4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.6.0",
+"strength": "helpful",
+"why": "quoting data from trend",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.10.2": {
+"hash": "b28153e3",
+"cost": 1,
+"needs": []
+},
+"bio2-s4.10.3": {
+"hash": "4047128a",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "range of independent variable",
+"confidence": "low"
+}
+]
+},
+"bio2-s4.10.4": {
+"hash": "d98be3fc",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.5.0",
+"strength": "helpful",
+"why": "reliability and repeats",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.3.0",
+"strength": "helpful",
+"why": "validity",
+"confidence": "high"
+}
+]
+},
+"bio2-s4.10.5": {
+"hash": "7847c0c4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.3.3",
+"strength": "essential",
+"why": "valid conclusion needs valid data",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.0.b": {
+"hash": "4d159bdc",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.3.0",
+"strength": "helpful",
+"why": "validity: answers the question",
+"confidence": "low"
+}
+]
+},
+"bio2-s5.0.0": {
+"hash": "2d48b83d",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.1.0",
+"strength": "helpful",
+"why": "water bath and buffer control",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.5.1",
+"strength": "helpful",
+"why": "replicates definition",
+"confidence": "high"
+},
+{
+"id": "bio2-s4.2.3",
+"strength": "helpful",
+"why": "range shows spread",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.0.1": {
+"hash": "712ced20",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.0.2": {
+"hash": "47a79b86",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.9.0",
+"strength": "essential",
+"why": "anomalous result",
+"confidence": "high"
+},
+{
+"id": "bio2-s3.0.0",
+"strength": "helpful",
+"why": "subjective judgement bias",
+"confidence": "low"
+}
+]
+},
+"bio2-s5.0.3": {
+"hash": "d66a6dd6",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s3.2.b",
+"strength": "essential",
+"why": "random error",
+"confidence": "high"
+},
+{
+"id": "bio2-s3.3.b",
+"strength": "essential",
+"why": "systematic error",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.0.4": {
+"hash": "eb9000a1",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.5.2",
+"strength": "helpful",
+"why": "spread of repeats shows repeatability",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.2.0",
+"strength": "helpful",
+"why": "fair test",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.0.5": {
+"hash": "b02dc501",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "helpful",
+"why": "independent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.0.6": {
+"hash": "bccf0d8d",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.1.b": {
+"hash": "43a74b83",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.1.0": {
+"hash": "ec3b0495",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.6.1",
+"strength": "helpful",
+"why": "colorimeter measures objectively",
+"confidence": "high"
+},
+{
+"id": "bio2-s3.2.5",
+"strength": "helpful",
+"why": "reducing random error",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.1.1": {
+"hash": "4a833b4b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.1.4",
+"strength": "essential",
+"why": "closer intervals locate optimum",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.1.2": {
+"hash": "bc9f2556",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.5.1",
+"strength": "essential",
+"why": "replicates",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.1.3": {
+"hash": "a9947af9",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s3.3.1",
+"strength": "essential",
+"why": "calibration and systematic error",
+"confidence": "high"
+},
+{
+"id": "bio2-s3.3.b",
+"strength": "helpful",
+"why": "systematic error",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.1.4": {
+"hash": "42c4170c",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.2.b": {
+"hash": "0290db40",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.2.0": {
+"hash": "202f0f0f",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.2.1": {
+"hash": "13185195",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.2.2": {
+"hash": "5ed65bc7",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.1.4",
+"strength": "helpful",
+"why": "raw data recording",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.2.3": {
+"hash": "a1ab5d83",
+"cost": 2,
+"needs": []
+},
+"bio2-s5.2.4": {
+"hash": "e801c3a4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.9.4",
+"strength": "helpful",
+"why": "unexpected results and hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.3.b": {
+"hash": "997ee415",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.3.0": {
+"hash": "17c1d82c",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.3.1": {
+"hash": "c967e487",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.3.2": {
+"hash": "74667beb",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.3.3": {
+"hash": "e93db7e8",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.3.4": {
+"hash": "069ef3c8",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.3.5": {
+"hash": "18f3d503",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.6.0",
+"strength": "helpful",
+"why": "describing a trend",
+"confidence": "high"
+},
+{
+"id": "bio2-s4.9.0",
+"strength": "helpful",
+"why": "anomalous result",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.3.6": {
+"hash": "9cae3394",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.10.0",
+"strength": "helpful",
+"why": "conclusion",
+"confidence": "high"
+},
+{
+"id": "bio2-s5.0.1",
+"strength": "helpful",
+"why": "limitations",
+"confidence": "high"
+},
+{
+"id": "bio2-s5.1.0",
+"strength": "helpful",
+"why": "improvements",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.3.7": {
+"hash": "d0abd352",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.2.0",
+"strength": "helpful",
+"why": "fair test",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.5.4",
+"strength": "helpful",
+"why": "sample size and randomness",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.2.1",
+"strength": "helpful",
+"why": "control",
+"confidence": "high"
+},
+{
+"id": "bio2-s4.8.0",
+"strength": "helpful",
+"why": "correlation vs cause",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.9.3",
+"strength": "helpful",
+"why": "human ethics",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.4.b": {
+"hash": "3ce8af87",
+"cost": 1,
+"needs": []
+},
+"bio2-s5.4.0": {
+"hash": "588959fd",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.0.1",
+"strength": "essential",
+"why": "independent variable",
+"confidence": "high"
+},
+{
+"id": "bio2-s2.0.2",
+"strength": "essential",
+"why": "dependent variable",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.4.1": {
+"hash": "b3035675",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.0.3",
+"strength": "essential",
+"why": "controlled variables",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.4.2": {
+"hash": "5b5756ab",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.2.1",
+"strength": "essential",
+"why": "control definition",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.4.3": {
+"hash": "07ccd04e",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.5.4",
+"strength": "essential",
+"why": "random sample reliability",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.4.4": {
+"hash": "c2c5975d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.9.3",
+"strength": "essential",
+"why": "informed consent and withdrawal",
+"confidence": "high"
+}
+]
+},
+"bio2-s5.4.5": {
+"hash": "c628b29e",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s5.3.4",
+"strength": "helpful",
+"why": "step 5 prediction",
+"confidence": "high"
+}
+]
+},
+"bio2-s6.0.b": {
+"hash": "000b7298",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.0.0": {
+"hash": "48c5c4c4",
+"cost": 2,
+"needs": []
+},
+"bio2-s6.0.1": {
+"hash": "1868e83d",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s6.0.0",
+"strength": "helpful",
+"why": "section order continues from earlier list",
+"confidence": "high"
+}
+]
+},
+"bio2-s6.0.2": {
+"hash": "fc4fb983",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.0.3": {
+"hash": "f7552b1a",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.0.4": {
+"hash": "6ed8c6e3",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.0.1",
+"strength": "helpful",
+"why": "analysis and conclusion sections",
+"confidence": "low"
+}
+]
+},
+"bio2-s6.1.b": {
+"hash": "d0cc9d9f",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.1.0": {
+"hash": "29dc42e0",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.1.1": {
+"hash": "188c205b",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.1.2": {
+"hash": "ce2fbd15",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.1.3": {
+"hash": "e05c0c5b",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.1.4": {
+"hash": "d548aad4",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.0.1",
+"strength": "helpful",
+"why": "full report contents",
+"confidence": "low"
+}
+]
+},
+"bio2-s6.2.b": {
+"hash": "74aa8455",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.2.0": {
+"hash": "88e06769",
+"cost": 2,
+"needs": []
+},
+"bio2-s6.2.1": {
+"hash": "3e4ad664",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.2.2": {
+"hash": "2f982adb",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.2.3": {
+"hash": "149c9e68",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.2.4": {
+"hash": "a71e0ee9",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.3.b": {
+"hash": "ff0b2b88",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.3.0": {
+"hash": "67405290",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.4.b",
+"strength": "helpful",
+"why": "graph types",
+"confidence": "high"
+}
+]
+},
+"bio2-s6.3.1": {
+"hash": "d8e0cd4d",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.3.2": {
+"hash": "cde47c95",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.3.3": {
+"hash": "5e5959e2",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.3.4": {
+"hash": "4106e9a3",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.4.b": {
+"hash": "d153d801",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.4.0": {
+"hash": "2df0a10e",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.9.3",
+"strength": "helpful",
+"why": "reporting anomalous results honestly",
+"confidence": "high"
+}
+]
+},
+"bio2-s6.4.1": {
+"hash": "fd5d84e2",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.4.2": {
+"hash": "4778075d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.4.1",
+"strength": "essential",
+"why": "what a reference contains",
+"confidence": "high"
+}
+]
+},
+"bio2-s6.4.3": {
+"hash": "03e680d4",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.4.4": {
+"hash": "95ea019c",
+"cost": 1,
+"needs": []
+},
+"bio2-s6.4.5": {
+"hash": "e78963fa",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.0.b": {
+"hash": "0a37887a",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.0.0": {
+"hash": "a092d007",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.0.1": {
+"hash": "1078c968",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.0.2": {
+"hash": "0710942b",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.0.3": {
+"hash": "e256b43b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.6",
+"strength": "helpful",
+"why": "primary data",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.0.4": {
+"hash": "738df97b",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.1.b": {
+"hash": "80d08459",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.1.0": {
+"hash": "003a5502",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.1.1": {
+"hash": "ace554e1",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.1.2": {
+"hash": "4d5d8a76",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.1.3": {
+"hash": "8f4a935c",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.1.4": {
+"hash": "d4b0da18",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.1.5": {
+"hash": "986deed9",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.4.0",
+"strength": "helpful",
+"why": "honest reporting of results",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.2.b": {
+"hash": "03e41171",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.2.0": {
+"hash": "5fa35719",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.2.1": {
+"hash": "0769d3fd",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.2.2": {
+"hash": "dab6201f",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.2.3": {
+"hash": "e9101f4f",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.2.4": {
+"hash": "6f8b9f00",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.2.5": {
+"hash": "002ccc56",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.3.b": {
+"hash": "cb838bde",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.3.0": {
+"hash": "86019bea",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.0.6",
+"strength": "helpful",
+"why": "secondary data",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.3.1": {
+"hash": "34737cd0",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.8.1",
+"strength": "helpful",
+"why": "reliable sources",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.3.2": {
+"hash": "ca64bbb2",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.10.0",
+"strength": "helpful",
+"why": "plan structure, hypothesis",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.3.3": {
+"hash": "3a042393",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.3.4": {
+"hash": "2393fd9a",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s7.3.2",
+"strength": "helpful",
+"why": "experiment as evidence",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.3.5": {
+"hash": "c8442b1b",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.0.0",
+"strength": "helpful",
+"why": "report sections",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.3.6": {
+"hash": "0196e0af",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.4.b": {
+"hash": "1427ccbc",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.4.0": {
+"hash": "5ee86ed9",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.4.1": {
+"hash": "9e713ffd",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.4.2": {
+"hash": "0cf6563e",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.0.6",
+"strength": "helpful",
+"why": "scientists contribute to society",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.4.3": {
+"hash": "70c764f8",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.1.0",
+"strength": "helpful",
+"why": "communicating for an audience",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.5.b": {
+"hash": "f0cd881b",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.5.0": {
+"hash": "7d297fbe",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.0.0",
+"strength": "helpful",
+"why": "report sections",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.5.1": {
+"hash": "e2dbb7f7",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.10.0",
+"strength": "helpful",
+"why": "designing a plan",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.5.2": {
+"hash": "28978403",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.10.0",
+"strength": "helpful",
+"why": "drawing conclusions",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.5.3": {
+"hash": "0ebf808c",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.6.b": {
+"hash": "d78a5f58",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.6.0": {
+"hash": "48126ea5",
+"cost": 2,
+"needs": []
+},
+"bio2-s7.6.1": {
+"hash": "58210242",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.6.2": {
+"hash": "5f50dea8",
+"cost": 2,
+"needs": []
+},
+"bio2-s7.6.3": {
+"hash": "108de36d",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s6.4.1",
+"strength": "helpful",
+"why": "referencing sources",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.6.4": {
+"hash": "5542f454",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.7.b": {
+"hash": "b388f53b",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.7.0": {
+"hash": "03beb64c",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.10.0",
+"strength": "helpful",
+"why": "testable hypothesis",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.7.1": {
+"hash": "53586d2a",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.7.2": {
+"hash": "26d9333c",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.8.b": {
+"hash": "154bd782",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.8.0": {
+"hash": "141deb65",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.8.1": {
+"hash": "353a0d5b",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.8.2": {
+"hash": "5c9370c5",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.9.b": {
+"hash": "d4f46d3a",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.9.0": {
+"hash": "197903ae",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s2.3.3",
+"strength": "helpful",
+"why": "valid conclusions",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.9.1": {
+"hash": "8ecd750c",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s2.4.0",
+"strength": "helpful",
+"why": "error in measurement",
+"confidence": "low"
+}
+]
+},
+"bio2-s7.9.2": {
+"hash": "2be7dc16",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.10.b": {
+"hash": "8bc994bd",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.10.0": {
+"hash": "5de328f8",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.10.1": {
+"hash": "9980f206",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.10.2": {
+"hash": "e15fc565",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.11.b": {
+"hash": "cd0693b1",
+"cost": 1,
+"needs": []
+},
+"bio2-s7.11.0": {
+"hash": "af6bb048",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s7.7.0",
+"strength": "essential",
+"why": "descriptor wording compared",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.11.1": {
+"hash": "b21bf1fe",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s7.7.0",
+"strength": "helpful",
+"why": "high-level hypothesis descriptor",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.11.2": {
+"hash": "fa4d46df",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s7.9.0",
+"strength": "helpful",
+"why": "evaluating sources of error",
+"confidence": "high"
+}
+]
+},
+"bio2-s7.11.3": {
+"hash": "b97420ee",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s7.10.0",
+"strength": "helpful",
+"why": "fourth descriptor",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.0.b": {
+"hash": "5891f747",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.0.0": {
+"hash": "218f1a04",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.0.1": {
+"hash": "644a8d0d",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.0",
+"strength": "helpful",
+"why": "evidence tests a claim",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.0.2": {
+"hash": "4cbfd9a5",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.0",
+"strength": "helpful",
+"why": "what evidence is",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.0.3": {
+"hash": "3880e020",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.2",
+"strength": "essential",
+"why": "relevance to a claim",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.0.4": {
+"hash": "e5e87ae5",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.0.5": {
+"hash": "d33c1303",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.4",
+"strength": "helpful",
+"why": "accuracy of evidence",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.0.6": {
+"hash": "ad930d9a",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s3.5.0",
+"strength": "essential",
+"why": "types of bias",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.1.b": {
+"hash": "a595cd32",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.1.0": {
+"hash": "6516393c",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.1.1": {
+"hash": "bd4bdf65",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.1.2": {
+"hash": "09b6a535",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.2",
+"strength": "helpful",
+"why": "relevance of lab studies",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.1.3": {
+"hash": "8c7ede0e",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.8.0",
+"strength": "helpful",
+"why": "correlation is not causation",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.1.4": {
+"hash": "d177fc92",
+"cost": 2,
+"needs": [
+{
+"id": "bio2-s4.8.3",
+"strength": "helpful",
+"why": "controlled experiment",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.1.5": {
+"hash": "79c13d04",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s1.1.4",
+"strength": "essential",
+"why": "builds on study types",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.1.6": {
+"hash": "82a5da33",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.1.7": {
+"hash": "cbb4f596",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.1.6",
+"strength": "essential",
+"why": "consensus",
+"confidence": "high"
+},
+{
+"id": "bio3-s1.0.4",
+"strength": "helpful",
+"why": "reproduction of results",
+"confidence": "low"
+}
+]
+},
+"bio3-s1.2.b": {
+"hash": "4e164da6",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.2.0": {
+"hash": "0ecf43d5",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.8.0",
+"strength": "essential",
+"why": "correlation",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.2.1": {
+"hash": "52155911",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s1.2.0",
+"strength": "essential",
+"why": "correlation vs causation",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.2.2": {
+"hash": "cfc99d6e",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.2.1",
+"strength": "essential",
+"why": "criteria for causal link",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.2.3": {
+"hash": "2eded9a3",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.2.1",
+"strength": "essential",
+"why": "causal tests applied",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.2.4": {
+"hash": "4e9d54b3",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.2.5": {
+"hash": "53fef673",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.1.4",
+"strength": "helpful",
+"why": "control group",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.2.6": {
+"hash": "5cd34e23",
+"cost": 2,
+"needs": []
+},
+"bio3-s1.2.7": {
+"hash": "c63d23e7",
+"cost": 1,
+"needs": [
+{
+"id": "bio2-s4.7.1",
+"strength": "essential",
+"why": "extrapolation",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.3.b": {
+"hash": "4a7afdd3",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.3.0": {
+"hash": "4c66d5e1",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.3.1": {
+"hash": "b0b66706",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.3.2": {
+"hash": "cdc50ca8",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s1.1.6",
+"strength": "essential",
+"why": "scientific consensus",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.3.3": {
+"hash": "cae56b29",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.3.4": {
+"hash": "c978f833",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s1.3.3",
+"strength": "essential",
+"why": "misinformation, disinformation",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.3.5": {
+"hash": "1a8ea10a",
+"cost": 2,
+"needs": []
+},
+"bio3-s1.3.6": {
+"hash": "ad7d1045",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.3.7": {
+"hash": "939ade0c",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s1.1.b",
+"strength": "helpful",
+"why": "study types",
+"confidence": "low"
+}
+]
+},
+"bio3-s1.4.b": {
+"hash": "742910a6",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.b",
+"strength": "helpful",
+"why": "relevance, accuracy, bias",
+"confidence": "low"
+}
+]
+},
+"bio3-s1.4.0": {
+"hash": "31a427aa",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.1",
+"strength": "essential",
+"why": "claim",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.4.1": {
+"hash": "109dcd9b",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.2.1",
+"strength": "helpful",
+"why": "peer review",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.4.2": {
+"hash": "4554841e",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.2",
+"strength": "essential",
+"why": "relevance",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.4.3": {
+"hash": "779e90d3",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s1.1.b",
+"strength": "helpful",
+"why": "ranking study types",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.4.4": {
+"hash": "8100db77",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s1.2.0",
+"strength": "essential",
+"why": "correlation vs causation",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.4.5": {
+"hash": "ee6a33ec",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.6",
+"strength": "essential",
+"why": "types of bias",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.4.6": {
+"hash": "c150dd76",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.1.6",
+"strength": "essential",
+"why": "consensus",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.4.7": {
+"hash": "dfabd71f",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.5.b": {
+"hash": "98b5ade1",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.5.0": {
+"hash": "38d2285c",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.0.1",
+"strength": "helpful",
+"why": "claim",
+"confidence": "low"
+}
+]
+},
+"bio3-s1.5.1": {
+"hash": "c8ea10d0",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.2.5",
+"strength": "essential",
+"why": "no control group",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.5.2": {
+"hash": "a3ab28f8",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.5.1",
+"strength": "essential",
+"why": "conflict of interest",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.5.3": {
+"hash": "a4e2284c",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.3.2",
+"strength": "essential",
+"why": "false balance",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.5.4": {
+"hash": "134523ed",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.5.5": {
+"hash": "c56d7fb6",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.5.6": {
+"hash": "f4797486",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.5.7": {
+"hash": "cff91498",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s3.2.1",
+"strength": "helpful",
+"why": "peer review",
+"confidence": "high"
+}
+]
+},
+"bio3-s1.6.b": {
+"hash": "c55a2036",
+"cost": 1,
+"needs": []
+},
+"bio3-s1.6.0": {
+"hash": "21684ab7",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s1.4.b",
+"strength": "helpful",
+"why": "evaluation checklist",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.0.b": {
+"hash": "827eb824",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.0.0": {
+"hash": "33637186",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.0.1": {
+"hash": "54c7df3c",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.0.0",
+"strength": "helpful",
+"why": "discovery contrasted with invention",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.0.2": {
+"hash": "514c4244",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.0.0",
+"strength": "essential",
+"why": "discovery defined",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.0.1",
+"strength": "essential",
+"why": "invention defined",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.0.3": {
+"hash": "6bdf1004",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.0.4": {
+"hash": "52c0a119",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.0.3",
+"strength": "essential",
+"why": "basic research",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.0.5": {
+"hash": "fcafb319",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s2.0.5",
+"strength": "helpful",
+"why": "international research funding",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.0.6": {
+"hash": "b50d0e77",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.5.1",
+"strength": "helpful",
+"why": "Rachel Carson warning",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.1.b": {
+"hash": "16eb9d67",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.1.0": {
+"hash": "87efd54a",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.1.1": {
+"hash": "48badad1",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.1.0",
+"strength": "helpful",
+"why": "economic factor",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.1.2": {
+"hash": "8ff4b4d0",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.1.3": {
+"hash": "f36811a1",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.1.4": {
+"hash": "cd8dbddb",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.1.3",
+"strength": "essential",
+"why": "sustainability defined",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.1.5": {
+"hash": "041ede84",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "ethical principles",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.1.6": {
+"hash": "d57d1d6c",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.1.5",
+"strength": "essential",
+"why": "ethical factor",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.2.b": {
+"hash": "f8879a59",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.1.5",
+"strength": "helpful",
+"why": "ethical factor",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.2.0": {
+"hash": "53565ee1",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.2.1": {
+"hash": "e30263a0",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.2.2": {
+"hash": "09b3351a",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.2.3": {
+"hash": "3a781f79",
+"cost": 1,
+"needs": [
+{
+"id": "bio1-s2.2.6",
+"strength": "essential",
+"why": "Declaration of Helsinki",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.3.b": {
+"hash": "eb2842ea",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.3.0": {
+"hash": "fa55096a",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.3.1": {
+"hash": "fe99a390",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.3.0",
+"strength": "essential",
+"why": "Fleming discovery",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.3.2": {
+"hash": "8b85a200",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.3.0",
+"strength": "essential",
+"why": "Fleming discovery",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.3.1",
+"strength": "essential",
+"why": "Florey and Chain work",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.0.0",
+"strength": "helpful",
+"why": "discovery vs invention",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.3.3": {
+"hash": "b6fc12de",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.3.4": {
+"hash": "5780fea9",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.3.5": {
+"hash": "06c5ddb3",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.1.3",
+"strength": "helpful",
+"why": "sustainability factor",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.3.6": {
+"hash": "9966105c",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.3.5",
+"strength": "essential",
+"why": "antibiotic resistance",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.1.5",
+"strength": "helpful",
+"why": "ethical factor",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.3.7": {
+"hash": "2c73fc1b",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.4.b": {
+"hash": "debb7e78",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.4.0": {
+"hash": "7a23f6dd",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.4.1": {
+"hash": "875c1988",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.4.0",
+"strength": "helpful",
+"why": "insulin discovery",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.4.2": {
+"hash": "84141435",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.4.0",
+"strength": "helpful",
+"why": "insulin discoverers",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.4.3": {
+"hash": "2b9a6485",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.4.4": {
+"hash": "48bb597c",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.4.5": {
+"hash": "dd1ff5c1",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.4.3",
+"strength": "essential",
+"why": "bacteria-made human insulin",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.4.6": {
+"hash": "6616efad",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.2.1",
+"strength": "essential",
+"why": "3Rs",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "justice principle",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.4.7": {
+"hash": "e20d91ca",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.5.b": {
+"hash": "a095214e",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.5.0": {
+"hash": "8509d061",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.5.1": {
+"hash": "4ed1144b",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.5.0",
+"strength": "helpful",
+"why": "DDT harms",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.5.2": {
+"hash": "66493397",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.5.3": {
+"hash": "04fd53fc",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.5.0",
+"strength": "helpful",
+"why": "DDT uses",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.5.4": {
+"hash": "a176a9f0",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.5.5": {
+"hash": "1bc29348",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.5.2",
+"strength": "essential",
+"why": "DDT build-up in food chains",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.5.6": {
+"hash": "cff813bf",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.2.2",
+"strength": "essential",
+"why": "precautionary principle",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.5.5",
+"strength": "helpful",
+"why": "DDT harm to wildlife",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.5.7": {
+"hash": "c3a9b3e9",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.6.b": {
+"hash": "51e6bfee",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.6.0": {
+"hash": "22cff8e4",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.6.1": {
+"hash": "7a1c5369",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.6.0",
+"strength": "helpful",
+"why": "Campbell at Merck",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.6.2": {
+"hash": "2b5551e5",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.6.3": {
+"hash": "16af601f",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.6.1",
+"strength": "helpful",
+"why": "Campbell and Ōmura",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.6.4": {
+"hash": "dac901b6",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.6.5": {
+"hash": "158efab7",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.6.6": {
+"hash": "c0c72996",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.6.7": {
+"hash": "4b6d9135",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.7.b": {
+"hash": "b08ee587",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.7.0": {
+"hash": "8ecfcdfc",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.7.1": {
+"hash": "c5e1d55d",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.7.0",
+"strength": "essential",
+"why": "thalidomide use",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.7.2": {
+"hash": "e625f200",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.7.1",
+"strength": "helpful",
+"why": "safety evidence of harm",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.7.3": {
+"hash": "6706fc58",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.7.4": {
+"hash": "ac6a8d00",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.7.5": {
+"hash": "add3c983",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.7.1",
+"strength": "helpful",
+"why": "thalidomide birth defects",
+"confidence": "low"
+}
+]
+},
+"bio3-s2.7.6": {
+"hash": "1099bd52",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.7.7": {
+"hash": "b36a516e",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.8.b": {
+"hash": "606fe2c5",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.8.0": {
+"hash": "b29295c1",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.8.1": {
+"hash": "b2825bb8",
+"cost": 2,
+"needs": []
+},
+"bio3-s2.8.2": {
+"hash": "693e9311",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.1.b",
+"strength": "essential",
+"why": "four impact factors",
+"confidence": "high"
+}
+]
+},
+"bio3-s2.8.3": {
+"hash": "5ed0083a",
+"cost": 1,
+"needs": []
+},
+"bio3-s2.8.4": {
+"hash": "b0f9b0bf",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.0.b": {
+"hash": "930d6f31",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.0.0": {
+"hash": "6dffbece",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.0.1": {
+"hash": "c53d756d",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.0",
+"strength": "essential",
+"why": "themes as lenses",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.0.2": {
+"hash": "6b870341",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.1",
+"strength": "helpful",
+"why": "lens applied to a topic",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.0.3": {
+"hash": "017e8143",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.0",
+"strength": "helpful",
+"why": "themes the exam asks about",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.1.b": {
+"hash": "1ff1170b",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.1",
+"strength": "helpful",
+"why": "lens idea",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.1.0": {
+"hash": "78c6bbb1",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.1.1": {
+"hash": "c9c36031",
+"cost": 2,
+"needs": []
+},
+"bio3-s3.1.2": {
+"hash": "e8fbb18b",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.1.3": {
+"hash": "05c567db",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.1.2",
+"strength": "helpful",
+"why": "cancer causes and prevention",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.1.4": {
+"hash": "b7b5d1a2",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.2.b": {
+"hash": "6252d25b",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.1.b",
+"strength": "helpful",
+"why": "Health lens",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.2.0": {
+"hash": "babbe889",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.2.1": {
+"hash": "3f4f5603",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.2.2": {
+"hash": "cfde03af",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.2.3": {
+"hash": "331bc187",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.2.4": {
+"hash": "137fb9c1",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.3.b": {
+"hash": "fbbb1352",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.1",
+"strength": "helpful",
+"why": "lens idea",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.3.0": {
+"hash": "a88240ed",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.3.b",
+"strength": "helpful",
+"why": "sustainability context",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.3.1": {
+"hash": "c4c2bc77",
+"cost": 2,
+"needs": []
+},
+"bio3-s3.3.2": {
+"hash": "991e99d9",
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s3.3.1",
+"strength": "helpful",
+"why": "nutrient cycling context",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.3.3": {
+"hash": "72c03ca4",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.4.b": {
+"hash": "b4891a5a",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.3.b",
+"strength": "helpful",
+"why": "Sustainability lens",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.4.0": {
+"hash": "9b1f80f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.3.1",
+"strength": "helpful",
+"why": "carbon sink idea",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.4.1": {
+"hash": "165119f8",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.4.2": {
+"hash": "580955b1",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.5.b": {
+"hash": "ed5db60a",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.1",
+"strength": "helpful",
+"why": "lens idea",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.5.0": {
+"hash": "0207861d",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.5.1": {
+"hash": "2e2dc100",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.5.2": {
+"hash": "0b18b84b",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.5.3": {
+"hash": "51e2d302",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.6.b": {
+"hash": "724db1ff",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.5.0",
+"strength": "essential",
+"why": "biotechnology definition",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.6.0": {
+"hash": "83f8e002",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.2.4",
+"strength": "helpful",
+"why": "insulin as hormone",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.6.1": {
+"hash": "e22782bb",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.6.2": {
+"hash": "e4458c50",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.4.1",
+"strength": "helpful",
+"why": "enzymes as catalysts",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.6.3": {
+"hash": "8c0f7b78",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.6.4": {
+"hash": "b8396f2b",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.6.5": {
+"hash": "b2e3bb95",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.7.b": {
+"hash": "4d6a7c09",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.7.0": {
+"hash": "db50be5b",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.7.1": {
+"hash": "1f27cf4f",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.8.b": {
+"hash": "f15ef8b6",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.3",
+"strength": "helpful",
+"why": "exam uses stimulus material",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.8.0": {
+"hash": "19fc2a50",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.8.1": {
+"hash": "5b415f2a",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.0",
+"strength": "essential",
+"why": "the three themes",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.8.2": {
+"hash": "7cde666b",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.8.3": {
+"hash": "4125a7f4",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.0.3",
+"strength": "helpful",
+"why": "stimulus data in questions",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.8.4": {
+"hash": "ab97de28",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.8.5": {
+"hash": "5163992a",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.8.1",
+"strength": "helpful",
+"why": "themes identified earlier",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.9.b": {
+"hash": "35ab33d0",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.8.b",
+"strength": "essential",
+"why": "the six-step method",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.9.0": {
+"hash": "dc88a535",
+"cost": 2,
+"needs": []
+},
+"bio3-s3.9.1": {
+"hash": "6afcb061",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.9.0",
+"strength": "helpful",
+"why": "resistance arises by selection",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.9.2": {
+"hash": "5b78f2ca",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.9.0",
+"strength": "helpful",
+"why": "resistance arises by selection",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.9.3": {
+"hash": "29a32c38",
+"cost": 1,
+"needs": []
+},
+"bio3-s3.9.4": {
+"hash": "87600f59",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.9.2",
+"strength": "helpful",
+"why": "overuse drives resistance",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.10.b": {
+"hash": "8657d5c1",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.8.b",
+"strength": "helpful",
+"why": "the method",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.10.0": {
+"hash": "f55a27ec",
+"cost": 2,
+"needs": []
+},
+"bio3-s3.10.1": {
+"hash": "6e03d6d6",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.10.0",
+"strength": "essential",
+"why": "peat stores carbon",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.10.2": {
+"hash": "4f033b45",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.10.1",
+"strength": "helpful",
+"why": "drained bogs lose carbon",
+"confidence": "high"
+}
+]
+},
+"bio3-s3.10.3": {
+"hash": "b663ced8",
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s3.10.1",
+"strength": "helpful",
+"why": "what is monitored",
+"confidence": "low"
+}
+]
+},
+"bio3-s3.10.4": {
+"hash": "af6e9e02",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.0.b": {
+"hash": "09c1c794",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.0.0": {
+"hash": "ee722496",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.0.1": {
+"hash": "e7117208",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.0.2": {
+"hash": "93c3ba68",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.0.0",
+"strength": "helpful",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.0.3": {
+"hash": "04919d9a",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.0.0",
+"strength": "helpful",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.0.4": {
+"hash": "5f4a559c",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.0.0",
+"strength": "helpful",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.0.5": {
+"hash": "4b109b48",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.0.0",
+"strength": "helpful",
+"why": "what a model is",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.1.b": {
+"hash": "8c1b3585",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.1.0": {
+"hash": "7836f4ae",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.1.1": {
+"hash": "4fc7a5df",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.1.2": {
+"hash": "9e7f378c",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.1.3": {
+"hash": "9b01eae9",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.1.4": {
+"hash": "c77502a1",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.1.5": {
+"hash": "8fbb9727",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.1.6": {
+"hash": "a5fef9d0",
+"cost": 2,
+"needs": []
+},
+"bio4-s1.1.7": {
+"hash": "92511ef9",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.1.6",
+"strength": "essential",
+"why": "model organisms",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.2.b": {
+"hash": "4cdec5c5",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.2.0": {
+"hash": "bdf94265",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.2.1": {
+"hash": "52b47776",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.2.2": {
+"hash": "ba1b84ad",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.4.0",
+"strength": "helpful",
+"why": "lock-and-key example",
+"confidence": "low"
+}
+]
+},
+"bio4-s1.2.3": {
+"hash": "f532ae13",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.0.5",
+"strength": "helpful",
+"why": "models make predictions",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.2.4": {
+"hash": "6f3cfce7",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.2.3",
+"strength": "helpful",
+"why": "predictions to test",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.2.5": {
+"hash": "92860477",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.2.4",
+"strength": "helpful",
+"why": "testing predictions",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.3.b": {
+"hash": "67afef2d",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.3.0": {
+"hash": "ec32f9f9",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.0.3",
+"strength": "helpful",
+"why": "model assumptions",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.3.1": {
+"hash": "7b3d104f",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.3.0",
+"strength": "helpful",
+"why": "evaluation questions",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.3.2": {
+"hash": "46ea7e19",
+"cost": 2,
+"needs": [
+{
+"id": "bio1-s1.9.0",
+"strength": "essential",
+"why": "definition of a theory",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.3.3": {
+"hash": "14f71da0",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.4.b": {
+"hash": "490a31bf",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.4.0": {
+"hash": "903efe08",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.4.b",
+"strength": "essential",
+"why": "active site, enzyme",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.4.1": {
+"hash": "ef4e6f13",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.4.0",
+"strength": "essential",
+"why": "rigid lock-and-key active site",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.4.2": {
+"hash": "dc780c88",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.4.1",
+"strength": "essential",
+"why": "enzymes changing shape",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.4.3": {
+"hash": "24d32c5c",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.4.1",
+"strength": "helpful",
+"why": "shape change on binding",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.4.4": {
+"hash": "2de9b3b4",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.4.3",
+"strength": "essential",
+"why": "induced-fit mechanism",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.4.5": {
+"hash": "140c2678",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.4.3",
+"strength": "essential",
+"why": "induced-fit model",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.4.6": {
+"hash": "6ff0e44b",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.4.3",
+"strength": "helpful",
+"why": "induced-fit stages",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.5.b": {
+"hash": "aa6241be",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.5.0": {
+"hash": "8e564598",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.5.1": {
+"hash": "d78eae55",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.5.0",
+"strength": "essential",
+"why": "sandwich model of membrane",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.5.2": {
+"hash": "494f0c9e",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.5.1",
+"strength": "helpful",
+"why": "evidence against sandwich model",
+"confidence": "low"
+}
+]
+},
+"bio4-s1.6.b": {
+"hash": "1c2fcda6",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.5.0",
+"strength": "helpful",
+"why": "earlier sandwich model",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.0": {
+"hash": "b20dcec6",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.5.0",
+"strength": "helpful",
+"why": "phospholipid bilayer",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.1": {
+"hash": "e66a5b9a",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.6.0",
+"strength": "essential",
+"why": "bilayer structure",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.2": {
+"hash": "c7a62266",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.6.0",
+"strength": "helpful",
+"why": "membrane structure",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.3": {
+"hash": "1c418a82",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.6.1",
+"strength": "essential",
+"why": "channel and carrier proteins",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.4": {
+"hash": "52f26bb4",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.6.0",
+"strength": "essential",
+"why": "fluid bilayer",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.5": {
+"hash": "48f777d0",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.6.1",
+"strength": "helpful",
+"why": "fluid mosaic proteins",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.6": {
+"hash": "5ce370cc",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.6.1",
+"strength": "helpful",
+"why": "protein distribution in membrane",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.6.7": {
+"hash": "1e17311e",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.6.0",
+"strength": "helpful",
+"why": "bilayer heads and tails",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.7.b": {
+"hash": "bb869c74",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.7.0": {
+"hash": "d608f022",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.7.1": {
+"hash": "7b562c36",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.7.0",
+"strength": "helpful",
+"why": "Watson and Crick model",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.7.2": {
+"hash": "9b771c0b",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.7.3",
+"strength": "helpful",
+"why": "base pairing",
+"confidence": "low"
+}
+]
+},
+"bio4-s1.7.3": {
+"hash": "d781f551",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.7.2",
+"strength": "helpful",
+"why": "Chargaff base ratios",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.7.4": {
+"hash": "dffe687b",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.7.3",
+"strength": "essential",
+"why": "complementary base pairing",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.7.5": {
+"hash": "f8c4df12",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.7.4",
+"strength": "essential",
+"why": "DNA copying prediction",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.7.6": {
+"hash": "7714a3e5",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.7.3",
+"strength": "helpful",
+"why": "DNA model structure",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.7.7": {
+"hash": "fdb3e245",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.8.b": {
+"hash": "f68de32a",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.8.0": {
+"hash": "9aeb36e9",
+"cost": 2,
+"needs": []
+},
+"bio4-s1.8.1": {
+"hash": "49a9a095",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.8.0",
+"strength": "essential",
+"why": "bell-jar model parts",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.8.2": {
+"hash": "a3da6e74",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.8.0",
+"strength": "helpful",
+"why": "bell-jar model",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.8.3": {
+"hash": "1970a5b9",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.8.4": {
+"hash": "eca1e111",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.8.3",
+"strength": "helpful",
+"why": "Punnett square",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.8.5": {
+"hash": "d97cb815",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.8.3",
+"strength": "essential",
+"why": "Punnett square",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.9.b": {
+"hash": "6d6af9fd",
+"cost": 1,
+"needs": []
+},
+"bio4-s1.9.0": {
+"hash": "69ac1a92",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.1.1",
+"strength": "helpful",
+"why": "food web diagrams",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.9.1": {
+"hash": "8f610df9",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.1.1",
+"strength": "helpful",
+"why": "cycle diagrams",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.9.2": {
+"hash": "185ad7e0",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.9.1",
+"strength": "helpful",
+"why": "cycle diagrams",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.9.3": {
+"hash": "34f2e7e1",
+"cost": 2,
+"needs": [
+{
+"id": "bio4-s1.1.3",
+"strength": "essential",
+"why": "definition of R0",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.9.4": {
+"hash": "3c6a437a",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.9.3",
+"strength": "essential",
+"why": "R0 disease models",
+"confidence": "high"
+}
+]
+},
+"bio4-s1.9.5": {
+"hash": "9839c158",
+"cost": 1,
+"needs": [
+{
+"id": "bio4-s1.1.1",
+"strength": "helpful",
+"why": "feedback loop flowchart",
+"confidence": "low"
+}
+]
+},
+"bio5-s1.0.b": {
+"hash": "ca6864ce",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.0.0": {
+"hash": "adfe89fc",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.0.b",
+"strength": "helpful",
+"why": "eleven characteristics list",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.0.1": {
+"hash": "61dac161",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.8.0",
+"strength": "helpful",
+"why": "growth characteristic",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.0.2": {
+"hash": "8bbe24d2",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.2",
+"strength": "helpful",
+"why": "cells as basis of life",
+"confidence": "low"
+}
+]
+},
+"bio5-s1.0.3": {
+"hash": "72d78421",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.0.b",
+"strength": "helpful",
+"why": "the full set of characteristics",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.1.b": {
+"hash": "882ee6bf",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.1.0": {
+"hash": "0c9239e7",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.1.1": {
+"hash": "5d749ed9",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.0",
+"strength": "helpful",
+"why": "organisation of tissues and organs",
+"confidence": "low"
+}
+]
+},
+"bio5-s1.1.2": {
+"hash": "7b6ff513",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.1.3": {
+"hash": "a6749176",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.2",
+"strength": "helpful",
+"why": "cells as unit of life",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.1.4": {
+"hash": "729e4696",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.1.2",
+"strength": "helpful",
+"why": "cell as basic unit",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.1.5": {
+"hash": "56d9d3cc",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.2",
+"strength": "helpful",
+"why": "cells as basic unit",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.1.6": {
+"hash": "6839c6ff",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.1.5",
+"strength": "essential",
+"why": "cells arise from pre-existing cells",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.2.b": {
+"hash": "56203487",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.2.0": {
+"hash": "0c1ac040",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.2.1": {
+"hash": "d7feddb6",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.2.0",
+"strength": "essential",
+"why": "nutrition obtaining food",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.2.2": {
+"hash": "5f3378e4",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.2.1",
+"strength": "helpful",
+"why": "autotrophic nutrition",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.2.3": {
+"hash": "e68f5701",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.2.0",
+"strength": "essential",
+"why": "nutrition obtaining food",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.2.4": {
+"hash": "8406b703",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.2.3",
+"strength": "essential",
+"why": "heterotrophic nutrition",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.3.b": {
+"hash": "32509405",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.3.0": {
+"hash": "d5151f84",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.2.0",
+"strength": "helpful",
+"why": "food as energy source",
+"confidence": "low"
+}
+]
+},
+"bio5-s1.3.1": {
+"hash": "156b742a",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.3.0",
+"strength": "essential",
+"why": "respiration releases energy",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.3.2": {
+"hash": "0956b397",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.3.1",
+"strength": "helpful",
+"why": "aerobic respiration for comparison",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.3.3": {
+"hash": "608ce10b",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.3.2",
+"strength": "essential",
+"why": "anaerobic respiration",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.3.4": {
+"hash": "624992ae",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.3.0",
+"strength": "essential",
+"why": "respiration as cell process",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.3.5": {
+"hash": "815acbca",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.3.0",
+"strength": "helpful",
+"why": "respiration needs energy",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.4.b": {
+"hash": "232292ca",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.4.0": {
+"hash": "b57e74a9",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.4.1": {
+"hash": "113b058c",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.4.0",
+"strength": "essential",
+"why": "metabolism reactions",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.4.2": {
+"hash": "99f20767",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.4.0",
+"strength": "essential",
+"why": "metabolism reactions",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.4.3": {
+"hash": "267a9aab",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.4.1",
+"strength": "essential",
+"why": "anabolic reactions",
+"confidence": "high"
+},
+{
+"id": "bio5-s1.4.2",
+"strength": "essential",
+"why": "catabolic reactions",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.5.b": {
+"hash": "6959c09a",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.5.0": {
+"hash": "5a2a0b6f",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.4.0",
+"strength": "essential",
+"why": "metabolism",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.5.1": {
+"hash": "656eed24",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.5.0",
+"strength": "essential",
+"why": "excretion of metabolic waste",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.5.2": {
+"hash": "17168faf",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.5.0",
+"strength": "essential",
+"why": "excretion of metabolic waste",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.5.3": {
+"hash": "a18e39ff",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.5.0",
+"strength": "essential",
+"why": "excretion definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.6.b": {
+"hash": "9328274d",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.6.0": {
+"hash": "6e462338",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.6.1": {
+"hash": "b27f111b",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.6.0",
+"strength": "essential",
+"why": "homeostasis definition",
+"confidence": "high"
+},
+{
+"id": "bio5-s1.4.0",
+"strength": "essential",
+"why": "enzymes control metabolism",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.6.2": {
+"hash": "ae097c6c",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.6.0",
+"strength": "essential",
+"why": "homeostasis definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.7.b": {
+"hash": "bb1263c6",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.7.0": {
+"hash": "e4e3bef1",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.7.1": {
+"hash": "7534f16f",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.7.0",
+"strength": "essential",
+"why": "response to stimulus",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.7.2": {
+"hash": "13bb1a4b",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.7.0",
+"strength": "helpful",
+"why": "response to stimulus",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.7.3": {
+"hash": "bb690347",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.7.4": {
+"hash": "66cc4d14",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.7.3",
+"strength": "essential",
+"why": "reproduction definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.7.5": {
+"hash": "18c71982",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.7.3",
+"strength": "essential",
+"why": "reproduction definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.8.b": {
+"hash": "94747b64",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.8.0": {
+"hash": "60198f37",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.4.1",
+"strength": "essential",
+"why": "anabolism builds materials",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.8.1": {
+"hash": "7ede7514",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.8.0",
+"strength": "helpful",
+"why": "growth definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.8.2": {
+"hash": "96e0f26c",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.4",
+"strength": "helpful",
+"why": "DNA as genetic material",
+"confidence": "low"
+}
+]
+},
+"bio5-s1.8.3": {
+"hash": "ea177e1f",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.8.2",
+"strength": "essential",
+"why": "genes and heredity",
+"confidence": "high"
+},
+{
+"id": "bio5-s1.7.5",
+"strength": "helpful",
+"why": "variation from sexual reproduction",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.9.b": {
+"hash": "0624dd6a",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.9.0": {
+"hash": "f1a20f4c",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.0",
+"strength": "helpful",
+"why": "organisation detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.9.1": {
+"hash": "05fa8de0",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.7.0",
+"strength": "helpful",
+"why": "response detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.9.2": {
+"hash": "574ff728",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.3.0",
+"strength": "helpful",
+"why": "respiration detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.9.3": {
+"hash": "e61a0dc7",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.2.0",
+"strength": "helpful",
+"why": "nutrition detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.9.4": {
+"hash": "dd8f4052",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.5.0",
+"strength": "helpful",
+"why": "excretion detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.9.5": {
+"hash": "04d65a74",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.7.3",
+"strength": "helpful",
+"why": "reproduction detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.10.b": {
+"hash": "586a4150",
+"cost": 1,
+"needs": []
+},
+"bio5-s1.10.0": {
+"hash": "4ed839d9",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.8.0",
+"strength": "helpful",
+"why": "growth detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.10.1": {
+"hash": "7dcee859",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.4.0",
+"strength": "helpful",
+"why": "metabolism detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.10.2": {
+"hash": "69596383",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.6.0",
+"strength": "helpful",
+"why": "homeostasis detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.10.3": {
+"hash": "6f4041ce",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.8.2",
+"strength": "helpful",
+"why": "heredity detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s1.10.4": {
+"hash": "0d682fe5",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.2",
+"strength": "helpful",
+"why": "cellular basis detail",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.0.b": {
+"hash": "ea22c611",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.0.0": {
+"hash": "860b49ec",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.0.1": {
+"hash": "918d7a66",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.0.2": {
+"hash": "d0968cb0",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.2",
+"strength": "helpful",
+"why": "cell as basic unit",
+"confidence": "low"
+}
+]
+},
+"bio5-s2.0.3": {
+"hash": "c4dc7d23",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.2",
+"strength": "helpful",
+"why": "cells as units",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.0.4": {
+"hash": "d82fd8a6",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.3",
+"strength": "essential",
+"why": "tissue definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.0.5": {
+"hash": "38a02097",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.4",
+"strength": "essential",
+"why": "organ definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.0.6": {
+"hash": "d42bb6be",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.5",
+"strength": "essential",
+"why": "organ system definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.0.7": {
+"hash": "18b856d2",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.0.0",
+"strength": "helpful",
+"why": "order of levels",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.1.b": {
+"hash": "87995ef2",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.2",
+"strength": "helpful",
+"why": "specialised cells",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.1.0": {
+"hash": "66afa9bb",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.3",
+"strength": "helpful",
+"why": "unicellular vs multicellular",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.1.1": {
+"hash": "dde55949",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.0.2",
+"strength": "helpful",
+"why": "specialised cells",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.1.2": {
+"hash": "65decf60",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.1.1",
+"strength": "helpful",
+"why": "differentiation",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.1.3": {
+"hash": "5e74ec47",
+"cost": 2,
+"needs": []
+},
+"bio5-s2.1.4": {
+"hash": "a24a927a",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.1.5": {
+"hash": "9a80542e",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.1.6": {
+"hash": "123db995",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.1.7": {
+"hash": "cf8285bf",
+"cost": 2,
+"needs": []
+},
+"bio5-s2.2.b": {
+"hash": "7dc98b0d",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.3",
+"strength": "essential",
+"why": "tissue definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.2.0": {
+"hash": "0dae813a",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.2.1": {
+"hash": "e5178223",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.2.2": {
+"hash": "cec71e70",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.2.3": {
+"hash": "8938973f",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.3.b": {
+"hash": "b3e56431",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.3",
+"strength": "helpful",
+"why": "tissue definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.3.0": {
+"hash": "732210af",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.3.1": {
+"hash": "e49ea74d",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.3.2": {
+"hash": "863eff64",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.3.3": {
+"hash": "a427f67c",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.8.1",
+"strength": "helpful",
+"why": "growth at root and shoot tips",
+"confidence": "low"
+}
+]
+},
+"bio5-s2.3.4": {
+"hash": "2e4fe214",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.4",
+"strength": "essential",
+"why": "organ made of tissues",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.b": {
+"hash": "4623bdd3",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.4",
+"strength": "essential",
+"why": "organ definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.0": {
+"hash": "cdec7ca1",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.2.b",
+"strength": "helpful",
+"why": "animal tissue types",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.1": {
+"hash": "0538a404",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.4",
+"strength": "helpful",
+"why": "organ definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.2": {
+"hash": "6cfe830c",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.5",
+"strength": "essential",
+"why": "organ system definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.3": {
+"hash": "4f9febd7",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.5",
+"strength": "essential",
+"why": "organ system definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.4": {
+"hash": "25c7c0bb",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.5",
+"strength": "essential",
+"why": "organ system definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.5": {
+"hash": "28431eeb",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.0.5",
+"strength": "essential",
+"why": "organ system definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.6": {
+"hash": "54216430",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.0.5",
+"strength": "essential",
+"why": "organ system definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.4.7": {
+"hash": "0ad43c71",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.4.6",
+"strength": "helpful",
+"why": "plant systems",
+"confidence": "low"
+}
+]
+},
+"bio5-s2.5.b": {
+"hash": "3ae67df9",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.5.0": {
+"hash": "42381670",
+"cost": 2,
+"needs": []
+},
+"bio5-s2.5.1": {
+"hash": "440fb38e",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.5.0",
+"strength": "essential",
+"why": "surface area to volume ratio",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.5.2": {
+"hash": "e609ff5c",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.5.0",
+"strength": "essential",
+"why": "surface area to volume ratio",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.5.3": {
+"hash": "58c7d5a8",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.5.0",
+"strength": "essential",
+"why": "falling ratio with size",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.5.4": {
+"hash": "4eb44c22",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s2.5.3",
+"strength": "essential",
+"why": "diffusion too slow",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.5.5": {
+"hash": "b9ab270b",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.6.0",
+"strength": "essential",
+"why": "homeostasis definition",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.5.6": {
+"hash": "0caa72df",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.1.b",
+"strength": "helpful",
+"why": "specialised cells",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.6.b": {
+"hash": "1e7b93a9",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.6.0": {
+"hash": "bd89f497",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.6.1": {
+"hash": "ffa86d38",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.6.2": {
+"hash": "91fb1ec1",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.5.6",
+"strength": "helpful",
+"why": "division of labour",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.6.3": {
+"hash": "bbe2a528",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.6.4": {
+"hash": "18531b5d",
+"cost": 1,
+"needs": []
+},
+"bio5-s2.6.5": {
+"hash": "8940333b",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s2.5.6",
+"strength": "helpful",
+"why": "cells depend on each other",
+"confidence": "high"
+}
+]
+},
+"bio5-s2.6.6": {
+"hash": "225dafc9",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.7.4",
+"strength": "helpful",
+"why": "binary fission in unicellular",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.0.b": {
+"hash": "873ca20d",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.0.0": {
+"hash": "82c954c3",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.0.1": {
+"hash": "7ec202b9",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.4",
+"strength": "helpful",
+"why": "cytoplasm, ribosomes, membrane",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.0.2": {
+"hash": "8b71f17e",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s1.0.1",
+"strength": "essential",
+"why": "viruses lack ribosomes and enzymes",
+"confidence": "high"
+},
+{
+"id": "bio5-s1.3.0",
+"strength": "helpful",
+"why": "ATP as energy carrier",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.1.b": {
+"hash": "87444884",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.1.0": {
+"hash": "1ac2a778",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.1.1": {
+"hash": "c422fafd",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.1.2": {
+"hash": "ec5ae9f2",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s1.1.1",
+"strength": "essential",
+"why": "protein coat of virus",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.1.3": {
+"hash": "379d3abb",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.0.0",
+"strength": "helpful",
+"why": "host cell",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.1.4": {
+"hash": "37cacd5c",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.1.3",
+"strength": "essential",
+"why": "envelope",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.2.b": {
+"hash": "ff6e4a7b",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.2.0": {
+"hash": "197e3150",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.2.1": {
+"hash": "4aea5a16",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.2.2": {
+"hash": "2c5096c7",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.2.3": {
+"hash": "250cd514",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.2.4": {
+"hash": "e03772ba",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.1.3",
+"strength": "helpful",
+"why": "enveloped viruses",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.2.5": {
+"hash": "6b65a7a9",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.2.6": {
+"hash": "eee53897",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s1.2.5",
+"strength": "helpful",
+"why": "bacteriophage structure",
+"confidence": "high"
+},
+{
+"id": "bio6-s1.1.3",
+"strength": "helpful",
+"why": "envelope and spikes",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.3.b": {
+"hash": "02fc3203",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.3.0": {
+"hash": "403c8d7d",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.1.0",
+"strength": "helpful",
+"why": "viral DNA or RNA",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.3.1": {
+"hash": "63065cb7",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.7.3",
+"strength": "helpful",
+"why": "reproduction",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.3.2": {
+"hash": "031993cd",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.8.2",
+"strength": "essential",
+"why": "heredity",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.3.3": {
+"hash": "84283767",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.8.3",
+"strength": "helpful",
+"why": "mutations and variation",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.3.4": {
+"hash": "3622bca8",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.0",
+"strength": "helpful",
+"why": "organisation",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.4.b": {
+"hash": "7de2cdfe",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.4.0": {
+"hash": "034d64e4",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.1.6",
+"strength": "essential",
+"why": "cell theory",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.4.1": {
+"hash": "e64e4a9a",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.4.0",
+"strength": "essential",
+"why": "metabolism",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.4.2": {
+"hash": "deb78034",
+"cost": 1,
+"needs": [
+{
+"id": "bio5-s1.7.0",
+"strength": "helpful",
+"why": "response to stimuli",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.4.3": {
+"hash": "604b2a27",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.0.0",
+"strength": "essential",
+"why": "needs host cell to reproduce",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.4.4": {
+"hash": "ded63a98",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.4.5": {
+"hash": "e7a8cb10",
+"cost": 2,
+"needs": [
+{
+"id": "bio5-s1.0.3",
+"strength": "essential",
+"why": "all characteristics define life",
+"confidence": "high"
+},
+{
+"id": "bio6-s1.4.3",
+"strength": "helpful",
+"why": "inert outside host",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.4.6": {
+"hash": "f3ee0ec3",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.0.0",
+"strength": "helpful",
+"why": "host cell machinery",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.5.b": {
+"hash": "e31254ac",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.5.0": {
+"hash": "1e34164e",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.5.1": {
+"hash": "38bfa953",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.5.0",
+"strength": "helpful",
+"why": "AIDS as viral disease",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.5.2": {
+"hash": "aa8b6746",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.5.3": {
+"hash": "45eb634b",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s1.0.1",
+"strength": "essential",
+"why": "viruses lack ribosomes",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.5.4": {
+"hash": "a34c330a",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.5.3",
+"strength": "helpful",
+"why": "antibiotics don't work",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.5.5": {
+"hash": "8fa76630",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.5.3",
+"strength": "essential",
+"why": "antibiotics don't work on viruses",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.6.b": {
+"hash": "e1ce0ce7",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.6.0": {
+"hash": "2f5eb85e",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.6.1": {
+"hash": "79292897",
+"cost": 2,
+"needs": [
+{
+"id": "bio6-s1.1.2",
+"strength": "helpful",
+"why": "coat attaches to host receptors",
+"confidence": "low"
+}
+]
+},
+"bio6-s1.6.2": {
+"hash": "09567d09",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.6.1",
+"strength": "essential",
+"why": "viral vectors",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.6.3": {
+"hash": "846d724e",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.2.5",
+"strength": "essential",
+"why": "bacteriophages",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.7.b": {
+"hash": "b81baeff",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.7.0": {
+"hash": "f008eea9",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.7.1": {
+"hash": "951e7f03",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.7.2": {
+"hash": "db8b86d3",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.7.3": {
+"hash": "c12cfa64",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.6.1",
+"strength": "essential",
+"why": "viral vectors",
+"confidence": "high"
+}
+]
+},
+"bio6-s1.7.4": {
+"hash": "d22c92ce",
+"cost": 1,
+"needs": []
+},
+"bio6-s1.7.5": {
+"hash": "fcd8fa47",
+"cost": 1,
+"needs": [
+{
+"id": "bio6-s1.6.0",
+"strength": "helpful",
+"why": "vaccines",
+"confidence": "low"
+}
+]
+}
+}

@@ -1,0 +1,401 @@
+{
+ "bio2-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s1.0.0",
+    "strength": "helpful",
+    "why": "questions of value not scientific",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.0.2",
+    "strength": "helpful",
+    "why": "value questions science cannot settle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.0.6",
+    "strength": "helpful",
+    "why": "independent and dependent variables",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.0.4",
+    "strength": "helpful",
+    "why": "narrowing a broad question",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.0.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio2-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s1.2.0",
+    "strength": "helpful",
+    "why": "stages of scientific method",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s1.8.0",
+    "strength": "helpful",
+    "why": "hypothesis definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "essential",
+    "why": "what a hypothesis is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "helpful",
+    "why": "hypothesis explains, prediction follows",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.1.3",
+    "strength": "essential",
+    "why": "what a prediction is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "essential",
+    "why": "hypothesis as explanation",
+    "confidence": "high"
+   },
+   {
+    "id": "bio2-s1.1.3",
+    "strength": "essential",
+    "why": "prediction as expected result",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.0.6",
+    "strength": "essential",
+    "why": "independent and dependent variables",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.1.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s1.1.0",
+    "strength": "helpful",
+    "why": "sequence of investigation stages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s1.1.2",
+    "strength": "helpful",
+    "why": "falsifiability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.2.0",
+    "strength": "essential",
+    "why": "testability and falsifiability",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.0.6",
+    "strength": "helpful",
+    "why": "measured and controlled variables",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "helpful",
+    "why": "hypothesis based on knowledge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s1.1.2",
+    "strength": "essential",
+    "why": "enzyme-rate hypothesis example",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s1.0.5",
+    "strength": "helpful",
+    "why": "potato cylinder investigation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.2.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.1.1",
+    "strength": "helpful",
+    "why": "hypothesis built on biology",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s1.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s1.1.3",
+    "strength": "helpful",
+    "why": "evidence supports but never proves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.3.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio2-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.0.6",
+    "strength": "helpful",
+    "why": "changing one variable",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.3.1",
+    "strength": "essential",
+    "why": "laboratory experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.3.1",
+    "strength": "essential",
+    "why": "laboratory experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.3.1",
+    "strength": "helpful",
+    "why": "contrast with changing variables",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio2-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.4.0",
+    "strength": "essential",
+    "why": "field study",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.4.0",
+    "strength": "essential",
+    "why": "field study",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.4.3",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.4.3",
+    "strength": "essential",
+    "why": "secondary data",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.5.0",
+    "strength": "essential",
+    "why": "models and simulations",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio2-s1.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s1.5.2",
+    "strength": "essential",
+    "why": "human trials",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio2-s1.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s1.4.0",
+    "strength": "helpful",
+    "why": "field survey",
+    "confidence": "low"
+   }
+  ]
+ }
+}

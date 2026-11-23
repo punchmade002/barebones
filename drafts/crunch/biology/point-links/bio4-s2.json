@@ -1,0 +1,627 @@
+{
+ "bio4-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.0.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio4-s2.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.0.2",
+    "strength": "helpful",
+    "why": "big ideas list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.4.3",
+    "strength": "helpful",
+    "why": "natural selection and adaptation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.1.0",
+    "strength": "essential",
+    "why": "system as interacting parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s2.0.0",
+    "strength": "helpful",
+    "why": "levels of organisation order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.1.0",
+    "strength": "essential",
+    "why": "definition of a system",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.1.0",
+    "strength": "helpful",
+    "why": "systems and their regulation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.1.0",
+    "strength": "helpful",
+    "why": "systems thinking, parts affecting others",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.1.3",
+    "strength": "helpful",
+    "why": "circulatory system as example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.2.0",
+    "strength": "essential",
+    "why": "interdependence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.2.0",
+    "strength": "essential",
+    "why": "interdependence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.7.0",
+    "strength": "helpful",
+    "why": "recycling of matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.2.0",
+    "strength": "helpful",
+    "why": "interdependence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.2.0",
+    "strength": "helpful",
+    "why": "interdependence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.7.0",
+    "strength": "helpful",
+    "why": "cycling of matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.2.0",
+    "strength": "helpful",
+    "why": "interdependence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.3.0",
+    "strength": "helpful",
+    "why": "unity of life",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.3.0",
+    "strength": "helpful",
+    "why": "unity of life",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.3.2",
+    "strength": "essential",
+    "why": "universal genetic code",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.3.0",
+    "strength": "helpful",
+    "why": "unity of life",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.5.0",
+    "strength": "helpful",
+    "why": "natural selection explains adaptation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.4.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.3.0",
+    "strength": "essential",
+    "why": "unity",
+    "confidence": "high"
+   },
+   {
+    "id": "bio4-s2.2.4.3",
+    "strength": "essential",
+    "why": "adaptation and speciation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.4.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.4.5",
+    "strength": "helpful",
+    "why": "unity and diversity together",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.5.0",
+    "strength": "helpful",
+    "why": "natural selection and adaptation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.5.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio4-s2.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s2.1.3",
+    "strength": "helpful",
+    "why": "red blood cell specialisation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s2.1.6",
+    "strength": "helpful",
+    "why": "root hair cell specialisation",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.5.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio4-s2.5.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio4-s2.5.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.6.0",
+    "strength": "helpful",
+    "why": "genetic information",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.6.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.7.0",
+    "strength": "helpful",
+    "why": "matter recycled",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.7.1",
+    "strength": "helpful",
+    "why": "matter taken in",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.8.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio4-s2.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.8.0",
+    "strength": "helpful",
+    "why": "energy flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.8.0",
+    "strength": "essential",
+    "why": "one-way energy flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.7.0",
+    "strength": "essential",
+    "why": "matter recycling",
+    "confidence": "high"
+   },
+   {
+    "id": "bio4-s2.2.8.0",
+    "strength": "essential",
+    "why": "energy flow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.8.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.8.3",
+    "strength": "helpful",
+    "why": "matter cycles, energy flows",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.0.2",
+    "strength": "essential",
+    "why": "big ideas to choose from",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.0.1",
+    "strength": "helpful",
+    "why": "explaining means mechanism",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.0.3",
+    "strength": "helpful",
+    "why": "evolution explains why",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.8.1",
+    "strength": "essential",
+    "why": "respiration makes ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.7.1",
+    "strength": "helpful",
+    "why": "matter taken in",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.1.4",
+    "strength": "essential",
+    "why": "negative feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.5.5",
+    "strength": "essential",
+    "why": "alveoli structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s2.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.2.1",
+    "strength": "essential",
+    "why": "predator-prey interdependence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s2.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s2.2.8.2",
+    "strength": "helpful",
+    "why": "energy transfer between feeding levels",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.1.5",
+    "strength": "helpful",
+    "why": "change spreading through system",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s2.2.11.0",
+    "strength": "helpful",
+    "why": "prey increase effect",
+    "confidence": "low"
+   }
+  ]
+ }
+}

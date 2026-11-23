@@ -1,0 +1,612 @@
+{
+ "bio4-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.0.0",
+    "strength": "helpful",
+    "why": "what a model is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.0.0",
+    "strength": "helpful",
+    "why": "what a model is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.0.0",
+    "strength": "helpful",
+    "why": "what a model is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.0.0",
+    "strength": "helpful",
+    "why": "what a model is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.1.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.1.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio4-s1.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.1.6",
+    "strength": "essential",
+    "why": "model organisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.4.0",
+    "strength": "helpful",
+    "why": "lock-and-key example",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.0.5",
+    "strength": "helpful",
+    "why": "models make predictions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.2.3",
+    "strength": "helpful",
+    "why": "predictions to test",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.2.4",
+    "strength": "helpful",
+    "why": "testing predictions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.0.3",
+    "strength": "helpful",
+    "why": "model assumptions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.3.0",
+    "strength": "helpful",
+    "why": "evaluation questions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s1.9.0",
+    "strength": "essential",
+    "why": "definition of a theory",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.4.b",
+    "strength": "essential",
+    "why": "active site, enzyme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.4.0",
+    "strength": "essential",
+    "why": "rigid lock-and-key active site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.4.1",
+    "strength": "essential",
+    "why": "enzymes changing shape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.4.1",
+    "strength": "helpful",
+    "why": "shape change on binding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.4.3",
+    "strength": "essential",
+    "why": "induced-fit mechanism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.4.3",
+    "strength": "essential",
+    "why": "induced-fit model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.4.3",
+    "strength": "helpful",
+    "why": "induced-fit stages",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.5.0",
+    "strength": "essential",
+    "why": "sandwich model of membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.5.1",
+    "strength": "helpful",
+    "why": "evidence against sandwich model",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s1.6.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.5.0",
+    "strength": "helpful",
+    "why": "earlier sandwich model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.5.0",
+    "strength": "helpful",
+    "why": "phospholipid bilayer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.6.0",
+    "strength": "essential",
+    "why": "bilayer structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.6.0",
+    "strength": "helpful",
+    "why": "membrane structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.6.1",
+    "strength": "essential",
+    "why": "channel and carrier proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.6.0",
+    "strength": "essential",
+    "why": "fluid bilayer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.6.1",
+    "strength": "helpful",
+    "why": "fluid mosaic proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.6.1",
+    "strength": "helpful",
+    "why": "protein distribution in membrane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.6.0",
+    "strength": "helpful",
+    "why": "bilayer heads and tails",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.7.0",
+    "strength": "helpful",
+    "why": "Watson and Crick model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.7.3",
+    "strength": "helpful",
+    "why": "base pairing",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio4-s1.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.7.2",
+    "strength": "helpful",
+    "why": "Chargaff base ratios",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.7.3",
+    "strength": "essential",
+    "why": "complementary base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.7.4",
+    "strength": "essential",
+    "why": "DNA copying prediction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.7.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.7.3",
+    "strength": "helpful",
+    "why": "DNA model structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.7.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.8.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio4-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.8.0",
+    "strength": "essential",
+    "why": "bell-jar model parts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.8.0",
+    "strength": "helpful",
+    "why": "bell-jar model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.8.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.8.3",
+    "strength": "helpful",
+    "why": "Punnett square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.8.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.8.3",
+    "strength": "essential",
+    "why": "Punnett square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio4-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.1.1",
+    "strength": "helpful",
+    "why": "food web diagrams",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.1.1",
+    "strength": "helpful",
+    "why": "cycle diagrams",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.9.1",
+    "strength": "helpful",
+    "why": "cycle diagrams",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio4-s1.1.3",
+    "strength": "essential",
+    "why": "definition of R0",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.9.3",
+    "strength": "essential",
+    "why": "R0 disease models",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio4-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio4-s1.1.1",
+    "strength": "helpful",
+    "why": "feedback loop flowchart",
+    "confidence": "low"
+   }
+  ]
+ }
+}

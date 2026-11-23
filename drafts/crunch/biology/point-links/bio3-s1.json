@@ -1,0 +1,459 @@
+{
+ "bio3-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.0",
+    "strength": "helpful",
+    "why": "evidence tests a claim",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.0",
+    "strength": "helpful",
+    "why": "what evidence is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.2",
+    "strength": "essential",
+    "why": "relevance to a claim",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.4",
+    "strength": "helpful",
+    "why": "accuracy of evidence",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio1-s3.5.0",
+    "strength": "essential",
+    "why": "types of bias",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.2",
+    "strength": "helpful",
+    "why": "relevance of lab studies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s4.8.0",
+    "strength": "helpful",
+    "why": "correlation is not causation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio2-s4.8.3",
+    "strength": "helpful",
+    "why": "controlled experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio3-s1.1.4",
+    "strength": "essential",
+    "why": "builds on study types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.1.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.1.6",
+    "strength": "essential",
+    "why": "consensus",
+    "confidence": "high"
+   },
+   {
+    "id": "bio3-s1.0.4",
+    "strength": "helpful",
+    "why": "reproduction of results",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio3-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.8.0",
+    "strength": "essential",
+    "why": "correlation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio3-s1.2.0",
+    "strength": "essential",
+    "why": "correlation vs causation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.2.1",
+    "strength": "essential",
+    "why": "criteria for causal link",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.2.1",
+    "strength": "essential",
+    "why": "causal tests applied",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.1.4",
+    "strength": "helpful",
+    "why": "control group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.2.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio3-s1.2.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio2-s4.7.1",
+    "strength": "essential",
+    "why": "extrapolation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio3-s1.1.6",
+    "strength": "essential",
+    "why": "scientific consensus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio3-s1.3.3",
+    "strength": "essential",
+    "why": "misinformation, disinformation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.3.5": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio3-s1.3.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.3.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio3-s1.1.b",
+    "strength": "helpful",
+    "why": "study types",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio3-s1.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.b",
+    "strength": "helpful",
+    "why": "relevance, accuracy, bias",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio3-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.1",
+    "strength": "essential",
+    "why": "claim",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.2.1",
+    "strength": "helpful",
+    "why": "peer review",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.2",
+    "strength": "essential",
+    "why": "relevance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio3-s1.1.b",
+    "strength": "helpful",
+    "why": "ranking study types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio3-s1.2.0",
+    "strength": "essential",
+    "why": "correlation vs causation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.6",
+    "strength": "essential",
+    "why": "types of bias",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.1.6",
+    "strength": "essential",
+    "why": "consensus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.4.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.0.1",
+    "strength": "helpful",
+    "why": "claim",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio3-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.2.5",
+    "strength": "essential",
+    "why": "no control group",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.5.1",
+    "strength": "essential",
+    "why": "conflict of interest",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.3.2",
+    "strength": "essential",
+    "why": "false balance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.5.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.5.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio1-s3.2.1",
+    "strength": "helpful",
+    "why": "peer review",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio3-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio3-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio3-s1.4.b",
+    "strength": "helpful",
+    "why": "evaluation checklist",
+    "confidence": "high"
+   }
+  ]
+ }
+}

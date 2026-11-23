@@ -1,0 +1,609 @@
+{
+ "bio5-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.0.b",
+    "strength": "helpful",
+    "why": "eleven characteristics list",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.8.0",
+    "strength": "helpful",
+    "why": "growth characteristic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.2",
+    "strength": "helpful",
+    "why": "cells as basis of life",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio5-s1.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.0.b",
+    "strength": "helpful",
+    "why": "the full set of characteristics",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.0",
+    "strength": "helpful",
+    "why": "organisation of tissues and organs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio5-s1.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.2",
+    "strength": "helpful",
+    "why": "cells as unit of life",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.1.2",
+    "strength": "helpful",
+    "why": "cell as basic unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.2",
+    "strength": "helpful",
+    "why": "cells as basic unit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.1.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.1.5",
+    "strength": "essential",
+    "why": "cells arise from pre-existing cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.2.0",
+    "strength": "essential",
+    "why": "nutrition obtaining food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.2.1",
+    "strength": "helpful",
+    "why": "autotrophic nutrition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.2.0",
+    "strength": "essential",
+    "why": "nutrition obtaining food",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.2.3",
+    "strength": "essential",
+    "why": "heterotrophic nutrition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.3.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.2.0",
+    "strength": "helpful",
+    "why": "food as energy source",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio5-s1.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.3.0",
+    "strength": "essential",
+    "why": "respiration releases energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.3.1",
+    "strength": "helpful",
+    "why": "aerobic respiration for comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.3.2",
+    "strength": "essential",
+    "why": "anaerobic respiration",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.3.0",
+    "strength": "essential",
+    "why": "respiration as cell process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.3.0",
+    "strength": "helpful",
+    "why": "respiration needs energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.4.0",
+    "strength": "essential",
+    "why": "metabolism reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.4.0",
+    "strength": "essential",
+    "why": "metabolism reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.4.1",
+    "strength": "essential",
+    "why": "anabolic reactions",
+    "confidence": "high"
+   },
+   {
+    "id": "bio5-s1.4.2",
+    "strength": "essential",
+    "why": "catabolic reactions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.4.0",
+    "strength": "essential",
+    "why": "metabolism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.5.0",
+    "strength": "essential",
+    "why": "excretion of metabolic waste",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.5.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.5.0",
+    "strength": "essential",
+    "why": "excretion of metabolic waste",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.5.0",
+    "strength": "essential",
+    "why": "excretion definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.6.0",
+    "strength": "essential",
+    "why": "homeostasis definition",
+    "confidence": "high"
+   },
+   {
+    "id": "bio5-s1.4.0",
+    "strength": "essential",
+    "why": "enzymes control metabolism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.6.0",
+    "strength": "essential",
+    "why": "homeostasis definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.7.0",
+    "strength": "essential",
+    "why": "response to stimulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.7.0",
+    "strength": "helpful",
+    "why": "response to stimulus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.7.3",
+    "strength": "essential",
+    "why": "reproduction definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.7.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.7.3",
+    "strength": "essential",
+    "why": "reproduction definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.4.1",
+    "strength": "essential",
+    "why": "anabolism builds materials",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.8.0",
+    "strength": "helpful",
+    "why": "growth definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.4",
+    "strength": "helpful",
+    "why": "DNA as genetic material",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio5-s1.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio5-s1.8.2",
+    "strength": "essential",
+    "why": "genes and heredity",
+    "confidence": "high"
+   },
+   {
+    "id": "bio5-s1.7.5",
+    "strength": "helpful",
+    "why": "variation from sexual reproduction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.0",
+    "strength": "helpful",
+    "why": "organisation detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.7.0",
+    "strength": "helpful",
+    "why": "response detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.3.0",
+    "strength": "helpful",
+    "why": "respiration detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.2.0",
+    "strength": "helpful",
+    "why": "nutrition detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.5.0",
+    "strength": "helpful",
+    "why": "excretion detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.7.3",
+    "strength": "helpful",
+    "why": "reproduction detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio5-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.8.0",
+    "strength": "helpful",
+    "why": "growth detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.4.0",
+    "strength": "helpful",
+    "why": "metabolism detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.6.0",
+    "strength": "helpful",
+    "why": "homeostasis detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.8.2",
+    "strength": "helpful",
+    "why": "heredity detail",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio5-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio5-s1.1.2",
+    "strength": "helpful",
+    "why": "cellular basis detail",
+    "confidence": "high"
+   }
+  ]
+ }
+}

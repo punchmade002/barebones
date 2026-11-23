@@ -1,0 +1,426 @@
+{
+ "bio14-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s3.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.0.0",
+    "strength": "helpful",
+    "why": "pigment definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.0.0",
+    "strength": "helpful",
+    "why": "pigment molecules",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.0.2",
+    "strength": "essential",
+    "why": "antenna cluster and reaction centre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.0.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s3.0.3",
+    "strength": "essential",
+    "why": "reaction centre chlorophyll",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s5.1.0",
+    "strength": "helpful",
+    "why": "electron transport chain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s3.0.4",
+    "strength": "essential",
+    "why": "electron leaving chlorophyll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s2.0.b",
+    "strength": "helpful",
+    "why": "NADP+ as electron carrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.0.4",
+    "strength": "helpful",
+    "why": "energised electrons leave chlorophyll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s5.1.0",
+    "strength": "essential",
+    "why": "electron transport chain",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "helpful",
+    "why": "ATP made from ADP + Pi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s2.1.0",
+    "strength": "essential",
+    "why": "NADP+ loading to NADPH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s3.0.5",
+    "strength": "essential",
+    "why": "positively charged chlorophyll needs electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.3",
+    "strength": "essential",
+    "why": "electrons from water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s3.1.3",
+    "strength": "essential",
+    "why": "photolysis releases protons",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s5.2.0",
+    "strength": "helpful",
+    "why": "proton gradient powers ATP",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s3.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.3",
+    "strength": "essential",
+    "why": "photolysis makes oxygen",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.2",
+    "strength": "essential",
+    "why": "electrons end on NADPH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.1.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.7",
+    "strength": "helpful",
+    "why": "non-cyclic pathway outputs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio14-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.b",
+    "strength": "helpful",
+    "why": "non-cyclic pathway for contrast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.1",
+    "strength": "essential",
+    "why": "electron transport chain carriers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio9-s1.3.0",
+    "strength": "helpful",
+    "why": "ATP made from ADP + Pi",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.0.5",
+    "strength": "essential",
+    "why": "chlorophyll replaces lost electrons",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s3.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s1.5.7",
+    "strength": "essential",
+    "why": "light-independent reactions use ATP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.2.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s3.1.2",
+    "strength": "essential",
+    "why": "NADP+ becomes loaded as NADPH",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s3.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.7",
+    "strength": "essential",
+    "why": "non-cyclic electron route",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s3.2.0",
+    "strength": "essential",
+    "why": "cyclic electron route",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.2",
+    "strength": "essential",
+    "why": "NADP+ final acceptor",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s3.2.0",
+    "strength": "essential",
+    "why": "cyclic returns to chlorophyll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.3",
+    "strength": "essential",
+    "why": "photolysis of water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.8",
+    "strength": "essential",
+    "why": "non-cyclic products",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s3.2.3",
+    "strength": "essential",
+    "why": "cyclic product",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.3.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.0.4",
+    "strength": "helpful",
+    "why": "energised electron leaves chlorophyll",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s3.1.2",
+    "strength": "helpful",
+    "why": "NADP+ to NADPH step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.3.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio14-s3.1.7",
+    "strength": "helpful",
+    "why": "non-cyclic pathway",
+    "confidence": "high"
+   },
+   {
+    "id": "bio14-s3.2.0",
+    "strength": "helpful",
+    "why": "cyclic loop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s3.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s5.0.3",
+    "strength": "helpful",
+    "why": "thylakoid membranes hold pigments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio14-s3.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.5.6",
+    "strength": "helpful",
+    "why": "stroma as site of stage 2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio14-s1.0.2",
+    "strength": "helpful",
+    "why": "light to chemical energy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio14-s3.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio9-s2.1.4",
+    "strength": "helpful",
+    "why": "NADPH electrons build glucose",
+    "confidence": "high"
+   },
+   {
+    "id": "bio9-s1.2.0",
+    "strength": "helpful",
+    "why": "ATP releases energy",
+    "confidence": "high"
+   }
+  ]
+ }
+}
