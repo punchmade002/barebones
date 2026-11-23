@@ -48,7 +48,7 @@ a('11.3',1);a('11.4',1)
 t=open('points/bio35-s2.txt').read()
 tg=re.findall(r'^\[(bio35-s2\.[^\]]+)\]',t.split('CANDIDATES')[0],re.M)
 allid=set(re.findall(r'^\[([^\]]+)\]',t,re.M))
-assert list(d)==tg,(set(tg)^set(d))
+assert set(d)==set(tg); d={k:d[k] for k in tg}
 for v in d.values():
     for n in v['needs']: assert n['id'] in allid,n
 json.dump(d,open('point-links/bio35-s2.json','w'),indent=1)

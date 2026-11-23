@@ -21,3 +21,4 @@ Then check it: it must parse, contain every TARGET id exactly once, and every "i
 If you write any helper script, put it ONLY in /Users/gabrielwhelan/barebones/drafts/crunch/biology/tmp/<your subsection id>/ (create it). Other agents run at the same time; never use /tmp or a shared scratchpad, and never run a script you didn't write.
 Read every item's FULL text before rating it (use the Read tool on the package). Never shorten or truncate item text when printing it; a cost rating made on a cut-off item is wrong.
 "confidence" is about whether the link is REAL, not its strength: a helpful link you are sure of is "high"; an essential link you are unsure of is "low".
+Decide EVERY target item explicitly. Never fill items with a default (e.g. "cost 1, no links unless listed"); an unjudged item is an error.

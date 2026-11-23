@@ -1,0 +1,1201 @@
+{
+ "bio33-s4.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.0",
+    "strength": "helpful",
+    "why": "microbiome definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.0",
+    "strength": "helpful",
+    "why": "microbiome definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.0",
+    "strength": "helpful",
+    "why": "microbiome as community",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.3",
+    "strength": "helpful",
+    "why": "community composition",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.0",
+    "strength": "helpful",
+    "why": "community of species",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.0.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.0.1",
+    "strength": "helpful",
+    "why": "pathogens defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.0",
+    "strength": "helpful",
+    "why": "microbiome community members",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.1.0",
+    "strength": "essential",
+    "why": "culturing fails, so DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.1.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.1.1",
+    "strength": "helpful",
+    "why": "extracted DNA sample",
+    "confidence": "high"
+   },
+   {
+    "id": "bio35-s4.0.0",
+    "strength": "essential",
+    "why": "sequencing defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.0",
+    "strength": "helpful",
+    "why": "microbiome defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.2.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.7.6",
+    "strength": "helpful",
+    "why": "anaerobes live without oxygen",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.2.2",
+    "strength": "helpful",
+    "why": "bacteria to human cell ratio",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.3.0",
+    "strength": "helpful",
+    "why": "colonisation of baby gut",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.3.0",
+    "strength": "helpful",
+    "why": "colonisation of baby gut",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s3.0.0",
+    "strength": "helpful",
+    "why": "digestion of carbohydrates",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.3.5",
+    "strength": "helpful",
+    "why": "host-microbe benefits",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s3.7.1",
+    "strength": "helpful",
+    "why": "cellulose not digested by humans",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.4.0",
+    "strength": "essential",
+    "why": "undigested fibre reaches colon",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s4.2.1",
+    "strength": "helpful",
+    "why": "anaerobic colon bacteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.1",
+    "strength": "essential",
+    "why": "fermentation products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.4.2",
+    "strength": "essential",
+    "why": "SCFAs absorbed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.3",
+    "strength": "helpful",
+    "why": "SCFAs absorbed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.1",
+    "strength": "essential",
+    "why": "fermentation by-products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio27-s3.3.0",
+    "strength": "helpful",
+    "why": "bile production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.0",
+    "strength": "helpful",
+    "why": "cellulose not digestible by host",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.5.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.2.1",
+    "strength": "helpful",
+    "why": "large intestine location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s1.0.1",
+    "strength": "helpful",
+    "why": "pathogens defined",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s4.0.3",
+    "strength": "helpful",
+    "why": "competition in community",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.6.0",
+    "strength": "helpful",
+    "why": "colonisation resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.6.0",
+    "strength": "essential",
+    "why": "colonisation resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.6.0",
+    "strength": "helpful",
+    "why": "colonisation resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.7.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.6.0",
+    "strength": "essential",
+    "why": "colonisation resistance lost",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.6.0",
+    "strength": "helpful",
+    "why": "colonisation resistance lost",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.7.0",
+    "strength": "essential",
+    "why": "C. difficile infection",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.8.0",
+    "strength": "essential",
+    "why": "gut immune tissue",
+    "confidence": "high"
+   },
+   {
+    "id": "bio33-s4.4.2",
+    "strength": "helpful",
+    "why": "SCFAs defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.8.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.8.1",
+    "strength": "helpful",
+    "why": "microbial signals to immune cells",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.8.1",
+    "strength": "essential",
+    "why": "butyrate signalling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.9.0",
+    "strength": "essential",
+    "why": "gut barrier",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.0.5",
+    "strength": "helpful",
+    "why": "diversity of microbiome",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.9.3",
+    "strength": "essential",
+    "why": "links between microbiome and disease",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.1",
+    "strength": "essential",
+    "why": "fermentation of fibre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.4.2",
+    "strength": "essential",
+    "why": "SCFAs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.9.0",
+    "strength": "helpful",
+    "why": "gut barrier leaking",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.9.2",
+    "strength": "helpful",
+    "why": "germ-free mice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.11.0",
+    "strength": "essential",
+    "why": "mouse transfer experiment",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.5",
+    "strength": "helpful",
+    "why": "diversity of microbiome",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.1",
+    "strength": "helpful",
+    "why": "fibre fermented to SCFAs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.11.3",
+    "strength": "helpful",
+    "why": "diet and diversity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.0.5",
+    "strength": "helpful",
+    "why": "diversity of microbiome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.12.0",
+    "strength": "essential",
+    "why": "dysbiosis defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.1",
+    "strength": "helpful",
+    "why": "fibre feeds fermenters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.7.0",
+    "strength": "helpful",
+    "why": "antibiotics disrupt microbiome",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.4.0",
+    "strength": "helpful",
+    "why": "humans cannot digest fibre",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.13.0",
+    "strength": "essential",
+    "why": "probiotics defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.13.0",
+    "strength": "essential",
+    "why": "probiotics defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.4.0",
+    "strength": "helpful",
+    "why": "decomposers respire products",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.14.2",
+    "strength": "helpful",
+    "why": "decomposition of dead matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.12.4",
+    "strength": "helpful",
+    "why": "fungi decompose woody material",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.15.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s2.4.0",
+    "strength": "helpful",
+    "why": "ammonification by decomposers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s2.1.1",
+    "strength": "helpful",
+    "why": "root nodule nitrogen fixation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s2.5.0",
+    "strength": "helpful",
+    "why": "nitrification process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s2.6.0",
+    "strength": "helpful",
+    "why": "denitrification process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.12.6",
+    "strength": "helpful",
+    "why": "mycorrhizal fungi mutualism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.16.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.4.5",
+    "strength": "helpful",
+    "why": "anaerobic methane production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.16.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.16.3",
+    "strength": "helpful",
+    "why": "methane production",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.17.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.17.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s1.8.3",
+    "strength": "helpful",
+    "why": "hyphae structure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.17.0",
+    "strength": "essential",
+    "why": "soil aggregates",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.17.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.16.1",
+    "strength": "helpful",
+    "why": "mycorrhizae help plants",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.17.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.17.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.17.4",
+    "strength": "helpful",
+    "why": "farming harms diversity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.18.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.14.2",
+    "strength": "helpful",
+    "why": "microbial decomposition releases CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.18.0",
+    "strength": "helpful",
+    "why": "warming speeds decomposition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.18.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.18.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.18.0",
+    "strength": "essential",
+    "why": "warming increases CO2 release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.18.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.18.3",
+    "strength": "essential",
+    "why": "feedback loop",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.19.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.19.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.19.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.19.0",
+    "strength": "essential",
+    "why": "permafrost organic matter",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.19.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.4.4",
+    "strength": "helpful",
+    "why": "slow decomposition forms peat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.19.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.19.2",
+    "strength": "essential",
+    "why": "peat stores carbon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.19.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.16.3",
+    "strength": "helpful",
+    "why": "methane from waterlogged soil",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.20.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.20.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.15.2",
+    "strength": "helpful",
+    "why": "nitrate from nitrification",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.20.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.15.3",
+    "strength": "helpful",
+    "why": "denitrification releases N2O",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.20.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.18.0",
+    "strength": "helpful",
+    "why": "microbial respiration",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.20.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.20.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.18.1",
+    "strength": "helpful",
+    "why": "warming experiments results",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.20.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.18.4",
+    "strength": "helpful",
+    "why": "warming feedback",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.21.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.21.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.18.0",
+    "strength": "helpful",
+    "why": "respiration rises with temperature",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.21.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.22.0",
+    "strength": "helpful",
+    "why": "indicator colour changes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.21.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.21.1",
+    "strength": "helpful",
+    "why": "experimental set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.21.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.21.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.22.0",
+    "strength": "essential",
+    "why": "indicator colour meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.21.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio33-s4.21.2",
+    "strength": "essential",
+    "why": "control with dead microorganisms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.21.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.1.0",
+    "strength": "helpful",
+    "why": "photosynthesis removes CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.21.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.22.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.22.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio33-s4.22.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s4.0.0",
+    "strength": "helpful",
+    "why": "sequencing defined",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio33-s4.22.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.18.1",
+    "strength": "helpful",
+    "why": "soil warming experiments",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio33-s4.22.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio33-s4.9.4",
+    "strength": "helpful",
+    "why": "correlation versus cause",
+    "confidence": "high"
+   }
+  ]
+ }
+}

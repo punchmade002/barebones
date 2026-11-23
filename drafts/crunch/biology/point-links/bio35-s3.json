@@ -1,0 +1,573 @@
+{
+ "bio35-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.0.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.1.1",
+    "strength": "helpful",
+    "why": "STR repeat regions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.9.b",
+    "strength": "helpful",
+    "why": "gel electrophoresis separates by size",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.10.3",
+    "strength": "helpful",
+    "why": "staining makes bands visible",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.8.0",
+    "strength": "helpful",
+    "why": "restriction enzyme method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.0.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio35-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio35-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s2.0.b",
+    "strength": "helpful",
+    "why": "protease is an enzyme",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s3.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.1.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.1.2",
+    "strength": "helpful",
+    "why": "break cells, remove protein",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s3.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.2.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio13-s2.2.2",
+    "strength": "helpful",
+    "why": "heat denatures enzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.2.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.1.3",
+    "strength": "helpful",
+    "why": "protease digests proteins",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.1.4",
+    "strength": "helpful",
+    "why": "cold ethanol precipitates DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.3.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s3.1.4",
+    "strength": "helpful",
+    "why": "salt and ethanol roles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.1.1",
+    "strength": "helpful",
+    "why": "STR repeats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.0.b",
+    "strength": "helpful",
+    "why": "DNA replication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.4.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.1.1",
+    "strength": "helpful",
+    "why": "complementary base pairing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.1.2",
+    "strength": "essential",
+    "why": "DNA polymerase adds nucleotides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio17-s1.1.2",
+    "strength": "helpful",
+    "why": "DNA polymerase",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.4.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s2.2.2",
+    "strength": "helpful",
+    "why": "denaturation of enzymes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio13-s2.2.2",
+    "strength": "essential",
+    "why": "denatured enzymes stop working",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.6.b",
+    "strength": "helpful",
+    "why": "PCR cycle repeats",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.6.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio17-s1.1.0",
+    "strength": "helpful",
+    "why": "helicase unwinds DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s3.4.3",
+    "strength": "essential",
+    "why": "primers complementary to region",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.6.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s3.4.4",
+    "strength": "essential",
+    "why": "polymerase extends from primer",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.6.2",
+    "strength": "helpful",
+    "why": "extension builds new strand",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.6.4": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio35-s3.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.6.3",
+    "strength": "essential",
+    "why": "each cycle doubles DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.7.0",
+    "strength": "essential",
+    "why": "2^n copies formula",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.5.0",
+    "strength": "helpful",
+    "why": "Taq polymerase source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.1.1",
+    "strength": "helpful",
+    "why": "repeat regions",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s3.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.1.2",
+    "strength": "essential",
+    "why": "repeat number varies between people",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.4.0",
+    "strength": "helpful",
+    "why": "PCR needs less DNA",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.4.1",
+    "strength": "helpful",
+    "why": "DNA moves toward positive electrode",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio35-s3.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.9.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.4.3",
+    "strength": "helpful",
+    "why": "ladder gives fragment sizes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s3.9.1",
+    "strength": "essential",
+    "why": "wells and electrodes set-up",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.9.0",
+    "strength": "helpful",
+    "why": "gel pores act as sieve",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.9.2",
+    "strength": "helpful",
+    "why": "loading dye shows progress",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.10.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.10.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.4.4",
+    "strength": "helpful",
+    "why": "peaks instead of bands",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.10.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "bio35-s3.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio35-s3.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s3.9.4",
+    "strength": "helpful",
+    "why": "ladder gives sizes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio35-s2.5.0",
+    "strength": "essential",
+    "why": "match needs every band same",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.11.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio35-s2.2.2",
+    "strength": "essential",
+    "why": "child gets one band from each parent",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio35-s3.11.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

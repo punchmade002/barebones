@@ -1,0 +1,1650 @@
+{
+"bio35-s7.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.0.0": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.0.1": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.0.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "essential",
+"why": "four principles of medical ethics",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.2.2",
+"strength": "essential",
+"why": "precautionary principle",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.2",
+"strength": "helpful",
+"why": "precautionary principle defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.0.4": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.0.5": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.1.6",
+"strength": "helpful",
+"why": "ethics decided by values and evidence",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.1.0": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.b",
+"strength": "helpful",
+"why": "genetic data defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "consent as autonomy",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.b",
+"strength": "helpful",
+"why": "genetic data defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.2.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.b",
+"strength": "helpful",
+"why": "genetic data defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.b",
+"strength": "helpful",
+"why": "genetic data defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.1",
+"strength": "helpful",
+"why": "genome identifies a person",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "essential",
+"why": "autonomy and informed consent",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "justice, fair sharing of benefits",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.3.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.b",
+"strength": "helpful",
+"why": "genetic data defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "justice and fairness",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.3.0",
+"strength": "helpful",
+"why": "risk of genetic discrimination",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.3.0",
+"strength": "helpful",
+"why": "risk of genetic discrimination",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.3.0",
+"strength": "helpful",
+"why": "insurer side of discrimination debate",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.4.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s2.0.0",
+"strength": "essential",
+"why": "DNA profile defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s2.7.2",
+"strength": "helpful",
+"why": "national DNA databases",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s2.7.2",
+"strength": "helpful",
+"why": "national DNA databases",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.4.b",
+"strength": "helpful",
+"why": "profiles kept of arrested people",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.4.2",
+"strength": "helpful",
+"why": "privacy of unconvicted people",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.4.b",
+"strength": "helpful",
+"why": "DNA database matching",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.4.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s2.11.3",
+"strength": "helpful",
+"why": "DNA evidence not proof alone",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.2",
+"strength": "helpful",
+"why": "relatives share genetic data",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.5.0": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.5.0",
+"strength": "essential",
+"why": "genealogy website uploads",
+"confidence": "high"
+},
+{
+"id": "bio35-s2.7.0",
+"strength": "helpful",
+"why": "matching crime-scene DNA",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.5.1",
+"strength": "essential",
+"why": "Golden State Killer case",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "consent",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.5.0",
+"strength": "helpful",
+"why": "companies hold ancestry DNA",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.6.b",
+"strength": "helpful",
+"why": "patents protect investment",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.6.b",
+"strength": "helpful",
+"why": "patent gives sole seller rights",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.6.1",
+"strength": "helpful",
+"why": "gene patents controlling testing",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.6.2",
+"strength": "essential",
+"why": "Myriad BRCA ruling",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "justice, sharing benefits fairly",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.6.b",
+"strength": "helpful",
+"why": "access and ownership questions",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.1.2",
+"strength": "helpful",
+"why": "selective breeding comparison",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.6.b",
+"strength": "helpful",
+"why": "ownership and control of resources",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.8.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.0.1",
+"strength": "essential",
+"why": "GMO, gene from another species",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.8.b",
+"strength": "helpful",
+"why": "GM crop benefits",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.8.0",
+"strength": "essential",
+"why": "Bt crops",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.8.3",
+"strength": "essential",
+"why": "Golden Rice beta-carotene",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.8.0",
+"strength": "helpful",
+"why": "higher yields",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.8.b",
+"strength": "helpful",
+"why": "GM foods defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.9.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.8.b",
+"strength": "helpful",
+"why": "GM crop defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.8.b",
+"strength": "helpful",
+"why": "GM crop genes",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s1.8.2",
+"strength": "essential",
+"why": "herbicide-tolerant crops",
+"confidence": "high"
+},
+{
+"id": "bio35-s1.8.0",
+"strength": "helpful",
+"why": "Bt toxin resistance",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.9.2": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.6.b",
+"strength": "helpful",
+"why": "patented seed",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "autonomy, right to choose",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.9.5": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.8.3",
+"strength": "essential",
+"why": "Golden Rice described",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.8.4",
+"strength": "essential",
+"why": "vitamin A deficiency cause",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.8.4",
+"strength": "helpful",
+"why": "vitamin A deficiency",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.8.4",
+"strength": "helpful",
+"why": "Philippines approval 2021",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.0",
+"strength": "helpful",
+"why": "GM animals example",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.0",
+"strength": "essential",
+"why": "AquAdvantage salmon",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.2",
+"strength": "essential",
+"why": "GM mice as disease models",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.1",
+"strength": "essential",
+"why": "the 3Rs",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.0",
+"strength": "helpful",
+"why": "GM salmon escape",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.11.4": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.3",
+"strength": "essential",
+"why": "gene therapy defined",
+"confidence": "high"
+},
+{
+"id": "bio35-s1.9.4",
+"strength": "helpful",
+"why": "somatic changes not inherited",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.10.5",
+"strength": "essential",
+"why": "CRISPR sickle-cell treatment",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.4",
+"strength": "essential",
+"why": "somatic, not inherited",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.10.1",
+"strength": "helpful",
+"why": "CRISPR off-target cuts",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "justice, unequal access",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.5",
+"strength": "essential",
+"why": "germline changes inherited",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.12.b",
+"strength": "helpful",
+"why": "somatic comparison",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.13.b",
+"strength": "essential",
+"why": "germline inherited by descendants",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.10.0",
+"strength": "essential",
+"why": "CRISPR gene editing",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.13.1",
+"strength": "essential",
+"why": "He Jiankui case",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.13.b",
+"strength": "helpful",
+"why": "germline change permanent",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.13.0",
+"strength": "helpful",
+"why": "future generations affected",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "justice, inequality",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.13.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s1.9.5",
+"strength": "helpful",
+"why": "germline not allowed",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.14.b": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.13.b",
+"strength": "helpful",
+"why": "germline change inherited",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.14.b",
+"strength": "essential",
+"why": "mitochondrial donation",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.14.b",
+"strength": "essential",
+"why": "donor mitochondria replace faulty",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.13.b",
+"strength": "essential",
+"why": "germline definition",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.2",
+"strength": "helpful",
+"why": "precaution, unknown long-term risk",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.14.1",
+"strength": "helpful",
+"why": "donor contributes mitochondrial DNA",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.14.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.13.5",
+"strength": "helpful",
+"why": "slippery slope to germline changes",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s2.10.1",
+"strength": "essential",
+"why": "genetic screening versus profiling",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.15.b",
+"strength": "helpful",
+"why": "DNA testing finds disease alleles",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.15.b",
+"strength": "helpful",
+"why": "testing for disease alleles",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.2",
+"strength": "essential",
+"why": "relatives share genetic information",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.15.1",
+"strength": "helpful",
+"why": "carrier testing result",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.16.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.15.b",
+"strength": "helpful",
+"why": "DNA testing for disease alleles",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.16.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.16.b",
+"strength": "helpful",
+"why": "late-onset disease with no cure",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.16.b",
+"strength": "essential",
+"why": "predictive testing",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.16.0",
+"strength": "helpful",
+"why": "no cure for Huntington's",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "essential",
+"why": "autonomy",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "informed consent",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.16.b",
+"strength": "helpful",
+"why": "supporting predictive testing",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.15.b",
+"strength": "helpful",
+"why": "DNA testing for alleles",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.17.b",
+"strength": "helpful",
+"why": "risk alleles raise chance only",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.17.0",
+"strength": "essential",
+"why": "negative result not certainty",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.17.b",
+"strength": "helpful",
+"why": "testing embryos",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.17.2",
+"strength": "essential",
+"why": "PGD selects embryos",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.17.2",
+"strength": "essential",
+"why": "unused embryos destroyed",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.17.2",
+"strength": "essential",
+"why": "PGD embryo selection",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.17.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.17.2",
+"strength": "helpful",
+"why": "PGD screens out conditions",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.18.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.15.b",
+"strength": "helpful",
+"why": "genetic testing",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.18.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "autonomy",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.16.5",
+"strength": "helpful",
+"why": "counselling helps understanding",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.18.2": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.1.0",
+"strength": "helpful",
+"why": "genetic data permanent",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.5.b",
+"strength": "helpful",
+"why": "ancestry tests example",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.19.b": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.19.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio16-s2.0.0",
+"strength": "helpful",
+"why": "mitosis makes more cells",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.19.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.19.0",
+"strength": "essential",
+"why": "stem cell and differentiation",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.19.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.19.1",
+"strength": "helpful",
+"why": "pluripotent comparison",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.19.0",
+"strength": "essential",
+"why": "stem cell and differentiation",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.19.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.19.1",
+"strength": "essential",
+"why": "behave like embryonic stem cells",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.3",
+"strength": "essential",
+"why": "iPS cells made",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.3",
+"strength": "essential",
+"why": "iPS cells defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.20.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.0",
+"strength": "helpful",
+"why": "stem cells replace cells",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.2",
+"strength": "essential",
+"why": "bone-marrow stem cells",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.20.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.0",
+"strength": "helpful",
+"why": "stem cells make tissue",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.20.b",
+"strength": "helpful",
+"why": "stem cells replace lost cells",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.0",
+"strength": "helpful",
+"why": "stem cells grown into tissues",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.21.b": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.21.0": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.21.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.21.0",
+"strength": "helpful",
+"why": "clone defined",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "essential",
+"why": "cloning method used for Dolly",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.2",
+"strength": "helpful",
+"why": "Dolly the sheep",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.21.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "essential",
+"why": "nuclear transfer method",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.19.1",
+"strength": "essential",
+"why": "embryonic stem cells",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.21.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "essential",
+"why": "nuclear transfer steps",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.21.4",
+"strength": "essential",
+"why": "therapeutic cloning branch",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.22.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.1",
+"strength": "essential",
+"why": "embryonic stem cells pluripotent",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.22.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "beneficence, doing good",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.17.2",
+"strength": "helpful",
+"why": "IVF embryos",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.1",
+"strength": "essential",
+"why": "embryo cells source",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.4",
+"strength": "helpful",
+"why": "embryos made for research",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.23.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.22.b",
+"strength": "helpful",
+"why": "embryo issue avoided",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.19.3",
+"strength": "essential",
+"why": "iPS cells",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.20.b",
+"strength": "helpful",
+"why": "stem cell treatments",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio3-s2.2.0",
+"strength": "helpful",
+"why": "informed consent",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.24.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "essential",
+"why": "reproductive cloning",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.24.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "helpful",
+"why": "cloning animals",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.3",
+"strength": "helpful",
+"why": "low cloning success rate",
+"confidence": "high"
+},
+{
+"id": "bio3-s2.2.1",
+"strength": "helpful",
+"why": "animal welfare",
+"confidence": "low"
+}
+]
+},
+"bio35-s7.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "essential",
+"why": "reproductive cloning",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.24.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.24.2",
+"strength": "helpful",
+"why": "human cloning rejected",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.24.4": {
+"cost": 1,
+"needs": []
+},
+"bio35-s7.25.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.4",
+"strength": "essential",
+"why": "therapeutic cloning",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.25.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.4",
+"strength": "essential",
+"why": "matching stem cells for patient",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.4",
+"strength": "essential",
+"why": "embryo made then destroyed",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.25.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "helpful",
+"why": "eggs needed for nuclear transfer",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.25.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.21.1",
+"strength": "helpful",
+"why": "same method as reproductive cloning",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.26.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.0.2",
+"strength": "helpful",
+"why": "ethical principles checklist",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.26.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.0.2",
+"strength": "essential",
+"why": "consent, justice principles",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.1.b",
+"strength": "helpful",
+"why": "permanent shared genetic data",
+"confidence": "high"
+}
+]
+},
+"bio35-s7.26.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio35-s7.0.3",
+"strength": "essential",
+"why": "precautionary principle",
+"confidence": "high"
+},
+{
+"id": "bio35-s7.0.4",
+"strength": "helpful",
+"why": "laws and ethics committees",
+"confidence": "high"
+}
+]
+}
+}

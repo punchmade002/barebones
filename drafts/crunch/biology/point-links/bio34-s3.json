@@ -1,0 +1,839 @@
+{
+ "bio34-s3.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.0.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.0.3",
+    "strength": "helpful",
+    "why": "carbon stores",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s3.0.1",
+    "strength": "helpful",
+    "why": "ethical issue meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.0.1",
+    "strength": "helpful",
+    "why": "ethical issue meaning",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s2.5.3",
+    "strength": "helpful",
+    "why": "nitrate leaching",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.1.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.1.b",
+    "strength": "helpful",
+    "why": "eutrophication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.4.0",
+    "strength": "helpful",
+    "why": "decomposers respire",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.2.0",
+    "strength": "helpful",
+    "why": "previous step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.2.1",
+    "strength": "helpful",
+    "why": "algal bloom",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.2.2",
+    "strength": "helpful",
+    "why": "previous step",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s1.4.0",
+    "strength": "essential",
+    "why": "aerobic decomposers respire",
+    "confidence": "high"
+   },
+   {
+    "id": "bio34-s3.2.3",
+    "strength": "helpful",
+    "why": "dead algae",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.2.4",
+    "strength": "essential",
+    "why": "oxygen used by decomposers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s3.2.5",
+    "strength": "helpful",
+    "why": "dead fish",
+    "confidence": "high"
+   },
+   {
+    "id": "bio34-s1.4.5",
+    "strength": "helpful",
+    "why": "anaerobic decomposition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.2.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s3.2.4",
+    "strength": "helpful",
+    "why": "decomposer step of chain",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.2.5",
+    "strength": "helpful",
+    "why": "oxygen loss",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.3.0",
+    "strength": "helpful",
+    "why": "blue-green algal blooms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.4.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.0.2",
+    "strength": "helpful",
+    "why": "who gains and pays",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s2.0.2",
+    "strength": "helpful",
+    "why": "plants absorb nitrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s2.2.1",
+    "strength": "essential",
+    "why": "Haber process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.1.b",
+    "strength": "helpful",
+    "why": "eutrophication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.1.b",
+    "strength": "helpful",
+    "why": "eutrophication",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.5.1",
+    "strength": "helpful",
+    "why": "nitrate limit",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s2.2.1",
+    "strength": "essential",
+    "why": "Haber process",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s2.6.0",
+    "strength": "essential",
+    "why": "denitrification",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.1.1",
+    "strength": "helpful",
+    "why": "slurry",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s3.6.2",
+    "strength": "helpful",
+    "why": "ammonia emissions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.6.2",
+    "strength": "helpful",
+    "why": "ammonia emissions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.0.1",
+    "strength": "helpful",
+    "why": "ethical issue",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.0.2",
+    "strength": "helpful",
+    "why": "who benefits and pays",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.0.2",
+    "strength": "essential",
+    "why": "polluter pays principle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.7.1",
+    "strength": "helpful",
+    "why": "polluter pays argument",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.7.1",
+    "strength": "helpful",
+    "why": "cost of prevention",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.7.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s3.0.3",
+    "strength": "helpful",
+    "why": "justice",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s3.8.0",
+    "strength": "essential",
+    "why": "Nitrates Directive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.8.0",
+    "strength": "helpful",
+    "why": "Nitrates Directive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.8.0",
+    "strength": "essential",
+    "why": "Nitrates Directive",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.1.0",
+    "strength": "helpful",
+    "why": "nitrate lost to water",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s2.1.1",
+    "strength": "essential",
+    "why": "nitrogen fixation in legumes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.1.0",
+    "strength": "helpful",
+    "why": "nutrient runoff",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.6.2",
+    "strength": "essential",
+    "why": "ammonia loss from slurry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s2.6.4",
+    "strength": "essential",
+    "why": "denitrification removes nitrate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.9.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s3.4.1",
+    "strength": "helpful",
+    "why": "fertiliser feeds world",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.9.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.9.5",
+    "strength": "helpful",
+    "why": "the judgement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.4.0",
+    "strength": "helpful",
+    "why": "decomposers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s1.4.5",
+    "strength": "helpful",
+    "why": "anaerobic breakdown",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.10.2",
+    "strength": "essential",
+    "why": "anaerobic digestion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.11.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.10.0",
+    "strength": "helpful",
+    "why": "recycling methods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.6.0",
+    "strength": "helpful",
+    "why": "energy to make fertiliser",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.4.5",
+    "strength": "helpful",
+    "why": "anaerobic methane release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.0.3",
+    "strength": "helpful",
+    "why": "soil carbon store",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.10.2",
+    "strength": "helpful",
+    "why": "sludge and manure use",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.1.1",
+    "strength": "helpful",
+    "why": "slurry washed off",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.11.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.10.3",
+    "strength": "helpful",
+    "why": "biogas methane",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.11.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.11.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.10.0",
+    "strength": "helpful",
+    "why": "recycling methods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.6.0",
+    "strength": "helpful",
+    "why": "sink and source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s1.6.0",
+    "strength": "essential",
+    "why": "sink and source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.12.1",
+    "strength": "helpful",
+    "why": "effects of deforestation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.12.0",
+    "strength": "helpful",
+    "why": "beef, soya, palm oil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.12.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s1.6.1",
+    "strength": "helpful",
+    "why": "bog as sink or source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.13.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s1.7.4",
+    "strength": "essential",
+    "why": "draining bog releases CO2",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.13.0",
+    "strength": "helpful",
+    "why": "turf cutting",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.13.1",
+    "strength": "helpful",
+    "why": "carbon lost from peat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "bio34-s3.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.13.0",
+    "strength": "helpful",
+    "why": "Bord na Mona",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s2.3.0",
+    "strength": "helpful",
+    "why": "SACs on raised bogs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio31-s2.3.1",
+    "strength": "helpful",
+    "why": "rewetting bogs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.14.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.14.2",
+    "strength": "helpful",
+    "why": "people losing income",
+    "confidence": "low"
+   }
+  ]
+ },
+ "bio34-s3.14.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "bio34-s1.5.4",
+    "strength": "essential",
+    "why": "fossil fuel CO2 release",
+    "confidence": "high"
+   }
+  ]
+ },
+ "bio34-s3.14.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "bio34-s3.14.4",
+    "strength": "helpful",
+    "why": "climate harm to others",
+    "confidence": "high"
+   }
+  ]
+ }
+}

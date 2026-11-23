@@ -1,0 +1,1399 @@
+{
+"bio33-s3.0.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.0.0",
+"strength": "helpful",
+"why": "definition of biotechnology",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s1.5.2",
+"strength": "helpful",
+"why": "binary fission every 20 minutes",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.0.4": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.0.5": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s1.2.5",
+"strength": "helpful",
+"why": "plasmids as vectors for genes",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.0.7": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.0.0",
+"strength": "helpful",
+"why": "biotechnology uses organisms on large scale",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s1.7.5",
+"strength": "helpful",
+"why": "aerobes need oxygen",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.2.4": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.0.3",
+"strength": "helpful",
+"why": "respiration releases heat",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.1.0",
+"strength": "helpful",
+"why": "CO2 is a respiration product",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.3.3": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.2.3",
+"strength": "essential",
+"why": "sparger and air inlet",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.2.4",
+"strength": "essential",
+"why": "stirrer and motor",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.2.5",
+"strength": "essential",
+"why": "water jacket cooling",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.3.0",
+"strength": "essential",
+"why": "probes",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.3.3",
+"strength": "essential",
+"why": "harvest outlet",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.4.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s2.1.5",
+"strength": "helpful",
+"why": "sterilising with steam/autoclave",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s2.1.0",
+"strength": "essential",
+"why": "aseptic technique defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.4.2": {
+"cost": 2,
+"needs": []
+},
+"bio33-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.5.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.5.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.5.0",
+"strength": "essential",
+"why": "antibiotics defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.5.1",
+"strength": "essential",
+"why": "penicillin production",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.2.0",
+"strength": "helpful",
+"why": "bioreactor",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.5.0",
+"strength": "helpful",
+"why": "antibiotics defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s1.2.5",
+"strength": "essential",
+"why": "plasmids as vectors",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.2.0",
+"strength": "helpful",
+"why": "bioreactor growth",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.6.0",
+"strength": "helpful",
+"why": "insulin gene inserted into microbes",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.6.2": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.6.0",
+"strength": "helpful",
+"why": "genetic modification of bacteria",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.6.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.6.0",
+"strength": "helpful",
+"why": "genetically modified yeast",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.6.5": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.7.1": {
+"cost": 2,
+"needs": []
+},
+"bio33-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.7.1",
+"strength": "essential",
+"why": "PCR",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.5.0",
+"strength": "helpful",
+"why": "antibiotics defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.5.0",
+"strength": "helpful",
+"why": "antibiotics disturb gut flora",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.7.5": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.7.6": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s1.0.5",
+"strength": "essential",
+"why": "nitrogen-fixing bacteria",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.8.0",
+"strength": "essential",
+"why": "Rhizobium on legumes",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.8.2": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.8.2",
+"strength": "essential",
+"why": "Bt toxin",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.8.2",
+"strength": "essential",
+"why": "Bt toxin",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.8.6",
+"strength": "helpful",
+"why": "inserting genes into crops",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s1.2.4",
+"strength": "essential",
+"why": "plasmids defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.8.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.8.5",
+"strength": "essential",
+"why": "Agrobacterium plasmid transfer",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.9.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.2.3",
+"strength": "helpful",
+"why": "fermentation produces lactic acid",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.9.0",
+"strength": "essential",
+"why": "silage lactic acid",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.0",
+"strength": "helpful",
+"why": "anaerobic means no oxygen",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.9.2",
+"strength": "essential",
+"why": "anaerobic digestion",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s1.0.2",
+"strength": "helpful",
+"why": "decomposers break down waste",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.10.b": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.2",
+"strength": "helpful",
+"why": "yeast fermentation products",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.2",
+"strength": "essential",
+"why": "yeast makes CO2 and ethanol",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.10.0",
+"strength": "helpful",
+"why": "ethanol made in dough",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio15-s1.2.2",
+"strength": "essential",
+"why": "yeast ferments to ethanol and CO2",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.11.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.11.0",
+"strength": "helpful",
+"why": "inoculated yogurt milk",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio15-s1.2.1",
+"strength": "essential",
+"why": "lactic acid fermentation",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.11.0",
+"strength": "helpful",
+"why": "inoculated milk",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.11.2",
+"strength": "essential",
+"why": "lactic acid lowers pH",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.11.2",
+"strength": "helpful",
+"why": "lactic acid souring",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.11.5": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.12.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.12.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.2.0",
+"strength": "helpful",
+"why": "fermenter vessel",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.12.0",
+"strength": "essential",
+"why": "mycoprotein production",
+"confidence": "high"
+},
+{
+"id": "bio33-s1.8.3",
+"strength": "helpful",
+"why": "hyphae defined",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s1.0.1",
+"strength": "helpful",
+"why": "bacteria genus use",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.12.3": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.12.4": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.13.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.13.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.9.3",
+"strength": "helpful",
+"why": "anaerobic digestion to biogas",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.13.1": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.10.2",
+"strength": "helpful",
+"why": "yeast ferments sugars to ethanol",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.5.0",
+"strength": "helpful",
+"why": "antibiotics defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.6.0",
+"strength": "helpful",
+"why": "insulin from microbes",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.6.2",
+"strength": "essential",
+"why": "animal insulin drawbacks",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.14.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.5.0",
+"strength": "helpful",
+"why": "antibiotics defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.14.3",
+"strength": "helpful",
+"why": "antibiotic resistance",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.15.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.15.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.12.1",
+"strength": "helpful",
+"why": "mycoprotein",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.8.3",
+"strength": "helpful",
+"why": "Bt biopesticide",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.8.0",
+"strength": "helpful",
+"why": "Rhizobium inoculant",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.9.0",
+"strength": "helpful",
+"why": "silage",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.6.0",
+"strength": "helpful",
+"why": "genetically modified microorganisms",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.8.4",
+"strength": "essential",
+"why": "Bt toxin gene in crops",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.16.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.13.0",
+"strength": "helpful",
+"why": "sewage treatment",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.9.3",
+"strength": "helpful",
+"why": "biogas",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.13.2",
+"strength": "helpful",
+"why": "bioethanol",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.16.2": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.2.0",
+"strength": "helpful",
+"why": "bioreactor",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.4.0",
+"strength": "helpful",
+"why": "contamination and sterility",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.17.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.17.0": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.14.3",
+"strength": "essential",
+"why": "antibiotic resistance",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.15.3",
+"strength": "essential",
+"why": "GM concerns",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.18.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.18.0": {
+"cost": 2,
+"needs": []
+},
+"bio33-s3.18.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "helpful",
+"why": "exponential phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.18.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.19.0",
+"strength": "essential",
+"why": "lag phase",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.19.3",
+"strength": "essential",
+"why": "log phase",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.20.0",
+"strength": "essential",
+"why": "stationary phase",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.20.3",
+"strength": "essential",
+"why": "decline phase",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.20.5",
+"strength": "essential",
+"why": "survival phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.19.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.18.0",
+"strength": "helpful",
+"why": "growth curve in closed system",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.19.0",
+"strength": "essential",
+"why": "lag phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.19.1",
+"strength": "essential",
+"why": "adjustment in lag phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s1.5.0",
+"strength": "helpful",
+"why": "binary fission",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.19.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "essential",
+"why": "log phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.19.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "essential",
+"why": "log phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.20.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.20.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "helpful",
+"why": "division rate in log phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.20.1": {
+"cost": 2,
+"needs": []
+},
+"bio33-s3.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.23.1",
+"strength": "helpful",
+"why": "secondary metabolites",
+"confidence": "high"
+},
+{
+"id": "bio33-s1.5.4",
+"strength": "helpful",
+"why": "endospores defined",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.20.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "helpful",
+"why": "division rate comparison",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.20.3",
+"strength": "helpful",
+"why": "decline phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.20.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.20.3",
+"strength": "helpful",
+"why": "follows decline phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.20.6": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s1.5.4",
+"strength": "essential",
+"why": "endospore formation",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.20.4",
+"strength": "helpful",
+"why": "nutrients from dead cells",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.21.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.21.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.19.4",
+"strength": "essential",
+"why": "doubling each generation",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.21.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.21.0",
+"strength": "essential",
+"why": "cells = start x 2^n",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.21.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.21.0",
+"strength": "essential",
+"why": "cells = start x 2^n",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.21.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.21.0",
+"strength": "essential",
+"why": "doubling per generation",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.21.4": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.21.3",
+"strength": "essential",
+"why": "generation time method",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.21.5": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.18.1",
+"strength": "essential",
+"why": "log scale on growth curve",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.22.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.22.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.2.0",
+"strength": "helpful",
+"why": "bioreactor",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.22.0",
+"strength": "helpful",
+"why": "batch culture",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.22.1",
+"strength": "helpful",
+"why": "batch harvested at end",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.4.0",
+"strength": "helpful",
+"why": "contamination loses batch",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.22.4": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "helpful",
+"why": "log phase output",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.23.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "helpful",
+"why": "log phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.20.0",
+"strength": "helpful",
+"why": "stationary phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.24.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.24.0": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.22.1",
+"strength": "helpful",
+"why": "contrast with batch",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "essential",
+"why": "log phase",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.20.0",
+"strength": "helpful",
+"why": "stationary phase",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.22.3",
+"strength": "helpful",
+"why": "batch comparison",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.24.3": {
+"cost": 1,
+"needs": [
+{
+"id": "bio33-s3.23.0",
+"strength": "helpful",
+"why": "primary metabolites",
+"confidence": "low"
+}
+]
+},
+"bio33-s3.25.b": {
+"cost": 1,
+"needs": []
+},
+"bio33-s3.25.0": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.19.1",
+"strength": "essential",
+"why": "lag phase adjustment",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.25.1": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.19.3",
+"strength": "essential",
+"why": "log phase",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.24.0",
+"strength": "helpful",
+"why": "continuous culture",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.25.2": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.23.0",
+"strength": "essential",
+"why": "primary metabolites",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.23.1",
+"strength": "essential",
+"why": "secondary metabolites",
+"confidence": "high"
+}
+]
+},
+"bio33-s3.25.3": {
+"cost": 2,
+"needs": [
+{
+"id": "bio33-s3.20.1",
+"strength": "essential",
+"why": "causes of stationary phase",
+"confidence": "high"
+},
+{
+"id": "bio33-s3.25.1",
+"strength": "helpful",
+"why": "nutrient supply",
+"confidence": "low"
+}
+]
+}
+}
