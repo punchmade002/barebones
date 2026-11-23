@@ -38,7 +38,9 @@ cut ~70% of the course. Foundations survive only because they score high.
 
 **Learning cost.** Every outcome has a cost: the sum of its note points' costs.
 A simple point costs 1. A long or complicated point costs 2, the same as two
-simple ones. The cut ranks outcomes by score ÷ cost. When two outcomes are worth
+simple ones. The AI judges both "long" and "complicated" in one rating per point
+(no word-count rule), stored with the point. The cut ranks outcomes by
+score ÷ cost. When two outcomes are worth
 the same, the costlier one goes first, so the student keeps the most marks for
 the least studying.
 
@@ -67,9 +69,7 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
 - Exam value formula (frequency vs marks, recency weighting, question choice such
   as "answer 5 of 6"). Biology's bank is the old course (`legacy: true`), so its
   values will be weaker.
-- Learning cost rating: is "long" a word-count threshold, and does the AI rate
-  "complex", or does one AI rating cover both? Do key terms and flashcards add
-  cost?
+- Do key terms and flashcards add learning cost, or only note points?
 - The exact numbers: hop decay, essential vs helpful weights, gap discount sizes.
   Tune these on Biology by eye.
 - Home Ec and Maths exam banks have no `notesRefs` yet, so they have no co-tested
