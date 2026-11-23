@@ -1,0 +1,561 @@
+[
+ {
+  "skill": "cubic-solve",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "num-sci-notation",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "diff-slope-tangent",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "fn-compare-graphs",
+  "verdict": "fixed",
+  "issues": "corrected notes for problems 2 and 3 (check step added; not all crossings are whole numbers)",
+  "problems": [
+   {
+    "part": "practice-fn-compare-graphs-1",
+    "note": null,
+    "legend": {
+     "1": "x-value where the graphs cross, f(x) = g(x)"
+    },
+    "steps": [
+     {
+      "ask": "What equation do you solve to find where the two graphs meet?",
+      "title": "Find where the two graphs cross",
+      "lines": [
+       {
+        "text": "$f(x) = g(x)$ where the graphs meet, at $x = \\hl{1}{-1}$ and $x = \\hl{1}{2}$."
+       }
+      ]
+     },
+     {
+      "ask": "Between the crossing points, which graph is higher? Which graph is higher outside them?",
+      "title": "Find where f(x) is less than g(x)",
+      "lines": [
+       {
+        "text": "Between $x = \\hl{1}{-1}$ and $x = \\hl{1}{2}$ the graph of $f$ is below the graph of $g$."
+       },
+       {
+        "text": "Outside that range $f$ is above $g$. Do not include the endpoints, because there $f(x) = g(x)$."
+       },
+       {
+        "tex": "f(x) < g(x) \\text{ for } \\hl{1}{-1} &< x < \\hl{1}{2}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{-1} < x < \\hl{1}{2}",
+    "graph": {
+     "f": "x**2",
+     "box": [
+      -2.5,
+      7,
+      3,
+      -1
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": -1,
+       "y": 1,
+       "name": "(-1, 1)"
+      },
+      {
+       "x": 2,
+       "y": 4,
+       "name": "(2, 4)"
+      }
+     ],
+     "line": [
+      [
+       0,
+       2
+      ],
+      [
+       1,
+       3
+      ]
+     ],
+     "slots": {
+      "x": 1,
+      "y": null,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "practice-fn-compare-graphs-2",
+    "note": "Problem 1 asked for the region where $f(x) < g(x)$. This asks only for the points where $f(x) = g(x)$, so the region step is dropped and a check step is added: substitute each x-value into both functions. Reading the crossings is the same.",
+    "legend": {
+     "1": "x-value where the graphs cross, f(x) = g(x)"
+    },
+    "steps": [
+     {
+      "ask": "What is true about f(x) and g(x) at the points where the graphs meet?",
+      "title": "Read where the graphs cross",
+      "lines": [
+       {
+        "text": "$f(x) = g(x)$ at the points where the graph of $f$ meets the graph of $g$."
+       },
+       {
+        "tex": "f(x) = g(x) \\text{ at } x &= \\hl{1}{-3}"
+       },
+       {
+        "tex": "\\text{and } x &= \\hl{1}{2}"
+       }
+      ]
+     },
+     {
+      "ask": "Substitute each x-value into both functions. Do they give the same answer?",
+      "title": "Check",
+      "lines": [
+       {
+        "text": "At $x = \\hl{1}{-3}$: $f = 5$ and $g = 5$. At $x = \\hl{1}{2}$: $f = 0$ and $g = 0$."
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{1}{-3} \\text{ or } x = \\hl{1}{2}",
+    "graph": {
+     "f": "x**2 - 4",
+     "box": [
+      -4.5,
+      6,
+      3.5,
+      -5
+     ],
+     "tangent": false,
+     "points": [
+      {
+       "x": -3,
+       "y": 5,
+       "name": "(-3, 5)"
+      },
+      {
+       "x": 2,
+       "y": 0,
+       "name": "(2, 0)"
+      }
+     ],
+     "line": [
+      [
+       0,
+       2
+      ],
+      [
+       1,
+       1
+      ]
+     ],
+     "slots": {
+      "x": 1,
+      "y": null,
+      "line": null
+     }
+    }
+   },
+   {
+    "part": "maths-pp-2022-ordinary-p1-q5#(c)(i), (ii)",
+    "note": "Compared with problem 2, one crossing (3.5) is not a whole number, the graphs are read from a diagram, and the region is asked for again. It also starts with an extra step that reads where $m(x) = 0$, which uses slot 2. The method is the same: read the crossings, then read the region between them.",
+    "legend": {
+     "1": "x-value where the graphs cross, k(x) = m(x)",
+     "2": "x-value where m(x) = 0 (where m meets the x-axis)"
+    },
+    "steps": [
+     {
+      "ask": "Which points on the graph of m lie on the x-axis?",
+      "title": "Find where m(x) = 0",
+      "lines": [
+       {
+        "text": "$m(x) = 0$ where the graph of $m$ meets the $x$-axis."
+       },
+       {
+        "tex": "m(x) = 0 \\text{ at } x &= \\hl{2}{1}"
+       },
+       {
+        "tex": "\\text{and } x &= \\hl{2}{4.5}"
+       }
+      ]
+     },
+     {
+      "ask": "Where do the graphs of k and m meet? Which x-values belong to those points?",
+      "title": "Find where the two graphs cross",
+      "lines": [
+       {
+        "text": "The graphs of $k$ and $m$ cross at $x = \\hl{1}{2}$ and $x = \\hl{1}{3.5}$."
+       }
+      ]
+     },
+     {
+      "ask": "Between the two crossing points, which graph is higher? Where is k(x) below m(x)?",
+      "title": "Find where k(x) is less than m(x)",
+      "lines": [
+       {
+        "text": "Between $x = \\hl{1}{2}$ and $x = \\hl{1}{3.5}$ the graph of $m$ is above the graph of $k$."
+       },
+       {
+        "text": "Outside that range, $m$ is below $k$. Do not include the endpoints, because there $k(x) = m(x)$."
+       },
+       {
+        "tex": "k(x) < m(x) \\text{ for } \\hl{1}{2} &< x < \\hl{1}{3.5}"
+       }
+      ]
+     }
+    ],
+    "final": "x = \\hl{2}{1} \\text{ or } x = \\hl{2}{4.5}; \\quad \\hl{1}{2} < x < \\hl{1}{3.5}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "fn-transformations",
+  "verdict": "fixed",
+  "issues": "corrected problem 2 note (domain step is new)",
+  "problems": [
+   {
+    "part": "maths-pp-2016-higher-p1-q8#(a)(iii)",
+    "note": null,
+    "legend": {
+     "1": "the image point (new coordinates)"
+    },
+    "steps": [
+     {
+      "ask": "How far must A move horizontally and vertically to reach C?",
+      "title": "Find the translation that maps A onto C",
+      "lines": [
+       {
+        "tex": "A(-0.5,\\ 2.565) &\\to C(0,\\ 2)"
+       },
+       {
+        "tex": "x\\text{-shift} &= 0 - (-0.5) = 0.5"
+       },
+       {
+        "tex": "y\\text{-shift} &= 2 - 2.565 = -0.565"
+       }
+      ]
+     },
+     {
+      "ask": "Where does the maximum point end up after the same move?",
+      "title": "Apply the translation to the maximum point (2.177, 4.529)",
+      "lines": [
+       {
+        "text": "Use the maximum height from part (i); the translation moves every point of the curve the same way."
+       },
+       {
+        "tex": "x &= 2.177 + 0.5"
+       },
+       {
+        "tex": "&= 2.677"
+       },
+       {
+        "tex": "y &= 4.529 - 0.565"
+       },
+       {
+        "tex": "&= 3.964"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{(2.677,\\ 3.964)}",
+    "graph": null
+   },
+   {
+    "part": "practice-fn-transformations-1",
+    "note": "The move is now given as g(x − 4) − 2 instead of worked out from two points, and it is applied to three points instead of one. The method is the same: shift each point. A new step also shifts the domain.",
+    "legend": {
+     "1": "the image point (new coordinates)"
+    },
+    "steps": [
+     {
+      "ask": "Which way does x − 4 move the graph, and by how much?",
+      "title": "Horizontal shift: g(x − 4) moves the graph right 4",
+      "lines": [
+       {
+        "text": "Replacing $x$ by $x - 4$ shifts every point 4 units right, so $(x, y)$ becomes $(x + 4, y)$."
+       }
+      ]
+     },
+     {
+      "ask": "What must x − 4 lie between, and what does that give for x?",
+      "title": "Find the new domain",
+      "lines": [
+       {
+        "text": "$g$ needs its input between $-1$ and $3$."
+       },
+       {
+        "tex": "-1 \\le x - 4 &\\le 3"
+       },
+       {
+        "tex": "3 \\le x &\\le 7"
+       }
+      ]
+     },
+     {
+      "ask": "Where does each point go after the 2 is subtracted?",
+      "title": "Vertical shift: subtracting 2 moves the graph down 2",
+      "lines": [
+       {
+        "text": "Every point then drops 2 units, so $(x, y)$ becomes $(x + 4, y - 2)$."
+       },
+       {
+        "tex": "(-1, 2) &\\to \\hl{1}{(3, 0)}"
+       },
+       {
+        "tex": "(0, -1) &\\to \\hl{1}{(4, -3)}"
+       },
+       {
+        "tex": "(3, 4) &\\to \\hl{1}{(7, 2)}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{(3, 0)},\\ \\hl{1}{(4, -3)},\\ \\hl{1}{(7, 2)}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2023-higher-p1-q2#(c)(i), (ii)",
+    "note": "Two separate moves are applied to the same three points, first a vertical shift and then a horizontal one, and the domain is found for the horizontal move. It is still shifting points, so the method is the same.",
+    "legend": {
+     "1": "the image point (new coordinates)"
+    },
+    "steps": [
+     {
+      "ask": "After subtracting 2, which coordinate of each point changes?",
+      "title": "(i) g(x) − 2 moves the graph down 2",
+      "lines": [
+       {
+        "text": "Subtracting 2 from the output lowers every point by 2; the domain stays $-2 \\le x \\le 2$."
+       },
+       {
+        "tex": "(-2, 4) &\\to \\hl{1}{(-2, 2)}"
+       },
+       {
+        "tex": "(-1, 1) &\\to \\hl{1}{(-1, -1)}"
+       },
+       {
+        "tex": "(2, 3) &\\to \\hl{1}{(2, 1)}"
+       }
+      ]
+     },
+     {
+      "ask": "Where does each point go when x is replaced by x + 3? Which way does it move?",
+      "title": "(ii) g(x + 3) moves the graph left 3",
+      "lines": [
+       {
+        "text": "Adding 3 to the input shifts every point 3 units left."
+       },
+       {
+        "tex": "(-2, 4) &\\to \\hl{1}{(-5, 4)}"
+       },
+       {
+        "tex": "(-1, 1) &\\to \\hl{1}{(-4, 1)}"
+       },
+       {
+        "tex": "(2, 3) &\\to \\hl{1}{(-1, 3)}"
+       }
+      ]
+     },
+     {
+      "ask": "What must x + 3 lie between for g to accept it, and what does that give for x?",
+      "title": "Find the domain of g(x + 3)",
+      "lines": [
+       {
+        "text": "$g$ needs its input between $-2$ and $2$."
+       },
+       {
+        "tex": "-2 \\le x + 3 &\\le 2"
+       },
+       {
+        "tex": "-5 \\le x &\\le -1"
+       }
+      ]
+     }
+    ],
+    "final": "\\text{(i) } g(x) - 2 \\text{ is } g(x) \\text{ down 2; (ii) } g(x+3) \\text{ is } g(x) \\text{ left 3}",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "geo-cor3",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "geo-thm20",
+  "verdict": "fixed",
+  "issues": "made slot 1 legend wording the same in all 3 problems",
+  "problems": [
+   {
+    "part": "practice-geo-thm20-1",
+    "note": null,
+    "legend": {
+     "1": "the radius r",
+     "2": "|OP| = 17, the hypotenuse",
+     "3": "|TP| = 15, the tangent"
+    },
+    "steps": [
+     {
+      "ask": "What angle does a tangent make with the radius at the point of contact? Which side is then opposite that right angle?",
+      "title": "Use Theorem 20",
+      "lines": [
+       {
+        "text": "A tangent is perpendicular to the radius at the point of contact, so $|\\angle OTP| = 90^\\circ$ and $\\hl{2}{[OP]}$ is the hypotenuse of triangle $OTP$."
+       }
+      ]
+     },
+     {
+      "ask": "How do the squares of the two shorter sides relate to the square of the hypotenuse?",
+      "title": "Use Pythagoras",
+      "lines": [
+       {
+        "tex": "\\hl{1}{|OT|}^2 + \\hl{3}{|TP|}^2 &= \\hl{2}{|OP|}^2"
+       },
+       {
+        "tex": "\\hl{1}{r}^2 + \\hl{3}{15}^2 &= \\hl{2}{17}^2"
+       },
+       {
+        "tex": "\\hl{1}{r}^2 + \\hl{3}{225} &= \\hl{2}{289}"
+       },
+       {
+        "tex": "\\hl{1}{r}^2 &= 64"
+       }
+      ]
+     },
+     {
+      "ask": "$r^2 = 64$ has two square roots. Which one can a length be?",
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "\\hl{1}{r} &= \\hl{1}{8}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{r = 8} \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2015-higher-p2-q7#(a)",
+    "note": "Changed: you build a rectangle to get the legs, which are 3r and 8r, so the Pythagoras equation is solved for r. Same: the radius is perpendicular to the tangent, then Pythagoras.",
+    "legend": {
+     "1": "the radius r",
+     "2": "|AB| = 20√73, the hypotenuse"
+    },
+    "steps": [
+     {
+      "ask": "What do the perpendicular radii BK and AH tell you about the angles of BTHK?",
+      "title": "Draw BT parallel to KH",
+      "lines": [
+       {
+        "text": "$BK$ and $AH$ are both perpendicular to the tangent $HK$, so $BTHK$ has four right angles. It is a rectangle."
+       },
+       {
+        "tex": "|TH| &= \\hl{1}{|BK|} = \\hl{1}{r}"
+       },
+       {
+        "tex": "|BT| &= |HK| = 8\\hl{1}{r}"
+       },
+       {
+        "tex": "|AT| &= 4\\hl{1}{r} - \\hl{1}{r}"
+       },
+       {
+        "tex": "&= 3\\hl{1}{r}"
+       }
+      ]
+     },
+     {
+      "ask": "Which side is opposite the right angle at T? How do the three sides fit together?",
+      "title": "Use Pythagoras in the right-angled triangle ATB",
+      "lines": [
+       {
+        "text": "$|\\angle ATB| = 90^{\\circ}$, so the hypotenuse is $\\hl{2}{[AB]}$."
+       },
+       {
+        "tex": "\\hl{2}{|AB|}^2 &= |AT|^2 + |BT|^2"
+       },
+       {
+        "tex": "\\hl{2}{\\left(20\\sqrt{73}\\right)}^2 &= (3\\hl{1}{r})^2 + (8\\hl{1}{r})^2"
+       },
+       {
+        "tex": "\\hl{2}{400 \\times 73} &= 9\\hl{1}{r}^2 + 64\\hl{1}{r}^2"
+       },
+       {
+        "tex": "29200 &= 73\\hl{1}{r}^2"
+       },
+       {
+        "tex": "\\hl{1}{r}^2 &= 400"
+       }
+      ]
+     },
+     {
+      "ask": "$r^2 = 400$ has two square roots. Which one can a length be?",
+      "title": "Take the positive square root",
+      "lines": [
+       {
+        "text": "A radius cannot be negative."
+       },
+       {
+        "tex": "\\hl{1}{r} &= \\hl{1}{20}"
+       }
+      ]
+     }
+    ],
+    "final": "\\hl{1}{r = 20} \\text{ cm}",
+    "graph": null
+   },
+   {
+    "part": "maths-pp-2019-higher-p2-q9#(d)(i)",
+    "note": "Changed: the radius is now the height of a triangle, and the answer is an area with r still in it, not a Pythagoras equation. Same: the radius is perpendicular to the tangent, which is what Theorem 20 gives.",
+    "legend": {
+     "1": "the radius r"
+    },
+    "steps": [
+     {
+      "ask": "What angle does the radius make with the tangent at the point of contact? Which side can then be the height?",
+      "title": "Use the radius as the height of triangle HSP",
+      "lines": [
+       {
+        "text": "A radius meets a tangent at $90^\\circ$, so the radius from $P$ to $[SH]$ is perpendicular to $[SH]$. It is the height of $\\triangle HSP$, with base $|SH| = 58$."
+       },
+       {
+        "tex": "\\text{Area} &= \\frac{1}{2}(58)(\\hl{1}{r})"
+       },
+       {
+        "tex": "&= 29\\hl{1}{r}"
+       }
+      ]
+     }
+    ],
+    "final": "29\\hl{1}{r} \\text{ m}^2",
+    "graph": null
+   }
+  ]
+ },
+ {
+  "skill": "geo-transformations",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ },
+ {
+  "skill": "seq-arith-find-ad",
+  "verdict": "good",
+  "issues": "",
+  "problems": null
+ }
+]
