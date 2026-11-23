@@ -384,7 +384,8 @@ def assemble():
 def fix():
     """Pack every failing lesson with its errors into fix/Fnn.json for a repair agent (see FIX.md)."""
     report, outs, js = check(), outputs(), jobs()
-    bad = [sid for sid, errs in report.items() if errs and errs != ['no output']]
+    # a lesson short of 3 problems needs a new candidate (practice.py topup), not a repair
+    bad = [sid for sid, errs in report.items() if errs and errs not in (['no output'], ['need exactly 3 different problems'])]
     d = WORK / 'fix'
     d.mkdir(exist_ok=True)
     (WORK / 'fixed').mkdir(exist_ok=True)

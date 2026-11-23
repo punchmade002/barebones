@@ -122,16 +122,18 @@ def check_problem(pr):
 
 
 def check(batch=None):
-    """All batches → check.json; with a batch name, just print that batch's problems (writers self-check)."""
-    need, report, ok = todo(), {}, {}
-    for f in sorted((WORK / 'out').glob(f'{batch or "W*"}.json')):
+    """All batches → check.json; with a batch name, just print that batch's problems (writers self-check).
+    A skill's problems are pooled across batches, so a top-up batch (X*) adds to a skill instead of replacing it."""
+    need, report, ok, pool = todo(), {}, {}, {}
+    for f in sorted((WORK / 'out').glob(f'{batch}.json' if batch else '[WX]*.json')):
         for job in json.loads(f.read_text()):
-            sid, probs = job['skill'], job.get('problems', [])
-            errs = {f'{sid}#{k + 1}': check_problem(p) for k, p in enumerate(probs)}
-            if len(probs) != need.get(sid):
-                errs[sid] = [f'wrote {len(probs)} problems, needed {need.get(sid)}']
-            report.update({k: v for k, v in errs.items() if v})
-            ok[sid] = [p for k, p in enumerate(probs) if not errs.get(f'{sid}#{k + 1}')]
+            pool.setdefault(job['skill'], []).extend(job.get('problems', []))
+    for sid, probs in pool.items():
+        errs = {f'{sid}#{k + 1}': check_problem(p) for k, p in enumerate(probs)}
+        if not batch and len(probs) < need.get(sid, 0):
+            errs[sid] = [f'wrote {len(probs)} problems, needed {need.get(sid)}']
+        report.update({k: v for k, v in errs.items() if v})
+        ok[sid] = [p for k, p in enumerate(probs) if not errs.get(f'{sid}#{k + 1}')]
     if batch:
         print('\n'.join(f'{k}: {e}' for k, v in report.items() for e in v) or f'{batch}: all problems pass')
         return ok
@@ -139,6 +141,28 @@ def check(batch=None):
     good = sum(len(v) for v in ok.values())
     print(f'{good} problems pass, {len(report)} with errors, across {len(ok)} skills (of {len(need)} to fill)')
     return ok
+
+
+def topup(sids):
+    """One more problem for each skill whose lesson came out short: its other candidates used a different
+    method. The lesson's first problem is the reference, so the writer matches its method."""
+    from lessons import outputs
+    outs, parts, by = outputs(), bank_parts(), exam_parts()
+    jobs = []
+    for sid in sids:
+        s = SKILLS[sid]
+        ref = [p['part'] for p in outs[sid]['problems']]
+        jobs.append(dict(
+            skill=dict(id=sid, title=s['title'], level=s['level'], input=s['input'], output=s['output'],
+                       example=s['example'], needs=[SKILLS[p]['title'] for p in s['prereqs']]),
+            write=1, examParts=len(by.get(sid, [])),
+            note='Use the SAME method as the references (they are the lesson so far); change one thing, as usual.',
+            references=[dict(part=p, level=parts[p]['q']['level'], marks=parts[p]['p']['marks'],
+                             steps=parts[p]['p']['workedSolution']['steps'], final=parts[p]['p']['workedSolution']['finalAnswer'])
+                        for p in ref if p in parts]))
+    n = len(list((WORK / 'in').glob('X*.json'))) + 1
+    (WORK / 'in' / f'X{n:02}.json').write_text(json.dumps(jobs, ensure_ascii=False))
+    print(f'{len(jobs)} skills → practice/in/X{n:02}.json')
 
 
 def merge():
@@ -156,4 +180,4 @@ def merge():
 assert LEARN_ONLY.match('con-3') and LEARN_ONLY.match('geo-prove-thm11') and not LEARN_ONLY.match('geo-thm9')
 
 if __name__ == '__main__':
-    {'pack': lambda: pack(sys.argv[2:]), 'check': lambda: check(*sys.argv[2:3]), 'merge': merge}[sys.argv[1]]()
+    {'pack': lambda: pack(sys.argv[2:]), 'topup': lambda: topup(sys.argv[2:]), 'check': lambda: check(*sys.argv[2:3]), 'merge': merge}[sys.argv[1]]()
