@@ -162,7 +162,7 @@ button { font: inherit; cursor: pointer }
 
 <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jsxgraph@1.8.0/distrib/jsxgraphcore.js"></script>
-<script src="maths-skills/index.js?v=eb265f3985"></script>
+<script src="maths-skills/index.js?v=1d8456ef46"></script>
 <script src="maths-packs.js"></script>
 <script>
 const KATEX_OPTS = { throwOnError: false, strict: 'ignore', macros: { '\\hl': '\\htmlClass{hl hl-#1}{#2}' },
@@ -187,7 +187,7 @@ function renderIndex() {
   const by = {};
   for (const l of MathsPacks.list) (by[l.chapter] ||= []).push(l);      // already in chapter order, easiest first
   document.title = 'Maths skills';
-  app.innerHTML = `<section class="index"><h1>Maths skills</h1>
+  app.innerHTML = `<a class="back" href="app/maths/">← Maths</a><section class="index"><h1>Maths skills</h1>
     <p>${MathsPacks.list.length} skills${MathsPacks.level === 'ordinary' ? ' on the Ordinary Level course' : ''}. Each one starts with a short lesson, then exam problems to work through.</p>
     ${Object.keys(by).map(c => `<div class="chapter"><h2>${esc(MathsPacks.chapters[c])}</h2><ul>${by[c].map(l =>
       `<li><a href="maths-learn.html?skill=${encodeURIComponent(l.id)}"><span>${esc(l.title)}</span><span class="tags">${gradeTag(l.grade)}<span class="lvl">${l.level}</span></span></a></li>`).join('')}</ul></div>`).join('')}
