@@ -4,11 +4,14 @@ G='geo-glaciation-s1.'
 W='geo-rocks-weathering-s3.'
 R='geo-rivers-s1.'
 def n(i,s,w,c='high'):
-    i=i if i.startswith('geo-') else G+i
+    i=i if i.startswith('geo-') else G+fx(i)
     return {"id":i,"strength":s,"why":w,"confidence":c}
+def fx(k):
+    p=k.split('.')
+    return '.'.join(p[1:]) if len(p)==3 and p[0]=='1' else k
 E,H='essential','helpful'
 D={}
-def a(k,c,*needs): D[G+k]={"cost":c,"needs":list(needs)}
+def a(k,c,*needs): D[G+fx(k)]={"cost":c,"needs":list(needs)}
 a('0.b',1)
 a('0.0',1)
 a('0.1',1,n('0.0',H,'uses Munsterian/Midlandian names'))
