@@ -105,11 +105,31 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
   `drafts/crunch/biology/map/crunch-score.js`: bundles loops, scores downstream,
   then makes a greedy cut with gap discounts. The map's tuning defaults are hop
   decay 0.5, helpful weight 0.5, gap discount 0.5 essential and 0.2 helpful.
-  **Interim exam value (2026-11-24):** each subsection's Higher Level past-paper
-  marks (2015–2025, a part tagged to several subsections split evenly) are shared
-  evenly among its points. Every year counts the same and question choice is
-  ignored. Biology results: a 55% target cuts 73% of study effort, 35% cuts 86%,
-  and 95% cuts 10% (never-examined content). Next is tagging exam parts to points.
+  **Exam value (2026-11-24, user asked to bias for choice and recency):**
+  - Every Higher Level paper (2015–2025) is re-marked as if it were the 2027 paper:
+    old Section A is the compulsory Q1 (1/6), and the B and C questions are optional,
+    with the student answering 5 in 6 and dropping the ones they're least ready for.
+    Exact top-K, with ties sharing the last places.
+  - Marking points are slots ("any k of these points"). Parts tagged to points use
+    `content/crunch/<subject>-exam-tags.json`; untagged parts split their marks
+    evenly across their subsections' points.
+  - Recency: papers are weighted with a half-life (default 8 years).
+  - Subsections no old paper tested (19 in Biology, all new-course content) get
+    course-average value, defaulting to their share of the course (~10%).
+  - Each subsection's chance of coming up is shown: a recency-weighted share of
+    papers, with a light prior.
+  - Biology results without tags: 55% cuts 75%, 35% cuts 87%. Choice adds about 5
+    points; recency adds almost nothing.
+  **Pattern backtest** (predicting 2019–2025 from earlier years, by subsection):
+  there is no rotation or "it's due" effect. A subsection that came up last year is
+  more likely to come up again (61% vs 37%), but that is just its base rate; adding
+  a last-year factor made predictions worse. Subsections absent for 4+ years come up
+  less (32%), not more. Long half-lives (8+ years) predicted best. The 2026 paper is
+  in `exam-papers/biology/` but not yet in the bank.
+- `python3 scripts/crunch_exam_tags.py <subject> [merge]`: one package per HL
+  question (model answers + candidate points) → `drafts/crunch/<subject>/exam-tags/`,
+  prompt `exam-tags/prompt.md`. Pilot on 3 questions: Sonnet was precise (61k
+  tokens/question), Haiku over-tagged (31 vs 21 marking points on one question).
 - Not under `content/<subject>/`: `build_notes.py` reads every `.json` there as a
   subsection.
 

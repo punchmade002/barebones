@@ -1,0 +1,242 @@
+QUESTION biology-pp-2016-higher-q4 (LC Biology Higher 2016 — Section A — Q4, 20 marks)
+
+PART (a)(i) (5 marks) subsections: bio11-s6
+MODEL ANSWER: 0%. Roan (RW) × white (WW): gametes R, W × W. Offspring are 1 RW (roan) : 1 WW (white), so no calf can be red.
+
+PART (a)(ii) (5 marks) subsections: bio11-s6
+MODEL ANSWER: 50%. Roan (RW) × red (RR): gametes R, W × R. Offspring are 1 RR (red) : 1 RW (roan).
+
+PART (a)(iii) (5 marks) subsections: bio11-s6
+MODEL ANSWER: 25%. Roan (RW) × roan (RW) gives 1 RR (red) : 2 RW (roan) : 1 WW (white), so 1 in 4 is red.
+
+PART (b)(i) (1 marks) subsections: bio11-s11, bio11-s2
+MODEL ANSWER: Sex-linkage means the gene for a trait is carried on a sex chromosome (usually the X chromosome), so the trait's inheritance pattern differs between males and females.
+
+PART (b)(ii) (1 marks) subsections: bio11-s11
+MODEL ANSWER: Males.
+
+PART (b)(iii) (3 marks) subsections: bio11-s11, bio11-s10
+MODEL ANSWER: Male: X^hY (X^h = haemophilia allele). He has only one X, so the recessive allele is expressed and he is a haemophilia sufferer. (A male X^HY is normal.)
+Female: X^hX^h is a sufferer (very rare). X^HX^h is normal, a carrier. X^HX^H is normal.
+Explanation: a male has only one X chromosome, so he needs just one recessive allele (from his mother) to have haemophilia. A female has two X chromosomes, so she must inherit the recessive allele from both parents to be a sufferer. With only one recessive allele she is a carrier and is not affected.
+
+CANDIDATES bio11-s10: Sex determination
+[bio11-s10.0.b] Whether a person is female or male depends on one pair of chromosomes out of 23. Knowing what that pair looks like in each sex is the starting point for working out how sex is inherited.
+[bio11-s10.0.0] A human body cell has 46 chromosomes in 23 pairs: 22 pairs of autosomes (the chromosomes that are the same in both sexes) and one pair of sex chromosomes, which decide the person's sex. There is more on this in Chromosome structure and genes.
+[bio11-s10.0.1] Females have two X chromosomes (XX); males have one X and one Y (XY). Every body cell carries this pair, not just the gametes (sex cells).
+[bio11-s10.0.2] The X is a large chromosome carrying roughly 800–900 protein-coding genes, so it carries many genes for the body generally.
+[bio11-s10.0.3] The Y is much smaller and carries well under 100 genes, most of them concerned with male development and sperm production.
+[bio11-s10.0.4] A karyotype is a photograph or diagram of a cell's chromosomes arranged in their pairs by size; it shows the sex chromosomes as XX or XY, so the sex of the person can be read straight from it.
+[bio11-s10.0.5] Diagram: a simplified karyotype of 22 numbered autosome pairs plus the sex-chromosome pair, with a female (XX) and a male (XY) version of pair 23, the Y drawn clearly smaller than the X.
+[bio11-s10.1.b] Body cells have two sex chromosomes, but gametes are made by meiosis (the cell division that halves the chromosome number), so each gamete gets only one. Writing out which gametes each parent makes lets you model the cross and predict the sexes of the children.
+[bio11-s10.1.0] Gametes are haploid (they have half the usual chromosome number), with 23 chromosomes: 22 autosomes and one sex chromosome.
+[bio11-s10.1.1] All of a woman's eggs carry an X (23,X), because she has only X chromosomes to pass on.
+[bio11-s10.1.2] A man's sperm carry either an X (23,X) or a Y (23,Y), in equal numbers, because the X and Y separate into different cells in meiosis.
+[bio11-s10.1.3] Parents' phenotypes (what they are): female × male.
+[bio11-s10.1.4] Parents' genotypes (their sex chromosomes): XX × XY.
+[bio11-s10.1.5] Gametes: X × X, Y.
+[bio11-s10.1.6] Punnett square (a grid showing every possible gamete combination): XX, XX / XY, XY (or 2 × 1: XX, XY). Offspring genotypes: 1 XX : 1 XY. Offspring phenotypes: 1 female : 1 male (50% each).
+[bio11-s10.1.7] Diagram: the Punnett square of this cross, with the mother's egg (X) on one side and the father's sperm (X and Y) on the other, each box labelled with genotype and sex.
+[bio11-s10.2.b] The cross shows that every egg is the same but sperm come in two kinds. So the result of fertilisation, when a sperm and egg fuse, depends on which sperm wins.
+[bio11-s10.2.0] The sex of a child is decided at fertilisation by the sperm: an X-carrying sperm gives a girl (XX); a Y-carrying sperm gives a boy (XY).
+[bio11-s10.2.1] So the father's gamete decides the sex; the mother always gives an X, so her egg cannot make the difference.
+[bio11-s10.2.2] Every pregnancy has an independent 1 in 2 chance of a girl or a boy, whatever the sex of earlier children, because each fertilisation is a fresh chance event.
+[bio11-s10.2.3] Across a large population the sex ratio is close to 1 : 1, because X and Y sperm are made in equal numbers.
+[bio11-s10.2.4] A boy receives his X from his mother and his Y from his father; a girl receives one X from each parent.
+[bio11-s10.2.5] This is why X-linked traits (traits carried by genes on the X) pass from mother to son. There is more on this in Sex-linked traits.
+[bio11-s10.3.b] Having XY or XX is only the start. The Y chromosome carries a particular gene that sets an embryo on the male path, and without it development follows the female path.
+[bio11-s10.3.0] The Y chromosome carries the SRY gene (sex-determining region of the Y).
+[bio11-s10.3.1] In an XY embryo, from about the sixth to seventh week of development, SRY switches on the development of the undifferentiated gonads (gonads that have not yet become either testes or ovaries) into testes.
+[bio11-s10.3.2] The testes then make testosterone, which brings about the development of the male reproductive system.
+[bio11-s10.3.3] In an XX embryo, with no Y and so no SRY, the gonads develop into ovaries and the female reproductive system develops.
+[bio11-s10.3.4] So it is the presence of a Y (SRY), not the number of X chromosomes, that makes the embryo male.
+
+CANDIDATES bio11-s11: Sex-linked traits
+[bio11-s11.0.b] Some genes sit on the sex chromosomes rather than on the other chromosomes, and this changes how they are inherited. Because males and females carry different sex chromosomes, the same allele can have a different effect in each sex.
+[bio11-s11.0.0] Sex-linked genes are almost all on the X chromosome (X-linked), because the Y carries very few genes.
+[bio11-s11.0.1] A sex-linked trait is a trait controlled by such a gene. The Y has no matching allele for most X-linked genes, so in males the X-linked gene has no second copy to pair with.
+[bio11-s11.0.2] Females (XX) have two copies of each X-linked gene, so they can be homozygous (two identical alleles) or heterozygous (two different alleles).
+[bio11-s11.0.3] A heterozygous female with one recessive allele is a carrier (she carries the allele but does not show the trait), because her dominant allele masks it.
+[bio11-s11.0.4] Males (XY) have only one copy, so whatever allele their single X carries is expressed, with no second allele to mask it.
+[bio11-s11.0.5] This is why a male cannot be a carrier, and why one recessive allele is enough for him to show the trait.
+[bio11-s11.0.6] X-linked recessive conditions are therefore much more common in males than in females.
+[bio11-s11.0.7] A female shows the condition only if she inherits the recessive allele from both parents, which means an affected father and a carrier or affected mother.
+[bio11-s11.1.b] To predict who inherits an X-linked allele, follow the sex chromosomes. A child's sex is decided by the sex chromosome the father contributes, and that also decides where the X-linked allele comes from.
+[bio11-s11.1.0] A father passes his X to all his daughters and his Y to all his sons.
+[bio11-s11.1.1] So an affected father never passes an X-linked condition to his sons, because sons get his Y, which carries no allele for the gene.
+[bio11-s11.1.2] All his daughters are at least carriers, because each receives his X with the recessive allele.
+[bio11-s11.1.3] A son's X-linked allele always comes from his mother, since his only X is the one she gave him.
+[bio11-s11.2.b] Genetics questions use a fixed way of writing X-linked genotypes so that the sex and the alleles are both clear at a glance.
+[bio11-s11.2.0] Write the allele as a superscript on the X, and the Y with no allele, because the Y has no matching allele for these genes.
+[bio11-s11.2.1] Colour blindness: Xᴮ = normal colour vision, Xᵇ = colour blind. Haemophilia: Xᴴ = normal clotting, Xʰ = haemophilia.
+[bio11-s11.2.2] Colour-blindness genotypes: female XᴮXᴮ (normal), XᴮXᵇ (carrier), XᵇXᵇ (colour blind); male XᴮY (normal), XᵇY (colour blind).
+[bio11-s11.2.3] Use the letters a question gives.
+[bio11-s11.3.b] Red-green colour blindness is the standard example of an X-linked recessive condition, and the one most often used in crosses.
+[bio11-s11.3.0] Red-green colour blindness is an X-linked recessive condition in which a person has difficulty telling red and green apart.
+[bio11-s11.3.1] The genes for the red- and green-sensitive light-absorbing pigments of the cone cells of the retina (the colour-detecting cells at the back of the eye) are on the X chromosome. The recessive allele gives a pigment that is missing or works abnormally.
+[bio11-s11.3.2] It affects about 1 in 12 men (8%) and about 1 in 200 women (0.5%) of northern European ancestry. The difference fits the pattern that males need only one recessive allele.
+[bio11-s11.3.3] It is detected with coloured-dot test charts (Ishihara plates).
+[bio11-s11.3.4] It is not treatable, but most people adapt to it.
+[bio11-s11.4.b] Haemophilia is the second named X-linked recessive condition. It shows how a single faulty gene can affect the whole body, because it removes one step in blood clotting.
+[bio11-s11.4.0] Haemophilia is an X-linked recessive condition in which blood does not clot properly because a clotting protein is missing or faulty.
+[bio11-s11.4.1] Haemophilia A lacks clotting factor VIII; haemophilia B lacks factor IX.
+[bio11-s11.4.2] Bleeding after injury lasts much longer, and bleeding can occur into joints and muscles.
+[bio11-s11.4.3] Haemophilia A affects about 1 in 5,000 male births.
+[bio11-s11.4.4] It is treated by injections of the missing clotting factor, now mostly produced by genetically engineered cells. There is more on this in Genetic engineering.
+[bio11-s11.5.b] Haemophilia in European royal families is a well-known real case of an X-linked allele passing through carrier daughters to affected grandsons.
+[bio11-s11.5.0] Queen Victoria (1819–1901) was a carrier of haemophilia.
+[bio11-s11.5.1] Her son Leopold had haemophilia. Through two of her daughters, who were carriers, it passed into the royal families of Russia (Tsarevich Alexei, son of Tsar Nicholas II) and Spain.
+[bio11-s11.6.b] Haemophilia and colour blindness are not the only X-linked recessive conditions. A third example is useful when a question asks for one other than haemophilia.
+[bio11-s11.6.0] Duchenne muscular dystrophy is another X-linked recessive condition, caused by a lack of the muscle protein dystrophin, which causes progressive muscle weakness (muscles get steadily weaker over time).
+[bio11-s11.6.1] It is almost always in boys, which fits the pattern for X-linked recessive conditions.
+[bio11-s11.7.b] A mother who is a carrier of colour blindness has a partner with normal vision, so we can work out what their children could inherit.
+[bio11-s11.7.0] Parents' phenotypes: normal-vision (carrier) female × normal-vision male.
+[bio11-s11.7.1] Parents' genotypes: carrier female XᴮXᵇ × normal male XᴮY.
+[bio11-s11.7.2] Gametes (each carries one sex chromosome with its allele): carrier female Xᴮ, Xᵇ × normal male Xᴮ, Y.
+[bio11-s11.7.3] Punnett square: XᴮXᴮ, XᴮY / XᴮXᵇ, XᵇY.
+[bio11-s11.7.4] Offspring genotypes and phenotypes: 1 normal female (XᴮXᴮ) : 1 carrier female (XᴮXᵇ) : 1 normal male (XᴮY) : 1 colour-blind male (XᵇY).
+[bio11-s11.7.5] Half the sons are expected to be colour blind and half the daughters carriers; no daughters are colour blind, because every daughter gets the father's normal Xᴮ. 25% of all children are colour blind.
+[bio11-s11.7.6] Diagram: the Punnett square for this cross, with the mother's gametes Xᴮ and Xᵇ on one side and the father's Xᴮ and Y on the other, each box labelled with genotype and phenotype (normal female, carrier female, normal male, colour-blind male).
+[bio11-s11.8.b] Here the father has haemophilia and the mother has two normal alleles. This cross shows what an affected father passes on.
+[bio11-s11.8.0] Parents' phenotypes: normal female × affected male.
+[bio11-s11.8.1] Parents' genotypes: normal female XᴴXᴴ × affected male XʰY.
+[bio11-s11.8.2] Gametes: normal female Xᴴ × affected male Xʰ, Y.
+[bio11-s11.8.3] Offspring: XᴴXʰ (carrier daughters) and XᴴY (normal sons), 1 : 1.
+[bio11-s11.8.4] All daughters are carriers, because each gets the father's Xʰ. No children have haemophilia, because the sons get his Y and the mother's normal Xᴴ.
+[bio11-s11.9.b] When both parents contribute a recessive allele, a daughter can be affected. This cross shows how that happens.
+[bio11-s11.9.0] Parents' phenotypes: carrier female × colour-blind male.
+[bio11-s11.9.1] Parents' genotypes: carrier female XᴮXᵇ × colour-blind male XᵇY.
+[bio11-s11.9.2] Gametes: carrier female Xᴮ, Xᵇ × colour-blind male Xᵇ, Y.
+[bio11-s11.9.3] Offspring: XᴮXᵇ (carrier female), XᵇXᵇ (colour-blind female), XᴮY (normal male), XᵇY (colour-blind male), 1 : 1 : 1 : 1.
+[bio11-s11.9.4] Half the daughters and half the sons are colour blind. This is how a colour-blind daughter can arise: she inherits Xᵇ from both her mother and her father.
+[bio11-s11.10.b] This cross reverses the sexes of the affected parent. It shows that an affected mother passes the condition to every son.
+[bio11-s11.10.0] Parents' phenotypes: affected female × normal male.
+[bio11-s11.10.1] Parents' genotypes: affected female XʰXʰ × normal male XᴴY.
+[bio11-s11.10.2] Gametes: affected female Xʰ × normal male Xᴴ, Y.
+[bio11-s11.10.3] Offspring: XᴴXʰ (carrier daughters) and XʰY (sons with haemophilia).
+[bio11-s11.10.4] All sons are affected, because their only X comes from the mother; all daughters are carriers, because they also get the father's normal Xᴴ.
+[bio11-s11.10.5] Females with haemophilia are very rare; this cross is used to show the pattern.
+[bio11-s11.11.b] A pedigree shows how a trait passes through several generations of a family. Before you can use one, you need to know what its symbols and lines mean.
+[bio11-s11.11.0] A pedigree is a family-tree diagram showing which members of a family have a trait.
+[bio11-s11.11.1] Symbols: square = male; circle = female; shaded = affected; half-shaded (or a dot in the centre) = carrier.
+[bio11-s11.11.2] A horizontal line joining a male and a female = parents; a vertical line down to a horizontal line = their children, in birth order from left to right.
+[bio11-s11.11.3] Generations are numbered I, II, III and individuals 1, 2, 3 within each, so every person can be named, for example II-2.
+[bio11-s11.12.b] Four features of a pedigree point to an X-linked recessive trait. Each follows from the rules on how X chromosomes are passed on.
+[bio11-s11.12.0] Many more affected males than females, because a male needs only one recessive allele.
+[bio11-s11.12.1] Affected males usually have unaffected parents, because the mother is a carrier.
+[bio11-s11.12.2] The trait can skip a generation, passing from an affected man through his carrier daughters to his grandsons.
+[bio11-s11.12.3] It is never passed from father to son, because a son gets his father's Y, not his X.
+[bio11-s11.13.b] To give the genotype of a named person, or the chance that a child is affected or a carrier, work through the pedigree in a fixed order. This starts with the people whose genotype is certain.
+[bio11-s11.13.0] 1. Write XY for every male and XX for every female.
+[bio11-s11.13.1] 2. Fill in the alleles of affected males (XʰY) and unaffected males (XᴴY), which follow directly from their phenotype.
+[bio11-s11.13.2] 3. Any daughter of an affected male is at least a carrier; any mother of an affected son is a carrier or affected.
+[bio11-s11.13.3] 4. Use these to fill in the remaining females.
+[bio11-s11.13.4] 5. Then work any further cross with a Punnett square.
+[bio11-s11.13.5] Diagram: a three-generation X-linked recessive pedigree. Generation I: normal man, carrier woman. Generation II: affected son, normal son, carrier daughter, normal daughter. Generation III: the carrier daughter's children with a normal man, including an affected grandson. Label symbols and generations.
+[bio11-s11.14.b] Genes on the Y chromosome follow a different pattern from X-linked genes, because only males have a Y.
+[bio11-s11.14.0] Genes on the Y chromosome (for example SRY) are passed only from father to son and are found only in males. There is more on SRY in Sex determination.
+
+CANDIDATES bio11-s2: Key concepts of information transfer
+[bio11-s2.0.b] Inheritance starts with a few basic ideas: what counts as one kind of organism, what is passed on, and what carries it. These terms are used throughout genetics.
+[bio11-s2.0.0] A species is a group of organisms with similar features that can interbreed in natural conditions to produce fertile offspring (offspring that can themselves reproduce). A horse and a donkey can mate, but their offspring, the mule, is sterile, so horses and donkeys are different species.
+[bio11-s2.0.1] The species definition has limits: it cannot be applied to organisms that reproduce only asexually, because they never interbreed, or to fossils, because dead organisms cannot be tested for interbreeding. There is more on how new species form in Evidence for evolution.
+[bio11-s2.0.2] Heredity is the passing of characteristics (traits), by means of genes, from parents to offspring, that is, from one generation to the next. A gene is a section of DNA that carries the instructions for a trait.
+[bio11-s2.0.3] Genetics is the study of heredity (how traits are passed on) and of variation (the differences between individuals).
+[bio11-s2.0.4] A chromosome is the structure that carries genes from one generation to the next. Body cells carry chromosomes in homologous pairs (two matching chromosomes, one from each parent), and each gamete carries one chromosome from each pair.
+[bio11-s2.1.b] Parents pass genes on through special sex cells. Following the chromosome number from parent to gametes to zygote shows how each generation gets its genes and why the number stays constant.
+[bio11-s2.1.0] A gamete is a sex cell: a sperm or egg in animals, or in flowering plants the male gamete nucleus in the pollen grain and the egg cell in the ovule.
+[bio11-s2.1.1] Gametes are haploid, with one set of chromosomes (one from each pair), so a human gamete has 23 chromosomes. They are made by meiosis. Gametes must be haploid because fertilisation adds the two sets together, so otherwise the chromosome number would double every generation.
+[bio11-s2.1.2] Sexual reproduction involves the fusion of two gametes, usually from two parents. The offspring receive half their chromosomes from each parent, so they are genetically different from both parents and from each other. There is more on this in Variation.
+[bio11-s2.1.3] Asexual reproduction involves one parent and no gametes, so it produces genetically identical offspring, called clones.
+[bio11-s2.1.4] Fertilisation is the fusion of the nucleus of a male gamete with the nucleus of a female gamete to form a diploid zygote (a cell with two sets of chromosomes), the first cell of the new organism. It restores the diploid number: in humans 23 + 23 = 46 chromosomes.
+[bio11-s2.1.5] The zygote divides by mitosis, so every body cell carries the same set of chromosomes.
+[bio11-s2.1.6] Diagram: life-cycle flow: parent (2n = 46) → meiosis → gametes (n = 23, sperm and egg) → fertilisation → zygote (2n = 46) → mitosis → offspring; label haploid, diploid, meiosis, fertilisation and mitosis.
+[bio11-s2.2.b] A gene is a section of DNA for one trait, such as seed shape. Genes come in slightly different versions, and these versions, called alleles, are what make individuals differ.
+[bio11-s2.2.0] An allele is one of the alternative forms of a gene, found at the same locus (position) on homologous chromosomes. Alleles differ slightly in base sequence, as they arise by mutation, so they may produce different versions of the trait.
+[bio11-s2.2.1] In peas, the gene for seed shape has an allele for round seeds (R) and one for wrinkled seeds (r).
+[bio11-s2.2.2] A diploid organism has two alleles for each autosomal gene (a gene on a non-sex chromosome), one on each homologous chromosome, one inherited from each parent.
+[bio11-s2.2.3] A population may have more than two alleles of a gene, but each individual carries only two, because it has only two homologous chromosomes. The human ABO blood-group gene has three alleles (A, B and O) in the population.
+[bio11-s2.2.4] Homozygous means having two identical alleles of a gene (RR or rr). A homozygous organism is also called pure-breeding, because it passes on the same allele in every gamete.
+[bio11-s2.2.5] Heterozygous means having two different alleles of a gene (Rr). A heterozygous organism is also called a hybrid for that gene.
+[bio11-s2.2.6] Diagram: a pair of homologous chromosomes with one gene locus marked, one chromosome carrying R and the other r (heterozygous); a second pair carrying r and r (homozygous); label homologous chromosomes, locus and allele.
+[bio11-s2.3.b] Two terms separate what an organism's genes are from what it looks like or does. They are not always the same, because the environment and dominance both play a part.
+[bio11-s2.3.0] Genotype is the genetic make-up of an organism: the alleles it has for a particular trait, written with letters, such as RR, Rr or rr.
+[bio11-s2.3.1] Phenotype is the observable (physical, chemical or behavioural) characteristics of an organism that result from its genotype, such as round or wrinkled seeds, or blood group A.
+[bio11-s2.3.2] Phenotype = genotype + environment. The genotype sets the possible range, and the environment affects how it is expressed.
+[bio11-s2.3.3] Identical twins have the same genotype but may differ in mass because of diet and exercise, so the same genes can give different phenotypes.
+[bio11-s2.3.4] Hydrangea plants of the same variety have blue flowers in acid soil and pink flowers in alkaline soil, so soil pH changes the phenotype.
+[bio11-s2.3.5] A plant with the genes for chlorophyll is pale yellow if grown in the dark, because the environment (no light) stops the pigment forming.
+[bio11-s2.3.6] Different genotypes can give the same phenotype: RR and Rr are both round, because one allele is dominant. So the phenotype does not always reveal the genotype. There is more on how to find the genotype (the test cross) in Monohybrid crosses.
+[bio11-s2.4.b] When an organism is heterozygous, the two alleles do not always show equally. Dominant and recessive describe which allele is seen in the phenotype and which is hidden.
+[bio11-s2.4.0] A dominant allele is expressed in the phenotype of a heterozygote, masking the effect of the other allele. It is written with a capital letter (R), and a dominant trait shows in both RR and Rr.
+[bio11-s2.4.1] A recessive allele is expressed in the phenotype only when no dominant allele is present, that is, only in the homozygous condition (rr). It is written with the lower-case letter (r).
+[bio11-s2.4.2] In a heterozygote, a recessive allele is present but hidden, and it can still be passed on to offspring. It does not disappear and is not weaker.
+[bio11-s2.4.3] Often the dominant allele codes for a working protein and the recessive allele for a non-working one. One working copy makes enough protein, so Rr looks the same as RR.
+[bio11-s2.4.4] In peas, R codes for a working starch-branching enzyme; rr seeds make less starch and wrinkle. There is more on this chain in Genes, proteins and traits.
+[bio11-s2.4.5] Dominant does not mean common or better. The allele causing Huntington's disease is dominant but rare, and harmful.
+[bio11-s2.4.6] Cystic fibrosis and albinism are caused by recessive alleles, so two carriers (heterozygotes) can have an affected child.
+[bio11-s2.4.7] A carrier is a heterozygous individual who carries a recessive allele for a condition but does not show it.
+[bio11-s2.5.b] Having a gene is not the same as using it. Gene expression is how a cell turns the information in a gene into something that affects the organism.
+[bio11-s2.5.0] Gene expression is the process by which the information in a gene is used to make its product (a protein or a functional RNA), so that the gene affects the phenotype.
+[bio11-s2.5.1] A gene that is being used is switched on (expressed); one that is not is switched off.
+[bio11-s2.5.2] Every body cell has the same genes, but each cell type expresses only some of them, which is why cells become specialised.
+[bio11-s2.5.3] Expression is controlled by regulatory DNA (stretches of DNA that switch genes on or off), by signals such as hormones, and by the environment: some genes are switched on only in response to a stimulus.
+[bio11-s2.5.4] There is more on how the environment and behaviour change expression in Genetic and epigenetic mechanisms.
+[bio11-s2.6.b] Four more terms extend the basic vocabulary. Each has a short definition and, where there is one, a named example.
+[bio11-s2.6.0] Epigenetic expression is a change in gene expression that is not caused by a change in the DNA base sequence, but by chemical tags on the DNA or on the histones (the proteins DNA is wound around) that switch genes on or off.
+[bio11-s2.6.1] Epigenetic tags can be caused by the environment and behaviour, can be passed on when cells divide, and some are reversible.
+[bio11-s2.6.2] Incomplete dominance means neither allele is dominant over the other, so the heterozygote has a phenotype intermediate between the two homozygotes. For example, red-flowered and white-flowered snapdragons give pink-flowered heterozygotes. This contrasts with complete dominance, where the heterozygote looks like the dominant homozygote.
+[bio11-s2.6.3] Linkage: genes located on the same chromosome are linked and tend to be inherited together, because they do not separate into different gametes. Linked genes do not assort independently.
+[bio11-s2.6.4] Sex-linkage: a gene located on a sex chromosome (in humans almost always the X chromosome) is sex-linked, so the trait's inheritance pattern differs between males and females. Examples are red–green colour blindness and haemophilia, which are much more common in males.
+
+CANDIDATES bio11-s6: Incomplete dominance
+[bio11-s6.0.b] With complete dominance, one allele (a version of a gene) hides the other in a heterozygote (an organism carrying two different alleles). With incomplete dominance, neither allele hides the other, and the results of crosses look different.
+[bio11-s6.0.0] The heterozygote's phenotype (its observable feature) lies between those of the two homozygotes (organisms with two identical alleles), e.g. pink snapdragons from red × white.
+[bio11-s6.0.1] There are three phenotypes rather than two, so each genotype (the pair of alleles an organism carries) can be recognised just by looking at the phenotype.
+[bio11-s6.0.2] With complete dominance the heterozygote looks like the homozygous dominant (Tt is as tall as TT), so there are only two phenotypes and a tall plant could be TT or Tt.
+[bio11-s6.0.3] The AB blood group is not an example of incomplete dominance: both the A and B antigens are fully made side by side, rather than giving an in-between result.
+[bio11-s6.1.b] The pink colour has a simple molecular cause, which also shows that the alleles themselves are never altered.
+[bio11-s6.1.0] In snapdragon flower colour, the red allele codes for a working enzyme that makes red pigment, and the white allele codes for no working pigment enzyme.
+[bio11-s6.1.1] A plant with two red alleles has two working copies, so it makes enough pigment to be red.
+[bio11-s6.1.2] A heterozygote has only one working copy, so it makes less pigment and is pink. A plant with two white alleles makes none and is white.
+[bio11-s6.1.3] The alleles are not mixed or changed: red and white flowers reappear in the next generation, which shows the genes themselves do not blend.
+[bio11-s6.2.b] Genetics questions need a key for the allele letters. A capital and lower-case pair suggests one allele is dominant, so incomplete dominance needs a different choice.
+[bio11-s6.2.0] Neither allele is dominant, so don't use a capital and a lower-case letter of the same kind as if one were dominant.
+[bio11-s6.2.1] Use the letters the question gives.
+[bio11-s6.2.2] If choosing, use two different capital letters, e.g. R = allele for red, W = allele for white (so RR red, RW pink, WW white), and state in the key that the alleles show incomplete dominance.
+[bio11-s6.2.3] Questions sometimes use B and b with a statement that B is incompletely dominant; follow the question's key.
+[bio11-s6.3.b] Snapdragon flower colour. Crossing a true-breeding red plant with a true-breeding white plant is the simplest cross, and it shows where the pink phenotype comes from.
+[bio11-s6.3.0] Key: R = red, W = white, incomplete dominance.
+[bio11-s6.3.1] Parents' phenotypes: red × white.
+[bio11-s6.3.2] Parents' genotypes: RR × WW.
+[bio11-s6.3.3] Gametes (sex cells, each carrying one allele): R × W.
+[bio11-s6.3.4] Offspring genotypes: all RW, because every offspring gets one R from one parent and one W from the other.
+[bio11-s6.3.5] Offspring phenotypes: all (100%) pink.
+[bio11-s6.4.b] Crossing two pink plants brings the parental colours back, which is the classic test of incomplete dominance. Set it out in the standard layout, line by line.
+[bio11-s6.4.0] Parents' phenotypes: pink × pink.
+[bio11-s6.4.1] Parents' genotypes: RW × RW.
+[bio11-s6.4.2] Gametes: R, W × R, W, because each parent can pass on either of its two alleles.
+[bio11-s6.4.3] Punnett square (a grid showing every possible combination of gametes): RR, RW / RW, WW.
+[bio11-s6.4.4] Offspring genotypes: 1 RR : 2 RW : 1 WW.
+[bio11-s6.4.5] Offspring phenotypes: 1 red : 2 pink : 1 white (25% red, 50% pink, 25% white).
+[bio11-s6.4.6] Diagram: draw the 2 × 2 Punnett square for RW × RW. Labels: gametes R and W on each side; boxes RR, RW, RW, WW; each box labelled red, pink, pink or white (or shaded red, pink, white).
+[bio11-s6.5.b] The offspring ratio of a heterozygote × heterozygote cross tells you which kind of dominance a trait shows.
+[bio11-s6.5.0] The phenotype ratio (1 : 2 : 1) is the same as the genotype ratio, because each genotype has its own phenotype.
+[bio11-s6.5.1] With complete dominance the same cross gives 3 : 1, because the heterozygote looks like the dominant homozygote and the two classes merge.
+[bio11-s6.5.2] If a cross of two parents that look the same gives three phenotypes in a 1 : 2 : 1 ratio, the trait shows incomplete dominance.
+[bio11-s6.6.b] A pink plant can also be crossed with a red or a white one. Only two genotypes are possible in the offspring, so there are two phenotypes in a 1 : 1 ratio.
+[bio11-s6.6.0] Parents' genotypes: RW × WW (pink × white).
+[bio11-s6.6.1] Gametes: R, W × W, because the homozygous parent can only pass on W.
+[bio11-s6.6.2] Offspring genotypes: 1 RW : 1 WW.
+[bio11-s6.6.3] Offspring phenotypes: 1 pink : 1 white.
+[bio11-s6.6.4] Pink × red: RW × RR gives 1 RR : 1 RW, so 1 red : 1 pink.
+[bio11-s6.7.b] Chickens give a second example of incomplete dominance, with a practical consequence for breeders.
+[bio11-s6.7.0] In Andalusian chickens, feather colour shows incomplete dominance.
+[bio11-s6.7.1] Homozygous black × homozygous white gives all offspring with grey-blue feathers, called 'blue'.
+[bio11-s6.7.2] Blue × blue gives 1 black : 2 blue : 1 white.
+[bio11-s6.7.3] If black were instead completely dominant to white, the same blue-type (heterozygous) cross would give 3 black : 1 white.
+[bio11-s6.7.4] Blue Andalusians can never be true-breeding (always producing offspring like themselves), because every blue bird is heterozygous and its offspring include black and white.
+[bio11-s6.7.5] Breeders get all-blue chicks by crossing black with white birds.
+[bio11-s6.8.b] Real organisms carry many genes at once, so a cross can follow an incompletely dominant gene together with a completely dominant one.
+[bio11-s6.8.0] A cross can combine an incompletely dominant gene with a completely dominant one, e.g. snapdragon flower colour with plant height.
+[bio11-s6.8.1] This is a two-gene cross. There is more on this in Dihybrid crosses, which has the worked example.

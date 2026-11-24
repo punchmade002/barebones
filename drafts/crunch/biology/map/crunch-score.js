@@ -1,8 +1,12 @@
 // Crunch Mode scoring (see CRUNCH_MODE.md). Plain script: defines globalThis.crunchScore.
-// D = data.json from scripts/crunch_map.py. P = {decay, helpW, gapE, gapH}.
-// Exam value: each subsection's past-paper marks (D.subs[s][3]) split evenly across its points, scaled so the course totals 100.
-// shortcut: even split within a subsection, until exam parts are tagged to individual points.
-// With no marks in D, every point carries the same share.
+// D = data.json from scripts/crunch_map.py.
+// P = {decay, helpW, gapE, gapH, halfLife, newShare (null = its share of the course), choice (true/false)}.
+//
+// Exam value: every Higher Level past paper is re-marked as if set in the 2027 format. Old Section A is the
+// compulsory Q1 (1/6 of the paper); old Sections B and C are the optional questions, of which the student
+// answers 5 in 6 and drops the ones they're least prepared for. Papers are weighted by recency (half-life in
+// years). Subsections the old papers never tested (new-course content) are assumed to carry course-average
+// marks, newShare of the paper. Without D.papers, every point carries the same share.
 (function () {
   function scc(N, needs) {
     // Tarjan, iterative. Components come out prerequisites-first: if v needs w, comp[w] <= comp[v].
@@ -29,6 +33,7 @@
     return { comp, nc };
   }
 
+  const less = (a, b) => a[0] < b[0] || (a[0] === b[0] && a[1] < b[1]);
   function heapPush(h, e) {
     h.push(e); let i = h.length - 1;
     while (i > 0) { const p = (i - 1) >> 1; if (less(h[p], h[i])) break; [h[p], h[i]] = [h[i], h[p]]; i = p; }
@@ -46,7 +51,25 @@
     }
     return top;
   }
-  const less = (a, b) => a[0] < b[0] || (a[0] === b[0] && a[1] < b[1]);
+
+  // Share of an optional question that counts: answer the best `K` questions; questions tied on coverage share the last places.
+  function counted(qs, K) {
+    const order = qs.slice().sort((a, b) => b.cov - a.cov);
+    let cap = K, i = 0;
+    while (i < order.length) {
+      let j = i; while (j < order.length && Math.abs(order[j].cov - order[i].cov) < 1e-9) j++;
+      const share = Math.max(0, Math.min(1, cap / (j - i)));
+      for (let t = i; t < j; t++) order[t].inTop = share;
+      cap -= j - i; i = j;
+    }
+  }
+
+  // P(a subsection comes up next year): recency-weighted share of past papers it appeared on, with a light prior.
+  globalThis.crunchChance = function (D, halfLife) {
+    const years = (D.papers || []).map(p => p.year), last = Math.max(...years);
+    const w = y => Math.pow(0.5, (last - y) / halfLife), W = years.reduce((a, y) => a + w(y), 0);
+    return D.subs.map(s => (s[4].reduce((a, y) => a + w(y), 0) + 0.5) / (W + 1));
+  };
 
   globalThis.crunchScore = function (D, P) {
     const N = D.items.length;
@@ -58,17 +81,60 @@
     const { comp, nc } = scc(N, needs);
     const members = Array.from({ length: nc }, () => []);
     for (let i = 0; i < N; i++) members[comp[i]].push(i);
-    const inner = (i, j) => comp[i] === comp[j]; // links inside a bundle carry no value or gap
+    const inner = (i, j) => comp[i] === comp[j];
 
-    const subs = D.subs || [], nIn = new Int32Array(subs.length);
-    for (const r of D.items) if (subs.length) nIn[r[1]]++;
-    const M = subs.reduce((a, s) => a + (s[3] || 0), 0);
-    const base = Float64Array.from(D.items, r => (M ? (100 * (subs[r[1]][3] || 0)) / M / nIn[r[1]] : 100 / N));
-    const m = Float64Array.from(base); // % of exam marks the item still earns (base, minus gap discounts)
-    const score = new Float64Array(N), cut = new Uint8Array(N);
+    // ---- exam model ----
+    const papers = D.papers || [];
+    const isNew = new Uint8Array(N);
+    if (papers.length) D.items.forEach((r, i) => { if (!D.subs[r[1]][4].length) isNew[i] = 1; });
+    else isNew.fill(1); // no papers: every point is "unknown", so every point carries the same share
+    const nNew = isNew.reduce((a, b) => a + b, 0);
+    const rho = papers.length ? (P.newShare == null ? nNew / N : P.newShare) : 1;
+    const lastYear = Math.max(0, ...papers.map(p => p.year));
+    const pw = papers.map(p => Math.pow(0.5, (lastYear - p.year) / P.halfLife));
+    const pwSum = pw.reduce((a, b) => a + b, 0) || 1;
+    const slots = [], questions = [], pointSlots = Array.from({ length: N }, () => []);
+    const paperQs = papers.map(() => []);
+    papers.forEach((p, pi) => {
+      const comp_ = p.qs.filter(q => !q.opt), opt = p.qs.filter(q => q.opt);
+      const attA = comp_.reduce((a, q) => a + q.slots.reduce((s, x) => s + x[0], 0), 0);
+      const K = P.choice ? (5 / 6) * opt.length : opt.length;
+      for (const q of p.qs) {
+        const att = q.slots.reduce((s, x) => s + x[0], 0);
+        const optShare = attA ? 5 / 6 : 1; // a paper with no short questions puts everything on the optional ones
+        const w = q.opt ? optShare / K : (1 / 6) * (att / attA);
+        const Q = { paper: pi, opt: q.opt, att, w, cov: 1, inTop: 1, slots: [], K };
+        for (const [marks, k, opts] of q.slots) {
+          const s = { marks, k, opts, G: opts.length, q: questions.length };
+          Q.slots.push(slots.length);
+          for (const o of opts) pointSlots[o].push(slots.length);
+          slots.push(s);
+        }
+        questions.push(Q); paperQs[pi].push(Q);
+      }
+    });
+    const setTop = pi => { const opt = paperQs[pi].filter(q => q.opt); if (opt.length) counted(opt, opt[0].K); };
+    papers.forEach((_, pi) => setTop(pi));
+    const slotCov = s => s.marks * Math.min(1, s.G / s.k);
+    const rawScore = pi => paperQs[pi].reduce((a, q) => a + q.w * q.inTop * q.cov, 0);
+    const paperMax = papers.map((_, pi) => rawScore(pi) || 1); // full marks, so each paper scores 0..1
+    const paperScore = pi => rawScore(pi) / paperMax[pi];
+    let Enew = 1; // share of new-course marks still covered
+
+    const gf = new Float64Array(N).fill(1); // gap factor: 1, less a discount for each hidden prerequisite
+    const score = new Float64Array(N), own = new Float64Array(N), cut = new Uint8Array(N);
     const w = ess => (ess ? 1 : P.helpW);
+    const ownValue = u => {
+      let v = isNew[u] && nNew ? (rho * gf[u]) / nNew : 0;
+      for (const si of pointSlots[u]) {
+        const s = slots[si], q = questions[s.q];
+        const lose = s.marks * (Math.min(1, s.G / s.k) - Math.min(1, (s.G - gf[u]) / s.k));
+        v += ((1 - rho) * (pw[q.paper] / pwSum) * q.w * q.inTop * lose) / q.att / paperMax[q.paper];
+      }
+      return v;
+    };
     const rescore = u => {
-      let s = m[u];
+      let s = (own[u] = ownValue(u));
       for (const [d, ess] of deps[u]) if (!cut[d] && !inner(u, d)) s += P.decay * w(ess) * score[d];
       score[u] = s;
     };
@@ -82,29 +148,49 @@
     };
     const initValue = new Float64Array(N);
     for (let b = 0; b < nc; b++) { const v = bundleValue(b); for (const u of members[b]) initValue[u] = v; }
-    const initScore = Float64Array.from(score);
+    const initScore = Float64Array.from(score), initOwn = Float64Array.from(own);
 
-    // Greedy cut: always cut the bundle with the least value per unit of study, then rescore what it touched.
+    // ---- greedy cut: always cut the bundle with the least value per unit of study, then rescore what it touched ----
     const ver = new Int32Array(nc), heap = [];
     const tie = b => (b * 2654435761) % 4294967296; // spread equal-value cuts across the course
     for (let b = 0; b < nc; b++) heapPush(heap, [bundleValue(b), tie(b), b, 0]);
-    let covered = 100;
+    const coverage = () => 100 * ((1 - rho) * papers.reduce((a, _, pi) => a + (pw[pi] / pwSum) * paperScore(pi), 0) + rho * Enew);
     const y = new Float64Array(N), order = new Int32Array(N), steps = [];
     let step = 0;
     while (heap.length) {
       const [, , b, v] = heapPop(heap);
       if (v !== ver[b]) continue;
-      const touched = new Set();
-      for (const u of members[b]) { cut[u] = 1; covered -= m[u]; }
+      const touched = new Set(), dirtySlots = new Set();
+      const lower = (u, by) => {
+        for (const si of pointSlots[u]) { slots[si].G -= by; dirtySlots.add(si); }
+        if (isNew[u] && nNew) Enew -= by / nNew;
+      };
+      for (const u of members[b]) { cut[u] = 1; lower(u, gf[u]); }
       for (const u of members[b]) {
         for (const [d, ess] of deps[u]) {
           if (cut[d] || inner(u, d)) continue;
-          const after = m[d] * (1 - (ess ? P.gapE : P.gapH));
-          covered -= m[d] - after; m[d] = after; touched.add(d);
+          const before = gf[d];
+          gf[d] *= 1 - (ess ? P.gapE : P.gapH);
+          lower(d, before - gf[d]); touched.add(d);
         }
         for (const [j] of needs[u]) if (!cut[j] && !inner(u, j)) touched.add(j);
       }
-      const cov = covered;
+      const dirtyQs = new Set();
+      for (const si of dirtySlots) { for (const o of slots[si].opts) if (!cut[o]) touched.add(o); dirtyQs.add(slots[si].q); }
+      const dirtyPapers = new Set();
+      for (const qi of dirtyQs) {
+        const q = questions[qi];
+        q.cov = q.slots.reduce((a, si) => a + slotCov(slots[si]), 0) / q.att;
+        dirtyPapers.add(q.paper);
+      }
+      for (const pi of dirtyPapers) {
+        const before = paperQs[pi].map(q => q.inTop);
+        setTop(pi);
+        paperQs[pi].forEach((q, t) => {
+          if (Math.abs(q.inTop - before[t]) > 1e-12) for (const si of q.slots) for (const o of slots[si].opts) if (!cut[o]) touched.add(o);
+        });
+      }
+      const cov = coverage();
       for (const u of members[b]) { y[u] = cov - 5; order[u] = step; }
       steps.push(cov);
       step++;
@@ -121,6 +207,6 @@
     }
     const loops = members.filter(g => g.length > 1);
     // y[u]: the item is hidden when the target grade is at or below y[u] (cut while marks covered >= target + 5).
-    return { y, order, base, initScore, initValue, comp, members, loops, steps, needs, deps };
+    return { y, order, initScore, initOwn, initValue, comp, members, loops, steps, needs, deps, isNew, rho };
   };
 })();

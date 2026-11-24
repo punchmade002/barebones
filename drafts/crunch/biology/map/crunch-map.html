@@ -134,10 +134,13 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
             <label for="t-helpw">Helpful link weight (essential = 1) <span class="num" id="v-helpw"></span><input id="t-helpw" type="range" min="0" max="1" step="0.05" value="0.5"></label>
             <label for="t-gape">Marks lost when an essential prerequisite is hidden <span class="num" id="v-gape"></span><input id="t-gape" type="range" min="0" max="1" step="0.05" value="0.5"></label>
             <label for="t-gaph">Marks lost when a helpful prerequisite is hidden <span class="num" id="v-gaph"></span><input id="t-gaph" type="range" min="0" max="1" step="0.05" value="0.2"></label>
+            <label for="t-half">Recent papers count more: half-life in years <span class="num" id="v-half"></span><input id="t-half" type="range" min="1" max="20" step="1" value="8"></label>
+            <label for="t-new">Share of the 2027 paper on new-course content <span class="num" id="v-new"></span><input id="t-new" type="range" min="0" max="0.4" step="0.01" value="0.10"></label>
+            <label for="t-choice" style="grid-template-columns:auto minmax(0,1fr);align-items:center"><input id="t-choice" type="checkbox" checked style="grid-column:auto;width:auto">Question choice: drop the optional questions you're least ready for (5 of 6 answered)</label>
             <p class="note" id="t-status">&nbsp;</p>
           </div>
         </details>
-        <p class="note">Exam value: each subsection’s share of Higher Level marks from 2015–2025 (old course), split evenly across its points. Every year counts the same, and question choice isn’t counted yet. Points in a loop (each needs the other) are bundled: kept or hidden together, with one shared value.</p>
+        <p class="note">Exam value: each Higher Level paper from 2015–2025 (old course) is re-marked as if it were the 2027 paper. The old short questions are the compulsory Q1, and the long questions are the ones you choose from. Where exam parts aren’t yet tagged to points, a part’s marks are split evenly across its subsection. Subsections the old papers never tested are new-course content, given course-average value. Points in a loop (each needs the other) are bundled: kept or hidden together, with one shared value.</p>
       </section>
     </aside>
   </div>
@@ -155,7 +158,9 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   const PAD = { l: 48, r: 12, t: 16, b: 34 };
 
   let D, R, N, totalCost, grade = 55, sel = -1, hover = -1, W = 0, H = 0, grid = null, X, Y;
-  const params = () => ({ decay: +$("t-decay").value, helpW: +$("t-helpw").value, gapE: +$("t-gape").value, gapH: +$("t-gaph").value });
+  const params = () => ({ decay: +$("t-decay").value, helpW: +$("t-helpw").value, gapE: +$("t-gape").value, gapH: +$("t-gaph").value,
+    halfLife: +$("t-half").value, newShare: +$("t-new").value, choice: $("t-choice").checked });
+  let chance = [];
   const isCut = i => R.y[i] >= grade;
   const sub = i => D.subs[D.items[i][1]];
   const chapterOf = i => D.chapters[sub(i)[2]];
@@ -165,8 +170,10 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   function score() {
     const t0 = performance.now();
     R = crunchScore(D, params());
+    chance = crunchChance(D, +$("t-half").value);
     $("t-status").textContent = `Scored ${fmt(N)} points in ${Math.round(performance.now() - t0)} ms · ${R.loops.length} loops bundled`;
-    for (const k of ["decay", "helpw", "gape", "gaph"]) $("v-" + k).textContent = (+$("t-" + k).value).toFixed(2);
+    for (const k of ["decay", "helpw", "gape", "gaph", "new"]) $("v-" + k).textContent = (+$("t-" + k).value).toFixed(2);
+    $("v-half").textContent = $("t-half").value;
     layout(); lists(); update();
   }
 
@@ -274,8 +281,11 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   }
 
   // value relative to the course average per unit of study: 1.00 = average point, 0 = never examined and nothing needs it
-  const val = i => ((R.initValue[i] * totalCost) / 100).toFixed(2);
-  const subShare = i => (100 * sub(i)[3]) / D.subs.reduce((a, s) => a + s[3], 0);
+  let avgValue = 1;
+  const val = i => (R.initValue[i] / avgValue).toFixed(2);
+  const chanceLine = i => sub(i)[4].length
+    ? `Chance its subsection comes up: about ${Math.round(100 * chance[D.items[i][1]])}% (on ${sub(i)[4].length} of ${D.papers.length} papers)`
+    : "New-course content: no past papers, so it gets course-average value";
   const short = (t, n) => (t.length > n ? t.slice(0, n - 1) + "…" : t);
   const whereLabel = i => `Ch ${sub(i)[2] + 1} · ${sub(i)[1]}`;
 
@@ -286,6 +296,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   }
 
   function lists() {
+    avgValue = R.initScore.reduce((a, b) => a + b, 0) / totalCost || 1;
     const idx = Array.from({ length: N }, (_, i) => i).sort((a, b) => R.initValue[b] - R.initValue[a] || R.order[b] - R.order[a]);
     const row = i => `<li><button data-i="${i}"><span class="v">${val(i)}</span><span class="t">${esc(short(D.items[i][3], 90))}<small>${esc(whereLabel(i))}</small></span></button></li>`;
     $("top").innerHTML = idx.slice(0, 40).map(row).join("");
@@ -302,7 +313,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
       <p>${esc(it[3])}</p>
       <p class="note">${esc(chapterOf(i)[1])} · ${esc(sub(i)[1])} · <span class="num">${it[0]}</span></p>
       <p><span class="chip">${it[2] === 2 ? "long or complex (cost 2)" : "simple (cost 1)"}</span> <span class="chip">value ${val(i)}</span> <span class="chip">${isCut(i) ? "hidden now" : "kept now"}</span></p>
-      <p class="note">${hiddenAt(i)}. ${sub(i)[3] ? `Its subsection drew ${subShare(i).toFixed(1)}% of Higher Level marks, 2015–2025.` : "Its subsection hasn’t come up on a Higher Level paper, 2015–2025."}</p>
+      <p class="note">${hiddenAt(i)}. ${chanceLine(i)}.</p>
       ${bundle.length > 1 ? `<p class="note">In a loop with ${bundle.length - 1} other point${bundle.length > 2 ? "s" : ""}: kept or hidden together.</p>` : ""}
       <div class="links"><div class="eyebrow" style="color:var(--needs)">Needs (${R.needs[i].length})</div>${R.needs[i].map(l => link(l, "var(--needs)")).join("") || '<p class="note">Nothing: it stands on its own.</p>'}</div>
       <div class="links"><div class="eyebrow" style="color:var(--needed-by)">Needed by (${R.deps[i].length})</div>${R.deps[i].map(l => link(l, "var(--needed-by)")).join("") || '<p class="note">Nothing depends on it.</p>'}</div>`;
@@ -314,7 +325,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   function showTip(i, px, py) {
     if (i < 0) { tip.hidden = true; return; }
     const it = D.items[i];
-    tip.innerHTML = `<div>${esc(short(it[3], 220))}</div><div class="meta">${esc(whereLabel(i))}</div><div class="meta">Value ${val(i)} · ${it[2] === 2 ? "long or complex" : "simple"} · needs ${R.needs[i].length} · needed by ${R.deps[i].length}</div><div class="meta">${hiddenAt(i)}</div>`;
+    tip.innerHTML = `<div>${esc(short(it[3], 220))}</div><div class="meta">${esc(whereLabel(i))}</div><div class="meta">Value ${val(i)} · ${it[2] === 2 ? "long or complex" : "simple"} · needs ${R.needs[i].length} · needed by ${R.deps[i].length}</div><div class="meta">${hiddenAt(i)}</div><div class="meta">${chanceLine(i)}</div>`;
     tip.hidden = false;
     const tw = tip.offsetWidth, th = tip.offsetHeight;
     tip.style.left = Math.max(4, Math.min(W - tw - 4, px + 14)) + "px";
@@ -347,7 +358,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   });
 
   let pending;
-  for (const id of ["t-decay", "t-helpw", "t-gape", "t-gaph"]) $(id).addEventListener("input", () => { clearTimeout(pending); pending = setTimeout(score, 60); });
+  for (const id of ["t-decay", "t-helpw", "t-gape", "t-gaph", "t-half", "t-new", "t-choice"]) $(id).addEventListener("input",() => { clearTimeout(pending); pending = setTimeout(score, 60); });
   new ResizeObserver(() => { if (R) { layout(); update(); } }).observe(wrap);
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => R && draw());
   new MutationObserver(() => R && draw()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
