@@ -71,17 +71,17 @@ html:not(.bb-signed-in) .auth-in { display: none !important; }
 .hero :focus-visible { outline-color: var(--on-orange); }
 
 .top-inner { display: flex; align-items: center; justify-content: space-between; gap: 12px; height: 64px; }
-.brand img { height: 22px; width: auto; filter: brightness(0) invert(1); }
+.brand img { height: 30px; width: auto; filter: brightness(0) invert(1); }
 .top-links { display: flex; align-items: center; gap: 4px; }
 .top .btn-ink { min-height: 40px; padding: 0 16px; font-size: 15px; }
-@media (min-width: 700px) { .top-inner { height: 80px; } .brand img { height: 26px; } }
+@media (min-width: 700px) { .top-inner { height: 88px; } .brand img { height: 40px; } }
 
 .hero-body {
   min-height: min(760px, calc(100svh - 64px));
   display: grid; align-content: center; gap: 30px;
   padding-top: 16px; padding-bottom: 56px;
 }
-@media (min-width: 700px) { .hero-body { min-height: min(800px, calc(100svh - 80px)); padding-bottom: 80px; } }
+@media (min-width: 700px) { .hero-body { min-height: min(800px, calc(100svh - 88px)); padding-bottom: 80px; } }
 
 /* headline: the live homepage's hero type (Archivo 800, caps, tight) */
 .hl {
@@ -121,8 +121,10 @@ html:not(.bb-signed-in) .auth-in { display: none !important; }
 .all-notes { margin-top: 24px; }
 
 /* ================= features: one clickable row each ================= */
-.features { padding: 24px 0 64px; }
-@media (min-width: 960px) { .features { padding: 40px 0 96px; } }
+.features { padding: 24px 0 0; }
+@media (min-width: 960px) { .features { padding: 40px 0 0; } }
+.section.faq-section { padding-top: 32px; }
+@media (min-width: 960px) { .section.faq-section { padding-top: 40px; } }
 .feat { border-bottom: 1px solid var(--line); }
 .feat:first-child { border-top: 1px solid var(--line); }
 .feat summary {
