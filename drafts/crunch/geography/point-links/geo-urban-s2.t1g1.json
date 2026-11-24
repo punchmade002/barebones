@@ -1,0 +1,632 @@
+{
+ "geo-urban-s2.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.0.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.1.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s2.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.1.1",
+    "strength": "helpful",
+    "why": "Land Acts and holdings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.0.0",
+    "strength": "helpful",
+    "why": "bridging point as a site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.2.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.0.0",
+    "strength": "helpful",
+    "why": "wet point as a site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s1.0.0",
+    "strength": "helpful",
+    "why": "dry point as a site",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.2.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.2.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.2.8": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.2.2",
+    "strength": "helpful",
+    "why": "estates as a settlement focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.1",
+    "strength": "helpful",
+    "why": "clustered settlement pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.3.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.3.0",
+    "strength": "helpful",
+    "why": "clachan it explains",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.3.0",
+    "strength": "essential",
+    "why": "what a clachan is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.3.2",
+    "strength": "helpful",
+    "why": "clachan districts of the west",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.3.0",
+    "strength": "essential",
+    "why": "clachans being broken up",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s2.1.1",
+    "strength": "helpful",
+    "why": "consolidation of holdings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.1.1",
+    "strength": "essential",
+    "why": "Land Commission and consolidation",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s2.0.0",
+    "strength": "helpful",
+    "why": "dispersed settlement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.3.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.3.0",
+    "strength": "essential",
+    "why": "what a clachan is",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.4.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.2",
+    "strength": "essential",
+    "why": "linear settlement pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.2",
+    "strength": "helpful",
+    "why": "linear settlement pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.5.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.25.b",
+    "strength": "helpful",
+    "why": "map evidence for absence of settlement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.6.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s2.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.1",
+    "strength": "helpful",
+    "why": "clustered pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s2.0.0",
+    "strength": "helpful",
+    "why": "dispersed pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.2",
+    "strength": "essential",
+    "why": "linear (ribbon) pattern",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.24.4",
+    "strength": "helpful",
+    "why": "ribbon development on approach roads",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s2.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.10.b",
+    "strength": "helpful",
+    "why": "planning control by the State",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s2.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.8.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.7.b",
+    "strength": "essential",
+    "why": "ribbon housing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.8.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.8.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.8.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.9.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.10.0",
+    "strength": "helpful",
+    "why": "planning permission decisions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.10.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.10.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.10.2",
+    "strength": "essential",
+    "why": "County Development Plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.10.3",
+    "strength": "helpful",
+    "why": "County Development Plan",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.11.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-urban-s2.11.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.11.1",
+    "strength": "helpful",
+    "why": "Rural Housing Guidelines area types",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s2.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.11.1",
+    "strength": "helpful",
+    "why": "Rural Housing Guidelines area types",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s2.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.8.0",
+    "strength": "helpful",
+    "why": "entrances as traffic hazard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.12.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.8.2",
+    "strength": "helpful",
+    "why": "septic tank pollution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.12.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.12.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.10.3",
+    "strength": "helpful",
+    "why": "zoning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.8.2",
+    "strength": "helpful",
+    "why": "septic tank pollution",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.13.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.13.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-urban-s2.15.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.9.0",
+    "strength": "helpful",
+    "why": "communities kept alive by housing",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s2.7.b",
+    "strength": "helpful",
+    "why": "ribbon sprawl",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-urban-s2.15.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-urban-s2.12.0",
+    "strength": "essential",
+    "why": "local-needs criteria",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.7.b",
+    "strength": "essential",
+    "why": "ribbon development",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-urban-s2.15.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-urban-s2.12.2",
+    "strength": "essential",
+    "why": "housing directed into villages",
+    "confidence": "high"
+   }
+  ]
+ }
+}
