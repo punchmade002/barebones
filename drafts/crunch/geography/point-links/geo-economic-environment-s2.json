@@ -1,0 +1,823 @@
+{
+"geo-economic-environment-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.0.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s2.0.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s2.14.0",
+"strength": "helpful",
+"why": "fracking of shale",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.0",
+"strength": "helpful",
+"why": "CO2 as greenhouse gas",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.3.0",
+"strength": "helpful",
+"why": "CO2 causes global warming",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.4.1",
+"strength": "helpful",
+"why": "SO2 forms acid rain",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.4.1",
+"strength": "helpful",
+"why": "NOx forms acid rain",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.1",
+"strength": "helpful",
+"why": "uses SO2 and NOx",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.1",
+"strength": "helpful",
+"why": "sulphur-bearing fuels give SO2",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s2.4.b",
+"strength": "helpful",
+"why": "transboundary pollution idea",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.4.4": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.5.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s2.4.1",
+"strength": "helpful",
+"why": "acid deposition harms soil",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.4.1",
+"strength": "helpful",
+"why": "acid deposition acidifies lakes",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s2.4.1",
+"strength": "helpful",
+"why": "acids dissolve limestone",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.1",
+"strength": "helpful",
+"why": "scrubbers remove SO2",
+"confidence": "high"
+},
+{
+"id": "geo-economic-environment-s1.6.1",
+"strength": "helpful",
+"why": "Moneypoint station",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.2",
+"strength": "helpful",
+"why": "catalytic converters cut NOx",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.6.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.6.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.1",
+"strength": "helpful",
+"why": "low SO2 fuels",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.6.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.7.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-environment-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s2.7.1",
+"strength": "essential",
+"why": "temperature inversion",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.8.0",
+"strength": "helpful",
+"why": "Great Smog led to law",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.8.2",
+"strength": "helpful",
+"why": "Dublin smog led to ban",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.8.3",
+"strength": "essential",
+"why": "the Dublin smoky coal ban",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.8.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.8.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s2.13.0",
+"strength": "helpful",
+"why": "oil spill example",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.9.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s2.10.b",
+"strength": "helpful",
+"why": "onshore versus offshore",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.10.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.10.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s2.2.4",
+"strength": "helpful",
+"why": "slide as mass movement",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.1.b",
+"strength": "helpful",
+"why": "falling water drives turbines",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.1.0",
+"strength": "helpful",
+"why": "reservoir releasing water through turbines",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.11.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.11.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.11.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s4.4.b",
+"strength": "helpful",
+"why": "Ardnacrusha and Shannon Scheme",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.11.2",
+"strength": "essential",
+"why": "pumped storage at peak",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.11.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.11.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.11.7": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rivers-s4.8.b",
+"strength": "helpful",
+"why": "Three Gorges effects",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.12.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.13.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.13.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.13.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s2.15.b",
+"strength": "helpful",
+"why": "earth heat as energy",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.14.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-rocks-weathering-s2.18.0",
+"strength": "helpful",
+"why": "Iceland geothermal case",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s2.19.2",
+"strength": "helpful",
+"why": "ground-source heat pumps",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.14.0",
+"strength": "helpful",
+"why": "Iceland hot crust example",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s2.15.2",
+"strength": "helpful",
+"why": "heat near plate boundaries",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.15.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.0",
+"strength": "helpful",
+"why": "CO2 released when burned",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.16.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.16.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.16.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.16.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.16.3",
+"strength": "helpful",
+"why": "Chernobyl fears",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.17.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.18.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.2.1",
+"strength": "helpful",
+"why": "SO2 and NOx emissions",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.2.4",
+"strength": "helpful",
+"why": "import bill and exposure",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.18.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.18.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.18.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.11.b",
+"strength": "helpful",
+"why": "renewable targets",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.19.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.19.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.19.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rivers-s4.3.5",
+"strength": "helpful",
+"why": "dams harm habitats",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.3.1",
+"strength": "helpful",
+"why": "Ireland energy imports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.20.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-environment-s1.11.2",
+"strength": "helpful",
+"why": "Climate Action Plan targets",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.20.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s1.13.b",
+"strength": "helpful",
+"why": "interconnectors",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.20.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.20.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.20.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-environment-s2.21.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.0.b",
+"strength": "helpful",
+"why": "OS map reading",
+"confidence": "high"
+},
+{
+"id": "geo-mapwork-s1.35.b",
+"strength": "helpful",
+"why": "site choice method",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.35.3",
+"strength": "helpful",
+"why": "wind farm site needs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.10.3",
+"strength": "helpful",
+"why": "shadow flicker and noise",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.19.3",
+"strength": "helpful",
+"why": "grid connection need",
+"confidence": "low"
+}
+]
+},
+"geo-economic-environment-s2.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-environment-s2.10.4",
+"strength": "helpful",
+"why": "peat slide risk",
+"confidence": "high"
+}
+]
+},
+"geo-economic-environment-s2.21.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-mapwork-s1.35.4",
+"strength": "helpful",
+"why": "site disadvantages conflict",
+"confidence": "high"
+}
+]
+}
+}

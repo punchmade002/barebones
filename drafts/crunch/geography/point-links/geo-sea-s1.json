@@ -1,0 +1,1123 @@
+{
+"geo-sea-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.2",
+"strength": "helpful",
+"why": "uses fetch",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.0.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.0.0",
+"strength": "helpful",
+"why": "energy transferred by wind",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.3",
+"strength": "helpful",
+"why": "water moves in circles",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.0.6": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.6",
+"strength": "helpful",
+"why": "backwash follows swash",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.1.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.4",
+"strength": "helpful",
+"why": "uses wavelength",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.7",
+"strength": "essential",
+"why": "swash versus backwash balance",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.1.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.4",
+"strength": "helpful",
+"why": "uses wavelength",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.7",
+"strength": "essential",
+"why": "swash versus backwash balance",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.2.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.0.5",
+"strength": "helpful",
+"why": "waves slow in shallow water",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.2.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.2.0",
+"strength": "essential",
+"why": "uses wave bending at headlands",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.2.0",
+"strength": "essential",
+"why": "refraction bends wave fronts",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.3.0",
+"strength": "helpful",
+"why": "uses tides",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-glaciation-s2.6.0",
+"strength": "helpful",
+"why": "raised beach formation",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-glaciation-s2.7.0",
+"strength": "helpful",
+"why": "ria as drowned valley",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.4.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.0.5",
+"strength": "helpful",
+"why": "breaking waves",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.6.4",
+"strength": "helpful",
+"why": "solution weathering of minerals",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-rocks-weathering-s3.0.0",
+"strength": "helpful",
+"why": "defines weathering",
+"confidence": "high"
+},
+{
+"id": "geo-rocks-weathering-s5.0.0",
+"strength": "helpful",
+"why": "defines mass movement",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.5.0",
+"strength": "helpful",
+"why": "debris from weathering and slumping",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.5.2": {
+"cost": 2,
+"needs": []
+},
+"geo-sea-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.4.0",
+"strength": "helpful",
+"why": "joints as cracks in rock",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.2",
+"strength": "essential",
+"why": "uses fetch",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.2.1",
+"strength": "helpful",
+"why": "refraction concentrates energy",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.5.5": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.2",
+"strength": "helpful",
+"why": "long Atlantic fetch",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.0.2",
+"strength": "essential",
+"why": "short fetch",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.1.3",
+"strength": "helpful",
+"why": "storm waves are destructive",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.6.3": {
+"cost": 2,
+"needs": []
+},
+"geo-sea-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.6.3",
+"strength": "essential",
+"why": "contrasts with discordant coast",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.6.3",
+"strength": "essential",
+"why": "differential erosion forms headlands",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.4.0",
+"strength": "helpful",
+"why": "hydraulic action",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.4.1",
+"strength": "helpful",
+"why": "abrasion",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.7.0",
+"strength": "essential",
+"why": "overhang forms above notch",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.7.1",
+"strength": "essential",
+"why": "collapse supplies debris",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.7.2",
+"strength": "essential",
+"why": "cliff retreat leaves platform",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.7.3",
+"strength": "essential",
+"why": "platform widens",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.7.5": {
+"cost": 2,
+"needs": []
+},
+"geo-sea-s1.7.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.7.0",
+"strength": "essential",
+"why": "notch and overhang",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.7.3",
+"strength": "helpful",
+"why": "wave-cut platform",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.5.3",
+"strength": "helpful",
+"why": "joints and faults as weaknesses",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.4.0",
+"strength": "helpful",
+"why": "hydraulic action",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.8.0",
+"strength": "essential",
+"why": "arch forms from caves",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.8.1",
+"strength": "essential",
+"why": "collapse of the arch",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.5.0",
+"strength": "helpful",
+"why": "weathering from above",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.8.2",
+"strength": "essential",
+"why": "stump forms from stack",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.8.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.8.1",
+"strength": "helpful",
+"why": "what a sea arch is",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.8.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.8.2",
+"strength": "helpful",
+"why": "what a sea stack is",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.8.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.8.0",
+"strength": "essential",
+"why": "cave stage",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.8.2",
+"strength": "helpful",
+"why": "stack stage",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.8.0",
+"strength": "essential",
+"why": "blowhole grows from a cave",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.4.0",
+"strength": "helpful",
+"why": "hydraulic action and compression",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.9.0",
+"strength": "essential",
+"why": "uses blowhole",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.9.0",
+"strength": "essential",
+"why": "uses blowhole",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.9.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.15.b",
+"strength": "helpful",
+"why": "erosional versus depositional",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.9.0",
+"strength": "essential",
+"why": "cave and blowhole joint",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.10.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.0.6",
+"strength": "essential",
+"why": "swash carries material up",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.0.7",
+"strength": "essential",
+"why": "backwash drags material back",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "essential",
+"why": "longshore drift process",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "essential",
+"why": "longshore drift process",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.10.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "helpful",
+"why": "longshore drift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.1.1",
+"strength": "helpful",
+"why": "constructive waves deposit",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.2.1",
+"strength": "helpful",
+"why": "weaker energy in bays",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.11.1": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.11.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.11.5",
+"strength": "helpful",
+"why": "storm beach shingle",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.1.3",
+"strength": "helpful",
+"why": "storm waves",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.11.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.3.1",
+"strength": "helpful",
+"why": "tidal levels",
+"confidence": "low"
+}
+]
+},
+"geo-sea-s1.11.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.11.3",
+"strength": "helpful",
+"why": "beach examples",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "essential",
+"why": "longshore drift moves material",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.12.0",
+"strength": "essential",
+"why": "ridge built by drift",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.12.1",
+"strength": "essential",
+"why": "spit tip",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.2.0",
+"strength": "helpful",
+"why": "refraction curves tip",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.12.1",
+"strength": "helpful",
+"why": "sheltered water behind spit",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.12.1",
+"strength": "essential",
+"why": "spit grows across bay",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.12.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.12.1",
+"strength": "helpful",
+"why": "spit examples",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.12.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.12.1",
+"strength": "essential",
+"why": "recurved spit",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.12.2",
+"strength": "helpful",
+"why": "recurved tip",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.12.4",
+"strength": "essential",
+"why": "lagoon behind a sand bar",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.13.0",
+"strength": "essential",
+"why": "uses lagoon",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.13.0",
+"strength": "helpful",
+"why": "lagoon examples",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.13.3": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.10.1",
+"strength": "helpful",
+"why": "longshore drift",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.2.0",
+"strength": "helpful",
+"why": "refraction around island",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.13.3",
+"strength": "essential",
+"why": "tombolo example",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.11.3",
+"strength": "helpful",
+"why": "wide sandy beach",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.14.0",
+"strength": "essential",
+"why": "plants stabilise piled sand",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.14.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.14.1",
+"strength": "essential",
+"why": "dune stages follow marram",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.14.2",
+"strength": "helpful",
+"why": "dune ridges",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.14.4": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.14.5": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.14.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.14.2",
+"strength": "essential",
+"why": "dune types",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.14.3",
+"strength": "helpful",
+"why": "dune slack",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.15.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.7.3",
+"strength": "helpful",
+"why": "wave-cut platform",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.8.0",
+"strength": "helpful",
+"why": "sea cave",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.9.0",
+"strength": "helpful",
+"why": "blowhole",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.6.5",
+"strength": "helpful",
+"why": "headland",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.15.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-sea-s1.11.3",
+"strength": "helpful",
+"why": "beach",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.12.1",
+"strength": "helpful",
+"why": "sand spit",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.12.4",
+"strength": "helpful",
+"why": "sand bar",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.13.0",
+"strength": "helpful",
+"why": "lagoon",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.13.3",
+"strength": "helpful",
+"why": "tombolo",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.14.2",
+"strength": "helpful",
+"why": "sand dunes",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.15.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.15.0",
+"strength": "essential",
+"why": "erosional features",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.15.1",
+"strength": "essential",
+"why": "depositional features",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.16.0",
+"strength": "essential",
+"why": "uses number of years",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.16.2": {
+"cost": 1,
+"needs": []
+},
+"geo-sea-s1.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.16.0",
+"strength": "essential",
+"why": "step to find years",
+"confidence": "high"
+}
+]
+},
+"geo-sea-s1.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-sea-s1.16.1",
+"strength": "essential",
+"why": "divide distance by years",
+"confidence": "high"
+},
+{
+"id": "geo-sea-s1.16.3",
+"strength": "essential",
+"why": "uses years result",
+"confidence": "high"
+}
+]
+}
+}

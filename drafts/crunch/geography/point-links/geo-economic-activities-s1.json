@@ -1,0 +1,2411 @@
+{
+"geo-economic-activities-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.0",
+"strength": "essential",
+"why": "primary sector",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.0.1",
+"strength": "essential",
+"why": "secondary sector",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "essential",
+"why": "tertiary sector",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "helpful",
+"why": "three-sector model",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.1.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.0",
+"strength": "essential",
+"why": "primary sector",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.0.1",
+"strength": "essential",
+"why": "secondary sector",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "essential",
+"why": "tertiary sector",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "essential",
+"why": "tertiary activity",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.0",
+"strength": "essential",
+"why": "primary sector",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.1.0",
+"strength": "helpful",
+"why": "sector shift",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.1",
+"strength": "helpful",
+"why": "protection by tariffs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.3.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.1.0",
+"strength": "helpful",
+"why": "IDA agency",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.3.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.1",
+"strength": "helpful",
+"why": "contrast with protection",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.1",
+"strength": "helpful",
+"why": "trade barriers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.3.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.4.0",
+"strength": "essential",
+"why": "free education",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.3.0",
+"strength": "essential",
+"why": "IDA agency",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.1",
+"strength": "helpful",
+"why": "trade barriers",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.3.0",
+"strength": "helpful",
+"why": "single market access",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.b",
+"strength": "essential",
+"why": "corporation tax defined",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.4.b",
+"strength": "helpful",
+"why": "tax as location factor",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.5.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.2",
+"strength": "essential",
+"why": "corporation tax rate",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.3.2",
+"strength": "helpful",
+"why": "FDI and export-led policy",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.1.b",
+"strength": "helpful",
+"why": "FDI defined",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.2",
+"strength": "helpful",
+"why": "emigration",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.7.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.6.1",
+"strength": "helpful",
+"why": "property boom",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.6.1",
+"strength": "essential",
+"why": "property boom",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.7.0",
+"strength": "essential",
+"why": "bank loans crisis",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.7.1",
+"strength": "helpful",
+"why": "banks rescued",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.7.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.7.0",
+"strength": "essential",
+"why": "bad property loans",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.7.1",
+"strength": "helpful",
+"why": "bank rescue cost",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.8.0",
+"strength": "essential",
+"why": "EU-IMF programme",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.6.3",
+"strength": "helpful",
+"why": "net emigration",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.8.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.7.1",
+"strength": "essential",
+"why": "bank rescue borrowing",
+"confidence": "high"
+},
+{
+"id": "geo-economic-development-s1.1.0",
+"strength": "essential",
+"why": "GDP defined",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.9.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.2",
+"strength": "essential",
+"why": "corporation tax revenue",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "essential",
+"why": "multinational company",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "helpful",
+"why": "tertiary sectors hit",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.10.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.10.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.11.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s1.1.0",
+"strength": "helpful",
+"why": "GDP",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "helpful",
+"why": "multinational company",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.11.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s1.1.0",
+"strength": "essential",
+"why": "GDP defined",
+"confidence": "high"
+},
+{
+"id": "geo-economic-development-s1.5.2",
+"strength": "helpful",
+"why": "intellectual property relocated",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.11.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s1.1.1",
+"strength": "essential",
+"why": "GNP/GNI concept",
+"confidence": "high"
+},
+{
+"id": "geo-economic-development-s1.5.3",
+"strength": "helpful",
+"why": "GNI* explained",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.0",
+"strength": "helpful",
+"why": "primary activity",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.12.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.12.1",
+"strength": "helpful",
+"why": "grass-based farming",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.12.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.12.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.12.3",
+"strength": "essential",
+"why": "tillage farming",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.12.2",
+"strength": "helpful",
+"why": "beef and dairy",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.13.1",
+"strength": "helpful",
+"why": "exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.12.2",
+"strength": "helpful",
+"why": "livestock methane",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.13.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.14.6": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.15.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.15.2": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.15.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.15.1",
+"strength": "helpful",
+"why": "pelagic fish",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.15.2",
+"strength": "helpful",
+"why": "fishery harbour centres",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.15.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.16.0",
+"strength": "essential",
+"why": "fishing quotas",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.15.1",
+"strength": "essential",
+"why": "pelagic fish",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.16.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.17.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.17.0",
+"strength": "helpful",
+"why": "small forest area",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.19.3",
+"strength": "helpful",
+"why": "automation",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.17.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.17.1",
+"strength": "essential",
+"why": "Coillte",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.18.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.18.2",
+"strength": "essential",
+"why": "peat stations closed",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.19.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.2.b",
+"strength": "helpful",
+"why": "MNC advantages of Ireland",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.19.0",
+"strength": "essential",
+"why": "FDI defined",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.1.0",
+"strength": "helpful",
+"why": "IDA agency",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.2",
+"strength": "essential",
+"why": "low corporation tax",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.3.0",
+"strength": "helpful",
+"why": "IDA agency",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.4.1",
+"strength": "helpful",
+"why": "serviced sites and IDA grants",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.4.1",
+"strength": "helpful",
+"why": "educated workforce",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.2.2",
+"strength": "helpful",
+"why": "labour as location factor",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.0",
+"strength": "essential",
+"why": "EU single market",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.26.4",
+"strength": "helpful",
+"why": "clusters",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.1.5",
+"strength": "helpful",
+"why": "cluster defined",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.19.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.12.b",
+"strength": "helpful",
+"why": "Cork Harbour cluster",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.20.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.20.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.13.b",
+"strength": "helpful",
+"why": "Galway medtech cluster",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.11.b",
+"strength": "helpful",
+"why": "Intel location factors",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.4.b",
+"strength": "helpful",
+"why": "Intel at Leixlip",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.21.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.4.2",
+"strength": "helpful",
+"why": "EUV lithography",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.23.b",
+"strength": "helpful",
+"why": "Apple Cork role",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.13.b",
+"strength": "helpful",
+"why": "Apple Cork role",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.22.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "essential",
+"why": "multinational company",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "essential",
+"why": "tertiary activity",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.22.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.19.1",
+"strength": "helpful",
+"why": "foreign-owned sector",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.19.1",
+"strength": "helpful",
+"why": "FDI dependence",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.17.1",
+"strength": "helpful",
+"why": "branch plant vulnerability",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "essential",
+"why": "multinational company",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.3",
+"strength": "essential",
+"why": "15% minimum rate",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.18.2",
+"strength": "helpful",
+"why": "state aid recovery",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.1",
+"strength": "helpful",
+"why": "tariffs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.23.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.23.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.5.3",
+"strength": "helpful",
+"why": "housing as location factor",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.23.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.15.1",
+"strength": "helpful",
+"why": "grid limits",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.23.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.18.2",
+"strength": "helpful",
+"why": "lower costs",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.24.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.1.0",
+"strength": "essential",
+"why": "footloose defined",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.24.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.24.b",
+"strength": "helpful",
+"why": "footloose industry",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.8.2",
+"strength": "helpful",
+"why": "footloose location factors",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.24.b",
+"strength": "essential",
+"why": "footloose industry",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "helpful",
+"why": "services",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.25.b",
+"strength": "helpful",
+"why": "internet services footloose",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.25.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.24.b",
+"strength": "helpful",
+"why": "footloose industry",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.25.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.25.0",
+"strength": "helpful",
+"why": "Grand Canal Dock",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.25.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.25.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.26.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.24.b",
+"strength": "essential",
+"why": "footloose service firms",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.26.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.2.2",
+"strength": "helpful",
+"why": "labour factor",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.26.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.26.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.7",
+"strength": "helpful",
+"why": "fibre and communications",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.26.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.2",
+"strength": "helpful",
+"why": "corporation tax",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.26.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.6.0",
+"strength": "essential",
+"why": "agglomeration",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.27.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.27.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.27.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.28.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.28.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.28.b",
+"strength": "essential",
+"why": "data centres",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.26.4",
+"strength": "helpful",
+"why": "clustering",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.28.b",
+"strength": "essential",
+"why": "data centres",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.28.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.28.0",
+"strength": "helpful",
+"why": "electricity demand",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.29.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.29.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.29.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.29.0",
+"strength": "helpful",
+"why": "Shannon background",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.29.2": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.29.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.29.2",
+"strength": "essential",
+"why": "aircraft leasing",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.30.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.30.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.30.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.30.2": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.30.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.30.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.31.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "essential",
+"why": "tertiary activity",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.31.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.32.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.32.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.32.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.2",
+"strength": "helpful",
+"why": "corporation tax rate",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.32.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.2",
+"strength": "helpful",
+"why": "low tax rate",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.33.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.33.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.33.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.29.2",
+"strength": "essential",
+"why": "aircraft leasing",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.33.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.34.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.34.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.7.1",
+"strength": "helpful",
+"why": "2008 banking crisis",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.34.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.23.4",
+"strength": "essential",
+"why": "Brexit",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.35.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.35.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.35.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.35.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.34.1",
+"strength": "helpful",
+"why": "Brexit bank moves",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.36.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "essential",
+"why": "tertiary activity",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.36.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.36.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.36.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.3.b",
+"strength": "helpful",
+"why": "transport access",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.36.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.36.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.37.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.37.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.37.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.37.0",
+"strength": "helpful",
+"why": "tourism scale",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.37.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.37.3": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.37.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.38.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.38.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.9.2",
+"strength": "helpful",
+"why": "COVID-19 hit tourism",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.38.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.38.0",
+"strength": "essential",
+"why": "travel collapse",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.39.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.39.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.39.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.23.4",
+"strength": "helpful",
+"why": "Brexit routes",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.3.2",
+"strength": "helpful",
+"why": "Rosslare France routes",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.39.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.40.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.40.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.39.0",
+"strength": "helpful",
+"why": "airports",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.39.1",
+"strength": "helpful",
+"why": "ferry ports",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.3.5",
+"strength": "helpful",
+"why": "Dublin Airport",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.40.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.40.0",
+"strength": "helpful",
+"why": "Dublin as entry point",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.40.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.40.0",
+"strength": "helpful",
+"why": "Dublin as arrival point",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.40.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.36.2",
+"strength": "helpful",
+"why": "access factor: roads and rail",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.3.6",
+"strength": "helpful",
+"why": "road and rail freight/transport links",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.41.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.41.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.41.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.41.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.41.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.42.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.42.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.42.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.42.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.43.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.36.0",
+"strength": "helpful",
+"why": "scenery as physical attraction",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.36.2",
+"strength": "helpful",
+"why": "access as tourism factor",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.43.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.43.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.43.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.43.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.43.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.43.5": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.44.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.36.2",
+"strength": "helpful",
+"why": "transport access factor",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.44.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.44.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.36.2",
+"strength": "helpful",
+"why": "access improves tourism",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.44.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.45.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.45.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.43.b",
+"strength": "essential",
+"why": "Kerry region used as example",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.45.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.43.b",
+"strength": "helpful",
+"why": "Kerry region used as example",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.45.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.43.3",
+"strength": "essential",
+"why": "Ring of Kerry route",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.45.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.43.2",
+"strength": "essential",
+"why": "Carrauntoohil mountain",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.45.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.46.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.46.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.46.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.0.2",
+"strength": "helpful",
+"why": "tourism is tertiary activity",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.46.2": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.46.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.36.2",
+"strength": "helpful",
+"why": "access and cost factors",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.47.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.47.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.47.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.47.0",
+"strength": "helpful",
+"why": "Benidorm high-rise context",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.47.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.47.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.48.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.48.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.48.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.48.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.48.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.48.4": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.49.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.49.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.49.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.50.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.50.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.50.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.50.0",
+"strength": "essential",
+"why": "evidence of industrial decline",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.51.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.50.0",
+"strength": "essential",
+"why": "decline being explained",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.51.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.3.3",
+"strength": "essential",
+"why": "Anglo-Irish Free Trade Agreement",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.3.4",
+"strength": "essential",
+"why": "EEC membership 1973",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.2.1",
+"strength": "helpful",
+"why": "protected firms behind tariffs",
+"confidence": "high"
+},
+{
+"id": "geo-economic-eu-s3.1.0",
+"strength": "helpful",
+"why": "single market access",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.51.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.18.2",
+"strength": "helpful",
+"why": "lower costs relocation",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.19.1",
+"strength": "helpful",
+"why": "relocation to lower-cost countries",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.51.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.7.0",
+"strength": "helpful",
+"why": "2008 crash background",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.51.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.19.3",
+"strength": "essential",
+"why": "automation replacing workers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.51.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.53.1",
+"strength": "helpful",
+"why": "sugar closures example",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.51.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.53.3",
+"strength": "essential",
+"why": "Dell Limerick move",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.21.1",
+"strength": "essential",
+"why": "Dell move to Poland",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.19.1",
+"strength": "helpful",
+"why": "relocation to lower-cost countries",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.52.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.51.2",
+"strength": "helpful",
+"why": "1980s recession",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.52.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.52.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.52.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.53.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.53.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-activities-s1.53.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.51.4",
+"strength": "essential",
+"why": "EU sugar regime reform",
+"confidence": "high"
+},
+{
+"id": "geo-economic-eu-s3.3.2",
+"strength": "helpful",
+"why": "CAP surpluses behind sugar reform",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.53.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.51.2",
+"strength": "helpful",
+"why": "recession and receivership",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.53.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.51.5",
+"strength": "helpful",
+"why": "move to lower-cost location",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.19.1",
+"strength": "helpful",
+"why": "IDA client firms and FDI",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.21.1",
+"strength": "essential",
+"why": "same Dell Poland move",
+"confidence": "low"
+},
+{
+"id": "geo-economic-eu-s3.30.1",
+"strength": "helpful",
+"why": "Dell EGF support same event",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.54.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.54.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s2.10.0",
+"strength": "helpful",
+"why": "Moneypoint on Shannon estuary",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.54.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.54.0",
+"strength": "essential",
+"why": "Moneypoint coal station",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s2.10.1",
+"strength": "helpful",
+"why": "same Moneypoint coal end",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.55.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.50.1",
+"strength": "helpful",
+"why": "evidence of decline",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.55.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.55.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.2",
+"strength": "helpful",
+"why": "emigration defined",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.55.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.55.3": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.56.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.56.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.3.0",
+"strength": "essential",
+"why": "IDA role",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.22.0",
+"strength": "helpful",
+"why": "Enterprise Ireland role",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.4.1",
+"strength": "helpful",
+"why": "IDA grants and sites",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.56.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.25.3",
+"strength": "helpful",
+"why": "Docklands Development Authority",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s1.32.0",
+"strength": "helpful",
+"why": "IFSC on derelict docks",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.56.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.52.2",
+"strength": "helpful",
+"why": "Cork old port dockyard",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.56.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.53.2",
+"strength": "essential",
+"why": "Waterford Crystal closure",
+"confidence": "high"
+},
+{
+"id": "geo-economic-eu-s3.30.2",
+"strength": "helpful",
+"why": "Waterford Crystal workers EGF",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.56.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s3.28.0",
+"strength": "helpful",
+"why": "ESF retraining of workers",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.56.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.54.1",
+"strength": "helpful",
+"why": "peat stations closed",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s1.18.2",
+"strength": "helpful",
+"why": "peat power stations closing",
+"confidence": "high"
+},
+{
+"id": "geo-economic-eu-s3.25.1",
+"strength": "essential",
+"why": "Just Transition Fund for peat",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.57.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.57.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-activities-s1.58.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s3.20.0",
+"strength": "helpful",
+"why": "regional inequality in Ireland and EU",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.58.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.19.0",
+"strength": "helpful",
+"why": "FDI multinational jobs",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.6.0",
+"strength": "helpful",
+"why": "agglomeration explains Dublin concentration",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.58.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.58.0",
+"strength": "helpful",
+"why": "contrasts with Dublin region",
+"confidence": "high"
+},
+{
+"id": "geo-economic-activities-s1.19.0",
+"strength": "helpful",
+"why": "FDI jobs",
+"confidence": "low"
+}
+]
+},
+"geo-economic-activities-s1.58.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "regional policy and EU funds",
+"confidence": "low"
+},
+{
+"id": "geo-economic-eu-s3.22.0",
+"strength": "essential",
+"why": "BMW region and Objective 1",
+"confidence": "high"
+},
+{
+"id": "geo-economic-eu-s3.21.0",
+"strength": "helpful",
+"why": "Objective 1 funding status",
+"confidence": "high"
+}
+]
+},
+"geo-economic-activities-s1.58.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.58.0",
+"strength": "helpful",
+"why": "balancing growth away from Dublin",
+"confidence": "low"
+},
+{
+"id": "geo-economic-activities-s2.4.4",
+"strength": "helpful",
+"why": "regional policy steers growth",
+"confidence": "low"
+}
+]
+}
+}

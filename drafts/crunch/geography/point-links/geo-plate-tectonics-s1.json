@@ -1,0 +1,426 @@
+{
+"geo-plate-tectonics-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.0.0",
+"strength": "helpful",
+"why": "uses the layers of the earth",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.0.1",
+"strength": "essential",
+"why": "density and temperature increase inward",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.0.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.0.0",
+"strength": "essential",
+"why": "the layers to label",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.2.1",
+"strength": "essential",
+"why": "Moho boundary",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.2.3",
+"strength": "essential",
+"why": "Gutenberg boundary",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.1.2": {
+"cost": 2,
+"needs": []
+},
+"geo-plate-tectonics-s1.1.3": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.1.4": {
+"cost": 2,
+"needs": []
+},
+"geo-plate-tectonics-s1.1.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.1.0",
+"strength": "essential",
+"why": "continental crust thickness",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.1.3",
+"strength": "essential",
+"why": "oceanic crust thickness and density",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.1.1",
+"strength": "helpful",
+"why": "continental density 2.7",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.1.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.1.3",
+"strength": "helpful",
+"why": "oceanic crust",
+"confidence": "low"
+}
+]
+},
+"geo-plate-tectonics-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.2.0",
+"strength": "essential",
+"why": "discontinuity defined",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.7.0",
+"strength": "helpful",
+"why": "earthquake waves reveal boundaries",
+"confidence": "low"
+}
+]
+},
+"geo-plate-tectonics-s1.2.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.2.1",
+"strength": "essential",
+"why": "the Moho",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.2.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.2.0",
+"strength": "essential",
+"why": "discontinuity defined",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.3.2",
+"strength": "helpful",
+"why": "asthenosphere",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.3.4",
+"strength": "helpful",
+"why": "lithosphere",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.3.4",
+"strength": "helpful",
+"why": "lies beneath the lithosphere",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.3.3": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.3.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.0.0",
+"strength": "helpful",
+"why": "crust and mantle layers",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.3.4",
+"strength": "essential",
+"why": "lithosphere",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.3.2",
+"strength": "essential",
+"why": "plastic asthenosphere",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.4.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.0.0",
+"strength": "helpful",
+"why": "outer core layer",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.4.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.0.0",
+"strength": "helpful",
+"why": "inner core layer",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.4.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.4.2",
+"strength": "essential",
+"why": "inner core is solid and hot",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.3.2",
+"strength": "helpful",
+"why": "semi-molten rock in mantle",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.5.1",
+"strength": "essential",
+"why": "convection currents",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.0.1",
+"strength": "helpful",
+"why": "density and heat",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.5.1",
+"strength": "essential",
+"why": "convection currents",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.5.1",
+"strength": "essential",
+"why": "convection currents",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.5.0",
+"strength": "helpful",
+"why": "internal heat",
+"confidence": "low"
+}
+]
+},
+"geo-plate-tectonics-s1.6.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.6.0",
+"strength": "essential",
+"why": "endogenic forces",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.6.0",
+"strength": "helpful",
+"why": "contrasts with endogenic forces",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.7.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.2.0",
+"strength": "essential",
+"why": "discontinuities found",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.4.1",
+"strength": "helpful",
+"why": "outer core is liquid",
+"confidence": "low"
+}
+]
+},
+"geo-plate-tectonics-s1.7.2": {
+"cost": 1,
+"needs": []
+},
+"geo-plate-tectonics-s1.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.7.2",
+"strength": "essential",
+"why": "S-waves stopped by liquid",
+"confidence": "high"
+},
+{
+"id": "geo-plate-tectonics-s1.4.1",
+"strength": "helpful",
+"why": "outer core liquid",
+"confidence": "high"
+}
+]
+},
+"geo-plate-tectonics-s1.7.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-plate-tectonics-s1.7.3",
+"strength": "essential",
+"why": "S-waves blocked by outer core",
+"confidence": "high"
+}
+]
+}
+}

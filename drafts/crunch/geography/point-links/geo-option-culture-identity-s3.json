@@ -1,0 +1,873 @@
+{
+"geo-option-culture-identity-s3.0.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s3.0.0",
+"strength": "helpful",
+"why": "defines culture",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-concept-s3.0.1",
+"strength": "helpful",
+"why": "census data records religion",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.3.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.3.3": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.3.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.4.b": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.4.b",
+"strength": "helpful",
+"why": "hearth idea",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.4.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.4.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.4.4": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.4.5": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.5.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.4.b",
+"strength": "helpful",
+"why": "hearth as origin point",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.5.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.5.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.5.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.6.4",
+"strength": "helpful",
+"why": "the Reformation",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.6.3",
+"strength": "helpful",
+"why": "the Great Schism",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.6.4": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.6.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.7.0",
+"strength": "helpful",
+"why": "Islam region",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s3.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.7.b",
+"strength": "helpful",
+"why": "Sunni and Shia branches",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.4.2",
+"strength": "helpful",
+"why": "Mecca and Hijra origin",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.7.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.8.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.4.4",
+"strength": "helpful",
+"why": "Buddhism began in India",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s3.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.8.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.4.0",
+"strength": "helpful",
+"why": "Jerusalem holy city",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.7.3",
+"strength": "helpful",
+"why": "Mecca holy city",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.8.0",
+"strength": "helpful",
+"why": "Varanasi holy city",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.4.5",
+"strength": "helpful",
+"why": "Amritsar Golden Temple",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.10.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.10.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.10.3": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.10.3",
+"strength": "helpful",
+"why": "Census 2021 NI figures",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.10.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.11.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.2.b",
+"strength": "helpful",
+"why": "secular states",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.12.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.11.0",
+"strength": "helpful",
+"why": "theocracy defined",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.12.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.12.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.12.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.13.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.11.1",
+"strength": "helpful",
+"why": "established church, separation",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.13.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.11.1",
+"strength": "helpful",
+"why": "established church",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.11.2",
+"strength": "helpful",
+"why": "separation of church and state",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.11.2",
+"strength": "helpful",
+"why": "laicite as separation",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.13.2",
+"strength": "helpful",
+"why": "French secularism",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.13.3",
+"strength": "helpful",
+"why": "French religious dress laws",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.2.b",
+"strength": "helpful",
+"why": "secular state",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.14.0",
+"strength": "helpful",
+"why": "secular India",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.15.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.11.3",
+"strength": "helpful",
+"why": "dominant church not official",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.15.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.15.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.15.3": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.15.2",
+"strength": "helpful",
+"why": "special position clause",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.15.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.15.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.16.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.16.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.16.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.15.2",
+"strength": "essential",
+"why": "special position clause",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.15.5",
+"strength": "helpful",
+"why": "divorce ban in Article 41",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.17.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.17.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.15.6",
+"strength": "essential",
+"why": "the Eighth Amendment",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.17.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.17.5": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.17.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.17.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.16.0",
+"strength": "helpful",
+"why": "Catholic school patronage",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.18.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.18.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.19.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.19.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.19.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.19.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.20.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.19.3",
+"strength": "helpful",
+"why": "discrimination against Catholics",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.20.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.20.3": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.20.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.21.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.21.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.21.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.21.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.21.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.22.0",
+"strength": "helpful",
+"why": "partition of India",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.22.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.14.1",
+"strength": "helpful",
+"why": "Ayodhya Hindu nationalism",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.22.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.22.3",
+"strength": "helpful",
+"why": "Ayodhya site",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.22.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.4.5",
+"strength": "helpful",
+"why": "Golden Temple holiest Sikh site",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.22.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.22.5",
+"strength": "helpful",
+"why": "Sikh separatism background",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.23.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.18.0",
+"strength": "helpful",
+"why": "competing holy site claims",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.23.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.23.1",
+"strength": "helpful",
+"why": "1948 war context",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.23.2",
+"strength": "helpful",
+"why": "occupied West Bank",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.23.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.23.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.23.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.23.5",
+"strength": "helpful",
+"why": "7 October attack",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.23.7": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s3.24.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.24.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s3.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.7.b",
+"strength": "helpful",
+"why": "Sunni and Shia",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s3.24.3": {
+"cost": 1,
+"needs": []
+}
+}

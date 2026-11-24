@@ -1,0 +1,861 @@
+{
+"geo-population-migration-s4.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.0.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.3",
+"strength": "helpful",
+"why": "refugee duties",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.0.3": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.3",
+"strength": "helpful",
+"why": "contrasts with refugee status",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.3",
+"strength": "helpful",
+"why": "refugee definition",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.0.6": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.3",
+"strength": "helpful",
+"why": "persecution grounds",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.2.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s3.0.6",
+"strength": "helpful",
+"why": "chain migration",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.3.0",
+"strength": "essential",
+"why": "uses Common Travel Area",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s4.10.1",
+"strength": "helpful",
+"why": "Schengen defined",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.3.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s3.9.1",
+"strength": "helpful",
+"why": "2004 enlargement members",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.3.3",
+"strength": "helpful",
+"why": "contrast with 2004 opening",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.3.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.3.3",
+"strength": "helpful",
+"why": "open labour market",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.4.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.4.1": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.4.1",
+"strength": "helpful",
+"why": "compares with Critical Skills permit",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.4.1",
+"strength": "helpful",
+"why": "permit hiring logic",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.4.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.4.3",
+"strength": "helpful",
+"why": "labour-market test",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.5.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.5.0",
+"strength": "helpful",
+"why": "original asylum system",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.5.1",
+"strength": "helpful",
+"why": "claims procedure",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.5.4": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.6.1": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.6.2": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.6.2",
+"strength": "helpful",
+"why": "criticisms of direct provision",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.6.4": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.6.0",
+"strength": "helpful",
+"why": "direct provision system",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.5.3",
+"strength": "helpful",
+"why": "rising application numbers",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.7.0",
+"strength": "helpful",
+"why": "2004 amendment",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.7.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.6",
+"strength": "helpful",
+"why": "UNHCR resettlement",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.5.b",
+"strength": "helpful",
+"why": "asylum claim system",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.5.b",
+"strength": "essential",
+"why": "international protection system",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s4.8.1",
+"strength": "helpful",
+"why": "temporary protection",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.8.1",
+"strength": "helpful",
+"why": "Ukrainian arrivals",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.8.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.6.b",
+"strength": "helpful",
+"why": "direct provision accommodation",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s4.8.1",
+"strength": "helpful",
+"why": "Ukrainian arrivals",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.1",
+"strength": "helpful",
+"why": "EU free movement",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.6.b",
+"strength": "essential",
+"why": "direct provision",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.9.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.1",
+"strength": "helpful",
+"why": "free movement rights",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.10.1": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.10.1",
+"strength": "essential",
+"why": "Schengen area",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.10.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.10.1",
+"strength": "helpful",
+"why": "Schengen membership",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.10.1",
+"strength": "essential",
+"why": "Schengen",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s4.3.1",
+"strength": "helpful",
+"why": "Common Travel Area reason",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.10.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.10.1",
+"strength": "essential",
+"why": "internal border checks",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.11.1": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.11.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.11.0",
+"strength": "helpful",
+"why": "first-entry rule",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.11.0",
+"strength": "helpful",
+"why": "first-entry responsibility",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.11.4",
+"strength": "helpful",
+"why": "frontier states",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s4.13.1",
+"strength": "helpful",
+"why": "2015 arrivals",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.12.0",
+"strength": "helpful",
+"why": "Frontex role",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.0.1",
+"strength": "helpful",
+"why": "third-country nationals",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s3.17.1",
+"strength": "helpful",
+"why": "ageing offset by workers",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.13.0",
+"strength": "helpful",
+"why": "drivers of flows",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.13.2": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.13.3": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.13.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.13.3",
+"strength": "helpful",
+"why": "route comparison",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.13.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.13.4",
+"strength": "helpful",
+"why": "Lampedusa and route",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.13.6": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.13.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.8.1",
+"strength": "helpful",
+"why": "Ukrainian temporary protection",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.14.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.11.4",
+"strength": "helpful",
+"why": "frontier states",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.14.1",
+"strength": "helpful",
+"why": "relocation scheme",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.14.3": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.14.4": {
+"cost": 2,
+"needs": []
+},
+"geo-population-migration-s4.14.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.14.4",
+"strength": "helpful",
+"why": "EU-Turkey deal",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.14.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.12.0",
+"strength": "helpful",
+"why": "Frontex",
+"confidence": "high"
+},
+{
+"id": "geo-population-migration-s4.10.5",
+"strength": "helpful",
+"why": "internal border checks",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.15.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.8.1",
+"strength": "helpful",
+"why": "Temporary Protection Directive",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.15.0",
+"strength": "helpful",
+"why": "temporary protection",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.15.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.14.1",
+"strength": "helpful",
+"why": "relocation of asylum seekers",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.15.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.15.2",
+"strength": "essential",
+"why": "the Pact",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.5.b",
+"strength": "helpful",
+"why": "asylum claims system",
+"confidence": "low"
+}
+]
+},
+"geo-population-migration-s4.16.2": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.11.0",
+"strength": "essential",
+"why": "Dublin rule",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.16.4": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.16.5": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.16.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.13.6",
+"strength": "helpful",
+"why": "deaths at sea",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-population-migration-s4.17.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-population-migration-s4.14.2",
+"strength": "helpful",
+"why": "relocation dispute",
+"confidence": "high"
+}
+]
+},
+"geo-population-migration-s4.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s4.12.3",
+"strength": "helpful",
+"why": "labour need",
+"confidence": "low"
+}
+]
+}
+}

@@ -1,0 +1,1103 @@
+{
+"geo-option-culture-identity-s1.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.1.0",
+"strength": "helpful",
+"why": "builds on the same-group genetic point",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.1.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.1.1",
+"strength": "helpful",
+"why": "groupings not real divisions",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.1.4": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.2.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.3.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.3.0",
+"strength": "helpful",
+"why": "adaptation to environment",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.3.0",
+"strength": "helpful",
+"why": "adaptation to environment",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.2.0",
+"strength": "essential",
+"why": "Caucasoid grouping",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.2.1",
+"strength": "essential",
+"why": "Mongoloid grouping",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.2.2",
+"strength": "essential",
+"why": "Negroid grouping",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.2.3",
+"strength": "essential",
+"why": "Australoid grouping",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.5.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.5.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.5.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.5.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.5.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.5.2",
+"strength": "helpful",
+"why": "slave trade scale",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.6.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.6.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.6.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.6.2",
+"strength": "helpful",
+"why": "Stolen Generations apologised for",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.6.5": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.6.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.6.3",
+"strength": "helpful",
+"why": "earlier referendum on Aboriginal rights",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.6.7": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.7.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.7.0",
+"strength": "helpful",
+"why": "removals created reservations",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.8.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-development-s3.0.6",
+"strength": "helpful",
+"why": "plantations used forced labour",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.8.0",
+"strength": "essential",
+"why": "indentured labour destinations",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.8.0",
+"strength": "essential",
+"why": "indentured labour movement",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.9.0",
+"strength": "helpful",
+"why": "Belgian rule of Rwanda",
+"confidence": "high"
+},
+{
+"id": "geo-economic-development-s3.1.5",
+"strength": "helpful",
+"why": "colonial divide and rule",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.30.0",
+"strength": "helpful",
+"why": "genocide described later",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.10.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.10.0",
+"strength": "helpful",
+"why": "post-war colonial migration to Britain",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.10.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.10.0",
+"strength": "helpful",
+"why": "colonial migration to mother country",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.11.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.11.0",
+"strength": "essential",
+"why": "the South-to-North movement",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.11.0",
+"strength": "helpful",
+"why": "the South-to-North movement",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.12.0",
+"strength": "helpful",
+"why": "Turkish recruitment agreement",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.12.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.12.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.13.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.0",
+"strength": "essential",
+"why": "refugee definition",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.13.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.0",
+"strength": "essential",
+"why": "refugee status",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.13.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.13.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.13.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.0",
+"strength": "helpful",
+"why": "forcibly displaced people",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.0",
+"strength": "helpful",
+"why": "refugee meaning",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.0",
+"strength": "helpful",
+"why": "refugee meaning",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.14.0",
+"strength": "essential",
+"why": "Syrian refugee numbers",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.14.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.2",
+"strength": "helpful",
+"why": "asylum seeker meaning",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.14.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.14.0",
+"strength": "helpful",
+"why": "Syrian war context",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.15.0",
+"strength": "essential",
+"why": "Rohingya statelessness",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.16.0",
+"strength": "helpful",
+"why": "Census 2022 figures",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.0.1",
+"strength": "helpful",
+"why": "ethnic group meaning",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.16.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.16.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.0.1",
+"strength": "helpful",
+"why": "ethnic minority meaning",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.16.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.16.6": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.0",
+"strength": "helpful",
+"why": "refugee protection",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.2",
+"strength": "essential",
+"why": "asylum seeker meaning",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.17.0",
+"strength": "essential",
+"why": "Direct Provision asylum system",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.17.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.13.2",
+"strength": "helpful",
+"why": "asylum seeker meaning",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.17.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.18.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.18.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.25.1",
+"strength": "helpful",
+"why": "segregation as a cause",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-population-migration-s3.4.0",
+"strength": "helpful",
+"why": "migration is age-selective",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.19.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.21.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.21.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.21.0",
+"strength": "helpful",
+"why": "census percentages",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.21.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.21.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.21.2",
+"strength": "helpful",
+"why": "contrast with melting pot",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.22.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.14.0",
+"strength": "helpful",
+"why": "enslaved Africans in Brazil",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.22.0",
+"strength": "helpful",
+"why": "later immigrants to Brazil",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.22.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.22.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.22.2",
+"strength": "essential",
+"why": "pardo census figures",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.22.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.22.0",
+"strength": "helpful",
+"why": "Brazil mixed population",
+"confidence": "low"
+},
+{
+"id": "geo-economic-development-s3.14.2",
+"strength": "helpful",
+"why": "racial inequality legacy of slavery",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.23.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.23.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.10.1",
+"strength": "helpful",
+"why": "Windrush generation",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.24.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.24.1": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.24.0",
+"strength": "essential",
+"why": "multiculturalism policy",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.24.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.24.0",
+"strength": "essential",
+"why": "multiculturalism policy",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.25.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.25.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.25.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.25.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-development-s3.1.6",
+"strength": "helpful",
+"why": "colonial racial hierarchies and power",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.25.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.26.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.26.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.26.0",
+"strength": "helpful",
+"why": "apartheid system",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.26.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.26.0",
+"strength": "helpful",
+"why": "apartheid system",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.26.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.26.0",
+"strength": "helpful",
+"why": "apartheid system",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.26.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.26.2",
+"strength": "helpful",
+"why": "Group Areas Act removals",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.27.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.27.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.27.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.27.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.27.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.26.1",
+"strength": "helpful",
+"why": "racial categories",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.27.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.26.2",
+"strength": "helpful",
+"why": "land segregation legacy",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.28.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.28.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.28.0",
+"strength": "helpful",
+"why": "Jim Crow segregation",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.28.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.28.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.28.0",
+"strength": "helpful",
+"why": "Jim Crow laws",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.28.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.28.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.29.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.29.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.29.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.29.0",
+"strength": "essential",
+"why": "Nuremberg Laws",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.29.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.29.1",
+"strength": "helpful",
+"why": "genocide step",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s1.30.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.9.1",
+"strength": "essential",
+"why": "Belgian identity cards",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.30.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.9.1",
+"strength": "helpful",
+"why": "Hutu and Tutsi labels",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s1.31.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.31.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.31.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s1.31.2": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s1.31.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s1.31.2",
+"strength": "helpful",
+"why": "banlieue riots precedent",
+"confidence": "high"
+}
+]
+}
+}

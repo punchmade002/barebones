@@ -1,0 +1,670 @@
+{
+"geo-economic-eu-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.2.1",
+"strength": "helpful",
+"why": "high tariffs as protection",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.2.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.0.0",
+"strength": "helpful",
+"why": "uses 1960 UK export share",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.2.0",
+"strength": "helpful",
+"why": "UK share of exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.3.0": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-eu-s2.3.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-eu-s1.2.2",
+"strength": "helpful",
+"why": "surplus and balance of trade",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "helpful",
+"why": "multinational company definition",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-graph-skills-s1.4.1",
+"strength": "helpful",
+"why": "percentage change calculation",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.4.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.4.0",
+"strength": "helpful",
+"why": "uses export total",
+"confidence": "high"
+},
+{
+"id": "geo-graph-skills-s1.3.1",
+"strength": "helpful",
+"why": "subtract to find difference",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.5.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s1.0.b",
+"strength": "helpful",
+"why": "trading bloc idea",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.5.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-eu-s1.5.2",
+"strength": "helpful",
+"why": "Rotterdam effect, Netherlands",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.5.0",
+"strength": "helpful",
+"why": "compares with export bloc",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.6.1": {
+"cost": 2,
+"needs": []
+},
+"geo-economic-eu-s2.6.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.4.0",
+"strength": "helpful",
+"why": "share of goods exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.8.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.10.1",
+"strength": "helpful",
+"why": "aircraft leasing industry",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.8.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.4.0",
+"strength": "helpful",
+"why": "compares with 2024 exports",
+"confidence": "high"
+},
+{
+"id": "geo-graph-skills-s1.4.1",
+"strength": "helpful",
+"why": "percentage change calculation",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.7.0",
+"strength": "essential",
+"why": "pharma export share 2024",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.9.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.5.1",
+"strength": "helpful",
+"why": "USA share of exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.9.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-eu-s1.13.0",
+"strength": "essential",
+"why": "EU-USA deal and 15% cap",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.9.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.9.1",
+"strength": "helpful",
+"why": "dependence on pharmaceuticals",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.25.1",
+"strength": "helpful",
+"why": "Google, Microsoft in Dublin",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.0.0",
+"strength": "helpful",
+"why": "multinational company definition",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.32.0",
+"strength": "helpful",
+"why": "IFSC origin and role",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.10.0",
+"strength": "helpful",
+"why": "services sold by multinationals",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.13.1",
+"strength": "helpful",
+"why": "beef and dairy exported",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.14.3",
+"strength": "helpful",
+"why": "Bord Bia role",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.11.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-eu-s2.11.1",
+"strength": "essential",
+"why": "uses food export total",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.11.1",
+"strength": "helpful",
+"why": "part of food exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.12.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.11.2",
+"strength": "helpful",
+"why": "UK share of food exports",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.11.2",
+"strength": "helpful",
+"why": "EU and UK food shares",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.14.0",
+"strength": "helpful",
+"why": "Kerrygold and Ornua",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.12.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.14.6",
+"strength": "helpful",
+"why": "Baileys",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s1.1.0",
+"strength": "helpful",
+"why": "single market freedoms",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s1.6.1",
+"strength": "helpful",
+"why": "euro removes exchange risk",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-eu-s2.13.1",
+"strength": "helpful",
+"why": "exchange-rate risk",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s1.6.5",
+"strength": "helpful",
+"why": "CAP and food standards",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.14.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-globalisation-s1.1.b",
+"strength": "helpful",
+"why": "foreign direct investment",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.14.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-activities-s1.19.0",
+"strength": "helpful",
+"why": "foreign direct investment",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.4.0",
+"strength": "helpful",
+"why": "Intel at Leixlip",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.13.0",
+"strength": "helpful",
+"why": "Apple in Cork",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.2",
+"strength": "helpful",
+"why": "12.5% corporation tax",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.1.0",
+"strength": "helpful",
+"why": "IDA Ireland role",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.2.0",
+"strength": "helpful",
+"why": "12.5% corporation tax",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.14.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.5.3",
+"strength": "essential",
+"why": "15% minimum tax rule",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.2.0",
+"strength": "essential",
+"why": "15% global minimum tax",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.15.0",
+"strength": "helpful",
+"why": "island, trade by sea",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.16.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-activities-s1.23.4",
+"strength": "helpful",
+"why": "Brexit dates",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.16.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.16.0",
+"strength": "essential",
+"why": "post-Brexit trade rules",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.16.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-eu-s2.15.1",
+"strength": "helpful",
+"why": "Rosslare as port",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.16.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.15.1",
+"strength": "helpful",
+"why": "Rosslare as port",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.16.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-economic-eu-s2.16.1",
+"strength": "helpful",
+"why": "border checks on GB trade",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.16.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.16.4",
+"strength": "helpful",
+"why": "trade shift after Brexit",
+"confidence": "high"
+}
+]
+},
+"geo-economic-eu-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-economic-eu-s2.17.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.7.0",
+"strength": "helpful",
+"why": "pharma and USA reliance",
+"confidence": "high"
+},
+{
+"id": "geo-economic-globalisation-s1.10.5",
+"strength": "helpful",
+"why": "tax change risks MNC moving",
+"confidence": "low"
+}
+]
+},
+"geo-economic-eu-s2.17.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-economic-eu-s2.15.0",
+"strength": "helpful",
+"why": "peripheral island location",
+"confidence": "high"
+}
+]
+}
+}

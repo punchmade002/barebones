@@ -1,0 +1,1509 @@
+{
+"geo-option-culture-identity-s5.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.0.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.0",
+"strength": "helpful",
+"why": "uses state definition",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.0.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.0",
+"strength": "helpful",
+"why": "sovereign states counted",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.0.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.1.1",
+"strength": "helpful",
+"why": "faith part of national identity",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.0.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.3",
+"strength": "helpful",
+"why": "membership of a nation",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.0.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.0",
+"strength": "essential",
+"why": "state and nation match",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s5.0.3",
+"strength": "essential",
+"why": "state and nation match",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.0.6": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.5",
+"strength": "essential",
+"why": "contrasts with nation state",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.0.7": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.3",
+"strength": "essential",
+"why": "nation without state",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.0.8": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.5",
+"strength": "helpful",
+"why": "nation state definition",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s5.0.6",
+"strength": "helpful",
+"why": "multinational state definition",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.1.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.1.0",
+"strength": "helpful",
+"why": "nation states from nationalism",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.21.0",
+"strength": "helpful",
+"why": "USSR break-up",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.5",
+"strength": "helpful",
+"why": "pure nation state",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.2.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.2.3": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s5.2.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.2.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-european-s4.20.2",
+"strength": "helpful",
+"why": "Berlin Wall",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.3.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.3.0",
+"strength": "helpful",
+"why": "physical boundary example",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.3.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.3.0",
+"strength": "helpful",
+"why": "physical boundary example",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.3.0",
+"strength": "helpful",
+"why": "physical borders listed",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s2.4.2",
+"strength": "helpful",
+"why": "language split between states",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.2.1",
+"strength": "essential",
+"why": "geometric boundary",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.4.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.4.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.4.1",
+"strength": "helpful",
+"why": "Berlin Conference borders",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s5.2.4",
+"strength": "helpful",
+"why": "superimposed boundary",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.4.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.4.2",
+"strength": "essential",
+"why": "straight colonial borders",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.5.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.3.3",
+"strength": "helpful",
+"why": "Basques split by boundary",
+"confidence": "low"
+},
+{
+"id": "geo-region-european-s4.24.0",
+"strength": "helpful",
+"why": "boundaries splitting groups",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.5.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.2.5",
+"strength": "helpful",
+"why": "Berlin Wall relict boundary",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.20.2",
+"strength": "helpful",
+"why": "Berlin Wall",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.22.1",
+"strength": "helpful",
+"why": "Cyprus Green Line",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.5.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-european-s4.15.5",
+"strength": "helpful",
+"why": "Schengen area",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.5.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.5.3",
+"strength": "essential",
+"why": "Schengen and open borders",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.5.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.6.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.6.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-european-s4.18.0",
+"strength": "helpful",
+"why": "Government of Ireland Act",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.6.0",
+"strength": "helpful",
+"why": "two administrations created",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.6.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.6.1",
+"strength": "helpful",
+"why": "Northern Ireland established",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.18.0",
+"strength": "helpful",
+"why": "six of nine Ulster counties",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.6.2",
+"strength": "essential",
+"why": "other three Ulster counties",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.18.1",
+"strength": "helpful",
+"why": "three counties to Free State",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.6.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.6.1",
+"strength": "helpful",
+"why": "border set 1921-22",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.18.3",
+"strength": "helpful",
+"why": "Boundary Commission 1925",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.6.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.6.2",
+"strength": "helpful",
+"why": "county boundaries as border",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.18.6",
+"strength": "helpful",
+"why": "border dividing communities",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.6.6": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.7.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.6.0",
+"strength": "essential",
+"why": "partition created two states",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.18.4",
+"strength": "helpful",
+"why": "two minorities after partition",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.7.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.7.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.7.1",
+"strength": "helpful",
+"why": "republic and constitution",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.7.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.7.2",
+"strength": "essential",
+"why": "Articles 2 and 3 changed",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.7.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.7.3",
+"strength": "helpful",
+"why": "Good Friday Agreement context",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.8.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.8.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.8.0",
+"strength": "helpful",
+"why": "EU exit and border",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.8.0",
+"strength": "helpful",
+"why": "border openness after Brexit",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.9.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.4.2",
+"strength": "helpful",
+"why": "boundaries ignoring culture",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.24.0",
+"strength": "helpful",
+"why": "boundaries across groups",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.10.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-european-s4.7.1",
+"strength": "helpful",
+"why": "Belgium federalism",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.10.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.10.0",
+"strength": "helpful",
+"why": "regional self-government",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.10.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.24.0",
+"strength": "helpful",
+"why": "power-sharing in Lebanon",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.10.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.10.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.13.2",
+"strength": "helpful",
+"why": "French laicite",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.10.5": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.9.6",
+"strength": "helpful",
+"why": "Basque language",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.11.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.10.0",
+"strength": "helpful",
+"why": "autonomy in Spain",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.11.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.11.0",
+"strength": "helpful",
+"why": "Basque autonomy",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.11.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.11.0",
+"strength": "helpful",
+"why": "Catalan autonomy statute",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.11.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.1.2",
+"strength": "helpful",
+"why": "language suppression under Franco",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.11.5": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.11.0",
+"strength": "helpful",
+"why": "Basque and Catalan identities",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.12.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.10.1",
+"strength": "essential",
+"why": "devolution",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.12.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.12.0",
+"strength": "helpful",
+"why": "four UK nations",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.12.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.12.2",
+"strength": "helpful",
+"why": "Scottish voting",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.13.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.4.1",
+"strength": "helpful",
+"why": "French spoken in Quebec",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.13.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.13.3",
+"strength": "helpful",
+"why": "Bill 101",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.13.0",
+"strength": "helpful",
+"why": "Quebec identity",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.13.0",
+"strength": "helpful",
+"why": "Quebec nation",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.6",
+"strength": "helpful",
+"why": "multinational state",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.7.0",
+"strength": "helpful",
+"why": "Belgium language border",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.6",
+"strength": "helpful",
+"why": "multinational state",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.15.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.16.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.16.0",
+"strength": "helpful",
+"why": "Sámi elected bodies",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.16.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.18.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.18.0",
+"strength": "helpful",
+"why": "Kurdish population",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.18.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.6.0",
+"strength": "helpful",
+"why": "Indo-European family",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.19.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.19.0",
+"strength": "essential",
+"why": "replaces Sèvres treaty",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.1.4",
+"strength": "helpful",
+"why": "Kurdish language ban",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.19.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.19.2",
+"strength": "helpful",
+"why": "Turkish suppression",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.19.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.19.3",
+"strength": "essential",
+"why": "PKK dissolution",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.20.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.20.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.20.2",
+"strength": "helpful",
+"why": "Kurdistan Region",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.20.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.21.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.0.1",
+"strength": "helpful",
+"why": "language marks identity",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.22.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.23.1",
+"strength": "helpful",
+"why": "1948 Palestinian flight",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.22.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.22.0",
+"strength": "helpful",
+"why": "refugees from 1948",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.23.4",
+"strength": "helpful",
+"why": "Oslo Accords",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.22.3": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.22.2",
+"strength": "helpful",
+"why": "state of Palestine",
+"confidence": "low"
+},
+{
+"id": "geo-option-culture-identity-s3.23.7",
+"strength": "helpful",
+"why": "Ireland recognised Palestine",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.23.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.23.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.5.0",
+"strength": "helpful",
+"why": "language families",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.23.0",
+"strength": "helpful",
+"why": "Roma populations",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.23.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.23.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.24.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.24.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.24.0",
+"strength": "helpful",
+"why": "Tibet after 1950",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.8.1",
+"strength": "helpful",
+"why": "Tibetan Buddhism",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.24.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.24.0",
+"strength": "helpful",
+"why": "Tibet Autonomous Region",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.24.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.25.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.25.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.6.6",
+"strength": "helpful",
+"why": "Turkic languages",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.25.0",
+"strength": "helpful",
+"why": "Uyghur detention",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.25.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.25.1",
+"strength": "helpful",
+"why": "UN report on camps",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.26.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.10.0",
+"strength": "helpful",
+"why": "autonomy",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.27.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.0.1",
+"strength": "helpful",
+"why": "language marks identity",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.27.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.27.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.27.1",
+"strength": "helpful",
+"why": "outcomes of responses",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.28.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.28.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-european-s4.24.0",
+"strength": "helpful",
+"why": "boundaries cut groups",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.28.1": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.28.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s2.1.b",
+"strength": "helpful",
+"why": "suppression of language",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.18.2",
+"strength": "helpful",
+"why": "religious suppression and discrimination",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.28.3": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.28.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.29.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.29.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.19.2",
+"strength": "helpful",
+"why": "unionist majority in Northern Ireland",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.29.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.29.0",
+"strength": "essential",
+"why": "discrimination against nationalists",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.20.0",
+"strength": "helpful",
+"why": "civil rights movement 1968",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.29.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.29.1",
+"strength": "helpful",
+"why": "Troubles after civil rights",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.20.1",
+"strength": "helpful",
+"why": "Troubles death toll",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.29.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.10.3",
+"strength": "helpful",
+"why": "same Northern Ireland census",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.30.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.30.0": {
+"cost": 2,
+"needs": []
+},
+"geo-option-culture-identity-s5.30.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.29.0",
+"strength": "helpful",
+"why": "two cultural groups",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s5.10.2",
+"strength": "helpful",
+"why": "power-sharing",
+"confidence": "high"
+},
+{
+"id": "geo-option-culture-identity-s3.21.0",
+"strength": "helpful",
+"why": "Agreement institutions",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.30.2": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.30.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.30.1",
+"strength": "essential",
+"why": "restored Assembly",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.30.4": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.31.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.31.0": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.31.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.31.0",
+"strength": "helpful",
+"why": "ETA campaign",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.31.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.31.0",
+"strength": "helpful",
+"why": "ETA end",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.31.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.11.1",
+"strength": "helpful",
+"why": "Spanish autonomy",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.32.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.32.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.11.3",
+"strength": "essential",
+"why": "Catalan autonomy statute",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.32.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.32.0",
+"strength": "helpful",
+"why": "independence movement",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.32.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.32.1",
+"strength": "essential",
+"why": "response to referendum",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.32.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.32.2",
+"strength": "helpful",
+"why": "leaders jailed after referendum",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.33.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.33.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s5.0.6",
+"strength": "helpful",
+"why": "multinational state",
+"confidence": "high"
+},
+{
+"id": "geo-region-european-s4.19.0",
+"strength": "helpful",
+"why": "Yugoslavia break-up",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.34.b": {
+"cost": 1,
+"needs": []
+},
+"geo-option-culture-identity-s5.34.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.8.1",
+"strength": "helpful",
+"why": "Buddhist Sinhalese",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.34.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-option-culture-identity-s3.7.0",
+"strength": "helpful",
+"why": "Muslim region",
+"confidence": "low"
+}
+]
+},
+"geo-option-culture-identity-s5.34.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-european-s4.22.0",
+"strength": "helpful",
+"why": "Cyprus division",
+"confidence": "high"
+}
+]
+},
+"geo-option-culture-identity-s5.34.3": {
+"cost": 1,
+"needs": []
+}
+}
