@@ -1,0 +1,730 @@
+{
+ "hist-eur6-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.0.0",
+    "strength": "helpful",
+    "why": "uses states’ reserved powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.4.6",
+    "strength": "essential",
+    "why": "uses Truman’s civil rights programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.6.1",
+    "strength": "helpful",
+    "why": "uses the Civil Rights Act 1964",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.0.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.0.1",
+    "strength": "helpful",
+    "why": "uses southern state segregation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.1.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.1.0",
+    "strength": "helpful",
+    "why": "uses presidential and congressional powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.1.1",
+    "strength": "helpful",
+    "why": "uses veto override",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.1.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.1.0",
+    "strength": "helpful",
+    "why": "uses presidential powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.1.0",
+    "strength": "helpful",
+    "why": "uses the Supreme Court’s role",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.3.0",
+    "strength": "helpful",
+    "why": "uses Roosevelt’s four elections",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.2",
+    "strength": "essential",
+    "why": "uses the Watergate scandal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.1.0",
+    "strength": "helpful",
+    "why": "uses presidential war powers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.1.9": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.2.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.2.1",
+    "strength": "essential",
+    "why": "uses the National Security Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.2.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.2",
+    "strength": "helpful",
+    "why": "uses Watergate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.3.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.3.0",
+    "strength": "helpful",
+    "why": "uses Roosevelt’s presidency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.3.2",
+    "strength": "helpful",
+    "why": "uses Truman becoming president",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.3.1",
+    "strength": "helpful",
+    "why": "uses the New Deal coalition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.4.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.3.2",
+    "strength": "helpful",
+    "why": "uses Truman succeeding Roosevelt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.3.4",
+    "strength": "helpful",
+    "why": "uses reconversion and strikes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.4.3",
+    "strength": "helpful",
+    "why": "uses his earlier reform programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.4.4",
+    "strength": "essential",
+    "why": "uses the Fair Deal proposals",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.6": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.4.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.4.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.3.4",
+    "strength": "helpful",
+    "why": "uses strikes and prices",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.9": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.1.3",
+    "strength": "helpful",
+    "why": "uses the Republican Congress",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.10": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.0.2",
+    "strength": "essential",
+    "why": "uses the Dixiecrats",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.4.11": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.4.12": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.4.6",
+    "strength": "helpful",
+    "why": "uses his civil rights initiatives",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.4.7",
+    "strength": "helpful",
+    "why": "uses his loyalty programme",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.5.0",
+    "strength": "helpful",
+    "why": "uses accepting the New Deal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.5.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.5.6",
+    "strength": "helpful",
+    "why": "uses Kennedy’s assassination",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.5.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.5.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.5.6",
+    "strength": "helpful",
+    "why": "uses Johnson succeeding Kennedy",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.5.6",
+    "strength": "helpful",
+    "why": "uses Johnson becoming president",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.5.5",
+    "strength": "essential",
+    "why": "uses Kennedy’s civil rights bill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.6.2",
+    "strength": "helpful",
+    "why": "uses the Great Society",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.6.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.6.2",
+    "strength": "helpful",
+    "why": "uses the Great Society",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.6.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.6.2",
+    "strength": "helpful",
+    "why": "uses the Great Society",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.6.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.6.8": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.6.2",
+    "strength": "helpful",
+    "why": "uses the Great Society",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.6.9": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.6.2",
+    "strength": "essential",
+    "why": "uses the Great Society",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.7.1": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.7.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.2",
+    "strength": "essential",
+    "why": "uses the Watergate scandal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.3",
+    "strength": "essential",
+    "why": "uses Ford’s pardon of Nixon",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.7.7": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-eur6-s1.7.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.8.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.8",
+    "strength": "helpful",
+    "why": "uses Carter’s defeat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.8.0",
+    "strength": "helpful",
+    "why": "uses Reagan’s election",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.8.2",
+    "strength": "helpful",
+    "why": "uses the tax cuts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.8.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.8.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.1.9",
+    "strength": "helpful",
+    "why": "uses the Boland restrictions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.8.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.8.5",
+    "strength": "essential",
+    "why": "uses Iran-Contra",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.8.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.8.5",
+    "strength": "helpful",
+    "why": "uses the Iran-Contra scandal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-eur6-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.6.1",
+    "strength": "helpful",
+    "why": "uses the Civil Rights Act",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.6.4",
+    "strength": "helpful",
+    "why": "uses the Voting Rights Act",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.9.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.2",
+    "strength": "helpful",
+    "why": "uses Watergate",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.6",
+    "strength": "helpful",
+    "why": "uses Camp David Accords",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.7.8",
+    "strength": "helpful",
+    "why": "uses the hostage crisis",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.9.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.8.2",
+    "strength": "helpful",
+    "why": "uses the tax cuts",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.8.5",
+    "strength": "helpful",
+    "why": "uses Iran-Contra",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.9.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.7.2",
+    "strength": "helpful",
+    "why": "uses Watergate",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.8.5",
+    "strength": "helpful",
+    "why": "uses Iran-Contra",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-eur6-s1.9.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-eur6-s1.4.11",
+    "strength": "helpful",
+    "why": "uses Truman’s unpopularity",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-eur6-s1.6.9",
+    "strength": "helpful",
+    "why": "uses Johnson’s Vietnam collapse",
+    "confidence": "low"
+   }
+  ]
+ }
+}

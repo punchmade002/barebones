@@ -1,0 +1,593 @@
+{
+ "hist-ire2-s8.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.2",
+    "strength": "helpful",
+    "why": "Danish butter competition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.3",
+    "strength": "essential",
+    "why": "co-operative creameries model",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.0",
+    "strength": "essential",
+    "why": "Horace Plunkett",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.5",
+    "strength": "helpful",
+    "why": "AE and the Irish Homestead",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.0",
+    "strength": "helpful",
+    "why": "Horace Plunkett",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.3",
+    "strength": "helpful",
+    "why": "co-operative societies",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.0",
+    "strength": "essential",
+    "why": "the IAOS",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.3",
+    "strength": "helpful",
+    "why": "co-operative creameries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.2",
+    "strength": "helpful",
+    "why": "moneylenders and shopkeepers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.0",
+    "strength": "helpful",
+    "why": "co-operative societies body",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.3",
+    "strength": "helpful",
+    "why": "creamery separators",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.0",
+    "strength": "helpful",
+    "why": "Horace Plunkett",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.0",
+    "strength": "essential",
+    "why": "the Recess Committee",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.1",
+    "strength": "essential",
+    "why": "Recess Committee recommendation",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.0.0",
+    "strength": "helpful",
+    "why": "Plunkett",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.2",
+    "strength": "essential",
+    "why": "DATI",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.2",
+    "strength": "essential",
+    "why": "Plunkett as DATI vice-president",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.2.2",
+    "strength": "essential",
+    "why": "DATI",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.2.4",
+    "strength": "helpful",
+    "why": "Plunkett losing vice-presidency",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.1",
+    "strength": "helpful",
+    "why": "Plunkett as Unionist MP",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.1",
+    "strength": "helpful",
+    "why": "Plunkett as Unionist",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.0.1",
+    "strength": "helpful",
+    "why": "Plunkett's 1900 defeat",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.1.2",
+    "strength": "helpful",
+    "why": "creameries competing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.3.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s2.5.2",
+    "strength": "essential",
+    "why": "Congested Districts Board",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s8.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.1",
+    "strength": "helpful",
+    "why": "linen industry",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.4.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.4.8": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.5.0",
+    "strength": "helpful",
+    "why": "Harland and Wolff yard",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.5.0",
+    "strength": "helpful",
+    "why": "Harland and Wolff yard",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.5.2",
+    "strength": "essential",
+    "why": "the Titanic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.5.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.5.0",
+    "strength": "helpful",
+    "why": "Harland and Wolff",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.5.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.5.2",
+    "strength": "helpful",
+    "why": "Olympic and Titanic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.1",
+    "strength": "helpful",
+    "why": "linen mills",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.6.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.3": {
+  "cost": 2,
+  "needs": []
+ },
+ "hist-ire2-s8.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.6.2",
+    "strength": "helpful",
+    "why": "Protestant dominance of skilled jobs",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.6.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.6.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.6.2",
+    "strength": "helpful",
+    "why": "Protestant industrial interests",
+    "confidence": "low"
+   }
+  ]
+ },
+ "hist-ire2-s8.6.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.6.0",
+    "strength": "helpful",
+    "why": "mill workers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.1",
+    "strength": "helpful",
+    "why": "linen",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.5.b",
+    "strength": "helpful",
+    "why": "shipbuilding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.7.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.7.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.7.0",
+    "strength": "helpful",
+    "why": "Belfast's export economy",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.6.6",
+    "strength": "helpful",
+    "why": "industrial interests and unionism",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.4.5",
+    "strength": "helpful",
+    "why": "Catholic districts of Belfast",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "hist-ire2-s8.8.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.4",
+    "strength": "helpful",
+    "why": "co-operative results",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.4.b",
+    "strength": "helpful",
+    "why": "Belfast industrial growth",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.5",
+    "strength": "helpful",
+    "why": "western farmers and Ulster",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.6.2",
+    "strength": "helpful",
+    "why": "sectarian divisions in work",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "hist-ire2-s8.3.0",
+    "strength": "helpful",
+    "why": "nationalist suspicion of Plunkett",
+    "confidence": "high"
+   },
+   {
+    "id": "hist-ire2-s8.6.6",
+    "strength": "helpful",
+    "why": "unionist Belfast and the Union",
+    "confidence": "high"
+   }
+  ]
+ },
+ "hist-ire2-s8.8.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "hist-ire2-s2.8.b",
+    "strength": "helpful",
+    "why": "land reform comparison",
+    "confidence": "high"
+   }
+  ]
+ }
+}
