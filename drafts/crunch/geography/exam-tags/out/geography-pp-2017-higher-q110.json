@@ -1,1 +1,233 @@
-{"10A": [{"k": 1, "of": ["geo-aerial-photographs-s1.14.0", "geo-aerial-photographs-s1.14.2"]}, {"k": 1, "of": ["geo-aerial-photographs-s1.3.1"]}, {"k": 1, "of": ["geo-aerial-photographs-s1.7.3"]}, {"k": 1, "of": ["geo-aerial-photographs-s1.6.0"]}], "10B": [{"k": 1, "of": ["geo-population-migration-s1.39.2"]}, {"k": 1, "of": ["geo-population-migration-s1.40.0", "geo-population-migration-s1.40.1"]}, {"k": 1, "of": ["geo-population-migration-s1.34.0", "geo-population-migration-s1.39.1"]}, {"k": 1, "of": ["geo-population-migration-s1.43.2"]}, {"k": 1, "of": ["geo-population-migration-s1.43.3"]}, {"k": 1, "of": ["geo-population-migration-s1.41.0", "geo-population-migration-s1.41.2"]}, {"k": 1, "of": ["geo-population-migration-s1.36.0", "geo-population-migration-s1.36.1"]}, {"k": 1, "of": ["geo-population-migration-s1.34.1", "geo-population-migration-s1.43.0"]}, {"k": 1, "of": ["geo-population-migration-s1.43.1", "geo-population-migration-s1.30.b"]}, {"k": 1, "of": ["geo-population-migration-s1.21.0", "geo-population-migration-s1.21.2"]}, {"k": 1, "of": ["geo-population-migration-s1.21.4"]}, {"k": 1, "of": ["geo-population-migration-s1.21.1", "geo-population-migration-s1.23.0"]}, {"k": 1, "of": ["geo-population-migration-s1.20.2", "geo-population-migration-s1.20.4"]}, {"k": 1, "of": ["geo-population-migration-s1.16.0", "geo-population-migration-s1.16.2"]}, {"k": 1, "of": ["geo-population-migration-s1.31.0"]}], "10C": [{"k": 1, "of": ["geo-urban-s5.10.b", "geo-urban-s5.12.0"]}, {"k": 1, "of": ["geo-urban-s5.10.1", "geo-urban-s5.10.3"]}, {"k": 1, "of": ["geo-urban-s6.3.b", "geo-urban-s6.3.0"]}, {"k": 1, "of": ["geo-urban-s6.3.1"]}, {"k": 1, "of": ["geo-urban-s6.3.2"]}, {"k": 1, "of": ["geo-urban-s5.12.1"]}, {"k": 1, "of": ["geo-urban-s6.6.4", "geo-urban-s6.6.5"]}, {"k": 1, "of": ["geo-urban-s6.5.3", "geo-urban-s5.13.1"]}, {"k": 1, "of": ["geo-urban-s5.0.2", "geo-urban-s5.2.1"]}, {"k": 1, "of": ["geo-urban-s5.1.2"]}, {"k": 1, "of": ["geo-urban-s5.2.2", "geo-urban-s5.3.6"]}, {"k": 1, "of": ["geo-urban-s5.11.1"]}, {"k": 1, "of": ["geo-urban-s5.11.4", "geo-urban-s5.11.0"]}, {"k": 1, "of": ["geo-urban-s6.8.0", "geo-urban-s6.8.4"]}, {"k": 1, "of": ["geo-urban-s6.8.5", "geo-urban-s6.8.3"]}]}
+{
+"10A": [
+{
+"k": 2,
+"of": [
+"geo-aerial-photographs-s1.14.0",
+"geo-aerial-photographs-s1.14.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.7.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-aerial-photographs-s1.6.0"
+]
+}
+],
+"10B": [
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.39.2"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.40.0",
+"geo-population-migration-s1.40.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.34.0",
+"geo-population-migration-s1.39.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.43.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.43.3"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.41.0",
+"geo-population-migration-s1.41.2"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.36.0",
+"geo-population-migration-s1.36.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.34.1",
+"geo-population-migration-s1.43.0"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.43.1",
+"geo-population-migration-s1.30.b"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.21.0",
+"geo-population-migration-s1.21.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.21.4"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.21.1",
+"geo-population-migration-s1.23.0"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.20.2",
+"geo-population-migration-s1.20.4"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-population-migration-s1.16.0",
+"geo-population-migration-s1.16.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-population-migration-s1.31.0"
+]
+}
+],
+"10C": [
+{
+"k": 2,
+"of": [
+"geo-urban-s5.10.b",
+"geo-urban-s5.12.0"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s5.10.1",
+"geo-urban-s5.10.3"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s6.3.b",
+"geo-urban-s6.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.3.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s6.3.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.12.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s6.6.4",
+"geo-urban-s6.6.5"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s6.5.3",
+"geo-urban-s5.13.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s5.0.2",
+"geo-urban-s5.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.1.2"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s5.2.2",
+"geo-urban-s5.3.6"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-urban-s5.11.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s5.11.4",
+"geo-urban-s5.11.0"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s6.8.0",
+"geo-urban-s6.8.4"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-urban-s6.8.5",
+"geo-urban-s6.8.3"
+]
+}
+]
+}

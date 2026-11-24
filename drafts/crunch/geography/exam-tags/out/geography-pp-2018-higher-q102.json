@@ -1,1 +1,295 @@
-{"2A(i)": [], "2A(ii)": [{"k": 1, "of": ["geo-plate-tectonics-s1.4.0", "geo-plate-tectonics-s1.4.b"]}, {"k": 1, "of": ["geo-plate-tectonics-s1.4.0", "geo-plate-tectonics-s1.4.b"]}], "2A(iii)": [], "2A(iv)": [{"k": 1, "of": ["geo-plate-tectonics-s2.5.4"]}, {"k": 1, "of": ["geo-plate-tectonics-s1.5.b"]}], "2A(v)": [{"k": 1, "of": ["geo-plate-tectonics-s2.7.b"]}, {"k": 1, "of": ["geo-plate-tectonics-s2.7.0"]}], "2B": [{"k": 1, "of": ["geo-rocks-weathering-s3.9.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.1.b", "geo-rocks-weathering-s3.9.1"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.1.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.1.1"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.1.2"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.1.3"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.1.4"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.1.5"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.8.4"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.2.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.2.1"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.2.2"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.2.3"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.2.4"]}], "2C(i)": [{"k": 1, "of": ["geo-mapwork-s1.2.0"]}, {"k": 1, "of": ["geo-mapwork-s1.2.0"]}, {"k": 1, "of": ["geo-glaciation-s1.6.0"]}, {"k": 1, "of": ["geo-glaciation-s1.6.1"]}, {"k": 1, "of": ["geo-glaciation-s1.9.3"]}, {"k": 1, "of": ["geo-glaciation-s1.9.2"]}, {"k": 1, "of": ["geo-glaciation-s1.11.0"]}, {"k": 1, "of": ["geo-glaciation-s1.0.2"]}, {"k": 1, "of": ["geo-glaciation-s1.11.1"]}, {"k": 1, "of": ["geo-glaciation-s1.6.2"]}, {"k": 1, "of": ["geo-glaciation-s1.11.2"]}, {"k": 1, "of": ["geo-glaciation-s1.11.5"]}], "2C(ii)": [{"k": 1, "of": ["geo-mapwork-s1.23.0"]}, {"k": 1, "of": ["geo-mapwork-s1.9.0"]}, {"k": 1, "of": ["geo-mapwork-s1.23.1"]}, {"k": 1, "of": ["geo-mapwork-s1.9.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.0.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.2.b"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.2.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.2.1"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.8.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.2.2"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.8.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.2.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.9.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s5.2.3"]}]}
+{
+"2A(i)": [],
+"2A(ii)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.4.0",
+"geo-plate-tectonics-s1.4.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.4.0",
+"geo-plate-tectonics-s1.4.b"
+]
+}
+],
+"2A(iii)": [],
+"2A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.5.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s1.5.b"
+]
+}
+],
+"2A(v)": [
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.7.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-plate-tectonics-s2.7.0"
+]
+}
+],
+"2B": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.9.0"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-rocks-weathering-s3.1.b",
+"geo-rocks-weathering-s3.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.1.5"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.8.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.2.4"
+]
+}
+],
+"2C(i)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.0.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.6.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s1.11.5"
+]
+}
+],
+"2C(ii)": [
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.23.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.23.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-mapwork-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.0.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s5.2.3"
+]
+}
+]
+}

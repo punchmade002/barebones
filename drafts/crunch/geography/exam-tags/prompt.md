@@ -10,7 +10,8 @@ For EVERY part, list its marking points. A marking point is one thing the examin
 - Long answers (20 and 30 marks) are marked in SRPs (significant relevant points) of 2 marks each, so a 30-mark answer has up to about 15. Each SRP is one marking point. A long part never has more marking points than its marks ÷ 2 (at most 40 for an 80-mark essay), nor more than one per sentence of the model answer: one point that states a sentence's fact is one marking point, not several. Headings like "Option chosen – …" or "Process – Carbonation:" are not SRPs.
 For each marking point, give the note points that let a student write it:
 - {"k": 1, "of": ["id"]}: the student needs that one point.
-- {"k": 1, "of": ["id1", "id2"]}: any ONE of these points earns it (the same fact is stated in two places).
+- {"k": 1, "of": ["id1", "id2"]}: any ONE of these points earns it: ONLY when both points state the same fact.
+- {"k": 2, "of": ["id1", "id2"]}: the sentence uses BOTH facts, one from each point. This is the usual case when you need two ids for one sentence of a long answer.
 - {"k": 2, "of": ["id1", "id2", "id3"]}: the part asks for, e.g., two examples and the notes give three acceptable ones. The student needs any two.
 
 Rules:

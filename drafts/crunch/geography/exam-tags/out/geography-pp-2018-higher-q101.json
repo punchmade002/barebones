@@ -1,1 +1,196 @@
-{"1A(i)": [], "1A(ii)": [], "1A(iii)": [], "1A(iv)": [{"k": 1, "of": ["geo-rocks-weathering-s3.5.b"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.6.0"]}], "1A(v)": [{"k": 1, "of": ["geo-rocks-weathering-s3.5.0"]}, {"k": 1, "of": ["geo-rocks-weathering-s3.5.1"]}], "1A(vi)": [{"k": 1, "of": ["geo-rocks-weathering-s4.0.3"]}, {"k": 1, "of": ["geo-rocks-weathering-s4.0.3"]}], "1B": [{"k": 1, "of": ["geo-glaciation-s2.1.0"]}, {"k": 1, "of": ["geo-glaciation-s2.2.0"]}, {"k": 1, "of": ["geo-glaciation-s2.2.1"]}, {"k": 1, "of": ["geo-glaciation-s2.2.2"]}, {"k": 1, "of": ["geo-glaciation-s2.6.b"]}, {"k": 1, "of": ["geo-glaciation-s2.6.0"]}, {"k": 1, "of": ["geo-glaciation-s2.6.1"]}, {"k": 1, "of": ["geo-glaciation-s2.6.5"]}, {"k": 1, "of": ["geo-glaciation-s2.6.6", "geo-glaciation-s2.8.0"]}, {"k": 1, "of": ["geo-glaciation-s2.8.b"]}, {"k": 1, "of": ["geo-glaciation-s2.4.3"]}, {"k": 1, "of": ["geo-glaciation-s2.7.0"]}, {"k": 1, "of": ["geo-glaciation-s2.7.4"]}, {"k": 1, "of": ["geo-glaciation-s2.7.2"]}, {"k": 1, "of": ["geo-glaciation-s2.4.4"]}], "1C": [{"k": 1, "of": ["geo-volcanoes-earthquakes-s1.9.0"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.6.3"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.9.1"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.9.1"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.9.2"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.9.3"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.9.4"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.3.0"]}, {"k": 1, "of": ["geo-volcanoes-earthquakes-s1.0.6"]}]}
+{
+"1A(i)": [],
+"1A(ii)": [],
+"1A(iii)": [],
+"1A(iv)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.6.0"
+]
+}
+],
+"1A(v)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s3.5.1"
+]
+}
+],
+"1A(vi)": [
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.0.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-rocks-weathering-s4.0.3"
+]
+}
+],
+"1B": [
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.1.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.2.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.2.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.2.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.6.5"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-glaciation-s2.6.6",
+"geo-glaciation-s2.8.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.8.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.4.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.7.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.7.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.7.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-glaciation-s2.4.4"
+]
+}
+],
+"1C": [
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.6.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.9.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.3.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-volcanoes-earthquakes-s1.0.6"
+]
+}
+]
+}

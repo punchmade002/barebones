@@ -1,33 +1,157 @@
 {
-  "5A(i)": [],
-  "5A(ii)": [],
-  "5A(iii)": [],
-  "5A(iv)": [],
-  "5B": [
-    {"k": 1, "of": ["geo-region-continental-s1.88.0"]},
-    {"k": 1, "of": ["geo-region-continental-s1.88.1", "geo-region-continental-s1.88.2"]},
-    {"k": 1, "of": ["geo-region-continental-s1.88.3"]},
-    {"k": 1, "of": ["geo-region-continental-s1.86.0"]},
-    {"k": 1, "of": ["geo-region-continental-s1.25.0", "geo-region-continental-s1.35.1"]},
-    {"k": 1, "of": ["geo-region-continental-s1.86.1"]},
-    {"k": 1, "of": ["geo-region-continental-s1.86.2"]},
-    {"k": 1, "of": ["geo-region-continental-s1.89.0"]},
-    {"k": 1, "of": ["geo-region-continental-s1.87.0"]},
-    {"k": 1, "of": ["geo-region-continental-s1.87.1"]},
-    {"k": 1, "of": ["geo-region-continental-s1.87.2"]},
-    {"k": 1, "of": ["geo-region-continental-s1.87.3", "geo-region-continental-s1.5.1"]},
-    {"k": 1, "of": ["geo-region-continental-s1.42.b", "geo-region-continental-s1.42.4"]},
-    {"k": 1, "of": ["geo-region-continental-s1.1.2"]},
-    {"k": 1, "of": ["geo-region-continental-s1.1.3"]}
-  ],
-  "5C": [
-    {"k": 1, "of": ["geo-economic-eu-s3.32.2"]},
-    {"k": 1, "of": ["geo-economic-eu-s3.20.0", "geo-economic-eu-s3.20.b"]},
-    {"k": 1, "of": ["geo-economic-eu-s3.26.2"]},
-    {"k": 1, "of": ["geo-economic-eu-s1.7.1", "geo-economic-eu-s3.30.1"]},
-    {"k": 1, "of": ["geo-economic-eu-s1.13.1", "geo-economic-eu-s1.9.3"]},
-    {"k": 1, "of": ["geo-economic-eu-s1.11.1", "geo-economic-eu-s1.10.1"]},
-    {"k": 1, "of": ["geo-economic-eu-s1.7.3", "geo-economic-eu-s3.19.1"]},
-    {"k": 1, "of": ["geo-economic-eu-s1.13.0"]}
-  ]
+"5A(i)": [],
+"5A(ii)": [],
+"5A(iii)": [],
+"5A(iv)": [],
+"5B": [
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.88.0"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-region-continental-s1.88.1",
+"geo-region-continental-s1.88.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.88.3"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.86.0"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-region-continental-s1.25.0",
+"geo-region-continental-s1.35.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.86.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.86.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.89.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.87.0"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.87.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.87.2"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-region-continental-s1.87.3",
+"geo-region-continental-s1.5.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-region-continental-s1.42.b",
+"geo-region-continental-s1.42.4"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.1.2"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-region-continental-s1.1.3"
+]
+}
+],
+"5C": [
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.32.2"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-economic-eu-s3.20.0",
+"geo-economic-eu-s3.20.b"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s3.26.2"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-economic-eu-s1.7.1",
+"geo-economic-eu-s3.30.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-economic-eu-s1.13.1",
+"geo-economic-eu-s1.9.3"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-economic-eu-s1.11.1",
+"geo-economic-eu-s1.10.1"
+]
+},
+{
+"k": 2,
+"of": [
+"geo-economic-eu-s1.7.3",
+"geo-economic-eu-s3.19.1"
+]
+},
+{
+"k": 1,
+"of": [
+"geo-economic-eu-s1.13.0"
+]
+}
+]
 }

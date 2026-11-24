@@ -190,6 +190,21 @@ study effort, 75% cuts 55%, 55% cuts 74% and 35% cuts 89%.
 Not modelled: the "any two of three parts" choice inside long questions, and the Geographical Investigation
 (20%, coursework).
 
+**Geography exam tags (cheap mode, started 2026-11-24).**
+- `python3 scripts/crunch_exam_tags.py geography short` shows each question only a shortlist of note points: per
+  model-answer line, the best idf-weighted word matches (8 per line for short parts, 4 for parts of 20+ marks).
+- Tested on Biology's Sonnet tags: 91% of marking points keep at least one of their points, from 12% of the
+  candidates. That makes ~50 KB batches small enough for Haiku.
+- Prompt: `drafts/crunch/geography/exam-tags/prompt.md`. Sonnet spot-check prompt: `check-prompt.md`.
+- Pilot plus wave 1 (22 batches, 146 of 360 HL questions): all 120 Part One questions and the 2017–18 long
+  questions are tagged.
+- Spot-check results: short parts about 4% wrong. Long parts had one systematic error, "needs both facts"
+  written as k:1. It was fixed by rule (k = all ids in parts of 20+ marks), and the prompt now says so.
+- Untagged marks: 34% of Part One (figure reads, and true/false statements, which the bank doesn't store)
+  and 4% of long answers.
+- Tagged India parts give Brazil the same share, spread over its points (`crunch_map.py`).
+- Remaining: 96 long-question batches.
+
 ## Status (2026-11-23)
 Biology point graph drafted by Sonnet, one agent per subsection: 10,583 items,
 8,389 links (3,590 essential), 2,113 cost-2 items (total cost 12,696), 29 two-way
