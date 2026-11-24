@@ -1,0 +1,540 @@
+{
+ "geo-mapwork-s1.18.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.18.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.18.4": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.15.2",
+    "strength": "helpful",
+    "why": "deranged drainage on till",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.18.5": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.17.5",
+    "strength": "helpful",
+    "why": "Cavan drumlin belt",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-mapwork-s1.19.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.7": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.0": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.7.b",
+    "strength": "helpful",
+    "why": "corrie armchair hollow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.1": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.7.3",
+    "strength": "helpful",
+    "why": "tarn forms behind corrie lip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.2": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.8.1",
+    "strength": "helpful",
+    "why": "arete formed between corries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.3": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.9.3",
+    "strength": "helpful",
+    "why": "U-shaped trough formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.4": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.11.1",
+    "strength": "helpful",
+    "why": "ribbon lake formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.5": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.17.b",
+    "strength": "helpful",
+    "why": "drumlins are oval hills of till",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.20.6": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.20.2",
+    "strength": "helpful",
+    "why": "esker long winding ridge",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.b": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s4.0.b",
+    "strength": "helpful",
+    "why": "karst limestone solution landscape",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.0": {
+  "needs": [
+   {
+    "id": "geo-sea-s1.11.3",
+    "strength": "helpful",
+    "why": "beach is sand and shingle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.1": {
+  "needs": [
+   {
+    "id": "geo-sea-s1.7.b",
+    "strength": "helpful",
+    "why": "cliff formation and retreat",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.2": {
+  "needs": [
+   {
+    "id": "geo-sea-s1.6.5",
+    "strength": "helpful",
+    "why": "headland and bay formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.3": {
+  "needs": [
+   {
+    "id": "geo-sea-s1.6.5",
+    "strength": "helpful",
+    "why": "headland and bay formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.4": {
+  "needs": [
+   {
+    "id": "geo-sea-s1.12.1",
+    "strength": "helpful",
+    "why": "spit attached at one end",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-sea-s1.13.3",
+    "strength": "helpful",
+    "why": "tombolo joins island",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-sea-s1.13.0",
+    "strength": "helpful",
+    "why": "lagoon behind a bar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.5": {
+  "needs": [
+   {
+    "id": "geo-sea-s1.14.b",
+    "strength": "helpful",
+    "why": "sand dunes formation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.21.6": {
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s4.3.0",
+    "strength": "essential",
+    "why": "swallow hole definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.22.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.22.0": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.11.4",
+    "strength": "helpful",
+    "why": "types of glacial lake",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-sea-s1.13.0",
+    "strength": "helpful",
+    "why": "lagoon trapped behind bar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.23.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.23.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.23.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.23.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.24.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.24.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.24.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.24.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.24.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.24.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.27.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.27.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.27.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.27.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.27.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.30.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.30.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.30.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.30.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.7": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.7": {
+  "needs": []
+ },
+ "geo-mapwork-s1.34.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.34.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.34.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.37.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.37.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.37.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.3": {
+  "needs": [
+   {
+    "id": "geo-glaciation-s1.17.b",
+    "strength": "helpful",
+    "why": "drumlin recognition",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-sea-s1.6.5",
+    "strength": "helpful",
+    "why": "headland recognition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.38.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.7": {
+  "needs": []
+ }
+}

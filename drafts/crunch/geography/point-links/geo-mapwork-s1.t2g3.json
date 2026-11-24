@@ -1,0 +1,738 @@
+{
+ "geo-mapwork-s1.18.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.18.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.18.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.18.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.19.7": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.20.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.21.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.22.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.22.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.23.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.23.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.23.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.23.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.24.b": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.b",
+    "strength": "helpful",
+    "why": "three rural settlement patterns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.24.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.1",
+    "strength": "helpful",
+    "why": "clustered nucleated pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.24.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.2",
+    "strength": "helpful",
+    "why": "linear ribbon pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.24.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.0.0",
+    "strength": "helpful",
+    "why": "dispersed pattern",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.24.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.2.0",
+    "strength": "helpful",
+    "why": "route focus draws buildings",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s2.1.1",
+    "strength": "helpful",
+    "why": "consolidation of holdings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.24.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.7.b",
+    "strength": "helpful",
+    "why": "causes of ribbon development",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.25.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.5.0",
+    "strength": "helpful",
+    "why": "uplands unsuitable for settlement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.4.1",
+    "strength": "helpful",
+    "why": "linear settlement avoids steep land",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.5.1",
+    "strength": "helpful",
+    "why": "bogs unsuitable for houses",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s2.5.2",
+    "strength": "helpful",
+    "why": "flood plains unsuitable",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.5.4",
+    "strength": "helpful",
+    "why": "forestry plantations have no houses",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s2.5.3",
+    "strength": "helpful",
+    "why": "lakes take up land",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s2.1.3",
+    "strength": "helpful",
+    "why": "fertile well-drained lowland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.25.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.26.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.27.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.27.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.3.0",
+    "strength": "helpful",
+    "why": "megalithic tomb types",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.27.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.4.1",
+    "strength": "helpful",
+    "why": "fulachta fia",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.4.4",
+    "strength": "helpful",
+    "why": "crannogs",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.4.2",
+    "strength": "helpful",
+    "why": "promontory forts",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.27.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.3.b",
+    "strength": "helpful",
+    "why": "early farmers permanent settlement",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.27.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.28.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.5.0",
+    "strength": "helpful",
+    "why": "ringfort names",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.5.2",
+    "strength": "helpful",
+    "why": "souterrains",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.6.5",
+    "strength": "helpful",
+    "why": "round towers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.5.0",
+    "strength": "helpful",
+    "why": "ringfort farmstead",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.5.5",
+    "strength": "helpful",
+    "why": "ringforts are early medieval",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.6.b",
+    "strength": "helpful",
+    "why": "monasteries and Christianity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.28.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.8.2",
+    "strength": "helpful",
+    "why": "motte and bailey castles",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.29.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.29.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.9.b",
+    "strength": "helpful",
+    "why": "Norman towns at bridging points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.29.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.8.b",
+    "strength": "helpful",
+    "why": "Normans built castles to hold land",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.29.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.30.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.30.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.11.0",
+    "strength": "helpful",
+    "why": "tower houses",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.12.2",
+    "strength": "helpful",
+    "why": "planned town layout",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.13.b",
+    "strength": "helpful",
+    "why": "demesnes and estates",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-mapwork-s1.30.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.14.0",
+    "strength": "helpful",
+    "why": "canals and railways",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.30.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.13.b",
+    "strength": "helpful",
+    "why": "planned estate towns",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-mapwork-s1.31.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.5.4",
+    "strength": "helpful",
+    "why": "kil rath dun place names",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.31.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.31.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.b": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.1.b",
+    "strength": "helpful",
+    "why": "settlement location factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.0",
+    "strength": "helpful",
+    "why": "bridging point sites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.1",
+    "strength": "helpful",
+    "why": "route focus",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.4",
+    "strength": "helpful",
+    "why": "defensive sites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.0.3",
+    "strength": "helpful",
+    "why": "harbour and estuary sites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.5": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.7.b",
+    "strength": "helpful",
+    "why": "hinterland definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.32.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.32.7": {
+  "needs": []
+ },
+ "geo-mapwork-s1.33.b": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.b",
+    "strength": "essential",
+    "why": "town functions defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.0",
+    "strength": "helpful",
+    "why": "residential function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.0",
+    "strength": "helpful",
+    "why": "market and retail function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.0",
+    "strength": "helpful",
+    "why": "services function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.1",
+    "strength": "helpful",
+    "why": "transport function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.1",
+    "strength": "helpful",
+    "why": "industrial function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.5": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.2",
+    "strength": "helpful",
+    "why": "tourism and recreation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.6": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.1",
+    "strength": "helpful",
+    "why": "port function",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.33.7": {
+  "needs": [
+   {
+    "id": "geo-urban-s3.2.2",
+    "strength": "helpful",
+    "why": "ecclesiastical and defence functions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.34.b": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.16.3",
+    "strength": "helpful",
+    "why": "town features from each period",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.34.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.9.0",
+    "strength": "helpful",
+    "why": "walled town squares and abbeys",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.34.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.15.2",
+    "strength": "helpful",
+    "why": "suburban expansion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.35.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.35.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.36.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.37.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.37.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.37.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.b": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.0": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.1": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.2": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.3": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.4": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.5": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.6": {
+  "needs": []
+ },
+ "geo-mapwork-s1.38.7": {
+  "needs": []
+ }
+}

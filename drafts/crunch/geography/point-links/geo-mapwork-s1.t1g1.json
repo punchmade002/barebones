@@ -1,0 +1,1357 @@
+{
+ "geo-mapwork-s1.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.0",
+    "strength": "helpful",
+    "why": "legend defined there",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.0.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.0.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.0.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.2",
+    "strength": "essential",
+    "why": "uses ratio 1:50 000",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.0.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.2",
+    "strength": "helpful",
+    "why": "uses ratio scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.0.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.5",
+    "strength": "helpful",
+    "why": "scale size comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.1",
+    "strength": "helpful",
+    "why": "across before up order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.1.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.1",
+    "strength": "helpful",
+    "why": "easting then northing order",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.1.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.1",
+    "strength": "essential",
+    "why": "uses eastings",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.2",
+    "strength": "essential",
+    "why": "uses northings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.1.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.4",
+    "strength": "essential",
+    "why": "divides the four-figure square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.1.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "essential",
+    "why": "six-figure reference method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.1.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.4",
+    "strength": "essential",
+    "why": "four-figure reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.1",
+    "strength": "essential",
+    "why": "eastings",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.2",
+    "strength": "essential",
+    "why": "northings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.2.0",
+    "strength": "essential",
+    "why": "naming feature at reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "essential",
+    "why": "six-figure reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "helpful",
+    "why": "grid reference location",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.2.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.2.3",
+    "strength": "helpful",
+    "why": "contrast with absolute",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.2.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "helpful",
+    "why": "compass points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.3.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.3.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.3.0",
+    "strength": "essential",
+    "why": "latitude",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.3.1",
+    "strength": "essential",
+    "why": "longitude",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.3.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.3.0",
+    "strength": "essential",
+    "why": "latitude lines",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.3.1",
+    "strength": "helpful",
+    "why": "date line is longitude",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-mapwork-s1.3.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.3.0",
+    "strength": "essential",
+    "why": "latitude parallels",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.3.1",
+    "strength": "essential",
+    "why": "longitude meridians",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.4.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.3.1",
+    "strength": "essential",
+    "why": "longitude",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.4.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.4.0",
+    "strength": "essential",
+    "why": "15 degrees per hour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.4.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.3.0",
+    "strength": "essential",
+    "why": "latitude",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.3.1",
+    "strength": "essential",
+    "why": "longitude",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.3.2",
+    "strength": "essential",
+    "why": "latitude longitude format",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.4.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "helpful",
+    "why": "grid reference use",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.3.2",
+    "strength": "helpful",
+    "why": "latitude longitude",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.5.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.4",
+    "strength": "essential",
+    "why": "1 cm = 0.5 km",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.0.3",
+    "strength": "helpful",
+    "why": "scale bar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.5.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.1",
+    "strength": "essential",
+    "why": "difference in eastings",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.2",
+    "strength": "essential",
+    "why": "difference in northings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.3",
+    "strength": "essential",
+    "why": "scale bar",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.5.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.5.2",
+    "strength": "helpful",
+    "why": "curved distance measuring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.5.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.5.1",
+    "strength": "essential",
+    "why": "grid Pythagoras method",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.5.0",
+    "strength": "essential",
+    "why": "ruler and scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.5.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.5.2",
+    "strength": "essential",
+    "why": "curved distance method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.6.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.4",
+    "strength": "essential",
+    "why": "1 km grid square",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.6.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.4",
+    "strength": "essential",
+    "why": "grid square area",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.6.1",
+    "strength": "helpful",
+    "why": "estimate part squares",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.6.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.6.1",
+    "strength": "essential",
+    "why": "counting part squares",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.6.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.6.0",
+    "strength": "essential",
+    "why": "rectangular area",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.2",
+    "strength": "helpful",
+    "why": "northing line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.6.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.6.1",
+    "strength": "essential",
+    "why": "half-square counting rule",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.7.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "essential",
+    "why": "compass points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.7.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "essential",
+    "why": "compass points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.7.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.1",
+    "strength": "helpful",
+    "why": "direction method",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-rivers-s1.0.0",
+    "strength": "helpful",
+    "why": "river source",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "essential",
+    "why": "compass points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.7.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.1",
+    "strength": "essential",
+    "why": "direction method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.8.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "helpful",
+    "why": "contour heights",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contour interval",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.8.1",
+    "strength": "essential",
+    "why": "spot heights pillars",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.1",
+    "strength": "essential",
+    "why": "spot heights pillars",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.9.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.9.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "contour spacing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "contour spacing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.9.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "contour spacing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.9.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "contour spacing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.10.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.10.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contour shapes",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.10.0",
+    "strength": "helpful",
+    "why": "contrast with valley",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "crowded contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "helpful",
+    "why": "contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.10.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "essential",
+    "why": "contour spacing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.10.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "closed contour ring",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.11.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.2",
+    "strength": "helpful",
+    "why": "reading heights",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.11.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.11.0",
+    "strength": "essential",
+    "why": "VI over HE",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.8.2",
+    "strength": "essential",
+    "why": "heights of points",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.5.0",
+    "strength": "essential",
+    "why": "measuring distance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.7.0",
+    "strength": "essential",
+    "why": "compass directions",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.11.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.11.2",
+    "strength": "essential",
+    "why": "south-facing aspect",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.3",
+    "strength": "helpful",
+    "why": "convex slope blocks view",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.12.b",
+    "strength": "helpful",
+    "why": "cross-section check",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.11.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.11.0",
+    "strength": "essential",
+    "why": "gradient formula",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.11.1",
+    "strength": "essential",
+    "why": "gradient method",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.12.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contours crossed",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.12.0",
+    "strength": "helpful",
+    "why": "joined line",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.12.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.2",
+    "strength": "helpful",
+    "why": "horizontal scale = map scale",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.12.1",
+    "strength": "helpful",
+    "why": "marked points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.12.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.12.1",
+    "strength": "essential",
+    "why": "marked heights",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.12.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.12.3",
+    "strength": "helpful",
+    "why": "drawn profile",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "helpful",
+    "why": "grid references at ends",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.12.5": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.12.2",
+    "strength": "essential",
+    "why": "horizontal and vertical scales",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.12.6": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.12.5",
+    "strength": "essential",
+    "why": "vertical exaggeration",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.0.2",
+    "strength": "helpful",
+    "why": "ratio scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.12.7": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.2",
+    "strength": "essential",
+    "why": "concave slope",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.12.3",
+    "strength": "helpful",
+    "why": "drawn cross-section",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.12.3",
+    "strength": "helpful",
+    "why": "profile drawn from map",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.2",
+    "strength": "helpful",
+    "why": "northing lines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.13.0",
+    "strength": "essential",
+    "why": "matching profile points",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.14.1",
+    "strength": "helpful",
+    "why": "road letters",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.2",
+    "strength": "essential",
+    "why": "height of a point",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.9.0",
+    "strength": "helpful",
+    "why": "slope from contours",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.14.2",
+    "strength": "essential",
+    "why": "vegetation terms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.6": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.31.4",
+    "strength": "helpful",
+    "why": "townland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.13.7": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.13.0",
+    "strength": "essential",
+    "why": "matching profile points",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.13.1",
+    "strength": "helpful",
+    "why": "river dip",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.14.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.0",
+    "strength": "helpful",
+    "why": "legend",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.14.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.14.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.14.0",
+    "strength": "helpful",
+    "why": "legend groups",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.15.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.14.0",
+    "strength": "helpful",
+    "why": "legend groups",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.27.0",
+    "strength": "helpful",
+    "why": "megalithic tombs",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.28.0",
+    "strength": "helpful",
+    "why": "early Christian sites",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.29.0",
+    "strength": "helpful",
+    "why": "Norman sites",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.15.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.15.1",
+    "strength": "essential",
+    "why": "cultural area",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.31.b",
+    "strength": "helpful",
+    "why": "Irish place names",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.16.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.16.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.0.4",
+    "strength": "essential",
+    "why": "2 cm square = 1 km",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.16.0",
+    "strength": "helpful",
+    "why": "half scale",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.1.1",
+    "strength": "essential",
+    "why": "eastings",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.2",
+    "strength": "essential",
+    "why": "northings",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.2",
+    "strength": "helpful",
+    "why": "grid lines on frame",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.16.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.16.5": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.8.0",
+    "strength": "essential",
+    "why": "contour lines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.16.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.16.7": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.17.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.0",
+    "strength": "helpful",
+    "why": "half scale frame",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.17.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.3",
+    "strength": "essential",
+    "why": "drawing a river",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-mapwork-s1.1.5",
+    "strength": "essential",
+    "why": "six-figure reference",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.17.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.4",
+    "strength": "essential",
+    "why": "drawing roads",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.17.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.4",
+    "strength": "essential",
+    "why": "drawing railways",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.17.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.4",
+    "strength": "essential",
+    "why": "drawing shaded areas",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.17.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.16.5",
+    "strength": "essential",
+    "why": "land above a contour",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-mapwork-s1.18.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.18.b",
+    "strength": "essential",
+    "why": "tributaries",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-mapwork-s1.18.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-mapwork-s1.18.b",
+    "strength": "essential",
+    "why": "tributaries",
+    "confidence": "high"
+   }
+  ]
+ }
+}
