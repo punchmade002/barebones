@@ -281,5 +281,10 @@ of the part's subsections) is far harsher: 2026 scored 16% where tagged years sc
 Even in training, untagged 2026 acts like exact = 0 on the newest paper. It shrinks cuts (85% overall with AAC 80:
 44% → 34%), and that is an artifact. Leaving 2026 out reproduces the pre-merge numbers exactly. The gap-filled answers
 change nothing until their 30 parts (1.2% of marks, 20 questions) are re-tagged: their tags are still empty.
-To do: point-tag the 17 2026 questions and re-tag those 20, then rebuild and republish. Published Biology map v7
-is still the pre-merge state.
+**Done (same day):** 8 Sonnet batches tagged the 17 questions from 2026 and re-tagged the 20 with filled-in answers
+(`exam-tags/batches-2026/`). All 192 HL questions are now tagged. Re-tagging agreed with the old tags on 208 of 226 parts
+(at least 50% of note points shared), and 13 of the 30 newly answered parts gained tags; the rest are graph readings or
+not in the notes. 11.1% of marks are still untagged, almost all on parts with no model answer (dropped topics).
+With 2026 tagged it scores like an ordinary year (56/72/88% at levels 40/60/80) and is a test year again (2020–2026).
+Cuts at 85/75/65/55% overall (AAC 80): 46/75/91/95%, against 44/73/91/95% before the merge.
+Published as Biology map v8. The Q2(b) "Prokaryotic" flag was a false alarm: the question asks for the non-eukaryotic term.

@@ -32,19 +32,19 @@
      },
      {
       "title": "Draw two parallels",
-      "say": "Draw through $A$ a line parallel to $DF$. It meets $BE$ at $B'$ and $CF$ at $C'$. Draw through $B'$ a line parallel to $DF$ too, meeting $CF$ at $F'$.",
+      "say": "Draw through $A$ a line parallel to $DE$. It meets $BE$ at $E'$ and $CF$ at $F'$. Draw through $F'$ a line parallel to $AB$, meeting $BE$ at $B'$.",
       "lines": [
        {
-        "text": "Construction: $AC' \\parallel DF$, and $B'F' \\parallel AC$ meeting $CF$ at $F'$."
+        "text": "Construction: $AF' \\parallel DE$, and $F'B' \\parallel AB$ meeting $BE$ at $B'$."
        }
       ]
      },
      {
       "title": "Make a parallelogram",
-      "say": "Both pairs of opposite sides are parallel, so the figure on $B'$ and $C$ is a parallelogram. Opposite sides of a parallelogram are equal.",
+      "say": "Both pairs of opposite sides are parallel, so $BCF'B'$ is a parallelogram. Opposite sides of a parallelogram are equal.",
       "lines": [
        {
-        "text": "$|B'F'| = |BC|$ (opposite sides in a parallelogram)."
+        "text": "$|B'F'| = |BC|$ (opposite sides in parallelogram $BCF'B'$)."
        },
        {
         "text": "$|BC| = |AB|$ (given), so $|B'F'| = |AB|$."
@@ -59,7 +59,7 @@
         "text": "$|\\angle BAE'| = |\\angle B'F'E'|$ (alternate angles)."
        },
        {
-        "text": "$|\\angle AE'B'| = |\\angle F'E'B'|$ (vertically opposite angles)."
+        "text": "$|\\angle AE'B| = |\\angle F'E'B'|$ (vertically opposite angles)."
        },
        {
         "text": "So the triangles are congruent by **ASA**, and $|AE'| = |F'E'|$."
