@@ -1,0 +1,635 @@
+{
+ "geo-rocks-weathering-s7.0.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.0.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.0.2",
+    "strength": "helpful",
+    "why": "friction, cohesion, roots resist gravity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.0.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.0.0",
+    "strength": "essential",
+    "why": "reverses the three factors",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.0.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.0.0",
+    "strength": "helpful",
+    "why": "vegetation removal",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.0.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.0.0",
+    "strength": "helpful",
+    "why": "mass movement definition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.1.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.1.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.0.2",
+    "strength": "helpful",
+    "why": "cohesion resists downslope force",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.1.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.2.b",
+    "strength": "helpful",
+    "why": "soil creep and terracettes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.1.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.2.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.2.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.1.b",
+    "strength": "helpful",
+    "why": "overgrazing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.1.0",
+    "strength": "helpful",
+    "why": "overgrazing strips vegetation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.2.0",
+    "strength": "essential",
+    "why": "headage payments being replaced",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.2.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.1.0",
+    "strength": "helpful",
+    "why": "carrying capacity, stocking rate",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.2.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.3.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.1.0",
+    "strength": "helpful",
+    "why": "overgrazing causes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.1.0",
+    "strength": "essential",
+    "why": "carrying capacity",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.1.0",
+    "strength": "helpful",
+    "why": "animals staying too long",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.3.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.9.0",
+    "strength": "helpful",
+    "why": "roots bind soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.4.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.4.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.4.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.4.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.5.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.5.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.5.0",
+    "strength": "essential",
+    "why": "ploughed grassland",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.5.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.5.1",
+    "strength": "helpful",
+    "why": "soil loss effects",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.5.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.5.1",
+    "strength": "helpful",
+    "why": "wind erosion problem",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.1.0",
+    "strength": "helpful",
+    "why": "overgrazing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.6.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.4.0",
+    "strength": "helpful",
+    "why": "fallow, overcropping",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.6.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.6.1",
+    "strength": "helpful",
+    "why": "bare soil from grazing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.7.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.4.0",
+    "strength": "helpful",
+    "why": "fallow, nutrient depletion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.4.3",
+    "strength": "essential",
+    "why": "furrows channel water downhill",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.7.2": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.7.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.7.2",
+    "strength": "helpful",
+    "why": "terracing",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.8.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.9.0",
+    "strength": "helpful",
+    "why": "roots bind soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.8.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.8.1",
+    "strength": "essential",
+    "why": "tree functions lost",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.6.0",
+    "strength": "helpful",
+    "why": "mudflow",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.9.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.9.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.9.0",
+    "strength": "essential",
+    "why": "Haiti deforestation",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.9.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.8.3",
+    "strength": "helpful",
+    "why": "deforestation worsens landslides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.9.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.9.2",
+    "strength": "essential",
+    "why": "Hurricane Mitch",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.10.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.10.0",
+    "strength": "helpful",
+    "why": "1900 forest cover comparison",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.10.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.7.b",
+    "strength": "helpful",
+    "why": "peat slides",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.11.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.8.1",
+    "strength": "helpful",
+    "why": "roots bind soil",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.8.1",
+    "strength": "helpful",
+    "why": "roots hold soil",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.10.2",
+    "strength": "essential",
+    "why": "clear-felling",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.12.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.7.b",
+    "strength": "helpful",
+    "why": "peat slides on bogs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.12.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.7.0",
+    "strength": "helpful",
+    "why": "blanket bog",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.12.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.12.0",
+    "strength": "helpful",
+    "why": "construction on blanket bog",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.12.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.12.1",
+    "strength": "essential",
+    "why": "Derrybrien slide",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.12.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.12.1",
+    "strength": "helpful",
+    "why": "similar wind farm peat slide",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.13.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.0.2",
+    "strength": "helpful",
+    "why": "downslope force versus resistance",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.13.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.9.2",
+    "strength": "helpful",
+    "why": "removing support at base",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.9.3",
+    "strength": "essential",
+    "why": "loading",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.13.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.8.1",
+    "strength": "helpful",
+    "why": "water adds weight, reduces friction",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.13.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.12.1",
+    "strength": "essential",
+    "why": "Vajont case",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.9.3",
+    "strength": "helpful",
+    "why": "spoil loading",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rocks-weathering-s7.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s5.8.0",
+    "strength": "helpful",
+    "why": "slope angle",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.14.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rocks-weathering-s7.12.2",
+    "strength": "helpful",
+    "why": "environmental impact assessment",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rocks-weathering-s7.14.3": {
+  "cost": 1,
+  "needs": []
+ }
+}

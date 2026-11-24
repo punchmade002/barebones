@@ -1,0 +1,708 @@
+{
+ "geo-rivers-s4.0.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.2.1",
+    "strength": "helpful",
+    "why": "erosion, transport, load terms",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.0.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.0.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.1.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.1.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.1.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.1.0",
+    "strength": "helpful",
+    "why": "water falling through turbines",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.2.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.5.0",
+    "strength": "helpful",
+    "why": "deposition when velocity falls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.2.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.5.0",
+    "strength": "essential",
+    "why": "deposition when velocity falls",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.2.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.2.0",
+    "strength": "essential",
+    "why": "deposition of load in reservoir",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.2.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.13.0",
+    "strength": "essential",
+    "why": "delta forms where velocity drops",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.3.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.3.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.2.1",
+    "strength": "essential",
+    "why": "energy used for erosion and transport",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.3.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.1",
+    "strength": "helpful",
+    "why": "floodplain silt deposited by floods",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.3.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.3.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.1",
+    "strength": "essential",
+    "why": "floods lay down silt on floodplain",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.3.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.3.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.4.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.4.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rivers-s4.4.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.4.b",
+    "strength": "helpful",
+    "why": "Ardnacrusha scheme layout",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.4.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.1.0",
+    "strength": "helpful",
+    "why": "reservoir",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.4.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.4.1",
+    "strength": "essential",
+    "why": "weir diverts water into canal",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.4.4": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.5",
+    "strength": "helpful",
+    "why": "dams block migrating fish",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.5.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.5.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rivers-s4.5.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.5.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.6.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.6.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.6.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.0.0",
+    "strength": "helpful",
+    "why": "irrigation defined as reason",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rivers-s4.7.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.b",
+    "strength": "helpful",
+    "why": "dam effects on processes below",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.7.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.3",
+    "strength": "helpful",
+    "why": "less flooding means less silt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.7.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.0",
+    "strength": "essential",
+    "why": "clear-water erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.7.2": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.1",
+    "strength": "essential",
+    "why": "delta erodes without new silt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.7.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.7.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.7.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.7.6": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.8.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.8.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.8.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.8.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.8.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.1",
+    "strength": "helpful",
+    "why": "delta loses sediment supply",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.9.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.9.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.10.b",
+    "strength": "helpful",
+    "why": "meander bends",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.9.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.10.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.10.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.1.0",
+    "strength": "helpful",
+    "why": "gradient",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.10.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.10.0",
+    "strength": "essential",
+    "why": "velocity rises",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.10.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.10.0",
+    "strength": "essential",
+    "why": "faster flow",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-rivers-s1.2.1",
+    "strength": "helpful",
+    "why": "energy used for erosion",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.10.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.5.0",
+    "strength": "essential",
+    "why": "deposition when flow slows",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.10.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.11.1",
+    "strength": "helpful",
+    "why": "oxbow lakes",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rivers-s4.11.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.11.0": {
+  "cost": 2,
+  "needs": []
+ },
+ "geo-rivers-s4.11.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.10.2",
+    "strength": "helpful",
+    "why": "faster flow erodes banks",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-rivers-s4.10.1",
+    "strength": "helpful",
+    "why": "downstream flood peaks higher",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.11.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.9.0",
+    "strength": "helpful",
+    "why": "cutting through meanders",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.11.3": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.10.1",
+    "strength": "helpful",
+    "why": "faster flood waves",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.11.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.9.0",
+    "strength": "helpful",
+    "why": "locks and weirs",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.12.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.12.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.12.1": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.12.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.13.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.13.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.4",
+    "strength": "helpful",
+    "why": "levees raise river bed",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.13.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.13.0",
+    "strength": "helpful",
+    "why": "embankments and levees",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.13.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.13.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.13.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.10.1",
+    "strength": "helpful",
+    "why": "faster flow, downstream flooding",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.13.5": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.14.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.14.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.14.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.12.1",
+    "strength": "helpful",
+    "why": "runoff",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.14.2": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.14.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.14.4": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s1.12.1",
+    "strength": "helpful",
+    "why": "floodplain deposition",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.15.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.15.0": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.5.1",
+    "strength": "helpful",
+    "why": "Inniscarra dam on the Lee",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rivers-s4.15.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.15.0",
+    "strength": "essential",
+    "why": "the Cork 2009 flood",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.15.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.13.2",
+    "strength": "helpful",
+    "why": "demountable barriers",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.15.3": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.15.4": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.16.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.13.0",
+    "strength": "helpful",
+    "why": "levees",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.16.0": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.13.0",
+    "strength": "helpful",
+    "why": "levees",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.16.1": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.13.0",
+    "strength": "helpful",
+    "why": "levees",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.16.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.13.0",
+    "strength": "helpful",
+    "why": "levee failure",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.16.3": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.13.1",
+    "strength": "helpful",
+    "why": "floodplain gets no silt",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.17.b": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.14.b",
+    "strength": "helpful",
+    "why": "soft engineering",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.17.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.17.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.14.2",
+    "strength": "helpful",
+    "why": "giving river more room",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-rivers-s4.18.b": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.18.0": {
+  "cost": 1,
+  "needs": []
+ },
+ "geo-rivers-s4.18.1": {
+  "cost": 2,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.3.1",
+    "strength": "helpful",
+    "why": "sediment starvation downstream",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-rivers-s4.18.2": {
+  "cost": 1,
+  "needs": [
+   {
+    "id": "geo-rivers-s4.14.b",
+    "strength": "helpful",
+    "why": "soft engineering",
+    "confidence": "high"
+   }
+  ]
+ }
+}

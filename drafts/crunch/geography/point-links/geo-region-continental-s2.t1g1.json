@@ -1,0 +1,1011 @@
+{
+"geo-region-continental-s2.0.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.0.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.1.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.2.b",
+"strength": "helpful",
+"why": "five macro-regions named",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.2.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão defined",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.2.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.2.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.3.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.3.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.3.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.20.0",
+"strength": "helpful",
+"why": "Brazilian Highlands location",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.20.1",
+"strength": "helpful",
+"why": "Amazon lowland location",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.3.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.30.3",
+"strength": "helpful",
+"why": "Amazon estuary and Marajó",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.30.2",
+"strength": "helpful",
+"why": "Manaus and Rio Negro",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.3.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.0.1",
+"strength": "helpful",
+"why": "Tropic of Capricorn position",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.3.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.41.3",
+"strength": "helpful",
+"why": "Mato Grosso soya region",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.3.5": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.69.0",
+"strength": "helpful",
+"why": "industrial triangle",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.4.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.0.1",
+"strength": "helpful",
+"why": "equator and Tropic of Capricorn",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.4.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.4.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.4.5": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.5.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.5.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.5.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.5.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.18.0",
+"strength": "helpful",
+"why": "Amazon rainforest biome",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.b": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ movement",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.0": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ moves south",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ moves north",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.0",
+"strength": "helpful",
+"why": "wet and dry pattern",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.6.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.0",
+"strength": "helpful",
+"why": "first rains of wet season",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.7.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.7.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.7.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.7.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.1",
+"strength": "essential",
+"why": "ITCZ reaches area briefly",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.7.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.7.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.8.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.8.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.2",
+"strength": "helpful",
+"why": "trade winds bring moisture",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.8.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.4",
+"strength": "helpful",
+"why": "escarpment relief rain",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.8.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.18.2",
+"strength": "helpful",
+"why": "Atlantic Forest biome",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.8.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão semi-arid",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.9.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.9.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.3",
+"strength": "helpful",
+"why": "altitude cools air",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.9.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.9.0",
+"strength": "helpful",
+"why": "plateau cooler with altitude",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.9.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.4.5",
+"strength": "helpful",
+"why": "cold fronts from south",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.10.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.10.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.40.1",
+"strength": "helpful",
+"why": "1975 black frost coffee",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.11.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.4",
+"strength": "helpful",
+"why": "2012-2017 drought",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.11.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.11.4": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.3",
+"strength": "essential",
+"why": "El Niño drought link",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.12.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.12.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.12.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "sertão unreliable rain",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.12.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.12.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.13.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.13.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.13.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.0",
+"strength": "helpful",
+"why": "latosols",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.13.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "leaching of nutrients",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.13.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "leached latosols",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.14.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.14.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.13.1",
+"strength": "helpful",
+"why": "acidic leached soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.14.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.14.0",
+"strength": "helpful",
+"why": "acidic aluminium soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.14.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.14.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.14.1",
+"strength": "helpful",
+"why": "liming makes soil productive",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.15.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.15.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.15.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.24.0",
+"strength": "helpful",
+"why": "basalt plateau",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.15.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.15.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.16.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.16.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.16.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.16.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.16.1",
+"strength": "helpful",
+"why": "terra preta",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.17.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.17.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.2": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.18.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.18.4": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.19.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.19.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.6.b",
+"strength": "helpful",
+"why": "wet-dry climate",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.14.0",
+"strength": "helpful",
+"why": "acidic Cerrado soils",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.19.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.7.b",
+"strength": "helpful",
+"why": "semi-arid sertão",
+"confidence": "high"
+},
+{
+"id": "geo-region-continental-s2.18.3",
+"strength": "helpful",
+"why": "Caatinga biome",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.19.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.8.2",
+"strength": "helpful",
+"why": "wet east coast",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.19.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.18.4",
+"strength": "helpful",
+"why": "Pampa and Pantanal",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.20.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.20.4": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.3.1",
+"strength": "helpful",
+"why": "sketch map relief feature",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.21.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.21.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.21.1": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.21.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.21.1",
+"strength": "helpful",
+"why": "Gondwanaland",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.22.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.22.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.22.1": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.20.0",
+"strength": "helpful",
+"why": "Brazilian Highlands",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.22.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.22.1",
+"strength": "essential",
+"why": "tilt of the Highlands",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.23.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.23.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.23.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.23.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.23.0",
+"strength": "helpful",
+"why": "steep escarpment behind coast",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.23.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.8.1",
+"strength": "essential",
+"why": "relief rain from escarpment",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.24.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.24.0": {
+"cost": 2,
+"needs": []
+},
+"geo-region-continental-s2.24.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.15.0",
+"strength": "helpful",
+"why": "terra roxa",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.24.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.25.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.25.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.25.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.25.0",
+"strength": "helpful",
+"why": "Amazon lowland",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.25.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.25.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.26.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.27.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.28.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.28.0": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.9.2",
+"strength": "helpful",
+"why": "cooler plateau climate",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.28.1": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.23.2",
+"strength": "helpful",
+"why": "escarpment barrier",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.28.2": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.25.0",
+"strength": "helpful",
+"why": "Amazon lowland",
+"confidence": "high"
+}
+]
+},
+"geo-region-continental-s2.28.3": {
+"cost": 1,
+"needs": [
+{
+"id": "geo-region-continental-s2.11.3",
+"strength": "helpful",
+"why": "Rio landslides",
+"confidence": "low"
+}
+]
+},
+"geo-region-continental-s2.29.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.29.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.29.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.29.2": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.29.3": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.30.b": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.30.0": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.30.1": {
+"cost": 1,
+"needs": []
+},
+"geo-region-continental-s2.30.2": {
+"cost": 2,
+"needs": [
+{
+"id": "geo-region-continental-s2.31.2",
+"strength": "helpful",
+"why": "black and white water",
+"confidence": "high"
+}
+]
+}
+}

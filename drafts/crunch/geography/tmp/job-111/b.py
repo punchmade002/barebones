@@ -79,8 +79,7 @@ d={
 '15.0':(1,[L(S+'1.0',H,'distance raises transport cost')]),
 '15.1':(1,[]),
 }
-d['1.6']=(1,[L(C+'4.2.2',H,'Paris Basin as core')])
-d['1.6'][1][0]['id']=C+'4.2.2'
+d['1.6']=(1,[L(C+'2.2',H,'Paris Basin as core')])
 ids=[l.split(']')[0][1:] for l in open(P+'packs/geo-region-european-s2.t1g1.txt').read().split('\n') if l.startswith('[geo-region-european-s2.')]
 tg=ids[:ids.index('geo-region-european-s2.15.1')+1]
 tg=[i for i in tg]
