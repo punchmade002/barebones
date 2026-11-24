@@ -3,25 +3,86 @@
   {
    "needs": "geo-economic-activities-s1",
    "strength": "helpful",
-   "why": "uses primary, secondary, tertiary sector terms",
+   "why": "uses sector terms, footloose industry, Irish industry examples",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "site suitability and economic activity read from OS map",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "location factor questions use aerial photographs",
    "confidence": "high"
   }
  ],
- "geo-economic-environment-s1": [],
+ "geo-economic-environment-s1": [
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "how oil, gas, peat and geothermal energy form",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "hydroelectric schemes and dams on Irish rivers",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads energy production and consumption graphs",
+   "confidence": "low"
+  }
+ ],
  "geo-economic-environment-s2": [
   {
    "needs": "geo-economic-environment-s1",
    "strength": "essential",
    "why": "uses fossil fuel and renewable resource classes",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "siting a wind farm is a map-based question",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "hydroelectric power relies on dams and river flow",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "geothermal energy and fossil fuel origins",
+   "confidence": "low"
   }
  ],
  "geo-economic-environment-s3": [
   {
    "needs": "geo-economic-environment-s2",
    "strength": "helpful",
-   "why": "builds on greenhouse effect from burning fossil fuels",
+   "why": "greenhouse effect from burning fossil fuels",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "interprets warming and emissions graphs",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "oil exploitation and spills link to marine pollution",
+   "confidence": "low"
   }
  ],
  "geo-economic-environment-s4": [
@@ -29,6 +90,30 @@
    "needs": "geo-economic-environment-s3",
    "strength": "helpful",
    "why": "sustainability responds to pollution and warming",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-environment-s1",
+   "strength": "helpful",
+   "why": "sustainable energy approaches use resource types",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s2",
+   "strength": "helpful",
+   "why": "mining sites Avoca, Tara and Lisheen impacts",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "fishing, mining, forestry and peat as Irish activities",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-eu-s3",
+   "strength": "helpful",
+   "why": "Common Fisheries Policy manages fish stocks",
    "confidence": "high"
   }
  ],
@@ -42,27 +127,63 @@
   {
    "needs": "geo-economic-environment-s1",
    "strength": "helpful",
-   "why": "Corrib gas conflict uses gas and energy supply",
+   "why": "Corrib gas, wind and turf conflicts use energy sources",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "map-based question locating a development",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-rivers-s4",
+   "strength": "helpful",
+   "why": "Three Gorges Dam costs and benefits",
+   "confidence": "low"
   },
   {
    "needs": "geo-economic-eu-s3",
    "strength": "helpful",
    "why": "fishing quotas come from Common Fisheries Policy",
    "confidence": "low"
+  },
+  {
+   "needs": "geo-rocks-weathering-s4",
+   "strength": "helpful",
+   "why": "Mullaghmore conflict set in Burren karst",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Amazon rainforest case study in Brazil",
+   "confidence": "low"
   }
  ],
  "geo-economic-eu-s1": [
   {
-   "needs": "geo-economic-globalisation-s3",
-   "strength": "helpful",
-   "why": "uses visible trade, balance of trade vocabulary",
-   "confidence": "low"
-  },
-  {
    "needs": "geo-graph-skills-s1",
    "strength": "helpful",
    "why": "reads trade pie charts and tables",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s3",
+   "strength": "helpful",
+   "why": "visible and invisible trade, balance of payments vocabulary",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "origins and enlargement of the EU",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s3",
+   "strength": "helpful",
+   "why": "single market and economic union",
    "confidence": "low"
   }
  ],
@@ -76,15 +197,27 @@
   {
    "needs": "geo-economic-activities-s1",
    "strength": "helpful",
-   "why": "Irish economic history, sectors and exports",
+   "why": "Irish economic history, exports and sectors",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-globalisation-s1",
+   "strength": "helpful",
+   "why": "foreign direct investment and IDA Ireland",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads trade tables and charts",
+   "confidence": "low"
   }
  ],
  "geo-economic-eu-s3": [
   {
    "needs": "geo-economic-eu-s2",
    "strength": "helpful",
-   "why": "EU influence builds on Irish trade and membership",
+   "why": "Irish trade and membership context",
    "confidence": "high"
   },
   {
@@ -92,6 +225,24 @@
    "strength": "helpful",
    "why": "CAP and CFP affect Irish farming and fishing",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "EU origins, deepening and widening",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s4",
+   "strength": "helpful",
+   "why": "regional funds target peripheral regions",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s2",
+   "strength": "helpful",
+   "why": "regional assemblies and EU funding",
+   "confidence": "low"
   }
  ],
  "geo-economic-globalisation-s1": [
@@ -100,6 +251,24 @@
    "strength": "helpful",
    "why": "MNC location uses footloose industry location factors",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "FDI, footloose industry and Intel in Ireland",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "locating an MNC on an OS map",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "data response on the largest MNCs",
+   "confidence": "low"
   }
  ],
  "geo-economic-globalisation-s2": [
@@ -112,15 +281,27 @@
   {
    "needs": "geo-economic-activities-s2",
    "strength": "helpful",
-   "why": "mobility and location factors of activities",
+   "why": "mobility, branch plants and product life cycle",
    "confidence": "high"
   }
  ],
  "geo-economic-globalisation-s3": [
   {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads trade data and tables",
+   "confidence": "high"
+  },
+  {
    "needs": "geo-economic-eu-s1",
    "strength": "helpful",
-   "why": "EU as trading bloc within the triad",
+   "why": "EU as a trading bloc within the triad",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s2",
+   "strength": "helpful",
+   "why": "China and South Korea as rising economies",
    "confidence": "low"
   }
  ],
@@ -142,13 +323,31 @@
    "strength": "helpful",
    "why": "core and periphery link to uneven development",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-economic-development-s3",
+   "strength": "helpful",
+   "why": "India 1991 liberalisation and colonial legacy",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-development-s4",
+   "strength": "helpful",
+   "why": "Rana Plaza and exploitation by multinationals",
+   "confidence": "low"
   }
  ],
  "geo-population-migration-s1": [
   {
    "needs": "geo-graph-skills-s2",
    "strength": "helpful",
-   "why": "uses census data and population statistics",
+   "why": "census data, age structure and birth and death rates",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads population pyramids and graphs",
    "confidence": "high"
   }
  ],
@@ -158,6 +357,12 @@
    "strength": "essential",
    "why": "uses density, growth rates and demographic transition",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-graph-skills-s1",
+   "strength": "helpful",
+   "why": "reads population growth graphs",
+   "confidence": "low"
   }
  ],
  "geo-population-migration-s3": [
@@ -172,6 +377,12 @@
    "strength": "helpful",
    "why": "reads census migration data",
    "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "Celtic Tiger and banking collapse drive migration",
+   "confidence": "low"
   }
  ],
  "geo-population-migration-s4": [
@@ -180,6 +391,12 @@
    "strength": "essential",
    "why": "uses push and pull factors and migration concepts",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-region-european-s4",
+   "strength": "helpful",
+   "why": "EU integration, free movement and enlargement",
+   "confidence": "low"
   }
  ],
  "geo-population-migration-s5": [
@@ -194,6 +411,18 @@
    "strength": "helpful",
    "why": "government approaches to migrants and asylum",
    "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s3",
+   "strength": "helpful",
+   "why": "cultural and religious regions",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-european-s3",
+   "strength": "helpful",
+   "why": "Northern Ireland cultural groups",
+   "confidence": "low"
   }
  ],
  "geo-population-migration-s6": [
@@ -204,24 +433,67 @@
    "confidence": "high"
   },
   {
+   "needs": "geo-region-concept-s4",
+   "strength": "helpful",
+   "why": "core and peripheral regions as receiver and donor",
+   "confidence": "high"
+  },
+  {
    "needs": "geo-population-migration-s1",
    "strength": "helpful",
    "why": "uses population distribution and growth",
    "confidence": "low"
+  },
+  {
+   "needs": "geo-region-ireland-s2",
+   "strength": "helpful",
+   "why": "West of Ireland rural decline and responses",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s1",
+   "strength": "helpful",
+   "why": "India urbanisation and migration",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-continental-s2",
+   "strength": "helpful",
+   "why": "Brazil urbanisation and internal migration",
+   "confidence": "low"
   }
  ],
- "geo-urban-s1": [],
+ "geo-urban-s1": [
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "reads historic settlement phases and place names on OS maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "evidence of historical development in a town",
+   "confidence": "low"
+  }
+ ],
  "geo-urban-s2": [
   {
    "needs": "geo-urban-s1",
    "strength": "helpful",
-   "why": "settlement history explains rural patterns like clachans",
+   "why": "settlement history explains clachans and rural patterns",
    "confidence": "high"
   },
   {
    "needs": "geo-mapwork-s1",
    "strength": "helpful",
    "why": "identifies settlement patterns on OS maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-ireland-s2",
+   "strength": "helpful",
+   "why": "rural settlement and decline in the West",
    "confidence": "low"
   }
  ],
@@ -236,6 +508,18 @@
    "needs": "geo-mapwork-s1",
    "strength": "helpful",
    "why": "identifies site and functions on OS maps",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "urban functions read from aerial photographs",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-region-concept-s5",
+   "strength": "helpful",
+   "why": "hinterland, primate city and nodal regions",
    "confidence": "low"
   }
  ],
@@ -245,6 +529,18 @@
    "strength": "essential",
    "why": "uses urban functions, CBD and hierarchy",
    "confidence": "high"
+  },
+  {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "land-use zones and CBD read from photographs",
+   "confidence": "high"
+  },
+  {
+   "needs": "geo-mapwork-s1",
+   "strength": "helpful",
+   "why": "town growth and layout on the map",
+   "confidence": "low"
   }
  ],
  "geo-urban-s5": [
@@ -255,9 +551,27 @@
    "confidence": "high"
   },
   {
+   "needs": "geo-aerial-photographs-s1",
+   "strength": "helpful",
+   "why": "traffic congestion and land-use change on photographs",
+   "confidence": "high"
+  },
+  {
    "needs": "geo-population-migration-s6",
    "strength": "helpful",
    "why": "rural-to-urban migration drives city growth",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-environment-s3",
+   "strength": "helpful",
+   "why": "urban air, water and waste pollution",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-ireland-s1",
+   "strength": "helpful",
+   "why": "Dublin urban problems case",
    "confidence": "low"
   }
  ],
@@ -278,6 +592,18 @@
    "needs": "geo-urban-s2",
    "strength": "helpful",
    "why": "uses the planning system and development plans",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-economic-activities-s1",
+   "strength": "helpful",
+   "why": "industrial decline behind docklands renewal",
+   "confidence": "low"
+  },
+  {
+   "needs": "geo-region-concept-s5",
+   "strength": "helpful",
+   "why": "planning to balance Irish city regions",
    "confidence": "low"
   }
  ]
