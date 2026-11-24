@@ -1,0 +1,44 @@
+{
+"1A": [
+{"k": 2, "of": ["geo-mapwork-s1.16.0", "geo-mapwork-s1.16.6"]},
+{"k": 1, "of": ["geo-mapwork-s1.16.2"]},
+{"k": 1, "of": ["geo-mapwork-s1.16.6"]},
+{"k": 1, "of": ["geo-mapwork-s1.17.0"]},
+{"k": 1, "of": ["geo-mapwork-s1.19.5"]},
+{"k": 1, "of": ["geo-mapwork-s1.16.5"]}
+],
+"1B": [
+{"k": 1, "of": ["geo-rivers-s1.13.b"]},
+{"k": 1, "of": ["geo-rivers-s1.13.0"]},
+{"k": 1, "of": ["geo-rivers-s1.5.b"]},
+{"k": 1, "of": ["geo-rivers-s1.13.1"]},
+{"k": 1, "of": ["geo-rivers-s1.5.2"]},
+{"k": 1, "of": ["geo-rivers-s1.13.2"]},
+{"k": 1, "of": ["geo-rivers-s1.13.3"]},
+{"k": 1, "of": ["geo-rivers-s1.14.0"]},
+{"k": 1, "of": ["geo-rivers-s1.14.1"]},
+{"k": 1, "of": ["geo-rivers-s1.14.2"]},
+{"k": 1, "of": ["geo-rivers-s1.14.4"]},
+{"k": 1, "of": ["geo-rivers-s1.13.3"]},
+{"k": 1, "of": ["geo-rivers-s1.14.4"]},
+{"k": 1, "of": ["geo-rivers-s1.14.7"]},
+{"k": 2, "of": ["geo-rivers-s1.14.3", "geo-rivers-s1.14.6"]}
+],
+"1C": [
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.17.b"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.17.0"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.17.1"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.17.2"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.17.3"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.17.3"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.18.0"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.18.1"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.19.0"]},
+{"k": 2, "of": ["geo-volcanoes-earthquakes-s2.19.1", "geo-volcanoes-earthquakes-s2.19.2"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.20.1"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.20.2"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.20.3"]},
+{"k": 1, "of": ["geo-volcanoes-earthquakes-s2.21.0"]},
+{"k": 2, "of": ["geo-volcanoes-earthquakes-s2.21.1", "geo-volcanoes-earthquakes-s2.21.3"]}
+]
+}
