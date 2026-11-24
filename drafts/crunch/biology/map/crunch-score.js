@@ -117,37 +117,36 @@
 
   globalThis.crunchRealScore = (p, kept, choice, D) => realPaperScore(p, kept, choice, groupsOf(D)); // for scripts/crunch_tune.js
 
-  // Backtest the cut: choose points from older papers, mark them on newer ones. Returns f(level) = the share of marks a
-  // student would really get if they keep what the model keeps at that coverage level (0..100), averaged over the folds.
-  // New-course content has no test papers, so its share is counted at the model's own estimate.
-  globalThis.crunchCalibrate = function (D, P, folds = [2019, 2022]) {
+  // Year-by-year backtest. For each past year Y (after the first `minTrain` papers), cut using only the papers before Y,
+  // then mark Y's real paper the 2027 way. That gives, per year, the real mark for keeping every point the model puts
+  // below each level (0..100). New-course content has no test papers, so its share is counted at the model's own estimate.
+  // safe(v): the mark in a bad year, the q-quantile across years (q = 0.2: target reached in about 4 years in 5).
+  //   Unpredictable subjects have a wide spread, so their bad year is low and they keep more: the margin is per subject.
+  // at(v): every year's mark at level v, for showing the range. Levels a point sits at are R.y from crunchScore.
+  globalThis.crunchBacktest = function (D, P, q = 0.2, minTrain = 5) {
     const N = D.items.length, levels = [];
     for (let L = 0; L <= 100; L += 2) levels.push(L);
-    const sum = new Float64Array(levels.length);
-    let used = 0;
-    for (const split of folds) {
-      const test = D.papers.filter(p => p.year > split);
-      const train = { ...D, papers: D.papers.filter(p => p.year <= split), subs: D.subs.map(s => [s[0], s[1], s[2], s[3], s[4].filter(y => y <= split)]) };
-      if (!test.length || !train.papers.length) continue;
+    const all = D.papers.map(p => p.year).sort((a, b) => a - b);
+    const testYears = all.slice(Math.min(minTrain, Math.max(1, all.length - 3))); // at least 3 test years where there are 4+ papers
+    const years = [], curves = [];
+    for (const Y of testYears) {
+      const test = D.papers.find(p => p.year === Y);
+      const train = { ...D, papers: D.papers.filter(p => p.year < Y), subs: D.subs.map(s => [s[0], s[1], s[2], s[3], s[4].filter(y => y < Y), ...s.slice(5)]) };
       const r = crunchScore(train, P);
       const nNew = r.isNew.reduce((a, b) => a + b, 0);
-      levels.forEach((L, li) => {
+      const f = levels.map(L => {
         const kept = new Uint8Array(N);
         let newKept = 0;
-        for (let i = 0; i < N; i++) if (r.y[i] + 5 < L) { kept[i] = 1; if (r.isNew[i]) newKept++; }
-        const paper = test.reduce((s, p) => s + realPaperScore(p, kept, P.choice, groupsOf(D)), 0) / test.length;
-        sum[li] += 100 * ((1 - r.rho) * paper + r.rho * (nNew ? newKept / nNew : 1));
+        for (let i = 0; i < N; i++) if (r.y[i] < L) { kept[i] = 1; if (r.isNew[i]) newKept++; }
+        return 100 * ((1 - r.rho) * realPaperScore(test, kept, P.choice, groupsOf(D)) + r.rho * (nNew ? newKept / nNew : 1));
       });
-      used++;
+      for (let i = 1; i < f.length; i++) f[i] = Math.max(f[i], f[i - 1]); // keeping more never scores less
+      years.push(Y); curves.push(f);
     }
-    const f = Array.from(sum, s => s / (used || 1));
-    for (let i = 1; i < f.length; i++) f[i] = Math.max(f[i], f[i - 1]); // keeping more never scores less
-    // realised % for a model level. Points the model calls worthless sit at level 100: a target above f(100) - 5
-    // keeps them too (the backtest can't rank them, so none is hidden).
-    return v => {
-      const x = Math.max(0, Math.min(100, v)) / 2, i = Math.min(levels.length - 2, Math.floor(x)), t = x - i;
-      return f[i] + (f[i + 1] - f[i]) * t;
-    };
+    const quant = (xs, t) => { const a = xs.slice().sort((x, y) => x - y), k = t * (a.length - 1), i = Math.floor(k); return a[i] + (a[Math.min(i + 1, a.length - 1)] - a[i]) * (k - i); };
+    const interp = (f, v) => { const x = Math.max(0, Math.min(100, v)) / 2, i = Math.min(levels.length - 2, Math.floor(x)), t = x - i; return f[i] + (f[i + 1] - f[i]) * t; };
+    const at = v => curves.map(c => interp(c, v));
+    return { years, q, safe: v => quant(at(v), q), at }; // safe from the same yearly figures the page shows, so they agree
   };
 
   globalThis.crunchScore = function (D, P) {
