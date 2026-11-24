@@ -5,125 +5,331 @@
   "syllabusRef": "E1 S",
   "notes": [
     {
-      "h": "Early trade unions",
-      "b": "Workers in the early industrial period first organised in craft societies and then in wider unions, which governments tried to restrict and later tolerated.",
+      "h": "The problem and the three kinds of response",
+      "b": "Industrialisation created a new class of factory workers who had little power over their lives. Every movement in this subsection was an attempt to answer that problem, in one of three ways.",
       "points": [
-        "The Combination Acts of 1799 and 1800 made it illegal for workers to combine to raise wages or change conditions in Britain.",
-        "The Combination Acts were repealed in 1824, and a further act in 1825 restored the right to organise but limited strikes and violence.",
-        "Six Dorset farm labourers, the Tolpuddle Martyrs, were sentenced to transportation to Australia in 1834 for swearing an oath to a union; a public campaign secured their pardon in 1836.",
-        "The Grand National Consolidated Trades Union, founded in 1834 under Robert Owen's leadership, aimed to unite all trades but collapsed within months.",
-        "The Amalgamated Society of Engineers, founded in 1851, was a New Model union with a high subscription, a central fund and benefit payments for sick and unemployed members.",
-        "Trade unions in the 1850s were mostly confined to skilled workers, and unskilled labourers remained largely unorganised until later decades; the Trades Union Congress first met in 1868 and the Trade Union Act of 1871 gave unions legal recognition."
+        "Industrialisation created a large factory working class, crowded into fast-growing towns, with long hours, low pay, child labour and slum housing, and with no vote. This is why unions, socialists and Chartists all appeared when they did.",
+        "Britain before 1832 was ruled by a Parliament chosen by a small, mostly propertied electorate. \"Rotten boroughs\" (tiny electorates controlled by a patron, Old Sarum being the best-known example) had MPs, while Manchester, Birmingham, Leeds and Sheffield had none.",
+        "The first kind of response was practical self-help, such as trade unions (associations of workers who join together to bargain with employers) and co-operatives (businesses owned by their members).",
+        "The second kind was new theories about how society should be organised: socialism, communism and anarchism.",
+        "The third kind was political campaigning, either for the vote from below (Chartism) or for reform from above, carried out by governments (Peel). Essays often compare these three kinds."
+      ],
+      "tip": "Essays on this subsection reward a comparison of methods: example, agitation, theory, insurrection and legislation. Group your examples under the three kinds of response and weigh what each achieved."
+    },
+    {
+      "h": "Early trade unions, 1799 to 1834",
+      "b": "Workers' first attempts to organise were met with fear and repression. A trade union is an association of workers who combine to bargain over wages and conditions, and in this period the law treated that as a danger to the state.",
+      "points": [
+        "The Combination Acts of 1799 and 1800 (Pitt's government) banned workers from combining to raise wages or change conditions, out of fear of revolution after 1789.",
+        "The Acts were repealed in 1824 after a campaign by Francis Place, a radical tailor, and Joseph Hume MP. A wave of strikes followed repeal. This shows that repeal released pent-up grievances.",
+        "Because of the strikes, the Act of 1825 let unions meet and bargain over wages and hours but made \"molestation\", obstruction and intimidation offences, which restricted strike action.",
+        "In 1834 six Dorset farm labourers, the Tolpuddle Martyrs, were led by George Loveless, a Methodist preacher. They were sentenced to seven years' transportation (forced exile to Australia) for swearing a secret oath, which the law treated as unlawful.",
+        "A large London protest march in April 1834 and a public campaign followed, and the six were pardoned in 1836. This shows that public opinion could force the government to back down.",
+        "The Grand National Consolidated Trades Union (GNCTU), founded early in 1834, tried to unite all trades in one union. Robert Owen was its leading figure, though he did not found it.",
+        "The GNCTU collapsed later in 1834, because of lockouts (employers shutting workers out), the Tolpuddle case, disputes and lack of funds."
+      ],
+      "tip": "Keep the sequence straight: the Combination Acts (1799 to 1800) banned unions, repeal came in 1824, the Act of 1825 restricted strikes, and the 1871 Act recognised unions. Do not say Owen founded the GNCTU; say he was its leading figure."
+    },
+    {
+      "h": "New Model unions and the end of the period",
+      "b": "After the failure of one big union for everyone, skilled workers built smaller, more cautious unions that lasted. These New Model unions set the pattern for the rest of the century.",
+      "points": [
+        "The Amalgamated Society of Engineers (1851) took skilled men only, charged a high subscription of a shilling a week and employed full-time officials, which made it stable.",
+        "Its central fund paid benefits for sickness, unemployment, accident and funerals, and it was cautious about strikes.",
+        "The carpenters copied the model in the Amalgamated Society of Carpenters and Joiners (1860, Robert Applegarth). The London leaders of these new amalgamated unions in the 1860s were known as \"the Junta\". This shows the ASE model was thought a success, so others copied it.",
+        "Unions were mainly for skilled craftsmen, who could afford the subscriptions. Unskilled workers stayed largely unorganised until later in the century.",
+        "The Trades Union Congress first met in Manchester in 1868. This gave unions a national voice, so they could lobby Parliament together.",
+        "The Trade Union Act of 1871 made unions legal and protected their funds, but the Criminal Law Amendment Act of the same year restricted picketing (standing outside a workplace to persuade others to join a strike)."
+      ],
+      "tip": "Contrast the GNCTU (1834, all trades, collapsed) with the ASE (1851, skilled engineers, lasted) and say why one survived."
+    },
+    {
+      "h": "Trade unions and workers' parties on the continent",
+      "b": "Examiners reward answers on Europe that go beyond Britain. On the continent the law was generally harsher towards unions, and workers' political parties appeared in the German lands.",
+      "points": [
+        "In France the Le Chapelier Law of 1791 banned combinations of workers, so French unions began under a legal ban lasting well into the nineteenth century.",
+        "Napoleon III granted the right to strike in 1864 and tolerated unions from 1868. Full legalisation came only in 1884, after this period.",
+        "In the German lands Ferdinand Lassalle founded the General German Workers' Association at Leipzig in 1863, an early political party for workers.",
+        "August Bebel and Wilhelm Liebknecht founded the Social Democratic Workers' Party at Eisenach in 1869, a separate party from Lassalle's."
+      ],
+      "tip": "Do not confuse Lassalle's General German Workers' Association (1863) with the Eisenach party (1869, Bebel and Liebknecht). Examples from France and the German lands lift an answer above a Britain-only one."
+    },
+    {
+      "h": "Socialism before Marx",
+      "b": "Socialism was an idea before it was a mass movement. Early reformers wanted to replace competition with co-operation, and the word was in use well before Marx wrote.",
+      "points": [
+        "Socialism means common or public ownership of the means of production (land, factories, mines) so that wealth is shared. The word came into use in Britain and France in the late 1820s and 1830s, used by Owen's followers and by Saint-Simon's.",
+        "Henri de Saint-Simon (1760 to 1825) wanted the whole of society organised by scientists, bankers and industrialists for the good of the poorest and most numerous class. His followers, the Saint-Simonians, were active in the 1830s.",
+        "Charles Fourier (1772 to 1837) planned co-operative communities called phalanxes, of about 1,600 people living in a building called a phalanstère and sharing work they found attractive. This is why he, not Saint-Simon, is the model-community planner.",
+        "Robert Owen, manager of New Lanark from 1800, set up New Harmony in Indiana in 1825, which failed within a few years. He is counted among the utopian socialists, those who relied on model communities.",
+        "Louis Blanc's The Organisation of Labour (1839) urged state-funded \"social workshops\" run by workers, and \"the right to work\". He sat in the Provisional Government in February 1848. This is why his ideas lay behind the 1848 demand for the right to work.",
+        "Pierre-Joseph Proudhon's What is Property? (1840) declared \"Property is theft!\" He was the first writer to call himself an anarchist, and he influenced Bakunin."
       ]
     },
     {
-      "h": "Socialism and utopian reformers",
+      "h": "The Communist League and the meaning of \"utopian\"",
+      "b": "By 1847 socialist ideas had reached German exile workers in London. Their League turned to Marx and Engels, who also gave the earlier socialists the label \"utopian\".",
       "points": [
-        "Socialism in the early nineteenth century meant common ownership of the means of production, and the term was used by early reformers before Marx gave it a scientific basis.",
-        "Utopian socialists such as Henri de Saint-Simon and Charles Fourier planned model communities based on co-operation, and they rejected competitive capitalism.",
-        "Robert Owen's ideas and his experiments at New Lanark and New Harmony in Indiana showed that cooperative communities could be run successfully in practice, a case treated in its own notes.",
-        "In France, Louis Blanc's Organisation of Labour (1839) urged state-backed workshops, and in London the Communist League was formed in 1847 from a society of German exiles, with Marx and Engels drafting its programme."
-      ]
+        "The Communist League was formed in London in 1847, growing out of the League of the Just, a society of German exile workers.",
+        "At its congress late in 1847 the League commissioned Marx and Engels to write its programme, the Communist Manifesto. This is why the Manifesto is tied to this League.",
+        "\"Utopian\" and \"scientific\" socialism are terms Engels used in his pamphlet Socialism: Utopian and Scientific (1880). Marx and Engels called the early socialists utopian because they relied on model communities and appeals to the rich, and called their own theory scientific socialism."
+      ],
+      "tip": "Do not credit Fourier's model communities to Saint-Simon, who wanted experts and industrialists to run all of society. Do not say New Harmony or New Lanark showed that co-operative communities worked: New Harmony failed. \"Scientific socialism\" was Marx and Engels's own claim, so attribute it to them. Never give \"Property is theft\" to Bakunin or Marx."
     },
     {
       "h": "Key personality: Karl Marx",
-      "b": "Marx was the most influential theorist of socialism. His ideas were written and developed in the 1840s and 1860s, and his followers only became a mass movement after his death.",
+      "b": "Karl Marx was the most influential theorist of socialism. He was an exile and a writer rather than a leader of crowds, and his followers became a mass movement only after his death.",
       "points": [
-        "Karl Marx was born in Trier in 1818, studied philosophy and became editor of the Rheinische Zeitung in Cologne in 1842.",
-        "He was expelled from Paris in 1845 and from Prussia in 1849, and he settled in London in 1849, where he lived until his death in 1883.",
-        "With Friedrich Engels he wrote the Communist Manifesto, published in London in February 1848, which declared that all history was a history of class struggles and ended with a call for working men of all countries to unite.",
-        "He was a participant in the revolutions of 1848 as editor of the Neue Rheinische Zeitung in Cologne, which was closed in 1849 when he was expelled from Prussia.",
-        "His theory of historical materialism held that class struggle drives history, and that capitalism would be overthrown by the working class.",
-        "The first volume of Das Kapital appeared in 1867, analysing how capitalists profit from surplus value produced by labour.",
-        "He helped to found the International Workingmen's Association (the First International) in London in 1864, wrote its inaugural address and was the dominant figure on its General Council.",
-        "Contemporaries in the 1850s and 1860s saw him as a dangerous exile, and most of the European governments kept him under surveillance.",
-        "Historians now judge Marx as a major social theorist whose predictions of revolution in advanced capitalist countries were not fulfilled, although his analysis of capitalism influenced later economics and politics.",
-        "Marx's collaborator Engels financed him and edited the later volumes of Das Kapital after his death."
+        "Marx was born on 5 May 1818 in Trier, in the Prussian Rhineland. His father, a lawyer, had converted from Judaism to Protestant Christianity.",
+        "He studied law and then philosophy at Bonn and Berlin and took a doctorate at Jena in 1841. He was influenced by Hegel's dialectic (the idea that change comes through the conflict of opposites), which later shaped his view of history.",
+        "He edited the Rheinische Zeitung in Cologne in 1842. The government suppressed it in 1843, so he moved to Paris (1843 to 1845), where he met Engels in 1844. He was expelled from Paris in 1845 and lived in Brussels from 1845 to 1848.",
+        "Friedrich Engels (1820 to 1895) was the son of a textile manufacturer from Barmen and worked in the family firm in Manchester, where he wrote The Condition of the Working Class in England (1845). He co-wrote the Manifesto and supported Marx financially for decades.",
+        "In 1848 and 1849 Marx was a participant in the revolutions. He returned to Germany and edited the Neue Rheinische Zeitung in Cologne from June 1848 to May 1849, and was expelled from Prussian territory in May 1849."
+      ],
+      "tip": "Ordinary Level paragraphs on Marx score on short dated facts: birth, Rheinische Zeitung, expulsions, London, Manifesto with Engels, historical materialism, Das Kapital, First International. Do not say governments across Europe watched him in the 1850s; he became notorious only after the Commune. Do not confuse the Rheinische Zeitung (1842 to 1843) with the Neue Rheinische Zeitung (1848 to 1849)."
+    },
+    {
+      "h": "Marx in exile: how contemporaries and historians saw him",
+      "b": "Marx spent his last decades in London, little known at first and then notorious. Judgements of him have changed as his ideas spread and the predictions were tested.",
+      "points": [
+        "His other writings include The Eighteenth Brumaire of Louis Bonaparte (1852), on Louis-Napoleon's coup, and The Civil War in France (1871), defending the Paris Commune.",
+        "He settled in London in August 1849 and lived there until his death on 14 March 1883, first in Soho and later in north London, often in poverty. Three of his children died young. He studied in the British Museum reading room and is buried in Highgate Cemetery.",
+        "Contemporaries knew little of him in the 1850s and 1860s. Prussian police agents watched the London exiles, and the Cologne Communist Trial of 1852 convicted members of the Communist League. This is why the public did not fear him until later.",
+        "After he defended the Paris Commune in 1871, the press called him a leader of the Commune's supporters, and he became famous and feared. He was also quarrelsome with rivals such as Bakunin and Lassalle.",
+        "Historians judge him the most influential socialist thinker, because his ideas shaped later socialist parties and twentieth-century communist states. His analysis of class and economics also influenced history, sociology and economics.",
+        "His prediction that revolution would come first in the most advanced industrial countries was not fulfilled, and workers' living standards rose."
       ]
+    },
+    {
+      "h": "Marx's ideas and writings",
+      "b": "Marx's importance rests on a theory that explained history by class struggle and promised that capitalism would be overthrown. Each of his main works and organisations belongs to a different date.",
+      "points": [
+        "The Communist Manifesto (published in London in German in February 1848, written with Engels for the Communist League) opens \"A spectre is haunting Europe – the spectre of communism\" and declares \"The history of all hitherto existing society is the history of class struggles.\"",
+        "It divides society into the bourgeoisie (the owners of factories and capital) and the proletariat (wage workers), and argues that capitalism would produce its own gravediggers. It ends with the call \"Working men of all countries, unite!\"",
+        "The Manifesto did not cause the 1848 revolutions. It appeared just before them and had little immediate influence on them. This is why historians do not treat it as a cause of 1848.",
+        "Historical materialism holds that the economic base, meaning who owns the means of production, shapes the political and ideological superstructure of law, religion and ideas. Marx wrote that religion is \"the opium of the people\" (1844).",
+        "Marx saw history in stages: ancient slavery, feudalism, capitalism, then socialism or communism. Each stage is ended by class struggle, so capitalism would fall to a proletarian revolution.",
+        "After the revolution would come a workers' state, his \"dictatorship of the proletariat\" (a phrase from 1850), and then a classless communist society in which the state would wither away.",
+        "Das Kapital, volume 1 (Hamburg, 1867), set out the theory of surplus value: workers produce more value than they are paid in wages, and the capitalist keeps the difference as profit, which Marx called the unpaid part of labour. Engels edited volumes 2 (1885) and 3 (1894) from Marx's manuscripts.",
+        "The International Workingmen's Association, the First International, was founded at St Martin's Hall, London, on 28 September 1864. Marx wrote its Inaugural Address and its rules and led its General Council. It linked British trade unionists with French and German socialists. This is why it brought different national movements together."
+      ],
+      "tip": "Do not use the phrase \"thesis, antithesis, synthesis\"; it is not Marx's or Hegel's own formula. Keep Marx's Manifesto (February 1848) apart from Das Kapital (volume 1, 1867), the Communist League (1847) apart from the First International (1864), and the Tamworth Manifesto (1834) apart from both. For essays against Metternich or Darwin, state class struggle, historical materialism, inevitable revolution and the workers' state clearly."
+    },
+    {
+      "h": "Marx compared with Metternich and Darwin",
+      "b": "Higher essays set Marx beside other thinkers of the age. The comparison works best when you say what each thought drives change and how their ideas were received.",
+      "points": [
+        "Marx and Metternich held opposite views of society. Marx saw conflict between classes and believed change was inevitable, while Metternich wanted order and hierarchy and aimed to prevent change.",
+        "Marx and Darwin both offered a theory of change through struggle over long periods of time. Marx's struggle was between classes, which he expected to end in revolution."
+      ],
+      "tip": "Marx did not offer to dedicate Das Kapital to Darwin; that story is a myth, so use only the comparison of ideas."
     },
     {
       "h": "Key personality: Mikhail Bakunin",
-      "b": "Bakunin was a Russian revolutionary and the most influential anarchist of the period. His rivalry with Marx split the First International.",
+      "b": "Bakunin was a Russian revolutionary and the most famous anarchist of the period, a man of action who spent years in prison. His rivalry with Marx split the First International.",
       "points": [
-        "Mikhail Bakunin was born in 1814 into a noble family in Russia, and he left the army and became a revolutionary in the 1840s.",
-        "He was a participant at the Slav Congress in Prague in 1848, and he joined the Dresden rising of May 1849, after which he was sentenced to death, a sentence later commuted to life imprisonment.",
-        "He was handed over to Austria and then Russia in 1851, held in the Peter and Paul Fortress, exiled to Siberia in 1857 and escaped in 1861 by way of Japan and the United States to London.",
-        "Bakunin argued for the abolition of the state and of all authority, a position that became known as anarchism, and he rejected Marx's belief in the need for a workers' state.",
-        "His rivalry with Marx within the First International led to the expulsion of Bakunin at the Hague Congress in 1872, after which the International's General Council moved to New York; Bakunin died in 1876.",
-        "Contemporary governments saw him as a dangerous conspirator, while some radicals admired him as a champion of the oppressed.",
-        "Historians now treat Bakunin as a major figure in the anarchist tradition, although his influence on the mass labour movement was less than Marx's."
+        "Mikhail Bakunin was born on 30 May 1814 on the Premukhino estate, Tver province, into a Russian noble family. He served as an artillery officer but resigned his commission in 1835, studied philosophy in Moscow and Berlin (1840), and became a revolutionary only in the 1840s.",
+        "In 1848 and 1849 he was a participant in the revolutions: he attended the Slav Congress in Prague in June 1848 and joined the Dresden rising of May 1849.",
+        "He was sentenced to death in Saxony (1850) and again in Austria (1851), and each sentence was commuted. He was handed over to Russia in 1851. Each sentence was commuted, so he survived to continue his career.",
+        "He was held in the Peter and Paul Fortress in St Petersburg and then in Schlüsselburg, and was exiled to Siberia in 1857. In 1861 he escaped by way of Japan and the United States, reaching London at the end of that year.",
+        "In 1873 he wrote Statism and Anarchy. He died on 1 July 1876 in Bern, Switzerland.",
+        "Contemporary governments saw him as a dangerous conspirator, while some radicals admired him as a heroic rebel and champion of the oppressed. This is why he was watched and imprisoned.",
+        "Historians see him as the founder of the anarchist movement, though a poor organiser and less influential than Marx on mass labour parties. His anarchist influence was strongest in Spain, Italy and the Jura region of Switzerland, where the Jura Federation was based."
+      ],
+      "tip": "Ordinary Level paragraphs on Bakunin score on dated facts: birth and noble family, Prague and Dresden, death sentences, prison and Siberia, escape, anarchism, Hague 1872. Say he resigned his commission in 1835 and became a revolutionary in the 1840s, as two separate events. Do not call him the first anarchist (that was Proudhon) and leave out the Catechism of a Revolutionary, whose author is disputed."
+    },
+    {
+      "h": "Bakunin's anarchism and the split with Marx",
+      "b": "Bakunin and Marx both wanted to end capitalism but disagreed about what should replace it. Their quarrel broke the International, the first organisation to bring socialists of different countries together.",
+      "points": [
+        "Bakunin's anarchism meant the abolition of the state, organised religion and all coercive authority, so that people would live without rulers. He wrote in 1842: \"The passion for destruction is a creative passion.\"",
+        "He expected revolution to come from spontaneous risings of peasants and the poor as well as workers, not only an industrial proletariat. He favoured secret revolutionary societies.",
+        "Bakunin joined the First International in 1868. He argued that Marx's workers' state would become a new tyranny of a ruling minority, while Marx wanted workers' parties to win political power.",
+        "At the Hague Congress in September 1872 Bakunin and his ally James Guillaume were expelled. The General Council moved to New York, and the International faded and was dissolved in 1876, at Philadelphia."
+      ],
+      "tip": "Do not confuse the Communist League (1847, commissioned the Manifesto), the First International (1864) and the Hague Congress (1872, the split). Proudhon's anarchist ideas came in 1840; Bakunin built the anarchist movement."
+    },
+    {
+      "h": "Marx, Bakunin and O'Connor compared",
+      "b": "The most common Higher pairing on this subsection is two or three of Marx, Bakunin and O'Connor. Each comparison below is a pair of contrasting points, which you can turn into a judgement.",
+      "points": [
+        "On the state, Marx wanted workers to win power and use a workers' state, while Bakunin wanted no state at all.",
+        "On who would make revolution, Marx looked to organised industrial workers, while Bakunin looked to all the oppressed, including peasants.",
+        "On method, Marx stressed theory and patient organisation, while Bakunin stressed spontaneous insurrection.",
+        "In their lives, Marx was a London theorist, while Bakunin was a participant on the barricades.",
+        "On aims, O'Connor sought the vote and land within the British state, while Marx sought revolution and the end of capitalism.",
+        "On method, O'Connor used mass agitation, while Marx used theory and an international organisation.",
+        "Both O'Connor and Marx failed to achieve their aims in 1848, but both had longer-term influence."
+      ],
+      "tip": "For a 100-mark essay on two or three of these men, give each person's aims, methods and achievements with dates, then compare them explicitly and make a judgement, for example who achieved more by 1871 or whose ideas lasted."
+    },
+    {
+      "h": "The 1832 Reform Act and the widening franchise",
+      "b": "Democracy means government by the people through elected representatives chosen by all, here all adult men. The franchise (the right to vote) widened slowly in Britain and faster in some continental states, usually granted from above.",
+      "points": [
+        "The Reform Act of 1832, passed by Earl Grey's Whig government after a long crisis, gave the borough vote to men who owned or occupied property worth £10 a year. In the counties the vote went to forty-shilling freeholders plus some leaseholders and tenants.",
+        "It took both MPs from 56 boroughs and one from 30 others, and gave seats to industrial towns such as Manchester, Birmingham, Leeds and Sheffield.",
+        "Even so, only about one adult man in five in England and Wales could vote, and almost no workers, so the Act disappointed the working class. Estimates vary, so give no exact figure. This is why working men turned to Chartism.",
+        "The Second Reform Act of 1867 (Derby and Disraeli) gave the vote to many urban working men, and the Ballot Act of 1872 introduced the secret ballot. Almost all men over 21 (and some women over 30) got the vote in the Representation of the People Act of 1918.",
+        "In France the Provisional Government decreed universal male suffrage in March 1848, raising the electorate from fewer than 250,000 to about nine million. Louis-Napoleon kept it and used plebiscites (direct votes on his proposals).",
+        "The North German Confederation of 1867 elected its Reichstag by universal male suffrage, for men over 25 and by secret ballot. The German Empire kept this in 1871, and Bismarck hoped conservative rural voters would outvote the liberals."
+      ],
+      "tip": "Remember the contrast examiners like: universal male suffrage came in France in 1848 and in the North German Confederation in 1867, but in Britain only in 1918. Say the vote was widened more often from above than won from below."
+    },
+    {
+      "h": "The Anti-Corn Law League",
+      "b": "Not every campaign of the period was a working-class one. The Anti-Corn Law League was a middle-class pressure group that showed how organised public opinion could change policy, and it won where Chartism lost.",
+      "points": [
+        "The League was founded in Manchester in 1838 by Richard Cobden and John Bright, to end the Corn Laws (duties on imported grain that kept bread dear).",
+        "It used lecturers, pamphlets, a national fund and mass meetings, a model of how a pressure group could organise opinion. This is why it could reach many voters.",
+        "It succeeded in 1846 when the Corn Laws were repealed, whereas the working-class Chartists failed, partly because much middle-class support went to the League."
+      ],
+      "tip": "Anti-Corn Law League (middle class, Cobden and Bright, succeeded in 1846) against Chartism (working class, failed) is a ready-made contrast for an essay on mass politics."
+    },
+    {
+      "h": "The Chartist movement: causes, programme and organisation",
+      "b": "Chartism was the first national working-class political movement in Britain. It grew from hardship and from the feeling that the political system had shut workers out.",
+      "points": [
+        "Chartism grew from disappointment with the 1832 Act, which gave workers no vote, and anger at the Poor Law Amendment Act of 1834 and its workhouses.",
+        "Other causes were the trade depression from 1837 to the early 1840s, which brought unemployment (the 1840s are called the \"Hungry Forties\"), the decline of handloom weavers, and the failure of trade unionism after 1834.",
+        "The London Working Men's Association was formed in 1836 by William Lovett, a cabinet-maker, with Henry Hetherington also a founder. The People's Charter, published in May 1838, was drafted by Lovett with help from Francis Place.",
+        "The six points were universal male suffrage, the secret ballot, annual parliaments, equal electoral districts, abolition of the property qualification for MPs (so poor men could stand), and payment of MPs.",
+        "The first National Convention met in London in February 1839 and later moved to Birmingham.",
+        "The National Charter Association, founded in Manchester in July 1840, was in effect the first working-class political party, with local branches and paid-up members. This is why it counts as a party, not just a campaign.",
+        "The Northern Star, O'Connor's newspaper, was the movement's voice and reached a wide readership."
+      ],
+      "tip": "Do not describe Chartism as strong from 1838 to 1858: it was a mass movement from 1838 to 1848 and faded in the 1850s. Keep the National Charter Association (1840, political organisation) apart from the National Land Company (1845, land scheme)."
+    },
+    {
+      "h": "Chartist campaigns: petitions, Newport, the Plug Plot and Kennington",
+      "b": "Chartists tried petitions first and then stronger action, and each campaign was beaten. The three petitions and the three famous events are easily confused, so learn them with their dates.",
+      "points": [
+        "The first petition (1839) had about 1.3 million signatures and was rejected in July 1839. The second (1842) had over three million, the largest genuine total; Thomas Duncombe MP presented it and it was rejected in May 1842.",
+        "The 1848 petition claimed about 5.7 million signatures, but a Commons committee counted under two million, including false names such as \"Victoria Rex\" and \"the Duke of Wellington\". Each petition was rejected by the Commons.",
+        "At Newport, Monmouthshire, on 4 November 1839, John Frost, a former mayor of Newport, led armed men into the town with Zephaniah Williams and William Jones. Soldiers fired from the Westgate Hotel and about twenty Chartists were killed.",
+        "Frost and two others were sentenced to death, but the sentences were commuted to transportation for life to Van Diemen's Land (Tasmania). So the government spared them, but removed them from Britain.",
+        "The Plug Plot strikes of August 1842 spread through Lancashire, Yorkshire, the Potteries and the Midlands. Strikers pulled the plugs from factory boilers to stop work, and mass arrests followed.",
+        "On 10 April 1848 a mass meeting on Kennington Common, south London, was to march the petition to Parliament. The government banned the procession, enrolled tens of thousands of special constables, and the Duke of Wellington organised the military defence of London.",
+        "O'Connor persuaded the crowd to disperse, and the petition went to Parliament in cabs. The forged signatures then brought ridicule on the movement."
+      ],
+      "tip": "The three petitions are 1839, 1842 and 1848; 1842 was the second, with the largest genuine number of signatures. Keep Newport (1839), the Plug Plot (1842) and Kennington (1848) in order. Give no death toll beyond about twenty at Newport."
+    },
+    {
+      "h": "The Chartist Land Plan",
+      "b": "The Land Plan was a scheme to take workers out of the factories and back on the land. It was also a way to win the vote, because land ownership carried a vote in the counties.",
+      "points": [
+        "The Chartist Co-operative Land Company of 1845 (later the National Land Company) sold shares to members and bought estates. Members then drew lots for smallholdings. This meant workers could escape the factories and, because of the county vote, gain political rights.",
+        "Estates included O'Connorville at Heronsgate, Hertfordshire, and Charterville at Minster Lovell, Oxfordshire. The plan also aimed to give smallholders the county vote.",
+        "A select committee of 1848 found it legally and financially unsound, and an Act of Parliament wound it up in 1851."
       ]
     },
     {
-      "h": "The Chartist movement",
-      "b": "Chartism was the first mass working-class political movement in Britain, demanding parliamentary reform through peaceful methods, with the People's Charter of 1838 as its programme.",
+      "h": "Moral force, physical force, and why Chartism failed",
+      "b": "Chartism was divided about methods and faced a determined government. It rose in bad times and faded in good ones, which was fatal to a movement that depended on hardship.",
       "points": [
-        "The People's Charter of 1838 demanded universal male suffrage, secret ballots, annual parliaments, equal electoral districts, the abolition of the property qualification for MPs and payment of MPs.",
-        "The London Working Men's Association, formed in 1836 by the cabinet-maker William Lovett, drafted the Charter with the radical Francis Place and others.",
-        "Chartist petitions to Parliament in 1839, 1842 and 1848 were rejected each time; the 1842 petition had over three million signatures, while the 1848 petition claimed nearly six million but was found to have far fewer, some of them forged.",
-        "The Newport Rising of November 1839, led by John Frost, was an armed uprising in Wales that was suppressed by troops, and Frost was sentenced to death but transported to Australia instead.",
-        "The Plug Plot strikes of August 1842 spread through the industrial north and Midlands, and they were suppressed after mass arrests.",
-        "The National Charter Association, formed in 1840, organised local meetings and campaigns, and its newspaper, the Northern Star, reached a wide readership.",
-        "The National Land Company, founded in 1845, bought estates and let subscribers draw lots for smallholdings, which would give them a vote in the counties, but it ended in failure and was wound up in 1851.",
-        "Chartism grew from the depression of 1837, hatred of the New Poor Law of 1834 and disappointment that the 1832 Act had given workers no vote.",
-        "Chartists divided between moral-force leaders such as Lovett and physical-force leaders; the movement failed because of its divisions, government repression, the refusal of Parliament to listen and the better economic conditions after 1848."
-      ]
+        "Moral force Chartists such as William Lovett relied on education and persuasion. Physical force Chartists such as George Julian Harney (and James Bronterre O'Brien at times) were ready to threaten or use force.",
+        "O'Connor's speeches threatened force while he avoided armed risings. The division in methods weakened the movement.",
+        "Government repression (arrests, troops, and the new railways and telegraph, which moved forces quickly) wore the movement down, and Parliament refused to listen. This is why physical force never had a chance of succeeding.",
+        "Chartism had little middle-class support, which went to the Anti-Corn Law League. It rose in slumps and faded in good times, and the prosperity of the 1850s ended it.",
+        "The 1848 fiasco at Kennington damaged it. Ernest Jones led the later Chartists in the 1850s, and the last Chartist convention met in 1858.",
+        "Its achievement was to be the first national working-class political movement, which is why historians value it despite its failure.",
+        "Five of the six points later became law: the property qualification was abolished in 1858, the secret ballot came in 1872, payment of MPs in 1911 and manhood suffrage in 1918, and districts became more equal. Only annual parliaments never came."
+      ],
+      "tip": "Do not stop at failure. A strong answer says why Chartism failed (divisions, repression, Parliament's refusal, prosperity) and then credits it with the later success of most of its demands. Do not confuse Lovett (moral force), O'Connor (Northern Star, Land Plan), Frost (Newport), Harney (physical force) and Ernest Jones (1850s)."
     },
     {
       "h": "Key personality: Feargus O'Connor",
-      "b": "O'Connor was the most prominent Chartist leader in the 1840s and the editor of the movement's newspaper. His leadership was enthusiastic but divided the movement.",
+      "b": "O'Connor was the most prominent Chartist leader of the 1840s and the owner of the movement's newspaper. His energy gave Chartism a national voice but his quarrels divided it.",
       "points": [
-        "Feargus O'Connor was born in Co. Cork in 1796, trained as a barrister and entered politics as a supporter of Daniel O'Connell.",
-        "He was elected MP for Co. Cork in 1832, lost the seat in 1835, and became the leading figure in Chartism in England and in the National Charter Association; he was imprisoned for seditious libel in 1840–41 and was elected MP for Nottingham in 1847.",
-        "He founded the Northern Star in Leeds in 1837, which became the most widely read radical newspaper in Britain.",
-        "He was a participant in the Chartist campaigns of 1839, 1842 and 1848, and he presented the 1848 petition to Parliament.",
-        "He led the National Land Company, which bought land for members and collapsed after financial mismanagement.",
-        "The Chartist demonstration on Kennington Common on 10 April 1848 was intended to present a petition, but it dispersed peacefully after the authorities banned a procession to Westminster.",
-        "Contemporaries split over him: many working-class radicals admired him, while government officials and middle-class reformers regarded him as reckless.",
-        "Older accounts blame his vanity and his quarrels with Lovett and the moral-force Chartists; Dorothy Thompson and other historians stress his gifts as an organiser and speaker for the rank and file; his mental breakdown in 1852 ended his influence and he died in 1855."
-      ]
+        "Feargus O'Connor was born in Co. Cork in 1796 (some older sources give 1794). He came from a Protestant landed family with a radical tradition, being the nephew of the United Irishman Arthur O'Connor, and was called to the Irish bar.",
+        "He was elected MP for Co. Cork in December 1832 as a Repealer allied with Daniel O'Connell, and was unseated on petition in 1835 because he lacked the property qualification. He quarrelled with O'Connell and moved into English radical politics.",
+        "He founded the Northern Star in Leeds in November 1837. It was the most widely read radical newspaper in Britain, often read aloud in pubs and workplaces, and sold about 50,000 copies a week at its peak in 1839 (estimates vary). It moved to London in 1844.",
+        "He was a participant in the Chartist campaigns of 1839, 1842 and 1848, toured the industrial North as a speaker and dominated the National Charter Association. He was sentenced to 18 months for seditious libel in 1840, held in York Castle and released in August 1841.",
+        "The Land Plan was his scheme, reflecting his belief in returning workers to the land. In 1847 he was elected MP for Nottingham, the only Chartist elected to Parliament, and in 1848 he presented the petition to the Commons.",
+        "After Kennington his authority waned. He had a breakdown in 1852, was confined in an asylum in Chiswick, and died on 30 August 1855. He was buried at Kensal Green, London, with a very large funeral procession."
+      ],
+      "tip": "Ordinary Level paragraphs on O'Connor score on dated facts: Cork, barrister, O'Connell, Northern Star, NCA, prison, Land Company, Nottingham, Kennington. Do not write \"lost the seat in 1835\" without the reason: he lacked the property qualification. A strong essay weighs demagogue against organiser."
     },
     {
-      "h": "Mass politics and the franchise",
+      "h": "O'Connor: how contemporaries and historians judged him",
+      "b": "O'Connor divided opinion in his own day and divides historians still. The verdict depends on whether you blame him for Chartism's failure or credit him with holding it together.",
       "points": [
-        "The Reform Act of 1832 gave the vote to male householders in the boroughs who paid rent of £10 a year and removed seats from rotten boroughs for the new industrial towns, but it still left only about one adult man in five with a vote.",
-        "The Second Reform Act of 1867 extended the vote to many urban working men, the secret ballot came in 1872, and universal male suffrage followed only in 1918.",
-        "The Second Republic in France gave universal male suffrage in 1848, and the North German Confederation adopted it for its Reichstag in 1867."
+        "Contemporaries were split. To many workers he was a hero, \"the Lion of Freedom\", a Chartist song and popular name for him, but to Lovett, the moral-force men, middle-class reformers and the government he was a vain, reckless demagogue.",
+        "Older accounts, such as Mark Hovell's The Chartist Movement (1918), drew on Lovett's account and blamed him for Chartism's failure.",
+        "Dorothy Thompson (The Chartists, 1984) and James Epstein (The Lion of Freedom, 1982) see a gifted speaker and organiser who held a national movement together and spoke for the rank and file."
       ]
     },
     {
       "h": "Key personality: Robert Peel",
+      "b": "Robert Peel was a reforming statesman who worked from inside government, and Norman Gash rates him one of the greatest statesmen of the century. He was a Conservative who believed in reforming real abuses so as to preserve the established order.",
       "points": [
-        "Sir Robert Peel, Conservative leader and Prime Minister in 1834–35 and again from 1841 to 1846, was a central figure in the reform of British government.",
-        "As Home Secretary he founded the Metropolitan Police in London in 1829, a professional force that became a model for others.",
-        "He conceded Catholic emancipation in 1829, with the Duke of Wellington, to avoid civil conflict in Ireland, and it angered many Tories.",
-        "The Tamworth Manifesto of December 1834 set out a moderate programme of reform within the Conservative tradition, which became the basis of the modern Conservative Party.",
-        "He reintroduced income tax in 1842 to pay for tariff reductions, and his budgets of 1842 and 1845 cut tariffs on many imports.",
-        "The Bank Charter Act of 1844 regulated the issue of banknotes by the Bank of England, and the Factory Act of 1844 limited hours for women and children.",
-        "Peel repealed the Corn Laws in 1846, partly in response to the Irish potato famine, which split the Conservative Party; he resigned in June 1846 and died after a riding accident in 1850.",
-        "The Corn Laws repeal was supported by free-trade reformers such as Richard Cobden and John Bright, who had campaigned through the Anti-Corn Law League.",
-        "The Conservative Party's critics, notably Disraeli, attacked him as a traitor in 1846; historians such as Norman Gash judge him one of the greatest British statesmen of the century."
-      ]
+        "Peel was born on 5 February 1788 near Bury, Lancashire, the son of Sir Robert Peel, 1st Baronet, a cotton manufacturer and MP. He went to Harrow and Christ Church, Oxford, and became an MP in 1809.",
+        "He was Chief Secretary for Ireland from 1812 to 1818, setting up the Peace Preservation Force in 1814 and earning O'Connell's nickname \"Orange Peel\". He chaired the 1819 currency committee, after which Britain returned to gold.",
+        "As Home Secretary (1822 to 1827 and 1828 to 1830) he reformed the criminal law, abolishing the death penalty for many offences, and the Gaols Act of 1823 reformed prisons. This shows he was a reformer in law before he became Prime Minister.",
+        "The Metropolitan Police Act of 1829 created a professional, uniformed, unarmed force for London, with headquarters at Scotland Yard. Its first commissioners were Charles Rowan and Richard Mayne, and its first patrols began in September 1829.",
+        "Its officers wore blue uniforms and top hats and carried truncheons, not firearms, and were nicknamed \"Peelers\" and \"Bobbies\". The City of London kept its own force. The Metropolitan Police became a model for forces across Britain, though Peel did not found a national police force.",
+        "In 1829 Peel and the Duke of Wellington conceded Catholic emancipation after O'Connell won the Clare by-election in 1828, to avoid conflict in Ireland. It angered many Tories, and Peel resigned his Oxford University seat over it.",
+        "The Tamworth Manifesto of December 1834, an address to his constituents at Tamworth, accepted the Reform Act as \"a final and irrevocable settlement\" and promised careful reform of real abuses while preserving established institutions. It is seen as the founding statement of the Conservative Party.",
+        "He was Prime Minister from December 1834 to April 1835 and again from August 1841 to June 1846."
+      ],
+      "tip": "Credit Peel's measures with dates: police 1829, Tamworth 1834, income tax 1842, Bank Charter and Factory Acts 1844, repeal 1846. Say the Metropolitan Police was for London only. For Ordinary Level questions on the police, link it to context: crime and the old inadequate watch system."
+    },
+    {
+      "h": "Peel in power, 1841 to 1846: tax, free trade, banking and factories",
+      "b": "As Prime Minister Peel tried to make the state efficient and trade free, while keeping private property and the existing social order. His budgets and Acts of 1842 to 1844 are the core of his record.",
+      "points": [
+        "Laissez-faire is the belief that the state should leave trade, prices, wages and hours to the free market. Peel's free trade applied it, while the Factory Acts showed its limits.",
+        "He reintroduced income tax in 1842, at 7d in the pound on incomes over £150, for three years at first and then renewed. It let him cut or abolish duties on hundreds of imports in the budgets of 1842 and 1845, and trade and revenue grew.",
+        "The Bank Charter Act of 1844 gradually concentrated the issue of banknotes in the Bank of England, so that note issue beyond £14 million had to be backed by gold.",
+        "Other banks' note issues were frozen and phased out. This was to keep banknotes trustworthy, so confidence in the currency was protected.",
+        "The Mines Act of 1842, Lord Ashley's measure, forbade women, girls and boys under ten to work underground.",
+        "The Factory Act of 1844 set the minimum age at 8, limited children aged 8 to 13 to six and a half hours a day and women and young persons to twelve hours, and required machinery to be fenced.",
+        "The Railway Regulation Act of 1844 (Gladstone, at the Board of Trade) required at least one train a day each way at a penny a mile, the cheap \"parliamentary trains\".",
+        "Peel opposed the Ten Hours Bill, which passed in 1847 under Russell's government after his fall."
+      ],
+      "tip": "The 1844 Factory Act lowered the minimum age to 8 while cutting children's hours, so do not call it a ban on child labour. Do not say Peel introduced the Ten Hours Act: he opposed it. Do not confuse the elder Peel (1819 Act) with the Prime Minister (1844 Act)."
+    },
+    {
+      "h": "Peel and the repeal of the Corn Laws, 1846",
+      "b": "Repealing the Corn Laws was Peel's greatest act and the end of his career as Conservative leader. It brought lower food prices but split his party.",
+      "points": [
+        "Peel was influenced by free-trade arguments and by the Anti-Corn Law League, whose leaders Cobden and Bright had campaigned for repeal. The urgent cause was the potato blight in Ireland from 1845, and Peel bought American maize for Ireland.",
+        "The Corn Importation Act received royal assent in June 1846. It passed with Whig votes, while about two-thirds of Conservative MPs voted against, and duties were reduced to a nominal one shilling a quarter by 1849, not ended overnight.",
+        "Peel was defeated on an Irish Coercion Bill on 25 June 1846 and resigned in June 1846, on the same night that the Corn Laws were repealed.",
+        "The Conservatives split into protectionists, led by Lord Derby (then Lord Stanley) and Benjamin Disraeli, and Peelites, including William Gladstone, who joined the Liberals by 1859. The Conservatives were long out of majority power.",
+        "Peel died after being thrown from his horse on Constitution Hill, London, on 29 June 1850, and died on 2 July.",
+        "Contemporaries differed. Disraeli and the protectionists called him a traitor to his party, while the middle class and many workers praised cheap bread and sound finance.",
+        "Historians such as Norman Gash (Mr Secretary Peel, 1961, and Sir Robert Peel, 1972) rate him one of the greatest statesmen of the century, an administrator who put the national interest above party.",
+        "Critics note that he twice split his party (1829, 1846), so his career left divisions, and that he resisted a wider franchise and the Ten Hours Act."
+      ],
+      "tip": "Repeal did not end duties overnight; they fell to a nominal level by 1849. A good answer on Peel sets traitor against great statesman, and lasting reform against a divided party."
     },
     {
       "h": "Owen and Peel as reformers compared",
+      "b": "This is the most frequent Higher question on the subsection. Owen tried to change society from outside Parliament, Peel from inside government, and the best answers weigh evidence on both sides.",
       "points": [
-        "Owen worked outside government to create model communities, while Peel reformed the state from within through legislation and institutions.",
-        "Owen's aims were co-operation and communal ownership, whereas Peel wanted to preserve private property and the existing social order, while making it more efficient.",
-        "Owen's reforms were confined to one community, while Peel's measures such as the Metropolitan Police and the Bank Charter Act affected the entire country.",
-        "Owen's ideas were rejected by most of the political establishment, while Peel's policies were accepted as sound by much of the middle class."
-      ]
+        "Both were sons of the textile industry: Owen (born 1771 in Newtown, Wales, died 1858) a self-made Welsh mill manager, and Peel the son of a cotton millionaire. This shows that industrial wealth produced reformers of different kinds.",
+        "In method, Owen worked by example, model communities, education and co-operation outside Parliament, while Peel reformed the state from within through legislation and administration.",
+        "In aims, Owen wanted to replace competition with co-operation and common ownership. Peel wanted to preserve property, Church and Crown by making the state efficient and trade free.",
+        "There was a link: Owen's campaign helped bring about the Cotton Mills and Factories Act of 1819, introduced by Sir Robert Peel the elder. It banned children under nine from cotton mills and limited hours for those under sixteen, but had no inspectors and was poorly enforced.",
+        "Peel's changes (police, tax, free trade, the Bank Act, Factory and Mines Acts) affected the whole country and lasted, and much of the middle class accepted his policies as sound.",
+        "Owen's New Lanark worked but was rarely copied, and most of the political establishment rejected his ideas. New Harmony and the GNCTU failed, but his ideas inspired the co-operative movement (the Rochdale Equitable Pioneers' Society, 1844) and factory reform.",
+        "Most answers judge Peel the more effective in practice and Owen the more original. This is why the verdict usually favours Peel on effect and Owen on originality."
+      ],
+      "tip": "Marks come from evidence on both sides and a clear verdict. Do not say Owen's reforms were confined to one community: he also campaigned for factory law, led the GNCTU and inspired co-operation. Say instead that New Lanark was rarely copied."
     },
     {
       "h": "Assessment: achievements and limits of responses to industrial society",
+      "b": "Judge the responses by what they achieved at the time and what they achieved later. The paired points below give the evidence for an achievement-against-limits answer.",
       "points": [
-        "Achievement: trade unions lost their illegal status after 1824 and the New Model unions gave skilled workers lasting organisation.",
-        "Limit: the Combination Acts, the Tolpuddle sentences and the failure of the GNCTU showed how hard it was to organise workers in the early period.",
-        "Achievement: Chartism created a mass movement that kept parliamentary reform on the agenda, and several Chartist demands were later achieved.",
-        "Limit: Chartism's petitions were rejected, its leaders were divided, and the movement lost momentum after 1848.",
-        "Achievement: Peel's reforms modernised the police, the banking system and tariff policy, and they helped the British economy grow.",
-        "Overall: the responses to industrialisation included unions, socialist theory and Chartist agitation, yet the main political gains came from state reform led by Peel rather than from working-class movements, which won their goals only much later."
-      ]
+        "Trade unions: they were legal after 1824, recognised in 1871, and the New Model unions after 1851 gave skilled workers stable organisation. But Tolpuddle showed repression, the GNCTU collapsed and the unskilled were excluded.",
+        "Socialism: it produced a new and lasting body of ideas and an international organisation in 1864. But support was tiny before 1871, the movement was divided between Marx and Bakunin, and no revolution came.",
+        "Chartism: it was a mass movement that kept democracy on the agenda, and most of its points were achieved later. But every petition failed, its leaders were divided, and it was gone by the late 1850s.",
+        "Mass politics: manhood suffrage came in France in 1848 and in the North German Confederation in 1867, while Britain moved slowly in 1832 and 1867. The vote was widened more often from above than won from below.",
+        "Peel: he made lasting reforms from above in the police, finance, free trade and factory law. But he did not extend the vote, and he left a divided party.",
+        "Overall, the responses included unions, socialist theory and Chartist agitation, yet the main political gains came from state reform led by Peel, while working-class movements won their goals only much later."
+      ],
+      "tip": "Examiners reward paired achievements and limits for unions, socialism, Chartism and Peel, contemporary against later views of O'Connor (demagogue or organiser) and Peel (traitor or great statesman), and the point that the vote was widened more from above than won by working-class pressure."
     }
   ],
   "keyTerms": [

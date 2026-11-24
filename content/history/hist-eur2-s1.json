@@ -5,132 +5,230 @@
   "syllabusRef": "E2 P",
   "notes": [
     {
-      "h": "The Second Reich: how it was founded and governed",
-      "b": "The German Empire was proclaimed in 1871 after Prussia's wars against Denmark, Austria and France. It combined a strong monarchy with an elected parliament, and it upset the old balance of power in Europe.",
+      "h": "Background: Europe before 1871 and the meaning of balance of power",
+      "b": "To judge Bismarck's foreign policy you first need the starting point: a Europe run by five Great Powers, which the new German Empire suddenly disturbed. The key idea is the balance of power.",
       "points": [
-        "The German Empire was proclaimed on 18 January 1871 in the Hall of Mirrors at Versailles, while Paris was still under siege in the Franco-Prussian War; King Wilhelm I of Prussia became German Emperor (Kaiser).",
-        "The Empire was a federation of 25 states: four kingdoms (Prussia, Bavaria, Saxony, Württemberg), smaller duchies and principalities, and three free cities. Prussia held about two thirds of the territory and population.",
-        "The Kaiser was hereditary King of Prussia, commanded the army, appointed and dismissed the Chancellor and could declare war with Bundesrat consent.",
-        "The Chancellor was responsible to the Kaiser, not to parliament. Bismarck held the office from 1871 to 1890 and was also Prussian Minister-President for almost all of that time.",
-        "The Bundesrat (federal council) represented the state governments. Prussia held 17 of its 58 votes in 1871, enough to block any proposed constitutional change.",
-        "The Reichstag was elected by universal male suffrage (men aged 25 and over) by secret ballot. It could pass or reject laws and the budget, but it could not appoint or dismiss the Chancellor or ministers.",
-        "The Treaty of Frankfurt (10 May 1871) made France pay an indemnity of 5 billion francs and cede Alsace and part of Lorraine, including Strasbourg and Metz; German troops stayed until it was paid, which France did by 1873.",
-        "A new Great Power in the centre of Europe, with a growing population and industry, changed the balance of power: France was weakened and embittered, while Britain, Russia and Austria-Hungary had to adjust to a united Germany."
-      ]
+        "Balance of power means that no single state, or bloc of allied states, is strong enough to dominate Europe, because the others would combine against it. A united Germany upset the old balance, and Bismarck tried to manage the new one in Germany's favour.",
+        "Germany was unified by Prussia under Bismarck through three wars: against Denmark (1864), against Austria (1866, the Austro-Prussian or Seven Weeks' War) and against France (1870-71, the Franco-Prussian War, with French defeat at Sedan in September 1870 and the siege of Paris).",
+        "Before 1871 the centre of Europe was weak and divided into many German states. This is why the five Great Powers, Britain, France, Russia, Austria-Hungary and Prussia/Germany, could balance one another.",
+        "The Eastern Question was the problem of what would happen as the Ottoman Empire (Turkey) declined in the Balkans. Russia and Austria-Hungary were rivals for influence there.",
+        "Britain wanted to keep Russia away from the Straits (the sea passage from the Black Sea to the Mediterranean) and the eastern Mediterranean, because that route guarded its own interests."
+      ],
+      "tip": "If an essay asks about the balance of power, define it in one sentence and then explain how unification upset it, rather than assuming the examiner knows what you mean."
     },
     {
-      "h": "Bismarck's domestic policy, 1871–1890",
-      "b": "Bismarck governed by managing parliament and identifying 'enemies of the Reich' in turn. The Kulturkampf against the Catholic Church is covered in the notes on church-state tensions.",
+      "h": "The Second Reich: founding and constitution",
+      "b": "The German Empire (the Second Reich) was proclaimed in 1871 and combined a strong monarchy with an elected parliament. Its constitution put real power in the hands of the Kaiser and the Chancellor, not the Reichstag.",
       "points": [
-        "Until 1878 Bismarck relied on the National Liberals in the Reichstag, who supported free trade and the Reich's unity.",
-        "After two attempts on the life of Wilhelm I in May and June 1878 (by Hödel and Nobiling), Bismarck used the fear of revolution to pass the Anti-Socialist Law in October 1878. It banned socialist organisations, meetings and newspapers but still let socialists stand for the Reichstag.",
-        "The law did not stop the SPD: the party's vote kept rising, and by the 1890 election it won about 1.4 million votes and 35 seats.",
-        "The tariff of 1879 ended free trade by protecting German iron and steel and agricultural products. It split the National Liberals, and Bismarck now relied on the Conservatives and the Catholic Centre Party.",
-        "To win workers away from socialism, Bismarck introduced state insurance: sickness insurance (1883), accident insurance (1884) and old age and invalidity insurance (1889). Germany was the first major state to create such a scheme.",
-        "Bismarck's mix of repression and welfare is often described as the 'carrot and stick'. The insurance schemes were limited in coverage and benefits, and they failed to reduce support for the SPD.",
-        "Bismarck won army funding by repeated confrontations with the Reichstag; in the 1887 election, held after the Reichstag rejected the army bill (the Septennate), the pro-government Kartell of Conservatives and National Liberals won a majority."
-      ]
+        "The Empire was proclaimed on 18 January 1871 in the Hall of Mirrors at Versailles, while Paris was still under siege in the Franco-Prussian War. King Wilhelm I of Prussia became German Emperor (Kaiser).",
+        "It was a federation of 25 states: four kingdoms (Prussia, Bavaria, Saxony, Württemberg), grand duchies, duchies and principalities, and three free cities (Hamburg, Bremen, Lübeck). The population was about 41 million in 1871. Because the states stayed in the federation, local rulers kept their thrones.",
+        "Prussia dominated the federation, with about two-thirds of the territory and about three-fifths of the population. Alsace-Lorraine was a Reichsland (imperial territory), ruled directly from Berlin and not a state.",
+        "The Kaiser was hereditary King of Prussia. He commanded the armed forces, appointed and dismissed the Chancellor and ministers and conducted foreign policy, and he could declare war with the consent of the Bundesrat (needed unless Germany was attacked).",
+        "The Chancellor was responsible to the Kaiser, not to the Reichstag, and ministers (state secretaries) answered to the Chancellor. Bismarck was Chancellor from 1871 to 1890 and, separately, Prussian Minister-President for almost all of that time, apart from a short break in 1873.",
+        "The Bundesrat was the federal council of delegates from the state governments, who were not elected. Prussia held 17 of its 58 votes in 1871, and 14 votes could block a constitutional amendment, so Prussia alone could do so.",
+        "The Reichstag was elected by universal male suffrage (men aged 25 and over) by secret ballot. It voted on laws and the budget, but it could not appoint or dismiss the Chancellor, which is why it was weak. This is why real power lay with the Kaiser and the Chancellor."
+      ],
+      "tip": "Keep the Bundesrat (state governments, not elected) and the Reichstag (elected) apart, and remember that Bismarck held two separate offices, Chancellor of the Reich and Prussian Minister-President."
+    },
+    {
+      "h": "The Treaty of Frankfurt and the new balance of power",
+      "b": "The peace that ended the Franco-Prussian War created a lasting French grievance. Together with the birth of a powerful Germany, it changed how the Great Powers related to one another.",
+      "points": [
+        "The Treaty of Frankfurt (10 May 1871) made France pay an indemnity (a payment of compensation) of 5 billion francs and cede Alsace and part of Lorraine, including Strasbourg and Metz.",
+        "German troops occupied part of France until the indemnity was paid, which France achieved by 1873.",
+        "A new Great Power in the centre of Europe, with a growing population and industry, changed the balance of power. Germany now outweighed its neighbours in a way the old divided German lands never had.",
+        "France was weakened and embittered by defeat and the loss of the provinces, so it became hostile to Germany. Britain, Russia and Austria-Hungary had to adjust to a united Germany."
+      ],
+      "tip": "Do not confuse the Treaty of Frankfurt (1871) with the Frankfurt Parliament (1848)."
+    },
+    {
+      "h": "Bismarck's domestic policy, 1871-1890",
+      "b": "Bismarck governed by managing the Reichstag, working with one party after another and naming the enemies of the Reich in turn. His domestic record matters because examiners ask you to compare it with his foreign policy.",
+      "points": [
+        "His method was to work with Reichstag parties in turn and to label groups as Reichsfeinde (enemies of the Reich): Catholics (the Centre Party), socialists, and national minorities such as the Poles, the Danes and the people of Alsace-Lorraine. The National Liberals were his main partners from 1871 to 1878.",
+        "The Kulturkampf was his struggle with the Catholic Church, begun in 1871 and wound down after Leo XIII became pope in 1878 and largely ended by 1887. It failed to break the Church, and it matters here because the assessment names it.",
+        "After attempts on the life of Wilhelm I in May 1878 (Hödel) and June 1878 (Nobiling, who badly wounded the Kaiser), Bismarck used the fear of revolution as a pretext, although neither attacker acted for the SPD. He dissolved the Reichstag, and a new election followed in July 1878.",
+        "The Anti-Socialist Law of October 1878 banned socialist associations, meetings and publications, but socialists could still stand for and sit in the Reichstag. It was renewed several times and lapsed on 30 September 1890. This means the law attacked socialist organisation, but not the party's place in parliament.",
+        "The law failed to stop the SPD (the Social Democratic Party). At the February 1890 election it won about 1.4 million votes, the largest share of any party, and 35 seats.",
+        "The tariff law of 1879 protected imported iron, steel and grain, an alliance of Junker landowners and heavy industry called 'rye and iron'. It split the National Liberals (their left wing seceded in 1880), so Bismarck turned to the Conservatives and, for the tariff, the Centre Party."
+      ],
+      "tip": "The Anti-Socialist Law (1878-90) is not the May Laws of 1873, which belong to the Kulturkampf. Use the SPD's 1890 result to show the law failed."
+    },
+    {
+      "h": "Social insurance, the army bill and national unity",
+      "b": "Bismarck combined repression of socialists with benefits for workers, and he fought the Reichstag over the army. At the same time he built the shared institutions of a single nation state.",
+      "points": [
+        "To win workers away from socialism he introduced state insurance: sickness insurance (1883), accident insurance (1884) and old age and invalidity insurance (1889). Germany was the first state to create a national compulsory scheme of this kind.",
+        "This mix of repression and welfare is called 'carrot and stick' (in German, Zuckerbrot und Peitsche, 'sugar-bread and whip'). The schemes had limits: pensions were small and paid only from age 70, and the insurance failed to reduce support for the SPD.",
+        "The Septennate was the system of voting the army budget for seven years at a time (first in 1874), which kept the army outside yearly Reichstag control.",
+        "In January 1887 the Reichstag refused the new army bill, so Bismarck dissolved it. In the February 1887 election he fought on a war scare with France, and the Kartell (Conservatives, Free Conservatives and National Liberals) won a majority and passed the bill.",
+        "He also created national institutions: the mark became the single currency in 1873, and the Reichsbank was founded in 1875 (it opened on 1 January 1876). These count as domestic achievements because they made a national market possible."
+      ],
+      "tip": "For a domestic-record paragraph, give successes with dates (currency 1873, Reichsbank 1875, insurance laws 1883, 1884, 1889) and failures (Kulturkampf, Anti-Socialist Law, SPD growth)."
     },
     {
       "h": "Bismarck's aims and the isolation of France",
-      "b": "After 1871 Bismarck declared Germany a 'satiated' power that wanted no more territory in Europe. His aim was to keep the new Reich safe from a hostile coalition, above all one that included France.",
+      "b": "After 1871 Bismarck declared Germany a satiated power, one with no wish for more European territory. His aim was to protect the new Reich from a hostile coalition, above all one that included France.",
       "points": [
-        "French feeling after the loss of Alsace-Lorraine produced revanche, the desire for revenge and the recovery of the lost provinces; Bismarck assumed that France would never become a reliable friend.",
-        "His strategy was to keep France without allies by keeping the other powers friendly with Germany or at odds with each other. Contemporaries spoke of his fear of coalitions against Germany.",
-        "Bismarck wanted the Great Powers to feel that they needed good relations with Berlin more than with each other; he also steered rivalries towards the periphery of Europe, such as the Balkans and Africa.",
-        "In the War-in-Sight crisis of spring 1875 a German newspaper article suggested that Germany might attack France to stop its rearmament (France had passed a new army law). Britain and Russia warned Germany to hold back; historians disagree on whether Bismarck was really planning war or merely bluffing.",
-        "The crisis showed Bismarck that Britain and Russia would not allow France to be crushed a second time, and it fed his fear of a hostile coalition.",
-        "Franco-German tension flared again in 1886–87 under General Boulanger, a popular war minister who stirred up revanchist feeling, and in the Schnaebelé affair (April 1887), when a French frontier official was arrested by the Germans and later released.",
-        "Bismarck backed French colonial expansion, such as the occupation of Tunisia in 1881, and cooperated briefly with France against Britain over Egypt and Africa in 1884–85, to turn French attention away from Alsace-Lorraine."
-      ]
+        "Bismarck described Germany after 1871 as a 'satiated' (saturated) power: it had what it wanted, so more expansion in Europe would only provoke the other powers. This is why he wanted peace rather than conquest.",
+        "French revanche, the desire for revenge and recovery of Alsace-Lorraine, followed the loss of the provinces. Bismarck assumed that France was irreconcilable and would never become a reliable friend.",
+        "His core aim was to keep France isolated and prevent a hostile coalition, above all a two-front war (war against France in the west and Russia in the east at once). He called this fear his 'nightmare of coalitions', his own phrase.",
+        "In the Kissingen Dictation (June 1877) he set out, as reported, that he wanted all the powers except France to need Germany and to be kept from coalitions against it by their own relations with one another.",
+        "He also wanted to keep Russia and Austria-Hungary from war with each other over the Balkans, to keep Britain friendly, and to divert rivalries to the edges of Europe, such as the Balkans and Africa, away from Germany's borders.",
+        "A later summary of this logic is that, in a Europe of five Great Powers, the aim was to be one of three, so that Germany was never the odd one out. He is reported to have said this to the Russian diplomat Saburov in 1880."
+      ],
+      "tip": "Essays on Bismarck and the balance of power reward linking each treaty to one of these aims (isolate France, avoid two fronts) rather than just listing the treaties."
     },
     {
-      "h": "The Three Emperors' League and the Eastern Question",
+      "h": "Franco-German tension: the War-in-Sight crisis, Boulanger and French colonies",
+      "b": "French hostility never disappeared, and several crises showed how fragile peace between Germany and France was. Bismarck also tried to ease French bitterness by encouraging French empire-building.",
       "points": [
-        "The Three Emperors' League (October 1873) linked Germany, Austria-Hungary and Russia as a conservative understanding to resist revolution and settle disputes among the three monarchies.",
-        "The League was only an understanding, and it came under strain in the Balkan crisis of 1875–78, when Christian peoples rose against Ottoman rule and Russia fought Turkey in 1877–78.",
-        "The Treaty of San Stefano (March 1878) created a large Bulgaria and gave Russia great influence in the Balkans. Austria-Hungary and Britain refused to accept it.",
-        "At the Congress of Berlin (13 June to 13 July 1878), chaired by Bismarck, who called himself an 'honest broker', the powers cut Bulgaria down and divided it into three parts.",
-        "The Congress recognised the full independence of Serbia, Montenegro and Romania. Austria-Hungary was allowed to occupy and administer Bosnia-Herzegovina, and Britain took Cyprus; Russia kept Bessarabia and gains in the Caucasus.",
-        "Russians felt that Bismarck had sided against them at Berlin and had cheated them of the fruits of their victory over Turkey; Russian newspapers attacked Germany, and the League lapsed.",
-        "The League was renewed secretly in June 1881 for three years (and again in 1884), with promises of neutrality if one member went to war with a fourth power and agreed Balkan spheres. It broke down in 1887 over the crisis in Bulgaria."
-      ]
+        "In the War-in-Sight crisis of spring 1875, France passed an army law (March 1875) expanding its army. An article headed 'Is War in Sight?' in the Berlin newspaper Die Post (April 1875) suggested Germany might strike first.",
+        "Britain and Russia warned Berlin, and Tsar Alexander II and his chancellor Gorchakov visited Berlin in May 1875. Historians disagree on whether Bismarck was bluffing or testing the other powers.",
+        "Either way, the lesson for Bismarck was that Britain and Russia would not allow France to be crushed a second time, which fed his fear of a hostile coalition.",
+        "In 1886-87 General Georges Boulanger, French war minister and a popular figure of revanche, stirred up feeling against Germany.",
+        "In the Schnaebelé affair (April 1887) the Germans arrested a French frontier police official on the border, and he was released about a week later. It showed how a small incident could threaten war. Such incidents mattered because French feeling was already hostile.",
+        "Bismarck encouraged France to take Tunisia, which it made a protectorate in 1881, hoping to turn French attention from Alsace-Lorraine. In 1884-85 he cooperated with the French premier Jules Ferry against Britain on African questions."
+      ],
+      "tip": "In document questions on Bismarck and France, show that France wanted Alsace-Lorraine back and that Bismarck backed French colonies to ease this hostility, which did not work. Add one outside fact."
     },
     {
-      "h": "The Dual Alliance (1879) and Triple Alliance (1882)",
+      "h": "The Three Emperors' League and the Eastern crisis, 1873-78",
+      "b": "Bismarck's first attempt to keep Russia and Austria-Hungary friendly with Germany was a conservative understanding among three monarchies. It came under strain when the Balkans erupted.",
       "points": [
-        "The Dual Alliance of 7 October 1879 was a secret defensive treaty between Germany and Austria-Hungary: each promised to help the other if attacked by Russia, and to stay neutral if attacked by another power, unless Russia joined that power.",
-        "Bismarck signed it to guard against a Russian attack and to bind Austria-Hungary to Germany; Wilhelm I accepted it reluctantly because it seemed to threaten his friendship with Tsar Alexander II.",
-        "The Dual Alliance lasted until 1918 and was the permanent core of Germany's alliance system.",
-        "The Triple Alliance (20 May 1882) added Italy, which was angered by France's occupation of Tunisia in 1881 and wanted support against France and recognition as a Great Power.",
-        "Under the Triple Alliance, Germany and Austria-Hungary promised help if Italy was attacked by France; Italy would help Germany if attacked by France, and all three would act together if any faced two or more Great Powers.",
-        "Italy declared that it would not fight Britain, and its relations with Austria-Hungary were poor because of the Italian-speaking territories (Trentino and Trieste) in Habsburg hands.",
-        "The treaty was renewed regularly until 1914; Italy stayed out of the war in August 1914 and joined the Allies in May 1915."
-      ]
+        "The Three Emperors' League (Dreikaiserbund), completed in October 1873, linked Wilhelm I, Franz Joseph of Austria-Hungary and Alexander II of Russia.",
+        "It was a conservative understanding to consult each other and resist revolution, not a military alliance. This is why it could not bind the three emperors when their interests clashed.",
+        "The Balkan crisis of 1875-78 began with risings against Ottoman rule in Bosnia-Herzegovina (1875) and Bulgaria (1876).",
+        "Serbia and Montenegro fought Turkey in 1876, and Russia fought the Russo-Turkish War from April 1877 to early 1878.",
+        "Bismarck did not want Germany dragged in. He told the Reichstag in December 1876 that the Balkans were not worth 'the healthy bones of a single Pomeranian musketeer'.",
+        "The Treaty of San Stefano (3 March 1878, between Russia and Turkey) created a large autonomous Bulgaria under Russian influence. Austria-Hungary and Britain refused to accept it, and Britain sent its fleet to the Straits."
+      ],
+      "tip": "The first League (1873) was only an understanding, the second (1881) a secret treaty. Do not confuse either with the Holy Alliance of 1815, and keep San Stefano (March 1878) separate from the Treaty of Berlin (July 1878)."
     },
     {
-      "h": "The Reinsurance Treaty and the last years of the system",
+      "h": "The Congress of Berlin, 1878, and its results",
+      "b": "To prevent a European war over San Stefano, the powers met in Berlin under Bismarck's chairmanship. The settlement avoided war, but it left Russia angry with Germany.",
       "points": [
-        "The crisis in Bulgaria (1885–87), where Russia and Austria-Hungary competed for influence after Prince Alexander of Battenberg was forced to abdicate in 1886, ended the Three Emperors' League in 1887.",
-        "Bismarck replaced it with the Reinsurance Treaty of 18 June 1887, a secret agreement between Germany and Russia for three years. Each promised neutrality if the other was at war with a third power, except if Germany attacked France or Russia attacked Austria-Hungary.",
-        "Germany also recognised Russia's interests in Bulgaria and promised diplomatic support over the Straits.",
-        "Bismarck did not tell Austria-Hungary or Italy of the treaty, and it can be argued that it conflicted in spirit with the Dual Alliance.",
-        "In November 1887 Bismarck banned the Reichsbank from accepting Russian bonds as security for loans (the Lombardverbot). Russia turned to France for loans, which helped to bring the two powers together.",
-        "Britain, Italy and Austria-Hungary signed the Mediterranean Agreements in 1887 to hold the status quo in the Mediterranean and Near East, with Bismarck's encouragement. This tied Britain loosely to the Triple Alliance powers.",
-        "The Reinsurance Treaty was not renewed in 1890 after Bismarck's fall, and Russia moved towards France (see the notes on the structures of European diplomacy)."
-      ]
+        "In a Reichstag speech of February 1878 Bismarck promised that Germany would act as an 'honest broker' (ehrlicher Makler), meaning an impartial mediator. The Congress of Berlin met from 13 June to 13 July 1878 with Bismarck in the chair.",
+        "Britain was represented by Disraeli (Lord Beaconsfield) and Salisbury, Austria-Hungary by Andrássy and Russia by Gorchakov and Shuvalov.",
+        "The large Bulgaria was split into three: a smaller autonomous Principality of Bulgaria, Eastern Rumelia (autonomous under the Sultan) and Macedonia, which returned to Ottoman rule.",
+        "Serbia, Montenegro and Romania became fully independent. Austria-Hungary was allowed to occupy and administer Bosnia-Herzegovina (and garrison the Sanjak of Novi Pazar).",
+        "Russia kept southern Bessarabia and gained Kars and Batum. Britain gained Cyprus at the time of the Congress, by a separate convention with Turkey in June 1878. France was told it could take Tunisia.",
+        "War was avoided, but Russia felt cheated of the fruits of its victory over Turkey and blamed Bismarck, and the Russian press attacked Germany.",
+        "The first League lapsed, and Alexander II sent an angry letter to Wilhelm I in August 1879, the 'box on the ears' letter. This is why the Congress is judged a success for peace but a failure for Russo-German relations."
+      ],
+      "tip": "Do not mix up the Congress of Berlin (1878, the Balkans) with the Berlin Conference (1884-85, Africa). Say Bismarck promised to be an honest broker, not that he used the phrase at the Congress."
+    },
+    {
+      "h": "The Dual Alliance (1879) and the Triple Alliance (1882)",
+      "b": "After 1878, with Russia resentful, Bismarck secured Germany by tying it to Austria-Hungary and then to Italy. These treaties became the core of his alliance system.",
+      "points": [
+        "The Dual Alliance of 7 October 1879 was a secret defensive treaty between Germany and Austria-Hungary. If either was attacked by Russia, the other would help with all its forces; if attacked by another power, the other would stay at least neutral, unless Russia joined the attacker.",
+        "Bismarck chose Austria-Hungary to guard against a Russian attack after Russia's anger in 1878, and to bind the Habsburg state to Germany. Andrássy negotiated for Austria-Hungary. This is why the Dual Alliance became the base of his system.",
+        "Wilhelm I disliked a treaty aimed at his nephew, Tsar Alexander II, and agreed only after Bismarck threatened to resign.",
+        "The Dual Alliance was renewed regularly and lasted to the end of the war in 1918, making it the permanent core of German policy. Its danger was that it committed Germany to Austria-Hungary in the Balkans.",
+        "The Triple Alliance (20 May 1882) was a secret treaty, first for five years and renewed until 1914. Italy joined because it was angry at France's seizure of Tunisia in 1881 and wanted Great Power standing.",
+        "Its terms were that Germany and Austria-Hungary would help Italy if attacked by France, Italy would help Germany if attacked by France, and all three would fight if any member was attacked by two or more Great Powers.",
+        "It had weaknesses. Italy stated (the Mancini declaration, 1882) that the alliance could not be directed against Britain, and relations with Austria-Hungary were poor because Italian-speaking Trentino and Trieste remained under Habsburg rule.",
+        "Italy stayed neutral in August 1914 and entered the war on the Allied side in May 1915."
+      ],
+      "tip": "Examiners ask why each treaty was made: the Dual Alliance after Russian resentment in 1878, Italy's entry because of Tunisia. Keep the Dual Alliance (1879) apart from the Triple Alliance (1882) and the later Franco-Russian alliance (1894)."
+    },
+    {
+      "h": "The Second League, the Bulgarian crisis and the Reinsurance Treaty",
+      "b": "Bismarck repaired relations with Russia in 1881, but Balkan rivalry between Russia and Austria-Hungary wrecked the arrangement. His answer was a secret treaty with Russia alone.",
+      "points": [
+        "The second Three Emperors' League was signed on 18 June 1881, secretly and for three years, and renewed in 1884. Each member would stay neutral if another was at war with a fourth Great Power.",
+        "Balkan changes were to be made only by agreement, which was meant to stop Russia and Austria-Hungary clashing. Austria-Hungary could annex Bosnia-Herzegovina when it chose.",
+        "In the Bulgarian crisis, Bulgaria united with Eastern Rumelia in 1885, and Serbia attacked Bulgaria and was defeated. Prince Alexander of Battenberg (not a Tsar) was forced to abdicate in 1886 under Russian pressure.",
+        "Russia and Austria-Hungary came close to war, and Russia refused to renew the League in 1887, so it collapsed. This kept Russia friendly to Germany without breaking the Dual Alliance.",
+        "Bismarck replaced it with the Reinsurance Treaty of 18 June 1887, a secret treaty between Germany and Russia for three years. Each would stay benevolently neutral if the other was at war with a third Great Power, except if Germany attacked France or Russia attacked Austria-Hungary.",
+        "A secret protocol recognised Russia's predominant influence in Bulgaria and promised German moral and diplomatic support if Russia had to defend the Straits.",
+        "Austria-Hungary and Italy were not told. It can be argued that the treaty conflicted in spirit with the Dual Alliance, since Germany was promising friendship to Austria-Hungary's rival."
+      ],
+      "tip": "Why was the Reinsurance Treaty needed? Because the League collapsed over Bulgaria. It is the hinge point when you compare Bismarck with Wilhelm II, since it lapsed in 1890."
+    },
+    {
+      "h": "The Lombardverbot, the Mediterranean Agreements and the limits of the system",
+      "b": "In late 1887 Bismarck made two moves that pulled in different directions. One pushed Russia towards France, while the other built a loose Mediterranean barrier against Russia with British help.",
+      "points": [
+        "In November 1887 Bismarck barred the Reichsbank from accepting Russian bonds as security for loans (the Lombardverbot). Russia raised its loans in Paris instead from 1888, which helped to bring Russia and France together. This is why Russia, for example, turned elsewhere for money.",
+        "The Mediterranean Agreements of 1887 were made by Britain, Italy and Austria-Hungary, and Germany was not a signatory. The first (February-March 1887) linked Britain and Italy, then Austria-Hungary, with Spain associated.",
+        "The second (December 1887, Britain, Austria-Hungary and Italy) kept the status quo in the Mediterranean, the Black Sea and the Near East, in effect against Russia and France. Bismarck encouraged them, which tied Britain loosely to the Triple Alliance powers.",
+        "The Reinsurance Treaty (Germany and Russia only) must not be confused with the Mediterranean Agreements. Bismarck was in effect supporting both Russia and its opponents, which only he could keep up."
+      ],
+      "tip": "Do not confuse the Reinsurance Treaty (Germany and Russia only) with the Mediterranean Agreements (Britain, Italy and Austria-Hungary). Link the Lombardverbot (November 1887) to Russia raising loans in Paris from 1888."
     },
     {
       "h": "Colonies and relations with Britain",
-      "b": "Bismarck was not an enthusiast for colonies. He changed his mind in 1884, partly because of pressure from merchants and the colonial movement and partly for diplomatic reasons.",
+      "b": "Bismarck long thought colonies not worth the trouble, then changed course in 1884-85. Historians disagree about why, and the colonies strained relations with Britain.",
       "points": [
-        "In 1884–85 Germany claimed South West Africa (Lüderitz), Togoland, the Cameroons, German East Africa and territory in the Pacific including north-east New Guinea.",
-        "Bismarck preferred protectorates run by chartered companies at their own cost rather than colonies governed by the state.",
-        "The colonial claims brought friction with Britain, especially over South West Africa and East Africa, and the Gladstone government protested; Bismarck used the disputes to build pressure on Britain and to cooperate with France.",
-        "Bismarck summoned the Berlin Conference (November 1884 to February 1885) on West Africa; it set rules for the partition of the continent (see the notes on the New Imperialism).",
-        "Relations with Britain improved after Lord Salisbury took office in 1885. Bismarck tried to keep Britain friendly through the Mediterranean Agreements and hoped that colonial quarrels would not damage the relationship.",
-        "Anglo-German tension was also dynastic: the future Frederick III's wife, Victoria, was Queen Victoria's daughter, and Bismarck distrusted the liberal influence of the English-born crown princess.",
-        "Bismarck is said to have told an explorer in 1888 that his map of Africa lay in Europe, meaning that colonies mattered to him mainly for their effect on European diplomacy."
-      ]
+        "Bismarck long regarded colonies as costly and as a source of quarrels with Britain, and Germany lacked a fleet to protect them.",
+        "In 1884 Germany took South West Africa (Lüderitz's land at Angra Pequena, April 1884), Togoland and the Cameroons (July 1884), and north-east New Guinea (Kaiser-Wilhelmsland) and the Bismarck Archipelago. In 1885 it added German East Africa (Carl Peters' German East Africa Company) and the Marshall Islands.",
+        "One explanation is pressure from merchants (such as Lüderitz of Bremen, and Hamburg trading firms) and the German Colonial Society (Kolonialverein, 1882). Colonies were also popular in the Reichstag election of October 1884, and they gave Bismarck leverage against Britain and a gesture towards France.",
+        "A.J.P. Taylor argued that the colonies were taken to quarrel with Britain and so prevent an Anglo-German liberal friendship under the future Frederick III. Hans-Ulrich Wehler argued they were 'social imperialism', a way to divert domestic discontent. Treat both as interpretations.",
+        "Bismarck preferred protectorates (Schutzgebiete) run at first by chartered companies at their own expense, rather than state-run colonies, but the state soon had to take over administration.",
+        "Gladstone was British prime minister from 1880 to 1885, and London protested about Angra Pequena and East Africa. The Berlin Conference on West Africa (15 November 1884 to 26 February 1885), called by Bismarck with France, set the rules for claiming African territory.",
+        "Relations improved with Salisbury, prime minister from June 1885 (briefly) and again from 1886, and the Mediterranean Agreements helped. In December 1888 Bismarck told the explorer Eugen Wolf, 'my map of Africa lies in Europe', with France on one side, Russia on the other and Germany in the middle.",
+        "Crown Prince Frederick had married Victoria, Queen Victoria's eldest daughter, in 1858. Both were liberal, and Bismarck distrusted their influence."
+      ],
+      "tip": "In document questions on Bismarck and colonies, remember he was reluctant because of cost, lack of a fleet and lack of skilled officials, and that he saw colonies mainly through their effect on European diplomacy."
     },
     {
-      "h": "The fall of Bismarck, 1888–1890",
+      "h": "The fall of Bismarck, 1888-1890",
+      "b": "Bismarck fell because a young Kaiser who wanted to rule himself clashed with a Chancellor used to controlling everything. The quarrel centred on workers, the constitution and access to the Kaiser.",
       "points": [
-        "Wilhelm I died on 9 March 1888 aged 90. His son Frederick III, a liberal who was fatally ill with throat cancer, reigned for 99 days and died on 15 June 1888.",
-        "The new Kaiser, Wilhelm II, aged 29, wanted to rule personally and disagreed with Bismarck about handling the workers; he wanted to ease the anti-socialist laws, which Bismarck wanted to make permanent.",
-        "The Anti-Socialist Law was due to expire in September 1890. After the Reichstag election of February 1890, in which the Kartell parties lost seats and the SPD vote grew, Bismarck mooted a coup d'etat to change the constitution.",
-        "Wilhelm II also objected to Bismarck's attempt to limit the ministers' access to the Kaiser through the Cabinet Order of 1852, and to the Chancellor's talks with the Catholic Centre leader Windthorst.",
-        "Bismarck offered his resignation on 18 March 1890, after the Kaiser made it clear that he would be dismissed otherwise. It was accepted two days later, and General Leo von Caprivi became Chancellor.",
-        "The British magazine Punch published the cartoon 'Dropping the Pilot' by John Tenniel on 29 March 1890, showing the Kaiser watching the old pilot leave the ship.",
-        "In the following months the Reinsurance Treaty was not renewed and Germany signed the Heligoland-Zanzibar treaty with Britain (July 1890)."
-      ]
+        "1888 is called the year of the three emperors. Wilhelm I died on 9 March 1888 aged 90, and his son Frederick III, already gravely ill with cancer of the throat, reigned 99 days and died on 15 June 1888.",
+        "Wilhelm II, born in 1859, became Kaiser aged 29. He wanted to rule personally, so he was ready to clash with Bismarck.",
+        "They quarrelled over the workers. During a miners' strike in the Ruhr in May 1889 Wilhelm II favoured concessions, and he wanted to ease the Anti-Socialist Law, which Bismarck wanted to make permanent.",
+        "In January 1890 the Reichstag rejected Bismarck's bill to make the law permanent. In the February 1890 election the Kartell lost its majority and the SPD vote rose, and Bismarck spoke of a Staatsstreich (coup) to change the constitution or suffrage.",
+        "He invoked the Prussian Cabinet Order of 1852 (ministers could approach the King only through the Minister-President), which would limit the ministers' access to the Kaiser. He also met the Centre leader Ludwig Windthorst in March 1890 without the Kaiser's consent.",
+        "Wilhelm II demanded his resignation. Bismarck sent his resignation letter on 18 March 1890, it was accepted on 20 March, and General Leo von Caprivi became Chancellor.",
+        "The Punch cartoon 'Dropping the Pilot' by John Tenniel (29 March 1890) shows Wilhelm II on deck watching Bismarck, the pilot, leave the ship.",
+        "The immediate results were that the Reinsurance Treaty was not renewed in 1890 and the Heligoland-Zanzibar Treaty was signed with Britain on 1 July 1890. Both were Caprivi's, not Bismarck's, and Russia moved towards France; the Franco-Russian military convention followed in 1892."
+      ],
+      "tip": "To explain why Bismarck fell, give the clash with Wilhelm II over workers, the constitution and control of ministers. Do not mix up Wilhelm I with Wilhelm II, or Frederick III, who reigned only in 1888."
     },
     {
-      "h": "Key personality: Otto von Bismarck (Chancellor, 1871–1890)",
-      "b": "Bismarck made the unification of Germany possible in the 1860s, and then governed it as Chancellor until 1890. This block covers the Chancellorship; his earlier career belongs to the notes on unification.",
+      "h": "Key personality: Otto von Bismarck (Chancellor, 1871-1890)",
+      "b": "Bismarck made German unification possible in the 1860s and then governed the new Empire as Chancellor until 1890. As a participant who shaped events, and was in turn shaped by them, he is judged very differently by contemporaries and historians.",
       "points": [
-        "Bismarck (1815–98) came from a Junker landowning family at Schönhausen in Prussia, and became Minister-President of Prussia in 1862.",
-        "He was made Prince in 1871 and served as Chancellor under Wilhelm I, Frederick III and Wilhelm II. He controlled foreign policy personally, and most of the major policy decisions of the Empire were his.",
-        "He saw himself as a conservative protecting the monarchy and Prussian power; he used nationalism, tariffs and social insurance to keep the new Reich stable.",
-        "Contemporaries admired the 'Iron Chancellor' who had made Germany great: nationalists and conservatives adored him, while Catholics, Liberals and socialists suffered under his measures and called them persecution.",
-        "Foreign observers respected him as a master diplomat. Punch's cartoon of 1890 and the many Bismarck monuments erected after his death show how large he loomed.",
-        "After his dismissal he used the press to criticise Wilhelm II's governments, and published his memoirs, Thoughts and Recollections. He died on 30 July 1898 at Friedrichsruh.",
-        "Historians are divided. A.J.P. Taylor and others praised his skill as a diplomat who kept the peace; Lothar Gall called him a 'white revolutionary' who changed Europe from above.",
-        "Hans-Ulrich Wehler argued that Bismarck's rule was a kind of Bonapartist dictatorship that kept the old elites in power by 'negative integration', uniting the Reich against domestic 'enemies' such as Catholics and socialists; critics say it left Germany with a weak parliamentary tradition."
-      ]
+        "He was born on 1 April 1815 and lived until 1898 (1815-98) at Schönhausen (Brandenburg) into a Junker family (Prussian landed nobility), and became Prussian Minister-President in September 1862. He made unification possible, and his phrase 'blood and iron' belongs to those earlier years, not to the Chancellorship.",
+        "He was made a prince (Fürst) in 1871 and was Chancellor under Wilhelm I (1871-88), Frederick III (1888) and Wilhelm II (1888-90). As Chancellor he shaped the constitution, the domestic campaigns, the alliances of 1873 to 1887, the Congress of Berlin and the colonies of 1884-85.",
+        "He controlled foreign policy personally, and most of the major policy decisions of the Empire were his.",
+        "He was shaped by events as well. The War-in-Sight crisis taught him that Britain and Russia would not let France be crushed, Russian resentment after 1878 and the Bulgarian crisis forced his alliance changes, and in the end a new Kaiser ended his career.",
+        "He was a conservative monarchist defending Prussian power and the Junker order, using nationalism and the Reichstag as tools. In diplomacy he practised realpolitik, politics based on power and interests rather than principles.",
+        "Contemporaries saw the 'Iron Chancellor'. Nationalists and conservatives admired him, Catholics, socialists and many liberals hated him, and foreign observers respected him as a master diplomat."
+      ],
+      "tip": "Examiners want you to show how Bismarck shaped events and was shaped by them, and how contemporaries saw him: nationalists and conservatives admired him, while Catholics and socialists suffered under his measures."
+    },
+    {
+      "h": "Key personality: Otto von Bismarck, retirement and historians' judgement",
+      "b": "After 1890 Bismarck became a critic of his successors, and his reputation was fought over by historians. Their verdicts divide into favourable and critical views.",
+      "points": [
+        "He retired to Friedrichsruh, near Hamburg, and attacked the 'new course' of Wilhelm II's governments in the press, especially the Hamburger Nachrichten. He died there on 30 July 1898.",
+        "His memoirs, Thoughts and Recollections, appeared just after his death (two volumes in 1898, the third in 1921). Hundreds of Bismarck towers and monuments were built in Germany, which shows the cult that grew around him.",
+        "Favourable historians stress his diplomacy. A.J.P. Taylor (Bismarck: The Man and the Statesman, 1955) held that it was peaceful after 1871, though he also stressed his opportunism.",
+        "Lothar Gall (Bismarck: The White Revolutionary) called him a 'white revolutionary': a conservative who used revolutionary means, accepting nationalism and universal suffrage, to preserve the monarchy and the old elites.",
+        "Critics stress the flaws. Hans-Ulrich Wehler argued that his rule was a 'Bonapartist' dictatorship that kept the old elites in power through 'negative integration', uniting the majority against Reichsfeinde, and through social imperialism.",
+        "On this view he left a weak parliamentary tradition, and his system of secret, contradictory treaties needed his own skill to work, so it could not outlast him."
+      ],
+      "tip": "Examiners expect you to name at least one historian with their view, such as Taylor, Gall or Wehler, and to use Wehler's negative integration as an analytical point on domestic tensions."
     },
     {
       "h": "Assessment: Bismarck's foreign and domestic record",
+      "b": "The usual judgement is that Bismarck was more successful abroad than at home, but both records have successes and limits. Contemporaries and later historians also judged him differently.",
       "points": [
-        "Foreign success: Germany fought no war after 1871 and avoided a two-front war while Bismarck was in office.",
-        "Foreign limit: the system was complicated and depended on Bismarck personally; the Reinsurance Treaty and the Dual Alliance pulled in opposite directions, and a successor could not keep all the balls in the air.",
-        "Foreign limit: the Dual Alliance committed Germany to Austria-Hungary in a Balkan region where Habsburg and Russian interests clashed, and the treatment of Russia in 1878 and 1887 helped to push it towards France.",
-        "Foreign success: the Congress of Berlin avoided a European war in 1878, and Bismarck was able to turn colonial rivalry to Germany's advantage.",
-        "Domestic success: he created a unified state, a national market, a common currency (the mark, 1873), a central bank (the Reichsbank) and the first national state insurance system in Europe.",
-        "Domestic failure: the Kulturkampf and the Anti-Socialist Law did not break the Catholic Church or the SPD; both emerged stronger, and the Reichstag remained weak.",
-        "Contemporary view: Germans in 1890 saw a statesman who had made Germany one of the strongest states in Europe.",
-        "Later view: historians stress the unfinished nature of his domestic settlement, which left his successors with an unreformed constitution and a divided society."
-      ]
+        "Foreign success: Germany fought no war between 1871 and 1890 and avoided a two-front war, while France stayed isolated. The Russo-Turkish War of 1877-78 did not become a general European war.",
+        "Foreign success: the Congress of Berlin prevented a general war in 1878 and put Germany at the centre of European diplomacy, and colonies were gained in 1884-85 without war.",
+        "Foreign limit: the system was complex, secret and partly contradictory, because the Reinsurance Treaty and the Dual Alliance pulled in opposite directions. It depended on Bismarck personally, so a successor could not keep all the balls in the air.",
+        "Foreign limit: the Dual Alliance tied Germany to Austria-Hungary in the Balkans, where Habsburg and Russian interests clashed. The treatment of Russia in 1878 and the Lombardverbot of 1887 prepared the Franco-Russian link, and French hostility never ended.",
+        "Domestic success: he created national unity, a common currency (the mark, 1873), a central bank (the Reichsbank) and the first national social insurance scheme.",
+        "Domestic limit: the Kulturkampf and the Anti-Socialist Law failed, and both the Catholic Centre and the SPD grew stronger. The Reichstag stayed weak, and he left his successors an unreformed constitution.",
+        "Contemporary view: in 1890 Germans saw a great statesman who had made Germany one of the strongest states in Europe, and foreign observers respected him as a master diplomat; the British magazine Punch's 'Dropping the Pilot' cartoon (1890) shows how large he loomed.",
+        "Later view: historians stress the flaws he left behind, a divided society and a fragile alliance system that depended on him."
+      ],
+      "tip": "State your judgement in the opening sentence (the usual verdict is that he was more successful abroad than at home) and sustain it with dated points on both sides. Answers that cover only foreign policy, or only narrate, lose marks."
     }
   ],
   "keyTerms": [
