@@ -1,7 +1,7 @@
 import json,re
 P='/Users/gabrielwhelan/barebones/drafts/crunch/history/'
 def L(i,s,w):
-    i='hist-ire5-s1.'+i[1:] if i[0]=='c' else 'hist-ire5-s2.'+i
+    i='hist-ire5-s'+i[1:] if i[0]=='c' else 'hist-ire5-s2.'+i
     return {"id":i,"strength":s,"why":w,"confidence":"high"}
 E,H='essential','helpful'
 D={
