@@ -1,0 +1,721 @@
+{
+ "geo-aerial-photographs-s1.0.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.0.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.0.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.0.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.1.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.2.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.2.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.2.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.3.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.4.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.4.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.4.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.5.6": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.6.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.7.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.8.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.9.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.9.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.9.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.9.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.10.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.10.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.10.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.10.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.10.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.11.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.11.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.11.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.11.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.11.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.11.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.12.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.12.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.12.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.12.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.12.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.13.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.14.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.15.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.16.6": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.17.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.17.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.17.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.17.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.18.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.18.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.18.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.14.1",
+    "strength": "helpful",
+    "why": "mills as 19th-century industry",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.19.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.19.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.20.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.20.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.20.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.20.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.8.2",
+    "strength": "helpful",
+    "why": "castles for defence",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.21.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.21.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.9.0",
+    "strength": "helpful",
+    "why": "walled Norman towns",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.8.2",
+    "strength": "helpful",
+    "why": "castles and mottes",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.22.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.22.3": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.14.0",
+    "strength": "helpful",
+    "why": "railways created 19th-century towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.22.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.15.2",
+    "strength": "helpful",
+    "why": "suburban expansion",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.23.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.23.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.1.4",
+    "strength": "helpful",
+    "why": "bridging points as routeways",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.24.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.12.2",
+    "strength": "helpful",
+    "why": "planned town features",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s1.13.b",
+    "strength": "helpful",
+    "why": "landlord planned towns",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.24.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s1.9.b",
+    "strength": "helpful",
+    "why": "medieval town layout",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.24.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.6": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.24.7": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.b": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.0.b",
+    "strength": "helpful",
+    "why": "congestion meaning",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.25.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.0.2",
+    "strength": "helpful",
+    "why": "narrow streets at historic centre",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.25.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.2": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.2.1",
+    "strength": "helpful",
+    "why": "few crossings of river",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.25.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.25.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.0.4",
+    "strength": "helpful",
+    "why": "delivery vehicles share streets",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.25.5": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.0.3",
+    "strength": "helpful",
+    "why": "peak journey times",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.26.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.26.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.3.2",
+    "strength": "helpful",
+    "why": "bus lanes priority",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.26.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.4.0",
+    "strength": "helpful",
+    "why": "pedestrianisation",
+    "confidence": "high"
+   },
+   {
+    "id": "geo-urban-s5.3.6",
+    "strength": "helpful",
+    "why": "orbital roads and bypasses",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.26.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.26.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.26.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.3.6",
+    "strength": "helpful",
+    "why": "bypass removes through-traffic",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.27.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.27.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.27.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.27.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.5.0",
+    "strength": "helpful",
+    "why": "industry closing in inner city",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.28.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.28.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.0": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.10.0",
+    "strength": "helpful",
+    "why": "why edge development grows",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.29.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.29.4": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.10.b",
+    "strength": "helpful",
+    "why": "sprawl defined",
+    "confidence": "high"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.30.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.30.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.30.1": {
+  "needs": [
+   {
+    "id": "geo-urban-s5.27.0",
+    "strength": "helpful",
+    "why": "flood risk on paved land",
+    "confidence": "low"
+   }
+  ]
+ },
+ "geo-aerial-photographs-s1.30.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.30.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.5": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.6": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.31.7": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.b": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.0": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.1": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.2": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.3": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.4": {
+  "needs": []
+ },
+ "geo-aerial-photographs-s1.32.5": {
+  "needs": []
+ }
+}

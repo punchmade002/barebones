@@ -116,6 +116,40 @@ def check_pack(name, res, index, pack_ids):
     return errs
 
 
+def check():
+    """Validate every finished package output, then flag odd cost-rating packages (like biology/audit.py)."""
+    import re
+    import statistics
+    index = json.loads((HERE / "packs.json").read_text())
+    src = HERE / "point-links"
+    bad, stats, done = {}, [], 0
+    for name, v in index.items():
+        f = src / f"{name}.json"
+        if not f.exists():
+            continue
+        done += 1
+        ids = set(re.findall(r"^\[([^\]]+)\]", (HERE / "packs" / f"{name}.txt").read_text(), re.M))
+        try:
+            res = json.loads(f.read_text())
+        except ValueError as e:
+            bad[name] = [f"does not parse: {e}"]
+            continue
+        errs = check_pack(name, res, index, ids)
+        if errs:
+            bad[name] = errs
+        elif v["cost"]:
+            n = len(res)
+            stats.append((name, n, sum(r.get("cost") == 2 for r in res.values()) / n, sum(len(r.get("needs", [])) for r in res.values()) / n))
+    print(f"{done} of {len(index)} packages done, {len(bad)} with problems")
+    for k, e in bad.items():
+        print(f"  {k}: {e[:3]}{' …' if len(e) > 3 else ''}")
+    if len(stats) > 4:
+        for col, label in ((2, "cost-2 rate"), (3, "links/item")):
+            vals = [s[col] for s in stats]
+            lo = statistics.mean(vals) - 2 * statistics.pstdev(vals)
+            print(f"{label}: mean {statistics.mean(vals):.2f}; low (< {lo:.2f}):", [s[0] for s in stats if s[col] < lo])
+
+
 if __name__ == "__main__":
     t = {"x": {"sid": "s", "cost": False, "targets": ["a"]}}
     assert check_pack("x", {"a": {"needs": [{"id": "b"}]}}, t, {"a", "b"}) == []

@@ -90,13 +90,13 @@
  "geo-economic-activities-s2.2.4": {
   "needs": [
    {
-    "id": "geo-economic-activities-s2.2.11.0",
+    "id": "geo-economic-activities-s2.11.0",
     "strength": "helpful",
     "why": "Intel Leixlip example",
     "confidence": "high"
    },
    {
-    "id": "geo-economic-activities-s2.2.13.0",
+    "id": "geo-economic-activities-s2.13.0",
     "strength": "helpful",
     "why": "Galway cluster example",
     "confidence": "high"
@@ -1187,13 +1187,13 @@
  "geo-economic-activities-s2.29.0": {
   "needs": [
    {
-    "id": "geo-aerial-photographs-s1.1.3.2",
+    "id": "geo-aerial-photographs-s1.3.2",
     "strength": "essential",
     "why": "accepted notation",
     "confidence": "high"
    },
    {
-    "id": "geo-aerial-photographs-s1.1.10.0",
+    "id": "geo-aerial-photographs-s1.10.0",
     "strength": "helpful",
     "why": "grid reference",
     "confidence": "high"
@@ -1397,7 +1397,7 @@
  "geo-economic-activities-s2.35.0": {
   "needs": [
    {
-    "id": "geo-aerial-photographs-s1.1.3.2",
+    "id": "geo-aerial-photographs-s1.3.2",
     "strength": "essential",
     "why": "accepted notation",
     "confidence": "high"

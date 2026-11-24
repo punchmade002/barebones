@@ -7,9 +7,9 @@ cost2=set(A+x for x in "1.1 9.0 10.1 11.0 11.1 12.0 12.1 13.1 13.4 15.0 15.3 17.
 # (target, strength, why, conf)
 def l(t_,s,w,c='high'): return {"id":t_,"strength":{'e':'essential','h':'helpful'}[s],"why":w,"confidence":c}
 P1={
-'1.1.1':[l(A+'0.1','h','scale of a photograph')],
-'1.1.3':[l(A+'0.0','h','horizon defined for vertical')],
-'2.0':[l(A+'1.1.1','h','foreground larger than background')],
+'1.1':[l(A+'0.1','h','scale of a photograph')],
+'1.3':[l(A+'0.0','h','horizon defined for vertical')],
+'2.0':[l(A+'1.1','h','foreground larger than background')],
 '2.1':[l(A+'0.0','h','vertical shows only roofs')],
 '3.2':[l(A+'3.0','e','left, centre, right strips'),l(A+'3.1','e','foreground, middleground, background strips')],
 '3.3':[l(A+'3.2','h','accepted zone notation')],
@@ -34,8 +34,8 @@ P1={
 '11.3':[l(A+'3.2','h','zone notation')],
 '11.4':[l(A+'11.0','e','foreground to background direction')],
 '12.1':[l(M+'8.0','h','contours on the map')],
-'12.2':[l(A+'1.1.1','h','oblique scale changes'),l(M+'0.2','h','constant map scale','low')],
-'13.0':[l(A+'1.1.1','e','oblique scale not constant')],
+'12.2':[l(A+'1.1','h','oblique scale changes'),l(M+'0.2','h','constant map scale','low')],
+'13.0':[l(A+'1.1','e','oblique scale not constant')],
 '13.1':[l(M+'0.2','e','ratio scale meaning'),l(A+'0.1','h','vertical photograph scale')],
 '13.2':[l(M+'0.4','h','1:50 000 means 2 cm to 1 km')],
 '13.3':[l(M+'0.4','e','2 cm = 1 km on 1:50 000'),l(A+'13.2','h','example distances')],
@@ -122,7 +122,7 @@ def run(pack,links,name,cost):
         k=i[len(A):]
         d={}
         if cost:
-            d['cost']=2 if k in cost2 else 1;c2+=d['cost']==2
+            d['cost']=2 if i in cost2 else 1;c2+=d['cost']==2
         d['needs']=links.get(k,[])
         for n in d['needs']:
             assert n['id'] in allids and n['id']!=i,(i,n)

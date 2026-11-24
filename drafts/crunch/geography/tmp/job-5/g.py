@@ -10,7 +10,7 @@ L={ # id: [(target,strength,why,conf)]
 '1.1':[('1.2',H,'headquarters','high')],
 '2.0':[('0.0',E,'weight-losing raw materials','high')],
 '2.3':[('2.2',H,'labour skills and wages','high')],
-'2.4':[('2.11.0',H,'Intel Leixlip example','high'),('2.13.0',H,'Galway cluster example','high')],
+'2.4':[('11.0',H,'Intel Leixlip example','high'),('13.0',H,'Galway cluster example','high')],
 '3.0':[('0.1',H,'bulk-gaining goods near market','high')],
 '3.7':[('1.7',H,'infrastructure','high')],
 '4.1':[('1.4',H,'serviced sites, estates','low')],
@@ -87,7 +87,7 @@ L={ # id: [(target,strength,why,conf)]
 '27.2':[('27.0',H,'remote working','high')],
 '27.4':[('27.1',H,'broadband rollout','high')],
 '28.1':[('19.3',E,'automation','high'),('2.2',H,'labour cost','high')],
-'29.0':[(A+'1.3.2',E,'accepted notation','high'),(A+'1.10.0',H,'grid reference','high')],
+'29.0':[(A+'3.2',E,'accepted notation','high'),(A+'10.0',H,'grid reference','high')],
 '29.3':[('29.0',H,'same answer structure','high')],
 '30.0':[('5.0',E,'flat land site','high')],
 '30.1':[('3.6',H,'freight transport modes','low')],
@@ -102,7 +102,7 @@ L={ # id: [(target,strength,why,conf)]
 '34.0':[('29.0',E,'grid reference evidence','high'),('30.0',H,'flat land factor','high')],
 '34.1':[('5.0',E,'site needs','high')],
 '34.2':[('29.3',E,'reason against structure','high'),('33.1',E,'floodplain','high')],
-'35.0':[(A+'1.3.2',E,'accepted notation','high')],
+'35.0':[(A+'3.2',E,'accepted notation','high')],
 }
 out={}
 for i in tg:
