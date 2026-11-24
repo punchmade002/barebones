@@ -40,6 +40,11 @@ and LC mode or Test mode.
   discounted (more for essential links than for helpful ones). The cut is greedy
   and recomputes after each removal, so it naturally prefers coherent bundles.
 
+**Loops are bundles** (decided 2026-11-24). When points need each other (A needs B
+and B needs A, or a longer loop), they are kept or cut together and share one
+value: their combined score ÷ their combined cost. Links inside a bundle pass no
+value and cause no gap discount. No link is dropped.
+
 **Learning cost.** A simple item costs 1. A long or complicated item costs 2, the
 same as two simple ones. The AI judges both "long" and "complicated" in one
 rating per item (no word-count rule). The cut ranks items by score ÷ cost. When
@@ -94,6 +99,13 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
   `drafts/crunch/<subject>/point-cycles.json`, spot-check list in
   `drafts/crunch/<subject>/point-review.md`. `drafts/crunch/<subject>/audit.py`
   flags packages with an odd cost-2 rate, link density or default-filled runs.
+- `python3 scripts/crunch_map.py <subject>` → `drafts/crunch/<subject>/map/data.json`
+  for the Crunch map (`drafts/crunch/biology/map/crunch-map.html`, published as
+  https://claude.ai/artifact/NfUzpeCV4bVWn5yvDDsAq3). The scoring lives in
+  `drafts/crunch/biology/map/crunch-score.js`: bundles loops, scores downstream,
+  then makes a greedy cut with gap discounts. The map's tuning defaults are hop
+  decay 0.5, helpful weight 0.5, gap discount 0.5 essential and 0.2 helpful. Until
+  exam value exists, every point counts as 1 mark.
 - Not under `content/<subject>/`: `build_notes.py` reads every `.json` there as a
   subsection.
 
