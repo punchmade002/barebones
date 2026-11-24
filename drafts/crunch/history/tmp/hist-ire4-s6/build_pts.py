@@ -7,8 +7,7 @@ def run(pkg,pre,data):
     tids=re.findall(r'^\[([^\]]+)\]',tg,re.M)
     allids=set(re.findall(r'^\[([^\]]+)\]',txt,re.M))
     out={};links=0;c2=0;low=0
-    for k in tids:
-        assert k in data,k
+    data={(k if k.startswith('hist-') else pre+'.'+k):v for k,v in data.items()}
     assert set(data)==set(tids),set(data)^set(tids)
     for k in tids:
         cost,needs=data[k]
@@ -41,7 +40,7 @@ d={
 '3.b':(1,[]),'3.0':(1,[]),'3.1':(1,[('3.0',Hl,'Mannix background','high')]),
 '3.2':(2,[]),'3.3':(1,[('3.2',E,'conscription campaign','high')]),
 '3.4':(1,[]),'3.5':(2,[('3.4',Hl,'Mannix and Irish independence','low')]),
-'3.6':(1,[('6.6.6',Hl,'Orange Order in Australia','high')]),
+'3.6':(1,[('6.6',Hl,'Orange Order in Australia','high')]),
 '3.7':(2,[]),'3.8':(1,[('3.3',Hl,'accusations of disloyalty','high')]),
 '3.9':(2,[]),
 '4.b':(1,[]),'4.0':(1,[]),'4.1':(1,[]),'4.2':(1,[]),
@@ -63,7 +62,6 @@ d={
 '8.3':(2,[]),
 '8.4':(2,[('5.b',Hl,'Ulster Protestant loyalism','high')]),
 }
-d={p+'.s6.'+k if False else p+'.'+k:v for k,v in d.items()}
 # ids in package: 'hist-ire4-s6.X'; short keys expand relative to p
 def fix(d,p,fixer):pass
 d2={}
