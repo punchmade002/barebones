@@ -104,8 +104,12 @@ first full LC-mode test once exam value exists (25 years of tagged papers).
   https://claude.ai/artifact/NfUzpeCV4bVWn5yvDDsAq3). The scoring lives in
   `drafts/crunch/biology/map/crunch-score.js`: bundles loops, scores downstream,
   then makes a greedy cut with gap discounts. The map's tuning defaults are hop
-  decay 0.5, helpful weight 0.5, gap discount 0.5 essential and 0.2 helpful. Until
-  exam value exists, every point counts as 1 mark.
+  decay 0.5, helpful weight 0.5, gap discount 0.5 essential and 0.2 helpful.
+  **Interim exam value (2026-11-24):** each subsection's Higher Level past-paper
+  marks (2015–2025, a part tagged to several subsections split evenly) are shared
+  evenly among its points. Every year counts the same and question choice is
+  ignored. Biology results: a 55% target cuts 73% of study effort, 35% cuts 86%,
+  and 95% cuts 10% (never-examined content). Next is tagging exam parts to points.
 - Not under `content/<subject>/`: `build_notes.py` reads every `.json` there as a
   subsection.
 

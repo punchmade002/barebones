@@ -119,7 +119,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
       </section>
       <section class="panel">
         <h2>Highest value</h2>
-        <p class="note">Marks each point carries per unit of study, counting what depends on it.</p>
+        <p class="note">Exam marks per unit of study, counting what depends on it. 1.00 is an average point.</p>
         <ol class="points" id="top"></ol>
       </section>
       <section class="panel">
@@ -137,7 +137,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
             <p class="note" id="t-status">&nbsp;</p>
           </div>
         </details>
-        <p class="note">Exam value isn't in yet, so every point counts as one mark. Value here comes only from what depends on a point and how long or complex it is. Points in a loop (each needs the other) are bundled: kept or hidden together, with one shared value.</p>
+        <p class="note">Exam value: each subsection’s share of Higher Level marks from 2015–2025 (old course), split evenly across its points. Every year counts the same, and question choice isn’t counted yet. Points in a loop (each needs the other) are bundled: kept or hidden together, with one shared value.</p>
       </section>
     </aside>
   </div>
@@ -146,7 +146,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
 <script src="crunch-score.js"></script>
 <script>
 (() => {
-  const GRADES = [95, 85, 75, 65, 55, 45, 35, 25];
+  const GRADES = [95, 85, 75, 65, 55, 45, 35, 25]; // 10% steps, middle of each H band
   const BAND = { 95: ["H1", 100], 85: ["H2", 88], 75: ["H3", 77], 65: ["H4", 66], 55: ["H5", 56], 45: ["H6", 46], 35: ["H7", 37], 25: ["H8", 0] };
   const $ = id => document.getElementById(id);
   const wrap = $("wrap"), cv = $("cv"), ctx = cv.getContext("2d"), bar = $("bar"), tip = $("tip");
@@ -273,6 +273,9 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
     draw();
   }
 
+  // value relative to the course average per unit of study: 1.00 = average point, 0 = never examined and nothing needs it
+  const val = i => ((R.initValue[i] * totalCost) / 100).toFixed(2);
+  const subShare = i => (100 * sub(i)[3]) / D.subs.reduce((a, s) => a + s[3], 0);
   const short = (t, n) => (t.length > n ? t.slice(0, n - 1) + "…" : t);
   const whereLabel = i => `Ch ${sub(i)[2] + 1} · ${sub(i)[1]}`;
 
@@ -284,7 +287,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
 
   function lists() {
     const idx = Array.from({ length: N }, (_, i) => i).sort((a, b) => R.initValue[b] - R.initValue[a] || R.order[b] - R.order[a]);
-    const row = i => `<li><button data-i="${i}"><span class="v">${R.initValue[i].toFixed(2)}</span><span class="t">${esc(short(D.items[i][3], 90))}<small>${esc(whereLabel(i))}</small></span></button></li>`;
+    const row = i => `<li><button data-i="${i}"><span class="v">${val(i)}</span><span class="t">${esc(short(D.items[i][3], 90))}<small>${esc(whereLabel(i))}</small></span></button></li>`;
     $("top").innerHTML = idx.slice(0, 40).map(row).join("");
     $("bottom").innerHTML = idx.slice(-40).reverse().map(row).join("");
   }
@@ -298,8 +301,8 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
       <h2>Selected point</h2>
       <p>${esc(it[3])}</p>
       <p class="note">${esc(chapterOf(i)[1])} · ${esc(sub(i)[1])} · <span class="num">${it[0]}</span></p>
-      <p><span class="chip">${it[2] === 2 ? "long or complex (cost 2)" : "simple (cost 1)"}</span> <span class="chip">value ${R.initValue[i].toFixed(2)}</span> <span class="chip">${isCut(i) ? "hidden now" : "kept now"}</span></p>
-      <p class="note">${hiddenAt(i)}.</p>
+      <p><span class="chip">${it[2] === 2 ? "long or complex (cost 2)" : "simple (cost 1)"}</span> <span class="chip">value ${val(i)}</span> <span class="chip">${isCut(i) ? "hidden now" : "kept now"}</span></p>
+      <p class="note">${hiddenAt(i)}. ${sub(i)[3] ? `Its subsection drew ${subShare(i).toFixed(1)}% of Higher Level marks, 2015–2025.` : "Its subsection hasn’t come up on a Higher Level paper, 2015–2025."}</p>
       ${bundle.length > 1 ? `<p class="note">In a loop with ${bundle.length - 1} other point${bundle.length > 2 ? "s" : ""}: kept or hidden together.</p>` : ""}
       <div class="links"><div class="eyebrow" style="color:var(--needs)">Needs (${R.needs[i].length})</div>${R.needs[i].map(l => link(l, "var(--needs)")).join("") || '<p class="note">Nothing: it stands on its own.</p>'}</div>
       <div class="links"><div class="eyebrow" style="color:var(--needed-by)">Needed by (${R.deps[i].length})</div>${R.deps[i].map(l => link(l, "var(--needed-by)")).join("") || '<p class="note">Nothing depends on it.</p>'}</div>`;
@@ -311,7 +314,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   function showTip(i, px, py) {
     if (i < 0) { tip.hidden = true; return; }
     const it = D.items[i];
-    tip.innerHTML = `<div>${esc(short(it[3], 220))}</div><div class="meta">${esc(whereLabel(i))}</div><div class="meta">Value ${R.initValue[i].toFixed(2)} · ${it[2] === 2 ? "long or complex" : "simple"} · needs ${R.needs[i].length} · needed by ${R.deps[i].length}</div><div class="meta">${hiddenAt(i)}</div>`;
+    tip.innerHTML = `<div>${esc(short(it[3], 220))}</div><div class="meta">${esc(whereLabel(i))}</div><div class="meta">Value ${val(i)} · ${it[2] === 2 ? "long or complex" : "simple"} · needs ${R.needs[i].length} · needed by ${R.deps[i].length}</div><div class="meta">${hiddenAt(i)}</div>`;
     tip.hidden = false;
     const tw = tip.offsetWidth, th = tip.offsetHeight;
     tip.style.left = Math.max(4, Math.min(W - tw - 4, px + 14)) + "px";

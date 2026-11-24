@@ -1,6 +1,8 @@
 // Crunch Mode scoring (see CRUNCH_MODE.md). Plain script: defines globalThis.crunchScore.
 // D = data.json from scripts/crunch_map.py. P = {decay, helpW, gapE, gapH}.
-// Exam value isn't in yet, so every point carries 1 mark (shortcut: swap `base` for real exam value once its formula is agreed).
+// Exam value: each subsection's past-paper marks (D.subs[s][3]) split evenly across its points, scaled so the course totals 100.
+// shortcut: even split within a subsection, until exam parts are tagged to individual points.
+// With no marks in D, every point carries the same share.
 (function () {
   function scc(N, needs) {
     // Tarjan, iterative. Components come out prerequisites-first: if v needs w, comp[w] <= comp[v].
@@ -58,7 +60,11 @@
     for (let i = 0; i < N; i++) members[comp[i]].push(i);
     const inner = (i, j) => comp[i] === comp[j]; // links inside a bundle carry no value or gap
 
-    const m = new Float64Array(N).fill(1); // marks the item still earns (1, minus gap discounts)
+    const subs = D.subs || [], nIn = new Int32Array(subs.length);
+    for (const r of D.items) if (subs.length) nIn[r[1]]++;
+    const M = subs.reduce((a, s) => a + (s[3] || 0), 0);
+    const base = Float64Array.from(D.items, r => (M ? (100 * (subs[r[1]][3] || 0)) / M / nIn[r[1]] : 100 / N));
+    const m = Float64Array.from(base); // % of exam marks the item still earns (base, minus gap discounts)
     const score = new Float64Array(N), cut = new Uint8Array(N);
     const w = ess => (ess ? 1 : P.helpW);
     const rescore = u => {
@@ -82,7 +88,7 @@
     const ver = new Int32Array(nc), heap = [];
     const tie = b => (b * 2654435761) % 4294967296; // spread equal-value cuts across the course
     for (let b = 0; b < nc; b++) heapPush(heap, [bundleValue(b), tie(b), b, 0]);
-    let covered = N;
+    let covered = 100;
     const y = new Float64Array(N), order = new Int32Array(N), steps = [];
     let step = 0;
     while (heap.length) {
@@ -98,7 +104,7 @@
         }
         for (const [j] of needs[u]) if (!cut[j] && !inner(u, j)) touched.add(j);
       }
-      const cov = (100 * covered) / N;
+      const cov = covered;
       for (const u of members[b]) { y[u] = cov - 5; order[u] = step; }
       steps.push(cov);
       step++;
@@ -115,6 +121,6 @@
     }
     const loops = members.filter(g => g.length > 1);
     // y[u]: the item is hidden when the target grade is at or below y[u] (cut while marks covered >= target + 5).
-    return { y, order, initScore, initValue, comp, members, loops, steps, needs, deps };
+    return { y, order, base, initScore, initValue, comp, members, loops, steps, needs, deps };
   };
 })();

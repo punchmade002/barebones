@@ -2,7 +2,7 @@
 
     python3 scripts/crunch_map.py biology   # writes drafts/crunch/<subject>/map/data.json
 
-data.json is one object: chapters [[id, title]], subs [[sid, title, chapter index]],
+data.json is one object: chapters [[id, title]], subs [[sid, title, chapter index, exam marks]],
 items [[id, sub index, cost, text]], links [[item index, needs index, 1 essential | 0 helpful]].
 The page (drafts/crunch/crunch-map.html) does the scoring, so tuning needs no re-export.
 """
@@ -13,6 +13,22 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crunch_points import ROOT, items
+
+
+def exam_marks(subject):
+    """Higher Level past-paper marks per subsection; a part tagged to several subsections splits its marks evenly.
+    shortcut: every year weighs the same and question choice is ignored, until the exam-value formula is agreed."""
+    s = (ROOT / f"{subject}-exam-questions.js").read_text()
+    qs = json.loads(s[s.index("[", s.index("concat(")):s.rindex("]") + 1])
+    marks = {}
+    for q in qs:
+        if q.get("level") != "higher":
+            continue
+        for p in q["parts"]:
+            refs = p.get("notesRefs") or []
+            for r in refs:
+                marks[r] = marks.get(r, 0) + p["marks"] / len(refs)
+    return marks
 
 
 def main(subject):
@@ -26,10 +42,11 @@ def main(subject):
         chapters.append([c, m.group(1) if m else c])
     ch_index = {c: i for i, (c, _) in enumerate(chapters)}
     sids = sorted(all_items, key=lambda s: [int(n) for n in re.findall(r"\d+", s)])
+    marks = exam_marks(subject)
     subs, rows = [], []
     for si, sid in enumerate(sids):
         title, its = all_items[sid]
-        subs.append([sid, title, ch_index[sid.split("-")[0]]])
+        subs.append([sid, title, ch_index[sid.split("-")[0]], round(marks.get(sid, 0), 2)])
         for iid, text, h in its:
             p = points[iid]
             assert p["hash"] == h, f"{iid} text changed since it was rated; re-run that package"
