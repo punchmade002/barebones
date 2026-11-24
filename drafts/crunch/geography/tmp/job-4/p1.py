@@ -67,7 +67,8 @@ a('34.0',1,('29.0','e','factor plus map evidence structure'),('30.0','h','flat l
 a('34.1',1,('34.0','h','reason for locating'))
 a('34.2',1,('33.1','e','floodplain as reason against'))
 a('35.0',1,('29.0','h','map evidence structure','l'))
-# order by pack
+a('4.1',1)
+a('21.4',1)
 import re
 tg=[re.match(r'\[([^\]]+)\]',l).group(1) for l in open('/Users/gabrielwhelan/barebones/drafts/crunch/geography/packs/geo-economic-activities-s2.t1g1.txt').read().split('CANDIDATES')[0].split('\n') if l.startswith('[')]
 missing=[t for t in tg if t not in D]
