@@ -56,7 +56,7 @@ html:not(.bb-signed-in) .auth-in { display: none !important; }
 .btn-orange:hover { background: oklch(0.6 0.21 37); }
 .btn-quiet { min-height: 40px; padding: 0 14px; font-size: 15px; background: transparent; color: inherit; }
 
-/* ================= HERO: orange field, white dots ================= */
+/* ================= HERO: orange LED field ================= */
 .hero {
   position: relative;
   background: var(--orange);
@@ -64,11 +64,11 @@ html:not(.bb-signed-in) .auth-in { display: none !important; }
   overflow: hidden;
   isolation: isolate;
 }
-.hero::before {                     /* the logo's LED grid, as a field */
+.hero .field { position: absolute; inset: 0; z-index: -1; width: 100%; height: 100%; pointer-events: none; }
+.hero:not(.has-field)::before {     /* static dots when there's no canvas (no JS, final band) */
   content: ""; position: absolute; inset: 0; z-index: -1;
   background-image: radial-gradient(circle, var(--on-orange) 1.6px, transparent 1.8px);
   background-size: 18px 18px;
-  background-position: 9px 9px;
   opacity: 0.2;
 }
 .hero :focus-visible { outline-color: var(--on-orange); }
@@ -86,68 +86,89 @@ body[data-hero="c"] #hero-c,
 body[data-hero="d"] #hero-d,
 body[data-hero="e"] #hero-e { display: block; }
 .hero-body {
-  min-height: min(720px, calc(100svh - 64px));
+  min-height: min(760px, calc(100svh - 64px));
   display: grid; align-content: center; gap: 28px;
-  padding-top: 24px; padding-bottom: 56px;
+  padding-top: 16px; padding-bottom: 56px;
 }
-@media (min-width: 700px) { .hero-body { min-height: min(760px, calc(100svh - 80px)); padding-bottom: 80px; } }
-.hero .sub { margin: 0; max-width: 30ch; font: 700 20px/1.35 var(--font-body); }
+@media (min-width: 700px) { .hero-body { min-height: min(800px, calc(100svh - 80px)); padding-bottom: 80px; } }
 
-/* A: poster type */
-.poster {
-  font-weight: 900; font-stretch: 62%;
-  font-size: clamp(5.2rem, 25vw, 15rem);
-  line-height: 0.8; letter-spacing: -0.02em;
-  text-transform: uppercase;
+/* the one headline style: heavy, narrowed Archivo */
+.say {
+  font-weight: 900; font-stretch: 72%;
+  font-size: clamp(2.7rem, 9vw, 5.6rem);
+  line-height: 0.92; letter-spacing: -0.015em;
+  max-width: 14ch;
 }
 
-/* B: the dot grid spells it */
-.matrix { display: block; min-height: 7rem; }
-.matrix .pix { max-width: 100%; }
-
-/* C: the question is the hero */
-.q-src { margin: 0; font: 700 19px/1.3 var(--font-body); }
-.q-big { font-weight: 800; font-size: clamp(2.1rem, 6.4vw, 4.4rem); line-height: 1.02; letter-spacing: -0.025em; max-width: 18ch; }
-.hero-demo { display: grid; gap: 16px; max-width: 640px; }
-.hero-demo .answer {
-  color: var(--on-orange); background: transparent;
-  background-image: repeating-linear-gradient(to bottom, transparent 0 31px, oklch(1 0 0 / 0.5) 31px 32px);
-  font: 700 19px/32px var(--font-body); padding: 0; min-height: calc(32px * 3 + 2px);
+/* slots where the field lights text; they only reserve space */
+.led { width: 100%; }
+.led-word { height: 72px; }
+.led-num { height: 130px; }
+@media (min-width: 700px) {
+  .led-word { height: 220px; }
+  .led-num { height: 330px; max-width: 900px; }
 }
-.hero-demo .answer::placeholder { color: var(--on-orange); }
-.hero-demo .answer:focus { outline: 2px solid var(--on-orange); outline-offset: 4px; }
-/* small text never sits on the orange: results go on ink */
-.hero-demo .result { margin-top: 4px; padding: 18px; border: 0; border-radius: 12px; background: var(--ink); }
-.hero-demo .score { color: var(--on-orange); }
-.hero-demo .score svg path { stroke: var(--on-orange); }
-.hero-demo .score small, .hero-demo .result-say { color: var(--on-orange); }
-.hero-demo .points .tick, .hero-demo .points .miss, .hero-demo .points .miss .tick { color: var(--on-orange); }
-.hero-demo .points .miss { color: oklch(0.8 0.01 60); }
-.hero-demo .points li { font-size: 16px; font-weight: 500; }
-.hero-demo .nudge { background: var(--ink); color: var(--on-orange); }
-.hero-demo .nudge .btn { background: var(--orange); color: var(--ink); }
-.hero-demo .hint { color: var(--on-orange); font: 700 19px/1.3 var(--font-body); }
 
-/* D: the examiner's circle */
-.d-grid { display: grid; gap: 28px; align-items: center; }
-@media (min-width: 860px) { .d-grid { grid-template-columns: auto 1fr; gap: 64px; } }
-.big-score { position: relative; display: inline-grid; place-items: center; width: min(88vw, 520px); aspect-ratio: 1.45; }
-.big-score svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-.big-score path { fill: none; stroke: var(--on-orange); stroke-width: 1.4; stroke-linecap: round; stroke-dasharray: 1; animation: draw-big 900ms 200ms var(--ease) both; }
-@keyframes draw-big { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
-.big-score span { font: 900 clamp(5rem, 24vw, 11rem)/1 var(--font-display); font-stretch: 75%; letter-spacing: -0.03em; }
-.big-score small { font-size: 0.42em; font-weight: 800; opacity: 0.8; }
-
-/* E: pick your subject */
-.ask { font-weight: 900; font-stretch: 75%; font-size: clamp(3rem, 12vw, 7.5rem); line-height: 0.9; letter-spacing: -0.02em; max-width: 12ch; }
-.subjects { display: flex; flex-wrap: wrap; gap: 10px; max-width: 760px; }
-.subjects a {
-  display: inline-flex; align-items: center; min-height: 52px; padding: 0 22px;
-  border-radius: 999px; border: 2px solid var(--on-orange);
-  font: 800 18px/1 var(--font-display); text-decoration: none;
-  transition: background-color 180ms var(--ease), color 180ms var(--ease);
+/* B: live marking */
+.b-grid, .e-grid { gap: 40px; }
+.b-pitch { display: grid; gap: 28px; align-content: center; }
+@media (min-width: 960px) {
+  .b-grid { grid-template-columns: 0.9fr 1.1fr; align-items: center; gap: 56px; }
+  .e-grid { grid-template-columns: 0.8fr 1.2fr; align-items: center; gap: 40px; }
 }
-.subjects a:hover { background: var(--on-orange); color: var(--orange-ink); }
+.mk { display: grid; gap: 14px; max-width: 600px; opacity: 0; transform: translateY(8px); transition: opacity 400ms var(--ease), transform 400ms var(--ease); }
+.mk.in { opacity: 1; transform: none; }
+.mk-src { margin: 0; font: 700 19px/1.3 var(--font-body); }
+.mk-q { margin: 0; font: 800 clamp(1.5rem, 3vw, 2.1rem)/1.15 var(--font-display); letter-spacing: -0.01em; }
+.mk-ans { margin: 0; min-height: 4.2em; font: 700 19px/1.45 var(--font-body); }
+.mk-ans::after { content: ""; display: inline-block; width: 2px; height: 1.1em; margin-left: 2px; vertical-align: -0.15em; background: var(--on-orange); animation: caret 900ms steps(1) infinite; }
+@keyframes caret { 50% { opacity: 0; } }
+.mk-points { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; justify-items: start; }
+.mk-points li {
+  display: inline-flex; gap: 10px; align-items: baseline;
+  padding: 9px 14px; border-radius: 10px;
+  background: var(--ink); color: var(--on-orange);
+  font: 600 16px/1.3 var(--font-body);
+  opacity: 0; transform: translateX(-10px);
+  transition: opacity 300ms var(--ease), transform 300ms var(--ease);
+}
+.mk-points li.on { opacity: 1; transform: none; }
+.mk-points li b { font: 900 17px/1 var(--font-display); color: var(--orange); }
+.mk-points li.miss { color: oklch(0.8 0.01 60); }
+.mk-points li.miss b { color: oklch(0.8 0.01 60); }
+.led-score { height: 130px; }
+@media (min-width: 700px) { .led-score { height: 220px; max-width: 540px; } }
+.mk-circle { position: absolute; overflow: visible; pointer-events: none; }
+.mk-circle path { fill: none; stroke: var(--on-orange); stroke-width: 2.4; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; }
+.mk-circle.on path { animation: draw-ring 800ms var(--ease) forwards; }
+@keyframes draw-ring { to { stroke-dashoffset: 0; } }
+
+/* D: countdown */
+.d-label { margin: -8px 0 0; font: 700 21px/1.3 var(--font-body); }
+.clock { font-variant-numeric: tabular-nums; }
+
+/* E: the pile */
+.pile { position: relative; height: 380px; }
+@media (min-width: 960px) { .pile { height: 600px; } }
+.card {
+  position: absolute; left: var(--x); top: var(--y);
+  width: 150px; padding: 12px 14px; border-radius: 12px;
+  display: grid; gap: 4px;
+  background: var(--paper); color: var(--ink);
+  box-shadow: 0 18px 30px -18px oklch(0.2 0.05 40 / 0.7);
+  transform: translate(-50%, -50%) rotate(var(--r));
+}
+.card small { font: 600 13px/1.2 var(--font-body); color: var(--muted); }
+.card b { font: 800 17px/1.15 var(--font-display); }
+.card .ticks { color: var(--orange-ink); letter-spacing: 0.1em; }
+.card i { display: block; height: 6px; margin-top: 4px; border-radius: 9px; background: linear-gradient(to right, var(--orange) var(--p), var(--paper-2) var(--p)); }
+.card.dark { background: var(--ink); color: var(--on-orange); }
+.card.dark small { color: var(--orange); }
+@media (min-width: 960px) { .card { width: 200px; padding: 16px 18px; } .card b { font-size: 21px; } }
+.pile.go .card { animation: drop 720ms var(--ease) both; animation-delay: var(--d); }
+@keyframes drop {
+  from { transform: translate(-50%, calc(-50% - 900px)) rotate(calc(var(--r) + 30deg)); }
+}
 
 /* option switcher, only on localhost */
 .picker {
@@ -165,7 +186,6 @@ body[data-hero="e"] #hero-e { display: block; }
 
 /* ================= the exam sheet (demo) ================= */
 .try { padding: 64px 0 24px; }
-body[data-hero="c"] .try { display: none; }   /* option C already is the demo */
 .sheet {
   margin: 0 auto;
   background: var(--paper);
@@ -242,20 +262,6 @@ body[data-hero="c"] .try { display: none; }   /* option C already is the demo */
 .bars .track { grid-column: 1 / -1; height: 8px; border-radius: 99px; background: var(--paper-2); overflow: hidden; }
 .bars .fill { height: 100%; border-radius: inherit; background: var(--orange); }
 .bars .low .fill { background: var(--ink-2); }
-
-.bank { background: var(--paper); }
-.ledger { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
-.ledger th { text-align: left; font: 600 14px/1.2 var(--font-body); color: var(--muted); padding: 0 0 12px; border-bottom: 2px solid var(--ink); }
-.ledger td { padding: 15px 0; border-bottom: 1px solid var(--line); vertical-align: baseline; }
-.ledger th:not(:first-child), .ledger td:not(:first-child) { text-align: right; padding-left: 12px; }
-.ledger td:first-child a { font: 800 19px/1.2 var(--font-display); text-decoration: none; }
-.ledger td:first-child a:hover { color: var(--orange-ink); text-decoration: underline; text-underline-offset: 4px; }
-.ledger .years { color: var(--ink-2); white-space: nowrap; }
-.ledger .n { font: 800 19px/1 var(--font-display); }
-.ledger .soon { color: var(--muted); font-size: 15px; }
-.ledger tfoot td { border-bottom: 0; padding-top: 20px; color: var(--ink-2); }
-.ledger tfoot .n { font-size: clamp(28px, 6vw, 44px); color: var(--orange-ink); font-weight: 900; }
-@media (max-width: 520px) { .ledger .years { font-size: 14px; } .ledger td:first-child a, .ledger .n { font-size: 17px; } }
 
 .faq { max-width: 760px; }
 .faq details { border-bottom: 1px solid var(--line); }

@@ -116,7 +116,7 @@
         a += (1 - a) * lit;
         ctx.globalAlpha = a > 1 ? 1 : a;
         ctx.beginPath();
-        ctx.arc(x, y, gap * (0.11 + 0.13 * lit + 0.07 * Math.min(1, grow)), 0, TAU);
+        ctx.arc(x, y, gap * (0.11 + 0.27 * lit + 0.07 * Math.min(1, grow)), 0, TAU);
         ctx.fill();
       }
     }
