@@ -34,6 +34,10 @@ h2 { font-family: var(--f-display); font-weight: 600; font-size: 15px; margin: 0
 
 .layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 16px; align-items: start; }
 @media (max-width: 980px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+.aac { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; padding: 10px 16px; border-bottom: 1px solid var(--line); font-size: 12.5px; color: var(--ink-2); }
+.aac label { display: flex; align-items: center; gap: 8px; font-weight: 600; color: var(--ink); }
+.aac input { width: 4.5em; font: 500 14px var(--f-data); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 4px 6px; }
+.aac input:focus-visible { outline: 2px solid var(--kept); outline-offset: 1px; }
 .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
 
 .stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
@@ -105,7 +109,11 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
         <div class="stat"><span>Target grade</span><b id="s-grade">—</b><span id="s-band">&nbsp;</span></div>
         <div class="stat"><span>Points kept</span><b id="s-kept">—</b><span id="s-kept-of">&nbsp;</span></div>
         <div class="stat"><span>Study effort cut</span><b id="s-effort">—</b><span>long or complex points count double</span></div>
-        <div class="stat"><span>Expected score</span><b id="s-cov">—</b><span id="s-cov-note">target + 5% margin</span></div>
+        <div class="stat"><span>Expected written score</span><b id="s-cov">—</b><span id="s-cov-note">target + 5% margin</span></div>
+      </div>
+      <div class="aac" id="aac-row" hidden>
+        <label for="aac">Expected AAC result <input id="aac" type="number" min="0" max="100" step="1" value="80" inputmode="numeric"> %</label>
+        <span id="aac-note"></span>
       </div>
       <div class="chartwrap" id="wrap">
         <canvas id="cv" aria-label="Scatter of all note points by course position and the grade that needs them"></canvas>
@@ -173,7 +181,13 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   const params = () => ({ decay: +$("t-decay").value, helpW: +$("t-helpw").value, gapE: +$("t-gape").value, gapH: +$("t-gaph").value,
     halfLife: +$("t-half").value, newShare: +$("t-new").value, choice: $("t-choice").checked, exact: +$("t-exact").value });
   let chance = [];
-  const isCut = i => R.y[i] >= grade;
+  // The bar is the overall grade. The AAC is marked separately, so the cut only has to deliver the rest on the written paper.
+  const aacW = () => (D && D.aac ? D.aac.weight : 0);
+  const aacScore = () => Math.max(0, Math.min(100, +$("aac").value || 0));
+  const writtenFor = G => (aacW() ? (G - aacW() * aacScore()) / (1 - aacW()) : G);
+  const overallFor = V => aacW() * aacScore() + (1 - aacW()) * V;
+  let need = 55;
+  const isCut = i => R.y[i] >= need;
   const sub = i => D.subs[D.items[i][1]];
   const chapterOf = i => D.chapters[sub(i)[2]];
   const yToPx = v => PAD.t + (1 - Math.max(0, Math.min(100, v)) / 100) * (H - PAD.t - PAD.b);
@@ -273,7 +287,8 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   }
 
   function update() {
-    const cutPts = []; let keptCost = 0, kept = 0;
+    need = writtenFor(grade);
+    let keptCost = 0, kept = 0;
     for (let i = 0; i < N; i++) if (!isCut(i)) { kept++; keptCost += D.items[i][2]; }
     // backtested marks: the realised score where the cut stops (the lowest hidden point's level)
     let cov = 100; for (let i = 0; i < N; i++) if (isCut(i)) cov = Math.min(cov, R.y[i] + 5);
@@ -283,11 +298,15 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
     $("s-kept-of").textContent = `of ${fmt(N)} in your course (${fmt(N - kept)} hidden)`;
     $("s-effort").textContent = Math.round(100 - (100 * keptCost) / totalCost) + "%";
     $("s-cov").textContent = cov.toFixed(1) + "%";
-    $("s-cov-note").textContent = grade + 5 >= 100 ? "full course needed" : `aim ${grade}% + 5% margin`;
+    $("s-cov-note").textContent = need > 100 ? "out of reach with this AAC result: keep everything"
+      : need + 5 >= 100 ? "full course needed"
+      : need <= 0 ? "your AAC result alone reaches this grade"
+      : `written paper needs ${Math.round(need)}% + 5% margin`;
+    if (D.aac) $("aac-note").textContent = `${D.aac.name}, ${Math.round(100 * aacW())}% of your grade. Written paper needed for ${grade}% overall: ${Math.max(0, Math.round(need))}%${need > 100 ? " (not possible)" : ""}.`;
     $("bar-label").textContent = `${grade}% · ${BAND[grade][0]}`;
     bar.setAttribute("aria-valuenow", grade);
     bar.setAttribute("aria-valuetext", `${grade}%, ${BAND[grade][0]}`);
-    const py = yToPx(grade);
+    const py = yToPx(need);
     bar.style.top = py + "px";
     $("r-cut").style.top = Math.max(PAD.t + 4, py - 26) + "px";
     $("r-kept").style.top = (py + 12) + "px";
@@ -308,7 +327,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
 
   function hiddenAt(i) {
     // highest grade step at which this point is hidden
-    const g = GRADES.find(G => R.y[i] >= G);
+    const g = GRADES.find(G => R.y[i] >= writtenFor(G));
     return g ? `Hidden at ${g}% and below` : "Kept at every target on the bar";
   }
 
@@ -364,7 +383,7 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   const setGrade = g => { if (g !== grade) { grade = g; update(); } };
   let dragging = false;
   bar.addEventListener("pointerdown", e => { dragging = true; bar.setPointerCapture(e.pointerId); e.preventDefault(); });
-  bar.addEventListener("pointermove", e => { if (dragging) setGrade(snap(pxToV(e.clientY - wrap.getBoundingClientRect().top))); });
+  bar.addEventListener("pointermove", e => { if (dragging) setGrade(snap(overallFor(pxToV(e.clientY - wrap.getBoundingClientRect().top)))); });
   bar.addEventListener("pointerup", () => { dragging = false; });
   bar.addEventListener("keydown", e => {
     const k = GRADES.indexOf(grade);
@@ -382,7 +401,9 @@ details summary { cursor: pointer; font-family: var(--f-display); font-weight: 6
   matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => R && draw());
   new MutationObserver(() => R && draw()).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 
+  $("aac").addEventListener("input", () => R && update());
   fetch("data.json").then(r => r.json()).then(d => {
+    $("aac-row").hidden = !d.aac;
     F = d;
     for (const kind of ["elective", "option", "region"])
       $("p-" + kind).innerHTML = F.picks[kind].map(([v, label]) => `<option value="${v}">${esc(label)}</option>`).join("");

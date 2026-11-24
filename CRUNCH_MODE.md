@@ -19,6 +19,14 @@ and links stale and they are redone.
 **Setup.** Per subject, from the subject page: target %, expected coursework %,
 and LC mode or Test mode.
 
+**AAC (built 2026-11-24).** Each map has an "Expected AAC result" box. The weights
+are in `scripts/crunch_map.py` `AAC`, taken from `<subject>-exam-info.js`: Biology
+in Practice Investigation 40%, Geographical Investigation 20%. The grade bar is the
+overall grade. The cut targets the written paper (target − weight × AAC) ÷
+(1 − weight), and the 5% margin applies to the written paper. If the AAC alone
+reaches the grade, everything is hidden. If the written paper would need over 100%,
+everything is kept and the page says it's out of reach.
+
 **Target maths.**
 - Coursework is subtracted first. For example, Biology 80% overall with 95%
   expected on the 40% investigation: written paper needs (80 − 0.4×95)/0.6 = 70%.
